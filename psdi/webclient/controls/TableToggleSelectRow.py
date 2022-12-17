@@ -1,24 +1,32 @@
-def TableToggleSelectRow():
-    '''public TableToggleSelectRow()
+def ():
+    '''returns TableToggleSelectRow\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def isSelectRowsToggled():
-    '''public String isSelectRowsToggled()
+    '''returns String\n\n
+    isSelectRowsToggled()\n
     '''
 def toggleselectrecords():
-    '''public void toggleselectrecords()
+    '''returns None\n\n
+    toggleselectrecords()\n
     '''
 def getRowType():
-    '''public int getRowType()
+    '''returns int\n\n
+    getRowType()\n
     '''
 def rowVisible():
-    '''public boolean rowVisible()
+    '''returns boolean\n\n
+    rowVisible()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def maintainControlId():
-    '''public boolean maintainControlId()
+    '''returns boolean\n\n
+    maintainControlId()\n
     '''

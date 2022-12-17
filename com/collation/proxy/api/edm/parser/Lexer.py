@@ -1,39 +1,41 @@
-def Lexer():
-    '''public Lexer(final String str)
+def ():
+    '''returns ReaderInputStream\n\n
+    (final String str)\n
+    (final Reader reader)\n
     '''
 def getToken():
-    '''public Token getToken()
+    '''returns Token\n\n
+    getToken()\n
     '''
 def getToken2():
-    '''public Token getToken2()
+    '''returns Token\n\n
+    getToken2()\n
     '''
 def ungetToken():
-    '''public void ungetToken(final Token t)
+    '''returns None\n\n
+    ungetToken(final Token t)\n
     '''
 def lookAhead():
-    '''public Token lookAhead()
+    '''returns Token\n\n
+    lookAhead()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def error():
-    '''public void error(final String msg)
-    '''
-def ReaderInputStream():
-    '''public ReaderInputStream(final Reader reader)
+    '''returns None\n\n
+    error(final String msg)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

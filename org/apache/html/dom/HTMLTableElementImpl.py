@@ -1,108 +1,92 @@
-def getCaption():
-    '''public synchronized HTMLTableCaptionElement getCaption()
-    '''
-def setCaption():
-    '''public synchronized void setCaption(final HTMLTableCaptionElement htmlTableCaptionElement)
-    '''
-def createCaption():
-    '''public synchronized HTMLElement createCaption()
-    '''
-def deleteCaption():
-    '''public synchronized void deleteCaption()
-    '''
-def getTHead():
-    '''public synchronized HTMLTableSectionElement getTHead()
-    '''
-def setTHead():
-    '''public synchronized void setTHead(final HTMLTableSectionElement htmlTableSectionElement)
-    '''
-def createTHead():
-    '''public synchronized HTMLElement createTHead()
-    '''
-def deleteTHead():
-    '''public synchronized void deleteTHead()
-    '''
-def getTFoot():
-    '''public synchronized HTMLTableSectionElement getTFoot()
-    '''
-def setTFoot():
-    '''public synchronized void setTFoot(final HTMLTableSectionElement htmlTableSectionElement)
-    '''
-def createTFoot():
-    '''public synchronized HTMLElement createTFoot()
-    '''
-def deleteTFoot():
-    '''public synchronized void deleteTFoot()
-    '''
 def getRows():
-    '''public HTMLCollection getRows()
+    '''returns HTMLCollection\n\n
+    getRows()\n
     '''
 def getTBodies():
-    '''public HTMLCollection getTBodies()
+    '''returns HTMLCollection\n\n
+    getTBodies()\n
     '''
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getBgColor():
-    '''public String getBgColor()
+    '''returns String\n\n
+    getBgColor()\n
     '''
 def setBgColor():
-    '''public void setBgColor(final String s)
+    '''returns None\n\n
+    setBgColor(final String s)\n
     '''
 def getBorder():
-    '''public String getBorder()
+    '''returns String\n\n
+    getBorder()\n
     '''
 def setBorder():
-    '''public void setBorder(final String s)
+    '''returns None\n\n
+    setBorder(final String s)\n
     '''
 def getCellPadding():
-    '''public String getCellPadding()
+    '''returns String\n\n
+    getCellPadding()\n
     '''
 def setCellPadding():
-    '''public void setCellPadding(final String s)
+    '''returns None\n\n
+    setCellPadding(final String s)\n
     '''
 def getCellSpacing():
-    '''public String getCellSpacing()
+    '''returns String\n\n
+    getCellSpacing()\n
     '''
 def setCellSpacing():
-    '''public void setCellSpacing(final String s)
+    '''returns None\n\n
+    setCellSpacing(final String s)\n
     '''
 def getFrame():
-    '''public String getFrame()
+    '''returns String\n\n
+    getFrame()\n
     '''
 def setFrame():
-    '''public void setFrame(final String s)
+    '''returns None\n\n
+    setFrame(final String s)\n
     '''
 def getRules():
-    '''public String getRules()
+    '''returns String\n\n
+    getRules()\n
     '''
 def setRules():
-    '''public void setRules(final String s)
+    '''returns None\n\n
+    setRules(final String s)\n
     '''
 def getSummary():
-    '''public String getSummary()
+    '''returns String\n\n
+    getSummary()\n
     '''
 def setSummary():
-    '''public void setSummary(final String s)
+    '''returns None\n\n
+    setSummary(final String s)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final String s)
+    '''returns None\n\n
+    setWidth(final String s)\n
     '''
 def insertRow():
-    '''public HTMLElement insertRow(final int n)
-    '''
-def deleteRow():
-    '''public synchronized void deleteRow(int deleteRowX)
+    '''returns HTMLElement\n\n
+    insertRow(final int n)\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
-def HTMLTableElementImpl():
-    '''public HTMLTableElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLTableElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

@@ -1,4 +1,5 @@
-def InvalidCodeIndexException():
-    '''public InvalidCodeIndexException()
-    public InvalidCodeIndexException(final String message)
+def ():
+    '''returns InvalidCodeIndexException\n\n
+    ()\n
+    (final String message)\n
     '''

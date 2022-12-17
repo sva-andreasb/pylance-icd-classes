@@ -1,31 +1,36 @@
 MISUSE_MESSAGE = "String  \"Invalid use of SingleClientConnManager: connection still allocated.\nMake sure to release the connection before allocating another one.\""
-def SingleClientConnManager():
-    '''public SingleClientConnManager(final HttpParams params, final SchemeRegistry schreg)
-    public SingleClientConnManager(final SchemeRegistry schreg)
-    public SingleClientConnManager()
+def ():
+    '''returns SingleClientConnManager\n\n
+    (final HttpParams params, final SchemeRegistry schreg)\n
+    (final SchemeRegistry schreg)\n
+    ()\n
     '''
 def getSchemeRegistry():
-    '''public SchemeRegistry getSchemeRegistry()
-    '''
-def requestConnection():
-    '''public final ClientConnectionRequest requestConnection(final HttpRoute route, final Object state)
+    '''returns SchemeRegistry\n\n
+    getSchemeRegistry()\n
     '''
 def abortRequest():
-    '''public void abortRequest()
+    '''returns None\n\n
+    abortRequest()\n
     '''
 def getConnection():
-    '''public ManagedClientConnection getConnection(final long timeout, final TimeUnit tunit)
-    public ManagedClientConnection getConnection(final HttpRoute route, final Object state)
+    '''returns ManagedClientConnection\n\n
+    getConnection(final long timeout, final TimeUnit tunit)\n
+    getConnection(final HttpRoute route, final Object state)\n
     '''
 def releaseConnection():
-    '''public void releaseConnection(final ManagedClientConnection conn, final long validDuration, final TimeUnit timeUnit)
+    '''returns None\n\n
+    releaseConnection(final ManagedClientConnection conn, final long validDuration, final TimeUnit timeUnit)\n
     '''
 def closeExpiredConnections():
-    '''public void closeExpiredConnections()
+    '''returns None\n\n
+    closeExpiredConnections()\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idletime, final TimeUnit tunit)
+    '''returns None\n\n
+    closeIdleConnections(final long idletime, final TimeUnit tunit)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

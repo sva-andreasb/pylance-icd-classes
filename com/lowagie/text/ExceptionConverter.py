@@ -1,23 +1,30 @@
-def ExceptionConverter():
-    '''public ExceptionConverter(final Exception ex)
+def ():
+    '''returns ExceptionConverter\n\n
+    (final Exception ex)\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
+    '''returns String\n\n
+    getLocalizedMessage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream s)
-    public void printStackTrace(final PrintWriter s)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream s)\n
+    printStackTrace(final PrintWriter s)\n
     '''
 def fillInStackTrace():
-    '''public Throwable fillInStackTrace()
+    '''returns Throwable\n\n
+    fillInStackTrace()\n
     '''

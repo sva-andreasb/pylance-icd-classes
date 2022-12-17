@@ -4,127 +4,162 @@ CONFIG_LOG_LEVEL = "int  1"
 INFO_LOG_LEVEL = "int  2"
 DEBUG_LOG_LEVEL = "int  3"
 JSON_CONTEXT = "String  \"jsonContext\""
-def BayeuxServerImpl():
-    '''public BayeuxServerImpl()
+def ():
+    '''returns BayeuxServerImpl\n\n
+    ()\n
     '''
 def getLogger():
-    '''public Logger getLogger()
+    '''returns Logger\n\n
+    getLogger()\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def startTimeout():
-    '''public void startTimeout(final Timeout.Task task, final long interval)
+    '''returns None\n\n
+    startTimeout(final Timeout.Task task, final long interval)\n
     '''
 def cancelTimeout():
-    '''public void cancelTimeout(final Timeout.Task task)
+    '''returns None\n\n
+    cancelTimeout(final Timeout.Task task)\n
     '''
 def newChannelId():
-    '''public ChannelId newChannelId(final String id)
-    '''
-def getOptions():
-    '''public Map<String, Object> getOptions()
+    '''returns ChannelId\n\n
+    newChannelId(final String id)\n
     '''
 def getOption():
-    '''public Object getOption(final String qualifiedName)
+    '''returns Object\n\n
+    getOption(final String qualifiedName)\n
     '''
 def getOptionNames():
-    '''public Set<String> getOptionNames()
+    '''returns Set<String>\n\n
+    getOptionNames()\n
     '''
 def setOption():
-    '''public void setOption(final String qualifiedName, final Object value)
+    '''returns None\n\n
+    setOption(final String qualifiedName, final Object value)\n
     '''
 def setOptions():
-    '''public void setOptions(final Map<String, Object> options)
+    '''returns None\n\n
+    setOptions(final Map<String, Object> options)\n
     '''
 def randomLong():
-    '''public long randomLong()
+    '''returns long\n\n
+    randomLong()\n
     '''
 def setCurrentTransport():
-    '''public void setCurrentTransport(final AbstractServerTransport transport)
+    '''returns None\n\n
+    setCurrentTransport(final AbstractServerTransport transport)\n
     '''
 def getCurrentTransport():
-    '''public ServerTransport getCurrentTransport()
+    '''returns ServerTransport\n\n
+    getCurrentTransport()\n
     '''
 def getContext():
-    '''public BayeuxContext getContext()
+    '''returns BayeuxContext\n\n
+    getContext()\n
     '''
 def getSecurityPolicy():
-    '''public SecurityPolicy getSecurityPolicy()
+    '''returns SecurityPolicy\n\n
+    getSecurityPolicy()\n
     '''
 def createIfAbsent():
-    '''public boolean createIfAbsent(final String channelName, final ConfigurableServerChannel.Initializer... initializers)
+    '''returns boolean\n\n
+    createIfAbsent(final String channelName, final ConfigurableServerChannel.Initializer... initializers)\n
     '''
 def getSessions():
-    '''public List<ServerSession> getSessions()
+    '''returns List<ServerSession>\n\n
+    getSessions()\n
     '''
 def getSession():
-    '''public ServerSession getSession(final String clientId)
+    '''returns ServerSession\n\n
+    getSession(final String clientId)\n
     '''
 def removeServerSession():
-    '''public boolean removeServerSession(final ServerSession session, final boolean timedout)
+    '''returns boolean\n\n
+    removeServerSession(final ServerSession session, final boolean timedout)\n
     '''
 def newLocalSession():
-    '''public LocalSession newLocalSession(final String idHint)
+    '''returns LocalSession\n\n
+    newLocalSession(final String idHint)\n
     '''
 def setSecurityPolicy():
-    '''public void setSecurityPolicy(final SecurityPolicy securityPolicy)
+    '''returns None\n\n
+    setSecurityPolicy(final SecurityPolicy securityPolicy)\n
     '''
 def addExtension():
-    '''public void addExtension(final BayeuxServer.Extension extension)
+    '''returns None\n\n
+    addExtension(final BayeuxServer.Extension extension)\n
     '''
 def removeExtension():
-    '''public void removeExtension(final BayeuxServer.Extension extension)
+    '''returns None\n\n
+    removeExtension(final BayeuxServer.Extension extension)\n
     '''
 def addListener():
-    '''public void addListener(final BayeuxServer.BayeuxServerListener listener)
+    '''returns None\n\n
+    addListener(final BayeuxServer.BayeuxServerListener listener)\n
     '''
 def getChannel():
-    '''public ServerChannel getChannel(final String channelId)
+    '''returns ServerChannel\n\n
+    getChannel(final String channelId)\n
     '''
 def getChannels():
-    '''public List<ServerChannel> getChannels()
+    '''returns List<ServerChannel>\n\n
+    getChannels()\n
     '''
 def getChannelChildren():
-    '''public List<ServerChannelImpl> getChannelChildren(final ChannelId channelId)
+    '''returns List<ServerChannelImpl>\n\n
+    getChannelChildren(final ChannelId channelId)\n
     '''
 def removeListener():
-    '''public void removeListener(final BayeuxServer.BayeuxServerListener listener)
+    '''returns None\n\n
+    removeListener(final BayeuxServer.BayeuxServerListener listener)\n
     '''
 def freeze():
-    '''public void freeze(final ServerMessage.Mutable mutable)
+    '''returns None\n\n
+    freeze(final ServerMessage.Mutable mutable)\n
     '''
 def getKnownTransportNames():
-    '''public Set<String> getKnownTransportNames()
+    '''returns Set<String>\n\n
+    getKnownTransportNames()\n
     '''
 def getTransport():
-    '''public ServerTransport getTransport(final String transport)
+    '''returns ServerTransport\n\n
+    getTransport(final String transport)\n
     '''
 def addTransport():
-    '''public void addTransport(final ServerTransport transport)
+    '''returns None\n\n
+    addTransport(final ServerTransport transport)\n
     '''
 def setTransports():
-    '''public void setTransports(final ServerTransport... transports)
-    public void setTransports(final List<ServerTransport> transports)
+    '''returns None\n\n
+    setTransports(final ServerTransport... transports)\n
+    setTransports(final List<ServerTransport> transports)\n
     '''
 def getAllowedTransports():
-    '''public List<String> getAllowedTransports()
+    '''returns List<String>\n\n
+    getAllowedTransports()\n
     '''
 def setAllowedTransports():
-    '''public void setAllowedTransports(final String... allowed)
-    public void setAllowedTransports(final List<String> allowed)
+    '''returns None\n\n
+    setAllowedTransports(final String... allowed)\n
+    setAllowedTransports(final List<String> allowed)\n
     '''
 def sweep():
-    '''public void sweep()
+    '''returns None\n\n
+    sweep()\n
     '''
 def dump():
-    '''public String dump()
+    '''returns String\n\n
+    dump()\n
     '''
 def onMessage():
-    '''public void onMessage(ServerSessionImpl session, final ServerMessage.Mutable message)
-    public void onMessage(final ServerSessionImpl session, final ServerMessage.Mutable message)
-    public void onMessage(final ServerSessionImpl from, final ServerMessage.Mutable message)
-    public void onMessage(final ServerSessionImpl from, final ServerMessage.Mutable message)
-    public void onMessage(final ServerSessionImpl session, final ServerMessage.Mutable message)
+    '''returns None\n\n
+    onMessage(ServerSessionImpl session, final ServerMessage.Mutable message)\n
+    onMessage(final ServerSessionImpl session, final ServerMessage.Mutable message)\n
+    onMessage(final ServerSessionImpl from, final ServerMessage.Mutable message)\n
+    onMessage(final ServerSessionImpl from, final ServerMessage.Mutable message)\n
+    onMessage(final ServerSessionImpl session, final ServerMessage.Mutable message)\n
     '''

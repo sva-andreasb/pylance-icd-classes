@@ -1,59 +1,78 @@
 TYPE_MODAL = "String  \"modal\""
 TYPE_HOME = "String  \"home\""
-def SlackView():
-    '''public SlackView(final String type, final String title, final JSONArray blocks)
+def ():
+    '''returns SlackView\n\n
+    (final String type, final String title, final JSONArray blocks)\n
     '''
 def setCallbackId():
-    '''public void setCallbackId(final String callbackId)
+    '''returns None\n\n
+    setCallbackId(final String callbackId)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setSubmit():
-    '''public void setSubmit(final String submit)
+    '''returns None\n\n
+    setSubmit(final String submit)\n
     '''
 def setBlocks():
-    '''public void setBlocks(final JSONArray block)
+    '''returns None\n\n
+    setBlocks(final JSONArray block)\n
     '''
 def setClose():
-    '''public void setClose(final String close)
+    '''returns None\n\n
+    setClose(final String close)\n
     '''
 def setPrivateMetadata():
-    '''public void setPrivateMetadata(final String privateMetadata)
+    '''returns None\n\n
+    setPrivateMetadata(final String privateMetadata)\n
     '''
 def clearOnClose():
-    '''public void clearOnClose(final boolean clear)
+    '''returns None\n\n
+    clearOnClose(final boolean clear)\n
     '''
 def notifyOnClose():
-    '''public void notifyOnClose(final boolean notify)
+    '''returns None\n\n
+    notifyOnClose(final boolean notify)\n
     '''
 def setExternalId():
-    '''public void setExternalId(final String externalId)
+    '''returns None\n\n
+    setExternalId(final String externalId)\n
     '''
 def getCallbackId():
-    '''public String getCallbackId()
+    '''returns String\n\n
+    getCallbackId()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getSubmit():
-    '''public SlackText getSubmit()
+    '''returns SlackText\n\n
+    getSubmit()\n
     '''
 def getClose():
-    '''public SlackText getClose()
+    '''returns SlackText\n\n
+    getClose()\n
     '''
 def getPrivateMetadata():
-    '''public String getPrivateMetadata()
+    '''returns String\n\n
+    getPrivateMetadata()\n
     '''
 def getClearOnClose():
-    '''public boolean getClearOnClose()
+    '''returns boolean\n\n
+    getClearOnClose()\n
     '''
 def getNotifyOnClose():
-    '''public boolean getNotifyOnClose()
+    '''returns boolean\n\n
+    getNotifyOnClose()\n
     '''
 def getExternalId():
-    '''public String getExternalId()
+    '''returns String\n\n
+    getExternalId()\n
     '''
 def getBlocks():
-    '''public JSONArray getBlocks()
+    '''returns JSONArray\n\n
+    getBlocks()\n
     '''

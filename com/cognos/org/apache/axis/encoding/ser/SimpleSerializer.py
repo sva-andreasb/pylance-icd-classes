@@ -1,18 +1,23 @@
 VALUE_PROPERTY = "String  \"_value\""
 ATTRIBUTE = "String  \"[attribute]\""
-def SimpleSerializer():
-    '''public SimpleSerializer(final Class javaType, final QName xmlType)
-    public SimpleSerializer(final Class javaType, final QName xmlType, final TypeDesc typeDesc)
+def ():
+    '''returns SimpleSerializer\n\n
+    (final Class javaType, final QName xmlType)\n
+    (final Class javaType, final QName xmlType, final TypeDesc typeDesc)\n
     '''
 def serialize():
-    '''public void serialize(final QName name, Attributes attributes, Object value, final SerializationContext context)
+    '''returns None\n\n
+    serialize(final QName name, Attributes attributes, Object value, final SerializationContext context)\n
     '''
 def getValueAsString():
-    '''public String getValueAsString(final Object value, final SerializationContext context)
+    '''returns String\n\n
+    getValueAsString(final Object value, final SerializationContext context)\n
     '''
 def getMechanismType():
-    '''public String getMechanismType()
+    '''returns String\n\n
+    getMechanismType()\n
     '''
 def writeSchema():
-    '''public Element writeSchema(final Class javaType, final Types types)
+    '''returns Element\n\n
+    writeSchema(final Class javaType, final Types types)\n
     '''

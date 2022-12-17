@@ -1,6 +1,8 @@
-def IoTRestDtlsSet():
-    '''public IoTRestDtlsSet(final MboServerInterface ms)
+def ():
+    '''returns IoTRestDtlsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

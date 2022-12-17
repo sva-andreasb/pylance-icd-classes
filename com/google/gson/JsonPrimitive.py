@@ -1,57 +1,75 @@
-def JsonPrimitive():
-    '''public JsonPrimitive(final Boolean bool)
-    public JsonPrimitive(final Number number)
-    public JsonPrimitive(final String string)
-    public JsonPrimitive(final Character c)
+def ():
+    '''returns JsonPrimitive\n\n
+    (final Boolean bool)\n
+    (final Number number)\n
+    (final String string)\n
+    (final Character c)\n
     '''
 def isBoolean():
-    '''public boolean isBoolean()
+    '''returns boolean\n\n
+    isBoolean()\n
     '''
 def getAsBoolean():
-    '''public boolean getAsBoolean()
+    '''returns boolean\n\n
+    getAsBoolean()\n
     '''
 def isNumber():
-    '''public boolean isNumber()
+    '''returns boolean\n\n
+    isNumber()\n
     '''
 def getAsNumber():
-    '''public Number getAsNumber()
+    '''returns Number\n\n
+    getAsNumber()\n
     '''
 def isString():
-    '''public boolean isString()
+    '''returns boolean\n\n
+    isString()\n
     '''
 def getAsString():
-    '''public String getAsString()
+    '''returns String\n\n
+    getAsString()\n
     '''
 def getAsDouble():
-    '''public double getAsDouble()
+    '''returns double\n\n
+    getAsDouble()\n
     '''
 def getAsBigDecimal():
-    '''public BigDecimal getAsBigDecimal()
+    '''returns BigDecimal\n\n
+    getAsBigDecimal()\n
     '''
 def getAsBigInteger():
-    '''public BigInteger getAsBigInteger()
+    '''returns BigInteger\n\n
+    getAsBigInteger()\n
     '''
 def getAsFloat():
-    '''public float getAsFloat()
+    '''returns float\n\n
+    getAsFloat()\n
     '''
 def getAsLong():
-    '''public long getAsLong()
+    '''returns long\n\n
+    getAsLong()\n
     '''
 def getAsShort():
-    '''public short getAsShort()
+    '''returns short\n\n
+    getAsShort()\n
     '''
 def getAsInt():
-    '''public int getAsInt()
+    '''returns int\n\n
+    getAsInt()\n
     '''
 def getAsByte():
-    '''public byte getAsByte()
+    '''returns byte\n\n
+    getAsByte()\n
     '''
 def getAsCharacter():
-    '''public char getAsCharacter()
+    '''returns char\n\n
+    getAsCharacter()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

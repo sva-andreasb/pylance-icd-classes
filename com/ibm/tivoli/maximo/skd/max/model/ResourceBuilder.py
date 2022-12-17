@@ -1,6 +1,8 @@
-def ResourceBuilder():
-    '''public ResourceBuilder(final MXServer mxServer, final boolean bucketBased)
+def ():
+    '''returns ResourceBuilder\n\n
+    (final MXServer mxServer, final boolean bucketBased)\n
     '''
 def build():
-    '''public Resource build(final MboRemote projectMbo, final ResultSet resultSet, final String workListQuery)
+    '''returns Resource\n\n
+    build(final MboRemote projectMbo, final ResultSet resultSet, final String workListQuery)\n
     '''

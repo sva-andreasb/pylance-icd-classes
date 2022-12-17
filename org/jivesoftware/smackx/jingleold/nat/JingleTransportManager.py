@@ -1,3 +1,4 @@
 def getResolver():
-    '''public TransportResolver getResolver(final JingleSession session)
+    '''returns TransportResolver\n\n
+    getResolver(final JingleSession session)\n
     '''

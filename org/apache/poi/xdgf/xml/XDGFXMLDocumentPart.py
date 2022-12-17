@@ -1,3 +1,4 @@
-def XDGFXMLDocumentPart():
-    '''public XDGFXMLDocumentPart(final PackagePart part, final XDGFDocument document)
+def ():
+    '''returns XDGFXMLDocumentPart\n\n
+    (final PackagePart part, final XDGFDocument document)\n
     '''

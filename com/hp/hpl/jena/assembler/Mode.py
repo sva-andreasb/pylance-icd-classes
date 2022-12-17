@@ -1,9 +1,12 @@
-def Mode():
-    '''public Mode(final boolean mayCreate, final boolean mayReuse)
+def ():
+    '''returns Mode\n\n
+    (final boolean mayCreate, final boolean mayReuse)\n
     '''
 def permitCreateNew():
-    '''public boolean permitCreateNew(final Resource root, final String name)
+    '''returns boolean\n\n
+    permitCreateNew(final Resource root, final String name)\n
     '''
 def permitUseExisting():
-    '''public boolean permitUseExisting(final Resource root, final String name)
+    '''returns boolean\n\n
+    permitUseExisting(final Resource root, final String name)\n
     '''

@@ -1,31 +1,27 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def CreateAclsRequest():
-    '''public CreateAclsRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final AclBinding acl)\n
+    (final List<AclCreation> creations)\n
     '''
 def aclCreations():
-    '''public List<AclCreation> aclCreations()
+    '''returns List<AclCreation>\n\n
+    aclCreations()\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable throwable)
-    '''
-def parse():
-    '''public static CreateAclsRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def AclCreation():
-    '''public AclCreation(final AclBinding acl)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable throwable)\n
     '''
 def acl():
-    '''public AclBinding acl()
+    '''returns AclBinding\n\n
+    acl()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def Builder():
-    '''public Builder(final List<AclCreation> creations)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def build():
-    '''public CreateAclsRequest build(final short version)
+    '''returns CreateAclsRequest\n\n
+    build(final short version)\n
     '''

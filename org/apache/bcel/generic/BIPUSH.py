@@ -1,18 +1,24 @@
-def BIPUSH():
-    '''public BIPUSH(final byte b)
+def ():
+    '''returns BIPUSH\n\n
+    (final byte b)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
+    '''returns String\n\n
+    toString(final boolean verbose)\n
     '''
 def getValue():
-    '''public Number getValue()
+    '''returns Number\n\n
+    getValue()\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cp)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cp)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

@@ -1,18 +1,20 @@
-def GraphTriplesTDB():
-    '''public GraphTriplesTDB(final DatasetGraphTDB dataset, final TripleTable tripleTable, final DatasetPrefixStorage prefixes)
+def ():
+    '''returns GraphTriplesTDB\n\n
+    (final DatasetGraphTDB dataset, final TripleTable tripleTable, final DatasetPrefixStorage prefixes)\n
     '''
 def asTuple():
-    '''public Tuple<Node> asTuple(final Triple triple)
+    '''returns Tuple<Node>\n\n
+    asTuple(final Triple triple)\n
     '''
 def getNodeTupleTable():
-    '''public NodeTupleTable getNodeTupleTable()
-    '''
-def close():
-    '''public final void close()
+    '''returns NodeTupleTable\n\n
+    getNodeTupleTable()\n
     '''
 def sync():
-    '''public void sync(final boolean force)
+    '''returns None\n\n
+    sync(final boolean force)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

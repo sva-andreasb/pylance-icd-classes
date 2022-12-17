@@ -1,36 +1,48 @@
 def toSQLOperand():
-    '''public String toSQLOperand()
+    '''returns String\n\n
+    toSQLOperand()\n
     '''
 def toSQLValue():
-    '''public String toSQLValue()
+    '''returns String\n\n
+    toSQLValue()\n
     '''
-def Filter():
-    '''public Filter(final String column, final Operation operation, final String value)
+def ():
+    '''returns Filter\n\n
+    (final String column, final Operation operation, final String value)\n
     '''
 def getColumn():
-    '''public String getColumn()
+    '''returns String\n\n
+    getColumn()\n
     '''
 def setColumn():
-    '''public void setColumn(final String column)
+    '''returns None\n\n
+    setColumn(final String column)\n
     '''
 def getOperation():
-    '''public Operation getOperation()
+    '''returns Operation\n\n
+    getOperation()\n
     '''
 def setOperation():
-    '''public void setOperation(final Operation operation)
+    '''returns None\n\n
+    setOperation(final Operation operation)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

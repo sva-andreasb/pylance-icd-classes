@@ -1,27 +1,36 @@
-def ConfigOverrides():
-    '''public ConfigOverrides()
+def ():
+    '''returns ConfigOverrides\n\n
+    ()\n
     '''
 def copy():
-    '''public ConfigOverrides copy()
+    '''returns ConfigOverrides\n\n
+    copy()\n
     '''
 def findOverride():
-    '''public ConfigOverride findOverride(final Class<?> type)
+    '''returns ConfigOverride\n\n
+    findOverride(final Class<?> type)\n
     '''
 def findOrCreateOverride():
-    '''public MutableConfigOverride findOrCreateOverride(final Class<?> type)
+    '''returns MutableConfigOverride\n\n
+    findOrCreateOverride(final Class<?> type)\n
     '''
 def getDefaultMergeable():
-    '''public Boolean getDefaultMergeable()
+    '''returns Boolean\n\n
+    getDefaultMergeable()\n
     '''
 def setDefaultInclusion():
-    '''public void setDefaultInclusion(final JsonInclude.Value v)
+    '''returns None\n\n
+    setDefaultInclusion(final JsonInclude.Value v)\n
     '''
 def setDefaultSetterInfo():
-    '''public void setDefaultSetterInfo(final JsonSetter.Value v)
+    '''returns None\n\n
+    setDefaultSetterInfo(final JsonSetter.Value v)\n
     '''
 def setDefaultMergeable():
-    '''public void setDefaultMergeable(final Boolean v)
+    '''returns None\n\n
+    setDefaultMergeable(final Boolean v)\n
     '''
 def setDefaultVisibility():
-    '''public void setDefaultVisibility(final VisibilityChecker<?> v)
+    '''returns None\n\n
+    setDefaultVisibility(final VisibilityChecker<?> v)\n
     '''

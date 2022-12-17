@@ -1,6 +1,8 @@
-def FldMeasurePointMeasureUnitId():
-    '''public FldMeasurePointMeasureUnitId(final MboValue mbv)
+def ():
+    '''returns FldMeasurePointMeasureUnitId\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

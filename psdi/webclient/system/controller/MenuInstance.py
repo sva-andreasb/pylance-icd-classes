@@ -1,49 +1,61 @@
-def MenuInstance():
-    '''public MenuInstance()
-    public MenuInstance(final String id, final boolean isSub, final String parentId, final ControlInstance parentControl, final String openAt, final String tag, final boolean single, final WebClientEvent overflowEvent)
+def ():
+    '''returns MenuInstance\n\n
+    ()\n
+    (final String id, final boolean isSub, final String parentId, final ControlInstance parentControl, final String openAt, final String tag, final boolean single, final WebClientEvent overflowEvent)\n
     '''
 def setShowSingle():
-    '''public void setShowSingle(final boolean show)
+    '''returns None\n\n
+    setShowSingle(final boolean show)\n
     '''
 def showSingle():
-    '''public boolean showSingle()
+    '''returns boolean\n\n
+    showSingle()\n
     '''
 def setRendered():
-    '''public void setRendered()
+    '''returns None\n\n
+    setRendered()\n
     '''
 def needsRender():
-    '''public boolean needsRender()
+    '''returns boolean\n\n
+    needsRender()\n
     '''
 def isSub():
-    '''public boolean isSub()
+    '''returns boolean\n\n
+    isSub()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getParentId():
-    '''public String getParentId()
+    '''returns String\n\n
+    getParentId()\n
     '''
 def getOpenAt():
-    '''public String getOpenAt()
+    '''returns String\n\n
+    getOpenAt()\n
     '''
 def getParentControl():
-    '''public ControlInstance getParentControl()
-    '''
-def getMenuItems():
-    '''public ArrayList<Map<String, String>> getMenuItems()
+    '''returns ControlInstance\n\n
+    getParentControl()\n
     '''
 def getTag():
-    '''public String getTag()
+    '''returns String\n\n
+    getTag()\n
     '''
 def addMenuItem():
-    '''public void addMenuItem(final Map<String, String> item)
+    '''returns None\n\n
+    addMenuItem(final Map<String, String> item)\n
     '''
 def setOverLimit():
-    '''public void setOverLimit(final boolean over)
+    '''returns None\n\n
+    setOverLimit(final boolean over)\n
     '''
 def getOverLimit():
-    '''public boolean getOverLimit()
+    '''returns boolean\n\n
+    getOverLimit()\n
     '''
 def getOverFlow():
-    '''public JSONObject getOverFlow()
+    '''returns JSONObject\n\n
+    getOverFlow()\n
     '''

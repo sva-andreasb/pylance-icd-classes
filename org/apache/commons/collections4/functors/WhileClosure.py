@@ -1,12 +1,12 @@
-def whileClosure():
-    '''public static <E> Closure<E> whileClosure(final Predicate<? super E> predicate, final Closure<? super E> closure, final boolean doLoop)
-    '''
-def WhileClosure():
-    '''public WhileClosure(final Predicate<? super E> predicate, final Closure<? super E> closure, final boolean doLoop)
+def ():
+    '''returns WhileClosure\n\n
+    (final Predicate<? super E> predicate, final Closure<? super E> closure, final boolean doLoop)\n
     '''
 def execute():
-    '''public void execute(final E input)
+    '''returns None\n\n
+    execute(final E input)\n
     '''
 def isDoLoop():
-    '''public boolean isDoLoop()
+    '''returns boolean\n\n
+    isDoLoop()\n
     '''

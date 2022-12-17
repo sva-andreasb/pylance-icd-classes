@@ -1,3 +1,4 @@
-def TloamOrganizationSet():
-    '''public TloamOrganizationSet(final MboServerInterface ms)
+def ():
+    '''returns TloamOrganizationSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def NoRawSessionException():
-    '''public NoRawSessionException(final Exception e)
+def ():
+    '''returns NoRawSessionException\n\n
+    (final Exception e)\n
     '''

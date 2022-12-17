@@ -1,19 +1,25 @@
-def MaxRcvRotItmMProcess():
-    '''public MaxRcvRotItmMProcess()
+def ():
+    '''returns MaxRcvRotItmMProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def createMboSet():
-    '''public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''returns MboSetRemote\n\n
+    createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules()
-    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules()\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def isCrossSiteRotassetTransfer():
-    '''public boolean isCrossSiteRotassetTransfer(final MboRemote po)
+    '''returns boolean\n\n
+    isCrossSiteRotassetTransfer(final MboRemote po)\n
     '''
 def setAssetNums():
-    '''public void setAssetNums(final MboSetRemote assetInputSet, final List assets)
+    '''returns None\n\n
+    setAssetNums(final MboSetRemote assetInputSet, final List assets)\n
     '''

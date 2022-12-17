@@ -1,3 +1,4 @@
-def SchPurchViewSet():
-    '''public SchPurchViewSet(final MboServerInterface ms)
+def ():
+    '''returns SchPurchViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

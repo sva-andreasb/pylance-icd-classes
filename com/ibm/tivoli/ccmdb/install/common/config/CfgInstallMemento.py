@@ -1,12 +1,16 @@
-def CfgInstallMemento():
-    '''public CfgInstallMemento()
+def ():
+    '''returns CfgInstallMemento\n\n
+    ()\n
     '''
 def actionInList():
-    '''public boolean actionInList(final ICfgConfigurationAction anAction)
+    '''returns boolean\n\n
+    actionInList(final ICfgConfigurationAction anAction)\n
     '''
 def addUndoAction():
-    '''public void addUndoAction(final ICfgConfigurationAction anAction)
+    '''returns None\n\n
+    addUndoAction(final ICfgConfigurationAction anAction)\n
     '''
 def removeUndoAction():
-    '''public void removeUndoAction(final ICfgConfigurationAction anAction)
+    '''returns None\n\n
+    removeUndoAction(final ICfgConfigurationAction anAction)\n
     '''

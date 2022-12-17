@@ -1,12 +1,16 @@
-def FldSKDProjectName():
-    '''public FldSKDProjectName(final MboValue mbv)
+def ():
+    '''returns FldSKDProjectName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''

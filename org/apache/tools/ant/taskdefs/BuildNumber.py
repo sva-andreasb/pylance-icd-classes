@@ -1,6 +1,8 @@
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

@@ -1,19 +1,25 @@
-def ProtocolCommandEvent():
-    '''public ProtocolCommandEvent(final Object source, final String command, final String message)
-    public ProtocolCommandEvent(final Object source, final int replyCode, final String message)
+def ():
+    '''returns ProtocolCommandEvent\n\n
+    (final Object source, final String command, final String message)\n
+    (final Object source, final int replyCode, final String message)\n
     '''
 def getCommand():
-    '''public String getCommand()
+    '''returns String\n\n
+    getCommand()\n
     '''
 def getReplyCode():
-    '''public int getReplyCode()
+    '''returns int\n\n
+    getReplyCode()\n
     '''
 def isCommand():
-    '''public boolean isCommand()
+    '''returns boolean\n\n
+    isCommand()\n
     '''
 def isReply():
-    '''public boolean isReply()
+    '''returns boolean\n\n
+    isReply()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

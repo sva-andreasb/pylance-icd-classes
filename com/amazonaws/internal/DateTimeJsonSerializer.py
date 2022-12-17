@@ -1,3 +1,4 @@
 def serialize():
-    '''public void serialize(final DateTime value, final JsonGenerator jgen, final SerializerProvider provider)
+    '''returns None\n\n
+    serialize(final DateTime value, final JsonGenerator jgen, final SerializerProvider provider)\n
     '''

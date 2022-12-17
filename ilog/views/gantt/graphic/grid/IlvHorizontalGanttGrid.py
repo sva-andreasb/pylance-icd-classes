@@ -1,27 +1,36 @@
-def IlvHorizontalGanttGrid():
-    '''public IlvHorizontalGanttGrid()
+def ():
+    '''returns IlvHorizontalGanttGrid\n\n
+    ()\n
     '''
 def isFilled():
-    '''public boolean isFilled()
+    '''returns boolean\n\n
+    isFilled()\n
     '''
 def setFilled():
-    '''public void setFilled(final boolean a)
+    '''returns None\n\n
+    setFilled(final boolean a)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvGanttGridContext ilvGanttGridContext)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvGanttGridContext ilvGanttGridContext)\n
     '''
 def getGridShapes():
-    '''public Shape[] getGridShapes(final Graphics graphics, final boolean b, final IlvGanttGridContext ilvGanttGridContext)
+    '''returns Shape[]\n\n
+    getGridShapes(final Graphics graphics, final boolean b, final IlvGanttGridContext ilvGanttGridContext)\n
     '''
 def setOddRowsBackground():
-    '''public void setOddRowsBackground(final Color b)
+    '''returns None\n\n
+    setOddRowsBackground(final Color b)\n
     '''
 def getOddRowsBackground():
-    '''public Color getOddRowsBackground()
+    '''returns Color\n\n
+    getOddRowsBackground()\n
     '''
 def setEvenRowsBackground():
-    '''public void setEvenRowsBackground(final Color c)
+    '''returns None\n\n
+    setEvenRowsBackground(final Color c)\n
     '''
 def getEvenRowsBackground():
-    '''public Color getEvenRowsBackground()
+    '''returns Color\n\n
+    getEvenRowsBackground()\n
     '''

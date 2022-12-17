@@ -1,9 +1,12 @@
-def ActivatorAppletImageRef():
-    '''public ActivatorAppletImageRef(final URL url)
+def ():
+    '''returns ActivatorAppletImageRef\n\n
+    (final URL url)\n
     '''
 def reconstitute():
-    '''public Object reconstitute()
+    '''returns Object\n\n
+    reconstitute()\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

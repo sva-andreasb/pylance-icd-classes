@@ -1,51 +1,64 @@
-def SKDPMUtility():
-    '''public SKDPMUtility(final MXGanttModel model)
+def ():
+    '''returns SKDPMUtility\n\n
+    (final MXGanttModel model)\n
     '''
 def isPMPendingReforecast():
-    '''public boolean isPMPendingReforecast(final MXActivity pm)
+    '''returns boolean\n\n
+    isPMPendingReforecast(final MXActivity pm)\n
     '''
 def getEarlyPMStartDate():
-    '''public Date getEarlyPMStartDate(final MXActivity pm, final Date refDate)
+    '''returns Date\n\n
+    getEarlyPMStartDate(final MXActivity pm, final Date refDate)\n
     '''
 def getEarlyPMEndDate():
-    '''public Date getEarlyPMEndDate(final MXActivity pm, final Date refDate)
+    '''returns Date\n\n
+    getEarlyPMEndDate(final MXActivity pm, final Date refDate)\n
     '''
 def updatePMSummaryActivity():
-    '''public void updatePMSummaryActivity(final MXActivity pm)
+    '''returns None\n\n
+    updatePMSummaryActivity(final MXActivity pm)\n
     '''
 def updatePMChildrenActivity():
-    '''public List<MXActivity> updatePMChildrenActivity(final MXActivity parentpm)
+    '''returns List<MXActivity>\n\n
+    updatePMChildrenActivity(final MXActivity parentpm)\n
     '''
 def markAllPMChildrenForSegmentDeletion():
-    '''public void markAllPMChildrenForSegmentDeletion(final MXActivity parentActivity, final int deletedCount, final int newCount)
+    '''returns None\n\n
+    markAllPMChildrenForSegmentDeletion(final MXActivity parentActivity, final int deletedCount, final int newCount)\n
     '''
 def getEarliestPMSegmentStartDate():
-    '''public Date getEarliestPMSegmentStartDate(final MXActivity pm)
-    '''
-def dumpPMSegmentInfo():
-    '''public static void dumpPMSegmentInfo(final MXActivity pm, final int seqNo, final PrintStream ps)
+    '''returns Date\n\n
+    getEarliestPMSegmentStartDate(final MXActivity pm)\n
     '''
 def getLastestPMSegmentEndDate():
-    '''public Date getLastestPMSegmentEndDate(final MXActivity pm)
+    '''returns Date\n\n
+    getLastestPMSegmentEndDate(final MXActivity pm)\n
     '''
 def updateAllLeafActivities():
-    '''public void updateAllLeafActivities(final MXActivity parentActivity, final IlvTimeInterval timeInterval)
+    '''returns None\n\n
+    updateAllLeafActivities(final MXActivity parentActivity, final IlvTimeInterval timeInterval)\n
     '''
 def getLeafActivity():
-    '''public MXActivity getLeafActivity(final MXActivity parentActivity)
+    '''returns MXActivity\n\n
+    getLeafActivity(final MXActivity parentActivity)\n
     '''
 def getSegmentDates():
-    '''public Date[] getSegmentDates(final MXActivity pm, final int sequence)
+    '''returns Date[]\n\n
+    getSegmentDates(final MXActivity pm, final int sequence)\n
     '''
 def updatePMSegmentReservations():
-    '''public void updatePMSegmentReservations(final MXActivity pm, final int sequenceIndex)
+    '''returns None\n\n
+    updatePMSegmentReservations(final MXActivity pm, final int sequenceIndex)\n
     '''
 def updateAllPMSegmentReservations():
-    '''public boolean updateAllPMSegmentReservations(final MXActivity pm)
+    '''returns boolean\n\n
+    updateAllPMSegmentReservations(final MXActivity pm)\n
     '''
 def setEdited():
-    '''public void setEdited(final boolean edited, final MXActivity pm, final int sequenceNum)
+    '''returns None\n\n
+    setEdited(final boolean edited, final MXActivity pm, final int sequenceNum)\n
     '''
 def markOtherSegmentsImmovable():
-    '''public void markOtherSegmentsImmovable(final MXActivity pm, final int sequenceNum)
+    '''returns None\n\n
+    markOtherSegmentsImmovable(final MXActivity pm, final int sequenceNum)\n
     '''

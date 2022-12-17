@@ -1,39 +1,52 @@
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getCh():
-    '''public String getCh()
+    '''returns String\n\n
+    getCh()\n
     '''
 def setCh():
-    '''public void setCh(String substring)
+    '''returns None\n\n
+    setCh(String substring)\n
     '''
 def getChOff():
-    '''public String getChOff()
+    '''returns String\n\n
+    getChOff()\n
     '''
 def setChOff():
-    '''public void setChOff(final String s)
+    '''returns None\n\n
+    setChOff(final String s)\n
     '''
 def getVAlign():
-    '''public String getVAlign()
+    '''returns String\n\n
+    getVAlign()\n
     '''
 def setVAlign():
-    '''public void setVAlign(final String s)
+    '''returns None\n\n
+    setVAlign(final String s)\n
     '''
 def getRows():
-    '''public HTMLCollection getRows()
+    '''returns HTMLCollection\n\n
+    getRows()\n
     '''
 def insertRow():
-    '''public HTMLElement insertRow(final int n)
+    '''returns HTMLElement\n\n
+    insertRow(final int n)\n
     '''
 def deleteRow():
-    '''public void deleteRow(final int n)
+    '''returns None\n\n
+    deleteRow(final int n)\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
-def HTMLTableSectionElementImpl():
-    '''public HTMLTableSectionElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLTableSectionElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

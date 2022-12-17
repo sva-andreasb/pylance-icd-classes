@@ -1,9 +1,8 @@
-def ItemProviderAdapterFactory():
-    '''public ItemProviderAdapterFactory()
-    '''
-def create():
-    '''public static synchronized ItemProviderAdapterFactory create(final String lineSeparator)
+def ():
+    '''returns ItemProviderAdapterFactory\n\n
+    ()\n
     '''
 def generate():
-    '''public String generate(final Object argument)
+    '''returns String\n\n
+    generate(final Object argument)\n
     '''

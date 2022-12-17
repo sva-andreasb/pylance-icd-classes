@@ -1,44 +1,42 @@
-def reflectionHashCode():
-    '''public static int reflectionHashCode(final int initialNonZeroOddNumber, final int multiplierNonZeroOddNumber, final Object object)
-    public static int reflectionHashCode(final int initialNonZeroOddNumber, final int multiplierNonZeroOddNumber, final Object object, final boolean testTransients)
-    public static <T> int reflectionHashCode(final int initialNonZeroOddNumber, final int multiplierNonZeroOddNumber, final T object, final boolean testTransients, final Class<? super T> reflectUpToClass, final String... excludeFields)
-    public static int reflectionHashCode(final Object object, final boolean testTransients)
-    public static int reflectionHashCode(final Object object, final Collection<String> excludeFields)
-    public static int reflectionHashCode(final Object object, final String... excludeFields)
-    '''
-def HashCodeBuilder():
-    '''public HashCodeBuilder()
-    public HashCodeBuilder(final int initialOddNumber, final int multiplierOddNumber)
+def ():
+    '''returns HashCodeBuilder\n\n
+    ()\n
+    (final int initialOddNumber, final int multiplierOddNumber)\n
     '''
 def append():
-    '''public HashCodeBuilder append(final boolean value)
-    public HashCodeBuilder append(final boolean[] array)
-    public HashCodeBuilder append(final byte value)
-    public HashCodeBuilder append(final byte[] array)
-    public HashCodeBuilder append(final char value)
-    public HashCodeBuilder append(final char[] array)
-    public HashCodeBuilder append(final double value)
-    public HashCodeBuilder append(final double[] array)
-    public HashCodeBuilder append(final float value)
-    public HashCodeBuilder append(final float[] array)
-    public HashCodeBuilder append(final int value)
-    public HashCodeBuilder append(final int[] array)
-    public HashCodeBuilder append(final long value)
-    public HashCodeBuilder append(final long[] array)
-    public HashCodeBuilder append(final Object object)
-    public HashCodeBuilder append(final Object[] array)
-    public HashCodeBuilder append(final short value)
-    public HashCodeBuilder append(final short[] array)
+    '''returns HashCodeBuilder\n\n
+    append(final boolean value)\n
+    append(final boolean[] array)\n
+    append(final byte value)\n
+    append(final byte[] array)\n
+    append(final char value)\n
+    append(final char[] array)\n
+    append(final double value)\n
+    append(final double[] array)\n
+    append(final float value)\n
+    append(final float[] array)\n
+    append(final int value)\n
+    append(final int[] array)\n
+    append(final long value)\n
+    append(final long[] array)\n
+    append(final Object object)\n
+    append(final Object[] array)\n
+    append(final short value)\n
+    append(final short[] array)\n
     '''
 def appendSuper():
-    '''public HashCodeBuilder appendSuper(final int superHashCode)
+    '''returns HashCodeBuilder\n\n
+    appendSuper(final int superHashCode)\n
     '''
 def toHashCode():
-    '''public int toHashCode()
+    '''returns int\n\n
+    toHashCode()\n
     '''
 def build():
-    '''public Integer build()
+    '''returns Integer\n\n
+    build()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

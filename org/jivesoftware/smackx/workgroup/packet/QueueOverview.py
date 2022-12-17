@@ -1,21 +1,28 @@
 def getAverageWaitTime():
-    '''public int getAverageWaitTime()
+    '''returns int\n\n
+    getAverageWaitTime()\n
     '''
 def getOldestEntry():
-    '''public Date getOldestEntry()
+    '''returns Date\n\n
+    getOldestEntry()\n
     '''
 def getUserCount():
-    '''public int getUserCount()
+    '''returns int\n\n
+    getUserCount()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def parse():
-    '''public QueueOverview parse(final XmlPullParser parser, final int initialDepth)
+    '''returns QueueOverview\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

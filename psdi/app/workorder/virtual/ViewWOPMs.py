@@ -1,3 +1,4 @@
-def ViewWOPMs():
-    '''public ViewWOPMs(final MboSet ms)
+def ():
+    '''returns ViewWOPMs\n\n
+    (final MboSet ms)\n
     '''

@@ -1,9 +1,12 @@
-def CreateAuthorizedCIsBean():
-    '''public CreateAuthorizedCIsBean()
+def ():
+    '''returns CreateAuthorizedCIsBean\n\n
+    ()\n
     '''
 def dopromote():
-    '''public int dopromote()
+    '''returns int\n\n
+    dopromote()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

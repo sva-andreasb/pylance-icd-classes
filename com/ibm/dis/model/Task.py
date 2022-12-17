@@ -1,36 +1,40 @@
-def Task():
-    '''public Task(String name)
-    '''
-def getProperties():
-    '''public Map<String, String> getProperties()
-    '''
-def getParameters():
-    '''public Map<String, String> getParameters()
+def ():
+    '''returns Task\n\n
+    (String name)\n
     '''
 def getProperty():
-    '''public String getProperty(final String propertyName)
+    '''returns String\n\n
+    getProperty(final String propertyName)\n
     '''
 def getParameter():
-    '''public String getParameter(final String paramaterName)
+    '''returns String\n\n
+    getParameter(final String paramaterName)\n
     '''
 def setProperties():
-    '''public void setProperties(final Map<String, String> properties)
+    '''returns None\n\n
+    setProperties(final Map<String, String> properties)\n
     '''
 def setParameters():
-    '''public void setParameters(final Map<String, String> parameters)
+    '''returns None\n\n
+    setParameters(final Map<String, String> parameters)\n
     '''
 def setProperty():
-    '''public void setProperty(final String propertyName, final String propertyValue)
+    '''returns None\n\n
+    setProperty(final String propertyName, final String propertyValue)\n
     '''
 def setParameter():
-    '''public void setParameter(final String parameterName, final String parameterValue)
+    '''returns None\n\n
+    setParameter(final String parameterName, final String parameterValue)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def equals():
-    '''public boolean equals(final Object thatObj)
+    '''returns boolean\n\n
+    equals(final Object thatObj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

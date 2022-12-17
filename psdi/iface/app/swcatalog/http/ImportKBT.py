@@ -1,60 +1,76 @@
-def ImportKBT():
-    '''public ImportKBT()
+def ():
+    '''returns ImportKBT\n\n
+    ()\n
     '''
 def performImport():
-    '''public boolean performImport()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns boolean\n\n
+    performImport()\n
     '''
 def getDataVersion():
-    '''public String getDataVersion(final Properties props)
+    '''returns String\n\n
+    getDataVersion(final Properties props)\n
     '''
 def getDatabaseInstanceId():
-    '''public String getDatabaseInstanceId(final Properties props)
+    '''returns String\n\n
+    getDatabaseInstanceId(final Properties props)\n
     '''
 def getProperties():
-    '''public Properties getProperties(final ImportClient client)
+    '''returns Properties\n\n
+    getProperties(final ImportClient client)\n
     '''
 def getHost_():
-    '''public String getHost_()
+    '''returns String\n\n
+    getHost_()\n
     '''
 def setHost_():
-    '''public void setHost_(final String host)
+    '''returns None\n\n
+    setHost_(final String host)\n
     '''
 def getPort_():
-    '''public int getPort_()
+    '''returns int\n\n
+    getPort_()\n
     '''
 def setPort_():
-    '''public void setPort_(final int port)
+    '''returns None\n\n
+    setPort_(final int port)\n
     '''
 def getImportFile_():
-    '''public String getImportFile_()
+    '''returns String\n\n
+    getImportFile_()\n
     '''
 def setImportFile_():
-    '''public void setImportFile_(final String importFile)
+    '''returns None\n\n
+    setImportFile_(final String importFile)\n
     '''
 def getRepositoryId_():
-    '''public String getRepositoryId_()
+    '''returns String\n\n
+    getRepositoryId_()\n
     '''
 def setRepositoryId_():
-    '''public void setRepositoryId_(final String repositoryId)
+    '''returns None\n\n
+    setRepositoryId_(final String repositoryId)\n
     '''
 def getNumOfRetries_():
-    '''public int getNumOfRetries_()
+    '''returns int\n\n
+    getNumOfRetries_()\n
     '''
 def setNumOfRetries_():
-    '''public void setNumOfRetries_(final int numOfRetries)
+    '''returns None\n\n
+    setNumOfRetries_(final int numOfRetries)\n
     '''
 def getSecBetweenRetries_():
-    '''public int getSecBetweenRetries_()
+    '''returns int\n\n
+    getSecBetweenRetries_()\n
     '''
 def setSecBetweenRetries_():
-    '''public void setSecBetweenRetries_(final int secBetweenRetries)
+    '''returns None\n\n
+    setSecBetweenRetries_(final int secBetweenRetries)\n
     '''
 def getSourceDir_():
-    '''public String getSourceDir_()
+    '''returns String\n\n
+    getSourceDir_()\n
     '''
 def setSourceDir_():
-    '''public void setSourceDir_(final String sourceDir)
+    '''returns None\n\n
+    setSourceDir_(final String sourceDir)\n
     '''

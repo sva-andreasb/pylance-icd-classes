@@ -1,3 +1,4 @@
-def TloamWOReleaseSet():
-    '''public TloamWOReleaseSet(final MboServerInterface ms)
+def ():
+    '''returns TloamWOReleaseSet\n\n
+    (final MboServerInterface ms)\n
     '''

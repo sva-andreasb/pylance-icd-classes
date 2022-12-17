@@ -1,33 +1,44 @@
 def getControl():
-    '''public Object getControl()
+    '''returns Object\n\n
+    getControl()\n
     '''
 def setControl():
-    '''public void setControl(final Object o)
+    '''returns None\n\n
+    setControl(final Object o)\n
     '''
 def createControl():
-    '''public Object createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)
+    '''returns Object\n\n
+    createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)\n
     '''
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def addChild():
-    '''public void addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)
+    '''returns None\n\n
+    addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)\n
     '''
-def SplitDividerListener():
-    '''public SplitDividerListener(final JSplitPane splitPane)
+def ():
+    '''returns SplitDividerListener\n\n
+    (final JSplitPane splitPane)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''
 def componentMoved():
-    '''public void componentMoved(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentMoved(final ComponentEvent componentEvent)\n
     '''
 def componentShown():
-    '''public void componentShown(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentShown(final ComponentEvent componentEvent)\n
     '''
 def componentHidden():
-    '''public void componentHidden(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentHidden(final ComponentEvent componentEvent)\n
     '''

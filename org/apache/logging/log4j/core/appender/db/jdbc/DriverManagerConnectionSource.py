@@ -1,9 +1,8 @@
-def newBuilder():
-    '''public static <B extends Builder<B>> B newBuilder()
-    '''
-def DriverManagerConnectionSource():
-    '''public DriverManagerConnectionSource(final String driverClassName, final String connectionString, final String actualConnectionString, final char[] userName, final char[] password, final Property[] properties)
+def ():
+    '''returns DriverManagerConnectionSource\n\n
+    (final String driverClassName, final String connectionString, final String actualConnectionString, final char[] userName, final char[] password, final Property[] properties)\n
     '''
 def build():
-    '''public DriverManagerConnectionSource build()
+    '''returns DriverManagerConnectionSource\n\n
+    build()\n
     '''

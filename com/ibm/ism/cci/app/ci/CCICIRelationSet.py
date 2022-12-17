@@ -1,3 +1,4 @@
-def CCICIRelationSet():
-    '''public CCICIRelationSet(final MboServerInterface ms)
+def ():
+    '''returns CCICIRelationSet\n\n
+    (final MboServerInterface ms)\n
     '''

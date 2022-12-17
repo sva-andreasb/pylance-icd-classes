@@ -1,3 +1,4 @@
-def RuleSet():
-    '''public RuleSet(final MboServerInterface ms)
+def ():
+    '''returns RuleSet\n\n
+    (final MboServerInterface ms)\n
     '''

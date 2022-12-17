@@ -1,18 +1,24 @@
 def newMessage():
-    '''public Message newMessage(final String message, final Object... params)
+    '''returns Message\n\n
+    newMessage(final String message, final Object... params)\n
     '''
-def StatusMessage():
-    '''public StatusMessage(final String formattedMessage, final Throwable throwable)
+def ():
+    '''returns StatusMessage\n\n
+    (final String formattedMessage, final Throwable throwable)\n
     '''
 def getFormattedMessage():
-    '''public String getFormattedMessage()
+    '''returns String\n\n
+    getFormattedMessage()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''

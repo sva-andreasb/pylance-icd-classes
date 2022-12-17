@@ -1,89 +1,118 @@
-def PSet_TripleStore_RDB():
-    '''public PSet_TripleStore_RDB()
+def ():
+    '''returns PSet_TripleStore_RDB\n\n
+    ()\n
     '''
 def setDriver():
-    '''public void setDriver(final IRDBDriver driver)
+    '''returns None\n\n
+    setDriver(final IRDBDriver driver)\n
     '''
 def setSQLType():
-    '''public void setSQLType(final String value)
+    '''returns None\n\n
+    setSQLType(final String value)\n
     '''
 def setSkipDuplicateCheck():
-    '''public void setSkipDuplicateCheck(final boolean value)
+    '''returns None\n\n
+    setSkipDuplicateCheck(final boolean value)\n
     '''
 def setSQLCache():
-    '''public void setSQLCache(final SQLCache cache)
+    '''returns None\n\n
+    setSQLCache(final SQLCache cache)\n
     '''
 def getSQLCache():
-    '''public SQLCache getSQLCache()
+    '''returns SQLCache\n\n
+    getSQLCache()\n
     '''
 def setCachePreparedStatements():
-    '''public void setCachePreparedStatements(final boolean value)
+    '''returns None\n\n
+    setCachePreparedStatements(final boolean value)\n
     '''
 def setTblName():
-    '''public void setTblName(final String tblName)
+    '''returns None\n\n
+    setTblName(final String tblName)\n
     '''
 def getTblName():
-    '''public String getTblName()
+    '''returns String\n\n
+    getTblName()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def driver():
-    '''public IRDBDriver driver()
+    '''returns IRDBDriver\n\n
+    driver()\n
     '''
 def cleanDB():
-    '''public void cleanDB()
+    '''returns None\n\n
+    cleanDB()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getLiteralFromCache():
-    '''public Node_Literal getLiteralFromCache(final IDBID id)
+    '''returns Node_Literal\n\n
+    getLiteralFromCache(final IDBID id)\n
     '''
 def wrapDBID():
-    '''public IDBID wrapDBID(final Object id)
+    '''returns IDBID\n\n
+    wrapDBID(final Object id)\n
     '''
 def rowCount():
-    '''public int rowCount(final int gid)
+    '''returns int\n\n
+    rowCount(final int gid)\n
     '''
 def extractTripleFromRowData():
-    '''public Triple extractTripleFromRowData(final String subj, final String pred, final String obj)
+    '''returns Triple\n\n
+    extractTripleFromRowData(final String subj, final String pred, final String obj)\n
     '''
 def wrapFlag():
-    '''public Object wrapFlag(final boolean flag)
+    '''returns Object\n\n
+    wrapFlag(final boolean flag)\n
     '''
 def deleteTriple():
-    '''public void deleteTriple(final Triple t, final IDBID graphID)
-    public void deleteTriple(final Triple t, final IDBID graphID, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)
+    '''returns None\n\n
+    deleteTriple(final Triple t, final IDBID graphID)\n
+    deleteTriple(final Triple t, final IDBID graphID, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)\n
     '''
 def deleteTripleAR():
-    '''public void deleteTripleAR(final Triple t, final IDBID graphID, final Node reifNode, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)
+    '''returns None\n\n
+    deleteTripleAR(final Triple t, final IDBID graphID, final Node reifNode, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)\n
     '''
 def storeTriple():
-    '''public void storeTriple(final Triple t, final IDBID graphID)
-    public void storeTriple(final Triple t, final IDBID graphID, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)
+    '''returns None\n\n
+    storeTriple(final Triple t, final IDBID graphID)\n
+    storeTriple(final Triple t, final IDBID graphID, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)\n
     '''
 def getPreparedStatement():
-    '''public PreparedStatement getPreparedStatement(final String op, final String tableName, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)
+    '''returns PreparedStatement\n\n
+    getPreparedStatement(final String op, final String tableName, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)\n
     '''
 def storeTripleAR():
-    '''public void storeTripleAR(final Triple t, final IDBID graphID, final Node reifNode, final boolean hasType, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)
+    '''returns None\n\n
+    storeTripleAR(final Triple t, final IDBID graphID, final Node reifNode, final boolean hasType, final boolean isBatch, final Hashtable<String, PreparedStatement> batchedPreparedStatements)\n
     '''
 def storeTripleList():
-    '''public void storeTripleList(final List<Triple> triples, final IDBID my_GID)
+    '''returns None\n\n
+    storeTripleList(final List<Triple> triples, final IDBID my_GID)\n
     '''
 def deleteTripleList():
-    '''public void deleteTripleList(final List<Triple> triples, final IDBID my_GID)
+    '''returns None\n\n
+    deleteTripleList(final List<Triple> triples, final IDBID my_GID)\n
     '''
 def tripleCount():
-    '''public int tripleCount(final IDBID graphId)
+    '''returns int\n\n
+    tripleCount(final IDBID graphId)\n
     '''
 def statementTableContains():
-    '''public boolean statementTableContains(final IDBID graphID, final Triple t)
+    '''returns boolean\n\n
+    statementTableContains(final IDBID graphID, final Triple t)\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final TripleMatch t, final IDBID graphID)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final TripleMatch t, final IDBID graphID)\n
     '''
 def removeStatementsFromDB():
-    '''public void removeStatementsFromDB(final IDBID graphID)
+    '''returns None\n\n
+    removeStatementsFromDB(final IDBID graphID)\n
     '''

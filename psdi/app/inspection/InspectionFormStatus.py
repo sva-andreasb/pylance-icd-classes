@@ -1,9 +1,12 @@
-def InspectionFormStatus():
-    '''public InspectionFormStatus(final MboSet ms)
+def ():
+    '''returns InspectionFormStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''

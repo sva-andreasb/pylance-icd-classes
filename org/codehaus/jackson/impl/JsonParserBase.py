@@ -1,60 +1,68 @@
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def getCurrentName():
-    '''public String getCurrentName()
+    '''returns String\n\n
+    getCurrentName()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def getParsingContext():
-    '''public JsonReadContext getParsingContext()
+    '''returns JsonReadContext\n\n
+    getParsingContext()\n
     '''
 def getTokenLocation():
-    '''public JsonLocation getTokenLocation()
+    '''returns JsonLocation\n\n
+    getTokenLocation()\n
     '''
 def getCurrentLocation():
-    '''public JsonLocation getCurrentLocation()
+    '''returns JsonLocation\n\n
+    getCurrentLocation()\n
     '''
 def hasTextCharacters():
-    '''public boolean hasTextCharacters()
-    '''
-def getTokenCharacterOffset():
-    '''public final long getTokenCharacterOffset()
-    '''
-def getTokenLineNr():
-    '''public final int getTokenLineNr()
-    '''
-def getTokenColumnNr():
-    '''public final int getTokenColumnNr()
+    '''returns boolean\n\n
+    hasTextCharacters()\n
     '''
 def _getByteArrayBuilder():
-    '''public ByteArrayBuilder _getByteArrayBuilder()
+    '''returns ByteArrayBuilder\n\n
+    _getByteArrayBuilder()\n
     '''
 def getNumberValue():
-    '''public Number getNumberValue()
+    '''returns Number\n\n
+    getNumberValue()\n
     '''
 def getNumberType():
-    '''public NumberType getNumberType()
+    '''returns NumberType\n\n
+    getNumberType()\n
     '''
 def getIntValue():
-    '''public int getIntValue()
+    '''returns int\n\n
+    getIntValue()\n
     '''
 def getLongValue():
-    '''public long getLongValue()
+    '''returns long\n\n
+    getLongValue()\n
     '''
 def getBigIntegerValue():
-    '''public BigInteger getBigIntegerValue()
+    '''returns BigInteger\n\n
+    getBigIntegerValue()\n
     '''
 def getFloatValue():
-    '''public float getFloatValue()
+    '''returns float\n\n
+    getFloatValue()\n
     '''
 def getDoubleValue():
-    '''public double getDoubleValue()
+    '''returns double\n\n
+    getDoubleValue()\n
     '''
 def getDecimalValue():
-    '''public BigDecimal getDecimalValue()
+    '''returns BigDecimal\n\n
+    getDecimalValue()\n
     '''

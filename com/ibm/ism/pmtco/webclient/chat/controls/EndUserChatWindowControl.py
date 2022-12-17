@@ -1,12 +1,16 @@
 def closeChat():
-    '''public int closeChat()
+    '''returns int\n\n
+    closeChat()\n
     '''
 def fetchChatStartInfo():
-    '''public int fetchChatStartInfo()
+    '''returns int\n\n
+    fetchChatStartInfo()\n
     '''
 def getAgentDisplayName():
-    '''public String getAgentDisplayName()
+    '''returns String\n\n
+    getAgentDisplayName()\n
     '''
 def getAgentClientId():
-    '''public String getAgentClientId()
+    '''returns String\n\n
+    getAgentClientId()\n
     '''

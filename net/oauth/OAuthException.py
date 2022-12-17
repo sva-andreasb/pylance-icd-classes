@@ -1,5 +1,6 @@
-def OAuthException():
-    '''public OAuthException(final String message)
-    public OAuthException(final Throwable cause)
-    public OAuthException(final String message, final Throwable cause)
+def ():
+    '''returns OAuthException\n\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

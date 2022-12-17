@@ -1,71 +1,73 @@
-def SerializationConfig():
-    '''public SerializationConfig(final BaseSettings base, final SubtypeResolver str, final SimpleMixInResolver mixins, final RootNameLookup rootNames, final ConfigOverrides configOverrides)
+def ():
+    '''returns SerializationConfig\n\n
+    (final BaseSettings base, final SubtypeResolver str, final SimpleMixInResolver mixins, final RootNameLookup rootNames, final ConfigOverrides configOverrides)\n
     '''
 def withRootName():
-    '''public SerializationConfig withRootName(final PropertyName rootName)
+    '''returns SerializationConfig\n\n
+    withRootName(final PropertyName rootName)\n
     '''
 def with():
-    '''public SerializationConfig with(final SubtypeResolver str)
-    public SerializationConfig with(final ContextAttributes attrs)
-    public SerializationConfig with(final DateFormat df)
-    public SerializationConfig with(final SerializationFeature feature)
-    public SerializationConfig with(final SerializationFeature first, final SerializationFeature... features)
-    public SerializationConfig with(final JsonGenerator.Feature feature)
-    public SerializationConfig with(final FormatFeature feature)
+    '''returns SerializationConfig\n\n
+    with(final SubtypeResolver str)\n
+    with(final ContextAttributes attrs)\n
+    with(final DateFormat df)\n
+    with(final SerializationFeature feature)\n
+    with(final SerializationFeature first, final SerializationFeature... features)\n
+    with(final JsonGenerator.Feature feature)\n
+    with(final FormatFeature feature)\n
     '''
 def withView():
-    '''public SerializationConfig withView(final Class<?> view)
+    '''returns SerializationConfig\n\n
+    withView(final Class<?> view)\n
     '''
 def withFeatures():
-    '''public SerializationConfig withFeatures(final SerializationFeature... features)
-    public SerializationConfig withFeatures(final JsonGenerator.Feature... features)
-    public SerializationConfig withFeatures(final FormatFeature... features)
+    '''returns SerializationConfig\n\n
+    withFeatures(final SerializationFeature... features)\n
+    withFeatures(final JsonGenerator.Feature... features)\n
+    withFeatures(final FormatFeature... features)\n
     '''
 def without():
-    '''public SerializationConfig without(final SerializationFeature feature)
-    public SerializationConfig without(final SerializationFeature first, final SerializationFeature... features)
-    public SerializationConfig without(final JsonGenerator.Feature feature)
-    public SerializationConfig without(final FormatFeature feature)
+    '''returns SerializationConfig\n\n
+    without(final SerializationFeature feature)\n
+    without(final SerializationFeature first, final SerializationFeature... features)\n
+    without(final JsonGenerator.Feature feature)\n
+    without(final FormatFeature feature)\n
     '''
 def withoutFeatures():
-    '''public SerializationConfig withoutFeatures(final SerializationFeature... features)
-    public SerializationConfig withoutFeatures(final JsonGenerator.Feature... features)
-    public SerializationConfig withoutFeatures(final FormatFeature... features)
+    '''returns SerializationConfig\n\n
+    withoutFeatures(final SerializationFeature... features)\n
+    withoutFeatures(final JsonGenerator.Feature... features)\n
+    withoutFeatures(final FormatFeature... features)\n
     '''
 def withFilters():
-    '''public SerializationConfig withFilters(final FilterProvider filterProvider)
+    '''returns SerializationConfig\n\n
+    withFilters(final FilterProvider filterProvider)\n
     '''
 def withPropertyInclusion():
-    '''public SerializationConfig withPropertyInclusion(final JsonInclude.Value incl)
+    '''returns SerializationConfig\n\n
+    withPropertyInclusion(final JsonInclude.Value incl)\n
     '''
 def withDefaultPrettyPrinter():
-    '''public SerializationConfig withDefaultPrettyPrinter(final PrettyPrinter pp)
+    '''returns SerializationConfig\n\n
+    withDefaultPrettyPrinter(final PrettyPrinter pp)\n
     '''
 def constructDefaultPrettyPrinter():
-    '''public PrettyPrinter constructDefaultPrettyPrinter()
+    '''returns PrettyPrinter\n\n
+    constructDefaultPrettyPrinter()\n
     '''
 def initialize():
-    '''public void initialize(final JsonGenerator g)
+    '''returns None\n\n
+    initialize(final JsonGenerator g)\n
     '''
 def useRootWrapping():
-    '''public boolean useRootWrapping()
-    '''
-def isEnabled():
-    '''public final boolean isEnabled(final SerializationFeature f)
-    public final boolean isEnabled(final JsonGenerator.Feature f, final JsonFactory factory)
-    '''
-def hasSerializationFeatures():
-    '''public final boolean hasSerializationFeatures(final int featureMask)
-    '''
-def getSerializationFeatures():
-    '''public final int getSerializationFeatures()
+    '''returns boolean\n\n
+    useRootWrapping()\n
     '''
 def getFilterProvider():
-    '''public FilterProvider getFilterProvider()
+    '''returns FilterProvider\n\n
+    getFilterProvider()\n
     '''
 def getDefaultPrettyPrinter():
-    '''public PrettyPrinter getDefaultPrettyPrinter()
-    '''
-def introspect():
-    '''public <T extends BeanDescription> T introspect(final JavaType type)
+    '''returns PrettyPrinter\n\n
+    getDefaultPrettyPrinter()\n
     '''

@@ -1,3 +1,4 @@
 def getMergeInstance():
-    '''public StoredFieldsReader getMergeInstance()
+    '''returns StoredFieldsReader\n\n
+    getMergeInstance()\n
     '''

@@ -1,6 +1,8 @@
-def Pu():
-    '''public Pu(final OutputStream outputStream)
+def ():
+    '''returns Pu\n\n
+    (final OutputStream outputStream)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,49 +1,64 @@
-def MastersTypeImpl():
-    '''public MastersTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns MastersTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getMasterList():
-    '''public List<MasterType> getMasterList()
+    '''returns List<MasterType>\n\n
+    getMasterList()\n
     '''
 def getMasterArray():
-    '''public MasterType[] getMasterArray()
-    public MasterType getMasterArray(final int n)
+    '''returns MasterType\n\n
+    getMasterArray()\n
+    getMasterArray(final int n)\n
     '''
 def sizeOfMasterArray():
-    '''public int sizeOfMasterArray()
+    '''returns int\n\n
+    sizeOfMasterArray()\n
     '''
 def setMasterArray():
-    '''public void setMasterArray(final MasterType[] array)
-    public void setMasterArray(final int n, final MasterType masterType)
+    '''returns None\n\n
+    setMasterArray(final MasterType[] array)\n
+    setMasterArray(final int n, final MasterType masterType)\n
     '''
 def insertNewMaster():
-    '''public MasterType insertNewMaster(final int n)
+    '''returns MasterType\n\n
+    insertNewMaster(final int n)\n
     '''
 def addNewMaster():
-    '''public MasterType addNewMaster()
+    '''returns MasterType\n\n
+    addNewMaster()\n
     '''
 def removeMaster():
-    '''public void removeMaster(final int n)
+    '''returns None\n\n
+    removeMaster(final int n)\n
     '''
 def getMasterShortcutList():
-    '''public List<MasterShortcutType> getMasterShortcutList()
+    '''returns List<MasterShortcutType>\n\n
+    getMasterShortcutList()\n
     '''
 def getMasterShortcutArray():
-    '''public MasterShortcutType[] getMasterShortcutArray()
-    public MasterShortcutType getMasterShortcutArray(final int n)
+    '''returns MasterShortcutType\n\n
+    getMasterShortcutArray()\n
+    getMasterShortcutArray(final int n)\n
     '''
 def sizeOfMasterShortcutArray():
-    '''public int sizeOfMasterShortcutArray()
+    '''returns int\n\n
+    sizeOfMasterShortcutArray()\n
     '''
 def setMasterShortcutArray():
-    '''public void setMasterShortcutArray(final MasterShortcutType[] array)
-    public void setMasterShortcutArray(final int n, final MasterShortcutType masterShortcutType)
+    '''returns None\n\n
+    setMasterShortcutArray(final MasterShortcutType[] array)\n
+    setMasterShortcutArray(final int n, final MasterShortcutType masterShortcutType)\n
     '''
 def insertNewMasterShortcut():
-    '''public MasterShortcutType insertNewMasterShortcut(final int n)
+    '''returns MasterShortcutType\n\n
+    insertNewMasterShortcut(final int n)\n
     '''
 def addNewMasterShortcut():
-    '''public MasterShortcutType addNewMasterShortcut()
+    '''returns MasterShortcutType\n\n
+    addNewMasterShortcut()\n
     '''
 def removeMasterShortcut():
-    '''public void removeMasterShortcut(final int n)
+    '''returns None\n\n
+    removeMasterShortcut(final int n)\n
     '''

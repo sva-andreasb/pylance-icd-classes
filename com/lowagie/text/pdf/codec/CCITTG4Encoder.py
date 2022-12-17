@@ -1,15 +1,16 @@
-def CCITTG4Encoder():
-    '''public CCITTG4Encoder(final int width)
-    '''
-def compress():
-    '''public static byte[] compress(final byte[] data, final int width, int height)
+def ():
+    '''returns CCITTG4Encoder\n\n
+    (final int width)\n
     '''
 def encodeT6Lines():
-    '''public void encodeT6Lines(final byte[] data, final int lineAddr, int height)
+    '''returns None\n\n
+    encodeT6Lines(final byte[] data, final int lineAddr, int height)\n
     '''
 def encodeT6Line():
-    '''public void encodeT6Line(final byte[] data, final int lineAddr)
+    '''returns None\n\n
+    encodeT6Line(final byte[] data, final int lineAddr)\n
     '''
 def close():
-    '''public byte[] close()
+    '''returns byte[]\n\n
+    close()\n
     '''

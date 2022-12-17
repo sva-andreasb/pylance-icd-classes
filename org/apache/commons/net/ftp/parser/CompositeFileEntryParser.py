@@ -1,6 +1,8 @@
-def CompositeFileEntryParser():
-    '''public CompositeFileEntryParser(final FTPFileEntryParser[] ftpFileEntryParsers)
+def ():
+    '''returns CompositeFileEntryParser\n\n
+    (final FTPFileEntryParser[] ftpFileEntryParsers)\n
     '''
 def parseFTPEntry():
-    '''public FTPFile parseFTPEntry(final String listEntry)
+    '''returns FTPFile\n\n
+    parseFTPEntry(final String listEntry)\n
     '''

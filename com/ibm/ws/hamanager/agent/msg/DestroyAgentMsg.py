@@ -1,6 +1,8 @@
-def DestroyAgentMsg():
-    '''public DestroyAgentMsg(final long sequence)
+def ():
+    '''returns DestroyAgentMsg\n\n
+    (final long sequence)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

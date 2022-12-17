@@ -1,6 +1,8 @@
-def FlatFileLoadHandler():
-    '''public FlatFileLoadHandler(final String osName)
+def ():
+    '''returns FlatFileLoadHandler\n\n
+    (final String osName)\n
     '''
 def loadFlatData():
-    '''public JSONArray loadFlatData(final byte[] data, final OslcRequest oslcRequest)
+    '''returns JSONArray\n\n
+    loadFlatData(final byte[] data, final OslcRequest oslcRequest)\n
     '''

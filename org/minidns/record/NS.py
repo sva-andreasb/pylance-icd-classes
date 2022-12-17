@@ -1,6 +1,4 @@
-def parse():
-    '''public static NS parse(final DataInputStream dis, final byte[] data)
-    '''
-def NS():
-    '''public NS(final DnsName name)
+def ():
+    '''returns NS\n\n
+    (final DnsName name)\n
     '''

@@ -1,6 +1,8 @@
-def TKTotalSet():
-    '''public TKTotalSet(final MboServerInterface ms)
+def ():
+    '''returns TKTotalSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMbo():
-    '''public MboRemote getMbo(final int pos)
+    '''returns MboRemote\n\n
+    getMbo(final int pos)\n
     '''

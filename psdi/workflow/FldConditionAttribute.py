@@ -1,6 +1,8 @@
-def FldConditionAttribute():
-    '''public FldConditionAttribute(final MboValue mbv)
+def ():
+    '''returns FldConditionAttribute\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

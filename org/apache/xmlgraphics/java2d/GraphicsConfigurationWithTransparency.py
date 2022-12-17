@@ -1,20 +1,26 @@
 def createCompatibleImage():
-    '''public BufferedImage createCompatibleImage(final int width, final int height, final int transparency)
-    public BufferedImage createCompatibleImage(final int width, final int height)
+    '''returns BufferedImage\n\n
+    createCompatibleImage(final int width, final int height, final int transparency)\n
+    createCompatibleImage(final int width, final int height)\n
     '''
 def getBounds():
-    '''public Rectangle getBounds()
+    '''returns Rectangle\n\n
+    getBounds()\n
     '''
 def getColorModel():
-    '''public ColorModel getColorModel()
-    public ColorModel getColorModel(final int transparency)
+    '''returns ColorModel\n\n
+    getColorModel()\n
+    getColorModel(final int transparency)\n
     '''
 def getDefaultTransform():
-    '''public AffineTransform getDefaultTransform()
+    '''returns AffineTransform\n\n
+    getDefaultTransform()\n
     '''
 def getNormalizingTransform():
-    '''public AffineTransform getNormalizingTransform()
+    '''returns AffineTransform\n\n
+    getNormalizingTransform()\n
     '''
 def getDevice():
-    '''public GraphicsDevice getDevice()
+    '''returns GraphicsDevice\n\n
+    getDevice()\n
     '''

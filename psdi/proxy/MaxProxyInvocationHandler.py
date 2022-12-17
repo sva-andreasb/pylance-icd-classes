@@ -1,6 +1,8 @@
-def MaxProxyInvocationHandler():
-    '''public MaxProxyInvocationHandler(final Remote remoteObj)
+def ():
+    '''returns MaxProxyInvocationHandler\n\n
+    (final Remote remoteObj)\n
     '''
 def invoke():
-    '''public Object invoke(final Object proxy, final Method method, final Object[] args)
+    '''returns Object\n\n
+    invoke(final Object proxy, final Method method, final Object[] args)\n
     '''

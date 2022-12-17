@@ -1,12 +1,16 @@
-def POLine():
-    '''public POLine(final MboSet ms)
+def ():
+    '''returns POLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def associateContractLicense():
-    '''public void associateContractLicense(final MboSetRemote licenseSet)
+    '''returns None\n\n
+    associateContractLicense(final MboSetRemote licenseSet)\n
     '''

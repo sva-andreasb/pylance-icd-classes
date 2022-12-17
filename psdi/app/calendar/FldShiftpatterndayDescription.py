@@ -1,6 +1,8 @@
-def FldShiftpatterndayDescription():
-    '''public FldShiftpatterndayDescription(final MboValue mbv)
+def ():
+    '''returns FldShiftpatterndayDescription\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -11,13 +11,16 @@ RES_SOAP_HEADERELEMENTS = "String  \"RES_SOAP_HEADERELEMENTS\""
 HTTPVERSION = "String  \"HTTPVERSION\""
 SOAPVERSION = "String  \"SOAPVERSION\""
 ENABLEAPPCONTEXT = "String  \"ENABLEAPPCONTEXT\""
-def JAXWSHandler():
-    '''public JAXWSHandler()
-    public JAXWSHandler(final MaxEndPointInfo endPointInfo)
+def ():
+    '''returns JAXWSHandler\n\n
+    ()\n
+    (final MaxEndPointInfo endPointInfo)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData, byte[] data)\n
     '''

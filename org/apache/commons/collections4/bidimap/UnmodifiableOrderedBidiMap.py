@@ -1,33 +1,28 @@
-def unmodifiableOrderedBidiMap():
-    '''public static <K, V> OrderedBidiMap<K, V> unmodifiableOrderedBidiMap(final OrderedBidiMap<? extends K, ? extends V> map)
-    '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> mapToCopy)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> mapToCopy)\n
     '''
 def remove():
-    '''public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Set<V> values()
+    '''returns Set<V>\n\n
+    values()\n
     '''
 def removeValue():
-    '''public K removeValue(final Object value)
-    '''
-def inverseBidiMap():
-    '''public OrderedBidiMap<V, K> inverseBidiMap()
-    '''
-def mapIterator():
-    '''public OrderedMapIterator<K, V> mapIterator()
-    '''
-def inverseOrderedBidiMap():
-    '''public OrderedBidiMap<V, K> inverseOrderedBidiMap()
+    '''returns K\n\n
+    removeValue(final Object value)\n
     '''

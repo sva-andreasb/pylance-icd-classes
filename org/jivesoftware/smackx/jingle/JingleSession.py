@@ -1,40 +1,53 @@
-def JingleSession():
-    '''public JingleSession(final FullJid initiator, final FullJid responder, final Role role, final String sid)
-    public JingleSession(final FullJid initiator, final FullJid responder, final Role role, final String sid, final List<JingleContent> contents)
+def ():
+    '''returns JingleSession\n\n
+    (final FullJid initiator, final FullJid responder, final Role role, final String sid)\n
+    (final FullJid initiator, final FullJid responder, final Role role, final String sid, final List<JingleContent> contents)\n
     '''
 def getInitiator():
-    '''public FullJid getInitiator()
+    '''returns FullJid\n\n
+    getInitiator()\n
     '''
 def isInitiator():
-    '''public boolean isInitiator()
+    '''returns boolean\n\n
+    isInitiator()\n
     '''
 def getResponder():
-    '''public FullJid getResponder()
+    '''returns FullJid\n\n
+    getResponder()\n
     '''
 def isResponder():
-    '''public boolean isResponder()
+    '''returns boolean\n\n
+    isResponder()\n
     '''
 def getRemote():
-    '''public FullJid getRemote()
+    '''returns FullJid\n\n
+    getRemote()\n
     '''
 def getLocal():
-    '''public FullJid getLocal()
+    '''returns FullJid\n\n
+    getLocal()\n
     '''
 def getSessionId():
-    '''public String getSessionId()
+    '''returns String\n\n
+    getSessionId()\n
     '''
 def getFullJidAndSessionId():
-    '''public FullJidAndSessionId getFullJidAndSessionId()
+    '''returns FullJidAndSessionId\n\n
+    getFullJidAndSessionId()\n
     '''
 def getContents():
-    '''public List<JingleContent> getContents()
+    '''returns List<JingleContent>\n\n
+    getContents()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def handleJingleSessionRequest():
-    '''public IQ handleJingleSessionRequest(final Jingle jingle)
+    '''returns IQ\n\n
+    handleJingleSessionRequest(final Jingle jingle)\n
     '''

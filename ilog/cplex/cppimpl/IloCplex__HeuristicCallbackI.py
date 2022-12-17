@@ -1,31 +1,35 @@
-def IloCplex__HeuristicCallbackI():
-    '''public IloCplex__HeuristicCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__HeuristicCallbackI obj)
+def ():
+    '''returns IloCplex__HeuristicCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def setBounds():
-    '''public void setBounds(final IloNumVar var, final double lb, final double ub)
-    public void setBounds(final IloIntVar var, final double lb, final double ub)
-    public void setBounds(final IloNumVarArray var, final IloNumArray lb, final IloNumArray ub)
-    public void setBounds(final IloIntVarArray var, final IloNumArray lb, final IloNumArray ub)
+    '''returns None\n\n
+    setBounds(final IloNumVar var, final double lb, final double ub)\n
+    setBounds(final IloIntVar var, final double lb, final double ub)\n
+    setBounds(final IloNumVarArray var, final IloNumArray lb, final IloNumArray ub)\n
+    setBounds(final IloIntVarArray var, final IloNumArray lb, final IloNumArray ub)\n
     '''
 def solve():
-    '''public boolean solve(final SWIGTYPE_p_IloCplex__Algorithm alg)
-    public boolean solve()
+    '''returns boolean\n\n
+    solve(final SWIGTYPE_p_IloCplex__Algorithm alg)\n
+    solve()\n
     '''
 def isPrimalFeasible():
-    '''public boolean isPrimalFeasible()
+    '''returns boolean\n\n
+    isPrimalFeasible()\n
     '''
 def isDualFeasible():
-    '''public boolean isDualFeasible()
+    '''returns boolean\n\n
+    isDualFeasible()\n
     '''
 def setSolution():
-    '''public void setSolution(final IloNumVarArray vars, final IloNumArray vals)
-    public void setSolution(final IloNumVarArray vars, final IloNumArray vals, final double obj)
-    public void setSolution(final IloIntVarArray vars, final IloNumArray vals)
-    public void setSolution(final IloIntVarArray vars, final IloNumArray vals, final double obj)
+    '''returns None\n\n
+    setSolution(final IloNumVarArray vars, final IloNumArray vals)\n
+    setSolution(final IloNumVarArray vars, final IloNumArray vals, final double obj)\n
+    setSolution(final IloIntVarArray vars, final IloNumArray vals)\n
+    setSolution(final IloIntVarArray vars, final IloNumArray vals, final double obj)\n
     '''

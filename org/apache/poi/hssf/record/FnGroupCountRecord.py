@@ -1,21 +1,27 @@
 sid = "short  156"
 COUNT = "short  14"
-def FnGroupCountRecord():
-    '''public FnGroupCountRecord()
-    public FnGroupCountRecord(final RecordInputStream in)
+def ():
+    '''returns FnGroupCountRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setCount():
-    '''public void setCount(final short count)
+    '''returns None\n\n
+    setCount(final short count)\n
     '''
 def getCount():
-    '''public short getCount()
+    '''returns short\n\n
+    getCount()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

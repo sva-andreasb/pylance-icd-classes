@@ -1,21 +1,28 @@
 def toString():
-    '''public String toString(final ConstantPool cp)
+    '''returns String\n\n
+    toString(final ConstantPool cp)\n
     '''
 def consumeStack():
-    '''public int consumeStack(final ConstantPoolGen cpg)
+    '''returns int\n\n
+    consumeStack(final ConstantPoolGen cpg)\n
     '''
 def produceStack():
-    '''public int produceStack(final ConstantPoolGen cpg)
+    '''returns int\n\n
+    produceStack(final ConstantPoolGen cpg)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cpg)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cpg)\n
     '''
 def getMethodName():
-    '''public String getMethodName(final ConstantPoolGen cpg)
+    '''returns String\n\n
+    getMethodName(final ConstantPoolGen cpg)\n
     '''
 def getReturnType():
-    '''public Type getReturnType(final ConstantPoolGen cpg)
+    '''returns Type\n\n
+    getReturnType(final ConstantPoolGen cpg)\n
     '''
 def getArgumentTypes():
-    '''public Type[] getArgumentTypes(final ConstantPoolGen cpg)
+    '''returns Type[]\n\n
+    getArgumentTypes(final ConstantPoolGen cpg)\n
     '''

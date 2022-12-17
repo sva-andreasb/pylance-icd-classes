@@ -1,16 +1,16 @@
-def OslcOrderedPropMap():
-    '''public OslcOrderedPropMap(final int initialCapacity, final float loadFactor)
-    public OslcOrderedPropMap(final int initialCapacity)
-    public OslcOrderedPropMap()
-    public OslcOrderedPropMap(final Map<? extends K, ? extends V> m)
+def ():
+    '''returns OslcOrderedPropMap\n\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final int initialCapacity)\n
+    ()\n
+    (final Map<? extends K, ? extends V> m)\n
     '''
 def addExtendedProp():
-    '''public void addExtendedProp(final String prop, final String alias)
-    public void addExtendedProp(final String prop)
-    '''
-def getExtendedPropSet():
-    '''public Map<String, String> getExtendedPropSet()
+    '''returns None\n\n
+    addExtendedProp(final String prop, final String alias)\n
+    addExtendedProp(final String prop)\n
     '''
 def hasExtendedProp():
-    '''public boolean hasExtendedProp()
+    '''returns boolean\n\n
+    hasExtendedProp()\n
     '''

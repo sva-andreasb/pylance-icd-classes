@@ -1,14 +1,15 @@
-def LDAPJSSEStartTLSFactory():
-    '''public LDAPJSSEStartTLSFactory()
-    public LDAPJSSEStartTLSFactory(final SSLSocketFactory factory)
+def ():
+    '''returns HandShakeFinished\n\n
+    ()\n
+    (final SSLSocketFactory factory)\n
+    (final LDAPJSSEStartTLSFactory ssf)\n
     '''
 def createSocket():
-    '''public Socket createSocket(final String host, final int port)
-    public Socket createSocket(final Socket socket)
-    '''
-def HandShakeFinished():
-    '''public HandShakeFinished(final LDAPJSSEStartTLSFactory ssf)
+    '''returns Socket\n\n
+    createSocket(final String host, final int port)\n
+    createSocket(final Socket socket)\n
     '''
 def handshakeCompleted():
-    '''public void handshakeCompleted(final HandshakeCompletedEvent handshakeCompletedEvent)
+    '''returns None\n\n
+    handshakeCompleted(final HandshakeCompletedEvent handshakeCompletedEvent)\n
     '''

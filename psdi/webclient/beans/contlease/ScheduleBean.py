@@ -1,3 +1,4 @@
 def reviseschedule():
-    '''public int reviseschedule()
+    '''returns int\n\n
+    reviseschedule()\n
     '''

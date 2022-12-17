@@ -1,18 +1,24 @@
-def ReqRespEventStreamsCronTask():
-    '''public ReqRespEventStreamsCronTask()
+def ():
+    '''returns ReqRespEventStreamsCronTask\n\n
+    ()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def setCrontaskInstance():
-    '''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''returns None\n\n
+    setCrontaskInstance(final CrontaskInstanceRemote inst)\n
     '''

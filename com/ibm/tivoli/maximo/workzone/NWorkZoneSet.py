@@ -1,3 +1,4 @@
-def NWorkZoneSet():
-    '''public NWorkZoneSet(final MboServerInterface ms)
+def ():
+    '''returns NWorkZoneSet\n\n
+    (final MboServerInterface ms)\n
     '''

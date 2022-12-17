@@ -1,39 +1,52 @@
-def UserBean():
-    '''public UserBean()
+def ():
+    '''returns UserBean\n\n
+    ()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def PWHINT():
-    '''public int PWHINT()
+    '''returns int\n\n
+    PWHINT()\n
     '''
 def RESESIG():
-    '''public int RESESIG()
+    '''returns int\n\n
+    RESESIG()\n
     '''
 def GRPASSIGN():
-    '''public int GRPASSIGN()
+    '''returns int\n\n
+    GRPASSIGN()\n
     '''
 def CHGPERSON():
-    '''public int CHGPERSON()
+    '''returns int\n\n
+    CHGPERSON()\n
     '''
 def VIEWHIST():
-    '''public int VIEWHIST()
+    '''returns int\n\n
+    VIEWHIST()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def setpswd():
-    '''public int setpswd()
+    '''returns int\n\n
+    setpswd()\n
     '''
 def cancelpwnew():
-    '''public int cancelpwnew()
+    '''returns int\n\n
+    cancelpwnew()\n
     '''
 def genpswd():
-    '''public int genpswd()
+    '''returns int\n\n
+    genpswd()\n
     '''
 def savesessions():
-    '''public int savesessions()
+    '''returns int\n\n
+    savesessions()\n
     '''

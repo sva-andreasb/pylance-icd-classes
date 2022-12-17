@@ -1,27 +1,35 @@
-def TimeInfo():
-    '''public TimeInfo(final NtpV3Packet message, final long returnTime)
-    public TimeInfo(final NtpV3Packet message, final long returnTime, final List comments)
-    public TimeInfo(final NtpV3Packet msgPacket, final long returnTime, final boolean doComputeDetails)
-    public TimeInfo(final NtpV3Packet message, final long returnTime, final List comments, final boolean doComputeDetails)
+def ():
+    '''returns TimeInfo\n\n
+    (final NtpV3Packet message, final long returnTime)\n
+    (final NtpV3Packet message, final long returnTime, final List comments)\n
+    (final NtpV3Packet msgPacket, final long returnTime, final boolean doComputeDetails)\n
+    (final NtpV3Packet message, final long returnTime, final List comments, final boolean doComputeDetails)\n
     '''
 def addComment():
-    '''public void addComment(final String comment)
+    '''returns None\n\n
+    addComment(final String comment)\n
     '''
 def computeDetails():
-    '''public void computeDetails()
+    '''returns None\n\n
+    computeDetails()\n
     '''
 def getComments():
-    '''public List getComments()
+    '''returns List\n\n
+    getComments()\n
     '''
 def getDelay():
-    '''public Long getDelay()
+    '''returns Long\n\n
+    getDelay()\n
     '''
 def getOffset():
-    '''public Long getOffset()
+    '''returns Long\n\n
+    getOffset()\n
     '''
 def getMessage():
-    '''public NtpV3Packet getMessage()
+    '''returns NtpV3Packet\n\n
+    getMessage()\n
     '''
 def getReturnTime():
-    '''public long getReturnTime()
+    '''returns long\n\n
+    getReturnTime()\n
     '''

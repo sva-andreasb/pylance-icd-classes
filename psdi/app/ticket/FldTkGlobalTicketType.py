@@ -1,6 +1,8 @@
-def FldTkGlobalTicketType():
-    '''public FldTkGlobalTicketType(final MboValue mbv)
+def ():
+    '''returns FldTkGlobalTicketType\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

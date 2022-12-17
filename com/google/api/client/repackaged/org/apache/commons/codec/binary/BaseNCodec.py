@@ -1,24 +1,30 @@
 MIME_CHUNK_SIZE = "int  76"
 PEM_CHUNK_SIZE = "int  64"
 def encode():
-    '''public Object encode(final Object pObject)
-    public byte[] encode(final byte[] pArray)
+    '''returns byte[]\n\n
+    encode(final Object pObject)\n
+    encode(final byte[] pArray)\n
     '''
 def encodeToString():
-    '''public String encodeToString(final byte[] pArray)
+    '''returns String\n\n
+    encodeToString(final byte[] pArray)\n
     '''
 def decode():
-    '''public Object decode(final Object pObject)
-    public byte[] decode(final String pArray)
-    public byte[] decode(final byte[] pArray)
+    '''returns byte[]\n\n
+    decode(final Object pObject)\n
+    decode(final String pArray)\n
+    decode(final byte[] pArray)\n
     '''
 def encodeAsString():
-    '''public String encodeAsString(final byte[] pArray)
+    '''returns String\n\n
+    encodeAsString(final byte[] pArray)\n
     '''
 def isInAlphabet():
-    '''public boolean isInAlphabet(final byte[] arrayOctet, final boolean allowWSPad)
-    public boolean isInAlphabet(final String basen)
+    '''returns boolean\n\n
+    isInAlphabet(final byte[] arrayOctet, final boolean allowWSPad)\n
+    isInAlphabet(final String basen)\n
     '''
 def getEncodedLength():
-    '''public long getEncodedLength(final byte[] pArray)
+    '''returns long\n\n
+    getEncodedLength(final byte[] pArray)\n
     '''

@@ -1,15 +1,20 @@
 def getProperty():
-    '''public List<Property> getProperty()
+    '''returns List<Property>\n\n
+    getProperty()\n
     '''
 def isAutoActivate():
-    '''public Boolean isAutoActivate()
+    '''returns Boolean\n\n
+    isAutoActivate()\n
     '''
 def setAutoActivate():
-    '''public void setAutoActivate(final Boolean value)
+    '''returns None\n\n
+    setAutoActivate(final Boolean value)\n
     '''
 def getID():
-    '''public BigInteger getID()
+    '''returns BigInteger\n\n
+    getID()\n
     '''
 def setID():
-    '''public void setID(final BigInteger value)
+    '''returns None\n\n
+    setID(final BigInteger value)\n
     '''

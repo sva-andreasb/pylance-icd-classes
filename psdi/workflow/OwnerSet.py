@@ -1,9 +1,12 @@
-def OwnerSet():
-    '''public OwnerSet(final MboRemote owner)
+def ():
+    '''returns OwnerSet\n\n
+    (final MboRemote owner)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def fetchMbos():
-    '''public void fetchMbos(final int toPostion)
+    '''returns None\n\n
+    fetchMbos(final int toPostion)\n
     '''

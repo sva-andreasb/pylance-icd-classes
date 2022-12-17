@@ -1,12 +1,16 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def comboboxcontrolsetvalue():
-    '''public int comboboxcontrolsetvalue()
+    '''returns int\n\n
+    comboboxcontrolsetvalue()\n
     '''

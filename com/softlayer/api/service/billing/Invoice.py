@@ -1,565 +1,748 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getAmount():
-    '''public BigDecimal getAmount()
+    '''returns BigDecimal\n\n
+    getAmount()\n
     '''
 def setAmount():
-    '''public void setAmount(final BigDecimal amount)
+    '''returns None\n\n
+    setAmount(final BigDecimal amount)\n
     '''
 def getBrandAtInvoiceCreation():
-    '''public Brand getBrandAtInvoiceCreation()
+    '''returns Brand\n\n
+    getBrandAtInvoiceCreation()\n
     '''
 def setBrandAtInvoiceCreation():
-    '''public void setBrandAtInvoiceCreation(final Brand brandAtInvoiceCreation)
+    '''returns None\n\n
+    setBrandAtInvoiceCreation(final Brand brandAtInvoiceCreation)\n
     '''
 def getDetailedPdfGeneratedFlag():
-    '''public Boolean getDetailedPdfGeneratedFlag()
+    '''returns Boolean\n\n
+    getDetailedPdfGeneratedFlag()\n
     '''
 def setDetailedPdfGeneratedFlag():
-    '''public void setDetailedPdfGeneratedFlag(final Boolean detailedPdfGeneratedFlag)
+    '''returns None\n\n
+    setDetailedPdfGeneratedFlag(final Boolean detailedPdfGeneratedFlag)\n
     '''
 def getInvoiceTopLevelItems():
-    '''public List<Item> getInvoiceTopLevelItems()
+    '''returns List<Item>\n\n
+    getInvoiceTopLevelItems()\n
     '''
 def getInvoiceTotalAmount():
-    '''public BigDecimal getInvoiceTotalAmount()
+    '''returns BigDecimal\n\n
+    getInvoiceTotalAmount()\n
     '''
 def setInvoiceTotalAmount():
-    '''public void setInvoiceTotalAmount(final BigDecimal invoiceTotalAmount)
+    '''returns None\n\n
+    setInvoiceTotalAmount(final BigDecimal invoiceTotalAmount)\n
     '''
 def getInvoiceTotalOneTimeAmount():
-    '''public BigDecimal getInvoiceTotalOneTimeAmount()
+    '''returns BigDecimal\n\n
+    getInvoiceTotalOneTimeAmount()\n
     '''
 def setInvoiceTotalOneTimeAmount():
-    '''public void setInvoiceTotalOneTimeAmount(final BigDecimal invoiceTotalOneTimeAmount)
+    '''returns None\n\n
+    setInvoiceTotalOneTimeAmount(final BigDecimal invoiceTotalOneTimeAmount)\n
     '''
 def getInvoiceTotalOneTimeTaxAmount():
-    '''public BigDecimal getInvoiceTotalOneTimeTaxAmount()
+    '''returns BigDecimal\n\n
+    getInvoiceTotalOneTimeTaxAmount()\n
     '''
 def setInvoiceTotalOneTimeTaxAmount():
-    '''public void setInvoiceTotalOneTimeTaxAmount(final BigDecimal invoiceTotalOneTimeTaxAmount)
+    '''returns None\n\n
+    setInvoiceTotalOneTimeTaxAmount(final BigDecimal invoiceTotalOneTimeTaxAmount)\n
     '''
 def getInvoiceTotalPreTaxAmount():
-    '''public BigDecimal getInvoiceTotalPreTaxAmount()
+    '''returns BigDecimal\n\n
+    getInvoiceTotalPreTaxAmount()\n
     '''
 def setInvoiceTotalPreTaxAmount():
-    '''public void setInvoiceTotalPreTaxAmount(final BigDecimal invoiceTotalPreTaxAmount)
+    '''returns None\n\n
+    setInvoiceTotalPreTaxAmount(final BigDecimal invoiceTotalPreTaxAmount)\n
     '''
 def getInvoiceTotalRecurringAmount():
-    '''public BigDecimal getInvoiceTotalRecurringAmount()
+    '''returns BigDecimal\n\n
+    getInvoiceTotalRecurringAmount()\n
     '''
 def setInvoiceTotalRecurringAmount():
-    '''public void setInvoiceTotalRecurringAmount(final BigDecimal invoiceTotalRecurringAmount)
+    '''returns None\n\n
+    setInvoiceTotalRecurringAmount(final BigDecimal invoiceTotalRecurringAmount)\n
     '''
 def getInvoiceTotalRecurringTaxAmount():
-    '''public BigDecimal getInvoiceTotalRecurringTaxAmount()
+    '''returns BigDecimal\n\n
+    getInvoiceTotalRecurringTaxAmount()\n
     '''
 def setInvoiceTotalRecurringTaxAmount():
-    '''public void setInvoiceTotalRecurringTaxAmount(final BigDecimal invoiceTotalRecurringTaxAmount)
+    '''returns None\n\n
+    setInvoiceTotalRecurringTaxAmount(final BigDecimal invoiceTotalRecurringTaxAmount)\n
     '''
 def getItems():
-    '''public List<Item> getItems()
+    '''returns List<Item>\n\n
+    getItems()\n
     '''
 def getPayment():
-    '''public BigDecimal getPayment()
+    '''returns BigDecimal\n\n
+    getPayment()\n
     '''
 def setPayment():
-    '''public void setPayment(final BigDecimal payment)
+    '''returns None\n\n
+    setPayment(final BigDecimal payment)\n
     '''
 def getPayments():
-    '''public List<Payment> getPayments()
+    '''returns List<Payment>\n\n
+    getPayments()\n
     '''
 def getSellerRegistration():
-    '''public String getSellerRegistration()
+    '''returns String\n\n
+    getSellerRegistration()\n
     '''
 def setSellerRegistration():
-    '''public void setSellerRegistration(final String sellerRegistration)
+    '''returns None\n\n
+    setSellerRegistration(final String sellerRegistration)\n
     '''
 def getTaxInfo():
-    '''public Info getTaxInfo()
+    '''returns Info\n\n
+    getTaxInfo()\n
     '''
 def setTaxInfo():
-    '''public void setTaxInfo(final Info taxInfo)
+    '''returns None\n\n
+    setTaxInfo(final Info taxInfo)\n
     '''
 def getTaxInfoHistory():
-    '''public List<Info> getTaxInfoHistory()
+    '''returns List<Info>\n\n
+    getTaxInfoHistory()\n
     '''
 def getTaxMessage():
-    '''public String getTaxMessage()
+    '''returns String\n\n
+    getTaxMessage()\n
     '''
 def setTaxMessage():
-    '''public void setTaxMessage(final String taxMessage)
+    '''returns None\n\n
+    setTaxMessage(final String taxMessage)\n
     '''
 def setTaxType():
-    '''public void setTaxType(final com.softlayer.api.service.billing.invoice.tax.Type taxType)
+    '''returns None\n\n
+    setTaxType(final com.softlayer.api.service.billing.invoice.tax.Type taxType)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getAddress1():
-    '''public String getAddress1()
+    '''returns String\n\n
+    getAddress1()\n
     '''
 def setAddress1():
-    '''public void setAddress1(final String address1)
+    '''returns None\n\n
+    setAddress1(final String address1)\n
     '''
 def isAddress1Specified():
-    '''public boolean isAddress1Specified()
+    '''returns boolean\n\n
+    isAddress1Specified()\n
     '''
 def unsetAddress1():
-    '''public void unsetAddress1()
+    '''returns None\n\n
+    unsetAddress1()\n
     '''
 def getAddress2():
-    '''public String getAddress2()
+    '''returns String\n\n
+    getAddress2()\n
     '''
 def setAddress2():
-    '''public void setAddress2(final String address2)
+    '''returns None\n\n
+    setAddress2(final String address2)\n
     '''
 def isAddress2Specified():
-    '''public boolean isAddress2Specified()
+    '''returns boolean\n\n
+    isAddress2Specified()\n
     '''
 def unsetAddress2():
-    '''public void unsetAddress2()
+    '''returns None\n\n
+    unsetAddress2()\n
     '''
 def getCity():
-    '''public String getCity()
+    '''returns String\n\n
+    getCity()\n
     '''
 def setCity():
-    '''public void setCity(final String city)
+    '''returns None\n\n
+    setCity(final String city)\n
     '''
 def isCitySpecified():
-    '''public boolean isCitySpecified()
+    '''returns boolean\n\n
+    isCitySpecified()\n
     '''
 def unsetCity():
-    '''public void unsetCity()
+    '''returns None\n\n
+    unsetCity()\n
     '''
 def getClaimedTaxExemptTxFlag():
-    '''public Boolean getClaimedTaxExemptTxFlag()
+    '''returns Boolean\n\n
+    getClaimedTaxExemptTxFlag()\n
     '''
 def setClaimedTaxExemptTxFlag():
-    '''public void setClaimedTaxExemptTxFlag(final Boolean claimedTaxExemptTxFlag)
+    '''returns None\n\n
+    setClaimedTaxExemptTxFlag(final Boolean claimedTaxExemptTxFlag)\n
     '''
 def isClaimedTaxExemptTxFlagSpecified():
-    '''public boolean isClaimedTaxExemptTxFlagSpecified()
+    '''returns boolean\n\n
+    isClaimedTaxExemptTxFlagSpecified()\n
     '''
 def unsetClaimedTaxExemptTxFlag():
-    '''public void unsetClaimedTaxExemptTxFlag()
+    '''returns None\n\n
+    unsetClaimedTaxExemptTxFlag()\n
     '''
 def getClosedDate():
-    '''public GregorianCalendar getClosedDate()
+    '''returns GregorianCalendar\n\n
+    getClosedDate()\n
     '''
 def setClosedDate():
-    '''public void setClosedDate(final GregorianCalendar closedDate)
+    '''returns None\n\n
+    setClosedDate(final GregorianCalendar closedDate)\n
     '''
 def isClosedDateSpecified():
-    '''public boolean isClosedDateSpecified()
+    '''returns boolean\n\n
+    isClosedDateSpecified()\n
     '''
 def unsetClosedDate():
-    '''public void unsetClosedDate()
+    '''returns None\n\n
+    unsetClosedDate()\n
     '''
 def getCompanyName():
-    '''public String getCompanyName()
+    '''returns String\n\n
+    getCompanyName()\n
     '''
 def setCompanyName():
-    '''public void setCompanyName(final String companyName)
+    '''returns None\n\n
+    setCompanyName(final String companyName)\n
     '''
 def isCompanyNameSpecified():
-    '''public boolean isCompanyNameSpecified()
+    '''returns boolean\n\n
+    isCompanyNameSpecified()\n
     '''
 def unsetCompanyName():
-    '''public void unsetCompanyName()
+    '''returns None\n\n
+    unsetCompanyName()\n
     '''
 def getCountry():
-    '''public String getCountry()
+    '''returns String\n\n
+    getCountry()\n
     '''
 def setCountry():
-    '''public void setCountry(final String country)
+    '''returns None\n\n
+    setCountry(final String country)\n
     '''
 def isCountrySpecified():
-    '''public boolean isCountrySpecified()
+    '''returns boolean\n\n
+    isCountrySpecified()\n
     '''
 def unsetCountry():
-    '''public void unsetCountry()
+    '''returns None\n\n
+    unsetCountry()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getDocumentsGeneratedFlag():
-    '''public Boolean getDocumentsGeneratedFlag()
+    '''returns Boolean\n\n
+    getDocumentsGeneratedFlag()\n
     '''
 def setDocumentsGeneratedFlag():
-    '''public void setDocumentsGeneratedFlag(final Boolean documentsGeneratedFlag)
+    '''returns None\n\n
+    setDocumentsGeneratedFlag(final Boolean documentsGeneratedFlag)\n
     '''
 def isDocumentsGeneratedFlagSpecified():
-    '''public boolean isDocumentsGeneratedFlagSpecified()
+    '''returns boolean\n\n
+    isDocumentsGeneratedFlagSpecified()\n
     '''
 def unsetDocumentsGeneratedFlag():
-    '''public void unsetDocumentsGeneratedFlag()
+    '''returns None\n\n
+    unsetDocumentsGeneratedFlag()\n
     '''
 def getEmail():
-    '''public String getEmail()
+    '''returns String\n\n
+    getEmail()\n
     '''
 def setEmail():
-    '''public void setEmail(final String email)
+    '''returns None\n\n
+    setEmail(final String email)\n
     '''
 def isEmailSpecified():
-    '''public boolean isEmailSpecified()
+    '''returns boolean\n\n
+    isEmailSpecified()\n
     '''
 def unsetEmail():
-    '''public void unsetEmail()
+    '''returns None\n\n
+    unsetEmail()\n
     '''
 def getEndingBalance():
-    '''public BigDecimal getEndingBalance()
+    '''returns BigDecimal\n\n
+    getEndingBalance()\n
     '''
 def setEndingBalance():
-    '''public void setEndingBalance(final BigDecimal endingBalance)
+    '''returns None\n\n
+    setEndingBalance(final BigDecimal endingBalance)\n
     '''
 def isEndingBalanceSpecified():
-    '''public boolean isEndingBalanceSpecified()
+    '''returns boolean\n\n
+    isEndingBalanceSpecified()\n
     '''
 def unsetEndingBalance():
-    '''public void unsetEndingBalance()
+    '''returns None\n\n
+    unsetEndingBalance()\n
     '''
 def getFaxPhone():
-    '''public String getFaxPhone()
+    '''returns String\n\n
+    getFaxPhone()\n
     '''
 def setFaxPhone():
-    '''public void setFaxPhone(final String faxPhone)
+    '''returns None\n\n
+    setFaxPhone(final String faxPhone)\n
     '''
 def isFaxPhoneSpecified():
-    '''public boolean isFaxPhoneSpecified()
+    '''returns boolean\n\n
+    isFaxPhoneSpecified()\n
     '''
 def unsetFaxPhone():
-    '''public void unsetFaxPhone()
+    '''returns None\n\n
+    unsetFaxPhone()\n
     '''
 def getFirstName():
-    '''public String getFirstName()
+    '''returns String\n\n
+    getFirstName()\n
     '''
 def setFirstName():
-    '''public void setFirstName(final String firstName)
+    '''returns None\n\n
+    setFirstName(final String firstName)\n
     '''
 def isFirstNameSpecified():
-    '''public boolean isFirstNameSpecified()
+    '''returns boolean\n\n
+    isFirstNameSpecified()\n
     '''
 def unsetFirstName():
-    '''public void unsetFirstName()
+    '''returns None\n\n
+    unsetFirstName()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getLastName():
-    '''public String getLastName()
+    '''returns String\n\n
+    getLastName()\n
     '''
 def setLastName():
-    '''public void setLastName(final String lastName)
+    '''returns None\n\n
+    setLastName(final String lastName)\n
     '''
 def isLastNameSpecified():
-    '''public boolean isLastNameSpecified()
+    '''returns boolean\n\n
+    isLastNameSpecified()\n
     '''
 def unsetLastName():
-    '''public void unsetLastName()
+    '''returns None\n\n
+    unsetLastName()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getOfficePhone():
-    '''public String getOfficePhone()
+    '''returns String\n\n
+    getOfficePhone()\n
     '''
 def setOfficePhone():
-    '''public void setOfficePhone(final String officePhone)
+    '''returns None\n\n
+    setOfficePhone(final String officePhone)\n
     '''
 def isOfficePhoneSpecified():
-    '''public boolean isOfficePhoneSpecified()
+    '''returns boolean\n\n
+    isOfficePhoneSpecified()\n
     '''
 def unsetOfficePhone():
-    '''public void unsetOfficePhone()
+    '''returns None\n\n
+    unsetOfficePhone()\n
     '''
 def getPostalCode():
-    '''public String getPostalCode()
+    '''returns String\n\n
+    getPostalCode()\n
     '''
 def setPostalCode():
-    '''public void setPostalCode(final String postalCode)
+    '''returns None\n\n
+    setPostalCode(final String postalCode)\n
     '''
 def isPostalCodeSpecified():
-    '''public boolean isPostalCodeSpecified()
+    '''returns boolean\n\n
+    isPostalCodeSpecified()\n
     '''
 def unsetPostalCode():
-    '''public void unsetPostalCode()
+    '''returns None\n\n
+    unsetPostalCode()\n
     '''
 def getPurchaseOrderNumber():
-    '''public String getPurchaseOrderNumber()
+    '''returns String\n\n
+    getPurchaseOrderNumber()\n
     '''
 def setPurchaseOrderNumber():
-    '''public void setPurchaseOrderNumber(final String purchaseOrderNumber)
+    '''returns None\n\n
+    setPurchaseOrderNumber(final String purchaseOrderNumber)\n
     '''
 def isPurchaseOrderNumberSpecified():
-    '''public boolean isPurchaseOrderNumberSpecified()
+    '''returns boolean\n\n
+    isPurchaseOrderNumberSpecified()\n
     '''
 def unsetPurchaseOrderNumber():
-    '''public void unsetPurchaseOrderNumber()
+    '''returns None\n\n
+    unsetPurchaseOrderNumber()\n
     '''
 def getStartingBalance():
-    '''public BigDecimal getStartingBalance()
+    '''returns BigDecimal\n\n
+    getStartingBalance()\n
     '''
 def setStartingBalance():
-    '''public void setStartingBalance(final BigDecimal startingBalance)
+    '''returns None\n\n
+    setStartingBalance(final BigDecimal startingBalance)\n
     '''
 def isStartingBalanceSpecified():
-    '''public boolean isStartingBalanceSpecified()
+    '''returns boolean\n\n
+    isStartingBalanceSpecified()\n
     '''
 def unsetStartingBalance():
-    '''public void unsetStartingBalance()
+    '''returns None\n\n
+    unsetStartingBalance()\n
     '''
 def getState():
-    '''public String getState()
+    '''returns String\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final String state)
+    '''returns None\n\n
+    setState(final String state)\n
     '''
 def isStateSpecified():
-    '''public boolean isStateSpecified()
+    '''returns boolean\n\n
+    isStateSpecified()\n
     '''
 def unsetState():
-    '''public void unsetState()
+    '''returns None\n\n
+    unsetState()\n
     '''
 def getStatusCode():
-    '''public String getStatusCode()
+    '''returns String\n\n
+    getStatusCode()\n
     '''
 def setStatusCode():
-    '''public void setStatusCode(final String statusCode)
+    '''returns None\n\n
+    setStatusCode(final String statusCode)\n
     '''
 def isStatusCodeSpecified():
-    '''public boolean isStatusCodeSpecified()
+    '''returns boolean\n\n
+    isStatusCodeSpecified()\n
     '''
 def unsetStatusCode():
-    '''public void unsetStatusCode()
+    '''returns None\n\n
+    unsetStatusCode()\n
     '''
 def getTaxStatusId():
-    '''public Long getTaxStatusId()
+    '''returns Long\n\n
+    getTaxStatusId()\n
     '''
 def setTaxStatusId():
-    '''public void setTaxStatusId(final Long taxStatusId)
+    '''returns None\n\n
+    setTaxStatusId(final Long taxStatusId)\n
     '''
 def isTaxStatusIdSpecified():
-    '''public boolean isTaxStatusIdSpecified()
+    '''returns boolean\n\n
+    isTaxStatusIdSpecified()\n
     '''
 def unsetTaxStatusId():
-    '''public void unsetTaxStatusId()
+    '''returns None\n\n
+    unsetTaxStatusId()\n
     '''
 def getTaxTypeId():
-    '''public Long getTaxTypeId()
+    '''returns Long\n\n
+    getTaxTypeId()\n
     '''
 def setTaxTypeId():
-    '''public void setTaxTypeId(final Long taxTypeId)
+    '''returns None\n\n
+    setTaxTypeId(final Long taxTypeId)\n
     '''
 def isTaxTypeIdSpecified():
-    '''public boolean isTaxTypeIdSpecified()
+    '''returns boolean\n\n
+    isTaxTypeIdSpecified()\n
     '''
 def unsetTaxTypeId():
-    '''public void unsetTaxTypeId()
+    '''returns None\n\n
+    unsetTaxTypeId()\n
     '''
 def getTypeCode():
-    '''public String getTypeCode()
+    '''returns String\n\n
+    getTypeCode()\n
     '''
 def setTypeCode():
-    '''public void setTypeCode(final String typeCode)
+    '''returns None\n\n
+    setTypeCode(final String typeCode)\n
     '''
 def isTypeCodeSpecified():
-    '''public boolean isTypeCodeSpecified()
+    '''returns boolean\n\n
+    isTypeCodeSpecified()\n
     '''
 def unsetTypeCode():
-    '''public void unsetTypeCode()
+    '''returns None\n\n
+    unsetTypeCode()\n
     '''
 def getInvoiceTopLevelItemCount():
-    '''public Long getInvoiceTopLevelItemCount()
+    '''returns Long\n\n
+    getInvoiceTopLevelItemCount()\n
     '''
 def setInvoiceTopLevelItemCount():
-    '''public void setInvoiceTopLevelItemCount(final Long invoiceTopLevelItemCount)
+    '''returns None\n\n
+    setInvoiceTopLevelItemCount(final Long invoiceTopLevelItemCount)\n
     '''
 def getItemCount():
-    '''public Long getItemCount()
+    '''returns Long\n\n
+    getItemCount()\n
     '''
 def setItemCount():
-    '''public void setItemCount(final Long itemCount)
+    '''returns None\n\n
+    setItemCount(final Long itemCount)\n
     '''
 def getPaymentCount():
-    '''public Long getPaymentCount()
+    '''returns Long\n\n
+    getPaymentCount()\n
     '''
 def setPaymentCount():
-    '''public void setPaymentCount(final Long paymentCount)
+    '''returns None\n\n
+    setPaymentCount(final Long paymentCount)\n
     '''
 def getTaxInfoHistoryCount():
-    '''public Long getTaxInfoHistoryCount()
+    '''returns Long\n\n
+    getTaxInfoHistoryCount()\n
     '''
 def setTaxInfoHistoryCount():
-    '''public void setTaxInfoHistoryCount(final Long taxInfoHistoryCount)
+    '''returns None\n\n
+    setTaxInfoHistoryCount(final Long taxInfoHistoryCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def amount():
-    '''public Mask amount()
+    '''returns Mask\n\n
+    amount()\n
     '''
 def detailedPdfGeneratedFlag():
-    '''public Mask detailedPdfGeneratedFlag()
+    '''returns Mask\n\n
+    detailedPdfGeneratedFlag()\n
     '''
 def invoiceTotalAmount():
-    '''public Mask invoiceTotalAmount()
+    '''returns Mask\n\n
+    invoiceTotalAmount()\n
     '''
 def invoiceTotalOneTimeAmount():
-    '''public Mask invoiceTotalOneTimeAmount()
+    '''returns Mask\n\n
+    invoiceTotalOneTimeAmount()\n
     '''
 def invoiceTotalOneTimeTaxAmount():
-    '''public Mask invoiceTotalOneTimeTaxAmount()
+    '''returns Mask\n\n
+    invoiceTotalOneTimeTaxAmount()\n
     '''
 def invoiceTotalPreTaxAmount():
-    '''public Mask invoiceTotalPreTaxAmount()
+    '''returns Mask\n\n
+    invoiceTotalPreTaxAmount()\n
     '''
 def invoiceTotalRecurringAmount():
-    '''public Mask invoiceTotalRecurringAmount()
+    '''returns Mask\n\n
+    invoiceTotalRecurringAmount()\n
     '''
 def invoiceTotalRecurringTaxAmount():
-    '''public Mask invoiceTotalRecurringTaxAmount()
+    '''returns Mask\n\n
+    invoiceTotalRecurringTaxAmount()\n
     '''
 def payment():
-    '''public Mask payment()
+    '''returns Mask\n\n
+    payment()\n
     '''
 def sellerRegistration():
-    '''public Mask sellerRegistration()
+    '''returns Mask\n\n
+    sellerRegistration()\n
     '''
 def taxMessage():
-    '''public Mask taxMessage()
+    '''returns Mask\n\n
+    taxMessage()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def address1():
-    '''public Mask address1()
+    '''returns Mask\n\n
+    address1()\n
     '''
 def address2():
-    '''public Mask address2()
+    '''returns Mask\n\n
+    address2()\n
     '''
 def city():
-    '''public Mask city()
+    '''returns Mask\n\n
+    city()\n
     '''
 def claimedTaxExemptTxFlag():
-    '''public Mask claimedTaxExemptTxFlag()
+    '''returns Mask\n\n
+    claimedTaxExemptTxFlag()\n
     '''
 def closedDate():
-    '''public Mask closedDate()
+    '''returns Mask\n\n
+    closedDate()\n
     '''
 def companyName():
-    '''public Mask companyName()
+    '''returns Mask\n\n
+    companyName()\n
     '''
 def country():
-    '''public Mask country()
+    '''returns Mask\n\n
+    country()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def documentsGeneratedFlag():
-    '''public Mask documentsGeneratedFlag()
+    '''returns Mask\n\n
+    documentsGeneratedFlag()\n
     '''
 def email():
-    '''public Mask email()
+    '''returns Mask\n\n
+    email()\n
     '''
 def endingBalance():
-    '''public Mask endingBalance()
+    '''returns Mask\n\n
+    endingBalance()\n
     '''
 def faxPhone():
-    '''public Mask faxPhone()
+    '''returns Mask\n\n
+    faxPhone()\n
     '''
 def firstName():
-    '''public Mask firstName()
+    '''returns Mask\n\n
+    firstName()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def lastName():
-    '''public Mask lastName()
+    '''returns Mask\n\n
+    lastName()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def officePhone():
-    '''public Mask officePhone()
+    '''returns Mask\n\n
+    officePhone()\n
     '''
 def postalCode():
-    '''public Mask postalCode()
+    '''returns Mask\n\n
+    postalCode()\n
     '''
 def purchaseOrderNumber():
-    '''public Mask purchaseOrderNumber()
+    '''returns Mask\n\n
+    purchaseOrderNumber()\n
     '''
 def startingBalance():
-    '''public Mask startingBalance()
+    '''returns Mask\n\n
+    startingBalance()\n
     '''
 def state():
-    '''public Mask state()
+    '''returns Mask\n\n
+    state()\n
     '''
 def statusCode():
-    '''public Mask statusCode()
+    '''returns Mask\n\n
+    statusCode()\n
     '''
 def taxStatusId():
-    '''public Mask taxStatusId()
+    '''returns Mask\n\n
+    taxStatusId()\n
     '''
 def taxTypeId():
-    '''public Mask taxTypeId()
+    '''returns Mask\n\n
+    taxTypeId()\n
     '''
 def typeCode():
-    '''public Mask typeCode()
+    '''returns Mask\n\n
+    typeCode()\n
     '''
 def invoiceTopLevelItemCount():
-    '''public Mask invoiceTopLevelItemCount()
+    '''returns Mask\n\n
+    invoiceTopLevelItemCount()\n
     '''
 def itemCount():
-    '''public Mask itemCount()
+    '''returns Mask\n\n
+    itemCount()\n
     '''
 def paymentCount():
-    '''public Mask paymentCount()
+    '''returns Mask\n\n
+    paymentCount()\n
     '''
 def taxInfoHistoryCount():
-    '''public Mask taxInfoHistoryCount()
+    '''returns Mask\n\n
+    taxInfoHistoryCount()\n
     '''

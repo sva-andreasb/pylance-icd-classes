@@ -1,4 +1,5 @@
-def MapSketchService():
-    '''public MapSketchService()
-    public MapSketchService(final MXServer mxServer)
+def ():
+    '''returns MapSketchService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

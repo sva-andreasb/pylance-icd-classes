@@ -1,6 +1,8 @@
-def MoutItemProcess():
-    '''public MoutItemProcess()
+def ():
+    '''returns MoutItemProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''returns int\n\n
+    checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)\n
     '''

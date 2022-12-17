@@ -1,4 +1,5 @@
-def ObjectClassMismatchException():
-    '''public ObjectClassMismatchException()
-    public ObjectClassMismatchException(final String msg)
+def ():
+    '''returns ObjectClassMismatchException\n\n
+    ()\n
+    (final String msg)\n
     '''

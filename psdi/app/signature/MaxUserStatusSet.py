@@ -1,3 +1,4 @@
-def MaxUserStatusSet():
-    '''public MaxUserStatusSet(final MboServerInterface ms)
+def ():
+    '''returns MaxUserStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

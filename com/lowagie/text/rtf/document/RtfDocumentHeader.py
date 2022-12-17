@@ -1,30 +1,40 @@
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''
 def writeSectionDefinition():
-    '''public byte[] writeSectionDefinition()
+    '''returns byte[]\n\n
+    writeSectionDefinition()\n
     '''
 def getFontNumber():
-    '''public int getFontNumber(final RtfFont font)
+    '''returns int\n\n
+    getFontNumber(final RtfFont font)\n
     '''
 def getColorNumber():
-    '''public int getColorNumber(final RtfColor color)
+    '''returns int\n\n
+    getColorNumber(final RtfColor color)\n
     '''
 def getListNumber():
-    '''public int getListNumber(final RtfList list)
+    '''returns int\n\n
+    getListNumber(final RtfList list)\n
     '''
 def freeListNumber():
-    '''public void freeListNumber(final RtfList list)
+    '''returns None\n\n
+    freeListNumber(final RtfList list)\n
     '''
 def getPageSetting():
-    '''public RtfPageSetting getPageSetting()
+    '''returns RtfPageSetting\n\n
+    getPageSetting()\n
     '''
 def addInfoElement():
-    '''public void addInfoElement(final RtfInfoElement rtfInfoElement)
+    '''returns None\n\n
+    addInfoElement(final RtfInfoElement rtfInfoElement)\n
     '''
 def setHeader():
-    '''public void setHeader(final HeaderFooter header)
+    '''returns None\n\n
+    setHeader(final HeaderFooter header)\n
     '''
 def setFooter():
-    '''public void setFooter(final HeaderFooter footer)
+    '''returns None\n\n
+    setFooter(final HeaderFooter footer)\n
     '''

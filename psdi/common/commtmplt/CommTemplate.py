@@ -1,69 +1,87 @@
-def CommTemplate():
-    '''public CommTemplate(final MboSet ms)
+def ():
+    '''returns CommTemplate\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def canDeactivate():
-    '''public void canDeactivate()
+    '''returns None\n\n
+    canDeactivate()\n
     '''
 def addPersonRecipients():
-    '''public void addPersonRecipients(final MboSetRemote personSet)
+    '''returns None\n\n
+    addPersonRecipients(final MboSetRemote personSet)\n
     '''
 def addGroupRecipients():
-    '''public void addGroupRecipients(final MboSetRemote groupSet)
+    '''returns None\n\n
+    addGroupRecipients(final MboSetRemote groupSet)\n
     '''
 def addRoleRecipients():
-    '''public void addRoleRecipients(final MboSetRemote roleSet)
+    '''returns None\n\n
+    addRoleRecipients(final MboSetRemote roleSet)\n
     '''
 def updateRecipientList():
-    '''public String updateRecipientList(final String listName)
+    '''returns String\n\n
+    updateRecipientList(final String listName)\n
     '''
 def sendMessage():
-    '''public void sendMessage()
-    public void sendMessage(final MboRemote targetMbo, final MboRemote originatingMbo)
-    public void sendMessage(final MboRemote targetMbo)
+    '''returns None\n\n
+    sendMessage()\n
+    sendMessage(final MboRemote targetMbo, final MboRemote originatingMbo)\n
+    sendMessage(final MboRemote targetMbo)\n
     '''
 def convertSendTo():
-    '''public String convertSendTo(final String relationship, final MboRemote owner)
-    public String convertSendTo(final String relationship, final MboRemote owner, final String messagetype)
+    '''returns String\n\n
+    convertSendTo(final String relationship, final MboRemote owner)\n
+    convertSendTo(final String relationship, final MboRemote owner, final String messagetype)\n
     '''
 def convertSendToMap():
-    '''public HashSet<String> convertSendToMap(final String relationship, final MboRemote owner, final String messagetype)
+    '''returns HashSet<String>\n\n
+    convertSendToMap(final String relationship, final MboRemote owner, final String messagetype)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, Date asOfDate)
+    '''returns None\n\n
+    changeStatus(final String status, Date asOfDate)\n
     '''
 def setTreeAttrs():
-    '''public void setTreeAttrs(final MboRemote tree)
-    '''
-def checkDeleteRole():
-    '''public static void checkDeleteRole(final Mbo role)
+    '''returns None\n\n
+    setTreeAttrs(final MboRemote tree)\n
     '''
 def exists():
-    '''public boolean exists(final MboRemote currRecipient, final String type, final String id)
+    '''returns boolean\n\n
+    exists(final MboRemote currRecipient, final String type, final String id)\n
     '''
 def getRefAppsRels():
-    '''public Hashtable getRefAppsRels()
+    '''returns Hashtable\n\n
+    getRefAppsRels()\n
     '''
 def getDocLinksFromSelectedFolder():
-    '''public void getDocLinksFromSelectedFolder(final MboRemote mbo, final MboSetRemote relatedDocLinkSet)
+    '''returns None\n\n
+    getDocLinksFromSelectedFolder(final MboRemote mbo, final MboSetRemote relatedDocLinkSet)\n
     '''
 def needRefresh():
-    '''public void needRefresh(final boolean flag)
+    '''returns None\n\n
+    needRefresh(final boolean flag)\n
     '''
 def isSubstituted():
-    '''public boolean isSubstituted()
+    '''returns boolean\n\n
+    isSubstituted()\n
     '''
 def setSubstituted():
-    '''public void setSubstituted(final boolean substituted)
+    '''returns None\n\n
+    setSubstituted(final boolean substituted)\n
     '''

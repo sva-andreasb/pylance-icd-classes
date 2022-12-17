@@ -1,6 +1,8 @@
-def PlusPFldPrimaryContact():
-    '''public PlusPFldPrimaryContact(final MboValue mbv)
+def ():
+    '''returns PlusPFldPrimaryContact\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

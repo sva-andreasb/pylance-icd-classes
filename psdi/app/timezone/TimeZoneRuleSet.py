@@ -1,3 +1,4 @@
-def TimeZoneRuleSet():
-    '''public TimeZoneRuleSet(final MboServerInterface ms)
+def ():
+    '''returns TimeZoneRuleSet\n\n
+    (final MboServerInterface ms)\n
     '''

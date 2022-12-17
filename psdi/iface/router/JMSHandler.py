@@ -9,46 +9,60 @@ DESTINATIONTYPE = "String  \"DESTINATIONTYPE\""
 PROVIDERUSER = "String  \"PROVIDERUSER\""
 PROVIDERPASSWORD = "String  \"PROVIDERPASSWORD\""
 JMSPROPS = "String  \"JMSPROPS\""
-def JMSHandler():
-    '''public JMSHandler(final MaxEndPointInfo endPointInfo)
-    public JMSHandler()
+def ():
+    '''returns JMSHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData, byte[] data)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def getJMSExit():
-    '''public String getJMSExit()
+    '''returns String\n\n
+    getJMSExit()\n
     '''
 def getConFactoryName():
-    '''public String getConFactoryName()
+    '''returns String\n\n
+    getConFactoryName()\n
     '''
 def getDestinationName():
-    '''public String getDestinationName()
+    '''returns String\n\n
+    getDestinationName()\n
     '''
 def getIniConFactory():
-    '''public String getIniConFactory()
+    '''returns String\n\n
+    getIniConFactory()\n
     '''
 def getProviderUrl():
-    '''public String getProviderUrl()
+    '''returns String\n\n
+    getProviderUrl()\n
     '''
 def isCompress():
-    '''public boolean isCompress()
+    '''returns boolean\n\n
+    isCompress()\n
     '''
 def getDestinationType():
-    '''public String getDestinationType()
+    '''returns String\n\n
+    getDestinationType()\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def getProviderUsername():
-    '''public String getProviderUsername()
+    '''returns String\n\n
+    getProviderUsername()\n
     '''
 def getProviderPassword():
-    '''public String getProviderPassword()
+    '''returns String\n\n
+    getProviderPassword()\n
     '''
 def isText():
-    '''public boolean isText()
+    '''returns boolean\n\n
+    isText()\n
     '''

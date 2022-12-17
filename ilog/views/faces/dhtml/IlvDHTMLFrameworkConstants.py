@@ -1,0 +1,5 @@
+STATE_URL = "String  \"stateURL\""
+UPDATE_INTERVAL = "String  \"updateInterval\""
+SESSION_ID_PREFIX = "String  \"ILOGFramework_\""
+TILE_MANAGER = "String  \"tileManager\""
+STATIC_LAYERS_COUNT_PARAM = "String  \"slc\""

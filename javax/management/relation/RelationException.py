@@ -1,4 +1,5 @@
-def RelationException():
-    '''public RelationException()
-    public RelationException(final String s)
+def ():
+    '''returns RelationException\n\n
+    ()\n
+    (final String s)\n
     '''

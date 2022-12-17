@@ -1,6 +1,8 @@
-def FldCommentOwnerTable():
-    '''public FldCommentOwnerTable(final MboValue mbv)
+def ():
+    '''returns FldCommentOwnerTable\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

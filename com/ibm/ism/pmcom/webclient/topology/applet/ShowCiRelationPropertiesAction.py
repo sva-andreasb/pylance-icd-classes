@@ -1,7 +1,9 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def ShowCiRelationPropertiesAction():
-    '''public ShowCiRelationPropertiesAction(final IlvDiagrammer diagrammer, final ILogApplet applet, final String target, final ResourceBundle bundle)
+def ():
+    '''returns ShowCiRelationPropertiesAction\n\n
+    (final IlvDiagrammer diagrammer, final ILogApplet applet, final String target, final ResourceBundle bundle)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

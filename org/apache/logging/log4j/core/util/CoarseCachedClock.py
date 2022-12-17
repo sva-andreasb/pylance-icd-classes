@@ -1,9 +1,8 @@
 def run():
-    '''public void run()
-    '''
-def instance():
-    '''public static CoarseCachedClock instance()
+    '''returns None\n\n
+    run()\n
     '''
 def currentTimeMillis():
-    '''public long currentTimeMillis()
+    '''returns long\n\n
+    currentTimeMillis()\n
     '''

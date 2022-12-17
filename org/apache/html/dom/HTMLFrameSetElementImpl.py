@@ -1,15 +1,20 @@
 def getCols():
-    '''public String getCols()
+    '''returns String\n\n
+    getCols()\n
     '''
 def setCols():
-    '''public void setCols(final String s)
+    '''returns None\n\n
+    setCols(final String s)\n
     '''
 def getRows():
-    '''public String getRows()
+    '''returns String\n\n
+    getRows()\n
     '''
 def setRows():
-    '''public void setRows(final String s)
+    '''returns None\n\n
+    setRows(final String s)\n
     '''
-def HTMLFrameSetElementImpl():
-    '''public HTMLFrameSetElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLFrameSetElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

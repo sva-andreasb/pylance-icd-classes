@@ -1,21 +1,28 @@
-def UnknownJingleContentTransport():
-    '''public UnknownJingleContentTransport(final StandardExtensionElement standardExtensionElement)
+def ():
+    '''returns UnknownJingleContentTransport\n\n
+    (final StandardExtensionElement standardExtensionElement)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getCandidates():
-    '''public List<JingleContentTransportCandidate> getCandidates()
+    '''returns List<JingleContentTransportCandidate>\n\n
+    getCandidates()\n
     '''
 def getInfo():
-    '''public JingleContentTransportInfo getInfo()
+    '''returns JingleContentTransportInfo\n\n
+    getInfo()\n
     '''
 def getStandardExtensionElement():
-    '''public StandardExtensionElement getStandardExtensionElement()
+    '''returns StandardExtensionElement\n\n
+    getStandardExtensionElement()\n
     '''

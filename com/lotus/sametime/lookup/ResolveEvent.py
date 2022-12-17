@@ -2,17 +2,22 @@ NAMES_RESOLVED = "int  -2147483647"
 RESOLVE_NAMES_FAILED = "int  -2147483646"
 NAMES_RESOLVED_CONFLICT = "int  -2147483645"
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getResolved():
-    '''public STObject getResolved()
+    '''returns STObject\n\n
+    getResolved()\n
     '''
 def getResolvedList():
-    '''public STObject[] getResolvedList()
+    '''returns STObject[]\n\n
+    getResolvedList()\n
     '''
 def getFailedNames():
-    '''public String[] getFailedNames()
+    '''returns String[]\n\n
+    getFailedNames()\n
     '''

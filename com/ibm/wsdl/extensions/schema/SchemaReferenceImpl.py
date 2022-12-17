@@ -1,22 +1,29 @@
 serialVersionUID = "long  1L"
-def SchemaReferenceImpl():
-    '''public SchemaReferenceImpl()
+def ():
+    '''returns SchemaReferenceImpl\n\n
+    ()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getSchemaLocationURI():
-    '''public String getSchemaLocationURI()
+    '''returns String\n\n
+    getSchemaLocationURI()\n
     '''
 def setSchemaLocationURI():
-    '''public void setSchemaLocationURI(final String schemaLocation)
+    '''returns None\n\n
+    setSchemaLocationURI(final String schemaLocation)\n
     '''
 def getReferencedSchema():
-    '''public Schema getReferencedSchema()
+    '''returns Schema\n\n
+    getReferencedSchema()\n
     '''
 def setReferencedSchema():
-    '''public void setReferencedSchema(final Schema referencedSchema)
+    '''returns None\n\n
+    setReferencedSchema(final Schema referencedSchema)\n
     '''

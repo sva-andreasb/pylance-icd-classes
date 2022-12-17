@@ -1,7 +1,9 @@
 HTTP = "String  \"HTTP\""
-def HttpVersion():
-    '''public HttpVersion(final int major, final int minor)
+def ():
+    '''returns HttpVersion\n\n
+    (final int major, final int minor)\n
     '''
 def forVersion():
-    '''public ProtocolVersion forVersion(final int major, final int minor)
+    '''returns ProtocolVersion\n\n
+    forVersion(final int major, final int minor)\n
     '''

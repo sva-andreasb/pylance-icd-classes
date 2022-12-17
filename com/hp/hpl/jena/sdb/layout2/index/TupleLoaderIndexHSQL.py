@@ -1,15 +1,20 @@
-def TupleLoaderIndexHSQL():
-    '''public TupleLoaderIndexHSQL(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+def ():
+    '''returns TupleLoaderIndexHSQL\n\n
+    (final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)\n
     '''
 def getNodeColTypes():
-    '''public String[] getNodeColTypes()
+    '''returns String[]\n\n
+    getNodeColTypes()\n
     '''
 def getTupleColType():
-    '''public String getTupleColType()
+    '''returns String\n\n
+    getTupleColType()\n
     '''
 def getCreateTempTable():
-    '''public String[] getCreateTempTable()
+    '''returns String[]\n\n
+    getCreateTempTable()\n
     '''
 def clearsOnCommit():
-    '''public boolean clearsOnCommit()
+    '''returns boolean\n\n
+    clearsOnCommit()\n
     '''

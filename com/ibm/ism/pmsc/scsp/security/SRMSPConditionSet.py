@@ -1,7 +1,9 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def SRMSPConditionSet():
-    '''public SRMSPConditionSet(final MboServerInterface ms)
+def ():
+    '''returns SRMSPConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def buildAllConditions():
-    '''public void buildAllConditions(final boolean deleteAll)
+    '''returns None\n\n
+    buildAllConditions(final boolean deleteAll)\n
     '''

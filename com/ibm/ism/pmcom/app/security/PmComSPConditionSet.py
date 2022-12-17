@@ -1,3 +1,4 @@
-def PmComSPConditionSet():
-    '''public PmComSPConditionSet(final MboServerInterface ms)
+def ():
+    '''returns PmComSPConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''

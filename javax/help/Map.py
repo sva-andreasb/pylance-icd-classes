@@ -1,18 +1,20 @@
-def create():
-    '''public static ID create(final String str, final HelpSet set)
-    '''
 def getHelpSet():
-    '''public HelpSet getHelpSet()
+    '''returns HelpSet\n\n
+    getHelpSet()\n
     '''
 def getIDString():
-    '''public String getIDString()
+    '''returns String\n\n
+    getIDString()\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

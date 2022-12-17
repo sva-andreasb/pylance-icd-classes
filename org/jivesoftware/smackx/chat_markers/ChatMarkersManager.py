@@ -1,9 +1,8 @@
-def getInstanceFor():
-    '''public static synchronized ChatMarkersManager getInstanceFor(final XMPPConnection connection)
-    '''
 def isSupportedByServer():
-    '''public boolean isSupportedByServer()
+    '''returns boolean\n\n
+    isSupportedByServer()\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

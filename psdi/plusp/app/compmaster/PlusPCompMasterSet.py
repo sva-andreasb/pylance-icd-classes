@@ -1,3 +1,4 @@
-def PlusPCompMasterSet():
-    '''public PlusPCompMasterSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPCompMasterSet\n\n
+    (final MboServerInterface arg0)\n
     '''

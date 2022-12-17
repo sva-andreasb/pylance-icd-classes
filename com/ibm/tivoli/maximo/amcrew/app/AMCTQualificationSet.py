@@ -1,15 +1,20 @@
-def AMCTQualificationSet():
-    '''public AMCTQualificationSet(final MboServerInterface ms)
+def ():
+    '''returns AMCTQualificationSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findByPosition():
-    '''public MboRemote findByPosition(final String position)
+    '''returns MboRemote\n\n
+    findByPosition(final String position)\n
     '''
 def findByQuantity():
-    '''public MboRemote findByQuantity(final int quantity)
+    '''returns MboRemote\n\n
+    findByQuantity(final int quantity)\n
     '''
 def adjustCraftQuantities():
-    '''public void adjustCraftQuantities(final int quantity)
+    '''returns None\n\n
+    adjustCraftQuantities(final int quantity)\n
     '''
 def findByAttributeWithTool():
-    '''public MboRemote findByAttributeWithTool(final String attrName, final String attrValue, final boolean includeDeleted)
+    '''returns MboRemote\n\n
+    findByAttributeWithTool(final String attrName, final String attrValue, final boolean includeDeleted)\n
     '''

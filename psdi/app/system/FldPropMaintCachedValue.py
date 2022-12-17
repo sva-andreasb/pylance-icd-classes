@@ -1,3 +1,4 @@
-def FldPropMaintCachedValue():
-    '''public FldPropMaintCachedValue(final MboValue mbv)
+def ():
+    '''returns FldPropMaintCachedValue\n\n
+    (final MboValue mbv)\n
     '''

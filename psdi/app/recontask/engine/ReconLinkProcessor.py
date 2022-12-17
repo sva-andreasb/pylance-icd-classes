@@ -1,18 +1,24 @@
-def ReconLinkProcessor():
-    '''public ReconLinkProcessor(final ReconInfo reconInfo)
+def ():
+    '''returns ReconLinkProcessor\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def link():
-    '''public Map[][] link()
+    '''returns Map[][]\n\n
+    link()\n
     '''
 def isSaveResult():
-    '''public boolean isSaveResult()
+    '''returns boolean\n\n
+    isSaveResult()\n
     '''
 def setSaveResult():
-    '''public void setSaveResult(final boolean saveResult)
+    '''returns None\n\n
+    setSaveResult(final boolean saveResult)\n
     '''
 def getLinkResult():
-    '''public LinkResult getLinkResult()
+    '''returns LinkResult\n\n
+    getLinkResult()\n
     '''
 def getUnlinked():
-    '''public List<ReconValue> getUnlinked()
+    '''returns List<ReconValue>\n\n
+    getUnlinked()\n
     '''

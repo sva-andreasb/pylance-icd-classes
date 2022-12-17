@@ -1,9 +1,12 @@
 def getMode():
-    '''public Mode getMode()
+    '''returns Mode\n\n
+    getMode()\n
     '''
 def getElement():
-    '''public String getElement()
+    '''returns String\n\n
+    getElement()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''

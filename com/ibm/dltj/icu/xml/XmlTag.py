@@ -1,25 +1,32 @@
-def XmlTag():
-    '''public XmlTag(final String name)
+def ():
+    '''returns XmlTag\n\n
+    (final String name)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String s, final String s2)
-    public void addAttribute(final String s, final int i)
-    public void addAttribute(final String s, final boolean b)
-    public void addAttribute(final String s, final String s2, final boolean b)
+    '''returns None\n\n
+    addAttribute(final String s, final String s2)\n
+    addAttribute(final String s, final int i)\n
+    addAttribute(final String s, final boolean b)\n
+    addAttribute(final String s, final String s2, final boolean b)\n
     '''
 def print():
-    '''public void print(final String s, final PrintWriter printWriter)
-    public void print(final PrintWriter printWriter)
+    '''returns None\n\n
+    print(final String s, final PrintWriter printWriter)\n
+    print(final PrintWriter printWriter)\n
     '''
 def printOpen():
-    '''public void printOpen(final PrintWriter printWriter)
+    '''returns None\n\n
+    printOpen(final PrintWriter printWriter)\n
     '''
 def printClose():
-    '''public void printClose(final PrintWriter printWriter)
+    '''returns None\n\n
+    printClose(final PrintWriter printWriter)\n
     '''

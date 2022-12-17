@@ -1,9 +1,12 @@
-def FieldConfig():
-    '''public FieldConfig(final String fieldName)
+def ():
+    '''returns FieldConfig\n\n
+    (final String fieldName)\n
     '''
 def getField():
-    '''public String getField()
+    '''returns String\n\n
+    getField()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,6 +1,8 @@
-def ConditionBean():
-    '''public ConditionBean()
+def ():
+    '''returns ConditionBean\n\n
+    ()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''

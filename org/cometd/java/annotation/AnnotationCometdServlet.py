@@ -1,9 +1,12 @@
-def AnnotationCometdServlet():
-    '''public AnnotationCometdServlet()
+def ():
+    '''returns AnnotationCometdServlet\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''

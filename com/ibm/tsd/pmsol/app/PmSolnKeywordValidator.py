@@ -1,3 +1,4 @@
-def PmSolnKeywordValidator():
-    '''public PmSolnKeywordValidator(final MboValue mbv)
+def ():
+    '''returns PmSolnKeywordValidator\n\n
+    (final MboValue mbv)\n
     '''

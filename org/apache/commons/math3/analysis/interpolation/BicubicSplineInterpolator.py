@@ -1,7 +1,9 @@
-def BicubicSplineInterpolator():
-    '''public BicubicSplineInterpolator()
-    public BicubicSplineInterpolator(final boolean initializeDerivatives)
+def ():
+    '''returns BicubicSplineInterpolator\n\n
+    ()\n
+    (final boolean initializeDerivatives)\n
     '''
 def interpolate():
-    '''public BicubicSplineInterpolatingFunction interpolate(final double[] xval, final double[] yval, final double[][] fval)
+    '''returns BicubicSplineInterpolatingFunction\n\n
+    interpolate(final double[] xval, final double[] yval, final double[][] fval)\n
     '''

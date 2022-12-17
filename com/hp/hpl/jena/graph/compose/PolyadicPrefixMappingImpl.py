@@ -1,34 +1,41 @@
-def PolyadicPrefixMappingImpl():
-    '''public PolyadicPrefixMappingImpl(final Polyadic p)
+def ():
+    '''returns PolyadicPrefixMappingImpl\n\n
+    (final Polyadic p)\n
     '''
 def setNsPrefix():
-    '''public PrefixMapping setNsPrefix(final String prefix, final String uri)
+    '''returns PrefixMapping\n\n
+    setNsPrefix(final String prefix, final String uri)\n
     '''
 def removeNsPrefix():
-    '''public PrefixMapping removeNsPrefix(final String prefix)
+    '''returns PrefixMapping\n\n
+    removeNsPrefix(final String prefix)\n
     '''
 def setNsPrefixes():
-    '''public PrefixMapping setNsPrefixes(final PrefixMapping other)
-    public PrefixMapping setNsPrefixes(final Map<String, String> other)
+    '''returns PrefixMapping\n\n
+    setNsPrefixes(final PrefixMapping other)\n
+    setNsPrefixes(final Map<String, String> other)\n
     '''
 def getNsPrefixURI():
-    '''public String getNsPrefixURI(final String prefix)
-    '''
-def getNsPrefixMap():
-    '''public Map<String, String> getNsPrefixMap()
+    '''returns String\n\n
+    getNsPrefixURI(final String prefix)\n
     '''
 def getNsURIPrefix():
-    '''public String getNsURIPrefix(final String uri)
+    '''returns String\n\n
+    getNsURIPrefix(final String uri)\n
     '''
 def expandPrefix():
-    '''public String expandPrefix(final String prefixed)
+    '''returns String\n\n
+    expandPrefix(final String prefixed)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def shortForm():
-    '''public String shortForm(final String uri)
+    '''returns String\n\n
+    shortForm(final String uri)\n
     '''
 def qnameFor():
-    '''public String qnameFor(final String uri)
+    '''returns String\n\n
+    qnameFor(final String uri)\n
     '''

@@ -1,21 +1,28 @@
 def setPolicy():
-    '''public void setPolicy(final String policy)
+    '''returns None\n\n
+    setPolicy(final String policy)\n
     '''
 def getPolicy():
-    '''public String getPolicy()
+    '''returns String\n\n
+    getPolicy()\n
     '''
 def withPolicy():
-    '''public GetKeyPolicyResult withPolicy(final String policy)
+    '''returns GetKeyPolicyResult\n\n
+    withPolicy(final String policy)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public GetKeyPolicyResult clone()
+    '''returns GetKeyPolicyResult\n\n
+    clone()\n
     '''

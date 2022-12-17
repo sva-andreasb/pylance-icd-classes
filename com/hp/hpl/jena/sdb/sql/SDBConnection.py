@@ -1,82 +1,104 @@
-def SDBConnection():
-    '''public SDBConnection(final DataSource ds)
-    public SDBConnection(final String url, final String user, final String password)
-    public SDBConnection(final Connection jdbcConnection)
-    public SDBConnection(final Connection jdbcConnection, final String url)
-    '''
-def none():
-    '''public static SDBConnection none()
+def ():
+    '''returns SDBConnection\n\n
+    (final DataSource ds)\n
+    (final String url, final String user, final String password)\n
+    (final Connection jdbcConnection)\n
+    (final Connection jdbcConnection, final String url)\n
     '''
 def hasSQLConnection():
-    '''public boolean hasSQLConnection()
+    '''returns boolean\n\n
+    hasSQLConnection()\n
     '''
 def getTransactionHandler():
-    '''public TransactionHandler getTransactionHandler()
+    '''returns TransactionHandler\n\n
+    getTransactionHandler()\n
     '''
 def execQuery():
-    '''public ResultSetJDBC execQuery(final String sqlString)
-    public ResultSetJDBC execQuery(final String sqlString, final int fetchSize)
+    '''returns ResultSetJDBC\n\n
+    execQuery(final String sqlString)\n
+    execQuery(final String sqlString, final int fetchSize)\n
     '''
 def executeInTransaction():
-    '''public Object executeInTransaction(final Command c)
+    '''returns Object\n\n
+    executeInTransaction(final Command c)\n
     '''
 def executeSQL():
-    '''public Object executeSQL(final SQLCommand c)
+    '''returns Object\n\n
+    executeSQL(final SQLCommand c)\n
     '''
 def execUpdate():
-    '''public int execUpdate(final String sqlString)
+    '''returns int\n\n
+    execUpdate(final String sqlString)\n
     '''
 def exec():
-    '''public ResultSetJDBC exec(final String sqlString)
+    '''returns ResultSetJDBC\n\n
+    exec(final String sqlString)\n
     '''
 def execSilent():
-    '''public ResultSetJDBC execSilent(final String sqlString)
+    '''returns ResultSetJDBC\n\n
+    execSilent(final String sqlString)\n
     '''
 def prepareStatement():
-    '''public PreparedStatement prepareStatement(final String sqlString)
+    '''returns PreparedStatement\n\n
+    prepareStatement(final String sqlString)\n
     '''
 def closePreparedStatement():
-    '''public void closePreparedStatement(final PreparedStatement ps)
+    '''returns None\n\n
+    closePreparedStatement(final PreparedStatement ps)\n
     '''
 def getTableNames():
-    '''public List<String> getTableNames()
+    '''returns List<String>\n\n
+    getTableNames()\n
     '''
 def getSqlConnection():
-    '''public Connection getSqlConnection()
+    '''returns Connection\n\n
+    getSqlConnection()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def loggingSQLExceptions():
-    '''public boolean loggingSQLExceptions()
+    '''returns boolean\n\n
+    loggingSQLExceptions()\n
     '''
 def setLogSQLExceptions():
-    '''public void setLogSQLExceptions(final boolean thisLogSQLExceptions)
+    '''returns None\n\n
+    setLogSQLExceptions(final boolean thisLogSQLExceptions)\n
     '''
 def loggingSQLQueries():
-    '''public boolean loggingSQLQueries()
+    '''returns boolean\n\n
+    loggingSQLQueries()\n
     '''
 def setLogSQLQueries():
-    '''public void setLogSQLQueries(final boolean thisLogSQLQueries)
+    '''returns None\n\n
+    setLogSQLQueries(final boolean thisLogSQLQueries)\n
     '''
 def loggingSQLStatements():
-    '''public boolean loggingSQLStatements()
+    '''returns boolean\n\n
+    loggingSQLStatements()\n
     '''
 def setLogSQLStatements():
-    '''public void setLogSQLStatements(final boolean thisLogSQLStatements)
+    '''returns None\n\n
+    setLogSQLStatements(final boolean thisLogSQLStatements)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def getJdbcURL():
-    '''public String getJdbcURL()
+    '''returns String\n\n
+    getJdbcURL()\n
     '''
 def setJdbcURL():
-    '''public void setJdbcURL(final String jdbcURL)
+    '''returns None\n\n
+    setJdbcURL(final String jdbcURL)\n
     '''

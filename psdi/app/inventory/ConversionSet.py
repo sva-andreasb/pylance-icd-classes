@@ -1,3 +1,4 @@
-def ConversionSet():
-    '''public ConversionSet(final MboServerInterface ms)
+def ():
+    '''returns ConversionSet\n\n
+    (final MboServerInterface ms)\n
     '''

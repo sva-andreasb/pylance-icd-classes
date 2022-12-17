@@ -1,25 +1,33 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloDecisionVariableBase():
-    '''public IloDecisionVariableBase(final String name, final IloPropertiesDef defs)
+def ():
+    '''returns IloDecisionVariableBase\n\n
+    (final String name, final IloPropertiesDef defs)\n
     '''
 def getIdentifier():
-    '''public IloCompositeId getIdentifier()
+    '''returns IloCompositeId\n\n
+    getIdentifier()\n
     '''
 def getPropertiesDef():
-    '''public IloPropertiesDef getPropertiesDef()
+    '''returns IloPropertiesDef\n\n
+    getPropertiesDef()\n
     '''
 def getModel():
-    '''public IloDecisionModel getModel()
+    '''returns IloDecisionModel\n\n
+    getModel()\n
     '''
 def setModel():
-    '''public void setModel(final IloDecisionModel model)
+    '''returns None\n\n
+    setModel(final IloDecisionModel model)\n
     '''
 def onChangeProperty():
-    '''public void onChangeProperty(final int index, final Object oldValue, final IloEngineController ctl)
+    '''returns None\n\n
+    onChangeProperty(final int index, final Object oldValue, final IloEngineController ctl)\n
     '''
 def addToContainer():
-    '''public void addToContainer(final IloDecisionVariableContainer container, final IloDecisionVariable oldValue)
+    '''returns None\n\n
+    addToContainer(final IloDecisionVariableContainer container, final IloDecisionVariable oldValue)\n
     '''
 def getContainer():
-    '''public IloDecisionVariableContainer getContainer()
+    '''returns IloDecisionVariableContainer\n\n
+    getContainer()\n
     '''

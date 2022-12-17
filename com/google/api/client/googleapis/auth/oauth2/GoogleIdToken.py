@@ -1,90 +1,116 @@
-def parse():
-    '''public static GoogleIdToken parse(final JsonFactory jsonFactory, final String idTokenString)
-    '''
-def GoogleIdToken():
-    '''public GoogleIdToken(final JsonWebSignature.Header header, final Payload payload, final byte[] signatureBytes, final byte[] signedContentBytes)
+def ():
+    '''returns GoogleIdToken\n\n
+    (final JsonWebSignature.Header header, final Payload payload, final byte[] signatureBytes, final byte[] signedContentBytes)\n
     '''
 def verify():
-    '''public boolean verify(final GoogleIdTokenVerifier verifier)
+    '''returns boolean\n\n
+    verify(final GoogleIdTokenVerifier verifier)\n
     '''
 def getPayload():
-    '''public Payload getPayload()
+    '''returns Payload\n\n
+    getPayload()\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''
 def setUserId():
-    '''public Payload setUserId(final String userId)
+    '''returns Payload\n\n
+    setUserId(final String userId)\n
     '''
 def getIssuee():
-    '''public String getIssuee()
+    '''returns String\n\n
+    getIssuee()\n
     '''
 def setIssuee():
-    '''public Payload setIssuee(final String issuee)
+    '''returns Payload\n\n
+    setIssuee(final String issuee)\n
     '''
 def getHostedDomain():
-    '''public String getHostedDomain()
+    '''returns String\n\n
+    getHostedDomain()\n
     '''
 def setHostedDomain():
-    '''public Payload setHostedDomain(final String hostedDomain)
+    '''returns Payload\n\n
+    setHostedDomain(final String hostedDomain)\n
     '''
 def getEmail():
-    '''public String getEmail()
+    '''returns String\n\n
+    getEmail()\n
     '''
 def setEmail():
-    '''public Payload setEmail(final String email)
+    '''returns Payload\n\n
+    setEmail(final String email)\n
     '''
 def getEmailVerified():
-    '''public Boolean getEmailVerified()
+    '''returns Boolean\n\n
+    getEmailVerified()\n
     '''
 def setEmailVerified():
-    '''public Payload setEmailVerified(final Boolean emailVerified)
+    '''returns Payload\n\n
+    setEmailVerified(final Boolean emailVerified)\n
     '''
 def setAuthorizationTimeSeconds():
-    '''public Payload setAuthorizationTimeSeconds(final Long authorizationTimeSeconds)
+    '''returns Payload\n\n
+    setAuthorizationTimeSeconds(final Long authorizationTimeSeconds)\n
     '''
 def setAuthorizedParty():
-    '''public Payload setAuthorizedParty(final String authorizedParty)
+    '''returns Payload\n\n
+    setAuthorizedParty(final String authorizedParty)\n
     '''
 def setNonce():
-    '''public Payload setNonce(final String nonce)
+    '''returns Payload\n\n
+    setNonce(final String nonce)\n
     '''
 def setAccessTokenHash():
-    '''public Payload setAccessTokenHash(final String accessTokenHash)
+    '''returns Payload\n\n
+    setAccessTokenHash(final String accessTokenHash)\n
     '''
 def setClassReference():
-    '''public Payload setClassReference(final String classReference)
+    '''returns Payload\n\n
+    setClassReference(final String classReference)\n
     '''
 def setMethodsReferences():
-    '''public Payload setMethodsReferences(final List<String> methodsReferences)
+    '''returns Payload\n\n
+    setMethodsReferences(final List<String> methodsReferences)\n
     '''
 def setExpirationTimeSeconds():
-    '''public Payload setExpirationTimeSeconds(final Long expirationTimeSeconds)
+    '''returns Payload\n\n
+    setExpirationTimeSeconds(final Long expirationTimeSeconds)\n
     '''
 def setNotBeforeTimeSeconds():
-    '''public Payload setNotBeforeTimeSeconds(final Long notBeforeTimeSeconds)
+    '''returns Payload\n\n
+    setNotBeforeTimeSeconds(final Long notBeforeTimeSeconds)\n
     '''
 def setIssuedAtTimeSeconds():
-    '''public Payload setIssuedAtTimeSeconds(final Long issuedAtTimeSeconds)
+    '''returns Payload\n\n
+    setIssuedAtTimeSeconds(final Long issuedAtTimeSeconds)\n
     '''
 def setIssuer():
-    '''public Payload setIssuer(final String issuer)
+    '''returns Payload\n\n
+    setIssuer(final String issuer)\n
     '''
 def setAudience():
-    '''public Payload setAudience(final Object audience)
+    '''returns Payload\n\n
+    setAudience(final Object audience)\n
     '''
 def setJwtId():
-    '''public Payload setJwtId(final String jwtId)
+    '''returns Payload\n\n
+    setJwtId(final String jwtId)\n
     '''
 def setType():
-    '''public Payload setType(final String type)
+    '''returns Payload\n\n
+    setType(final String type)\n
     '''
 def setSubject():
-    '''public Payload setSubject(final String subject)
+    '''returns Payload\n\n
+    setSubject(final String subject)\n
     '''
 def set():
-    '''public Payload set(final String fieldName, final Object value)
+    '''returns Payload\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public Payload clone()
+    '''returns Payload\n\n
+    clone()\n
     '''

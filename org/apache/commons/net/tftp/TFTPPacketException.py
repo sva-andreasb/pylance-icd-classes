@@ -1,4 +1,5 @@
-def TFTPPacketException():
-    '''public TFTPPacketException()
-    public TFTPPacketException(final String message)
+def ():
+    '''returns TFTPPacketException\n\n
+    ()\n
+    (final String message)\n
     '''

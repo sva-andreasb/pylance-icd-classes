@@ -1,4 +1,5 @@
-def PlusCJPService():
-    '''public PlusCJPService()
-    public PlusCJPService(final MXServer mxServer)
+def ():
+    '''returns PlusCJPService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

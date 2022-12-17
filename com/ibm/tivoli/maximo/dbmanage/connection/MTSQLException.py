@@ -1,39 +1,48 @@
-def MTSQLException():
-    '''public MTSQLException()
+def ():
+    '''returns MTSQLException\n\n
+    ()\n
     '''
 def addException():
-    '''public void addException(final MTContext context, final SQLException se)
+    '''returns None\n\n
+    addException(final MTContext context, final SQLException se)\n
     '''
 def getErrorCode():
-    '''public int getErrorCode()
-    '''
-def getExceptionsWithContext():
-    '''public List<DoubleKey<MTContext, SQLException>> getExceptionsWithContext()
+    '''returns int\n\n
+    getErrorCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getDefaultMessage():
-    '''public String getDefaultMessage()
+    '''returns String\n\n
+    getDefaultMessage()\n
     '''
 def getErrorGroup():
-    '''public String getErrorGroup()
+    '''returns String\n\n
+    getErrorGroup()\n
     '''
 def getErrorKey():
-    '''public String getErrorKey()
+    '''returns String\n\n
+    getErrorKey()\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''
 def replaceInChain():
-    '''public int replaceInChain(final DoubleKey<MTContext, SQLException> target, final DoubleKey<MTContext, SQLException> replacement)
+    '''returns int\n\n
+    replaceInChain(final DoubleKey<MTContext, SQLException> target, final DoubleKey<MTContext, SQLException> replacement)\n
     '''
 def removeFromChain():
-    '''public void removeFromChain(final int pos)
+    '''returns None\n\n
+    removeFromChain(final int pos)\n
     '''

@@ -1,6 +1,8 @@
 def getDatbase():
-    '''public DB getDatbase()
+    '''returns DB\n\n
+    getDatbase()\n
     '''
 def getConnectionConfig():
-    '''public SQLiteConnectionConfig getConnectionConfig()
+    '''returns SQLiteConnectionConfig\n\n
+    getConnectionConfig()\n
     '''

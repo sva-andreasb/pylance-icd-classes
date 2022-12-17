@@ -1,210 +1,273 @@
-def getCurrentEnvironment():
-    '''public static Environment getCurrentEnvironment()
-    '''
-def Environment():
-    '''public Environment(final Template template, final TemplateHashModel rootDataModel, final Writer out)
+def ():
+    '''returns Environment\n\n
+    (final Template template, final TemplateHashModel rootDataModel, final Writer out)\n
     '''
 def getTemplate():
-    '''public Template getTemplate()
-    public Template getTemplate()
+    '''returns Template\n\n
+    getTemplate()\n
+    getTemplate()\n
     '''
 def getMainTemplate():
-    '''public Template getMainTemplate()
+    '''returns Template\n\n
+    getMainTemplate()\n
     '''
 def getCurrentDirectiveCallPlace():
-    '''public DirectiveCallPlace getCurrentDirectiveCallPlace()
+    '''returns DirectiveCallPlace\n\n
+    getCurrentDirectiveCallPlace()\n
     '''
 def process():
-    '''public void process()
+    '''returns None\n\n
+    process()\n
     '''
 def visit():
-    '''public void visit(final TemplateElement element, final TemplateDirectiveModel directiveModel, final Map args, final List bodyParameterNames)
+    '''returns None\n\n
+    visit(final TemplateElement element, final TemplateDirectiveModel directiveModel, final Map args, final List bodyParameterNames)\n
     '''
 def getLocalVariable():
-    '''public TemplateModel getLocalVariable(final String name)
-    public TemplateModel getLocalVariable(final String name)
+    '''returns TemplateModel\n\n
+    getLocalVariable(final String name)\n
+    getLocalVariable(final String name)\n
     '''
 def getLocalVariableNames():
-    '''public Collection getLocalVariableNames()
+    '''returns Collection\n\n
+    getLocalVariableNames()\n
     '''
 def isInAttemptBlock():
-    '''public boolean isInAttemptBlock()
+    '''returns boolean\n\n
+    isInAttemptBlock()\n
     '''
 def setTemplateExceptionHandler():
-    '''public void setTemplateExceptionHandler(final TemplateExceptionHandler templateExceptionHandler)
+    '''returns None\n\n
+    setTemplateExceptionHandler(final TemplateExceptionHandler templateExceptionHandler)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone timeZone)
+    '''returns None\n\n
+    setTimeZone(final TimeZone timeZone)\n
     '''
 def setSQLDateAndTimeTimeZone():
-    '''public void setSQLDateAndTimeTimeZone(final TimeZone timeZone)
+    '''returns None\n\n
+    setSQLDateAndTimeTimeZone(final TimeZone timeZone)\n
     '''
 def setURLEscapingCharset():
-    '''public void setURLEscapingCharset(final String urlEscapingCharset)
+    '''returns None\n\n
+    setURLEscapingCharset(final String urlEscapingCharset)\n
     '''
 def setOutputEncoding():
-    '''public void setOutputEncoding(final String outputEncoding)
+    '''returns None\n\n
+    setOutputEncoding(final String outputEncoding)\n
     '''
 def applyEqualsOperator():
-    '''public boolean applyEqualsOperator(final TemplateModel leftValue, final TemplateModel rightValue)
+    '''returns boolean\n\n
+    applyEqualsOperator(final TemplateModel leftValue, final TemplateModel rightValue)\n
     '''
 def applyEqualsOperatorLenient():
-    '''public boolean applyEqualsOperatorLenient(final TemplateModel leftValue, final TemplateModel rightValue)
+    '''returns boolean\n\n
+    applyEqualsOperatorLenient(final TemplateModel leftValue, final TemplateModel rightValue)\n
     '''
 def applyLessThanOperator():
-    '''public boolean applyLessThanOperator(final TemplateModel leftValue, final TemplateModel rightValue)
+    '''returns boolean\n\n
+    applyLessThanOperator(final TemplateModel leftValue, final TemplateModel rightValue)\n
     '''
 def applyLessThanOrEqualsOperator():
-    '''public boolean applyLessThanOrEqualsOperator(final TemplateModel leftValue, final TemplateModel rightValue)
+    '''returns boolean\n\n
+    applyLessThanOrEqualsOperator(final TemplateModel leftValue, final TemplateModel rightValue)\n
     '''
 def applyGreaterThanOperator():
-    '''public boolean applyGreaterThanOperator(final TemplateModel leftValue, final TemplateModel rightValue)
+    '''returns boolean\n\n
+    applyGreaterThanOperator(final TemplateModel leftValue, final TemplateModel rightValue)\n
     '''
 def applyWithGreaterThanOrEqualsOperator():
-    '''public boolean applyWithGreaterThanOrEqualsOperator(final TemplateModel leftValue, final TemplateModel rightValue)
+    '''returns boolean\n\n
+    applyWithGreaterThanOrEqualsOperator(final TemplateModel leftValue, final TemplateModel rightValue)\n
     '''
 def setOut():
-    '''public void setOut(final Writer out)
+    '''returns None\n\n
+    setOut(final Writer out)\n
     '''
 def getOut():
-    '''public Writer getOut()
+    '''returns Writer\n\n
+    getOut()\n
     '''
 def setNumberFormat():
-    '''public void setNumberFormat(final String formatName)
+    '''returns None\n\n
+    setNumberFormat(final String formatName)\n
     '''
 def setTimeFormat():
-    '''public void setTimeFormat(final String timeFormat)
+    '''returns None\n\n
+    setTimeFormat(final String timeFormat)\n
     '''
 def setDateFormat():
-    '''public void setDateFormat(final String dateFormat)
+    '''returns None\n\n
+    setDateFormat(final String dateFormat)\n
     '''
 def setDateTimeFormat():
-    '''public void setDateTimeFormat(final String dateTimeFormat)
+    '''returns None\n\n
+    setDateTimeFormat(final String dateTimeFormat)\n
     '''
 def getConfiguration():
-    '''public Configuration getConfiguration()
+    '''returns Configuration\n\n
+    getConfiguration()\n
     '''
 def getCNumberFormat():
-    '''public NumberFormat getCNumberFormat()
+    '''returns NumberFormat\n\n
+    getCNumberFormat()\n
     '''
 def getVariable():
-    '''public TemplateModel getVariable(final String name)
+    '''returns TemplateModel\n\n
+    getVariable(final String name)\n
     '''
 def getGlobalVariable():
-    '''public TemplateModel getGlobalVariable(final String name)
+    '''returns TemplateModel\n\n
+    getGlobalVariable(final String name)\n
     '''
 def setGlobalVariable():
-    '''public void setGlobalVariable(final String name, final TemplateModel model)
+    '''returns None\n\n
+    setGlobalVariable(final String name, final TemplateModel model)\n
     '''
 def setVariable():
-    '''public void setVariable(final String name, final TemplateModel model)
+    '''returns None\n\n
+    setVariable(final String name, final TemplateModel model)\n
     '''
 def setLocalVariable():
-    '''public void setLocalVariable(final String name, final TemplateModel model)
+    '''returns None\n\n
+    setLocalVariable(final String name, final TemplateModel model)\n
     '''
 def getKnownVariableNames():
-    '''public Set getKnownVariableNames()
+    '''returns Set\n\n
+    getKnownVariableNames()\n
     '''
 def outputInstructionStack():
-    '''public void outputInstructionStack(final PrintWriter pw)
+    '''returns None\n\n
+    outputInstructionStack(final PrintWriter pw)\n
     '''
 def getNamespace():
-    '''public Namespace getNamespace(String name)
+    '''returns Namespace\n\n
+    getNamespace(String name)\n
     '''
 def getMainNamespace():
-    '''public Namespace getMainNamespace()
+    '''returns Namespace\n\n
+    getMainNamespace()\n
     '''
 def getCurrentNamespace():
-    '''public Namespace getCurrentNamespace()
+    '''returns Namespace\n\n
+    getCurrentNamespace()\n
     '''
 def getGlobalNamespace():
-    '''public Namespace getGlobalNamespace()
+    '''returns Namespace\n\n
+    getGlobalNamespace()\n
     '''
 def getDataModel():
-    '''public TemplateHashModel getDataModel()
+    '''returns TemplateHashModel\n\n
+    getDataModel()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
-    public boolean isEmpty()
-    public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
+    isEmpty()\n
+    isEmpty()\n
     '''
 def get():
-    '''public TemplateModel get(final String key)
-    public TemplateModel get(final String key)
-    public TemplateModel get(final String key)
+    '''returns TemplateModel\n\n
+    get(final String key)\n
+    get(final String key)\n
+    get(final String key)\n
     '''
 def values():
-    '''public TemplateCollectionModel values()
+    '''returns TemplateCollectionModel\n\n
+    values()\n
     '''
 def keys():
-    '''public TemplateCollectionModel keys()
+    '''returns TemplateCollectionModel\n\n
+    keys()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getGlobalVariables():
-    '''public TemplateHashModel getGlobalVariables()
+    '''returns TemplateHashModel\n\n
+    getGlobalVariables()\n
     '''
 def getCurrentVisitorNode():
-    '''public TemplateNodeModel getCurrentVisitorNode()
+    '''returns TemplateNodeModel\n\n
+    getCurrentVisitorNode()\n
     '''
 def setCurrentVisitorNode():
-    '''public void setCurrentVisitorNode(final TemplateNodeModel node)
+    '''returns None\n\n
+    setCurrentVisitorNode(final TemplateNodeModel node)\n
     '''
 def include():
-    '''public void include(final String name, final String encoding, final boolean parse)
-    public void include(final Template includedTemplate)
+    '''returns None\n\n
+    include(final String name, final String encoding, final boolean parse)\n
+    include(final Template includedTemplate)\n
     '''
 def getTemplateForInclusion():
-    '''public Template getTemplateForInclusion(final String name, final String encoding, final boolean parse)
-    public Template getTemplateForInclusion(final String name, String encoding, final boolean parseAsFTL, final boolean ignoreMissing)
+    '''returns Template\n\n
+    getTemplateForInclusion(final String name, final String encoding, final boolean parse)\n
+    getTemplateForInclusion(final String name, String encoding, final boolean parseAsFTL, final boolean ignoreMissing)\n
     '''
 def importLib():
-    '''public Namespace importLib(final String name, final String namespace)
-    public Namespace importLib(final Template loadedTemplate, final String namespace)
+    '''returns Namespace\n\n
+    importLib(final String name, final String namespace)\n
+    importLib(final Template loadedTemplate, final String namespace)\n
     '''
 def getTemplateForImporting():
-    '''public Template getTemplateForImporting(final String name)
+    '''returns Template\n\n
+    getTemplateForImporting(final String name)\n
     '''
 def toFullTemplateName():
-    '''public String toFullTemplateName(final String baseName, final String targetName)
+    '''returns String\n\n
+    toFullTemplateName(final String baseName, final String targetName)\n
     '''
 def getNamespaceForPrefix():
-    '''public String getNamespaceForPrefix(final String prefix)
+    '''returns String\n\n
+    getNamespaceForPrefix(final String prefix)\n
     '''
 def getPrefixForNamespace():
-    '''public String getPrefixForNamespace(final String nsURI)
+    '''returns String\n\n
+    getPrefixForNamespace(final String nsURI)\n
     '''
 def getDefaultNS():
-    '''public String getDefaultNS()
+    '''returns String\n\n
+    getDefaultNS()\n
     '''
 def __getitem__():
-    '''public Object __getitem__(final String key)
+    '''returns Object\n\n
+    __getitem__(final String key)\n
     '''
 def __setitem__():
-    '''public void __setitem__(final String key, final Object o)
+    '''returns None\n\n
+    __setitem__(final String key, final Object o)\n
     '''
 def write():
-    '''public void write(final char[] cbuf, final int off, final int len)
+    '''returns None\n\n
+    write(final char[] cbuf, final int off, final int len)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def render():
-    '''public void render(final Writer newOut)
+    '''returns None\n\n
+    render(final Writer newOut)\n
     '''
 def getElement():
-    '''public TemplateElement getElement()
+    '''returns TemplateElement\n\n
+    getElement()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

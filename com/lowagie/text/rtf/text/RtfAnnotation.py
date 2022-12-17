@@ -1,6 +1,8 @@
-def RtfAnnotation():
-    '''public RtfAnnotation(final RtfDocument doc, final Annotation annotation)
+def ():
+    '''returns RtfAnnotation\n\n
+    (final RtfDocument doc, final Annotation annotation)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

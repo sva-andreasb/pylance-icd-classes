@@ -2,33 +2,39 @@ PROCESSING = "String  \"PROCESSING\""
 PROCESSED = "String  \"PROCESSED\""
 FAILED = "String  \"FAILED\""
 ABORTED = "String  \"ABORTED\""
-def PCCallCalculationCronTask():
-    '''public PCCallCalculationCronTask()
+def ():
+    '''returns PCCallCalculationCronTask\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
-    '''
-def getParameter():
-    '''public synchronized MboRemote getParameter(final String parameter)
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def setCrontaskInstance():
-    '''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''returns None\n\n
+    setCrontaskInstance(final CrontaskInstanceRemote inst)\n
     '''
 def getMyLogger():
-    '''public MXLogger getMyLogger()
+    '''returns MXLogger\n\n
+    getMyLogger()\n
     '''
 def setMyLogger():
-    '''public void setMyLogger(final MXLogger myLogger)
+    '''returns None\n\n
+    setMyLogger(final MXLogger myLogger)\n
     '''
 def isInitialized():
-    '''public boolean isInitialized()
+    '''returns boolean\n\n
+    isInitialized()\n
     '''
 def setInitialized():
-    '''public void setInitialized(final boolean initialized)
+    '''returns None\n\n
+    setInitialized(final boolean initialized)\n
     '''
 def updatePercentCompleteLastCall():
-    '''public void updatePercentCompleteLastCall(final SKDProjectRemote mbo, final IMXGanttModel.PercentCompleteType percentCompleteType)
+    '''returns None\n\n
+    updatePercentCompleteLastCall(final SKDProjectRemote mbo, final IMXGanttModel.PercentCompleteType percentCompleteType)\n
     '''

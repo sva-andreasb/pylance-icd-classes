@@ -1,19 +1,21 @@
-def OslcOSDescriptionCacheImpl():
-    '''public OslcOSDescriptionCacheImpl()
+def ():
+    '''returns OslcOSDescriptionCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDescForOS():
-    '''public String getDescForOS(final String osName, final UserInfo userInfo)
-    '''
-def getDescMap():
-    '''public Map<String, Map<String, String>> getDescMap()
+    '''returns String\n\n
+    getDescForOS(final String osName, final UserInfo userInfo)\n
     '''

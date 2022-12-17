@@ -1,9 +1,12 @@
-def HostRegexToRegionMapping():
-    '''public HostRegexToRegionMapping(final String hostNameRegex, final String regionName)
+def ():
+    '''returns HostRegexToRegionMapping\n\n
+    (final String hostNameRegex, final String regionName)\n
     '''
 def getHostNameRegex():
-    '''public String getHostNameRegex()
+    '''returns String\n\n
+    getHostNameRegex()\n
     '''
 def getRegionName():
-    '''public String getRegionName()
+    '''returns String\n\n
+    getRegionName()\n
     '''

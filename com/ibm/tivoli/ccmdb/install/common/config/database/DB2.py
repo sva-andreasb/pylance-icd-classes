@@ -1,108 +1,131 @@
 JDBC_DRIVER = "String  \"com.ibm.db2.jcc.DB2Driver\""
 DEF_FENCED_USER = "String  \"db2fenc1\""
 NO_FENCE = "String  \"noFence\""
-def getInstance():
-    '''public static DB2 getInstance(final ReadWriteConfiguration configProperties)
-    '''
-def DB2():
-    '''public DB2(final ReadWriteConfiguration configProperties)
+def ():
+    '''returns DB2\n\n
+    (final ReadWriteConfiguration configProperties)\n
     '''
 def preCheck():
-    '''public List<TaskResult> preCheck()
+    '''returns List<TaskResult>\n\n
+    preCheck()\n
     '''
 def validate():
-    '''public List<TaskResult> validate()
+    '''returns List<TaskResult>\n\n
+    validate()\n
     '''
 def createInstance():
-    '''public TaskResult createInstance()
+    '''returns TaskResult\n\n
+    createInstance()\n
     '''
 def dropInstance():
-    '''public TaskResult dropInstance()
+    '''returns TaskResult\n\n
+    dropInstance()\n
     '''
 def instanceExists():
-    '''public boolean instanceExists()
+    '''returns boolean\n\n
+    instanceExists()\n
     '''
 def createDatabase():
-    '''public TaskResult createDatabase()
+    '''returns TaskResult\n\n
+    createDatabase()\n
     '''
 def dropDatabase():
-    '''public TaskResult dropDatabase()
+    '''returns TaskResult\n\n
+    dropDatabase()\n
     '''
 def databaseExists():
-    '''public boolean databaseExists()
+    '''returns boolean\n\n
+    databaseExists()\n
     '''
 def createTemporaryTablespace():
-    '''public TaskResult createTemporaryTablespace()
+    '''returns TaskResult\n\n
+    createTemporaryTablespace()\n
     '''
 def dropTemporaryTablespace():
-    '''public TaskResult dropTemporaryTablespace()
+    '''returns TaskResult\n\n
+    dropTemporaryTablespace()\n
     '''
 def tempTablespaceExists():
-    '''public boolean tempTablespaceExists()
+    '''returns boolean\n\n
+    tempTablespaceExists()\n
     '''
 def dataTablespaceExists():
-    '''public boolean dataTablespaceExists()
+    '''returns boolean\n\n
+    dataTablespaceExists()\n
     '''
 def createDataTablespace():
-    '''public TaskResult createDataTablespace()
+    '''returns TaskResult\n\n
+    createDataTablespace()\n
     '''
 def dropDataTablespace():
-    '''public TaskResult dropDataTablespace()
+    '''returns TaskResult\n\n
+    dropDataTablespace()\n
     '''
 def indexTablespaceExists():
-    '''public boolean indexTablespaceExists()
+    '''returns boolean\n\n
+    indexTablespaceExists()\n
     '''
 def createIndexTablespace():
-    '''public TaskResult createIndexTablespace()
+    '''returns TaskResult\n\n
+    createIndexTablespace()\n
     '''
 def dropIndexTablespace():
-    '''public TaskResult dropIndexTablespace()
+    '''returns TaskResult\n\n
+    dropIndexTablespace()\n
     '''
 def createDatabaseUser():
-    '''public TaskResult createDatabaseUser()
+    '''returns TaskResult\n\n
+    createDatabaseUser()\n
     '''
 def dropDatabaseUser():
-    '''public TaskResult dropDatabaseUser()
+    '''returns TaskResult\n\n
+    dropDatabaseUser()\n
     '''
 def userExists():
-    '''public boolean userExists(final String userName, final String userPassword)
+    '''returns boolean\n\n
+    userExists(final String userName, final String userPassword)\n
     '''
 def configureDatabaseUser():
-    '''public TaskResult configureDatabaseUser()
+    '''returns TaskResult\n\n
+    configureDatabaseUser()\n
     '''
 def setupPropertiesInDB():
-    '''public void setupPropertiesInDB()
+    '''returns None\n\n
+    setupPropertiesInDB()\n
     '''
 def updateMaximoUserPolicy():
-    '''public TaskResult updateMaximoUserPolicy(final String userName)
+    '''returns TaskResult\n\n
+    updateMaximoUserPolicy(final String userName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def tablespaceExists():
-    '''public boolean tablespaceExists(final String tsName)
+    '''returns boolean\n\n
+    tablespaceExists(final String tsName)\n
     '''
 def getTaskTotalTime():
-    '''public int getTaskTotalTime(final Task task)
+    '''returns int\n\n
+    getTaskTotalTime(final Task task)\n
     '''
 def getTaskWeightCompleted():
-    '''public int getTaskWeightCompleted()
-    '''
-def formJDBCUrl():
-    '''public static String formJDBCUrl(final String host, final String port, final String dbName, final String home, final boolean enableSSL)
+    '''returns int\n\n
+    getTaskWeightCompleted()\n
     '''
 def aboutThisTask():
-    '''public String aboutThisTask(final Task task)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    aboutThisTask(final Task task)\n
     '''
 def validDB2UnixOSUser():
-    '''public TaskResult validDB2UnixOSUser(final String user)
+    '''returns TaskResult\n\n
+    validDB2UnixOSUser(final String user)\n
     '''
 def isSibConfig():
-    '''public boolean isSibConfig()
+    '''returns boolean\n\n
+    isSibConfig()\n
     '''
 def setSibConfig():
-    '''public void setSibConfig(final boolean sibConfig_)
+    '''returns None\n\n
+    setSibConfig(final boolean sibConfig_)\n
     '''

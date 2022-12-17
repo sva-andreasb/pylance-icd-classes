@@ -5,23 +5,30 @@ MULTI_SESSION_INTERVAL_OPTION = "String  \"multiSessionInterval\""
 AUTOBATCH_OPTION = "String  \"autoBatch\""
 ALLOW_MULTI_SESSIONS_NO_BROWSER_OPTION = "String  \"allowMultiSessionsNoBrowser\""
 def handle():
-    '''public void handle(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    handle(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
-def LongPollScheduler():
-    '''public LongPollScheduler(final ServerSessionImpl session, final Continuation continuation, final ServerMessage.Mutable reply, final String browserId)
+def ():
+    '''returns LongPollScheduler\n\n
+    (final ServerSessionImpl session, final Continuation continuation, final ServerMessage.Mutable reply, final String browserId)\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def schedule():
-    '''public void schedule()
+    '''returns None\n\n
+    schedule()\n
     '''
 def getSession():
-    '''public ServerSessionImpl getSession()
+    '''returns ServerSessionImpl\n\n
+    getSession()\n
     '''
 def onComplete():
-    '''public void onComplete(final Continuation continuation)
+    '''returns None\n\n
+    onComplete(final Continuation continuation)\n
     '''
 def onTimeout():
-    '''public void onTimeout(final Continuation continuation)
+    '''returns None\n\n
+    onTimeout(final Continuation continuation)\n
     '''

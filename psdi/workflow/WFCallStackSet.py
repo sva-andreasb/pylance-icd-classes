@@ -1,28 +1,36 @@
-def WFCallStackSet():
-    '''public WFCallStackSet(final MboServerInterface ms)
+def ():
+    '''returns WFCallStackSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def pushWFCallStack():
-    '''public WFCallStackRemote pushWFCallStack(final WFProcessRemote wfProcess)
+    '''returns WFCallStackRemote\n\n
+    pushWFCallStack(final WFProcessRemote wfProcess)\n
     '''
 def popWFCallStack():
-    '''public WFCallStackRemote popWFCallStack()
+    '''returns WFCallStackRemote\n\n
+    popWFCallStack()\n
     '''
 def getWFCallStack():
-    '''public WFCallStack getWFCallStack()
+    '''returns WFCallStack\n\n
+    getWFCallStack()\n
     '''
 def initiateWorkflow():
-    '''public WFActionSetRemote initiateWorkflow(final String memo, final WFProcess wfProcess)
+    '''returns WFActionSetRemote\n\n
+    initiateWorkflow(final String memo, final WFProcess wfProcess)\n
     '''
 def stopWorkflow():
-    '''public void stopWorkflow(final String memo)
+    '''returns None\n\n
+    stopWorkflow(final String memo)\n
     '''
 def applyWorkflowAction():
-    '''public final WFActionSetRemote applyWorkflowAction(final WFAction action)
-    public WFActionSetRemote applyWorkflowAction(WFAction action, final String memo)
+    '''returns WFActionSetRemote\n\n
+    applyWorkflowAction(WFAction action, final String memo)\n
     '''
 def getWFDiagramInfo():
-    '''public WFViewInfo getWFDiagramInfo(int requestedCallSeq)
+    '''returns WFViewInfo\n\n
+    getWFDiagramInfo(int requestedCallSeq)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

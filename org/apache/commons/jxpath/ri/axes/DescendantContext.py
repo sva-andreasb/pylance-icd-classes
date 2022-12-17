@@ -1,15 +1,20 @@
-def DescendantContext():
-    '''public DescendantContext(final EvalContext parentContext, final boolean includeSelf, final NodeTest nodeTest)
+def ():
+    '''returns DescendantContext\n\n
+    (final EvalContext parentContext, final boolean includeSelf, final NodeTest nodeTest)\n
     '''
 def getCurrentNodePointer():
-    '''public NodePointer getCurrentNodePointer()
+    '''returns NodePointer\n\n
+    getCurrentNodePointer()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setPosition():
-    '''public boolean setPosition(final int position)
+    '''returns boolean\n\n
+    setPosition(final int position)\n
     '''
 def nextNode():
-    '''public boolean nextNode()
+    '''returns boolean\n\n
+    nextNode()\n
     '''

@@ -1,4 +1,5 @@
-def SDBNotImplemented():
-    '''public SDBNotImplemented()
-    public SDBNotImplemented(final String msg)
+def ():
+    '''returns SDBNotImplemented\n\n
+    ()\n
+    (final String msg)\n
     '''

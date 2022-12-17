@@ -1,6 +1,8 @@
-def EnableKeyRequestMarshaller():
-    '''public EnableKeyRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns EnableKeyRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<EnableKeyRequest> marshall(final EnableKeyRequest enableKeyRequest)
+    '''returns Request<EnableKeyRequest>\n\n
+    marshall(final EnableKeyRequest enableKeyRequest)\n
     '''

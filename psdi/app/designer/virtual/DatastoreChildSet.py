@@ -1,6 +1,8 @@
-def DatastoreChildSet():
-    '''public DatastoreChildSet(final MboServerInterface ms)
+def ():
+    '''returns DatastoreChildSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

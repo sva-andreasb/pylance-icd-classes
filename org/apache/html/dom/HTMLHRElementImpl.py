@@ -1,27 +1,36 @@
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getNoShade():
-    '''public boolean getNoShade()
+    '''returns boolean\n\n
+    getNoShade()\n
     '''
 def setNoShade():
-    '''public void setNoShade(final boolean b)
+    '''returns None\n\n
+    setNoShade(final boolean b)\n
     '''
 def getSize():
-    '''public String getSize()
+    '''returns String\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final String s)
+    '''returns None\n\n
+    setSize(final String s)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final String s)
+    '''returns None\n\n
+    setWidth(final String s)\n
     '''
-def HTMLHRElementImpl():
-    '''public HTMLHRElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLHRElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

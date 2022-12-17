@@ -1,67 +1,85 @@
-def ExpirationCache():
-    '''public ExpirationCache(final int maxSize, final long defaultExpirationTime)
+def ():
+    '''returns ExpirationCache\n\n
+    (final int maxSize, final long defaultExpirationTime)\n
     '''
 def setDefaultExpirationTime():
-    '''public void setDefaultExpirationTime(final long defaultExpirationTime)
+    '''returns None\n\n
+    setDefaultExpirationTime(final long defaultExpirationTime)\n
     '''
 def put():
-    '''public V put(final K key, final V value)
-    public V put(final K key, final V value, final long expirationTime)
+    '''returns V\n\n
+    put(final K key, final V value)\n
+    put(final K key, final V value, final long expirationTime)\n
     '''
 def lookup():
-    '''public V lookup(final K key)
+    '''returns V\n\n
+    lookup(final K key)\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def remove():
-    '''public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def getMaxCacheSize():
-    '''public int getMaxCacheSize()
+    '''returns int\n\n
+    getMaxCacheSize()\n
     '''
 def setMaxCacheSize():
-    '''public void setMaxCacheSize(final int maxCacheSize)
+    '''returns None\n\n
+    setMaxCacheSize(final int maxCacheSize)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> m)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> m)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<V> values()
-    '''
-def entrySet():
-    '''public Set<Entry<K, V>> entrySet()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''

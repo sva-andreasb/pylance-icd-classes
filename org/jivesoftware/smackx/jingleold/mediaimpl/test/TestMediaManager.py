@@ -1,22 +1,29 @@
 MEDIA_NAME = "String  \"TestMedia\""
-def TestMediaManager():
-    '''public TestMediaManager(final JingleTransportManager transportManager)
+def ():
+    '''returns TestMediaManager\n\n
+    (final JingleTransportManager transportManager)\n
     '''
 def getPayloads():
-    '''public List<PayloadType> getPayloads()
+    '''returns List<PayloadType>\n\n
+    getPayloads()\n
     '''
 def setPayloads():
-    '''public void setPayloads(final List<PayloadType> payloads)
+    '''returns None\n\n
+    setPayloads(final List<PayloadType> payloads)\n
     '''
 def createMediaSession():
-    '''public JingleMediaSession createMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final JingleSession jingleSession)
+    '''returns JingleMediaSession\n\n
+    createMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final JingleSession jingleSession)\n
     '''
 def getPreferredPayloadType():
-    '''public PayloadType getPreferredPayloadType()
+    '''returns PayloadType\n\n
+    getPreferredPayloadType()\n
     '''
 def setPreferredPayloadType():
-    '''public void setPreferredPayloadType(final PayloadType preferredPayloadType)
+    '''returns None\n\n
+    setPreferredPayloadType(final PayloadType preferredPayloadType)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

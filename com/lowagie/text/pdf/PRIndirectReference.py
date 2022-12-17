@@ -1,9 +1,12 @@
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''
 def getReader():
-    '''public PdfReader getReader()
+    '''returns PdfReader\n\n
+    getReader()\n
     '''
 def setNumber():
-    '''public void setNumber(final int number, final int generation)
+    '''returns None\n\n
+    setNumber(final int number, final int generation)\n
     '''

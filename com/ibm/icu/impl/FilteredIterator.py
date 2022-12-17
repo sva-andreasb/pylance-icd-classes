@@ -1,15 +1,20 @@
-def FilteredIterator():
-    '''public FilteredIterator()
+def ():
+    '''returns FilteredIterator\n\n
+    ()\n
     '''
 def set():
-    '''public FilteredIterator set(final Iterator baseIterator)
+    '''returns FilteredIterator\n\n
+    set(final Iterator baseIterator)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''

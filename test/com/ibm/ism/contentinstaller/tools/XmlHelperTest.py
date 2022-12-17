@@ -1,33 +1,44 @@
 def testSerializeDocumentWriter():
-    '''public void testSerializeDocumentWriter()
+    '''returns None\n\n
+    testSerializeDocumentWriter()\n
     '''
 def testSerializeDocumentPrintStream():
-    '''public void testSerializeDocumentPrintStream()
+    '''returns None\n\n
+    testSerializeDocumentPrintStream()\n
     '''
 def testTransform():
-    '''public void testTransform()
+    '''returns None\n\n
+    testTransform()\n
     '''
 def testGetColumnElementString():
-    '''public void testGetColumnElementString()
+    '''returns None\n\n
+    testGetColumnElementString()\n
     '''
 def testGetColumnXMLObjectString():
-    '''public void testGetColumnXMLObjectString()
+    '''returns None\n\n
+    testGetColumnXMLObjectString()\n
     '''
 def testGetColumnValueElement():
-    '''public void testGetColumnValueElement()
+    '''returns None\n\n
+    testGetColumnValueElement()\n
     '''
 def testGetColumnValueXMLColumn():
-    '''public void testGetColumnValueXMLColumn()
+    '''returns None\n\n
+    testGetColumnValueXMLColumn()\n
     '''
 def testSetColumnValueElementString():
-    '''public void testSetColumnValueElementString()
+    '''returns None\n\n
+    testSetColumnValueElementString()\n
     '''
 def testSetColumnValueXMLColumnString():
-    '''public void testSetColumnValueXMLColumnString()
+    '''returns None\n\n
+    testSetColumnValueXMLColumnString()\n
     '''
 def testGetNotNullColumnValueElementString():
-    '''public void testGetNotNullColumnValueElementString()
+    '''returns None\n\n
+    testGetNotNullColumnValueElementString()\n
     '''
 def testGetNotNullColumnValueXMLObjectString():
-    '''public void testGetNotNullColumnValueXMLObjectString()
+    '''returns None\n\n
+    testGetNotNullColumnValueXMLObjectString()\n
     '''

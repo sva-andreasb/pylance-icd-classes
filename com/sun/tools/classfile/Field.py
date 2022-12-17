@@ -1,9 +1,12 @@
-def Field():
-    '''public Field(final AccessFlags access_flags, final int name_index, final Descriptor descriptor, final Attributes attributes)
+def ():
+    '''returns Field\n\n
+    (final AccessFlags access_flags, final int name_index, final Descriptor descriptor, final Attributes attributes)\n
     '''
 def byteLength():
-    '''public int byteLength()
+    '''returns int\n\n
+    byteLength()\n
     '''
 def getName():
-    '''public String getName(final ConstantPool constantPool)
+    '''returns String\n\n
+    getName(final ConstantPool constantPool)\n
     '''

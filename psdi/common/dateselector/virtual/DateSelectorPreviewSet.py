@@ -1,9 +1,12 @@
-def DateSelectorPreviewSet():
-    '''public DateSelectorPreviewSet(final MboServerInterface ms)
+def ():
+    '''returns DateSelectorPreviewSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getPreviewDatesInClientPattern():
-    '''public MboSetRemote getPreviewDatesInClientPattern(final Date startDate, final Date endDate, final String pattern)
+    '''returns MboSetRemote\n\n
+    getPreviewDatesInClientPattern(final Date startDate, final Date endDate, final String pattern)\n
     '''
 def getPreviewDates():
-    '''public MboSetRemote getPreviewDates(final Date startDate, final Date endDate, final String pattern)
+    '''returns MboSetRemote\n\n
+    getPreviewDates(final Date startDate, final Date endDate, final String pattern)\n
     '''

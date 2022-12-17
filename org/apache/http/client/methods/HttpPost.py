@@ -1,9 +1,11 @@
 METHOD_NAME = "String  \"POST\""
-def HttpPost():
-    '''public HttpPost()
-    public HttpPost(final URI uri)
-    public HttpPost(final String uri)
+def ():
+    '''returns HttpPost\n\n
+    ()\n
+    (final URI uri)\n
+    (final String uri)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''

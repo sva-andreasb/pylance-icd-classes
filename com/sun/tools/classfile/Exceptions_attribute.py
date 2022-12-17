@@ -1,10 +1,9 @@
-def Exceptions_attribute():
-    '''public Exceptions_attribute(final ConstantPool constantPool, final int[] array)
-    public Exceptions_attribute(final int n, final int[] exception_index_table)
+def ():
+    '''returns Exceptions_attribute\n\n
+    (final ConstantPool constantPool, final int[] array)\n
+    (final int n, final int[] exception_index_table)\n
     '''
 def getException():
-    '''public String getException(final int n, final ConstantPool constantPool)
-    '''
-def accept():
-    '''public <R, D> R accept(final Visitor<R, D> visitor, final D n)
+    '''returns String\n\n
+    getException(final int n, final ConstantPool constantPool)\n
     '''

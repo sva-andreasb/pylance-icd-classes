@@ -1,3 +1,4 @@
 def processRecord():
-    '''public void processRecord(final Record record)
+    '''returns None\n\n
+    processRecord(final Record record)\n
     '''

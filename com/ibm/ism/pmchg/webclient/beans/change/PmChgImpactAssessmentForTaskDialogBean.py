@@ -1,13 +1,13 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def execute():
-    '''public int execute(final MboSetRemote mboset)
+    '''returns int\n\n
+    execute(final MboSetRemote mboset)\n
     '''
 def copyCIToImpacted():
-    '''public void copyCIToImpacted(final String tableid)
-    '''
-def checkDuplicate():
-    '''public static boolean checkDuplicate(final MboSetRemote mboSetRemote, final String attributeValue, final String attributeName, final String targetValuefromUI, final String targetNamefromUI)
+    '''returns None\n\n
+    copyCIToImpacted(final String tableid)\n
     '''
 def doRefresh():
-    '''public int doRefresh()
+    '''returns int\n\n
+    doRefresh()\n
     '''

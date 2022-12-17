@@ -1,13 +1,17 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloVarPropsDef():
-    '''public IloVarPropsDef()
+def ():
+    '''returns IloVarPropsDef\n\n
+    ()\n
     '''
 def getDefaultProperty():
-    '''public Object getDefaultProperty(final int index)
+    '''returns Object\n\n
+    getDefaultProperty(final int index)\n
     '''
 def isDynamicProperty():
-    '''public boolean isDynamicProperty(final int index)
+    '''returns boolean\n\n
+    isDynamicProperty(final int index)\n
     '''
 def getExplanationIndex():
-    '''public int getExplanationIndex()
+    '''returns int\n\n
+    getExplanationIndex()\n
     '''

@@ -1,21 +1,28 @@
-def INVOKEINTERFACE():
-    '''public INVOKEINTERFACE(final int index, final int nargs)
+def ():
+    '''returns INVOKEINTERFACE\n\n
+    (final int index, final int nargs)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def toString():
-    '''public String toString(final ConstantPool cp)
+    '''returns String\n\n
+    toString(final ConstantPool cp)\n
     '''
 def consumeStack():
-    '''public int consumeStack(final ConstantPoolGen cpg)
+    '''returns int\n\n
+    consumeStack(final ConstantPoolGen cpg)\n
     '''
 def getExceptions():
-    '''public Class[] getExceptions()
+    '''returns Class[]\n\n
+    getExceptions()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

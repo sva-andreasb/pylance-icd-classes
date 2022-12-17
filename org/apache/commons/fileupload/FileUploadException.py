@@ -1,12 +1,15 @@
-def FileUploadException():
-    '''public FileUploadException()
-    public FileUploadException(final String msg)
-    public FileUploadException(final String msg, final Throwable cause)
+def ():
+    '''returns FileUploadException\n\n
+    ()\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
     '''
 def printStackTrace():
-    '''public void printStackTrace(final PrintStream stream)
-    public void printStackTrace(final PrintWriter writer)
+    '''returns None\n\n
+    printStackTrace(final PrintStream stream)\n
+    printStackTrace(final PrintWriter writer)\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''

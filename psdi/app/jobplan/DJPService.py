@@ -1,21 +1,28 @@
-def DJPService():
-    '''public DJPService(final MXServer mxServer)
+def ():
+    '''returns DJPService\n\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def eventAction():
-    '''public void eventAction(final EventMessage em)
+    '''returns None\n\n
+    eventAction(final EventMessage em)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final EventMessage em)
+    '''returns None\n\n
+    postCommitEventAction(final EventMessage em)\n
     '''
 def eventValidate():
-    '''public boolean eventValidate(final EventMessage em)
+    '''returns boolean\n\n
+    eventValidate(final EventMessage em)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveEventAction(final EventMessage em)\n
     '''

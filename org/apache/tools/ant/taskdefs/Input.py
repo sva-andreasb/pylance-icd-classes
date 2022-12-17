@@ -1,48 +1,61 @@
 def setValidargs():
-    '''public void setValidargs(final String validargs)
+    '''returns None\n\n
+    setValidargs(final String validargs)\n
     '''
 def setAddproperty():
-    '''public void setAddproperty(final String addproperty)
+    '''returns None\n\n
+    setAddproperty(final String addproperty)\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def setDefaultvalue():
-    '''public void setDefaultvalue(final String defaultvalue)
+    '''returns None\n\n
+    setDefaultvalue(final String defaultvalue)\n
     '''
 def addText():
-    '''public void addText(final String msg)
+    '''returns None\n\n
+    addText(final String msg)\n
     '''
-def Input():
-    '''public Input()
+def ():
+    '''returns Handler\n\n
+    ()\n
+    ()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def createHandler():
-    '''public Handler createHandler()
-    '''
-def Handler():
-    '''public Handler()
+    '''returns Handler\n\n
+    createHandler()\n
     '''
 def setRefid():
-    '''public void setRefid(final String refid)
+    '''returns None\n\n
+    setRefid(final String refid)\n
     '''
 def getRefid():
-    '''public String getRefid()
+    '''returns String\n\n
+    getRefid()\n
     '''
 def setClassname():
-    '''public void setClassname(final String classname)
+    '''returns None\n\n
+    setClassname(final String classname)\n
     '''
 def getClassname():
-    '''public String getClassname()
+    '''returns String\n\n
+    getClassname()\n
     '''
 def setType():
-    '''public void setType(final HandlerType type)
+    '''returns None\n\n
+    setType(final HandlerType type)\n
     '''
 def getType():
-    '''public HandlerType getType()
+    '''returns HandlerType\n\n
+    getType()\n
     '''
 def getValues():
-    '''public String[] getValues()
+    '''returns String[]\n\n
+    getValues()\n
     '''

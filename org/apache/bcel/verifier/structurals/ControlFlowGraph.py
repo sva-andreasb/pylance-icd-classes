@@ -1,45 +1,57 @@
-def ControlFlowGraph():
-    '''public ControlFlowGraph(final MethodGen method_gen)
+def ():
+    '''returns InstructionContextImpl\n\n
+    (final MethodGen method_gen)\n
+    (final InstructionHandle inst)\n
     '''
 def contextOf():
-    '''public InstructionContext contextOf(final InstructionHandle inst)
+    '''returns InstructionContext\n\n
+    contextOf(final InstructionHandle inst)\n
     '''
 def contextsOf():
-    '''public InstructionContext[] contextsOf(final InstructionHandle[] insts)
+    '''returns InstructionContext[]\n\n
+    contextsOf(final InstructionHandle[] insts)\n
     '''
 def getInstructionContexts():
-    '''public InstructionContext[] getInstructionContexts()
+    '''returns InstructionContext[]\n\n
+    getInstructionContexts()\n
     '''
 def isDead():
-    '''public boolean isDead(final InstructionHandle i)
-    '''
-def InstructionContextImpl():
-    '''public InstructionContextImpl(final InstructionHandle inst)
+    '''returns boolean\n\n
+    isDead(final InstructionHandle i)\n
     '''
 def getTag():
-    '''public int getTag()
+    '''returns int\n\n
+    getTag()\n
     '''
 def setTag():
-    '''public void setTag(final int tag)
+    '''returns None\n\n
+    setTag(final int tag)\n
     '''
 def getExceptionHandlers():
-    '''public ExceptionHandler[] getExceptionHandlers()
+    '''returns ExceptionHandler[]\n\n
+    getExceptionHandlers()\n
     '''
 def getOutFrame():
-    '''public Frame getOutFrame(final ArrayList execChain)
+    '''returns Frame\n\n
+    getOutFrame(final ArrayList execChain)\n
     '''
 def getInFrame():
-    '''public Frame getInFrame()
+    '''returns Frame\n\n
+    getInFrame()\n
     '''
 def execute():
-    '''public boolean execute(final Frame inFrame, final ArrayList execPreds, final InstConstraintVisitor icv, final ExecutionVisitor ev)
+    '''returns boolean\n\n
+    execute(final Frame inFrame, final ArrayList execPreds, final InstConstraintVisitor icv, final ExecutionVisitor ev)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getInstruction():
-    '''public InstructionHandle getInstruction()
+    '''returns InstructionHandle\n\n
+    getInstruction()\n
     '''
 def getSuccessors():
-    '''public InstructionContext[] getSuccessors()
+    '''returns InstructionContext[]\n\n
+    getSuccessors()\n
     '''

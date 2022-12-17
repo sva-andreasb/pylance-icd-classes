@@ -1,4 +1,5 @@
 def parseLayout():
-    '''public Layout parseLayout(final Element layoutElement, final XmlConfiguration config)
-    public Layout parseLayout(final PropertiesConfiguration config)
+    '''returns Layout\n\n
+    parseLayout(final Element layoutElement, final XmlConfiguration config)\n
+    parseLayout(final PropertiesConfiguration config)\n
     '''

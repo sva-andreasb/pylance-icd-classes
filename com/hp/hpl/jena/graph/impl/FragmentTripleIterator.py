@@ -1,9 +1,12 @@
-def FragmentTripleIterator():
-    '''public FragmentTripleIterator(final Triple match, final Iterator<Map.Entry<Node, T>> it)
+def ():
+    '''returns FragmentTripleIterator\n\n
+    (final Triple match, final Iterator<Map.Entry<Node, T>> it)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Triple next()
+    '''returns Triple\n\n
+    next()\n
     '''

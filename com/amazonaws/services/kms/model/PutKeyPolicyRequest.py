@@ -1,51 +1,68 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public PutKeyPolicyRequest withKeyId(final String keyId)
+    '''returns PutKeyPolicyRequest\n\n
+    withKeyId(final String keyId)\n
     '''
 def setPolicyName():
-    '''public void setPolicyName(final String policyName)
+    '''returns None\n\n
+    setPolicyName(final String policyName)\n
     '''
 def getPolicyName():
-    '''public String getPolicyName()
+    '''returns String\n\n
+    getPolicyName()\n
     '''
 def withPolicyName():
-    '''public PutKeyPolicyRequest withPolicyName(final String policyName)
+    '''returns PutKeyPolicyRequest\n\n
+    withPolicyName(final String policyName)\n
     '''
 def setPolicy():
-    '''public void setPolicy(final String policy)
+    '''returns None\n\n
+    setPolicy(final String policy)\n
     '''
 def getPolicy():
-    '''public String getPolicy()
+    '''returns String\n\n
+    getPolicy()\n
     '''
 def withPolicy():
-    '''public PutKeyPolicyRequest withPolicy(final String policy)
+    '''returns PutKeyPolicyRequest\n\n
+    withPolicy(final String policy)\n
     '''
 def setBypassPolicyLockoutSafetyCheck():
-    '''public void setBypassPolicyLockoutSafetyCheck(final Boolean bypassPolicyLockoutSafetyCheck)
+    '''returns None\n\n
+    setBypassPolicyLockoutSafetyCheck(final Boolean bypassPolicyLockoutSafetyCheck)\n
     '''
 def getBypassPolicyLockoutSafetyCheck():
-    '''public Boolean getBypassPolicyLockoutSafetyCheck()
+    '''returns Boolean\n\n
+    getBypassPolicyLockoutSafetyCheck()\n
     '''
 def withBypassPolicyLockoutSafetyCheck():
-    '''public PutKeyPolicyRequest withBypassPolicyLockoutSafetyCheck(final Boolean bypassPolicyLockoutSafetyCheck)
+    '''returns PutKeyPolicyRequest\n\n
+    withBypassPolicyLockoutSafetyCheck(final Boolean bypassPolicyLockoutSafetyCheck)\n
     '''
 def isBypassPolicyLockoutSafetyCheck():
-    '''public Boolean isBypassPolicyLockoutSafetyCheck()
+    '''returns Boolean\n\n
+    isBypassPolicyLockoutSafetyCheck()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public PutKeyPolicyRequest clone()
+    '''returns PutKeyPolicyRequest\n\n
+    clone()\n
     '''

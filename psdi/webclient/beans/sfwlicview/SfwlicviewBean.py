@@ -1,6 +1,8 @@
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def find():
-    '''public int find()
+    '''returns int\n\n
+    find()\n
     '''

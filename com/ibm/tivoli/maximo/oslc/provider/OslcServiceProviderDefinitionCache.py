@@ -1,19 +1,17 @@
-def getInstance():
-    '''public static final OslcServiceProviderDefinitionCache getInstance()
-    '''
-def getAllServiceProviderConfig():
-    '''public Map<String, OslcServiceProviderDefnInfo> getAllServiceProviderConfig()
-    '''
 def getServiceProviderConfig():
-    '''public OslcServiceProviderDefnInfo getServiceProviderConfig(final String spName)
+    '''returns OslcServiceProviderDefnInfo\n\n
+    getServiceProviderConfig(final String spName)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

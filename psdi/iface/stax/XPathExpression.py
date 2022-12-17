@@ -1,21 +1,28 @@
-def XPathExpression():
-    '''public XPathExpression(final String xpathExpr, final Map<String, String> prefixNSMap)
+def ():
+    '''returns XPathExpression\n\n
+    (final String xpathExpr, final Map<String, String> prefixNSMap)\n
     '''
 def isAttributeExpr():
-    '''public boolean isAttributeExpr()
+    '''returns boolean\n\n
+    isAttributeExpr()\n
     '''
 def getPath():
-    '''public List<QName> getPath()
+    '''returns List<QName>\n\n
+    getPath()\n
     '''
 def getAttributeName():
-    '''public QName getAttributeName()
+    '''returns QName\n\n
+    getAttributeName()\n
     '''
 def isEmptyPath():
-    '''public boolean isEmptyPath()
+    '''returns boolean\n\n
+    isEmptyPath()\n
     '''
 def isRootOnlyPath():
-    '''public boolean isRootOnlyPath()
+    '''returns boolean\n\n
+    isRootOnlyPath()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

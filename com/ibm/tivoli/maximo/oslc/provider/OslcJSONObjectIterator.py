@@ -1,13 +1,17 @@
-def OslcJSONObjectIterator():
-    '''public OslcJSONObjectIterator()
-    public OslcJSONObjectIterator(final Iterator ir, final String osName, final String objectPath, final String messageType, final UserInfo userInfo, final boolean leanJson)
+def ():
+    '''returns OslcJSONObjectIterator\n\n
+    ()\n
+    (final Iterator ir, final String osName, final String objectPath, final String messageType, final UserInfo userInfo, final boolean leanJson)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

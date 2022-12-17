@@ -1,11 +1,10 @@
-def AAAA():
-    '''public AAAA(final Inet6Address inet6address)
-    public AAAA(final byte[] ip)
-    public AAAA(final CharSequence ipv6CharSequence)
-    '''
-def parse():
-    '''public static AAAA parse(final DataInputStream dis)
+def ():
+    '''returns AAAA\n\n
+    (final Inet6Address inet6address)\n
+    (final byte[] ip)\n
+    (final CharSequence ipv6CharSequence)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

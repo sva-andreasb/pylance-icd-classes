@@ -1,13 +1,17 @@
-def APIInboundXMLSplitter():
-    '''public APIInboundXMLSplitter(final String osName, final UserInfo userInfo, final String msgType, final boolean allOrNone, final int maxProcessCount, final JSONArray responseJa)
+def ():
+    '''returns APIInboundXMLSplitter\n\n
+    (final String osName, final UserInfo userInfo, final String msgType, final boolean allOrNone, final int maxProcessCount, final JSONArray responseJa)\n
     '''
 def splitStart():
-    '''public void splitStart()
+    '''returns None\n\n
+    splitStart()\n
     '''
 def splitPerformed():
-    '''public boolean splitPerformed(final byte[] splitXMLData, final int splitIndex)
+    '''returns boolean\n\n
+    splitPerformed(final byte[] splitXMLData, final int splitIndex)\n
     '''
 def splitEnd():
-    '''public void splitEnd()
-    public void splitEnd(final Throwable t)
+    '''returns None\n\n
+    splitEnd()\n
+    splitEnd(final Throwable t)\n
     '''

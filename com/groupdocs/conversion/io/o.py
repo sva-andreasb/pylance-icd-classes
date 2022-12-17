@@ -1,21 +1,24 @@
-def o():
-    '''public o(final Reader in)
+def ():
+    '''returns o\n\n
+    (final Reader in)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public String next()
+    '''returns String\n\n
+    next()\n
     '''
 def nextLine():
-    '''public String nextLine()
+    '''returns String\n\n
+    nextLine()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def remove():
-    '''public void remove()
-    '''
-def a():
-    '''public static void a(final o o)
+    '''returns None\n\n
+    remove()\n
     '''

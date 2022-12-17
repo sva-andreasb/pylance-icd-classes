@@ -1,26 +1,34 @@
-def ConnectsTypeImpl():
-    '''public ConnectsTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns ConnectsTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getConnectList():
-    '''public List<ConnectType> getConnectList()
+    '''returns List<ConnectType>\n\n
+    getConnectList()\n
     '''
 def getConnectArray():
-    '''public ConnectType[] getConnectArray()
-    public ConnectType getConnectArray(final int n)
+    '''returns ConnectType\n\n
+    getConnectArray()\n
+    getConnectArray(final int n)\n
     '''
 def sizeOfConnectArray():
-    '''public int sizeOfConnectArray()
+    '''returns int\n\n
+    sizeOfConnectArray()\n
     '''
 def setConnectArray():
-    '''public void setConnectArray(final ConnectType[] array)
-    public void setConnectArray(final int n, final ConnectType connectType)
+    '''returns None\n\n
+    setConnectArray(final ConnectType[] array)\n
+    setConnectArray(final int n, final ConnectType connectType)\n
     '''
 def insertNewConnect():
-    '''public ConnectType insertNewConnect(final int n)
+    '''returns ConnectType\n\n
+    insertNewConnect(final int n)\n
     '''
 def addNewConnect():
-    '''public ConnectType addNewConnect()
+    '''returns ConnectType\n\n
+    addNewConnect()\n
     '''
 def removeConnect():
-    '''public void removeConnect(final int n)
+    '''returns None\n\n
+    removeConnect(final int n)\n
     '''

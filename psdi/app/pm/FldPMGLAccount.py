@@ -1,6 +1,8 @@
-def FldPMGLAccount():
-    '''public FldPMGLAccount(final MboValue mbv)
+def ():
+    '''returns FldPMGLAccount\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

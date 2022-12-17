@@ -1,4 +1,5 @@
 ACTCIFILTERPROPERTYPREFIX = "String  \"recon.actualci.filter.\""
 def getFixedTaskFilterWhereClause():
-    '''public String getFixedTaskFilterWhereClause()
+    '''returns String\n\n
+    getFixedTaskFilterWhereClause()\n
     '''

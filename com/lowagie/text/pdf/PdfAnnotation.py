@@ -10,140 +10,133 @@ FLAGS_TOGGLENOVIEW = "int  256"
 MARKUP_HIGHLIGHT = "int  0"
 MARKUP_UNDERLINE = "int  1"
 MARKUP_STRIKEOUT = "int  2"
-def PdfAnnotation():
-    '''public PdfAnnotation(final PdfWriter writer, final float llx, final float lly, final float urx, final float ury, final PdfAction action)
-    '''
-def createScreen():
-    '''public static PdfAnnotation createScreen(final PdfWriter writer, final Rectangle rect, final String clipTitle, final PdfFileSpecification fs, final String mimeType, final boolean playOnDisplay)
-    '''
-def createText():
-    '''public static PdfAnnotation createText(final PdfWriter writer, final Rectangle rect, final String title, final String contents, final boolean open, final String icon)
-    '''
-def createLink():
-    '''public static PdfAnnotation createLink(final PdfWriter writer, final Rectangle rect, final PdfName highlight, final PdfAction action)
-    public static PdfAnnotation createLink(final PdfWriter writer, final Rectangle rect, final PdfName highlight, final String namedDestination)
-    public static PdfAnnotation createLink(final PdfWriter writer, final Rectangle rect, final PdfName highlight, final int page, final PdfDestination dest)
-    '''
-def createFreeText():
-    '''public static PdfAnnotation createFreeText(final PdfWriter writer, final Rectangle rect, final String contents, final PdfContentByte defaultAppearance)
-    '''
-def createLine():
-    '''public static PdfAnnotation createLine(final PdfWriter writer, final Rectangle rect, final String contents, final float x1, final float y1, final float x2, final float y2)
-    '''
-def createSquareCircle():
-    '''public static PdfAnnotation createSquareCircle(final PdfWriter writer, final Rectangle rect, final String contents, final boolean square)
-    '''
-def createMarkup():
-    '''public static PdfAnnotation createMarkup(final PdfWriter writer, final Rectangle rect, final String contents, final int type, final float[] quadPoints)
-    '''
-def createStamp():
-    '''public static PdfAnnotation createStamp(final PdfWriter writer, final Rectangle rect, final String contents, final String name)
-    '''
-def createInk():
-    '''public static PdfAnnotation createInk(final PdfWriter writer, final Rectangle rect, final String contents, final float[][] inkList)
-    '''
-def createFileAttachment():
-    '''public static PdfAnnotation createFileAttachment(final PdfWriter writer, final Rectangle rect, final String contents, final byte[] fileStore, final String file, final String fileDisplay)
-    public static PdfAnnotation createFileAttachment(final PdfWriter writer, final Rectangle rect, final String contents, final PdfFileSpecification fs)
-    '''
-def createPopup():
-    '''public static PdfAnnotation createPopup(final PdfWriter writer, final Rectangle rect, final String contents, final boolean open)
+def ():
+    '''returns PdfAnnotation\n\n
+    (final PdfWriter writer, final float llx, final float lly, final float urx, final float ury, final PdfAction action)\n
     '''
 def setDefaultAppearanceString():
-    '''public void setDefaultAppearanceString(final PdfContentByte cb)
+    '''returns None\n\n
+    setDefaultAppearanceString(final PdfContentByte cb)\n
     '''
 def setFlags():
-    '''public void setFlags(final int flags)
+    '''returns None\n\n
+    setFlags(final int flags)\n
     '''
 def setBorder():
-    '''public void setBorder(final PdfBorderArray border)
+    '''returns None\n\n
+    setBorder(final PdfBorderArray border)\n
     '''
 def setBorderStyle():
-    '''public void setBorderStyle(final PdfBorderDictionary border)
+    '''returns None\n\n
+    setBorderStyle(final PdfBorderDictionary border)\n
     '''
 def setHighlighting():
-    '''public void setHighlighting(final PdfName highlight)
+    '''returns None\n\n
+    setHighlighting(final PdfName highlight)\n
     '''
 def setAppearance():
-    '''public void setAppearance(final PdfName ap, final PdfTemplate template)
-    public void setAppearance(final PdfName ap, final String state, final PdfTemplate template)
+    '''returns None\n\n
+    setAppearance(final PdfName ap, final PdfTemplate template)\n
+    setAppearance(final PdfName ap, final String state, final PdfTemplate template)\n
     '''
 def setAppearanceState():
-    '''public void setAppearanceState(final String state)
+    '''returns None\n\n
+    setAppearanceState(final String state)\n
     '''
 def setColor():
-    '''public void setColor(final Color color)
+    '''returns None\n\n
+    setColor(final Color color)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setPopup():
-    '''public void setPopup(final PdfAnnotation popup)
+    '''returns None\n\n
+    setPopup(final PdfAnnotation popup)\n
     '''
 def setAction():
-    '''public void setAction(final PdfAction action)
+    '''returns None\n\n
+    setAction(final PdfAction action)\n
     '''
 def setAdditionalActions():
-    '''public void setAdditionalActions(final PdfName key, final PdfAction action)
+    '''returns None\n\n
+    setAdditionalActions(final PdfName key, final PdfAction action)\n
     '''
 def isUsed():
-    '''public boolean isUsed()
+    '''returns boolean\n\n
+    isUsed()\n
     '''
 def isForm():
-    '''public boolean isForm()
+    '''returns boolean\n\n
+    isForm()\n
     '''
 def isAnnotation():
-    '''public boolean isAnnotation()
+    '''returns boolean\n\n
+    isAnnotation()\n
     '''
 def setPage():
-    '''public void setPage(final int page)
-    public void setPage()
+    '''returns None\n\n
+    setPage(final int page)\n
+    setPage()\n
     '''
 def getPlaceInPage():
-    '''public int getPlaceInPage()
+    '''returns int\n\n
+    getPlaceInPage()\n
     '''
 def setPlaceInPage():
-    '''public void setPlaceInPage(final int placeInPage)
+    '''returns None\n\n
+    setPlaceInPage(final int placeInPage)\n
     '''
 def setRotate():
-    '''public void setRotate(final int v)
+    '''returns None\n\n
+    setRotate(final int v)\n
     '''
 def setMKRotation():
-    '''public void setMKRotation(final int rotation)
-    '''
-def getMKColor():
-    '''public static PdfArray getMKColor(final Color color)
+    '''returns None\n\n
+    setMKRotation(final int rotation)\n
     '''
 def setMKBorderColor():
-    '''public void setMKBorderColor(final Color color)
+    '''returns None\n\n
+    setMKBorderColor(final Color color)\n
     '''
 def setMKBackgroundColor():
-    '''public void setMKBackgroundColor(final Color color)
+    '''returns None\n\n
+    setMKBackgroundColor(final Color color)\n
     '''
 def setMKNormalCaption():
-    '''public void setMKNormalCaption(final String caption)
+    '''returns None\n\n
+    setMKNormalCaption(final String caption)\n
     '''
 def setMKRolloverCaption():
-    '''public void setMKRolloverCaption(final String caption)
+    '''returns None\n\n
+    setMKRolloverCaption(final String caption)\n
     '''
 def setMKAlternateCaption():
-    '''public void setMKAlternateCaption(final String caption)
+    '''returns None\n\n
+    setMKAlternateCaption(final String caption)\n
     '''
 def setMKNormalIcon():
-    '''public void setMKNormalIcon(final PdfTemplate template)
+    '''returns None\n\n
+    setMKNormalIcon(final PdfTemplate template)\n
     '''
 def setMKRolloverIcon():
-    '''public void setMKRolloverIcon(final PdfTemplate template)
+    '''returns None\n\n
+    setMKRolloverIcon(final PdfTemplate template)\n
     '''
 def setMKAlternateIcon():
-    '''public void setMKAlternateIcon(final PdfTemplate template)
+    '''returns None\n\n
+    setMKAlternateIcon(final PdfTemplate template)\n
     '''
 def setMKIconFit():
-    '''public void setMKIconFit(final PdfName scale, final PdfName scalingType, final float leftoverLeft, final float leftoverBottom, final boolean fitInBounds)
+    '''returns None\n\n
+    setMKIconFit(final PdfName scale, final PdfName scalingType, final float leftoverLeft, final float leftoverBottom, final boolean fitInBounds)\n
     '''
 def setMKTextPosition():
-    '''public void setMKTextPosition(final int tp)
+    '''returns None\n\n
+    setMKTextPosition(final int tp)\n
     '''
 def setLayer():
-    '''public void setLayer(final PdfOCG layer)
+    '''returns None\n\n
+    setLayer(final PdfOCG layer)\n
     '''

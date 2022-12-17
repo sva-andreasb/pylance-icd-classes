@@ -1,7 +1,9 @@
-def WFRevisionSet():
-    '''public WFRevisionSet(final MboServerInterface ms)
+def ():
+    '''returns WFRevisionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getRevision():
-    '''public int getRevision(final String processname)
-    public int getRevision(final String mainProcess, final int revision, final String processName)
+    '''returns int\n\n
+    getRevision(final String processname)\n
+    getRevision(final String mainProcess, final int revision, final String processName)\n
     '''

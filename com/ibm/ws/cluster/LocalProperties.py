@@ -23,15 +23,15 @@ APPLICATION = "String  \"APPLICATION\""
 MODULE = "String  \"MODULE\""
 MEMBER_SCOPED_DATA = "String  \"MEMBER_SCOPED_DATA\""
 def run():
-    '''public Object run()
-    '''
-def getInstance():
-    '''public static LocalProperties getInstance()
+    '''returns Object\n\n
+    run()\n
     '''
 def get():
-    '''public Object get(final Object name)
-    public int get(final Integer name)
+    '''returns int\n\n
+    get(final Object name)\n
+    get(final Integer name)\n
     '''
 def put():
-    '''public void put(final Object name, final Object value)
+    '''returns None\n\n
+    put(final Object name, final Object value)\n
     '''

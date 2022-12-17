@@ -1,3 +1,4 @@
-def ChatOpsRequestHandler():
-    '''public ChatOpsRequestHandler(final AbstractChatOpsRequest request)
+def ():
+    '''returns ChatOpsRequestHandler\n\n
+    (final AbstractChatOpsRequest request)\n
     '''

@@ -1,3 +1,4 @@
-def ReportSecAttKeySet():
-    '''public ReportSecAttKeySet(final MboServerInterface ms)
+def ():
+    '''returns ReportSecAttKeySet\n\n
+    (final MboServerInterface ms)\n
     '''

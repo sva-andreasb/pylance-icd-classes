@@ -1,12 +1,16 @@
-def SCRAMSHA1Mechanism():
-    '''public SCRAMSHA1Mechanism()
+def ():
+    '''returns SCRAMSHA1Mechanism\n\n
+    ()\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def getHmacName():
-    '''public String getHmacName()
+    '''returns String\n\n
+    getHmacName()\n
     '''
 def hmac():
-    '''public byte[] hmac(final byte[] key, final byte[] str)
+    '''returns byte[]\n\n
+    hmac(final byte[] key, final byte[] str)\n
     '''

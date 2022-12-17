@@ -1,6 +1,8 @@
-def DimeAttachmentStreams():
-    '''public DimeAttachmentStreams(final DimeDelimitedInputStream stream)
+def ():
+    '''returns DimeAttachmentStreams\n\n
+    (final DimeDelimitedInputStream stream)\n
     '''
 def getNextStream():
-    '''public IncomingAttachmentInputStream getNextStream()
+    '''returns IncomingAttachmentInputStream\n\n
+    getNextStream()\n
     '''

@@ -1,52 +1,69 @@
-def CompositeControlDataSourceImpl():
-    '''public CompositeControlDataSourceImpl()
+def ():
+    '''returns CompositeControlDataSourceImpl\n\n
+    ()\n
     '''
 def getControllerAgent():
-    '''public ControllerAgent getControllerAgent()
+    '''returns ControllerAgent\n\n
+    getControllerAgent()\n
     '''
 def updateControlDataSources():
-    '''public void updateControlDataSources(final ControlDataSourceImpl controlDataSourceImpl, final ControlDataSourceImpl controlDataSourceImpl2)
+    '''returns None\n\n
+    updateControlDataSources(final ControlDataSourceImpl controlDataSourceImpl, final ControlDataSourceImpl controlDataSourceImpl2)\n
     '''
 def doInitialLookup():
-    '''public void doInitialLookup(final boolean b)
+    '''returns None\n\n
+    doInitialLookup(final boolean b)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getPropertyValue():
-    '''public String getPropertyValue(final String s, final String s2)
-    public int getPropertyValue(final String s, final int n)
+    '''returns int\n\n
+    getPropertyValue(final String s, final String s2)\n
+    getPropertyValue(final String s, final int n)\n
     '''
 def getMatchingKeySet():
-    '''public int getMatchingKeySet()
+    '''returns int\n\n
+    getMatchingKeySet()\n
     '''
 def hasInitialLookupOccurred():
-    '''public boolean hasInitialLookupOccurred()
+    '''returns boolean\n\n
+    hasInitialLookupOccurred()\n
     '''
 def updateCDS():
-    '''public void updateCDS(final String s, final String s2, final String s3, final String s4, final String s5)
+    '''returns None\n\n
+    updateCDS(final String s, final String s2, final String s3, final String s4, final String s5)\n
     '''
 def lock():
-    '''public void lock()
+    '''returns None\n\n
+    lock()\n
     '''
 def unlock():
-    '''public void unlock()
+    '''returns None\n\n
+    unlock()\n
     '''
 def sendDeregisterDataSource():
-    '''public void sendDeregisterDataSource(final String s)
+    '''returns None\n\n
+    sendDeregisterDataSource(final String s)\n
     '''
 def getDataSourceId():
-    '''public String getDataSourceId()
+    '''returns String\n\n
+    getDataSourceId()\n
     '''
 def getOPMControllerVersion():
-    '''public int getOPMControllerVersion()
+    '''returns int\n\n
+    getOPMControllerVersion()\n
     '''
 def updateCDSWithMonitorDataFromSP():
-    '''public void updateCDSWithMonitorDataFromSP(final String s)
+    '''returns None\n\n
+    updateCDSWithMonitorDataFromSP(final String s)\n
     '''
 def getMonitorEnabledFromCmxDirectives():
-    '''public int getMonitorEnabledFromCmxDirectives(final int n)
+    '''returns int\n\n
+    getMonitorEnabledFromCmxDirectives(final int n)\n
     '''
 def getMonitorCollectionIntervalFromCmxDirectives():
-    '''public int getMonitorCollectionIntervalFromCmxDirectives(final int n)
+    '''returns int\n\n
+    getMonitorCollectionIntervalFromCmxDirectives(final int n)\n
     '''

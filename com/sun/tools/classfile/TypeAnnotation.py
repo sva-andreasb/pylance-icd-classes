@@ -1,48 +1,37 @@
 bytesPerEntry = "int  2"
-def TypeAnnotation():
-    '''public TypeAnnotation(final ConstantPool constant_pool, final Annotation annotation, final Position position)
+def ():
+    '''returns TypePathEntry\n\n
+    (final ConstantPool constant_pool, final Annotation annotation, final Position position)\n
+    ()\n
+    (final TypePathEntryKind typePathEntryKind, final int arg)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    '''
-def Position():
-    '''public Position()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def emitToClassfile():
-    '''public boolean emitToClassfile()
-    '''
-def getTypePathFromBinary():
-    '''public static List<TypePathEntry> getTypePathFromBinary(final List<Integer> obj)
-    '''
-def getBinaryFromTypePath():
-    '''public static List<Integer> getBinaryFromTypePath(final List<TypePathEntry> list)
-    '''
-def TypePathEntry():
-    '''public TypePathEntry(final TypePathEntryKind typePathEntryKind, final int arg)
-    '''
-def fromBinary():
-    '''public static TypePathEntry fromBinary(final int n, final int i)
+    '''returns boolean\n\n
+    emitToClassfile()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isLocal():
-    '''public boolean isLocal()
+    '''returns boolean\n\n
+    isLocal()\n
     '''
 def targetTypeValue():
-    '''public int targetTypeValue()
-    '''
-def isValidTargetTypeValue():
-    '''public static boolean isValidTargetTypeValue(final int n)
-    '''
-def fromTargetTypeValue():
-    '''public static TargetType fromTargetTypeValue(final int i)
+    '''returns int\n\n
+    targetTypeValue()\n
     '''

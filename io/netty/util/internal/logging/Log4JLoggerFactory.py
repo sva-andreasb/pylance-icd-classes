@@ -1,6 +1,8 @@
-def Log4JLoggerFactory():
-    '''public Log4JLoggerFactory()
+def ():
+    '''returns Log4JLoggerFactory\n\n
+    ()\n
     '''
 def newInstance():
-    '''public InternalLogger newInstance(final String name)
+    '''returns InternalLogger\n\n
+    newInstance(final String name)\n
     '''

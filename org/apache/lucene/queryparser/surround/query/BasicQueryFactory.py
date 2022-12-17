@@ -1,25 +1,33 @@
-def BasicQueryFactory():
-    '''public BasicQueryFactory(final int maxBasicQueries)
-    public BasicQueryFactory()
+def ():
+    '''returns BasicQueryFactory\n\n
+    (final int maxBasicQueries)\n
+    ()\n
     '''
 def getNrQueriesMade():
-    '''public int getNrQueriesMade()
+    '''returns int\n\n
+    getNrQueriesMade()\n
     '''
 def getMaxBasicQueries():
-    '''public int getMaxBasicQueries()
+    '''returns int\n\n
+    getMaxBasicQueries()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def newTermQuery():
-    '''public TermQuery newTermQuery(final Term term)
+    '''returns TermQuery\n\n
+    newTermQuery(final Term term)\n
     '''
 def newSpanTermQuery():
-    '''public SpanTermQuery newSpanTermQuery(final Term term)
+    '''returns SpanTermQuery\n\n
+    newSpanTermQuery(final Term term)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

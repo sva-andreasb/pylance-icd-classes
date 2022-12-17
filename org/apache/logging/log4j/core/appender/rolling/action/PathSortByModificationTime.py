@@ -1,12 +1,12 @@
-def PathSortByModificationTime():
-    '''public PathSortByModificationTime(final boolean recentFirst)
-    '''
-def createSorter():
-    '''public static PathSorter createSorter(@PluginAttribute(value = "recentFirst", defaultBoolean = true) final boolean recentFirst)
+def ():
+    '''returns PathSortByModificationTime\n\n
+    (final boolean recentFirst)\n
     '''
 def isRecentFirst():
-    '''public boolean isRecentFirst()
+    '''returns boolean\n\n
+    isRecentFirst()\n
     '''
 def compare():
-    '''public int compare(final PathWithAttributes path1, final PathWithAttributes path2)
+    '''returns int\n\n
+    compare(final PathWithAttributes path1, final PathWithAttributes path2)\n
     '''

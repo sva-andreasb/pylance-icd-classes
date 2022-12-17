@@ -1,12 +1,16 @@
-def ConditionSet():
-    '''public ConditionSet(final MboServerInterface ms)
+def ():
+    '''returns ConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def isMarkedToDelete():
-    '''public boolean isMarkedToDelete(final String conditionID)
+    '''returns boolean\n\n
+    isMarkedToDelete(final String conditionID)\n
     '''
 def getSameAs():
-    '''public String[][] getSameAs()
+    '''returns String[][]\n\n
+    getSameAs()\n
     '''

@@ -1,6 +1,8 @@
 def loadData():
-    '''public int loadData()
+    '''returns int\n\n
+    loadData()\n
     '''
 def complete():
-    '''public int complete()
+    '''returns int\n\n
+    complete()\n
     '''

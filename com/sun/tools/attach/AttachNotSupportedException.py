@@ -1,4 +1,5 @@
-def AttachNotSupportedException():
-    '''public AttachNotSupportedException()
-    public AttachNotSupportedException(final String message)
+def ():
+    '''returns AttachNotSupportedException\n\n
+    ()\n
+    (final String message)\n
     '''

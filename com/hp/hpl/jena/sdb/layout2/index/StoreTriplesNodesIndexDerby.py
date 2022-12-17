@@ -1,3 +1,4 @@
-def StoreTriplesNodesIndexDerby():
-    '''public StoreTriplesNodesIndexDerby(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreTriplesNodesIndexDerby\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

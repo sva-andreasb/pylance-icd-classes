@@ -1,82 +1,93 @@
-def DMDeployablePkg():
-    '''public DMDeployablePkg(final MboSet ms)
+def ():
+    '''returns ProductInfo\n\n
+    (final MboSet ms)\n
+    ()\n
     '''
 def readManifest():
-    '''public void readManifest()
+    '''returns None\n\n
+    readManifest()\n
     '''
 def getManifest():
-    '''public byte[] getManifest()
+    '''returns byte[]\n\n
+    getManifest()\n
     '''
 def loadStagingRecords():
-    '''public void loadStagingRecords()
+    '''returns None\n\n
+    loadStagingRecords()\n
     '''
 def updateDistStatusForFile():
-    '''public void updateDistStatusForFile(final String pkgDefName, final String source, final String pkgName)
+    '''returns None\n\n
+    updateDistStatusForFile(final String pkgDefName, final String source, final String pkgName)\n
     '''
 def checkCompiledSource():
-    '''public void checkCompiledSource()
+    '''returns None\n\n
+    checkCompiledSource()\n
     '''
 def deployPkgMetaData():
-    '''public MboRemote deployPkgMetaData()
+    '''returns MboRemote\n\n
+    deployPkgMetaData()\n
     '''
 def createPkgDeployStatus():
-    '''public void createPkgDeployStatus(final MboRemote stageMbo, final boolean isSuccessful, final Throwable t)
+    '''returns None\n\n
+    createPkgDeployStatus(final MboRemote stageMbo, final boolean isSuccessful, final Throwable t)\n
     '''
 def isOKToDeploy():
-    '''public boolean isOKToDeploy()
+    '''returns boolean\n\n
+    isOKToDeploy()\n
     '''
 def versionCheck():
-    '''public int versionCheck(final List<String> srcNeedToBeChecked)
+    '''returns int\n\n
+    versionCheck(final List<String> srcNeedToBeChecked)\n
     '''
 def getVersionCheckResult():
-    '''public int getVersionCheckResult()
-    '''
-def getSourceProductInfo():
-    '''public Map<String, ProductInfo> getSourceProductInfo()
-    '''
-def getTargetProductInfo():
-    '''public Map<String, ProductInfo> getTargetProductInfo()
+    '''returns int\n\n
+    getVersionCheckResult()\n
     '''
 def previewCheck():
-    '''public boolean previewCheck()
-    '''
-def getCreateDate():
-    '''public static Date getCreateDate(final byte[] manifest)
-    public static Date getCreateDate(final String fileName)
+    '''returns boolean\n\n
+    previewCheck()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def isFileExist():
-    '''public boolean isFileExist(final String deployPkgName)
+    '''returns boolean\n\n
+    isFileExist(final String deployPkgName)\n
     '''
 def deletePkgFile():
-    '''public void deletePkgFile(final String deployPkgName)
-    '''
-def ProductInfo():
-    '''public ProductInfo()
+    '''returns None\n\n
+    deletePkgFile(final String deployPkgName)\n
     '''
 def setDescription():
-    '''public void setDescription(final String desc)
+    '''returns None\n\n
+    setDescription(final String desc)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setResult():
-    '''public void setResult(final int res)
+    '''returns None\n\n
+    setResult(final int res)\n
     '''
 def getResult():
-    '''public int getResult()
+    '''returns int\n\n
+    getResult()\n
     '''
 def setExcluded():
-    '''public void setExcluded(final boolean flag)
+    '''returns None\n\n
+    setExcluded(final boolean flag)\n
     '''
 def isExcluded():
-    '''public boolean isExcluded()
+    '''returns boolean\n\n
+    isExcluded()\n
     '''
 def setSourceFlag():
-    '''public void setSourceFlag(final boolean flag)
+    '''returns None\n\n
+    setSourceFlag(final boolean flag)\n
     '''
 def getSourceFlag():
-    '''public boolean getSourceFlag()
+    '''returns boolean\n\n
+    getSourceFlag()\n
     '''

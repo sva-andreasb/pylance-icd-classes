@@ -1,6 +1,8 @@
-def TKStatusSet():
-    '''public TKStatusSet(final MboServerInterface ms)
+def ():
+    '''returns TKStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

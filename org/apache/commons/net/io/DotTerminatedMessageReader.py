@@ -1,14 +1,18 @@
-def DotTerminatedMessageReader():
-    '''public DotTerminatedMessageReader(final Reader reader)
+def ():
+    '''returns DotTerminatedMessageReader\n\n
+    (final Reader reader)\n
     '''
 def read():
-    '''public int read()
-    public int read(final char[] buffer)
-    public int read(final char[] buffer, int offset, int length)
+    '''returns int\n\n
+    read()\n
+    read(final char[] buffer)\n
+    read(final char[] buffer, int offset, int length)\n
     '''
 def ready():
-    '''public boolean ready()
+    '''returns boolean\n\n
+    ready()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

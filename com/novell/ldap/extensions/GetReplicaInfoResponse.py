@@ -1,27 +1,36 @@
-def GetReplicaInfoResponse():
-    '''public GetReplicaInfoResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns GetReplicaInfoResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getpartitionID():
-    '''public int getpartitionID()
+    '''returns int\n\n
+    getpartitionID()\n
     '''
 def getreplicaState():
-    '''public int getreplicaState()
+    '''returns int\n\n
+    getreplicaState()\n
     '''
 def getmodificationTime():
-    '''public int getmodificationTime()
+    '''returns int\n\n
+    getmodificationTime()\n
     '''
 def getpurgeTime():
-    '''public int getpurgeTime()
+    '''returns int\n\n
+    getpurgeTime()\n
     '''
 def getlocalPartitionID():
-    '''public int getlocalPartitionID()
+    '''returns int\n\n
+    getlocalPartitionID()\n
     '''
 def getpartitionDN():
-    '''public String getpartitionDN()
+    '''returns String\n\n
+    getpartitionDN()\n
     '''
 def getreplicaType():
-    '''public int getreplicaType()
+    '''returns int\n\n
+    getreplicaType()\n
     '''
 def getflags():
-    '''public int getflags()
+    '''returns int\n\n
+    getflags()\n
     '''

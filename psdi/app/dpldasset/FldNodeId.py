@@ -1,3 +1,4 @@
-def FldNodeId():
-    '''public FldNodeId(final MboValue mbv)
+def ():
+    '''returns FldNodeId\n\n
+    (final MboValue mbv)\n
     '''

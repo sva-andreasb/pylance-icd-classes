@@ -1,96 +1,98 @@
-def getGlobalUserAgent():
-    '''public static String getGlobalUserAgent()
-    '''
-def setGlobalUserAgent():
-    '''public static void setGlobalUserAgent(final String userAgent)
-    '''
-def getHandler():
-    '''public static synchronized ParsedURLProtocolHandler getHandler(final String protocol)
-    '''
-def registerHandler():
-    '''public static synchronized void registerHandler(final ParsedURLProtocolHandler handler)
-    '''
-def checkGZIP():
-    '''public static InputStream checkGZIP(final InputStream is)
-    '''
-def ParsedURL():
-    '''public ParsedURL(final String urlStr)
-    public ParsedURL(final URL url)
-    public ParsedURL(final String baseStr, final String urlStr)
-    public ParsedURL(final URL baseURL, final String urlStr)
-    public ParsedURL(final ParsedURL baseURL, final String urlStr)
+def ():
+    '''returns ParsedURL\n\n
+    (final String urlStr)\n
+    (final URL url)\n
+    (final String baseStr, final String urlStr)\n
+    (final URL baseURL, final String urlStr)\n
+    (final ParsedURL baseURL, final String urlStr)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getPostConnectionURL():
-    '''public String getPostConnectionURL()
+    '''returns String\n\n
+    getPostConnectionURL()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def complete():
-    '''public boolean complete()
+    '''returns boolean\n\n
+    complete()\n
     '''
 def getUserAgent():
-    '''public String getUserAgent()
+    '''returns String\n\n
+    getUserAgent()\n
     '''
 def setUserAgent():
-    '''public void setUserAgent(final String userAgent)
+    '''returns None\n\n
+    setUserAgent(final String userAgent)\n
     '''
 def getProtocol():
-    '''public String getProtocol()
+    '''returns String\n\n
+    getProtocol()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def getRef():
-    '''public String getRef()
+    '''returns String\n\n
+    getRef()\n
     '''
 def getPortStr():
-    '''public String getPortStr()
+    '''returns String\n\n
+    getPortStr()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getContentTypeMediaType():
-    '''public String getContentTypeMediaType()
+    '''returns String\n\n
+    getContentTypeMediaType()\n
     '''
 def getContentTypeCharset():
-    '''public String getContentTypeCharset()
+    '''returns String\n\n
+    getContentTypeCharset()\n
     '''
 def hasContentTypeParameter():
-    '''public boolean hasContentTypeParameter(final String param)
+    '''returns boolean\n\n
+    hasContentTypeParameter(final String param)\n
     '''
 def getContentEncoding():
-    '''public String getContentEncoding()
+    '''returns String\n\n
+    getContentEncoding()\n
     '''
 def openStream():
-    '''public InputStream openStream()
-    public InputStream openStream(final String mimeType)
-    public InputStream openStream(final String[] mimeTypes)
-    public InputStream openStream(final Iterator mimeTypes)
+    '''returns InputStream\n\n
+    openStream()\n
+    openStream(final String mimeType)\n
+    openStream(final String[] mimeTypes)\n
+    openStream(final Iterator mimeTypes)\n
     '''
 def openStreamRaw():
-    '''public InputStream openStreamRaw()
-    public InputStream openStreamRaw(final String mimeType)
-    public InputStream openStreamRaw(final String[] mimeTypes)
-    public InputStream openStreamRaw(final Iterator mimeTypes)
+    '''returns InputStream\n\n
+    openStreamRaw()\n
+    openStreamRaw(final String mimeType)\n
+    openStreamRaw(final String[] mimeTypes)\n
+    openStreamRaw(final Iterator mimeTypes)\n
     '''
 def sameFile():
-    '''public boolean sameFile(final ParsedURL other)
-    '''
-def parseURL():
-    '''public static ParsedURLData parseURL(String urlStr)
-    public static ParsedURLData parseURL(final String baseStr, final String urlStr)
-    public static ParsedURLData parseURL(final ParsedURL baseURL, final String urlStr)
+    '''returns boolean\n\n
+    sameFile(final ParsedURL other)\n
     '''

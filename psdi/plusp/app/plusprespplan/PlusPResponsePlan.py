@@ -1,50 +1,66 @@
-def PlusPResponsePlan():
-    '''public PlusPResponsePlan(final MboSet set)
+def ():
+    '''returns PlusPResponsePlan\n\n
+    (final MboSet set)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long n)
+    '''returns None\n\n
+    delete(final long n)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def setStopTKorJPReadOnlyStatus():
-    '''public void setStopTKorJPReadOnlyStatus()
-    public void setStopTKorJPReadOnlyStatus(final boolean b, final boolean b2)
+    '''returns None\n\n
+    setStopTKorJPReadOnlyStatus()\n
+    setStopTKorJPReadOnlyStatus(final boolean b, final boolean b2)\n
     '''
 def validateAgainstAppliesTo():
-    '''public void validateAgainstAppliesTo(final MboValue mboValue)
+    '''returns None\n\n
+    validateAgainstAppliesTo(final MboValue mboValue)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo)\n
     '''
 def isInactive():
-    '''public boolean isInactive()
+    '''returns boolean\n\n
+    isInactive()\n
     '''
 def isActive():
-    '''public boolean isActive()
-    public boolean isActive(final boolean b)
+    '''returns boolean\n\n
+    isActive()\n
+    isActive(final boolean b)\n
     '''
 def escalationEmpty():
-    '''public boolean escalationEmpty()
+    '''returns boolean\n\n
+    escalationEmpty()\n
     '''
 def associateEscalation():
-    '''public MboRemote associateEscalation()
+    '''returns MboRemote\n\n
+    associateEscalation()\n
     '''
 def getIdField():
-    '''public String getIdField()
+    '''returns String\n\n
+    getIdField()\n
     '''
 def enableCalendarFields():
-    '''public void enableCalendarFields()
+    '''returns None\n\n
+    enableCalendarFields()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String s, final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    initRelationship(final String s, final MboSetRemote mboSetRemote)\n
     '''

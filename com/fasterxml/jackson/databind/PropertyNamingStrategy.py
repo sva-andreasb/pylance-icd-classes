@@ -1,22 +1,27 @@
 def nameForField():
-    '''public String nameForField(final MapperConfig<?> config, final AnnotatedField field, final String defaultName)
-    public String nameForField(final MapperConfig<?> config, final AnnotatedField field, final String defaultName)
+    '''returns String\n\n
+    nameForField(final MapperConfig<?> config, final AnnotatedField field, final String defaultName)\n
+    nameForField(final MapperConfig<?> config, final AnnotatedField field, final String defaultName)\n
     '''
 def nameForGetterMethod():
-    '''public String nameForGetterMethod(final MapperConfig<?> config, final AnnotatedMethod method, final String defaultName)
-    public String nameForGetterMethod(final MapperConfig<?> config, final AnnotatedMethod method, final String defaultName)
+    '''returns String\n\n
+    nameForGetterMethod(final MapperConfig<?> config, final AnnotatedMethod method, final String defaultName)\n
+    nameForGetterMethod(final MapperConfig<?> config, final AnnotatedMethod method, final String defaultName)\n
     '''
 def nameForSetterMethod():
-    '''public String nameForSetterMethod(final MapperConfig<?> config, final AnnotatedMethod method, final String defaultName)
-    public String nameForSetterMethod(final MapperConfig<?> config, final AnnotatedMethod method, final String defaultName)
+    '''returns String\n\n
+    nameForSetterMethod(final MapperConfig<?> config, final AnnotatedMethod method, final String defaultName)\n
+    nameForSetterMethod(final MapperConfig<?> config, final AnnotatedMethod method, final String defaultName)\n
     '''
 def nameForConstructorParameter():
-    '''public String nameForConstructorParameter(final MapperConfig<?> config, final AnnotatedParameter ctorParam, final String defaultName)
-    public String nameForConstructorParameter(final MapperConfig<?> config, final AnnotatedParameter ctorParam, final String defaultName)
+    '''returns String\n\n
+    nameForConstructorParameter(final MapperConfig<?> config, final AnnotatedParameter ctorParam, final String defaultName)\n
+    nameForConstructorParameter(final MapperConfig<?> config, final AnnotatedParameter ctorParam, final String defaultName)\n
     '''
 def translate():
-    '''public String translate(final String input)
-    public String translate(final String input)
-    public String translate(final String input)
-    public String translate(final String input)
+    '''returns String\n\n
+    translate(final String input)\n
+    translate(final String input)\n
+    translate(final String input)\n
+    translate(final String input)\n
     '''

@@ -1,36 +1,48 @@
-def ModStore():
-    '''public ModStore()
+def ():
+    '''returns ModStore\n\n
+    ()\n
     '''
 def registerWith():
-    '''public void registerWith(final CmdGeneral cmdLine)
+    '''returns None\n\n
+    registerWith(final CmdGeneral cmdLine)\n
     '''
 def processArgs():
-    '''public void processArgs(final CmdArgModule cmdLine)
+    '''returns None\n\n
+    processArgs(final CmdArgModule cmdLine)\n
     '''
 def getStore():
-    '''public Store getStore()
+    '''returns Store\n\n
+    getStore()\n
     '''
 def hasStore():
-    '''public boolean hasStore()
+    '''returns boolean\n\n
+    hasStore()\n
     '''
 def getStoreDesc():
-    '''public StoreDesc getStoreDesc()
+    '''returns StoreDesc\n\n
+    getStoreDesc()\n
     '''
 def setDbName():
-    '''public void setDbName(final String dbName)
+    '''returns None\n\n
+    setDbName(final String dbName)\n
     '''
 def getDataset():
-    '''public Dataset getDataset()
+    '''returns Dataset\n\n
+    getDataset()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def getConnection():
-    '''public SDBConnection getConnection()
+    '''returns SDBConnection\n\n
+    getConnection()\n
     '''
 def isHSQL():
-    '''public boolean isHSQL()
+    '''returns boolean\n\n
+    isHSQL()\n
     '''
 def closedown():
-    '''public void closedown()
+    '''returns None\n\n
+    closedown()\n
     '''

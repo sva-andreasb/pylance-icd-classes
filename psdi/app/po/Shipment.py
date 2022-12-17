@@ -1,27 +1,36 @@
-def Shipment():
-    '''public Shipment(final MboSet ms)
+def ():
+    '''returns Shipment\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def createShipmentReceipt():
-    '''public MboRemote createShipmentReceipt(final MboSetRemote existingReceiptSet, final long shipmentlinenum, final String ownersysid)
+    '''returns MboRemote\n\n
+    createShipmentReceipt(final MboSetRemote existingReceiptSet, final long shipmentlinenum, final String ownersysid)\n
     '''
 def setReceiptVariables():
-    '''public void setReceiptVariables(final MboRemote receipt, final MboRemote shipmentLineRemote)
+    '''returns None\n\n
+    setReceiptVariables(final MboRemote receipt, final MboRemote shipmentLineRemote)\n
     '''
 def createShipmentReturn():
-    '''public MboRemote createShipmentReturn(final MboSetRemote existingReceiptSet, final long shipmentlinenum, final String ownersysid)
+    '''returns MboRemote\n\n
+    createShipmentReturn(final MboSetRemote existingReceiptSet, final long shipmentlinenum, final String ownersysid)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

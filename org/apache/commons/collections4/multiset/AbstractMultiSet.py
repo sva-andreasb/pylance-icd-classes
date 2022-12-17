@@ -1,72 +1,91 @@
 def size():
-    '''public int size()
-    public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
+    size()\n
     '''
 def getCount():
-    '''public int getCount(final Object object)
+    '''returns int\n\n
+    getCount(final Object object)\n
     '''
 def setCount():
-    '''public int setCount(final E object, final int count)
+    '''returns int\n\n
+    setCount(final E object, final int count)\n
     '''
 def contains():
-    '''public boolean contains(final Object object)
-    public boolean contains(final Object key)
-    public boolean contains(final Object obj)
+    '''returns boolean\n\n
+    contains(final Object object)\n
+    contains(final Object key)\n
+    contains(final Object obj)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
-    public Iterator<E> iterator()
-    public Iterator<Entry<E>> iterator()
+    '''returns Iterator<Entry<E>>\n\n
+    iterator()\n
+    iterator()\n
+    iterator()\n
     '''
 def add():
-    '''public boolean add(final E object)
-    public int add(final E object, final int occurrences)
+    '''returns int\n\n
+    add(final E object)\n
+    add(final E object, final int occurrences)\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
-    public int remove(final Object object, final int occurrences)
-    public void remove()
-    public boolean remove(final Object key)
-    public boolean remove(final Object obj)
+    '''returns boolean\n\n
+    remove(final Object object)\n
+    remove(final Object object, final int occurrences)\n
+    remove()\n
+    remove(final Object key)\n
+    remove(final Object obj)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def uniqueSet():
-    '''public Set<E> uniqueSet()
+    '''returns Set<E>\n\n
+    uniqueSet()\n
     '''
 def transform():
-    '''public E transform(final Entry<E> entry)
+    '''returns E\n\n
+    transform(final Entry<E> entry)\n
     '''
 def entrySet():
-    '''public Set<Entry<E>> entrySet()
+    '''returns Set<Entry<E>>\n\n
+    entrySet()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
-    public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
-def MultiSetIterator():
-    '''public MultiSetIterator(final AbstractMultiSet<E> parent)
+def ():
+    '''returns MultiSetIterator\n\n
+    (final AbstractMultiSet<E> parent)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''

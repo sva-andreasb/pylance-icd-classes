@@ -1,18 +1,24 @@
 def maySerializeAsObject():
-    '''public boolean maySerializeAsObject()
+    '''returns boolean\n\n
+    maySerializeAsObject()\n
     '''
 def isValidReferencePropertyName():
-    '''public boolean isValidReferencePropertyName(final String name, final Object parser)
+    '''returns boolean\n\n
+    isValidReferencePropertyName(final String name, final Object parser)\n
     '''
-def IdKey():
-    '''public IdKey(final Class<?> type, final Class<?> scope, final Object key)
+def ():
+    '''returns IdKey\n\n
+    (final Class<?> type, final Class<?> scope, final Object key)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

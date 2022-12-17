@@ -1,9 +1,12 @@
 def getLocation():
-    '''public JsonLocation getLocation()
+    '''returns JsonLocation\n\n
+    getLocation()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

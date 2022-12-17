@@ -2,15 +2,19 @@ COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Co
 OFFLINE = "String  \"OFFLINE_KEY\""
 DEGRADATION = "String  \"DEGRADATION_KEY\""
 NONE = "String  \"NONE_KEY\""
-def PmChgSearchRelatedCI():
-    '''public PmChgSearchRelatedCI(final MboSet ms)
+def ():
+    '''returns PmChgSearchRelatedCI\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getImpactedCI():
-    '''public CIRemote getImpactedCI()
+    '''returns CIRemote\n\n
+    getImpactedCI()\n
     '''
 def getTargetCI():
-    '''public CIRemote getTargetCI()
+    '''returns CIRemote\n\n
+    getTargetCI()\n
     '''

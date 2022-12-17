@@ -1,27 +1,33 @@
 def setInOrder():
-    '''public void setInOrder(final boolean inOrder)
+    '''returns None\n\n
+    setInOrder(final boolean inOrder)\n
     '''
-def ComplexPhraseQueryParser():
-    '''public ComplexPhraseQueryParser(final String f, final Analyzer a)
+def ():
+    '''returns ComplexPhraseQuery\n\n
+    (final String f, final Analyzer a)\n
+    (final String field, final String phrasedQueryStringContents, final int slopFactor, final boolean inOrder)\n
     '''
 def parse():
-    '''public Query parse(final String query)
-    '''
-def ComplexPhraseQuery():
-    '''public ComplexPhraseQuery(final String field, final String phrasedQueryStringContents, final int slopFactor, final boolean inOrder)
+    '''returns Query\n\n
+    parse(final String query)\n
     '''
 def visit():
-    '''public void visit(final QueryVisitor visitor)
+    '''returns None\n\n
+    visit(final QueryVisitor visitor)\n
     '''
 def rewrite():
-    '''public Query rewrite(final IndexReader reader)
+    '''returns Query\n\n
+    rewrite(final IndexReader reader)\n
     '''
 def toString():
-    '''public String toString(final String field)
+    '''returns String\n\n
+    toString(final String field)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

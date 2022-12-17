@@ -1,29 +1,38 @@
-def BuildEvent():
-    '''public BuildEvent(final Project project)
-    public BuildEvent(final Target target)
-    public BuildEvent(final Task task)
+def ():
+    '''returns BuildEvent\n\n
+    (final Project project)\n
+    (final Target target)\n
+    (final Task task)\n
     '''
 def setMessage():
-    '''public void setMessage(final String message, final int priority)
+    '''returns None\n\n
+    setMessage(final String message, final int priority)\n
     '''
 def setException():
-    '''public void setException(final Throwable exception)
+    '''returns None\n\n
+    setException(final Throwable exception)\n
     '''
 def getProject():
-    '''public Project getProject()
+    '''returns Project\n\n
+    getProject()\n
     '''
 def getTarget():
-    '''public Target getTarget()
+    '''returns Target\n\n
+    getTarget()\n
     '''
 def getTask():
-    '''public Task getTask()
+    '''returns Task\n\n
+    getTask()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def getException():
-    '''public Throwable getException()
+    '''returns Throwable\n\n
+    getException()\n
     '''

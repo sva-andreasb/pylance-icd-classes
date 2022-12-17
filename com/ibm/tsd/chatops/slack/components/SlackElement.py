@@ -6,96 +6,127 @@ TYPE_CHANNELS_SELECT = "String  \"channels_select\""
 TYPE_PLAIN_TEXT_INPUT = "String  \"plain_text_input\""
 TYPE_BUTTON = "String  \"button\""
 TYPE_DATEPICKER = "String  \"datepicker\""
-def SlackElement():
-    '''public SlackElement(final String type)
+def ():
+    '''returns SlackElement\n\n
+    (final String type)\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def setActionId():
-    '''public void setActionId(final String actionId)
+    '''returns None\n\n
+    setActionId(final String actionId)\n
     '''
 def setUrl():
-    '''public void setUrl(final String url)
+    '''returns None\n\n
+    setUrl(final String url)\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def setStyle():
-    '''public void setStyle(final String style)
+    '''returns None\n\n
+    setStyle(final String style)\n
     '''
 def setPlaceholder():
-    '''public void setPlaceholder(final String placeholder)
+    '''returns None\n\n
+    setPlaceholder(final String placeholder)\n
     '''
 def setInitialDate():
-    '''public void setInitialDate(final String initialDate)
+    '''returns None\n\n
+    setInitialDate(final String initialDate)\n
     '''
 def setConfirm():
-    '''public void setConfirm(final SlackConfirmDialog confirmDialog)
+    '''returns None\n\n
+    setConfirm(final SlackConfirmDialog confirmDialog)\n
     '''
 def setInitialValue():
-    '''public void setInitialValue(final String initialValue)
+    '''returns None\n\n
+    setInitialValue(final String initialValue)\n
     '''
 def setMultiline():
-    '''public void setMultiline(final boolean multiline)
+    '''returns None\n\n
+    setMultiline(final boolean multiline)\n
     '''
 def setMinLength():
-    '''public void setMinLength(final int minLength)
+    '''returns None\n\n
+    setMinLength(final int minLength)\n
     '''
 def setMaxLength():
-    '''public void setMaxLength(final int maxLength)
+    '''returns None\n\n
+    setMaxLength(final int maxLength)\n
     '''
 def setOptions():
-    '''public void setOptions(final JSONArray options)
+    '''returns None\n\n
+    setOptions(final JSONArray options)\n
     '''
 def setOptionGroup():
-    '''public void setOptionGroup(final SlackOptionGroup optionGroup)
+    '''returns None\n\n
+    setOptionGroup(final SlackOptionGroup optionGroup)\n
     '''
 def setInitialOption():
-    '''public void setInitialOption(final SlackOption option)
+    '''returns None\n\n
+    setInitialOption(final SlackOption option)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getActionId():
-    '''public String getActionId()
+    '''returns String\n\n
+    getActionId()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getStyle():
-    '''public String getStyle()
+    '''returns String\n\n
+    getStyle()\n
     '''
 def getPlaceholder():
-    '''public String getPlaceholder()
+    '''returns String\n\n
+    getPlaceholder()\n
     '''
 def getInitialDate():
-    '''public String getInitialDate()
+    '''returns String\n\n
+    getInitialDate()\n
     '''
 def getConfirm():
-    '''public String getConfirm()
+    '''returns String\n\n
+    getConfirm()\n
     '''
 def getInitialValue():
-    '''public String getInitialValue()
+    '''returns String\n\n
+    getInitialValue()\n
     '''
 def getMultiline():
-    '''public boolean getMultiline()
+    '''returns boolean\n\n
+    getMultiline()\n
     '''
 def getMinLength():
-    '''public int getMinLength()
+    '''returns int\n\n
+    getMinLength()\n
     '''
 def getMaxLength():
-    '''public int getMaxLength()
+    '''returns int\n\n
+    getMaxLength()\n
     '''
 def getOptions():
-    '''public JSONArray getOptions()
+    '''returns JSONArray\n\n
+    getOptions()\n
     '''
 def getOptionGroup():
-    '''public SlackOptionGroup getOptionGroup()
+    '''returns SlackOptionGroup\n\n
+    getOptionGroup()\n
     '''
 def getInitialOption():
-    '''public SlackOption getInitialOption()
+    '''returns SlackOption\n\n
+    getInitialOption()\n
     '''

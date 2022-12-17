@@ -1,6 +1,8 @@
-def GWALaborAssignmentBean():
-    '''public GWALaborAssignmentBean()
+def ():
+    '''returns GWALaborAssignmentBean\n\n
+    ()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

@@ -1,3 +1,4 @@
-def LburpEndResponse():
-    '''public LburpEndResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns LburpEndResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''

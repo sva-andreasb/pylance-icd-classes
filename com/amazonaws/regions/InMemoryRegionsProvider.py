@@ -1,15 +1,20 @@
-def InMemoryRegionsProvider():
-    '''public InMemoryRegionsProvider(final List<Region> regions)
+def ():
+    '''returns InMemoryRegionsProvider\n\n
+    (final List<Region> regions)\n
     '''
 def getRegions():
-    '''public List<Region> getRegions()
+    '''returns List<Region>\n\n
+    getRegions()\n
     '''
 def getRegion():
-    '''public Region getRegion(final String regionName)
+    '''returns Region\n\n
+    getRegion(final String regionName)\n
     '''
 def getRegionsForService():
-    '''public List<Region> getRegionsForService(final String serviceName)
+    '''returns List<Region>\n\n
+    getRegionsForService(final String serviceName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

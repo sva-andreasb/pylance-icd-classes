@@ -1,31 +1,37 @@
-def getInstanceFor():
-    '''public static synchronized ChatManager getInstanceFor(final XMPPConnection connection)
-    '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
-    public void processStanza(final Stanza stanza)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
+    processStanza(final Stanza stanza)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def presenceChanged():
-    '''public void presenceChanged(final Presence presence)
+    '''returns None\n\n
+    presenceChanged(final Presence presence)\n
     '''
 def addIncomingListener():
-    '''public boolean addIncomingListener(final IncomingChatMessageListener listener)
+    '''returns boolean\n\n
+    addIncomingListener(final IncomingChatMessageListener listener)\n
     '''
 def removeIncomingListener():
-    '''public boolean removeIncomingListener(final IncomingChatMessageListener listener)
+    '''returns boolean\n\n
+    removeIncomingListener(final IncomingChatMessageListener listener)\n
     '''
 def addOutgoingListener():
-    '''public boolean addOutgoingListener(final OutgoingChatMessageListener listener)
+    '''returns boolean\n\n
+    addOutgoingListener(final OutgoingChatMessageListener listener)\n
     '''
 def removeOutgoingListener():
-    '''public boolean removeOutgoingListener(final OutgoingChatMessageListener listener)
+    '''returns boolean\n\n
+    removeOutgoingListener(final OutgoingChatMessageListener listener)\n
     '''
 def chatWith():
-    '''public Chat chatWith(final EntityBareJid jid)
+    '''returns Chat\n\n
+    chatWith(final EntityBareJid jid)\n
     '''
 def setXhmtlImEnabled():
-    '''public void setXhmtlImEnabled(final boolean xhtmlIm)
+    '''returns None\n\n
+    setXhmtlImEnabled(final boolean xhtmlIm)\n
     '''

@@ -1,136 +1,177 @@
-def ResourceScheduleView():
-    '''public ResourceScheduleView()
+def ():
+    '''returns ResourceScheduleView\n\n
+    ()\n
     '''
 def addFilterToggle():
-    '''public void addFilterToggle(final UIOptions opts)
+    '''returns None\n\n
+    addFilterToggle(final UIOptions opts)\n
     '''
 def setFilterState():
-    '''public ReplyBuilder setFilterState(@MXEventParam("filter") final boolean val)
+    '''returns ReplyBuilder\n\n
+    setFilterState(@MXEventParam("filter") final boolean val)\n
     '''
 def validateAssignment():
-    '''public void validateAssignment(final WebClientSession sess, final ReplyBuilder reply, final MXGanttModel model, final MXResource res, final MXActivity act)
-    '''
-def getScheduleWindow():
-    '''public Map<String, Object> getScheduleWindow(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("activityid") final String activityid)
+    '''returns None\n\n
+    validateAssignment(final WebClientSession sess, final ReplyBuilder reply, final MXGanttModel model, final MXResource res, final MXActivity act)\n
     '''
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''
 def loadSchedulerProject():
-    '''public void loadSchedulerProject(final WebClientSession sess)
+    '''returns None\n\n
+    loadSchedulerProject(final WebClientSession sess)\n
     '''
 def async_upload_changes():
-    '''public ReplyBuilder async_upload_changes(final WebClientSession sess)
+    '''returns ReplyBuilder\n\n
+    async_upload_changes(final WebClientSession sess)\n
     '''
 def addModelChange():
-    '''public void addModelChange(final MXGanttModel model, final MXActivity currentActivity, final MXResource res, final MXReservation reservation, final WebClientSession session)
-    public void addModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final MXResource res, final MXReservation reservation, final WebClientSession session)
+    '''returns None\n\n
+    addModelChange(final MXGanttModel model, final MXActivity currentActivity, final MXResource res, final MXReservation reservation, final WebClientSession session)\n
+    addModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final MXResource res, final MXReservation reservation, final WebClientSession session)\n
     '''
 def applyModelChange():
-    '''public void applyModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final MXResource res, final MXReservation reservation, final WebClientSession session)
+    '''returns None\n\n
+    applyModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final MXResource res, final MXReservation reservation, final WebClientSession session)\n
     '''
 def setSkillMapping():
-    '''public boolean setSkillMapping(final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res, final MXReservation unused_reservation, final boolean update)
+    '''returns boolean\n\n
+    setSkillMapping(final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res, final MXReservation unused_reservation, final boolean update)\n
     '''
 def isLocked():
-    '''public boolean isLocked(final MXActivity activity)
+    '''returns boolean\n\n
+    isLocked(final MXActivity activity)\n
     '''
 def canDeleteWork():
-    '''public boolean canDeleteWork(final MXActivity activity)
+    '''returns boolean\n\n
+    canDeleteWork(final MXActivity activity)\n
     '''
 def canAssignToLoc():
-    '''public boolean canAssignToLoc(final MXActivity activity, final String[] selectedresources, final String actresid, final MXGanttModel model)
+    '''returns boolean\n\n
+    canAssignToLoc(final MXActivity activity, final String[] selectedresources, final String actresid, final MXGanttModel model)\n
     '''
 def dummyAction():
-    '''public JSONObject dummyAction(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    dummyAction(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def addViewNotesAction():
-    '''public void addViewNotesAction(final TMenu menu, final String projectId, final MXActivity activity)
+    '''returns None\n\n
+    addViewNotesAction(final TMenu menu, final String projectId, final MXActivity activity)\n
     '''
 def addServerAction():
-    '''public void addServerAction(final TMenu menu, final String projectId, final MXActivity activity, final MXResource resource, final String actionTitle, final String actionName)
+    '''returns None\n\n
+    addServerAction(final TMenu menu, final String projectId, final MXActivity activity, final MXResource resource, final String actionTitle, final String actionName)\n
     '''
 def newWorkAction():
-    '''public JSONObject newWorkAction(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    newWorkAction(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def splitShiftAction():
-    '''public JSONObject splitShiftAction(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    splitShiftAction(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def splitAction():
-    '''public JSONObject splitAction(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    splitAction(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def split3Action():
-    '''public JSONObject split3Action(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    split3Action(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def mergeAllWorkAction():
-    '''public JSONObject mergeAllWorkAction(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    mergeAllWorkAction(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def mergeWorkAction():
-    '''public JSONObject mergeWorkAction(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    mergeWorkAction(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def getTooltip():
-    '''public DynamicTooltip getTooltip(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id)
+    '''returns DynamicTooltip\n\n
+    getTooltip(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id)\n
     '''
 def splitAssignment():
-    '''public void splitAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity activity, final MXResource res, final ReplyBuilder reply, final long start, final long end)
+    '''returns None\n\n
+    splitAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity activity, final MXResource res, final ReplyBuilder reply, final long start, final long end)\n
     '''
 def split3Assignment():
-    '''public void split3Assignment(final MXGanttModel model, final WebClientSession session, final MXActivity activity, final MXResource res, final ReplyBuilder reply, final long start, final long end)
+    '''returns None\n\n
+    split3Assignment(final MXGanttModel model, final WebClientSession session, final MXActivity activity, final MXResource res, final ReplyBuilder reply, final long start, final long end)\n
     '''
 def splitShiftAssignment():
-    '''public void splitShiftAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity activity, final MXResource res, final ReplyBuilder reply, final long start, final long end)
+    '''returns None\n\n
+    splitShiftAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity activity, final MXResource res, final ReplyBuilder reply, final long start, final long end)\n
     '''
 def mergeAssignments():
-    '''public void mergeAssignments(final MXGanttModel model, final WebClientSession session, final MXActivity parentActivity, final MXActivity activity, final MXResource res, final ReplyBuilder reply)
+    '''returns None\n\n
+    mergeAssignments(final MXGanttModel model, final WebClientSession session, final MXActivity parentActivity, final MXActivity activity, final MXResource res, final ReplyBuilder reply)\n
     '''
 def createNewAssignment():
-    '''public MXActivity createNewAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity act, final MXResource res, final long start, final long end)
+    '''returns MXActivity\n\n
+    createNewAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity act, final MXResource res, final long start, final long end)\n
     '''
 def getShiftBreakPoints():
-    '''public long[] getShiftBreakPoints(final MXGanttModel model, final MXResource resource, final long start, final long end)
+    '''returns long[]\n\n
+    getShiftBreakPoints(final MXGanttModel model, final MXResource resource, final long start, final long end)\n
     '''
 def getRelatedAssignments():
-    '''public ReplyBuilder getRelatedAssignments(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("activityid") final String activityid)
+    '''returns ReplyBuilder\n\n
+    getRelatedAssignments(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("activityid") final String activityid)\n
     '''
 def visit():
-    '''public void visit(final IlvActivity item, final IlvGanttModel model, final JSONArray state)
+    '''returns None\n\n
+    visit(final IlvActivity item, final IlvGanttModel model, final JSONArray state)\n
     '''
 def getMultiSkillResourceSet():
-    '''public List<List> getMultiSkillResourceSet(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("activityid") final String activityid)
+    '''returns List<List>\n\n
+    getMultiSkillResourceSet(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("activityid") final String activityid)\n
     '''
 def assigntoselectedlocations():
-    '''public JSONObject assigntoselectedlocations(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    assigntoselectedlocations(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def assignAssignment():
-    '''public void assignAssignment(final MXGanttModel model, final ReplyBuilder reply, final WebClientSession sess, final MXActivity act, final MXResource res)
+    '''returns None\n\n
+    assignAssignment(final MXGanttModel model, final ReplyBuilder reply, final WebClientSession sess, final MXActivity act, final MXResource res)\n
     '''
 def isCapabilityMat():
-    '''public boolean isCapabilityMat(final WebClientSession sess, final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res)
+    '''returns boolean\n\n
+    isCapabilityMat(final WebClientSession sess, final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res)\n
     '''
 def isQulificationMat():
-    '''public String isQulificationMat(final WebClientSession sess, final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res)
+    '''returns String\n\n
+    isQulificationMat(final WebClientSession sess, final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res)\n
     '''
 def validateScheduleWindow():
-    '''public boolean validateScheduleWindow(final WebClientSession sess, final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res)
+    '''returns boolean\n\n
+    validateScheduleWindow(final WebClientSession sess, final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res)\n
     '''
 def assignto():
-    '''public JSONObject assignto(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    assignto(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def unassign():
-    '''public JSONObject unassign(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    unassign(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def canUnAssign():
-    '''public boolean canUnAssign(final MXActivity activity, final String[] selectedactivitis, final String actresid, final MXGanttModel model)
+    '''returns boolean\n\n
+    canUnAssign(final MXActivity activity, final String[] selectedactivitis, final String actresid, final MXGanttModel model)\n
     '''
 def canAssignToLaborCrew():
-    '''public boolean canAssignToLaborCrew(final String[] selectedresources, final Selection selected)
+    '''returns boolean\n\n
+    canAssignToLaborCrew(final String[] selectedresources, final Selection selected)\n
     '''
 def canAssignToLaborCrewAvail():
-    '''public boolean canAssignToLaborCrewAvail(final String[] selectedresources, final Selection selected)
+    '''returns boolean\n\n
+    canAssignToLaborCrewAvail(final String[] selectedresources, final Selection selected)\n
     '''
 def autoRefreshModel():
-    '''public ReplyBuilder autoRefreshModel(@MXEventParam("projectid") final String projectId)
+    '''returns ReplyBuilder\n\n
+    autoRefreshModel(@MXEventParam("projectid") final String projectId)\n
     '''
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''

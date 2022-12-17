@@ -1,30 +1,38 @@
-def StAXOMBuilder():
-    '''public StAXOMBuilder(final OMFactory ombuilderFactory, final XMLStreamReader parser)
-    public StAXOMBuilder(final OMFactory factory, final XMLStreamReader parser, final OMElement element, final String characterEncoding)
-    public StAXOMBuilder(final OMFactory factory, final XMLStreamReader parser, final OMElement element)
-    public StAXOMBuilder(final String filePath)
-    public StAXOMBuilder(final XMLStreamReader parser)
-    public StAXOMBuilder(final InputStream inStream)
-    public StAXOMBuilder()
+def ():
+    '''returns StAXOMBuilder\n\n
+    (final OMFactory ombuilderFactory, final XMLStreamReader parser)\n
+    (final OMFactory factory, final XMLStreamReader parser, final OMElement element, final String characterEncoding)\n
+    (final OMFactory factory, final XMLStreamReader parser, final OMElement element)\n
+    (final String filePath)\n
+    (final XMLStreamReader parser)\n
+    (final InputStream inStream)\n
+    ()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def getDocumentElement():
-    '''public OMElement getDocumentElement()
+    '''returns OMElement\n\n
+    getDocumentElement()\n
     '''
 def setDoDebug():
-    '''public void setDoDebug(final boolean doDebug)
+    '''returns None\n\n
+    setDoDebug(final boolean doDebug)\n
     '''
 def setNamespaceURIInterning():
-    '''public void setNamespaceURIInterning(final boolean b)
+    '''returns None\n\n
+    setNamespaceURIInterning(final boolean b)\n
     '''
 def isNamespaceURIInterning():
-    '''public boolean isNamespaceURIInterning()
+    '''returns boolean\n\n
+    isNamespaceURIInterning()\n
     '''
 def lookahead():
-    '''public boolean lookahead()
+    '''returns boolean\n\n
+    lookahead()\n
     '''
 def isLookahead():
-    '''public boolean isLookahead()
+    '''returns boolean\n\n
+    isLookahead()\n
     '''

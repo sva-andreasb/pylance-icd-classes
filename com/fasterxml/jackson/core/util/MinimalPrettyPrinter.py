@@ -1,40 +1,53 @@
-def MinimalPrettyPrinter():
-    '''public MinimalPrettyPrinter()
-    public MinimalPrettyPrinter(final String rootValueSeparator)
+def ():
+    '''returns MinimalPrettyPrinter\n\n
+    ()\n
+    (final String rootValueSeparator)\n
     '''
 def setRootValueSeparator():
-    '''public void setRootValueSeparator(final String sep)
+    '''returns None\n\n
+    setRootValueSeparator(final String sep)\n
     '''
 def setSeparators():
-    '''public MinimalPrettyPrinter setSeparators(final Separators separators)
+    '''returns MinimalPrettyPrinter\n\n
+    setSeparators(final Separators separators)\n
     '''
 def writeRootValueSeparator():
-    '''public void writeRootValueSeparator(final JsonGenerator g)
+    '''returns None\n\n
+    writeRootValueSeparator(final JsonGenerator g)\n
     '''
 def writeStartObject():
-    '''public void writeStartObject(final JsonGenerator g)
+    '''returns None\n\n
+    writeStartObject(final JsonGenerator g)\n
     '''
 def beforeObjectEntries():
-    '''public void beforeObjectEntries(final JsonGenerator g)
+    '''returns None\n\n
+    beforeObjectEntries(final JsonGenerator g)\n
     '''
 def writeObjectFieldValueSeparator():
-    '''public void writeObjectFieldValueSeparator(final JsonGenerator g)
+    '''returns None\n\n
+    writeObjectFieldValueSeparator(final JsonGenerator g)\n
     '''
 def writeObjectEntrySeparator():
-    '''public void writeObjectEntrySeparator(final JsonGenerator g)
+    '''returns None\n\n
+    writeObjectEntrySeparator(final JsonGenerator g)\n
     '''
 def writeEndObject():
-    '''public void writeEndObject(final JsonGenerator g, final int nrOfEntries)
+    '''returns None\n\n
+    writeEndObject(final JsonGenerator g, final int nrOfEntries)\n
     '''
 def writeStartArray():
-    '''public void writeStartArray(final JsonGenerator g)
+    '''returns None\n\n
+    writeStartArray(final JsonGenerator g)\n
     '''
 def beforeArrayValues():
-    '''public void beforeArrayValues(final JsonGenerator g)
+    '''returns None\n\n
+    beforeArrayValues(final JsonGenerator g)\n
     '''
 def writeArrayValueSeparator():
-    '''public void writeArrayValueSeparator(final JsonGenerator g)
+    '''returns None\n\n
+    writeArrayValueSeparator(final JsonGenerator g)\n
     '''
 def writeEndArray():
-    '''public void writeEndArray(final JsonGenerator g, final int nrOfValues)
+    '''returns None\n\n
+    writeEndArray(final JsonGenerator g, final int nrOfValues)\n
     '''

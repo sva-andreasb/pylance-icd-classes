@@ -1,30 +1,31 @@
-def Pa():
-    '''public Pa(final long n)
-    public Pa(final long size, final boolean dt, final boolean ds)
+def ():
+    '''returns Pa\n\n
+    (final long n)\n
+    (final long size, final boolean dt, final boolean ds)\n
     '''
 def getPosition():
-    '''public long getPosition()
+    '''returns long\n\n
+    getPosition()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def read():
-    '''public int read()
-    public int read(final char[] chars)
-    public int read(final char[] chars, final int offset, final int length)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns int\n\n
+    read()\n
+    read(final char[] chars)\n
+    read(final char[] chars, final int offset, final int length)\n
     '''
 def skip():
-    '''public long skip(final long numberOfChars)
+    '''returns long\n\n
+    skip(final long numberOfChars)\n
     '''

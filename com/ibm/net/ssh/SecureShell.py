@@ -5,27 +5,35 @@ DEFAULT_WIDTH = "int  640"
 DEFAULT_HEIGHT = "int  480"
 DEFAULT_BREAK_LENGTH = "int  500"
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getErrorStream():
-    '''public InputStream getErrorStream()
+    '''returns InputStream\n\n
+    getErrorStream()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getTerminalRowSize():
-    '''public int getTerminalRowSize()
+    '''returns int\n\n
+    getTerminalRowSize()\n
     '''
 def getTerminalColumnSize():
-    '''public int getTerminalColumnSize()
+    '''returns int\n\n
+    getTerminalColumnSize()\n
     '''
 def setTerminalSize():
-    '''public void setTerminalSize(final int rows, final int columns)
+    '''returns None\n\n
+    setTerminalSize(final int rows, final int columns)\n
     '''
 def doBreak():
-    '''public void doBreak()
-    public void doBreak(final int breakLength)
+    '''returns None\n\n
+    doBreak()\n
+    doBreak(final int breakLength)\n
     '''

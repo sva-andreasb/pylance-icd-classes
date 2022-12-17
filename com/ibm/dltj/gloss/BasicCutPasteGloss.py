@@ -5,43 +5,55 @@ DLT_CASE_CONV_CAPITALIZE = "byte  3"
 DLT_FUZZY_CASE_SS_IS_ONE_CHAR = "byte  1"
 DLT_FUZZY_CASE_FIRST_CHAR_ONLY = "byte  2"
 def read():
-    '''public void read(final DataInputStream dataInputStream, int capacity)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, int capacity)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def getLemma():
-    '''public void getLemma(final CharacterIterator characterIterator, final int index, final int n, final StringBuffer sb)
-    public String getLemma(final CharacterIterator characterIterator, final int n, final int n2)
-    public String getLemma(final String text)
+    '''returns String\n\n
+    getLemma(final CharacterIterator characterIterator, final int index, final int n, final StringBuffer sb)\n
+    getLemma(final CharacterIterator characterIterator, final int n, final int n2)\n
+    getLemma(final String text)\n
     '''
 def toString():
-    '''public String toString(final String text)
-    public String toString()
+    '''returns String\n\n
+    toString(final String text)\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final BasicCutPasteGloss basicCutPasteGloss)
+    '''returns int\n\n
+    compareTo(final BasicCutPasteGloss basicCutPasteGloss)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getMinSourceLength():
-    '''public int getMinSourceLength()
+    '''returns int\n\n
+    getMinSourceLength()\n
     '''
 def getConv():
-    '''public byte getConv()
+    '''returns byte\n\n
+    getConv()\n
     '''
 def getCut():
-    '''public short getCut()
+    '''returns short\n\n
+    getCut()\n
     '''
 def getOptions():
-    '''public byte getOptions()
+    '''returns byte\n\n
+    getOptions()\n
     '''
 def process():
-    '''public void process(final CharacterIterator characterIterator, final byte b, final StringBuffer sb)
-    public void process(final CharacterIterator characterIterator, final byte b, final StringBuffer sb)
-    public void process(final CharacterIterator characterIterator, final byte b, final StringBuffer sb)
+    '''returns None\n\n
+    process(final CharacterIterator characterIterator, final byte b, final StringBuffer sb)\n
+    process(final CharacterIterator characterIterator, final byte b, final StringBuffer sb)\n
+    process(final CharacterIterator characterIterator, final byte b, final StringBuffer sb)\n
     '''

@@ -1,13 +1,17 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmChgAddChgToRelAppBean():
-    '''public PmChgAddChgToRelAppBean()
+def ():
+    '''returns PmChgAddChgToRelAppBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def addAnyRelease():
-    '''public int addAnyRelease()
+    '''returns int\n\n
+    addAnyRelease()\n
     '''

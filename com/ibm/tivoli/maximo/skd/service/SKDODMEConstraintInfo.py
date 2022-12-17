@@ -1,3 +1,4 @@
-def SKDODMEConstraintInfo():
-    '''public SKDODMEConstraintInfo(final MboSet ms)
+def ():
+    '''returns SKDODMEConstraintInfo\n\n
+    (final MboSet ms)\n
     '''

@@ -1,6 +1,7 @@
-def TurtleParseException():
-    '''public TurtleParseException()
-    public TurtleParseException(final Throwable cause)
-    public TurtleParseException(final String msg)
-    public TurtleParseException(final String msg, final Throwable cause)
+def ():
+    '''returns TurtleParseException\n\n
+    ()\n
+    (final Throwable cause)\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
     '''

@@ -1,36 +1,48 @@
-def MimeHeaders():
-    '''public MimeHeaders()
-    '''
-def getHeader():
-    '''public String[] getHeader(final String name)
-    '''
-def setHeader():
-    '''public void setHeader(final String name, final String value)
-    '''
-def addHeader():
-    '''public void addHeader(final String name, final String value)
-    '''
-def removeHeader():
-    '''public void removeHeader(final String name)
+def ():
+    '''returns MimeHeaders\n\n
+    ()\n
     '''
 def removeAllHeaders():
-    '''public void removeAllHeaders()
+    '''returns None\n\n
+    removeAllHeaders()\n
+    '''
+def removeHeader():
+    '''returns None\n\n
+    removeHeader(final String anotherString)\n
     '''
 def getAllHeaders():
-    '''public Iterator getAllHeaders()
+    '''returns Iterator\n\n
+    getAllHeaders()\n
+    '''
+def getHeader():
+    '''returns String[]\n\n
+    getHeader(final String anotherString)\n
+    '''
+def addHeader():
+    '''returns None\n\n
+    addHeader(final String anotherString, final String s)\n
+    '''
+def setHeader():
+    '''returns None\n\n
+    setHeader(final String anotherString, final String s)\n
     '''
 def getMatchingHeaders():
-    '''public Iterator getMatchingHeaders(final String[] names)
+    '''returns Iterator\n\n
+    getMatchingHeaders(final String[] array)\n
     '''
 def getNonMatchingHeaders():
-    '''public Iterator getNonMatchingHeaders(final String[] names)
-    '''
-def hasNext():
-    '''public boolean hasNext()
-    '''
-def next():
-    '''public Object next()
+    '''returns Iterator\n\n
+    getNonMatchingHeaders(final String[] array)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
+    '''
+def hasNext():
+    '''returns boolean\n\n
+    hasNext()\n
+    '''
+def next():
+    '''returns Object\n\n
+    next()\n
     '''

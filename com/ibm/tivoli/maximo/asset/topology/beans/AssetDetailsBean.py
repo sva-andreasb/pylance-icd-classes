@@ -1,6 +1,8 @@
 def OnAllAssetDetails():
-    '''public int OnAllAssetDetails()
+    '''returns int\n\n
+    OnAllAssetDetails()\n
     '''
 def markciimpacted():
-    '''public int markciimpacted()
+    '''returns int\n\n
+    markciimpacted()\n
     '''

@@ -1,6 +1,8 @@
-def FldIntMainObject():
-    '''public FldIntMainObject(final MboValue mbv)
+def ():
+    '''returns FldIntMainObject\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

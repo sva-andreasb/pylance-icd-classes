@@ -1,3 +1,4 @@
-def FldLASMeasure():
-    '''public FldLASMeasure(final MboValue mbv)
+def ():
+    '''returns FldLASMeasure\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,14 +1,17 @@
-def JsonGenerationException():
-    '''public JsonGenerationException(final Throwable rootCause)
-    public JsonGenerationException(final String msg)
-    public JsonGenerationException(final String msg, final Throwable rootCause)
-    public JsonGenerationException(final Throwable rootCause, final JsonGenerator g)
-    public JsonGenerationException(final String msg, final JsonGenerator g)
-    public JsonGenerationException(final String msg, final Throwable rootCause, final JsonGenerator g)
+def ():
+    '''returns JsonGenerationException\n\n
+    (final Throwable rootCause)\n
+    (final String msg)\n
+    (final String msg, final Throwable rootCause)\n
+    (final Throwable rootCause, final JsonGenerator g)\n
+    (final String msg, final JsonGenerator g)\n
+    (final String msg, final Throwable rootCause, final JsonGenerator g)\n
     '''
 def withGenerator():
-    '''public JsonGenerationException withGenerator(final JsonGenerator g)
+    '''returns JsonGenerationException\n\n
+    withGenerator(final JsonGenerator g)\n
     '''
 def getProcessor():
-    '''public JsonGenerator getProcessor()
+    '''returns JsonGenerator\n\n
+    getProcessor()\n
     '''

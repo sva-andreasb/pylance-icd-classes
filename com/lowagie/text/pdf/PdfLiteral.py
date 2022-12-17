@@ -1,16 +1,20 @@
-def PdfLiteral():
-    '''public PdfLiteral(final String text)
-    public PdfLiteral(final byte[] b)
-    public PdfLiteral(final int size)
-    public PdfLiteral(final int type, final String text)
-    public PdfLiteral(final int type, final byte[] b)
+def ():
+    '''returns PdfLiteral\n\n
+    (final String text)\n
+    (final byte[] b)\n
+    (final int size)\n
+    (final int type, final String text)\n
+    (final int type, final byte[] b)\n
     '''
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def getPosLength():
-    '''public int getPosLength()
+    '''returns int\n\n
+    getPosLength()\n
     '''

@@ -1,80 +1,68 @@
-def ACfgDatabase():
-    '''public ACfgDatabase()
+def ():
+    '''returns ACfgDatabase\n\n
+    ()\n
     '''
 def dropInstance():
-    '''public TaskResult dropInstance()
+    '''returns TaskResult\n\n
+    dropInstance()\n
     '''
 def dropDatabase():
-    '''public TaskResult dropDatabase()
+    '''returns TaskResult\n\n
+    dropDatabase()\n
     '''
 def dropTemporaryTablespace():
-    '''public TaskResult dropTemporaryTablespace()
+    '''returns TaskResult\n\n
+    dropTemporaryTablespace()\n
     '''
 def dropDataTablespace():
-    '''public TaskResult dropDataTablespace()
+    '''returns TaskResult\n\n
+    dropDataTablespace()\n
     '''
 def dropIndexTablespace():
-    '''public TaskResult dropIndexTablespace()
+    '''returns TaskResult\n\n
+    dropIndexTablespace()\n
     '''
 def dropDatabaseUser():
-    '''public TaskResult dropDatabaseUser()
+    '''returns TaskResult\n\n
+    dropDatabaseUser()\n
     '''
 def getConnection():
-    '''public Connection getConnection(final String userid, final String password, final String dbSchema)
-    public static Connection getConnection(final String jdbcUrl, final String userid, final String password, final String dbSchema)
-    '''
-def getDriverManagerConnection():
-    '''public static Connection getDriverManagerConnection(final String jdbcUrl, final String userid, final String password)
-    public static Connection getDriverManagerConnection(final String jdbcUrl, final String userid, final String password, final String dbSchema)
-    '''
-def registerDriver():
-    '''public static void registerDriver(final String driverName, final String[] driverJars)
+    '''returns Connection\n\n
+    getConnection(final String userid, final String password, final String dbSchema)\n
     '''
 def runConfigurationStep():
-    '''public TaskResult runConfigurationStep()
+    '''returns TaskResult\n\n
+    runConfigurationStep()\n
     '''
 def undoConfiguration():
-    '''public TaskResult undoConfiguration()
+    '''returns TaskResult\n\n
+    undoConfiguration()\n
     '''
 def hasDatabaseSchemaBeenDeployed():
-    '''public TaskResult hasDatabaseSchemaBeenDeployed()
+    '''returns TaskResult\n\n
+    hasDatabaseSchemaBeenDeployed()\n
     '''
 def verifyCompletion():
-    '''public TaskResult verifyCompletion()
+    '''returns TaskResult\n\n
+    verifyCompletion()\n
     '''
 def cronTaskExists():
-    '''public boolean cronTaskExists(final String userName)
+    '''returns boolean\n\n
+    cronTaskExists(final String userName)\n
     '''
 def createCronTask():
-    '''public TaskResult createCronTask(final String userName)
+    '''returns TaskResult\n\n
+    createCronTask(final String userName)\n
     '''
 def handleTextSearch():
-    '''public TaskResult handleTextSearch()
-    '''
-def getMaximoJDBCURL():
-    '''public static String getMaximoJDBCURL(final ReadConfiguration r)
-    public static String getMaximoJDBCURL(final Properties p)
-    public static String getMaximoJDBCURL(final HashMap<String, String> p)
-    '''
-def setMaximoJDBCURL():
-    '''public static String setMaximoJDBCURL(final ReadWriteConfiguration w, final String url)
-    '''
-def userSpecifiedJdbcUrl():
-    '''public static boolean userSpecifiedJdbcUrl(final ReadConfiguration r)
-    public static boolean userSpecifiedJdbcUrl()
-    '''
-def createJdbcUrl():
-    '''public static String createJdbcUrl(final String dbType, final String host, final String port, final String dbname, final String serviceName, final String userSpecifiedJdbcUrl)
-    '''
-def setRestrictivePasswordProperties():
-    '''public static boolean setRestrictivePasswordProperties(final ReadConfiguration configProperties)
+    '''returns TaskResult\n\n
+    handleTextSearch()\n
     '''
 def updateLightningProperties():
-    '''public void updateLightningProperties()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    updateLightningProperties()\n
     '''
 def handleInstallEvent():
-    '''public void handleInstallEvent(final ICmnInstallEvent requestEvent)
+    '''returns None\n\n
+    handleInstallEvent(final ICmnInstallEvent requestEvent)\n
     '''

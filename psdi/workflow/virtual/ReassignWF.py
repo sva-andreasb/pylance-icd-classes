@@ -1,6 +1,8 @@
-def ReassignWF():
-    '''public ReassignWF(final MboSet ms)
+def ():
+    '''returns ReassignWF\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

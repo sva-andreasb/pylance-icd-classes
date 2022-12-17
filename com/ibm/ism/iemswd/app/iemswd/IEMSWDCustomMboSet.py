@@ -1,3 +1,4 @@
-def IEMSWDCustomMboSet():
-    '''public IEMSWDCustomMboSet(final MboServerInterface ms)
+def ():
+    '''returns IEMSWDCustomMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

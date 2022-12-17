@@ -1,28 +1,31 @@
 ELEMENT = "String  \"delay\""
 NAMESPACE = "String  \"urn:xmpp:delay\""
-def DelayInformation():
-    '''public DelayInformation(final Date stamp, final String from, final String reason)
-    public DelayInformation(final Date stamp)
+def ():
+    '''returns DelayInformation\n\n
+    (final Date stamp, final String from, final String reason)\n
+    (final Date stamp)\n
     '''
 def getFrom():
-    '''public String getFrom()
-    public static DelayInformation getFrom(final Stanza packet)
+    '''returns String\n\n
+    getFrom()\n
     '''
 def getStamp():
-    '''public Date getStamp()
+    '''returns Date\n\n
+    getStamp()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static DelayInformation from(final Stanza packet)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

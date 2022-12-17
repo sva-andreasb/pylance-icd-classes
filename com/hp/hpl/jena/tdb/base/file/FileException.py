@@ -1,6 +1,7 @@
-def FileException():
-    '''public FileException()
-    public FileException(final String msg)
-    public FileException(final Throwable th)
-    public FileException(final String msg, final Throwable th)
+def ():
+    '''returns FileException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th)\n
+    (final String msg, final Throwable th)\n
     '''

@@ -1,6 +1,8 @@
-def PlusPFldEstEndDT():
-    '''public PlusPFldEstEndDT(final MboValue arg0)
+def ():
+    '''returns PlusPFldEstEndDT\n\n
+    (final MboValue arg0)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

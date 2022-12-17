@@ -1,149 +1,186 @@
 MAXPRIORITY = "int  999"
-def WOService():
-    '''public WOService()
-    public WOService(final MXServer mxServer)
+def ():
+    '''returns WOService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def calculateWorkPriority():
-    '''public void calculateWorkPriority(final MboRemote forWO, final UserInfo ui)
+    '''returns None\n\n
+    calculateWorkPriority(final MboRemote forWO, final UserInfo ui)\n
     '''
 def calculateResponseDate():
-    '''public void calculateResponseDate(final WO forWO)
+    '''returns None\n\n
+    calculateResponseDate(final WO forWO)\n
     '''
 def getEditSettings():
-    '''public WoEditSettings getEditSettings(final WO forWO)
+    '''returns WoEditSettings\n\n
+    getEditSettings(final WO forWO)\n
     '''
 def getWorkTypeAttribute():
-    '''public boolean getWorkTypeAttribute(final WO forWO, final String attr)
+    '''returns boolean\n\n
+    getWorkTypeAttribute(final WO forWO, final String attr)\n
     '''
 def updateWoForMovedAsset():
-    '''public void updateWoForMovedAsset(final MboRemote movedAsset)
+    '''returns None\n\n
+    updateWoForMovedAsset(final MboRemote movedAsset)\n
     '''
 def initCriteriaList():
-    '''public void initCriteriaList(final Hashtable criteriaTable)
+    '''returns None\n\n
+    initCriteriaList(final Hashtable criteriaTable)\n
     '''
 def tagoutsMustBelongToHazards():
-    '''public boolean tagoutsMustBelongToHazards()
+    '''returns boolean\n\n
+    tagoutsMustBelongToHazards()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("WORKORDER") final WORemote wo, final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("WORKORDER") final WORemote wo, final String status, final Date date, final String memo)\n
     '''
 def getISCalEditSettings():
-    '''public WoEditSettings getISCalEditSettings(final WO wo)
+    '''returns WoEditSettings\n\n
+    getISCalEditSettings(final WO wo)\n
     '''
 def getAssingment():
-    '''public Assignment getAssingment(final String assignmentid, final UserInfo userInfo)
+    '''returns Assignment\n\n
+    getAssingment(final String assignmentid, final UserInfo userInfo)\n
     '''
 def getLaborCode():
-    '''public Labor getLaborCode(final UserInfo userInfo)
+    '''returns Labor\n\n
+    getLaborCode(final UserInfo userInfo)\n
     '''
 def ownership():
-    '''public void ownership(@WSMboKey("WORKORDER") final MboRemote wo)
+    '''returns None\n\n
+    ownership(@WSMboKey("WORKORDER") final MboRemote wo)\n
     '''
 def removeWorkPlan():
-    '''public boolean removeWorkPlan(@WSMboKey("WORKORDER") final MboRemote wo)
+    '''returns boolean\n\n
+    removeWorkPlan(@WSMboKey("WORKORDER") final MboRemote wo)\n
     '''
 def removeSafetyPlan():
-    '''public void removeSafetyPlan(@WSMboKey("WORKORDER") final MboRemote wo)
+    '''returns None\n\n
+    removeSafetyPlan(@WSMboKey("WORKORDER") final MboRemote wo)\n
     '''
 def reportDowntime():
-    '''public void reportDowntime(@WSMboKey("WORKORDER") final MboRemote wo, final Date startDate, final Date endDate, final double hoursDown, final String code, final boolean operational)
+    '''returns None\n\n
+    reportDowntime(@WSMboKey("WORKORDER") final MboRemote wo, final Date startDate, final Date endDate, final double hoursDown, final String code, final boolean operational)\n
     '''
 def startTimer():
-    '''public void startTimer(@WSMboKey("WORKORDER") final MboRemote wo)
+    '''returns None\n\n
+    startTimer(@WSMboKey("WORKORDER") final MboRemote wo)\n
     '''
 def startTimerStartDate():
-    '''public void startTimerStartDate(@WSMboKey("WORKORDER") final MboRemote wo, final Date startDateTime, final Long anywhererefid, final String transtype)
+    '''returns None\n\n
+    startTimerStartDate(@WSMboKey("WORKORDER") final MboRemote wo, final Date startDateTime, final Long anywhererefid, final String transtype)\n
     '''
 def stopTimer():
-    '''public void stopTimer(@WSMboKey("WORKORDER") final MboRemote wo)
+    '''returns None\n\n
+    stopTimer(@WSMboKey("WORKORDER") final MboRemote wo)\n
     '''
 def stopTimerStartFinishDates():
-    '''public void stopTimerStartFinishDates(@WSMboKey("WORKORDER") final MboRemote wo, final Date finishDateTime, final Date startDateTime, final Boolean noStopTimerPopup)
+    '''returns None\n\n
+    stopTimerStartFinishDates(@WSMboKey("WORKORDER") final MboRemote wo, final Date finishDateTime, final Date startDateTime, final Boolean noStopTimerPopup)\n
     '''
 def createFollowUp():
-    '''public MboRemote createFollowUp(@WSMboKey("WORKORDER") final MboRemote wo)
+    '''returns MboRemote\n\n
+    createFollowUp(@WSMboKey("WORKORDER") final MboRemote wo)\n
     '''
 def createChange():
-    '''public MboRemote createChange(@WSMboKey("WORKORDER") final MboRemote wo)
+    '''returns MboRemote\n\n
+    createChange(@WSMboKey("WORKORDER") final MboRemote wo)\n
     '''
 def getQuickReportingWO():
-    '''public MboRemote getQuickReportingWO(final UserInfo userInfo)
+    '''returns MboRemote\n\n
+    getQuickReportingWO(final UserInfo userInfo)\n
     '''
 def createProblem():
-    '''public MboRemote createProblem(@WSMboKey("WORKORDER") final MboRemote wo)
+    '''returns MboRemote\n\n
+    createProblem(@WSMboKey("WORKORDER") final MboRemote wo)\n
     '''
 def createJPFromWO():
-    '''public MboRemote createJPFromWO(@WSMboKey("WORKORDER") final MboRemote wo, String jpnum, final String description, final String longdescription)
+    '''returns MboRemote\n\n
+    createJPFromWO(@WSMboKey("WORKORDER") final MboRemote wo, String jpnum, final String description, final String longdescription)\n
     '''
 def getParentsInChangeStatus():
-    '''public Vector getParentsInChangeStatus()
+    '''returns Vector\n\n
+    getParentsInChangeStatus()\n
     '''
 def clearParentsInChangeStatus():
-    '''public void clearParentsInChangeStatus()
+    '''returns None\n\n
+    clearParentsInChangeStatus()\n
     '''
 def assignLabor():
-    '''public void assignLabor(@WSMboKey("ASSIGNMENT") final MboRemote assignment, final String laborcode, final String orgid)
+    '''returns None\n\n
+    assignLabor(@WSMboKey("ASSIGNMENT") final MboRemote assignment, final String laborcode, final String orgid)\n
     '''
 def startAssignment():
-    '''public void startAssignment(@WSMboKey("ASSIGNMENT") final MboRemote assignment)
+    '''returns None\n\n
+    startAssignment(@WSMboKey("ASSIGNMENT") final MboRemote assignment)\n
     '''
 def interruptAssignment():
-    '''public void interruptAssignment(@WSMboKey("ASSIGNMENT") final MboRemote assignment)
+    '''returns None\n\n
+    interruptAssignment(@WSMboKey("ASSIGNMENT") final MboRemote assignment)\n
     '''
 def finishAssignment():
-    '''public void finishAssignment(@WSMboKey("ASSIGNMENT") final MboRemote assignment)
+    '''returns None\n\n
+    finishAssignment(@WSMboKey("ASSIGNMENT") final MboRemote assignment)\n
     '''
 def getLaborCraftRateSet():
-    '''public MboSetRemote getLaborCraftRateSet(final MboRemote assignment)
+    '''returns MboSetRemote\n\n
+    getLaborCraftRateSet(final MboRemote assignment)\n
     '''
 def createAssignmentwithAssignedLabor():
-    '''public void createAssignmentwithAssignedLabor(@WSMboKey("WORKORDER") final MboRemote workorder, final String laborcode, final String orgid, final String laborhrs, final Date starttime)
+    '''returns None\n\n
+    createAssignmentwithAssignedLabor(@WSMboKey("WORKORDER") final MboRemote workorder, final String laborcode, final String orgid, final String laborhrs, final Date starttime)\n
     '''
 def getAvailableLabor():
-    '''public MboSetRemote getAvailableLabor(@WSMboKey("WORKORDER") final MboRemote wo, final Date fromdate, final Date todate, final String vendor, final String contractnum, final String location, final Boolean assigned, final String siteid, final String craft, final String skilllevel, final String orgid)
+    '''returns MboSetRemote\n\n
+    getAvailableLabor(@WSMboKey("WORKORDER") final MboRemote wo, final Date fromdate, final Date todate, final String vendor, final String contractnum, final String location, final Boolean assigned, final String siteid, final String craft, final String skilllevel, final String orgid)\n
     '''
 def applyOwner():
-    '''public void applyOwner(@WSMboKey("WORKORDER") final MboRemote wo, final String owner)
+    '''returns None\n\n
+    applyOwner(@WSMboKey("WORKORDER") final MboRemote wo, final String owner)\n
     '''
 def applyOwnerGroup():
-    '''public void applyOwnerGroup(@WSMboKey("WORKORDER") final MboRemote wo, final String ownergroup)
+    '''returns None\n\n
+    applyOwnerGroup(@WSMboKey("WORKORDER") final MboRemote wo, final String ownergroup)\n
     '''
 def getWorkLog():
-    '''public MboSetRemote getWorkLog(@WSMboKey("WORKORDER") final MboRemote wo, Boolean viewSR)
+    '''returns MboSetRemote\n\n
+    getWorkLog(@WSMboKey("WORKORDER") final MboRemote wo, Boolean viewSR)\n
     '''
 def generateWORelRecord():
-    '''public void generateWORelRecord(@WSMboKey("WORKORDER") final MboRemote wo, final String wonum, final String siteId)
+    '''returns None\n\n
+    generateWORelRecord(@WSMboKey("WORKORDER") final MboRemote wo, final String wonum, final String siteId)\n
     '''
 def downtimereport():
-    '''public MboRemote downtimereport(@WSMboKey("WORKORDER") final MboRemote wo, final Date statuschangedate, final String statuschangecode, final String operational)
-    '''
-def checkEAcfg():
-    '''public Map<String, Object> checkEAcfg()
-    '''
-def getEAToken():
-    '''public Map<String, Object> getEAToken()
+    '''returns MboRemote\n\n
+    downtimereport(@WSMboKey("WORKORDER") final MboRemote wo, final Date statuschangedate, final String statuschangecode, final String operational)\n
     '''
 def getJobPlans():
-    '''public MboSetRemote getJobPlans(@WSMboKey("WORKORDER") final WORemote wo, final Boolean jpincludeclassless, final Boolean jpassets)
+    '''returns MboSetRemote\n\n
+    getJobPlans(@WSMboKey("WORKORDER") final WORemote wo, final Boolean jpincludeclassless, final Boolean jpassets)\n
     '''
 def changeWOStatus():
-    '''public void changeWOStatus(@WSMboKey("WORKORDER") final WORemote wo, final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeWOStatus(@WSMboKey("WORKORDER") final WORemote wo, final String status, final Date date, final String memo)\n
     '''
 def completeAssignment():
-    '''public void completeAssignment(@WSMboKey("ASSIGNMENT") final MboRemote assignment)
+    '''returns None\n\n
+    completeAssignment(@WSMboKey("ASSIGNMENT") final MboRemote assignment)\n
     '''
 def getAvailableCrew():
-    '''public MboSetRemote getAvailableCrew(@WSMboKey("WORKORDER") final MboRemote wo, final Date fromdate, final Date todate, final String persongroup, final String amcrewtype, final String company, final Boolean assigned, final String siteid, final String orgid)
-    '''
-def getAssistUri():
-    '''public Map<String, Object> getAssistUri(final OslcRequest request)
+    '''returns MboSetRemote\n\n
+    getAvailableCrew(@WSMboKey("WORKORDER") final MboRemote wo, final Date fromdate, final Date todate, final String persongroup, final String amcrewtype, final String company, final Boolean assigned, final String siteid, final String orgid)\n
     '''

@@ -1,12 +1,12 @@
-def SKDNewWorkPkgBean():
-    '''public SKDNewWorkPkgBean()
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(final String option)
+def ():
+    '''returns SKDNewWorkPkgBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

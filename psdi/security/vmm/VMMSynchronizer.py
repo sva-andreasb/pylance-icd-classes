@@ -1,33 +1,43 @@
 USER_SEARCH_PAGE_SIZE = "int  100"
 GROUP_SEARCH_PAGE_SIZE = "int  50"
 CHECKPOINT = "String  \"CheckPoint\""
-def VMMSynchronizer():
-    '''public VMMSynchronizer()
+def ():
+    '''returns VMMSynchronizer\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final VMMSynchronizerInitData initData)
+    '''returns None\n\n
+    init(final VMMSynchronizerInitData initData)\n
     '''
 def getSyncParameters():
-    '''public VMMSyncParameters getSyncParameters()
+    '''returns VMMSyncParameters\n\n
+    getSyncParameters()\n
     '''
 def getSynchronizerSettings():
-    '''public VMMSynchronizerSettings getSynchronizerSettings()
+    '''returns VMMSynchronizerSettings\n\n
+    getSynchronizerSettings()\n
     '''
 def performSync():
-    '''public void performSync(final Connection con, final VMMSyncParameters syncParams, final UserInfo userInfo)
+    '''returns None\n\n
+    performSync(final Connection con, final VMMSyncParameters syncParams, final UserInfo userInfo)\n
     '''
 def setOwner():
-    '''public void setOwner(final VMMSyncTask val)
+    '''returns None\n\n
+    setOwner(final VMMSyncTask val)\n
     '''
 def isFullSyncNeeded():
-    '''public boolean isFullSyncNeeded()
+    '''returns boolean\n\n
+    isFullSyncNeeded()\n
     '''
 def isSyncNeeded():
-    '''public boolean isSyncNeeded()
+    '''returns boolean\n\n
+    isSyncNeeded()\n
     '''
 def setVMMSyncListener():
-    '''public void setVMMSyncListener(final VMMSyncListener vmmSyncListener)
+    '''returns None\n\n
+    setVMMSyncListener(final VMMSyncListener vmmSyncListener)\n
     '''
 def getVMMSyncListener():
-    '''public VMMSyncListener getVMMSyncListener()
+    '''returns VMMSyncListener\n\n
+    getVMMSyncListener()\n
     '''

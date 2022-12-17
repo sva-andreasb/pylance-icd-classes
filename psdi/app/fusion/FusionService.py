@@ -1,4 +1,5 @@
-def FusionService():
-    '''public FusionService()
-    public FusionService(final MXServer mxServer)
+def ():
+    '''returns FusionService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

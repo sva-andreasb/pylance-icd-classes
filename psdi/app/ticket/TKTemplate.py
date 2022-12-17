@@ -1,42 +1,56 @@
-def TKTemplate():
-    '''public TKTemplate(final MboSet ms)
+def ():
+    '''returns TKTemplate\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
     '''
 def generateWO():
-    '''public void generateWO(final String ticketid, final String ticketclass, final MboRemote tk)
+    '''returns None\n\n
+    generateWO(final String ticketid, final String ticketclass, final MboRemote tk)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def setHierarchyPath():
-    '''public void setHierarchyPath(final MboValue val)
+    '''returns None\n\n
+    setHierarchyPath(final MboValue val)\n
     '''
 def getHierarchyPath():
-    '''public MboValue getHierarchyPath()
+    '''returns MboValue\n\n
+    getHierarchyPath()\n
     '''
 def doClassificationCreate():
-    '''public void doClassificationCreate(final MboRemote newMbo, final MboRemote sourceMbo, final String keyAttribute)
+    '''returns None\n\n
+    doClassificationCreate(final MboRemote newMbo, final MboRemote sourceMbo, final String keyAttribute)\n
     '''
 def setByPassSortOrderValidation():
-    '''public void setByPassSortOrderValidation(final Boolean byPassSortOrderValidation)
+    '''returns None\n\n
+    setByPassSortOrderValidation(final Boolean byPassSortOrderValidation)\n
     '''

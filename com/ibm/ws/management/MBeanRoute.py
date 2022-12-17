@@ -1,12 +1,15 @@
 UNREACHABLE_ROUTE = "int  0"
 DEFAULT_ROUTE = "int  1"
-def MBeanRoute():
-    '''public MBeanRoute()
-    public MBeanRoute(final ObjectName newObjName)
+def ():
+    '''returns MBeanRoute\n\n
+    ()\n
+    (final ObjectName newObjName)\n
     '''
 def getObjectName():
-    '''public ObjectName getObjectName()
+    '''returns ObjectName\n\n
+    getObjectName()\n
     '''
 def getRouteType():
-    '''public int getRouteType()
+    '''returns int\n\n
+    getRouteType()\n
     '''

@@ -1,3 +1,4 @@
-def PrecedenceQueryNodeProcessorPipeline():
-    '''public PrecedenceQueryNodeProcessorPipeline(final QueryConfigHandler queryConfig)
+def ():
+    '''returns PrecedenceQueryNodeProcessorPipeline\n\n
+    (final QueryConfigHandler queryConfig)\n
     '''

@@ -1,4 +1,5 @@
-def CompareParameterException():
-    '''public CompareParameterException()
-    public CompareParameterException(final String message)
+def ():
+    '''returns CompareParameterException\n\n
+    ()\n
+    (final String message)\n
     '''

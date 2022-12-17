@@ -1,9 +1,12 @@
-def SlotCompiler1():
-    '''public SlotCompiler1(final SDBRequest request, final EncoderDecoder codec)
+def ():
+    '''returns SlotCompiler1\n\n
+    (final SDBRequest request, final EncoderDecoder codec)\n
     '''
 def start():
-    '''public SqlNode start(final QuadBlock quads)
+    '''returns SqlNode\n\n
+    start(final QuadBlock quads)\n
     '''
 def finish():
-    '''public SqlNode finish(final SqlNode sqlNode, final QuadBlock quads)
+    '''returns SqlNode\n\n
+    finish(final SqlNode sqlNode, final QuadBlock quads)\n
     '''

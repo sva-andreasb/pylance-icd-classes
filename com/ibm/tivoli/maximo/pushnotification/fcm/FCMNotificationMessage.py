@@ -1,36 +1,47 @@
-def FCMNotificationMessage():
-    '''public FCMNotificationMessage(final NotificationMessage notificationMessage)
+def ():
+    '''returns FCMNotificationMessage\n\n
+    (final NotificationMessage notificationMessage)\n
     '''
 def setNotificationObject():
-    '''public void setNotificationObject(final String title)
-    public void setNotificationObject(final String title, final String body)
-    public void setNotificationObject(final String title, final String body, final String image)
+    '''returns None\n\n
+    setNotificationObject(final String title)\n
+    setNotificationObject(final String title, final String body)\n
+    setNotificationObject(final String title, final String body, final String image)\n
     '''
 def setToken():
-    '''public void setToken(final String token)
-    public void setToken()
+    '''returns None\n\n
+    setToken(final String token)\n
+    setToken()\n
     '''
 def setTitle():
-    '''public void setTitle()
+    '''returns None\n\n
+    setTitle()\n
     '''
 def setBody():
-    '''public void setBody()
+    '''returns None\n\n
+    setBody()\n
     '''
 def setSound():
-    '''public void setSound()
+    '''returns None\n\n
+    setSound()\n
     '''
 def setimage():
-    '''public void setimage()
+    '''returns None\n\n
+    setimage()\n
     '''
 def getMessageObject():
-    '''public JSONObject getMessageObject()
+    '''returns JSONObject\n\n
+    getMessageObject()\n
     '''
 def getDataObject():
-    '''public JSONObject getDataObject()
+    '''returns JSONObject\n\n
+    getDataObject()\n
     '''
 def getAndroidConfig():
-    '''public JSONObject getAndroidConfig()
+    '''returns JSONObject\n\n
+    getAndroidConfig()\n
     '''
 def getApnsObject():
-    '''public JSONObject getApnsObject()
+    '''returns JSONObject\n\n
+    getApnsObject()\n
     '''

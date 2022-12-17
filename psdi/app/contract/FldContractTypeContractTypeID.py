@@ -1,6 +1,8 @@
-def FldContractTypeContractTypeID():
-    '''public FldContractTypeContractTypeID(final MboValue mbv)
+def ():
+    '''returns FldContractTypeContractTypeID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

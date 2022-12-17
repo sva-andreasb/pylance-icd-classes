@@ -1,14 +1,18 @@
 DONE = "char  '\uffff'"
-def ComposedCharIter():
-    '''public ComposedCharIter()
-    public ComposedCharIter(final boolean compat, final int options)
+def ():
+    '''returns ComposedCharIter\n\n
+    ()\n
+    (final boolean compat, final int options)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public char next()
+    '''returns char\n\n
+    next()\n
     '''
 def decomposition():
-    '''public String decomposition()
+    '''returns String\n\n
+    decomposition()\n
     '''

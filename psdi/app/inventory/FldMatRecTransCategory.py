@@ -1,6 +1,8 @@
-def FldMatRecTransCategory():
-    '''public FldMatRecTransCategory(final MboValue mbv)
+def ():
+    '''returns FldMatRecTransCategory\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

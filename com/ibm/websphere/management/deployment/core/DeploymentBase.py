@@ -1,16 +1,21 @@
-def DeploymentBase():
-    '''public DeploymentBase()
-    public DeploymentBase(final String name, final DeploymentContext ctx)
+def ():
+    '''returns DeploymentBase\n\n
+    ()\n
+    (final String name, final DeploymentContext ctx)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setContext():
-    '''public void setContext(final DeploymentContext ctx)
+    '''returns None\n\n
+    setContext(final DeploymentContext ctx)\n
     '''
 def getContext():
-    '''public DeploymentContext getContext()
+    '''returns DeploymentContext\n\n
+    getContext()\n
     '''

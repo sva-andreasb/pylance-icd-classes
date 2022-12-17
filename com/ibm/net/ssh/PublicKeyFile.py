@@ -1,113 +1,150 @@
-def PublicKeyFile():
-    '''public PublicKeyFile()
-    public PublicKeyFile(final PublicKey publicKey)
-    public PublicKeyFile(final String filename)
+def ():
+    '''returns PublicKeyFile\n\n
+    ()\n
+    (final PublicKey publicKey)\n
+    (final String filename)\n
     '''
 def getPublicKey():
-    '''public PublicKey getPublicKey()
+    '''returns PublicKey\n\n
+    getPublicKey()\n
     '''
 def setPublicKey():
-    '''public void setPublicKey(final PublicKey publicKey)
+    '''returns None\n\n
+    setPublicKey(final PublicKey publicKey)\n
     '''
 def getCharsetName():
-    '''public String getCharsetName()
+    '''returns String\n\n
+    getCharsetName()\n
     '''
 def setCharsetName():
-    '''public void setCharsetName(final String charsetName)
+    '''returns None\n\n
+    setCharsetName(final String charsetName)\n
     '''
 def getSubject():
-    '''public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
     '''
 def getComment():
-    '''public String getComment()
+    '''returns String\n\n
+    getComment()\n
     '''
 def setComment():
-    '''public void setComment(final String comment)
+    '''returns None\n\n
+    setComment(final String comment)\n
     '''
 def getCommentLanguage():
-    '''public String getCommentLanguage()
+    '''returns String\n\n
+    getCommentLanguage()\n
     '''
 def setCommentLanguage():
-    '''public void setCommentLanguage(final String commentLanguage)
+    '''returns None\n\n
+    setCommentLanguage(final String commentLanguage)\n
     '''
 def getCommandOverride():
-    '''public String getCommandOverride()
+    '''returns String\n\n
+    getCommandOverride()\n
     '''
 def setCommandOverride():
-    '''public void setCommandOverride(final String commandOverride)
+    '''returns None\n\n
+    setCommandOverride(final String commandOverride)\n
     '''
 def getSubsystems():
-    '''public String[] getSubsystems()
+    '''returns String[]\n\n
+    getSubsystems()\n
     '''
 def setSubsystems():
-    '''public void setSubsystems(final String[] subsystems)
+    '''returns None\n\n
+    setSubsystems(final String[] subsystems)\n
     '''
 def isX11Allowed():
-    '''public boolean isX11Allowed()
+    '''returns boolean\n\n
+    isX11Allowed()\n
     '''
 def setX11Allowed():
-    '''public void setX11Allowed(final boolean isX11Allowed)
+    '''returns None\n\n
+    setX11Allowed(final boolean isX11Allowed)\n
     '''
 def isShellAllowed():
-    '''public boolean isShellAllowed()
+    '''returns boolean\n\n
+    isShellAllowed()\n
     '''
 def setShellAllowed():
-    '''public void setShellAllowed(final boolean isShellAllowed)
+    '''returns None\n\n
+    setShellAllowed(final boolean isShellAllowed)\n
     '''
 def isExecAllowed():
-    '''public boolean isExecAllowed()
+    '''returns boolean\n\n
+    isExecAllowed()\n
     '''
 def setExecAllowed():
-    '''public void setExecAllowed(final boolean isExecAllowed)
+    '''returns None\n\n
+    setExecAllowed(final boolean isExecAllowed)\n
     '''
 def isAgentAllowed():
-    '''public boolean isAgentAllowed()
+    '''returns boolean\n\n
+    isAgentAllowed()\n
     '''
 def setAgentAllowed():
-    '''public void setAgentAllowed(final boolean isAgentAllowed)
+    '''returns None\n\n
+    setAgentAllowed(final boolean isAgentAllowed)\n
     '''
 def isEnvAllowed():
-    '''public boolean isEnvAllowed()
+    '''returns boolean\n\n
+    isEnvAllowed()\n
     '''
 def setEnvAllowed():
-    '''public void setEnvAllowed(final boolean isEnvAllowed)
+    '''returns None\n\n
+    setEnvAllowed(final boolean isEnvAllowed)\n
     '''
 def getEnvVariables():
-    '''public String[] getEnvVariables()
+    '''returns String[]\n\n
+    getEnvVariables()\n
     '''
 def setEnvVariables():
-    '''public void setEnvVariables(final String[] envVariables)
+    '''returns None\n\n
+    setEnvVariables(final String[] envVariables)\n
     '''
 def getAllowedHosts():
-    '''public String[] getAllowedHosts()
+    '''returns String[]\n\n
+    getAllowedHosts()\n
     '''
 def setAllowedHosts():
-    '''public void setAllowedHosts(final String[] allowedHosts)
+    '''returns None\n\n
+    setAllowedHosts(final String[] allowedHosts)\n
     '''
 def isPortForwardAllowed():
-    '''public boolean isPortForwardAllowed()
+    '''returns boolean\n\n
+    isPortForwardAllowed()\n
     '''
 def setPortForwardAllowed():
-    '''public void setPortForwardAllowed(final boolean isPortForwardAllowed)
+    '''returns None\n\n
+    setPortForwardAllowed(final boolean isPortForwardAllowed)\n
     '''
 def getPortForwardHosts():
-    '''public String[] getPortForwardHosts()
+    '''returns String[]\n\n
+    getPortForwardHosts()\n
     '''
 def setPortForwardHosts():
-    '''public void setPortForwardHosts(final String[] portForwardHosts)
+    '''returns None\n\n
+    setPortForwardHosts(final String[] portForwardHosts)\n
     '''
 def getReverseForwardPorts():
-    '''public String[] getReverseForwardPorts()
+    '''returns String[]\n\n
+    getReverseForwardPorts()\n
     '''
 def setReverseForwardPorts():
-    '''public void setReverseForwardPorts(final String[] reverseForwardPorts)
+    '''returns None\n\n
+    setReverseForwardPorts(final String[] reverseForwardPorts)\n
     '''
 def load():
-    '''public void load(final String filename)
+    '''returns None\n\n
+    load(final String filename)\n
     '''
 def getOpenSSHPublicKeyString():
-    '''public String getOpenSSHPublicKeyString()
+    '''returns String\n\n
+    getOpenSSHPublicKeyString()\n
     '''
 def store():
-    '''public boolean store(final String filename)
+    '''returns boolean\n\n
+    store(final String filename)\n
     '''

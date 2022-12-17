@@ -1,3 +1,4 @@
-def MaxViewSet():
-    '''public MaxViewSet(final MboServerInterface ms)
+def ():
+    '''returns MaxViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

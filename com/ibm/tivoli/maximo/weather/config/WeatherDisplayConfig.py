@@ -1,129 +1,168 @@
-def WeatherDisplayConfig():
-    '''public WeatherDisplayConfig()
-    '''
-def getInt():
-    '''public static int getInt(final String key, final int defVal)
+def ():
+    '''returns WeatherDisplayConfig\n\n
+    ()\n
     '''
 def getSpacePadding():
-    '''public int getSpacePadding()
+    '''returns int\n\n
+    getSpacePadding()\n
     '''
 def setSpacePadding():
-    '''public void setSpacePadding(final int spacePadding)
+    '''returns None\n\n
+    setSpacePadding(final int spacePadding)\n
     '''
 def getLargeFont():
-    '''public int getLargeFont()
+    '''returns int\n\n
+    getLargeFont()\n
     '''
 def setLargeFont():
-    '''public void setLargeFont(final int largeFont)
+    '''returns None\n\n
+    setLargeFont(final int largeFont)\n
     '''
 def getMedFont():
-    '''public int getMedFont()
+    '''returns int\n\n
+    getMedFont()\n
     '''
 def setMedFont():
-    '''public void setMedFont(final int medFont)
+    '''returns None\n\n
+    setMedFont(final int medFont)\n
     '''
 def getLargeImage():
-    '''public int getLargeImage()
+    '''returns int\n\n
+    getLargeImage()\n
     '''
 def setLargeImage():
-    '''public void setLargeImage(final int largeImage)
+    '''returns None\n\n
+    setLargeImage(final int largeImage)\n
     '''
 def getMedImage():
-    '''public int getMedImage()
+    '''returns int\n\n
+    getMedImage()\n
     '''
 def setMedImage():
-    '''public void setMedImage(final int medImage)
+    '''returns None\n\n
+    setMedImage(final int medImage)\n
     '''
 def getSmallImage():
-    '''public int getSmallImage()
+    '''returns int\n\n
+    getSmallImage()\n
     '''
 def setSmallImage():
-    '''public void setSmallImage(final int smallImage)
+    '''returns None\n\n
+    setSmallImage(final int smallImage)\n
     '''
 def getXsmallImage():
-    '''public int getXsmallImage()
+    '''returns int\n\n
+    getXsmallImage()\n
     '''
 def setXsmallImage():
-    '''public void setXsmallImage(final int xsmallImage)
+    '''returns None\n\n
+    setXsmallImage(final int xsmallImage)\n
     '''
 def getButtonBarHeight():
-    '''public int getButtonBarHeight()
+    '''returns int\n\n
+    getButtonBarHeight()\n
     '''
 def setButtonBarHeight():
-    '''public void setButtonBarHeight(final int buttonBarHeight)
+    '''returns None\n\n
+    setButtonBarHeight(final int buttonBarHeight)\n
     '''
 def getHeaderHeight():
-    '''public int getHeaderHeight()
+    '''returns int\n\n
+    getHeaderHeight()\n
     '''
 def setHeaderHeight():
-    '''public void setHeaderHeight(final int headerHeight)
+    '''returns None\n\n
+    setHeaderHeight(final int headerHeight)\n
     '''
 def getCurrentContentHeight():
-    '''public int getCurrentContentHeight()
+    '''returns int\n\n
+    getCurrentContentHeight()\n
     '''
 def getCurrentContentWidth():
-    '''public int getCurrentContentWidth()
+    '''returns int\n\n
+    getCurrentContentWidth()\n
     '''
 def getDailyContentHeight():
-    '''public int getDailyContentHeight()
+    '''returns int\n\n
+    getDailyContentHeight()\n
     '''
 def getDailyContentWidth():
-    '''public int getDailyContentWidth()
+    '''returns int\n\n
+    getDailyContentWidth()\n
     '''
 def getHourlyContentHeight():
-    '''public int getHourlyContentHeight()
+    '''returns int\n\n
+    getHourlyContentHeight()\n
     '''
 def getHourlyContentWidth():
-    '''public int getHourlyContentWidth()
+    '''returns int\n\n
+    getHourlyContentWidth()\n
     '''
 def getCurrentPanelWidth():
-    '''public int getCurrentPanelWidth()
+    '''returns int\n\n
+    getCurrentPanelWidth()\n
     '''
 def setCurrentPanelWidth():
-    '''public void setCurrentPanelWidth(final int currentPanelWidth)
+    '''returns None\n\n
+    setCurrentPanelWidth(final int currentPanelWidth)\n
     '''
 def getCurrentPanelHeight():
-    '''public int getCurrentPanelHeight()
+    '''returns int\n\n
+    getCurrentPanelHeight()\n
     '''
 def setCurrentPanelHeight():
-    '''public void setCurrentPanelHeight(final int currentPanelHeight)
+    '''returns None\n\n
+    setCurrentPanelHeight(final int currentPanelHeight)\n
     '''
 def getDailyPanelWidth():
-    '''public int getDailyPanelWidth()
+    '''returns int\n\n
+    getDailyPanelWidth()\n
     '''
 def setDailyPanelWidth():
-    '''public void setDailyPanelWidth(final int dailyPanelWidth)
+    '''returns None\n\n
+    setDailyPanelWidth(final int dailyPanelWidth)\n
     '''
 def getDailyPanelHeight():
-    '''public int getDailyPanelHeight()
+    '''returns int\n\n
+    getDailyPanelHeight()\n
     '''
 def setDailyPanelHeight():
-    '''public void setDailyPanelHeight(final int dailyPanelHeight)
+    '''returns None\n\n
+    setDailyPanelHeight(final int dailyPanelHeight)\n
     '''
 def getDailyNumPanels():
-    '''public int getDailyNumPanels()
+    '''returns int\n\n
+    getDailyNumPanels()\n
     '''
 def setDailyNumPanels():
-    '''public void setDailyNumPanels(final int dailyNumPanels)
+    '''returns None\n\n
+    setDailyNumPanels(final int dailyNumPanels)\n
     '''
 def getHourlyPanelWidth():
-    '''public int getHourlyPanelWidth()
+    '''returns int\n\n
+    getHourlyPanelWidth()\n
     '''
 def setHourlyPanelWidth():
-    '''public void setHourlyPanelWidth(final int hourlyPanelWidth)
+    '''returns None\n\n
+    setHourlyPanelWidth(final int hourlyPanelWidth)\n
     '''
 def getHourlyPanelHeight():
-    '''public int getHourlyPanelHeight()
+    '''returns int\n\n
+    getHourlyPanelHeight()\n
     '''
 def setHourlyPanelHeight():
-    '''public void setHourlyPanelHeight(final int hourlyPanelHeight)
+    '''returns None\n\n
+    setHourlyPanelHeight(final int hourlyPanelHeight)\n
     '''
 def getHourlyNumPanels():
-    '''public int getHourlyNumPanels()
+    '''returns int\n\n
+    getHourlyNumPanels()\n
     '''
 def setHourlyNumPanels():
-    '''public void setHourlyNumPanels(final int hourlyNumPanels)
+    '''returns None\n\n
+    setHourlyNumPanels(final int hourlyNumPanels)\n
     '''
 def getMaxHeight():
-    '''public int getMaxHeight()
+    '''returns int\n\n
+    getMaxHeight()\n
     '''

@@ -1,9 +1,12 @@
-def LinkValidatorMetaLoader():
-    '''public LinkValidatorMetaLoader(final ReconInfo reconInfo)
+def ():
+    '''returns LinkValidatorMetaLoader\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def buildExpression():
-    '''public ReconLinkExpression buildExpression(final MboRemote linkRule)
+    '''returns ReconLinkExpression\n\n
+    buildExpression(final MboRemote linkRule)\n
     '''
 def getReconTaskName():
-    '''public String getReconTaskName()
+    '''returns String\n\n
+    getReconTaskName()\n
     '''

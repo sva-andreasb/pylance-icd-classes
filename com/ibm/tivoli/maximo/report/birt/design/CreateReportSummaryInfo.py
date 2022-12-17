@@ -1,36 +1,48 @@
-def CreateReportSummaryInfo():
-    '''public CreateReportSummaryInfo()
+def ():
+    '''returns CreateReportSummaryInfo\n\n
+    ()\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def setOrder():
-    '''public void setOrder(final int order)
+    '''returns None\n\n
+    setOrder(final int order)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getDataType():
-    '''public String getDataType()
+    '''returns String\n\n
+    getDataType()\n
     '''
 def setDataType():
-    '''public void setDataType(final String dataType)
+    '''returns None\n\n
+    setDataType(final String dataType)\n
     '''
 def getFunction():
-    '''public String getFunction()
+    '''returns String\n\n
+    getFunction()\n
     '''
 def setFunction():
-    '''public void setFunction(final String function)
+    '''returns None\n\n
+    setFunction(final String function)\n
     '''
 def getColumnBindingName():
-    '''public String getColumnBindingName()
+    '''returns String\n\n
+    getColumnBindingName()\n
     '''
 def setColumnBindingName():
-    '''public void setColumnBindingName(final String columnBindingName)
+    '''returns None\n\n
+    setColumnBindingName(final String columnBindingName)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

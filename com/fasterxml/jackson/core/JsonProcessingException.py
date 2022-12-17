@@ -1,18 +1,24 @@
 def getLocation():
-    '''public JsonLocation getLocation()
+    '''returns JsonLocation\n\n
+    getLocation()\n
     '''
 def clearLocation():
-    '''public void clearLocation()
+    '''returns None\n\n
+    clearLocation()\n
     '''
 def getOriginalMessage():
-    '''public String getOriginalMessage()
+    '''returns String\n\n
+    getOriginalMessage()\n
     '''
 def getProcessor():
-    '''public Object getProcessor()
+    '''returns Object\n\n
+    getProcessor()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

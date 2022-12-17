@@ -1,6 +1,8 @@
-def TKChangeStatusSet():
-    '''public TKChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns TKChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute(final MboRemote mbo)
+    '''returns None\n\n
+    execute(final MboRemote mbo)\n
     '''

@@ -1,3 +1,4 @@
-def CCIRelationRulesSet():
-    '''public CCIRelationRulesSet(final MboServerInterface ms)
+def ():
+    '''returns CCIRelationRulesSet\n\n
+    (final MboServerInterface ms)\n
     '''

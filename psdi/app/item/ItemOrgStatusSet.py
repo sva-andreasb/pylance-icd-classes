@@ -1,9 +1,12 @@
-def ItemOrgStatusSet():
-    '''public ItemOrgStatusSet(final MboServerInterface ms)
+def ():
+    '''returns ItemOrgStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

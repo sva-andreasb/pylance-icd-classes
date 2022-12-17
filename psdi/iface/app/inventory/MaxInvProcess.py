@@ -1,9 +1,12 @@
-def MaxInvProcess():
-    '''public MaxInvProcess()
+def ():
+    '''returns MaxInvProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''

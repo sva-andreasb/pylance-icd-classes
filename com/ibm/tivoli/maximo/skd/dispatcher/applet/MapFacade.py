@@ -1,45 +1,60 @@
-def MapFacade():
-    '''public MapFacade(final FWMActionsFacade actions)
+def ():
+    '''returns MapFacade\n\n
+    (final FWMActionsFacade actions)\n
     '''
 def compare():
-    '''public int compare(final JSONObject o1, final JSONObject o2)
+    '''returns int\n\n
+    compare(final JSONObject o1, final JSONObject o2)\n
     '''
 def onRouteError():
-    '''public void onRouteError(final String errorCode)
+    '''returns None\n\n
+    onRouteError(final String errorCode)\n
     '''
 def drawCallback():
-    '''public void drawCallback(final String json)
+    '''returns None\n\n
+    drawCallback(final String json)\n
     '''
 def convertActivityToAssignmentJson():
-    '''public JSONObject convertActivityToAssignmentJson(final MXActivity activity)
+    '''returns JSONObject\n\n
+    convertActivityToAssignmentJson(final MXActivity activity)\n
     '''
 def convertResourceToJson():
-    '''public JSONObject convertResourceToJson(final MXResource activity)
+    '''returns JSONObject\n\n
+    convertResourceToJson(final MXResource activity)\n
     '''
 def updateRoutes():
-    '''public void updateRoutes(final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)
+    '''returns None\n\n
+    updateRoutes(final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)\n
     '''
 def clearCache():
-    '''public void clearCache()
+    '''returns None\n\n
+    clearCache()\n
     '''
 def clearRoutes():
-    '''public void clearRoutes()
+    '''returns None\n\n
+    clearRoutes()\n
     '''
 def refreshRoutes():
-    '''public void refreshRoutes(final IlvGanttModel ganttModel)
+    '''returns None\n\n
+    refreshRoutes(final IlvGanttModel ganttModel)\n
     '''
 def updateUnassignedWOs():
-    '''public void updateUnassignedWOs(final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)
+    '''returns None\n\n
+    updateUnassignedWOs(final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''

@@ -1,12 +1,16 @@
 def getPart():
-    '''public File getPart()
+    '''returns File\n\n
+    getPart()\n
     '''
 def getPartNumber():
-    '''public int getPartNumber()
+    '''returns int\n\n
+    getPartNumber()\n
     '''
 def isLastPart():
-    '''public boolean isLastPart()
+    '''returns boolean\n\n
+    isLastPart()\n
     '''
 def getFileDeleteObserver():
-    '''public OnFileDelete getFileDeleteObserver()
+    '''returns OnFileDelete\n\n
+    getFileDeleteObserver()\n
     '''

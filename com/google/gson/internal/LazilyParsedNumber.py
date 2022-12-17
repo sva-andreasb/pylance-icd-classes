@@ -1,18 +1,24 @@
-def LazilyParsedNumber():
-    '''public LazilyParsedNumber(final String value)
+def ():
+    '''returns LazilyParsedNumber\n\n
+    (final String value)\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

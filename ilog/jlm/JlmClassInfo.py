@@ -1,24 +1,30 @@
-def JlmClassInfo():
-    '''public JlmClassInfo(final InputStream inputStream)
+def ():
+    '''returns JlmClassInfo\n\n
+    (final InputStream inputStream)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public String next()
-    public String next()
-    public String next()
+    '''returns String\n\n
+    next()\n
+    next()\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove()\n
+    remove()\n
+    remove()\n
     '''
 def getFieldReferences():
-    '''public Iterator<String> getFieldReferences()
+    '''returns Iterator<String>\n\n
+    getFieldReferences()\n
     '''
 def getMethodReferences():
-    '''public Iterator<String> getMethodReferences()
+    '''returns Iterator<String>\n\n
+    getMethodReferences()\n
     '''

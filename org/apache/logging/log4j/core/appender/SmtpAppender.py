@@ -1,66 +1,80 @@
-def newBuilder():
-    '''public static Builder newBuilder()
-    '''
-def createAppender():
-    '''public static SmtpAppender createAppender(@PluginConfiguration final Configuration config, @PluginAttribute("name") @Required final String name, @PluginAttribute("to") final String to, @PluginAttribute("cc") final String cc, @PluginAttribute("bcc") final String bcc, @PluginAttribute("from") final String from, @PluginAttribute("replyTo") final String replyTo, @PluginAttribute("subject") final String subject, @PluginAttribute("smtpProtocol") final String smtpProtocol, @PluginAttribute("smtpHost") final String smtpHost, @PluginAttribute(value = "smtpPort", defaultString = "0") @ValidPort final String smtpPortStr, @PluginAttribute("smtpUsername") final String smtpUsername, @PluginAttribute(value = "smtpPassword", sensitive = true) final String smtpPassword, @PluginAttribute("smtpDebug") final String smtpDebug, @PluginAttribute("bufferSize") final String bufferSizeStr, @PluginElement("Layout") Layout<? extends Serializable> layout, @PluginElement("Filter") Filter filter, @PluginAttribute("ignoreExceptions") final String ignore)
-    '''
 def isFiltered():
-    '''public boolean isFiltered(final LogEvent event)
+    '''returns boolean\n\n
+    isFiltered(final LogEvent event)\n
     '''
 def append():
-    '''public void append(final LogEvent event)
+    '''returns None\n\n
+    append(final LogEvent event)\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def setTo():
-    '''public Builder setTo(final String to)
+    '''returns Builder\n\n
+    setTo(final String to)\n
     '''
 def setCc():
-    '''public Builder setCc(final String cc)
+    '''returns Builder\n\n
+    setCc(final String cc)\n
     '''
 def setBcc():
-    '''public Builder setBcc(final String bcc)
+    '''returns Builder\n\n
+    setBcc(final String bcc)\n
     '''
 def setFrom():
-    '''public Builder setFrom(final String from)
+    '''returns Builder\n\n
+    setFrom(final String from)\n
     '''
 def setReplyTo():
-    '''public Builder setReplyTo(final String replyTo)
+    '''returns Builder\n\n
+    setReplyTo(final String replyTo)\n
     '''
 def setSubject():
-    '''public Builder setSubject(final String subject)
+    '''returns Builder\n\n
+    setSubject(final String subject)\n
     '''
 def setSmtpProtocol():
-    '''public Builder setSmtpProtocol(final String smtpProtocol)
+    '''returns Builder\n\n
+    setSmtpProtocol(final String smtpProtocol)\n
     '''
 def setSmtpHost():
-    '''public Builder setSmtpHost(final String smtpHost)
+    '''returns Builder\n\n
+    setSmtpHost(final String smtpHost)\n
     '''
 def setSmtpPort():
-    '''public Builder setSmtpPort(final int smtpPort)
+    '''returns Builder\n\n
+    setSmtpPort(final int smtpPort)\n
     '''
 def setSmtpUsername():
-    '''public Builder setSmtpUsername(final String smtpUsername)
+    '''returns Builder\n\n
+    setSmtpUsername(final String smtpUsername)\n
     '''
 def setSmtpPassword():
-    '''public Builder setSmtpPassword(final String smtpPassword)
+    '''returns Builder\n\n
+    setSmtpPassword(final String smtpPassword)\n
     '''
 def setSmtpDebug():
-    '''public Builder setSmtpDebug(final boolean smtpDebug)
+    '''returns Builder\n\n
+    setSmtpDebug(final boolean smtpDebug)\n
     '''
 def setBufferSize():
-    '''public Builder setBufferSize(final int bufferSize)
+    '''returns Builder\n\n
+    setBufferSize(final int bufferSize)\n
     '''
 def setSslConfiguration():
-    '''public Builder setSslConfiguration(final SslConfiguration sslConfiguration)
+    '''returns Builder\n\n
+    setSslConfiguration(final SslConfiguration sslConfiguration)\n
     '''
 def setLayout():
-    '''public Builder setLayout(final Layout<? extends Serializable> layout)
+    '''returns Builder\n\n
+    setLayout(final Layout<? extends Serializable> layout)\n
     '''
 def setFilter():
-    '''public Builder setFilter(final Filter filter)
+    '''returns Builder\n\n
+    setFilter(final Filter filter)\n
     '''
 def build():
-    '''public SmtpAppender build()
+    '''returns SmtpAppender\n\n
+    build()\n
     '''

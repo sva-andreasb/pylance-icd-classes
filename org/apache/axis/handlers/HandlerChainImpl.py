@@ -1,32 +1,42 @@
 JAXRPC_METHOD_INFO = "String  \"jaxrpc.method.info\""
 def getRoles():
-    '''public String[] getRoles()
+    '''returns String[]\n\n
+    getRoles()\n
     '''
 def setRoles():
-    '''public void setRoles(final String[] roles)
+    '''returns None\n\n
+    setRoles(final String[] roles)\n
     '''
 def init():
-    '''public void init(final Map map)
+    '''returns None\n\n
+    init(final Map map)\n
     '''
-def HandlerChainImpl():
-    '''public HandlerChainImpl()
-    public HandlerChainImpl(final List handlerInfos)
+def ():
+    '''returns HandlerChainImpl\n\n
+    ()\n
+    (final List handlerInfos)\n
     '''
 def addNewHandler():
-    '''public void addNewHandler(final String className, final Map config)
+    '''returns None\n\n
+    addNewHandler(final String className, final Map config)\n
     '''
 def handleFault():
-    '''public boolean handleFault(final MessageContext _context)
+    '''returns boolean\n\n
+    handleFault(final MessageContext _context)\n
     '''
 def getMessageInfo():
-    '''public ArrayList getMessageInfo(final SOAPMessage message)
+    '''returns ArrayList\n\n
+    getMessageInfo(final SOAPMessage message)\n
     '''
 def handleRequest():
-    '''public boolean handleRequest(final MessageContext _context)
+    '''returns boolean\n\n
+    handleRequest(final MessageContext _context)\n
     '''
 def handleResponse():
-    '''public boolean handleResponse(final MessageContext context)
+    '''returns boolean\n\n
+    handleResponse(final MessageContext context)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''

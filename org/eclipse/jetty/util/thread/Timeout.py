@@ -1,61 +1,79 @@
-def Timeout():
-    '''public Timeout()
-    public Timeout(final Object lock)
+def ():
+    '''returns Timeout\n\n
+    ()\n
+    (final Object lock)\n
     '''
 def getDuration():
-    '''public long getDuration()
+    '''returns long\n\n
+    getDuration()\n
     '''
 def setDuration():
-    '''public void setDuration(final long duration)
+    '''returns None\n\n
+    setDuration(final long duration)\n
     '''
 def setNow():
-    '''public long setNow()
-    public void setNow(final long now)
+    '''returns None\n\n
+    setNow()\n
+    setNow(final long now)\n
     '''
 def getNow():
-    '''public long getNow()
+    '''returns long\n\n
+    getNow()\n
     '''
 def expired():
-    '''public Task expired()
-    public void expired()
+    '''returns None\n\n
+    expired()\n
+    expired()\n
     '''
 def tick():
-    '''public void tick()
-    public void tick(final long now)
+    '''returns None\n\n
+    tick()\n
+    tick(final long now)\n
     '''
 def schedule():
-    '''public void schedule(final Task task)
-    public void schedule(final Task task, final long delay)
-    public void schedule(final Timeout timer)
-    public void schedule(final Timeout timer, final long delay)
+    '''returns None\n\n
+    schedule(final Task task)\n
+    schedule(final Task task, final long delay)\n
+    schedule(final Timeout timer)\n
+    schedule(final Timeout timer, final long delay)\n
     '''
 def cancelAll():
-    '''public void cancelAll()
+    '''returns None\n\n
+    cancelAll()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getTimeToNext():
-    '''public long getTimeToNext()
+    '''returns long\n\n
+    getTimeToNext()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getTimestamp():
-    '''public long getTimestamp()
+    '''returns long\n\n
+    getTimestamp()\n
     '''
 def getAge():
-    '''public long getAge()
+    '''returns long\n\n
+    getAge()\n
     '''
 def reschedule():
-    '''public void reschedule()
+    '''returns None\n\n
+    reschedule()\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def isExpired():
-    '''public boolean isExpired()
+    '''returns boolean\n\n
+    isExpired()\n
     '''
 def isScheduled():
-    '''public boolean isScheduled()
+    '''returns boolean\n\n
+    isScheduled()\n
     '''

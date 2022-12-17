@@ -1,3 +1,4 @@
 def parse():
-    '''public void parse(final Reader reader)
+    '''returns None\n\n
+    parse(final Reader reader)\n
     '''

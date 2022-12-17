@@ -1,6 +1,8 @@
 def createpo():
-    '''public int createpo()
+    '''returns int\n\n
+    createpo()\n
     '''
 def createcont():
-    '''public int createcont()
+    '''returns int\n\n
+    createcont()\n
     '''

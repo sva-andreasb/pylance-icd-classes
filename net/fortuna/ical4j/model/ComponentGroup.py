@@ -1,13 +1,17 @@
-def ComponentGroup():
-    '''public ComponentGroup(final ComponentList<T> components, final Uid uid)
-    public ComponentGroup(final ComponentList<T> components, final Uid uid, final RecurrenceId recurrenceId)
+def ():
+    '''returns ComponentGroup\n\n
+    (final ComponentList<T> components, final Uid uid)\n
+    (final ComponentList<T> components, final Uid uid, final RecurrenceId recurrenceId)\n
     '''
 def getRevisions():
-    '''public ComponentList<T> getRevisions()
+    '''returns ComponentList<T>\n\n
+    getRevisions()\n
     '''
 def getLatestRevision():
-    '''public T getLatestRevision()
+    '''returns T\n\n
+    getLatestRevision()\n
     '''
 def calculateRecurrenceSet():
-    '''public PeriodList calculateRecurrenceSet(final Period period)
+    '''returns PeriodList\n\n
+    calculateRecurrenceSet(final Period period)\n
     '''

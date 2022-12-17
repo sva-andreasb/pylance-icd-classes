@@ -1,56 +1,63 @@
-def PenaltyBox():
-    '''public PenaltyBox(final HashMap<ClientInfo, Database> hashMap_, final boolean[] clientInfoFieldsToIgnore_)
-    public PenaltyBox(final HashMap<ClientInfo, Database> hashMap_, final boolean[] clientInfoFieldsToIgnore_, final String[] substringExtractionPatternsForClientInfo_)
-    public PenaltyBox(final HashMap<ClientInfo, Database> hashMap_, final boolean[] clientInfoFieldsToIgnore_, final int[][] substringExtractionPositionsForClientInfo_)
+def ():
+    '''returns Remapping\n\n
+    (final HashMap<ClientInfo, Database> hashMap_, final boolean[] clientInfoFieldsToIgnore_)\n
+    (final HashMap<ClientInfo, Database> hashMap_, final boolean[] clientInfoFieldsToIgnore_, final String[] substringExtractionPatternsForClientInfo_)\n
+    (final HashMap<ClientInfo, Database> hashMap_, final boolean[] clientInfoFieldsToIgnore_, final int[][] substringExtractionPositionsForClientInfo_)\n
+    (final String[] substringExtractionPatternsForClientInfo_, final String[] finalClientInfoSubstitutionPatterns_, final int[] conditionsOfSubstitution_)\n
+    (final int[][] substringExtractionPositionsForClientInfo_, final String[] finalClientInfoSubstitutionPatterns_)\n
+    (final HashMap<ClientInfo, ClientInfo> hashMap_, final boolean[] clientInfoFieldsToIgnoreInKey_)\n
+    (final HashMap<ClientInfo, ClientInfo> hashMap_, final boolean[] clientInfoFieldsToIgnoreInKey_, final String[] substringExtractionPatternsForClientInfo_)\n
+    (final HashMap<ClientInfo, ClientInfo> hashMap_, final boolean[] clientInfoFieldsToIgnoreInKey_, final int[][] substringExtractionPositionsForClientInfo_)\n
+    (final String[] finalClientInfoSubstitutionPatterns_, final boolean[] clientInfoFieldsToIgnoreInKey_)\n
     '''
 def getPenaltyBox():
-    '''public Database getPenaltyBox(final ClientInfo clientInfo)
+    '''returns Database\n\n
+    getPenaltyBox(final ClientInfo clientInfo)\n
     '''
 def getFlavor():
-    '''public Flavor getFlavor()
-    public Flavor getFlavor()
-    '''
-def getHashMap():
-    '''public HashMap<ClientInfo, Database> getHashMap()
-    public HashMap<ClientInfo, ClientInfo> getHashMap()
+    '''returns Flavor\n\n
+    getFlavor()\n
+    getFlavor()\n
     '''
 def getClientInfoFieldsToIgnore():
-    '''public boolean[] getClientInfoFieldsToIgnore()
+    '''returns boolean[]\n\n
+    getClientInfoFieldsToIgnore()\n
     '''
 def getSubstringExtractionPatternsForClientInfo():
-    '''public String[] getSubstringExtractionPatternsForClientInfo()
-    public String[] getSubstringExtractionPatternsForClientInfo()
+    '''returns String[]\n\n
+    getSubstringExtractionPatternsForClientInfo()\n
+    getSubstringExtractionPatternsForClientInfo()\n
     '''
 def getSubstringExtractionPositionsForClientInfo():
-    '''public int[][] getSubstringExtractionPositionsForClientInfo()
-    public int[][] getSubstringExtractionPositionsForClientInfo()
+    '''returns int[][]\n\n
+    getSubstringExtractionPositionsForClientInfo()\n
+    getSubstringExtractionPositionsForClientInfo()\n
     '''
 def incrNumberOfTimesApplied():
-    '''public void incrNumberOfTimesApplied()
+    '''returns None\n\n
+    incrNumberOfTimesApplied()\n
     '''
 def getNumberOfTransactionsThatMatchPenaltyBoxCriteria():
-    '''public long getNumberOfTransactionsThatMatchPenaltyBoxCriteria()
+    '''returns long\n\n
+    getNumberOfTransactionsThatMatchPenaltyBoxCriteria()\n
     '''
 def resetNumberOfTimesApplied():
-    '''public void resetNumberOfTimesApplied()
-    '''
-def Remapping():
-    '''public Remapping(final String[] substringExtractionPatternsForClientInfo_, final String[] finalClientInfoSubstitutionPatterns_, final int[] conditionsOfSubstitution_)
-    public Remapping(final int[][] substringExtractionPositionsForClientInfo_, final String[] finalClientInfoSubstitutionPatterns_)
-    public Remapping(final HashMap<ClientInfo, ClientInfo> hashMap_, final boolean[] clientInfoFieldsToIgnoreInKey_)
-    public Remapping(final HashMap<ClientInfo, ClientInfo> hashMap_, final boolean[] clientInfoFieldsToIgnoreInKey_, final String[] substringExtractionPatternsForClientInfo_)
-    public Remapping(final HashMap<ClientInfo, ClientInfo> hashMap_, final boolean[] clientInfoFieldsToIgnoreInKey_, final int[][] substringExtractionPositionsForClientInfo_)
-    public Remapping(final String[] finalClientInfoSubstitutionPatterns_, final boolean[] clientInfoFieldsToIgnoreInKey_)
+    '''returns None\n\n
+    resetNumberOfTimesApplied()\n
     '''
 def remapClientInfo():
-    '''public ClientInfo remapClientInfo(final ClientInfo clientInfo, final Object[] array)
+    '''returns ClientInfo\n\n
+    remapClientInfo(final ClientInfo clientInfo, final Object[] array)\n
     '''
 def getFinalClientInfoSubstitutionPatterns():
-    '''public String[] getFinalClientInfoSubstitutionPatterns()
+    '''returns String[]\n\n
+    getFinalClientInfoSubstitutionPatterns()\n
     '''
 def getConditionsOfSubstitution():
-    '''public int[] getConditionsOfSubstitution()
+    '''returns int[]\n\n
+    getConditionsOfSubstitution()\n
     '''
 def getClientInfoFieldsToIgnoreInKey():
-    '''public boolean[] getClientInfoFieldsToIgnoreInKey()
+    '''returns boolean[]\n\n
+    getClientInfoFieldsToIgnoreInKey()\n
     '''

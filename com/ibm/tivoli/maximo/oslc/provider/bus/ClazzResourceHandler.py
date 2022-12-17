@@ -1,12 +1,16 @@
-def ClazzResourceHandler():
-    '''public ClazzResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns ClazzResourceHandler\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def getClazzInfo():
-    '''public BusResource getClazzInfo(final String className, final String uri, final BusRequest request)
+    '''returns BusResource\n\n
+    getClazzInfo(final String className, final String uri, final BusRequest request)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''
 def createURI():
-    '''public String createURI(final List<String> resPath)
+    '''returns String\n\n
+    createURI(final List<String> resPath)\n
     '''

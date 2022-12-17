@@ -1,4 +1,5 @@
-def FldWonum():
-    '''public FldWonum(final MboValue mbv)
-    public FldWonum(final MboValue mbv, String criteriaName)
+def ():
+    '''returns FldWonum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, String criteriaName)\n
     '''

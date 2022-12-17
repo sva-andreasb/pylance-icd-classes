@@ -1,3 +1,4 @@
-def MaxIntObjAliasSet():
-    '''public MaxIntObjAliasSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIntObjAliasSet\n\n
+    (final MboServerInterface ms)\n
     '''

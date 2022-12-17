@@ -1,48 +1,51 @@
-def AggregateLifeCycle():
-    '''public AggregateLifeCycle()
+def ():
+    '''returns AggregateLifeCycle\n\n
+    ()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def contains():
-    '''public boolean contains(final Object bean)
+    '''returns boolean\n\n
+    contains(final Object bean)\n
     '''
 def isManaged():
-    '''public boolean isManaged(final Object bean)
+    '''returns boolean\n\n
+    isManaged(final Object bean)\n
     '''
 def addBean():
-    '''public boolean addBean(final Object o)
-    public boolean addBean(final Object o, final boolean managed)
+    '''returns boolean\n\n
+    addBean(final Object o)\n
+    addBean(final Object o, final boolean managed)\n
     '''
 def manage():
-    '''public void manage(final Object bean)
+    '''returns None\n\n
+    manage(final Object bean)\n
     '''
 def unmanage():
-    '''public void unmanage(final Object bean)
+    '''returns None\n\n
+    unmanage(final Object bean)\n
     '''
 def getBeans():
-    '''public Collection<Object> getBeans()
-    public <T> List<T> getBeans(final Class<T> clazz)
-    '''
-def getBean():
-    '''public <T> T getBean(final Class<T> clazz)
+    '''returns Collection<Object>\n\n
+    getBeans()\n
     '''
 def removeBeans():
-    '''public void removeBeans()
+    '''returns None\n\n
+    removeBeans()\n
     '''
 def removeBean():
-    '''public boolean removeBean(final Object o)
+    '''returns boolean\n\n
+    removeBean(final Object o)\n
     '''
 def dumpStdErr():
-    '''public void dumpStdErr()
+    '''returns None\n\n
+    dumpStdErr()\n
     '''
 def dump():
-    '''public String dump()
-    public static String dump(final Dumpable dumpable)
-    public void dump(final Appendable out)
-    public void dump(final Appendable out, final String indent)
-    public static void dump(final Appendable out, final String indent, final Collection<?>... collections)
-    '''
-def dumpObject():
-    '''public static void dumpObject(final Appendable out, final Object o)
+    '''returns None\n\n
+    dump()\n
+    dump(final Appendable out)\n
+    dump(final Appendable out, final String indent)\n
     '''

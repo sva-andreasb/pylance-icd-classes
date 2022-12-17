@@ -1,15 +1,8 @@
-def fromBinary():
-    '''public static Fast fromBinary(final ValueWidth valueWidth, final ByteBuffer bytes)
-    '''
-def getType():
-    '''public final Type getType()
-    '''
-def stringIterator():
-    '''public final StringIterator stringIterator(final CharSequence s, final int sIndex)
-    '''
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''
 def previous():
-    '''public boolean previous()
+    '''returns boolean\n\n
+    previous()\n
     '''

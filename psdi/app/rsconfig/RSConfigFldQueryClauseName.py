@@ -1,12 +1,16 @@
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
-def RSConfigFldQueryClauseName():
-    '''public RSConfigFldQueryClauseName(final MboValue mbv)
+def ():
+    '''returns RSConfigFldQueryClauseName\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

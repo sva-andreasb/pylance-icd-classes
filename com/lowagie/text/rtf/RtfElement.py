@@ -1,21 +1,28 @@
-def RtfElement():
-    '''public RtfElement(final RtfDocument doc)
+def ():
+    '''returns RtfElement\n\n
+    (final RtfDocument doc)\n
     '''
 def intToByteArray():
-    '''public byte[] intToByteArray(final int i)
+    '''returns byte[]\n\n
+    intToByteArray(final int i)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''
 def setRtfDocument():
-    '''public void setRtfDocument(final RtfDocument doc)
+    '''returns None\n\n
+    setRtfDocument(final RtfDocument doc)\n
     '''
 def isInTable():
-    '''public boolean isInTable()
+    '''returns boolean\n\n
+    isInTable()\n
     '''
 def setInTable():
-    '''public void setInTable(final boolean inTable)
+    '''returns None\n\n
+    setInTable(final boolean inTable)\n
     '''
 def setInHeader():
-    '''public void setInHeader(final boolean inHeader)
+    '''returns None\n\n
+    setInHeader(final boolean inHeader)\n
     '''

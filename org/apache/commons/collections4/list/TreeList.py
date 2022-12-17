@@ -1,65 +1,85 @@
-def TreeList():
-    '''public TreeList()
-    public TreeList(final Collection<? extends E> coll)
+def ():
+    '''returns TreeList\n\n
+    ()\n
+    (final Collection<? extends E> coll)\n
     '''
 def get():
-    '''public E get(final int index)
+    '''returns E\n\n
+    get(final int index)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def listIterator():
-    '''public ListIterator<E> listIterator()
-    public ListIterator<E> listIterator(final int fromIndex)
+    '''returns ListIterator<E>\n\n
+    listIterator()\n
+    listIterator(final int fromIndex)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object object)
+    '''returns int\n\n
+    indexOf(final Object object)\n
     '''
 def contains():
-    '''public boolean contains(final Object object)
+    '''returns boolean\n\n
+    contains(final Object object)\n
     '''
 def toArray():
-    '''public Object[] toArray()
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def add():
-    '''public void add(final int index, final E obj)
-    public void add(final E obj)
+    '''returns None\n\n
+    add(final int index, final E obj)\n
+    add(final E obj)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> c)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> c)\n
     '''
 def set():
-    '''public E set(final int index, final E obj)
-    public void set(final E obj)
+    '''returns None\n\n
+    set(final int index, final E obj)\n
+    set(final E obj)\n
     '''
 def remove():
-    '''public E remove(final int index)
-    public void remove()
+    '''returns None\n\n
+    remove(final int index)\n
+    remove()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public E previous()
+    '''returns E\n\n
+    previous()\n
     '''
 def nextIndex():
-    '''public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''

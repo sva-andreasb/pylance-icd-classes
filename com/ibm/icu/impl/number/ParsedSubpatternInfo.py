@@ -1,3 +1,4 @@
-def ParsedSubpatternInfo():
-    '''public ParsedSubpatternInfo()
+def ():
+    '''returns ParsedSubpatternInfo\n\n
+    ()\n
     '''

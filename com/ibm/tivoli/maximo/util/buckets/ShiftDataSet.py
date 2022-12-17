@@ -1,28 +1,37 @@
-def ShiftDataSet():
-    '''public ShiftDataSet(final String name)
-    public ShiftDataSet()
+def ():
+    '''returns ShiftDataSet\n\n
+    (final String name)\n
+    ()\n
     '''
 def calculateKey():
-    '''public String calculateKey(final Date start, final Date end)
+    '''returns String\n\n
+    calculateKey(final Date start, final Date end)\n
     '''
 def getData():
-    '''public List<DateRangeWithValue> getData()
+    '''returns List<DateRangeWithValue>\n\n
+    getData()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def addData():
-    '''public void addData(final Date start, final Date end, final double value)
+    '''returns None\n\n
+    addData(final Date start, final Date end, final double value)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String shift)
+    '''returns None\n\n
+    setKey(final String shift)\n
     '''
 def clearData():
-    '''public void clearData()
+    '''returns None\n\n
+    clearData()\n
     '''

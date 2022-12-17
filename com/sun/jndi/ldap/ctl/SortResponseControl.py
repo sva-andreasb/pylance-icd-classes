@@ -1,16 +1,21 @@
 OID = "String  \"1.2.840.113556.1.4.474\""
-def SortResponseControl():
-    '''public SortResponseControl(final String id, final boolean criticality, final byte[] array)
+def ():
+    '''returns SortResponseControl\n\n
+    (final String id, final boolean criticality, final byte[] array)\n
     '''
 def getAttributeID():
-    '''public String getAttributeID()
+    '''returns String\n\n
+    getAttributeID()\n
     '''
 def getException():
-    '''public NamingException getException()
+    '''returns NamingException\n\n
+    getException()\n
     '''
 def getResultCode():
-    '''public int getResultCode()
+    '''returns int\n\n
+    getResultCode()\n
     '''
 def isSorted():
-    '''public boolean isSorted()
+    '''returns boolean\n\n
+    isSorted()\n
     '''

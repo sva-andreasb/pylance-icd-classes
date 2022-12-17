@@ -1,15 +1,16 @@
-def POIXMLTextExtractor():
-    '''public POIXMLTextExtractor(final POIXMLDocument document)
-    '''
-def getDocument():
-    '''public final POIXMLDocument getDocument()
+def ():
+    '''returns POIXMLTextExtractor\n\n
+    (final POIXMLDocument document)\n
     '''
 def getPackage():
-    '''public OPCPackage getPackage()
+    '''returns OPCPackage\n\n
+    getPackage()\n
     '''
 def getMetadataTextExtractor():
-    '''public POIXMLPropertiesTextExtractor getMetadataTextExtractor()
+    '''returns POIXMLPropertiesTextExtractor\n\n
+    getMetadataTextExtractor()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

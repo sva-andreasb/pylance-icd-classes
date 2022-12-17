@@ -1,3 +1,4 @@
-def InvoiceTermSet():
-    '''public InvoiceTermSet(final MboServerInterface ms)
+def ():
+    '''returns InvoiceTermSet\n\n
+    (final MboServerInterface ms)\n
     '''

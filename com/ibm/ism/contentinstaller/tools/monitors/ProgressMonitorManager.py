@@ -1,15 +1,16 @@
-def getInstance():
-    '''public static ProgressMonitorManager getInstance()
-    '''
 def addMonitor():
-    '''public void addMonitor(final IProgressMonitor newMonitor)
+    '''returns None\n\n
+    addMonitor(final IProgressMonitor newMonitor)\n
     '''
 def addMonitors():
-    '''public void addMonitors(final List<IProgressMonitor> newMonitors)
+    '''returns None\n\n
+    addMonitors(final List<IProgressMonitor> newMonitors)\n
     '''
 def removeMonitor():
-    '''public void removeMonitor(final IProgressMonitor monitor)
+    '''returns None\n\n
+    removeMonitor(final IProgressMonitor monitor)\n
     '''
 def getProgressMonitor():
-    '''public IProgressMonitor getProgressMonitor()
+    '''returns IProgressMonitor\n\n
+    getProgressMonitor()\n
     '''

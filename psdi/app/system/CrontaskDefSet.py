@@ -1,3 +1,4 @@
-def CrontaskDefSet():
-    '''public CrontaskDefSet(final MboServerInterface ms)
+def ():
+    '''returns CrontaskDefSet\n\n
+    (final MboServerInterface ms)\n
     '''

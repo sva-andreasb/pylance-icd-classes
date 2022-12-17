@@ -1,9 +1,12 @@
-def LangElement():
-    '''public LangElement(final Tag tag, final Locale locale)
+def ():
+    '''returns LangElement\n\n
+    (final Tag tag, final Locale locale)\n
     '''
 def getTag():
-    '''public Tag getTag()
+    '''returns Tag\n\n
+    getTag()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''

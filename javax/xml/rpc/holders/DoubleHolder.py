@@ -1,4 +1,5 @@
-def DoubleHolder():
-    '''public DoubleHolder()
-    public DoubleHolder(final double value)
+def ():
+    '''returns DoubleHolder\n\n
+    ()\n
+    (final double mydouble)\n
     '''

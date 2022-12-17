@@ -1,6 +1,8 @@
-def FldApptBkWindowPatternDay():
-    '''public FldApptBkWindowPatternDay(final MboValue mbv)
+def ():
+    '''returns FldApptBkWindowPatternDay\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

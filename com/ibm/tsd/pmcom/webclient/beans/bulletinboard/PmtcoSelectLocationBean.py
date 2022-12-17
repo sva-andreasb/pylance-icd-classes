@@ -1,3 +1,4 @@
-def PmtcoSelectLocationBean():
-    '''public PmtcoSelectLocationBean()
+def ():
+    '''returns PmtcoSelectLocationBean\n\n
+    ()\n
     '''

@@ -1,70 +1,93 @@
 def getGenEnum():
-    '''public GenEnum getGenEnum()
+    '''returns GenEnum\n\n
+    getGenEnum()\n
     '''
 def setGenEnum():
-    '''public void setGenEnum(final GenEnum newGenEnum)
+    '''returns None\n\n
+    setGenEnum(final GenEnum newGenEnum)\n
     '''
 def getEcoreModelElement():
-    '''public EModelElement getEcoreModelElement()
+    '''returns EModelElement\n\n
+    getEcoreModelElement()\n
     '''
 def getEcoreEnumLiteral():
-    '''public EEnumLiteral getEcoreEnumLiteral()
+    '''returns EEnumLiteral\n\n
+    getEcoreEnumLiteral()\n
     '''
 def basicGetEcoreEnumLiteral():
-    '''public EEnumLiteral basicGetEcoreEnumLiteral()
+    '''returns EEnumLiteral\n\n
+    basicGetEcoreEnumLiteral()\n
     '''
 def setEcoreEnumLiteral():
-    '''public void setEcoreEnumLiteral(final EEnumLiteral newEcoreEnumLiteral)
+    '''returns None\n\n
+    setEcoreEnumLiteral(final EEnumLiteral newEcoreEnumLiteral)\n
     '''
 def eInverseAdd():
-    '''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eBasicRemoveFromContainer():
-    '''public NotificationChain eBasicRemoveFromContainer(final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eBasicRemoveFromContainer(final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getCapName():
-    '''public String getCapName()
+    '''returns String\n\n
+    getCapName()\n
     '''
 def getFormattedName():
-    '''public String getFormattedName()
+    '''returns String\n\n
+    getFormattedName()\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def getEnumLiteralID():
-    '''public String getEnumLiteralID()
+    '''returns String\n\n
+    getEnumLiteralID()\n
     '''
 def getGenPackage():
-    '''public GenPackage getGenPackage()
+    '''returns GenPackage\n\n
+    getGenPackage()\n
     '''
 def getEnumLiteralAccessorName():
-    '''public String getEnumLiteralAccessorName()
+    '''returns String\n\n
+    getEnumLiteralAccessorName()\n
     '''
 def initialize():
-    '''public void initialize(final EEnumLiteral eEnumLiteral)
+    '''returns None\n\n
+    initialize(final EEnumLiteral eEnumLiteral)\n
     '''
 def getModelInfo():
-    '''public String getModelInfo()
+    '''returns String\n\n
+    getModelInfo()\n
     '''
 def reconcile():
-    '''public boolean reconcile(final GenEnumLiteral oldGenEnumLiteralVersion)
-    public boolean reconcile()
+    '''returns boolean\n\n
+    reconcile(final GenEnumLiteral oldGenEnumLiteralVersion)\n
+    reconcile()\n
     '''

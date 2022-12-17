@@ -1,15 +1,13 @@
-def MetaDataObject():
-    '''public MetaDataObject(final String tableName, final Connection conn)
+def ():
+    '''returns ComplexString\n\n
+    (final String tableName, final Connection conn)\n
+    ()\n
     '''
 def addInsert():
-    '''public void addInsert(final Map<String, ComplexString> values)
-    '''
-def process():
-    '''public final void process(final Connection conn, final int dbIn)
-    '''
-def ComplexString():
-    '''public ComplexString()
+    '''returns None\n\n
+    addInsert(final Map<String, ComplexString> values)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''

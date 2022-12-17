@@ -1,25 +1,29 @@
 def copy():
-    '''public DefaultDeserializationContext copy()
-    public DefaultDeserializationContext copy()
+    '''returns DefaultDeserializationContext\n\n
+    copy()\n
+    copy()\n
     '''
 def findObjectId():
-    '''public ReadableObjectId findObjectId(final Object id, final ObjectIdGenerator<?> gen, final ObjectIdResolver resolverType)
+    '''returns ReadableObjectId\n\n
+    findObjectId(final Object id, final ObjectIdGenerator<?> gen, final ObjectIdResolver resolverType)\n
     '''
 def checkUnresolvedObjectId():
-    '''public void checkUnresolvedObjectId()
+    '''returns None\n\n
+    checkUnresolvedObjectId()\n
     '''
 def deserializerInstance():
-    '''public JsonDeserializer<Object> deserializerInstance(final Annotated ann, final Object deserDef)
+    '''returns JsonDeserializer<Object>\n\n
+    deserializerInstance(final Annotated ann, final Object deserDef)\n
     '''
-def keyDeserializerInstance():
-    '''public final KeyDeserializer keyDeserializerInstance(final Annotated ann, final Object deserDef)
-    '''
-def Impl():
-    '''public Impl(final DeserializerFactory df)
+def ():
+    '''returns Impl\n\n
+    (final DeserializerFactory df)\n
     '''
 def createInstance():
-    '''public DefaultDeserializationContext createInstance(final DeserializationConfig config, final JsonParser p, final InjectableValues values)
+    '''returns DefaultDeserializationContext\n\n
+    createInstance(final DeserializationConfig config, final JsonParser p, final InjectableValues values)\n
     '''
 def with():
-    '''public DefaultDeserializationContext with(final DeserializerFactory factory)
+    '''returns DefaultDeserializationContext\n\n
+    with(final DeserializerFactory factory)\n
     '''

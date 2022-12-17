@@ -1,19 +1,25 @@
-def CompareResultsBase():
-    '''public CompareResultsBase(final Object left, final Object right)
+def ():
+    '''returns CompareResultsBase\n\n
+    (final Object left, final Object right)\n
     '''
 def getLeft():
-    '''public Object getLeft()
+    '''returns Object\n\n
+    getLeft()\n
     '''
 def getRight():
-    '''public Object getRight()
+    '''returns Object\n\n
+    getRight()\n
     '''
 def getLeftObj():
-    '''public ObjectRef getLeftObj()
+    '''returns ObjectRef\n\n
+    getLeftObj()\n
     '''
 def getRightObj():
-    '''public ObjectRef getRightObj()
+    '''returns ObjectRef\n\n
+    getRightObj()\n
     '''
 def dump():
-    '''public void dump()
-    public void dump(final int indent)
+    '''returns None\n\n
+    dump()\n
+    dump(final int indent)\n
     '''

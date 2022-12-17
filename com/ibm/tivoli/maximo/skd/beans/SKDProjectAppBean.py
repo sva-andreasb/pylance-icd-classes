@@ -1,329 +1,430 @@
-def SKDProjectAppBean():
-    '''public SKDProjectAppBean()
+def ():
+    '''returns SKDModelCacheThread\n\n
+    ()\n
+    ()\n
+    (final UserInfo ui, final String projectId)\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''
 def REFRESHALL():
-    '''public int REFRESHALL()
+    '''returns int\n\n
+    REFRESHALL()\n
     '''
 def appsSigOptionAccessAuthorized():
-    '''public void appsSigOptionAccessAuthorized(final String objName, final String sigoption, final String siteId)
+    '''returns None\n\n
+    appsSigOptionAccessAuthorized(final String objName, final String sigoption, final String siteId)\n
     '''
 def checkESigAccess():
-    '''public void checkESigAccess(final String sigoption, final MboRemote mboRemote)
-    public void checkESigAccess(final String sigoption)
+    '''returns None\n\n
+    checkESigAccess(final String sigoption, final MboRemote mboRemote)\n
+    checkESigAccess(final String sigoption)\n
     '''
 def checkActionAccess():
-    '''public void checkActionAccess(final String sigoption, final MboRemote mboRemote)
-    public void checkActionAccess(final String sigoption)
+    '''returns None\n\n
+    checkActionAccess(final String sigoption, final MboRemote mboRemote)\n
+    checkActionAccess(final String sigoption)\n
     '''
 def checkPMActionAccess():
-    '''public void checkPMActionAccess(final String sigoption)
+    '''returns None\n\n
+    checkPMActionAccess(final String sigoption)\n
     '''
 def OWNER():
-    '''public int OWNER()
+    '''returns int\n\n
+    OWNER()\n
     '''
 def LIST_OWNER():
-    '''public int LIST_OWNER()
+    '''returns int\n\n
+    LIST_OWNER()\n
     '''
 def LIST_ASGNEWPRNT():
-    '''public int LIST_ASGNEWPRNT()
+    '''returns int\n\n
+    LIST_ASGNEWPRNT()\n
     '''
 def LIST_NEWWRKPKG():
-    '''public int LIST_NEWWRKPKG()
+    '''returns int\n\n
+    LIST_NEWWRKPKG()\n
     '''
 def CREATEJP():
-    '''public int CREATEJP()
+    '''returns int\n\n
+    CREATEJP()\n
     '''
 def ITEMAVAIL():
-    '''public int ITEMAVAIL()
+    '''returns int\n\n
+    ITEMAVAIL()\n
     '''
 def ASGNEWPRNT():
-    '''public int ASGNEWPRNT()
+    '''returns int\n\n
+    ASGNEWPRNT()\n
     '''
 def NEWWRKPKG():
-    '''public int NEWWRKPKG()
+    '''returns int\n\n
+    NEWWRKPKG()\n
     '''
 def ASSIGN():
-    '''public int ASSIGN()
+    '''returns int\n\n
+    ASSIGN()\n
     '''
 def LIST_STATUS():
-    '''public int LIST_STATUS()
+    '''returns int\n\n
+    LIST_STATUS()\n
     '''
 def LIST_WFINIT():
-    '''public int LIST_WFINIT()
+    '''returns int\n\n
+    LIST_WFINIT()\n
     '''
 def checkSameType():
-    '''public void checkSameType(final boolean initWF)
+    '''returns None\n\n
+    checkSameType(final boolean initWF)\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def WFINIT():
-    '''public int WFINIT()
+    '''returns int\n\n
+    WFINIT()\n
     '''
 def CREATECHG():
-    '''public int CREATECHG()
+    '''returns int\n\n
+    CREATECHG()\n
     '''
 def CREATEPROB():
-    '''public int CREATEPROB()
+    '''returns int\n\n
+    CREATEPROB()\n
     '''
 def CREATEINCT():
-    '''public int CREATEINCT()
+    '''returns int\n\n
+    CREATEINCT()\n
     '''
 def CREATESREQ():
-    '''public int CREATESREQ()
+    '''returns int\n\n
+    CREATESREQ()\n
     '''
 def CREATEREL():
-    '''public int CREATEREL()
+    '''returns int\n\n
+    CREATEREL()\n
     '''
 def CREATECOMM():
-    '''public int CREATECOMM()
+    '''returns int\n\n
+    CREATECOMM()\n
     '''
 def COMMSELECTED():
-    '''public int COMMSELECTED()
+    '''returns int\n\n
+    COMMSELECTED()\n
     '''
 def COMMSELECTEDPM():
-    '''public int COMMSELECTEDPM()
+    '''returns int\n\n
+    COMMSELECTEDPM()\n
     '''
 def COMMSELCONST():
-    '''public int COMMSELCONST()
+    '''returns int\n\n
+    COMMSELCONST()\n
     '''
 def COMMSELCONSTS():
-    '''public int COMMSELCONSTS()
+    '''returns int\n\n
+    COMMSELCONSTS()\n
     '''
 def setSelectedIDsforPM():
-    '''public void setSelectedIDsforPM(final String[] selectedRecords)
+    '''returns None\n\n
+    setSelectedIDsforPM(final String[] selectedRecords)\n
     '''
 def checkWOSelected():
-    '''public String checkWOSelected(final String[] selectedRecords)
+    '''returns String\n\n
+    checkWOSelected(final String[] selectedRecords)\n
     '''
 def LIST_COMMSELECTED():
-    '''public int LIST_COMMSELECTED()
+    '''returns int\n\n
+    LIST_COMMSELECTED()\n
     '''
 def LIST_COMMSELECTEDPM():
-    '''public int LIST_COMMSELECTEDPM()
+    '''returns int\n\n
+    LIST_COMMSELECTEDPM()\n
     '''
 def LIST_REMOVE():
-    '''public int LIST_REMOVE()
+    '''returns int\n\n
+    LIST_REMOVE()\n
     '''
 def REMOVE():
-    '''public int REMOVE()
+    '''returns int\n\n
+    REMOVE()\n
     '''
 def checkTaskSelected():
-    '''public String checkTaskSelected(final String[] selectedRecords)
+    '''returns String\n\n
+    checkTaskSelected(final String[] selectedRecords)\n
     '''
 def CREATEWO():
-    '''public int CREATEWO()
+    '''returns int\n\n
+    CREATEWO()\n
     '''
 def LIST_MODIFYWO():
-    '''public int LIST_MODIFYWO()
+    '''returns int\n\n
+    LIST_MODIFYWO()\n
     '''
 def MODIFYWO():
-    '''public int MODIFYWO()
+    '''returns int\n\n
+    MODIFYWO()\n
     '''
 def clearModelDirty():
-    '''public void clearModelDirty()
+    '''returns None\n\n
+    clearModelDirty()\n
     '''
 def CLEAR():
-    '''public int CLEAR()
+    '''returns int\n\n
+    CLEAR()\n
     '''
 def PUBLISH():
-    '''public int PUBLISH()
+    '''returns int\n\n
+    PUBLISH()\n
     '''
 def SCENARIO():
-    '''public int SCENARIO()
+    '''returns int\n\n
+    SCENARIO()\n
     '''
 def MOVETODFLT():
-    '''public int MOVETODFLT()
+    '''returns int\n\n
+    MOVETODFLT()\n
     '''
 def sentViewScenarioEvent():
-    '''public void sentViewScenarioEvent(final String selectedScenarioProject, final MboRemote defaultSKDProject)
+    '''returns None\n\n
+    sentViewScenarioEvent(final String selectedScenarioProject, final MboRemote defaultSKDProject)\n
     '''
 def SNAPSHOT():
-    '''public int SNAPSHOT()
+    '''returns int\n\n
+    SNAPSHOT()\n
     '''
 def COMMIT():
-    '''public int COMMIT()
-    public int COMMIT(final boolean confirmation)
+    '''returns int\n\n
+    COMMIT()\n
+    COMMIT(final boolean confirmation)\n
     '''
 def COMMITCONSTRAINTS():
-    '''public int COMMITCONSTRAINTS()
-    public int COMMITCONSTRAINTS(final boolean confirmation)
+    '''returns int\n\n
+    COMMITCONSTRAINTS()\n
+    COMMITCONSTRAINTS(final boolean confirmation)\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def getSKDAppServiceBean():
-    '''public SKDAppServiceBeanRemote getSKDAppServiceBean()
+    '''returns SKDAppServiceBeanRemote\n\n
+    getSKDAppServiceBean()\n
     '''
 def getSKDAppService():
-    '''public SKDAppServiceRemote getSKDAppService()
+    '''returns SKDAppServiceRemote\n\n
+    getSKDAppService()\n
     '''
 def createSKDAppService():
-    '''public SKDAppServiceRemote createSKDAppService(final HttpSession session)
-    '''
-def replaceString():
-    '''public static String replaceString(String str, final String pattern, final String replacement)
+    '''returns SKDAppServiceRemote\n\n
+    createSKDAppService(final HttpSession session)\n
     '''
 def applink():
-    '''public int applink()
+    '''returns int\n\n
+    applink()\n
     '''
 def searchwork():
-    '''public int searchwork()
+    '''returns int\n\n
+    searchwork()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def DUPESCHEDL():
-    '''public int DUPESCHEDL()
+    '''returns int\n\n
+    DUPESCHEDL()\n
     '''
 def solutionsTabChanged():
-    '''public int solutionsTabChanged()
+    '''returns int\n\n
+    solutionsTabChanged()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def skdSaveYesNoCheck():
-    '''public int skdSaveYesNoCheck()
+    '''returns int\n\n
+    skdSaveYesNoCheck()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def isCommitInProgress():
-    '''public boolean isCommitInProgress()
+    '''returns boolean\n\n
+    isCommitInProgress()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def saveYesNoCheck():
-    '''public boolean saveYesNoCheck()
+    '''returns boolean\n\n
+    saveYesNoCheck()\n
     '''
 def saveYesNoInteractionCheck():
-    '''public boolean saveYesNoInteractionCheck()
+    '''returns boolean\n\n
+    saveYesNoInteractionCheck()\n
     '''
 def skdProjectDataChange():
-    '''public int skdProjectDataChange()
+    '''returns int\n\n
+    skdProjectDataChange()\n
     '''
 def commitfailed():
-    '''public int commitfailed()
+    '''returns int\n\n
+    commitfailed()\n
     '''
 def CREATESLR():
-    '''public int CREATESLR()
+    '''returns int\n\n
+    CREATESLR()\n
     '''
 def startcompliance():
-    '''public int startcompliance()
+    '''returns int\n\n
+    startcompliance()\n
     '''
 def endcompliance():
-    '''public int endcompliance()
+    '''returns int\n\n
+    endcompliance()\n
     '''
 def calculatewocost():
-    '''public int calculatewocost()
+    '''returns int\n\n
+    calculatewocost()\n
     '''
 def getCurrentProject():
-    '''public SKDProject getCurrentProject()
+    '''returns SKDProject\n\n
+    getCurrentProject()\n
     '''
 def calculatelaborhrs():
-    '''public int calculatelaborhrs()
+    '''returns int\n\n
+    calculatelaborhrs()\n
     '''
 def calculatewocostall():
-    '''public int calculatewocostall()
+    '''returns int\n\n
+    calculatewocostall()\n
     '''
 def checkStatus():
-    '''public void checkStatus(final boolean doCheck)
+    '''returns None\n\n
+    checkStatus(final boolean doCheck)\n
     '''
 def COMPARE():
-    '''public int COMPARE()
+    '''returns int\n\n
+    COMPARE()\n
     '''
 def getSelectedScenarios():
-    '''public Set<Long> getSelectedScenarios()
+    '''returns Set<Long>\n\n
+    getSelectedScenarios()\n
     '''
 def RESLPARAM():
-    '''public int RESLPARAM()
+    '''returns int\n\n
+    RESLPARAM()\n
     '''
 def CAPPPARAM():
-    '''public int CAPPPARAM()
+    '''returns int\n\n
+    CAPPPARAM()\n
     '''
 def LABORPARAM():
-    '''public int LABORPARAM()
+    '''returns int\n\n
+    LABORPARAM()\n
     '''
 def SPATLPARAM():
-    '''public int SPATLPARAM()
+    '''returns int\n\n
+    SPATLPARAM()\n
     '''
 def RUNOPTMZ():
-    '''public int RUNOPTMZ()
+    '''returns int\n\n
+    RUNOPTMZ()\n
     '''
 def setRefreshAll():
-    '''public void setRefreshAll(final boolean refreshAll)
+    '''returns None\n\n
+    setRefreshAll(final boolean refreshAll)\n
     '''
 def SWSCEN():
-    '''public int SWSCEN()
+    '''returns int\n\n
+    SWSCEN()\n
     '''
 def ODMERUNMON():
-    '''public int ODMERUNMON()
+    '''returns int\n\n
+    ODMERUNMON()\n
     '''
 def calculatepmfocost():
-    '''public int calculatepmfocost()
+    '''returns int\n\n
+    calculatepmfocost()\n
     '''
 def getCompareItems():
-    '''public JSONArray getCompareItems()
+    '''returns JSONArray\n\n
+    getCompareItems()\n
     '''
 def setCompareItems():
-    '''public void setCompareItems(final JSONArray compareItems)
+    '''returns None\n\n
+    setCompareItems(final JSONArray compareItems)\n
     '''
 def RESCHDASSN():
-    '''public int RESCHDASSN()
+    '''returns int\n\n
+    RESCHDASSN()\n
     '''
 def updatePercentCompleteLastCall():
-    '''public void updatePercentCompleteLastCall(final MboRemote mbo, final IMXGanttModel.PercentCompleteType percentCompleteType)
+    '''returns None\n\n
+    updatePercentCompleteLastCall(final MboRemote mbo, final IMXGanttModel.PercentCompleteType percentCompleteType)\n
     '''
 def COPYSCHEDU():
-    '''public int COPYSCHEDU()
+    '''returns int\n\n
+    COPYSCHEDU()\n
     '''
 def ROLLPRJ():
-    '''public int ROLLPRJ()
+    '''returns int\n\n
+    ROLLPRJ()\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final String sigOption)\n
     '''
 def getCurrentSkdODMERunID():
-    '''public long getCurrentSkdODMERunID()
+    '''returns long\n\n
+    getCurrentSkdODMERunID()\n
     '''
 def setCurrentSkdODMERunID():
-    '''public void setCurrentSkdODMERunID(final long skdODMERunId)
+    '''returns None\n\n
+    setCurrentSkdODMERunID(final long skdODMERunId)\n
     '''
 def checkmofapikey():
-    '''public int checkmofapikey()
+    '''returns int\n\n
+    checkmofapikey()\n
     '''
 def CONFOPTSRV():
-    '''public int CONFOPTSRV()
+    '''returns int\n\n
+    CONFOPTSRV()\n
     '''
 def ODMEVIEW():
-    '''public int ODMEVIEW()
+    '''returns int\n\n
+    ODMEVIEW()\n
     '''
 def ODMESCHD():
-    '''public int ODMESCHD()
+    '''returns int\n\n
+    ODMESCHD()\n
     '''
 def SCENARIOR():
-    '''public int SCENARIOR()
+    '''returns int\n\n
+    SCENARIOR()\n
     '''
 def SCENARIOC():
-    '''public int SCENARIOC()
+    '''returns int\n\n
+    SCENARIOC()\n
     '''
 def SCENARIOS():
-    '''public int SCENARIOS()
-    '''
-def SKDModelCacheThread():
-    '''public SKDModelCacheThread()
-    public SKDModelCacheThread(final UserInfo ui, final String projectId)
+    '''returns int\n\n
+    SCENARIOS()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

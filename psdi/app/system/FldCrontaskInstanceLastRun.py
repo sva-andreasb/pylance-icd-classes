@@ -1,6 +1,8 @@
-def FldCrontaskInstanceLastRun():
-    '''public FldCrontaskInstanceLastRun(final MboValue mbv)
+def ():
+    '''returns FldCrontaskInstanceLastRun\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

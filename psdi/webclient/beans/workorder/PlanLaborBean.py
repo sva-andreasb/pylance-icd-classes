@@ -1,3 +1,4 @@
 def selectcraftrateonplans():
-    '''public int selectcraftrateonplans()
+    '''returns int\n\n
+    selectcraftrateonplans()\n
     '''

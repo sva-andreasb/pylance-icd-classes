@@ -1,54 +1,72 @@
-def JMSMXTransactable():
-    '''public JMSMXTransactable()
+def ():
+    '''returns JMSMXTransactable\n\n
+    ()\n
     '''
 def setSyntheticNotf():
-    '''public void setSyntheticNotf(final boolean syntheticNotf)
+    '''returns None\n\n
+    setSyntheticNotf(final boolean syntheticNotf)\n
     '''
 def setMessages():
-    '''public void setMessages(final Map<String, JMSData> mapOfMessages)
+    '''returns None\n\n
+    setMessages(final Map<String, JMSData> mapOfMessages)\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''
 def getMessages():
-    '''public Map getMessages()
+    '''returns Map\n\n
+    getMessages()\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def commitTransaction():
-    '''public void commitTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    commitTransaction(final MXTransaction txn)\n
     '''
 def rollbackTransaction():
-    '''public void rollbackTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    rollbackTransaction(final MXTransaction txn)\n
     '''
 def undoTransaction():
-    '''public void undoTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    undoTransaction(final MXTransaction txn)\n
     '''
 def validateTransaction():
-    '''public boolean validateTransaction(final MXTransaction txn)
+    '''returns boolean\n\n
+    validateTransaction(final MXTransaction txn)\n
     '''
 def fireEventsBeforeDB():
-    '''public void fireEventsBeforeDB(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsBeforeDB(final MXTransaction txn)\n
     '''
 def fireEventsAfterDB():
-    '''public void fireEventsAfterDB(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDB(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def isEvent():
-    '''public boolean isEvent()
+    '''returns boolean\n\n
+    isEvent()\n
     '''
 def setIsEvent():
-    '''public void setIsEvent(final boolean isEvent)
+    '''returns None\n\n
+    setIsEvent(final boolean isEvent)\n
     '''
 def storeMesage():
-    '''public void storeMesage(final String status, final JMSData messageData, final String queueName, final Exception e, final UserInfo info)
+    '''returns None\n\n
+    storeMesage(final String status, final JMSData messageData, final String queueName, final Exception e, final UserInfo info)\n
     '''
 def deleteMesage():
-    '''public void deleteMesage(final JMSData messageData, final String queueName, final UserInfo info)
+    '''returns None\n\n
+    deleteMesage(final JMSData messageData, final String queueName, final UserInfo info)\n
     '''
 def sendEmail():
-    '''public boolean sendEmail(final QueueConfig config, final Connection conn, final Exception e)
+    '''returns boolean\n\n
+    sendEmail(final QueueConfig config, final Connection conn, final Exception e)\n
     '''

@@ -1,3 +1,4 @@
-def skdSortCombo():
-    '''public skdSortCombo()
+def ():
+    '''returns skdSortCombo\n\n
+    ()\n
     '''

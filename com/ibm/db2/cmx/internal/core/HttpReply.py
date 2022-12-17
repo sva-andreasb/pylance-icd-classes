@@ -1,3 +1,4 @@
-def HttpReply():
-    '''public HttpReply(final InputStream inputStream_)
+def ():
+    '''returns HttpReply\n\n
+    (final InputStream inputStream_)\n
     '''

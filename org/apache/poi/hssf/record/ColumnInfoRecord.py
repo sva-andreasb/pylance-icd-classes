@@ -1,68 +1,90 @@
 sid = "short  125"
-def ColumnInfoRecord():
-    '''public ColumnInfoRecord()
-    public ColumnInfoRecord(final RecordInputStream in)
+def ():
+    '''returns ColumnInfoRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setFirstColumn():
-    '''public void setFirstColumn(final int fc)
+    '''returns None\n\n
+    setFirstColumn(final int fc)\n
     '''
 def setLastColumn():
-    '''public void setLastColumn(final int lc)
+    '''returns None\n\n
+    setLastColumn(final int lc)\n
     '''
 def setColumnWidth():
-    '''public void setColumnWidth(final int cw)
+    '''returns None\n\n
+    setColumnWidth(final int cw)\n
     '''
 def setXFIndex():
-    '''public void setXFIndex(final int xfi)
+    '''returns None\n\n
+    setXFIndex(final int xfi)\n
     '''
 def setHidden():
-    '''public void setHidden(final boolean ishidden)
+    '''returns None\n\n
+    setHidden(final boolean ishidden)\n
     '''
 def setOutlineLevel():
-    '''public void setOutlineLevel(final int olevel)
+    '''returns None\n\n
+    setOutlineLevel(final int olevel)\n
     '''
 def setCollapsed():
-    '''public void setCollapsed(final boolean isCollapsed)
+    '''returns None\n\n
+    setCollapsed(final boolean isCollapsed)\n
     '''
 def getFirstColumn():
-    '''public int getFirstColumn()
+    '''returns int\n\n
+    getFirstColumn()\n
     '''
 def getLastColumn():
-    '''public int getLastColumn()
+    '''returns int\n\n
+    getLastColumn()\n
     '''
 def getColumnWidth():
-    '''public int getColumnWidth()
+    '''returns int\n\n
+    getColumnWidth()\n
     '''
 def getXFIndex():
-    '''public int getXFIndex()
+    '''returns int\n\n
+    getXFIndex()\n
     '''
 def getHidden():
-    '''public boolean getHidden()
+    '''returns boolean\n\n
+    getHidden()\n
     '''
 def getOutlineLevel():
-    '''public int getOutlineLevel()
+    '''returns int\n\n
+    getOutlineLevel()\n
     '''
 def getCollapsed():
-    '''public boolean getCollapsed()
+    '''returns boolean\n\n
+    getCollapsed()\n
     '''
 def containsColumn():
-    '''public boolean containsColumn(final int columnIndex)
+    '''returns boolean\n\n
+    containsColumn(final int columnIndex)\n
     '''
 def isAdjacentBefore():
-    '''public boolean isAdjacentBefore(final ColumnInfoRecord other)
+    '''returns boolean\n\n
+    isAdjacentBefore(final ColumnInfoRecord other)\n
     '''
 def formatMatches():
-    '''public boolean formatMatches(final ColumnInfoRecord other)
+    '''returns boolean\n\n
+    formatMatches(final ColumnInfoRecord other)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public ColumnInfoRecord clone()
+    '''returns ColumnInfoRecord\n\n
+    clone()\n
     '''

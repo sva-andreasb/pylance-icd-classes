@@ -1,39 +1,32 @@
-def AuthorizationCodeResponseUrl():
-    '''public AuthorizationCodeResponseUrl(final String encodedResponseUrl)
-    '''
-def getCode():
-    '''public final String getCode()
+def ():
+    '''returns AuthorizationCodeResponseUrl\n\n
+    (final String encodedResponseUrl)\n
     '''
 def setCode():
-    '''public AuthorizationCodeResponseUrl setCode(final String code)
-    '''
-def getState():
-    '''public final String getState()
+    '''returns AuthorizationCodeResponseUrl\n\n
+    setCode(final String code)\n
     '''
 def setState():
-    '''public AuthorizationCodeResponseUrl setState(final String state)
-    '''
-def getError():
-    '''public final String getError()
+    '''returns AuthorizationCodeResponseUrl\n\n
+    setState(final String state)\n
     '''
 def setError():
-    '''public AuthorizationCodeResponseUrl setError(final String error)
-    '''
-def getErrorDescription():
-    '''public final String getErrorDescription()
+    '''returns AuthorizationCodeResponseUrl\n\n
+    setError(final String error)\n
     '''
 def setErrorDescription():
-    '''public AuthorizationCodeResponseUrl setErrorDescription(final String errorDescription)
-    '''
-def getErrorUri():
-    '''public final String getErrorUri()
+    '''returns AuthorizationCodeResponseUrl\n\n
+    setErrorDescription(final String errorDescription)\n
     '''
 def setErrorUri():
-    '''public AuthorizationCodeResponseUrl setErrorUri(final String errorUri)
+    '''returns AuthorizationCodeResponseUrl\n\n
+    setErrorUri(final String errorUri)\n
     '''
 def set():
-    '''public AuthorizationCodeResponseUrl set(final String fieldName, final Object value)
+    '''returns AuthorizationCodeResponseUrl\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public AuthorizationCodeResponseUrl clone()
+    '''returns AuthorizationCodeResponseUrl\n\n
+    clone()\n
     '''

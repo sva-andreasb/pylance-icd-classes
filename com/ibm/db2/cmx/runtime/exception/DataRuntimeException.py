@@ -1,27 +1,36 @@
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getErrorCode():
-    '''public Integer getErrorCode()
+    '''returns Integer\n\n
+    getErrorCode()\n
     '''
 def getSQLState():
-    '''public String getSQLState()
+    '''returns String\n\n
+    getSQLState()\n
     '''
 def isTransient():
-    '''public boolean isTransient()
+    '''returns boolean\n\n
+    isTransient()\n
     '''
 def getErrorType():
-    '''public ErrorType getErrorType()
+    '''returns ErrorType\n\n
+    getErrorType()\n
     '''
 def getExceptionLocation():
-    '''public int getExceptionLocation()
+    '''returns int\n\n
+    getExceptionLocation()\n
     '''
 def getProductVersion():
-    '''public String getProductVersion()
+    '''returns String\n\n
+    getProductVersion()\n
     '''
 def getNextException():
-    '''public DataRuntimeException getNextException()
+    '''returns DataRuntimeException\n\n
+    getNextException()\n
     '''
 def addLastException():
-    '''public void addLastException(final DataRuntimeException nextException)
+    '''returns None\n\n
+    addLastException(final DataRuntimeException nextException)\n
     '''

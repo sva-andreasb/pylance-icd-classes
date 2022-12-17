@@ -1,6 +1,8 @@
 def addObject():
-    '''public void addObject(final DEREncodable obj)
+    '''returns None\n\n
+    addObject(final DEREncodable obj)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''

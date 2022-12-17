@@ -1,6 +1,8 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

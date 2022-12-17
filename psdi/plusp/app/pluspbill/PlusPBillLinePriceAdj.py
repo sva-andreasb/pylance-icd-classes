@@ -1,18 +1,24 @@
-def PlusPBillLinePriceAdj():
-    '''public PlusPBillLinePriceAdj(final MboSet ms)
+def ():
+    '''returns PlusPBillLinePriceAdj\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def editAdjustment():
-    '''public void editAdjustment()
+    '''returns None\n\n
+    editAdjustment()\n
     '''
 def viewLastAdjustment():
-    '''public void viewLastAdjustment()
+    '''returns None\n\n
+    viewLastAdjustment()\n
     '''
 def applyBilledPriceAdjustment():
-    '''public void applyBilledPriceAdjustment()
+    '''returns None\n\n
+    applyBilledPriceAdjustment()\n
     '''
 def setPrices():
-    '''public void setPrices()
+    '''returns None\n\n
+    setPrices()\n
     '''

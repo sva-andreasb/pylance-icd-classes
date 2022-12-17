@@ -1,9 +1,12 @@
-def DefaultSocks5InitialResponse():
-    '''public DefaultSocks5InitialResponse(final Socks5AuthMethod authMethod)
+def ():
+    '''returns DefaultSocks5InitialResponse\n\n
+    (final Socks5AuthMethod authMethod)\n
     '''
 def authMethod():
-    '''public Socks5AuthMethod authMethod()
+    '''returns Socks5AuthMethod\n\n
+    authMethod()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,54 +1,72 @@
-def ReflectorFinderComp():
-    '''public ReflectorFinderComp(final STSession stSession)
+def ():
+    '''returns ReflectorFinderComp\n\n
+    (final STSession stSession)\n
     '''
 def loggedIn():
-    '''public void loggedIn(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedIn(final LoginEvent loginEvent)\n
     '''
 def loggedOut():
-    '''public void loggedOut(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedOut(final LoginEvent loginEvent)\n
     '''
 def addReflectorFinderListener():
-    '''public void addReflectorFinderListener(final ReflectorListener reflectorListener)
+    '''returns None\n\n
+    addReflectorFinderListener(final ReflectorListener reflectorListener)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def removeReflectorFinderListener():
-    '''public void removeReflectorFinderListener(final ReflectorListener o)
+    '''returns None\n\n
+    removeReflectorFinderListener(final ReflectorListener o)\n
     '''
 def serviceAvailable():
-    '''public void serviceAvailable(final ServiceEvent serviceEvent)
+    '''returns None\n\n
+    serviceAvailable(final ServiceEvent serviceEvent)\n
     '''
 def channelOpened():
-    '''public void channelOpened(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpened(final ChannelEvent channelEvent)\n
     '''
 def channelOpenFailed():
-    '''public void channelOpenFailed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpenFailed(final ChannelEvent channelEvent)\n
     '''
 def channelClosed():
-    '''public void channelClosed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelClosed(final ChannelEvent channelEvent)\n
     '''
 def channelMsgReceived():
-    '''public void channelMsgReceived(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelMsgReceived(final ChannelEvent channelEvent)\n
     '''
 def getReflectorList():
-    '''public ReflectorInfo[] getReflectorList()
+    '''returns ReflectorInfo[]\n\n
+    getReflectorList()\n
     '''
 def addReflectorIdListener():
-    '''public void addReflectorIdListener(final ReflectorListener e)
+    '''returns None\n\n
+    addReflectorIdListener(final ReflectorListener e)\n
     '''
 def removeReflectorIdListener():
-    '''public void removeReflectorIdListener(final ReflectorListener o)
+    '''returns None\n\n
+    removeReflectorIdListener(final ReflectorListener o)\n
     '''
 def addReflectorPathIdListener():
-    '''public void addReflectorPathIdListener(final ReflectorListener e)
+    '''returns None\n\n
+    addReflectorPathIdListener(final ReflectorListener e)\n
     '''
 def removeReflectorPathIdListener():
-    '''public void removeReflectorPathIdListener(final ReflectorListener o)
+    '''returns None\n\n
+    removeReflectorPathIdListener(final ReflectorListener o)\n
     '''
 def getReflectorWithIds():
-    '''public ReflectorInfoWithId[] getReflectorWithIds()
+    '''returns ReflectorInfoWithId[]\n\n
+    getReflectorWithIds()\n
     '''
 def requestReflectorPathId():
-    '''public void requestReflectorPathId(final String s, final int n)
+    '''returns None\n\n
+    requestReflectorPathId(final String s, final int n)\n
     '''

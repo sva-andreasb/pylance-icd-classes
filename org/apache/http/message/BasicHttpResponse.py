@@ -1,37 +1,48 @@
-def BasicHttpResponse():
-    '''public BasicHttpResponse(final StatusLine statusline, final ReasonPhraseCatalog catalog, final Locale locale)
-    public BasicHttpResponse(final StatusLine statusline)
-    public BasicHttpResponse(final ProtocolVersion ver, final int code, final String reason)
+def ():
+    '''returns BasicHttpResponse\n\n
+    (final StatusLine statusline, final ReasonPhraseCatalog catalog, final Locale locale)\n
+    (final StatusLine statusline)\n
+    (final ProtocolVersion ver, final int code, final String reason)\n
     '''
 def getProtocolVersion():
-    '''public ProtocolVersion getProtocolVersion()
+    '''returns ProtocolVersion\n\n
+    getProtocolVersion()\n
     '''
 def getStatusLine():
-    '''public StatusLine getStatusLine()
+    '''returns StatusLine\n\n
+    getStatusLine()\n
     '''
 def getEntity():
-    '''public HttpEntity getEntity()
+    '''returns HttpEntity\n\n
+    getEntity()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setStatusLine():
-    '''public void setStatusLine(final StatusLine statusline)
-    public void setStatusLine(final ProtocolVersion ver, final int code)
-    public void setStatusLine(final ProtocolVersion ver, final int code, final String reason)
+    '''returns None\n\n
+    setStatusLine(final StatusLine statusline)\n
+    setStatusLine(final ProtocolVersion ver, final int code)\n
+    setStatusLine(final ProtocolVersion ver, final int code, final String reason)\n
     '''
 def setStatusCode():
-    '''public void setStatusCode(final int code)
+    '''returns None\n\n
+    setStatusCode(final int code)\n
     '''
 def setReasonPhrase():
-    '''public void setReasonPhrase(final String reason)
+    '''returns None\n\n
+    setReasonPhrase(final String reason)\n
     '''
 def setEntity():
-    '''public void setEntity(final HttpEntity entity)
+    '''returns None\n\n
+    setEntity(final HttpEntity entity)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

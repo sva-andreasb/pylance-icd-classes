@@ -1,50 +1,65 @@
 FETCH_INTERVAL_DAYS_PROP = "String  \"mxe.skd.availabilitydaterange\""
-def OtherResourcesAvailabilityView():
-    '''public OtherResourcesAvailabilityView()
+def ():
+    '''returns OtherResourcesAvailabilityView\n\n
+    ()\n
     '''
 def handleMessage():
-    '''public void handleMessage(final String msgId, final Object... args)
+    '''returns None\n\n
+    handleMessage(final String msgId, final Object... args)\n
     '''
 def initializeView():
-    '''public Component initializeView()
+    '''returns Component\n\n
+    initializeView()\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent e)
+    '''returns None\n\n
+    componentResized(final ComponentEvent e)\n
     '''
 def adjustmentValueChanged():
-    '''public void adjustmentValueChanged(final AdjustmentEvent e)
+    '''returns None\n\n
+    adjustmentValueChanged(final AdjustmentEvent e)\n
     '''
 def getMenu():
-    '''public JPopupMenu getMenu(final MouseEvent e)
+    '''returns JPopupMenu\n\n
+    getMenu(final MouseEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def onSuccess():
-    '''public void onSuccess(final Availability data)
+    '''returns None\n\n
+    onSuccess(final Availability data)\n
     '''
 def onError():
-    '''public void onError(final Throwable t)
+    '''returns None\n\n
+    onError(final Throwable t)\n
     '''
 def attachModel():
-    '''public void attachModel(final AppletGanttModel model)
+    '''returns None\n\n
+    attachModel(final AppletGanttModel model)\n
     '''
 def setResourceViewContext():
-    '''public void setResourceViewContext(final ResourceViewContext context)
+    '''returns None\n\n
+    setResourceViewContext(final ResourceViewContext context)\n
     '''
 def activate():
-    '''public void activate()
+    '''returns None\n\n
+    activate()\n
     '''
 def deactivate():
-    '''public void deactivate()
+    '''returns None\n\n
+    deactivate()\n
     '''
 def getDividerComponent():
-    '''public Object getDividerComponent()
+    '''returns Object\n\n
+    getDividerComponent()\n
     '''
 def activityChanged():
-    '''public void activityChanged(final ActivityEvent ae)
+    '''returns None\n\n
+    activityChanged(final ActivityEvent ae)\n
     '''

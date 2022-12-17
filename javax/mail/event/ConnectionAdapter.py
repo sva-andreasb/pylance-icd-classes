@@ -1,9 +1,12 @@
 def closed():
-    '''public void closed(final ConnectionEvent e)
+    '''returns None\n\n
+    closed(final ConnectionEvent e)\n
     '''
 def disconnected():
-    '''public void disconnected(final ConnectionEvent e)
+    '''returns None\n\n
+    disconnected(final ConnectionEvent e)\n
     '''
 def opened():
-    '''public void opened(final ConnectionEvent e)
+    '''returns None\n\n
+    opened(final ConnectionEvent e)\n
     '''

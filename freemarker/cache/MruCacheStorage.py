@@ -1,30 +1,40 @@
-def MruCacheStorage():
-    '''public MruCacheStorage(final int strongSizeLimit, final int softSizeLimit)
+def ():
+    '''returns MruCacheStorage\n\n
+    (final int strongSizeLimit, final int softSizeLimit)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public void put(final Object key, final Object value)
+    '''returns None\n\n
+    put(final Object key, final Object value)\n
     '''
 def remove():
-    '''public void remove(final Object key)
+    '''returns None\n\n
+    remove(final Object key)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getStrongSizeLimit():
-    '''public int getStrongSizeLimit()
+    '''returns int\n\n
+    getStrongSizeLimit()\n
     '''
 def getSoftSizeLimit():
-    '''public int getSoftSizeLimit()
+    '''returns int\n\n
+    getSoftSizeLimit()\n
     '''
 def getStrongSize():
-    '''public int getStrongSize()
+    '''returns int\n\n
+    getStrongSize()\n
     '''
 def getSoftSize():
-    '''public int getSoftSize()
+    '''returns int\n\n
+    getSoftSize()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''

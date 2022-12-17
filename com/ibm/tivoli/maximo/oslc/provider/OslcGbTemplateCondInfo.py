@@ -1,21 +1,28 @@
-def OslcGbTemplateCondInfo():
-    '''public OslcGbTemplateCondInfo(final String conditionname, final String condition, final String color)
+def ():
+    '''returns OslcGbTemplateCondInfo\n\n
+    (final String conditionname, final String condition, final String color)\n
     '''
 def getCondition():
-    '''public String getCondition()
+    '''returns String\n\n
+    getCondition()\n
     '''
 def setCondition():
-    '''public void setCondition(final String condition)
+    '''returns None\n\n
+    setCondition(final String condition)\n
     '''
 def getColor():
-    '''public String getColor()
+    '''returns String\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final String color)
+    '''returns None\n\n
+    setColor(final String color)\n
     '''
 def getConditionname():
-    '''public String getConditionname()
+    '''returns String\n\n
+    getConditionname()\n
     '''
 def setConditionname():
-    '''public void setConditionname(final String conditionname)
+    '''returns None\n\n
+    setConditionname(final String conditionname)\n
     '''

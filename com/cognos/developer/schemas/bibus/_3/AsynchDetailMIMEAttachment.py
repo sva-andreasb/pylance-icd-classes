@@ -1,37 +1,29 @@
-def AsynchDetailMIMEAttachment():
-    '''public AsynchDetailMIMEAttachment()
-    public AsynchDetailMIMEAttachment(final byte[] data, final BigInteger dataSize, final String dataType)
+def ():
+    '''returns AsynchDetailMIMEAttachment\n\n
+    ()\n
+    (final byte[] data, final BigInteger dataSize, final String dataType)\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def setData():
-    '''public void setData(final byte[] data)
+    '''returns None\n\n
+    setData(final byte[] data)\n
     '''
 def getDataSize():
-    '''public BigInteger getDataSize()
+    '''returns BigInteger\n\n
+    getDataSize()\n
     '''
 def setDataSize():
-    '''public void setDataSize(final BigInteger dataSize)
+    '''returns None\n\n
+    setDataSize(final BigInteger dataSize)\n
     '''
 def getDataType():
-    '''public String getDataType()
+    '''returns String\n\n
+    getDataType()\n
     '''
 def setDataType():
-    '''public void setDataType(final String dataType)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setDataType(final String dataType)\n
     '''

@@ -1,82 +1,74 @@
-def WriterBasedGenerator():
-    '''public WriterBasedGenerator(final IOContext ctxt, final int features, final ObjectCodec codec, final Writer w)
+def ():
+    '''returns WriterBasedGenerator\n\n
+    (final IOContext ctxt, final int features, final ObjectCodec codec, final Writer w)\n
     '''
 def setHighestNonEscapedChar():
-    '''public JsonGenerator setHighestNonEscapedChar(final int charCode)
+    '''returns JsonGenerator\n\n
+    setHighestNonEscapedChar(final int charCode)\n
     '''
 def getHighestEscapedChar():
-    '''public int getHighestEscapedChar()
+    '''returns int\n\n
+    getHighestEscapedChar()\n
     '''
 def setCharacterEscapes():
-    '''public JsonGenerator setCharacterEscapes(final CharacterEscapes esc)
+    '''returns JsonGenerator\n\n
+    setCharacterEscapes(final CharacterEscapes esc)\n
     '''
 def getCharacterEscapes():
-    '''public CharacterEscapes getCharacterEscapes()
+    '''returns CharacterEscapes\n\n
+    getCharacterEscapes()\n
     '''
 def getOutputTarget():
-    '''public Object getOutputTarget()
-    '''
-def writeFieldName():
-    '''public final void writeFieldName(final String name)
-    public final void writeFieldName(final SerializedString name)
-    public final void writeFieldName(final SerializableString name)
-    '''
-def writeStringField():
-    '''public final void writeStringField(final String fieldName, final String value)
-    '''
-def writeStartArray():
-    '''public final void writeStartArray()
-    '''
-def writeEndArray():
-    '''public final void writeEndArray()
-    '''
-def writeStartObject():
-    '''public final void writeStartObject()
-    '''
-def writeEndObject():
-    '''public final void writeEndObject()
+    '''returns Object\n\n
+    getOutputTarget()\n
     '''
 def _writeFieldName():
-    '''public void _writeFieldName(final SerializableString name, final boolean commaBefore)
+    '''returns None\n\n
+    _writeFieldName(final SerializableString name, final boolean commaBefore)\n
     '''
 def writeString():
-    '''public void writeString(final String text)
-    public void writeString(final char[] text, final int offset, final int len)
-    public final void writeString(final SerializableString sstr)
+    '''returns None\n\n
+    writeString(final String text)\n
+    writeString(final char[] text, final int offset, final int len)\n
     '''
 def writeRawUTF8String():
-    '''public void writeRawUTF8String(final byte[] text, final int offset, final int length)
+    '''returns None\n\n
+    writeRawUTF8String(final byte[] text, final int offset, final int length)\n
     '''
 def writeUTF8String():
-    '''public void writeUTF8String(final byte[] text, final int offset, final int length)
+    '''returns None\n\n
+    writeUTF8String(final byte[] text, final int offset, final int length)\n
     '''
 def writeRaw():
-    '''public void writeRaw(final String text)
-    public void writeRaw(final String text, final int start, final int len)
-    public void writeRaw(final char[] text, final int offset, final int len)
-    public void writeRaw(final char c)
+    '''returns None\n\n
+    writeRaw(final String text)\n
+    writeRaw(final String text, final int start, final int len)\n
+    writeRaw(final char[] text, final int offset, final int len)\n
+    writeRaw(final char c)\n
     '''
 def writeBinary():
-    '''public void writeBinary(final Base64Variant b64variant, final byte[] data, final int offset, final int len)
+    '''returns None\n\n
+    writeBinary(final Base64Variant b64variant, final byte[] data, final int offset, final int len)\n
     '''
 def writeNumber():
-    '''public void writeNumber(final int i)
-    public void writeNumber(final long l)
-    public void writeNumber(final BigInteger value)
-    public void writeNumber(final double d)
-    public void writeNumber(final float f)
-    public void writeNumber(final BigDecimal value)
-    public void writeNumber(final String encodedValue)
+    '''returns None\n\n
+    writeNumber(final int i)\n
+    writeNumber(final long l)\n
+    writeNumber(final BigInteger value)\n
+    writeNumber(final double d)\n
+    writeNumber(final float f)\n
+    writeNumber(final BigDecimal value)\n
+    writeNumber(final String encodedValue)\n
     '''
 def writeBoolean():
-    '''public void writeBoolean(final boolean state)
+    '''returns None\n\n
+    writeBoolean(final boolean state)\n
     '''
 def writeNull():
-    '''public void writeNull()
-    '''
-def flush():
-    '''public final void flush()
+    '''returns None\n\n
+    writeNull()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,73 +1,97 @@
-def WFAssignment():
-    '''public WFAssignment(final MboSet ms)
+def ():
+    '''returns WFAssignment\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def complete():
-    '''public void complete(final String memo)
+    '''returns None\n\n
+    complete(final String memo)\n
     '''
 def inactivate():
-    '''public void inactivate()
+    '''returns None\n\n
+    inactivate()\n
     '''
 def cancel():
-    '''public void cancel(final String memo)
+    '''returns None\n\n
+    cancel(final String memo)\n
     '''
 def escalate():
-    '''public void escalate()
-    public void escalate(final String memo)
+    '''returns None\n\n
+    escalate()\n
+    escalate(final String memo)\n
     '''
 def calcDueDate():
-    '''public Date calcDueDate(final PersonRemote person, final Date startDate)
+    '''returns Date\n\n
+    calcDueDate(final PersonRemote person, final Date startDate)\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def wfValidate():
-    '''public void wfValidate(final Vector<MXException> errs)
+    '''returns None\n\n
+    wfValidate(final Vector<MXException> errs)\n
     '''
 def getTask():
-    '''public WFTask getTask()
+    '''returns WFTask\n\n
+    getTask()\n
     '''
 def getWFInstance():
-    '''public WFInstanceRemote getWFInstance()
+    '''returns WFInstanceRemote\n\n
+    getWFInstance()\n
     '''
 def getInstance():
-    '''public WFInstance getInstance()
+    '''returns WFInstance\n\n
+    getInstance()\n
     '''
 def getNode():
-    '''public WFNodeRemote getNode()
+    '''returns WFNodeRemote\n\n
+    getNode()\n
     '''
 def evaluateAssignmentCondition():
-    '''public boolean evaluateAssignmentCondition()
+    '''returns boolean\n\n
+    evaluateAssignmentCondition()\n
     '''
 def generateAssignments():
-    '''public void generateAssignments()
+    '''returns None\n\n
+    generateAssignments()\n
     '''
 def sendNotification():
-    '''public void sendNotification(final PersonRemote person)
+    '''returns None\n\n
+    sendNotification(final PersonRemote person)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def generateForRole():
-    '''public void generateForRole(final MaxRoleRemote role)
+    '''returns None\n\n
+    generateForRole(final MaxRoleRemote role)\n
     '''
 def generateForGroup():
-    '''public void generateForGroup(final PersonGroupRemote group)
+    '''returns None\n\n
+    generateForGroup(final PersonGroupRemote group)\n
     '''
 def getOriginalPersonForAssignment():
-    '''public PersonRemote getOriginalPersonForAssignment()
+    '''returns PersonRemote\n\n
+    getOriginalPersonForAssignment()\n
     '''
 def generateForPerson():
-    '''public void generateForPerson(final PersonRemote person)
+    '''returns None\n\n
+    generateForPerson(final PersonRemote person)\n
     '''
 def activeAssignment():
-    '''public void activeAssignment(final PersonRemote person, final WFAssignmentSet activeSet)
+    '''returns None\n\n
+    activeAssignment(final PersonRemote person, final WFAssignmentSet activeSet)\n
     '''
 def foundPersonToAssignForRole():
-    '''public boolean foundPersonToAssignForRole()
+    '''returns boolean\n\n
+    foundPersonToAssignForRole()\n
     '''

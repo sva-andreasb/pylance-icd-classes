@@ -1,3 +1,4 @@
-def GLAuthSet():
-    '''public GLAuthSet(final MboServerInterface ms)
+def ():
+    '''returns GLAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''

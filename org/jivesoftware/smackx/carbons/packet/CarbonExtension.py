@@ -1,32 +1,29 @@
 NAMESPACE = "String  \"urn:xmpp:carbons:2\""
 ELEMENT = "String  \"private\""
-def CarbonExtension():
-    '''public CarbonExtension(final Direction dir, final Forwarded fwd)
+def ():
+    '''returns CarbonExtension\n\n
+    (final Direction dir, final Forwarded fwd)\n
     '''
 def getDirection():
-    '''public Direction getDirection()
+    '''returns Direction\n\n
+    getDirection()\n
     '''
 def getForwarded():
-    '''public Forwarded getForwarded()
+    '''returns Forwarded\n\n
+    getForwarded()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public String toXML(final String enclosingNamespace)
-    '''
-def getFrom():
-    '''public static CarbonExtension getFrom(final Message msg)
-    '''
-def from():
-    '''public static CarbonExtension from(final Message msg)
-    '''
-def addTo():
-    '''public static void addTo(final Message message)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''

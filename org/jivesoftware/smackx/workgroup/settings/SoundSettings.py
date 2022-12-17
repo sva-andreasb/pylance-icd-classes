@@ -1,20 +1,26 @@
 ELEMENT_NAME = "String  \"sound-settings\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def setOutgoingSound():
-    '''public void setOutgoingSound(final String outgoingSound)
+    '''returns None\n\n
+    setOutgoingSound(final String outgoingSound)\n
     '''
 def setIncomingSound():
-    '''public void setIncomingSound(final String incomingSound)
+    '''returns None\n\n
+    setIncomingSound(final String incomingSound)\n
     '''
 def getIncomingSoundBytes():
-    '''public byte[] getIncomingSoundBytes()
+    '''returns byte[]\n\n
+    getIncomingSoundBytes()\n
     '''
 def getOutgoingSoundBytes():
-    '''public byte[] getOutgoingSoundBytes()
+    '''returns byte[]\n\n
+    getOutgoingSoundBytes()\n
     '''
-def SoundSettings():
-    '''public SoundSettings()
+def ():
+    '''returns SoundSettings\n\n
+    ()\n
     '''
 def parse():
-    '''public SoundSettings parse(final XmlPullParser parser, final int initialDepth)
+    '''returns SoundSettings\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

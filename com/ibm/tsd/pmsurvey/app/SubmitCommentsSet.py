@@ -1,3 +1,4 @@
-def SubmitCommentsSet():
-    '''public SubmitCommentsSet(final MboServerInterface ms)
+def ():
+    '''returns SubmitCommentsSet\n\n
+    (final MboServerInterface ms)\n
     '''

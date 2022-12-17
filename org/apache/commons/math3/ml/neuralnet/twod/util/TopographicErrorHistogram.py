@@ -1,6 +1,8 @@
-def TopographicErrorHistogram():
-    '''public TopographicErrorHistogram(final boolean relativeCount, final DistanceMeasure distance)
+def ():
+    '''returns TopographicErrorHistogram\n\n
+    (final boolean relativeCount, final DistanceMeasure distance)\n
     '''
 def computeImage():
-    '''public double[][] computeImage(final NeuronSquareMesh2D map, final Iterable<double[]> data)
+    '''returns double[][]\n\n
+    computeImage(final NeuronSquareMesh2D map, final Iterable<double[]> data)\n
     '''

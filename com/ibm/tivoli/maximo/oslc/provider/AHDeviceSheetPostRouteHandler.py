@@ -1,9 +1,8 @@
-def getPathTokensMeta():
-    '''public Map<String, String> getPathTokensMeta()
-    '''
 def getAssetMeterCount():
-    '''public int getAssetMeterCount(final MboSetRemote assetMeterMboSet, final String assetnum)
+    '''returns int\n\n
+    getAssetMeterCount(final MboSetRemote assetMeterMboSet, final String assetnum)\n
     '''
 def handleRequest():
-    '''public OslcResourceResponse handleRequest(final OslcRequest oslcRequest)
+    '''returns OslcResourceResponse\n\n
+    handleRequest(final OslcRequest oslcRequest)\n
     '''

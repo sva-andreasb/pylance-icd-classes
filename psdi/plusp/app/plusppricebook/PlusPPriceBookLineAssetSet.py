@@ -1,6 +1,8 @@
-def PlusPPriceBookLineAssetSet():
-    '''public PlusPPriceBookLineAssetSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPriceBookLineAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

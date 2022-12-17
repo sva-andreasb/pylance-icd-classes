@@ -1,3 +1,4 @@
-def TKTemplateSpecSet():
-    '''public TKTemplateSpecSet(final MboServerInterface ms)
+def ():
+    '''returns TKTemplateSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''

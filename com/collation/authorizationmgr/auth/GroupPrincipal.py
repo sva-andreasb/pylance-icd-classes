@@ -1,15 +1,20 @@
-def GroupPrincipal():
-    '''public GroupPrincipal(final String name)
+def ():
+    '''returns GroupPrincipal\n\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

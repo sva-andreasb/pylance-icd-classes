@@ -1,6 +1,8 @@
-def StackTraceElementDeserializer():
-    '''public StackTraceElementDeserializer()
+def ():
+    '''returns StackTraceElementDeserializer\n\n
+    ()\n
     '''
 def deserialize():
-    '''public StackTraceElement deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''returns StackTraceElement\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
     '''

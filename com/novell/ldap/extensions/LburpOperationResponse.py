@@ -1,6 +1,8 @@
-def LburpOperationResponse():
-    '''public LburpOperationResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns LburpOperationResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getResponse():
-    '''public HashMap getResponse()
+    '''returns HashMap\n\n
+    getResponse()\n
     '''

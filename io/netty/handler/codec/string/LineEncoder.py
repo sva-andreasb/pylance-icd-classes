@@ -1,6 +1,7 @@
-def LineEncoder():
-    '''public LineEncoder()
-    public LineEncoder(final LineSeparator lineSeparator)
-    public LineEncoder(final Charset charset)
-    public LineEncoder(final LineSeparator lineSeparator, final Charset charset)
+def ():
+    '''returns LineEncoder\n\n
+    ()\n
+    (final LineSeparator lineSeparator)\n
+    (final Charset charset)\n
+    (final LineSeparator lineSeparator, final Charset charset)\n
     '''

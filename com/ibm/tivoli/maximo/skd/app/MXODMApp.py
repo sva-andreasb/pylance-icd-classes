@@ -1,12 +1,16 @@
-def MXODMApp():
-    '''public MXODMApp(final MboSet ms)
+def ():
+    '''returns MXODMApp\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def getOptimizationService():
-    '''public String getOptimizationService(final UserInfo userInfo)
+    '''returns String\n\n
+    getOptimizationService(final UserInfo userInfo)\n
     '''

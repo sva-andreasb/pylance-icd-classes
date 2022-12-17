@@ -1,156 +1,184 @@
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def with():
-    '''public ObjectWriter with(final SerializationFeature feature)
-    public ObjectWriter with(final SerializationFeature first, final SerializationFeature... other)
-    public ObjectWriter with(final JsonGenerator.Feature feature)
-    public ObjectWriter with(final FormatFeature feature)
-    public ObjectWriter with(final DateFormat df)
-    public ObjectWriter with(final FilterProvider filterProvider)
-    public ObjectWriter with(final PrettyPrinter pp)
-    public ObjectWriter with(final FormatSchema schema)
-    public ObjectWriter with(final Locale l)
-    public ObjectWriter with(final TimeZone tz)
-    public ObjectWriter with(final Base64Variant b64variant)
-    public ObjectWriter with(final CharacterEscapes escapes)
-    public ObjectWriter with(final JsonFactory f)
-    public ObjectWriter with(final ContextAttributes attrs)
-    public GeneratorSettings with(PrettyPrinter pp)
-    public GeneratorSettings with(final FormatSchema sch)
-    public GeneratorSettings with(final CharacterEscapes esc)
+    '''returns GeneratorSettings\n\n
+    with(final SerializationFeature feature)\n
+    with(final SerializationFeature first, final SerializationFeature... other)\n
+    with(final JsonGenerator.Feature feature)\n
+    with(final FormatFeature feature)\n
+    with(final DateFormat df)\n
+    with(final FilterProvider filterProvider)\n
+    with(final PrettyPrinter pp)\n
+    with(final FormatSchema schema)\n
+    with(final Locale l)\n
+    with(final TimeZone tz)\n
+    with(final Base64Variant b64variant)\n
+    with(final CharacterEscapes escapes)\n
+    with(final JsonFactory f)\n
+    with(final ContextAttributes attrs)\n
+    with(PrettyPrinter pp)\n
+    with(final FormatSchema sch)\n
+    with(final CharacterEscapes esc)\n
     '''
 def withFeatures():
-    '''public ObjectWriter withFeatures(final SerializationFeature... features)
-    public ObjectWriter withFeatures(final JsonGenerator.Feature... features)
-    public ObjectWriter withFeatures(final FormatFeature... features)
+    '''returns ObjectWriter\n\n
+    withFeatures(final SerializationFeature... features)\n
+    withFeatures(final JsonGenerator.Feature... features)\n
+    withFeatures(final FormatFeature... features)\n
     '''
 def without():
-    '''public ObjectWriter without(final SerializationFeature feature)
-    public ObjectWriter without(final SerializationFeature first, final SerializationFeature... other)
-    public ObjectWriter without(final JsonGenerator.Feature feature)
-    public ObjectWriter without(final FormatFeature feature)
+    '''returns ObjectWriter\n\n
+    without(final SerializationFeature feature)\n
+    without(final SerializationFeature first, final SerializationFeature... other)\n
+    without(final JsonGenerator.Feature feature)\n
+    without(final FormatFeature feature)\n
     '''
 def withoutFeatures():
-    '''public ObjectWriter withoutFeatures(final SerializationFeature... features)
-    public ObjectWriter withoutFeatures(final JsonGenerator.Feature... features)
-    public ObjectWriter withoutFeatures(final FormatFeature... features)
+    '''returns ObjectWriter\n\n
+    withoutFeatures(final SerializationFeature... features)\n
+    withoutFeatures(final JsonGenerator.Feature... features)\n
+    withoutFeatures(final FormatFeature... features)\n
     '''
 def forType():
-    '''public ObjectWriter forType(final JavaType rootType)
-    public ObjectWriter forType(final Class<?> rootType)
-    public ObjectWriter forType(final TypeReference<?> rootType)
+    '''returns ObjectWriter\n\n
+    forType(final JavaType rootType)\n
+    forType(final Class<?> rootType)\n
+    forType(final TypeReference<?> rootType)\n
     '''
 def withType():
-    '''public ObjectWriter withType(final JavaType rootType)
-    public ObjectWriter withType(final Class<?> rootType)
-    public ObjectWriter withType(final TypeReference<?> rootType)
+    '''returns ObjectWriter\n\n
+    withType(final JavaType rootType)\n
+    withType(final Class<?> rootType)\n
+    withType(final TypeReference<?> rootType)\n
     '''
 def withDefaultPrettyPrinter():
-    '''public ObjectWriter withDefaultPrettyPrinter()
+    '''returns ObjectWriter\n\n
+    withDefaultPrettyPrinter()\n
     '''
 def withRootName():
-    '''public ObjectWriter withRootName(final String rootName)
-    public ObjectWriter withRootName(final PropertyName rootName)
+    '''returns ObjectWriter\n\n
+    withRootName(final String rootName)\n
+    withRootName(final PropertyName rootName)\n
     '''
 def withoutRootName():
-    '''public ObjectWriter withoutRootName()
+    '''returns ObjectWriter\n\n
+    withoutRootName()\n
     '''
 def withSchema():
-    '''public ObjectWriter withSchema(final FormatSchema schema)
+    '''returns ObjectWriter\n\n
+    withSchema(final FormatSchema schema)\n
     '''
 def withView():
-    '''public ObjectWriter withView(final Class<?> view)
+    '''returns ObjectWriter\n\n
+    withView(final Class<?> view)\n
     '''
 def withAttributes():
-    '''public ObjectWriter withAttributes(final Map<?, ?> attrs)
+    '''returns ObjectWriter\n\n
+    withAttributes(final Map<?, ?> attrs)\n
     '''
 def withAttribute():
-    '''public ObjectWriter withAttribute(final Object key, final Object value)
+    '''returns ObjectWriter\n\n
+    withAttribute(final Object key, final Object value)\n
     '''
 def withoutAttribute():
-    '''public ObjectWriter withoutAttribute(final Object key)
+    '''returns ObjectWriter\n\n
+    withoutAttribute(final Object key)\n
     '''
 def withRootValueSeparator():
-    '''public ObjectWriter withRootValueSeparator(final String sep)
-    public ObjectWriter withRootValueSeparator(final SerializableString sep)
-    public GeneratorSettings withRootValueSeparator(final String sep)
-    public GeneratorSettings withRootValueSeparator(final SerializableString sep)
+    '''returns GeneratorSettings\n\n
+    withRootValueSeparator(final String sep)\n
+    withRootValueSeparator(final SerializableString sep)\n
+    withRootValueSeparator(final String sep)\n
+    withRootValueSeparator(final SerializableString sep)\n
     '''
 def writeValues():
-    '''public SequenceWriter writeValues(final File out)
-    public SequenceWriter writeValues(final JsonGenerator gen)
-    public SequenceWriter writeValues(final Writer out)
-    public SequenceWriter writeValues(final OutputStream out)
-    public SequenceWriter writeValues(final DataOutput out)
+    '''returns SequenceWriter\n\n
+    writeValues(final File out)\n
+    writeValues(final JsonGenerator gen)\n
+    writeValues(final Writer out)\n
+    writeValues(final OutputStream out)\n
+    writeValues(final DataOutput out)\n
     '''
 def writeValuesAsArray():
-    '''public SequenceWriter writeValuesAsArray(final File out)
-    public SequenceWriter writeValuesAsArray(final JsonGenerator gen)
-    public SequenceWriter writeValuesAsArray(final Writer out)
-    public SequenceWriter writeValuesAsArray(final OutputStream out)
-    public SequenceWriter writeValuesAsArray(final DataOutput out)
+    '''returns SequenceWriter\n\n
+    writeValuesAsArray(final File out)\n
+    writeValuesAsArray(final JsonGenerator gen)\n
+    writeValuesAsArray(final Writer out)\n
+    writeValuesAsArray(final OutputStream out)\n
+    writeValuesAsArray(final DataOutput out)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final SerializationFeature f)
-    public boolean isEnabled(final MapperFeature f)
-    public boolean isEnabled(final JsonParser.Feature f)
-    public boolean isEnabled(final JsonGenerator.Feature f)
+    '''returns boolean\n\n
+    isEnabled(final SerializationFeature f)\n
+    isEnabled(final MapperFeature f)\n
+    isEnabled(final JsonParser.Feature f)\n
+    isEnabled(final JsonGenerator.Feature f)\n
     '''
 def getConfig():
-    '''public SerializationConfig getConfig()
+    '''returns SerializationConfig\n\n
+    getConfig()\n
     '''
 def getFactory():
-    '''public JsonFactory getFactory()
+    '''returns JsonFactory\n\n
+    getFactory()\n
     '''
 def getTypeFactory():
-    '''public TypeFactory getTypeFactory()
+    '''returns TypeFactory\n\n
+    getTypeFactory()\n
     '''
 def hasPrefetchedSerializer():
-    '''public boolean hasPrefetchedSerializer()
+    '''returns boolean\n\n
+    hasPrefetchedSerializer()\n
     '''
 def getAttributes():
-    '''public ContextAttributes getAttributes()
+    '''returns ContextAttributes\n\n
+    getAttributes()\n
     '''
 def writeValue():
-    '''public void writeValue(final JsonGenerator gen, final Object value)
-    public void writeValue(final File resultFile, final Object value)
-    public void writeValue(final OutputStream out, final Object value)
-    public void writeValue(final Writer w, final Object value)
-    public void writeValue(final DataOutput out, final Object value)
+    '''returns None\n\n
+    writeValue(final JsonGenerator gen, final Object value)\n
+    writeValue(final File resultFile, final Object value)\n
+    writeValue(final OutputStream out, final Object value)\n
+    writeValue(final Writer w, final Object value)\n
+    writeValue(final DataOutput out, final Object value)\n
     '''
 def writeValueAsString():
-    '''public String writeValueAsString(final Object value)
+    '''returns String\n\n
+    writeValueAsString(final Object value)\n
     '''
 def writeValueAsBytes():
-    '''public byte[] writeValueAsBytes(final Object value)
+    '''returns byte[]\n\n
+    writeValueAsBytes(final Object value)\n
     '''
 def acceptJsonFormatVisitor():
-    '''public void acceptJsonFormatVisitor(final JavaType type, final JsonFormatVisitorWrapper visitor)
-    public void acceptJsonFormatVisitor(final Class<?> rawType, final JsonFormatVisitorWrapper visitor)
+    '''returns None\n\n
+    acceptJsonFormatVisitor(final JavaType type, final JsonFormatVisitorWrapper visitor)\n
+    acceptJsonFormatVisitor(final Class<?> rawType, final JsonFormatVisitorWrapper visitor)\n
     '''
 def canSerialize():
-    '''public boolean canSerialize(final Class<?> type)
-    public boolean canSerialize(final Class<?> type, final AtomicReference<Throwable> cause)
+    '''returns boolean\n\n
+    canSerialize(final Class<?> type)\n
+    canSerialize(final Class<?> type, final AtomicReference<Throwable> cause)\n
     '''
-def GeneratorSettings():
-    '''public GeneratorSettings(final PrettyPrinter pp, final FormatSchema sch, final CharacterEscapes esc, final SerializableString rootSep)
+def ():
+    '''returns GeneratorSettings\n\n
+    (final PrettyPrinter pp, final FormatSchema sch, final CharacterEscapes esc, final SerializableString rootSep)\n
     '''
 def initialize():
-    '''public void initialize(final JsonGenerator gen)
+    '''returns None\n\n
+    initialize(final JsonGenerator gen)\n
     '''
 def forRootType():
-    '''public Prefetch forRootType(final ObjectWriter parent, final JavaType newType)
-    '''
-def getValueSerializer():
-    '''public final JsonSerializer<Object> getValueSerializer()
-    '''
-def getTypeSerializer():
-    '''public final TypeSerializer getTypeSerializer()
+    '''returns Prefetch\n\n
+    forRootType(final ObjectWriter parent, final JavaType newType)\n
     '''
 def hasSerializer():
-    '''public boolean hasSerializer()
+    '''returns boolean\n\n
+    hasSerializer()\n
     '''
 def serialize():
-    '''public void serialize(final JsonGenerator gen, final Object value, final DefaultSerializerProvider prov)
+    '''returns None\n\n
+    serialize(final JsonGenerator gen, final Object value, final DefaultSerializerProvider prov)\n
     '''

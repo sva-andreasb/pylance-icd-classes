@@ -1,6 +1,8 @@
-def ReportMessageProviderImpl():
-    '''public ReportMessageProviderImpl(final String langCode, final MXServerRemote mxServerRemote)
+def ():
+    '''returns ReportMessageProviderImpl\n\n
+    (final String langCode, final MXServerRemote mxServerRemote)\n
     '''
 def getMessage():
-    '''public String getMessage(final String key)
+    '''returns String\n\n
+    getMessage(final String key)\n
     '''

@@ -1,3 +1,4 @@
 def reloadTable():
-    '''public void reloadTable()
+    '''returns None\n\n
+    reloadTable()\n
     '''

@@ -1,3 +1,4 @@
-def ReportLookupList():
-    '''public ReportLookupList(final MboSet ms)
+def ():
+    '''returns ReportLookupList\n\n
+    (final MboSet ms)\n
     '''

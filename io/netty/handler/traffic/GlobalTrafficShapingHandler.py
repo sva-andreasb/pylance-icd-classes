@@ -1,28 +1,32 @@
-def GlobalTrafficShapingHandler():
-    '''public GlobalTrafficShapingHandler(final ScheduledExecutorService executor, final long writeLimit, final long readLimit, final long checkInterval, final long maxTime)
-    public GlobalTrafficShapingHandler(final ScheduledExecutorService executor, final long writeLimit, final long readLimit, final long checkInterval)
-    public GlobalTrafficShapingHandler(final ScheduledExecutorService executor, final long writeLimit, final long readLimit)
-    public GlobalTrafficShapingHandler(final ScheduledExecutorService executor, final long checkInterval)
-    public GlobalTrafficShapingHandler(final EventExecutor executor)
+def ():
+    '''returns GlobalTrafficShapingHandler\n\n
+    (final ScheduledExecutorService executor, final long writeLimit, final long readLimit, final long checkInterval, final long maxTime)\n
+    (final ScheduledExecutorService executor, final long writeLimit, final long readLimit, final long checkInterval)\n
+    (final ScheduledExecutorService executor, final long writeLimit, final long readLimit)\n
+    (final ScheduledExecutorService executor, final long checkInterval)\n
+    (final EventExecutor executor)\n
     '''
 def getMaxGlobalWriteSize():
-    '''public long getMaxGlobalWriteSize()
+    '''returns long\n\n
+    getMaxGlobalWriteSize()\n
     '''
 def setMaxGlobalWriteSize():
-    '''public void setMaxGlobalWriteSize(final long maxGlobalWriteSize)
+    '''returns None\n\n
+    setMaxGlobalWriteSize(final long maxGlobalWriteSize)\n
     '''
 def queuesSize():
-    '''public long queuesSize()
-    '''
-def release():
-    '''public final void release()
+    '''returns long\n\n
+    queuesSize()\n
     '''
 def handlerAdded():
-    '''public void handlerAdded(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerAdded(final ChannelHandlerContext ctx)\n
     '''
 def handlerRemoved():
-    '''public void handlerRemoved(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerRemoved(final ChannelHandlerContext ctx)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

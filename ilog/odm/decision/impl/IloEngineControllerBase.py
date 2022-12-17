@@ -1,109 +1,142 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def publish():
-    '''public void publish(final Object publishable)
+    '''returns None\n\n
+    publish(final Object publishable)\n
     '''
 def isSilent():
-    '''public boolean isSilent()
+    '''returns boolean\n\n
+    isSilent()\n
     '''
 def setSilent():
-    '''public void setSilent(final boolean status)
+    '''returns None\n\n
+    setSilent(final boolean status)\n
     '''
 def getEngineReport():
-    '''public IloEngineReport getEngineReport()
+    '''returns IloEngineReport\n\n
+    getEngineReport()\n
     '''
 def explainAllObjectives():
-    '''public IloExplanation explainAllObjectives(String[] properties)
+    '''returns IloExplanation\n\n
+    explainAllObjectives(String[] properties)\n
     '''
 def explainObjectives():
-    '''public IloExplanation explainObjectives(final IloDecisionObjective[] objectives, String[] properties)
+    '''returns IloExplanation\n\n
+    explainObjectives(final IloDecisionObjective[] objectives, String[] properties)\n
     '''
 def explainRequirements():
-    '''public IloExplanation explainRequirements(final Iterator<?> reqIt, String[] properties, final int depth, final boolean explainParents)
+    '''returns IloExplanation\n\n
+    explainRequirements(final Iterator<?> reqIt, String[] properties, final int depth, final boolean explainParents)\n
     '''
 def getDecisionModel():
-    '''public IloDecisionModel getDecisionModel()
+    '''returns IloDecisionModel\n\n
+    getDecisionModel()\n
     '''
 def getFormattedProperty():
-    '''public Serializable getFormattedProperty(final IloDecisionModel.Element elt, final int index, final IloPropertiesDef propDefs)
+    '''returns Serializable\n\n
+    getFormattedProperty(final IloDecisionModel.Element elt, final int index, final IloPropertiesDef propDefs)\n
     '''
 def interpretInput():
-    '''public Object interpretInput(final Object value, final Class<?> requiredType)
-    public Object[] interpretInput(final Object[] values, final Class<?>[] requiredTypes)
+    '''returns Object[]\n\n
+    interpretInput(final Object value, final Class<?> requiredType)\n
+    interpretInput(final Object[] values, final Class<?>[] requiredTypes)\n
     '''
 def objectiveIterator():
-    '''public Iterator<IloDecisionObjective> objectiveIterator()
+    '''returns Iterator<IloDecisionObjective>\n\n
+    objectiveIterator()\n
     '''
 def formatValue():
-    '''public Serializable formatValue(final Object value)
+    '''returns Serializable\n\n
+    formatValue(final Object value)\n
     '''
 def formatValues():
-    '''public Serializable[] formatValues(final Object[] values)
+    '''returns Serializable[]\n\n
+    formatValues(final Object[] values)\n
     '''
 def interpretDataAccess():
-    '''public Object interpretDataAccess(final IloDataAccess path, final Class<?> requiredType)
+    '''returns Object\n\n
+    interpretDataAccess(final IloDataAccess path, final Class<?> requiredType)\n
     '''
 def declareObjectHandle():
-    '''public void declareObjectHandle(final Object o, final IloObjectHandle handle)
+    '''returns None\n\n
+    declareObjectHandle(final Object o, final IloObjectHandle handle)\n
     '''
 def getObject():
-    '''public Object getObject(final IloObjectHandle handle)
+    '''returns Object\n\n
+    getObject(final IloObjectHandle handle)\n
     '''
 def getObjectHandle():
-    '''public IloObjectHandle getObjectHandle(final Object obj)
+    '''returns IloObjectHandle\n\n
+    getObjectHandle(final Object obj)\n
     '''
 def undeclareObjectHandle():
-    '''public Object undeclareObjectHandle(final IloObjectHandle handle)
+    '''returns Object\n\n
+    undeclareObjectHandle(final IloObjectHandle handle)\n
     '''
 def getCurrentModel():
-    '''public IloDecisionModel getCurrentModel()
+    '''returns IloDecisionModel\n\n
+    getCurrentModel()\n
     '''
 def selectSharedScope():
-    '''public void selectSharedScope(final boolean isShared)
+    '''returns None\n\n
+    selectSharedScope(final boolean isShared)\n
     '''
 def isSharedScope():
-    '''public boolean isSharedScope()
+    '''returns boolean\n\n
+    isSharedScope()\n
     '''
 def print():
-    '''public void print(final OutputStream os, final Iterator<?> modelEltIt)
+    '''returns None\n\n
+    print(final OutputStream os, final Iterator<?> modelEltIt)\n
     '''
 def nextTmplInstId():
-    '''public String nextTmplInstId(final String templateNm)
+    '''returns String\n\n
+    nextTmplInstId(final String templateNm)\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def getRequirement():
-    '''public IloRequirement getRequirement(final String name)
-    public IloRequirement getRequirement(final String name, final IloCompositeRequirement parent)
+    '''returns IloRequirement\n\n
+    getRequirement(final String name)\n
+    getRequirement(final String name, final IloCompositeRequirement parent)\n
     '''
 def runEngine():
-    '''public boolean runEngine(final int mode, final int explainDepth, final int timeLimitSeconds)
+    '''returns boolean\n\n
+    runEngine(final int mode, final int explainDepth, final int timeLimitSeconds)\n
     '''
 def getRequirementConnector():
-    '''public IloRequirementConnector getRequirementConnector()
+    '''returns IloRequirementConnector\n\n
+    getRequirementConnector()\n
     '''
 def getDefaultPriorityMananger():
-    '''public IloDefaultPriorityManager getDefaultPriorityMananger()
+    '''returns IloDefaultPriorityManager\n\n
+    getDefaultPriorityMananger()\n
     '''
 def getMessageEvaluatorManager():
-    '''public IloMessageEvaluatorManager getMessageEvaluatorManager()
+    '''returns IloMessageEvaluatorManager\n\n
+    getMessageEvaluatorManager()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public IloRequirement next()
-    public IloRequirement next()
-    public IloRequirement next()
+    '''returns IloRequirement\n\n
+    next()\n
+    next()\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove()\n
+    remove()\n
+    remove()\n
     '''
-def ReqIterator():
-    '''public ReqIterator(final Iterator<?> it, final IloRequirement.Status status)
-    public ReqIterator(final Iterator<?> it, final IloRequirement.Status[] statusArray)
+def ():
+    '''returns ReqIterator\n\n
+    (final Iterator<?> it, final IloRequirement.Status status)\n
+    (final Iterator<?> it, final IloRequirement.Status[] statusArray)\n
     '''

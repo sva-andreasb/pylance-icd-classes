@@ -1,12 +1,12 @@
-def ASN1Object():
-    '''public ASN1Object(final ASN1Identifier id)
+def ():
+    '''returns ASN1Object\n\n
+    (final ASN1Identifier id)\n
     '''
 def getIdentifier():
-    '''public ASN1Identifier getIdentifier()
-    '''
-def getEncoding():
-    '''public final byte[] getEncoding(final ASN1Encoder asn1Encoder)
+    '''returns ASN1Identifier\n\n
+    getIdentifier()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

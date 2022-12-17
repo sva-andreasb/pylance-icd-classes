@@ -1,4 +1,5 @@
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File dir, final String name)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File dir, final String name)\n
     '''

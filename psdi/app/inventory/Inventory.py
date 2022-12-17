@@ -1,386 +1,507 @@
-def Inventory():
-    '''public Inventory(final MboSet ms)
+def ():
+    '''returns Inventory\n\n
+    (final MboSet ms)\n
     '''
 def getProcess():
-    '''public String getProcess()
+    '''returns String\n\n
+    getProcess()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def setIsKitComponentToAddToStore():
-    '''public void setIsKitComponentToAddToStore(final boolean isKitComponentToAddToStore)
+    '''returns None\n\n
+    setIsKitComponentToAddToStore(final boolean isKitComponentToAddToStore)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setCostType():
-    '''public void setCostType()
+    '''returns None\n\n
+    setCostType()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def isKit():
-    '''public boolean isKit()
+    '''returns boolean\n\n
+    isKit()\n
     '''
 def isCapitalized():
-    '''public boolean isCapitalized()
+    '''returns boolean\n\n
+    isCapitalized()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def addUpdateInvVendor():
-    '''public void addUpdateInvVendor()
+    '''returns None\n\n
+    addUpdateInvVendor()\n
     '''
 def getPrimaryInvVendor():
-    '''public MboRemote getPrimaryInvVendor(final MboSetRemote invVendSet)
+    '''returns MboRemote\n\n
+    getPrimaryInvVendor(final MboSetRemote invVendSet)\n
     '''
 def doAdjustment():
-    '''public MboRemote doAdjustment(final NonPersistentMboRemote invAdj)
+    '''returns MboRemote\n\n
+    doAdjustment(final NonPersistentMboRemote invAdj)\n
     '''
 def adjustCurrentBalance():
-    '''public MboRemote adjustCurrentBalance(final String binnum, final String lotnum, final double newBalance, final String conditionCode)
+    '''returns MboRemote\n\n
+    adjustCurrentBalance(final String binnum, final String lotnum, final double newBalance, final String conditionCode)\n
     '''
 def adjustPhysicalCount():
-    '''public MboRemote adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate)
-    public MboRemote adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate, final String ownersysid)
-    public MboRemote adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate, final String ownersysid, final String conditionCode)
+    '''returns MboRemote\n\n
+    adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate)\n
+    adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate, final String ownersysid)\n
+    adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate, final String ownersysid, final String conditionCode)\n
     '''
 def getDefaultIssueCost():
-    '''public double getDefaultIssueCost(final AssetRemote assetRemote, final String conditionCode)
-    public double getDefaultIssueCost(final AssetRemote assetRemote)
-    public double getDefaultIssueCost()
-    public double getDefaultIssueCost(final String conditionCode)
-    public double getDefaultIssueCost(final ArrayList<InvLifoFifoCost> invLifoFifoCostList)
+    '''returns double\n\n
+    getDefaultIssueCost(final AssetRemote assetRemote, final String conditionCode)\n
+    getDefaultIssueCost(final AssetRemote assetRemote)\n
+    getDefaultIssueCost()\n
+    getDefaultIssueCost(final String conditionCode)\n
+    getDefaultIssueCost(final ArrayList<InvLifoFifoCost> invLifoFifoCostList)\n
     '''
 def updateInventoryAverageCost():
-    '''public void updateInventoryAverageCost(final double quantity, final double totalvalue)
-    public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr)
-    public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, final InvCost invCost)
-    public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, InvCost invCost, final boolean transferWithinStore)
-    public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, final String conditionCode)
+    '''returns None\n\n
+    updateInventoryAverageCost(final double quantity, final double totalvalue)\n
+    updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr)\n
+    updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, final InvCost invCost)\n
+    updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, InvCost invCost, final boolean transferWithinStore)\n
+    updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, final String conditionCode)\n
     '''
 def getInvCostRecord():
-    '''public MboRemote getInvCostRecord(final String conditionCode)
+    '''returns MboRemote\n\n
+    getInvCostRecord(final String conditionCode)\n
     '''
 def addInvLifoFifoCostRecord():
-    '''public MboRemote addInvLifoFifoCostRecord(final String conditioncode)
-    public MboRemote addInvLifoFifoCostRecord(final double quantity, final double unitcost, final String conditioncode, final String getName, final long matrectransid)
+    '''returns MboRemote\n\n
+    addInvLifoFifoCostRecord(final String conditioncode)\n
+    addInvLifoFifoCostRecord(final double quantity, final double unitcost, final String conditioncode, final String getName, final long matrectransid)\n
     '''
 def updateInventoryIssueDetails():
-    '''public void updateInventoryIssueDetails(final Date issDate, final double quantity)
+    '''returns None\n\n
+    updateInventoryIssueDetails(final Date issDate, final double quantity)\n
     '''
 def updateInventoryLastCost():
-    '''public void updateInventoryLastCost(final double unitcost)
-    public void updateInventoryLastCost(final double unitcost, final double exr)
-    public void updateInventoryLastCost(final double unitcost, final double exr, InvCost invcost)
+    '''returns None\n\n
+    updateInventoryLastCost(final double unitcost)\n
+    updateInventoryLastCost(final double unitcost, final double exr)\n
+    updateInventoryLastCost(final double unitcost, final double exr, InvCost invcost)\n
     '''
 def updateInventoryDeliveryTime():
-    '''public void updateInventoryDeliveryTime(final double deliveryTime)
+    '''returns None\n\n
+    updateInventoryDeliveryTime(final double deliveryTime)\n
     '''
 def adjustAverageCost():
-    '''public MboRemote adjustAverageCost(final double newcost, final String conditionCode)
+    '''returns MboRemote\n\n
+    adjustAverageCost(final double newcost, final String conditionCode)\n
     '''
 def changeStockCategory():
-    '''public void changeStockCategory(final String newcat)
+    '''returns None\n\n
+    changeStockCategory(final String newcat)\n
     '''
 def adjustStandardCost():
-    '''public MboRemote adjustStandardCost(final double newcost, final String conditionCode)
+    '''returns MboRemote\n\n
+    adjustStandardCost(final double newcost, final String conditionCode)\n
     '''
 def getDefaultAverageCost():
-    '''public double getDefaultAverageCost()
+    '''returns double\n\n
+    getDefaultAverageCost()\n
     '''
 def zeroYTDQuantities():
-    '''public void zeroYTDQuantities()
+    '''returns None\n\n
+    zeroYTDQuantities()\n
     '''
 def reconcileBalances():
-    '''public void reconcileBalances()
-    public void reconcileBalances(final String controlacc, final String shrinkageacc, final String remark)
-    public MboRemote reconcileBalances(final String binnum, final String lotnum)
+    '''returns MboRemote\n\n
+    reconcileBalances()\n
+    reconcileBalances(final String controlacc, final String shrinkageacc, final String remark)\n
+    reconcileBalances(final String binnum, final String lotnum)\n
     '''
 def getCurrentBalance():
-    '''public double getCurrentBalance(final String binnum, final String lotnum)
-    public double getCurrentBalance(final String binnum, final String lotnum, final String conditionCode)
+    '''returns double\n\n
+    getCurrentBalance(final String binnum, final String lotnum)\n
+    getCurrentBalance(final String binnum, final String lotnum, final String conditionCode)\n
     '''
 def getPhysicalCount():
-    '''public double getPhysicalCount(final String binnum, final String lotnum)
-    public double getPhysicalCount(final String binnum, final String lotnum, final String conditionCode)
+    '''returns double\n\n
+    getPhysicalCount(final String binnum, final String lotnum)\n
+    getPhysicalCount(final String binnum, final String lotnum, final String conditionCode)\n
     '''
 def addInvBalancesRecord():
-    '''public InvBalancesRemote addInvBalancesRecord(final String binnum, final String lotnum, final double curbal)
-    public InvBalancesRemote addInvBalancesRecord(String binnum, String lotnum, final double curbal, String conditionCode)
+    '''returns InvBalancesRemote\n\n
+    addInvBalancesRecord(final String binnum, final String lotnum, final double curbal)\n
+    addInvBalancesRecord(String binnum, String lotnum, final double curbal, String conditionCode)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def getInvBalanceRecord():
-    '''public InvBalances getInvBalanceRecord(final String binnum, final String lotnum, final String conditionCode)
-    public InvBalances getInvBalanceRecord(String binnum, String lotnum, String conditionCode, String storeLoc, String storeSite)
+    '''returns InvBalances\n\n
+    getInvBalanceRecord(final String binnum, final String lotnum, final String conditionCode)\n
+    getInvBalanceRecord(String binnum, String lotnum, String conditionCode, String storeLoc, String storeSite)\n
     '''
 def getInvBalancesSetForKitComponent():
-    '''public MboSetRemote getInvBalancesSetForKitComponent(String binnum)
+    '''returns MboSetRemote\n\n
+    getInvBalancesSetForKitComponent(String binnum)\n
     '''
 def createIssue():
-    '''public MboRemote createIssue()
+    '''returns MboRemote\n\n
+    createIssue()\n
     '''
 def isStocked():
-    '''public boolean isStocked()
+    '''returns boolean\n\n
+    isStocked()\n
     '''
 def isNonStocked():
-    '''public boolean isNonStocked()
+    '''returns boolean\n\n
+    isNonStocked()\n
     '''
 def isSpecialOrder():
-    '''public boolean isSpecialOrder()
+    '''returns boolean\n\n
+    isSpecialOrder()\n
     '''
 def changeCapitalizedStatus():
-    '''public void changeCapitalizedStatus(final boolean capitalized)
-    public void changeCapitalizedStatus(final boolean capitalized, final String capitalacc, final String memo)
+    '''returns None\n\n
+    changeCapitalizedStatus(final boolean capitalized)\n
+    changeCapitalizedStatus(final boolean capitalized, final String capitalacc, final String memo)\n
     '''
 def calculateCurrentBalance():
-    '''public double calculateCurrentBalance()
+    '''returns double\n\n
+    calculateCurrentBalance()\n
     '''
 def calculateRQtyNotStaged():
-    '''public double calculateRQtyNotStaged()
+    '''returns double\n\n
+    calculateRQtyNotStaged()\n
     '''
 def calculateStagedQty():
-    '''public double calculateStagedQty()
+    '''returns double\n\n
+    calculateStagedQty()\n
     '''
 def calculatePickedQty():
-    '''public double calculatePickedQty()
+    '''returns double\n\n
+    calculatePickedQty()\n
     '''
 def calculateShippedQty():
-    '''public double calculateShippedQty()
+    '''returns double\n\n
+    calculateShippedQty()\n
     '''
 def calculateReceivedQty():
-    '''public double calculateReceivedQty()
+    '''returns double\n\n
+    calculateReceivedQty()\n
     '''
 def calculateHardShippedQty():
-    '''public double calculateHardShippedQty()
+    '''returns double\n\n
+    calculateHardShippedQty()\n
     '''
 def calculateAvailableQty():
-    '''public double calculateAvailableQty()
+    '''returns double\n\n
+    calculateAvailableQty()\n
     '''
 def calculateOverShippedQty():
-    '''public double calculateOverShippedQty()
+    '''returns double\n\n
+    calculateOverShippedQty()\n
     '''
 def setAutoCreateInvCost():
-    '''public void setAutoCreateInvCost(final boolean flag)
+    '''returns None\n\n
+    setAutoCreateInvCost(final boolean flag)\n
     '''
 def setAutoCreateInvBalances():
-    '''public void setAutoCreateInvBalances(final boolean flag)
+    '''returns None\n\n
+    setAutoCreateInvBalances(final boolean flag)\n
     '''
 def canTransferCurrentItem():
-    '''public void canTransferCurrentItem()
+    '''returns None\n\n
+    canTransferCurrentItem()\n
     '''
 def canIssueCurrentItem():
-    '''public void canIssueCurrentItem()
+    '''returns None\n\n
+    canIssueCurrentItem()\n
     '''
 def getInventoryStatus():
-    '''public String getInventoryStatus()
+    '''returns String\n\n
+    getInventoryStatus()\n
     '''
 def canAdjustStdCost():
-    '''public void canAdjustStdCost()
+    '''returns None\n\n
+    canAdjustStdCost()\n
     '''
 def canAdjustAvgCost():
-    '''public void canAdjustAvgCost()
+    '''returns None\n\n
+    canAdjustAvgCost()\n
     '''
 def canAdjustBalance():
-    '''public void canAdjustBalance()
+    '''returns None\n\n
+    canAdjustBalance()\n
     '''
 def canReconcileBalances():
-    '''public void canReconcileBalances()
+    '''returns None\n\n
+    canReconcileBalances()\n
     '''
 def updateCurrentBalance():
-    '''public MboRemote updateCurrentBalance(final String binnum, final String lotnum, final String conditionCode, final double toIncrement)
+    '''returns MboRemote\n\n
+    updateCurrentBalance(final String binnum, final String lotnum, final String conditionCode, final double toIncrement)\n
     '''
 def getErrorMsg():
-    '''public MXApplicationException getErrorMsg()
+    '''returns MXApplicationException\n\n
+    getErrorMsg()\n
     '''
 def canDoAction():
-    '''public void canDoAction()
+    '''returns None\n\n
+    canDoAction()\n
     '''
 def siteReceiptsAndTransfers():
-    '''public MboSetRemote siteReceiptsAndTransfers()
+    '''returns MboSetRemote\n\n
+    siteReceiptsAndTransfers()\n
     '''
 def setKitAction():
-    '''public void setKitAction(final String makeOrBreak)
+    '''returns None\n\n
+    setKitAction(final String makeOrBreak)\n
     '''
 def getKitAction():
-    '''public String getKitAction()
+    '''returns String\n\n
+    getKitAction()\n
     '''
 def kitMakeOrBreak():
-    '''public void kitMakeOrBreak(final KitRemote kit)
-    public void kitMakeOrBreak(final KitRemote kit, final boolean useSourceBinForInvKitAction)
+    '''returns None\n\n
+    kitMakeOrBreak(final KitRemote kit)\n
+    kitMakeOrBreak(final KitRemote kit, final boolean useSourceBinForInvKitAction)\n
     '''
 def canKit():
-    '''public void canKit()
+    '''returns None\n\n
+    canKit()\n
     '''
 def refreshCountDate():
-    '''public void refreshCountDate()
+    '''returns None\n\n
+    refreshCountDate()\n
     '''
 def copyAssetsForIssue():
-    '''public void copyAssetsForIssue(final MboSetRemote assetSet, final MboRemote issueItemToAssetMbo)
+    '''returns None\n\n
+    copyAssetsForIssue(final MboSetRemote assetSet, final MboRemote issueItemToAssetMbo)\n
     '''
 def checkRequestAgainstItemMaxIssue():
-    '''public void checkRequestAgainstItemMaxIssue(final String assetnum, final double qtyRequested)
+    '''returns None\n\n
+    checkRequestAgainstItemMaxIssue(final String assetnum, final double qtyRequested)\n
     '''
 def checkWOExists():
-    '''public boolean checkWOExists()
+    '''returns boolean\n\n
+    checkWOExists()\n
     '''
 def checkInvBalancesExists():
-    '''public boolean checkInvBalancesExists()
+    '''returns boolean\n\n
+    checkInvBalancesExists()\n
     '''
 def checkAssetExists():
-    '''public boolean checkAssetExists()
+    '''returns boolean\n\n
+    checkAssetExists()\n
     '''
 def checkJPExists():
-    '''public boolean checkJPExists()
+    '''returns boolean\n\n
+    checkJPExists()\n
     '''
 def checkMRExists():
-    '''public boolean checkMRExists()
+    '''returns boolean\n\n
+    checkMRExists()\n
     '''
 def checkPRExists():
-    '''public boolean checkPRExists()
+    '''returns boolean\n\n
+    checkPRExists()\n
     '''
 def checkPOExists():
-    '''public boolean checkPOExists()
+    '''returns boolean\n\n
+    checkPOExists()\n
     '''
 def checkContractExists():
-    '''public boolean checkContractExists()
+    '''returns boolean\n\n
+    checkContractExists()\n
     '''
 def checkCIExists():
-    '''public boolean checkCIExists()
+    '''returns boolean\n\n
+    checkCIExists()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
     '''
 def validateChangeStatus():
-    '''public void validateChangeStatus(final String status, final Date date, final String memo)
+    '''returns None\n\n
+    validateChangeStatus(final String status, final Date date, final String memo)\n
     '''
 def isPendobs():
-    '''public boolean isPendobs()
+    '''returns boolean\n\n
+    isPendobs()\n
     '''
 def isObsolete():
-    '''public boolean isObsolete()
+    '''returns boolean\n\n
+    isObsolete()\n
     '''
 def isPlanning():
-    '''public boolean isPlanning()
+    '''returns boolean\n\n
+    isPlanning()\n
     '''
 def checkInvUseStatusForPlanning():
-    '''public boolean checkInvUseStatusForPlanning()
+    '''returns boolean\n\n
+    checkInvUseStatusForPlanning()\n
     '''
 def checkInvUseStatusForPndObs():
-    '''public boolean checkInvUseStatusForPndObs()
+    '''returns boolean\n\n
+    checkInvUseStatusForPndObs()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def getCostType():
-    '''public String getCostType()
+    '''returns String\n\n
+    getCostType()\n
     '''
 def getInvLifoFifoCostRecordSetSorted():
-    '''public MboSetRemote getInvLifoFifoCostRecordSetSorted(final String conditionCode)
+    '''returns MboSetRemote\n\n
+    getInvLifoFifoCostRecordSetSorted(final String conditionCode)\n
     '''
 def getInvLifoFifoCostRecordSet():
-    '''public MboSetRemote getInvLifoFifoCostRecordSet(final String conditionCode)
-    public MboSetRemote getInvLifoFifoCostRecordSet(final String conditionCode, final long transid)
+    '''returns MboSetRemote\n\n
+    getInvLifoFifoCostRecordSet(final String conditionCode)\n
+    getInvLifoFifoCostRecordSet(final String conditionCode, final long transid)\n
     '''
 def consumeInvLifoFifoCostRecord():
-    '''public void consumeInvLifoFifoCostRecord(final double quantity, final String conditionCode)
-    public void consumeInvLifoFifoCostRecord(final double quantity, final String conditionCode, final long transid)
+    '''returns None\n\n
+    consumeInvLifoFifoCostRecord(final double quantity, final String conditionCode)\n
+    consumeInvLifoFifoCostRecord(final double quantity, final String conditionCode, final long transid)\n
     '''
 def consumeInvLifoFifoCostRecordRemaining():
-    '''public void consumeInvLifoFifoCostRecordRemaining(final double quantity, final String conditionCode, final long transid)
+    '''returns None\n\n
+    consumeInvLifoFifoCostRecordRemaining(final double quantity, final String conditionCode, final long transid)\n
     '''
 def getAverageCost():
-    '''public double getAverageCost(final MboSetRemote invLifoFifoCostSet)
+    '''returns double\n\n
+    getAverageCost(final MboSetRemote invLifoFifoCostSet)\n
     '''
 def setAutoCreateInvLifoFifoCost():
-    '''public void setAutoCreateInvLifoFifoCost(final boolean flag)
+    '''returns None\n\n
+    setAutoCreateInvLifoFifoCost(final boolean flag)\n
     '''
 def getAutoCreateInvLifoFifoCost():
-    '''public boolean getAutoCreateInvLifoFifoCost()
+    '''returns boolean\n\n
+    getAutoCreateInvLifoFifoCost()\n
     '''
 def getInvLifoFifoCostRecord():
-    '''public MboRemote getInvLifoFifoCostRecord(final String conditionCode)
+    '''returns MboRemote\n\n
+    getInvLifoFifoCostRecord(final String conditionCode)\n
     '''
 def setNextInvoiceDate():
-    '''public void setNextInvoiceDate()
+    '''returns None\n\n
+    setNextInvoiceDate()\n
     '''
 def getNextDate():
-    '''public Date getNextDate()
+    '''returns Date\n\n
+    getNextDate()\n
     '''
 def addMonths():
-    '''public Date addMonths(final int addMonths, final Date fromDate)
+    '''returns Date\n\n
+    addMonths(final int addMonths, final Date fromDate)\n
     '''
 def addYears():
-    '''public Date addYears(final int addYears, final Date fromDate)
+    '''returns Date\n\n
+    addYears(final int addYears, final Date fromDate)\n
     '''
 def isConsignment():
-    '''public boolean isConsignment()
+    '''returns boolean\n\n
+    isConsignment()\n
     '''
 def updateConsignment():
-    '''public void updateConsignment()
+    '''returns None\n\n
+    updateConsignment()\n
     '''
 def checkReconcileFlag():
-    '''public boolean checkReconcileFlag()
+    '''returns boolean\n\n
+    checkReconcileFlag()\n
     '''
 def POPRExists():
-    '''public boolean POPRExists()
+    '''returns boolean\n\n
+    POPRExists()\n
     '''
 def pendingTransactionExists():
-    '''public boolean pendingTransactionExists(final MboSetRemote transSet)
+    '''returns boolean\n\n
+    pendingTransactionExists(final MboSetRemote transSet)\n
     '''
 def getInvGenType():
-    '''public String getInvGenType()
+    '''returns String\n\n
+    getInvGenType()\n
     '''
 def invUpdateCostType():
-    '''public void invUpdateCostType()
+    '''returns None\n\n
+    invUpdateCostType()\n
     '''
 def checkBalandPOPR():
-    '''public void checkBalandPOPR()
+    '''returns None\n\n
+    checkBalandPOPR()\n
     '''
 def setEditabilityFlags():
-    '''public void setEditabilityFlags()
+    '''returns None\n\n
+    setEditabilityFlags()\n
     '''
 def increaseAccumulativeTotalCurBal():
-    '''public void increaseAccumulativeTotalCurBal(final double currentReceiptQty)
+    '''returns None\n\n
+    increaseAccumulativeTotalCurBal(final double currentReceiptQty)\n
     '''
 def getAccumulativeTotalCurBal():
-    '''public double getAccumulativeTotalCurBal()
+    '''returns double\n\n
+    getAccumulativeTotalCurBal()\n
     '''
 def checkComponentCostType():
-    '''public void checkComponentCostType(final MboSetRemote itemStructKitSet)
+    '''returns None\n\n
+    checkComponentCostType(final MboSetRemote itemStructKitSet)\n
     '''
 def getStatusSetByMaxvarFlag():
-    '''public boolean getStatusSetByMaxvarFlag()
+    '''returns boolean\n\n
+    getStatusSetByMaxvarFlag()\n
     '''
 def calculateRQtyNotStagedForAvailBal():
-    '''public double calculateRQtyNotStagedForAvailBal()
+    '''returns double\n\n
+    calculateRQtyNotStagedForAvailBal()\n
     '''
 def calculateBinCnt():
-    '''public String calculateBinCnt()
+    '''returns String\n\n
+    calculateBinCnt()\n
     '''
 def calculateLotCnt():
-    '''public String calculateLotCnt()
+    '''returns String\n\n
+    calculateLotCnt()\n
     '''
 def hasMultipleInvBalance():
-    '''public Boolean hasMultipleInvBalance()
+    '''returns Boolean\n\n
+    hasMultipleInvBalance()\n
     '''
 def previewReconcileBalances():
-    '''public MboRemote previewReconcileBalances(final String controlacc, final String shrinkageacc, final String remark)
+    '''returns MboRemote\n\n
+    previewReconcileBalances(final String controlacc, final String shrinkageacc, final String remark)\n
     '''
 def updateGLAccount():
-    '''public void updateGLAccount(final String controlacc, final String shrinkageacc)
+    '''returns None\n\n
+    updateGLAccount(final String controlacc, final String shrinkageacc)\n
     '''
 def calculateConditionCodeCnt():
-    '''public String calculateConditionCodeCnt()
+    '''returns String\n\n
+    calculateConditionCodeCnt()\n
     '''

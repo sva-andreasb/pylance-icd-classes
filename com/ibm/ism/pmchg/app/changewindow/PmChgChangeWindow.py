@@ -1,38 +1,50 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmChgChangeWindow():
-    '''public PmChgChangeWindow(final MboSet ms)
+def ():
+    '''returns PmChgChangeWindow\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def getWorkPeriodSet():
-    '''public PmChgWPSetRemote getWorkPeriodSet(final Date workDate)
+    '''returns PmChgWPSetRemote\n\n
+    getWorkPeriodSet(final Date workDate)\n
     '''
 def getCoalesceChangeWindowSet():
-    '''public PmChgCoalesceChangeWindowSetRemote getCoalesceChangeWindowSet(final Date workDate)
+    '''returns PmChgCoalesceChangeWindowSetRemote\n\n
+    getCoalesceChangeWindowSet(final Date workDate)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def linkCIToChangeWindow():
-    '''public void linkCIToChangeWindow(final PmChgChangeWindowRemote pmChgCWRemote, final CISetRemote ciSetRemote)
+    '''returns None\n\n
+    linkCIToChangeWindow(final PmChgChangeWindowRemote pmChgCWRemote, final CISetRemote ciSetRemote)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def addSchedule():
-    '''public void addSchedule(final PmChgChangeWindowSelector mbo)
+    '''returns None\n\n
+    addSchedule(final PmChgChangeWindowSelector mbo)\n
     '''
 def getMonthsAvailableHours():
-    '''public String[][] getMonthsAvailableHours(final GregorianCalendar cal)
-    public String[][] getMonthsAvailableHours(final Calendar cal)
+    '''returns String[][]\n\n
+    getMonthsAvailableHours(final GregorianCalendar cal)\n
+    getMonthsAvailableHours(final Calendar cal)\n
     '''

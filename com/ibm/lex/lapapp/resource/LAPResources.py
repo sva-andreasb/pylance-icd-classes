@@ -36,26 +36,33 @@ PRINT_ERROR_MSG_KEY_B = "String  \"printErrorB\""
 PRINTING_ERROR_TITLE = "String  \"printing_error_title\""
 PRINTING_ERROR_NO_PRINTERS = "String  \"printing_error_no_printers\""
 NON_IBM_KEY = "String  \"non_ibm_key\""
-def LAPResources():
-    '''public LAPResources(final String laPath)
-    public LAPResources(final URL laURL)
+def ():
+    '''returns LAPResources\n\n
+    (final String laPath)\n
+    (final URL laURL)\n
     '''
 def getFontSize():
-    '''public int getFontSize()
+    '''returns int\n\n
+    getFontSize()\n
     '''
 def getImage():
-    '''public Image getImage(final String s)
-    public Image getImage(final String str, final ImageObserver imageObserver)
+    '''returns Image\n\n
+    getImage(final String s)\n
+    getImage(final String str, final ImageObserver imageObserver)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getText():
-    '''public String getText(final String key)
+    '''returns String\n\n
+    getText(final String key)\n
     '''
 def getMessage():
-    '''public String[] getMessage(final String s)
+    '''returns String[]\n\n
+    getMessage(final String s)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''

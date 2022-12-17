@@ -3,49 +3,64 @@ ACTIVE_PANE_LOWER_RIGHT = "short  0"
 ACTIVE_PANE_UPPER_RIGHT = "short  1"
 ACTIVE_PANE_LOWER_LEFT = "short  2"
 ACTIVE_PANE_UPPER_LEFT = "short  3"
-def PaneRecord():
-    '''public PaneRecord()
-    public PaneRecord(final RecordInputStream in)
+def ():
+    '''returns PaneRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getX():
-    '''public short getX()
+    '''returns short\n\n
+    getX()\n
     '''
 def setX():
-    '''public void setX(final short field_1_x)
+    '''returns None\n\n
+    setX(final short field_1_x)\n
     '''
 def getY():
-    '''public short getY()
+    '''returns short\n\n
+    getY()\n
     '''
 def setY():
-    '''public void setY(final short field_2_y)
+    '''returns None\n\n
+    setY(final short field_2_y)\n
     '''
 def getTopRow():
-    '''public short getTopRow()
+    '''returns short\n\n
+    getTopRow()\n
     '''
 def setTopRow():
-    '''public void setTopRow(final short field_3_topRow)
+    '''returns None\n\n
+    setTopRow(final short field_3_topRow)\n
     '''
 def getLeftColumn():
-    '''public short getLeftColumn()
+    '''returns short\n\n
+    getLeftColumn()\n
     '''
 def setLeftColumn():
-    '''public void setLeftColumn(final short field_4_leftColumn)
+    '''returns None\n\n
+    setLeftColumn(final short field_4_leftColumn)\n
     '''
 def getActivePane():
-    '''public short getActivePane()
+    '''returns short\n\n
+    getActivePane()\n
     '''
 def setActivePane():
-    '''public void setActivePane(final short field_5_activePane)
+    '''returns None\n\n
+    setActivePane(final short field_5_activePane)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPActionSet():
-    '''public PlusPActionSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPActionSet\n\n
+    (final MboServerInterface arg0)\n
     '''

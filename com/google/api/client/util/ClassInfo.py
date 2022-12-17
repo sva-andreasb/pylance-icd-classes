@@ -1,25 +1,24 @@
-def of():
-    '''public static ClassInfo of(final Class<?> underlyingClass)
-    public static ClassInfo of(final Class<?> underlyingClass, final boolean ignoreCase)
-    '''
-def getIgnoreCase():
-    '''public final boolean getIgnoreCase()
-    '''
 def getFieldInfo():
-    '''public FieldInfo getFieldInfo(String name)
+    '''returns FieldInfo\n\n
+    getFieldInfo(String name)\n
     '''
 def getField():
-    '''public Field getField(final String name)
+    '''returns Field\n\n
+    getField(final String name)\n
     '''
 def isEnum():
-    '''public boolean isEnum()
+    '''returns boolean\n\n
+    isEnum()\n
     '''
 def getNames():
-    '''public Collection<String> getNames()
+    '''returns Collection<String>\n\n
+    getNames()\n
     '''
 def compare():
-    '''public int compare(final String s0, final String s1)
+    '''returns int\n\n
+    compare(final String s0, final String s1)\n
     '''
 def getFieldInfos():
-    '''public Collection<FieldInfo> getFieldInfos()
+    '''returns Collection<FieldInfo>\n\n
+    getFieldInfos()\n
     '''

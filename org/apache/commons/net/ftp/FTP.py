@@ -15,145 +15,189 @@ STREAM_TRANSFER_MODE = "int  10"
 BLOCK_TRANSFER_MODE = "int  11"
 COMPRESSED_TRANSFER_MODE = "int  12"
 DEFAULT_CONTROL_ENCODING = "String  \"ISO-8859-1\""
-def FTP():
-    '''public FTP()
+def ():
+    '''returns FTP\n\n
+    ()\n
     '''
 def setControlEncoding():
-    '''public void setControlEncoding(final String encoding)
+    '''returns None\n\n
+    setControlEncoding(final String encoding)\n
     '''
 def getControlEncoding():
-    '''public String getControlEncoding()
+    '''returns String\n\n
+    getControlEncoding()\n
     '''
 def addProtocolCommandListener():
-    '''public void addProtocolCommandListener(final ProtocolCommandListener listener)
+    '''returns None\n\n
+    addProtocolCommandListener(final ProtocolCommandListener listener)\n
     '''
 def removeProtocolCommandListener():
-    '''public void removeProtocolCommandListener(final ProtocolCommandListener listener)
+    '''returns None\n\n
+    removeProtocolCommandListener(final ProtocolCommandListener listener)\n
     '''
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def sendCommand():
-    '''public int sendCommand(final String command, final String args)
-    public int sendCommand(final int command, final String args)
-    public int sendCommand(final String command)
-    public int sendCommand(final int command)
+    '''returns int\n\n
+    sendCommand(final String command, final String args)\n
+    sendCommand(final int command, final String args)\n
+    sendCommand(final String command)\n
+    sendCommand(final int command)\n
     '''
 def getReplyCode():
-    '''public int getReplyCode()
+    '''returns int\n\n
+    getReplyCode()\n
     '''
 def getReply():
-    '''public int getReply()
+    '''returns int\n\n
+    getReply()\n
     '''
 def getReplyStrings():
-    '''public String[] getReplyStrings()
+    '''returns String[]\n\n
+    getReplyStrings()\n
     '''
 def getReplyString():
-    '''public String getReplyString()
+    '''returns String\n\n
+    getReplyString()\n
     '''
 def user():
-    '''public int user(final String username)
+    '''returns int\n\n
+    user(final String username)\n
     '''
 def pass():
-    '''public int pass(final String password)
+    '''returns int\n\n
+    pass(final String password)\n
     '''
 def acct():
-    '''public int acct(final String account)
+    '''returns int\n\n
+    acct(final String account)\n
     '''
 def abor():
-    '''public int abor()
+    '''returns int\n\n
+    abor()\n
     '''
 def cwd():
-    '''public int cwd(final String directory)
+    '''returns int\n\n
+    cwd(final String directory)\n
     '''
 def cdup():
-    '''public int cdup()
+    '''returns int\n\n
+    cdup()\n
     '''
 def quit():
-    '''public int quit()
+    '''returns int\n\n
+    quit()\n
     '''
 def rein():
-    '''public int rein()
+    '''returns int\n\n
+    rein()\n
     '''
 def smnt():
-    '''public int smnt(final String dir)
+    '''returns int\n\n
+    smnt(final String dir)\n
     '''
 def port():
-    '''public int port(final InetAddress host, final int port)
+    '''returns int\n\n
+    port(final InetAddress host, final int port)\n
     '''
 def pasv():
-    '''public int pasv()
+    '''returns int\n\n
+    pasv()\n
     '''
 def type():
-    '''public int type(final int fileType, final int formatOrByteSize)
-    public int type(final int fileType)
+    '''returns int\n\n
+    type(final int fileType, final int formatOrByteSize)\n
+    type(final int fileType)\n
     '''
 def stru():
-    '''public int stru(final int structure)
+    '''returns int\n\n
+    stru(final int structure)\n
     '''
 def mode():
-    '''public int mode(final int mode)
+    '''returns int\n\n
+    mode(final int mode)\n
     '''
 def retr():
-    '''public int retr(final String pathname)
+    '''returns int\n\n
+    retr(final String pathname)\n
     '''
 def stor():
-    '''public int stor(final String pathname)
+    '''returns int\n\n
+    stor(final String pathname)\n
     '''
 def stou():
-    '''public int stou()
-    public int stou(final String pathname)
+    '''returns int\n\n
+    stou()\n
+    stou(final String pathname)\n
     '''
 def appe():
-    '''public int appe(final String pathname)
+    '''returns int\n\n
+    appe(final String pathname)\n
     '''
 def allo():
-    '''public int allo(final int bytes)
-    public int allo(final int bytes, final int recordSize)
+    '''returns int\n\n
+    allo(final int bytes)\n
+    allo(final int bytes, final int recordSize)\n
     '''
 def rest():
-    '''public int rest(final String marker)
+    '''returns int\n\n
+    rest(final String marker)\n
     '''
 def rnfr():
-    '''public int rnfr(final String pathname)
+    '''returns int\n\n
+    rnfr(final String pathname)\n
     '''
 def rnto():
-    '''public int rnto(final String pathname)
+    '''returns int\n\n
+    rnto(final String pathname)\n
     '''
 def dele():
-    '''public int dele(final String pathname)
+    '''returns int\n\n
+    dele(final String pathname)\n
     '''
 def rmd():
-    '''public int rmd(final String pathname)
+    '''returns int\n\n
+    rmd(final String pathname)\n
     '''
 def mkd():
-    '''public int mkd(final String pathname)
+    '''returns int\n\n
+    mkd(final String pathname)\n
     '''
 def pwd():
-    '''public int pwd()
+    '''returns int\n\n
+    pwd()\n
     '''
 def list():
-    '''public int list()
-    public int list(final String pathname)
+    '''returns int\n\n
+    list()\n
+    list(final String pathname)\n
     '''
 def nlst():
-    '''public int nlst()
-    public int nlst(final String pathname)
+    '''returns int\n\n
+    nlst()\n
+    nlst(final String pathname)\n
     '''
 def site():
-    '''public int site(final String parameters)
+    '''returns int\n\n
+    site(final String parameters)\n
     '''
 def syst():
-    '''public int syst()
+    '''returns int\n\n
+    syst()\n
     '''
 def stat():
-    '''public int stat()
-    public int stat(final String pathname)
+    '''returns int\n\n
+    stat()\n
+    stat(final String pathname)\n
     '''
 def help():
-    '''public int help()
-    public int help(final String command)
+    '''returns int\n\n
+    help()\n
+    help(final String command)\n
     '''
 def noop():
-    '''public int noop()
+    '''returns int\n\n
+    noop()\n
     '''

@@ -1,6 +1,8 @@
-def PlusCDSSet():
-    '''public PlusCDSSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCDSSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getExternalAPPRList():
-    '''public String getExternalAPPRList()
+    '''returns String\n\n
+    getExternalAPPRList()\n
     '''

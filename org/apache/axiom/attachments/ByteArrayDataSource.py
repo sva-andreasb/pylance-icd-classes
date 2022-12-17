@@ -1,22 +1,29 @@
-def ByteArrayDataSource():
-    '''public ByteArrayDataSource(final byte[] data, final String type)
-    public ByteArrayDataSource(final byte[] data)
+def ():
+    '''returns ByteArrayDataSource\n\n
+    (final byte[] data, final String type)\n
+    (final byte[] data)\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''

@@ -1,51 +1,68 @@
-def OBPNode():
-    '''public OBPNode()
+def ():
+    '''returns OBPNode\n\n
+    ()\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getXmlLocation():
-    '''public String getXmlLocation()
+    '''returns String\n\n
+    getXmlLocation()\n
     '''
 def setXmlLocation():
-    '''public void setXmlLocation(final String xmlLocation)
+    '''returns None\n\n
+    setXmlLocation(final String xmlLocation)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getDoc():
-    '''public String getDoc()
+    '''returns String\n\n
+    getDoc()\n
     '''
 def setDoc():
-    '''public void setDoc(final String doc)
+    '''returns None\n\n
+    setDoc(final String doc)\n
     '''
 def getDecsription():
-    '''public String getDecsription()
+    '''returns String\n\n
+    getDecsription()\n
     '''
 def setDecsription():
-    '''public void setDecsription(final String decsription)
+    '''returns None\n\n
+    setDecsription(final String decsription)\n
     '''
 def markForDelete():
-    '''public void markForDelete(final boolean deleted)
+    '''returns None\n\n
+    markForDelete(final boolean deleted)\n
     '''
 def isMarkedForDelete():
-    '''public boolean isMarkedForDelete()
+    '''returns boolean\n\n
+    isMarkedForDelete()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def getXMLLocalPartName():
-    '''public String getXMLLocalPartName()
+    '''returns String\n\n
+    getXMLLocalPartName()\n
     '''

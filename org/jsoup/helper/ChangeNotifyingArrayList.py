@@ -1,27 +1,35 @@
-def ChangeNotifyingArrayList():
-    '''public ChangeNotifyingArrayList(final int initialCapacity)
+def ():
+    '''returns ChangeNotifyingArrayList\n\n
+    (final int initialCapacity)\n
     '''
 def set():
-    '''public E set(final int index, final E element)
+    '''returns E\n\n
+    set(final int index, final E element)\n
     '''
 def add():
-    '''public boolean add(final E e)
-    public void add(final int index, final E element)
+    '''returns None\n\n
+    add(final E e)\n
+    add(final int index, final E element)\n
     '''
 def remove():
-    '''public E remove(final int index)
-    public boolean remove(final Object o)
+    '''returns boolean\n\n
+    remove(final int index)\n
+    remove(final Object o)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> c)
-    public boolean addAll(final int index, final Collection<? extends E> c)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> c)\n
+    addAll(final int index, final Collection<? extends E> c)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> c)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> c)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> c)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> c)\n
     '''

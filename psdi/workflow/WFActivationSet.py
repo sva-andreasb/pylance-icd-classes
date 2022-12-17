@@ -1,3 +1,4 @@
-def WFActivationSet():
-    '''public WFActivationSet(final MboServerInterface ms)
+def ():
+    '''returns WFActivationSet\n\n
+    (final MboServerInterface ms)\n
     '''

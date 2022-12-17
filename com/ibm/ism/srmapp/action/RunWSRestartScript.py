@@ -1,3 +1,4 @@
 def applyCustomAction():
-    '''public void applyCustomAction(final MboRemote pSDAConfig, final Object[] pArguments)
+    '''returns None\n\n
+    applyCustomAction(final MboRemote pSDAConfig, final Object[] pArguments)\n
     '''

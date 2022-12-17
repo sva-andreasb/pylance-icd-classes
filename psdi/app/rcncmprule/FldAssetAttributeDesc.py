@@ -1,3 +1,4 @@
-def FldAssetAttributeDesc():
-    '''public FldAssetAttributeDesc(final MboValue mbv)
+def ():
+    '''returns FldAssetAttributeDesc\n\n
+    (final MboValue mbv)\n
     '''

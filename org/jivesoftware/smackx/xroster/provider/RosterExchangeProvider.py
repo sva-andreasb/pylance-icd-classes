@@ -1,3 +1,4 @@
 def parse():
-    '''public RosterExchange parse(final XmlPullParser parser, final int initialDepth)
+    '''returns RosterExchange\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

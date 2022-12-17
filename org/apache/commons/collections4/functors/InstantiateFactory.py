@@ -1,10 +1,9 @@
-def instantiateFactory():
-    '''public static <T> Factory<T> instantiateFactory(final Class<T> classToInstantiate, final Class<?>[] paramTypes, final Object[] args)
-    '''
-def InstantiateFactory():
-    '''public InstantiateFactory(final Class<T> classToInstantiate)
-    public InstantiateFactory(final Class<T> classToInstantiate, final Class<?>[] paramTypes, final Object[] args)
+def ():
+    '''returns InstantiateFactory\n\n
+    (final Class<T> classToInstantiate)\n
+    (final Class<T> classToInstantiate, final Class<?>[] paramTypes, final Object[] args)\n
     '''
 def create():
-    '''public T create()
+    '''returns T\n\n
+    create()\n
     '''

@@ -1,42 +1,56 @@
-def Classification():
-    '''public Classification(final MboSet ms)
+def ():
+    '''returns Classification\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''
 def getChildren():
-    '''public MboSetRemote getChildren()
+    '''returns MboSetRemote\n\n
+    getChildren()\n
     '''
 def getParents():
-    '''public MboSetRemote getParents()
+    '''returns MboSetRemote\n\n
+    getParents()\n
     '''
 def getTop():
-    '''public MboSetRemote getTop()
+    '''returns MboSetRemote\n\n
+    getTop()\n
     '''
 def getHierarchies():
-    '''public String[] getHierarchies()
+    '''returns String[]\n\n
+    getHierarchies()\n
     '''
 def getItemSet():
-    '''public MboSetRemote getItemSet()
+    '''returns MboSetRemote\n\n
+    getItemSet()\n
     '''
 def getClassStructureIDs():
-    '''public String getClassStructureIDs()
+    '''returns String\n\n
+    getClassStructureIDs()\n
     '''
 def concatAll():
-    '''public String concatAll(final String[] sa)
+    '''returns String\n\n
+    concatAll(final String[] sa)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

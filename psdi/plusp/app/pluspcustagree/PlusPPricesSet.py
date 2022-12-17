@@ -1,3 +1,4 @@
-def PlusPPricesSet():
-    '''public PlusPPricesSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPricesSet\n\n
+    (final MboServerInterface ms)\n
     '''

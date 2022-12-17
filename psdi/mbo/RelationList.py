@@ -1,3 +1,4 @@
 def addRelation():
-    '''public void addRelation(final RelationInfo rsi)
+    '''returns None\n\n
+    addRelation(final RelationInfo rsi)\n
     '''

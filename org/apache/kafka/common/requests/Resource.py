@@ -1,18 +1,24 @@
-def Resource():
-    '''public Resource(final ResourceType type, final String name)
+def ():
+    '''returns Resource\n\n
+    (final ResourceType type, final String name)\n
     '''
 def type():
-    '''public ResourceType type()
+    '''returns ResourceType\n\n
+    type()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

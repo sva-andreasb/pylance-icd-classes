@@ -44,47 +44,32 @@ OPTION_ARG_PREFIX = "String  \"-\""
 OPTION_FILE_PREFIX = "String  \"@\""
 OPTION_FILE_COMMENT = "String  \"#\""
 OPTION_PREFIX_NEGATE_OPTION = "String  \"no\""
-def format():
-    '''public synchronized String format(final LogRecord record)
-    '''
-def name():
-    '''public final String name()
-    '''
-def names():
-    '''public final String[] names()
-    '''
-def getValue():
-    '''public final T getValue()
-    '''
 def getOptionNameUsed():
-    '''public String getOptionNameUsed()
+    '''returns String\n\n
+    getOptionNameUsed()\n
     '''
 def isSet():
-    '''public boolean isSet()
-    public boolean isSet()
-    '''
-def setDefaultValue():
-    '''public <K extends OptionBase<T>> K setDefaultValue(final T defaultValue)
-    '''
-def help():
-    '''public final void help()
-    public void help(final boolean extended)
-    '''
-def not():
-    '''public <K extends OptionBase<T>> K not(final OptionBase<?> incompatibleOption)
-    '''
-def extended():
-    '''public <K extends OptionBase<T>> K extended()
+    '''returns boolean\n\n
+    isSet()\n
+    isSet()\n
     '''
 def addOption():
-    '''public void addOption(final Option<?> opt)
+    '''returns None\n\n
+    addOption(final Option<?> opt)\n
+    '''
+def help():
+    '''returns None\n\n
+    help(final boolean extended)\n
     '''
 def setError():
-    '''public void setError()
+    '''returns None\n\n
+    setError()\n
     '''
 def isError():
-    '''public boolean isError()
+    '''returns boolean\n\n
+    isError()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

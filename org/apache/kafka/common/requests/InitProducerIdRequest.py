@@ -1,29 +1,27 @@
 NO_TRANSACTION_TIMEOUT_MS = "int  Integer.MAX_VALUE"
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def InitProducerIdRequest():
-    '''public InitProducerIdRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final String transactionalId)\n
+    (final String transactionalId, final int transactionTimeoutMs)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static InitProducerIdRequest parse(final ByteBuffer buffer, final short version)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def transactionalId():
-    '''public String transactionalId()
+    '''returns String\n\n
+    transactionalId()\n
     '''
 def transactionTimeoutMs():
-    '''public int transactionTimeoutMs()
-    '''
-def Builder():
-    '''public Builder(final String transactionalId)
-    public Builder(final String transactionalId, final int transactionTimeoutMs)
+    '''returns int\n\n
+    transactionTimeoutMs()\n
     '''
 def build():
-    '''public InitProducerIdRequest build(final short version)
+    '''returns InitProducerIdRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

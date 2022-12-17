@@ -1,5 +1,6 @@
-def AuthChallengeException():
-    '''public AuthChallengeException()
-    public AuthChallengeException(final String message)
-    public AuthChallengeException(final String message, final Throwable cause)
+def ():
+    '''returns AuthChallengeException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

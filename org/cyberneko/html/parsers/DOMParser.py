@@ -1,6 +1,8 @@
-def DOMParser():
-    '''public DOMParser()
+def ():
+    '''returns DOMParser\n\n
+    ()\n
     '''
 def doctypeDecl():
-    '''public void doctypeDecl(final String root, final String pubid, final String sysid, final Augmentations augs)
+    '''returns None\n\n
+    doctypeDecl(final String root, final String pubid, final String sysid, final Augmentations augs)\n
     '''

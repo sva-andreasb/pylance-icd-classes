@@ -1,18 +1,20 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
-def CompositionParser():
-    '''public CompositionParser()
+def ():
+    '''returns CompositionParser\n\n
+    ()\n
     '''
 def parser():
-    '''public Composite parser(final Composite compObj)
+    '''returns Composite\n\n
+    parser(final Composite compObj)\n
     '''
 def filterUsingTemplateMetadata():
-    '''public ModelObject filterUsingTemplateMetadata(final ModelObject mObj)
+    '''returns ModelObject\n\n
+    filterUsingTemplateMetadata(final ModelObject mObj)\n
     '''
 def getDoneList():
-    '''public ArrayList getDoneList()
+    '''returns ArrayList\n\n
+    getDoneList()\n
     '''
 def setDoneList():
-    '''public void setDoneList(final ArrayList doneList)
+    '''returns None\n\n
+    setDoneList(final ArrayList doneList)\n
     '''

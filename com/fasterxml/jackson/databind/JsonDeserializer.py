@@ -1,38 +1,50 @@
 def deserialize():
-    '''public T deserialize(final JsonParser p, final DeserializationContext ctxt, final T intoValue)
+    '''returns T\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final T intoValue)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''
 def unwrappingDeserializer():
-    '''public JsonDeserializer<T> unwrappingDeserializer(final NameTransformer unwrapper)
+    '''returns JsonDeserializer<T>\n\n
+    unwrappingDeserializer(final NameTransformer unwrapper)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def getKnownPropertyNames():
-    '''public Collection<Object> getKnownPropertyNames()
+    '''returns Collection<Object>\n\n
+    getKnownPropertyNames()\n
     '''
 def getNullValue():
-    '''public T getNullValue(final DeserializationContext ctxt)
-    public T getNullValue()
+    '''returns T\n\n
+    getNullValue(final DeserializationContext ctxt)\n
+    getNullValue()\n
     '''
 def getNullAccessPattern():
-    '''public AccessPattern getNullAccessPattern()
+    '''returns AccessPattern\n\n
+    getNullAccessPattern()\n
     '''
 def getEmptyAccessPattern():
-    '''public AccessPattern getEmptyAccessPattern()
+    '''returns AccessPattern\n\n
+    getEmptyAccessPattern()\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
-    public Object getEmptyValue()
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
+    getEmptyValue()\n
     '''
 def getObjectIdReader():
-    '''public ObjectIdReader getObjectIdReader()
+    '''returns ObjectIdReader\n\n
+    getObjectIdReader()\n
     '''
 def findBackReference():
-    '''public SettableBeanProperty findBackReference(final String refName)
+    '''returns SettableBeanProperty\n\n
+    findBackReference(final String refName)\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''

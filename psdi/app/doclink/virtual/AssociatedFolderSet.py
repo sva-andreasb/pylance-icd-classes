@@ -1,3 +1,4 @@
-def AssociatedFolderSet():
-    '''public AssociatedFolderSet(final MboServerInterface ms)
+def ():
+    '''returns AssociatedFolderSet\n\n
+    (final MboServerInterface ms)\n
     '''

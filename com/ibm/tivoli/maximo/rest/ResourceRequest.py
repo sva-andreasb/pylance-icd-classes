@@ -2,88 +2,112 @@ HTTP_GET = "String  \"GET\""
 HTTP_POST = "String  \"POST\""
 HTTP_PUT = "String  \"PUT\""
 HTTP_DELETE = "String  \"DELETE\""
-def ResourceRequest():
-    '''public ResourceRequest(final String resourceType, final List<String> resourcePath, final Map<String, String[]> queryParams, final HttpHeaders headerParams, final RESTSession session, final String httpMethod, final String format, final String reqURL)
-    public ResourceRequest(final ResourceRequest req)
+def ():
+    '''returns ResourceRequest\n\n
+    (final String resourceType, final List<String> resourcePath, final Map<String, String[]> queryParams, final HttpHeaders headerParams, final RESTSession session, final String httpMethod, final String format, final String reqURL)\n
+    (final ResourceRequest req)\n
     '''
 def isReleaseResourceRequest():
-    '''public boolean isReleaseResourceRequest()
+    '''returns boolean\n\n
+    isReleaseResourceRequest()\n
     '''
 def isUseSessionForCollection():
-    '''public boolean isUseSessionForCollection()
+    '''returns boolean\n\n
+    isUseSessionForCollection()\n
     '''
 def getResourceLocatorId():
-    '''public String getResourceLocatorId()
+    '''returns String\n\n
+    getResourceLocatorId()\n
     '''
 def getRequestURL():
-    '''public String getRequestURL()
+    '''returns String\n\n
+    getRequestURL()\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def isUseLocationForCreate():
-    '''public boolean isUseLocationForCreate()
+    '''returns boolean\n\n
+    isUseLocationForCreate()\n
     '''
 def getResourcePath():
-    '''public List<String> getResourcePath()
-    '''
-def getQueryParams():
-    '''public Map<String, String[]> getQueryParams()
+    '''returns List<String>\n\n
+    getResourcePath()\n
     '''
 def getHeaderParams():
-    '''public HttpHeaders getHeaderParams()
+    '''returns HttpHeaders\n\n
+    getHeaderParams()\n
     '''
 def getSession():
-    '''public RESTSession getSession()
+    '''returns RESTSession\n\n
+    getSession()\n
     '''
 def getHttpMethod():
-    '''public String getHttpMethod()
+    '''returns String\n\n
+    getHttpMethod()\n
     '''
 def isPOST():
-    '''public boolean isPOST()
+    '''returns boolean\n\n
+    isPOST()\n
     '''
 def isPUT():
-    '''public boolean isPUT()
+    '''returns boolean\n\n
+    isPUT()\n
     '''
 def isDELETE():
-    '''public boolean isDELETE()
+    '''returns boolean\n\n
+    isDELETE()\n
     '''
 def isGET():
-    '''public boolean isGET()
+    '''returns boolean\n\n
+    isGET()\n
     '''
 def setClientAddr():
-    '''public void setClientAddr(final String remoteAddr)
+    '''returns None\n\n
+    setClientAddr(final String remoteAddr)\n
     '''
 def getClientAddr():
-    '''public String getClientAddr()
+    '''returns String\n\n
+    getClientAddr()\n
     '''
 def setClientHost():
-    '''public void setClientHost(final String remoteHost)
+    '''returns None\n\n
+    setClientHost(final String remoteHost)\n
     '''
 def getClientHost():
-    '''public String getClientHost()
+    '''returns String\n\n
+    getClientHost()\n
     '''
 def getMXSession():
-    '''public MXSession getMXSession()
+    '''returns MXSession\n\n
+    getMXSession()\n
     '''
 def getApiKey():
-    '''public String getApiKey()
+    '''returns String\n\n
+    getApiKey()\n
     '''
 def getQueryParam():
-    '''public String getQueryParam(final String param)
+    '''returns String\n\n
+    getQueryParam(final String param)\n
     '''
 def isApiCall():
-    '''public boolean isApiCall()
+    '''returns boolean\n\n
+    isApiCall()\n
     '''
 def isEnableSession():
-    '''public boolean isEnableSession()
+    '''returns boolean\n\n
+    isEnableSession()\n
     '''
 def setProcessUserInfo():
-    '''public void setProcessUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setProcessUserInfo(final UserInfo userInfo)\n
     '''
 def getProcessUserInfo():
-    '''public UserInfo getProcessUserInfo()
+    '''returns UserInfo\n\n
+    getProcessUserInfo()\n
     '''

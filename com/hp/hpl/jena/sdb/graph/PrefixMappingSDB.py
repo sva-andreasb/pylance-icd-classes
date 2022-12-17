@@ -1,9 +1,11 @@
 prefixTableName = "String  \"Prefixes\""
 prefixColWidth = "int  50"
 uriColWidth = "int  500"
-def PrefixMappingSDB():
-    '''public PrefixMappingSDB(final String graphURI, final SDBConnection sdb)
+def ():
+    '''returns PrefixMappingSDB\n\n
+    (final String graphURI, final SDBConnection sdb)\n
     '''
 def removeNsPrefix():
-    '''public PrefixMapping removeNsPrefix(final String prefix)
+    '''returns PrefixMapping\n\n
+    removeNsPrefix(final String prefix)\n
     '''

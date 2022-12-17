@@ -1,12 +1,16 @@
 def transactionsSupported():
-    '''public boolean transactionsSupported()
+    '''returns boolean\n\n
+    transactionsSupported()\n
     '''
 def begin():
-    '''public void begin()
+    '''returns None\n\n
+    begin()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

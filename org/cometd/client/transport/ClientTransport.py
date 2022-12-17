@@ -3,17 +3,22 @@ INTERVAL_OPTION = "String  \"interval\""
 MAX_NETWORK_DELAY_OPTION = "String  \"maxNetworkDelay\""
 JSON_CONTEXT = "String  \"jsonContext\""
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def setDebugEnabled():
-    '''public void setDebugEnabled(final boolean enabled)
+    '''returns None\n\n
+    setDebugEnabled(final boolean enabled)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def terminate():
-    '''public void terminate()
+    '''returns None\n\n
+    terminate()\n
     '''

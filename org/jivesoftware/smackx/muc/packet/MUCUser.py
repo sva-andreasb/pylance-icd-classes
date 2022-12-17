@@ -1,103 +1,116 @@
 ELEMENT = "String  \"status\""
 NAMESPACE = "String  \"http://jabber.org/protocol/muc#user\""
-def MUCUser():
-    '''public MUCUser()
+def ():
+    '''returns Decline\n\n
+    ()\n
+    (final String reason, final EntityFullJid from)\n
+    (final String reason, final EntityBareJid to)\n
+    (final String reason, final EntityJid from, final EntityBareJid to)\n
+    (final String reason, final EntityBareJid to)\n
+    (final String reason, final EntityBareJid from, final EntityBareJid to)\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getInvite():
-    '''public Invite getInvite()
+    '''returns Invite\n\n
+    getInvite()\n
     '''
 def getDecline():
-    '''public Decline getDecline()
+    '''returns Decline\n\n
+    getDecline()\n
     '''
 def getItem():
-    '''public MUCItem getItem()
+    '''returns MUCItem\n\n
+    getItem()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def getStatus():
-    '''public Set<Status> getStatus()
+    '''returns Set<Status>\n\n
+    getStatus()\n
     '''
 def hasStatus():
-    '''public boolean hasStatus()
+    '''returns boolean\n\n
+    hasStatus()\n
     '''
 def getDestroy():
-    '''public Destroy getDestroy()
+    '''returns Destroy\n\n
+    getDestroy()\n
     '''
 def setInvite():
-    '''public void setInvite(final Invite invite)
+    '''returns None\n\n
+    setInvite(final Invite invite)\n
     '''
 def setDecline():
-    '''public void setDecline(final Decline decline)
+    '''returns None\n\n
+    setDecline(final Decline decline)\n
     '''
 def setItem():
-    '''public void setItem(final MUCItem item)
+    '''returns None\n\n
+    setItem(final MUCItem item)\n
     '''
 def setPassword():
-    '''public void setPassword(final String string)
+    '''returns None\n\n
+    setPassword(final String string)\n
     '''
 def addStatusCodes():
-    '''public void addStatusCodes(final Set<Status> statusCodes)
+    '''returns None\n\n
+    addStatusCodes(final Set<Status> statusCodes)\n
     '''
 def addStatusCode():
-    '''public void addStatusCode(final Status status)
+    '''returns None\n\n
+    addStatusCode(final Status status)\n
     '''
 def setDestroy():
-    '''public void setDestroy(final Destroy destroy)
+    '''returns None\n\n
+    setDestroy(final Destroy destroy)\n
     '''
 def getFrom():
-    '''public static MUCUser getFrom(final Stanza packet)
-    public EntityJid getFrom()
-    public EntityBareJid getFrom()
-    '''
-def from():
-    '''public static MUCUser from(final Stanza packet)
-    '''
-def Invite():
-    '''public Invite(final String reason, final EntityFullJid from)
-    public Invite(final String reason, final EntityBareJid to)
-    public Invite(final String reason, final EntityJid from, final EntityBareJid to)
+    '''returns EntityBareJid\n\n
+    getFrom()\n
+    getFrom()\n
     '''
 def getReason():
-    '''public String getReason()
-    public String getReason()
+    '''returns String\n\n
+    getReason()\n
+    getReason()\n
     '''
 def getTo():
-    '''public EntityBareJid getTo()
-    public EntityBareJid getTo()
-    '''
-def Decline():
-    '''public Decline(final String reason, final EntityBareJid to)
-    public Decline(final String reason, final EntityBareJid from, final EntityBareJid to)
-    '''
-def create():
-    '''public static Status create(final String string)
-    public static Status create(final Integer i)
+    '''returns EntityBareJid\n\n
+    getTo()\n
+    getTo()\n
     '''
 def getCode():
-    '''public int getCode()
+    '''returns int\n\n
+    getCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

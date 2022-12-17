@@ -1,40 +1,51 @@
-def ArithmeticEngine():
-    '''public ArithmeticEngine()
+def ():
+    '''returns ArithmeticEngine\n\n
+    ()\n
     '''
 def setMinScale():
-    '''public void setMinScale(final int minScale)
+    '''returns None\n\n
+    setMinScale(final int minScale)\n
     '''
 def setMaxScale():
-    '''public void setMaxScale(final int maxScale)
+    '''returns None\n\n
+    setMaxScale(final int maxScale)\n
     '''
 def setRoundingPolicy():
-    '''public void setRoundingPolicy(final int roundingPolicy)
+    '''returns None\n\n
+    setRoundingPolicy(final int roundingPolicy)\n
     '''
 def compareNumbers():
-    '''public int compareNumbers(final Number first, final Number second)
-    public int compareNumbers(final Number first, final Number second)
+    '''returns int\n\n
+    compareNumbers(final Number first, final Number second)\n
+    compareNumbers(final Number first, final Number second)\n
     '''
 def add():
-    '''public Number add(final Number first, final Number second)
-    public Number add(final Number first, final Number second)
+    '''returns Number\n\n
+    add(final Number first, final Number second)\n
+    add(final Number first, final Number second)\n
     '''
 def subtract():
-    '''public Number subtract(final Number first, final Number second)
-    public Number subtract(final Number first, final Number second)
+    '''returns Number\n\n
+    subtract(final Number first, final Number second)\n
+    subtract(final Number first, final Number second)\n
     '''
 def multiply():
-    '''public Number multiply(final Number first, final Number second)
-    public Number multiply(final Number first, final Number second)
+    '''returns Number\n\n
+    multiply(final Number first, final Number second)\n
+    multiply(final Number first, final Number second)\n
     '''
 def divide():
-    '''public Number divide(final Number first, final Number second)
-    public Number divide(final Number first, final Number second)
+    '''returns Number\n\n
+    divide(final Number first, final Number second)\n
+    divide(final Number first, final Number second)\n
     '''
 def modulus():
-    '''public Number modulus(final Number first, final Number second)
-    public Number modulus(final Number first, final Number second)
+    '''returns Number\n\n
+    modulus(final Number first, final Number second)\n
+    modulus(final Number first, final Number second)\n
     '''
 def toNumber():
-    '''public Number toNumber(final String s)
-    public Number toNumber(final String s)
+    '''returns Number\n\n
+    toNumber(final String s)\n
+    toNumber(final String s)\n
     '''

@@ -1,9 +1,12 @@
-def SplineCollector():
-    '''public SplineCollector(final SplineStart start)
+def ():
+    '''returns SplineCollector\n\n
+    (final SplineStart start)\n
     '''
 def addKnot():
-    '''public void addKnot(final SplineKnot knot)
+    '''returns None\n\n
+    addKnot(final SplineKnot knot)\n
     '''
 def addToPath():
-    '''public void addToPath(final Path2D.Double path, final XDGFShape parent)
+    '''returns None\n\n
+    addToPath(final Path2D.Double path, final XDGFShape parent)\n
     '''

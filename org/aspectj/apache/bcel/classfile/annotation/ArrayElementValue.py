@@ -1,20 +1,26 @@
 def getElementValuesArray():
-    '''public ElementValue[] getElementValuesArray()
+    '''returns ElementValue[]\n\n
+    getElementValuesArray()\n
     '''
 def getElementValuesArraySize():
-    '''public int getElementValuesArraySize()
+    '''returns int\n\n
+    getElementValuesArraySize()\n
     '''
-def ArrayElementValue():
-    '''public ArrayElementValue(final ConstantPool cp)
-    public ArrayElementValue(final int type, final ElementValue[] datums, final ConstantPool cpool)
-    public ArrayElementValue(final ArrayElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)
+def ():
+    '''returns ArrayElementValue\n\n
+    (final ConstantPool cp)\n
+    (final int type, final ElementValue[] datums, final ConstantPool cpool)\n
+    (final ArrayElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream dos)
+    '''returns None\n\n
+    dump(final DataOutputStream dos)\n
     '''
 def stringifyValue():
-    '''public String stringifyValue()
+    '''returns String\n\n
+    stringifyValue()\n
     '''
 def addElement():
-    '''public void addElement(final ElementValue gen)
+    '''returns None\n\n
+    addElement(final ElementValue gen)\n
     '''

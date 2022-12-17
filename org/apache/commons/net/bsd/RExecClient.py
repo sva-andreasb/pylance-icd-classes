@@ -1,26 +1,26 @@
 DEFAULT_PORT = "int  512"
-def RExecClient():
-    '''public RExecClient()
+def ():
+    '''returns RExecClient\n\n
+    ()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getErrorStream():
-    '''public InputStream getErrorStream()
+    '''returns InputStream\n\n
+    getErrorStream()\n
     '''
 def rexec():
-    '''public void rexec(final String username, final String password, final String command, final boolean separateErrorStream)
-    public void rexec(final String username, final String password, final String command)
+    '''returns None\n\n
+    rexec(final String username, final String password, final String command, final boolean separateErrorStream)\n
+    rexec(final String username, final String password, final String command)\n
     '''
 def disconnect():
-    '''public void disconnect()
-    '''
-def setRemoteVerificationEnabled():
-    '''public final void setRemoteVerificationEnabled(final boolean enable)
-    '''
-def isRemoteVerificationEnabled():
-    '''public final boolean isRemoteVerificationEnabled()
+    '''returns None\n\n
+    disconnect()\n
     '''

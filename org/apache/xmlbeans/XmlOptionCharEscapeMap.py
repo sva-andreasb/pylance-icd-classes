@@ -1,18 +1,23 @@
 PREDEF_ENTITY = "int  0"
 DECIMAL = "int  1"
 HEXADECIMAL = "int  2"
-def XmlOptionCharEscapeMap():
-    '''public XmlOptionCharEscapeMap()
+def ():
+    '''returns XmlOptionCharEscapeMap\n\n
+    ()\n
     '''
 def containsChar():
-    '''public boolean containsChar(final char ch)
+    '''returns boolean\n\n
+    containsChar(final char ch)\n
     '''
 def addMapping():
-    '''public void addMapping(final char ch, final int mode)
+    '''returns None\n\n
+    addMapping(final char ch, final int mode)\n
     '''
 def addMappings():
-    '''public void addMappings(final char ch1, final char ch2, final int mode)
+    '''returns None\n\n
+    addMappings(final char ch1, final char ch2, final int mode)\n
     '''
 def getEscapedString():
-    '''public String getEscapedString(final char ch)
+    '''returns String\n\n
+    getEscapedString(final char ch)\n
     '''

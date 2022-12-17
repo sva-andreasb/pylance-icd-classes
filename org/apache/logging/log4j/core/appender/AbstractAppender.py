@@ -1,60 +1,75 @@
-def parseInt():
-    '''public static int parseInt(final String s, final int defaultValue)
-    '''
 def requiresLocation():
-    '''public boolean requiresLocation()
+    '''returns boolean\n\n
+    requiresLocation()\n
     '''
 def error():
-    '''public void error(final String msg)
-    public void error(final String msg, final LogEvent event, final Throwable t)
-    public void error(final String msg, final Throwable t)
+    '''returns None\n\n
+    error(final String msg)\n
+    error(final String msg, final LogEvent event, final Throwable t)\n
+    error(final String msg, final Throwable t)\n
     '''
 def getHandler():
-    '''public ErrorHandler getHandler()
+    '''returns ErrorHandler\n\n
+    getHandler()\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def ignoreExceptions():
-    '''public boolean ignoreExceptions()
+    '''returns boolean\n\n
+    ignoreExceptions()\n
     '''
 def setHandler():
-    '''public void setHandler(final ErrorHandler handler)
+    '''returns None\n\n
+    setHandler(final ErrorHandler handler)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def getConfiguration():
-    '''public Configuration getConfiguration()
+    '''returns Configuration\n\n
+    getConfiguration()\n
     '''
 def isIgnoreExceptions():
-    '''public boolean isIgnoreExceptions()
+    '''returns boolean\n\n
+    isIgnoreExceptions()\n
     '''
 def setConfiguration():
-    '''public B setConfiguration(final Configuration configuration)
+    '''returns B\n\n
+    setConfiguration(final Configuration configuration)\n
     '''
 def setIgnoreExceptions():
-    '''public B setIgnoreExceptions(final boolean ignoreExceptions)
+    '''returns B\n\n
+    setIgnoreExceptions(final boolean ignoreExceptions)\n
     '''
 def setLayout():
-    '''public B setLayout(final Layout<? extends Serializable> layout)
+    '''returns B\n\n
+    setLayout(final Layout<? extends Serializable> layout)\n
     '''
 def setName():
-    '''public B setName(final String name)
+    '''returns B\n\n
+    setName(final String name)\n
     '''
 def withConfiguration():
-    '''public B withConfiguration(final Configuration configuration)
+    '''returns B\n\n
+    withConfiguration(final Configuration configuration)\n
     '''
 def withIgnoreExceptions():
-    '''public B withIgnoreExceptions(final boolean ignoreExceptions)
+    '''returns B\n\n
+    withIgnoreExceptions(final boolean ignoreExceptions)\n
     '''
 def withLayout():
-    '''public B withLayout(final Layout<? extends Serializable> layout)
+    '''returns B\n\n
+    withLayout(final Layout<? extends Serializable> layout)\n
     '''
 def withName():
-    '''public B withName(final String name)
+    '''returns B\n\n
+    withName(final String name)\n
     '''

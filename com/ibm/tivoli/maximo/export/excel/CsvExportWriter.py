@@ -1,21 +1,28 @@
-def CsvExportWriter():
-    '''public CsvExportWriter(final HttpServletResponse response)
+def ():
+    '''returns CsvExportWriter\n\n
+    (final HttpServletResponse response)\n
     '''
 def beginDocument():
-    '''public void beginDocument(final String name, final OutputStream out)
+    '''returns None\n\n
+    beginDocument(final String name, final OutputStream out)\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def beginRow():
-    '''public void beginRow()
+    '''returns None\n\n
+    beginRow()\n
     '''
 def endRow():
-    '''public void endRow()
+    '''returns None\n\n
+    endRow()\n
     '''
 def emitComma():
-    '''public void emitComma()
+    '''returns None\n\n
+    emitComma()\n
     '''
 def emitCell():
-    '''public void emitCell(final int cellPos, Object val, final int maxType, final ICellStyle style, final IExportContext context)
+    '''returns None\n\n
+    emitCell(final int cellPos, Object val, final int maxType, final ICellStyle style, final IExportContext context)\n
     '''

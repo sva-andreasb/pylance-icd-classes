@@ -1,21 +1,16 @@
-def ConstantString():
-    '''public ConstantString(final int stringIndex)
+def ():
+    '''returns ConstantString\n\n
+    (final int stringIndex)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''
 def getValue():
-    '''public Integer getValue()
-    '''
-def getStringIndex():
-    '''public final int getStringIndex()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns Integer\n\n
+    getValue()\n
     '''
 def getString():
-    '''public String getString(final ConstantPool cpool)
+    '''returns String\n\n
+    getString(final ConstantPool cpool)\n
     '''

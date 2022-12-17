@@ -1,123 +1,164 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getItem():
-    '''public String getItem()
+    '''returns String\n\n
+    getItem()\n
     '''
 def setItem():
-    '''public void setItem(final String value)
+    '''returns None\n\n
+    setItem(final String value)\n
     '''
 def getCatalog():
-    '''public String getCatalog()
+    '''returns String\n\n
+    getCatalog()\n
     '''
 def setCatalog():
-    '''public void setCatalog(final String value)
+    '''returns None\n\n
+    setCatalog(final String value)\n
     '''
 def getManufacturer():
-    '''public String getManufacturer()
+    '''returns String\n\n
+    getManufacturer()\n
     '''
 def setManufacturer():
-    '''public void setManufacturer(final String value)
+    '''returns None\n\n
+    setManufacturer(final String value)\n
     '''
 def getModel():
-    '''public String getModel()
+    '''returns String\n\n
+    getModel()\n
     '''
 def setModel():
-    '''public void setModel(final String value)
+    '''returns None\n\n
+    setModel(final String value)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String value)
+    '''returns None\n\n
+    setDescription(final String value)\n
     '''
 def getPrice():
-    '''public double getPrice()
+    '''returns double\n\n
+    getPrice()\n
     '''
 def setPrice():
-    '''public void setPrice(final double value)
+    '''returns None\n\n
+    setPrice(final double value)\n
     '''
 def getCurrency():
-    '''public String getCurrency()
+    '''returns String\n\n
+    getCurrency()\n
     '''
 def setCurrency():
-    '''public void setCurrency(final String value)
+    '''returns None\n\n
+    setCurrency(final String value)\n
     '''
 def getUOM():
-    '''public String getUOM()
+    '''returns String\n\n
+    getUOM()\n
     '''
 def setUOM():
-    '''public void setUOM(final String value)
+    '''returns None\n\n
+    setUOM(final String value)\n
     '''
 def getAvailableDate():
-    '''public Date getAvailableDate()
+    '''returns Date\n\n
+    getAvailableDate()\n
     '''
 def setAvailableDate():
-    '''public void setAvailableDate(final Date value)
+    '''returns None\n\n
+    setAvailableDate(final Date value)\n
     '''
 def getQuantity():
-    '''public String getQuantity()
+    '''returns String\n\n
+    getQuantity()\n
     '''
 def setQuantity():
-    '''public void setQuantity(final String value)
+    '''returns None\n\n
+    setQuantity(final String value)\n
     '''
 def getOptionals():
-    '''public String getOptionals()
+    '''returns String\n\n
+    getOptionals()\n
     '''
 def setOptionals():
-    '''public void setOptionals(final String value)
+    '''returns None\n\n
+    setOptionals(final String value)\n
     '''
 def getInterchange():
-    '''public String getInterchange()
+    '''returns String\n\n
+    getInterchange()\n
     '''
 def setInterchange():
-    '''public void setInterchange(final String value)
+    '''returns None\n\n
+    setInterchange(final String value)\n
     '''
 def getErrorMsg():
-    '''public String getErrorMsg()
+    '''returns String\n\n
+    getErrorMsg()\n
     '''
 def setErrorMsg():
-    '''public void setErrorMsg(final String value)
+    '''returns None\n\n
+    setErrorMsg(final String value)\n
     '''
 def getVendorPartNum():
-    '''public String getVendorPartNum()
+    '''returns String\n\n
+    getVendorPartNum()\n
     '''
 def setVendorPartNum():
-    '''public void setVendorPartNum(final String value)
+    '''returns None\n\n
+    setVendorPartNum(final String value)\n
     '''
 def getManfCode():
-    '''public String getManfCode()
+    '''returns String\n\n
+    getManfCode()\n
     '''
 def setManfCode():
-    '''public void setManfCode(final String value)
+    '''returns None\n\n
+    setManfCode(final String value)\n
     '''
 def getManfPartNum():
-    '''public String getManfPartNum()
+    '''returns String\n\n
+    getManfPartNum()\n
     '''
 def setManfPartNum():
-    '''public void setManfPartNum(final String value)
+    '''returns None\n\n
+    setManfPartNum(final String value)\n
     '''
 def getWarehouse():
-    '''public String getWarehouse()
+    '''returns String\n\n
+    getWarehouse()\n
     '''
 def setWarehouse():
-    '''public void setWarehouse(final String value)
+    '''returns None\n\n
+    setWarehouse(final String value)\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String value)
+    '''returns None\n\n
+    setNotes(final String value)\n
     '''
 def setVendorName():
-    '''public void setVendorName(final String value)
+    '''returns None\n\n
+    setVendorName(final String value)\n
     '''
 def getVendorName():
-    '''public String getVendorName()
+    '''returns String\n\n
+    getVendorName()\n
     '''
 def setVendorId():
-    '''public void setVendorId(final String value)
+    '''returns None\n\n
+    setVendorId(final String value)\n
     '''
 def getVendorId():
-    '''public String getVendorId()
+    '''returns String\n\n
+    getVendorId()\n
     '''

@@ -1,21 +1,24 @@
-def PolicyInfo():
-    '''public PolicyInfo(final String policyID, final String policyName, final String description, final String type, final Map<String, PolicyParamInfo> parameters)
+def ():
+    '''returns PolicyInfo\n\n
+    (final String policyID, final String policyName, final String description, final String type, final Map<String, PolicyParamInfo> parameters)\n
     '''
 def getPolicyName():
-    '''public String getPolicyName()
+    '''returns String\n\n
+    getPolicyName()\n
     '''
 def getPolicyID():
-    '''public String getPolicyID()
+    '''returns String\n\n
+    getPolicyID()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getType():
-    '''public String getType()
-    '''
-def getParamaters():
-    '''public Map<String, PolicyParamInfo> getParamaters()
+    '''returns String\n\n
+    getType()\n
     '''
 def getParamater():
-    '''public PolicyParamInfo getParamater(final String key)
+    '''returns PolicyParamInfo\n\n
+    getParamater(final String key)\n
     '''

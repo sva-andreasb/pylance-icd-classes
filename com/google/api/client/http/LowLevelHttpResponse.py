@@ -1,3 +1,4 @@
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''

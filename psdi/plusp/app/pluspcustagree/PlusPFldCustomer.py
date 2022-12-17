@@ -1,6 +1,8 @@
-def PlusPFldCustomer():
-    '''public PlusPFldCustomer(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCustomer\n\n
+    (final MboValue mboValue)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

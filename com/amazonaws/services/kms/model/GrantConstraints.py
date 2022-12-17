@@ -1,42 +1,48 @@
-def getEncryptionContextSubset():
-    '''public Map<String, String> getEncryptionContextSubset()
-    '''
 def setEncryptionContextSubset():
-    '''public void setEncryptionContextSubset(final Map<String, String> encryptionContextSubset)
+    '''returns None\n\n
+    setEncryptionContextSubset(final Map<String, String> encryptionContextSubset)\n
     '''
 def withEncryptionContextSubset():
-    '''public GrantConstraints withEncryptionContextSubset(final Map<String, String> encryptionContextSubset)
+    '''returns GrantConstraints\n\n
+    withEncryptionContextSubset(final Map<String, String> encryptionContextSubset)\n
     '''
 def addEncryptionContextSubsetEntry():
-    '''public GrantConstraints addEncryptionContextSubsetEntry(final String key, final String value)
+    '''returns GrantConstraints\n\n
+    addEncryptionContextSubsetEntry(final String key, final String value)\n
     '''
 def clearEncryptionContextSubsetEntries():
-    '''public GrantConstraints clearEncryptionContextSubsetEntries()
-    '''
-def getEncryptionContextEquals():
-    '''public Map<String, String> getEncryptionContextEquals()
+    '''returns GrantConstraints\n\n
+    clearEncryptionContextSubsetEntries()\n
     '''
 def setEncryptionContextEquals():
-    '''public void setEncryptionContextEquals(final Map<String, String> encryptionContextEquals)
+    '''returns None\n\n
+    setEncryptionContextEquals(final Map<String, String> encryptionContextEquals)\n
     '''
 def withEncryptionContextEquals():
-    '''public GrantConstraints withEncryptionContextEquals(final Map<String, String> encryptionContextEquals)
+    '''returns GrantConstraints\n\n
+    withEncryptionContextEquals(final Map<String, String> encryptionContextEquals)\n
     '''
 def addEncryptionContextEqualsEntry():
-    '''public GrantConstraints addEncryptionContextEqualsEntry(final String key, final String value)
+    '''returns GrantConstraints\n\n
+    addEncryptionContextEqualsEntry(final String key, final String value)\n
     '''
 def clearEncryptionContextEqualsEntries():
-    '''public GrantConstraints clearEncryptionContextEqualsEntries()
+    '''returns GrantConstraints\n\n
+    clearEncryptionContextEqualsEntries()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public GrantConstraints clone()
+    '''returns GrantConstraints\n\n
+    clone()\n
     '''

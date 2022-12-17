@@ -1,9 +1,8 @@
-def LiveChatState():
-    '''public LiveChatState()
-    '''
-def getInstance():
-    '''public static LiveChatState getInstance(final WebClientSession wcs)
+def ():
+    '''returns LiveChatState\n\n
+    ()\n
     '''
 def isChatSessionActive():
-    '''public boolean isChatSessionActive(final UserInfo userInfo)
+    '''returns boolean\n\n
+    isChatSessionActive(final UserInfo userInfo)\n
     '''

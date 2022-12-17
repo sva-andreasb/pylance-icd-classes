@@ -1,32 +1,42 @@
-def PersonGroupTeam():
-    '''public PersonGroupTeam(final MboSet ms)
+def ():
+    '''returns PersonGroupTeam\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getAlternates():
-    '''public MboSetRemote getAlternates()
+    '''returns MboSetRemote\n\n
+    getAlternates()\n
     '''
 def isAvailableByCalendar():
-    '''public boolean isAvailableByCalendar(final Date dateVal, final String orgID, final String siteID)
-    public boolean isAvailableByCalendar(final Date dateVal, final String orgID, final String siteID, final AvailCalc availCalc)
-    public boolean isAvailableByCalendar(final Date dateVal, final String orgID, final String siteID, AvailCalc availCalc, final boolean considerBreaks, final int mins)
+    '''returns boolean\n\n
+    isAvailableByCalendar(final Date dateVal, final String orgID, final String siteID)\n
+    isAvailableByCalendar(final Date dateVal, final String orgID, final String siteID, final AvailCalc availCalc)\n
+    isAvailableByCalendar(final Date dateVal, final String orgID, final String siteID, AvailCalc availCalc, final boolean considerBreaks, final int mins)\n
     '''
 def makeOtherNotGroupDefault():
-    '''public void makeOtherNotGroupDefault()
+    '''returns None\n\n
+    makeOtherNotGroupDefault()\n
     '''
 def makeOtherNotDefault():
-    '''public void makeOtherNotDefault(final String booleanAttribute, final String useforAttribute)
+    '''returns None\n\n
+    makeOtherNotDefault(final String booleanAttribute, final String useforAttribute)\n
     '''
 def alreadyExists():
-    '''public boolean alreadyExists()
+    '''returns boolean\n\n
+    alreadyExists()\n
     '''

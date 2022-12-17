@@ -1,3 +1,4 @@
-def GetBindDNRequest():
-    '''public GetBindDNRequest()
+def ():
+    '''returns GetBindDNRequest\n\n
+    ()\n
     '''

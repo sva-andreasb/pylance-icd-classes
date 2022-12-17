@@ -1,15 +1,16 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String s)
-    '''
-def getQbe():
-    '''public synchronized String getQbe(final String s)
+    '''returns None\n\n
+    setQbe(final String attribute, final String s)\n
     '''
 def updateClassstructure():
-    '''public void updateClassstructure(final String value)
+    '''returns None\n\n
+    updateClassstructure(final String value)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''

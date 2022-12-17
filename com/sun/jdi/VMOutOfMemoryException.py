@@ -1,4 +1,5 @@
-def VMOutOfMemoryException():
-    '''public VMOutOfMemoryException()
-    public VMOutOfMemoryException(final String message)
+def ():
+    '''returns VMOutOfMemoryException\n\n
+    ()\n
+    (final String message)\n
     '''

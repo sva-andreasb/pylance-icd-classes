@@ -1,9 +1,12 @@
-def XSDTimeType():
-    '''public XSDTimeType(final String typename)
+def ():
+    '''returns XSDTimeType\n\n
+    (final String typename)\n
     '''
 def parseValidated():
-    '''public Object parseValidated(final String str)
+    '''returns Object\n\n
+    parseValidated(final String str)\n
     '''
 def unparse():
-    '''public String unparse(final Object value)
+    '''returns String\n\n
+    unparse(final Object value)\n
     '''

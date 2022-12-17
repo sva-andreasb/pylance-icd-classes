@@ -1,9 +1,12 @@
-def FldAssignedOwnerGroup():
-    '''public FldAssignedOwnerGroup(final MboValue mbv)
+def ():
+    '''returns FldAssignedOwnerGroup\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''

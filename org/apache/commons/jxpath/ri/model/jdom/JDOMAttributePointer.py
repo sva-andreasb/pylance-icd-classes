@@ -1,48 +1,64 @@
-def JDOMAttributePointer():
-    '''public JDOMAttributePointer(final NodePointer parent, final Attribute attr)
+def ():
+    '''returns JDOMAttributePointer\n\n
+    (final NodePointer parent, final Attribute attr)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getExpandedName():
-    '''public QName getExpandedName()
+    '''returns QName\n\n
+    getExpandedName()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def isActual():
-    '''public boolean isActual()
+    '''returns boolean\n\n
+    isActual()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def compareChildNodePointers():
-    '''public int compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)
+    '''returns int\n\n
+    compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)\n
     '''

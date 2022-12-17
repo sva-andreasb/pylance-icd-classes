@@ -1,15 +1,20 @@
-def WOAreasAffected():
-    '''public WOAreasAffected(final MboSet ms)
+def ():
+    '''returns WOAreasAffected\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

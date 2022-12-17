@@ -1,3 +1,4 @@
-def TLOAMPromoteValuesSet():
-    '''public TLOAMPromoteValuesSet(final MboServerInterface ms)
+def ():
+    '''returns TLOAMPromoteValuesSet\n\n
+    (final MboServerInterface ms)\n
     '''

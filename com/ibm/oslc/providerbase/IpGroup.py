@@ -1,24 +1,32 @@
 def getIpPool():
-    '''public URI getIpPool()
+    '''returns URI\n\n
+    getIpPool()\n
     '''
 def setIpPool():
-    '''public void setIpPool(final URI ipPool)
+    '''returns None\n\n
+    setIpPool(final URI ipPool)\n
     '''
 def getAlias():
-    '''public String getAlias()
+    '''returns String\n\n
+    getAlias()\n
     '''
 def setAlias():
-    '''public void setAlias(final String alias)
+    '''returns None\n\n
+    setAlias(final String alias)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def setIdentifier():
-    '''public void setIdentifier(final String identifier)
+    '''returns None\n\n
+    setIdentifier(final String identifier)\n
     '''

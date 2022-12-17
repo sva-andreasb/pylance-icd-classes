@@ -1,54 +1,66 @@
-def getTaxUtility():
-    '''public static synchronized TaxUtility getTaxUtility()
-    '''
 def refetchNumtax():
-    '''public void refetchNumtax()
+    '''returns None\n\n
+    refetchNumtax()\n
     '''
 def setTaxattrValue():
-    '''public void setTaxattrValue(final MboRemote mbo, final String taxattr, final MboRemote mbofrom)
-    public void setTaxattrValue(final MboRemote mbo, final String taxattr, final MboRemote mbofrom, final long accessModifier)
-    public void setTaxattrValue(final MboRemote mbo, final String taxattr, final boolean booleanValue, final boolean checkDefaultValue)
-    public void setTaxattrValue(final MboRemote mbo, final String taxattr, final boolean booleanValue, final boolean checkDefaultValue, final long accessModifier)
-    public void setTaxattrValue(final MboRemote mbo, final String taxattr, final double doubleValue, final long accessModifier)
+    '''returns None\n\n
+    setTaxattrValue(final MboRemote mbo, final String taxattr, final MboRemote mbofrom)\n
+    setTaxattrValue(final MboRemote mbo, final String taxattr, final MboRemote mbofrom, final long accessModifier)\n
+    setTaxattrValue(final MboRemote mbo, final String taxattr, final boolean booleanValue, final boolean checkDefaultValue)\n
+    setTaxattrValue(final MboRemote mbo, final String taxattr, final boolean booleanValue, final boolean checkDefaultValue, final long accessModifier)\n
+    setTaxattrValue(final MboRemote mbo, final String taxattr, final double doubleValue, final long accessModifier)\n
     '''
 def nullAllTaxcodes():
-    '''public void nullAllTaxcodes(final MboRemote mbo, final String taxattr)
-    public void nullAllTaxcodes(final MboRemote mbo, final String taxattr, final long accessModifier)
+    '''returns None\n\n
+    nullAllTaxcodes(final MboRemote mbo, final String taxattr)\n
+    nullAllTaxcodes(final MboRemote mbo, final String taxattr, final long accessModifier)\n
     '''
 def setTaxesReadonly():
-    '''public void setTaxesReadonly(final MboRemote mbo, final String taxattr, final boolean readonly)
+    '''returns None\n\n
+    setTaxesReadonly(final MboRemote mbo, final String taxattr, final boolean readonly)\n
     '''
 def setBaseTaxes():
-    '''public void setBaseTaxes(final MboRemote mbofrom, final MboRemote mbo, final String fromTaxAttr, final String taxAttr, final double exchangeRate, final long accessModifier)
+    '''returns None\n\n
+    setBaseTaxes(final MboRemote mbofrom, final MboRemote mbo, final String fromTaxAttr, final String taxAttr, final double exchangeRate, final long accessModifier)\n
     '''
 def zeroAllTaxes():
-    '''public void zeroAllTaxes(final MboRemote mbo, final String taxattr)
-    public void zeroAllTaxes(final MboRemote mbo, final String taxattr, final long accessModifier)
+    '''returns None\n\n
+    zeroAllTaxes(final MboRemote mbo, final String taxattr)\n
+    zeroAllTaxes(final MboRemote mbo, final String taxattr, final long accessModifier)\n
     '''
 def taxcodeDefined():
-    '''public boolean taxcodeDefined(final MboRemote mbo, final String taxattr)
+    '''returns boolean\n\n
+    taxcodeDefined(final MboRemote mbo, final String taxattr)\n
     '''
 def getNumberofTaxes():
-    '''public int getNumberofTaxes()
+    '''returns int\n\n
+    getNumberofTaxes()\n
     '''
 def compareTaxattrValue():
-    '''public boolean compareTaxattrValue(final MboRemote firstMbo, final String taxattr, final MboRemote secondMbo)
+    '''returns boolean\n\n
+    compareTaxattrValue(final MboRemote firstMbo, final String taxattr, final MboRemote secondMbo)\n
     '''
 def setTaxattrFieldFlag():
-    '''public void setTaxattrFieldFlag(final MboRemote mbo, final String taxattr, final long flag, final boolean state)
+    '''returns None\n\n
+    setTaxattrFieldFlag(final MboRemote mbo, final String taxattr, final long flag, final boolean state)\n
     '''
 def resetTaxOrder():
-    '''public void resetTaxOrder()
+    '''returns None\n\n
+    resetTaxOrder()\n
     '''
 def setTaxOrder():
-    '''public void setTaxOrder(final MboRemote mbo)
+    '''returns None\n\n
+    setTaxOrder(final MboRemote mbo)\n
     '''
 def getTaxExemptOrder():
-    '''public String[] getTaxExemptOrder(final MboRemote mbo)
+    '''returns String[]\n\n
+    getTaxExemptOrder(final MboRemote mbo)\n
     '''
 def getTaxCodeOrder():
-    '''public String[] getTaxCodeOrder(final MboRemote mbo)
+    '''returns String[]\n\n
+    getTaxCodeOrder(final MboRemote mbo)\n
     '''
 def getTaxesArray():
-    '''public double[] getTaxesArray(final MboRemote mbo)
+    '''returns double[]\n\n
+    getTaxesArray(final MboRemote mbo)\n
     '''

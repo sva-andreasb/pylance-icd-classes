@@ -1,24 +1,13 @@
-def resolveFileURL():
-    '''public static String resolveFileURL(final String filename)
-    '''
-def resolve():
-    '''public static String resolve(final String relStr, final String baseStr)
-    public String resolve(final String relURI)
-    '''
-def IRIResolver():
-    '''public IRIResolver()
-    public IRIResolver(String baseS)
+def ():
+    '''returns IRIResolver\n\n
+    ()\n
+    (String baseS)\n
     '''
 def getBaseIRI():
-    '''public String getBaseIRI()
+    '''returns String\n\n
+    getBaseIRI()\n
     '''
-def suppressExceptions():
-    '''public static void suppressExceptions()
-    '''
-def resolveGlobal():
-    '''public static String resolveGlobal(final String str)
-    '''
-def chooseBaseURI():
-    '''public static String chooseBaseURI()
-    public static String chooseBaseURI(String baseURI)
+def resolve():
+    '''returns String\n\n
+    resolve(final String relURI)\n
     '''

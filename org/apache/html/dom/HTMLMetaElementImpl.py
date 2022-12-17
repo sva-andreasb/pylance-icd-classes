@@ -1,27 +1,36 @@
 def getContent():
-    '''public String getContent()
+    '''returns String\n\n
+    getContent()\n
     '''
 def setContent():
-    '''public void setContent(final String s)
+    '''returns None\n\n
+    setContent(final String s)\n
     '''
 def getHttpEquiv():
-    '''public String getHttpEquiv()
+    '''returns String\n\n
+    getHttpEquiv()\n
     '''
 def setHttpEquiv():
-    '''public void setHttpEquiv(final String s)
+    '''returns None\n\n
+    setHttpEquiv(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getScheme():
-    '''public String getScheme()
+    '''returns String\n\n
+    getScheme()\n
     '''
 def setScheme():
-    '''public void setScheme(final String s)
+    '''returns None\n\n
+    setScheme(final String s)\n
     '''
-def HTMLMetaElementImpl():
-    '''public HTMLMetaElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLMetaElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

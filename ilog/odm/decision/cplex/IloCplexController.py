@@ -1,59 +1,78 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def solve():
-    '''public boolean solve(final int timeLimitSeconds)
+    '''returns boolean\n\n
+    solve(final int timeLimitSeconds)\n
     '''
 def onChangeProperty():
-    '''public void onChangeProperty(final IloDecisionObjective o, final int propIndex, final Object oldValue)
+    '''returns None\n\n
+    onChangeProperty(final IloDecisionObjective o, final int propIndex, final Object oldValue)\n
     '''
 def getSessionCplex():
-    '''public IloCplex getSessionCplex()
+    '''returns IloCplex\n\n
+    getSessionCplex()\n
     '''
 def getCplex():
-    '''public IloCplex getCplex()
+    '''returns IloCplex\n\n
+    getCplex()\n
     '''
 def setRelaxationPref():
-    '''public void setRelaxationPref(final IloRange range, final double pref)
-    public void setRelaxationPref(final IloRange range, final double lbPref, final double ubPref)
+    '''returns None\n\n
+    setRelaxationPref(final IloRange range, final double pref)\n
+    setRelaxationPref(final IloRange range, final double lbPref, final double ubPref)\n
     '''
 def buildRequirement():
-    '''public IloRangeRequirement buildRequirement(final IloRange rg)
+    '''returns IloRangeRequirement\n\n
+    buildRequirement(final IloRange rg)\n
     '''
 def getRequirementProps():
-    '''public IloCplexReqPropsDef getRequirementProps()
+    '''returns IloCplexReqPropsDef\n\n
+    getRequirementProps()\n
     '''
 def setRelaxationEpsilon():
-    '''public void setRelaxationEpsilon(final double epsilon)
+    '''returns None\n\n
+    setRelaxationEpsilon(final double epsilon)\n
     '''
 def getRelaxationEpsilon():
-    '''public double getRelaxationEpsilon()
+    '''returns double\n\n
+    getRelaxationEpsilon()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def getObjective():
-    '''public IloWeightedObjective getObjective(final String objectiveName)
+    '''returns IloWeightedObjective\n\n
+    getObjective(final String objectiveName)\n
     '''
 def getRequirementConnector():
-    '''public IloRequirementConnector getRequirementConnector()
+    '''returns IloRequirementConnector\n\n
+    getRequirementConnector()\n
     '''
 def postToEngine():
-    '''public void postToEngine(final IloRequirement r)
+    '''returns None\n\n
+    postToEngine(final IloRequirement r)\n
     '''
 def retractFromEngine():
-    '''public void retractFromEngine(final IloRequirement r)
+    '''returns None\n\n
+    retractFromEngine(final IloRequirement r)\n
     '''
 def getCplexAborter():
-    '''public IloCppCplexAborter getCplexAborter()
+    '''returns IloCppCplexAborter\n\n
+    getCplexAborter()\n
     '''
 def reallyGetSessionCplex():
-    '''public IloSessionCplex reallyGetSessionCplex()
+    '''returns IloSessionCplex\n\n
+    reallyGetSessionCplex()\n
     '''
 def setCurrentExecMode():
-    '''public void setCurrentExecMode(final int execMode)
+    '''returns None\n\n
+    setCurrentExecMode(final int execMode)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''

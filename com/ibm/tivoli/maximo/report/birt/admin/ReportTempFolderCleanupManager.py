@@ -1,6 +1,8 @@
-def ReportTempFolderCleanupManager():
-    '''public ReportTempFolderCleanupManager(final ReportAdminService reportAdminServiceParam)
+def ():
+    '''returns ReportTempFolderCleanupManager\n\n
+    (final ReportAdminService reportAdminServiceParam)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

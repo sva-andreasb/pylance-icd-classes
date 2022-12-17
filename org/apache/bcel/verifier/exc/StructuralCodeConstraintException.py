@@ -1,4 +1,5 @@
-def StructuralCodeConstraintException():
-    '''public StructuralCodeConstraintException(final String message)
-    public StructuralCodeConstraintException()
+def ():
+    '''returns StructuralCodeConstraintException\n\n
+    (final String message)\n
+    ()\n
     '''

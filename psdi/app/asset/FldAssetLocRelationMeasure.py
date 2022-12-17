@@ -1,6 +1,8 @@
-def FldAssetLocRelationMeasure():
-    '''public FldAssetLocRelationMeasure(final MboValue mbv)
+def ():
+    '''returns FldAssetLocRelationMeasure\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,14 +1,10 @@
 TAG = "int  0"
-def RfcLDAPSuperDN():
-    '''public RfcLDAPSuperDN(final String s)
-    public RfcLDAPSuperDN(final byte[] content)
-    '''
-def byteValue():
-    '''public final byte[] byteValue()
-    '''
-def stringValue():
-    '''public final String stringValue()
+def ():
+    '''returns RfcLDAPSuperDN\n\n
+    (final String s)\n
+    (final byte[] content)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

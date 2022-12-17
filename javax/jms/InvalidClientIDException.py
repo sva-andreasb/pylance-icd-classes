@@ -1,4 +1,5 @@
-def InvalidClientIDException():
-    '''public InvalidClientIDException(final String reason)
-    public InvalidClientIDException(final String reason, final String errorCode)
+def ():
+    '''returns InvalidClientIDException\n\n
+    (final String reason)\n
+    (final String reason, final String errorCode)\n
     '''

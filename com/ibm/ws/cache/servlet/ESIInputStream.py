@@ -1,4 +1,5 @@
-def ESIInputStream():
-    '''public ESIInputStream(final InputStream in)
-    public ESIInputStream(final byte[] in)
+def ():
+    '''returns ESIInputStream\n\n
+    (final InputStream in)\n
+    (final byte[] in)\n
     '''

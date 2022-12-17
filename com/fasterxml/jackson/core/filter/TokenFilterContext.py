@@ -1,60 +1,68 @@
-def createRootContext():
-    '''public static TokenFilterContext createRootContext(final TokenFilter filter)
-    '''
 def createChildArrayContext():
-    '''public TokenFilterContext createChildArrayContext(final TokenFilter filter, final boolean writeStart)
+    '''returns TokenFilterContext\n\n
+    createChildArrayContext(final TokenFilter filter, final boolean writeStart)\n
     '''
 def createChildObjectContext():
-    '''public TokenFilterContext createChildObjectContext(final TokenFilter filter, final boolean writeStart)
+    '''returns TokenFilterContext\n\n
+    createChildObjectContext(final TokenFilter filter, final boolean writeStart)\n
     '''
 def setFieldName():
-    '''public TokenFilter setFieldName(final String name)
+    '''returns TokenFilter\n\n
+    setFieldName(final String name)\n
     '''
 def checkValue():
-    '''public TokenFilter checkValue(final TokenFilter filter)
+    '''returns TokenFilter\n\n
+    checkValue(final TokenFilter filter)\n
     '''
 def writePath():
-    '''public void writePath(final JsonGenerator gen)
+    '''returns None\n\n
+    writePath(final JsonGenerator gen)\n
     '''
 def writeImmediatePath():
-    '''public void writeImmediatePath(final JsonGenerator gen)
+    '''returns None\n\n
+    writeImmediatePath(final JsonGenerator gen)\n
     '''
 def closeArray():
-    '''public TokenFilterContext closeArray(final JsonGenerator gen)
+    '''returns TokenFilterContext\n\n
+    closeArray(final JsonGenerator gen)\n
     '''
 def closeObject():
-    '''public TokenFilterContext closeObject(final JsonGenerator gen)
+    '''returns TokenFilterContext\n\n
+    closeObject(final JsonGenerator gen)\n
     '''
 def skipParentChecks():
-    '''public void skipParentChecks()
+    '''returns None\n\n
+    skipParentChecks()\n
     '''
 def getCurrentValue():
-    '''public Object getCurrentValue()
+    '''returns Object\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final Object v)
-    '''
-def getParent():
-    '''public final TokenFilterContext getParent()
-    '''
-def getCurrentName():
-    '''public final String getCurrentName()
+    '''returns None\n\n
+    setCurrentValue(final Object v)\n
     '''
 def hasCurrentName():
-    '''public boolean hasCurrentName()
+    '''returns boolean\n\n
+    hasCurrentName()\n
     '''
 def getFilter():
-    '''public TokenFilter getFilter()
+    '''returns TokenFilter\n\n
+    getFilter()\n
     '''
 def isStartHandled():
-    '''public boolean isStartHandled()
+    '''returns boolean\n\n
+    isStartHandled()\n
     '''
 def nextTokenToRead():
-    '''public JsonToken nextTokenToRead()
+    '''returns JsonToken\n\n
+    nextTokenToRead()\n
     '''
 def findChildOf():
-    '''public TokenFilterContext findChildOf(final TokenFilterContext parent)
+    '''returns TokenFilterContext\n\n
+    findChildOf(final TokenFilterContext parent)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

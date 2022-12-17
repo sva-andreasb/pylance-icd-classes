@@ -1,36 +1,42 @@
 DEFAULT_MAX_THREADS = "int  100"
-def ThreadPool():
-    '''public ThreadPool()
-    public ThreadPool(final int maxPoolSize)
+def ():
+    '''returns ThreadPool\n\n
+    ()\n
+    (final int maxPoolSize)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def isShutdown():
-    '''public boolean isShutdown()
+    '''returns boolean\n\n
+    isShutdown()\n
     '''
 def isShuttingDown():
-    '''public boolean isShuttingDown()
+    '''returns boolean\n\n
+    isShuttingDown()\n
     '''
 def getWorkerCount():
-    '''public long getWorkerCount()
+    '''returns long\n\n
+    getWorkerCount()\n
     '''
 def addWorker():
-    '''public void addWorker(final Runnable worker)
+    '''returns None\n\n
+    addWorker(final Runnable worker)\n
     '''
 def interruptAll():
-    '''public void interruptAll()
+    '''returns None\n\n
+    interruptAll()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def safeShutdown():
-    '''public void safeShutdown()
-    '''
-def awaitShutdown():
-    '''public synchronized void awaitShutdown()
-    public synchronized boolean awaitShutdown(final long timeout)
+    '''returns None\n\n
+    safeShutdown()\n
     '''
 def workerDone():
-    '''public void workerDone(final Runnable worker, final boolean restart)
+    '''returns None\n\n
+    workerDone(final Runnable worker, final boolean restart)\n
     '''

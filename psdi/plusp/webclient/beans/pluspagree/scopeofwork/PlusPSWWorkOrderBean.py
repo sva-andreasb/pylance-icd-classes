@@ -1,3 +1,4 @@
 def selectworkordersagreeswwork():
-    '''public int selectworkordersagreeswwork()
+    '''returns int\n\n
+    selectworkordersagreeswwork()\n
     '''

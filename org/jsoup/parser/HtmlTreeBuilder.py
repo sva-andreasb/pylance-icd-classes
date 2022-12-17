@@ -1,7 +1,9 @@
 MaxScopeSearchDepth = "int  100"
-def HtmlTreeBuilder():
-    '''public HtmlTreeBuilder()
+def ():
+    '''returns HtmlTreeBuilder\n\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

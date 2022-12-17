@@ -1,42 +1,56 @@
-def ServerExceptionDataImpl():
-    '''public ServerExceptionDataImpl()
+def ():
+    '''returns ServerExceptionDataImpl\n\n
+    ()\n
     '''
 def getCode():
-    '''public String getCode()
+    '''returns String\n\n
+    getCode()\n
     '''
 def setCode():
-    '''public void setCode(final String code)
+    '''returns None\n\n
+    setCode(final String code)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
+    '''returns String\n\n
+    getLocalizedMessage()\n
     '''
 def setLocalizedMessage():
-    '''public void setLocalizedMessage(final String localizedMessage)
+    '''returns None\n\n
+    setLocalizedMessage(final String localizedMessage)\n
     '''
 def getStacktrace():
-    '''public String getStacktrace()
+    '''returns String\n\n
+    getStacktrace()\n
     '''
 def setStacktrace():
-    '''public void setStacktrace(final Throwable th)
+    '''returns None\n\n
+    setStacktrace(final Throwable th)\n
     '''
 def getExceptionclass():
-    '''public String getExceptionclass()
+    '''returns String\n\n
+    getExceptionclass()\n
     '''
 def setExceptionclass():
-    '''public void setExceptionclass(final String exclass)
+    '''returns None\n\n
+    setExceptionclass(final String exclass)\n
     '''
 def getParameters():
-    '''public List<String> getParameters()
+    '''returns List<String>\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final Object[] parameters)
+    '''returns None\n\n
+    setParameters(final Object[] parameters)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

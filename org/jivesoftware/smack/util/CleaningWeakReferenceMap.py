@@ -1,7 +1,9 @@
-def CleaningWeakReferenceMap():
-    '''public CleaningWeakReferenceMap()
-    public CleaningWeakReferenceMap(final int cleanInterval)
+def ():
+    '''returns CleaningWeakReferenceMap\n\n
+    ()\n
+    (final int cleanInterval)\n
     '''
 def put():
-    '''public WeakReference<V> put(final K key, final WeakReference<V> value)
+    '''returns WeakReference<V>\n\n
+    put(final K key, final WeakReference<V> value)\n
     '''

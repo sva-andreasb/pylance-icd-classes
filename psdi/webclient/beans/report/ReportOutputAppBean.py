@@ -1,3 +1,4 @@
 def downloadOutputFile():
-    '''public int downloadOutputFile()
+    '''returns int\n\n
+    downloadOutputFile()\n
     '''

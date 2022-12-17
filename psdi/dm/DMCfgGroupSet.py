@@ -1,3 +1,4 @@
-def DMCfgGroupSet():
-    '''public DMCfgGroupSet(final MboServerInterface ms)
+def ():
+    '''returns DMCfgGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''

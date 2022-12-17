@@ -1,4 +1,5 @@
 DATA_BLOCK_LENGTH = "int  32"
 def isInZeroBlock():
-    '''public boolean isInZeroBlock(final int ch)
+    '''returns boolean\n\n
+    isInZeroBlock(final int ch)\n
     '''

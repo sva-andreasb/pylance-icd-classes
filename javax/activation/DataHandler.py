@@ -1,56 +1,62 @@
-def getTransferDataFlavors():
-    '''public synchronized DataFlavor[] getTransferDataFlavors()
-    '''
 def isDataFlavorSupported():
-    '''public boolean isDataFlavorSupported(final DataFlavor flavor)
+    '''returns boolean\n\n
+    isDataFlavorSupported(final DataFlavor flavor)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream os)
+    '''returns None\n\n
+    writeTo(final OutputStream os)\n
     '''
 def getContent():
-    '''public Object getContent()
+    '''returns Object\n\n
+    getContent()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
-def DataHandler():
-    '''public DataHandler(final URL url)
-    public DataHandler(final DataSource ds)
-    public DataHandler(final Object obj, final String mimeType)
+def ():
+    '''returns DataHandler\n\n
+    (final URL url)\n
+    (final DataSource ds)\n
+    (final Object obj, final String mimeType)\n
     '''
 def getAllCommands():
-    '''public CommandInfo[] getAllCommands()
+    '''returns CommandInfo[]\n\n
+    getAllCommands()\n
     '''
 def getPreferredCommands():
-    '''public CommandInfo[] getPreferredCommands()
-    '''
-def setCommandMap():
-    '''public synchronized void setCommandMap(final CommandMap commandMap)
-    '''
-def setDataContentHandlerFactory():
-    '''public static synchronized void setDataContentHandlerFactory(final DataContentHandlerFactory newFactory)
+    '''returns CommandInfo[]\n\n
+    getPreferredCommands()\n
     '''
 def getDataSource():
-    '''public DataSource getDataSource()
+    '''returns DataSource\n\n
+    getDataSource()\n
     '''
 def getTransferData():
-    '''public Object getTransferData(final DataFlavor flavor)
+    '''returns Object\n\n
+    getTransferData(final DataFlavor flavor)\n
     '''
 def getBean():
-    '''public Object getBean(final CommandInfo cmdinfo)
+    '''returns Object\n\n
+    getBean(final CommandInfo cmdinfo)\n
     '''
 def getCommand():
-    '''public CommandInfo getCommand(final String cmdName)
+    '''returns CommandInfo\n\n
+    getCommand(final String cmdName)\n
     '''

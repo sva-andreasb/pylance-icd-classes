@@ -1,42 +1,56 @@
-def BaseResourceRequestHandler():
-    '''public BaseResourceRequestHandler()
+def ():
+    '''returns BaseResourceRequestHandler\n\n
+    ()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String mboName)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String mboName)\n
     '''
 def lookup():
-    '''public ServiceRemote lookup(final String name)
+    '''returns ServiceRemote\n\n
+    lookup(final String name)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def setBlockAccessList():
-    '''public void setBlockAccessList(final Set<String> blockAccessList)
+    '''returns None\n\n
+    setBlockAccessList(final Set<String> blockAccessList)\n
     '''
 def isRequestNoCache():
-    '''public boolean isRequestNoCache(final ResourceRequest req)
+    '''returns boolean\n\n
+    isRequestNoCache(final ResourceRequest req)\n
     '''
 def isUseCache():
-    '''public boolean isUseCache(final Resource res, final ResourceRequest req)
+    '''returns boolean\n\n
+    isUseCache(final Resource res, final ResourceRequest req)\n
     '''
 def isResourceModified():
-    '''public boolean isResourceModified(final Resource resource, final ResourceRequest request)
+    '''returns boolean\n\n
+    isResourceModified(final Resource resource, final ResourceRequest request)\n
     '''
 def setMXSession():
-    '''public void setMXSession(final MXSession mxSession, final UserInfo userInfo)
+    '''returns None\n\n
+    setMXSession(final MXSession mxSession, final UserInfo userInfo)\n
     '''
 def setHandlerName():
-    '''public void setHandlerName(final String handlerName)
+    '''returns None\n\n
+    setHandlerName(final String handlerName)\n
     '''
 def getDelagateHandler():
-    '''public String getDelagateHandler(final String resourceType, final String resourceName)
+    '''returns String\n\n
+    getDelagateHandler(final String resourceType, final String resourceName)\n
     '''
 def handleRequest():
-    '''public ResourceResponse handleRequest(final ResourceRequest req)
+    '''returns ResourceResponse\n\n
+    handleRequest(final ResourceRequest req)\n
     '''
 def isRoot():
-    '''public boolean isRoot()
+    '''returns boolean\n\n
+    isRoot()\n
     '''
 def setRoot():
-    '''public void setRoot(final boolean rootHandler)
+    '''returns None\n\n
+    setRoot(final boolean rootHandler)\n
     '''

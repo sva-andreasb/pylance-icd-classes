@@ -1,9 +1,8 @@
-def ItemProvider():
-    '''public ItemProvider()
-    '''
-def create():
-    '''public static synchronized ItemProvider create(final String lineSeparator)
+def ():
+    '''returns ItemProvider\n\n
+    ()\n
     '''
 def generate():
-    '''public String generate(final Object argument)
+    '''returns String\n\n
+    generate(final Object argument)\n
     '''

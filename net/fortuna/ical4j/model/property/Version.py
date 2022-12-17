@@ -1,37 +1,32 @@
-def Version():
-    '''public Version()
-    public Version(final ParameterList aList, final String aValue)
-    public Version(final String minVersion, final String maxVersion)
-    public Version(final ParameterList aList, final String aVersion1, final String aVersion2)
-    '''
-def getMaxVersion():
-    '''public final String getMaxVersion()
-    '''
-def getMinVersion():
-    '''public final String getMinVersion()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final ParameterList aList, final String aValue)\n
+    (final String minVersion, final String maxVersion)\n
+    (final ParameterList aList, final String aVersion1, final String aVersion2)\n
+    ()\n
     '''
 def setValue():
-    '''public void setValue(final String aValue)
-    public void setValue(final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
+    '''returns None\n\n
+    setValue(final String aValue)\n
+    setValue(final String aValue)\n
     '''
 def setMaxVersion():
-    '''public void setMaxVersion(final String maxVersion)
-    public void setMaxVersion(final String maxVersion)
+    '''returns None\n\n
+    setMaxVersion(final String maxVersion)\n
+    setMaxVersion(final String maxVersion)\n
     '''
 def setMinVersion():
-    '''public void setMinVersion(final String minVersion)
-    public void setMinVersion(final String minVersion)
+    '''returns None\n\n
+    setMinVersion(final String minVersion)\n
+    setMinVersion(final String minVersion)\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns None\n\n
+    validate()\n
     '''
 def createProperty():
-    '''public Version createProperty(final ParameterList parameters, final String value)
-    public Version createProperty()
+    '''returns Version\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

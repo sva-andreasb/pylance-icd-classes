@@ -1,3 +1,4 @@
-def BooleanCondition():
-    '''public BooleanCondition(final String key, final boolean value)
+def ():
+    '''returns BooleanCondition\n\n
+    (final String key, final boolean value)\n
     '''

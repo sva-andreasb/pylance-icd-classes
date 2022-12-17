@@ -1,94 +1,96 @@
 ALPHA_SIZE = "int  128"
 def setSpecialEscapeURLs():
-    '''public void setSpecialEscapeURLs(final boolean bool)
+    '''returns None\n\n
+    setSpecialEscapeURLs(final boolean bool)\n
     '''
 def setOmitMetaTag():
-    '''public void setOmitMetaTag(final boolean bool)
+    '''returns None\n\n
+    setOmitMetaTag(final boolean bool)\n
     '''
 def setOutputFormat():
-    '''public void setOutputFormat(final Properties format)
+    '''returns None\n\n
+    setOutputFormat(final Properties format)\n
     '''
-def getElemDesc():
-    '''public static final ElemDesc getElemDesc(final String name)
-    '''
-def ToHTMLStream():
-    '''public ToHTMLStream()
-    '''
-def endDocument():
-    '''public final void endDocument()
+def ():
+    '''returns Trie\n\n
+    ()\n
+    ()\n
+    (final boolean lowerCaseOnly)\n
+    (final Trie existingTrie)\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String name, final Attributes atts)
-    '''
-def endElement():
-    '''public final void endElement(final String namespaceURI, final String localName, final String name)
-    public final void endElement(final String elemName)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String name, final Attributes atts)\n
     '''
 def writeAttrURI():
-    '''public void writeAttrURI(final Writer writer, final String string, final boolean doURLEscaping)
+    '''returns None\n\n
+    writeAttrURI(final Writer writer, final String string, final boolean doURLEscaping)\n
     '''
 def writeAttrString():
-    '''public void writeAttrString(final Writer writer, final String string, final String encoding)
-    '''
-def characters():
-    '''public final void characters(final char[] chars, final int start, final int length)
-    '''
-def cdata():
-    '''public final void cdata(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    writeAttrString(final Writer writer, final String string, final String encoding)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String data)
-    '''
-def entityReference():
-    '''public final void entityReference(final String name)
+    '''returns None\n\n
+    processingInstruction(final String target, final String data)\n
     '''
 def processAttributes():
-    '''public void processAttributes(final Writer writer, final int nAttrs)
+    '''returns None\n\n
+    processAttributes(final Writer writer, final int nAttrs)\n
     '''
 def namespaceAfterStartElement():
-    '''public void namespaceAfterStartElement(final String prefix, final String uri)
+    '''returns None\n\n
+    namespaceAfterStartElement(final String prefix, final String uri)\n
     '''
 def startDTD():
-    '''public void startDTD(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    startDTD(final String name, final String publicId, final String systemId)\n
     '''
 def endDTD():
-    '''public void endDTD()
+    '''returns None\n\n
+    endDTD()\n
     '''
 def attributeDecl():
-    '''public void attributeDecl(final String eName, final String aName, final String type, final String valueDefault, final String value)
+    '''returns None\n\n
+    attributeDecl(final String eName, final String aName, final String type, final String valueDefault, final String value)\n
     '''
 def elementDecl():
-    '''public void elementDecl(final String name, final String model)
+    '''returns None\n\n
+    elementDecl(final String name, final String model)\n
     '''
 def internalEntityDecl():
-    '''public void internalEntityDecl(final String name, final String value)
+    '''returns None\n\n
+    internalEntityDecl(final String name, final String value)\n
     '''
 def externalEntityDecl():
-    '''public void externalEntityDecl(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    externalEntityDecl(final String name, final String publicId, final String systemId)\n
     '''
 def addUniqueAttribute():
-    '''public void addUniqueAttribute(final String name, final String value, final int flags)
+    '''returns None\n\n
+    addUniqueAttribute(final String name, final String value, final int flags)\n
     '''
 def comment():
-    '''public void comment(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    comment(final char[] ch, final int start, final int length)\n
     '''
 def reset():
-    '''public boolean reset()
-    '''
-def Trie():
-    '''public Trie()
-    public Trie(final boolean lowerCaseOnly)
-    public Trie(final Trie existingTrie)
+    '''returns boolean\n\n
+    reset()\n
     '''
 def put():
-    '''public Object put(final String key, final Object value)
+    '''returns Object\n\n
+    put(final String key, final Object value)\n
     '''
 def get():
-    '''public Object get(final String key)
+    '''returns Object\n\n
+    get(final String key)\n
     '''
 def get2():
-    '''public Object get2(final String key)
+    '''returns Object\n\n
+    get2(final String key)\n
     '''
 def getLongestKeyLength():
-    '''public int getLongestKeyLength()
+    '''returns int\n\n
+    getLongestKeyLength()\n
     '''

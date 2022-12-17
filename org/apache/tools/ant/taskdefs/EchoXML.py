@@ -1,22 +1,26 @@
-def EchoXML():
-    '''public EchoXML()
+def ():
+    '''returns NamespacePolicy\n\n
+    ()\n
+    ()\n
+    (final String s)\n
     '''
 def setFile():
-    '''public void setFile(final File f)
+    '''returns None\n\n
+    setFile(final File f)\n
     '''
 def setNamespacePolicy():
-    '''public void setNamespacePolicy(final NamespacePolicy n)
+    '''returns None\n\n
+    setNamespacePolicy(final NamespacePolicy n)\n
     '''
 def setAppend():
-    '''public void setAppend(final boolean b)
+    '''returns None\n\n
+    setAppend(final boolean b)\n
     '''
 def execute():
-    '''public void execute()
-    '''
-def NamespacePolicy():
-    '''public NamespacePolicy()
-    public NamespacePolicy(final String s)
+    '''returns None\n\n
+    execute()\n
     '''
 def getValues():
-    '''public String[] getValues()
+    '''returns String[]\n\n
+    getValues()\n
     '''

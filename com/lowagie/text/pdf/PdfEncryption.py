@@ -1,40 +1,44 @@
-def PdfEncryption():
-    '''public PdfEncryption()
+def ():
+    '''returns PdfEncryption\n\n
+    ()\n
     '''
 def setupAllKeys():
-    '''public void setupAllKeys(final byte[] userPassword, byte[] ownerPassword, int permissions, final boolean strength128Bits)
-    '''
-def createDocumentId():
-    '''public static byte[] createDocumentId()
+    '''returns None\n\n
+    setupAllKeys(final byte[] userPassword, byte[] ownerPassword, int permissions, final boolean strength128Bits)\n
     '''
 def setupByUserPassword():
-    '''public void setupByUserPassword(final byte[] documentID, final byte[] userPassword, final byte[] ownerKey, final int permissions, final boolean strength128Bits)
+    '''returns None\n\n
+    setupByUserPassword(final byte[] documentID, final byte[] userPassword, final byte[] ownerKey, final int permissions, final boolean strength128Bits)\n
     '''
 def setupByOwnerPassword():
-    '''public void setupByOwnerPassword(final byte[] documentID, final byte[] ownerPassword, final byte[] userKey, final byte[] ownerKey, final int permissions, final boolean strength128Bits)
+    '''returns None\n\n
+    setupByOwnerPassword(final byte[] documentID, final byte[] ownerPassword, final byte[] userKey, final byte[] ownerKey, final int permissions, final boolean strength128Bits)\n
     '''
 def prepareKey():
-    '''public void prepareKey()
+    '''returns None\n\n
+    prepareKey()\n
     '''
 def setHashKey():
-    '''public void setHashKey(final int number, final int generation)
-    '''
-def createInfoId():
-    '''public static PdfObject createInfoId(final byte[] id)
+    '''returns None\n\n
+    setHashKey(final int number, final int generation)\n
     '''
 def getEncryptionDictionary():
-    '''public PdfDictionary getEncryptionDictionary()
+    '''returns PdfDictionary\n\n
+    getEncryptionDictionary()\n
     '''
 def prepareRC4Key():
-    '''public void prepareRC4Key(final byte[] key)
-    public void prepareRC4Key(final byte[] key, final int off, final int len)
+    '''returns None\n\n
+    prepareRC4Key(final byte[] key)\n
+    prepareRC4Key(final byte[] key, final int off, final int len)\n
     '''
 def encryptRC4():
-    '''public void encryptRC4(final byte[] dataIn, final int off, final int len, final byte[] dataOut)
-    public void encryptRC4(final byte[] data, final int off, final int len)
-    public void encryptRC4(final byte[] dataIn, final byte[] dataOut)
-    public void encryptRC4(final byte[] data)
+    '''returns None\n\n
+    encryptRC4(final byte[] dataIn, final int off, final int len, final byte[] dataOut)\n
+    encryptRC4(final byte[] data, final int off, final int len)\n
+    encryptRC4(final byte[] dataIn, final byte[] dataOut)\n
+    encryptRC4(final byte[] data)\n
     '''
 def getFileID():
-    '''public PdfObject getFileID()
+    '''returns PdfObject\n\n
+    getFileID()\n
     '''

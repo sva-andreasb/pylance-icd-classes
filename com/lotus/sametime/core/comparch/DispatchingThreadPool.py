@@ -1,4 +1,5 @@
-def DispatchingThreadPool():
-    '''public DispatchingThreadPool()
-    public DispatchingThreadPool(final int maxThreads, final int threadTimeout)
+def ():
+    '''returns DispatchingThreadPool\n\n
+    ()\n
+    (final int maxThreads, final int threadTimeout)\n
     '''

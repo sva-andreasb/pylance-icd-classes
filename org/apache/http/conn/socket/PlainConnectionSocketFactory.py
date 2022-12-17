@@ -1,9 +1,8 @@
-def getSocketFactory():
-    '''public static PlainConnectionSocketFactory getSocketFactory()
-    '''
 def createSocket():
-    '''public Socket createSocket(final HttpContext context)
+    '''returns Socket\n\n
+    createSocket(final HttpContext context)\n
     '''
 def connectSocket():
-    '''public Socket connectSocket(final int connectTimeout, final Socket socket, final HttpHost host, final InetSocketAddress remoteAddress, final InetSocketAddress localAddress, final HttpContext context)
+    '''returns Socket\n\n
+    connectSocket(final int connectTimeout, final Socket socket, final HttpHost host, final InetSocketAddress remoteAddress, final InetSocketAddress localAddress, final HttpContext context)\n
     '''

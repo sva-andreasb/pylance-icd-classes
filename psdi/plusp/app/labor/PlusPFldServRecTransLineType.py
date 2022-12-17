@@ -1,6 +1,8 @@
-def PlusPFldServRecTransLineType():
-    '''public PlusPFldServRecTransLineType(final MboValue arg0)
+def ():
+    '''returns PlusPFldServRecTransLineType\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

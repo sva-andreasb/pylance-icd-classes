@@ -1,3 +1,4 @@
 def createRegistry():
-    '''public TimeZoneRegistry createRegistry()
+    '''returns TimeZoneRegistry\n\n
+    createRegistry()\n
     '''

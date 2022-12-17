@@ -1,489 +1,625 @@
-def IlvDiagrammer():
-    '''public IlvDiagrammer()
-    public IlvDiagrammer(final IlvSDMView ilvSDMView)
+def ():
+    '''returns IlvDiagrammer\n\n
+    ()\n
+    (final IlvSDMView ilvSDMView)\n
     '''
 def getDefaultStyleSheet():
-    '''public URL getDefaultStyleSheet()
+    '''returns URL\n\n
+    getDefaultStyleSheet()\n
     '''
 def keyPressed():
-    '''public void keyPressed(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyPressed(final KeyEvent keyEvent)\n
     '''
 def setScrollable():
-    '''public void setScrollable(final boolean g)
+    '''returns None\n\n
+    setScrollable(final boolean g)\n
     '''
 def isScrollable():
-    '''public boolean isScrollable()
+    '''returns boolean\n\n
+    isScrollable()\n
     '''
 def setStyleSheet():
-    '''public void setStyleSheet(final URL url)
+    '''returns None\n\n
+    setStyleSheet(final URL url)\n
     '''
 def getStyleSheet():
-    '''public URL getStyleSheet()
+    '''returns URL\n\n
+    getStyleSheet()\n
     '''
 def addStyleSheet():
-    '''public void addStyleSheet(final URL url)
+    '''returns None\n\n
+    addStyleSheet(final URL url)\n
     '''
 def removeStyleSheet():
-    '''public void removeStyleSheet(final URL url)
+    '''returns None\n\n
+    removeStyleSheet(final URL url)\n
     '''
 def getStyleSheets():
-    '''public URL[] getStyleSheets()
+    '''returns URL[]\n\n
+    getStyleSheets()\n
     '''
 def isStyleApplicationComponents():
-    '''public boolean isStyleApplicationComponents()
+    '''returns boolean\n\n
+    isStyleApplicationComponents()\n
     '''
 def setStyleApplicationComponents():
-    '''public void setStyleApplicationComponents(final boolean v)
-    '''
-def setDataFile():
-    '''public synchronized void setDataFile(final URL url)
+    '''returns None\n\n
+    setStyleApplicationComponents(final boolean v)\n
     '''
 def getDataFile():
-    '''public URL getDataFile()
+    '''returns URL\n\n
+    getDataFile()\n
     '''
 def writeProjectFile():
-    '''public void writeProjectFile(final URL url)
+    '''returns None\n\n
+    writeProjectFile(final URL url)\n
     '''
 def writeDataFile():
-    '''public void writeDataFile(final URL d)
-    public void writeDataFile(final String s)
+    '''returns None\n\n
+    writeDataFile(final URL d)\n
+    writeDataFile(final String s)\n
     '''
 def writeData():
-    '''public void writeData()
+    '''returns None\n\n
+    writeData()\n
     '''
 def setDataSource():
-    '''public void setDataSource(final IlvDiagrammerDataSource ilvDiagrammerDataSource)
+    '''returns None\n\n
+    setDataSource(final IlvDiagrammerDataSource ilvDiagrammerDataSource)\n
     '''
 def getDataSource():
-    '''public IlvDiagrammerDataSource getDataSource()
+    '''returns IlvDiagrammerDataSource\n\n
+    getDataSource()\n
     '''
 def getProject():
-    '''public IlvDiagrammerProject getProject()
+    '''returns IlvDiagrammerProject\n\n
+    getProject()\n
     '''
 def setProject():
-    '''public void setProject(final IlvDiagrammerProject ilvDiagrammerProject)
-    public void setProject(final IlvDiagrammerProject ilvDiagrammerProject, final boolean b)
+    '''returns None\n\n
+    setProject(final IlvDiagrammerProject ilvDiagrammerProject)\n
+    setProject(final IlvDiagrammerProject ilvDiagrammerProject, final boolean b)\n
     '''
 def assignProject():
-    '''public void assignProject(final IlvDiagrammerProject f)
+    '''returns None\n\n
+    assignProject(final IlvDiagrammerProject f)\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def createNode():
-    '''public Object createNode(final String s)
+    '''returns Object\n\n
+    createNode(final String s)\n
     '''
 def createLink():
-    '''public Object createLink(final String s, final Object o, final Object o2)
+    '''returns Object\n\n
+    createLink(final String s, final Object o, final Object o2)\n
     '''
 def getTag():
-    '''public String getTag(final Object o)
+    '''returns String\n\n
+    getTag(final Object o)\n
     '''
 def getID():
-    '''public String getID(final Object o)
+    '''returns String\n\n
+    getID(final Object o)\n
     '''
 def setID():
-    '''public void setID(final Object o, final String s)
+    '''returns None\n\n
+    setID(final Object o, final String s)\n
     '''
 def getObject():
-    '''public Object getObject(final String s)
+    '''returns Object\n\n
+    getObject(final String s)\n
     '''
 def addObject():
-    '''public void addObject(final Object o, final Object o2)
+    '''returns None\n\n
+    addObject(final Object o, final Object o2)\n
     '''
 def removeObject():
-    '''public void removeObject(final Object o)
+    '''returns None\n\n
+    removeObject(final Object o)\n
     '''
 def setObjectProperty():
-    '''public void setObjectProperty(final Object o, final String s, final Object o2)
+    '''returns None\n\n
+    setObjectProperty(final Object o, final String s, final Object o2)\n
     '''
 def getObjectProperty():
-    '''public Object getObjectProperty(final Object o, final String s)
+    '''returns Object\n\n
+    getObjectProperty(final Object o, final String s)\n
     '''
 def getObjects():
-    '''public Iterator getObjects()
+    '''returns Iterator\n\n
+    getObjects()\n
     '''
 def getAllObjects():
-    '''public Iterator getAllObjects()
+    '''returns Iterator\n\n
+    getAllObjects()\n
     '''
 def getChildren():
-    '''public Iterator getChildren(final Object o)
+    '''returns Iterator\n\n
+    getChildren(final Object o)\n
     '''
 def getParent():
-    '''public Object getParent(final Object o)
+    '''returns Object\n\n
+    getParent(final Object o)\n
     '''
 def getEngine():
-    '''public IlvSDMEngine getEngine()
+    '''returns IlvSDMEngine\n\n
+    getEngine()\n
     '''
 def getView():
-    '''public IlvSDMView getView()
+    '''returns IlvSDMView\n\n
+    getView()\n
     '''
 def isLink():
-    '''public boolean isLink(final Object o)
+    '''returns boolean\n\n
+    isLink(final Object o)\n
     '''
 def getSourceNode():
-    '''public Object getSourceNode(final Object o)
+    '''returns Object\n\n
+    getSourceNode(final Object o)\n
     '''
 def setSourceNode():
-    '''public void setSourceNode(final Object o, final Object o2)
+    '''returns None\n\n
+    setSourceNode(final Object o, final Object o2)\n
     '''
 def getTargetNode():
-    '''public Object getTargetNode(final Object o)
+    '''returns Object\n\n
+    getTargetNode(final Object o)\n
     '''
 def setTargetNode():
-    '''public void setTargetNode(final Object o, final Object o2)
+    '''returns None\n\n
+    setTargetNode(final Object o, final Object o2)\n
     '''
 def setAdjusting():
-    '''public void setAdjusting(final boolean adjusting)
+    '''returns None\n\n
+    setAdjusting(final boolean adjusting)\n
     '''
 def clearAdjusting():
-    '''public void clearAdjusting()
+    '''returns None\n\n
+    clearAdjusting()\n
     '''
 def isAdjusting():
-    '''public boolean isAdjusting()
+    '''returns boolean\n\n
+    isAdjusting()\n
     '''
 def setSelectMode():
-    '''public void setSelectMode(final boolean b)
+    '''returns None\n\n
+    setSelectMode(final boolean b)\n
     '''
 def isSelectMode():
-    '''public boolean isSelectMode()
+    '''returns boolean\n\n
+    isSelectMode()\n
     '''
 def getSelectedObjects():
-    '''public Iterator getSelectedObjects()
+    '''returns Iterator\n\n
+    getSelectedObjects()\n
     '''
 def setSelected():
-    '''public void setSelected(final Object o, final boolean b)
+    '''returns None\n\n
+    setSelected(final Object o, final boolean b)\n
     '''
 def isSelected():
-    '''public boolean isSelected(final Object o)
+    '''returns boolean\n\n
+    isSelected(final Object o)\n
     '''
 def deselectAll():
-    '''public void deselectAll()
+    '''returns None\n\n
+    deselectAll()\n
     '''
 def setAllSelectedObjects():
-    '''public void setAllSelectedObjects(final Collection allSelectedObjects)
+    '''returns None\n\n
+    setAllSelectedObjects(final Collection allSelectedObjects)\n
     '''
 def selectAll():
-    '''public void selectAll()
+    '''returns None\n\n
+    selectAll()\n
     '''
 def canSelect():
-    '''public boolean canSelect()
+    '''returns boolean\n\n
+    canSelect()\n
     '''
 def scrollToObject():
-    '''public void scrollToObject(final Object o)
+    '''returns None\n\n
+    scrollToObject(final Object o)\n
     '''
 def setEditingAllowed():
-    '''public void setEditingAllowed(final boolean b)
+    '''returns None\n\n
+    setEditingAllowed(final boolean b)\n
     '''
 def isEditingAllowed():
-    '''public boolean isEditingAllowed()
+    '''returns boolean\n\n
+    isEditingAllowed()\n
     '''
 def isEditable():
-    '''public boolean isEditable()
+    '''returns boolean\n\n
+    isEditable()\n
     '''
 def isResizingAllowed():
-    '''public boolean isResizingAllowed()
+    '''returns boolean\n\n
+    isResizingAllowed()\n
     '''
 def setResizingAllowed():
-    '''public void setResizingAllowed(final boolean resizingAllowed)
+    '''returns None\n\n
+    setResizingAllowed(final boolean resizingAllowed)\n
     '''
 def cut():
-    '''public void cut()
+    '''returns None\n\n
+    cut()\n
     '''
 def canEdit():
-    '''public boolean canEdit()
+    '''returns boolean\n\n
+    canEdit()\n
     '''
 def copy():
-    '''public void copy()
+    '''returns None\n\n
+    copy()\n
     '''
 def paste():
-    '''public void paste()
+    '''returns None\n\n
+    paste()\n
     '''
 def canPaste():
-    '''public boolean canPaste()
+    '''returns boolean\n\n
+    canPaste()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def duplicate():
-    '''public void duplicate()
+    '''returns None\n\n
+    duplicate()\n
     '''
 def undo():
-    '''public void undo()
+    '''returns None\n\n
+    undo()\n
     '''
 def canUndo():
-    '''public boolean canUndo()
+    '''returns boolean\n\n
+    canUndo()\n
     '''
 def redo():
-    '''public void redo()
+    '''returns None\n\n
+    redo()\n
     '''
 def canRedo():
-    '''public boolean canRedo()
+    '''returns boolean\n\n
+    canRedo()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def setModified():
-    '''public void setModified(final boolean b)
+    '''returns None\n\n
+    setModified(final boolean b)\n
     '''
 def group():
-    '''public void group()
+    '''returns None\n\n
+    group()\n
     '''
 def createGroupParent():
-    '''public Object createGroupParent()
+    '''returns Object\n\n
+    createGroupParent()\n
     '''
 def setGroupParent():
-    '''public void setGroupParent(final IlvDiagrammer ilvDiagrammer, final Object o)
+    '''returns None\n\n
+    setGroupParent(final IlvDiagrammer ilvDiagrammer, final Object o)\n
     '''
 def canGroup():
-    '''public boolean canGroup()
+    '''returns boolean\n\n
+    canGroup()\n
     '''
 def ungroup():
-    '''public void ungroup()
+    '''returns None\n\n
+    ungroup()\n
     '''
 def canUngroup():
-    '''public boolean canUngroup()
+    '''returns boolean\n\n
+    canUngroup()\n
     '''
 def getZoomFactor():
-    '''public double getZoomFactor()
+    '''returns double\n\n
+    getZoomFactor()\n
     '''
 def setZoomFactor():
-    '''public void setZoomFactor(final double q)
+    '''returns None\n\n
+    setZoomFactor(final double q)\n
     '''
 def getMinimumZoom():
-    '''public double getMinimumZoom()
+    '''returns double\n\n
+    getMinimumZoom()\n
     '''
 def setMinimumZoom():
-    '''public void setMinimumZoom(final double r)
+    '''returns None\n\n
+    setMinimumZoom(final double r)\n
     '''
 def getMaximumZoom():
-    '''public double getMaximumZoom()
+    '''returns double\n\n
+    getMaximumZoom()\n
     '''
 def setMaximumZoom():
-    '''public void setMaximumZoom(final double s)
+    '''returns None\n\n
+    setMaximumZoom(final double s)\n
     '''
 def zoomIn():
-    '''public void zoomIn()
+    '''returns None\n\n
+    zoomIn()\n
     '''
 def canZoomIn():
-    '''public boolean canZoomIn()
+    '''returns boolean\n\n
+    canZoomIn()\n
     '''
 def zoomOut():
-    '''public void zoomOut()
+    '''returns None\n\n
+    zoomOut()\n
     '''
 def canZoomOut():
-    '''public boolean canZoomOut()
+    '''returns boolean\n\n
+    canZoomOut()\n
     '''
 def resetZoom():
-    '''public void resetZoom()
+    '''returns None\n\n
+    resetZoom()\n
     '''
 def canResetZoom():
-    '''public boolean canResetZoom()
+    '''returns boolean\n\n
+    canResetZoom()\n
     '''
 def setZoomMode():
-    '''public void setZoomMode(final boolean b)
+    '''returns None\n\n
+    setZoomMode(final boolean b)\n
     '''
 def isZoomMode():
-    '''public boolean isZoomMode()
+    '''returns boolean\n\n
+    isZoomMode()\n
     '''
 def setPanMode():
-    '''public void setPanMode(final boolean b)
+    '''returns None\n\n
+    setPanMode(final boolean b)\n
     '''
 def isPanMode():
-    '''public boolean isPanMode()
+    '''returns boolean\n\n
+    isPanMode()\n
     '''
 def fitToContents():
-    '''public void fitToContents()
-    public void fitToContents(final boolean b)
+    '''returns None\n\n
+    fitToContents()\n
+    fitToContents(final boolean b)\n
     '''
 def setEditLabelMode():
-    '''public void setEditLabelMode(final boolean b)
+    '''returns None\n\n
+    setEditLabelMode(final boolean b)\n
     '''
 def isEditLabelMode():
-    '''public boolean isEditLabelMode()
+    '''returns boolean\n\n
+    isEditLabelMode()\n
     '''
 def isAutoEditLabel():
-    '''public boolean isAutoEditLabel()
+    '''returns boolean\n\n
+    isAutoEditLabel()\n
     '''
 def setAutoEditLabel():
-    '''public void setAutoEditLabel(final boolean m)
+    '''returns None\n\n
+    setAutoEditLabel(final boolean m)\n
     '''
 def setAutomaticNodeLayout():
-    '''public void setAutomaticNodeLayout(final boolean nodeLayoutEnabled)
+    '''returns None\n\n
+    setAutomaticNodeLayout(final boolean nodeLayoutEnabled)\n
     '''
 def isAutomaticNodeLayout():
-    '''public boolean isAutomaticNodeLayout()
+    '''returns boolean\n\n
+    isAutomaticNodeLayout()\n
     '''
 def layoutAllNodes():
-    '''public void layoutAllNodes()
+    '''returns None\n\n
+    layoutAllNodes()\n
     '''
 def layoutSelectedNodes():
-    '''public void layoutSelectedNodes()
+    '''returns None\n\n
+    layoutSelectedNodes()\n
     '''
 def isNodeLayoutAvailable():
-    '''public boolean isNodeLayoutAvailable()
+    '''returns boolean\n\n
+    isNodeLayoutAvailable()\n
     '''
 def setAutomaticLinkLayout():
-    '''public void setAutomaticLinkLayout(final boolean linkLayoutEnabled)
+    '''returns None\n\n
+    setAutomaticLinkLayout(final boolean linkLayoutEnabled)\n
     '''
 def isAutomaticLinkLayout():
-    '''public boolean isAutomaticLinkLayout()
+    '''returns boolean\n\n
+    isAutomaticLinkLayout()\n
     '''
 def layoutLinks():
-    '''public void layoutLinks()
+    '''returns None\n\n
+    layoutLinks()\n
     '''
 def isLinkLayoutAvailable():
-    '''public boolean isLinkLayoutAvailable()
+    '''returns boolean\n\n
+    isLinkLayoutAvailable()\n
     '''
 def setAutomaticLabelLayout():
-    '''public void setAutomaticLabelLayout(final boolean labelLayoutEnabled)
+    '''returns None\n\n
+    setAutomaticLabelLayout(final boolean labelLayoutEnabled)\n
     '''
 def isAutomaticLabelLayout():
-    '''public boolean isAutomaticLabelLayout()
+    '''returns boolean\n\n
+    isAutomaticLabelLayout()\n
     '''
 def layoutLabels():
-    '''public void layoutLabels()
+    '''returns None\n\n
+    layoutLabels()\n
     '''
 def isLabelLayoutAvailable():
-    '''public boolean isLabelLayoutAvailable()
+    '''returns boolean\n\n
+    isLabelLayoutAvailable()\n
     '''
 def getPrintingController():
-    '''public IlvManagerPrintingController getPrintingController()
+    '''returns IlvManagerPrintingController\n\n
+    getPrintingController()\n
     '''
 def setPrintingController():
-    '''public void setPrintingController(final IlvManagerPrintingController x)
+    '''returns None\n\n
+    setPrintingController(final IlvManagerPrintingController x)\n
     '''
 def pageSetup():
-    '''public void pageSetup()
+    '''returns None\n\n
+    pageSetup()\n
     '''
 def printPreview():
-    '''public void printPreview()
+    '''returns None\n\n
+    printPreview()\n
     '''
 def setPrintArea():
-    '''public void setPrintArea()
+    '''returns None\n\n
+    setPrintArea()\n
     '''
 def clearPrintArea():
-    '''public void clearPrintArea()
+    '''returns None\n\n
+    clearPrintArea()\n
     '''
 def print():
-    '''public void print(final boolean b, final boolean b2, final PrinterExceptionHandler printerExceptionHandler)
+    '''returns None\n\n
+    print(final boolean b, final boolean b2, final PrinterExceptionHandler printerExceptionHandler)\n
     '''
 def printToBitmap():
-    '''public void printToBitmap(final File file)
+    '''returns None\n\n
+    printToBitmap(final File file)\n
     '''
 def hasFrameOrDialogAncestor():
-    '''public boolean hasFrameOrDialogAncestor()
+    '''returns boolean\n\n
+    hasFrameOrDialogAncestor()\n
     '''
 def canPrint():
-    '''public boolean canPrint()
+    '''returns boolean\n\n
+    canPrint()\n
     '''
 def setPalette():
-    '''public void setPalette(final IlvDiagrammer t)
+    '''returns None\n\n
+    setPalette(final IlvDiagrammer t)\n
     '''
 def getPalette():
-    '''public IlvDiagrammer getPalette()
+    '''returns IlvDiagrammer\n\n
+    getPalette()\n
     '''
 def isStickyModes():
-    '''public boolean isStickyModes()
+    '''returns boolean\n\n
+    isStickyModes()\n
     '''
 def setStickyModes():
-    '''public void setStickyModes(final boolean b)
+    '''returns None\n\n
+    setStickyModes(final boolean b)\n
     '''
 def setBaseTextDirection():
-    '''public void setBaseTextDirection(final int n)
-    public void setBaseTextDirection(final int n, final boolean b)
+    '''returns None\n\n
+    setBaseTextDirection(final int n)\n
+    setBaseTextDirection(final int n, final boolean b)\n
     '''
 def getBaseTextDirection():
-    '''public int getBaseTextDirection()
+    '''returns int\n\n
+    getBaseTextDirection()\n
     '''
 def getSelectInteractor():
-    '''public IlvSelectInteractor getSelectInteractor()
+    '''returns IlvSelectInteractor\n\n
+    getSelectInteractor()\n
     '''
 def setSelectInteractor():
-    '''public void setSelectInteractor(final IlvSelectInteractor i)
+    '''returns None\n\n
+    setSelectInteractor(final IlvSelectInteractor i)\n
     '''
 def getZoomInteractor():
-    '''public IlvZoomViewInteractor getZoomInteractor()
+    '''returns IlvZoomViewInteractor\n\n
+    getZoomInteractor()\n
     '''
 def setZoomInteractor():
-    '''public void setZoomInteractor(final IlvZoomViewInteractor j)
+    '''returns None\n\n
+    setZoomInteractor(final IlvZoomViewInteractor j)\n
     '''
 def getPanInteractor():
-    '''public IlvPanInteractor getPanInteractor()
+    '''returns IlvPanInteractor\n\n
+    getPanInteractor()\n
     '''
 def setPanInteractor():
-    '''public void setPanInteractor(final IlvPanInteractor k)
+    '''returns None\n\n
+    setPanInteractor(final IlvPanInteractor k)\n
     '''
 def getEditLabelInteractor():
-    '''public IlvEditSDMLabelInteractor getEditLabelInteractor()
+    '''returns IlvEditSDMLabelInteractor\n\n
+    getEditLabelInteractor()\n
     '''
 def setEditLabelInteractor():
-    '''public void setEditLabelInteractor(final IlvEditSDMLabelInteractor l)
+    '''returns None\n\n
+    setEditLabelInteractor(final IlvEditSDMLabelInteractor l)\n
     '''
 def isGridVisible():
-    '''public boolean isGridVisible()
+    '''returns boolean\n\n
+    isGridVisible()\n
     '''
 def setGridVisible():
-    '''public void setGridVisible(final boolean b)
+    '''returns None\n\n
+    setGridVisible(final boolean b)\n
     '''
 def getGrid():
-    '''public IlvGrid getGrid()
+    '''returns IlvGrid\n\n
+    getGrid()\n
     '''
 def setGrid():
-    '''public void setGrid(final IlvGrid y)
+    '''returns None\n\n
+    setGrid(final IlvGrid y)\n
     '''
 def getUndoManager():
-    '''public IlvSDMUndoManager getUndoManager()
+    '''returns IlvSDMUndoManager\n\n
+    getUndoManager()\n
     '''
 def canAlign():
-    '''public boolean canAlign()
+    '''returns boolean\n\n
+    canAlign()\n
     '''
 def canDistribute():
-    '''public boolean canDistribute()
+    '''returns boolean\n\n
+    canDistribute()\n
     '''
 def alignLeft():
-    '''public void alignLeft()
+    '''returns None\n\n
+    alignLeft()\n
     '''
 def alignRight():
-    '''public void alignRight()
+    '''returns None\n\n
+    alignRight()\n
     '''
 def alignTop():
-    '''public void alignTop()
+    '''returns None\n\n
+    alignTop()\n
     '''
 def alignBottom():
-    '''public void alignBottom()
+    '''returns None\n\n
+    alignBottom()\n
     '''
 def alignVerticalCenter():
-    '''public void alignVerticalCenter()
+    '''returns None\n\n
+    alignVerticalCenter()\n
     '''
 def alignHorizontalCenter():
-    '''public void alignHorizontalCenter()
+    '''returns None\n\n
+    alignHorizontalCenter()\n
     '''
 def distributeHorizontally():
-    '''public void distributeHorizontally()
+    '''returns None\n\n
+    distributeHorizontally()\n
     '''
 def distributeVertically():
-    '''public void distributeVertically()
-    '''
-def getCurrentDiagrammer():
-    '''public static IlvDiagrammer getCurrentDiagrammer(final Component component)
-    '''
-def setCurrentDiagrammer():
-    '''public static void setCurrentDiagrammer(final Component component, final IlvDiagrammer ilvDiagrammer)
-    public static void setCurrentDiagrammer(final Component component, final IlvDiagrammer target, final boolean b)
-    '''
-def setAsRoot():
-    '''public static void setAsRoot(final Component component)
-    '''
-def setAutomaticCurrentDiagrammer():
-    '''public static void setAutomaticCurrentDiagrammer(final boolean enabled)
-    '''
-def isAutomaticCurrentDiagrammer():
-    '''public static boolean isAutomaticCurrentDiagrammer()
+    '''returns None\n\n
+    distributeVertically()\n
     '''
 def processServerAction():
-    '''public boolean processServerAction(final int n, final int n2)
+    '''returns boolean\n\n
+    processServerAction(final int n, final int n2)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''

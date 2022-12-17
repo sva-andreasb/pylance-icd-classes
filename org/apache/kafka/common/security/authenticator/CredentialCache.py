@@ -1,24 +1,21 @@
-def CredentialCache():
-    '''public CredentialCache()
-    '''
-def createCache():
-    '''public <C> Cache<C> createCache(final String mechanism, final Class<C> credentialClass)
-    '''
-def cache():
-    '''public <C> Cache<C> cache(final String mechanism, final Class<C> credentialClass)
-    '''
-def Cache():
-    '''public Cache(final Class<C> credentialClass)
+def ():
+    '''returns Cache\n\n
+    ()\n
+    (final Class<C> credentialClass)\n
     '''
 def get():
-    '''public C get(final String username)
+    '''returns C\n\n
+    get(final String username)\n
     '''
 def put():
-    '''public C put(final String username, final C credential)
+    '''returns C\n\n
+    put(final String username, final C credential)\n
     '''
 def remove():
-    '''public C remove(final String username)
+    '''returns C\n\n
+    remove(final String username)\n
     '''
 def credentialClass():
-    '''public Class<C> credentialClass()
+    '''returns Class<C>\n\n
+    credentialClass()\n
     '''

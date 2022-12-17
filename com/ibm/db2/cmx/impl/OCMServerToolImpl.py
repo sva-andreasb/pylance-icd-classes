@@ -1,12 +1,12 @@
-def OCMServerToolImpl():
-    '''public OCMServerToolImpl(final String controllerURL_)
+def ():
+    '''returns OCMServerToolImpl\n\n
+    (final String controllerURL_)\n
     '''
 def clearCache():
-    '''public void clearCache()
+    '''returns None\n\n
+    clearCache()\n
     '''
 def mainImpl():
-    '''public void mainImpl(final String[] array)
-    '''
-def getControllerURL():
-    '''public static String getControllerURL(final String[] array)
+    '''returns None\n\n
+    mainImpl(final String[] array)\n
     '''

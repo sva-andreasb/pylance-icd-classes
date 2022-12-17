@@ -1,9 +1,12 @@
-def VisibleTimeChangedEvent():
-    '''public VisibleTimeChangedEvent(final IlvTimeScrollable ilvTimeScrollable, final Date date, final boolean a)
+def ():
+    '''returns VisibleTimeChangedEvent\n\n
+    (final IlvTimeScrollable ilvTimeScrollable, final Date date, final boolean a)\n
     '''
 def isAdjusting():
-    '''public boolean isAdjusting()
+    '''returns boolean\n\n
+    isAdjusting()\n
     '''
 def paramString():
-    '''public String paramString()
+    '''returns String\n\n
+    paramString()\n
     '''

@@ -1,7 +1,9 @@
-def HttpAuthenticator():
-    '''public HttpAuthenticator(final Log log)
-    public HttpAuthenticator()
+def ():
+    '''returns HttpAuthenticator\n\n
+    (final Log log)\n
+    ()\n
     '''
 def authenticate():
-    '''public boolean authenticate(final HttpHost host, final HttpResponse response, final AuthenticationStrategy authStrategy, final AuthState authState, final HttpContext context)
+    '''returns boolean\n\n
+    authenticate(final HttpHost host, final HttpResponse response, final AuthenticationStrategy authStrategy, final AuthState authState, final HttpContext context)\n
     '''

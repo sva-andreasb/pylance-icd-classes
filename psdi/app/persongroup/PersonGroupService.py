@@ -1,4 +1,5 @@
-def PersonGroupService():
-    '''public PersonGroupService()
-    public PersonGroupService(final MXServer mxServer)
+def ():
+    '''returns PersonGroupService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

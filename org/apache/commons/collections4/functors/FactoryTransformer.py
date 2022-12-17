@@ -1,9 +1,8 @@
-def factoryTransformer():
-    '''public static <I, O> Transformer<I, O> factoryTransformer(final Factory<? extends O> factory)
-    '''
-def FactoryTransformer():
-    '''public FactoryTransformer(final Factory<? extends O> factory)
+def ():
+    '''returns FactoryTransformer\n\n
+    (final Factory<? extends O> factory)\n
     '''
 def transform():
-    '''public O transform(final I input)
+    '''returns O\n\n
+    transform(final I input)\n
     '''

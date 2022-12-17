@@ -1,44 +1,52 @@
-def AQEnqueueOptions():
-    '''public AQEnqueueOptions()
+def ():
+    '''returns AQEnqueueOptions\n\n
+    ()\n
     '''
 def setRelativeMessageId():
-    '''public void setRelativeMessageId(final byte[] attrRelativeMessageId)
+    '''returns None\n\n
+    setRelativeMessageId(final byte[] attrRelativeMessageId)\n
     '''
 def getRelativeMessageId():
-    '''public byte[] getRelativeMessageId()
+    '''returns byte[]\n\n
+    getRelativeMessageId()\n
     '''
 def setSequenceDeviation():
-    '''public void setSequenceDeviation(final SequenceDeviationOption attrSequenceDeviation)
+    '''returns None\n\n
+    setSequenceDeviation(final SequenceDeviationOption attrSequenceDeviation)\n
     '''
 def getSequenceDeviation():
-    '''public SequenceDeviationOption getSequenceDeviation()
+    '''returns SequenceDeviationOption\n\n
+    getSequenceDeviation()\n
     '''
 def setVisibility():
-    '''public void setVisibility(final VisibilityOption attrVisibility)
+    '''returns None\n\n
+    setVisibility(final VisibilityOption attrVisibility)\n
     '''
 def getVisibility():
-    '''public VisibilityOption getVisibility()
+    '''returns VisibilityOption\n\n
+    getVisibility()\n
     '''
 def setDeliveryMode():
-    '''public void setDeliveryMode(final DeliveryMode attrDeliveryMode)
+    '''returns None\n\n
+    setDeliveryMode(final DeliveryMode attrDeliveryMode)\n
     '''
 def getDeliveryMode():
-    '''public DeliveryMode getDeliveryMode()
+    '''returns DeliveryMode\n\n
+    getDeliveryMode()\n
     '''
 def setRetrieveMessageId():
-    '''public void setRetrieveMessageId(final boolean retrieveMsgId)
+    '''returns None\n\n
+    setRetrieveMessageId(final boolean retrieveMsgId)\n
     '''
 def getRetrieveMessageId():
-    '''public boolean getRetrieveMessageId()
+    '''returns boolean\n\n
+    getRetrieveMessageId()\n
     '''
 def setTransformation():
-    '''public void setTransformation(final String transformation)
+    '''returns None\n\n
+    setTransformation(final String transformation)\n
     '''
 def getTransformation():
-    '''public String getTransformation()
-    '''
-def getCode():
-    '''public final int getCode()
-    public final int getCode()
-    public final int getCode()
+    '''returns String\n\n
+    getTransformation()\n
     '''

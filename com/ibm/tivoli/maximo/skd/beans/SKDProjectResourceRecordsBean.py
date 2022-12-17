@@ -1,6 +1,8 @@
 def filterByError():
-    '''public void filterByError(final String valMsg)
+    '''returns None\n\n
+    filterByError(final String valMsg)\n
     '''
 def OVERRIDEAVAILIDALOG():
-    '''public int OVERRIDEAVAILIDALOG()
+    '''returns int\n\n
+    OVERRIDEAVAILIDALOG()\n
     '''

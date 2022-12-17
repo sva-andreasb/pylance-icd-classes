@@ -1,29 +1,34 @@
-def forConfigDocuments():
-    '''public static BindingConfig forConfigDocuments(final ConfigDocument.Config[] configs, final File[] javaFiles, final File[] classpath)
-    '''
 def lookupPackageForNamespace():
-    '''public String lookupPackageForNamespace(final String uri)
+    '''returns String\n\n
+    lookupPackageForNamespace(final String uri)\n
     '''
 def lookupPrefixForNamespace():
-    '''public String lookupPrefixForNamespace(final String uri)
+    '''returns String\n\n
+    lookupPrefixForNamespace(final String uri)\n
     '''
 def lookupSuffixForNamespace():
-    '''public String lookupSuffixForNamespace(final String uri)
+    '''returns String\n\n
+    lookupSuffixForNamespace(final String uri)\n
     '''
 def lookupJavanameForQName():
-    '''public String lookupJavanameForQName(final QName qname)
-    public String lookupJavanameForQName(final QName qname, final int kind)
+    '''returns String\n\n
+    lookupJavanameForQName(final QName qname)\n
+    lookupJavanameForQName(final QName qname, final int kind)\n
     '''
 def lookupUserTypeForQName():
-    '''public UserType lookupUserTypeForQName(final QName qname)
+    '''returns UserType\n\n
+    lookupUserTypeForQName(final QName qname)\n
     '''
 def getInterfaceExtensions():
-    '''public InterfaceExtension[] getInterfaceExtensions()
-    public InterfaceExtension[] getInterfaceExtensions(final String fullJavaName)
+    '''returns InterfaceExtension[]\n\n
+    getInterfaceExtensions()\n
+    getInterfaceExtensions(final String fullJavaName)\n
     '''
 def getPrePostExtensions():
-    '''public PrePostExtension[] getPrePostExtensions()
+    '''returns PrePostExtension[]\n\n
+    getPrePostExtensions()\n
     '''
 def getPrePostExtension():
-    '''public PrePostExtension getPrePostExtension(final String fullJavaName)
+    '''returns PrePostExtension\n\n
+    getPrePostExtension(final String fullJavaName)\n
     '''

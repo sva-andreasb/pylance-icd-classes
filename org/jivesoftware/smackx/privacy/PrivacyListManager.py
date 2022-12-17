@@ -1,71 +1,89 @@
 NAMESPACE = "String  \"jabber:iq:privacy\""
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
     '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
-    '''
-def getInstanceFor():
-    '''public static synchronized PrivacyListManager getInstanceFor(final XMPPConnection connection)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def getActiveList():
-    '''public PrivacyList getActiveList()
+    '''returns PrivacyList\n\n
+    getActiveList()\n
     '''
 def getActiveListName():
-    '''public String getActiveListName()
+    '''returns String\n\n
+    getActiveListName()\n
     '''
 def getDefaultList():
-    '''public PrivacyList getDefaultList()
+    '''returns PrivacyList\n\n
+    getDefaultList()\n
     '''
 def getDefaultListName():
-    '''public String getDefaultListName()
+    '''returns String\n\n
+    getDefaultListName()\n
     '''
 def getEffectiveListName():
-    '''public String getEffectiveListName()
+    '''returns String\n\n
+    getEffectiveListName()\n
     '''
 def getPrivacyList():
-    '''public PrivacyList getPrivacyList(String listName)
+    '''returns PrivacyList\n\n
+    getPrivacyList(String listName)\n
     '''
 def getPrivacyLists():
-    '''public List<PrivacyList> getPrivacyLists()
+    '''returns List<PrivacyList>\n\n
+    getPrivacyLists()\n
     '''
 def setActiveListName():
-    '''public void setActiveListName(final String listName)
+    '''returns None\n\n
+    setActiveListName(final String listName)\n
     '''
 def declineActiveList():
-    '''public void declineActiveList()
+    '''returns None\n\n
+    declineActiveList()\n
     '''
 def setDefaultListName():
-    '''public void setDefaultListName(final String listName)
+    '''returns None\n\n
+    setDefaultListName(final String listName)\n
     '''
 def declineDefaultList():
-    '''public void declineDefaultList()
+    '''returns None\n\n
+    declineDefaultList()\n
     '''
 def createPrivacyList():
-    '''public void createPrivacyList(final String listName, final List<PrivacyItem> privacyItems)
+    '''returns None\n\n
+    createPrivacyList(final String listName, final List<PrivacyItem> privacyItems)\n
     '''
 def updatePrivacyList():
-    '''public void updatePrivacyList(final String listName, final List<PrivacyItem> privacyItems)
+    '''returns None\n\n
+    updatePrivacyList(final String listName, final List<PrivacyItem> privacyItems)\n
     '''
 def deletePrivacyList():
-    '''public void deletePrivacyList(final String listName)
+    '''returns None\n\n
+    deletePrivacyList(final String listName)\n
     '''
 def addListener():
-    '''public boolean addListener(final PrivacyListListener listener)
+    '''returns boolean\n\n
+    addListener(final PrivacyListListener listener)\n
     '''
 def removeListener():
-    '''public boolean removeListener(final PrivacyListListener listener)
+    '''returns boolean\n\n
+    removeListener(final PrivacyListListener listener)\n
     '''
 def isSupported():
-    '''public boolean isSupported()
+    '''returns boolean\n\n
+    isSupported()\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

@@ -2,21 +2,23 @@ LESS_THAN = "short  -1"
 EQUAL = "short  0"
 GREATER_THAN = "short  1"
 INDETERMINATE = "short  2"
-def AbstractDateTime():
-    '''public AbstractDateTime(final Object value)
+def ():
+    '''returns AbstractDateTime\n\n
+    (final Object value)\n
     '''
 def compare():
-    '''public int compare(final AbstractDateTime other)
+    '''returns int\n\n
+    compare(final AbstractDateTime other)\n
     '''
 def compareTo():
-    '''public int compareTo(final AbstractDateTime o)
+    '''returns int\n\n
+    compareTo(final AbstractDateTime o)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def normalize():
-    '''public static void normalize(final int[] date, final int[] timeZone)
+    '''returns int\n\n
+    hashCode()\n
     '''

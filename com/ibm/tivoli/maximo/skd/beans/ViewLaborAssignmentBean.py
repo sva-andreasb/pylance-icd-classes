@@ -1,6 +1,8 @@
 def filterworkorder():
-    '''public int filterworkorder()
+    '''returns int\n\n
+    filterworkorder()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

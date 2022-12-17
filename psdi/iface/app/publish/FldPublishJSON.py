@@ -1,6 +1,8 @@
-def FldPublishJSON():
-    '''public FldPublishJSON(final MboValue mbv)
+def ():
+    '''returns FldPublishJSON\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

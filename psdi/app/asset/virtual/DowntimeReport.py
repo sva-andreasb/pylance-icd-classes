@@ -1,12 +1,16 @@
-def DowntimeReport():
-    '''public DowntimeReport(final MboSet ms)
+def ():
+    '''returns DowntimeReport\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getAssetMbo():
-    '''public AssetRemote getAssetMbo()
+    '''returns AssetRemote\n\n
+    getAssetMbo()\n
     '''

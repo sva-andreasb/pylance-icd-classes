@@ -1,3 +1,4 @@
-def MamResultFilter():
-    '''public MamResultFilter(final MamQueryIQ mamQueryIQ)
+def ():
+    '''returns MamResultFilter\n\n
+    (final MamQueryIQ mamQueryIQ)\n
     '''

@@ -1,37 +1,49 @@
-def ObjectBuffer():
-    '''public ObjectBuffer()
-    public ObjectBuffer(final int n)
+def ():
+    '''returns ObjectBuffer\n\n
+    ()\n
+    (final int n)\n
     '''
 def add():
-    '''public void add(final Object o)
+    '''returns None\n\n
+    add(final Object o)\n
     '''
 def set():
-    '''public void set(final int n, final Object o)
+    '''returns None\n\n
+    set(final int n, final Object o)\n
     '''
 def get():
-    '''public Object get(final int n)
+    '''returns Object\n\n
+    get(final int n)\n
     '''
 def getFirst():
-    '''public Object getFirst()
+    '''returns Object\n\n
+    getFirst()\n
     '''
 def getLast():
-    '''public Object getLast()
+    '''returns Object\n\n
+    getLast()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def limit():
-    '''public int limit()
+    '''returns int\n\n
+    limit()\n
     '''
 def remaining():
-    '''public int remaining()
+    '''returns int\n\n
+    remaining()\n
     '''
 def position():
-    '''public int position()
+    '''returns int\n\n
+    position()\n
     '''
 def grow():
-    '''public int grow()
+    '''returns int\n\n
+    grow()\n
     '''
 def addAll():
-    '''public void addAll(final Buffer buffer)
+    '''returns None\n\n
+    addAll(final Buffer buffer)\n
     '''

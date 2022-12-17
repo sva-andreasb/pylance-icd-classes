@@ -1,12 +1,16 @@
-def PlusPJPTotal():
-    '''public PlusPJPTotal(final MboSet arg0)
+def ():
+    '''returns PlusPJPTotal\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def calculatePriceTotals():
-    '''public void calculatePriceTotals()
+    '''returns None\n\n
+    calculatePriceTotals()\n
     '''
 def setExchangeRate():
-    '''public boolean setExchangeRate()
+    '''returns boolean\n\n
+    setExchangeRate()\n
     '''

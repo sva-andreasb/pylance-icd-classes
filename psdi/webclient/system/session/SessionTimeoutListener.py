@@ -1,6 +1,8 @@
 def valueBound():
-    '''public void valueBound(final HttpSessionBindingEvent arg0)
+    '''returns None\n\n
+    valueBound(final HttpSessionBindingEvent arg0)\n
     '''
 def valueUnbound():
-    '''public void valueUnbound(final HttpSessionBindingEvent event)
+    '''returns None\n\n
+    valueUnbound(final HttpSessionBindingEvent event)\n
     '''

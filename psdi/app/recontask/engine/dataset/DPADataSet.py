@@ -1,45 +1,60 @@
 def getMainObjectName():
-    '''public String getMainObjectName()
+    '''returns String\n\n
+    getMainObjectName()\n
     '''
 def getTaskFilterAttributesDomainID():
-    '''public String getTaskFilterAttributesDomainID()
+    '''returns String\n\n
+    getTaskFilterAttributesDomainID()\n
     '''
 def getObjectNameDomainID():
-    '''public String getObjectNameDomainID()
+    '''returns String\n\n
+    getObjectNameDomainID()\n
     '''
 def getTableJoinWhereClauseForComparison():
-    '''public String getTableJoinWhereClauseForComparison(final String tableName, final Map uidKeys)
+    '''returns String\n\n
+    getTableJoinWhereClauseForComparison(final String tableName, final Map uidKeys)\n
     '''
 def getReconResultAttributeNamesForComparison():
-    '''public ResultTableAttributes getReconResultAttributeNamesForComparison(final boolean isDataSet1)
+    '''returns ResultTableAttributes\n\n
+    getReconResultAttributeNamesForComparison(final boolean isDataSet1)\n
     '''
 def getReconLinkAttributeNamesForLink():
-    '''public ResultTableAttributes getReconLinkAttributeNamesForLink(final boolean isDataSet1)
+    '''returns ResultTableAttributes\n\n
+    getReconLinkAttributeNamesForLink(final boolean isDataSet1)\n
     '''
 def getReconResultAttributeNamesForLink():
-    '''public ResultTableAttributes getReconResultAttributeNamesForLink(final boolean isDataSet1)
+    '''returns ResultTableAttributes\n\n
+    getReconResultAttributeNamesForLink(final boolean isDataSet1)\n
     '''
 def getTableColumnNameForTaskFilter():
-    '''public String getTableColumnNameForTaskFilter(final String attributeName)
+    '''returns String\n\n
+    getTableColumnNameForTaskFilter(final String attributeName)\n
     '''
 def getTableJoinWhereClauseForTaskFilter():
-    '''public String getTableJoinWhereClauseForTaskFilter(final String tableName)
+    '''returns String\n\n
+    getTableJoinWhereClauseForTaskFilter(final String tableName)\n
     '''
 def getTableNameForTaskFilter():
-    '''public String getTableNameForTaskFilter(final String attributeName)
+    '''returns String\n\n
+    getTableNameForTaskFilter(final String attributeName)\n
     '''
 def getRootSpecMaxVar():
-    '''public String getRootSpecMaxVar(final String objectname)
+    '''returns String\n\n
+    getRootSpecMaxVar(final String objectname)\n
     '''
 def getAttributesExcludeList():
-    '''public String[] getAttributesExcludeList(final String objectname)
+    '''returns String[]\n\n
+    getAttributesExcludeList(final String objectname)\n
     '''
 def getObjectSpecPairs():
-    '''public String[][] getObjectSpecPairs()
+    '''returns String[][]\n\n
+    getObjectSpecPairs()\n
     '''
 def getObjectNameDomainExcludeList():
-    '''public String[] getObjectNameDomainExcludeList(final String objectName)
+    '''returns String[]\n\n
+    getObjectNameDomainExcludeList(final String objectName)\n
     '''
 def isUnitOfMeasureAllowed():
-    '''public boolean isUnitOfMeasureAllowed(final String objectName)
+    '''returns boolean\n\n
+    isUnitOfMeasureAllowed(final String objectName)\n
     '''

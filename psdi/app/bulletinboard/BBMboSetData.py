@@ -1,9 +1,12 @@
-def BBMboSetData():
-    '''public BBMboSetData(final MboSet set)
+def ():
+    '''returns BBMboSetData\n\n
+    (final MboSet set)\n
     '''
 def setMboData():
-    '''public void setMboData(final MboData[] values)
+    '''returns None\n\n
+    setMboData(final MboData[] values)\n
     '''
 def getMboDataCount():
-    '''public int getMboDataCount()
+    '''returns int\n\n
+    getMboDataCount()\n
     '''

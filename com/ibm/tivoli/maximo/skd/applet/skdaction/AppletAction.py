@@ -1,9 +1,12 @@
-def AppletAction():
-    '''public AppletAction(final String projectId, final String actionName, final String objectName, final String skdObjectName, final int selectedRows)
+def ():
+    '''returns AppletAction\n\n
+    (final String projectId, final String actionName, final String objectName, final String skdObjectName, final int selectedRows)\n
     '''
 def invokeAction():
-    '''public void invokeAction(final Object actionObject, final boolean saveBeforeAction)
+    '''returns None\n\n
+    invokeAction(final Object actionObject, final boolean saveBeforeAction)\n
     '''
 def isActionEnabled():
-    '''public boolean isActionEnabled(final Object enableObject)
+    '''returns boolean\n\n
+    isActionEnabled(final Object enableObject)\n
     '''

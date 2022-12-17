@@ -1,3 +1,4 @@
 def handle():
-    '''public void handle(final InitiateMultipartUploadResult result, final HttpResponse response)
+    '''returns None\n\n
+    handle(final InitiateMultipartUploadResult result, final HttpResponse response)\n
     '''

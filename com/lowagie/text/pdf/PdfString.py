@@ -1,30 +1,39 @@
-def PdfString():
-    '''public PdfString()
-    public PdfString(final String value)
-    public PdfString(final String value, final String encoding)
-    public PdfString(final byte[] bytes)
+def ():
+    '''returns PdfString\n\n
+    ()\n
+    (final String value)\n
+    (final String value, final String encoding)\n
+    (final byte[] bytes)\n
     '''
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def toUnicodeString():
-    '''public String toUnicodeString()
+    '''returns String\n\n
+    toUnicodeString()\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def getOriginalBytes():
-    '''public byte[] getOriginalBytes()
+    '''returns byte[]\n\n
+    getOriginalBytes()\n
     '''
 def setHexWriting():
-    '''public PdfString setHexWriting(final boolean hexWriting)
+    '''returns PdfString\n\n
+    setHexWriting(final boolean hexWriting)\n
     '''
 def isHexWriting():
-    '''public boolean isHexWriting()
+    '''returns boolean\n\n
+    isHexWriting()\n
     '''

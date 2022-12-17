@@ -1,9 +1,12 @@
-def AttachImageApplet():
-    '''public AttachImageApplet()
+def ():
+    '''returns AttachImageApplet\n\n
+    ()\n
     '''
 def getClipboardImageURI():
-    '''public String getClipboardImageURI()
+    '''returns String\n\n
+    getClipboardImageURI()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

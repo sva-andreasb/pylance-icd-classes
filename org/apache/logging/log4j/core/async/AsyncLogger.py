@@ -1,15 +1,20 @@
-def AsyncLogger():
-    '''public AsyncLogger(final LoggerContext context, final String name, final MessageFactory messageFactory, final AsyncLoggerDisruptor loggerDisruptor)
+def ():
+    '''returns AsyncLogger\n\n
+    (final LoggerContext context, final String name, final MessageFactory messageFactory, final AsyncLoggerDisruptor loggerDisruptor)\n
     '''
 def logMessage():
-    '''public void logMessage(final String fqcn, final Level level, final Marker marker, final Message message, final Throwable thrown)
+    '''returns None\n\n
+    logMessage(final String fqcn, final Level level, final Marker marker, final Message message, final Throwable thrown)\n
     '''
 def log():
-    '''public void log(final Level level, final Marker marker, final String fqcn, final StackTraceElement location, final Message message, final Throwable throwable)
+    '''returns None\n\n
+    log(final Level level, final Marker marker, final String fqcn, final StackTraceElement location, final Message message, final Throwable throwable)\n
     '''
 def translateTo():
-    '''public void translateTo(final RingBufferLogEvent event, final long sequence, final Object... args)
+    '''returns None\n\n
+    translateTo(final RingBufferLogEvent event, final long sequence, final Object... args)\n
     '''
 def actualAsyncLog():
-    '''public void actualAsyncLog(final RingBufferLogEvent event)
+    '''returns None\n\n
+    actualAsyncLog(final RingBufferLogEvent event)\n
     '''

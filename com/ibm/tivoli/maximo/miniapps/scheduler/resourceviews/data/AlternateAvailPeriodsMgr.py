@@ -1,20 +1,26 @@
 def rangeCount():
-    '''public int rangeCount()
+    '''returns int\n\n
+    rangeCount()\n
     '''
 def getToolitemAlternateAvailValue():
-    '''public List<DateRangeWithValue> getToolitemAlternateAvailValue(final String res, final Range<Date> dateRange, final double defaultValue)
+    '''returns List<DateRangeWithValue>\n\n
+    getToolitemAlternateAvailValue(final String res, final Range<Date> dateRange, final double defaultValue)\n
     '''
 def compare():
-    '''public int compare(final DateRangeWithValue range1, final DateRangeWithValue range2)
-    public int compare(final DateRangeWithValue range1, final DateRangeWithValue range2)
+    '''returns int\n\n
+    compare(final DateRangeWithValue range1, final DateRangeWithValue range2)\n
+    compare(final DateRangeWithValue range1, final DateRangeWithValue range2)\n
     '''
 def getResourceAvailValue():
-    '''public double getResourceAvailValue(final String shift, final String res, final Date date, final double defaultValue)
+    '''returns double\n\n
+    getResourceAvailValue(final String shift, final String res, final Date date, final double defaultValue)\n
     '''
 def createKeyFromData():
-    '''public String createKeyFromData(final String res)
-    public String createKeyFromData(final String group, final String res)
+    '''returns String\n\n
+    createKeyFromData(final String res)\n
+    createKeyFromData(final String group, final String res)\n
     '''
 def addRange():
-    '''public void addRange(final Date startDate, final Date endDate, final double quantity)
+    '''returns None\n\n
+    addRange(final Date startDate, final Date endDate, final double quantity)\n
     '''

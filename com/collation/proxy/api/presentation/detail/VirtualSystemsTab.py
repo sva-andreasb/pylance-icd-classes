@@ -1,6 +1,8 @@
-def VirtualSystemsTab():
-    '''public VirtualSystemsTab(final Tab tab, final Layout layout, final Guid guid, final long version, final SessionContext session)
+def ():
+    '''returns VirtualSystemsTab\n\n
+    (final Tab tab, final Layout layout, final Guid guid, final long version, final SessionContext session)\n
     '''
 def fillIn():
-    '''public void fillIn()
+    '''returns None\n\n
+    fillIn()\n
     '''

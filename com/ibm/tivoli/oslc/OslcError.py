@@ -1,20 +1,26 @@
-def OslcError():
-    '''public OslcError()
-    public OslcError(final String statusCode, final String message, final OslcExtendedError extendedError)
-    public OslcError(final String statusCode, final String message, final String extendedErrorURI)
+def ():
+    '''returns OslcError\n\n
+    ()\n
+    (final String statusCode, final String message, final OslcExtendedError extendedError)\n
+    (final String statusCode, final String message, final String extendedErrorURI)\n
     '''
 def toJSON():
-    '''public String toJSON()
+    '''returns String\n\n
+    toJSON()\n
     '''
 def toRDF():
-    '''public String toRDF()
+    '''returns String\n\n
+    toRDF()\n
     '''
 def setStatusCode():
-    '''public void setStatusCode(final String statusCode)
+    '''returns None\n\n
+    setStatusCode(final String statusCode)\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def setExtendedError():
-    '''public void setExtendedError(final OslcExtendedError extendedError)
+    '''returns None\n\n
+    setExtendedError(final OslcExtendedError extendedError)\n
     '''

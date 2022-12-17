@@ -1,51 +1,56 @@
-def InteractionGroupInfo():
-    '''public InteractionGroupInfo(final String groupName, final String description, final String objectName, final boolean combineView)
+def ():
+    '''returns InteractionGroupInfo\n\n
+    (final String groupName, final String description, final String objectName, final boolean combineView)\n
     '''
 def getGroupName():
-    '''public String getGroupName()
+    '''returns String\n\n
+    getGroupName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def isCombineView():
-    '''public boolean isCombineView()
+    '''returns boolean\n\n
+    isCombineView()\n
     '''
 def getGroupMemberList():
-    '''public List<InteractionGroupMemberInfo> getGroupMemberList()
+    '''returns List<InteractionGroupMemberInfo>\n\n
+    getGroupMemberList()\n
     '''
 def setGroupMemberInfo():
-    '''public void setGroupMemberInfo(final List<InteractionGroupMemberInfo> list)
-    '''
-def getGroupAppsMap():
-    '''public Map<String, InteractionGroupAppsInfo> getGroupAppsMap()
+    '''returns None\n\n
+    setGroupMemberInfo(final List<InteractionGroupMemberInfo> list)\n
     '''
 def getGroupAppsInfo():
-    '''public InteractionGroupAppsInfo getGroupAppsInfo(final String appName)
+    '''returns InteractionGroupAppsInfo\n\n
+    getGroupAppsInfo(final String appName)\n
     '''
 def setGroupAppsInfo():
-    '''public void setGroupAppsInfo(final String appName, final InteractionGroupAppsInfo appInfo)
-    '''
-def getMenuMap():
-    '''public Map<String, String> getMenuMap()
+    '''returns None\n\n
+    setGroupAppsInfo(final String appName, final InteractionGroupAppsInfo appInfo)\n
     '''
 def getMenuForOriginalId():
-    '''public String getMenuForOriginalId(final String originalMenuId)
+    '''returns String\n\n
+    getMenuForOriginalId(final String originalMenuId)\n
     '''
 def setMenuMap():
-    '''public void setMenuMap(final String menuId, final String originalMenuId)
-    '''
-def getMenuCountMap():
-    '''public Map<String, Integer> getMenuCountMap()
+    '''returns None\n\n
+    setMenuMap(final String menuId, final String originalMenuId)\n
     '''
 def getMenuCount():
-    '''public int getMenuCount(final String menuId)
+    '''returns int\n\n
+    getMenuCount(final String menuId)\n
     '''
 def setMenuCountMap():
-    '''public void setMenuCountMap(final String menuId)
+    '''returns None\n\n
+    setMenuCountMap(final String menuId)\n
     '''
 def getInteraction():
-    '''public List<String> getInteraction(final MboRemote mbo)
+    '''returns List<String>\n\n
+    getInteraction(final MboRemote mbo)\n
     '''

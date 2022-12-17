@@ -1,6 +1,8 @@
-def CreateSolutionExt():
-    '''public CreateSolutionExt()
+def ():
+    '''returns CreateSolutionExt\n\n
+    ()\n
     '''
 def setDataIn():
-    '''public StructureData setDataIn(final StructureData irData)
+    '''returns StructureData\n\n
+    setDataIn(final StructureData irData)\n
     '''

@@ -1,87 +1,116 @@
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def getCurrentValue():
-    '''public Object getCurrentValue()
+    '''returns Object\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final Object v)
+    '''returns None\n\n
+    setCurrentValue(final Object v)\n
     '''
 def enable():
-    '''public JsonParser enable(final Feature f)
+    '''returns JsonParser\n\n
+    enable(final Feature f)\n
     '''
 def disable():
-    '''public JsonParser disable(final Feature f)
+    '''returns JsonParser\n\n
+    disable(final Feature f)\n
     '''
 def setFeatureMask():
-    '''public JsonParser setFeatureMask(final int newMask)
+    '''returns JsonParser\n\n
+    setFeatureMask(final int newMask)\n
     '''
 def overrideStdFeatures():
-    '''public JsonParser overrideStdFeatures(final int values, final int mask)
+    '''returns JsonParser\n\n
+    overrideStdFeatures(final int values, final int mask)\n
     '''
 def getCurrentName():
-    '''public String getCurrentName()
+    '''returns String\n\n
+    getCurrentName()\n
     '''
 def overrideCurrentName():
-    '''public void overrideCurrentName(final String name)
+    '''returns None\n\n
+    overrideCurrentName(final String name)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def getParsingContext():
-    '''public JsonReadContext getParsingContext()
+    '''returns JsonReadContext\n\n
+    getParsingContext()\n
     '''
 def getTokenLocation():
-    '''public JsonLocation getTokenLocation()
+    '''returns JsonLocation\n\n
+    getTokenLocation()\n
     '''
 def getCurrentLocation():
-    '''public JsonLocation getCurrentLocation()
+    '''returns JsonLocation\n\n
+    getCurrentLocation()\n
     '''
 def hasTextCharacters():
-    '''public boolean hasTextCharacters()
+    '''returns boolean\n\n
+    hasTextCharacters()\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue(final Base64Variant variant)
+    '''returns byte[]\n\n
+    getBinaryValue(final Base64Variant variant)\n
     '''
 def getTokenCharacterOffset():
-    '''public long getTokenCharacterOffset()
+    '''returns long\n\n
+    getTokenCharacterOffset()\n
     '''
 def getTokenLineNr():
-    '''public int getTokenLineNr()
+    '''returns int\n\n
+    getTokenLineNr()\n
     '''
 def getTokenColumnNr():
-    '''public int getTokenColumnNr()
+    '''returns int\n\n
+    getTokenColumnNr()\n
     '''
 def _getByteArrayBuilder():
-    '''public ByteArrayBuilder _getByteArrayBuilder()
+    '''returns ByteArrayBuilder\n\n
+    _getByteArrayBuilder()\n
     '''
 def isNaN():
-    '''public boolean isNaN()
+    '''returns boolean\n\n
+    isNaN()\n
     '''
 def getNumberValue():
-    '''public Number getNumberValue()
+    '''returns Number\n\n
+    getNumberValue()\n
     '''
 def getNumberType():
-    '''public NumberType getNumberType()
+    '''returns NumberType\n\n
+    getNumberType()\n
     '''
 def getIntValue():
-    '''public int getIntValue()
+    '''returns int\n\n
+    getIntValue()\n
     '''
 def getLongValue():
-    '''public long getLongValue()
+    '''returns long\n\n
+    getLongValue()\n
     '''
 def getBigIntegerValue():
-    '''public BigInteger getBigIntegerValue()
+    '''returns BigInteger\n\n
+    getBigIntegerValue()\n
     '''
 def getFloatValue():
-    '''public float getFloatValue()
+    '''returns float\n\n
+    getFloatValue()\n
     '''
 def getDoubleValue():
-    '''public double getDoubleValue()
+    '''returns double\n\n
+    getDoubleValue()\n
     '''
 def getDecimalValue():
-    '''public BigDecimal getDecimalValue()
+    '''returns BigDecimal\n\n
+    getDecimalValue()\n
     '''

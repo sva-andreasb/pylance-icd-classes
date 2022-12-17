@@ -1,52 +1,65 @@
-def LDAPAttributeSet():
-    '''public LDAPAttributeSet()
+def ():
+    '''returns LDAPAttributeSet\n\n
+    ()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getAttribute():
-    '''public LDAPAttribute getAttribute(final String s)
-    public LDAPAttribute getAttribute(final String str, final String str2)
+    '''returns LDAPAttribute\n\n
+    getAttribute(final String s)\n
+    getAttribute(final String str, final String str2)\n
     '''
 def getSubset():
-    '''public LDAPAttributeSet getSubset(final String s)
+    '''returns LDAPAttributeSet\n\n
+    getSubset(final String s)\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''
 def remove():
-    '''public boolean remove(final Object o)
+    '''returns boolean\n\n
+    remove(final Object o)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection collection)
+    '''returns boolean\n\n
+    addAll(final Collection collection)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def writeDSML():
-    '''public void writeDSML(final OutputStream out)
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns None\n\n
+    writeDSML(final OutputStream out)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput objectOutput)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput objectOutput)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput objectInput)
+    '''returns None\n\n
+    readExternal(final ObjectInput objectInput)\n
     '''

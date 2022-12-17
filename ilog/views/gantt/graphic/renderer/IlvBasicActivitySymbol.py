@@ -5,30 +5,39 @@ UP_PENTAGON = "int  1"
 DIAMOND = "int  2"
 CIRCLE = "int  3"
 FILLED_CIRCLE = "int  4"
-def IlvBasicActivitySymbol():
-    '''public IlvBasicActivitySymbol()
+def ():
+    '''returns IlvBasicActivitySymbol\n\n
+    ()\n
     '''
 def getAlignment():
-    '''public int getAlignment()
+    '''returns int\n\n
+    getAlignment()\n
     '''
 def setAlignment():
-    '''public void setAlignment(final int a)
+    '''returns None\n\n
+    setAlignment(final int a)\n
     '''
 def setGraphic():
-    '''public void setGraphic(final IlvGraphic graphic)
+    '''returns None\n\n
+    setGraphic(final IlvGraphic graphic)\n
     '''
 def getShape():
-    '''public int getShape()
+    '''returns int\n\n
+    getShape()\n
     '''
 def setShape():
-    '''public void setShape(final int b)
+    '''returns None\n\n
+    setShape(final int b)\n
     '''
 def getForeground():
-    '''public Color getForeground()
+    '''returns Color\n\n
+    getForeground()\n
     '''
 def getBackground():
-    '''public Color getBackground()
+    '''returns Color\n\n
+    getBackground()\n
     '''
 def getBounds():
-    '''public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''

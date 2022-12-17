@@ -1,16 +1,21 @@
 def bindMBean():
-    '''public void bindMBean(final ModelMBeanInfo info, final ModelMBean bean)
+    '''returns None\n\n
+    bindMBean(final ModelMBeanInfo info, final ModelMBean bean)\n
     '''
 def sendNotification():
-    '''public void sendNotification(final Notification ntfyObj)
-    public void sendNotification(final String ntfyText)
+    '''returns None\n\n
+    sendNotification(final Notification ntfyObj)\n
+    sendNotification(final String ntfyText)\n
     '''
 def getObjectName():
-    '''public ObjectName getObjectName()
+    '''returns ObjectName\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final ObjectName name)
+    '''returns None\n\n
+    setObjectName(final ObjectName name)\n
     '''
 def mbeanActivated():
-    '''public void mbeanActivated()
+    '''returns None\n\n
+    mbeanActivated()\n
     '''

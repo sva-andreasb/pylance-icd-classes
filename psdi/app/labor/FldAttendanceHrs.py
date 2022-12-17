@@ -1,6 +1,8 @@
-def FldAttendanceHrs():
-    '''public FldAttendanceHrs(final MboValue mbv)
+def ():
+    '''returns FldAttendanceHrs\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,6 +1,8 @@
-def DefaultPhraseSlopQueryNodeProcessor():
-    '''public DefaultPhraseSlopQueryNodeProcessor()
+def ():
+    '''returns DefaultPhraseSlopQueryNodeProcessor\n\n
+    ()\n
     '''
 def process():
-    '''public QueryNode process(final QueryNode queryTree)
+    '''returns QueryNode\n\n
+    process(final QueryNode queryTree)\n
     '''

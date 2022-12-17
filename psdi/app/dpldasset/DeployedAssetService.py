@@ -1,7 +1,9 @@
-def DeployedAssetService():
-    '''public DeployedAssetService()
-    public DeployedAssetService(final MXServer mxServer)
+def ():
+    '''returns DeployedAssetService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

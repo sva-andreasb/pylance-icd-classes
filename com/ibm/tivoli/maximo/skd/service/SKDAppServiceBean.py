@@ -1,67 +1,89 @@
-def SKDAppServiceBean():
-    '''public SKDAppServiceBean()
+def ():
+    '''returns SKDAppServiceBean\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getSKDAppService():
-    '''public SKDAppService getSKDAppService()
+    '''returns SKDAppService\n\n
+    getSKDAppService()\n
     '''
 def setSKDAppService():
-    '''public void setSKDAppService(final SKDAppService skdAppService)
+    '''returns None\n\n
+    setSKDAppService(final SKDAppService skdAppService)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String mboObjectName)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String mboObjectName)\n
     '''
 def getMboSetInfo():
-    '''public MboSetInfo getMboSetInfo(final String mboName)
+    '''returns MboSetInfo\n\n
+    getMboSetInfo(final String mboName)\n
     '''
 def addModelChanges():
-    '''public void addModelChanges(final GanttModelChanges newModelChanges)
+    '''returns None\n\n
+    addModelChanges(final GanttModelChanges newModelChanges)\n
     '''
 def clearModelChanges():
-    '''public void clearModelChanges()
+    '''returns None\n\n
+    clearModelChanges()\n
     '''
 def hasModelChanges():
-    '''public boolean hasModelChanges()
+    '''returns boolean\n\n
+    hasModelChanges()\n
     '''
 def getCurrentProjectid():
-    '''public String getCurrentProjectid()
+    '''returns String\n\n
+    getCurrentProjectid()\n
     '''
 def scenarioProjectidandname():
-    '''public String scenarioProjectidandname()
+    '''returns String\n\n
+    scenarioProjectidandname()\n
     '''
 def saveModelChanges():
-    '''public void saveModelChanges()
+    '''returns None\n\n
+    saveModelChanges()\n
     '''
 def saveModelChangesFromAction():
-    '''public void saveModelChangesFromAction(final boolean saveBeforeAction)
+    '''returns None\n\n
+    saveModelChangesFromAction(final boolean saveBeforeAction)\n
     '''
 def setConfigChanges():
-    '''public void setConfigChanges(final GanttConfigChanges newGanttConfigChanges)
+    '''returns None\n\n
+    setConfigChanges(final GanttConfigChanges newGanttConfigChanges)\n
     '''
 def clearConfigChanges():
-    '''public void clearConfigChanges()
+    '''returns None\n\n
+    clearConfigChanges()\n
     '''
 def saveConfigChanges():
-    '''public void saveConfigChanges()
+    '''returns None\n\n
+    saveConfigChanges()\n
     '''
 def getProjectName():
-    '''public String getProjectName(final String projectId)
+    '''returns String\n\n
+    getProjectName(final String projectId)\n
     '''
 def getProjectScenarioName():
-    '''public String getProjectScenarioName(final String projectId)
+    '''returns String\n\n
+    getProjectScenarioName(final String projectId)\n
     '''
 def saveActivities():
-    '''public void saveActivities(final UserInfo userInfo, final MboRemote projectMbo, final IlvGeneralActivity activity)
-    public void saveActivities(final UserInfo userInfo, final MboRemote projectMbo, final IlvGeneralActivity activity, final MXTransaction txn)
+    '''returns None\n\n
+    saveActivities(final UserInfo userInfo, final MboRemote projectMbo, final IlvGeneralActivity activity)\n
+    saveActivities(final UserInfo userInfo, final MboRemote projectMbo, final IlvGeneralActivity activity, final MXTransaction txn)\n
     '''
 def saveConstraints():
-    '''public void saveConstraints(final UserInfo userInfo, final MboRemote projectMbo, final IlvGeneralConstraint constraint)
+    '''returns None\n\n
+    saveConstraints(final UserInfo userInfo, final MboRemote projectMbo, final IlvGeneralConstraint constraint)\n
     '''
 def saveUserPropertyChanges():
-    '''public void saveUserPropertyChanges(final UserPropertyChanges propertyChanges)
+    '''returns None\n\n
+    saveUserPropertyChanges(final UserPropertyChanges propertyChanges)\n
     '''

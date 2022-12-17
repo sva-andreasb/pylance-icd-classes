@@ -1,113 +1,145 @@
-def internal():
-    '''public static Column internal(final String id, final int dataType)
-    public static Column internal(final String id)
-    '''
-def Column():
-    '''public Column(final Type type, final String id, final int dataType)
-    public Column()
+def ():
+    '''returns Column\n\n
+    (final Type type, final String id, final int dataType)\n
+    ()\n
     '''
 def getDataType():
-    '''public int getDataType()
+    '''returns int\n\n
+    getDataType()\n
     '''
 def setDataType():
-    '''public Column setDataType(final int dataType)
+    '''returns Column\n\n
+    setDataType(final int dataType)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public Column setId(final String id)
+    '''returns Column\n\n
+    setId(final String id)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public Column setLabel(final String label)
+    '''returns Column\n\n
+    setLabel(final String label)\n
     '''
 def canSort():
-    '''public boolean canSort()
+    '''returns boolean\n\n
+    canSort()\n
     '''
 def setCanSort():
-    '''public Column setCanSort(final boolean canSort)
+    '''returns Column\n\n
+    setCanSort(final boolean canSort)\n
     '''
 def canFilter():
-    '''public boolean canFilter()
+    '''returns boolean\n\n
+    canFilter()\n
     '''
 def setCanFilter():
-    '''public Column setCanFilter(final boolean canFilter)
+    '''returns Column\n\n
+    setCanFilter(final boolean canFilter)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def setVisible():
-    '''public Column setVisible(final boolean visible)
+    '''returns Column\n\n
+    setVisible(final boolean visible)\n
     '''
 def canHide():
-    '''public boolean canHide()
+    '''returns boolean\n\n
+    canHide()\n
     '''
 def setCanHide():
-    '''public Column setCanHide(final boolean canHide)
+    '''returns Column\n\n
+    setCanHide(final boolean canHide)\n
     '''
 def canPrint():
-    '''public boolean canPrint()
+    '''returns boolean\n\n
+    canPrint()\n
     '''
 def setCanPrint():
-    '''public Column setCanPrint(final boolean canPrint)
+    '''returns Column\n\n
+    setCanPrint(final boolean canPrint)\n
     '''
 def canExport():
-    '''public boolean canExport()
+    '''returns boolean\n\n
+    canExport()\n
     '''
 def setCanExport():
-    '''public Column setCanExport(final boolean canExport)
+    '''returns Column\n\n
+    setCanExport(final boolean canExport)\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def setOrder():
-    '''public Column setOrder(final int order)
+    '''returns Column\n\n
+    setOrder(final int order)\n
     '''
 def isLocked():
-    '''public boolean isLocked()
+    '''returns boolean\n\n
+    isLocked()\n
     '''
 def setFixed():
-    '''public Column setFixed(final boolean fixed)
+    '''returns Column\n\n
+    setFixed(final boolean fixed)\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def setType():
-    '''public Column setType(final Type type)
+    '''returns Column\n\n
+    setType(final Type type)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public Column setWidth(final int width)
+    '''returns Column\n\n
+    setWidth(final int width)\n
     '''
 def canGroup():
-    '''public boolean canGroup()
+    '''returns boolean\n\n
+    canGroup()\n
     '''
 def setCanGroup():
-    '''public Column setCanGroup(final boolean canGroup)
+    '''returns Column\n\n
+    setCanGroup(final boolean canGroup)\n
     '''
 def canEdit():
-    '''public boolean canEdit()
+    '''returns boolean\n\n
+    canEdit()\n
     '''
 def setCanEdit():
-    '''public Column setCanEdit(final boolean canEdit)
+    '''returns Column\n\n
+    setCanEdit(final boolean canEdit)\n
     '''
 def compareTo():
-    '''public int compareTo(final Column o)
+    '''returns int\n\n
+    compareTo(final Column o)\n
     '''
 def getFormatMask():
-    '''public String getFormatMask()
+    '''returns String\n\n
+    getFormatMask()\n
     '''
 def setFormatMask():
-    '''public Column setFormatMask(final String formatMask)
+    '''returns Column\n\n
+    setFormatMask(final String formatMask)\n
     '''

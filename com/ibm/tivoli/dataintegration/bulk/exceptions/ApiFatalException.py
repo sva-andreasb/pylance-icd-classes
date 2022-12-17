@@ -1,6 +1,7 @@
-def ApiFatalException():
-    '''public ApiFatalException()
-    public ApiFatalException(final String msg)
-    public ApiFatalException(final Throwable t)
-    public ApiFatalException(final String msg, final Throwable t)
+def ():
+    '''returns ApiFatalException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable t)\n
+    (final String msg, final Throwable t)\n
     '''

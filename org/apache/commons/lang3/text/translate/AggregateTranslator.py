@@ -1,6 +1,8 @@
-def AggregateTranslator():
-    '''public AggregateTranslator(final CharSequenceTranslator... translators)
+def ():
+    '''returns AggregateTranslator\n\n
+    (final CharSequenceTranslator... translators)\n
     '''
 def translate():
-    '''public int translate(final CharSequence input, final int index, final Writer out)
+    '''returns int\n\n
+    translate(final CharSequence input, final int index, final Writer out)\n
     '''

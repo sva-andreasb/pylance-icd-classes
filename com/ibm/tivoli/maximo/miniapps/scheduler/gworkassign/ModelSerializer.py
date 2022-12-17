@@ -1,9 +1,12 @@
-def ModelSerializer():
-    '''public ModelSerializer(final Supplier<UIOptions> optionsSupplier, final UISerializationHelper helper)
+def ():
+    '''returns ModelSerializer\n\n
+    (final Supplier<UIOptions> optionsSupplier, final UISerializationHelper helper)\n
     '''
 def serializeSchedule():
-    '''public JSONObject serializeSchedule(final GWASchedule schedule)
+    '''returns JSONObject\n\n
+    serializeSchedule(final GWASchedule schedule)\n
     '''
 def addGanttMarks():
-    '''public void addGanttMarks(final Activity activity)
+    '''returns None\n\n
+    addGanttMarks(final Activity activity)\n
     '''

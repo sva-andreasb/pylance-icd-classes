@@ -1,9 +1,12 @@
-def PlusCATSpecSet():
-    '''public PlusCATSpecSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCATSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getGeneratedDesc():
-    '''public String getGeneratedDesc()
+    '''returns String\n\n
+    getGeneratedDesc()\n
     '''
 def sortThisSetByDisplaySeq():
-    '''public MboRemote[] sortThisSetByDisplaySeq()
+    '''returns MboRemote[]\n\n
+    sortThisSetByDisplaySeq()\n
     '''

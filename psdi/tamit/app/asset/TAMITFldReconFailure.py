@@ -1,6 +1,8 @@
-def TAMITFldReconFailure():
-    '''public TAMITFldReconFailure(final MboValue mbv)
+def ():
+    '''returns TAMITFldReconFailure\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

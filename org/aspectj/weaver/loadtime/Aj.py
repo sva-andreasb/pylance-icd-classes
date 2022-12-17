@@ -1,46 +1,43 @@
-def Aj():
-    '''public Aj()
-    public Aj(final IWeavingContext context)
+def ():
+    '''returns ExplicitlyInitializedClassLoaderWeavingAdaptor\n\n
+    ()\n
+    (final IWeavingContext context)\n
+    (final ClassLoader loader)\n
+    (final ClassLoaderWeavingAdaptor weavingAdaptor)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def preProcess():
-    '''public byte[] preProcess(final String className, final byte[] bytes, final ClassLoader loader, final ProtectionDomain protectionDomain)
-    '''
-def removeStaleAdaptors():
-    '''public static int removeStaleAdaptors(final boolean displayProgress)
-    '''
-def getActiveAdaptorCount():
-    '''public static int getActiveAdaptorCount()
-    '''
-def checkQ():
-    '''public static void checkQ()
+    '''returns byte[]\n\n
+    preProcess(final String className, final byte[] bytes, final ClassLoader loader, final ProtectionDomain protectionDomain)\n
     '''
 def getNamespace():
-    '''public String getNamespace(final ClassLoader loader)
+    '''returns String\n\n
+    getNamespace(final ClassLoader loader)\n
     '''
 def generatedClassesExist():
-    '''public boolean generatedClassesExist(final ClassLoader loader)
+    '''returns boolean\n\n
+    generatedClassesExist(final ClassLoader loader)\n
     '''
 def flushGeneratedClasses():
-    '''public void flushGeneratedClasses(final ClassLoader loader)
-    '''
-def AdaptorKey():
-    '''public AdaptorKey(final ClassLoader loader)
+    '''returns None\n\n
+    flushGeneratedClasses(final ClassLoader loader)\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def ExplicitlyInitializedClassLoaderWeavingAdaptor():
-    '''public ExplicitlyInitializedClassLoaderWeavingAdaptor(final ClassLoaderWeavingAdaptor weavingAdaptor)
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getWeavingAdaptor():
-    '''public ClassLoaderWeavingAdaptor getWeavingAdaptor(final ClassLoader loader, final IWeavingContext weavingContext)
+    '''returns ClassLoaderWeavingAdaptor\n\n
+    getWeavingAdaptor(final ClassLoader loader, final IWeavingContext weavingContext)\n
     '''

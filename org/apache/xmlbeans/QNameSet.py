@@ -1,54 +1,52 @@
-def forSets():
-    '''public static QNameSet forSets(final Set excludedURIs, final Set includedURIs, final Set excludedQNamesInIncludedURIs, final Set includedQNamesInExcludedURIs)
-    '''
-def forArray():
-    '''public static QNameSet forArray(final QName[] includedQNames)
-    '''
-def forSpecification():
-    '''public static QNameSet forSpecification(final QNameSetSpecification spec)
-    '''
-def forWildcardNamespaceString():
-    '''public static QNameSet forWildcardNamespaceString(final String wildcard, final String targetURI)
-    '''
-def singleton():
-    '''public static QNameSet singleton(final QName name)
-    '''
 def contains():
-    '''public boolean contains(final QName name)
+    '''returns boolean\n\n
+    contains(final QName name)\n
     '''
 def isAll():
-    '''public boolean isAll()
+    '''returns boolean\n\n
+    isAll()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def intersect():
-    '''public QNameSet intersect(final QNameSetSpecification set)
+    '''returns QNameSet\n\n
+    intersect(final QNameSetSpecification set)\n
     '''
 def union():
-    '''public QNameSet union(final QNameSetSpecification set)
+    '''returns QNameSet\n\n
+    union(final QNameSetSpecification set)\n
     '''
 def inverse():
-    '''public QNameSet inverse()
+    '''returns QNameSet\n\n
+    inverse()\n
     '''
 def containsAll():
-    '''public boolean containsAll(final QNameSetSpecification set)
+    '''returns boolean\n\n
+    containsAll(final QNameSetSpecification set)\n
     '''
 def isDisjoint():
-    '''public boolean isDisjoint(final QNameSetSpecification set)
+    '''returns boolean\n\n
+    isDisjoint(final QNameSetSpecification set)\n
     '''
 def excludedURIs():
-    '''public Set excludedURIs()
+    '''returns Set\n\n
+    excludedURIs()\n
     '''
 def includedURIs():
-    '''public Set includedURIs()
+    '''returns Set\n\n
+    includedURIs()\n
     '''
 def excludedQNamesInIncludedURIs():
-    '''public Set excludedQNamesInIncludedURIs()
+    '''returns Set\n\n
+    excludedQNamesInIncludedURIs()\n
     '''
 def includedQNamesInExcludedURIs():
-    '''public Set includedQNamesInExcludedURIs()
+    '''returns Set\n\n
+    includedQNamesInExcludedURIs()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

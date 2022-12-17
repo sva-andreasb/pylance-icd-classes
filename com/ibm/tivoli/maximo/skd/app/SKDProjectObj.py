@@ -1,6 +1,8 @@
-def SKDProjectObj():
-    '''public SKDProjectObj(final MboSet ms)
+def ():
+    '''returns SKDProjectObj\n\n
+    (final MboSet ms)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''

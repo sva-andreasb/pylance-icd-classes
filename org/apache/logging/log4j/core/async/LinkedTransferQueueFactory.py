@@ -1,6 +1,4 @@
 def create():
-    '''public BlockingQueue<E> create(final int capacity)
-    '''
-def createFactory():
-    '''public static <E> LinkedTransferQueueFactory<E> createFactory()
+    '''returns BlockingQueue<E>\n\n
+    create(final int capacity)\n
     '''

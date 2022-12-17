@@ -1,3 +1,4 @@
-def PmIncidentSet():
-    '''public PmIncidentSet(final MboServerInterface ms)
+def ():
+    '''returns PmIncidentSet\n\n
+    (final MboServerInterface ms)\n
     '''

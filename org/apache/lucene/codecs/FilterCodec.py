@@ -1,30 +1,40 @@
 def docValuesFormat():
-    '''public DocValuesFormat docValuesFormat()
+    '''returns DocValuesFormat\n\n
+    docValuesFormat()\n
     '''
 def fieldInfosFormat():
-    '''public FieldInfosFormat fieldInfosFormat()
+    '''returns FieldInfosFormat\n\n
+    fieldInfosFormat()\n
     '''
 def liveDocsFormat():
-    '''public LiveDocsFormat liveDocsFormat()
+    '''returns LiveDocsFormat\n\n
+    liveDocsFormat()\n
     '''
 def normsFormat():
-    '''public NormsFormat normsFormat()
+    '''returns NormsFormat\n\n
+    normsFormat()\n
     '''
 def postingsFormat():
-    '''public PostingsFormat postingsFormat()
+    '''returns PostingsFormat\n\n
+    postingsFormat()\n
     '''
 def segmentInfoFormat():
-    '''public SegmentInfoFormat segmentInfoFormat()
+    '''returns SegmentInfoFormat\n\n
+    segmentInfoFormat()\n
     '''
 def storedFieldsFormat():
-    '''public StoredFieldsFormat storedFieldsFormat()
+    '''returns StoredFieldsFormat\n\n
+    storedFieldsFormat()\n
     '''
 def termVectorsFormat():
-    '''public TermVectorsFormat termVectorsFormat()
+    '''returns TermVectorsFormat\n\n
+    termVectorsFormat()\n
     '''
 def compoundFormat():
-    '''public CompoundFormat compoundFormat()
+    '''returns CompoundFormat\n\n
+    compoundFormat()\n
     '''
 def pointsFormat():
-    '''public PointsFormat pointsFormat()
+    '''returns PointsFormat\n\n
+    pointsFormat()\n
     '''

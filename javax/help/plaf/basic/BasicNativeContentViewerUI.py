@@ -1,30 +1,36 @@
-def createUI():
-    '''public static ComponentUI createUI(final JComponent component)
-    '''
-def BasicNativeContentViewerUI():
-    '''public BasicNativeContentViewerUI(final JHelpContentViewer helpContentViewer)
+def ():
+    '''returns BasicNativeContentViewerUI\n\n
+    (final JHelpContentViewer helpContentViewer)\n
     '''
 def installUI():
-    '''public void installUI(final JComponent component)
+    '''returns None\n\n
+    installUI(final JComponent component)\n
     '''
 def uninstallUI():
-    '''public void uninstallUI(final JComponent component)
+    '''returns None\n\n
+    uninstallUI(final JComponent component)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize(final JComponent component)
+    '''returns Dimension\n\n
+    getPreferredSize(final JComponent component)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMinimumSize(final JComponent component)\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMaximumSize(final JComponent component)\n
     '''
 def idChanged():
-    '''public void idChanged(final HelpModelEvent obj)
+    '''returns None\n\n
+    idChanged(final HelpModelEvent obj)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def highlightsChanged():
-    '''public void highlightsChanged(final TextHelpModelEvent obj)
+    '''returns None\n\n
+    highlightsChanged(final TextHelpModelEvent obj)\n
     '''

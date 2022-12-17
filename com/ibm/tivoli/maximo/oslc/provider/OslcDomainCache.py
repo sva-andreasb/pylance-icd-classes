@@ -1,15 +1,12 @@
-def getInstance():
-    '''public static final OslcDomainCache getInstance()
-    '''
 def getName():
-    '''public String getName()
-    '''
-def getAllDomains():
-    '''public Map<String, DomainInfo> getAllDomains()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDomainInfo():
-    '''public DomainInfo getDomainInfo(final String domainName)
+    '''returns DomainInfo\n\n
+    getDomainInfo(final String domainName)\n
     '''
 def getDomainsForServiceProvider():
-    '''public List<DomainInfo> getDomainsForServiceProvider(final String spObjectName)
+    '''returns List<DomainInfo>\n\n
+    getDomainsForServiceProvider(final String spObjectName)\n
     '''

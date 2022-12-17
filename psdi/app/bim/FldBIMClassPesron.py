@@ -1,6 +1,8 @@
-def FldBIMClassPesron():
-    '''public FldBIMClassPesron(final MboValue mbv)
+def ():
+    '''returns FldBIMClassPesron\n\n
+    (final MboValue mbv)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

@@ -1,3 +1,4 @@
-def CrontaskMonitorSet():
-    '''public CrontaskMonitorSet(final MboServerInterface ms)
+def ():
+    '''returns CrontaskMonitorSet\n\n
+    (final MboServerInterface ms)\n
     '''

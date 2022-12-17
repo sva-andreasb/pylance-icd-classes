@@ -19,158 +19,205 @@ NEW_BUILTIN_CLASS_RESOLVER_KEY = "String  \"new_builtin_class_resolver\""
 SHOW_ERROR_TIPS_KEY = "String  \"show_error_tips\""
 API_BUILTIN_ENABLED_KEY = "String  \"api_builtin_enabled\""
 LOG_TEMPLATE_EXCEPTIONS_KEY = "String  \"log_template_exceptions\""
-def Configurable():
-    '''public Configurable()
-    public Configurable(final Configurable parent)
-    '''
-def getParent():
-    '''public final Configurable getParent()
+def ():
+    '''returns Configurable\n\n
+    ()\n
+    (final Configurable parent)\n
     '''
 def setClassicCompatible():
-    '''public void setClassicCompatible(final boolean classicCompatibility)
+    '''returns None\n\n
+    setClassicCompatible(final boolean classicCompatibility)\n
     '''
 def setClassicCompatibleAsInt():
-    '''public void setClassicCompatibleAsInt(final int classicCompatibility)
+    '''returns None\n\n
+    setClassicCompatibleAsInt(final int classicCompatibility)\n
     '''
 def isClassicCompatible():
-    '''public boolean isClassicCompatible()
+    '''returns boolean\n\n
+    isClassicCompatible()\n
     '''
 def getClassicCompatibleAsInt():
-    '''public int getClassicCompatibleAsInt()
+    '''returns int\n\n
+    getClassicCompatibleAsInt()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone timeZone)
+    '''returns None\n\n
+    setTimeZone(final TimeZone timeZone)\n
     '''
 def setSQLDateAndTimeTimeZone():
-    '''public void setSQLDateAndTimeTimeZone(final TimeZone tz)
+    '''returns None\n\n
+    setSQLDateAndTimeTimeZone(final TimeZone tz)\n
     '''
 def getSQLDateAndTimeTimeZone():
-    '''public TimeZone getSQLDateAndTimeTimeZone()
+    '''returns TimeZone\n\n
+    getSQLDateAndTimeTimeZone()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setNumberFormat():
-    '''public void setNumberFormat(final String numberFormat)
+    '''returns None\n\n
+    setNumberFormat(final String numberFormat)\n
     '''
 def getNumberFormat():
-    '''public String getNumberFormat()
+    '''returns String\n\n
+    getNumberFormat()\n
     '''
 def setBooleanFormat():
-    '''public void setBooleanFormat(final String booleanFormat)
+    '''returns None\n\n
+    setBooleanFormat(final String booleanFormat)\n
     '''
 def getBooleanFormat():
-    '''public String getBooleanFormat()
+    '''returns String\n\n
+    getBooleanFormat()\n
     '''
 def setTimeFormat():
-    '''public void setTimeFormat(final String timeFormat)
+    '''returns None\n\n
+    setTimeFormat(final String timeFormat)\n
     '''
 def getTimeFormat():
-    '''public String getTimeFormat()
+    '''returns String\n\n
+    getTimeFormat()\n
     '''
 def setDateFormat():
-    '''public void setDateFormat(final String dateFormat)
+    '''returns None\n\n
+    setDateFormat(final String dateFormat)\n
     '''
 def getDateFormat():
-    '''public String getDateFormat()
+    '''returns String\n\n
+    getDateFormat()\n
     '''
 def setDateTimeFormat():
-    '''public void setDateTimeFormat(final String dateTimeFormat)
+    '''returns None\n\n
+    setDateTimeFormat(final String dateTimeFormat)\n
     '''
 def getDateTimeFormat():
-    '''public String getDateTimeFormat()
+    '''returns String\n\n
+    getDateTimeFormat()\n
     '''
 def setTemplateExceptionHandler():
-    '''public void setTemplateExceptionHandler(final TemplateExceptionHandler templateExceptionHandler)
+    '''returns None\n\n
+    setTemplateExceptionHandler(final TemplateExceptionHandler templateExceptionHandler)\n
     '''
 def getTemplateExceptionHandler():
-    '''public TemplateExceptionHandler getTemplateExceptionHandler()
+    '''returns TemplateExceptionHandler\n\n
+    getTemplateExceptionHandler()\n
     '''
 def setArithmeticEngine():
-    '''public void setArithmeticEngine(final ArithmeticEngine arithmeticEngine)
+    '''returns None\n\n
+    setArithmeticEngine(final ArithmeticEngine arithmeticEngine)\n
     '''
 def getArithmeticEngine():
-    '''public ArithmeticEngine getArithmeticEngine()
+    '''returns ArithmeticEngine\n\n
+    getArithmeticEngine()\n
     '''
 def setObjectWrapper():
-    '''public void setObjectWrapper(final ObjectWrapper objectWrapper)
+    '''returns None\n\n
+    setObjectWrapper(final ObjectWrapper objectWrapper)\n
     '''
 def getObjectWrapper():
-    '''public ObjectWrapper getObjectWrapper()
+    '''returns ObjectWrapper\n\n
+    getObjectWrapper()\n
     '''
 def setOutputEncoding():
-    '''public void setOutputEncoding(final String outputEncoding)
+    '''returns None\n\n
+    setOutputEncoding(final String outputEncoding)\n
     '''
 def getOutputEncoding():
-    '''public String getOutputEncoding()
+    '''returns String\n\n
+    getOutputEncoding()\n
     '''
 def setURLEscapingCharset():
-    '''public void setURLEscapingCharset(final String urlEscapingCharset)
+    '''returns None\n\n
+    setURLEscapingCharset(final String urlEscapingCharset)\n
     '''
 def getURLEscapingCharset():
-    '''public String getURLEscapingCharset()
+    '''returns String\n\n
+    getURLEscapingCharset()\n
     '''
 def setNewBuiltinClassResolver():
-    '''public void setNewBuiltinClassResolver(final TemplateClassResolver newBuiltinClassResolver)
+    '''returns None\n\n
+    setNewBuiltinClassResolver(final TemplateClassResolver newBuiltinClassResolver)\n
     '''
 def getNewBuiltinClassResolver():
-    '''public TemplateClassResolver getNewBuiltinClassResolver()
+    '''returns TemplateClassResolver\n\n
+    getNewBuiltinClassResolver()\n
     '''
 def setAutoFlush():
-    '''public void setAutoFlush(final boolean autoFlush)
+    '''returns None\n\n
+    setAutoFlush(final boolean autoFlush)\n
     '''
 def getAutoFlush():
-    '''public boolean getAutoFlush()
+    '''returns boolean\n\n
+    getAutoFlush()\n
     '''
 def setShowErrorTips():
-    '''public void setShowErrorTips(final boolean showTips)
+    '''returns None\n\n
+    setShowErrorTips(final boolean showTips)\n
     '''
 def getShowErrorTips():
-    '''public boolean getShowErrorTips()
+    '''returns boolean\n\n
+    getShowErrorTips()\n
     '''
 def setAPIBuiltinEnabled():
-    '''public void setAPIBuiltinEnabled(final boolean value)
+    '''returns None\n\n
+    setAPIBuiltinEnabled(final boolean value)\n
     '''
 def isAPIBuiltinEnabled():
-    '''public boolean isAPIBuiltinEnabled()
+    '''returns boolean\n\n
+    isAPIBuiltinEnabled()\n
     '''
 def setLogTemplateExceptions():
-    '''public void setLogTemplateExceptions(final boolean value)
+    '''returns None\n\n
+    setLogTemplateExceptions(final boolean value)\n
     '''
 def getLogTemplateExceptions():
-    '''public boolean getLogTemplateExceptions()
+    '''returns boolean\n\n
+    getLogTemplateExceptions()\n
     '''
 def setSetting():
-    '''public void setSetting(final String name, final String value)
+    '''returns None\n\n
+    setSetting(final String name, final String value)\n
     '''
 def setStrictBeanModels():
-    '''public void setStrictBeanModels(final boolean strict)
+    '''returns None\n\n
+    setStrictBeanModels(final boolean strict)\n
     '''
 def getSetting():
-    '''public String getSetting(final String key)
+    '''returns String\n\n
+    getSetting(final String key)\n
     '''
 def getSettings():
-    '''public Map getSettings()
+    '''returns Map\n\n
+    getSettings()\n
     '''
 def setSettings():
-    '''public void setSettings(final Properties props)
-    public void setSettings(final InputStream propsIn)
+    '''returns None\n\n
+    setSettings(final Properties props)\n
+    setSettings(final InputStream propsIn)\n
     '''
 def setCustomAttribute():
-    '''public void setCustomAttribute(final String name, final Object value)
+    '''returns None\n\n
+    setCustomAttribute(final String name, final Object value)\n
     '''
 def getCustomAttributeNames():
-    '''public String[] getCustomAttributeNames()
+    '''returns String[]\n\n
+    getCustomAttributeNames()\n
     '''
 def removeCustomAttribute():
-    '''public void removeCustomAttribute(final String name)
+    '''returns None\n\n
+    removeCustomAttribute(final String name)\n
     '''
 def getCustomAttribute():
-    '''public Object getCustomAttribute(final String name)
+    '''returns Object\n\n
+    getCustomAttribute(final String name)\n
     '''

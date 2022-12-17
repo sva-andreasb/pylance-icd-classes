@@ -1,19 +1,13 @@
 CUSTOMER_MASTER_KEY_ID = "String  \"kms_cmk_id\""
-def KMSEncryptionMaterials():
-    '''public KMSEncryptionMaterials(final String defaultCustomerMasterKeyId)
-    '''
-def getKeyPair():
-    '''public final KeyPair getKeyPair()
-    '''
-def getSymmetricKey():
-    '''public final SecretKey getSymmetricKey()
-    '''
-def isKMSEnabled():
-    '''public final boolean isKMSEnabled()
+def ():
+    '''returns KMSEncryptionMaterials\n\n
+    (final String defaultCustomerMasterKeyId)\n
     '''
 def getCustomerMasterKeyId():
-    '''public String getCustomerMasterKeyId()
+    '''returns String\n\n
+    getCustomerMasterKeyId()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

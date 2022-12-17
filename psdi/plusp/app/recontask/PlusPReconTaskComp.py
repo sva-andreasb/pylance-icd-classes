@@ -1,6 +1,8 @@
-def PlusPReconTaskComp():
-    '''public PlusPReconTaskComp(final MboSet arg0)
+def ():
+    '''returns PlusPReconTaskComp\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

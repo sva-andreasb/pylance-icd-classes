@@ -1,74 +1,95 @@
-def BBSet():
-    '''public BBSet(final MboServerInterface ms)
+def ():
+    '''returns BBMboSetData\n\n
+    (final MboServerInterface ms)\n
+    (final MboSet set)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def setValidMessages():
-    '''public void setValidMessages()
+    '''returns None\n\n
+    setValidMessages()\n
     '''
 def getValidMessagesList():
-    '''public List getValidMessagesList()
+    '''returns List\n\n
+    getValidMessagesList()\n
     '''
 def getValidMessagesMboSet():
-    '''public MboSetRemote getValidMessagesMboSet(final String userId)
-    public MboSetRemote getValidMessagesMboSet(final BBSetRemote bbset)
-    public MboSetRemote getValidMessagesMboSet()
+    '''returns MboSetRemote\n\n
+    getValidMessagesMboSet(final String userId)\n
+    getValidMessagesMboSet(final BBSetRemote bbset)\n
+    getValidMessagesMboSet()\n
     '''
 def getValidMesssagesWhereClause():
-    '''public String getValidMesssagesWhereClause()
+    '''returns String\n\n
+    getValidMesssagesWhereClause()\n
     '''
 def setUserValidMessages():
-    '''public void setUserValidMessages()
+    '''returns None\n\n
+    setUserValidMessages()\n
     '''
 def setVisibleMessages():
-    '''public void setVisibleMessages()
+    '''returns None\n\n
+    setVisibleMessages()\n
     '''
 def getValidMessages():
-    '''public ArrayList getValidMessages()
+    '''returns ArrayList\n\n
+    getValidMessages()\n
     '''
 def getValidMessageCount():
-    '''public int getValidMessageCount()
+    '''returns int\n\n
+    getValidMessageCount()\n
     '''
 def getCachedMessageCount():
-    '''public int getCachedMessageCount()
+    '''returns int\n\n
+    getCachedMessageCount()\n
     '''
 def getColumns():
-    '''public Vector getColumns()
+    '''returns Vector\n\n
+    getColumns()\n
     '''
 def getResultSetData():
-    '''public MboSetData getResultSetData(final int start, final int rowcount, final String sortBy, Hashtable qbes)
+    '''returns MboSetData\n\n
+    getResultSetData(final int start, final int rowcount, final String sortBy, Hashtable qbes)\n
     '''
 def getNoOfRecords():
-    '''public int getNoOfRecords()
+    '''returns int\n\n
+    getNoOfRecords()\n
     '''
 def addBBMsgStatus():
-    '''public void addBBMsgStatus(final long bulletinboarduid)
+    '''returns None\n\n
+    addBBMsgStatus(final long bulletinboarduid)\n
     '''
 def msgCountForIcon():
-    '''public int msgCountForIcon()
+    '''returns int\n\n
+    msgCountForIcon()\n
     '''
 def getUniqueBBMsgStatusIdList():
-    '''public List getUniqueBBMsgStatusIdList()
+    '''returns List\n\n
+    getUniqueBBMsgStatusIdList()\n
     '''
 def getViewedMessages():
-    '''public List getViewedMessages()
+    '''returns List\n\n
+    getViewedMessages()\n
     '''
 def getUnViewedMessages():
-    '''public List getUnViewedMessages()
+    '''returns List\n\n
+    getUnViewedMessages()\n
     '''
 def getBBMsgStatusSet():
-    '''public MboSetRemote getBBMsgStatusSet()
+    '''returns MboSetRemote\n\n
+    getBBMsgStatusSet()\n
     '''
 def getBBIds():
-    '''public String getBBIds()
-    '''
-def BBMboSetData():
-    '''public BBMboSetData(final MboSet set)
+    '''returns String\n\n
+    getBBIds()\n
     '''
 def setMboData():
-    '''public void setMboData(final MboData[] values)
+    '''returns None\n\n
+    setMboData(final MboData[] values)\n
     '''
 def getMboDataCount():
-    '''public int getMboDataCount()
+    '''returns int\n\n
+    getMboDataCount()\n
     '''

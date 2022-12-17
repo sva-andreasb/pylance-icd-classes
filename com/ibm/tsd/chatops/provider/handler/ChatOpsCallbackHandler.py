@@ -1,15 +1,16 @@
-def sendPOST():
-    '''public static JSONObject sendPOST(final JSONObject body, final String apiContext)
-    '''
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''
 def checkClientTrusted():
-    '''public void checkClientTrusted(final X509Certificate[] arg0, final String arg1)
+    '''returns None\n\n
+    checkClientTrusted(final X509Certificate[] arg0, final String arg1)\n
     '''
 def checkServerTrusted():
-    '''public void checkServerTrusted(final X509Certificate[] arg0, final String arg1)
+    '''returns None\n\n
+    checkServerTrusted(final X509Certificate[] arg0, final String arg1)\n
     '''
 def verify():
-    '''public boolean verify(final String hostname, final SSLSession session)
+    '''returns boolean\n\n
+    verify(final String hostname, final SSLSession session)\n
     '''

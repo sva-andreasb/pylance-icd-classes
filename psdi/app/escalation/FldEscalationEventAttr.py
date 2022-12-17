@@ -1,3 +1,4 @@
-def FldEscalationEventAttr():
-    '''public FldEscalationEventAttr(final MboValue mbv)
+def ():
+    '''returns FldEscalationEventAttr\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,6 +1,8 @@
 def refreshList():
-    '''public int refreshList()
+    '''returns int\n\n
+    refreshList()\n
     '''
 def selectrecord():
-    '''public int selectrecord(final MboRemote locAssign)
+    '''returns int\n\n
+    selectrecord(final MboRemote locAssign)\n
     '''

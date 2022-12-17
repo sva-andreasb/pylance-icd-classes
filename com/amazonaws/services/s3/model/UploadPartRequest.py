@@ -1,126 +1,168 @@
 def setInputStream():
-    '''public void setInputStream(final InputStream inputStream)
+    '''returns None\n\n
+    setInputStream(final InputStream inputStream)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def withInputStream():
-    '''public UploadPartRequest withInputStream(final InputStream inputStream)
+    '''returns UploadPartRequest\n\n
+    withInputStream(final InputStream inputStream)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public UploadPartRequest withBucketName(final String bucketName)
+    '''returns UploadPartRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public UploadPartRequest withKey(final String key)
+    '''returns UploadPartRequest\n\n
+    withKey(final String key)\n
     '''
 def getUploadId():
-    '''public String getUploadId()
+    '''returns String\n\n
+    getUploadId()\n
     '''
 def setUploadId():
-    '''public void setUploadId(final String uploadId)
+    '''returns None\n\n
+    setUploadId(final String uploadId)\n
     '''
 def withUploadId():
-    '''public UploadPartRequest withUploadId(final String uploadId)
+    '''returns UploadPartRequest\n\n
+    withUploadId(final String uploadId)\n
     '''
 def getPartNumber():
-    '''public int getPartNumber()
+    '''returns int\n\n
+    getPartNumber()\n
     '''
 def setPartNumber():
-    '''public void setPartNumber(final int partNumber)
+    '''returns None\n\n
+    setPartNumber(final int partNumber)\n
     '''
 def withPartNumber():
-    '''public UploadPartRequest withPartNumber(final int partNumber)
+    '''returns UploadPartRequest\n\n
+    withPartNumber(final int partNumber)\n
     '''
 def getPartSize():
-    '''public long getPartSize()
+    '''returns long\n\n
+    getPartSize()\n
     '''
 def setPartSize():
-    '''public void setPartSize(final long partSize)
+    '''returns None\n\n
+    setPartSize(final long partSize)\n
     '''
 def withPartSize():
-    '''public UploadPartRequest withPartSize(final long partSize)
+    '''returns UploadPartRequest\n\n
+    withPartSize(final long partSize)\n
     '''
 def getMd5Digest():
-    '''public String getMd5Digest()
+    '''returns String\n\n
+    getMd5Digest()\n
     '''
 def setMd5Digest():
-    '''public void setMd5Digest(final String md5Digest)
+    '''returns None\n\n
+    setMd5Digest(final String md5Digest)\n
     '''
 def withMD5Digest():
-    '''public UploadPartRequest withMD5Digest(final String md5Digest)
+    '''returns UploadPartRequest\n\n
+    withMD5Digest(final String md5Digest)\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def withFile():
-    '''public UploadPartRequest withFile(final File file)
+    '''returns UploadPartRequest\n\n
+    withFile(final File file)\n
     '''
 def getFileOffset():
-    '''public long getFileOffset()
+    '''returns long\n\n
+    getFileOffset()\n
     '''
 def setFileOffset():
-    '''public void setFileOffset(final long fileOffset)
+    '''returns None\n\n
+    setFileOffset(final long fileOffset)\n
     '''
 def withFileOffset():
-    '''public UploadPartRequest withFileOffset(final long fileOffset)
+    '''returns UploadPartRequest\n\n
+    withFileOffset(final long fileOffset)\n
     '''
 def setProgressListener():
-    '''public void setProgressListener(final ProgressListener progressListener)
+    '''returns None\n\n
+    setProgressListener(final ProgressListener progressListener)\n
     '''
 def getProgressListener():
-    '''public ProgressListener getProgressListener()
+    '''returns ProgressListener\n\n
+    getProgressListener()\n
     '''
 def withProgressListener():
-    '''public UploadPartRequest withProgressListener(final ProgressListener progressListener)
+    '''returns UploadPartRequest\n\n
+    withProgressListener(final ProgressListener progressListener)\n
     '''
 def isLastPart():
-    '''public boolean isLastPart()
+    '''returns boolean\n\n
+    isLastPart()\n
     '''
 def setLastPart():
-    '''public void setLastPart(final boolean isLastPart)
+    '''returns None\n\n
+    setLastPart(final boolean isLastPart)\n
     '''
 def withLastPart():
-    '''public UploadPartRequest withLastPart(final boolean isLastPart)
+    '''returns UploadPartRequest\n\n
+    withLastPart(final boolean isLastPart)\n
     '''
 def getSSECustomerKey():
-    '''public SSECustomerKey getSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getSSECustomerKey()\n
     '''
 def setSSECustomerKey():
-    '''public void setSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns None\n\n
+    setSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def withSSECustomerKey():
-    '''public UploadPartRequest withSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns UploadPartRequest\n\n
+    withSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def getObjectMetadata():
-    '''public ObjectMetadata getObjectMetadata()
+    '''returns ObjectMetadata\n\n
+    getObjectMetadata()\n
     '''
 def setObjectMetadata():
-    '''public void setObjectMetadata(final ObjectMetadata objectMetadata)
+    '''returns None\n\n
+    setObjectMetadata(final ObjectMetadata objectMetadata)\n
     '''
 def withObjectMetadata():
-    '''public UploadPartRequest withObjectMetadata(final ObjectMetadata objectMetadata)
+    '''returns UploadPartRequest\n\n
+    withObjectMetadata(final ObjectMetadata objectMetadata)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public UploadPartRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns UploadPartRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

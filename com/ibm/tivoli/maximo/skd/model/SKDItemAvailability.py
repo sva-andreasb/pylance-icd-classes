@@ -1,21 +1,28 @@
-def SKDItemAvailability():
-    '''public SKDItemAvailability()
+def ():
+    '''returns SKDItemAvailability\n\n
+    ()\n
     '''
 def setItemAvailabilityInfo():
-    '''public void setItemAvailabilityInfo(final List<SKDItemAvailabilityInfo> info)
+    '''returns None\n\n
+    setItemAvailabilityInfo(final List<SKDItemAvailabilityInfo> info)\n
     '''
 def getItemAvailabilityInfo():
-    '''public List<SKDItemAvailabilityInfo> getItemAvailabilityInfo()
+    '''returns List<SKDItemAvailabilityInfo>\n\n
+    getItemAvailabilityInfo()\n
     '''
 def setToolAvailabilityInfo():
-    '''public void setToolAvailabilityInfo(final List<SKDItemAvailabilityInfo> info)
+    '''returns None\n\n
+    setToolAvailabilityInfo(final List<SKDItemAvailabilityInfo> info)\n
     '''
 def getToolAvailabilityInfo():
-    '''public List<SKDItemAvailabilityInfo> getToolAvailabilityInfo()
+    '''returns List<SKDItemAvailabilityInfo>\n\n
+    getToolAvailabilityInfo()\n
     '''
 def setNegativeCurBalanceFlag():
-    '''public void setNegativeCurBalanceFlag(final String flag)
+    '''returns None\n\n
+    setNegativeCurBalanceFlag(final String flag)\n
     '''
 def getNegativeCurBalanceFlag():
-    '''public String getNegativeCurBalanceFlag()
+    '''returns String\n\n
+    getNegativeCurBalanceFlag()\n
     '''

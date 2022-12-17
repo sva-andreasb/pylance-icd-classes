@@ -1,60 +1,76 @@
 def getLocationInformation():
-    '''public LocationInfo getLocationInformation()
+    '''returns LocationInfo\n\n
+    getLocationInformation()\n
     '''
 def getLevel():
-    '''public Level getLevel()
+    '''returns Level\n\n
+    getLevel()\n
     '''
 def getLoggerName():
-    '''public String getLoggerName()
+    '''returns String\n\n
+    getLoggerName()\n
     '''
 def getFQNOfLoggerClass():
-    '''public String getFQNOfLoggerClass()
+    '''returns String\n\n
+    getFQNOfLoggerClass()\n
     '''
 def getTimeStamp():
-    '''public long getTimeStamp()
+    '''returns long\n\n
+    getTimeStamp()\n
     '''
 def getLogger():
-    '''public Category getLogger()
+    '''returns Category\n\n
+    getLogger()\n
     '''
 def getMessage():
-    '''public Object getMessage()
+    '''returns Object\n\n
+    getMessage()\n
     '''
 def getNDC():
-    '''public String getNDC()
+    '''returns String\n\n
+    getNDC()\n
     '''
 def getMDC():
-    '''public Object getMDC(final String key)
+    '''returns Object\n\n
+    getMDC(final String key)\n
     '''
 def getMDCCopy():
-    '''public void getMDCCopy()
+    '''returns None\n\n
+    getMDCCopy()\n
     '''
 def getRenderedMessage():
-    '''public String getRenderedMessage()
-    '''
-def getStartTime():
-    '''public static long getStartTime()
+    '''returns String\n\n
+    getRenderedMessage()\n
     '''
 def getThreadName():
-    '''public String getThreadName()
+    '''returns String\n\n
+    getThreadName()\n
     '''
 def getThrowableInformation():
-    '''public ThrowableInformation getThrowableInformation()
+    '''returns ThrowableInformation\n\n
+    getThrowableInformation()\n
     '''
 def getThrowableStrRep():
-    '''public String[] getThrowableStrRep()
+    '''returns String[]\n\n
+    getThrowableStrRep()\n
     '''
 def setProperty():
-    '''public void setProperty(final String propName, final String propValue)
+    '''returns None\n\n
+    setProperty(final String propName, final String propValue)\n
     '''
 def getProperty():
-    '''public String getProperty(final String key)
+    '''returns String\n\n
+    getProperty(final String key)\n
     '''
 def getPropertyKeySet():
-    '''public Set getPropertyKeySet()
+    '''returns Set\n\n
+    getPropertyKeySet()\n
     '''
 def getProperties():
-    '''public Map getProperties()
+    '''returns Map\n\n
+    getProperties()\n
     '''
 def removeProperty():
-    '''public Object removeProperty(final String propName)
+    '''returns Object\n\n
+    removeProperty(final String propName)\n
     '''

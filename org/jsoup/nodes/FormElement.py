@@ -1,12 +1,16 @@
-def FormElement():
-    '''public FormElement(final Tag tag, final String baseUri, final Attributes attributes)
+def ():
+    '''returns FormElement\n\n
+    (final Tag tag, final String baseUri, final Attributes attributes)\n
     '''
 def elements():
-    '''public Elements elements()
+    '''returns Elements\n\n
+    elements()\n
     '''
 def addElement():
-    '''public FormElement addElement(final Element element)
+    '''returns FormElement\n\n
+    addElement(final Element element)\n
     '''
 def submit():
-    '''public Connection submit()
+    '''returns Connection\n\n
+    submit()\n
     '''

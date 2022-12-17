@@ -1,6 +1,8 @@
 def loadnextdialog():
-    '''public int loadnextdialog()
+    '''returns int\n\n
+    loadnextdialog()\n
     '''
 def refreshCrew():
-    '''public int refreshCrew()
+    '''returns int\n\n
+    refreshCrew()\n
     '''

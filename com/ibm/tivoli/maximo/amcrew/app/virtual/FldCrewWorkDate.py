@@ -1,9 +1,12 @@
-def FldCrewWorkDate():
-    '''public FldCrewWorkDate(final MboValue mbv)
+def ():
+    '''returns FldCrewWorkDate\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def createAMGrid():
-    '''public void createAMGrid(final AMCrewRemote crewMbo)
+    '''returns None\n\n
+    createAMGrid(final AMCrewRemote crewMbo)\n
     '''

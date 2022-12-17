@@ -1,3 +1,4 @@
 def handle():
-    '''public AmazonWebServiceResponse<String> handle(final HttpResponse response)
+    '''returns AmazonWebServiceResponse<String>\n\n
+    handle(final HttpResponse response)\n
     '''

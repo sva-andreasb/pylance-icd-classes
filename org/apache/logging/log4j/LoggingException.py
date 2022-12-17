@@ -1,5 +1,6 @@
-def LoggingException():
-    '''public LoggingException(final String message)
-    public LoggingException(final String message, final Throwable cause)
-    public LoggingException(final Throwable cause)
+def ():
+    '''returns LoggingException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

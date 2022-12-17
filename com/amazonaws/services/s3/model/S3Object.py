@@ -1,46 +1,61 @@
-def S3Object():
-    '''public S3Object()
+def ():
+    '''returns S3Object\n\n
+    ()\n
     '''
 def getObjectMetadata():
-    '''public ObjectMetadata getObjectMetadata()
+    '''returns ObjectMetadata\n\n
+    getObjectMetadata()\n
     '''
 def setObjectMetadata():
-    '''public void setObjectMetadata(final ObjectMetadata metadata)
+    '''returns None\n\n
+    setObjectMetadata(final ObjectMetadata metadata)\n
     '''
 def getObjectContent():
-    '''public S3ObjectInputStream getObjectContent()
+    '''returns S3ObjectInputStream\n\n
+    getObjectContent()\n
     '''
 def setObjectContent():
-    '''public void setObjectContent(final S3ObjectInputStream objectContent)
-    public void setObjectContent(final InputStream objectContent)
+    '''returns None\n\n
+    setObjectContent(final S3ObjectInputStream objectContent)\n
+    setObjectContent(final InputStream objectContent)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def getRedirectLocation():
-    '''public String getRedirectLocation()
+    '''returns String\n\n
+    getRedirectLocation()\n
     '''
 def setRedirectLocation():
-    '''public void setRedirectLocation(final String redirectLocation)
+    '''returns None\n\n
+    setRedirectLocation(final String redirectLocation)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isRequesterCharged():
-    '''public boolean isRequesterCharged()
+    '''returns boolean\n\n
+    isRequesterCharged()\n
     '''
 def setRequesterCharged():
-    '''public void setRequesterCharged(final boolean isRequesterCharged)
+    '''returns None\n\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
     '''

@@ -1,15 +1,20 @@
-def JCEncryptUtil():
-    '''public JCEncryptUtil(final byte[] salt, final String encoding)
+def ():
+    '''returns JCEncryptUtil\n\n
+    (final byte[] salt, final String encoding)\n
     '''
 def encrypt():
-    '''public String encrypt(final String str)
+    '''returns String\n\n
+    encrypt(final String str)\n
     '''
 def decrypt():
-    '''public String decrypt(final String str)
+    '''returns String\n\n
+    decrypt(final String str)\n
     '''
 def URLSafeEncrypt():
-    '''public String URLSafeEncrypt(final String str)
+    '''returns String\n\n
+    URLSafeEncrypt(final String str)\n
     '''
 def URLSafeDecrypt():
-    '''public String URLSafeDecrypt(String str)
+    '''returns String\n\n
+    URLSafeDecrypt(String str)\n
     '''

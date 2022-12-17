@@ -1,25 +1,33 @@
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def getTimeout():
-    '''public long getTimeout()
+    '''returns long\n\n
+    getTimeout()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final byte[] array, final byte b)
+    '''returns None\n\n
+    sendMessage(final byte[] array, final byte b)\n
     '''
 def close():
-    '''public void close()
-    public void close(final int closeReason)
+    '''returns None\n\n
+    close()\n
+    close(final int closeReason)\n
     '''
 def setKeepAliveParams():
-    '''public void setKeepAliveParams(final long n, final byte[] array)
+    '''returns None\n\n
+    setKeepAliveParams(final long n, final byte[] array)\n
     '''
 def setBytesToReceive():
-    '''public void setBytesToReceive(final int bytesToReceive)
+    '''returns None\n\n
+    setBytesToReceive(final int bytesToReceive)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

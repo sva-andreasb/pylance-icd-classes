@@ -1,10 +1,13 @@
 OBJECT_RELATIONSHIP = "String  \"Relationship\""
-def FullCIReconComparator():
-    '''public FullCIReconComparator()
+def ():
+    '''returns FullCIReconComparator\n\n
+    ()\n
     '''
 def compare():
-    '''public List<ReconCompResult> compare(final Map linkValue1, final Map linkValue2)
+    '''returns List<ReconCompResult>\n\n
+    compare(final Map linkValue1, final Map linkValue2)\n
     '''
 def compareFullCI():
-    '''public List<ReconCompResult> compareFullCI(final Map linkValue1, final Map linkValue2)
+    '''returns List<ReconCompResult>\n\n
+    compareFullCI(final Map linkValue1, final Map linkValue2)\n
     '''

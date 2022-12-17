@@ -1,33 +1,44 @@
 def getSuperiorGUID():
-    '''public byte[] getSuperiorGUID()
+    '''returns byte[]\n\n
+    getSuperiorGUID()\n
     '''
 def getSuperiorClassType():
-    '''public String getSuperiorClassType()
+    '''returns String\n\n
+    getSuperiorClassType()\n
     '''
 def getSuperiorName():
-    '''public String getSuperiorName()
+    '''returns String\n\n
+    getSuperiorName()\n
     '''
 def getSuperiorRole():
-    '''public String getSuperiorRole()
+    '''returns String\n\n
+    getSuperiorRole()\n
     '''
 def getSuperiorOrder():
-    '''public int getSuperiorOrder()
+    '''returns int\n\n
+    getSuperiorOrder()\n
     '''
 def setSuperiorGUID():
-    '''public void setSuperiorGUID(final byte[] guid)
+    '''returns None\n\n
+    setSuperiorGUID(final byte[] guid)\n
     '''
 def setSuperiorClassType():
-    '''public void setSuperiorClassType(final String classString)
+    '''returns None\n\n
+    setSuperiorClassType(final String classString)\n
     '''
 def setSuperiorName():
-    '''public void setSuperiorName(final String name)
+    '''returns None\n\n
+    setSuperiorName(final String name)\n
     '''
 def setSuperiorRole():
-    '''public void setSuperiorRole(final String role)
+    '''returns None\n\n
+    setSuperiorRole(final String role)\n
     '''
 def setSuperiorOrder():
-    '''public void setSuperiorOrder(final int order)
+    '''returns None\n\n
+    setSuperiorOrder(final int order)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,12 +1,12 @@
-def IlvIconLegendItem():
-    '''public IlvIconLegendItem(final String s, final Icon a)
-    '''
-def getIcon():
-    '''public final Icon getIcon()
+def ():
+    '''returns IlvIconLegendItem\n\n
+    (final String s, final Icon a)\n
     '''
 def setIcon():
-    '''public void setIcon(final Icon a)
+    '''returns None\n\n
+    setIcon(final Icon a)\n
     '''
 def drawSymbol():
-    '''public void drawSymbol(final Graphics graphics, final Rectangle rectangle)
+    '''returns None\n\n
+    drawSymbol(final Graphics graphics, final Rectangle rectangle)\n
     '''

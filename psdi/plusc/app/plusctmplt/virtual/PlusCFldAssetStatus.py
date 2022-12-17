@@ -1,9 +1,12 @@
-def PlusCFldAssetStatus():
-    '''public PlusCFldAssetStatus(final MboValue mv)
+def ():
+    '''returns PlusCFldAssetStatus\n\n
+    (final MboValue mv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,6 +1,8 @@
-def FeatureChangeStatus():
-    '''public FeatureChangeStatus(final MboSet ms)
+def ():
+    '''returns FeatureChangeStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

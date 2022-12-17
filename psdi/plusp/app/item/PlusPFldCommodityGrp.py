@@ -1,15 +1,20 @@
-def PlusPFldCommodityGrp():
-    '''public PlusPFldCommodityGrp(final MboValue arg0)
+def ():
+    '''returns PlusPFldCommodityGrp\n\n
+    (final MboValue arg0)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def isServiceItem():
-    '''public boolean isServiceItem()
+    '''returns boolean\n\n
+    isServiceItem()\n
     '''
 def getSetupListCriteria():
-    '''public String getSetupListCriteria()
+    '''returns String\n\n
+    getSetupListCriteria()\n
     '''
 def returnPriceBookLineOwner():
-    '''public PlusPPriceBookLineRemote returnPriceBookLineOwner(final MboRemote mboRemote)
+    '''returns PlusPPriceBookLineRemote\n\n
+    returnPriceBookLineOwner(final MboRemote mboRemote)\n
     '''

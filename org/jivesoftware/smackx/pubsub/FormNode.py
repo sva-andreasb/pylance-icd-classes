@@ -1,10 +1,13 @@
-def FormNode():
-    '''public FormNode(final FormNodeType formType, final Form submitForm)
-    public FormNode(final FormNodeType formType, final String nodeId, final Form submitForm)
+def ():
+    '''returns FormNode\n\n
+    (final FormNodeType formType, final Form submitForm)\n
+    (final FormNodeType formType, final String nodeId, final Form submitForm)\n
     '''
 def getForm():
-    '''public Form getForm()
+    '''returns Form\n\n
+    getForm()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''

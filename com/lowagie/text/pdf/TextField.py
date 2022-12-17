@@ -1,39 +1,52 @@
-def TextField():
-    '''public TextField(final PdfWriter writer, final Rectangle box, final String fieldName)
+def ():
+    '''returns TextField\n\n
+    (final PdfWriter writer, final Rectangle box, final String fieldName)\n
     '''
 def getAppearance():
-    '''public PdfAppearance getAppearance()
+    '''returns PdfAppearance\n\n
+    getAppearance()\n
     '''
 def getTextField():
-    '''public PdfFormField getTextField()
+    '''returns PdfFormField\n\n
+    getTextField()\n
     '''
 def getComboField():
-    '''public PdfFormField getComboField()
+    '''returns PdfFormField\n\n
+    getComboField()\n
     '''
 def getListField():
-    '''public PdfFormField getListField()
+    '''returns PdfFormField\n\n
+    getListField()\n
     '''
 def getDefaultText():
-    '''public String getDefaultText()
+    '''returns String\n\n
+    getDefaultText()\n
     '''
 def setDefaultText():
-    '''public void setDefaultText(final String defaultText)
+    '''returns None\n\n
+    setDefaultText(final String defaultText)\n
     '''
 def getChoices():
-    '''public String[] getChoices()
+    '''returns String[]\n\n
+    getChoices()\n
     '''
 def setChoices():
-    '''public void setChoices(final String[] choices)
+    '''returns None\n\n
+    setChoices(final String[] choices)\n
     '''
 def getChoiceExports():
-    '''public String[] getChoiceExports()
+    '''returns String[]\n\n
+    getChoiceExports()\n
     '''
 def setChoiceExports():
-    '''public void setChoiceExports(final String[] choiceExports)
+    '''returns None\n\n
+    setChoiceExports(final String[] choiceExports)\n
     '''
 def getChoiceSelection():
-    '''public int getChoiceSelection()
+    '''returns int\n\n
+    getChoiceSelection()\n
     '''
 def setChoiceSelection():
-    '''public void setChoiceSelection(final int choiceSelection)
+    '''returns None\n\n
+    setChoiceSelection(final int choiceSelection)\n
     '''

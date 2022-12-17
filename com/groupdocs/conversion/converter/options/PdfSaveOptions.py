@@ -1,23 +1,16 @@
-def PdfSaveOptions():
-    '''public PdfSaveOptions()
+def ():
+    '''returns PdfSaveOptions\n\n
+    ()\n
     '''
 def getWordBookmarks():
-    '''public WordBookmarks getWordBookmarks()
+    '''returns WordBookmarks\n\n
+    getWordBookmarks()\n
     '''
 def setWordBookmarks():
-    '''public void setWordBookmarks(final WordBookmarks wordBookmarks)
-    '''
-def a():
-    '''public static av[] a()
-    public static av a(final String name)
-    public static av a(final FileType key)
+    '''returns None\n\n
+    setWordBookmarks(final WordBookmarks wordBookmarks)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def b():
-    '''public static av b(final String s)
-    '''
-def c():
-    '''public static av c(final String key)
+    '''returns String\n\n
+    toString()\n
     '''

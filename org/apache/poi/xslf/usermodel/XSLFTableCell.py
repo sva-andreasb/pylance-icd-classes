@@ -1,90 +1,120 @@
 def setLeftInset():
-    '''public void setLeftInset(final double margin)
+    '''returns None\n\n
+    setLeftInset(final double margin)\n
     '''
 def setRightInset():
-    '''public void setRightInset(final double margin)
+    '''returns None\n\n
+    setRightInset(final double margin)\n
     '''
 def setTopInset():
-    '''public void setTopInset(final double margin)
+    '''returns None\n\n
+    setTopInset(final double margin)\n
     '''
 def setBottomInset():
-    '''public void setBottomInset(final double margin)
+    '''returns None\n\n
+    setBottomInset(final double margin)\n
     '''
 def removeBorder():
-    '''public void removeBorder(final TableCell.BorderEdge edge)
+    '''returns None\n\n
+    removeBorder(final TableCell.BorderEdge edge)\n
     '''
 def getBorderStyle():
-    '''public StrokeStyle getBorderStyle(final TableCell.BorderEdge edge)
+    '''returns StrokeStyle\n\n
+    getBorderStyle(final TableCell.BorderEdge edge)\n
     '''
 def getPaint():
-    '''public PaintStyle getPaint()
+    '''returns PaintStyle\n\n
+    getPaint()\n
     '''
 def getLineWidth():
-    '''public double getLineWidth()
+    '''returns double\n\n
+    getLineWidth()\n
     '''
 def setBorderStyle():
-    '''public void setBorderStyle(final TableCell.BorderEdge edge, final StrokeStyle style)
+    '''returns None\n\n
+    setBorderStyle(final TableCell.BorderEdge edge, final StrokeStyle style)\n
     '''
 def getBorderWidth():
-    '''public Double getBorderWidth(final TableCell.BorderEdge edge)
+    '''returns Double\n\n
+    getBorderWidth(final TableCell.BorderEdge edge)\n
     '''
 def setBorderWidth():
-    '''public void setBorderWidth(final TableCell.BorderEdge edge, final double width)
+    '''returns None\n\n
+    setBorderWidth(final TableCell.BorderEdge edge, final double width)\n
     '''
 def setBorderColor():
-    '''public void setBorderColor(final TableCell.BorderEdge edge, final Color color)
+    '''returns None\n\n
+    setBorderColor(final TableCell.BorderEdge edge, final Color color)\n
     '''
 def getBorderColor():
-    '''public Color getBorderColor(final TableCell.BorderEdge edge)
+    '''returns Color\n\n
+    getBorderColor(final TableCell.BorderEdge edge)\n
     '''
 def setBorderCompound():
-    '''public void setBorderCompound(final TableCell.BorderEdge edge, final StrokeStyle.LineCompound compound)
+    '''returns None\n\n
+    setBorderCompound(final TableCell.BorderEdge edge, final StrokeStyle.LineCompound compound)\n
     '''
 def setBorderDash():
-    '''public void setBorderDash(final TableCell.BorderEdge edge, final StrokeStyle.LineDash dash)
+    '''returns None\n\n
+    setBorderDash(final TableCell.BorderEdge edge, final StrokeStyle.LineDash dash)\n
     '''
 def setBorderCap():
-    '''public void setBorderCap(final TableCell.BorderEdge edge, final StrokeStyle.LineCap cap)
+    '''returns None\n\n
+    setBorderCap(final TableCell.BorderEdge edge, final StrokeStyle.LineCap cap)\n
     '''
 def setFillColor():
-    '''public void setFillColor(final Color color)
+    '''returns None\n\n
+    setFillColor(final Color color)\n
     '''
 def getFillColor():
-    '''public Color getFillColor()
+    '''returns Color\n\n
+    getFillColor()\n
     '''
 def getFillPaint():
-    '''public PaintStyle getFillPaint()
+    '''returns PaintStyle\n\n
+    getFillPaint()\n
     '''
 def getGridSpan():
-    '''public int getGridSpan()
+    '''returns int\n\n
+    getGridSpan()\n
     '''
 def getRowSpan():
-    '''public int getRowSpan()
+    '''returns int\n\n
+    getRowSpan()\n
     '''
 def setVerticalAlignment():
-    '''public void setVerticalAlignment(final VerticalAlignment anchor)
+    '''returns None\n\n
+    setVerticalAlignment(final VerticalAlignment anchor)\n
     '''
 def getVerticalAlignment():
-    '''public VerticalAlignment getVerticalAlignment()
+    '''returns VerticalAlignment\n\n
+    getVerticalAlignment()\n
     '''
 def setTextDirection():
-    '''public void setTextDirection(final TextShape.TextDirection orientation)
+    '''returns None\n\n
+    setTextDirection(final TextShape.TextDirection orientation)\n
     '''
 def setAnchor():
-    '''public void setAnchor(final Rectangle2D anchor)
+    '''returns None\n\n
+    setAnchor(final Rectangle2D anchor)\n
     '''
 def getAnchor():
-    '''public Rectangle2D getAnchor()
+    '''returns Rectangle2D\n\n
+    getAnchor()\n
     '''
 def isMerged():
-    '''public boolean isMerged()
+    '''returns boolean\n\n
+    isMerged()\n
     '''
 def getFontColor():
-    '''public PaintStyle getFontColor()
+    '''returns PaintStyle\n\n
+    getFontColor()\n
     '''
 def isBold():
-    '''public boolean isBold()
+    '''returns boolean\n\n
+    isBold()\n
     '''
 def isItalic():
-    '''public boolean isItalic()
+    '''returns boolean\n\n
+    isItalic()\n
     '''

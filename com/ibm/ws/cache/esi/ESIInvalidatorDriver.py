@@ -1,6 +1,4 @@
-def ESIInvalidatorDriver():
-    '''public ESIInvalidatorDriver()
-    '''
-def sendCommand():
-    '''public synchronized String sendCommand()
+def ():
+    '''returns ESIInvalidatorDriver\n\n
+    ()\n
     '''

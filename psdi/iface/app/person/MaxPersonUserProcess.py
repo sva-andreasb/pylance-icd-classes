@@ -1,6 +1,8 @@
-def MaxPersonUserProcess():
-    '''public MaxPersonUserProcess()
+def ():
+    '''returns MaxPersonUserProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''

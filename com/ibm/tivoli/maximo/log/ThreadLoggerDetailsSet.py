@@ -1,3 +1,4 @@
-def ThreadLoggerDetailsSet():
-    '''public ThreadLoggerDetailsSet(final MboServerInterface ms)
+def ():
+    '''returns ThreadLoggerDetailsSet\n\n
+    (final MboServerInterface ms)\n
     '''

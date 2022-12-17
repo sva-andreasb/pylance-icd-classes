@@ -5,171 +5,227 @@ TYPE_SOCKET = "byte  6"
 TYPE_CHAR_DEVICE = "byte  7"
 TYPE_BLOCK_DEVICE = "byte  8"
 TYPE_FIFO = "byte  9"
-def FileAttributes():
-    '''public FileAttributes()
+def ():
+    '''returns FileAttributes\n\n
+    ()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object object)
+    '''returns int\n\n
+    compareTo(final Object object)\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''
 def setFilename():
-    '''public void setFilename(final String filename)
+    '''returns None\n\n
+    setFilename(final String filename)\n
     '''
 def getType():
-    '''public byte getType()
+    '''returns byte\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final byte type)
+    '''returns None\n\n
+    setType(final byte type)\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final long size)
+    '''returns None\n\n
+    setSize(final long size)\n
     '''
 def getAllocationSize():
-    '''public long getAllocationSize()
+    '''returns long\n\n
+    getAllocationSize()\n
     '''
 def setAllocationSize():
-    '''public void setAllocationSize(final long size)
+    '''returns None\n\n
+    setAllocationSize(final long size)\n
     '''
 def getUID():
-    '''public int getUID()
+    '''returns int\n\n
+    getUID()\n
     '''
 def setUID():
-    '''public void setUID(final int uid)
+    '''returns None\n\n
+    setUID(final int uid)\n
     '''
 def getGID():
-    '''public int getGID()
+    '''returns int\n\n
+    getGID()\n
     '''
 def setGID():
-    '''public void setGID(final int gid)
+    '''returns None\n\n
+    setGID(final int gid)\n
     '''
 def getOwner():
-    '''public String getOwner()
+    '''returns String\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final String owner)
+    '''returns None\n\n
+    setOwner(final String owner)\n
     '''
 def getGroup():
-    '''public String getGroup()
+    '''returns String\n\n
+    getGroup()\n
     '''
 def setGroup():
-    '''public void setGroup(final String group)
+    '''returns None\n\n
+    setGroup(final String group)\n
     '''
 def getPermissions():
-    '''public int getPermissions()
+    '''returns int\n\n
+    getPermissions()\n
     '''
 def setPermissions():
-    '''public void setPermissions(final int permissions)
+    '''returns None\n\n
+    setPermissions(final int permissions)\n
     '''
 def getPermissionsAsString():
-    '''public String getPermissionsAsString()
+    '''returns String\n\n
+    getPermissionsAsString()\n
     '''
 def setPermissionsFromString():
-    '''public void setPermissionsFromString(final String permissionsString)
+    '''returns None\n\n
+    setPermissionsFromString(final String permissionsString)\n
     '''
 def getAccessDate():
-    '''public Date getAccessDate()
+    '''returns Date\n\n
+    getAccessDate()\n
     '''
 def setAccessDate():
-    '''public void setAccessDate(final Date accessTime)
+    '''returns None\n\n
+    setAccessDate(final Date accessTime)\n
     '''
 def getCreationDate():
-    '''public Date getCreationDate()
+    '''returns Date\n\n
+    getCreationDate()\n
     '''
 def setCreationDate():
-    '''public void setCreationDate(final Date createTime)
+    '''returns None\n\n
+    setCreationDate(final Date createTime)\n
     '''
 def getModifyDate():
-    '''public Date getModifyDate()
+    '''returns Date\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final Date modifyTime)
+    '''returns None\n\n
+    setModifyDate(final Date modifyTime)\n
     '''
 def getACL():
-    '''public Acl getACL()
+    '''returns Acl\n\n
+    getACL()\n
     '''
 def isFile():
-    '''public boolean isFile()
+    '''returns boolean\n\n
+    isFile()\n
     '''
 def isDirectory():
-    '''public boolean isDirectory()
+    '''returns boolean\n\n
+    isDirectory()\n
     '''
 def isSymbolicLink():
-    '''public boolean isSymbolicLink()
+    '''returns boolean\n\n
+    isSymbolicLink()\n
     '''
 def isSocket():
-    '''public boolean isSocket()
+    '''returns boolean\n\n
+    isSocket()\n
     '''
 def isCharDevice():
-    '''public boolean isCharDevice()
+    '''returns boolean\n\n
+    isCharDevice()\n
     '''
 def isBlockDevice():
-    '''public boolean isBlockDevice()
+    '''returns boolean\n\n
+    isBlockDevice()\n
     '''
 def isFIFO():
-    '''public boolean isFIFO()
+    '''returns boolean\n\n
+    isFIFO()\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def isSystem():
-    '''public boolean isSystem()
+    '''returns boolean\n\n
+    isSystem()\n
     '''
 def isHidden():
-    '''public boolean isHidden()
+    '''returns boolean\n\n
+    isHidden()\n
     '''
 def isCaseInsensitive():
-    '''public boolean isCaseInsensitive()
+    '''returns boolean\n\n
+    isCaseInsensitive()\n
     '''
 def isArchived():
-    '''public boolean isArchived()
+    '''returns boolean\n\n
+    isArchived()\n
     '''
 def isEncrypted():
-    '''public boolean isEncrypted()
+    '''returns boolean\n\n
+    isEncrypted()\n
     '''
 def isCompressed():
-    '''public boolean isCompressed()
+    '''returns boolean\n\n
+    isCompressed()\n
     '''
 def isSparse():
-    '''public boolean isSparse()
+    '''returns boolean\n\n
+    isSparse()\n
     '''
 def isAppendOnly():
-    '''public boolean isAppendOnly()
+    '''returns boolean\n\n
+    isAppendOnly()\n
     '''
 def isImmutable():
-    '''public boolean isImmutable()
+    '''returns boolean\n\n
+    isImmutable()\n
     '''
 def isSync():
-    '''public boolean isSync()
+    '''returns boolean\n\n
+    isSync()\n
     '''
 def isTranslationError():
-    '''public boolean isTranslationError()
+    '''returns boolean\n\n
+    isTranslationError()\n
     '''
 def getTextHint():
-    '''public byte getTextHint()
+    '''returns byte\n\n
+    getTextHint()\n
     '''
 def setTextHint():
-    '''public void setTextHint(final byte textHint)
+    '''returns None\n\n
+    setTextHint(final byte textHint)\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def setMimetype():
-    '''public void setMimetype(final String mimeType)
+    '''returns None\n\n
+    setMimetype(final String mimeType)\n
     '''
 def getLinkCount():
-    '''public int getLinkCount()
+    '''returns int\n\n
+    getLinkCount()\n
     '''
 def getUntranslatedName():
-    '''public String getUntranslatedName()
+    '''returns String\n\n
+    getUntranslatedName()\n
     '''
 def setUntranslatedName():
-    '''public void setUntranslatedName(final String untranslatedName)
+    '''returns None\n\n
+    setUntranslatedName(final String untranslatedName)\n
     '''
 def getAttributesAsString():
-    '''public String getAttributesAsString(final int version)
+    '''returns String\n\n
+    getAttributesAsString(final int version)\n
     '''

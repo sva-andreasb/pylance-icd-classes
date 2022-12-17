@@ -1,3 +1,4 @@
-def TamitClassStructure():
-    '''public TamitClassStructure(final MboSet ms)
+def ():
+    '''returns TamitClassStructure\n\n
+    (final MboSet ms)\n
     '''

@@ -1,19 +1,25 @@
-def POIXMLPropertiesTextExtractor():
-    '''public POIXMLPropertiesTextExtractor(final POIXMLDocument doc)
-    public POIXMLPropertiesTextExtractor(final POIXMLTextExtractor otherExtractor)
+def ():
+    '''returns POIXMLPropertiesTextExtractor\n\n
+    (final POIXMLDocument doc)\n
+    (final POIXMLTextExtractor otherExtractor)\n
     '''
 def getCorePropertiesText():
-    '''public String getCorePropertiesText()
+    '''returns String\n\n
+    getCorePropertiesText()\n
     '''
 def getExtendedPropertiesText():
-    '''public String getExtendedPropertiesText()
+    '''returns String\n\n
+    getExtendedPropertiesText()\n
     '''
 def getCustomPropertiesText():
-    '''public String getCustomPropertiesText()
+    '''returns String\n\n
+    getCustomPropertiesText()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getMetadataTextExtractor():
-    '''public POIXMLPropertiesTextExtractor getMetadataTextExtractor()
+    '''returns POIXMLPropertiesTextExtractor\n\n
+    getMetadataTextExtractor()\n
     '''

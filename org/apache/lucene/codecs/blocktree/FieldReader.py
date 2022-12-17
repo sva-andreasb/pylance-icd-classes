@@ -1,51 +1,68 @@
 def getMin():
-    '''public BytesRef getMin()
+    '''returns BytesRef\n\n
+    getMin()\n
     '''
 def getMax():
-    '''public BytesRef getMax()
+    '''returns BytesRef\n\n
+    getMax()\n
     '''
 def getStats():
-    '''public Stats getStats()
+    '''returns Stats\n\n
+    getStats()\n
     '''
 def hasFreqs():
-    '''public boolean hasFreqs()
+    '''returns boolean\n\n
+    hasFreqs()\n
     '''
 def hasOffsets():
-    '''public boolean hasOffsets()
+    '''returns boolean\n\n
+    hasOffsets()\n
     '''
 def hasPositions():
-    '''public boolean hasPositions()
+    '''returns boolean\n\n
+    hasPositions()\n
     '''
 def hasPayloads():
-    '''public boolean hasPayloads()
+    '''returns boolean\n\n
+    hasPayloads()\n
     '''
 def iterator():
-    '''public TermsEnum iterator()
+    '''returns TermsEnum\n\n
+    iterator()\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def getSumTotalTermFreq():
-    '''public long getSumTotalTermFreq()
+    '''returns long\n\n
+    getSumTotalTermFreq()\n
     '''
 def getSumDocFreq():
-    '''public long getSumDocFreq()
+    '''returns long\n\n
+    getSumDocFreq()\n
     '''
 def getDocCount():
-    '''public int getDocCount()
+    '''returns int\n\n
+    getDocCount()\n
     '''
 def intersect():
-    '''public TermsEnum intersect(final CompiledAutomaton compiled, final BytesRef startTerm)
+    '''returns TermsEnum\n\n
+    intersect(final CompiledAutomaton compiled, final BytesRef startTerm)\n
     '''
 def ramBytesUsed():
-    '''public long ramBytesUsed()
+    '''returns long\n\n
+    ramBytesUsed()\n
     '''
 def getChildResources():
-    '''public Collection<Accountable> getChildResources()
+    '''returns Collection<Accountable>\n\n
+    getChildResources()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isFstOffHeap():
-    '''public boolean isFstOffHeap()
+    '''returns boolean\n\n
+    isFstOffHeap()\n
     '''

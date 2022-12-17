@@ -1,45 +1,59 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def hasDefaultValue():
-    '''public boolean hasDefaultValue()
+    '''returns boolean\n\n
+    hasDefaultValue()\n
     '''
 def hasLegalValues():
-    '''public boolean hasLegalValues()
+    '''returns boolean\n\n
+    hasLegalValues()\n
     '''
 def hasMaxValue():
-    '''public boolean hasMaxValue()
+    '''returns boolean\n\n
+    hasMaxValue()\n
     '''
 def hasMinValue():
-    '''public boolean hasMinValue()
+    '''returns boolean\n\n
+    hasMinValue()\n
     '''
 def getMaxValue():
-    '''public Comparable getMaxValue()
+    '''returns Comparable\n\n
+    getMaxValue()\n
     '''
 def getMinValue():
-    '''public Comparable getMinValue()
+    '''returns Comparable\n\n
+    getMinValue()\n
     '''
 def getDefaultValue():
-    '''public Object getDefaultValue()
+    '''returns Object\n\n
+    getDefaultValue()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def isValue():
-    '''public boolean isValue(final Object o)
+    '''returns boolean\n\n
+    isValue(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getLegalValues():
-    '''public Set getLegalValues()
+    '''returns Set\n\n
+    getLegalValues()\n
     '''
 def getOpenType():
-    '''public OpenType getOpenType()
+    '''returns OpenType\n\n
+    getOpenType()\n
     '''
-def OpenMBeanParameterInfoSupport():
-    '''public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType)
-    public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType, final Object defaultValue)
-    public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType, final Object o, final Object[] array)
-    public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType, final Object o, final Comparable minValue, final Comparable maxValue)
+def ():
+    '''returns OpenMBeanParameterInfoSupport\n\n
+    (final String s, final String s2, final OpenType openType)\n
+    (final String s, final String s2, final OpenType openType, final Object defaultValue)\n
+    (final String s, final String s2, final OpenType openType, final Object o, final Object[] array)\n
+    (final String s, final String s2, final OpenType openType, final Object o, final Comparable minValue, final Comparable maxValue)\n
     '''

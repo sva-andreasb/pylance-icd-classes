@@ -1,13 +1,17 @@
-def MamIntegrationTest():
-    '''public MamIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns MamIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def mamTest():
-    '''public void mamTest()
+    '''returns None\n\n
+    mamTest()\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
-    public void processStanza(final Stanza stanza)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
+    processStanza(final Stanza stanza)\n
     '''
 def mamPageTest():
-    '''public void mamPageTest()
+    '''returns None\n\n
+    mamPageTest()\n
     '''

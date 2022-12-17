@@ -1,45 +1,60 @@
-def WMLDoElementImpl():
-    '''public WMLDoElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+def ():
+    '''returns WMLDoElementImpl\n\n
+    (final WMLDocumentImpl wmlDocumentImpl, final String s)\n
     '''
 def setOptional():
-    '''public void setOptional(final String s)
+    '''returns None\n\n
+    setOptional(final String s)\n
     '''
 def getOptional():
-    '''public String getOptional()
+    '''returns String\n\n
+    getOptional()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setXmlLang():
-    '''public void setXmlLang(final String s)
+    '''returns None\n\n
+    setXmlLang(final String s)\n
     '''
 def getXmlLang():
-    '''public String getXmlLang()
+    '''returns String\n\n
+    getXmlLang()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setLabel():
-    '''public void setLabel(final String s)
+    '''returns None\n\n
+    setLabel(final String s)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setType():
-    '''public void setType(final String s)
+    '''returns None\n\n
+    setType(final String s)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

@@ -1,6 +1,8 @@
-def DMPkgStatusSet():
-    '''public DMPkgStatusSet(final MboServerInterface ms)
+def ():
+    '''returns DMPkgStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

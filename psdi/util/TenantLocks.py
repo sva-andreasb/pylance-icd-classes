@@ -1,6 +1,8 @@
-def TenantLocks():
-    '''public TenantLocks()
+def ():
+    '''returns TenantLocks\n\n
+    ()\n
     '''
 def getTenantLockObj():
-    '''public Object getTenantLockObj()
+    '''returns Object\n\n
+    getTenantLockObj()\n
     '''

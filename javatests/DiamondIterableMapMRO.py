@@ -1,54 +1,72 @@
-def DiamondIterableMapMRO():
-    '''public DiamondIterableMapMRO()
+def ():
+    '''returns DiamondIterableMapMRO\n\n
+    ()\n
     '''
 def call():
-    '''public Object call()
+    '''returns Object\n\n
+    call()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def entrySet():
-    '''public Set entrySet()
+    '''returns Set\n\n
+    entrySet()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
     '''
 def remove():
-    '''public Object remove(final Object key)
+    '''returns Object\n\n
+    remove(final Object key)\n
     '''
 def putAll():
-    '''public void putAll(final Map m)
+    '''returns None\n\n
+    putAll(final Map m)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def keySet():
-    '''public Set keySet()
+    '''returns Set\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection values()
+    '''returns Collection\n\n
+    values()\n
     '''

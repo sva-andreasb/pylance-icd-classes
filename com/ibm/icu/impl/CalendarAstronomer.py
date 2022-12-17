@@ -9,99 +9,112 @@ MINUTE_MS = "int  60000"
 HOUR_MS = "int  3600000"
 DAY_MS = "long  86400000L"
 JULIAN_EPOCH_MS = "long  -210866760000000L"
-def CalendarAstronomer():
-    '''public CalendarAstronomer()
-    public CalendarAstronomer(final Date d)
-    public CalendarAstronomer(final long aTime)
-    public CalendarAstronomer(final double longitude, final double latitude)
+def ():
+    '''returns Horizon\n\n
+    ()\n
+    (final Date d)\n
+    (final long aTime)\n
+    (final double longitude, final double latitude)\n
+    (final double lat, final double lon)\n
+    (final double asc, final double dec)\n
+    (final double alt, final double azim)\n
     '''
 def setTime():
-    '''public void setTime(final long aTime)
+    '''returns None\n\n
+    setTime(final long aTime)\n
     '''
 def setDate():
-    '''public void setDate(final Date date)
+    '''returns None\n\n
+    setDate(final Date date)\n
     '''
 def setJulianDay():
-    '''public void setJulianDay(final double jdn)
+    '''returns None\n\n
+    setJulianDay(final double jdn)\n
     '''
 def getTime():
-    '''public long getTime()
+    '''returns long\n\n
+    getTime()\n
     '''
 def getDate():
-    '''public Date getDate()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def getJulianDay():
-    '''public double getJulianDay()
+    '''returns double\n\n
+    getJulianDay()\n
     '''
 def getJulianCentury():
-    '''public double getJulianCentury()
+    '''returns double\n\n
+    getJulianCentury()\n
     '''
 def getGreenwichSidereal():
-    '''public double getGreenwichSidereal()
+    '''returns double\n\n
+    getGreenwichSidereal()\n
     '''
 def getLocalSidereal():
-    '''public double getLocalSidereal()
-    '''
-def eclipticToEquatorial():
-    '''public final Equatorial eclipticToEquatorial(final Ecliptic ecliptic)
-    public final Equatorial eclipticToEquatorial(final double eclipLong, final double eclipLat)
-    public final Equatorial eclipticToEquatorial(final double eclipLong)
+    '''returns double\n\n
+    getLocalSidereal()\n
     '''
 def eclipticToHorizon():
-    '''public Horizon eclipticToHorizon(final double eclipLong)
+    '''returns Horizon\n\n
+    eclipticToHorizon(final double eclipLong)\n
     '''
 def getSunLongitude():
-    '''public double getSunLongitude()
+    '''returns double\n\n
+    getSunLongitude()\n
     '''
 def getSunPosition():
-    '''public Equatorial getSunPosition()
+    '''returns Equatorial\n\n
+    getSunPosition()\n
     '''
 def getSunTime():
-    '''public long getSunTime(final double desired, final boolean next)
-    public long getSunTime(final SolarLongitude desired, final boolean next)
+    '''returns long\n\n
+    getSunTime(final double desired, final boolean next)\n
+    getSunTime(final SolarLongitude desired, final boolean next)\n
     '''
 def eval():
-    '''public double eval()
-    public Equatorial eval()
-    public double eval()
-    public Equatorial eval()
+    '''returns Equatorial\n\n
+    eval()\n
+    eval()\n
+    eval()\n
+    eval()\n
     '''
 def getSunRiseSet():
-    '''public long getSunRiseSet(final boolean rise)
+    '''returns long\n\n
+    getSunRiseSet(final boolean rise)\n
     '''
 def getMoonPosition():
-    '''public Equatorial getMoonPosition()
+    '''returns Equatorial\n\n
+    getMoonPosition()\n
     '''
 def getMoonAge():
-    '''public double getMoonAge()
+    '''returns double\n\n
+    getMoonAge()\n
     '''
 def getMoonPhase():
-    '''public double getMoonPhase()
+    '''returns double\n\n
+    getMoonPhase()\n
     '''
 def getMoonTime():
-    '''public long getMoonTime(final double desired, final boolean next)
-    public long getMoonTime(final MoonAge desired, final boolean next)
+    '''returns long\n\n
+    getMoonTime(final double desired, final boolean next)\n
+    getMoonTime(final MoonAge desired, final boolean next)\n
     '''
 def getMoonRiseSet():
-    '''public long getMoonRiseSet(final boolean rise)
+    '''returns long\n\n
+    getMoonRiseSet(final boolean rise)\n
     '''
 def local():
-    '''public String local(final long localMillis)
-    '''
-def Ecliptic():
-    '''public Ecliptic(final double lat, final double lon)
+    '''returns String\n\n
+    local(final long localMillis)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    '''
-def Equatorial():
-    '''public Equatorial(final double asc, final double dec)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def toHmsString():
-    '''public String toHmsString()
-    '''
-def Horizon():
-    '''public Horizon(final double alt, final double azim)
+    '''returns String\n\n
+    toHmsString()\n
     '''

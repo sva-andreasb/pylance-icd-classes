@@ -1,22 +1,28 @@
-def CloudantQbe():
-    '''public CloudantQbe(final String resourceName, final UserInfo userInfo)
+def ():
+    '''returns CloudantQbe\n\n
+    (final String resourceName, final UserInfo userInfo)\n
     '''
 def hasQbe():
-    '''public boolean hasQbe()
+    '''returns boolean\n\n
+    hasQbe()\n
     '''
 def removeQbe():
-    '''public void removeQbe(final String propName)
+    '''returns None\n\n
+    removeQbe(final String propName)\n
     '''
 def setQbe():
-    '''public void setQbe(final String propName, final int op, final String value)
-    public void setQbe(final String propName, final int op, final long value)
-    public void setQbe(final String propName, final int op, final boolean value)
-    public void setQbe(final String propName, final int op, final double value)
-    public void setQbe(final String propName, final int op, final Date dt)
+    '''returns None\n\n
+    setQbe(final String propName, final int op, final String value)\n
+    setQbe(final String propName, final int op, final long value)\n
+    setQbe(final String propName, final int op, final boolean value)\n
+    setQbe(final String propName, final int op, final double value)\n
+    setQbe(final String propName, final int op, final Date dt)\n
     '''
 def getQbe():
-    '''public Object getQbe()
+    '''returns Object\n\n
+    getQbe()\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''

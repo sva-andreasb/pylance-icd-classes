@@ -1,6 +1,8 @@
-def SKDPropertyMapSet():
-    '''public SKDPropertyMapSet(final MboServerInterface ms)
+def ():
+    '''returns SKDPropertyMapSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

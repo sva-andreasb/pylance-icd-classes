@@ -1,16 +1,16 @@
-def toString():
-    '''public final String toString()
-    '''
 def asSQL():
-    '''public String asSQL()
-    public static String asSQL(final SqlExpr expr)
+    '''returns String\n\n
+    asSQL()\n
     '''
 def getColumnsNeeded():
-    '''public Set<SqlColumn> getColumnsNeeded()
+    '''returns Set<SqlColumn>\n\n
+    getColumnsNeeded()\n
     '''
 def isColumn():
-    '''public boolean isColumn()
+    '''returns boolean\n\n
+    isColumn()\n
     '''
 def isConstant():
-    '''public boolean isConstant()
+    '''returns boolean\n\n
+    isConstant()\n
     '''

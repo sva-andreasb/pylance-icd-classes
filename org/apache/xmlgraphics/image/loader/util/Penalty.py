@@ -1,19 +1,17 @@
-def toPenalty():
-    '''public static Penalty toPenalty(final int value)
-    '''
 def add():
-    '''public Penalty add(final Penalty value)
-    public Penalty add(final int value)
+    '''returns Penalty\n\n
+    add(final Penalty value)\n
+    add(final int value)\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def isInfinitePenalty():
-    '''public boolean isInfinitePenalty()
+    '''returns boolean\n\n
+    isInfinitePenalty()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def truncate():
-    '''public static int truncate(long penalty)
+    '''returns String\n\n
+    toString()\n
     '''

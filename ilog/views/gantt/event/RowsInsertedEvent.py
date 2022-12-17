@@ -1,15 +1,20 @@
-def RowsInsertedEvent():
-    '''public RowsInsertedEvent(final IlvGanttConfiguration ilvGanttConfiguration, final IlvHierarchyNode ilvHierarchyNode, final IlvHierarchyNode[] array, final int[] array2, final IlvHierarchyNode[] a, final int[] b)
+def ():
+    '''returns RowsInsertedEvent\n\n
+    (final IlvGanttConfiguration ilvGanttConfiguration, final IlvHierarchyNode ilvHierarchyNode, final IlvHierarchyNode[] array, final int[] array2, final IlvHierarchyNode[] a, final int[] b)\n
     '''
 def getVisibleNodes():
-    '''public IlvHierarchyNode[] getVisibleNodes()
+    '''returns IlvHierarchyNode[]\n\n
+    getVisibleNodes()\n
     '''
 def getVisibleNodeCount():
-    '''public int getVisibleNodeCount()
+    '''returns int\n\n
+    getVisibleNodeCount()\n
     '''
 def getVisibleRows():
-    '''public int[] getVisibleRows()
+    '''returns int[]\n\n
+    getVisibleRows()\n
     '''
 def getVisibleRowCount():
-    '''public int getVisibleRowCount()
+    '''returns int\n\n
+    getVisibleRowCount()\n
     '''

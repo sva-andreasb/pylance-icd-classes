@@ -2,29 +2,37 @@ LOWER = "int  0"
 UPPER = "int  1"
 UPPER_LONG = "int  2"
 COUNT = "int  3"
-def CollationKey():
-    '''public CollationKey(final String source, final byte[] key)
-    public CollationKey(final String source, final RawCollationKey key)
+def ():
+    '''returns CollationKey\n\n
+    (final String source, final byte[] key)\n
+    (final String source, final RawCollationKey key)\n
     '''
 def getSourceString():
-    '''public String getSourceString()
+    '''returns String\n\n
+    getSourceString()\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray()
+    '''returns byte[]\n\n
+    toByteArray()\n
     '''
 def compareTo():
-    '''public int compareTo(final CollationKey target)
+    '''returns int\n\n
+    compareTo(final CollationKey target)\n
     '''
 def equals():
-    '''public boolean equals(final Object target)
-    public boolean equals(final CollationKey target)
+    '''returns boolean\n\n
+    equals(final Object target)\n
+    equals(final CollationKey target)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getBound():
-    '''public CollationKey getBound(final int boundType, int noOfLevels)
+    '''returns CollationKey\n\n
+    getBound(final int boundType, int noOfLevels)\n
     '''
 def merge():
-    '''public CollationKey merge(final CollationKey source)
+    '''returns CollationKey\n\n
+    merge(final CollationKey source)\n
     '''

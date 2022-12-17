@@ -1,19 +1,25 @@
-def ImageInputStreamSeekableStreamAdapter():
-    '''public ImageInputStreamSeekableStreamAdapter(final ImageInputStream stream)
+def ():
+    '''returns ImageInputStreamSeekableStreamAdapter\n\n
+    (final ImageInputStream stream)\n
     '''
 def canSeekBackwards():
-    '''public boolean canSeekBackwards()
+    '''returns boolean\n\n
+    canSeekBackwards()\n
     '''
 def getFilePointer():
-    '''public long getFilePointer()
+    '''returns long\n\n
+    getFilePointer()\n
     '''
 def seek():
-    '''public void seek(final long pos)
+    '''returns None\n\n
+    seek(final long pos)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

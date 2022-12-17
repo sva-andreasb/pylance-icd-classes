@@ -1,3 +1,4 @@
 def connect():
-    '''public void connect(final Socket socket, final String host, final int port, final int timeout)
+    '''returns None\n\n
+    connect(final Socket socket, final String host, final int port, final int timeout)\n
     '''

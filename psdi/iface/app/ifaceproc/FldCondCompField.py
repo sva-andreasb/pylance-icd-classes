@@ -1,6 +1,8 @@
-def FldCondCompField():
-    '''public FldCondCompField(final MboValue mbv)
+def ():
+    '''returns FldCondCompField\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

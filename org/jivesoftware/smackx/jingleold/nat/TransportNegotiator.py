@@ -1,62 +1,59 @@
 CANDIDATES_ACCEPT_PERIOD = "int  4000"
-def TransportNegotiator():
-    '''public TransportNegotiator(final JingleSession session, final TransportResolver transResolver, final ContentNegotiator parentNegotiator)
-    '''
-def getBestLocalCandidate():
-    '''public final TransportCandidate getBestLocalCandidate()
+def ():
+    '''returns Ice\n\n
+    (final JingleSession session, final TransportResolver transResolver, final ContentNegotiator parentNegotiator)\n
+    (final JingleSession js, final TransportResolver res, final ContentNegotiator parentNegotiator)\n
+    (final JingleSession js, final TransportResolver res, final ContentNegotiator parentNegotiator)\n
     '''
 def getAcceptedLocalCandidate():
-    '''public TransportCandidate getAcceptedLocalCandidate()
+    '''returns TransportCandidate\n\n
+    getAcceptedLocalCandidate()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getJingleTransport():
-    '''public JingleTransport getJingleTransport()
-    public JingleTransport getJingleTransport(final TransportCandidate bestRemote)
-    public JingleTransport getJingleTransport(final TransportCandidate candidate)
+    '''returns JingleTransport\n\n
+    getJingleTransport()\n
+    getJingleTransport(final TransportCandidate bestRemote)\n
+    getJingleTransport(final TransportCandidate candidate)\n
     '''
 def getOfferedCandidates():
-    '''public List<TransportCandidate> getOfferedCandidates()
+    '''returns List<TransportCandidate>\n\n
+    getOfferedCandidates()\n
     '''
 def candidateChecked():
-    '''public void candidateChecked(final TransportCandidate cand, final boolean validCandidate)
+    '''returns None\n\n
+    candidateChecked(final TransportCandidate cand, final boolean validCandidate)\n
     '''
 def candidateChecking():
-    '''public void candidateChecking(final TransportCandidate cand)
-    '''
-def isFullyEstablished():
-    '''public final boolean isFullyEstablished()
+    '''returns None\n\n
+    candidateChecking(final TransportCandidate cand)\n
     '''
 def run():
-    '''public void run()
-    '''
-def getValidRemoteCandidates():
-    '''public final Iterator<TransportCandidate> getValidRemoteCandidates()
+    '''returns None\n\n
+    run()\n
     '''
 def candidateAdded():
-    '''public void candidateAdded(final TransportCandidate cand)
+    '''returns None\n\n
+    candidateAdded(final TransportCandidate cand)\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def init():
-    '''public void init()
-    '''
-def dispatchIncomingPacket():
-    '''public final List<IQ> dispatchIncomingPacket(final IQ iq, final String id)
-    '''
-def RawUdp():
-    '''public RawUdp(final JingleSession js, final TransportResolver res, final ContentNegotiator parentNegotiator)
+    '''returns None\n\n
+    init()\n
     '''
 def getBestRemoteCandidate():
-    '''public TransportCandidate getBestRemoteCandidate()
-    public TransportCandidate getBestRemoteCandidate()
+    '''returns TransportCandidate\n\n
+    getBestRemoteCandidate()\n
+    getBestRemoteCandidate()\n
     '''
 def acceptableTransportCandidate():
-    '''public boolean acceptableTransportCandidate(final TransportCandidate tc, final List<TransportCandidate> localCandidates)
-    public boolean acceptableTransportCandidate(final TransportCandidate tc, final List<TransportCandidate> localCandidates)
-    '''
-def Ice():
-    '''public Ice(final JingleSession js, final TransportResolver res, final ContentNegotiator parentNegotiator)
+    '''returns boolean\n\n
+    acceptableTransportCandidate(final TransportCandidate tc, final List<TransportCandidate> localCandidates)\n
+    acceptableTransportCandidate(final TransportCandidate tc, final List<TransportCandidate> localCandidates)\n
     '''

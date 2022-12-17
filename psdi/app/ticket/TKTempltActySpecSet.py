@@ -1,3 +1,4 @@
-def TKTempltActySpecSet():
-    '''public TKTempltActySpecSet(final MboServerInterface ms)
+def ():
+    '''returns TKTempltActySpecSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,18 +1,24 @@
 def getAvailableULocales():
-    '''public ULocale[] getAvailableULocales()
+    '''returns ULocale[]\n\n
+    getAvailableULocales()\n
     '''
 def getFunctionalEquivalent():
-    '''public ULocale getFunctionalEquivalent(final ULocale locale, final boolean[] isAvailable)
+    '''returns ULocale\n\n
+    getFunctionalEquivalent(final ULocale locale, final boolean[] isAvailable)\n
     '''
 def getRulesIdForLocale():
-    '''public String getRulesIdForLocale(final ULocale locale)
+    '''returns String\n\n
+    getRulesIdForLocale(final ULocale locale)\n
     '''
 def getRulesForRulesId():
-    '''public PluralRules getRulesForRulesId(final String rulesId)
+    '''returns PluralRules\n\n
+    getRulesForRulesId(final String rulesId)\n
     '''
 def getPluralBundle():
-    '''public UResourceBundle getPluralBundle()
+    '''returns UResourceBundle\n\n
+    getPluralBundle()\n
     '''
 def forLocale():
-    '''public PluralRules forLocale(final ULocale locale)
+    '''returns PluralRules\n\n
+    forLocale(final ULocale locale)\n
     '''

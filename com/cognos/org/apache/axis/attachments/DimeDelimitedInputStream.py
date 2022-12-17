@@ -1,29 +1,33 @@
 def getContentId():
-    '''public String getContentId()
+    '''returns String\n\n
+    getContentId()\n
     '''
 def getDimeTypeNameFormat():
-    '''public DimeTypeNameFormat getDimeTypeNameFormat()
+    '''returns DimeTypeNameFormat\n\n
+    getDimeTypeNameFormat()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def read():
-    '''public synchronized int read(final byte[] b, final int off, final int len)
-    public int read(final byte[] b)
-    public int read()
+    '''returns int\n\n
+    read(final byte[] b)\n
+    read()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
-    '''
-def available():
-    '''public synchronized int available()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

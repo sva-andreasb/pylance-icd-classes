@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public ScheduleKeyDeletionResult unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static ScheduleKeyDeletionResultJsonUnmarshaller getInstance()
+    '''returns ScheduleKeyDeletionResult\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

@@ -1,79 +1,105 @@
-def DatasetGraphTDB():
-    '''public DatasetGraphTDB(final TripleTable tripleTable, final QuadTable quadTable, final DatasetPrefixStorage prefixes, final ReorderTransformation transform, final Location location, final Properties config)
+def ():
+    '''returns DatasetGraphTDB\n\n
+    (final TripleTable tripleTable, final QuadTable quadTable, final DatasetPrefixStorage prefixes, final ReorderTransformation transform, final Location location, final Properties config)\n
     '''
 def duplicate():
-    '''public DatasetGraphTDB duplicate()
+    '''returns DatasetGraphTDB\n\n
+    duplicate()\n
     '''
 def getQuadTable():
-    '''public QuadTable getQuadTable()
+    '''returns QuadTable\n\n
+    getQuadTable()\n
     '''
 def getTripleTable():
-    '''public TripleTable getTripleTable()
+    '''returns TripleTable\n\n
+    getTripleTable()\n
     '''
 def containsGraph():
-    '''public boolean containsGraph(final Node graphNode)
+    '''returns boolean\n\n
+    containsGraph(final Node graphNode)\n
     '''
 def getDefaultGraphTDB():
-    '''public GraphTDB getDefaultGraphTDB()
+    '''returns GraphTDB\n\n
+    getDefaultGraphTDB()\n
     '''
 def getGraphTDB():
-    '''public GraphTDB getGraphTDB(final Node graphNode)
+    '''returns GraphTDB\n\n
+    getGraphTDB(final Node graphNode)\n
     '''
 def setEffectiveDefaultGraph():
-    '''public void setEffectiveDefaultGraph(final GraphTDB g)
+    '''returns None\n\n
+    setEffectiveDefaultGraph(final GraphTDB g)\n
     '''
 def getEffectiveDefaultGraph():
-    '''public GraphTDB getEffectiveDefaultGraph()
+    '''returns GraphTDB\n\n
+    getEffectiveDefaultGraph()\n
     '''
 def getConfig():
-    '''public Properties getConfig()
+    '''returns Properties\n\n
+    getConfig()\n
     '''
 def getConfigValue():
-    '''public String getConfigValue(final String key)
+    '''returns String\n\n
+    getConfigValue(final String key)\n
     '''
 def getConfigValueAsInt():
-    '''public int getConfigValueAsInt(final String key, final int dftValue)
+    '''returns int\n\n
+    getConfigValueAsInt(final String key, final int dftValue)\n
     '''
 def getTransform():
-    '''public ReorderTransformation getTransform()
+    '''returns ReorderTransformation\n\n
+    getTransform()\n
     '''
 def getPrefixes():
-    '''public DatasetPrefixStorage getPrefixes()
+    '''returns DatasetPrefixStorage\n\n
+    getPrefixes()\n
     '''
 def listGraphNodes():
-    '''public Iterator<Node> listGraphNodes()
+    '''returns Iterator<Node>\n\n
+    listGraphNodes()\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def startRequest():
-    '''public void startRequest()
+    '''returns None\n\n
+    startRequest()\n
     '''
 def finishRequest():
-    '''public void finishRequest()
+    '''returns None\n\n
+    finishRequest()\n
     '''
 def toDataset():
-    '''public Dataset toDataset()
+    '''returns Dataset\n\n
+    toDataset()\n
     '''
 def addGraph():
-    '''public void addGraph(final Node graphName, final Graph graph)
+    '''returns None\n\n
+    addGraph(final Node graphName, final Graph graph)\n
     '''
 def setDefaultGraph():
-    '''public void setDefaultGraph(final Graph g)
+    '''returns None\n\n
+    setDefaultGraph(final Graph g)\n
     '''
 def convert():
-    '''public NodeId convert(final Tuple<NodeId> item)
+    '''returns NodeId\n\n
+    convert(final Tuple<NodeId> item)\n
     '''

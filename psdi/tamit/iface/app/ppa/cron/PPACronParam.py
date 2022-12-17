@@ -1,3 +1,4 @@
-def PPACronParam():
-    '''public PPACronParam(final MboSet ms)
+def ():
+    '''returns PPACronParam\n\n
+    (final MboSet ms)\n
     '''

@@ -1,27 +1,36 @@
-def RtfList():
-    '''public RtfList(final RtfDocument doc, final List list)
+def ():
+    '''returns RtfList\n\n
+    (final RtfDocument doc, final List list)\n
     '''
 def writeDefinition():
-    '''public byte[] writeDefinition()
+    '''returns byte[]\n\n
+    writeDefinition()\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''
 def getListLevel():
-    '''public int getListLevel()
+    '''returns int\n\n
+    getListLevel()\n
     '''
 def setListLevel():
-    '''public void setListLevel(final int listLevel)
+    '''returns None\n\n
+    setListLevel(final int listLevel)\n
     '''
 def getListNumber():
-    '''public int getListNumber()
+    '''returns int\n\n
+    getListNumber()\n
     '''
 def setListNumber():
-    '''public void setListNumber(final int listNumber)
+    '''returns None\n\n
+    setListNumber(final int listNumber)\n
     '''
 def setInTable():
-    '''public void setInTable(final boolean inTable)
+    '''returns None\n\n
+    setInTable(final boolean inTable)\n
     '''
 def setInHeader():
-    '''public void setInHeader(final boolean inHeader)
+    '''returns None\n\n
+    setInHeader(final boolean inHeader)\n
     '''

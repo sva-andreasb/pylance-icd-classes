@@ -1,61 +1,68 @@
-def Message():
-    '''public Message(final String message, final ISourceLocation location, final boolean isError)
-    public Message(final String message, final ISourceLocation location, final boolean isError, final ISourceLocation[] extraSourceLocations)
-    public Message(final String message, final String details, final Kind kind, final ISourceLocation sourceLocation, final Throwable thrown, final ISourceLocation[] extraSourceLocations)
-    public Message(final String message, final String details, final Kind kind, final ISourceLocation sLoc, final Throwable thrown, final ISourceLocation[] otherLocs, final boolean declared, final int id, final int sourcestart, final int sourceend)
-    public Message(final String message, final Kind kind, final Throwable thrown, final ISourceLocation sourceLocation)
+def ():
+    '''returns Message\n\n
+    (final String message, final ISourceLocation location, final boolean isError)\n
+    (final String message, final ISourceLocation location, final boolean isError, final ISourceLocation[] extraSourceLocations)\n
+    (final String message, final String details, final Kind kind, final ISourceLocation sourceLocation, final Throwable thrown, final ISourceLocation[] extraSourceLocations)\n
+    (final String message, final String details, final Kind kind, final ISourceLocation sLoc, final Throwable thrown, final ISourceLocation[] otherLocs, final boolean declared, final int id, final int sourcestart, final int sourceend)\n
+    (final String message, final Kind kind, final Throwable thrown, final ISourceLocation sourceLocation)\n
     '''
 def getKind():
-    '''public Kind getKind()
+    '''returns Kind\n\n
+    getKind()\n
     '''
 def isError():
-    '''public boolean isError()
+    '''returns boolean\n\n
+    isError()\n
     '''
 def isWarning():
-    '''public boolean isWarning()
+    '''returns boolean\n\n
+    isWarning()\n
     '''
 def isDebug():
-    '''public boolean isDebug()
+    '''returns boolean\n\n
+    isDebug()\n
     '''
 def isTaskTag():
-    '''public boolean isTaskTag()
+    '''returns boolean\n\n
+    isTaskTag()\n
     '''
 def isInfo():
-    '''public boolean isInfo()
+    '''returns boolean\n\n
+    isInfo()\n
     '''
 def isAbort():
-    '''public boolean isAbort()
+    '''returns boolean\n\n
+    isAbort()\n
     '''
 def getDeclared():
-    '''public boolean getDeclared()
+    '''returns boolean\n\n
+    getDeclared()\n
     '''
 def isFailed():
-    '''public boolean isFailed()
-    '''
-def getMessage():
-    '''public final String getMessage()
-    '''
-def getThrown():
-    '''public final Throwable getThrown()
-    '''
-def getSourceLocation():
-    '''public final ISourceLocation getSourceLocation()
+    '''returns boolean\n\n
+    isFailed()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDetails():
-    '''public String getDetails()
+    '''returns String\n\n
+    getDetails()\n
     '''
 def getExtraSourceLocations():
-    '''public List<ISourceLocation> getExtraSourceLocations()
+    '''returns List<ISourceLocation>\n\n
+    getExtraSourceLocations()\n
     '''
 def getID():
-    '''public int getID()
+    '''returns int\n\n
+    getID()\n
     '''
 def getSourceStart():
-    '''public int getSourceStart()
+    '''returns int\n\n
+    getSourceStart()\n
     '''
 def getSourceEnd():
-    '''public int getSourceEnd()
+    '''returns int\n\n
+    getSourceEnd()\n
     '''

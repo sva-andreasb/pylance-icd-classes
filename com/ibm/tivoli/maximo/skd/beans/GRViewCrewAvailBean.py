@@ -1,9 +1,12 @@
-def GRViewCrewAvailBean():
-    '''public GRViewCrewAvailBean()
+def ():
+    '''returns GRViewCrewAvailBean\n\n
+    ()\n
     '''
 def filtermodavail():
-    '''public int filtermodavail()
+    '''returns int\n\n
+    filtermodavail()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

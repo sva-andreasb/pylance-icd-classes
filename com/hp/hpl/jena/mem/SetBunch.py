@@ -1,25 +1,33 @@
-def SetBunch():
-    '''public SetBunch(final TripleBunch b)
+def ():
+    '''returns SetBunch\n\n
+    (final TripleBunch b)\n
     '''
 def contains():
-    '''public boolean contains(final Triple t)
+    '''returns boolean\n\n
+    contains(final Triple t)\n
     '''
 def containsBySameValueAs():
-    '''public boolean containsBySameValueAs(final Triple t)
+    '''returns boolean\n\n
+    containsBySameValueAs(final Triple t)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def add():
-    '''public void add(final Triple t)
+    '''returns None\n\n
+    add(final Triple t)\n
     '''
 def remove():
-    '''public void remove(final Triple t)
+    '''returns None\n\n
+    remove(final Triple t)\n
     '''
 def iterator():
-    '''public ExtendedIterator<Triple> iterator(final HashCommon.NotifyEmpty container)
-    public ExtendedIterator<Triple> iterator()
+    '''returns ExtendedIterator<Triple>\n\n
+    iterator(final HashCommon.NotifyEmpty container)\n
+    iterator()\n
     '''
 def app():
-    '''public void app(final Domain d, final StageElement next, final MatchOrBind s)
+    '''returns None\n\n
+    app(final Domain d, final StageElement next, final MatchOrBind s)\n
     '''

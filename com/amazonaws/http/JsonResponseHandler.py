@@ -1,9 +1,12 @@
-def JsonResponseHandler():
-    '''public JsonResponseHandler(final Unmarshaller<T, JsonUnmarshallerContext> responseUnmarshaller, final Map<Class<?>, Unmarshaller<?, JsonUnmarshallerContext>> simpleTypeUnmarshallers, final JsonFactory jsonFactory, final boolean needsConnectionLeftOpen, final boolean isPayloadJson)
+def ():
+    '''returns JsonResponseHandler\n\n
+    (final Unmarshaller<T, JsonUnmarshallerContext> responseUnmarshaller, final Map<Class<?>, Unmarshaller<?, JsonUnmarshallerContext>> simpleTypeUnmarshallers, final JsonFactory jsonFactory, final boolean needsConnectionLeftOpen, final boolean isPayloadJson)\n
     '''
 def handle():
-    '''public AmazonWebServiceResponse<T> handle(final HttpResponse response)
+    '''returns AmazonWebServiceResponse<T>\n\n
+    handle(final HttpResponse response)\n
     '''
 def needsConnectionLeftOpen():
-    '''public boolean needsConnectionLeftOpen()
+    '''returns boolean\n\n
+    needsConnectionLeftOpen()\n
     '''

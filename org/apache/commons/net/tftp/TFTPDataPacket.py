@@ -1,27 +1,35 @@
 MAX_DATA_LENGTH = "int  512"
 MIN_DATA_LENGTH = "int  0"
-def TFTPDataPacket():
-    '''public TFTPDataPacket(final InetAddress destination, final int port, final int blockNumber, final byte[] data, final int offset, final int length)
-    public TFTPDataPacket(final InetAddress destination, final int port, final int blockNumber, final byte[] data)
+def ():
+    '''returns TFTPDataPacket\n\n
+    (final InetAddress destination, final int port, final int blockNumber, final byte[] data, final int offset, final int length)\n
+    (final InetAddress destination, final int port, final int blockNumber, final byte[] data)\n
     '''
 def newDatagram():
-    '''public DatagramPacket newDatagram()
+    '''returns DatagramPacket\n\n
+    newDatagram()\n
     '''
 def getBlockNumber():
-    '''public int getBlockNumber()
+    '''returns int\n\n
+    getBlockNumber()\n
     '''
 def setBlockNumber():
-    '''public void setBlockNumber(final int blockNumber)
+    '''returns None\n\n
+    setBlockNumber(final int blockNumber)\n
     '''
 def setData():
-    '''public void setData(final byte[] data, final int offset, final int length)
+    '''returns None\n\n
+    setData(final byte[] data, final int offset, final int length)\n
     '''
 def getDataLength():
-    '''public int getDataLength()
+    '''returns int\n\n
+    getDataLength()\n
     '''
 def getDataOffset():
-    '''public int getDataOffset()
+    '''returns int\n\n
+    getDataOffset()\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''

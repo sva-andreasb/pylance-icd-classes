@@ -1,27 +1,36 @@
-def IlvNodePropertyChangeEdit():
-    '''public IlvNodePropertyChangeEdit(final IlvDataContainer ilvDataContainer, final Object a, final Object b, final int c, final String d, final Object e, final Object f)
+def ():
+    '''returns IlvNodePropertyChangeEdit\n\n
+    (final IlvDataContainer ilvDataContainer, final Object a, final Object b, final int c, final String d, final Object e, final Object f)\n
     '''
 def getParentNode():
-    '''public Object getParentNode()
+    '''returns Object\n\n
+    getParentNode()\n
     '''
 def getNode():
-    '''public Object getNode()
+    '''returns Object\n\n
+    getNode()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getOldValue():
-    '''public Object getOldValue()
+    '''returns Object\n\n
+    getOldValue()\n
     '''
 def getNewValue():
-    '''public Object getNewValue()
+    '''returns Object\n\n
+    getNewValue()\n
     '''
 def undo():
-    '''public void undo()
+    '''returns None\n\n
+    undo()\n
     '''
 def redo():
-    '''public void redo()
+    '''returns None\n\n
+    redo()\n
     '''

@@ -1,21 +1,27 @@
-def TaskEvent():
-    '''public TaskEvent(final Kind kind)
-    public TaskEvent(final Kind kind, final JavaFileObject javaFileObject)
-    public TaskEvent(final Kind kind, final CompilationUnitTree compilationUnitTree)
-    public TaskEvent(final Kind kind, final CompilationUnitTree compilationUnitTree, final TypeElement typeElement)
+def ():
+    '''returns TaskEvent\n\n
+    (final Kind kind)\n
+    (final Kind kind, final JavaFileObject javaFileObject)\n
+    (final Kind kind, final CompilationUnitTree compilationUnitTree)\n
+    (final Kind kind, final CompilationUnitTree compilationUnitTree, final TypeElement typeElement)\n
     '''
 def getKind():
-    '''public Kind getKind()
+    '''returns Kind\n\n
+    getKind()\n
     '''
 def getSourceFile():
-    '''public JavaFileObject getSourceFile()
+    '''returns JavaFileObject\n\n
+    getSourceFile()\n
     '''
 def getCompilationUnit():
-    '''public CompilationUnitTree getCompilationUnit()
+    '''returns CompilationUnitTree\n\n
+    getCompilationUnit()\n
     '''
 def getTypeElement():
-    '''public TypeElement getTypeElement()
+    '''returns TypeElement\n\n
+    getTypeElement()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,30 +1,40 @@
-def PlusPCI():
-    '''public PlusPCI(final MboSet arg0)
+def ():
+    '''returns PlusPCI\n\n
+    (final MboSet arg0)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def setSyncAction():
-    '''public void setSyncAction(final boolean isSyncAction)
+    '''returns None\n\n
+    setSyncAction(final boolean isSyncAction)\n
     '''
 def isSyncAction():
-    '''public boolean isSyncAction()
+    '''returns boolean\n\n
+    isSyncAction()\n
     '''
 def hasCopiedCustomers():
-    '''public boolean hasCopiedCustomers()
+    '''returns boolean\n\n
+    hasCopiedCustomers()\n
     '''
 def setCopiedCustomers():
-    '''public void setCopiedCustomers(final boolean hasCopiedCustomers)
+    '''returns None\n\n
+    setCopiedCustomers(final boolean hasCopiedCustomers)\n
     '''
 def getLogInfo():
-    '''public String getLogInfo()
+    '''returns String\n\n
+    getLogInfo()\n
     '''

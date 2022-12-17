@@ -1,3 +1,4 @@
 def loadData():
-    '''public int loadData()
+    '''returns int\n\n
+    loadData()\n
     '''

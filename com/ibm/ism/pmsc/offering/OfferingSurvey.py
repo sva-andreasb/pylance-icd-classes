@@ -1,3 +1,4 @@
-def OfferingSurvey():
-    '''public OfferingSurvey(final MboSet ms)
+def ():
+    '''returns OfferingSurvey\n\n
+    (final MboSet ms)\n
     '''

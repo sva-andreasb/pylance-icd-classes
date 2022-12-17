@@ -1,2460 +1,3202 @@
-def CTClientDataImpl():
-    '''public CTClientDataImpl(final SchemaType schemaType)
+def ():
+    '''returns CTClientDataImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def xgetMoveWithCellsList():
-    '''public List<STTrueFalseBlank> xgetMoveWithCellsList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetMoveWithCellsList()\n
     '''
 def xgetMoveWithCellsArray():
-    '''public STTrueFalseBlank[] xgetMoveWithCellsArray()
-    public STTrueFalseBlank xgetMoveWithCellsArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetMoveWithCellsArray()\n
+    xgetMoveWithCellsArray(final int n)\n
     '''
 def sizeOfMoveWithCellsArray():
-    '''public int sizeOfMoveWithCellsArray()
+    '''returns int\n\n
+    sizeOfMoveWithCellsArray()\n
     '''
 def setMoveWithCellsArray():
-    '''public void setMoveWithCellsArray(final STTrueFalseBlank.Enum[] array)
-    public void setMoveWithCellsArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setMoveWithCellsArray(final STTrueFalseBlank.Enum[] array)\n
+    setMoveWithCellsArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetMoveWithCellsArray():
-    '''public void xsetMoveWithCellsArray(final STTrueFalseBlank[] array)
-    public void xsetMoveWithCellsArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetMoveWithCellsArray(final STTrueFalseBlank[] array)\n
+    xsetMoveWithCellsArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertMoveWithCells():
-    '''public void insertMoveWithCells(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertMoveWithCells(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addMoveWithCells():
-    '''public void addMoveWithCells(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addMoveWithCells(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewMoveWithCells():
-    '''public STTrueFalseBlank insertNewMoveWithCells(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewMoveWithCells(final int n)\n
     '''
 def addNewMoveWithCells():
-    '''public STTrueFalseBlank addNewMoveWithCells()
+    '''returns STTrueFalseBlank\n\n
+    addNewMoveWithCells()\n
     '''
 def removeMoveWithCells():
-    '''public void removeMoveWithCells(final int n)
+    '''returns None\n\n
+    removeMoveWithCells(final int n)\n
     '''
 def xgetSizeWithCellsList():
-    '''public List<STTrueFalseBlank> xgetSizeWithCellsList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetSizeWithCellsList()\n
     '''
 def xgetSizeWithCellsArray():
-    '''public STTrueFalseBlank[] xgetSizeWithCellsArray()
-    public STTrueFalseBlank xgetSizeWithCellsArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetSizeWithCellsArray()\n
+    xgetSizeWithCellsArray(final int n)\n
     '''
 def sizeOfSizeWithCellsArray():
-    '''public int sizeOfSizeWithCellsArray()
+    '''returns int\n\n
+    sizeOfSizeWithCellsArray()\n
     '''
 def setSizeWithCellsArray():
-    '''public void setSizeWithCellsArray(final STTrueFalseBlank.Enum[] array)
-    public void setSizeWithCellsArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setSizeWithCellsArray(final STTrueFalseBlank.Enum[] array)\n
+    setSizeWithCellsArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetSizeWithCellsArray():
-    '''public void xsetSizeWithCellsArray(final STTrueFalseBlank[] array)
-    public void xsetSizeWithCellsArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetSizeWithCellsArray(final STTrueFalseBlank[] array)\n
+    xsetSizeWithCellsArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertSizeWithCells():
-    '''public void insertSizeWithCells(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertSizeWithCells(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addSizeWithCells():
-    '''public void addSizeWithCells(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addSizeWithCells(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewSizeWithCells():
-    '''public STTrueFalseBlank insertNewSizeWithCells(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewSizeWithCells(final int n)\n
     '''
 def addNewSizeWithCells():
-    '''public STTrueFalseBlank addNewSizeWithCells()
+    '''returns STTrueFalseBlank\n\n
+    addNewSizeWithCells()\n
     '''
 def removeSizeWithCells():
-    '''public void removeSizeWithCells(final int n)
+    '''returns None\n\n
+    removeSizeWithCells(final int n)\n
     '''
 def getAnchorList():
-    '''public List<String> getAnchorList()
+    '''returns List<String>\n\n
+    getAnchorList()\n
     '''
 def getAnchorArray():
-    '''public String[] getAnchorArray()
-    public String getAnchorArray(final int n)
+    '''returns String\n\n
+    getAnchorArray()\n
+    getAnchorArray(final int n)\n
     '''
 def xgetAnchorList():
-    '''public List<XmlString> xgetAnchorList()
+    '''returns List<XmlString>\n\n
+    xgetAnchorList()\n
     '''
 def xgetAnchorArray():
-    '''public XmlString[] xgetAnchorArray()
-    public XmlString xgetAnchorArray(final int n)
+    '''returns XmlString\n\n
+    xgetAnchorArray()\n
+    xgetAnchorArray(final int n)\n
     '''
 def sizeOfAnchorArray():
-    '''public int sizeOfAnchorArray()
+    '''returns int\n\n
+    sizeOfAnchorArray()\n
     '''
 def setAnchorArray():
-    '''public void setAnchorArray(final String[] array)
-    public void setAnchorArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setAnchorArray(final String[] array)\n
+    setAnchorArray(final int n, final String stringValue)\n
     '''
 def xsetAnchorArray():
-    '''public void xsetAnchorArray(final XmlString[] array)
-    public void xsetAnchorArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetAnchorArray(final XmlString[] array)\n
+    xsetAnchorArray(final int n, final XmlString xmlString)\n
     '''
 def insertAnchor():
-    '''public void insertAnchor(final int n, final String stringValue)
+    '''returns None\n\n
+    insertAnchor(final int n, final String stringValue)\n
     '''
 def addAnchor():
-    '''public void addAnchor(final String stringValue)
+    '''returns None\n\n
+    addAnchor(final String stringValue)\n
     '''
 def insertNewAnchor():
-    '''public XmlString insertNewAnchor(final int n)
+    '''returns XmlString\n\n
+    insertNewAnchor(final int n)\n
     '''
 def addNewAnchor():
-    '''public XmlString addNewAnchor()
+    '''returns XmlString\n\n
+    addNewAnchor()\n
     '''
 def removeAnchor():
-    '''public void removeAnchor(final int n)
+    '''returns None\n\n
+    removeAnchor(final int n)\n
     '''
 def xgetLockedList():
-    '''public List<STTrueFalseBlank> xgetLockedList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetLockedList()\n
     '''
 def xgetLockedArray():
-    '''public STTrueFalseBlank[] xgetLockedArray()
-    public STTrueFalseBlank xgetLockedArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetLockedArray()\n
+    xgetLockedArray(final int n)\n
     '''
 def sizeOfLockedArray():
-    '''public int sizeOfLockedArray()
+    '''returns int\n\n
+    sizeOfLockedArray()\n
     '''
 def setLockedArray():
-    '''public void setLockedArray(final STTrueFalseBlank.Enum[] array)
-    public void setLockedArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setLockedArray(final STTrueFalseBlank.Enum[] array)\n
+    setLockedArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetLockedArray():
-    '''public void xsetLockedArray(final STTrueFalseBlank[] array)
-    public void xsetLockedArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetLockedArray(final STTrueFalseBlank[] array)\n
+    xsetLockedArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertLocked():
-    '''public void insertLocked(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertLocked(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addLocked():
-    '''public void addLocked(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addLocked(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewLocked():
-    '''public STTrueFalseBlank insertNewLocked(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewLocked(final int n)\n
     '''
 def addNewLocked():
-    '''public STTrueFalseBlank addNewLocked()
+    '''returns STTrueFalseBlank\n\n
+    addNewLocked()\n
     '''
 def removeLocked():
-    '''public void removeLocked(final int n)
+    '''returns None\n\n
+    removeLocked(final int n)\n
     '''
 def xgetDefaultSizeList():
-    '''public List<STTrueFalseBlank> xgetDefaultSizeList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetDefaultSizeList()\n
     '''
 def xgetDefaultSizeArray():
-    '''public STTrueFalseBlank[] xgetDefaultSizeArray()
-    public STTrueFalseBlank xgetDefaultSizeArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetDefaultSizeArray()\n
+    xgetDefaultSizeArray(final int n)\n
     '''
 def sizeOfDefaultSizeArray():
-    '''public int sizeOfDefaultSizeArray()
+    '''returns int\n\n
+    sizeOfDefaultSizeArray()\n
     '''
 def setDefaultSizeArray():
-    '''public void setDefaultSizeArray(final STTrueFalseBlank.Enum[] array)
-    public void setDefaultSizeArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setDefaultSizeArray(final STTrueFalseBlank.Enum[] array)\n
+    setDefaultSizeArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetDefaultSizeArray():
-    '''public void xsetDefaultSizeArray(final STTrueFalseBlank[] array)
-    public void xsetDefaultSizeArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetDefaultSizeArray(final STTrueFalseBlank[] array)\n
+    xsetDefaultSizeArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertDefaultSize():
-    '''public void insertDefaultSize(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertDefaultSize(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addDefaultSize():
-    '''public void addDefaultSize(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addDefaultSize(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewDefaultSize():
-    '''public STTrueFalseBlank insertNewDefaultSize(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewDefaultSize(final int n)\n
     '''
 def addNewDefaultSize():
-    '''public STTrueFalseBlank addNewDefaultSize()
+    '''returns STTrueFalseBlank\n\n
+    addNewDefaultSize()\n
     '''
 def removeDefaultSize():
-    '''public void removeDefaultSize(final int n)
+    '''returns None\n\n
+    removeDefaultSize(final int n)\n
     '''
 def xgetPrintObjectList():
-    '''public List<STTrueFalseBlank> xgetPrintObjectList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetPrintObjectList()\n
     '''
 def xgetPrintObjectArray():
-    '''public STTrueFalseBlank[] xgetPrintObjectArray()
-    public STTrueFalseBlank xgetPrintObjectArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetPrintObjectArray()\n
+    xgetPrintObjectArray(final int n)\n
     '''
 def sizeOfPrintObjectArray():
-    '''public int sizeOfPrintObjectArray()
+    '''returns int\n\n
+    sizeOfPrintObjectArray()\n
     '''
 def setPrintObjectArray():
-    '''public void setPrintObjectArray(final STTrueFalseBlank.Enum[] array)
-    public void setPrintObjectArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setPrintObjectArray(final STTrueFalseBlank.Enum[] array)\n
+    setPrintObjectArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetPrintObjectArray():
-    '''public void xsetPrintObjectArray(final STTrueFalseBlank[] array)
-    public void xsetPrintObjectArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetPrintObjectArray(final STTrueFalseBlank[] array)\n
+    xsetPrintObjectArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertPrintObject():
-    '''public void insertPrintObject(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertPrintObject(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addPrintObject():
-    '''public void addPrintObject(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addPrintObject(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewPrintObject():
-    '''public STTrueFalseBlank insertNewPrintObject(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewPrintObject(final int n)\n
     '''
 def addNewPrintObject():
-    '''public STTrueFalseBlank addNewPrintObject()
+    '''returns STTrueFalseBlank\n\n
+    addNewPrintObject()\n
     '''
 def removePrintObject():
-    '''public void removePrintObject(final int n)
+    '''returns None\n\n
+    removePrintObject(final int n)\n
     '''
 def xgetDisabledList():
-    '''public List<STTrueFalseBlank> xgetDisabledList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetDisabledList()\n
     '''
 def xgetDisabledArray():
-    '''public STTrueFalseBlank[] xgetDisabledArray()
-    public STTrueFalseBlank xgetDisabledArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetDisabledArray()\n
+    xgetDisabledArray(final int n)\n
     '''
 def sizeOfDisabledArray():
-    '''public int sizeOfDisabledArray()
+    '''returns int\n\n
+    sizeOfDisabledArray()\n
     '''
 def setDisabledArray():
-    '''public void setDisabledArray(final STTrueFalseBlank.Enum[] array)
-    public void setDisabledArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setDisabledArray(final STTrueFalseBlank.Enum[] array)\n
+    setDisabledArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetDisabledArray():
-    '''public void xsetDisabledArray(final STTrueFalseBlank[] array)
-    public void xsetDisabledArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetDisabledArray(final STTrueFalseBlank[] array)\n
+    xsetDisabledArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertDisabled():
-    '''public void insertDisabled(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertDisabled(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addDisabled():
-    '''public void addDisabled(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addDisabled(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewDisabled():
-    '''public STTrueFalseBlank insertNewDisabled(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewDisabled(final int n)\n
     '''
 def addNewDisabled():
-    '''public STTrueFalseBlank addNewDisabled()
+    '''returns STTrueFalseBlank\n\n
+    addNewDisabled()\n
     '''
 def removeDisabled():
-    '''public void removeDisabled(final int n)
+    '''returns None\n\n
+    removeDisabled(final int n)\n
     '''
 def xgetAutoFillList():
-    '''public List<STTrueFalseBlank> xgetAutoFillList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetAutoFillList()\n
     '''
 def xgetAutoFillArray():
-    '''public STTrueFalseBlank[] xgetAutoFillArray()
-    public STTrueFalseBlank xgetAutoFillArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetAutoFillArray()\n
+    xgetAutoFillArray(final int n)\n
     '''
 def sizeOfAutoFillArray():
-    '''public int sizeOfAutoFillArray()
+    '''returns int\n\n
+    sizeOfAutoFillArray()\n
     '''
 def setAutoFillArray():
-    '''public void setAutoFillArray(final STTrueFalseBlank.Enum[] array)
-    public void setAutoFillArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setAutoFillArray(final STTrueFalseBlank.Enum[] array)\n
+    setAutoFillArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetAutoFillArray():
-    '''public void xsetAutoFillArray(final STTrueFalseBlank[] array)
-    public void xsetAutoFillArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetAutoFillArray(final STTrueFalseBlank[] array)\n
+    xsetAutoFillArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertAutoFill():
-    '''public void insertAutoFill(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertAutoFill(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addAutoFill():
-    '''public void addAutoFill(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addAutoFill(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewAutoFill():
-    '''public STTrueFalseBlank insertNewAutoFill(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewAutoFill(final int n)\n
     '''
 def addNewAutoFill():
-    '''public STTrueFalseBlank addNewAutoFill()
+    '''returns STTrueFalseBlank\n\n
+    addNewAutoFill()\n
     '''
 def removeAutoFill():
-    '''public void removeAutoFill(final int n)
+    '''returns None\n\n
+    removeAutoFill(final int n)\n
     '''
 def xgetAutoLineList():
-    '''public List<STTrueFalseBlank> xgetAutoLineList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetAutoLineList()\n
     '''
 def xgetAutoLineArray():
-    '''public STTrueFalseBlank[] xgetAutoLineArray()
-    public STTrueFalseBlank xgetAutoLineArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetAutoLineArray()\n
+    xgetAutoLineArray(final int n)\n
     '''
 def sizeOfAutoLineArray():
-    '''public int sizeOfAutoLineArray()
+    '''returns int\n\n
+    sizeOfAutoLineArray()\n
     '''
 def setAutoLineArray():
-    '''public void setAutoLineArray(final STTrueFalseBlank.Enum[] array)
-    public void setAutoLineArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setAutoLineArray(final STTrueFalseBlank.Enum[] array)\n
+    setAutoLineArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetAutoLineArray():
-    '''public void xsetAutoLineArray(final STTrueFalseBlank[] array)
-    public void xsetAutoLineArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetAutoLineArray(final STTrueFalseBlank[] array)\n
+    xsetAutoLineArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertAutoLine():
-    '''public void insertAutoLine(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertAutoLine(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addAutoLine():
-    '''public void addAutoLine(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addAutoLine(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewAutoLine():
-    '''public STTrueFalseBlank insertNewAutoLine(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewAutoLine(final int n)\n
     '''
 def addNewAutoLine():
-    '''public STTrueFalseBlank addNewAutoLine()
+    '''returns STTrueFalseBlank\n\n
+    addNewAutoLine()\n
     '''
 def removeAutoLine():
-    '''public void removeAutoLine(final int n)
+    '''returns None\n\n
+    removeAutoLine(final int n)\n
     '''
 def xgetAutoPictList():
-    '''public List<STTrueFalseBlank> xgetAutoPictList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetAutoPictList()\n
     '''
 def xgetAutoPictArray():
-    '''public STTrueFalseBlank[] xgetAutoPictArray()
-    public STTrueFalseBlank xgetAutoPictArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetAutoPictArray()\n
+    xgetAutoPictArray(final int n)\n
     '''
 def sizeOfAutoPictArray():
-    '''public int sizeOfAutoPictArray()
+    '''returns int\n\n
+    sizeOfAutoPictArray()\n
     '''
 def setAutoPictArray():
-    '''public void setAutoPictArray(final STTrueFalseBlank.Enum[] array)
-    public void setAutoPictArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setAutoPictArray(final STTrueFalseBlank.Enum[] array)\n
+    setAutoPictArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetAutoPictArray():
-    '''public void xsetAutoPictArray(final STTrueFalseBlank[] array)
-    public void xsetAutoPictArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetAutoPictArray(final STTrueFalseBlank[] array)\n
+    xsetAutoPictArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertAutoPict():
-    '''public void insertAutoPict(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertAutoPict(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addAutoPict():
-    '''public void addAutoPict(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addAutoPict(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewAutoPict():
-    '''public STTrueFalseBlank insertNewAutoPict(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewAutoPict(final int n)\n
     '''
 def addNewAutoPict():
-    '''public STTrueFalseBlank addNewAutoPict()
+    '''returns STTrueFalseBlank\n\n
+    addNewAutoPict()\n
     '''
 def removeAutoPict():
-    '''public void removeAutoPict(final int n)
+    '''returns None\n\n
+    removeAutoPict(final int n)\n
     '''
 def getFmlaMacroList():
-    '''public List<String> getFmlaMacroList()
+    '''returns List<String>\n\n
+    getFmlaMacroList()\n
     '''
 def getFmlaMacroArray():
-    '''public String[] getFmlaMacroArray()
-    public String getFmlaMacroArray(final int n)
+    '''returns String\n\n
+    getFmlaMacroArray()\n
+    getFmlaMacroArray(final int n)\n
     '''
 def xgetFmlaMacroList():
-    '''public List<XmlString> xgetFmlaMacroList()
+    '''returns List<XmlString>\n\n
+    xgetFmlaMacroList()\n
     '''
 def xgetFmlaMacroArray():
-    '''public XmlString[] xgetFmlaMacroArray()
-    public XmlString xgetFmlaMacroArray(final int n)
+    '''returns XmlString\n\n
+    xgetFmlaMacroArray()\n
+    xgetFmlaMacroArray(final int n)\n
     '''
 def sizeOfFmlaMacroArray():
-    '''public int sizeOfFmlaMacroArray()
+    '''returns int\n\n
+    sizeOfFmlaMacroArray()\n
     '''
 def setFmlaMacroArray():
-    '''public void setFmlaMacroArray(final String[] array)
-    public void setFmlaMacroArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setFmlaMacroArray(final String[] array)\n
+    setFmlaMacroArray(final int n, final String stringValue)\n
     '''
 def xsetFmlaMacroArray():
-    '''public void xsetFmlaMacroArray(final XmlString[] array)
-    public void xsetFmlaMacroArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetFmlaMacroArray(final XmlString[] array)\n
+    xsetFmlaMacroArray(final int n, final XmlString xmlString)\n
     '''
 def insertFmlaMacro():
-    '''public void insertFmlaMacro(final int n, final String stringValue)
+    '''returns None\n\n
+    insertFmlaMacro(final int n, final String stringValue)\n
     '''
 def addFmlaMacro():
-    '''public void addFmlaMacro(final String stringValue)
+    '''returns None\n\n
+    addFmlaMacro(final String stringValue)\n
     '''
 def insertNewFmlaMacro():
-    '''public XmlString insertNewFmlaMacro(final int n)
+    '''returns XmlString\n\n
+    insertNewFmlaMacro(final int n)\n
     '''
 def addNewFmlaMacro():
-    '''public XmlString addNewFmlaMacro()
+    '''returns XmlString\n\n
+    addNewFmlaMacro()\n
     '''
 def removeFmlaMacro():
-    '''public void removeFmlaMacro(final int n)
+    '''returns None\n\n
+    removeFmlaMacro(final int n)\n
     '''
 def getTextHAlignList():
-    '''public List<String> getTextHAlignList()
+    '''returns List<String>\n\n
+    getTextHAlignList()\n
     '''
 def getTextHAlignArray():
-    '''public String[] getTextHAlignArray()
-    public String getTextHAlignArray(final int n)
+    '''returns String\n\n
+    getTextHAlignArray()\n
+    getTextHAlignArray(final int n)\n
     '''
 def xgetTextHAlignList():
-    '''public List<XmlString> xgetTextHAlignList()
+    '''returns List<XmlString>\n\n
+    xgetTextHAlignList()\n
     '''
 def xgetTextHAlignArray():
-    '''public XmlString[] xgetTextHAlignArray()
-    public XmlString xgetTextHAlignArray(final int n)
+    '''returns XmlString\n\n
+    xgetTextHAlignArray()\n
+    xgetTextHAlignArray(final int n)\n
     '''
 def sizeOfTextHAlignArray():
-    '''public int sizeOfTextHAlignArray()
+    '''returns int\n\n
+    sizeOfTextHAlignArray()\n
     '''
 def setTextHAlignArray():
-    '''public void setTextHAlignArray(final String[] array)
-    public void setTextHAlignArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setTextHAlignArray(final String[] array)\n
+    setTextHAlignArray(final int n, final String stringValue)\n
     '''
 def xsetTextHAlignArray():
-    '''public void xsetTextHAlignArray(final XmlString[] array)
-    public void xsetTextHAlignArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetTextHAlignArray(final XmlString[] array)\n
+    xsetTextHAlignArray(final int n, final XmlString xmlString)\n
     '''
 def insertTextHAlign():
-    '''public void insertTextHAlign(final int n, final String stringValue)
+    '''returns None\n\n
+    insertTextHAlign(final int n, final String stringValue)\n
     '''
 def addTextHAlign():
-    '''public void addTextHAlign(final String stringValue)
+    '''returns None\n\n
+    addTextHAlign(final String stringValue)\n
     '''
 def insertNewTextHAlign():
-    '''public XmlString insertNewTextHAlign(final int n)
+    '''returns XmlString\n\n
+    insertNewTextHAlign(final int n)\n
     '''
 def addNewTextHAlign():
-    '''public XmlString addNewTextHAlign()
+    '''returns XmlString\n\n
+    addNewTextHAlign()\n
     '''
 def removeTextHAlign():
-    '''public void removeTextHAlign(final int n)
+    '''returns None\n\n
+    removeTextHAlign(final int n)\n
     '''
 def getTextVAlignList():
-    '''public List<String> getTextVAlignList()
+    '''returns List<String>\n\n
+    getTextVAlignList()\n
     '''
 def getTextVAlignArray():
-    '''public String[] getTextVAlignArray()
-    public String getTextVAlignArray(final int n)
+    '''returns String\n\n
+    getTextVAlignArray()\n
+    getTextVAlignArray(final int n)\n
     '''
 def xgetTextVAlignList():
-    '''public List<XmlString> xgetTextVAlignList()
+    '''returns List<XmlString>\n\n
+    xgetTextVAlignList()\n
     '''
 def xgetTextVAlignArray():
-    '''public XmlString[] xgetTextVAlignArray()
-    public XmlString xgetTextVAlignArray(final int n)
+    '''returns XmlString\n\n
+    xgetTextVAlignArray()\n
+    xgetTextVAlignArray(final int n)\n
     '''
 def sizeOfTextVAlignArray():
-    '''public int sizeOfTextVAlignArray()
+    '''returns int\n\n
+    sizeOfTextVAlignArray()\n
     '''
 def setTextVAlignArray():
-    '''public void setTextVAlignArray(final String[] array)
-    public void setTextVAlignArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setTextVAlignArray(final String[] array)\n
+    setTextVAlignArray(final int n, final String stringValue)\n
     '''
 def xsetTextVAlignArray():
-    '''public void xsetTextVAlignArray(final XmlString[] array)
-    public void xsetTextVAlignArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetTextVAlignArray(final XmlString[] array)\n
+    xsetTextVAlignArray(final int n, final XmlString xmlString)\n
     '''
 def insertTextVAlign():
-    '''public void insertTextVAlign(final int n, final String stringValue)
+    '''returns None\n\n
+    insertTextVAlign(final int n, final String stringValue)\n
     '''
 def addTextVAlign():
-    '''public void addTextVAlign(final String stringValue)
+    '''returns None\n\n
+    addTextVAlign(final String stringValue)\n
     '''
 def insertNewTextVAlign():
-    '''public XmlString insertNewTextVAlign(final int n)
+    '''returns XmlString\n\n
+    insertNewTextVAlign(final int n)\n
     '''
 def addNewTextVAlign():
-    '''public XmlString addNewTextVAlign()
+    '''returns XmlString\n\n
+    addNewTextVAlign()\n
     '''
 def removeTextVAlign():
-    '''public void removeTextVAlign(final int n)
+    '''returns None\n\n
+    removeTextVAlign(final int n)\n
     '''
 def xgetLockTextList():
-    '''public List<STTrueFalseBlank> xgetLockTextList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetLockTextList()\n
     '''
 def xgetLockTextArray():
-    '''public STTrueFalseBlank[] xgetLockTextArray()
-    public STTrueFalseBlank xgetLockTextArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetLockTextArray()\n
+    xgetLockTextArray(final int n)\n
     '''
 def sizeOfLockTextArray():
-    '''public int sizeOfLockTextArray()
+    '''returns int\n\n
+    sizeOfLockTextArray()\n
     '''
 def setLockTextArray():
-    '''public void setLockTextArray(final STTrueFalseBlank.Enum[] array)
-    public void setLockTextArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setLockTextArray(final STTrueFalseBlank.Enum[] array)\n
+    setLockTextArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetLockTextArray():
-    '''public void xsetLockTextArray(final STTrueFalseBlank[] array)
-    public void xsetLockTextArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetLockTextArray(final STTrueFalseBlank[] array)\n
+    xsetLockTextArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertLockText():
-    '''public void insertLockText(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertLockText(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addLockText():
-    '''public void addLockText(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addLockText(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewLockText():
-    '''public STTrueFalseBlank insertNewLockText(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewLockText(final int n)\n
     '''
 def addNewLockText():
-    '''public STTrueFalseBlank addNewLockText()
+    '''returns STTrueFalseBlank\n\n
+    addNewLockText()\n
     '''
 def removeLockText():
-    '''public void removeLockText(final int n)
+    '''returns None\n\n
+    removeLockText(final int n)\n
     '''
 def xgetJustLastXList():
-    '''public List<STTrueFalseBlank> xgetJustLastXList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetJustLastXList()\n
     '''
 def xgetJustLastXArray():
-    '''public STTrueFalseBlank[] xgetJustLastXArray()
-    public STTrueFalseBlank xgetJustLastXArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetJustLastXArray()\n
+    xgetJustLastXArray(final int n)\n
     '''
 def sizeOfJustLastXArray():
-    '''public int sizeOfJustLastXArray()
+    '''returns int\n\n
+    sizeOfJustLastXArray()\n
     '''
 def setJustLastXArray():
-    '''public void setJustLastXArray(final STTrueFalseBlank.Enum[] array)
-    public void setJustLastXArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setJustLastXArray(final STTrueFalseBlank.Enum[] array)\n
+    setJustLastXArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetJustLastXArray():
-    '''public void xsetJustLastXArray(final STTrueFalseBlank[] array)
-    public void xsetJustLastXArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetJustLastXArray(final STTrueFalseBlank[] array)\n
+    xsetJustLastXArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertJustLastX():
-    '''public void insertJustLastX(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertJustLastX(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addJustLastX():
-    '''public void addJustLastX(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addJustLastX(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewJustLastX():
-    '''public STTrueFalseBlank insertNewJustLastX(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewJustLastX(final int n)\n
     '''
 def addNewJustLastX():
-    '''public STTrueFalseBlank addNewJustLastX()
+    '''returns STTrueFalseBlank\n\n
+    addNewJustLastX()\n
     '''
 def removeJustLastX():
-    '''public void removeJustLastX(final int n)
+    '''returns None\n\n
+    removeJustLastX(final int n)\n
     '''
 def xgetSecretEditList():
-    '''public List<STTrueFalseBlank> xgetSecretEditList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetSecretEditList()\n
     '''
 def xgetSecretEditArray():
-    '''public STTrueFalseBlank[] xgetSecretEditArray()
-    public STTrueFalseBlank xgetSecretEditArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetSecretEditArray()\n
+    xgetSecretEditArray(final int n)\n
     '''
 def sizeOfSecretEditArray():
-    '''public int sizeOfSecretEditArray()
+    '''returns int\n\n
+    sizeOfSecretEditArray()\n
     '''
 def setSecretEditArray():
-    '''public void setSecretEditArray(final STTrueFalseBlank.Enum[] array)
-    public void setSecretEditArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setSecretEditArray(final STTrueFalseBlank.Enum[] array)\n
+    setSecretEditArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetSecretEditArray():
-    '''public void xsetSecretEditArray(final STTrueFalseBlank[] array)
-    public void xsetSecretEditArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetSecretEditArray(final STTrueFalseBlank[] array)\n
+    xsetSecretEditArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertSecretEdit():
-    '''public void insertSecretEdit(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertSecretEdit(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addSecretEdit():
-    '''public void addSecretEdit(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addSecretEdit(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewSecretEdit():
-    '''public STTrueFalseBlank insertNewSecretEdit(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewSecretEdit(final int n)\n
     '''
 def addNewSecretEdit():
-    '''public STTrueFalseBlank addNewSecretEdit()
+    '''returns STTrueFalseBlank\n\n
+    addNewSecretEdit()\n
     '''
 def removeSecretEdit():
-    '''public void removeSecretEdit(final int n)
+    '''returns None\n\n
+    removeSecretEdit(final int n)\n
     '''
 def xgetDefaultList():
-    '''public List<STTrueFalseBlank> xgetDefaultList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetDefaultList()\n
     '''
 def xgetDefaultArray():
-    '''public STTrueFalseBlank[] xgetDefaultArray()
-    public STTrueFalseBlank xgetDefaultArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetDefaultArray()\n
+    xgetDefaultArray(final int n)\n
     '''
 def sizeOfDefaultArray():
-    '''public int sizeOfDefaultArray()
+    '''returns int\n\n
+    sizeOfDefaultArray()\n
     '''
 def setDefaultArray():
-    '''public void setDefaultArray(final STTrueFalseBlank.Enum[] array)
-    public void setDefaultArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setDefaultArray(final STTrueFalseBlank.Enum[] array)\n
+    setDefaultArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetDefaultArray():
-    '''public void xsetDefaultArray(final STTrueFalseBlank[] array)
-    public void xsetDefaultArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetDefaultArray(final STTrueFalseBlank[] array)\n
+    xsetDefaultArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertDefault():
-    '''public void insertDefault(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertDefault(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addDefault():
-    '''public void addDefault(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addDefault(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewDefault():
-    '''public STTrueFalseBlank insertNewDefault(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewDefault(final int n)\n
     '''
 def addNewDefault():
-    '''public STTrueFalseBlank addNewDefault()
+    '''returns STTrueFalseBlank\n\n
+    addNewDefault()\n
     '''
 def removeDefault():
-    '''public void removeDefault(final int n)
+    '''returns None\n\n
+    removeDefault(final int n)\n
     '''
 def xgetHelpList():
-    '''public List<STTrueFalseBlank> xgetHelpList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetHelpList()\n
     '''
 def xgetHelpArray():
-    '''public STTrueFalseBlank[] xgetHelpArray()
-    public STTrueFalseBlank xgetHelpArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetHelpArray()\n
+    xgetHelpArray(final int n)\n
     '''
 def sizeOfHelpArray():
-    '''public int sizeOfHelpArray()
+    '''returns int\n\n
+    sizeOfHelpArray()\n
     '''
 def setHelpArray():
-    '''public void setHelpArray(final STTrueFalseBlank.Enum[] array)
-    public void setHelpArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setHelpArray(final STTrueFalseBlank.Enum[] array)\n
+    setHelpArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetHelpArray():
-    '''public void xsetHelpArray(final STTrueFalseBlank[] array)
-    public void xsetHelpArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetHelpArray(final STTrueFalseBlank[] array)\n
+    xsetHelpArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertHelp():
-    '''public void insertHelp(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertHelp(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addHelp():
-    '''public void addHelp(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addHelp(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewHelp():
-    '''public STTrueFalseBlank insertNewHelp(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewHelp(final int n)\n
     '''
 def addNewHelp():
-    '''public STTrueFalseBlank addNewHelp()
+    '''returns STTrueFalseBlank\n\n
+    addNewHelp()\n
     '''
 def removeHelp():
-    '''public void removeHelp(final int n)
+    '''returns None\n\n
+    removeHelp(final int n)\n
     '''
 def xgetCancelList():
-    '''public List<STTrueFalseBlank> xgetCancelList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetCancelList()\n
     '''
 def xgetCancelArray():
-    '''public STTrueFalseBlank[] xgetCancelArray()
-    public STTrueFalseBlank xgetCancelArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetCancelArray()\n
+    xgetCancelArray(final int n)\n
     '''
 def sizeOfCancelArray():
-    '''public int sizeOfCancelArray()
+    '''returns int\n\n
+    sizeOfCancelArray()\n
     '''
 def setCancelArray():
-    '''public void setCancelArray(final STTrueFalseBlank.Enum[] array)
-    public void setCancelArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setCancelArray(final STTrueFalseBlank.Enum[] array)\n
+    setCancelArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetCancelArray():
-    '''public void xsetCancelArray(final STTrueFalseBlank[] array)
-    public void xsetCancelArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetCancelArray(final STTrueFalseBlank[] array)\n
+    xsetCancelArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertCancel():
-    '''public void insertCancel(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertCancel(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addCancel():
-    '''public void addCancel(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addCancel(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewCancel():
-    '''public STTrueFalseBlank insertNewCancel(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewCancel(final int n)\n
     '''
 def addNewCancel():
-    '''public STTrueFalseBlank addNewCancel()
+    '''returns STTrueFalseBlank\n\n
+    addNewCancel()\n
     '''
 def removeCancel():
-    '''public void removeCancel(final int n)
+    '''returns None\n\n
+    removeCancel(final int n)\n
     '''
 def xgetDismissList():
-    '''public List<STTrueFalseBlank> xgetDismissList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetDismissList()\n
     '''
 def xgetDismissArray():
-    '''public STTrueFalseBlank[] xgetDismissArray()
-    public STTrueFalseBlank xgetDismissArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetDismissArray()\n
+    xgetDismissArray(final int n)\n
     '''
 def sizeOfDismissArray():
-    '''public int sizeOfDismissArray()
+    '''returns int\n\n
+    sizeOfDismissArray()\n
     '''
 def setDismissArray():
-    '''public void setDismissArray(final STTrueFalseBlank.Enum[] array)
-    public void setDismissArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setDismissArray(final STTrueFalseBlank.Enum[] array)\n
+    setDismissArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetDismissArray():
-    '''public void xsetDismissArray(final STTrueFalseBlank[] array)
-    public void xsetDismissArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetDismissArray(final STTrueFalseBlank[] array)\n
+    xsetDismissArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertDismiss():
-    '''public void insertDismiss(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertDismiss(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addDismiss():
-    '''public void addDismiss(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addDismiss(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewDismiss():
-    '''public STTrueFalseBlank insertNewDismiss(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewDismiss(final int n)\n
     '''
 def addNewDismiss():
-    '''public STTrueFalseBlank addNewDismiss()
+    '''returns STTrueFalseBlank\n\n
+    addNewDismiss()\n
     '''
 def removeDismiss():
-    '''public void removeDismiss(final int n)
+    '''returns None\n\n
+    removeDismiss(final int n)\n
     '''
 def getAccelList():
-    '''public List<BigInteger> getAccelList()
+    '''returns List<BigInteger>\n\n
+    getAccelList()\n
     '''
 def getAccelArray():
-    '''public BigInteger[] getAccelArray()
-    public BigInteger getAccelArray(final int n)
+    '''returns BigInteger\n\n
+    getAccelArray()\n
+    getAccelArray(final int n)\n
     '''
 def xgetAccelList():
-    '''public List<XmlInteger> xgetAccelList()
+    '''returns List<XmlInteger>\n\n
+    xgetAccelList()\n
     '''
 def xgetAccelArray():
-    '''public XmlInteger[] xgetAccelArray()
-    public XmlInteger xgetAccelArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetAccelArray()\n
+    xgetAccelArray(final int n)\n
     '''
 def sizeOfAccelArray():
-    '''public int sizeOfAccelArray()
+    '''returns int\n\n
+    sizeOfAccelArray()\n
     '''
 def setAccelArray():
-    '''public void setAccelArray(final BigInteger[] array)
-    public void setAccelArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setAccelArray(final BigInteger[] array)\n
+    setAccelArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetAccelArray():
-    '''public void xsetAccelArray(final XmlInteger[] array)
-    public void xsetAccelArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetAccelArray(final XmlInteger[] array)\n
+    xsetAccelArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertAccel():
-    '''public void insertAccel(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertAccel(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addAccel():
-    '''public void addAccel(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addAccel(final BigInteger bigIntegerValue)\n
     '''
 def insertNewAccel():
-    '''public XmlInteger insertNewAccel(final int n)
+    '''returns XmlInteger\n\n
+    insertNewAccel(final int n)\n
     '''
 def addNewAccel():
-    '''public XmlInteger addNewAccel()
+    '''returns XmlInteger\n\n
+    addNewAccel()\n
     '''
 def removeAccel():
-    '''public void removeAccel(final int n)
+    '''returns None\n\n
+    removeAccel(final int n)\n
     '''
 def getAccel2List():
-    '''public List<BigInteger> getAccel2List()
+    '''returns List<BigInteger>\n\n
+    getAccel2List()\n
     '''
 def getAccel2Array():
-    '''public BigInteger[] getAccel2Array()
-    public BigInteger getAccel2Array(final int n)
+    '''returns BigInteger\n\n
+    getAccel2Array()\n
+    getAccel2Array(final int n)\n
     '''
 def xgetAccel2List():
-    '''public List<XmlInteger> xgetAccel2List()
+    '''returns List<XmlInteger>\n\n
+    xgetAccel2List()\n
     '''
 def xgetAccel2Array():
-    '''public XmlInteger[] xgetAccel2Array()
-    public XmlInteger xgetAccel2Array(final int n)
+    '''returns XmlInteger\n\n
+    xgetAccel2Array()\n
+    xgetAccel2Array(final int n)\n
     '''
 def sizeOfAccel2Array():
-    '''public int sizeOfAccel2Array()
+    '''returns int\n\n
+    sizeOfAccel2Array()\n
     '''
 def setAccel2Array():
-    '''public void setAccel2Array(final BigInteger[] array)
-    public void setAccel2Array(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setAccel2Array(final BigInteger[] array)\n
+    setAccel2Array(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetAccel2Array():
-    '''public void xsetAccel2Array(final XmlInteger[] array)
-    public void xsetAccel2Array(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetAccel2Array(final XmlInteger[] array)\n
+    xsetAccel2Array(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertAccel2():
-    '''public void insertAccel2(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertAccel2(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addAccel2():
-    '''public void addAccel2(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addAccel2(final BigInteger bigIntegerValue)\n
     '''
 def insertNewAccel2():
-    '''public XmlInteger insertNewAccel2(final int n)
+    '''returns XmlInteger\n\n
+    insertNewAccel2(final int n)\n
     '''
 def addNewAccel2():
-    '''public XmlInteger addNewAccel2()
+    '''returns XmlInteger\n\n
+    addNewAccel2()\n
     '''
 def removeAccel2():
-    '''public void removeAccel2(final int n)
+    '''returns None\n\n
+    removeAccel2(final int n)\n
     '''
 def getRowList():
-    '''public List<BigInteger> getRowList()
+    '''returns List<BigInteger>\n\n
+    getRowList()\n
     '''
 def getRowArray():
-    '''public BigInteger[] getRowArray()
-    public BigInteger getRowArray(final int n)
+    '''returns BigInteger\n\n
+    getRowArray()\n
+    getRowArray(final int n)\n
     '''
 def xgetRowList():
-    '''public List<XmlInteger> xgetRowList()
+    '''returns List<XmlInteger>\n\n
+    xgetRowList()\n
     '''
 def xgetRowArray():
-    '''public XmlInteger[] xgetRowArray()
-    public XmlInteger xgetRowArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetRowArray()\n
+    xgetRowArray(final int n)\n
     '''
 def sizeOfRowArray():
-    '''public int sizeOfRowArray()
+    '''returns int\n\n
+    sizeOfRowArray()\n
     '''
 def setRowArray():
-    '''public void setRowArray(final BigInteger[] array)
-    public void setRowArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setRowArray(final BigInteger[] array)\n
+    setRowArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetRowArray():
-    '''public void xsetRowArray(final XmlInteger[] array)
-    public void xsetRowArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetRowArray(final XmlInteger[] array)\n
+    xsetRowArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertRow():
-    '''public void insertRow(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertRow(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addRow():
-    '''public void addRow(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addRow(final BigInteger bigIntegerValue)\n
     '''
 def insertNewRow():
-    '''public XmlInteger insertNewRow(final int n)
+    '''returns XmlInteger\n\n
+    insertNewRow(final int n)\n
     '''
 def addNewRow():
-    '''public XmlInteger addNewRow()
+    '''returns XmlInteger\n\n
+    addNewRow()\n
     '''
 def removeRow():
-    '''public void removeRow(final int n)
+    '''returns None\n\n
+    removeRow(final int n)\n
     '''
 def getColumnList():
-    '''public List<BigInteger> getColumnList()
+    '''returns List<BigInteger>\n\n
+    getColumnList()\n
     '''
 def getColumnArray():
-    '''public BigInteger[] getColumnArray()
-    public BigInteger getColumnArray(final int n)
+    '''returns BigInteger\n\n
+    getColumnArray()\n
+    getColumnArray(final int n)\n
     '''
 def xgetColumnList():
-    '''public List<XmlInteger> xgetColumnList()
+    '''returns List<XmlInteger>\n\n
+    xgetColumnList()\n
     '''
 def xgetColumnArray():
-    '''public XmlInteger[] xgetColumnArray()
-    public XmlInteger xgetColumnArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetColumnArray()\n
+    xgetColumnArray(final int n)\n
     '''
 def sizeOfColumnArray():
-    '''public int sizeOfColumnArray()
+    '''returns int\n\n
+    sizeOfColumnArray()\n
     '''
 def setColumnArray():
-    '''public void setColumnArray(final BigInteger[] array)
-    public void setColumnArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setColumnArray(final BigInteger[] array)\n
+    setColumnArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetColumnArray():
-    '''public void xsetColumnArray(final XmlInteger[] array)
-    public void xsetColumnArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetColumnArray(final XmlInteger[] array)\n
+    xsetColumnArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertColumn():
-    '''public void insertColumn(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertColumn(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addColumn():
-    '''public void addColumn(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addColumn(final BigInteger bigIntegerValue)\n
     '''
 def insertNewColumn():
-    '''public XmlInteger insertNewColumn(final int n)
+    '''returns XmlInteger\n\n
+    insertNewColumn(final int n)\n
     '''
 def addNewColumn():
-    '''public XmlInteger addNewColumn()
+    '''returns XmlInteger\n\n
+    addNewColumn()\n
     '''
 def removeColumn():
-    '''public void removeColumn(final int n)
+    '''returns None\n\n
+    removeColumn(final int n)\n
     '''
 def add():
-    '''public void add(final int n, final STTrueFalseBlank.Enum enum1)
+    '''returns None\n\n
+    add(final int n, final STTrueFalseBlank.Enum enum1)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def xgetVisibleList():
-    '''public List<STTrueFalseBlank> xgetVisibleList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetVisibleList()\n
     '''
 def xgetVisibleArray():
-    '''public STTrueFalseBlank[] xgetVisibleArray()
-    public STTrueFalseBlank xgetVisibleArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetVisibleArray()\n
+    xgetVisibleArray(final int n)\n
     '''
 def sizeOfVisibleArray():
-    '''public int sizeOfVisibleArray()
+    '''returns int\n\n
+    sizeOfVisibleArray()\n
     '''
 def setVisibleArray():
-    '''public void setVisibleArray(final STTrueFalseBlank.Enum[] array)
-    public void setVisibleArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setVisibleArray(final STTrueFalseBlank.Enum[] array)\n
+    setVisibleArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetVisibleArray():
-    '''public void xsetVisibleArray(final STTrueFalseBlank[] array)
-    public void xsetVisibleArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetVisibleArray(final STTrueFalseBlank[] array)\n
+    xsetVisibleArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertVisible():
-    '''public void insertVisible(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertVisible(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addVisible():
-    '''public void addVisible(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addVisible(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewVisible():
-    '''public STTrueFalseBlank insertNewVisible(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewVisible(final int n)\n
     '''
 def addNewVisible():
-    '''public STTrueFalseBlank addNewVisible()
+    '''returns STTrueFalseBlank\n\n
+    addNewVisible()\n
     '''
 def removeVisible():
-    '''public void removeVisible(final int n)
+    '''returns None\n\n
+    removeVisible(final int n)\n
     '''
 def xgetRowHiddenList():
-    '''public List<STTrueFalseBlank> xgetRowHiddenList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetRowHiddenList()\n
     '''
 def xgetRowHiddenArray():
-    '''public STTrueFalseBlank[] xgetRowHiddenArray()
-    public STTrueFalseBlank xgetRowHiddenArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetRowHiddenArray()\n
+    xgetRowHiddenArray(final int n)\n
     '''
 def sizeOfRowHiddenArray():
-    '''public int sizeOfRowHiddenArray()
+    '''returns int\n\n
+    sizeOfRowHiddenArray()\n
     '''
 def setRowHiddenArray():
-    '''public void setRowHiddenArray(final STTrueFalseBlank.Enum[] array)
-    public void setRowHiddenArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setRowHiddenArray(final STTrueFalseBlank.Enum[] array)\n
+    setRowHiddenArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetRowHiddenArray():
-    '''public void xsetRowHiddenArray(final STTrueFalseBlank[] array)
-    public void xsetRowHiddenArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetRowHiddenArray(final STTrueFalseBlank[] array)\n
+    xsetRowHiddenArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertRowHidden():
-    '''public void insertRowHidden(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertRowHidden(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addRowHidden():
-    '''public void addRowHidden(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addRowHidden(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewRowHidden():
-    '''public STTrueFalseBlank insertNewRowHidden(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewRowHidden(final int n)\n
     '''
 def addNewRowHidden():
-    '''public STTrueFalseBlank addNewRowHidden()
+    '''returns STTrueFalseBlank\n\n
+    addNewRowHidden()\n
     '''
 def removeRowHidden():
-    '''public void removeRowHidden(final int n)
+    '''returns None\n\n
+    removeRowHidden(final int n)\n
     '''
 def xgetColHiddenList():
-    '''public List<STTrueFalseBlank> xgetColHiddenList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetColHiddenList()\n
     '''
 def xgetColHiddenArray():
-    '''public STTrueFalseBlank[] xgetColHiddenArray()
-    public STTrueFalseBlank xgetColHiddenArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetColHiddenArray()\n
+    xgetColHiddenArray(final int n)\n
     '''
 def sizeOfColHiddenArray():
-    '''public int sizeOfColHiddenArray()
+    '''returns int\n\n
+    sizeOfColHiddenArray()\n
     '''
 def setColHiddenArray():
-    '''public void setColHiddenArray(final STTrueFalseBlank.Enum[] array)
-    public void setColHiddenArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setColHiddenArray(final STTrueFalseBlank.Enum[] array)\n
+    setColHiddenArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetColHiddenArray():
-    '''public void xsetColHiddenArray(final STTrueFalseBlank[] array)
-    public void xsetColHiddenArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetColHiddenArray(final STTrueFalseBlank[] array)\n
+    xsetColHiddenArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertColHidden():
-    '''public void insertColHidden(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertColHidden(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addColHidden():
-    '''public void addColHidden(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addColHidden(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewColHidden():
-    '''public STTrueFalseBlank insertNewColHidden(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewColHidden(final int n)\n
     '''
 def addNewColHidden():
-    '''public STTrueFalseBlank addNewColHidden()
+    '''returns STTrueFalseBlank\n\n
+    addNewColHidden()\n
     '''
 def removeColHidden():
-    '''public void removeColHidden(final int n)
+    '''returns None\n\n
+    removeColHidden(final int n)\n
     '''
 def getVTEditList():
-    '''public List<BigInteger> getVTEditList()
+    '''returns List<BigInteger>\n\n
+    getVTEditList()\n
     '''
 def getVTEditArray():
-    '''public BigInteger[] getVTEditArray()
-    public BigInteger getVTEditArray(final int n)
+    '''returns BigInteger\n\n
+    getVTEditArray()\n
+    getVTEditArray(final int n)\n
     '''
 def xgetVTEditList():
-    '''public List<XmlInteger> xgetVTEditList()
+    '''returns List<XmlInteger>\n\n
+    xgetVTEditList()\n
     '''
 def xgetVTEditArray():
-    '''public XmlInteger[] xgetVTEditArray()
-    public XmlInteger xgetVTEditArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetVTEditArray()\n
+    xgetVTEditArray(final int n)\n
     '''
 def sizeOfVTEditArray():
-    '''public int sizeOfVTEditArray()
+    '''returns int\n\n
+    sizeOfVTEditArray()\n
     '''
 def setVTEditArray():
-    '''public void setVTEditArray(final BigInteger[] array)
-    public void setVTEditArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setVTEditArray(final BigInteger[] array)\n
+    setVTEditArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetVTEditArray():
-    '''public void xsetVTEditArray(final XmlInteger[] array)
-    public void xsetVTEditArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetVTEditArray(final XmlInteger[] array)\n
+    xsetVTEditArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertVTEdit():
-    '''public void insertVTEdit(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertVTEdit(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addVTEdit():
-    '''public void addVTEdit(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addVTEdit(final BigInteger bigIntegerValue)\n
     '''
 def insertNewVTEdit():
-    '''public XmlInteger insertNewVTEdit(final int n)
+    '''returns XmlInteger\n\n
+    insertNewVTEdit(final int n)\n
     '''
 def addNewVTEdit():
-    '''public XmlInteger addNewVTEdit()
+    '''returns XmlInteger\n\n
+    addNewVTEdit()\n
     '''
 def removeVTEdit():
-    '''public void removeVTEdit(final int n)
+    '''returns None\n\n
+    removeVTEdit(final int n)\n
     '''
 def xgetMultiLineList():
-    '''public List<STTrueFalseBlank> xgetMultiLineList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetMultiLineList()\n
     '''
 def xgetMultiLineArray():
-    '''public STTrueFalseBlank[] xgetMultiLineArray()
-    public STTrueFalseBlank xgetMultiLineArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetMultiLineArray()\n
+    xgetMultiLineArray(final int n)\n
     '''
 def sizeOfMultiLineArray():
-    '''public int sizeOfMultiLineArray()
+    '''returns int\n\n
+    sizeOfMultiLineArray()\n
     '''
 def setMultiLineArray():
-    '''public void setMultiLineArray(final STTrueFalseBlank.Enum[] array)
-    public void setMultiLineArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setMultiLineArray(final STTrueFalseBlank.Enum[] array)\n
+    setMultiLineArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetMultiLineArray():
-    '''public void xsetMultiLineArray(final STTrueFalseBlank[] array)
-    public void xsetMultiLineArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetMultiLineArray(final STTrueFalseBlank[] array)\n
+    xsetMultiLineArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertMultiLine():
-    '''public void insertMultiLine(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertMultiLine(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addMultiLine():
-    '''public void addMultiLine(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addMultiLine(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewMultiLine():
-    '''public STTrueFalseBlank insertNewMultiLine(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewMultiLine(final int n)\n
     '''
 def addNewMultiLine():
-    '''public STTrueFalseBlank addNewMultiLine()
+    '''returns STTrueFalseBlank\n\n
+    addNewMultiLine()\n
     '''
 def removeMultiLine():
-    '''public void removeMultiLine(final int n)
+    '''returns None\n\n
+    removeMultiLine(final int n)\n
     '''
 def xgetVScrollList():
-    '''public List<STTrueFalseBlank> xgetVScrollList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetVScrollList()\n
     '''
 def xgetVScrollArray():
-    '''public STTrueFalseBlank[] xgetVScrollArray()
-    public STTrueFalseBlank xgetVScrollArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetVScrollArray()\n
+    xgetVScrollArray(final int n)\n
     '''
 def sizeOfVScrollArray():
-    '''public int sizeOfVScrollArray()
+    '''returns int\n\n
+    sizeOfVScrollArray()\n
     '''
 def setVScrollArray():
-    '''public void setVScrollArray(final STTrueFalseBlank.Enum[] array)
-    public void setVScrollArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setVScrollArray(final STTrueFalseBlank.Enum[] array)\n
+    setVScrollArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetVScrollArray():
-    '''public void xsetVScrollArray(final STTrueFalseBlank[] array)
-    public void xsetVScrollArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetVScrollArray(final STTrueFalseBlank[] array)\n
+    xsetVScrollArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertVScroll():
-    '''public void insertVScroll(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertVScroll(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addVScroll():
-    '''public void addVScroll(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addVScroll(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewVScroll():
-    '''public STTrueFalseBlank insertNewVScroll(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewVScroll(final int n)\n
     '''
 def addNewVScroll():
-    '''public STTrueFalseBlank addNewVScroll()
+    '''returns STTrueFalseBlank\n\n
+    addNewVScroll()\n
     '''
 def removeVScroll():
-    '''public void removeVScroll(final int n)
+    '''returns None\n\n
+    removeVScroll(final int n)\n
     '''
 def xgetValidIdsList():
-    '''public List<STTrueFalseBlank> xgetValidIdsList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetValidIdsList()\n
     '''
 def xgetValidIdsArray():
-    '''public STTrueFalseBlank[] xgetValidIdsArray()
-    public STTrueFalseBlank xgetValidIdsArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetValidIdsArray()\n
+    xgetValidIdsArray(final int n)\n
     '''
 def sizeOfValidIdsArray():
-    '''public int sizeOfValidIdsArray()
+    '''returns int\n\n
+    sizeOfValidIdsArray()\n
     '''
 def setValidIdsArray():
-    '''public void setValidIdsArray(final STTrueFalseBlank.Enum[] array)
-    public void setValidIdsArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setValidIdsArray(final STTrueFalseBlank.Enum[] array)\n
+    setValidIdsArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetValidIdsArray():
-    '''public void xsetValidIdsArray(final STTrueFalseBlank[] array)
-    public void xsetValidIdsArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetValidIdsArray(final STTrueFalseBlank[] array)\n
+    xsetValidIdsArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertValidIds():
-    '''public void insertValidIds(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertValidIds(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addValidIds():
-    '''public void addValidIds(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addValidIds(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewValidIds():
-    '''public STTrueFalseBlank insertNewValidIds(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewValidIds(final int n)\n
     '''
 def addNewValidIds():
-    '''public STTrueFalseBlank addNewValidIds()
+    '''returns STTrueFalseBlank\n\n
+    addNewValidIds()\n
     '''
 def removeValidIds():
-    '''public void removeValidIds(final int n)
+    '''returns None\n\n
+    removeValidIds(final int n)\n
     '''
 def getFmlaRangeList():
-    '''public List<String> getFmlaRangeList()
+    '''returns List<String>\n\n
+    getFmlaRangeList()\n
     '''
 def getFmlaRangeArray():
-    '''public String[] getFmlaRangeArray()
-    public String getFmlaRangeArray(final int n)
+    '''returns String\n\n
+    getFmlaRangeArray()\n
+    getFmlaRangeArray(final int n)\n
     '''
 def xgetFmlaRangeList():
-    '''public List<XmlString> xgetFmlaRangeList()
+    '''returns List<XmlString>\n\n
+    xgetFmlaRangeList()\n
     '''
 def xgetFmlaRangeArray():
-    '''public XmlString[] xgetFmlaRangeArray()
-    public XmlString xgetFmlaRangeArray(final int n)
+    '''returns XmlString\n\n
+    xgetFmlaRangeArray()\n
+    xgetFmlaRangeArray(final int n)\n
     '''
 def sizeOfFmlaRangeArray():
-    '''public int sizeOfFmlaRangeArray()
+    '''returns int\n\n
+    sizeOfFmlaRangeArray()\n
     '''
 def setFmlaRangeArray():
-    '''public void setFmlaRangeArray(final String[] array)
-    public void setFmlaRangeArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setFmlaRangeArray(final String[] array)\n
+    setFmlaRangeArray(final int n, final String stringValue)\n
     '''
 def xsetFmlaRangeArray():
-    '''public void xsetFmlaRangeArray(final XmlString[] array)
-    public void xsetFmlaRangeArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetFmlaRangeArray(final XmlString[] array)\n
+    xsetFmlaRangeArray(final int n, final XmlString xmlString)\n
     '''
 def insertFmlaRange():
-    '''public void insertFmlaRange(final int n, final String stringValue)
+    '''returns None\n\n
+    insertFmlaRange(final int n, final String stringValue)\n
     '''
 def addFmlaRange():
-    '''public void addFmlaRange(final String stringValue)
+    '''returns None\n\n
+    addFmlaRange(final String stringValue)\n
     '''
 def insertNewFmlaRange():
-    '''public XmlString insertNewFmlaRange(final int n)
+    '''returns XmlString\n\n
+    insertNewFmlaRange(final int n)\n
     '''
 def addNewFmlaRange():
-    '''public XmlString addNewFmlaRange()
+    '''returns XmlString\n\n
+    addNewFmlaRange()\n
     '''
 def removeFmlaRange():
-    '''public void removeFmlaRange(final int n)
+    '''returns None\n\n
+    removeFmlaRange(final int n)\n
     '''
 def getWidthMinList():
-    '''public List<BigInteger> getWidthMinList()
+    '''returns List<BigInteger>\n\n
+    getWidthMinList()\n
     '''
 def getWidthMinArray():
-    '''public BigInteger[] getWidthMinArray()
-    public BigInteger getWidthMinArray(final int n)
+    '''returns BigInteger\n\n
+    getWidthMinArray()\n
+    getWidthMinArray(final int n)\n
     '''
 def xgetWidthMinList():
-    '''public List<XmlInteger> xgetWidthMinList()
+    '''returns List<XmlInteger>\n\n
+    xgetWidthMinList()\n
     '''
 def xgetWidthMinArray():
-    '''public XmlInteger[] xgetWidthMinArray()
-    public XmlInteger xgetWidthMinArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetWidthMinArray()\n
+    xgetWidthMinArray(final int n)\n
     '''
 def sizeOfWidthMinArray():
-    '''public int sizeOfWidthMinArray()
+    '''returns int\n\n
+    sizeOfWidthMinArray()\n
     '''
 def setWidthMinArray():
-    '''public void setWidthMinArray(final BigInteger[] array)
-    public void setWidthMinArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setWidthMinArray(final BigInteger[] array)\n
+    setWidthMinArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetWidthMinArray():
-    '''public void xsetWidthMinArray(final XmlInteger[] array)
-    public void xsetWidthMinArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetWidthMinArray(final XmlInteger[] array)\n
+    xsetWidthMinArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertWidthMin():
-    '''public void insertWidthMin(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertWidthMin(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addWidthMin():
-    '''public void addWidthMin(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addWidthMin(final BigInteger bigIntegerValue)\n
     '''
 def insertNewWidthMin():
-    '''public XmlInteger insertNewWidthMin(final int n)
+    '''returns XmlInteger\n\n
+    insertNewWidthMin(final int n)\n
     '''
 def addNewWidthMin():
-    '''public XmlInteger addNewWidthMin()
+    '''returns XmlInteger\n\n
+    addNewWidthMin()\n
     '''
 def removeWidthMin():
-    '''public void removeWidthMin(final int n)
+    '''returns None\n\n
+    removeWidthMin(final int n)\n
     '''
 def getSelList():
-    '''public List<BigInteger> getSelList()
+    '''returns List<BigInteger>\n\n
+    getSelList()\n
     '''
 def getSelArray():
-    '''public BigInteger[] getSelArray()
-    public BigInteger getSelArray(final int n)
+    '''returns BigInteger\n\n
+    getSelArray()\n
+    getSelArray(final int n)\n
     '''
 def xgetSelList():
-    '''public List<XmlInteger> xgetSelList()
+    '''returns List<XmlInteger>\n\n
+    xgetSelList()\n
     '''
 def xgetSelArray():
-    '''public XmlInteger[] xgetSelArray()
-    public XmlInteger xgetSelArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetSelArray()\n
+    xgetSelArray(final int n)\n
     '''
 def sizeOfSelArray():
-    '''public int sizeOfSelArray()
+    '''returns int\n\n
+    sizeOfSelArray()\n
     '''
 def setSelArray():
-    '''public void setSelArray(final BigInteger[] array)
-    public void setSelArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setSelArray(final BigInteger[] array)\n
+    setSelArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetSelArray():
-    '''public void xsetSelArray(final XmlInteger[] array)
-    public void xsetSelArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetSelArray(final XmlInteger[] array)\n
+    xsetSelArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertSel():
-    '''public void insertSel(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertSel(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addSel():
-    '''public void addSel(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addSel(final BigInteger bigIntegerValue)\n
     '''
 def insertNewSel():
-    '''public XmlInteger insertNewSel(final int n)
+    '''returns XmlInteger\n\n
+    insertNewSel(final int n)\n
     '''
 def addNewSel():
-    '''public XmlInteger addNewSel()
+    '''returns XmlInteger\n\n
+    addNewSel()\n
     '''
 def removeSel():
-    '''public void removeSel(final int n)
+    '''returns None\n\n
+    removeSel(final int n)\n
     '''
 def xgetNoThreeD2List():
-    '''public List<STTrueFalseBlank> xgetNoThreeD2List()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetNoThreeD2List()\n
     '''
 def xgetNoThreeD2Array():
-    '''public STTrueFalseBlank[] xgetNoThreeD2Array()
-    public STTrueFalseBlank xgetNoThreeD2Array(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetNoThreeD2Array()\n
+    xgetNoThreeD2Array(final int n)\n
     '''
 def sizeOfNoThreeD2Array():
-    '''public int sizeOfNoThreeD2Array()
+    '''returns int\n\n
+    sizeOfNoThreeD2Array()\n
     '''
 def setNoThreeD2Array():
-    '''public void setNoThreeD2Array(final STTrueFalseBlank.Enum[] array)
-    public void setNoThreeD2Array(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setNoThreeD2Array(final STTrueFalseBlank.Enum[] array)\n
+    setNoThreeD2Array(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetNoThreeD2Array():
-    '''public void xsetNoThreeD2Array(final STTrueFalseBlank[] array)
-    public void xsetNoThreeD2Array(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetNoThreeD2Array(final STTrueFalseBlank[] array)\n
+    xsetNoThreeD2Array(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertNoThreeD2():
-    '''public void insertNoThreeD2(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertNoThreeD2(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addNoThreeD2():
-    '''public void addNoThreeD2(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addNoThreeD2(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewNoThreeD2():
-    '''public STTrueFalseBlank insertNewNoThreeD2(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewNoThreeD2(final int n)\n
     '''
 def addNewNoThreeD2():
-    '''public STTrueFalseBlank addNewNoThreeD2()
+    '''returns STTrueFalseBlank\n\n
+    addNewNoThreeD2()\n
     '''
 def removeNoThreeD2():
-    '''public void removeNoThreeD2(final int n)
+    '''returns None\n\n
+    removeNoThreeD2(final int n)\n
     '''
 def getSelTypeList():
-    '''public List<String> getSelTypeList()
+    '''returns List<String>\n\n
+    getSelTypeList()\n
     '''
 def getSelTypeArray():
-    '''public String[] getSelTypeArray()
-    public String getSelTypeArray(final int n)
+    '''returns String\n\n
+    getSelTypeArray()\n
+    getSelTypeArray(final int n)\n
     '''
 def xgetSelTypeList():
-    '''public List<XmlString> xgetSelTypeList()
+    '''returns List<XmlString>\n\n
+    xgetSelTypeList()\n
     '''
 def xgetSelTypeArray():
-    '''public XmlString[] xgetSelTypeArray()
-    public XmlString xgetSelTypeArray(final int n)
+    '''returns XmlString\n\n
+    xgetSelTypeArray()\n
+    xgetSelTypeArray(final int n)\n
     '''
 def sizeOfSelTypeArray():
-    '''public int sizeOfSelTypeArray()
+    '''returns int\n\n
+    sizeOfSelTypeArray()\n
     '''
 def setSelTypeArray():
-    '''public void setSelTypeArray(final String[] array)
-    public void setSelTypeArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setSelTypeArray(final String[] array)\n
+    setSelTypeArray(final int n, final String stringValue)\n
     '''
 def xsetSelTypeArray():
-    '''public void xsetSelTypeArray(final XmlString[] array)
-    public void xsetSelTypeArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetSelTypeArray(final XmlString[] array)\n
+    xsetSelTypeArray(final int n, final XmlString xmlString)\n
     '''
 def insertSelType():
-    '''public void insertSelType(final int n, final String stringValue)
+    '''returns None\n\n
+    insertSelType(final int n, final String stringValue)\n
     '''
 def addSelType():
-    '''public void addSelType(final String stringValue)
+    '''returns None\n\n
+    addSelType(final String stringValue)\n
     '''
 def insertNewSelType():
-    '''public XmlString insertNewSelType(final int n)
+    '''returns XmlString\n\n
+    insertNewSelType(final int n)\n
     '''
 def addNewSelType():
-    '''public XmlString addNewSelType()
+    '''returns XmlString\n\n
+    addNewSelType()\n
     '''
 def removeSelType():
-    '''public void removeSelType(final int n)
+    '''returns None\n\n
+    removeSelType(final int n)\n
     '''
 def getMultiSelList():
-    '''public List<String> getMultiSelList()
+    '''returns List<String>\n\n
+    getMultiSelList()\n
     '''
 def getMultiSelArray():
-    '''public String[] getMultiSelArray()
-    public String getMultiSelArray(final int n)
+    '''returns String\n\n
+    getMultiSelArray()\n
+    getMultiSelArray(final int n)\n
     '''
 def xgetMultiSelList():
-    '''public List<XmlString> xgetMultiSelList()
+    '''returns List<XmlString>\n\n
+    xgetMultiSelList()\n
     '''
 def xgetMultiSelArray():
-    '''public XmlString[] xgetMultiSelArray()
-    public XmlString xgetMultiSelArray(final int n)
+    '''returns XmlString\n\n
+    xgetMultiSelArray()\n
+    xgetMultiSelArray(final int n)\n
     '''
 def sizeOfMultiSelArray():
-    '''public int sizeOfMultiSelArray()
+    '''returns int\n\n
+    sizeOfMultiSelArray()\n
     '''
 def setMultiSelArray():
-    '''public void setMultiSelArray(final String[] array)
-    public void setMultiSelArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setMultiSelArray(final String[] array)\n
+    setMultiSelArray(final int n, final String stringValue)\n
     '''
 def xsetMultiSelArray():
-    '''public void xsetMultiSelArray(final XmlString[] array)
-    public void xsetMultiSelArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetMultiSelArray(final XmlString[] array)\n
+    xsetMultiSelArray(final int n, final XmlString xmlString)\n
     '''
 def insertMultiSel():
-    '''public void insertMultiSel(final int n, final String stringValue)
+    '''returns None\n\n
+    insertMultiSel(final int n, final String stringValue)\n
     '''
 def addMultiSel():
-    '''public void addMultiSel(final String stringValue)
+    '''returns None\n\n
+    addMultiSel(final String stringValue)\n
     '''
 def insertNewMultiSel():
-    '''public XmlString insertNewMultiSel(final int n)
+    '''returns XmlString\n\n
+    insertNewMultiSel(final int n)\n
     '''
 def addNewMultiSel():
-    '''public XmlString addNewMultiSel()
+    '''returns XmlString\n\n
+    addNewMultiSel()\n
     '''
 def removeMultiSel():
-    '''public void removeMultiSel(final int n)
+    '''returns None\n\n
+    removeMultiSel(final int n)\n
     '''
 def getLCTList():
-    '''public List<String> getLCTList()
+    '''returns List<String>\n\n
+    getLCTList()\n
     '''
 def getLCTArray():
-    '''public String[] getLCTArray()
-    public String getLCTArray(final int n)
+    '''returns String\n\n
+    getLCTArray()\n
+    getLCTArray(final int n)\n
     '''
 def xgetLCTList():
-    '''public List<XmlString> xgetLCTList()
+    '''returns List<XmlString>\n\n
+    xgetLCTList()\n
     '''
 def xgetLCTArray():
-    '''public XmlString[] xgetLCTArray()
-    public XmlString xgetLCTArray(final int n)
+    '''returns XmlString\n\n
+    xgetLCTArray()\n
+    xgetLCTArray(final int n)\n
     '''
 def sizeOfLCTArray():
-    '''public int sizeOfLCTArray()
+    '''returns int\n\n
+    sizeOfLCTArray()\n
     '''
 def setLCTArray():
-    '''public void setLCTArray(final String[] array)
-    public void setLCTArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setLCTArray(final String[] array)\n
+    setLCTArray(final int n, final String stringValue)\n
     '''
 def xsetLCTArray():
-    '''public void xsetLCTArray(final XmlString[] array)
-    public void xsetLCTArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetLCTArray(final XmlString[] array)\n
+    xsetLCTArray(final int n, final XmlString xmlString)\n
     '''
 def insertLCT():
-    '''public void insertLCT(final int n, final String stringValue)
+    '''returns None\n\n
+    insertLCT(final int n, final String stringValue)\n
     '''
 def addLCT():
-    '''public void addLCT(final String stringValue)
+    '''returns None\n\n
+    addLCT(final String stringValue)\n
     '''
 def insertNewLCT():
-    '''public XmlString insertNewLCT(final int n)
+    '''returns XmlString\n\n
+    insertNewLCT(final int n)\n
     '''
 def addNewLCT():
-    '''public XmlString addNewLCT()
+    '''returns XmlString\n\n
+    addNewLCT()\n
     '''
 def removeLCT():
-    '''public void removeLCT(final int n)
+    '''returns None\n\n
+    removeLCT(final int n)\n
     '''
 def getListItemList():
-    '''public List<String> getListItemList()
+    '''returns List<String>\n\n
+    getListItemList()\n
     '''
 def getListItemArray():
-    '''public String[] getListItemArray()
-    public String getListItemArray(final int n)
+    '''returns String\n\n
+    getListItemArray()\n
+    getListItemArray(final int n)\n
     '''
 def xgetListItemList():
-    '''public List<XmlString> xgetListItemList()
+    '''returns List<XmlString>\n\n
+    xgetListItemList()\n
     '''
 def xgetListItemArray():
-    '''public XmlString[] xgetListItemArray()
-    public XmlString xgetListItemArray(final int n)
+    '''returns XmlString\n\n
+    xgetListItemArray()\n
+    xgetListItemArray(final int n)\n
     '''
 def sizeOfListItemArray():
-    '''public int sizeOfListItemArray()
+    '''returns int\n\n
+    sizeOfListItemArray()\n
     '''
 def setListItemArray():
-    '''public void setListItemArray(final String[] array)
-    public void setListItemArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setListItemArray(final String[] array)\n
+    setListItemArray(final int n, final String stringValue)\n
     '''
 def xsetListItemArray():
-    '''public void xsetListItemArray(final XmlString[] array)
-    public void xsetListItemArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetListItemArray(final XmlString[] array)\n
+    xsetListItemArray(final int n, final XmlString xmlString)\n
     '''
 def insertListItem():
-    '''public void insertListItem(final int n, final String stringValue)
+    '''returns None\n\n
+    insertListItem(final int n, final String stringValue)\n
     '''
 def addListItem():
-    '''public void addListItem(final String stringValue)
+    '''returns None\n\n
+    addListItem(final String stringValue)\n
     '''
 def insertNewListItem():
-    '''public XmlString insertNewListItem(final int n)
+    '''returns XmlString\n\n
+    insertNewListItem(final int n)\n
     '''
 def addNewListItem():
-    '''public XmlString addNewListItem()
+    '''returns XmlString\n\n
+    addNewListItem()\n
     '''
 def removeListItem():
-    '''public void removeListItem(final int n)
+    '''returns None\n\n
+    removeListItem(final int n)\n
     '''
 def getDropStyleList():
-    '''public List<String> getDropStyleList()
+    '''returns List<String>\n\n
+    getDropStyleList()\n
     '''
 def getDropStyleArray():
-    '''public String[] getDropStyleArray()
-    public String getDropStyleArray(final int n)
+    '''returns String\n\n
+    getDropStyleArray()\n
+    getDropStyleArray(final int n)\n
     '''
 def xgetDropStyleList():
-    '''public List<XmlString> xgetDropStyleList()
+    '''returns List<XmlString>\n\n
+    xgetDropStyleList()\n
     '''
 def xgetDropStyleArray():
-    '''public XmlString[] xgetDropStyleArray()
-    public XmlString xgetDropStyleArray(final int n)
+    '''returns XmlString\n\n
+    xgetDropStyleArray()\n
+    xgetDropStyleArray(final int n)\n
     '''
 def sizeOfDropStyleArray():
-    '''public int sizeOfDropStyleArray()
+    '''returns int\n\n
+    sizeOfDropStyleArray()\n
     '''
 def setDropStyleArray():
-    '''public void setDropStyleArray(final String[] array)
-    public void setDropStyleArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setDropStyleArray(final String[] array)\n
+    setDropStyleArray(final int n, final String stringValue)\n
     '''
 def xsetDropStyleArray():
-    '''public void xsetDropStyleArray(final XmlString[] array)
-    public void xsetDropStyleArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetDropStyleArray(final XmlString[] array)\n
+    xsetDropStyleArray(final int n, final XmlString xmlString)\n
     '''
 def insertDropStyle():
-    '''public void insertDropStyle(final int n, final String stringValue)
+    '''returns None\n\n
+    insertDropStyle(final int n, final String stringValue)\n
     '''
 def addDropStyle():
-    '''public void addDropStyle(final String stringValue)
+    '''returns None\n\n
+    addDropStyle(final String stringValue)\n
     '''
 def insertNewDropStyle():
-    '''public XmlString insertNewDropStyle(final int n)
+    '''returns XmlString\n\n
+    insertNewDropStyle(final int n)\n
     '''
 def addNewDropStyle():
-    '''public XmlString addNewDropStyle()
+    '''returns XmlString\n\n
+    addNewDropStyle()\n
     '''
 def removeDropStyle():
-    '''public void removeDropStyle(final int n)
+    '''returns None\n\n
+    removeDropStyle(final int n)\n
     '''
 def xgetColoredList():
-    '''public List<STTrueFalseBlank> xgetColoredList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetColoredList()\n
     '''
 def xgetColoredArray():
-    '''public STTrueFalseBlank[] xgetColoredArray()
-    public STTrueFalseBlank xgetColoredArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetColoredArray()\n
+    xgetColoredArray(final int n)\n
     '''
 def sizeOfColoredArray():
-    '''public int sizeOfColoredArray()
+    '''returns int\n\n
+    sizeOfColoredArray()\n
     '''
 def setColoredArray():
-    '''public void setColoredArray(final STTrueFalseBlank.Enum[] array)
-    public void setColoredArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setColoredArray(final STTrueFalseBlank.Enum[] array)\n
+    setColoredArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetColoredArray():
-    '''public void xsetColoredArray(final STTrueFalseBlank[] array)
-    public void xsetColoredArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetColoredArray(final STTrueFalseBlank[] array)\n
+    xsetColoredArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertColored():
-    '''public void insertColored(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertColored(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addColored():
-    '''public void addColored(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addColored(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewColored():
-    '''public STTrueFalseBlank insertNewColored(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewColored(final int n)\n
     '''
 def addNewColored():
-    '''public STTrueFalseBlank addNewColored()
+    '''returns STTrueFalseBlank\n\n
+    addNewColored()\n
     '''
 def removeColored():
-    '''public void removeColored(final int n)
+    '''returns None\n\n
+    removeColored(final int n)\n
     '''
 def getDropLinesList():
-    '''public List<BigInteger> getDropLinesList()
+    '''returns List<BigInteger>\n\n
+    getDropLinesList()\n
     '''
 def getDropLinesArray():
-    '''public BigInteger[] getDropLinesArray()
-    public BigInteger getDropLinesArray(final int n)
+    '''returns BigInteger\n\n
+    getDropLinesArray()\n
+    getDropLinesArray(final int n)\n
     '''
 def xgetDropLinesList():
-    '''public List<XmlInteger> xgetDropLinesList()
+    '''returns List<XmlInteger>\n\n
+    xgetDropLinesList()\n
     '''
 def xgetDropLinesArray():
-    '''public XmlInteger[] xgetDropLinesArray()
-    public XmlInteger xgetDropLinesArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetDropLinesArray()\n
+    xgetDropLinesArray(final int n)\n
     '''
 def sizeOfDropLinesArray():
-    '''public int sizeOfDropLinesArray()
+    '''returns int\n\n
+    sizeOfDropLinesArray()\n
     '''
 def setDropLinesArray():
-    '''public void setDropLinesArray(final BigInteger[] array)
-    public void setDropLinesArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setDropLinesArray(final BigInteger[] array)\n
+    setDropLinesArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetDropLinesArray():
-    '''public void xsetDropLinesArray(final XmlInteger[] array)
-    public void xsetDropLinesArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetDropLinesArray(final XmlInteger[] array)\n
+    xsetDropLinesArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertDropLines():
-    '''public void insertDropLines(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertDropLines(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addDropLines():
-    '''public void addDropLines(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addDropLines(final BigInteger bigIntegerValue)\n
     '''
 def insertNewDropLines():
-    '''public XmlInteger insertNewDropLines(final int n)
+    '''returns XmlInteger\n\n
+    insertNewDropLines(final int n)\n
     '''
 def addNewDropLines():
-    '''public XmlInteger addNewDropLines()
+    '''returns XmlInteger\n\n
+    addNewDropLines()\n
     '''
 def removeDropLines():
-    '''public void removeDropLines(final int n)
+    '''returns None\n\n
+    removeDropLines(final int n)\n
     '''
 def getCheckedList():
-    '''public List<BigInteger> getCheckedList()
+    '''returns List<BigInteger>\n\n
+    getCheckedList()\n
     '''
 def getCheckedArray():
-    '''public BigInteger[] getCheckedArray()
-    public BigInteger getCheckedArray(final int n)
+    '''returns BigInteger\n\n
+    getCheckedArray()\n
+    getCheckedArray(final int n)\n
     '''
 def xgetCheckedList():
-    '''public List<XmlInteger> xgetCheckedList()
+    '''returns List<XmlInteger>\n\n
+    xgetCheckedList()\n
     '''
 def xgetCheckedArray():
-    '''public XmlInteger[] xgetCheckedArray()
-    public XmlInteger xgetCheckedArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetCheckedArray()\n
+    xgetCheckedArray(final int n)\n
     '''
 def sizeOfCheckedArray():
-    '''public int sizeOfCheckedArray()
+    '''returns int\n\n
+    sizeOfCheckedArray()\n
     '''
 def setCheckedArray():
-    '''public void setCheckedArray(final BigInteger[] array)
-    public void setCheckedArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setCheckedArray(final BigInteger[] array)\n
+    setCheckedArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetCheckedArray():
-    '''public void xsetCheckedArray(final XmlInteger[] array)
-    public void xsetCheckedArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetCheckedArray(final XmlInteger[] array)\n
+    xsetCheckedArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertChecked():
-    '''public void insertChecked(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertChecked(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addChecked():
-    '''public void addChecked(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addChecked(final BigInteger bigIntegerValue)\n
     '''
 def insertNewChecked():
-    '''public XmlInteger insertNewChecked(final int n)
+    '''returns XmlInteger\n\n
+    insertNewChecked(final int n)\n
     '''
 def addNewChecked():
-    '''public XmlInteger addNewChecked()
+    '''returns XmlInteger\n\n
+    addNewChecked()\n
     '''
 def removeChecked():
-    '''public void removeChecked(final int n)
+    '''returns None\n\n
+    removeChecked(final int n)\n
     '''
 def getFmlaLinkList():
-    '''public List<String> getFmlaLinkList()
+    '''returns List<String>\n\n
+    getFmlaLinkList()\n
     '''
 def getFmlaLinkArray():
-    '''public String[] getFmlaLinkArray()
-    public String getFmlaLinkArray(final int n)
+    '''returns String\n\n
+    getFmlaLinkArray()\n
+    getFmlaLinkArray(final int n)\n
     '''
 def xgetFmlaLinkList():
-    '''public List<XmlString> xgetFmlaLinkList()
+    '''returns List<XmlString>\n\n
+    xgetFmlaLinkList()\n
     '''
 def xgetFmlaLinkArray():
-    '''public XmlString[] xgetFmlaLinkArray()
-    public XmlString xgetFmlaLinkArray(final int n)
+    '''returns XmlString\n\n
+    xgetFmlaLinkArray()\n
+    xgetFmlaLinkArray(final int n)\n
     '''
 def sizeOfFmlaLinkArray():
-    '''public int sizeOfFmlaLinkArray()
+    '''returns int\n\n
+    sizeOfFmlaLinkArray()\n
     '''
 def setFmlaLinkArray():
-    '''public void setFmlaLinkArray(final String[] array)
-    public void setFmlaLinkArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setFmlaLinkArray(final String[] array)\n
+    setFmlaLinkArray(final int n, final String stringValue)\n
     '''
 def xsetFmlaLinkArray():
-    '''public void xsetFmlaLinkArray(final XmlString[] array)
-    public void xsetFmlaLinkArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetFmlaLinkArray(final XmlString[] array)\n
+    xsetFmlaLinkArray(final int n, final XmlString xmlString)\n
     '''
 def insertFmlaLink():
-    '''public void insertFmlaLink(final int n, final String stringValue)
+    '''returns None\n\n
+    insertFmlaLink(final int n, final String stringValue)\n
     '''
 def addFmlaLink():
-    '''public void addFmlaLink(final String stringValue)
+    '''returns None\n\n
+    addFmlaLink(final String stringValue)\n
     '''
 def insertNewFmlaLink():
-    '''public XmlString insertNewFmlaLink(final int n)
+    '''returns XmlString\n\n
+    insertNewFmlaLink(final int n)\n
     '''
 def addNewFmlaLink():
-    '''public XmlString addNewFmlaLink()
+    '''returns XmlString\n\n
+    addNewFmlaLink()\n
     '''
 def removeFmlaLink():
-    '''public void removeFmlaLink(final int n)
+    '''returns None\n\n
+    removeFmlaLink(final int n)\n
     '''
 def getFmlaPictList():
-    '''public List<String> getFmlaPictList()
+    '''returns List<String>\n\n
+    getFmlaPictList()\n
     '''
 def getFmlaPictArray():
-    '''public String[] getFmlaPictArray()
-    public String getFmlaPictArray(final int n)
+    '''returns String\n\n
+    getFmlaPictArray()\n
+    getFmlaPictArray(final int n)\n
     '''
 def xgetFmlaPictList():
-    '''public List<XmlString> xgetFmlaPictList()
+    '''returns List<XmlString>\n\n
+    xgetFmlaPictList()\n
     '''
 def xgetFmlaPictArray():
-    '''public XmlString[] xgetFmlaPictArray()
-    public XmlString xgetFmlaPictArray(final int n)
+    '''returns XmlString\n\n
+    xgetFmlaPictArray()\n
+    xgetFmlaPictArray(final int n)\n
     '''
 def sizeOfFmlaPictArray():
-    '''public int sizeOfFmlaPictArray()
+    '''returns int\n\n
+    sizeOfFmlaPictArray()\n
     '''
 def setFmlaPictArray():
-    '''public void setFmlaPictArray(final String[] array)
-    public void setFmlaPictArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setFmlaPictArray(final String[] array)\n
+    setFmlaPictArray(final int n, final String stringValue)\n
     '''
 def xsetFmlaPictArray():
-    '''public void xsetFmlaPictArray(final XmlString[] array)
-    public void xsetFmlaPictArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetFmlaPictArray(final XmlString[] array)\n
+    xsetFmlaPictArray(final int n, final XmlString xmlString)\n
     '''
 def insertFmlaPict():
-    '''public void insertFmlaPict(final int n, final String stringValue)
+    '''returns None\n\n
+    insertFmlaPict(final int n, final String stringValue)\n
     '''
 def addFmlaPict():
-    '''public void addFmlaPict(final String stringValue)
+    '''returns None\n\n
+    addFmlaPict(final String stringValue)\n
     '''
 def insertNewFmlaPict():
-    '''public XmlString insertNewFmlaPict(final int n)
+    '''returns XmlString\n\n
+    insertNewFmlaPict(final int n)\n
     '''
 def addNewFmlaPict():
-    '''public XmlString addNewFmlaPict()
+    '''returns XmlString\n\n
+    addNewFmlaPict()\n
     '''
 def removeFmlaPict():
-    '''public void removeFmlaPict(final int n)
+    '''returns None\n\n
+    removeFmlaPict(final int n)\n
     '''
 def xgetNoThreeDList():
-    '''public List<STTrueFalseBlank> xgetNoThreeDList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetNoThreeDList()\n
     '''
 def xgetNoThreeDArray():
-    '''public STTrueFalseBlank[] xgetNoThreeDArray()
-    public STTrueFalseBlank xgetNoThreeDArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetNoThreeDArray()\n
+    xgetNoThreeDArray(final int n)\n
     '''
 def sizeOfNoThreeDArray():
-    '''public int sizeOfNoThreeDArray()
+    '''returns int\n\n
+    sizeOfNoThreeDArray()\n
     '''
 def setNoThreeDArray():
-    '''public void setNoThreeDArray(final STTrueFalseBlank.Enum[] array)
-    public void setNoThreeDArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setNoThreeDArray(final STTrueFalseBlank.Enum[] array)\n
+    setNoThreeDArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetNoThreeDArray():
-    '''public void xsetNoThreeDArray(final STTrueFalseBlank[] array)
-    public void xsetNoThreeDArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetNoThreeDArray(final STTrueFalseBlank[] array)\n
+    xsetNoThreeDArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertNoThreeD():
-    '''public void insertNoThreeD(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertNoThreeD(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addNoThreeD():
-    '''public void addNoThreeD(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addNoThreeD(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewNoThreeD():
-    '''public STTrueFalseBlank insertNewNoThreeD(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewNoThreeD(final int n)\n
     '''
 def addNewNoThreeD():
-    '''public STTrueFalseBlank addNewNoThreeD()
+    '''returns STTrueFalseBlank\n\n
+    addNewNoThreeD()\n
     '''
 def removeNoThreeD():
-    '''public void removeNoThreeD(final int n)
+    '''returns None\n\n
+    removeNoThreeD(final int n)\n
     '''
 def xgetFirstButtonList():
-    '''public List<STTrueFalseBlank> xgetFirstButtonList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetFirstButtonList()\n
     '''
 def xgetFirstButtonArray():
-    '''public STTrueFalseBlank[] xgetFirstButtonArray()
-    public STTrueFalseBlank xgetFirstButtonArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetFirstButtonArray()\n
+    xgetFirstButtonArray(final int n)\n
     '''
 def sizeOfFirstButtonArray():
-    '''public int sizeOfFirstButtonArray()
+    '''returns int\n\n
+    sizeOfFirstButtonArray()\n
     '''
 def setFirstButtonArray():
-    '''public void setFirstButtonArray(final STTrueFalseBlank.Enum[] array)
-    public void setFirstButtonArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setFirstButtonArray(final STTrueFalseBlank.Enum[] array)\n
+    setFirstButtonArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetFirstButtonArray():
-    '''public void xsetFirstButtonArray(final STTrueFalseBlank[] array)
-    public void xsetFirstButtonArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetFirstButtonArray(final STTrueFalseBlank[] array)\n
+    xsetFirstButtonArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertFirstButton():
-    '''public void insertFirstButton(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertFirstButton(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addFirstButton():
-    '''public void addFirstButton(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addFirstButton(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewFirstButton():
-    '''public STTrueFalseBlank insertNewFirstButton(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewFirstButton(final int n)\n
     '''
 def addNewFirstButton():
-    '''public STTrueFalseBlank addNewFirstButton()
+    '''returns STTrueFalseBlank\n\n
+    addNewFirstButton()\n
     '''
 def removeFirstButton():
-    '''public void removeFirstButton(final int n)
+    '''returns None\n\n
+    removeFirstButton(final int n)\n
     '''
 def getFmlaGroupList():
-    '''public List<String> getFmlaGroupList()
+    '''returns List<String>\n\n
+    getFmlaGroupList()\n
     '''
 def getFmlaGroupArray():
-    '''public String[] getFmlaGroupArray()
-    public String getFmlaGroupArray(final int n)
+    '''returns String\n\n
+    getFmlaGroupArray()\n
+    getFmlaGroupArray(final int n)\n
     '''
 def xgetFmlaGroupList():
-    '''public List<XmlString> xgetFmlaGroupList()
+    '''returns List<XmlString>\n\n
+    xgetFmlaGroupList()\n
     '''
 def xgetFmlaGroupArray():
-    '''public XmlString[] xgetFmlaGroupArray()
-    public XmlString xgetFmlaGroupArray(final int n)
+    '''returns XmlString\n\n
+    xgetFmlaGroupArray()\n
+    xgetFmlaGroupArray(final int n)\n
     '''
 def sizeOfFmlaGroupArray():
-    '''public int sizeOfFmlaGroupArray()
+    '''returns int\n\n
+    sizeOfFmlaGroupArray()\n
     '''
 def setFmlaGroupArray():
-    '''public void setFmlaGroupArray(final String[] array)
-    public void setFmlaGroupArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setFmlaGroupArray(final String[] array)\n
+    setFmlaGroupArray(final int n, final String stringValue)\n
     '''
 def xsetFmlaGroupArray():
-    '''public void xsetFmlaGroupArray(final XmlString[] array)
-    public void xsetFmlaGroupArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetFmlaGroupArray(final XmlString[] array)\n
+    xsetFmlaGroupArray(final int n, final XmlString xmlString)\n
     '''
 def insertFmlaGroup():
-    '''public void insertFmlaGroup(final int n, final String stringValue)
+    '''returns None\n\n
+    insertFmlaGroup(final int n, final String stringValue)\n
     '''
 def addFmlaGroup():
-    '''public void addFmlaGroup(final String stringValue)
+    '''returns None\n\n
+    addFmlaGroup(final String stringValue)\n
     '''
 def insertNewFmlaGroup():
-    '''public XmlString insertNewFmlaGroup(final int n)
+    '''returns XmlString\n\n
+    insertNewFmlaGroup(final int n)\n
     '''
 def addNewFmlaGroup():
-    '''public XmlString addNewFmlaGroup()
+    '''returns XmlString\n\n
+    addNewFmlaGroup()\n
     '''
 def removeFmlaGroup():
-    '''public void removeFmlaGroup(final int n)
+    '''returns None\n\n
+    removeFmlaGroup(final int n)\n
     '''
 def getValList():
-    '''public List<BigInteger> getValList()
+    '''returns List<BigInteger>\n\n
+    getValList()\n
     '''
 def getValArray():
-    '''public BigInteger[] getValArray()
-    public BigInteger getValArray(final int n)
+    '''returns BigInteger\n\n
+    getValArray()\n
+    getValArray(final int n)\n
     '''
 def xgetValList():
-    '''public List<XmlInteger> xgetValList()
+    '''returns List<XmlInteger>\n\n
+    xgetValList()\n
     '''
 def xgetValArray():
-    '''public XmlInteger[] xgetValArray()
-    public XmlInteger xgetValArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetValArray()\n
+    xgetValArray(final int n)\n
     '''
 def sizeOfValArray():
-    '''public int sizeOfValArray()
+    '''returns int\n\n
+    sizeOfValArray()\n
     '''
 def setValArray():
-    '''public void setValArray(final BigInteger[] array)
-    public void setValArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setValArray(final BigInteger[] array)\n
+    setValArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetValArray():
-    '''public void xsetValArray(final XmlInteger[] array)
-    public void xsetValArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetValArray(final XmlInteger[] array)\n
+    xsetValArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertVal():
-    '''public void insertVal(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertVal(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addVal():
-    '''public void addVal(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addVal(final BigInteger bigIntegerValue)\n
     '''
 def insertNewVal():
-    '''public XmlInteger insertNewVal(final int n)
+    '''returns XmlInteger\n\n
+    insertNewVal(final int n)\n
     '''
 def addNewVal():
-    '''public XmlInteger addNewVal()
+    '''returns XmlInteger\n\n
+    addNewVal()\n
     '''
 def removeVal():
-    '''public void removeVal(final int n)
+    '''returns None\n\n
+    removeVal(final int n)\n
     '''
 def getMinList():
-    '''public List<BigInteger> getMinList()
+    '''returns List<BigInteger>\n\n
+    getMinList()\n
     '''
 def getMinArray():
-    '''public BigInteger[] getMinArray()
-    public BigInteger getMinArray(final int n)
+    '''returns BigInteger\n\n
+    getMinArray()\n
+    getMinArray(final int n)\n
     '''
 def xgetMinList():
-    '''public List<XmlInteger> xgetMinList()
+    '''returns List<XmlInteger>\n\n
+    xgetMinList()\n
     '''
 def xgetMinArray():
-    '''public XmlInteger[] xgetMinArray()
-    public XmlInteger xgetMinArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetMinArray()\n
+    xgetMinArray(final int n)\n
     '''
 def sizeOfMinArray():
-    '''public int sizeOfMinArray()
+    '''returns int\n\n
+    sizeOfMinArray()\n
     '''
 def setMinArray():
-    '''public void setMinArray(final BigInteger[] array)
-    public void setMinArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setMinArray(final BigInteger[] array)\n
+    setMinArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetMinArray():
-    '''public void xsetMinArray(final XmlInteger[] array)
-    public void xsetMinArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetMinArray(final XmlInteger[] array)\n
+    xsetMinArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertMin():
-    '''public void insertMin(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertMin(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addMin():
-    '''public void addMin(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addMin(final BigInteger bigIntegerValue)\n
     '''
 def insertNewMin():
-    '''public XmlInteger insertNewMin(final int n)
+    '''returns XmlInteger\n\n
+    insertNewMin(final int n)\n
     '''
 def addNewMin():
-    '''public XmlInteger addNewMin()
+    '''returns XmlInteger\n\n
+    addNewMin()\n
     '''
 def removeMin():
-    '''public void removeMin(final int n)
+    '''returns None\n\n
+    removeMin(final int n)\n
     '''
 def getMaxList():
-    '''public List<BigInteger> getMaxList()
+    '''returns List<BigInteger>\n\n
+    getMaxList()\n
     '''
 def getMaxArray():
-    '''public BigInteger[] getMaxArray()
-    public BigInteger getMaxArray(final int n)
+    '''returns BigInteger\n\n
+    getMaxArray()\n
+    getMaxArray(final int n)\n
     '''
 def xgetMaxList():
-    '''public List<XmlInteger> xgetMaxList()
+    '''returns List<XmlInteger>\n\n
+    xgetMaxList()\n
     '''
 def xgetMaxArray():
-    '''public XmlInteger[] xgetMaxArray()
-    public XmlInteger xgetMaxArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetMaxArray()\n
+    xgetMaxArray(final int n)\n
     '''
 def sizeOfMaxArray():
-    '''public int sizeOfMaxArray()
+    '''returns int\n\n
+    sizeOfMaxArray()\n
     '''
 def setMaxArray():
-    '''public void setMaxArray(final BigInteger[] array)
-    public void setMaxArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setMaxArray(final BigInteger[] array)\n
+    setMaxArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetMaxArray():
-    '''public void xsetMaxArray(final XmlInteger[] array)
-    public void xsetMaxArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetMaxArray(final XmlInteger[] array)\n
+    xsetMaxArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertMax():
-    '''public void insertMax(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertMax(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addMax():
-    '''public void addMax(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addMax(final BigInteger bigIntegerValue)\n
     '''
 def insertNewMax():
-    '''public XmlInteger insertNewMax(final int n)
+    '''returns XmlInteger\n\n
+    insertNewMax(final int n)\n
     '''
 def addNewMax():
-    '''public XmlInteger addNewMax()
+    '''returns XmlInteger\n\n
+    addNewMax()\n
     '''
 def removeMax():
-    '''public void removeMax(final int n)
+    '''returns None\n\n
+    removeMax(final int n)\n
     '''
 def getIncList():
-    '''public List<BigInteger> getIncList()
+    '''returns List<BigInteger>\n\n
+    getIncList()\n
     '''
 def getIncArray():
-    '''public BigInteger[] getIncArray()
-    public BigInteger getIncArray(final int n)
+    '''returns BigInteger\n\n
+    getIncArray()\n
+    getIncArray(final int n)\n
     '''
 def xgetIncList():
-    '''public List<XmlInteger> xgetIncList()
+    '''returns List<XmlInteger>\n\n
+    xgetIncList()\n
     '''
 def xgetIncArray():
-    '''public XmlInteger[] xgetIncArray()
-    public XmlInteger xgetIncArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetIncArray()\n
+    xgetIncArray(final int n)\n
     '''
 def sizeOfIncArray():
-    '''public int sizeOfIncArray()
+    '''returns int\n\n
+    sizeOfIncArray()\n
     '''
 def setIncArray():
-    '''public void setIncArray(final BigInteger[] array)
-    public void setIncArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setIncArray(final BigInteger[] array)\n
+    setIncArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetIncArray():
-    '''public void xsetIncArray(final XmlInteger[] array)
-    public void xsetIncArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetIncArray(final XmlInteger[] array)\n
+    xsetIncArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertInc():
-    '''public void insertInc(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertInc(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addInc():
-    '''public void addInc(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addInc(final BigInteger bigIntegerValue)\n
     '''
 def insertNewInc():
-    '''public XmlInteger insertNewInc(final int n)
+    '''returns XmlInteger\n\n
+    insertNewInc(final int n)\n
     '''
 def addNewInc():
-    '''public XmlInteger addNewInc()
+    '''returns XmlInteger\n\n
+    addNewInc()\n
     '''
 def removeInc():
-    '''public void removeInc(final int n)
+    '''returns None\n\n
+    removeInc(final int n)\n
     '''
 def getPageList():
-    '''public List<BigInteger> getPageList()
+    '''returns List<BigInteger>\n\n
+    getPageList()\n
     '''
 def getPageArray():
-    '''public BigInteger[] getPageArray()
-    public BigInteger getPageArray(final int n)
+    '''returns BigInteger\n\n
+    getPageArray()\n
+    getPageArray(final int n)\n
     '''
 def xgetPageList():
-    '''public List<XmlInteger> xgetPageList()
+    '''returns List<XmlInteger>\n\n
+    xgetPageList()\n
     '''
 def xgetPageArray():
-    '''public XmlInteger[] xgetPageArray()
-    public XmlInteger xgetPageArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetPageArray()\n
+    xgetPageArray(final int n)\n
     '''
 def sizeOfPageArray():
-    '''public int sizeOfPageArray()
+    '''returns int\n\n
+    sizeOfPageArray()\n
     '''
 def setPageArray():
-    '''public void setPageArray(final BigInteger[] array)
-    public void setPageArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setPageArray(final BigInteger[] array)\n
+    setPageArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetPageArray():
-    '''public void xsetPageArray(final XmlInteger[] array)
-    public void xsetPageArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetPageArray(final XmlInteger[] array)\n
+    xsetPageArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertPage():
-    '''public void insertPage(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertPage(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addPage():
-    '''public void addPage(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addPage(final BigInteger bigIntegerValue)\n
     '''
 def insertNewPage():
-    '''public XmlInteger insertNewPage(final int n)
+    '''returns XmlInteger\n\n
+    insertNewPage(final int n)\n
     '''
 def addNewPage():
-    '''public XmlInteger addNewPage()
+    '''returns XmlInteger\n\n
+    addNewPage()\n
     '''
 def removePage():
-    '''public void removePage(final int n)
+    '''returns None\n\n
+    removePage(final int n)\n
     '''
 def xgetHorizList():
-    '''public List<STTrueFalseBlank> xgetHorizList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetHorizList()\n
     '''
 def xgetHorizArray():
-    '''public STTrueFalseBlank[] xgetHorizArray()
-    public STTrueFalseBlank xgetHorizArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetHorizArray()\n
+    xgetHorizArray(final int n)\n
     '''
 def sizeOfHorizArray():
-    '''public int sizeOfHorizArray()
+    '''returns int\n\n
+    sizeOfHorizArray()\n
     '''
 def setHorizArray():
-    '''public void setHorizArray(final STTrueFalseBlank.Enum[] array)
-    public void setHorizArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setHorizArray(final STTrueFalseBlank.Enum[] array)\n
+    setHorizArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetHorizArray():
-    '''public void xsetHorizArray(final STTrueFalseBlank[] array)
-    public void xsetHorizArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetHorizArray(final STTrueFalseBlank[] array)\n
+    xsetHorizArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertHoriz():
-    '''public void insertHoriz(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertHoriz(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addHoriz():
-    '''public void addHoriz(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addHoriz(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewHoriz():
-    '''public STTrueFalseBlank insertNewHoriz(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewHoriz(final int n)\n
     '''
 def addNewHoriz():
-    '''public STTrueFalseBlank addNewHoriz()
+    '''returns STTrueFalseBlank\n\n
+    addNewHoriz()\n
     '''
 def removeHoriz():
-    '''public void removeHoriz(final int n)
+    '''returns None\n\n
+    removeHoriz(final int n)\n
     '''
 def getDxList():
-    '''public List<BigInteger> getDxList()
+    '''returns List<BigInteger>\n\n
+    getDxList()\n
     '''
 def getDxArray():
-    '''public BigInteger[] getDxArray()
-    public BigInteger getDxArray(final int n)
+    '''returns BigInteger\n\n
+    getDxArray()\n
+    getDxArray(final int n)\n
     '''
 def xgetDxList():
-    '''public List<XmlInteger> xgetDxList()
+    '''returns List<XmlInteger>\n\n
+    xgetDxList()\n
     '''
 def xgetDxArray():
-    '''public XmlInteger[] xgetDxArray()
-    public XmlInteger xgetDxArray(final int n)
+    '''returns XmlInteger\n\n
+    xgetDxArray()\n
+    xgetDxArray(final int n)\n
     '''
 def sizeOfDxArray():
-    '''public int sizeOfDxArray()
+    '''returns int\n\n
+    sizeOfDxArray()\n
     '''
 def setDxArray():
-    '''public void setDxArray(final BigInteger[] array)
-    public void setDxArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setDxArray(final BigInteger[] array)\n
+    setDxArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetDxArray():
-    '''public void xsetDxArray(final XmlInteger[] array)
-    public void xsetDxArray(final int n, final XmlInteger xmlInteger)
+    '''returns None\n\n
+    xsetDxArray(final XmlInteger[] array)\n
+    xsetDxArray(final int n, final XmlInteger xmlInteger)\n
     '''
 def insertDx():
-    '''public void insertDx(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertDx(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addDx():
-    '''public void addDx(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addDx(final BigInteger bigIntegerValue)\n
     '''
 def insertNewDx():
-    '''public XmlInteger insertNewDx(final int n)
+    '''returns XmlInteger\n\n
+    insertNewDx(final int n)\n
     '''
 def addNewDx():
-    '''public XmlInteger addNewDx()
+    '''returns XmlInteger\n\n
+    addNewDx()\n
     '''
 def removeDx():
-    '''public void removeDx(final int n)
+    '''returns None\n\n
+    removeDx(final int n)\n
     '''
 def xgetMapOCXList():
-    '''public List<STTrueFalseBlank> xgetMapOCXList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetMapOCXList()\n
     '''
 def xgetMapOCXArray():
-    '''public STTrueFalseBlank[] xgetMapOCXArray()
-    public STTrueFalseBlank xgetMapOCXArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetMapOCXArray()\n
+    xgetMapOCXArray(final int n)\n
     '''
 def sizeOfMapOCXArray():
-    '''public int sizeOfMapOCXArray()
+    '''returns int\n\n
+    sizeOfMapOCXArray()\n
     '''
 def setMapOCXArray():
-    '''public void setMapOCXArray(final STTrueFalseBlank.Enum[] array)
-    public void setMapOCXArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setMapOCXArray(final STTrueFalseBlank.Enum[] array)\n
+    setMapOCXArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetMapOCXArray():
-    '''public void xsetMapOCXArray(final STTrueFalseBlank[] array)
-    public void xsetMapOCXArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetMapOCXArray(final STTrueFalseBlank[] array)\n
+    xsetMapOCXArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertMapOCX():
-    '''public void insertMapOCX(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertMapOCX(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addMapOCX():
-    '''public void addMapOCX(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addMapOCX(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewMapOCX():
-    '''public STTrueFalseBlank insertNewMapOCX(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewMapOCX(final int n)\n
     '''
 def addNewMapOCX():
-    '''public STTrueFalseBlank addNewMapOCX()
+    '''returns STTrueFalseBlank\n\n
+    addNewMapOCX()\n
     '''
 def removeMapOCX():
-    '''public void removeMapOCX(final int n)
+    '''returns None\n\n
+    removeMapOCX(final int n)\n
     '''
 def xgetCFList():
-    '''public List<STCF> xgetCFList()
+    '''returns List<STCF>\n\n
+    xgetCFList()\n
     '''
 def xgetCFArray():
-    '''public STCF[] xgetCFArray()
-    public STCF xgetCFArray(final int n)
+    '''returns STCF\n\n
+    xgetCFArray()\n
+    xgetCFArray(final int n)\n
     '''
 def sizeOfCFArray():
-    '''public int sizeOfCFArray()
+    '''returns int\n\n
+    sizeOfCFArray()\n
     '''
 def setCFArray():
-    '''public void setCFArray(final STCF.Enum[] array)
-    public void setCFArray(final int n, final STCF.Enum enumValue)
+    '''returns None\n\n
+    setCFArray(final STCF.Enum[] array)\n
+    setCFArray(final int n, final STCF.Enum enumValue)\n
     '''
 def xsetCFArray():
-    '''public void xsetCFArray(final STCF[] array)
-    public void xsetCFArray(final int n, final STCF stcf)
+    '''returns None\n\n
+    xsetCFArray(final STCF[] array)\n
+    xsetCFArray(final int n, final STCF stcf)\n
     '''
 def insertCF():
-    '''public void insertCF(final int n, final STCF.Enum enumValue)
+    '''returns None\n\n
+    insertCF(final int n, final STCF.Enum enumValue)\n
     '''
 def addCF():
-    '''public void addCF(final STCF.Enum enumValue)
+    '''returns None\n\n
+    addCF(final STCF.Enum enumValue)\n
     '''
 def insertNewCF():
-    '''public STCF insertNewCF(final int n)
+    '''returns STCF\n\n
+    insertNewCF(final int n)\n
     '''
 def addNewCF():
-    '''public STCF addNewCF()
+    '''returns STCF\n\n
+    addNewCF()\n
     '''
 def removeCF():
-    '''public void removeCF(final int n)
+    '''returns None\n\n
+    removeCF(final int n)\n
     '''
 def xgetCameraList():
-    '''public List<STTrueFalseBlank> xgetCameraList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetCameraList()\n
     '''
 def xgetCameraArray():
-    '''public STTrueFalseBlank[] xgetCameraArray()
-    public STTrueFalseBlank xgetCameraArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetCameraArray()\n
+    xgetCameraArray(final int n)\n
     '''
 def sizeOfCameraArray():
-    '''public int sizeOfCameraArray()
+    '''returns int\n\n
+    sizeOfCameraArray()\n
     '''
 def setCameraArray():
-    '''public void setCameraArray(final STTrueFalseBlank.Enum[] array)
-    public void setCameraArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setCameraArray(final STTrueFalseBlank.Enum[] array)\n
+    setCameraArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetCameraArray():
-    '''public void xsetCameraArray(final STTrueFalseBlank[] array)
-    public void xsetCameraArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetCameraArray(final STTrueFalseBlank[] array)\n
+    xsetCameraArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertCamera():
-    '''public void insertCamera(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertCamera(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addCamera():
-    '''public void addCamera(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addCamera(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewCamera():
-    '''public STTrueFalseBlank insertNewCamera(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewCamera(final int n)\n
     '''
 def addNewCamera():
-    '''public STTrueFalseBlank addNewCamera()
+    '''returns STTrueFalseBlank\n\n
+    addNewCamera()\n
     '''
 def removeCamera():
-    '''public void removeCamera(final int n)
+    '''returns None\n\n
+    removeCamera(final int n)\n
     '''
 def xgetRecalcAlwaysList():
-    '''public List<STTrueFalseBlank> xgetRecalcAlwaysList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetRecalcAlwaysList()\n
     '''
 def xgetRecalcAlwaysArray():
-    '''public STTrueFalseBlank[] xgetRecalcAlwaysArray()
-    public STTrueFalseBlank xgetRecalcAlwaysArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetRecalcAlwaysArray()\n
+    xgetRecalcAlwaysArray(final int n)\n
     '''
 def sizeOfRecalcAlwaysArray():
-    '''public int sizeOfRecalcAlwaysArray()
+    '''returns int\n\n
+    sizeOfRecalcAlwaysArray()\n
     '''
 def setRecalcAlwaysArray():
-    '''public void setRecalcAlwaysArray(final STTrueFalseBlank.Enum[] array)
-    public void setRecalcAlwaysArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setRecalcAlwaysArray(final STTrueFalseBlank.Enum[] array)\n
+    setRecalcAlwaysArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetRecalcAlwaysArray():
-    '''public void xsetRecalcAlwaysArray(final STTrueFalseBlank[] array)
-    public void xsetRecalcAlwaysArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetRecalcAlwaysArray(final STTrueFalseBlank[] array)\n
+    xsetRecalcAlwaysArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertRecalcAlways():
-    '''public void insertRecalcAlways(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertRecalcAlways(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addRecalcAlways():
-    '''public void addRecalcAlways(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addRecalcAlways(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewRecalcAlways():
-    '''public STTrueFalseBlank insertNewRecalcAlways(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewRecalcAlways(final int n)\n
     '''
 def addNewRecalcAlways():
-    '''public STTrueFalseBlank addNewRecalcAlways()
+    '''returns STTrueFalseBlank\n\n
+    addNewRecalcAlways()\n
     '''
 def removeRecalcAlways():
-    '''public void removeRecalcAlways(final int n)
+    '''returns None\n\n
+    removeRecalcAlways(final int n)\n
     '''
 def xgetAutoScaleList():
-    '''public List<STTrueFalseBlank> xgetAutoScaleList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetAutoScaleList()\n
     '''
 def xgetAutoScaleArray():
-    '''public STTrueFalseBlank[] xgetAutoScaleArray()
-    public STTrueFalseBlank xgetAutoScaleArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetAutoScaleArray()\n
+    xgetAutoScaleArray(final int n)\n
     '''
 def sizeOfAutoScaleArray():
-    '''public int sizeOfAutoScaleArray()
+    '''returns int\n\n
+    sizeOfAutoScaleArray()\n
     '''
 def setAutoScaleArray():
-    '''public void setAutoScaleArray(final STTrueFalseBlank.Enum[] array)
-    public void setAutoScaleArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setAutoScaleArray(final STTrueFalseBlank.Enum[] array)\n
+    setAutoScaleArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetAutoScaleArray():
-    '''public void xsetAutoScaleArray(final STTrueFalseBlank[] array)
-    public void xsetAutoScaleArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetAutoScaleArray(final STTrueFalseBlank[] array)\n
+    xsetAutoScaleArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertAutoScale():
-    '''public void insertAutoScale(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertAutoScale(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addAutoScale():
-    '''public void addAutoScale(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addAutoScale(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewAutoScale():
-    '''public STTrueFalseBlank insertNewAutoScale(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewAutoScale(final int n)\n
     '''
 def addNewAutoScale():
-    '''public STTrueFalseBlank addNewAutoScale()
+    '''returns STTrueFalseBlank\n\n
+    addNewAutoScale()\n
     '''
 def removeAutoScale():
-    '''public void removeAutoScale(final int n)
+    '''returns None\n\n
+    removeAutoScale(final int n)\n
     '''
 def xgetDDEList():
-    '''public List<STTrueFalseBlank> xgetDDEList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetDDEList()\n
     '''
 def xgetDDEArray():
-    '''public STTrueFalseBlank[] xgetDDEArray()
-    public STTrueFalseBlank xgetDDEArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetDDEArray()\n
+    xgetDDEArray(final int n)\n
     '''
 def sizeOfDDEArray():
-    '''public int sizeOfDDEArray()
+    '''returns int\n\n
+    sizeOfDDEArray()\n
     '''
 def setDDEArray():
-    '''public void setDDEArray(final STTrueFalseBlank.Enum[] array)
-    public void setDDEArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setDDEArray(final STTrueFalseBlank.Enum[] array)\n
+    setDDEArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetDDEArray():
-    '''public void xsetDDEArray(final STTrueFalseBlank[] array)
-    public void xsetDDEArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetDDEArray(final STTrueFalseBlank[] array)\n
+    xsetDDEArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertDDE():
-    '''public void insertDDE(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertDDE(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addDDE():
-    '''public void addDDE(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addDDE(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewDDE():
-    '''public STTrueFalseBlank insertNewDDE(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewDDE(final int n)\n
     '''
 def addNewDDE():
-    '''public STTrueFalseBlank addNewDDE()
+    '''returns STTrueFalseBlank\n\n
+    addNewDDE()\n
     '''
 def removeDDE():
-    '''public void removeDDE(final int n)
+    '''returns None\n\n
+    removeDDE(final int n)\n
     '''
 def xgetUIObjList():
-    '''public List<STTrueFalseBlank> xgetUIObjList()
+    '''returns List<STTrueFalseBlank>\n\n
+    xgetUIObjList()\n
     '''
 def xgetUIObjArray():
-    '''public STTrueFalseBlank[] xgetUIObjArray()
-    public STTrueFalseBlank xgetUIObjArray(final int n)
+    '''returns STTrueFalseBlank\n\n
+    xgetUIObjArray()\n
+    xgetUIObjArray(final int n)\n
     '''
 def sizeOfUIObjArray():
-    '''public int sizeOfUIObjArray()
+    '''returns int\n\n
+    sizeOfUIObjArray()\n
     '''
 def setUIObjArray():
-    '''public void setUIObjArray(final STTrueFalseBlank.Enum[] array)
-    public void setUIObjArray(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    setUIObjArray(final STTrueFalseBlank.Enum[] array)\n
+    setUIObjArray(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def xsetUIObjArray():
-    '''public void xsetUIObjArray(final STTrueFalseBlank[] array)
-    public void xsetUIObjArray(final int n, final STTrueFalseBlank stTrueFalseBlank)
+    '''returns None\n\n
+    xsetUIObjArray(final STTrueFalseBlank[] array)\n
+    xsetUIObjArray(final int n, final STTrueFalseBlank stTrueFalseBlank)\n
     '''
 def insertUIObj():
-    '''public void insertUIObj(final int n, final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    insertUIObj(final int n, final STTrueFalseBlank.Enum enumValue)\n
     '''
 def addUIObj():
-    '''public void addUIObj(final STTrueFalseBlank.Enum enumValue)
+    '''returns None\n\n
+    addUIObj(final STTrueFalseBlank.Enum enumValue)\n
     '''
 def insertNewUIObj():
-    '''public STTrueFalseBlank insertNewUIObj(final int n)
+    '''returns STTrueFalseBlank\n\n
+    insertNewUIObj(final int n)\n
     '''
 def addNewUIObj():
-    '''public STTrueFalseBlank addNewUIObj()
+    '''returns STTrueFalseBlank\n\n
+    addNewUIObj()\n
     '''
 def removeUIObj():
-    '''public void removeUIObj(final int n)
+    '''returns None\n\n
+    removeUIObj(final int n)\n
     '''
 def getScriptTextList():
-    '''public List<String> getScriptTextList()
+    '''returns List<String>\n\n
+    getScriptTextList()\n
     '''
 def getScriptTextArray():
-    '''public String[] getScriptTextArray()
-    public String getScriptTextArray(final int n)
+    '''returns String\n\n
+    getScriptTextArray()\n
+    getScriptTextArray(final int n)\n
     '''
 def xgetScriptTextList():
-    '''public List<XmlString> xgetScriptTextList()
+    '''returns List<XmlString>\n\n
+    xgetScriptTextList()\n
     '''
 def xgetScriptTextArray():
-    '''public XmlString[] xgetScriptTextArray()
-    public XmlString xgetScriptTextArray(final int n)
+    '''returns XmlString\n\n
+    xgetScriptTextArray()\n
+    xgetScriptTextArray(final int n)\n
     '''
 def sizeOfScriptTextArray():
-    '''public int sizeOfScriptTextArray()
+    '''returns int\n\n
+    sizeOfScriptTextArray()\n
     '''
 def setScriptTextArray():
-    '''public void setScriptTextArray(final String[] array)
-    public void setScriptTextArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setScriptTextArray(final String[] array)\n
+    setScriptTextArray(final int n, final String stringValue)\n
     '''
 def xsetScriptTextArray():
-    '''public void xsetScriptTextArray(final XmlString[] array)
-    public void xsetScriptTextArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetScriptTextArray(final XmlString[] array)\n
+    xsetScriptTextArray(final int n, final XmlString xmlString)\n
     '''
 def insertScriptText():
-    '''public void insertScriptText(final int n, final String stringValue)
+    '''returns None\n\n
+    insertScriptText(final int n, final String stringValue)\n
     '''
 def addScriptText():
-    '''public void addScriptText(final String stringValue)
+    '''returns None\n\n
+    addScriptText(final String stringValue)\n
     '''
 def insertNewScriptText():
-    '''public XmlString insertNewScriptText(final int n)
+    '''returns XmlString\n\n
+    insertNewScriptText(final int n)\n
     '''
 def addNewScriptText():
-    '''public XmlString addNewScriptText()
+    '''returns XmlString\n\n
+    addNewScriptText()\n
     '''
 def removeScriptText():
-    '''public void removeScriptText(final int n)
+    '''returns None\n\n
+    removeScriptText(final int n)\n
     '''
 def getScriptExtendedList():
-    '''public List<String> getScriptExtendedList()
+    '''returns List<String>\n\n
+    getScriptExtendedList()\n
     '''
 def getScriptExtendedArray():
-    '''public String[] getScriptExtendedArray()
-    public String getScriptExtendedArray(final int n)
+    '''returns String\n\n
+    getScriptExtendedArray()\n
+    getScriptExtendedArray(final int n)\n
     '''
 def xgetScriptExtendedList():
-    '''public List<XmlString> xgetScriptExtendedList()
+    '''returns List<XmlString>\n\n
+    xgetScriptExtendedList()\n
     '''
 def xgetScriptExtendedArray():
-    '''public XmlString[] xgetScriptExtendedArray()
-    public XmlString xgetScriptExtendedArray(final int n)
+    '''returns XmlString\n\n
+    xgetScriptExtendedArray()\n
+    xgetScriptExtendedArray(final int n)\n
     '''
 def sizeOfScriptExtendedArray():
-    '''public int sizeOfScriptExtendedArray()
+    '''returns int\n\n
+    sizeOfScriptExtendedArray()\n
     '''
 def setScriptExtendedArray():
-    '''public void setScriptExtendedArray(final String[] array)
-    public void setScriptExtendedArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setScriptExtendedArray(final String[] array)\n
+    setScriptExtendedArray(final int n, final String stringValue)\n
     '''
 def xsetScriptExtendedArray():
-    '''public void xsetScriptExtendedArray(final XmlString[] array)
-    public void xsetScriptExtendedArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetScriptExtendedArray(final XmlString[] array)\n
+    xsetScriptExtendedArray(final int n, final XmlString xmlString)\n
     '''
 def insertScriptExtended():
-    '''public void insertScriptExtended(final int n, final String stringValue)
+    '''returns None\n\n
+    insertScriptExtended(final int n, final String stringValue)\n
     '''
 def addScriptExtended():
-    '''public void addScriptExtended(final String stringValue)
+    '''returns None\n\n
+    addScriptExtended(final String stringValue)\n
     '''
 def insertNewScriptExtended():
-    '''public XmlString insertNewScriptExtended(final int n)
+    '''returns XmlString\n\n
+    insertNewScriptExtended(final int n)\n
     '''
 def addNewScriptExtended():
-    '''public XmlString addNewScriptExtended()
+    '''returns XmlString\n\n
+    addNewScriptExtended()\n
     '''
 def removeScriptExtended():
-    '''public void removeScriptExtended(final int n)
+    '''returns None\n\n
+    removeScriptExtended(final int n)\n
     '''
 def getScriptLanguageList():
-    '''public List<BigInteger> getScriptLanguageList()
+    '''returns List<BigInteger>\n\n
+    getScriptLanguageList()\n
     '''
 def getScriptLanguageArray():
-    '''public BigInteger[] getScriptLanguageArray()
-    public BigInteger getScriptLanguageArray(final int n)
+    '''returns BigInteger\n\n
+    getScriptLanguageArray()\n
+    getScriptLanguageArray(final int n)\n
     '''
 def xgetScriptLanguageList():
-    '''public List<XmlNonNegativeInteger> xgetScriptLanguageList()
+    '''returns List<XmlNonNegativeInteger>\n\n
+    xgetScriptLanguageList()\n
     '''
 def xgetScriptLanguageArray():
-    '''public XmlNonNegativeInteger[] xgetScriptLanguageArray()
-    public XmlNonNegativeInteger xgetScriptLanguageArray(final int n)
+    '''returns XmlNonNegativeInteger\n\n
+    xgetScriptLanguageArray()\n
+    xgetScriptLanguageArray(final int n)\n
     '''
 def sizeOfScriptLanguageArray():
-    '''public int sizeOfScriptLanguageArray()
+    '''returns int\n\n
+    sizeOfScriptLanguageArray()\n
     '''
 def setScriptLanguageArray():
-    '''public void setScriptLanguageArray(final BigInteger[] array)
-    public void setScriptLanguageArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setScriptLanguageArray(final BigInteger[] array)\n
+    setScriptLanguageArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetScriptLanguageArray():
-    '''public void xsetScriptLanguageArray(final XmlNonNegativeInteger[] array)
-    public void xsetScriptLanguageArray(final int n, final XmlNonNegativeInteger xmlNonNegativeInteger)
+    '''returns None\n\n
+    xsetScriptLanguageArray(final XmlNonNegativeInteger[] array)\n
+    xsetScriptLanguageArray(final int n, final XmlNonNegativeInteger xmlNonNegativeInteger)\n
     '''
 def insertScriptLanguage():
-    '''public void insertScriptLanguage(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertScriptLanguage(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addScriptLanguage():
-    '''public void addScriptLanguage(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addScriptLanguage(final BigInteger bigIntegerValue)\n
     '''
 def insertNewScriptLanguage():
-    '''public XmlNonNegativeInteger insertNewScriptLanguage(final int n)
+    '''returns XmlNonNegativeInteger\n\n
+    insertNewScriptLanguage(final int n)\n
     '''
 def addNewScriptLanguage():
-    '''public XmlNonNegativeInteger addNewScriptLanguage()
+    '''returns XmlNonNegativeInteger\n\n
+    addNewScriptLanguage()\n
     '''
 def removeScriptLanguage():
-    '''public void removeScriptLanguage(final int n)
+    '''returns None\n\n
+    removeScriptLanguage(final int n)\n
     '''
 def getScriptLocationList():
-    '''public List<BigInteger> getScriptLocationList()
+    '''returns List<BigInteger>\n\n
+    getScriptLocationList()\n
     '''
 def getScriptLocationArray():
-    '''public BigInteger[] getScriptLocationArray()
-    public BigInteger getScriptLocationArray(final int n)
+    '''returns BigInteger\n\n
+    getScriptLocationArray()\n
+    getScriptLocationArray(final int n)\n
     '''
 def xgetScriptLocationList():
-    '''public List<XmlNonNegativeInteger> xgetScriptLocationList()
+    '''returns List<XmlNonNegativeInteger>\n\n
+    xgetScriptLocationList()\n
     '''
 def xgetScriptLocationArray():
-    '''public XmlNonNegativeInteger[] xgetScriptLocationArray()
-    public XmlNonNegativeInteger xgetScriptLocationArray(final int n)
+    '''returns XmlNonNegativeInteger\n\n
+    xgetScriptLocationArray()\n
+    xgetScriptLocationArray(final int n)\n
     '''
 def sizeOfScriptLocationArray():
-    '''public int sizeOfScriptLocationArray()
+    '''returns int\n\n
+    sizeOfScriptLocationArray()\n
     '''
 def setScriptLocationArray():
-    '''public void setScriptLocationArray(final BigInteger[] array)
-    public void setScriptLocationArray(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    setScriptLocationArray(final BigInteger[] array)\n
+    setScriptLocationArray(final int n, final BigInteger bigIntegerValue)\n
     '''
 def xsetScriptLocationArray():
-    '''public void xsetScriptLocationArray(final XmlNonNegativeInteger[] array)
-    public void xsetScriptLocationArray(final int n, final XmlNonNegativeInteger xmlNonNegativeInteger)
+    '''returns None\n\n
+    xsetScriptLocationArray(final XmlNonNegativeInteger[] array)\n
+    xsetScriptLocationArray(final int n, final XmlNonNegativeInteger xmlNonNegativeInteger)\n
     '''
 def insertScriptLocation():
-    '''public void insertScriptLocation(final int n, final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    insertScriptLocation(final int n, final BigInteger bigIntegerValue)\n
     '''
 def addScriptLocation():
-    '''public void addScriptLocation(final BigInteger bigIntegerValue)
+    '''returns None\n\n
+    addScriptLocation(final BigInteger bigIntegerValue)\n
     '''
 def insertNewScriptLocation():
-    '''public XmlNonNegativeInteger insertNewScriptLocation(final int n)
+    '''returns XmlNonNegativeInteger\n\n
+    insertNewScriptLocation(final int n)\n
     '''
 def addNewScriptLocation():
-    '''public XmlNonNegativeInteger addNewScriptLocation()
+    '''returns XmlNonNegativeInteger\n\n
+    addNewScriptLocation()\n
     '''
 def removeScriptLocation():
-    '''public void removeScriptLocation(final int n)
+    '''returns None\n\n
+    removeScriptLocation(final int n)\n
     '''
 def getFmlaTxbxList():
-    '''public List<String> getFmlaTxbxList()
+    '''returns List<String>\n\n
+    getFmlaTxbxList()\n
     '''
 def getFmlaTxbxArray():
-    '''public String[] getFmlaTxbxArray()
-    public String getFmlaTxbxArray(final int n)
+    '''returns String\n\n
+    getFmlaTxbxArray()\n
+    getFmlaTxbxArray(final int n)\n
     '''
 def xgetFmlaTxbxList():
-    '''public List<XmlString> xgetFmlaTxbxList()
+    '''returns List<XmlString>\n\n
+    xgetFmlaTxbxList()\n
     '''
 def xgetFmlaTxbxArray():
-    '''public XmlString[] xgetFmlaTxbxArray()
-    public XmlString xgetFmlaTxbxArray(final int n)
+    '''returns XmlString\n\n
+    xgetFmlaTxbxArray()\n
+    xgetFmlaTxbxArray(final int n)\n
     '''
 def sizeOfFmlaTxbxArray():
-    '''public int sizeOfFmlaTxbxArray()
+    '''returns int\n\n
+    sizeOfFmlaTxbxArray()\n
     '''
 def setFmlaTxbxArray():
-    '''public void setFmlaTxbxArray(final String[] array)
-    public void setFmlaTxbxArray(final int n, final String stringValue)
+    '''returns None\n\n
+    setFmlaTxbxArray(final String[] array)\n
+    setFmlaTxbxArray(final int n, final String stringValue)\n
     '''
 def xsetFmlaTxbxArray():
-    '''public void xsetFmlaTxbxArray(final XmlString[] array)
-    public void xsetFmlaTxbxArray(final int n, final XmlString xmlString)
+    '''returns None\n\n
+    xsetFmlaTxbxArray(final XmlString[] array)\n
+    xsetFmlaTxbxArray(final int n, final XmlString xmlString)\n
     '''
 def insertFmlaTxbx():
-    '''public void insertFmlaTxbx(final int n, final String stringValue)
+    '''returns None\n\n
+    insertFmlaTxbx(final int n, final String stringValue)\n
     '''
 def addFmlaTxbx():
-    '''public void addFmlaTxbx(final String stringValue)
+    '''returns None\n\n
+    addFmlaTxbx(final String stringValue)\n
     '''
 def insertNewFmlaTxbx():
-    '''public XmlString insertNewFmlaTxbx(final int n)
+    '''returns XmlString\n\n
+    insertNewFmlaTxbx(final int n)\n
     '''
 def addNewFmlaTxbx():
-    '''public XmlString addNewFmlaTxbx()
+    '''returns XmlString\n\n
+    addNewFmlaTxbx()\n
     '''
 def removeFmlaTxbx():
-    '''public void removeFmlaTxbx(final int n)
+    '''returns None\n\n
+    removeFmlaTxbx(final int n)\n
     '''
 def xgetObjectType():
-    '''public STObjectType xgetObjectType()
+    '''returns STObjectType\n\n
+    xgetObjectType()\n
     '''
 def setObjectType():
-    '''public void setObjectType(final STObjectType.Enum enumValue)
+    '''returns None\n\n
+    setObjectType(final STObjectType.Enum enumValue)\n
     '''
 def xsetObjectType():
-    '''public void xsetObjectType(final STObjectType stObjectType)
+    '''returns None\n\n
+    xsetObjectType(final STObjectType stObjectType)\n
     '''

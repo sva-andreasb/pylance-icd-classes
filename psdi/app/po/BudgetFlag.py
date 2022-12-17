@@ -1,27 +1,36 @@
-def BudgetFlag():
-    '''public BudgetFlag(final MboSet ms)
+def ():
+    '''returns BudgetFlag\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getTransactionObject():
-    '''public String getTransactionObject()
+    '''returns String\n\n
+    getTransactionObject()\n
     '''
 def getTransactionId():
-    '''public long getTransactionId()
+    '''returns long\n\n
+    getTransactionId()\n
     '''
 def getTransactionRowstamp():
-    '''public String getTransactionRowstamp()
+    '''returns String\n\n
+    getTransactionRowstamp()\n
     '''
 def getRuleId():
-    '''public long getRuleId()
+    '''returns long\n\n
+    getRuleId()\n
     '''
 def getBudgetLineId():
-    '''public long getBudgetLineId()
+    '''returns long\n\n
+    getBudgetLineId()\n
     '''
 def getTransactionAmount():
-    '''public double getTransactionAmount()
+    '''returns double\n\n
+    getTransactionAmount()\n
     '''
 def updateFlag():
-    '''public void updateFlag(final double amount, String rowstamp)
+    '''returns None\n\n
+    updateFlag(final double amount, String rowstamp)\n
     '''

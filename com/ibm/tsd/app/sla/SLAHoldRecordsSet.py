@@ -1,12 +1,16 @@
-def SLAHoldRecordsSet():
-    '''public SLAHoldRecordsSet(final MboServerInterface ms)
+def ():
+    '''returns SLAHoldRecordsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def applySLAHoldTime():
-    '''public void applySLAHoldTime()
+    '''returns None\n\n
+    applySLAHoldTime()\n
     '''
 def calculateSLAHoldStatusDateTime():
-    '''public int calculateSLAHoldStatusDateTime(final Date startDate, final Date endDate)
+    '''returns int\n\n
+    calculateSLAHoldStatusDateTime(final Date startDate, final Date endDate)\n
     '''
 def modifySLA():
-    '''public void modifySLA()
+    '''returns None\n\n
+    modifySLA()\n
     '''

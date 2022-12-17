@@ -1,12 +1,16 @@
-def TransferCurItemSet():
-    '''public TransferCurItemSet(final MboServerInterface ms)
+def ():
+    '''returns TransferCurItemSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

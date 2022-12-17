@@ -1,60 +1,69 @@
 def getSourceText():
-    '''public CharacterIterator getSourceText()
+    '''returns CharacterIterator\n\n
+    getSourceText()\n
     '''
 def getParsingStream():
-    '''public ParsingStream getParsingStream()
+    '''returns ParsingStream\n\n
+    getParsingStream()\n
     '''
 def setBreakIteratorByLocaleString():
-    '''public void setBreakIteratorByLocaleString(final String s)
+    '''returns None\n\n
+    setBreakIteratorByLocaleString(final String s)\n
     '''
 def setBreakIteratorByFilename():
-    '''public void setBreakIteratorByFilename(final String s)
+    '''returns None\n\n
+    setBreakIteratorByFilename(final String s)\n
     '''
 def setProcessingMode():
-    '''public void setProcessingMode(final int processingMode)
+    '''returns None\n\n
+    setProcessingMode(final int processingMode)\n
     '''
 def setCaseStrictMode():
-    '''public void setCaseStrictMode(final boolean caseStrictMode)
+    '''returns None\n\n
+    setCaseStrictMode(final boolean caseStrictMode)\n
     '''
 def setGuessingMode():
-    '''public void setGuessingMode(final int guessingMode)
+    '''returns None\n\n
+    setGuessingMode(final int guessingMode)\n
     '''
 def setTransliteratorRuleByFilename():
-    '''public void setTransliteratorRuleByFilename(final String transliteratorRuleFile)
+    '''returns None\n\n
+    setTransliteratorRuleByFilename(final String transliteratorRuleFile)\n
     '''
 def setDictionaries():
-    '''public void setDictionaries(final Dictionary[] array, final Dictionary[] array2, final Dictionary[] array3)
-    public void setDictionaries(final Dictionary[] array, final Dictionary[] array2, final Dictionary[] array3, final Dictionary[] array4)
+    '''returns None\n\n
+    setDictionaries(final Dictionary[] array, final Dictionary[] array2, final Dictionary[] array3)\n
+    setDictionaries(final Dictionary[] array, final Dictionary[] array2, final Dictionary[] array3, final Dictionary[] array4)\n
     '''
 def open():
-    '''public void open(final Dictionary[] array)
-    public void open(final Dictionary[] array, final int n)
-    public void open(final Dictionary[] array, final int n, final int hints, final int flagSpec)
-    public void open(final int n, final int hints, final int flagSpec)
+    '''returns None\n\n
+    open(final Dictionary[] array)\n
+    open(final Dictionary[] array, final int n)\n
+    open(final Dictionary[] array, final int n, final int hints, final int flagSpec)\n
+    open(final int n, final int hints, final int flagSpec)\n
     '''
 def close():
-    '''public void close()
-    '''
-def getUniLexAnalyzer():
-    '''public static UniLexAnalyzer getUniLexAnalyzer(final Locale locale)
-    public static UniLexAnalyzer getUniLexAnalyzer(final String s)
+    '''returns None\n\n
+    close()\n
     '''
 def processTextMW():
-    '''public ParsingStream processTextMW(final CharacterIterator characterIterator, final ParsingStream parsingStream)
-    public ParsingStream processTextMW(final CharacterIterator characterIterator, final ClassificationParsingStream classificationParsingStream)
+    '''returns ParsingStream\n\n
+    processTextMW(final CharacterIterator characterIterator, final ParsingStream parsingStream)\n
+    processTextMW(final CharacterIterator characterIterator, final ClassificationParsingStream classificationParsingStream)\n
     '''
 def processText():
-    '''public ParsingStream processText(final CharacterIterator characterIterator, final ParsingStream plps)
-    '''
-def memcpy():
-    '''public static final void memcpy(final StringBuffer sb, final CharacterIterator characterIterator, final int index, int n)
+    '''returns ParsingStream\n\n
+    processText(final CharacterIterator characterIterator, final ParsingStream plps)\n
     '''
 def getLocale():
-    '''public String getLocale()
+    '''returns String\n\n
+    getLocale()\n
     '''
 def getBrkLocale():
-    '''public String getBrkLocale()
+    '''returns String\n\n
+    getBrkLocale()\n
     '''
 def getBreakIterator():
-    '''public RuleBasedBreakIterator getBreakIterator()
+    '''returns RuleBasedBreakIterator\n\n
+    getBreakIterator()\n
     '''

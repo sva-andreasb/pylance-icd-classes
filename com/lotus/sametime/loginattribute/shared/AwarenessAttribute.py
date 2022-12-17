@@ -1,19 +1,25 @@
-def AwarenessAttribute():
-    '''public AwarenessAttribute()
-    public AwarenessAttribute(final NdrInputStream ndrInputStream)
+def ():
+    '''returns AwarenessAttribute\n\n
+    ()\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def addLoginAttribute():
-    '''public void addLoginAttribute(final LoginAttribute value)
+    '''returns None\n\n
+    addLoginAttribute(final LoginAttribute value)\n
     '''
 def removeLoginAttribute():
-    '''public void removeLoginAttribute(final STLoginId key)
+    '''returns None\n\n
+    removeLoginAttribute(final STLoginId key)\n
     '''
 def getNumEntries():
-    '''public int getNumEntries()
+    '''returns int\n\n
+    getNumEntries()\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''

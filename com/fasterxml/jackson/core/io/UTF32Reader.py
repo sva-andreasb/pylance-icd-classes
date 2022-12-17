@@ -1,10 +1,13 @@
-def UTF32Reader():
-    '''public UTF32Reader(final IOContext ctxt, final InputStream in, final byte[] buf, final int ptr, final int len, final boolean isBigEndian)
+def ():
+    '''returns UTF32Reader\n\n
+    (final IOContext ctxt, final InputStream in, final byte[] buf, final int ptr, final int len, final boolean isBigEndian)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def read():
-    '''public int read()
-    public int read(final char[] cbuf, final int start, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final char[] cbuf, final int start, final int len)\n
     '''

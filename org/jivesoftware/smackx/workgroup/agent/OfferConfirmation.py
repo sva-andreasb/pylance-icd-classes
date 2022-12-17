@@ -1,21 +1,28 @@
-def OfferConfirmation():
-    '''public OfferConfirmation()
+def ():
+    '''returns OfferConfirmation\n\n
+    ()\n
     '''
 def getUserJID():
-    '''public String getUserJID()
+    '''returns String\n\n
+    getUserJID()\n
     '''
 def setUserJID():
-    '''public void setUserJID(final String userJID)
+    '''returns None\n\n
+    setUserJID(final String userJID)\n
     '''
 def getSessionID():
-    '''public long getSessionID()
+    '''returns long\n\n
+    getSessionID()\n
     '''
 def setSessionID():
-    '''public void setSessionID(final long sessionID)
+    '''returns None\n\n
+    setSessionID(final long sessionID)\n
     '''
 def notifyService():
-    '''public void notifyService(final XMPPConnection con, final Jid workgroup, final String createdRoomName)
+    '''returns None\n\n
+    notifyService(final XMPPConnection con, final Jid workgroup, final String createdRoomName)\n
     '''
 def parse():
-    '''public OfferConfirmation parse(final XmlPullParser parser, final int initialDepth)
+    '''returns OfferConfirmation\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

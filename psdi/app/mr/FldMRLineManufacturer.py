@@ -1,3 +1,4 @@
-def FldMRLineManufacturer():
-    '''public FldMRLineManufacturer(final MboValue mbv)
+def ():
+    '''returns FldMRLineManufacturer\n\n
+    (final MboValue mbv)\n
     '''

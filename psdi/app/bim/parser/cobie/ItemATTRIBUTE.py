@@ -1,66 +1,88 @@
-def ItemATTRIBUTE():
-    '''public ItemATTRIBUTE()
+def ():
+    '''returns ItemATTRIBUTE\n\n
+    ()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def skip():
-    '''public boolean skip(final Parser parser, final long flags)
+    '''returns boolean\n\n
+    skip(final Parser parser, final long flags)\n
     '''
 def setAllowedValues():
-    '''public void setAllowedValues(final String allowedValues)
+    '''returns None\n\n
+    setAllowedValues(final String allowedValues)\n
     '''
 def getAllowedValues():
-    '''public String getAllowedValues()
+    '''returns String\n\n
+    getAllowedValues()\n
     '''
 def getAllowedValueSet():
-    '''public HashSet<String> getAllowedValueSet()
+    '''returns HashSet<String>\n\n
+    getAllowedValueSet()\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def getSheetName():
-    '''public String getSheetName()
+    '''returns String\n\n
+    getSheetName()\n
     '''
 def setSheetName():
-    '''public void setSheetName(final String sheetName)
+    '''returns None\n\n
+    setSheetName(final String sheetName)\n
     '''
 def getReference():
-    '''public ItemBase getReference()
+    '''returns ItemBase\n\n
+    getReference()\n
     '''
 def setReference():
-    '''public void setReference(final ItemBase reference)
+    '''returns None\n\n
+    setReference(final ItemBase reference)\n
     '''
 def getRowName():
-    '''public String getRowName()
+    '''returns String\n\n
+    getRowName()\n
     '''
 def setRowName():
-    '''public void setRowName(final String rowName)
+    '''returns None\n\n
+    setRowName(final String rowName)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getUnit():
-    '''public String getUnit()
+    '''returns String\n\n
+    getUnit()\n
     '''
 def setUnit():
-    '''public void setUnit(final String unit)
+    '''returns None\n\n
+    setUnit(final String unit)\n
     '''
 def getType():
-    '''public ItemAttributeType getType()
+    '''returns ItemAttributeType\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final ItemAttributeType _type)
+    '''returns None\n\n
+    setType(final ItemAttributeType _type)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

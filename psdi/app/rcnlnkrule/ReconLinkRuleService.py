@@ -1,4 +1,5 @@
-def ReconLinkRuleService():
-    '''public ReconLinkRuleService()
-    public ReconLinkRuleService(final MXServer mxServer)
+def ():
+    '''returns ReconLinkRuleService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

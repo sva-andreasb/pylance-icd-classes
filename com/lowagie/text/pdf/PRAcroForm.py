@@ -1,27 +1,36 @@
-def PRAcroForm():
-    '''public PRAcroForm(final PdfReader reader)
+def ():
+    '''returns PRAcroForm\n\n
+    (final PdfReader reader)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getFields():
-    '''public ArrayList getFields()
+    '''returns ArrayList\n\n
+    getFields()\n
     '''
 def getField():
-    '''public FieldInformation getField(final String name)
+    '''returns FieldInformation\n\n
+    getField(final String name)\n
     '''
 def getRefByName():
-    '''public PRIndirectReference getRefByName(final String name)
+    '''returns PRIndirectReference\n\n
+    getRefByName(final String name)\n
     '''
 def readAcroForm():
-    '''public void readAcroForm(final PdfDictionary root)
+    '''returns None\n\n
+    readAcroForm(final PdfDictionary root)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInfo():
-    '''public PdfDictionary getInfo()
+    '''returns PdfDictionary\n\n
+    getInfo()\n
     '''
 def getRef():
-    '''public PRIndirectReference getRef()
+    '''returns PRIndirectReference\n\n
+    getRef()\n
     '''

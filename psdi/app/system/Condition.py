@@ -1,33 +1,44 @@
-def Condition():
-    '''public Condition(final MboSet ms)
+def ():
+    '''returns Condition\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def hasReference():
-    '''public boolean hasReference()
+    '''returns boolean\n\n
+    hasReference()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getSameAs():
-    '''public String[][] getSameAs()
+    '''returns String[][]\n\n
+    getSameAs()\n
     '''
 def getInternalType():
-    '''public String getInternalType()
+    '''returns String\n\n
+    getInternalType()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''

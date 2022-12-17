@@ -1,52 +1,69 @@
 TYPE = "String  \"model\""
-def ModelImpl():
-    '''public ModelImpl()
+def ():
+    '''returns ModelImpl\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final int version)
+    '''returns None\n\n
+    setVersion(final int version)\n
     '''
 def getModelType():
-    '''public ModelType getModelType()
+    '''returns ModelType\n\n
+    getModelType()\n
     '''
 def setModelType():
-    '''public void setModelType(final ModelType modelType)
+    '''returns None\n\n
+    setModelType(final ModelType modelType)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getProjectId():
-    '''public ObjectId getProjectId()
+    '''returns ObjectId\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final ObjectId projectId)
+    '''returns None\n\n
+    setProjectId(final ObjectId projectId)\n
     '''
 def getProjectName():
-    '''public String getProjectName()
+    '''returns String\n\n
+    getProjectName()\n
     '''
 def setProjectName():
-    '''public void setProjectName(final String projectName)
+    '''returns None\n\n
+    setProjectName(final String projectName)\n
     '''
 def getAttachments():
-    '''public List<ModelAttachment> getAttachments()
+    '''returns List<ModelAttachment>\n\n
+    getAttachments()\n
     '''
 def setAttachments():
-    '''public void setAttachments(final List<ModelAttachmentImpl> attachments)
+    '''returns None\n\n
+    setAttachments(final List<ModelAttachmentImpl> attachments)\n
     '''

@@ -1,18 +1,16 @@
-def PluginCache():
-    '''public PluginCache()
-    '''
-def getAllCategories():
-    '''public Map<String, Map<String, PluginEntry>> getAllCategories()
-    '''
-def getCategory():
-    '''public Map<String, PluginEntry> getCategory(final String category)
+def ():
+    '''returns PluginCache\n\n
+    ()\n
     '''
 def writeCache():
-    '''public void writeCache(final OutputStream os)
+    '''returns None\n\n
+    writeCache(final OutputStream os)\n
     '''
 def loadCacheFiles():
-    '''public void loadCacheFiles(final Enumeration<URL> resources)
+    '''returns None\n\n
+    loadCacheFiles(final Enumeration<URL> resources)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

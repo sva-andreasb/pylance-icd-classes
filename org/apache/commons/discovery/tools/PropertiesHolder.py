@@ -1,10 +1,13 @@
-def PropertiesHolder():
-    '''public PropertiesHolder(final Properties properties)
-    public PropertiesHolder(final String propertiesFileName)
+def ():
+    '''returns PropertiesHolder\n\n
+    (final Properties properties)\n
+    (final String propertiesFileName)\n
     '''
 def getProperties():
-    '''public Properties getProperties(final SPInterface spi, final ClassLoaders loaders)
+    '''returns Properties\n\n
+    getProperties(final SPInterface spi, final ClassLoaders loaders)\n
     '''
 def getPropertiesFileName():
-    '''public String getPropertiesFileName()
+    '''returns String\n\n
+    getPropertiesFileName()\n
     '''

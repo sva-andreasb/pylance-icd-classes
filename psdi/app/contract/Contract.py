@@ -1,132 +1,176 @@
-def Contract():
-    '''public Contract(final MboSet ms)
+def ():
+    '''returns Contract\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setContractTypeEditibilityAndValues():
-    '''public void setContractTypeEditibilityAndValues(final boolean fromInit)
+    '''returns None\n\n
+    setContractTypeEditibilityAndValues(final boolean fromInit)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def changeLineStatus():
-    '''public void changeLineStatus(final MboSetRemote contractLineSetRemote)
+    '''returns None\n\n
+    changeLineStatus(final MboSetRemote contractLineSetRemote)\n
     '''
 def canChangeLineStatus():
-    '''public void canChangeLineStatus()
+    '''returns None\n\n
+    canChangeLineStatus()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
     '''
 def canEditContractLine():
-    '''public boolean canEditContractLine()
+    '''returns boolean\n\n
+    canEditContractLine()\n
     '''
 def validateDates():
-    '''public void validateDates()
+    '''returns None\n\n
+    validateDates()\n
     '''
 def validateContract():
-    '''public void validateContract()
+    '''returns None\n\n
+    validateContract()\n
     '''
 def checkMasterMaxValue():
-    '''public void checkMasterMaxValue()
+    '''returns None\n\n
+    checkMasterMaxValue()\n
     '''
 def getContractReleaseSeqNumber():
-    '''public int getContractReleaseSeqNumber()
+    '''returns int\n\n
+    getContractReleaseSeqNumber()\n
     '''
 def getAvailableFunds():
-    '''public double getAvailableFunds()
+    '''returns double\n\n
+    getAvailableFunds()\n
     '''
 def reviseContract():
-    '''public MboRemote reviseContract(final String revDescription)
+    '''returns MboRemote\n\n
+    reviseContract(final String revDescription)\n
     '''
 def copySitesToContractAuth():
-    '''public void copySitesToContractAuth(final SiteSetRemote siteSetRemote)
+    '''returns None\n\n
+    copySitesToContractAuth(final SiteSetRemote siteSetRemote)\n
     '''
 def copySLAToSLAContract():
-    '''public void copySLAToSLAContract(final SLASetRemote slaSetRemote)
+    '''returns None\n\n
+    copySLAToSLAContract(final SLASetRemote slaSetRemote)\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def canPerformAction():
-    '''public void canPerformAction()
+    '''returns None\n\n
+    canPerformAction()\n
     '''
 def canReviseContract():
-    '''public void canReviseContract()
+    '''returns None\n\n
+    canReviseContract()\n
     '''
 def addInvVendorItemsToContractLine():
-    '''public void addInvVendorItemsToContractLine(final MboSetRemote invVendorSetRemote)
+    '''returns None\n\n
+    addInvVendorItemsToContractLine(final MboSetRemote invVendorSetRemote)\n
     '''
 def getInternalContractType():
-    '''public String getInternalContractType()
+    '''returns String\n\n
+    getInternalContractType()\n
     '''
 def nullVendor():
-    '''public void nullVendor()
+    '''returns None\n\n
+    nullVendor()\n
     '''
 def findLatestMasterRevision():
-    '''public MboRemote findLatestMasterRevision()
+    '''returns MboRemote\n\n
+    findLatestMasterRevision()\n
     '''
 def canAuthSites():
-    '''public void canAuthSites()
+    '''returns None\n\n
+    canAuthSites()\n
     '''
 def setContractTypeTerm():
-    '''public void setContractTypeTerm()
+    '''returns None\n\n
+    setContractTypeTerm()\n
     '''
 def cancelOrSusupndPreviousRevision():
-    '''public void cancelOrSusupndPreviousRevision(final String internalStatus)
+    '''returns None\n\n
+    cancelOrSusupndPreviousRevision(final String internalStatus)\n
     '''
 def setNextRevisionReference():
-    '''public void setNextRevisionReference(final MboRemote nextRevisionRef)
+    '''returns None\n\n
+    setNextRevisionReference(final MboRemote nextRevisionRef)\n
     '''
 def getNextRevisionReference():
-    '''public MboRemote getNextRevisionReference()
+    '''returns MboRemote\n\n
+    getNextRevisionReference()\n
     '''
 def getPreviousRevision():
-    '''public MboRemote getPreviousRevision()
+    '''returns MboRemote\n\n
+    getPreviousRevision()\n
     '''
 def getNextRevision():
-    '''public MboRemote getNextRevision()
+    '''returns MboRemote\n\n
+    getNextRevision()\n
     '''
 def setInvoiceCreationFlag():
-    '''public void setInvoiceCreationFlag(final boolean hasCreatedInvoice)
+    '''returns None\n\n
+    setInvoiceCreationFlag(final boolean hasCreatedInvoice)\n
     '''
 def getInvoiceCreationFlag():
-    '''public boolean getInvoiceCreationFlag()
+    '''returns boolean\n\n
+    getInvoiceCreationFlag()\n
     '''
 def doesContractReferenceExistOnPO():
-    '''public boolean doesContractReferenceExistOnPO()
+    '''returns boolean\n\n
+    doesContractReferenceExistOnPO()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getAssetList():
-    '''public MboSetRemote getAssetList()
+    '''returns MboSetRemote\n\n
+    getAssetList()\n
     '''
 def getLocationsList():
-    '''public MboSetRemote getLocationsList()
+    '''returns MboSetRemote\n\n
+    getLocationsList()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def revisionInProgress():
-    '''public void revisionInProgress(final boolean flag)
+    '''returns None\n\n
+    revisionInProgress(final boolean flag)\n
     '''
 def isRevisionInProgress():
-    '''public boolean isRevisionInProgress()
+    '''returns boolean\n\n
+    isRevisionInProgress()\n
     '''
 def useLineOrLoadedCost():
-    '''public String useLineOrLoadedCost()
+    '''returns String\n\n
+    useLineOrLoadedCost()\n
     '''
 def setRouteWF():
-    '''public void setRouteWF(final boolean route)
+    '''returns None\n\n
+    setRouteWF(final boolean route)\n
     '''
 def getRouteWF():
-    '''public boolean getRouteWF()
+    '''returns boolean\n\n
+    getRouteWF()\n
     '''
 def prevStatusRemainApproved():
-    '''public boolean prevStatusRemainApproved()
+    '''returns boolean\n\n
+    prevStatusRemainApproved()\n
     '''

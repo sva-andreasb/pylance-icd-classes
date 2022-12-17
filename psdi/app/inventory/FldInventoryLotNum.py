@@ -1,10 +1,13 @@
-def FldInventoryLotNum():
-    '''public FldInventoryLotNum(final MboValue mbv)
-    public FldInventoryLotNum(final MboValue mbv, final String itemnum, final String location)
+def ():
+    '''returns FldInventoryLotNum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String itemnum, final String location)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

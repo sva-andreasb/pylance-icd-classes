@@ -1,41 +1,54 @@
-def ExecutionContext():
-    '''public ExecutionContext(final boolean isMetricEnabled)
-    public ExecutionContext()
-    public ExecutionContext(final List<RequestHandler2> requestHandler2s, final boolean isMetricEnabled, final AmazonWebServiceClient awsClient)
+def ():
+    '''returns ExecutionContext\n\n
+    (final boolean isMetricEnabled)\n
+    ()\n
+    (final List<RequestHandler2> requestHandler2s, final boolean isMetricEnabled, final AmazonWebServiceClient awsClient)\n
     '''
 def getRequestHandler2s():
-    '''public List<RequestHandler2> getRequestHandler2s()
+    '''returns List<RequestHandler2>\n\n
+    getRequestHandler2s()\n
     '''
 def getAwsRequestMetrics():
-    '''public AWSRequestMetrics getAwsRequestMetrics()
+    '''returns AWSRequestMetrics\n\n
+    getAwsRequestMetrics()\n
     '''
 def setSigner():
-    '''public void setSigner(final Signer signer)
+    '''returns None\n\n
+    setSigner(final Signer signer)\n
     '''
 def retryCapacityConsumed():
-    '''public boolean retryCapacityConsumed()
+    '''returns boolean\n\n
+    retryCapacityConsumed()\n
     '''
 def markRetryCapacityConsumed():
-    '''public void markRetryCapacityConsumed()
+    '''returns None\n\n
+    markRetryCapacityConsumed()\n
     '''
 def getSignerByURI():
-    '''public Signer getSignerByURI(final URI uri)
+    '''returns Signer\n\n
+    getSignerByURI(final URI uri)\n
     '''
 def setCredentialsProvider():
-    '''public void setCredentialsProvider(final AWSCredentialsProvider credentialsProvider)
+    '''returns None\n\n
+    setCredentialsProvider(final AWSCredentialsProvider credentialsProvider)\n
     '''
 def getCredentialsProvider():
-    '''public AWSCredentialsProvider getCredentialsProvider()
+    '''returns AWSCredentialsProvider\n\n
+    getCredentialsProvider()\n
     '''
 def getAuthErrorRetryStrategy():
-    '''public AuthErrorRetryStrategy getAuthErrorRetryStrategy()
+    '''returns AuthErrorRetryStrategy\n\n
+    getAuthErrorRetryStrategy()\n
     '''
 def setAuthErrorRetryStrategy():
-    '''public void setAuthErrorRetryStrategy(final AuthErrorRetryStrategy authErrorRetryStrategy)
+    '''returns None\n\n
+    setAuthErrorRetryStrategy(final AuthErrorRetryStrategy authErrorRetryStrategy)\n
     '''
 def getClientExecutionTrackerTask():
-    '''public ClientExecutionAbortTrackerTask getClientExecutionTrackerTask()
+    '''returns ClientExecutionAbortTrackerTask\n\n
+    getClientExecutionTrackerTask()\n
     '''
 def setClientExecutionTrackerTask():
-    '''public void setClientExecutionTrackerTask(final ClientExecutionAbortTrackerTask clientExecutionTrackerTask)
+    '''returns None\n\n
+    setClientExecutionTrackerTask(final ClientExecutionAbortTrackerTask clientExecutionTrackerTask)\n
     '''

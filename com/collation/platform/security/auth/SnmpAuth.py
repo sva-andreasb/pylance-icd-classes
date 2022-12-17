@@ -1,35 +1,46 @@
-def SnmpAuth():
-    '''public SnmpAuth()
-    public SnmpAuth(final String comString)
-    public SnmpAuth(final String comString, final String name, final String desc)
+def ():
+    '''returns SnmpAuth\n\n
+    ()\n
+    (final String comString)\n
+    (final String comString, final String name, final String desc)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setDescription():
-    '''public void setDescription(final String desc)
+    '''returns None\n\n
+    setDescription(final String desc)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setOrder():
-    '''public void setOrder(final int c)
+    '''returns None\n\n
+    setOrder(final int c)\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def getCommunityString():
-    '''public String getCommunityString()
+    '''returns String\n\n
+    getCommunityString()\n
     '''
 def setCommunityString():
-    '''public void setCommunityString(final String str)
+    '''returns None\n\n
+    setCommunityString(final String str)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

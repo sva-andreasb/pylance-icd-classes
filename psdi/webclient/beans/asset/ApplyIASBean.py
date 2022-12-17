@@ -1,6 +1,8 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def applyIASAutoNumAll():
-    '''public int applyIASAutoNumAll()
+    '''returns int\n\n
+    applyIASAutoNumAll()\n
     '''

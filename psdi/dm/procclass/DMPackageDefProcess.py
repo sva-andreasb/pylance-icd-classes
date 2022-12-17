@@ -1,6 +1,8 @@
-def DMPackageDefProcess():
-    '''public DMPackageDefProcess()
+def ():
+    '''returns DMPackageDefProcess\n\n
+    ()\n
     '''
 def afterReplace():
-    '''public void afterReplace(final MboRemote child)
+    '''returns None\n\n
+    afterReplace(final MboRemote child)\n
     '''

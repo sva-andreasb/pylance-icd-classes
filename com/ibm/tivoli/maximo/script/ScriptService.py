@@ -3,129 +3,166 @@ YNC_YES = "int  8"
 YNC_NO = "int  16"
 YNC_OK = "int  2"
 YNC_CANCEL = "int  4"
-def ScriptService():
-    '''public ScriptService(final String scriptName, final String launchPointName, final Mbo mbo)
+def ():
+    '''returns ScriptService\n\n
+    (final String scriptName, final String launchPointName, final Mbo mbo)\n
     '''
 def getScriptName():
-    '''public String getScriptName()
+    '''returns String\n\n
+    getScriptName()\n
     '''
 def getMbo():
-    '''public Mbo getMbo()
+    '''returns Mbo\n\n
+    getMbo()\n
     '''
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def jsonToString():
-    '''public String jsonToString(final JSONObject ojo)
+    '''returns String\n\n
+    jsonToString(final JSONObject ojo)\n
     '''
 def jsonarrayToString():
-    '''public String jsonarrayToString(final JSONArray ja)
+    '''returns String\n\n
+    jsonarrayToString(final JSONArray ja)\n
     '''
 def tojsonarray():
-    '''public JSONArray tojsonarray(final String ja)
+    '''returns JSONArray\n\n
+    tojsonarray(final String ja)\n
     '''
 def tojsonobject():
-    '''public JSONObject tojsonobject(final String jo)
+    '''returns JSONObject\n\n
+    tojsonobject(final String jo)\n
     '''
 def webclientsession():
-    '''public Object webclientsession()
+    '''returns Object\n\n
+    webclientsession()\n
     '''
 def closeDialog():
-    '''public void closeDialog()
+    '''returns None\n\n
+    closeDialog()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String mboSetName, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String mboSetName, final UserInfo userInfo)\n
     '''
 def launchDialog():
-    '''public void launchDialog(final String dialogId)
+    '''returns None\n\n
+    launchDialog(final String dialogId)\n
     '''
 def openURL():
-    '''public void openURL(final String url, final boolean newWindow)
+    '''returns None\n\n
+    openURL(final String url, final boolean newWindow)\n
     '''
 def httpget():
-    '''public String httpget(final String url)
-    public String httpget(final String url, final String user, final String pass)
+    '''returns String\n\n
+    httpget(final String url)\n
+    httpget(final String url, final String user, final String pass)\n
     '''
 def httppost():
-    '''public String httppost(final String url, final String data)
-    public String httppost(final String url, final String user, final String pass, final String data)
+    '''returns String\n\n
+    httppost(final String url, final String data)\n
+    httppost(final String url, final String user, final String pass, final String data)\n
     '''
 def httppostasbytes():
-    '''public byte[] httppostasbytes(final String url, final String user, final String pass, final byte[] data)
+    '''returns byte[]\n\n
+    httppostasbytes(final String url, final String user, final String pass, final byte[] data)\n
     '''
 def httppostasjson():
-    '''public JSONArtifact httppostasjson(final String url, final String user, final String pass, final String headers, final JSONArtifact ja)
+    '''returns JSONArtifact\n\n
+    httppostasjson(final String url, final String user, final String pass, final String headers, final JSONArtifact ja)\n
     '''
 def httpgetasjson():
-    '''public JSONArtifact httpgetasjson(final String url, final String user, final String headers, final String pass)
+    '''returns JSONArtifact\n\n
+    httpgetasjson(final String url, final String user, final String headers, final String pass)\n
     '''
 def httpgetasbytes():
-    '''public byte[] httpgetasbytes(final String url, final String user, final String pass)
+    '''returns byte[]\n\n
+    httpgetasbytes(final String url, final String user, final String pass)\n
     '''
 def invokeEndpoint():
-    '''public String invokeEndpoint(final String endPointName, final Map<String, String> metaData, final String data)
-    public byte[] invokeEndpoint(final String endPointName, final Map<String, String> metaData, final byte[] data)
+    '''returns byte[]\n\n
+    invokeEndpoint(final String endPointName, final Map<String, String> metaData, final String data)\n
+    invokeEndpoint(final String endPointName, final Map<String, String> metaData, final byte[] data)\n
     '''
 def log():
-    '''public void log(final String logMsg)
+    '''returns None\n\n
+    log(final String logMsg)\n
     '''
 def log_debug():
-    '''public void log_debug(final String logMsg)
-    public void log_debug(final String logMsg, final Throwable t)
+    '''returns None\n\n
+    log_debug(final String logMsg)\n
+    log_debug(final String logMsg, final Throwable t)\n
     '''
 def log_info():
-    '''public void log_info(final String logMsg)
-    public void log_info(final String logMsg, final Throwable t)
+    '''returns None\n\n
+    log_info(final String logMsg)\n
+    log_info(final String logMsg, final Throwable t)\n
     '''
 def log_warn():
-    '''public void log_warn(final String logMsg)
-    public void log_warn(final String logMsg, final Throwable t)
+    '''returns None\n\n
+    log_warn(final String logMsg)\n
+    log_warn(final String logMsg, final Throwable t)\n
     '''
 def log_error():
-    '''public void log_error(final String logMsg)
-    public void log_error(final String logMsg, final Throwable t)
+    '''returns None\n\n
+    log_error(final String logMsg)\n
+    log_error(final String logMsg, final Throwable t)\n
     '''
 def log_fatal():
-    '''public void log_fatal(final String logMsg)
-    public void log_fatal(final String logMsg, final Throwable t)
+    '''returns None\n\n
+    log_fatal(final String logMsg)\n
+    log_fatal(final String logMsg, final Throwable t)\n
     '''
 def wsinteraction():
-    '''public void wsinteraction(final String interactionName)
+    '''returns None\n\n
+    wsinteraction(final String interactionName)\n
     '''
 def logError():
-    '''public void logError(final String logMsg)
+    '''returns None\n\n
+    logError(final String logMsg)\n
     '''
 def yncerror():
-    '''public void yncerror(final String grp, final String key, final String[] params)
-    public void yncerror(final String grp, final String key)
+    '''returns None\n\n
+    yncerror(final String grp, final String key, final String[] params)\n
+    yncerror(final String grp, final String key)\n
     '''
 def raiseSkipTransaction():
-    '''public void raiseSkipTransaction()
+    '''returns None\n\n
+    raiseSkipTransaction()\n
     '''
 def yncuserinput():
-    '''public int yncuserinput()
+    '''returns int\n\n
+    yncuserinput()\n
     '''
 def getProperty():
-    '''public String getProperty(final String propName)
+    '''returns String\n\n
+    getProperty(final String propName)\n
     '''
 def getLogger():
-    '''public MXLogger getLogger(final String loggerName)
+    '''returns MXLogger\n\n
+    getLogger(final String loggerName)\n
     '''
 def error():
-    '''public void error(final String grp, final String key, final String[] params)
-    public void error(final String grp, final String key)
+    '''returns None\n\n
+    error(final String grp, final String key, final String[] params)\n
+    error(final String grp, final String key)\n
     '''
 def setWarning():
-    '''public void setWarning(final String warnGrpVal, final String warnKeyVal, final String[] warnparams)
+    '''returns None\n\n
+    setWarning(final String warnGrpVal, final String warnKeyVal, final String[] warnparams)\n
     '''
 def invokeChannel():
-    '''public void invokeChannel(final String channelName)
+    '''returns None\n\n
+    invokeChannel(final String channelName)\n
     '''
 def invokeWorkflow():
-    '''public void invokeWorkflow(final String wfName)
+    '''returns None\n\n
+    invokeWorkflow(final String wfName)\n
     '''
 def invokeScript():
-    '''public void invokeScript(final String aScriptName, final Map<String, Object> context)
-    public Object invokeScript(String aScriptName, final String functionName, final Object[] args)
-    public Map<String, Object> invokeScript(final String aScriptName)
+    '''returns Object\n\n
+    invokeScript(final String aScriptName, final Map<String, Object> context)\n
+    invokeScript(String aScriptName, final String functionName, final Object[] args)\n
     '''

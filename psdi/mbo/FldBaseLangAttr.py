@@ -1,9 +1,12 @@
-def FldBaseLangAttr():
-    '''public FldBaseLangAttr(final MboValue mv)
+def ():
+    '''returns FldBaseLangAttr\n\n
+    (final MboValue mv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

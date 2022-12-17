@@ -1,9 +1,12 @@
-def AuthRetryParameters():
-    '''public AuthRetryParameters(final Signer signer, final URI endpoint)
+def ():
+    '''returns AuthRetryParameters\n\n
+    (final Signer signer, final URI endpoint)\n
     '''
 def getSignerForRetry():
-    '''public Signer getSignerForRetry()
+    '''returns Signer\n\n
+    getSignerForRetry()\n
     '''
 def getEndpointForRetry():
-    '''public URI getEndpointForRetry()
+    '''returns URI\n\n
+    getEndpointForRetry()\n
     '''

@@ -1,9 +1,12 @@
 def VEWPBXML():
-    '''public int VEWPBXML()
+    '''returns int\n\n
+    VEWPBXML()\n
     '''
 def ENBLEVT():
-    '''public int ENBLEVT()
+    '''returns int\n\n
+    ENBLEVT()\n
     '''
 def DSBLEVT():
-    '''public int DSBLEVT()
+    '''returns int\n\n
+    DSBLEVT()\n
     '''

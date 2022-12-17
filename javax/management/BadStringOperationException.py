@@ -1,6 +1,8 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def BadStringOperationException():
-    '''public BadStringOperationException(final String op)
+def ():
+    '''returns BadStringOperationException\n\n
+    (final String op)\n
     '''

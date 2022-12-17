@@ -1,12 +1,16 @@
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def eventSelect():
-    '''public int eventSelect()
+    '''returns int\n\n
+    eventSelect()\n
     '''
 def getCurrentData():
-    '''public String getCurrentData(final String attributesToPass)
+    '''returns String\n\n
+    getCurrentData(final String attributesToPass)\n
     '''
 def assignModelId():
-    '''public int assignModelId()
+    '''returns int\n\n
+    assignModelId()\n
     '''

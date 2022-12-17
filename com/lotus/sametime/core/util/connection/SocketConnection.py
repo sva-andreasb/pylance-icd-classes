@@ -1,19 +1,25 @@
-def SocketConnection():
-    '''public SocketConnection(final String host, final int port, final long n)
-    public SocketConnection(final int n, final long n2)
+def ():
+    '''returns SocketConnection\n\n
+    (final String host, final int port, final long n)\n
+    (final int n, final long n2)\n
     '''
 def setBytesToReceive():
-    '''public void setBytesToReceive(final int n)
+    '''returns None\n\n
+    setBytesToReceive(final int n)\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getConnectionInfo():
-    '''public ConnectionInfo getConnectionInfo()
+    '''returns ConnectionInfo\n\n
+    getConnectionInfo()\n
     '''
 def setTryAllIps():
-    '''public void setTryAllIps(final boolean tryAllIps)
+    '''returns None\n\n
+    setTryAllIps(final boolean tryAllIps)\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''

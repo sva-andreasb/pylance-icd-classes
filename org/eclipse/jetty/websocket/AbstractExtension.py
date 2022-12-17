@@ -1,47 +1,62 @@
-def AbstractExtension():
-    '''public AbstractExtension(final String name)
+def ():
+    '''returns AbstractExtension\n\n
+    (final String name)\n
     '''
 def init():
-    '''public boolean init(final Map<String, String> parameters)
+    '''returns boolean\n\n
+    init(final Map<String, String> parameters)\n
     '''
 def getInitParameter():
-    '''public String getInitParameter(final String name)
-    public String getInitParameter(final String name, final String dft)
-    public int getInitParameter(final String name, final int dft)
+    '''returns int\n\n
+    getInitParameter(final String name)\n
+    getInitParameter(final String name, final String dft)\n
+    getInitParameter(final String name, final int dft)\n
     '''
 def bind():
-    '''public void bind(final WebSocket.FrameConnection connection, final WebSocketParser.FrameHandler incoming, final WebSocketGenerator outgoing)
+    '''returns None\n\n
+    bind(final WebSocket.FrameConnection connection, final WebSocketParser.FrameHandler incoming, final WebSocketGenerator outgoing)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getParameterizedName():
-    '''public String getParameterizedName()
+    '''returns String\n\n
+    getParameterizedName()\n
     '''
 def onFrame():
-    '''public void onFrame(final byte flags, final byte opcode, final Buffer buffer)
+    '''returns None\n\n
+    onFrame(final byte flags, final byte opcode, final Buffer buffer)\n
     '''
 def close():
-    '''public void close(final int code, final String message)
+    '''returns None\n\n
+    close(final int code, final String message)\n
     '''
 def flush():
-    '''public int flush()
+    '''returns int\n\n
+    flush()\n
     '''
 def isBufferEmpty():
-    '''public boolean isBufferEmpty()
+    '''returns boolean\n\n
+    isBufferEmpty()\n
     '''
 def addFrame():
-    '''public void addFrame(final byte flags, final byte opcode, final byte[] content, final int offset, final int length)
+    '''returns None\n\n
+    addFrame(final byte flags, final byte opcode, final byte[] content, final int offset, final int length)\n
     '''
 def setFlag():
-    '''public byte setFlag(final byte flags, final int rsv)
+    '''returns byte\n\n
+    setFlag(final byte flags, final int rsv)\n
     '''
 def clearFlag():
-    '''public byte clearFlag(final byte flags, final int rsv)
+    '''returns byte\n\n
+    clearFlag(final byte flags, final int rsv)\n
     '''
 def isFlag():
-    '''public boolean isFlag(final byte flags, final int rsv)
+    '''returns boolean\n\n
+    isFlag(final byte flags, final int rsv)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

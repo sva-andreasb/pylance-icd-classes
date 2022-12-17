@@ -1,3 +1,4 @@
 def decode():
-    '''public BufferedImage decode(final ByteArrayInputStream stream)
+    '''returns BufferedImage\n\n
+    decode(final ByteArrayInputStream stream)\n
     '''

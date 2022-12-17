@@ -1,66 +1,87 @@
-def ResourceCollection():
-    '''public ResourceCollection()
-    public ResourceCollection(final Resource... resources)
-    public ResourceCollection(final String[] resources)
-    public ResourceCollection(final String csvResources)
+def ():
+    '''returns ResourceCollection\n\n
+    ()\n
+    (final Resource... resources)\n
+    (final String[] resources)\n
+    (final String csvResources)\n
     '''
 def getResources():
-    '''public Resource[] getResources()
+    '''returns Resource[]\n\n
+    getResources()\n
     '''
 def setResources():
-    '''public void setResources(final Resource[] resources)
+    '''returns None\n\n
+    setResources(final Resource[] resources)\n
     '''
 def setResourcesAsCSV():
-    '''public void setResourcesAsCSV(final String csvResources)
+    '''returns None\n\n
+    setResourcesAsCSV(final String csvResources)\n
     '''
 def addPath():
-    '''public Resource addPath(final String path)
+    '''returns Resource\n\n
+    addPath(final String path)\n
     '''
 def delete():
-    '''public boolean delete()
+    '''returns boolean\n\n
+    delete()\n
     '''
 def exists():
-    '''public boolean exists()
+    '''returns boolean\n\n
+    exists()\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def isDirectory():
-    '''public boolean isDirectory()
+    '''returns boolean\n\n
+    isDirectory()\n
     '''
 def lastModified():
-    '''public long lastModified()
+    '''returns long\n\n
+    lastModified()\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''
 def list():
-    '''public String[] list()
+    '''returns String[]\n\n
+    list()\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def renameTo():
-    '''public boolean renameTo(final Resource dest)
+    '''returns boolean\n\n
+    renameTo(final Resource dest)\n
     '''
 def copyTo():
-    '''public void copyTo(final File destination)
+    '''returns None\n\n
+    copyTo(final File destination)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isContainedIn():
-    '''public boolean isContainedIn(final Resource r)
+    '''returns boolean\n\n
+    isContainedIn(final Resource r)\n
     '''

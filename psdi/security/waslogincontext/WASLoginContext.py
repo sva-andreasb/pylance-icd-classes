@@ -1,12 +1,16 @@
 def execute():
-    '''public int execute(final String operation)
+    '''returns int\n\n
+    execute(final String operation)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def isAdminSecurityEnabled():
-    '''public boolean isAdminSecurityEnabled()
+    '''returns boolean\n\n
+    isAdminSecurityEnabled()\n
     '''
 def loginContext():
-    '''public LoginContext loginContext()
+    '''returns LoginContext\n\n
+    loginContext()\n
     '''

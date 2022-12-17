@@ -1,6 +1,8 @@
-def OslcDistinctClauseHandler():
-    '''public OslcDistinctClauseHandler(final MboSetRemote mboSet, final OslcRequest request)
+def ():
+    '''returns OslcDistinctClauseHandler\n\n
+    (final MboSetRemote mboSet, final OslcRequest request)\n
     '''
 def toJSON():
-    '''public JSONArray toJSON()
+    '''returns JSONArray\n\n
+    toJSON()\n
     '''

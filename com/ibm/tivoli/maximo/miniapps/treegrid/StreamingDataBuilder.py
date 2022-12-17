@@ -1,69 +1,88 @@
-def StreamingDataBuilder():
-    '''public StreamingDataBuilder(final TGJsonWriter writer, final TreeGridUtil.ITGSerializationHelper helper)
+def ():
+    '''returns StreamingDataBuilder\n\n
+    (final TGJsonWriter writer, final TreeGridUtil.ITGSerializationHelper helper)\n
     '''
 def beingBody():
-    '''public void beingBody()
+    '''returns None\n\n
+    beingBody()\n
     '''
 def beginItems():
-    '''public void beginItems()
+    '''returns None\n\n
+    beginItems()\n
     '''
 def endItems():
-    '''public void endItems()
+    '''returns None\n\n
+    endItems()\n
     '''
 def beginRow():
-    '''public void beginRow()
+    '''returns None\n\n
+    beginRow()\n
     '''
 def endRow():
-    '''public void endRow()
+    '''returns None\n\n
+    endRow()\n
     '''
 def endBody():
-    '''public void endBody()
+    '''returns None\n\n
+    endBody()\n
     '''
 def set():
-    '''public void set(final String name, final String value)
-    public void set(final String name, final Number value)
-    public void set(final String name, final int value)
-    public void set(final String name, final long value)
-    public void set(final String name, final float value)
-    public void set(final String name, final double value)
-    public void set(final String name, final boolean value)
-    public void set(final String name, final Date value)
-    public void set(final String name, final Object value)
+    '''returns None\n\n
+    set(final String name, final String value)\n
+    set(final String name, final Number value)\n
+    set(final String name, final int value)\n
+    set(final String name, final long value)\n
+    set(final String name, final float value)\n
+    set(final String name, final double value)\n
+    set(final String name, final boolean value)\n
+    set(final String name, final Date value)\n
+    set(final String name, final Object value)\n
     '''
 def beginArray():
-    '''public TGJsonWriter beginArray()
+    '''returns TGJsonWriter\n\n
+    beginArray()\n
     '''
 def beginObject():
-    '''public TGJsonWriter beginObject()
+    '''returns TGJsonWriter\n\n
+    beginObject()\n
     '''
 def endArray():
-    '''public TGJsonWriter endArray()
+    '''returns TGJsonWriter\n\n
+    endArray()\n
     '''
 def endObject():
-    '''public TGJsonWriter endObject()
+    '''returns TGJsonWriter\n\n
+    endObject()\n
     '''
 def name():
-    '''public TGJsonWriter name(final String name)
+    '''returns TGJsonWriter\n\n
+    name(final String name)\n
     '''
 def value():
-    '''public TGJsonWriter value(final boolean value)
-    public TGJsonWriter value(final double value)
-    public TGJsonWriter value(final long value)
-    public TGJsonWriter value(final Number value)
-    public TGJsonWriter value(final String value)
+    '''returns TGJsonWriter\n\n
+    value(final boolean value)\n
+    value(final double value)\n
+    value(final long value)\n
+    value(final Number value)\n
+    value(final String value)\n
     '''
 def getUserTimeZone():
-    '''public TimeZone getUserTimeZone()
+    '''returns TimeZone\n\n
+    getUserTimeZone()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def isSerializable():
-    '''public boolean isSerializable(final String field, final Object val)
+    '''returns boolean\n\n
+    isSerializable(final String field, final Object val)\n
     '''
 def isModelRefresh():
-    '''public boolean isModelRefresh()
+    '''returns boolean\n\n
+    isModelRefresh()\n
     '''
 def setModelRefresh():
-    '''public void setModelRefresh(final boolean value)
+    '''returns None\n\n
+    setModelRefresh(final boolean value)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPSWActivityDate():
-    '''public PlusPSWActivityDate(final MboSet set)
+def ():
+    '''returns PlusPSWActivityDate\n\n
+    (final MboSet set)\n
     '''

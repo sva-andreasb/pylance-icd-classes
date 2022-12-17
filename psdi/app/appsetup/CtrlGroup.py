@@ -1,21 +1,28 @@
-def CtrlGroup():
-    '''public CtrlGroup(final MboSet ms)
+def ():
+    '''returns CtrlGroup\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateSeqID():
-    '''public void generateSeqID()
+    '''returns None\n\n
+    generateSeqID()\n
     '''
 def copyMaxGroupToCtrlGroup():
-    '''public void copyMaxGroupToCtrlGroup(final MboSetRemote MaxGroupSet)
+    '''returns None\n\n
+    copyMaxGroupToCtrlGroup(final MboSetRemote MaxGroupSet)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

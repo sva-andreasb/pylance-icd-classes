@@ -1,49 +1,64 @@
 namespaceName = "String  \"urn:oasis:names:tc:entity:xmlns:xml:catalog\""
 tr9401NamespaceName = "String  \"urn:oasis:names:tc:entity:xmlns:tr9401:catalog\""
 def setCatalog():
-    '''public void setCatalog(final Catalog catalog)
+    '''returns None\n\n
+    setCatalog(final Catalog catalog)\n
     '''
 def getCatalog():
-    '''public Catalog getCatalog()
+    '''returns Catalog\n\n
+    getCatalog()\n
     '''
-def OASISXMLCatalogReader():
-    '''public OASISXMLCatalogReader()
-    public OASISXMLCatalogReader(final SAXParserFactory parserFactory, final Catalog catalog)
+def ():
+    '''returns OASISXMLCatalogReader\n\n
+    ()\n
+    (final SAXParserFactory parserFactory, final Catalog catalog)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes atts)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes atts)\n
     '''
 def checkAttributes():
-    '''public boolean checkAttributes(final Attributes atts, final String attName)
-    public boolean checkAttributes(final Attributes atts, final String attName1, final String attName2)
+    '''returns boolean\n\n
+    checkAttributes(final Attributes atts, final String attName)\n
+    checkAttributes(final Attributes atts, final String attName1, final String attName2)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] ch, final int start, final int length)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String data)
+    '''returns None\n\n
+    processingInstruction(final String target, final String data)\n
     '''
 def skippedEntity():
-    '''public void skippedEntity(final String name)
+    '''returns None\n\n
+    skippedEntity(final String name)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri)
+    '''returns None\n\n
+    startPrefixMapping(final String prefix, final String uri)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix)\n
     '''

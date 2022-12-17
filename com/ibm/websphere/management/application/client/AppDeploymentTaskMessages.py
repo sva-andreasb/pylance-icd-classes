@@ -1,26 +1,33 @@
-def AppDeploymentTaskMessages():
-    '''public AppDeploymentTaskMessages()
-    public AppDeploymentTaskMessages(final String bundleName)
-    public AppDeploymentTaskMessages(final Locale locale)
-    public AppDeploymentTaskMessages(final String bundleName, final Locale locale)
-    public AppDeploymentTaskMessages(final ResourceBundle b, final String bName)
+def ():
+    '''returns AppDeploymentTaskMessages\n\n
+    ()\n
+    (final String bundleName)\n
+    (final Locale locale)\n
+    (final String bundleName, final Locale locale)\n
+    (final ResourceBundle b, final String bName)\n
     '''
 def getGoalTitle():
-    '''public String getGoalTitle(final String key)
+    '''returns String\n\n
+    getGoalTitle(final String key)\n
     '''
 def getGoalMessage():
-    '''public String getGoalMessage(final String key)
+    '''returns String\n\n
+    getGoalMessage(final String key)\n
     '''
 def getEmptyTaskMessage():
-    '''public String getEmptyTaskMessage(final String key)
+    '''returns String\n\n
+    getEmptyTaskMessage(final String key)\n
     '''
 def getDisableTaskMessage():
-    '''public String getDisableTaskMessage(final String key)
+    '''returns String\n\n
+    getDisableTaskMessage(final String key)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final String key)
-    public String getColumnName(final String key, final String taskName)
+    '''returns String\n\n
+    getColumnName(final String key)\n
+    getColumnName(final String key, final String taskName)\n
     '''
 def getMessage():
-    '''public String getMessage(final String key)
+    '''returns String\n\n
+    getMessage(final String key)\n
     '''

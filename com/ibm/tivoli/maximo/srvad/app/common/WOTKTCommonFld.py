@@ -1,35 +1,46 @@
-def WOTKTCommonFld():
-    '''public WOTKTCommonFld()
+def ():
+    '''returns WOTKTCommonFld\n\n
+    ()\n
     '''
 def hasPromptedAndCancelled():
-    '''public boolean hasPromptedAndCancelled(final UserInfo userInfo)
+    '''returns boolean\n\n
+    hasPromptedAndCancelled(final UserInfo userInfo)\n
     '''
 def needsToConfirmLocation():
-    '''public boolean needsToConfirmLocation(final UserInfo userInfo)
+    '''returns boolean\n\n
+    needsToConfirmLocation(final UserInfo userInfo)\n
     '''
 def confirmLocation():
-    '''public void confirmLocation(final MboValue mboValue, final MboRemote locWithNoSiteid)
-    public void confirmLocation(final MboValue mboValue)
+    '''returns None\n\n
+    confirmLocation(final MboValue mboValue, final MboRemote locWithNoSiteid)\n
+    confirmLocation(final MboValue mboValue)\n
     '''
 def executeAction():
-    '''public void executeAction(final MboValue mboValue)
+    '''returns None\n\n
+    executeAction(final MboValue mboValue)\n
     '''
 def confirmAsset():
-    '''public void confirmAsset(final MboValue mboValue)
-    public void confirmAsset(final MboValue mboValue, final MboRemote assetRetrievedWithoutSiteId)
+    '''returns None\n\n
+    confirmAsset(final MboValue mboValue)\n
+    confirmAsset(final MboValue mboValue, final MboRemote assetRetrievedWithoutSiteId)\n
     '''
 def needsToConfirmAsset():
-    '''public boolean needsToConfirmAsset(final UserInfo userInfo)
+    '''returns boolean\n\n
+    needsToConfirmAsset(final UserInfo userInfo)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def executeNonInteractiveFlow():
-    '''public void executeNonInteractiveFlow(final MboValue mboValue)
+    '''returns None\n\n
+    executeNonInteractiveFlow(final MboValue mboValue)\n
     '''
 def confirmReplacementByAssetOrDelete():
-    '''public int confirmReplacementByAssetOrDelete(final MboValue assetMboValue)
+    '''returns int\n\n
+    confirmReplacementByAssetOrDelete(final MboValue assetMboValue)\n
     '''
 def confirmReplacementByLocationsOrDelete():
-    '''public int confirmReplacementByLocationsOrDelete(final MboValue locationMboValue)
+    '''returns int\n\n
+    confirmReplacementByLocationsOrDelete(final MboValue locationMboValue)\n
     '''

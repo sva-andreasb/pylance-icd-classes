@@ -1,6 +1,8 @@
 def getHeight():
-    '''public int getHeight()
+    '''returns int\n\n
+    getHeight()\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''

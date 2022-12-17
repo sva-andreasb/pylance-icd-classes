@@ -1,74 +1,98 @@
 def createCMDBApi():
-    '''public CMDBApi createCMDBApi()
+    '''returns CMDBApi\n\n
+    createCMDBApi()\n
     '''
 def createNamingApi():
-    '''public NamingApi createNamingApi()
+    '''returns NamingApi\n\n
+    createNamingApi()\n
     '''
-def OalApiSession():
-    '''public OalApiSession()
+def ():
+    '''returns OalApiSession\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final long version, final ApiConnection conn, final long sessionId)
-    public void init(final long version, final ApiConnection conn, final String user, final String password)
-    public void init(final long version, final ApiConnection conn, final Principal p)
+    '''returns None\n\n
+    init(final long version, final ApiConnection conn, final long sessionId)\n
+    init(final long version, final ApiConnection conn, final String user, final String password)\n
+    init(final long version, final ApiConnection conn, final Principal p)\n
     '''
 def copy():
-    '''public ApiSession copy(final long version)
+    '''returns ApiSession\n\n
+    copy(final long version)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def getSessionId():
-    '''public String getSessionId()
+    '''returns String\n\n
+    getSessionId()\n
     '''
 def getConnection():
-    '''public ApiConnection getConnection()
+    '''returns ApiConnection\n\n
+    getConnection()\n
     '''
 def setSessionTimeout():
-    '''public void setSessionTimeout(final int seconds)
+    '''returns None\n\n
+    setSessionTimeout(final int seconds)\n
     '''
 def getSessionTimeout():
-    '''public int getSessionTimeout()
+    '''returns int\n\n
+    getSessionTimeout()\n
     '''
 def createDataApi():
-    '''public DataApi createDataApi()
+    '''returns DataApi\n\n
+    createDataApi()\n
     '''
 def createPresentationApi():
-    '''public PresentationApi createPresentationApi()
+    '''returns PresentationApi\n\n
+    createPresentationApi()\n
     '''
 def createControlApi():
-    '''public ControlApi createControlApi()
+    '''returns ControlApi\n\n
+    createControlApi()\n
     '''
 def createCompatibilityApi():
-    '''public CompatibilityApi createCompatibilityApi()
+    '''returns CompatibilityApi\n\n
+    createCompatibilityApi()\n
     '''
 def createAuthorizationManagerApi():
-    '''public AuthorizationManagerApi createAuthorizationManagerApi()
+    '''returns AuthorizationManagerApi\n\n
+    createAuthorizationManagerApi()\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def getPrincipal():
-    '''public ApiPrincipal getPrincipal()
+    '''returns ApiPrincipal\n\n
+    getPrincipal()\n
     '''
 def getFingerPrint():
-    '''public long getFingerPrint()
+    '''returns long\n\n
+    getFingerPrint()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setApiServer():
-    '''public void setApiServer(final Object apiServer)
+    '''returns None\n\n
+    setApiServer(final Object apiServer)\n
     '''
 def getApiServer():
-    '''public Object getApiServer()
+    '''returns Object\n\n
+    getApiServer()\n
     '''

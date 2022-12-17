@@ -1,3 +1,4 @@
-def CCIDeletedActualCISet():
-    '''public CCIDeletedActualCISet(final MboServerInterface ms)
+def ():
+    '''returns CCIDeletedActualCISet\n\n
+    (final MboServerInterface ms)\n
     '''

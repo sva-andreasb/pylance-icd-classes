@@ -1,5 +1,6 @@
-def ValidationException():
-    '''public ValidationException()
-    public ValidationException(final String message)
-    public ValidationException(final String message, final Object[] args)
+def ():
+    '''returns ValidationException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Object[] args)\n
     '''

@@ -1,0 +1,1 @@
+HTMLEXT = "String  \".html\""

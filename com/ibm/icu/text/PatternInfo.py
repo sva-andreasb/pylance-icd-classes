@@ -1,21 +1,28 @@
-def PatternInfo():
-    '''public PatternInfo(final String firstPart, final String secondPart, final boolean firstDateInPtnIsLaterDate)
+def ():
+    '''returns PatternInfo\n\n
+    (final String firstPart, final String secondPart, final boolean firstDateInPtnIsLaterDate)\n
     '''
 def getFirstPart():
-    '''public String getFirstPart()
+    '''returns String\n\n
+    getFirstPart()\n
     '''
 def getSecondPart():
-    '''public String getSecondPart()
+    '''returns String\n\n
+    getSecondPart()\n
     '''
 def firstDateInPtnIsLaterDate():
-    '''public boolean firstDateInPtnIsLaterDate()
+    '''returns boolean\n\n
+    firstDateInPtnIsLaterDate()\n
     '''
 def equals():
-    '''public boolean equals(final Object a)
+    '''returns boolean\n\n
+    equals(final Object a)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

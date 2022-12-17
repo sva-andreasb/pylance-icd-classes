@@ -1,18 +1,24 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def reloadlist():
-    '''public int reloadlist()
+    '''returns int\n\n
+    reloadlist()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def storeAttributes():
-    '''public void storeAttributes()
+    '''returns None\n\n
+    storeAttributes()\n
     '''
 def getData():
-    '''public MboValueData[][] getData()
+    '''returns MboValueData[][]\n\n
+    getData()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''

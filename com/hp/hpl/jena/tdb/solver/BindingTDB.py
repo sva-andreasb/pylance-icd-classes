@@ -1,15 +1,20 @@
-def BindingTDB():
-    '''public BindingTDB(final BindingNodeId idBinding, final NodeTable nodeTable)
+def ():
+    '''returns BindingTDB\n\n
+    (final BindingNodeId idBinding, final NodeTable nodeTable)\n
     '''
 def contains1():
-    '''public boolean contains1(final Var var)
+    '''returns boolean\n\n
+    contains1(final Var var)\n
     '''
 def getBindingId():
-    '''public BindingNodeId getBindingId()
+    '''returns BindingNodeId\n\n
+    getBindingId()\n
     '''
 def getNodeId():
-    '''public NodeId getNodeId(final Var var)
+    '''returns NodeId\n\n
+    getNodeId(final Var var)\n
     '''
 def get1():
-    '''public Node get1(final Var var)
+    '''returns Node\n\n
+    get1(final Var var)\n
     '''

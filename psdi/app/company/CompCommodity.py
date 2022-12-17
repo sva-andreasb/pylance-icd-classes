@@ -1,9 +1,12 @@
-def CompCommodity():
-    '''public CompCommodity(final MboSet ms)
+def ():
+    '''returns CompCommodity\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''

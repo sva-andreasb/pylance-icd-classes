@@ -1,18 +1,24 @@
-def IlvFileEditor():
-    '''public IlvFileEditor()
+def ():
+    '''returns IlvFileEditor\n\n
+    ()\n
     '''
 def connectUI():
-    '''public void connectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def controlActivated():
-    '''public void controlActivated(final ActivationEvent activationEvent)
+    '''returns None\n\n
+    controlActivated(final ActivationEvent activationEvent)\n
     '''
 def disconnectUI():
-    '''public void disconnectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def connectModel():
-    '''public void connectModel(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectModel(final IlvEditionContext ilvEditionContext)\n
     '''
 def read():
-    '''public void read(final Element element)
+    '''returns None\n\n
+    read(final Element element)\n
     '''

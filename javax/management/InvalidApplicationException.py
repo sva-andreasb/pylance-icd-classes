@@ -1,3 +1,4 @@
-def InvalidApplicationException():
-    '''public InvalidApplicationException(final Object val)
+def ():
+    '''returns InvalidApplicationException\n\n
+    (final Object val)\n
     '''

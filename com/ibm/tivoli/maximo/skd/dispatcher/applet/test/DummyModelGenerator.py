@@ -1,6 +1,8 @@
 def getSimpleModel2():
-    '''public IlvDefaultGanttModel getSimpleModel2()
+    '''returns IlvDefaultGanttModel\n\n
+    getSimpleModel2()\n
     '''
 def getSimpleModel1():
-    '''public IlvDefaultGanttModel getSimpleModel1()
+    '''returns IlvDefaultGanttModel\n\n
+    getSimpleModel1()\n
     '''

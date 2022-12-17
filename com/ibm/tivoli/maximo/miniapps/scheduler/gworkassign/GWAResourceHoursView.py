@@ -1,30 +1,40 @@
-def GWAResourceHoursView():
-    '''public GWAResourceHoursView()
+def ():
+    '''returns GWAResourceHoursView\n\n
+    ()\n
     '''
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''
 def getProjectData():
-    '''public JSONObject getProjectData(final WebClientSession sess)
+    '''returns JSONObject\n\n
+    getProjectData(final WebClientSession sess)\n
     '''
 def async_get_table_context_menu():
-    '''public TMenu async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String id, @MXEventParam("col") final String column, @MXEventParam("value") String value, @MXEventParam("selection") final JSONObject selection, @MXEventParam("selecteddate") final long selecteddate)
+    '''returns TMenu\n\n
+    async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String id, @MXEventParam("col") final String column, @MXEventParam("value") String value, @MXEventParam("selection") final JSONObject selection, @MXEventParam("selecteddate") final long selecteddate)\n
     '''
 def getTooltip():
-    '''public DynamicTooltip getTooltip(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)
+    '''returns DynamicTooltip\n\n
+    getTooltip(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)\n
     '''
 def workviewSelected():
-    '''public JSONObject workviewSelected(final WebClientSession sess, @MXEventParam("selection") final String selection)
+    '''returns JSONObject\n\n
+    workviewSelected(final WebClientSession sess, @MXEventParam("selection") final String selection)\n
     '''
 def saveModAvailReasonCode():
-    '''public JSONObject saveModAvailReasonCode(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("selection") final String selection, @MXEventParam("objectName") final String objectName, @MXEventParam("date") final long date, @MXEventParam("reasonCode") final String reasonCode, @MXEventParam("durationType") final String durationType)
+    '''returns JSONObject\n\n
+    saveModAvailReasonCode(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("selection") final String selection, @MXEventParam("objectName") final String objectName, @MXEventParam("date") final long date, @MXEventParam("reasonCode") final String reasonCode, @MXEventParam("durationType") final String durationType)\n
     '''
 def deleteModAvailReasonCode():
-    '''public JSONObject deleteModAvailReasonCode(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("selection") final String selection, @MXEventParam("objectName") final String objectName, @MXEventParam("date") final long date, @MXEventParam("durationType") final String durationType)
+    '''returns JSONObject\n\n
+    deleteModAvailReasonCode(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("selection") final String selection, @MXEventParam("objectName") final String objectName, @MXEventParam("date") final long date, @MXEventParam("durationType") final String durationType)\n
     '''
 def unassignAll():
-    '''public JSONObject unassignAll(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String id, @MXEventParam("date") final long date)
+    '''returns JSONObject\n\n
+    unassignAll(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String id, @MXEventParam("date") final long date)\n
     '''
 def gotoWeek():
-    '''public JSONObject gotoWeek(final WebClientSession sess, @MXEventParam("startWeekDay") final long startWeekDay, @MXEventParam("resetWeek") final boolean resetWeek)
+    '''returns JSONObject\n\n
+    gotoWeek(final WebClientSession sess, @MXEventParam("startWeekDay") final long startWeekDay, @MXEventParam("resetWeek") final boolean resetWeek)\n
     '''

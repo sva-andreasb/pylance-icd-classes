@@ -1,6 +1,8 @@
-def FldCITypeStatus():
-    '''public FldCITypeStatus(final MboValue mv)
+def ():
+    '''returns FldCITypeStatus\n\n
+    (final MboValue mv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

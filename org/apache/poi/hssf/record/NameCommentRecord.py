@@ -1,29 +1,38 @@
 sid = "short  2196"
-def NameCommentRecord():
-    '''public NameCommentRecord(final String name, final String comment)
-    public NameCommentRecord(final RecordInputStream ris)
+def ():
+    '''returns NameCommentRecord\n\n
+    (final String name, final String comment)\n
+    (final RecordInputStream ris)\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getNameText():
-    '''public String getNameText()
+    '''returns String\n\n
+    getNameText()\n
     '''
 def setNameText():
-    '''public void setNameText(final String newName)
+    '''returns None\n\n
+    setNameText(final String newName)\n
     '''
 def getCommentText():
-    '''public String getCommentText()
+    '''returns String\n\n
+    getCommentText()\n
     '''
 def setCommentText():
-    '''public void setCommentText(final String comment)
+    '''returns None\n\n
+    setCommentText(final String comment)\n
     '''
 def getRecordType():
-    '''public short getRecordType()
+    '''returns short\n\n
+    getRecordType()\n
     '''

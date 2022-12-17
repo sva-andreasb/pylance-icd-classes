@@ -1,18 +1,24 @@
-def GzipCompressingEntity():
-    '''public GzipCompressingEntity(final HttpEntity entity)
+def ():
+    '''returns GzipCompressingEntity\n\n
+    (final HttpEntity entity)\n
     '''
 def getContentEncoding():
-    '''public Header getContentEncoding()
+    '''returns Header\n\n
+    getContentEncoding()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def isChunked():
-    '''public boolean isChunked()
+    '''returns boolean\n\n
+    isChunked()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''

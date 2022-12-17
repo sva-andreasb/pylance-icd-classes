@@ -1,31 +1,37 @@
-def HTMLBuilder():
-    '''public HTMLBuilder()
+def ():
+    '''returns HTMLBuilder\n\n
+    ()\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
-    '''
-def startElement():
-    '''public synchronized void startElement(final String s, final AttributeList list)
+    '''returns None\n\n
+    endDocument()\n
     '''
 def endElement():
-    '''public void endElement(final String str)
+    '''returns None\n\n
+    endElement(final String str)\n
     '''
 def characters():
-    '''public void characters(final String s)
-    public void characters(final char[] value, final int offset, final int count)
+    '''returns None\n\n
+    characters(final String s)\n
+    characters(final char[] value, final int offset, final int count)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] value, final int offset, final int count)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] value, final int offset, final int count)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String s, final String s2)
+    '''returns None\n\n
+    processingInstruction(final String s, final String s2)\n
     '''
 def getHTMLDocument():
-    '''public HTMLDocument getHTMLDocument()
+    '''returns HTMLDocument\n\n
+    getHTMLDocument()\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''

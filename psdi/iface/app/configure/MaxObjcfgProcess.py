@@ -1,15 +1,20 @@
-def MaxObjcfgProcess():
-    '''public MaxObjcfgProcess()
+def ():
+    '''returns MaxObjcfgProcess\n\n
+    ()\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def deleteAll():
-    '''public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
+    '''returns None\n\n
+    deleteAll(final MboRemote owner, final MboSetRemote mboSet)\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote MboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote MboSet, final String tableName)\n
     '''

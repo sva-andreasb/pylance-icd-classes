@@ -1,73 +1,97 @@
-def Dialog():
-    '''public Dialog()
+def ():
+    '''returns Dialog\n\n
+    ()\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def advancedlongop():
-    '''public int advancedlongop()
+    '''returns int\n\n
+    advancedlongop()\n
     '''
 def dialogok():
-    '''public int dialogok()
-    public int dialogok(final boolean advancedLongOp)
+    '''returns int\n\n
+    dialogok()\n
+    dialogok(final boolean advancedLongOp)\n
     '''
 def dolongop():
-    '''public int dolongop()
+    '''returns int\n\n
+    dolongop()\n
     '''
 def dialogyes():
-    '''public int dialogyes()
+    '''returns int\n\n
+    dialogyes()\n
     '''
 def dialogno():
-    '''public int dialogno()
+    '''returns int\n\n
+    dialogno()\n
     '''
 def dialogcancel():
-    '''public int dialogcancel()
+    '''returns int\n\n
+    dialogcancel()\n
     '''
 def dialogclose():
-    '''public int dialogclose()
+    '''returns int\n\n
+    dialogclose()\n
     '''
 def closelongop():
-    '''public int closelongop()
+    '''returns int\n\n
+    closelongop()\n
     '''
 def longopcheck():
-    '''public int longopcheck()
+    '''returns int\n\n
+    longopcheck()\n
     '''
 def longopquerycheck():
-    '''public int longopquerycheck()
+    '''returns int\n\n
+    longopquerycheck()\n
     '''
 def dialogtoggle():
-    '''public int dialogtoggle()
+    '''returns int\n\n
+    dialogtoggle()\n
     '''
 def renderDialogBody():
-    '''public void renderDialogBody()
+    '''returns None\n\n
+    renderDialogBody()\n
     '''
 def renderDialogBottom():
-    '''public void renderDialogBottom()
+    '''returns None\n\n
+    renderDialogBottom()\n
     '''
 def nextdialog():
-    '''public int nextdialog()
+    '''returns int\n\n
+    nextdialog()\n
     '''
 def getProperty():
-    '''public String getProperty(final String key)
+    '''returns String\n\n
+    getProperty(final String key)\n
     '''
 def setposition():
-    '''public int setposition()
+    '''returns int\n\n
+    setposition()\n
     '''
 def isExpanded():
-    '''public String isExpanded()
+    '''returns String\n\n
+    isExpanded()\n
     '''
 def toggleExpand():
-    '''public String toggleExpand()
+    '''returns String\n\n
+    toggleExpand()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def setLabelRenderId():
-    '''public void setLabelRenderId(final String id)
+    '''returns None\n\n
+    setLabelRenderId(final String id)\n
     '''
 def getLabelRenderId():
-    '''public String getLabelRenderId()
+    '''returns String\n\n
+    getLabelRenderId()\n
     '''

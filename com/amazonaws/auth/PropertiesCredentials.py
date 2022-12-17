@@ -1,10 +1,13 @@
-def PropertiesCredentials():
-    '''public PropertiesCredentials(final File file)
-    public PropertiesCredentials(final InputStream inputStream)
+def ():
+    '''returns PropertiesCredentials\n\n
+    (final File file)\n
+    (final InputStream inputStream)\n
     '''
 def getAWSAccessKeyId():
-    '''public String getAWSAccessKeyId()
+    '''returns String\n\n
+    getAWSAccessKeyId()\n
     '''
 def getAWSSecretKey():
-    '''public String getAWSSecretKey()
+    '''returns String\n\n
+    getAWSSecretKey()\n
     '''

@@ -1,18 +1,20 @@
-def AbstractInputStreamContent():
-    '''public AbstractInputStreamContent(final String type)
+def ():
+    '''returns AbstractInputStreamContent\n\n
+    (final String type)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def getType():
-    '''public String getType()
-    '''
-def getCloseInputStream():
-    '''public final boolean getCloseInputStream()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public AbstractInputStreamContent setType(final String type)
+    '''returns AbstractInputStreamContent\n\n
+    setType(final String type)\n
     '''
 def setCloseInputStream():
-    '''public AbstractInputStreamContent setCloseInputStream(final boolean closeInputStream)
+    '''returns AbstractInputStreamContent\n\n
+    setCloseInputStream(final boolean closeInputStream)\n
     '''

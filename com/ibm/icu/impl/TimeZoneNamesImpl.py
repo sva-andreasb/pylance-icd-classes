@@ -1,66 +1,67 @@
 NUM_NAME_TYPES = "int  7"
-def TimeZoneNamesImpl():
-    '''public TimeZoneNamesImpl(final ULocale locale)
+def ():
+    '''returns TimeZoneNamesImpl\n\n
+    (final ULocale locale)\n
     '''
 def getAvailableMetaZoneIDs():
-    '''public Set<String> getAvailableMetaZoneIDs()
-    public Set<String> getAvailableMetaZoneIDs(final String tzID)
+    '''returns Set<String>\n\n
+    getAvailableMetaZoneIDs()\n
+    getAvailableMetaZoneIDs(final String tzID)\n
     '''
 def getMetaZoneID():
-    '''public String getMetaZoneID(final String tzID, final long date)
+    '''returns String\n\n
+    getMetaZoneID(final String tzID, final long date)\n
     '''
 def getReferenceZoneID():
-    '''public String getReferenceZoneID(final String mzID, final String region)
+    '''returns String\n\n
+    getReferenceZoneID(final String mzID, final String region)\n
     '''
 def getMetaZoneDisplayName():
-    '''public String getMetaZoneDisplayName(final String mzID, final NameType type)
+    '''returns String\n\n
+    getMetaZoneDisplayName(final String mzID, final NameType type)\n
     '''
 def getTimeZoneDisplayName():
-    '''public String getTimeZoneDisplayName(final String tzID, final NameType type)
+    '''returns String\n\n
+    getTimeZoneDisplayName(final String tzID, final NameType type)\n
     '''
 def getExemplarLocationName():
-    '''public String getExemplarLocationName(final String tzID)
-    '''
-def find():
-    '''public synchronized Collection<MatchInfo> find(final CharSequence text, final int start, final EnumSet<NameType> nameTypes)
-    '''
-def loadAllDisplayNames():
-    '''public synchronized void loadAllDisplayNames()
+    '''returns String\n\n
+    getExemplarLocationName(final String tzID)\n
     '''
 def getDisplayNames():
-    '''public void getDisplayNames(final String tzID, final NameType[] types, final long date, final String[] dest, final int destOffset)
-    '''
-def getDefaultExemplarLocationName():
-    '''public static String getDefaultExemplarLocationName(final String tzID)
+    '''returns None\n\n
+    getDisplayNames(final String tzID, final NameType[] types, final long date, final String[] dest, final int destOffset)\n
     '''
 def put():
-    '''public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
-    public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
+    '''returns None\n\n
+    put(final UResource.Key key, final UResource.Value value, final boolean noFallback)\n
+    put(final UResource.Key key, final UResource.Value value, final boolean noFallback)\n
     '''
 def handlePrefixMatch():
-    '''public boolean handlePrefixMatch(final int matchLength, final Iterator<NameInfo> values)
+    '''returns boolean\n\n
+    handlePrefixMatch(final int matchLength, final Iterator<NameInfo> values)\n
     '''
 def getMatches():
-    '''public Collection<MatchInfo> getMatches()
+    '''returns Collection<MatchInfo>\n\n
+    getMatches()\n
     '''
 def getMaxMatchLen():
-    '''public int getMaxMatchLen()
+    '''returns int\n\n
+    getMaxMatchLen()\n
     '''
 def resetResults():
-    '''public void resetResults()
-    '''
-def createMetaZoneAndPutInCache():
-    '''public static ZNames createMetaZoneAndPutInCache(final Map<String, ZNames> cache, final String[] names, final String mzID)
-    '''
-def createTimeZoneAndPutInCache():
-    '''public static ZNames createTimeZoneAndPutInCache(final Map<String, ZNames> cache, String[] names, final String tzID)
+    '''returns None\n\n
+    resetResults()\n
     '''
 def getName():
-    '''public String getName(final NameType type)
+    '''returns String\n\n
+    getName(final NameType type)\n
     '''
 def addAsMetaZoneIntoTrie():
-    '''public void addAsMetaZoneIntoTrie(final String mzID, final TextTrieMap<NameInfo> trie)
+    '''returns None\n\n
+    addAsMetaZoneIntoTrie(final String mzID, final TextTrieMap<NameInfo> trie)\n
     '''
 def addAsTimeZoneIntoTrie():
-    '''public void addAsTimeZoneIntoTrie(final String tzID, final TextTrieMap<NameInfo> trie)
+    '''returns None\n\n
+    addAsTimeZoneIntoTrie(final String tzID, final TextTrieMap<NameInfo> trie)\n
     '''

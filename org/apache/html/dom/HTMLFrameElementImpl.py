@@ -1,51 +1,68 @@
 def getFrameBorder():
-    '''public String getFrameBorder()
+    '''returns String\n\n
+    getFrameBorder()\n
     '''
 def setFrameBorder():
-    '''public void setFrameBorder(final String s)
+    '''returns None\n\n
+    setFrameBorder(final String s)\n
     '''
 def getLongDesc():
-    '''public String getLongDesc()
+    '''returns String\n\n
+    getLongDesc()\n
     '''
 def setLongDesc():
-    '''public void setLongDesc(final String s)
+    '''returns None\n\n
+    setLongDesc(final String s)\n
     '''
 def getMarginHeight():
-    '''public String getMarginHeight()
+    '''returns String\n\n
+    getMarginHeight()\n
     '''
 def setMarginHeight():
-    '''public void setMarginHeight(final String s)
+    '''returns None\n\n
+    setMarginHeight(final String s)\n
     '''
 def getMarginWidth():
-    '''public String getMarginWidth()
+    '''returns String\n\n
+    getMarginWidth()\n
     '''
 def setMarginWidth():
-    '''public void setMarginWidth(final String s)
+    '''returns None\n\n
+    setMarginWidth(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getNoResize():
-    '''public boolean getNoResize()
+    '''returns boolean\n\n
+    getNoResize()\n
     '''
 def setNoResize():
-    '''public void setNoResize(final boolean b)
+    '''returns None\n\n
+    setNoResize(final boolean b)\n
     '''
 def getScrolling():
-    '''public String getScrolling()
+    '''returns String\n\n
+    getScrolling()\n
     '''
 def setScrolling():
-    '''public void setScrolling(final String s)
+    '''returns None\n\n
+    setScrolling(final String s)\n
     '''
 def getSrc():
-    '''public String getSrc()
+    '''returns String\n\n
+    getSrc()\n
     '''
 def setSrc():
-    '''public void setSrc(final String s)
+    '''returns None\n\n
+    setSrc(final String s)\n
     '''
-def HTMLFrameElementImpl():
-    '''public HTMLFrameElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLFrameElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

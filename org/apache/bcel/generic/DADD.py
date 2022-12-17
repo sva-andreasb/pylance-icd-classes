@@ -1,6 +1,8 @@
-def DADD():
-    '''public DADD()
+def ():
+    '''returns DADD\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

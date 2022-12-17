@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public DisableKeyResult unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static DisableKeyResultJsonUnmarshaller getInstance()
+    '''returns DisableKeyResult\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

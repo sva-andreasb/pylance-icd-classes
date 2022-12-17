@@ -1,31 +1,41 @@
-def FWMCalendarPopupBuilder():
-    '''public FWMCalendarPopupBuilder()
+def ():
+    '''returns FWMCalendarPopupBuilder\n\n
+    ()\n
     '''
 def setButtonText():
-    '''public FWMCalendarPopupBuilder setButtonText(final String text)
+    '''returns FWMCalendarPopupBuilder\n\n
+    setButtonText(final String text)\n
     '''
 def setCalendarListener():
-    '''public FWMCalendarPopupBuilder setCalendarListener(final CalendarListener listener)
+    '''returns FWMCalendarPopupBuilder\n\n
+    setCalendarListener(final CalendarListener listener)\n
     '''
 def setCalendar():
-    '''public FWMCalendarPopupBuilder setCalendar(final Calendar cal)
-    public FWMCalendarPopupBuilder setCalendar(final Date date)
+    '''returns FWMCalendarPopupBuilder\n\n
+    setCalendar(final Calendar cal)\n
+    setCalendar(final Date date)\n
     '''
 def create():
-    '''public JDialog create()
+    '''returns JDialog\n\n
+    create()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def windowLostFocus():
-    '''public void windowLostFocus(final WindowEvent e)
+    '''returns None\n\n
+    windowLostFocus(final WindowEvent e)\n
     '''
 def windowGainedFocus():
-    '''public void windowGainedFocus(final WindowEvent e)
+    '''returns None\n\n
+    windowGainedFocus(final WindowEvent e)\n
     '''
 def createAndShowAt():
-    '''public void createAndShowAt(final int x, final int y)
+    '''returns None\n\n
+    createAndShowAt(final int x, final int y)\n
     '''
 def getCalendarHeaderRendererComponent():
-    '''public Component getCalendarHeaderRendererComponent(final IlvJCalendarPanel calendarPanel, final Calendar calendar, final int column)
+    '''returns Component\n\n
+    getCalendarHeaderRendererComponent(final IlvJCalendarPanel calendarPanel, final Calendar calendar, final int column)\n
     '''

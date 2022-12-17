@@ -1,20 +1,26 @@
-def FormatTrackingHSSFListener():
-    '''public FormatTrackingHSSFListener(final HSSFListener childListener)
-    public FormatTrackingHSSFListener(final HSSFListener childListener, final Locale locale)
+def ():
+    '''returns FormatTrackingHSSFListener\n\n
+    (final HSSFListener childListener)\n
+    (final HSSFListener childListener, final Locale locale)\n
     '''
 def processRecord():
-    '''public void processRecord(final Record record)
+    '''returns None\n\n
+    processRecord(final Record record)\n
     '''
 def processRecordInternally():
-    '''public void processRecordInternally(final Record record)
+    '''returns None\n\n
+    processRecordInternally(final Record record)\n
     '''
 def formatNumberDateCell():
-    '''public String formatNumberDateCell(final CellValueRecordInterface cell)
+    '''returns String\n\n
+    formatNumberDateCell(final CellValueRecordInterface cell)\n
     '''
 def getFormatString():
-    '''public String getFormatString(final int formatIndex)
-    public String getFormatString(final CellValueRecordInterface cell)
+    '''returns String\n\n
+    getFormatString(final int formatIndex)\n
+    getFormatString(final CellValueRecordInterface cell)\n
     '''
 def getFormatIndex():
-    '''public int getFormatIndex(final CellValueRecordInterface cell)
+    '''returns int\n\n
+    getFormatIndex(final CellValueRecordInterface cell)\n
     '''

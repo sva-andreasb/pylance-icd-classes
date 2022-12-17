@@ -1,15 +1,20 @@
-def QueueUser():
-    '''public QueueUser(final String uid, final int position, final int time, final Date joinedAt)
+def ():
+    '''returns QueueUser\n\n
+    (final String uid, final int position, final int time, final Date joinedAt)\n
     '''
 def getUserID():
-    '''public String getUserID()
+    '''returns String\n\n
+    getUserID()\n
     '''
 def getQueuePosition():
-    '''public int getQueuePosition()
+    '''returns int\n\n
+    getQueuePosition()\n
     '''
 def getEstimatedRemainingTime():
-    '''public int getEstimatedRemainingTime()
+    '''returns int\n\n
+    getEstimatedRemainingTime()\n
     '''
 def getQueueJoinTimestamp():
-    '''public Date getQueueJoinTimestamp()
+    '''returns Date\n\n
+    getQueueJoinTimestamp()\n
     '''

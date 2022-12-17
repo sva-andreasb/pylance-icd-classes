@@ -1,9 +1,8 @@
-def ThrowableInformation():
-    '''public ThrowableInformation(final Throwable throwable)
+def ():
+    '''returns ThrowableInformation\n\n
+    (final Throwable throwable)\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
-    '''
-def getThrowableStrRep():
-    '''public synchronized String[] getThrowableStrRep()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''

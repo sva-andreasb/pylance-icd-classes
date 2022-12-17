@@ -1,3 +1,4 @@
-def LaborCertHistSet():
-    '''public LaborCertHistSet(final MboServerInterface ms)
+def ():
+    '''returns LaborCertHistSet\n\n
+    (final MboServerInterface ms)\n
     '''

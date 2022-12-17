@@ -1,4 +1,5 @@
-def DynamicTooltip():
-    '''public DynamicTooltip()
-    public DynamicTooltip(final String html)
+def ():
+    '''returns DynamicTooltip\n\n
+    ()\n
+    (final String html)\n
     '''

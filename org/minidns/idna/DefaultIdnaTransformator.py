@@ -1,6 +1,8 @@
 def toASCII():
-    '''public String toASCII(final String input)
+    '''returns String\n\n
+    toASCII(final String input)\n
     '''
 def toUnicode():
-    '''public String toUnicode(final String input)
+    '''returns String\n\n
+    toUnicode(final String input)\n
     '''

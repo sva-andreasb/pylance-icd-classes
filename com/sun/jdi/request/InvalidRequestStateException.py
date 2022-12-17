@@ -1,4 +1,5 @@
-def InvalidRequestStateException():
-    '''public InvalidRequestStateException()
-    public InvalidRequestStateException(final String message)
+def ():
+    '''returns InvalidRequestStateException\n\n
+    ()\n
+    (final String message)\n
     '''

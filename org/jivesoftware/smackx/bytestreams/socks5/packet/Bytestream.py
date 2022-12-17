@@ -1,80 +1,90 @@
 ELEMENT = "String  \"query\""
 NAMESPACE = "String  \"http://jabber.org/protocol/bytestreams\""
-def Bytestream():
-    '''public Bytestream()
-    public Bytestream(final String SID)
+def ():
+    '''returns Activate\n\n
+    ()\n
+    (final String SID)\n
+    (final Jid jid, final String address)\n
+    (final Jid JID, final String address, final int port)\n
+    (final Jid JID)\n
+    (final Jid target)\n
     '''
 def setSessionID():
-    '''public void setSessionID(final String sessionID)
+    '''returns None\n\n
+    setSessionID(final String sessionID)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def setMode():
-    '''public void setMode(final Mode mode)
+    '''returns None\n\n
+    setMode(final Mode mode)\n
     '''
 def getMode():
-    '''public Mode getMode()
+    '''returns Mode\n\n
+    getMode()\n
     '''
 def addStreamHost():
-    '''public StreamHost addStreamHost(final Jid JID, final String address)
-    public StreamHost addStreamHost(final Jid JID, final String address, final int port)
-    public void addStreamHost(final StreamHost host)
+    '''returns None\n\n
+    addStreamHost(final Jid JID, final String address)\n
+    addStreamHost(final Jid JID, final String address, final int port)\n
+    addStreamHost(final StreamHost host)\n
     '''
 def getStreamHosts():
-    '''public List<StreamHost> getStreamHosts()
+    '''returns List<StreamHost>\n\n
+    getStreamHosts()\n
     '''
 def getStreamHost():
-    '''public StreamHost getStreamHost(final Jid JID)
+    '''returns StreamHost\n\n
+    getStreamHost(final Jid JID)\n
     '''
 def countStreamHosts():
-    '''public int countStreamHosts()
+    '''returns int\n\n
+    countStreamHosts()\n
     '''
 def setUsedHost():
-    '''public void setUsedHost(final Jid JID)
+    '''returns None\n\n
+    setUsedHost(final Jid JID)\n
     '''
 def getUsedHost():
-    '''public StreamHostUsed getUsedHost()
+    '''returns StreamHostUsed\n\n
+    getUsedHost()\n
     '''
 def getToActivate():
-    '''public Activate getToActivate()
+    '''returns Activate\n\n
+    getToActivate()\n
     '''
 def setToActivate():
-    '''public void setToActivate(final Jid targetID)
-    '''
-def StreamHost():
-    '''public StreamHost(final Jid jid, final String address)
-    public StreamHost(final Jid JID, final String address, final int port)
+    '''returns None\n\n
+    setToActivate(final Jid targetID)\n
     '''
 def getJID():
-    '''public Jid getJID()
-    public Jid getJID()
+    '''returns Jid\n\n
+    getJID()\n
+    getJID()\n
     '''
 def getAddress():
-    '''public String getAddress()
+    '''returns String\n\n
+    getAddress()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def StreamHostUsed():
-    '''public StreamHostUsed(final Jid JID)
-    '''
-def Activate():
-    '''public Activate(final Jid target)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getTarget():
-    '''public Jid getTarget()
-    '''
-def fromName():
-    '''public static Mode fromName(final String name)
+    '''returns Jid\n\n
+    getTarget()\n
     '''

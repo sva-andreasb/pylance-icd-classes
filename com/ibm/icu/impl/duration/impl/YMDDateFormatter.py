@@ -1,14 +1,18 @@
-def YMDDateFormatter():
-    '''public YMDDateFormatter(final String requestedFields)
-    public YMDDateFormatter(final String requestedFields, final String localeName, final TimeZone timeZone)
+def ():
+    '''returns YMDDateFormatter\n\n
+    (final String requestedFields)\n
+    (final String requestedFields, final String localeName, final TimeZone timeZone)\n
     '''
 def format():
-    '''public String format(final long date)
-    public String format(final Date date)
+    '''returns String\n\n
+    format(final long date)\n
+    format(final Date date)\n
     '''
 def withLocale():
-    '''public DateFormatter withLocale(final String locName)
+    '''returns DateFormatter\n\n
+    withLocale(final String locName)\n
     '''
 def withTimeZone():
-    '''public DateFormatter withTimeZone(final TimeZone tz)
+    '''returns DateFormatter\n\n
+    withTimeZone(final TimeZone tz)\n
     '''

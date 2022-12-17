@@ -1,34 +1,43 @@
 PUSHNOTF_LOGGER = "String  \"maximo.pushnotification\""
-def PushNotificationService():
-    '''public PushNotificationService()
-    public PushNotificationService(final MXServer mxServer)
+def ():
+    '''returns PushNotificationService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def sendMessage():
-    '''public void sendMessage(final UserInfo userInfo, final String msg)
-    public void sendMessage(final UserInfo userInfo, final NotificationMessage notificationMessage)
-    public void sendMessage(final UserInfo userInfo, final NotificationMessage notificationMessage, final String eventName)
-    public void sendMessage(final UserInfo userInfo, final NotificationMessage notificationMessage, final String eventName, final String projectName)
+    '''returns None\n\n
+    sendMessage(final UserInfo userInfo, final String msg)\n
+    sendMessage(final UserInfo userInfo, final NotificationMessage notificationMessage)\n
+    sendMessage(final UserInfo userInfo, final NotificationMessage notificationMessage, final String eventName)\n
+    sendMessage(final UserInfo userInfo, final NotificationMessage notificationMessage, final String eventName, final String projectName)\n
     '''
 def sendMessageforUserId():
-    '''public void sendMessageforUserId(final UserInfo userInfo, final String notifMessageJsonStr, final String msgRecevingUserId, final String notifMessage, final String eventName, final String projectName)
-    public void sendMessageforUserId(final UserInfo userInfo, String msgRecevingUserId, final NotificationMessage notificationMessage, final String eventName, final String projectName)
+    '''returns None\n\n
+    sendMessageforUserId(final UserInfo userInfo, final String notifMessageJsonStr, final String msgRecevingUserId, final String notifMessage, final String eventName, final String projectName)\n
+    sendMessageforUserId(final UserInfo userInfo, String msgRecevingUserId, final NotificationMessage notificationMessage, final String eventName, final String projectName)\n
     '''
 def getProviderDevTypeSet():
-    '''public MboSetRemote getProviderDevTypeSet(final UserInfo userInfo, final String deviceType, final String projectName)
+    '''returns MboSetRemote\n\n
+    getProviderDevTypeSet(final UserInfo userInfo, final String deviceType, final String projectName)\n
     '''
 def getProviderMbo():
-    '''public MboRemote getProviderMbo()
+    '''returns MboRemote\n\n
+    getProviderMbo()\n
     '''
 def getProviderName():
-    '''public String getProviderName()
+    '''returns String\n\n
+    getProviderName()\n
     '''
 def getNotificationMessage():
-    '''public NotificationMessage getNotificationMessage(final String msg, final String deviceId)
-    public NotificationMessage getNotificationMessage(final NotificationMessage notificationMessage, final String deviceId)
+    '''returns NotificationMessage\n\n
+    getNotificationMessage(final String msg, final String deviceId)\n
+    getNotificationMessage(final NotificationMessage notificationMessage, final String deviceId)\n
     '''
 def getRouterHandler():
-    '''public BaseRouterHandler getRouterHandler()
+    '''returns BaseRouterHandler\n\n
+    getRouterHandler()\n
     '''
 def setProviderName():
-    '''public void setProviderName(final String providername)
+    '''returns None\n\n
+    setProviderName(final String providername)\n
     '''

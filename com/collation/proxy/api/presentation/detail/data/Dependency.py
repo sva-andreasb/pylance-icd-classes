@@ -1,9 +1,12 @@
-def Dependency():
-    '''public Dependency()
+def ():
+    '''returns Dependency\n\n
+    ()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''

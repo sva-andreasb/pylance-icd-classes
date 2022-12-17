@@ -1,44 +1,58 @@
-def TimeWindow():
-    '''public TimeWindow(final Date startTime, final Date endTime)
+def ():
+    '''returns TimeWindow\n\n
+    (final Date startTime, final Date endTime)\n
     '''
 def compareTo():
-    '''public int compareTo(final TimeWindow tw)
+    '''returns int\n\n
+    compareTo(final TimeWindow tw)\n
     '''
 def copy():
-    '''public TimeWindow copy()
+    '''returns TimeWindow\n\n
+    copy()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Date startTime, final Date endTime)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Date startTime, final Date endTime)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getDuration():
-    '''public double getDuration()
-    public double getDuration(final boolean roundToNearestMinute)
+    '''returns double\n\n
+    getDuration()\n
+    getDuration(final boolean roundToNearestMinute)\n
     '''
 def getEndTime():
-    '''public Date getEndTime()
+    '''returns Date\n\n
+    getEndTime()\n
     '''
 def getStartTime():
-    '''public Date getStartTime()
+    '''returns Date\n\n
+    getStartTime()\n
     '''
 def isContained():
-    '''public boolean isContained(final Date start, final Date end)
+    '''returns boolean\n\n
+    isContained(final Date start, final Date end)\n
     '''
 def isZeroDuration():
-    '''public boolean isZeroDuration()
+    '''returns boolean\n\n
+    isZeroDuration()\n
     '''
 def getStartTimeInMillis():
-    '''public long getStartTimeInMillis()
+    '''returns long\n\n
+    getStartTimeInMillis()\n
     '''
 def setStartTimeInMillis():
-    '''public void setStartTimeInMillis(final long startTimeInMillis)
+    '''returns None\n\n
+    setStartTimeInMillis(final long startTimeInMillis)\n
     '''
 def getEndTimeInMillis():
-    '''public long getEndTimeInMillis()
+    '''returns long\n\n
+    getEndTimeInMillis()\n
     '''
 def setEndTimeInMillis():
-    '''public void setEndTimeInMillis(final long endTimeInMillis)
+    '''returns None\n\n
+    setEndTimeInMillis(final long endTimeInMillis)\n
     '''

@@ -1,36 +1,44 @@
-def MaxIntError():
-    '''public MaxIntError(final MboSet ms)
+def ():
+    '''returns MaxIntError\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def markForDelete():
-    '''public boolean markForDelete(final String state)
+    '''returns boolean\n\n
+    markForDelete(final String state)\n
     '''
 def canContinue():
-    '''public void canContinue()
+    '''returns None\n\n
+    canContinue()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def writeToQueue():
-    '''public void writeToQueue()
-    '''
-def getJMSHeader():
-    '''public Map<String, String> getJMSHeader()
+    '''returns None\n\n
+    writeToQueue()\n
     '''

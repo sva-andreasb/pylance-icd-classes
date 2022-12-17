@@ -1,15 +1,20 @@
-def KeywordVariables():
-    '''public KeywordVariables(final String keyword, final Object object)
+def ():
+    '''returns KeywordVariables\n\n
+    (final String keyword, final Object object)\n
     '''
 def isDeclaredVariable():
-    '''public boolean isDeclaredVariable(final String variable)
+    '''returns boolean\n\n
+    isDeclaredVariable(final String variable)\n
     '''
 def getVariable():
-    '''public Object getVariable(final String variable)
+    '''returns Object\n\n
+    getVariable(final String variable)\n
     '''
 def declareVariable():
-    '''public void declareVariable(final String variable, final Object value)
+    '''returns None\n\n
+    declareVariable(final String variable, final Object value)\n
     '''
 def undeclareVariable():
-    '''public void undeclareVariable(final String variable)
+    '''returns None\n\n
+    undeclareVariable(final String variable)\n
     '''

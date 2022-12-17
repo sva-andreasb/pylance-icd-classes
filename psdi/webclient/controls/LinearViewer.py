@@ -1,21 +1,28 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def isVisibleOnCurrentTab():
-    '''public boolean isVisibleOnCurrentTab()
+    '''returns boolean\n\n
+    isVisibleOnCurrentTab()\n
     '''
 def hasVisibilityChanged():
-    '''public boolean hasVisibilityChanged()
+    '''returns boolean\n\n
+    hasVisibilityChanged()\n
     '''
 def setVisibilityChanged():
-    '''public void setVisibilityChanged(final boolean vis)
+    '''returns None\n\n
+    setVisibilityChanged(final boolean vis)\n
     '''
 def buildUrl():
-    '''public String buildUrl(final WebClientSession wcs, final String servletBase, final String servletPath, final String flashObjectPath)
+    '''returns String\n\n
+    buildUrl(final WebClientSession wcs, final String servletBase, final String servletPath, final String flashObjectPath)\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''

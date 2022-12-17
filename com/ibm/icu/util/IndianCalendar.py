@@ -11,17 +11,19 @@ PAUSA = "int  9"
 MAGHA = "int  10"
 PHALGUNA = "int  11"
 IE = "int  0"
-def IndianCalendar():
-    '''public IndianCalendar()
-    public IndianCalendar(final TimeZone zone)
-    public IndianCalendar(final Locale aLocale)
-    public IndianCalendar(final ULocale locale)
-    public IndianCalendar(final TimeZone zone, final Locale aLocale)
-    public IndianCalendar(final TimeZone zone, final ULocale locale)
-    public IndianCalendar(final Date date)
-    public IndianCalendar(final int year, final int month, final int date)
-    public IndianCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
+def ():
+    '''returns IndianCalendar\n\n
+    ()\n
+    (final TimeZone zone)\n
+    (final Locale aLocale)\n
+    (final ULocale locale)\n
+    (final TimeZone zone, final Locale aLocale)\n
+    (final TimeZone zone, final ULocale locale)\n
+    (final Date date)\n
+    (final int year, final int month, final int date)\n
+    (final int year, final int month, final int date, final int hour, final int minute, final int second)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''

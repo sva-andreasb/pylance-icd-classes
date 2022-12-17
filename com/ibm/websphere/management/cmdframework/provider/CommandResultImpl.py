@@ -1,27 +1,36 @@
-def CommandResultImpl():
-    '''public CommandResultImpl()
+def ():
+    '''returns CommandResultImpl\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def isSuccessful():
-    '''public boolean isSuccessful()
+    '''returns boolean\n\n
+    isSuccessful()\n
     '''
 def getMessages():
-    '''public Collection getMessages()
+    '''returns Collection\n\n
+    getMessages()\n
     '''
 def getException():
-    '''public Throwable getException()
+    '''returns Throwable\n\n
+    getException()\n
     '''
 def getResult():
-    '''public Object getResult()
+    '''returns Object\n\n
+    getResult()\n
     '''
 def setException():
-    '''public void setException(final Throwable thisThrowable)
+    '''returns None\n\n
+    setException(final Throwable thisThrowable)\n
     '''
 def addWarnings():
-    '''public void addWarnings(final String msg)
+    '''returns None\n\n
+    addWarnings(final String msg)\n
     '''
 def setResult():
-    '''public void setResult(final Object obj)
+    '''returns None\n\n
+    setResult(final Object obj)\n
     '''

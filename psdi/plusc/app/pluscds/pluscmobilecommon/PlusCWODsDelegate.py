@@ -1,34 +1,45 @@
-def PlusCWODsDelegate():
-    '''public PlusCWODsDelegate(final MboAdapter mbo)
+def ():
+    '''returns PlusCWODsDelegate\n\n
+    (final MboAdapter mbo)\n
     '''
 def getThisMbo():
-    '''public MboAdapter getThisMbo()
+    '''returns MboAdapter\n\n
+    getThisMbo()\n
     '''
 def isAllEntered():
-    '''public boolean isAllEntered()
-    public boolean isAllEntered(final String prefix)
+    '''returns boolean\n\n
+    isAllEntered()\n
+    isAllEntered(final String prefix)\n
     '''
 def setDSRequiredStatus():
-    '''public void setDSRequiredStatus(final boolean cleared)
+    '''returns None\n\n
+    setDSRequiredStatus(final boolean cleared)\n
     '''
 def allPointsAreCleared():
-    '''public boolean allPointsAreCleared()
+    '''returns boolean\n\n
+    allPointsAreCleared()\n
     '''
 def allCalPointsAndFuncChecksAreCleared():
-    '''public boolean allCalPointsAndFuncChecksAreCleared()
+    '''returns boolean\n\n
+    allCalPointsAndFuncChecksAreCleared()\n
     '''
 def isLoop():
-    '''public boolean isLoop()
+    '''returns boolean\n\n
+    isLoop()\n
     '''
 def hasCalPoints():
-    '''public boolean hasCalPoints()
+    '''returns boolean\n\n
+    hasCalPoints()\n
     '''
 def hasFunctionChecks():
-    '''public boolean hasFunctionChecks()
+    '''returns boolean\n\n
+    hasFunctionChecks()\n
     '''
 def hasDynamicChecks():
-    '''public boolean hasDynamicChecks()
+    '''returns boolean\n\n
+    hasDynamicChecks()\n
     '''
 def setValueInOptionalLoopPartDSs():
-    '''public void setValueInOptionalLoopPartDSs(final String attributeName, final String value, final long accessModifier)
+    '''returns None\n\n
+    setValueInOptionalLoopPartDSs(final String attributeName, final String value, final long accessModifier)\n
     '''

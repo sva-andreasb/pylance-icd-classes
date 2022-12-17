@@ -1,18 +1,12 @@
-def WebServiceContext():
-    '''public WebServiceContext(final String userName, final String password)
+def ():
+    '''returns WebServiceContext\n\n
+    (final String userName, final String password)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def getPassword():
-    '''public String getPassword()
-    '''
-def getCurrentContext():
-    '''public static WebServiceContext getCurrentContext()
-    '''
-def setCurrentContext():
-    '''public static void setCurrentContext(final WebServiceContext context)
-    '''
-def destroyCurrentContext():
-    '''public static void destroyCurrentContext()
+    '''returns String\n\n
+    getPassword()\n
     '''

@@ -1,42 +1,55 @@
 def containsHeader():
-    '''public boolean containsHeader(final String name)
+    '''returns boolean\n\n
+    containsHeader(final String name)\n
     '''
 def getHeaders():
-    '''public Header[] getHeaders(final String name)
+    '''returns Header[]\n\n
+    getHeaders(final String name)\n
     '''
 def getFirstHeader():
-    '''public Header getFirstHeader(final String name)
+    '''returns Header\n\n
+    getFirstHeader(final String name)\n
     '''
 def getLastHeader():
-    '''public Header getLastHeader(final String name)
+    '''returns Header\n\n
+    getLastHeader(final String name)\n
     '''
 def getAllHeaders():
-    '''public Header[] getAllHeaders()
+    '''returns Header[]\n\n
+    getAllHeaders()\n
     '''
 def addHeader():
-    '''public void addHeader(final Header header)
-    public void addHeader(final String name, final String value)
+    '''returns None\n\n
+    addHeader(final Header header)\n
+    addHeader(final String name, final String value)\n
     '''
 def setHeader():
-    '''public void setHeader(final Header header)
-    public void setHeader(final String name, final String value)
+    '''returns None\n\n
+    setHeader(final Header header)\n
+    setHeader(final String name, final String value)\n
     '''
 def setHeaders():
-    '''public void setHeaders(final Header[] headers)
+    '''returns None\n\n
+    setHeaders(final Header[] headers)\n
     '''
 def removeHeader():
-    '''public void removeHeader(final Header header)
+    '''returns None\n\n
+    removeHeader(final Header header)\n
     '''
 def removeHeaders():
-    '''public void removeHeaders(final String name)
+    '''returns None\n\n
+    removeHeaders(final String name)\n
     '''
 def headerIterator():
-    '''public HeaderIterator headerIterator()
-    public HeaderIterator headerIterator(final String name)
+    '''returns HeaderIterator\n\n
+    headerIterator()\n
+    headerIterator(final String name)\n
     '''
 def getParams():
-    '''public HttpParams getParams()
+    '''returns HttpParams\n\n
+    getParams()\n
     '''
 def setParams():
-    '''public void setParams(final HttpParams params)
+    '''returns None\n\n
+    setParams(final HttpParams params)\n
     '''

@@ -3,14 +3,18 @@ USER_LEFT = "int  -2147483646"
 ADD_ALLOWED_USERS_FAILED = "int  -2147483645"
 REMOVE_ALLOWED_USERS_FAILED = "int  -2147483644"
 def getSection():
-    '''public Section getSection()
+    '''returns Section\n\n
+    getSection()\n
     '''
 def getUsers():
-    '''public UserInPlace[] getUsers()
+    '''returns UserInPlace[]\n\n
+    getUsers()\n
     '''
 def getUser():
-    '''public UserInPlace getUser()
+    '''returns UserInPlace\n\n
+    getUser()\n
     '''
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''

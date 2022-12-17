@@ -1,6 +1,7 @@
-def MXAdminLogoutException():
-    '''public MXAdminLogoutException(final String eg, final String ek)
-    public MXAdminLogoutException(final String eg, final String ek, final Object[] params)
-    public MXAdminLogoutException(final String eg, final String ek, final Throwable t)
-    public MXAdminLogoutException(final String eg, final String ek, final Object[] p, final Throwable t)
+def ():
+    '''returns MXAdminLogoutException\n\n
+    (final String eg, final String ek)\n
+    (final String eg, final String ek, final Object[] params)\n
+    (final String eg, final String ek, final Throwable t)\n
+    (final String eg, final String ek, final Object[] p, final Throwable t)\n
     '''

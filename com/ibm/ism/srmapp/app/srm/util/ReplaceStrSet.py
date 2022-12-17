@@ -1,3 +1,4 @@
-def ReplaceStrSet():
-    '''public ReplaceStrSet(final MboServerInterface ms)
+def ():
+    '''returns ReplaceStrSet\n\n
+    (final MboServerInterface ms)\n
     '''

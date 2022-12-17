@@ -1,3 +1,4 @@
-def ExtDrillDownSet():
-    '''public ExtDrillDownSet(final MboServerInterface ms)
+def ():
+    '''returns ExtDrillDownSet\n\n
+    (final MboServerInterface ms)\n
     '''

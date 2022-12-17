@@ -1,21 +1,28 @@
-def SCCDUIUserInboundProc():
-    '''public SCCDUIUserInboundProc()
+def ():
+    '''returns SCCDUIUserInboundProc\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String objectName)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
+    '''returns None\n\n
+    changeStatus(final MboRemote setMbo, final String stat, final String memo)\n
     '''
 def delete():
-    '''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''returns None\n\n
+    delete(final MboRemote mbo, final MosDetailInfo mdi)\n
     '''
 def afterReplace():
-    '''public void afterReplace(final MboRemote child)
+    '''returns None\n\n
+    afterReplace(final MboRemote child)\n
     '''

@@ -1,98 +1,129 @@
 COL_INTERNAL_CPM_DESCENDENTS = "String  \"_TG_DESENDANTS\""
 MISSING_FROM_DEPENDENCIES = "String  \"_MISSING_FROM_DEPENDENCIES\""
 MISSING_TO_DEPENDENCIES = "String  \"_MISSING_TO_DEPENDENCIES\""
-def Constraint():
-    '''public Constraint()
+def ():
+    '''returns Constraint\n\n
+    ()\n
     '''
 def Items():
-    '''public JSONArray Items()
+    '''returns JSONArray\n\n
+    Items()\n
     '''
 def addRow():
-    '''public Constraint addRow()
-    public Constraint addRow(final Constraint row)
+    '''returns Constraint\n\n
+    addRow()\n
+    addRow(final Constraint row)\n
     '''
 def isInitialized():
-    '''public boolean isInitialized()
+    '''returns boolean\n\n
+    isInitialized()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def getFromActivity():
-    '''public Activity getFromActivity()
+    '''returns Activity\n\n
+    getFromActivity()\n
     '''
 def getToActivity():
-    '''public Activity getToActivity()
+    '''returns Activity\n\n
+    getToActivity()\n
     '''
 def getType():
-    '''public IlvConstraintType getType()
+    '''returns IlvConstraintType\n\n
+    getType()\n
     '''
 def getTypeForPersistence():
-    '''public String getTypeForPersistence()
+    '''returns String\n\n
+    getTypeForPersistence()\n
     '''
 def getObjectID():
-    '''public Long getObjectID()
+    '''returns Long\n\n
+    getObjectID()\n
     '''
 def getModifiedProperties():
-    '''public Iterator getModifiedProperties()
+    '''returns Iterator\n\n
+    getModifiedProperties()\n
     '''
 def setDataGroupName():
-    '''public void setDataGroupName(final String dataGroupName)
+    '''returns None\n\n
+    setDataGroupName(final String dataGroupName)\n
     '''
 def setID():
-    '''public void setID(final String id)
+    '''returns None\n\n
+    setID(final String id)\n
     '''
 def setLeadLagHours():
-    '''public void setLeadLagHours(final Double leadLagHours)
+    '''returns None\n\n
+    setLeadLagHours(final Double leadLagHours)\n
     '''
 def setFromActivity():
-    '''public void setFromActivity(final Activity fromActivity)
+    '''returns None\n\n
+    setFromActivity(final Activity fromActivity)\n
     '''
 def setToActivity():
-    '''public void setToActivity(final Activity toActivity)
+    '''returns None\n\n
+    setToActivity(final Activity toActivity)\n
     '''
 def setType():
-    '''public void setType(final String type)
-    public void setType(final IlvConstraintType type)
+    '''returns None\n\n
+    setType(final String type)\n
+    setType(final IlvConstraintType type)\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def setRefObjectName():
-    '''public void setRefObjectName(final String refObjectName)
+    '''returns None\n\n
+    setRefObjectName(final String refObjectName)\n
     '''
 def setObjectID():
-    '''public void setObjectID(final Long objectID)
+    '''returns None\n\n
+    setObjectID(final Long objectID)\n
     '''
 def setInitialized():
-    '''public void setInitialized(final Boolean initialized)
+    '''returns None\n\n
+    setInitialized(final Boolean initialized)\n
     '''
 def setModified():
-    '''public void setModified(final boolean modified)
+    '''returns None\n\n
+    setModified(final boolean modified)\n
     '''
 def setUncommitted():
-    '''public void setUncommitted(final boolean uncommitted)
+    '''returns None\n\n
+    setUncommitted(final boolean uncommitted)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def addConstraintToActivity():
-    '''public void addConstraintToActivity(final Schedule schedule, final Activity fromActivity, final Activity toActivity)
+    '''returns None\n\n
+    addConstraintToActivity(final Schedule schedule, final Activity fromActivity, final Activity toActivity)\n
     '''
 def remove():
-    '''public void remove(final Schedule schedule)
+    '''returns None\n\n
+    remove(final Schedule schedule)\n
     '''
 def getFromActivityObject():
-    '''public IMXActivity getFromActivityObject()
+    '''returns IMXActivity\n\n
+    getFromActivityObject()\n
     '''
 def getToActivityObject():
-    '''public IMXActivity getToActivityObject()
+    '''returns IMXActivity\n\n
+    getToActivityObject()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String prop)
+    '''returns Object\n\n
+    getProperty(final String prop)\n
     '''
 def setOptimize():
-    '''public void setOptimize(final Boolean optimize)
+    '''returns None\n\n
+    setOptimize(final Boolean optimize)\n
     '''
 def setOptsplit():
-    '''public void setOptsplit(final Boolean optsplit)
+    '''returns None\n\n
+    setOptsplit(final Boolean optsplit)\n
     '''

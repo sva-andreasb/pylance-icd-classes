@@ -1,3 +1,4 @@
-def STConnectTypeImpl():
-    '''public STConnectTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns STConnectTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''

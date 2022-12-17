@@ -1,6 +1,8 @@
-def PY():
-    '''public PY(final MergeOptions mergeOptions)
+def ():
+    '''returns PY\n\n
+    (final MergeOptions mergeOptions)\n
     '''
 def a():
-    '''public PW a()
+    '''returns PW\n\n
+    a()\n
     '''

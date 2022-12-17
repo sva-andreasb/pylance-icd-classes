@@ -1,3 +1,4 @@
-def FldLockOutId():
-    '''public FldLockOutId(final MboValue mbv)
+def ():
+    '''returns FldLockOutId\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,6 +1,8 @@
 def setDataOut():
-    '''public StructureData setDataOut(final StructureData userExitData)
+    '''returns StructureData\n\n
+    setDataOut(final StructureData userExitData)\n
     '''
 def mapRequest():
-    '''public Document mapRequest(final Document reqDoc, final byte[] bObp)
+    '''returns Document\n\n
+    mapRequest(final Document reqDoc, final byte[] bObp)\n
     '''

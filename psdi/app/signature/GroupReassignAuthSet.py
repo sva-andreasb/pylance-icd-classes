@@ -1,3 +1,4 @@
-def GroupReassignAuthSet():
-    '''public GroupReassignAuthSet(final MboServerInterface ms)
+def ():
+    '''returns GroupReassignAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''

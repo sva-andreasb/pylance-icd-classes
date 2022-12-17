@@ -1,3 +1,4 @@
-def FieldPlaceholderParserHelper():
-    '''public FieldPlaceholderParserHelper()
+def ():
+    '''returns FieldPlaceholderParserHelper\n\n
+    ()\n
     '''

@@ -1,18 +1,24 @@
-def BoostQueryNode():
-    '''public BoostQueryNode(final QueryNode query, final float value)
+def ():
+    '''returns BoostQueryNode\n\n
+    (final QueryNode query, final float value)\n
     '''
 def getChild():
-    '''public QueryNode getChild()
+    '''returns QueryNode\n\n
+    getChild()\n
     '''
 def getValue():
-    '''public float getValue()
+    '''returns float\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escapeSyntaxParser)\n
     '''
 def cloneTree():
-    '''public QueryNode cloneTree()
+    '''returns QueryNode\n\n
+    cloneTree()\n
     '''

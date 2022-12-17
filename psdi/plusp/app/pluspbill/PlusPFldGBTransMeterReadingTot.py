@@ -1,6 +1,8 @@
-def PlusPFldGBTransMeterReadingTot():
-    '''public PlusPFldGBTransMeterReadingTot(final MboValue mbv)
+def ():
+    '''returns PlusPFldGBTransMeterReadingTot\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

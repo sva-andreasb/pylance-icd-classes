@@ -1,13 +1,17 @@
-def AndFilter():
-    '''public AndFilter()
-    public AndFilter(final PacketFilter... filters)
+def ():
+    '''returns AndFilter\n\n
+    ()\n
+    (final PacketFilter... filters)\n
     '''
 def addFilter():
-    '''public void addFilter(final PacketFilter filter)
+    '''returns None\n\n
+    addFilter(final PacketFilter filter)\n
     '''
 def accept():
-    '''public boolean accept(final Packet packet)
+    '''returns boolean\n\n
+    accept(final Packet packet)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

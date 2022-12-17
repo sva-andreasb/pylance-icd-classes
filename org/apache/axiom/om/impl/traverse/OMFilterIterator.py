@@ -1,12 +1,16 @@
-def OMFilterIterator():
-    '''public OMFilterIterator(final Iterator parent)
+def ():
+    '''returns OMFilterIterator\n\n
+    (final Iterator parent)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

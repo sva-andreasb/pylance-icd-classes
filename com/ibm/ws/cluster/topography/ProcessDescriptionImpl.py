@@ -1,25 +1,29 @@
-def ProcessDescriptionImpl():
-    '''public ProcessDescriptionImpl(final DescriptionKey key)
+def ():
+    '''returns ProcessDescriptionImpl\n\n
+    (final DescriptionKey key)\n
     '''
 def setNodeName():
-    '''public void setNodeName(final String nodeName)
+    '''returns None\n\n
+    setNodeName(final String nodeName)\n
     '''
 def setProcessName():
-    '''public void setProcessName(final String processName)
+    '''returns None\n\n
+    setProcessName(final String processName)\n
     '''
 def getDefinitionKey():
-    '''public String getDefinitionKey()
-    '''
-def exportToStream():
-    '''public synchronized void exportToStream(final DataOutput out, final Format format)
+    '''returns String\n\n
+    getDefinitionKey()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getProcessName():
-    '''public String getProcessName()
+    '''returns String\n\n
+    getProcessName()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''

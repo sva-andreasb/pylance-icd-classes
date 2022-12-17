@@ -1,22 +1,25 @@
-def OslcDomainCacheImpl():
-    '''public OslcDomainCacheImpl()
+def ():
+    '''returns OslcDomainCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getAllDomains():
-    '''public Map<String, DomainInfo> getAllDomains()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDomainInfo():
-    '''public DomainInfo getDomainInfo(final String domainName)
+    '''returns DomainInfo\n\n
+    getDomainInfo(final String domainName)\n
     '''
 def getDomainsForServiceProvider():
-    '''public List<DomainInfo> getDomainsForServiceProvider(final String spObjectName)
+    '''returns List<DomainInfo>\n\n
+    getDomainsForServiceProvider(final String spObjectName)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''

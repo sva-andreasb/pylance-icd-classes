@@ -1,4 +1,5 @@
-def MessageNotReadableException():
-    '''public MessageNotReadableException(final String reason)
-    public MessageNotReadableException(final String reason, final String errorCode)
+def ():
+    '''returns MessageNotReadableException\n\n
+    (final String reason)\n
+    (final String reason, final String errorCode)\n
     '''

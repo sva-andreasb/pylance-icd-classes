@@ -1,19 +1,25 @@
 ELEMENT = "String  \"header\""
-def Header():
-    '''public Header(final String name, final String value)
+def ():
+    '''returns Header\n\n
+    (final String name, final String value)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

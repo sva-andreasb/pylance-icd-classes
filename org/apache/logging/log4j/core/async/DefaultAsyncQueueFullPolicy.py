@@ -1,3 +1,4 @@
 def getRoute():
-    '''public EventRoute getRoute(final long backgroundThreadId, final Level level)
+    '''returns EventRoute\n\n
+    getRoute(final long backgroundThreadId, final Level level)\n
     '''

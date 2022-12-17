@@ -1,12 +1,16 @@
-def PlusPSelectPriceSchedBean():
-    '''public PlusPSelectPriceSchedBean()
+def ():
+    '''returns PlusPSelectPriceSchedBean\n\n
+    ()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def refreshPS():
-    '''public int refreshPS()
+    '''returns int\n\n
+    refreshPS()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

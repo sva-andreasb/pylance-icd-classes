@@ -1,49 +1,59 @@
-def getFormFrom():
-    '''public static Form getFormFrom(final Stanza packet)
-    '''
-def Form():
-    '''public Form(final DataForm dataForm)
-    public Form(final DataForm.Type type)
+def ():
+    '''returns Form\n\n
+    (final DataForm dataForm)\n
+    (final DataForm.Type type)\n
     '''
 def addField():
-    '''public void addField(final FormField field)
+    '''returns None\n\n
+    addField(final FormField field)\n
     '''
 def setAnswer():
-    '''public void setAnswer(final String variable, final String value)
-    public void setAnswer(final String variable, final int value)
-    public void setAnswer(final String variable, final long value)
-    public void setAnswer(final String variable, final float value)
-    public void setAnswer(final String variable, final double value)
-    public void setAnswer(final String variable, final boolean value)
-    public void setAnswer(final String variable, final List<? extends CharSequence> values)
+    '''returns None\n\n
+    setAnswer(final String variable, final String value)\n
+    setAnswer(final String variable, final int value)\n
+    setAnswer(final String variable, final long value)\n
+    setAnswer(final String variable, final float value)\n
+    setAnswer(final String variable, final double value)\n
+    setAnswer(final String variable, final boolean value)\n
+    setAnswer(final String variable, final List<? extends CharSequence> values)\n
     '''
 def setDefaultAnswer():
-    '''public void setDefaultAnswer(final String variable)
+    '''returns None\n\n
+    setDefaultAnswer(final String variable)\n
     '''
 def getFields():
-    '''public List<FormField> getFields()
+    '''returns List<FormField>\n\n
+    getFields()\n
     '''
 def getField():
-    '''public FormField getField(final String variable)
+    '''returns FormField\n\n
+    getField(final String variable)\n
     '''
 def hasField():
-    '''public boolean hasField(final String variable)
+    '''returns boolean\n\n
+    hasField(final String variable)\n
     '''
 def getInstructions():
-    '''public String getInstructions()
+    '''returns String\n\n
+    getInstructions()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setInstructions():
-    '''public void setInstructions(final String instructions)
+    '''returns None\n\n
+    setInstructions(final String instructions)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getDataFormToSend():
-    '''public DataForm getDataFormToSend()
+    '''returns DataForm\n\n
+    getDataFormToSend()\n
     '''
 def createAnswerForm():
-    '''public Form createAnswerForm()
+    '''returns Form\n\n
+    createAnswerForm()\n
     '''

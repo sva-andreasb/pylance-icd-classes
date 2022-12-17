@@ -1,74 +1,95 @@
-def PdfOutline():
-    '''public PdfOutline(final PdfOutline parent, final PdfAction action, final String title)
-    public PdfOutline(final PdfOutline parent, final PdfAction action, final String title, final boolean open)
-    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final String title)
-    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final String title, final boolean open)
-    public PdfOutline(final PdfOutline parent, final PdfAction action, final PdfString title)
-    public PdfOutline(final PdfOutline parent, final PdfAction action, final PdfString title, final boolean open)
-    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final PdfString title)
-    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final PdfString title, final boolean open)
-    public PdfOutline(final PdfOutline parent, final PdfAction action, final Paragraph title)
-    public PdfOutline(final PdfOutline parent, final PdfAction action, final Paragraph title, final boolean open)
-    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final Paragraph title)
-    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final Paragraph title, final boolean open)
+def ():
+    '''returns PdfOutline\n\n
+    (final PdfOutline parent, final PdfAction action, final String title)\n
+    (final PdfOutline parent, final PdfAction action, final String title, final boolean open)\n
+    (final PdfOutline parent, final PdfDestination destination, final String title)\n
+    (final PdfOutline parent, final PdfDestination destination, final String title, final boolean open)\n
+    (final PdfOutline parent, final PdfAction action, final PdfString title)\n
+    (final PdfOutline parent, final PdfAction action, final PdfString title, final boolean open)\n
+    (final PdfOutline parent, final PdfDestination destination, final PdfString title)\n
+    (final PdfOutline parent, final PdfDestination destination, final PdfString title, final boolean open)\n
+    (final PdfOutline parent, final PdfAction action, final Paragraph title)\n
+    (final PdfOutline parent, final PdfAction action, final Paragraph title, final boolean open)\n
+    (final PdfOutline parent, final PdfDestination destination, final Paragraph title)\n
+    (final PdfOutline parent, final PdfDestination destination, final Paragraph title, final boolean open)\n
     '''
 def setIndirectReference():
-    '''public void setIndirectReference(final PdfIndirectReference reference)
+    '''returns None\n\n
+    setIndirectReference(final PdfIndirectReference reference)\n
     '''
 def indirectReference():
-    '''public PdfIndirectReference indirectReference()
+    '''returns PdfIndirectReference\n\n
+    indirectReference()\n
     '''
 def parent():
-    '''public PdfOutline parent()
+    '''returns PdfOutline\n\n
+    parent()\n
     '''
 def setDestinationPage():
-    '''public boolean setDestinationPage(final PdfIndirectReference pageReference)
+    '''returns boolean\n\n
+    setDestinationPage(final PdfIndirectReference pageReference)\n
     '''
 def getPdfDestination():
-    '''public PdfDestination getPdfDestination()
+    '''returns PdfDestination\n\n
+    getPdfDestination()\n
     '''
 def level():
-    '''public int level()
+    '''returns int\n\n
+    level()\n
     '''
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''
 def addKid():
-    '''public void addKid(final PdfOutline outline)
+    '''returns None\n\n
+    addKid(final PdfOutline outline)\n
     '''
 def getKids():
-    '''public ArrayList getKids()
+    '''returns ArrayList\n\n
+    getKids()\n
     '''
 def setKids():
-    '''public void setKids(final ArrayList kids)
+    '''returns None\n\n
+    setKids(final ArrayList kids)\n
     '''
 def getTag():
-    '''public String getTag()
+    '''returns String\n\n
+    getTag()\n
     '''
 def setTag():
-    '''public void setTag(final String tag)
+    '''returns None\n\n
+    setTag(final String tag)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def setOpen():
-    '''public void setOpen(final boolean open)
+    '''returns None\n\n
+    setOpen(final boolean open)\n
     '''
 def getColor():
-    '''public Color getColor()
+    '''returns Color\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final Color color)
+    '''returns None\n\n
+    setColor(final Color color)\n
     '''
 def getStyle():
-    '''public int getStyle()
+    '''returns int\n\n
+    getStyle()\n
     '''
 def setStyle():
-    '''public void setStyle(final int style)
+    '''returns None\n\n
+    setStyle(final int style)\n
     '''

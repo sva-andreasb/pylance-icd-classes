@@ -1,18 +1,24 @@
-def XmlProcessingInstruction():
-    '''public XmlProcessingInstruction(final String data, final String target)
+def ():
+    '''returns XmlProcessingInstruction\n\n
+    (final String data, final String target)\n
     '''
 def data():
-    '''public String data()
+    '''returns String\n\n
+    data()\n
     '''
 def target():
-    '''public String target()
+    '''returns String\n\n
+    target()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

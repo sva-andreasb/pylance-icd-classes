@@ -1,5 +1,6 @@
-def ReplicaNotAvailableException():
-    '''public ReplicaNotAvailableException(final String message)
-    public ReplicaNotAvailableException(final String message, final Throwable cause)
-    public ReplicaNotAvailableException(final Throwable cause)
+def ():
+    '''returns ReplicaNotAvailableException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

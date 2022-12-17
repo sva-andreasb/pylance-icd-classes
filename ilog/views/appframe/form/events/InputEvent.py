@@ -1,3 +1,4 @@
-def InputEvent():
-    '''public InputEvent(final Object o)
+def ():
+    '''returns InputEvent\n\n
+    (final Object o)\n
     '''

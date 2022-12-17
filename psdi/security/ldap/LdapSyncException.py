@@ -1,6 +1,7 @@
-def LdapSyncException():
-    '''public LdapSyncException()
-    public LdapSyncException(final String message)
-    public LdapSyncException(final String message, final Throwable cause)
-    public LdapSyncException(final Throwable cause)
+def ():
+    '''returns LdapSyncException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

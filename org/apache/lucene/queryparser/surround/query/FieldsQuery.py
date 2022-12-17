@@ -1,22 +1,29 @@
-def FieldsQuery():
-    '''public FieldsQuery(final SrndQuery q, final List<String> fieldNames, final char fieldOp)
-    public FieldsQuery(final SrndQuery q, final String fieldName, final char fieldOp)
+def ():
+    '''returns FieldsQuery\n\n
+    (final SrndQuery q, final List<String> fieldNames, final char fieldOp)\n
+    (final SrndQuery q, final String fieldName, final char fieldOp)\n
     '''
 def isFieldsSubQueryAcceptable():
-    '''public boolean isFieldsSubQueryAcceptable()
+    '''returns boolean\n\n
+    isFieldsSubQueryAcceptable()\n
     '''
 def makeLuceneQueryNoBoost():
-    '''public Query makeLuceneQueryNoBoost(final BasicQueryFactory qf)
+    '''returns Query\n\n
+    makeLuceneQueryNoBoost(final BasicQueryFactory qf)\n
     '''
 def makeLuceneQueryFieldNoBoost():
-    '''public Query makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)
+    '''returns Query\n\n
+    makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)\n
     '''
 def getFieldNames():
-    '''public List<String> getFieldNames()
+    '''returns List<String>\n\n
+    getFieldNames()\n
     '''
 def getFieldOperator():
-    '''public char getFieldOperator()
+    '''returns char\n\n
+    getFieldOperator()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

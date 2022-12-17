@@ -1,12 +1,8 @@
-def SKDAMCREWChangeStatusBean():
-    '''public SKDAMCREWChangeStatusBean()
-    '''
-def getList():
-    '''public synchronized MboSetRemote getList(final int nRow, final String attribute)
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(final String option)
+def ():
+    '''returns SKDAMCREWChangeStatusBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

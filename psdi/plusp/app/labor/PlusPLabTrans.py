@@ -1,24 +1,32 @@
-def PlusPLabTrans():
-    '''public PlusPLabTrans(final MboSet arg0)
+def ():
+    '''returns PlusPLabTrans\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setContractRevision():
-    '''public void setContractRevision()
+    '''returns None\n\n
+    setContractRevision()\n
     '''
 def updateActualLabPrice():
-    '''public void updateActualLabPrice()
+    '''returns None\n\n
+    updateActualLabPrice()\n
     '''
 def getLineOwner():
-    '''public MboRemote getLineOwner(final boolean b)
+    '''returns MboRemote\n\n
+    getLineOwner(final boolean b)\n
     '''
 def approveLaborTransaction():
-    '''public void approveLaborTransaction()
+    '''returns None\n\n
+    approveLaborTransaction()\n
     '''
 def updateRelatedTotals():
-    '''public void updateRelatedTotals()
+    '''returns None\n\n
+    updateRelatedTotals()\n
     '''

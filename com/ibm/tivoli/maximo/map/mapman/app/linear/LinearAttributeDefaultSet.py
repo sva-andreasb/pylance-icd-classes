@@ -1,3 +1,4 @@
-def LinearAttributeDefaultSet():
-    '''public LinearAttributeDefaultSet(final MboServerInterface ms)
+def ():
+    '''returns LinearAttributeDefaultSet\n\n
+    (final MboServerInterface ms)\n
     '''

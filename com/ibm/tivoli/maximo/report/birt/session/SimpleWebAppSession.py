@@ -1,6 +1,4 @@
-def SimpleWebAppSession():
-    '''public SimpleWebAppSession()
-    '''
-def connect():
-    '''public synchronized void connect()
+def ():
+    '''returns SimpleWebAppSession\n\n
+    ()\n
     '''

@@ -1,57 +1,51 @@
 NO_INDEX = "int  -1"
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
-    public boolean isFrozen()
-    public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
+    isFrozen()\n
+    isFrozen()\n
     '''
 def finder():
-    '''public Node finder(final Domain d)
-    public Node finder(final Domain d)
-    public Node finder(final Domain d)
+    '''returns Node\n\n
+    finder(final Domain d)\n
+    finder(final Domain d)\n
+    finder(final Domain d)\n
     '''
 def mustMatch():
-    '''public boolean mustMatch()
-    public boolean mustMatch()
-    public boolean mustMatch()
+    '''returns boolean\n\n
+    mustMatch()\n
+    mustMatch()\n
+    mustMatch()\n
     '''
 def match():
-    '''public boolean match(final Domain d, final Node x)
-    public boolean match(final Domain d, final Node value)
-    public boolean match(final Domain d, final Node X)
+    '''returns boolean\n\n
+    match(final Domain d, final Node x)\n
+    match(final Domain d, final Node value)\n
+    match(final Domain d, final Node X)\n
     '''
-def classify():
-    '''public static QueryNode classify(final QueryNodeFactory f, final Mapping map, final Set<Node> recent, final Node n)
-    '''
-def MustNotMatchException():
-    '''public MustNotMatchException(final String message)
-    '''
-def Fixed():
-    '''public Fixed(final Node n)
+def ():
+    '''returns Any\n\n
+    (final String message)\n
+    (final Node n)\n
+    (final Node n, final int index)\n
+    (final Node n, final int index)\n
+    (final Node n, final int index)\n
+    ()\n
     '''
 def matchOrBind():
-    '''public boolean matchOrBind(final Domain d, final Node x)
-    public boolean matchOrBind(final Domain d, final Node value)
-    public boolean matchOrBind(final Domain d, final Node x)
-    public boolean matchOrBind(final Domain d, final Node x)
-    public boolean matchOrBind(final Domain d, final Node x)
-    '''
-def Bind():
-    '''public Bind(final Node n, final int index)
-    '''
-def JustBound():
-    '''public JustBound(final Node n, final int index)
-    '''
-def Bound():
-    '''public Bound(final Node n, final int index)
-    '''
-def Any():
-    '''public Any()
+    '''returns boolean\n\n
+    matchOrBind(final Domain d, final Node x)\n
+    matchOrBind(final Domain d, final Node value)\n
+    matchOrBind(final Domain d, final Node x)\n
+    matchOrBind(final Domain d, final Node x)\n
+    matchOrBind(final Domain d, final Node x)\n
     '''

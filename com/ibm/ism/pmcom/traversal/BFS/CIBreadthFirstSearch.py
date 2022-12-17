@@ -1,31 +1,37 @@
-def CIBreadthFirstSearch():
-    '''public CIBreadthFirstSearch(final int maxNodeCount)
+def ():
+    '''returns CIBreadthFirstSearch\n\n
+    (final int maxNodeCount)\n
     '''
 def start():
-    '''public void start(final MboRemote mbo, final CIFilter filter, final ITraversableAction action, final int depth)
-    public void start(final MboSetRemote mbos, final CIFilter filter, final ITraversableAction action, final int depth)
+    '''returns None\n\n
+    start(final MboRemote mbo, final CIFilter filter, final ITraversableAction action, final int depth)\n
+    start(final MboSetRemote mbos, final CIFilter filter, final ITraversableAction action, final int depth)\n
     '''
 def nodeCountExceeded():
-    '''public boolean nodeCountExceeded()
-    '''
-def getLevelMap():
-    '''public ConcurrentHashMap<String, String[]> getLevelMap()
+    '''returns boolean\n\n
+    nodeCountExceeded()\n
     '''
 def getLinks():
-    '''public List<Link> getLinks()
+    '''returns List<Link>\n\n
+    getLinks()\n
     '''
 def getMaxDepth():
-    '''public int getMaxDepth()
+    '''returns int\n\n
+    getMaxDepth()\n
     '''
 def getMaxNodeCount():
-    '''public int getMaxNodeCount()
+    '''returns int\n\n
+    getMaxNodeCount()\n
     '''
 def incrementNodeCount():
-    '''public void incrementNodeCount()
+    '''returns None\n\n
+    incrementNodeCount()\n
     '''
 def getNodeCountWithEventErrors():
-    '''public int getNodeCountWithEventErrors()
+    '''returns int\n\n
+    getNodeCountWithEventErrors()\n
     '''
 def setNodeCountWithEventErrors():
-    '''public void setNodeCountWithEventErrors(final int nodeCountWithEventErrors)
+    '''returns None\n\n
+    setNodeCountWithEventErrors(final int nodeCountWithEventErrors)\n
     '''

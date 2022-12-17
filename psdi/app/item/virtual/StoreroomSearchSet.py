@@ -1,33 +1,41 @@
-def StoreroomSearchSet():
-    '''public StoreroomSearchSet(final MboServerInterface ms)
+def ():
+    '''returns AsyncProcess\n\n
+    (final MboServerInterface ms)\n
+    (final ItemRemote item, final InventorySetRemote inventorySetBulk)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def applyDefaultvalues():
-    '''public void applyDefaultvalues(final MboSetRemote inventorySet)
+    '''returns None\n\n
+    applyDefaultvalues(final MboSetRemote inventorySet)\n
     '''
 def addItemsToStorerooms():
-    '''public boolean addItemsToStorerooms(final ItemRemote item, final InventorySetRemote inventorySetBulk)
+    '''returns boolean\n\n
+    addItemsToStorerooms(final ItemRemote item, final InventorySetRemote inventorySetBulk)\n
     '''
 def confirmUpdateValidInvLines():
-    '''public boolean confirmUpdateValidInvLines(final int count)
+    '''returns boolean\n\n
+    confirmUpdateValidInvLines(final int count)\n
     '''
 def validateInventorySet():
-    '''public boolean validateInventorySet(final InventorySetRemote inventorySetBulk)
+    '''returns boolean\n\n
+    validateInventorySet(final InventorySetRemote inventorySetBulk)\n
     '''
 def addItemsToStoreroomsRun():
-    '''public boolean addItemsToStoreroomsRun(final ItemRemote item, final InventorySetRemote inventorySetBulk, final HashSet<Long> selStoreroomIds)
+    '''returns boolean\n\n
+    addItemsToStoreroomsRun(final ItemRemote item, final InventorySetRemote inventorySetBulk, final HashSet<Long> selStoreroomIds)\n
     '''
 def getSelectedIds():
-    '''public HashSet<Long> getSelectedIds(final MboSetRemote invSet)
+    '''returns HashSet<Long>\n\n
+    getSelectedIds(final MboSetRemote invSet)\n
     '''
 def writeEmail():
-    '''public void writeEmail()
-    '''
-def AsyncProcess():
-    '''public AsyncProcess(final ItemRemote item, final InventorySetRemote inventorySetBulk)
+    '''returns None\n\n
+    writeEmail()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

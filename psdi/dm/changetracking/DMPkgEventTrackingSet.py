@@ -1,6 +1,8 @@
-def DMPkgEventTrackingSet():
-    '''public DMPkgEventTrackingSet(final MboServerInterface ms)
+def ():
+    '''returns DMPkgEventTrackingSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def moveToHistory():
-    '''public void moveToHistory(final MboSetRemote trackHistSet)
+    '''returns None\n\n
+    moveToHistory(final MboSetRemote trackHistSet)\n
     '''

@@ -1,3 +1,4 @@
-def TloamLocationSet():
-    '''public TloamLocationSet(final MboServerInterface ms)
+def ():
+    '''returns TloamLocationSet\n\n
+    (final MboServerInterface ms)\n
     '''

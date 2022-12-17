@@ -1,12 +1,12 @@
-def MaxIntMappingDetailSet():
-    '''public MaxIntMappingDetailSet(final MboServerInterface ms)
-    '''
-def getExistingAttributes():
-    '''public Map<String, String> getExistingAttributes(final MboRemote thisMbo)
+def ():
+    '''returns MaxIntMappingDetailSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def fillAttributes():
-    '''public MboSetRemote fillAttributes(final MboRemote parent, final MboRemote thisMbo)
+    '''returns MboSetRemote\n\n
+    fillAttributes(final MboRemote parent, final MboRemote thisMbo)\n
     '''
 def getSourceElement():
-    '''public String getSourceElement(final String sourceMbo, String value)
+    '''returns String\n\n
+    getSourceElement(final String sourceMbo, String value)\n
     '''

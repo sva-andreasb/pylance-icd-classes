@@ -1,3 +1,4 @@
-def PlusPRPStatusDummy():
-    '''public PlusPRPStatusDummy(final MboSet ms)
+def ():
+    '''returns PlusPRPStatusDummy\n\n
+    (final MboSet ms)\n
     '''

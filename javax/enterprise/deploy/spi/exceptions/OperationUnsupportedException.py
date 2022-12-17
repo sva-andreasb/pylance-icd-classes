@@ -1,3 +1,4 @@
-def OperationUnsupportedException():
-    '''public OperationUnsupportedException(final String s)
+def ():
+    '''returns OperationUnsupportedException\n\n
+    (final String s)\n
     '''

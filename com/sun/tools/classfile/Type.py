@@ -1,51 +1,35 @@
 def isObject():
-    '''public boolean isObject()
-    public boolean isObject()
+    '''returns boolean\n\n
+    isObject()\n
+    isObject()\n
     '''
-def SimpleType():
-    '''public SimpleType(final String name)
-    '''
-def accept():
-    '''public <R, D> R accept(final Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final Visitor<R, D> visitor, final D n)
+def ():
+    '''returns WildcardType\n\n
+    (final String name)\n
+    (final Type elemType)\n
+    (final List<? extends Type> list, final Type type)\n
+    (final List<? extends TypeParamType> typeParamTypes, final List<? extends Type> paramTypes, final Type returnType, final List<? extends Type> throwsTypes)\n
+    (final List<TypeParamType> typeParamTypes, final Type superclassType, final List<Type> superinterfaceTypes)\n
+    (final ClassType outerType, final String name, final List<Type> typeArgs)\n
+    (final String name, final Type classBound, final List<Type> interfaceBounds)\n
+    ()\n
+    (final Kind kind, final Type boundType)\n
     '''
 def isPrimitiveType():
-    '''public boolean isPrimitiveType()
+    '''returns boolean\n\n
+    isPrimitiveType()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    '''
-def ArrayType():
-    '''public ArrayType(final Type elemType)
-    '''
-def MethodType():
-    '''public MethodType(final List<? extends Type> list, final Type type)
-    public MethodType(final List<? extends TypeParamType> typeParamTypes, final List<? extends Type> paramTypes, final Type returnType, final List<? extends Type> throwsTypes)
-    '''
-def ClassSigType():
-    '''public ClassSigType(final List<TypeParamType> typeParamTypes, final Type superclassType, final List<Type> superinterfaceTypes)
-    '''
-def ClassType():
-    '''public ClassType(final ClassType outerType, final String name, final List<Type> typeArgs)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def getBinaryName():
-    '''public String getBinaryName()
-    '''
-def TypeParamType():
-    '''public TypeParamType(final String name, final Type classBound, final List<Type> interfaceBounds)
-    '''
-def WildcardType():
-    '''public WildcardType()
-    public WildcardType(final Kind kind, final Type boundType)
+    '''returns String\n\n
+    getBinaryName()\n
     '''

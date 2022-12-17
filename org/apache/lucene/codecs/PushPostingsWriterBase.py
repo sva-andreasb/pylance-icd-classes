@@ -1,6 +1,4 @@
 def setField():
-    '''public void setField(final FieldInfo fieldInfo)
-    '''
-def writeTerm():
-    '''public final BlockTermState writeTerm(final BytesRef term, final TermsEnum termsEnum, final FixedBitSet docsSeen, final NormsProducer norms)
+    '''returns None\n\n
+    setField(final FieldInfo fieldInfo)\n
     '''

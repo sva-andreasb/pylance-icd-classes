@@ -1,8 +1,10 @@
 ELEMENT_NAME = "String  \"workgroup-form\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
-def WorkgroupForm():
-    '''public WorkgroupForm()
+def ():
+    '''returns WorkgroupForm\n\n
+    ()\n
     '''
 def parse():
-    '''public WorkgroupForm parse(final XmlPullParser parser, final int initialDepth)
+    '''returns WorkgroupForm\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

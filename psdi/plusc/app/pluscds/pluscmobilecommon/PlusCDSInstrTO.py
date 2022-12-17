@@ -1,798 +1,1063 @@
-def PlusCDSInstrTO():
-    '''public PlusCDSInstrTO()
+def ():
+    '''returns PlusCDSInstrTO\n\n
+    ()\n
     '''
 def getCALPOINT():
-    '''public Boolean getCALPOINT()
+    '''returns Boolean\n\n
+    getCALPOINT()\n
     '''
 def setCALPOINT():
-    '''public void setCALPOINT(final Boolean calpoint)
+    '''returns None\n\n
+    setCALPOINT(final Boolean calpoint)\n
     '''
 def getCALDYNAMIC():
-    '''public Boolean getCALDYNAMIC()
+    '''returns Boolean\n\n
+    getCALDYNAMIC()\n
     '''
 def setCALDYNAMIC():
-    '''public void setCALDYNAMIC(final Boolean calpoint)
+    '''returns None\n\n
+    setCALDYNAMIC(final Boolean calpoint)\n
     '''
 def getCALFUNCTION():
-    '''public Boolean getCALFUNCTION()
+    '''returns Boolean\n\n
+    getCALFUNCTION()\n
     '''
 def setCALFUNCTION():
-    '''public void setCALFUNCTION(final Boolean calpoint)
+    '''returns None\n\n
+    setCALFUNCTION(final Boolean calpoint)\n
     '''
 def getMANUAL():
-    '''public Boolean getMANUAL()
+    '''returns Boolean\n\n
+    getMANUAL()\n
     '''
 def setMANUAL():
-    '''public void setMANUAL(final Boolean calpoint)
+    '''returns None\n\n
+    setMANUAL(final Boolean calpoint)\n
     '''
 def getNONLINEAR():
-    '''public Boolean getNONLINEAR()
+    '''returns Boolean\n\n
+    getNONLINEAR()\n
     '''
 def setNONLINEAR():
-    '''public void setNONLINEAR(final Boolean calpoint)
+    '''returns None\n\n
+    setNONLINEAR(final Boolean calpoint)\n
     '''
 def getREPEATABLE():
-    '''public Boolean getREPEATABLE()
+    '''returns Boolean\n\n
+    getREPEATABLE()\n
     '''
 def setREPEATABLE():
-    '''public void setREPEATABLE(final Boolean calpoint)
+    '''returns None\n\n
+    setREPEATABLE(final Boolean calpoint)\n
     '''
 def getCLIPLIMITSIN():
-    '''public Boolean getCLIPLIMITSIN()
+    '''returns Boolean\n\n
+    getCLIPLIMITSIN()\n
     '''
 def setCLIPLIMITSIN():
-    '''public void setCLIPLIMITSIN(final Boolean calpoint)
+    '''returns None\n\n
+    setCLIPLIMITSIN(final Boolean calpoint)\n
     '''
 def setFieldName():
-    '''public void setFieldName(final String name)
+    '''returns None\n\n
+    setFieldName(final String name)\n
     '''
 def setValue():
-    '''public void setValue(final String key, final Object object)
-    public void setValue(final String keyName, final Object object, final boolean markField)
-    public void setValue(final String key, final Object object, final long validationFlag)
-    public void setValue(final String keyName, final Object object, final long validationFlag, final boolean markField)
+    '''returns None\n\n
+    setValue(final String key, final Object object)\n
+    setValue(final String keyName, final Object object, final boolean markField)\n
+    setValue(final String key, final Object object, final long validationFlag)\n
+    setValue(final String keyName, final Object object, final long validationFlag, final boolean markField)\n
     '''
 def getALLOWPOINTINSERTS():
-    '''public Boolean getALLOWPOINTINSERTS()
+    '''returns Boolean\n\n
+    getALLOWPOINTINSERTS()\n
     '''
 def getASSETFUNCTION():
-    '''public Integer getASSETFUNCTION()
+    '''returns Integer\n\n
+    getASSETFUNCTION()\n
     '''
 def getBoolean():
-    '''public Boolean getBoolean(final String key)
+    '''returns Boolean\n\n
+    getBoolean(final String key)\n
     '''
 def getCLIPLIMITS():
-    '''public Boolean getCLIPLIMITS()
+    '''returns Boolean\n\n
+    getCLIPLIMITS()\n
     '''
 def getDate():
-    '''public Date getDate(final String key)
+    '''returns Date\n\n
+    getDate(final String key)\n
     '''
 def getDESCRIPTION():
-    '''public String getDESCRIPTION()
+    '''returns String\n\n
+    getDESCRIPTION()\n
     '''
 def getDESCRIPTION_LONGDESCRIPTION():
-    '''public String getDESCRIPTION_LONGDESCRIPTION()
+    '''returns String\n\n
+    getDESCRIPTION_LONGDESCRIPTION()\n
     '''
 def getDSPLANNUM():
-    '''public String getDSPLANNUM()
+    '''returns String\n\n
+    getDSPLANNUM()\n
     '''
 def getHASLD():
-    '''public Boolean getHASLD()
+    '''returns Boolean\n\n
+    getHASLD()\n
     '''
 def getINPUTRANGE():
-    '''public Boolean getINPUTRANGE()
+    '''returns Boolean\n\n
+    getINPUTRANGE()\n
     '''
 def getINSTRCALRANGEEU():
-    '''public String getINSTRCALRANGEEU()
+    '''returns String\n\n
+    getINSTRCALRANGEEU()\n
     '''
 def getINSTRCALRANGEFROM():
-    '''public String getINSTRCALRANGEFROM()
+    '''returns String\n\n
+    getINSTRCALRANGEFROM()\n
     '''
 def getINSTRCALRANGEFROM_NP():
-    '''public String getINSTRCALRANGEFROM_NP()
+    '''returns String\n\n
+    getINSTRCALRANGEFROM_NP()\n
     '''
 def getINSTRCALRANGETO():
-    '''public String getINSTRCALRANGETO()
+    '''returns String\n\n
+    getINSTRCALRANGETO()\n
     '''
 def getINSTRCALRANGETO_NP():
-    '''public String getINSTRCALRANGETO_NP()
+    '''returns String\n\n
+    getINSTRCALRANGETO_NP()\n
     '''
 def getINSTROUTRANGEEU():
-    '''public String getINSTROUTRANGEEU()
+    '''returns String\n\n
+    getINSTROUTRANGEEU()\n
     '''
 def getINSTROUTRANGEFROM():
-    '''public String getINSTROUTRANGEFROM()
+    '''returns String\n\n
+    getINSTROUTRANGEFROM()\n
     '''
 def getINSTROUTRANGEFROM_NP():
-    '''public String getINSTROUTRANGEFROM_NP()
+    '''returns String\n\n
+    getINSTROUTRANGEFROM_NP()\n
     '''
 def getINSTROUTRANGETO():
-    '''public String getINSTROUTRANGETO()
+    '''returns String\n\n
+    getINSTROUTRANGETO()\n
     '''
 def getINSTROUTRANGETO_NP():
-    '''public String getINSTROUTRANGETO_NP()
+    '''returns String\n\n
+    getINSTROUTRANGETO_NP()\n
     '''
 def getINSTRSEQ():
-    '''public String getINSTRSEQ()
+    '''returns String\n\n
+    getINSTRSEQ()\n
     '''
 def getINPUTPRECISION():
-    '''public Integer getINPUTPRECISION()
+    '''returns Integer\n\n
+    getINPUTPRECISION()\n
     '''
 def getOUTPUTPRECISION():
-    '''public Integer getOUTPUTPRECISION()
+    '''returns Integer\n\n
+    getOUTPUTPRECISION()\n
     '''
 def getInt():
-    '''public Integer getInt(final String key)
+    '''returns Integer\n\n
+    getInt(final String key)\n
     '''
 def getLANGCODE():
-    '''public String getLANGCODE()
+    '''returns String\n\n
+    getLANGCODE()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getLong():
-    '''public Long getLong(final String key)
+    '''returns Long\n\n
+    getLong(final String key)\n
     '''
 def getNOADJMADECHOICE():
-    '''public Boolean getNOADJMADECHOICE()
+    '''returns Boolean\n\n
+    getNOADJMADECHOICE()\n
     '''
 def getNOADJMADECHOICE1():
-    '''public Boolean getNOADJMADECHOICE1()
+    '''returns Boolean\n\n
+    getNOADJMADECHOICE1()\n
     '''
 def getNOADJMADECHOICE2():
-    '''public Boolean getNOADJMADECHOICE2()
+    '''returns Boolean\n\n
+    getNOADJMADECHOICE2()\n
     '''
 def getNOADJMADECHOICE3():
-    '''public Boolean getNOADJMADECHOICE3()
+    '''returns Boolean\n\n
+    getNOADJMADECHOICE3()\n
     '''
 def getNOADJMADECHOICE4():
-    '''public Boolean getNOADJMADECHOICE4()
+    '''returns Boolean\n\n
+    getNOADJMADECHOICE4()\n
     '''
 def getObject():
-    '''public Object getObject(final String key)
+    '''returns Object\n\n
+    getObject(final String key)\n
     '''
 def getORGID():
-    '''public String getORGID()
+    '''returns String\n\n
+    getORGID()\n
     '''
 def getOUTPUTRANGE():
-    '''public Boolean getOUTPUTRANGE()
+    '''returns Boolean\n\n
+    getOUTPUTRANGE()\n
     '''
 def getPLANTYPE():
-    '''public String getPLANTYPE()
+    '''returns String\n\n
+    getPLANTYPE()\n
     '''
 def getPLUSCDSINSTRID():
-    '''public Integer getPLUSCDSINSTRID()
+    '''returns Integer\n\n
+    getPLUSCDSINSTRID()\n
     '''
 def getPlusCDSInstrTO():
-    '''public PlusCDSInstrTO getPlusCDSInstrTO()
+    '''returns PlusCDSInstrTO\n\n
+    getPlusCDSInstrTO()\n
     '''
 def getPlusCDSPointTO():
-    '''public PlusCDSPointTO getPlusCDSPointTO()
+    '''returns PlusCDSPointTO\n\n
+    getPlusCDSPointTO()\n
     '''
 def getPlusCDSTO():
-    '''public PlusCDSTO getPlusCDSTO()
+    '''returns PlusCDSTO\n\n
+    getPlusCDSTO()\n
     '''
 def getPROCESSEU():
-    '''public String getPROCESSEU()
+    '''returns String\n\n
+    getPROCESSEU()\n
     '''
 def getPROCESSEUFACTOR():
-    '''public String getPROCESSEUFACTOR()
+    '''returns String\n\n
+    getPROCESSEUFACTOR()\n
     '''
 def getPROCESSEUFACTOR_NP():
-    '''public String getPROCESSEUFACTOR_NP()
+    '''returns String\n\n
+    getPROCESSEUFACTOR_NP()\n
     '''
 def getREVISIONNUM():
-    '''public Integer getREVISIONNUM()
+    '''returns Integer\n\n
+    getREVISIONNUM()\n
     '''
 def getRON1LOWERVALUE():
-    '''public String getRON1LOWERVALUE()
+    '''returns String\n\n
+    getRON1LOWERVALUE()\n
     '''
 def getRON1LOWERVALUE_NP():
-    '''public String getRON1LOWERVALUE_NP()
+    '''returns String\n\n
+    getRON1LOWERVALUE_NP()\n
     '''
 def getRON1TYPE():
-    '''public String getRON1TYPE()
+    '''returns String\n\n
+    getRON1TYPE()\n
     '''
 def getRON1UPPERVALUE():
-    '''public String getRON1UPPERVALUE()
+    '''returns String\n\n
+    getRON1UPPERVALUE()\n
     '''
 def getRON1UPPERVALUE_NP():
-    '''public String getRON1UPPERVALUE_NP()
+    '''returns String\n\n
+    getRON1UPPERVALUE_NP()\n
     '''
 def getSITEID():
-    '''public String getSITEID()
+    '''returns String\n\n
+    getSITEID()\n
     '''
 def getSQUAREROOT():
-    '''public Boolean getSQUAREROOT()
+    '''returns Boolean\n\n
+    getSQUAREROOT()\n
     '''
 def getSQUARED():
-    '''public Boolean getSQUARED()
+    '''returns Boolean\n\n
+    getSQUARED()\n
     '''
 def getString():
-    '''public String getString(final String key)
+    '''returns String\n\n
+    getString(final String key)\n
     '''
 def getTOL1DESCRIPTION():
-    '''public String getTOL1DESCRIPTION()
+    '''returns String\n\n
+    getTOL1DESCRIPTION()\n
     '''
 def getTOL1LOWERVALUE():
-    '''public String getTOL1LOWERVALUE()
+    '''returns String\n\n
+    getTOL1LOWERVALUE()\n
     '''
 def getTOL1LOWERVALUE_NP():
-    '''public String getTOL1LOWERVALUE_NP()
+    '''returns String\n\n
+    getTOL1LOWERVALUE_NP()\n
     '''
 def getTOL1NOADJLIMIT():
-    '''public Boolean getTOL1NOADJLIMIT()
+    '''returns Boolean\n\n
+    getTOL1NOADJLIMIT()\n
     '''
 def getTOL1STATUS():
-    '''public String getTOL1STATUS()
+    '''returns String\n\n
+    getTOL1STATUS()\n
     '''
 def getTOL1SUMDIRECTION():
-    '''public String getTOL1SUMDIRECTION()
+    '''returns String\n\n
+    getTOL1SUMDIRECTION()\n
     '''
 def getTOL1SUMEU():
-    '''public String getTOL1SUMEU()
+    '''returns String\n\n
+    getTOL1SUMEU()\n
     '''
 def getTOL1SUMEU_NP():
-    '''public String getTOL1SUMEU_NP()
+    '''returns String\n\n
+    getTOL1SUMEU_NP()\n
     '''
 def getTOL1SUMREAD():
-    '''public String getTOL1SUMREAD()
+    '''returns String\n\n
+    getTOL1SUMREAD()\n
     '''
 def getTOL1SUMREAD_NP():
-    '''public String getTOL1SUMREAD_NP()
+    '''returns String\n\n
+    getTOL1SUMREAD_NP()\n
     '''
 def getTOL1SUMSPAN():
-    '''public String getTOL1SUMSPAN()
+    '''returns String\n\n
+    getTOL1SUMSPAN()\n
     '''
 def getTOL1SUMSPAN_NP():
-    '''public String getTOL1SUMSPAN_NP()
+    '''returns String\n\n
+    getTOL1SUMSPAN_NP()\n
     '''
 def getTOL1SUMURV():
-    '''public String getTOL1SUMURV()
+    '''returns String\n\n
+    getTOL1SUMURV()\n
     '''
 def getTOL1SUMURV_NP():
-    '''public String getTOL1SUMURV_NP()
+    '''returns String\n\n
+    getTOL1SUMURV_NP()\n
     '''
 def getTOL1TYPE():
-    '''public String getTOL1TYPE()
+    '''returns String\n\n
+    getTOL1TYPE()\n
     '''
 def getTOL1UPPERVALUE():
-    '''public String getTOL1UPPERVALUE()
+    '''returns String\n\n
+    getTOL1UPPERVALUE()\n
     '''
 def getTOL1UPPERVALUE_NP():
-    '''public String getTOL1UPPERVALUE_NP()
+    '''returns String\n\n
+    getTOL1UPPERVALUE_NP()\n
     '''
 def getTOL2DESCRIPTION():
-    '''public String getTOL2DESCRIPTION()
+    '''returns String\n\n
+    getTOL2DESCRIPTION()\n
     '''
 def getTOL2LOWERVALUE():
-    '''public String getTOL2LOWERVALUE()
+    '''returns String\n\n
+    getTOL2LOWERVALUE()\n
     '''
 def getTOL2LOWERVALUE_NP():
-    '''public String getTOL2LOWERVALUE_NP()
+    '''returns String\n\n
+    getTOL2LOWERVALUE_NP()\n
     '''
 def getTOL2NOADJLIMIT():
-    '''public Boolean getTOL2NOADJLIMIT()
+    '''returns Boolean\n\n
+    getTOL2NOADJLIMIT()\n
     '''
 def getTOL2STATUS():
-    '''public String getTOL2STATUS()
+    '''returns String\n\n
+    getTOL2STATUS()\n
     '''
 def getTOL2SUMDIRECTION():
-    '''public String getTOL2SUMDIRECTION()
+    '''returns String\n\n
+    getTOL2SUMDIRECTION()\n
     '''
 def getTOL2SUMEU():
-    '''public String getTOL2SUMEU()
+    '''returns String\n\n
+    getTOL2SUMEU()\n
     '''
 def getTOL2SUMEU_NP():
-    '''public String getTOL2SUMEU_NP()
+    '''returns String\n\n
+    getTOL2SUMEU_NP()\n
     '''
 def getTOL2SUMREAD():
-    '''public String getTOL2SUMREAD()
+    '''returns String\n\n
+    getTOL2SUMREAD()\n
     '''
 def getTOL2SUMREAD_NP():
-    '''public String getTOL2SUMREAD_NP()
+    '''returns String\n\n
+    getTOL2SUMREAD_NP()\n
     '''
 def getTOL2SUMSPAN():
-    '''public String getTOL2SUMSPAN()
+    '''returns String\n\n
+    getTOL2SUMSPAN()\n
     '''
 def getTOL2SUMSPAN_NP():
-    '''public String getTOL2SUMSPAN_NP()
+    '''returns String\n\n
+    getTOL2SUMSPAN_NP()\n
     '''
 def getTOL2SUMURV():
-    '''public String getTOL2SUMURV()
+    '''returns String\n\n
+    getTOL2SUMURV()\n
     '''
 def getTOL2SUMURV_NP():
-    '''public String getTOL2SUMURV_NP()
+    '''returns String\n\n
+    getTOL2SUMURV_NP()\n
     '''
 def getTOL2TYPE():
-    '''public String getTOL2TYPE()
+    '''returns String\n\n
+    getTOL2TYPE()\n
     '''
 def getTOL2UPPERVALUE():
-    '''public String getTOL2UPPERVALUE()
+    '''returns String\n\n
+    getTOL2UPPERVALUE()\n
     '''
 def getTOL2UPPERVALUE_NP():
-    '''public String getTOL2UPPERVALUE_NP()
+    '''returns String\n\n
+    getTOL2UPPERVALUE_NP()\n
     '''
 def getTOL3DESCRIPTION():
-    '''public String getTOL3DESCRIPTION()
+    '''returns String\n\n
+    getTOL3DESCRIPTION()\n
     '''
 def getTOL3LOWERVALUE():
-    '''public String getTOL3LOWERVALUE()
+    '''returns String\n\n
+    getTOL3LOWERVALUE()\n
     '''
 def getTOL3LOWERVALUE_NP():
-    '''public String getTOL3LOWERVALUE_NP()
+    '''returns String\n\n
+    getTOL3LOWERVALUE_NP()\n
     '''
 def getTOL3NOADJLIMIT():
-    '''public Boolean getTOL3NOADJLIMIT()
+    '''returns Boolean\n\n
+    getTOL3NOADJLIMIT()\n
     '''
 def getTOL3STATUS():
-    '''public String getTOL3STATUS()
+    '''returns String\n\n
+    getTOL3STATUS()\n
     '''
 def getTOL3SUMDIRECTION():
-    '''public String getTOL3SUMDIRECTION()
+    '''returns String\n\n
+    getTOL3SUMDIRECTION()\n
     '''
 def getTOL3SUMEU():
-    '''public String getTOL3SUMEU()
+    '''returns String\n\n
+    getTOL3SUMEU()\n
     '''
 def getTOL3SUMEU_NP():
-    '''public String getTOL3SUMEU_NP()
+    '''returns String\n\n
+    getTOL3SUMEU_NP()\n
     '''
 def getTOL3SUMREAD():
-    '''public String getTOL3SUMREAD()
+    '''returns String\n\n
+    getTOL3SUMREAD()\n
     '''
 def getTOL3SUMREAD_NP():
-    '''public String getTOL3SUMREAD_NP()
+    '''returns String\n\n
+    getTOL3SUMREAD_NP()\n
     '''
 def getTOL3SUMSPAN():
-    '''public String getTOL3SUMSPAN()
+    '''returns String\n\n
+    getTOL3SUMSPAN()\n
     '''
 def getTOL3SUMSPAN_NP():
-    '''public String getTOL3SUMSPAN_NP()
+    '''returns String\n\n
+    getTOL3SUMSPAN_NP()\n
     '''
 def getTOL3SUMURV():
-    '''public String getTOL3SUMURV()
+    '''returns String\n\n
+    getTOL3SUMURV()\n
     '''
 def getTOL3SUMURV_NP():
-    '''public String getTOL3SUMURV_NP()
+    '''returns String\n\n
+    getTOL3SUMURV_NP()\n
     '''
 def getTOL3TYPE():
-    '''public String getTOL3TYPE()
+    '''returns String\n\n
+    getTOL3TYPE()\n
     '''
 def getTOL3UPPERVALUE():
-    '''public String getTOL3UPPERVALUE()
+    '''returns String\n\n
+    getTOL3UPPERVALUE()\n
     '''
 def getTOL3UPPERVALUE_NP():
-    '''public String getTOL3UPPERVALUE_NP()
+    '''returns String\n\n
+    getTOL3UPPERVALUE_NP()\n
     '''
 def getTOL4DESCRIPTION():
-    '''public String getTOL4DESCRIPTION()
+    '''returns String\n\n
+    getTOL4DESCRIPTION()\n
     '''
 def getTOL4LOWERVALUE():
-    '''public String getTOL4LOWERVALUE()
+    '''returns String\n\n
+    getTOL4LOWERVALUE()\n
     '''
 def getTOL4LOWERVALUE_NP():
-    '''public String getTOL4LOWERVALUE_NP()
+    '''returns String\n\n
+    getTOL4LOWERVALUE_NP()\n
     '''
 def getTOL4NOADJLIMIT():
-    '''public Boolean getTOL4NOADJLIMIT()
+    '''returns Boolean\n\n
+    getTOL4NOADJLIMIT()\n
     '''
 def getTOL4STATUS():
-    '''public String getTOL4STATUS()
+    '''returns String\n\n
+    getTOL4STATUS()\n
     '''
 def getTOL4SUMDIRECTION():
-    '''public String getTOL4SUMDIRECTION()
+    '''returns String\n\n
+    getTOL4SUMDIRECTION()\n
     '''
 def getTOL4SUMEU():
-    '''public String getTOL4SUMEU()
+    '''returns String\n\n
+    getTOL4SUMEU()\n
     '''
 def getTOL4SUMEU_NP():
-    '''public String getTOL4SUMEU_NP()
+    '''returns String\n\n
+    getTOL4SUMEU_NP()\n
     '''
 def getTOL4SUMREAD():
-    '''public String getTOL4SUMREAD()
+    '''returns String\n\n
+    getTOL4SUMREAD()\n
     '''
 def getTOL4SUMREAD_NP():
-    '''public String getTOL4SUMREAD_NP()
+    '''returns String\n\n
+    getTOL4SUMREAD_NP()\n
     '''
 def getTOL4SUMSPAN():
-    '''public String getTOL4SUMSPAN()
+    '''returns String\n\n
+    getTOL4SUMSPAN()\n
     '''
 def getTOL4SUMSPAN_NP():
-    '''public String getTOL4SUMSPAN_NP()
+    '''returns String\n\n
+    getTOL4SUMSPAN_NP()\n
     '''
 def getTOL4SUMURV():
-    '''public String getTOL4SUMURV()
+    '''returns String\n\n
+    getTOL4SUMURV()\n
     '''
 def getTOL4SUMURV_NP():
-    '''public String getTOL4SUMURV_NP()
+    '''returns String\n\n
+    getTOL4SUMURV_NP()\n
     '''
 def getTOL4TYPE():
-    '''public String getTOL4TYPE()
+    '''returns String\n\n
+    getTOL4TYPE()\n
     '''
 def getTOL4UPPERVALUE():
-    '''public String getTOL4UPPERVALUE()
+    '''returns String\n\n
+    getTOL4UPPERVALUE()\n
     '''
 def getTOL4UPPERVALUE_NP():
-    '''public String getTOL4UPPERVALUE_NP()
+    '''returns String\n\n
+    getTOL4UPPERVALUE_NP()\n
     '''
 def setALLOWPOINTINSERTS():
-    '''public void setALLOWPOINTINSERTS(final Boolean allowpointinserts)
+    '''returns None\n\n
+    setALLOWPOINTINSERTS(final Boolean allowpointinserts)\n
     '''
 def setASSETFUNCTION():
-    '''public void setASSETFUNCTION(final Integer assetfunction)
+    '''returns None\n\n
+    setASSETFUNCTION(final Integer assetfunction)\n
     '''
 def setCLIPLIMITS():
-    '''public void setCLIPLIMITS(final Boolean cliplimits)
+    '''returns None\n\n
+    setCLIPLIMITS(final Boolean cliplimits)\n
     '''
 def setDESCRIPTION():
-    '''public void setDESCRIPTION(final String description)
+    '''returns None\n\n
+    setDESCRIPTION(final String description)\n
     '''
 def setDESCRIPTION_LONGDESCRIPTION():
-    '''public void setDESCRIPTION_LONGDESCRIPTION(final String description_longdescription)
+    '''returns None\n\n
+    setDESCRIPTION_LONGDESCRIPTION(final String description_longdescription)\n
     '''
 def setDSPLANNUM():
-    '''public void setDSPLANNUM(final String dsplannum)
+    '''returns None\n\n
+    setDSPLANNUM(final String dsplannum)\n
     '''
 def setHASLD():
-    '''public void setHASLD(final Boolean hasld)
+    '''returns None\n\n
+    setHASLD(final Boolean hasld)\n
     '''
 def setINPUTRANGE():
-    '''public void setINPUTRANGE(final Boolean inputrange)
+    '''returns None\n\n
+    setINPUTRANGE(final Boolean inputrange)\n
     '''
 def setINSTRCALRANGEEU():
-    '''public void setINSTRCALRANGEEU(final String instrcalrangeeu)
+    '''returns None\n\n
+    setINSTRCALRANGEEU(final String instrcalrangeeu)\n
     '''
 def setINSTRCALRANGEFROM():
-    '''public void setINSTRCALRANGEFROM(final String instrcalrangefrom)
+    '''returns None\n\n
+    setINSTRCALRANGEFROM(final String instrcalrangefrom)\n
     '''
 def setINSTRCALRANGEFROM_NP():
-    '''public void setINSTRCALRANGEFROM_NP(final String instrcalrangefrom_np)
+    '''returns None\n\n
+    setINSTRCALRANGEFROM_NP(final String instrcalrangefrom_np)\n
     '''
 def setINSTRCALRANGETO():
-    '''public void setINSTRCALRANGETO(final String instrcalrangeto)
+    '''returns None\n\n
+    setINSTRCALRANGETO(final String instrcalrangeto)\n
     '''
 def setINSTRCALRANGETO_NP():
-    '''public void setINSTRCALRANGETO_NP(final String instrcalrangeto_np)
+    '''returns None\n\n
+    setINSTRCALRANGETO_NP(final String instrcalrangeto_np)\n
     '''
 def setINSTROUTRANGEEU():
-    '''public void setINSTROUTRANGEEU(final String instroutrangeeu)
+    '''returns None\n\n
+    setINSTROUTRANGEEU(final String instroutrangeeu)\n
     '''
 def setINSTROUTRANGEFROM():
-    '''public void setINSTROUTRANGEFROM(final String instroutrangefrom)
+    '''returns None\n\n
+    setINSTROUTRANGEFROM(final String instroutrangefrom)\n
     '''
 def setINSTROUTRANGEFROM_NP():
-    '''public void setINSTROUTRANGEFROM_NP(final String instroutrangefrom_np)
+    '''returns None\n\n
+    setINSTROUTRANGEFROM_NP(final String instroutrangefrom_np)\n
     '''
 def setINSTROUTRANGETO():
-    '''public void setINSTROUTRANGETO(final String instroutrangeto)
+    '''returns None\n\n
+    setINSTROUTRANGETO(final String instroutrangeto)\n
     '''
 def setINSTROUTRANGETO_NP():
-    '''public void setINSTROUTRANGETO_NP(final String instroutrangeto_np)
+    '''returns None\n\n
+    setINSTROUTRANGETO_NP(final String instroutrangeto_np)\n
     '''
 def setINSTRSEQ():
-    '''public void setINSTRSEQ(final String instrseq)
+    '''returns None\n\n
+    setINSTRSEQ(final String instrseq)\n
     '''
 def setINPUTPRECISION():
-    '''public void setINPUTPRECISION(final Integer inputprecision)
+    '''returns None\n\n
+    setINPUTPRECISION(final Integer inputprecision)\n
     '''
 def setOUTPUTPRECISION():
-    '''public void setOUTPUTPRECISION(final Integer outputprecision)
+    '''returns None\n\n
+    setOUTPUTPRECISION(final Integer outputprecision)\n
     '''
 def setLANGCODE():
-    '''public void setLANGCODE(final String langcode)
+    '''returns None\n\n
+    setLANGCODE(final String langcode)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def setNOADJMADECHOICE():
-    '''public void setNOADJMADECHOICE(final Boolean noadjmadechoice)
+    '''returns None\n\n
+    setNOADJMADECHOICE(final Boolean noadjmadechoice)\n
     '''
 def setNOADJMADECHOICE1():
-    '''public void setNOADJMADECHOICE1(final Boolean noadjmadechoice1)
+    '''returns None\n\n
+    setNOADJMADECHOICE1(final Boolean noadjmadechoice1)\n
     '''
 def setNOADJMADECHOICE2():
-    '''public void setNOADJMADECHOICE2(final Boolean noadjmadechoice2)
+    '''returns None\n\n
+    setNOADJMADECHOICE2(final Boolean noadjmadechoice2)\n
     '''
 def setNOADJMADECHOICE3():
-    '''public void setNOADJMADECHOICE3(final Boolean noadjmadechoice3)
+    '''returns None\n\n
+    setNOADJMADECHOICE3(final Boolean noadjmadechoice3)\n
     '''
 def setNOADJMADECHOICE4():
-    '''public void setNOADJMADECHOICE4(final Boolean noadjmadechoice4)
+    '''returns None\n\n
+    setNOADJMADECHOICE4(final Boolean noadjmadechoice4)\n
     '''
 def setORGID():
-    '''public void setORGID(final String orgid)
+    '''returns None\n\n
+    setORGID(final String orgid)\n
     '''
 def setOUTPUTRANGE():
-    '''public void setOUTPUTRANGE(final Boolean outputrange)
+    '''returns None\n\n
+    setOUTPUTRANGE(final Boolean outputrange)\n
     '''
 def setPLANTYPE():
-    '''public void setPLANTYPE(final String plantype)
+    '''returns None\n\n
+    setPLANTYPE(final String plantype)\n
     '''
 def setPLUSCDSINSTRID():
-    '''public void setPLUSCDSINSTRID(final Integer pluscdsinstrid)
+    '''returns None\n\n
+    setPLUSCDSINSTRID(final Integer pluscdsinstrid)\n
     '''
 def setPROCESSEU():
-    '''public void setPROCESSEU(final String processeu)
+    '''returns None\n\n
+    setPROCESSEU(final String processeu)\n
     '''
 def setPROCESSEUFACTOR():
-    '''public void setPROCESSEUFACTOR(final String processeufactor)
+    '''returns None\n\n
+    setPROCESSEUFACTOR(final String processeufactor)\n
     '''
 def setPROCESSEUFACTOR_NP():
-    '''public void setPROCESSEUFACTOR_NP(final String processeufactor_np)
+    '''returns None\n\n
+    setPROCESSEUFACTOR_NP(final String processeufactor_np)\n
     '''
 def setREVISIONNUM():
-    '''public void setREVISIONNUM(final Integer revisionnum)
+    '''returns None\n\n
+    setREVISIONNUM(final Integer revisionnum)\n
     '''
 def setRON1LOWERVALUE():
-    '''public void setRON1LOWERVALUE(final String ron1lowervalue)
+    '''returns None\n\n
+    setRON1LOWERVALUE(final String ron1lowervalue)\n
     '''
 def setRON1LOWERVALUE_NP():
-    '''public void setRON1LOWERVALUE_NP(final String ron1lowervalue_np)
+    '''returns None\n\n
+    setRON1LOWERVALUE_NP(final String ron1lowervalue_np)\n
     '''
 def setRON1TYPE():
-    '''public void setRON1TYPE(final String ron1type)
+    '''returns None\n\n
+    setRON1TYPE(final String ron1type)\n
     '''
 def setRON1UPPERVALUE():
-    '''public void setRON1UPPERVALUE(final String ron1uppervalue)
+    '''returns None\n\n
+    setRON1UPPERVALUE(final String ron1uppervalue)\n
     '''
 def setRON1UPPERVALUE_NP():
-    '''public void setRON1UPPERVALUE_NP(final String ron1uppervalue_np)
+    '''returns None\n\n
+    setRON1UPPERVALUE_NP(final String ron1uppervalue_np)\n
     '''
 def setSITEID():
-    '''public void setSITEID(final String siteid)
+    '''returns None\n\n
+    setSITEID(final String siteid)\n
     '''
 def setSQUAREROOT():
-    '''public void setSQUAREROOT(final Boolean squareroot)
+    '''returns None\n\n
+    setSQUAREROOT(final Boolean squareroot)\n
     '''
 def setSQUARED():
-    '''public void setSQUARED(final Boolean squared)
+    '''returns None\n\n
+    setSQUARED(final Boolean squared)\n
     '''
 def setTOL1DESCRIPTION():
-    '''public void setTOL1DESCRIPTION(final String tol1description)
+    '''returns None\n\n
+    setTOL1DESCRIPTION(final String tol1description)\n
     '''
 def setTOL1LOWERVALUE():
-    '''public void setTOL1LOWERVALUE(final String tol1lowervalue)
+    '''returns None\n\n
+    setTOL1LOWERVALUE(final String tol1lowervalue)\n
     '''
 def setTOL1LOWERVALUE_NP():
-    '''public void setTOL1LOWERVALUE_NP(final String tol1lowervalue_np)
+    '''returns None\n\n
+    setTOL1LOWERVALUE_NP(final String tol1lowervalue_np)\n
     '''
 def setTOL1NOADJLIMIT():
-    '''public void setTOL1NOADJLIMIT(final Boolean tol1noadjlimit)
+    '''returns None\n\n
+    setTOL1NOADJLIMIT(final Boolean tol1noadjlimit)\n
     '''
 def setTOL1STATUS():
-    '''public void setTOL1STATUS(final String tol1status)
+    '''returns None\n\n
+    setTOL1STATUS(final String tol1status)\n
     '''
 def setTOL1SUMDIRECTION():
-    '''public void setTOL1SUMDIRECTION(final String tol1sumdirection)
+    '''returns None\n\n
+    setTOL1SUMDIRECTION(final String tol1sumdirection)\n
     '''
 def setTOL1SUMEU():
-    '''public void setTOL1SUMEU(final String tol1sumeu)
+    '''returns None\n\n
+    setTOL1SUMEU(final String tol1sumeu)\n
     '''
 def setTOL1SUMEU_NP():
-    '''public void setTOL1SUMEU_NP(final String tol1sumeu_np)
+    '''returns None\n\n
+    setTOL1SUMEU_NP(final String tol1sumeu_np)\n
     '''
 def setTOL1SUMREAD():
-    '''public void setTOL1SUMREAD(final String tol1sumread)
+    '''returns None\n\n
+    setTOL1SUMREAD(final String tol1sumread)\n
     '''
 def setTOL1SUMREAD_NP():
-    '''public void setTOL1SUMREAD_NP(final String tol1sumread_np)
+    '''returns None\n\n
+    setTOL1SUMREAD_NP(final String tol1sumread_np)\n
     '''
 def setTOL1SUMSPAN():
-    '''public void setTOL1SUMSPAN(final String tol1sumspan)
+    '''returns None\n\n
+    setTOL1SUMSPAN(final String tol1sumspan)\n
     '''
 def setTOL1SUMSPAN_NP():
-    '''public void setTOL1SUMSPAN_NP(final String tol1sumspan_np)
+    '''returns None\n\n
+    setTOL1SUMSPAN_NP(final String tol1sumspan_np)\n
     '''
 def setTOL1SUMURV():
-    '''public void setTOL1SUMURV(final String tol1sumurv)
+    '''returns None\n\n
+    setTOL1SUMURV(final String tol1sumurv)\n
     '''
 def setTOL1SUMURV_NP():
-    '''public void setTOL1SUMURV_NP(final String tol1sumurv_np)
+    '''returns None\n\n
+    setTOL1SUMURV_NP(final String tol1sumurv_np)\n
     '''
 def setTOL1TYPE():
-    '''public void setTOL1TYPE(final String tol1type)
+    '''returns None\n\n
+    setTOL1TYPE(final String tol1type)\n
     '''
 def setTOL1UPPERVALUE():
-    '''public void setTOL1UPPERVALUE(final String tol1uppervalue)
+    '''returns None\n\n
+    setTOL1UPPERVALUE(final String tol1uppervalue)\n
     '''
 def setTOL1UPPERVALUE_NP():
-    '''public void setTOL1UPPERVALUE_NP(final String tol1uppervalue_np)
+    '''returns None\n\n
+    setTOL1UPPERVALUE_NP(final String tol1uppervalue_np)\n
     '''
 def setTOL2DESCRIPTION():
-    '''public void setTOL2DESCRIPTION(final String tol2description)
+    '''returns None\n\n
+    setTOL2DESCRIPTION(final String tol2description)\n
     '''
 def setTOL2LOWERVALUE():
-    '''public void setTOL2LOWERVALUE(final String tol2lowervalue)
+    '''returns None\n\n
+    setTOL2LOWERVALUE(final String tol2lowervalue)\n
     '''
 def setTOL2LOWERVALUE_NP():
-    '''public void setTOL2LOWERVALUE_NP(final String tol2lowervalue_np)
+    '''returns None\n\n
+    setTOL2LOWERVALUE_NP(final String tol2lowervalue_np)\n
     '''
 def setTOL2NOADJLIMIT():
-    '''public void setTOL2NOADJLIMIT(final Boolean tol2noadjlimit)
+    '''returns None\n\n
+    setTOL2NOADJLIMIT(final Boolean tol2noadjlimit)\n
     '''
 def setTOL2STATUS():
-    '''public void setTOL2STATUS(final String tol2status)
+    '''returns None\n\n
+    setTOL2STATUS(final String tol2status)\n
     '''
 def setTOL2SUMDIRECTION():
-    '''public void setTOL2SUMDIRECTION(final String tol2sumdirection)
+    '''returns None\n\n
+    setTOL2SUMDIRECTION(final String tol2sumdirection)\n
     '''
 def setTOL2SUMEU():
-    '''public void setTOL2SUMEU(final String tol2sumeu)
+    '''returns None\n\n
+    setTOL2SUMEU(final String tol2sumeu)\n
     '''
 def setTOL2SUMEU_NP():
-    '''public void setTOL2SUMEU_NP(final String tol2sumeu_np)
+    '''returns None\n\n
+    setTOL2SUMEU_NP(final String tol2sumeu_np)\n
     '''
 def setTOL2SUMREAD():
-    '''public void setTOL2SUMREAD(final String tol2sumread)
+    '''returns None\n\n
+    setTOL2SUMREAD(final String tol2sumread)\n
     '''
 def setTOL2SUMREAD_NP():
-    '''public void setTOL2SUMREAD_NP(final String tol2sumread_np)
+    '''returns None\n\n
+    setTOL2SUMREAD_NP(final String tol2sumread_np)\n
     '''
 def setTOL2SUMSPAN():
-    '''public void setTOL2SUMSPAN(final String tol2sumspan)
+    '''returns None\n\n
+    setTOL2SUMSPAN(final String tol2sumspan)\n
     '''
 def setTOL2SUMSPAN_NP():
-    '''public void setTOL2SUMSPAN_NP(final String tol2sumspan_np)
+    '''returns None\n\n
+    setTOL2SUMSPAN_NP(final String tol2sumspan_np)\n
     '''
 def setTOL2SUMURV():
-    '''public void setTOL2SUMURV(final String tol2sumurv)
+    '''returns None\n\n
+    setTOL2SUMURV(final String tol2sumurv)\n
     '''
 def setTOL2SUMURV_NP():
-    '''public void setTOL2SUMURV_NP(final String tol2sumurv_np)
+    '''returns None\n\n
+    setTOL2SUMURV_NP(final String tol2sumurv_np)\n
     '''
 def setTOL2TYPE():
-    '''public void setTOL2TYPE(final String tol2type)
+    '''returns None\n\n
+    setTOL2TYPE(final String tol2type)\n
     '''
 def setTOL2UPPERVALUE():
-    '''public void setTOL2UPPERVALUE(final String tol2uppervalue)
+    '''returns None\n\n
+    setTOL2UPPERVALUE(final String tol2uppervalue)\n
     '''
 def setTOL2UPPERVALUE_NP():
-    '''public void setTOL2UPPERVALUE_NP(final String tol2uppervalue_np)
+    '''returns None\n\n
+    setTOL2UPPERVALUE_NP(final String tol2uppervalue_np)\n
     '''
 def setTOL3DESCRIPTION():
-    '''public void setTOL3DESCRIPTION(final String tol3description)
+    '''returns None\n\n
+    setTOL3DESCRIPTION(final String tol3description)\n
     '''
 def setTOL3LOWERVALUE():
-    '''public void setTOL3LOWERVALUE(final String tol3lowervalue)
+    '''returns None\n\n
+    setTOL3LOWERVALUE(final String tol3lowervalue)\n
     '''
 def setTOL3LOWERVALUE_NP():
-    '''public void setTOL3LOWERVALUE_NP(final String tol3lowervalue_np)
+    '''returns None\n\n
+    setTOL3LOWERVALUE_NP(final String tol3lowervalue_np)\n
     '''
 def setTOL3NOADJLIMIT():
-    '''public void setTOL3NOADJLIMIT(final Boolean tol3noadjlimit)
+    '''returns None\n\n
+    setTOL3NOADJLIMIT(final Boolean tol3noadjlimit)\n
     '''
 def setTOL3STATUS():
-    '''public void setTOL3STATUS(final String tol3status)
+    '''returns None\n\n
+    setTOL3STATUS(final String tol3status)\n
     '''
 def setTOL3SUMDIRECTION():
-    '''public void setTOL3SUMDIRECTION(final String tol3sumdirection)
+    '''returns None\n\n
+    setTOL3SUMDIRECTION(final String tol3sumdirection)\n
     '''
 def setTOL3SUMEU():
-    '''public void setTOL3SUMEU(final String tol3sumeu)
+    '''returns None\n\n
+    setTOL3SUMEU(final String tol3sumeu)\n
     '''
 def setTOL3SUMEU_NP():
-    '''public void setTOL3SUMEU_NP(final String tol3sumeu_np)
+    '''returns None\n\n
+    setTOL3SUMEU_NP(final String tol3sumeu_np)\n
     '''
 def setTOL3SUMREAD():
-    '''public void setTOL3SUMREAD(final String tol3sumread)
+    '''returns None\n\n
+    setTOL3SUMREAD(final String tol3sumread)\n
     '''
 def setTOL3SUMREAD_NP():
-    '''public void setTOL3SUMREAD_NP(final String tol3sumread_np)
+    '''returns None\n\n
+    setTOL3SUMREAD_NP(final String tol3sumread_np)\n
     '''
 def setTOL3SUMSPAN():
-    '''public void setTOL3SUMSPAN(final String tol3sumspan)
+    '''returns None\n\n
+    setTOL3SUMSPAN(final String tol3sumspan)\n
     '''
 def setTOL3SUMSPAN_NP():
-    '''public void setTOL3SUMSPAN_NP(final String tol3sumspan_np)
+    '''returns None\n\n
+    setTOL3SUMSPAN_NP(final String tol3sumspan_np)\n
     '''
 def setTOL3SUMURV():
-    '''public void setTOL3SUMURV(final String tol3sumurv)
+    '''returns None\n\n
+    setTOL3SUMURV(final String tol3sumurv)\n
     '''
 def setTOL3SUMURV_NP():
-    '''public void setTOL3SUMURV_NP(final String tol3sumurv_np)
+    '''returns None\n\n
+    setTOL3SUMURV_NP(final String tol3sumurv_np)\n
     '''
 def setTOL3TYPE():
-    '''public void setTOL3TYPE(final String tol3type)
+    '''returns None\n\n
+    setTOL3TYPE(final String tol3type)\n
     '''
 def setTOL3UPPERVALUE():
-    '''public void setTOL3UPPERVALUE(final String tol3uppervalue)
+    '''returns None\n\n
+    setTOL3UPPERVALUE(final String tol3uppervalue)\n
     '''
 def setTOL3UPPERVALUE_NP():
-    '''public void setTOL3UPPERVALUE_NP(final String tol3uppervalue_np)
+    '''returns None\n\n
+    setTOL3UPPERVALUE_NP(final String tol3uppervalue_np)\n
     '''
 def setTOL4DESCRIPTION():
-    '''public void setTOL4DESCRIPTION(final String tol4description)
+    '''returns None\n\n
+    setTOL4DESCRIPTION(final String tol4description)\n
     '''
 def setTOL4LOWERVALUE():
-    '''public void setTOL4LOWERVALUE(final String tol4lowervalue)
+    '''returns None\n\n
+    setTOL4LOWERVALUE(final String tol4lowervalue)\n
     '''
 def setTOL4LOWERVALUE_NP():
-    '''public void setTOL4LOWERVALUE_NP(final String tol4lowervalue_np)
+    '''returns None\n\n
+    setTOL4LOWERVALUE_NP(final String tol4lowervalue_np)\n
     '''
 def setTOL4NOADJLIMIT():
-    '''public void setTOL4NOADJLIMIT(final Boolean tol4noadjlimit)
+    '''returns None\n\n
+    setTOL4NOADJLIMIT(final Boolean tol4noadjlimit)\n
     '''
 def setTOL4STATUS():
-    '''public void setTOL4STATUS(final String tol4status)
+    '''returns None\n\n
+    setTOL4STATUS(final String tol4status)\n
     '''
 def setTOL4SUMDIRECTION():
-    '''public void setTOL4SUMDIRECTION(final String tol4sumdirection)
+    '''returns None\n\n
+    setTOL4SUMDIRECTION(final String tol4sumdirection)\n
     '''
 def setTOL4SUMEU():
-    '''public void setTOL4SUMEU(final String tol4sumeu)
+    '''returns None\n\n
+    setTOL4SUMEU(final String tol4sumeu)\n
     '''
 def setTOL4SUMEU_NP():
-    '''public void setTOL4SUMEU_NP(final String tol4sumeu_np)
+    '''returns None\n\n
+    setTOL4SUMEU_NP(final String tol4sumeu_np)\n
     '''
 def setTOL4SUMREAD():
-    '''public void setTOL4SUMREAD(final String tol4sumread)
+    '''returns None\n\n
+    setTOL4SUMREAD(final String tol4sumread)\n
     '''
 def setTOL4SUMREAD_NP():
-    '''public void setTOL4SUMREAD_NP(final String tol4sumread_np)
+    '''returns None\n\n
+    setTOL4SUMREAD_NP(final String tol4sumread_np)\n
     '''
 def setTOL4SUMSPAN():
-    '''public void setTOL4SUMSPAN(final String tol4sumspan)
+    '''returns None\n\n
+    setTOL4SUMSPAN(final String tol4sumspan)\n
     '''
 def setTOL4SUMSPAN_NP():
-    '''public void setTOL4SUMSPAN_NP(final String tol4sumspan_np)
+    '''returns None\n\n
+    setTOL4SUMSPAN_NP(final String tol4sumspan_np)\n
     '''
 def setTOL4SUMURV():
-    '''public void setTOL4SUMURV(final String tol4sumurv)
+    '''returns None\n\n
+    setTOL4SUMURV(final String tol4sumurv)\n
     '''
 def setTOL4SUMURV_NP():
-    '''public void setTOL4SUMURV_NP(final String tol4sumurv_np)
+    '''returns None\n\n
+    setTOL4SUMURV_NP(final String tol4sumurv_np)\n
     '''
 def setTOL4TYPE():
-    '''public void setTOL4TYPE(final String tol4type)
+    '''returns None\n\n
+    setTOL4TYPE(final String tol4type)\n
     '''
 def setTOL4UPPERVALUE():
-    '''public void setTOL4UPPERVALUE(final String tol4uppervalue)
+    '''returns None\n\n
+    setTOL4UPPERVALUE(final String tol4uppervalue)\n
     '''
 def setTOL4UPPERVALUE_NP():
-    '''public void setTOL4UPPERVALUE_NP(final String tol4uppervalue_np)
+    '''returns None\n\n
+    setTOL4UPPERVALUE_NP(final String tol4uppervalue_np)\n
     '''
 def isNull():
-    '''public boolean isNull(final String key)
+    '''returns boolean\n\n
+    isNull(final String key)\n
     '''
 def isRoundUpField():
-    '''public boolean isRoundUpField()
+    '''returns boolean\n\n
+    isRoundUpField()\n
     '''
 def getChangedFields():
-    '''public Set getChangedFields()
+    '''returns Set\n\n
+    getChangedFields()\n
     '''
 def setPlusCDSTO():
-    '''public void setPlusCDSTO(final PlusCDSTO plusCDSTO)
+    '''returns None\n\n
+    setPlusCDSTO(final PlusCDSTO plusCDSTO)\n
     '''
 def setPlusCDSInstTO():
-    '''public void setPlusCDSInstTO(final PlusCDSInstrTO plusCDSInstrTO)
+    '''returns None\n\n
+    setPlusCDSInstTO(final PlusCDSInstrTO plusCDSInstrTO)\n
     '''
 def setPlusCDSPointTO():
-    '''public void setPlusCDSPointTO(final PlusCDSPointTO plusCDSPointTO)
+    '''returns None\n\n
+    setPlusCDSPointTO(final PlusCDSPointTO plusCDSPointTO)\n
     '''
 def clearAllChangedFieldsSets():
-    '''public void clearAllChangedFieldsSets()
+    '''returns None\n\n
+    clearAllChangedFieldsSets()\n
     '''
 def setPlusCWODSTO():
-    '''public void setPlusCWODSTO(final PlusCWODSTO plusCWODSTO)
+    '''returns None\n\n
+    setPlusCWODSTO(final PlusCWODSTO plusCWODSTO)\n
     '''
 def getPlusCWODSTO():
-    '''public PlusCWODSTO getPlusCWODSTO()
+    '''returns PlusCWODSTO\n\n
+    getPlusCWODSTO()\n
     '''
 def setPlusCWODSInstrTO():
-    '''public void setPlusCWODSInstrTO(final PlusCWODSInstrTO plusCWODSInstrTO)
+    '''returns None\n\n
+    setPlusCWODSInstrTO(final PlusCWODSInstrTO plusCWODSInstrTO)\n
     '''
 def getPlusCWODSInstrTO():
-    '''public PlusCWODSInstrTO getPlusCWODSInstrTO()
+    '''returns PlusCWODSInstrTO\n\n
+    getPlusCWODSInstrTO()\n
     '''
 def setPlusCWODSPointTO():
-    '''public void setPlusCWODSPointTO(final PlusCWODSPointTO plusCWODSPointTO)
+    '''returns None\n\n
+    setPlusCWODSPointTO(final PlusCWODSPointTO plusCWODSPointTO)\n
     '''
 def getPlusCWODSPointTO():
-    '''public PlusCWODSPointTO getPlusCWODSPointTO()
+    '''returns PlusCWODSPointTO\n\n
+    getPlusCWODSPointTO()\n
     '''
 def getValidationFlag():
-    '''public long getValidationFlag(final String key)
+    '''returns long\n\n
+    getValidationFlag(final String key)\n
     '''
 def getNonPersistentFieldsName():
-    '''public Set getNonPersistentFieldsName()
+    '''returns Set\n\n
+    getNonPersistentFieldsName()\n
     '''

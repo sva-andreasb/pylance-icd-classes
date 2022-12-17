@@ -1,13 +1,13 @@
-def BaseJSONBuilder():
-    '''public BaseJSONBuilder()
-    public BaseJSONBuilder(final Map data)
+def ():
+    '''returns BaseJSONBuilder\n\n
+    ()\n
+    (final Map data)\n
     '''
 def newArrayObject():
-    '''public JSONObject newArrayObject(final JSONArray parent)
-    '''
-def getAsType():
-    '''public <T> T getAsType(final String node)
+    '''returns JSONObject\n\n
+    newArrayObject(final JSONArray parent)\n
     '''
 def setValue():
-    '''public void setValue(final String name, final Object value)
+    '''returns None\n\n
+    setValue(final String name, final Object value)\n
     '''

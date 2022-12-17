@@ -1,7 +1,9 @@
-def GetPropertyAction():
-    '''public GetPropertyAction(final String theProp)
-    public GetPropertyAction(final String theProp, final String defaultVal)
+def ():
+    '''returns GetPropertyAction\n\n
+    (final String theProp)\n
+    (final String theProp, final String defaultVal)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

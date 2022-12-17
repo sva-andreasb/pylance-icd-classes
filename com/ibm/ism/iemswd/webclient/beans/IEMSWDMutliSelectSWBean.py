@@ -1,12 +1,16 @@
 def doRefresh():
-    '''public int doRefresh()
+    '''returns int\n\n
+    doRefresh()\n
     '''
 def execute():
-    '''public int execute(final MboSetRemote swMboSet)
+    '''returns int\n\n
+    execute(final MboSetRemote swMboSet)\n
     '''
 def copySelectedSW():
-    '''public void copySelectedSW(final MboSetRemote swSetRemote, final MboSetRemote iemswdMboSet)
+    '''returns None\n\n
+    copySelectedSW(final MboSetRemote swSetRemote, final MboSetRemote iemswdMboSet)\n
     '''
 def isAlreadySelected():
-    '''public boolean isAlreadySelected(final MboSetRemote iemswdMboSet, final long tloamsoftwareid)
+    '''returns boolean\n\n
+    isAlreadySelected(final MboSetRemote iemswdMboSet, final long tloamsoftwareid)\n
     '''

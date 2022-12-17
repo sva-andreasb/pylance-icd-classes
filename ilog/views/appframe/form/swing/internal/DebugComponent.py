@@ -1,9 +1,12 @@
-def DebugComponent():
-    '''public DebugComponent()
+def ():
+    '''returns DebugComponent\n\n
+    ()\n
     '''
 def putProperty():
-    '''public void putProperty(final String s, final Object value)
+    '''returns None\n\n
+    putProperty(final String s, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''

@@ -1,3 +1,4 @@
 def canAccept():
-    '''public boolean canAccept(final IMXGanttModel model, final IMXActivity act)
+    '''returns boolean\n\n
+    canAccept(final IMXGanttModel model, final IMXActivity act)\n
     '''

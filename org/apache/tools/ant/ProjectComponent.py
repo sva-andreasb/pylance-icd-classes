@@ -1,28 +1,37 @@
-def ProjectComponent():
-    '''public ProjectComponent()
+def ():
+    '''returns ProjectComponent\n\n
+    ()\n
     '''
 def setProject():
-    '''public void setProject(final Project project)
+    '''returns None\n\n
+    setProject(final Project project)\n
     '''
 def getProject():
-    '''public Project getProject()
+    '''returns Project\n\n
+    getProject()\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final Location location)
+    '''returns None\n\n
+    setLocation(final Location location)\n
     '''
 def setDescription():
-    '''public void setDescription(final String desc)
+    '''returns None\n\n
+    setDescription(final String desc)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def log():
-    '''public void log(final String msg)
-    public void log(final String msg, final int msgLevel)
+    '''returns None\n\n
+    log(final String msg)\n
+    log(final String msg, final int msgLevel)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

@@ -1,6 +1,8 @@
-def FldBIMClassJP():
-    '''public FldBIMClassJP(final MboValue mbv)
+def ():
+    '''returns FldBIMClassJP\n\n
+    (final MboValue mbv)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

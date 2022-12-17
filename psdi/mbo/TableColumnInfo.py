@@ -1,34 +1,45 @@
 CACHE_NAME = "String  \"BMX.MAXIMODD.TCI\""
 def getTypedReference():
-    '''public TableColumnInfoBase getTypedReference()
+    '''returns TableColumnInfoBase\n\n
+    getTypedReference()\n
     '''
 def getTypedReferenceForSet():
-    '''public TableColumnInfoBase getTypedReferenceForSet()
+    '''returns TableColumnInfoBase\n\n
+    getTypedReferenceForSet()\n
     '''
 def getColumnName():
-    '''public String getColumnName()
+    '''returns String\n\n
+    getColumnName()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getMaxType():
-    '''public String getMaxType()
+    '''returns String\n\n
+    getMaxType()\n
     '''
 def isNullAllowed():
-    '''public boolean isNullAllowed()
+    '''returns boolean\n\n
+    isNullAllowed()\n
     '''
 def getPrimaryKeyColSequence():
-    '''public int getPrimaryKeyColSequence()
+    '''returns int\n\n
+    getPrimaryKeyColSequence()\n
     '''
 def getScale():
-    '''public int getScale()
+    '''returns int\n\n
+    getScale()\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def isTenantOwned():
-    '''public boolean isTenantOwned()
+    '''returns boolean\n\n
+    isTenantOwned()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

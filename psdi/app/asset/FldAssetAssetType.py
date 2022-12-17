@@ -1,3 +1,4 @@
-def FldAssetAssetType():
-    '''public FldAssetAssetType(final MboValue mbv)
+def ():
+    '''returns FldAssetAssetType\n\n
+    (final MboValue mbv)\n
     '''

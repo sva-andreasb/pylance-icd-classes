@@ -1,9 +1,12 @@
-def IlvAbstractConstraint():
-    '''public IlvAbstractConstraint()
+def ():
+    '''returns IlvAbstractConstraint\n\n
+    ()\n
     '''
 def setGanttModelImpl():
-    '''public void setGanttModelImpl(final IlvGanttModel a)
+    '''returns None\n\n
+    setGanttModelImpl(final IlvGanttModel a)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

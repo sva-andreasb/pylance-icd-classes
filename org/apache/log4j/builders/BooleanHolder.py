@@ -1,6 +1,8 @@
-def BooleanHolder():
-    '''public BooleanHolder()
+def ():
+    '''returns BooleanHolder\n\n
+    ()\n
     '''
 def set():
-    '''public void set(final Boolean value)
+    '''returns None\n\n
+    set(final Boolean value)\n
     '''

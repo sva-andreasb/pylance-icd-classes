@@ -1,30 +1,40 @@
-def ClassUseWith():
-    '''public ClassUseWith(final MboSet ms)
+def ():
+    '''returns ClassUseWith\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def getOwningClassStructure():
-    '''public MboRemote getOwningClassStructure()
+    '''returns MboRemote\n\n
+    getOwningClassStructure()\n
     '''
 def populateClassSpecUseWith():
-    '''public void populateClassSpecUseWith()
+    '''returns None\n\n
+    populateClassSpecUseWith()\n
     '''
 def checkTopLevel():
-    '''public void checkTopLevel(final String objectName)
+    '''returns None\n\n
+    checkTopLevel(final String objectName)\n
     '''

@@ -1,9 +1,12 @@
-def AssetLocCommSet():
-    '''public AssetLocCommSet(final MboServerInterface ms)
+def ():
+    '''returns AssetLocCommSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def associateAssetsToCommodity():
-    '''public void associateAssetsToCommodity(final MboSetRemote assetSet)
+    '''returns None\n\n
+    associateAssetsToCommodity(final MboSetRemote assetSet)\n
     '''
 def associateLocationsToCommodity():
-    '''public void associateLocationsToCommodity(final MboSetRemote locationSet)
+    '''returns None\n\n
+    associateLocationsToCommodity(final MboSetRemote locationSet)\n
     '''

@@ -1,16 +1,16 @@
-def getInstance():
-    '''public static XmlWriter getInstance(final Document document, final OutputStream os)
-    public static XmlWriter getInstance(final Document document, final OutputStream os, final String dtd)
-    '''
 def add():
-    '''public boolean add(final Element element)
+    '''returns boolean\n\n
+    add(final Element element)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def newPage():
-    '''public boolean newPage()
+    '''returns boolean\n\n
+    newPage()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,14 +1,18 @@
-def StyleSheet():
-    '''public StyleSheet()
+def ():
+    '''returns StyleSheet\n\n
+    ()\n
     '''
 def applyStyle():
-    '''public void applyStyle(final String tag, final HashMap props)
+    '''returns None\n\n
+    applyStyle(final String tag, final HashMap props)\n
     '''
 def loadStyle():
-    '''public void loadStyle(final String style, final HashMap props)
-    public void loadStyle(String style, final String key, final String value)
+    '''returns None\n\n
+    loadStyle(final String style, final HashMap props)\n
+    loadStyle(String style, final String key, final String value)\n
     '''
 def loadTagStyle():
-    '''public void loadTagStyle(final String tag, final HashMap props)
-    public void loadTagStyle(String tag, final String key, final String value)
+    '''returns None\n\n
+    loadTagStyle(final String tag, final HashMap props)\n
+    loadTagStyle(String tag, final String key, final String value)\n
     '''

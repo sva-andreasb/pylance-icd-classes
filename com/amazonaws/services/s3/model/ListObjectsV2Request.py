@@ -1,72 +1,96 @@
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public ListObjectsV2Request withBucketName(final String bucketName)
+    '''returns ListObjectsV2Request\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getDelimiter():
-    '''public String getDelimiter()
+    '''returns String\n\n
+    getDelimiter()\n
     '''
 def setDelimiter():
-    '''public void setDelimiter(final String delimiter)
+    '''returns None\n\n
+    setDelimiter(final String delimiter)\n
     '''
 def withDelimiter():
-    '''public ListObjectsV2Request withDelimiter(final String delimiter)
+    '''returns ListObjectsV2Request\n\n
+    withDelimiter(final String delimiter)\n
     '''
 def getEncodingType():
-    '''public String getEncodingType()
+    '''returns String\n\n
+    getEncodingType()\n
     '''
 def setEncodingType():
-    '''public void setEncodingType(final String encodingType)
+    '''returns None\n\n
+    setEncodingType(final String encodingType)\n
     '''
 def withEncodingType():
-    '''public ListObjectsV2Request withEncodingType(final String encodingType)
+    '''returns ListObjectsV2Request\n\n
+    withEncodingType(final String encodingType)\n
     '''
 def getMaxKeys():
-    '''public Integer getMaxKeys()
+    '''returns Integer\n\n
+    getMaxKeys()\n
     '''
 def setMaxKeys():
-    '''public void setMaxKeys(final Integer maxKeys)
+    '''returns None\n\n
+    setMaxKeys(final Integer maxKeys)\n
     '''
 def withMaxKeys():
-    '''public ListObjectsV2Request withMaxKeys(final Integer maxKeys)
+    '''returns ListObjectsV2Request\n\n
+    withMaxKeys(final Integer maxKeys)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def withPrefix():
-    '''public ListObjectsV2Request withPrefix(final String prefix)
+    '''returns ListObjectsV2Request\n\n
+    withPrefix(final String prefix)\n
     '''
 def getContinuationToken():
-    '''public String getContinuationToken()
+    '''returns String\n\n
+    getContinuationToken()\n
     '''
 def setContinuationToken():
-    '''public void setContinuationToken(final String continuationToken)
+    '''returns None\n\n
+    setContinuationToken(final String continuationToken)\n
     '''
 def withContinuationToken():
-    '''public ListObjectsV2Request withContinuationToken(final String continuationToken)
+    '''returns ListObjectsV2Request\n\n
+    withContinuationToken(final String continuationToken)\n
     '''
 def isFetchOwner():
-    '''public boolean isFetchOwner()
+    '''returns boolean\n\n
+    isFetchOwner()\n
     '''
 def setFetchOwner():
-    '''public void setFetchOwner(final boolean fetchOwner)
+    '''returns None\n\n
+    setFetchOwner(final boolean fetchOwner)\n
     '''
 def withFetchOwner():
-    '''public ListObjectsV2Request withFetchOwner(final boolean fetchOwner)
+    '''returns ListObjectsV2Request\n\n
+    withFetchOwner(final boolean fetchOwner)\n
     '''
 def getStartAfter():
-    '''public String getStartAfter()
+    '''returns String\n\n
+    getStartAfter()\n
     '''
 def setStartAfter():
-    '''public void setStartAfter(final String startAfter)
+    '''returns None\n\n
+    setStartAfter(final String startAfter)\n
     '''
 def withStartAfter():
-    '''public ListObjectsV2Request withStartAfter(final String startAfter)
+    '''returns ListObjectsV2Request\n\n
+    withStartAfter(final String startAfter)\n
     '''

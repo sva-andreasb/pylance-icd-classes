@@ -1,20 +1,26 @@
 MAX_HOST_CONNECTIONS = "String  \"http.connection-manager.max-per-host\""
 MAX_TOTAL_CONNECTIONS = "String  \"http.connection-manager.max-total\""
 def setDefaultMaxConnectionsPerHost():
-    '''public void setDefaultMaxConnectionsPerHost(final int maxHostConnections)
+    '''returns None\n\n
+    setDefaultMaxConnectionsPerHost(final int maxHostConnections)\n
     '''
 def setMaxConnectionsPerHost():
-    '''public void setMaxConnectionsPerHost(final HostConfiguration hostConfiguration, final int maxHostConnections)
+    '''returns None\n\n
+    setMaxConnectionsPerHost(final HostConfiguration hostConfiguration, final int maxHostConnections)\n
     '''
 def getDefaultMaxConnectionsPerHost():
-    '''public int getDefaultMaxConnectionsPerHost()
+    '''returns int\n\n
+    getDefaultMaxConnectionsPerHost()\n
     '''
 def getMaxConnectionsPerHost():
-    '''public int getMaxConnectionsPerHost(final HostConfiguration hostConfiguration)
+    '''returns int\n\n
+    getMaxConnectionsPerHost(final HostConfiguration hostConfiguration)\n
     '''
 def setMaxTotalConnections():
-    '''public void setMaxTotalConnections(final int maxTotalConnections)
+    '''returns None\n\n
+    setMaxTotalConnections(final int maxTotalConnections)\n
     '''
 def getMaxTotalConnections():
-    '''public int getMaxTotalConnections()
+    '''returns int\n\n
+    getMaxTotalConnections()\n
     '''

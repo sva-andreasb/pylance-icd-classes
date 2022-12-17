@@ -1,10 +1,13 @@
-def PauseResult():
-    '''public PauseResult(final PauseStatus pauseStatus, final T infoToResume)
-    public PauseResult(final PauseStatus pauseStatus)
+def ():
+    '''returns PauseResult\n\n
+    (final PauseStatus pauseStatus, final T infoToResume)\n
+    (final PauseStatus pauseStatus)\n
     '''
 def getPauseStatus():
-    '''public PauseStatus getPauseStatus()
+    '''returns PauseStatus\n\n
+    getPauseStatus()\n
     '''
 def getInfoToResume():
-    '''public T getInfoToResume()
+    '''returns T\n\n
+    getInfoToResume()\n
     '''

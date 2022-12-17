@@ -1,23 +1,30 @@
 tileWidth = "int  25"
 KEYFRAME = "int  10"
-def ImageTransmitter():
-    '''public ImageTransmitter(final DatagramSocket socket, final InetAddress remoteHost, final int remotePort, final Rectangle area)
+def ():
+    '''returns ImageTransmitter\n\n
+    (final DatagramSocket socket, final InetAddress remoteHost, final int remotePort, final Rectangle area)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def setTransmit():
-    '''public void setTransmit(final boolean transmit)
+    '''returns None\n\n
+    setTransmit(final boolean transmit)\n
     '''
 def getEncoder():
-    '''public ImageEncoder getEncoder()
+    '''returns ImageEncoder\n\n
+    getEncoder()\n
     '''
 def setEncoder():
-    '''public void setEncoder(final ImageEncoder encoder)
+    '''returns None\n\n
+    setEncoder(final ImageEncoder encoder)\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''

@@ -1,3 +1,4 @@
-def InvalidPidMappingException():
-    '''public InvalidPidMappingException(final String message)
+def ():
+    '''returns InvalidPidMappingException\n\n
+    (final String message)\n
     '''

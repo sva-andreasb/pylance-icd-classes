@@ -1,3 +1,4 @@
-def SRMFavorite():
-    '''public SRMFavorite(final MboSet ms)
+def ():
+    '''returns SRMFavorite\n\n
+    (final MboSet ms)\n
     '''

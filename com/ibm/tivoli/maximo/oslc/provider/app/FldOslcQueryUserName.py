@@ -1,3 +1,4 @@
-def FldOslcQueryUserName():
-    '''public FldOslcQueryUserName(final MboValue mbv)
+def ():
+    '''returns FldOslcQueryUserName\n\n
+    (final MboValue mbv)\n
     '''

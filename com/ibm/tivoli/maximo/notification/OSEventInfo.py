@@ -1,51 +1,68 @@
-def OSEventInfo():
-    '''public OSEventInfo(final String osName, final String eventName, final String eventFilter, final boolean eventConditionAnded, final String applyTo, final boolean onAdd, final boolean onUpdate, final boolean onDelete, final String msgTemplate, final String useWith, final boolean enfOSRelations, final String msgTopic, final String templateName)
+def ():
+    '''returns OSEventInfo\n\n
+    (final String osName, final String eventName, final String eventFilter, final boolean eventConditionAnded, final String applyTo, final boolean onAdd, final boolean onUpdate, final boolean onDelete, final String msgTemplate, final String useWith, final boolean enfOSRelations, final String msgTopic, final String templateName)\n
     '''
 def getTemplateName():
-    '''public String getTemplateName()
+    '''returns String\n\n
+    getTemplateName()\n
     '''
 def getUseWith():
-    '''public String getUseWith()
+    '''returns String\n\n
+    getUseWith()\n
     '''
 def getMsgTopic():
-    '''public String getMsgTopic()
+    '''returns String\n\n
+    getMsgTopic()\n
     '''
 def isEnforceOSRelations():
-    '''public boolean isEnforceOSRelations()
+    '''returns boolean\n\n
+    isEnforceOSRelations()\n
     '''
 def getMessageTemplate():
-    '''public String getMessageTemplate()
+    '''returns String\n\n
+    getMessageTemplate()\n
     '''
 def getMessageTemplateInfo():
-    '''public MessageTemplateInfo getMessageTemplateInfo()
+    '''returns MessageTemplateInfo\n\n
+    getMessageTemplateInfo()\n
     '''
 def isOnAdd():
-    '''public boolean isOnAdd()
+    '''returns boolean\n\n
+    isOnAdd()\n
     '''
 def isOnDelete():
-    '''public boolean isOnDelete()
+    '''returns boolean\n\n
+    isOnDelete()\n
     '''
 def isOnUpdate():
-    '''public boolean isOnUpdate()
+    '''returns boolean\n\n
+    isOnUpdate()\n
     '''
 def getApplyTo():
-    '''public String getApplyTo()
+    '''returns String\n\n
+    getApplyTo()\n
     '''
 def isEventConditionAnded():
-    '''public boolean isEventConditionAnded()
+    '''returns boolean\n\n
+    isEventConditionAnded()\n
     '''
 def getOSName():
-    '''public String getOSName()
+    '''returns String\n\n
+    getOSName()\n
     '''
 def getEventName():
-    '''public String getEventName()
+    '''returns String\n\n
+    getEventName()\n
     '''
 def getEventFilter():
-    '''public String getEventFilter()
+    '''returns String\n\n
+    getEventFilter()\n
     '''
 def getConditions():
-    '''public List<OSEventConditionInfo> getConditions()
+    '''returns List<OSEventConditionInfo>\n\n
+    getConditions()\n
     '''
 def isFireEvent():
-    '''public boolean isFireEvent(final MboRemote mmbo)
+    '''returns boolean\n\n
+    isFireEvent(final MboRemote mmbo)\n
     '''

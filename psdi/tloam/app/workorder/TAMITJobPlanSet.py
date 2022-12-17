@@ -1,3 +1,4 @@
-def TAMITJobPlanSet():
-    '''public TAMITJobPlanSet(final MboServerInterface ms)
+def ():
+    '''returns TAMITJobPlanSet\n\n
+    (final MboServerInterface ms)\n
     '''

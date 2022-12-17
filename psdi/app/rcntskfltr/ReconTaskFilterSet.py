@@ -1,3 +1,4 @@
-def ReconTaskFilterSet():
-    '''public ReconTaskFilterSet(final MboServerInterface ms)
+def ():
+    '''returns ReconTaskFilterSet\n\n
+    (final MboServerInterface ms)\n
     '''

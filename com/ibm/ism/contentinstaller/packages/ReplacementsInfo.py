@@ -1,44 +1,39 @@
-def ReplacementsInfo():
-    '''public ReplacementsInfo(final BaseTag owner)
+def ():
+    '''returns Markable\n\n
+    (final BaseTag owner)\n
+    (final String idNotColumn, final String value, final boolean shouldEnforce)\n
     '''
 def update():
-    '''public void update(final Observable observable, final Object argObj)
-    '''
-def getMarkedReplacements():
-    '''public Map<String, String> getMarkedReplacements()
+    '''returns None\n\n
+    update(final Observable observable, final Object argObj)\n
     '''
 def markForReplacement():
-    '''public void markForReplacement(final String idNotColumn, final String value)
-    public void markForReplacement()
+    '''returns None\n\n
+    markForReplacement(final String idNotColumn, final String value)\n
+    markForReplacement()\n
     '''
 def visit():
-    '''public void visit(final BaseTag baseTag)
+    '''returns None\n\n
+    visit(final BaseTag baseTag)\n
     '''
 def unmarkReplacement():
-    '''public void unmarkReplacement(final String idNotColumn)
-    public void unmarkReplacement()
+    '''returns None\n\n
+    unmarkReplacement(final String idNotColumn)\n
+    unmarkReplacement()\n
     '''
 def putReplacementValue():
-    '''public void putReplacementValue(final AbstractReplacementValue newReplacementValue)
-    '''
-def getInheritedMarkedReplacements():
-    '''public Map<String, String> getInheritedMarkedReplacements()
-    '''
-def getReplacementValues():
-    '''public Map<String, AbstractReplacementValue> getReplacementValues()
+    '''returns None\n\n
+    putReplacementValue(final AbstractReplacementValue newReplacementValue)\n
     '''
 def getReplacementValueById():
-    '''public AbstractReplacementValue getReplacementValueById(final String id)
-    '''
-def getCalculatedReplacementsForImport():
-    '''public Map<String, String> getCalculatedReplacementsForImport()
-    '''
-def Markable():
-    '''public Markable(final String idNotColumn, final String value, final boolean shouldEnforce)
+    '''returns AbstractReplacementValue\n\n
+    getReplacementValueById(final String id)\n
     '''
 def isMarkedForReplacement():
-    '''public boolean isMarkedForReplacement()
+    '''returns boolean\n\n
+    isMarkedForReplacement()\n
     '''
 def isUnmarkedReplacement():
-    '''public boolean isUnmarkedReplacement()
+    '''returns boolean\n\n
+    isUnmarkedReplacement()\n
     '''

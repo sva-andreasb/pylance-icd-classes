@@ -1,16 +1,21 @@
-def GenericMessage():
-    '''public GenericMessage()
-    public GenericMessage(final byte version, final MessageType msgType)
+def ():
+    '''returns GenericMessage\n\n
+    ()\n
+    (final byte version, final MessageType msgType)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def getMsgType():
-    '''public MessageType getMsgType()
+    '''returns MessageType\n\n
+    getMsgType()\n
     '''
 def getVersion():
-    '''public byte getVersion()
+    '''returns byte\n\n
+    getVersion()\n
     '''

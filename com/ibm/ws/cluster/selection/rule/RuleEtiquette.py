@@ -1,28 +1,37 @@
-def RuleEtiquette():
-    '''public RuleEtiquette(final DescriptionKey clusterKey, final SelectionRule[] rules, final StringBuffer reason, final WeightBasedFeedback feedback)
-    public RuleEtiquette(final DescriptionKey clusterKey, final SelectionRule[] rules, final StringBuffer reason, final WeightBasedFeedback feedback, final Map criteria)
+def ():
+    '''returns RuleEtiquette\n\n
+    (final DescriptionKey clusterKey, final SelectionRule[] rules, final StringBuffer reason, final WeightBasedFeedback feedback)\n
+    (final DescriptionKey clusterKey, final SelectionRule[] rules, final StringBuffer reason, final WeightBasedFeedback feedback, final Map criteria)\n
     '''
 def triggerRuleUpdate():
-    '''public void triggerRuleUpdate()
+    '''returns None\n\n
+    triggerRuleUpdate()\n
     '''
 def registerNotificationType():
-    '''public void registerNotificationType(final SelectionRule rule, final Identity identity, final String type)
+    '''returns None\n\n
+    registerNotificationType(final SelectionRule rule, final Identity identity, final String type)\n
     '''
 def deregisterNotificationType():
-    '''public void deregisterNotificationType(final SelectionRule rule, final Identity identity, final String type)
+    '''returns None\n\n
+    deregisterNotificationType(final SelectionRule rule, final Identity identity, final String type)\n
     '''
 def handleNotification():
-    '''public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
+    '''returns None\n\n
+    handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)\n
     '''
 def getClusterIdentity():
-    '''public Identity getClusterIdentity()
+    '''returns Identity\n\n
+    getClusterIdentity()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def beingRemoved():
-    '''public void beingRemoved()
+    '''returns None\n\n
+    beingRemoved()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

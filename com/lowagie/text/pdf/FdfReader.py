@@ -1,18 +1,23 @@
-def FdfReader():
-    '''public FdfReader(final String filename)
-    public FdfReader(final byte[] pdfIn)
-    public FdfReader(final URL url)
-    public FdfReader(final InputStream is)
+def ():
+    '''returns FdfReader\n\n
+    (final String filename)\n
+    (final byte[] pdfIn)\n
+    (final URL url)\n
+    (final InputStream is)\n
     '''
 def getFields():
-    '''public HashMap getFields()
+    '''returns HashMap\n\n
+    getFields()\n
     '''
 def getField():
-    '''public PdfDictionary getField(final String name)
+    '''returns PdfDictionary\n\n
+    getField(final String name)\n
     '''
 def getFieldValue():
-    '''public String getFieldValue(final String name)
+    '''returns String\n\n
+    getFieldValue(final String name)\n
     '''
 def getFileSpec():
-    '''public String getFileSpec()
+    '''returns String\n\n
+    getFileSpec()\n
     '''

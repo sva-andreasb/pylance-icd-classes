@@ -1,3 +1,4 @@
-def RBAActionSet():
-    '''public RBAActionSet(final MboServerInterface ms)
+def ():
+    '''returns RBAActionSet\n\n
+    (final MboServerInterface ms)\n
     '''

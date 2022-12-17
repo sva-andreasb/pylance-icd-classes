@@ -1,131 +1,174 @@
 sid = "short  161"
-def PrintSetupRecord():
-    '''public PrintSetupRecord()
-    public PrintSetupRecord(final RecordInputStream in)
+def ():
+    '''returns PrintSetupRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setPaperSize():
-    '''public void setPaperSize(final short size)
+    '''returns None\n\n
+    setPaperSize(final short size)\n
     '''
 def setScale():
-    '''public void setScale(final short scale)
+    '''returns None\n\n
+    setScale(final short scale)\n
     '''
 def setPageStart():
-    '''public void setPageStart(final short start)
+    '''returns None\n\n
+    setPageStart(final short start)\n
     '''
 def setFitWidth():
-    '''public void setFitWidth(final short width)
+    '''returns None\n\n
+    setFitWidth(final short width)\n
     '''
 def setFitHeight():
-    '''public void setFitHeight(final short height)
+    '''returns None\n\n
+    setFitHeight(final short height)\n
     '''
 def setOptions():
-    '''public void setOptions(final short options)
+    '''returns None\n\n
+    setOptions(final short options)\n
     '''
 def setLeftToRight():
-    '''public void setLeftToRight(final boolean ltor)
+    '''returns None\n\n
+    setLeftToRight(final boolean ltor)\n
     '''
 def setLandscape():
-    '''public void setLandscape(final boolean ls)
+    '''returns None\n\n
+    setLandscape(final boolean ls)\n
     '''
 def setValidSettings():
-    '''public void setValidSettings(final boolean valid)
+    '''returns None\n\n
+    setValidSettings(final boolean valid)\n
     '''
 def setNoColor():
-    '''public void setNoColor(final boolean mono)
+    '''returns None\n\n
+    setNoColor(final boolean mono)\n
     '''
 def setDraft():
-    '''public void setDraft(final boolean d)
+    '''returns None\n\n
+    setDraft(final boolean d)\n
     '''
 def setNotes():
-    '''public void setNotes(final boolean printnotes)
+    '''returns None\n\n
+    setNotes(final boolean printnotes)\n
     '''
 def setNoOrientation():
-    '''public void setNoOrientation(final boolean orientation)
+    '''returns None\n\n
+    setNoOrientation(final boolean orientation)\n
     '''
 def setUsePage():
-    '''public void setUsePage(final boolean page)
+    '''returns None\n\n
+    setUsePage(final boolean page)\n
     '''
 def setHResolution():
-    '''public void setHResolution(final short resolution)
+    '''returns None\n\n
+    setHResolution(final short resolution)\n
     '''
 def setVResolution():
-    '''public void setVResolution(final short resolution)
+    '''returns None\n\n
+    setVResolution(final short resolution)\n
     '''
 def setHeaderMargin():
-    '''public void setHeaderMargin(final double headermargin)
+    '''returns None\n\n
+    setHeaderMargin(final double headermargin)\n
     '''
 def setFooterMargin():
-    '''public void setFooterMargin(final double footermargin)
+    '''returns None\n\n
+    setFooterMargin(final double footermargin)\n
     '''
 def setCopies():
-    '''public void setCopies(final short copies)
+    '''returns None\n\n
+    setCopies(final short copies)\n
     '''
 def getPaperSize():
-    '''public short getPaperSize()
+    '''returns short\n\n
+    getPaperSize()\n
     '''
 def getScale():
-    '''public short getScale()
+    '''returns short\n\n
+    getScale()\n
     '''
 def getPageStart():
-    '''public short getPageStart()
+    '''returns short\n\n
+    getPageStart()\n
     '''
 def getFitWidth():
-    '''public short getFitWidth()
+    '''returns short\n\n
+    getFitWidth()\n
     '''
 def getFitHeight():
-    '''public short getFitHeight()
+    '''returns short\n\n
+    getFitHeight()\n
     '''
 def getOptions():
-    '''public short getOptions()
+    '''returns short\n\n
+    getOptions()\n
     '''
 def getLeftToRight():
-    '''public boolean getLeftToRight()
+    '''returns boolean\n\n
+    getLeftToRight()\n
     '''
 def getLandscape():
-    '''public boolean getLandscape()
+    '''returns boolean\n\n
+    getLandscape()\n
     '''
 def getValidSettings():
-    '''public boolean getValidSettings()
+    '''returns boolean\n\n
+    getValidSettings()\n
     '''
 def getNoColor():
-    '''public boolean getNoColor()
+    '''returns boolean\n\n
+    getNoColor()\n
     '''
 def getDraft():
-    '''public boolean getDraft()
+    '''returns boolean\n\n
+    getDraft()\n
     '''
 def getNotes():
-    '''public boolean getNotes()
+    '''returns boolean\n\n
+    getNotes()\n
     '''
 def getNoOrientation():
-    '''public boolean getNoOrientation()
+    '''returns boolean\n\n
+    getNoOrientation()\n
     '''
 def getUsePage():
-    '''public boolean getUsePage()
+    '''returns boolean\n\n
+    getUsePage()\n
     '''
 def getHResolution():
-    '''public short getHResolution()
+    '''returns short\n\n
+    getHResolution()\n
     '''
 def getVResolution():
-    '''public short getVResolution()
+    '''returns short\n\n
+    getVResolution()\n
     '''
 def getHeaderMargin():
-    '''public double getHeaderMargin()
+    '''returns double\n\n
+    getHeaderMargin()\n
     '''
 def getFooterMargin():
-    '''public double getFooterMargin()
+    '''returns double\n\n
+    getFooterMargin()\n
     '''
 def getCopies():
-    '''public short getCopies()
+    '''returns short\n\n
+    getCopies()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

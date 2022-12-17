@@ -1,3 +1,4 @@
 def computeDataRange():
-    '''public IlvDataInterval computeDataRange(final IlvChart ilvChart, final IlvAxis ilvAxis, IlvDataInterval ilvDataInterval)
+    '''returns IlvDataInterval\n\n
+    computeDataRange(final IlvChart ilvChart, final IlvAxis ilvAxis, IlvDataInterval ilvDataInterval)\n
     '''

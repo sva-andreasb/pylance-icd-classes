@@ -1,9 +1,12 @@
-def PlusPFldWOAssetnum():
-    '''public PlusPFldWOAssetnum(final MboValue arg0)
+def ():
+    '''returns PlusPFldWOAssetnum\n\n
+    (final MboValue arg0)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

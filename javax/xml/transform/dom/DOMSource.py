@@ -1,18 +1,23 @@
 FEATURE = "String  \"http://javax.xml.transform.dom.DOMSource/feature\""
-def DOMSource():
-    '''public DOMSource()
-    public DOMSource(final Node node)
-    public DOMSource(final Node node, final String systemId)
+def ():
+    '''returns DOMSource\n\n
+    ()\n
+    (final Node node)\n
+    (final Node node, final String systemId)\n
     '''
 def setNode():
-    '''public void setNode(final Node node)
+    '''returns None\n\n
+    setNode(final Node node)\n
     '''
 def getNode():
-    '''public Node getNode()
+    '''returns Node\n\n
+    getNode()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemID)
+    '''returns None\n\n
+    setSystemId(final String systemID)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''

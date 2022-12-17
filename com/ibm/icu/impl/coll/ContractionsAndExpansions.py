@@ -1,9 +1,12 @@
-def ContractionsAndExpansions():
-    '''public ContractionsAndExpansions(final UnicodeSet con, final UnicodeSet exp, final CESink s, final boolean prefixes)
+def ():
+    '''returns ContractionsAndExpansions\n\n
+    (final UnicodeSet con, final UnicodeSet exp, final CESink s, final boolean prefixes)\n
     '''
 def forData():
-    '''public void forData(final CollationData d)
+    '''returns None\n\n
+    forData(final CollationData d)\n
     '''
 def forCodePoint():
-    '''public void forCodePoint(CollationData d, final int c)
+    '''returns None\n\n
+    forCodePoint(CollationData d, final int c)\n
     '''

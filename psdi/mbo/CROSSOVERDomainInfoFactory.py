@@ -1,3 +1,4 @@
 def load():
-    '''public List load(final Connection con)
+    '''returns List\n\n
+    load(final Connection con)\n
     '''

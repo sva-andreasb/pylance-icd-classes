@@ -1,22 +1,29 @@
-def SiteService():
-    '''public SiteService()
-    public SiteService(final MXServer mxServer)
+def ():
+    '''returns SiteService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getOrgForSite():
-    '''public String getOrgForSite(final String siteID, final UserInfo userInfo)
+    '''returns String\n\n
+    getOrgForSite(final String siteID, final UserInfo userInfo)\n
     '''
 def orgHasASite():
-    '''public boolean orgHasASite(final String orgID)
+    '''returns boolean\n\n
+    orgHasASite(final String orgID)\n
     '''
 def getAllSites():
-    '''public Hashtable getAllSites()
+    '''returns Hashtable\n\n
+    getAllSites()\n
     '''
 def validateOrgForSite():
-    '''public void validateOrgForSite(final UserInfo userInfo, final String orgId, final String siteId)
+    '''returns None\n\n
+    validateOrgForSite(final UserInfo userInfo, final String orgId, final String siteId)\n
     '''
 def getItemSetIdForOrg():
-    '''public String getItemSetIdForOrg(final UserInfo userInfo, final String orgId)
+    '''returns String\n\n
+    getItemSetIdForOrg(final UserInfo userInfo, final String orgId)\n
     '''
 def getCompanySetIdForOrg():
-    '''public String getCompanySetIdForOrg(final UserInfo userInfo, final String orgId)
+    '''returns String\n\n
+    getCompanySetIdForOrg(final UserInfo userInfo, final String orgId)\n
     '''

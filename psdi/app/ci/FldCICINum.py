@@ -1,9 +1,12 @@
-def FldCICINum():
-    '''public FldCICINum(final MboValue mbv)
+def ():
+    '''returns FldCICINum\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

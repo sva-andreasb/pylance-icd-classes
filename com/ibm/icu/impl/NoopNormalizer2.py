@@ -1,28 +1,37 @@
 def normalize():
-    '''public StringBuilder normalize(final CharSequence src, final StringBuilder dest)
-    public Appendable normalize(final CharSequence src, final Appendable dest)
+    '''returns Appendable\n\n
+    normalize(final CharSequence src, final StringBuilder dest)\n
+    normalize(final CharSequence src, final Appendable dest)\n
     '''
 def normalizeSecondAndAppend():
-    '''public StringBuilder normalizeSecondAndAppend(final StringBuilder first, final CharSequence second)
+    '''returns StringBuilder\n\n
+    normalizeSecondAndAppend(final StringBuilder first, final CharSequence second)\n
     '''
 def append():
-    '''public StringBuilder append(final StringBuilder first, final CharSequence second)
+    '''returns StringBuilder\n\n
+    append(final StringBuilder first, final CharSequence second)\n
     '''
 def getDecomposition():
-    '''public String getDecomposition(final int c)
+    '''returns String\n\n
+    getDecomposition(final int c)\n
     '''
 def isNormalized():
-    '''public boolean isNormalized(final CharSequence s)
+    '''returns boolean\n\n
+    isNormalized(final CharSequence s)\n
     '''
 def spanQuickCheckYes():
-    '''public int spanQuickCheckYes(final CharSequence s)
+    '''returns int\n\n
+    spanQuickCheckYes(final CharSequence s)\n
     '''
 def hasBoundaryBefore():
-    '''public boolean hasBoundaryBefore(final int c)
+    '''returns boolean\n\n
+    hasBoundaryBefore(final int c)\n
     '''
 def hasBoundaryAfter():
-    '''public boolean hasBoundaryAfter(final int c)
+    '''returns boolean\n\n
+    hasBoundaryAfter(final int c)\n
     '''
 def isInert():
-    '''public boolean isInert(final int c)
+    '''returns boolean\n\n
+    isInert(final int c)\n
     '''

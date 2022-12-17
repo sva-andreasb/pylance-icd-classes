@@ -1,5 +1,6 @@
 def write():
-    '''public void write(final byte[] b, final int off, final int len)
-    public void write(final int b)
-    public void write(final byte[] b)
+    '''returns None\n\n
+    write(final byte[] b, final int off, final int len)\n
+    write(final int b)\n
+    write(final byte[] b)\n
     '''

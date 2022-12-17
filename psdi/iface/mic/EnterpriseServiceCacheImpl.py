@@ -1,20 +1,21 @@
 NAME = "String  \"MAXIFACEIN\""
-def EnterpriseServiceCacheImpl():
-    '''public EnterpriseServiceCacheImpl()
+def ():
+    '''returns EnterpriseServiceCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def reload():
-    '''public synchronized void reload()
-    public void reload(final String key)
-    '''
-def getEnterpriseServiceMap():
-    '''public Map<String, EnterpriseServiceInfo> getEnterpriseServiceMap()
+    '''returns None\n\n
+    reload(final String key)\n
     '''
 def getEnterpriseServiceInfo():
-    '''public EnterpriseServiceInfo getEnterpriseServiceInfo(final String name)
+    '''returns EnterpriseServiceInfo\n\n
+    getEnterpriseServiceInfo(final String name)\n
     '''

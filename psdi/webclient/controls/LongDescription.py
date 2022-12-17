@@ -1,36 +1,48 @@
-def LongDescription():
-    '''public LongDescription()
+def ():
+    '''returns LongDescription\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getDataAttribute():
-    '''public String getDataAttribute()
+    '''returns String\n\n
+    getDataAttribute()\n
     '''
 def getControlBean():
-    '''public DataBean getControlBean()
+    '''returns DataBean\n\n
+    getControlBean()\n
     '''
 def getCurrentValue():
-    '''public String getCurrentValue()
+    '''returns String\n\n
+    getCurrentValue()\n
     '''
 def resetvalue():
-    '''public int resetvalue()
+    '''returns int\n\n
+    resetvalue()\n
     '''
 def clearvalue():
-    '''public int clearvalue()
+    '''returns int\n\n
+    clearvalue()\n
     '''
 def savechanges():
-    '''public int savechanges()
+    '''returns int\n\n
+    savechanges()\n
     '''
 def dialogcancel():
-    '''public int dialogcancel()
+    '''returns int\n\n
+    dialogcancel()\n
     '''
 def spellcheck():
-    '''public int spellcheck()
+    '''returns int\n\n
+    spellcheck()\n
     '''
 def updateResetValue():
-    '''public void updateResetValue()
+    '''returns None\n\n
+    updateResetValue()\n
     '''
 def spellcheckreturn():
-    '''public int spellcheckreturn()
+    '''returns int\n\n
+    spellcheckreturn()\n
     '''

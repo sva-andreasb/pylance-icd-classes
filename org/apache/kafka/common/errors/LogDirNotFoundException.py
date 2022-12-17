@@ -1,5 +1,6 @@
-def LogDirNotFoundException():
-    '''public LogDirNotFoundException(final String message)
-    public LogDirNotFoundException(final String message, final Throwable cause)
-    public LogDirNotFoundException(final Throwable cause)
+def ():
+    '''returns LogDirNotFoundException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

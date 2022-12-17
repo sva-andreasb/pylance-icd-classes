@@ -1,12 +1,16 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def hasDetailStateChanged():
-    '''public boolean hasDetailStateChanged()
+    '''returns boolean\n\n
+    hasDetailStateChanged()\n
     '''
 def expanded():
-    '''public String expanded()
+    '''returns String\n\n
+    expanded()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''

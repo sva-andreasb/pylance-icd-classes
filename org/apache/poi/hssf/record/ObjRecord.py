@@ -1,30 +1,39 @@
 sid = "short  93"
-def ObjRecord():
-    '''public ObjRecord()
-    public ObjRecord(final RecordInputStream in)
+def ():
+    '''returns ObjRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getSubRecords():
-    '''public List<SubRecord> getSubRecords()
+    '''returns List<SubRecord>\n\n
+    getSubRecords()\n
     '''
 def clearSubRecords():
-    '''public void clearSubRecords()
+    '''returns None\n\n
+    clearSubRecords()\n
     '''
 def addSubRecord():
-    '''public void addSubRecord(final int index, final SubRecord element)
-    public boolean addSubRecord(final SubRecord o)
+    '''returns boolean\n\n
+    addSubRecord(final int index, final SubRecord element)\n
+    addSubRecord(final SubRecord o)\n
     '''
 def clone():
-    '''public ObjRecord clone()
+    '''returns ObjRecord\n\n
+    clone()\n
     '''

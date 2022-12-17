@@ -1,3 +1,4 @@
-def QueueName():
-    '''public QueueName(final MboSet ms)
+def ():
+    '''returns QueueName\n\n
+    (final MboSet ms)\n
     '''

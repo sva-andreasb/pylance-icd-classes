@@ -1,12 +1,16 @@
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''
 def expbuilder():
-    '''public int expbuilder()
+    '''returns int\n\n
+    expbuilder()\n
     '''

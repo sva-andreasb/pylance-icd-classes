@@ -1,6 +1,8 @@
-def IncidentTotalByStatusSet():
-    '''public IncidentTotalByStatusSet(final MboServerInterface ms)
+def ():
+    '''returns IncidentTotalByStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

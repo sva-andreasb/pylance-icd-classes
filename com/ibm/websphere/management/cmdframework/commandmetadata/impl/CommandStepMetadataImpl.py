@@ -1,51 +1,68 @@
 def isTable():
-    '''public boolean isTable()
+    '''returns boolean\n\n
+    isTable()\n
     '''
 def setTable():
-    '''public void setTable(final boolean newTable)
+    '''returns None\n\n
+    setTable(final boolean newTable)\n
     '''
 def unsetTable():
-    '''public void unsetTable()
+    '''returns None\n\n
+    unsetTable()\n
     '''
 def isSetTable():
-    '''public boolean isSetTable()
+    '''returns boolean\n\n
+    isSetTable()\n
     '''
 def isEnableAddRows():
-    '''public boolean isEnableAddRows()
+    '''returns boolean\n\n
+    isEnableAddRows()\n
     '''
 def setEnableAddRows():
-    '''public void setEnableAddRows(final boolean newEnableAddRows)
+    '''returns None\n\n
+    setEnableAddRows(final boolean newEnableAddRows)\n
     '''
 def unsetEnableAddRows():
-    '''public void unsetEnableAddRows()
+    '''returns None\n\n
+    unsetEnableAddRows()\n
     '''
 def isSetEnableAddRows():
-    '''public boolean isSetEnableAddRows()
+    '''returns boolean\n\n
+    isSetEnableAddRows()\n
     '''
 def getTasks():
-    '''public TaskCommandMetadata getTasks()
+    '''returns TaskCommandMetadata\n\n
+    getTasks()\n
     '''
 def basicSetTasks():
-    '''public NotificationChain basicSetTasks(final TaskCommandMetadata newTasks, NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    basicSetTasks(final TaskCommandMetadata newTasks, NotificationChain msgs)\n
     '''
 def setTasks():
-    '''public void setTasks(final TaskCommandMetadata newTasks)
+    '''returns None\n\n
+    setTasks(final TaskCommandMetadata newTasks)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

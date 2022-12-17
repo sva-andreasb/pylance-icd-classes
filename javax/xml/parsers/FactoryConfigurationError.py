@@ -1,12 +1,15 @@
-def FactoryConfigurationError():
-    '''public FactoryConfigurationError()
-    public FactoryConfigurationError(final String message)
-    public FactoryConfigurationError(final Exception exception)
-    public FactoryConfigurationError(final Exception exception, final String message)
+def ():
+    '''returns FactoryConfigurationError\n\n
+    ()\n
+    (final String message)\n
+    (final Exception exception)\n
+    (final Exception exception, final String message)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''

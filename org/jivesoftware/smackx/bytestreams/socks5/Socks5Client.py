@@ -1,9 +1,12 @@
-def Socks5Client():
-    '''public Socks5Client(final Bytestream.StreamHost streamHost, final String digest)
+def ():
+    '''returns Socks5Client\n\n
+    (final Bytestream.StreamHost streamHost, final String digest)\n
     '''
 def getSocket():
-    '''public Socket getSocket(final int timeout)
+    '''returns Socket\n\n
+    getSocket(final int timeout)\n
     '''
 def call():
-    '''public Socket call()
+    '''returns Socket\n\n
+    call()\n
     '''

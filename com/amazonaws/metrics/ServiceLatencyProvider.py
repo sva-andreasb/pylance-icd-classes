@@ -1,18 +1,24 @@
-def ServiceLatencyProvider():
-    '''public ServiceLatencyProvider(final ServiceMetricType type)
+def ():
+    '''returns ServiceLatencyProvider\n\n
+    (final ServiceMetricType type)\n
     '''
 def getServiceMetricType():
-    '''public ServiceMetricType getServiceMetricType()
+    '''returns ServiceMetricType\n\n
+    getServiceMetricType()\n
     '''
 def endTiming():
-    '''public ServiceLatencyProvider endTiming()
+    '''returns ServiceLatencyProvider\n\n
+    endTiming()\n
     '''
 def getDurationMilli():
-    '''public double getDurationMilli()
+    '''returns double\n\n
+    getDurationMilli()\n
     '''
 def getProviderId():
-    '''public String getProviderId()
+    '''returns String\n\n
+    getProviderId()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

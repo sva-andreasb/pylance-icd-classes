@@ -1,36 +1,48 @@
-def RowMovedEvent():
-    '''public RowMovedEvent(final IlvGanttConfiguration source, final IlvHierarchyNode a, final IlvHierarchyNode b, final int c, final IlvHierarchyNode[] d, final IlvRowRange e, final IlvHierarchyNode f, final int g, final IlvHierarchyNode[] h, final IlvRowRange i)
+def ():
+    '''returns RowMovedEvent\n\n
+    (final IlvGanttConfiguration source, final IlvHierarchyNode a, final IlvHierarchyNode b, final int c, final IlvHierarchyNode[] d, final IlvRowRange e, final IlvHierarchyNode f, final int g, final IlvHierarchyNode[] h, final IlvRowRange i)\n
     '''
 def getGanttConfiguration():
-    '''public IlvGanttConfiguration getGanttConfiguration()
+    '''returns IlvGanttConfiguration\n\n
+    getGanttConfiguration()\n
     '''
 def getGanttModel():
-    '''public IlvGanttModel getGanttModel()
+    '''returns IlvGanttModel\n\n
+    getGanttModel()\n
     '''
 def getNode():
-    '''public IlvHierarchyNode getNode()
+    '''returns IlvHierarchyNode\n\n
+    getNode()\n
     '''
 def getOldParent():
-    '''public IlvHierarchyNode getOldParent()
+    '''returns IlvHierarchyNode\n\n
+    getOldParent()\n
     '''
 def getOldIndex():
-    '''public int getOldIndex()
+    '''returns int\n\n
+    getOldIndex()\n
     '''
 def getOldVisibleNodes():
-    '''public IlvHierarchyNode[] getOldVisibleNodes()
+    '''returns IlvHierarchyNode[]\n\n
+    getOldVisibleNodes()\n
     '''
 def getOldRowRange():
-    '''public IlvRowRange getOldRowRange()
+    '''returns IlvRowRange\n\n
+    getOldRowRange()\n
     '''
 def getNewParent():
-    '''public IlvHierarchyNode getNewParent()
+    '''returns IlvHierarchyNode\n\n
+    getNewParent()\n
     '''
 def getNewIndex():
-    '''public int getNewIndex()
+    '''returns int\n\n
+    getNewIndex()\n
     '''
 def getNewVisibleNodes():
-    '''public IlvHierarchyNode[] getNewVisibleNodes()
+    '''returns IlvHierarchyNode[]\n\n
+    getNewVisibleNodes()\n
     '''
 def getNewRowRange():
-    '''public IlvRowRange getNewRowRange()
+    '''returns IlvRowRange\n\n
+    getNewRowRange()\n
     '''

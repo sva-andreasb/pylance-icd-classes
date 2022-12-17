@@ -1,31 +1,41 @@
-def TransformClassGloss():
-    '''public TransformClassGloss()
-    public TransformClassGloss(final String s, final int position, final String s2)
+def ():
+    '''returns TransformClassGloss\n\n
+    ()\n
+    (final String s, final int position, final String s2)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getTransformClass():
-    '''public String getTransformClass()
+    '''returns String\n\n
+    getTransformClass()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def getAltLemma():
-    '''public String getAltLemma()
+    '''returns String\n\n
+    getAltLemma()\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,4 +1,5 @@
-def PolicyViolationException():
-    '''public PolicyViolationException(final String message)
-    public PolicyViolationException(final String message, final Throwable cause)
+def ():
+    '''returns PolicyViolationException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

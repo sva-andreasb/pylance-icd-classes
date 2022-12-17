@@ -1,9 +1,12 @@
 def testImportFromFileStringBoolean():
-    '''public void testImportFromFileStringBoolean()
+    '''returns None\n\n
+    testImportFromFileStringBoolean()\n
     '''
 def testImportFromFileListStringBoolean():
-    '''public void testImportFromFileListStringBoolean()
+    '''returns None\n\n
+    testImportFromFileListStringBoolean()\n
     '''
 def testImportFromDirectoryString():
-    '''public void testImportFromDirectoryString()
+    '''returns None\n\n
+    testImportFromDirectoryString()\n
     '''

@@ -1,6 +1,8 @@
-def SKDODMERun():
-    '''public SKDODMERun(final MboSet ms)
+def ():
+    '''returns SKDODMERun\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

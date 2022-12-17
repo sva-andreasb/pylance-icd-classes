@@ -1,29 +1,29 @@
-def OS():
-    '''public OS(final CharSequence csq, final Charset charset, final int capacity)
-    public OS(final CharSequence charSequence, final String charsetName, final int n)
-    public OS(final CharSequence charSequence, final Charset charset)
-    public OS(final CharSequence charSequence, final String s)
+def ():
+    '''returns OS\n\n
+    (final CharSequence csq, final Charset charset, final int capacity)\n
+    (final CharSequence charSequence, final String charsetName, final int n)\n
+    (final CharSequence charSequence, final Charset charset)\n
+    (final CharSequence charSequence, final String s)\n
     '''
 def read():
-    '''public int read(final byte[] b, int off, int len)
-    public int read()
-    public int read(final byte[] b)
+    '''returns int\n\n
+    read(final byte[] b, int off, int len)\n
+    read()\n
+    read(final byte[] b)\n
     '''
 def skip():
-    '''public long skip(long n)
+    '''returns long\n\n
+    skip(long n)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

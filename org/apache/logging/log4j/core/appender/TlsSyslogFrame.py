@@ -1,15 +1,20 @@
-def TlsSyslogFrame():
-    '''public TlsSyslogFrame(final String message)
+def ():
+    '''returns TlsSyslogFrame\n\n
+    (final String message)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

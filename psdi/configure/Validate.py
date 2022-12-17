@@ -1,88 +1,103 @@
-def Validate():
-    '''public Validate()
-    public Validate(final MXServer server)
+def ():
+    '''returns Validate\n\n
+    ()\n
+    (final MXServer server)\n
     '''
 def process():
-    '''public void process()
-    '''
-def getIntRepair():
-    '''public final boolean getIntRepair()
+    '''returns None\n\n
+    process()\n
     '''
 def doSql():
-    '''public void doSql(final AbstractList list)
+    '''returns None\n\n
+    doSql(final AbstractList list)\n
     '''
 def doSqlCount():
-    '''public int doSqlCount(final String sql)
+    '''returns int\n\n
+    doSqlCount(final String sql)\n
     '''
 def logWarning():
-    '''public void logWarning(final String msg, final AbstractList list)
-    public final void logWarning(final String msg)
+    '''returns None\n\n
+    logWarning(final String msg, final AbstractList list)\n
     '''
 def logError():
-    '''public void logError(final String msg, final AbstractList list)
+    '''returns None\n\n
+    logError(final String msg, final AbstractList list)\n
     '''
 def doSqlTruncate():
-    '''public void doSqlTruncate(final String tableName)
-    '''
-def sameVersion():
-    '''public static boolean sameVersion(final String needVersion, final String haveVersion)
+    '''returns None\n\n
+    doSqlTruncate(final String tableName)\n
     '''
 def errorsFound():
-    '''public boolean errorsFound()
+    '''returns boolean\n\n
+    errorsFound()\n
     '''
 def warningsFound():
-    '''public boolean warningsFound()
+    '''returns boolean\n\n
+    warningsFound()\n
     '''
 def setUpgradeCallout():
-    '''public void setUpgradeCallout(final String val)
+    '''returns None\n\n
+    setUpgradeCallout(final String val)\n
     '''
 def setRoot():
-    '''public void setRoot(final Element root)
+    '''returns None\n\n
+    setRoot(final Element root)\n
     '''
 def validateCallout():
-    '''public void validateCallout(String methodName, final String methodPlace, String objectname)
+    '''returns None\n\n
+    validateCallout(String methodName, final String methodPlace, String objectname)\n
     '''
 def endSetupInstance():
-    '''public void endSetupInstance(final String outdir, final String outfile, final HashMap params)
+    '''returns None\n\n
+    endSetupInstance(final String outdir, final String outfile, final HashMap params)\n
     '''
 def endProcessInstance():
-    '''public void endProcessInstance()
+    '''returns None\n\n
+    endProcessInstance()\n
     '''
 def setupInstance():
-    '''public void setupInstance(final HashMap params)
+    '''returns None\n\n
+    setupInstance(final HashMap params)\n
     '''
 def setup():
-    '''public void setup(final HashMap params)
+    '''returns None\n\n
+    setup(final HashMap params)\n
     '''
 def getListStream():
-    '''public PrintStream getListStream()
+    '''returns PrintStream\n\n
+    getListStream()\n
     '''
 def setValidateLogger():
-    '''public void setValidateLogger(final PrintStream os, final PrintStream ls)
+    '''returns None\n\n
+    setValidateLogger(final PrintStream os, final PrintStream ls)\n
     '''
 def getValidateLogger():
-    '''public ValidateLogger getValidateLogger()
+    '''returns ValidateLogger\n\n
+    getValidateLogger()\n
     '''
 def endProcess():
-    '''public void endProcess(final boolean errors)
-    '''
-def main():
-    '''public static void main(final String[] argv)
+    '''returns None\n\n
+    endProcess(final boolean errors)\n
     '''
 def getDisplayMessage():
-    '''public String getDisplayMessage(final String errorkey)
+    '''returns String\n\n
+    getDisplayMessage(final String errorkey)\n
     '''
 def report():
-    '''public void report(final Report report)
+    '''returns None\n\n
+    report(final Report report)\n
     '''
 def needLength():
-    '''public boolean needLength(final String maxtype)
-    public boolean needLength(String dataType)
+    '''returns boolean\n\n
+    needLength(final String maxtype)\n
+    needLength(String dataType)\n
     '''
 def needScale():
-    '''public boolean needScale(final String maxtype)
-    public boolean needScale(String dataType)
+    '''returns boolean\n\n
+    needScale(final String maxtype)\n
+    needScale(String dataType)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''

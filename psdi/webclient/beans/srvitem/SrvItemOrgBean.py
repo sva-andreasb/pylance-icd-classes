@@ -1,6 +1,8 @@
 def srvorgstatus():
-    '''public int srvorgstatus()
+    '''returns int\n\n
+    srvorgstatus()\n
     '''
 def iorghistory():
-    '''public int iorghistory()
+    '''returns int\n\n
+    iorghistory()\n
     '''

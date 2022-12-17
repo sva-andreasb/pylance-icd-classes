@@ -1,40 +1,36 @@
-def LinearSegment():
-    '''public LinearSegment(final double start, final double end, final String attributeName, final Object value)
+def ():
+    '''returns LinearSegment\n\n
+    (final double start, final double end, final String attributeName, final Object value)\n
     '''
 def getStart():
-    '''public double getStart()
+    '''returns double\n\n
+    getStart()\n
     '''
 def getEnd():
-    '''public double getEnd()
+    '''returns double\n\n
+    getEnd()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def attributeNames():
-    '''public Set<String> attributeNames()
+    '''returns Set<String>\n\n
+    attributeNames()\n
     '''
 def startBefore():
-    '''public boolean startBefore(final LinearSegment linear)
+    '''returns boolean\n\n
+    startBefore(final LinearSegment linear)\n
     '''
 def endBefore():
-    '''public boolean endBefore(final LinearSegment linear)
+    '''returns boolean\n\n
+    endBefore(final LinearSegment linear)\n
     '''
 def intersect():
-    '''public boolean intersect(final LinearSegment linear)
-    '''
-def intersection():
-    '''public static LinearSegment intersection(final LinearSegment l1, final LinearSegment l2)
-    '''
-def substraction():
-    '''public static List<LinearSegment> substraction(final LinearSegment l1, final LinearSegment l2)
-    '''
-def aggregate():
-    '''public static List<LinearSegment> aggregate(final LinearSegment... segments)
-    public static List<LinearSegment> aggregate(final List<LinearSegment> segments)
+    '''returns boolean\n\n
+    intersect(final LinearSegment linear)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    toString()\n
     '''

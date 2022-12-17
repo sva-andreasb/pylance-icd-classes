@@ -1,17 +1,22 @@
-def ParseException():
-    '''public ParseException(final String message, final int line, final int column)
-    public ParseException(final Exception e)
-    public ParseException(final String message, final Exception e)
+def ():
+    '''returns ParseException\n\n
+    (final String message, final int line, final int column)\n
+    (final Exception e)\n
+    (final String message, final Exception e)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''

@@ -1,15 +1,20 @@
-def ManualProxyHandler():
-    '''public ManualProxyHandler()
+def ():
+    '''returns ManualProxyHandler\n\n
+    ()\n
     '''
 def isSupported():
-    '''public boolean isSupported(final int n)
+    '''returns boolean\n\n
+    isSupported(final int n)\n
     '''
 def isProxyCacheSupported():
-    '''public boolean isProxyCacheSupported()
+    '''returns boolean\n\n
+    isProxyCacheSupported()\n
     '''
 def init():
-    '''public void init(final BrowserProxyInfo bpi)
+    '''returns None\n\n
+    init(final BrowserProxyInfo bpi)\n
     '''
 def getProxyInfo():
-    '''public ProxyInfo[] getProxyInfo(final URL url)
+    '''returns ProxyInfo[]\n\n
+    getProxyInfo(final URL url)\n
     '''

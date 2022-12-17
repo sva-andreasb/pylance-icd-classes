@@ -1,4 +1,5 @@
-def InvalidLineNumberException():
-    '''public InvalidLineNumberException()
-    public InvalidLineNumberException(final String message)
+def ():
+    '''returns InvalidLineNumberException\n\n
+    ()\n
+    (final String message)\n
     '''

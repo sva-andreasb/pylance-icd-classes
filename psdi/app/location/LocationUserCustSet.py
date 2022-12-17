@@ -1,3 +1,4 @@
-def LocationUserCustSet():
-    '''public LocationUserCustSet(final MboServerInterface ms)
+def ():
+    '''returns LocationUserCustSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,6 +1,8 @@
-def FldEmailAddress():
-    '''public FldEmailAddress(final MboValue mbv)
+def ():
+    '''returns FldEmailAddress\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

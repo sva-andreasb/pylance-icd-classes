@@ -1,12 +1,16 @@
-def GETSTATIC():
-    '''public GETSTATIC(final int index)
+def ():
+    '''returns GETSTATIC\n\n
+    (final int index)\n
     '''
 def produceStack():
-    '''public int produceStack(final ConstantPoolGen cpg)
+    '''returns int\n\n
+    produceStack(final ConstantPoolGen cpg)\n
     '''
 def getExceptions():
-    '''public Class[] getExceptions()
+    '''returns Class[]\n\n
+    getExceptions()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

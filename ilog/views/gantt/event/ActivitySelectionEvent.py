@@ -1,6 +1,8 @@
-def ActivitySelectionEvent():
-    '''public ActivitySelectionEvent(final IlvActivity ilvActivity, final boolean b)
+def ():
+    '''returns ActivitySelectionEvent\n\n
+    (final IlvActivity ilvActivity, final boolean b)\n
     '''
 def getActivity():
-    '''public IlvActivity getActivity()
+    '''returns IlvActivity\n\n
+    getActivity()\n
     '''

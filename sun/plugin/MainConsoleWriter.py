@@ -1,9 +1,12 @@
 def execute():
-    '''public Object execute()
+    '''returns Object\n\n
+    execute()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def enQueue():
-    '''public void enQueue(final byte[] e)
+    '''returns None\n\n
+    enQueue(final byte[] e)\n
     '''

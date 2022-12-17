@@ -1,34 +1,42 @@
-def PMForecastGenSet():
-    '''public PMForecastGenSet(final MboServerInterface ms)
+def ():
+    '''returns BackGroundForecast\n\n
+    (final MboServerInterface ms)\n
+    (final MboSetRemote _pmSet, final NonPersistentMboRemote _paramMbo)\n
     '''
 def getAsyncJobHandlerClassName():
-    '''public String getAsyncJobHandlerClassName()
+    '''returns String\n\n
+    getAsyncJobHandlerClassName()\n
     '''
 def getCompleteWhereClause():
-    '''public String getCompleteWhereClause()
+    '''returns String\n\n
+    getCompleteWhereClause()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getJobName():
-    '''public String getJobName()
+    '''returns String\n\n
+    getJobName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def isImmediate():
-    '''public boolean isImmediate()
+    '''returns boolean\n\n
+    isImmediate()\n
     '''
 def overwriteJobDefault():
-    '''public void overwriteJobDefault(final MboRemote queue)
+    '''returns None\n\n
+    overwriteJobDefault(final MboRemote queue)\n
     '''
 def execute():
-    '''public void execute()
-    public void execute(final MboRemote mbo)
-    '''
-def BackGroundForecast():
-    '''public BackGroundForecast(final MboSetRemote _pmSet, final NonPersistentMboRemote _paramMbo)
+    '''returns None\n\n
+    execute()\n
+    execute(final MboRemote mbo)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

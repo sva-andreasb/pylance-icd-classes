@@ -1,13 +1,17 @@
-def PrefixLines():
-    '''public PrefixLines()
-    public PrefixLines(final Reader in)
+def ():
+    '''returns PrefixLines\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''

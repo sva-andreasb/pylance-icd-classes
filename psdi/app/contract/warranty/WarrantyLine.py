@@ -1,3 +1,4 @@
-def WarrantyLine():
-    '''public WarrantyLine(final MboSet ms)
+def ():
+    '''returns WarrantyLine\n\n
+    (final MboSet ms)\n
     '''

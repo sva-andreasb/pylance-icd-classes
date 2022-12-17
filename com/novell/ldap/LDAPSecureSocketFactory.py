@@ -1,3 +1,4 @@
 def createSocket():
-    '''public Socket createSocket(final String s, final int n)
+    '''returns Socket\n\n
+    createSocket(final String s, final int n)\n
     '''

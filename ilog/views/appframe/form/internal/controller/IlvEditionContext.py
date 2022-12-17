@@ -1,36 +1,48 @@
-def IlvEditionContext():
-    '''public IlvEditionContext(final IlvServicesProvider b)
+def ():
+    '''returns IlvEditionContext\n\n
+    (final IlvServicesProvider b)\n
     '''
 def getServicesProvider():
-    '''public IlvServicesProvider getServicesProvider()
+    '''returns IlvServicesProvider\n\n
+    getServicesProvider()\n
     '''
 def setServicesProvider():
-    '''public IlvServicesProvider setServicesProvider(final IlvServicesProvider b)
+    '''returns IlvServicesProvider\n\n
+    setServicesProvider(final IlvServicesProvider b)\n
     '''
 def getForm():
-    '''public IlvForm getForm()
+    '''returns IlvForm\n\n
+    getForm()\n
     '''
 def setForm():
-    '''public void setForm(final IlvForm c)
+    '''returns None\n\n
+    setForm(final IlvForm c)\n
     '''
 def getFormModel():
-    '''public IlvFormModel getFormModel()
+    '''returns IlvFormModel\n\n
+    getFormModel()\n
     '''
 def setFormModel():
-    '''public void setFormModel(final IlvFormModel d)
+    '''returns None\n\n
+    setFormModel(final IlvFormModel d)\n
     '''
 def getString():
-    '''public String getString(final String s)
+    '''returns String\n\n
+    getString(final String s)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String s, final Object o)
+    '''returns Object\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''

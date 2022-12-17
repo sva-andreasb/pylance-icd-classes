@@ -1,18 +1,16 @@
-def UpdateProcessorTDB():
-    '''public UpdateProcessorTDB(final DatasetGraphTDB graphStore, final UpdateRequest request, final Binding inputBinding)
+def ():
+    '''returns UpdateProcessorTDB\n\n
+    (final DatasetGraphTDB graphStore, final UpdateRequest request, final Binding inputBinding)\n
     '''
 def execute():
-    '''public void execute()
-    '''
-def getFactory():
-    '''public static UpdateProcessorFactory getFactory()
+    '''returns None\n\n
+    execute()\n
     '''
 def accept():
-    '''public boolean accept(final UpdateRequest request, final GraphStore graphStore)
+    '''returns boolean\n\n
+    accept(final UpdateRequest request, final GraphStore graphStore)\n
     '''
 def create():
-    '''public UpdateProcessor create(final UpdateRequest request, final GraphStore graphStore, final Binding inputBinding)
-    '''
-def register():
-    '''public static void register()
+    '''returns UpdateProcessor\n\n
+    create(final UpdateRequest request, final GraphStore graphStore, final Binding inputBinding)\n
     '''

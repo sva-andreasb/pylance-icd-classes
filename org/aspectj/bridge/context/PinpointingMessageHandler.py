@@ -1,70 +1,90 @@
-def PinpointingMessageHandler():
-    '''public PinpointingMessageHandler(final IMessageHandler delegate)
+def ():
+    '''returns PinpointedMessage\n\n
+    (final IMessageHandler delegate)\n
+    (final IMessage delegate, final String pinpoint)\n
     '''
 def handleMessage():
-    '''public boolean handleMessage(final IMessage message)
+    '''returns boolean\n\n
+    handleMessage(final IMessage message)\n
     '''
 def isIgnoring():
-    '''public boolean isIgnoring(final IMessage.Kind kind)
+    '''returns boolean\n\n
+    isIgnoring(final IMessage.Kind kind)\n
     '''
 def dontIgnore():
-    '''public void dontIgnore(final IMessage.Kind kind)
+    '''returns None\n\n
+    dontIgnore(final IMessage.Kind kind)\n
     '''
 def ignore():
-    '''public void ignore(final IMessage.Kind kind)
-    '''
-def PinpointedMessage():
-    '''public PinpointedMessage(final IMessage delegate, final String pinpoint)
+    '''returns None\n\n
+    ignore(final IMessage.Kind kind)\n
     '''
 def getMessage():
-    '''public String getMessage()
-    public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
+    getMessage()\n
     '''
 def getKind():
-    '''public Kind getKind()
+    '''returns Kind\n\n
+    getKind()\n
     '''
 def isError():
-    '''public boolean isError()
+    '''returns boolean\n\n
+    isError()\n
     '''
 def isWarning():
-    '''public boolean isWarning()
+    '''returns boolean\n\n
+    isWarning()\n
     '''
 def isDebug():
-    '''public boolean isDebug()
+    '''returns boolean\n\n
+    isDebug()\n
     '''
 def isInfo():
-    '''public boolean isInfo()
+    '''returns boolean\n\n
+    isInfo()\n
     '''
 def isAbort():
-    '''public boolean isAbort()
+    '''returns boolean\n\n
+    isAbort()\n
     '''
 def isTaskTag():
-    '''public boolean isTaskTag()
+    '''returns boolean\n\n
+    isTaskTag()\n
     '''
 def isFailed():
-    '''public boolean isFailed()
+    '''returns boolean\n\n
+    isFailed()\n
     '''
 def getDeclared():
-    '''public boolean getDeclared()
+    '''returns boolean\n\n
+    getDeclared()\n
     '''
 def getID():
-    '''public int getID()
+    '''returns int\n\n
+    getID()\n
     '''
 def getSourceStart():
-    '''public int getSourceStart()
+    '''returns int\n\n
+    getSourceStart()\n
     '''
 def getSourceEnd():
-    '''public int getSourceEnd()
+    '''returns int\n\n
+    getSourceEnd()\n
     '''
 def getThrown():
-    '''public Throwable getThrown()
+    '''returns Throwable\n\n
+    getThrown()\n
     '''
 def getSourceLocation():
-    '''public ISourceLocation getSourceLocation()
+    '''returns ISourceLocation\n\n
+    getSourceLocation()\n
     '''
 def getDetails():
-    '''public String getDetails()
+    '''returns String\n\n
+    getDetails()\n
     '''
 def getExtraSourceLocations():
-    '''public List getExtraSourceLocations()
+    '''returns List\n\n
+    getExtraSourceLocations()\n
     '''

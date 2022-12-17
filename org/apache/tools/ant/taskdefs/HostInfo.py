@@ -1,12 +1,16 @@
-def HostInfo():
-    '''public HostInfo()
+def ():
+    '''returns HostInfo\n\n
+    ()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String aPrefix)
+    '''returns None\n\n
+    setPrefix(final String aPrefix)\n
     '''
 def setHost():
-    '''public void setHost(final String aHost)
+    '''returns None\n\n
+    setHost(final String aHost)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

@@ -1,35 +1,25 @@
-def registerSASLMechanism():
-    '''public static void registerSASLMechanism(final String name, final Class mClass)
-    '''
-def unregisterSASLMechanism():
-    '''public static void unregisterSASLMechanism(final String name)
-    '''
-def supportSASLMechanism():
-    '''public static void supportSASLMechanism(final String name)
-    public static void supportSASLMechanism(final String name, final int index)
-    '''
-def unsupportSASLMechanism():
-    '''public static void unsupportSASLMechanism(final String name)
-    '''
-def getRegisterSASLMechanisms():
-    '''public static List<Class> getRegisterSASLMechanisms()
-    '''
 def hasAnonymousAuthentication():
-    '''public boolean hasAnonymousAuthentication()
+    '''returns boolean\n\n
+    hasAnonymousAuthentication()\n
     '''
 def hasNonAnonymousAuthentication():
-    '''public boolean hasNonAnonymousAuthentication()
+    '''returns boolean\n\n
+    hasNonAnonymousAuthentication()\n
     '''
 def authenticate():
-    '''public String authenticate(final String username, final String resource, final CallbackHandler cbh)
-    public String authenticate(final String username, final String password, final String resource)
+    '''returns String\n\n
+    authenticate(final String username, final String resource, final CallbackHandler cbh)\n
+    authenticate(final String username, final String password, final String resource)\n
     '''
 def authenticateAnonymously():
-    '''public String authenticateAnonymously()
+    '''returns String\n\n
+    authenticateAnonymously()\n
     '''
 def isAuthenticated():
-    '''public boolean isAuthenticated()
+    '''returns boolean\n\n
+    isAuthenticated()\n
     '''
 def send():
-    '''public void send(final Packet stanza)
+    '''returns None\n\n
+    send(final Packet stanza)\n
     '''

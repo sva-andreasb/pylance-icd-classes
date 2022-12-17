@@ -1,6 +1,8 @@
-def FldMaxAttributeCfgLocalizable():
-    '''public FldMaxAttributeCfgLocalizable(final MboValue mbv)
+def ():
+    '''returns FldMaxAttributeCfgLocalizable\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

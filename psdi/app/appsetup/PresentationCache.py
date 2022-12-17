@@ -1,32 +1,42 @@
-def PresentationCache():
-    '''public PresentationCache()
+def ():
+    '''returns PresentationCache\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
-    public void init(final MXServer mxs)
+    '''returns None\n\n
+    init()\n
+    init(final MXServer mxs)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def presentationsInvalid():
-    '''public boolean presentationsInvalid()
+    '''returns boolean\n\n
+    presentationsInvalid()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def repLibraryInvalid():
-    '''public boolean repLibraryInvalid()
+    '''returns boolean\n\n
+    repLibraryInvalid()\n
     '''
 def setUISessionCount():
-    '''public void setUISessionCount(final int count)
+    '''returns None\n\n
+    setUISessionCount(final int count)\n
     '''
 def getUISessionCount():
-    '''public int getUISessionCount()
+    '''returns int\n\n
+    getUISessionCount()\n
     '''
 def getDomainLastUpdate():
-    '''public String getDomainLastUpdate(final String domainId)
+    '''returns String\n\n
+    getDomainLastUpdate(final String domainId)\n
     '''

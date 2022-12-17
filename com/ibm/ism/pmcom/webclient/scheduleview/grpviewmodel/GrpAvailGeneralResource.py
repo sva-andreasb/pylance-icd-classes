@@ -1,51 +1,68 @@
-def GrpAvailGeneralResource():
-    '''public GrpAvailGeneralResource()
+def ():
+    '''returns GrpAvailGeneralResource\n\n
+    ()\n
     '''
 def getObjName():
-    '''public Object getObjName()
+    '''returns Object\n\n
+    getObjName()\n
     '''
 def setObjName():
-    '''public void setObjName(final Object objName)
+    '''returns None\n\n
+    setObjName(final Object objName)\n
     '''
 def getPersonID():
-    '''public String getPersonID()
+    '''returns String\n\n
+    getPersonID()\n
     '''
 def setPersonID():
-    '''public void setPersonID(final String personID)
+    '''returns None\n\n
+    setPersonID(final String personID)\n
     '''
 def getDispName():
-    '''public String getDispName()
+    '''returns String\n\n
+    getDispName()\n
     '''
 def setDispName():
-    '''public void setDispName(final String dispName)
+    '''returns None\n\n
+    setDispName(final String dispName)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getUniueID():
-    '''public String getUniueID()
+    '''returns String\n\n
+    getUniueID()\n
     '''
 def setUniueID():
-    '''public void setUniueID(final String uniueID)
+    '''returns None\n\n
+    setUniueID(final String uniueID)\n
     '''
 def getTag():
-    '''public String getTag()
+    '''returns String\n\n
+    getTag()\n
     '''
 def setTag():
-    '''public void setTag(final String tag)
+    '''returns None\n\n
+    setTag(final String tag)\n
     '''
 def addActivityinList():
-    '''public void addActivityinList(final Object e)
+    '''returns None\n\n
+    addActivityinList(final Object e)\n
     '''
 def getObjectfromList():
-    '''public Object getObjectfromList()
+    '''returns Object\n\n
+    getObjectfromList()\n
     '''
 def getActivitiylist():
-    '''public List<Object> getActivitiylist()
+    '''returns List<Object>\n\n
+    getActivitiylist()\n
     '''
 def setActivitiylist():
-    '''public void setActivitiylist(final List<Object> activitiylist)
+    '''returns None\n\n
+    setActivitiylist(final List<Object> activitiylist)\n
     '''

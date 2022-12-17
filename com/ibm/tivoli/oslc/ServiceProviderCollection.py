@@ -1,9 +1,12 @@
-def ServiceProviderCollection():
-    '''public ServiceProviderCollection(final String uri)
+def ():
+    '''returns ServiceProviderCollection\n\n
+    (final String uri)\n
     '''
 def addServiceProvider():
-    '''public void addServiceProvider(final ServiceProvider serviceProvider)
+    '''returns None\n\n
+    addServiceProvider(final ServiceProvider serviceProvider)\n
     '''
 def asRDFModel():
-    '''public Model asRDFModel()
+    '''returns Model\n\n
+    asRDFModel()\n
     '''

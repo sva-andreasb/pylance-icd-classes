@@ -1,7 +1,9 @@
-def MethodTarget():
-    '''public MethodTarget(final Object targetObject, final Method targetMethod)
-    public MethodTarget(final Object targetObject, final String methodName)
+def ():
+    '''returns MethodTarget\n\n
+    (final Object targetObject, final Method targetMethod)\n
+    (final Object targetObject, final String methodName)\n
     '''
 def set():
-    '''public void set(final Object value)
+    '''returns None\n\n
+    set(final Object value)\n
     '''

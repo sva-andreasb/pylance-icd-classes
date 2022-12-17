@@ -1,30 +1,40 @@
-def BasicManagedEntity():
-    '''public BasicManagedEntity(final HttpEntity entity, final ManagedClientConnection conn, final boolean reuse)
+def ():
+    '''returns BasicManagedEntity\n\n
+    (final HttpEntity entity, final ManagedClientConnection conn, final boolean reuse)\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def consumeContent():
-    '''public void consumeContent()
+    '''returns None\n\n
+    consumeContent()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''
 def releaseConnection():
-    '''public void releaseConnection()
+    '''returns None\n\n
+    releaseConnection()\n
     '''
 def abortConnection():
-    '''public void abortConnection()
+    '''returns None\n\n
+    abortConnection()\n
     '''
 def eofDetected():
-    '''public boolean eofDetected(final InputStream wrapped)
+    '''returns boolean\n\n
+    eofDetected(final InputStream wrapped)\n
     '''
 def streamClosed():
-    '''public boolean streamClosed(final InputStream wrapped)
+    '''returns boolean\n\n
+    streamClosed(final InputStream wrapped)\n
     '''
 def streamAbort():
-    '''public boolean streamAbort(final InputStream wrapped)
+    '''returns boolean\n\n
+    streamAbort(final InputStream wrapped)\n
     '''

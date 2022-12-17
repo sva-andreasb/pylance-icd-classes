@@ -1,31 +1,36 @@
-def unmodifiableBoundedCollection():
-    '''public static <E> BoundedCollection<E> unmodifiableBoundedCollection(final BoundedCollection<? extends E> coll)
-    public static <E> BoundedCollection<E> unmodifiableBoundedCollection(Collection<? extends E> coll)
-    '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def add():
-    '''public boolean add(final E object)
+    '''returns boolean\n\n
+    add(final E object)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
+    '''returns boolean\n\n
+    remove(final Object object)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def maxSize():
-    '''public int maxSize()
+    '''returns int\n\n
+    maxSize()\n
     '''

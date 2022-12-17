@@ -2,54 +2,63 @@ StartStart = "String  \"ss\""
 StartFinish = "String  \"sf\""
 FinishStart = "String  \"fs\""
 FinishFinish = "String  \"ff\""
-def parseAll():
-    '''public static List<Dependency> parseAll(final String in)
-    '''
-def parseOne():
-    '''public static Dependency parseOne(final String in)
-    '''
 def getFrom():
-    '''public String getFrom()
+    '''returns String\n\n
+    getFrom()\n
     '''
 def setFrom():
-    '''public void setFrom(final String from)
+    '''returns None\n\n
+    setFrom(final String from)\n
     '''
 def getTo():
-    '''public String getTo()
+    '''returns String\n\n
+    getTo()\n
     '''
 def setTo():
-    '''public void setTo(final String to)
+    '''returns None\n\n
+    setTo(final String to)\n
     '''
 def getRow():
-    '''public String getRow()
+    '''returns String\n\n
+    getRow()\n
     '''
 def setRow():
-    '''public void setRow(final String row)
+    '''returns None\n\n
+    setRow(final String row)\n
     '''
 def getLag():
-    '''public String getLag()
+    '''returns String\n\n
+    getLag()\n
     '''
 def setLag():
-    '''public void setLag(final String lag)
+    '''returns None\n\n
+    setLag(final String lag)\n
     '''
 def getColor():
-    '''public String getColor()
+    '''returns String\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final String color)
+    '''returns None\n\n
+    setColor(final String color)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

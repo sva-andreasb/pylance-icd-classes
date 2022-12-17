@@ -1,3 +1,4 @@
-def DOMXPath():
-    '''public DOMXPath(final String xpathExpr)
+def ():
+    '''returns DOMXPath\n\n
+    (final String xpathExpr)\n
     '''

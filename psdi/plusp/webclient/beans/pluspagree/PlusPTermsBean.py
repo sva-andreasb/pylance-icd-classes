@@ -1,6 +1,8 @@
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def selectterms():
-    '''public int selectterms()
+    '''returns int\n\n
+    selectterms()\n
     '''

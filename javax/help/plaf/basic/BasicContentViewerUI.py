@@ -1,52 +1,62 @@
-def createUI():
-    '''public static ComponentUI createUI(final JComponent component)
-    '''
-def BasicContentViewerUI():
-    '''public BasicContentViewerUI(final JHelpContentViewer helpContentViewer)
+def ():
+    '''returns ScrollToPosition\n\n
+    (final JHelpContentViewer helpContentViewer)\n
+    (final JEditorPane html, final int pos)\n
     '''
 def setEditorKit():
-    '''public void setEditorKit(final String s, final EditorKit editorKit)
+    '''returns None\n\n
+    setEditorKit(final String s, final EditorKit editorKit)\n
     '''
 def installUI():
-    '''public void installUI(final JComponent component)
+    '''returns None\n\n
+    installUI(final JComponent component)\n
     '''
 def uninstallUI():
-    '''public void uninstallUI(final JComponent component)
+    '''returns None\n\n
+    uninstallUI(final JComponent component)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize(final JComponent component)
+    '''returns Dimension\n\n
+    getPreferredSize(final JComponent component)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMinimumSize(final JComponent component)\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMaximumSize(final JComponent component)\n
     '''
 def idChanged():
-    '''public void idChanged(final HelpModelEvent obj)
+    '''returns None\n\n
+    idChanged(final HelpModelEvent obj)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def hyperlinkUpdate():
-    '''public void hyperlinkUpdate(final HyperlinkEvent hyperlinkEvent)
+    '''returns None\n\n
+    hyperlinkUpdate(final HyperlinkEvent hyperlinkEvent)\n
     '''
 def highlightsChanged():
-    '''public void highlightsChanged(final TextHelpModelEvent textHelpModelEvent)
+    '''returns None\n\n
+    highlightsChanged(final TextHelpModelEvent textHelpModelEvent)\n
     '''
 def getEditorKitForContentType():
-    '''public EditorKit getEditorKitForContentType(final String key)
+    '''returns EditorKit\n\n
+    getEditorKitForContentType(final String key)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def handleStartTag():
-    '''public void handleStartTag(final HTML.Tag tag, final MutableAttributeSet set, final int n)
+    '''returns None\n\n
+    handleStartTag(final HTML.Tag tag, final MutableAttributeSet set, final int n)\n
     '''
 def handleText():
-    '''public void handleText(final char[] value, final int n)
-    '''
-def ScrollToPosition():
-    '''public ScrollToPosition(final JEditorPane html, final int pos)
+    '''returns None\n\n
+    handleText(final char[] value, final int n)\n
     '''

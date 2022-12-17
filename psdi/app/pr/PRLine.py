@@ -1,69 +1,92 @@
-def PRLine():
-    '''public PRLine(final MboSet ms)
+def ():
+    '''returns PRLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def updateCost1s():
-    '''public void updateCost1s()
+    '''returns None\n\n
+    updateCost1s()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def setNullValuesToPOVariables():
-    '''public void setNullValuesToPOVariables()
+    '''returns None\n\n
+    setNullValuesToPOVariables()\n
     '''
 def setNullValuesToContractVariables():
-    '''public void setNullValuesToContractVariables()
+    '''returns None\n\n
+    setNullValuesToContractVariables()\n
     '''
 def canDistribute():
-    '''public void canDistribute()
+    '''returns None\n\n
+    canDistribute()\n
     '''
 def afterAdd():
-    '''public void afterAdd()
+    '''returns None\n\n
+    afterAdd()\n
     '''
 def checkPRCostValidity():
-    '''public void checkPRCostValidity()
+    '''returns None\n\n
+    checkPRCostValidity()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def setVendorItem():
-    '''public void setVendorItem(final boolean value)
+    '''returns None\n\n
+    setVendorItem(final boolean value)\n
     '''
 def getVendorItem():
-    '''public boolean getVendorItem()
+    '''returns boolean\n\n
+    getVendorItem()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def smartFindByObjectName():
-    '''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)\n
     '''

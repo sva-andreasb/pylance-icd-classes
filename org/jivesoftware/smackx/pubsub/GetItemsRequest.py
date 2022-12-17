@@ -1,15 +1,19 @@
-def GetItemsRequest():
-    '''public GetItemsRequest(final String nodeId)
-    public GetItemsRequest(final String nodeId, final String subscriptionId)
-    public GetItemsRequest(final String nodeId, final int maxItemsToReturn)
-    public GetItemsRequest(final String nodeId, final String subscriptionId, final int maxItemsToReturn)
+def ():
+    '''returns GetItemsRequest\n\n
+    (final String nodeId)\n
+    (final String nodeId, final String subscriptionId)\n
+    (final String nodeId, final int maxItemsToReturn)\n
+    (final String nodeId, final String subscriptionId, final int maxItemsToReturn)\n
     '''
 def getSubscriptionId():
-    '''public String getSubscriptionId()
+    '''returns String\n\n
+    getSubscriptionId()\n
     '''
 def getMaxItems():
-    '''public int getMaxItems()
+    '''returns int\n\n
+    getMaxItems()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

@@ -1,3 +1,4 @@
-def KMSInvalidStateException():
-    '''public KMSInvalidStateException(final String message)
+def ():
+    '''returns KMSInvalidStateException\n\n
+    (final String message)\n
     '''

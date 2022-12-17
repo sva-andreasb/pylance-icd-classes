@@ -1,33 +1,44 @@
-def AttendanceSet():
-    '''public AttendanceSet(final MboServerInterface ms)
+def ():
+    '''returns AttendanceSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addToUserPrefWhere():
-    '''public String addToUserPrefWhere()
+    '''returns String\n\n
+    addToUserPrefWhere()\n
     '''
 def setAllDates():
-    '''public void setAllDates(final boolean allDatesAtt)
+    '''returns None\n\n
+    setAllDates(final boolean allDatesAtt)\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date startDateAtt)
+    '''returns None\n\n
+    setStartDate(final Date startDateAtt)\n
     '''
 def setEndDate():
-    '''public void setEndDate(final Date endDateAtt)
+    '''returns None\n\n
+    setEndDate(final Date endDateAtt)\n
     '''
 def getAllDates():
-    '''public boolean getAllDates()
+    '''returns boolean\n\n
+    getAllDates()\n
     '''
 def getStartDate():
-    '''public Date getStartDate()
+    '''returns Date\n\n
+    getStartDate()\n
     '''
 def getEndDate():
-    '''public Date getEndDate()
+    '''returns Date\n\n
+    getEndDate()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def addDates():
-    '''public Date addDates(final Date date, final int days)
+    '''returns Date\n\n
+    addDates(final Date date, final int days)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

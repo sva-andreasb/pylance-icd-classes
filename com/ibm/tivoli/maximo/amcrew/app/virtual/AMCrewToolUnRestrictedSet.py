@@ -1,3 +1,4 @@
-def AMCrewToolUnRestrictedSet():
-    '''public AMCrewToolUnRestrictedSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewToolUnRestrictedSet\n\n
+    (final MboServerInterface ms)\n
     '''

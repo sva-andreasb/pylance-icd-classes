@@ -1,6 +1,8 @@
-def ReconComparatorFactory():
-    '''public ReconComparatorFactory()
+def ():
+    '''returns ReconComparatorFactory\n\n
+    ()\n
     '''
 def getComparator():
-    '''public ReconComparatorI getComparator(final ComparatorContext context, final ComparisonRule compRule)
+    '''returns ReconComparatorI\n\n
+    getComparator(final ComparatorContext context, final ComparisonRule compRule)\n
     '''

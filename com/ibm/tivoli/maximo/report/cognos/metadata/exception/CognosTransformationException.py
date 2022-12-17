@@ -1,5 +1,6 @@
-def CognosTransformationException():
-    '''public CognosTransformationException(final String errorKey, final Throwable throwable)
-    public CognosTransformationException(final String errorKey)
-    public CognosTransformationException(final String errorKey, final Object[] params)
+def ():
+    '''returns CognosTransformationException\n\n
+    (final String errorKey, final Throwable throwable)\n
+    (final String errorKey)\n
+    (final String errorKey, final Object[] params)\n
     '''

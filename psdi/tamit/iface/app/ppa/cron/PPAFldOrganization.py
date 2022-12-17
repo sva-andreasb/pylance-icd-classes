@@ -1,6 +1,8 @@
-def PPAFldOrganization():
-    '''public PPAFldOrganization(final MboValue mbv)
+def ():
+    '''returns PPAFldOrganization\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

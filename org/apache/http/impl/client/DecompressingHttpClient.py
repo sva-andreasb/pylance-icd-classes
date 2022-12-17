@@ -1,23 +1,24 @@
-def DecompressingHttpClient():
-    '''public DecompressingHttpClient()
-    public DecompressingHttpClient(final HttpClient backend)
+def ():
+    '''returns DecompressingHttpClient\n\n
+    ()\n
+    (final HttpClient backend)\n
     '''
 def getParams():
-    '''public HttpParams getParams()
+    '''returns HttpParams\n\n
+    getParams()\n
     '''
 def getConnectionManager():
-    '''public ClientConnectionManager getConnectionManager()
+    '''returns ClientConnectionManager\n\n
+    getConnectionManager()\n
     '''
 def execute():
-    '''public HttpResponse execute(final HttpUriRequest request)
-    public HttpResponse execute(final HttpUriRequest request, final HttpContext context)
-    public HttpResponse execute(final HttpHost target, final HttpRequest request)
-    public HttpResponse execute(final HttpHost target, final HttpRequest request, final HttpContext context)
-    public <T> T execute(final HttpUriRequest request, final ResponseHandler<? extends T> responseHandler)
-    public <T> T execute(final HttpUriRequest request, final ResponseHandler<? extends T> responseHandler, final HttpContext context)
-    public <T> T execute(final HttpHost target, final HttpRequest request, final ResponseHandler<? extends T> responseHandler)
-    public <T> T execute(final HttpHost target, final HttpRequest request, final ResponseHandler<? extends T> responseHandler, final HttpContext context)
+    '''returns HttpResponse\n\n
+    execute(final HttpUriRequest request)\n
+    execute(final HttpUriRequest request, final HttpContext context)\n
+    execute(final HttpHost target, final HttpRequest request)\n
+    execute(final HttpHost target, final HttpRequest request, final HttpContext context)\n
     '''
 def getHttpClient():
-    '''public HttpClient getHttpClient()
+    '''returns HttpClient\n\n
+    getHttpClient()\n
     '''

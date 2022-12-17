@@ -1,3 +1,4 @@
-def WFInteractionSet():
-    '''public WFInteractionSet(final MboServerInterface ms)
+def ():
+    '''returns WFInteractionSet\n\n
+    (final MboServerInterface ms)\n
     '''

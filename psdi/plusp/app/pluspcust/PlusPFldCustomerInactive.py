@@ -1,3 +1,4 @@
-def PlusPFldCustomerInactive():
-    '''public PlusPFldCustomerInactive(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCustomerInactive\n\n
+    (final MboValue mboValue)\n
     '''

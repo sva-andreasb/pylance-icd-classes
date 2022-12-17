@@ -1,9 +1,12 @@
-def PlaintextAuthenticationContext():
-    '''public PlaintextAuthenticationContext(final InetAddress clientAddress)
+def ():
+    '''returns PlaintextAuthenticationContext\n\n
+    (final InetAddress clientAddress)\n
     '''
 def securityProtocol():
-    '''public SecurityProtocol securityProtocol()
+    '''returns SecurityProtocol\n\n
+    securityProtocol()\n
     '''
 def clientAddress():
-    '''public InetAddress clientAddress()
+    '''returns InetAddress\n\n
+    clientAddress()\n
     '''

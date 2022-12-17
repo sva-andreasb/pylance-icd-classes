@@ -1,24 +1,24 @@
-def getInstance():
-    '''public static final DataCleanser getInstance()
-    '''
-def init():
-    '''public synchronized void init()
-    '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def getXMLVersion():
-    '''public String getXMLVersion()
+    '''returns String\n\n
+    getXMLVersion()\n
     '''
 def getXMLFileName():
-    '''public String getXMLFileName()
+    '''returns String\n\n
+    getXMLFileName()\n
     '''
 def setup():
-    '''public void setup(final String filename)
+    '''returns None\n\n
+    setup(final String filename)\n
     '''
 def getTypes():
-    '''public String[] getTypes()
+    '''returns String[]\n\n
+    getTypes()\n
     '''
 def getData():
-    '''public String getData(final String type, final String variant)
+    '''returns String\n\n
+    getData(final String type, final String variant)\n
     '''

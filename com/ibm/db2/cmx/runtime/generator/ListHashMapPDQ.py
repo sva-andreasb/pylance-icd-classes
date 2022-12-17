@@ -1,101 +1,130 @@
-def ListHashMapPDQ():
-    '''public ListHashMapPDQ()
-    public ListHashMapPDQ(final int n)
-    public ListHashMapPDQ(final int n, final float loadFactor)
+def ():
+    '''returns ListHashMapPDQ\n\n
+    ()\n
+    (final int n)\n
+    (final int n, final float loadFactor)\n
     '''
 def add():
-    '''public boolean add(final V v)
-    public void add(final int n, final V v)
+    '''returns None\n\n
+    add(final V v)\n
+    add(final int n, final V v)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends V> collection)
-    public boolean addAll(final int n, final Collection<? extends V> collection)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends V> collection)\n
+    addAll(final int n, final Collection<? extends V> collection)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> collection)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> collection)\n
     '''
 def get():
-    '''public V get(final int n)
-    public V get(final Object key)
-    public V get(final Object... array)
+    '''returns V\n\n
+    get(final int n)\n
+    get(final Object key)\n
+    get(final Object... array)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object o)
+    '''returns int\n\n
+    indexOf(final Object o)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def iterator():
-    '''public Iterator<V> iterator()
+    '''returns Iterator<V>\n\n
+    iterator()\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object o)
+    '''returns int\n\n
+    lastIndexOf(final Object o)\n
     '''
 def listIterator():
-    '''public ListIterator<V> listIterator()
-    public ListIterator<V> listIterator(final int n)
+    '''returns ListIterator<V>\n\n
+    listIterator()\n
+    listIterator(final int n)\n
     '''
 def remove():
-    '''public boolean remove(final Object key)
-    public V remove(final int n)
+    '''returns V\n\n
+    remove(final Object key)\n
+    remove(final int n)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> collection)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> collection)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> collection)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> collection)\n
     '''
 def set():
-    '''public V set(final int n, final V v)
+    '''returns V\n\n
+    set(final int n, final V v)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def subList():
-    '''public List<V> subList(final int n, final int n2)
+    '''returns List<V>\n\n
+    subList(final int n, final int n2)\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] array)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
-    public boolean containsKey(final Object... array)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
+    containsKey(final Object... array)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def put():
-    '''public V put(final K key, final V v)
-    public V put(final K[] array, final V v)
+    '''returns V\n\n
+    put(final K key, final V v)\n
+    put(final K[] array, final V v)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> map)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> map)\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def getLastObjectAdded():
-    '''public V getLastObjectAdded()
+    '''returns V\n\n
+    getLastObjectAdded()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def createCompositeKey():
-    '''public String createCompositeKey(final Object... array)
+    '''returns String\n\n
+    createCompositeKey(final Object... array)\n
     '''

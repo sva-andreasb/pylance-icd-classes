@@ -1,19 +1,25 @@
-def LemmaGloss():
-    '''public LemmaGloss()
-    public LemmaGloss(final String s)
+def ():
+    '''returns LemmaGloss\n\n
+    ()\n
+    (final String s)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

@@ -1,15 +1,20 @@
 def getCite():
-    '''public String getCite()
+    '''returns String\n\n
+    getCite()\n
     '''
 def setCite():
-    '''public void setCite(final String s)
+    '''returns None\n\n
+    setCite(final String s)\n
     '''
 def getDateTime():
-    '''public String getDateTime()
+    '''returns String\n\n
+    getDateTime()\n
     '''
 def setDateTime():
-    '''public void setDateTime(final String s)
+    '''returns None\n\n
+    setDateTime(final String s)\n
     '''
-def HTMLModElementImpl():
-    '''public HTMLModElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLModElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

@@ -1,184 +1,240 @@
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def clearMenus():
-    '''public void clearMenus()
+    '''returns None\n\n
+    clearMenus()\n
     '''
 def togglewebreplay():
-    '''public int togglewebreplay()
+    '''returns int\n\n
+    togglewebreplay()\n
     '''
 def showWebReplay():
-    '''public int showWebReplay()
+    '''returns int\n\n
+    showWebReplay()\n
     '''
 def hideWebReplay():
-    '''public int hideWebReplay()
+    '''returns int\n\n
+    hideWebReplay()\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
     '''
 def remove():
-    '''public Object remove(final Object key)
+    '''returns Object\n\n
+    remove(final Object key)\n
     '''
 def setReloadAutoFillInfo():
-    '''public void setReloadAutoFillInfo(final boolean bool)
+    '''returns None\n\n
+    setReloadAutoFillInfo(final boolean bool)\n
     '''
 def shouldReloadAutoFillInfo():
-    '''public boolean shouldReloadAutoFillInfo()
+    '''returns boolean\n\n
+    shouldReloadAutoFillInfo()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
-def PageInstance():
-    '''public PageInstance()
+def ():
+    '''returns PageInstance\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize(final WebClientSession wcs, final AppInstance ai, final Element page)
+    '''returns None\n\n
+    initialize(final WebClientSession wcs, final AppInstance ai, final Element page)\n
     '''
 def addSharedAttributes():
-    '''public String addSharedAttributes(final UIERMAttribute ermAttr, final String renderId)
+    '''returns String\n\n
+    addSharedAttributes(final UIERMAttribute ermAttr, final String renderId)\n
     '''
 def getIndexForErmName():
-    '''public Integer getIndexForErmName(final UIERMAttribute ermAttr)
+    '''returns Integer\n\n
+    getIndexForErmName(final UIERMAttribute ermAttr)\n
     '''
 def getAutoFillInfo():
-    '''public JSONObject getAutoFillInfo()
+    '''returns JSONObject\n\n
+    getAutoFillInfo()\n
     '''
 def processTabs():
-    '''public void processTabs(final WebClientSession wcs, final Element tabs, final String tabName, final DatasrcInstance parent, final boolean init)
+    '''returns None\n\n
+    processTabs(final WebClientSession wcs, final Element tabs, final String tabName, final DatasrcInstance parent, final boolean init)\n
     '''
 def isThisTabProcessed():
-    '''public boolean isThisTabProcessed(final String tabName)
+    '''returns boolean\n\n
+    isThisTabProcessed(final String tabName)\n
     '''
 def gotoTab():
-    '''public int gotoTab(final String tabType)
+    '''returns int\n\n
+    gotoTab(final String tabType)\n
     '''
 def getBeans():
-    '''public ArrayList<DataBean> getBeans()
+    '''returns ArrayList<DataBean>\n\n
+    getBeans()\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def getAppInstance():
-    '''public AppInstance getAppInstance()
+    '''returns AppInstance\n\n
+    getAppInstance()\n
     '''
 def createControlInstances():
-    '''public void createControlInstances(final Element element, final ControlInstance parent)
-    public void createControlInstances(final Element element, final ControlInstance parent, final int index)
+    '''returns None\n\n
+    createControlInstances(final Element element, final ControlInstance parent)\n
+    createControlInstances(final Element element, final ControlInstance parent, final int index)\n
     '''
 def createRuntimeControlInstance():
-    '''public ControlInstance createRuntimeControlInstance(final String id, final String type, final ControlInstance parent)
+    '''returns ControlInstance\n\n
+    createRuntimeControlInstance(final String id, final String type, final ControlInstance parent)\n
     '''
 def createDesignerControlInstances():
-    '''public void createDesignerControlInstances(final Element element, final ControlInstance parent)
-    public String createDesignerControlInstances(final Element element, final ControlInstance parent, final int idx)
+    '''returns String\n\n
+    createDesignerControlInstances(final Element element, final ControlInstance parent)\n
+    createDesignerControlInstances(final Element element, final ControlInstance parent, final int idx)\n
     '''
 def copyDesignerControlInstances():
-    '''public String copyDesignerControlInstances(final ControlInstance original, final ControlInstance parent, final int idx)
+    '''returns String\n\n
+    copyDesignerControlInstances(final ControlInstance original, final ControlInstance parent, final int idx)\n
     '''
 def createControlInstance():
-    '''public ControlInstance createControlInstance(final Element element, final ControlInstance parent)
-    public ControlInstance createControlInstance(final Element element, final ControlInstance parent, final int index)
+    '''returns ControlInstance\n\n
+    createControlInstance(final Element element, final ControlInstance parent)\n
+    createControlInstance(final Element element, final ControlInstance parent, final int index)\n
     '''
 def getControlInstance():
-    '''public ControlInstance getControlInstance(final String id)
+    '''returns ControlInstance\n\n
+    getControlInstance(final String id)\n
     '''
 def setControlInstance():
-    '''public void setControlInstance(final String id, final BaseInstance ci)
+    '''returns None\n\n
+    setControlInstance(final String id, final BaseInstance ci)\n
     '''
 def getComponentInstance():
-    '''public ComponentInstance getComponentInstance(final String id)
+    '''returns ComponentInstance\n\n
+    getComponentInstance(final String id)\n
     '''
 def setComponentInstance():
-    '''public void setComponentInstance(final String id, final BaseInstance coi)
+    '''returns None\n\n
+    setComponentInstance(final String id, final BaseInstance coi)\n
     '''
 def stopFocus():
-    '''public void stopFocus()
+    '''returns None\n\n
+    stopFocus()\n
     '''
 def focus():
-    '''public boolean focus()
+    '''returns boolean\n\n
+    focus()\n
     '''
 def focusOnLast():
-    '''public void focusOnLast()
+    '''returns None\n\n
+    focusOnLast()\n
     '''
 def removeControl():
-    '''public boolean removeControl(final String id)
+    '''returns boolean\n\n
+    removeControl(final String id)\n
     '''
 def setMarkForDesigner():
-    '''public void setMarkForDesigner(final boolean flag)
+    '''returns None\n\n
+    setMarkForDesigner(final boolean flag)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def addControlInstanceToIndex():
-    '''public void addControlInstanceToIndex(final String id, final ControlInstance controlInst)
+    '''returns None\n\n
+    addControlInstanceToIndex(final String id, final ControlInstance controlInst)\n
     '''
 def getMenuHandlerId():
-    '''public String getMenuHandlerId()
+    '''returns String\n\n
+    getMenuHandlerId()\n
     '''
 def getFocusableList():
-    '''public ArrayList<ComponentInstance> getFocusableList()
+    '''returns ArrayList<ComponentInstance>\n\n
+    getFocusableList()\n
     '''
 def getFocusRenderId():
-    '''public String getFocusRenderId()
-    public String getFocusRenderId(final boolean last)
+    '''returns String\n\n
+    getFocusRenderId()\n
+    getFocusRenderId(final boolean last)\n
     '''
 def resetwizard():
-    '''public int resetwizard()
+    '''returns int\n\n
+    resetwizard()\n
     '''
 def toggleViewport():
-    '''public void toggleViewport()
+    '''returns None\n\n
+    toggleViewport()\n
     '''
 def showViewport():
-    '''public boolean showViewport()
+    '''returns boolean\n\n
+    showViewport()\n
     '''
 def removeAttributeError():
-    '''public void removeAttributeError(final ERMAttributeError attributeError)
+    '''returns None\n\n
+    removeAttributeError(final ERMAttributeError attributeError)\n
     '''
 def setAttributeError():
-    '''public void setAttributeError(final ERMAttributeError attributeError)
+    '''returns None\n\n
+    setAttributeError(final ERMAttributeError attributeError)\n
     '''
 def getErrorLevel():
-    '''public int getErrorLevel()
+    '''returns int\n\n
+    getErrorLevel()\n
     '''
 def addChangedErrorContainer():
-    '''public void addChangedErrorContainer(final String id, final String errorType)
-    '''
-def getChangedErrorContainers():
-    '''public Map<String, String> getChangedErrorContainers()
+    '''returns None\n\n
+    addChangedErrorContainer(final String id, final String errorType)\n
     '''
 def clearChangedErrorContainers():
-    '''public void clearChangedErrorContainers()
+    '''returns None\n\n
+    clearChangedErrorContainers()\n
     '''
 def addDataStoreForAutoFill():
-    '''public void addDataStoreForAutoFill(final DataStoreInfo dataStoreInfo)
+    '''returns None\n\n
+    addDataStoreForAutoFill(final DataStoreInfo dataStoreInfo)\n
     '''
 def getPageAutoFillId():
-    '''public String getPageAutoFillId()
+    '''returns String\n\n
+    getPageAutoFillId()\n
     '''
 def setPageAutoFillId():
-    '''public void setPageAutoFillId(final String autoFillId)
+    '''returns None\n\n
+    setPageAutoFillId(final String autoFillId)\n
     '''
 def addDataBeanToSiteOrgList():
-    '''public void addDataBeanToSiteOrgList(final DataBean dataBean)
+    '''returns None\n\n
+    addDataBeanToSiteOrgList(final DataBean dataBean)\n
     '''
 def setMainTab():
-    '''public void setMainTab(final String tabGroupId)
+    '''returns None\n\n
+    setMainTab(final String tabGroupId)\n
     '''
 def getMainTabId():
-    '''public String getMainTabId()
+    '''returns String\n\n
+    getMainTabId()\n
     '''
 def setDialogDataStores():
-    '''public void setDialogDataStores(final List<DataStoreInfo> createdDataStores)
+    '''returns None\n\n
+    setDialogDataStores(final List<DataStoreInfo> createdDataStores)\n
     '''
 def getDialogDataStores():
-    '''public List<DataStoreInfo> getDialogDataStores()
+    '''returns List<DataStoreInfo>\n\n
+    getDialogDataStores()\n
     '''
 def isLookup():
-    '''public boolean isLookup()
+    '''returns boolean\n\n
+    isLookup()\n
     '''
 def clearFocusContainer():
-    '''public void clearFocusContainer()
+    '''returns None\n\n
+    clearFocusContainer()\n
     '''

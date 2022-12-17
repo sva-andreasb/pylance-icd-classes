@@ -1,33 +1,42 @@
-def FromCellsOptions():
-    '''public FromCellsOptions()
-    public FromCellsOptions(final int page)
-    public FromCellsOptions(final FileType sourceFileType)
-    public FromCellsOptions(final FileType sourceFileType, final int worksheetIndex)
-    public FromCellsOptions(final FileType sourceFileType, final int worksheetIndex, final int page)
-    public FromCellsOptions(final FileType sourceFileType, final boolean isSplitIntoPages, final int worksheetIndex)
-    public FromCellsOptions(final FileType sourceFileType, final boolean isSplitIntoPages, final int worksheetIndex, final int page)
+def ():
+    '''returns FromCellsOptions\n\n
+    ()\n
+    (final int page)\n
+    (final FileType sourceFileType)\n
+    (final FileType sourceFileType, final int worksheetIndex)\n
+    (final FileType sourceFileType, final int worksheetIndex, final int page)\n
+    (final FileType sourceFileType, final boolean isSplitIntoPages, final int worksheetIndex)\n
+    (final FileType sourceFileType, final boolean isSplitIntoPages, final int worksheetIndex, final int page)\n
     '''
 def getSourceFileType():
-    '''public FileType getSourceFileType()
+    '''returns FileType\n\n
+    getSourceFileType()\n
     '''
 def setSourceFileType():
-    '''public void setSourceFileType(final FileType sourceFileType)
+    '''returns None\n\n
+    setSourceFileType(final FileType sourceFileType)\n
     '''
 def isSplitIntoPages():
-    '''public boolean isSplitIntoPages()
+    '''returns boolean\n\n
+    isSplitIntoPages()\n
     '''
 def setIsSplitIntoPages():
-    '''public void setIsSplitIntoPages(final boolean isSplitIntoPages)
+    '''returns None\n\n
+    setIsSplitIntoPages(final boolean isSplitIntoPages)\n
     '''
 def getWorksheetIndex():
-    '''public int getWorksheetIndex()
+    '''returns int\n\n
+    getWorksheetIndex()\n
     '''
 def setWorksheetIndex():
-    '''public void setWorksheetIndex(final int worksheetIndex)
+    '''returns None\n\n
+    setWorksheetIndex(final int worksheetIndex)\n
     '''
 def getPage():
-    '''public int getPage()
+    '''returns int\n\n
+    getPage()\n
     '''
 def setPage():
-    '''public void setPage(final int page)
+    '''returns None\n\n
+    setPage(final int page)\n
     '''

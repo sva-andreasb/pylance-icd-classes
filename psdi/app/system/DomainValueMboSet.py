@@ -1,3 +1,4 @@
-def DomainValueMboSet():
-    '''public DomainValueMboSet(final MboServerInterface ms)
+def ():
+    '''returns DomainValueMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

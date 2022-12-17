@@ -1,12 +1,16 @@
-def ParameterizedTarget():
-    '''public ParameterizedTarget(final String s, final Principal principal, final String s2, final String s3, final String s4, final String s5)
+def ():
+    '''returns ParameterizedTarget\n\n
+    (final String s, final Principal principal, final String s2, final String s3, final String s4, final String s5)\n
     '''
 def getDetailedInfo():
-    '''public String getDetailedInfo(final Object o)
+    '''returns String\n\n
+    getDetailedInfo(final Object o)\n
     '''
 def enablePrivilege():
-    '''public Privilege enablePrivilege(final Principal principal, final Object o)
+    '''returns Privilege\n\n
+    enablePrivilege(final Principal principal, final Object o)\n
     '''
 def checkPrivilegeEnabled():
-    '''public Privilege checkPrivilegeEnabled(final Principal[] array, final Object o)
+    '''returns Privilege\n\n
+    checkPrivilegeEnabled(final Principal[] array, final Object o)\n
     '''

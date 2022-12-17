@@ -1,21 +1,28 @@
-def Bookmark():
-    '''public Bookmark(final MboSet ms)
+def ():
+    '''returns Bookmark\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getKeyMbo():
-    '''public MboRemote getKeyMbo()
+    '''returns MboRemote\n\n
+    getKeyMbo()\n
     '''
 def getKeyDescription():
-    '''public String getKeyDescription()
+    '''returns String\n\n
+    getKeyDescription()\n
     '''

@@ -1,21 +1,28 @@
 def createAutoShape():
-    '''public XSLFAutoShape createAutoShape()
+    '''returns XSLFAutoShape\n\n
+    createAutoShape()\n
     '''
 def createFreeform():
-    '''public XSLFFreeformShape createFreeform()
+    '''returns XSLFFreeformShape\n\n
+    createFreeform()\n
     '''
 def createTextBox():
-    '''public XSLFTextBox createTextBox()
+    '''returns XSLFTextBox\n\n
+    createTextBox()\n
     '''
 def createConnector():
-    '''public XSLFConnectorShape createConnector()
+    '''returns XSLFConnectorShape\n\n
+    createConnector()\n
     '''
 def createGroup():
-    '''public XSLFGroupShape createGroup()
+    '''returns XSLFGroupShape\n\n
+    createGroup()\n
     '''
 def createPicture():
-    '''public XSLFPictureShape createPicture(final String rel)
+    '''returns XSLFPictureShape\n\n
+    createPicture(final String rel)\n
     '''
 def createTable():
-    '''public XSLFTable createTable()
+    '''returns XSLFTable\n\n
+    createTable()\n
     '''

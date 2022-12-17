@@ -1,12 +1,12 @@
-def SdkJsonProtocolFactory():
-    '''public SdkJsonProtocolFactory(final JsonClientMetadata metadata)
+def ():
+    '''returns SdkJsonProtocolFactory\n\n
+    (final JsonClientMetadata metadata)\n
     '''
 def createGenerator():
-    '''public StructuredJsonGenerator createGenerator()
-    '''
-def createResponseHandler():
-    '''public <T> HttpResponseHandler<AmazonWebServiceResponse<T>> createResponseHandler(final JsonOperationMetadata operationMetadata, final Unmarshaller<T, JsonUnmarshallerContext> responseUnmarshaller)
+    '''returns StructuredJsonGenerator\n\n
+    createGenerator()\n
     '''
 def createErrorResponseHandler():
-    '''public HttpResponseHandler<AmazonServiceException> createErrorResponseHandler(final JsonErrorResponseMetadata errorResponsMetadata)
+    '''returns HttpResponseHandler<AmazonServiceException>\n\n
+    createErrorResponseHandler(final JsonErrorResponseMetadata errorResponsMetadata)\n
     '''

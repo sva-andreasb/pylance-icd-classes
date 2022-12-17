@@ -1,59 +1,76 @@
-def DateTimeParserBucket():
-    '''public DateTimeParserBucket(final long n, final Chronology chronology, final Locale locale)
-    public DateTimeParserBucket(final long n, final Chronology chronology, final Locale locale, final Integer n2)
-    public DateTimeParserBucket(final long iMillis, Chronology chronology, final Locale locale, final Integer iDefaultPivotYear, final int iDefaultYear)
+def ():
+    '''returns DateTimeParserBucket\n\n
+    (final long n, final Chronology chronology, final Locale locale)\n
+    (final long n, final Chronology chronology, final Locale locale, final Integer n2)\n
+    (final long iMillis, Chronology chronology, final Locale locale, final Integer iDefaultPivotYear, final int iDefaultYear)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def parseMillis():
-    '''public long parseMillis(final DateTimeParser dateTimeParser, final CharSequence charSequence)
+    '''returns long\n\n
+    parseMillis(final DateTimeParser dateTimeParser, final CharSequence charSequence)\n
     '''
 def getChronology():
-    '''public Chronology getChronology()
+    '''returns Chronology\n\n
+    getChronology()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getZone():
-    '''public DateTimeZone getZone()
+    '''returns DateTimeZone\n\n
+    getZone()\n
     '''
 def setZone():
-    '''public void setZone(final DateTimeZone iZone)
+    '''returns None\n\n
+    setZone(final DateTimeZone iZone)\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''
 def getOffsetInteger():
-    '''public Integer getOffsetInteger()
+    '''returns Integer\n\n
+    getOffsetInteger()\n
     '''
 def setOffset():
-    '''public void setOffset(final int i)
-    public void setOffset(final Integer iOffset)
+    '''returns None\n\n
+    setOffset(final int i)\n
+    setOffset(final Integer iOffset)\n
     '''
 def getPivotYear():
-    '''public Integer getPivotYear()
+    '''returns Integer\n\n
+    getPivotYear()\n
     '''
 def setPivotYear():
-    '''public void setPivotYear(final Integer iPivotYear)
+    '''returns None\n\n
+    setPivotYear(final Integer iPivotYear)\n
     '''
 def saveField():
-    '''public void saveField(final DateTimeField dateTimeField, final int n)
-    public void saveField(final DateTimeFieldType dateTimeFieldType, final int n)
-    public void saveField(final DateTimeFieldType dateTimeFieldType, final String s, final Locale locale)
+    '''returns None\n\n
+    saveField(final DateTimeField dateTimeField, final int n)\n
+    saveField(final DateTimeFieldType dateTimeFieldType, final int n)\n
+    saveField(final DateTimeFieldType dateTimeFieldType, final String s, final Locale locale)\n
     '''
 def saveState():
-    '''public Object saveState()
+    '''returns Object\n\n
+    saveState()\n
     '''
 def restoreState():
-    '''public boolean restoreState(final Object iSavedState)
+    '''returns boolean\n\n
+    restoreState(final Object iSavedState)\n
     '''
 def computeMillis():
-    '''public long computeMillis()
-    public long computeMillis(final boolean b)
-    public long computeMillis(final boolean b, final String s)
-    public long computeMillis(final boolean b, final CharSequence charSequence)
+    '''returns long\n\n
+    computeMillis()\n
+    computeMillis(final boolean b)\n
+    computeMillis(final boolean b, final String s)\n
+    computeMillis(final boolean b, final CharSequence charSequence)\n
     '''
 def compareTo():
-    '''public int compareTo(final SavedField savedField)
+    '''returns int\n\n
+    compareTo(final SavedField savedField)\n
     '''

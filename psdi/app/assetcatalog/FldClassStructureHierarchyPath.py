@@ -1,21 +1,28 @@
-def FldClassStructureHierarchyPath():
-    '''public FldClassStructureHierarchyPath(final MboValue mbv)
+def ():
+    '''returns FldClassStructureHierarchyPath\n\n
+    (final MboValue mbv)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String sourceObj, String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String sourceObj, String value, final boolean exact)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def isAppNoSAVE():
-    '''public boolean isAppNoSAVE()
+    '''returns boolean\n\n
+    isAppNoSAVE()\n
     '''
 def getAppOwner():
-    '''public MboRemote getAppOwner(final MboRemote currentOwner)
+    '''returns MboRemote\n\n
+    getAppOwner(final MboRemote currentOwner)\n
     '''

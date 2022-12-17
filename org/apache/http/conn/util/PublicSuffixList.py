@@ -1,13 +1,17 @@
-def PublicSuffixList():
-    '''public PublicSuffixList(final DomainType type, final List<String> rules, final List<String> exceptions)
-    public PublicSuffixList(final List<String> rules, final List<String> exceptions)
+def ():
+    '''returns PublicSuffixList\n\n
+    (final DomainType type, final List<String> rules, final List<String> exceptions)\n
+    (final List<String> rules, final List<String> exceptions)\n
     '''
 def getType():
-    '''public DomainType getType()
+    '''returns DomainType\n\n
+    getType()\n
     '''
 def getRules():
-    '''public List<String> getRules()
+    '''returns List<String>\n\n
+    getRules()\n
     '''
 def getExceptions():
-    '''public List<String> getExceptions()
+    '''returns List<String>\n\n
+    getExceptions()\n
     '''

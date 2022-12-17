@@ -1,18 +1,23 @@
-def DefaultKeyValue():
-    '''public DefaultKeyValue()
-    public DefaultKeyValue(final K key, final V value)
-    public DefaultKeyValue(final KeyValue<? extends K, ? extends V> pair)
-    public DefaultKeyValue(final Map.Entry<? extends K, ? extends V> entry)
+def ():
+    '''returns DefaultKeyValue\n\n
+    ()\n
+    (final K key, final V value)\n
+    (final KeyValue<? extends K, ? extends V> pair)\n
+    (final Map.Entry<? extends K, ? extends V> entry)\n
     '''
 def setKey():
-    '''public K setKey(final K key)
+    '''returns K\n\n
+    setKey(final K key)\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

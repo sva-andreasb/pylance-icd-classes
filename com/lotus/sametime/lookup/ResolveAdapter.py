@@ -1,9 +1,12 @@
 def resolved():
-    '''public void resolved(final ResolveEvent resolveEvent)
+    '''returns None\n\n
+    resolved(final ResolveEvent resolveEvent)\n
     '''
 def resolveConflict():
-    '''public void resolveConflict(final ResolveEvent resolveEvent)
+    '''returns None\n\n
+    resolveConflict(final ResolveEvent resolveEvent)\n
     '''
 def resolveFailed():
-    '''public void resolveFailed(final ResolveEvent resolveEvent)
+    '''returns None\n\n
+    resolveFailed(final ResolveEvent resolveEvent)\n
     '''

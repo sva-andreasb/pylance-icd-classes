@@ -1,14 +1,18 @@
-def MemoryPackagePartOutputStream():
-    '''public MemoryPackagePartOutputStream(final MemoryPackagePart part)
+def ():
+    '''returns MemoryPackagePartOutputStream\n\n
+    (final MemoryPackagePart part)\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b, final int off, final int len)
-    public void write(final byte[] b)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b, final int off, final int len)\n
+    write(final byte[] b)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

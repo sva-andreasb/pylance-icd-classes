@@ -1,287 +1,297 @@
-def IlvGraphic():
-    '''public IlvGraphic()
-    public IlvGraphic(final IlvGraphic ilvGraphic)
-    public IlvGraphic(final IlvInputStream ilvInputStream)
+def ():
+    '''returns IlvGraphic\n\n
+    ()\n
+    (final IlvGraphic ilvGraphic)\n
+    (final IlvInputStream ilvInputStream)\n
     '''
 def zoomable():
-    '''public boolean zoomable()
-    '''
-def setZOrderIndex():
-    '''public final void setZOrderIndex(final int j)
-    '''
-def getZOrderIndex():
-    '''public final int getZOrderIndex()
-    '''
-def callDraw():
-    '''public final void callDraw(final Graphics graphics, final IlvTransformer ilvTransformer)
-    '''
-def boundingBox():
-    '''public final IlvRect boundingBox()
+    '''returns boolean\n\n
+    zoomable()\n
     '''
 def getCenter():
-    '''public IlvPoint getCenter(final IlvTransformer ilvTransformer)
+    '''returns IlvPoint\n\n
+    getCenter(final IlvTransformer ilvTransformer)\n
     '''
 def contains():
-    '''public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def intersects():
-    '''public boolean intersects(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    intersects(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer)\n
     '''
 def inside():
-    '''public boolean inside(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    inside(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer)\n
     '''
 def getIntersectionWithOutline():
-    '''public IlvPoint getIntersectionWithOutline(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns IlvPoint\n\n
+    getIntersectionWithOutline(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def move():
-    '''public void move(final float n, final float n2)
-    public void move(final IlvPoint ilvPoint)
+    '''returns None\n\n
+    move(final float n, final float n2)\n
+    move(final IlvPoint ilvPoint)\n
     '''
 def moveResize():
-    '''public void moveResize(IlvRect a)
+    '''returns None\n\n
+    moveResize(IlvRect a)\n
     '''
 def translate():
-    '''public void translate(final float n, final float n2)
+    '''returns None\n\n
+    translate(final float n, final float n2)\n
     '''
 def rotate():
-    '''public void rotate(final IlvPoint ilvPoint, double degreesToRadians)
+    '''returns None\n\n
+    rotate(final IlvPoint ilvPoint, double degreesToRadians)\n
     '''
 def scale():
-    '''public void scale(final double n, final double n2)
+    '''returns None\n\n
+    scale(final double n, final double n2)\n
     '''
 def resize():
-    '''public void resize(final float n, final float n2)
+    '''returns None\n\n
+    resize(final float n, final float n2)\n
     '''
 def setGraphicBag():
-    '''public void setGraphicBag(final IlvGraphicBag b)
-    '''
-def getGraphicBag():
-    '''public final IlvGraphicBag getGraphicBag()
-    '''
-def getTopLevelGraphicBag():
-    '''public final synchronized IlvGraphicBag getTopLevelGraphicBag()
+    '''returns None\n\n
+    setGraphicBag(final IlvGraphicBag b)\n
     '''
 def setForeground():
-    '''public void setForeground(final Color color)
+    '''returns None\n\n
+    setForeground(final Color color)\n
     '''
 def setBackground():
-    '''public void setBackground(final Color color)
+    '''returns None\n\n
+    setBackground(final Color color)\n
     '''
 def setFillOn():
-    '''public void setFillOn(final boolean b)
+    '''returns None\n\n
+    setFillOn(final boolean b)\n
     '''
 def setStrokeOn():
-    '''public void setStrokeOn(final boolean b)
+    '''returns None\n\n
+    setStrokeOn(final boolean b)\n
     '''
 def reDraw():
-    '''public void reDraw()
+    '''returns None\n\n
+    reDraw()\n
     '''
 def setName():
-    '''public void setName(final String nameImpl)
+    '''returns None\n\n
+    setName(final String nameImpl)\n
     '''
 def setNameImpl():
-    '''public void setNameImpl(final String s)
+    '''returns None\n\n
+    setNameImpl(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def removeProperty():
-    '''public boolean removeProperty(final String s)
+    '''returns boolean\n\n
+    removeProperty(final String s)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def replaceProperty():
-    '''public boolean replaceProperty(final String s, final Object o)
+    '''returns boolean\n\n
+    replaceProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def hasProperty():
-    '''public boolean hasProperty(final String s, final Object o)
+    '''returns boolean\n\n
+    hasProperty(final String s, final Object o)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
-    '''
-def setVisible():
-    '''public final void setVisible(final boolean b)
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def isMovable():
-    '''public boolean isMovable()
-    '''
-def setMovable():
-    '''public final void setMovable(final boolean b)
-    '''
-def isEditable():
-    '''public final boolean isEditable()
-    '''
-def setEditable():
-    '''public final void setEditable(final boolean b)
+    '''returns boolean\n\n
+    isMovable()\n
     '''
 def isSelectable():
-    '''public boolean isSelectable()
-    '''
-def setSelectable():
-    '''public final void setSelectable(final boolean b)
-    '''
-def addActionListener():
-    '''public final void addActionListener(final ActionListener l)
-    '''
-def removeActionListener():
-    '''public final void removeActionListener(final ActionListener l)
+    '''returns boolean\n\n
+    isSelectable()\n
     '''
 def processActionEvent():
-    '''public void processActionEvent(final ActionEvent actionEvent)
+    '''returns None\n\n
+    processActionEvent(final ActionEvent actionEvent)\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection()
+    '''returns IlvSelection\n\n
+    makeSelection()\n
     '''
 def getDefaultInteractor():
-    '''public String getDefaultInteractor()
-    '''
-def getObjectInteractor():
-    '''public final IlvObjectInteractor getObjectInteractor()
-    '''
-def setObjectInteractor():
-    '''public final void setObjectInteractor(final IlvObjectInteractor ilvObjectInteractor)
-    '''
-def getAndAssociateObjectInteractor():
-    '''public final IlvObjectInteractor getAndAssociateObjectInteractor()
+    '''returns String\n\n
+    getDefaultInteractor()\n
     '''
 def write():
-    '''public void write(final IlvOutputStream ilvOutputStream)
+    '''returns None\n\n
+    write(final IlvOutputStream ilvOutputStream)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def getTransferDataFlavors():
-    '''public DataFlavor[] getTransferDataFlavors()
+    '''returns DataFlavor[]\n\n
+    getTransferDataFlavors()\n
     '''
 def isDataFlavorSupported():
-    '''public boolean isDataFlavorSupported(final DataFlavor dataFlavor)
+    '''returns boolean\n\n
+    isDataFlavorSupported(final DataFlavor dataFlavor)\n
     '''
 def getTransferData():
-    '''public Object getTransferData(final DataFlavor flavor)
-    '''
-def GetGraphicObject():
-    '''public static IlvGraphic GetGraphicObject(final Transferable transferable)
+    '''returns Object\n\n
+    getTransferData(final DataFlavor flavor)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setBlinkingAction():
-    '''public void setBlinkingAction(final IlvBlinkingAction a)
+    '''returns None\n\n
+    setBlinkingAction(final IlvBlinkingAction a)\n
     '''
 def getBlinkingAction():
-    '''public IlvBlinkingAction getBlinkingAction()
+    '''returns IlvBlinkingAction\n\n
+    getBlinkingAction()\n
     '''
 def setBlinkingOnPeriod():
-    '''public void setBlinkingOnPeriod(long c)
+    '''returns None\n\n
+    setBlinkingOnPeriod(long c)\n
     '''
 def getBlinkingOnPeriod():
-    '''public long getBlinkingOnPeriod()
+    '''returns long\n\n
+    getBlinkingOnPeriod()\n
     '''
 def setBlinkingOffPeriod():
-    '''public void setBlinkingOffPeriod(long d)
+    '''returns None\n\n
+    setBlinkingOffPeriod(long d)\n
     '''
 def getBlinkingOffPeriod():
-    '''public long getBlinkingOffPeriod()
-    '''
-def blinkingStateOn():
-    '''public final void blinkingStateOn(final boolean e)
+    '''returns long\n\n
+    getBlinkingOffPeriod()\n
     '''
 def getBlinkingObjectOwner():
-    '''public IlvBlinkingObjectOwner getBlinkingObjectOwner()
+    '''returns IlvBlinkingObjectOwner\n\n
+    getBlinkingObjectOwner()\n
     '''
 def setToolTipText():
-    '''public void setToolTipText(final String s)
+    '''returns None\n\n
+    setToolTipText(final String s)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText()
-    public String getToolTipText(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns String\n\n
+    getToolTipText()\n
+    getToolTipText(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''
 def setToolTipBaseTextDirection():
-    '''public void setToolTipBaseTextDirection(final int value)
+    '''returns None\n\n
+    setToolTipBaseTextDirection(final int value)\n
     '''
 def getToolTipBaseTextDirection():
-    '''public int getToolTipBaseTextDirection()
+    '''returns int\n\n
+    getToolTipBaseTextDirection()\n
     '''
 def setPopupMenu():
-    '''public void setPopupMenu(final JPopupMenu popupMenu)
+    '''returns None\n\n
+    setPopupMenu(final JPopupMenu popupMenu)\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu()
-    public JPopupMenu getPopupMenu(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)
+    '''returns JPopupMenu\n\n
+    getPopupMenu()\n
+    getPopupMenu(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)\n
     '''
 def setPopupMenuName():
-    '''public void setPopupMenuName(final String s)
+    '''returns None\n\n
+    setPopupMenuName(final String s)\n
     '''
 def getPopupMenuName():
-    '''public String getPopupMenuName()
-    '''
-def getLocale():
-    '''public final Locale getLocale()
+    '''returns String\n\n
+    getPopupMenuName()\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def isLocaleSensitive():
-    '''public boolean isLocaleSensitive()
+    '''returns boolean\n\n
+    isLocaleSensitive()\n
     '''
 def localeChanged():
-    '''public void localeChanged(final ULocale uLocale, final ULocale uLocale2)
+    '''returns None\n\n
+    localeChanged(final ULocale uLocale, final ULocale uLocale2)\n
     '''
 def getComponentOrientation():
-    '''public ComponentOrientation getComponentOrientation()
+    '''returns ComponentOrientation\n\n
+    getComponentOrientation()\n
     '''
 def isComponentOrientationSensitive():
-    '''public boolean isComponentOrientationSensitive()
+    '''returns boolean\n\n
+    isComponentOrientationSensitive()\n
     '''
 def componentOrientationChanged():
-    '''public void componentOrientationChanged(final ComponentOrientation componentOrientation, final ComponentOrientation componentOrientation2)
+    '''returns None\n\n
+    componentOrientationChanged(final ComponentOrientation componentOrientation, final ComponentOrientation componentOrientation2)\n
     '''
 def setBaseTextDirection():
-    '''public void setBaseTextDirection(final int n)
+    '''returns None\n\n
+    setBaseTextDirection(final int n)\n
     '''
 def getBaseTextDirection():
-    '''public int getBaseTextDirection()
+    '''returns int\n\n
+    getBaseTextDirection()\n
     '''
 def getResolvedBaseTextDirection():
-    '''public int getResolvedBaseTextDirection()
+    '''returns int\n\n
+    getResolvedBaseTextDirection()\n
     '''
 def isBaseTextDirectionSensitive():
-    '''public boolean isBaseTextDirectionSensitive()
+    '''returns boolean\n\n
+    isBaseTextDirectionSensitive()\n
     '''
 def usesBidiMarkers():
-    '''public boolean usesBidiMarkers()
+    '''returns boolean\n\n
+    usesBidiMarkers()\n
     '''
 def baseTextDirectionChanged():
-    '''public void baseTextDirectionChanged(final int n, final int n2)
+    '''returns None\n\n
+    baseTextDirectionChanged(final int n, final int n2)\n
     '''
 def addNamedPropertyListener():
-    '''public void addNamedPropertyListener(final NamedPropertyListener l)
+    '''returns None\n\n
+    addNamedPropertyListener(final NamedPropertyListener l)\n
     '''
 def removeNamedPropertyListener():
-    '''public void removeNamedPropertyListener(final NamedPropertyListener l)
+    '''returns None\n\n
+    removeNamedPropertyListener(final NamedPropertyListener l)\n
     '''
 def setNamedProperty():
-    '''public IlvNamedProperty setNamedProperty(final IlvNamedProperty value)
+    '''returns IlvNamedProperty\n\n
+    setNamedProperty(final IlvNamedProperty value)\n
     '''
 def getNamedProperty():
-    '''public IlvNamedProperty getNamedProperty(final String key)
+    '''returns IlvNamedProperty\n\n
+    getNamedProperty(final String key)\n
     '''
 def removeNamedProperty():
-    '''public void removeNamedProperty(final String key)
-    '''
-def isInApplyToObject():
-    '''public final boolean isInApplyToObject()
-    '''
-def setInApplyToObject():
-    '''public final boolean setInApplyToObject(final boolean b)
+    '''returns None\n\n
+    removeNamedProperty(final String key)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''
 def viewChanged():
-    '''public void viewChanged(final ManagerViewsChangedEvent managerViewsChangedEvent)
+    '''returns None\n\n
+    viewChanged(final ManagerViewsChangedEvent managerViewsChangedEvent)\n
     '''

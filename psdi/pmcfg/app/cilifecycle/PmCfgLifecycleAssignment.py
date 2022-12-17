@@ -1,15 +1,20 @@
-def PmCfgLifecycleAssignment():
-    '''public PmCfgLifecycleAssignment(final MboSet ms)
+def ():
+    '''returns PmCfgLifecycleAssignment\n\n
+    (final MboSet ms)\n
     '''
 def getLifecycle():
-    '''public PmCfgLifecycleRemote getLifecycle()
+    '''returns PmCfgLifecycleRemote\n\n
+    getLifecycle()\n
     '''
 def getCIs():
-    '''public PmCfgCISetRemote getCIs()
+    '''returns PmCfgCISetRemote\n\n
+    getCIs()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''

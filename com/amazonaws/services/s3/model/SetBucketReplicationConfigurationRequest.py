@@ -1,25 +1,33 @@
-def SetBucketReplicationConfigurationRequest():
-    '''public SetBucketReplicationConfigurationRequest()
-    public SetBucketReplicationConfigurationRequest(final String bucketName, final BucketReplicationConfiguration replicationConfiguration)
+def ():
+    '''returns SetBucketReplicationConfigurationRequest\n\n
+    ()\n
+    (final String bucketName, final BucketReplicationConfiguration replicationConfiguration)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public SetBucketReplicationConfigurationRequest withBucketName(final String bucketName)
+    '''returns SetBucketReplicationConfigurationRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getReplicationConfiguration():
-    '''public BucketReplicationConfiguration getReplicationConfiguration()
+    '''returns BucketReplicationConfiguration\n\n
+    getReplicationConfiguration()\n
     '''
 def setReplicationConfiguration():
-    '''public void setReplicationConfiguration(final BucketReplicationConfiguration replicationConfiguration)
+    '''returns None\n\n
+    setReplicationConfiguration(final BucketReplicationConfiguration replicationConfiguration)\n
     '''
 def withReplicationConfiguration():
-    '''public SetBucketReplicationConfigurationRequest withReplicationConfiguration(final BucketReplicationConfiguration replicationConfiguration)
+    '''returns SetBucketReplicationConfigurationRequest\n\n
+    withReplicationConfiguration(final BucketReplicationConfiguration replicationConfiguration)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

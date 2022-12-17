@@ -1,6 +1,8 @@
-def FldFinControlEndDate():
-    '''public FldFinControlEndDate(final MboValue mbv)
+def ():
+    '''returns FldFinControlEndDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

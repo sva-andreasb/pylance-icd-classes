@@ -1,25 +1,13 @@
-def AgentOption():
-    '''public AgentOption()
-    public AgentOption(final AgentOptionEnum name)
+def ():
+    '''returns AgentOption\n\n
+    ()\n
+    (final AgentOptionEnum name)\n
     '''
 def getName():
-    '''public AgentOptionEnum getName()
+    '''returns AgentOptionEnum\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final AgentOptionEnum name)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setName(final AgentOptionEnum name)\n
     '''

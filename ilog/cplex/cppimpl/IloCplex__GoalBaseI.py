@@ -1,12 +1,12 @@
-def IloCplex__GoalBaseI():
-    '''public IloCplex__GoalBaseI(final long cPtr, final boolean cMemoryOwn)
+def ():
+    '''returns IloCplex__GoalBaseI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def setOwn():
-    '''public void setOwn(final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__GoalBaseI obj)
+    '''returns None\n\n
+    setOwn(final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''

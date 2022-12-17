@@ -1,9 +1,12 @@
-def SlotValuator():
-    '''public SlotValuator(final int index)
+def ():
+    '''returns SlotValuator\n\n
+    (final int index)\n
     '''
 def evalObject():
-    '''public Object evalObject(final IndexValues iv)
+    '''returns Object\n\n
+    evalObject(final IndexValues iv)\n
     '''
 def evalBool():
-    '''public boolean evalBool(final IndexValues iv)
+    '''returns boolean\n\n
+    evalBool(final IndexValues iv)\n
     '''

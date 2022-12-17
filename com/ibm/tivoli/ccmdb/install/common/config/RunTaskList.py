@@ -1,15 +1,16 @@
-def RunTaskList():
-    '''public RunTaskList(final CfgTaskRunnerRestartEnum startType)
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns RunTaskList\n\n
+    (final CfgTaskRunnerRestartEnum startType)\n
     '''
 def setStopOnError():
-    '''public void setStopOnError(final boolean stopOnError)
+    '''returns None\n\n
+    setStopOnError(final boolean stopOnError)\n
     '''
 def handleInstallEvent():
-    '''public void handleInstallEvent(final ICmnInstallEvent event)
+    '''returns None\n\n
+    handleInstallEvent(final ICmnInstallEvent event)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

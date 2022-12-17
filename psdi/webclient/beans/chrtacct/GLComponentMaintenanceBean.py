@@ -1,12 +1,12 @@
-def GLComponentMaintenanceBean():
-    '''public GLComponentMaintenanceBean()
+def ():
+    '''returns GLComponentMaintenanceBean\n\n
+    ()\n
     '''
 def glcompok():
-    '''public int glcompok()
+    '''returns int\n\n
+    glcompok()\n
     '''
 def execute():
-    '''public int execute()
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns int\n\n
+    execute()\n
     '''

@@ -1,3 +1,4 @@
-def ReportAdHocParam():
-    '''public ReportAdHocParam(final MboSet ms)
+def ():
+    '''returns ReportAdHocParam\n\n
+    (final MboSet ms)\n
     '''

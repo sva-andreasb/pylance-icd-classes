@@ -1,28 +1,37 @@
-def AppenderAttachableImpl():
-    '''public AppenderAttachableImpl()
+def ():
+    '''returns AppenderAttachableImpl\n\n
+    ()\n
     '''
 def addAppender():
-    '''public void addAppender(final Appender newAppender)
+    '''returns None\n\n
+    addAppender(final Appender newAppender)\n
     '''
 def getAllAppenders():
-    '''public Enumeration<Appender> getAllAppenders()
+    '''returns Enumeration<Appender>\n\n
+    getAllAppenders()\n
     '''
 def getAppender():
-    '''public Appender getAppender(final String name)
+    '''returns Appender\n\n
+    getAppender(final String name)\n
     '''
 def isAttached():
-    '''public boolean isAttached(final Appender appender)
+    '''returns boolean\n\n
+    isAttached(final Appender appender)\n
     '''
 def removeAllAppenders():
-    '''public void removeAllAppenders()
+    '''returns None\n\n
+    removeAllAppenders()\n
     '''
 def removeAppender():
-    '''public void removeAppender(final Appender appender)
-    public void removeAppender(final String name)
+    '''returns None\n\n
+    removeAppender(final Appender appender)\n
+    removeAppender(final String name)\n
     '''
 def appendLoopOnAppenders():
-    '''public int appendLoopOnAppenders(final LoggingEvent event)
+    '''returns int\n\n
+    appendLoopOnAppenders(final LoggingEvent event)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

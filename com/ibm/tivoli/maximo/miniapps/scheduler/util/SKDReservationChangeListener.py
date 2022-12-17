@@ -1,18 +1,24 @@
-def SKDReservationChangeListener():
-    '''public SKDReservationChangeListener(final ReservationsProvider provider)
+def ():
+    '''returns SKDReservationChangeListener\n\n
+    (final ReservationsProvider provider)\n
     '''
 def reservationChanged():
-    '''public void reservationChanged(final ReservationEvent event)
+    '''returns None\n\n
+    reservationChanged(final ReservationEvent event)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
     '''
 def getShowAssignWarning():
-    '''public boolean getShowAssignWarning(final IlvGeneralActivity currentActivity, final MXResource res, final MXReservation reservation)
+    '''returns boolean\n\n
+    getShowAssignWarning(final IlvGeneralActivity currentActivity, final MXResource res, final MXReservation reservation)\n
     '''
 def setSegmentInfo():
-    '''public void setSegmentInfo(final IlvGeneralActivity activity, final MXResource res, final MXReservation reservation)
+    '''returns None\n\n
+    setSegmentInfo(final IlvGeneralActivity activity, final MXResource res, final MXReservation reservation)\n
     '''

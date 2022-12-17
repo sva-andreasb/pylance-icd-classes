@@ -1,3 +1,4 @@
-def SFWViewSet():
-    '''public SFWViewSet(final MboServerInterface ms)
+def ():
+    '''returns SFWViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

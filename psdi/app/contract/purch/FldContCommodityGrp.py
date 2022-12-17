@@ -1,3 +1,4 @@
-def FldContCommodityGrp():
-    '''public FldContCommodityGrp(final MboValue mbv)
+def ():
+    '''returns FldContCommodityGrp\n\n
+    (final MboValue mbv)\n
     '''

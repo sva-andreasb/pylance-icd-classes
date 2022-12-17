@@ -1,90 +1,108 @@
-def OslcResourceDetailInfo():
-    '''public OslcResourceDetailInfo(final String osName, final String hPath, final String linkedOSName, final String oslcPropName, final String oslcPropValueName, final String oslcPropNs, final String oslcPropValNs, final String cardinality, final Map<String, String> keyMap, final boolean link, final boolean association, final String targetRelation, final boolean useKeyMapForURI, final Map<String, OslcPropertyMapInfo> oslcProps, final String defaultNs)
+def ():
+    '''returns OslcResourceDetailInfo\n\n
+    (final String osName, final String hPath, final String linkedOSName, final String oslcPropName, final String oslcPropValueName, final String oslcPropNs, final String oslcPropValNs, final String cardinality, final Map<String, String> keyMap, final boolean link, final boolean association, final String targetRelation, final boolean useKeyMapForURI, final Map<String, OslcPropertyMapInfo> oslcProps, final String defaultNs)\n
     '''
 def addRelatedResourceInfo():
-    '''public void addRelatedResourceInfo(final OslcRelatedResourceInfo relatedResInfo)
+    '''returns None\n\n
+    addRelatedResourceInfo(final OslcRelatedResourceInfo relatedResInfo)\n
     '''
 def isAttachment():
-    '''public boolean isAttachment()
+    '''returns boolean\n\n
+    isAttachment()\n
     '''
 def isExactlyOne():
-    '''public boolean isExactlyOne()
+    '''returns boolean\n\n
+    isExactlyOne()\n
     '''
 def isZeroOrOne():
-    '''public boolean isZeroOrOne()
+    '''returns boolean\n\n
+    isZeroOrOne()\n
     '''
 def isZeroOrMany():
-    '''public boolean isZeroOrMany()
+    '''returns boolean\n\n
+    isZeroOrMany()\n
     '''
 def isOneOrMany():
-    '''public boolean isOneOrMany()
+    '''returns boolean\n\n
+    isOneOrMany()\n
     '''
 def isLocalResource():
-    '''public boolean isLocalResource()
+    '''returns boolean\n\n
+    isLocalResource()\n
     '''
 def isSelfReferencingPrimary():
-    '''public boolean isSelfReferencingPrimary()
-    '''
-def getOslcColumns():
-    '''public Map<QName, IfaceColumnInfo> getOslcColumns()
+    '''returns boolean\n\n
+    isSelfReferencingPrimary()\n
     '''
 def getOslcPropertyQName():
-    '''public QName getOslcPropertyQName()
+    '''returns QName\n\n
+    getOslcPropertyQName()\n
     '''
 def gethPath():
-    '''public String gethPath()
+    '''returns String\n\n
+    gethPath()\n
     '''
 def getLinkedOSName():
-    '''public String getLinkedOSName()
+    '''returns String\n\n
+    getLinkedOSName()\n
     '''
 def getOslcPropName():
-    '''public String getOslcPropName()
+    '''returns String\n\n
+    getOslcPropName()\n
     '''
 def getOslcPropValueName():
-    '''public String getOslcPropValueName()
+    '''returns String\n\n
+    getOslcPropValueName()\n
     '''
 def getOslcPropNamespace():
-    '''public String getOslcPropNamespace()
+    '''returns String\n\n
+    getOslcPropNamespace()\n
     '''
 def getOslcPropValueNamespace():
-    '''public String getOslcPropValueNamespace()
+    '''returns String\n\n
+    getOslcPropValueNamespace()\n
     '''
 def getCardinality():
-    '''public String getCardinality()
-    '''
-def getTargetKeyMap():
-    '''public Map<String, String> getTargetKeyMap()
+    '''returns String\n\n
+    getCardinality()\n
     '''
 def isLink():
-    '''public boolean isLink()
+    '''returns boolean\n\n
+    isLink()\n
     '''
 def isAssociation():
-    '''public boolean isAssociation()
+    '''returns boolean\n\n
+    isAssociation()\n
     '''
 def getTargetRelation():
-    '''public String getTargetRelation()
-    '''
-def getOslcProps():
-    '''public Map<String, OslcPropertyMapInfo> getOslcProps()
+    '''returns String\n\n
+    getTargetRelation()\n
     '''
 def getOslcPropertyMapInfo():
-    '''public OslcPropertyMapInfo getOslcPropertyMapInfo(final String name)
+    '''returns OslcPropertyMapInfo\n\n
+    getOslcPropertyMapInfo(final String name)\n
     '''
 def isUseKeyMapForURI():
-    '''public boolean isUseKeyMapForURI()
+    '''returns boolean\n\n
+    isUseKeyMapForURI()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getMosDetailInfo():
-    '''public MosDetailInfo getMosDetailInfo()
+    '''returns MosDetailInfo\n\n
+    getMosDetailInfo()\n
     '''
 def getResourceInfo():
-    '''public OslcResourceInfo getResourceInfo()
+    '''returns OslcResourceInfo\n\n
+    getResourceInfo()\n
     '''
 def getResourceDetailInfo():
-    '''public OslcResourceDetailInfo getResourceDetailInfo(String relation)
+    '''returns OslcResourceDetailInfo\n\n
+    getResourceDetailInfo(String relation)\n
     '''
 def getRelatedResourceInfo():
-    '''public OslcRelatedResourceInfo getRelatedResourceInfo(final String relation)
+    '''returns OslcRelatedResourceInfo\n\n
+    getRelatedResourceInfo(final String relation)\n
     '''

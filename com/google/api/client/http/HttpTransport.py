@@ -1,10 +1,8 @@
-def createRequestFactory():
-    '''public final HttpRequestFactory createRequestFactory()
-    public final HttpRequestFactory createRequestFactory(final HttpRequestInitializer initializer)
-    '''
 def supportsMethod():
-    '''public boolean supportsMethod(final String method)
+    '''returns boolean\n\n
+    supportsMethod(final String method)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

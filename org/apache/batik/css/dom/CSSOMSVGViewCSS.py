@@ -1,6 +1,8 @@
-def CSSOMSVGViewCSS():
-    '''public CSSOMSVGViewCSS(final CSSEngine engine)
+def ():
+    '''returns CSSOMSVGViewCSS\n\n
+    (final CSSEngine engine)\n
     '''
 def getComputedStyle():
-    '''public CSSStyleDeclaration getComputedStyle(final Element elt, final String pseudoElt)
+    '''returns CSSStyleDeclaration\n\n
+    getComputedStyle(final Element elt, final String pseudoElt)\n
     '''

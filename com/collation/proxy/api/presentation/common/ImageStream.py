@@ -1,15 +1,20 @@
-def ImageStream():
-    '''public ImageStream()
+def ():
+    '''returns ImageStream\n\n
+    ()\n
     '''
 def getContent():
-    '''public byte[] getContent()
+    '''returns byte[]\n\n
+    getContent()\n
     '''
 def setContent():
-    '''public void setContent(final byte[] content)
+    '''returns None\n\n
+    setContent(final byte[] content)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''

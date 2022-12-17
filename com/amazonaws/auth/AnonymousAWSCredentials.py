@@ -1,6 +1,8 @@
 def getAWSAccessKeyId():
-    '''public String getAWSAccessKeyId()
+    '''returns String\n\n
+    getAWSAccessKeyId()\n
     '''
 def getAWSSecretKey():
-    '''public String getAWSSecretKey()
+    '''returns String\n\n
+    getAWSSecretKey()\n
     '''

@@ -1,23 +1,29 @@
 def getItemForTestingAt():
-    '''public Object getItemForTestingAt(final int i)
+    '''returns Object\n\n
+    getItemForTestingAt(final int i)\n
     '''
 def remove():
-    '''public void remove(final Key key)
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final Key key)\n
+    remove()\n
+    remove()\n
     '''
 def keyIterator():
-    '''public ExtendedIterator<Key> keyIterator()
-    public ExtendedIterator<Key> keyIterator(final NotifyEmpty container)
+    '''returns ExtendedIterator<Key>\n\n
+    keyIterator()\n
+    keyIterator(final NotifyEmpty container)\n
     '''
 def emptied():
-    '''public void emptied()
+    '''returns None\n\n
+    emptied()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public Key next()
-    public Key next()
+    '''returns Key\n\n
+    next()\n
+    next()\n
     '''

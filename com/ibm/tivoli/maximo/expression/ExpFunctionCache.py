@@ -1,12 +1,12 @@
-def getInstance():
-    '''public static final ExpFunctionCache getInstance()
-    '''
 def getFunction():
-    '''public Function getFunction(final Expression exp, final String fName)
+    '''returns Function\n\n
+    getFunction(final Expression exp, final String fName)\n
     '''
 def hasFunction():
-    '''public boolean hasFunction(final String fName)
+    '''returns boolean\n\n
+    hasFunction(final String fName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

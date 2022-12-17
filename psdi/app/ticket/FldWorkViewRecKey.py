@@ -1,6 +1,8 @@
-def FldWorkViewRecKey():
-    '''public FldWorkViewRecKey(final MboValue mbv)
+def ():
+    '''returns FldWorkViewRecKey\n\n
+    (final MboValue mbv)\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''

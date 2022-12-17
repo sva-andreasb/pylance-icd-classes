@@ -1,3 +1,4 @@
-def MaxModules():
-    '''public MaxModules(final MboSet ms)
+def ():
+    '''returns MaxModules\n\n
+    (final MboSet ms)\n
     '''

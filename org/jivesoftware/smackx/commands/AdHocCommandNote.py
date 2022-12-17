@@ -1,9 +1,12 @@
-def AdHocCommandNote():
-    '''public AdHocCommandNote(final Type type, final String value)
+def ():
+    '''returns AdHocCommandNote\n\n
+    (final Type type, final String value)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''

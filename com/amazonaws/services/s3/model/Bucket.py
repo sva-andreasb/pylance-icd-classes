@@ -1,25 +1,33 @@
-def Bucket():
-    '''public Bucket()
-    public Bucket(final String name)
+def ():
+    '''returns Bucket\n\n
+    ()\n
+    (final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getOwner():
-    '''public Owner getOwner()
+    '''returns Owner\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final Owner owner)
+    '''returns None\n\n
+    setOwner(final Owner owner)\n
     '''
 def getCreationDate():
-    '''public Date getCreationDate()
+    '''returns Date\n\n
+    getCreationDate()\n
     '''
 def setCreationDate():
-    '''public void setCreationDate(final Date creationDate)
+    '''returns None\n\n
+    setCreationDate(final Date creationDate)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''

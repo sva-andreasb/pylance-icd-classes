@@ -1,12 +1,16 @@
-def PointRangeQueryNode():
-    '''public PointRangeQueryNode(final PointQueryNode lower, final PointQueryNode upper, final boolean lowerInclusive, final boolean upperInclusive, final PointsConfig numericConfig)
+def ():
+    '''returns PointRangeQueryNode\n\n
+    (final PointQueryNode lower, final PointQueryNode upper, final boolean lowerInclusive, final boolean upperInclusive, final PointsConfig numericConfig)\n
     '''
 def setBounds():
-    '''public void setBounds(final PointQueryNode lower, final PointQueryNode upper, final boolean lowerInclusive, final boolean upperInclusive, final PointsConfig pointsConfig)
+    '''returns None\n\n
+    setBounds(final PointQueryNode lower, final PointQueryNode upper, final boolean lowerInclusive, final boolean upperInclusive, final PointsConfig pointsConfig)\n
     '''
 def getPointsConfig():
-    '''public PointsConfig getPointsConfig()
+    '''returns PointsConfig\n\n
+    getPointsConfig()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

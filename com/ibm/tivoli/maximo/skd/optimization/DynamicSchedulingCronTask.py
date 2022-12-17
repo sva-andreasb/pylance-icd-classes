@@ -1,9 +1,12 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def sendODMEEmail():
-    '''public void sendODMEEmail(final SKDProject project, final Date startDate, final Date endDate, final int messagecode)
+    '''returns None\n\n
+    sendODMEEmail(final SKDProject project, final Date startDate, final Date endDate, final int messagecode)\n
     '''

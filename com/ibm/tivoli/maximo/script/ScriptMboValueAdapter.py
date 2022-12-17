@@ -1,45 +1,60 @@
-def ScriptMboValueAdapter():
-    '''public ScriptMboValueAdapter(final MboValue mboValue)
+def ():
+    '''returns ScriptMboValueAdapter\n\n
+    (final MboValue mboValue)\n
     '''
 def setInitValueScript():
-    '''public void setInitValueScript(final String initValueSN, final String initValueLN)
+    '''returns None\n\n
+    setInitValueScript(final String initValueSN, final String initValueLN)\n
     '''
 def setInitARScript():
-    '''public void setInitARScript(final String initARSN, final String initARLN)
+    '''returns None\n\n
+    setInitARScript(final String initARSN, final String initARLN)\n
     '''
 def setActionScript():
-    '''public void setActionScript(final String actionSN, final String actionLN)
+    '''returns None\n\n
+    setActionScript(final String actionSN, final String actionLN)\n
     '''
 def setValidateScript():
-    '''public void setValidateScript(final String validateSN, final String validateLN)
+    '''returns None\n\n
+    setValidateScript(final String validateSN, final String validateLN)\n
     '''
 def setListScript():
-    '''public void setListScript(final String listSN, final String listLN)
+    '''returns None\n\n
+    setListScript(final String listSN, final String listLN)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def superGetList():
-    '''public MboSetRemote superGetList()
+    '''returns MboSetRemote\n\n
+    superGetList()\n
     '''
 def superValidate():
-    '''public void superValidate()
+    '''returns None\n\n
+    superValidate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''

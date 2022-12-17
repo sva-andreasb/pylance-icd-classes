@@ -1,119 +1,155 @@
-def LocationService():
-    '''public LocationService()
-    public LocationService(final MXServer mxServer)
+def ():
+    '''returns LocationService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def initCriteriaList():
-    '''public void initCriteriaList(final Hashtable criteriaTable)
+    '''returns None\n\n
+    initCriteriaList(final Hashtable criteriaTable)\n
     '''
 def getStoreLocations():
-    '''public MboSetRemote getStoreLocations(final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getStoreLocations(final UserInfo userInfo)\n
     '''
 def getDefaultStoreroom():
-    '''public String getDefaultStoreroom(final UserInfo userInfo)
+    '''returns String\n\n
+    getDefaultStoreroom(final UserInfo userInfo)\n
     '''
 def getDefaultStoreroomForSite():
-    '''public String getDefaultStoreroomForSite(final UserInfo userInfo, final String siteId)
+    '''returns String\n\n
+    getDefaultStoreroomForSite(final UserInfo userInfo, final String siteId)\n
     '''
 def canAddItemsToStoreroom():
-    '''public void canAddItemsToStoreroom(final UserInfo userInfo)
+    '''returns None\n\n
+    canAddItemsToStoreroom(final UserInfo userInfo)\n
     '''
 def getKitComponentsNotYetInStore():
-    '''public MboSetRemote getKitComponentsNotYetInStore(final UserInfo userInfo, final ItemRemote item, final String storeroom, final Hashtable defaultBins)
-    public MboSetRemote getKitComponentsNotYetInStore(final UserInfo userInfo, final ItemRemote item, final String storeroom, final String siteId, final Hashtable defaultBins)
+    '''returns MboSetRemote\n\n
+    getKitComponentsNotYetInStore(final UserInfo userInfo, final ItemRemote item, final String storeroom, final Hashtable defaultBins)\n
+    getKitComponentsNotYetInStore(final UserInfo userInfo, final ItemRemote item, final String storeroom, final String siteId, final Hashtable defaultBins)\n
     '''
 def addItemsToStoreroom():
-    '''public MboSetRemote addItemsToStoreroom(final UserInfo userInfo, final MboSetRemote itemSet, final String storeroom, final boolean addKitComponents, final MboRemote matrectrans)
-    public MboSetRemote addItemsToStoreroom(final UserInfo userInfo, final MboSetRemote itemSet, final String storeroom, final boolean addKitComponents)
-    public MboSetRemote addItemsToStoreroom(final UserInfo userInfo, final MboSetRemote itemSet, final String storeroom, final String siteId, final boolean addKitComponents)
-    public MboSetRemote addItemsToStoreroom(final UserInfo userInfo, final MboSetRemote itemSet, final MboRemote location, final boolean addKitComponents, final MboRemote matrectrans)
+    '''returns MboSetRemote\n\n
+    addItemsToStoreroom(final UserInfo userInfo, final MboSetRemote itemSet, final String storeroom, final boolean addKitComponents, final MboRemote matrectrans)\n
+    addItemsToStoreroom(final UserInfo userInfo, final MboSetRemote itemSet, final String storeroom, final boolean addKitComponents)\n
+    addItemsToStoreroom(final UserInfo userInfo, final MboSetRemote itemSet, final String storeroom, final String siteId, final boolean addKitComponents)\n
+    addItemsToStoreroom(final UserInfo userInfo, final MboSetRemote itemSet, final MboRemote location, final boolean addKitComponents, final MboRemote matrectrans)\n
     '''
 def addAnItemToStoreroom():
-    '''public MboRemote addAnItemToStoreroom(final UserInfo userInfo, final String itemnum, final String itemsetid, final String storeroom, final String siteid, final boolean istool, final String orderunit, final String issueunit, final Number curbal, final String dfltbin, final String costtype, final Number unitcost, final Number stdcost, final Number avgcost, final String lotnum, final boolean savenow, final Number orderqty, final Number deliverytime, final Number minlevel, final Number reorder, final Number ccf)
+    '''returns MboRemote\n\n
+    addAnItemToStoreroom(final UserInfo userInfo, final String itemnum, final String itemsetid, final String storeroom, final String siteid, final boolean istool, final String orderunit, final String issueunit, final Number curbal, final String dfltbin, final String costtype, final Number unitcost, final Number stdcost, final Number avgcost, final String lotnum, final boolean savenow, final Number orderqty, final Number deliverytime, final Number minlevel, final Number reorder, final Number ccf)\n
     '''
 def addItemsToStoreroomBulk():
-    '''public MboSetRemote addItemsToStoreroomBulk(final UserInfo userInfo, final MboSetRemote itemSet, final MboSetRemote locationSet, final boolean addKitComponents, final MboRemote matrectrans)
+    '''returns MboSetRemote\n\n
+    addItemsToStoreroomBulk(final UserInfo userInfo, final MboSetRemote itemSet, final MboSetRemote locationSet, final boolean addKitComponents, final MboRemote matrectrans)\n
     '''
 def getUnauthItemSet():
-    '''public Vector getUnauthItemSet()
+    '''returns Vector\n\n
+    getUnauthItemSet()\n
     '''
 def warningsFromAddItemsToStore():
-    '''public void warningsFromAddItemsToStore()
+    '''returns None\n\n
+    warningsFromAddItemsToStore()\n
     '''
 def warningsFromNonStockedOrgs():
-    '''public void warningsFromNonStockedOrgs()
+    '''returns None\n\n
+    warningsFromNonStockedOrgs()\n
     '''
 def getTopLevelinPrimarySystem():
-    '''public MboRemote getTopLevelinPrimarySystem(final UserInfo userInfo, final String siteid)
+    '''returns MboRemote\n\n
+    getTopLevelinPrimarySystem(final UserInfo userInfo, final String siteid)\n
     '''
 def getPrimarySystem():
-    '''public String getPrimarySystem(final UserInfo userInfo)
-    public String getPrimarySystem(final UserInfo userInfo, String siteId)
+    '''returns String\n\n
+    getPrimarySystem(final UserInfo userInfo)\n
+    getPrimarySystem(final UserInfo userInfo, String siteId)\n
     '''
 def getPrimarySystemNoSite():
-    '''public String getPrimarySystemNoSite(final UserInfo userInfo)
+    '''returns String\n\n
+    getPrimarySystemNoSite(final UserInfo userInfo)\n
     '''
 def getAllSystemsNoSite():
-    '''public MboSetRemote getAllSystemsNoSite(final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getAllSystemsNoSite(final UserInfo userInfo)\n
     '''
 def getTopLevelInSystem():
-    '''public MboRemote getTopLevelInSystem(final UserInfo userInfo, final String systemid, final String siteId)
+    '''returns MboRemote\n\n
+    getTopLevelInSystem(final UserInfo userInfo, final String systemid, final String siteId)\n
     '''
 def getAllSystems():
-    '''public MboSetRemote getAllSystems(final UserInfo userInfo, String siteId)
+    '''returns MboSetRemote\n\n
+    getAllSystems(final UserInfo userInfo, String siteId)\n
     '''
 def getLocation():
-    '''public MboRemote getLocation(final UserInfo userInfo, final String attribute, final String key)
-    public MboRemote getLocation(final UserInfo userInfo, final String attribute, final String key, final String siteid)
+    '''returns MboRemote\n\n
+    getLocation(final UserInfo userInfo, final String attribute, final String key)\n
+    getLocation(final UserInfo userInfo, final String attribute, final String key, final String siteid)\n
     '''
 def setIsTool():
-    '''public void setIsTool(final boolean tool)
+    '''returns None\n\n
+    setIsTool(final boolean tool)\n
     '''
 def getSystemsForSite():
-    '''public MboSetRemote getSystemsForSite(final UserInfo userInfo, final String siteId)
+    '''returns MboSetRemote\n\n
+    getSystemsForSite(final UserInfo userInfo, final String siteId)\n
     '''
 def getPrimarySystemForSite():
-    '''public MboRemote getPrimarySystemForSite(final UserInfo userInfo, final String siteId, final MboSetRemote workingSet)
-    public MboRemote getPrimarySystemForSite(final UserInfo userInfo, final String siteId)
+    '''returns MboRemote\n\n
+    getPrimarySystemForSite(final UserInfo userInfo, final String siteId, final MboSetRemote workingSet)\n
+    getPrimarySystemForSite(final UserInfo userInfo, final String siteId)\n
     '''
 def verifyLocSystemSiteHasOnePrimarySystem():
-    '''public boolean verifyLocSystemSiteHasOnePrimarySystem(final UserInfo userInfo, final String siteId, final MboSetRemote workingSet)
-    public boolean verifyLocSystemSiteHasOnePrimarySystem(final UserInfo userInfo, final String siteId, final MboSetRemote workingSet, final Vector<String> allowSetToPrimary, final boolean skipOtherSitesPrimarySysVerification)
+    '''returns boolean\n\n
+    verifyLocSystemSiteHasOnePrimarySystem(final UserInfo userInfo, final String siteId, final MboSetRemote workingSet)\n
+    verifyLocSystemSiteHasOnePrimarySystem(final UserInfo userInfo, final String siteId, final MboSetRemote workingSet, final Vector<String> allowSetToPrimary, final boolean skipOtherSitesPrimarySysVerification)\n
     '''
 def allowDeletionOfRedundantLocSystemSitePrimarySystem():
-    '''public boolean allowDeletionOfRedundantLocSystemSitePrimarySystem(final UserInfo userInfo, final String siteId, final MboSetRemote workingSet, final MboRemote locSystemToBeDeleted)
+    '''returns boolean\n\n
+    allowDeletionOfRedundantLocSystemSitePrimarySystem(final UserInfo userInfo, final String siteId, final MboSetRemote workingSet, final MboRemote locSystemToBeDeleted)\n
     '''
 def verifyAllLocSystemSitesHaveOnePrimarySystem():
-    '''public boolean verifyAllLocSystemSitesHaveOnePrimarySystem(final UserInfo userInfo, final MboSetRemote workingSet)
-    public boolean verifyAllLocSystemSitesHaveOnePrimarySystem(final UserInfo userInfo, final MboSetRemote workingSet, final Vector<String> allowSetToPrimary, final boolean skipOtherSitesPrimarySysVerification)
+    '''returns boolean\n\n
+    verifyAllLocSystemSitesHaveOnePrimarySystem(final UserInfo userInfo, final MboSetRemote workingSet)\n
+    verifyAllLocSystemSitesHaveOnePrimarySystem(final UserInfo userInfo, final MboSetRemote workingSet, final Vector<String> allowSetToPrimary, final boolean skipOtherSitesPrimarySysVerification)\n
     '''
 def getNumberOfSystemsForSite():
-    '''public int getNumberOfSystemsForSite(final UserInfo userinfo, final String siteid, final MboSetRemote workingSet, final MboRemote locSystemToBeDeleted)
-    public int getNumberOfSystemsForSite(final UserInfo userinfo, final String siteid)
+    '''returns int\n\n
+    getNumberOfSystemsForSite(final UserInfo userinfo, final String siteid, final MboSetRemote workingSet, final MboRemote locSystemToBeDeleted)\n
+    getNumberOfSystemsForSite(final UserInfo userinfo, final String siteid)\n
     '''
 def createWorkorder():
-    '''public MboRemote createWorkorder(@WSMboKey("LOCATIONS") final MboRemote mbo, final String jpnum)
+    '''returns MboRemote\n\n
+    createWorkorder(@WSMboKey("LOCATIONS") final MboRemote mbo, final String jpnum)\n
     '''
 def createProblem():
-    '''public MboRemote createProblem(@WSMboKey("LOCATIONS") final MboRemote mbo, final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createProblem(@WSMboKey("LOCATIONS") final MboRemote mbo, final String tickettemplateid)\n
     '''
 def createIncident():
-    '''public MboRemote createIncident(@WSMboKey("LOCATIONS") final MboRemote mbo, final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createIncident(@WSMboKey("LOCATIONS") final MboRemote mbo, final String tickettemplateid)\n
     '''
 def createServiceRequest():
-    '''public MboRemote createServiceRequest(@WSMboKey("LOCATIONS") final MboRemote mbo, final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createServiceRequest(@WSMboKey("LOCATIONS") final MboRemote mbo, final String tickettemplateid)\n
     '''
 def createChange():
-    '''public MboRemote createChange(@WSMboKey("LOCATIONS") final MboRemote mbo, final String jpnum)
+    '''returns MboRemote\n\n
+    createChange(@WSMboKey("LOCATIONS") final MboRemote mbo, final String jpnum)\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("LOCATIONS") final MboRemote mbo, final String status, final Date asOfDate, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("LOCATIONS") final MboRemote mbo, final String status, final Date asOfDate, final String memo, final long accessModifier)\n
     '''

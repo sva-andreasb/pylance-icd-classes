@@ -1,27 +1,28 @@
-def loadServerContext():
-    '''public static JaasContext loadServerContext(final ListenerName listenerName, final String mechanism, final Map<String, ?> configs)
-    '''
-def loadClientContext():
-    '''public static JaasContext loadClientContext(final Map<String, ?> configs)
-    '''
-def JaasContext():
-    '''public JaasContext(final String name, final Type type, final Configuration configuration, final Password dynamicJaasConfig)
+def ():
+    '''returns JaasContext\n\n
+    (final String name, final Type type, final Configuration configuration, final Password dynamicJaasConfig)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def type():
-    '''public Type type()
+    '''returns Type\n\n
+    type()\n
     '''
 def configuration():
-    '''public Configuration configuration()
+    '''returns Configuration\n\n
+    configuration()\n
     '''
 def configurationEntries():
-    '''public List<AppConfigurationEntry> configurationEntries()
+    '''returns List<AppConfigurationEntry>\n\n
+    configurationEntries()\n
     '''
 def dynamicJaasConfig():
-    '''public Password dynamicJaasConfig()
+    '''returns Password\n\n
+    dynamicJaasConfig()\n
     '''
 def configEntryOption():
-    '''public String configEntryOption(final String key, final String loginModuleName)
+    '''returns String\n\n
+    configEntryOption(final String key, final String loginModuleName)\n
     '''

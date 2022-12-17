@@ -1,20 +1,26 @@
 def writeImage():
-    '''public void writeImage(final RenderedImage image, final OutputStream out)
-    public void writeImage(final RenderedImage image, final OutputStream out, final ImageWriterParams params)
-    public void writeImage(final RenderedImage image, final ImageWriterParams params)
+    '''returns None\n\n
+    writeImage(final RenderedImage image, final OutputStream out)\n
+    writeImage(final RenderedImage image, final OutputStream out, final ImageWriterParams params)\n
+    writeImage(final RenderedImage image, final ImageWriterParams params)\n
     '''
 def getMIMEType():
-    '''public String getMIMEType()
+    '''returns String\n\n
+    getMIMEType()\n
     '''
 def createMultiImageWriter():
-    '''public MultiImageWriter createMultiImageWriter(final OutputStream out)
+    '''returns MultiImageWriter\n\n
+    createMultiImageWriter(final OutputStream out)\n
     '''
 def supportsMultiImageWriter():
-    '''public boolean supportsMultiImageWriter()
+    '''returns boolean\n\n
+    supportsMultiImageWriter()\n
     '''
-def TIFFMultiImageWriter():
-    '''public TIFFMultiImageWriter(final OutputStream out)
+def ():
+    '''returns TIFFMultiImageWriter\n\n
+    (final OutputStream out)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

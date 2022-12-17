@@ -1,3 +1,4 @@
 def setTranslator():
-    '''public void setTranslator(final Translator translator)
+    '''returns None\n\n
+    setTranslator(final Translator translator)\n
     '''

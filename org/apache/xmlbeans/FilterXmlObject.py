@@ -1,305 +1,394 @@
 def schemaType():
-    '''public SchemaType schemaType()
+    '''returns SchemaType\n\n
+    schemaType()\n
     '''
 def validate():
-    '''public boolean validate()
-    public boolean validate(final XmlOptions options)
+    '''returns boolean\n\n
+    validate()\n
+    validate(final XmlOptions options)\n
     '''
 def selectPath():
-    '''public XmlObject[] selectPath(final String path)
-    public XmlObject[] selectPath(final String path, final XmlOptions options)
+    '''returns XmlObject[]\n\n
+    selectPath(final String path)\n
+    selectPath(final String path, final XmlOptions options)\n
     '''
 def execQuery():
-    '''public XmlObject[] execQuery(final String query)
-    public XmlObject[] execQuery(final String query, final XmlOptions options)
+    '''returns XmlObject[]\n\n
+    execQuery(final String query)\n
+    execQuery(final String query, final XmlOptions options)\n
     '''
 def changeType():
-    '''public XmlObject changeType(final SchemaType newType)
+    '''returns XmlObject\n\n
+    changeType(final SchemaType newType)\n
     '''
 def isNil():
-    '''public boolean isNil()
+    '''returns boolean\n\n
+    isNil()\n
     '''
 def setNil():
-    '''public void setNil()
+    '''returns None\n\n
+    setNil()\n
     '''
 def isImmutable():
-    '''public boolean isImmutable()
+    '''returns boolean\n\n
+    isImmutable()\n
     '''
 def set():
-    '''public XmlObject set(final XmlObject srcObj)
-    public void set(final String obj)
-    public void set(final boolean v)
-    public void set(final byte v)
-    public void set(final short v)
-    public void set(final int v)
-    public void set(final long v)
-    public void set(final BigInteger obj)
-    public void set(final BigDecimal obj)
-    public void set(final float v)
-    public void set(final double v)
-    public void set(final byte[] obj)
-    public void set(final StringEnumAbstractBase obj)
-    public void set(final Calendar obj)
-    public void set(final Date obj)
-    public void set(final GDateSpecification obj)
-    public void set(final GDurationSpecification obj)
-    public void set(final QName obj)
-    public void set(final List obj)
+    '''returns None\n\n
+    set(final XmlObject srcObj)\n
+    set(final String obj)\n
+    set(final boolean v)\n
+    set(final byte v)\n
+    set(final short v)\n
+    set(final int v)\n
+    set(final long v)\n
+    set(final BigInteger obj)\n
+    set(final BigDecimal obj)\n
+    set(final float v)\n
+    set(final double v)\n
+    set(final byte[] obj)\n
+    set(final StringEnumAbstractBase obj)\n
+    set(final Calendar obj)\n
+    set(final Date obj)\n
+    set(final GDateSpecification obj)\n
+    set(final GDurationSpecification obj)\n
+    set(final QName obj)\n
+    set(final List obj)\n
     '''
 def copy():
-    '''public XmlObject copy()
-    public XmlObject copy(final XmlOptions options)
+    '''returns XmlObject\n\n
+    copy()\n
+    copy(final XmlOptions options)\n
     '''
 def valueEquals():
-    '''public boolean valueEquals(final XmlObject obj)
+    '''returns boolean\n\n
+    valueEquals(final XmlObject obj)\n
     '''
 def valueHashCode():
-    '''public int valueHashCode()
+    '''returns int\n\n
+    valueHashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
+    '''returns int\n\n
+    compareTo(final Object obj)\n
     '''
 def compareValue():
-    '''public int compareValue(final XmlObject obj)
+    '''returns int\n\n
+    compareValue(final XmlObject obj)\n
     '''
 def monitor():
-    '''public Object monitor()
+    '''returns Object\n\n
+    monitor()\n
     '''
 def documentProperties():
-    '''public XmlDocumentProperties documentProperties()
+    '''returns XmlDocumentProperties\n\n
+    documentProperties()\n
     '''
 def newCursor():
-    '''public XmlCursor newCursor()
+    '''returns XmlCursor\n\n
+    newCursor()\n
     '''
 def newXMLInputStream():
-    '''public XMLInputStream newXMLInputStream()
-    public XMLInputStream newXMLInputStream(final XmlOptions options)
+    '''returns XMLInputStream\n\n
+    newXMLInputStream()\n
+    newXMLInputStream(final XmlOptions options)\n
     '''
 def newXMLStreamReader():
-    '''public XMLStreamReader newXMLStreamReader()
-    public XMLStreamReader newXMLStreamReader(final XmlOptions options)
+    '''returns XMLStreamReader\n\n
+    newXMLStreamReader()\n
+    newXMLStreamReader(final XmlOptions options)\n
     '''
 def xmlText():
-    '''public String xmlText()
-    public String xmlText(final XmlOptions options)
+    '''returns String\n\n
+    xmlText()\n
+    xmlText(final XmlOptions options)\n
     '''
 def newInputStream():
-    '''public InputStream newInputStream()
-    public InputStream newInputStream(final XmlOptions options)
+    '''returns InputStream\n\n
+    newInputStream()\n
+    newInputStream(final XmlOptions options)\n
     '''
 def newReader():
-    '''public Reader newReader()
-    public Reader newReader(final XmlOptions options)
+    '''returns Reader\n\n
+    newReader()\n
+    newReader(final XmlOptions options)\n
     '''
 def newDomNode():
-    '''public Node newDomNode()
-    public Node newDomNode(final XmlOptions options)
+    '''returns Node\n\n
+    newDomNode()\n
+    newDomNode(final XmlOptions options)\n
     '''
 def getDomNode():
-    '''public Node getDomNode()
+    '''returns Node\n\n
+    getDomNode()\n
     '''
 def save():
-    '''public void save(final ContentHandler ch, final LexicalHandler lh)
-    public void save(final File file)
-    public void save(final OutputStream os)
-    public void save(final Writer w)
-    public void save(final ContentHandler ch, final LexicalHandler lh, final XmlOptions options)
-    public void save(final File file, final XmlOptions options)
-    public void save(final OutputStream os, final XmlOptions options)
-    public void save(final Writer w, final XmlOptions options)
+    '''returns None\n\n
+    save(final ContentHandler ch, final LexicalHandler lh)\n
+    save(final File file)\n
+    save(final OutputStream os)\n
+    save(final Writer w)\n
+    save(final ContentHandler ch, final LexicalHandler lh, final XmlOptions options)\n
+    save(final File file, final XmlOptions options)\n
+    save(final OutputStream os, final XmlOptions options)\n
+    save(final Writer w, final XmlOptions options)\n
     '''
 def instanceType():
-    '''public SchemaType instanceType()
+    '''returns SchemaType\n\n
+    instanceType()\n
     '''
 def stringValue():
-    '''public String stringValue()
+    '''returns String\n\n
+    stringValue()\n
     '''
 def booleanValue():
-    '''public boolean booleanValue()
+    '''returns boolean\n\n
+    booleanValue()\n
     '''
 def byteValue():
-    '''public byte byteValue()
+    '''returns byte\n\n
+    byteValue()\n
     '''
 def shortValue():
-    '''public short shortValue()
+    '''returns short\n\n
+    shortValue()\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def bigIntegerValue():
-    '''public BigInteger bigIntegerValue()
+    '''returns BigInteger\n\n
+    bigIntegerValue()\n
     '''
 def bigDecimalValue():
-    '''public BigDecimal bigDecimalValue()
+    '''returns BigDecimal\n\n
+    bigDecimalValue()\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def byteArrayValue():
-    '''public byte[] byteArrayValue()
+    '''returns byte[]\n\n
+    byteArrayValue()\n
     '''
 def enumValue():
-    '''public StringEnumAbstractBase enumValue()
+    '''returns StringEnumAbstractBase\n\n
+    enumValue()\n
     '''
 def calendarValue():
-    '''public Calendar calendarValue()
+    '''returns Calendar\n\n
+    calendarValue()\n
     '''
 def dateValue():
-    '''public Date dateValue()
+    '''returns Date\n\n
+    dateValue()\n
     '''
 def gDateValue():
-    '''public GDate gDateValue()
+    '''returns GDate\n\n
+    gDateValue()\n
     '''
 def gDurationValue():
-    '''public GDuration gDurationValue()
+    '''returns GDuration\n\n
+    gDurationValue()\n
     '''
 def qNameValue():
-    '''public QName qNameValue()
+    '''returns QName\n\n
+    qNameValue()\n
     '''
 def listValue():
-    '''public List listValue()
+    '''returns List\n\n
+    listValue()\n
     '''
 def xlistValue():
-    '''public List xlistValue()
+    '''returns List\n\n
+    xlistValue()\n
     '''
 def objectValue():
-    '''public Object objectValue()
+    '''returns Object\n\n
+    objectValue()\n
     '''
 def getStringValue():
-    '''public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
     '''
 def getBooleanValue():
-    '''public boolean getBooleanValue()
+    '''returns boolean\n\n
+    getBooleanValue()\n
     '''
 def getByteValue():
-    '''public byte getByteValue()
+    '''returns byte\n\n
+    getByteValue()\n
     '''
 def getShortValue():
-    '''public short getShortValue()
+    '''returns short\n\n
+    getShortValue()\n
     '''
 def getIntValue():
-    '''public int getIntValue()
+    '''returns int\n\n
+    getIntValue()\n
     '''
 def getLongValue():
-    '''public long getLongValue()
+    '''returns long\n\n
+    getLongValue()\n
     '''
 def getBigIntegerValue():
-    '''public BigInteger getBigIntegerValue()
+    '''returns BigInteger\n\n
+    getBigIntegerValue()\n
     '''
 def getBigDecimalValue():
-    '''public BigDecimal getBigDecimalValue()
+    '''returns BigDecimal\n\n
+    getBigDecimalValue()\n
     '''
 def getFloatValue():
-    '''public float getFloatValue()
+    '''returns float\n\n
+    getFloatValue()\n
     '''
 def getDoubleValue():
-    '''public double getDoubleValue()
+    '''returns double\n\n
+    getDoubleValue()\n
     '''
 def getByteArrayValue():
-    '''public byte[] getByteArrayValue()
+    '''returns byte[]\n\n
+    getByteArrayValue()\n
     '''
 def getEnumValue():
-    '''public StringEnumAbstractBase getEnumValue()
+    '''returns StringEnumAbstractBase\n\n
+    getEnumValue()\n
     '''
 def getCalendarValue():
-    '''public Calendar getCalendarValue()
+    '''returns Calendar\n\n
+    getCalendarValue()\n
     '''
 def getDateValue():
-    '''public Date getDateValue()
+    '''returns Date\n\n
+    getDateValue()\n
     '''
 def getGDateValue():
-    '''public GDate getGDateValue()
+    '''returns GDate\n\n
+    getGDateValue()\n
     '''
 def getGDurationValue():
-    '''public GDuration getGDurationValue()
+    '''returns GDuration\n\n
+    getGDurationValue()\n
     '''
 def getQNameValue():
-    '''public QName getQNameValue()
+    '''returns QName\n\n
+    getQNameValue()\n
     '''
 def getListValue():
-    '''public List getListValue()
+    '''returns List\n\n
+    getListValue()\n
     '''
 def xgetListValue():
-    '''public List xgetListValue()
+    '''returns List\n\n
+    xgetListValue()\n
     '''
 def getObjectValue():
-    '''public Object getObjectValue()
+    '''returns Object\n\n
+    getObjectValue()\n
     '''
 def setStringValue():
-    '''public void setStringValue(final String obj)
+    '''returns None\n\n
+    setStringValue(final String obj)\n
     '''
 def setBooleanValue():
-    '''public void setBooleanValue(final boolean v)
+    '''returns None\n\n
+    setBooleanValue(final boolean v)\n
     '''
 def setByteValue():
-    '''public void setByteValue(final byte v)
+    '''returns None\n\n
+    setByteValue(final byte v)\n
     '''
 def setShortValue():
-    '''public void setShortValue(final short v)
+    '''returns None\n\n
+    setShortValue(final short v)\n
     '''
 def setIntValue():
-    '''public void setIntValue(final int v)
+    '''returns None\n\n
+    setIntValue(final int v)\n
     '''
 def setLongValue():
-    '''public void setLongValue(final long v)
+    '''returns None\n\n
+    setLongValue(final long v)\n
     '''
 def setBigIntegerValue():
-    '''public void setBigIntegerValue(final BigInteger obj)
+    '''returns None\n\n
+    setBigIntegerValue(final BigInteger obj)\n
     '''
 def setBigDecimalValue():
-    '''public void setBigDecimalValue(final BigDecimal obj)
+    '''returns None\n\n
+    setBigDecimalValue(final BigDecimal obj)\n
     '''
 def setFloatValue():
-    '''public void setFloatValue(final float v)
+    '''returns None\n\n
+    setFloatValue(final float v)\n
     '''
 def setDoubleValue():
-    '''public void setDoubleValue(final double v)
+    '''returns None\n\n
+    setDoubleValue(final double v)\n
     '''
 def setByteArrayValue():
-    '''public void setByteArrayValue(final byte[] obj)
+    '''returns None\n\n
+    setByteArrayValue(final byte[] obj)\n
     '''
 def setEnumValue():
-    '''public void setEnumValue(final StringEnumAbstractBase obj)
+    '''returns None\n\n
+    setEnumValue(final StringEnumAbstractBase obj)\n
     '''
 def setCalendarValue():
-    '''public void setCalendarValue(final Calendar obj)
+    '''returns None\n\n
+    setCalendarValue(final Calendar obj)\n
     '''
 def setDateValue():
-    '''public void setDateValue(final Date obj)
+    '''returns None\n\n
+    setDateValue(final Date obj)\n
     '''
 def setGDateValue():
-    '''public void setGDateValue(final GDate obj)
+    '''returns None\n\n
+    setGDateValue(final GDate obj)\n
     '''
 def setGDurationValue():
-    '''public void setGDurationValue(final GDuration obj)
+    '''returns None\n\n
+    setGDurationValue(final GDuration obj)\n
     '''
 def setQNameValue():
-    '''public void setQNameValue(final QName obj)
+    '''returns None\n\n
+    setQNameValue(final QName obj)\n
     '''
 def setListValue():
-    '''public void setListValue(final List obj)
+    '''returns None\n\n
+    setListValue(final List obj)\n
     '''
 def setObjectValue():
-    '''public void setObjectValue(final Object obj)
+    '''returns None\n\n
+    setObjectValue(final Object obj)\n
     '''
 def objectSet():
-    '''public void objectSet(final Object obj)
+    '''returns None\n\n
+    objectSet(final Object obj)\n
     '''
 def selectChildren():
-    '''public XmlObject[] selectChildren(final QName elementName)
-    public XmlObject[] selectChildren(final String elementUri, final String elementLocalName)
-    public XmlObject[] selectChildren(final QNameSet elementNameSet)
+    '''returns XmlObject[]\n\n
+    selectChildren(final QName elementName)\n
+    selectChildren(final String elementUri, final String elementLocalName)\n
+    selectChildren(final QNameSet elementNameSet)\n
     '''
 def selectAttribute():
-    '''public XmlObject selectAttribute(final QName attributeName)
-    public XmlObject selectAttribute(final String attributeUri, final String attributeLocalName)
+    '''returns XmlObject\n\n
+    selectAttribute(final QName attributeName)\n
+    selectAttribute(final String attributeUri, final String attributeLocalName)\n
     '''
 def selectAttributes():
-    '''public XmlObject[] selectAttributes(final QNameSet attributeNameSet)
+    '''returns XmlObject[]\n\n
+    selectAttributes(final QNameSet attributeNameSet)\n
     '''

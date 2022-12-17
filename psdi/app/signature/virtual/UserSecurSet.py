@@ -1,6 +1,8 @@
-def UserSecurSet():
-    '''public UserSecurSet(final MboServerInterface ms)
+def ():
+    '''returns UserSecurSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

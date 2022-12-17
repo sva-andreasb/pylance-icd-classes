@@ -1,49 +1,65 @@
-def RemoteControllerData():
-    '''public RemoteControllerData(final String origin, final int portSSH, final String privateKey, final String publicKey, final String ticketUID, final long timeToLive)
-    public RemoteControllerData()
+def ():
+    '''returns RemoteControllerData\n\n
+    (final String origin, final int portSSH, final String privateKey, final String publicKey, final String ticketUID, final long timeToLive)\n
+    ()\n
     '''
 def getOrigin():
-    '''public String getOrigin()
+    '''returns String\n\n
+    getOrigin()\n
     '''
 def setOrigin():
-    '''public void setOrigin(final String origin)
+    '''returns None\n\n
+    setOrigin(final String origin)\n
     '''
 def getTimeToLive():
-    '''public long getTimeToLive()
+    '''returns long\n\n
+    getTimeToLive()\n
     '''
 def setTimeToLive():
-    '''public void setTimeToLive(final long timeToLive)
+    '''returns None\n\n
+    setTimeToLive(final long timeToLive)\n
     '''
 def getPortSSH():
-    '''public int getPortSSH()
+    '''returns int\n\n
+    getPortSSH()\n
     '''
 def setPortSSH():
-    '''public void setPortSSH(final int portSSH)
+    '''returns None\n\n
+    setPortSSH(final int portSSH)\n
     '''
 def getPrivateKey():
-    '''public String getPrivateKey()
+    '''returns String\n\n
+    getPrivateKey()\n
     '''
 def setPrivateKey():
-    '''public void setPrivateKey(final String privateKey)
+    '''returns None\n\n
+    setPrivateKey(final String privateKey)\n
     '''
 def getPublicKey():
-    '''public String getPublicKey()
+    '''returns String\n\n
+    getPublicKey()\n
     '''
 def setPublicKey():
-    '''public void setPublicKey(final String publicKey)
+    '''returns None\n\n
+    setPublicKey(final String publicKey)\n
     '''
 def getTicketUID():
-    '''public String getTicketUID()
+    '''returns String\n\n
+    getTicketUID()\n
     '''
 def setTicketUID():
-    '''public void setTicketUID(final String ticketUID)
+    '''returns None\n\n
+    setTicketUID(final String ticketUID)\n
     '''
 def getError():
-    '''public String getError()
+    '''returns String\n\n
+    getError()\n
     '''
 def setError():
-    '''public void setError(final String error)
+    '''returns None\n\n
+    setError(final String error)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

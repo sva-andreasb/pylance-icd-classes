@@ -1,21 +1,28 @@
-def CardinalityRestrictionImpl():
-    '''public CardinalityRestrictionImpl(final Node n, final EnhGraph g)
+def ():
+    '''returns CardinalityRestrictionImpl\n\n
+    (final Node n, final EnhGraph g)\n
     '''
 def setCardinality():
-    '''public void setCardinality(final int cardinality)
+    '''returns None\n\n
+    setCardinality(final int cardinality)\n
     '''
 def getCardinality():
-    '''public int getCardinality()
+    '''returns int\n\n
+    getCardinality()\n
     '''
 def hasCardinality():
-    '''public boolean hasCardinality(final int cardinality)
+    '''returns boolean\n\n
+    hasCardinality(final int cardinality)\n
     '''
 def removeCardinality():
-    '''public void removeCardinality(final int cardinality)
+    '''returns None\n\n
+    removeCardinality(final int cardinality)\n
     '''
 def wrap():
-    '''public EnhNode wrap(final Node n, final EnhGraph eg)
+    '''returns EnhNode\n\n
+    wrap(final Node n, final EnhGraph eg)\n
     '''
 def canWrap():
-    '''public boolean canWrap(final Node node, final EnhGraph eg)
+    '''returns boolean\n\n
+    canWrap(final Node node, final EnhGraph eg)\n
     '''

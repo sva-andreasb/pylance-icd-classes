@@ -1,12 +1,12 @@
-def SKDAMCrewUtility():
-    '''public static synchronized SKDAMCrewUtility SKDAMCrewUtility()
-    '''
 def updateAllLeafActivities():
-    '''public void updateAllLeafActivities(final MXActivity parentActivity, final IlvTimeInterval timeInterval)
+    '''returns None\n\n
+    updateAllLeafActivities(final MXActivity parentActivity, final IlvTimeInterval timeInterval)\n
     '''
 def getLeafActivity():
-    '''public MXActivity getLeafActivity(final MXActivity parentActivity)
+    '''returns MXActivity\n\n
+    getLeafActivity(final MXActivity parentActivity)\n
     '''
 def getSegmentDates():
-    '''public Date[] getSegmentDates(final MXActivity pm, final int sequence)
+    '''returns Date[]\n\n
+    getSegmentDates(final MXActivity pm, final int sequence)\n
     '''

@@ -1,44 +1,55 @@
 def callbackCompleted():
-    '''public void callbackCompleted(final SubjectSubscriptionImpl subject, final SubjectValue[] values, final long time)
+    '''returns None\n\n
+    callbackCompleted(final SubjectSubscriptionImpl subject, final SubjectValue[] values, final long time)\n
     '''
 def createPost():
-    '''public void createPost(final SubjectInfoImpl subject)
+    '''returns None\n\n
+    createPost(final SubjectInfoImpl subject)\n
     '''
 def createProxyPost():
-    '''public void createProxyPost(final SubjectInfoImpl subject, final byte[] value)
+    '''returns None\n\n
+    createProxyPost(final SubjectInfoImpl subject, final byte[] value)\n
     '''
 def subscribe():
-    '''public void subscribe(final SubjectInfoImpl subject)
+    '''returns None\n\n
+    subscribe(final SubjectInfoImpl subject)\n
     '''
 def subscribeProxy():
-    '''public void subscribeProxy(final SubjectInfoImpl subject)
+    '''returns None\n\n
+    subscribeProxy(final SubjectInfoImpl subject)\n
     '''
 def unsubscribe():
-    '''public void unsubscribe(final SubjectInfoImpl subject)
+    '''returns None\n\n
+    unsubscribe(final SubjectInfoImpl subject)\n
     '''
 def updatePost():
-    '''public void updatePost(final SubjectInfoImpl subject, final byte[] data, final boolean proxy)
+    '''returns None\n\n
+    updatePost(final SubjectInfoImpl subject, final byte[] data, final boolean proxy)\n
     '''
-def BBReporter():
-    '''public BBReporter(final BBUserMonitor bb)
+def ():
+    '''returns PostingServer\n\n
+    (final BBUserMonitor bb)\n
+    (final String name)\n
     '''
 def run():
-    '''public Object run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def stopReporting():
-    '''public void stopReporting()
+    '''returns None\n\n
+    stopReporting()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
-    '''
-def PostingServer():
-    '''public PostingServer(final String name)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def updateReceived():
-    '''public void updateReceived(final long postVersion)
+    '''returns None\n\n
+    updateReceived(final long postVersion)\n
     '''

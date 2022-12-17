@@ -1,3 +1,4 @@
-def MalformedIDNException():
-    '''public MalformedIDNException(final StringPrepParseException e)
+def ():
+    '''returns MalformedIDNException\n\n
+    (final StringPrepParseException e)\n
     '''

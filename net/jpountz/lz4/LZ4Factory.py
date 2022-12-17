@@ -1,40 +1,29 @@
-def nativeInstance():
-    '''public static synchronized LZ4Factory nativeInstance()
-    '''
-def safeInstance():
-    '''public static synchronized LZ4Factory safeInstance()
-    '''
-def unsafeInstance():
-    '''public static synchronized LZ4Factory unsafeInstance()
-    '''
-def fastestJavaInstance():
-    '''public static LZ4Factory fastestJavaInstance()
-    '''
-def fastestInstance():
-    '''public static LZ4Factory fastestInstance()
-    '''
 def fastCompressor():
-    '''public LZ4Compressor fastCompressor()
+    '''returns LZ4Compressor\n\n
+    fastCompressor()\n
     '''
 def highCompressor():
-    '''public LZ4Compressor highCompressor()
-    public LZ4Compressor highCompressor(int compressionLevel)
+    '''returns LZ4Compressor\n\n
+    highCompressor()\n
+    highCompressor(int compressionLevel)\n
     '''
 def fastDecompressor():
-    '''public LZ4FastDecompressor fastDecompressor()
+    '''returns LZ4FastDecompressor\n\n
+    fastDecompressor()\n
     '''
 def safeDecompressor():
-    '''public LZ4SafeDecompressor safeDecompressor()
+    '''returns LZ4SafeDecompressor\n\n
+    safeDecompressor()\n
     '''
 def unknownSizeDecompressor():
-    '''public LZ4UnknownSizeDecompressor unknownSizeDecompressor()
+    '''returns LZ4UnknownSizeDecompressor\n\n
+    unknownSizeDecompressor()\n
     '''
 def decompressor():
-    '''public LZ4Decompressor decompressor()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns LZ4Decompressor\n\n
+    decompressor()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

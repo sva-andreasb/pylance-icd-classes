@@ -1,12 +1,16 @@
-def Task():
-    '''public Task(final String name, final int cost, final Task... dependencies)
+def ():
+    '''returns Task\n\n
+    (final String name, final int cost, final Task... dependencies)\n
     '''
 def setLatest():
-    '''public void setLatest()
+    '''returns None\n\n
+    setLatest()\n
     '''
 def toStringArray():
-    '''public String[] toStringArray()
+    '''returns String[]\n\n
+    toStringArray()\n
     '''
 def isDependent():
-    '''public boolean isDependent(final Task t)
+    '''returns boolean\n\n
+    isDependent(final Task t)\n
     '''

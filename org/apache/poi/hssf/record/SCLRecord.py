@@ -1,29 +1,38 @@
 sid = "short  160"
-def SCLRecord():
-    '''public SCLRecord()
-    public SCLRecord(final RecordInputStream in)
+def ():
+    '''returns SCLRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getNumerator():
-    '''public short getNumerator()
+    '''returns short\n\n
+    getNumerator()\n
     '''
 def setNumerator():
-    '''public void setNumerator(final short field_1_numerator)
+    '''returns None\n\n
+    setNumerator(final short field_1_numerator)\n
     '''
 def getDenominator():
-    '''public short getDenominator()
+    '''returns short\n\n
+    getDenominator()\n
     '''
 def setDenominator():
-    '''public void setDenominator(final short field_2_denominator)
+    '''returns None\n\n
+    setDenominator(final short field_2_denominator)\n
     '''

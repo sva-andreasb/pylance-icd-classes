@@ -1,73 +1,92 @@
-def DisRegistrationClient():
-    '''public DisRegistrationClient(final IDisWrapper wrapper)
-    public DisRegistrationClient(final JdbcConnectionInfo info)
+def ():
+    '''returns DisRegistrationClient\n\n
+    (final IDisWrapper wrapper)\n
+    (final JdbcConnectionInfo info)\n
     '''
 def registerAbstractResources():
-    '''public List<ObjectId> registerAbstractResources(final ObjectId mssId, final List<ModelObject> instances)
+    '''returns List<ObjectId>\n\n
+    registerAbstractResources(final ObjectId mssId, final List<ModelObject> instances)\n
     '''
 def registerInstance():
-    '''public ObjectId registerInstance(final ObjectId mssId, final ModelObject instance)
+    '''returns ObjectId\n\n
+    registerInstance(final ObjectId mssId, final ModelObject instance)\n
     '''
 def registerInstances():
-    '''public List<ObjectId> registerInstances(final ObjectId mssId, final List<ModelObject> instances)
+    '''returns List<ObjectId>\n\n
+    registerInstances(final ObjectId mssId, final List<ModelObject> instances)\n
     '''
 def registerMss():
-    '''public ObjectId registerMss(final ManagementSoftwareSystem mss)
+    '''returns ObjectId\n\n
+    registerMss(final ManagementSoftwareSystem mss)\n
     '''
 def registerRelationship():
-    '''public ObjectId registerRelationship(final ObjectId mssId, final Relationship relationship)
-    public ObjectId registerRelationship(final ObjectId mssId, final String relationshipType, final String sourceSourceToken, final String targetSourceToken)
+    '''returns ObjectId\n\n
+    registerRelationship(final ObjectId mssId, final Relationship relationship)\n
+    registerRelationship(final ObjectId mssId, final String relationshipType, final String sourceSourceToken, final String targetSourceToken)\n
     '''
 def registerRelationships():
-    '''public List<ObjectId> registerRelationships(final ObjectId mssId, final List<Relationship> relationships)
+    '''returns List<ObjectId>\n\n
+    registerRelationships(final ObjectId mssId, final List<Relationship> relationships)\n
     '''
 def unregisterInstances():
-    '''public void unregisterInstances(final ObjectId mssId, final List<ObjectId> instanceIds)
-    public void unregisterInstances(final ObjectId mssId, final ModelObject objectFilter)
+    '''returns None\n\n
+    unregisterInstances(final ObjectId mssId, final List<ObjectId> instanceIds)\n
+    unregisterInstances(final ObjectId mssId, final ModelObject objectFilter)\n
     '''
 def unregisterRelationship():
-    '''public void unregisterRelationship(final ObjectId mssId, final ObjectId relationshipId)
-    public void unregisterRelationship(final ObjectId mssId, final Relationship relationshipFilter)
+    '''returns None\n\n
+    unregisterRelationship(final ObjectId mssId, final ObjectId relationshipId)\n
+    unregisterRelationship(final ObjectId mssId, final Relationship relationshipFilter)\n
     '''
 def updateInstance():
-    '''public void updateInstance(final ObjectId mssId, final ObjectId instanceId, final Map<String, Object> updatedAttributes)
-    '''
-def registerTask():
-    '''public final void registerTask(final ObjectId mssId, String className, final Task task)
+    '''returns None\n\n
+    updateInstance(final ObjectId mssId, final ObjectId instanceId, final Map<String, Object> updatedAttributes)\n
     '''
 def unregisterTask():
-    '''public void unregisterTask(final ObjectId mssId, String className, String taskName)
+    '''returns None\n\n
+    unregisterTask(final ObjectId mssId, String className, String taskName)\n
     '''
 def getDisInstance():
-    '''public DataIntegrationServices getDisInstance()
+    '''returns DataIntegrationServices\n\n
+    getDisInstance()\n
     '''
 def setDisInstance():
-    '''public void setDisInstance(final DataIntegrationServices dis)
+    '''returns None\n\n
+    setDisInstance(final DataIntegrationServices dis)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def rollback():
-    '''public void rollback()
+    '''returns None\n\n
+    rollback()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def registerClassSupport():
-    '''public void registerClassSupport(final ObjectId mssId, final String unvalidatedClassName, final Set<String> attributeNames, final EnumSet<ClassOperation> operations)
+    '''returns None\n\n
+    registerClassSupport(final ObjectId mssId, final String unvalidatedClassName, final Set<String> attributeNames, final EnumSet<ClassOperation> operations)\n
     '''
 def registerNewAttributes():
-    '''public void registerNewAttributes(final String className, final Set<ObjectAttribute> attributeNames)
+    '''returns None\n\n
+    registerNewAttributes(final String className, final Set<ObjectAttribute> attributeNames)\n
     '''
 def registerNewClass():
-    '''public void registerNewClass(final ObjectClass newClass)
+    '''returns None\n\n
+    registerNewClass(final ObjectClass newClass)\n
     '''
 def unregisterAttributes():
-    '''public void unregisterAttributes(final String className, final Set<String> attributeNames)
+    '''returns None\n\n
+    unregisterAttributes(final String className, final Set<String> attributeNames)\n
     '''
 def unregisterClassSupport():
-    '''public void unregisterClassSupport(final ObjectId mssId, final Set<String> classNames)
+    '''returns None\n\n
+    unregisterClassSupport(final ObjectId mssId, final Set<String> classNames)\n
     '''
 def unregisterClasses():
-    '''public void unregisterClasses(final Set<String> classNames)
+    '''returns None\n\n
+    unregisterClasses(final Set<String> classNames)\n
     '''

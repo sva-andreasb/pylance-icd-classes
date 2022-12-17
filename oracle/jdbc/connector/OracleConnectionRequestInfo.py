@@ -1,18 +1,24 @@
-def OracleConnectionRequestInfo():
-    '''public OracleConnectionRequestInfo(final String user, final String password)
+def ():
+    '''returns OracleConnectionRequestInfo\n\n
+    (final String user, final String password)\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final String user)
+    '''returns None\n\n
+    setUser(final String user)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

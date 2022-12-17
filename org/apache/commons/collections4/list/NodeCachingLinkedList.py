@@ -1,5 +1,6 @@
-def NodeCachingLinkedList():
-    '''public NodeCachingLinkedList()
-    public NodeCachingLinkedList(final Collection<? extends E> coll)
-    public NodeCachingLinkedList(final int maximumCacheSize)
+def ():
+    '''returns NodeCachingLinkedList\n\n
+    ()\n
+    (final Collection<? extends E> coll)\n
+    (final int maximumCacheSize)\n
     '''

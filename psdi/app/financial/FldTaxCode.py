@@ -1,9 +1,12 @@
-def FldTaxCode():
-    '''public FldTaxCode(final MboValue mbv)
+def ():
+    '''returns FldTaxCode\n\n
+    (final MboValue mbv)\n
     '''
 def getTypeCode():
-    '''public int getTypeCode()
+    '''returns int\n\n
+    getTypeCode()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

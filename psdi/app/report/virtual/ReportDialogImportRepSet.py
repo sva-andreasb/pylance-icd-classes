@@ -1,3 +1,4 @@
-def ReportDialogImportRepSet():
-    '''public ReportDialogImportRepSet(final MboServerInterface ms)
+def ():
+    '''returns ReportDialogImportRepSet\n\n
+    (final MboServerInterface ms)\n
     '''

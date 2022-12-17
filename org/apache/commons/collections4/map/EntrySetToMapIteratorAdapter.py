@@ -1,24 +1,28 @@
-def EntrySetToMapIteratorAdapter():
-    '''public EntrySetToMapIteratorAdapter(final Set<Map.Entry<K, V>> entrySet)
+def ():
+    '''returns EntrySetToMapIteratorAdapter\n\n
+    (final Set<Map.Entry<K, V>> entrySet)\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public K next()
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns K\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

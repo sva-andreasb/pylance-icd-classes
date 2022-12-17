@@ -19,21 +19,22 @@ WS = "byte  17"
 ON = "byte  18"
 TYPE_MIN = "byte  0"
 TYPE_MAX = "byte  18"
-def BidiOrder():
-    '''public BidiOrder(final byte[] types)
-    public BidiOrder(final byte[] types, final byte paragraphEmbeddingLevel)
-    public BidiOrder(final char[] text, final int offset, final int length, final byte paragraphEmbeddingLevel)
-    '''
-def getDirection():
-    '''public static final byte getDirection(final char c)
+def ():
+    '''returns BidiOrder\n\n
+    (final byte[] types)\n
+    (final byte[] types, final byte paragraphEmbeddingLevel)\n
+    (final char[] text, final int offset, final int length, final byte paragraphEmbeddingLevel)\n
     '''
 def getLevels():
-    '''public byte[] getLevels()
-    public byte[] getLevels(final int[] linebreaks)
+    '''returns byte[]\n\n
+    getLevels()\n
+    getLevels(final int[] linebreaks)\n
     '''
 def getReordering():
-    '''public int[] getReordering(final int[] linebreaks)
+    '''returns int[]\n\n
+    getReordering(final int[] linebreaks)\n
     '''
 def getBaseLevel():
-    '''public byte getBaseLevel()
+    '''returns byte\n\n
+    getBaseLevel()\n
     '''

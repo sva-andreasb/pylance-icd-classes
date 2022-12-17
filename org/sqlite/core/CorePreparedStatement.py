@@ -1,9 +1,12 @@
 def executeBatch():
-    '''public int[] executeBatch()
+    '''returns int[]\n\n
+    executeBatch()\n
     '''
 def clearBatch():
-    '''public void clearBatch()
+    '''returns None\n\n
+    clearBatch()\n
     '''
 def getUpdateCount():
-    '''public int getUpdateCount()
+    '''returns int\n\n
+    getUpdateCount()\n
     '''

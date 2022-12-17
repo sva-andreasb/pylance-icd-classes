@@ -1,4 +1,5 @@
-def BooleanHolder():
-    '''public BooleanHolder()
-    public BooleanHolder(final boolean value)
+def ():
+    '''returns BooleanHolder\n\n
+    ()\n
+    (final boolean myboolean)\n
     '''

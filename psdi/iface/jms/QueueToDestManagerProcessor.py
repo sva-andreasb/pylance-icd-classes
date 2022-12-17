@@ -1,6 +1,8 @@
 def processMessage():
-    '''public void processMessage(final Map<String, String> header, final byte[] data, final MXTransaction tx, final UserInfo userInfo)
+    '''returns None\n\n
+    processMessage(final Map<String, String> header, final byte[] data, final MXTransaction tx, final UserInfo userInfo)\n
     '''
 def writeBytesToXML():
-    '''public void writeBytesToXML(final byte[] bytes, final File outFile)
+    '''returns None\n\n
+    writeBytesToXML(final byte[] bytes, final File outFile)\n
     '''

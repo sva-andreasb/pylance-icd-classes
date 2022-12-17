@@ -1,6 +1,8 @@
-def InvocationException():
-    '''public InvocationException(final ObjectReference exception)
+def ():
+    '''returns InvocationException\n\n
+    (final ObjectReference exception)\n
     '''
 def exception():
-    '''public ObjectReference exception()
+    '''returns ObjectReference\n\n
+    exception()\n
     '''

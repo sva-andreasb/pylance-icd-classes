@@ -1,21 +1,16 @@
-def forStrategy():
-    '''public static Grouper forStrategy(final NumberFormatter.GroupingStrategy grouping)
-    '''
-def forProperties():
-    '''public static Grouper forProperties(final DecimalFormatProperties properties)
-    '''
-def getInstance():
-    '''public static Grouper getInstance(final short grouping1, final short grouping2, final short minGrouping)
-    '''
 def withLocaleData():
-    '''public Grouper withLocaleData(final ULocale locale, final PatternStringParser.ParsedPatternInfo patternInfo)
+    '''returns Grouper\n\n
+    withLocaleData(final ULocale locale, final PatternStringParser.ParsedPatternInfo patternInfo)\n
     '''
 def groupAtPosition():
-    '''public boolean groupAtPosition(int position, final DecimalQuantity value)
+    '''returns boolean\n\n
+    groupAtPosition(int position, final DecimalQuantity value)\n
     '''
 def getPrimary():
-    '''public short getPrimary()
+    '''returns short\n\n
+    getPrimary()\n
     '''
 def getSecondary():
-    '''public short getSecondary()
+    '''returns short\n\n
+    getSecondary()\n
     '''

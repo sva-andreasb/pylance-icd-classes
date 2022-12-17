@@ -1,15 +1,20 @@
-def ModLocation():
-    '''public ModLocation()
+def ():
+    '''returns ModLocation\n\n
+    ()\n
     '''
 def registerWith():
-    '''public void registerWith(final CmdGeneral cmdLine)
+    '''returns None\n\n
+    registerWith(final CmdGeneral cmdLine)\n
     '''
 def checkCommandLine():
-    '''public void checkCommandLine(final CmdArgModule cmdLine)
+    '''returns None\n\n
+    checkCommandLine(final CmdArgModule cmdLine)\n
     '''
 def processArgs():
-    '''public void processArgs(final CmdArgModule cmdLine)
+    '''returns None\n\n
+    processArgs(final CmdArgModule cmdLine)\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''

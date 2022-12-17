@@ -1,40 +1,53 @@
 def getCurrentAppName():
-    '''public String getCurrentAppName()
+    '''returns String\n\n
+    getCurrentAppName()\n
     '''
-def RSConfigSelectSet():
-    '''public RSConfigSelectSet(final MboServerInterface ms)
+def ():
+    '''returns RSConfigSelectSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def isNewAppSelected():
-    '''public boolean isNewAppSelected()
+    '''returns boolean\n\n
+    isNewAppSelected()\n
     '''
 def loadDataFromMemoryRSConfig():
-    '''public void loadDataFromMemoryRSConfig()
+    '''returns None\n\n
+    loadDataFromMemoryRSConfig()\n
     '''
 def syncForSave():
-    '''public void syncForSave()
+    '''returns None\n\n
+    syncForSave()\n
     '''
 def addAttributeAtEnd():
-    '''public MboRemote addAttributeAtEnd(final MboRemote rsconfig)
+    '''returns MboRemote\n\n
+    addAttributeAtEnd(final MboRemote rsconfig)\n
     '''
 def selectAttribute():
-    '''public MboRemote selectAttribute(final MboRemote maxAttrMbo, final String relationPath, final MboRemote currentRelatedObject)
+    '''returns MboRemote\n\n
+    selectAttribute(final MboRemote maxAttrMbo, final String relationPath, final MboRemote currentRelatedObject)\n
     '''
 def unSelectAttribute():
-    '''public void unSelectAttribute(final int row)
-    public void unSelectAttribute(final MboRemote mbo)
+    '''returns None\n\n
+    unSelectAttribute(final int row)\n
+    unSelectAttribute(final MboRemote mbo)\n
     '''
 def newAppSelected():
-    '''public void newAppSelected()
+    '''returns None\n\n
+    newAppSelected()\n
     '''
 def clearSelectSet():
-    '''public void clearSelectSet()
+    '''returns None\n\n
+    clearSelectSet()\n
     '''
 def getStringSelectColumnName():
-    '''public String getStringSelectColumnName()
+    '''returns String\n\n
+    getStringSelectColumnName()\n
     '''

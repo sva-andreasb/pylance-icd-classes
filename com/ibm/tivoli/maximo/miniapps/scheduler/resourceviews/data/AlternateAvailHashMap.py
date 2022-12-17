@@ -1,27 +1,36 @@
-def AlternateAvailHashMap():
-    '''public AlternateAvailHashMap(final String projectName)
+def ():
+    '''returns AlternateAvailHashMap\n\n
+    (final String projectName)\n
     '''
 def getToolitemAlternateAvailValue():
-    '''public AlternateAvailData getToolitemAlternateAvailValue(final String res, final Range<Date> date)
+    '''returns AlternateAvailData\n\n
+    getToolitemAlternateAvailValue(final String res, final Range<Date> date)\n
     '''
 def getResourceAvailValue():
-    '''public double getResourceAvailValue(final String shift, final String res, final Date date)
+    '''returns double\n\n
+    getResourceAvailValue(final String shift, final String res, final Date date)\n
     '''
 def getProjectName():
-    '''public String getProjectName()
+    '''returns String\n\n
+    getProjectName()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
     '''
 def createToolitemKeyFromData():
-    '''public String createToolitemKeyFromData(final String res)
+    '''returns String\n\n
+    createToolitemKeyFromData(final String res)\n
     '''
 def createResourceKeyFromData():
-    '''public String createResourceKeyFromData(final String group, final String res)
+    '''returns String\n\n
+    createResourceKeyFromData(final String group, final String res)\n
     '''
 def populateFromDd():
-    '''public void populateFromDd(final ConnectionKey connectionKey)
+    '''returns None\n\n
+    populateFromDd(final ConnectionKey connectionKey)\n
     '''

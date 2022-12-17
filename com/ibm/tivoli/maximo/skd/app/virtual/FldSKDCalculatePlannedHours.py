@@ -1,7 +1,9 @@
-def FldSKDCalculatePlannedHours():
-    '''public FldSKDCalculatePlannedHours()
-    public FldSKDCalculatePlannedHours(final MboValue mbv)
+def ():
+    '''returns FldSKDCalculatePlannedHours\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

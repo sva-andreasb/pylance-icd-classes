@@ -1,3 +1,4 @@
-def PlusPFldStatus():
-    '''public PlusPFldStatus(final MboValue arg0)
+def ():
+    '''returns PlusPFldStatus\n\n
+    (final MboValue arg0)\n
     '''

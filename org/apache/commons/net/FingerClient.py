@@ -1,12 +1,15 @@
 DEFAULT_PORT = "int  79"
-def FingerClient():
-    '''public FingerClient()
+def ():
+    '''returns FingerClient\n\n
+    ()\n
     '''
 def query():
-    '''public String query(final boolean longOutput, final String username)
-    public String query(final boolean longOutput)
+    '''returns String\n\n
+    query(final boolean longOutput, final String username)\n
+    query(final boolean longOutput)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream(final boolean longOutput, final String username)
-    public InputStream getInputStream(final boolean longOutput)
+    '''returns InputStream\n\n
+    getInputStream(final boolean longOutput, final String username)\n
+    getInputStream(final boolean longOutput)\n
     '''

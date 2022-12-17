@@ -1,7 +1,9 @@
-def PlusPFldWOState():
-    '''public PlusPFldWOState()
-    public PlusPFldWOState(final MboValue mbv)
+def ():
+    '''returns PlusPFldWOState\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

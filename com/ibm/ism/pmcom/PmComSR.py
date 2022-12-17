@@ -1,22 +1,29 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmComSR():
-    '''public PmComSR(final MboSet ms)
+def ():
+    '''returns PmComSR\n\n
+    (final MboSet ms)\n
     '''
 def getRecordMboName():
-    '''public String getRecordMboName()
+    '''returns String\n\n
+    getRecordMboName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def pmcomCreateSR():
-    '''public MboRemote pmcomCreateSR()
+    '''returns MboRemote\n\n
+    pmcomCreateSR()\n
     '''
 def updateRequestState():
-    '''public void updateRequestState(final String status)
+    '''returns None\n\n
+    updateRequestState(final String status)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

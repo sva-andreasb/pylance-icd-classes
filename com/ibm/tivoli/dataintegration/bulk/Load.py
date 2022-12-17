@@ -1,21 +1,24 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
-def Load():
-    '''public Load()
+def ():
+    '''returns Load\n\n
+    ()\n
     '''
 def loadXml():
-    '''public void loadXml(final String[] args)
+    '''returns None\n\n
+    loadXml(final String[] args)\n
     '''
 def accept():
-    '''public boolean accept(final File dir, final String name)
+    '''returns boolean\n\n
+    accept(final File dir, final String name)\n
     '''
 def getShortHelp():
-    '''public String getShortHelp(final Locale locale)
+    '''returns String\n\n
+    getShortHelp(final Locale locale)\n
     '''
 def getLongHelp():
-    '''public String getLongHelp(final Locale locale)
+    '''returns String\n\n
+    getLongHelp(final Locale locale)\n
     '''
 def run():
-    '''public Object run(final Properties props)
+    '''returns Object\n\n
+    run(final Properties props)\n
     '''

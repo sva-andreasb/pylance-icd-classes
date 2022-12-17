@@ -1,12 +1,16 @@
-def XSSFBCommentsTable():
-    '''public XSSFBCommentsTable(final InputStream is)
+def ():
+    '''returns XSSFBCommentsTable\n\n
+    (final InputStream is)\n
     '''
 def handleRecord():
-    '''public void handleRecord(final int id, final byte[] data)
+    '''returns None\n\n
+    handleRecord(final int id, final byte[] data)\n
     '''
 def getAddresses():
-    '''public Queue<CellAddress> getAddresses()
+    '''returns Queue<CellAddress>\n\n
+    getAddresses()\n
     '''
 def get():
-    '''public XSSFBComment get(final CellAddress cellAddress)
+    '''returns XSSFBComment\n\n
+    get(final CellAddress cellAddress)\n
     '''

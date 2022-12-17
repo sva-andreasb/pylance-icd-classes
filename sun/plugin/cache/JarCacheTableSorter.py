@@ -1,27 +1,36 @@
-def JarCacheTableSorter():
-    '''public JarCacheTableSorter(final String[] array)
+def ():
+    '''returns JarCacheTableSorter\n\n
+    (final String[] array)\n
     '''
 def compareRowsByColumn():
-    '''public int compareRowsByColumn(final JarCacheEntry jarCacheEntry, final JarCacheEntry jarCacheEntry2)
+    '''returns int\n\n
+    compareRowsByColumn(final JarCacheEntry jarCacheEntry, final JarCacheEntry jarCacheEntry2)\n
     '''
 def sort():
-    '''public void sort()
+    '''returns None\n\n
+    sort()\n
     '''
 def compare():
-    '''public int compare(final Object o, final Object o2)
+    '''returns int\n\n
+    compare(final Object o, final Object o2)\n
     '''
 def sortByColumn():
-    '''public void sortByColumn(final int selectedColumn)
+    '''returns None\n\n
+    sortByColumn(final int selectedColumn)\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def removeRows():
-    '''public void removeRows(final int[] array)
+    '''returns None\n\n
+    removeRows(final int[] array)\n
     '''
 def addMouseListenerToHeaderInTable():
-    '''public void addMouseListenerToHeaderInTable(final JTable table)
+    '''returns None\n\n
+    addMouseListenerToHeaderInTable(final JTable table)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent mouseEvent)\n
     '''

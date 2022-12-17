@@ -1,21 +1,28 @@
-def MTContext():
-    '''public MTContext(final String tenantCode, final int tenantID)
+def ():
+    '''returns MTContext\n\n
+    (final String tenantCode, final int tenantID)\n
     '''
 def isMaster():
-    '''public boolean isMaster()
+    '''returns boolean\n\n
+    isMaster()\n
     '''
 def isLandlord():
-    '''public boolean isLandlord()
+    '''returns boolean\n\n
+    isLandlord()\n
     '''
 def getTenantCode():
-    '''public String getTenantCode()
+    '''returns String\n\n
+    getTenantCode()\n
     '''
 def getTenantID():
-    '''public Integer getTenantID()
+    '''returns Integer\n\n
+    getTenantID()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final MTContext arg0)
+    '''returns int\n\n
+    compareTo(final MTContext arg0)\n
     '''

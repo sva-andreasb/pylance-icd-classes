@@ -1,18 +1,23 @@
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    public void setupBean(final SessionContext sc)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
+    setupBean(final SessionContext sc)\n
     '''
 def getString():
-    '''public String getString(final String attribute)
+    '''returns String\n\n
+    getString(final String attribute)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String attribute)
+    '''returns boolean\n\n
+    getBoolean(final String attribute)\n
     '''
 def getInt():
-    '''public int getInt(final String attribute)
+    '''returns int\n\n
+    getInt(final String attribute)\n
     '''
 def setValue():
-    '''public void setValue(final String attribute, final String value)
-    public void setValue(final String attribute, final int value)
-    public void setValue(final String attribute, final boolean value)
+    '''returns None\n\n
+    setValue(final String attribute, final String value)\n
+    setValue(final String attribute, final int value)\n
+    setValue(final String attribute, final boolean value)\n
     '''

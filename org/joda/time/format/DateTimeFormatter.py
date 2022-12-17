@@ -1,95 +1,123 @@
-def DateTimeFormatter():
-    '''public DateTimeFormatter(final DateTimePrinter dateTimePrinter, final DateTimeParser dateTimeParser)
+def ():
+    '''returns DateTimeFormatter\n\n
+    (final DateTimePrinter dateTimePrinter, final DateTimeParser dateTimeParser)\n
     '''
 def isPrinter():
-    '''public boolean isPrinter()
+    '''returns boolean\n\n
+    isPrinter()\n
     '''
 def getPrinter():
-    '''public DateTimePrinter getPrinter()
+    '''returns DateTimePrinter\n\n
+    getPrinter()\n
     '''
 def isParser():
-    '''public boolean isParser()
+    '''returns boolean\n\n
+    isParser()\n
     '''
 def getParser():
-    '''public DateTimeParser getParser()
+    '''returns DateTimeParser\n\n
+    getParser()\n
     '''
 def withLocale():
-    '''public DateTimeFormatter withLocale(final Locale locale)
+    '''returns DateTimeFormatter\n\n
+    withLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def withOffsetParsed():
-    '''public DateTimeFormatter withOffsetParsed()
+    '''returns DateTimeFormatter\n\n
+    withOffsetParsed()\n
     '''
 def isOffsetParsed():
-    '''public boolean isOffsetParsed()
+    '''returns boolean\n\n
+    isOffsetParsed()\n
     '''
 def withChronology():
-    '''public DateTimeFormatter withChronology(final Chronology chronology)
+    '''returns DateTimeFormatter\n\n
+    withChronology(final Chronology chronology)\n
     '''
 def getChronology():
-    '''public Chronology getChronology()
+    '''returns Chronology\n\n
+    getChronology()\n
     '''
 def getChronolgy():
-    '''public Chronology getChronolgy()
+    '''returns Chronology\n\n
+    getChronolgy()\n
     '''
 def withZoneUTC():
-    '''public DateTimeFormatter withZoneUTC()
+    '''returns DateTimeFormatter\n\n
+    withZoneUTC()\n
     '''
 def withZone():
-    '''public DateTimeFormatter withZone(final DateTimeZone dateTimeZone)
+    '''returns DateTimeFormatter\n\n
+    withZone(final DateTimeZone dateTimeZone)\n
     '''
 def getZone():
-    '''public DateTimeZone getZone()
+    '''returns DateTimeZone\n\n
+    getZone()\n
     '''
 def withPivotYear():
-    '''public DateTimeFormatter withPivotYear(final Integer obj)
-    public DateTimeFormatter withPivotYear(final int i)
+    '''returns DateTimeFormatter\n\n
+    withPivotYear(final Integer obj)\n
+    withPivotYear(final int i)\n
     '''
 def getPivotYear():
-    '''public Integer getPivotYear()
+    '''returns Integer\n\n
+    getPivotYear()\n
     '''
 def withDefaultYear():
-    '''public DateTimeFormatter withDefaultYear(final int n)
+    '''returns DateTimeFormatter\n\n
+    withDefaultYear(final int n)\n
     '''
 def getDefaultYear():
-    '''public int getDefaultYear()
+    '''returns int\n\n
+    getDefaultYear()\n
     '''
 def printTo():
-    '''public void printTo(final StringBuffer sb, final ReadableInstant readableInstant)
-    public void printTo(final Writer writer, final ReadableInstant readableInstant)
-    public void printTo(final Appendable appendable, final ReadableInstant readableInstant)
-    public void printTo(final StringBuffer sb, final long n)
-    public void printTo(final Writer writer, final long n)
-    public void printTo(final Appendable appendable, final long n)
-    public void printTo(final StringBuffer sb, final ReadablePartial readablePartial)
-    public void printTo(final Writer writer, final ReadablePartial readablePartial)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial)
+    '''returns None\n\n
+    printTo(final StringBuffer sb, final ReadableInstant readableInstant)\n
+    printTo(final Writer writer, final ReadableInstant readableInstant)\n
+    printTo(final Appendable appendable, final ReadableInstant readableInstant)\n
+    printTo(final StringBuffer sb, final long n)\n
+    printTo(final Writer writer, final long n)\n
+    printTo(final Appendable appendable, final long n)\n
+    printTo(final StringBuffer sb, final ReadablePartial readablePartial)\n
+    printTo(final Writer writer, final ReadablePartial readablePartial)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial)\n
     '''
 def print():
-    '''public String print(final ReadableInstant readableInstant)
-    public String print(final long n)
-    public String print(final ReadablePartial readablePartial)
+    '''returns String\n\n
+    print(final ReadableInstant readableInstant)\n
+    print(final long n)\n
+    print(final ReadablePartial readablePartial)\n
     '''
 def parseInto():
-    '''public int parseInto(final ReadWritableInstant readWritableInstant, final String s, final int n)
+    '''returns int\n\n
+    parseInto(final ReadWritableInstant readWritableInstant, final String s, final int n)\n
     '''
 def parseMillis():
-    '''public long parseMillis(final String s)
+    '''returns long\n\n
+    parseMillis(final String s)\n
     '''
 def parseLocalDate():
-    '''public LocalDate parseLocalDate(final String s)
+    '''returns LocalDate\n\n
+    parseLocalDate(final String s)\n
     '''
 def parseLocalTime():
-    '''public LocalTime parseLocalTime(final String s)
+    '''returns LocalTime\n\n
+    parseLocalTime(final String s)\n
     '''
 def parseLocalDateTime():
-    '''public LocalDateTime parseLocalDateTime(final String s)
+    '''returns LocalDateTime\n\n
+    parseLocalDateTime(final String s)\n
     '''
 def parseDateTime():
-    '''public DateTime parseDateTime(final String s)
+    '''returns DateTime\n\n
+    parseDateTime(final String s)\n
     '''
 def parseMutableDateTime():
-    '''public MutableDateTime parseMutableDateTime(final String s)
+    '''returns MutableDateTime\n\n
+    parseMutableDateTime(final String s)\n
     '''

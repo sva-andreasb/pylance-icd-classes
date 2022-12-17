@@ -1,19 +1,25 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloDecisionObjectiveBase():
-    '''public IloDecisionObjectiveBase(final String name, final IloPropertiesDef defs)
+def ():
+    '''returns IloDecisionObjectiveBase\n\n
+    (final String name, final IloPropertiesDef defs)\n
     '''
 def getIdentifier():
-    '''public IloObjectiveId getIdentifier()
+    '''returns IloObjectiveId\n\n
+    getIdentifier()\n
     '''
 def getPropertiesDef():
-    '''public IloPropertiesDef getPropertiesDef()
+    '''returns IloPropertiesDef\n\n
+    getPropertiesDef()\n
     '''
 def getModel():
-    '''public IloDecisionModel getModel()
+    '''returns IloDecisionModel\n\n
+    getModel()\n
     '''
 def setModel():
-    '''public void setModel(final IloDecisionModel model)
+    '''returns None\n\n
+    setModel(final IloDecisionModel model)\n
     '''
 def onChangeProperty():
-    '''public void onChangeProperty(final int index, final Object oldValue, final IloEngineController ctl)
+    '''returns None\n\n
+    onChangeProperty(final int index, final Object oldValue, final IloEngineController ctl)\n
     '''

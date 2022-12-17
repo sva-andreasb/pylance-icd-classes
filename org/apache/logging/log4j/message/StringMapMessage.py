@@ -1,8 +1,10 @@
-def StringMapMessage():
-    '''public StringMapMessage()
-    public StringMapMessage(final int initialCapacity)
-    public StringMapMessage(final Map<String, String> map)
+def ():
+    '''returns StringMapMessage\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final Map<String, String> map)\n
     '''
 def newInstance():
-    '''public StringMapMessage newInstance(final Map<String, String> map)
+    '''returns StringMapMessage\n\n
+    newInstance(final Map<String, String> map)\n
     '''

@@ -1,113 +1,130 @@
 CACHE_NAME = "String  \"BMX.MAXIMODD.VI\""
-def getViewColumns():
-    '''public HashMap<String, ViewColumnInfo> getViewColumns()
-    '''
 def getViewFetchAttributeName():
-    '''public String getViewFetchAttributeName(final String tbName, final String tbColName)
-    public String getViewFetchAttributeName(final String viewColName)
+    '''returns String\n\n
+    getViewFetchAttributeName(final String tbName, final String tbColName)\n
+    getViewFetchAttributeName(final String viewColName)\n
     '''
 def clearColumnInfo():
-    '''public void clearColumnInfo()
+    '''returns None\n\n
+    clearColumnInfo()\n
     '''
 def addColumnInfo():
-    '''public void addColumnInfo(final ViewColumnInfo viewColumnInfo)
+    '''returns None\n\n
+    addColumnInfo(final ViewColumnInfo viewColumnInfo)\n
     '''
 def addTableInfo():
-    '''public void addTableInfo(final String tableName, final TableInfo tableInfo)
+    '''returns None\n\n
+    addTableInfo(final String tableName, final TableInfo tableInfo)\n
     '''
 def getTables():
-    '''public Iterator getTables()
+    '''returns Iterator\n\n
+    getTables()\n
     '''
 def getTableInfos():
-    '''public Iterator getTableInfos()
+    '''returns Iterator\n\n
+    getTableInfos()\n
     '''
 def getTableCount():
-    '''public int getTableCount()
+    '''returns int\n\n
+    getTableCount()\n
     '''
 def getEntityColumns():
-    '''public Iterator getEntityColumns()
+    '''returns Iterator\n\n
+    getEntityColumns()\n
     '''
 def getColumns():
-    '''public Iterator getColumns(final String tableName)
+    '''returns Iterator\n\n
+    getColumns(final String tableName)\n
     '''
 def getTableName():
-    '''public String getTableName(final String entityColumnName)
+    '''returns String\n\n
+    getTableName(final String entityColumnName)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final String entityColumnName)
-    public String getColumnName(final String entityColumnName, final String tableName)
+    '''returns String\n\n
+    getColumnName(final String entityColumnName)\n
+    getColumnName(final String entityColumnName, final String tableName)\n
     '''
 def getEntityColumnName():
-    '''public String getEntityColumnName(final String tableColumnName, final String tableName)
+    '''returns String\n\n
+    getEntityColumnName(final String tableColumnName, final String tableName)\n
     '''
 def getKeyColumns():
-    '''public Iterator getKeyColumns(final String tableName)
+    '''returns Iterator\n\n
+    getKeyColumns(final String tableName)\n
     '''
 def getAuditTable():
-    '''public String getAuditTable(final String tableName)
+    '''returns String\n\n
+    getAuditTable(final String tableName)\n
     '''
 def getLangColumnName():
-    '''public String getLangColumnName(final String tableName)
-    '''
-def getOrphans():
-    '''public HashMap<String, String> getOrphans(String tableName)
+    '''returns String\n\n
+    getLangColumnName(final String tableName)\n
     '''
 def getRowStampInfo():
-    '''public RowStampInfo getRowStampInfo()
+    '''returns RowStampInfo\n\n
+    getRowStampInfo()\n
     '''
 def getTenantIdInfo():
-    '''public TenantIdInfo getTenantIdInfo()
+    '''returns TenantIdInfo\n\n
+    getTenantIdInfo()\n
     '''
 def getViewName():
-    '''public String getViewName()
+    '''returns String\n\n
+    getViewName()\n
     '''
 def getAutoSelect():
-    '''public boolean getAutoSelect()
+    '''returns boolean\n\n
+    getAutoSelect()\n
     '''
 def getViewSelect():
-    '''public String getViewSelect()
+    '''returns String\n\n
+    getViewSelect()\n
     '''
 def setTablesInHierarchyOrder():
-    '''public void setTablesInHierarchyOrder(final ArrayList<String> tableNames)
+    '''returns None\n\n
+    setTablesInHierarchyOrder(final ArrayList<String> tableNames)\n
     '''
 def getTablesInHierarchyOrder():
-    '''public Iterator getTablesInHierarchyOrder()
+    '''returns Iterator\n\n
+    getTablesInHierarchyOrder()\n
     '''
 def getTablesInReverseHierarchyOrder():
-    '''public Iterator getTablesInReverseHierarchyOrder()
-    '''
-def setTenantIdInfo():
-    '''public synchronized void setTenantIdInfo(final TenantIdInfo tenantIdInfo)
-    '''
-def setRowStampInfo():
-    '''public synchronized void setRowStampInfo(final RowStampInfo rowStampInfo)
+    '''returns Iterator\n\n
+    getTablesInReverseHierarchyOrder()\n
     '''
 def hasRowStamp():
-    '''public boolean hasRowStamp()
+    '''returns boolean\n\n
+    hasRowStamp()\n
     '''
 def hasImplicitTenantId():
-    '''public boolean hasImplicitTenantId(final String tableName)
-    public boolean hasImplicitTenantId()
+    '''returns boolean\n\n
+    hasImplicitTenantId(final String tableName)\n
+    hasImplicitTenantId()\n
     '''
 def getTypedReference():
-    '''public ViewInfoBase getTypedReference()
+    '''returns ViewInfoBase\n\n
+    getTypedReference()\n
     '''
 def getTypedReferenceForSet():
-    '''public ViewInfoBase getTypedReferenceForSet()
+    '''returns ViewInfoBase\n\n
+    getTypedReferenceForSet()\n
     '''
 def isTenantOwned():
-    '''public boolean isTenantOwned()
+    '''returns boolean\n\n
+    isTenantOwned()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''
-def TableIterator():
-    '''public TableIterator(final Iterator iterator)
+def ():
+    '''returns ColumnIterator\n\n
+    (final Iterator iterator)\n
+    (final Iterator iterator)\n
     '''
 def remove():
-    '''public void remove()
-    public void remove()
-    '''
-def ColumnIterator():
-    '''public ColumnIterator(final Iterator iterator)
+    '''returns None\n\n
+    remove()\n
+    remove()\n
     '''

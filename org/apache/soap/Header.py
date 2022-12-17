@@ -1,30 +1,36 @@
-def Header():
-    '''public Header()
+def ():
+    '''returns Header\n\n
+    ()\n
     '''
 def declareNamespace():
-    '''public void declareNamespace(final String s, final String s2)
+    '''returns None\n\n
+    declareNamespace(final String s, final String s2)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final QName qName)
+    '''returns String\n\n
+    getAttribute(final QName qName)\n
     '''
 def getHeaderEntries():
-    '''public Vector getHeaderEntries()
+    '''returns Vector\n\n
+    getHeaderEntries()\n
     '''
 def marshall():
-    '''public void marshall(final Writer writer, final NSStack nsStack, final XMLJavaMappingRegistry xmlJavaMappingRegistry, final SOAPContext soapContext)
+    '''returns None\n\n
+    marshall(final Writer writer, final NSStack nsStack, final XMLJavaMappingRegistry xmlJavaMappingRegistry, final SOAPContext soapContext)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final QName qName)
+    '''returns None\n\n
+    removeAttribute(final QName qName)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final QName qName, final String s)
+    '''returns None\n\n
+    setAttribute(final QName qName, final String s)\n
     '''
 def setHeaderEntries():
-    '''public void setHeaderEntries(final Vector headerEntries)
+    '''returns None\n\n
+    setHeaderEntries(final Vector headerEntries)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def unmarshall():
-    '''public static Header unmarshall(final Node node, final SOAPContext soapContext)
+    '''returns String\n\n
+    toString()\n
     '''

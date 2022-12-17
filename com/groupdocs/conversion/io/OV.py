@@ -1,6 +1,8 @@
-def OV():
-    '''public OV(final InputStream inputStream)
+def ():
+    '''returns OV\n\n
+    (final InputStream inputStream)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

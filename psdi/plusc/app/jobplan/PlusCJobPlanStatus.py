@@ -1,9 +1,12 @@
-def PlusCJobPlanStatus():
-    '''public PlusCJobPlanStatus(final MboSet mboset)
+def ():
+    '''returns PlusCJobPlanStatus\n\n
+    (final MboSet mboset)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

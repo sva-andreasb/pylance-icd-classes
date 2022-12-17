@@ -1,16 +1,17 @@
 def call():
-    '''public Object call(final Context context, final List args)
+    '''returns Object\n\n
+    call(final Context context, final List args)\n
     '''
-def evaluate():
-    '''public static Object evaluate(final List list, final Navigator nav)
-    '''
-def MatrixEnum():
-    '''public MatrixEnum(final ArrayList _source)
-    public MatrixEnum(final ArrayList _source, final int _maxSize)
+def ():
+    '''returns MatrixEnum\n\n
+    (final ArrayList _source)\n
+    (final ArrayList _source, final int _maxSize)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''

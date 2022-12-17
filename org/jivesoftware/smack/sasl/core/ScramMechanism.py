@@ -1,9 +1,12 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def checkIfSuccessfulOrThrow():
-    '''public void checkIfSuccessfulOrThrow()
+    '''returns None\n\n
+    checkIfSuccessfulOrThrow()\n
     '''
 def authzidSupported():
-    '''public boolean authzidSupported()
+    '''returns boolean\n\n
+    authzidSupported()\n
     '''

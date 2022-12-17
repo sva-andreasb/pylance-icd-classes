@@ -1,24 +1,28 @@
-def MessageBundle():
-    '''public MessageBundle()
+def ():
+    '''returns MessageBundle\n\n
+    ()\n
     '''
 def loadFromFile():
-    '''public void loadFromFile(final String filename)
+    '''returns None\n\n
+    loadFromFile(final String filename)\n
     '''
 def loadFromStream():
-    '''public void loadFromStream(final InputStream inputStream)
+    '''returns None\n\n
+    loadFromStream(final InputStream inputStream)\n
     '''
 def loadFromReader():
-    '''public void loadFromReader(final InputStreamReader reader)
+    '''returns None\n\n
+    loadFromReader(final InputStreamReader reader)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMessage():
-    '''public Message getMessage(final String key)
+    '''returns Message\n\n
+    getMessage(final String key)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    toString()\n
     '''

@@ -13,246 +13,119 @@ DLT_LOAD_CHECKSUM = "int  2"
 DLT_LOAD_DIRECTMEM = "int  4"
 DLT_LOAD_FORCE_NETCOMPACT = "int  8"
 DLT_LOAD_JAR_IN_CLASSPATH = "int  16"
-def Dictionary():
-    '''public Dictionary()
-    public Dictionary(final File file, final String s, final int n, final int n2)
-    public Dictionary(final File dictionaryFile, final int n, final int n2)
-    public Dictionary(final File file, final int n)
-    public Dictionary(final File dictionaryFile, final int n, final ClassLoader classLoader)
-    public Dictionary(final File dictionaryFile, final boolean b, final boolean b2)
-    public Dictionary(final File file, final boolean b)
-    public Dictionary(final File file)
-    '''
-def createDictionary():
-    '''public static Dictionary createDictionary(final DictionaryInfo dictionaryInfo)
-    public static Dictionary createDictionary(final File file, final DictionaryInfo dictionaryInfo)
-    public static Dictionary createDictionary(final DictionaryInfo dictionaryInfo, final int minExtendSize)
-    public static Dictionary createDictionary(final File file, final DictionaryInfo dictionaryInfo, final int minExtendSize)
-    '''
-def getNumberOfEntries():
-    '''public synchronized long getNumberOfEntries()
+def ():
+    '''returns Dictionary\n\n
+    ()\n
+    (final File file, final String s, final int n, final int n2)\n
+    (final File dictionaryFile, final int n, final int n2)\n
+    (final File file, final int n)\n
+    (final File dictionaryFile, final int n, final ClassLoader classLoader)\n
+    (final File dictionaryFile, final boolean b, final boolean b2)\n
+    (final File file, final boolean b)\n
+    (final File file)\n
     '''
 def iterator():
-    '''public Iterator iterator()
-    '''
-def find():
-    '''public static File[] find(final String s, final int n)
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def getNet():
-    '''public MultiNet getNet()
+    '''returns MultiNet\n\n
+    getNet()\n
     '''
 def load():
-    '''public synchronized void load(final File file)
-    public synchronized void load(final File file, final boolean b)
-    public void load(final File file, final boolean b, final boolean b2)
-    public void load(final File file, final int n)
-    public void load(final File file, final int n, final ClassLoader classLoader)
-    public void load(final InputStream inputStream, final boolean b, final boolean b2)
-    public void load(final InputStream inputStream, final int n)
-    public void load(final InputStream in, final int n, final ClassLoader classLoader)
-    public void load(final DataInputStream dataInputStream)
-    public synchronized void load(final DataInputStream dataInputStream, final int n)
-    public synchronized void load(DataInputStream in, final int n, final ClassLoader classLoader)
+    '''returns None\n\n
+    load(final File file, final boolean b, final boolean b2)\n
+    load(final File file, final int n)\n
+    load(final File file, final int n, final ClassLoader classLoader)\n
+    load(final InputStream inputStream, final boolean b, final boolean b2)\n
+    load(final InputStream inputStream, final int n)\n
+    load(final InputStream in, final int n, final ClassLoader classLoader)\n
+    load(final DataInputStream dataInputStream)\n
     '''
 def save():
-    '''public void save()
-    public void save(final boolean b)
-    public void save(final boolean b, final SaveInfo saveInfo)
-    public void save(final File file, final boolean b)
-    public void save(final File file)
+    '''returns None\n\n
+    save()\n
+    save(final boolean b)\n
+    save(final boolean b, final SaveInfo saveInfo)\n
+    save(final File file, final boolean b)\n
+    save(final File file)\n
     '''
 def oovLookup():
-    '''public Object oovLookup(final CharacterIterator characterIterator, final int n)
-    '''
-def lookupLongest():
-    '''public final boolean lookupLongest(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
-    '''
-def lookupLongestReversed():
-    '''public final boolean lookupLongestReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
-    '''
-def lookupWord():
-    '''public final GlossCollection lookupWord(final CharacterIterator characterIterator, final int n)
-    public final Entry lookupWord(final String text)
-    public final void lookupWord(final char[] value, final int offset, final int n, final Entry entry)
-    '''
-def traverse():
-    '''public final int traverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
-    '''
-def traverseReversed():
-    '''public final int traverseReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
-    '''
-def lookupWordUnsafe():
-    '''public final void lookupWordUnsafe(final String text, final Entry entry)
-    '''
-def get():
-    '''public final GlossCollection get(final String text)
-    public final GlossCollection get(final CharacterIterator characterIterator, final int n)
-    '''
-def check():
-    '''public static void check(final File file, final DictionaryInfo dictionaryInfo)
-    '''
-def readHeader():
-    '''public static void readHeader(final File file, final DictionaryInfo dictionaryInfo)
-    public static int readHeader(final DataInputStream dataInputStream, final DictionaryInfo dictionaryInfo)
+    '''returns Object\n\n
+    oovLookup(final CharacterIterator characterIterator, final int n)\n
     '''
 def getSummary():
-    '''public DictionaryInfo getSummary()
-    '''
-def registerType():
-    '''public synchronized void registerType(final int n, final String s)
-    public synchronized void registerType(final int n, final String s, final Class clazz)
-    public synchronized void registerType(final int n, final String s, final Class clazz, final byte[] array)
+    '''returns DictionaryInfo\n\n
+    getSummary()\n
     '''
 def addUserGloss():
-    '''public Gloss addUserGloss(final int n, final byte[] array, final int n2)
-    public Gloss addUserGloss(final int n, final Gloss gloss)
+    '''returns Gloss\n\n
+    addUserGloss(final int n, final byte[] array, final int n2)\n
+    addUserGloss(final int n, final Gloss gloss)\n
     '''
 def addGloss():
-    '''public Gloss addGloss(final int n, final Gloss gloss)
-    '''
-def addWord():
-    '''public final void addWord(final String text, final Gloss gloss)
-    public final void addWord(final CharacterIterator characterIterator, final int n, final Gloss gloss)
-    public final void addWord(final String s, final Gloss[] array)
-    '''
-def put():
-    '''public final void put(final String s, final Gloss gloss)
-    public final void put(final CharacterIterator characterIterator, final int n, final Gloss gloss)
-    '''
-def addMorphGloss():
-    '''public final Gloss addMorphGloss(final Gloss[] array, final int n)
-    public final Gloss addMorphGloss(final Gloss[] array)
-    '''
-def addLemmaGloss():
-    '''public final Gloss addLemmaGloss(final String s, final int n)
-    public final Gloss addLemmaGloss(final String s)
-    '''
-def addLanguageGloss():
-    '''public final Gloss addLanguageGloss(final String s, final int n)
-    '''
-def addIntegerGloss():
-    '''public final Gloss addIntegerGloss(final int n)
-    public final Gloss addIntegerGloss(final int n, final int n2)
+    '''returns Gloss\n\n
+    addGloss(final int n, final Gloss gloss)\n
     '''
 def addFeatureSetGloss():
-    '''public final Gloss addFeatureSetGloss(final int n, final int n2, final int n3, final int n4, final int n5)
-    public final Gloss addFeatureSetGloss(final int n, final int n2, final int n3, final int n4)
-    public final Gloss addFeatureSetGloss(final int n, final int n2, final boolean b, final boolean b2, final boolean b3, final boolean b4)
-    public Gloss addFeatureSetGloss(final int n, final int n2, final boolean b, final boolean b2, final boolean b3, final boolean b4, final boolean b5)
-    '''
-def dispose():
-    '''public synchronized void dispose()
-    '''
-def getLanguages():
-    '''public final String[] getLanguages()
-    '''
-def addCatNameGloss():
-    '''public final Gloss addCatNameGloss(final String s, final int n)
-    '''
-def addCutPasteGloss():
-    '''public final Gloss addCutPasteGloss(final String s, final String s2, final int n, final int n2)
-    '''
-def addGrammarGloss():
-    '''public final Gloss addGrammarGloss(final int[] array, final int n)
+    '''returns Gloss\n\n
+    addFeatureSetGloss(final int n, final int n2, final boolean b, final boolean b2, final boolean b3, final boolean b4, final boolean b5)\n
     '''
 def addJAMorphGloss():
-    '''public Gloss addJAMorphGloss(final int n, final int n2, final int n3, final int n4)
-    public Gloss addJAMorphGloss(final int n, final int n2, final boolean b, final boolean b2)
-    '''
-def addJaGramSetGloss():
-    '''public final Gloss addJaGramSetGloss(final long[] array)
-    '''
-def addJkomBasedCollectionGls():
-    '''public final Gloss addJkomBasedCollectionGls(final int n, final Gloss[] array, final int n2)
-    '''
-def addPhoneticSpellingGloss():
-    '''public final Gloss addPhoneticSpellingGloss(final String s, final int n)
-    '''
-def addPosBasedCollectionGls():
-    '''public final Gloss addPosBasedCollectionGls(final int n, final Gloss[] array, final int n2)
-    '''
-def addSynGloss():
-    '''public final Gloss addSynGloss(final String s, final int n)
-    '''
-def addStemGloss():
-    '''public final Gloss addStemGloss(final String s, final int n)
-    '''
-def addTCRGloss():
-    '''public final Gloss addTCRGloss(final int n, final int n2, final int n3, final String s, final int n4)
-    '''
-def addPcodeGloss():
-    '''public final Gloss addPcodeGloss(final String s)
-    '''
-def addStringGloss():
-    '''public final Gloss addStringGloss(final String s, final int n)
-    '''
-def addTypedStringGloss():
-    '''public final Gloss addTypedStringGloss(final StringGloss stringGloss, final String s, final int n)
-    '''
-def addTypedIntGloss():
-    '''public final Gloss addTypedIntGloss(final StringGloss stringGloss, final int n, final int n2)
-    '''
-def addTypedDoubleGloss():
-    '''public final Gloss addTypedDoubleGloss(final StringGloss stringGloss, final double n, final int n2)
-    '''
-def addTypedVectorGloss():
-    '''public final Gloss addTypedVectorGloss(final StringGloss stringGloss, final Gloss[] array, final int n)
-    '''
-def contract():
-    '''public final void contract()
+    '''returns Gloss\n\n
+    addJAMorphGloss(final int n, final int n2, final int n3, final int n4)\n
+    addJAMorphGloss(final int n, final int n2, final boolean b, final boolean b2)\n
     '''
 def append():
-    '''public void append(final Dictionary dictionary)
-    public void append(final Dictionary dictionary, final int n)
-    '''
-def removeEntry():
-    '''public final void removeEntry(final String s, final Entry entry)
-    '''
-def removeWord():
-    '''public final void removeWord(final String text, final Gloss gloss)
-    '''
-def stampCopyright():
-    '''public final void stampCopyright(final String copyrightStatement)
+    '''returns None\n\n
+    append(final Dictionary dictionary)\n
+    append(final Dictionary dictionary, final int n)\n
     '''
 def setVersion():
-    '''public void setVersion(final int n)
-    '''
-def getFunctionMasks():
-    '''public synchronized Object[] getFunctionMasks()
-    '''
-def getPoolNum():
-    '''public synchronized int getPoolNum()
+    '''returns None\n\n
+    setVersion(final int n)\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def setFile():
-    '''public void setFile(final File dictionaryFile)
+    '''returns None\n\n
+    setFile(final File dictionaryFile)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getFsaHeaderSize():
-    '''public int getFsaHeaderSize()
+    '''returns int\n\n
+    getFsaHeaderSize()\n
     '''
 def getFsaSize():
-    '''public int getFsaSize()
+    '''returns int\n\n
+    getFsaSize()\n
     '''
 def getGlossCollectionSize():
-    '''public int getGlossCollectionSize()
+    '''returns int\n\n
+    getGlossCollectionSize()\n
     '''
 def getMwIndicesFstSize():
-    '''public int getMwIndicesFstSize()
+    '''returns int\n\n
+    getMwIndicesFstSize()\n
     '''
 def getGlossSize():
-    '''public int getGlossSize()
+    '''returns int\n\n
+    getGlossSize()\n
     '''
 def getHeaderSize():
-    '''public int getHeaderSize()
+    '''returns int\n\n
+    getHeaderSize()\n
     '''
 def process():
-    '''public void process(final Node node)
+    '''returns None\n\n
+    process(final Node node)\n
     '''
 def count():
-    '''public long count()
+    '''returns long\n\n
+    count()\n
     '''

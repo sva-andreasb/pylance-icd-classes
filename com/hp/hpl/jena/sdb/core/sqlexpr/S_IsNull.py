@@ -1,3 +1,4 @@
-def S_IsNull():
-    '''public S_IsNull(final SqlExpr expr)
+def ():
+    '''returns S_IsNull\n\n
+    (final SqlExpr expr)\n
     '''

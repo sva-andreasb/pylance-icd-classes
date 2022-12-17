@@ -1,30 +1,27 @@
-def getFactory():
-    '''public static QueryEngineFactory getFactory()
-    '''
-def register():
-    '''public static void register()
-    '''
-def unregister():
-    '''public static void unregister()
-    '''
 def eval():
-    '''public QueryIterator eval(Op op, DatasetGraph dsg, final Binding input, final Context context)
+    '''returns QueryIterator\n\n
+    eval(Op op, DatasetGraph dsg, final Binding input, final Context context)\n
     '''
 def getMillis():
-    '''public long getMillis()
+    '''returns long\n\n
+    getMillis()\n
     '''
-def TransformGraphRename():
-    '''public TransformGraphRename(final Node oldGraphName, final Node newGraphName)
+def ():
+    '''returns TransformGraphRename\n\n
+    (final Node oldGraphName, final Node newGraphName)\n
     '''
 def transform():
-    '''public Op transform(OpGraph opGraph, final Op x)
-    public Op transform(OpQuadPattern opQuadPattern)
+    '''returns Op\n\n
+    transform(OpGraph opGraph, final Op x)\n
+    transform(OpQuadPattern opQuadPattern)\n
     '''
 def accept():
-    '''public boolean accept(final Query query, final DatasetGraph dataset, final Context context)
-    public boolean accept(final Op op, final DatasetGraph dataset, final Context context)
+    '''returns boolean\n\n
+    accept(final Query query, final DatasetGraph dataset, final Context context)\n
+    accept(final Op op, final DatasetGraph dataset, final Context context)\n
     '''
 def create():
-    '''public Plan create(final Query query, final DatasetGraph ds, final Binding input, final Context context)
-    public Plan create(final Op op, final DatasetGraph dataset, final Binding binding, final Context context)
+    '''returns Plan\n\n
+    create(final Query query, final DatasetGraph ds, final Binding input, final Context context)\n
+    create(final Op op, final DatasetGraph dataset, final Binding binding, final Context context)\n
     '''

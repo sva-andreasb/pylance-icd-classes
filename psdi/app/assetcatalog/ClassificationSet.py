@@ -1,10 +1,13 @@
-def ClassificationSet():
-    '''public ClassificationSet(final MboServerInterface ms)
+def ():
+    '''returns ClassificationSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findTopLevelClass():
-    '''public void findTopLevelClass()
-    public void findTopLevelClass(String searchType, String searchString)
+    '''returns None\n\n
+    findTopLevelClass()\n
+    findTopLevelClass(String searchType, String searchString)\n
     '''
 def findTopLevelClassQbe():
-    '''public void findTopLevelClassQbe(final String attribute, final String value)
+    '''returns None\n\n
+    findTopLevelClassQbe(final String attribute, final String value)\n
     '''

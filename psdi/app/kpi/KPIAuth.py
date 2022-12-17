@@ -1,9 +1,12 @@
-def KPIAuth():
-    '''public KPIAuth(final MboSet ms)
+def ():
+    '''returns KPIAuth\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

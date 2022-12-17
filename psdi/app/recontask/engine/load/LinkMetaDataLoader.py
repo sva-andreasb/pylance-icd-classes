@@ -1,36 +1,48 @@
-def LinkMetaDataLoader():
-    '''public LinkMetaDataLoader(final ReconInfo reconInfo)
+def ():
+    '''returns LinkMetaDataLoader\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def setTaskMbo():
-    '''public void setTaskMbo(final MboRemote taskMbo)
+    '''returns None\n\n
+    setTaskMbo(final MboRemote taskMbo)\n
     '''
 def setLinkOrder():
-    '''public void setLinkOrder(final String linkOrder)
+    '''returns None\n\n
+    setLinkOrder(final String linkOrder)\n
     '''
 def load():
-    '''public void load()
+    '''returns None\n\n
+    load()\n
     '''
 def buildExpression():
-    '''public ReconLinkExpression buildExpression(final MboRemote linkRule)
+    '''returns ReconLinkExpression\n\n
+    buildExpression(final MboRemote linkRule)\n
     '''
 def getLinkExpressionSet():
-    '''public List<ReconLinkExpression> getLinkExpressionSet()
+    '''returns List<ReconLinkExpression>\n\n
+    getLinkExpressionSet()\n
     '''
 def getDataSet1Attributes():
-    '''public List<String> getDataSet1Attributes()
+    '''returns List<String>\n\n
+    getDataSet1Attributes()\n
     '''
 def getDataSet2Attributes():
-    '''public List<String> getDataSet2Attributes()
+    '''returns List<String>\n\n
+    getDataSet2Attributes()\n
     '''
 def getDataSet1SpecAttributes():
-    '''public List<String> getDataSet1SpecAttributes()
+    '''returns List<String>\n\n
+    getDataSet1SpecAttributes()\n
     '''
 def getDataSet2SpecAttributes():
-    '''public List<String> getDataSet2SpecAttributes()
+    '''returns List<String>\n\n
+    getDataSet2SpecAttributes()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def parseAttributes():
-    '''public void parseAttributes(final Set attributeSet, final DataSet dataSet, final boolean isDataSet1)
+    '''returns None\n\n
+    parseAttributes(final Set attributeSet, final DataSet dataSet, final boolean isDataSet1)\n
     '''

@@ -1,3 +1,4 @@
-def ProxyAuthenticationStrategy():
-    '''public ProxyAuthenticationStrategy()
+def ():
+    '''returns ProxyAuthenticationStrategy\n\n
+    ()\n
     '''

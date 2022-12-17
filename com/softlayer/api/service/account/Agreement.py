@@ -1,208 +1,272 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def setAgreementType():
-    '''public void setAgreementType(final com.softlayer.api.service.account.agreement.Type agreementType)
+    '''returns None\n\n
+    setAgreementType(final com.softlayer.api.service.account.agreement.Type agreementType)\n
     '''
 def getAttachedBillingAgreementFiles():
-    '''public List<MasterServiceAgreement> getAttachedBillingAgreementFiles()
+    '''returns List<MasterServiceAgreement>\n\n
+    getAttachedBillingAgreementFiles()\n
     '''
 def getBillingItems():
-    '''public List<Item> getBillingItems()
+    '''returns List<Item>\n\n
+    getBillingItems()\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final Status status)
+    '''returns None\n\n
+    setStatus(final Status status)\n
     '''
 def getTopLevelBillingItems():
-    '''public List<Item> getTopLevelBillingItems()
+    '''returns List<Item>\n\n
+    getTopLevelBillingItems()\n
     '''
 def getAgreementTypeId():
-    '''public Long getAgreementTypeId()
+    '''returns Long\n\n
+    getAgreementTypeId()\n
     '''
 def setAgreementTypeId():
-    '''public void setAgreementTypeId(final Long agreementTypeId)
+    '''returns None\n\n
+    setAgreementTypeId(final Long agreementTypeId)\n
     '''
 def isAgreementTypeIdSpecified():
-    '''public boolean isAgreementTypeIdSpecified()
+    '''returns boolean\n\n
+    isAgreementTypeIdSpecified()\n
     '''
 def unsetAgreementTypeId():
-    '''public void unsetAgreementTypeId()
+    '''returns None\n\n
+    unsetAgreementTypeId()\n
     '''
 def getAutoRenew():
-    '''public Long getAutoRenew()
+    '''returns Long\n\n
+    getAutoRenew()\n
     '''
 def setAutoRenew():
-    '''public void setAutoRenew(final Long autoRenew)
+    '''returns None\n\n
+    setAutoRenew(final Long autoRenew)\n
     '''
 def isAutoRenewSpecified():
-    '''public boolean isAutoRenewSpecified()
+    '''returns boolean\n\n
+    isAutoRenewSpecified()\n
     '''
 def unsetAutoRenew():
-    '''public void unsetAutoRenew()
+    '''returns None\n\n
+    unsetAutoRenew()\n
     '''
 def getCancellationFee():
-    '''public Long getCancellationFee()
+    '''returns Long\n\n
+    getCancellationFee()\n
     '''
 def setCancellationFee():
-    '''public void setCancellationFee(final Long cancellationFee)
+    '''returns None\n\n
+    setCancellationFee(final Long cancellationFee)\n
     '''
 def isCancellationFeeSpecified():
-    '''public boolean isCancellationFeeSpecified()
+    '''returns boolean\n\n
+    isCancellationFeeSpecified()\n
     '''
 def unsetCancellationFee():
-    '''public void unsetCancellationFee()
+    '''returns None\n\n
+    unsetCancellationFee()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getDurationMonths():
-    '''public Long getDurationMonths()
+    '''returns Long\n\n
+    getDurationMonths()\n
     '''
 def setDurationMonths():
-    '''public void setDurationMonths(final Long durationMonths)
+    '''returns None\n\n
+    setDurationMonths(final Long durationMonths)\n
     '''
 def isDurationMonthsSpecified():
-    '''public boolean isDurationMonthsSpecified()
+    '''returns boolean\n\n
+    isDurationMonthsSpecified()\n
     '''
 def unsetDurationMonths():
-    '''public void unsetDurationMonths()
+    '''returns None\n\n
+    unsetDurationMonths()\n
     '''
 def getEndDate():
-    '''public GregorianCalendar getEndDate()
+    '''returns GregorianCalendar\n\n
+    getEndDate()\n
     '''
 def setEndDate():
-    '''public void setEndDate(final GregorianCalendar endDate)
+    '''returns None\n\n
+    setEndDate(final GregorianCalendar endDate)\n
     '''
 def isEndDateSpecified():
-    '''public boolean isEndDateSpecified()
+    '''returns boolean\n\n
+    isEndDateSpecified()\n
     '''
 def unsetEndDate():
-    '''public void unsetEndDate()
+    '''returns None\n\n
+    unsetEndDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getStartDate():
-    '''public GregorianCalendar getStartDate()
+    '''returns GregorianCalendar\n\n
+    getStartDate()\n
     '''
 def setStartDate():
-    '''public void setStartDate(final GregorianCalendar startDate)
+    '''returns None\n\n
+    setStartDate(final GregorianCalendar startDate)\n
     '''
 def isStartDateSpecified():
-    '''public boolean isStartDateSpecified()
+    '''returns boolean\n\n
+    isStartDateSpecified()\n
     '''
 def unsetStartDate():
-    '''public void unsetStartDate()
+    '''returns None\n\n
+    unsetStartDate()\n
     '''
 def getStatusId():
-    '''public Long getStatusId()
+    '''returns Long\n\n
+    getStatusId()\n
     '''
 def setStatusId():
-    '''public void setStatusId(final Long statusId)
+    '''returns None\n\n
+    setStatusId(final Long statusId)\n
     '''
 def isStatusIdSpecified():
-    '''public boolean isStatusIdSpecified()
+    '''returns boolean\n\n
+    isStatusIdSpecified()\n
     '''
 def unsetStatusId():
-    '''public void unsetStatusId()
+    '''returns None\n\n
+    unsetStatusId()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def isTitleSpecified():
-    '''public boolean isTitleSpecified()
+    '''returns boolean\n\n
+    isTitleSpecified()\n
     '''
 def unsetTitle():
-    '''public void unsetTitle()
+    '''returns None\n\n
+    unsetTitle()\n
     '''
 def getAttachedBillingAgreementFileCount():
-    '''public Long getAttachedBillingAgreementFileCount()
+    '''returns Long\n\n
+    getAttachedBillingAgreementFileCount()\n
     '''
 def setAttachedBillingAgreementFileCount():
-    '''public void setAttachedBillingAgreementFileCount(final Long attachedBillingAgreementFileCount)
+    '''returns None\n\n
+    setAttachedBillingAgreementFileCount(final Long attachedBillingAgreementFileCount)\n
     '''
 def getBillingItemCount():
-    '''public Long getBillingItemCount()
+    '''returns Long\n\n
+    getBillingItemCount()\n
     '''
 def setBillingItemCount():
-    '''public void setBillingItemCount(final Long billingItemCount)
+    '''returns None\n\n
+    setBillingItemCount(final Long billingItemCount)\n
     '''
 def getTopLevelBillingItemCount():
-    '''public Long getTopLevelBillingItemCount()
+    '''returns Long\n\n
+    getTopLevelBillingItemCount()\n
     '''
 def setTopLevelBillingItemCount():
-    '''public void setTopLevelBillingItemCount(final Long topLevelBillingItemCount)
+    '''returns None\n\n
+    setTopLevelBillingItemCount(final Long topLevelBillingItemCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def agreementTypeId():
-    '''public Mask agreementTypeId()
+    '''returns Mask\n\n
+    agreementTypeId()\n
     '''
 def autoRenew():
-    '''public Mask autoRenew()
+    '''returns Mask\n\n
+    autoRenew()\n
     '''
 def cancellationFee():
-    '''public Mask cancellationFee()
+    '''returns Mask\n\n
+    cancellationFee()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def durationMonths():
-    '''public Mask durationMonths()
+    '''returns Mask\n\n
+    durationMonths()\n
     '''
 def endDate():
-    '''public Mask endDate()
+    '''returns Mask\n\n
+    endDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def startDate():
-    '''public Mask startDate()
+    '''returns Mask\n\n
+    startDate()\n
     '''
 def statusId():
-    '''public Mask statusId()
+    '''returns Mask\n\n
+    statusId()\n
     '''
 def title():
-    '''public Mask title()
+    '''returns Mask\n\n
+    title()\n
     '''
 def attachedBillingAgreementFileCount():
-    '''public Mask attachedBillingAgreementFileCount()
+    '''returns Mask\n\n
+    attachedBillingAgreementFileCount()\n
     '''
 def billingItemCount():
-    '''public Mask billingItemCount()
+    '''returns Mask\n\n
+    billingItemCount()\n
     '''
 def topLevelBillingItemCount():
-    '''public Mask topLevelBillingItemCount()
+    '''returns Mask\n\n
+    topLevelBillingItemCount()\n
     '''

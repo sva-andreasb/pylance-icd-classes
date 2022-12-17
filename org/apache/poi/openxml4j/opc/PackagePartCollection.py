@@ -1,21 +1,28 @@
-def PackagePartCollection():
-    '''public PackagePartCollection()
+def ():
+    '''returns PackagePartCollection\n\n
+    ()\n
     '''
 def put():
-    '''public PackagePart put(final PackagePartName partName, final PackagePart part)
+    '''returns PackagePart\n\n
+    put(final PackagePartName partName, final PackagePart part)\n
     '''
 def remove():
-    '''public PackagePart remove(final PackagePartName key)
+    '''returns PackagePart\n\n
+    remove(final PackagePartName key)\n
     '''
 def sortedValues():
-    '''public Collection<PackagePart> sortedValues()
+    '''returns Collection<PackagePart>\n\n
+    sortedValues()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final PackagePartName partName)
+    '''returns boolean\n\n
+    containsKey(final PackagePartName partName)\n
     '''
 def get():
-    '''public PackagePart get(final PackagePartName partName)
+    '''returns PackagePart\n\n
+    get(final PackagePartName partName)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

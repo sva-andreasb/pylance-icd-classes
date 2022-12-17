@@ -1,22 +1,25 @@
-def getInstance():
-    '''public static MaximoDDFactory getInstance()
-    '''
 def getMaximoDD():
-    '''public MaximoDD getMaximoDD()
+    '''returns MaximoDD\n\n
+    getMaximoDD()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getCache():
-    '''public MaximoCache getCache()
+    '''returns MaximoCache\n\n
+    getCache()\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''

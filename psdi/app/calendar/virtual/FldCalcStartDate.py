@@ -1,6 +1,8 @@
-def FldCalcStartDate():
-    '''public FldCalcStartDate(final MboValue mbv)
+def ():
+    '''returns FldCalcStartDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

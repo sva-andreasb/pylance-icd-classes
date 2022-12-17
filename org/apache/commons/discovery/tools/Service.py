@@ -1,10 +1,8 @@
-def providers():
-    '''public static Enumeration providers(final Class spiClass)
-    public static Enumeration providers(final SPInterface spi, ClassLoaders loaders)
-    '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''

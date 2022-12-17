@@ -1,139 +1,169 @@
-def DnsMessage():
-    '''public DnsMessage(final byte[] data)
+def ():
+    '''returns DnsMessage\n\n
+    (final byte[] data)\n
     '''
 def toArray():
-    '''public byte[] toArray()
+    '''returns byte[]\n\n
+    toArray()\n
     '''
 def asDatagram():
-    '''public DatagramPacket asDatagram(final InetAddress address, final int port)
+    '''returns DatagramPacket\n\n
+    asDatagram(final InetAddress address, final int port)\n
     '''
 def writeTo():
-    '''public void writeTo(final DataOutputStream dataOutputStream)
+    '''returns None\n\n
+    writeTo(final DataOutputStream dataOutputStream)\n
     '''
 def getInByteBuffer():
-    '''public ByteBuffer getInByteBuffer()
+    '''returns ByteBuffer\n\n
+    getInByteBuffer()\n
     '''
 def getQuestion():
-    '''public Question getQuestion()
+    '''returns Question\n\n
+    getQuestion()\n
     '''
 def copyQuestions():
-    '''public List<Question> copyQuestions()
+    '''returns List<Question>\n\n
+    copyQuestions()\n
     '''
 def getEdns():
-    '''public Edns getEdns()
+    '''returns Edns\n\n
+    getEdns()\n
     '''
 def getOptPseudoRecord():
-    '''public Record<OPT> getOptPseudoRecord()
+    '''returns Record<OPT>\n\n
+    getOptPseudoRecord()\n
     '''
 def isDnssecOk():
-    '''public boolean isDnssecOk()
+    '''returns boolean\n\n
+    isDnssecOk()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def asTerminalOutput():
-    '''public String asTerminalOutput()
-    '''
-def getAnswersFor():
-    '''public <D extends Data> Set<D> getAnswersFor(final Question q)
+    '''returns String\n\n
+    asTerminalOutput()\n
     '''
 def asBuilder():
-    '''public Builder asBuilder()
+    '''returns Builder\n\n
+    asBuilder()\n
     '''
 def asNormalizedVersion():
-    '''public DnsMessage asNormalizedVersion()
+    '''returns DnsMessage\n\n
+    asNormalizedVersion()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    '''
-def builder():
-    '''public static Builder builder()
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def getValue():
-    '''public byte getValue()
-    public byte getValue()
-    '''
-def getResponseCode():
-    '''public static RESPONSE_CODE getResponseCode(final int value)
-    '''
-def getOpcode():
-    '''public static OPCODE getOpcode(final int value)
+    '''returns byte\n\n
+    getValue()\n
+    getValue()\n
     '''
 def setId():
-    '''public Builder setId(final int id)
+    '''returns Builder\n\n
+    setId(final int id)\n
     '''
 def setOpcode():
-    '''public Builder setOpcode(final OPCODE opcode)
+    '''returns Builder\n\n
+    setOpcode(final OPCODE opcode)\n
     '''
 def setResponseCode():
-    '''public Builder setResponseCode(final RESPONSE_CODE responseCode)
+    '''returns Builder\n\n
+    setResponseCode(final RESPONSE_CODE responseCode)\n
     '''
 def setQrFlag():
-    '''public Builder setQrFlag(final boolean query)
+    '''returns Builder\n\n
+    setQrFlag(final boolean query)\n
     '''
 def setAuthoritativeAnswer():
-    '''public Builder setAuthoritativeAnswer(final boolean authoritativeAnswer)
+    '''returns Builder\n\n
+    setAuthoritativeAnswer(final boolean authoritativeAnswer)\n
     '''
 def setTruncated():
-    '''public Builder setTruncated(final boolean truncated)
+    '''returns Builder\n\n
+    setTruncated(final boolean truncated)\n
     '''
 def setRecursionDesired():
-    '''public Builder setRecursionDesired(final boolean recursionDesired)
+    '''returns Builder\n\n
+    setRecursionDesired(final boolean recursionDesired)\n
     '''
 def setRecursionAvailable():
-    '''public Builder setRecursionAvailable(final boolean recursionAvailable)
+    '''returns Builder\n\n
+    setRecursionAvailable(final boolean recursionAvailable)\n
     '''
 def setAuthenticData():
-    '''public Builder setAuthenticData(final boolean authenticData)
+    '''returns Builder\n\n
+    setAuthenticData(final boolean authenticData)\n
     '''
 def setCheckDisabled():
-    '''public Builder setCheckDisabled(final boolean checkingDisabled)
+    '''returns Builder\n\n
+    setCheckDisabled(final boolean checkingDisabled)\n
     '''
 def setCheckingDisabled():
-    '''public Builder setCheckingDisabled(final boolean checkingDisabled)
+    '''returns Builder\n\n
+    setCheckingDisabled(final boolean checkingDisabled)\n
     '''
 def copyFlagsFrom():
-    '''public void copyFlagsFrom(final DnsMessage dnsMessage)
+    '''returns None\n\n
+    copyFlagsFrom(final DnsMessage dnsMessage)\n
     '''
 def setReceiveTimestamp():
-    '''public Builder setReceiveTimestamp(final long receiveTimestamp)
+    '''returns Builder\n\n
+    setReceiveTimestamp(final long receiveTimestamp)\n
     '''
 def addQuestion():
-    '''public Builder addQuestion(final Question question)
+    '''returns Builder\n\n
+    addQuestion(final Question question)\n
     '''
 def setQuestions():
-    '''public Builder setQuestions(final List<Question> questions)
+    '''returns Builder\n\n
+    setQuestions(final List<Question> questions)\n
     '''
 def setQuestion():
-    '''public Builder setQuestion(final Question question)
+    '''returns Builder\n\n
+    setQuestion(final Question question)\n
     '''
 def addAnswer():
-    '''public Builder addAnswer(final Record<? extends Data> answer)
+    '''returns Builder\n\n
+    addAnswer(final Record<? extends Data> answer)\n
     '''
 def addAnswers():
-    '''public Builder addAnswers(final Collection<Record<? extends Data>> records)
+    '''returns Builder\n\n
+    addAnswers(final Collection<Record<? extends Data>> records)\n
     '''
 def setAnswers():
-    '''public Builder setAnswers(final Collection<Record<? extends Data>> records)
+    '''returns Builder\n\n
+    setAnswers(final Collection<Record<? extends Data>> records)\n
     '''
 def addNameserverRecords():
-    '''public Builder addNameserverRecords(final Record<? extends Data> record)
+    '''returns Builder\n\n
+    addNameserverRecords(final Record<? extends Data> record)\n
     '''
 def setNameserverRecords():
-    '''public Builder setNameserverRecords(final Collection<Record<? extends Data>> records)
+    '''returns Builder\n\n
+    setNameserverRecords(final Collection<Record<? extends Data>> records)\n
     '''
 def setAdditionalResourceRecords():
-    '''public Builder setAdditionalResourceRecords(final Collection<Record<? extends Data>> records)
+    '''returns Builder\n\n
+    setAdditionalResourceRecords(final Collection<Record<? extends Data>> records)\n
     '''
 def addAdditionalResourceRecord():
-    '''public Builder addAdditionalResourceRecord(final Record<? extends Data> record)
+    '''returns Builder\n\n
+    addAdditionalResourceRecord(final Record<? extends Data> record)\n
     '''
 def addAdditionalResourceRecords():
-    '''public Builder addAdditionalResourceRecords(final List<Record<? extends Data>> records)
+    '''returns Builder\n\n
+    addAdditionalResourceRecords(final List<Record<? extends Data>> records)\n
     '''
 def build():
-    '''public DnsMessage build()
+    '''returns DnsMessage\n\n
+    build()\n
     '''

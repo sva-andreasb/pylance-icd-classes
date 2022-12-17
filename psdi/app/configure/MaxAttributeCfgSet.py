@@ -1,87 +1,116 @@
-def MaxAttributeCfgSet():
-    '''public MaxAttributeCfgSet(final MboServerInterface ms)
+def ():
+    '''returns MaxAttributeCfgSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setRelationName():
-    '''public void setRelationName(final String relationName)
+    '''returns None\n\n
+    setRelationName(final String relationName)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote mbo)
+    '''returns None\n\n
+    setOwner(final MboRemote mbo)\n
     '''
 def didSetIsHandleColumn():
-    '''public boolean didSetIsHandleColumn()
+    '''returns boolean\n\n
+    didSetIsHandleColumn()\n
     '''
 def setIsHandleColumn():
-    '''public void setIsHandleColumn()
+    '''returns None\n\n
+    setIsHandleColumn()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def loadCreateTable():
-    '''public void loadCreateTable(final String keycolumn)
+    '''returns None\n\n
+    loadCreateTable(final String keycolumn)\n
     '''
 def getNativeColumns():
-    '''public void getNativeColumns(final String keycolumn)
+    '''returns None\n\n
+    getNativeColumns(final String keycolumn)\n
     '''
 def addRowToSet():
-    '''public MboRemote addRowToSet(String name, final String maxtype, final int length, final int scale, final boolean nulls, final String defaultvalue, final boolean isldowner, final int prikeycolseq)
+    '''returns MboRemote\n\n
+    addRowToSet(String name, final String maxtype, final int length, final int scale, final boolean nulls, final String defaultvalue, final boolean isldowner, final int prikeycolseq)\n
     '''
 def addLongDescriptionRowToSet():
-    '''public MboRemote addLongDescriptionRowToSet(final MboRemote baseCol)
+    '''returns MboRemote\n\n
+    addLongDescriptionRowToSet(final MboRemote baseCol)\n
     '''
 def addHasLDRowToSet():
-    '''public MboRemote addHasLDRowToSet()
+    '''returns MboRemote\n\n
+    addHasLDRowToSet()\n
     '''
 def getValueCHANGE():
-    '''public String getValueCHANGE()
+    '''returns String\n\n
+    getValueCHANGE()\n
     '''
 def setBypassSameasPush():
-    '''public void setBypassSameasPush(final boolean value)
+    '''returns None\n\n
+    setBypassSameasPush(final boolean value)\n
     '''
 def getBypassSameasPush():
-    '''public boolean getBypassSameasPush()
+    '''returns boolean\n\n
+    getBypassSameasPush()\n
     '''
 def applySameAsValuesWithinThisTable():
-    '''public void applySameAsValuesWithinThisTable(final MboRemote sameasMbo)
+    '''returns None\n\n
+    applySameAsValuesWithinThisTable(final MboRemote sameasMbo)\n
     '''
 def LDOwnerExists():
-    '''public boolean LDOwnerExists()
+    '''returns boolean\n\n
+    LDOwnerExists()\n
     '''
 def textSearchAttrExists():
-    '''public boolean textSearchAttrExists()
+    '''returns boolean\n\n
+    textSearchAttrExists()\n
     '''
 def attributeExists():
-    '''public MboRemote attributeExists(final String attrName)
+    '''returns MboRemote\n\n
+    attributeExists(final String attrName)\n
     '''
 def columnExists():
-    '''public MboRemote columnExists(final String colName)
+    '''returns MboRemote\n\n
+    columnExists(final String colName)\n
     '''
 def LDKeyExists():
-    '''public boolean LDKeyExists()
+    '''returns boolean\n\n
+    LDKeyExists()\n
     '''
 def getLangOrAuditColumn():
-    '''public MboRemote getLangOrAuditColumn(final MboRemote baseCol, final boolean anyStatus)
+    '''returns MboRemote\n\n
+    getLangOrAuditColumn(final MboRemote baseCol, final boolean anyStatus)\n
     '''
 def getLongDescriptionAttribute():
-    '''public MboRemote getLongDescriptionAttribute(final MboRemote baseCol)
+    '''returns MboRemote\n\n
+    getLongDescriptionAttribute(final MboRemote baseCol)\n
     '''
 def addKeyColumn():
-    '''public MboRemote addKeyColumn(final String keyColumnName)
+    '''returns MboRemote\n\n
+    addKeyColumn(final String keyColumnName)\n
     '''
 def changeKeyColumn():
-    '''public MboRemote changeKeyColumn(final MboRemote mbo, final String keyColumnName)
+    '''returns MboRemote\n\n
+    changeKeyColumn(final MboRemote mbo, final String keyColumnName)\n
     '''
 def getValidName():
-    '''public String getValidName(String root, final boolean attrName)
+    '''returns String\n\n
+    getValidName(String root, final boolean attrName)\n
     '''
 def addLanguageColumn():
-    '''public MboRemote addLanguageColumn(final String attributeName)
+    '''returns MboRemote\n\n
+    addLanguageColumn(final String attributeName)\n
     '''
 def resetForObjectValidation():
-    '''public void resetForObjectValidation()
+    '''returns None\n\n
+    resetForObjectValidation()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

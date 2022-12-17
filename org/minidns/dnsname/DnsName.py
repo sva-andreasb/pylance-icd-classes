@@ -1,80 +1,93 @@
 MAX_LABELS = "int  128"
 def writeToStream():
-    '''public void writeToStream(final OutputStream os)
+    '''returns None\n\n
+    writeToStream(final OutputStream os)\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def getRawBytes():
-    '''public byte[] getRawBytes()
+    '''returns byte[]\n\n
+    getRawBytes()\n
     '''
 def getRawAce():
-    '''public String getRawAce()
+    '''returns String\n\n
+    getRawAce()\n
     '''
 def asIdn():
-    '''public String asIdn()
+    '''returns String\n\n
+    asIdn()\n
     '''
 def getDomainpart():
-    '''public String getDomainpart()
+    '''returns String\n\n
+    getDomainpart()\n
     '''
 def getHostpart():
-    '''public String getHostpart()
+    '''returns String\n\n
+    getHostpart()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def from():
-    '''public static DnsName from(final CharSequence name)
-    public static DnsName from(final String name)
-    public static DnsName from(final DnsName child, final DnsName parent)
-    public static DnsName from(final DnsName... nameComponents)
-    public static DnsName from(final String[] parts)
-    '''
-def parse():
-    '''public static DnsName parse(final DataInputStream dis, final byte[] data)
+    '''returns String\n\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final DnsName other)
+    '''returns int\n\n
+    compareTo(final DnsName other)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isDirectChildOf():
-    '''public boolean isDirectChildOf(final DnsName parent)
+    '''returns boolean\n\n
+    isDirectChildOf(final DnsName parent)\n
     '''
 def isChildOf():
-    '''public boolean isChildOf(final DnsName parent)
+    '''returns boolean\n\n
+    isChildOf(final DnsName parent)\n
     '''
 def getLabelCount():
-    '''public int getLabelCount()
+    '''returns int\n\n
+    getLabelCount()\n
     '''
 def getLabels():
-    '''public DnsLabel[] getLabels()
+    '''returns DnsLabel[]\n\n
+    getLabels()\n
     '''
 def getRawLabels():
-    '''public DnsLabel[] getRawLabels()
+    '''returns DnsLabel[]\n\n
+    getRawLabels()\n
     '''
 def stripToLabels():
-    '''public DnsName stripToLabels(final int labelCount)
+    '''returns DnsName\n\n
+    stripToLabels(final int labelCount)\n
     '''
 def getParent():
-    '''public DnsName getParent()
+    '''returns DnsName\n\n
+    getParent()\n
     '''
 def isRootLabel():
-    '''public boolean isRootLabel()
+    '''returns boolean\n\n
+    isRootLabel()\n
     '''

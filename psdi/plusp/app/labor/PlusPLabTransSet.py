@@ -1,15 +1,20 @@
-def PlusPLabTransSet():
-    '''public PlusPLabTransSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPLabTransSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def copyLaborToLabTransSet():
-    '''public void copyLaborToLabTransSet(final MboSetRemote laborSet)
+    '''returns None\n\n
+    copyLaborToLabTransSet(final MboSetRemote laborSet)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

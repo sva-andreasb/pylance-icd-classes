@@ -1,22 +1,24 @@
-def BCELifier():
-    '''public BCELifier(final JavaClass clazz, final OutputStream out)
+def ():
+    '''returns BCELifier\n\n
+    (final JavaClass clazz, final OutputStream out)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def visitJavaClass():
-    '''public void visitJavaClass(final JavaClass clazz)
+    '''returns None\n\n
+    visitJavaClass(final JavaClass clazz)\n
     '''
 def create():
-    '''public void create(OutputStream out)
-    '''
-def main():
-    '''public static void main(String[] args)
-    public static void main(final String[] argv)
+    '''returns None\n\n
+    create(OutputStream out)\n
     '''
 def visitField():
-    '''public void visitField(final Field field)
+    '''returns None\n\n
+    visitField(final Field field)\n
     '''
 def visitMethod():
-    '''public void visitMethod(final Method method)
+    '''returns None\n\n
+    visitMethod(final Method method)\n
     '''

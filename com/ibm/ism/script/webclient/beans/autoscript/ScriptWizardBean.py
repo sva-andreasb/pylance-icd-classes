@@ -1,24 +1,28 @@
-def ScriptWizardBean():
-    '''public ScriptWizardBean()
+def ():
+    '''returns ScriptWizardBean\n\n
+    ()\n
     '''
 def nexttab():
-    '''public int nexttab()
+    '''returns int\n\n
+    nexttab()\n
     '''
 def prevtab():
-    '''public int prevtab()
-    '''
-def insert():
-    '''public synchronized void insert()
+    '''returns int\n\n
+    prevtab()\n
     '''
 def complete():
-    '''public int complete()
+    '''returns int\n\n
+    complete()\n
     '''
 def cancelchanges():
-    '''public int cancelchanges()
+    '''returns int\n\n
+    cancelchanges()\n
     '''
 def loadData():
-    '''public int loadData()
+    '''returns int\n\n
+    loadData()\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
     '''

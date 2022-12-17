@@ -1,3 +1,4 @@
 def testStatistics():
-    '''public void testStatistics()
+    '''returns None\n\n
+    testStatistics()\n
     '''

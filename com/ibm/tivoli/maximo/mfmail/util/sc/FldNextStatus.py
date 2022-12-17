@@ -1,12 +1,16 @@
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
-def FldNextStatus():
-    '''public FldNextStatus(final MboValue mbv)
+def ():
+    '''returns FldNextStatus\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

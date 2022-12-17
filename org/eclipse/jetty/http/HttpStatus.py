@@ -47,36 +47,38 @@ HTTP_VERSION_NOT_SUPPORTED_505 = "int  505"
 INSUFFICIENT_STORAGE_507 = "int  507"
 MAX_CODE = "int  507"
 def getCode():
-    '''public static Code getCode(final int code)
-    public int getCode()
+    '''returns int\n\n
+    getCode()\n
     '''
 def getMessage():
-    '''public static String getMessage(final int code)
-    public String getMessage()
-    '''
-def isInformational():
-    '''public static boolean isInformational(final int code)
-    public boolean isInformational()
-    '''
-def isSuccess():
-    '''public static boolean isSuccess(final int code)
-    public boolean isSuccess()
-    '''
-def isRedirection():
-    '''public static boolean isRedirection(final int code)
-    public boolean isRedirection()
-    '''
-def isClientError():
-    '''public static boolean isClientError(final int code)
-    public boolean isClientError()
-    '''
-def isServerError():
-    '''public static boolean isServerError(final int code)
-    public boolean isServerError()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def equals():
-    '''public boolean equals(final int code)
+    '''returns boolean\n\n
+    equals(final int code)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
+    '''
+def isInformational():
+    '''returns boolean\n\n
+    isInformational()\n
+    '''
+def isSuccess():
+    '''returns boolean\n\n
+    isSuccess()\n
+    '''
+def isRedirection():
+    '''returns boolean\n\n
+    isRedirection()\n
+    '''
+def isClientError():
+    '''returns boolean\n\n
+    isClientError()\n
+    '''
+def isServerError():
+    '''returns boolean\n\n
+    isServerError()\n
     '''

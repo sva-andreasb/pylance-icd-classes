@@ -1,9 +1,12 @@
-def FldLaborPercentAlloc():
-    '''public FldLaborPercentAlloc(final MboValue mbv)
+def ():
+    '''returns FldLaborPercentAlloc\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def createAMGrid():
-    '''public void createAMGrid(final Labor laborMbo)
+    '''returns None\n\n
+    createAMGrid(final Labor laborMbo)\n
     '''

@@ -1,3 +1,4 @@
-def FldOsName():
-    '''public FldOsName(final MboValue mbv)
+def ():
+    '''returns FldOsName\n\n
+    (final MboValue mbv)\n
     '''

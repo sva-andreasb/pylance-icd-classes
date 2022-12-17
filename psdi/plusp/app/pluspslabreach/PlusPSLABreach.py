@@ -1,15 +1,20 @@
-def PlusPSLABreach():
-    '''public PlusPSLABreach(final MboSet ms)
+def ():
+    '''returns PlusPSLABreach\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def calculatePercentage():
-    '''public void calculatePercentage()
+    '''returns None\n\n
+    calculatePercentage()\n
     '''
 def calculateTotalCount():
-    '''public void calculateTotalCount()
+    '''returns None\n\n
+    calculateTotalCount()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

@@ -1,58 +1,73 @@
-def getInstanceFor():
-    '''public static synchronized IoTProvisioningManager getInstanceFor(final XMPPConnection connection)
-    '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
-    public void processStanza(final Stanza stanza)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
+    processStanza(final Stanza stanza)\n
     '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def presenceSubscribed():
-    '''public void presenceSubscribed(final BareJid address, final Presence subscribedPresence)
+    '''returns None\n\n
+    presenceSubscribed(final BareJid address, final Presence subscribedPresence)\n
     '''
 def presenceUnsubscribed():
-    '''public void presenceUnsubscribed(final BareJid address, final Presence unsubscribedPresence)
+    '''returns None\n\n
+    presenceUnsubscribed(final BareJid address, final Presence unsubscribedPresence)\n
     '''
 def setConfiguredProvisioningServer():
-    '''public void setConfiguredProvisioningServer(final Jid provisioningServer)
+    '''returns None\n\n
+    setConfiguredProvisioningServer(final Jid provisioningServer)\n
     '''
 def getConfiguredProvisioningServer():
-    '''public Jid getConfiguredProvisioningServer()
+    '''returns Jid\n\n
+    getConfiguredProvisioningServer()\n
     '''
 def findProvisioningServerComponent():
-    '''public DomainBareJid findProvisioningServerComponent()
+    '''returns DomainBareJid\n\n
+    findProvisioningServerComponent()\n
     '''
 def isFriend():
-    '''public boolean isFriend(final Jid provisioningServer, final BareJid friendInQuestion)
+    '''returns boolean\n\n
+    isFriend(final Jid provisioningServer, final BareJid friendInQuestion)\n
     '''
 def iAmFriendOf():
-    '''public boolean iAmFriendOf(final BareJid otherJid)
+    '''returns boolean\n\n
+    iAmFriendOf(final BareJid otherJid)\n
     '''
 def sendFriendshipRequest():
-    '''public void sendFriendshipRequest(final BareJid bareJid)
+    '''returns None\n\n
+    sendFriendshipRequest(final BareJid bareJid)\n
     '''
 def sendFriendshipRequestIfRequired():
-    '''public void sendFriendshipRequestIfRequired(final BareJid jid)
+    '''returns None\n\n
+    sendFriendshipRequestIfRequired(final BareJid jid)\n
     '''
 def isMyFriend():
-    '''public boolean isMyFriend(final Jid friendInQuestion)
+    '''returns boolean\n\n
+    isMyFriend(final Jid friendInQuestion)\n
     '''
 def unfriend():
-    '''public void unfriend(final Jid friend)
+    '''returns None\n\n
+    unfriend(final Jid friend)\n
     '''
 def addBecameFriendListener():
-    '''public boolean addBecameFriendListener(final BecameFriendListener becameFriendListener)
+    '''returns boolean\n\n
+    addBecameFriendListener(final BecameFriendListener becameFriendListener)\n
     '''
 def removeBecameFriendListener():
-    '''public boolean removeBecameFriendListener(final BecameFriendListener becameFriendListener)
+    '''returns boolean\n\n
+    removeBecameFriendListener(final BecameFriendListener becameFriendListener)\n
     '''
 def addWasUnfriendedListener():
-    '''public boolean addWasUnfriendedListener(final WasUnfriendedListener wasUnfriendedListener)
+    '''returns boolean\n\n
+    addWasUnfriendedListener(final WasUnfriendedListener wasUnfriendedListener)\n
     '''
 def removeWasUnfriendedListener():
-    '''public boolean removeWasUnfriendedListener(final WasUnfriendedListener wasUnfriendedListener)
+    '''returns boolean\n\n
+    removeWasUnfriendedListener(final WasUnfriendedListener wasUnfriendedListener)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

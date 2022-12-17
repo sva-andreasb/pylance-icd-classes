@@ -1,3 +1,4 @@
-def SKDODMEConflictMessageSet():
-    '''public SKDODMEConflictMessageSet(final MboServerInterface ms)
+def ():
+    '''returns SKDODMEConflictMessageSet\n\n
+    (final MboServerInterface ms)\n
     '''

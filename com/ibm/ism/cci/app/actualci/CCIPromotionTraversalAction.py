@@ -6,30 +6,27 @@ CREATE_RELATIONSHIPS = "long  8L"
 CREATE_RELATED_CIS = "long  16L"
 COPY_ATTRIBUTES_FOR_NEW = "long  32L"
 ALLOW_DUP_DISGUID = "long  268435456L"
-def CCIPromotionTraversalAction():
-    '''public CCIPromotionTraversalAction(final String authTopCIClassId, final long synchronizationOptions, final CCITraversalCache tc, final Set<String> inProcessSet)
-    '''
-def getFailedRelations():
-    '''public Map<String, CIRelationHelper> getFailedRelations()
+def ():
+    '''returns CCIPromotionTraversalAction\n\n
+    (final String authTopCIClassId, final long synchronizationOptions, final CCITraversalCache tc, final Set<String> inProcessSet)\n
     '''
 def processState():
-    '''public void processState(final TraversalState state, final UserInfo userInfo)
+    '''returns None\n\n
+    processState(final TraversalState state, final UserInfo userInfo)\n
     '''
 def isNull():
-    '''public boolean isNull(final String input)
+    '''returns boolean\n\n
+    isNull(final String input)\n
     '''
 def postTraverseAction():
-    '''public void postTraverseAction(final UserInfo userInfo)
-    '''
-def processRelation():
-    '''public static boolean processRelation(final CIRelationHelper relation, final CCICIRelationSetRemote newCiRelations, final CCICIRelationSetRemote ciExistingRelations, final Map<String, LinkedCIInfo> actCIToCIMap, final boolean createRelationships, final UserInfo userInfo)
-    '''
-def getExistingCIsMap():
-    '''public Map<String, LinkedCIInfo> getExistingCIsMap()
+    '''returns None\n\n
+    postTraverseAction(final UserInfo userInfo)\n
     '''
 def copyAttributes():
-    '''public boolean copyAttributes(final MboRemote actualCI, final MboRemote authorizedCI, final boolean overwriteAttributes, final boolean removeBlanksOnly, final boolean createdCI)
+    '''returns boolean\n\n
+    copyAttributes(final MboRemote actualCI, final MboRemote authorizedCI, final boolean overwriteAttributes, final boolean removeBlanksOnly, final boolean createdCI)\n
     '''
 def getResults():
-    '''public List<CCIPromotionResults> getResults()
+    '''returns List<CCIPromotionResults>\n\n
+    getResults()\n
     '''

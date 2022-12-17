@@ -1,244 +1,320 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getAccountContact():
-    '''public Contact getAccountContact()
+    '''returns Contact\n\n
+    getAccountContact()\n
     '''
 def setAccountContact():
-    '''public void setAccountContact(final Contact accountContact)
+    '''returns None\n\n
+    setAccountContact(final Contact accountContact)\n
     '''
 def setReportType():
-    '''public void setReportType(final com.softlayer.api.service.compliance.report.Type reportType)
+    '''returns None\n\n
+    setReportType(final com.softlayer.api.service.compliance.report.Type reportType)\n
     '''
 def getTicket():
-    '''public Ticket getTicket()
+    '''returns Ticket\n\n
+    getTicket()\n
     '''
 def setTicket():
-    '''public void setTicket(final Ticket ticket)
+    '''returns None\n\n
+    setTicket(final Ticket ticket)\n
     '''
 def getUser():
-    '''public Customer getUser()
+    '''returns Customer\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final Customer user)
+    '''returns None\n\n
+    setUser(final Customer user)\n
     '''
 def getAccountContactId():
-    '''public Long getAccountContactId()
+    '''returns Long\n\n
+    getAccountContactId()\n
     '''
 def setAccountContactId():
-    '''public void setAccountContactId(final Long accountContactId)
+    '''returns None\n\n
+    setAccountContactId(final Long accountContactId)\n
     '''
 def isAccountContactIdSpecified():
-    '''public boolean isAccountContactIdSpecified()
+    '''returns boolean\n\n
+    isAccountContactIdSpecified()\n
     '''
 def unsetAccountContactId():
-    '''public void unsetAccountContactId()
+    '''returns None\n\n
+    unsetAccountContactId()\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getComplianceReportTypeId():
-    '''public String getComplianceReportTypeId()
+    '''returns String\n\n
+    getComplianceReportTypeId()\n
     '''
 def setComplianceReportTypeId():
-    '''public void setComplianceReportTypeId(final String complianceReportTypeId)
+    '''returns None\n\n
+    setComplianceReportTypeId(final String complianceReportTypeId)\n
     '''
 def isComplianceReportTypeIdSpecified():
-    '''public boolean isComplianceReportTypeIdSpecified()
+    '''returns boolean\n\n
+    isComplianceReportTypeIdSpecified()\n
     '''
 def unsetComplianceReportTypeId():
-    '''public void unsetComplianceReportTypeId()
+    '''returns None\n\n
+    unsetComplianceReportTypeId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getEmployeeRecordId():
-    '''public Long getEmployeeRecordId()
+    '''returns Long\n\n
+    getEmployeeRecordId()\n
     '''
 def setEmployeeRecordId():
-    '''public void setEmployeeRecordId(final Long employeeRecordId)
+    '''returns None\n\n
+    setEmployeeRecordId(final Long employeeRecordId)\n
     '''
 def isEmployeeRecordIdSpecified():
-    '''public boolean isEmployeeRecordIdSpecified()
+    '''returns boolean\n\n
+    isEmployeeRecordIdSpecified()\n
     '''
 def unsetEmployeeRecordId():
-    '''public void unsetEmployeeRecordId()
+    '''returns None\n\n
+    unsetEmployeeRecordId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNda():
-    '''public String getNda()
+    '''returns String\n\n
+    getNda()\n
     '''
 def setNda():
-    '''public void setNda(final String nda)
+    '''returns None\n\n
+    setNda(final String nda)\n
     '''
 def isNdaSpecified():
-    '''public boolean isNdaSpecified()
+    '''returns boolean\n\n
+    isNdaSpecified()\n
     '''
 def unsetNda():
-    '''public void unsetNda()
+    '''returns None\n\n
+    unsetNda()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getReport():
-    '''public String getReport()
+    '''returns String\n\n
+    getReport()\n
     '''
 def setReport():
-    '''public void setReport(final String report)
+    '''returns None\n\n
+    setReport(final String report)\n
     '''
 def isReportSpecified():
-    '''public boolean isReportSpecified()
+    '''returns boolean\n\n
+    isReportSpecified()\n
     '''
 def unsetReport():
-    '''public void unsetReport()
+    '''returns None\n\n
+    unsetReport()\n
     '''
 def getRequestKey():
-    '''public String getRequestKey()
+    '''returns String\n\n
+    getRequestKey()\n
     '''
 def setRequestKey():
-    '''public void setRequestKey(final String requestKey)
+    '''returns None\n\n
+    setRequestKey(final String requestKey)\n
     '''
 def isRequestKeySpecified():
-    '''public boolean isRequestKeySpecified()
+    '''returns boolean\n\n
+    isRequestKeySpecified()\n
     '''
 def unsetRequestKey():
-    '''public void unsetRequestKey()
+    '''returns None\n\n
+    unsetRequestKey()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
+    '''returns None\n\n
+    setStatus(final String status)\n
     '''
 def isStatusSpecified():
-    '''public boolean isStatusSpecified()
+    '''returns boolean\n\n
+    isStatusSpecified()\n
     '''
 def unsetStatus():
-    '''public void unsetStatus()
+    '''returns None\n\n
+    unsetStatus()\n
     '''
 def getTicketId():
-    '''public Long getTicketId()
+    '''returns Long\n\n
+    getTicketId()\n
     '''
 def setTicketId():
-    '''public void setTicketId(final Long ticketId)
+    '''returns None\n\n
+    setTicketId(final Long ticketId)\n
     '''
 def isTicketIdSpecified():
-    '''public boolean isTicketIdSpecified()
+    '''returns boolean\n\n
+    isTicketIdSpecified()\n
     '''
 def unsetTicketId():
-    '''public void unsetTicketId()
+    '''returns None\n\n
+    unsetTicketId()\n
     '''
 def getUsrRecordId():
-    '''public Long getUsrRecordId()
+    '''returns Long\n\n
+    getUsrRecordId()\n
     '''
 def setUsrRecordId():
-    '''public void setUsrRecordId(final Long usrRecordId)
+    '''returns None\n\n
+    setUsrRecordId(final Long usrRecordId)\n
     '''
 def isUsrRecordIdSpecified():
-    '''public boolean isUsrRecordIdSpecified()
+    '''returns boolean\n\n
+    isUsrRecordIdSpecified()\n
     '''
 def unsetUsrRecordId():
-    '''public void unsetUsrRecordId()
+    '''returns None\n\n
+    unsetUsrRecordId()\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountContactId():
-    '''public Mask accountContactId()
+    '''returns Mask\n\n
+    accountContactId()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def complianceReportTypeId():
-    '''public Mask complianceReportTypeId()
+    '''returns Mask\n\n
+    complianceReportTypeId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def employeeRecordId():
-    '''public Mask employeeRecordId()
+    '''returns Mask\n\n
+    employeeRecordId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def nda():
-    '''public Mask nda()
+    '''returns Mask\n\n
+    nda()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def report():
-    '''public Mask report()
+    '''returns Mask\n\n
+    report()\n
     '''
 def requestKey():
-    '''public Mask requestKey()
+    '''returns Mask\n\n
+    requestKey()\n
     '''
 def status():
-    '''public Mask status()
+    '''returns Mask\n\n
+    status()\n
     '''
 def ticketId():
-    '''public Mask ticketId()
+    '''returns Mask\n\n
+    ticketId()\n
     '''
 def usrRecordId():
-    '''public Mask usrRecordId()
+    '''returns Mask\n\n
+    usrRecordId()\n
     '''

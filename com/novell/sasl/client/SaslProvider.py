@@ -1,6 +1,8 @@
-def SaslProvider():
-    '''public SaslProvider()
+def ():
+    '''returns SaslProvider\n\n
+    ()\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

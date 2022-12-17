@@ -1,18 +1,24 @@
-def PlusCATDSPlan():
-    '''public PlusCATDSPlan(final MboSet ms)
+def ():
+    '''returns PlusCATDSPlan\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def validateDS():
-    '''public void validateDS(final String dsNum, final String revNum)
+    '''returns None\n\n
+    validateDS(final String dsNum, final String revNum)\n
     '''
 def getAssetTemplateMboSetInfo():
-    '''public MboSetInfo getAssetTemplateMboSetInfo()
+    '''returns MboSetInfo\n\n
+    getAssetTemplateMboSetInfo()\n
     '''

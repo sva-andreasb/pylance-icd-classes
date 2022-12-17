@@ -1,3 +1,4 @@
-def FldModuleMaxLicApps():
-    '''public FldModuleMaxLicApps(final MboValue mbv)
+def ():
+    '''returns FldModuleMaxLicApps\n\n
+    (final MboValue mbv)\n
     '''

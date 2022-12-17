@@ -1,7 +1,9 @@
-def HeapDumpOnDiskLimitReachedException():
-    '''public HeapDumpOnDiskLimitReachedException(final String s)
-    public HeapDumpOnDiskLimitReachedException(final String s, final int maxNumberOfDumps)
+def ():
+    '''returns HeapDumpOnDiskLimitReachedException\n\n
+    (final String s)\n
+    (final String s, final int maxNumberOfDumps)\n
     '''
 def getMaxNumberOfDumps():
-    '''public int getMaxNumberOfDumps()
+    '''returns int\n\n
+    getMaxNumberOfDumps()\n
     '''

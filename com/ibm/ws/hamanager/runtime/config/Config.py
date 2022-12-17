@@ -1,0 +1,1 @@
+svCoreGroupDocument = "String  \"coregroup.xml\""

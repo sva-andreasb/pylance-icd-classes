@@ -1,9 +1,8 @@
-def IloCplex__UserCutCallbackI():
-    '''public IloCplex__UserCutCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__UserCutCallbackI obj)
+def ():
+    '''returns IloCplex__UserCutCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''

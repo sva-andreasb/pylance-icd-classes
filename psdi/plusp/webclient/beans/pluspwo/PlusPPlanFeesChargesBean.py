@@ -1,3 +1,4 @@
 def updateCalculatedFees():
-    '''public int updateCalculatedFees()
+    '''returns int\n\n
+    updateCalculatedFees()\n
     '''

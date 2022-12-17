@@ -1,5 +1,6 @@
-def ConfigurationException():
-    '''public ConfigurationException(final String message)
-    public ConfigurationException(final String message, final Throwable cause)
-    public ConfigurationException(final Throwable cause)
+def ():
+    '''returns ConfigurationException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

@@ -1,18 +1,23 @@
-def AppDeploymentException():
-    '''public AppDeploymentException()
-    public AppDeploymentException(final String message)
-    public AppDeploymentException(final String message, final Throwable cause)
-    public AppDeploymentException(final Throwable cause)
+def ():
+    '''returns AppDeploymentException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''
 def getEmbeddedEx():
-    '''public Throwable getEmbeddedEx()
+    '''returns Throwable\n\n
+    getEmbeddedEx()\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''
 def initCause():
-    '''public Throwable initCause(final Throwable cause)
+    '''returns Throwable\n\n
+    initCause(final Throwable cause)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

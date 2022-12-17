@@ -1,9 +1,8 @@
 def action():
-    '''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
-    '''
-def getRequestQueryParams():
-    '''public Map<String, RESTParamInfo> getRequestQueryParams()
+    '''returns OslcResourceResponse\n\n
+    action(final OslcRequest request, final byte[] actionData)\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''

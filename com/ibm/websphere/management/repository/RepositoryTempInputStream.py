@@ -1,7 +1,9 @@
-def RepositoryTempInputStream():
-    '''public RepositoryTempInputStream()
-    public RepositoryTempInputStream(final File file)
+def ():
+    '''returns RepositoryTempInputStream\n\n
+    ()\n
+    (final File file)\n
     '''
 def getStream():
-    '''public InputStream getStream()
+    '''returns InputStream\n\n
+    getStream()\n
     '''

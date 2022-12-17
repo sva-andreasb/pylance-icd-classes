@@ -1,3 +1,4 @@
-def FldNotifMsgTemplate():
-    '''public FldNotifMsgTemplate(final MboValue mbv)
+def ():
+    '''returns FldNotifMsgTemplate\n\n
+    (final MboValue mbv)\n
     '''

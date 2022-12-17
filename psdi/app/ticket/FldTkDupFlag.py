@@ -1,6 +1,8 @@
-def FldTkDupFlag():
-    '''public FldTkDupFlag(final MboValue mbv)
+def ():
+    '''returns FldTkDupFlag\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

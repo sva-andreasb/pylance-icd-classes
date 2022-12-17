@@ -1,3 +1,4 @@
-def ResponseFreeFormSet():
-    '''public ResponseFreeFormSet(final MboServerInterface ms)
+def ():
+    '''returns ResponseFreeFormSet\n\n
+    (final MboServerInterface ms)\n
     '''

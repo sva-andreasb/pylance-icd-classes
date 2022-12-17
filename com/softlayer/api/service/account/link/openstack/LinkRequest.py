@@ -1,45 +1,60 @@
 def getDesiredPassword():
-    '''public String getDesiredPassword()
+    '''returns String\n\n
+    getDesiredPassword()\n
     '''
 def setDesiredPassword():
-    '''public void setDesiredPassword(final String desiredPassword)
+    '''returns None\n\n
+    setDesiredPassword(final String desiredPassword)\n
     '''
 def isDesiredPasswordSpecified():
-    '''public boolean isDesiredPasswordSpecified()
+    '''returns boolean\n\n
+    isDesiredPasswordSpecified()\n
     '''
 def unsetDesiredPassword():
-    '''public void unsetDesiredPassword()
+    '''returns None\n\n
+    unsetDesiredPassword()\n
     '''
 def getDesiredProjectName():
-    '''public String getDesiredProjectName()
+    '''returns String\n\n
+    getDesiredProjectName()\n
     '''
 def setDesiredProjectName():
-    '''public void setDesiredProjectName(final String desiredProjectName)
+    '''returns None\n\n
+    setDesiredProjectName(final String desiredProjectName)\n
     '''
 def isDesiredProjectNameSpecified():
-    '''public boolean isDesiredProjectNameSpecified()
+    '''returns boolean\n\n
+    isDesiredProjectNameSpecified()\n
     '''
 def unsetDesiredProjectName():
-    '''public void unsetDesiredProjectName()
+    '''returns None\n\n
+    unsetDesiredProjectName()\n
     '''
 def getDesiredUsername():
-    '''public String getDesiredUsername()
+    '''returns String\n\n
+    getDesiredUsername()\n
     '''
 def setDesiredUsername():
-    '''public void setDesiredUsername(final String desiredUsername)
+    '''returns None\n\n
+    setDesiredUsername(final String desiredUsername)\n
     '''
 def isDesiredUsernameSpecified():
-    '''public boolean isDesiredUsernameSpecified()
+    '''returns boolean\n\n
+    isDesiredUsernameSpecified()\n
     '''
 def unsetDesiredUsername():
-    '''public void unsetDesiredUsername()
+    '''returns None\n\n
+    unsetDesiredUsername()\n
     '''
 def desiredPassword():
-    '''public Mask desiredPassword()
+    '''returns Mask\n\n
+    desiredPassword()\n
     '''
 def desiredProjectName():
-    '''public Mask desiredProjectName()
+    '''returns Mask\n\n
+    desiredProjectName()\n
     '''
 def desiredUsername():
-    '''public Mask desiredUsername()
+    '''returns Mask\n\n
+    desiredUsername()\n
     '''

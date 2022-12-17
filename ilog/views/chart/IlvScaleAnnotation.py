@@ -1,29 +1,30 @@
-def IlvScaleAnnotation():
-    '''public IlvScaleAnnotation(final double n)
-    public IlvScaleAnnotation(final double a, final String c)
-    public IlvScaleAnnotation(final double a, final String c, final IlvLabelRenderer d)
-    '''
-def getScale():
-    '''public final IlvScale getScale()
+def ():
+    '''returns IlvScaleAnnotation\n\n
+    (final double n)\n
+    (final double a, final String c)\n
+    (final double a, final String c, final IlvLabelRenderer d)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String c)
-    '''
-def getValue():
-    '''public final double getValue()
+    '''returns None\n\n
+    setLabel(final String c)\n
     '''
 def setValue():
-    '''public void setValue(final double a)
+    '''returns None\n\n
+    setValue(final double a)\n
     '''
 def getLabelRenderer():
-    '''public IlvLabelRenderer getLabelRenderer()
+    '''returns IlvLabelRenderer\n\n
+    getLabelRenderer()\n
     '''
 def getBounds():
-    '''public Rectangle2D getBounds(final Rectangle2D rectangle2D)
+    '''returns Rectangle2D\n\n
+    getBounds(final Rectangle2D rectangle2D)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''

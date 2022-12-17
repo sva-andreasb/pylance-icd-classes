@@ -1,9 +1,12 @@
 def getReconLinker():
-    '''public ReconLinkerI getReconLinker()
+    '''returns ReconLinkerI\n\n
+    getReconLinker()\n
     '''
 def getFixedTaskFilterWhereClause():
-    '''public String getFixedTaskFilterWhereClause()
+    '''returns String\n\n
+    getFixedTaskFilterWhereClause()\n
     '''
 def getReconLinkAttributeNamesForLink():
-    '''public ResultTableAttributes getReconLinkAttributeNamesForLink(final boolean isDataSet1)
+    '''returns ResultTableAttributes\n\n
+    getReconLinkAttributeNamesForLink(final boolean isDataSet1)\n
     '''

@@ -1,12 +1,16 @@
-def ExpressionBuilderAtts():
-    '''public ExpressionBuilderAtts(final MboSet ms)
+def ():
+    '''returns ExpressionBuilderAtts\n\n
+    (final MboSet ms)\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''

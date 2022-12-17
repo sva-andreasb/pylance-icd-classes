@@ -1,13 +1,17 @@
-def IlvGanttChart():
-    '''public IlvGanttChart()
+def ():
+    '''returns IlvGanttChart\n\n
+    ()\n
     '''
 def getSelectedActivities():
-    '''public IlvActivity[] getSelectedActivities()
+    '''returns IlvActivity[]\n\n
+    getSelectedActivities()\n
     '''
 def select():
-    '''public void select(final IlvActivity ilvActivity, final boolean b)
+    '''returns None\n\n
+    select(final IlvActivity ilvActivity, final boolean b)\n
     '''
 def isEditable():
-    '''public boolean isEditable(final IlvHierarchyNode ilvHierarchyNode)
-    public boolean isEditable(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns boolean\n\n
+    isEditable(final IlvHierarchyNode ilvHierarchyNode)\n
+    isEditable(final IlvHierarchyNode ilvHierarchyNode)\n
     '''

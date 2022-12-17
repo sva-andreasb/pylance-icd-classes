@@ -1,13 +1,16 @@
-def PublicSuffixMatcher():
-    '''public PublicSuffixMatcher(final Collection<String> rules, final Collection<String> exceptions)
-    public PublicSuffixMatcher(final DomainType domainType, final Collection<String> rules, final Collection<String> exceptions)
-    public PublicSuffixMatcher(final Collection<PublicSuffixList> lists)
+def ():
+    '''returns PublicSuffixMatcher\n\n
+    (final Collection<String> rules, final Collection<String> exceptions)\n
+    (final DomainType domainType, final Collection<String> rules, final Collection<String> exceptions)\n
+    (final Collection<PublicSuffixList> lists)\n
     '''
 def getDomainRoot():
-    '''public String getDomainRoot(final String domain)
-    public String getDomainRoot(final String domain, final DomainType expectedType)
+    '''returns String\n\n
+    getDomainRoot(final String domain)\n
+    getDomainRoot(final String domain, final DomainType expectedType)\n
     '''
 def matches():
-    '''public boolean matches(final String domain)
-    public boolean matches(final String domain, final DomainType expectedType)
+    '''returns boolean\n\n
+    matches(final String domain)\n
+    matches(final String domain, final DomainType expectedType)\n
     '''

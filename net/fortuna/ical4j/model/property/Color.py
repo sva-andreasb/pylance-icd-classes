@@ -1,21 +1,24 @@
 PROPERTY_NAME = "String  \"COLOR\""
-def Color():
-    '''public Color()
-    public Color(final ParameterList params, final String value)
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final ParameterList params, final String value)\n
+    ()\n
     '''
 def setValue():
-    '''public void setValue(final String aValue)
+    '''returns None\n\n
+    setValue(final String aValue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getValue():
-    '''public String getValue()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns String\n\n
+    getValue()\n
     '''
 def createProperty():
-    '''public Color createProperty()
-    public Color createProperty(final ParameterList parameters, final String value)
+    '''returns Color\n\n
+    createProperty()\n
+    createProperty(final ParameterList parameters, final String value)\n
     '''

@@ -1,12 +1,16 @@
-def HttpEncodingStreamingContent():
-    '''public HttpEncodingStreamingContent(final StreamingContent content, final HttpEncoding encoding)
+def ():
+    '''returns HttpEncodingStreamingContent\n\n
+    (final StreamingContent content, final HttpEncoding encoding)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def getContent():
-    '''public StreamingContent getContent()
+    '''returns StreamingContent\n\n
+    getContent()\n
     '''
 def getEncoding():
-    '''public HttpEncoding getEncoding()
+    '''returns HttpEncoding\n\n
+    getEncoding()\n
     '''

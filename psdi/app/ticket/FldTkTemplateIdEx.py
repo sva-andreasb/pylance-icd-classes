@@ -1,7 +1,9 @@
-def FldTkTemplateIdEx():
-    '''public FldTkTemplateIdEx(final MboValue mbv)
-    public FldTkTemplateIdEx(final MboValue mbv, final String criteriaName)
+def ():
+    '''returns FldTkTemplateIdEx\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String criteriaName)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

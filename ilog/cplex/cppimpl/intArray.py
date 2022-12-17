@@ -1,25 +1,25 @@
-def intArray():
-    '''public intArray(final long cPtr, final boolean cMemoryOwn)
-    public intArray(final int nelements)
+def ():
+    '''returns intArray\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final int nelements)\n
     '''
 def setOwn():
-    '''public void setOwn(final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final intArray obj)
+    '''returns None\n\n
+    setOwn(final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getitem():
-    '''public int getitem(final int index)
+    '''returns int\n\n
+    getitem(final int index)\n
     '''
 def setitem():
-    '''public void setitem(final int index, final int value)
+    '''returns None\n\n
+    setitem(final int index, final int value)\n
     '''
 def cast():
-    '''public SWIGTYPE_p_int cast()
-    '''
-def frompointer():
-    '''public static intArray frompointer(final SWIGTYPE_p_int t)
+    '''returns SWIGTYPE_p_int\n\n
+    cast()\n
     '''

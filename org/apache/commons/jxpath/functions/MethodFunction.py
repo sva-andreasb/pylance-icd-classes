@@ -1,9 +1,12 @@
-def MethodFunction():
-    '''public MethodFunction(final Method method)
+def ():
+    '''returns MethodFunction\n\n
+    (final Method method)\n
     '''
 def invoke():
-    '''public Object invoke(final ExpressionContext context, Object[] parameters)
+    '''returns Object\n\n
+    invoke(final ExpressionContext context, Object[] parameters)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

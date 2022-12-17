@@ -1,18 +1,24 @@
-def GroupQueryNode():
-    '''public GroupQueryNode(final QueryNode query)
+def ():
+    '''returns GroupQueryNode\n\n
+    (final QueryNode query)\n
     '''
 def getChild():
-    '''public QueryNode getChild()
+    '''returns QueryNode\n\n
+    getChild()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escapeSyntaxParser)\n
     '''
 def cloneTree():
-    '''public QueryNode cloneTree()
+    '''returns QueryNode\n\n
+    cloneTree()\n
     '''
 def setChild():
-    '''public void setChild(final QueryNode child)
+    '''returns None\n\n
+    setChild(final QueryNode child)\n
     '''

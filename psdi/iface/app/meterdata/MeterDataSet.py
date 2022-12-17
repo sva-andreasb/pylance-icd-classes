@@ -1,3 +1,4 @@
-def MeterDataSet():
-    '''public MeterDataSet(final MboServerInterface ms)
+def ():
+    '''returns MeterDataSet\n\n
+    (final MboServerInterface ms)\n
     '''

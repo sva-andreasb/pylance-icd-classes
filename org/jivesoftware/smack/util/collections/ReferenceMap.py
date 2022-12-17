@@ -1,7 +1,8 @@
-def ReferenceMap():
-    '''public ReferenceMap()
-    public ReferenceMap(final int keyType, final int valueType)
-    public ReferenceMap(final int keyType, final int valueType, final boolean purgeValues)
-    public ReferenceMap(final int keyType, final int valueType, final int capacity, final float loadFactor)
-    public ReferenceMap(final int keyType, final int valueType, final int capacity, final float loadFactor, final boolean purgeValues)
+def ():
+    '''returns ReferenceMap\n\n
+    ()\n
+    (final int keyType, final int valueType)\n
+    (final int keyType, final int valueType, final boolean purgeValues)\n
+    (final int keyType, final int valueType, final int capacity, final float loadFactor)\n
+    (final int keyType, final int valueType, final int capacity, final float loadFactor, final boolean purgeValues)\n
     '''

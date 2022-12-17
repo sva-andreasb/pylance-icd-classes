@@ -1,21 +1,28 @@
-def CompetitiveImpactAccumulator():
-    '''public CompetitiveImpactAccumulator()
+def ():
+    '''returns CompetitiveImpactAccumulator\n\n
+    ()\n
     '''
 def compare():
-    '''public int compare(final Impact o1, final Impact o2)
+    '''returns int\n\n
+    compare(final Impact o1, final Impact o2)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def add():
-    '''public void add(final int freq, final long norm)
+    '''returns None\n\n
+    add(final int freq, final long norm)\n
     '''
 def addAll():
-    '''public void addAll(final CompetitiveImpactAccumulator acc)
+    '''returns None\n\n
+    addAll(final CompetitiveImpactAccumulator acc)\n
     '''
 def getCompetitiveFreqNormPairs():
-    '''public Collection<Impact> getCompetitiveFreqNormPairs()
+    '''returns Collection<Impact>\n\n
+    getCompetitiveFreqNormPairs()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

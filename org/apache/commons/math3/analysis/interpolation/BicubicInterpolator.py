@@ -1,6 +1,8 @@
 def interpolate():
-    '''public BicubicInterpolatingFunction interpolate(final double[] xval, final double[] yval, final double[][] fval)
+    '''returns BicubicInterpolatingFunction\n\n
+    interpolate(final double[] xval, final double[] yval, final double[][] fval)\n
     '''
 def isValidPoint():
-    '''public boolean isValidPoint(final double x, final double y)
+    '''returns boolean\n\n
+    isValidPoint(final double x, final double y)\n
     '''

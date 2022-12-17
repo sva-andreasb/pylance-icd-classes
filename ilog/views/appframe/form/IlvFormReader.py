@@ -1,34 +1,45 @@
-def IlvFormReader():
-    '''public IlvFormReader(final IlvFormDevice b)
+def ():
+    '''returns IlvFormReader\n\n
+    (final IlvFormDevice b)\n
     '''
 def getFormDevice():
-    '''public IlvFormDevice getFormDevice()
+    '''returns IlvFormDevice\n\n
+    getFormDevice()\n
     '''
 def setFormDevice():
-    '''public void setFormDevice(final IlvFormDevice b)
+    '''returns None\n\n
+    setFormDevice(final IlvFormDevice b)\n
     '''
 def readObject():
-    '''public Object readObject(final Element element, final IlvServicesProvider ilvServicesProvider)
+    '''returns Object\n\n
+    readObject(final Element element, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def readObjectContent():
-    '''public IlvForm readObjectContent(final Object o, final Element element, final IlvServicesProvider ilvServicesProvider)
-    public IlvForm readObjectContent(final Object o, final URL url, final IlvServicesProvider ilvServicesProvider)
+    '''returns IlvForm\n\n
+    readObjectContent(final Object o, final Element element, final IlvServicesProvider ilvServicesProvider)\n
+    readObjectContent(final Object o, final URL url, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def removeReaderFormat():
-    '''public boolean removeReaderFormat(final IlvFormReaderFormat o)
+    '''returns boolean\n\n
+    removeReaderFormat(final IlvFormReaderFormat o)\n
     '''
 def registerObjectReader():
-    '''public void registerObjectReader(final String s, final Class clazz, final IlvObjectReader ilvObjectReader)
+    '''returns None\n\n
+    registerObjectReader(final String s, final Class clazz, final IlvObjectReader ilvObjectReader)\n
     '''
 def unregisterObjectReader():
-    '''public IlvObjectReader unregisterObjectReader(final String s)
+    '''returns IlvObjectReader\n\n
+    unregisterObjectReader(final String s)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException ex)
+    '''returns None\n\n
+    warning(final SAXParseException ex)\n
     '''
 def error():
-    '''public void error(final SAXParseException ex)
+    '''returns None\n\n
+    error(final SAXParseException ex)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException ex)
+    '''returns None\n\n
+    fatalError(final SAXParseException ex)\n
     '''

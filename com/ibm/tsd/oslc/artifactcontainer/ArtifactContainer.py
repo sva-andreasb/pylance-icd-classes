@@ -1,3 +1,4 @@
-def ArtifactContainer():
-    '''public ArtifactContainer(final MboSet ms)
+def ():
+    '''returns ArtifactContainer\n\n
+    (final MboSet ms)\n
     '''

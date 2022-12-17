@@ -1,9 +1,12 @@
-def MessageNumberTerm():
-    '''public MessageNumberTerm(final int number)
+def ():
+    '''returns MessageNumberTerm\n\n
+    (final int number)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def match():
-    '''public boolean match(final Message msg)
+    '''returns boolean\n\n
+    match(final Message msg)\n
     '''

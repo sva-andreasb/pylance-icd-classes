@@ -2,59 +2,77 @@ STATUS_INPROGRESS = "String  \"InProgress\""
 STATUS_COMPLETED = "String  \"Completed\""
 STATUS_INTERACTIVE = "String  \"Interactive\""
 STATUS_WARNING = "String  \"Warning\""
-def CommandNotification():
-    '''public CommandNotification(final String cName, final String sName, final String cStatus, final String sStatus, final String msg, final long session, final Object uData, final CommandResult cmdResult)
-    public CommandNotification(final String cName, final String sName, final String cStatus, final String sStatus, final String msg, final long session, final CommandResult cmdResult)
-    public CommandNotification(final String cName, final String sName, final String cStatus, final String sStatus, final String msg, final long session)
+def ():
+    '''returns CommandNotification\n\n
+    (final String cName, final String sName, final String cStatus, final String sStatus, final String msg, final long session, final Object uData, final CommandResult cmdResult)\n
+    (final String cName, final String sName, final String cStatus, final String sStatus, final String msg, final long session, final CommandResult cmdResult)\n
+    (final String cName, final String sName, final String cStatus, final String sStatus, final String msg, final long session)\n
     '''
 def getCmdName():
-    '''public String getCmdName()
+    '''returns String\n\n
+    getCmdName()\n
     '''
 def setCmdName():
-    '''public void setCmdName(final String cmdName)
+    '''returns None\n\n
+    setCmdName(final String cmdName)\n
     '''
 def getCmdStatus():
-    '''public String getCmdStatus()
+    '''returns String\n\n
+    getCmdStatus()\n
     '''
 def setCmdStatus():
-    '''public void setCmdStatus(final String cmdStatus)
+    '''returns None\n\n
+    setCmdStatus(final String cmdStatus)\n
     '''
 def getCmdStepName():
-    '''public String getCmdStepName()
+    '''returns String\n\n
+    getCmdStepName()\n
     '''
 def setCmdStepName():
-    '''public void setCmdStepName(final String cmdStepName)
+    '''returns None\n\n
+    setCmdStepName(final String cmdStepName)\n
     '''
 def getCmdStepStatus():
-    '''public String getCmdStepStatus()
+    '''returns String\n\n
+    getCmdStepStatus()\n
     '''
 def setCmdStepStatus():
-    '''public void setCmdStepStatus(final String cmdStepStatus)
+    '''returns None\n\n
+    setCmdStepStatus(final String cmdStepStatus)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def getSessionID():
-    '''public long getSessionID()
+    '''returns long\n\n
+    getSessionID()\n
     '''
 def setSessionID():
-    '''public void setSessionID(final long sessionID)
+    '''returns None\n\n
+    setSessionID(final long sessionID)\n
     '''
 def getUserData():
-    '''public Object getUserData()
+    '''returns Object\n\n
+    getUserData()\n
     '''
 def setUserData():
-    '''public void setUserData(final Object userData)
+    '''returns None\n\n
+    setUserData(final Object userData)\n
     '''
 def getResult():
-    '''public CommandResult getResult()
+    '''returns CommandResult\n\n
+    getResult()\n
     '''
 def setResult():
-    '''public void setResult(final CommandResult cmdResult)
+    '''returns None\n\n
+    setResult(final CommandResult cmdResult)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

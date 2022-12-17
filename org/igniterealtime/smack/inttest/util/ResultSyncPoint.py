@@ -1,7 +1,9 @@
 def waitForResult():
-    '''public R waitForResult(final long timeout)
+    '''returns R\n\n
+    waitForResult(final long timeout)\n
     '''
 def signal():
-    '''public void signal(final R result)
-    public void signal(final E exception)
+    '''returns None\n\n
+    signal(final R result)\n
+    signal(final E exception)\n
     '''

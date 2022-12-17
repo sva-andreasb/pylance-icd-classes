@@ -1,52 +1,53 @@
-def LoaderUtils():
-    '''public LoaderUtils(final ModelProcessType loader)
+def ():
+    '''returns LoaderUtils\n\n
+    (final ModelProcessType loader)\n
     '''
 def getUpdateMode():
-    '''public int getUpdateMode()
+    '''returns int\n\n
+    getUpdateMode()\n
     '''
 def getLoader():
-    '''public ModelProcessType getLoader()
+    '''returns ModelProcessType\n\n
+    getLoader()\n
     '''
 def getFormater():
-    '''public NumberFormat getFormater()
+    '''returns NumberFormat\n\n
+    getFormater()\n
     '''
 def getUnitFieldLength():
-    '''public int getUnitFieldLength()
+    '''returns int\n\n
+    getUnitFieldLength()\n
     '''
 def isValidDomainName():
-    '''public boolean isValidDomainName(final String name)
+    '''returns boolean\n\n
+    isValidDomainName(final String name)\n
     '''
 def logException():
-    '''public void logException(final Page page, final ItemBase item, final Throwable t)
+    '''returns None\n\n
+    logException(final Page page, final ItemBase item, final Throwable t)\n
     '''
 def isValidEmail():
-    '''public boolean isValidEmail(String address)
+    '''returns boolean\n\n
+    isValidEmail(String address)\n
     '''
 def setDateValue():
-    '''public boolean setDateValue(final MboRemote mbo, final String attribute, final String value, final ItemBase item)
+    '''returns boolean\n\n
+    setDateValue(final MboRemote mbo, final String attribute, final String value, final ItemBase item)\n
     '''
 def setDescriptionValue():
-    '''public void setDescriptionValue(final MboRemote mbo, final String attribute, final String value, final ItemBase item)
+    '''returns None\n\n
+    setDescriptionValue(final MboRemote mbo, final String attribute, final String value, final ItemBase item)\n
     '''
 def setDurationValue():
-    '''public boolean setDurationValue(final MboRemote mbo, final String attribute, final String value, final ItemBase item)
+    '''returns boolean\n\n
+    setDurationValue(final MboRemote mbo, final String attribute, final String value, final ItemBase item)\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final MboRemote mbo, final String attribute, final ItemBase item)
+    '''returns None\n\n
+    setTimestamp(final MboRemote mbo, final String attribute, final ItemBase item)\n
     '''
 def setUnitValue():
-    '''public boolean setUnitValue(final MboRemote mbo, final String attribute, final String value, final ItemBase item)
-    public boolean setUnitValue(final MboRemote mbo, final String attribute, String value, final ItemBase item, final boolean logError)
-    '''
-def arrayToCommaString():
-    '''public static String arrayToCommaString(final String[] values)
-    '''
-def isNotInternetEmail():
-    '''public static boolean isNotInternetEmail(String value)
-    '''
-def messageFromException():
-    '''public static String messageFromException(final Throwable t)
-    '''
-def valueHasContent():
-    '''public static boolean valueHasContent(final String value)
+    '''returns boolean\n\n
+    setUnitValue(final MboRemote mbo, final String attribute, final String value, final ItemBase item)\n
+    setUnitValue(final MboRemote mbo, final String attribute, String value, final ItemBase item, final boolean logError)\n
     '''

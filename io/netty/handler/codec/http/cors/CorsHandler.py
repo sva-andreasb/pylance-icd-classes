@@ -1,10 +1,13 @@
-def CorsHandler():
-    '''public CorsHandler(final CorsConfig config)
-    public CorsHandler(final List<CorsConfig> configList, final boolean isShortCircuit)
+def ():
+    '''returns CorsHandler\n\n
+    (final CorsConfig config)\n
+    (final List<CorsConfig> configList, final boolean isShortCircuit)\n
     '''
 def channelRead():
-    '''public void channelRead(final ChannelHandlerContext ctx, final Object msg)
+    '''returns None\n\n
+    channelRead(final ChannelHandlerContext ctx, final Object msg)\n
     '''
 def write():
-    '''public void write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)
+    '''returns None\n\n
+    write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)\n
     '''

@@ -1,24 +1,32 @@
-def SeriesMatcher():
-    '''public SeriesMatcher()
+def ():
+    '''returns SeriesMatcher\n\n
+    ()\n
     '''
 def addMatcher():
-    '''public void addMatcher(final NumberParseMatcher matcher)
+    '''returns None\n\n
+    addMatcher(final NumberParseMatcher matcher)\n
     '''
 def freeze():
-    '''public void freeze()
+    '''returns None\n\n
+    freeze()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def match():
-    '''public boolean match(final StringSegment segment, final ParsedNumber result)
+    '''returns boolean\n\n
+    match(final StringSegment segment, final ParsedNumber result)\n
     '''
 def smokeTest():
-    '''public boolean smokeTest(final StringSegment segment)
+    '''returns boolean\n\n
+    smokeTest(final StringSegment segment)\n
     '''
 def postProcess():
-    '''public void postProcess(final ParsedNumber result)
+    '''returns None\n\n
+    postProcess(final ParsedNumber result)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

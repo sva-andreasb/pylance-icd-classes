@@ -1,7 +1,9 @@
-def SKDChartPrintingController():
-    '''public SKDChartPrintingController(final IlvChartPrintableDocument document)
-    public SKDChartPrintingController(final IlvChart chart)
+def ():
+    '''returns SKDChartPrintingController\n\n
+    (final IlvChartPrintableDocument document)\n
+    (final IlvChart chart)\n
     '''
 def createPrintPreviewWindow():
-    '''public Window createPrintPreviewWindow(final Window owner)
+    '''returns Window\n\n
+    createPrintPreviewWindow(final Window owner)\n
     '''

@@ -1,46 +1,56 @@
 MAXIMUM_BLOCK_SIZE = "int  65535"
-def getByteStreamManager():
-    '''public static synchronized InBandBytestreamManager getByteStreamManager(final XMPPConnection connection)
-    '''
 def addIncomingBytestreamListener():
-    '''public void addIncomingBytestreamListener(final BytestreamListener listener)
-    public void addIncomingBytestreamListener(final BytestreamListener listener, final Jid initiatorJID)
+    '''returns None\n\n
+    addIncomingBytestreamListener(final BytestreamListener listener)\n
+    addIncomingBytestreamListener(final BytestreamListener listener, final Jid initiatorJID)\n
     '''
 def removeIncomingBytestreamListener():
-    '''public void removeIncomingBytestreamListener(final BytestreamListener listener)
-    public void removeIncomingBytestreamListener(final Jid initiatorJID)
+    '''returns None\n\n
+    removeIncomingBytestreamListener(final BytestreamListener listener)\n
+    removeIncomingBytestreamListener(final Jid initiatorJID)\n
     '''
 def ignoreBytestreamRequestOnce():
-    '''public void ignoreBytestreamRequestOnce(final String sessionID)
+    '''returns None\n\n
+    ignoreBytestreamRequestOnce(final String sessionID)\n
     '''
 def getDefaultBlockSize():
-    '''public int getDefaultBlockSize()
+    '''returns int\n\n
+    getDefaultBlockSize()\n
     '''
 def setDefaultBlockSize():
-    '''public void setDefaultBlockSize(final int defaultBlockSize)
+    '''returns None\n\n
+    setDefaultBlockSize(final int defaultBlockSize)\n
     '''
 def getMaximumBlockSize():
-    '''public int getMaximumBlockSize()
+    '''returns int\n\n
+    getMaximumBlockSize()\n
     '''
 def setMaximumBlockSize():
-    '''public void setMaximumBlockSize(final int maximumBlockSize)
+    '''returns None\n\n
+    setMaximumBlockSize(final int maximumBlockSize)\n
     '''
 def getStanza():
-    '''public StanzaType getStanza()
+    '''returns StanzaType\n\n
+    getStanza()\n
     '''
 def setStanza():
-    '''public void setStanza(final StanzaType stanza)
+    '''returns None\n\n
+    setStanza(final StanzaType stanza)\n
     '''
 def establishSession():
-    '''public InBandBytestreamSession establishSession(final Jid targetJID)
-    public InBandBytestreamSession establishSession(final Jid targetJID, final String sessionID)
+    '''returns InBandBytestreamSession\n\n
+    establishSession(final Jid targetJID)\n
+    establishSession(final Jid targetJID, final String sessionID)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''
 def connectionTerminated():
-    '''public void connectionTerminated()
+    '''returns None\n\n
+    connectionTerminated()\n
     '''
 def connected():
-    '''public void connected(final XMPPConnection connection)
+    '''returns None\n\n
+    connected(final XMPPConnection connection)\n
     '''

@@ -1,3 +1,4 @@
-def InvoiceTransSet():
-    '''public InvoiceTransSet(final MboServerInterface ms)
+def ():
+    '''returns InvoiceTransSet\n\n
+    (final MboServerInterface ms)\n
     '''

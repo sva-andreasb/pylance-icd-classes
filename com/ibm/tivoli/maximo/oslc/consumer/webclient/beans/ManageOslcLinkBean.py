@@ -1,6 +1,8 @@
 def instantdelete():
-    '''public int instantdelete()
+    '''returns int\n\n
+    instantdelete()\n
     '''
 def click():
-    '''public int click()
+    '''returns int\n\n
+    click()\n
     '''

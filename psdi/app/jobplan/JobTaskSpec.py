@@ -1,18 +1,24 @@
-def JobTaskSpec():
-    '''public JobTaskSpec(final MboSet ms)
+def ():
+    '''returns JobTaskSpec\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def addDetailInfor():
-    '''public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
+    '''returns None\n\n
+    addDetailInfor(final MboRemote mbo, final MboRemote classspec)\n
     '''
 def getCorrectOwner():
-    '''public MboRemote getCorrectOwner()
+    '''returns MboRemote\n\n
+    getCorrectOwner()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

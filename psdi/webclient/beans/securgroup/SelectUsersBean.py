@@ -1,3 +1,4 @@
 def okUsers():
-    '''public int okUsers()
+    '''returns int\n\n
+    okUsers()\n
     '''

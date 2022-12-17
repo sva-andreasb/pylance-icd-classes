@@ -1,3 +1,4 @@
 def parse():
-    '''public MetaData parse(final XmlPullParser parser, final int initialDepth)
+    '''returns MetaData\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

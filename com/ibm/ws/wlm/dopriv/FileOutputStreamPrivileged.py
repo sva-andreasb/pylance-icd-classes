@@ -1,6 +1,8 @@
-def FileOutputStreamPrivileged():
-    '''public FileOutputStreamPrivileged(final String fileName)
+def ():
+    '''returns FileOutputStreamPrivileged\n\n
+    (final String fileName)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

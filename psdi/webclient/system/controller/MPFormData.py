@@ -1,38 +1,46 @@
-def MPFormData():
-    '''public MPFormData()
-    public MPFormData(final HttpServletRequest req)
-    public MPFormData(final HttpServletRequest req, final int maximumsize)
+def ():
+    '''returns MPFormData\n\n
+    ()\n
+    (final HttpServletRequest req)\n
+    (final HttpServletRequest req, final int maximumsize)\n
     '''
 def processRequest():
-    '''public void processRequest()
-    '''
-def isRequestMultipart():
-    '''public static boolean isRequestMultipart(final HttpServletRequest req)
+    '''returns None\n\n
+    processRequest()\n
     '''
 def getParameter():
-    '''public String getParameter(final String param)
+    '''returns String\n\n
+    getParameter(final String param)\n
     '''
 def isParam():
-    '''public boolean isParam(final String val)
+    '''returns boolean\n\n
+    isParam(final String val)\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getFullFileName():
-    '''public String getFullFileName()
+    '''returns String\n\n
+    getFullFileName()\n
     '''
 def getFileContentType():
-    '''public String getFileContentType()
+    '''returns String\n\n
+    getFileContentType()\n
     '''
 def getFileOutputStream():
-    '''public ByteArrayOutputStream getFileOutputStream()
+    '''returns ByteArrayOutputStream\n\n
+    getFileOutputStream()\n
     '''
 def getFileOutputStreamForFile():
-    '''public ByteArrayOutputStream getFileOutputStreamForFile(final String fileName)
+    '''returns ByteArrayOutputStream\n\n
+    getFileOutputStreamForFile(final String fileName)\n
     '''
 def getFileParams():
-    '''public HashMap getFileParams()
+    '''returns HashMap\n\n
+    getFileParams()\n
     '''
 def getFileParamsForFile():
-    '''public HashMap getFileParamsForFile(final String fileName)
+    '''returns HashMap\n\n
+    getFileParamsForFile(final String fileName)\n
     '''

@@ -1,10 +1,13 @@
-def JobOutputImpl():
-    '''public JobOutputImpl(final String name)
-    public JobOutputImpl()
+def ():
+    '''returns JobOutputImpl\n\n
+    (final String name)\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''

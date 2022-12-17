@@ -1,20 +1,26 @@
-def SAX2ParsedEntityFactory():
-    '''public SAX2ParsedEntityFactory()
-    public SAX2ParsedEntityFactory(final DataBufferFactory dataBufferFactory)
+def ():
+    '''returns SAX2ParsedEntityFactory\n\n
+    ()\n
+    (final DataBufferFactory dataBufferFactory)\n
     '''
 def setEntityResolver():
-    '''public void setEntityResolver(final EntityResolver fResolver)
+    '''returns None\n\n
+    setEntityResolver(final EntityResolver fResolver)\n
     '''
 def getEntityResolver():
-    '''public EntityResolver getEntityResolver()
+    '''returns EntityResolver\n\n
+    getEntityResolver()\n
     '''
 def createParsedEntity():
-    '''public ParsedEntity createParsedEntity(final InputSource inputSource)
-    public ParsedEntity createParsedEntity(final InputSource inputSource, final String[] array)
+    '''returns ParsedEntity\n\n
+    createParsedEntity(final InputSource inputSource)\n
+    createParsedEntity(final InputSource inputSource, final String[] array)\n
     '''
 def expandSystemID():
-    '''public String expandSystemID(final String s, final String s2)
+    '''returns String\n\n
+    expandSystemID(final String s, final String s2)\n
     '''
 def createParsedEntityFromExternalID():
-    '''public ParsedEntity createParsedEntityFromExternalID(final XMLString xmlString, final XMLString xmlString2, final String s)
+    '''returns ParsedEntity\n\n
+    createParsedEntityFromExternalID(final XMLString xmlString, final XMLString xmlString2, final String s)\n
     '''

@@ -1,3 +1,4 @@
-def IEMEndpointMboSet():
-    '''public IEMEndpointMboSet(final MboServerInterface ms)
+def ():
+    '''returns IEMEndpointMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

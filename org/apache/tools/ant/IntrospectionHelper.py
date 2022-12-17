@@ -1,100 +1,120 @@
-def getHelper():
-    '''public static synchronized IntrospectionHelper getHelper(final Class c)
-    public static IntrospectionHelper getHelper(final Project p, final Class c)
-    '''
 def setAttribute():
-    '''public void setAttribute(final Project p, final Object element, final String attributeName, final Object value)
-    public void setAttribute(final Project p, final Object element, final String attributeName, final String value)
+    '''returns None\n\n
+    setAttribute(final Project p, final Object element, final String attributeName, final Object value)\n
+    setAttribute(final Project p, final Object element, final String attributeName, final String value)\n
     '''
 def addText():
-    '''public void addText(final Project project, final Object element, String text)
+    '''returns None\n\n
+    addText(final Project project, final Object element, String text)\n
     '''
 def throwNotSupported():
-    '''public void throwNotSupported(final Project project, final Object parent, final String elementName)
+    '''returns None\n\n
+    throwNotSupported(final Project project, final Object parent, final String elementName)\n
     '''
 def createElement():
-    '''public Object createElement(final Project project, final Object parent, final String elementName)
+    '''returns Object\n\n
+    createElement(final Project project, final Object parent, final String elementName)\n
     '''
 def getElementCreator():
-    '''public Creator getElementCreator(final Project project, final String parentUri, final Object parent, final String elementName, final UnknownElement ue)
+    '''returns Creator\n\n
+    getElementCreator(final Project project, final String parentUri, final Object parent, final String elementName, final UnknownElement ue)\n
     '''
 def isDynamic():
-    '''public boolean isDynamic()
+    '''returns boolean\n\n
+    isDynamic()\n
     '''
 def isContainer():
-    '''public boolean isContainer()
+    '''returns boolean\n\n
+    isContainer()\n
     '''
 def supportsNestedElement():
-    '''public boolean supportsNestedElement(final String elementName)
-    public boolean supportsNestedElement(final String parentUri, final String elementName)
-    public boolean supportsNestedElement(final String parentUri, final String elementName, final Project project, final Object parent)
+    '''returns boolean\n\n
+    supportsNestedElement(final String elementName)\n
+    supportsNestedElement(final String parentUri, final String elementName)\n
+    supportsNestedElement(final String parentUri, final String elementName, final Project project, final Object parent)\n
     '''
 def supportsReflectElement():
-    '''public boolean supportsReflectElement(String parentUri, final String elementName)
+    '''returns boolean\n\n
+    supportsReflectElement(String parentUri, final String elementName)\n
     '''
 def storeElement():
-    '''public void storeElement(final Project project, final Object parent, final Object child, final String elementName)
+    '''returns None\n\n
+    storeElement(final Project project, final Object parent, final Object child, final String elementName)\n
     '''
 def getElementType():
-    '''public Class getElementType(final String elementName)
+    '''returns Class\n\n
+    getElementType(final String elementName)\n
     '''
 def getAttributeType():
-    '''public Class getAttributeType(final String attributeName)
+    '''returns Class\n\n
+    getAttributeType(final String attributeName)\n
     '''
 def getAddTextMethod():
-    '''public Method getAddTextMethod()
+    '''returns Method\n\n
+    getAddTextMethod()\n
     '''
 def getElementMethod():
-    '''public Method getElementMethod(final String elementName)
+    '''returns Method\n\n
+    getElementMethod(final String elementName)\n
     '''
 def getAttributeMethod():
-    '''public Method getAttributeMethod(final String attributeName)
+    '''returns Method\n\n
+    getAttributeMethod(final String attributeName)\n
     '''
 def supportsCharacters():
-    '''public boolean supportsCharacters()
+    '''returns boolean\n\n
+    supportsCharacters()\n
     '''
 def getAttributes():
-    '''public Enumeration getAttributes()
+    '''returns Enumeration\n\n
+    getAttributes()\n
     '''
 def getAttributeMap():
-    '''public Map getAttributeMap()
+    '''returns Map\n\n
+    getAttributeMap()\n
     '''
 def getNestedElements():
-    '''public Enumeration getNestedElements()
+    '''returns Enumeration\n\n
+    getNestedElements()\n
     '''
 def getNestedElementMap():
-    '''public Map getNestedElementMap()
+    '''returns Map\n\n
+    getNestedElementMap()\n
     '''
 def getExtensionPoints():
-    '''public List getExtensionPoints()
+    '''returns List\n\n
+    getExtensionPoints()\n
     '''
 def set():
-    '''public void set(final Project p, final Object parent, final String value)
-    public void set(final Project p, final Object parent, final String value)
-    public void set(final Project p, final Object parent, final String value)
-    public void set(final Project p, final Object parent, final String value)
-    public void set(final Project p, final Object parent, final String value)
-    public void set(final Project p, final Object parent, final String value)
-    public void set(final Project p, final Object parent, final String value)
-    public void set(final Project p, final Object parent, final String value)
-    public void set(final Project p, final Object parent, final String value)
-    public void set(final Project p, final Object parent, final String value)
-    '''
-def clearCache():
-    '''public static void clearCache()
+    '''returns None\n\n
+    set(final Project p, final Object parent, final String value)\n
+    set(final Project p, final Object parent, final String value)\n
+    set(final Project p, final Object parent, final String value)\n
+    set(final Project p, final Object parent, final String value)\n
+    set(final Project p, final Object parent, final String value)\n
+    set(final Project p, final Object parent, final String value)\n
+    set(final Project p, final Object parent, final String value)\n
+    set(final Project p, final Object parent, final String value)\n
+    set(final Project p, final Object parent, final String value)\n
+    set(final Project p, final Object parent, final String value)\n
     '''
 def setPolyType():
-    '''public void setPolyType(final String polyType)
+    '''returns None\n\n
+    setPolyType(final String polyType)\n
     '''
 def create():
-    '''public Object create()
+    '''returns Object\n\n
+    create()\n
     '''
 def getRealObject():
-    '''public Object getRealObject()
+    '''returns Object\n\n
+    getRealObject()\n
     '''
 def store():
-    '''public void store()
+    '''returns None\n\n
+    store()\n
     '''
-def MethodAndObject():
-    '''public MethodAndObject(final Method method, final Object object)
+def ():
+    '''returns MethodAndObject\n\n
+    (final Method method, final Object object)\n
     '''

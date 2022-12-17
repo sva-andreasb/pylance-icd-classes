@@ -1,12 +1,12 @@
-def SrmSolutionTrackHelper():
-    '''public SrmSolutionTrackHelper()
+def ():
+    '''returns SrmSolutionTrackHelper\n\n
+    ()\n
     '''
 def addSolutionIDtoTrack():
-    '''public void addSolutionIDtoTrack(final String solutionId)
+    '''returns None\n\n
+    addSolutionIDtoTrack(final String solutionId)\n
     '''
 def saveSolutionsTrack():
-    '''public void saveSolutionsTrack(final long srID, final MXSession mxSession)
-    '''
-def cleanSolutionTrackForSR():
-    '''public static void cleanSolutionTrackForSR(final Long srID, final MXSession mxSession)
+    '''returns None\n\n
+    saveSolutionsTrack(final long srID, final MXSession mxSession)\n
     '''

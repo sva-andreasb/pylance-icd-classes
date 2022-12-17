@@ -1,6 +1,8 @@
-def FldLaborWorkZoneLaborCode():
-    '''public FldLaborWorkZoneLaborCode(final MboValue mbv)
+def ():
+    '''returns FldLaborWorkZoneLaborCode\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

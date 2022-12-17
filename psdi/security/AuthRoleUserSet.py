@@ -1,3 +1,4 @@
-def AuthRoleUserSet():
-    '''public AuthRoleUserSet(final MboServerInterface ms)
+def ():
+    '''returns AuthRoleUserSet\n\n
+    (final MboServerInterface ms)\n
     '''

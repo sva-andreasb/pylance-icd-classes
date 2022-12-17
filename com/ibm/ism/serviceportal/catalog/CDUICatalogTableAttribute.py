@@ -1,21 +1,28 @@
-def CDUICatalogTableAttribute():
-    '''public CDUICatalogTableAttribute()
+def ():
+    '''returns CDUICatalogTableAttribute\n\n
+    ()\n
     '''
 def getColumns():
-    '''public List<String> getColumns()
+    '''returns List<String>\n\n
+    getColumns()\n
     '''
 def getAttributesByRow():
-    '''public List<CDUICatalogAttribute> getAttributesByRow(final Integer row)
+    '''returns List<CDUICatalogAttribute>\n\n
+    getAttributesByRow(final Integer row)\n
     '''
 def setAttributesByRow():
-    '''public void setAttributesByRow(final Integer row, final List<CDUICatalogAttribute> ca)
+    '''returns None\n\n
+    setAttributesByRow(final Integer row, final List<CDUICatalogAttribute> ca)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def numRows():
-    '''public int numRows()
+    '''returns int\n\n
+    numRows()\n
     '''
 def rowIndex():
-    '''public Set<Integer> rowIndex()
+    '''returns Set<Integer>\n\n
+    rowIndex()\n
     '''

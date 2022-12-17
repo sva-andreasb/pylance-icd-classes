@@ -1,9 +1,12 @@
-def FldQtyMaxLicPurchDet():
-    '''public FldQtyMaxLicPurchDet(final MboValue mbv)
+def ():
+    '''returns FldQtyMaxLicPurchDet\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

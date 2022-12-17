@@ -1,13 +1,17 @@
-def BL():
-    '''public BL()
-    public BL(final Vector blGroups)
+def ():
+    '''returns BL\n\n
+    ()\n
+    (final Vector blGroups)\n
     '''
 def getblGroups():
-    '''public Vector getblGroups()
+    '''returns Vector\n\n
+    getblGroups()\n
     '''
 def addGroup():
-    '''public boolean addGroup(final BLGroup blGroup)
+    '''returns boolean\n\n
+    addGroup(final BLGroup blGroup)\n
     '''
 def removeGroup():
-    '''public boolean removeGroup(final BLGroup blGroup)
+    '''returns boolean\n\n
+    removeGroup(final BLGroup blGroup)\n
     '''

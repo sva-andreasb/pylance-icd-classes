@@ -1,60 +1,44 @@
-def ConnectionHandler():
-    '''public ConnectionHandler()
-    '''
-def setMasterCnlListener():
-    '''public synchronized void setMasterCnlListener(final int value, final MasterCnlListener value2)
-    '''
-def removeMasterCnlListener():
-    '''public synchronized void removeMasterCnlListener(final int value)
-    '''
-def setListenerForCnl():
-    '''public synchronized void setListenerForCnl(final int n, final CnlMsgListener cnlMsgListener)
-    '''
-def removeListenerForCnl():
-    '''public synchronized void removeListenerForCnl(final int n)
-    '''
-def setKeepAliveRate():
-    '''public synchronized void setKeepAliveRate(final long keepAliveRate)
-    '''
-def connect():
-    '''public synchronized void connect(final String s, Connection[] defaultConnectionList, final VpkMsgOut vpkMsgOut)
-    '''
-def close():
-    '''public synchronized void close(final int n)
+def ():
+    '''returns ConnectionHandler\n\n
+    ()\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
-    '''
-def isReady():
-    '''public synchronized boolean isReady()
-    '''
-def send():
-    '''public synchronized boolean send(final VpkMsgOut vpkMsgOut, final byte b)
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def getConnectionInfo():
-    '''public ConnectionInfo getConnectionInfo()
+    '''returns ConnectionInfo\n\n
+    getConnectionInfo()\n
     '''
 def encryptConnection():
-    '''public void encryptConnection(final byte[] key)
+    '''returns None\n\n
+    encryptConnection(final byte[] key)\n
     '''
 def onConnectionClosed():
-    '''public void onConnectionClosed(final int n, final Connection connection)
+    '''returns None\n\n
+    onConnectionClosed(final int n, final Connection connection)\n
     '''
 def onConnected():
-    '''public void onConnected(final Connection connection)
+    '''returns None\n\n
+    onConnected(final Connection connection)\n
     '''
 def onConnectFailed():
-    '''public void onConnectFailed()
+    '''returns None\n\n
+    onConnectFailed()\n
     '''
 def onProtocolErrorOccured():
-    '''public void onProtocolErrorOccured()
+    '''returns None\n\n
+    onProtocolErrorOccured()\n
     '''
 def onReceive():
-    '''public void onReceive(final byte[] array, final Connection connection)
+    '''returns None\n\n
+    onReceive(final byte[] array, final Connection connection)\n
     '''
 def toOpaque():
-    '''public byte[] toOpaque(final VpkMsgOut vpkMsgOut)
+    '''returns byte[]\n\n
+    toOpaque(final VpkMsgOut vpkMsgOut)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''

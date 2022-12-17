@@ -1,9 +1,12 @@
-def ErrorResume():
-    '''public ErrorResume(final DMPackage pkg)
+def ():
+    '''returns ErrorResume\n\n
+    (final DMPackage pkg)\n
     '''
 def skipType():
-    '''public boolean skipType(final String type)
+    '''returns boolean\n\n
+    skipType(final String type)\n
     '''
 def skipCfgData():
-    '''public boolean skipCfgData(final int cfgDataCursor)
+    '''returns boolean\n\n
+    skipCfgData(final int cfgDataCursor)\n
     '''

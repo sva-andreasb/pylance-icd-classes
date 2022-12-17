@@ -1,6 +1,4 @@
-def CreateAuthorizedCIBean():
-    '''public CreateAuthorizedCIBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns CreateAuthorizedCIBean\n\n
+    ()\n
     '''

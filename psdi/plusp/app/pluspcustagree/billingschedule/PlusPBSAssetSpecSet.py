@@ -1,6 +1,8 @@
-def PlusPBSAssetSpecSet():
-    '''public PlusPBSAssetSpecSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPBSAssetSpecSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def checkCommonSpecDuplicates():
-    '''public void checkCommonSpecDuplicates(final MboRemote mboRemote)
+    '''returns None\n\n
+    checkCommonSpecDuplicates(final MboRemote mboRemote)\n
     '''

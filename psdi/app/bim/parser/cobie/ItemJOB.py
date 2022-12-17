@@ -26,126 +26,163 @@ JOB_DURATION_SECOND = "int  1"
 JOB_DURATION_MINUTE = "int  2"
 JOB_DURATION_HOUR = "int  3"
 JOB_DURATION_DAY = "int  4"
-def ItemJOB():
-    '''public ItemJOB()
+def ():
+    '''returns ItemJOB\n\n
+    ()\n
     '''
 def isDuplicat():
-    '''public boolean isDuplicat(final Parser parser, final Item item)
+    '''returns boolean\n\n
+    isDuplicat(final Parser parser, final Item item)\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def addTask():
-    '''public void addTask(final JobTask task)
+    '''returns None\n\n
+    addTask(final JobTask task)\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def findTaskByName():
-    '''public JobTask findTaskByName(final String name)
+    '''returns JobTask\n\n
+    findTaskByName(final String name)\n
     '''
 def getJobType():
-    '''public int getJobType()
+    '''returns int\n\n
+    getJobType()\n
     '''
 def addResource():
-    '''public void addResource(final ItemRESOURCE resource)
+    '''returns None\n\n
+    addResource(final ItemRESOURCE resource)\n
     '''
 def resources():
-    '''public Enumeration<ItemRESOURCE> resources()
+    '''returns Enumeration<ItemRESOURCE>\n\n
+    resources()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
+    '''returns None\n\n
+    setStatus(final String status)\n
     '''
 def getTypeName():
-    '''public String getTypeName()
+    '''returns String\n\n
+    getTypeName()\n
     '''
 def setTypeName():
-    '''public void setTypeName(String typeName)
+    '''returns None\n\n
+    setTypeName(String typeName)\n
     '''
 def getTypeReference():
-    '''public ItemTYPE[] getTypeReference()
+    '''returns ItemTYPE[]\n\n
+    getTypeReference()\n
     '''
 def setTypeReference():
-    '''public void setTypeReference(final ItemTYPE[] typeReferences)
+    '''returns None\n\n
+    setTypeReference(final ItemTYPE[] typeReferences)\n
     '''
 def getDuration():
-    '''public String getDuration()
+    '''returns String\n\n
+    getDuration()\n
     '''
 def setDuration():
-    '''public void setDuration(final String duration)
+    '''returns None\n\n
+    setDuration(final String duration)\n
     '''
 def getDurationUnit():
-    '''public String getDurationUnit()
+    '''returns String\n\n
+    getDurationUnit()\n
     '''
 def getDurationUnitType():
-    '''public int getDurationUnitType()
+    '''returns int\n\n
+    getDurationUnitType()\n
     '''
 def setDurationUnit():
-    '''public void setDurationUnit(final String durationUnit)
+    '''returns None\n\n
+    setDurationUnit(final String durationUnit)\n
     '''
 def getStart():
-    '''public String getStart()
+    '''returns String\n\n
+    getStart()\n
     '''
 def setStart():
-    '''public void setStart(final String start)
+    '''returns None\n\n
+    setStart(final String start)\n
     '''
 def getTaskStartUnit():
-    '''public String getTaskStartUnit()
+    '''returns String\n\n
+    getTaskStartUnit()\n
     '''
 def setTaskStartUnit():
-    '''public void setTaskStartUnit(final String taskStartUnit)
+    '''returns None\n\n
+    setTaskStartUnit(final String taskStartUnit)\n
     '''
 def getFrequency():
-    '''public String getFrequency()
+    '''returns String\n\n
+    getFrequency()\n
     '''
 def setFrequency():
-    '''public void setFrequency(final String frequency)
+    '''returns None\n\n
+    setFrequency(final String frequency)\n
     '''
 def getFrequencyUnit():
-    '''public String getFrequencyUnit()
+    '''returns String\n\n
+    getFrequencyUnit()\n
     '''
 def setFrequencyUnit():
-    '''public void setFrequencyUnit(final String frequencyUnit)
+    '''returns None\n\n
+    setFrequencyUnit(final String frequencyUnit)\n
     '''
 def getTaskNumber():
-    '''public String getTaskNumber()
+    '''returns String\n\n
+    getTaskNumber()\n
     '''
 def setTaskNumber():
-    '''public void setTaskNumber(final String taskNumber)
+    '''returns None\n\n
+    setTaskNumber(final String taskNumber)\n
     '''
 def getPriors():
-    '''public String getPriors()
+    '''returns String\n\n
+    getPriors()\n
     '''
 def setPriors():
-    '''public void setPriors(String priors)
+    '''returns None\n\n
+    setPriors(String priors)\n
     '''
 def getResource():
-    '''public Enumeration<ItemRESOURCE> getResource()
+    '''returns Enumeration<ItemRESOURCE>\n\n
+    getResource()\n
     '''
 def getResourceNames():
-    '''public String getResourceNames()
+    '''returns String\n\n
+    getResourceNames()\n
     '''
 def setResourceNames():
-    '''public void setResourceNames(final String resourceNames)
+    '''returns None\n\n
+    setResourceNames(final String resourceNames)\n
     '''
 def addResourceNames():
-    '''public void addResourceNames(String resourceNames)
+    '''returns None\n\n
+    addResourceNames(String resourceNames)\n
     '''
 def skip():
-    '''public boolean skip(final Parser parser, final long flags)
+    '''returns boolean\n\n
+    skip(final Parser parser, final long flags)\n
     '''
 def tasks():
-    '''public Iterator<JobTask> tasks()
+    '''returns Iterator<JobTask>\n\n
+    tasks()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def durationStringToUnits():
-    '''public static int durationStringToUnits(final String duration)
+    '''returns String\n\n
+    toString()\n
     '''
 def export():
-    '''public void export(final Exporter exporter)
+    '''returns None\n\n
+    export(final Exporter exporter)\n
     '''

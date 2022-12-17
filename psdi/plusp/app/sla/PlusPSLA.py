@@ -1,72 +1,95 @@
-def PlusPSLA():
-    '''public PlusPSLA(final MboSet arg0)
+def ():
+    '''returns PlusPSLA\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String s, final boolean deactivateEscalation)
+    '''returns None\n\n
+    changeStatus(final String s, final boolean deactivateEscalation)\n
     '''
 def isActive():
-    '''public boolean isActive()
-    public boolean isActive(final boolean b)
+    '''returns boolean\n\n
+    isActive()\n
+    isActive(final boolean b)\n
     '''
 def enableFields():
-    '''public void enableFields(final String prevStatus)
+    '''returns None\n\n
+    enableFields(final String prevStatus)\n
     '''
 def resetCalendarFields():
-    '''public void resetCalendarFields(final String s)
+    '''returns None\n\n
+    resetCalendarFields(final String s)\n
     '''
 def getCalendarFields():
-    '''public Vector<String> getCalendarFields(final boolean b)
+    '''returns Vector<String>\n\n
+    getCalendarFields(final boolean b)\n
     '''
 def getSlaCalendarFields():
-    '''public Vector<String> getSlaCalendarFields(final boolean b)
+    '''returns Vector<String>\n\n
+    getSlaCalendarFields(final boolean b)\n
     '''
 def getCalcCalendarFields():
-    '''public Vector<String> getCalcCalendarFields(final boolean b)
+    '''returns Vector<String>\n\n
+    getCalcCalendarFields(final boolean b)\n
     '''
 def setOrgID():
-    '''public void setOrgID()
+    '''returns None\n\n
+    setOrgID()\n
     '''
 def getIdField():
-    '''public String getIdField()
+    '''returns String\n\n
+    getIdField()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def addAssets():
-    '''public void addAssets(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    addAssets(final MboSetRemote mboSetRemote)\n
     '''
 def addLocations():
-    '''public void addLocations(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    addLocations(final MboSetRemote mboSetRemote)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String s)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String s)\n
     '''
 def defineEscalation():
-    '''public void defineEscalation(final int n)
+    '''returns None\n\n
+    defineEscalation(final int n)\n
     '''
 def getObjectBaseName():
-    '''public String getObjectBaseName(final String s)
-    public String getObjectBaseName()
+    '''returns String\n\n
+    getObjectBaseName(final String s)\n
+    getObjectBaseName()\n
     '''
 def isTicketOrWO():
-    '''public boolean isTicketOrWO(final String s)
-    public boolean isTicketOrWO()
+    '''returns boolean\n\n
+    isTicketOrWO(final String s)\n
+    isTicketOrWO()\n
     '''
 def addRecordsToPoolItems():
-    '''public void addRecordsToPoolItems(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    addRecordsToPoolItems(final MboSetRemote mboSetRemote)\n
     '''
 def calculateMeasurements():
-    '''public void calculateMeasurements()
+    '''returns None\n\n
+    calculateMeasurements()\n
     '''

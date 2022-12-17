@@ -1,6 +1,8 @@
-def PromoteNodeBean():
-    '''public PromoteNodeBean()
+def ():
+    '''returns PromoteNodeBean\n\n
+    ()\n
     '''
 def associateClassification():
-    '''public int associateClassification()
+    '''returns int\n\n
+    associateClassification()\n
     '''

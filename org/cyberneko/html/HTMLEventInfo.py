@@ -1,24 +1,32 @@
 def getBeginLineNumber():
-    '''public int getBeginLineNumber()
+    '''returns int\n\n
+    getBeginLineNumber()\n
     '''
 def getBeginColumnNumber():
-    '''public int getBeginColumnNumber()
+    '''returns int\n\n
+    getBeginColumnNumber()\n
     '''
 def getBeginCharacterOffset():
-    '''public int getBeginCharacterOffset()
+    '''returns int\n\n
+    getBeginCharacterOffset()\n
     '''
 def getEndLineNumber():
-    '''public int getEndLineNumber()
+    '''returns int\n\n
+    getEndLineNumber()\n
     '''
 def getEndColumnNumber():
-    '''public int getEndColumnNumber()
+    '''returns int\n\n
+    getEndColumnNumber()\n
     '''
 def getEndCharacterOffset():
-    '''public int getEndCharacterOffset()
+    '''returns int\n\n
+    getEndCharacterOffset()\n
     '''
 def isSynthesized():
-    '''public boolean isSynthesized()
+    '''returns boolean\n\n
+    isSynthesized()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

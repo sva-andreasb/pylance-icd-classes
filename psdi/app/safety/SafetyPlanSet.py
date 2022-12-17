@@ -1,3 +1,4 @@
-def SafetyPlanSet():
-    '''public SafetyPlanSet(final MboServerInterface ms)
+def ():
+    '''returns SafetyPlanSet\n\n
+    (final MboServerInterface ms)\n
     '''

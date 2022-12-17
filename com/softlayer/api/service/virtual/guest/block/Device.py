@@ -1,198 +1,264 @@
 def getDiskImage():
-    '''public Image getDiskImage()
+    '''returns Image\n\n
+    getDiskImage()\n
     '''
 def setDiskImage():
-    '''public void setDiskImage(final Image diskImage)
+    '''returns None\n\n
+    setDiskImage(final Image diskImage)\n
     '''
 def getGuest():
-    '''public Guest getGuest()
+    '''returns Guest\n\n
+    getGuest()\n
     '''
 def setGuest():
-    '''public void setGuest(final Guest guest)
+    '''returns None\n\n
+    setGuest(final Guest guest)\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final Status status)
+    '''returns None\n\n
+    setStatus(final Status status)\n
     '''
 def getBootableFlag():
-    '''public Long getBootableFlag()
+    '''returns Long\n\n
+    getBootableFlag()\n
     '''
 def setBootableFlag():
-    '''public void setBootableFlag(final Long bootableFlag)
+    '''returns None\n\n
+    setBootableFlag(final Long bootableFlag)\n
     '''
 def isBootableFlagSpecified():
-    '''public boolean isBootableFlagSpecified()
+    '''returns boolean\n\n
+    isBootableFlagSpecified()\n
     '''
 def unsetBootableFlag():
-    '''public void unsetBootableFlag()
+    '''returns None\n\n
+    unsetBootableFlag()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getDevice():
-    '''public String getDevice()
+    '''returns String\n\n
+    getDevice()\n
     '''
 def setDevice():
-    '''public void setDevice(final String device)
+    '''returns None\n\n
+    setDevice(final String device)\n
     '''
 def isDeviceSpecified():
-    '''public boolean isDeviceSpecified()
+    '''returns boolean\n\n
+    isDeviceSpecified()\n
     '''
 def unsetDevice():
-    '''public void unsetDevice()
+    '''returns None\n\n
+    unsetDevice()\n
     '''
 def getDiskImageId():
-    '''public Long getDiskImageId()
+    '''returns Long\n\n
+    getDiskImageId()\n
     '''
 def setDiskImageId():
-    '''public void setDiskImageId(final Long diskImageId)
+    '''returns None\n\n
+    setDiskImageId(final Long diskImageId)\n
     '''
 def isDiskImageIdSpecified():
-    '''public boolean isDiskImageIdSpecified()
+    '''returns boolean\n\n
+    isDiskImageIdSpecified()\n
     '''
 def unsetDiskImageId():
-    '''public void unsetDiskImageId()
+    '''returns None\n\n
+    unsetDiskImageId()\n
     '''
 def getGuestId():
-    '''public Long getGuestId()
+    '''returns Long\n\n
+    getGuestId()\n
     '''
 def setGuestId():
-    '''public void setGuestId(final Long guestId)
+    '''returns None\n\n
+    setGuestId(final Long guestId)\n
     '''
 def isGuestIdSpecified():
-    '''public boolean isGuestIdSpecified()
+    '''returns boolean\n\n
+    isGuestIdSpecified()\n
     '''
 def unsetGuestId():
-    '''public void unsetGuestId()
+    '''returns None\n\n
+    unsetGuestId()\n
     '''
 def getHotPlugFlag():
-    '''public Long getHotPlugFlag()
+    '''returns Long\n\n
+    getHotPlugFlag()\n
     '''
 def setHotPlugFlag():
-    '''public void setHotPlugFlag(final Long hotPlugFlag)
+    '''returns None\n\n
+    setHotPlugFlag(final Long hotPlugFlag)\n
     '''
 def isHotPlugFlagSpecified():
-    '''public boolean isHotPlugFlagSpecified()
+    '''returns boolean\n\n
+    isHotPlugFlagSpecified()\n
     '''
 def unsetHotPlugFlag():
-    '''public void unsetHotPlugFlag()
+    '''returns None\n\n
+    unsetHotPlugFlag()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getMountMode():
-    '''public String getMountMode()
+    '''returns String\n\n
+    getMountMode()\n
     '''
 def setMountMode():
-    '''public void setMountMode(final String mountMode)
+    '''returns None\n\n
+    setMountMode(final String mountMode)\n
     '''
 def isMountModeSpecified():
-    '''public boolean isMountModeSpecified()
+    '''returns boolean\n\n
+    isMountModeSpecified()\n
     '''
 def unsetMountMode():
-    '''public void unsetMountMode()
+    '''returns None\n\n
+    unsetMountMode()\n
     '''
 def getMountType():
-    '''public String getMountType()
+    '''returns String\n\n
+    getMountType()\n
     '''
 def setMountType():
-    '''public void setMountType(final String mountType)
+    '''returns None\n\n
+    setMountType(final String mountType)\n
     '''
 def isMountTypeSpecified():
-    '''public boolean isMountTypeSpecified()
+    '''returns boolean\n\n
+    isMountTypeSpecified()\n
     '''
 def unsetMountType():
-    '''public void unsetMountType()
+    '''returns None\n\n
+    unsetMountType()\n
     '''
 def getStatusId():
-    '''public Long getStatusId()
+    '''returns Long\n\n
+    getStatusId()\n
     '''
 def setStatusId():
-    '''public void setStatusId(final Long statusId)
+    '''returns None\n\n
+    setStatusId(final Long statusId)\n
     '''
 def isStatusIdSpecified():
-    '''public boolean isStatusIdSpecified()
+    '''returns boolean\n\n
+    isStatusIdSpecified()\n
     '''
 def unsetStatusId():
-    '''public void unsetStatusId()
+    '''returns None\n\n
+    unsetStatusId()\n
     '''
 def getUuid():
-    '''public String getUuid()
+    '''returns String\n\n
+    getUuid()\n
     '''
 def setUuid():
-    '''public void setUuid(final String uuid)
+    '''returns None\n\n
+    setUuid(final String uuid)\n
     '''
 def isUuidSpecified():
-    '''public boolean isUuidSpecified()
+    '''returns boolean\n\n
+    isUuidSpecified()\n
     '''
 def unsetUuid():
-    '''public void unsetUuid()
+    '''returns None\n\n
+    unsetUuid()\n
     '''
 def bootableFlag():
-    '''public Mask bootableFlag()
+    '''returns Mask\n\n
+    bootableFlag()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def device():
-    '''public Mask device()
+    '''returns Mask\n\n
+    device()\n
     '''
 def diskImageId():
-    '''public Mask diskImageId()
+    '''returns Mask\n\n
+    diskImageId()\n
     '''
 def guestId():
-    '''public Mask guestId()
+    '''returns Mask\n\n
+    guestId()\n
     '''
 def hotPlugFlag():
-    '''public Mask hotPlugFlag()
+    '''returns Mask\n\n
+    hotPlugFlag()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def mountMode():
-    '''public Mask mountMode()
+    '''returns Mask\n\n
+    mountMode()\n
     '''
 def mountType():
-    '''public Mask mountType()
+    '''returns Mask\n\n
+    mountType()\n
     '''
 def statusId():
-    '''public Mask statusId()
+    '''returns Mask\n\n
+    statusId()\n
     '''
 def uuid():
-    '''public Mask uuid()
+    '''returns Mask\n\n
+    uuid()\n
     '''

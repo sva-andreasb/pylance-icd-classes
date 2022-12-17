@@ -1,4 +1,5 @@
-def InvalidFormatException():
-    '''public InvalidFormatException(final String message)
-    public InvalidFormatException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidFormatException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

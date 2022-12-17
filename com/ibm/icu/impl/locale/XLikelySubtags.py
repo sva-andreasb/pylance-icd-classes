@@ -1,23 +1,26 @@
 SKIP_SCRIPT = "int  1"
 def canonicalize():
-    '''public ULocale canonicalize(final ULocale locale)
+    '''returns ULocale\n\n
+    canonicalize(final ULocale locale)\n
     '''
 def makeMaximizedLsrFrom():
-    '''public LSR makeMaximizedLsrFrom(final ULocale locale)
-    public LSR makeMaximizedLsrFrom(final Locale locale)
+    '''returns LSR\n\n
+    makeMaximizedLsrFrom(final ULocale locale)\n
+    makeMaximizedLsrFrom(final Locale locale)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Data():
-    '''public Data(final Map<String, String> languageAliases, final Map<String, String> regionAliases, final byte[] trie, final LSR[] lsrs)
-    '''
-def load():
-    '''public static Data load()
+def ():
+    '''returns Data\n\n
+    (final Map<String, String> languageAliases, final Map<String, String> regionAliases, final byte[] trie, final LSR[] lsrs)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

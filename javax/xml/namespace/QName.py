@@ -1,29 +1,30 @@
-def QName():
-    '''public QName(final String s, final String s2)
-    public QName(final String namespaceURI, final String localPart, final String prefix)
-    public QName(final String s)
-    '''
-def getNamespaceURI():
-    '''public String getNamespaceURI()
-    '''
-def getLocalPart():
-    '''public String getLocalPart()
-    '''
-def getPrefix():
-    '''public String getPrefix()
+def hashCode():
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public final boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object objectToTest)\n
     '''
-def hashCode():
-    '''public final int hashCode()
+def getLocalPart():
+    '''returns String\n\n
+    getLocalPart()\n
+    '''
+def getNamespaceURI():
+    '''returns String\n\n
+    getNamespaceURI()\n
+    '''
+def getPrefix():
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def valueOf():
-    '''public static QName valueOf(final String str)
-    '''
-def run():
-    '''public Object run()
+def ():
+    '''returns QName\n\n
+    (final String localPart)\n
+    (final String namespaceURI, final String localPart)\n
+    (final String namespaceURI, final String localPart, final String prefix)\n
     '''

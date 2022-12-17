@@ -1,20 +1,26 @@
-def WSDDDocument():
-    '''public WSDDDocument()
-    public WSDDDocument(final Document document)
-    public WSDDDocument(final Element e)
+def ():
+    '''returns WSDDDocument\n\n
+    ()\n
+    (final Document document)\n
+    (final Element e)\n
     '''
 def getDeployment():
-    '''public WSDDDeployment getDeployment()
+    '''returns WSDDDeployment\n\n
+    getDeployment()\n
     '''
 def getDOMDocument():
-    '''public Document getDOMDocument()
+    '''returns Document\n\n
+    getDOMDocument()\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def setDocument():
-    '''public void setDocument(final Document document)
+    '''returns None\n\n
+    setDocument(final Document document)\n
     '''
 def deploy():
-    '''public void deploy(final WSDDDeployment registry)
+    '''returns None\n\n
+    deploy(final WSDDDeployment registry)\n
     '''

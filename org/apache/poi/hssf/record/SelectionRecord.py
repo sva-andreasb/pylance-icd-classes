@@ -1,41 +1,54 @@
 sid = "short  29"
-def SelectionRecord():
-    '''public SelectionRecord(final int activeCellRow, final int activeCellCol)
-    public SelectionRecord(final RecordInputStream in)
+def ():
+    '''returns SelectionRecord\n\n
+    (final int activeCellRow, final int activeCellCol)\n
+    (final RecordInputStream in)\n
     '''
 def setPane():
-    '''public void setPane(final byte pane)
+    '''returns None\n\n
+    setPane(final byte pane)\n
     '''
 def setActiveCellRow():
-    '''public void setActiveCellRow(final int row)
+    '''returns None\n\n
+    setActiveCellRow(final int row)\n
     '''
 def setActiveCellCol():
-    '''public void setActiveCellCol(final short col)
+    '''returns None\n\n
+    setActiveCellCol(final short col)\n
     '''
 def setActiveCellRef():
-    '''public void setActiveCellRef(final short ref)
+    '''returns None\n\n
+    setActiveCellRef(final short ref)\n
     '''
 def getPane():
-    '''public byte getPane()
+    '''returns byte\n\n
+    getPane()\n
     '''
 def getActiveCellRow():
-    '''public int getActiveCellRow()
+    '''returns int\n\n
+    getActiveCellRow()\n
     '''
 def getActiveCellCol():
-    '''public int getActiveCellCol()
+    '''returns int\n\n
+    getActiveCellCol()\n
     '''
 def getActiveCellRef():
-    '''public int getActiveCellRef()
+    '''returns int\n\n
+    getActiveCellRef()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

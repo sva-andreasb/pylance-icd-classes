@@ -1,6 +1,8 @@
-def PlusPFldAgmtDate():
-    '''public PlusPFldAgmtDate(final MboValue mbv)
+def ():
+    '''returns PlusPFldAgmtDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

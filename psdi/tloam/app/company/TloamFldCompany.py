@@ -1,3 +1,4 @@
-def TloamFldCompany():
-    '''public TloamFldCompany(final MboValue mbv)
+def ():
+    '''returns TloamFldCompany\n\n
+    (final MboValue mbv)\n
     '''

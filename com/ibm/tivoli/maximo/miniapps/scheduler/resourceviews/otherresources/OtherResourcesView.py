@@ -1,12 +1,16 @@
-def OtherResourcesView():
-    '''public OtherResourcesView()
+def ():
+    '''returns OtherResourcesView\n\n
+    ()\n
     '''
 def loadSchedulerProject():
-    '''public JSONObject loadSchedulerProject(final WebClientSession sess, @MXEventParam("wouniqueid") final long woUniqueId, @MXEventParam("startdate") final long startDate, @MXEventParam("enddate") final long endDate)
+    '''returns JSONObject\n\n
+    loadSchedulerProject(final WebClientSession sess, @MXEventParam("wouniqueid") final long woUniqueId, @MXEventParam("startdate") final long startDate, @MXEventParam("enddate") final long endDate)\n
     '''
 def setColors():
-    '''public void setColors()
+    '''returns None\n\n
+    setColors()\n
     '''
 def getHexString():
-    '''public String getHexString(final Color color)
+    '''returns String\n\n
+    getHexString(final Color color)\n
     '''

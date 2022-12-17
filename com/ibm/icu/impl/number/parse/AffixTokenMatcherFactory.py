@@ -1,18 +1,24 @@
 def minusSign():
-    '''public MinusSignMatcher minusSign()
+    '''returns MinusSignMatcher\n\n
+    minusSign()\n
     '''
 def plusSign():
-    '''public PlusSignMatcher plusSign()
+    '''returns PlusSignMatcher\n\n
+    plusSign()\n
     '''
 def percent():
-    '''public PercentMatcher percent()
+    '''returns PercentMatcher\n\n
+    percent()\n
     '''
 def permille():
-    '''public PermilleMatcher permille()
+    '''returns PermilleMatcher\n\n
+    permille()\n
     '''
 def currency():
-    '''public CombinedCurrencyMatcher currency()
+    '''returns CombinedCurrencyMatcher\n\n
+    currency()\n
     '''
 def ignorables():
-    '''public IgnorablesMatcher ignorables()
+    '''returns IgnorablesMatcher\n\n
+    ignorables()\n
     '''

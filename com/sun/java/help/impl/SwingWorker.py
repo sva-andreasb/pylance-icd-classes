@@ -1,20 +1,26 @@
 def finished():
-    '''public void finished()
+    '''returns None\n\n
+    finished()\n
     '''
 def interrupt():
-    '''public void interrupt()
+    '''returns None\n\n
+    interrupt()\n
     '''
 def get():
-    '''public Object get()
+    '''returns Object\n\n
+    get()\n
     '''
-def SwingWorker():
-    '''public SwingWorker()
+def ():
+    '''returns SwingWorker\n\n
+    ()\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def start():
-    '''public void start()
-    public void start(final int priority)
+    '''returns None\n\n
+    start()\n
+    start(final int priority)\n
     '''

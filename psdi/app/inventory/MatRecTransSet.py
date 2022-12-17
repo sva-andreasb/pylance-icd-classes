@@ -1,111 +1,136 @@
 def clearVector():
-    '''public void clearVector()
+    '''returns None\n\n
+    clearVector()\n
     '''
 def addWarnings():
-    '''public void addWarnings(final MXException mx)
+    '''returns None\n\n
+    addWarnings(final MXException mx)\n
     '''
-def MatRecTransSet():
-    '''public MatRecTransSet(final MboServerInterface ms)
+def ():
+    '''returns MatRecTransSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def validateOrderQty():
-    '''public void validateOrderQty()
+    '''returns None\n\n
+    validateOrderQty()\n
     '''
 def deleteUnSelected():
-    '''public void deleteUnSelected()
+    '''returns None\n\n
+    deleteUnSelected()\n
     '''
 def copyInvReserveSet():
-    '''public void copyInvReserveSet(final MboSetRemote invReserveSet, final String inOrOut)
+    '''returns None\n\n
+    copyInvReserveSet(final MboSetRemote invReserveSet, final String inOrOut)\n
     '''
 def copySparePartSet():
-    '''public void copySparePartSet(final MboSetRemote sparePartSet, final String inOrOut)
+    '''returns None\n\n
+    copySparePartSet(final MboSetRemote sparePartSet, final String inOrOut)\n
     '''
 def copyInvBalancesSet():
-    '''public void copyInvBalancesSet(final MboSetRemote invBalancesSet, final String inOrOut)
+    '''returns None\n\n
+    copyInvBalancesSet(final MboSetRemote invBalancesSet, final String inOrOut)\n
     '''
 def copyPOLineSet():
-    '''public void copyPOLineSet(final MboSetRemote poLineSet, final String inOrOut)
+    '''returns None\n\n
+    copyPOLineSet(final MboSetRemote poLineSet, final String inOrOut)\n
     '''
 def warningsFromCopyPOItems():
-    '''public void warningsFromCopyPOItems()
+    '''returns None\n\n
+    warningsFromCopyPOItems()\n
     '''
 def copyMatRecTransSet():
-    '''public void copyMatRecTransSet(final MboSetRemote matRecTransSet, final String inOrOut)
+    '''returns None\n\n
+    copyMatRecTransSet(final MboSetRemote matRecTransSet, final String inOrOut)\n
     '''
 def warningsFromCopyMatRecTransItems():
-    '''public void warningsFromCopyMatRecTransItems()
+    '''returns None\n\n
+    warningsFromCopyMatRecTransItems()\n
     '''
 def setLocation():
-    '''public void setLocation(final String loc)
+    '''returns None\n\n
+    setLocation(final String loc)\n
     '''
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''
 def setPONum():
-    '''public void setPONum(final String po)
+    '''returns None\n\n
+    setPONum(final String po)\n
     '''
 def getPONum():
-    '''public String getPONum()
+    '''returns String\n\n
+    getPONum()\n
     '''
 def approveReceipts():
-    '''public Vector approveReceipts(final Date todaysDate)
+    '''returns Vector\n\n
+    approveReceipts(final Date todaysDate)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def getUserWhere():
-    '''public String getUserWhere(final String alias)
+    '''returns String\n\n
+    getUserWhere(final String alias)\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''
 def createAssets():
-    '''public void createAssets(final String ponum, final int polinenum, final String ownersysid, final String siteid)
+    '''returns None\n\n
+    createAssets(final String ponum, final int polinenum, final String ownersysid, final String siteid)\n
     '''
 def createReturnsForAssets():
-    '''public void createReturnsForAssets(final PO po, final MboSetRemote matRecTransAssetSetRemote)
+    '''returns None\n\n
+    createReturnsForAssets(final PO po, final MboSetRemote matRecTransAssetSetRemote)\n
     '''
 def checkInspectedTotal():
-    '''public void checkInspectedTotal()
+    '''returns None\n\n
+    checkInspectedTotal()\n
     '''
 def returnIPCParts():
-    '''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''returns None\n\n
+    returnIPCParts(final IpcSelectedPartsSetRemote partset)\n
     '''
 def preValidateIpcBom():
-    '''public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''returns None\n\n
+    preValidateIpcBom(final IpcBomSetRemote bomset)\n
     '''
 def setToExecuteCompleteAdd():
-    '''public void setToExecuteCompleteAdd(final boolean toset)
+    '''returns None\n\n
+    setToExecuteCompleteAdd(final boolean toset)\n
     '''
 def toExecuteCompleteAdd():
-    '''public boolean toExecuteCompleteAdd()
+    '''returns boolean\n\n
+    toExecuteCompleteAdd()\n
     '''
 def getNumberOfActualDateExceptions():
-    '''public int getNumberOfActualDateExceptions()
+    '''returns int\n\n
+    getNumberOfActualDateExceptions()\n
     '''
 def incrNumberOfActualDateExceptions():
-    '''public void incrNumberOfActualDateExceptions(final int i)
+    '''returns None\n\n
+    incrNumberOfActualDateExceptions(final int i)\n
     '''
 def setCrossOrgExchangeRate():
-    '''public void setCrossOrgExchangeRate(final MboRemote newMatRec, final MboRemote transferOutMatRec)
-    '''
-def getLineNumAssetMap():
-    '''public HashMap<String, String> getLineNumAssetMap()
+    '''returns None\n\n
+    setCrossOrgExchangeRate(final MboRemote newMatRec, final MboRemote transferOutMatRec)\n
     '''
 def setLineNumAssetMap():
-    '''public void setLineNumAssetMap(final String linenum, final String rotassetnum)
-    '''
-def getShipReceiptCountMap():
-    '''public HashMap<String, Long> getShipReceiptCountMap()
+    '''returns None\n\n
+    setLineNumAssetMap(final String linenum, final String rotassetnum)\n
     '''
 def setShipReceiptCountMap():
-    '''public void setShipReceiptCountMap(final String linenum, final long count)
-    '''
-def getVoidShipReceiptCountMap():
-    '''public HashMap<String, Long> getVoidShipReceiptCountMap()
+    '''returns None\n\n
+    setShipReceiptCountMap(final String linenum, final long count)\n
     '''
 def setVoidShipReceiptCountMap():
-    '''public void setVoidShipReceiptCountMap(final String linenum, final long count)
+    '''returns None\n\n
+    setVoidShipReceiptCountMap(final String linenum, final long count)\n
     '''

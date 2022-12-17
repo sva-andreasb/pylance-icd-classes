@@ -1,9 +1,12 @@
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getDetail():
-    '''public String getDetail()
+    '''returns String\n\n
+    getDetail()\n
     '''
 def dump():
-    '''public void dump(final PrintStream stream)
+    '''returns None\n\n
+    dump(final PrintStream stream)\n
     '''

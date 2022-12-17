@@ -10,6 +10,3 @@ RSET = "int  8"
 APOP = "int  9"
 TOP = "int  10"
 UIDL = "int  11"
-def getCommand():
-    '''public static final String getCommand(final int command)
-    '''

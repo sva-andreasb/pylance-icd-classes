@@ -1,6 +1,8 @@
-def WOMATStatusSync():
-    '''public WOMATStatusSync(final MboSet ms)
+def ():
+    '''returns WOMATStatusSync\n\n
+    (final MboSet ms)\n
     '''
 def updateMbo():
-    '''public void updateMbo(final MboRemote mbo)
+    '''returns None\n\n
+    updateMbo(final MboRemote mbo)\n
     '''

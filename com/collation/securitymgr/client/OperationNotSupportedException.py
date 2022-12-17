@@ -1,4 +1,5 @@
-def OperationNotSupportedException():
-    '''public OperationNotSupportedException(final String message)
-    public OperationNotSupportedException()
+def ():
+    '''returns OperationNotSupportedException\n\n
+    (final String message)\n
+    ()\n
     '''

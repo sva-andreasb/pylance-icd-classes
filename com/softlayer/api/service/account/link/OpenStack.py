@@ -1,22 +1,24 @@
 def getDomainId():
-    '''public String getDomainId()
+    '''returns String\n\n
+    getDomainId()\n
     '''
 def setDomainId():
-    '''public void setDomainId(final String domainId)
+    '''returns None\n\n
+    setDomainId(final String domainId)\n
     '''
 def isDomainIdSpecified():
-    '''public boolean isDomainIdSpecified()
+    '''returns boolean\n\n
+    isDomainIdSpecified()\n
     '''
 def unsetDomainId():
-    '''public void unsetDomainId()
+    '''returns None\n\n
+    unsetDomainId()\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def domainId():
-    '''public Mask domainId()
+    '''returns Mask\n\n
+    domainId()\n
     '''

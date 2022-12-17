@@ -1,18 +1,12 @@
-def HebrewNumerals():
-    '''public HebrewNumerals()
+def ():
+    '''returns HebrewNumerals\n\n
+    ()\n
     '''
 def IntegerToHebNumeral():
-    '''public String IntegerToHebNumeral(final int i)
-    '''
-def RemoveGereshChars():
-    '''public static String RemoveGereshChars(final String str)
+    '''returns String\n\n
+    IntegerToHebNumeral(final int i)\n
     '''
 def HebNumeralToInteger():
-    '''public int HebNumeralToInteger(final String text)
-    '''
-def FixMalformedHebNumeral():
-    '''public static String FixMalformedHebNumeral(final String text)
-    '''
-def HebNumeralLength():
-    '''public static int HebNumeralLength(final String text)
+    '''returns int\n\n
+    HebNumeralToInteger(final String text)\n
     '''

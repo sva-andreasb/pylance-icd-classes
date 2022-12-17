@@ -1,6 +1,8 @@
 def modified():
-    '''public int modified()
+    '''returns int\n\n
+    modified()\n
     '''
 def apply():
-    '''public int apply()
+    '''returns int\n\n
+    apply()\n
     '''

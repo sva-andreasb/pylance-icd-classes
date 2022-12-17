@@ -1,19 +1,25 @@
-def JSONSystemResourceGenerator():
-    '''public JSONSystemResourceGenerator(final OslcRequest request)
+def ():
+    '''returns JSONSystemResourceGenerator\n\n
+    (final OslcRequest request)\n
     '''
 def generateResource():
-    '''public byte[] generateResource()
+    '''returns byte[]\n\n
+    generateResource()\n
     '''
 def tenantUsage():
-    '''public JSONArray tenantUsage(final UserInfo userInfo)
+    '''returns JSONArray\n\n
+    tenantUsage(final UserInfo userInfo)\n
     '''
 def whoami():
-    '''public JSONObject whoami(final UserInfo userInfo)
+    '''returns JSONObject\n\n
+    whoami(final UserInfo userInfo)\n
     '''
 def addNPSInfo():
-    '''public JSONArray addNPSInfo(final UserInfo userInfo)
+    '''returns JSONArray\n\n
+    addNPSInfo(final UserInfo userInfo)\n
     '''
 def personUser():
-    '''public JSONObject personUser(final String osName)
-    public byte[] personUser(final UserInfo userInfo)
+    '''returns byte[]\n\n
+    personUser(final String osName)\n
+    personUser(final UserInfo userInfo)\n
     '''

@@ -1,26 +1,30 @@
 ELEMENT = "String  \"html\""
 NAMESPACE = "String  \"http://jabber.org/protocol/xhtml-im\""
-def XHTMLExtension():
-    '''public XHTMLExtension()
+def ():
+    '''returns XHTMLExtension\n\n
+    ()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getBodies():
-    '''public List<CharSequence> getBodies()
+    '''returns List<CharSequence>\n\n
+    getBodies()\n
     '''
 def addBody():
-    '''public void addBody(final CharSequence body)
+    '''returns None\n\n
+    addBody(final CharSequence body)\n
     '''
 def getBodiesCount():
-    '''public int getBodiesCount()
-    '''
-def from():
-    '''public static XHTMLExtension from(final Message message)
+    '''returns int\n\n
+    getBodiesCount()\n
     '''

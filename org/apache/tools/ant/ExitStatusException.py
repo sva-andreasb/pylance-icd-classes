@@ -1,8 +1,10 @@
-def ExitStatusException():
-    '''public ExitStatusException(final int status)
-    public ExitStatusException(final String msg, final int status)
-    public ExitStatusException(final String message, final int status, final Location location)
+def ():
+    '''returns ExitStatusException\n\n
+    (final int status)\n
+    (final String msg, final int status)\n
+    (final String message, final int status, final Location location)\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''

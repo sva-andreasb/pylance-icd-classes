@@ -1,12 +1,12 @@
-def PingHTTPResourceHandler():
-    '''public PingHTTPResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns PingHTTPResourceHandler\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
-    '''
-def encode():
-    '''public static String encode(final String userName, final String password)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''
 def createURI():
-    '''public String createURI(final List<String> resPath)
+    '''returns String\n\n
+    createURI(final List<String> resPath)\n
     '''

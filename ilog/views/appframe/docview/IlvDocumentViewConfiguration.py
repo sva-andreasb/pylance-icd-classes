@@ -1,73 +1,93 @@
 ICON_ATTRIBUTE = "String  \"icon\""
-def IlvDocumentViewConfiguration():
-    '''public IlvDocumentViewConfiguration(final String name)
+def ():
+    '''returns IlvDocumentViewConfiguration\n\n
+    (final String name)\n
     '''
 def newViewContainer():
-    '''public IlvViewContainer newViewContainer(final IlvDocument ilvDocument, final boolean b)
+    '''returns IlvViewContainer\n\n
+    newViewContainer(final IlvDocument ilvDocument, final boolean b)\n
     '''
 def readSettings():
-    '''public void readSettings(final IlvSettingsElement a, final IlvSettings ilvSettings)
+    '''returns None\n\n
+    readSettings(final IlvSettingsElement a, final IlvSettings ilvSettings)\n
     '''
 def connectMainWindow():
-    '''public void connectMainWindow(final IlvMainWindow ilvMainWindow)
-    '''
-def getName():
-    '''public final String getName()
+    '''returns None\n\n
+    connectMainWindow(final IlvMainWindow ilvMainWindow)\n
     '''
 def setName():
-    '''public void setName(final String c)
+    '''returns None\n\n
+    setName(final String c)\n
     '''
 def getTemplateName():
-    '''public String getTemplateName()
+    '''returns String\n\n
+    getTemplateName()\n
     '''
 def isMDI():
-    '''public boolean isMDI()
+    '''returns boolean\n\n
+    isMDI()\n
     '''
 def isAutoCreate():
-    '''public boolean isAutoCreate()
+    '''returns boolean\n\n
+    isAutoCreate()\n
     '''
 def setAutoCreate():
-    '''public void setAutoCreate(final boolean g)
+    '''returns None\n\n
+    setAutoCreate(final boolean g)\n
     '''
 def getDocumentTemplate():
-    '''public IlvDocumentTemplate getDocumentTemplate()
+    '''returns IlvDocumentTemplate\n\n
+    getDocumentTemplate()\n
     '''
 def setDocumentTemplate():
-    '''public void setDocumentTemplate(final IlvDocumentTemplate j)
+    '''returns None\n\n
+    setDocumentTemplate(final IlvDocumentTemplate j)\n
     '''
 def getContainerTemplate():
-    '''public IlvContainerTemplate getContainerTemplate()
+    '''returns IlvContainerTemplate\n\n
+    getContainerTemplate()\n
     '''
 def setContainerTemplate():
-    '''public void setContainerTemplate(final IlvContainerTemplate e)
+    '''returns None\n\n
+    setContainerTemplate(final IlvContainerTemplate e)\n
     '''
 def isAutomaticContainerTitle():
-    '''public boolean isAutomaticContainerTitle()
+    '''returns boolean\n\n
+    isAutomaticContainerTitle()\n
     '''
 def setAutomaticContainerTitle():
-    '''public void setAutomaticContainerTitle(final boolean h)
+    '''returns None\n\n
+    setAutomaticContainerTitle(final boolean h)\n
     '''
 def getDefaultContainerTitle():
-    '''public String getDefaultContainerTitle()
+    '''returns String\n\n
+    getDefaultContainerTitle()\n
     '''
 def setDefaultContainerTitle():
-    '''public void setDefaultContainerTitle(final String i)
+    '''returns None\n\n
+    setDefaultContainerTitle(final String i)\n
     '''
 def isCloseDocumentOnClose():
-    '''public boolean isCloseDocumentOnClose()
+    '''returns boolean\n\n
+    isCloseDocumentOnClose()\n
     '''
 def setCloseDocumentOnClose():
-    '''public void setCloseDocumentOnClose(final boolean k)
+    '''returns None\n\n
+    setCloseDocumentOnClose(final boolean k)\n
     '''
 def isContainerActiveByDefault():
-    '''public boolean isContainerActiveByDefault()
+    '''returns boolean\n\n
+    isContainerActiveByDefault()\n
     '''
 def setContainerActiveByDefault():
-    '''public void setContainerActiveByDefault(final boolean l)
+    '''returns None\n\n
+    setContainerActiveByDefault(final boolean l)\n
     '''
 def getIcon():
-    '''public Icon getIcon()
+    '''returns Icon\n\n
+    getIcon()\n
     '''
 def setIcon():
-    '''public void setIcon(final Icon m)
+    '''returns None\n\n
+    setIcon(final Icon m)\n
     '''

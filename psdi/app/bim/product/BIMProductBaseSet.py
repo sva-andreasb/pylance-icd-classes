@@ -1,3 +1,4 @@
-def BIMProductBaseSet():
-    '''public BIMProductBaseSet(final MboServerInterface ms)
+def ():
+    '''returns BIMProductBaseSet\n\n
+    (final MboServerInterface ms)\n
     '''

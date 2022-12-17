@@ -1,12 +1,16 @@
-def GenericClientResponse():
-    '''public GenericClientResponse(final STATUS_CODES code, final String headers, final SocketInputStream body)
+def ():
+    '''returns GenericClientResponse\n\n
+    (final STATUS_CODES code, final String headers, final SocketInputStream body)\n
     '''
 def getHeaders():
-    '''public String getHeaders()
+    '''returns String\n\n
+    getHeaders()\n
     '''
 def getBody():
-    '''public SocketInputStream getBody()
+    '''returns SocketInputStream\n\n
+    getBody()\n
     '''
 def getStatusCode():
-    '''public STATUS_CODES getStatusCode()
+    '''returns STATUS_CODES\n\n
+    getStatusCode()\n
     '''

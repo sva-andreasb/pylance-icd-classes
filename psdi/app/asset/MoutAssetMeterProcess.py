@@ -1,15 +1,20 @@
-def MoutAssetMeterProcess():
-    '''public MoutAssetMeterProcess()
+def ():
+    '''returns MoutAssetMeterProcess\n\n
+    ()\n
     '''
 def getAssetMetersWithDevices():
-    '''public void getAssetMetersWithDevices(final MboSet assetMeterSet, final String iotservicename)
+    '''returns None\n\n
+    getAssetMetersWithDevices(final MboSet assetMeterSet, final String iotservicename)\n
     '''
 def getOrphanedAssetMeters():
-    '''public void getOrphanedAssetMeters(final MboSet assetMeterSet, final String iotservicename)
+    '''returns None\n\n
+    getOrphanedAssetMeters(final MboSet assetMeterSet, final String iotservicename)\n
     '''
 def getAssetsWithDevices():
-    '''public void getAssetsWithDevices(final MboSet assetMeterSet, final String iotservicename)
+    '''returns None\n\n
+    getAssetsWithDevices(final MboSet assetMeterSet, final String iotservicename)\n
     '''
 def getOrphanedAssets():
-    '''public void getOrphanedAssets(final MboSet assetMeterSet, final String iotservicename)
+    '''returns None\n\n
+    getOrphanedAssets(final MboSet assetMeterSet, final String iotservicename)\n
     '''

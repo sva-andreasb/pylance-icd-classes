@@ -1,6 +1,8 @@
-def XmlBeanDeserializer():
-    '''public XmlBeanDeserializer(final Class javaType, final QName xmlType)
+def ():
+    '''returns XmlBeanDeserializer\n\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def onStartElement():
-    '''public void onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''

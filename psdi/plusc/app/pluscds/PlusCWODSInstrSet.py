@@ -1,3 +1,4 @@
-def PlusCWODSInstrSet():
-    '''public PlusCWODSInstrSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCWODSInstrSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,16 +1,17 @@
-def parse():
-    '''public static SRV parse(final DataInputStream dis, final byte[] data)
-    '''
-def SRV():
-    '''public SRV(final int priority, final int weight, final int port, final String name)
-    public SRV(final int priority, final int weight, final int port, final DnsName name)
+def ():
+    '''returns SRV\n\n
+    (final int priority, final int weight, final int port, final String name)\n
+    (final int priority, final int weight, final int port, final DnsName name)\n
     '''
 def serialize():
-    '''public void serialize(final DataOutputStream dos)
+    '''returns None\n\n
+    serialize(final DataOutputStream dos)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final SRV other)
+    '''returns int\n\n
+    compareTo(final SRV other)\n
     '''

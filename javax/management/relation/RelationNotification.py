@@ -5,27 +5,35 @@ RELATION_MBEAN_UPDATE = "String  \"jmx.relation.update.mbean\""
 RELATION_BASIC_REMOVAL = "String  \"jmx.relation.removal.basic\""
 RELATION_MBEAN_REMOVAL = "String  \"jmx.relation.removal.mbean\""
 def getRelationId():
-    '''public String getRelationId()
+    '''returns String\n\n
+    getRelationId()\n
     '''
 def getRelationTypeName():
-    '''public String getRelationTypeName()
+    '''returns String\n\n
+    getRelationTypeName()\n
     '''
 def getRoleName():
-    '''public String getRoleName()
+    '''returns String\n\n
+    getRoleName()\n
     '''
 def getMBeansToUnregister():
-    '''public List getMBeansToUnregister()
+    '''returns List\n\n
+    getMBeansToUnregister()\n
     '''
 def getNewRoleValue():
-    '''public List getNewRoleValue()
+    '''returns List\n\n
+    getNewRoleValue()\n
     '''
 def getOldRoleValue():
-    '''public List getOldRoleValue()
+    '''returns List\n\n
+    getOldRoleValue()\n
     '''
 def getObjectName():
-    '''public ObjectName getObjectName()
+    '''returns ObjectName\n\n
+    getObjectName()\n
     '''
-def RelationNotification():
-    '''public RelationNotification(final String s, final Object o, final long n, final long n2, final String s2, final String s3, final String s4, final ObjectName objectName, final List list)
-    public RelationNotification(final String s, final Object o, final long n, final long n2, final String s2, final String s3, final String s4, final ObjectName objectName, final String s5, final List list, final List list2)
+def ():
+    '''returns RelationNotification\n\n
+    (final String s, final Object o, final long n, final long n2, final String s2, final String s3, final String s4, final ObjectName objectName, final List list)\n
+    (final String s, final Object o, final long n, final long n2, final String s2, final String s3, final String s4, final ObjectName objectName, final String s5, final List list, final List list2)\n
     '''

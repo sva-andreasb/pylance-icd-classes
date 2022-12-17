@@ -1,9 +1,12 @@
-def ParamBatchSQL():
-    '''public ParamBatchSQL(final Connection dc, final String sql, final AttributeClass... paramTypes)
+def ():
+    '''returns ParamBatchSQL\n\n
+    (final Connection dc, final String sql, final AttributeClass... paramTypes)\n
     '''
 def addParamBatch():
-    '''public void addParamBatch(final Object... params)
+    '''returns None\n\n
+    addParamBatch(final Object... params)\n
     '''
 def doRepair():
-    '''public void doRepair()
+    '''returns None\n\n
+    doRepair()\n
     '''

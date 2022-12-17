@@ -1,3 +1,4 @@
-def FldEndPointName():
-    '''public FldEndPointName(final MboValue mbv)
+def ():
+    '''returns FldEndPointName\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,12 +1,8 @@
-def constructForProperty():
-    '''public static NullsFailProvider constructForProperty(final BeanProperty prop)
-    '''
-def constructForRootValue():
-    '''public static NullsFailProvider constructForRootValue(final JavaType t)
-    '''
 def getNullAccessPattern():
-    '''public AccessPattern getNullAccessPattern()
+    '''returns AccessPattern\n\n
+    getNullAccessPattern()\n
     '''
 def getNullValue():
-    '''public Object getNullValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getNullValue(final DeserializationContext ctxt)\n
     '''

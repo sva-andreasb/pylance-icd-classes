@@ -1,3 +1,4 @@
-def ActivatorSubPanel():
-    '''public ActivatorSubPanel(final ConfigurationInfo model)
+def ():
+    '''returns ActivatorSubPanel\n\n
+    (final ConfigurationInfo model)\n
     '''

@@ -1,24 +1,32 @@
-def ImageFlavor():
-    '''public ImageFlavor(final String name)
+def ():
+    '''returns ImageFlavor\n\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def isCompatible():
-    '''public boolean isCompatible(final ImageFlavor flavor)
+    '''returns boolean\n\n
+    isCompatible(final ImageFlavor flavor)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,6 +1,8 @@
 def applyTo():
-    '''public void applyTo(final TzId element)
+    '''returns None\n\n
+    applyTo(final TzId element)\n
     '''
 def getSupportedType():
-    '''public Class<TzId> getSupportedType()
+    '''returns Class<TzId>\n\n
+    getSupportedType()\n
     '''

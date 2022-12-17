@@ -1,6 +1,8 @@
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

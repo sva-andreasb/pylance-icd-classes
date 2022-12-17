@@ -1,183 +1,235 @@
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    '''
-def close():
-    '''public synchronized void close()
-    '''
-def endParsing():
-    '''public synchronized void endParsing()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def isWhiteSpace():
-    '''public boolean isWhiteSpace()
+    '''returns boolean\n\n
+    isWhiteSpace()\n
     '''
 def getAttributeValue():
-    '''public String getAttributeValue(String s, final String s2)
-    public String getAttributeValue(final int n)
+    '''returns String\n\n
+    getAttributeValue(String s, final String s2)\n
+    getAttributeValue(final int n)\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getAttributeName():
-    '''public QName getAttributeName(final int n)
+    '''returns QName\n\n
+    getAttributeName(final int n)\n
     '''
 def getAttributeNamespace():
-    '''public String getAttributeNamespace(final int n)
+    '''returns String\n\n
+    getAttributeNamespace(final int n)\n
     '''
 def getAttributeLocalName():
-    '''public String getAttributeLocalName(final int n)
+    '''returns String\n\n
+    getAttributeLocalName(final int n)\n
     '''
 def getAttributePrefix():
-    '''public String getAttributePrefix(final int n)
+    '''returns String\n\n
+    getAttributePrefix(final int n)\n
     '''
 def getAttributeType():
-    '''public String getAttributeType(final int n)
+    '''returns String\n\n
+    getAttributeType(final int n)\n
     '''
 def isAttributeSpecified():
-    '''public boolean isAttributeSpecified(final int n)
+    '''returns boolean\n\n
+    isAttributeSpecified(final int n)\n
     '''
 def getNamespaceCount():
-    '''public int getNamespaceCount()
+    '''returns int\n\n
+    getNamespaceCount()\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final int n)
+    '''returns String\n\n
+    getNamespacePrefix(final int n)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI(final int n)
-    public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI(final int n)\n
+    getNamespaceURI()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
-    public int getTextCharacters(final int n, final char[] array, final int n2, int n3)
+    '''returns int\n\n
+    getTextCharacters()\n
+    getTextCharacters(final int n, final char[] array, final int n2, int n3)\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''
 def getCharacterOffset():
-    '''public int getCharacterOffset()
+    '''returns int\n\n
+    getCharacterOffset()\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def standaloneSet():
-    '''public boolean standaloneSet()
+    '''returns boolean\n\n
+    standaloneSet()\n
     '''
 def getPITarget():
-    '''public String getPITarget()
+    '''returns String\n\n
+    getPITarget()\n
     '''
 def getPIData():
-    '''public String getPIData()
+    '''returns String\n\n
+    getPIData()\n
     '''
 def error():
-    '''public void error(final SAXParseException ex)
+    '''returns None\n\n
+    error(final SAXParseException ex)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException ex)
+    '''returns None\n\n
+    fatalError(final SAXParseException ex)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException ex)
+    '''returns None\n\n
+    warning(final SAXParseException ex)\n
     '''
 def comment():
-    '''public void comment(final char[] fChars, final int fStart, final int fLength)
+    '''returns None\n\n
+    comment(final char[] fChars, final int fStart, final int fLength)\n
     '''
 def endCDATA():
-    '''public void endCDATA()
+    '''returns None\n\n
+    endCDATA()\n
     '''
 def endDTD():
-    '''public void endDTD()
+    '''returns None\n\n
+    endDTD()\n
     '''
 def endEntity():
-    '''public void endEntity(final String anObject)
+    '''returns None\n\n
+    endEntity(final String anObject)\n
     '''
 def startCDATA():
-    '''public void startCDATA()
+    '''returns None\n\n
+    startCDATA()\n
     '''
 def startDTD():
-    '''public void startDTD(final String fRootName, final String fPubId, final String fSysId)
+    '''returns None\n\n
+    startDTD(final String fRootName, final String fPubId, final String fSysId)\n
     '''
 def startEntity():
-    '''public void startEntity(final String key)
+    '''returns None\n\n
+    startEntity(final String key)\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String s, final String s2)
+    '''returns InputSource\n\n
+    resolveEntity(final String s, final String s2)\n
     '''
 def characters():
-    '''public void characters(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    characters(final char[] array, final int n, final int n2)\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def endElement():
-    '''public void endElement(final String furi, final String fLocal, final String fqName)
+    '''returns None\n\n
+    endElement(final String furi, final String fLocal, final String fqName)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String s)
+    '''returns None\n\n
+    endPrefixMapping(final String s)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] array, final int n, final int n2)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String s, final String s2)
+    '''returns None\n\n
+    processingInstruction(final String s, final String s2)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator fLocator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator fLocator)\n
     '''
 def skippedEntity():
-    '''public void skippedEntity(final String fLocal)
+    '''returns None\n\n
+    skippedEntity(final String fLocal)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String furi, final String fLocal, final String fqName, final Attributes fAttributes)
+    '''returns None\n\n
+    startElement(final String furi, final String fLocal, final String fqName, final Attributes fAttributes)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String s, final String s2)
+    '''returns None\n\n
+    startPrefixMapping(final String s, final String s2)\n
     '''
 def internalEntityDecl():
-    '''public void internalEntityDecl(final String s, final String value)
+    '''returns None\n\n
+    internalEntityDecl(final String s, final String value)\n
     '''
 def elementDecl():
-    '''public void elementDecl(final String str, final String str2)
+    '''returns None\n\n
+    elementDecl(final String str, final String str2)\n
     '''
 def attributeDecl():
-    '''public void attributeDecl(final String str, final String str2, final String str3, final String str4, final String s)
+    '''returns None\n\n
+    attributeDecl(final String str, final String str2, final String str3, final String str4, final String s)\n
     '''
 def externalEntityDecl():
-    '''public void externalEntityDecl(final String str, final String str2, final String str3)
+    '''returns None\n\n
+    externalEntityDecl(final String str, final String str2, final String str3)\n
     '''
 def notationDecl():
-    '''public void notationDecl(final String str, final String str2, final String str3)
+    '''returns None\n\n
+    notationDecl(final String str, final String str2, final String str3)\n
     '''
 def unparsedEntityDecl():
-    '''public void unparsedEntityDecl(final String str, final String str2, final String str3, final String str4)
+    '''returns None\n\n
+    unparsedEntityDecl(final String str, final String str2, final String str3, final String str4)\n
     '''

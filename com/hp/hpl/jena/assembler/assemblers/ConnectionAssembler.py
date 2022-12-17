@@ -1,19 +1,25 @@
-def ConnectionAssembler():
-    '''public ConnectionAssembler(final Resource init)
-    public ConnectionAssembler()
+def ():
+    '''returns ConnectionAssembler\n\n
+    (final Resource init)\n
+    ()\n
     '''
 def open():
-    '''public Object open(final Assembler a, final Resource root, final Mode irrelevant)
+    '''returns Object\n\n
+    open(final Assembler a, final Resource root, final Mode irrelevant)\n
     '''
 def getUser():
-    '''public String getUser(final Resource root)
+    '''returns String\n\n
+    getUser(final Resource root)\n
     '''
 def getPassword():
-    '''public String getPassword(final Resource root)
+    '''returns String\n\n
+    getPassword(final Resource root)\n
     '''
 def getURL():
-    '''public String getURL(final Resource root)
+    '''returns String\n\n
+    getURL(final Resource root)\n
     '''
 def getType():
-    '''public String getType(final Resource root)
+    '''returns String\n\n
+    getType(final Resource root)\n
     '''

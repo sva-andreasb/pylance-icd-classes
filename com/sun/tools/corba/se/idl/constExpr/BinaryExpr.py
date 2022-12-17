@@ -1,15 +1,19 @@
-def BinaryExpr():
-    '''public BinaryExpr(final String op, final Expression left, final Expression right)
+def ():
+    '''returns BinaryExpr\n\n
+    (final String op, final Expression left, final Expression right)\n
     '''
 def op():
-    '''public void op(final String s)
-    public String op()
+    '''returns String\n\n
+    op(final String s)\n
+    op()\n
     '''
 def left():
-    '''public void left(final Expression left)
-    public Expression left()
+    '''returns Expression\n\n
+    left(final Expression left)\n
+    left()\n
     '''
 def right():
-    '''public void right(final Expression right)
-    public Expression right()
+    '''returns Expression\n\n
+    right(final Expression right)\n
+    right()\n
     '''

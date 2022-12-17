@@ -1,27 +1,36 @@
-def NavSection():
-    '''public NavSection()
+def ():
+    '''returns NavSection\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def buildData():
-    '''public void buildData()
+    '''returns None\n\n
+    buildData()\n
     '''
 def getDataString():
-    '''public String getDataString()
+    '''returns String\n\n
+    getDataString()\n
     '''
 def getData():
-    '''public int getData()
+    '''returns int\n\n
+    getData()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def click():
-    '''public int click()
+    '''returns int\n\n
+    click()\n
     '''
 def queryclick():
-    '''public int queryclick()
+    '''returns int\n\n
+    queryclick()\n
     '''

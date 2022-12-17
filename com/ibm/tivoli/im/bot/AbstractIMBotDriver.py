@@ -1,22 +1,21 @@
-def AbstractIMBotDriver():
-    '''public AbstractIMBotDriver()
-    public AbstractIMBotDriver(final MXServer mxServer)
+def ():
+    '''returns AbstractIMBotDriver\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def createSession():
-    '''public void createSession()
+    '''returns None\n\n
+    createSession()\n
     '''
 def endSession():
-    '''public void endSession()
-    '''
-def messageReceived():
-    '''public final void messageReceived(final String s, final String s2, final Object o)
-    '''
-def registerCommand():
-    '''public final void registerCommand(final String s, final AbstractCommand abstractCommand)
+    '''returns None\n\n
+    endSession()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def log():
-    '''public void log(final Object o, final int n)
+    '''returns None\n\n
+    log(final Object o, final int n)\n
     '''

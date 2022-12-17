@@ -1,3 +1,4 @@
-def PlusCSpotCheckSet():
-    '''public PlusCSpotCheckSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCSpotCheckSet\n\n
+    (final MboServerInterface ms)\n
     '''

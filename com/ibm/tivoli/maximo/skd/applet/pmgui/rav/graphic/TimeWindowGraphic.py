@@ -1,45 +1,59 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TimeWindowGraphic():
-    '''public TimeWindowGraphic(final TimeWindow tw, final TimeWindowRow row)
-    public TimeWindowGraphic(final IlvPoint ul, final IlvPoint lr, final TimeWindow tw, final TimeWindowRow row)
-    public TimeWindowGraphic(final TimeWindowGraphic source)
+def ():
+    '''returns TimeWindowGraphic\n\n
+    (final TimeWindow tw, final TimeWindowRow row)\n
+    (final IlvPoint ul, final IlvPoint lr, final TimeWindow tw, final TimeWindowRow row)\n
+    (final TimeWindowGraphic source)\n
     '''
 def applyTransform():
-    '''public void applyTransform(final IlvTransformer trans)
+    '''returns None\n\n
+    applyTransform(final IlvTransformer trans)\n
     '''
 def boundingBox():
-    '''public IlvRect boundingBox(final IlvTransformer trans)
+    '''returns IlvRect\n\n
+    boundingBox(final IlvTransformer trans)\n
     '''
 def copy():
-    '''public IlvGraphic copy()
+    '''returns IlvGraphic\n\n
+    copy()\n
     '''
 def draw():
-    '''public void draw(final Graphics graphic, final IlvTransformer trans)
+    '''returns None\n\n
+    draw(final Graphics graphic, final IlvTransformer trans)\n
     '''
 def getBackground():
-    '''public Color getBackground()
+    '''returns Color\n\n
+    getBackground()\n
     '''
 def getForeground():
-    '''public Color getForeground()
+    '''returns Color\n\n
+    getForeground()\n
     '''
 def getTimeWindow():
-    '''public TimeWindow getTimeWindow()
+    '''returns TimeWindow\n\n
+    getTimeWindow()\n
     '''
 def getTimeWindowRow():
-    '''public TimeWindowRow getTimeWindowRow()
+    '''returns TimeWindowRow\n\n
+    getTimeWindowRow()\n
     '''
 def setBackground():
-    '''public void setBackground(final Color color)
+    '''returns None\n\n
+    setBackground(final Color color)\n
     '''
 def setForeground():
-    '''public void setForeground(final Color color)
+    '''returns None\n\n
+    setForeground(final Color color)\n
     '''
 def setUpperLeftLowerRightPoints():
-    '''public void setUpperLeftLowerRightPoints(final IlvPoint ul, final IlvPoint lr)
+    '''returns None\n\n
+    setUpperLeftLowerRightPoints(final IlvPoint ul, final IlvPoint lr)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''

@@ -1,3 +1,4 @@
-def MaximoResolverException():
-    '''public MaximoResolverException(final String message, final Throwable throwable)
+def ():
+    '''returns MaximoResolverException\n\n
+    (final String message, final Throwable throwable)\n
     '''

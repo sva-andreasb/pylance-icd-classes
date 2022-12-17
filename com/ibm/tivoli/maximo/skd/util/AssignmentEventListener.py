@@ -1,30 +1,28 @@
-def getInstance():
-    '''public static AssignmentEventListener getInstance()
-    '''
 def setSlRouteService():
-    '''public void setSlRouteService(final SLRouteService slRouteService)
+    '''returns None\n\n
+    setSlRouteService(final SLRouteService slRouteService)\n
     '''
 def setSkdAppService():
-    '''public void setSkdAppService(final SKDAppService skdAppService)
-    '''
-def register():
-    '''public synchronized void register()
-    '''
-def unregister():
-    '''public synchronized void unregister()
+    '''returns None\n\n
+    setSkdAppService(final SKDAppService skdAppService)\n
     '''
 def eventValidate():
-    '''public boolean eventValidate(final EventMessage em)
+    '''returns boolean\n\n
+    eventValidate(final EventMessage em)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveEventAction(final EventMessage em)\n
     '''
 def eventAction():
-    '''public void eventAction(final EventMessage em)
+    '''returns None\n\n
+    eventAction(final EventMessage em)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final EventMessage em)
+    '''returns None\n\n
+    postCommitEventAction(final EventMessage em)\n
     '''
-def Handler():
-    '''public Handler(final String eventId, final int handlerId)
+def ():
+    '''returns Handler\n\n
+    (final String eventId, final int handlerId)\n
     '''

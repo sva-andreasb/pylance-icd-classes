@@ -1,9 +1,12 @@
-def PlusPSLARecords():
-    '''public PlusPSLARecords(final MboSet arg0)
+def ():
+    '''returns PlusPSLARecords\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def calculateMeasurements():
-    '''public void calculateMeasurements()
+    '''returns None\n\n
+    calculateMeasurements()\n
     '''

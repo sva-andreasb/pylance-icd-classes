@@ -1,9 +1,12 @@
-def AssociateSpecBean():
-    '''public AssociateSpecBean()
+def ():
+    '''returns AssociateSpecBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

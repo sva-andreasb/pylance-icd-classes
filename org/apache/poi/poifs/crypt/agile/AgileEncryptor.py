@@ -1,16 +1,21 @@
 def confirmPassword():
-    '''public void confirmPassword(final String password)
-    public void confirmPassword(final String password, final byte[] keySpec, final byte[] keySalt, final byte[] verifier, final byte[] verifierSalt, final byte[] integritySalt)
+    '''returns None\n\n
+    confirmPassword(final String password)\n
+    confirmPassword(final String password, final byte[] keySpec, final byte[] keySalt, final byte[] verifier, final byte[] verifierSalt, final byte[] integritySalt)\n
     '''
 def getDataStream():
-    '''public OutputStream getDataStream(final DirectoryNode dir)
+    '''returns OutputStream\n\n
+    getDataStream(final DirectoryNode dir)\n
     '''
 def write():
-    '''public void write(final LittleEndianByteArrayOutputStream bos)
+    '''returns None\n\n
+    write(final LittleEndianByteArrayOutputStream bos)\n
     '''
 def clone():
-    '''public AgileEncryptor clone()
+    '''returns AgileEncryptor\n\n
+    clone()\n
     '''
-def AgileCipherOutputStream():
-    '''public AgileCipherOutputStream(final DirectoryNode dir)
+def ():
+    '''returns AgileCipherOutputStream\n\n
+    (final DirectoryNode dir)\n
     '''

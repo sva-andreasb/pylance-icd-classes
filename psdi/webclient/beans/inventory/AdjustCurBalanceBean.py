@@ -1,3 +1,4 @@
 def adjustCurBalance():
-    '''public int adjustCurBalance()
+    '''returns int\n\n
+    adjustCurBalance()\n
     '''

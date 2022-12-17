@@ -1,6 +1,8 @@
 def selectleaseassets():
-    '''public int selectleaseassets()
+    '''returns int\n\n
+    selectleaseassets()\n
     '''
 def selectmoreassets():
-    '''public int selectmoreassets()
+    '''returns int\n\n
+    selectmoreassets()\n
     '''

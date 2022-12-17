@@ -1,87 +1,113 @@
-def Field():
-    '''public Field(final String name, final Reader reader, final IndexableFieldType type)
-    public Field(final String name, final TokenStream tokenStream, final IndexableFieldType type)
-    public Field(final String name, final byte[] value, final IndexableFieldType type)
-    public Field(final String name, final byte[] value, final int offset, final int length, final IndexableFieldType type)
-    public Field(final String name, final BytesRef bytes, final IndexableFieldType type)
-    public Field(final String name, final CharSequence value, final IndexableFieldType type)
+def ():
+    '''returns Field\n\n
+    (final String name, final Reader reader, final IndexableFieldType type)\n
+    (final String name, final TokenStream tokenStream, final IndexableFieldType type)\n
+    (final String name, final byte[] value, final IndexableFieldType type)\n
+    (final String name, final byte[] value, final int offset, final int length, final IndexableFieldType type)\n
+    (final String name, final BytesRef bytes, final IndexableFieldType type)\n
+    (final String name, final CharSequence value, final IndexableFieldType type)\n
     '''
 def stringValue():
-    '''public String stringValue()
+    '''returns String\n\n
+    stringValue()\n
     '''
 def getCharSequenceValue():
-    '''public CharSequence getCharSequenceValue()
+    '''returns CharSequence\n\n
+    getCharSequenceValue()\n
     '''
 def readerValue():
-    '''public Reader readerValue()
+    '''returns Reader\n\n
+    readerValue()\n
     '''
 def tokenStreamValue():
-    '''public TokenStream tokenStreamValue()
+    '''returns TokenStream\n\n
+    tokenStreamValue()\n
     '''
 def setStringValue():
-    '''public void setStringValue(final String value)
+    '''returns None\n\n
+    setStringValue(final String value)\n
     '''
 def setReaderValue():
-    '''public void setReaderValue(final Reader value)
+    '''returns None\n\n
+    setReaderValue(final Reader value)\n
     '''
 def setBytesValue():
-    '''public void setBytesValue(final byte[] value)
-    public void setBytesValue(final BytesRef value)
+    '''returns None\n\n
+    setBytesValue(final byte[] value)\n
+    setBytesValue(final BytesRef value)\n
     '''
 def setByteValue():
-    '''public void setByteValue(final byte value)
+    '''returns None\n\n
+    setByteValue(final byte value)\n
     '''
 def setShortValue():
-    '''public void setShortValue(final short value)
+    '''returns None\n\n
+    setShortValue(final short value)\n
     '''
 def setIntValue():
-    '''public void setIntValue(final int value)
+    '''returns None\n\n
+    setIntValue(final int value)\n
     '''
 def setLongValue():
-    '''public void setLongValue(final long value)
+    '''returns None\n\n
+    setLongValue(final long value)\n
     '''
 def setFloatValue():
-    '''public void setFloatValue(final float value)
+    '''returns None\n\n
+    setFloatValue(final float value)\n
     '''
 def setDoubleValue():
-    '''public void setDoubleValue(final double value)
+    '''returns None\n\n
+    setDoubleValue(final double value)\n
     '''
 def setTokenStream():
-    '''public void setTokenStream(final TokenStream tokenStream)
+    '''returns None\n\n
+    setTokenStream(final TokenStream tokenStream)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def numericValue():
-    '''public Number numericValue()
+    '''returns Number\n\n
+    numericValue()\n
     '''
 def binaryValue():
-    '''public BytesRef binaryValue()
+    '''returns BytesRef\n\n
+    binaryValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def fieldType():
-    '''public IndexableFieldType fieldType()
+    '''returns IndexableFieldType\n\n
+    fieldType()\n
     '''
 def tokenStream():
-    '''public TokenStream tokenStream(final Analyzer analyzer, TokenStream reuse)
+    '''returns TokenStream\n\n
+    tokenStream(final Analyzer analyzer, TokenStream reuse)\n
     '''
 def setValue():
-    '''public void setValue(final BytesRef value)
+    '''returns None\n\n
+    setValue(final BytesRef value)\n
     '''
 def incrementToken():
-    '''public boolean incrementToken()
-    public boolean incrementToken()
+    '''returns boolean\n\n
+    incrementToken()\n
+    incrementToken()\n
     '''
 def reset():
-    '''public void reset()
-    public void reset()
+    '''returns None\n\n
+    reset()\n
+    reset()\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

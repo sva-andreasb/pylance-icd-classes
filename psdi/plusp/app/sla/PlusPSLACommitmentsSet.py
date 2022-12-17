@@ -1,3 +1,4 @@
-def PlusPSLACommitmentsSet():
-    '''public PlusPSLACommitmentsSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPSLACommitmentsSet\n\n
+    (final MboServerInterface arg0)\n
     '''

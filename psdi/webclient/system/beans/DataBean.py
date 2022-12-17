@@ -25,876 +25,820 @@ TABLE_REFRESH_TITLE = "int  65536"
 MAX_TABLEROWS = "int  500"
 ALL_BOOKMARKS = "String  \"ALL_BOOKMARKS\""
 ALL_RECORDS = "String  \"ALL_RECORDS\""
-def DataBean():
-    '''public DataBean()
+def ():
+    '''returns DataBean\n\n
+    ()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    public void setupBean(final SessionContext sc)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
+    setupBean(final SessionContext sc)\n
     '''
 def bindComponent():
-    '''public void bindComponent(final BoundComponentInstance boundComponent)
+    '''returns None\n\n
+    bindComponent(final BoundComponentInstance boundComponent)\n
     '''
 def unbindComponent():
-    '''public void unbindComponent(final BoundComponentInstance boundComponent)
+    '''returns None\n\n
+    unbindComponent(final BoundComponentInstance boundComponent)\n
     '''
 def setNewRowUnedited():
-    '''public void setNewRowUnedited(final boolean unedited)
+    '''returns None\n\n
+    setNewRowUnedited(final boolean unedited)\n
     '''
 def isNewRowUnedited():
-    '''public boolean isNewRowUnedited()
+    '''returns boolean\n\n
+    isNewRowUnedited()\n
     '''
 def getTableAttributes():
-    '''public String[] getTableAttributes()
-    '''
-def setAppDefault():
-    '''public synchronized void setAppDefault(final String attribute, final String value)
-    '''
-def setQbeDefaults():
-    '''public synchronized void setQbeDefaults()
-    '''
-def setAppDefaults():
-    '''public synchronized void setAppDefaults()
+    '''returns String[]\n\n
+    getTableAttributes()\n
     '''
 def setParent():
-    '''public void setParent(final DataBean parent, final String parentRelationship)
+    '''returns None\n\n
+    setParent(final DataBean parent, final String parentRelationship)\n
     '''
 def getParent():
-    '''public DataBean getParent()
+    '''returns DataBean\n\n
+    getParent()\n
     '''
 def addListener():
-    '''public void addListener(final DataBeanListener listener)
+    '''returns None\n\n
+    addListener(final DataBeanListener listener)\n
     '''
 def removeListener():
-    '''public void removeListener(final DataBeanListener listener)
+    '''returns None\n\n
+    removeListener(final DataBeanListener listener)\n
     '''
 def fireDataChangedEvent():
-    '''public void fireDataChangedEvent(final DataBean speaker)
-    public void fireDataChangedEvent()
+    '''returns None\n\n
+    fireDataChangedEvent(final DataBean speaker)\n
+    fireDataChangedEvent()\n
     '''
 def fireStructureChangedEvent():
-    '''public void fireStructureChangedEvent(final DataBean speaker)
-    public void fireStructureChangedEvent()
+    '''returns None\n\n
+    fireStructureChangedEvent(final DataBean speaker)\n
+    fireStructureChangedEvent()\n
     '''
 def sendRefreshTable():
-    '''public void sendRefreshTable()
+    '''returns None\n\n
+    sendRefreshTable()\n
     '''
 def listenerChangedEvent():
-    '''public void listenerChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    listenerChangedEvent(final DataBean speaker)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def fireChildChangedEvent():
-    '''public void fireChildChangedEvent()
+    '''returns None\n\n
+    fireChildChangedEvent()\n
     '''
 def setMboName():
-    '''public void setMboName(final String sMboName)
+    '''returns None\n\n
+    setMboName(final String sMboName)\n
     '''
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def getMXSession():
-    '''public MXSession getMXSession()
+    '''returns MXSession\n\n
+    getMXSession()\n
     '''
 def setDefaultOrderBy():
-    '''public void setDefaultOrderBy(final String sOrderByClause)
+    '''returns None\n\n
+    setDefaultOrderBy(final String sOrderByClause)\n
     '''
 def getDefaultOrderBy():
-    '''public String getDefaultOrderBy()
-    '''
-def setOrderBy():
-    '''public synchronized void setOrderBy(String sOrderByClause)
+    '''returns String\n\n
+    getDefaultOrderBy()\n
     '''
 def getOrderBy():
-    '''public String getOrderBy()
-    '''
-def setAppWhere():
-    '''public synchronized void setAppWhere(final String sWhereClause)
-    '''
-def getAppWhere():
-    '''public synchronized String getAppWhere()
+    '''returns String\n\n
+    getOrderBy()\n
     '''
 def hasMboSetRemote():
-    '''public boolean hasMboSetRemote()
+    '''returns boolean\n\n
+    hasMboSetRemote()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def setApp():
-    '''public void setApp(final String appName)
+    '''returns None\n\n
+    setApp(final String appName)\n
     '''
 def getKeyAttribute():
-    '''public String getKeyAttribute()
+    '''returns String\n\n
+    getKeyAttribute()\n
     '''
 def getKeyAttributes():
-    '''public String[] getKeyAttributes()
+    '''returns String[]\n\n
+    getKeyAttributes()\n
     '''
 def getAttributes():
-    '''public String[] getAttributes()
+    '''returns String[]\n\n
+    getAttributes()\n
     '''
 def isAttribute():
-    '''public boolean isAttribute(final String attribute)
+    '''returns boolean\n\n
+    isAttribute(final String attribute)\n
     '''
 def isTableAttribute():
-    '''public boolean isTableAttribute(final String attribute)
+    '''returns boolean\n\n
+    isTableAttribute(final String attribute)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String attribute, BitFlag flags)
+    '''returns None\n\n
+    addAttribute(final String attribute, BitFlag flags)\n
     '''
 def addQbeAttribute():
-    '''public void addQbeAttribute(final String attribute)
+    '''returns None\n\n
+    addQbeAttribute(final String attribute)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final String[] attributelist, final BitFlag[] flags)
-    '''
-def count():
-    '''public synchronized int count()
-    '''
-def setUserWhere():
-    '''public synchronized void setUserWhere(final String whereClause)
-    '''
-def getUserWhere():
-    '''public synchronized String getUserWhere()
-    '''
-def getUserAndQbeWhere():
-    '''public synchronized String getUserAndQbeWhere()
-    '''
-def useStoredQuery():
-    '''public synchronized void useStoredQuery(final String queryName)
-    '''
-def getQbe():
-    '''public synchronized String getQbe(final String attribute)
-    public synchronized String getQbe()
-    '''
-def saveCurrentQbeSettings():
-    '''public synchronized void saveCurrentQbeSettings(final boolean forceOverride)
-    '''
-def clearSavedQbeSettings():
-    '''public synchronized void clearSavedQbeSettings()
-    '''
-def restoreSavedQbeSettings():
-    '''public synchronized void restoreSavedQbeSettings()
+    '''returns None\n\n
+    setAttributes(final String[] attributelist, final BitFlag[] flags)\n
     '''
 def clearSavedFilterSettings():
-    '''public void clearSavedFilterSettings()
-    '''
-def setQbe():
-    '''public synchronized void setQbe(final String attribute, final String expression)
-    public synchronized void setQbe(final String attribute, final MboSetRemote expression)
-    public synchronized void setQbe(final String[] attributes, final String expression)
-    public synchronized void setQbe(final Hashtable<String, String> qbeAttrs)
-    public synchronized void setQbe(final String expression)
+    '''returns None\n\n
+    clearSavedFilterSettings()\n
     '''
 def setDefaultQbe():
-    '''public void setDefaultQbe(final String attribute, final String expression)
-    '''
-def getQbeAttributes():
-    '''public synchronized Hashtable<String, String> getQbeAttributes()
-    '''
-def setQbeAttributes():
-    '''public synchronized void setQbeAttributes(final Hashtable<String, String> newQbeAttributes)
-    '''
-def setQbeExactMatch():
-    '''public synchronized void setQbeExactMatch(final boolean exact)
-    '''
-def setQbeCaseSensitive():
-    '''public synchronized void setQbeCaseSensitive(final boolean caseSensitive)
-    '''
-def resetQbe():
-    '''public synchronized void resetQbe()
-    '''
-def getBoolean():
-    '''public synchronized boolean getBoolean(final String col)
-    public synchronized boolean getBoolean(final int row, final String col)
-    '''
-def getString():
-    '''public synchronized String getString(final String attribute)
-    public synchronized String getString(final int row, final String attribute)
-    '''
-def getColumnString():
-    '''public synchronized String getColumnString(final int row, final String col)
-    '''
-def getColumnDate():
-    '''public synchronized Date getColumnDate(final int row, final String col)
-    '''
-def getDate():
-    '''public synchronized Date getDate(final String attribute)
-    '''
-def getTitle():
-    '''public synchronized String getTitle(final String attribute)
+    '''returns None\n\n
+    setDefaultQbe(final String attribute, final String expression)\n
     '''
 def getZombie():
-    '''public MboRemote getZombie()
+    '''returns MboRemote\n\n
+    getZombie()\n
     '''
 def getMboOrZombie():
-    '''public MboRemote getMboOrZombie()
-    '''
-def getMboValueInfo():
-    '''public synchronized MboValueInfoStatic getMboValueInfo(final String attribute)
-    '''
-def getZombieMboValueData():
-    '''public synchronized MboValueData getZombieMboValueData(final String attribute)
-    '''
-def getMboValueData():
-    '''public synchronized MboValueData getMboValueData(final int nRow, final String attribute)
-    public synchronized MboValueData getMboValueData(final String attribute)
+    '''returns MboRemote\n\n
+    getMboOrZombie()\n
     '''
 def isAttributeHidden():
-    '''public boolean isAttributeHidden(final String attribute)
-    public boolean isAttributeHidden(final int row, final String attribute)
+    '''returns boolean\n\n
+    isAttributeHidden(final String attribute)\n
+    isAttributeHidden(final int row, final String attribute)\n
     '''
 def isMboHidden():
-    '''public boolean isMboHidden()
-    public boolean isMboHidden(final int row)
+    '''returns boolean\n\n
+    isMboHidden()\n
+    isMboHidden(final int row)\n
     '''
 def getRemoteForLookup():
-    '''public MboSetRemote getRemoteForLookup()
-    '''
-def getList():
-    '''public synchronized MboSetRemote getList(final String attribute)
-    public synchronized MboSetRemote getList(final Integer row, final String attribute)
-    public synchronized MboSetRemote getList(final int nRow, final String attribute)
-    '''
-def getDataList():
-    '''public synchronized String[][] getDataList(final String dataAttribute)
-    public synchronized String[][] getDataList(final int row, final String dataAttribute)
-    public synchronized String[][] getDataList(final int row, final String dataAttribute, final String keyAttributeName, final String displayAttribute)
-    public synchronized String[][] getDataList(final int row, final String dataAttribute, final String displayAttribute)
-    '''
-def getDataListFromMboSetRemote():
-    '''public synchronized String[][] getDataListFromMboSetRemote(final MboSetRemote setRemote, String dataAttribute, String displayAttribute)
+    '''returns MboSetRemote\n\n
+    getRemoteForLookup()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def validateMbo():
-    '''public void validateMbo()
+    '''returns None\n\n
+    validateMbo()\n
     '''
 def validateChildren():
-    '''public void validateChildren()
+    '''returns None\n\n
+    validateChildren()\n
     '''
 def checkAndDistributeRequiredError():
-    '''public MXException checkAndDistributeRequiredError(final MXException mxe)
+    '''returns MXException\n\n
+    checkAndDistributeRequiredError(final MXException mxe)\n
     '''
 def handleRequiredFieldException():
-    '''public void handleRequiredFieldException(MXRequiredFieldException requiredFieldException, final WebClientEvent event)
-    '''
-def save():
-    '''public synchronized void save()
-    public synchronized void save(final MboRemote mbo)
+    '''returns None\n\n
+    handleRequiredFieldException(MXRequiredFieldException requiredFieldException, final WebClientEvent event)\n
     '''
 def checkForAppError():
-    '''public void checkForAppError()
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    checkForAppError()\n
     '''
 def canCloseBean():
-    '''public boolean canCloseBean()
+    '''returns boolean\n\n
+    canCloseBean()\n
     '''
 def hasSameMboSet():
-    '''public boolean hasSameMboSet(final DataBean bean)
+    '''returns boolean\n\n
+    hasSameMboSet(final DataBean bean)\n
     '''
 def addDialogReference():
-    '''public void addDialogReference()
+    '''returns None\n\n
+    addDialogReference()\n
     '''
 def removeDialogReference():
-    '''public void removeDialogReference()
+    '''returns None\n\n
+    removeDialogReference()\n
     '''
 def close():
-    '''public void close()
-    '''
-def setCurrentRow():
-    '''public synchronized boolean setCurrentRow(final int nRow)
+    '''returns None\n\n
+    close()\n
     '''
 def getCurrentRow():
-    '''public int getCurrentRow()
-    '''
-def next():
-    '''public synchronized boolean next()
-    '''
-def previous():
-    '''public synchronized boolean previous()
-    '''
-def insert():
-    '''public synchronized void insert(final int nRow)
-    public synchronized void insert()
-    '''
-def insertAtEnd():
-    '''public synchronized void insertAtEnd()
-    '''
-def delete():
-    '''public synchronized void delete()
-    public synchronized void delete(final int nRow)
-    '''
-def deleteAndRemove():
-    '''public synchronized void deleteAndRemove()
-    public synchronized void deleteAndRemove(final int nRow)
-    '''
-def undelete():
-    '''public synchronized void undelete()
-    public synchronized void undelete(final int nRow)
-    '''
-def setDefaultValue():
-    '''public synchronized void setDefaultValue(final String attribute, final MboRemote value)
-    public synchronized void setDefaultValue(final String attribute, final String value)
-    '''
-def setUserDefaults():
-    '''public synchronized void setUserDefaults()
-    '''
-def getDefaultValue():
-    '''public synchronized String getDefaultValue(final String attribute)
-    '''
-def setValue():
-    '''public synchronized void setValue(final String attribute, final String value)
-    public synchronized void setValue(final int nRow, final String attribute, final String value)
-    public synchronized void setValue(final String attribute, final String value, final long accessModifier)
-    public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-    public synchronized void setValue(final String attribute, final MboRemote mboRemote)
-    public synchronized void setValue(final int row, final String attribute, final MboRemote mboRemote)
-    public synchronized void setValue(final String attribute, final MboSetRemote mboSetRemote)
-    '''
-def setDate():
-    '''public synchronized void setDate(final String controlId, final String attribute, final Date value)
-    public synchronized void setDate(final String componentId, final Date value)
-    public synchronized void setDate(final BoundComponentInstance boundComponent, final Date value)
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final String lookupValue)
-    public synchronized int returnLookupValue(final String componentId, final MboRemote lookupMbo)
-    public synchronized int returnLookupValue(final MboRemote lookupMbo)
-    public synchronized int returnLookupValue(final MboSetRemote lookupMboSet)
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo()
-    public synchronized MboRemote getMbo(final int row)
-    '''
-def duplicateMbo():
-    '''public synchronized boolean duplicateMbo()
+    '''returns int\n\n
+    getCurrentRow()\n
     '''
 def getDataAsArray():
-    '''public String[][] getDataAsArray()
-    public String[][] getDataAsArray(final String[] attributeNames)
+    '''returns String[][]\n\n
+    getDataAsArray()\n
+    getDataAsArray(final String[] attributeNames)\n
     '''
 def getSelectedDataAsArray():
-    '''public String[][] getSelectedDataAsArray()
-    public String[][] getSelectedDataAsArray(final String[] attributeNames)
+    '''returns String[][]\n\n
+    getSelectedDataAsArray()\n
+    getSelectedDataAsArray(final String[] attributeNames)\n
     '''
 def propagateRequired():
-    '''public void propagateRequired()
+    '''returns None\n\n
+    propagateRequired()\n
     '''
 def retainPosition():
-    '''public void retainPosition()
+    '''returns None\n\n
+    retainPosition()\n
     '''
 def fetchTableData():
-    '''public int fetchTableData()
-    public synchronized int fetchTableData(final int startingRow)
-    '''
-def fetchRecordData():
-    '''public synchronized boolean fetchRecordData()
-    '''
-def getMboSetData():
-    '''public synchronized MboSetData getMboSetData(final int row, final int count, final String[] attributeNames)
+    '''returns int\n\n
+    fetchTableData()\n
     '''
 def hasLongDescriptionText():
-    '''public boolean hasLongDescriptionText(final int row, final String attribute)
-    public boolean hasLongDescriptionText(final String attribute)
+    '''returns boolean\n\n
+    hasLongDescriptionText(final int row, final String attribute)\n
+    hasLongDescriptionText(final String attribute)\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def isRowDeleted():
-    '''public boolean isRowDeleted(int row)
+    '''returns boolean\n\n
+    isRowDeleted(int row)\n
     '''
 def isModifiedRow():
-    '''public boolean isModifiedRow()
-    public boolean isModifiedRow(int row)
+    '''returns boolean\n\n
+    isModifiedRow()\n
+    isModifiedRow(int row)\n
     '''
 def hasRow():
-    '''public boolean hasRow(final int row)
+    '''returns boolean\n\n
+    hasRow(final int row)\n
     '''
 def isNewRow():
-    '''public boolean isNewRow()
-    public boolean isNewRow(int row)
+    '''returns boolean\n\n
+    isNewRow()\n
+    isNewRow(int row)\n
     '''
 def valueBound():
-    '''public void valueBound(final HttpSessionBindingEvent event)
+    '''returns None\n\n
+    valueBound(final HttpSessionBindingEvent event)\n
     '''
 def valueUnbound():
-    '''public void valueUnbound(final HttpSessionBindingEvent event)
-    '''
-def select():
-    '''public synchronized void select(final int row)
-    public synchronized void select(final int startIndex, final int count)
-    '''
-def unselect():
-    '''public synchronized void unselect(final int row)
-    public synchronized void unselect(final int startIndex, final int count)
-    '''
-def isSelected():
-    '''public synchronized boolean isSelected(int row)
-    '''
-def getSelection():
-    '''public synchronized Vector<MboRemote> getSelection()
-    '''
-def selectAll():
-    '''public synchronized void selectAll()
-    '''
-def unselectAll():
-    '''public synchronized void unselectAll()
-    '''
-def selectRows():
-    '''public synchronized void selectRows(final Vector<MboRemote> selectMboRows, final Vector<MboRemote> unselectMboRows)
-    '''
-def resetWithSelection():
-    '''public synchronized void resetWithSelection()
-    '''
-def sort():
-    '''public synchronized void sort()
-    public synchronized void sort(final String sOrderByClause)
+    '''returns None\n\n
+    valueUnbound(final HttpSessionBindingEvent event)\n
     '''
 def isColumnSorted():
-    '''public int isColumnSorted(final String componentId)
-    '''
-def isEmpty():
-    '''public synchronized boolean isEmpty()
-    '''
-def notExist():
-    '''public synchronized boolean notExist()
-    '''
-def getCompleteWhere():
-    '''public synchronized String getCompleteWhere()
-    '''
-def checkMethodAccess():
-    '''public synchronized boolean checkMethodAccess(final String methodName)
-    '''
-def needToAuthenticate():
-    '''public synchronized boolean needToAuthenticate(final SessionContext sc, String option)
+    '''returns int\n\n
+    isColumnSorted(final String componentId)\n
     '''
 def setShowDetails():
-    '''public void setShowDetails(final boolean b)
+    '''returns None\n\n
+    setShowDetails(final boolean b)\n
     '''
 def setRemoveOnCancel():
-    '''public void setRemoveOnCancel(final int row)
+    '''returns None\n\n
+    setRemoveOnCancel(final int row)\n
     '''
 def getLastFetchIndex():
-    '''public int getLastFetchIndex()
+    '''returns int\n\n
+    getLastFetchIndex()\n
     '''
 def getEndRow():
-    '''public int getEndRow()
+    '''returns int\n\n
+    getEndRow()\n
     '''
 def getCacheRowIndex():
-    '''public int getCacheRowIndex(final int rowDataBeanIndex)
+    '''returns int\n\n
+    getCacheRowIndex(final int rowDataBeanIndex)\n
     '''
 def getMboRowIndex():
-    '''public int getMboRowIndex(final int tableRow)
+    '''returns int\n\n
+    getMboRowIndex(final int tableRow)\n
     '''
 def getPageStartIndex():
-    '''public int getPageStartIndex()
+    '''returns int\n\n
+    getPageStartIndex()\n
     '''
 def getRowIndexFromEvent():
-    '''public int getRowIndexFromEvent(final WebClientEvent event)
+    '''returns int\n\n
+    getRowIndexFromEvent(final WebClientEvent event)\n
     '''
 def hasPageRows():
-    '''public boolean hasPageRows()
+    '''returns boolean\n\n
+    hasPageRows()\n
     '''
 def removeRowOnCancel():
-    '''public boolean removeRowOnCancel(final int row)
+    '''returns boolean\n\n
+    removeRowOnCancel(final int row)\n
     '''
 def isTableRowSelected():
-    '''public boolean isTableRowSelected(final int row)
+    '''returns boolean\n\n
+    isTableRowSelected(final int row)\n
     '''
 def getShowDetails():
-    '''public boolean getShowDetails()
+    '''returns boolean\n\n
+    getShowDetails()\n
     '''
 def getPageEndRow():
-    '''public int getPageEndRow()
+    '''returns int\n\n
+    getPageEndRow()\n
     '''
 def getPageRowCount():
-    '''public int getPageRowCount()
+    '''returns int\n\n
+    getPageRowCount()\n
     '''
 def setfiltervalue():
-    '''public int setfiltervalue()
+    '''returns int\n\n
+    setfiltervalue()\n
     '''
 def applyValuesToSharedAttributes():
-    '''public boolean applyValuesToSharedAttributes(final ComponentInstance component, final String value)
-    public void applyValuesToSharedAttributes(final ComponentInstance component)
+    '''returns None\n\n
+    applyValuesToSharedAttributes(final ComponentInstance component, final String value)\n
+    applyValuesToSharedAttributes(final ComponentInstance component)\n
     '''
 def setValueFromComponent():
-    '''public void setValueFromComponent(final BoundComponentInstance changedComponent, final WebClientEvent event, String newValue)
+    '''returns None\n\n
+    setValueFromComponent(final BoundComponentInstance changedComponent, final WebClientEvent event, String newValue)\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def refreshFieldErrors():
-    '''public void refreshFieldErrors()
+    '''returns None\n\n
+    refreshFieldErrors()\n
     '''
 def getNullRequiedFields():
-    '''public List<ERMAttributeError> getNullRequiedFields()
+    '''returns List<ERMAttributeError>\n\n
+    getNullRequiedFields()\n
     '''
 def displaycount():
-    '''public String displaycount()
+    '''returns String\n\n
+    displaycount()\n
     '''
 def copytonewrow():
-    '''public int copytonewrow()
+    '''returns int\n\n
+    copytonewrow()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def scrollnext():
-    '''public int scrollnext()
+    '''returns int\n\n
+    scrollnext()\n
     '''
 def scrollprev():
-    '''public int scrollprev()
+    '''returns int\n\n
+    scrollprev()\n
     '''
 def nextrow():
-    '''public int nextrow()
+    '''returns int\n\n
+    nextrow()\n
     '''
 def prevrow():
-    '''public int prevrow()
+    '''returns int\n\n
+    prevrow()\n
     '''
 def toggledetailstate():
-    '''public int toggledetailstate(final boolean open)
+    '''returns int\n\n
+    toggledetailstate(final boolean open)\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''
 def highlightrow():
-    '''public int highlightrow()
-    public int highlightrow(final int row)
+    '''returns int\n\n
+    highlightrow()\n
+    highlightrow(final int row)\n
     '''
 def toggleselectrow():
-    '''public int toggleselectrow()
+    '''returns int\n\n
+    toggleselectrow()\n
     '''
 def toggleselectallrows():
-    '''public int toggleselectallrows()
+    '''returns int\n\n
+    toggleselectallrows()\n
     '''
 def sortcolumn():
-    '''public int sortcolumn()
-    public int sortcolumn(final String sortString)
+    '''returns int\n\n
+    sortcolumn()\n
+    sortcolumn(final String sortString)\n
     '''
 def instantdelete():
-    '''public int instantdelete()
+    '''returns int\n\n
+    instantdelete()\n
     '''
 def filterrows():
-    '''public int filterrows()
+    '''returns int\n\n
+    filterrows()\n
     '''
 def clearfilter():
-    '''public int clearfilter()
+    '''returns int\n\n
+    clearfilter()\n
     '''
 def isTableStateFlagSet():
-    '''public boolean isTableStateFlagSet(final long flag)
+    '''returns boolean\n\n
+    isTableStateFlagSet(final long flag)\n
     '''
 def getTableStateFlags():
-    '''public BitFlag getTableStateFlags()
+    '''returns BitFlag\n\n
+    getTableStateFlags()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def resetJSPFlags():
-    '''public void resetJSPFlags()
+    '''returns None\n\n
+    resetJSPFlags()\n
     '''
 def getEventRowIndex():
-    '''public int getEventRowIndex()
+    '''returns int\n\n
+    getEventRowIndex()\n
     '''
 def setEventRowIndex():
-    '''public void setEventRowIndex(final int i)
+    '''returns None\n\n
+    setEventRowIndex(final int i)\n
     '''
 def getLastEventHandled():
-    '''public WebClientEvent getLastEventHandled()
+    '''returns WebClientEvent\n\n
+    getLastEventHandled()\n
     '''
 def setLastEventHandled():
-    '''public void setLastEventHandled(final WebClientEvent event)
+    '''returns None\n\n
+    setLastEventHandled(final WebClientEvent event)\n
     '''
 def setTableFlag():
-    '''public void setTableFlag(final long flag, final boolean value)
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    setTableFlag(final long flag, final boolean value)\n
     '''
 def callMethod():
-    '''public int callMethod(final WebClientEvent event)
-    public int callMethod(final String methodName, final WebClientEvent event)
-    public int callMethod(final WebClientEvent event, final Class<?>[] paramTypes, final Object[] params)
-    public int callMethod(final String methodName, final WebClientEvent event, final Class<?>[] paramTypes, final Object[] params)
+    '''returns int\n\n
+    callMethod(final WebClientEvent event)\n
+    callMethod(final String methodName, final WebClientEvent event)\n
+    callMethod(final WebClientEvent event, final Class<?>[] paramTypes, final Object[] params)\n
+    callMethod(final String methodName, final WebClientEvent event, final Class<?>[] paramTypes, final Object[] params)\n
     '''
 def findAndCallMethod():
-    '''public int findAndCallMethod(final WebClientEvent event, final DataBean datasrc, final String method, final Class<?>[] paramTypes, final Object[] params)
+    '''returns int\n\n
+    findAndCallMethod(final WebClientEvent event, final DataBean datasrc, final String method, final Class<?>[] paramTypes, final Object[] params)\n
     '''
 def callRemoteMethod():
-    '''public int callRemoteMethod(final String method)
-    public int callRemoteMethod(final String method, final Class<?>[] paramTypes, final Object[] params)
+    '''returns int\n\n
+    callRemoteMethod(final String method)\n
+    callRemoteMethod(final String method, final Class<?>[] paramTypes, final Object[] params)\n
     '''
 def callBeanMethod():
-    '''public int callBeanMethod(final WebClientEvent event)
-    public int callBeanMethod(final String method, final WebClientEvent event)
-    public int callBeanMethod(final WebClientEvent event, final Class<?>[] paramTypes, final Object[] params)
-    public int callBeanMethod(final String method, final WebClientEvent event, final Class<?>[] paramTypes, final Object[] params)
+    '''returns int\n\n
+    callBeanMethod(final WebClientEvent event)\n
+    callBeanMethod(final String method, final WebClientEvent event)\n
+    callBeanMethod(final WebClientEvent event, final Class<?>[] paramTypes, final Object[] params)\n
+    callBeanMethod(final String method, final WebClientEvent event, final Class<?>[] paramTypes, final Object[] params)\n
     '''
 def getReturnAttribute():
-    '''public String getReturnAttribute()
+    '''returns String\n\n
+    getReturnAttribute()\n
     '''
 def setReturnAttribute():
-    '''public void setReturnAttribute(final String string)
+    '''returns None\n\n
+    setReturnAttribute(final String string)\n
     '''
 def getReturnControlId():
-    '''public String getReturnControlId()
+    '''returns String\n\n
+    getReturnControlId()\n
     '''
 def getReturnComponentId():
-    '''public String getReturnComponentId()
+    '''returns String\n\n
+    getReturnComponentId()\n
     '''
 def setReturnControlId():
-    '''public void setReturnControlId(final String string)
+    '''returns None\n\n
+    setReturnControlId(final String string)\n
     '''
 def setReturnComponentId():
-    '''public void setReturnComponentId(final String id)
+    '''returns None\n\n
+    setReturnComponentId(final String id)\n
     '''
 def setReturnComponent():
-    '''public void setReturnComponent(final ComponentInstance comp)
+    '''returns None\n\n
+    setReturnComponent(final ComponentInstance comp)\n
     '''
 def getReturnComponent():
-    '''public ComponentInstance getReturnComponent()
+    '''returns ComponentInstance\n\n
+    getReturnComponent()\n
     '''
 def handleRemoteException():
-    '''public void handleRemoteException(final RemoteException e)
+    '''returns None\n\n
+    handleRemoteException(final RemoteException e)\n
     '''
 def turnEmptyStateOn():
-    '''public void turnEmptyStateOn()
+    '''returns None\n\n
+    turnEmptyStateOn()\n
     '''
 def getMboForUniqueId():
-    '''public MboRemote getMboForUniqueId(final long uid)
+    '''returns MboRemote\n\n
+    getMboForUniqueId(final long uid)\n
     '''
 def getUniqueIdValue():
-    '''public long getUniqueIdValue()
+    '''returns long\n\n
+    getUniqueIdValue()\n
     '''
 def getUniqueIdName():
-    '''public String getUniqueIdName()
+    '''returns String\n\n
+    getUniqueIdName()\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final int row, final String attribute, final String value, final boolean exactMatch)
-    public MboSetRemote smartFill(final String attribute, final String value, final boolean exactMatch)
+    '''returns MboSetRemote\n\n
+    smartFill(final int row, final String attribute, final String value, final boolean exactMatch)\n
+    smartFill(final String attribute, final String value, final boolean exactMatch)\n
     '''
 def getUniqueIdFromSmartFill():
-    '''public long getUniqueIdFromSmartFill(final String attribute, final String value)
-    public long getUniqueIdFromSmartFill(final String applicName, final String attribute, final String value)
+    '''returns long\n\n
+    getUniqueIdFromSmartFill(final String attribute, final String value)\n
+    getUniqueIdFromSmartFill(final String applicName, final String attribute, final String value)\n
     '''
 def refreshTable():
-    '''public void refreshTable()
+    '''returns None\n\n
+    refreshTable()\n
     '''
 def reloadTable():
-    '''public void reloadTable()
+    '''returns None\n\n
+    reloadTable()\n
     '''
 def getSmartFillValue():
-    '''public String getSmartFillValue()
+    '''returns String\n\n
+    getSmartFillValue()\n
     '''
 def setSmartFillValue():
-    '''public void setSmartFillValue(final String smartFillValue)
+    '''returns None\n\n
+    setSmartFillValue(final String smartFillValue)\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(String option)
-    '''
-def setEsigValidated():
-    '''public synchronized void setEsigValidated(final boolean validated)
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def getDescAttributeId():
-    '''public String getDescAttributeId()
+    '''returns String\n\n
+    getDescAttributeId()\n
     '''
 def setDescAttributeId():
-    '''public void setDescAttributeId(final String string)
+    '''returns None\n\n
+    setDescAttributeId(final String string)\n
     '''
 def setPageRowCount():
-    '''public void setPageRowCount(final int rowCount)
+    '''returns None\n\n
+    setPageRowCount(final int rowCount)\n
     '''
 def _useAllRecsQuery():
-    '''public int _useAllRecsQuery()
+    '''returns int\n\n
+    _useAllRecsQuery()\n
     '''
 def useAllRecsQuery():
-    '''public int useAllRecsQuery()
+    '''returns int\n\n
+    useAllRecsQuery()\n
     '''
 def _useAllBookmarksQuery():
-    '''public int _useAllBookmarksQuery()
+    '''returns int\n\n
+    _useAllBookmarksQuery()\n
     '''
 def useAllBookmarksQuery():
-    '''public int useAllBookmarksQuery()
+    '''returns int\n\n
+    useAllBookmarksQuery()\n
     '''
 def _usequery():
-    '''public int _usequery()
+    '''returns int\n\n
+    _usequery()\n
     '''
 def usequery():
-    '''public int usequery()
+    '''returns int\n\n
+    usequery()\n
     '''
 def useQuery():
-    '''public void useQuery(final String queryName)
+    '''returns None\n\n
+    useQuery(final String queryName)\n
     '''
 def sqlwhere():
-    '''public int sqlwhere()
+    '''returns int\n\n
+    sqlwhere()\n
     '''
 def useqbe():
-    '''public int useqbe()
+    '''returns int\n\n
+    useqbe()\n
     '''
 def queryAllRecs():
-    '''public void queryAllRecs()
+    '''returns None\n\n
+    queryAllRecs()\n
     '''
 def queryAllBookmarks():
-    '''public void queryAllBookmarks()
+    '''returns None\n\n
+    queryAllBookmarks()\n
     '''
 def getCurrentQueryName():
-    '''public String getCurrentQueryName()
+    '''returns String\n\n
+    getCurrentQueryName()\n
     '''
 def clearBean():
-    '''public void clearBean()
+    '''returns None\n\n
+    clearBean()\n
     '''
 def setQueryBySiteQbe():
-    '''public void setQueryBySiteQbe()
+    '''returns None\n\n
+    setQueryBySiteQbe()\n
     '''
 def getWarnings():
-    '''public MXException[] getWarnings()
+    '''returns MXException[]\n\n
+    getWarnings()\n
     '''
 def moveToMboFromDataBean():
-    '''public boolean moveToMboFromDataBean(final DataBean dataBean, final String dataAttribute)
+    '''returns boolean\n\n
+    moveToMboFromDataBean(final DataBean dataBean, final String dataAttribute)\n
     '''
 def hierarchicalmove():
-    '''public int hierarchicalmove()
+    '''returns int\n\n
+    hierarchicalmove()\n
     '''
 def getTableOffset():
-    '''public int getTableOffset()
+    '''returns int\n\n
+    getTableOffset()\n
     '''
 def getSortOrder():
-    '''public String getSortOrder(final String sortAttribute)
+    '''returns String\n\n
+    getSortOrder(final String sortAttribute)\n
     '''
 def addSigOption():
-    '''public void addSigOption(final String sigoption)
+    '''returns None\n\n
+    addSigOption(final String sigoption)\n
     '''
 def addConditionalProperties():
-    '''public void addConditionalProperties(final String sigOption, final int row, final HashMap<String, String> properties)
-    '''
-def getConditionalProperties():
-    '''public HashMap<String, String> getConditionalProperties(final int row, String sigOption)
+    '''returns None\n\n
+    addConditionalProperties(final String sigOption, final int row, final HashMap<String, String> properties)\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final String sigOption)
-    public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final String sigOption)\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
     '''
 def getMboSetFromSmartFind():
-    '''public MboSetRemote getMboSetFromSmartFind(final int row, final String attribute)
-    public MboSetRemote getMboSetFromSmartFind(final String attribute)
-    public MboSetRemote getMboSetFromSmartFind(final String app, final String attribute)
+    '''returns MboSetRemote\n\n
+    getMboSetFromSmartFind(final int row, final String attribute)\n
+    getMboSetFromSmartFind(final String attribute)\n
+    getMboSetFromSmartFind(final String app, final String attribute)\n
     '''
 def canFetchData():
-    '''public boolean canFetchData()
+    '''returns boolean\n\n
+    canFetchData()\n
     '''
 def getRemoteForDownload():
-    '''public MboSetRemote getRemoteForDownload()
+    '''returns MboSetRemote\n\n
+    getRemoteForDownload()\n
     '''
 def isSubSelect():
-    '''public boolean isSubSelect()
+    '''returns boolean\n\n
+    isSubSelect()\n
     '''
 def setDynamicAppDefaults():
-    '''public void setDynamicAppDefaults(final MboRemote mbo)
+    '''returns None\n\n
+    setDynamicAppDefaults(final MboRemote mbo)\n
     '''
 def setDynamicDefault():
-    '''public void setDynamicDefault(final String attribute, final DataBean frmDataBean, final String frmAttribute, final String defaultType)
-    '''
-def setDynamicQbeDefaults():
-    '''public synchronized void setDynamicQbeDefaults()
+    '''returns None\n\n
+    setDynamicDefault(final String attribute, final DataBean frmDataBean, final String frmAttribute, final String defaultType)\n
     '''
 def changeRequiredField():
-    '''public boolean changeRequiredField(int row, String attribute, final boolean required)
+    '''returns boolean\n\n
+    changeRequiredField(int row, String attribute, final boolean required)\n
     '''
 def getQueryNameBeforeReviseAction():
-    '''public String getQueryNameBeforeReviseAction()
+    '''returns String\n\n
+    getQueryNameBeforeReviseAction()\n
     '''
 def setQueryNameBeforeReviseAction():
-    '''public void setQueryNameBeforeReviseAction(final String queryName)
+    '''returns None\n\n
+    setQueryNameBeforeReviseAction(final String queryName)\n
     '''
 def getQueryDescBeforeReviseAction():
-    '''public String getQueryDescBeforeReviseAction()
+    '''returns String\n\n
+    getQueryDescBeforeReviseAction()\n
     '''
 def setQueryDescBeforeReviseAction():
-    '''public void setQueryDescBeforeReviseAction(final String queryDesc)
+    '''returns None\n\n
+    setQueryDescBeforeReviseAction(final String queryDesc)\n
     '''
 def setEmptyOnClear():
-    '''public void setEmptyOnClear(final boolean emptyOnClear)
+    '''returns None\n\n
+    setEmptyOnClear(final boolean emptyOnClear)\n
     '''
 def asyncLocked():
-    '''public boolean asyncLocked()
+    '''returns boolean\n\n
+    asyncLocked()\n
     '''
 def setAsyncLock():
-    '''public void setAsyncLock(final boolean asyncLock)
+    '''returns None\n\n
+    setAsyncLock(final boolean asyncLock)\n
     '''
 def madeRequiredConditionally():
-    '''public boolean madeRequiredConditionally(String attribute)
+    '''returns boolean\n\n
+    madeRequiredConditionally(String attribute)\n
     '''
 def isListTableModified():
-    '''public boolean isListTableModified()
+    '''returns boolean\n\n
+    isListTableModified()\n
     '''
 def setListTableModified():
-    '''public void setListTableModified(final boolean inChange)
+    '''returns None\n\n
+    setListTableModified(final boolean inChange)\n
     '''
 def isListTableRetain():
-    '''public boolean isListTableRetain()
+    '''returns boolean\n\n
+    isListTableRetain()\n
     '''
 def setListTableRetain():
-    '''public void setListTableRetain(final boolean inRetain)
+    '''returns None\n\n
+    setListTableRetain(final boolean inRetain)\n
     '''
 def getCurrentQueryDescription():
-    '''public String getCurrentQueryDescription()
+    '''returns String\n\n
+    getCurrentQueryDescription()\n
     '''
 def setCurrentQueryDescription():
-    '''public void setCurrentQueryDescription(final String queryDescription)
+    '''returns None\n\n
+    setCurrentQueryDescription(final String queryDescription)\n
     '''
 def boundToTable():
-    '''public boolean boundToTable()
+    '''returns boolean\n\n
+    boundToTable()\n
     '''
 def setApplicationError():
-    '''public void setApplicationError(final String dataAttribute, int row, final ApplicationError error)
+    '''returns None\n\n
+    setApplicationError(final String dataAttribute, int row, final ApplicationError error)\n
     '''
 def buildPortalMsg():
-    '''public String buildPortalMsg(final String attribute, final String newValue)
+    '''returns String\n\n
+    buildPortalMsg(final String attribute, final String newValue)\n
     '''
 def rePosition():
-    '''public boolean rePosition()
+    '''returns boolean\n\n
+    rePosition()\n
     '''
 def isAppTableRetain():
-    '''public boolean isAppTableRetain()
+    '''returns boolean\n\n
+    isAppTableRetain()\n
     '''
 def positionState():
-    '''public void positionState()
+    '''returns None\n\n
+    positionState()\n
     '''
 def markTablePosition():
-    '''public void markTablePosition(final boolean inFlg)
+    '''returns None\n\n
+    markTablePosition(final boolean inFlg)\n
     '''
 def isTablePostionMarked():
-    '''public boolean isTablePostionMarked()
+    '''returns boolean\n\n
+    isTablePostionMarked()\n
     '''
 def getUIERMEntity():
-    '''public UIERMEntity getUIERMEntity()
+    '''returns UIERMEntity\n\n
+    getUIERMEntity()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def registerDynamicControlsWithERM():
-    '''public void registerDynamicControlsWithERM(final List<ControlInstance> controls)
+    '''returns None\n\n
+    registerDynamicControlsWithERM(final List<ControlInstance> controls)\n
     '''
 def getLockedByDisplayName():
-    '''public String getLockedByDisplayName(final int row)
+    '''returns String\n\n
+    getLockedByDisplayName(final int row)\n
     '''
 def isRowLocked():
-    '''public boolean isRowLocked(final int row)
+    '''returns boolean\n\n
+    isRowLocked(final int row)\n
     '''
 def isLookupMultiSelect():
-    '''public boolean isLookupMultiSelect(final BoundComponentInstance boundComponentInstance, final boolean isQueryInput)
-    '''
-def getSavedFilterSettings():
-    '''public Hashtable<String, String> getSavedFilterSettings()
+    '''returns boolean\n\n
+    isLookupMultiSelect(final BoundComponentInstance boundComponentInstance, final boolean isQueryInput)\n
     '''
 def getParentRelationship():
-    '''public String getParentRelationship()
+    '''returns String\n\n
+    getParentRelationship()\n
     '''

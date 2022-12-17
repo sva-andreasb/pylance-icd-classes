@@ -1,5 +1,6 @@
-def JaxenException():
-    '''public JaxenException(final String message)
-    public JaxenException(final Throwable rootCause)
-    public JaxenException(final String message, final Throwable nestedException)
+def ():
+    '''returns JaxenException\n\n
+    (final String message)\n
+    (final Throwable rootCause)\n
+    (final String message, final Throwable nestedException)\n
     '''

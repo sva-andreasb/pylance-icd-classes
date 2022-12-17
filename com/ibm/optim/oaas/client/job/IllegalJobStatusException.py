@@ -1,5 +1,6 @@
-def IllegalJobStatusException():
-    '''public IllegalJobStatusException(final Object[] params, final OperationException e)
-    public IllegalJobStatusException(final String jobID, final JobExecutionStatus jobStatus)
-    public IllegalJobStatusException(final String jobID, final String jobStatus)
+def ():
+    '''returns IllegalJobStatusException\n\n
+    (final Object[] params, final OperationException e)\n
+    (final String jobID, final JobExecutionStatus jobStatus)\n
+    (final String jobID, final String jobStatus)\n
     '''

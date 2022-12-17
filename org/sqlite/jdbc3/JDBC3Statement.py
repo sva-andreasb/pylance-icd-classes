@@ -1,101 +1,132 @@
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def execute():
-    '''public boolean execute(final String sql)
-    public boolean execute(final String sql, final int[] colinds)
-    public boolean execute(final String sql, final String[] colnames)
-    public boolean execute(final String sql, final int autokeys)
+    '''returns boolean\n\n
+    execute(final String sql)\n
+    execute(final String sql, final int[] colinds)\n
+    execute(final String sql, final String[] colnames)\n
+    execute(final String sql, final int autokeys)\n
     '''
 def executeQuery():
-    '''public ResultSet executeQuery(final String sql, final boolean closeStmt)
-    public ResultSet executeQuery(final String sql)
+    '''returns ResultSet\n\n
+    executeQuery(final String sql, final boolean closeStmt)\n
+    executeQuery(final String sql)\n
     '''
 def executeUpdate():
-    '''public int executeUpdate(final String sql)
-    public int executeUpdate(final String sql, final int autoKeys)
-    public int executeUpdate(final String sql, final int[] colinds)
-    public int executeUpdate(final String sql, final String[] cols)
+    '''returns int\n\n
+    executeUpdate(final String sql)\n
+    executeUpdate(final String sql, final int autoKeys)\n
+    executeUpdate(final String sql, final int[] colinds)\n
+    executeUpdate(final String sql, final String[] cols)\n
     '''
 def getResultSet():
-    '''public ResultSet getResultSet()
+    '''returns ResultSet\n\n
+    getResultSet()\n
     '''
 def getUpdateCount():
-    '''public int getUpdateCount()
+    '''returns int\n\n
+    getUpdateCount()\n
     '''
 def addBatch():
-    '''public void addBatch(final String sql)
+    '''returns None\n\n
+    addBatch(final String sql)\n
     '''
 def clearBatch():
-    '''public void clearBatch()
+    '''returns None\n\n
+    clearBatch()\n
     '''
 def executeBatch():
-    '''public int[] executeBatch()
+    '''returns int[]\n\n
+    executeBatch()\n
     '''
 def setCursorName():
-    '''public void setCursorName(final String name)
+    '''returns None\n\n
+    setCursorName(final String name)\n
     '''
 def getWarnings():
-    '''public SQLWarning getWarnings()
+    '''returns SQLWarning\n\n
+    getWarnings()\n
     '''
 def clearWarnings():
-    '''public void clearWarnings()
+    '''returns None\n\n
+    clearWarnings()\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def getQueryTimeout():
-    '''public int getQueryTimeout()
+    '''returns int\n\n
+    getQueryTimeout()\n
     '''
 def setQueryTimeout():
-    '''public void setQueryTimeout(final int seconds)
+    '''returns None\n\n
+    setQueryTimeout(final int seconds)\n
     '''
 def getMaxRows():
-    '''public int getMaxRows()
+    '''returns int\n\n
+    getMaxRows()\n
     '''
 def setMaxRows():
-    '''public void setMaxRows(final int max)
+    '''returns None\n\n
+    setMaxRows(final int max)\n
     '''
 def getMaxFieldSize():
-    '''public int getMaxFieldSize()
+    '''returns int\n\n
+    getMaxFieldSize()\n
     '''
 def setMaxFieldSize():
-    '''public void setMaxFieldSize(final int max)
+    '''returns None\n\n
+    setMaxFieldSize(final int max)\n
     '''
 def getFetchSize():
-    '''public int getFetchSize()
+    '''returns int\n\n
+    getFetchSize()\n
     '''
 def setFetchSize():
-    '''public void setFetchSize(final int r)
+    '''returns None\n\n
+    setFetchSize(final int r)\n
     '''
 def getFetchDirection():
-    '''public int getFetchDirection()
+    '''returns int\n\n
+    getFetchDirection()\n
     '''
 def setFetchDirection():
-    '''public void setFetchDirection(final int d)
+    '''returns None\n\n
+    setFetchDirection(final int d)\n
     '''
 def getGeneratedKeys():
-    '''public ResultSet getGeneratedKeys()
+    '''returns ResultSet\n\n
+    getGeneratedKeys()\n
     '''
 def getMoreResults():
-    '''public boolean getMoreResults()
-    public boolean getMoreResults(final int c)
+    '''returns boolean\n\n
+    getMoreResults()\n
+    getMoreResults(final int c)\n
     '''
 def getResultSetConcurrency():
-    '''public int getResultSetConcurrency()
+    '''returns int\n\n
+    getResultSetConcurrency()\n
     '''
 def getResultSetHoldability():
-    '''public int getResultSetHoldability()
+    '''returns int\n\n
+    getResultSetHoldability()\n
     '''
 def getResultSetType():
-    '''public int getResultSetType()
+    '''returns int\n\n
+    getResultSetType()\n
     '''
 def setEscapeProcessing():
-    '''public void setEscapeProcessing(final boolean enable)
+    '''returns None\n\n
+    setEscapeProcessing(final boolean enable)\n
     '''
 def progress():
-    '''public void progress(final int remaining, final int pageCount)
+    '''returns None\n\n
+    progress(final int remaining, final int pageCount)\n
     '''

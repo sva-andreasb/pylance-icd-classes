@@ -1,27 +1,36 @@
-def UCharArrayIterator():
-    '''public UCharArrayIterator(final char[] text, final int start, final int limit)
+def ():
+    '''returns UCharArrayIterator\n\n
+    (final char[] text, final int start, final int limit)\n
     '''
 def current():
-    '''public int current()
+    '''returns int\n\n
+    current()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def previous():
-    '''public int previous()
+    '''returns int\n\n
+    previous()\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def getText():
-    '''public int getText(final char[] fillIn, final int offset)
+    '''returns int\n\n
+    getText(final char[] fillIn, final int offset)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

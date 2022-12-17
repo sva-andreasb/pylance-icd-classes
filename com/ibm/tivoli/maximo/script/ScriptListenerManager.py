@@ -1,22 +1,29 @@
-def ScriptListenerManager():
-    '''public ScriptListenerManager()
+def ():
+    '''returns ScriptListenerManager\n\n
+    ()\n
     '''
 def registerScriptAsListener():
-    '''public void registerScriptAsListener(final String scriptName, final ScriptLaunchPointInfo launchPointInfo)
+    '''returns None\n\n
+    registerScriptAsListener(final String scriptName, final ScriptLaunchPointInfo launchPointInfo)\n
     '''
 def fireNPSetupEvent():
-    '''public MboRemote fireNPSetupEvent(final NonPersistentMboSet npSet)
+    '''returns MboRemote\n\n
+    fireNPSetupEvent(final NonPersistentMboSet npSet)\n
     '''
 def fireNPExecuteEvent():
-    '''public void fireNPExecuteEvent(final NonPersistentMboSet npSet)
-    public void fireNPExecuteEvent(final NonPersistentMboSet npSet, final MboRemote mboToWorkOn)
+    '''returns None\n\n
+    fireNPExecuteEvent(final NonPersistentMboSet npSet)\n
+    fireNPExecuteEvent(final NonPersistentMboSet npSet, final MboRemote mboToWorkOn)\n
     '''
 def zombieInit():
-    '''public void zombieInit(final EventMessage msg)
+    '''returns None\n\n
+    zombieInit(final EventMessage msg)\n
     '''
 def unregisterAllListeners():
-    '''public void unregisterAllListeners()
+    '''returns None\n\n
+    unregisterAllListeners()\n
     '''
 def unregisterListeners():
-    '''public void unregisterListeners(final String scriptName, final boolean remove)
+    '''returns None\n\n
+    unregisterListeners(final String scriptName, final boolean remove)\n
     '''

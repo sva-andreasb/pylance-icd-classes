@@ -1,6 +1,8 @@
-def ExpandAllAction():
-    '''public ExpandAllAction(final IlvHierarchyChart chart)
+def ():
+    '''returns ExpandAllAction\n\n
+    (final IlvHierarchyChart chart)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

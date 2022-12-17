@@ -1,41 +1,51 @@
 def updateAllocator():
-    '''public void updateAllocator(final ByteBufAllocator allocator)
+    '''returns None\n\n
+    updateAllocator(final ByteBufAllocator allocator)\n
     '''
 def buffer():
-    '''public ByteBuf buffer()
-    public ByteBuf buffer(final int initialCapacity)
-    public ByteBuf buffer(final int initialCapacity, final int maxCapacity)
+    '''returns ByteBuf\n\n
+    buffer()\n
+    buffer(final int initialCapacity)\n
+    buffer(final int initialCapacity, final int maxCapacity)\n
     '''
 def ioBuffer():
-    '''public ByteBuf ioBuffer()
-    public ByteBuf ioBuffer(final int initialCapacity)
-    public ByteBuf ioBuffer(final int initialCapacity, final int maxCapacity)
+    '''returns ByteBuf\n\n
+    ioBuffer()\n
+    ioBuffer(final int initialCapacity)\n
+    ioBuffer(final int initialCapacity, final int maxCapacity)\n
     '''
 def heapBuffer():
-    '''public ByteBuf heapBuffer()
-    public ByteBuf heapBuffer(final int initialCapacity)
-    public ByteBuf heapBuffer(final int initialCapacity, final int maxCapacity)
+    '''returns ByteBuf\n\n
+    heapBuffer()\n
+    heapBuffer(final int initialCapacity)\n
+    heapBuffer(final int initialCapacity, final int maxCapacity)\n
     '''
 def directBuffer():
-    '''public ByteBuf directBuffer()
-    public ByteBuf directBuffer(final int initialCapacity)
-    public ByteBuf directBuffer(final int initialCapacity, final int maxCapacity)
+    '''returns ByteBuf\n\n
+    directBuffer()\n
+    directBuffer(final int initialCapacity)\n
+    directBuffer(final int initialCapacity, final int maxCapacity)\n
     '''
 def compositeBuffer():
-    '''public CompositeByteBuf compositeBuffer()
-    public CompositeByteBuf compositeBuffer(final int maxNumComponents)
+    '''returns CompositeByteBuf\n\n
+    compositeBuffer()\n
+    compositeBuffer(final int maxNumComponents)\n
     '''
 def compositeHeapBuffer():
-    '''public CompositeByteBuf compositeHeapBuffer()
-    public CompositeByteBuf compositeHeapBuffer(final int maxNumComponents)
+    '''returns CompositeByteBuf\n\n
+    compositeHeapBuffer()\n
+    compositeHeapBuffer(final int maxNumComponents)\n
     '''
 def compositeDirectBuffer():
-    '''public CompositeByteBuf compositeDirectBuffer()
-    public CompositeByteBuf compositeDirectBuffer(final int maxNumComponents)
+    '''returns CompositeByteBuf\n\n
+    compositeDirectBuffer()\n
+    compositeDirectBuffer(final int maxNumComponents)\n
     '''
 def isDirectBufferPooled():
-    '''public boolean isDirectBufferPooled()
+    '''returns boolean\n\n
+    isDirectBufferPooled()\n
     '''
 def calculateNewCapacity():
-    '''public int calculateNewCapacity(final int minNewCapacity, final int maxCapacity)
+    '''returns int\n\n
+    calculateNewCapacity(final int minNewCapacity, final int maxCapacity)\n
     '''

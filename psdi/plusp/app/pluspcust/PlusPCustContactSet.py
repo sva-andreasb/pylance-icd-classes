@@ -1,3 +1,4 @@
-def PlusPCustContactSet():
-    '''public PlusPCustContactSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustContactSet\n\n
+    (final MboServerInterface ms)\n
     '''

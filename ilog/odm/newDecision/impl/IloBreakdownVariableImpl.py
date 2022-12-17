@@ -1,43 +1,57 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloBreakdownVariableImpl():
-    '''public IloBreakdownVariableImpl(final String name, final Object explanation, final double value)
+def ():
+    '''returns IloBreakdownVariableImpl\n\n
+    (final String name, final Object explanation, final double value)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getParent():
-    '''public IloBreakdownVariable getParent()
+    '''returns IloBreakdownVariable\n\n
+    getParent()\n
     '''
 def getIdentifier():
-    '''public IloCompositeId getIdentifier()
+    '''returns IloCompositeId\n\n
+    getIdentifier()\n
     '''
 def getValue():
-    '''public Double getValue()
+    '''returns Double\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final double value)
+    '''returns None\n\n
+    setValue(final double value)\n
     '''
 def addEpsilon():
-    '''public void addEpsilon(final double value)
+    '''returns None\n\n
+    addEpsilon(final double value)\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def getFormattedExplanation():
-    '''public String getFormattedExplanation(final IloMessageParameterFormatter parameter)
+    '''returns String\n\n
+    getFormattedExplanation(final IloMessageParameterFormatter parameter)\n
     '''
 def addChild():
-    '''public void addChild(final IloBreakdownVariable v)
+    '''returns None\n\n
+    addChild(final IloBreakdownVariable v)\n
     '''
 def getChild():
-    '''public IloBreakdownVariable getChild(final String key)
+    '''returns IloBreakdownVariable\n\n
+    getChild(final String key)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def compare():
-    '''public int compare(final IloBreakdownVariable var1, final IloBreakdownVariable var2)
+    '''returns int\n\n
+    compare(final IloBreakdownVariable var1, final IloBreakdownVariable var2)\n
     '''
 def setParent():
-    '''public void setParent(final IloBreakdownVariable parent)
+    '''returns None\n\n
+    setParent(final IloBreakdownVariable parent)\n
     '''

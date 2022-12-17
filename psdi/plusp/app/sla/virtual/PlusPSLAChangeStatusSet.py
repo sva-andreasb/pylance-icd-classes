@@ -1,3 +1,4 @@
-def PlusPSLAChangeStatusSet():
-    '''public PlusPSLAChangeStatusSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPSLAChangeStatusSet\n\n
+    (final MboServerInterface arg0)\n
     '''

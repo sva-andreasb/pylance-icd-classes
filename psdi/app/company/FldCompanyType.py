@@ -1,6 +1,8 @@
-def FldCompanyType():
-    '''public FldCompanyType(final MboValue mv)
+def ():
+    '''returns FldCompanyType\n\n
+    (final MboValue mv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

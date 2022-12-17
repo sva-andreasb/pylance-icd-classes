@@ -1,43 +1,57 @@
-def JingleNegotiator():
-    '''public JingleNegotiator()
-    public JingleNegotiator(final JingleSession session)
+def ():
+    '''returns JingleNegotiator\n\n
+    ()\n
+    (final JingleSession session)\n
     '''
 def getNegotiatorState():
-    '''public JingleNegotiatorState getNegotiatorState()
+    '''returns JingleNegotiatorState\n\n
+    getNegotiatorState()\n
     '''
 def setNegotiatorState():
-    '''public void setNegotiatorState(final JingleNegotiatorState stateIs)
+    '''returns None\n\n
+    setNegotiatorState(final JingleNegotiatorState stateIs)\n
     '''
 def getConnection():
-    '''public XMPPConnection getConnection()
+    '''returns XMPPConnection\n\n
+    getConnection()\n
     '''
 def getSession():
-    '''public JingleSession getSession()
+    '''returns JingleSession\n\n
+    getSession()\n
     '''
 def setSession():
-    '''public void setSession(final JingleSession session)
+    '''returns None\n\n
+    setSession(final JingleSession session)\n
     '''
 def addExpectedId():
-    '''public void addExpectedId(final String id)
+    '''returns None\n\n
+    addExpectedId(final String id)\n
     '''
 def isExpectedId():
-    '''public boolean isExpectedId(final String id)
+    '''returns boolean\n\n
+    isExpectedId(final String id)\n
     '''
 def removeExpectedId():
-    '''public void removeExpectedId(final String id)
+    '''returns None\n\n
+    removeExpectedId(final String id)\n
     '''
 def addListener():
-    '''public void addListener(final JingleListener li)
+    '''returns None\n\n
+    addListener(final JingleListener li)\n
     '''
 def removeListener():
-    '''public void removeListener(final JingleListener li)
+    '''returns None\n\n
+    removeListener(final JingleListener li)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def isStarted():
-    '''public boolean isStarted()
+    '''returns boolean\n\n
+    isStarted()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,12 +1,15 @@
 ELEMENT = "String  \"open\""
 NAMESPACE = "String  \"http://jabber.org/protocol/ibb\""
-def Open():
-    '''public Open(final String sessionID, final int blockSize, final InBandBytestreamManager.StanzaType stanza)
-    public Open(final String sessionID, final int blockSize)
+def ():
+    '''returns Open\n\n
+    (final String sessionID, final int blockSize, final InBandBytestreamManager.StanzaType stanza)\n
+    (final String sessionID, final int blockSize)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getBlockSize():
-    '''public int getBlockSize()
+    '''returns int\n\n
+    getBlockSize()\n
     '''

@@ -1,6 +1,8 @@
-def FldItemConditionCommodityGroup():
-    '''public FldItemConditionCommodityGroup(final MboValue mbv)
+def ():
+    '''returns FldItemConditionCommodityGroup\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,19 +1,21 @@
 def getAllocateNodeId():
-    '''public NodeId getAllocateNodeId(final Node node)
+    '''returns NodeId\n\n
+    getAllocateNodeId(final Node node)\n
     '''
 def getNodeIdForNode():
-    '''public NodeId getNodeIdForNode(final Node node)
+    '''returns NodeId\n\n
+    getNodeIdForNode(final Node node)\n
     '''
 def getNodeForNodeId():
-    '''public Node getNodeForNodeId(final NodeId id)
-    '''
-def all():
-    '''public Iterator<Pair<NodeId, Node>> all()
+    '''returns Node\n\n
+    getNodeForNodeId(final NodeId id)\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

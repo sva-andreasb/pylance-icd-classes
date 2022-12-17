@@ -1,6 +1,8 @@
-def FldSuiteName():
-    '''public FldSuiteName(final MboValue mbv)
+def ():
+    '''returns FldSuiteName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

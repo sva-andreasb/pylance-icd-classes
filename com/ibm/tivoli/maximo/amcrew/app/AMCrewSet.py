@@ -1,33 +1,44 @@
-def AMCrewSet():
-    '''public AMCrewSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setWorkDate():
-    '''public void setWorkDate(final Date workdate)
+    '''returns None\n\n
+    setWorkDate(final Date workdate)\n
     '''
 def getWorkDate():
-    '''public Date getWorkDate()
+    '''returns Date\n\n
+    getWorkDate()\n
     '''
 def setClientWorkDate():
-    '''public void setClientWorkDate(final Date CLNTWorkDate)
+    '''returns None\n\n
+    setClientWorkDate(final Date CLNTWorkDate)\n
     '''
 def getClientWorkDate():
-    '''public Date getClientWorkDate()
+    '''returns Date\n\n
+    getClientWorkDate()\n
     '''
 def getOriginalCrewQbe():
-    '''public Hashtable getOriginalCrewQbe()
+    '''returns Hashtable\n\n
+    getOriginalCrewQbe()\n
     '''
 def getOriginalCrewUserWhere():
-    '''public String getOriginalCrewUserWhere()
+    '''returns String\n\n
+    getOriginalCrewUserWhere()\n
     '''
 def setOriginalCrewUserWhere():
-    '''public void setOriginalCrewUserWhere(final String inWhere)
+    '''returns None\n\n
+    setOriginalCrewUserWhere(final String inWhere)\n
     '''
 def setOriginalCrewQbe():
-    '''public void setOriginalCrewQbe(final Hashtable inQbe)
+    '''returns None\n\n
+    setOriginalCrewQbe(final Hashtable inQbe)\n
     '''
 def filterByWork():
-    '''public void filterByWork(final MboSetRemote matchSet)
+    '''returns None\n\n
+    filterByWork(final MboSetRemote matchSet)\n
     '''
 def addPersonWarning():
-    '''public void addPersonWarning(final MXException e)
+    '''returns None\n\n
+    addPersonWarning(final MXException e)\n
     '''

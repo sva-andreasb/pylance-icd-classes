@@ -1,54 +1,72 @@
-def DBInfoAttributeView():
-    '''public DBInfoAttributeView(final MboSet ms)
+def ():
+    '''returns DBInfoAttributeView\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def validateChanges():
-    '''public void validateChanges()
+    '''returns None\n\n
+    validateChanges()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getMasterMboValueInfo():
-    '''public MboValueInfo getMasterMboValueInfo()
+    '''returns MboValueInfo\n\n
+    getMasterMboValueInfo()\n
     '''
 def validateRequired():
-    '''public void validateRequired()
+    '''returns None\n\n
+    validateRequired()\n
     '''
 def validateMaxType():
-    '''public void validateMaxType()
+    '''returns None\n\n
+    validateMaxType()\n
     '''
 def validateLength():
-    '''public void validateLength()
+    '''returns None\n\n
+    validateLength()\n
     '''
 def validateESigEnabled():
-    '''public void validateESigEnabled()
+    '''returns None\n\n
+    validateESigEnabled()\n
     '''
 def validateEAuditEnabled():
-    '''public void validateEAuditEnabled()
+    '''returns None\n\n
+    validateEAuditEnabled()\n
     '''
 def validateDomainId():
-    '''public void validateDomainId()
+    '''returns None\n\n
+    validateDomainId()\n
     '''
 def validateAutoKey():
-    '''public void validateAutoKey()
+    '''returns None\n\n
+    validateAutoKey()\n
     '''
 def fillExtAttributes():
-    '''public MboSetRemote fillExtAttributes(final MboSetRemote extSet)
+    '''returns MboSetRemote\n\n
+    fillExtAttributes(final MboSetRemote extSet)\n
     '''
 def getExtendedLookup():
-    '''public String getExtendedLookup()
+    '''returns String\n\n
+    getExtendedLookup()\n
     '''
 def getValueFromLookup():
-    '''public void getValueFromLookup(final String maxType, final int length, final boolean isMaxType)
+    '''returns None\n\n
+    getValueFromLookup(final String maxType, final int length, final boolean isMaxType)\n
     '''

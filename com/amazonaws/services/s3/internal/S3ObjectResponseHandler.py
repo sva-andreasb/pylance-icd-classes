@@ -1,6 +1,8 @@
 def handle():
-    '''public AmazonWebServiceResponse<S3Object> handle(final HttpResponse response)
+    '''returns AmazonWebServiceResponse<S3Object>\n\n
+    handle(final HttpResponse response)\n
     '''
 def needsConnectionLeftOpen():
-    '''public boolean needsConnectionLeftOpen()
+    '''returns boolean\n\n
+    needsConnectionLeftOpen()\n
     '''

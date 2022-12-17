@@ -1,39 +1,48 @@
-def IoTDataParser():
-    '''public IoTDataParser(final Map<String, String> metadata)
-    '''
-def getMeta():
-    '''public Map<String, String> getMeta()
+def ():
+    '''returns IoTDataParser\n\n
+    (final Map<String, String> metadata)\n
     '''
 def getDataPath():
-    '''public String getDataPath()
+    '''returns String\n\n
+    getDataPath()\n
     '''
 def getRootPath():
-    '''public String getRootPath()
+    '''returns String\n\n
+    getRootPath()\n
     '''
 def isKeyValue():
-    '''public boolean isKeyValue()
+    '''returns boolean\n\n
+    isKeyValue()\n
     '''
 def getKeyAttrName():
-    '''public String getKeyAttrName()
+    '''returns String\n\n
+    getKeyAttrName()\n
     '''
 def hasMapper():
-    '''public boolean hasMapper()
+    '''returns boolean\n\n
+    hasMapper()\n
     '''
 def setHasMapper():
-    '''public void setHasMapper(final boolean hasmapper)
+    '''returns None\n\n
+    setHasMapper(final boolean hasmapper)\n
     '''
 def hasRootAttributes():
-    '''public boolean hasRootAttributes()
+    '''returns boolean\n\n
+    hasRootAttributes()\n
     '''
 def setHasRootAttributes():
-    '''public void setHasRootAttributes(final boolean hasrootattrs)
+    '''returns None\n\n
+    setHasRootAttributes(final boolean hasrootattrs)\n
     '''
 def setRootAttrs():
-    '''public void setRootAttrs(final String rootAttrs)
+    '''returns None\n\n
+    setRootAttrs(final String rootAttrs)\n
     '''
 def getRootAttributeArray():
-    '''public String[] getRootAttributeArray()
+    '''returns String[]\n\n
+    getRootAttributeArray()\n
     '''
 def setRootAttributeArray():
-    '''public void setRootAttributeArray(final String[] rootAttributeArray)
+    '''returns None\n\n
+    setRootAttributeArray(final String[] rootAttributeArray)\n
     '''

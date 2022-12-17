@@ -1,6 +1,8 @@
-def FldGLCompSegmentName():
-    '''public FldGLCompSegmentName(final MboValue mbv)
+def ():
+    '''returns FldGLCompSegmentName\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

@@ -1,12 +1,16 @@
-def FldRoleType():
-    '''public FldRoleType(final MboValue mbv)
+def ():
+    '''returns FldRoleType\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''

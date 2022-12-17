@@ -1,3 +1,4 @@
-def FldKBLinkedArticlesLinkedArticleId():
-    '''public FldKBLinkedArticlesLinkedArticleId(final MboValue mbv)
+def ():
+    '''returns FldKBLinkedArticlesLinkedArticleId\n\n
+    (final MboValue mbv)\n
     '''

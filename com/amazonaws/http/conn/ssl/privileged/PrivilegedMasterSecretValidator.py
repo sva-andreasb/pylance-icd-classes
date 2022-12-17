@@ -1,6 +1,8 @@
 def isMasterSecretValid():
-    '''public boolean isMasterSecretValid(final Socket socket)
+    '''returns boolean\n\n
+    isMasterSecretValid(final Socket socket)\n
     '''
 def run():
-    '''public Boolean run()
+    '''returns Boolean\n\n
+    run()\n
     '''

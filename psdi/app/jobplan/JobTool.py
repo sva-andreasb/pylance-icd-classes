@@ -1,36 +1,48 @@
-def JobTool():
-    '''public JobTool(final MboSet ms)
+def ():
+    '''returns JobTool\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setLineCost():
-    '''public void setLineCost()
+    '''returns None\n\n
+    setLineCost()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def removeTool():
-    '''public void removeTool()
+    '''returns None\n\n
+    removeTool()\n
     '''
 def isCrewTool():
-    '''public boolean isCrewTool()
+    '''returns boolean\n\n
+    isCrewTool()\n
     '''
 def getAssociatedLabor():
-    '''public MboRemote getAssociatedLabor()
+    '''returns MboRemote\n\n
+    getAssociatedLabor()\n
     '''
 def checkReadOnly():
-    '''public void checkReadOnly()
+    '''returns None\n\n
+    checkReadOnly()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboSet)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboSet)\n
     '''

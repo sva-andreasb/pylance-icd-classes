@@ -1,18 +1,23 @@
 DEFAULT_MAX_INPUT_LOOKAHEAD = "int  64"
-def DataFormatDetector():
-    '''public DataFormatDetector(final JsonFactory... detectors)
-    public DataFormatDetector(final Collection<JsonFactory> detectors)
+def ():
+    '''returns DataFormatDetector\n\n
+    (final JsonFactory... detectors)\n
+    (final Collection<JsonFactory> detectors)\n
     '''
 def withOptimalMatch():
-    '''public DataFormatDetector withOptimalMatch(final MatchStrength optMatch)
+    '''returns DataFormatDetector\n\n
+    withOptimalMatch(final MatchStrength optMatch)\n
     '''
 def withMinimalMatch():
-    '''public DataFormatDetector withMinimalMatch(final MatchStrength minMatch)
+    '''returns DataFormatDetector\n\n
+    withMinimalMatch(final MatchStrength minMatch)\n
     '''
 def withMaxInputLookahead():
-    '''public DataFormatDetector withMaxInputLookahead(final int lookaheadBytes)
+    '''returns DataFormatDetector\n\n
+    withMaxInputLookahead(final int lookaheadBytes)\n
     '''
 def findFormat():
-    '''public DataFormatMatcher findFormat(final InputStream in)
-    public DataFormatMatcher findFormat(final byte[] fullInputData)
+    '''returns DataFormatMatcher\n\n
+    findFormat(final InputStream in)\n
+    findFormat(final byte[] fullInputData)\n
     '''

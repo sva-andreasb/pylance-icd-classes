@@ -1,10 +1,9 @@
 NAMESPACE_0 = "String  \"urn:xmpp:spoiler:0\""
 def startAnnounceSupport():
-    '''public void startAnnounceSupport()
+    '''returns None\n\n
+    startAnnounceSupport()\n
     '''
 def stopAnnounceSupport():
-    '''public void stopAnnounceSupport()
-    '''
-def getInstanceFor():
-    '''public static synchronized SpoilerManager getInstanceFor(final XMPPConnection connection)
+    '''returns None\n\n
+    stopAnnounceSupport()\n
     '''

@@ -1,170 +1,226 @@
-def ReportAdHoc():
-    '''public ReportAdHoc(final MboSet ms)
+def ():
+    '''returns ReportAdHoc\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def addAllAttributes():
-    '''public void addAllAttributes()
+    '''returns None\n\n
+    addAllAttributes()\n
     '''
 def removeAllAttributes():
-    '''public void removeAllAttributes()
+    '''returns None\n\n
+    removeAllAttributes()\n
     '''
 def toggleAttribute():
-    '''public void toggleAttribute(final String attributeName, final boolean toBeAdded)
-    public void toggleAttribute(final MboRemote attribute, final boolean toBeAdded)
+    '''returns None\n\n
+    toggleAttribute(final String attributeName, final boolean toBeAdded)\n
+    toggleAttribute(final MboRemote attribute, final boolean toBeAdded)\n
     '''
 def addToExpressionList():
-    '''public void addToExpressionList()
+    '''returns None\n\n
+    addToExpressionList()\n
     '''
 def addToSummaryList():
-    '''public void addToSummaryList()
+    '''returns None\n\n
+    addToSummaryList()\n
     '''
 def addAttrToExpr():
-    '''public void addAttrToExpr(final MboRemote attribute, final boolean toBeAdded)
+    '''returns None\n\n
+    addAttrToExpr(final MboRemote attribute, final boolean toBeAdded)\n
     '''
 def setSelectedCalcCategory():
-    '''public void setSelectedCalcCategory(final String category)
+    '''returns None\n\n
+    setSelectedCalcCategory(final String category)\n
     '''
 def getSelectedCalcCategory():
-    '''public String getSelectedCalcCategory()
+    '''returns String\n\n
+    getSelectedCalcCategory()\n
     '''
 def addAttrToSum():
-    '''public void addAttrToSum(final MboRemote attribute)
+    '''returns None\n\n
+    addAttrToSum(final MboRemote attribute)\n
     '''
 def initializeObjectStructureInfo():
-    '''public void initializeObjectStructureInfo()
+    '''returns None\n\n
+    initializeObjectStructureInfo()\n
     '''
 def isParentSelected():
-    '''public boolean isParentSelected(final int objectID)
+    '''returns boolean\n\n
+    isParentSelected(final int objectID)\n
     '''
 def isParentSelectedCalc():
-    '''public boolean isParentSelectedCalc(final int objectID)
+    '''returns boolean\n\n
+    isParentSelectedCalc(final int objectID)\n
     '''
 def objectDependencyCheck():
-    '''public void objectDependencyCheck(final int id)
+    '''returns None\n\n
+    objectDependencyCheck(final int id)\n
     '''
 def getObjectName():
-    '''public String getObjectName(final int objectID)
+    '''returns String\n\n
+    getObjectName(final int objectID)\n
     '''
 def getValidAttributes():
-    '''public Set<String> getValidAttributes(final int objectID)
+    '''returns Set<String>\n\n
+    getValidAttributes(final int objectID)\n
     '''
 def updateAvailableAttributes():
-    '''public void updateAvailableAttributes()
+    '''returns None\n\n
+    updateAvailableAttributes()\n
     '''
 def updateAvailableAttributesCalc():
-    '''public void updateAvailableAttributesCalc()
+    '''returns None\n\n
+    updateAvailableAttributesCalc()\n
     '''
 def updateAvailableAttributesSum():
-    '''public void updateAvailableAttributesSum()
+    '''returns None\n\n
+    updateAvailableAttributesSum()\n
     '''
 def getAvailableAttributesSet():
-    '''public MboSetRemote getAvailableAttributesSet()
+    '''returns MboSetRemote\n\n
+    getAvailableAttributesSet()\n
     '''
 def getAvailableAttributesSetCalc():
-    '''public MboSetRemote getAvailableAttributesSetCalc()
+    '''returns MboSetRemote\n\n
+    getAvailableAttributesSetCalc()\n
     '''
 def reorderColumns():
-    '''public void reorderColumns()
+    '''returns None\n\n
+    reorderColumns()\n
     '''
 def reorderCalculations():
-    '''public void reorderCalculations()
+    '''returns None\n\n
+    reorderCalculations()\n
     '''
 def reorderSummaries():
-    '''public void reorderSummaries()
+    '''returns None\n\n
+    reorderSummaries()\n
     '''
 def suggestUniqueName():
-    '''public String suggestUniqueName()
-    public String suggestUniqueName(String reportName)
+    '''returns String\n\n
+    suggestUniqueName()\n
+    suggestUniqueName(String reportName)\n
     '''
 def disableScheduleFields():
-    '''public void disableScheduleFields(final boolean disable)
+    '''returns None\n\n
+    disableScheduleFields(final boolean disable)\n
     '''
 def createReport():
-    '''public void createReport()
+    '''returns None\n\n
+    createReport()\n
     '''
 def getReportNum():
-    '''public int getReportNum()
+    '''returns int\n\n
+    getReportNum()\n
     '''
 def getReportXML():
-    '''public String getReportXML()
+    '''returns String\n\n
+    getReportXML()\n
     '''
 def getPresentationForThisDialog():
-    '''public String getPresentationForThisDialog()
+    '''returns String\n\n
+    getPresentationForThisDialog()\n
     '''
 def setDefaultObjectID():
-    '''public void setDefaultObjectID()
+    '''returns None\n\n
+    setDefaultObjectID()\n
     '''
 def setSelectedObjectID():
-    '''public void setSelectedObjectID(final int objectID)
+    '''returns None\n\n
+    setSelectedObjectID(final int objectID)\n
     '''
 def getSelectedObjectID():
-    '''public int getSelectedObjectID()
+    '''returns int\n\n
+    getSelectedObjectID()\n
     '''
 def setSelectedObjectIDCalc():
-    '''public void setSelectedObjectIDCalc(final int objectID)
+    '''returns None\n\n
+    setSelectedObjectIDCalc(final int objectID)\n
     '''
 def getSelectedObjectIDCalc():
-    '''public int getSelectedObjectIDCalc()
+    '''returns int\n\n
+    getSelectedObjectIDCalc()\n
     '''
 def setSelectedObjectIDSum():
-    '''public void setSelectedObjectIDSum(final int objectID)
+    '''returns None\n\n
+    setSelectedObjectIDSum(final int objectID)\n
     '''
 def getSelectedObjectIDSum():
-    '''public int getSelectedObjectIDSum()
+    '''returns int\n\n
+    getSelectedObjectIDSum()\n
     '''
 def clearFields():
-    '''public void clearFields(final String fieldType)
+    '''returns None\n\n
+    clearFields(final String fieldType)\n
     '''
 def getLevelCount():
-    '''public int getLevelCount(final String fieldType)
+    '''returns int\n\n
+    getLevelCount(final String fieldType)\n
     '''
 def isGroupOrSortField():
-    '''public boolean isGroupOrSortField(final MboRemote attribute, final String fieldType)
+    '''returns boolean\n\n
+    isGroupOrSortField(final MboRemote attribute, final String fieldType)\n
     '''
 def hasDuplicateReportTitle():
-    '''public boolean hasDuplicateReportTitle()
+    '''returns boolean\n\n
+    hasDuplicateReportTitle()\n
     '''
 def getDuplicateReportName():
-    '''public String getDuplicateReportName()
+    '''returns String\n\n
+    getDuplicateReportName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def sigopGranted():
-    '''public boolean sigopGranted(final String app, final String optionname)
+    '''returns boolean\n\n
+    sigopGranted(final String app, final String optionname)\n
     '''
 def getCategory():
-    '''public String getCategory(final int objectID)
+    '''returns String\n\n
+    getCategory(final int objectID)\n
     '''
 def setObjectOnlyDefaults():
-    '''public void setObjectOnlyDefaults()
+    '''returns None\n\n
+    setObjectOnlyDefaults()\n
     '''
 def setSelectedAttributes():
-    '''public void setSelectedAttributes()
+    '''returns None\n\n
+    setSelectedAttributes()\n
     '''
 def copyChildrenForInit():
-    '''public void copyChildrenForInit()
+    '''returns None\n\n
+    copyChildrenForInit()\n
     '''
 def copyChildrenForSave():
-    '''public void copyChildrenForSave()
+    '''returns None\n\n
+    copyChildrenForSave()\n
     '''
 def createReportName():
-    '''public String createReportName()
+    '''returns String\n\n
+    createReportName()\n
     '''
 def clearCalcTempFields():
-    '''public void clearCalcTempFields()
+    '''returns None\n\n
+    clearCalcTempFields()\n
     '''
 def setLabelSyncFlag():
-    '''public void setLabelSyncFlag()
+    '''returns None\n\n
+    setLabelSyncFlag()\n
     '''
 def setTransientBROSInfo():
-    '''public void setTransientBROSInfo(final String brosID, final Hashtable reportParams, final String csrfToken)
+    '''returns None\n\n
+    setTransientBROSInfo(final String brosID, final Hashtable reportParams, final String csrfToken)\n
     '''

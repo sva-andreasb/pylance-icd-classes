@@ -1,13 +1,13 @@
-def StageMatchTuple():
-    '''public StageMatchTuple(final NodeTupleTable nodeTupleTable, final Iterator<BindingNodeId> input, final Tuple<Node> tuple, final boolean anyGraphs, final Filter<Tuple<NodeId>> filter, final ExecutionContext execCxt)
-    '''
-def prepare():
-    '''public static void prepare(final NodeTable nodeTable, final Tuple<Node> patternTuple, final BindingNodeId input, final NodeId[] ids, final Var[] var)
+def ():
+    '''returns StageMatchTuple\n\n
+    (final NodeTupleTable nodeTupleTable, final Iterator<BindingNodeId> input, final Tuple<Node> tuple, final boolean anyGraphs, final Filter<Tuple<NodeId>> filter, final ExecutionContext execCxt)\n
     '''
 def convert():
-    '''public BindingNodeId convert(final Tuple<NodeId> tuple)
-    public Tuple<NodeId> convert(final Tuple<NodeId> item)
+    '''returns Tuple<NodeId>\n\n
+    convert(final Tuple<NodeId> tuple)\n
+    convert(final Tuple<NodeId> item)\n
     '''
 def apply():
-    '''public void apply(final Tuple<NodeId> item)
+    '''returns None\n\n
+    apply(final Tuple<NodeId> item)\n
     '''

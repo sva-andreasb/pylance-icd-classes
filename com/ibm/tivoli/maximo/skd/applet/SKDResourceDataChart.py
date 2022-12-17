@@ -1,21 +1,28 @@
-def SKDResourceDataChart():
-    '''public SKDResourceDataChart(final IlvChart chart, final IlvStairChartRenderer chartRenderder, final ResourceViewStyleResolver rhViewStyleResolver)
+def ():
+    '''returns SKDResourceDataChart\n\n
+    (final IlvChart chart, final IlvStairChartRenderer chartRenderder, final ResourceViewStyleResolver rhViewStyleResolver)\n
     '''
 def setAppletGanttModel():
-    '''public void setAppletGanttModel(final AppletGanttModel model)
+    '''returns None\n\n
+    setAppletGanttModel(final AppletGanttModel model)\n
     '''
 def getAvailabilityDataSet():
-    '''public ArrayList<IlvDefaultDataSet> getAvailabilityDataSet(final IlvResource resource)
+    '''returns ArrayList<IlvDefaultDataSet>\n\n
+    getAvailabilityDataSet(final IlvResource resource)\n
     '''
 def createDataSet():
-    '''public IlvResourceDataSet createDataSet(final IlvResource resource, final IlvReservationDataPolicy dataPolicy)
+    '''returns IlvResourceDataSet\n\n
+    createDataSet(final IlvResource resource, final IlvReservationDataPolicy dataPolicy)\n
     '''
 def syncGanttModel():
-    '''public void syncGanttModel(final IlvScheduleChart scheduleChart, final int resourceDisplayMode)
+    '''returns None\n\n
+    syncGanttModel(final IlvScheduleChart scheduleChart, final int resourceDisplayMode)\n
     '''
 def unsyncGanttModel():
-    '''public void unsyncGanttModel()
+    '''returns None\n\n
+    unsyncGanttModel()\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent event)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent event)\n
     '''

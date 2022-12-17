@@ -1,10 +1,13 @@
-def ReflectorInfoWithId():
-    '''public ReflectorInfoWithId(final STLoginId reflectorSTLoginId, final String s, final short n)
-    public ReflectorInfoWithId(final NdrInputStream ndrInputStream)
+def ():
+    '''returns ReflectorInfoWithId\n\n
+    (final STLoginId reflectorSTLoginId, final String s, final short n)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def getReflectorSTLoginId():
-    '''public STLoginId getReflectorSTLoginId()
+    '''returns STLoginId\n\n
+    getReflectorSTLoginId()\n
     '''

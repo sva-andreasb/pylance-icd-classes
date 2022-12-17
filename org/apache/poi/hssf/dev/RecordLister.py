@@ -1,9 +1,8 @@
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def setFile():
-    '''public void setFile(final String file)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    setFile(final String file)\n
     '''

@@ -1,21 +1,16 @@
-def getAbout():
-    '''public final URI getAbout()
-    '''
-def setAbout():
-    '''public final void setAbout(final URI about)
-    '''
 def setExtendedProperties():
-    '''public void setExtendedProperties(final Map<QName, Object> properties)
-    '''
-def getExtendedProperties():
-    '''public Map<QName, Object> getExtendedProperties()
+    '''returns None\n\n
+    setExtendedProperties(final Map<QName, Object> properties)\n
     '''
 def getTypes():
-    '''public Collection<URI> getTypes()
+    '''returns Collection<URI>\n\n
+    getTypes()\n
     '''
 def setTypes():
-    '''public void setTypes(final Collection<URI> type)
+    '''returns None\n\n
+    setTypes(final Collection<URI> type)\n
     '''
 def addType():
-    '''public void addType(final URI type)
+    '''returns None\n\n
+    addType(final URI type)\n
     '''

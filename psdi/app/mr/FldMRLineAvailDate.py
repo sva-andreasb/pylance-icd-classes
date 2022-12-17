@@ -1,6 +1,8 @@
-def FldMRLineAvailDate():
-    '''public FldMRLineAvailDate(final MboValue mbv)
+def ():
+    '''returns FldMRLineAvailDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

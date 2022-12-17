@@ -1,24 +1,32 @@
 def initializeReservation():
-    '''public void initializeReservation(final MXReservation reservation, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    initializeReservation(final MXReservation reservation, final String objectName, final MboRemote mboObject)\n
     '''
 def populateReservations():
-    '''public void populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)
+    '''returns None\n\n
+    populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)\n
     '''
 def populateReservationPropertyDetails():
-    '''public void populateReservationPropertyDetails()
+    '''returns None\n\n
+    populateReservationPropertyDetails()\n
     '''
 def applyReservationChange():
-    '''public void applyReservationChange(final MboRemote reservationMboRemote, final MXTransaction txn)
+    '''returns None\n\n
+    applyReservationChange(final MboRemote reservationMboRemote, final MXTransaction txn)\n
     '''
 def loadReservation():
-    '''public void loadReservation(final MXReservation reservation, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    loadReservation(final MXReservation reservation, final String objectName, final MboRemote mboObject)\n
     '''
 def loadAdditionalReservations():
-    '''public void loadAdditionalReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)
+    '''returns None\n\n
+    loadAdditionalReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)\n
     '''
 def loadWorkAndNonWorkReservations():
-    '''public void loadWorkAndNonWorkReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)
+    '''returns None\n\n
+    loadWorkAndNonWorkReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)\n
     '''
 def loadOtherAssignmentReservations():
-    '''public void loadOtherAssignmentReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)
+    '''returns None\n\n
+    loadOtherAssignmentReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)\n
     '''

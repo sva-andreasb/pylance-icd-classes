@@ -1,6 +1,8 @@
-def FldMatRecTransShipmentNum():
-    '''public FldMatRecTransShipmentNum(final MboValue mbv)
+def ():
+    '''returns FldMatRecTransShipmentNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

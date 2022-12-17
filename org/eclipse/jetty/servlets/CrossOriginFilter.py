@@ -10,15 +10,19 @@ ALLOWED_METHODS_PARAM = "String  \"allowedMethods\""
 ALLOWED_HEADERS_PARAM = "String  \"allowedHeaders\""
 PREFLIGHT_MAX_AGE_PARAM = "String  \"preflightMaxAge\""
 ALLOW_CREDENTIALS_PARAM = "String  \"allowCredentials\""
-def CrossOriginFilter():
-    '''public CrossOriginFilter()
+def ():
+    '''returns CrossOriginFilter\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final FilterConfig config)
+    '''returns None\n\n
+    init(final FilterConfig config)\n
     '''
 def doFilter():
-    '''public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)
+    '''returns None\n\n
+    doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''

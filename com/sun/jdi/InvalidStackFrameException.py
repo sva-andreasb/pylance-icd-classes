@@ -1,4 +1,5 @@
-def InvalidStackFrameException():
-    '''public InvalidStackFrameException()
-    public InvalidStackFrameException(final String message)
+def ():
+    '''returns InvalidStackFrameException\n\n
+    ()\n
+    (final String message)\n
     '''

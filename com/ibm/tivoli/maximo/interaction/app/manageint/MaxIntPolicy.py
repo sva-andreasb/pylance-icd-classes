@@ -1,12 +1,16 @@
-def MaxIntPolicy():
-    '''public MaxIntPolicy(final MboSet ms)
+def ():
+    '''returns MaxIntPolicy\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

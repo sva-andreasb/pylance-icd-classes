@@ -1,4 +1,5 @@
-def ConfigException():
-    '''public ConfigException(final String error)
-    public ConfigException(final String error, final Throwable exception)
+def ():
+    '''returns ConfigException\n\n
+    (final String error)\n
+    (final String error, final Throwable exception)\n
     '''

@@ -1,3 +1,4 @@
 def getRestStatusCode():
-    '''public int getRestStatusCode()
+    '''returns int\n\n
+    getRestStatusCode()\n
     '''

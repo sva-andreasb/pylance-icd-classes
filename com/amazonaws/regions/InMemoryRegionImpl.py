@@ -1,36 +1,48 @@
-def InMemoryRegionImpl():
-    '''public InMemoryRegionImpl(final String name, final String domain)
+def ():
+    '''returns InMemoryRegionImpl\n\n
+    (final String name, final String domain)\n
     '''
 def addEndpoint():
-    '''public InMemoryRegionImpl addEndpoint(final String serviceName, final String endpoint)
+    '''returns InMemoryRegionImpl\n\n
+    addEndpoint(final String serviceName, final String endpoint)\n
     '''
 def addHttps():
-    '''public InMemoryRegionImpl addHttps(final String serviceName)
+    '''returns InMemoryRegionImpl\n\n
+    addHttps(final String serviceName)\n
     '''
 def addHttp():
-    '''public InMemoryRegionImpl addHttp(final String serviceName)
+    '''returns InMemoryRegionImpl\n\n
+    addHttp(final String serviceName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def getPartition():
-    '''public String getPartition()
+    '''returns String\n\n
+    getPartition()\n
     '''
 def isServiceSupported():
-    '''public boolean isServiceSupported(final String serviceName)
+    '''returns boolean\n\n
+    isServiceSupported(final String serviceName)\n
     '''
 def getServiceEndpoint():
-    '''public String getServiceEndpoint(final String serviceName)
+    '''returns String\n\n
+    getServiceEndpoint(final String serviceName)\n
     '''
 def hasHttpsEndpoint():
-    '''public boolean hasHttpsEndpoint(final String serviceName)
+    '''returns boolean\n\n
+    hasHttpsEndpoint(final String serviceName)\n
     '''
 def hasHttpEndpoint():
-    '''public boolean hasHttpEndpoint(final String serviceName)
+    '''returns boolean\n\n
+    hasHttpEndpoint(final String serviceName)\n
     '''
 def getAvailableEndpoints():
-    '''public Collection<String> getAvailableEndpoints()
+    '''returns Collection<String>\n\n
+    getAvailableEndpoints()\n
     '''

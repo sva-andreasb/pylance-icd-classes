@@ -1,54 +1,68 @@
-def Utf8StreamParser():
-    '''public Utf8StreamParser(final IOContext ctxt, final int features, final InputStream in, final ObjectCodec codec, final BytesToNameCanonicalizer sym, final byte[] inputBuffer, final int start, final int end, final boolean bufferRecyclable)
+def ():
+    '''returns Utf8StreamParser\n\n
+    (final IOContext ctxt, final int features, final InputStream in, final ObjectCodec codec, final BytesToNameCanonicalizer sym, final byte[] inputBuffer, final int start, final int end, final boolean bufferRecyclable)\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
     '''
 def setCodec():
-    '''public void setCodec(final ObjectCodec c)
+    '''returns None\n\n
+    setCodec(final ObjectCodec c)\n
     '''
 def releaseBuffered():
-    '''public int releaseBuffered(final OutputStream out)
+    '''returns int\n\n
+    releaseBuffered(final OutputStream out)\n
     '''
 def getInputSource():
-    '''public Object getInputSource()
+    '''returns Object\n\n
+    getInputSource()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
+    '''returns char[]\n\n
+    getTextCharacters()\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getTextOffset():
-    '''public int getTextOffset()
+    '''returns int\n\n
+    getTextOffset()\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue(final Base64Variant b64variant)
+    '''returns byte[]\n\n
+    getBinaryValue(final Base64Variant b64variant)\n
     '''
 def nextToken():
-    '''public JsonToken nextToken()
+    '''returns JsonToken\n\n
+    nextToken()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def nextFieldName():
-    '''public boolean nextFieldName(final SerializableString str)
+    '''returns boolean\n\n
+    nextFieldName(final SerializableString str)\n
     '''
 def nextTextValue():
-    '''public String nextTextValue()
+    '''returns String\n\n
+    nextTextValue()\n
     '''
 def nextIntValue():
-    '''public int nextIntValue(final int defaultValue)
+    '''returns int\n\n
+    nextIntValue(final int defaultValue)\n
     '''
 def nextLongValue():
-    '''public long nextLongValue(final long defaultValue)
+    '''returns long\n\n
+    nextLongValue(final long defaultValue)\n
     '''
 def nextBooleanValue():
-    '''public Boolean nextBooleanValue()
-    '''
-def growArrayBy():
-    '''public static int[] growArrayBy(int[] arr, final int more)
+    '''returns Boolean\n\n
+    nextBooleanValue()\n
     '''

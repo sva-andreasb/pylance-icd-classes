@@ -1,76 +1,101 @@
 def addPlaceListener():
-    '''public void addPlaceListener(final PlaceListener obj)
+    '''returns None\n\n
+    addPlaceListener(final PlaceListener obj)\n
     '''
 def removePlaceListener():
-    '''public void removePlaceListener(final PlaceListener obj)
+    '''returns None\n\n
+    removePlaceListener(final PlaceListener obj)\n
     '''
 def enter():
-    '''public void enter()
-    public void enter(final String password, final short creationMode, final boolean toStage)
+    '''returns None\n\n
+    enter()\n
+    enter(final String password, final short creationMode, final boolean toStage)\n
     '''
 def leave():
-    '''public void leave(final int n)
+    '''returns None\n\n
+    leave(final int n)\n
     '''
 def addActivity():
-    '''public void addActivity(final int n, final byte[] array)
+    '''returns None\n\n
+    addActivity(final int n, final byte[] array)\n
     '''
 def addAllowedUsers():
-    '''public void addAllowedUsers(final STUser[] array)
+    '''returns None\n\n
+    addAllowedUsers(final STUser[] array)\n
     '''
 def removeAllowedUsers():
-    '''public void removeAllowedUsers(final STUser[] array)
+    '''returns None\n\n
+    removeAllowedUsers(final STUser[] array)\n
     '''
 def invite15User():
-    '''public void invite15User(final STUser stUser, final String s, final boolean b)
+    '''returns None\n\n
+    invite15User(final STUser stUser, final String s, final boolean b)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getMembers():
-    '''public Enumeration getMembers()
+    '''returns Enumeration\n\n
+    getMembers()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def getMySection():
-    '''public Section getMySection()
+    '''returns Section\n\n
+    getMySection()\n
     '''
 def getPlaceType():
-    '''public int getPlaceType()
+    '''returns int\n\n
+    getPlaceType()\n
     '''
 def getMyselfInPlace():
-    '''public MyselfInPlace getMyselfInPlace()
+    '''returns MyselfInPlace\n\n
+    getMyselfInPlace()\n
     '''
 def getServer():
-    '''public STServer getServer()
+    '''returns STServer\n\n
+    getServer()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def getEncLevel():
-    '''public EncLevel getEncLevel()
+    '''returns EncLevel\n\n
+    getEncLevel()\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def getPublishMode():
-    '''public short getPublishMode()
+    '''returns short\n\n
+    getPublishMode()\n
     '''
 def getCreationMode():
-    '''public short getCreationMode()
+    '''returns short\n\n
+    getCreationMode()\n
     '''
 def isInPlace():
-    '''public boolean isInPlace()
+    '''returns boolean\n\n
+    isInPlace()\n
     '''
 def getActivitiesNum():
-    '''public int getActivitiesNum()
+    '''returns int\n\n
+    getActivitiesNum()\n
     '''
 def getPlace():
-    '''public Place getPlace()
+    '''returns Place\n\n
+    getPlace()\n
     '''
 def processPlacesEvent():
-    '''public void processPlacesEvent(final PlacesEvent placesEvent)
+    '''returns None\n\n
+    processPlacesEvent(final PlacesEvent placesEvent)\n
     '''

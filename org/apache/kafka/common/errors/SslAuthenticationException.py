@@ -1,4 +1,5 @@
-def SslAuthenticationException():
-    '''public SslAuthenticationException(final String message)
-    public SslAuthenticationException(final String message, final Throwable cause)
+def ():
+    '''returns SslAuthenticationException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

@@ -1,4 +1,5 @@
-def ReportExecutionException():
-    '''public ReportExecutionException(final String message)
-    public ReportExecutionException(final String message, final Throwable cause)
+def ():
+    '''returns ReportExecutionException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

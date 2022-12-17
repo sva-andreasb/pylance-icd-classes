@@ -1,9 +1,12 @@
-def CopyStreamException():
-    '''public CopyStreamException(final String message, final long bytesTransferred, final IOException exception)
+def ():
+    '''returns CopyStreamException\n\n
+    (final String message, final long bytesTransferred, final IOException exception)\n
     '''
 def getTotalBytesTransferred():
-    '''public long getTotalBytesTransferred()
+    '''returns long\n\n
+    getTotalBytesTransferred()\n
     '''
 def getIOException():
-    '''public IOException getIOException()
+    '''returns IOException\n\n
+    getIOException()\n
     '''

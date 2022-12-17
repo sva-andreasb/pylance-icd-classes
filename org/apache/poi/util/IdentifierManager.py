@@ -1,23 +1,27 @@
 MAX_ID = "long  9223372036854775806L"
 MIN_ID = "long  0L"
-def IdentifierManager():
-    '''public IdentifierManager(final long lowerbound, final long upperbound)
+def ():
+    '''returns Segment\n\n
+    (final long lowerbound, final long upperbound)\n
+    (final long start, final long end)\n
     '''
 def reserve():
-    '''public long reserve(final long id)
+    '''returns long\n\n
+    reserve(final long id)\n
     '''
 def reserveNew():
-    '''public long reserveNew()
+    '''returns long\n\n
+    reserveNew()\n
     '''
 def release():
-    '''public boolean release(final long id)
+    '''returns boolean\n\n
+    release(final long id)\n
     '''
 def getRemainingIdentifiers():
-    '''public long getRemainingIdentifiers()
-    '''
-def Segment():
-    '''public Segment(final long start, final long end)
+    '''returns long\n\n
+    getRemainingIdentifiers()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

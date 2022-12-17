@@ -1,3 +1,4 @@
-def TenantStatusSet():
-    '''public TenantStatusSet(final MboServerInterface ms)
+def ():
+    '''returns TenantStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

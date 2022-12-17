@@ -1,3 +1,4 @@
-def PlusPPhoneSet():
-    '''public PlusPPhoneSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPPhoneSet\n\n
+    (final MboServerInterface arg0)\n
     '''

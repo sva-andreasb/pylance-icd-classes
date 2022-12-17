@@ -1,3 +1,4 @@
-def FldLicenseVendor():
-    '''public FldLicenseVendor(final MboValue mbv)
+def ():
+    '''returns FldLicenseVendor\n\n
+    (final MboValue mbv)\n
     '''

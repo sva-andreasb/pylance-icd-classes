@@ -1,6 +1,8 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def accept():
-    '''public void accept(final Visitor visitor)
+    '''returns None\n\n
+    accept(final Visitor visitor)\n
     '''

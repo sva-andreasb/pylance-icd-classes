@@ -1,6 +1,8 @@
-def TloamLocation():
-    '''public TloamLocation(final MboSet ms)
+def ():
+    '''returns TloamLocation\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

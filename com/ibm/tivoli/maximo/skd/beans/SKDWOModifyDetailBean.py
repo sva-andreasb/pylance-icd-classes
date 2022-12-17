@@ -1,15 +1,20 @@
-def SKDWOModifyDetailBean():
-    '''public SKDWOModifyDetailBean()
+def ():
+    '''returns SKDWOModifyDetailBean\n\n
+    ()\n
     '''
 def APPLY():
-    '''public int APPLY()
+    '''returns int\n\n
+    APPLY()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def CANCEL():
-    '''public int CANCEL()
+    '''returns int\n\n
+    CANCEL()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

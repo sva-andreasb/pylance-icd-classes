@@ -1,15 +1,19 @@
-def RedisDecoder():
-    '''public RedisDecoder()
-    public RedisDecoder(final boolean decodeInlineCommands)
-    public RedisDecoder(final int maxInlineMessageLength, final RedisMessagePool messagePool)
-    public RedisDecoder(final int maxInlineMessageLength, final RedisMessagePool messagePool, final boolean decodeInlineCommands)
+def ():
+    '''returns RedisDecoder\n\n
+    ()\n
+    (final boolean decodeInlineCommands)\n
+    (final int maxInlineMessageLength, final RedisMessagePool messagePool)\n
+    (final int maxInlineMessageLength, final RedisMessagePool messagePool, final boolean decodeInlineCommands)\n
     '''
 def process():
-    '''public boolean process(final byte value)
+    '''returns boolean\n\n
+    process(final byte value)\n
     '''
 def content():
-    '''public long content()
+    '''returns long\n\n
+    content()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

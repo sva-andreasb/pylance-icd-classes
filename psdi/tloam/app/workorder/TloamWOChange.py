@@ -1,9 +1,12 @@
-def TloamWOChange():
-    '''public TloamWOChange(final MboSet ms)
+def ():
+    '''returns TloamWOChange\n\n
+    (final MboSet ms)\n
     '''
 def isNewDuplicatedItem():
-    '''public boolean isNewDuplicatedItem()
+    '''returns boolean\n\n
+    isNewDuplicatedItem()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

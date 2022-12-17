@@ -1,13 +1,13 @@
-def R():
-    '''public R(final InputStream inputStream, final FromWordsOptions a)
+def ():
+    '''returns R\n\n
+    (final InputStream inputStream, final FromWordsOptions a)\n
     '''
 def a():
-    '''public ar a()
-    public FromWordsOptions a()
+    '''returns FromWordsOptions\n\n
+    a()\n
+    a()\n
     '''
 def getPagesCount():
-    '''public int getPagesCount()
-    '''
-def bindSaveOptions():
-    '''public ILoader<ar, FromWordsOptions> bindSaveOptions(final SaveOptions saveOptions)
+    '''returns int\n\n
+    getPagesCount()\n
     '''

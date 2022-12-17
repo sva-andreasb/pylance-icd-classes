@@ -1,34 +1,45 @@
 CLASSNAME = "String  \"SRMNavigator\""
-def SRMNavigator():
-    '''public SRMNavigator()
+def ():
+    '''returns SRMNavigator\n\n
+    ()\n
     '''
 def myLog():
-    '''public void myLog(final String c, final String m, final String msg)
+    '''returns None\n\n
+    myLog(final String c, final String m, final String msg)\n
     '''
 def launchdialog():
-    '''public int launchdialog()
+    '''returns int\n\n
+    launchdialog()\n
     '''
 def shoppingcart():
-    '''public int shoppingcart()
+    '''returns int\n\n
+    shoppingcart()\n
     '''
 def viewsolution():
-    '''public int viewsolution()
+    '''returns int\n\n
+    viewsolution()\n
     '''
 def createsr():
-    '''public int createsr()
+    '''returns int\n\n
+    createsr()\n
     '''
 def templadm():
-    '''public int templadm()
+    '''returns int\n\n
+    templadm()\n
     '''
 def launchcustdialog():
-    '''public int launchcustdialog()
+    '''returns int\n\n
+    launchcustdialog()\n
     '''
 def applink():
-    '''public int applink()
+    '''returns int\n\n
+    applink()\n
     '''
 def liclink():
-    '''public int liclink()
+    '''returns int\n\n
+    liclink()\n
     '''
 def logerror():
-    '''public int logerror()
+    '''returns int\n\n
+    logerror()\n
     '''

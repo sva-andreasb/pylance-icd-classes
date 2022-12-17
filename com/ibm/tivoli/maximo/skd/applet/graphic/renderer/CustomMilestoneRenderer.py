@@ -1,42 +1,49 @@
-def CustomMilestoneRenderer():
-    '''public CustomMilestoneRenderer()
-    public CustomMilestoneRenderer(final boolean addComplianceBars)
+def ():
+    '''returns MyActivityBarSelection\n\n
+    ()\n
+    (final boolean addComplianceBars)\n
+    ()\n
+    (final IlvActivityGraphic ag, final String[] properties)\n
     '''
 def isComplianceEnabled():
-    '''public boolean isComplianceEnabled()
+    '''returns boolean\n\n
+    isComplianceEnabled()\n
     '''
 def contains():
-    '''public boolean contains(final IlvActivityGraphic ag, final IlvPoint p, final IlvPoint tp, final IlvTransformer t)
+    '''returns boolean\n\n
+    contains(final IlvActivityGraphic ag, final IlvPoint p, final IlvPoint tp, final IlvTransformer t)\n
     '''
 def draw():
-    '''public void draw(final Graphics g, final IlvActivityGraphic ag, final IlvTransformer t)
-    public void draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns None\n\n
+    draw(final Graphics g, final IlvActivityGraphic ag, final IlvTransformer t)\n
+    draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''
 def getBounds():
-    '''public IlvRect getBounds(final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns IlvRect\n\n
+    getBounds(final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
-    public String getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
+    getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def isRedrawNeeded():
-    '''public boolean isRedrawNeeded(final IlvActivityGraphic ag, final ActivityEvent ae)
+    '''returns boolean\n\n
+    isRedrawNeeded(final IlvActivityGraphic ag, final ActivityEvent ae)\n
     '''
 def isRelayoutNeeded():
-    '''public boolean isRelayoutNeeded(final IlvActivityGraphic ag, final ActivityEvent ae)
+    '''returns boolean\n\n
+    isRelayoutNeeded(final IlvActivityGraphic ag, final ActivityEvent ae)\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection(final IlvActivityGraphic ag)
+    '''returns IlvSelection\n\n
+    makeSelection(final IlvActivityGraphic ag)\n
     '''
 def createSelection():
-    '''public IlvSelection createSelection(final IlvActivityGraphic ag, final String[] properties)
-    '''
-def CustomMilestone():
-    '''public CustomMilestone()
-    '''
-def MyActivityBarSelection():
-    '''public MyActivityBarSelection(final IlvActivityGraphic ag, final String[] properties)
+    '''returns IlvSelection\n\n
+    createSelection(final IlvActivityGraphic ag, final String[] properties)\n
     '''
 def getHandle():
-    '''public IlvPoint getHandle(final int i, final IlvTransformer t)
+    '''returns IlvPoint\n\n
+    getHandle(final int i, final IlvTransformer t)\n
     '''

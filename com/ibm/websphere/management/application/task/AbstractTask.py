@@ -1,12 +1,16 @@
-def AbstractTask():
-    '''public AbstractTask()
+def ():
+    '''returns AbstractTask\n\n
+    ()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale loc)
+    '''returns None\n\n
+    setLocale(final Locale loc)\n
     '''
 def setAppTaskName():
-    '''public void setAppTaskName(final String s)
+    '''returns None\n\n
+    setAppTaskName(final String s)\n
     '''
 def setScheduler():
-    '''public void setScheduler(final Scheduler sc)
+    '''returns None\n\n
+    setScheduler(final Scheduler sc)\n
     '''

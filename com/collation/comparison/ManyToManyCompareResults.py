@@ -1,21 +1,28 @@
-def ManyToManyCompareResults():
-    '''public ManyToManyCompareResults()
+def ():
+    '''returns ManyToManyCompareResults\n\n
+    ()\n
     '''
 def addNestedResultsLeft():
-    '''public void addNestedResultsLeft(final CompareResults r)
+    '''returns None\n\n
+    addNestedResultsLeft(final CompareResults r)\n
     '''
 def addNestedResultsRight():
-    '''public void addNestedResultsRight(final CompareResults r)
+    '''returns None\n\n
+    addNestedResultsRight(final CompareResults r)\n
     '''
 def getNestedResultsLeft():
-    '''public CompareResults[] getNestedResultsLeft()
+    '''returns CompareResults[]\n\n
+    getNestedResultsLeft()\n
     '''
 def getNestedResultsRight():
-    '''public CompareResults[] getNestedResultsRight()
+    '''returns CompareResults[]\n\n
+    getNestedResultsRight()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def dump():
-    '''public void dump(final int indent)
+    '''returns None\n\n
+    dump(final int indent)\n
     '''

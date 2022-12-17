@@ -1,9 +1,12 @@
-def CDUISearchOffOutProcess():
-    '''public CDUISearchOffOutProcess()
+def ():
+    '''returns CDUISearchOffOutProcess\n\n
+    ()\n
     '''
 def search():
-    '''public void search(final MboSetRemote mboSet, final String text)
+    '''returns None\n\n
+    search(final MboSetRemote mboSet, final String text)\n
     '''
 def searchsc():
-    '''public void searchsc(final MboSetRemote mboSet, final String text, final String specchars)
+    '''returns None\n\n
+    searchsc(final MboSetRemote mboSet, final String text, final String specchars)\n
     '''

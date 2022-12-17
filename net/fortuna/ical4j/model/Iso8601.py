@@ -1,11 +1,14 @@
-def Iso8601():
-    '''public Iso8601(final long time, final String pattern, final int precision, final TimeZone tz)
-    public Iso8601(final String pattern, final int precision, final TimeZone tz)
-    public Iso8601(final Date time, final String pattern, final int precision, final TimeZone tz)
+def ():
+    '''returns Iso8601\n\n
+    (final long time, final String pattern, final int precision, final TimeZone tz)\n
+    (final String pattern, final int precision, final TimeZone tz)\n
+    (final Date time, final String pattern, final int precision, final TimeZone tz)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setTime():
-    '''public void setTime(final long time)
+    '''returns None\n\n
+    setTime(final long time)\n
     '''

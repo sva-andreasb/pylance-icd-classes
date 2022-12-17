@@ -1,31 +1,38 @@
-def NTLMScheme():
-    '''public NTLMScheme()
-    public NTLMScheme(final String challenge)
+def ():
+    '''returns NTLMScheme\n\n
+    ()\n
+    (final String challenge)\n
     '''
 def processChallenge():
-    '''public void processChallenge(final String challenge)
+    '''returns None\n\n
+    processChallenge(final String challenge)\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def getSchemeName():
-    '''public String getSchemeName()
+    '''returns String\n\n
+    getSchemeName()\n
     '''
 def getRealm():
-    '''public String getRealm()
+    '''returns String\n\n
+    getRealm()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def isConnectionBased():
-    '''public boolean isConnectionBased()
+    '''returns boolean\n\n
+    isConnectionBased()\n
     '''
 def authenticate():
-    '''public static String authenticate(final NTCredentials credentials, final String challenge)
-    public static String authenticate(final NTCredentials credentials, final String challenge, final String charset)
-    public String authenticate(final Credentials credentials, final String method, final String uri)
-    public String authenticate(final Credentials credentials, final HttpMethod method)
+    '''returns String\n\n
+    authenticate(final Credentials credentials, final String method, final String uri)\n
+    authenticate(final Credentials credentials, final HttpMethod method)\n
     '''

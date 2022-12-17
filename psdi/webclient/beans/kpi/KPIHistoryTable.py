@@ -1,6 +1,8 @@
 def refreshHistoryData():
-    '''public void refreshHistoryData()
+    '''returns None\n\n
+    refreshHistoryData()\n
     '''
 def refreshhistory():
-    '''public int refreshhistory()
+    '''returns int\n\n
+    refreshhistory()\n
     '''

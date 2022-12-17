@@ -1,6 +1,8 @@
-def FldMaxUserConsultUser():
-    '''public FldMaxUserConsultUser(final MboValue mbv)
+def ():
+    '''returns FldMaxUserConsultUser\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,11 +1,14 @@
-def MaxPatternParser():
-    '''public MaxPatternParser(final String pattern)
+def ():
+    '''returns MaxPatternParser\n\n
+    (final String pattern)\n
     '''
 def finalizeConverter():
-    '''public void finalizeConverter(final char formatChar)
+    '''returns None\n\n
+    finalizeConverter(final char formatChar)\n
     '''
 def convert():
-    '''public String convert(final LoggingEvent event)
-    public String convert(final LoggingEvent event)
-    public String convert(final LoggingEvent event)
+    '''returns String\n\n
+    convert(final LoggingEvent event)\n
+    convert(final LoggingEvent event)\n
+    convert(final LoggingEvent event)\n
     '''

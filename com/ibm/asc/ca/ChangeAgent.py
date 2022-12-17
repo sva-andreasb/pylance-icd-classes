@@ -1,22 +1,29 @@
-def ChangeAgent():
-    '''public ChangeAgent()
+def ():
+    '''returns ChangeAgent\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final String initializationString)
+    '''returns None\n\n
+    init(final String initializationString)\n
     '''
 def putFile():
-    '''public void putFile(final File f, final InputStream in)
+    '''returns None\n\n
+    putFile(final File f, final InputStream in)\n
     '''
 def getFile():
-    '''public InputStream getFile(final File f)
+    '''returns InputStream\n\n
+    getFile(final File f)\n
     '''
 def invokeAnt():
-    '''public void invokeAnt(final File f, final Properties props, final String target)
-    public void invokeAnt(final File f, final Properties props, String target, final DefaultLogger[] loggers)
+    '''returns None\n\n
+    invokeAnt(final File f, final Properties props, final String target)\n
+    invokeAnt(final File f, final Properties props, String target, final DefaultLogger[] loggers)\n
     '''
 def getLastLog():
-    '''public InputStream getLastLog()
+    '''returns InputStream\n\n
+    getLastLog()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

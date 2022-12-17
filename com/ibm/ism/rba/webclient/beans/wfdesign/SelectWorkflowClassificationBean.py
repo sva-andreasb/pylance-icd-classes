@@ -1,21 +1,28 @@
-def SelectWorkflowClassificationBean():
-    '''public SelectWorkflowClassificationBean()
+def ():
+    '''returns SelectWorkflowClassificationBean\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def getTop():
-    '''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getTop(final String[] dataattributes, final int maxchildren)\n
     '''
 def getChildren():
-    '''public Object[][] getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def refreshTree():
-    '''public void refreshTree()
+    '''returns None\n\n
+    refreshTree()\n
     '''

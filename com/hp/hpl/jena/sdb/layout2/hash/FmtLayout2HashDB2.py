@@ -1,3 +1,4 @@
-def FmtLayout2HashDB2():
-    '''public FmtLayout2HashDB2(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2HashDB2\n\n
+    (final SDBConnection connection)\n
     '''

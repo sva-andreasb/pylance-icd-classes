@@ -1,5 +1,6 @@
 def computeObjectSelected():
-    '''public Object computeObjectSelected(final IlvBasicView ilvBasicView, final String[] array)
-    public Object computeObjectSelected(final IlvFacesHierarchyChartView ilvFacesHierarchyChartView, final int n)
-    public Object computeObjectSelected(final IlvHierarchyChart ilvHierarchyChart, final int n)
+    '''returns Object\n\n
+    computeObjectSelected(final IlvBasicView ilvBasicView, final String[] array)\n
+    computeObjectSelected(final IlvFacesHierarchyChartView ilvFacesHierarchyChartView, final int n)\n
+    computeObjectSelected(final IlvHierarchyChart ilvHierarchyChart, final int n)\n
     '''

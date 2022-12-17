@@ -1,9 +1,8 @@
-def lazyList():
-    '''public static <E> LazyList<E> lazyList(final List<E> list, final Factory<? extends E> factory)
-    '''
 def get():
-    '''public E get(final int index)
+    '''returns E\n\n
+    get(final int index)\n
     '''
 def subList():
-    '''public List<E> subList(final int fromIndex, final int toIndex)
+    '''returns List<E>\n\n
+    subList(final int fromIndex, final int toIndex)\n
     '''

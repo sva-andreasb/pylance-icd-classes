@@ -1,16 +1,17 @@
-def PdfName():
-    '''public PdfName(final String name)
-    public PdfName(final byte[] bytes)
+def ():
+    '''returns PdfName\n\n
+    (final String name)\n
+    (final byte[] bytes)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object object)
+    '''returns int\n\n
+    compareTo(final Object object)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def decodeName():
-    '''public static String decodeName(final String name)
+    '''returns int\n\n
+    hashCode()\n
     '''

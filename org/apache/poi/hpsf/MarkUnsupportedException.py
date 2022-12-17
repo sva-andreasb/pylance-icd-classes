@@ -1,6 +1,7 @@
-def MarkUnsupportedException():
-    '''public MarkUnsupportedException()
-    public MarkUnsupportedException(final String msg)
-    public MarkUnsupportedException(final Throwable reason)
-    public MarkUnsupportedException(final String msg, final Throwable reason)
+def ():
+    '''returns MarkUnsupportedException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable reason)\n
+    (final String msg, final Throwable reason)\n
     '''

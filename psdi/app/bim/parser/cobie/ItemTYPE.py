@@ -1,204 +1,272 @@
-def ItemTYPE():
-    '''public ItemTYPE()
+def ():
+    '''returns ItemTYPE\n\n
+    ()\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def skip():
-    '''public boolean skip(final Parser parser, final long flags)
+    '''returns boolean\n\n
+    skip(final Parser parser, final long flags)\n
     '''
 def getNominalLength():
-    '''public String getNominalLength()
+    '''returns String\n\n
+    getNominalLength()\n
     '''
 def setNominalLength():
-    '''public void setNominalLength(final String nominalLength)
+    '''returns None\n\n
+    setNominalLength(final String nominalLength)\n
     '''
 def getNominalWidth():
-    '''public String getNominalWidth()
+    '''returns String\n\n
+    getNominalWidth()\n
     '''
 def setNominalWidth():
-    '''public void setNominalWidth(final String nominalWidth)
+    '''returns None\n\n
+    setNominalWidth(final String nominalWidth)\n
     '''
 def getNominalHeight():
-    '''public String getNominalHeight()
+    '''returns String\n\n
+    getNominalHeight()\n
     '''
 def setNominalHeight():
-    '''public void setNominalHeight(final String nominalHeight)
+    '''returns None\n\n
+    setNominalHeight(final String nominalHeight)\n
     '''
 def getModelReference():
-    '''public String getModelReference()
+    '''returns String\n\n
+    getModelReference()\n
     '''
 def setModelReference():
-    '''public void setModelReference(final String modelReference)
+    '''returns None\n\n
+    setModelReference(final String modelReference)\n
     '''
 def getShape():
-    '''public String getShape()
+    '''returns String\n\n
+    getShape()\n
     '''
 def setShape():
-    '''public void setShape(final String shape)
+    '''returns None\n\n
+    setShape(final String shape)\n
     '''
 def getSize():
-    '''public String getSize()
+    '''returns String\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final String size)
+    '''returns None\n\n
+    setSize(final String size)\n
     '''
 def getColor():
-    '''public String getColor()
+    '''returns String\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final String color)
+    '''returns None\n\n
+    setColor(final String color)\n
     '''
 def getFinish():
-    '''public String getFinish()
+    '''returns String\n\n
+    getFinish()\n
     '''
 def setFinish():
-    '''public void setFinish(final String finish)
+    '''returns None\n\n
+    setFinish(final String finish)\n
     '''
 def getGrade():
-    '''public String getGrade()
+    '''returns String\n\n
+    getGrade()\n
     '''
 def setGrade():
-    '''public void setGrade(final String grade)
+    '''returns None\n\n
+    setGrade(final String grade)\n
     '''
 def getMaterial():
-    '''public String getMaterial()
+    '''returns String\n\n
+    getMaterial()\n
     '''
 def setMaterial():
-    '''public void setMaterial(final String material)
+    '''returns None\n\n
+    setMaterial(final String material)\n
     '''
 def getConstituents():
-    '''public String getConstituents()
+    '''returns String\n\n
+    getConstituents()\n
     '''
 def setConstituents():
-    '''public void setConstituents(final String constituents)
+    '''returns None\n\n
+    setConstituents(final String constituents)\n
     '''
 def getFeatures():
-    '''public String getFeatures()
+    '''returns String\n\n
+    getFeatures()\n
     '''
 def setFeatures():
-    '''public void setFeatures(final String features)
+    '''returns None\n\n
+    setFeatures(final String features)\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def addComponent():
-    '''public void addComponent(final ItemCOMPONENT component)
+    '''returns None\n\n
+    addComponent(final ItemCOMPONENT component)\n
     '''
 def components():
-    '''public Enumeration<ItemCOMPONENT> components()
+    '''returns Enumeration<ItemCOMPONENT>\n\n
+    components()\n
     '''
 def addSpare():
-    '''public void addSpare(final ItemSPARE spare)
+    '''returns None\n\n
+    addSpare(final ItemSPARE spare)\n
     '''
 def spares():
-    '''public Enumeration<ItemSPARE> spares()
+    '''returns Enumeration<ItemSPARE>\n\n
+    spares()\n
     '''
 def addJob():
-    '''public void addJob(final ItemJOB job)
+    '''returns None\n\n
+    addJob(final ItemJOB job)\n
     '''
 def jobs():
-    '''public Enumeration<ItemJOB> jobs()
+    '''returns Enumeration<ItemJOB>\n\n
+    jobs()\n
     '''
 def getAccessibilityPerformance():
-    '''public String getAccessibilityPerformance()
+    '''returns String\n\n
+    getAccessibilityPerformance()\n
     '''
 def setAccessibilityPerformance():
-    '''public void setAccessibilityPerformance(final String accessibilityPerformance)
+    '''returns None\n\n
+    setAccessibilityPerformance(final String accessibilityPerformance)\n
     '''
 def getCodePerformance():
-    '''public String getCodePerformance()
+    '''returns String\n\n
+    getCodePerformance()\n
     '''
 def setCodePerformance():
-    '''public void setCodePerformance(final String codePerformance)
+    '''returns None\n\n
+    setCodePerformance(final String codePerformance)\n
     '''
 def getSustainabilityPerformance():
-    '''public String getSustainabilityPerformance()
+    '''returns String\n\n
+    getSustainabilityPerformance()\n
     '''
 def setSustainabilityPerformance():
-    '''public void setSustainabilityPerformance(final String sustainabilityPerformance)
+    '''returns None\n\n
+    setSustainabilityPerformance(final String sustainabilityPerformance)\n
     '''
 def getAssetType():
-    '''public String getAssetType()
+    '''returns String\n\n
+    getAssetType()\n
     '''
 def setAssetType():
-    '''public void setAssetType(final String assetType)
+    '''returns None\n\n
+    setAssetType(final String assetType)\n
     '''
 def getManufacturer():
-    '''public String getManufacturer()
+    '''returns String\n\n
+    getManufacturer()\n
     '''
 def setManufacturer():
-    '''public void setManufacturer(final String manufacturer)
+    '''returns None\n\n
+    setManufacturer(final String manufacturer)\n
     '''
 def getManufacturerReference():
-    '''public ItemCONTACT getManufacturerReference()
+    '''returns ItemCONTACT\n\n
+    getManufacturerReference()\n
     '''
 def getModelNumber():
-    '''public String getModelNumber()
+    '''returns String\n\n
+    getModelNumber()\n
     '''
 def setModelNumber():
-    '''public void setModelNumber(final String modelNumber)
+    '''returns None\n\n
+    setModelNumber(final String modelNumber)\n
     '''
 def getWarrantyGuarantorParts():
-    '''public String getWarrantyGuarantorParts()
+    '''returns String\n\n
+    getWarrantyGuarantorParts()\n
     '''
 def getWarrantyGuarantorPartsRef():
-    '''public ItemCONTACT getWarrantyGuarantorPartsRef()
+    '''returns ItemCONTACT\n\n
+    getWarrantyGuarantorPartsRef()\n
     '''
 def setWarrantyGuarantorParts():
-    '''public void setWarrantyGuarantorParts(final String warrantyGuarantorParts)
+    '''returns None\n\n
+    setWarrantyGuarantorParts(final String warrantyGuarantorParts)\n
     '''
 def getWarrantyDurationParts():
-    '''public String getWarrantyDurationParts()
+    '''returns String\n\n
+    getWarrantyDurationParts()\n
     '''
 def setWarrantyDurationParts():
-    '''public void setWarrantyDurationParts(final String warrantyDurationParts)
+    '''returns None\n\n
+    setWarrantyDurationParts(final String warrantyDurationParts)\n
     '''
 def getWarrantyGuarantorLabor():
-    '''public String getWarrantyGuarantorLabor()
+    '''returns String\n\n
+    getWarrantyGuarantorLabor()\n
     '''
 def getWarrantyGuarantorLaborRef():
-    '''public ItemCONTACT getWarrantyGuarantorLaborRef()
+    '''returns ItemCONTACT\n\n
+    getWarrantyGuarantorLaborRef()\n
     '''
 def setWarrantyGuarantorLabor():
-    '''public void setWarrantyGuarantorLabor(final String warrantyGuarantorLabor)
+    '''returns None\n\n
+    setWarrantyGuarantorLabor(final String warrantyGuarantorLabor)\n
     '''
 def getWarrantyDurationLabor():
-    '''public String getWarrantyDurationLabor()
+    '''returns String\n\n
+    getWarrantyDurationLabor()\n
     '''
 def setWarrantyDurationLabor():
-    '''public void setWarrantyDurationLabor(final String warrantyDurationLabor)
+    '''returns None\n\n
+    setWarrantyDurationLabor(final String warrantyDurationLabor)\n
     '''
 def getWarrantyDurationUnit():
-    '''public String getWarrantyDurationUnit()
+    '''returns String\n\n
+    getWarrantyDurationUnit()\n
     '''
 def setWarrantyDurationUnit():
-    '''public void setWarrantyDurationUnit(final String warrantyDurationUnit)
+    '''returns None\n\n
+    setWarrantyDurationUnit(final String warrantyDurationUnit)\n
     '''
 def getReplacementCost():
-    '''public String getReplacementCost()
+    '''returns String\n\n
+    getReplacementCost()\n
     '''
 def setReplacementCost():
-    '''public void setReplacementCost(final String replacementCost)
+    '''returns None\n\n
+    setReplacementCost(final String replacementCost)\n
     '''
 def getExpectedLife():
-    '''public String getExpectedLife()
+    '''returns String\n\n
+    getExpectedLife()\n
     '''
 def setExpectedLife():
-    '''public void setExpectedLife(final String expectedLife)
+    '''returns None\n\n
+    setExpectedLife(final String expectedLife)\n
     '''
 def getDurationUnit():
-    '''public String getDurationUnit()
+    '''returns String\n\n
+    getDurationUnit()\n
     '''
 def setDurationUnit():
-    '''public void setDurationUnit(final String durationUnit)
+    '''returns None\n\n
+    setDurationUnit(final String durationUnit)\n
     '''
 def getWarrantyDescription():
-    '''public String getWarrantyDescription()
+    '''returns String\n\n
+    getWarrantyDescription()\n
     '''
 def setWarrantyDescription():
-    '''public void setWarrantyDescription(final String warrantyDescription)
+    '''returns None\n\n
+    setWarrantyDescription(final String warrantyDescription)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

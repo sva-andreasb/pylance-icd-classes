@@ -1,16 +1,21 @@
-def DBPropPrefix():
-    '''public DBPropPrefix(final SpecializedGraph g, final String value, final String uri)
-    public DBPropPrefix(final SpecializedGraph g, final Node n)
+def ():
+    '''returns DBPropPrefix\n\n
+    (final SpecializedGraph g, final String value, final String uri)\n
+    (final SpecializedGraph g, final Node n)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def listTriples():
-    '''public ExtendedIterator<Triple> listTriples()
+    '''returns ExtendedIterator<Triple>\n\n
+    listTriples()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

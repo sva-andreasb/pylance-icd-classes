@@ -1,58 +1,65 @@
 SEPARATOR = "char  '/'"
-def compile():
-    '''public static JsonPointer compile(final String input)
-    '''
-def valueOf():
-    '''public static JsonPointer valueOf(final String input)
-    '''
-def forPath():
-    '''public static JsonPointer forPath(JsonStreamContext context, final boolean includeRoot)
-    '''
 def matches():
-    '''public boolean matches()
+    '''returns boolean\n\n
+    matches()\n
     '''
 def getMatchingProperty():
-    '''public String getMatchingProperty()
+    '''returns String\n\n
+    getMatchingProperty()\n
     '''
 def getMatchingIndex():
-    '''public int getMatchingIndex()
+    '''returns int\n\n
+    getMatchingIndex()\n
     '''
 def mayMatchProperty():
-    '''public boolean mayMatchProperty()
+    '''returns boolean\n\n
+    mayMatchProperty()\n
     '''
 def mayMatchElement():
-    '''public boolean mayMatchElement()
+    '''returns boolean\n\n
+    mayMatchElement()\n
     '''
 def last():
-    '''public JsonPointer last()
+    '''returns JsonPointer\n\n
+    last()\n
     '''
 def append():
-    '''public JsonPointer append(final JsonPointer tail)
+    '''returns JsonPointer\n\n
+    append(final JsonPointer tail)\n
     '''
 def matchesProperty():
-    '''public boolean matchesProperty(final String name)
+    '''returns boolean\n\n
+    matchesProperty(final String name)\n
     '''
 def matchProperty():
-    '''public JsonPointer matchProperty(final String name)
+    '''returns JsonPointer\n\n
+    matchProperty(final String name)\n
     '''
 def matchesElement():
-    '''public boolean matchesElement(final int index)
+    '''returns boolean\n\n
+    matchesElement(final int index)\n
     '''
 def matchElement():
-    '''public JsonPointer matchElement(final int index)
+    '''returns JsonPointer\n\n
+    matchElement(final int index)\n
     '''
 def tail():
-    '''public JsonPointer tail()
+    '''returns JsonPointer\n\n
+    tail()\n
     '''
 def head():
-    '''public JsonPointer head()
+    '''returns JsonPointer\n\n
+    head()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

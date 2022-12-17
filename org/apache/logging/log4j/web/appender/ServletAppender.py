@@ -1,18 +1,16 @@
-def newBuilder():
-    '''public static <B extends Builder<B>> B newBuilder()
-    '''
 def append():
-    '''public void append(final LogEvent event)
-    '''
-def createAppender():
-    '''public static ServletAppender createAppender(final Layout<? extends Serializable> layout, final Filter filter, final String name, final boolean ignoreExceptions)
+    '''returns None\n\n
+    append(final LogEvent event)\n
     '''
 def build():
-    '''public ServletAppender build()
+    '''returns ServletAppender\n\n
+    build()\n
     '''
 def isLogThrowables():
-    '''public boolean isLogThrowables()
+    '''returns boolean\n\n
+    isLogThrowables()\n
     '''
 def setLogThrowables():
-    '''public void setLogThrowables(final boolean logThrowables)
+    '''returns None\n\n
+    setLogThrowables(final boolean logThrowables)\n
     '''

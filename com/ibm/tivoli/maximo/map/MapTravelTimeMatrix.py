@@ -1,6 +1,8 @@
 def calculateTravelTimeMatrixFor():
-    '''public List<Long> calculateTravelTimeMatrixFor(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)
+    '''returns List<Long>\n\n
+    calculateTravelTimeMatrixFor(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)\n
     '''
 def getCurrentProvider():
-    '''public String getCurrentProvider(final UserInfo userInfo)
+    '''returns String\n\n
+    getCurrentProvider(final UserInfo userInfo)\n
     '''

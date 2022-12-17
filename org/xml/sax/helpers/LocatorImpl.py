@@ -1,28 +1,37 @@
-def LocatorImpl():
-    '''public LocatorImpl()
-    public LocatorImpl(final Locator locator)
+def ():
+    '''returns LocatorImpl\n\n
+    ()\n
+    (final Locator locator)\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''
 def setPublicId():
-    '''public void setPublicId(final String publicId)
+    '''returns None\n\n
+    setPublicId(final String publicId)\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
     '''
 def setLineNumber():
-    '''public void setLineNumber(final int lineNumber)
+    '''returns None\n\n
+    setLineNumber(final int lineNumber)\n
     '''
 def setColumnNumber():
-    '''public void setColumnNumber(final int columnNumber)
+    '''returns None\n\n
+    setColumnNumber(final int columnNumber)\n
     '''

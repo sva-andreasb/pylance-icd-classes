@@ -1,85 +1,109 @@
-def DiagramWorkflowNode():
-    '''public DiagramWorkflowNode(final WorkflowNode node, final int scale)
-    public DiagramWorkflowNode(final WorkflowNode node, final int scale, final boolean inToolbar)
+def ():
+    '''returns DiagramWorkflowNode\n\n
+    (final WorkflowNode node, final int scale)\n
+    (final WorkflowNode node, final int scale, final boolean inToolbar)\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def getWorkflowNode():
-    '''public WorkflowNode getWorkflowNode()
+    '''returns WorkflowNode\n\n
+    getWorkflowNode()\n
     '''
 def isSuccessorOf():
-    '''public boolean isSuccessorOf(final DiagramWorkflowNode dnode)
+    '''returns boolean\n\n
+    isSuccessorOf(final DiagramWorkflowNode dnode)\n
     '''
 def addIncomingRelationship():
-    '''public void addIncomingRelationship(final WorkflowRelationship rel)
+    '''returns None\n\n
+    addIncomingRelationship(final WorkflowRelationship rel)\n
     '''
 def removeIncomingRelationship():
-    '''public void removeIncomingRelationship(final WorkflowRelationship rel)
+    '''returns None\n\n
+    removeIncomingRelationship(final WorkflowRelationship rel)\n
     '''
 def addOutgoingRelationship():
-    '''public void addOutgoingRelationship(final WorkflowRelationship rel)
+    '''returns None\n\n
+    addOutgoingRelationship(final WorkflowRelationship rel)\n
     '''
 def removeOutgoingRelationship():
-    '''public void removeOutgoingRelationship(final WorkflowRelationship rel)
+    '''returns None\n\n
+    removeOutgoingRelationship(final WorkflowRelationship rel)\n
     '''
 def getIncomingRelationships():
-    '''public Vector getIncomingRelationships()
+    '''returns Vector\n\n
+    getIncomingRelationships()\n
     '''
 def getOutgoingRelationships():
-    '''public Vector getOutgoingRelationships()
+    '''returns Vector\n\n
+    getOutgoingRelationships()\n
     '''
 def getRelationshipLocation():
-    '''public int getRelationshipLocation(final WorkflowRelationship rel, final boolean incoming)
+    '''returns int\n\n
+    getRelationshipLocation(final WorkflowRelationship rel, final boolean incoming)\n
     '''
 def isIndexUsed():
-    '''public boolean isIndexUsed(final int index, final boolean incoming)
+    '''returns boolean\n\n
+    isIndexUsed(final int index, final boolean incoming)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def getCenterPoint():
-    '''public int getCenterPoint()
+    '''returns int\n\n
+    getCenterPoint()\n
     '''
 def setSelected():
-    '''public void setSelected(final boolean state)
+    '''returns None\n\n
+    setSelected(final boolean state)\n
     '''
 def setBackground():
-    '''public void setBackground(final Color background)
+    '''returns None\n\n
+    setBackground(final Color background)\n
     '''
 def getSelectedForeground():
-    '''public Color getSelectedForeground()
+    '''returns Color\n\n
+    getSelectedForeground()\n
     '''
 def setSelectedForeground():
-    '''public void setSelectedForeground(final Color selectedForeground)
+    '''returns None\n\n
+    setSelectedForeground(final Color selectedForeground)\n
     '''
 def getSelectedBackground():
-    '''public Color getSelectedBackground()
+    '''returns Color\n\n
+    getSelectedBackground()\n
     '''
 def setSelectedBackground():
-    '''public void setSelectedBackground(final Color selectedBackground)
+    '''returns None\n\n
+    setSelectedBackground(final Color selectedBackground)\n
     '''
 def moreInomingAllowed():
-    '''public boolean moreInomingAllowed()
+    '''returns boolean\n\n
+    moreInomingAllowed()\n
     '''
 def moreOutgoingAllowed():
-    '''public boolean moreOutgoingAllowed()
+    '''returns boolean\n\n
+    moreOutgoingAllowed()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isFocusTraversable():
-    '''public boolean isFocusTraversable()
-    '''
-def setErrorIcon():
-    '''public static void setErrorIcon(final Icon errorIcon)
+    '''returns boolean\n\n
+    isFocusTraversable()\n
     '''

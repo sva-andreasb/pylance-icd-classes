@@ -1,122 +1,158 @@
 SERVICES_PROVIDER_PROPERTY = "String  \"JAppFrame:ServicesProvider\""
 FORM_URL_PROPERTY = "String  \"JAppFrame:FormURL\""
-def IlvForm():
-    '''public IlvForm()
-    '''
-def getFormDevice():
-    '''public final IlvFormDevice getFormDevice()
+def ():
+    '''returns IlvForm\n\n
+    ()\n
     '''
 def setFormDevice():
-    '''public void setFormDevice(final IlvFormDevice j)
+    '''returns None\n\n
+    setFormDevice(final IlvFormDevice j)\n
     '''
 def createControl():
-    '''public Object createControl(final String s, final Class clazz, final Object o, final Element element)
+    '''returns Object\n\n
+    createControl(final String s, final Class clazz, final Object o, final Element element)\n
     '''
 def addControl():
-    '''public boolean addControl(final Object o, final Object o2, final Object o3, final int n)
+    '''returns boolean\n\n
+    addControl(final Object o, final Object o2, final Object o3, final int n)\n
     '''
 def registerControl():
-    '''public void registerControl(final Object o, final Object o2, final String name, final int n)
+    '''returns None\n\n
+    registerControl(final Object o, final Object o2, final String name, final int n)\n
     '''
 def removeControl():
-    '''public boolean removeControl(final Object o)
+    '''returns boolean\n\n
+    removeControl(final Object o)\n
     '''
 def getControlName():
-    '''public String getControlName(final Object o)
+    '''returns String\n\n
+    getControlName(final Object o)\n
     '''
 def setControlName():
-    '''public String setControlName(final Object o, final String name)
+    '''returns String\n\n
+    setControlName(final Object o, final String name)\n
     '''
 def getControl():
-    '''public Object getControl(final String s)
+    '''returns Object\n\n
+    getControl(final String s)\n
     '''
 def getControlType():
-    '''public String getControlType(final Object o)
+    '''returns String\n\n
+    getControlType(final Object o)\n
     '''
 def getServicesProvider():
-    '''public IlvServicesProvider getServicesProvider()
+    '''returns IlvServicesProvider\n\n
+    getServicesProvider()\n
     '''
 def setServicesProvider():
-    '''public IlvServicesProvider setServicesProvider(final IlvServicesProvider ilvServicesProvider)
+    '''returns IlvServicesProvider\n\n
+    setServicesProvider(final IlvServicesProvider ilvServicesProvider)\n
     '''
 def isLocaleDependentProperty():
-    '''public boolean isLocaleDependentProperty(final Object o, final String s)
+    '''returns boolean\n\n
+    isLocaleDependentProperty(final Object o, final String s)\n
     '''
 def getString():
-    '''public String getString(final String key)
+    '''returns String\n\n
+    getString(final String key)\n
     '''
 def getIcon():
-    '''public Icon getIcon(final String s)
+    '''returns Icon\n\n
+    getIcon(final String s)\n
     '''
 def addResourceBundle():
-    '''public void addResourceBundle(final ResourceBundle resourceBundle)
+    '''returns None\n\n
+    addResourceBundle(final ResourceBundle resourceBundle)\n
     '''
 def removeResourceBundle():
-    '''public boolean removeResourceBundle(final ResourceBundle resourceBundle)
+    '''returns boolean\n\n
+    removeResourceBundle(final ResourceBundle resourceBundle)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getControlOrientation():
-    '''public ComponentOrientation getControlOrientation(final Object o)
+    '''returns ComponentOrientation\n\n
+    getControlOrientation(final Object o)\n
     '''
 def setControlOrientation():
-    '''public void setControlOrientation(final Object o, final ComponentOrientation componentOrientation)
+    '''returns None\n\n
+    setControlOrientation(final Object o, final ComponentOrientation componentOrientation)\n
     '''
 def getDefaultControlOrientation():
-    '''public ComponentOrientation getDefaultControlOrientation()
+    '''returns ComponentOrientation\n\n
+    getDefaultControlOrientation()\n
     '''
 def addControlListener():
-    '''public void addControlListener(final Object o, final Class clazz, final ControlListener controlListener)
+    '''returns None\n\n
+    addControlListener(final Object o, final Class clazz, final ControlListener controlListener)\n
     '''
 def removeControlListener():
-    '''public void removeControlListener(final Object o, final Class clazz, final ControlListener controlListener)
+    '''returns None\n\n
+    removeControlListener(final Object o, final Class clazz, final ControlListener controlListener)\n
     '''
 def getButton():
-    '''public IlvFormButton getButton(final Object o)
+    '''returns IlvFormButton\n\n
+    getButton(final Object o)\n
     '''
 def getInput():
-    '''public IlvFormInput getInput(final Object o)
+    '''returns IlvFormInput\n\n
+    getInput(final Object o)\n
     '''
 def getLabel():
-    '''public IlvFormLabel getLabel(final Object o)
+    '''returns IlvFormLabel\n\n
+    getLabel(final Object o)\n
     '''
 def setControlProperty():
-    '''public void setControlProperty(final Object o, final String s, Object o2)
+    '''returns None\n\n
+    setControlProperty(final Object o, final String s, Object o2)\n
     '''
 def getControlProperty():
-    '''public Object getControlProperty(final Object o, final String s)
+    '''returns Object\n\n
+    getControlProperty(final Object o, final String s)\n
     '''
 def setControlPropertyAsText():
-    '''public void setControlPropertyAsText(final Object o, final String s, String s2)
+    '''returns None\n\n
+    setControlPropertyAsText(final Object o, final String s, String s2)\n
     '''
 def getControlPropertyAsText():
-    '''public Object getControlPropertyAsText(final Object o, final String s)
+    '''returns Object\n\n
+    getControlPropertyAsText(final Object o, final String s)\n
     '''
 def setEnabled():
-    '''public void setEnabled(final Object o, final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final Object o, final boolean enabled)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Object o)
+    '''returns boolean\n\n
+    isEnabled(final Object o)\n
     '''
 def localeChanged():
-    '''public void localeChanged(final Locale locale)
+    '''returns None\n\n
+    localeChanged(final Locale locale)\n
     '''
 def addLocaleListener():
-    '''public void addLocaleListener(final FormLocaleListener formLocaleListener)
+    '''returns None\n\n
+    addLocaleListener(final FormLocaleListener formLocaleListener)\n
     '''
 def removeLocaleListener():
-    '''public void removeLocaleListener(final FormLocaleListener formLocaleListener)
+    '''returns None\n\n
+    removeLocaleListener(final FormLocaleListener formLocaleListener)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String propertyName, final Object newValue)
+    '''returns Object\n\n
+    setProperty(final String propertyName, final Object newValue)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener listener)\n
     '''

@@ -1,29 +1,38 @@
-def PresentationApiImpl():
-    '''public PresentationApiImpl(final ApiSession sess)
+def ():
+    '''returns PresentationApiImpl\n\n
+    (final ApiSession sess)\n
     '''
 def getDetailsPanel():
-    '''public DetailPanelModel getDetailsPanel(final ObjectRef ref)
-    public DetailPanelModel getDetailsPanel(final ObjectRef ref, final Locale locale)
+    '''returns DetailPanelModel\n\n
+    getDetailsPanel(final ObjectRef ref)\n
+    getDetailsPanel(final ObjectRef ref, final Locale locale)\n
     '''
 def getGraphViewImage():
-    '''public ImageStream getGraphViewImage(final ViewDefiner view)
+    '''returns ImageStream\n\n
+    getGraphViewImage(final ViewDefiner view)\n
     '''
 def getGraphView():
-    '''public TopologyGraphModel getGraphView(final ViewDefiner graphView)
+    '''returns TopologyGraphModel\n\n
+    getGraphView(final ViewDefiner graphView)\n
     '''
 def getTreeView():
-    '''public TopologyTreeModel getTreeView(final ViewDefiner treeView)
+    '''returns TopologyTreeModel\n\n
+    getTreeView(final ViewDefiner treeView)\n
     '''
 def getNodeInfoMap():
-    '''public Map getNodeInfoMap()
+    '''returns Map\n\n
+    getNodeInfoMap()\n
     '''
 def compare():
-    '''public ComparisonResult compare(final ObjectRef obj1, final ObjectRef[] objs, final CompareOptions opts)
-    public ComparisonResult compare(final ModelObject left, final ModelObject[] right, final CompareOptions opts)
+    '''returns ComparisonResult\n\n
+    compare(final ObjectRef obj1, final ObjectRef[] objs, final CompareOptions opts)\n
+    compare(final ModelObject left, final ModelObject[] right, final CompareOptions opts)\n
     '''
 def findImpactedBusinessApplications():
-    '''public Application[] findImpactedBusinessApplications(final Guid[] objects)
+    '''returns Application[]\n\n
+    findImpactedBusinessApplications(final Guid[] objects)\n
     '''
 def findImpactedBusinessServices():
-    '''public BusinessSystem[] findImpactedBusinessServices(final Guid[] objects)
+    '''returns BusinessSystem[]\n\n
+    findImpactedBusinessServices(final Guid[] objects)\n
     '''

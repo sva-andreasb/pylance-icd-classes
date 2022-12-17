@@ -1,6 +1,8 @@
-def LiveChatTopicSR():
-    '''public LiveChatTopicSR(final MboSet ms)
+def ():
+    '''returns LiveChatTopicSR\n\n
+    (final MboSet ms)\n
     '''
 def addTopic():
-    '''public void addTopic(final String tktemplate)
+    '''returns None\n\n
+    addTopic(final String tktemplate)\n
     '''

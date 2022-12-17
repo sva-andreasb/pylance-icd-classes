@@ -1,6 +1,8 @@
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final String s)
+    '''returns None\n\n
+    setVersion(final String s)\n
     '''

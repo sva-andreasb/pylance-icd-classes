@@ -1,15 +1,16 @@
-def OslcInteractionGroupAppsSet():
-    '''public OslcInteractionGroupAppsSet(final MboServerInterface ms)
+def ():
+    '''returns OslcInteractionGroupAppsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
-    '''
-def getMenuMap():
-    '''public Map<String, String> getMenuMap()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getOriginalMenuId():
-    '''public String getOriginalMenuId(final String menuId)
+    '''returns String\n\n
+    getOriginalMenuId(final String menuId)\n
     '''
 def setMenuMap():
-    '''public void setMenuMap(final String menuId, final String originalMenuId)
+    '''returns None\n\n
+    setMenuMap(final String menuId, final String originalMenuId)\n
     '''

@@ -1,9 +1,12 @@
-def PlusPFldOrderNum():
-    '''public PlusPFldOrderNum(final MboValue mbv)
+def ():
+    '''returns PlusPFldOrderNum\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''

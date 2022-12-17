@@ -1,15 +1,20 @@
-def MasUserReporting():
-    '''public MasUserReporting()
+def ():
+    '''returns MasUserReporting\n\n
+    ()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def cronActionMT():
-    '''public void cronActionMT(final UserInfo info)
+    '''returns None\n\n
+    cronActionMT(final UserInfo info)\n
     '''
 def afterCronActionMT():
-    '''public void afterCronActionMT()
+    '''returns None\n\n
+    afterCronActionMT()\n
     '''

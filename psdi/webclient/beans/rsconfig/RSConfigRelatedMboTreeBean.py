@@ -1,30 +1,40 @@
-def RSConfigRelatedMboTreeBean():
-    '''public RSConfigRelatedMboTreeBean()
+def ():
+    '''returns RSConfigRelatedMboTreeBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setChangeAppOrOSForResetContent():
-    '''public void setChangeAppOrOSForResetContent()
+    '''returns None\n\n
+    setChangeAppOrOSForResetContent()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def getCurrentSelectNode():
-    '''public MboRemote getCurrentSelectNode()
+    '''returns MboRemote\n\n
+    getCurrentSelectNode()\n
     '''
 def getTop():
-    '''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getTop(final String[] dataattributes, final int maxchildren)\n
     '''
 def getLastSelectedNodeControlID():
-    '''public String getLastSelectedNodeControlID()
+    '''returns String\n\n
+    getLastSelectedNodeControlID()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def restoreDataAfterSave():
-    '''public void restoreDataAfterSave()
+    '''returns None\n\n
+    restoreDataAfterSave()\n
     '''
 def getChildren():
-    '''public Object[][] getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)\n
     '''

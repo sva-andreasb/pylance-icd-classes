@@ -1,3 +1,4 @@
-def UserMTNP():
-    '''public UserMTNP(final MboSet ms)
+def ():
+    '''returns UserMTNP\n\n
+    (final MboSet ms)\n
     '''

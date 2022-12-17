@@ -1,10 +1,13 @@
-def PlusPFldFeaturePriceDecimalValue():
-    '''public PlusPFldFeaturePriceDecimalValue()
-    public PlusPFldFeaturePriceDecimalValue(final MboValue mbv)
+def ():
+    '''returns PlusPFldFeaturePriceDecimalValue\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def overrideScale():
-    '''public void overrideScale()
+    '''returns None\n\n
+    overrideScale()\n
     '''

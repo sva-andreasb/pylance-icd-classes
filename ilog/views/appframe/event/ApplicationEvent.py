@@ -26,39 +26,49 @@ APPLICATION_SAVING_SETTINGS = "int  123"
 MAIN_WINDOW_INITIALIZED = "int  124"
 APPLICATION_CLOSED = "int  125"
 DOCUMENT_INITIALIZING = "int  126"
-def ApplicationEvent():
-    '''public ApplicationEvent(final int b, final IlvDocument ilvDocument)
-    public ApplicationEvent(final int b, final IlvDocumentView ilvDocumentView)
-    public ApplicationEvent(final int b, final IlvDocument a, final IlvDocumentView c, final IlvDocumentTemplate d)
-    public ApplicationEvent(final int b, final IlvDocument a, final IlvDocumentView ilvDocumentView, final IlvViewContainer e, final IlvDocumentTemplate d)
-    public ApplicationEvent(final int b, final IlvViewContainer ilvViewContainer)
-    public ApplicationEvent(final int b, final IlvDocumentTemplate ilvDocumentTemplate)
-    public ApplicationEvent(final int b, final IlvApplication ilvApplication)
+def ():
+    '''returns ApplicationEvent\n\n
+    (final int b, final IlvDocument ilvDocument)\n
+    (final int b, final IlvDocumentView ilvDocumentView)\n
+    (final int b, final IlvDocument a, final IlvDocumentView c, final IlvDocumentTemplate d)\n
+    (final int b, final IlvDocument a, final IlvDocumentView ilvDocumentView, final IlvViewContainer e, final IlvDocumentTemplate d)\n
+    (final int b, final IlvViewContainer ilvViewContainer)\n
+    (final int b, final IlvDocumentTemplate ilvDocumentTemplate)\n
+    (final int b, final IlvApplication ilvApplication)\n
     '''
 def getDocument():
-    '''public IlvDocument getDocument()
+    '''returns IlvDocument\n\n
+    getDocument()\n
     '''
 def setDocument():
-    '''public void setDocument(final IlvDocument a)
+    '''returns None\n\n
+    setDocument(final IlvDocument a)\n
     '''
 def getID():
-    '''public int getID()
+    '''returns int\n\n
+    getID()\n
     '''
 def getView():
-    '''public IlvDocumentView getView()
+    '''returns IlvDocumentView\n\n
+    getView()\n
     '''
 def setView():
-    '''public void setView(final IlvDocumentView c)
+    '''returns None\n\n
+    setView(final IlvDocumentView c)\n
     '''
 def getViewContainer():
-    '''public IlvViewContainer getViewContainer()
+    '''returns IlvViewContainer\n\n
+    getViewContainer()\n
     '''
 def getDocumentTemplate():
-    '''public IlvDocumentTemplate getDocumentTemplate()
+    '''returns IlvDocumentTemplate\n\n
+    getDocumentTemplate()\n
     '''
 def getDocumentTemplateName():
-    '''public String getDocumentTemplateName()
+    '''returns String\n\n
+    getDocumentTemplateName()\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''

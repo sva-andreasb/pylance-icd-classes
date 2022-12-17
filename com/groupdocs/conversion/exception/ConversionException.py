@@ -1,4 +1,5 @@
-def ConversionException():
-    '''public ConversionException(final String message, final Throwable cause)
-    public ConversionException(final String message)
+def ():
+    '''returns ConversionException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
     '''

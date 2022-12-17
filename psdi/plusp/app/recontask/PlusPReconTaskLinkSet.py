@@ -1,3 +1,4 @@
-def PlusPReconTaskLinkSet():
-    '''public PlusPReconTaskLinkSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPReconTaskLinkSet\n\n
+    (final MboServerInterface arg0)\n
     '''

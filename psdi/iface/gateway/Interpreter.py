@@ -1,6 +1,4 @@
-def Interpreter():
-    '''public Interpreter(final Map<String, String> props)
-    '''
-def interpreteMessage():
-    '''public Map<String, String> interpreteMessage(final byte[] extData)
+def ():
+    '''returns Interpreter\n\n
+    (final Map<String, String> props)\n
     '''

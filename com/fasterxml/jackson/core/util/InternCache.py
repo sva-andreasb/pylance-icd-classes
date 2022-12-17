@@ -1,3 +1,4 @@
 def intern():
-    '''public String intern(final String input)
+    '''returns String\n\n
+    intern(final String input)\n
     '''

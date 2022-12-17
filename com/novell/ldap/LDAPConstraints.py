@@ -1,41 +1,54 @@
-def LDAPConstraints():
-    '''public LDAPConstraints()
-    public LDAPConstraints(final int msLimit, final boolean doReferrals, final LDAPReferralHandler refHandler, final int hopLimit)
+def ():
+    '''returns LDAPConstraints\n\n
+    ()\n
+    (final int msLimit, final boolean doReferrals, final LDAPReferralHandler refHandler, final int hopLimit)\n
     '''
 def getControls():
-    '''public LDAPControl[] getControls()
+    '''returns LDAPControl[]\n\n
+    getControls()\n
     '''
 def getHopLimit():
-    '''public int getHopLimit()
+    '''returns int\n\n
+    getHopLimit()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''
 def getReferralFollowing():
-    '''public boolean getReferralFollowing()
+    '''returns boolean\n\n
+    getReferralFollowing()\n
     '''
 def getTimeLimit():
-    '''public int getTimeLimit()
+    '''returns int\n\n
+    getTimeLimit()\n
     '''
 def setControls():
-    '''public void setControls(final LDAPControl ldapControl)
-    public void setControls(final LDAPControl[] array)
+    '''returns None\n\n
+    setControls(final LDAPControl ldapControl)\n
+    setControls(final LDAPControl[] array)\n
     '''
 def setHopLimit():
-    '''public void setHopLimit(final int hopLimit)
+    '''returns None\n\n
+    setHopLimit(final int hopLimit)\n
     '''
 def setProperty():
-    '''public void setProperty(final String key, final Object value)
+    '''returns None\n\n
+    setProperty(final String key, final Object value)\n
     '''
 def setReferralFollowing():
-    '''public void setReferralFollowing(final boolean doReferrals)
+    '''returns None\n\n
+    setReferralFollowing(final boolean doReferrals)\n
     '''
 def setReferralHandler():
-    '''public void setReferralHandler(final LDAPReferralHandler refHandler)
+    '''returns None\n\n
+    setReferralHandler(final LDAPReferralHandler refHandler)\n
     '''
 def setTimeLimit():
-    '''public void setTimeLimit(final int msLimit)
+    '''returns None\n\n
+    setTimeLimit(final int msLimit)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

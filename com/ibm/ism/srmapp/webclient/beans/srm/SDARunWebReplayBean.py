@@ -1,3 +1,4 @@
 def RUNWEBREPLAYSCENARIO():
-    '''public int RUNWEBREPLAYSCENARIO()
+    '''returns int\n\n
+    RUNWEBREPLAYSCENARIO()\n
     '''

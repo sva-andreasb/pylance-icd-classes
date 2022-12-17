@@ -1,6 +1,8 @@
-def ConstraintPropertyEvent():
-    '''public ConstraintPropertyEvent(final IlvConstraint ilvConstraint, final Object o, final Object o2, final boolean b)
+def ():
+    '''returns ConstraintPropertyEvent\n\n
+    (final IlvConstraint ilvConstraint, final Object o, final Object o2, final boolean b)\n
     '''
 def getConstraint():
-    '''public IlvConstraint getConstraint()
+    '''returns IlvConstraint\n\n
+    getConstraint()\n
     '''

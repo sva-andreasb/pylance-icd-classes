@@ -1,23 +1,30 @@
-def SequenceWriter():
-    '''public SequenceWriter(final DefaultSerializerProvider prov, final JsonGenerator gen, final boolean closeGenerator, final ObjectWriter.Prefetch prefetch)
+def ():
+    '''returns SequenceWriter\n\n
+    (final DefaultSerializerProvider prov, final JsonGenerator gen, final boolean closeGenerator, final ObjectWriter.Prefetch prefetch)\n
     '''
 def init():
-    '''public SequenceWriter init(final boolean wrapInArray)
+    '''returns SequenceWriter\n\n
+    init(final boolean wrapInArray)\n
     '''
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def write():
-    '''public SequenceWriter write(final Object value)
-    public SequenceWriter write(final Object value, final JavaType type)
+    '''returns SequenceWriter\n\n
+    write(final Object value)\n
+    write(final Object value, final JavaType type)\n
     '''
 def writeAll():
-    '''public SequenceWriter writeAll(final Object[] value)
-    public SequenceWriter writeAll(final Iterable<?> iterable)
+    '''returns SequenceWriter\n\n
+    writeAll(final Object[] value)\n
+    writeAll(final Iterable<?> iterable)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

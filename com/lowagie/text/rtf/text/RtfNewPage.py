@@ -1,6 +1,8 @@
-def RtfNewPage():
-    '''public RtfNewPage(final RtfDocument doc)
+def ():
+    '''returns RtfNewPage\n\n
+    (final RtfDocument doc)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

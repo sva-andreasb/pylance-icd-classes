@@ -1,15 +1,20 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getMode():
-    '''public String getMode()
+    '''returns String\n\n
+    getMode()\n
     '''
 def setMode():
-    '''public void setMode(final String mode)
+    '''returns None\n\n
+    setMode(final String mode)\n
     '''

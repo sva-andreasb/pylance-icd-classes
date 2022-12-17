@@ -1,12 +1,16 @@
-def SecurGroupBean():
-    '''public SecurGroupBean()
+def ():
+    '''returns SecurGroupBean\n\n
+    ()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''

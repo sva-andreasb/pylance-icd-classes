@@ -1,27 +1,36 @@
-def QuantizeFilter():
-    '''public QuantizeFilter()
+def ():
+    '''returns QuantizeFilter\n\n
+    ()\n
     '''
 def setNumColors():
-    '''public void setNumColors(final int numColors)
+    '''returns None\n\n
+    setNumColors(final int numColors)\n
     '''
 def getNumColors():
-    '''public int getNumColors()
+    '''returns int\n\n
+    getNumColors()\n
     '''
 def setDither():
-    '''public void setDither(final boolean dither)
+    '''returns None\n\n
+    setDither(final boolean dither)\n
     '''
 def getDither():
-    '''public boolean getDither()
+    '''returns boolean\n\n
+    getDither()\n
     '''
 def setSerpentine():
-    '''public void setSerpentine(final boolean serpentine)
+    '''returns None\n\n
+    setSerpentine(final boolean serpentine)\n
     '''
 def getSerpentine():
-    '''public boolean getSerpentine()
+    '''returns boolean\n\n
+    getSerpentine()\n
     '''
 def quantize():
-    '''public void quantize(final int[] inPixels, final int[] outPixels, final int width, final int height, final int numColors, final boolean dither, final boolean serpentine)
+    '''returns None\n\n
+    quantize(final int[] inPixels, final int[] outPixels, final int width, final int height, final int numColors, final boolean dither, final boolean serpentine)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

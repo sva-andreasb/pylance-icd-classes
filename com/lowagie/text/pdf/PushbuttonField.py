@@ -9,57 +9,75 @@ SCALE_ICON_ALWAYS = "int  1"
 SCALE_ICON_NEVER = "int  2"
 SCALE_ICON_IS_TOO_BIG = "int  3"
 SCALE_ICON_IS_TOO_SMALL = "int  4"
-def PushbuttonField():
-    '''public PushbuttonField(final PdfWriter writer, final Rectangle box, final String fieldName)
+def ():
+    '''returns PushbuttonField\n\n
+    (final PdfWriter writer, final Rectangle box, final String fieldName)\n
     '''
 def getLayout():
-    '''public int getLayout()
+    '''returns int\n\n
+    getLayout()\n
     '''
 def setLayout():
-    '''public void setLayout(final int layout)
+    '''returns None\n\n
+    setLayout(final int layout)\n
     '''
 def getImage():
-    '''public Image getImage()
+    '''returns Image\n\n
+    getImage()\n
     '''
 def setImage():
-    '''public void setImage(final Image image)
+    '''returns None\n\n
+    setImage(final Image image)\n
     '''
 def getTemplate():
-    '''public PdfTemplate getTemplate()
+    '''returns PdfTemplate\n\n
+    getTemplate()\n
     '''
 def setTemplate():
-    '''public void setTemplate(final PdfTemplate template)
+    '''returns None\n\n
+    setTemplate(final PdfTemplate template)\n
     '''
 def getScaleIcon():
-    '''public int getScaleIcon()
+    '''returns int\n\n
+    getScaleIcon()\n
     '''
 def setScaleIcon():
-    '''public void setScaleIcon(int scaleIcon)
+    '''returns None\n\n
+    setScaleIcon(int scaleIcon)\n
     '''
 def isProportionalIcon():
-    '''public boolean isProportionalIcon()
+    '''returns boolean\n\n
+    isProportionalIcon()\n
     '''
 def setProportionalIcon():
-    '''public void setProportionalIcon(final boolean proportionalIcon)
+    '''returns None\n\n
+    setProportionalIcon(final boolean proportionalIcon)\n
     '''
 def getIconVerticalAdjustment():
-    '''public float getIconVerticalAdjustment()
+    '''returns float\n\n
+    getIconVerticalAdjustment()\n
     '''
 def setIconVerticalAdjustment():
-    '''public void setIconVerticalAdjustment(float iconVerticalAdjustment)
+    '''returns None\n\n
+    setIconVerticalAdjustment(float iconVerticalAdjustment)\n
     '''
 def getIconHorizontalAdjustment():
-    '''public float getIconHorizontalAdjustment()
+    '''returns float\n\n
+    getIconHorizontalAdjustment()\n
     '''
 def setIconHorizontalAdjustment():
-    '''public void setIconHorizontalAdjustment(float iconHorizontalAdjustment)
+    '''returns None\n\n
+    setIconHorizontalAdjustment(float iconHorizontalAdjustment)\n
     '''
 def getField():
-    '''public PdfFormField getField()
+    '''returns PdfFormField\n\n
+    getField()\n
     '''
 def isIconFitToBounds():
-    '''public boolean isIconFitToBounds()
+    '''returns boolean\n\n
+    isIconFitToBounds()\n
     '''
 def setIconFitToBounds():
-    '''public void setIconFitToBounds(final boolean iconFitToBounds)
+    '''returns None\n\n
+    setIconFitToBounds(final boolean iconFitToBounds)\n
     '''

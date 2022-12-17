@@ -1,10 +1,12 @@
-def StompSubframeDecoder():
-    '''public StompSubframeDecoder()
-    public StompSubframeDecoder(final boolean validateHeaders)
-    public StompSubframeDecoder(final int maxLineLength, final int maxChunkSize)
-    public StompSubframeDecoder(final int maxLineLength, final int maxChunkSize, final boolean validateHeaders)
+def ():
+    '''returns StompSubframeDecoder\n\n
+    ()\n
+    (final boolean validateHeaders)\n
+    (final int maxLineLength, final int maxChunkSize)\n
+    (final int maxLineLength, final int maxChunkSize, final boolean validateHeaders)\n
     '''
 def process():
-    '''public boolean process(final byte nextByte)
-    public boolean process(final byte nextByte)
+    '''returns boolean\n\n
+    process(final byte nextByte)\n
+    process(final byte nextByte)\n
     '''

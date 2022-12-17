@@ -1,31 +1,37 @@
-def getInstance():
-    '''public static BaseLocale getInstance(final String language, final String script, final String region, final String variant)
-    '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def getScript():
-    '''public String getScript()
+    '''returns String\n\n
+    getScript()\n
     '''
 def getRegion():
-    '''public String getRegion()
+    '''returns String\n\n
+    getRegion()\n
     '''
 def getVariant():
-    '''public String getVariant()
+    '''returns String\n\n
+    getVariant()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
-def Key():
-    '''public Key(final String language, final String script, final String region, final String variant)
+def ():
+    '''returns Key\n\n
+    (final String language, final String script, final String region, final String variant)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def compareTo():
-    '''public int compareTo(final Key other)
+    '''returns int\n\n
+    compareTo(final Key other)\n
     '''

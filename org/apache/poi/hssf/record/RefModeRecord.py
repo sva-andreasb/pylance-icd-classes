@@ -1,25 +1,32 @@
 sid = "short  15"
 USE_A1_MODE = "short  1"
 USE_R1C1_MODE = "short  0"
-def RefModeRecord():
-    '''public RefModeRecord()
-    public RefModeRecord(final RecordInputStream in)
+def ():
+    '''returns RefModeRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setMode():
-    '''public void setMode(final short mode)
+    '''returns None\n\n
+    setMode(final short mode)\n
     '''
 def getMode():
-    '''public short getMode()
+    '''returns short\n\n
+    getMode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

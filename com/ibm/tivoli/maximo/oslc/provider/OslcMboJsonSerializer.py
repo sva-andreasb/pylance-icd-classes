@@ -1,25 +1,32 @@
-def OslcMboJsonSerializer():
-    '''public OslcMboJsonSerializer(final OslcRequest oslcRequest, final Map<String, OslcResourceProperty> resourceProperties)
-    public OslcMboJsonSerializer(final OslcRequest oslcRequest)
-    public OslcMboJsonSerializer(final String selectExp, final OslcRequest oslcRequest)
+def ():
+    '''returns OslcMboJsonSerializer\n\n
+    (final OslcRequest oslcRequest, final Map<String, OslcResourceProperty> resourceProperties)\n
+    (final OslcRequest oslcRequest)\n
+    (final String selectExp, final OslcRequest oslcRequest)\n
     '''
 def setRetainMbos():
-    '''public void setRetainMbos(final boolean retainMbos)
+    '''returns None\n\n
+    setRetainMbos(final boolean retainMbos)\n
     '''
 def setDropNulls():
-    '''public void setDropNulls(final boolean dropNulls)
+    '''returns None\n\n
+    setDropNulls(final boolean dropNulls)\n
     '''
 def serializeResolvedResource():
-    '''public OslcResourceResponse serializeResolvedResource(final LocalURIResolver.ResolvedResource rr)
+    '''returns OslcResourceResponse\n\n
+    serializeResolvedResource(final LocalURIResolver.ResolvedResource rr)\n
     '''
 def serializeMboSet():
-    '''public JSONObject serializeMboSet(final MboSetRemote mboSet)
-    public JSONObject serializeMboSet(final JSONObject rootOjo, final MboSetRemote mboSet, final String collectionURI)
+    '''returns JSONObject\n\n
+    serializeMboSet(final MboSetRemote mboSet)\n
+    serializeMboSet(final JSONObject rootOjo, final MboSetRemote mboSet, final String collectionURI)\n
     '''
 def serializeMbo():
-    '''public JSONObject serializeMbo(final MboRemote mbo)
-    public void serializeMbo(final JSONObject mboOjo, final MboRemote mbo, final String collectionURI)
+    '''returns None\n\n
+    serializeMbo(final MboRemote mbo)\n
+    serializeMbo(final JSONObject mboOjo, final MboRemote mbo, final String collectionURI)\n
     '''
 def setObjectID():
-    '''public void setObjectID(final JSONObject mboOjo, final MboRemote mbo)
+    '''returns None\n\n
+    setObjectID(final JSONObject mboOjo, final MboRemote mbo)\n
     '''

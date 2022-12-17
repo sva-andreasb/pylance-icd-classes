@@ -1,3 +1,4 @@
-def SearchDRSet():
-    '''public SearchDRSet(final MboServerInterface ms)
+def ():
+    '''returns SearchDRSet\n\n
+    (final MboServerInterface ms)\n
     '''

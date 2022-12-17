@@ -1,23 +1,30 @@
-def LoggerUtil():
-    '''public LoggerUtil(final Class<?> clazz)
+def ():
+    '''returns LoggerUtil\n\n
+    (final Class<?> clazz)\n
     '''
 def traceExitError():
-    '''public void traceExitError(final String sourceMethod, final String msg, final Throwable cause)
+    '''returns None\n\n
+    traceExitError(final String sourceMethod, final String msg, final Throwable cause)\n
     '''
 def traceNoteError():
-    '''public void traceNoteError(final String sourceMethod, final String msg, final Throwable cause)
+    '''returns None\n\n
+    traceNoteError(final String sourceMethod, final String msg, final Throwable cause)\n
     '''
 def traceInfo():
-    '''public void traceInfo(final String sourceMethod, final String msg)
+    '''returns None\n\n
+    traceInfo(final String sourceMethod, final String msg)\n
     '''
 def traceEnterMethod():
-    '''public void traceEnterMethod(final String sourceMethod)
-    public void traceEnterMethod(final String sourceMethod, final String... arguments)
+    '''returns None\n\n
+    traceEnterMethod(final String sourceMethod)\n
+    traceEnterMethod(final String sourceMethod, final String... arguments)\n
     '''
 def traceExitMethod():
-    '''public void traceExitMethod(final String sourceMethod)
-    public void traceExitMethod(final String sourceMethod, final String output)
+    '''returns None\n\n
+    traceExitMethod(final String sourceMethod)\n
+    traceExitMethod(final String sourceMethod, final String output)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Level level)
+    '''returns boolean\n\n
+    isEnabled(final Level level)\n
     '''

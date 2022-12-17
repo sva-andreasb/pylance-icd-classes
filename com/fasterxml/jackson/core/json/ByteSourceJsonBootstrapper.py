@@ -1,22 +1,20 @@
 UTF8_BOM_1 = "byte  -17"
 UTF8_BOM_2 = "byte  -69"
 UTF8_BOM_3 = "byte  -65"
-def ByteSourceJsonBootstrapper():
-    '''public ByteSourceJsonBootstrapper(final IOContext ctxt, final InputStream in)
-    public ByteSourceJsonBootstrapper(final IOContext ctxt, final byte[] inputBuffer, final int inputStart, final int inputLen)
+def ():
+    '''returns ByteSourceJsonBootstrapper\n\n
+    (final IOContext ctxt, final InputStream in)\n
+    (final IOContext ctxt, final byte[] inputBuffer, final int inputStart, final int inputLen)\n
     '''
 def detectEncoding():
-    '''public JsonEncoding detectEncoding()
-    '''
-def skipUTF8BOM():
-    '''public static int skipUTF8BOM(final DataInput input)
+    '''returns JsonEncoding\n\n
+    detectEncoding()\n
     '''
 def constructReader():
-    '''public Reader constructReader()
+    '''returns Reader\n\n
+    constructReader()\n
     '''
 def constructParser():
-    '''public JsonParser constructParser(final int parserFeatures, final ObjectCodec codec, final ByteQuadsCanonicalizer rootByteSymbols, final CharsToNameCanonicalizer rootCharSymbols, final int factoryFeatures)
-    '''
-def hasJSONFormat():
-    '''public static MatchStrength hasJSONFormat(final InputAccessor acc)
+    '''returns JsonParser\n\n
+    constructParser(final int parserFeatures, final ObjectCodec codec, final ByteQuadsCanonicalizer rootByteSymbols, final CharsToNameCanonicalizer rootCharSymbols, final int factoryFeatures)\n
     '''

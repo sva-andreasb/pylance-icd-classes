@@ -1,42 +1,56 @@
-def ImageCacheStatistics():
-    '''public ImageCacheStatistics(final boolean detailed)
+def ():
+    '''returns ImageCacheStatistics\n\n
+    (final boolean detailed)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def invalidHit():
-    '''public void invalidHit(final String uri)
+    '''returns None\n\n
+    invalidHit(final String uri)\n
     '''
 def cacheHitImageInfo():
-    '''public void cacheHitImageInfo(final String uri)
+    '''returns None\n\n
+    cacheHitImageInfo(final String uri)\n
     '''
 def cacheMissImageInfo():
-    '''public void cacheMissImageInfo(final String uri)
+    '''returns None\n\n
+    cacheMissImageInfo(final String uri)\n
     '''
 def cacheHitImage():
-    '''public void cacheHitImage(final ImageKey key)
+    '''returns None\n\n
+    cacheHitImage(final ImageKey key)\n
     '''
 def cacheMissImage():
-    '''public void cacheMissImage(final ImageKey key)
+    '''returns None\n\n
+    cacheMissImage(final ImageKey key)\n
     '''
 def getInvalidHits():
-    '''public int getInvalidHits()
+    '''returns int\n\n
+    getInvalidHits()\n
     '''
 def getImageInfoCacheHits():
-    '''public int getImageInfoCacheHits()
+    '''returns int\n\n
+    getImageInfoCacheHits()\n
     '''
 def getImageInfoCacheMisses():
-    '''public int getImageInfoCacheMisses()
+    '''returns int\n\n
+    getImageInfoCacheMisses()\n
     '''
 def getImageCacheHits():
-    '''public int getImageCacheHits()
+    '''returns int\n\n
+    getImageCacheHits()\n
     '''
 def getImageCacheMisses():
-    '''public int getImageCacheMisses()
+    '''returns int\n\n
+    getImageCacheMisses()\n
     '''
 def getImageCacheHitMap():
-    '''public Map getImageCacheHitMap()
+    '''returns Map\n\n
+    getImageCacheHitMap()\n
     '''
 def getImageCacheMissMap():
-    '''public Map getImageCacheMissMap()
+    '''returns Map\n\n
+    getImageCacheMissMap()\n
     '''

@@ -1,24 +1,32 @@
-def OslcSortTerm():
-    '''public OslcSortTerm()
+def ():
+    '''returns OslcSortTerm\n\n
+    ()\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def setIdentifier():
-    '''public void setIdentifier(final String identifier)
+    '''returns None\n\n
+    setIdentifier(final String identifier)\n
     '''
 def getSortOrder():
-    '''public String getSortOrder()
+    '''returns String\n\n
+    getSortOrder()\n
     '''
 def setSortOrder():
-    '''public void setSortOrder(final String sortOrder)
+    '''returns None\n\n
+    setSortOrder(final String sortOrder)\n
     '''
 def getScopedSortTerms():
-    '''public List<IOslcSortTerm> getScopedSortTerms()
+    '''returns List<IOslcSortTerm>\n\n
+    getScopedSortTerms()\n
     '''
 def setScopedSortTerms():
-    '''public void setScopedSortTerms(final List<IOslcSortTerm> nestedSortTerms)
+    '''returns None\n\n
+    setScopedSortTerms(final List<IOslcSortTerm> nestedSortTerms)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,8 +1,10 @@
-def AmazonClientException():
-    '''public AmazonClientException(final String message, final Throwable t)
-    public AmazonClientException(final String message)
-    public AmazonClientException(final Throwable t)
+def ():
+    '''returns AmazonClientException\n\n
+    (final String message, final Throwable t)\n
+    (final String message)\n
+    (final Throwable t)\n
     '''
 def isRetryable():
-    '''public boolean isRetryable()
+    '''returns boolean\n\n
+    isRetryable()\n
     '''

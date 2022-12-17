@@ -1,3 +1,4 @@
 def restoredefaults():
-    '''public int restoredefaults()
+    '''returns int\n\n
+    restoredefaults()\n
     '''

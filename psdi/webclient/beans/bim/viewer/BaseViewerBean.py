@@ -1,6 +1,8 @@
-def BaseViewerBean():
-    '''public BaseViewerBean()
+def ():
+    '''returns BaseViewerBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''

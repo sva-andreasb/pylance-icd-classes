@@ -1,7 +1,9 @@
 def create():
-    '''public IRI create(final String s)
+    '''returns IRI\n\n
+    create(final String s)\n
     '''
 def construct():
-    '''public IRI construct(final String s)
-    public IRI construct(final IRI i)
+    '''returns IRI\n\n
+    construct(final String s)\n
+    construct(final IRI i)\n
     '''

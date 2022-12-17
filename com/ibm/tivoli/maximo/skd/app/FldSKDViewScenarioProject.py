@@ -1,6 +1,8 @@
-def FldSKDViewScenarioProject():
-    '''public FldSKDViewScenarioProject(final MboValue mbv)
+def ():
+    '''returns FldSKDViewScenarioProject\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

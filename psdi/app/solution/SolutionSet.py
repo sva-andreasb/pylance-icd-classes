@@ -1,3 +1,4 @@
-def SolutionSet():
-    '''public SolutionSet(final MboServerInterface ms)
+def ():
+    '''returns SolutionSet\n\n
+    (final MboServerInterface ms)\n
     '''

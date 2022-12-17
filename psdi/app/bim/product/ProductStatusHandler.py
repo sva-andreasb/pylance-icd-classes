@@ -1,12 +1,16 @@
-def ProductStatusHandler():
-    '''public ProductStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns ProductStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredStatus)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)\n
     '''

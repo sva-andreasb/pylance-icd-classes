@@ -1,144 +1,164 @@
 CONTENT_ENCODING = "String  \"Content-Encoding\""
-def e():
-    '''public static Ob e(final String s)
+def a():
+    '''returns f\n\n
+    a(final URL url)\n
+    a(final String s)\n
+    a(final int n)\n
+    a(final boolean b)\n
+    a(final Ob.c c)\n
+    a(final String s, final String s2)\n
+    a(final String s, final String s2, final InputStream inputStream)\n
+    a(final Map<String, String> obj)\n
+    a(final String... obj)\n
+    a(final Collection<Ob.b> obj)\n
+    a(final f f)\n
+    a()\n
+    a(final Ob.d a)\n
+    a(final e a)\n
+    a(final String s)\n
+    a(final InputStream stream)\n
+    a(final URL url)\n
+    a(final Ob.c c)\n
+    a(final String string, final String obj)\n
+    a(final String string)\n
+    a(final int amt)\n
+    a(final Ob.b obj)\n
+    a(final f a)\n
+    a()\n
     '''
 def b():
-    '''public static Ob b(final URL url)
-    public Ob b(final String obj)
-    public Ob b(final int n)
-    public Ob b(final boolean b)
-    public Ob b(final String s, final String s2)
-    public Ob b(final Map<String, String> obj)
-    public e b()
-    public b b(final String s)
-    public T b(final String string, final String obj)
-    public T b(final String string)
-    '''
-def a():
-    '''public Ob a(final URL url)
-    public Ob a(final String s)
-    public Ob a(final int n)
-    public Ob a(final boolean b)
-    public Ob a(final Ob.c c)
-    public Ob a(final String s, final String s2)
-    public Ob a(final String s, final String s2, final InputStream inputStream)
-    public Ob a(final Map<String, String> obj)
-    public Ob a(final String... obj)
-    public Ob a(final Collection<Ob.b> obj)
-    public Ob a(final f f)
-    public e a()
-    public Ob a(final Ob.d a)
-    public Ob a(final e a)
-    public static b a(final String s, final String s2)
-    public static b a(final String s, final String s2, final InputStream inputStream)
-    public b a(final String s)
-    public b a(final InputStream stream)
-    public T a(final URL url)
-    public T a(final Ob.c c)
-    public T a(final String string, final String obj)
-    public T a(final String string)
-    public c a(final int amt)
-    public c a(final Ob.b obj)
-    public c a(final f a)
-    public f a()
+    '''returns T\n\n
+    b(final String obj)\n
+    b(final int n)\n
+    b(final boolean b)\n
+    b(final String s, final String s2)\n
+    b(final Map<String, String> obj)\n
+    b()\n
+    b(final String s)\n
+    b(final String string, final String obj)\n
+    b(final String string)\n
     '''
 def c():
-    '''public Ob c(final String obj)
-    public Ob c(final boolean b)
-    public Ob c(final String s, final String s2)
+    '''returns Ob\n\n
+    c(final String obj)\n
+    c(final boolean b)\n
+    c(final String s, final String s2)\n
     '''
 def d():
-    '''public Ob d(final boolean b)
-    public Ob d(final String s)
+    '''returns Ob\n\n
+    d(final boolean b)\n
+    d(final String s)\n
     '''
 def key():
-    '''public String key()
+    '''returns String\n\n
+    key()\n
     '''
 def value():
-    '''public String value()
+    '''returns String\n\n
+    value()\n
     '''
 def inputStream():
-    '''public InputStream inputStream()
+    '''returns InputStream\n\n
+    inputStream()\n
     '''
 def hasInputStream():
-    '''public boolean hasInputStream()
+    '''returns boolean\n\n
+    hasInputStream()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def statusCode():
-    '''public int statusCode()
+    '''returns int\n\n
+    statusCode()\n
     '''
 def statusMessage():
-    '''public String statusMessage()
+    '''returns String\n\n
+    statusMessage()\n
     '''
 def charset():
-    '''public String charset()
+    '''returns String\n\n
+    charset()\n
     '''
 def contentType():
-    '''public String contentType()
+    '''returns String\n\n
+    contentType()\n
     '''
 def body():
-    '''public String body()
+    '''returns String\n\n
+    body()\n
     '''
 def bodyAsBytes():
-    '''public byte[] bodyAsBytes()
+    '''returns byte[]\n\n
+    bodyAsBytes()\n
     '''
 def verify():
-    '''public boolean verify(final String urlHostName, final SSLSession session)
+    '''returns boolean\n\n
+    verify(final String urlHostName, final SSLSession session)\n
     '''
 def checkClientTrusted():
-    '''public void checkClientTrusted(final X509Certificate[] chain, final String authType)
+    '''returns None\n\n
+    checkClientTrusted(final X509Certificate[] chain, final String authType)\n
     '''
 def checkServerTrusted():
-    '''public void checkServerTrusted(final X509Certificate[] chain, final String authType)
+    '''returns None\n\n
+    checkServerTrusted(final X509Certificate[] chain, final String authType)\n
     '''
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''
 def url():
-    '''public URL url()
+    '''returns URL\n\n
+    url()\n
     '''
 def header():
-    '''public String header(final String name)
+    '''returns String\n\n
+    header(final String name)\n
     '''
 def hasHeader():
-    '''public boolean hasHeader(final String name)
+    '''returns boolean\n\n
+    hasHeader(final String name)\n
     '''
 def hasHeaderWithValue():
-    '''public boolean hasHeaderWithValue(final String name, final String value)
-    '''
-def headers():
-    '''public Map<String, String> headers()
+    '''returns boolean\n\n
+    hasHeaderWithValue(final String name, final String value)\n
     '''
 def cookie():
-    '''public String cookie(final String name)
+    '''returns String\n\n
+    cookie(final String name)\n
     '''
 def hasCookie():
-    '''public boolean hasCookie(final String name)
-    '''
-def cookies():
-    '''public Map<String, String> cookies()
+    '''returns boolean\n\n
+    hasCookie(final String name)\n
     '''
 def timeout():
-    '''public int timeout()
+    '''returns int\n\n
+    timeout()\n
     '''
 def maxBodySize():
-    '''public int maxBodySize()
+    '''returns int\n\n
+    maxBodySize()\n
     '''
 def followRedirects():
-    '''public boolean followRedirects()
+    '''returns boolean\n\n
+    followRedirects()\n
     '''
 def ignoreHttpErrors():
-    '''public boolean ignoreHttpErrors()
+    '''returns boolean\n\n
+    ignoreHttpErrors()\n
     '''
 def validateTLSCertificates():
-    '''public boolean validateTLSCertificates()
-    public void validateTLSCertificates(final boolean value)
+    '''returns None\n\n
+    validateTLSCertificates()\n
+    validateTLSCertificates(final boolean value)\n
     '''
 def ignoreContentType():
-    '''public boolean ignoreContentType()
+    '''returns boolean\n\n
+    ignoreContentType()\n
     '''
 def postDataCharset():
-    '''public String postDataCharset()
+    '''returns String\n\n
+    postDataCharset()\n
     '''

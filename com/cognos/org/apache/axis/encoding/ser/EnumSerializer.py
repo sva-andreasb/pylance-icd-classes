@@ -1,12 +1,16 @@
-def EnumSerializer():
-    '''public EnumSerializer(final Class javaType, final QName xmlType)
+def ():
+    '''returns EnumSerializer\n\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def serialize():
-    '''public void serialize(final QName name, final Attributes attributes, final Object value, final SerializationContext context)
+    '''returns None\n\n
+    serialize(final QName name, final Attributes attributes, final Object value, final SerializationContext context)\n
     '''
 def getValueAsString():
-    '''public String getValueAsString(final Object value, final SerializationContext context)
+    '''returns String\n\n
+    getValueAsString(final Object value, final SerializationContext context)\n
     '''
 def writeSchema():
-    '''public Element writeSchema(final Class javaType, final Types types)
+    '''returns Element\n\n
+    writeSchema(final Class javaType, final Types types)\n
     '''

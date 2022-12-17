@@ -1,9 +1,12 @@
-def ReturnaddressType():
-    '''public ReturnaddressType(final InstructionHandle returnTarget)
+def ():
+    '''returns ReturnaddressType\n\n
+    (final InstructionHandle returnTarget)\n
     '''
 def equals():
-    '''public boolean equals(final Object rat)
+    '''returns boolean\n\n
+    equals(final Object rat)\n
     '''
 def getTarget():
-    '''public InstructionHandle getTarget()
+    '''returns InstructionHandle\n\n
+    getTarget()\n
     '''

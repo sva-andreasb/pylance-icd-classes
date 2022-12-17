@@ -1,123 +1,164 @@
-def SKDPropertyInfo():
-    '''public SKDPropertyInfo()
+def ():
+    '''returns SKDPropertyInfo\n\n
+    ()\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def setPropertyName():
-    '''public void setPropertyName(final String propertyName)
+    '''returns None\n\n
+    setPropertyName(final String propertyName)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def getAttrName():
-    '''public String getAttrName()
+    '''returns String\n\n
+    getAttrName()\n
     '''
 def setAttrName():
-    '''public void setAttrName(final String attrName)
+    '''returns None\n\n
+    setAttrName(final String attrName)\n
     '''
 def getSKDObjectName():
-    '''public String getSKDObjectName()
+    '''returns String\n\n
+    getSKDObjectName()\n
     '''
 def setSKDObjectName():
-    '''public void setSKDObjectName(final String skdObjectName)
+    '''returns None\n\n
+    setSKDObjectName(final String skdObjectName)\n
     '''
 def getSKDAttrName():
-    '''public String getSKDAttrName()
+    '''returns String\n\n
+    getSKDAttrName()\n
     '''
 def setSKDAttrName():
-    '''public void setSKDAttrName(final String skdAttrName)
+    '''returns None\n\n
+    setSKDAttrName(final String skdAttrName)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def setPersistent():
-    '''public void setPersistent(final boolean persistent)
+    '''returns None\n\n
+    setPersistent(final boolean persistent)\n
     '''
 def isInternal():
-    '''public boolean isInternal()
+    '''returns boolean\n\n
+    isInternal()\n
     '''
 def setInternal():
-    '''public void setInternal(final boolean internal)
+    '''returns None\n\n
+    setInternal(final boolean internal)\n
     '''
 def hasApplink():
-    '''public boolean hasApplink()
+    '''returns boolean\n\n
+    hasApplink()\n
     '''
 def setApplink():
-    '''public void setApplink(final boolean hasApplink)
+    '''returns None\n\n
+    setApplink(final boolean hasApplink)\n
     '''
 def showTable():
-    '''public boolean showTable()
+    '''returns boolean\n\n
+    showTable()\n
     '''
 def setShowTable():
-    '''public void setShowTable(final boolean showTable)
+    '''returns None\n\n
+    setShowTable(final boolean showTable)\n
     '''
 def isFilterable():
-    '''public boolean isFilterable()
+    '''returns boolean\n\n
+    isFilterable()\n
     '''
 def setFilterable():
-    '''public void setFilterable(final boolean filterable)
+    '''returns None\n\n
+    setFilterable(final boolean filterable)\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def setOrder():
-    '''public void setOrder(final int order)
+    '''returns None\n\n
+    setOrder(final int order)\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final int width)
+    '''returns None\n\n
+    setWidth(final int width)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getApplinkAppList():
-    '''public List<String> getApplinkAppList()
+    '''returns List<String>\n\n
+    getApplinkAppList()\n
     '''
 def setApplinkAppList():
-    '''public void setApplinkAppList(final List<String> applinkAppList)
+    '''returns None\n\n
+    setApplinkAppList(final List<String> applinkAppList)\n
     '''
 def getApplinkObject():
-    '''public String getApplinkObject()
+    '''returns String\n\n
+    getApplinkObject()\n
     '''
 def setApplinkObject():
-    '''public void setApplinkObject(final String applinkObject)
+    '''returns None\n\n
+    setApplinkObject(final String applinkObject)\n
     '''
 def isAlwaysVisible():
-    '''public boolean isAlwaysVisible()
+    '''returns boolean\n\n
+    isAlwaysVisible()\n
     '''
 def setAlwaysVisible():
-    '''public void setAlwaysVisible(final boolean alwaysVisible)
+    '''returns None\n\n
+    setAlwaysVisible(final boolean alwaysVisible)\n
     '''
 def canBeSorted():
-    '''public boolean canBeSorted()
+    '''returns boolean\n\n
+    canBeSorted()\n
     '''
 def setCanBeSorted():
-    '''public void setCanBeSorted(final boolean canBeSorted)
+    '''returns None\n\n
+    setCanBeSorted(final boolean canBeSorted)\n
     '''
 def canBeGrouped():
-    '''public boolean canBeGrouped()
+    '''returns boolean\n\n
+    canBeGrouped()\n
     '''
 def setCanBeGrouped():
-    '''public void setCanBeGrouped(final boolean canBeGrouped)
+    '''returns None\n\n
+    setCanBeGrouped(final boolean canBeGrouped)\n
     '''
 def isLocked():
-    '''public boolean isLocked()
+    '''returns boolean\n\n
+    isLocked()\n
     '''
 def setLocked():
-    '''public void setLocked(final boolean locked)
+    '''returns None\n\n
+    setLocked(final boolean locked)\n
     '''

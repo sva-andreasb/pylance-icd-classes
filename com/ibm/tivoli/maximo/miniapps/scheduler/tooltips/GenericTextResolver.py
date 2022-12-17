@@ -1,19 +1,25 @@
-def GenericTextResolver():
-    '''public GenericTextResolver(final IMXGanttModel model, final UserInfo info)
-    public GenericTextResolver(final Map<String, Object> data, final IMXGanttModel model, final UserInfo info)
+def ():
+    '''returns GenericTextResolver\n\n
+    (final IMXGanttModel model, final UserInfo info)\n
+    (final Map<String, Object> data, final IMXGanttModel model, final UserInfo info)\n
     '''
 def addResolverData():
-    '''public void addResolverData(final GanttTextResolver r)
+    '''returns None\n\n
+    addResolverData(final GanttTextResolver r)\n
     '''
 def getProperty():
-    '''public Object getProperty(final Map<String, Object> data, final String in)
+    '''returns Object\n\n
+    getProperty(final Map<String, Object> data, final String in)\n
     '''
 def getColumnInfo():
-    '''public IMXGanttPropertyInfo getColumnInfo(final String in)
+    '''returns IMXGanttPropertyInfo\n\n
+    getColumnInfo(final String in)\n
     '''
 def put():
-    '''public void put(final String name, final Object value)
+    '''returns None\n\n
+    put(final String name, final Object value)\n
     '''
 def getPropertyNames():
-    '''public Collection<String> getPropertyNames(final Map<String, Object> data)
+    '''returns Collection<String>\n\n
+    getPropertyNames(final Map<String, Object> data)\n
     '''

@@ -1,118 +1,146 @@
 DEFAULT_BUFSIZE = "int  8192"
-def DispatcherViewerApplet():
-    '''public DispatcherViewerApplet()
+def ():
+    '''returns RetrieveProjectDataModelAction\n\n
+    ()\n
+    (final DispatcherViewerApplet applet, final IlvDefaultGanttModel model, final JSONObject refreshOptions)\n
+    (final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)\n
     '''
 def isCompressed():
-    '''public boolean isCompressed()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns boolean\n\n
+    isCompressed()\n
     '''
 def setLookAndFeel():
-    '''public void setLookAndFeel()
+    '''returns None\n\n
+    setLookAndFeel()\n
     '''
 def waitOnMap():
-    '''public boolean waitOnMap()
+    '''returns boolean\n\n
+    waitOnMap()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def updateModelAppletOnly():
-    '''public void updateModelAppletOnly()
+    '''returns None\n\n
+    updateModelAppletOnly()\n
     '''
 def updateModel():
-    '''public void updateModel()
+    '''returns None\n\n
+    updateModel()\n
     '''
 def updateModelWithOptions():
-    '''public void updateModelWithOptions(final String jsonOptions)
+    '''returns None\n\n
+    updateModelWithOptions(final String jsonOptions)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def startFullRefreshTask():
-    '''public void startFullRefreshTask()
+    '''returns None\n\n
+    startFullRefreshTask()\n
     '''
 def retrieveProjectDataModel():
-    '''public IlvGanttModel retrieveProjectDataModel(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)
+    '''returns IlvGanttModel\n\n
+    retrieveProjectDataModel(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)\n
     '''
 def getColorForActivity():
-    '''public String getColorForActivity(final String activityId)
+    '''returns String\n\n
+    getColorForActivity(final String activityId)\n
     '''
 def onModelUpdate():
-    '''public void onModelUpdate(final IlvGanttModel model, final JSONObject refreshOptions)
+    '''returns None\n\n
+    onModelUpdate(final IlvGanttModel model, final JSONObject refreshOptions)\n
     '''
 def getColorForResource():
-    '''public String getColorForResource(final String resId)
+    '''returns String\n\n
+    getColorForResource(final String resId)\n
     '''
 def retrieveProjectDataModelRemote():
-    '''public IlvGanttModel retrieveProjectDataModelRemote(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)
+    '''returns IlvGanttModel\n\n
+    retrieveProjectDataModelRemote(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)\n
     '''
 def setJSCommunicationReady():
-    '''public void setJSCommunicationReady()
+    '''returns None\n\n
+    setJSCommunicationReady()\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''
 def updateProjId():
-    '''public void updateProjId(final String projId)
+    '''returns None\n\n
+    updateProjId(final String projId)\n
     '''
 def jsCallback():
-    '''public void jsCallback(final String methodName, final String params)
+    '''returns None\n\n
+    jsCallback(final String methodName, final String params)\n
     '''
 def getSKDUserLocaleData():
-    '''public SKDUserLocaleData getSKDUserLocaleData()
+    '''returns SKDUserLocaleData\n\n
+    getSKDUserLocaleData()\n
     '''
 def getSKDUIInfo():
-    '''public ISKDUIInfo getSKDUIInfo()
+    '''returns ISKDUIInfo\n\n
+    getSKDUIInfo()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def retrieveSKDUIInfo():
-    '''public ISKDUIInfo retrieveSKDUIInfo()
+    '''returns ISKDUIInfo\n\n
+    retrieveSKDUIInfo()\n
     '''
 def retrieveSKDUIInfoRemote():
-    '''public ISKDUIInfo retrieveSKDUIInfoRemote()
+    '''returns ISKDUIInfo\n\n
+    retrieveSKDUIInfoRemote()\n
     '''
 def forceMapRedraw():
-    '''public void forceMapRedraw(final IlvGanttModel ganttModel)
+    '''returns None\n\n
+    forceMapRedraw(final IlvGanttModel ganttModel)\n
     '''
 def updateModelForResource():
-    '''public void updateModelForResource(final JSONObject paramsJson)
+    '''returns None\n\n
+    updateModelForResource(final JSONObject paramsJson)\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String projectId)
+    '''returns None\n\n
+    setProjectId(final String projectId)\n
     '''
 def getServerServletUrl():
-    '''public String getServerServletUrl()
+    '''returns String\n\n
+    getServerServletUrl()\n
     '''
 def setServerServletUrl():
-    '''public void setServerServletUrl(final String serverServletUrl)
+    '''returns None\n\n
+    setServerServletUrl(final String serverServletUrl)\n
     '''
 def getUISessionId():
-    '''public String getUISessionId()
+    '''returns String\n\n
+    getUISessionId()\n
     '''
 def highlightactivity():
-    '''public void highlightactivity(final String activityid)
+    '''returns None\n\n
+    highlightactivity(final String activityid)\n
     '''
 def getAppletEventBus():
-    '''public SimpleMessageBus getAppletEventBus()
+    '''returns SimpleMessageBus\n\n
+    getAppletEventBus()\n
     '''
 def handleAppletEvent():
-    '''public void handleAppletEvent(final String eventName, final String eventData, final boolean decode)
+    '''returns None\n\n
+    handleAppletEvent(final String eventName, final String eventData, final boolean decode)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public Object run()
-    public Object run()
-    '''
-def doModelUpdate():
-    '''public doModelUpdate(final DispatcherViewerApplet applet, final IlvDefaultGanttModel model, final JSONObject refreshOptions)
-    '''
-def RetrieveProjectDataModelAction():
-    '''public RetrieveProjectDataModelAction(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)
+    '''returns Object\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''

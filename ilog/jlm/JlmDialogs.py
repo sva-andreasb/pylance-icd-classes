@@ -15,45 +15,39 @@ COLUMN_HOSTID_MATCHES = "int  13"
 COLUMN_LICENSEID = "int  14"
 COLUMN_APPLICATION = "int  15"
 NUM_COLUMNS = "int  16"
-def getString():
-    '''public static String getString(final String s)
-    '''
-def JlmKeyToRow():
-    '''public static Object[] JlmKeyToRow(final JlmKey jlmKey)
-    '''
-def prettyLicenseType():
-    '''public static String prettyLicenseType(final int n)
-    '''
-def prettyVersionName():
-    '''public static String prettyVersionName(final double number)
-    '''
-def prettyMaintenanceEnd():
-    '''public static Date prettyMaintenanceEnd(final int n)
-    '''
-def WellFormedKeys():
-    '''public WellFormedKeys()
+def ():
+    '''returns WellFormedKeys\n\n
+    ()\n
     '''
 def getKeys():
-    '''public JlmKey[] getKeys()
+    '''returns JlmKey[]\n\n
+    getKeys()\n
     '''
 def getPreferencesFile():
-    '''public URL getPreferencesFile()
+    '''returns URL\n\n
+    getPreferencesFile()\n
     '''
 def shouldShowWarning():
-    '''public boolean shouldShowWarning(final int n)
+    '''returns boolean\n\n
+    shouldShowWarning(final int n)\n
     '''
 def getHideExpireWarning1():
-    '''public boolean getHideExpireWarning1()
+    '''returns boolean\n\n
+    getHideExpireWarning1()\n
     '''
 def setHideExpireWarning1():
-    '''public void setHideExpireWarning1(final boolean e)
+    '''returns None\n\n
+    setHideExpireWarning1(final boolean e)\n
     '''
 def getHideExpireWarning7():
-    '''public boolean getHideExpireWarning7()
+    '''returns boolean\n\n
+    getHideExpireWarning7()\n
     '''
 def setHideExpireWarning7():
-    '''public void setHideExpireWarning7(final boolean f)
+    '''returns None\n\n
+    setHideExpireWarning7(final boolean f)\n
     '''
 def dialogDone():
-    '''public void dialogDone(final int d)
+    '''returns None\n\n
+    dialogDone(final int d)\n
     '''

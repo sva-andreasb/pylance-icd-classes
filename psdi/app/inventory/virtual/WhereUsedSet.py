@@ -1,21 +1,28 @@
-def WhereUsedSet():
-    '''public WhereUsedSet(final MboServerInterface ms)
+def ():
+    '''returns WhereUsedSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def createWhereUsedSet():
-    '''public void createWhereUsedSet(final MboSetRemote tempSetRemote)
+    '''returns None\n\n
+    createWhereUsedSet(final MboSetRemote tempSetRemote)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''

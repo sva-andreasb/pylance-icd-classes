@@ -1,57 +1,68 @@
-def createColumnConfig():
-    '''public static ColumnConfig createColumnConfig(final Configuration config, final String name, final String pattern, final String literalValue, final String eventTimestamp, final String unicode, final String clob)
-    '''
-def newBuilder():
-    '''public static Builder newBuilder()
-    '''
 def getColumnName():
-    '''public String getColumnName()
+    '''returns String\n\n
+    getColumnName()\n
     '''
 def getColumnNameKey():
-    '''public String getColumnNameKey()
+    '''returns String\n\n
+    getColumnNameKey()\n
     '''
 def getLayout():
-    '''public PatternLayout getLayout()
+    '''returns PatternLayout\n\n
+    getLayout()\n
     '''
 def getLiteralValue():
-    '''public String getLiteralValue()
+    '''returns String\n\n
+    getLiteralValue()\n
     '''
 def isClob():
-    '''public boolean isClob()
+    '''returns boolean\n\n
+    isClob()\n
     '''
 def isEventTimestamp():
-    '''public boolean isEventTimestamp()
+    '''returns boolean\n\n
+    isEventTimestamp()\n
     '''
 def isUnicode():
-    '''public boolean isUnicode()
+    '''returns boolean\n\n
+    isUnicode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def build():
-    '''public ColumnConfig build()
+    '''returns ColumnConfig\n\n
+    build()\n
     '''
 def setClob():
-    '''public Builder setClob(final boolean clob)
+    '''returns Builder\n\n
+    setClob(final boolean clob)\n
     '''
 def setConfiguration():
-    '''public Builder setConfiguration(final Configuration configuration)
+    '''returns Builder\n\n
+    setConfiguration(final Configuration configuration)\n
     '''
 def setEventTimestamp():
-    '''public Builder setEventTimestamp(final boolean eventTimestamp)
+    '''returns Builder\n\n
+    setEventTimestamp(final boolean eventTimestamp)\n
     '''
 def setLiteral():
-    '''public Builder setLiteral(final String literal)
+    '''returns Builder\n\n
+    setLiteral(final String literal)\n
     '''
 def setName():
-    '''public Builder setName(final String name)
+    '''returns Builder\n\n
+    setName(final String name)\n
     '''
 def setPattern():
-    '''public Builder setPattern(final String pattern)
+    '''returns Builder\n\n
+    setPattern(final String pattern)\n
     '''
 def setUnicode():
-    '''public Builder setUnicode(final boolean unicode)
+    '''returns Builder\n\n
+    setUnicode(final boolean unicode)\n
     '''

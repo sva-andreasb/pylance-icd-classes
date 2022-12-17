@@ -1,12 +1,16 @@
 def setupBean():
-    '''public void setupBean(final SessionContext sc)
+    '''returns None\n\n
+    setupBean(final SessionContext sc)\n
     '''
 def NEXT():
-    '''public int NEXT()
+    '''returns int\n\n
+    NEXT()\n
     '''
 def PREVIOUS():
-    '''public int PREVIOUS()
+    '''returns int\n\n
+    PREVIOUS()\n
     '''
 def saveYesNoCheck():
-    '''public boolean saveYesNoCheck()
+    '''returns boolean\n\n
+    saveYesNoCheck()\n
     '''

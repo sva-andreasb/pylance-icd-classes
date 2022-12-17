@@ -1,3 +1,4 @@
-def InvalidParameterException():
-    '''public InvalidParameterException(final String parameterName, final Object parameterValue)
+def ():
+    '''returns InvalidParameterException\n\n
+    (final String parameterName, final Object parameterValue)\n
     '''

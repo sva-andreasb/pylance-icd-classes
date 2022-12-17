@@ -1,9 +1,12 @@
-def NoImplementationException():
-    '''public NoImplementationException(final Assembler assembler, final Resource root, final Resource type)
+def ():
+    '''returns NoImplementationException\n\n
+    (final Assembler assembler, final Resource root, final Resource type)\n
     '''
 def getType():
-    '''public Resource getType()
+    '''returns Resource\n\n
+    getType()\n
     '''
 def getAssembler():
-    '''public Assembler getAssembler()
+    '''returns Assembler\n\n
+    getAssembler()\n
     '''

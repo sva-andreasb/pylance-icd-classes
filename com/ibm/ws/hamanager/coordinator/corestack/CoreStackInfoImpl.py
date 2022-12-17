@@ -1,234 +1,312 @@
-def CoreStackInfoImpl():
-    '''public CoreStackInfoImpl()
+def ():
+    '''returns CoreStackInfoImpl\n\n
+    ()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setServerName():
-    '''public void setServerName(final String name)
+    '''returns None\n\n
+    setServerName(final String name)\n
     '''
 def getServerName():
-    '''public String getServerName()
+    '''returns String\n\n
+    getServerName()\n
     '''
 def setChannelFramework():
-    '''public void setChannelFramework(final ChannelFrameworkService chfw)
+    '''returns None\n\n
+    setChannelFramework(final ChannelFrameworkService chfw)\n
     '''
 def getChannelFramework():
-    '''public ChannelFrameworkService getChannelFramework()
+    '''returns ChannelFrameworkService\n\n
+    getChannelFramework()\n
     '''
 def setChannelChainName():
-    '''public void setChannelChainName(final String name)
+    '''returns None\n\n
+    setChannelChainName(final String name)\n
     '''
 def getChannelChainName():
-    '''public String getChannelChainName()
+    '''returns String\n\n
+    getChannelChainName()\n
     '''
 def setNumCoordinators():
-    '''public void setNumCoordinators(final int numCoordinators)
+    '''returns None\n\n
+    setNumCoordinators(final int numCoordinators)\n
     '''
 def getNumCoordinators():
-    '''public int getNumCoordinators()
+    '''returns int\n\n
+    getNumCoordinators()\n
     '''
 def setPreferredCoordinators():
-    '''public void setPreferredCoordinators(final String[] servers)
+    '''returns None\n\n
+    setPreferredCoordinators(final String[] servers)\n
     '''
 def getPreferredCoordinators():
-    '''public String[] getPreferredCoordinators()
+    '''returns String[]\n\n
+    getPreferredCoordinators()\n
     '''
 def setTransportBufferSize():
-    '''public void setTransportBufferSize(final int numberOfMegabytes)
+    '''returns None\n\n
+    setTransportBufferSize(final int numberOfMegabytes)\n
     '''
 def getTransportBufferSize():
-    '''public int getTransportBufferSize()
+    '''returns int\n\n
+    getTransportBufferSize()\n
     '''
 def setMaximumTransportMemorySize():
-    '''public void setMaximumTransportMemorySize(final int mBytes)
+    '''returns None\n\n
+    setMaximumTransportMemorySize(final int mBytes)\n
     '''
 def getMaximumTransportMemorySize():
-    '''public int getMaximumTransportMemorySize()
+    '''returns int\n\n
+    getMaximumTransportMemorySize()\n
     '''
 def setSocketBufferSize():
-    '''public void setSocketBufferSize(final int scale)
+    '''returns None\n\n
+    setSocketBufferSize(final int scale)\n
     '''
 def getSocketBufferSize():
-    '''public int getSocketBufferSize()
+    '''returns int\n\n
+    getSocketBufferSize()\n
     '''
 def setCachedUpdateFrequency():
-    '''public void setCachedUpdateFrequency(final int period_ms)
+    '''returns None\n\n
+    setCachedUpdateFrequency(final int period_ms)\n
     '''
 def getCachedUpdateFrequency():
-    '''public int getCachedUpdateFrequency()
+    '''returns int\n\n
+    getCachedUpdateFrequency()\n
     '''
 def setIsAliveTime():
-    '''public void setIsAliveTime(final int period)
+    '''returns None\n\n
+    setIsAliveTime(final int period)\n
     '''
 def getIsAliveTime():
-    '''public int getIsAliveTime()
+    '''returns int\n\n
+    getIsAliveTime()\n
     '''
 def setDataStackMemory():
-    '''public void setDataStackMemory(int mBytes)
+    '''returns None\n\n
+    setDataStackMemory(int mBytes)\n
     '''
 def getDataStackMemory():
-    '''public int getDataStackMemory()
+    '''returns int\n\n
+    getDataStackMemory()\n
     '''
 def setNumberOfThreads():
-    '''public void setNumberOfThreads(final int numberOfThreads)
+    '''returns None\n\n
+    setNumberOfThreads(final int numberOfThreads)\n
     '''
 def getNumberOfThreads():
-    '''public int getNumberOfThreads()
+    '''returns int\n\n
+    getNumberOfThreads()\n
     '''
 def setFailureDetectorTransmissionInterval():
-    '''public void setFailureDetectorTransmissionInterval(final int fdMillis)
+    '''returns None\n\n
+    setFailureDetectorTransmissionInterval(final int fdMillis)\n
     '''
 def getFailureDetectorTransmissionInterval():
-    '''public int getFailureDetectorTransmissionInterval()
+    '''returns int\n\n
+    getFailureDetectorTransmissionInterval()\n
     '''
 def setFailureDetectorTimeout():
-    '''public void setFailureDetectorTimeout(final int fdMissed)
+    '''returns None\n\n
+    setFailureDetectorTimeout(final int fdMissed)\n
     '''
 def getFailureDetectorTimeout():
-    '''public int getFailureDetectorTimeout()
+    '''returns int\n\n
+    getFailureDetectorTimeout()\n
     '''
 def setUsePooledMemory():
-    '''public void setUsePooledMemory(final boolean usePooled)
+    '''returns None\n\n
+    setUsePooledMemory(final boolean usePooled)\n
     '''
 def getUsePooledMemory():
-    '''public boolean getUsePooledMemory()
+    '''returns boolean\n\n
+    getUsePooledMemory()\n
     '''
 def setExpectedMessageSize():
-    '''public void setExpectedMessageSize(final int bytes)
+    '''returns None\n\n
+    setExpectedMessageSize(final int bytes)\n
     '''
 def getExpectedMessageSize():
-    '''public int getExpectedMessageSize()
+    '''returns int\n\n
+    getExpectedMessageSize()\n
     '''
 def setMemberBringupTimeSecs():
-    '''public void setMemberBringupTimeSecs(final int secs)
+    '''returns None\n\n
+    setMemberBringupTimeSecs(final int secs)\n
     '''
 def getMemberBringupTimeSecs():
-    '''public int getMemberBringupTimeSecs()
+    '''returns int\n\n
+    getMemberBringupTimeSecs()\n
     '''
 def setCompletenessVsSpeed():
-    '''public void setCompletenessVsSpeed(final int scale)
+    '''returns None\n\n
+    setCompletenessVsSpeed(final int scale)\n
     '''
 def getCompletenessVsSpeed():
-    '''public int getCompletenessVsSpeed()
+    '''returns int\n\n
+    getCompletenessVsSpeed()\n
     '''
 def setDiscoveryIntervalSecs():
-    '''public void setDiscoveryIntervalSecs(final int secs)
+    '''returns None\n\n
+    setDiscoveryIntervalSecs(final int secs)\n
     '''
 def getDiscoveryIntervalSecs():
-    '''public int getDiscoveryIntervalSecs()
+    '''returns int\n\n
+    getDiscoveryIntervalSecs()\n
     '''
 def setFirewallDiscoveryIntervalSecs():
-    '''public void setFirewallDiscoveryIntervalSecs(final int secs)
+    '''returns None\n\n
+    setFirewallDiscoveryIntervalSecs(final int secs)\n
     '''
 def getFirewallDiscoveryIntervalSecs():
-    '''public int getFirewallDiscoveryIntervalSecs()
+    '''returns int\n\n
+    getFirewallDiscoveryIntervalSecs()\n
     '''
 def setSSLProperties():
-    '''public void setSSLProperties(final Map sslProps)
+    '''returns None\n\n
+    setSSLProperties(final Map sslProps)\n
     '''
 def getSSLProperties():
-    '''public Map getSSLProperties()
+    '''returns Map\n\n
+    getSSLProperties()\n
     '''
 def setSharedSecret():
-    '''public void setSharedSecret(final String secret)
+    '''returns None\n\n
+    setSharedSecret(final String secret)\n
     '''
 def getSharedSecret():
-    '''public String getSharedSecret()
+    '''returns String\n\n
+    getSharedSecret()\n
     '''
 def setSharedSecretTokenSize():
-    '''public void setSharedSecretTokenSize(final int maxBytes)
+    '''returns None\n\n
+    setSharedSecretTokenSize(final int maxBytes)\n
     '''
 def getSharedSecretTokenSize():
-    '''public int getSharedSecretTokenSize()
+    '''returns int\n\n
+    getSharedSecretTokenSize()\n
     '''
 def setUseSecureConnections():
-    '''public void setUseSecureConnections(final boolean secure)
+    '''returns None\n\n
+    setUseSecureConnections(final boolean secure)\n
     '''
 def getUseSecureConnections():
-    '''public boolean getUseSecureConnections()
+    '''returns boolean\n\n
+    getUseSecureConnections()\n
     '''
 def setIPCacheRefreshInterval():
-    '''public void setIPCacheRefreshInterval(final int minutes)
+    '''returns None\n\n
+    setIPCacheRefreshInterval(final int minutes)\n
     '''
 def getIPCacheRefreshInterval():
-    '''public int getIPCacheRefreshInterval()
+    '''returns int\n\n
+    getIPCacheRefreshInterval()\n
     '''
 def setEnableTransportDiagnostics():
-    '''public void setEnableTransportDiagnostics(final boolean enable)
+    '''returns None\n\n
+    setEnableTransportDiagnostics(final boolean enable)\n
     '''
 def getEnableTransportDiagnostics():
-    '''public boolean getEnableTransportDiagnostics()
+    '''returns boolean\n\n
+    getEnableTransportDiagnostics()\n
     '''
 def setProtocolVersions():
-    '''public void setProtocolVersions(final Map map)
+    '''returns None\n\n
+    setProtocolVersions(final Map map)\n
     '''
 def getProtocolVersions():
-    '''public Map getProtocolVersions()
+    '''returns Map\n\n
+    getProtocolVersions()\n
     '''
 def setEnableCoreStackConfigChecks():
-    '''public void setEnableCoreStackConfigChecks(final boolean enable)
+    '''returns None\n\n
+    setEnableCoreStackConfigChecks(final boolean enable)\n
     '''
 def getEnableCoreStackConfigChecks():
-    '''public boolean getEnableCoreStackConfigChecks()
+    '''returns boolean\n\n
+    getEnableCoreStackConfigChecks()\n
     '''
 def setStackCheckInterval():
-    '''public void setStackCheckInterval(final int period)
+    '''returns None\n\n
+    setStackCheckInterval(final int period)\n
     '''
 def getStackCheckInterval():
-    '''public int getStackCheckInterval()
+    '''returns int\n\n
+    getStackCheckInterval()\n
     '''
 def setLivenessType():
-    '''public void setLivenessType(final int type)
+    '''returns None\n\n
+    setLivenessType(final int type)\n
     '''
 def getLivenessType():
-    '''public int getLivenessType()
+    '''returns int\n\n
+    getLivenessType()\n
     '''
 def setLivenessPluginFactoryName():
-    '''public void setLivenessPluginFactoryName(final String className)
+    '''returns None\n\n
+    setLivenessPluginFactoryName(final String className)\n
     '''
 def getLivenessPluginFactoryName():
-    '''public String getLivenessPluginFactoryName()
+    '''returns String\n\n
+    getLivenessPluginFactoryName()\n
     '''
 def setLivenessPluginConfiguration():
-    '''public void setLivenessPluginConfiguration(final Map properties)
+    '''returns None\n\n
+    setLivenessPluginConfiguration(final Map properties)\n
     '''
 def getLivenessPluginConfiguration():
-    '''public Map getLivenessPluginConfiguration()
+    '''returns Map\n\n
+    getLivenessPluginConfiguration()\n
     '''
 def getServerPowerController():
-    '''public ServerPowerController getServerPowerController()
+    '''returns ServerPowerController\n\n
+    getServerPowerController()\n
     '''
 def setTransportType():
-    '''public void setTransportType(final CoreStackTransportType type)
+    '''returns None\n\n
+    setTransportType(final CoreStackTransportType type)\n
     '''
 def getTransportType():
-    '''public CoreStackTransportType getTransportType()
+    '''returns CoreStackTransportType\n\n
+    getTransportType()\n
     '''
 def setServerPowerController():
-    '''public void setServerPowerController(final ServerPowerController spc)
+    '''returns None\n\n
+    setServerPowerController(final ServerPowerController spc)\n
     '''
 def setMulticastAttributes():
-    '''public void setMulticastAttributes(final String startIP, final String endIP, final int port)
+    '''returns None\n\n
+    setMulticastAttributes(final String startIP, final String endIP, final int port)\n
     '''
 def getMulticastGroupRangeStart():
-    '''public String getMulticastGroupRangeStart()
+    '''returns String\n\n
+    getMulticastGroupRangeStart()\n
     '''
 def getMultiCastGroupRangeEnd():
-    '''public String getMultiCastGroupRangeEnd()
+    '''returns String\n\n
+    getMultiCastGroupRangeEnd()\n
     '''
 def getMultiCastPort():
-    '''public int getMultiCastPort()
+    '''returns int\n\n
+    getMultiCastPort()\n
     '''
 def setMulticastTTL():
-    '''public void setMulticastTTL(final int ttl)
+    '''returns None\n\n
+    setMulticastTTL(final int ttl)\n
     '''
 def getMultiCastTTL():
-    '''public int getMultiCastTTL()
+    '''returns int\n\n
+    getMultiCastTTL()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

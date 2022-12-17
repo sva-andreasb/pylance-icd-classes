@@ -1,9 +1,12 @@
 def getView():
-    '''public AbstractView getView()
+    '''returns AbstractView\n\n
+    getView()\n
     '''
 def getDetail():
-    '''public int getDetail()
+    '''returns int\n\n
+    getDetail()\n
     '''
 def initUIEvent():
-    '''public void initUIEvent(final String s, final boolean b, final boolean b2, final AbstractView fView, final int fDetail)
+    '''returns None\n\n
+    initUIEvent(final String s, final boolean b, final boolean b2, final AbstractView fView, final int fDetail)\n
     '''

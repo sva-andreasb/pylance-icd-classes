@@ -1,24 +1,32 @@
-def HttpRequestFutureTask():
-    '''public HttpRequestFutureTask(final HttpUriRequest request, final HttpRequestTaskCallable<V> httpCallable)
+def ():
+    '''returns HttpRequestFutureTask\n\n
+    (final HttpUriRequest request, final HttpRequestTaskCallable<V> httpCallable)\n
     '''
 def cancel():
-    '''public boolean cancel(final boolean mayInterruptIfRunning)
+    '''returns boolean\n\n
+    cancel(final boolean mayInterruptIfRunning)\n
     '''
 def scheduledTime():
-    '''public long scheduledTime()
+    '''returns long\n\n
+    scheduledTime()\n
     '''
 def startedTime():
-    '''public long startedTime()
+    '''returns long\n\n
+    startedTime()\n
     '''
 def endedTime():
-    '''public long endedTime()
+    '''returns long\n\n
+    endedTime()\n
     '''
 def requestDuration():
-    '''public long requestDuration()
+    '''returns long\n\n
+    requestDuration()\n
     '''
 def taskDuration():
-    '''public long taskDuration()
+    '''returns long\n\n
+    taskDuration()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,765 +1,1020 @@
-def CSSStyleDeclaration():
-    '''public CSSStyleDeclaration(final DOMObject obj, final CSSStyleSheet parentStyleSheet, final CSSRule parentRule)
+def ():
+    '''returns CSSStyleDeclaration\n\n
+    (final DOMObject obj, final CSSStyleSheet parentStyleSheet, final CSSRule parentRule)\n
     '''
 def getCssText():
-    '''public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
     '''
 def setCssText():
-    '''public void setCssText(final String s)
+    '''returns None\n\n
+    setCssText(final String s)\n
     '''
 def getPropertyValue():
-    '''public String getPropertyValue(final String s)
+    '''returns String\n\n
+    getPropertyValue(final String s)\n
     '''
 def getPropertyCSSValue():
-    '''public CSSValue getPropertyCSSValue(final String s)
+    '''returns CSSValue\n\n
+    getPropertyCSSValue(final String s)\n
     '''
 def removeProperty():
-    '''public String removeProperty(final String s)
+    '''returns String\n\n
+    removeProperty(final String s)\n
     '''
 def getPropertyPriority():
-    '''public String getPropertyPriority(final String s)
+    '''returns String\n\n
+    getPropertyPriority(final String s)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    setProperty(final String s, final String s2, final String s3)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public String item(final int n)
+    '''returns String\n\n
+    item(final int n)\n
     '''
 def getParentRule():
-    '''public CSSRule getParentRule()
+    '''returns CSSRule\n\n
+    getParentRule()\n
     '''
 def getAzimuth():
-    '''public String getAzimuth()
+    '''returns String\n\n
+    getAzimuth()\n
     '''
 def setAzimuth():
-    '''public void setAzimuth(final String s)
+    '''returns None\n\n
+    setAzimuth(final String s)\n
     '''
 def getBackground():
-    '''public String getBackground()
+    '''returns String\n\n
+    getBackground()\n
     '''
 def setBackground():
-    '''public void setBackground(final String s)
+    '''returns None\n\n
+    setBackground(final String s)\n
     '''
 def getBackgroundAttachment():
-    '''public String getBackgroundAttachment()
+    '''returns String\n\n
+    getBackgroundAttachment()\n
     '''
 def setBackgroundAttachment():
-    '''public void setBackgroundAttachment(final String s)
+    '''returns None\n\n
+    setBackgroundAttachment(final String s)\n
     '''
 def getBackgroundColor():
-    '''public String getBackgroundColor()
+    '''returns String\n\n
+    getBackgroundColor()\n
     '''
 def setBackgroundColor():
-    '''public void setBackgroundColor(final String s)
+    '''returns None\n\n
+    setBackgroundColor(final String s)\n
     '''
 def getBackgroundImage():
-    '''public String getBackgroundImage()
+    '''returns String\n\n
+    getBackgroundImage()\n
     '''
 def setBackgroundImage():
-    '''public void setBackgroundImage(final String s)
+    '''returns None\n\n
+    setBackgroundImage(final String s)\n
     '''
 def getBackgroundPosition():
-    '''public String getBackgroundPosition()
+    '''returns String\n\n
+    getBackgroundPosition()\n
     '''
 def setBackgroundPosition():
-    '''public void setBackgroundPosition(final String s)
+    '''returns None\n\n
+    setBackgroundPosition(final String s)\n
     '''
 def getBackgroundRepeat():
-    '''public String getBackgroundRepeat()
+    '''returns String\n\n
+    getBackgroundRepeat()\n
     '''
 def setBackgroundRepeat():
-    '''public void setBackgroundRepeat(final String s)
+    '''returns None\n\n
+    setBackgroundRepeat(final String s)\n
     '''
 def getBorder():
-    '''public String getBorder()
+    '''returns String\n\n
+    getBorder()\n
     '''
 def setBorder():
-    '''public void setBorder(final String s)
+    '''returns None\n\n
+    setBorder(final String s)\n
     '''
 def getBorderCollapse():
-    '''public String getBorderCollapse()
+    '''returns String\n\n
+    getBorderCollapse()\n
     '''
 def setBorderCollapse():
-    '''public void setBorderCollapse(final String s)
+    '''returns None\n\n
+    setBorderCollapse(final String s)\n
     '''
 def getBorderColor():
-    '''public String getBorderColor()
+    '''returns String\n\n
+    getBorderColor()\n
     '''
 def setBorderColor():
-    '''public void setBorderColor(final String s)
+    '''returns None\n\n
+    setBorderColor(final String s)\n
     '''
 def getBorderSpacing():
-    '''public String getBorderSpacing()
+    '''returns String\n\n
+    getBorderSpacing()\n
     '''
 def setBorderSpacing():
-    '''public void setBorderSpacing(final String s)
+    '''returns None\n\n
+    setBorderSpacing(final String s)\n
     '''
 def getBorderStyle():
-    '''public String getBorderStyle()
+    '''returns String\n\n
+    getBorderStyle()\n
     '''
 def setBorderStyle():
-    '''public void setBorderStyle(final String s)
+    '''returns None\n\n
+    setBorderStyle(final String s)\n
     '''
 def getBorderTop():
-    '''public String getBorderTop()
+    '''returns String\n\n
+    getBorderTop()\n
     '''
 def setBorderTop():
-    '''public void setBorderTop(final String s)
+    '''returns None\n\n
+    setBorderTop(final String s)\n
     '''
 def getBorderRight():
-    '''public String getBorderRight()
+    '''returns String\n\n
+    getBorderRight()\n
     '''
 def setBorderRight():
-    '''public void setBorderRight(final String s)
+    '''returns None\n\n
+    setBorderRight(final String s)\n
     '''
 def getBorderBottom():
-    '''public String getBorderBottom()
+    '''returns String\n\n
+    getBorderBottom()\n
     '''
 def setBorderBottom():
-    '''public void setBorderBottom(final String s)
+    '''returns None\n\n
+    setBorderBottom(final String s)\n
     '''
 def getBorderLeft():
-    '''public String getBorderLeft()
+    '''returns String\n\n
+    getBorderLeft()\n
     '''
 def setBorderLeft():
-    '''public void setBorderLeft(final String s)
+    '''returns None\n\n
+    setBorderLeft(final String s)\n
     '''
 def getBorderTopColor():
-    '''public String getBorderTopColor()
+    '''returns String\n\n
+    getBorderTopColor()\n
     '''
 def setBorderTopColor():
-    '''public void setBorderTopColor(final String s)
+    '''returns None\n\n
+    setBorderTopColor(final String s)\n
     '''
 def getBorderRightColor():
-    '''public String getBorderRightColor()
+    '''returns String\n\n
+    getBorderRightColor()\n
     '''
 def setBorderRightColor():
-    '''public void setBorderRightColor(final String s)
+    '''returns None\n\n
+    setBorderRightColor(final String s)\n
     '''
 def getBorderBottomColor():
-    '''public String getBorderBottomColor()
+    '''returns String\n\n
+    getBorderBottomColor()\n
     '''
 def setBorderBottomColor():
-    '''public void setBorderBottomColor(final String s)
+    '''returns None\n\n
+    setBorderBottomColor(final String s)\n
     '''
 def getBorderLeftColor():
-    '''public String getBorderLeftColor()
+    '''returns String\n\n
+    getBorderLeftColor()\n
     '''
 def setBorderLeftColor():
-    '''public void setBorderLeftColor(final String s)
+    '''returns None\n\n
+    setBorderLeftColor(final String s)\n
     '''
 def getBorderTopStyle():
-    '''public String getBorderTopStyle()
+    '''returns String\n\n
+    getBorderTopStyle()\n
     '''
 def setBorderTopStyle():
-    '''public void setBorderTopStyle(final String s)
+    '''returns None\n\n
+    setBorderTopStyle(final String s)\n
     '''
 def getBorderRightStyle():
-    '''public String getBorderRightStyle()
+    '''returns String\n\n
+    getBorderRightStyle()\n
     '''
 def setBorderRightStyle():
-    '''public void setBorderRightStyle(final String s)
+    '''returns None\n\n
+    setBorderRightStyle(final String s)\n
     '''
 def getBorderBottomStyle():
-    '''public String getBorderBottomStyle()
+    '''returns String\n\n
+    getBorderBottomStyle()\n
     '''
 def setBorderBottomStyle():
-    '''public void setBorderBottomStyle(final String s)
+    '''returns None\n\n
+    setBorderBottomStyle(final String s)\n
     '''
 def getBorderLeftStyle():
-    '''public String getBorderLeftStyle()
+    '''returns String\n\n
+    getBorderLeftStyle()\n
     '''
 def setBorderLeftStyle():
-    '''public void setBorderLeftStyle(final String s)
+    '''returns None\n\n
+    setBorderLeftStyle(final String s)\n
     '''
 def getBorderTopWidth():
-    '''public String getBorderTopWidth()
+    '''returns String\n\n
+    getBorderTopWidth()\n
     '''
 def setBorderTopWidth():
-    '''public void setBorderTopWidth(final String s)
+    '''returns None\n\n
+    setBorderTopWidth(final String s)\n
     '''
 def getBorderRightWidth():
-    '''public String getBorderRightWidth()
+    '''returns String\n\n
+    getBorderRightWidth()\n
     '''
 def setBorderRightWidth():
-    '''public void setBorderRightWidth(final String s)
+    '''returns None\n\n
+    setBorderRightWidth(final String s)\n
     '''
 def getBorderBottomWidth():
-    '''public String getBorderBottomWidth()
+    '''returns String\n\n
+    getBorderBottomWidth()\n
     '''
 def setBorderBottomWidth():
-    '''public void setBorderBottomWidth(final String s)
+    '''returns None\n\n
+    setBorderBottomWidth(final String s)\n
     '''
 def getBorderLeftWidth():
-    '''public String getBorderLeftWidth()
+    '''returns String\n\n
+    getBorderLeftWidth()\n
     '''
 def setBorderLeftWidth():
-    '''public void setBorderLeftWidth(final String s)
+    '''returns None\n\n
+    setBorderLeftWidth(final String s)\n
     '''
 def getBorderWidth():
-    '''public String getBorderWidth()
+    '''returns String\n\n
+    getBorderWidth()\n
     '''
 def setBorderWidth():
-    '''public void setBorderWidth(final String s)
+    '''returns None\n\n
+    setBorderWidth(final String s)\n
     '''
 def getBottom():
-    '''public String getBottom()
+    '''returns String\n\n
+    getBottom()\n
     '''
 def setBottom():
-    '''public void setBottom(final String s)
+    '''returns None\n\n
+    setBottom(final String s)\n
     '''
 def getCaptionSide():
-    '''public String getCaptionSide()
+    '''returns String\n\n
+    getCaptionSide()\n
     '''
 def setCaptionSide():
-    '''public void setCaptionSide(final String s)
+    '''returns None\n\n
+    setCaptionSide(final String s)\n
     '''
 def getClear():
-    '''public String getClear()
+    '''returns String\n\n
+    getClear()\n
     '''
 def setClear():
-    '''public void setClear(final String s)
+    '''returns None\n\n
+    setClear(final String s)\n
     '''
 def getClip():
-    '''public String getClip()
+    '''returns String\n\n
+    getClip()\n
     '''
 def setClip():
-    '''public void setClip(final String s)
+    '''returns None\n\n
+    setClip(final String s)\n
     '''
 def getColor():
-    '''public String getColor()
+    '''returns String\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final String s)
+    '''returns None\n\n
+    setColor(final String s)\n
     '''
 def getContent():
-    '''public String getContent()
+    '''returns String\n\n
+    getContent()\n
     '''
 def setContent():
-    '''public void setContent(final String s)
+    '''returns None\n\n
+    setContent(final String s)\n
     '''
 def getCounterIncrement():
-    '''public String getCounterIncrement()
+    '''returns String\n\n
+    getCounterIncrement()\n
     '''
 def setCounterIncrement():
-    '''public void setCounterIncrement(final String s)
+    '''returns None\n\n
+    setCounterIncrement(final String s)\n
     '''
 def getCounterReset():
-    '''public String getCounterReset()
+    '''returns String\n\n
+    getCounterReset()\n
     '''
 def setCounterReset():
-    '''public void setCounterReset(final String s)
+    '''returns None\n\n
+    setCounterReset(final String s)\n
     '''
 def getCue():
-    '''public String getCue()
+    '''returns String\n\n
+    getCue()\n
     '''
 def setCue():
-    '''public void setCue(final String s)
+    '''returns None\n\n
+    setCue(final String s)\n
     '''
 def getCueAfter():
-    '''public String getCueAfter()
+    '''returns String\n\n
+    getCueAfter()\n
     '''
 def setCueAfter():
-    '''public void setCueAfter(final String s)
+    '''returns None\n\n
+    setCueAfter(final String s)\n
     '''
 def getCueBefore():
-    '''public String getCueBefore()
+    '''returns String\n\n
+    getCueBefore()\n
     '''
 def setCueBefore():
-    '''public void setCueBefore(final String s)
+    '''returns None\n\n
+    setCueBefore(final String s)\n
     '''
 def getCursor():
-    '''public String getCursor()
+    '''returns String\n\n
+    getCursor()\n
     '''
 def setCursor():
-    '''public void setCursor(final String s)
+    '''returns None\n\n
+    setCursor(final String s)\n
     '''
 def getDirection():
-    '''public String getDirection()
+    '''returns String\n\n
+    getDirection()\n
     '''
 def setDirection():
-    '''public void setDirection(final String s)
+    '''returns None\n\n
+    setDirection(final String s)\n
     '''
 def getDisplay():
-    '''public String getDisplay()
+    '''returns String\n\n
+    getDisplay()\n
     '''
 def setDisplay():
-    '''public void setDisplay(final String s)
+    '''returns None\n\n
+    setDisplay(final String s)\n
     '''
 def getElevation():
-    '''public String getElevation()
+    '''returns String\n\n
+    getElevation()\n
     '''
 def setElevation():
-    '''public void setElevation(final String s)
+    '''returns None\n\n
+    setElevation(final String s)\n
     '''
 def getEmptyCells():
-    '''public String getEmptyCells()
+    '''returns String\n\n
+    getEmptyCells()\n
     '''
 def setEmptyCells():
-    '''public void setEmptyCells(final String s)
+    '''returns None\n\n
+    setEmptyCells(final String s)\n
     '''
 def getCssFloat():
-    '''public String getCssFloat()
+    '''returns String\n\n
+    getCssFloat()\n
     '''
 def setCssFloat():
-    '''public void setCssFloat(final String s)
+    '''returns None\n\n
+    setCssFloat(final String s)\n
     '''
 def getFont():
-    '''public String getFont()
+    '''returns String\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final String s)
+    '''returns None\n\n
+    setFont(final String s)\n
     '''
 def getFontFamily():
-    '''public String getFontFamily()
+    '''returns String\n\n
+    getFontFamily()\n
     '''
 def setFontFamily():
-    '''public void setFontFamily(final String s)
+    '''returns None\n\n
+    setFontFamily(final String s)\n
     '''
 def getFontSize():
-    '''public String getFontSize()
+    '''returns String\n\n
+    getFontSize()\n
     '''
 def setFontSize():
-    '''public void setFontSize(final String s)
+    '''returns None\n\n
+    setFontSize(final String s)\n
     '''
 def getFontSizeAdjust():
-    '''public String getFontSizeAdjust()
+    '''returns String\n\n
+    getFontSizeAdjust()\n
     '''
 def setFontSizeAdjust():
-    '''public void setFontSizeAdjust(final String s)
+    '''returns None\n\n
+    setFontSizeAdjust(final String s)\n
     '''
 def getFontStretch():
-    '''public String getFontStretch()
+    '''returns String\n\n
+    getFontStretch()\n
     '''
 def setFontStretch():
-    '''public void setFontStretch(final String s)
+    '''returns None\n\n
+    setFontStretch(final String s)\n
     '''
 def getFontStyle():
-    '''public String getFontStyle()
+    '''returns String\n\n
+    getFontStyle()\n
     '''
 def setFontStyle():
-    '''public void setFontStyle(final String s)
+    '''returns None\n\n
+    setFontStyle(final String s)\n
     '''
 def getFontVariant():
-    '''public String getFontVariant()
+    '''returns String\n\n
+    getFontVariant()\n
     '''
 def setFontVariant():
-    '''public void setFontVariant(final String s)
+    '''returns None\n\n
+    setFontVariant(final String s)\n
     '''
 def getFontWeight():
-    '''public String getFontWeight()
+    '''returns String\n\n
+    getFontWeight()\n
     '''
 def setFontWeight():
-    '''public void setFontWeight(final String s)
+    '''returns None\n\n
+    setFontWeight(final String s)\n
     '''
 def getHeight():
-    '''public String getHeight()
+    '''returns String\n\n
+    getHeight()\n
     '''
 def setHeight():
-    '''public void setHeight(final String s)
+    '''returns None\n\n
+    setHeight(final String s)\n
     '''
 def getLeft():
-    '''public String getLeft()
+    '''returns String\n\n
+    getLeft()\n
     '''
 def setLeft():
-    '''public void setLeft(final String s)
+    '''returns None\n\n
+    setLeft(final String s)\n
     '''
 def getLetterSpacing():
-    '''public String getLetterSpacing()
+    '''returns String\n\n
+    getLetterSpacing()\n
     '''
 def setLetterSpacing():
-    '''public void setLetterSpacing(final String s)
+    '''returns None\n\n
+    setLetterSpacing(final String s)\n
     '''
 def getLineHeight():
-    '''public String getLineHeight()
+    '''returns String\n\n
+    getLineHeight()\n
     '''
 def setLineHeight():
-    '''public void setLineHeight(final String s)
+    '''returns None\n\n
+    setLineHeight(final String s)\n
     '''
 def getListStyle():
-    '''public String getListStyle()
+    '''returns String\n\n
+    getListStyle()\n
     '''
 def setListStyle():
-    '''public void setListStyle(final String s)
+    '''returns None\n\n
+    setListStyle(final String s)\n
     '''
 def getListStyleImage():
-    '''public String getListStyleImage()
+    '''returns String\n\n
+    getListStyleImage()\n
     '''
 def setListStyleImage():
-    '''public void setListStyleImage(final String s)
+    '''returns None\n\n
+    setListStyleImage(final String s)\n
     '''
 def getListStylePosition():
-    '''public String getListStylePosition()
+    '''returns String\n\n
+    getListStylePosition()\n
     '''
 def setListStylePosition():
-    '''public void setListStylePosition(final String s)
+    '''returns None\n\n
+    setListStylePosition(final String s)\n
     '''
 def getListStyleType():
-    '''public String getListStyleType()
+    '''returns String\n\n
+    getListStyleType()\n
     '''
 def setListStyleType():
-    '''public void setListStyleType(final String s)
+    '''returns None\n\n
+    setListStyleType(final String s)\n
     '''
 def getMargin():
-    '''public String getMargin()
+    '''returns String\n\n
+    getMargin()\n
     '''
 def setMargin():
-    '''public void setMargin(final String s)
+    '''returns None\n\n
+    setMargin(final String s)\n
     '''
 def getMarginTop():
-    '''public String getMarginTop()
+    '''returns String\n\n
+    getMarginTop()\n
     '''
 def setMarginTop():
-    '''public void setMarginTop(final String s)
+    '''returns None\n\n
+    setMarginTop(final String s)\n
     '''
 def getMarginRight():
-    '''public String getMarginRight()
+    '''returns String\n\n
+    getMarginRight()\n
     '''
 def setMarginRight():
-    '''public void setMarginRight(final String s)
+    '''returns None\n\n
+    setMarginRight(final String s)\n
     '''
 def getMarginBottom():
-    '''public String getMarginBottom()
+    '''returns String\n\n
+    getMarginBottom()\n
     '''
 def setMarginBottom():
-    '''public void setMarginBottom(final String s)
+    '''returns None\n\n
+    setMarginBottom(final String s)\n
     '''
 def getMarginLeft():
-    '''public String getMarginLeft()
+    '''returns String\n\n
+    getMarginLeft()\n
     '''
 def setMarginLeft():
-    '''public void setMarginLeft(final String s)
+    '''returns None\n\n
+    setMarginLeft(final String s)\n
     '''
 def getMarkerOffset():
-    '''public String getMarkerOffset()
+    '''returns String\n\n
+    getMarkerOffset()\n
     '''
 def setMarkerOffset():
-    '''public void setMarkerOffset(final String s)
+    '''returns None\n\n
+    setMarkerOffset(final String s)\n
     '''
 def getMarks():
-    '''public String getMarks()
+    '''returns String\n\n
+    getMarks()\n
     '''
 def setMarks():
-    '''public void setMarks(final String s)
+    '''returns None\n\n
+    setMarks(final String s)\n
     '''
 def getMaxHeight():
-    '''public String getMaxHeight()
+    '''returns String\n\n
+    getMaxHeight()\n
     '''
 def setMaxHeight():
-    '''public void setMaxHeight(final String s)
+    '''returns None\n\n
+    setMaxHeight(final String s)\n
     '''
 def getMaxWidth():
-    '''public String getMaxWidth()
+    '''returns String\n\n
+    getMaxWidth()\n
     '''
 def setMaxWidth():
-    '''public void setMaxWidth(final String s)
+    '''returns None\n\n
+    setMaxWidth(final String s)\n
     '''
 def getMinHeight():
-    '''public String getMinHeight()
+    '''returns String\n\n
+    getMinHeight()\n
     '''
 def setMinHeight():
-    '''public void setMinHeight(final String s)
+    '''returns None\n\n
+    setMinHeight(final String s)\n
     '''
 def getMinWidth():
-    '''public String getMinWidth()
+    '''returns String\n\n
+    getMinWidth()\n
     '''
 def setMinWidth():
-    '''public void setMinWidth(final String s)
+    '''returns None\n\n
+    setMinWidth(final String s)\n
     '''
 def getOrphans():
-    '''public String getOrphans()
+    '''returns String\n\n
+    getOrphans()\n
     '''
 def setOrphans():
-    '''public void setOrphans(final String s)
+    '''returns None\n\n
+    setOrphans(final String s)\n
     '''
 def getOutline():
-    '''public String getOutline()
+    '''returns String\n\n
+    getOutline()\n
     '''
 def setOutline():
-    '''public void setOutline(final String s)
+    '''returns None\n\n
+    setOutline(final String s)\n
     '''
 def getOutlineColor():
-    '''public String getOutlineColor()
+    '''returns String\n\n
+    getOutlineColor()\n
     '''
 def setOutlineColor():
-    '''public void setOutlineColor(final String s)
+    '''returns None\n\n
+    setOutlineColor(final String s)\n
     '''
 def getOutlineStyle():
-    '''public String getOutlineStyle()
+    '''returns String\n\n
+    getOutlineStyle()\n
     '''
 def setOutlineStyle():
-    '''public void setOutlineStyle(final String s)
+    '''returns None\n\n
+    setOutlineStyle(final String s)\n
     '''
 def getOutlineWidth():
-    '''public String getOutlineWidth()
+    '''returns String\n\n
+    getOutlineWidth()\n
     '''
 def setOutlineWidth():
-    '''public void setOutlineWidth(final String s)
+    '''returns None\n\n
+    setOutlineWidth(final String s)\n
     '''
 def getOverflow():
-    '''public String getOverflow()
+    '''returns String\n\n
+    getOverflow()\n
     '''
 def setOverflow():
-    '''public void setOverflow(final String s)
+    '''returns None\n\n
+    setOverflow(final String s)\n
     '''
 def getPadding():
-    '''public String getPadding()
+    '''returns String\n\n
+    getPadding()\n
     '''
 def setPadding():
-    '''public void setPadding(final String s)
+    '''returns None\n\n
+    setPadding(final String s)\n
     '''
 def getPaddingTop():
-    '''public String getPaddingTop()
+    '''returns String\n\n
+    getPaddingTop()\n
     '''
 def setPaddingTop():
-    '''public void setPaddingTop(final String s)
+    '''returns None\n\n
+    setPaddingTop(final String s)\n
     '''
 def getPaddingRight():
-    '''public String getPaddingRight()
+    '''returns String\n\n
+    getPaddingRight()\n
     '''
 def setPaddingRight():
-    '''public void setPaddingRight(final String s)
+    '''returns None\n\n
+    setPaddingRight(final String s)\n
     '''
 def getPaddingBottom():
-    '''public String getPaddingBottom()
+    '''returns String\n\n
+    getPaddingBottom()\n
     '''
 def setPaddingBottom():
-    '''public void setPaddingBottom(final String s)
+    '''returns None\n\n
+    setPaddingBottom(final String s)\n
     '''
 def getPaddingLeft():
-    '''public String getPaddingLeft()
+    '''returns String\n\n
+    getPaddingLeft()\n
     '''
 def setPaddingLeft():
-    '''public void setPaddingLeft(final String s)
+    '''returns None\n\n
+    setPaddingLeft(final String s)\n
     '''
 def getPage():
-    '''public String getPage()
+    '''returns String\n\n
+    getPage()\n
     '''
 def setPage():
-    '''public void setPage(final String s)
+    '''returns None\n\n
+    setPage(final String s)\n
     '''
 def getPageBreakAfter():
-    '''public String getPageBreakAfter()
+    '''returns String\n\n
+    getPageBreakAfter()\n
     '''
 def setPageBreakAfter():
-    '''public void setPageBreakAfter(final String s)
+    '''returns None\n\n
+    setPageBreakAfter(final String s)\n
     '''
 def getPageBreakBefore():
-    '''public String getPageBreakBefore()
+    '''returns String\n\n
+    getPageBreakBefore()\n
     '''
 def setPageBreakBefore():
-    '''public void setPageBreakBefore(final String s)
+    '''returns None\n\n
+    setPageBreakBefore(final String s)\n
     '''
 def getPageBreakInside():
-    '''public String getPageBreakInside()
+    '''returns String\n\n
+    getPageBreakInside()\n
     '''
 def setPageBreakInside():
-    '''public void setPageBreakInside(final String s)
+    '''returns None\n\n
+    setPageBreakInside(final String s)\n
     '''
 def getPause():
-    '''public String getPause()
+    '''returns String\n\n
+    getPause()\n
     '''
 def setPause():
-    '''public void setPause(final String s)
+    '''returns None\n\n
+    setPause(final String s)\n
     '''
 def getPauseAfter():
-    '''public String getPauseAfter()
+    '''returns String\n\n
+    getPauseAfter()\n
     '''
 def setPauseAfter():
-    '''public void setPauseAfter(final String s)
+    '''returns None\n\n
+    setPauseAfter(final String s)\n
     '''
 def getPauseBefore():
-    '''public String getPauseBefore()
+    '''returns String\n\n
+    getPauseBefore()\n
     '''
 def setPauseBefore():
-    '''public void setPauseBefore(final String s)
+    '''returns None\n\n
+    setPauseBefore(final String s)\n
     '''
 def getPitch():
-    '''public String getPitch()
+    '''returns String\n\n
+    getPitch()\n
     '''
 def setPitch():
-    '''public void setPitch(final String s)
+    '''returns None\n\n
+    setPitch(final String s)\n
     '''
 def getPitchRange():
-    '''public String getPitchRange()
+    '''returns String\n\n
+    getPitchRange()\n
     '''
 def setPitchRange():
-    '''public void setPitchRange(final String s)
+    '''returns None\n\n
+    setPitchRange(final String s)\n
     '''
 def getPlayDuring():
-    '''public String getPlayDuring()
+    '''returns String\n\n
+    getPlayDuring()\n
     '''
 def setPlayDuring():
-    '''public void setPlayDuring(final String s)
+    '''returns None\n\n
+    setPlayDuring(final String s)\n
     '''
 def getPosition():
-    '''public String getPosition()
+    '''returns String\n\n
+    getPosition()\n
     '''
 def setPosition():
-    '''public void setPosition(final String s)
+    '''returns None\n\n
+    setPosition(final String s)\n
     '''
 def getQuotes():
-    '''public String getQuotes()
+    '''returns String\n\n
+    getQuotes()\n
     '''
 def setQuotes():
-    '''public void setQuotes(final String s)
+    '''returns None\n\n
+    setQuotes(final String s)\n
     '''
 def getRichness():
-    '''public String getRichness()
+    '''returns String\n\n
+    getRichness()\n
     '''
 def setRichness():
-    '''public void setRichness(final String s)
+    '''returns None\n\n
+    setRichness(final String s)\n
     '''
 def getRight():
-    '''public String getRight()
+    '''returns String\n\n
+    getRight()\n
     '''
 def setRight():
-    '''public void setRight(final String s)
+    '''returns None\n\n
+    setRight(final String s)\n
     '''
 def getSize():
-    '''public String getSize()
+    '''returns String\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final String s)
+    '''returns None\n\n
+    setSize(final String s)\n
     '''
 def getSpeak():
-    '''public String getSpeak()
+    '''returns String\n\n
+    getSpeak()\n
     '''
 def setSpeak():
-    '''public void setSpeak(final String s)
+    '''returns None\n\n
+    setSpeak(final String s)\n
     '''
 def getSpeakHeader():
-    '''public String getSpeakHeader()
+    '''returns String\n\n
+    getSpeakHeader()\n
     '''
 def setSpeakHeader():
-    '''public void setSpeakHeader(final String s)
+    '''returns None\n\n
+    setSpeakHeader(final String s)\n
     '''
 def getSpeakNumeral():
-    '''public String getSpeakNumeral()
+    '''returns String\n\n
+    getSpeakNumeral()\n
     '''
 def setSpeakNumeral():
-    '''public void setSpeakNumeral(final String s)
+    '''returns None\n\n
+    setSpeakNumeral(final String s)\n
     '''
 def getSpeakPunctuation():
-    '''public String getSpeakPunctuation()
+    '''returns String\n\n
+    getSpeakPunctuation()\n
     '''
 def setSpeakPunctuation():
-    '''public void setSpeakPunctuation(final String s)
+    '''returns None\n\n
+    setSpeakPunctuation(final String s)\n
     '''
 def getSpeechRate():
-    '''public String getSpeechRate()
+    '''returns String\n\n
+    getSpeechRate()\n
     '''
 def setSpeechRate():
-    '''public void setSpeechRate(final String s)
+    '''returns None\n\n
+    setSpeechRate(final String s)\n
     '''
 def getStress():
-    '''public String getStress()
+    '''returns String\n\n
+    getStress()\n
     '''
 def setStress():
-    '''public void setStress(final String s)
+    '''returns None\n\n
+    setStress(final String s)\n
     '''
 def getTableLayout():
-    '''public String getTableLayout()
+    '''returns String\n\n
+    getTableLayout()\n
     '''
 def setTableLayout():
-    '''public void setTableLayout(final String s)
+    '''returns None\n\n
+    setTableLayout(final String s)\n
     '''
 def getTextAlign():
-    '''public String getTextAlign()
+    '''returns String\n\n
+    getTextAlign()\n
     '''
 def setTextAlign():
-    '''public void setTextAlign(final String s)
+    '''returns None\n\n
+    setTextAlign(final String s)\n
     '''
 def getTextDecoration():
-    '''public String getTextDecoration()
+    '''returns String\n\n
+    getTextDecoration()\n
     '''
 def setTextDecoration():
-    '''public void setTextDecoration(final String s)
+    '''returns None\n\n
+    setTextDecoration(final String s)\n
     '''
 def getTextIndent():
-    '''public String getTextIndent()
+    '''returns String\n\n
+    getTextIndent()\n
     '''
 def setTextIndent():
-    '''public void setTextIndent(final String s)
+    '''returns None\n\n
+    setTextIndent(final String s)\n
     '''
 def getTextShadow():
-    '''public String getTextShadow()
+    '''returns String\n\n
+    getTextShadow()\n
     '''
 def setTextShadow():
-    '''public void setTextShadow(final String s)
+    '''returns None\n\n
+    setTextShadow(final String s)\n
     '''
 def getTextTransform():
-    '''public String getTextTransform()
+    '''returns String\n\n
+    getTextTransform()\n
     '''
 def setTextTransform():
-    '''public void setTextTransform(final String s)
+    '''returns None\n\n
+    setTextTransform(final String s)\n
     '''
 def getTop():
-    '''public String getTop()
+    '''returns String\n\n
+    getTop()\n
     '''
 def setTop():
-    '''public void setTop(final String s)
+    '''returns None\n\n
+    setTop(final String s)\n
     '''
 def getUnicodeBidi():
-    '''public String getUnicodeBidi()
+    '''returns String\n\n
+    getUnicodeBidi()\n
     '''
 def setUnicodeBidi():
-    '''public void setUnicodeBidi(final String s)
+    '''returns None\n\n
+    setUnicodeBidi(final String s)\n
     '''
 def getVerticalAlign():
-    '''public String getVerticalAlign()
+    '''returns String\n\n
+    getVerticalAlign()\n
     '''
 def setVerticalAlign():
-    '''public void setVerticalAlign(final String s)
+    '''returns None\n\n
+    setVerticalAlign(final String s)\n
     '''
 def getVisibility():
-    '''public String getVisibility()
+    '''returns String\n\n
+    getVisibility()\n
     '''
 def setVisibility():
-    '''public void setVisibility(final String s)
+    '''returns None\n\n
+    setVisibility(final String s)\n
     '''
 def getVoiceFamily():
-    '''public String getVoiceFamily()
+    '''returns String\n\n
+    getVoiceFamily()\n
     '''
 def setVoiceFamily():
-    '''public void setVoiceFamily(final String s)
+    '''returns None\n\n
+    setVoiceFamily(final String s)\n
     '''
 def getVolume():
-    '''public String getVolume()
+    '''returns String\n\n
+    getVolume()\n
     '''
 def setVolume():
-    '''public void setVolume(final String s)
+    '''returns None\n\n
+    setVolume(final String s)\n
     '''
 def getWhiteSpace():
-    '''public String getWhiteSpace()
+    '''returns String\n\n
+    getWhiteSpace()\n
     '''
 def setWhiteSpace():
-    '''public void setWhiteSpace(final String s)
+    '''returns None\n\n
+    setWhiteSpace(final String s)\n
     '''
 def getWidows():
-    '''public String getWidows()
+    '''returns String\n\n
+    getWidows()\n
     '''
 def setWidows():
-    '''public void setWidows(final String s)
+    '''returns None\n\n
+    setWidows(final String s)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final String s)
+    '''returns None\n\n
+    setWidth(final String s)\n
     '''
 def getWordSpacing():
-    '''public String getWordSpacing()
+    '''returns String\n\n
+    getWordSpacing()\n
     '''
 def setWordSpacing():
-    '''public void setWordSpacing(final String s)
+    '''returns None\n\n
+    setWordSpacing(final String s)\n
     '''
 def getZIndex():
-    '''public String getZIndex()
+    '''returns String\n\n
+    getZIndex()\n
     '''
 def setZIndex():
-    '''public void setZIndex(final String s)
+    '''returns None\n\n
+    setZIndex(final String s)\n
     '''

@@ -1,78 +1,76 @@
-def AmazonWebServiceRequest():
-    '''public AmazonWebServiceRequest()
+def ():
+    '''returns AmazonWebServiceRequest\n\n
+    ()\n
     '''
 def setRequestCredentials():
-    '''public void setRequestCredentials(final AWSCredentials credentials)
+    '''returns None\n\n
+    setRequestCredentials(final AWSCredentials credentials)\n
     '''
 def getRequestCredentials():
-    '''public AWSCredentials getRequestCredentials()
+    '''returns AWSCredentials\n\n
+    getRequestCredentials()\n
     '''
 def setRequestCredentialsProvider():
-    '''public void setRequestCredentialsProvider(final AWSCredentialsProvider credentialsProvider)
+    '''returns None\n\n
+    setRequestCredentialsProvider(final AWSCredentialsProvider credentialsProvider)\n
     '''
 def getRequestCredentialsProvider():
-    '''public AWSCredentialsProvider getRequestCredentialsProvider()
+    '''returns AWSCredentialsProvider\n\n
+    getRequestCredentialsProvider()\n
     '''
 def getRequestClientOptions():
-    '''public RequestClientOptions getRequestClientOptions()
+    '''returns RequestClientOptions\n\n
+    getRequestClientOptions()\n
     '''
 def getRequestMetricCollector():
-    '''public RequestMetricCollector getRequestMetricCollector()
+    '''returns RequestMetricCollector\n\n
+    getRequestMetricCollector()\n
     '''
 def setRequestMetricCollector():
-    '''public void setRequestMetricCollector(final RequestMetricCollector requestMetricCollector)
-    '''
-def withRequestMetricCollector():
-    '''public <T extends AmazonWebServiceRequest> T withRequestMetricCollector(final RequestMetricCollector metricCollector)
+    '''returns None\n\n
+    setRequestMetricCollector(final RequestMetricCollector requestMetricCollector)\n
     '''
 def setGeneralProgressListener():
-    '''public void setGeneralProgressListener(final ProgressListener progressListener)
+    '''returns None\n\n
+    setGeneralProgressListener(final ProgressListener progressListener)\n
     '''
 def getGeneralProgressListener():
-    '''public ProgressListener getGeneralProgressListener()
-    '''
-def withGeneralProgressListener():
-    '''public <T extends AmazonWebServiceRequest> T withGeneralProgressListener(final ProgressListener progressListener)
-    '''
-def getCustomRequestHeaders():
-    '''public Map<String, String> getCustomRequestHeaders()
+    '''returns ProgressListener\n\n
+    getGeneralProgressListener()\n
     '''
 def putCustomRequestHeader():
-    '''public String putCustomRequestHeader(final String name, final String value)
-    '''
-def getCustomQueryParameters():
-    '''public Map<String, List<String>> getCustomQueryParameters()
+    '''returns String\n\n
+    putCustomRequestHeader(final String name, final String value)\n
     '''
 def putCustomQueryParameter():
-    '''public void putCustomQueryParameter(final String name, final String value)
-    '''
-def getReadLimit():
-    '''public final int getReadLimit()
+    '''returns None\n\n
+    putCustomQueryParameter(final String name, final String value)\n
     '''
 def getCloneSource():
-    '''public AmazonWebServiceRequest getCloneSource()
+    '''returns AmazonWebServiceRequest\n\n
+    getCloneSource()\n
     '''
 def getCloneRoot():
-    '''public AmazonWebServiceRequest getCloneRoot()
+    '''returns AmazonWebServiceRequest\n\n
+    getCloneRoot()\n
     '''
 def getSdkRequestTimeout():
-    '''public Integer getSdkRequestTimeout()
+    '''returns Integer\n\n
+    getSdkRequestTimeout()\n
     '''
 def setSdkRequestTimeout():
-    '''public void setSdkRequestTimeout(final int sdkRequestTimeout)
-    '''
-def withSdkRequestTimeout():
-    '''public <T extends AmazonWebServiceRequest> T withSdkRequestTimeout(final int sdkRequestTimeout)
+    '''returns None\n\n
+    setSdkRequestTimeout(final int sdkRequestTimeout)\n
     '''
 def getSdkClientExecutionTimeout():
-    '''public Integer getSdkClientExecutionTimeout()
+    '''returns Integer\n\n
+    getSdkClientExecutionTimeout()\n
     '''
 def setSdkClientExecutionTimeout():
-    '''public void setSdkClientExecutionTimeout(final int sdkClientExecutionTimeout)
-    '''
-def withSdkClientExecutionTimeout():
-    '''public <T extends AmazonWebServiceRequest> T withSdkClientExecutionTimeout(final int sdkClientExecutionTimeout)
+    '''returns None\n\n
+    setSdkClientExecutionTimeout(final int sdkClientExecutionTimeout)\n
     '''
 def clone():
-    '''public AmazonWebServiceRequest clone()
+    '''returns AmazonWebServiceRequest\n\n
+    clone()\n
     '''

@@ -3,112 +3,128 @@ STRING = "int  0"
 BOOLEAN = "int  1"
 ERROR_CODE = "int  2"
 EMPTY = "int  3"
-def FormulaRecord():
-    '''public FormulaRecord()
-    public FormulaRecord(final RecordInputStream ris)
+def ():
+    '''returns FormulaRecord\n\n
+    ()\n
+    (final RecordInputStream ris)\n
     '''
 def setValue():
-    '''public void setValue(final double value)
+    '''returns None\n\n
+    setValue(final double value)\n
     '''
 def setCachedResultTypeEmptyString():
-    '''public void setCachedResultTypeEmptyString()
+    '''returns None\n\n
+    setCachedResultTypeEmptyString()\n
     '''
 def setCachedResultTypeString():
-    '''public void setCachedResultTypeString()
+    '''returns None\n\n
+    setCachedResultTypeString()\n
     '''
 def setCachedResultErrorCode():
-    '''public void setCachedResultErrorCode(final int errorCode)
+    '''returns None\n\n
+    setCachedResultErrorCode(final int errorCode)\n
     '''
 def setCachedResultBoolean():
-    '''public void setCachedResultBoolean(final boolean value)
+    '''returns None\n\n
+    setCachedResultBoolean(final boolean value)\n
     '''
 def hasCachedResultString():
-    '''public boolean hasCachedResultString()
+    '''returns boolean\n\n
+    hasCachedResultString()\n
     '''
 def getCachedResultType():
-    '''public int getCachedResultType()
+    '''returns int\n\n
+    getCachedResultType()\n
     '''
 def getCachedBooleanValue():
-    '''public boolean getCachedBooleanValue()
+    '''returns boolean\n\n
+    getCachedBooleanValue()\n
     '''
 def getCachedErrorValue():
-    '''public int getCachedErrorValue()
+    '''returns int\n\n
+    getCachedErrorValue()\n
     '''
 def setOptions():
-    '''public void setOptions(final short options)
+    '''returns None\n\n
+    setOptions(final short options)\n
     '''
 def getValue():
-    '''public double getValue()
+    '''returns double\n\n
+    getValue()\n
     '''
 def getOptions():
-    '''public short getOptions()
+    '''returns short\n\n
+    getOptions()\n
     '''
 def isSharedFormula():
-    '''public boolean isSharedFormula()
+    '''returns boolean\n\n
+    isSharedFormula()\n
     '''
 def setSharedFormula():
-    '''public void setSharedFormula(final boolean flag)
+    '''returns None\n\n
+    setSharedFormula(final boolean flag)\n
     '''
 def isAlwaysCalc():
-    '''public boolean isAlwaysCalc()
+    '''returns boolean\n\n
+    isAlwaysCalc()\n
     '''
 def setAlwaysCalc():
-    '''public void setAlwaysCalc(final boolean flag)
+    '''returns None\n\n
+    setAlwaysCalc(final boolean flag)\n
     '''
 def isCalcOnLoad():
-    '''public boolean isCalcOnLoad()
+    '''returns boolean\n\n
+    isCalcOnLoad()\n
     '''
 def setCalcOnLoad():
-    '''public void setCalcOnLoad(final boolean flag)
+    '''returns None\n\n
+    setCalcOnLoad(final boolean flag)\n
     '''
 def getParsedExpression():
-    '''public Ptg[] getParsedExpression()
+    '''returns Ptg[]\n\n
+    getParsedExpression()\n
     '''
 def getFormula():
-    '''public Formula getFormula()
+    '''returns Formula\n\n
+    getFormula()\n
     '''
 def setParsedExpression():
-    '''public void setParsedExpression(final Ptg[] ptgs)
+    '''returns None\n\n
+    setParsedExpression(final Ptg[] ptgs)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public FormulaRecord clone()
+    '''returns FormulaRecord\n\n
+    clone()\n
     '''
 def getTypeCode():
-    '''public int getTypeCode()
-    '''
-def create():
-    '''public static SpecialCachedValue create(final long valueLongBits)
+    '''returns int\n\n
+    getTypeCode()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def formatDebugString():
-    '''public String formatDebugString()
-    '''
-def createCachedEmptyValue():
-    '''public static SpecialCachedValue createCachedEmptyValue()
-    '''
-def createForString():
-    '''public static SpecialCachedValue createForString()
-    '''
-def createCachedBoolean():
-    '''public static SpecialCachedValue createCachedBoolean(final boolean b)
-    '''
-def createCachedErrorCode():
-    '''public static SpecialCachedValue createCachedErrorCode(final int errorCode)
+    '''returns String\n\n
+    formatDebugString()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getValueType():
-    '''public int getValueType()
+    '''returns int\n\n
+    getValueType()\n
     '''
 def getBooleanValue():
-    '''public boolean getBooleanValue()
+    '''returns boolean\n\n
+    getBooleanValue()\n
     '''
 def getErrorValue():
-    '''public int getErrorValue()
+    '''returns int\n\n
+    getErrorValue()\n
     '''

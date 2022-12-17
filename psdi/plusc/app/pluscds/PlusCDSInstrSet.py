@@ -1,3 +1,4 @@
-def PlusCDSInstrSet():
-    '''public PlusCDSInstrSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCDSInstrSet\n\n
+    (final MboServerInterface ms)\n
     '''

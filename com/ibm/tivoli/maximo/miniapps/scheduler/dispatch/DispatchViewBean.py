@@ -1,110 +1,129 @@
-def DispatchViewBean():
-    '''public DispatchViewBean()
+def ():
+    '''returns DispatchViewBean\n\n
+    ()\n
     '''
 def getUtil():
-    '''public DispatchUtil getUtil()
+    '''returns DispatchUtil\n\n
+    getUtil()\n
     '''
 def getMapFacade():
-    '''public MapFacadeTG getMapFacade()
+    '''returns MapFacadeTG\n\n
+    getMapFacade()\n
     '''
 def getRouteDetailsForResources():
-    '''public JSONObject getRouteDetailsForResources(@MXEventParam("resources") final JSONArray resources, @MXEventParam("start_time") final long startTime, @MXEventParam("end_time") final long endTime, @MXEventParam("refresh_options") final JSONObject refreshOptions)
+    '''returns JSONObject\n\n
+    getRouteDetailsForResources(@MXEventParam("resources") final JSONArray resources, @MXEventParam("start_time") final long startTime, @MXEventParam("end_time") final long endTime, @MXEventParam("refresh_options") final JSONObject refreshOptions)\n
     '''
 def loadData():
-    '''public void loadData(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("addShiftInfo") final boolean addShiftInfo, @MXEventParam("resObj1") final String resObj1, @MXEventParam("resKey1") final String resKey1)
+    '''returns None\n\n
+    loadData(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("addShiftInfo") final boolean addShiftInfo, @MXEventParam("resObj1") final String resObj1, @MXEventParam("resKey1") final String resKey1)\n
     '''
 def loadUI():
-    '''public JSONObject loadUI(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("addShiftInfo") final boolean addShiftInfo, @MXEventParam("resObj1") final String resObj1, @MXEventParam("resKey1") final String resKey1)
-    '''
-def getProjectModel():
-    '''public synchronized Future<MXGanttModel> getProjectModel(final UserInfo userInfo, final String id, final boolean addShiftInfo, final String resObj1, final String resKey1)
-    public synchronized Future<MXGanttModel> getProjectModel(final JSONObject options, final boolean cache)
-    '''
-def loadProject():
-    '''public synchronized Future<MXGanttModel> loadProject(final JSONObject options)
-    '''
-def getProjectModelForResource():
-    '''public synchronized Future<MXGanttModel> getProjectModelForResource(final MXResource res)
+    '''returns JSONObject\n\n
+    loadUI(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("addShiftInfo") final boolean addShiftInfo, @MXEventParam("resObj1") final String resObj1, @MXEventParam("resKey1") final String resKey1)\n
     '''
 def call():
-    '''public MXGanttModel call()
+    '''returns MXGanttModel\n\n
+    call()\n
     '''
 def getTooltip():
-    '''public DynamicTooltip getTooltip(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id)
+    '''returns DynamicTooltip\n\n
+    getTooltip(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id)\n
     '''
 def getTooltipForDate():
-    '''public DynamicTooltip getTooltipForDate(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)
+    '''returns DynamicTooltip\n\n
+    getTooltipForDate(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)\n
     '''
 def getTooltipForPoint():
-    '''public DynamicTooltip getTooltipForPoint(@MXEventParam("id") final String id, @MXEventParam("point_index") final int pointIndex)
+    '''returns DynamicTooltip\n\n
+    getTooltipForPoint(@MXEventParam("id") final String id, @MXEventParam("point_index") final int pointIndex)\n
     '''
 def async_upload_changes():
-    '''public ReplyBuilder async_upload_changes(final WebClientSession sess)
+    '''returns ReplyBuilder\n\n
+    async_upload_changes(final WebClientSession sess)\n
     '''
 def processChange():
-    '''public void processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)
+    '''returns None\n\n
+    processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)\n
     '''
 def updateDuration():
-    '''public void updateDuration(final MXGanttModel model, final Date oldStartTime, final Date oldEndTime, final Date newStartTime, final Date newEndTime, final MXActivity mxa)
+    '''returns None\n\n
+    updateDuration(final MXGanttModel model, final Date oldStartTime, final Date oldEndTime, final Date newStartTime, final Date newEndTime, final MXActivity mxa)\n
     '''
 def initializeProjectData():
-    '''public void initializeProjectData()
+    '''returns None\n\n
+    initializeProjectData()\n
     '''
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''
 def async_get_table_context_menu():
-    '''public TMenu async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("selection") final JSONObject selection)
+    '''returns TMenu\n\n
+    async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("selection") final JSONObject selection)\n
     '''
 def isLocked():
-    '''public boolean isLocked(final MXActivity activity)
+    '''returns boolean\n\n
+    isLocked(final MXActivity activity)\n
     '''
 def refreshResource():
-    '''public JSONObject refreshResource(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    refreshResource(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def createAssignment():
-    '''public JSONObject createAssignment(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    createAssignment(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def deleteAssignment():
-    '''public JSONObject deleteAssignment(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    deleteAssignment(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def splitAssignment():
-    '''public JSONObject splitAssignment(final WebClientSession sess, final String actionid, final String params)
-    public JSONObject splitAssignment(final WebClientSession sess, final String actionid, final String params, final int numberOfSplits)
+    '''returns JSONObject\n\n
+    splitAssignment(final WebClientSession sess, final String actionid, final String params)\n
+    splitAssignment(final WebClientSession sess, final String actionid, final String params, final int numberOfSplits)\n
     '''
 def splitAssignment3():
-    '''public JSONObject splitAssignment3(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    splitAssignment3(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def splitAssignmentToShift():
-    '''public JSONObject splitAssignmentToShift(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    splitAssignmentToShift(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def lock():
-    '''public JSONObject lock(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    lock(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def unlock():
-    '''public JSONObject unlock(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    unlock(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def toggleLock():
-    '''public JSONObject toggleLock(final WebClientSession sess, final String actionid, final String params, final boolean lock)
+    '''returns JSONObject\n\n
+    toggleLock(final WebClientSession sess, final String actionid, final String params, final boolean lock)\n
     '''
 def getExtraResources():
-    '''public List<WebResource> getExtraResources(final String servletBaseUrl, final String miniappBaseUrl)
+    '''returns List<WebResource>\n\n
+    getExtraResources(final String servletBaseUrl, final String miniappBaseUrl)\n
     '''
 def isSerializable():
-    '''public boolean isSerializable(final String field, final Object val)
+    '''returns boolean\n\n
+    isSerializable(final String field, final Object val)\n
     '''
 def SAVEBULKTRAVELTIME():
-    '''public JSONObject SAVEBULKTRAVELTIME(@MXEventParam("data") final JSONArray params)
+    '''returns JSONObject\n\n
+    SAVEBULKTRAVELTIME(@MXEventParam("data") final JSONArray params)\n
     '''
 def SHOWMULTIPLEROUTEERRORS():
-    '''public JsonObject SHOWMULTIPLEROUTEERRORS(@MXEventParam("data") final JSONArray param)
-    '''
-def secondsToDuration():
-    '''public static Double secondsToDuration(long seconds)
+    '''returns JsonObject\n\n
+    SHOWMULTIPLEROUTEERRORS(@MXEventParam("data") final JSONArray param)\n
     '''
 def on_reload_model_for_traveltime():
-    '''public void on_reload_model_for_traveltime()
+    '''returns None\n\n
+    on_reload_model_for_traveltime()\n
     '''
 def autoRefreshModel():
-    '''public ReplyBuilder autoRefreshModel(@MXEventParam("projectid") final String projectId)
+    '''returns ReplyBuilder\n\n
+    autoRefreshModel(@MXEventParam("projectid") final String projectId)\n
     '''

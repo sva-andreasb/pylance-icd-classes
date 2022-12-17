@@ -1,16 +1,17 @@
-def RepositoryID():
-    '''public RepositoryID()
-    public RepositoryID(final String id)
+def ():
+    '''returns RepositoryID\n\n
+    ()\n
+    (final String id)\n
     '''
 def ID():
-    '''public String ID()
+    '''returns String\n\n
+    ID()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def hasValidForm():
-    '''public static boolean hasValidForm(final String s)
+    '''returns String\n\n
+    toString()\n
     '''

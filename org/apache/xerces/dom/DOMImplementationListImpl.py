@@ -1,11 +1,14 @@
-def DOMImplementationListImpl():
-    '''public DOMImplementationListImpl()
-    public DOMImplementationListImpl(final ArrayList fImplementations)
-    public DOMImplementationListImpl(final Vector c)
+def ():
+    '''returns DOMImplementationListImpl\n\n
+    ()\n
+    (final ArrayList fImplementations)\n
+    (final Vector c)\n
     '''
 def item():
-    '''public DOMImplementation item(final int index)
+    '''returns DOMImplementation\n\n
+    item(final int index)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''

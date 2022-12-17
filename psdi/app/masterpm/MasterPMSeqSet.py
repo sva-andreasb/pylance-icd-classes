@@ -1,6 +1,8 @@
-def MasterPMSeqSet():
-    '''public MasterPMSeqSet(final MboServerInterface ms)
+def ():
+    '''returns MasterPMSeqSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

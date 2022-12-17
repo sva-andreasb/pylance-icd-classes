@@ -1,6 +1,8 @@
-def FldPOLineContRefLineNum():
-    '''public FldPOLineContRefLineNum(final MboValue mbv)
+def ():
+    '''returns FldPOLineContRefLineNum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

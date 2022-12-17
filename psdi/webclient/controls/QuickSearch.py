@@ -1,9 +1,12 @@
 def preRender():
-    '''public boolean preRender()
+    '''returns boolean\n\n
+    preRender()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def createRenderId():
-    '''public String createRenderId(final String id, final PageInstance page)
+    '''returns String\n\n
+    createRenderId(final String id, final PageInstance page)\n
     '''

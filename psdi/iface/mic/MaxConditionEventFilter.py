@@ -1,6 +1,8 @@
-def MaxConditionEventFilter():
-    '''public MaxConditionEventFilter(final PublishInfo pubInfo)
+def ():
+    '''returns MaxConditionEventFilter\n\n
+    (final PublishInfo pubInfo)\n
     '''
 def filterEvent():
-    '''public boolean filterEvent(final MboRemote mbo)
+    '''returns boolean\n\n
+    filterEvent(final MboRemote mbo)\n
     '''

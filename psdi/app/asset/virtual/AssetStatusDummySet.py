@@ -1,3 +1,4 @@
-def AssetStatusDummySet():
-    '''public AssetStatusDummySet(final MboServerInterface ms)
+def ():
+    '''returns AssetStatusDummySet\n\n
+    (final MboServerInterface ms)\n
     '''

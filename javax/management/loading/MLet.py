@@ -1,50 +1,60 @@
-def MLet():
-    '''public MLet()
-    public MLet(final URL[] array)
-    public MLet(final URL[] urls, final boolean b)
-    public MLet(final URL[] array, final ClassLoader classLoader)
-    public MLet(final URL[] urls, final ClassLoader parent, final boolean b)
-    public MLet(final URL[] array, final ClassLoader classLoader, final URLStreamHandlerFactory urlStreamHandlerFactory)
-    public MLet(final URL[] urls, final ClassLoader parent, final URLStreamHandlerFactory factory, final boolean b)
+def ():
+    '''returns MLet\n\n
+    ()\n
+    (final URL[] array)\n
+    (final URL[] urls, final boolean b)\n
+    (final URL[] array, final ClassLoader classLoader)\n
+    (final URL[] urls, final ClassLoader parent, final boolean b)\n
+    (final URL[] array, final ClassLoader classLoader, final URLStreamHandlerFactory urlStreamHandlerFactory)\n
+    (final URL[] urls, final ClassLoader parent, final URLStreamHandlerFactory factory, final boolean b)\n
     '''
 def postDeregister():
-    '''public void postDeregister()
+    '''returns None\n\n
+    postDeregister()\n
     '''
 def preDeregister():
-    '''public void preDeregister()
+    '''returns None\n\n
+    preDeregister()\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput objectInput)
+    '''returns None\n\n
+    readExternal(final ObjectInput objectInput)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput objectOutput)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput objectOutput)\n
     '''
 def postRegister():
-    '''public void postRegister(final Boolean b)
+    '''returns None\n\n
+    postRegister(final Boolean b)\n
     '''
 def getLibraryDirectory():
-    '''public String getLibraryDirectory()
+    '''returns String\n\n
+    getLibraryDirectory()\n
     '''
 def addURL():
-    '''public void addURL(final String s)
-    public void addURL(final URL url)
+    '''returns None\n\n
+    addURL(final String s)\n
+    addURL(final URL url)\n
     '''
 def setLibraryDirectory():
-    '''public void setLibraryDirectory(final String libraryDirectory)
+    '''returns None\n\n
+    setLibraryDirectory(final String libraryDirectory)\n
     '''
 def getURLs():
-    '''public URL[] getURLs()
+    '''returns URL[]\n\n
+    getURLs()\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def getMBeansFromURL():
-    '''public Set getMBeansFromURL(String replace)
-    public Set getMBeansFromURL(final URL url)
-    '''
-def loadClass():
-    '''public synchronized Class loadClass(final String name, final ClassLoaderRepository currentClr)
+    '''returns Set\n\n
+    getMBeansFromURL(String replace)\n
+    getMBeansFromURL(final URL url)\n
     '''
 def preRegister():
-    '''public ObjectName preRegister(final MBeanServer mBeanServer, ObjectName mletObjectName)
+    '''returns ObjectName\n\n
+    preRegister(final MBeanServer mBeanServer, ObjectName mletObjectName)\n
     '''

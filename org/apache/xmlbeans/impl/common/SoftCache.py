@@ -1,12 +1,16 @@
-def SoftCache():
-    '''public SoftCache()
+def ():
+    '''returns SoftCache\n\n
+    ()\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
     '''
 def remove():
-    '''public Object remove(final Object key)
+    '''returns Object\n\n
+    remove(final Object key)\n
     '''

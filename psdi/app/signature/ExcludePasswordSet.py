@@ -1,3 +1,4 @@
-def ExcludePasswordSet():
-    '''public ExcludePasswordSet(final MboServerInterface ms)
+def ():
+    '''returns ExcludePasswordSet\n\n
+    (final MboServerInterface ms)\n
     '''

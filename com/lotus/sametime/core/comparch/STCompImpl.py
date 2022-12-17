@@ -1,6 +1,8 @@
-def STCompImpl():
-    '''public STCompImpl(final String s, final STSession stSession)
+def ():
+    '''returns STCompImpl\n\n
+    (final String s, final STSession stSession)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,4 +1,5 @@
-def AnyResource():
-    '''public AnyResource()
-    public AnyResource(final URI about)
+def ():
+    '''returns AnyResource\n\n
+    ()\n
+    (final URI about)\n
     '''

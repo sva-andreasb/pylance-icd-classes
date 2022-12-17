@@ -2,25 +2,32 @@ URL = "String  \"URL\""
 USERNAME = "String  \"USERNAME\""
 PASSWORD = "String  \"PASSWORD\""
 KEYWORDS = "String  \"KEYWORDS\""
-def STTHandler():
-    '''public STTHandler(final MaxEndPointInfo endPointInfo)
-    public STTHandler()
+def ():
+    '''returns STTHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def getAPIUSERNAME():
-    '''public String getAPIUSERNAME()
+    '''returns String\n\n
+    getAPIUSERNAME()\n
     '''
 def getAPIPASSWORD():
-    '''public String getAPIPASSWORD()
+    '''returns String\n\n
+    getAPIPASSWORD()\n
     '''
 def getAPIKEYWORDS():
-    '''public String getAPIKEYWORDS()
+    '''returns String\n\n
+    getAPIKEYWORDS()\n
     '''

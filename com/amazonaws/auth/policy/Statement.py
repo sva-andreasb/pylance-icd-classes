@@ -1,55 +1,73 @@
-def Statement():
-    '''public Statement(final Effect effect)
+def ():
+    '''returns Statement\n\n
+    (final Effect effect)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def withId():
-    '''public Statement withId(final String id)
+    '''returns Statement\n\n
+    withId(final String id)\n
     '''
 def getEffect():
-    '''public Effect getEffect()
+    '''returns Effect\n\n
+    getEffect()\n
     '''
 def setEffect():
-    '''public void setEffect(final Effect effect)
+    '''returns None\n\n
+    setEffect(final Effect effect)\n
     '''
 def getActions():
-    '''public List<Action> getActions()
+    '''returns List<Action>\n\n
+    getActions()\n
     '''
 def setActions():
-    '''public void setActions(final Collection<Action> actions)
+    '''returns None\n\n
+    setActions(final Collection<Action> actions)\n
     '''
 def withActions():
-    '''public Statement withActions(final Action... actions)
+    '''returns Statement\n\n
+    withActions(final Action... actions)\n
     '''
 def getResources():
-    '''public List<Resource> getResources()
+    '''returns List<Resource>\n\n
+    getResources()\n
     '''
 def setResources():
-    '''public void setResources(final Collection<Resource> resources)
+    '''returns None\n\n
+    setResources(final Collection<Resource> resources)\n
     '''
 def withResources():
-    '''public Statement withResources(final Resource... resources)
+    '''returns Statement\n\n
+    withResources(final Resource... resources)\n
     '''
 def getConditions():
-    '''public List<Condition> getConditions()
+    '''returns List<Condition>\n\n
+    getConditions()\n
     '''
 def setConditions():
-    '''public void setConditions(final List<Condition> conditions)
+    '''returns None\n\n
+    setConditions(final List<Condition> conditions)\n
     '''
 def withConditions():
-    '''public Statement withConditions(final Condition... conditions)
+    '''returns Statement\n\n
+    withConditions(final Condition... conditions)\n
     '''
 def getPrincipals():
-    '''public List<Principal> getPrincipals()
+    '''returns List<Principal>\n\n
+    getPrincipals()\n
     '''
 def setPrincipals():
-    '''public void setPrincipals(final Collection<Principal> principals)
-    public void setPrincipals(final Principal... principals)
+    '''returns None\n\n
+    setPrincipals(final Collection<Principal> principals)\n
+    setPrincipals(final Principal... principals)\n
     '''
 def withPrincipals():
-    '''public Statement withPrincipals(final Principal... principals)
+    '''returns Statement\n\n
+    withPrincipals(final Principal... principals)\n
     '''

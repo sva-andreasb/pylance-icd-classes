@@ -1,27 +1,34 @@
 FEATURE = "String  \"http://javax.xml.transform.stream.StreamResult/feature\""
-def StreamResult():
-    '''public StreamResult()
-    public StreamResult(final OutputStream outputStream)
-    public StreamResult(final Writer writer)
-    public StreamResult(final String systemId)
-    public StreamResult(final File systemId)
+def ():
+    '''returns StreamResult\n\n
+    ()\n
+    (final OutputStream outputStream)\n
+    (final Writer writer)\n
+    (final String systemId)\n
+    (final File systemId)\n
     '''
 def setOutputStream():
-    '''public void setOutputStream(final OutputStream outputStream)
+    '''returns None\n\n
+    setOutputStream(final OutputStream outputStream)\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def setWriter():
-    '''public void setWriter(final Writer writer)
+    '''returns None\n\n
+    setWriter(final Writer writer)\n
     '''
 def getWriter():
-    '''public Writer getWriter()
+    '''returns Writer\n\n
+    getWriter()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
-    public void setSystemId(final File file)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
+    setSystemId(final File file)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''

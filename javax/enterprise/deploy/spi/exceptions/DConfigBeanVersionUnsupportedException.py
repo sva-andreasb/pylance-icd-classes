@@ -1,3 +1,4 @@
-def DConfigBeanVersionUnsupportedException():
-    '''public DConfigBeanVersionUnsupportedException(final String s)
+def ():
+    '''returns DConfigBeanVersionUnsupportedException\n\n
+    (final String s)\n
     '''

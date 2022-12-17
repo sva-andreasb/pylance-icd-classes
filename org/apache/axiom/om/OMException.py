@@ -1,6 +1,7 @@
-def OMException():
-    '''public OMException()
-    public OMException(final String message)
-    public OMException(final String message, final Throwable cause)
-    public OMException(final Throwable cause)
+def ():
+    '''returns OMException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

@@ -1,63 +1,84 @@
-def FailureList():
-    '''public FailureList(final MboSet ms)
+def ():
+    '''returns FailureList\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def creatNewFailureHierarchy():
-    '''public void creatNewFailureHierarchy(final String newFailureCode)
+    '''returns None\n\n
+    creatNewFailureHierarchy(final String newFailureCode)\n
     '''
 def copyFailureCodes():
-    '''public void copyFailureCodes(final MboSetRemote failureListSet)
+    '''returns None\n\n
+    copyFailureCodes(final MboSetRemote failureListSet)\n
     '''
 def creatNewNode():
-    '''public void creatNewNode(final String newFailureCode)
+    '''returns None\n\n
+    creatNewNode(final String newFailureCode)\n
     '''
 def checkFailureReport():
-    '''public boolean checkFailureReport(final String failureReportCode)
+    '''returns boolean\n\n
+    checkFailureReport(final String failureReportCode)\n
     '''
 def checkFailureCode():
-    '''public boolean checkFailureCode(final String fCode)
+    '''returns boolean\n\n
+    checkFailureCode(final String fCode)\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''
 def getChildren():
-    '''public MboSetRemote getChildren()
+    '''returns MboSetRemote\n\n
+    getChildren()\n
     '''
 def getParents():
-    '''public MboSetRemote getParents()
+    '''returns MboSetRemote\n\n
+    getParents()\n
     '''
 def getTop():
-    '''public MboSetRemote getTop()
+    '''returns MboSetRemote\n\n
+    getTop()\n
     '''
 def getHierarchies():
-    '''public String[] getHierarchies()
+    '''returns String[]\n\n
+    getHierarchies()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(String name)\n
     '''
 def isInDuplicate():
-    '''public boolean isInDuplicate()
+    '''returns boolean\n\n
+    isInDuplicate()\n
     '''

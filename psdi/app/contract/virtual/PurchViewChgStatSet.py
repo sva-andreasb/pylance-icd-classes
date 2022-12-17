@@ -1,3 +1,4 @@
-def PurchViewChgStatSet():
-    '''public PurchViewChgStatSet(final MboServerInterface ms)
+def ():
+    '''returns PurchViewChgStatSet\n\n
+    (final MboServerInterface ms)\n
     '''

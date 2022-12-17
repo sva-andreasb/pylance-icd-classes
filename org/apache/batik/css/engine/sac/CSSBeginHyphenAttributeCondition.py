@@ -1,12 +1,16 @@
-def CSSBeginHyphenAttributeCondition():
-    '''public CSSBeginHyphenAttributeCondition(final String localName, final String namespaceURI, final boolean specified, final String value)
+def ():
+    '''returns CSSBeginHyphenAttributeCondition\n\n
+    (final String localName, final String namespaceURI, final boolean specified, final String value)\n
     '''
 def getConditionType():
-    '''public short getConditionType()
+    '''returns short\n\n
+    getConditionType()\n
     '''
 def match():
-    '''public boolean match(final Element e, final String pseudoE)
+    '''returns boolean\n\n
+    match(final Element e, final String pseudoE)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

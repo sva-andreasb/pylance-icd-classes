@@ -1,6 +1,8 @@
-def SchLeaseViewSet():
-    '''public SchLeaseViewSet(final MboServerInterface ms)
+def ():
+    '''returns SchLeaseViewSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

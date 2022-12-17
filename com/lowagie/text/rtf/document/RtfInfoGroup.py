@@ -1,9 +1,12 @@
-def RtfInfoGroup():
-    '''public RtfInfoGroup(final RtfDocument doc)
+def ():
+    '''returns RtfInfoGroup\n\n
+    (final RtfDocument doc)\n
     '''
 def add():
-    '''public void add(final RtfInfoElement infoElement)
+    '''returns None\n\n
+    add(final RtfInfoElement infoElement)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

@@ -1,16 +1,12 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
 def printWordList():
-    '''public void printWordList(final String partialWord, final int state, final PrintWriter out)
+    '''returns None\n\n
+    printWordList(final String partialWord, final int state, final PrintWriter out)\n
     '''
-def BreakDictionary():
-    '''public BreakDictionary(final InputStream dictionaryStream)
+def ():
+    '''returns BreakDictionary\n\n
+    (final InputStream dictionaryStream)\n
     '''
 def readDictionaryFile():
-    '''public void readDictionaryFile(final DataInputStream in)
-    '''
-def at():
-    '''public final short at(final int row, final char ch)
-    public final short at(final int row, final int col)
+    '''returns None\n\n
+    readDictionaryFile(final DataInputStream in)\n
     '''

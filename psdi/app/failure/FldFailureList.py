@@ -1,3 +1,4 @@
-def FldFailureList():
-    '''public FldFailureList(final MboValue mbv)
+def ():
+    '''returns FldFailureList\n\n
+    (final MboValue mbv)\n
     '''

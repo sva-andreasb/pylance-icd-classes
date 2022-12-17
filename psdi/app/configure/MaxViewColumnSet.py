@@ -1,3 +1,4 @@
-def MaxViewColumnSet():
-    '''public MaxViewColumnSet(final MboServerInterface ms)
+def ():
+    '''returns MaxViewColumnSet\n\n
+    (final MboServerInterface ms)\n
     '''

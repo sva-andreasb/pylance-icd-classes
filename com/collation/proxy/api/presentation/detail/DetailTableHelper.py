@@ -1,7 +1,9 @@
 def getDetailData():
-    '''public Map getDetailData(final long version, final ModelObject modelObject, final Layout layout)
+    '''returns Map\n\n
+    getDetailData(final long version, final ModelObject modelObject, final Layout layout)\n
     '''
 def getFields():
-    '''public List getFields(final Layout layout)
-    public List getFields(final Tab tab)
+    '''returns List\n\n
+    getFields(final Layout layout)\n
+    getFields(final Tab tab)\n
     '''

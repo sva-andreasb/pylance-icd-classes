@@ -1,12 +1,16 @@
-def DMMaxTkTemplateProcess():
-    '''public DMMaxTkTemplateProcess()
+def ():
+    '''returns DMMaxTkTemplateProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def createMboSet():
-    '''public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''returns MboSetRemote\n\n
+    createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)\n
     '''

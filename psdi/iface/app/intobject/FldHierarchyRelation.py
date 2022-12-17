@@ -1,3 +1,4 @@
-def FldHierarchyRelation():
-    '''public FldHierarchyRelation(final MboValue mbv)
+def ():
+    '''returns FldHierarchyRelation\n\n
+    (final MboValue mbv)\n
     '''

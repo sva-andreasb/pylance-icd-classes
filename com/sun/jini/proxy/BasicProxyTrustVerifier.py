@@ -1,6 +1,8 @@
-def BasicProxyTrustVerifier():
-    '''public BasicProxyTrustVerifier(final Object o)
+def ():
+    '''returns BasicProxyTrustVerifier\n\n
+    (final Object o)\n
     '''
 def isTrustedObject():
-    '''public boolean isTrustedObject(final Object o, final Context context)
+    '''returns boolean\n\n
+    isTrustedObject(final Object o, final Context context)\n
     '''

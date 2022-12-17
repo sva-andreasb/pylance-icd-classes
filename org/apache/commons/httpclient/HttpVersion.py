@@ -1,32 +1,38 @@
-def HttpVersion():
-    '''public HttpVersion(final int major, final int minor)
+def ():
+    '''returns HttpVersion\n\n
+    (final int major, final int minor)\n
     '''
 def getMajor():
-    '''public int getMajor()
+    '''returns int\n\n
+    getMajor()\n
     '''
 def getMinor():
-    '''public int getMinor()
+    '''returns int\n\n
+    getMinor()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final HttpVersion version)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final HttpVersion version)\n
     '''
 def compareTo():
-    '''public int compareTo(final HttpVersion anotherVer)
-    public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final HttpVersion anotherVer)\n
+    compareTo(final Object o)\n
     '''
 def greaterEquals():
-    '''public boolean greaterEquals(final HttpVersion version)
+    '''returns boolean\n\n
+    greaterEquals(final HttpVersion version)\n
     '''
 def lessEquals():
-    '''public boolean lessEquals(final HttpVersion version)
+    '''returns boolean\n\n
+    lessEquals(final HttpVersion version)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def parse():
-    '''public static HttpVersion parse(final String s)
+    '''returns String\n\n
+    toString()\n
     '''

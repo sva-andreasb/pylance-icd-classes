@@ -1,7 +1,9 @@
-def FldQueueNumInProgChats():
-    '''public FldQueueNumInProgChats()
-    public FldQueueNumInProgChats(final MboValue mbv)
+def ():
+    '''returns FldQueueNumInProgChats\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

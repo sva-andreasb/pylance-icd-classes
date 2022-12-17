@@ -1,10 +1,13 @@
-def GetAllReflectorsIdsRequest():
-    '''public GetAllReflectorsIdsRequest()
-    public GetAllReflectorsIdsRequest(final NdrInputStream ndrInputStream)
+def ():
+    '''returns GetAllReflectorsIdsRequest\n\n
+    ()\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def getMessageType():
-    '''public short getMessageType()
+    '''returns short\n\n
+    getMessageType()\n
     '''

@@ -1,6 +1,8 @@
-def ToBeSaved():
-    '''public ToBeSaved(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns ToBeSaved\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def eval():
-    '''public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval(final List<BigDecimal> parameters)\n
     '''

@@ -1,12 +1,16 @@
-def AssetTrans():
-    '''public AssetTrans(final MboSet ms)
+def ():
+    '''returns AssetTrans\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def smartFindByObjectName():
-    '''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)\n
     '''

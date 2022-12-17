@@ -1,88 +1,111 @@
-def FilteringGeneratorDelegate():
-    '''public FilteringGeneratorDelegate(final JsonGenerator d, final TokenFilter f, final boolean includePath, final boolean allowMultipleMatches)
+def ():
+    '''returns FilteringGeneratorDelegate\n\n
+    (final JsonGenerator d, final TokenFilter f, final boolean includePath, final boolean allowMultipleMatches)\n
     '''
 def getFilter():
-    '''public TokenFilter getFilter()
+    '''returns TokenFilter\n\n
+    getFilter()\n
     '''
 def getFilterContext():
-    '''public JsonStreamContext getFilterContext()
+    '''returns JsonStreamContext\n\n
+    getFilterContext()\n
     '''
 def getMatchCount():
-    '''public int getMatchCount()
+    '''returns int\n\n
+    getMatchCount()\n
     '''
 def getOutputContext():
-    '''public JsonStreamContext getOutputContext()
+    '''returns JsonStreamContext\n\n
+    getOutputContext()\n
     '''
 def writeStartArray():
-    '''public void writeStartArray()
-    public void writeStartArray(final int size)
+    '''returns None\n\n
+    writeStartArray()\n
+    writeStartArray(final int size)\n
     '''
 def writeEndArray():
-    '''public void writeEndArray()
+    '''returns None\n\n
+    writeEndArray()\n
     '''
 def writeStartObject():
-    '''public void writeStartObject()
-    public void writeStartObject(final Object forValue)
+    '''returns None\n\n
+    writeStartObject()\n
+    writeStartObject(final Object forValue)\n
     '''
 def writeEndObject():
-    '''public void writeEndObject()
+    '''returns None\n\n
+    writeEndObject()\n
     '''
 def writeFieldName():
-    '''public void writeFieldName(final String name)
-    public void writeFieldName(final SerializableString name)
+    '''returns None\n\n
+    writeFieldName(final String name)\n
+    writeFieldName(final SerializableString name)\n
     '''
 def writeString():
-    '''public void writeString(final String value)
-    public void writeString(final char[] text, final int offset, final int len)
-    public void writeString(final SerializableString value)
+    '''returns None\n\n
+    writeString(final String value)\n
+    writeString(final char[] text, final int offset, final int len)\n
+    writeString(final SerializableString value)\n
     '''
 def writeRawUTF8String():
-    '''public void writeRawUTF8String(final byte[] text, final int offset, final int length)
+    '''returns None\n\n
+    writeRawUTF8String(final byte[] text, final int offset, final int length)\n
     '''
 def writeUTF8String():
-    '''public void writeUTF8String(final byte[] text, final int offset, final int length)
+    '''returns None\n\n
+    writeUTF8String(final byte[] text, final int offset, final int length)\n
     '''
 def writeRaw():
-    '''public void writeRaw(final String text)
-    public void writeRaw(final String text, final int offset, final int len)
-    public void writeRaw(final SerializableString text)
-    public void writeRaw(final char[] text, final int offset, final int len)
-    public void writeRaw(final char c)
+    '''returns None\n\n
+    writeRaw(final String text)\n
+    writeRaw(final String text, final int offset, final int len)\n
+    writeRaw(final SerializableString text)\n
+    writeRaw(final char[] text, final int offset, final int len)\n
+    writeRaw(final char c)\n
     '''
 def writeRawValue():
-    '''public void writeRawValue(final String text)
-    public void writeRawValue(final String text, final int offset, final int len)
-    public void writeRawValue(final char[] text, final int offset, final int len)
+    '''returns None\n\n
+    writeRawValue(final String text)\n
+    writeRawValue(final String text, final int offset, final int len)\n
+    writeRawValue(final char[] text, final int offset, final int len)\n
     '''
 def writeBinary():
-    '''public void writeBinary(final Base64Variant b64variant, final byte[] data, final int offset, final int len)
-    public int writeBinary(final Base64Variant b64variant, final InputStream data, final int dataLength)
+    '''returns int\n\n
+    writeBinary(final Base64Variant b64variant, final byte[] data, final int offset, final int len)\n
+    writeBinary(final Base64Variant b64variant, final InputStream data, final int dataLength)\n
     '''
 def writeNumber():
-    '''public void writeNumber(final short v)
-    public void writeNumber(final int v)
-    public void writeNumber(final long v)
-    public void writeNumber(final BigInteger v)
-    public void writeNumber(final double v)
-    public void writeNumber(final float v)
-    public void writeNumber(final BigDecimal v)
-    public void writeNumber(final String encodedValue)
+    '''returns None\n\n
+    writeNumber(final short v)\n
+    writeNumber(final int v)\n
+    writeNumber(final long v)\n
+    writeNumber(final BigInteger v)\n
+    writeNumber(final double v)\n
+    writeNumber(final float v)\n
+    writeNumber(final BigDecimal v)\n
+    writeNumber(final String encodedValue)\n
     '''
 def writeBoolean():
-    '''public void writeBoolean(final boolean v)
+    '''returns None\n\n
+    writeBoolean(final boolean v)\n
     '''
 def writeNull():
-    '''public void writeNull()
+    '''returns None\n\n
+    writeNull()\n
     '''
 def writeOmittedField():
-    '''public void writeOmittedField(final String fieldName)
+    '''returns None\n\n
+    writeOmittedField(final String fieldName)\n
     '''
 def writeObjectId():
-    '''public void writeObjectId(final Object id)
+    '''returns None\n\n
+    writeObjectId(final Object id)\n
     '''
 def writeObjectRef():
-    '''public void writeObjectRef(final Object id)
+    '''returns None\n\n
+    writeObjectRef(final Object id)\n
     '''
 def writeTypeId():
-    '''public void writeTypeId(final Object id)
+    '''returns None\n\n
+    writeTypeId(final Object id)\n
     '''

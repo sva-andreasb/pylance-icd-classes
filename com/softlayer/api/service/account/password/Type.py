@@ -1,15 +1,20 @@
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''

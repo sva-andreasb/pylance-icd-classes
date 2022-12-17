@@ -1,12 +1,16 @@
-def CDUISearchAttachOutProcess():
-    '''public CDUISearchAttachOutProcess()
+def ():
+    '''returns CDUISearchAttachOutProcess\n\n
+    ()\n
     '''
 def search():
-    '''public void search(final MboSetRemote mboSet, final String ownertype, final String ownerid)
+    '''returns None\n\n
+    search(final MboSetRemote mboSet, final String ownertype, final String ownerid)\n
     '''
 def searchOwnerType():
-    '''public void searchOwnerType(final MboSetRemote mboSet, final String ownertype)
+    '''returns None\n\n
+    searchOwnerType(final MboSetRemote mboSet, final String ownertype)\n
     '''
 def searchName():
-    '''public void searchName(final MboSetRemote mboSet, final String name)
+    '''returns None\n\n
+    searchName(final MboSetRemote mboSet, final String name)\n
     '''

@@ -1,68 +1,90 @@
 JSON_DEBUG_OPTION = "String  \"jsonDebug\""
 MESSAGE_PARAM = "String  \"message\""
 def setCurrentRequest():
-    '''public void setCurrentRequest(final HttpServletRequest request)
+    '''returns None\n\n
+    setCurrentRequest(final HttpServletRequest request)\n
     '''
 def getCurrentRequest():
-    '''public HttpServletRequest getCurrentRequest()
+    '''returns HttpServletRequest\n\n
+    getCurrentRequest()\n
     '''
 def getCurrentLocalAddress():
-    '''public InetSocketAddress getCurrentLocalAddress()
+    '''returns InetSocketAddress\n\n
+    getCurrentLocalAddress()\n
     '''
 def getCurrentRemoteAddress():
-    '''public InetSocketAddress getCurrentRemoteAddress()
+    '''returns InetSocketAddress\n\n
+    getCurrentRemoteAddress()\n
     '''
 def getContext():
-    '''public BayeuxContext getContext()
+    '''returns BayeuxContext\n\n
+    getContext()\n
     '''
 def getUserPrincipal():
-    '''public Principal getUserPrincipal()
+    '''returns Principal\n\n
+    getUserPrincipal()\n
     '''
 def isUserInRole():
-    '''public boolean isUserInRole(final String role)
+    '''returns boolean\n\n
+    isUserInRole(final String role)\n
     '''
 def getRemoteAddress():
-    '''public InetSocketAddress getRemoteAddress()
+    '''returns InetSocketAddress\n\n
+    getRemoteAddress()\n
     '''
 def getLocalAddress():
-    '''public InetSocketAddress getLocalAddress()
+    '''returns InetSocketAddress\n\n
+    getLocalAddress()\n
     '''
 def getHeader():
-    '''public String getHeader(final String name)
+    '''returns String\n\n
+    getHeader(final String name)\n
     '''
 def getHeaderValues():
-    '''public List<String> getHeaderValues(final String name)
+    '''returns List<String>\n\n
+    getHeaderValues(final String name)\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def getParameterValues():
-    '''public List<String> getParameterValues(final String name)
+    '''returns List<String>\n\n
+    getParameterValues(final String name)\n
     '''
 def getCookie():
-    '''public String getCookie(final String name)
+    '''returns String\n\n
+    getCookie(final String name)\n
     '''
 def getHttpSessionId():
-    '''public String getHttpSessionId()
+    '''returns String\n\n
+    getHttpSessionId()\n
     '''
 def getHttpSessionAttribute():
-    '''public Object getHttpSessionAttribute(final String name)
+    '''returns Object\n\n
+    getHttpSessionAttribute(final String name)\n
     '''
 def setHttpSessionAttribute():
-    '''public void setHttpSessionAttribute(final String name, final Object value)
+    '''returns None\n\n
+    setHttpSessionAttribute(final String name, final Object value)\n
     '''
 def invalidateHttpSession():
-    '''public void invalidateHttpSession()
+    '''returns None\n\n
+    invalidateHttpSession()\n
     '''
 def getRequestAttribute():
-    '''public Object getRequestAttribute(final String name)
+    '''returns Object\n\n
+    getRequestAttribute(final String name)\n
     '''
 def getContextAttribute():
-    '''public Object getContextAttribute(final String name)
+    '''returns Object\n\n
+    getContextAttribute(final String name)\n
     '''
 def getContextInitParameter():
-    '''public String getContextInitParameter(final String name)
+    '''returns String\n\n
+    getContextInitParameter(final String name)\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''

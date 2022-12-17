@@ -1,17 +1,18 @@
-def DtStamp():
-    '''public DtStamp()
-    public DtStamp(final String aValue)
-    public DtStamp(final ParameterList aList, final String aValue)
-    public DtStamp(final DateTime aDate)
-    public DtStamp(final ParameterList aList, final DateTime aDate)
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final String aValue)\n
+    (final ParameterList aList, final String aValue)\n
+    (final DateTime aDate)\n
+    (final ParameterList aList, final DateTime aDate)\n
+    ()\n
     '''
 def compareTo():
-    '''public int compareTo(final DtStamp o)
-    '''
-def Factory():
-    '''public Factory()
+    '''returns int\n\n
+    compareTo(final DtStamp o)\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

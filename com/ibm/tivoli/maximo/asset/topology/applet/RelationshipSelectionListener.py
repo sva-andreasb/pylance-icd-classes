@@ -1,3 +1,4 @@
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent e)\n
     '''

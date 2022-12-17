@@ -1,24 +1,32 @@
-def JDBCDriverAdapter():
-    '''public JDBCDriverAdapter(final Driver d)
+def ():
+    '''returns JDBCDriverAdapter\n\n
+    (final Driver d)\n
     '''
 def acceptsURL():
-    '''public boolean acceptsURL(final String url)
+    '''returns boolean\n\n
+    acceptsURL(final String url)\n
     '''
 def connect():
-    '''public Connection connect(final String url, final Properties info)
+    '''returns Connection\n\n
+    connect(final String url, final Properties info)\n
     '''
 def getMajorVersion():
-    '''public int getMajorVersion()
+    '''returns int\n\n
+    getMajorVersion()\n
     '''
 def getMinorVersion():
-    '''public int getMinorVersion()
+    '''returns int\n\n
+    getMinorVersion()\n
     '''
 def getPropertyInfo():
-    '''public DriverPropertyInfo[] getPropertyInfo(final String url, final Properties info)
+    '''returns DriverPropertyInfo[]\n\n
+    getPropertyInfo(final String url, final Properties info)\n
     '''
 def jdbcCompliant():
-    '''public boolean jdbcCompliant()
+    '''returns boolean\n\n
+    jdbcCompliant()\n
     '''
 def getParentLogger():
-    '''public Logger getParentLogger()
+    '''returns Logger\n\n
+    getParentLogger()\n
     '''

@@ -1,3 +1,4 @@
 def getMapConfiguration():
-    '''public JSONObject getMapConfiguration()
+    '''returns JSONObject\n\n
+    getMapConfiguration()\n
     '''

@@ -1,23 +1,30 @@
 HEADER = "String  \"======================================================================\""
 FOOTER = "String  \"======================================================================\""
-def BigProjectLogger():
-    '''public BigProjectLogger()
+def ():
+    '''returns BigProjectLogger\n\n
+    ()\n
     '''
 def targetStarted():
-    '''public void targetStarted(final BuildEvent event)
+    '''returns None\n\n
+    targetStarted(final BuildEvent event)\n
     '''
 def taskStarted():
-    '''public void taskStarted(final BuildEvent event)
+    '''returns None\n\n
+    taskStarted(final BuildEvent event)\n
     '''
 def buildFinished():
-    '''public void buildFinished(final BuildEvent event)
+    '''returns None\n\n
+    buildFinished(final BuildEvent event)\n
     '''
 def messageLogged():
-    '''public void messageLogged(final BuildEvent event)
+    '''returns None\n\n
+    messageLogged(final BuildEvent event)\n
     '''
 def subBuildStarted():
-    '''public void subBuildStarted(final BuildEvent event)
+    '''returns None\n\n
+    subBuildStarted(final BuildEvent event)\n
     '''
 def subBuildFinished():
-    '''public void subBuildFinished(final BuildEvent event)
+    '''returns None\n\n
+    subBuildFinished(final BuildEvent event)\n
     '''

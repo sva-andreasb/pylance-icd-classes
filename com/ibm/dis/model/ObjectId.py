@@ -1,14 +1,18 @@
-def ObjectId():
-    '''public ObjectId(final String context, final String identifier)
-    public ObjectId(final Guid disGuid)
-    public ObjectId(final Guid disGuid, final String identifier)
+def ():
+    '''returns ObjectId\n\n
+    (final String context, final String identifier)\n
+    (final Guid disGuid)\n
+    (final Guid disGuid, final String identifier)\n
     '''
 def getContextString():
-    '''public String getContextString()
+    '''returns String\n\n
+    getContextString()\n
     '''
 def getIdentifierString():
-    '''public String getIdentifierString()
+    '''returns String\n\n
+    getIdentifierString()\n
     '''
 def getDisGuid():
-    '''public Guid getDisGuid()
+    '''returns Guid\n\n
+    getDisGuid()\n
     '''

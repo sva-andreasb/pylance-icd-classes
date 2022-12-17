@@ -1,88 +1,81 @@
-def HTMLDocumentImpl():
-    '''public HTMLDocumentImpl()
-    '''
-def getDocumentElement():
-    '''public synchronized Element getDocumentElement()
-    '''
-def getHead():
-    '''public synchronized HTMLElement getHead()
-    '''
-def getTitle():
-    '''public synchronized String getTitle()
-    '''
-def setTitle():
-    '''public synchronized void setTitle(final String s)
-    '''
-def getBody():
-    '''public synchronized HTMLElement getBody()
-    '''
-def setBody():
-    '''public synchronized void setBody(final HTMLElement htmlElement)
-    '''
-def getElementById():
-    '''public synchronized Element getElementById(final String s)
+def ():
+    '''returns HTMLDocumentImpl\n\n
+    ()\n
     '''
 def getElementsByName():
-    '''public NodeList getElementsByName(final String s)
-    '''
-def getElementsByTagName():
-    '''public final NodeList getElementsByTagName(final String s)
-    '''
-def getElementsByTagNameNS():
-    '''public final NodeList getElementsByTagNameNS(final String s, final String s2)
+    '''returns NodeList\n\n
+    getElementsByName(final String s)\n
     '''
 def createElementNS():
-    '''public Element createElementNS(final String s, final String s2, final String s3)
-    public Element createElementNS(final String s, final String s2)
+    '''returns Element\n\n
+    createElementNS(final String s, final String s2, final String s3)\n
+    createElementNS(final String s, final String s2)\n
     '''
 def createElement():
-    '''public Element createElement(String upperCase)
+    '''returns Element\n\n
+    createElement(String upperCase)\n
     '''
 def createAttribute():
-    '''public Attr createAttribute(final String s)
+    '''returns Attr\n\n
+    createAttribute(final String s)\n
     '''
 def getReferrer():
-    '''public String getReferrer()
+    '''returns String\n\n
+    getReferrer()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def getCookie():
-    '''public String getCookie()
+    '''returns String\n\n
+    getCookie()\n
     '''
 def setCookie():
-    '''public void setCookie(final String s)
+    '''returns None\n\n
+    setCookie(final String s)\n
     '''
 def getImages():
-    '''public HTMLCollection getImages()
+    '''returns HTMLCollection\n\n
+    getImages()\n
     '''
 def getApplets():
-    '''public HTMLCollection getApplets()
+    '''returns HTMLCollection\n\n
+    getApplets()\n
     '''
 def getLinks():
-    '''public HTMLCollection getLinks()
+    '''returns HTMLCollection\n\n
+    getLinks()\n
     '''
 def getForms():
-    '''public HTMLCollection getForms()
+    '''returns HTMLCollection\n\n
+    getForms()\n
     '''
 def getAnchors():
-    '''public HTMLCollection getAnchors()
+    '''returns HTMLCollection\n\n
+    getAnchors()\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def write():
-    '''public void write(final String str)
+    '''returns None\n\n
+    write(final String str)\n
     '''
 def writeln():
-    '''public void writeln(final String str)
+    '''returns None\n\n
+    writeln(final String str)\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''

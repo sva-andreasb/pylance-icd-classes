@@ -1,6 +1,4 @@
-def cloneTransformer():
-    '''public static <T> Transformer<T, T> cloneTransformer()
-    '''
 def transform():
-    '''public T transform(final T input)
+    '''returns T\n\n
+    transform(final T input)\n
     '''

@@ -1,19 +1,17 @@
 CLIENT_EVENT_TARGET_EVENT_NAME = "String  \"pushMapControlClientEventHandler\""
-def MapControlClientEvent():
-    '''public MapControlClientEvent(final ControlInstance control)
+def ():
+    '''returns MapControlClientEvent\n\n
+    (final ControlInstance control)\n
     '''
 def pushMapControlClientEventHandler():
-    '''public int pushMapControlClientEventHandler()
-    '''
-def pushClientEvent():
-    '''public static WebClientEvent pushClientEvent(final WebClientSession clientSession, final String controlId, final String eventName, final String eventArgs)
-    '''
-def sendClientEvent():
-    '''public static WebClientEvent sendClientEvent(final WebClientSession clientSession, final String controlId, final String eventName, final String eventArgs)
+    '''returns int\n\n
+    pushMapControlClientEventHandler()\n
     '''
 def hasClientEvents():
-    '''public boolean hasClientEvents()
+    '''returns boolean\n\n
+    hasClientEvents()\n
     '''
 def getClientEvents():
-    '''public List<ClientEvent> getClientEvents()
+    '''returns List<ClientEvent>\n\n
+    getClientEvents()\n
     '''

@@ -1,12 +1,16 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''

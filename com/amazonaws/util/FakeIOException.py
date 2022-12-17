@@ -1,3 +1,4 @@
-def FakeIOException():
-    '''public FakeIOException(final String message)
+def ():
+    '''returns FakeIOException\n\n
+    (final String message)\n
     '''

@@ -1,3 +1,4 @@
-def LogLookupInfo():
-    '''public LogLookupInfo()
+def ():
+    '''returns LogLookupInfo\n\n
+    ()\n
     '''

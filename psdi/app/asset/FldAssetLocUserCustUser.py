@@ -1,6 +1,8 @@
-def FldAssetLocUserCustUser():
-    '''public FldAssetLocUserCustUser(final MboValue mbv)
+def ():
+    '''returns FldAssetLocUserCustUser\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

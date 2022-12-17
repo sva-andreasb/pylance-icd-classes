@@ -1,64 +1,65 @@
-def readableMap():
-    '''public static <K, V> IterableMap<K, V> readableMap(final Get<K, V> get)
-    '''
-def writableMap():
-    '''public static <K, V> Map<K, V> writableMap(final Put<K, V> put)
-    '''
 def clear():
-    '''public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
-    public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
-    public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
+    containsValue(final Object value)\n
     '''
 def equals():
-    '''public boolean equals(final Object arg0)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object arg0)\n
+    equals(final Object obj)\n
     '''
 def get():
-    '''public V get(final Object key)
-    public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
+    get(final Object key)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
-    public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
+    isEmpty()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
-    public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
+    keySet()\n
     '''
 def put():
-    '''public V put(final K key, final V value)
-    public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
+    put(final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> t)
-    public void putAll(final Map<? extends K, ? extends V> t)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> t)\n
+    putAll(final Map<? extends K, ? extends V> t)\n
     '''
 def remove():
-    '''public V remove(final Object key)
-    public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
+    remove(final Object key)\n
     '''
 def size():
-    '''public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
     '''
 def values():
-    '''public Collection<V> values()
-    public Collection<V> values()
-    '''
-def mapIterator():
-    '''public MapIterator<K, V> mapIterator()
-    '''
-def entrySet():
-    '''public Set<Entry<K, V>> entrySet()
+    '''returns Collection<V>\n\n
+    values()\n
+    values()\n
     '''

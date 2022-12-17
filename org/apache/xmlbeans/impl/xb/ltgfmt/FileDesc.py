@@ -1,0 +1,7 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(((FileDesc$1.class$org$apache$xmlbeans$impl$xb$ltgfmt$FileDesc$Role == null) ? (FileDesc$1.class$org$apache$xmlbeans$impl$xb$ltgfmt$FileDesc$Role = FileDesc$1.class$(\"org.apache.xmlbeans.impl.xb.ltgfmt.FileDesc$Role\")) : FileDesc$1.class$org$apache$xmlbeans$impl$xb$ltgfmt$FileDesc$Role).getClassLoader(), \"schemaorg_apache_xmlbeans.system.sXMLTOOLS\").resolveHandle(\"role21a8attrtype\")"
+SCHEMA = "Enum  Enum.forString(\"schema\")"
+INSTANCE = "Enum  Enum.forString(\"instance\")"
+RESOURCE = "Enum  Enum.forString(\"resource\")"
+INT_SCHEMA = "int  1"
+INT_INSTANCE = "int  2"
+INT_RESOURCE = "int  3"

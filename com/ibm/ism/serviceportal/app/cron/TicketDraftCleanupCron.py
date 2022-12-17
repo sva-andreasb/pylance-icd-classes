@@ -1,6 +1,8 @@
-def TicketDraftCleanupCron():
-    '''public TicketDraftCleanupCron()
+def ():
+    '''returns TicketDraftCleanupCron\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''

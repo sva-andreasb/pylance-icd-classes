@@ -1,80 +1,106 @@
 RECORD_ID = "short  -4080"
 RECORD_DESCRIPTION = "String  \"MsofbtClientAnchor\""
-def EscherClientAnchorRecord():
-    '''public EscherClientAnchorRecord()
+def ():
+    '''returns EscherClientAnchorRecord\n\n
+    ()\n
     '''
 def fillFields():
-    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''returns int\n\n
+    fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data, final EscherSerializationListener listener)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def getRecordId():
-    '''public short getRecordId()
+    '''returns short\n\n
+    getRecordId()\n
     '''
 def getRecordName():
-    '''public String getRecordName()
+    '''returns String\n\n
+    getRecordName()\n
     '''
 def getFlag():
-    '''public short getFlag()
+    '''returns short\n\n
+    getFlag()\n
     '''
 def setFlag():
-    '''public void setFlag(final short field_1_flag)
+    '''returns None\n\n
+    setFlag(final short field_1_flag)\n
     '''
 def getCol1():
-    '''public short getCol1()
+    '''returns short\n\n
+    getCol1()\n
     '''
 def setCol1():
-    '''public void setCol1(final short field_2_col1)
+    '''returns None\n\n
+    setCol1(final short field_2_col1)\n
     '''
 def getDx1():
-    '''public short getDx1()
+    '''returns short\n\n
+    getDx1()\n
     '''
 def setDx1():
-    '''public void setDx1(final short field_3_dx1)
+    '''returns None\n\n
+    setDx1(final short field_3_dx1)\n
     '''
 def getRow1():
-    '''public short getRow1()
+    '''returns short\n\n
+    getRow1()\n
     '''
 def setRow1():
-    '''public void setRow1(final short field_4_row1)
+    '''returns None\n\n
+    setRow1(final short field_4_row1)\n
     '''
 def getDy1():
-    '''public short getDy1()
+    '''returns short\n\n
+    getDy1()\n
     '''
 def setDy1():
-    '''public void setDy1(final short field_5_dy1)
+    '''returns None\n\n
+    setDy1(final short field_5_dy1)\n
     '''
 def getCol2():
-    '''public short getCol2()
+    '''returns short\n\n
+    getCol2()\n
     '''
 def setCol2():
-    '''public void setCol2(final short field_6_col2)
+    '''returns None\n\n
+    setCol2(final short field_6_col2)\n
     '''
 def getDx2():
-    '''public short getDx2()
+    '''returns short\n\n
+    getDx2()\n
     '''
 def setDx2():
-    '''public void setDx2(final short field_7_dx2)
+    '''returns None\n\n
+    setDx2(final short field_7_dx2)\n
     '''
 def getRow2():
-    '''public short getRow2()
+    '''returns short\n\n
+    getRow2()\n
     '''
 def setRow2():
-    '''public void setRow2(final short field_8_row2)
+    '''returns None\n\n
+    setRow2(final short field_8_row2)\n
     '''
 def getDy2():
-    '''public short getDy2()
+    '''returns short\n\n
+    getDy2()\n
     '''
 def setDy2():
-    '''public void setDy2(final short field_9_dy2)
+    '''returns None\n\n
+    setDy2(final short field_9_dy2)\n
     '''
 def getRemainingData():
-    '''public byte[] getRemainingData()
+    '''returns byte[]\n\n
+    getRemainingData()\n
     '''
 def setRemainingData():
-    '''public void setRemainingData(final byte[] remainingData)
+    '''returns None\n\n
+    setRemainingData(final byte[] remainingData)\n
     '''

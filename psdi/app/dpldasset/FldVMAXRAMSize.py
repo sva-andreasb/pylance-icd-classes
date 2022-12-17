@@ -1,6 +1,8 @@
-def FldVMAXRAMSize():
-    '''public FldVMAXRAMSize(final MboValue mbv)
+def ():
+    '''returns FldVMAXRAMSize\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

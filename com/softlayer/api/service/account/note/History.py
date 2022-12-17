@@ -1,102 +1,136 @@
 def getAccountNote():
-    '''public Note getAccountNote()
+    '''returns Note\n\n
+    getAccountNote()\n
     '''
 def setAccountNote():
-    '''public void setAccountNote(final Note accountNote)
+    '''returns None\n\n
+    setAccountNote(final Note accountNote)\n
     '''
 def getCustomer():
-    '''public Customer getCustomer()
+    '''returns Customer\n\n
+    getCustomer()\n
     '''
 def setCustomer():
-    '''public void setCustomer(final Customer customer)
+    '''returns None\n\n
+    setCustomer(final Customer customer)\n
     '''
 def getAccountNoteId():
-    '''public Long getAccountNoteId()
+    '''returns Long\n\n
+    getAccountNoteId()\n
     '''
 def setAccountNoteId():
-    '''public void setAccountNoteId(final Long accountNoteId)
+    '''returns None\n\n
+    setAccountNoteId(final Long accountNoteId)\n
     '''
 def isAccountNoteIdSpecified():
-    '''public boolean isAccountNoteIdSpecified()
+    '''returns boolean\n\n
+    isAccountNoteIdSpecified()\n
     '''
 def unsetAccountNoteId():
-    '''public void unsetAccountNoteId()
+    '''returns None\n\n
+    unsetAccountNoteId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNote():
-    '''public String getNote()
+    '''returns String\n\n
+    getNote()\n
     '''
 def setNote():
-    '''public void setNote(final String note)
+    '''returns None\n\n
+    setNote(final String note)\n
     '''
 def isNoteSpecified():
-    '''public boolean isNoteSpecified()
+    '''returns boolean\n\n
+    isNoteSpecified()\n
     '''
 def unsetNote():
-    '''public void unsetNote()
+    '''returns None\n\n
+    unsetNote()\n
     '''
 def getUserId():
-    '''public Long getUserId()
+    '''returns Long\n\n
+    getUserId()\n
     '''
 def setUserId():
-    '''public void setUserId(final Long userId)
+    '''returns None\n\n
+    setUserId(final Long userId)\n
     '''
 def isUserIdSpecified():
-    '''public boolean isUserIdSpecified()
+    '''returns boolean\n\n
+    isUserIdSpecified()\n
     '''
 def unsetUserId():
-    '''public void unsetUserId()
+    '''returns None\n\n
+    unsetUserId()\n
     '''
 def accountNoteId():
-    '''public Mask accountNoteId()
+    '''returns Mask\n\n
+    accountNoteId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def note():
-    '''public Mask note()
+    '''returns Mask\n\n
+    note()\n
     '''
 def userId():
-    '''public Mask userId()
+    '''returns Mask\n\n
+    userId()\n
     '''

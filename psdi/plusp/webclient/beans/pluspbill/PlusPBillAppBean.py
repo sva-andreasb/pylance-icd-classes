@@ -1,15 +1,20 @@
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def approveLines():
-    '''public int approveLines()
+    '''returns int\n\n
+    approveLines()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def BILLRESET():
-    '''public int BILLRESET()
+    '''returns int\n\n
+    BILLRESET()\n
     '''
 def returnToList():
-    '''public void returnToList()
+    '''returns None\n\n
+    returnToList()\n
     '''

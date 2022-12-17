@@ -1,6 +1,8 @@
-def FldShiftpatterndaySeq():
-    '''public FldShiftpatterndaySeq(final MboValue mbv)
+def ():
+    '''returns FldShiftpatterndaySeq\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

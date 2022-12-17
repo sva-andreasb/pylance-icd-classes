@@ -1,9 +1,12 @@
-def MoutGLProcess():
-    '''public MoutGLProcess()
+def ():
+    '''returns MoutGLProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''returns int\n\n
+    checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)\n
     '''
 def getInternalReceiptStatus():
-    '''public String getInternalReceiptStatus(final String receiptStatus)
+    '''returns String\n\n
+    getInternalReceiptStatus(final String receiptStatus)\n
     '''

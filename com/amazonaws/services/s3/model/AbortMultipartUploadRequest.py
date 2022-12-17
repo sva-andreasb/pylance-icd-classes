@@ -1,39 +1,52 @@
-def AbortMultipartUploadRequest():
-    '''public AbortMultipartUploadRequest(final String bucketName, final String key, final String uploadId)
+def ():
+    '''returns AbortMultipartUploadRequest\n\n
+    (final String bucketName, final String key, final String uploadId)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String value)
+    '''returns None\n\n
+    setBucketName(final String value)\n
     '''
 def withBucketName():
-    '''public AbortMultipartUploadRequest withBucketName(final String bucketName)
+    '''returns AbortMultipartUploadRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public AbortMultipartUploadRequest withKey(final String key)
+    '''returns AbortMultipartUploadRequest\n\n
+    withKey(final String key)\n
     '''
 def getUploadId():
-    '''public String getUploadId()
+    '''returns String\n\n
+    getUploadId()\n
     '''
 def setUploadId():
-    '''public void setUploadId(final String uploadId)
+    '''returns None\n\n
+    setUploadId(final String uploadId)\n
     '''
 def withUploadId():
-    '''public AbortMultipartUploadRequest withUploadId(final String uploadId)
+    '''returns AbortMultipartUploadRequest\n\n
+    withUploadId(final String uploadId)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public AbortMultipartUploadRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns AbortMultipartUploadRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

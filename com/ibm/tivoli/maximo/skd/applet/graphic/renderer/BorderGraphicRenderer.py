@@ -1,33 +1,44 @@
-def BorderGraphicRenderer():
-    '''public BorderGraphicRenderer(final Color color, final float borderThickness, final boolean dashed, final Visibility visibility)
+def ():
+    '''returns BorderGraphicRenderer\n\n
+    (final Color color, final float borderThickness, final boolean dashed, final Visibility visibility)\n
     '''
 def getBounds():
-    '''public IlvRect getBounds(final IlvActivityGraphic paramIlvActivityGraphic, final IlvTransformer paramIlvTransformer)
+    '''returns IlvRect\n\n
+    getBounds(final IlvActivityGraphic paramIlvActivityGraphic, final IlvTransformer paramIlvTransformer)\n
     '''
 def draw():
-    '''public void draw(final Graphics paramGraphics, final IlvActivityGraphic paramIlvActivityGraphic, final IlvTransformer paramIlvTransformer)
+    '''returns None\n\n
+    draw(final Graphics paramGraphics, final IlvActivityGraphic paramIlvActivityGraphic, final IlvTransformer paramIlvTransformer)\n
     '''
 def getVisibility():
-    '''public Visibility getVisibility()
+    '''returns Visibility\n\n
+    getVisibility()\n
     '''
 def setVisibility():
-    '''public void setVisibility(final Visibility visibility)
+    '''returns None\n\n
+    setVisibility(final Visibility visibility)\n
     '''
 def getStroke():
-    '''public BasicStroke getStroke()
+    '''returns BasicStroke\n\n
+    getStroke()\n
     '''
 def setStroke():
-    '''public void setStroke(final BasicStroke stroke)
+    '''returns None\n\n
+    setStroke(final BasicStroke stroke)\n
     '''
 def getBorderThickness():
-    '''public float getBorderThickness()
+    '''returns float\n\n
+    getBorderThickness()\n
     '''
 def setBorderThickness():
-    '''public void setBorderThickness(final float borderThickness)
+    '''returns None\n\n
+    setBorderThickness(final float borderThickness)\n
     '''
 def getPadding():
-    '''public int getPadding()
+    '''returns int\n\n
+    getPadding()\n
     '''
 def setPadding():
-    '''public void setPadding(final int padding)
+    '''returns None\n\n
+    setPadding(final int padding)\n
     '''

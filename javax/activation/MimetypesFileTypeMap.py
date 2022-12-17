@@ -1,12 +1,10 @@
-def MimetypesFileTypeMap():
-    '''public MimetypesFileTypeMap()
-    public MimetypesFileTypeMap(final InputStream is)
-    public MimetypesFileTypeMap(final String mimeTypeFileName)
-    '''
-def addMimeTypes():
-    '''public synchronized void addMimeTypes(final String mime_types)
+def ():
+    '''returns MimetypesFileTypeMap\n\n
+    ()\n
+    (final InputStream is)\n
+    (final String mimeTypeFileName)\n
     '''
 def getContentType():
-    '''public String getContentType(final File f)
-    public synchronized String getContentType(final String filename)
+    '''returns String\n\n
+    getContentType(final File f)\n
     '''

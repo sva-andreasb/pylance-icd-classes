@@ -1,24 +1,28 @@
-def WrappingXMLInputFactory():
-    '''public WrappingXMLInputFactory(final XMLInputFactory parent)
+def ():
+    '''returns WrappingXMLInputFactory\n\n
+    (final XMLInputFactory parent)\n
     '''
 def createFilteredReader():
-    '''public XMLEventReader createFilteredReader(final XMLEventReader reader, final EventFilter filter)
-    public XMLStreamReader createFilteredReader(final XMLStreamReader reader, final StreamFilter filter)
+    '''returns XMLStreamReader\n\n
+    createFilteredReader(final XMLEventReader reader, final EventFilter filter)\n
+    createFilteredReader(final XMLStreamReader reader, final StreamFilter filter)\n
     '''
 def createXMLEventReader():
-    '''public XMLEventReader createXMLEventReader(final InputStream stream, final String encoding)
-    public XMLEventReader createXMLEventReader(final InputStream stream)
-    public XMLEventReader createXMLEventReader(final Reader reader)
-    public XMLEventReader createXMLEventReader(final Source source)
-    public XMLEventReader createXMLEventReader(final String systemId, final InputStream stream)
-    public XMLEventReader createXMLEventReader(final String systemId, final Reader reader)
-    public XMLEventReader createXMLEventReader(final XMLStreamReader reader)
+    '''returns XMLEventReader\n\n
+    createXMLEventReader(final InputStream stream, final String encoding)\n
+    createXMLEventReader(final InputStream stream)\n
+    createXMLEventReader(final Reader reader)\n
+    createXMLEventReader(final Source source)\n
+    createXMLEventReader(final String systemId, final InputStream stream)\n
+    createXMLEventReader(final String systemId, final Reader reader)\n
+    createXMLEventReader(final XMLStreamReader reader)\n
     '''
 def createXMLStreamReader():
-    '''public XMLStreamReader createXMLStreamReader(final InputStream stream, final String encoding)
-    public XMLStreamReader createXMLStreamReader(final InputStream stream)
-    public XMLStreamReader createXMLStreamReader(final Reader reader)
-    public XMLStreamReader createXMLStreamReader(final Source source)
-    public XMLStreamReader createXMLStreamReader(final String systemId, final InputStream stream)
-    public XMLStreamReader createXMLStreamReader(final String systemId, final Reader reader)
+    '''returns XMLStreamReader\n\n
+    createXMLStreamReader(final InputStream stream, final String encoding)\n
+    createXMLStreamReader(final InputStream stream)\n
+    createXMLStreamReader(final Reader reader)\n
+    createXMLStreamReader(final Source source)\n
+    createXMLStreamReader(final String systemId, final InputStream stream)\n
+    createXMLStreamReader(final String systemId, final Reader reader)\n
     '''

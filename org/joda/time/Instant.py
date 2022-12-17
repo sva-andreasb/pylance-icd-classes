@@ -1,48 +1,53 @@
-def now():
-    '''public static Instant now()
-    '''
-def parse():
-    '''public static Instant parse(final String s)
-    public static Instant parse(final String s, final DateTimeFormatter dateTimeFormatter)
-    '''
-def Instant():
-    '''public Instant()
-    public Instant(final long iMillis)
-    public Instant(final Object o)
+def ():
+    '''returns Instant\n\n
+    ()\n
+    (final long iMillis)\n
+    (final Object o)\n
     '''
 def toInstant():
-    '''public Instant toInstant()
+    '''returns Instant\n\n
+    toInstant()\n
     '''
 def withMillis():
-    '''public Instant withMillis(final long n)
+    '''returns Instant\n\n
+    withMillis(final long n)\n
     '''
 def withDurationAdded():
-    '''public Instant withDurationAdded(final long n, final int n2)
-    public Instant withDurationAdded(final ReadableDuration readableDuration, final int n)
+    '''returns Instant\n\n
+    withDurationAdded(final long n, final int n2)\n
+    withDurationAdded(final ReadableDuration readableDuration, final int n)\n
     '''
 def plus():
-    '''public Instant plus(final long n)
-    public Instant plus(final ReadableDuration readableDuration)
+    '''returns Instant\n\n
+    plus(final long n)\n
+    plus(final ReadableDuration readableDuration)\n
     '''
 def minus():
-    '''public Instant minus(final long n)
-    public Instant minus(final ReadableDuration readableDuration)
+    '''returns Instant\n\n
+    minus(final long n)\n
+    minus(final ReadableDuration readableDuration)\n
     '''
 def getMillis():
-    '''public long getMillis()
+    '''returns long\n\n
+    getMillis()\n
     '''
 def getChronology():
-    '''public Chronology getChronology()
+    '''returns Chronology\n\n
+    getChronology()\n
     '''
 def toDateTime():
-    '''public DateTime toDateTime()
+    '''returns DateTime\n\n
+    toDateTime()\n
     '''
 def toDateTimeISO():
-    '''public DateTime toDateTimeISO()
+    '''returns DateTime\n\n
+    toDateTimeISO()\n
     '''
 def toMutableDateTime():
-    '''public MutableDateTime toMutableDateTime()
+    '''returns MutableDateTime\n\n
+    toMutableDateTime()\n
     '''
 def toMutableDateTimeISO():
-    '''public MutableDateTime toMutableDateTimeISO()
+    '''returns MutableDateTime\n\n
+    toMutableDateTimeISO()\n
     '''

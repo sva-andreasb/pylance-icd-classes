@@ -1,3 +1,4 @@
-def MaxIfaceTypePropSet():
-    '''public MaxIfaceTypePropSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIfaceTypePropSet\n\n
+    (final MboServerInterface ms)\n
     '''

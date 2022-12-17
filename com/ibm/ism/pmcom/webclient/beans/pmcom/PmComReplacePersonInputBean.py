@@ -1,3 +1,4 @@
 def processPersonGroups():
-    '''public int processPersonGroups()
+    '''returns int\n\n
+    processPersonGroups()\n
     '''

@@ -8,99 +8,127 @@ BT_PICT = "byte  4"
 BT_JPEG = "byte  5"
 BT_PNG = "byte  6"
 BT_DIB = "byte  7"
-def EscherBSERecord():
-    '''public EscherBSERecord()
+def ():
+    '''returns EscherBSERecord\n\n
+    ()\n
     '''
 def fillFields():
-    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''returns int\n\n
+    fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data, final EscherSerializationListener listener)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def getRecordName():
-    '''public String getRecordName()
+    '''returns String\n\n
+    getRecordName()\n
     '''
 def getBlipTypeWin32():
-    '''public byte getBlipTypeWin32()
+    '''returns byte\n\n
+    getBlipTypeWin32()\n
     '''
 def setBlipTypeWin32():
-    '''public void setBlipTypeWin32(final byte blipTypeWin32)
+    '''returns None\n\n
+    setBlipTypeWin32(final byte blipTypeWin32)\n
     '''
 def getBlipTypeMacOS():
-    '''public byte getBlipTypeMacOS()
+    '''returns byte\n\n
+    getBlipTypeMacOS()\n
     '''
 def setBlipTypeMacOS():
-    '''public void setBlipTypeMacOS(final byte blipTypeMacOS)
+    '''returns None\n\n
+    setBlipTypeMacOS(final byte blipTypeMacOS)\n
     '''
 def getUid():
-    '''public byte[] getUid()
+    '''returns byte[]\n\n
+    getUid()\n
     '''
 def setUid():
-    '''public void setUid(final byte[] uid)
+    '''returns None\n\n
+    setUid(final byte[] uid)\n
     '''
 def getTag():
-    '''public short getTag()
+    '''returns short\n\n
+    getTag()\n
     '''
 def setTag():
-    '''public void setTag(final short tag)
+    '''returns None\n\n
+    setTag(final short tag)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final int size)
+    '''returns None\n\n
+    setSize(final int size)\n
     '''
 def getRef():
-    '''public int getRef()
+    '''returns int\n\n
+    getRef()\n
     '''
 def setRef():
-    '''public void setRef(final int ref)
+    '''returns None\n\n
+    setRef(final int ref)\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''
 def setOffset():
-    '''public void setOffset(final int offset)
+    '''returns None\n\n
+    setOffset(final int offset)\n
     '''
 def getUsage():
-    '''public byte getUsage()
+    '''returns byte\n\n
+    getUsage()\n
     '''
 def setUsage():
-    '''public void setUsage(final byte usage)
+    '''returns None\n\n
+    setUsage(final byte usage)\n
     '''
 def getName():
-    '''public byte getName()
+    '''returns byte\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final byte name)
+    '''returns None\n\n
+    setName(final byte name)\n
     '''
 def getUnused2():
-    '''public byte getUnused2()
+    '''returns byte\n\n
+    getUnused2()\n
     '''
 def setUnused2():
-    '''public void setUnused2(final byte unused2)
+    '''returns None\n\n
+    setUnused2(final byte unused2)\n
     '''
 def getUnused3():
-    '''public byte getUnused3()
+    '''returns byte\n\n
+    getUnused3()\n
     '''
 def setUnused3():
-    '''public void setUnused3(final byte unused3)
+    '''returns None\n\n
+    setUnused3(final byte unused3)\n
     '''
 def getBlipRecord():
-    '''public EscherBlipRecord getBlipRecord()
+    '''returns EscherBlipRecord\n\n
+    getBlipRecord()\n
     '''
 def setBlipRecord():
-    '''public void setBlipRecord(final EscherBlipRecord blipRecord)
+    '''returns None\n\n
+    setBlipRecord(final EscherBlipRecord blipRecord)\n
     '''
 def getRemainingData():
-    '''public byte[] getRemainingData()
+    '''returns byte[]\n\n
+    getRemainingData()\n
     '''
 def setRemainingData():
-    '''public void setRemainingData(final byte[] remainingData)
-    '''
-def getBlipType():
-    '''public static String getBlipType(final byte b)
+    '''returns None\n\n
+    setRemainingData(final byte[] remainingData)\n
     '''

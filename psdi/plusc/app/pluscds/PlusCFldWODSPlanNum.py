@@ -1,21 +1,28 @@
-def PlusCFldWODSPlanNum():
-    '''public PlusCFldWODSPlanNum(final MboValue mbovalue)
+def ():
+    '''returns PlusCFldWODSPlanNum\n\n
+    (final MboValue mbovalue)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''

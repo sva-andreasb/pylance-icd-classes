@@ -1,6 +1,8 @@
-def FldConditionRefCount():
-    '''public FldConditionRefCount(final MboValue mbv)
+def ():
+    '''returns FldConditionRefCount\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

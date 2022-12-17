@@ -1,6 +1,8 @@
-def TLOAMFldPromoteDefaultLocation():
-    '''public TLOAMFldPromoteDefaultLocation(final MboValue mbv)
+def ():
+    '''returns TLOAMFldPromoteDefaultLocation\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

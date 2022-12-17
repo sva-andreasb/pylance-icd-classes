@@ -1,21 +1,28 @@
 def numberFormatterBoth():
-    '''public T numberFormatterBoth(final UnlocalizedNumberFormatter formatter)
+    '''returns T\n\n
+    numberFormatterBoth(final UnlocalizedNumberFormatter formatter)\n
     '''
 def numberFormatterFirst():
-    '''public T numberFormatterFirst(final UnlocalizedNumberFormatter formatterFirst)
+    '''returns T\n\n
+    numberFormatterFirst(final UnlocalizedNumberFormatter formatterFirst)\n
     '''
 def numberFormatterSecond():
-    '''public T numberFormatterSecond(final UnlocalizedNumberFormatter formatterSecond)
+    '''returns T\n\n
+    numberFormatterSecond(final UnlocalizedNumberFormatter formatterSecond)\n
     '''
 def collapse():
-    '''public T collapse(final NumberRangeFormatter.RangeCollapse collapse)
+    '''returns T\n\n
+    collapse(final NumberRangeFormatter.RangeCollapse collapse)\n
     '''
 def identityFallback():
-    '''public T identityFallback(final NumberRangeFormatter.RangeIdentityFallback identityFallback)
+    '''returns T\n\n
+    identityFallback(final NumberRangeFormatter.RangeIdentityFallback identityFallback)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

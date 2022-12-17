@@ -1,5 +1,6 @@
-def UnsupportedDigestAlgorithmException():
-    '''public UnsupportedDigestAlgorithmException()
-    public UnsupportedDigestAlgorithmException(final String message)
-    public UnsupportedDigestAlgorithmException(final String message, final Throwable cause)
+def ():
+    '''returns UnsupportedDigestAlgorithmException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

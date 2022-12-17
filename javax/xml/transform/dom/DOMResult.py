@@ -1,26 +1,33 @@
 FEATURE = "String  \"http://javax.xml.transform.dom.DOMResult/feature\""
-def DOMResult():
-    '''public DOMResult()
-    public DOMResult(final Node node)
-    public DOMResult(final Node node, final String systemId)
-    public DOMResult(final Node node, final Node nextSibling)
-    public DOMResult(final Node node, final Node nextSibling, final String systemId)
+def ():
+    '''returns DOMResult\n\n
+    ()\n
+    (final Node node)\n
+    (final Node node, final String systemId)\n
+    (final Node node, final Node nextSibling)\n
+    (final Node node, final Node nextSibling, final String systemId)\n
     '''
 def setNode():
-    '''public void setNode(final Node node)
+    '''returns None\n\n
+    setNode(final Node node)\n
     '''
 def getNode():
-    '''public Node getNode()
+    '''returns Node\n\n
+    getNode()\n
     '''
 def setNextSibling():
-    '''public void setNextSibling(final Node nextSibling)
+    '''returns None\n\n
+    setNextSibling(final Node nextSibling)\n
     '''
 def getNextSibling():
-    '''public Node getNextSibling()
+    '''returns Node\n\n
+    getNextSibling()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''

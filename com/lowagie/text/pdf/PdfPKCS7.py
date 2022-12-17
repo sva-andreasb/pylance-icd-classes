@@ -1,110 +1,118 @@
-def PdfPKCS7():
-    '''public PdfPKCS7(final byte[] contentsKey, final byte[] certsKey, final String provider)
-    public PdfPKCS7(final byte[] contentsKey, final String provider)
-    public PdfPKCS7(final PrivateKey privKey, final Certificate[] certChain, final CRL[] crlList, final String hashAlgorithm, final String provider, final boolean hasRSAdata)
+def ():
+    '''returns X509NameTokenizer\n\n
+    (final byte[] contentsKey, final byte[] certsKey, final String provider)\n
+    (final byte[] contentsKey, final String provider)\n
+    (final PrivateKey privKey, final Certificate[] certChain, final CRL[] crlList, final String hashAlgorithm, final String provider, final boolean hasRSAdata)\n
+    (final ASN1Sequence seq)\n
+    (final String dirName)\n
+    (final String oid)\n
     '''
 def update():
-    '''public void update(final byte[] buf, final int off, final int len)
+    '''returns None\n\n
+    update(final byte[] buf, final int off, final int len)\n
     '''
 def verify():
-    '''public boolean verify()
+    '''returns boolean\n\n
+    verify()\n
     '''
 def getCertificates():
-    '''public Certificate[] getCertificates()
+    '''returns Certificate[]\n\n
+    getCertificates()\n
     '''
 def getCRLs():
-    '''public Collection getCRLs()
+    '''returns Collection\n\n
+    getCRLs()\n
     '''
 def getSigningCertificate():
-    '''public X509Certificate getSigningCertificate()
+    '''returns X509Certificate\n\n
+    getSigningCertificate()\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getSigningInfoVersion():
-    '''public int getSigningInfoVersion()
+    '''returns int\n\n
+    getSigningInfoVersion()\n
     '''
 def getDigestAlgorithm():
-    '''public String getDigestAlgorithm()
+    '''returns String\n\n
+    getDigestAlgorithm()\n
     '''
 def getHashAlgorithm():
-    '''public String getHashAlgorithm()
-    '''
-def loadCacertsKeyStore():
-    '''public static KeyStore loadCacertsKeyStore()
-    public static KeyStore loadCacertsKeyStore(final String provider)
-    '''
-def verifyCertificate():
-    '''public static String verifyCertificate(final X509Certificate cert, final Collection crls, Calendar calendar)
-    '''
-def verifyCertificates():
-    '''public static Object[] verifyCertificates(final Certificate[] certs, final KeyStore keystore, final Collection crls, Calendar calendar)
-    '''
-def getIssuerFields():
-    '''public static X509Name getIssuerFields(final X509Certificate cert)
-    '''
-def getSubjectFields():
-    '''public static X509Name getSubjectFields(final X509Certificate cert)
+    '''returns String\n\n
+    getHashAlgorithm()\n
     '''
 def getEncodedPKCS1():
-    '''public byte[] getEncodedPKCS1()
+    '''returns byte[]\n\n
+    getEncodedPKCS1()\n
     '''
 def setExternalDigest():
-    '''public void setExternalDigest(final byte[] digest, final byte[] RSAdata, final String digestEncryptionAlgorithm)
+    '''returns None\n\n
+    setExternalDigest(final byte[] digest, final byte[] RSAdata, final String digestEncryptionAlgorithm)\n
     '''
 def getEncodedPKCS7():
-    '''public byte[] getEncodedPKCS7()
-    public byte[] getEncodedPKCS7(final byte[] secondDigest, final Calendar signingTime)
+    '''returns byte[]\n\n
+    getEncodedPKCS7()\n
+    getEncodedPKCS7(final byte[] secondDigest, final Calendar signingTime)\n
     '''
 def getAuthenticatedAttributeBytes():
-    '''public byte[] getAuthenticatedAttributeBytes(final byte[] secondDigest, final Calendar signingTime)
+    '''returns byte[]\n\n
+    getAuthenticatedAttributeBytes(final byte[] secondDigest, final Calendar signingTime)\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def setReason():
-    '''public void setReason(final String reason)
+    '''returns None\n\n
+    setReason(final String reason)\n
     '''
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final String location)
+    '''returns None\n\n
+    setLocation(final String location)\n
     '''
 def getSignDate():
-    '''public Calendar getSignDate()
+    '''returns Calendar\n\n
+    getSignDate()\n
     '''
 def setSignDate():
-    '''public void setSignDate(final Calendar signDate)
+    '''returns None\n\n
+    setSignDate(final Calendar signDate)\n
     '''
 def getSignName():
-    '''public String getSignName()
+    '''returns String\n\n
+    getSignName()\n
     '''
 def setSignName():
-    '''public void setSignName(final String signName)
-    '''
-def X509Name():
-    '''public X509Name(final ASN1Sequence seq)
-    public X509Name(final String dirName)
+    '''returns None\n\n
+    setSignName(final String signName)\n
     '''
 def getField():
-    '''public String getField(final String name)
+    '''returns String\n\n
+    getField(final String name)\n
     '''
 def getFieldArray():
-    '''public ArrayList getFieldArray(final String name)
+    '''returns ArrayList\n\n
+    getFieldArray(final String name)\n
     '''
 def getFields():
-    '''public HashMap getFields()
+    '''returns HashMap\n\n
+    getFields()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def X509NameTokenizer():
-    '''public X509NameTokenizer(final String oid)
+    '''returns String\n\n
+    toString()\n
     '''
 def hasMoreTokens():
-    '''public boolean hasMoreTokens()
+    '''returns boolean\n\n
+    hasMoreTokens()\n
     '''
 def nextToken():
-    '''public String nextToken()
+    '''returns String\n\n
+    nextToken()\n
     '''

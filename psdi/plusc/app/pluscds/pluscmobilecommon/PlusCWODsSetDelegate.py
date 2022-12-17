@@ -1,6 +1,8 @@
-def PlusCWODsSetDelegate():
-    '''public PlusCWODsSetDelegate(final MboSetAdapter thisMboSet)
+def ():
+    '''returns PlusCWODsSetDelegate\n\n
+    (final MboSetAdapter thisMboSet)\n
     '''
 def applyRequiredRules():
-    '''public void applyRequiredRules(final boolean changeValue)
+    '''returns None\n\n
+    applyRequiredRules(final boolean changeValue)\n
     '''

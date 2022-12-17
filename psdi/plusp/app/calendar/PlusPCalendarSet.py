@@ -1,3 +1,4 @@
-def PlusPCalendarSet():
-    '''public PlusPCalendarSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPCalendarSet\n\n
+    (final MboServerInterface arg0)\n
     '''

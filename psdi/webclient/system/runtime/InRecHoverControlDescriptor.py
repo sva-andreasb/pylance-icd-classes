@@ -1,13 +1,17 @@
 def getInstance():
-    '''public BaseInstance getInstance(final WebClientSession wcs)
-    public ControlInstance getInstance(final WebClientSession wcs, final Element presentationElement)
+    '''returns ControlInstance\n\n
+    getInstance(final WebClientSession wcs)\n
+    getInstance(final WebClientSession wcs, final Element presentationElement)\n
     '''
 def getBindList():
-    '''public List<BindingDefinition> getBindList()
+    '''returns List<BindingDefinition>\n\n
+    getBindList()\n
     '''
 def indicatesChildError():
-    '''public boolean indicatesChildError()
+    '''returns boolean\n\n
+    indicatesChildError()\n
     '''
 def canCreateControl():
-    '''public boolean canCreateControl(final PageInstance page, final ControlInstance parentControl, final Element element)
+    '''returns boolean\n\n
+    canCreateControl(final PageInstance page, final ControlInstance parentControl, final Element element)\n
     '''

@@ -1,3 +1,4 @@
-def ShowAllPlanMaterialSet():
-    '''public ShowAllPlanMaterialSet(final MboRemote owner)
+def ():
+    '''returns ShowAllPlanMaterialSet\n\n
+    (final MboRemote owner)\n
     '''

@@ -1,27 +1,36 @@
-def IMResolveHandlerSTImpl():
-    '''public IMResolveHandlerSTImpl(final IMSessionSTImpl session, final Resolver resolver)
+def ():
+    '''returns IMResolveHandlerSTImpl\n\n
+    (final IMSessionSTImpl session, final Resolver resolver)\n
     '''
 def addListener():
-    '''public void addListener(final IMResolveListener imResolveListener)
+    '''returns None\n\n
+    addListener(final IMResolveListener imResolveListener)\n
     '''
 def removeAllListeners():
-    '''public void removeAllListeners()
+    '''returns None\n\n
+    removeAllListeners()\n
     '''
 def removeListener():
-    '''public void removeListener(final IMResolveListener imResolveListener)
+    '''returns None\n\n
+    removeListener(final IMResolveListener imResolveListener)\n
     '''
 def removeIMResolveListener():
-    '''public void removeIMResolveListener(final IMResolveListener imResolveListener)
+    '''returns None\n\n
+    removeIMResolveListener(final IMResolveListener imResolveListener)\n
     '''
 def resolve():
-    '''public void resolve(final String s)
+    '''returns None\n\n
+    resolve(final String s)\n
     '''
 def resolveConflict():
-    '''public void resolveConflict(final ResolveEvent resolveEvent)
+    '''returns None\n\n
+    resolveConflict(final ResolveEvent resolveEvent)\n
     '''
 def resolveFailed():
-    '''public void resolveFailed(final ResolveEvent resolveEvent)
+    '''returns None\n\n
+    resolveFailed(final ResolveEvent resolveEvent)\n
     '''
 def resolved():
-    '''public void resolved(final ResolveEvent resolveEvent)
+    '''returns None\n\n
+    resolved(final ResolveEvent resolveEvent)\n
     '''

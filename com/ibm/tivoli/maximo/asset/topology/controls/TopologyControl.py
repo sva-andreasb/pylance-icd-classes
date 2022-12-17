@@ -1,39 +1,48 @@
-def TopologyControl():
-    '''public TopologyControl()
+def ():
+    '''returns TopologyControl\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def handleServletRequest():
-    '''public boolean handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)
+    '''returns boolean\n\n
+    handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def getTopologyMaxNodes():
-    '''public int getTopologyMaxNodes()
+    '''returns int\n\n
+    getTopologyMaxNodes()\n
     '''
 def setTopologyMaxNodes():
-    '''public void setTopologyMaxNodes(final int topologyMaxNodes)
+    '''returns None\n\n
+    setTopologyMaxNodes(final int topologyMaxNodes)\n
     '''
 def getTopologyDepth():
-    '''public String getTopologyDepth()
+    '''returns String\n\n
+    getTopologyDepth()\n
     '''
 def setTopologyDepth():
-    '''public void setTopologyDepth(final String topologyDepth)
+    '''returns None\n\n
+    setTopologyDepth(final String topologyDepth)\n
     '''
 def getTopologyInitDepth():
-    '''public String getTopologyInitDepth()
+    '''returns String\n\n
+    getTopologyInitDepth()\n
     '''
 def setTopologyInitDepth():
-    '''public void setTopologyInitDepth(final String topologyInitDepth)
+    '''returns None\n\n
+    setTopologyInitDepth(final String topologyInitDepth)\n
     '''
 def isDetailView():
-    '''public boolean isDetailView()
+    '''returns boolean\n\n
+    isDetailView()\n
     '''
 def setDetailView():
-    '''public void setDetailView(final String detailView)
-    '''
-def getImpactedAsset():
-    '''public Hashtable<String, Boolean> getImpactedAsset()
+    '''returns None\n\n
+    setDetailView(final String detailView)\n
     '''
 def setImpactedAsset():
-    '''public void setImpactedAsset(final Hashtable<String, Boolean> impactedAsset)
+    '''returns None\n\n
+    setImpactedAsset(final Hashtable<String, Boolean> impactedAsset)\n
     '''

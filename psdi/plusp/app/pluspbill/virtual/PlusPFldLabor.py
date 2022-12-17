@@ -1,7 +1,9 @@
-def PlusPFldLabor():
-    '''public PlusPFldLabor()
-    public PlusPFldLabor(final MboValue mbv)
+def ():
+    '''returns PlusPFldLabor\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

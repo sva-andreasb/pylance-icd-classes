@@ -2,39 +2,39 @@ sid = "short  255"
 DEFAULT_BUCKET_SIZE = "int  8"
 MAX_BUCKETS = "int  128"
 ENCODED_SIZE = "int  8"
-def ExtSSTRecord():
-    '''public ExtSSTRecord()
-    public ExtSSTRecord(final RecordInputStream in)
+def ():
+    '''returns InfoSubRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
+    (final int streamPos, final int bucketSstOffset)\n
+    (final RecordInputStream in)\n
     '''
 def setNumStringsPerBucket():
-    '''public void setNumStringsPerBucket(final short numStrings)
+    '''returns None\n\n
+    setNumStringsPerBucket(final short numStrings)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final ContinuableRecordOutput out)
-    public void serialize(final LittleEndianOutput out)
-    '''
-def getNumberOfInfoRecsForStrings():
-    '''public static final int getNumberOfInfoRecsForStrings(final int numStrings)
-    '''
-def getRecordSizeForStrings():
-    '''public static final int getRecordSizeForStrings(final int numStrings)
+    '''returns None\n\n
+    serialize(final ContinuableRecordOutput out)\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def setBucketOffsets():
-    '''public void setBucketOffsets(final int[] bucketAbsoluteOffsets, final int[] bucketRelativeOffsets)
-    '''
-def InfoSubRecord():
-    '''public InfoSubRecord(final int streamPos, final int bucketSstOffset)
-    public InfoSubRecord(final RecordInputStream in)
+    '''returns None\n\n
+    setBucketOffsets(final int[] bucketAbsoluteOffsets, final int[] bucketRelativeOffsets)\n
     '''
 def getStreamPos():
-    '''public int getStreamPos()
+    '''returns int\n\n
+    getStreamPos()\n
     '''
 def getBucketSSTOffset():
-    '''public int getBucketSSTOffset()
+    '''returns int\n\n
+    getBucketSSTOffset()\n
     '''

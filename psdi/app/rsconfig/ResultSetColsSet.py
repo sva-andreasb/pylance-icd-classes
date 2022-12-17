@@ -1,12 +1,16 @@
-def ResultSetColsSet():
-    '''public ResultSetColsSet(final MboServerInterface ms)
+def ():
+    '''returns ResultSetColsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getAttributesForApp():
-    '''public void getAttributesForApp(final String appName)
+    '''returns None\n\n
+    getAttributesForApp(final String appName)\n
     '''
 def getAttributesToAdd():
-    '''public ArrayList getAttributesToAdd()
+    '''returns ArrayList\n\n
+    getAttributesToAdd()\n
     '''
 def getAttributesToDelete():
-    '''public ArrayList getAttributesToDelete()
+    '''returns ArrayList\n\n
+    getAttributesToDelete()\n
     '''

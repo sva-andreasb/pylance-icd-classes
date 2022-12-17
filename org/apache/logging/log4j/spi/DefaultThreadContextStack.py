@@ -1,73 +1,96 @@
-def DefaultThreadContextStack():
-    '''public DefaultThreadContextStack(final boolean useStack)
+def ():
+    '''returns DefaultThreadContextStack\n\n
+    (final boolean useStack)\n
     '''
 def add():
-    '''public boolean add(final String s)
+    '''returns boolean\n\n
+    add(final String s)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends String> strings)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends String> strings)\n
     '''
 def asList():
-    '''public List<String> asList()
+    '''returns List<String>\n\n
+    asList()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> objects)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> objects)\n
     '''
 def copy():
-    '''public ThreadContextStack copy()
+    '''returns ThreadContextStack\n\n
+    copy()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getDepth():
-    '''public int getDepth()
+    '''returns int\n\n
+    getDepth()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def iterator():
-    '''public Iterator<String> iterator()
+    '''returns Iterator<String>\n\n
+    iterator()\n
     '''
 def peek():
-    '''public String peek()
+    '''returns String\n\n
+    peek()\n
     '''
 def pop():
-    '''public String pop()
+    '''returns String\n\n
+    pop()\n
     '''
 def push():
-    '''public void push(final String message)
+    '''returns None\n\n
+    push(final String message)\n
     '''
 def remove():
-    '''public boolean remove(final Object o)
+    '''returns boolean\n\n
+    remove(final Object o)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> objects)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> objects)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> objects)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> objects)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] ts)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def formatTo():
-    '''public void formatTo(final StringBuilder buffer)
+    '''returns None\n\n
+    formatTo(final StringBuilder buffer)\n
     '''
 def trim():
-    '''public void trim(final int depth)
+    '''returns None\n\n
+    trim(final int depth)\n
     '''

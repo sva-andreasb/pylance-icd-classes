@@ -1,24 +1,24 @@
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String key)
+    '''returns boolean\n\n
+    containsKey(final String key)\n
     '''
 def get():
-    '''public String get(final String key)
-    '''
-def getCopy():
-    '''public Map<String, String> getCopy()
-    '''
-def getImmutableMapOrNull():
-    '''public Map<String, String> getImmutableMapOrNull()
+    '''returns String\n\n
+    get(final String key)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def put():
-    '''public void put(final String key, final String value)
+    '''returns None\n\n
+    put(final String key, final String value)\n
     '''
 def remove():
-    '''public void remove(final String key)
+    '''returns None\n\n
+    remove(final String key)\n
     '''

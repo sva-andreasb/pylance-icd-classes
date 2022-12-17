@@ -17,93 +17,96 @@ HEADER_SIZE_V1 = "int  14"
 RECORD_OVERHEAD_V0 = "int  14"
 RECORD_OVERHEAD_V1 = "int  22"
 NO_TIMESTAMP = "long  -1L"
-def LegacyRecord():
-    '''public LegacyRecord(final ByteBuffer buffer)
-    public LegacyRecord(final ByteBuffer buffer, final Long wrapperRecordTimestamp, final TimestampType wrapperRecordTimestampType)
+def ():
+    '''returns LegacyRecord\n\n
+    (final ByteBuffer buffer)\n
+    (final ByteBuffer buffer, final Long wrapperRecordTimestamp, final TimestampType wrapperRecordTimestampType)\n
     '''
 def computeChecksum():
-    '''public long computeChecksum()
-    public static long computeChecksum(final byte magic, final byte attributes, final long timestamp, final byte[] key, final byte[] value)
+    '''returns long\n\n
+    computeChecksum()\n
     '''
 def checksum():
-    '''public long checksum()
+    '''returns long\n\n
+    checksum()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def wrapperRecordTimestamp():
-    '''public Long wrapperRecordTimestamp()
+    '''returns Long\n\n
+    wrapperRecordTimestamp()\n
     '''
 def wrapperRecordTimestampType():
-    '''public TimestampType wrapperRecordTimestampType()
+    '''returns TimestampType\n\n
+    wrapperRecordTimestampType()\n
     '''
 def ensureValid():
-    '''public void ensureValid()
+    '''returns None\n\n
+    ensureValid()\n
     '''
 def sizeInBytes():
-    '''public int sizeInBytes()
+    '''returns int\n\n
+    sizeInBytes()\n
     '''
 def keySize():
-    '''public int keySize()
+    '''returns int\n\n
+    keySize()\n
     '''
 def hasKey():
-    '''public boolean hasKey()
+    '''returns boolean\n\n
+    hasKey()\n
     '''
 def valueSize():
-    '''public int valueSize()
+    '''returns int\n\n
+    valueSize()\n
     '''
 def hasNullValue():
-    '''public boolean hasNullValue()
+    '''returns boolean\n\n
+    hasNullValue()\n
     '''
 def magic():
-    '''public byte magic()
+    '''returns byte\n\n
+    magic()\n
     '''
 def attributes():
-    '''public byte attributes()
+    '''returns byte\n\n
+    attributes()\n
     '''
 def timestamp():
-    '''public long timestamp()
+    '''returns long\n\n
+    timestamp()\n
     '''
 def timestampType():
-    '''public TimestampType timestampType()
-    public static TimestampType timestampType(final byte magic, final TimestampType wrapperRecordTimestampType, final byte attributes)
+    '''returns TimestampType\n\n
+    timestampType()\n
     '''
 def compressionType():
-    '''public CompressionType compressionType()
+    '''returns CompressionType\n\n
+    compressionType()\n
     '''
 def value():
-    '''public ByteBuffer value()
+    '''returns ByteBuffer\n\n
+    value()\n
     '''
 def key():
-    '''public ByteBuffer key()
+    '''returns ByteBuffer\n\n
+    key()\n
     '''
 def buffer():
-    '''public ByteBuffer buffer()
+    '''returns ByteBuffer\n\n
+    buffer()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def create():
-    '''public static LegacyRecord create(final byte magic, final long timestamp, final byte[] key, final byte[] value, final CompressionType compressionType, final TimestampType timestampType)
-    public static LegacyRecord create(final byte magic, final long timestamp, final byte[] key, final byte[] value)
-    '''
-def writeCompressedRecordHeader():
-    '''public static void writeCompressedRecordHeader(final ByteBuffer buffer, final byte magic, final int recordSize, final long timestamp, final CompressionType compressionType, final TimestampType timestampType)
-    '''
-def write():
-    '''public static long write(final DataOutputStream out, final byte magic, final long timestamp, final byte[] key, final byte[] value, final CompressionType compressionType, final TimestampType timestampType)
-    public static long write(final DataOutputStream out, final byte magic, final long timestamp, final ByteBuffer key, final ByteBuffer value, final CompressionType compressionType, final TimestampType timestampType)
-    public static void write(final DataOutputStream out, final byte magic, final long crc, final byte attributes, final long timestamp, final byte[] key, final byte[] value)
-    '''
-def recordSize():
-    '''public static int recordSize(final byte magic, final int keySize, final int valueSize)
-    '''
-def computeAttributes():
-    '''public static byte computeAttributes(final byte magic, final CompressionType type, final TimestampType timestampType)
+    '''returns int\n\n
+    hashCode()\n
     '''

@@ -1,12 +1,16 @@
-def MboValueComparator():
-    '''public MboValueComparator(final Object[][] attrs, final MboSet ms)
+def ():
+    '''returns MboValueComparator\n\n
+    (final Object[][] attrs, final MboSet ms)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''
 def equals():
-    '''public boolean equals(final Object o1, final Object o2)
+    '''returns boolean\n\n
+    equals(final Object o1, final Object o2)\n
     '''
 def compareTo():
-    '''public int compareTo(final Mbo m1, final Mbo m2, final String attr)
+    '''returns int\n\n
+    compareTo(final Mbo m1, final Mbo m2, final String attr)\n
     '''

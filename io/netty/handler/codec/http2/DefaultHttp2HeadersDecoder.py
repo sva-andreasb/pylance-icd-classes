@@ -1,23 +1,29 @@
-def DefaultHttp2HeadersDecoder():
-    '''public DefaultHttp2HeadersDecoder()
-    public DefaultHttp2HeadersDecoder(final boolean validateHeaders)
-    public DefaultHttp2HeadersDecoder(final boolean validateHeaders, final long maxHeaderListSize)
-    public DefaultHttp2HeadersDecoder(final boolean validateHeaders, final long maxHeaderListSize, @Deprecated final int initialHuffmanDecodeCapacity)
+def ():
+    '''returns DefaultHttp2HeadersDecoder\n\n
+    ()\n
+    (final boolean validateHeaders)\n
+    (final boolean validateHeaders, final long maxHeaderListSize)\n
+    (final boolean validateHeaders, final long maxHeaderListSize, @Deprecated final int initialHuffmanDecodeCapacity)\n
     '''
 def maxHeaderTableSize():
-    '''public void maxHeaderTableSize(final long max)
-    public long maxHeaderTableSize()
+    '''returns long\n\n
+    maxHeaderTableSize(final long max)\n
+    maxHeaderTableSize()\n
     '''
 def maxHeaderListSize():
-    '''public void maxHeaderListSize(final long max, final long goAwayMax)
-    public long maxHeaderListSize()
+    '''returns long\n\n
+    maxHeaderListSize(final long max, final long goAwayMax)\n
+    maxHeaderListSize()\n
     '''
 def maxHeaderListSizeGoAway():
-    '''public long maxHeaderListSizeGoAway()
+    '''returns long\n\n
+    maxHeaderListSizeGoAway()\n
     '''
 def configuration():
-    '''public Configuration configuration()
+    '''returns Configuration\n\n
+    configuration()\n
     '''
 def decodeHeaders():
-    '''public Http2Headers decodeHeaders(final int streamId, final ByteBuf headerBlock)
+    '''returns Http2Headers\n\n
+    decodeHeaders(final int streamId, final ByteBuf headerBlock)\n
     '''

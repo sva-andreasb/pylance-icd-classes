@@ -1,3 +1,4 @@
-def ListReplicasRequest():
-    '''public ListReplicasRequest(final String s)
+def ():
+    '''returns ListReplicasRequest\n\n
+    (final String s)\n
     '''

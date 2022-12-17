@@ -1,3 +1,4 @@
-def ValidationConsistencyException():
-    '''public ValidationConsistencyException(final String message)
+def ():
+    '''returns ValidationConsistencyException\n\n
+    (final String message)\n
     '''

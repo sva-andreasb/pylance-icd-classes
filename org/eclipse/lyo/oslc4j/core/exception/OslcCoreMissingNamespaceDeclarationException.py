@@ -1,6 +1,8 @@
-def OslcCoreMissingNamespaceDeclarationException():
-    '''public OslcCoreMissingNamespaceDeclarationException(final String namespace)
+def ():
+    '''returns OslcCoreMissingNamespaceDeclarationException\n\n
+    (final String namespace)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''

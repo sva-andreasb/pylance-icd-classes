@@ -1,39 +1,52 @@
-def ToXMLStream():
-    '''public ToXMLStream()
+def ():
+    '''returns ToXMLStream\n\n
+    ()\n
     '''
 def CopyFrom():
-    '''public void CopyFrom(final ToXMLStream xmlListener)
+    '''returns None\n\n
+    CopyFrom(final ToXMLStream xmlListener)\n
     '''
 def startDocumentInternal():
-    '''public void startDocumentInternal()
+    '''returns None\n\n
+    startDocumentInternal()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startPreserving():
-    '''public void startPreserving()
+    '''returns None\n\n
+    startPreserving()\n
     '''
 def endPreserving():
-    '''public void endPreserving()
+    '''returns None\n\n
+    endPreserving()\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String data)
+    '''returns None\n\n
+    processingInstruction(final String target, final String data)\n
     '''
 def entityReference():
-    '''public void entityReference(final String name)
+    '''returns None\n\n
+    entityReference(final String name)\n
     '''
 def addUniqueAttribute():
-    '''public void addUniqueAttribute(final String name, final String value, final int flags)
+    '''returns None\n\n
+    addUniqueAttribute(final String name, final String value, final int flags)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String uri, final String localName, String rawName, final String type, final String value, final boolean xslAttribute)
+    '''returns None\n\n
+    addAttribute(final String uri, final String localName, String rawName, final String type, final String value, final boolean xslAttribute)\n
     '''
 def endElement():
-    '''public void endElement(final String elemName)
+    '''returns None\n\n
+    endElement(final String elemName)\n
     '''
 def namespaceAfterStartElement():
-    '''public void namespaceAfterStartElement(final String prefix, final String uri)
+    '''returns None\n\n
+    namespaceAfterStartElement(final String prefix, final String uri)\n
     '''
 def reset():
-    '''public boolean reset()
+    '''returns boolean\n\n
+    reset()\n
     '''

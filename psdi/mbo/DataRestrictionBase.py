@@ -1,15 +1,20 @@
 def hasCondition():
-    '''public boolean hasCondition()
+    '''returns boolean\n\n
+    hasCondition()\n
     '''
 def getConditionNum():
-    '''public String getConditionNum()
+    '''returns String\n\n
+    getConditionNum()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def reEvaluate():
-    '''public boolean reEvaluate()
+    '''returns boolean\n\n
+    reEvaluate()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

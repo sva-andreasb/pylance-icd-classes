@@ -1,6 +1,8 @@
-def AbstractContentFactory():
-    '''public AbstractContentFactory(final ServiceLoader factoryLoader)
+def ():
+    '''returns AbstractContentFactory\n\n
+    (final ServiceLoader factoryLoader)\n
     '''
 def get():
-    '''public List<T> get()
+    '''returns List<T>\n\n
+    get()\n
     '''

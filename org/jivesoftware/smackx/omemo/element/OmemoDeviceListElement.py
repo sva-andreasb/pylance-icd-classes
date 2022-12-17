@@ -1,21 +1,19 @@
 DEVICE = "String  \"device\""
 ID = "String  \"id\""
 LIST = "String  \"list\""
-def OmemoDeviceListElement():
-    '''public OmemoDeviceListElement(Set<Integer> deviceIds)
+def ():
+    '''returns OmemoDeviceListElement\n\n
+    (Set<Integer> deviceIds)\n
     '''
 def getDeviceIds():
-    '''public Set<Integer> getDeviceIds()
+    '''returns Set<Integer>\n\n
+    getDeviceIds()\n
     '''
 def copyDeviceIds():
-    '''public Set<Integer> copyDeviceIds()
+    '''returns Set<Integer>\n\n
+    copyDeviceIds()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    '''
-def toXML():
-    '''public final XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns String\n\n
+    getElementName()\n
     '''

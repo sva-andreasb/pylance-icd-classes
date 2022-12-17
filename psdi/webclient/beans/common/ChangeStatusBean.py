@@ -1,12 +1,12 @@
-def ChangeStatusBean():
-    '''public ChangeStatusBean()
+def ():
+    '''returns ChangeStatusBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
-    '''
-def getList():
-    '''public synchronized MboSetRemote getList(final int nRow, final String attribute)
+    '''returns int\n\n
+    execute()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

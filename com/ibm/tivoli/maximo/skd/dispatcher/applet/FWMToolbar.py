@@ -1,27 +1,31 @@
-def FWMToolbar():
-    '''public FWMToolbar()
-    public FWMToolbar(final int orientation)
-    public FWMToolbar(final String name, final int orientation)
-    public FWMToolbar(final String name)
+def ():
+    '''returns FWMToolbar\n\n
+    ()\n
+    (final int orientation)\n
+    (final String name, final int orientation)\n
+    (final String name)\n
     '''
 def startProgressBar():
-    '''public void startProgressBar()
+    '''returns None\n\n
+    startProgressBar()\n
     '''
 def stopProgressBar():
-    '''public void stopProgressBar()
+    '''returns None\n\n
+    stopProgressBar()\n
     '''
 def isLockToolbar():
-    '''public boolean isLockToolbar()
+    '''returns boolean\n\n
+    isLockToolbar()\n
     '''
 def lockToolbar():
-    '''public void lockToolbar()
+    '''returns None\n\n
+    lockToolbar()\n
     '''
 def unLockToolbar():
-    '''public void unLockToolbar()
-    '''
-def setToolTip():
-    '''public static void setToolTip(final JComponent comp, final String text)
+    '''returns None\n\n
+    unLockToolbar()\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean visible)
+    '''returns None\n\n
+    setVisible(final boolean visible)\n
     '''

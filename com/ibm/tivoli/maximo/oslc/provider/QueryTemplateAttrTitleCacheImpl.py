@@ -1,16 +1,21 @@
-def QueryTemplateAttrTitleCacheImpl():
-    '''public QueryTemplateAttrTitleCacheImpl()
+def ():
+    '''returns QueryTemplateAttrTitleCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getTitleForOSTemplateAttr():
-    '''public String getTitleForOSTemplateAttr(final String osName, final String templateName, String attrName, final UserInfo userInfo)
+    '''returns String\n\n
+    getTitleForOSTemplateAttr(final String osName, final String templateName, String attrName, final UserInfo userInfo)\n
     '''

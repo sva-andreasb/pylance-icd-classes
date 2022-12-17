@@ -4,74 +4,92 @@ JAR_XMI_BINDINGS_URI = "String  \"META-INF/ibm-ejb-jar-bnd.xmi\""
 APP_XML_BINDINGS_URI = "String  \"META-INF/ibm-application-bnd.xml\""
 APP_XMI_BINDINGS_URI = "String  \"META-INF/ibm-application-bnd.xmi\""
 WAR_XMI_BINDINGS_URI = "String  \"WEB-INF/ibm-web-bnd.xmi\""
-def ArchiveDeploymentInfo():
-    '''public ArchiveDeploymentInfo(final EARFile ear)
-    public ArchiveDeploymentInfo(final EARFile ear, final Hashtable prefs)
+def ():
+    '''returns ArchiveDeploymentInfo\n\n
+    (final EARFile ear)\n
+    (final EARFile ear, final Hashtable prefs)\n
     '''
 def getModuleForDD():
-    '''public Module getModuleForDD(final EObject obj)
+    '''returns Module\n\n
+    getModuleForDD(final EObject obj)\n
     '''
 def getModuleFileForDD():
-    '''public ModuleFile getModuleFileForDD(final EObject obj)
+    '''returns ModuleFile\n\n
+    getModuleFileForDD(final EObject obj)\n
     '''
 def close():
-    '''public void close(final boolean bSave)
+    '''returns None\n\n
+    close(final boolean bSave)\n
     '''
 def getSavedResults():
-    '''public Hashtable getSavedResults()
+    '''returns Hashtable\n\n
+    getSavedResults()\n
     '''
 def createDefaultBindings():
-    '''public void createDefaultBindings(final Preferences prefs)
+    '''returns None\n\n
+    createDefaultBindings(final Preferences prefs)\n
     '''
 def getSecurityPolicyData():
-    '''public String getSecurityPolicyData(final ResourceBundle resBundle)
+    '''returns String\n\n
+    getSecurityPolicyData(final ResourceBundle resBundle)\n
     '''
 def getSecurityPolicyWarning():
-    '''public String getSecurityPolicyWarning()
+    '''returns String\n\n
+    getSecurityPolicyWarning()\n
     '''
 def saveAsFile():
-    '''public void saveAsFile(final String moduleUri, final String fileUriInModule, final InputStream in)
-    public static String saveAsFile(final EARFile archive, final String moduleUri, final String fileUriInModule, final InputStream in)
+    '''returns None\n\n
+    saveAsFile(final String moduleUri, final String fileUriInModule, final InputStream in)\n
     '''
 def getAppDisplayName():
-    '''public String getAppDisplayName()
+    '''returns String\n\n
+    getAppDisplayName()\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def getResource():
-    '''public Resource getResource(final String modUri, final String uri, final String resURI)
+    '''returns Resource\n\n
+    getResource(final String modUri, final String uri, final String resURI)\n
     '''
 def getAppDeploymentResource():
-    '''public Resource getAppDeploymentResource(final boolean processEmbeddedCfg)
+    '''returns Resource\n\n
+    getAppDeploymentResource(final boolean processEmbeddedCfg)\n
     '''
 def getAppDeploymentObject():
-    '''public ApplicationDeployment getAppDeploymentObject(final boolean processEmbeddedCfg)
+    '''returns ApplicationDeployment\n\n
+    getAppDeploymentObject(final boolean processEmbeddedCfg)\n
     '''
 def checkIfEarDeployed():
-    '''public boolean checkIfEarDeployed()
+    '''returns boolean\n\n
+    checkIfEarDeployed()\n
     '''
 def checkIfEnhancedEar():
-    '''public boolean checkIfEnhancedEar()
+    '''returns boolean\n\n
+    checkIfEnhancedEar()\n
     '''
 def isStandaloneDeployment():
-    '''public boolean isStandaloneDeployment()
+    '''returns boolean\n\n
+    isStandaloneDeployment()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream(final String moduleURI, final String fileURI)
+    '''returns InputStream\n\n
+    getInputStream(final String moduleURI, final String fileURI)\n
     '''
 def containsURI():
-    '''public boolean containsURI(final String moduleURI, final String fileURI)
+    '''returns boolean\n\n
+    containsURI(final String moduleURI, final String fileURI)\n
     '''
 def loadClass():
-    '''public Class loadClass(final EObject obj, final String className, final String type)
-    '''
-def loadJCAProps():
-    '''public static Hashtable loadJCAProps(final org.eclipse.jst.j2ee.commonarchivecore.internal.EARFile earFile)
+    '''returns Class\n\n
+    loadClass(final EObject obj, final String className, final String type)\n
     '''
 def getEarManifest():
-    '''public ArchiveManifest getEarManifest()
+    '''returns ArchiveManifest\n\n
+    getEarManifest()\n
     '''
 def getEnhancedEarDeploymentResource():
-    '''public Resource getEnhancedEarDeploymentResource(final String resourceName)
+    '''returns Resource\n\n
+    getEnhancedEarDeploymentResource(final String resourceName)\n
     '''

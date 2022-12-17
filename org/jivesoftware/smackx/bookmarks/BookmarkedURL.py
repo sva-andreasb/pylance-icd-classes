@@ -1,18 +1,24 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def isRss():
-    '''public boolean isRss()
+    '''returns boolean\n\n
+    isRss()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isShared():
-    '''public boolean isShared()
+    '''returns boolean\n\n
+    isShared()\n
     '''

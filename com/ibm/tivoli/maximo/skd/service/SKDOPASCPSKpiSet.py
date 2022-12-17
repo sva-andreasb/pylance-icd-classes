@@ -1,3 +1,4 @@
-def SKDOPASCPSKpiSet():
-    '''public SKDOPASCPSKpiSet(final MboServerInterface ms)
+def ():
+    '''returns SKDOPASCPSKpiSet\n\n
+    (final MboServerInterface ms)\n
     '''

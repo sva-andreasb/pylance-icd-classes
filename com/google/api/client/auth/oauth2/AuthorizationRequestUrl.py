@@ -1,39 +1,32 @@
-def AuthorizationRequestUrl():
-    '''public AuthorizationRequestUrl(final String authorizationServerEncodedUrl, final String clientId, final Collection<String> responseTypes)
-    '''
-def getResponseTypes():
-    '''public final String getResponseTypes()
+def ():
+    '''returns AuthorizationRequestUrl\n\n
+    (final String authorizationServerEncodedUrl, final String clientId, final Collection<String> responseTypes)\n
     '''
 def setResponseTypes():
-    '''public AuthorizationRequestUrl setResponseTypes(final Collection<String> responseTypes)
-    '''
-def getRedirectUri():
-    '''public final String getRedirectUri()
+    '''returns AuthorizationRequestUrl\n\n
+    setResponseTypes(final Collection<String> responseTypes)\n
     '''
 def setRedirectUri():
-    '''public AuthorizationRequestUrl setRedirectUri(final String redirectUri)
-    '''
-def getScopes():
-    '''public final String getScopes()
+    '''returns AuthorizationRequestUrl\n\n
+    setRedirectUri(final String redirectUri)\n
     '''
 def setScopes():
-    '''public AuthorizationRequestUrl setScopes(final Collection<String> scopes)
-    '''
-def getClientId():
-    '''public final String getClientId()
+    '''returns AuthorizationRequestUrl\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setClientId():
-    '''public AuthorizationRequestUrl setClientId(final String clientId)
-    '''
-def getState():
-    '''public final String getState()
+    '''returns AuthorizationRequestUrl\n\n
+    setClientId(final String clientId)\n
     '''
 def setState():
-    '''public AuthorizationRequestUrl setState(final String state)
+    '''returns AuthorizationRequestUrl\n\n
+    setState(final String state)\n
     '''
 def set():
-    '''public AuthorizationRequestUrl set(final String fieldName, final Object value)
+    '''returns AuthorizationRequestUrl\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public AuthorizationRequestUrl clone()
+    '''returns AuthorizationRequestUrl\n\n
+    clone()\n
     '''

@@ -1,3 +1,4 @@
-def LiveChatSet():
-    '''public LiveChatSet(final MboServerInterface ms)
+def ():
+    '''returns LiveChatSet\n\n
+    (final MboServerInterface ms)\n
     '''

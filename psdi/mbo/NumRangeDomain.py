@@ -1,18 +1,24 @@
-def NumRangeDomain():
-    '''public NumRangeDomain(final MboValue mbv)
+def ():
+    '''returns NumRangeDomain\n\n
+    (final MboValue mbv)\n
     '''
 def chooseActualDomainValues():
-    '''public void chooseActualDomainValues()
+    '''returns None\n\n
+    chooseActualDomainValues()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def setErrorMessage():
-    '''public void setErrorMessage(final String eg, final String ek)
+    '''returns None\n\n
+    setErrorMessage(final String eg, final String ek)\n
     '''
 def setRange():
-    '''public void setRange(final double[][] range)
+    '''returns None\n\n
+    setRange(final double[][] range)\n
     '''
 def getRange():
-    '''public double[][] getRange()
+    '''returns double[][]\n\n
+    getRange()\n
     '''

@@ -1,24 +1,32 @@
-def PlusPBSServ():
-    '''public PlusPBSServ(final MboSet set)
+def ():
+    '''returns PlusPBSServ\n\n
+    (final MboSet set)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboSetRemote)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboSetRemote)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def hasServiceInPriceBook():
-    '''public boolean hasServiceInPriceBook(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    hasServiceInPriceBook(final MboRemote mboRemote)\n
     '''
 def getPriceBook():
-    '''public MboRemote getPriceBook()
+    '''returns MboRemote\n\n
+    getPriceBook()\n
     '''
 def setPricesToDefault():
-    '''public void setPricesToDefault()
+    '''returns None\n\n
+    setPricesToDefault()\n
     '''

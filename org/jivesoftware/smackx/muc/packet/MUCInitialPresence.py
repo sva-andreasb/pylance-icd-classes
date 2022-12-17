@@ -1,63 +1,71 @@
 ELEMENT = "String  \"history\""
 NAMESPACE = "String  \"http://jabber.org/protocol/muc\""
-def MUCInitialPresence():
-    '''public MUCInitialPresence()
-    public MUCInitialPresence(final String password, final int maxChars, final int maxStanzas, final int seconds, final Date since)
+def ():
+    '''returns History\n\n
+    ()\n
+    (final String password, final int maxChars, final int maxStanzas, final int seconds, final Date since)\n
+    ()\n
+    (final int maxChars, final int maxStanzas, final int seconds, final Date since)\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getHistory():
-    '''public History getHistory()
+    '''returns History\n\n
+    getHistory()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setHistory():
-    '''public void setHistory(final History history)
+    '''returns None\n\n
+    setHistory(final History history)\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
-    '''
-def getFrom():
-    '''public static MUCInitialPresence getFrom(final Stanza packet)
-    '''
-def from():
-    '''public static MUCInitialPresence from(final Stanza packet)
-    '''
-def History():
-    '''public History()
-    public History(final int maxChars, final int maxStanzas, final int seconds, final Date since)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def getMaxChars():
-    '''public int getMaxChars()
+    '''returns int\n\n
+    getMaxChars()\n
     '''
 def getMaxStanzas():
-    '''public int getMaxStanzas()
+    '''returns int\n\n
+    getMaxStanzas()\n
     '''
 def getSeconds():
-    '''public int getSeconds()
+    '''returns int\n\n
+    getSeconds()\n
     '''
 def getSince():
-    '''public Date getSince()
+    '''returns Date\n\n
+    getSince()\n
     '''
 def setMaxChars():
-    '''public void setMaxChars(final int maxChars)
+    '''returns None\n\n
+    setMaxChars(final int maxChars)\n
     '''
 def setMaxStanzas():
-    '''public void setMaxStanzas(final int maxStanzas)
+    '''returns None\n\n
+    setMaxStanzas(final int maxStanzas)\n
     '''
 def setSeconds():
-    '''public void setSeconds(final int seconds)
+    '''returns None\n\n
+    setSeconds(final int seconds)\n
     '''
 def setSince():
-    '''public void setSince(final Date since)
+    '''returns None\n\n
+    setSince(final Date since)\n
     '''

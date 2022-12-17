@@ -1,21 +1,28 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public CancelKeyDeletionResult withKeyId(final String keyId)
+    '''returns CancelKeyDeletionResult\n\n
+    withKeyId(final String keyId)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public CancelKeyDeletionResult clone()
+    '''returns CancelKeyDeletionResult\n\n
+    clone()\n
     '''

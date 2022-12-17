@@ -1,31 +1,21 @@
-def AgentOutputHotList():
-    '''public AgentOutputHotList()
-    public AgentOutputHotList(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final BooleanProp allowAnnotations, final DateTimeProp expirationTime)
+def ():
+    '''returns AgentOutputHotList\n\n
+    ()\n
+    (final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final BooleanProp allowAnnotations, final DateTimeProp expirationTime)\n
     '''
 def getAllowAnnotations():
-    '''public BooleanProp getAllowAnnotations()
+    '''returns BooleanProp\n\n
+    getAllowAnnotations()\n
     '''
 def setAllowAnnotations():
-    '''public void setAllowAnnotations(final BooleanProp allowAnnotations)
+    '''returns None\n\n
+    setAllowAnnotations(final BooleanProp allowAnnotations)\n
     '''
 def getExpirationTime():
-    '''public DateTimeProp getExpirationTime()
+    '''returns DateTimeProp\n\n
+    getExpirationTime()\n
     '''
 def setExpirationTime():
-    '''public void setExpirationTime(final DateTimeProp expirationTime)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setExpirationTime(final DateTimeProp expirationTime)\n
     '''

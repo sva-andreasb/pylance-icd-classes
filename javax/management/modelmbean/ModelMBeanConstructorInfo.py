@@ -1,18 +1,23 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDescriptor():
-    '''public Descriptor getDescriptor()
+    '''returns Descriptor\n\n
+    getDescriptor()\n
     '''
 def setDescriptor():
-    '''public void setDescriptor(final Descriptor descriptor)
+    '''returns None\n\n
+    setDescriptor(final Descriptor descriptor)\n
     '''
-def ModelMBeanConstructorInfo():
-    '''public ModelMBeanConstructorInfo(final String s, final Constructor constructor)
-    public ModelMBeanConstructorInfo(final String s, final Constructor constructor, final Descriptor descriptor)
-    public ModelMBeanConstructorInfo(final String s, final String s2, final MBeanParameterInfo[] array)
-    public ModelMBeanConstructorInfo(final String s, final String s2, final MBeanParameterInfo[] array, final Descriptor descriptor)
+def ():
+    '''returns ModelMBeanConstructorInfo\n\n
+    (final String s, final Constructor constructor)\n
+    (final String s, final Constructor constructor, final Descriptor descriptor)\n
+    (final String s, final String s2, final MBeanParameterInfo[] array)\n
+    (final String s, final String s2, final MBeanParameterInfo[] array, final Descriptor descriptor)\n
     '''

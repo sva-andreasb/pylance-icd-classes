@@ -1,3 +1,4 @@
-def TransactionalIdAuthorizationException():
-    '''public TransactionalIdAuthorizationException(final String message)
+def ():
+    '''returns TransactionalIdAuthorizationException\n\n
+    (final String message)\n
     '''

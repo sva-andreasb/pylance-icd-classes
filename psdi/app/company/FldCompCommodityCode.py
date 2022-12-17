@@ -1,3 +1,4 @@
-def FldCompCommodityCode():
-    '''public FldCompCommodityCode(final MboValue mbv)
+def ():
+    '''returns FldCompCommodityCode\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,6 +1,8 @@
-def SimpleTripleSorter():
-    '''public SimpleTripleSorter()
+def ():
+    '''returns SimpleTripleSorter\n\n
+    ()\n
     '''
 def sort():
-    '''public Triple[] sort(final Triple[] ts)
+    '''returns Triple[]\n\n
+    sort(final Triple[] ts)\n
     '''

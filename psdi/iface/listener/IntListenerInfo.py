@@ -1,30 +1,40 @@
-def IntListenerInfo():
-    '''public IntListenerInfo(final String objectName, final String description, final String listenerClass, final String listenerEvent, final String ifaceName, final String osName, final int ins, final int upd, final int del)
+def ():
+    '''returns IntListenerInfo\n\n
+    (final String objectName, final String description, final String listenerClass, final String listenerEvent, final String ifaceName, final String osName, final int ins, final int upd, final int del)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getListenerClass():
-    '''public String getListenerClass()
+    '''returns String\n\n
+    getListenerClass()\n
     '''
 def getListenerEvent():
-    '''public String getListenerEvent()
+    '''returns String\n\n
+    getListenerEvent()\n
     '''
 def getIfaceName():
-    '''public String getIfaceName()
+    '''returns String\n\n
+    getIfaceName()\n
     '''
 def getOSName():
-    '''public String getOSName()
+    '''returns String\n\n
+    getOSName()\n
     '''
 def isInsert():
-    '''public boolean isInsert()
+    '''returns boolean\n\n
+    isInsert()\n
     '''
 def isUpdate():
-    '''public boolean isUpdate()
+    '''returns boolean\n\n
+    isUpdate()\n
     '''
 def isDelete():
-    '''public boolean isDelete()
+    '''returns boolean\n\n
+    isDelete()\n
     '''

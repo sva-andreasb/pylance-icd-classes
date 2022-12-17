@@ -1,3 +1,4 @@
 def parse():
-    '''public CapsExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''returns CapsExtension\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

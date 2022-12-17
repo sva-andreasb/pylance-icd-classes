@@ -1,77 +1,98 @@
-def LDAPSchema():
-    '''public LDAPSchema()
-    public LDAPSchema(final LDAPEntry ldapEntry)
+def ():
+    '''returns LDAPSchema\n\n
+    ()\n
+    (final LDAPEntry ldapEntry)\n
     '''
 def getAttributeSchema():
-    '''public LDAPAttributeSchema getAttributeSchema(final String s)
+    '''returns LDAPAttributeSchema\n\n
+    getAttributeSchema(final String s)\n
     '''
 def getDITContentRuleSchema():
-    '''public LDAPDITContentRuleSchema getDITContentRuleSchema(final String s)
+    '''returns LDAPDITContentRuleSchema\n\n
+    getDITContentRuleSchema(final String s)\n
     '''
 def getDITStructureRuleSchema():
-    '''public LDAPDITStructureRuleSchema getDITStructureRuleSchema(final String s)
-    public LDAPDITStructureRuleSchema getDITStructureRuleSchema(final int value)
+    '''returns LDAPDITStructureRuleSchema\n\n
+    getDITStructureRuleSchema(final String s)\n
+    getDITStructureRuleSchema(final int value)\n
     '''
 def getMatchingRuleSchema():
-    '''public LDAPMatchingRuleSchema getMatchingRuleSchema(final String s)
+    '''returns LDAPMatchingRuleSchema\n\n
+    getMatchingRuleSchema(final String s)\n
     '''
 def getMatchingRuleUseSchema():
-    '''public LDAPMatchingRuleUseSchema getMatchingRuleUseSchema(final String s)
+    '''returns LDAPMatchingRuleUseSchema\n\n
+    getMatchingRuleUseSchema(final String s)\n
     '''
 def getNameFormSchema():
-    '''public LDAPNameFormSchema getNameFormSchema(final String s)
+    '''returns LDAPNameFormSchema\n\n
+    getNameFormSchema(final String s)\n
     '''
 def getObjectClassSchema():
-    '''public LDAPObjectClassSchema getObjectClassSchema(final String s)
+    '''returns LDAPObjectClassSchema\n\n
+    getObjectClassSchema(final String s)\n
     '''
 def getSyntaxSchema():
-    '''public LDAPSyntaxSchema getSyntaxSchema(final String s)
+    '''returns LDAPSyntaxSchema\n\n
+    getSyntaxSchema(final String s)\n
     '''
 def getAttributeSchemas():
-    '''public Enumeration getAttributeSchemas()
+    '''returns Enumeration\n\n
+    getAttributeSchemas()\n
     '''
 def getDITContentRuleSchemas():
-    '''public Enumeration getDITContentRuleSchemas()
+    '''returns Enumeration\n\n
+    getDITContentRuleSchemas()\n
     '''
 def getDITStructureRuleSchemas():
-    '''public Enumeration getDITStructureRuleSchemas()
+    '''returns Enumeration\n\n
+    getDITStructureRuleSchemas()\n
     '''
 def getMatchingRuleSchemas():
-    '''public Enumeration getMatchingRuleSchemas()
+    '''returns Enumeration\n\n
+    getMatchingRuleSchemas()\n
     '''
 def getMatchingRuleUseSchemas():
-    '''public Enumeration getMatchingRuleUseSchemas()
+    '''returns Enumeration\n\n
+    getMatchingRuleUseSchemas()\n
     '''
 def getNameFormSchemas():
-    '''public Enumeration getNameFormSchemas()
+    '''returns Enumeration\n\n
+    getNameFormSchemas()\n
     '''
 def getObjectClassSchemas():
-    '''public Enumeration getObjectClassSchemas()
+    '''returns Enumeration\n\n
+    getObjectClassSchemas()\n
     '''
 def getSyntaxSchemas():
-    '''public Enumeration getSyntaxSchemas()
+    '''returns Enumeration\n\n
+    getSyntaxSchemas()\n
     '''
 def getAttributeNames():
-    '''public Enumeration getAttributeNames()
+    '''returns Enumeration\n\n
+    getAttributeNames()\n
     '''
 def getDITContentRuleNames():
-    '''public Enumeration getDITContentRuleNames()
+    '''returns Enumeration\n\n
+    getDITContentRuleNames()\n
     '''
 def getDITStructureRuleNames():
-    '''public Enumeration getDITStructureRuleNames()
+    '''returns Enumeration\n\n
+    getDITStructureRuleNames()\n
     '''
 def getMatchingRuleNames():
-    '''public Enumeration getMatchingRuleNames()
+    '''returns Enumeration\n\n
+    getMatchingRuleNames()\n
     '''
 def getMatchingRuleUseNames():
-    '''public Enumeration getMatchingRuleUseNames()
+    '''returns Enumeration\n\n
+    getMatchingRuleUseNames()\n
     '''
 def getNameFormNames():
-    '''public Enumeration getNameFormNames()
+    '''returns Enumeration\n\n
+    getNameFormNames()\n
     '''
 def getObjectClassNames():
-    '''public Enumeration getObjectClassNames()
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns Enumeration\n\n
+    getObjectClassNames()\n
     '''

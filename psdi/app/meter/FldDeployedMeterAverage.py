@@ -1,6 +1,8 @@
-def FldDeployedMeterAverage():
-    '''public FldDeployedMeterAverage(final MboValue mbv)
+def ():
+    '''returns FldDeployedMeterAverage\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

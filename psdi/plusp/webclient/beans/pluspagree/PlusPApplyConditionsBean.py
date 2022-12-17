@@ -1,15 +1,20 @@
 def newRow():
-    '''public int newRow()
+    '''returns int\n\n
+    newRow()\n
     '''
 def newGroup():
-    '''public int newGroup()
+    '''returns int\n\n
+    newGroup()\n
     '''
 def newSubGroup():
-    '''public int newSubGroup()
+    '''returns int\n\n
+    newSubGroup()\n
     '''
 def pluspaddrow():
-    '''public int pluspaddrow()
+    '''returns int\n\n
+    pluspaddrow()\n
     '''
 def toggletablestate():
-    '''public int toggletablestate()
+    '''returns int\n\n
+    toggletablestate()\n
     '''

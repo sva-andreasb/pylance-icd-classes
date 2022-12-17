@@ -1,3 +1,4 @@
 def copytonewrow():
-    '''public int copytonewrow()
+    '''returns int\n\n
+    copytonewrow()\n
     '''

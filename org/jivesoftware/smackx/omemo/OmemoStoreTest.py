@@ -1,12 +1,16 @@
-def OmemoStoreTest():
-    '''public OmemoStoreTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns OmemoStoreTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def before():
-    '''public void before()
+    '''returns None\n\n
+    before()\n
     '''
 def storeTest():
-    '''public void storeTest()
+    '''returns None\n\n
+    storeTest()\n
     '''
 def after():
-    '''public void after()
+    '''returns None\n\n
+    after()\n
     '''

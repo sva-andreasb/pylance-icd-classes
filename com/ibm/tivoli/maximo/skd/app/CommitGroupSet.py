@@ -1,3 +1,4 @@
-def CommitGroupSet():
-    '''public CommitGroupSet(final MboServerInterface ms)
+def ():
+    '''returns CommitGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''

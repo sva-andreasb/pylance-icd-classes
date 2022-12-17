@@ -1,396 +1,527 @@
-def PlusCDSPointTO():
-    '''public PlusCDSPointTO()
+def ():
+    '''returns PlusCDSPointTO\n\n
+    ()\n
     '''
 def getCALPOINT():
-    '''public Boolean getCALPOINT()
+    '''returns Boolean\n\n
+    getCALPOINT()\n
     '''
 def setCALPOINT():
-    '''public void setCALPOINT(final Boolean calpoint)
+    '''returns None\n\n
+    setCALPOINT(final Boolean calpoint)\n
     '''
 def getCALDYNAMIC():
-    '''public Boolean getCALDYNAMIC()
+    '''returns Boolean\n\n
+    getCALDYNAMIC()\n
     '''
 def setCALDYNAMIC():
-    '''public void setCALDYNAMIC(final Boolean calpoint)
+    '''returns None\n\n
+    setCALDYNAMIC(final Boolean calpoint)\n
     '''
 def getCALFUNCTION():
-    '''public Boolean getCALFUNCTION()
+    '''returns Boolean\n\n
+    getCALFUNCTION()\n
     '''
 def setCALFUNCTION():
-    '''public void setCALFUNCTION(final Boolean calpoint)
+    '''returns None\n\n
+    setCALFUNCTION(final Boolean calpoint)\n
     '''
 def setValue():
-    '''public void setValue(final String key, final Object object)
-    public void setValue(final String keyName, final Object object, final boolean markField)
-    public void setValue(final String key, final Object object, final long validationFlag)
-    public void setValue(final String keyName, final Object object, final long validationFlag, final boolean markField)
+    '''returns None\n\n
+    setValue(final String key, final Object object)\n
+    setValue(final String keyName, final Object object, final boolean markField)\n
+    setValue(final String key, final Object object, final long validationFlag)\n
+    setValue(final String keyName, final Object object, final long validationFlag, final boolean markField)\n
     '''
 def getBoolean():
-    '''public Boolean getBoolean(final String key)
+    '''returns Boolean\n\n
+    getBoolean(final String key)\n
     '''
 def getChangedFields():
-    '''public Set getChangedFields()
+    '''returns Set\n\n
+    getChangedFields()\n
     '''
 def getDate():
-    '''public Date getDate(final String key)
+    '''returns Date\n\n
+    getDate(final String key)\n
     '''
 def getDIRECTION():
-    '''public String getDIRECTION()
+    '''returns String\n\n
+    getDIRECTION()\n
     '''
 def getDSPLANNUM():
-    '''public String getDSPLANNUM()
+    '''returns String\n\n
+    getDSPLANNUM()\n
     '''
 def getHASLD():
-    '''public Boolean getHASLD()
+    '''returns Boolean\n\n
+    getHASLD()\n
     '''
 def getINPUTPERCENT():
-    '''public String getINPUTPERCENT()
+    '''returns String\n\n
+    getINPUTPERCENT()\n
     '''
 def getINPUTVALUE():
-    '''public String getINPUTVALUE()
+    '''returns String\n\n
+    getINPUTVALUE()\n
     '''
 def getINPUTVALUE_NP():
-    '''public String getINPUTVALUE_NP()
+    '''returns String\n\n
+    getINPUTVALUE_NP()\n
     '''
 def getINSTRCALRANGEEUA():
-    '''public String getINSTRCALRANGEEUA()
+    '''returns String\n\n
+    getINSTRCALRANGEEUA()\n
     '''
 def getINSTRCALRANGEEUD():
-    '''public String getINSTRCALRANGEEUD()
+    '''returns String\n\n
+    getINSTRCALRANGEEUD()\n
     '''
 def getINSTROUTRANGEEU():
-    '''public String getINSTROUTRANGEEU()
+    '''returns String\n\n
+    getINSTROUTRANGEEU()\n
     '''
 def getINSTRSEQ():
-    '''public String getINSTRSEQ()
+    '''returns String\n\n
+    getINSTRSEQ()\n
     '''
 def getINSTRUMENTDESC():
-    '''public String getINSTRUMENTDESC()
+    '''returns String\n\n
+    getINSTRUMENTDESC()\n
     '''
 def getINSTRUMENTFUNCTION():
-    '''public Integer getINSTRUMENTFUNCTION()
+    '''returns Integer\n\n
+    getINSTRUMENTFUNCTION()\n
     '''
 def getInt():
-    '''public Integer getInt(final String key)
+    '''returns Integer\n\n
+    getInt(final String key)\n
     '''
 def getLANGCODE():
-    '''public String getLANGCODE()
+    '''returns String\n\n
+    getLANGCODE()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getLong():
-    '''public Long getLong(final String key)
+    '''returns Long\n\n
+    getLong(final String key)\n
     '''
 def getObject():
-    '''public Object getObject(final String key)
+    '''returns Object\n\n
+    getObject(final String key)\n
     '''
 def getORGID():
-    '''public String getORGID()
+    '''returns String\n\n
+    getORGID()\n
     '''
 def getOUTPUTVALUE():
-    '''public String getOUTPUTVALUE()
+    '''returns String\n\n
+    getOUTPUTVALUE()\n
     '''
 def getOUTPUTVALUE_NP():
-    '''public String getOUTPUTVALUE_NP()
+    '''returns String\n\n
+    getOUTPUTVALUE_NP()\n
     '''
 def getOUTPUTVALUE_ROUNDING():
-    '''public String getOUTPUTVALUE_ROUNDING()
+    '''returns String\n\n
+    getOUTPUTVALUE_ROUNDING()\n
     '''
 def getPLANTYPE():
-    '''public String getPLANTYPE()
+    '''returns String\n\n
+    getPLANTYPE()\n
     '''
 def getPlusCDSInstrTO():
-    '''public PlusCDSInstrTO getPlusCDSInstrTO()
+    '''returns PlusCDSInstrTO\n\n
+    getPlusCDSInstrTO()\n
     '''
 def getPLUSCDSPOINTID():
-    '''public Integer getPLUSCDSPOINTID()
+    '''returns Integer\n\n
+    getPLUSCDSPOINTID()\n
     '''
 def getPlusCDSPointTO():
-    '''public PlusCDSPointTO getPlusCDSPointTO()
+    '''returns PlusCDSPointTO\n\n
+    getPlusCDSPointTO()\n
     '''
 def getPlusCDSTO():
-    '''public PlusCDSTO getPlusCDSTO()
+    '''returns PlusCDSTO\n\n
+    getPlusCDSTO()\n
     '''
 def getPOINT():
-    '''public Integer getPOINT()
+    '''returns Integer\n\n
+    getPOINT()\n
     '''
 def getPOINTDESCRIPTION():
-    '''public String getPOINTDESCRIPTION()
+    '''returns String\n\n
+    getPOINTDESCRIPTION()\n
     '''
 def getPOINTDESCRIPTION_LONGDESCRIPTION():
-    '''public String getPOINTDESCRIPTION_LONGDESCRIPTION()
+    '''returns String\n\n
+    getPOINTDESCRIPTION_LONGDESCRIPTION()\n
     '''
 def getREVISIONNUM():
-    '''public Integer getREVISIONNUM()
+    '''returns Integer\n\n
+    getREVISIONNUM()\n
     '''
 def getRON1LOWER():
-    '''public String getRON1LOWER()
+    '''returns String\n\n
+    getRON1LOWER()\n
     '''
 def getRON1LOWER_NP():
-    '''public String getRON1LOWER_NP()
+    '''returns String\n\n
+    getRON1LOWER_NP()\n
     '''
 def getRON1TYPE():
-    '''public String getRON1TYPE()
+    '''returns String\n\n
+    getRON1TYPE()\n
     '''
 def getRON1UPPER():
-    '''public String getRON1UPPER()
+    '''returns String\n\n
+    getRON1UPPER()\n
     '''
 def getRON1UPPER_NP():
-    '''public String getRON1UPPER_NP()
+    '''returns String\n\n
+    getRON1UPPER_NP()\n
     '''
 def getSETPOINTACTION():
-    '''public String getSETPOINTACTION()
+    '''returns String\n\n
+    getSETPOINTACTION()\n
     '''
 def getSETPOINTVALUE():
-    '''public String getSETPOINTVALUE()
+    '''returns String\n\n
+    getSETPOINTVALUE()\n
     '''
 def getSITEID():
-    '''public String getSITEID()
+    '''returns String\n\n
+    getSITEID()\n
     '''
 def getString():
-    '''public String getString(final String key)
+    '''returns String\n\n
+    getString(final String key)\n
     '''
 def getTOL1LOWER():
-    '''public String getTOL1LOWER()
+    '''returns String\n\n
+    getTOL1LOWER()\n
     '''
 def getTOL1LOWER_NP():
-    '''public String getTOL1LOWER_NP()
+    '''returns String\n\n
+    getTOL1LOWER_NP()\n
     '''
 def getTOL1UPPER():
-    '''public String getTOL1UPPER()
+    '''returns String\n\n
+    getTOL1UPPER()\n
     '''
 def getTOL1UPPER_NP():
-    '''public String getTOL1UPPER_NP()
+    '''returns String\n\n
+    getTOL1UPPER_NP()\n
     '''
 def getTOL2LOWER():
-    '''public String getTOL2LOWER()
+    '''returns String\n\n
+    getTOL2LOWER()\n
     '''
 def getTOL2LOWER_NP():
-    '''public String getTOL2LOWER_NP()
+    '''returns String\n\n
+    getTOL2LOWER_NP()\n
     '''
 def getTOL2UPPER():
-    '''public String getTOL2UPPER()
+    '''returns String\n\n
+    getTOL2UPPER()\n
     '''
 def getTOL2UPPER_NP():
-    '''public String getTOL2UPPER_NP()
+    '''returns String\n\n
+    getTOL2UPPER_NP()\n
     '''
 def getTOL3LOWER():
-    '''public String getTOL3LOWER()
+    '''returns String\n\n
+    getTOL3LOWER()\n
     '''
 def getTOL3LOWER_NP():
-    '''public String getTOL3LOWER_NP()
+    '''returns String\n\n
+    getTOL3LOWER_NP()\n
     '''
 def getTOL3UPPER():
-    '''public String getTOL3UPPER()
+    '''returns String\n\n
+    getTOL3UPPER()\n
     '''
 def getTOL3UPPER_NP():
-    '''public String getTOL3UPPER_NP()
+    '''returns String\n\n
+    getTOL3UPPER_NP()\n
     '''
 def getTOL4LOWER():
-    '''public String getTOL4LOWER()
+    '''returns String\n\n
+    getTOL4LOWER()\n
     '''
 def getTOL4LOWER_NP():
-    '''public String getTOL4LOWER_NP()
+    '''returns String\n\n
+    getTOL4LOWER_NP()\n
     '''
 def getTOL4UPPER():
-    '''public String getTOL4UPPER()
+    '''returns String\n\n
+    getTOL4UPPER()\n
     '''
 def getTOL4UPPER_NP():
-    '''public String getTOL4UPPER_NP()
+    '''returns String\n\n
+    getTOL4UPPER_NP()\n
     '''
 def getTOLERANCEEU():
-    '''public String getTOLERANCEEU()
+    '''returns String\n\n
+    getTOLERANCEEU()\n
     '''
 def isNull():
-    '''public boolean isNull(final String key)
+    '''returns boolean\n\n
+    isNull(final String key)\n
     '''
 def isRoundUpField():
-    '''public boolean isRoundUpField()
+    '''returns boolean\n\n
+    isRoundUpField()\n
     '''
 def setDIRECTION():
-    '''public void setDIRECTION(final String direction)
+    '''returns None\n\n
+    setDIRECTION(final String direction)\n
     '''
 def setDSPLANNUM():
-    '''public void setDSPLANNUM(final String dsplannum)
+    '''returns None\n\n
+    setDSPLANNUM(final String dsplannum)\n
     '''
 def setFieldName():
-    '''public void setFieldName(final String name)
+    '''returns None\n\n
+    setFieldName(final String name)\n
     '''
 def setHASLD():
-    '''public void setHASLD(final Boolean hasld)
+    '''returns None\n\n
+    setHASLD(final Boolean hasld)\n
     '''
 def setINPUTPERCENT():
-    '''public void setINPUTPERCENT(final String inputpercent)
+    '''returns None\n\n
+    setINPUTPERCENT(final String inputpercent)\n
     '''
 def setINPUTVALUE():
-    '''public void setINPUTVALUE(final String inputvalue)
+    '''returns None\n\n
+    setINPUTVALUE(final String inputvalue)\n
     '''
 def setINPUTVALUE_NP():
-    '''public void setINPUTVALUE_NP(final String inputvalue_np)
+    '''returns None\n\n
+    setINPUTVALUE_NP(final String inputvalue_np)\n
     '''
 def setINSTRCALRANGEEUA():
-    '''public void setINSTRCALRANGEEUA(final String instrcalrangeeua)
+    '''returns None\n\n
+    setINSTRCALRANGEEUA(final String instrcalrangeeua)\n
     '''
 def setINSTRCALRANGEEUD():
-    '''public void setINSTRCALRANGEEUD(final String instrcalrangeeud)
+    '''returns None\n\n
+    setINSTRCALRANGEEUD(final String instrcalrangeeud)\n
     '''
 def setINSTROUTRANGEEU():
-    '''public void setINSTROUTRANGEEU(final String instroutrangeeu)
+    '''returns None\n\n
+    setINSTROUTRANGEEU(final String instroutrangeeu)\n
     '''
 def setINSTRSEQ():
-    '''public void setINSTRSEQ(final String instrseq)
+    '''returns None\n\n
+    setINSTRSEQ(final String instrseq)\n
     '''
 def setINSTRUMENTDESC():
-    '''public void setINSTRUMENTDESC(final String instrumentdesc)
+    '''returns None\n\n
+    setINSTRUMENTDESC(final String instrumentdesc)\n
     '''
 def setINSTRUMENTFUNCTION():
-    '''public void setINSTRUMENTFUNCTION(final Integer instrumentfunction)
+    '''returns None\n\n
+    setINSTRUMENTFUNCTION(final Integer instrumentfunction)\n
     '''
 def setLANGCODE():
-    '''public void setLANGCODE(final String langcode)
+    '''returns None\n\n
+    setLANGCODE(final String langcode)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def setORGID():
-    '''public void setORGID(final String orgid)
+    '''returns None\n\n
+    setORGID(final String orgid)\n
     '''
 def setOUTPUTVALUE():
-    '''public void setOUTPUTVALUE(final String outputvalue)
+    '''returns None\n\n
+    setOUTPUTVALUE(final String outputvalue)\n
     '''
 def setOUTPUTVALUE_NP():
-    '''public void setOUTPUTVALUE_NP(final String outputvalue_np)
+    '''returns None\n\n
+    setOUTPUTVALUE_NP(final String outputvalue_np)\n
     '''
 def setOUTPUTVALUE_ROUNDING():
-    '''public void setOUTPUTVALUE_ROUNDING(final String outputvalue_rounding)
+    '''returns None\n\n
+    setOUTPUTVALUE_ROUNDING(final String outputvalue_rounding)\n
     '''
 def setPLANTYPE():
-    '''public void setPLANTYPE(final String plantype)
+    '''returns None\n\n
+    setPLANTYPE(final String plantype)\n
     '''
 def setPLUSCDSPOINTID():
-    '''public void setPLUSCDSPOINTID(final Integer pluscdspointid)
+    '''returns None\n\n
+    setPLUSCDSPOINTID(final Integer pluscdspointid)\n
     '''
 def setPOINT():
-    '''public void setPOINT(final Integer point)
+    '''returns None\n\n
+    setPOINT(final Integer point)\n
     '''
 def setPOINTDESCRIPTION():
-    '''public void setPOINTDESCRIPTION(final String pointdescription)
+    '''returns None\n\n
+    setPOINTDESCRIPTION(final String pointdescription)\n
     '''
 def setPOINTDESCRIPTION_LONGDESCRIPTION():
-    '''public void setPOINTDESCRIPTION_LONGDESCRIPTION(final String pointdescription_longdescription)
+    '''returns None\n\n
+    setPOINTDESCRIPTION_LONGDESCRIPTION(final String pointdescription_longdescription)\n
     '''
 def setREVISIONNUM():
-    '''public void setREVISIONNUM(final Integer revisionnum)
+    '''returns None\n\n
+    setREVISIONNUM(final Integer revisionnum)\n
     '''
 def setRON1LOWER():
-    '''public void setRON1LOWER(final String ron1lower)
+    '''returns None\n\n
+    setRON1LOWER(final String ron1lower)\n
     '''
 def setRON1LOWER_NP():
-    '''public void setRON1LOWER_NP(final String ron1lower_np)
+    '''returns None\n\n
+    setRON1LOWER_NP(final String ron1lower_np)\n
     '''
 def setRON1TYPE():
-    '''public void setRON1TYPE(final String ron1type)
+    '''returns None\n\n
+    setRON1TYPE(final String ron1type)\n
     '''
 def setRON1UPPER():
-    '''public void setRON1UPPER(final String ron1upper)
+    '''returns None\n\n
+    setRON1UPPER(final String ron1upper)\n
     '''
 def setRON1UPPER_NP():
-    '''public void setRON1UPPER_NP(final String ron1upper_np)
+    '''returns None\n\n
+    setRON1UPPER_NP(final String ron1upper_np)\n
     '''
 def setSETPOINTACTION():
-    '''public void setSETPOINTACTION(final String setpointaction)
+    '''returns None\n\n
+    setSETPOINTACTION(final String setpointaction)\n
     '''
 def setSETPOINTVALUE():
-    '''public void setSETPOINTVALUE(final String setpointvalue)
+    '''returns None\n\n
+    setSETPOINTVALUE(final String setpointvalue)\n
     '''
 def setSITEID():
-    '''public void setSITEID(final String siteid)
+    '''returns None\n\n
+    setSITEID(final String siteid)\n
     '''
 def setTOL1LOWER():
-    '''public void setTOL1LOWER(final String tol1lower)
+    '''returns None\n\n
+    setTOL1LOWER(final String tol1lower)\n
     '''
 def setTOL1LOWER_NP():
-    '''public void setTOL1LOWER_NP(final String tol1lower_np)
+    '''returns None\n\n
+    setTOL1LOWER_NP(final String tol1lower_np)\n
     '''
 def setTOL1UPPER():
-    '''public void setTOL1UPPER(final String tol1upper)
+    '''returns None\n\n
+    setTOL1UPPER(final String tol1upper)\n
     '''
 def setTOL1UPPER_NP():
-    '''public void setTOL1UPPER_NP(final String tol1upper_np)
+    '''returns None\n\n
+    setTOL1UPPER_NP(final String tol1upper_np)\n
     '''
 def setTOL2LOWER():
-    '''public void setTOL2LOWER(final String tol2lower)
+    '''returns None\n\n
+    setTOL2LOWER(final String tol2lower)\n
     '''
 def setTOL2LOWER_NP():
-    '''public void setTOL2LOWER_NP(final String tol2lower_np)
+    '''returns None\n\n
+    setTOL2LOWER_NP(final String tol2lower_np)\n
     '''
 def setTOL2UPPER():
-    '''public void setTOL2UPPER(final String tol2upper)
+    '''returns None\n\n
+    setTOL2UPPER(final String tol2upper)\n
     '''
 def setTOL2UPPER_NP():
-    '''public void setTOL2UPPER_NP(final String tol2upper_np)
+    '''returns None\n\n
+    setTOL2UPPER_NP(final String tol2upper_np)\n
     '''
 def setTOL3LOWER():
-    '''public void setTOL3LOWER(final String tol3lower)
+    '''returns None\n\n
+    setTOL3LOWER(final String tol3lower)\n
     '''
 def setTOL3LOWER_NP():
-    '''public void setTOL3LOWER_NP(final String tol3lower_np)
+    '''returns None\n\n
+    setTOL3LOWER_NP(final String tol3lower_np)\n
     '''
 def setTOL3UPPER():
-    '''public void setTOL3UPPER(final String tol3upper)
+    '''returns None\n\n
+    setTOL3UPPER(final String tol3upper)\n
     '''
 def setTOL3UPPER_NP():
-    '''public void setTOL3UPPER_NP(final String tol3upper_np)
+    '''returns None\n\n
+    setTOL3UPPER_NP(final String tol3upper_np)\n
     '''
 def setTOL4LOWER():
-    '''public void setTOL4LOWER(final String tol4lower)
+    '''returns None\n\n
+    setTOL4LOWER(final String tol4lower)\n
     '''
 def setTOL4LOWER_NP():
-    '''public void setTOL4LOWER_NP(final String tol4lower_np)
+    '''returns None\n\n
+    setTOL4LOWER_NP(final String tol4lower_np)\n
     '''
 def setTOL4UPPER():
-    '''public void setTOL4UPPER(final String tol4upper)
+    '''returns None\n\n
+    setTOL4UPPER(final String tol4upper)\n
     '''
 def setTOL4UPPER_NP():
-    '''public void setTOL4UPPER_NP(final String tol4upper_np)
+    '''returns None\n\n
+    setTOL4UPPER_NP(final String tol4upper_np)\n
     '''
 def setTOLERANCEEU():
-    '''public void setTOLERANCEEU(final String toleranceeu)
+    '''returns None\n\n
+    setTOLERANCEEU(final String toleranceeu)\n
     '''
 def setPlusCDSTO():
-    '''public void setPlusCDSTO(final PlusCDSTO plusCDSTO)
+    '''returns None\n\n
+    setPlusCDSTO(final PlusCDSTO plusCDSTO)\n
     '''
 def setPlusCDSInstTO():
-    '''public void setPlusCDSInstTO(final PlusCDSInstrTO plusCDSInstrTO)
+    '''returns None\n\n
+    setPlusCDSInstTO(final PlusCDSInstrTO plusCDSInstrTO)\n
     '''
 def setPlusCDSPointTO():
-    '''public void setPlusCDSPointTO(final PlusCDSPointTO plusCDSPointTO)
+    '''returns None\n\n
+    setPlusCDSPointTO(final PlusCDSPointTO plusCDSPointTO)\n
     '''
 def clearAllChangedFieldsSets():
-    '''public void clearAllChangedFieldsSets()
+    '''returns None\n\n
+    clearAllChangedFieldsSets()\n
     '''
 def setPlusCWODSTO():
-    '''public void setPlusCWODSTO(final PlusCWODSTO plusCWODSTO)
+    '''returns None\n\n
+    setPlusCWODSTO(final PlusCWODSTO plusCWODSTO)\n
     '''
 def getPlusCWODSTO():
-    '''public PlusCWODSTO getPlusCWODSTO()
+    '''returns PlusCWODSTO\n\n
+    getPlusCWODSTO()\n
     '''
 def setPlusCWODSInstrTO():
-    '''public void setPlusCWODSInstrTO(final PlusCWODSInstrTO plusCWODSInstrTO)
+    '''returns None\n\n
+    setPlusCWODSInstrTO(final PlusCWODSInstrTO plusCWODSInstrTO)\n
     '''
 def getPlusCWODSInstrTO():
-    '''public PlusCWODSInstrTO getPlusCWODSInstrTO()
+    '''returns PlusCWODSInstrTO\n\n
+    getPlusCWODSInstrTO()\n
     '''
 def setPlusCWODSPointTO():
-    '''public void setPlusCWODSPointTO(final PlusCWODSPointTO plusCWODSPointTO)
+    '''returns None\n\n
+    setPlusCWODSPointTO(final PlusCWODSPointTO plusCWODSPointTO)\n
     '''
 def getPlusCWODSPointTO():
-    '''public PlusCWODSPointTO getPlusCWODSPointTO()
+    '''returns PlusCWODSPointTO\n\n
+    getPlusCWODSPointTO()\n
     '''
 def getValidationFlag():
-    '''public long getValidationFlag(final String key)
+    '''returns long\n\n
+    getValidationFlag(final String key)\n
     '''
 def getNonPersistentFieldsName():
-    '''public Set getNonPersistentFieldsName()
+    '''returns Set\n\n
+    getNonPersistentFieldsName()\n
     '''

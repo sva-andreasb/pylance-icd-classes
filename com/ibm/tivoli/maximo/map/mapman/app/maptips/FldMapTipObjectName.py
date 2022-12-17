@@ -1,3 +1,4 @@
-def FldMapTipObjectName():
-    '''public FldMapTipObjectName(final MboValue mbv)
+def ():
+    '''returns FldMapTipObjectName\n\n
+    (final MboValue mbv)\n
     '''

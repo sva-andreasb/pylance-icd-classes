@@ -1,22 +1,16 @@
-def create():
-    '''public static NodeTable create(final NodeTable nodeTable, final int nodeToIdCacheSize, final int idToNodeCacheSize)
-    '''
 def getNodeForNodeId():
-    '''public Node getNodeForNodeId(final NodeId id)
+    '''returns Node\n\n
+    getNodeForNodeId(final NodeId id)\n
     '''
 def getNodeIdForNode():
-    '''public NodeId getNodeIdForNode(final Node node)
+    '''returns NodeId\n\n
+    getNodeIdForNode(final Node node)\n
     '''
 def getAllocateNodeId():
-    '''public NodeId getAllocateNodeId(final Node node)
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns NodeId\n\n
+    getAllocateNodeId(final Node node)\n
     '''
 def sync():
-    '''public void sync()
-    public synchronized void sync(final boolean force)
-    '''
-def all():
-    '''public Iterator<Pair<NodeId, Node>> all()
+    '''returns None\n\n
+    sync()\n
     '''

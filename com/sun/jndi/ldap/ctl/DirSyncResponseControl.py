@@ -1,16 +1,21 @@
 OID = "String  \"1.2.840.113556.1.4.841\""
-def DirSyncResponseControl():
-    '''public DirSyncResponseControl(final String id, final boolean criticality, final byte[] array)
+def ():
+    '''returns DirSyncResponseControl\n\n
+    (final String id, final boolean criticality, final byte[] array)\n
     '''
 def getCookie():
-    '''public byte[] getCookie()
+    '''returns byte[]\n\n
+    getCookie()\n
     '''
 def getFlag():
-    '''public int getFlag()
+    '''returns int\n\n
+    getFlag()\n
     '''
 def getMaxReturnLength():
-    '''public int getMaxReturnLength()
+    '''returns int\n\n
+    getMaxReturnLength()\n
     '''
 def hasMoreData():
-    '''public boolean hasMoreData()
+    '''returns boolean\n\n
+    hasMoreData()\n
     '''

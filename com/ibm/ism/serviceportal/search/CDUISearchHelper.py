@@ -1,6 +1,8 @@
-def CDUISearchHelper():
-    '''public CDUISearchHelper(final boolean useOfSpecialCharacters)
+def ():
+    '''returns CDUISearchHelper\n\n
+    (final boolean useOfSpecialCharacters)\n
     '''
 def search():
-    '''public void search(final MboSetRemote mboSet, final String mboClass, final String searchText, final String extraWhere)
+    '''returns None\n\n
+    search(final MboSetRemote mboSet, final String mboClass, final String searchText, final String extraWhere)\n
     '''

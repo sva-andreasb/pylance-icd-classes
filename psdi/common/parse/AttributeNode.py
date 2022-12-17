@@ -1,36 +1,44 @@
-def createNode():
-    '''public static TreeNode createNode(final String attribute)
-    '''
-def AttributeNode():
-    '''public AttributeNode(final String attribute)
+def ():
+    '''returns AttributeNode\n\n
+    (final String attribute)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final MboRemote mbo)\n
     '''
 def getDate():
-    '''public Date getDate(final MboRemote mbo)
+    '''returns Date\n\n
+    getDate(final MboRemote mbo)\n
     '''
 def getString():
-    '''public String getString(final MboRemote mbo)
+    '''returns String\n\n
+    getString(final MboRemote mbo)\n
     '''
 def handleFormulas():
-    '''public BigDecimal handleFormulas(final MboRemote mbo, final String formulaProp)
+    '''returns BigDecimal\n\n
+    handleFormulas(final MboRemote mbo, final String formulaProp)\n
     '''
 def getDouble():
-    '''public double getDouble(final MboRemote mbo)
+    '''returns double\n\n
+    getDouble(final MboRemote mbo)\n
     '''
 def getInt():
-    '''public int getInt(final MboRemote mbo)
+    '''returns int\n\n
+    getInt(final MboRemote mbo)\n
     '''
 def getNodeDataType():
-    '''public int getNodeDataType()
+    '''returns int\n\n
+    getNodeDataType()\n
     '''
 def getAttributeDataType():
-    '''public int getAttributeDataType(final MboRemote mbo)
+    '''returns int\n\n
+    getAttributeDataType(final MboRemote mbo)\n
     '''
 def setOperands():
-    '''public void setOperands(final MboRemote mbo, final Vector operands)
+    '''returns None\n\n
+    setOperands(final MboRemote mbo, final Vector operands)\n
     '''

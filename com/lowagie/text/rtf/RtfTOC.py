@@ -1,12 +1,16 @@
-def RtfTOC():
-    '''public RtfTOC(final String tocName, final Font tocFont)
+def ():
+    '''returns RtfTOC\n\n
+    (final String tocName, final Font tocFont)\n
     '''
 def write():
-    '''public void write(final RtfWriter writer, final OutputStream out)
+    '''returns None\n\n
+    write(final RtfWriter writer, final OutputStream out)\n
     '''
 def addTOCAsTOCEntry():
-    '''public void addTOCAsTOCEntry(final String entryName, final Font entryFont)
+    '''returns None\n\n
+    addTOCAsTOCEntry(final String entryName, final Font entryFont)\n
     '''
 def setDefaultText():
-    '''public void setDefaultText(final String text)
+    '''returns None\n\n
+    setDefaultText(final String text)\n
     '''

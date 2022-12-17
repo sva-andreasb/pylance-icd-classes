@@ -2,94 +2,80 @@ TOP = "int  0"
 MIDDLE = "int  1"
 BOTTOM = "int  2"
 def getLegend():
-    '''public IlvLegend getLegend()
+    '''returns IlvLegend\n\n
+    getLegend()\n
     '''
 def clearCaches():
-    '''public void clearCaches()
-    '''
-def getFloatingLayoutDirection():
-    '''public final int getFloatingLayoutDirection()
+    '''returns None\n\n
+    clearCaches()\n
     '''
 def setFloatingLayoutDirection():
-    '''public void setFloatingLayoutDirection(final int b)
-    '''
-def getHorizontalOrientation():
-    '''public final int getHorizontalOrientation()
+    '''returns None\n\n
+    setFloatingLayoutDirection(final int b)\n
     '''
 def setHorizontalOrientation():
-    '''public void setHorizontalOrientation(final int c)
-    '''
-def getVerticalOrientation():
-    '''public final int getVerticalOrientation()
+    '''returns None\n\n
+    setHorizontalOrientation(final int c)\n
     '''
 def setVerticalOrientation():
-    '''public void setVerticalOrientation(final int d)
+    '''returns None\n\n
+    setVerticalOrientation(final int d)\n
     '''
 def getHGap():
-    '''public int getHGap()
+    '''returns int\n\n
+    getHGap()\n
     '''
 def setHGap():
-    '''public void setHGap(final int e)
+    '''returns None\n\n
+    setHGap(final int e)\n
     '''
 def getVGap():
-    '''public int getVGap()
+    '''returns int\n\n
+    getVGap()\n
     '''
 def setVGap():
-    '''public void setVGap(final int f)
+    '''returns None\n\n
+    setVGap(final int f)\n
     '''
 def layoutContainer():
-    '''public void layoutContainer(final Container container)
-    public void layoutContainer(final Container container)
-    public void layoutContainer(final Container container)
-    public void layoutContainer(final Container container)
-    public void layoutContainer(final Container container)
+    '''returns None\n\n
+    layoutContainer(final Container container)\n
+    layoutContainer(final Container container)\n
+    layoutContainer(final Container container)\n
+    layoutContainer(final Container container)\n
+    layoutContainer(final Container container)\n
     '''
 def preferredLayoutSize():
-    '''public Dimension preferredLayoutSize(final Container container)
-    public Dimension preferredLayoutSize(final Container container)
-    public Dimension preferredLayoutSize(final Container parent)
-    public Dimension preferredLayoutSize(final Container parent)
+    '''returns Dimension\n\n
+    preferredLayoutSize(final Container container)\n
+    preferredLayoutSize(final Container container)\n
+    preferredLayoutSize(final Container parent)\n
+    preferredLayoutSize(final Container parent)\n
     '''
 def minimumLayoutSize():
-    '''public Dimension minimumLayoutSize(final Container container)
-    public Dimension minimumLayoutSize(final Container container)
-    public Dimension minimumLayoutSize(final Container parent)
-    public Dimension minimumLayoutSize(final Container parent)
+    '''returns Dimension\n\n
+    minimumLayoutSize(final Container container)\n
+    minimumLayoutSize(final Container container)\n
+    minimumLayoutSize(final Container parent)\n
+    minimumLayoutSize(final Container parent)\n
     '''
 def addLayoutComponent():
-    '''public void addLayoutComponent(final String s, final Component component)
+    '''returns None\n\n
+    addLayoutComponent(final String s, final Component component)\n
     '''
 def removeLayoutComponent():
-    '''public void removeLayoutComponent(final Component component)
+    '''returns None\n\n
+    removeLayoutComponent(final Component component)\n
     '''
-def computeBounds():
-    '''public Map<Component, Rectangle> computeBounds(final Container container, final Rectangle value)
-    public Map<Component, Rectangle> computeBounds(final Container key, final Rectangle value)
-    public Map<Component, Rectangle> computeBounds(final Container container, final Rectangle rectangle)
-    public Map<Component, Rectangle> computeBounds(final Container container, final Rectangle rectangle)
-    '''
-def IlvLegendLayout():
-    '''public IlvLegendLayout(final IlvLegend ilvLegend)
-    public IlvLegendLayout(final IlvLegend a, final int e, final int f)
-    '''
-def getSize():
-    '''public final Dimension getSize(final Component component)
-    public final Dimension getSize(final Component component)
-    '''
-def ServerSideVerticalFlowLayout():
-    '''public ServerSideVerticalFlowLayout(final IlvLegendLayout ilvLegendLayout)
-    public ServerSideVerticalFlowLayout(final IlvLegendLayout ilvLegendLayout, final int n)
-    public ServerSideVerticalFlowLayout(final int a, final int b, final int c, final boolean d)
-    '''
-def ServerSideHorizontalLayout():
-    '''public ServerSideHorizontalLayout(final int n, final int n2, final boolean b)
-    '''
-def ServerSideGridLayout():
-    '''public ServerSideGridLayout(final int n, final int n2, final int n3, final int n4, final boolean b)
-    '''
-def GridLayout():
-    '''public GridLayout(final int rows, final int cols, final int hgap, final int vgap, final boolean a)
-    '''
-def HorizontalLayout():
-    '''public HorizontalLayout(final int n, final int n2, final boolean b)
+def ():
+    '''returns HorizontalLayout\n\n
+    (final IlvLegend ilvLegend)\n
+    (final IlvLegend a, final int e, final int f)\n
+    (final IlvLegendLayout ilvLegendLayout)\n
+    (final IlvLegendLayout ilvLegendLayout, final int n)\n
+    (final int a, final int b, final int c, final boolean d)\n
+    (final int n, final int n2, final boolean b)\n
+    (final int n, final int n2, final int n3, final int n4, final boolean b)\n
+    (final int rows, final int cols, final int hgap, final int vgap, final boolean a)\n
+    (final int n, final int n2, final boolean b)\n
     '''

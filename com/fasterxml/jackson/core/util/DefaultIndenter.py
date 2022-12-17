@@ -1,22 +1,29 @@
-def DefaultIndenter():
-    '''public DefaultIndenter()
-    public DefaultIndenter(final String indent, final String eol)
+def ():
+    '''returns DefaultIndenter\n\n
+    ()\n
+    (final String indent, final String eol)\n
     '''
 def withLinefeed():
-    '''public DefaultIndenter withLinefeed(final String lf)
+    '''returns DefaultIndenter\n\n
+    withLinefeed(final String lf)\n
     '''
 def withIndent():
-    '''public DefaultIndenter withIndent(final String indent)
+    '''returns DefaultIndenter\n\n
+    withIndent(final String indent)\n
     '''
 def isInline():
-    '''public boolean isInline()
+    '''returns boolean\n\n
+    isInline()\n
     '''
 def writeIndentation():
-    '''public void writeIndentation(final JsonGenerator jg, int level)
+    '''returns None\n\n
+    writeIndentation(final JsonGenerator jg, int level)\n
     '''
 def getEol():
-    '''public String getEol()
+    '''returns String\n\n
+    getEol()\n
     '''
 def getIndent():
-    '''public String getIndent()
+    '''returns String\n\n
+    getIndent()\n
     '''

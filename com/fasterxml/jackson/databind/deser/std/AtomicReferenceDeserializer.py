@@ -1,24 +1,32 @@
-def AtomicReferenceDeserializer():
-    '''public AtomicReferenceDeserializer(final JavaType fullType, final ValueInstantiator inst, final TypeDeserializer typeDeser, final JsonDeserializer<?> deser)
+def ():
+    '''returns AtomicReferenceDeserializer\n\n
+    (final JavaType fullType, final ValueInstantiator inst, final TypeDeserializer typeDeser, final JsonDeserializer<?> deser)\n
     '''
 def withResolved():
-    '''public AtomicReferenceDeserializer withResolved(final TypeDeserializer typeDeser, final JsonDeserializer<?> valueDeser)
+    '''returns AtomicReferenceDeserializer\n\n
+    withResolved(final TypeDeserializer typeDeser, final JsonDeserializer<?> valueDeser)\n
     '''
 def getNullValue():
-    '''public AtomicReference<Object> getNullValue(final DeserializationContext ctxt)
+    '''returns AtomicReference<Object>\n\n
+    getNullValue(final DeserializationContext ctxt)\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
     '''
 def referenceValue():
-    '''public AtomicReference<Object> referenceValue(final Object contents)
+    '''returns AtomicReference<Object>\n\n
+    referenceValue(final Object contents)\n
     '''
 def getReferenced():
-    '''public Object getReferenced(final AtomicReference<Object> reference)
+    '''returns Object\n\n
+    getReferenced(final AtomicReference<Object> reference)\n
     '''
 def updateReference():
-    '''public AtomicReference<Object> updateReference(final AtomicReference<Object> reference, final Object contents)
+    '''returns AtomicReference<Object>\n\n
+    updateReference(final AtomicReference<Object> reference, final Object contents)\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''

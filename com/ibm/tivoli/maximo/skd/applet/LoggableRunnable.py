@@ -1,6 +1,8 @@
-def LoggableRunnable():
-    '''public LoggableRunnable(final Runnable run, final String msg)
+def ():
+    '''returns LoggableRunnable\n\n
+    (final Runnable run, final String msg)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

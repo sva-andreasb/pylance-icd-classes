@@ -1,12 +1,16 @@
-def HttpStatusException():
-    '''public HttpStatusException(final String message, final int statusCode, final String url)
+def ():
+    '''returns HttpStatusException\n\n
+    (final String message, final int statusCode, final String url)\n
     '''
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

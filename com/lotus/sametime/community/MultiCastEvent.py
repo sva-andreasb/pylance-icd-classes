@@ -1,11 +1,14 @@
 SEND_MSG = "int  1"
 MSG_RECEIVED = "int  -2147483647"
 def getSender():
-    '''public STUser getSender()
+    '''returns STUser\n\n
+    getSender()\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getType():
-    '''public short getType()
+    '''returns short\n\n
+    getType()\n
     '''

@@ -1,7 +1,9 @@
-def PlusPFldEndBillCycle():
-    '''public PlusPFldEndBillCycle()
-    public PlusPFldEndBillCycle(final MboValue mbv)
+def ():
+    '''returns PlusPFldEndBillCycle\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

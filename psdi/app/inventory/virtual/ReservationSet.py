@@ -1,9 +1,12 @@
-def ReservationSet():
-    '''public ReservationSet(final MboServerInterface ms)
+def ():
+    '''returns ReservationSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addReservationRecords():
-    '''public void addReservationRecords(final MboSetRemote invreserveSet)
+    '''returns None\n\n
+    addReservationRecords(final MboSetRemote invreserveSet)\n
     '''
 def setFields():
-    '''public MboRemote setFields(final MboRemote reservation, final MboRemote invreserve)
+    '''returns MboRemote\n\n
+    setFields(final MboRemote reservation, final MboRemote invreserve)\n
     '''

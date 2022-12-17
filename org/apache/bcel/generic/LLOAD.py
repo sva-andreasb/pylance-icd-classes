@@ -1,6 +1,8 @@
-def LLOAD():
-    '''public LLOAD(final int n)
+def ():
+    '''returns LLOAD\n\n
+    (final int n)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

@@ -1,3 +1,4 @@
 def PROMOTE():
-    '''public int PROMOTE()
+    '''returns int\n\n
+    PROMOTE()\n
     '''

@@ -1,6 +1,8 @@
 def otmRecieved():
-    '''public void otmRecieved(final OTMEvent otmEvent)
+    '''returns None\n\n
+    otmRecieved(final OTMEvent otmEvent)\n
     '''
 def sendOTMDenied():
-    '''public void sendOTMDenied(final OTMEvent otmEvent)
+    '''returns None\n\n
+    sendOTMDenied(final OTMEvent otmEvent)\n
     '''

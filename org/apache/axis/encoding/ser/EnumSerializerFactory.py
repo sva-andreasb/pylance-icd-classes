@@ -1,3 +1,4 @@
-def EnumSerializerFactory():
-    '''public EnumSerializerFactory(final Class javaType, final QName xmlType)
+def ():
+    '''returns EnumSerializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

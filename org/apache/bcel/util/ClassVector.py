@@ -1,15 +1,20 @@
-def ClassVector():
-    '''public ClassVector()
+def ():
+    '''returns ClassVector\n\n
+    ()\n
     '''
 def addElement():
-    '''public void addElement(final JavaClass clazz)
+    '''returns None\n\n
+    addElement(final JavaClass clazz)\n
     '''
 def elementAt():
-    '''public JavaClass elementAt(final int index)
+    '''returns JavaClass\n\n
+    elementAt(final int index)\n
     '''
 def removeElementAt():
-    '''public void removeElementAt(final int index)
+    '''returns None\n\n
+    removeElementAt(final int index)\n
     '''
 def toArray():
-    '''public JavaClass[] toArray()
+    '''returns JavaClass[]\n\n
+    toArray()\n
     '''

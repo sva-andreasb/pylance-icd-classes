@@ -1,132 +1,176 @@
-def CreateListReportDataColumnInputInfo():
-    '''public CreateListReportDataColumnInputInfo()
+def ():
+    '''returns CreateListReportDataColumnInputInfo\n\n
+    ()\n
     '''
 def getEntityName():
-    '''public String getEntityName()
+    '''returns String\n\n
+    getEntityName()\n
     '''
 def setEntityName():
-    '''public void setEntityName(final String name)
+    '''returns None\n\n
+    setEntityName(final String name)\n
     '''
 def getEntityUIDColumnName():
-    '''public String getEntityUIDColumnName()
+    '''returns String\n\n
+    getEntityUIDColumnName()\n
     '''
 def setEntityUIDColumnName():
-    '''public void setEntityUIDColumnName(final String name)
+    '''returns None\n\n
+    setEntityUIDColumnName(final String name)\n
     '''
 def getColumnName():
-    '''public String getColumnName()
+    '''returns String\n\n
+    getColumnName()\n
     '''
 def setColumnName():
-    '''public void setColumnName(final String name)
+    '''returns None\n\n
+    setColumnName(final String name)\n
     '''
 def getColumnAlias():
-    '''public String getColumnAlias()
+    '''returns String\n\n
+    getColumnAlias()\n
     '''
 def setColumnAlias():
-    '''public void setColumnAlias(final String alias)
+    '''returns None\n\n
+    setColumnAlias(final String alias)\n
     '''
 def getColumnLength():
-    '''public int getColumnLength()
+    '''returns int\n\n
+    getColumnLength()\n
     '''
 def setColumnLength():
-    '''public void setColumnLength(final int columnLength)
+    '''returns None\n\n
+    setColumnLength(final int columnLength)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final String width)
+    '''returns None\n\n
+    setWidth(final String width)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getBirtDataType():
-    '''public String getBirtDataType()
+    '''returns String\n\n
+    getBirtDataType()\n
     '''
 def setBirtDataType():
-    '''public void setBirtDataType(final String birtDataType)
+    '''returns None\n\n
+    setBirtDataType(final String birtDataType)\n
     '''
 def getMxDataType():
-    '''public String getMxDataType()
+    '''returns String\n\n
+    getMxDataType()\n
     '''
 def setMxDataType():
-    '''public void setMxDataType(final String mxDataType)
+    '''returns None\n\n
+    setMxDataType(final String mxDataType)\n
     '''
 def getObjectID():
-    '''public int getObjectID()
+    '''returns int\n\n
+    getObjectID()\n
     '''
 def setObjectID():
-    '''public void setObjectID(final int objectID)
+    '''returns None\n\n
+    setObjectID(final int objectID)\n
     '''
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def setMboName():
-    '''public void setMboName(final String mboName)
+    '''returns None\n\n
+    setMboName(final String mboName)\n
     '''
 def getMboAttributeName():
-    '''public String getMboAttributeName()
+    '''returns String\n\n
+    getMboAttributeName()\n
     '''
 def setMboAttributeName():
-    '''public void setMboAttributeName(final String mboAttributeName)
+    '''returns None\n\n
+    setMboAttributeName(final String mboAttributeName)\n
     '''
 def getSortLevel():
-    '''public int getSortLevel()
+    '''returns int\n\n
+    getSortLevel()\n
     '''
 def setSortLevel():
-    '''public void setSortLevel(final int sortLevel)
+    '''returns None\n\n
+    setSortLevel(final int sortLevel)\n
     '''
 def isSortAscending():
-    '''public boolean isSortAscending()
+    '''returns boolean\n\n
+    isSortAscending()\n
     '''
 def setSortAscending():
-    '''public void setSortAscending(final boolean sortAscending)
+    '''returns None\n\n
+    setSortAscending(final boolean sortAscending)\n
     '''
 def isGroupAscending():
-    '''public boolean isGroupAscending()
+    '''returns boolean\n\n
+    isGroupAscending()\n
     '''
 def setGroupAscending():
-    '''public void setGroupAscending(final boolean groupAscending)
+    '''returns None\n\n
+    setGroupAscending(final boolean groupAscending)\n
     '''
 def getGroupLevel():
-    '''public int getGroupLevel()
+    '''returns int\n\n
+    getGroupLevel()\n
     '''
 def setGroupLevel():
-    '''public void setGroupLevel(final int groupLevel)
+    '''returns None\n\n
+    setGroupLevel(final int groupLevel)\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean displayField)
+    '''returns None\n\n
+    setVisible(final boolean displayField)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def setLocalized():
-    '''public void setLocalized(final boolean localized)
+    '''returns None\n\n
+    setLocalized(final boolean localized)\n
     '''
 def isLocalized():
-    '''public boolean isLocalized()
+    '''returns boolean\n\n
+    isLocalized()\n
     '''
 def setRichText():
-    '''public void setRichText(final boolean richText)
+    '''returns None\n\n
+    setRichText(final boolean richText)\n
     '''
 def hasRichText():
-    '''public boolean hasRichText()
+    '''returns boolean\n\n
+    hasRichText()\n
     '''
 def setExpression():
-    '''public void setExpression(final boolean expression)
+    '''returns None\n\n
+    setExpression(final boolean expression)\n
     '''
 def isExpression():
-    '''public boolean isExpression()
+    '''returns boolean\n\n
+    isExpression()\n
     '''
 def addSummaryInfo():
-    '''public void addSummaryInfo(final CreateReportSummaryInfo summaryInfo)
+    '''returns None\n\n
+    addSummaryInfo(final CreateReportSummaryInfo summaryInfo)\n
     '''
 def getAllSummaryInfo():
-    '''public Iterator getAllSummaryInfo()
+    '''returns Iterator\n\n
+    getAllSummaryInfo()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

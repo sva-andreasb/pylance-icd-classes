@@ -1,24 +1,32 @@
-def SchedulerDashboardView():
-    '''public SchedulerDashboardView()
+def ():
+    '''returns SchedulerDashboardView\n\n
+    ()\n
     '''
 def async_load_text():
-    '''public JSONObject async_load_text(final WebClientSession sess)
+    '''returns JSONObject\n\n
+    async_load_text(final WebClientSession sess)\n
     '''
 def loadSchedulerProject():
-    '''public JSONObject loadSchedulerProject(final WebClientSession sess, @MXEventParam("projectid") final long proejectId, @MXEventParam("description") final String description)
+    '''returns JSONObject\n\n
+    loadSchedulerProject(final WebClientSession sess, @MXEventParam("projectid") final long proejectId, @MXEventParam("description") final String description)\n
     '''
 def addQuickSearch():
-    '''public void addQuickSearch(final UIOptions opts)
+    '''returns None\n\n
+    addQuickSearch(final UIOptions opts)\n
     '''
 def setColors():
-    '''public void setColors()
+    '''returns None\n\n
+    setColors()\n
     '''
 def getHexString():
-    '''public String getHexString(final Color color)
+    '''returns String\n\n
+    getHexString(final Color color)\n
     '''
 def getCalculatedProjectMinMax():
-    '''public Range<Date> getCalculatedProjectMinMax()
+    '''returns Range<Date>\n\n
+    getCalculatedProjectMinMax()\n
     '''
 def getBar():
-    '''public String getBar(final String percent, final String projeid)
+    '''returns String\n\n
+    getBar(final String percent, final String projeid)\n
     '''

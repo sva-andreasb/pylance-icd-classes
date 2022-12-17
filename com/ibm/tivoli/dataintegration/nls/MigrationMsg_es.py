@@ -22,5 +22,6 @@ DIS_INTERNAL_ERROR = "String  \"DIS_INTERNAL_ERROR\""
 DIS_CONNECTION_FAILURE = "String  \"DIS_CONNECTION_FAILURE\""
 REGISTER_MSS_DATABASE_FAILURE = "String  \"REGISTER_MSS_DATABASE_FAILURE\""
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

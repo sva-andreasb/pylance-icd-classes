@@ -1,9 +1,12 @@
-def Qa():
-    '''public Qa()
+def ():
+    '''returns Qa\n\n
+    ()\n
     '''
 def d():
-    '''public ByteArrayInputStream d()
+    '''returns ByteArrayInputStream\n\n
+    d()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

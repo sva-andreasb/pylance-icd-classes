@@ -1,30 +1,28 @@
 DOMAIN = "String  \"stun\""
 ELEMENT_NAME = "String  \"query\""
 NAMESPACE = "String  \"google:jingleinfo\""
-def STUN():
-    '''public STUN()
+def ():
+    '''returns StunServerAddress\n\n
+    ()\n
+    (final String server, final String port)\n
     '''
 def getServers():
-    '''public List<StunServerAddress> getServers()
+    '''returns List<StunServerAddress>\n\n
+    getServers()\n
     '''
 def getPublicIp():
-    '''public String getPublicIp()
-    '''
-def getSTUNServer():
-    '''public static STUN getSTUNServer(final XMPPConnection connection)
-    '''
-def serviceAvailable():
-    '''public static boolean serviceAvailable(final XMPPConnection connection)
+    '''returns String\n\n
+    getPublicIp()\n
     '''
 def parse():
-    '''public STUN parse(final XmlPullParser parser, final int initialDepth)
-    '''
-def StunServerAddress():
-    '''public StunServerAddress(final String server, final String port)
+    '''returns STUN\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''
 def getServer():
-    '''public String getServer()
+    '''returns String\n\n
+    getServer()\n
     '''
 def getPort():
-    '''public String getPort()
+    '''returns String\n\n
+    getPort()\n
     '''

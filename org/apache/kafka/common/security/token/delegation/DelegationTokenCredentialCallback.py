@@ -1,4 +1,5 @@
 def tokenOwner():
-    '''public void tokenOwner(final String tokenOwner)
-    public String tokenOwner()
+    '''returns String\n\n
+    tokenOwner(final String tokenOwner)\n
+    tokenOwner()\n
     '''

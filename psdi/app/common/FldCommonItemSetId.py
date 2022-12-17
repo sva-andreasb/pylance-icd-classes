@@ -1,6 +1,8 @@
-def FldCommonItemSetId():
-    '''public FldCommonItemSetId(final MboValue mbv)
+def ():
+    '''returns FldCommonItemSetId\n\n
+    (final MboValue mbv)\n
     '''
 def getCriteria():
-    '''public String getCriteria()
+    '''returns String\n\n
+    getCriteria()\n
     '''

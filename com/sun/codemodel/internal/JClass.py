@@ -1,65 +1,49 @@
 def outer():
-    '''public JClass outer()
-    '''
-def owner():
-    '''public final JCodeModel owner()
+    '''returns JClass\n\n
+    outer()\n
     '''
 def typeParams():
-    '''public JTypeVar[] typeParams()
+    '''returns JTypeVar[]\n\n
+    typeParams()\n
     '''
 def getPrimitiveType():
-    '''public JPrimitiveType getPrimitiveType()
+    '''returns JPrimitiveType\n\n
+    getPrimitiveType()\n
     '''
 def boxify():
-    '''public JClass boxify()
+    '''returns JClass\n\n
+    boxify()\n
     '''
 def unboxify():
-    '''public JType unboxify()
+    '''returns JType\n\n
+    unboxify()\n
     '''
 def erasure():
-    '''public JClass erasure()
-    '''
-def isAssignableFrom():
-    '''public final boolean isAssignableFrom(final JClass derived)
-    '''
-def getBaseClass():
-    '''public final JClass getBaseClass(final JClass baseType)
-    public final JClass getBaseClass(final Class<?> baseType)
+    '''returns JClass\n\n
+    erasure()\n
     '''
 def array():
-    '''public JClass array()
+    '''returns JClass\n\n
+    array()\n
     '''
 def narrow():
-    '''public JClass narrow(final Class<?> clazz)
-    public JClass narrow(final Class<?>... clazz)
-    public JClass narrow(final JClass clazz)
-    public JClass narrow(final JType type)
-    public JClass narrow(final JClass... clazz)
-    public JClass narrow(final List<? extends JClass> clazz)
+    '''returns JClass\n\n
+    narrow(final Class<?> clazz)\n
+    narrow(final Class<?>... clazz)\n
+    narrow(final JClass clazz)\n
+    narrow(final JType type)\n
+    narrow(final JClass... clazz)\n
+    narrow(final List<? extends JClass> clazz)\n
     '''
 def getTypeParameters():
-    '''public List<JClass> getTypeParameters()
-    '''
-def isParameterized():
-    '''public final boolean isParameterized()
-    '''
-def wildcard():
-    '''public final JClass wildcard()
+    '''returns List<JClass>\n\n
+    getTypeParameters()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def dotclass():
-    '''public final JExpression dotclass()
-    '''
-def staticInvoke():
-    '''public final JInvocation staticInvoke(final JMethod method)
-    public final JInvocation staticInvoke(final String method)
-    '''
-def staticRef():
-    '''public final JFieldRef staticRef(final String field)
-    public final JFieldRef staticRef(final JVar field)
+    '''returns String\n\n
+    toString()\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''

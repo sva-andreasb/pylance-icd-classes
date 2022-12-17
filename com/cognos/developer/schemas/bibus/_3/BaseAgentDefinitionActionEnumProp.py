@@ -1,25 +1,13 @@
-def BaseAgentDefinitionActionEnumProp():
-    '''public BaseAgentDefinitionActionEnumProp()
-    public BaseAgentDefinitionActionEnumProp(final SchemaInfo schemaInfo, final BaseAgentDefinitionActionEnum value)
+def ():
+    '''returns BaseAgentDefinitionActionEnumProp\n\n
+    ()\n
+    (final SchemaInfo schemaInfo, final BaseAgentDefinitionActionEnum value)\n
     '''
 def getValue():
-    '''public BaseAgentDefinitionActionEnum getValue()
+    '''returns BaseAgentDefinitionActionEnum\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final BaseAgentDefinitionActionEnum value)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setValue(final BaseAgentDefinitionActionEnum value)\n
     '''

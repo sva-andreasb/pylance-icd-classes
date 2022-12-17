@@ -1,48 +1,64 @@
 def getDoctype():
-    '''public DocumentType getDoctype()
+    '''returns DocumentType\n\n
+    getDoctype()\n
     '''
 def getImplementation():
-    '''public DOMImplementation getImplementation()
+    '''returns DOMImplementation\n\n
+    getImplementation()\n
     '''
 def createDocumentFragment():
-    '''public DocumentFragment createDocumentFragment()
+    '''returns DocumentFragment\n\n
+    createDocumentFragment()\n
     '''
 def createTextNode():
-    '''public Text createTextNode(final String s)
+    '''returns Text\n\n
+    createTextNode(final String s)\n
     '''
 def createComment():
-    '''public Comment createComment(final String s)
+    '''returns Comment\n\n
+    createComment(final String s)\n
     '''
 def createCDATASection():
-    '''public CDATASection createCDATASection(final String s)
+    '''returns CDATASection\n\n
+    createCDATASection(final String s)\n
     '''
 def createProcessingInstruction():
-    '''public ProcessingInstruction createProcessingInstruction(final String s, final String s2)
+    '''returns ProcessingInstruction\n\n
+    createProcessingInstruction(final String s, final String s2)\n
     '''
 def createAttribute():
-    '''public Attr createAttribute(final String s)
+    '''returns Attr\n\n
+    createAttribute(final String s)\n
     '''
 def createEntityReference():
-    '''public EntityReference createEntityReference(final String s)
+    '''returns EntityReference\n\n
+    createEntityReference(final String s)\n
     '''
 def createElementNS():
-    '''public Element createElementNS(final String s, final String s2)
+    '''returns Element\n\n
+    createElementNS(final String s, final String s2)\n
     '''
 def createAttributeNS():
-    '''public Attr createAttributeNS(final String s, final String s2)
+    '''returns Attr\n\n
+    createAttributeNS(final String s, final String s2)\n
     '''
 def getElementsByTagNameNS():
-    '''public NodeList getElementsByTagNameNS(final String s, final String s2)
+    '''returns NodeList\n\n
+    getElementsByTagNameNS(final String s, final String s2)\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getNodeValue():
-    '''public String getNodeValue()
+    '''returns String\n\n
+    getNodeValue()\n
     '''
 def setNodeValue():
-    '''public void setNodeValue(final String s)
+    '''returns None\n\n
+    setNodeValue(final String s)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''

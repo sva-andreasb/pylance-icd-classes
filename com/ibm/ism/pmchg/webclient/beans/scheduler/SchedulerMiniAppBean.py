@@ -1,45 +1,60 @@
-def SchedulerMiniAppBean():
-    '''public SchedulerMiniAppBean()
+def ():
+    '''returns SchedulerMiniAppBean\n\n
+    ()\n
     '''
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''
 def filterCss():
-    '''public String filterCss(String css, final MiniAppControl control)
+    '''returns String\n\n
+    filterCss(String css, final MiniAppControl control)\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def getApplicationResource():
-    '''public String getApplicationResource(final String path)
+    '''returns String\n\n
+    getApplicationResource(final String path)\n
     '''
 def loadTasks():
-    '''public String loadTasks(@MXEventParam("startDateMillis") final long startDateMillis, @MXEventParam("endDateMillis") final long endDateMillis)
+    '''returns String\n\n
+    loadTasks(@MXEventParam("startDateMillis") final long startDateMillis, @MXEventParam("endDateMillis") final long endDateMillis)\n
     '''
 def findAvailableTimes():
-    '''public String findAvailableTimes(@MXEventParam("startDateMillis") final long startDateMillis, @MXEventParam("endDateMillis") final long endDateMillis, @MXEventParam("jsonString") final String jsonString)
+    '''returns String\n\n
+    findAvailableTimes(@MXEventParam("startDateMillis") final long startDateMillis, @MXEventParam("endDateMillis") final long endDateMillis, @MXEventParam("jsonString") final String jsonString)\n
     '''
 def saveSchedule():
-    '''public String saveSchedule(@MXEventParam("jsonString") final String jsonString)
+    '''returns String\n\n
+    saveSchedule(@MXEventParam("jsonString") final String jsonString)\n
     '''
 def calculateSchedule():
-    '''public String calculateSchedule(@MXEventParam("startDateMillis") final long startDateMillis, @MXEventParam("jsonString") final String jsonString)
+    '''returns String\n\n
+    calculateSchedule(@MXEventParam("startDateMillis") final long startDateMillis, @MXEventParam("jsonString") final String jsonString)\n
     '''
 def findChangeSchedulableDates():
-    '''public String findChangeSchedulableDates(@MXEventParam("startDateMillis") final long startDateMillis, @MXEventParam("endDateMillis") final long endDateMillis, @MXEventParam("jsonString") final String jsonString)
+    '''returns String\n\n
+    findChangeSchedulableDates(@MXEventParam("startDateMillis") final long startDateMillis, @MXEventParam("endDateMillis") final long endDateMillis, @MXEventParam("jsonString") final String jsonString)\n
     '''
 def getTaskScheduledDates():
-    '''public String getTaskScheduledDates(@MXEventParam("jsonString") final String jsonString)
+    '''returns String\n\n
+    getTaskScheduledDates(@MXEventParam("jsonString") final String jsonString)\n
     '''
 def getMessages():
-    '''public String getMessages(@MXEventParam("msgGroup") final String msgGroup)
+    '''returns String\n\n
+    getMessages(@MXEventParam("msgGroup") final String msgGroup)\n
     '''
 def getLangCode():
-    '''public String getLangCode()
+    '''returns String\n\n
+    getLangCode()\n
     '''
 def getTimeZone():
-    '''public String getTimeZone()
+    '''returns String\n\n
+    getTimeZone()\n
     '''
 def dialogclose():
-    '''public int dialogclose()
+    '''returns int\n\n
+    dialogclose()\n
     '''

@@ -1,3 +1,4 @@
-def Textbox():
-    '''public Textbox(final MboSet ms)
+def ():
+    '''returns Textbox\n\n
+    (final MboSet ms)\n
     '''

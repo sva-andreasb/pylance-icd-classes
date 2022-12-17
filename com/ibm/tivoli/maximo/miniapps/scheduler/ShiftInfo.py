@@ -1,24 +1,32 @@
 def getShiftWorkTime():
-    '''public SKDShiftWorkTime getShiftWorkTime()
+    '''returns SKDShiftWorkTime\n\n
+    getShiftWorkTime()\n
     '''
 def setShiftWorkTime():
-    '''public void setShiftWorkTime(final SKDShiftWorkTime shiftWorkTime)
+    '''returns None\n\n
+    setShiftWorkTime(final SKDShiftWorkTime shiftWorkTime)\n
     '''
 def getStart():
-    '''public Date getStart()
+    '''returns Date\n\n
+    getStart()\n
     '''
 def setStart():
-    '''public void setStart(final Date start)
+    '''returns None\n\n
+    setStart(final Date start)\n
     '''
 def getEnd():
-    '''public Date getEnd()
+    '''returns Date\n\n
+    getEnd()\n
     '''
 def setEnd():
-    '''public void setEnd(final Date end)
+    '''returns None\n\n
+    setEnd(final Date end)\n
     '''
 def getColor():
-    '''public String getColor()
+    '''returns String\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final String color)
+    '''returns None\n\n
+    setColor(final String color)\n
     '''

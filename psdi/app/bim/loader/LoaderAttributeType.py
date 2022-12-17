@@ -1,27 +1,36 @@
-def LoaderAttributeType():
-    '''public LoaderAttributeType(final ModelProcessIntf loader)
+def ():
+    '''returns LoaderAttributeType\n\n
+    (final ModelProcessIntf loader)\n
     '''
 def canProcessItem():
-    '''public boolean canProcessItem(final ItemAttributeType attrib)
+    '''returns boolean\n\n
+    canProcessItem(final ItemAttributeType attrib)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemAttributeType attrib, final MboSetRemote attribSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemAttributeType attrib, final MboSetRemote attribSet)\n
     '''
 def addItem():
-    '''public MboRemote addItem(final ItemAttributeType attrib, final MboSetRemote attribSet)
+    '''returns MboRemote\n\n
+    addItem(final ItemAttributeType attrib, final MboSetRemote attribSet)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo, final ItemAttributeType item)
+    '''returns None\n\n
+    update(final MboRemote mbo, final ItemAttributeType item)\n
     '''
 def validateItem():
-    '''public void validateItem(final ItemAttributeType item, final MboSetRemote mboSet)
+    '''returns None\n\n
+    validateItem(final ItemAttributeType item, final MboSetRemote mboSet)\n
     '''
 def addAttributeValues():
-    '''public int addAttributeValues(final MboRemote mbo, final ItemAttributeType item)
+    '''returns int\n\n
+    addAttributeValues(final MboRemote mbo, final ItemAttributeType item)\n
     '''
 def testMatchForDatatype():
-    '''public MboRemote testMatchForDatatype(final ItemAttributeType attrib, final MboSetRemote attribSet, final boolean isNumeric)
+    '''returns MboRemote\n\n
+    testMatchForDatatype(final ItemAttributeType attrib, final MboSetRemote attribSet, final boolean isNumeric)\n
     '''

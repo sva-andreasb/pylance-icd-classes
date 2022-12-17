@@ -1,15 +1,19 @@
 def getApiServer():
-    '''public Object getApiServer()
+    '''returns Object\n\n
+    getApiServer()\n
     '''
 def setApiServer():
-    '''public void setApiServer(final Object apiServer)
+    '''returns None\n\n
+    setApiServer(final Object apiServer)\n
     '''
-def ApiSessionFactory():
-    '''public ApiSessionFactory(final String sessionClass, final Object apiServer)
+def ():
+    '''returns ApiSessionFactory\n\n
+    (final String sessionClass, final Object apiServer)\n
     '''
 def getSession():
-    '''public ApiSession getSession(final ApiConnection conn, final String user, final String password, final long version)
-    public ApiSession getSession(final ApiConnection conn, final long sessionId, final long version)
-    public ApiSession getSession(final ApiConnection conn, final Principal p, final long version)
-    public ApiSession getSession()
+    '''returns ApiSession\n\n
+    getSession(final ApiConnection conn, final String user, final String password, final long version)\n
+    getSession(final ApiConnection conn, final long sessionId, final long version)\n
+    getSession(final ApiConnection conn, final Principal p, final long version)\n
+    getSession()\n
     '''

@@ -1,6 +1,8 @@
-def UimaTypeSystemOutput():
-    '''public UimaTypeSystemOutput(final IndentedPrintWriter writer)
+def ():
+    '''returns UimaTypeSystemOutput\n\n
+    (final IndentedPrintWriter writer)\n
     '''
 def writeTypeNames():
-    '''public void writeTypeNames(final Map map)
+    '''returns None\n\n
+    writeTypeNames(final Map map)\n
     '''

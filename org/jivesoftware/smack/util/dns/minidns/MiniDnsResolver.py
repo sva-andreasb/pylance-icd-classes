@@ -1,12 +1,8 @@
-def getInstance():
-    '''public static DNSResolver getInstance()
-    '''
-def MiniDnsResolver():
-    '''public MiniDnsResolver()
-    '''
-def setup():
-    '''public static void setup()
+def ():
+    '''returns MiniDnsResolver\n\n
+    ()\n
     '''
 def initialize():
-    '''public List<Exception> initialize()
+    '''returns List<Exception>\n\n
+    initialize()\n
     '''

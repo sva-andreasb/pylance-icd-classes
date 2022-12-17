@@ -93,36 +93,39 @@ CTRL_COBIE_EXPORT_JOB = "String  \"cobie_export__job\""
 CTRL_COBIE_EXPORT_CONTACT = "String  \"cobie_export__contact\""
 CTRL_COBIE_EXPORT_DOC = "String  \"cobie_export__document\""
 CTRL_COBIE_EXPORT_ATTRIB = "String  \"cobie_export__attribute\""
-def BIMUploadBean():
-    '''public BIMUploadBean()
-    '''
-def execute():
-    '''public synchronized int execute()
-    '''
-def cancelDialog():
-    '''public synchronized int cancelDialog()
+def ():
+    '''returns BIMUploadBean\n\n
+    ()\n
     '''
 def validateBuilding():
-    '''public int validateBuilding()
+    '''returns int\n\n
+    validateBuilding()\n
     '''
 def importBuilding():
-    '''public int importBuilding()
+    '''returns int\n\n
+    importBuilding()\n
     '''
 def updateBuilding():
-    '''public int updateBuilding()
+    '''returns int\n\n
+    updateBuilding()\n
     '''
 def exportBuilding():
-    '''public int exportBuilding()
+    '''returns int\n\n
+    exportBuilding()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def setupButtons():
-    '''public void setupButtons(final boolean isNew)
+    '''returns None\n\n
+    setupButtons(final boolean isNew)\n
     '''
 def refreshLogs():
-    '''public int refreshLogs()
+    '''returns int\n\n
+    refreshLogs()\n
     '''
 def refreshSessionTable():
-    '''public void refreshSessionTable()
+    '''returns None\n\n
+    refreshSessionTable()\n
     '''

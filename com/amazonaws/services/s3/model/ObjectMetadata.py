@@ -1,156 +1,200 @@
-def ObjectMetadata():
-    '''public ObjectMetadata()
-    '''
-def getUserMetadata():
-    '''public Map<String, String> getUserMetadata()
+def ():
+    '''returns ObjectMetadata\n\n
+    ()\n
     '''
 def setUserMetadata():
-    '''public void setUserMetadata(final Map<String, String> userMetadata)
+    '''returns None\n\n
+    setUserMetadata(final Map<String, String> userMetadata)\n
     '''
 def setHeader():
-    '''public void setHeader(final String key, final Object value)
+    '''returns None\n\n
+    setHeader(final String key, final Object value)\n
     '''
 def addUserMetadata():
-    '''public void addUserMetadata(final String key, final String value)
-    '''
-def getRawMetadata():
-    '''public Map<String, Object> getRawMetadata()
+    '''returns None\n\n
+    addUserMetadata(final String key, final String value)\n
     '''
 def getRawMetadataValue():
-    '''public Object getRawMetadataValue(final String key)
+    '''returns Object\n\n
+    getRawMetadataValue(final String key)\n
     '''
 def getLastModified():
-    '''public Date getLastModified()
+    '''returns Date\n\n
+    getLastModified()\n
     '''
 def setLastModified():
-    '''public void setLastModified(final Date lastModified)
+    '''returns None\n\n
+    setLastModified(final Date lastModified)\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getInstanceLength():
-    '''public long getInstanceLength()
+    '''returns long\n\n
+    getInstanceLength()\n
     '''
 def setContentLength():
-    '''public void setContentLength(final long contentLength)
+    '''returns None\n\n
+    setContentLength(final long contentLength)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def getContentLanguage():
-    '''public String getContentLanguage()
+    '''returns String\n\n
+    getContentLanguage()\n
     '''
 def setContentLanguage():
-    '''public void setContentLanguage(final String contentLanguage)
+    '''returns None\n\n
+    setContentLanguage(final String contentLanguage)\n
     '''
 def getContentEncoding():
-    '''public String getContentEncoding()
+    '''returns String\n\n
+    getContentEncoding()\n
     '''
 def setContentEncoding():
-    '''public void setContentEncoding(final String encoding)
+    '''returns None\n\n
+    setContentEncoding(final String encoding)\n
     '''
 def getCacheControl():
-    '''public String getCacheControl()
+    '''returns String\n\n
+    getCacheControl()\n
     '''
 def setCacheControl():
-    '''public void setCacheControl(final String cacheControl)
+    '''returns None\n\n
+    setCacheControl(final String cacheControl)\n
     '''
 def setContentMD5():
-    '''public void setContentMD5(final String md5Base64)
+    '''returns None\n\n
+    setContentMD5(final String md5Base64)\n
     '''
 def getContentMD5():
-    '''public String getContentMD5()
+    '''returns String\n\n
+    getContentMD5()\n
     '''
 def setContentDisposition():
-    '''public void setContentDisposition(final String disposition)
+    '''returns None\n\n
+    setContentDisposition(final String disposition)\n
     '''
 def getContentDisposition():
-    '''public String getContentDisposition()
+    '''returns String\n\n
+    getContentDisposition()\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def getSSEAlgorithm():
-    '''public String getSSEAlgorithm()
+    '''returns String\n\n
+    getSSEAlgorithm()\n
     '''
 def getServerSideEncryption():
-    '''public String getServerSideEncryption()
+    '''returns String\n\n
+    getServerSideEncryption()\n
     '''
 def setSSEAlgorithm():
-    '''public void setSSEAlgorithm(final String algorithm)
+    '''returns None\n\n
+    setSSEAlgorithm(final String algorithm)\n
     '''
 def setServerSideEncryption():
-    '''public void setServerSideEncryption(final String algorithm)
+    '''returns None\n\n
+    setServerSideEncryption(final String algorithm)\n
     '''
 def getSSECustomerAlgorithm():
-    '''public String getSSECustomerAlgorithm()
+    '''returns String\n\n
+    getSSECustomerAlgorithm()\n
     '''
 def setSSECustomerAlgorithm():
-    '''public void setSSECustomerAlgorithm(final String algorithm)
+    '''returns None\n\n
+    setSSECustomerAlgorithm(final String algorithm)\n
     '''
 def getSSECustomerKeyMd5():
-    '''public String getSSECustomerKeyMd5()
+    '''returns String\n\n
+    getSSECustomerKeyMd5()\n
     '''
 def setSSECustomerKeyMd5():
-    '''public void setSSECustomerKeyMd5(final String md5Digest)
+    '''returns None\n\n
+    setSSECustomerKeyMd5(final String md5Digest)\n
     '''
 def getExpirationTime():
-    '''public Date getExpirationTime()
+    '''returns Date\n\n
+    getExpirationTime()\n
     '''
 def setExpirationTime():
-    '''public void setExpirationTime(final Date expirationTime)
+    '''returns None\n\n
+    setExpirationTime(final Date expirationTime)\n
     '''
 def getExpirationTimeRuleId():
-    '''public String getExpirationTimeRuleId()
+    '''returns String\n\n
+    getExpirationTimeRuleId()\n
     '''
 def setExpirationTimeRuleId():
-    '''public void setExpirationTimeRuleId(final String expirationTimeRuleId)
+    '''returns None\n\n
+    setExpirationTimeRuleId(final String expirationTimeRuleId)\n
     '''
 def getRestoreExpirationTime():
-    '''public Date getRestoreExpirationTime()
+    '''returns Date\n\n
+    getRestoreExpirationTime()\n
     '''
 def setRestoreExpirationTime():
-    '''public void setRestoreExpirationTime(final Date restoreExpirationTime)
+    '''returns None\n\n
+    setRestoreExpirationTime(final Date restoreExpirationTime)\n
     '''
 def setOngoingRestore():
-    '''public void setOngoingRestore(final boolean ongoingRestore)
+    '''returns None\n\n
+    setOngoingRestore(final boolean ongoingRestore)\n
     '''
 def getOngoingRestore():
-    '''public Boolean getOngoingRestore()
+    '''returns Boolean\n\n
+    getOngoingRestore()\n
     '''
 def setHttpExpiresDate():
-    '''public void setHttpExpiresDate(final Date httpExpiresDate)
+    '''returns None\n\n
+    setHttpExpiresDate(final Date httpExpiresDate)\n
     '''
 def getHttpExpiresDate():
-    '''public Date getHttpExpiresDate()
+    '''returns Date\n\n
+    getHttpExpiresDate()\n
     '''
 def getStorageClass():
-    '''public String getStorageClass()
+    '''returns String\n\n
+    getStorageClass()\n
     '''
 def getUserMetaDataOf():
-    '''public String getUserMetaDataOf(final String key)
+    '''returns String\n\n
+    getUserMetaDataOf(final String key)\n
     '''
 def clone():
-    '''public ObjectMetadata clone()
+    '''returns ObjectMetadata\n\n
+    clone()\n
     '''
 def getSSEAwsKmsKeyId():
-    '''public String getSSEAwsKmsKeyId()
+    '''returns String\n\n
+    getSSEAwsKmsKeyId()\n
     '''
 def isRequesterCharged():
-    '''public boolean isRequesterCharged()
+    '''returns boolean\n\n
+    isRequesterCharged()\n
     '''
 def setRequesterCharged():
-    '''public void setRequesterCharged(final boolean isRequesterCharged)
+    '''returns None\n\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
     '''
 def getPartCount():
-    '''public Integer getPartCount()
+    '''returns Integer\n\n
+    getPartCount()\n
     '''
 def getContentRange():
-    '''public Long[] getContentRange()
+    '''returns Long[]\n\n
+    getContentRange()\n
     '''

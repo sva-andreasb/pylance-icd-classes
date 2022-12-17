@@ -1,3 +1,4 @@
-def FldInvChangeStatus():
-    '''public FldInvChangeStatus(final MboValue mbv)
+def ():
+    '''returns FldInvChangeStatus\n\n
+    (final MboValue mbv)\n
     '''

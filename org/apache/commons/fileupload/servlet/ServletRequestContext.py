@@ -1,21 +1,28 @@
-def ServletRequestContext():
-    '''public ServletRequestContext(final HttpServletRequest request)
+def ():
+    '''returns ServletRequestContext\n\n
+    (final HttpServletRequest request)\n
     '''
 def getCharacterEncoding():
-    '''public String getCharacterEncoding()
+    '''returns String\n\n
+    getCharacterEncoding()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getContentLength():
-    '''public int getContentLength()
+    '''returns int\n\n
+    getContentLength()\n
     '''
 def contentLength():
-    '''public long contentLength()
+    '''returns long\n\n
+    contentLength()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,7 +1,5 @@
-def CompilationID_attribute():
-    '''public CompilationID_attribute(final ConstantPool constantPool, final int n)
-    public CompilationID_attribute(final int n, final int compilationID_index)
-    '''
-def accept():
-    '''public <R, D> R accept(final Visitor<R, D> visitor, final D n)
+def ():
+    '''returns CompilationID_attribute\n\n
+    (final ConstantPool constantPool, final int n)\n
+    (final int n, final int compilationID_index)\n
     '''

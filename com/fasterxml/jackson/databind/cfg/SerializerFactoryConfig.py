@@ -1,30 +1,40 @@
-def SerializerFactoryConfig():
-    '''public SerializerFactoryConfig()
+def ():
+    '''returns SerializerFactoryConfig\n\n
+    ()\n
     '''
 def withAdditionalSerializers():
-    '''public SerializerFactoryConfig withAdditionalSerializers(final Serializers additional)
+    '''returns SerializerFactoryConfig\n\n
+    withAdditionalSerializers(final Serializers additional)\n
     '''
 def withAdditionalKeySerializers():
-    '''public SerializerFactoryConfig withAdditionalKeySerializers(final Serializers additional)
+    '''returns SerializerFactoryConfig\n\n
+    withAdditionalKeySerializers(final Serializers additional)\n
     '''
 def withSerializerModifier():
-    '''public SerializerFactoryConfig withSerializerModifier(final BeanSerializerModifier modifier)
+    '''returns SerializerFactoryConfig\n\n
+    withSerializerModifier(final BeanSerializerModifier modifier)\n
     '''
 def hasSerializers():
-    '''public boolean hasSerializers()
+    '''returns boolean\n\n
+    hasSerializers()\n
     '''
 def hasKeySerializers():
-    '''public boolean hasKeySerializers()
+    '''returns boolean\n\n
+    hasKeySerializers()\n
     '''
 def hasSerializerModifiers():
-    '''public boolean hasSerializerModifiers()
+    '''returns boolean\n\n
+    hasSerializerModifiers()\n
     '''
 def serializers():
-    '''public Iterable<Serializers> serializers()
+    '''returns Iterable<Serializers>\n\n
+    serializers()\n
     '''
 def keySerializers():
-    '''public Iterable<Serializers> keySerializers()
+    '''returns Iterable<Serializers>\n\n
+    keySerializers()\n
     '''
 def serializerModifiers():
-    '''public Iterable<BeanSerializerModifier> serializerModifiers()
+    '''returns Iterable<BeanSerializerModifier>\n\n
+    serializerModifiers()\n
     '''

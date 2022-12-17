@@ -1,10 +1,13 @@
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode(final int base)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode(final int base)\n
     '''
 def toString():
-    '''public String toString(final String kind)
+    '''returns String\n\n
+    toString(final String kind)\n
     '''

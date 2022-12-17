@@ -1,16 +1,21 @@
-def OAuthAccessor():
-    '''public OAuthAccessor(final OAuthConsumer consumer)
+def ():
+    '''returns OAuthAccessor\n\n
+    (final OAuthConsumer consumer)\n
     '''
 def clone():
-    '''public OAuthAccessor clone()
+    '''returns OAuthAccessor\n\n
+    clone()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''
 def newRequestMessage():
-    '''public OAuthMessage newRequestMessage(String method, final String url, final Collection<? extends Map.Entry> parameters, final InputStream body)
-    public OAuthMessage newRequestMessage(final String method, final String url, final Collection<? extends Map.Entry> parameters)
+    '''returns OAuthMessage\n\n
+    newRequestMessage(String method, final String url, final Collection<? extends Map.Entry> parameters, final InputStream body)\n
+    newRequestMessage(final String method, final String url, final Collection<? extends Map.Entry> parameters)\n
     '''

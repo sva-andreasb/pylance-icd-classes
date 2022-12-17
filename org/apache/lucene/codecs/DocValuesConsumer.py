@@ -1,172 +1,199 @@
 def merge():
-    '''public void merge(final MergeState mergeState)
+    '''returns None\n\n
+    merge(final MergeState mergeState)\n
     '''
 def mergeNumericField():
-    '''public void mergeNumericField(final FieldInfo mergeFieldInfo, final MergeState mergeState)
+    '''returns None\n\n
+    mergeNumericField(final FieldInfo mergeFieldInfo, final MergeState mergeState)\n
     '''
 def getNumeric():
-    '''public NumericDocValues getNumeric(final FieldInfo fieldInfo)
+    '''returns NumericDocValues\n\n
+    getNumeric(final FieldInfo fieldInfo)\n
     '''
 def docID():
-    '''public int docID()
-    public int docID()
-    public int docID()
-    public int docID()
-    public int docID()
+    '''returns int\n\n
+    docID()\n
+    docID()\n
+    docID()\n
+    docID()\n
+    docID()\n
     '''
 def nextDoc():
-    '''public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
+    '''returns int\n\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
     '''
 def advance():
-    '''public int advance(final int target)
-    public int advance(final int target)
-    public int advance(final int target)
-    public int advance(final int target)
-    public int advance(final int target)
+    '''returns int\n\n
+    advance(final int target)\n
+    advance(final int target)\n
+    advance(final int target)\n
+    advance(final int target)\n
+    advance(final int target)\n
     '''
 def advanceExact():
-    '''public boolean advanceExact(final int target)
-    public boolean advanceExact(final int target)
-    public boolean advanceExact(final int target)
-    public boolean advanceExact(final int target)
-    public boolean advanceExact(final int target)
+    '''returns boolean\n\n
+    advanceExact(final int target)\n
+    advanceExact(final int target)\n
+    advanceExact(final int target)\n
+    advanceExact(final int target)\n
+    advanceExact(final int target)\n
     '''
 def cost():
-    '''public long cost()
-    public long cost()
-    public long cost()
-    public long cost()
-    public long cost()
+    '''returns long\n\n
+    cost()\n
+    cost()\n
+    cost()\n
+    cost()\n
+    cost()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def mergeBinaryField():
-    '''public void mergeBinaryField(final FieldInfo mergeFieldInfo, final MergeState mergeState)
+    '''returns None\n\n
+    mergeBinaryField(final FieldInfo mergeFieldInfo, final MergeState mergeState)\n
     '''
 def getBinary():
-    '''public BinaryDocValues getBinary(final FieldInfo fieldInfo)
+    '''returns BinaryDocValues\n\n
+    getBinary(final FieldInfo fieldInfo)\n
     '''
 def binaryValue():
-    '''public BytesRef binaryValue()
+    '''returns BytesRef\n\n
+    binaryValue()\n
     '''
 def mergeSortedNumericField():
-    '''public void mergeSortedNumericField(final FieldInfo mergeFieldInfo, final MergeState mergeState)
+    '''returns None\n\n
+    mergeSortedNumericField(final FieldInfo mergeFieldInfo, final MergeState mergeState)\n
     '''
 def getSortedNumeric():
-    '''public SortedNumericDocValues getSortedNumeric(final FieldInfo fieldInfo)
+    '''returns SortedNumericDocValues\n\n
+    getSortedNumeric(final FieldInfo fieldInfo)\n
     '''
 def docValueCount():
-    '''public int docValueCount()
+    '''returns int\n\n
+    docValueCount()\n
     '''
 def nextValue():
-    '''public long nextValue()
+    '''returns long\n\n
+    nextValue()\n
     '''
 def mergeSortedField():
-    '''public void mergeSortedField(final FieldInfo fieldInfo, final MergeState mergeState)
+    '''returns None\n\n
+    mergeSortedField(final FieldInfo fieldInfo, final MergeState mergeState)\n
     '''
 def getSorted():
-    '''public SortedDocValues getSorted(final FieldInfo fieldInfoIn)
+    '''returns SortedDocValues\n\n
+    getSorted(final FieldInfo fieldInfoIn)\n
     '''
 def ordValue():
-    '''public int ordValue()
+    '''returns int\n\n
+    ordValue()\n
     '''
 def getValueCount():
-    '''public int getValueCount()
-    public long getValueCount()
+    '''returns long\n\n
+    getValueCount()\n
+    getValueCount()\n
     '''
 def lookupOrd():
-    '''public BytesRef lookupOrd(final int ord)
-    public BytesRef lookupOrd(final long ord)
+    '''returns BytesRef\n\n
+    lookupOrd(final int ord)\n
+    lookupOrd(final long ord)\n
     '''
 def termsEnum():
-    '''public TermsEnum termsEnum()
-    public TermsEnum termsEnum()
+    '''returns TermsEnum\n\n
+    termsEnum()\n
+    termsEnum()\n
     '''
 def mergeSortedSetField():
-    '''public void mergeSortedSetField(final FieldInfo mergeFieldInfo, final MergeState mergeState)
+    '''returns None\n\n
+    mergeSortedSetField(final FieldInfo mergeFieldInfo, final MergeState mergeState)\n
     '''
 def getSortedSet():
-    '''public SortedSetDocValues getSortedSet(final FieldInfo fieldInfo)
+    '''returns SortedSetDocValues\n\n
+    getSortedSet(final FieldInfo fieldInfo)\n
     '''
 def nextOrd():
-    '''public long nextOrd()
-    '''
-def isSingleValued():
-    '''public static boolean isSingleValued(final Iterable<Number> docToValueCount)
-    '''
-def singletonView():
-    '''public static Iterable<Number> singletonView(final Iterable<Number> docToValueCount, final Iterable<Number> values, final Number missingValue)
+    '''returns long\n\n
+    nextOrd()\n
     '''
 def iterator():
-    '''public Iterator<Number> iterator()
+    '''returns Iterator<Number>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Number next()
-    public BytesRef next()
+    '''returns BytesRef\n\n
+    next()\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
-def NumericDocValuesSub():
-    '''public NumericDocValuesSub(final MergeState.DocMap docMap, final NumericDocValues values)
-    '''
-def BinaryDocValuesSub():
-    '''public BinaryDocValuesSub(final MergeState.DocMap docMap, final BinaryDocValues values)
-    '''
-def SortedNumericDocValuesSub():
-    '''public SortedNumericDocValuesSub(final MergeState.DocMap docMap, final SortedNumericDocValues values)
+def ():
+    '''returns SortedSetDocValuesSub\n\n
+    (final MergeState.DocMap docMap, final NumericDocValues values)\n
+    (final MergeState.DocMap docMap, final BinaryDocValues values)\n
+    (final MergeState.DocMap docMap, final SortedNumericDocValues values)\n
+    (final MergeState.DocMap docMap, final SortedDocValues values, final LongValues map)\n
+    (final MergeState.DocMap docMap, final SortedSetDocValues values, final LongValues map)\n
     '''
 def term():
-    '''public BytesRef term()
+    '''returns BytesRef\n\n
+    term()\n
     '''
 def ord():
-    '''public long ord()
+    '''returns long\n\n
+    ord()\n
     '''
 def attributes():
-    '''public AttributeSource attributes()
+    '''returns AttributeSource\n\n
+    attributes()\n
     '''
 def seekExact():
-    '''public boolean seekExact(final BytesRef text)
-    public void seekExact(final long ord)
-    public void seekExact(final BytesRef term, final TermState state)
+    '''returns None\n\n
+    seekExact(final BytesRef text)\n
+    seekExact(final long ord)\n
+    seekExact(final BytesRef term, final TermState state)\n
     '''
 def seekCeil():
-    '''public SeekStatus seekCeil(final BytesRef text)
+    '''returns SeekStatus\n\n
+    seekCeil(final BytesRef text)\n
     '''
 def docFreq():
-    '''public int docFreq()
+    '''returns int\n\n
+    docFreq()\n
     '''
 def totalTermFreq():
-    '''public long totalTermFreq()
+    '''returns long\n\n
+    totalTermFreq()\n
     '''
 def postings():
-    '''public PostingsEnum postings(final PostingsEnum reuse, final int flags)
+    '''returns PostingsEnum\n\n
+    postings(final PostingsEnum reuse, final int flags)\n
     '''
 def impacts():
-    '''public ImpactsEnum impacts(final int flags)
+    '''returns ImpactsEnum\n\n
+    impacts(final int flags)\n
     '''
 def termState():
-    '''public TermState termState()
-    '''
-def SortedDocValuesSub():
-    '''public SortedDocValuesSub(final MergeState.DocMap docMap, final SortedDocValues values, final LongValues map)
-    '''
-def SortedSetDocValuesSub():
-    '''public SortedSetDocValuesSub(final MergeState.DocMap docMap, final SortedSetDocValues values, final LongValues map)
+    '''returns TermState\n\n
+    termState()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

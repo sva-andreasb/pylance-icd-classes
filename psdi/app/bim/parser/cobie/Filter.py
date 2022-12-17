@@ -1,13 +1,17 @@
-def Filter():
-    '''public Filter()
-    public Filter(final Type type)
+def ():
+    '''returns Filter\n\n
+    ()\n
+    (final Type type)\n
     '''
 def addFilterEntry():
-    '''public void addFilterEntry(final String sheetName, final String expression, final Match match)
+    '''returns None\n\n
+    addFilterEntry(final String sheetName, final String expression, final Match match)\n
     '''
 def isItemFiltered():
-    '''public boolean isItemFiltered(final String sheet, final String name)
+    '''returns boolean\n\n
+    isItemFiltered(final String sheet, final String name)\n
     '''
 def setType():
-    '''public void setType(final Type type)
+    '''returns None\n\n
+    setType(final Type type)\n
     '''

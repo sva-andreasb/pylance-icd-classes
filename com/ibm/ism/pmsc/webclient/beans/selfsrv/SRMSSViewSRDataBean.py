@@ -1,15 +1,20 @@
-def SRMSSViewSRDataBean():
-    '''public SRMSSViewSRDataBean()
+def ():
+    '''returns SRMSSViewSRDataBean\n\n
+    ()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def okviewsr():
-    '''public int okviewsr()
+    '''returns int\n\n
+    okviewsr()\n
     '''
 def downloadvnc():
-    '''public int downloadvnc()
+    '''returns int\n\n
+    downloadvnc()\n
     '''
 def OFDIALOG():
-    '''public int OFDIALOG()
+    '''returns int\n\n
+    OFDIALOG()\n
     '''

@@ -1,3 +1,4 @@
-def PMForecastCostCronParamSet():
-    '''public PMForecastCostCronParamSet(final MboServerInterface ms)
+def ():
+    '''returns PMForecastCostCronParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

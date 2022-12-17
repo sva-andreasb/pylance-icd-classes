@@ -1,3 +1,4 @@
 def getTargets():
-    '''public InstructionHandle[] getTargets()
+    '''returns InstructionHandle[]\n\n
+    getTargets()\n
     '''

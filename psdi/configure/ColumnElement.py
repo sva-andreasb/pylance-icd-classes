@@ -1,83 +1,108 @@
 END_OF_MEDIUM = "char  '\u0019'"
 DC3 = "char  '\u0013'"
-def ColumnElement():
-    '''public ColumnElement(final String name, final Namespace namespace, final String dir)
-    public ColumnElement(final String name, final String dir)
-    public ColumnElement(final String name, final String uri, final String dir)
-    public ColumnElement(final String name, final String prefix, final String uri, final String dir)
-    public ColumnElement(final TableElement tableElement, final String name, final HashMap newCol, final HashMap oldCol)
+def ():
+    '''returns ColumnElement\n\n
+    (final String name, final Namespace namespace, final String dir)\n
+    (final String name, final String dir)\n
+    (final String name, final String uri, final String dir)\n
+    (final String name, final String prefix, final String uri, final String dir)\n
+    (final TableElement tableElement, final String name, final HashMap newCol, final HashMap oldCol)\n
     '''
 def getColumnName():
-    '''public String getColumnName()
+    '''returns String\n\n
+    getColumnName()\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def getNewChanged():
-    '''public String getNewChanged()
+    '''returns String\n\n
+    getNewChanged()\n
     '''
 def setNewChanged():
-    '''public void setNewChanged(final String value)
+    '''returns None\n\n
+    setNewChanged(final String value)\n
     '''
 def getColumnAttributes():
-    '''public List getColumnAttributes()
+    '''returns List\n\n
+    getColumnAttributes()\n
     '''
 def getColumnAttribute():
-    '''public Element getColumnAttribute(final String attrName)
+    '''returns Element\n\n
+    getColumnAttribute(final String attrName)\n
     '''
 def getAddSql():
-    '''public ArrayList getAddSql(final String tbname, final String name, final Connection con, final Util util, final HashMap oldCol, final TableElement tableElement)
+    '''returns ArrayList\n\n
+    getAddSql(final String tbname, final String name, final Connection con, final Util util, final HashMap oldCol, final TableElement tableElement)\n
     '''
 def getUpdateSql():
-    '''public ArrayList getUpdateSql(final String tbname, final String name, final Connection con, final Util util, final HashMap oldCol, final TableElement tableElement)
+    '''returns ArrayList\n\n
+    getUpdateSql(final String tbname, final String name, final Connection con, final Util util, final HashMap oldCol, final TableElement tableElement)\n
     '''
 def customClassExists():
-    '''public boolean customClassExists(final String className)
+    '''returns boolean\n\n
+    customClassExists(final String className)\n
     '''
 def getColumnMeta():
-    '''public HashMap getColumnMeta(final String tableName, final String columnName)
+    '''returns HashMap\n\n
+    getColumnMeta(final String tableName, final String columnName)\n
     '''
 def getNewHashmap():
-    '''public HashMap getNewHashmap(HashMap oldMap, final boolean rebuild)
+    '''returns HashMap\n\n
+    getNewHashmap(HashMap oldMap, final boolean rebuild)\n
     '''
 def toHashmap():
-    '''public HashMap toHashmap(final HashMap oldMap)
+    '''returns HashMap\n\n
+    toHashmap(final HashMap oldMap)\n
     '''
 def getGLLength():
-    '''public String getGLLength()
+    '''returns String\n\n
+    getGLLength()\n
     '''
 def getAmountLength():
-    '''public String getAmountLength()
+    '''returns String\n\n
+    getAmountLength()\n
     '''
 def getAmountScale():
-    '''public String getAmountScale()
+    '''returns String\n\n
+    getAmountScale()\n
     '''
 def isCharType():
-    '''public boolean isCharType(final Element attr)
-    public boolean isCharType(final String maxtype)
+    '''returns boolean\n\n
+    isCharType(final Element attr)\n
+    isCharType(final String maxtype)\n
     '''
 def forceDrop():
-    '''public boolean forceDrop()
+    '''returns boolean\n\n
+    forceDrop()\n
     '''
 def addUserColumn():
-    '''public ArrayList addUserColumn(final String baseTable)
-    public ArrayList addUserColumn(final String tableName, final HashMap column)
+    '''returns ArrayList\n\n
+    addUserColumn(final String baseTable)\n
+    addUserColumn(final String tableName, final HashMap column)\n
     '''
 def addAutoSelectColumn():
-    '''public ArrayList addAutoSelectColumn(final String tableName, final Util util)
+    '''returns ArrayList\n\n
+    addAutoSelectColumn(final String tableName, final Util util)\n
     '''
 def addViewColumn():
-    '''public ArrayList addViewColumn(final String tableName, final Util util)
+    '''returns ArrayList\n\n
+    addViewColumn(final String tableName, final Util util)\n
     '''
 def adjustViewRequired():
-    '''public ArrayList adjustViewRequired(final Util util)
+    '''returns ArrayList\n\n
+    adjustViewRequired(final Util util)\n
     '''
 def viewColumnExists():
-    '''public boolean viewColumnExists()
+    '''returns boolean\n\n
+    viewColumnExists()\n
     '''
 def getUpdateCount():
-    '''public int getUpdateCount()
+    '''returns int\n\n
+    getUpdateCount()\n
     '''

@@ -1,19 +1,21 @@
-def resolve():
-    '''public static Currency resolve(Currency currency, final ULocale locale, final DecimalFormatSymbols symbols)
-    '''
-def CustomSymbolCurrency():
-    '''public CustomSymbolCurrency(final String isoCode, final String currency1Sym, final String currency2Sym)
+def ():
+    '''returns CustomSymbolCurrency\n\n
+    (final String isoCode, final String currency1Sym, final String currency2Sym)\n
     '''
 def getName():
-    '''public String getName(final ULocale locale, final int nameStyle, final boolean[] isChoiceFormat)
-    public String getName(final ULocale locale, final int nameStyle, final String pluralCount, final boolean[] isChoiceFormat)
+    '''returns String\n\n
+    getName(final ULocale locale, final int nameStyle, final boolean[] isChoiceFormat)\n
+    getName(final ULocale locale, final int nameStyle, final String pluralCount, final boolean[] isChoiceFormat)\n
     '''
 def getCurrencyCode():
-    '''public String getCurrencyCode()
+    '''returns String\n\n
+    getCurrencyCode()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

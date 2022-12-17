@@ -4,29 +4,38 @@ SUBSCRIBE_ACTION = "int  2"
 RECEIVE_ACTION = "int  3"
 ON_EXCEPTION_ACTION = "int  4"
 def getVendorId():
-    '''public String getVendorId()
+    '''returns String\n\n
+    getVendorId()\n
     '''
 def getJMSConnectorProperties():
-    '''public HashMap getJMSConnectorProperties(final JMSURLHelper jmsurl)
+    '''returns HashMap\n\n
+    getJMSConnectorProperties(final JMSURLHelper jmsurl)\n
     '''
 def getJMSConnectionFactoryProperties():
-    '''public HashMap getJMSConnectionFactoryProperties(final JMSURLHelper jmsurl)
+    '''returns HashMap\n\n
+    getJMSConnectionFactoryProperties(final JMSURLHelper jmsurl)\n
     '''
 def getQueue():
-    '''public Queue getQueue(final QueueSession session, final String name)
+    '''returns Queue\n\n
+    getQueue(final QueueSession session, final String name)\n
     '''
 def getTopic():
-    '''public Topic getTopic(final TopicSession session, final String name)
+    '''returns Topic\n\n
+    getTopic(final TopicSession session, final String name)\n
     '''
 def isRecoverable():
-    '''public boolean isRecoverable(final Throwable thrown, final int action)
+    '''returns boolean\n\n
+    isRecoverable(final Throwable thrown, final int action)\n
     '''
 def setProperties():
-    '''public void setProperties(final Message message, final HashMap props)
+    '''returns None\n\n
+    setProperties(final Message message, final HashMap props)\n
     '''
 def setupMessageContext():
-    '''public void setupMessageContext(final MessageContext context, final Call call, final JMSURLHelper jmsurl)
+    '''returns None\n\n
+    setupMessageContext(final MessageContext context, final Call call, final JMSURLHelper jmsurl)\n
     '''
 def setupApplicationProperties():
-    '''public void setupApplicationProperties(final MessageContext context, final Call call, final JMSURLHelper jmsurl)
+    '''returns None\n\n
+    setupApplicationProperties(final MessageContext context, final Call call, final JMSURLHelper jmsurl)\n
     '''

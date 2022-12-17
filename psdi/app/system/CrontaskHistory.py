@@ -1,3 +1,4 @@
-def CrontaskHistory():
-    '''public CrontaskHistory(final MboSet ms)
+def ():
+    '''returns CrontaskHistory\n\n
+    (final MboSet ms)\n
     '''

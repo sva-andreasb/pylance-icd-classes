@@ -1,22 +1,29 @@
-def InputStreamBody():
-    '''public InputStreamBody(final InputStream in, final String mimeType, final String filename)
-    public InputStreamBody(final InputStream in, final String filename)
+def ():
+    '''returns InputStreamBody\n\n
+    (final InputStream in, final String mimeType, final String filename)\n
+    (final InputStream in, final String filename)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def getTransferEncoding():
-    '''public String getTransferEncoding()
+    '''returns String\n\n
+    getTransferEncoding()\n
     '''
 def getCharset():
-    '''public String getCharset()
+    '''returns String\n\n
+    getCharset()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''

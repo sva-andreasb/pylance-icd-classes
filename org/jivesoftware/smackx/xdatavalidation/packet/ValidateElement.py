@@ -3,54 +3,57 @@ ELEMENT = "String  \"list-range\""
 NAMESPACE = "String  \"http://jabber.org/protocol/xdata-validate\""
 METHOD = "String  \"regex\""
 def getDatatype():
-    '''public String getDatatype()
+    '''returns String\n\n
+    getDatatype()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def setListRange():
-    '''public void setListRange(final ListRange listRange)
+    '''returns None\n\n
+    setListRange(final ListRange listRange)\n
     '''
 def getListRange():
-    '''public ListRange getListRange()
+    '''returns ListRange\n\n
+    getListRange()\n
     '''
-def BasicValidateElement():
-    '''public BasicValidateElement(final String dataType)
+def ():
+    '''returns ListRange\n\n
+    (final String dataType)\n
+    (final String dataType)\n
+    (final String dataType, final String min, final String max)\n
+    (final String dataType, final String regex)\n
+    (final Long min, final Long max)\n
     '''
 def checkConsistency():
-    '''public void checkConsistency(final FormField formField)
-    public void checkConsistency(final FormField formField)
-    public void checkConsistency(final FormField formField)
-    public void checkConsistency(final FormField formField)
-    '''
-def OpenValidateElement():
-    '''public OpenValidateElement(final String dataType)
-    '''
-def RangeValidateElement():
-    '''public RangeValidateElement(final String dataType, final String min, final String max)
+    '''returns None\n\n
+    checkConsistency(final FormField formField)\n
+    checkConsistency(final FormField formField)\n
+    checkConsistency(final FormField formField)\n
+    checkConsistency(final FormField formField)\n
     '''
 def getMin():
-    '''public String getMin()
-    public Long getMin()
+    '''returns Long\n\n
+    getMin()\n
+    getMin()\n
     '''
 def getMax():
-    '''public String getMax()
-    public Long getMax()
-    '''
-def RegexValidateElement():
-    '''public RegexValidateElement(final String dataType, final String regex)
+    '''returns Long\n\n
+    getMax()\n
+    getMax()\n
     '''
 def getRegex():
-    '''public String getRegex()
-    '''
-def ListRange():
-    '''public ListRange(final Long min, final Long max)
+    '''returns String\n\n
+    getRegex()\n
     '''

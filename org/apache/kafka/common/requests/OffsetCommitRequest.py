@@ -2,56 +2,55 @@ DEFAULT_GENERATION_ID = "int  -1"
 DEFAULT_MEMBER_ID = "String  \"\""
 DEFAULT_RETENTION_TIME = "long  -1L"
 DEFAULT_TIMESTAMP = "long  -1L"
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def OffsetCommitRequest():
-    '''public OffsetCommitRequest(final Struct struct, final short versionId)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short versionId)\n
+    (final long offset, final long timestamp, final String metadata)\n
+    (final long offset, final String metadata)\n
+    (final String groupId, final Map<TopicPartition, PartitionData> offsetData)\n
     '''
 def toStruct():
-    '''public Struct toStruct()
+    '''returns Struct\n\n
+    toStruct()\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def groupId():
-    '''public String groupId()
+    '''returns String\n\n
+    groupId()\n
     '''
 def generationId():
-    '''public int generationId()
+    '''returns int\n\n
+    generationId()\n
     '''
 def memberId():
-    '''public String memberId()
+    '''returns String\n\n
+    memberId()\n
     '''
 def retentionTime():
-    '''public long retentionTime()
-    '''
-def offsetData():
-    '''public Map<TopicPartition, PartitionData> offsetData()
-    '''
-def parse():
-    '''public static OffsetCommitRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def PartitionData():
-    '''public PartitionData(final long offset, final long timestamp, final String metadata)
-    public PartitionData(final long offset, final String metadata)
+    '''returns long\n\n
+    retentionTime()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def Builder():
-    '''public Builder(final String groupId, final Map<TopicPartition, PartitionData> offsetData)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def setMemberId():
-    '''public Builder setMemberId(final String memberId)
+    '''returns Builder\n\n
+    setMemberId(final String memberId)\n
     '''
 def setGenerationId():
-    '''public Builder setGenerationId(final int generationId)
+    '''returns Builder\n\n
+    setGenerationId(final int generationId)\n
     '''
 def setRetentionTime():
-    '''public Builder setRetentionTime(final long retentionTime)
+    '''returns Builder\n\n
+    setRetentionTime(final long retentionTime)\n
     '''
 def build():
-    '''public OffsetCommitRequest build(final short version)
+    '''returns OffsetCommitRequest\n\n
+    build(final short version)\n
     '''

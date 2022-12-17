@@ -1,3 +1,4 @@
-def StoreroomReorder():
-    '''public StoreroomReorder(final MboSet ms)
+def ():
+    '''returns StoreroomReorder\n\n
+    (final MboSet ms)\n
     '''

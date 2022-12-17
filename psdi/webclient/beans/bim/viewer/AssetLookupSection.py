@@ -1,12 +1,16 @@
 def bimviewer():
-    '''public int bimviewer()
+    '''returns int\n\n
+    bimviewer()\n
     '''
 def bimModelListChanged():
-    '''public int bimModelListChanged()
+    '''returns int\n\n
+    bimModelListChanged()\n
     '''
 def eventMultiSelect():
-    '''public int eventMultiSelect()
+    '''returns int\n\n
+    eventMultiSelect()\n
     '''
 def appendSelection():
-    '''public int appendSelection()
+    '''returns int\n\n
+    appendSelection()\n
     '''

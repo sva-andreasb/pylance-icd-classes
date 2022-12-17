@@ -1,72 +1,72 @@
-def distinct():
-    '''public static SqlNode distinct(final SDBRequest request, final SqlNode sqlNode)
-    '''
-def project():
-    '''public static SqlNode project(final SDBRequest request, final SqlNode sqlNode)
-    public static SqlNode project(final SDBRequest request, final SqlNode sqlNode, final Collection<ColAlias> cols)
-    public static SqlNode project(final SDBRequest request, final SqlNode sqlNode, final ColAlias col)
-    '''
-def slice():
-    '''public static SqlNode slice(final SDBRequest request, final SqlNode sqlNode, long start, long length)
-    '''
-def view():
-    '''public static SqlNode view(final SDBRequest request, final SqlNode sqlNode)
-    '''
-def restrict():
-    '''public static SqlNode restrict(final SDBRequest request, final SqlNode sqlNode, final SqlExprList exprs)
-    public static SqlNode restrict(final SDBRequest request, final SqlNode sqlNode, final SqlExpr expr)
-    '''
 def isSelectBlock():
-    '''public boolean isSelectBlock()
+    '''returns boolean\n\n
+    isSelectBlock()\n
     '''
 def asSelectBlock():
-    '''public SqlSelectBlock asSelectBlock()
+    '''returns SqlSelectBlock\n\n
+    asSelectBlock()\n
     '''
 def setBlockAlias():
-    '''public void setBlockAlias(final String alias)
+    '''returns None\n\n
+    setBlockAlias(final String alias)\n
     '''
 def getCols():
-    '''public List<ColAlias> getCols()
+    '''returns List<ColAlias>\n\n
+    getCols()\n
     '''
 def add():
-    '''public void add(final ColAlias c)
+    '''returns None\n\n
+    add(final ColAlias c)\n
     '''
 def addAll():
-    '''public void addAll(final Collection<ColAlias> vc)
+    '''returns None\n\n
+    addAll(final Collection<ColAlias> vc)\n
     '''
 def clearView():
-    '''public SqlNode clearView()
+    '''returns SqlNode\n\n
+    clearView()\n
     '''
 def getConditions():
-    '''public SqlExprList getConditions()
+    '''returns SqlExprList\n\n
+    getConditions()\n
     '''
 def hasSlice():
-    '''public boolean hasSlice()
+    '''returns boolean\n\n
+    hasSlice()\n
     '''
 def hasConditions():
-    '''public boolean hasConditions()
+    '''returns boolean\n\n
+    hasConditions()\n
     '''
 def getStart():
-    '''public long getStart()
+    '''returns long\n\n
+    getStart()\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def getIdScope():
-    '''public Scope getIdScope()
+    '''returns Scope\n\n
+    getIdScope()\n
     '''
 def getNodeScope():
-    '''public Scope getNodeScope()
+    '''returns Scope\n\n
+    getNodeScope()\n
     '''
 def apply():
-    '''public SqlNode apply(final SqlTransform transform, final SqlNode newSubNode)
+    '''returns SqlNode\n\n
+    apply(final SqlTransform transform, final SqlNode newSubNode)\n
     '''
 def copy():
-    '''public SqlNode copy(final SqlNode subNode)
+    '''returns SqlNode\n\n
+    copy(final SqlNode subNode)\n
     '''
 def visit():
-    '''public void visit(final SqlNodeVisitor visitor)
+    '''returns None\n\n
+    visit(final SqlNodeVisitor visitor)\n
     '''
 def getDistinct():
-    '''public boolean getDistinct()
+    '''returns boolean\n\n
+    getDistinct()\n
     '''

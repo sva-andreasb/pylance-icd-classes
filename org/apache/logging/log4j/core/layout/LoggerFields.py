@@ -1,15 +1,12 @@
-def getMap():
-    '''public Map<String, String> getMap()
-    '''
 def toString():
-    '''public String toString()
-    '''
-def createLoggerFields():
-    '''public static LoggerFields createLoggerFields(@PluginElement("LoggerFields") final KeyValuePair[] keyValuePairs, @PluginAttribute("sdId") final String sdId, @PluginAttribute("enterpriseId") final String enterpriseId, @PluginAttribute("discardIfAllFieldsAreEmpty") final boolean discardIfAllFieldsAreEmpty)
+    '''returns String\n\n
+    toString()\n
     '''
 def getSdId():
-    '''public StructuredDataId getSdId()
+    '''returns StructuredDataId\n\n
+    getSdId()\n
     '''
 def getDiscardIfAllFieldsAreEmpty():
-    '''public boolean getDiscardIfAllFieldsAreEmpty()
+    '''returns boolean\n\n
+    getDiscardIfAllFieldsAreEmpty()\n
     '''

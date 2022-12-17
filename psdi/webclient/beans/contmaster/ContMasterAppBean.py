@@ -1,12 +1,16 @@
 def DETAILREP():
-    '''public int DETAILREP()
+    '''returns int\n\n
+    DETAILREP()\n
     '''
 def PRINTDOCS():
-    '''public int PRINTDOCS()
+    '''returns int\n\n
+    PRINTDOCS()\n
     '''
 def REVCONT():
-    '''public int REVCONT()
+    '''returns int\n\n
+    REVCONT()\n
     '''
 def CREATECONT():
-    '''public int CREATECONT()
+    '''returns int\n\n
+    CREATECONT()\n
     '''

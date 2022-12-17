@@ -1,4 +1,5 @@
-def NoSuchProviderException():
-    '''public NoSuchProviderException()
-    public NoSuchProviderException(final String message)
+def ():
+    '''returns NoSuchProviderException\n\n
+    ()\n
+    (final String message)\n
     '''

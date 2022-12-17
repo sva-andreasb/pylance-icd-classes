@@ -1,48 +1,63 @@
-def IlvFormReaderFormat():
-    '''public IlvFormReaderFormat()
+def ():
+    '''returns IlvFormReaderFormat\n\n
+    ()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String c)
+    '''returns None\n\n
+    setDescription(final String c)\n
     '''
 def accept():
-    '''public boolean accept(final Element element)
+    '''returns boolean\n\n
+    accept(final Element element)\n
     '''
 def registerObjectReader():
-    '''public void registerObjectReader(final String s, final Class clazz, final Class clazz2, final IlvObjectReader ilvObjectReader)
-    public void registerObjectReader(final String s, final Class clazz, final IlvObjectReader ilvObjectReader)
-    public void registerObjectReader(final Class clazz, final IlvObjectReader ilvObjectReader)
+    '''returns None\n\n
+    registerObjectReader(final String s, final Class clazz, final Class clazz2, final IlvObjectReader ilvObjectReader)\n
+    registerObjectReader(final String s, final Class clazz, final IlvObjectReader ilvObjectReader)\n
+    registerObjectReader(final Class clazz, final IlvObjectReader ilvObjectReader)\n
     '''
 def unregisterObjectReader():
-    '''public IlvObjectReader unregisterObjectReader(final String anObject)
-    public IlvObjectReader unregisterObjectReader(final Class clazz)
+    '''returns IlvObjectReader\n\n
+    unregisterObjectReader(final String anObject)\n
+    unregisterObjectReader(final Class clazz)\n
     '''
 def getObjectReader():
-    '''public IlvObjectReader getObjectReader(final Object o, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns IlvObjectReader\n\n
+    getObjectReader(final Object o, final Element element, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getReaderInfo():
-    '''public ReaderInfo getReaderInfo(final Object o, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns ReaderInfo\n\n
+    getReaderInfo(final Object o, final Element element, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def registerControlTypeMapping():
-    '''public void registerControlTypeMapping(final String s, final String s2)
+    '''returns None\n\n
+    registerControlTypeMapping(final String s, final String s2)\n
     '''
 def getControlType():
-    '''public String getControlType(final String s)
+    '''returns String\n\n
+    getControlType(final String s)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getSettingsType():
-    '''public String getSettingsType()
+    '''returns String\n\n
+    getSettingsType()\n
     '''
 def getObjectClass():
-    '''public Class getObjectClass()
+    '''returns Class\n\n
+    getObjectClass()\n
     '''
 def getObjectToCreateClass():
-    '''public Class getObjectToCreateClass()
+    '''returns Class\n\n
+    getObjectToCreateClass()\n
     '''
 def getReader():
-    '''public IlvObjectReader getReader()
+    '''returns IlvObjectReader\n\n
+    getReader()\n
     '''

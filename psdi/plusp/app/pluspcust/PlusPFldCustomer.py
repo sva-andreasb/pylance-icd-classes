@@ -1,12 +1,16 @@
-def PlusPFldCustomer():
-    '''public PlusPFldCustomer(final MboValue mbv)
+def ():
+    '''returns PlusPFldCustomer\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote mboRemote, final long accessModifier)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote mboRemote, final long accessModifier)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

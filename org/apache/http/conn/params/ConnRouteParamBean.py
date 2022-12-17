@@ -1,12 +1,16 @@
-def ConnRouteParamBean():
-    '''public ConnRouteParamBean(final HttpParams params)
+def ():
+    '''returns ConnRouteParamBean\n\n
+    (final HttpParams params)\n
     '''
 def setDefaultProxy():
-    '''public void setDefaultProxy(final HttpHost defaultProxy)
+    '''returns None\n\n
+    setDefaultProxy(final HttpHost defaultProxy)\n
     '''
 def setLocalAddress():
-    '''public void setLocalAddress(final InetAddress address)
+    '''returns None\n\n
+    setLocalAddress(final InetAddress address)\n
     '''
 def setForcedRoute():
-    '''public void setForcedRoute(final HttpRoute route)
+    '''returns None\n\n
+    setForcedRoute(final HttpRoute route)\n
     '''

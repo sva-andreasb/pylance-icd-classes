@@ -1,33 +1,44 @@
 def getConnection():
-    '''public Object getConnection(final Subject subject, final ConnectionRequestInfo connectionRequestInfo)
+    '''returns Object\n\n
+    getConnection(final Subject subject, final ConnectionRequestInfo connectionRequestInfo)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def associateConnection():
-    '''public void associateConnection(final Object o)
+    '''returns None\n\n
+    associateConnection(final Object o)\n
     '''
 def addConnectionEventListener():
-    '''public void addConnectionEventListener(final ConnectionEventListener connectionEventListener)
+    '''returns None\n\n
+    addConnectionEventListener(final ConnectionEventListener connectionEventListener)\n
     '''
 def removeConnectionEventListener():
-    '''public void removeConnectionEventListener(final ConnectionEventListener key)
+    '''returns None\n\n
+    removeConnectionEventListener(final ConnectionEventListener key)\n
     '''
 def getXAResource():
-    '''public XAResource getXAResource()
+    '''returns XAResource\n\n
+    getXAResource()\n
     '''
 def getLocalTransaction():
-    '''public LocalTransaction getLocalTransaction()
+    '''returns LocalTransaction\n\n
+    getLocalTransaction()\n
     '''
 def getMetaData():
-    '''public ManagedConnectionMetaData getMetaData()
+    '''returns ManagedConnectionMetaData\n\n
+    getMetaData()\n
     '''
 def setLogWriter():
-    '''public void setLogWriter(final PrintWriter logWriter)
+    '''returns None\n\n
+    setLogWriter(final PrintWriter logWriter)\n
     '''
 def getLogWriter():
-    '''public PrintWriter getLogWriter()
+    '''returns PrintWriter\n\n
+    getLogWriter()\n
     '''

@@ -1,87 +1,116 @@
-def GenModelAdapterFactory():
-    '''public GenModelAdapterFactory()
+def ():
+    '''returns GenModelAdapterFactory\n\n
+    ()\n
     '''
 def caseGenModel():
-    '''public Object caseGenModel(final GenModel object)
+    '''returns Object\n\n
+    caseGenModel(final GenModel object)\n
     '''
 def caseGenPackage():
-    '''public Object caseGenPackage(final GenPackage object)
+    '''returns Object\n\n
+    caseGenPackage(final GenPackage object)\n
     '''
 def caseGenClass():
-    '''public Object caseGenClass(final GenClass object)
+    '''returns Object\n\n
+    caseGenClass(final GenClass object)\n
     '''
 def caseGenFeature():
-    '''public Object caseGenFeature(final GenFeature object)
+    '''returns Object\n\n
+    caseGenFeature(final GenFeature object)\n
     '''
 def caseGenBase():
-    '''public Object caseGenBase(final GenBase object)
+    '''returns Object\n\n
+    caseGenBase(final GenBase object)\n
     '''
 def caseGenEnum():
-    '''public Object caseGenEnum(final GenEnum object)
+    '''returns Object\n\n
+    caseGenEnum(final GenEnum object)\n
     '''
 def caseGenEnumLiteral():
-    '''public Object caseGenEnumLiteral(final GenEnumLiteral object)
+    '''returns Object\n\n
+    caseGenEnumLiteral(final GenEnumLiteral object)\n
     '''
 def caseGenClassifier():
-    '''public Object caseGenClassifier(final GenClassifier object)
+    '''returns Object\n\n
+    caseGenClassifier(final GenClassifier object)\n
     '''
 def caseGenDataType():
-    '''public Object caseGenDataType(final GenDataType object)
+    '''returns Object\n\n
+    caseGenDataType(final GenDataType object)\n
     '''
 def caseGenOperation():
-    '''public Object caseGenOperation(final GenOperation object)
+    '''returns Object\n\n
+    caseGenOperation(final GenOperation object)\n
     '''
 def caseGenParameter():
-    '''public Object caseGenParameter(final GenParameter object)
+    '''returns Object\n\n
+    caseGenParameter(final GenParameter object)\n
     '''
 def caseGenTypedElement():
-    '''public Object caseGenTypedElement(final GenTypedElement object)
+    '''returns Object\n\n
+    caseGenTypedElement(final GenTypedElement object)\n
     '''
 def defaultCase():
-    '''public Object defaultCase(final EObject object)
+    '''returns Object\n\n
+    defaultCase(final EObject object)\n
     '''
 def isFactoryForType():
-    '''public boolean isFactoryForType(final Object object)
+    '''returns boolean\n\n
+    isFactoryForType(final Object object)\n
     '''
 def createAdapter():
-    '''public Adapter createAdapter(final Notifier target)
+    '''returns Adapter\n\n
+    createAdapter(final Notifier target)\n
     '''
 def createGenModelAdapter():
-    '''public Adapter createGenModelAdapter()
+    '''returns Adapter\n\n
+    createGenModelAdapter()\n
     '''
 def createGenPackageAdapter():
-    '''public Adapter createGenPackageAdapter()
+    '''returns Adapter\n\n
+    createGenPackageAdapter()\n
     '''
 def createGenClassAdapter():
-    '''public Adapter createGenClassAdapter()
+    '''returns Adapter\n\n
+    createGenClassAdapter()\n
     '''
 def createGenFeatureAdapter():
-    '''public Adapter createGenFeatureAdapter()
+    '''returns Adapter\n\n
+    createGenFeatureAdapter()\n
     '''
 def createGenBaseAdapter():
-    '''public Adapter createGenBaseAdapter()
+    '''returns Adapter\n\n
+    createGenBaseAdapter()\n
     '''
 def createGenEnumAdapter():
-    '''public Adapter createGenEnumAdapter()
+    '''returns Adapter\n\n
+    createGenEnumAdapter()\n
     '''
 def createGenEnumLiteralAdapter():
-    '''public Adapter createGenEnumLiteralAdapter()
+    '''returns Adapter\n\n
+    createGenEnumLiteralAdapter()\n
     '''
 def createGenClassifierAdapter():
-    '''public Adapter createGenClassifierAdapter()
+    '''returns Adapter\n\n
+    createGenClassifierAdapter()\n
     '''
 def createGenDataTypeAdapter():
-    '''public Adapter createGenDataTypeAdapter()
+    '''returns Adapter\n\n
+    createGenDataTypeAdapter()\n
     '''
 def createGenOperationAdapter():
-    '''public Adapter createGenOperationAdapter()
+    '''returns Adapter\n\n
+    createGenOperationAdapter()\n
     '''
 def createGenParameterAdapter():
-    '''public Adapter createGenParameterAdapter()
+    '''returns Adapter\n\n
+    createGenParameterAdapter()\n
     '''
 def createGenTypedElementAdapter():
-    '''public Adapter createGenTypedElementAdapter()
+    '''returns Adapter\n\n
+    createGenTypedElementAdapter()\n
     '''
 def createEObjectAdapter():
-    '''public Adapter createEObjectAdapter()
+    '''returns Adapter\n\n
+    createEObjectAdapter()\n
     '''

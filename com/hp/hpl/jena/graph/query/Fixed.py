@@ -1,12 +1,16 @@
-def Fixed():
-    '''public Fixed(final Node x)
+def ():
+    '''returns Fixed\n\n
+    (final Node x)\n
     '''
 def match():
-    '''public boolean match(final Domain d, final Node x)
+    '''returns boolean\n\n
+    match(final Domain d, final Node x)\n
     '''
 def asNodeMatch():
-    '''public Node asNodeMatch(final Domain d)
+    '''returns Node\n\n
+    asNodeMatch(final Domain d)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

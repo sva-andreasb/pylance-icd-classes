@@ -1,6 +1,8 @@
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
-def FldPredessorWOs():
-    '''public FldPredessorWOs(final MboValue mbv)
+def ():
+    '''returns FldPredessorWOs\n\n
+    (final MboValue mbv)\n
     '''

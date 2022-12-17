@@ -1,4 +1,5 @@
-def ScanException():
-    '''public ScanException(final Exception e)
-    public ScanException(final String s)
+def ():
+    '''returns ScanException\n\n
+    (final Exception e)\n
+    (final String s)\n
     '''

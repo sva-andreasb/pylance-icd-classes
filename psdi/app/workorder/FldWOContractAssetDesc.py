@@ -1,6 +1,8 @@
-def FldWOContractAssetDesc():
-    '''public FldWOContractAssetDesc(final MboValue mbv)
+def ():
+    '''returns FldWOContractAssetDesc\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

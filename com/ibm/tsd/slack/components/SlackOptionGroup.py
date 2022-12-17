@@ -1,16 +1,21 @@
-def SlackOptionGroup():
-    '''public SlackOptionGroup()
-    public SlackOptionGroup(final String label, final JSONArray options)
+def ():
+    '''returns SlackOptionGroup\n\n
+    ()\n
+    (final String label, final JSONArray options)\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setOptions():
-    '''public void setOptions(final JSONArray options)
+    '''returns None\n\n
+    setOptions(final JSONArray options)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getOptions():
-    '''public JSONArray getOptions()
+    '''returns JSONArray\n\n
+    getOptions()\n
     '''

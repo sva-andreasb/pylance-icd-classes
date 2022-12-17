@@ -1,3 +1,4 @@
-def CollectionSet():
-    '''public CollectionSet(final MboServerInterface ms)
+def ():
+    '''returns CollectionSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,39 +1,52 @@
 def setGrantToken():
-    '''public void setGrantToken(final String grantToken)
+    '''returns None\n\n
+    setGrantToken(final String grantToken)\n
     '''
 def getGrantToken():
-    '''public String getGrantToken()
+    '''returns String\n\n
+    getGrantToken()\n
     '''
 def withGrantToken():
-    '''public RetireGrantRequest withGrantToken(final String grantToken)
+    '''returns RetireGrantRequest\n\n
+    withGrantToken(final String grantToken)\n
     '''
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public RetireGrantRequest withKeyId(final String keyId)
+    '''returns RetireGrantRequest\n\n
+    withKeyId(final String keyId)\n
     '''
 def setGrantId():
-    '''public void setGrantId(final String grantId)
+    '''returns None\n\n
+    setGrantId(final String grantId)\n
     '''
 def getGrantId():
-    '''public String getGrantId()
+    '''returns String\n\n
+    getGrantId()\n
     '''
 def withGrantId():
-    '''public RetireGrantRequest withGrantId(final String grantId)
+    '''returns RetireGrantRequest\n\n
+    withGrantId(final String grantId)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public RetireGrantRequest clone()
+    '''returns RetireGrantRequest\n\n
+    clone()\n
     '''

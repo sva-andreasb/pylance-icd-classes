@@ -1,13 +1,17 @@
 def addSteps():
-    '''public void addSteps(final String type, final String op, final String phase, final List steps)
+    '''returns None\n\n
+    addSteps(final String type, final String op, final String phase, final List steps)\n
     '''
-def ExtensionProvider():
-    '''public ExtensionProvider()
-    public ExtensionProvider(final int weight)
+def ():
+    '''returns ExtensionProvider\n\n
+    ()\n
+    (final int weight)\n
     '''
 def getSortingWeight():
-    '''public int getSortingWeight()
+    '''returns int\n\n
+    getSortingWeight()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''

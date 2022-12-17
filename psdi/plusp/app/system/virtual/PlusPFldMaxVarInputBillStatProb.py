@@ -1,6 +1,8 @@
-def PlusPFldMaxVarInputBillStatProb():
-    '''public PlusPFldMaxVarInputBillStatProb(final MboValue mv)
+def ():
+    '''returns PlusPFldMaxVarInputBillStatProb\n\n
+    (final MboValue mv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

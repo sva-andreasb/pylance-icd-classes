@@ -1,73 +1,70 @@
-def SimpleDateFormat():
-    '''public SimpleDateFormat()
-    public SimpleDateFormat(final String pattern)
-    public SimpleDateFormat(final String pattern, final Locale loc)
-    public SimpleDateFormat(final String pattern, final ULocale loc)
-    public SimpleDateFormat(final String pattern, final String override, final ULocale loc)
-    public SimpleDateFormat(final String pattern, final DateFormatSymbols formatData)
-    public SimpleDateFormat(final String pattern, final DateFormatSymbols formatData, final ULocale loc)
-    '''
-def getInstance():
-    '''public static SimpleDateFormat getInstance(final Calendar.FormatConfiguration formatConfig)
+def ():
+    '''returns SimpleDateFormat\n\n
+    ()\n
+    (final String pattern)\n
+    (final String pattern, final Locale loc)\n
+    (final String pattern, final ULocale loc)\n
+    (final String pattern, final String override, final ULocale loc)\n
+    (final String pattern, final DateFormatSymbols formatData)\n
+    (final String pattern, final DateFormatSymbols formatData, final ULocale loc)\n
     '''
 def set2DigitYearStart():
-    '''public void set2DigitYearStart(final Date startDate)
+    '''returns None\n\n
+    set2DigitYearStart(final Date startDate)\n
     '''
 def get2DigitYearStart():
-    '''public Date get2DigitYearStart()
-    '''
-def setContext():
-    '''public void setContext(final DisplayContext context)
+    '''returns Date\n\n
+    get2DigitYearStart()\n
     '''
 def format():
-    '''public StringBuffer format(final Calendar cal, final StringBuffer toAppendTo, final FieldPosition pos)
+    '''returns StringBuffer\n\n
+    format(Calendar cal, final StringBuffer toAppendTo, final FieldPosition pos)\n
     '''
 def setNumberFormat():
-    '''public void setNumberFormat(final NumberFormat newNumberFormat)
-    public void setNumberFormat(final String fields, final NumberFormat overrideNF)
+    '''returns None\n\n
+    setNumberFormat(final NumberFormat newNumberFormat)\n
     '''
 def parse():
-    '''public void parse(final String text, Calendar cal, final ParsePosition parsePos)
+    '''returns None\n\n
+    parse(final String text, Calendar cal, final ParsePosition parsePos)\n
     '''
 def toPattern():
-    '''public String toPattern()
+    '''returns String\n\n
+    toPattern()\n
     '''
 def toLocalizedPattern():
-    '''public String toLocalizedPattern()
+    '''returns String\n\n
+    toLocalizedPattern()\n
     '''
 def applyPattern():
-    '''public void applyPattern(final String pat)
+    '''returns None\n\n
+    applyPattern(final String pat)\n
     '''
 def applyLocalizedPattern():
-    '''public void applyLocalizedPattern(final String pat)
+    '''returns None\n\n
+    applyLocalizedPattern(final String pat)\n
     '''
 def getDateFormatSymbols():
-    '''public DateFormatSymbols getDateFormatSymbols()
+    '''returns DateFormatSymbols\n\n
+    getDateFormatSymbols()\n
     '''
 def setDateFormatSymbols():
-    '''public void setDateFormatSymbols(final DateFormatSymbols newFormatSymbols)
-    '''
-def getTimeZoneFormat():
-    '''public TimeZoneFormat getTimeZoneFormat()
-    '''
-def setTimeZoneFormat():
-    '''public void setTimeZoneFormat(final TimeZoneFormat tzfmt)
+    '''returns None\n\n
+    setDateFormatSymbols(final DateFormatSymbols newFormatSymbols)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def formatToCharacterIterator():
-    '''public AttributedCharacterIterator formatToCharacterIterator(final Object obj)
-    '''
-def intervalFormatByAlgorithm():
-    '''public final StringBuffer intervalFormatByAlgorithm(final Calendar fromCalendar, final Calendar toCalendar, final StringBuffer appendTo, final FieldPosition pos)
-    '''
-def getNumberFormat():
-    '''public NumberFormat getNumberFormat(final char field)
+    '''returns AttributedCharacterIterator\n\n
+    formatToCharacterIterator(final Object obj)\n
     '''

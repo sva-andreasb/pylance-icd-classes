@@ -1,12 +1,12 @@
 def removeimage():
-    '''public int removeimage()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    removeimage()\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

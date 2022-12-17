@@ -1,11 +1,9 @@
-def CfgValidateDBTypeFactory():
-    '''public CfgValidateDBTypeFactory(final Connection conn, final String dbType)
-    public CfgValidateDBTypeFactory(final Connection conn, final String dbType, final String remoteHost, final String remoteUser, final String remotePassword)
+def ():
+    '''returns CfgValidateDBTypeFactory\n\n
+    (final Connection conn, final String dbType)\n
+    (final Connection conn, final String dbType, final String remoteHost, final String remoteUser, final String remotePassword)\n
     '''
 def newInstance():
-    '''public ICfgValidateDB newInstance()
-    '''
-def getDatabaseValidator():
-    '''public static ICfgValidateDB getDatabaseValidator(final Connection conn, final String dbType)
-    public static ICfgValidateDB getDatabaseValidator(final Connection conn, final String dbType, final String remoteHost, final String remoteUser, final String remotePassword)
+    '''returns ICfgValidateDB\n\n
+    newInstance()\n
     '''

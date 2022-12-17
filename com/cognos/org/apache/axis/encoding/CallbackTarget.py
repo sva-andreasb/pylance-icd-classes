@@ -1,6 +1,8 @@
-def CallbackTarget():
-    '''public CallbackTarget(final Callback target, final Object hint)
+def ():
+    '''returns CallbackTarget\n\n
+    (final Callback target, final Object hint)\n
     '''
 def set():
-    '''public void set(final Object value)
+    '''returns None\n\n
+    set(final Object value)\n
     '''

@@ -1,3 +1,4 @@
-def AnalyticAuthSet():
-    '''public AnalyticAuthSet(final MboServerInterface ms)
+def ():
+    '''returns AnalyticAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''

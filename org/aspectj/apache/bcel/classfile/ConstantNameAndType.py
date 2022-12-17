@@ -1,27 +1,12 @@
-def ConstantNameAndType():
-    '''public ConstantNameAndType(final int name_index, final int signature_index)
+def ():
+    '''returns ConstantNameAndType\n\n
+    (final int name_index, final int signature_index)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def getNameIndex():
-    '''public final int getNameIndex()
-    '''
-def getName():
-    '''public final String getName(final ConstantPool cp)
-    '''
-def getSignatureIndex():
-    '''public final int getSignatureIndex()
-    '''
-def getSignature():
-    '''public final String getSignature(final ConstantPool cp)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

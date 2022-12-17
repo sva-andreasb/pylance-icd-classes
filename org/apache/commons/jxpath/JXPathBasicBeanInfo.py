@@ -1,26 +1,34 @@
-def JXPathBasicBeanInfo():
-    '''public JXPathBasicBeanInfo(final Class clazz)
-    public JXPathBasicBeanInfo(final Class clazz, final boolean atomic)
-    public JXPathBasicBeanInfo(final Class clazz, final Class dynamicPropertyHandlerClass)
+def ():
+    '''returns JXPathBasicBeanInfo\n\n
+    (final Class clazz)\n
+    (final Class clazz, final boolean atomic)\n
+    (final Class clazz, final Class dynamicPropertyHandlerClass)\n
     '''
 def isAtomic():
-    '''public boolean isAtomic()
+    '''returns boolean\n\n
+    isAtomic()\n
     '''
 def isDynamic():
-    '''public boolean isDynamic()
+    '''returns boolean\n\n
+    isDynamic()\n
     '''
 def getPropertyDescriptors():
-    '''public PropertyDescriptor[] getPropertyDescriptors()
+    '''returns PropertyDescriptor[]\n\n
+    getPropertyDescriptors()\n
     '''
 def compare():
-    '''public int compare(final Object left, final Object right)
+    '''returns int\n\n
+    compare(final Object left, final Object right)\n
     '''
 def getPropertyDescriptor():
-    '''public PropertyDescriptor getPropertyDescriptor(final String propertyName)
+    '''returns PropertyDescriptor\n\n
+    getPropertyDescriptor(final String propertyName)\n
     '''
 def getDynamicPropertyHandlerClass():
-    '''public Class getDynamicPropertyHandlerClass()
+    '''returns Class\n\n
+    getDynamicPropertyHandlerClass()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

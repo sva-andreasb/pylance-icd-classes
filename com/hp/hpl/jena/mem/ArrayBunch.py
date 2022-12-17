@@ -1,35 +1,46 @@
-def ArrayBunch():
-    '''public ArrayBunch()
+def ():
+    '''returns ArrayBunch\n\n
+    ()\n
     '''
 def containsBySameValueAs():
-    '''public boolean containsBySameValueAs(final Triple t)
+    '''returns boolean\n\n
+    containsBySameValueAs(final Triple t)\n
     '''
 def contains():
-    '''public boolean contains(final Triple t)
+    '''returns boolean\n\n
+    contains(final Triple t)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def add():
-    '''public void add(final Triple t)
+    '''returns None\n\n
+    add(final Triple t)\n
     '''
 def remove():
-    '''public void remove(final Triple t)
-    public void remove()
+    '''returns None\n\n
+    remove(final Triple t)\n
+    remove()\n
     '''
 def app():
-    '''public void app(final Domain d, final StageElement next, final MatchOrBind s)
+    '''returns None\n\n
+    app(final Domain d, final StageElement next, final MatchOrBind s)\n
     '''
 def iterator():
-    '''public ExtendedIterator<Triple> iterator()
-    public ExtendedIterator<Triple> iterator(final HashCommon.NotifyEmpty container)
+    '''returns ExtendedIterator<Triple>\n\n
+    iterator()\n
+    iterator(final HashCommon.NotifyEmpty container)\n
     '''
 def emptied():
-    '''public void emptied()
+    '''returns None\n\n
+    emptied()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Triple next()
+    '''returns Triple\n\n
+    next()\n
     '''

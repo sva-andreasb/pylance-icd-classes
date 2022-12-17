@@ -1,39 +1,36 @@
-def getWithFallback():
-    '''public static final CurrencyDisplayInfo getWithFallback(final boolean fallback)
-    '''
 def getName():
-    '''public String getName(final String isoCode)
+    '''returns String\n\n
+    getName(final String isoCode)\n
     '''
 def getPluralName():
-    '''public String getPluralName(final String isoCode, final String pluralType)
+    '''returns String\n\n
+    getPluralName(final String isoCode, final String pluralType)\n
     '''
 def getSymbol():
-    '''public String getSymbol(final String isoCode)
+    '''returns String\n\n
+    getSymbol(final String isoCode)\n
     '''
 def getNarrowSymbol():
-    '''public String getNarrowSymbol(final String isoCode)
+    '''returns String\n\n
+    getNarrowSymbol(final String isoCode)\n
     '''
 def getFormalSymbol():
-    '''public String getFormalSymbol(final String isoCode)
+    '''returns String\n\n
+    getFormalSymbol(final String isoCode)\n
     '''
 def getVariantSymbol():
-    '''public String getVariantSymbol(final String isoCode)
-    '''
-def symbolMap():
-    '''public Map<String, String> symbolMap()
-    '''
-def nameMap():
-    '''public Map<String, String> nameMap()
+    '''returns String\n\n
+    getVariantSymbol(final String isoCode)\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
-    '''
-def getUnitPatterns():
-    '''public Map<String, String> getUnitPatterns()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def getFormatInfo():
-    '''public CurrencyFormatInfo getFormatInfo(final String isoCode)
+    '''returns CurrencyFormatInfo\n\n
+    getFormatInfo(final String isoCode)\n
     '''
 def getSpacingInfo():
-    '''public CurrencySpacingInfo getSpacingInfo()
+    '''returns CurrencySpacingInfo\n\n
+    getSpacingInfo()\n
     '''

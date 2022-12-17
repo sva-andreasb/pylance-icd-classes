@@ -1,3 +1,4 @@
-def TAMITLicenseTemplateSet():
-    '''public TAMITLicenseTemplateSet(final MboServerInterface ms)
+def ():
+    '''returns TAMITLicenseTemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

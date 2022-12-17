@@ -1,51 +1,68 @@
 def getCustom():
-    '''public EList getCustom()
+    '''returns EList\n\n
+    getCustom()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String newDescription)
+    '''returns None\n\n
+    setDescription(final String newDescription)\n
     '''
 def getDescriptionKey():
-    '''public String getDescriptionKey()
+    '''returns String\n\n
+    getDescriptionKey()\n
     '''
 def setDescriptionKey():
-    '''public void setDescriptionKey(final String newDescriptionKey)
+    '''returns None\n\n
+    setDescriptionKey(final String newDescriptionKey)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String newName)
+    '''returns None\n\n
+    setName(final String newName)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String newTitle)
+    '''returns None\n\n
+    setTitle(final String newTitle)\n
     '''
 def getTitleKey():
-    '''public String getTitleKey()
+    '''returns String\n\n
+    getTitleKey()\n
     '''
 def setTitleKey():
-    '''public void setTitleKey(final String newTitleKey)
+    '''returns None\n\n
+    setTitleKey(final String newTitleKey)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

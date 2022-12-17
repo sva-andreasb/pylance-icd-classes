@@ -1,7 +1,9 @@
-def PlusPFldQuantity():
-    '''public PlusPFldQuantity()
-    public PlusPFldQuantity(final MboValue mbv)
+def ():
+    '''returns PlusPFldQuantity\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

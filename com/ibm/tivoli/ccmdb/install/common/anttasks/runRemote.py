@@ -1,33 +1,44 @@
-def runRemote():
-    '''public runRemote()
+def ():
+    '''returns runRemote\n\n
+    ()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setHost():
-    '''public void setHost(final String host)
+    '''returns None\n\n
+    setHost(final String host)\n
     '''
 def setUser():
-    '''public void setUser(final String user)
+    '''returns None\n\n
+    setUser(final String user)\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def setScriptdir():
-    '''public void setScriptdir(final String scriptdir)
+    '''returns None\n\n
+    setScriptdir(final String scriptdir)\n
     '''
 def setScriptname():
-    '''public void setScriptname(final String scriptname)
+    '''returns None\n\n
+    setScriptname(final String scriptname)\n
     '''
 def setNofail():
-    '''public void setNofail(final boolean nofail)
+    '''returns None\n\n
+    setNofail(final boolean nofail)\n
     '''
 def setMaxrc():
-    '''public void setMaxrc(final int maxrc)
+    '''returns None\n\n
+    setMaxrc(final int maxrc)\n
     '''
 def setQuiet():
-    '''public void setQuiet(final boolean quiet)
+    '''returns None\n\n
+    setQuiet(final boolean quiet)\n
     '''
 def setTimeout():
-    '''public void setTimeout(final int timeout)
+    '''returns None\n\n
+    setTimeout(final int timeout)\n
     '''

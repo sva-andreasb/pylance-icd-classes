@@ -1,3 +1,4 @@
-def FmtLayout2HashMySQL():
-    '''public FmtLayout2HashMySQL(final SDBConnection connection, final MySQLEngineType tableType)
+def ():
+    '''returns FmtLayout2HashMySQL\n\n
+    (final SDBConnection connection, final MySQLEngineType tableType)\n
     '''

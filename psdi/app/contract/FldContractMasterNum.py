@@ -1,3 +1,4 @@
-def FldContractMasterNum():
-    '''public FldContractMasterNum(final MboValue mbv)
+def ():
+    '''returns FldContractMasterNum\n\n
+    (final MboValue mbv)\n
     '''

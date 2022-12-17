@@ -1,46 +1,33 @@
-def IlvScalableFontManager():
-    '''public IlvScalableFontManager(final Component component, final Dimension dimension)
-    public IlvScalableFontManager(final Component component, final Dimension dimension, final float n, final float n2)
+def ():
+    '''returns IlvScalableFontManager\n\n
+    (final Component component, final Dimension dimension)\n
+    (final Component component, final Dimension dimension, final float n, final float n2)\n
     '''
 def setScaleTransform():
-    '''public void setScaleTransform(final Dimension dimension, final float n, final float n2)
+    '''returns None\n\n
+    setScaleTransform(final Dimension dimension, final float n, final float n2)\n
     '''
 def setRefSize():
-    '''public void setRefSize(final Dimension i)
+    '''returns None\n\n
+    setRefSize(final Dimension i)\n
     '''
 def getRefSize():
-    '''public Dimension getRefSize()
-    '''
-def getComponent():
-    '''public final Component getComponent()
-    '''
-def getMinRatio():
-    '''public final float getMinRatio()
-    '''
-def getMaxRatio():
-    '''public final float getMaxRatio()
+    '''returns Dimension\n\n
+    getRefSize()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean j)
-    '''
-def isEnabled():
-    '''public final boolean isEnabled()
+    '''returns None\n\n
+    setEnabled(final boolean j)\n
     '''
 def getDeriveFont():
-    '''public Font getDeriveFont(final Font font)
-    '''
-def getFontManager():
-    '''public static synchronized IlvScalableFontManager getFontManager(final Component component)
-    '''
-def setFontManager():
-    '''public static synchronized void setFontManager(final Component component, final IlvScalableFontManager ilvScalableFontManager, final Font font)
-    '''
-def dispose():
-    '''public final void dispose()
+    '''returns Font\n\n
+    getDeriveFont(final Font font)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''

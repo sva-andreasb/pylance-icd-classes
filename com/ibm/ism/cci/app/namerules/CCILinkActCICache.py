@@ -1,15 +1,16 @@
-def CCILinkActCICache():
-    '''public CCILinkActCICache(final String classstructureid, final List<MXException> exList)
+def ():
+    '''returns CCILinkActCICache\n\n
+    (final String classstructureid, final List<MXException> exList)\n
     '''
 def getClassstructureid():
-    '''public String getClassstructureid()
+    '''returns String\n\n
+    getClassstructureid()\n
     '''
 def getClassificationid():
-    '''public String getClassificationid()
+    '''returns String\n\n
+    getClassificationid()\n
     '''
 def getClassStructuresToLink():
-    '''public List<String> getClassStructuresToLink()
-    '''
-def isNull():
-    '''public static boolean isNull(final String t)
+    '''returns List<String>\n\n
+    getClassStructuresToLink()\n
     '''

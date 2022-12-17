@@ -1,18 +1,24 @@
-def OmemoKeyTransportTest():
-    '''public OmemoKeyTransportTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns OmemoKeyTransportTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def before():
-    '''public void before()
+    '''returns None\n\n
+    before()\n
     '''
 def keyTransportTest():
-    '''public void keyTransportTest()
+    '''returns None\n\n
+    keyTransportTest()\n
     '''
 def onOmemoMessageReceived():
-    '''public void onOmemoMessageReceived(final String decryptedBody, final Message encryptedMessage, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)
+    '''returns None\n\n
+    onOmemoMessageReceived(final String decryptedBody, final Message encryptedMessage, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)\n
     '''
 def onOmemoKeyTransportReceived():
-    '''public void onOmemoKeyTransportReceived(final CipherAndAuthTag cipherAndAuthTag, final Message message, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)
+    '''returns None\n\n
+    onOmemoKeyTransportReceived(final CipherAndAuthTag cipherAndAuthTag, final Message message, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)\n
     '''
 def after():
-    '''public void after()
+    '''returns None\n\n
+    after()\n
     '''

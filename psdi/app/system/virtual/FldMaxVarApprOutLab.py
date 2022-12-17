@@ -1,6 +1,8 @@
-def FldMaxVarApprOutLab():
-    '''public FldMaxVarApprOutLab(final MboValue mbv)
+def ():
+    '''returns FldMaxVarApprOutLab\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

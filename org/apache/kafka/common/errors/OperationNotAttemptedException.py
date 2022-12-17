@@ -1,3 +1,4 @@
-def OperationNotAttemptedException():
-    '''public OperationNotAttemptedException(final String message)
+def ():
+    '''returns OperationNotAttemptedException\n\n
+    (final String message)\n
     '''

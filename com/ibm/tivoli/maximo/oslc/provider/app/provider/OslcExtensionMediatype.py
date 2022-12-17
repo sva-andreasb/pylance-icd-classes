@@ -1,3 +1,4 @@
-def OslcExtensionMediatype():
-    '''public OslcExtensionMediatype(final MboSet ms)
+def ():
+    '''returns OslcExtensionMediatype\n\n
+    (final MboSet ms)\n
     '''

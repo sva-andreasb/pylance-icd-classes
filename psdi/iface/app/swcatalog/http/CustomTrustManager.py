@@ -1,12 +1,16 @@
-def CustomTrustManager():
-    '''public CustomTrustManager(final X509TrustManager tm)
+def ():
+    '''returns CustomTrustManager\n\n
+    (final X509TrustManager tm)\n
     '''
 def checkClientTrusted():
-    '''public void checkClientTrusted(final X509Certificate[] arg0, final String arg1)
+    '''returns None\n\n
+    checkClientTrusted(final X509Certificate[] arg0, final String arg1)\n
     '''
 def checkServerTrusted():
-    '''public void checkServerTrusted(final X509Certificate[] arg0, final String arg1)
+    '''returns None\n\n
+    checkServerTrusted(final X509Certificate[] arg0, final String arg1)\n
     '''
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''

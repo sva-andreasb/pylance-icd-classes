@@ -1,3 +1,4 @@
-def FldAppDoctypeDoctype():
-    '''public FldAppDoctypeDoctype(final MboValue mbv)
+def ():
+    '''returns FldAppDoctypeDoctype\n\n
+    (final MboValue mbv)\n
     '''

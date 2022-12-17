@@ -2,21 +2,27 @@ ELEMENT = "String  \"span\""
 emphasis = "String  \"emphasis\""
 code = "String  \"code\""
 deleted = "String  \"deleted\""
-def SpanElement():
-    '''public SpanElement(final int start, final int end, final Set<SpanStyle> styles)
+def ():
+    '''returns SpanElement\n\n
+    (final int start, final int end, final Set<SpanStyle> styles)\n
     '''
 def getStart():
-    '''public int getStart()
+    '''returns int\n\n
+    getStart()\n
     '''
 def getEnd():
-    '''public int getEnd()
+    '''returns int\n\n
+    getEnd()\n
     '''
 def getStyles():
-    '''public Set<SpanStyle> getStyles()
+    '''returns Set<SpanStyle>\n\n
+    getStyles()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

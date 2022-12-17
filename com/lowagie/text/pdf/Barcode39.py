@@ -1,18 +1,16 @@
-def Barcode39():
-    '''public Barcode39()
-    '''
-def getBarsCode39():
-    '''public static byte[] getBarsCode39(String text)
-    '''
-def getCode39Ex():
-    '''public static String getCode39Ex(final String text)
+def ():
+    '''returns Barcode39\n\n
+    ()\n
     '''
 def getBarcodeSize():
-    '''public Rectangle getBarcodeSize()
+    '''returns Rectangle\n\n
+    getBarcodeSize()\n
     '''
 def placeBarcode():
-    '''public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
+    '''returns Rectangle\n\n
+    placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)\n
     '''
 def createAwtImage():
-    '''public Image createAwtImage(final Color foreground, final Color background)
+    '''returns Image\n\n
+    createAwtImage(final Color foreground, final Color background)\n
     '''

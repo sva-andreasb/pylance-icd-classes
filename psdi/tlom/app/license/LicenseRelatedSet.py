@@ -1,6 +1,8 @@
-def LicenseRelatedSet():
-    '''public LicenseRelatedSet(final MboServerInterface ms)
+def ():
+    '''returns LicenseRelatedSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def isRelLicenseExisted():
-    '''public boolean isRelLicenseExisted(final long licenseid)
+    '''returns boolean\n\n
+    isRelLicenseExisted(final long licenseid)\n
     '''

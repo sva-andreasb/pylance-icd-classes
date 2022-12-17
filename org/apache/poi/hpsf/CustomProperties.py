@@ -1,67 +1,85 @@
-def CustomProperties():
-    '''public CustomProperties()
+def ():
+    '''returns CustomProperties\n\n
+    ()\n
     '''
 def put():
-    '''public CustomProperty put(final String name, final CustomProperty cp)
-    public Object put(final String key, final Object value)
+    '''returns Object\n\n
+    put(final String name, final CustomProperty cp)\n
+    put(final String key, final Object value)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def remove():
-    '''public CustomProperty remove(final Object key)
+    '''returns CustomProperty\n\n
+    remove(final Object key)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends String, ?> m)
+    '''returns None\n\n
+    putAll(final Map<? extends String, ?> m)\n
     '''
 def properties():
-    '''public List<CustomProperty> properties()
+    '''returns List<CustomProperty>\n\n
+    properties()\n
     '''
 def values():
-    '''public Collection<Object> values()
-    '''
-def entrySet():
-    '''public Set<Entry<String, Object>> entrySet()
+    '''returns Collection<Object>\n\n
+    values()\n
     '''
 def keySet():
-    '''public Set keySet()
+    '''returns Set\n\n
+    keySet()\n
     '''
 def nameSet():
-    '''public Set<String> nameSet()
+    '''returns Set<String>\n\n
+    nameSet()\n
     '''
 def idSet():
-    '''public Set<Long> idSet()
+    '''returns Set<Long>\n\n
+    idSet()\n
     '''
 def setCodepage():
-    '''public void setCodepage(final int codepage)
+    '''returns None\n\n
+    setCodepage(final int codepage)\n
     '''
 def getCodepage():
-    '''public int getCodepage()
+    '''returns int\n\n
+    getCodepage()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def isPure():
-    '''public boolean isPure()
+    '''returns boolean\n\n
+    isPure()\n
     '''
 def setPure():
-    '''public void setPure(final boolean isPure)
+    '''returns None\n\n
+    setPure(final boolean isPure)\n
     '''

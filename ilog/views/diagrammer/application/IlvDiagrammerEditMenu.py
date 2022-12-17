@@ -1,3 +1,4 @@
-def IlvDiagrammerEditMenu():
-    '''public IlvDiagrammerEditMenu()
+def ():
+    '''returns IlvDiagrammerEditMenu\n\n
+    ()\n
     '''

@@ -1,3 +1,4 @@
-def PPAFldDelimiter():
-    '''public PPAFldDelimiter(final MboValue mbv)
+def ():
+    '''returns PPAFldDelimiter\n\n
+    (final MboValue mbv)\n
     '''

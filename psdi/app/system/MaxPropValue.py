@@ -1,45 +1,60 @@
-def MaxPropValue():
-    '''public MaxPropValue(final MboSet ms)
+def ():
+    '''returns MaxPropValue\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getMaxProp():
-    '''public MboRemote getMaxProp()
+    '''returns MboRemote\n\n
+    getMaxProp()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def handleEncryption():
-    '''public void handleEncryption()
+    '''returns None\n\n
+    handleEncryption()\n
     '''
 def setEncrypted():
-    '''public void setEncrypted(final boolean flag)
+    '''returns None\n\n
+    setEncrypted(final boolean flag)\n
     '''
 def setGlobalOnly():
-    '''public void setGlobalOnly(final boolean flag)
+    '''returns None\n\n
+    setGlobalOnly(final boolean flag)\n
     '''
 def setInstanceOnly():
-    '''public void setInstanceOnly(final boolean flag)
+    '''returns None\n\n
+    setInstanceOnly(final boolean flag)\n
     '''
 def setMasked():
-    '''public void setMasked(final boolean flag)
+    '''returns None\n\n
+    setMasked(final boolean flag)\n
     '''
 def isInstanceOnly():
-    '''public boolean isInstanceOnly()
+    '''returns boolean\n\n
+    isInstanceOnly()\n
     '''
 def isGlobalOnly():
-    '''public boolean isGlobalOnly()
+    '''returns boolean\n\n
+    isGlobalOnly()\n
     '''
 def isEncrypted():
-    '''public boolean isEncrypted()
+    '''returns boolean\n\n
+    isEncrypted()\n
     '''
 def isMasked():
-    '''public boolean isMasked()
+    '''returns boolean\n\n
+    isMasked()\n
     '''

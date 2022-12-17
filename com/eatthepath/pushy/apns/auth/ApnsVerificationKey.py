@@ -1,24 +1,24 @@
-def ApnsVerificationKey():
-    '''public ApnsVerificationKey(final String keyId, final String teamId, final ECPublicKey key)
+def ():
+    '''returns ApnsVerificationKey\n\n
+    (final String keyId, final String teamId, final ECPublicKey key)\n
     '''
 def getKey():
-    '''public ECPublicKey getKey()
+    '''returns ECPublicKey\n\n
+    getKey()\n
     '''
 def getAlgorithm():
-    '''public String getAlgorithm()
+    '''returns String\n\n
+    getAlgorithm()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getEncoded():
-    '''public byte[] getEncoded()
+    '''returns byte[]\n\n
+    getEncoded()\n
     '''
 def getW():
-    '''public ECPoint getW()
-    '''
-def loadFromPkcs8File():
-    '''public static ApnsVerificationKey loadFromPkcs8File(final File pkcs8File, final String teamId, final String keyId)
-    '''
-def loadFromInputStream():
-    '''public static ApnsVerificationKey loadFromInputStream(final InputStream inputStream, final String teamId, final String keyId)
+    '''returns ECPoint\n\n
+    getW()\n
     '''

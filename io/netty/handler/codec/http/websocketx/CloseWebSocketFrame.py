@@ -1,35 +1,44 @@
-def CloseWebSocketFrame():
-    '''public CloseWebSocketFrame()
-    public CloseWebSocketFrame(final WebSocketCloseStatus status)
-    public CloseWebSocketFrame(final WebSocketCloseStatus status, final String reasonText)
-    public CloseWebSocketFrame(final int statusCode, final String reasonText)
-    public CloseWebSocketFrame(final boolean finalFragment, final int rsv)
-    public CloseWebSocketFrame(final boolean finalFragment, final int rsv, final int statusCode, final String reasonText)
-    public CloseWebSocketFrame(final boolean finalFragment, final int rsv, final ByteBuf binaryData)
+def ():
+    '''returns CloseWebSocketFrame\n\n
+    ()\n
+    (final WebSocketCloseStatus status)\n
+    (final WebSocketCloseStatus status, final String reasonText)\n
+    (final int statusCode, final String reasonText)\n
+    (final boolean finalFragment, final int rsv)\n
+    (final boolean finalFragment, final int rsv, final int statusCode, final String reasonText)\n
+    (final boolean finalFragment, final int rsv, final ByteBuf binaryData)\n
     '''
 def statusCode():
-    '''public int statusCode()
+    '''returns int\n\n
+    statusCode()\n
     '''
 def reasonText():
-    '''public String reasonText()
+    '''returns String\n\n
+    reasonText()\n
     '''
 def copy():
-    '''public CloseWebSocketFrame copy()
+    '''returns CloseWebSocketFrame\n\n
+    copy()\n
     '''
 def duplicate():
-    '''public CloseWebSocketFrame duplicate()
+    '''returns CloseWebSocketFrame\n\n
+    duplicate()\n
     '''
 def retainedDuplicate():
-    '''public CloseWebSocketFrame retainedDuplicate()
+    '''returns CloseWebSocketFrame\n\n
+    retainedDuplicate()\n
     '''
 def replace():
-    '''public CloseWebSocketFrame replace(final ByteBuf content)
+    '''returns CloseWebSocketFrame\n\n
+    replace(final ByteBuf content)\n
     '''
 def retain():
-    '''public CloseWebSocketFrame retain()
-    public CloseWebSocketFrame retain(final int increment)
+    '''returns CloseWebSocketFrame\n\n
+    retain()\n
+    retain(final int increment)\n
     '''
 def touch():
-    '''public CloseWebSocketFrame touch()
-    public CloseWebSocketFrame touch(final Object hint)
+    '''returns CloseWebSocketFrame\n\n
+    touch()\n
+    touch(final Object hint)\n
     '''

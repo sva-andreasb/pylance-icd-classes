@@ -1,3 +1,4 @@
-def FldUserWFProcessName():
-    '''public FldUserWFProcessName(final MboValue mbv)
+def ():
+    '''returns FldUserWFProcessName\n\n
+    (final MboValue mbv)\n
     '''

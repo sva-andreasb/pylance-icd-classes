@@ -1,60 +1,80 @@
 def getOwnerAccount():
-    '''public Account getOwnerAccount()
+    '''returns Account\n\n
+    getOwnerAccount()\n
     '''
 def setOwnerAccount():
-    '''public void setOwnerAccount(final Account ownerAccount)
+    '''returns None\n\n
+    setOwnerAccount(final Account ownerAccount)\n
     '''
 def getPaymentMethods():
-    '''public List<Method> getPaymentMethods()
+    '''returns List<Method>\n\n
+    getPaymentMethods()\n
     '''
 def setType():
-    '''public void setType(final com.softlayer.api.service.billing.payment.processor.Type type)
+    '''returns None\n\n
+    setType(final com.softlayer.api.service.billing.payment.processor.Type type)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isNameSpecified():
-    '''public boolean isNameSpecified()
+    '''returns boolean\n\n
+    isNameSpecified()\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getBrandAssignmentCount():
-    '''public Long getBrandAssignmentCount()
+    '''returns Long\n\n
+    getBrandAssignmentCount()\n
     '''
 def setBrandAssignmentCount():
-    '''public void setBrandAssignmentCount(final Long brandAssignmentCount)
+    '''returns None\n\n
+    setBrandAssignmentCount(final Long brandAssignmentCount)\n
     '''
 def getPaymentMethodCount():
-    '''public Long getPaymentMethodCount()
+    '''returns Long\n\n
+    getPaymentMethodCount()\n
     '''
 def setPaymentMethodCount():
-    '''public void setPaymentMethodCount(final Long paymentMethodCount)
+    '''returns None\n\n
+    setPaymentMethodCount(final Long paymentMethodCount)\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def name():
-    '''public Mask name()
+    '''returns Mask\n\n
+    name()\n
     '''
 def brandAssignmentCount():
-    '''public Mask brandAssignmentCount()
+    '''returns Mask\n\n
+    brandAssignmentCount()\n
     '''
 def paymentMethodCount():
-    '''public Mask paymentMethodCount()
+    '''returns Mask\n\n
+    paymentMethodCount()\n
     '''

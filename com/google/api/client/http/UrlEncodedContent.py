@@ -1,18 +1,16 @@
-def UrlEncodedContent():
-    '''public UrlEncodedContent(final Object data)
+def ():
+    '''returns UrlEncodedContent\n\n
+    (final Object data)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def setMediaType():
-    '''public UrlEncodedContent setMediaType(final HttpMediaType mediaType)
-    '''
-def getData():
-    '''public final Object getData()
+    '''returns UrlEncodedContent\n\n
+    setMediaType(final HttpMediaType mediaType)\n
     '''
 def setData():
-    '''public UrlEncodedContent setData(final Object data)
-    '''
-def getContent():
-    '''public static UrlEncodedContent getContent(final HttpRequest request)
+    '''returns UrlEncodedContent\n\n
+    setData(final Object data)\n
     '''

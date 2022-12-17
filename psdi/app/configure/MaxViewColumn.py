@@ -1,3 +1,4 @@
-def MaxViewColumn():
-    '''public MaxViewColumn(final MboSet ms)
+def ():
+    '''returns MaxViewColumn\n\n
+    (final MboSet ms)\n
     '''

@@ -1,7 +1,5 @@
-def getCopyright():
-    '''public static String getCopyright()
-    '''
-def AnnotateException():
-    '''public AnnotateException()
-    public AnnotateException(final String s)
+def ():
+    '''returns AnnotateException\n\n
+    ()\n
+    (final String s)\n
     '''

@@ -1,48 +1,64 @@
-def Doclinks():
-    '''public Doclinks(final MboSet ms)
+def ():
+    '''returns Doclinks\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def canDeleteMRLineDoclinks():
-    '''public void canDeleteMRLineDoclinks()
+    '''returns None\n\n
+    canDeleteMRLineDoclinks()\n
     '''
 def copyFromDocinfo():
-    '''public void copyFromDocinfo(final MboRemote docinfo)
+    '''returns None\n\n
+    copyFromDocinfo(final MboRemote docinfo)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def appValidateAddInfo():
-    '''public void appValidateAddInfo()
+    '''returns None\n\n
+    appValidateAddInfo()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''
 def copyFake():
-    '''public MboRemote copyFake(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copyFake(final MboSetRemote mboset)\n
     '''
 def copySelf():
-    '''public MboRemote copySelf(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copySelf(final MboSetRemote mboset, final long mboAddFlags)\n
     '''
 def getList():
-    '''public MboSetRemote getList(final String attribute)
+    '''returns MboSetRemote\n\n
+    getList(final String attribute)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

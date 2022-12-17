@@ -1,12 +1,16 @@
-def RotInspectionLineSet():
-    '''public RotInspectionLineSet(final MboServerInterface ms)
+def ():
+    '''returns RotInspectionLineSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def getMatRecSet():
-    '''public MboSetRemote getMatRecSet(final MboRemote rotInspectionRemote)
+    '''returns MboSetRemote\n\n
+    getMatRecSet(final MboRemote rotInspectionRemote)\n
     '''
 def createRotInspectionLineSet():
-    '''public void createRotInspectionLineSet(final MboSetRemote matRecSetRemote)
+    '''returns None\n\n
+    createRotInspectionLineSet(final MboSetRemote matRecSetRemote)\n
     '''

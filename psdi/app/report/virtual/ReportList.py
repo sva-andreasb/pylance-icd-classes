@@ -1,6 +1,8 @@
-def ReportList():
-    '''public ReportList(final MboSet ms)
+def ():
+    '''returns ReportList\n\n
+    (final MboSet ms)\n
     '''
 def sigopGranted():
-    '''public boolean sigopGranted(final String app, final String optionname)
+    '''returns boolean\n\n
+    sigopGranted(final String app, final String optionname)\n
     '''

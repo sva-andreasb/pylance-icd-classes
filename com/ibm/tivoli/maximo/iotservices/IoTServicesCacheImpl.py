@@ -1,55 +1,53 @@
-def IoTServicesCacheImpl():
-    '''public IoTServicesCacheImpl()
+def ():
+    '''returns IoTServicesCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getIotServices():
-    '''public Map<String, IoTServicesInfo> getIotServices()
-    '''
-def getPayloadPropsForAllServices():
-    '''public Map<String, Map<String, String>> getPayloadPropsForAllServices()
-    '''
-def getPayloadPropsInfoForAllServices():
-    '''public Map<String, List<IoTPayloadPropsInfo>> getPayloadPropsInfoForAllServices()
-    '''
-def getIotRestEndPoints():
-    '''public Map<String, List<IoTRestEndPointsInfo>> getIotRestEndPoints()
-    '''
-def getDeviceTypeInfoForActiveService():
-    '''public Map<String, IoTServiceDeviceTypeInfo> getDeviceTypeInfoForActiveService()
+    '''returns String\n\n
+    getName()\n
     '''
 def getJsonResourceForActiveService():
-    '''public String getJsonResourceForActiveService()
+    '''returns String\n\n
+    getJsonResourceForActiveService()\n
     '''
 def setJsonResourceForActiveService():
-    '''public void setJsonResourceForActiveService(final String jsonResourceForActiveService)
+    '''returns None\n\n
+    setJsonResourceForActiveService(final String jsonResourceForActiveService)\n
     '''
 def getDefaultHistorian():
-    '''public String getDefaultHistorian()
+    '''returns String\n\n
+    getDefaultHistorian()\n
     '''
 def setDefaultHistorian():
-    '''public void setDefaultHistorian(final String defaultHistorian)
+    '''returns None\n\n
+    setDefaultHistorian(final String defaultHistorian)\n
     '''
 def getDefaultHistorianProcessor():
-    '''public String getDefaultHistorianProcessor()
+    '''returns String\n\n
+    getDefaultHistorianProcessor()\n
     '''
 def getDefaultHistorianEndPoint():
-    '''public String getDefaultHistorianEndPoint()
+    '''returns String\n\n
+    getDefaultHistorianEndPoint()\n
     '''
 def getDefaultHistorianIotServiceName():
-    '''public String getDefaultHistorianIotServiceName()
+    '''returns String\n\n
+    getDefaultHistorianIotServiceName()\n
     '''
 def setDefaultHistorianProcessor():
-    '''public void setDefaultHistorianProcessor(final String defaultHistorianProcessor)
+    '''returns None\n\n
+    setDefaultHistorianProcessor(final String defaultHistorianProcessor)\n
     '''
 def setDefaultHistorianEndPoint():
-    '''public void setDefaultHistorianEndPoint(final String defaultHistorianEndPoint)
+    '''returns None\n\n
+    setDefaultHistorianEndPoint(final String defaultHistorianEndPoint)\n
     '''

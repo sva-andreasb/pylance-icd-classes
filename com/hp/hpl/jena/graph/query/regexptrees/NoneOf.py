@@ -1,12 +1,16 @@
-def NoneOf():
-    '''public NoneOf(final String impossibles)
+def ():
+    '''returns NoneOf\n\n
+    (final String impossibles)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

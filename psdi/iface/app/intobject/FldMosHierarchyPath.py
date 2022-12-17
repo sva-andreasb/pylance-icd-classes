@@ -1,6 +1,8 @@
-def FldMosHierarchyPath():
-    '''public FldMosHierarchyPath(final MboValue mbv)
+def ():
+    '''returns FldMosHierarchyPath\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

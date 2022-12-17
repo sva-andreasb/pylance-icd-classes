@@ -1,12 +1,15 @@
-def JXPathContextFactoryConfigurationError():
-    '''public JXPathContextFactoryConfigurationError()
-    public JXPathContextFactoryConfigurationError(final String msg)
-    public JXPathContextFactoryConfigurationError(final Exception e)
-    public JXPathContextFactoryConfigurationError(final Exception e, final String msg)
+def ():
+    '''returns JXPathContextFactoryConfigurationError\n\n
+    ()\n
+    (final String msg)\n
+    (final Exception e)\n
+    (final Exception e, final String msg)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''

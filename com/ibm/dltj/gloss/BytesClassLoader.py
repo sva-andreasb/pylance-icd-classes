@@ -1,6 +1,8 @@
-def BytesClassLoader():
-    '''public BytesClassLoader(final ClassLoader parent)
+def ():
+    '''returns BytesClassLoader\n\n
+    (final ClassLoader parent)\n
     '''
 def loadClass():
-    '''public Class loadClass(final String s, final byte[] b)
+    '''returns Class\n\n
+    loadClass(final String s, final byte[] b)\n
     '''

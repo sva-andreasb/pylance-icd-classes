@@ -1,6 +1,8 @@
-def JDBC30DataHandler():
-    '''public JDBC30DataHandler(final DataHandler datahandler)
+def ():
+    '''returns JDBC30DataHandler\n\n
+    (final DataHandler datahandler)\n
     '''
 def setJDBCObject():
-    '''public void setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object)
+    '''returns None\n\n
+    setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object)\n
     '''

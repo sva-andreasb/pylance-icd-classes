@@ -1,4 +1,5 @@
-def BrokerNotAvailableException():
-    '''public BrokerNotAvailableException(final String message)
-    public BrokerNotAvailableException(final String message, final Throwable cause)
+def ():
+    '''returns BrokerNotAvailableException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

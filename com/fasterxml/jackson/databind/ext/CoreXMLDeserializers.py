@@ -1,6 +1,8 @@
-def Std():
-    '''public Std(final Class<?> raw, final int kind)
+def ():
+    '''returns Std\n\n
+    (final Class<?> raw, final int kind)\n
     '''
 def deserialize():
-    '''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
     '''

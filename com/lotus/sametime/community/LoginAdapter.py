@@ -1,6 +1,8 @@
 def loggedIn():
-    '''public void loggedIn(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedIn(final LoginEvent loginEvent)\n
     '''
 def loggedOut():
-    '''public void loggedOut(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedOut(final LoginEvent loginEvent)\n
     '''

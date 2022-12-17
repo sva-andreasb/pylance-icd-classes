@@ -1,23 +1,25 @@
-def BasicLineParser():
-    '''public BasicLineParser(final ProtocolVersion proto)
-    public BasicLineParser()
+def ():
+    '''returns BasicLineParser\n\n
+    (final ProtocolVersion proto)\n
+    ()\n
     '''
 def parseProtocolVersion():
-    '''public static ProtocolVersion parseProtocolVersion(final String value, final LineParser parser)
-    public ProtocolVersion parseProtocolVersion(final CharArrayBuffer buffer, final ParserCursor cursor)
+    '''returns ProtocolVersion\n\n
+    parseProtocolVersion(final CharArrayBuffer buffer, final ParserCursor cursor)\n
     '''
 def hasProtocolVersion():
-    '''public boolean hasProtocolVersion(final CharArrayBuffer buffer, final ParserCursor cursor)
+    '''returns boolean\n\n
+    hasProtocolVersion(final CharArrayBuffer buffer, final ParserCursor cursor)\n
     '''
 def parseRequestLine():
-    '''public static RequestLine parseRequestLine(final String value, final LineParser parser)
-    public RequestLine parseRequestLine(final CharArrayBuffer buffer, final ParserCursor cursor)
+    '''returns RequestLine\n\n
+    parseRequestLine(final CharArrayBuffer buffer, final ParserCursor cursor)\n
     '''
 def parseStatusLine():
-    '''public static StatusLine parseStatusLine(final String value, final LineParser parser)
-    public StatusLine parseStatusLine(final CharArrayBuffer buffer, final ParserCursor cursor)
+    '''returns StatusLine\n\n
+    parseStatusLine(final CharArrayBuffer buffer, final ParserCursor cursor)\n
     '''
 def parseHeader():
-    '''public static Header parseHeader(final String value, final LineParser parser)
-    public Header parseHeader(final CharArrayBuffer buffer)
+    '''returns Header\n\n
+    parseHeader(final CharArrayBuffer buffer)\n
     '''

@@ -1,12 +1,16 @@
-def DOMSerializer():
-    '''public DOMSerializer()
+def ():
+    '''returns DOMSerializer\n\n
+    ()\n
     '''
 def serialize():
-    '''public void serialize(final Node value, final JsonGenerator jgen, final SerializerProvider provider)
+    '''returns None\n\n
+    serialize(final Node value, final JsonGenerator jgen, final SerializerProvider provider)\n
     '''
 def getSchema():
-    '''public JsonNode getSchema(final SerializerProvider provider, final Type typeHint)
+    '''returns JsonNode\n\n
+    getSchema(final SerializerProvider provider, final Type typeHint)\n
     '''
 def acceptJsonFormatVisitor():
-    '''public void acceptJsonFormatVisitor(final JsonFormatVisitorWrapper visitor, final JavaType typeHint)
+    '''returns None\n\n
+    acceptJsonFormatVisitor(final JsonFormatVisitorWrapper visitor, final JavaType typeHint)\n
     '''

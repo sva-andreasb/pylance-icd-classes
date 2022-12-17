@@ -1,6 +1,8 @@
-def MessageHubSet():
-    '''public MessageHubSet(final MboServerInterface ms)
+def ():
+    '''returns MessageHubSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

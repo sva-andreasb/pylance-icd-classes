@@ -1,30 +1,36 @@
-def JsonGeneratorImpl():
-    '''public JsonGeneratorImpl(final IOContext ctxt, final int features, final ObjectCodec codec)
+def ():
+    '''returns JsonGeneratorImpl\n\n
+    (final IOContext ctxt, final int features, final ObjectCodec codec)\n
     '''
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def enable():
-    '''public JsonGenerator enable(final Feature f)
+    '''returns JsonGenerator\n\n
+    enable(final Feature f)\n
     '''
 def disable():
-    '''public JsonGenerator disable(final Feature f)
+    '''returns JsonGenerator\n\n
+    disable(final Feature f)\n
     '''
 def setHighestNonEscapedChar():
-    '''public JsonGenerator setHighestNonEscapedChar(final int charCode)
+    '''returns JsonGenerator\n\n
+    setHighestNonEscapedChar(final int charCode)\n
     '''
 def getHighestEscapedChar():
-    '''public int getHighestEscapedChar()
+    '''returns int\n\n
+    getHighestEscapedChar()\n
     '''
 def setCharacterEscapes():
-    '''public JsonGenerator setCharacterEscapes(final CharacterEscapes esc)
+    '''returns JsonGenerator\n\n
+    setCharacterEscapes(final CharacterEscapes esc)\n
     '''
 def getCharacterEscapes():
-    '''public CharacterEscapes getCharacterEscapes()
+    '''returns CharacterEscapes\n\n
+    getCharacterEscapes()\n
     '''
 def setRootValueSeparator():
-    '''public JsonGenerator setRootValueSeparator(final SerializableString sep)
-    '''
-def writeStringField():
-    '''public final void writeStringField(final String fieldName, final String value)
+    '''returns JsonGenerator\n\n
+    setRootValueSeparator(final SerializableString sep)\n
     '''

@@ -1,36 +1,32 @@
-def fixedSizeSortedMap():
-    '''public static <K, V> FixedSizeSortedMap<K, V> fixedSizeSortedMap(final SortedMap<K, V> map)
-    '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> mapToCopy)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> mapToCopy)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def remove():
-    '''public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<V> values()
-    '''
-def subMap():
-    '''public SortedMap<K, V> subMap(final K fromKey, final K toKey)
-    '''
-def headMap():
-    '''public SortedMap<K, V> headMap(final K toKey)
-    '''
-def tailMap():
-    '''public SortedMap<K, V> tailMap(final K fromKey)
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def maxSize():
-    '''public int maxSize()
+    '''returns int\n\n
+    maxSize()\n
     '''

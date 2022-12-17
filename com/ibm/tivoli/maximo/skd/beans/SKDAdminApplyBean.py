@@ -1,6 +1,4 @@
 def apply():
-    '''public int apply()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    apply()\n
     '''

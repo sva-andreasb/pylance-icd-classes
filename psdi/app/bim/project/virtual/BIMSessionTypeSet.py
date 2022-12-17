@@ -1,3 +1,4 @@
-def BIMSessionTypeSet():
-    '''public BIMSessionTypeSet(final MboServerInterface ms)
+def ():
+    '''returns BIMSessionTypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

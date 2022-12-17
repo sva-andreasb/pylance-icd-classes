@@ -1,46 +1,61 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def NEXT3WKS():
-    '''public int NEXT3WKS()
+    '''returns int\n\n
+    NEXT3WKS()\n
     '''
 def PRE3WKS():
-    '''public int PRE3WKS()
+    '''returns int\n\n
+    PRE3WKS()\n
     '''
 def MDAVAILCW():
-    '''public int MDAVAILCW()
+    '''returns int\n\n
+    MDAVAILCW()\n
     '''
 def CREWSTATUS():
-    '''public int CREWSTATUS()
+    '''returns int\n\n
+    CREWSTATUS()\n
     '''
 def CREWASSIGN():
-    '''public int CREWASSIGN()
+    '''returns int\n\n
+    CREWASSIGN()\n
     '''
 def LIST_STATUS():
-    '''public int LIST_STATUS()
+    '''returns int\n\n
+    LIST_STATUS()\n
     '''
 def ACTHIST():
-    '''public int ACTHIST()
+    '''returns int\n\n
+    ACTHIST()\n
     '''
 def ASSIGNHIST():
-    '''public int ASSIGNHIST()
+    '''returns int\n\n
+    ASSIGNHIST()\n
     '''
 def VIEWLABOR():
-    '''public int VIEWLABOR()
+    '''returns int\n\n
+    VIEWLABOR()\n
     '''
 def VIEWWO():
-    '''public int VIEWWO()
+    '''returns int\n\n
+    VIEWWO()\n
     '''
 def checkCrewActionAccess():
-    '''public void checkCrewActionAccess(final String sigoption)
-    public void checkCrewActionAccess(final String sigoption, final MboRemote mboRemote)
+    '''returns None\n\n
+    checkCrewActionAccess(final String sigoption)\n
+    checkCrewActionAccess(final String sigoption, final MboRemote mboRemote)\n
     '''
 def TOGGLEVIEW():
-    '''public int TOGGLEVIEW()
+    '''returns int\n\n
+    TOGGLEVIEW()\n
     '''
 def GOTODAY():
-    '''public int GOTODAY()
+    '''returns int\n\n
+    GOTODAY()\n
     '''

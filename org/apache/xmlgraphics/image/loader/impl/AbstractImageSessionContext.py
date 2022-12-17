@@ -1,29 +1,31 @@
-def AbstractImageSessionContext():
-    '''public AbstractImageSessionContext()
-    public AbstractImageSessionContext(final FallbackResolver fallbackResolver)
+def ():
+    '''returns ObservingImageInputStreamInvocationHandler\n\n
+    ()\n
+    (final FallbackResolver fallbackResolver)\n
+    (final ImageInputStream iin, final InputStream underlyingStream)\n
     '''
 def newSource():
-    '''public Source newSource(final String uri)
-    '''
-def toFile():
-    '''public static File toFile(final URL url)
+    '''returns Source\n\n
+    newSource(final String uri)\n
     '''
 def getSource():
-    '''public Source getSource(final String uri)
+    '''returns Source\n\n
+    getSource(final String uri)\n
     '''
 def needSource():
-    '''public Source needSource(final String uri)
+    '''returns Source\n\n
+    needSource(final String uri)\n
     '''
 def returnSource():
-    '''public void returnSource(final String uri, final Source src)
-    '''
-def ObservingImageInputStreamInvocationHandler():
-    '''public ObservingImageInputStreamInvocationHandler(final ImageInputStream iin, final InputStream underlyingStream)
+    '''returns None\n\n
+    returnSource(final String uri, final Source src)\n
     '''
 def invoke():
-    '''public Object invoke(final Object proxy, final Method method, final Object[] args)
+    '''returns Object\n\n
+    invoke(final Object proxy, final Method method, final Object[] args)\n
     '''
 def createSource():
-    '''public Source createSource(final Source source, final String uri)
-    public Source createSource(final Source source, final String uri)
+    '''returns Source\n\n
+    createSource(final Source source, final String uri)\n
+    createSource(final Source source, final String uri)\n
     '''

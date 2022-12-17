@@ -1,3 +1,4 @@
 def commonField():
-    '''public String commonField()
+    '''returns String\n\n
+    commonField()\n
     '''

@@ -1,3 +1,4 @@
 def handleResponse():
-    '''public T handleResponse(final HttpResponse response)
+    '''returns T\n\n
+    handleResponse(final HttpResponse response)\n
     '''

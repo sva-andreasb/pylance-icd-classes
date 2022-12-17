@@ -1,16 +1,21 @@
 NA = "String  \"?\""
-def LocationInfo():
-    '''public LocationInfo(final StackTraceElement element)
+def ():
+    '''returns LocationInfo\n\n
+    (final StackTraceElement element)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getLineNumber():
-    '''public String getLineNumber()
+    '''returns String\n\n
+    getLineNumber()\n
     '''
 def getMethodName():
-    '''public String getMethodName()
+    '''returns String\n\n
+    getMethodName()\n
     '''

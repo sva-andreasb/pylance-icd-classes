@@ -1,217 +1,281 @@
 def getClientEventCtrl():
-    '''public MapControlClientEvent getClientEventCtrl()
+    '''returns MapControlClientEvent\n\n
+    getClientEventCtrl()\n
     '''
-def MapControl():
-    '''public MapControl()
+def ():
+    '''returns MapControl\n\n
+    ()\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def isContextPersistent():
-    '''public Boolean isContextPersistent()
+    '''returns Boolean\n\n
+    isContextPersistent()\n
     '''
 def isZoomToDataInput():
-    '''public Boolean isZoomToDataInput()
+    '''returns Boolean\n\n
+    isZoomToDataInput()\n
     '''
 def isDataSourceDynamic():
-    '''public Boolean isDataSourceDynamic()
+    '''returns Boolean\n\n
+    isDataSourceDynamic()\n
     '''
 def getZoomLevel():
-    '''public String getZoomLevel()
+    '''returns String\n\n
+    getZoomLevel()\n
     '''
 def getFullExtZoomLevel():
-    '''public String getFullExtZoomLevel()
+    '''returns String\n\n
+    getFullExtZoomLevel()\n
     '''
 def isMapViewOnly():
-    '''public Boolean isMapViewOnly()
+    '''returns Boolean\n\n
+    isMapViewOnly()\n
     '''
 def getInitialX():
-    '''public Double getInitialX()
+    '''returns Double\n\n
+    getInitialX()\n
     '''
 def getInitialY():
-    '''public Double getInitialY()
+    '''returns Double\n\n
+    getInitialY()\n
     '''
 def getFullX():
-    '''public Double getFullX()
+    '''returns Double\n\n
+    getFullX()\n
     '''
 def getFullY():
-    '''public Double getFullY()
+    '''returns Double\n\n
+    getFullY()\n
     '''
 def isMobile():
-    '''public boolean isMobile()
+    '''returns boolean\n\n
+    isMobile()\n
     '''
 def getHeight():
-    '''public String getHeight()
+    '''returns String\n\n
+    getHeight()\n
     '''
 def getRefreshMapInterval():
-    '''public String getRefreshMapInterval()
+    '''returns String\n\n
+    getRefreshMapInterval()\n
     '''
 def getRouteConfiguration():
-    '''public JSONObject getRouteConfiguration()
+    '''returns JSONObject\n\n
+    getRouteConfiguration()\n
     '''
 def getMapConfiguration():
-    '''public JSONObject getMapConfiguration()
+    '''returns JSONObject\n\n
+    getMapConfiguration()\n
     '''
 def getPrintTimeout():
-    '''public int getPrintTimeout()
+    '''returns int\n\n
+    getPrintTimeout()\n
     '''
 def loadToolsConfiguration():
-    '''public JSONObject loadToolsConfiguration()
+    '''returns JSONObject\n\n
+    loadToolsConfiguration()\n
     '''
 def loadGISMapConfiguration():
-    '''public void loadGISMapConfiguration()
+    '''returns None\n\n
+    loadGISMapConfiguration()\n
     '''
 def getGoogleMapConfiguration():
-    '''public JSONObject getGoogleMapConfiguration(final MboRemote mbo)
+    '''returns JSONObject\n\n
+    getGoogleMapConfiguration(final MboRemote mbo)\n
     '''
 def getBingMapConfiguration():
-    '''public JSONObject getBingMapConfiguration(final MboRemote mbo)
+    '''returns JSONObject\n\n
+    getBingMapConfiguration(final MboRemote mbo)\n
     '''
 def getSpatialMapConfiguration():
-    '''public JSONObject getSpatialMapConfiguration(final MboRemote mbo)
+    '''returns JSONObject\n\n
+    getSpatialMapConfiguration(final MboRemote mbo)\n
     '''
 def loadSpatialMapDefinitions():
-    '''public JSONObject loadSpatialMapDefinitions()
+    '''returns JSONObject\n\n
+    loadSpatialMapDefinitions()\n
     '''
 def addSpatialSecureTokenInfo():
-    '''public void addSpatialSecureTokenInfo(final JSONObject mapConf)
+    '''returns None\n\n
+    addSpatialSecureTokenInfo(final JSONObject mapConf)\n
     '''
 def storeUserLocation():
-    '''public int storeUserLocation()
+    '''returns int\n\n
+    storeUserLocation()\n
     '''
 def loadMenuItems():
-    '''public int loadMenuItems()
+    '''returns int\n\n
+    loadMenuItems()\n
     '''
 def setCurrentSALocation():
-    '''public int setCurrentSALocation()
+    '''returns int\n\n
+    setCurrentSALocation()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getCurrentState():
-    '''public JSONArray getCurrentState()
+    '''returns JSONArray\n\n
+    getCurrentState()\n
     '''
 def getCurrentRecordData():
-    '''public JSONObject getCurrentRecordData()
+    '''returns JSONObject\n\n
+    getCurrentRecordData()\n
     '''
 def getMainRecordMbo():
-    '''public MboRemote getMainRecordMbo()
+    '''returns MboRemote\n\n
+    getMainRecordMbo()\n
     '''
 def showMaxMessage():
-    '''public int showMaxMessage()
+    '''returns int\n\n
+    showMaxMessage()\n
     '''
 def showErrorsParamObject():
-    '''public int showErrorsParamObject()
+    '''returns int\n\n
+    showErrorsParamObject()\n
     '''
 def showErrors():
-    '''public int showErrors()
+    '''returns int\n\n
+    showErrors()\n
     '''
 def showDialog():
-    '''public int showDialog()
+    '''returns int\n\n
+    showDialog()\n
     '''
 def showSelectDialog():
-    '''public int showSelectDialog(final WebClientSession webClientSession, final JSONObject jsonObject)
-    public int showSelectDialog(final JSONObject jsonObject)
+    '''returns int\n\n
+    showSelectDialog(final WebClientSession webClientSession, final JSONObject jsonObject)\n
+    showSelectDialog(final JSONObject jsonObject)\n
     '''
 def refreshQueryUnassignedWork():
-    '''public int refreshQueryUnassignedWork()
+    '''returns int\n\n
+    refreshQueryUnassignedWork()\n
     '''
 def queryUnassignedWorkDispatcher():
-    '''public int queryUnassignedWorkDispatcher()
+    '''returns int\n\n
+    queryUnassignedWorkDispatcher()\n
     '''
 def loadMapTipTemplate():
-    '''public int loadMapTipTemplate()
+    '''returns int\n\n
+    loadMapTipTemplate()\n
     '''
 def loadAttributesFromLinearAttributeTemplate():
-    '''public int loadAttributesFromLinearAttributeTemplate()
+    '''returns int\n\n
+    loadAttributesFromLinearAttributeTemplate()\n
     '''
 def getLinearGraphicsbyWhereClause():
-    '''public int getLinearGraphicsbyWhereClause()
+    '''returns int\n\n
+    getLinearGraphicsbyWhereClause()\n
     '''
 def loadLinearLayerObjectAttributes():
-    '''public int loadLinearLayerObjectAttributes()
+    '''returns int\n\n
+    loadLinearLayerObjectAttributes()\n
     '''
 def deleteLinearLayerSegmentObjects():
-    '''public int deleteLinearLayerSegmentObjects()
-    '''
-def tokenizerAttributes():
-    '''public static Map<String, String> tokenizerAttributes(final String attributes)
+    '''returns int\n\n
+    deleteLinearLayerSegmentObjects()\n
     '''
 def loadMapTipSummaryTemplate():
-    '''public int loadMapTipSummaryTemplate()
+    '''returns int\n\n
+    loadMapTipSummaryTemplate()\n
     '''
 def refreshMarkersPositions():
-    '''public int refreshMarkersPositions()
+    '''returns int\n\n
+    refreshMarkersPositions()\n
     '''
 def createMapCallback():
-    '''public void createMapCallback(final String actionName, final JSONObject data)
+    '''returns None\n\n
+    createMapCallback(final String actionName, final JSONObject data)\n
     '''
 def addRecordsToLayer():
-    '''public void addRecordsToLayer(final String layerName, final MboSetRemote mboSet, final boolean cleanOld)
+    '''returns None\n\n
+    addRecordsToLayer(final String layerName, final MboSetRemote mboSet, final boolean cleanOld)\n
     '''
 def addEventToMap():
-    '''public void addEventToMap(final String eventName, final JSONObject action)
+    '''returns None\n\n
+    addEventToMap(final String eventName, final JSONObject action)\n
     '''
 def removeRecordsFromLayer():
-    '''public void removeRecordsFromLayer(final String layerName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    removeRecordsFromLayer(final String layerName, final MboSetRemote mboSet)\n
     '''
 def getWeatherAlertsByQueryParams():
-    '''public int getWeatherAlertsByQueryParams()
+    '''returns int\n\n
+    getWeatherAlertsByQueryParams()\n
     '''
 def getCrewLaborByQueryParams():
-    '''public int getCrewLaborByQueryParams()
+    '''returns int\n\n
+    getCrewLaborByQueryParams()\n
     '''
 def getShowMarkersOnRouteError():
-    '''public int getShowMarkersOnRouteError()
-    '''
-def removeCommentsFromJson():
-    '''public static String removeCommentsFromJson(final String isStr)
+    '''returns int\n\n
+    getShowMarkersOnRouteError()\n
     '''
 def NOOP():
-    '''public int NOOP()
+    '''returns int\n\n
+    NOOP()\n
     '''
 def clearNextEventData():
-    '''public void clearNextEventData()
+    '''returns None\n\n
+    clearNextEventData()\n
     '''
 def refreshLinearLayers():
-    '''public int refreshLinearLayers()
+    '''returns int\n\n
+    refreshLinearLayers()\n
     '''
 def getRelationshipLinearObject():
-    '''public MboRemote getRelationshipLinearObject(final MboRemote appMbo, final String objectName, final String relationshipName)
+    '''returns MboRemote\n\n
+    getRelationshipLinearObject(final MboRemote appMbo, final String objectName, final String relationshipName)\n
     '''
 def loadLinearSegments():
-    '''public JSONArray loadLinearSegments(final MboRemote linearLayerMbo, final MboRemote appMbo, final MboRemote relatedAsset, final String mapMeasureUnit)
+    '''returns JSONArray\n\n
+    loadLinearSegments(final MboRemote linearLayerMbo, final MboRemote appMbo, final MboRemote relatedAsset, final String mapMeasureUnit)\n
     '''
 def userHasMapServiceLayerPermission():
-    '''public boolean userHasMapServiceLayerPermission(final MboRemote mapServiceLayerMbo, final String parent)
+    '''returns boolean\n\n
+    userHasMapServiceLayerPermission(final MboRemote mapServiceLayerMbo, final String parent)\n
     '''
 def getOpenMapReturnAttribute():
-    '''public String getOpenMapReturnAttribute()
+    '''returns String\n\n
+    getOpenMapReturnAttribute()\n
     '''
 def getOpenMapMbo():
-    '''public String getOpenMapMbo()
+    '''returns String\n\n
+    getOpenMapMbo()\n
     '''
 def getOriginalApp():
-    '''public String getOriginalApp(final String app)
+    '''returns String\n\n
+    getOriginalApp(final String app)\n
     '''
 def getPropagateCloneStatus():
-    '''public boolean getPropagateCloneStatus(final String mapName, final String app)
+    '''returns boolean\n\n
+    getPropagateCloneStatus(final String mapName, final String app)\n
     '''
 def pushMapControlClientEventHandler():
-    '''public int pushMapControlClientEventHandler()
+    '''returns int\n\n
+    pushMapControlClientEventHandler()\n
     '''
 def isCurrentMboAddressable():
-    '''public int isCurrentMboAddressable()
+    '''returns int\n\n
+    isCurrentMboAddressable()\n
     '''
 def isMboFormattedAddressEditable():
-    '''public boolean isMboFormattedAddressEditable()
+    '''returns boolean\n\n
+    isMboFormattedAddressEditable()\n
     '''
 def getRecordsFromAppTable():
-    '''public int getRecordsFromAppTable(final String tableId)
+    '''returns int\n\n
+    getRecordsFromAppTable(final String tableId)\n
     '''
 def getWOTaskRecords():
-    '''public int getWOTaskRecords()
+    '''returns int\n\n
+    getWOTaskRecords()\n
     '''
 def getWOMultiAssetLocCIRecords():
-    '''public int getWOMultiAssetLocCIRecords()
+    '''returns int\n\n
+    getWOMultiAssetLocCIRecords()\n
     '''

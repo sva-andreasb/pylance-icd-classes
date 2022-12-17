@@ -1,3 +1,4 @@
-def PlusPCustomerLogSet():
-    '''public PlusPCustomerLogSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustomerLogSet\n\n
+    (final MboServerInterface ms)\n
     '''

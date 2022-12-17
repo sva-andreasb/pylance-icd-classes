@@ -1,27 +1,36 @@
-def AssetAttribute():
-    '''public AssetAttribute(final MboSet ms)
+def ():
+    '''returns AssetAttribute\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getInternalDataType():
-    '''public String getInternalDataType()
+    '''returns String\n\n
+    getInternalDataType()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def validateNewAttribute():
-    '''public void validateNewAttribute(final MboRemote mbo)
+    '''returns None\n\n
+    validateNewAttribute(final MboRemote mbo)\n
     '''
 def getNewOrgSiteSql():
-    '''public String getNewOrgSiteSql(final MboSetRemote specSet)
+    '''returns String\n\n
+    getNewOrgSiteSql(final MboSetRemote specSet)\n
     '''

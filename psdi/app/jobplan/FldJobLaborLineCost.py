@@ -1,6 +1,8 @@
-def FldJobLaborLineCost():
-    '''public FldJobLaborLineCost(final MboValue mbv)
+def ():
+    '''returns FldJobLaborLineCost\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

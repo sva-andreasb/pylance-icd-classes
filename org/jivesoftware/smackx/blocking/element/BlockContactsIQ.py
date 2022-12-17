@@ -1,8 +1,10 @@
 ELEMENT = "String  \"block\""
 NAMESPACE = "String  \"urn:xmpp:blocking\""
-def BlockContactsIQ():
-    '''public BlockContactsIQ(final List<Jid> jids)
+def ():
+    '''returns BlockContactsIQ\n\n
+    (final List<Jid> jids)\n
     '''
 def getJids():
-    '''public List<Jid> getJids()
+    '''returns List<Jid>\n\n
+    getJids()\n
     '''

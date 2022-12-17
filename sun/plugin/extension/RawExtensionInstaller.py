@@ -1,3 +1,4 @@
 def install():
-    '''public boolean install(final String s, final String pathname, final String str)
+    '''returns boolean\n\n
+    install(final String s, final String pathname, final String str)\n
     '''

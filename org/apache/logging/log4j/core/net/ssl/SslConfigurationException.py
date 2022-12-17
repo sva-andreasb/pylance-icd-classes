@@ -1,3 +1,4 @@
-def SslConfigurationException():
-    '''public SslConfigurationException(final Exception e)
+def ():
+    '''returns SslConfigurationException\n\n
+    (final Exception e)\n
     '''

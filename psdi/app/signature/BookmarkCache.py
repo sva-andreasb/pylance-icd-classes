@@ -1,12 +1,12 @@
-def getInstance():
-    '''public static final BookmarkCache getInstance()
-    '''
 def getBookmarks():
-    '''public Set<Long> getBookmarks(final String appName, final String userid)
+    '''returns Set<Long>\n\n
+    getBookmarks(final String appName, final String userid)\n
     '''
 def isBookMarked():
-    '''public boolean isBookMarked(final String appName, final String userid, final long id)
+    '''returns boolean\n\n
+    isBookMarked(final String appName, final String userid, final long id)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

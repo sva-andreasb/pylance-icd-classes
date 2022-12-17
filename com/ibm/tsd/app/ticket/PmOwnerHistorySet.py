@@ -1,3 +1,4 @@
-def PmOwnerHistorySet():
-    '''public PmOwnerHistorySet(final MboServerInterface ms)
+def ():
+    '''returns PmOwnerHistorySet\n\n
+    (final MboServerInterface ms)\n
     '''

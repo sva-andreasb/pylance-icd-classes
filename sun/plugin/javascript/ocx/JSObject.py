@@ -1,45 +1,51 @@
 DISPATCH_METHOD = "int  1"
 DISPATCH_PROPERTYGET = "int  2"
 DISPATCH_PROPERTYPUT = "int  4"
-def JSObject():
-    '''public JSObject(final DispatchClient dispClient)
+def ():
+    '''returns JSObject\n\n
+    (final DispatchClient dispClient)\n
     '''
 def setIExplorerAppletContext():
-    '''public void setIExplorerAppletContext(final IExplorerAppletContext aac)
+    '''returns None\n\n
+    setIExplorerAppletContext(final IExplorerAppletContext aac)\n
     '''
 def finalize():
-    '''public void finalize()
+    '''returns None\n\n
+    finalize()\n
     '''
 def cleanup():
-    '''public void cleanup()
-    '''
-def invoke():
-    '''public synchronized Object invoke(final String s, final Object[] array, final int n)
+    '''returns None\n\n
+    cleanup()\n
     '''
 def call():
-    '''public Object call(final String s, final Object[] array)
-    '''
-def eval():
-    '''public synchronized Object eval(final String str)
+    '''returns Object\n\n
+    call(final String s, final Object[] array)\n
     '''
 def getMember():
-    '''public Object getMember(final String s)
+    '''returns Object\n\n
+    getMember(final String s)\n
     '''
 def setMember():
-    '''public void setMember(final String s, final Object o)
+    '''returns None\n\n
+    setMember(final String s, final Object o)\n
     '''
 def removeMember():
-    '''public void removeMember(final String str)
+    '''returns None\n\n
+    removeMember(final String str)\n
     '''
 def getSlot():
-    '''public Object getSlot(final int n)
+    '''returns Object\n\n
+    getSlot(final int n)\n
     '''
 def setSlot():
-    '''public void setSlot(final int value, final Object o)
+    '''returns None\n\n
+    setSlot(final int value, final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDispatchClient():
-    '''public DispatchClient getDispatchClient()
+    '''returns DispatchClient\n\n
+    getDispatchClient()\n
     '''

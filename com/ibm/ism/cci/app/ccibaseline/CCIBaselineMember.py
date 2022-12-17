@@ -1,53 +1,70 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def CCIBaselineMember():
-    '''public CCIBaselineMember(final MboSet ms)
+def ():
+    '''returns CCIBaselineMember\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def createCISpecHisOnDemand():
-    '''public void createCISpecHisOnDemand()
+    '''returns None\n\n
+    createCISpecHisOnDemand()\n
     '''
 def getOwningBaseline():
-    '''public MboRemote getOwningBaseline()
+    '''returns MboRemote\n\n
+    getOwningBaseline()\n
     '''
 def isMemberHidden():
-    '''public boolean isMemberHidden()
+    '''returns boolean\n\n
+    isMemberHidden()\n
     '''
 def ciExists():
-    '''public boolean ciExists()
+    '''returns boolean\n\n
+    ciExists()\n
     '''
 def getCI():
-    '''public MboRemote getCI()
+    '''returns MboRemote\n\n
+    getCI()\n
     '''
 def getLinkedActualCI():
-    '''public MboRemote getLinkedActualCI()
-    public MboRemote getLinkedActualCI(final MboRemote ci)
+    '''returns MboRemote\n\n
+    getLinkedActualCI()\n
+    getLinkedActualCI(final MboRemote ci)\n
     '''
 def isUserAuthorizedForCI():
-    '''public boolean isUserAuthorizedForCI(final MboRemote ci)
+    '''returns boolean\n\n
+    isUserAuthorizedForCI(final MboRemote ci)\n
     '''
 def isUserAuthorizedForActualCI():
-    '''public boolean isUserAuthorizedForActualCI(final MboRemote actCI)
+    '''returns boolean\n\n
+    isUserAuthorizedForActualCI(final MboRemote actCI)\n
     '''
 def isUserAuthorizedForLinkedActualCI():
-    '''public boolean isUserAuthorizedForLinkedActualCI()
+    '''returns boolean\n\n
+    isUserAuthorizedForLinkedActualCI()\n
     '''
 def linkedActualCIExists():
-    '''public boolean linkedActualCIExists()
+    '''returns boolean\n\n
+    linkedActualCIExists()\n
     '''
 def activate():
-    '''public void activate(final Date asOf)
+    '''returns None\n\n
+    activate(final Date asOf)\n
     '''

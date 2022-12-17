@@ -1,6 +1,8 @@
-def ReconcileReplacementsVisitor():
-    '''public ReconcileReplacementsVisitor()
+def ():
+    '''returns ReconcileReplacementsVisitor\n\n
+    ()\n
     '''
 def visit():
-    '''public void visit(final BaseTag baseTag)
+    '''returns None\n\n
+    visit(final BaseTag baseTag)\n
     '''

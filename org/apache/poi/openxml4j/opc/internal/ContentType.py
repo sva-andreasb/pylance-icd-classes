@@ -1,28 +1,32 @@
-def ContentType():
-    '''public ContentType(final String contentType)
-    '''
-def toString():
-    '''public final String toString()
-    public final String toString(final boolean withParameters)
+def ():
+    '''returns ContentType\n\n
+    (final String contentType)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getSubType():
-    '''public String getSubType()
+    '''returns String\n\n
+    getSubType()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def hasParameters():
-    '''public boolean hasParameters()
+    '''returns boolean\n\n
+    hasParameters()\n
     '''
 def getParameterKeys():
-    '''public String[] getParameterKeys()
+    '''returns String[]\n\n
+    getParameterKeys()\n
     '''
 def getParameter():
-    '''public String getParameter(final String key)
+    '''returns String\n\n
+    getParameter(final String key)\n
     '''

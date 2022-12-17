@@ -1,21 +1,28 @@
-def PlusCFldSpecNumValue():
-    '''public PlusCFldSpecNumValue(final MboValue mbv)
+def ():
+    '''returns PlusCFldSpecNumValue\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def overrideScale():
-    '''public void overrideScale()
+    '''returns None\n\n
+    overrideScale()\n
     '''
 def numberOfDecialPlaces():
-    '''public int numberOfDecialPlaces()
+    '''returns int\n\n
+    numberOfDecialPlaces()\n
     '''
 def parseStringAsNumber():
-    '''public Number parseStringAsNumber(String val)
+    '''returns Number\n\n
+    parseStringAsNumber(String val)\n
     '''

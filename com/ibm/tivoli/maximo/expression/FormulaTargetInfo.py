@@ -1,9 +1,12 @@
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getRelPath():
-    '''public String[] getRelPath()
+    '''returns String[]\n\n
+    getRelPath()\n
     '''
-def FormulaTargetInfo():
-    '''public FormulaTargetInfo(final String objectName, final String[] relPath)
+def ():
+    '''returns FormulaTargetInfo\n\n
+    (final String objectName, final String[] relPath)\n
     '''

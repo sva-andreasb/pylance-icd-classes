@@ -1,3 +1,4 @@
 def transform():
-    '''public Calendar transform(final Calendar object)
+    '''returns Calendar\n\n
+    transform(final Calendar object)\n
     '''

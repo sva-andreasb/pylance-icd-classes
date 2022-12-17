@@ -1,6 +1,8 @@
-def AutoCloseInputStream():
-    '''public AutoCloseInputStream(final InputStream in)
+def ():
+    '''returns AutoCloseInputStream\n\n
+    (final InputStream in)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,16 +1,21 @@
 PLUSPBILLSCHEDULE = "String  \"PLUSPBILLSCHEDULE\""
-def PlusPBillScheduleSet():
-    '''public PlusPBillScheduleSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBillScheduleSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def setCopying():
-    '''public void setCopying(final boolean isCopying)
+    '''returns None\n\n
+    setCopying(final boolean isCopying)\n
     '''
 def isCopying():
-    '''public boolean isCopying()
+    '''returns boolean\n\n
+    isCopying()\n
     '''
 def deleteAll():
-    '''public void deleteAll()
+    '''returns None\n\n
+    deleteAll()\n
     '''

@@ -1,9 +1,11 @@
-def ApiException():
-    '''public ApiException(final String message, final Throwable cause)
-    public ApiException(final String message)
-    public ApiException(final Throwable cause)
-    public ApiException()
+def ():
+    '''returns ApiException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
+    ()\n
     '''
 def fillInStackTrace():
-    '''public Throwable fillInStackTrace()
+    '''returns Throwable\n\n
+    fillInStackTrace()\n
     '''

@@ -1,107 +1,142 @@
 AUTOINITACTIVE = "String  \"AutoInitActive\""
-def WFProcess():
-    '''public WFProcess(final MboSet ms)
+def ():
+    '''returns WFProcess\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def findIncomingActions():
-    '''public List<WFAction> findIncomingActions(final int nodeID)
+    '''returns List<WFAction>\n\n
+    findIncomingActions(final int nodeID)\n
     '''
 def getNextActionNum():
-    '''public int getNextActionNum()
+    '''returns int\n\n
+    getNextActionNum()\n
     '''
 def setNextActionNum():
-    '''public void setNextActionNum(final int actionID)
+    '''returns None\n\n
+    setNextActionNum(final int actionID)\n
     '''
 def findNode():
-    '''public WFNode findNode(final int nodeID)
+    '''returns WFNode\n\n
+    findNode(final int nodeID)\n
     '''
 def validateWorkflow():
-    '''public Vector validateWorkflow()
-    public Vector<MXException> validateWorkflow(final Hashtable<String, String> hinfo)
+    '''returns Vector<MXException>\n\n
+    validateWorkflow()\n
+    validateWorkflow(final Hashtable<String, String> hinfo)\n
     '''
 def buildSubProcessList():
-    '''public void buildSubProcessList(final Hashtable<String, String> h)
+    '''returns None\n\n
+    buildSubProcessList(final Hashtable<String, String> h)\n
     '''
 def hasPositiveStop():
-    '''public boolean hasPositiveStop()
+    '''returns boolean\n\n
+    hasPositiveStop()\n
     '''
 def hasNegativeStop():
-    '''public boolean hasNegativeStop()
+    '''returns boolean\n\n
+    hasNegativeStop()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def enableProcess():
-    '''public boolean enableProcess()
+    '''returns boolean\n\n
+    enableProcess()\n
     '''
 def makeProcessActive():
-    '''public void makeProcessActive()
+    '''returns None\n\n
+    makeProcessActive()\n
     '''
 def initiateWorkflow():
-    '''public WFInstanceRemote initiateWorkflow(final MboRemote targetMbo, final String memo)
+    '''returns WFInstanceRemote\n\n
+    initiateWorkflow(final MboRemote targetMbo, final String memo)\n
     '''
 def validateProcess():
-    '''public boolean validateProcess()
+    '''returns boolean\n\n
+    validateProcess()\n
     '''
 def deactivateProcess():
-    '''public void deactivateProcess()
+    '''returns None\n\n
+    deactivateProcess()\n
     '''
 def createRevision():
-    '''public MboRemote createRevision()
+    '''returns MboRemote\n\n
+    createRevision()\n
     '''
 def disableProcess():
-    '''public void disableProcess()
+    '''returns None\n\n
+    disableProcess()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def resynchronize():
-    '''public void resynchronize()
+    '''returns None\n\n
+    resynchronize()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def needAppSupport():
-    '''public boolean needAppSupport()
+    '''returns boolean\n\n
+    needAppSupport()\n
     '''
 def makeAutoInitiate():
-    '''public void makeAutoInitiate()
+    '''returns None\n\n
+    makeAutoInitiate()\n
     '''
 def clearAutoInitiate():
-    '''public void clearAutoInitiate()
+    '''returns None\n\n
+    clearAutoInitiate()\n
     '''
 def nextNoteUID():
-    '''public int nextNoteUID()
+    '''returns int\n\n
+    nextNoteUID()\n
     '''
 def updatePointedTo():
-    '''public void updatePointedTo(final Integer wasMemberNodeID, final Integer nowMemberNodeID)
+    '''returns None\n\n
+    updatePointedTo(final Integer wasMemberNodeID, final Integer nowMemberNodeID)\n
     '''
 def addNodePointedTo():
-    '''public void addNodePointedTo(final Mbo pointedToNode)
+    '''returns None\n\n
+    addNodePointedTo(final Mbo pointedToNode)\n
     '''
 def createPointedToList():
-    '''public String createPointedToList(final int nodeID)
+    '''returns String\n\n
+    createPointedToList(final int nodeID)\n
     '''
 def getNextNodePoint():
-    '''public Point getNextNodePoint()
+    '''returns Point\n\n
+    getNextNodePoint()\n
     '''
 def getNodeAt():
-    '''public MboRemote getNodeAt(final int x, final int y)
+    '''returns MboRemote\n\n
+    getNodeAt(final int x, final int y)\n
     '''
 def setDeletableFlag():
-    '''public void setDeletableFlag(final boolean flag)
+    '''returns None\n\n
+    setDeletableFlag(final boolean flag)\n
     '''

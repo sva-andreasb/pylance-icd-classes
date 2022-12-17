@@ -1,27 +1,36 @@
-def IMUserStatusHandlerMocImpl():
-    '''public IMUserStatusHandlerMocImpl(final IMSessionMocImpl session)
+def ():
+    '''returns IMUserStatusHandlerMocImpl\n\n
+    (final IMSessionMocImpl session)\n
     '''
 def addListenedUser():
-    '''public void addListenedUser(final IMUser imUser)
+    '''returns None\n\n
+    addListenedUser(final IMUser imUser)\n
     '''
 def addListener():
-    '''public void addListener(final IMUserStatusListener imUserStatusListener)
+    '''returns None\n\n
+    addListener(final IMUserStatusListener imUserStatusListener)\n
     '''
 def hasListenedUser():
-    '''public boolean hasListenedUser(final IMUser imUser)
+    '''returns boolean\n\n
+    hasListenedUser(final IMUser imUser)\n
     '''
 def removeAllListenedUsers():
-    '''public void removeAllListenedUsers()
+    '''returns None\n\n
+    removeAllListenedUsers()\n
     '''
 def removeAllListeners():
-    '''public void removeAllListeners()
+    '''returns None\n\n
+    removeAllListeners()\n
     '''
 def removeListenedUser():
-    '''public void removeListenedUser(final IMUser imUser)
+    '''returns None\n\n
+    removeListenedUser(final IMUser imUser)\n
     '''
 def removeListener():
-    '''public void removeListener(final IMUserStatusListener imUserStatusListener)
+    '''returns None\n\n
+    removeListener(final IMUserStatusListener imUserStatusListener)\n
     '''
 def userStatusChange():
-    '''public void userStatusChange(final IMUser imUser, final IMUser.IMUserStatus userStatus)
+    '''returns None\n\n
+    userStatusChange(final IMUser imUser, final IMUser.IMUserStatus userStatus)\n
     '''

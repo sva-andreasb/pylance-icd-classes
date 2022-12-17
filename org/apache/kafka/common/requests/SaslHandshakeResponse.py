@@ -1,22 +1,17 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def SaslHandshakeResponse():
-    '''public SaslHandshakeResponse(final Errors error, final Collection<String> enabledMechanisms)
-    public SaslHandshakeResponse(final Struct struct)
+def ():
+    '''returns SaslHandshakeResponse\n\n
+    (final Errors error, final Collection<String> enabledMechanisms)\n
+    (final Struct struct)\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
+    '''returns Errors\n\n
+    error()\n
     '''
 def toStruct():
-    '''public Struct toStruct(final short version)
+    '''returns Struct\n\n
+    toStruct(final short version)\n
     '''
 def enabledMechanisms():
-    '''public List<String> enabledMechanisms()
-    '''
-def parse():
-    '''public static SaslHandshakeResponse parse(final ByteBuffer buffer, final short version)
+    '''returns List<String>\n\n
+    enabledMechanisms()\n
     '''

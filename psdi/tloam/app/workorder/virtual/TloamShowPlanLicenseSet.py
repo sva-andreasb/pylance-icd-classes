@@ -1,3 +1,4 @@
-def TloamShowPlanLicenseSet():
-    '''public TloamShowPlanLicenseSet(final MboRemote owner)
+def ():
+    '''returns TloamShowPlanLicenseSet\n\n
+    (final MboRemote owner)\n
     '''

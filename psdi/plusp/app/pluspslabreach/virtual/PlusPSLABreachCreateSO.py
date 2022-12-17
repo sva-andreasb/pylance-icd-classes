@@ -1,18 +1,24 @@
-def PlusPSLABreachCreateSO():
-    '''public PlusPSLABreachCreateSO(final MboSet ms)
+def ():
+    '''returns PlusPSLABreachCreateSO\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def closeBreachLines():
-    '''public void closeBreachLines()
+    '''returns None\n\n
+    closeBreachLines()\n
     '''
 def clearSO():
-    '''public void clearSO()
+    '''returns None\n\n
+    clearSO()\n
     '''
 def createSO():
-    '''public void createSO()
+    '''returns None\n\n
+    createSO()\n
     '''

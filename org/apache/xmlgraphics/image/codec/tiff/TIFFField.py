@@ -10,66 +10,87 @@ TIFF_SLONG = "int  9"
 TIFF_SRATIONAL = "int  10"
 TIFF_FLOAT = "int  11"
 TIFF_DOUBLE = "int  12"
-def TIFFField():
-    '''public TIFFField(final int tag, final int type, final int count, final Object data)
+def ():
+    '''returns TIFFField\n\n
+    (final int tag, final int type, final int count, final Object data)\n
     '''
 def getTag():
-    '''public int getTag()
+    '''returns int\n\n
+    getTag()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def getAsBytes():
-    '''public byte[] getAsBytes()
+    '''returns byte[]\n\n
+    getAsBytes()\n
     '''
 def getAsChars():
-    '''public char[] getAsChars()
+    '''returns char[]\n\n
+    getAsChars()\n
     '''
 def getAsShorts():
-    '''public short[] getAsShorts()
+    '''returns short[]\n\n
+    getAsShorts()\n
     '''
 def getAsInts():
-    '''public int[] getAsInts()
+    '''returns int[]\n\n
+    getAsInts()\n
     '''
 def getAsLongs():
-    '''public long[] getAsLongs()
+    '''returns long[]\n\n
+    getAsLongs()\n
     '''
 def getAsFloats():
-    '''public float[] getAsFloats()
+    '''returns float[]\n\n
+    getAsFloats()\n
     '''
 def getAsDoubles():
-    '''public double[] getAsDoubles()
+    '''returns double[]\n\n
+    getAsDoubles()\n
     '''
 def getAsSRationals():
-    '''public int[][] getAsSRationals()
+    '''returns int[][]\n\n
+    getAsSRationals()\n
     '''
 def getAsRationals():
-    '''public long[][] getAsRationals()
+    '''returns long[][]\n\n
+    getAsRationals()\n
     '''
 def getAsInt():
-    '''public int getAsInt(final int index)
+    '''returns int\n\n
+    getAsInt(final int index)\n
     '''
 def getAsLong():
-    '''public long getAsLong(final int index)
+    '''returns long\n\n
+    getAsLong(final int index)\n
     '''
 def getAsFloat():
-    '''public float getAsFloat(final int index)
+    '''returns float\n\n
+    getAsFloat(final int index)\n
     '''
 def getAsDouble():
-    '''public double getAsDouble(final int index)
+    '''returns double\n\n
+    getAsDouble(final int index)\n
     '''
 def getAsString():
-    '''public String getAsString(final int index)
+    '''returns String\n\n
+    getAsString(final int index)\n
     '''
 def getAsSRational():
-    '''public int[] getAsSRational(final int index)
+    '''returns int[]\n\n
+    getAsSRational(final int index)\n
     '''
 def getAsRational():
-    '''public long[] getAsRational(final int index)
+    '''returns long[]\n\n
+    getAsRational(final int index)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''

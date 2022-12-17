@@ -1,13 +1,13 @@
 WFMBONAME = "String  \"WFMBONAME\""
-def getInstance():
-    '''public static WorkflowCacheFactory getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getCache():
-    '''public WorkflowCache getCache()
+    '''returns WorkflowCache\n\n
+    getCache()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

@@ -1,22 +1,25 @@
-def AppPropInfo():
-    '''public AppPropInfo(final boolean personalizable, final String type, final String sysPropName, final Object value)
+def ():
+    '''returns AppPropInfo\n\n
+    (final boolean personalizable, final String type, final String sysPropName, final Object value)\n
     '''
 def getValue():
-    '''public Object getValue()
-    public Object getValue(final String personId)
-    '''
-def getPersonalizedValueMap():
-    '''public Map<String, Object> getPersonalizedValueMap()
+    '''returns Object\n\n
+    getValue()\n
+    getValue(final String personId)\n
     '''
 def addPersonalizedValueMap():
-    '''public void addPersonalizedValueMap(final String personId, final Object value)
+    '''returns None\n\n
+    addPersonalizedValueMap(final String personId, final Object value)\n
     '''
 def isPersonalizable():
-    '''public boolean isPersonalizable()
+    '''returns boolean\n\n
+    isPersonalizable()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getSysPropName():
-    '''public String getSysPropName()
+    '''returns String\n\n
+    getSysPropName()\n
     '''

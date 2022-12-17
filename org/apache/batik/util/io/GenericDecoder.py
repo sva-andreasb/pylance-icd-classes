@@ -1,10 +1,13 @@
-def GenericDecoder():
-    '''public GenericDecoder(final InputStream is, final String enc)
-    public GenericDecoder(final Reader r)
+def ():
+    '''returns GenericDecoder\n\n
+    (final InputStream is, final String enc)\n
+    (final Reader r)\n
     '''
 def readChar():
-    '''public int readChar()
+    '''returns int\n\n
+    readChar()\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''

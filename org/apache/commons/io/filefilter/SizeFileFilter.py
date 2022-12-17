@@ -1,10 +1,13 @@
-def SizeFileFilter():
-    '''public SizeFileFilter(final long size)
-    public SizeFileFilter(final long size, final boolean acceptLarger)
+def ():
+    '''returns SizeFileFilter\n\n
+    (final long size)\n
+    (final long size, final boolean acceptLarger)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

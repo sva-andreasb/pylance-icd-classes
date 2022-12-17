@@ -1,9 +1,12 @@
-def JSONMappingPropsSet():
-    '''public JSONMappingPropsSet(final MboServerInterface ms)
+def ():
+    '''returns JSONMappingPropsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getExistingAttributes():
-    '''public Set<String> getExistingAttributes(final MboRemote thisMbo)
+    '''returns Set<String>\n\n
+    getExistingAttributes(final MboRemote thisMbo)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

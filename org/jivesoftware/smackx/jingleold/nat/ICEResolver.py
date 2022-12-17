@@ -1,12 +1,12 @@
-def ICEResolver():
-    '''public ICEResolver(final XMPPConnection connection, final String server, final int port)
+def ():
+    '''returns ICEResolver\n\n
+    (final XMPPConnection connection, final String server, final int port)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def cancel():
-    '''public void cancel()
-    '''
-def resolve():
-    '''public synchronized void resolve(final JingleSession session)
+    '''returns None\n\n
+    cancel()\n
     '''

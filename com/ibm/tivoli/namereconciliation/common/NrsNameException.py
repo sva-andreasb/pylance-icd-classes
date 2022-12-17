@@ -1,7 +1,9 @@
 INVALID_CLASS = "int  1001"
-def NrsNameException():
-    '''public NrsNameException(final int errorCode, final String errorDetails)
+def ():
+    '''returns NrsNameException\n\n
+    (final int errorCode, final String errorDetails)\n
     '''
 def getErrorDetails():
-    '''public String getErrorDetails()
+    '''returns String\n\n
+    getErrorDetails()\n
     '''

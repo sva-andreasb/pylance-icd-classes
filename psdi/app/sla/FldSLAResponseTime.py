@@ -1,6 +1,8 @@
-def FldSLAResponseTime():
-    '''public FldSLAResponseTime(final MboValue mbv)
+def ():
+    '''returns FldSLAResponseTime\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

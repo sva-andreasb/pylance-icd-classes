@@ -1,3 +1,4 @@
-def IlvStringEvaluatorReader():
-    '''public IlvStringEvaluatorReader(final boolean a)
+def ():
+    '''returns IlvStringEvaluatorReader\n\n
+    (final boolean a)\n
     '''

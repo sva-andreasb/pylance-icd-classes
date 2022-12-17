@@ -1,6 +1,8 @@
-def OslcActionSet():
-    '''public OslcActionSet(final MboServerInterface ms)
+def ():
+    '''returns OslcActionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

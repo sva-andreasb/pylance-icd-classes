@@ -1,3 +1,4 @@
 def hierarchicalmove():
-    '''public int hierarchicalmove()
+    '''returns int\n\n
+    hierarchicalmove()\n
     '''

@@ -1,7 +1,9 @@
-def PlusPFldCommodityGroup():
-    '''public PlusPFldCommodityGroup(final MboValue mbv, final String commodityField, final String defaultExtraFilter)
-    public PlusPFldCommodityGroup(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCommodityGroup\n\n
+    (final MboValue mbv, final String commodityField, final String defaultExtraFilter)\n
+    (final MboValue mboValue)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

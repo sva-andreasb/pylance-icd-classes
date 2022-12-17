@@ -1,36 +1,48 @@
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String value)
+    '''returns None\n\n
+    setTitle(final String value)\n
     '''
 def getRelevance():
-    '''public RelevanceString getRelevance()
+    '''returns RelevanceString\n\n
+    getRelevance()\n
     '''
 def setRelevance():
-    '''public void setRelevance(final RelevanceString value)
+    '''returns None\n\n
+    setRelevance(final RelevanceString value)\n
     '''
 def getActionScript():
-    '''public ActionScript getActionScript()
+    '''returns ActionScript\n\n
+    getActionScript()\n
     '''
 def setActionScript():
-    '''public void setActionScript(final ActionScript value)
+    '''returns None\n\n
+    setActionScript(final ActionScript value)\n
     '''
 def getSuccessCriteria():
-    '''public ActionSuccessCriteria getSuccessCriteria()
+    '''returns ActionSuccessCriteria\n\n
+    getSuccessCriteria()\n
     '''
 def setSuccessCriteria():
-    '''public void setSuccessCriteria(final ActionSuccessCriteria value)
+    '''returns None\n\n
+    setSuccessCriteria(final ActionSuccessCriteria value)\n
     '''
 def isSuccessCriteriaLocked():
-    '''public Boolean isSuccessCriteriaLocked()
+    '''returns Boolean\n\n
+    isSuccessCriteriaLocked()\n
     '''
 def setSuccessCriteriaLocked():
-    '''public void setSuccessCriteriaLocked(final Boolean value)
+    '''returns None\n\n
+    setSuccessCriteriaLocked(final Boolean value)\n
     '''
 def getParameter():
-    '''public List<BESActionParameter> getParameter()
+    '''returns List<BESActionParameter>\n\n
+    getParameter()\n
     '''
 def getSecureParameter():
-    '''public List<BESActionParameter> getSecureParameter()
+    '''returns List<BESActionParameter>\n\n
+    getSecureParameter()\n
     '''

@@ -1,6 +1,8 @@
-def BBAudienceSet():
-    '''public BBAudienceSet(final MboServerInterface ms)
+def ():
+    '''returns BBAudienceSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def associateOrgsSitesGroupsToBBAudience():
-    '''public void associateOrgsSitesGroupsToBBAudience(final MboSetRemote dataSet)
+    '''returns None\n\n
+    associateOrgsSitesGroupsToBBAudience(final MboSetRemote dataSet)\n
     '''

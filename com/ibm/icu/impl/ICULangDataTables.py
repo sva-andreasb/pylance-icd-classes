@@ -1,3 +1,4 @@
-def ICULangDataTables():
-    '''public ICULangDataTables()
+def ():
+    '''returns ICULangDataTables\n\n
+    ()\n
     '''

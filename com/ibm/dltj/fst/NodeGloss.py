@@ -1,15 +1,20 @@
-def NodeGloss():
-    '''public NodeGloss()
+def ():
+    '''returns NodeGloss\n\n
+    ()\n
     '''
 def copy():
-    '''public void copy(final Node node)
+    '''returns None\n\n
+    copy(final Node node)\n
     '''
 def nextRestricted():
-    '''public Node nextRestricted(final CharacterIterator characterIterator, final int n)
+    '''returns Node\n\n
+    nextRestricted(final CharacterIterator characterIterator, final int n)\n
     '''
 def add():
-    '''public int add(final CharacterIterator characterIterator, final int n, final int n2, final Node node)
+    '''returns int\n\n
+    add(final CharacterIterator characterIterator, final int n, final int n2, final Node node)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

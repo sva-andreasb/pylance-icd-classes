@@ -1,27 +1,32 @@
 def init():
-    '''public void init(final ServletConfig config)
+    '''returns None\n\n
+    init(final ServletConfig config)\n
     '''
 def doPost():
-    '''public void doPost(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    doPost(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def setAddress():
-    '''public void setAddress(final String address)
+    '''returns None\n\n
+    setAddress(final String address)\n
     '''
 def writePages():
-    '''public void writePages(final Iterator externalCacheEntries)
+    '''returns None\n\n
+    writePages(final Iterator externalCacheEntries)\n
     '''
 def invalidatePages():
-    '''public void invalidatePages(final Iterator urls)
-    '''
-def invalidateIds():
-    '''public synchronized void invalidateIds(final Iterator ids)
+    '''returns None\n\n
+    invalidatePages(final Iterator urls)\n
     '''
 def preInvoke():
-    '''public void preInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)
+    '''returns None\n\n
+    preInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)\n
     '''
 def postInvoke():
-    '''public void postInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)
+    '''returns None\n\n
+    postInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

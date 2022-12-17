@@ -1,53 +1,70 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloOptimizationServiceImpl():
-    '''public IloOptimizationServiceImpl(final IloOPLIDEInterface ideInterface, final IloApplicationContext applicationContext)
+def ():
+    '''returns IloOptimizationServiceImpl\n\n
+    (final IloOPLIDEInterface ideInterface, final IloApplicationContext applicationContext)\n
     '''
 def setSolveEngineFactory():
-    '''public void setSolveEngineFactory(final IloOplDecisionEngineFactory engineFactory)
+    '''returns None\n\n
+    setSolveEngineFactory(final IloOplDecisionEngineFactory engineFactory)\n
     '''
 def solve():
-    '''public boolean solve(final IloScenario scenario, final int timeLimit, final boolean withRelaxation)
+    '''returns boolean\n\n
+    solve(final IloScenario scenario, final int timeLimit, final boolean withRelaxation)\n
     '''
 def execute():
-    '''public boolean execute(final IloEnginePilot enginePilot, final IloOplDecisionEngine engine, final IloScenario scenario, final IloIssueReporter issueReporter)
-    public boolean execute(final IloEnginePilot enginePilot, final IloOplDecisionEngine engine, final IloScenario scenario, final IloIssueReporter issueReporter)
+    '''returns boolean\n\n
+    execute(final IloEnginePilot enginePilot, final IloOplDecisionEngine engine, final IloScenario scenario, final IloIssueReporter issueReporter)\n
+    execute(final IloEnginePilot enginePilot, final IloOplDecisionEngine engine, final IloScenario scenario, final IloIssueReporter issueReporter)\n
     '''
 def findGoalBounds():
-    '''public boolean findGoalBounds(final IloScenario scenario, final String goalId, final String ignoredPriorityLevel, final int timeLimit)
+    '''returns boolean\n\n
+    findGoalBounds(final IloScenario scenario, final String goalId, final String ignoredPriorityLevel, final int timeLimit)\n
     '''
 def generateRequirementsPreview():
-    '''public IloTable generateRequirementsPreview(final IloScenario scenario, final boolean solve)
+    '''returns IloTable\n\n
+    generateRequirementsPreview(final IloScenario scenario, final boolean solve)\n
     '''
 def getIssueReporter():
-    '''public IloReportHandler getIssueReporter()
+    '''returns IloReportHandler\n\n
+    getIssueReporter()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def acceptCurrentSolution():
-    '''public void acceptCurrentSolution()
+    '''returns None\n\n
+    acceptCurrentSolution()\n
     '''
 def sendControllingOrder():
-    '''public void sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)
+    '''returns None\n\n
+    sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)\n
     '''
 def skipCurrentGoalBoundSearch():
-    '''public void skipCurrentGoalBoundSearch()
+    '''returns None\n\n
+    skipCurrentGoalBoundSearch()\n
     '''
 def skipRelaxationMinimization():
-    '''public void skipRelaxationMinimization()
+    '''returns None\n\n
+    skipRelaxationMinimization()\n
     '''
 def skipRelaxationPriority():
-    '''public void skipRelaxationPriority()
+    '''returns None\n\n
+    skipRelaxationPriority()\n
     '''
 def setProgressObserver():
-    '''public void setProgressObserver(final OptimProgressObserver observer)
+    '''returns None\n\n
+    setProgressObserver(final OptimProgressObserver observer)\n
     '''
 def getProgressObserver():
-    '''public OptimProgressObserver getProgressObserver()
+    '''returns OptimProgressObserver\n\n
+    getProgressObserver()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def isAborted():
-    '''public boolean isAborted()
+    '''returns boolean\n\n
+    isAborted()\n
     '''

@@ -1,22 +1,29 @@
-def WLMClient():
-    '''public WLMClient()
+def ():
+    '''returns WLMClient\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final ORB orb)
+    '''returns None\n\n
+    init(final ORB orb)\n
     '''
 def initialize():
-    '''public boolean initialize(final Delegate targetObjectProxy, final IOR ior)
+    '''returns boolean\n\n
+    initialize(final Delegate targetObjectProxy, final IOR ior)\n
     '''
 def getNextTarget():
-    '''public IOR getNextTarget(final Delegate targetObjectProxy, final IOR locatedIOR)
-    public IOR getNextTarget(final byte[] objectKey)
+    '''returns IOR\n\n
+    getNextTarget(final Delegate targetObjectProxy, final IOR locatedIOR)\n
+    getNextTarget(final byte[] objectKey)\n
     '''
 def postInvoke():
-    '''public void postInvoke(final Delegate targetObjectProxy, final IOR locatedIOR)
+    '''returns None\n\n
+    postInvoke(final Delegate targetObjectProxy, final IOR locatedIOR)\n
     '''
 def handleRemoteException():
-    '''public IOR handleRemoteException(final Delegate targetObjectProxy, final IOR locatedIOR, final Exception exception)
+    '''returns IOR\n\n
+    handleRemoteException(final Delegate targetObjectProxy, final IOR locatedIOR, final Exception exception)\n
     '''
 def getORB():
-    '''public ORB getORB()
+    '''returns ORB\n\n
+    getORB()\n
     '''

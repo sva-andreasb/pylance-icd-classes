@@ -1,7 +1,9 @@
-def FldLastRun():
-    '''public FldLastRun()
-    public FldLastRun(final MboValue mbv)
+def ():
+    '''returns FldLastRun\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

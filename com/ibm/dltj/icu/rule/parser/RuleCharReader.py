@@ -1,24 +1,32 @@
-def RuleCharReader():
-    '''public RuleCharReader(final String rules)
+def ():
+    '''returns RuleCharReader\n\n
+    (final String rules)\n
     '''
 def error():
-    '''public void error(final String s)
+    '''returns None\n\n
+    error(final String s)\n
     '''
 def getScanIndex():
-    '''public int getScanIndex()
+    '''returns int\n\n
+    getScanIndex()\n
     '''
 def getNextIndex():
-    '''public int getNextIndex()
+    '''returns int\n\n
+    getNextIndex()\n
     '''
 def getRules():
-    '''public String getRules()
+    '''returns String\n\n
+    getRules()\n
     '''
 def nextChar():
-    '''public RuleChar nextChar()
+    '''returns RuleChar\n\n
+    nextChar()\n
     '''
 def getPosition():
-    '''public RdrPosition getPosition()
+    '''returns RdrPosition\n\n
+    getPosition()\n
     '''
 def setPosition():
-    '''public void setPosition(final RdrPosition rdrPosition)
+    '''returns None\n\n
+    setPosition(final RdrPosition rdrPosition)\n
     '''

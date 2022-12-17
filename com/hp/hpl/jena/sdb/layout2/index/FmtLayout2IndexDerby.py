@@ -1,3 +1,4 @@
-def FmtLayout2IndexDerby():
-    '''public FmtLayout2IndexDerby(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2IndexDerby\n\n
+    (final SDBConnection connection)\n
     '''

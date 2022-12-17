@@ -1,18 +1,20 @@
-def DeleteMemberCommand():
-    '''public DeleteMemberCommand(final TaskCommandMetadata metadata)
-    public DeleteMemberCommand(final CommandData inCommandData)
+def ():
+    '''returns DeleteReplicationEntryStep\n\n
+    (final TaskCommandMetadata metadata)\n
+    (final CommandData inCommandData)\n
+    (final AbstractTaskCommand parent, final CommandStepMetadata metadata)\n
+    (final AbstractTaskCommand parent, final CommandStepData cmdData)\n
     '''
 def afterStepsExecuted():
-    '''public void afterStepsExecuted()
+    '''returns None\n\n
+    afterStepsExecuted()\n
     '''
 def validate():
-    '''public void validate()
-    public void validate()
-    '''
-def DeleteReplicationEntryStep():
-    '''public DeleteReplicationEntryStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-    public DeleteReplicationEntryStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
+    '''returns None\n\n
+    validate()\n
+    validate()\n
     '''
 def stepModified():
-    '''public void stepModified(final String stepName)
+    '''returns None\n\n
+    stepModified(final String stepName)\n
     '''

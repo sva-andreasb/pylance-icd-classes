@@ -1,6 +1,8 @@
-def DrawingTableCell():
-    '''public DrawingTableCell(final CTTableCell cell)
+def ():
+    '''returns DrawingTableCell\n\n
+    (final CTTableCell cell)\n
     '''
 def getTextBody():
-    '''public DrawingTextBody getTextBody()
+    '''returns DrawingTextBody\n\n
+    getTextBody()\n
     '''

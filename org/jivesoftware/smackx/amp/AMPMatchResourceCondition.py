@@ -1,13 +1,13 @@
 NAME = "String  \"match-resource\""
-def isSupported():
-    '''public static boolean isSupported(final XMPPConnection connection)
-    '''
-def AMPMatchResourceCondition():
-    '''public AMPMatchResourceCondition(final Value value)
+def ():
+    '''returns AMPMatchResourceCondition\n\n
+    (final Value value)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

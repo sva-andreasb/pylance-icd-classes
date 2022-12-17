@@ -1,102 +1,108 @@
 def getValue():
-    '''public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
-    public float getValue(final IlvControlNode ilvControlNode)
+    '''returns float\n\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
+    getValue(final IlvControlNode ilvControlNode)\n
     '''
 def setValue():
-    '''public void setValue(final IlvControlNode ilvControlNode, final float x)
-    public void setValue(final IlvControlNode ilvControlNode, final float y)
-    public void setValue(final IlvControlNode ilvControlNode, final float width)
-    public void setValue(final IlvControlNode ilvControlNode, final float height)
-    public void setValue(final IlvControlNode ilvControlNode, final float n)
-    public void setValue(final IlvControlNode ilvControlNode, final float n)
-    public void setValue(final IlvControlNode ilvControlNode, final float n)
-    public void setValue(final IlvControlNode ilvControlNode, final float n)
-    public void setValue(final IlvControlNode ilvControlNode, final float n)
-    public void setValue(final IlvControlNode ilvControlNode, final float n)
-    public void setValue(final IlvControlNode ilvControlNode, final float n)
-    public void setValue(final IlvControlNode ilvControlNode, final float n)
-    public void setValue(final IlvControlNode ilvControlNode, final float x)
-    public void setValue(final IlvControlNode ilvControlNode, final float x)
-    public void setValue(final IlvControlNode ilvControlNode, final float x)
+    '''returns None\n\n
+    setValue(final IlvControlNode ilvControlNode, final float x)\n
+    setValue(final IlvControlNode ilvControlNode, final float y)\n
+    setValue(final IlvControlNode ilvControlNode, final float width)\n
+    setValue(final IlvControlNode ilvControlNode, final float height)\n
+    setValue(final IlvControlNode ilvControlNode, final float n)\n
+    setValue(final IlvControlNode ilvControlNode, final float n)\n
+    setValue(final IlvControlNode ilvControlNode, final float n)\n
+    setValue(final IlvControlNode ilvControlNode, final float n)\n
+    setValue(final IlvControlNode ilvControlNode, final float n)\n
+    setValue(final IlvControlNode ilvControlNode, final float n)\n
+    setValue(final IlvControlNode ilvControlNode, final float n)\n
+    setValue(final IlvControlNode ilvControlNode, final float n)\n
+    setValue(final IlvControlNode ilvControlNode, final float x)\n
+    setValue(final IlvControlNode ilvControlNode, final float x)\n
+    setValue(final IlvControlNode ilvControlNode, final float x)\n
     '''
 def getComposedAnchors():
-    '''public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
-    public Anchor[] getComposedAnchors(final ComponentOrientation componentOrientation)
+    '''returns Anchor[]\n\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
+    getComposedAnchors(final ComponentOrientation componentOrientation)\n
     '''
 def getDefaultReferenceAnchor():
-    '''public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
-    public Anchor getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)
+    '''returns Anchor\n\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
+    getDefaultReferenceAnchor(final ComponentOrientation componentOrientation)\n
     '''
 def isBIDISensitive():
-    '''public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
-    public boolean isBIDISensitive()
+    '''returns boolean\n\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
+    isBIDISensitive()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

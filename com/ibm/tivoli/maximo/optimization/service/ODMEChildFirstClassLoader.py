@@ -1,8 +1,10 @@
-def ODMEChildFirstClassLoader():
-    '''public ODMEChildFirstClassLoader(final URL[] urls)
-    public ODMEChildFirstClassLoader(final URL[] urls, final ClassLoader parent)
-    public ODMEChildFirstClassLoader(final URL[] urls, final ClassLoader parent, final URLStreamHandlerFactory factory)
+def ():
+    '''returns ODMEChildFirstClassLoader\n\n
+    (final URL[] urls)\n
+    (final URL[] urls, final ClassLoader parent)\n
+    (final URL[] urls, final ClassLoader parent, final URLStreamHandlerFactory factory)\n
     '''
 def getResource():
-    '''public URL getResource(final String name)
+    '''returns URL\n\n
+    getResource(final String name)\n
     '''

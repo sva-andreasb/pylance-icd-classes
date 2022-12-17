@@ -1,33 +1,44 @@
-def BuiltConfiguration():
-    '''public BuiltConfiguration(final LoggerContext loggerContext, final ConfigurationSource source, final Component rootComponent)
+def ():
+    '''returns BuiltConfiguration\n\n
+    (final LoggerContext loggerContext, final ConfigurationSource source, final Component rootComponent)\n
     '''
 def setup():
-    '''public void setup()
+    '''returns None\n\n
+    setup()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def createAdvertiser():
-    '''public void createAdvertiser(final String advertiserString, final ConfigurationSource configSource)
+    '''returns None\n\n
+    createAdvertiser(final String advertiserString, final ConfigurationSource configSource)\n
     '''
 def getStatusConfiguration():
-    '''public StatusConfiguration getStatusConfiguration()
+    '''returns StatusConfiguration\n\n
+    getStatusConfiguration()\n
     '''
 def setPluginPackages():
-    '''public void setPluginPackages(final String packages)
+    '''returns None\n\n
+    setPluginPackages(final String packages)\n
     '''
 def setShutdownHook():
-    '''public void setShutdownHook(final String flag)
+    '''returns None\n\n
+    setShutdownHook(final String flag)\n
     '''
 def setShutdownTimeoutMillis():
-    '''public void setShutdownTimeoutMillis(final long shutdownTimeoutMillis)
+    '''returns None\n\n
+    setShutdownTimeoutMillis(final long shutdownTimeoutMillis)\n
     '''
 def setMonitorInterval():
-    '''public void setMonitorInterval(final int intervalSeconds)
+    '''returns None\n\n
+    setMonitorInterval(final int intervalSeconds)\n
     '''
 def getPluginManager():
-    '''public PluginManager getPluginManager()
+    '''returns PluginManager\n\n
+    getPluginManager()\n
     '''

@@ -3,23 +3,30 @@ DEFAULT_RELATIVE_ACCURACY = "double  1.0E-6"
 DEFAULT_MIN_ITERATIONS_COUNT = "int  3"
 DEFAULT_MAX_ITERATIONS_COUNT = "int  Integer.MAX_VALUE"
 def getRelativeAccuracy():
-    '''public double getRelativeAccuracy()
+    '''returns double\n\n
+    getRelativeAccuracy()\n
     '''
 def getAbsoluteAccuracy():
-    '''public double getAbsoluteAccuracy()
+    '''returns double\n\n
+    getAbsoluteAccuracy()\n
     '''
 def getMinimalIterationCount():
-    '''public int getMinimalIterationCount()
+    '''returns int\n\n
+    getMinimalIterationCount()\n
     '''
 def getMaximalIterationCount():
-    '''public int getMaximalIterationCount()
+    '''returns int\n\n
+    getMaximalIterationCount()\n
     '''
 def getEvaluations():
-    '''public int getEvaluations()
+    '''returns int\n\n
+    getEvaluations()\n
     '''
 def getIterations():
-    '''public int getIterations()
+    '''returns int\n\n
+    getIterations()\n
     '''
 def integrate():
-    '''public double integrate(final int maxEval, final UnivariateFunction f, final double lower, final double upper)
+    '''returns double\n\n
+    integrate(final int maxEval, final UnivariateFunction f, final double lower, final double upper)\n
     '''

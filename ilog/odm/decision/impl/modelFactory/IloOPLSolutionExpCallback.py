@@ -1,28 +1,37 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloOPLSolutionExpCallback():
-    '''public IloOPLSolutionExpCallback(final IloGoalBreakdownFactory goalFactory)
+def ():
+    '''returns IloOPLSolutionExpCallback\n\n
+    (final IloGoalBreakdownFactory goalFactory)\n
     '''
 def processOplDecisionExpr():
-    '''public IloBreakdownVariable processOplDecisionExpr(final String variableName)
+    '''returns IloBreakdownVariable\n\n
+    processOplDecisionExpr(final String variableName)\n
     '''
 def customStartDecisionExpr():
-    '''public boolean customStartDecisionExpr(final String exprName, final double value)
+    '''returns boolean\n\n
+    customStartDecisionExpr(final String exprName, final double value)\n
     '''
 def customEndDecisionExpr():
-    '''public void customEndDecisionExpr(final String arg0)
+    '''returns None\n\n
+    customEndDecisionExpr(final String arg0)\n
     '''
 def customStartSum():
-    '''public boolean customStartSum(final double arg0)
+    '''returns boolean\n\n
+    customStartSum(final double arg0)\n
     '''
 def customEndSum():
-    '''public void customEndSum()
+    '''returns None\n\n
+    customEndSum()\n
     '''
 def customAddTerm():
-    '''public void customAddTerm(final double value)
+    '''returns None\n\n
+    customAddTerm(final double value)\n
     '''
 def evaluate():
-    '''public Object evaluate(final IloOplScriptExpression expr, final Parameter elts, final ilog.concert.IloStringArray array, final boolean keyOnly, final boolean canReturnTuple)
+    '''returns Object\n\n
+    evaluate(final IloOplScriptExpression expr, final Parameter elts, final ilog.concert.IloStringArray array, final boolean keyOnly, final boolean canReturnTuple)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

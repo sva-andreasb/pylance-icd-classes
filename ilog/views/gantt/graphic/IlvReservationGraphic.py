@@ -1,3 +1,4 @@
 def getReservation():
-    '''public IlvReservation getReservation()
+    '''returns IlvReservation\n\n
+    getReservation()\n
     '''

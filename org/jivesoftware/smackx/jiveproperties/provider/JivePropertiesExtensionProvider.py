@@ -1,3 +1,4 @@
 def parse():
-    '''public JivePropertiesExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''returns JivePropertiesExtension\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

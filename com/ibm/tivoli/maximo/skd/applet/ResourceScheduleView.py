@@ -1,130 +1,160 @@
 NAME_COLUMN = "String  \"Name\""
-def ResourceScheduleView():
-    '''public ResourceScheduleView()
+def ():
+    '''returns ResourceScheduleView\n\n
+    ()\n
     '''
 def setResourceViewContext():
-    '''public void setResourceViewContext(final ResourceViewContext context)
+    '''returns None\n\n
+    setResourceViewContext(final ResourceViewContext context)\n
     '''
 def initializeView():
-    '''public Component initializeView()
+    '''returns Component\n\n
+    initializeView()\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent e)
+    '''returns None\n\n
+    componentResized(final ComponentEvent e)\n
     '''
 def handleMessage():
-    '''public void handleMessage(final String msgId, final Object... args)
-    public void handleMessage(final String msgId, final Object... args)
+    '''returns None\n\n
+    handleMessage(final String msgId, final Object... args)\n
+    handleMessage(final String msgId, final Object... args)\n
     '''
 def adjustmentValueChanged():
-    '''public void adjustmentValueChanged(final AdjustmentEvent e)
+    '''returns None\n\n
+    adjustmentValueChanged(final AdjustmentEvent e)\n
     '''
 def getMenu():
-    '''public JPopupMenu getMenu(final MouseEvent e)
+    '''returns JPopupMenu\n\n
+    getMenu(final MouseEvent e)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent evt)
-    public void selectionChanged(final ManagerSelectionChangedEvent event)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent evt)\n
+    selectionChanged(final ManagerSelectionChangedEvent event)\n
     '''
 def attachModel():
-    '''public void attachModel(final AppletGanttModel model)
+    '''returns None\n\n
+    attachModel(final AppletGanttModel model)\n
     '''
 def getScheduleChart():
-    '''public IlvScheduleChart getScheduleChart()
-    '''
-def addCustomerColumnsForResource():
-    '''public static void addCustomerColumnsForResource(final IlvScheduleChart chart)
+    '''returns IlvScheduleChart\n\n
+    getScheduleChart()\n
     '''
 def isEditable():
-    '''public boolean isEditable(final IlvHierarchyNode row)
+    '''returns boolean\n\n
+    isEditable(final IlvHierarchyNode row)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent event)
-    public void actionPerformed(final ActionEvent event)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent event)\n
+    actionPerformed(final ActionEvent event)\n
     '''
 def contentsChanged():
-    '''public void contentsChanged(final ManagerContentChangedEvent evt)
+    '''returns None\n\n
+    contentsChanged(final ManagerContentChangedEvent evt)\n
     '''
 def getChart():
-    '''public IlvScheduleChart getChart()
+    '''returns IlvScheduleChart\n\n
+    getChart()\n
     '''
 def isStylable():
-    '''public boolean isStylable()
+    '''returns boolean\n\n
+    isStylable()\n
     '''
 def updateReadonlyActivityGraphic():
-    '''public void updateReadonlyActivityGraphic(final IlvReservationGraphic ag)
+    '''returns None\n\n
+    updateReadonlyActivityGraphic(final IlvReservationGraphic ag)\n
     '''
 def createNewAssignment():
-    '''public MXActivity createNewAssignment(final SortGanttModel model, final IlvActivity activity, final IlvActivity parentActivity, final long start, final long end)
+    '''returns MXActivity\n\n
+    createNewAssignment(final SortGanttModel model, final IlvActivity activity, final IlvActivity parentActivity, final long start, final long end)\n
     '''
 def ReAssignAssignment():
-    '''public void ReAssignAssignment(final SortGanttModel model, final IlvActivity activity)
+    '''returns None\n\n
+    ReAssignAssignment(final SortGanttModel model, final IlvActivity activity)\n
     '''
 def reattachmodel():
-    '''public void reattachmodel()
+    '''returns None\n\n
+    reattachmodel()\n
     '''
 def addLayoutMenu():
-    '''public void addLayoutMenu(final JPopupMenu popupmenu)
+    '''returns None\n\n
+    addLayoutMenu(final JPopupMenu popupmenu)\n
     '''
 def print():
-    '''public void print()
+    '''returns None\n\n
+    print()\n
     '''
 def printSetup():
-    '''public void printSetup()
+    '''returns None\n\n
+    printSetup()\n
     '''
 def printPreview():
-    '''public void printPreview()
-    '''
-def initPrintingController():
-    '''public static void initPrintingController(final IlvScheduleChart chart)
+    '''returns None\n\n
+    printPreview()\n
     '''
 def activate():
-    '''public void activate()
+    '''returns None\n\n
+    activate()\n
     '''
 def deactivate():
-    '''public void deactivate()
+    '''returns None\n\n
+    deactivate()\n
     '''
 def applyActivityQbeFilter():
-    '''public void applyActivityQbeFilter(final Map<String, String> qbeActivityFilter)
+    '''returns None\n\n
+    applyActivityQbeFilter(final Map<String, String> qbeActivityFilter)\n
     '''
 def applyActivityQbeFilterX():
-    '''public void applyActivityQbeFilterX(final Map<String, String> qbeActivityFilter)
+    '''returns None\n\n
+    applyActivityQbeFilterX(final Map<String, String> qbeActivityFilter)\n
     '''
 def applyActivityFilter():
-    '''public void applyActivityFilter(final String regEx)
+    '''returns None\n\n
+    applyActivityFilter(final String regEx)\n
     '''
 def applyActivityFilterX():
-    '''public void applyActivityFilterX(final String regEx)
+    '''returns None\n\n
+    applyActivityFilterX(final String regEx)\n
     '''
 def attachGanttModelToViewComponents():
-    '''public void attachGanttModelToViewComponents()
+    '''returns None\n\n
+    attachGanttModelToViewComponents()\n
     '''
 def RefreshModelBasedonFilter():
-    '''public void RefreshModelBasedonFilter()
+    '''returns None\n\n
+    RefreshModelBasedonFilter()\n
     '''
 def detachGanttModelFromViewComponents():
-    '''public void detachGanttModelFromViewComponents()
+    '''returns None\n\n
+    detachGanttModelFromViewComponents()\n
     '''
 def getResourceChart():
-    '''public IlvScheduleChart getResourceChart()
+    '''returns IlvScheduleChart\n\n
+    getResourceChart()\n
     '''
 def getChartId():
-    '''public String getChartId()
+    '''returns String\n\n
+    getChartId()\n
     '''
 def getDividerComponent():
-    '''public Object getDividerComponent()
+    '''returns Object\n\n
+    getDividerComponent()\n
     '''

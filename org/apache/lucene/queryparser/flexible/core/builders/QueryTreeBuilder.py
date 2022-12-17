@@ -1,7 +1,9 @@
 def setBuilder():
-    '''public void setBuilder(final CharSequence fieldName, final QueryBuilder builder)
-    public void setBuilder(final Class<? extends QueryNode> queryNodeClass, final QueryBuilder builder)
+    '''returns None\n\n
+    setBuilder(final CharSequence fieldName, final QueryBuilder builder)\n
+    setBuilder(final Class<? extends QueryNode> queryNodeClass, final QueryBuilder builder)\n
     '''
 def build():
-    '''public Object build(final QueryNode queryNode)
+    '''returns Object\n\n
+    build(final QueryNode queryNode)\n
     '''

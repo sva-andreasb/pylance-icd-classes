@@ -1,6 +1,8 @@
-def AssetZeroCosts():
-    '''public AssetZeroCosts(final MboSet ms)
+def ():
+    '''returns AssetZeroCosts\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

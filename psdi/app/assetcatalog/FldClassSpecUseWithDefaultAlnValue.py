@@ -1,12 +1,16 @@
-def FldClassSpecUseWithDefaultAlnValue():
-    '''public FldClassSpecUseWithDefaultAlnValue(final MboValue mbv)
+def ():
+    '''returns FldClassSpecUseWithDefaultAlnValue\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFill(final String value, final boolean exact)\n
     '''

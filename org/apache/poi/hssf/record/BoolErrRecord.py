@@ -1,28 +1,36 @@
 sid = "short  517"
-def BoolErrRecord():
-    '''public BoolErrRecord()
-    public BoolErrRecord(final RecordInputStream in)
+def ():
+    '''returns BoolErrRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setValue():
-    '''public void setValue(final boolean value)
-    public void setValue(final byte value)
-    public void setValue(final FormulaError value)
+    '''returns None\n\n
+    setValue(final boolean value)\n
+    setValue(final byte value)\n
+    setValue(final FormulaError value)\n
     '''
 def getBooleanValue():
-    '''public boolean getBooleanValue()
+    '''returns boolean\n\n
+    getBooleanValue()\n
     '''
 def getErrorValue():
-    '''public byte getErrorValue()
+    '''returns byte\n\n
+    getErrorValue()\n
     '''
 def isBoolean():
-    '''public boolean isBoolean()
+    '''returns boolean\n\n
+    isBoolean()\n
     '''
 def isError():
-    '''public boolean isError()
+    '''returns boolean\n\n
+    isError()\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public BoolErrRecord clone()
+    '''returns BoolErrRecord\n\n
+    clone()\n
     '''

@@ -1,24 +1,32 @@
 def setupReaders():
-    '''public void setupReaders()
+    '''returns None\n\n
+    setupReaders()\n
     '''
 def addEntry():
-    '''public void addEntry(final CatalogEntry entry)
+    '''returns None\n\n
+    addEntry(final CatalogEntry entry)\n
     '''
 def resolveURI():
-    '''public String resolveURI(final String uri)
+    '''returns String\n\n
+    resolveURI(final String uri)\n
     '''
 def resolveSystem():
-    '''public String resolveSystem(final String systemId)
+    '''returns String\n\n
+    resolveSystem(final String systemId)\n
     '''
 def resolvePublic():
-    '''public String resolvePublic(final String publicId, final String systemId)
+    '''returns String\n\n
+    resolvePublic(final String publicId, final String systemId)\n
     '''
 def resolveAllSystemReverse():
-    '''public Vector resolveAllSystemReverse(final String systemId)
+    '''returns Vector\n\n
+    resolveAllSystemReverse(final String systemId)\n
     '''
 def resolveSystemReverse():
-    '''public String resolveSystemReverse(final String systemId)
+    '''returns String\n\n
+    resolveSystemReverse(final String systemId)\n
     '''
 def resolveAllSystem():
-    '''public Vector resolveAllSystem(final String systemId)
+    '''returns Vector\n\n
+    resolveAllSystem(final String systemId)\n
     '''

@@ -1,3 +1,4 @@
-def FldWpToolStoreLocSite():
-    '''public FldWpToolStoreLocSite(final MboValue mbv)
+def ():
+    '''returns FldWpToolStoreLocSite\n\n
+    (final MboValue mbv)\n
     '''

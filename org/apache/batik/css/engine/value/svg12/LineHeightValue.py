@@ -1,6 +1,8 @@
-def LineHeightValue():
-    '''public LineHeightValue(final short unitType, final float floatValue, final boolean fontSizeRelative)
+def ():
+    '''returns LineHeightValue\n\n
+    (final short unitType, final float floatValue, final boolean fontSizeRelative)\n
     '''
 def getFontSizeRelative():
-    '''public boolean getFontSizeRelative()
+    '''returns boolean\n\n
+    getFontSizeRelative()\n
     '''

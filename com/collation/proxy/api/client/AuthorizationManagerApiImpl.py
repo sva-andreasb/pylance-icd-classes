@@ -1,61 +1,81 @@
-def AuthorizationManagerApiImpl():
-    '''public AuthorizationManagerApiImpl(final ApiSession sess)
+def ():
+    '''returns AuthorizationManagerApiImpl\n\n
+    (final ApiSession sess)\n
     '''
 def getSession():
-    '''public ApiSession getSession()
+    '''returns ApiSession\n\n
+    getSession()\n
     '''
 def addAccess():
-    '''public void addAccess(final Principal user, final Resource resource, final String role, final String[] permissions)
-    public void addAccess(final Principal user, final AccessDefinition[] accessDefinition)
+    '''returns None\n\n
+    addAccess(final Principal user, final Resource resource, final String role, final String[] permissions)\n
+    addAccess(final Principal user, final AccessDefinition[] accessDefinition)\n
     '''
 def deleteAccess():
-    '''public void deleteAccess(final Principal user, final Resource resource, final String role, final String[] permissions)
+    '''returns None\n\n
+    deleteAccess(final Principal user, final Resource resource, final String role, final String[] permissions)\n
     '''
 def getEntitlements():
-    '''public Resource[] getEntitlements(final Principal user, final String[] permissions)
+    '''returns Resource[]\n\n
+    getEntitlements(final Principal user, final String[] permissions)\n
     '''
 def getEntitlementsForRole():
-    '''public Resource[] getEntitlementsForRole(final Principal user, final String role)
+    '''returns Resource[]\n\n
+    getEntitlementsForRole(final Principal user, final String role)\n
     '''
 def getAccessDecisions():
-    '''public AccessDecision[] getAccessDecisions(final Principal user, final Resource[] resources, final String[] permissions)
+    '''returns AccessDecision[]\n\n
+    getAccessDecisions(final Principal user, final Resource[] resources, final String[] permissions)\n
     '''
 def getDataPermissions():
-    '''public String[] getDataPermissions(final Principal user, final Resource[] resources)
+    '''returns String[]\n\n
+    getDataPermissions(final Principal user, final Resource[] resources)\n
     '''
 def addRuntimeAccess():
-    '''public void addRuntimeAccess(final Principal user, final String role, final String[] permissions)
+    '''returns None\n\n
+    addRuntimeAccess(final Principal user, final String role, final String[] permissions)\n
     '''
 def deleteRuntimeAccess():
-    '''public void deleteRuntimeAccess(final Principal user, final String role, final String[] permissions)
+    '''returns None\n\n
+    deleteRuntimeAccess(final Principal user, final String role, final String[] permissions)\n
     '''
 def getRuntimeAccess():
-    '''public String[] getRuntimeAccess(final Principal user)
+    '''returns String[]\n\n
+    getRuntimeAccess(final Principal user)\n
     '''
 def getRuntimeAccessDecisions():
-    '''public RuntimeAccessDecision[] getRuntimeAccessDecisions(final Principal user, final String[] permissions)
+    '''returns RuntimeAccessDecision[]\n\n
+    getRuntimeAccessDecisions(final Principal user, final String[] permissions)\n
     '''
 def getRoles():
-    '''public String[] getRoles(final Principal user)
+    '''returns String[]\n\n
+    getRoles(final Principal user)\n
     '''
 def assignPersonInRoleToAccessCollection():
-    '''public void assignPersonInRoleToAccessCollection(final Person user, final Role role, final Guid[] guids, final long[] versionId)
+    '''returns None\n\n
+    assignPersonInRoleToAccessCollection(final Person user, final Role role, final Guid[] guids, final long[] versionId)\n
     '''
 def removePersonInRoleToAccessCollection():
-    '''public void removePersonInRoleToAccessCollection(final Person user, final Role role, final Guid[] guids, final long[] versionId)
+    '''returns None\n\n
+    removePersonInRoleToAccessCollection(final Person user, final Role role, final Guid[] guids, final long[] versionId)\n
     '''
 def deleteRole():
-    '''public void deleteRole(final String role)
+    '''returns None\n\n
+    deleteRole(final String role)\n
     '''
 def deletePermission():
-    '''public void deletePermission(final String permission)
+    '''returns None\n\n
+    deletePermission(final String permission)\n
     '''
 def deletePermissionFromRole():
-    '''public void deletePermissionFromRole(final String role, final String permission)
+    '''returns None\n\n
+    deletePermissionFromRole(final String role, final String permission)\n
     '''
 def addDataPermissionToRole():
-    '''public void addDataPermissionToRole(final String role, final String permission)
+    '''returns None\n\n
+    addDataPermissionToRole(final String role, final String permission)\n
     '''
 def addRuntimePermissionToRole():
-    '''public void addRuntimePermissionToRole(final String role, final String permission)
+    '''returns None\n\n
+    addRuntimePermissionToRole(final String role, final String permission)\n
     '''

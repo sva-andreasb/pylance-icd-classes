@@ -1,23 +1,30 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def isReferencable():
-    '''public boolean isReferencable()
-    public void isReferencable(final boolean b)
+    '''returns None\n\n
+    isReferencable()\n
+    isReferencable(final boolean b)\n
     '''
 def generate():
-    '''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(final Hashtable hashtable, final PrintWriter printWriter)\n
     '''
 def generator():
-    '''public Generator generator()
+    '''returns Generator\n\n
+    generator()\n
     '''
 def maxSize():
-    '''public void maxSize(final Expression maxSize)
-    public Expression maxSize()
+    '''returns Expression\n\n
+    maxSize(final Expression maxSize)\n
+    maxSize()\n
     '''
 def addContained():
-    '''public void addContained(final SymtabEntry obj)
+    '''returns None\n\n
+    addContained(final SymtabEntry obj)\n
     '''
 def contained():
-    '''public Vector contained()
+    '''returns Vector\n\n
+    contained()\n
     '''

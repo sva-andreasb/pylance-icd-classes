@@ -1,3 +1,4 @@
-def ElementSerializerFactory():
-    '''public ElementSerializerFactory()
+def ():
+    '''returns ElementSerializerFactory\n\n
+    ()\n
     '''

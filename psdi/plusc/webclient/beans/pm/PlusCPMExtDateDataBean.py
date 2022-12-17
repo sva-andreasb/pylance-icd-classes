@@ -1,9 +1,8 @@
-def execute():
-    '''public synchronized int execute()
-    '''
 def getPMMbo():
-    '''public PMRemote getPMMbo()
+    '''returns PMRemote\n\n
+    getPMMbo()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

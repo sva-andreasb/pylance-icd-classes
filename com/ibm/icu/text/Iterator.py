@@ -1,36 +1,48 @@
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''
 def findSourceIndex():
-    '''public boolean findSourceIndex(final int i)
+    '''returns boolean\n\n
+    findSourceIndex(final int i)\n
     '''
 def findDestinationIndex():
-    '''public boolean findDestinationIndex(final int i)
+    '''returns boolean\n\n
+    findDestinationIndex(final int i)\n
     '''
 def destinationIndexFromSourceIndex():
-    '''public int destinationIndexFromSourceIndex(final int i)
+    '''returns int\n\n
+    destinationIndexFromSourceIndex(final int i)\n
     '''
 def sourceIndexFromDestinationIndex():
-    '''public int sourceIndexFromDestinationIndex(final int i)
+    '''returns int\n\n
+    sourceIndexFromDestinationIndex(final int i)\n
     '''
 def hasChange():
-    '''public boolean hasChange()
+    '''returns boolean\n\n
+    hasChange()\n
     '''
 def oldLength():
-    '''public int oldLength()
+    '''returns int\n\n
+    oldLength()\n
     '''
 def newLength():
-    '''public int newLength()
+    '''returns int\n\n
+    newLength()\n
     '''
 def sourceIndex():
-    '''public int sourceIndex()
+    '''returns int\n\n
+    sourceIndex()\n
     '''
 def replacementIndex():
-    '''public int replacementIndex()
+    '''returns int\n\n
+    replacementIndex()\n
     '''
 def destinationIndex():
-    '''public int destinationIndex()
+    '''returns int\n\n
+    destinationIndex()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

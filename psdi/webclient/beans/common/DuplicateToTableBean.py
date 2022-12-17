@@ -1,9 +1,12 @@
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def dialogcancel():
-    '''public int dialogcancel()
+    '''returns int\n\n
+    dialogcancel()\n
     '''
 def dialogokduplicateto():
-    '''public int dialogokduplicateto()
+    '''returns int\n\n
+    dialogokduplicateto()\n
     '''

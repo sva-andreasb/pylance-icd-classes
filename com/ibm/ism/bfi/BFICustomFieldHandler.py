@@ -1,6 +1,8 @@
-def BFICustomFieldHandler():
-    '''public BFICustomFieldHandler(final BFIConnectionHandler connHandler)
+def ():
+    '''returns BFICustomFieldHandler\n\n
+    (final BFIConnectionHandler connHandler)\n
     '''
 def getCustomFieldProperty():
-    '''public String getCustomFieldProperty()
+    '''returns String\n\n
+    getCustomFieldProperty()\n
     '''

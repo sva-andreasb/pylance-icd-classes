@@ -1,64 +1,85 @@
-def ServiceAddress():
-    '''public ServiceAddress(final MboSet ms)
+def ():
+    '''returns ServiceAddress\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getParent():
-    '''public MboRemote getParent()
+    '''returns MboRemote\n\n
+    getParent()\n
     '''
 def getChildren():
-    '''public MboSetRemote getChildren()
+    '''returns MboSetRemote\n\n
+    getChildren()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def isParent():
-    '''public Boolean isParent()
+    '''returns Boolean\n\n
+    isParent()\n
     '''
 def makeSAParent():
-    '''public void makeSAParent()
+    '''returns None\n\n
+    makeSAParent()\n
     '''
 def getServiceAddress():
-    '''public ServiceAddressRemote getServiceAddress()
+    '''returns ServiceAddressRemote\n\n
+    getServiceAddress()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def makeEditableOnSAInfoEdit():
-    '''public boolean makeEditableOnSAInfoEdit(final MboRemote checker)
+    '''returns boolean\n\n
+    makeEditableOnSAInfoEdit(final MboRemote checker)\n
     '''
 def getOrgSiteForMaxvar():
-    '''public String getOrgSiteForMaxvar(final String maxvarName)
+    '''returns String\n\n
+    getOrgSiteForMaxvar(final String maxvarName)\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def hasServiceAddress():
-    '''public boolean hasServiceAddress()
+    '''returns boolean\n\n
+    hasServiceAddress()\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def getAutoLocateObject():
-    '''public MboRemote getAutoLocateObject(final AutoLocatable parent)
-    public MboRemote getAutoLocateObject()
+    '''returns MboRemote\n\n
+    getAutoLocateObject(final AutoLocatable parent)\n
+    getAutoLocateObject()\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''

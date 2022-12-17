@@ -1,16 +1,17 @@
 ATTR_MATCH = "String  \"match\""
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def newBuilder():
-    '''public static Builder newBuilder()
-    '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def setLevel():
-    '''public Builder setLevel(final Level level)
+    '''returns Builder\n\n
+    setLevel(final Level level)\n
     '''
 def build():
-    '''public LevelMatchFilter build()
+    '''returns LevelMatchFilter\n\n
+    build()\n
     '''

@@ -1,7 +1,9 @@
-def AuthHostBased():
-    '''public AuthHostBased(final String username, final KeyPair keyPair)
-    public AuthHostBased(final String username, final KeyPair keyPair, final PublicKeyFile publicKeyFile)
+def ():
+    '''returns AuthHostBased\n\n
+    (final String username, final KeyPair keyPair)\n
+    (final String username, final KeyPair keyPair, final PublicKeyFile publicKeyFile)\n
     '''
 def getMethodName():
-    '''public String getMethodName()
+    '''returns String\n\n
+    getMethodName()\n
     '''

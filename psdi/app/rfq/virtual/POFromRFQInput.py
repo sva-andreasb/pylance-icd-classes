@@ -1,9 +1,12 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
-def POFromRFQInput():
-    '''public POFromRFQInput(final MboSet ms)
+def ():
+    '''returns POFromRFQInput\n\n
+    (final MboSet ms)\n
     '''
 def setPOAutoKey():
-    '''public void setPOAutoKey()
+    '''returns None\n\n
+    setPOAutoKey()\n
     '''

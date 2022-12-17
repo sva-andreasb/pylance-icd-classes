@@ -1,6 +1,8 @@
-def ISO_8859_1Decoder():
-    '''public ISO_8859_1Decoder(final InputStream is)
+def ():
+    '''returns ISO_8859_1Decoder\n\n
+    (final InputStream is)\n
     '''
 def readChar():
-    '''public int readChar()
+    '''returns int\n\n
+    readChar()\n
     '''

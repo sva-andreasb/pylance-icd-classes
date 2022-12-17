@@ -1,46 +1,61 @@
-def InvokeInfo():
-    '''public InvokeInfo(final String invkChannelName, final String ifaceType, final String mosName, final String ifaceExitClassName, final String ifaceUserExitClassName, final String ifaceMapName, final String replyMosName, final String replyIfaceExitClassName, final String replyIfaceUserExitClassName, final String replyIfaceMapName, final String endPointName, final String messageType, final boolean processResponse)
-    public InvokeInfo(final String invkChannelName, final String ifaceType, final String mosName, final String ifaceExitClassName, final String ifaceUserExitClassName, final String ifaceMapName, final String replyMosName, final String replyIfaceExitClassName, final String replyIfaceUserExitClassName, final String replyIfaceMapName, final String endPointName, final String messageType, final boolean processResponse, final String config)
+def ():
+    '''returns InvokeInfo\n\n
+    (final String invkChannelName, final String ifaceType, final String mosName, final String ifaceExitClassName, final String ifaceUserExitClassName, final String ifaceMapName, final String replyMosName, final String replyIfaceExitClassName, final String replyIfaceUserExitClassName, final String replyIfaceMapName, final String endPointName, final String messageType, final boolean processResponse)\n
+    (final String invkChannelName, final String ifaceType, final String mosName, final String ifaceExitClassName, final String ifaceUserExitClassName, final String ifaceMapName, final String replyMosName, final String replyIfaceExitClassName, final String replyIfaceUserExitClassName, final String replyIfaceMapName, final String endPointName, final String messageType, final boolean processResponse, final String config)\n
     '''
 def getBidiConfig():
-    '''public String getBidiConfig()
+    '''returns String\n\n
+    getBidiConfig()\n
     '''
 def isProcessResponse():
-    '''public boolean isProcessResponse()
+    '''returns boolean\n\n
+    isProcessResponse()\n
     '''
 def getInvokeChannelName():
-    '''public String getInvokeChannelName()
+    '''returns String\n\n
+    getInvokeChannelName()\n
     '''
 def getMessageType():
-    '''public String getMessageType()
+    '''returns String\n\n
+    getMessageType()\n
     '''
 def getIfaceType():
-    '''public String getIfaceType()
+    '''returns String\n\n
+    getIfaceType()\n
     '''
 def getReplyMosName():
-    '''public String getReplyMosName()
+    '''returns String\n\n
+    getReplyMosName()\n
     '''
 def getMosName():
-    '''public String getMosName()
+    '''returns String\n\n
+    getMosName()\n
     '''
 def getReplyIfaceExitClassName():
-    '''public String getReplyIfaceExitClassName()
+    '''returns String\n\n
+    getReplyIfaceExitClassName()\n
     '''
 def getIfaceExitClassName():
-    '''public String getIfaceExitClassName()
+    '''returns String\n\n
+    getIfaceExitClassName()\n
     '''
 def getReplyIfaceUserExitClassName():
-    '''public String getReplyIfaceUserExitClassName()
+    '''returns String\n\n
+    getReplyIfaceUserExitClassName()\n
     '''
 def getIfaceUserExitClassName():
-    '''public String getIfaceUserExitClassName()
+    '''returns String\n\n
+    getIfaceUserExitClassName()\n
     '''
 def getReplyIfaceMapName():
-    '''public String getReplyIfaceMapName()
+    '''returns String\n\n
+    getReplyIfaceMapName()\n
     '''
 def getIfaceMapName():
-    '''public String getIfaceMapName()
+    '''returns String\n\n
+    getIfaceMapName()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''

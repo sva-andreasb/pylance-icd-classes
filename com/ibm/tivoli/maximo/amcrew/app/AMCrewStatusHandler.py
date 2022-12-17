@@ -1,9 +1,12 @@
-def AMCrewStatusHandler():
-    '''public AMCrewStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns AMCrewStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredStatus)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String status, final Date date, final String memo)\n
     '''

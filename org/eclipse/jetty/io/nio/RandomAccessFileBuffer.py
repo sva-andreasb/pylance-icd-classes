@@ -1,26 +1,33 @@
-def RandomAccessFileBuffer():
-    '''public RandomAccessFileBuffer(final File file)
-    public RandomAccessFileBuffer(final File file, final int capacity)
-    public RandomAccessFileBuffer(final File file, final int capacity, final int access)
+def ():
+    '''returns RandomAccessFileBuffer\n\n
+    (final File file)\n
+    (final File file, final int capacity)\n
+    (final File file, final int capacity, final int access)\n
     '''
 def array():
-    '''public byte[] array()
+    '''returns byte[]\n\n
+    array()\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def peek():
-    '''public byte peek()
-    public byte peek(final int index)
-    public int peek(final int index, final byte[] b, final int offset, final int length)
+    '''returns int\n\n
+    peek()\n
+    peek(final int index)\n
+    peek(final int index, final byte[] b, final int offset, final int length)\n
     '''
 def poke():
-    '''public void poke(final int index, final byte b)
-    public int poke(final int index, final byte[] b, final int offset, final int length)
+    '''returns int\n\n
+    poke(final int index, final byte b)\n
+    poke(final int index, final byte[] b, final int offset, final int length)\n
     '''
 def writeTo():
-    '''public int writeTo(final WritableByteChannel channel, final int index, final int length)
+    '''returns int\n\n
+    writeTo(final WritableByteChannel channel, final int index, final int length)\n
     '''

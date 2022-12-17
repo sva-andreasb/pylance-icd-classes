@@ -1,41 +1,53 @@
-def BulletinBoardService():
-    '''public BulletinBoardService()
-    public BulletinBoardService(final MXServer mxServer)
-    public BulletinBoardService(final String url, final MXServer mxServer)
+def ():
+    '''returns BulletinBoardService\n\n
+    ()\n
+    (final MXServer mxServer)\n
+    (final String url, final MXServer mxServer)\n
     '''
 def post():
-    '''public void post(final String key)
-    public void post(final String key, final UserInfo userInfo)
+    '''returns None\n\n
+    post(final String key)\n
+    post(final String key, final UserInfo userInfo)\n
     '''
 def isPosted():
-    '''public boolean isPosted(final String key)
-    public boolean isPosted(final String key, final UserInfo userInfo)
+    '''returns boolean\n\n
+    isPosted(final String key)\n
+    isPosted(final String key, final UserInfo userInfo)\n
     '''
 def remove():
-    '''public void remove(final String key)
-    public void remove(final String key, final UserInfo userInfo)
+    '''returns None\n\n
+    remove(final String key)\n
+    remove(final String key, final UserInfo userInfo)\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def isAppService():
-    '''public boolean isAppService()
+    '''returns boolean\n\n
+    isAppService()\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def configure():
-    '''public void configure(final Properties configData)
+    '''returns None\n\n
+    configure(final Properties configData)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def setURL():
-    '''public void setURL(final String url)
+    '''returns None\n\n
+    setURL(final String url)\n
     '''
 def isInitialized():
-    '''public boolean isInitialized()
+    '''returns boolean\n\n
+    isInitialized()\n
     '''

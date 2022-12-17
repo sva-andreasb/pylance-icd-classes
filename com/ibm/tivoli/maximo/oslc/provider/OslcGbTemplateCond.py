@@ -1,3 +1,4 @@
-def OslcGbTemplateCond():
-    '''public OslcGbTemplateCond(final MboSet ms)
+def ():
+    '''returns OslcGbTemplateCond\n\n
+    (final MboSet ms)\n
     '''

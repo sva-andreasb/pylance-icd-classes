@@ -1,74 +1,98 @@
 def getActivity():
-    '''public IlvActivity getActivity()
+    '''returns IlvActivity\n\n
+    getActivity()\n
     '''
 def getGanttRow():
-    '''public IlvGanttRow getGanttRow()
+    '''returns IlvGanttRow\n\n
+    getGanttRow()\n
     '''
 def getGanttSheet():
-    '''public IlvGanttSheet getGanttSheet()
+    '''returns IlvGanttSheet\n\n
+    getGanttSheet()\n
     '''
 def isLeftToRight():
-    '''public boolean isLeftToRight()
+    '''returns boolean\n\n
+    isLeftToRight()\n
     '''
 def getActivityRenderer():
-    '''public IlvActivityRenderer getActivityRenderer()
+    '''returns IlvActivityRenderer\n\n
+    getActivityRenderer()\n
     '''
 def setActivityRenderer():
-    '''public void setActivityRenderer(final IlvActivityRenderer ilvActivityRenderer)
+    '''returns None\n\n
+    setActivityRenderer(final IlvActivityRenderer ilvActivityRenderer)\n
     '''
 def getDefinitionX():
-    '''public float getDefinitionX()
+    '''returns float\n\n
+    getDefinitionX()\n
     '''
 def getDefinitionY():
-    '''public float getDefinitionY()
+    '''returns float\n\n
+    getDefinitionY()\n
     '''
 def getDefinitionWidth():
-    '''public float getDefinitionWidth()
+    '''returns float\n\n
+    getDefinitionWidth()\n
     '''
 def getDefinitionHeight():
-    '''public float getDefinitionHeight()
+    '''returns float\n\n
+    getDefinitionHeight()\n
     '''
 def getDefinitionRect():
-    '''public IlvRect getDefinitionRect()
-    public IlvRect getDefinitionRect(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    getDefinitionRect()\n
+    getDefinitionRect(final IlvTransformer ilvTransformer)\n
     '''
 def setDefinitionRect():
-    '''public void setDefinitionRect(final IlvRect ilvRect)
+    '''returns None\n\n
+    setDefinitionRect(final IlvRect ilvRect)\n
     '''
 def zoomable():
-    '''public boolean zoomable()
+    '''returns boolean\n\n
+    zoomable()\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def contains():
-    '''public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def boundingBox():
-    '''public IlvRect boundingBox(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    boundingBox(final IlvTransformer ilvTransformer)\n
     '''
 def setGraphicBag():
-    '''public void setGraphicBag(final IlvGraphicBag graphicBag)
+    '''returns None\n\n
+    setGraphicBag(final IlvGraphicBag graphicBag)\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection()
+    '''returns IlvSelection\n\n
+    makeSelection()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def copy():
-    '''public IlvGraphic copy()
+    '''returns IlvGraphic\n\n
+    copy()\n
     '''
 def applyTransform():
-    '''public void applyTransform(final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    applyTransform(final IlvTransformer ilvTransformer)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns String\n\n
+    getToolTipText(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)
+    '''returns JPopupMenu\n\n
+    getPopupMenu(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''

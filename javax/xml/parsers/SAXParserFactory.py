@@ -1,28 +1,32 @@
-def newInstance():
-    '''public static SAXParserFactory newInstance()
-    public static SAXParserFactory newInstance(final String s, ClassLoader contextClassLoader)
-    '''
 def setNamespaceAware():
-    '''public void setNamespaceAware(final boolean namespaceAware)
+    '''returns None\n\n
+    setNamespaceAware(final boolean namespaceAware)\n
     '''
 def setValidating():
-    '''public void setValidating(final boolean validating)
+    '''returns None\n\n
+    setValidating(final boolean validating)\n
     '''
 def isNamespaceAware():
-    '''public boolean isNamespaceAware()
+    '''returns boolean\n\n
+    isNamespaceAware()\n
     '''
 def isValidating():
-    '''public boolean isValidating()
+    '''returns boolean\n\n
+    isValidating()\n
     '''
 def getSchema():
-    '''public Schema getSchema()
+    '''returns Schema\n\n
+    getSchema()\n
     '''
 def setSchema():
-    '''public void setSchema(final Schema schema)
+    '''returns None\n\n
+    setSchema(final Schema schema)\n
     '''
 def setXIncludeAware():
-    '''public void setXIncludeAware(final boolean b)
+    '''returns None\n\n
+    setXIncludeAware(final boolean b)\n
     '''
 def isXIncludeAware():
-    '''public boolean isXIncludeAware()
+    '''returns boolean\n\n
+    isXIncludeAware()\n
     '''

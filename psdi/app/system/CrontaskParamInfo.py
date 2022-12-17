@@ -1,18 +1,24 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDefault():
-    '''public String getDefault()
+    '''returns String\n\n
+    getDefault()\n
     '''
 def setName():
-    '''public void setName(final String nameIn)
+    '''returns None\n\n
+    setName(final String nameIn)\n
     '''
 def setDefault():
-    '''public void setDefault(final String def)
+    '''returns None\n\n
+    setDefault(final String def)\n
     '''
 def setDescription():
-    '''public void setDescription(final String group, final String key)
+    '''returns None\n\n
+    setDescription(final String group, final String key)\n
     '''
 def getDescription():
-    '''public String getDescription(final MboSetRemote remoteObj)
+    '''returns String\n\n
+    getDescription(final MboSetRemote remoteObj)\n
     '''

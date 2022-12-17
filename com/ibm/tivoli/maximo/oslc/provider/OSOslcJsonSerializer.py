@@ -1,55 +1,72 @@
 def setNewMboAction():
-    '''public void setNewMboAction(final boolean newMboAction)
+    '''returns None\n\n
+    setNewMboAction(final boolean newMboAction)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setIgnoreCollectionRefs():
-    '''public void setIgnoreCollectionRefs(final boolean ignoreCollectionRefs)
+    '''returns None\n\n
+    setIgnoreCollectionRefs(final boolean ignoreCollectionRefs)\n
     '''
 def setIgnorePrefixMeta():
-    '''public void setIgnorePrefixMeta(final boolean ignorePrefixMeta)
+    '''returns None\n\n
+    setIgnorePrefixMeta(final boolean ignorePrefixMeta)\n
     '''
 def getMaxRowStamp():
-    '''public Long getMaxRowStamp()
+    '''returns Long\n\n
+    getMaxRowStamp()\n
     '''
-def OSOslcJsonSerializer():
-    '''public OSOslcJsonSerializer(final String osName, final OslcRequest oslcRequest, final Map<String, JSONObject> linkedResourceCache)
-    public OSOslcJsonSerializer(final String osName, final OslcRequest oslcRequest, final boolean leanJson)
+def ():
+    '''returns OSOslcJsonSerializer\n\n
+    (final String osName, final OslcRequest oslcRequest, final Map<String, JSONObject> linkedResourceCache)\n
+    (final String osName, final OslcRequest oslcRequest, final boolean leanJson)\n
     '''
 def serializeWalkUpChildMbo():
-    '''public OslcResourceResponse serializeWalkUpChildMbo(final MboRemote mr)
+    '''returns OslcResourceResponse\n\n
+    serializeWalkUpChildMbo(final MboRemote mr)\n
     '''
 def serializeResolvedResource():
-    '''public OslcResourceResponse serializeResolvedResource(final LocalURIResolver.ResolvedResource rr)
+    '''returns OslcResourceResponse\n\n
+    serializeResolvedResource(final LocalURIResolver.ResolvedResource rr)\n
     '''
 def setObjectID():
-    '''public void setObjectID(final JSONObject mboOjo, final MboRemote mbo, final MosDetailInfo oslcResInfo)
+    '''returns None\n\n
+    setObjectID(final JSONObject mboOjo, final MboRemote mbo, final MosDetailInfo oslcResInfo)\n
     '''
 def serializeResourceAsObject():
-    '''public JSONObject serializeResourceAsObject(final MboIterator mboSet)
-    public JSONObject serializeResourceAsObject(final Mbo mbo)
+    '''returns JSONObject\n\n
+    serializeResourceAsObject(final MboIterator mboSet)\n
+    serializeResourceAsObject(final Mbo mbo)\n
     '''
 def serializeResource():
-    '''public OslcResourceResponse serializeResource(final MboIterator mboSet)
-    public OslcResourceResponse serializeResource(final Mbo mbo)
+    '''returns OslcResourceResponse\n\n
+    serializeResource(final MboIterator mboSet)\n
+    serializeResource(final Mbo mbo)\n
     '''
 def useThisResourceProperties():
-    '''public void useThisResourceProperties(final Map<String, OslcResourceProperty> resourceProperties)
+    '''returns None\n\n
+    useThisResourceProperties(final Map<String, OslcResourceProperty> resourceProperties)\n
     '''
 def serializeAttachment():
-    '''public OslcResourceResponse serializeAttachment(final MboSetRemote attachments, final OslcResourceDetailInfo resDetInfo)
-    public OslcResourceResponse serializeAttachment(final MboRemote attachment, final OslcResourceDetailInfo resDetInfo, final boolean meta, final boolean thumbNail)
+    '''returns OslcResourceResponse\n\n
+    serializeAttachment(final MboSetRemote attachments, final OslcResourceDetailInfo resDetInfo)\n
+    serializeAttachment(final MboRemote attachment, final OslcResourceDetailInfo resDetInfo, final boolean meta, final boolean thumbNail)\n
     '''
 def overrideResourceURI():
-    '''public void overrideResourceURI(final String resURI)
+    '''returns None\n\n
+    overrideResourceURI(final String resURI)\n
     '''
 def isBranchFilterOn():
-    '''public boolean isBranchFilterOn()
+    '''returns boolean\n\n
+    isBranchFilterOn()\n
     '''
 def isAllowedBranchObject():
-    '''public boolean isAllowedBranchObject(final MboRemote mbo)
+    '''returns boolean\n\n
+    isAllowedBranchObject(final MboRemote mbo)\n
     '''
 def isAllowedBranchObjectType():
-    '''public boolean isAllowedBranchObjectType(final String mboName)
+    '''returns boolean\n\n
+    isAllowedBranchObjectType(final String mboName)\n
     '''

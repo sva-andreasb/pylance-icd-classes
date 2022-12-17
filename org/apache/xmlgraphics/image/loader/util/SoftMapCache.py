@@ -1,18 +1,24 @@
-def SoftMapCache():
-    '''public SoftMapCache(final boolean synched)
+def ():
+    '''returns SoftMapCache\n\n
+    (final boolean synched)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def remove():
-    '''public Object remove(final Object key)
+    '''returns Object\n\n
+    remove(final Object key)\n
     '''
 def put():
-    '''public void put(final Object key, final Object value)
+    '''returns None\n\n
+    put(final Object key, final Object value)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def doHouseKeeping():
-    '''public void doHouseKeeping()
+    '''returns None\n\n
+    doHouseKeeping()\n
     '''

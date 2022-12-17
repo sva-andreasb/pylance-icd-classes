@@ -1,9 +1,12 @@
-def IREM():
-    '''public IREM()
+def ():
+    '''returns IREM\n\n
+    ()\n
     '''
 def getExceptions():
-    '''public Class[] getExceptions()
+    '''returns Class[]\n\n
+    getExceptions()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

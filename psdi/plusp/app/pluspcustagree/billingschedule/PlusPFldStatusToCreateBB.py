@@ -1,6 +1,8 @@
-def PlusPFldStatusToCreateBB():
-    '''public PlusPFldStatusToCreateBB(final MboValue mv)
+def ():
+    '''returns PlusPFldStatusToCreateBB\n\n
+    (final MboValue mv)\n
     '''
 def setDomainId():
-    '''public void setDomainId(final String domainId)
+    '''returns None\n\n
+    setDomainId(final String domainId)\n
     '''

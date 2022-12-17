@@ -1,45 +1,58 @@
-def SysDataElementALNDOMAIN():
-    '''public SysDataElementALNDOMAIN()
-    public SysDataElementALNDOMAIN(final String name, final Namespace namespace)
-    public SysDataElementALNDOMAIN(final String name)
-    public SysDataElementALNDOMAIN(final String name, final String uri)
-    public SysDataElementALNDOMAIN(final String name, final String prefix, final String uri)
-    public SysDataElementALNDOMAIN(final String tbname, final TreeMap newCol, final TreeMap oldCol, final TreeMap newData, final TreeMap oldData, final TreeMap newDataOldKeys, final TreeMap keyCols, final File codefile)
+def ():
+    '''returns SysDataElementALNDOMAIN\n\n
+    ()\n
+    (final String name, final Namespace namespace)\n
+    (final String name)\n
+    (final String name, final String uri)\n
+    (final String name, final String prefix, final String uri)\n
+    (final String tbname, final TreeMap newCol, final TreeMap oldCol, final TreeMap newData, final TreeMap oldData, final TreeMap newDataOldKeys, final TreeMap keyCols, final File codefile)\n
     '''
 def buildFromHashMaps():
-    '''public void buildFromHashMaps()
+    '''returns None\n\n
+    buildFromHashMaps()\n
     '''
 def addOneRow():
-    '''public void addOneRow(final String key, final HashMap newVals)
+    '''returns None\n\n
+    addOneRow(final String key, final HashMap newVals)\n
     '''
 def removeOneRow():
-    '''public void removeOneRow(final String key, final HashMap oldVals)
+    '''returns None\n\n
+    removeOneRow(final String key, final HashMap oldVals)\n
     '''
 def compareRows():
-    '''public void compareRows(final String key, final HashMap newVals, final HashMap oldVals)
-    public ArrayList compareRows(final Element row, final TreeMap colsColno)
+    '''returns ArrayList\n\n
+    compareRows(final String key, final HashMap newVals, final HashMap oldVals)\n
+    compareRows(final Element row, final TreeMap colsColno)\n
     '''
 def setKeyAttributes():
-    '''public void setKeyAttributes(final Element row, final HashMap rowValues)
+    '''returns None\n\n
+    setKeyAttributes(final Element row, final HashMap rowValues)\n
     '''
 def haveDup():
-    '''public boolean haveDup(final Element checkEl)
+    '''returns boolean\n\n
+    haveDup(final Element checkEl)\n
     '''
 def getSql():
-    '''public ArrayList getSql(final String tbname, final Connection con, final Util util, final TreeMap oldCol, final TreeMap keyCols)
+    '''returns ArrayList\n\n
+    getSql(final String tbname, final Connection con, final Util util, final TreeMap oldCol, final TreeMap keyCols)\n
     '''
 def getDeleteSql():
-    '''public ArrayList getDeleteSql(final String tbname, final Connection con, final Util util, final TreeMap oldCol, final TreeMap keyCols)
+    '''returns ArrayList\n\n
+    getDeleteSql(final String tbname, final Connection con, final Util util, final TreeMap oldCol, final TreeMap keyCols)\n
     '''
 def getWhereClause():
-    '''public String getWhereClause(final Element row, final boolean useSiteOrg, final String siteid, final String orgid)
+    '''returns String\n\n
+    getWhereClause(final Element row, final boolean useSiteOrg, final String siteid, final String orgid)\n
     '''
 def deleteRow():
-    '''public ArrayList deleteRow(final Element row)
+    '''returns ArrayList\n\n
+    deleteRow(final Element row)\n
     '''
 def updateRow():
-    '''public ArrayList updateRow(final Element row, final HashMap currentData, final String siteid, final String orgid)
+    '''returns ArrayList\n\n
+    updateRow(final Element row, final HashMap currentData, final String siteid, final String orgid)\n
     '''
 def insertRow():
-    '''public ArrayList insertRow(final Element row, final String siteid, final String orgid)
+    '''returns ArrayList\n\n
+    insertRow(final Element row, final String siteid, final String orgid)\n
     '''

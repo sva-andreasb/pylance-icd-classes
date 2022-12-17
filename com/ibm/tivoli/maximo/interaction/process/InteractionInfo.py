@@ -1,78 +1,96 @@
-def InteractionInfo():
-    '''public InteractionInfo(final String interactionName, final String description, final String appName, final int applyResponse, final String mapOption, final String intObject, final byte[] obp, final String channelName, final String reqRelation, final String respRelation, final String intMode, final String dialogId, final String requestMappingClass, final String responseMappingClass, final int commitResponse, final int showSingleResponse, final int active, final int genMenuOption)
+def ():
+    '''returns InteractionInfo\n\n
+    (final String interactionName, final String description, final String appName, final int applyResponse, final String mapOption, final String intObject, final byte[] obp, final String channelName, final String reqRelation, final String respRelation, final String intMode, final String dialogId, final String requestMappingClass, final String responseMappingClass, final int commitResponse, final int showSingleResponse, final int active, final int genMenuOption)\n
     '''
 def getChannelName():
-    '''public String getChannelName()
+    '''returns String\n\n
+    getChannelName()\n
     '''
 def getReqRelation():
-    '''public String getReqRelation()
+    '''returns String\n\n
+    getReqRelation()\n
     '''
 def getRespRelation():
-    '''public String getRespRelation()
+    '''returns String\n\n
+    getRespRelation()\n
     '''
 def getIntMode():
-    '''public String getIntMode()
+    '''returns String\n\n
+    getIntMode()\n
     '''
 def getDialogId():
-    '''public String getDialogId()
+    '''returns String\n\n
+    getDialogId()\n
     '''
 def getMapOption():
-    '''public String getMapOption()
+    '''returns String\n\n
+    getMapOption()\n
     '''
 def getIntMainObject():
-    '''public String getIntMainObject()
+    '''returns String\n\n
+    getIntMainObject()\n
     '''
 def getObp():
-    '''public byte[] getObp()
+    '''returns byte[]\n\n
+    getObp()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getRequestOSName():
-    '''public String getRequestOSName()
+    '''returns String\n\n
+    getRequestOSName()\n
     '''
 def getResponseOSName():
-    '''public String getResponseOSName()
+    '''returns String\n\n
+    getResponseOSName()\n
     '''
 def getRequestMappingClass():
-    '''public String getRequestMappingClass()
+    '''returns String\n\n
+    getRequestMappingClass()\n
     '''
 def getResponseMappingClass():
-    '''public String getResponseMappingClass()
+    '''returns String\n\n
+    getResponseMappingClass()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def getInteractionName():
-    '''public String getInteractionName()
+    '''returns String\n\n
+    getInteractionName()\n
     '''
 def applyResponse():
-    '''public boolean applyResponse()
+    '''returns boolean\n\n
+    applyResponse()\n
     '''
 def generateMenuOption():
-    '''public boolean generateMenuOption()
+    '''returns boolean\n\n
+    generateMenuOption()\n
     '''
 def isCommitResponse():
-    '''public boolean isCommitResponse()
+    '''returns boolean\n\n
+    isCommitResponse()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def showSingleResponse():
-    '''public boolean showSingleResponse()
-    '''
-def getObjectStructure():
-    '''public Map<String, Map<String, IntMappingInfo>> getObjectStructure()
-    '''
-def getAllObjects():
-    '''public Map<String, IntMappingInfo> getAllObjects(final String osName)
+    '''returns boolean\n\n
+    showSingleResponse()\n
     '''
 def getObjectMapping():
-    '''public IntMappingInfo getObjectMapping(final String osName, final String hpath)
+    '''returns IntMappingInfo\n\n
+    getObjectMapping(final String osName, final String hpath)\n
     '''
 def setRequestOSName():
-    '''public void setRequestOSName(final String mosName)
+    '''returns None\n\n
+    setRequestOSName(final String mosName)\n
     '''
 def setResponseOSName():
-    '''public void setResponseOSName(final String mosName)
+    '''returns None\n\n
+    setResponseOSName(final String mosName)\n
     '''

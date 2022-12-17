@@ -1,3 +1,4 @@
-def FldUserSecControlRegStatus():
-    '''public FldUserSecControlRegStatus(final MboValue mbv)
+def ():
+    '''returns FldUserSecControlRegStatus\n\n
+    (final MboValue mbv)\n
     '''

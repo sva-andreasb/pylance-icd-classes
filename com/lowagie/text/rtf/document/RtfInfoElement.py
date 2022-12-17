@@ -1,6 +1,8 @@
-def RtfInfoElement():
-    '''public RtfInfoElement(final RtfDocument doc, final Meta meta)
+def ():
+    '''returns RtfInfoElement\n\n
+    (final RtfDocument doc, final Meta meta)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

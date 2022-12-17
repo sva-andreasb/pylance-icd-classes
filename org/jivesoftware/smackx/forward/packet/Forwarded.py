@@ -1,30 +1,31 @@
 NAMESPACE = "String  \"urn:xmpp:forward:0\""
 ELEMENT = "String  \"forwarded\""
-def Forwarded():
-    '''public Forwarded(final DelayInformation delay, final Stanza fwdPacket)
-    public Forwarded(final Stanza fwdPacket)
+def ():
+    '''returns Forwarded\n\n
+    (final DelayInformation delay, final Stanza fwdPacket)\n
+    (final Stanza fwdPacket)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getForwardedPacket():
-    '''public Stanza getForwardedPacket()
+    '''returns Stanza\n\n
+    getForwardedPacket()\n
     '''
 def getForwardedStanza():
-    '''public Stanza getForwardedStanza()
+    '''returns Stanza\n\n
+    getForwardedStanza()\n
     '''
 def getDelayInformation():
-    '''public DelayInformation getDelayInformation()
-    '''
-def from():
-    '''public static Forwarded from(final Stanza packet)
-    '''
-def extractMessagesFrom():
-    '''public static List<Message> extractMessagesFrom(final Collection<Forwarded> forwardedCollection)
+    '''returns DelayInformation\n\n
+    getDelayInformation()\n
     '''

@@ -1,23 +1,30 @@
 sid = "short  43"
-def PrintGridlinesRecord():
-    '''public PrintGridlinesRecord()
-    public PrintGridlinesRecord(final RecordInputStream in)
+def ():
+    '''returns PrintGridlinesRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setPrintGridlines():
-    '''public void setPrintGridlines(final boolean pg)
+    '''returns None\n\n
+    setPrintGridlines(final boolean pg)\n
     '''
 def getPrintGridlines():
-    '''public boolean getPrintGridlines()
+    '''returns boolean\n\n
+    getPrintGridlines()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

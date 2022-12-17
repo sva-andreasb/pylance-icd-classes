@@ -1,12 +1,8 @@
-def getInstance():
-    '''public static synchronized EnterpriseServiceCache getInstance()
-    '''
 def getName():
-    '''public String getName()
-    '''
-def getEnterpriseServiceMap():
-    '''public Map<String, EnterpriseServiceInfo> getEnterpriseServiceMap()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEnterpriseServiceInfo():
-    '''public EnterpriseServiceInfo getEnterpriseServiceInfo(final String name)
+    '''returns EnterpriseServiceInfo\n\n
+    getEnterpriseServiceInfo(final String name)\n
     '''

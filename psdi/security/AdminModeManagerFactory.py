@@ -1,14 +1,14 @@
 CACHENAME = "String  \"ADMINMODE\""
-def getInstance():
-    '''public static AdminModeManagerFactory getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init(final MXServer mxs)
-    public void init()
+    '''returns None\n\n
+    init(final MXServer mxs)\n
+    init()\n
     '''
 def getCache():
-    '''public MaximoCache getCache()
+    '''returns MaximoCache\n\n
+    getCache()\n
     '''

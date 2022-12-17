@@ -5,18 +5,23 @@ PS_DASHDOT = "int  3"
 PS_DASHDOTDOT = "int  4"
 PS_NULL = "int  5"
 PS_INSIDEFRAME = "int  6"
-def MetaPen():
-    '''public MetaPen()
+def ():
+    '''returns MetaPen\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final InputMeta in)
+    '''returns None\n\n
+    init(final InputMeta in)\n
     '''
 def getStyle():
-    '''public int getStyle()
+    '''returns int\n\n
+    getStyle()\n
     '''
 def getPenWidth():
-    '''public int getPenWidth()
+    '''returns int\n\n
+    getPenWidth()\n
     '''
 def getColor():
-    '''public Color getColor()
+    '''returns Color\n\n
+    getColor()\n
     '''

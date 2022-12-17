@@ -1,127 +1,164 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getCreateUser():
-    '''public Customer getCreateUser()
+    '''returns Customer\n\n
+    getCreateUser()\n
     '''
 def setCreateUser():
-    '''public void setCreateUser(final Customer createUser)
+    '''returns None\n\n
+    setCreateUser(final Customer createUser)\n
     '''
 def getDatacenter():
-    '''public Location getDatacenter()
+    '''returns Location\n\n
+    getDatacenter()\n
     '''
 def setDatacenter():
-    '''public void setDatacenter(final Location datacenter)
+    '''returns None\n\n
+    setDatacenter(final Location datacenter)\n
     '''
 def getModifyEmployee():
-    '''public Employee getModifyEmployee()
+    '''returns Employee\n\n
+    getModifyEmployee()\n
     '''
 def setModifyEmployee():
-    '''public void setModifyEmployee(final Employee modifyEmployee)
+    '''returns None\n\n
+    setModifyEmployee(final Employee modifyEmployee)\n
     '''
 def getModifyUser():
-    '''public Customer getModifyUser()
+    '''returns Customer\n\n
+    getModifyUser()\n
     '''
 def setModifyUser():
-    '''public void setModifyUser(final Customer modifyUser)
+    '''returns None\n\n
+    setModifyUser(final Customer modifyUser)\n
     '''
 def getRequest():
-    '''public Request getRequest()
+    '''returns Request\n\n
+    getRequest()\n
     '''
 def setRequest():
-    '''public void setRequest(final Request request)
+    '''returns None\n\n
+    setRequest(final Request request)\n
     '''
 def setType():
-    '''public void setType(final com.softlayer.api.service.account.media.Type type)
+    '''returns None\n\n
+    setType(final com.softlayer.api.service.account.media.Type type)\n
     '''
 def getVolume():
-    '''public Storage getVolume()
+    '''returns Storage\n\n
+    getVolume()\n
     '''
 def setVolume():
-    '''public void setVolume(final Storage volume)
+    '''returns None\n\n
+    setVolume(final Storage volume)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getRequestId():
-    '''public Long getRequestId()
+    '''returns Long\n\n
+    getRequestId()\n
     '''
 def setRequestId():
-    '''public void setRequestId(final Long requestId)
+    '''returns None\n\n
+    setRequestId(final Long requestId)\n
     '''
 def isRequestIdSpecified():
-    '''public boolean isRequestIdSpecified()
+    '''returns boolean\n\n
+    isRequestIdSpecified()\n
     '''
 def unsetRequestId():
-    '''public void unsetRequestId()
+    '''returns None\n\n
+    unsetRequestId()\n
     '''
 def getSerialNumber():
-    '''public String getSerialNumber()
+    '''returns String\n\n
+    getSerialNumber()\n
     '''
 def setSerialNumber():
-    '''public void setSerialNumber(final String serialNumber)
+    '''returns None\n\n
+    setSerialNumber(final String serialNumber)\n
     '''
 def isSerialNumberSpecified():
-    '''public boolean isSerialNumberSpecified()
+    '''returns boolean\n\n
+    isSerialNumberSpecified()\n
     '''
 def unsetSerialNumber():
-    '''public void unsetSerialNumber()
+    '''returns None\n\n
+    unsetSerialNumber()\n
     '''
 def getTypeId():
-    '''public Long getTypeId()
+    '''returns Long\n\n
+    getTypeId()\n
     '''
 def setTypeId():
-    '''public void setTypeId(final Long typeId)
+    '''returns None\n\n
+    setTypeId(final Long typeId)\n
     '''
 def isTypeIdSpecified():
-    '''public boolean isTypeIdSpecified()
+    '''returns boolean\n\n
+    isTypeIdSpecified()\n
     '''
 def unsetTypeId():
-    '''public void unsetTypeId()
+    '''returns None\n\n
+    unsetTypeId()\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def requestId():
-    '''public Mask requestId()
+    '''returns Mask\n\n
+    requestId()\n
     '''
 def serialNumber():
-    '''public Mask serialNumber()
+    '''returns Mask\n\n
+    serialNumber()\n
     '''
 def typeId():
-    '''public Mask typeId()
+    '''returns Mask\n\n
+    typeId()\n
     '''

@@ -1,51 +1,60 @@
-def AssetLocDojoTreeBean():
-    '''public AssetLocDojoTreeBean()
+def ():
+    '''returns AssetLocDojoTreeBean\n\n
+    ()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def getRootMbo():
-    '''public MboRemote getRootMbo()
+    '''returns MboRemote\n\n
+    getRootMbo()\n
     '''
 def getTargetMbo():
-    '''public MboRemote getTargetMbo()
+    '''returns MboRemote\n\n
+    getTargetMbo()\n
     '''
 def onPaste():
-    '''public void onPaste(final MboRemote targetParentMbo)
+    '''returns None\n\n
+    onPaste(final MboRemote targetParentMbo)\n
     '''
 def showPathToTop():
-    '''public int showPathToTop()
+    '''returns int\n\n
+    showPathToTop()\n
     '''
 def showAllSystems():
-    '''public int showAllSystems()
+    '''returns int\n\n
+    showAllSystems()\n
     '''
 def prepareMboSet():
-    '''public void prepareMboSet(final MboSetRemote toPrepare)
+    '''returns None\n\n
+    prepareMboSet(final MboSetRemote toPrepare)\n
     '''
 def onSelect():
-    '''public void onSelect(final MboRemote selectedMbo, final String eventValue)
+    '''returns None\n\n
+    onSelect(final MboRemote selectedMbo, final String eventValue)\n
     '''
 def applink():
-    '''public int applink()
-    '''
-def execute():
-    '''public synchronized int execute()
-    '''
-def getDropableObjects():
-    '''public Map<String, List<String>> getDropableObjects()
+    '''returns int\n\n
+    applink()\n
     '''
 def getSourceControl():
-    '''public ControlInstance getSourceControl()
+    '''returns ControlInstance\n\n
+    getSourceControl()\n
     '''
 def showAssetWorkDetails():
-    '''public int showAssetWorkDetails()
+    '''returns int\n\n
+    showAssetWorkDetails()\n
     '''
 def getRealSameAsObject():
-    '''public String getRealSameAsObject(final MboRemote mbo, final String attrWithRelShip)
+    '''returns String\n\n
+    getRealSameAsObject(final MboRemote mbo, final String attrWithRelShip)\n
     '''
 def checkMoveAuth():
-    '''public void checkMoveAuth(final MboRemote targetMbo, final String optionName, final String maintable)
+    '''returns None\n\n
+    checkMoveAuth(final MboRemote targetMbo, final String optionName, final String maintable)\n
     '''

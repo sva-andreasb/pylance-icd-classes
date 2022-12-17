@@ -1,3 +1,4 @@
-def Segment6DataAccessor():
-    '''public Segment6DataAccessor()
+def ():
+    '''returns Segment6DataAccessor\n\n
+    ()\n
     '''

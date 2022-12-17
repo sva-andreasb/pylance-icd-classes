@@ -1,8 +1,10 @@
-def DataOutputAsStream():
-    '''public DataOutputAsStream(final DataOutput out)
+def ():
+    '''returns DataOutputAsStream\n\n
+    (final DataOutput out)\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b)
-    public void write(final byte[] b, final int offset, final int length)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b)\n
+    write(final byte[] b, final int offset, final int length)\n
     '''

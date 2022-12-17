@@ -1,15 +1,20 @@
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''
 def deserialize():
-    '''public T deserialize(final JsonParser p, final DeserializationContext ctxt, final T intoValue)
+    '''returns T\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final T intoValue)\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''
 def getNullAccessPattern():
-    '''public AccessPattern getNullAccessPattern()
+    '''returns AccessPattern\n\n
+    getNullAccessPattern()\n
     '''
 def getEmptyAccessPattern():
-    '''public AccessPattern getEmptyAccessPattern()
+    '''returns AccessPattern\n\n
+    getEmptyAccessPattern()\n
     '''

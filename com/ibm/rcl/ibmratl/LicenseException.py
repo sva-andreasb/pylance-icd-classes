@@ -1,10 +1,13 @@
-def LicenseException():
-    '''public LicenseException(final LicenseControl licenseControl)
-    public LicenseException(final String message)
+def ():
+    '''returns LicenseException\n\n
+    (final LicenseControl licenseControl)\n
+    (final String message)\n
     '''
 def getLicenseError():
-    '''public String getLicenseError()
+    '''returns String\n\n
+    getLicenseError()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

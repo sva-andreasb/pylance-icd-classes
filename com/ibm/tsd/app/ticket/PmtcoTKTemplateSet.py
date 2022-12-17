@@ -1,3 +1,4 @@
-def PmtcoTKTemplateSet():
-    '''public PmtcoTKTemplateSet(final MboServerInterface ms)
+def ():
+    '''returns PmtcoTKTemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

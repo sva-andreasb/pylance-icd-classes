@@ -1,3 +1,4 @@
-def RefSecondary():
-    '''public RefSecondary(final MboSet ms)
+def ():
+    '''returns RefSecondary\n\n
+    (final MboSet ms)\n
     '''

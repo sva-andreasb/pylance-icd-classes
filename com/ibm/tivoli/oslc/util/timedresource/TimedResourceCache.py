@@ -1,28 +1,37 @@
-def TimedResourceCache():
-    '''public TimedResourceCache()
-    public TimedResourceCache(final int lifespan, final int sleepinterval)
+def ():
+    '''returns TimedResourceCache\n\n
+    ()\n
+    (final int lifespan, final int sleepinterval)\n
     '''
 def putResource():
-    '''public void putResource(final Key K, final Value V)
+    '''returns None\n\n
+    putResource(final Key K, final Value V)\n
     '''
 def getResource():
-    '''public TimedResource getResource(final Key K)
+    '''returns TimedResource\n\n
+    getResource(final Key K)\n
     '''
 def releaseResource():
-    '''public void releaseResource(final Key K)
+    '''returns None\n\n
+    releaseResource(final Key K)\n
     '''
 def getKeys():
-    '''public Enumeration getKeys()
+    '''returns Enumeration\n\n
+    getKeys()\n
     '''
 def getSleepinterval():
-    '''public int getSleepinterval()
+    '''returns int\n\n
+    getSleepinterval()\n
     '''
 def setSleepInterval():
-    '''public void setSleepInterval(final int sleepInterval)
+    '''returns None\n\n
+    setSleepInterval(final int sleepInterval)\n
     '''
 def getLifeSpan():
-    '''public int getLifeSpan()
+    '''returns int\n\n
+    getLifeSpan()\n
     '''
 def setLifeSpan():
-    '''public void setLifeSpan(final int lifespan)
+    '''returns None\n\n
+    setLifeSpan(final int lifespan)\n
     '''

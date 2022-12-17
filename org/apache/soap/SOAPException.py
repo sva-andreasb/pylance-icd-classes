@@ -1,25 +1,33 @@
-def SOAPException():
-    '''public SOAPException(final String s, final String s2)
-    public SOAPException(final String s, final String s2, final Throwable targetException)
+def ():
+    '''returns SOAPException\n\n
+    (final String s, final String s2)\n
+    (final String s, final String s2, final Throwable targetException)\n
     '''
 def getFaultCode():
-    '''public String getFaultCode()
+    '''returns String\n\n
+    getFaultCode()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getRootException():
-    '''public Throwable getRootException()
+    '''returns Throwable\n\n
+    getRootException()\n
     '''
 def getTargetException():
-    '''public Throwable getTargetException()
+    '''returns Throwable\n\n
+    getTargetException()\n
     '''
 def setFaultCode():
-    '''public void setFaultCode(final String s)
+    '''returns None\n\n
+    setFaultCode(final String s)\n
     '''
 def setTargetException():
-    '''public void setTargetException(final Throwable targetException)
+    '''returns None\n\n
+    setTargetException(final Throwable targetException)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

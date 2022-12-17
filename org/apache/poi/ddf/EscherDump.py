@@ -1,14 +1,13 @@
 def dump():
-    '''public void dump(final byte[] data, final int offset, final int size, final PrintStream out)
-    public void dump(final int recordSize, final byte[] data, final PrintStream out)
+    '''returns None\n\n
+    dump(final byte[] data, final int offset, final int size, final PrintStream out)\n
+    dump(final int recordSize, final byte[] data, final PrintStream out)\n
     '''
 def dumpOld():
-    '''public void dumpOld(final long maxLength, final InputStream in, final PrintStream out)
+    '''returns None\n\n
+    dumpOld(final long maxLength, final InputStream in, final PrintStream out)\n
     '''
-def PropName():
-    '''public PropName(final String name)
-    '''
-def main():
-    '''public static void main(final String[] args)
-    public static void main(final String[] args, final PrintStream out)
+def ():
+    '''returns PropName\n\n
+    (final String name)\n
     '''

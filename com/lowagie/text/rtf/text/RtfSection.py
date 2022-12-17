@@ -1,12 +1,16 @@
-def RtfSection():
-    '''public RtfSection(final RtfDocument doc, final Section section)
+def ():
+    '''returns RtfSection\n\n
+    (final RtfDocument doc, final Section section)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''
 def setInTable():
-    '''public void setInTable(final boolean inTable)
+    '''returns None\n\n
+    setInTable(final boolean inTable)\n
     '''
 def setInHeader():
-    '''public void setInHeader(final boolean inHeader)
+    '''returns None\n\n
+    setInHeader(final boolean inHeader)\n
     '''

@@ -1,6 +1,8 @@
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def requiresLayout():
-    '''public boolean requiresLayout()
+    '''returns boolean\n\n
+    requiresLayout()\n
     '''

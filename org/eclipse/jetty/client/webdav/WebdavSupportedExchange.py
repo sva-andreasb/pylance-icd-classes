@@ -1,9 +1,12 @@
-def WebdavSupportedExchange():
-    '''public WebdavSupportedExchange()
+def ():
+    '''returns WebdavSupportedExchange\n\n
+    ()\n
     '''
 def waitTilCompletion():
-    '''public void waitTilCompletion()
+    '''returns None\n\n
+    waitTilCompletion()\n
     '''
 def isWebdavSupported():
-    '''public boolean isWebdavSupported()
+    '''returns boolean\n\n
+    isWebdavSupported()\n
     '''

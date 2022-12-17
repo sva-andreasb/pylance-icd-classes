@@ -1,129 +1,172 @@
-def MXCostTypeData():
-    '''public MXCostTypeData()
+def ():
+    '''returns MXCostTypeData\n\n
+    ()\n
     '''
 def setEsttotalcost():
-    '''public void setEsttotalcost(final double inEsttotalcost)
+    '''returns None\n\n
+    setEsttotalcost(final double inEsttotalcost)\n
     '''
 def getEstTotalCost():
-    '''public double getEstTotalCost()
+    '''returns double\n\n
+    getEstTotalCost()\n
     '''
 def setEstatapprtotalcost():
-    '''public void setEstatapprtotalcost(final double inEstatapprtotalcost)
+    '''returns None\n\n
+    setEstatapprtotalcost(final double inEstatapprtotalcost)\n
     '''
 def getEstatapprtotalcost():
-    '''public double getEstatapprtotalcost()
+    '''returns double\n\n
+    getEstatapprtotalcost()\n
     '''
 def setActtotalcost():
-    '''public void setActtotalcost(final double inActtotalcost)
+    '''returns None\n\n
+    setActtotalcost(final double inActtotalcost)\n
     '''
 def getActtotalcost():
-    '''public double getActtotalcost()
+    '''returns double\n\n
+    getActtotalcost()\n
     '''
 def setEstlabcost():
-    '''public void setEstlabcost(final double inEstlabcost)
+    '''returns None\n\n
+    setEstlabcost(final double inEstlabcost)\n
     '''
 def getEstlabcost():
-    '''public double getEstlabcost()
+    '''returns double\n\n
+    getEstlabcost()\n
     '''
 def setEstatapprlabcost():
-    '''public void setEstatapprlabcost(final double inEstatapprlabcost)
+    '''returns None\n\n
+    setEstatapprlabcost(final double inEstatapprlabcost)\n
     '''
 def getEstatapprlabcost():
-    '''public double getEstatapprlabcost()
+    '''returns double\n\n
+    getEstatapprlabcost()\n
     '''
 def setActlabcost():
-    '''public void setActlabcost(final double inActlabcost)
+    '''returns None\n\n
+    setActlabcost(final double inActlabcost)\n
     '''
 def getActlabcost():
-    '''public double getActlabcost()
+    '''returns double\n\n
+    getActlabcost()\n
     '''
 def setEstintlabcost():
-    '''public void setEstintlabcost(final double inEstintlabcost)
+    '''returns None\n\n
+    setEstintlabcost(final double inEstintlabcost)\n
     '''
 def getEstintlabcost():
-    '''public double getEstintlabcost()
+    '''returns double\n\n
+    getEstintlabcost()\n
     '''
 def setEstatapprintlabcost():
-    '''public void setEstatapprintlabcost(final double inEstatapprintlabcost)
+    '''returns None\n\n
+    setEstatapprintlabcost(final double inEstatapprintlabcost)\n
     '''
 def getEstatapprintlabcost():
-    '''public double getEstatapprintlabcost()
+    '''returns double\n\n
+    getEstatapprintlabcost()\n
     '''
 def setActintlabcost():
-    '''public void setActintlabcost(final double inActintlabcost)
+    '''returns None\n\n
+    setActintlabcost(final double inActintlabcost)\n
     '''
 def getActintlabcost():
-    '''public double getActintlabcost()
+    '''returns double\n\n
+    getActintlabcost()\n
     '''
 def setEstoutlabcost():
-    '''public void setEstoutlabcost(final double inEstoutlabcost)
+    '''returns None\n\n
+    setEstoutlabcost(final double inEstoutlabcost)\n
     '''
 def getEstoutlabcost():
-    '''public double getEstoutlabcost()
+    '''returns double\n\n
+    getEstoutlabcost()\n
     '''
 def setEstatapproutlabcost():
-    '''public void setEstatapproutlabcost(final double inEstatapproutlabcost)
+    '''returns None\n\n
+    setEstatapproutlabcost(final double inEstatapproutlabcost)\n
     '''
 def getEstatapproutlabcost():
-    '''public double getEstatapproutlabcost()
+    '''returns double\n\n
+    getEstatapproutlabcost()\n
     '''
 def setActoutlabcost():
-    '''public void setActoutlabcost(final double inActoutlabcost)
+    '''returns None\n\n
+    setActoutlabcost(final double inActoutlabcost)\n
     '''
 def getActoutlabcost():
-    '''public double getActoutlabcost()
+    '''returns double\n\n
+    getActoutlabcost()\n
     '''
 def setEsttoolcost():
-    '''public void setEsttoolcost(final double inEsttoolcost)
+    '''returns None\n\n
+    setEsttoolcost(final double inEsttoolcost)\n
     '''
 def getEsttoolcost():
-    '''public double getEsttoolcost()
+    '''returns double\n\n
+    getEsttoolcost()\n
     '''
 def setEstatapprtoolcost():
-    '''public void setEstatapprtoolcost(final double inEstatapprtoolcost)
+    '''returns None\n\n
+    setEstatapprtoolcost(final double inEstatapprtoolcost)\n
     '''
 def getEstatapprtoolcost():
-    '''public double getEstatapprtoolcost()
+    '''returns double\n\n
+    getEstatapprtoolcost()\n
     '''
 def setActtoolcost():
-    '''public void setActtoolcost(final double inActtoolcost)
+    '''returns None\n\n
+    setActtoolcost(final double inActtoolcost)\n
     '''
 def getActtoolcost():
-    '''public double getActtoolcost()
+    '''returns double\n\n
+    getActtoolcost()\n
     '''
 def setEstmatcost():
-    '''public void setEstmatcost(final double inEstmatcost)
+    '''returns None\n\n
+    setEstmatcost(final double inEstmatcost)\n
     '''
 def getEstmatcost():
-    '''public double getEstmatcost()
+    '''returns double\n\n
+    getEstmatcost()\n
     '''
 def setEstatapprmatcost():
-    '''public void setEstatapprmatcost(final double inEstatapprmatcost)
+    '''returns None\n\n
+    setEstatapprmatcost(final double inEstatapprmatcost)\n
     '''
 def getEstatapprmatcost():
-    '''public double getEstatapprmatcost()
+    '''returns double\n\n
+    getEstatapprmatcost()\n
     '''
 def setActmatcost():
-    '''public void setActmatcost(final double inActmatcost)
+    '''returns None\n\n
+    setActmatcost(final double inActmatcost)\n
     '''
 def getActmatcost():
-    '''public double getActmatcost()
+    '''returns double\n\n
+    getActmatcost()\n
     '''
 def setEstservcost():
-    '''public void setEstservcost(final double inEstservcost)
+    '''returns None\n\n
+    setEstservcost(final double inEstservcost)\n
     '''
 def getEstservcost():
-    '''public double getEstservcost()
+    '''returns double\n\n
+    getEstservcost()\n
     '''
 def setEstatapprservcost():
-    '''public void setEstatapprservcost(final double inEstatapprservcost)
+    '''returns None\n\n
+    setEstatapprservcost(final double inEstatapprservcost)\n
     '''
 def getEstatapprservcost():
-    '''public double getEstatapprservcost()
+    '''returns double\n\n
+    getEstatapprservcost()\n
     '''
 def setActservcost():
-    '''public void setActservcost(final double inActservcost)
+    '''returns None\n\n
+    setActservcost(final double inActservcost)\n
     '''
 def getActservcost():
-    '''public double getActservcost()
+    '''returns double\n\n
+    getActservcost()\n
     '''

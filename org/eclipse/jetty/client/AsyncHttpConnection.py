@@ -1,9 +1,12 @@
 def handle():
-    '''public Connection handle()
+    '''returns Connection\n\n
+    handle()\n
     '''
 def onInputShutdown():
-    '''public void onInputShutdown()
+    '''returns None\n\n
+    onInputShutdown()\n
     '''
 def send():
-    '''public boolean send(final HttpExchange ex)
+    '''returns boolean\n\n
+    send(final HttpExchange ex)\n
     '''

@@ -1,10 +1,13 @@
 def processSTEvent():
-    '''public void processSTEvent(final STEvent stEvent)
+    '''returns None\n\n
+    processSTEvent(final STEvent stEvent)\n
     '''
 def invokeLater():
-    '''public void invokeLater(final Runnable runnable)
-    public void invokeLater(final Runnable runnable, final long n)
+    '''returns None\n\n
+    invokeLater(final Runnable runnable)\n
+    invokeLater(final Runnable runnable, final long n)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

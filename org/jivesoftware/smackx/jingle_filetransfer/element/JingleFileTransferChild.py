@@ -4,63 +4,79 @@ ELEM_DESC = "String  \"desc\""
 ELEM_MEDIA_TYPE = "String  \"media-type\""
 ELEM_NAME = "String  \"name\""
 ELEM_SIZE = "String  \"size\""
-def JingleFileTransferChild():
-    '''public JingleFileTransferChild(final Date date, final String desc, final HashElement hash, final String mediaType, final String name, final int size, final Range range)
+def ():
+    '''returns JingleFileTransferChild\n\n
+    (final Date date, final String desc, final HashElement hash, final String mediaType, final String name, final int size, final Range range)\n
     '''
 def getDate():
-    '''public Date getDate()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getHash():
-    '''public HashElement getHash()
+    '''returns HashElement\n\n
+    getHash()\n
     '''
 def getMediaType():
-    '''public String getMediaType()
+    '''returns String\n\n
+    getMediaType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getRange():
-    '''public Range getRange()
+    '''returns Range\n\n
+    getRange()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    '''
-def getBuilder():
-    '''public static Builder getBuilder()
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def setDate():
-    '''public Builder setDate(final Date date)
+    '''returns Builder\n\n
+    setDate(final Date date)\n
     '''
 def setDescription():
-    '''public Builder setDescription(final String desc)
+    '''returns Builder\n\n
+    setDescription(final String desc)\n
     '''
 def setHash():
-    '''public Builder setHash(final HashElement hash)
+    '''returns Builder\n\n
+    setHash(final HashElement hash)\n
     '''
 def setMediaType():
-    '''public Builder setMediaType(final String mediaType)
+    '''returns Builder\n\n
+    setMediaType(final String mediaType)\n
     '''
 def setName():
-    '''public Builder setName(final String name)
+    '''returns Builder\n\n
+    setName(final String name)\n
     '''
 def setSize():
-    '''public Builder setSize(final int size)
+    '''returns Builder\n\n
+    setSize(final int size)\n
     '''
 def setRange():
-    '''public Builder setRange(final Range range)
+    '''returns Builder\n\n
+    setRange(final Range range)\n
     '''
 def build():
-    '''public JingleFileTransferChild build()
+    '''returns JingleFileTransferChild\n\n
+    build()\n
     '''
 def setFile():
-    '''public Builder setFile(final File file)
+    '''returns Builder\n\n
+    setFile(final File file)\n
     '''

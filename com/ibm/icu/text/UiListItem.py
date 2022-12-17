@@ -1,18 +1,20 @@
-def UiListItem():
-    '''public UiListItem(final ULocale minimized, final ULocale modified, final String nameInDisplayLocale, final String nameInSelf)
+def ():
+    '''returns UiListItem\n\n
+    (final ULocale minimized, final ULocale modified, final String nameInDisplayLocale, final String nameInSelf)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def getComparator():
-    '''public static Comparator<UiListItem> getComparator(final Comparator<Object> comparator, final boolean inSelf)
+    '''returns String\n\n
+    toString()\n
     '''
 def compare():
-    '''public int compare(final UiListItem o1, final UiListItem o2)
+    '''returns int\n\n
+    compare(final UiListItem o1, final UiListItem o2)\n
     '''

@@ -1,11 +1,14 @@
-def Link():
-    '''public Link()
-    public Link(final URI resource)
-    public Link(final URI resource, final String label)
+def ():
+    '''returns Link\n\n
+    ()\n
+    (final URI resource)\n
+    (final URI resource, final String label)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''

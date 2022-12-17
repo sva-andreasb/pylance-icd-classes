@@ -1,3 +1,4 @@
 def getPatternExceptionSet():
-    '''public MboSetRemote getPatternExceptionSet(final MboRemote mbo)
+    '''returns MboSetRemote\n\n
+    getPatternExceptionSet(final MboRemote mbo)\n
     '''

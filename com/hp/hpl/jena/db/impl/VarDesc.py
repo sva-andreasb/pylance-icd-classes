@@ -1,16 +1,21 @@
-def VarDesc():
-    '''public VarDesc(final Node v, final int mapix, final int resix)
-    public VarDesc(final Node v, final int resix)
+def ():
+    '''returns VarDesc\n\n
+    (final Node v, final int mapix, final int resix)\n
+    (final Node v, final int resix)\n
     '''
 def bindToVarMap():
-    '''public void bindToVarMap(final Mapping varMap)
+    '''returns None\n\n
+    bindToVarMap(final Mapping varMap)\n
     '''
 def bindToCol():
-    '''public void bindToCol(final int tblAlias, final char colId)
+    '''returns None\n\n
+    bindToCol(final int tblAlias, final char colId)\n
     '''
 def isBoundToCol():
-    '''public boolean isBoundToCol()
+    '''returns boolean\n\n
+    isBoundToCol()\n
     '''
 def isArgVar():
-    '''public boolean isArgVar()
+    '''returns boolean\n\n
+    isArgVar()\n
     '''

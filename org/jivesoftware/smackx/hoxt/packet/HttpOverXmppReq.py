@@ -1,43 +1,53 @@
 ELEMENT = "String  \"req\""
 def getMethod():
-    '''public HttpMethod getMethod()
+    '''returns HttpMethod\n\n
+    getMethod()\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def getMaxChunkSize():
-    '''public int getMaxChunkSize()
+    '''returns int\n\n
+    getMaxChunkSize()\n
     '''
 def isSipub():
-    '''public boolean isSipub()
+    '''returns boolean\n\n
+    isSipub()\n
     '''
 def isIbb():
-    '''public boolean isIbb()
+    '''returns boolean\n\n
+    isIbb()\n
     '''
 def isJingle():
-    '''public boolean isJingle()
-    '''
-def builder():
-    '''public static Builder builder()
+    '''returns boolean\n\n
+    isJingle()\n
     '''
 def setMethod():
-    '''public Builder setMethod(final HttpMethod method)
+    '''returns Builder\n\n
+    setMethod(final HttpMethod method)\n
     '''
 def setResource():
-    '''public Builder setResource(final String resource)
+    '''returns Builder\n\n
+    setResource(final String resource)\n
     '''
 def setJingle():
-    '''public Builder setJingle(final boolean jingle)
+    '''returns Builder\n\n
+    setJingle(final boolean jingle)\n
     '''
 def setIbb():
-    '''public Builder setIbb(final boolean ibb)
+    '''returns Builder\n\n
+    setIbb(final boolean ibb)\n
     '''
 def setSipub():
-    '''public Builder setSipub(final boolean sipub)
+    '''returns Builder\n\n
+    setSipub(final boolean sipub)\n
     '''
 def setMaxChunkSize():
-    '''public Builder setMaxChunkSize(final int maxChunkSize)
+    '''returns Builder\n\n
+    setMaxChunkSize(final int maxChunkSize)\n
     '''
 def build():
-    '''public HttpOverXmppReq build()
+    '''returns HttpOverXmppReq\n\n
+    build()\n
     '''

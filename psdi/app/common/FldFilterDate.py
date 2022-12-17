@@ -1,6 +1,8 @@
-def FldFilterDate():
-    '''public FldFilterDate(final MboValue mbv)
+def ():
+    '''returns FldFilterDate\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

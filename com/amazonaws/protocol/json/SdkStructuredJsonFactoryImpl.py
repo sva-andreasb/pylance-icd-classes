@@ -1,12 +1,12 @@
-def SdkStructuredJsonFactoryImpl():
-    '''public SdkStructuredJsonFactoryImpl(final String contentTypePrefix, final JsonFactory jsonFactory, final Map<Class<?>, Unmarshaller<?, JsonUnmarshallerContext>> unmarshallers)
+def ():
+    '''returns SdkStructuredJsonFactoryImpl\n\n
+    (final String contentTypePrefix, final JsonFactory jsonFactory, final Map<Class<?>, Unmarshaller<?, JsonUnmarshallerContext>> unmarshallers)\n
     '''
 def createWriter():
-    '''public StructuredJsonGenerator createWriter(final String protocolVersion)
-    '''
-def createResponseHandler():
-    '''public <T> JsonResponseHandler<T> createResponseHandler(final JsonOperationMetadata operationMetadata, final Unmarshaller<T, JsonUnmarshallerContext> responseUnmarshaller)
+    '''returns StructuredJsonGenerator\n\n
+    createWriter(final String protocolVersion)\n
     '''
 def createErrorResponseHandler():
-    '''public JsonErrorResponseHandler createErrorResponseHandler(final List<JsonErrorUnmarshaller> errorUnmarshallers, final String customErrorCodeFieldName)
+    '''returns JsonErrorResponseHandler\n\n
+    createErrorResponseHandler(final List<JsonErrorUnmarshaller> errorUnmarshallers, final String customErrorCodeFieldName)\n
     '''

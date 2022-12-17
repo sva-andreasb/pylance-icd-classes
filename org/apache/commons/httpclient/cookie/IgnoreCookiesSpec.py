@@ -1,36 +1,47 @@
 def parse():
-    '''public Cookie[] parse(final String host, final int port, final String path, final boolean secure, final String header)
-    public Cookie[] parse(final String host, final int port, final String path, final boolean secure, final Header header)
+    '''returns Cookie[]\n\n
+    parse(final String host, final int port, final String path, final boolean secure, final String header)\n
+    parse(final String host, final int port, final String path, final boolean secure, final Header header)\n
     '''
 def getValidDateFormats():
-    '''public Collection getValidDateFormats()
+    '''returns Collection\n\n
+    getValidDateFormats()\n
     '''
 def setValidDateFormats():
-    '''public void setValidDateFormats(final Collection datepatterns)
+    '''returns None\n\n
+    setValidDateFormats(final Collection datepatterns)\n
     '''
 def formatCookie():
-    '''public String formatCookie(final Cookie cookie)
+    '''returns String\n\n
+    formatCookie(final Cookie cookie)\n
     '''
 def formatCookieHeader():
-    '''public Header formatCookieHeader(final Cookie cookie)
-    public Header formatCookieHeader(final Cookie[] cookies)
+    '''returns Header\n\n
+    formatCookieHeader(final Cookie cookie)\n
+    formatCookieHeader(final Cookie[] cookies)\n
     '''
 def formatCookies():
-    '''public String formatCookies(final Cookie[] cookies)
+    '''returns String\n\n
+    formatCookies(final Cookie[] cookies)\n
     '''
 def match():
-    '''public boolean match(final String host, final int port, final String path, final boolean secure, final Cookie cookie)
-    public Cookie[] match(final String host, final int port, final String path, final boolean secure, final Cookie[] cookies)
+    '''returns Cookie[]\n\n
+    match(final String host, final int port, final String path, final boolean secure, final Cookie cookie)\n
+    match(final String host, final int port, final String path, final boolean secure, final Cookie[] cookies)\n
     '''
 def parseAttribute():
-    '''public void parseAttribute(final NameValuePair attribute, final Cookie cookie)
+    '''returns None\n\n
+    parseAttribute(final NameValuePair attribute, final Cookie cookie)\n
     '''
 def validate():
-    '''public void validate(final String host, final int port, final String path, final boolean secure, final Cookie cookie)
+    '''returns None\n\n
+    validate(final String host, final int port, final String path, final boolean secure, final Cookie cookie)\n
     '''
 def domainMatch():
-    '''public boolean domainMatch(final String host, final String domain)
+    '''returns boolean\n\n
+    domainMatch(final String host, final String domain)\n
     '''
 def pathMatch():
-    '''public boolean pathMatch(final String path, final String topmostPath)
+    '''returns boolean\n\n
+    pathMatch(final String path, final String topmostPath)\n
     '''

@@ -1,39 +1,52 @@
 def configureEngine():
-    '''public void configureEngine(final AxisEngine engine)
+    '''returns None\n\n
+    configureEngine(final AxisEngine engine)\n
     '''
 def writeEngineConfig():
-    '''public void writeEngineConfig(final AxisEngine engine)
+    '''returns None\n\n
+    writeEngineConfig(final AxisEngine engine)\n
     '''
 def getGlobalOptions():
-    '''public Hashtable getGlobalOptions()
+    '''returns Hashtable\n\n
+    getGlobalOptions()\n
     '''
 def getGlobalResponse():
-    '''public Handler getGlobalResponse()
+    '''returns Handler\n\n
+    getGlobalResponse()\n
     '''
 def getGlobalRequest():
-    '''public Handler getGlobalRequest()
+    '''returns Handler\n\n
+    getGlobalRequest()\n
     '''
 def getTypeMappingRegistry():
-    '''public TypeMappingRegistry getTypeMappingRegistry()
+    '''returns TypeMappingRegistry\n\n
+    getTypeMappingRegistry()\n
     '''
 def getTypeMapping():
-    '''public TypeMapping getTypeMapping(final String encodingStyle)
+    '''returns TypeMapping\n\n
+    getTypeMapping(final String encodingStyle)\n
     '''
 def getTransport():
-    '''public Handler getTransport(final QName qname)
+    '''returns Handler\n\n
+    getTransport(final QName qname)\n
     '''
 def getService():
-    '''public SOAPService getService(final QName qname)
+    '''returns SOAPService\n\n
+    getService(final QName qname)\n
     '''
 def getServiceByNamespaceURI():
-    '''public SOAPService getServiceByNamespaceURI(final String namespace)
+    '''returns SOAPService\n\n
+    getServiceByNamespaceURI(final String namespace)\n
     '''
 def getHandler():
-    '''public Handler getHandler(final QName qname)
+    '''returns Handler\n\n
+    getHandler(final QName qname)\n
     '''
 def getDeployedServices():
-    '''public Iterator getDeployedServices()
+    '''returns Iterator\n\n
+    getDeployedServices()\n
     '''
 def getRoles():
-    '''public List getRoles()
+    '''returns List\n\n
+    getRoles()\n
     '''

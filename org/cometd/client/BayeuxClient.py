@@ -1,146 +1,178 @@
 BACKOFF_INCREMENT_OPTION = "String  \"backoffIncrement\""
 MAX_BACKOFF_OPTION = "String  \"maxBackoff\""
 BAYEUX_VERSION = "String  \"1.0\""
-def BayeuxClient():
-    '''public BayeuxClient(final String url, final ClientTransport transport, final ClientTransport... transports)
-    public BayeuxClient(final String url, final ScheduledExecutorService scheduler, final ClientTransport transport, final ClientTransport... transports)
+def ():
+    '''returns RehandshakingState\n\n
+    (final String url, final ClientTransport transport, final ClientTransport... transports)\n
+    (final String url, final ScheduledExecutorService scheduler, final ClientTransport transport, final ClientTransport... transports)\n
+    (final Map<String, Object> handshakeFields, final ClientTransport transport, final long backoff)\n
     '''
 def getBackoffIncrement():
-    '''public long getBackoffIncrement()
+    '''returns long\n\n
+    getBackoffIncrement()\n
     '''
 def getMaxBackoff():
-    '''public long getMaxBackoff()
+    '''returns long\n\n
+    getMaxBackoff()\n
     '''
 def getCookie():
-    '''public String getCookie(final String name)
+    '''returns String\n\n
+    getCookie(final String name)\n
     '''
 def setCookie():
-    '''public void setCookie(final String name, final String value)
-    public void setCookie(final String name, final String value, final int maxAge)
+    '''returns None\n\n
+    setCookie(final String name, final String value)\n
+    setCookie(final String name, final String value, final int maxAge)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def isHandshook():
-    '''public boolean isHandshook()
+    '''returns boolean\n\n
+    isHandshook()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def isDisconnected():
-    '''public boolean isDisconnected()
+    '''returns boolean\n\n
+    isDisconnected()\n
     '''
 def handshake():
-    '''public void handshake()
-    public void handshake(final Map<String, Object> handshakeFields)
-    public State handshake(final long waitMs)
-    public State handshake(final Map<String, Object> template, final long waitMs)
+    '''returns State\n\n
+    handshake()\n
+    handshake(final Map<String, Object> handshakeFields)\n
+    handshake(final long waitMs)\n
+    handshake(final Map<String, Object> template, final long waitMs)\n
     '''
 def create():
-    '''public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
-    public BayeuxClientState create(final BayeuxClientState oldState)
+    '''returns BayeuxClientState\n\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
+    create(final BayeuxClientState oldState)\n
     '''
 def waitFor():
-    '''public boolean waitFor(final long waitMs, final State state, final State... states)
+    '''returns boolean\n\n
+    waitFor(final long waitMs, final State state, final State... states)\n
     '''
 def disconnect():
-    '''public void disconnect()
-    public boolean disconnect(final long timeout)
+    '''returns boolean\n\n
+    disconnect()\n
+    disconnect(final long timeout)\n
     '''
 def onMessage():
-    '''public void onMessage(final ClientSessionChannel channel, final Message message)
+    '''returns None\n\n
+    onMessage(final ClientSessionChannel channel, final Message message)\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def postCreate():
-    '''public void postCreate()
-    public void postCreate()
-    public void postCreate()
-    public void postCreate()
-    public void postCreate()
-    public void postCreate()
+    '''returns None\n\n
+    postCreate()\n
+    postCreate()\n
+    postCreate()\n
+    postCreate()\n
+    postCreate()\n
+    postCreate()\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def getAllowedTransports():
-    '''public List<String> getAllowedTransports()
+    '''returns List<String>\n\n
+    getAllowedTransports()\n
     '''
 def getKnownTransportNames():
-    '''public Set<String> getKnownTransportNames()
+    '''returns Set<String>\n\n
+    getKnownTransportNames()\n
     '''
 def getTransport():
-    '''public ClientTransport getTransport(final String transport)
-    public ClientTransport getTransport()
+    '''returns ClientTransport\n\n
+    getTransport(final String transport)\n
+    getTransport()\n
     '''
 def setDebugEnabled():
-    '''public void setDebugEnabled(final boolean debug)
+    '''returns None\n\n
+    setDebugEnabled(final boolean debug)\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def getOption():
-    '''public Object getOption(final String qualifiedName)
+    '''returns Object\n\n
+    getOption(final String qualifiedName)\n
     '''
 def setOption():
-    '''public void setOption(final String qualifiedName, final Object value)
+    '''returns None\n\n
+    setOption(final String qualifiedName, final Object value)\n
     '''
 def getOptionNames():
-    '''public Set<String> getOptionNames()
-    '''
-def getOptions():
-    '''public Map<String, Object> getOptions()
+    '''returns Set<String>\n\n
+    getOptionNames()\n
     '''
 def onSending():
-    '''public void onSending(final Message[] messages)
-    public void onSending(final Message[] messages)
+    '''returns None\n\n
+    onSending(final Message[] messages)\n
+    onSending(final Message[] messages)\n
     '''
 def onMessages():
-    '''public void onMessages(final List<Message.Mutable> messages)
-    public void onMessages(final List<Message.Mutable> messages)
+    '''returns None\n\n
+    onMessages(final List<Message.Mutable> messages)\n
+    onMessages(final List<Message.Mutable> messages)\n
     '''
 def onFailure():
-    '''public void onFailure(final Throwable x, final Message[] messages)
+    '''returns None\n\n
+    onFailure(final Throwable x, final Message[] messages)\n
     '''
 def dump():
-    '''public String dump()
+    '''returns String\n\n
+    dump()\n
     '''
 def onConnectException():
-    '''public void onConnectException(final Throwable x, final Message[] messages)
+    '''returns None\n\n
+    onConnectException(final Throwable x, final Message[] messages)\n
     '''
 def onException():
-    '''public void onException(final Throwable x, final Message[] messages)
+    '''returns None\n\n
+    onException(final Throwable x, final Message[] messages)\n
     '''
 def onExpire():
-    '''public void onExpire(final Message[] messages)
+    '''returns None\n\n
+    onExpire(final Message[] messages)\n
     '''
 def onProtocolError():
-    '''public void onProtocolError(final String info, final Message[] messages)
+    '''returns None\n\n
+    onProtocolError(final String info, final Message[] messages)\n
     '''
 def getSession():
-    '''public ClientSession getSession()
+    '''returns ClientSession\n\n
+    getSession()\n
     '''
 def publish():
-    '''public void publish(final Object data)
-    public void publish(final Object data, final String messageId)
+    '''returns None\n\n
+    publish(final Object data)\n
+    publish(final Object data, final String messageId)\n
     '''
 def getType():
-    '''public State getType()
+    '''returns State\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def RehandshakingState():
-    '''public RehandshakingState(final Map<String, Object> handshakeFields, final ClientTransport transport, final long backoff)
+    '''returns String\n\n
+    toString()\n
     '''

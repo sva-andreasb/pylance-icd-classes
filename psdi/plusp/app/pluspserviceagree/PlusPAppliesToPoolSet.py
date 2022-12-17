@@ -1,3 +1,4 @@
-def PlusPAppliesToPoolSet():
-    '''public PlusPAppliesToPoolSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPAppliesToPoolSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''

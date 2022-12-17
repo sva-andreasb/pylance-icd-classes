@@ -1,9 +1,12 @@
-def SQLServerBulkBatchInsertRecord():
-    '''public SQLServerBulkBatchInsertRecord(final ArrayList<Parameter[]> batchParam, final ArrayList<String> columnList, final ArrayList<String> valueList, final String encoding)
+def ():
+    '''returns SQLServerBulkBatchInsertRecord\n\n
+    (final ArrayList<Parameter[]> batchParam, final ArrayList<String> columnList, final ArrayList<String> valueList, final String encoding)\n
     '''
 def getRowData():
-    '''public Object[] getRowData()
+    '''returns Object[]\n\n
+    getRowData()\n
     '''
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''

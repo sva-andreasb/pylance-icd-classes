@@ -1,29 +1,34 @@
-def unmodifiableBag():
-    '''public static <E> Bag<E> unmodifiableBag(final Bag<? extends E> bag)
-    '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def add():
-    '''public boolean add(final E object)
-    public boolean add(final E object, final int count)
+    '''returns boolean\n\n
+    add(final E object)\n
+    add(final E object, final int count)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
-    public boolean remove(final Object object, final int count)
+    '''returns boolean\n\n
+    remove(final Object object)\n
+    remove(final Object object, final int count)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def uniqueSet():
-    '''public Set<E> uniqueSet()
+    '''returns Set<E>\n\n
+    uniqueSet()\n
     '''

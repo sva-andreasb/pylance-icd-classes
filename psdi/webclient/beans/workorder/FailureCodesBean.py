@@ -1,9 +1,12 @@
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def SELECT():
-    '''public int SELECT()
+    '''returns int\n\n
+    SELECT()\n
     '''
 def SELECTRETURN():
-    '''public int SELECTRETURN()
+    '''returns int\n\n
+    SELECTRETURN()\n
     '''

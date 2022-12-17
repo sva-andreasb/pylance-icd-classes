@@ -1,21 +1,28 @@
 def getPhysicalConn():
-    '''public SQLiteConnection getPhysicalConn()
+    '''returns SQLiteConnection\n\n
+    getPhysicalConn()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def invoke():
-    '''public Object invoke(final Object proxy, final Method method, final Object[] args)
+    '''returns Object\n\n
+    invoke(final Object proxy, final Method method, final Object[] args)\n
     '''
 def addConnectionEventListener():
-    '''public void addConnectionEventListener(final ConnectionEventListener listener)
+    '''returns None\n\n
+    addConnectionEventListener(final ConnectionEventListener listener)\n
     '''
 def removeConnectionEventListener():
-    '''public void removeConnectionEventListener(final ConnectionEventListener listener)
+    '''returns None\n\n
+    removeConnectionEventListener(final ConnectionEventListener listener)\n
     '''
 def getListeners():
-    '''public List<ConnectionEventListener> getListeners()
+    '''returns List<ConnectionEventListener>\n\n
+    getListeners()\n
     '''

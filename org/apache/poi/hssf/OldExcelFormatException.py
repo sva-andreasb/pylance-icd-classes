@@ -1,3 +1,4 @@
-def OldExcelFormatException():
-    '''public OldExcelFormatException(final String s)
+def ():
+    '''returns OldExcelFormatException\n\n
+    (final String s)\n
     '''

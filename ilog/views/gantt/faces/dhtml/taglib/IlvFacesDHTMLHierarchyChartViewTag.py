@@ -1,72 +1,96 @@
 def getUpdateInterval():
-    '''public String getUpdateInterval()
+    '''returns String\n\n
+    getUpdateInterval()\n
     '''
 def setUpdateInterval():
-    '''public void setUpdateInterval(final String c)
+    '''returns None\n\n
+    setUpdateInterval(final String c)\n
     '''
 def getErrorMessage():
-    '''public String getErrorMessage()
+    '''returns String\n\n
+    getErrorMessage()\n
     '''
 def setErrorMessage():
-    '''public void setErrorMessage(final String d)
+    '''returns None\n\n
+    setErrorMessage(final String d)\n
     '''
 def getAutoUpdateCapabilities():
-    '''public String getAutoUpdateCapabilities()
+    '''returns String\n\n
+    getAutoUpdateCapabilities()\n
     '''
 def setAutoUpdateCapabilities():
-    '''public void setAutoUpdateCapabilities(final String e)
+    '''returns None\n\n
+    setAutoUpdateCapabilities(final String e)\n
     '''
 def getColumnResizeMessage():
-    '''public String getColumnResizeMessage()
+    '''returns String\n\n
+    getColumnResizeMessage()\n
     '''
 def setColumnResizeMessage():
-    '''public void setColumnResizeMessage(final String f)
+    '''returns None\n\n
+    setColumnResizeMessage(final String f)\n
     '''
 def getResizable():
-    '''public String getResizable()
+    '''returns String\n\n
+    getResizable()\n
     '''
 def setResizable():
-    '''public void setResizable(final String a)
+    '''returns None\n\n
+    setResizable(final String a)\n
     '''
 def getAccessible():
-    '''public String getAccessible()
+    '''returns String\n\n
+    getAccessible()\n
     '''
 def setAccessible():
-    '''public void setAccessible(final String b)
+    '''returns None\n\n
+    setAccessible(final String b)\n
     '''
 def getHotkeys():
-    '''public String getHotkeys()
+    '''returns String\n\n
+    getHotkeys()\n
     '''
 def setHotkeys():
-    '''public void setHotkeys(final String l)
+    '''returns None\n\n
+    setHotkeys(final String l)\n
     '''
 def getEditable():
-    '''public String getEditable()
+    '''returns String\n\n
+    getEditable()\n
     '''
 def setEditable():
-    '''public void setEditable(final String g)
+    '''returns None\n\n
+    setEditable(final String g)\n
     '''
 def getBeforeSessionExpirationHandler():
-    '''public String getBeforeSessionExpirationHandler()
+    '''returns String\n\n
+    getBeforeSessionExpirationHandler()\n
     '''
 def setBeforeSessionExpirationHandler():
-    '''public void setBeforeSessionExpirationHandler(final String h)
+    '''returns None\n\n
+    setBeforeSessionExpirationHandler(final String h)\n
     '''
 def setSheetHScrollable():
-    '''public void setSheetHScrollable(final String i)
+    '''returns None\n\n
+    setSheetHScrollable(final String i)\n
     '''
 def getSheetHScrollable():
-    '''public String getSheetHScrollable()
+    '''returns String\n\n
+    getSheetHScrollable()\n
     '''
 def setSheetVScrollable():
-    '''public void setSheetVScrollable(final String j)
+    '''returns None\n\n
+    setSheetVScrollable(final String j)\n
     '''
 def getSheetVScrollable():
-    '''public String getSheetVScrollable()
+    '''returns String\n\n
+    getSheetVScrollable()\n
     '''
 def getSplitterArrowsVisible():
-    '''public String getSplitterArrowsVisible()
+    '''returns String\n\n
+    getSplitterArrowsVisible()\n
     '''
 def setSplitterArrowsVisible():
-    '''public void setSplitterArrowsVisible(final String k)
+    '''returns None\n\n
+    setSplitterArrowsVisible(final String k)\n
     '''

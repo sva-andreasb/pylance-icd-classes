@@ -1,113 +1,150 @@
 SOURCE_DIRECTION = "String  \"SOURCE_KEY\""
 TARGET_DIRECTION = "String  \"TARGET_KEY\""
-def PmChgRuleResultRecord():
-    '''public PmChgRuleResultRecord()
+def ():
+    '''returns PmChgRuleResultRecord\n\n
+    ()\n
     '''
 def getBaseCI():
-    '''public String getBaseCI()
+    '''returns String\n\n
+    getBaseCI()\n
     '''
 def setBaseCI():
-    '''public void setBaseCI(final String baseCI)
+    '''returns None\n\n
+    setBaseCI(final String baseCI)\n
     '''
 def getSourceCI():
-    '''public String getSourceCI()
+    '''returns String\n\n
+    getSourceCI()\n
     '''
 def setSourceCI():
-    '''public void setSourceCI(final String sourceCI)
+    '''returns None\n\n
+    setSourceCI(final String sourceCI)\n
     '''
 def getTargetCI():
-    '''public String getTargetCI()
+    '''returns String\n\n
+    getTargetCI()\n
     '''
 def setTargetCI():
-    '''public void setTargetCI(final String targetCI)
+    '''returns None\n\n
+    setTargetCI(final String targetCI)\n
     '''
 def getPmchgRuleId():
-    '''public long getPmchgRuleId()
+    '''returns long\n\n
+    getPmchgRuleId()\n
     '''
 def setPmchgRuleId():
-    '''public void setPmchgRuleId(final long pmchgRuleId)
+    '''returns None\n\n
+    setPmchgRuleId(final long pmchgRuleId)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getImpactDirection():
-    '''public String getImpactDirection()
+    '''returns String\n\n
+    getImpactDirection()\n
     '''
 def setImpactDirection():
-    '''public void setImpactDirection(final String impactDirection)
+    '''returns None\n\n
+    setImpactDirection(final String impactDirection)\n
     '''
 def isRelationNumMatch():
-    '''public Boolean isRelationNumMatch()
+    '''returns Boolean\n\n
+    isRelationNumMatch()\n
     '''
 def setRelationNumMatch():
-    '''public void setRelationNumMatch(final Boolean relationNumMatch)
+    '''returns None\n\n
+    setRelationNumMatch(final Boolean relationNumMatch)\n
     '''
 def isSourceConditionMatch():
-    '''public Boolean isSourceConditionMatch()
+    '''returns Boolean\n\n
+    isSourceConditionMatch()\n
     '''
 def setSourceConditionMatch():
-    '''public void setSourceConditionMatch(final Boolean sourceConditionMatch)
+    '''returns None\n\n
+    setSourceConditionMatch(final Boolean sourceConditionMatch)\n
     '''
 def isTargetConditionMatch():
-    '''public Boolean isTargetConditionMatch()
+    '''returns Boolean\n\n
+    isTargetConditionMatch()\n
     '''
 def setTargetConditionMatch():
-    '''public void setTargetConditionMatch(final Boolean targetConditionMatch)
+    '''returns None\n\n
+    setTargetConditionMatch(final Boolean targetConditionMatch)\n
     '''
 def isDirectionMatch():
-    '''public Boolean isDirectionMatch()
+    '''returns Boolean\n\n
+    isDirectionMatch()\n
     '''
 def setDirectionMatch():
-    '''public void setDirectionMatch(final Boolean directionMatch)
+    '''returns None\n\n
+    setDirectionMatch(final Boolean directionMatch)\n
     '''
 def isImpacted():
-    '''public boolean isImpacted()
+    '''returns boolean\n\n
+    isImpacted()\n
     '''
 def setImpacted():
-    '''public void setImpacted(final boolean impacted)
+    '''returns None\n\n
+    setImpacted(final boolean impacted)\n
     '''
 def getImpactingCinum():
-    '''public String getImpactingCinum()
+    '''returns String\n\n
+    getImpactingCinum()\n
     '''
 def setImpactingCinum():
-    '''public void setImpactingCinum(final String cinum)
+    '''returns None\n\n
+    setImpactingCinum(final String cinum)\n
     '''
 def getImpactedCinum():
-    '''public String getImpactedCinum()
+    '''returns String\n\n
+    getImpactedCinum()\n
     '''
 def setImpactedCinum():
-    '''public void setImpactedCinum(final String cinum)
+    '''returns None\n\n
+    setImpactedCinum(final String cinum)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def getClassstructureId():
-    '''public String getClassstructureId()
+    '''returns String\n\n
+    getClassstructureId()\n
     '''
 def setClassstructureId():
-    '''public void setClassstructureId(final String classstructureId)
+    '''returns None\n\n
+    setClassstructureId(final String classstructureId)\n
     '''
 def isshowInIAView():
-    '''public boolean isshowInIAView()
+    '''returns boolean\n\n
+    isshowInIAView()\n
     '''
 def setshowInIAView():
-    '''public void setshowInIAView(final boolean showInIAView)
+    '''returns None\n\n
+    setshowInIAView(final boolean showInIAView)\n
     '''
 def samePath():
-    '''public boolean samePath(final PmChgRuleResultRecord record)
+    '''returns boolean\n\n
+    samePath(final PmChgRuleResultRecord record)\n
     '''
 def getRelationNum():
-    '''public String getRelationNum()
+    '''returns String\n\n
+    getRelationNum()\n
     '''
 def setRelationNum():
-    '''public void setRelationNum(final String relationNum)
+    '''returns None\n\n
+    setRelationNum(final String relationNum)\n
     '''
 def getDepth():
-    '''public int getDepth()
+    '''returns int\n\n
+    getDepth()\n
     '''
 def setDepth():
-    '''public void setDepth(final int depth)
+    '''returns None\n\n
+    setDepth(final int depth)\n
     '''

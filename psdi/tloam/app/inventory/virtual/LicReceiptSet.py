@@ -1,18 +1,24 @@
-def LicReceiptSet():
-    '''public LicReceiptSet(final MboServerInterface ms)
+def ():
+    '''returns LicReceiptSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def getMatRecSet():
-    '''public MboSetRemote getMatRecSet(final MboRemote poRemote)
+    '''returns MboSetRemote\n\n
+    getMatRecSet(final MboRemote poRemote)\n
     '''
 def createLicReceiptSet():
-    '''public void createLicReceiptSet(final MboSetRemote matRecSetRemote)
+    '''returns None\n\n
+    createLicReceiptSet(final MboSetRemote matRecSetRemote)\n
     '''
 def executeLicenseReceipts():
-    '''public void executeLicenseReceipts()
+    '''returns None\n\n
+    executeLicenseReceipts()\n
     '''
 def licrecptcreate():
-    '''public String licrecptcreate()
+    '''returns String\n\n
+    licrecptcreate()\n
     '''

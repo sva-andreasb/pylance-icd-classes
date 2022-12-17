@@ -1,6 +1,8 @@
 def selrfqline():
-    '''public int selrfqline()
+    '''returns int\n\n
+    selrfqline()\n
     '''
 def awardall():
-    '''public int awardall()
+    '''returns int\n\n
+    awardall()\n
     '''

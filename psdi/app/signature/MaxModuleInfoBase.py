@@ -1,12 +1,16 @@
 def getModuleName():
-    '''public String getModuleName()
+    '''returns String\n\n
+    getModuleName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getValue():
-    '''public String getValue(final String in)
+    '''returns String\n\n
+    getValue(final String in)\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

@@ -1,3 +1,4 @@
-def SKDToolBar():
-    '''public SKDToolBar()
+def ():
+    '''returns SKDToolBar\n\n
+    ()\n
     '''

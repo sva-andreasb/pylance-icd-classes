@@ -1,3 +1,4 @@
-def PlusPFldSACommodityGroup():
-    '''public PlusPFldSACommodityGroup(final MboValue mboValue)
+def ():
+    '''returns PlusPFldSACommodityGroup\n\n
+    (final MboValue mboValue)\n
     '''

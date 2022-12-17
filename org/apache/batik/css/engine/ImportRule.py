@@ -1,13 +1,17 @@
 TYPE = "short  2"
 def getType():
-    '''public short getType()
+    '''returns short\n\n
+    getType()\n
     '''
 def setURI():
-    '''public void setURI(final ParsedURL u)
+    '''returns None\n\n
+    setURI(final ParsedURL u)\n
     '''
 def getURI():
-    '''public ParsedURL getURI()
+    '''returns ParsedURL\n\n
+    getURI()\n
     '''
 def toString():
-    '''public String toString(final CSSEngine eng)
+    '''returns String\n\n
+    toString(final CSSEngine eng)\n
     '''

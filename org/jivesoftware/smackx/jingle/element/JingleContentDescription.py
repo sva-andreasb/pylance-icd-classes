@@ -1,10 +1,13 @@
 ELEMENT = "String  \"description\""
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getJingleContentDescriptionChildren():
-    '''public List<NamedElement> getJingleContentDescriptionChildren()
+    '''returns List<NamedElement>\n\n
+    getJingleContentDescriptionChildren()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

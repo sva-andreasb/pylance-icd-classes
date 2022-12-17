@@ -1,28 +1,37 @@
-def WrappedTextNodeOMDataSourceFromReader():
-    '''public WrappedTextNodeOMDataSourceFromReader(final QName wrapperElementName, final Reader reader)
+def ():
+    '''returns WrappedTextNodeOMDataSourceFromReader\n\n
+    (final QName wrapperElementName, final Reader reader)\n
     '''
 def serialize():
-    '''public void serialize(final Writer writer, final OMOutputFormat format)
-    public void serialize(final XMLStreamWriter xmlWriter)
+    '''returns None\n\n
+    serialize(final Writer writer, final OMOutputFormat format)\n
+    serialize(final XMLStreamWriter xmlWriter)\n
     '''
 def getReader():
-    '''public XMLStreamReader getReader()
+    '''returns XMLStreamReader\n\n
+    getReader()\n
     '''
 def getObject():
-    '''public Object getObject()
+    '''returns Object\n\n
+    getObject()\n
     '''
 def isDestructiveRead():
-    '''public boolean isDestructiveRead()
+    '''returns boolean\n\n
+    isDestructiveRead()\n
     '''
 def isDestructiveWrite():
-    '''public boolean isDestructiveWrite()
+    '''returns boolean\n\n
+    isDestructiveWrite()\n
     '''
 def getXMLBytes():
-    '''public byte[] getXMLBytes(final String encoding)
+    '''returns byte[]\n\n
+    getXMLBytes(final String encoding)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def copy():
-    '''public OMDataSourceExt copy()
+    '''returns OMDataSourceExt\n\n
+    copy()\n
     '''

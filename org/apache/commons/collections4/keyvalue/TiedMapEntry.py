@@ -1,21 +1,28 @@
-def TiedMapEntry():
-    '''public TiedMapEntry(final Map<K, V> map, final K key)
+def ():
+    '''returns TiedMapEntry\n\n
+    (final Map<K, V> map, final K key)\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

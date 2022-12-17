@@ -1,31 +1,41 @@
-def TypedVectorGloss():
-    '''public TypedVectorGloss()
-    public TypedVectorGloss(final StringGloss stringGloss, final Gloss[] array, final int n)
+def ():
+    '''returns TypedVectorGloss\n\n
+    ()\n
+    (final StringGloss stringGloss, final Gloss[] array, final int n)\n
     '''
 def numChildren():
-    '''public int numChildren()
+    '''returns int\n\n
+    numChildren()\n
     '''
 def getChild():
-    '''public Gloss getChild(final int n)
+    '''returns Gloss\n\n
+    getChild(final int n)\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def recalcPointers():
-    '''public void recalcPointers(final Gloss[] array)
+    '''returns None\n\n
+    recalcPointers(final Gloss[] array)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getGloss():
-    '''public Gloss getGloss(final String s)
+    '''returns Gloss\n\n
+    getGloss(final String s)\n
     '''

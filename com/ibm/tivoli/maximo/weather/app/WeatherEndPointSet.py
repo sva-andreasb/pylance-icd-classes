@@ -1,3 +1,4 @@
-def WeatherEndPointSet():
-    '''public WeatherEndPointSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherEndPointSet\n\n
+    (final MboServerInterface ms)\n
     '''

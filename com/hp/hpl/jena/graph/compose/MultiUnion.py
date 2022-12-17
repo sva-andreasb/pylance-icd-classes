@@ -1,35 +1,43 @@
-def MultiUnion():
-    '''public MultiUnion()
-    public MultiUnion(final Graph[] graphs)
-    public MultiUnion(final Iterator<Graph> graphs)
+def ():
+    '''returns MultiUnionStatisticsHandler\n\n
+    ()\n
+    (final Graph[] graphs)\n
+    (final Iterator<Graph> graphs)\n
+    (final MultiUnion mu)\n
     '''
 def getReifier():
-    '''public Reifier getReifier()
+    '''returns Reifier\n\n
+    getReifier()\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple t)
+    '''returns None\n\n
+    performDelete(final Triple t)\n
     '''
 def graphBaseContains():
-    '''public boolean graphBaseContains(final Triple t)
+    '''returns boolean\n\n
+    graphBaseContains(final Triple t)\n
     '''
 def queryHandler():
-    '''public QueryHandler queryHandler()
+    '''returns QueryHandler\n\n
+    queryHandler()\n
     '''
 def graphBaseFind():
-    '''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch t)
+    '''returns ExtendedIterator<Triple>\n\n
+    graphBaseFind(final TripleMatch t)\n
     '''
 def addGraph():
-    '''public void addGraph(final Graph graph)
-    '''
-def MultiUnionStatisticsHandler():
-    '''public MultiUnionStatisticsHandler(final MultiUnion mu)
+    '''returns None\n\n
+    addGraph(final Graph graph)\n
     '''
 def getStatistic():
-    '''public long getStatistic(final Node S, final Node P, final Node O)
+    '''returns long\n\n
+    getStatistic(final Node S, final Node P, final Node O)\n
     '''
 def getUnion():
-    '''public MultiUnion getUnion()
+    '''returns MultiUnion\n\n
+    getUnion()\n
     '''

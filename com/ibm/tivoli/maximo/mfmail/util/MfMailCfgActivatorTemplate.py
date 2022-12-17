@@ -1,27 +1,33 @@
-def MfMailCfgActivatorTemplate():
-    '''public MfMailCfgActivatorTemplate(final MfMailCfgTargetTemplate target)
+def ():
+    '''returns Tuple\n\n
+    (final MfMailCfgTargetTemplate target)\n
+    (final P p, final S s)\n
     '''
 def activate():
-    '''public void activate(final MfMailCfgRemote config)
+    '''returns None\n\n
+    activate(final MfMailCfgRemote config)\n
     '''
 def deactivate():
-    '''public void deactivate(final MfMailCfgRemote config)
+    '''returns None\n\n
+    deactivate(final MfMailCfgRemote config)\n
     '''
 def canDeactivate():
-    '''public void canDeactivate(final MfMailCfgRemote config)
+    '''returns None\n\n
+    canDeactivate(final MfMailCfgRemote config)\n
     '''
 def canActivate():
-    '''public void canActivate(final MfMailCfgRemote config)
+    '''returns None\n\n
+    canActivate(final MfMailCfgRemote config)\n
     '''
 def hasOtherActivatedCfg():
-    '''public boolean hasOtherActivatedCfg(final MfMailCfgRemote config)
-    '''
-def Tuple():
-    '''public Tuple(final P p, final S s)
+    '''returns boolean\n\n
+    hasOtherActivatedCfg(final MfMailCfgRemote config)\n
     '''
 def getPrimary():
-    '''public P getPrimary()
+    '''returns P\n\n
+    getPrimary()\n
     '''
 def getSecondary():
-    '''public S getSecondary()
+    '''returns S\n\n
+    getSecondary()\n
     '''

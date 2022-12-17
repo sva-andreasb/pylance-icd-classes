@@ -1,87 +1,116 @@
-def StartCenterAppBean():
-    '''public StartCenterAppBean()
+def ():
+    '''returns StartCenterAppBean\n\n
+    ()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def isSCAdmin():
-    '''public boolean isSCAdmin()
+    '''returns boolean\n\n
+    isSCAdmin()\n
     '''
 def getCurrentStartCenterUId():
-    '''public String getCurrentStartCenterUId()
+    '''returns String\n\n
+    getCurrentStartCenterUId()\n
     '''
 def getPageLeftLayoutPercent():
-    '''public String getPageLeftLayoutPercent()
+    '''returns String\n\n
+    getPageLeftLayoutPercent()\n
     '''
 def getPageRightLayoutPercent():
-    '''public String getPageRightLayoutPercent()
+    '''returns String\n\n
+    getPageRightLayoutPercent()\n
     '''
 def getAllowedPortlets():
-    '''public HashSet getAllowedPortlets()
+    '''returns HashSet\n\n
+    getAllowedPortlets()\n
     '''
 def getAllPortletsByColumns():
-    '''public TreeMap getAllPortletsByColumns()
+    '''returns TreeMap\n\n
+    getAllPortletsByColumns()\n
     '''
 def getBean():
-    '''public PortletBean getBean(final String portletId)
+    '''returns PortletBean\n\n
+    getBean(final String portletId)\n
     '''
 def getPageLayout():
-    '''public String getPageLayout()
+    '''returns String\n\n
+    getPageLayout()\n
     '''
 def canConfigureSC():
-    '''public boolean canConfigureSC()
+    '''returns boolean\n\n
+    canConfigureSC()\n
     '''
 def getStartCenters():
-    '''public Object[] getStartCenters()
+    '''returns Object[]\n\n
+    getStartCenters()\n
     '''
 def getGroupAssociationMessage():
-    '''public String getGroupAssociationMessage(final Hashtable messageInfo)
+    '''returns String\n\n
+    getGroupAssociationMessage(final Hashtable messageInfo)\n
     '''
 def getGroupAssociationMessageTemplateLink():
-    '''public String getGroupAssociationMessageTemplateLink(final Hashtable messageInfo)
+    '''returns String\n\n
+    getGroupAssociationMessageTemplateLink(final Hashtable messageInfo)\n
     '''
 def isTemplate():
-    '''public boolean isTemplate()
+    '''returns boolean\n\n
+    isTemplate()\n
     '''
 def savetemplate():
-    '''public int savetemplate()
+    '''returns int\n\n
+    savetemplate()\n
     '''
 def deletetemplate():
-    '''public int deletetemplate()
+    '''returns int\n\n
+    deletetemplate()\n
     '''
 def updatestartcenter():
-    '''public int updatestartcenter()
+    '''returns int\n\n
+    updatestartcenter()\n
     '''
 def cancelchanges():
-    '''public int cancelchanges()
+    '''returns int\n\n
+    cancelchanges()\n
     '''
 def createtemplate():
-    '''public int createtemplate()
+    '''returns int\n\n
+    createtemplate()\n
     '''
 def isEditingTemplates():
-    '''public boolean isEditingTemplates(final ArrayList startCenters)
+    '''returns boolean\n\n
+    isEditingTemplates(final ArrayList startCenters)\n
     '''
 def getUserStartCenter():
-    '''public void getUserStartCenter()
+    '''returns None\n\n
+    getUserStartCenter()\n
     '''
 def isPortletAppAllowed():
-    '''public boolean isPortletAppAllowed(final String portletId)
+    '''returns boolean\n\n
+    isPortletAppAllowed(final String portletId)\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
     '''
 def canUpdateSC():
-    '''public boolean canUpdateSC()
+    '''returns boolean\n\n
+    canUpdateSC()\n
     '''
 def showPortlet():
-    '''public boolean showPortlet(final String portletName)
+    '''returns boolean\n\n
+    showPortlet(final String portletName)\n
     '''
 def getPortletControlNameMap():
-    '''public Hashtable getPortletControlNameMap()
+    '''returns Hashtable\n\n
+    getPortletControlNameMap()\n
     '''
 def checkGroupAssociation():
-    '''public String checkGroupAssociation()
+    '''returns String\n\n
+    checkGroupAssociation()\n
     '''
 def getPortletLoadingSync():
-    '''public Object getPortletLoadingSync()
+    '''returns Object\n\n
+    getPortletLoadingSync()\n
     '''

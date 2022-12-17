@@ -1,26 +1,32 @@
-def Index3():
-    '''public Index3()
+def ():
+    '''returns Index3\n\n
+    ()\n
     '''
 def get():
-    '''public Index<K2, Index<K3, V>> get(final K1 key1)
-    public Index<K3, V> get(final K1 key1, final K2 key2)
-    public V get(final K1 key1, final K2 key2, final K3 key3)
+    '''returns V\n\n
+    get(final K1 key1, final K2 key2, final K3 key3)\n
     '''
 def put():
-    '''public boolean put(final K1 key1, final K2 key2, final K3 key3, final V value)
+    '''returns boolean\n\n
+    put(final K1 key1, final K2 key2, final K3 key3, final V value)\n
     '''
 def remove():
-    '''public boolean remove(final K1 key1, final K2 key2, final K3 key3)
+    '''returns boolean\n\n
+    remove(final K1 key1, final K2 key2, final K3 key3)\n
     '''
 def flatten():
-    '''public Iterator<V> flatten()
+    '''returns Iterator<V>\n\n
+    flatten()\n
     '''
 def keys():
-    '''public Set<K1> keys()
+    '''returns Set<K1>\n\n
+    keys()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''

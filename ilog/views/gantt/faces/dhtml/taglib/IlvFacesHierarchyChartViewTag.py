@@ -1,99 +1,132 @@
-def IlvFacesHierarchyChartViewTag():
-    '''public IlvFacesHierarchyChartViewTag()
+def ():
+    '''returns IlvFacesHierarchyChartViewTag\n\n
+    ()\n
     '''
 def doInitBody():
-    '''public void doInitBody()
+    '''returns None\n\n
+    doInitBody()\n
     '''
 def doAfterBody():
-    '''public int doAfterBody()
+    '''returns int\n\n
+    doAfterBody()\n
     '''
 def getChart():
-    '''public String getChart()
+    '''returns String\n\n
+    getChart()\n
     '''
 def setChart():
-    '''public void setChart(final String a)
+    '''returns None\n\n
+    setChart(final String a)\n
     '''
 def getStartVisibleInterval():
-    '''public String getStartVisibleInterval()
+    '''returns String\n\n
+    getStartVisibleInterval()\n
     '''
 def setStartVisibleInterval():
-    '''public void setStartVisibleInterval(final String b)
+    '''returns None\n\n
+    setStartVisibleInterval(final String b)\n
     '''
 def getEndVisibleInterval():
-    '''public String getEndVisibleInterval()
+    '''returns String\n\n
+    getEndVisibleInterval()\n
     '''
 def setEndVisibleInterval():
-    '''public void setEndVisibleInterval(final String c)
+    '''returns None\n\n
+    setEndVisibleInterval(final String c)\n
     '''
 def getTableInteractor():
-    '''public String getTableInteractor()
+    '''returns String\n\n
+    getTableInteractor()\n
     '''
 def setTableInteractor():
-    '''public void setTableInteractor(final String d)
+    '''returns None\n\n
+    setTableInteractor(final String d)\n
     '''
 def getTableInteractorId():
-    '''public String getTableInteractorId()
+    '''returns String\n\n
+    getTableInteractorId()\n
     '''
 def setTableInteractorId():
-    '''public void setTableInteractorId(final String e)
+    '''returns None\n\n
+    setTableInteractorId(final String e)\n
     '''
 def getSheetInteractor():
-    '''public String getSheetInteractor()
+    '''returns String\n\n
+    getSheetInteractor()\n
     '''
 def setSheetInteractor():
-    '''public void setSheetInteractor(final String f)
+    '''returns None\n\n
+    setSheetInteractor(final String f)\n
     '''
 def getSheetInteractorId():
-    '''public String getSheetInteractorId()
+    '''returns String\n\n
+    getSheetInteractorId()\n
     '''
 def setSheetInteractorId():
-    '''public void setSheetInteractorId(final String g)
+    '''returns None\n\n
+    setSheetInteractorId(final String g)\n
     '''
 def getZoomFactor():
-    '''public String getZoomFactor()
+    '''returns String\n\n
+    getZoomFactor()\n
     '''
 def setZoomFactor():
-    '''public void setZoomFactor(final String h)
+    '''returns None\n\n
+    setZoomFactor(final String h)\n
     '''
 def getDataSource():
-    '''public String getDataSource()
+    '''returns String\n\n
+    getDataSource()\n
     '''
 def setDataSource():
-    '''public void setDataSource(final String i)
+    '''returns None\n\n
+    setDataSource(final String i)\n
     '''
 def getDataSourceId():
-    '''public String getDataSourceId()
+    '''returns String\n\n
+    getDataSourceId()\n
     '''
 def setDataSourceId():
-    '''public void setDataSourceId(final String j)
+    '''returns None\n\n
+    setDataSourceId(final String j)\n
     '''
 def getDividerLocation():
-    '''public String getDividerLocation()
+    '''returns String\n\n
+    getDividerLocation()\n
     '''
 def setDividerLocation():
-    '''public void setDividerLocation(final String k)
+    '''returns None\n\n
+    setDividerLocation(final String k)\n
     '''
 def getProject():
-    '''public String getProject()
+    '''returns String\n\n
+    getProject()\n
     '''
 def setProject():
-    '''public void setProject(final String l)
+    '''returns None\n\n
+    setProject(final String l)\n
     '''
 def getStyleSheets():
-    '''public String getStyleSheets()
+    '''returns String\n\n
+    getStyleSheets()\n
     '''
 def setStyleSheets():
-    '''public void setStyleSheets(final String m)
+    '''returns None\n\n
+    setStyleSheets(final String m)\n
     '''
 def getStyleSheet():
-    '''public String getStyleSheet()
+    '''returns String\n\n
+    getStyleSheet()\n
     '''
 def setStyleSheet():
-    '''public void setStyleSheet(final String n)
+    '''returns None\n\n
+    setStyleSheet(final String n)\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def setData():
-    '''public void setData(final String o)
+    '''returns None\n\n
+    setData(final String o)\n
     '''

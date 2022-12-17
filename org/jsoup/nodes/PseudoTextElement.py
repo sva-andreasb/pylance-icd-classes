@@ -1,3 +1,4 @@
-def PseudoTextElement():
-    '''public PseudoTextElement(final Tag tag, final String baseUri, final Attributes attributes)
+def ():
+    '''returns PseudoTextElement\n\n
+    (final Tag tag, final String baseUri, final Attributes attributes)\n
     '''

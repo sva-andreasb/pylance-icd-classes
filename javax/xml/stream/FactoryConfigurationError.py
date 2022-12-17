@@ -1,13 +1,16 @@
-def FactoryConfigurationError():
-    '''public FactoryConfigurationError()
-    public FactoryConfigurationError(final Exception nested)
-    public FactoryConfigurationError(final Exception nested, final String message)
-    public FactoryConfigurationError(final String message)
-    public FactoryConfigurationError(final String message, final Exception nested)
+def ():
+    '''returns FactoryConfigurationError\n\n
+    ()\n
+    (final Exception nested)\n
+    (final Exception nested, final String message)\n
+    (final String message)\n
+    (final String message, final Exception nested)\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

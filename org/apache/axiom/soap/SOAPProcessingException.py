@@ -1,12 +1,15 @@
-def SOAPProcessingException():
-    '''public SOAPProcessingException(final String message)
-    public SOAPProcessingException(final Throwable cause)
-    public SOAPProcessingException(final String messageText, final String faultCode, final Throwable cause)
-    public SOAPProcessingException(final String messageText, final String faultCode)
+def ():
+    '''returns SOAPProcessingException\n\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String messageText, final String faultCode, final Throwable cause)\n
+    (final String messageText, final String faultCode)\n
     '''
 def getFaultCode():
-    '''public String getFaultCode()
+    '''returns String\n\n
+    getFaultCode()\n
     '''
 def setFaultCode():
-    '''public void setFaultCode(final String soapFaultCode)
+    '''returns None\n\n
+    setFaultCode(final String soapFaultCode)\n
     '''

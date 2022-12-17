@@ -1,87 +1,115 @@
-def FinancialService():
-    '''public FinancialService()
-    public FinancialService(final MXServer mxServer)
+def ():
+    '''returns FinancialService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def validateFullGLAccount():
-    '''public boolean validateFullGLAccount(final UserInfo user, final String account, final String orgID)
+    '''returns boolean\n\n
+    validateFullGLAccount(final UserInfo user, final String account, final String orgID)\n
     '''
 def validatePartialGLAccount():
-    '''public boolean validatePartialGLAccount(final UserInfo user, final String account, final String orgID)
+    '''returns boolean\n\n
+    validatePartialGLAccount(final UserInfo user, final String account, final String orgID)\n
     '''
 def getSpecificFinancialPeriod():
-    '''public String getSpecificFinancialPeriod(final UserInfo user, final Date transDate, final String orgID)
+    '''returns String\n\n
+    getSpecificFinancialPeriod(final UserInfo user, final Date transDate, final String orgID)\n
     '''
 def getActiveFinancialPeriod():
-    '''public String getActiveFinancialPeriod(final UserInfo user, final Date transDate, final String orgID)
-    public String getActiveFinancialPeriod(final UserInfo user, final Date transDate, final String orgID, final Boolean useNextPeriodIfInactive)
+    '''returns String\n\n
+    getActiveFinancialPeriod(final UserInfo user, final Date transDate, final String orgID)\n
+    getActiveFinancialPeriod(final UserInfo user, final Date transDate, final String orgID, final Boolean useNextPeriodIfInactive)\n
     '''
 def getAccountDefaults():
-    '''public String getAccountDefaults(final UserInfo user, final String defaultGroup, final String groupValue, final String orgID)
-    public String getAccountDefaults(final UserInfo user, final String defaultGroup, final String orgID)
+    '''returns String\n\n
+    getAccountDefaults(final UserInfo user, final String defaultGroup, final String groupValue, final String orgID)\n
+    getAccountDefaults(final UserInfo user, final String defaultGroup, final String orgID)\n
     '''
 def validateTax():
-    '''public boolean validateTax(final UserInfo user, final String typeCode, final String taxCode, final String orgID)
+    '''returns boolean\n\n
+    validateTax(final UserInfo user, final String typeCode, final String taxCode, final String orgID)\n
     '''
 def getTaxRate():
-    '''public double getTaxRate(final UserInfo user, final String typeCode, final String taxCode, final String orgID)
+    '''returns double\n\n
+    getTaxRate(final UserInfo user, final String typeCode, final String taxCode, final String orgID)\n
     '''
 def getAddTaxIndcr():
-    '''public int getAddTaxIndcr(final UserInfo user, final String typeCode, final String orgID, final MboRemote mbo)
+    '''returns int\n\n
+    getAddTaxIndcr(final UserInfo user, final String typeCode, final String orgID, final MboRemote mbo)\n
     '''
 def getIncludeTax():
-    '''public boolean[] getIncludeTax(final UserInfo user, final String typeCode, final String orgID, final MboRemote mbo)
+    '''returns boolean[]\n\n
+    getIncludeTax(final UserInfo user, final String typeCode, final String orgID, final MboRemote mbo)\n
     '''
 def getTaxTypeSet():
-    '''public MboSetRemote getTaxTypeSet(final UserInfo user, final String typeCode, final String orgID, final MboRemote mbo)
+    '''returns MboSetRemote\n\n
+    getTaxTypeSet(final UserInfo user, final String typeCode, final String orgID, final MboRemote mbo)\n
     '''
 def getTaxSet():
-    '''public MboSetRemote getTaxSet(final UserInfo user, final String typeCode, final String taxCode, final String orgID, final MboRemote mbo)
+    '''returns MboSetRemote\n\n
+    getTaxSet(final UserInfo user, final String typeCode, final String taxCode, final String orgID, final MboRemote mbo)\n
     '''
 def isFullySpecified():
-    '''public boolean isFullySpecified(final UserInfo user, final String account, final String orgID)
+    '''returns boolean\n\n
+    isFullySpecified(final UserInfo user, final String account, final String orgID)\n
     '''
 def update():
-    '''public void update(final UserInfo user, final String updateDBCriteria, final String orgID)
+    '''returns None\n\n
+    update(final UserInfo user, final String updateDBCriteria, final String orgID)\n
     '''
 def glRequiredForTrans():
-    '''public boolean glRequiredForTrans(final UserInfo user, final String orgID)
+    '''returns boolean\n\n
+    glRequiredForTrans(final UserInfo user, final String orgID)\n
     '''
 def setGLDefaultDescription():
-    '''public void setGLDefaultDescription(final MboRemote chartOfAccount)
+    '''returns None\n\n
+    setGLDefaultDescription(final MboRemote chartOfAccount)\n
     '''
 def getActiveFinancialPeriodInfo():
-    '''public Vector getActiveFinancialPeriodInfo(final UserInfo user, final Date transDate, final String orgID)
+    '''returns Vector\n\n
+    getActiveFinancialPeriodInfo(final UserInfo user, final Date transDate, final String orgID)\n
     '''
 def validateFinancialPeriod():
-    '''public Boolean validateFinancialPeriod(final UserInfo user, final Date transDate, final String orgID)
+    '''returns Boolean\n\n
+    validateFinancialPeriod(final UserInfo user, final Date transDate, final String orgID)\n
     '''
 def basicAccountSetup():
-    '''public void basicAccountSetup(final String orgid, final String compname, final String compvalue, final String comptext, final UserInfo userInfo)
+    '''returns None\n\n
+    basicAccountSetup(final String orgid, final String compname, final String compvalue, final String comptext, final UserInfo userInfo)\n
     '''
 def disableGLValidation():
-    '''public void disableGLValidation(final String orgid, final UserInfo userInfo)
+    '''returns None\n\n
+    disableGLValidation(final String orgid, final UserInfo userInfo)\n
     '''
 def resetGLOrder():
-    '''public void resetGLOrder(final String orgid, final UserInfo userInfo)
+    '''returns None\n\n
+    resetGLOrder(final String orgid, final UserInfo userInfo)\n
     '''
 def advancedAccountSetup():
-    '''public void advancedAccountSetup(final Map<String, Object> components, final String compvalue, final UserInfo userInfo)
+    '''returns None\n\n
+    advancedAccountSetup(final Map<String, Object> components, final String compvalue, final UserInfo userInfo)\n
     '''
 def componenetsSetup():
-    '''public void componenetsSetup(final Map<String, Object> components, final String orgid, final String compvalue, final MXTransaction trans, final UserInfo userInfo)
+    '''returns None\n\n
+    componenetsSetup(final Map<String, Object> components, final String orgid, final String compvalue, final MXTransaction trans, final UserInfo userInfo)\n
     '''
 def setupFinancialPeriods():
-    '''public void setupFinancialPeriods(final String orgid, final String period, final String startmonth, final int numyears, final boolean disableperiods, final UserInfo userInfo)
+    '''returns None\n\n
+    setupFinancialPeriods(final String orgid, final String period, final String startmonth, final int numyears, final boolean disableperiods, final UserInfo userInfo)\n
     '''
 def setupFinancialPeriodsFull():
-    '''public void setupFinancialPeriodsFull(final String orgid, String period, String startmonth, final int numyears, final boolean disableperiods, final UserInfo userInfo, final boolean updateApptracker)
+    '''returns None\n\n
+    setupFinancialPeriodsFull(final String orgid, String period, String startmonth, final int numyears, final boolean disableperiods, final UserInfo userInfo, final boolean updateApptracker)\n
     '''
 def skipSetup():
-    '''public void skipSetup(final UserInfo userInfo)
+    '''returns None\n\n
+    skipSetup(final UserInfo userInfo)\n
     '''
 def updateApptracker():
-    '''public void updateApptracker(final JSONArray ja, final boolean complete, final UserInfo userInfo, MXTransaction trans)
+    '''returns None\n\n
+    updateApptracker(final JSONArray ja, final boolean complete, final UserInfo userInfo, MXTransaction trans)\n
     '''
 def addCOA():
-    '''public void addCOA(final String orgid, final String compvalue, final String comptext, final UserInfo userInfo, final MXTransaction trans)
+    '''returns None\n\n
+    addCOA(final String orgid, final String compvalue, final String comptext, final UserInfo userInfo, final MXTransaction trans)\n
     '''

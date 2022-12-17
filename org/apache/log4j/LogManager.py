@@ -2,61 +2,57 @@ DEFAULT_CONFIGURATION_FILE = "String  \"log4j.properties\""
 DEFAULT_CONFIGURATION_KEY = "String  \"log4j.configuration\""
 CONFIGURATOR_CLASS_KEY = "String  \"log4j.configuratorClass\""
 DEFAULT_INIT_OVERRIDE_KEY = "String  \"log4j.defaultInitOverride\""
-def getRootLogger():
-    '''public static Logger getRootLogger()
-    public Logger getRootLogger()
-    '''
-def getLogger():
-    '''public static Logger getLogger(final String name)
-    public static Logger getLogger(final Class<?> clazz)
-    public static Logger getLogger(final String name, final LoggerFactory factory)
-    public Logger getLogger(final String name)
-    public Logger getLogger(final String name, final LoggerFactory factory)
-    '''
-def exists():
-    '''public static Logger exists(final String name)
-    public Logger exists(final String name)
-    '''
-def getCurrentLoggers():
-    '''public static Enumeration getCurrentLoggers()
-    public Enumeration getCurrentLoggers()
-    '''
-def shutdown():
-    '''public static void shutdown()
-    public void shutdown()
-    '''
-def resetConfiguration():
-    '''public static void resetConfiguration()
-    public void resetConfiguration()
-    '''
-def setRepositorySelector():
-    '''public static void setRepositorySelector(final RepositorySelector selector, final Object guard)
-    '''
-def getLoggerRepository():
-    '''public static LoggerRepository getLoggerRepository()
-    '''
 def addHierarchyEventListener():
-    '''public void addHierarchyEventListener(final HierarchyEventListener listener)
+    '''returns None\n\n
+    addHierarchyEventListener(final HierarchyEventListener listener)\n
     '''
 def isDisabled():
-    '''public boolean isDisabled(final int level)
+    '''returns boolean\n\n
+    isDisabled(final int level)\n
     '''
 def setThreshold():
-    '''public void setThreshold(final Level level)
-    public void setThreshold(final String val)
+    '''returns None\n\n
+    setThreshold(final Level level)\n
+    setThreshold(final String val)\n
     '''
 def emitNoAppenderWarning():
-    '''public void emitNoAppenderWarning(final Category cat)
+    '''returns None\n\n
+    emitNoAppenderWarning(final Category cat)\n
     '''
 def getThreshold():
-    '''public Level getThreshold()
+    '''returns Level\n\n
+    getThreshold()\n
+    '''
+def getLogger():
+    '''returns Logger\n\n
+    getLogger(final String name)\n
+    getLogger(final String name, final LoggerFactory factory)\n
+    '''
+def getRootLogger():
+    '''returns Logger\n\n
+    getRootLogger()\n
+    '''
+def exists():
+    '''returns Logger\n\n
+    exists(final String name)\n
+    '''
+def shutdown():
+    '''returns None\n\n
+    shutdown()\n
+    '''
+def getCurrentLoggers():
+    '''returns Enumeration\n\n
+    getCurrentLoggers()\n
     '''
 def getCurrentCategories():
-    '''public Enumeration getCurrentCategories()
+    '''returns Enumeration\n\n
+    getCurrentCategories()\n
     '''
 def fireAddAppenderEvent():
-    '''public void fireAddAppenderEvent(final Category logger, final Appender appender)
+    '''returns None\n\n
+    fireAddAppenderEvent(final Category logger, final Appender appender)\n
     '''
-def getContext():
-    '''public static LoggerContext getContext()
+def resetConfiguration():
+    '''returns None\n\n
+    resetConfiguration()\n
     '''

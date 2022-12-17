@@ -1,30 +1,40 @@
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def getArgType():
-    '''public ArgType getArgType()
+    '''returns ArgType\n\n
+    getArgType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def hasNumericValue():
-    '''public boolean hasNumericValue()
+    '''returns boolean\n\n
+    hasNumericValue()\n
     '''

@@ -1,3 +1,4 @@
-def PdfNull():
-    '''public PdfNull()
+def ():
+    '''returns PdfNull\n\n
+    ()\n
     '''

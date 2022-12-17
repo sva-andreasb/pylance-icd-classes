@@ -310,15 +310,7 @@ SYMBOLS_FOR_LEGACY_COMPUTING_ID = "int  306"
 TANGUT_SUPPLEMENT_ID = "int  307"
 YEZIDI_ID = "int  308"
 COUNT = "int  309"
-def getInstance():
-    '''public static UnicodeBlock getInstance(final int id)
-    '''
-def of():
-    '''public static UnicodeBlock of(final int ch)
-    '''
-def forName():
-    '''public static final UnicodeBlock forName(final String blockName)
-    '''
 def getID():
-    '''public int getID()
+    '''returns int\n\n
+    getID()\n
     '''

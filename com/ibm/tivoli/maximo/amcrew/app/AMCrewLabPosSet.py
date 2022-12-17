@@ -1,10 +1,13 @@
-def AMCrewLabPosSet():
-    '''public AMCrewLabPosSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewLabPosSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def updateRequirementStatus():
-    '''public void updateRequirementStatus(final MboRemote laborPos)
-    public void updateRequirementStatus()
+    '''returns None\n\n
+    updateRequirementStatus(final MboRemote laborPos)\n
+    updateRequirementStatus()\n
     '''
 def findByKeyValue():
-    '''public MboRemote findByKeyValue(final String keyName, final String keyValue)
+    '''returns MboRemote\n\n
+    findByKeyValue(final String keyName, final String keyValue)\n
     '''

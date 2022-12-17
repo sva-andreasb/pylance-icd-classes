@@ -1,137 +1,156 @@
 FORMAT_NAME_JSON = "String  \"JSON\""
-def JsonFactory():
-    '''public JsonFactory()
-    public JsonFactory(final ObjectCodec oc)
+def ():
+    '''returns JsonFactory\n\n
+    ()\n
+    (final ObjectCodec oc)\n
     '''
 def copy():
-    '''public JsonFactory copy()
+    '''returns JsonFactory\n\n
+    copy()\n
     '''
 def requiresPropertyOrdering():
-    '''public boolean requiresPropertyOrdering()
+    '''returns boolean\n\n
+    requiresPropertyOrdering()\n
     '''
 def canHandleBinaryNatively():
-    '''public boolean canHandleBinaryNatively()
+    '''returns boolean\n\n
+    canHandleBinaryNatively()\n
     '''
 def canUseCharArrays():
-    '''public boolean canUseCharArrays()
+    '''returns boolean\n\n
+    canUseCharArrays()\n
     '''
 def canParseAsync():
-    '''public boolean canParseAsync()
+    '''returns boolean\n\n
+    canParseAsync()\n
     '''
 def canUseSchema():
-    '''public boolean canUseSchema(final FormatSchema schema)
+    '''returns boolean\n\n
+    canUseSchema(final FormatSchema schema)\n
     '''
 def getFormatName():
-    '''public String getFormatName()
+    '''returns String\n\n
+    getFormatName()\n
     '''
 def hasFormat():
-    '''public MatchStrength hasFormat(final InputAccessor acc)
+    '''returns MatchStrength\n\n
+    hasFormat(final InputAccessor acc)\n
     '''
 def requiresCustomCodec():
-    '''public boolean requiresCustomCodec()
+    '''returns boolean\n\n
+    requiresCustomCodec()\n
     '''
 def version():
-    '''public Version version()
-    '''
-def configure():
-    '''public final JsonFactory configure(final Feature f, final boolean state)
-    public final JsonFactory configure(final JsonParser.Feature f, final boolean state)
-    public final JsonFactory configure(final JsonGenerator.Feature f, final boolean state)
+    '''returns Version\n\n
+    version()\n
     '''
 def enable():
-    '''public JsonFactory enable(final Feature f)
-    public JsonFactory enable(final JsonParser.Feature f)
-    public JsonFactory enable(final JsonGenerator.Feature f)
+    '''returns JsonFactory\n\n
+    enable(final Feature f)\n
+    enable(final JsonParser.Feature f)\n
+    enable(final JsonGenerator.Feature f)\n
     '''
 def disable():
-    '''public JsonFactory disable(final Feature f)
-    public JsonFactory disable(final JsonParser.Feature f)
-    public JsonFactory disable(final JsonGenerator.Feature f)
-    '''
-def isEnabled():
-    '''public final boolean isEnabled(final Feature f)
-    public final boolean isEnabled(final JsonParser.Feature f)
-    public final boolean isEnabled(final JsonGenerator.Feature f)
+    '''returns JsonFactory\n\n
+    disable(final Feature f)\n
+    disable(final JsonParser.Feature f)\n
+    disable(final JsonGenerator.Feature f)\n
     '''
 def getInputDecorator():
-    '''public InputDecorator getInputDecorator()
+    '''returns InputDecorator\n\n
+    getInputDecorator()\n
     '''
 def setInputDecorator():
-    '''public JsonFactory setInputDecorator(final InputDecorator d)
+    '''returns JsonFactory\n\n
+    setInputDecorator(final InputDecorator d)\n
     '''
 def getCharacterEscapes():
-    '''public CharacterEscapes getCharacterEscapes()
+    '''returns CharacterEscapes\n\n
+    getCharacterEscapes()\n
     '''
 def setCharacterEscapes():
-    '''public JsonFactory setCharacterEscapes(final CharacterEscapes esc)
+    '''returns JsonFactory\n\n
+    setCharacterEscapes(final CharacterEscapes esc)\n
     '''
 def getOutputDecorator():
-    '''public OutputDecorator getOutputDecorator()
+    '''returns OutputDecorator\n\n
+    getOutputDecorator()\n
     '''
 def setOutputDecorator():
-    '''public JsonFactory setOutputDecorator(final OutputDecorator d)
+    '''returns JsonFactory\n\n
+    setOutputDecorator(final OutputDecorator d)\n
     '''
 def setRootValueSeparator():
-    '''public JsonFactory setRootValueSeparator(final String sep)
+    '''returns JsonFactory\n\n
+    setRootValueSeparator(final String sep)\n
     '''
 def getRootValueSeparator():
-    '''public String getRootValueSeparator()
+    '''returns String\n\n
+    getRootValueSeparator()\n
     '''
 def setCodec():
-    '''public JsonFactory setCodec(final ObjectCodec oc)
+    '''returns JsonFactory\n\n
+    setCodec(final ObjectCodec oc)\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
     '''
 def createParser():
-    '''public JsonParser createParser(final File f)
-    public JsonParser createParser(final URL url)
-    public JsonParser createParser(final InputStream in)
-    public JsonParser createParser(final Reader r)
-    public JsonParser createParser(final byte[] data)
-    public JsonParser createParser(final byte[] data, final int offset, final int len)
-    public JsonParser createParser(final String content)
-    public JsonParser createParser(final char[] content)
-    public JsonParser createParser(final char[] content, final int offset, final int len)
-    public JsonParser createParser(final DataInput in)
+    '''returns JsonParser\n\n
+    createParser(final File f)\n
+    createParser(final URL url)\n
+    createParser(final InputStream in)\n
+    createParser(final Reader r)\n
+    createParser(final byte[] data)\n
+    createParser(final byte[] data, final int offset, final int len)\n
+    createParser(final String content)\n
+    createParser(final char[] content)\n
+    createParser(final char[] content, final int offset, final int len)\n
+    createParser(final DataInput in)\n
     '''
 def createNonBlockingByteArrayParser():
-    '''public JsonParser createNonBlockingByteArrayParser()
+    '''returns JsonParser\n\n
+    createNonBlockingByteArrayParser()\n
     '''
 def createJsonParser():
-    '''public JsonParser createJsonParser(final File f)
-    public JsonParser createJsonParser(final URL url)
-    public JsonParser createJsonParser(final InputStream in)
-    public JsonParser createJsonParser(final Reader r)
-    public JsonParser createJsonParser(final byte[] data)
-    public JsonParser createJsonParser(final byte[] data, final int offset, final int len)
-    public JsonParser createJsonParser(final String content)
+    '''returns JsonParser\n\n
+    createJsonParser(final File f)\n
+    createJsonParser(final URL url)\n
+    createJsonParser(final InputStream in)\n
+    createJsonParser(final Reader r)\n
+    createJsonParser(final byte[] data)\n
+    createJsonParser(final byte[] data, final int offset, final int len)\n
+    createJsonParser(final String content)\n
     '''
 def createGenerator():
-    '''public JsonGenerator createGenerator(final OutputStream out, final JsonEncoding enc)
-    public JsonGenerator createGenerator(final OutputStream out)
-    public JsonGenerator createGenerator(final Writer w)
-    public JsonGenerator createGenerator(final File f, final JsonEncoding enc)
-    public JsonGenerator createGenerator(final DataOutput out, final JsonEncoding enc)
-    public JsonGenerator createGenerator(final DataOutput out)
+    '''returns JsonGenerator\n\n
+    createGenerator(final OutputStream out, final JsonEncoding enc)\n
+    createGenerator(final OutputStream out)\n
+    createGenerator(final Writer w)\n
+    createGenerator(final File f, final JsonEncoding enc)\n
+    createGenerator(final DataOutput out, final JsonEncoding enc)\n
+    createGenerator(final DataOutput out)\n
     '''
 def createJsonGenerator():
-    '''public JsonGenerator createJsonGenerator(final OutputStream out, final JsonEncoding enc)
-    public JsonGenerator createJsonGenerator(final Writer out)
-    public JsonGenerator createJsonGenerator(final OutputStream out)
+    '''returns JsonGenerator\n\n
+    createJsonGenerator(final OutputStream out, final JsonEncoding enc)\n
+    createJsonGenerator(final Writer out)\n
+    createJsonGenerator(final OutputStream out)\n
     '''
 def _getBufferRecycler():
-    '''public BufferRecycler _getBufferRecycler()
-    '''
-def collectDefaults():
-    '''public static int collectDefaults()
+    '''returns BufferRecycler\n\n
+    _getBufferRecycler()\n
     '''
 def enabledByDefault():
-    '''public boolean enabledByDefault()
+    '''returns boolean\n\n
+    enabledByDefault()\n
     '''
 def enabledIn():
-    '''public boolean enabledIn(final int flags)
+    '''returns boolean\n\n
+    enabledIn(final int flags)\n
     '''
 def getMask():
-    '''public int getMask()
+    '''returns int\n\n
+    getMask()\n
     '''

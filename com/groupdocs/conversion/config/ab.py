@@ -1,49 +1,55 @@
-def ab():
-    '''public ab(final IConfig config, final InputStream inputStream, final String s)
+def ():
+    '''returns ab\n\n
+    (final IConfig config, final InputStream inputStream, final String s)\n
     '''
 def a():
-    '''public String a(final ImageSaveOptions imageSaveOptions)
-    public List<String> a(final ImageSaveOptions imageSaveOptions)
-    public void a(final int index, final InputStream input)
-    public InputStream a(final ImageSaveOptions imageSaveOptions)
-    public void a(final int index, final InputStream input)
-    public String a(final PdfSaveOptions options)
-    public String a(final Integer n, final PdfSaveOptions options)
-    public List<String> a(final PdfSaveOptions options)
-    public void a(final int index, final InputStream input)
-    public InputStream a(final PdfSaveOptions options)
-    public InputStream a(final Integer n, final PdfSaveOptions options)
-    public void a(final int index, final InputStream input)
-    public String a(final HtmlSaveOptions saveOptions)
-    public String a(final Integer n, final HtmlSaveOptions saveOptions)
-    public List<String> a(final HtmlSaveOptions saveOptions)
-    public void a(final int index, final Y y)
-    public HtmlResult a(final HtmlSaveOptions saveOptions)
-    public HtmlResult a(final Integer n, final HtmlSaveOptions saveOptions)
-    public void a(final int index, final Y y)
+    '''returns None\n\n
+    a(final ImageSaveOptions imageSaveOptions)\n
+    a(final ImageSaveOptions imageSaveOptions)\n
+    a(final int index, final InputStream input)\n
+    a(final ImageSaveOptions imageSaveOptions)\n
+    a(final int index, final InputStream input)\n
+    a(final PdfSaveOptions options)\n
+    a(final Integer n, final PdfSaveOptions options)\n
+    a(final PdfSaveOptions options)\n
+    a(final int index, final InputStream input)\n
+    a(final PdfSaveOptions options)\n
+    a(final Integer n, final PdfSaveOptions options)\n
+    a(final int index, final InputStream input)\n
+    a(final HtmlSaveOptions saveOptions)\n
+    a(final Integer n, final HtmlSaveOptions saveOptions)\n
+    a(final HtmlSaveOptions saveOptions)\n
+    a(final int index, final Y y)\n
+    a(final HtmlSaveOptions saveOptions)\n
+    a(final Integer n, final HtmlSaveOptions saveOptions)\n
+    a(final int index, final Y y)\n
     '''
 def b():
-    '''public List<InputStream> b(final ImageSaveOptions imageSaveOptions)
-    public List<InputStream> b(final PdfSaveOptions options)
-    public List<HtmlResult> b(final HtmlSaveOptions saveOptions)
+    '''returns List<HtmlResult>\n\n
+    b(final ImageSaveOptions imageSaveOptions)\n
+    b(final PdfSaveOptions options)\n
+    b(final HtmlSaveOptions saveOptions)\n
     '''
 def use():
-    '''public void use(final String url, final byte[] data)
-    public void use(final String url, final byte[] data)
-    public void use(final String url, final byte[] data)
-    public void use(final String url, final byte[] data)
-    public void use(final String url, final byte[] data)
-    public void use(final String url, final byte[] data)
+    '''returns None\n\n
+    use(final String url, final byte[] data)\n
+    use(final String url, final byte[] data)\n
+    use(final String url, final byte[] data)\n
+    use(final String url, final byte[] data)\n
+    use(final String url, final byte[] data)\n
+    use(final String url, final byte[] data)\n
     '''
 def url():
-    '''public String url(final String defaultPath)
-    public String url(final String defaultPath)
-    public String url(final String defaultPath)
-    public String url(final String defaultPath)
-    public String url(final String defaultPath)
-    public String url(final String defaultPath)
+    '''returns String\n\n
+    url(final String defaultPath)\n
+    url(final String defaultPath)\n
+    url(final String defaultPath)\n
+    url(final String defaultPath)\n
+    url(final String defaultPath)\n
+    url(final String defaultPath)\n
     '''
 def callback():
-    '''public IResourceCallback callback()
-    public IResourceCallback callback()
+    '''returns IResourceCallback\n\n
+    callback()\n
+    callback()\n
     '''

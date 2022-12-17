@@ -1,9 +1,12 @@
-def FldGLNavTempSiteID():
-    '''public FldGLNavTempSiteID(final MboValue mbv)
+def ():
+    '''returns FldGLNavTempSiteID\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''

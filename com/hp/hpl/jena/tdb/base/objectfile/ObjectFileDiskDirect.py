@@ -1,42 +1,44 @@
 compression = "boolean  false"
-def ObjectFileDiskDirect():
-    '''public ObjectFileDiskDirect(final String filename)
+def ():
+    '''returns ObjectIterator\n\n
+    (final String filename)\n
+    (final long start, final long finish)\n
     '''
 def write():
-    '''public long write(final ByteBuffer bb)
+    '''returns long\n\n
+    write(final ByteBuffer bb)\n
     '''
 def read():
-    '''public ByteBuffer read(final long loc)
+    '''returns ByteBuffer\n\n
+    read(final long loc)\n
     '''
 def length():
-    '''public long length()
-    '''
-def all():
-    '''public Iterator<Pair<Long, ByteBuffer>> all()
+    '''returns long\n\n
+    length()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def dump():
-    '''public void dump()
-    public void dump(final DumpHandler handler)
+    '''returns None\n\n
+    dump()\n
+    dump(final DumpHandler handler)\n
     '''
 def handle():
-    '''public void handle(final long fileIdx, final String str)
-    '''
-def ObjectIterator():
-    '''public ObjectIterator(final long start, final long finish)
+    '''returns None\n\n
+    handle(final long fileIdx, final String str)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    '''
-def next():
-    '''public Pair<Long, ByteBuffer> next()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

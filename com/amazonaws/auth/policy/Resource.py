@@ -1,6 +1,8 @@
-def Resource():
-    '''public Resource(final String resource)
+def ():
+    '''returns Resource\n\n
+    (final String resource)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''

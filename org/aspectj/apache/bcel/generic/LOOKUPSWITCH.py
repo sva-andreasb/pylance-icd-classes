@@ -1,7 +1,9 @@
-def LOOKUPSWITCH():
-    '''public LOOKUPSWITCH(final int[] match, final InstructionHandle[] targets, final InstructionHandle target)
-    public LOOKUPSWITCH(final ByteSequence bytes)
+def ():
+    '''returns LOOKUPSWITCH\n\n
+    (final int[] match, final InstructionHandle[] targets, final InstructionHandle target)\n
+    (final ByteSequence bytes)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''

@@ -1,12 +1,16 @@
 def getGroupName():
-    '''public String getGroupName()
+    '''returns String\n\n
+    getGroupName()\n
     '''
 def setGroupName():
-    '''public void setGroupName(final String value)
+    '''returns None\n\n
+    setGroupName(final String value)\n
     '''
 def getComparison():
-    '''public String getComparison()
+    '''returns String\n\n
+    getComparison()\n
     '''
 def setComparison():
-    '''public void setComparison(final String value)
+    '''returns None\n\n
+    setComparison(final String value)\n
     '''

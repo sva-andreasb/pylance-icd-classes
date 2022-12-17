@@ -1,21 +1,28 @@
-def InvalidNavigatorViewException():
-    '''public InvalidNavigatorViewException(final String message, final HelpSet hs, final String name, final String label, final Locale locale, final String className, final Hashtable params)
+def ():
+    '''returns InvalidNavigatorViewException\n\n
+    (final String message, final HelpSet hs, final String name, final String label, final Locale locale, final String className, final Hashtable params)\n
     '''
 def getHelpSet():
-    '''public HelpSet getHelpSet()
+    '''returns HelpSet\n\n
+    getHelpSet()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getParams():
-    '''public Hashtable getParams()
+    '''returns Hashtable\n\n
+    getParams()\n
     '''

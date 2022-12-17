@@ -1,19 +1,25 @@
-def FldMeasure():
-    '''public FldMeasure(final MboValue mbv)
-    public FldMeasure(final MboValue mbv, final Hashtable<String, String> attrsStartEndMatch, final Hashtable<String, String> attrsMeasureAndOffsetMatch, final Hashtable<String, String> attrsMeasureAndOffsetLabels, final Hashtable<String, String> attrsMeasureAndFeatureId, final Hashtable<String, String> attrsMeasureAndMeasureUnitIdMatch, final Hashtable<String, String> attrsMeasureAndBaseMeasureMatch, final Hashtable<String, String> attrsMeasureAndBaseMeasureIdMatch)
+def ():
+    '''returns FldMeasure\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final Hashtable<String, String> attrsStartEndMatch, final Hashtable<String, String> attrsMeasureAndOffsetMatch, final Hashtable<String, String> attrsMeasureAndOffsetLabels, final Hashtable<String, String> attrsMeasureAndFeatureId, final Hashtable<String, String> attrsMeasureAndMeasureUnitIdMatch, final Hashtable<String, String> attrsMeasureAndBaseMeasureMatch, final Hashtable<String, String> attrsMeasureAndBaseMeasureIdMatch)\n
     '''
 def setBoundaryViolationMsgs():
-    '''public void setBoundaryViolationMsgs(final Hashtable<String, String> boundViolationErrMsgs)
+    '''returns None\n\n
+    setBoundaryViolationMsgs(final Hashtable<String, String> boundViolationErrMsgs)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setAsset():
-    '''public void setAsset(final MboRemote asset)
+    '''returns None\n\n
+    setAsset(final MboRemote asset)\n
     '''
 def getAssetFeatureForFeatureTypeRecalibration():
-    '''public MboRemote getAssetFeatureForFeatureTypeRecalibration()
+    '''returns MboRemote\n\n
+    getAssetFeatureForFeatureTypeRecalibration()\n
     '''

@@ -1,3 +1,4 @@
-def AssetWorkZoneSet():
-    '''public AssetWorkZoneSet(final MboServerInterface ms)
+def ():
+    '''returns AssetWorkZoneSet\n\n
+    (final MboServerInterface ms)\n
     '''

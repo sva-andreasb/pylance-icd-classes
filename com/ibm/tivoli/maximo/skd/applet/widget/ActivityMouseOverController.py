@@ -1,6 +1,8 @@
-def ActivityMouseOverController():
-    '''public ActivityMouseOverController(final IlvGanttSheet sheet, final ActivityListener listener)
+def ():
+    '''returns ActivityMouseOverController\n\n
+    (final IlvGanttSheet sheet, final ActivityListener listener)\n
     '''
 def mouseMoved():
-    '''public void mouseMoved(final MouseEvent e)
+    '''returns None\n\n
+    mouseMoved(final MouseEvent e)\n
     '''

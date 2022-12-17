@@ -1,19 +1,25 @@
-def JSONServiceProvider():
-    '''public JSONServiceProvider(final UserInfo userInfo)
-    public JSONServiceProvider(final UserInfo userInfo, final boolean queryList, final String searchTerm)
+def ():
+    '''returns JSONServiceProvider\n\n
+    (final UserInfo userInfo)\n
+    (final UserInfo userInfo, final boolean queryList, final String searchTerm)\n
     '''
 def loadOSDescriptions():
-    '''public void loadOSDescriptions()
+    '''returns None\n\n
+    loadOSDescriptions()\n
     '''
 def generateProviderCollection():
-    '''public OslcResourceResponse generateProviderCollection()
+    '''returns OslcResourceResponse\n\n
+    generateProviderCollection()\n
     '''
 def setDescription():
-    '''public void setDescription(final String osName, final JSONObject joProvider)
+    '''returns None\n\n
+    setDescription(final String osName, final JSONObject joProvider)\n
     '''
 def generateOSApi():
-    '''public OslcResourceResponse generateOSApi(final String osName, final OslcRequest oslcRequest)
+    '''returns OslcResourceResponse\n\n
+    generateOSApi(final String osName, final OslcRequest oslcRequest)\n
     '''
 def createQueries():
-    '''public void createQueries(final JSONObject joProvider, final OslcResourceInfo resourceInfo, final OslcRequest oslcRequest)
+    '''returns None\n\n
+    createQueries(final JSONObject joProvider, final OslcResourceInfo resourceInfo, final OslcRequest oslcRequest)\n
     '''

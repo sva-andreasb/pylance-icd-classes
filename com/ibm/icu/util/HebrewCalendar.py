@@ -11,26 +11,27 @@ SIVAN = "int  9"
 TAMUZ = "int  10"
 AV = "int  11"
 ELUL = "int  12"
-def HebrewCalendar():
-    '''public HebrewCalendar()
-    public HebrewCalendar(final TimeZone zone)
-    public HebrewCalendar(final Locale aLocale)
-    public HebrewCalendar(final ULocale locale)
-    public HebrewCalendar(final TimeZone zone, final Locale aLocale)
-    public HebrewCalendar(final TimeZone zone, final ULocale locale)
-    public HebrewCalendar(final int year, final int month, final int date)
-    public HebrewCalendar(final Date date)
-    public HebrewCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
+def ():
+    '''returns HebrewCalendar\n\n
+    ()\n
+    (final TimeZone zone)\n
+    (final Locale aLocale)\n
+    (final ULocale locale)\n
+    (final TimeZone zone, final Locale aLocale)\n
+    (final TimeZone zone, final ULocale locale)\n
+    (final int year, final int month, final int date)\n
+    (final Date date)\n
+    (final int year, final int month, final int date, final int hour, final int minute, final int second)\n
     '''
 def add():
-    '''public void add(final int field, final int amount)
+    '''returns None\n\n
+    add(final int field, final int amount)\n
     '''
 def roll():
-    '''public void roll(final int field, final int amount)
-    '''
-def isLeapYear():
-    '''public static boolean isLeapYear(final int year)
+    '''returns None\n\n
+    roll(final int field, final int amount)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''

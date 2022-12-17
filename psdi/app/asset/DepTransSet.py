@@ -1,3 +1,4 @@
-def DepTransSet():
-    '''public DepTransSet(final MboServerInterface ms)
+def ():
+    '''returns DepTransSet\n\n
+    (final MboServerInterface ms)\n
     '''

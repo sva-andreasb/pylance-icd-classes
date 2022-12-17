@@ -1,6 +1,8 @@
-def FldLaborTotalAttendance():
-    '''public FldLaborTotalAttendance(final MboValue mbv)
+def ():
+    '''returns FldLaborTotalAttendance\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

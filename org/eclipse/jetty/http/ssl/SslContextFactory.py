@@ -1,5 +1,6 @@
-def SslContextFactory():
-    '''public SslContextFactory()
-    public SslContextFactory(final boolean trustAll)
-    public SslContextFactory(final String keyStorePath)
+def ():
+    '''returns SslContextFactory\n\n
+    ()\n
+    (final boolean trustAll)\n
+    (final String keyStorePath)\n
     '''

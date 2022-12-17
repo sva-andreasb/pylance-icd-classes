@@ -1,6 +1,8 @@
-def FldProtocol():
-    '''public FldProtocol(final MboValue mbv)
+def ():
+    '''returns FldProtocol\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

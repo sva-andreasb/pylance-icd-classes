@@ -31,39 +31,20 @@ IMPLEMENTING_ON_SHADOW = "int  29"
 MATCHING_POINTCUT = "int  30"
 MUNGING_WITH = "int  31"
 PROCESSING_ATASPECTJTYPE_MUNGERS_ONLY = "int  32"
-def reset():
-    '''public static void reset()
-    '''
-def setMultiThreaded():
-    '''public static void setMultiThreaded(final boolean mt)
-    '''
-def registerFormatter():
-    '''public static void registerFormatter(final int phaseId, final ContextFormatter aFormatter)
-    '''
-def getCurrentContext():
-    '''public static String getCurrentContext()
-    '''
-def enteringPhase():
-    '''public static ContextToken enteringPhase(final int phaseId, final Object data)
-    '''
-def leavingPhase():
-    '''public static void leavingPhase(final ContextToken aToken)
-    '''
-def resetForThread():
-    '''public static void resetForThread()
-    '''
-def ContextTokenImpl():
-    '''public ContextTokenImpl(final int id)
-    '''
-def ContextStackEntry():
-    '''public ContextStackEntry(final ContextTokenImpl ct, final int phase, final WeakReference<Object> data)
+def ():
+    '''returns ContextStackEntry\n\n
+    (final int id)\n
+    (final ContextTokenImpl ct, final int phase, final WeakReference<Object> data)\n
     '''
 def getData():
-    '''public Object getData()
+    '''returns Object\n\n
+    getData()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def formatEntry():
-    '''public String formatEntry(final int phaseId, final Object data)
+    '''returns String\n\n
+    formatEntry(final int phaseId, final Object data)\n
     '''

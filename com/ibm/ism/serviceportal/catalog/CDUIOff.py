@@ -1,3 +1,4 @@
-def CDUIOff():
-    '''public CDUIOff(final MboSet ms)
+def ():
+    '''returns CDUIOff\n\n
+    (final MboSet ms)\n
     '''

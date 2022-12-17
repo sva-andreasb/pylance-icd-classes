@@ -1,6 +1,8 @@
-def PlusPFldSplitCustomerBillType():
-    '''public PlusPFldSplitCustomerBillType(final MboValue mv)
+def ():
+    '''returns PlusPFldSplitCustomerBillType\n\n
+    (final MboValue mv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

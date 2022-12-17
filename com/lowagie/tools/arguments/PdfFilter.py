@@ -1,6 +1,8 @@
 def accept():
-    '''public boolean accept(final File f)
+    '''returns boolean\n\n
+    accept(final File f)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''

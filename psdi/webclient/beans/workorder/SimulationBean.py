@@ -1,6 +1,8 @@
-def SimulationBean():
-    '''public SimulationBean()
+def ():
+    '''returns SimulationBean\n\n
+    ()\n
     '''
 def UPDATEWO():
-    '''public int UPDATEWO()
+    '''returns int\n\n
+    UPDATEWO()\n
     '''

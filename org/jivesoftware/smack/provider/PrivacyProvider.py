@@ -1,9 +1,12 @@
 def parseIQ():
-    '''public IQ parseIQ(final XmlPullParser parser)
+    '''returns IQ\n\n
+    parseIQ(final XmlPullParser parser)\n
     '''
 def parseList():
-    '''public void parseList(final XmlPullParser parser, final Privacy privacy)
+    '''returns None\n\n
+    parseList(final XmlPullParser parser, final Privacy privacy)\n
     '''
 def parseItem():
-    '''public PrivacyItem parseItem(final XmlPullParser parser)
+    '''returns PrivacyItem\n\n
+    parseItem(final XmlPullParser parser)\n
     '''

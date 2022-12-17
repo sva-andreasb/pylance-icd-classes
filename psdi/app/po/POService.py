@@ -1,63 +1,82 @@
-def POService():
-    '''public POService()
-    public POService(final MXServer mxServer)
+def ():
+    '''returns POService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def doesWoHaveServices():
-    '''public boolean doesWoHaveServices(final UserInfo userInfo, final String wonum)
+    '''returns boolean\n\n
+    doesWoHaveServices(final UserInfo userInfo, final String wonum)\n
     '''
 def createReceipt():
-    '''public MboRemote createReceipt(final UserInfo userInfo, final MboSetRemote receiptSet, final String ponum, final long polinenum, final String porevnum, final String ownersysid, final String siteid)
+    '''returns MboRemote\n\n
+    createReceipt(final UserInfo userInfo, final MboSetRemote receiptSet, final String ponum, final long polinenum, final String porevnum, final String ownersysid, final String siteid)\n
     '''
 def createReturn():
-    '''public MboRemote createReturn(final UserInfo userInfo, final MboSetRemote receiptSet, final String ponum, final long polinenum, final String porevnum, final String ownersysid, final String siteid)
-    public MboRemote createReturn(final UserInfo userInfo, final MboSetRemote receiptSet, final String ponum, final long polinenum, final String porevnum, final String ownersysid, final List assets, final String siteid, final boolean returnHasReference, final MboRemote origReceipt, final String binnum, final String lotnum)
+    '''returns MboRemote\n\n
+    createReturn(final UserInfo userInfo, final MboSetRemote receiptSet, final String ponum, final long polinenum, final String porevnum, final String ownersysid, final String siteid)\n
+    createReturn(final UserInfo userInfo, final MboSetRemote receiptSet, final String ponum, final long polinenum, final String porevnum, final String ownersysid, final List assets, final String siteid, final boolean returnHasReference, final MboRemote origReceipt, final String binnum, final String lotnum)\n
     '''
 def initCriteriaList():
-    '''public void initCriteriaList(final Hashtable criteriaTable)
+    '''returns None\n\n
+    initCriteriaList(final Hashtable criteriaTable)\n
     '''
 def getInternalStatus():
-    '''public String getInternalStatus(final String extStatus)
+    '''returns String\n\n
+    getInternalStatus(final String extStatus)\n
     '''
 def getPOReferences():
-    '''public Vector getPOReferences(final String mrnum, final String mrlinenum, final UserInfo userInfo)
+    '''returns Vector\n\n
+    getPOReferences(final String mrnum, final String mrlinenum, final UserInfo userInfo)\n
     '''
 def createReceipts():
-    '''public void createReceipts(final UserInfo ui, String ponum, String catalogCode, String itemnum, final String itemsetid, String mrnum, String modelnum, String packingSlipNum, String requestedby, final int noOfRows)
-    public Vector createReceipts(final UserInfo ui, String ponum, String catalogCode, String itemnum, final String itemsetid, String mrnum, String modelnum, String packingSlipNum, String requestedby, final boolean isPowerApp)
-    public Vector createReceipts(final UserInfo ui, final String ponum, final String catalogCode, final String itemnum, final String itemsetid, final String mrnum, final String modelnum, final String packingSlipNum, final String requestedby)
-    public Vector createReceipts(final UserInfo ui, final String ponum)
+    '''returns Vector\n\n
+    createReceipts(final UserInfo ui, String ponum, String catalogCode, String itemnum, final String itemsetid, String mrnum, String modelnum, String packingSlipNum, String requestedby, final int noOfRows)\n
+    createReceipts(final UserInfo ui, String ponum, String catalogCode, String itemnum, final String itemsetid, String mrnum, String modelnum, String packingSlipNum, String requestedby, final boolean isPowerApp)\n
+    createReceipts(final UserInfo ui, final String ponum, final String catalogCode, final String itemnum, final String itemsetid, final String mrnum, final String modelnum, final String packingSlipNum, final String requestedby)\n
+    createReceipts(final UserInfo ui, final String ponum)\n
     '''
 def servicesToBeReceived():
-    '''public MboSetRemote servicesToBeReceived(final MboSetRemote poLineSetRemote, final boolean checkInvBalance, final String ownerSysId, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    servicesToBeReceived(final MboSetRemote poLineSetRemote, final boolean checkInvBalance, final String ownerSysId, final UserInfo userInfo)\n
     '''
 def itemsToBeReceived():
-    '''public MboSetRemote itemsToBeReceived(final MboSetRemote poLineSetRemote, final boolean checkInvBalance, final String ownerSysId, final UserInfo userInfo, final boolean isPowerApp)
+    '''returns MboSetRemote\n\n
+    itemsToBeReceived(final MboSetRemote poLineSetRemote, final boolean checkInvBalance, final String ownerSysId, final UserInfo userInfo, final boolean isPowerApp)\n
     '''
 def isRotating():
-    '''public boolean isRotating(final MboRemote poLineRemote)
+    '''returns boolean\n\n
+    isRotating(final MboRemote poLineRemote)\n
     '''
 def generateReceipts():
-    '''public boolean generateReceipts(final UserInfo ui, final MboSetRemote targetMbos, final MboSetRemote dataSheet)
+    '''returns boolean\n\n
+    generateReceipts(final UserInfo ui, final MboSetRemote targetMbos, final MboSetRemote dataSheet)\n
     '''
 def getReceiptSetForReturn():
-    '''public MboSetRemote getReceiptSetForReturn(final MboRemote poRemote)
+    '''returns MboSetRemote\n\n
+    getReceiptSetForReturn(final MboRemote poRemote)\n
     '''
 def returnReceiptSetForReturn():
-    '''public MboSetRemote returnReceiptSetForReturn(final MboSetRemote receiptSetForReturn, final MboSetRemote matRecTransSetRemote)
+    '''returns MboSetRemote\n\n
+    returnReceiptSetForReturn(final MboSetRemote receiptSetForReturn, final MboSetRemote matRecTransSetRemote)\n
     '''
 def checkPOValidity():
-    '''public void checkPOValidity(final MboRemote poRemote)
+    '''returns None\n\n
+    checkPOValidity(final MboRemote poRemote)\n
     '''
 def compareCopyTerms():
-    '''public void compareCopyTerms(final MboSetRemote fromTermSet, final MboSetRemote toTermSet)
-    public void compareCopyTerms(final MboSetRemote fromTermSet, final MboSetRemote toTermSet, final MboRemote mbo)
+    '''returns None\n\n
+    compareCopyTerms(final MboSetRemote fromTermSet, final MboSetRemote toTermSet)\n
+    compareCopyTerms(final MboSetRemote fromTermSet, final MboSetRemote toTermSet, final MboRemote mbo)\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("PO") final PORemote po, final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("PO") final PORemote po, final String status, final Date date, final String memo)\n
     '''

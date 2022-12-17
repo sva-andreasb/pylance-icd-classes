@@ -1,46 +1,28 @@
-def Method():
-    '''public Method()
-    public Method(final Method c)
-    public Method(final int access_flags, final int name_index, final int signature_index, final Attribute[] attributes, final ConstantPool constant_pool)
+def ():
+    '''returns Method\n\n
+    ()\n
+    (final Method c)\n
+    (final int access_flags, final int name_index, final int signature_index, final Attribute[] attributes, final ConstantPool constant_pool)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
-    '''
-def getCode():
-    '''public final Code getCode()
-    '''
-def getExceptionTable():
-    '''public final ExceptionTable getExceptionTable()
-    '''
-def getLocalVariableTable():
-    '''public final LocalVariableTable getLocalVariableTable()
-    '''
-def getLineNumberTable():
-    '''public final LineNumberTable getLineNumberTable()
-    '''
-def toString():
-    '''public final String toString()
-    '''
-def copy():
-    '''public final Method copy(final ConstantPool _constant_pool)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''
 def getReturnType():
-    '''public Type getReturnType()
+    '''returns Type\n\n
+    getReturnType()\n
     '''
 def getArgumentTypes():
-    '''public Type[] getArgumentTypes()
-    '''
-def getComparator():
-    '''public static BCELComparator getComparator()
-    '''
-def setComparator():
-    '''public static void setComparator(final BCELComparator comparator)
+    '''returns Type[]\n\n
+    getArgumentTypes()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object o1, final Object o2)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object o1, final Object o2)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode(final Object o)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode(final Object o)\n
     '''

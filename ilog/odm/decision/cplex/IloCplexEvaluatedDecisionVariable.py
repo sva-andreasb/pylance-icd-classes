@@ -1,50 +1,66 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCplexEvaluatedDecisionVariable():
-    '''public IloCplexEvaluatedDecisionVariable(final String name, final Object explanation, final IloPropertiesDef props, final double value)
+def ():
+    '''returns IloCplexEvaluatedDecisionVariable\n\n
+    (final String name, final Object explanation, final IloPropertiesDef props, final double value)\n
     '''
 def getDecisionVariable():
-    '''public IloDecisionVariable getDecisionVariable(final String name)
-    public IloDecisionVariable getDecisionVariable(final IloCompositeId name)
+    '''returns IloDecisionVariable\n\n
+    getDecisionVariable(final String name)\n
+    getDecisionVariable(final IloCompositeId name)\n
     '''
 def getValue():
-    '''public Double getValue()
+    '''returns Double\n\n
+    getValue()\n
     '''
 def internalRemoveVar():
-    '''public void internalRemoveVar(final String var)
+    '''returns None\n\n
+    internalRemoveVar(final String var)\n
     '''
 def internalPutVar():
-    '''public void internalPutVar(final IloDecisionVariable var)
+    '''returns None\n\n
+    internalPutVar(final IloDecisionVariable var)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def addChild():
-    '''public void addChild(final IloBreakdownVariable bv)
+    '''returns None\n\n
+    addChild(final IloBreakdownVariable bv)\n
     '''
 def getContainer():
-    '''public IloDecisionVariableContainer getContainer()
+    '''returns IloDecisionVariableContainer\n\n
+    getContainer()\n
     '''
 def setValue():
-    '''public void setValue(final double value)
+    '''returns None\n\n
+    setValue(final double value)\n
     '''
 def addEpsilon():
-    '''public void addEpsilon(final double value)
+    '''returns None\n\n
+    addEpsilon(final double value)\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def getChild():
-    '''public IloBreakdownVariable getChild(final String key)
+    '''returns IloBreakdownVariable\n\n
+    getChild(final String key)\n
     '''
 def children():
-    '''public Iterator<IloDecisionVariable> children()
+    '''returns Iterator<IloDecisionVariable>\n\n
+    children()\n
     '''
 def compare():
-    '''public int compare(final IloDecisionVariable var1, final IloDecisionVariable var2)
+    '''returns int\n\n
+    compare(final IloDecisionVariable var1, final IloDecisionVariable var2)\n
     '''

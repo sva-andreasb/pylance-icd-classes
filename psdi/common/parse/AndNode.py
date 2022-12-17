@@ -1,6 +1,8 @@
-def AndNode():
-    '''public AndNode(final Vector orList)
+def ():
+    '''returns AndNode\n\n
+    (final Vector orList)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final MboRemote mbo)\n
     '''

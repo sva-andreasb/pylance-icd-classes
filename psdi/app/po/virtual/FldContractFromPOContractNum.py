@@ -1,6 +1,8 @@
-def FldContractFromPOContractNum():
-    '''public FldContractFromPOContractNum(final MboValue mbv)
+def ():
+    '''returns FldContractFromPOContractNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,3 +1,4 @@
-def VMMSyncParamsSet():
-    '''public VMMSyncParamsSet(final MboServerInterface ms)
+def ():
+    '''returns VMMSyncParamsSet\n\n
+    (final MboServerInterface ms)\n
     '''

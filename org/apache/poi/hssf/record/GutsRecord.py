@@ -1,41 +1,54 @@
 sid = "short  128"
-def GutsRecord():
-    '''public GutsRecord()
-    public GutsRecord(final RecordInputStream in)
+def ():
+    '''returns GutsRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setLeftRowGutter():
-    '''public void setLeftRowGutter(final short gut)
+    '''returns None\n\n
+    setLeftRowGutter(final short gut)\n
     '''
 def setTopColGutter():
-    '''public void setTopColGutter(final short gut)
+    '''returns None\n\n
+    setTopColGutter(final short gut)\n
     '''
 def setRowLevelMax():
-    '''public void setRowLevelMax(final short max)
+    '''returns None\n\n
+    setRowLevelMax(final short max)\n
     '''
 def setColLevelMax():
-    '''public void setColLevelMax(final short max)
+    '''returns None\n\n
+    setColLevelMax(final short max)\n
     '''
 def getLeftRowGutter():
-    '''public short getLeftRowGutter()
+    '''returns short\n\n
+    getLeftRowGutter()\n
     '''
 def getTopColGutter():
-    '''public short getTopColGutter()
+    '''returns short\n\n
+    getTopColGutter()\n
     '''
 def getRowLevelMax():
-    '''public short getRowLevelMax()
+    '''returns short\n\n
+    getRowLevelMax()\n
     '''
 def getColLevelMax():
-    '''public short getColLevelMax()
+    '''returns short\n\n
+    getColLevelMax()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public GutsRecord clone()
+    '''returns GutsRecord\n\n
+    clone()\n
     '''

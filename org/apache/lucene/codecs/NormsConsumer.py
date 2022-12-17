@@ -1,40 +1,53 @@
 def merge():
-    '''public void merge(final MergeState mergeState)
+    '''returns None\n\n
+    merge(final MergeState mergeState)\n
     '''
 def mergeNormsField():
-    '''public void mergeNormsField(final FieldInfo mergeFieldInfo, final MergeState mergeState)
+    '''returns None\n\n
+    mergeNormsField(final FieldInfo mergeFieldInfo, final MergeState mergeState)\n
     '''
 def getNorms():
-    '''public NumericDocValues getNorms(final FieldInfo fieldInfo)
+    '''returns NumericDocValues\n\n
+    getNorms(final FieldInfo fieldInfo)\n
     '''
 def docID():
-    '''public int docID()
+    '''returns int\n\n
+    docID()\n
     '''
 def nextDoc():
-    '''public int nextDoc()
-    public int nextDoc()
+    '''returns int\n\n
+    nextDoc()\n
+    nextDoc()\n
     '''
 def advance():
-    '''public int advance(final int target)
+    '''returns int\n\n
+    advance(final int target)\n
     '''
 def advanceExact():
-    '''public boolean advanceExact(final int target)
+    '''returns boolean\n\n
+    advanceExact(final int target)\n
     '''
 def cost():
-    '''public long cost()
+    '''returns long\n\n
+    cost()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def checkIntegrity():
-    '''public void checkIntegrity()
+    '''returns None\n\n
+    checkIntegrity()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def ramBytesUsed():
-    '''public long ramBytesUsed()
+    '''returns long\n\n
+    ramBytesUsed()\n
     '''
-def NumericDocValuesSub():
-    '''public NumericDocValuesSub(final MergeState.DocMap docMap, final NumericDocValues values)
+def ():
+    '''returns NumericDocValuesSub\n\n
+    (final MergeState.DocMap docMap, final NumericDocValues values)\n
     '''

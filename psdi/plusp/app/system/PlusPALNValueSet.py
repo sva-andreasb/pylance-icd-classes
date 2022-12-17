@@ -1,3 +1,4 @@
-def PlusPALNValueSet():
-    '''public PlusPALNValueSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPALNValueSet\n\n
+    (final MboServerInterface arg0)\n
     '''

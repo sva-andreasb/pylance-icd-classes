@@ -1,66 +1,85 @@
 def getZone():
-    '''public DateTimeZone getZone()
+    '''returns DateTimeZone\n\n
+    getZone()\n
     '''
 def get():
-    '''public int get(final DateTimeFieldType dateTimeFieldType)
-    public int get(final DateTimeField dateTimeField)
+    '''returns int\n\n
+    get(final DateTimeFieldType dateTimeFieldType)\n
+    get(final DateTimeField dateTimeField)\n
     '''
 def isSupported():
-    '''public boolean isSupported(final DateTimeFieldType dateTimeFieldType)
+    '''returns boolean\n\n
+    isSupported(final DateTimeFieldType dateTimeFieldType)\n
     '''
 def toInstant():
-    '''public Instant toInstant()
+    '''returns Instant\n\n
+    toInstant()\n
     '''
 def toDateTime():
-    '''public DateTime toDateTime()
-    public DateTime toDateTime(final DateTimeZone dateTimeZone)
-    public DateTime toDateTime(final Chronology chronology)
+    '''returns DateTime\n\n
+    toDateTime()\n
+    toDateTime(final DateTimeZone dateTimeZone)\n
+    toDateTime(final Chronology chronology)\n
     '''
 def toDateTimeISO():
-    '''public DateTime toDateTimeISO()
+    '''returns DateTime\n\n
+    toDateTimeISO()\n
     '''
 def toMutableDateTime():
-    '''public MutableDateTime toMutableDateTime()
-    public MutableDateTime toMutableDateTime(final DateTimeZone dateTimeZone)
-    public MutableDateTime toMutableDateTime(final Chronology chronology)
+    '''returns MutableDateTime\n\n
+    toMutableDateTime()\n
+    toMutableDateTime(final DateTimeZone dateTimeZone)\n
+    toMutableDateTime(final Chronology chronology)\n
     '''
 def toMutableDateTimeISO():
-    '''public MutableDateTime toMutableDateTimeISO()
+    '''returns MutableDateTime\n\n
+    toMutableDateTimeISO()\n
     '''
 def toDate():
-    '''public Date toDate()
+    '''returns Date\n\n
+    toDate()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final ReadableInstant readableInstant)
+    '''returns int\n\n
+    compareTo(final ReadableInstant readableInstant)\n
     '''
 def isAfter():
-    '''public boolean isAfter(final long n)
-    public boolean isAfter(final ReadableInstant readableInstant)
+    '''returns boolean\n\n
+    isAfter(final long n)\n
+    isAfter(final ReadableInstant readableInstant)\n
     '''
 def isAfterNow():
-    '''public boolean isAfterNow()
+    '''returns boolean\n\n
+    isAfterNow()\n
     '''
 def isBefore():
-    '''public boolean isBefore(final long n)
-    public boolean isBefore(final ReadableInstant readableInstant)
+    '''returns boolean\n\n
+    isBefore(final long n)\n
+    isBefore(final ReadableInstant readableInstant)\n
     '''
 def isBeforeNow():
-    '''public boolean isBeforeNow()
+    '''returns boolean\n\n
+    isBeforeNow()\n
     '''
 def isEqual():
-    '''public boolean isEqual(final long n)
-    public boolean isEqual(final ReadableInstant readableInstant)
+    '''returns boolean\n\n
+    isEqual(final long n)\n
+    isEqual(final ReadableInstant readableInstant)\n
     '''
 def isEqualNow():
-    '''public boolean isEqualNow()
+    '''returns boolean\n\n
+    isEqualNow()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final DateTimeFormatter dateTimeFormatter)
+    '''returns String\n\n
+    toString()\n
+    toString(final DateTimeFormatter dateTimeFormatter)\n
     '''

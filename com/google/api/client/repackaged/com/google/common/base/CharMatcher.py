@@ -1,212 +1,171 @@
-def any():
-    '''public static CharMatcher any()
-    '''
-def none():
-    '''public static CharMatcher none()
-    '''
-def whitespace():
-    '''public static CharMatcher whitespace()
-    '''
-def breakingWhitespace():
-    '''public static CharMatcher breakingWhitespace()
-    '''
-def ascii():
-    '''public static CharMatcher ascii()
-    '''
-def digit():
-    '''public static CharMatcher digit()
-    '''
-def javaDigit():
-    '''public static CharMatcher javaDigit()
-    '''
-def javaLetter():
-    '''public static CharMatcher javaLetter()
-    '''
-def javaLetterOrDigit():
-    '''public static CharMatcher javaLetterOrDigit()
-    '''
-def javaUpperCase():
-    '''public static CharMatcher javaUpperCase()
-    '''
-def javaLowerCase():
-    '''public static CharMatcher javaLowerCase()
-    '''
-def javaIsoControl():
-    '''public static CharMatcher javaIsoControl()
-    '''
-def invisible():
-    '''public static CharMatcher invisible()
-    '''
-def singleWidth():
-    '''public static CharMatcher singleWidth()
-    '''
-def is():
-    '''public static CharMatcher is(final char match)
-    '''
-def isNot():
-    '''public static CharMatcher isNot(final char match)
-    '''
-def anyOf():
-    '''public static CharMatcher anyOf(final CharSequence sequence)
-    '''
-def noneOf():
-    '''public static CharMatcher noneOf(final CharSequence sequence)
-    '''
-def inRange():
-    '''public static CharMatcher inRange(final char startInclusive, final char endInclusive)
-    '''
-def forPredicate():
-    '''public static CharMatcher forPredicate(final Predicate<? super Character> predicate)
-    '''
 def negate():
-    '''public CharMatcher negate()
-    public CharMatcher negate()
-    public CharMatcher negate()
-    public CharMatcher negate()
-    public CharMatcher negate()
-    public CharMatcher negate()
-    public CharMatcher negate()
+    '''returns CharMatcher\n\n
+    negate()\n
+    negate()\n
+    negate()\n
+    negate()\n
+    negate()\n
+    negate()\n
+    negate()\n
     '''
 def and():
-    '''public CharMatcher and(final CharMatcher other)
-    public CharMatcher and(final CharMatcher other)
-    public CharMatcher and(final CharMatcher other)
-    public CharMatcher and(final CharMatcher other)
-    public CharMatcher and(final CharMatcher other)
+    '''returns CharMatcher\n\n
+    and(final CharMatcher other)\n
+    and(final CharMatcher other)\n
+    and(final CharMatcher other)\n
+    and(final CharMatcher other)\n
+    and(final CharMatcher other)\n
     '''
 def or():
-    '''public CharMatcher or(final CharMatcher other)
-    public CharMatcher or(final CharMatcher other)
-    public CharMatcher or(final CharMatcher other)
-    public CharMatcher or(final CharMatcher other)
-    public CharMatcher or(final CharMatcher other)
+    '''returns CharMatcher\n\n
+    or(final CharMatcher other)\n
+    or(final CharMatcher other)\n
+    or(final CharMatcher other)\n
+    or(final CharMatcher other)\n
+    or(final CharMatcher other)\n
     '''
 def precomputed():
-    '''public CharMatcher precomputed()
-    public final CharMatcher precomputed()
-    public final CharMatcher precomputed()
+    '''returns CharMatcher\n\n
+    precomputed()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public final String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def matchesAnyOf():
-    '''public boolean matchesAnyOf(final CharSequence sequence)
+    '''returns boolean\n\n
+    matchesAnyOf(final CharSequence sequence)\n
     '''
 def matchesAllOf():
-    '''public boolean matchesAllOf(final CharSequence sequence)
-    public boolean matchesAllOf(final CharSequence sequence)
-    public boolean matchesAllOf(final CharSequence sequence)
-    public boolean matchesAllOf(final CharSequence sequence)
+    '''returns boolean\n\n
+    matchesAllOf(final CharSequence sequence)\n
+    matchesAllOf(final CharSequence sequence)\n
+    matchesAllOf(final CharSequence sequence)\n
+    matchesAllOf(final CharSequence sequence)\n
     '''
 def matchesNoneOf():
-    '''public boolean matchesNoneOf(final CharSequence sequence)
-    public boolean matchesNoneOf(final CharSequence sequence)
-    public boolean matchesNoneOf(final CharSequence sequence)
-    public boolean matchesNoneOf(final CharSequence sequence)
+    '''returns boolean\n\n
+    matchesNoneOf(final CharSequence sequence)\n
+    matchesNoneOf(final CharSequence sequence)\n
+    matchesNoneOf(final CharSequence sequence)\n
+    matchesNoneOf(final CharSequence sequence)\n
     '''
 def indexIn():
-    '''public int indexIn(final CharSequence sequence)
-    public int indexIn(final CharSequence sequence, final int start)
-    public int indexIn(final CharSequence sequence)
-    public int indexIn(final CharSequence sequence, final int start)
-    public int indexIn(final CharSequence sequence)
-    public int indexIn(final CharSequence sequence, final int start)
+    '''returns int\n\n
+    indexIn(final CharSequence sequence)\n
+    indexIn(final CharSequence sequence, final int start)\n
+    indexIn(final CharSequence sequence)\n
+    indexIn(final CharSequence sequence, final int start)\n
+    indexIn(final CharSequence sequence)\n
+    indexIn(final CharSequence sequence, final int start)\n
     '''
 def lastIndexIn():
-    '''public int lastIndexIn(final CharSequence sequence)
-    public int lastIndexIn(final CharSequence sequence)
-    public int lastIndexIn(final CharSequence sequence)
+    '''returns int\n\n
+    lastIndexIn(final CharSequence sequence)\n
+    lastIndexIn(final CharSequence sequence)\n
+    lastIndexIn(final CharSequence sequence)\n
     '''
 def countIn():
-    '''public int countIn(final CharSequence sequence)
-    public int countIn(final CharSequence sequence)
-    public int countIn(final CharSequence sequence)
-    public int countIn(final CharSequence sequence)
+    '''returns int\n\n
+    countIn(final CharSequence sequence)\n
+    countIn(final CharSequence sequence)\n
+    countIn(final CharSequence sequence)\n
+    countIn(final CharSequence sequence)\n
     '''
 def removeFrom():
-    '''public String removeFrom(final CharSequence sequence)
-    public String removeFrom(final CharSequence sequence)
-    public String removeFrom(final CharSequence sequence)
+    '''returns String\n\n
+    removeFrom(final CharSequence sequence)\n
+    removeFrom(final CharSequence sequence)\n
+    removeFrom(final CharSequence sequence)\n
     '''
 def retainFrom():
-    '''public String retainFrom(final CharSequence sequence)
+    '''returns String\n\n
+    retainFrom(final CharSequence sequence)\n
     '''
 def replaceFrom():
-    '''public String replaceFrom(final CharSequence sequence, final char replacement)
-    public String replaceFrom(final CharSequence sequence, final CharSequence replacement)
-    public String replaceFrom(final CharSequence sequence, final char replacement)
-    public String replaceFrom(final CharSequence sequence, final CharSequence replacement)
-    public String replaceFrom(final CharSequence sequence, final char replacement)
-    public String replaceFrom(final CharSequence sequence, final CharSequence replacement)
-    public String replaceFrom(final CharSequence sequence, final char replacement)
+    '''returns String\n\n
+    replaceFrom(final CharSequence sequence, final char replacement)\n
+    replaceFrom(final CharSequence sequence, final CharSequence replacement)\n
+    replaceFrom(final CharSequence sequence, final char replacement)\n
+    replaceFrom(final CharSequence sequence, final CharSequence replacement)\n
+    replaceFrom(final CharSequence sequence, final char replacement)\n
+    replaceFrom(final CharSequence sequence, final CharSequence replacement)\n
+    replaceFrom(final CharSequence sequence, final char replacement)\n
     '''
 def trimFrom():
-    '''public String trimFrom(final CharSequence sequence)
-    public String trimFrom(final CharSequence sequence)
-    public String trimFrom(final CharSequence sequence)
+    '''returns String\n\n
+    trimFrom(final CharSequence sequence)\n
+    trimFrom(final CharSequence sequence)\n
+    trimFrom(final CharSequence sequence)\n
     '''
 def trimLeadingFrom():
-    '''public String trimLeadingFrom(final CharSequence sequence)
-    public String trimLeadingFrom(final CharSequence sequence)
+    '''returns String\n\n
+    trimLeadingFrom(final CharSequence sequence)\n
+    trimLeadingFrom(final CharSequence sequence)\n
     '''
 def trimTrailingFrom():
-    '''public String trimTrailingFrom(final CharSequence sequence)
-    public String trimTrailingFrom(final CharSequence sequence)
+    '''returns String\n\n
+    trimTrailingFrom(final CharSequence sequence)\n
+    trimTrailingFrom(final CharSequence sequence)\n
     '''
 def collapseFrom():
-    '''public String collapseFrom(final CharSequence sequence, final char replacement)
-    public String collapseFrom(final CharSequence sequence, final char replacement)
-    public String collapseFrom(final CharSequence sequence, final char replacement)
+    '''returns String\n\n
+    collapseFrom(final CharSequence sequence, final char replacement)\n
+    collapseFrom(final CharSequence sequence, final char replacement)\n
+    collapseFrom(final CharSequence sequence, final char replacement)\n
     '''
 def trimAndCollapseFrom():
-    '''public String trimAndCollapseFrom(final CharSequence sequence, final char replacement)
+    '''returns String\n\n
+    trimAndCollapseFrom(final CharSequence sequence, final char replacement)\n
     '''
 def apply():
-    '''public boolean apply(final Character character)
-    public boolean apply(final Character character)
+    '''returns boolean\n\n
+    apply(final Character character)\n
+    apply(final Character character)\n
     '''
 def matches():
-    '''public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
-    public boolean matches(final char c)
+    '''returns boolean\n\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
+    matches(final char c)\n
     '''
-def AnyOf():
-    '''public AnyOf(final CharSequence chars)
+def ():
+    '''returns AnyOf\n\n
+    (final CharSequence chars)\n
     '''

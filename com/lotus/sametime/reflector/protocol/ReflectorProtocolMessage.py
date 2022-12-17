@@ -1,3 +1,4 @@
 def toByteArray():
-    '''public byte[] toByteArray()
+    '''returns byte[]\n\n
+    toByteArray()\n
     '''

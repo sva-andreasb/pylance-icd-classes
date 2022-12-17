@@ -1,9 +1,12 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
-def WOAssetsToMove():
-    '''public WOAssetsToMove(final MboSet ms)
+def ():
+    '''returns WOAssetsToMove\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

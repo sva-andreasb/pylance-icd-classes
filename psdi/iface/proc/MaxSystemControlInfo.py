@@ -1,21 +1,28 @@
 def getExtsysName():
-    '''public String getExtsysName()
+    '''returns String\n\n
+    getExtsysName()\n
     '''
 def setExtsysName():
-    '''public void setExtsysName(final String c)
+    '''returns None\n\n
+    setExtsysName(final String c)\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String c)
+    '''returns None\n\n
+    setDefaultValue(final String c)\n
     '''
 def getControlValues():
-    '''public ArrayList getControlValues()
+    '''returns ArrayList\n\n
+    getControlValues()\n
     '''
 def setControlValues():
-    '''public void setControlValues(final ArrayList vl)
+    '''returns None\n\n
+    setControlValues(final ArrayList vl)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

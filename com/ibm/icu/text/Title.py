@@ -1,22 +1,28 @@
 def wholeString():
-    '''public Title wholeString()
+    '''returns Title\n\n
+    wholeString()\n
     '''
 def sentences():
-    '''public Title sentences()
+    '''returns Title\n\n
+    sentences()\n
     '''
 def omitUnchangedText():
-    '''public Title omitUnchangedText()
+    '''returns Title\n\n
+    omitUnchangedText()\n
     '''
 def noLowercase():
-    '''public Title noLowercase()
+    '''returns Title\n\n
+    noLowercase()\n
     '''
 def noBreakAdjustment():
-    '''public Title noBreakAdjustment()
+    '''returns Title\n\n
+    noBreakAdjustment()\n
     '''
 def adjustToCased():
-    '''public Title adjustToCased()
+    '''returns Title\n\n
+    adjustToCased()\n
     '''
 def apply():
-    '''public String apply(Locale locale, BreakIterator iter, final CharSequence src)
-    public <A extends Appendable> A apply(Locale locale, BreakIterator iter, final CharSequence src, final A dest, final Edits edits)
+    '''returns String\n\n
+    apply(Locale locale, BreakIterator iter, final CharSequence src)\n
     '''

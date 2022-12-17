@@ -1,7 +1,9 @@
 JAR = "String  \"jar\""
-def ParsedURLJarProtocolHandler():
-    '''public ParsedURLJarProtocolHandler()
+def ():
+    '''returns ParsedURLJarProtocolHandler\n\n
+    ()\n
     '''
 def parseURL():
-    '''public ParsedURLData parseURL(final ParsedURL baseURL, final String urlStr)
+    '''returns ParsedURLData\n\n
+    parseURL(final ParsedURL baseURL, final String urlStr)\n
     '''

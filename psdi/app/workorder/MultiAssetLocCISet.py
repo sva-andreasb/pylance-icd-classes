@@ -1,22 +1,29 @@
-def MultiAssetLocCISet():
-    '''public MultiAssetLocCISet(final MboServerInterface ms)
+def ():
+    '''returns MultiAssetLocCISet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setMoveAssetFieldsDefault():
-    '''public void setMoveAssetFieldsDefault()
+    '''returns None\n\n
+    setMoveAssetFieldsDefault()\n
     '''
 def applyAssetMoveDefaults():
-    '''public void applyAssetMoveDefaults(final AssetMoveDfltSetRemote assetMoveDfltSet)
-    public void applyAssetMoveDefaults(final AssetMoveDfltSetRemote assetMoveDfltSet, final String applytoall)
+    '''returns None\n\n
+    applyAssetMoveDefaults(final AssetMoveDfltSetRemote assetMoveDfltSet)\n
+    applyAssetMoveDefaults(final AssetMoveDfltSetRemote assetMoveDfltSet, final String applytoall)\n
     '''
 def setStoreroomRecRotating():
-    '''public void setStoreroomRecRotating(final MboRemote storeroom)
+    '''returns None\n\n
+    setStoreroomRecRotating(final MboRemote storeroom)\n
     '''
 def getStoreroomRecRotating():
-    '''public MboRemote getStoreroomRecRotating(final String storeAndSite)
+    '''returns MboRemote\n\n
+    getStoreroomRecRotating(final String storeAndSite)\n
     '''
 def deleteAll():
-    '''public void deleteAll(final long accessModifier)
+    '''returns None\n\n
+    deleteAll(final long accessModifier)\n
     '''
 def deleteAndRemove():
-    '''public void deleteAndRemove(final int pos, final long accessModifier)
+    '''returns None\n\n
+    deleteAndRemove(final int pos, final long accessModifier)\n
     '''

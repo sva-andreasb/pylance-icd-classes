@@ -1,4 +1,5 @@
-def DoubleWrapperHolder():
-    '''public DoubleWrapperHolder()
-    public DoubleWrapperHolder(final Double value)
+def ():
+    '''returns DoubleWrapperHolder\n\n
+    ()\n
+    (final Double mydouble)\n
     '''

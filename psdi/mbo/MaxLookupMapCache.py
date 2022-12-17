@@ -1,27 +1,29 @@
-def MaxLookupMapCache():
-    '''public MaxLookupMapCache(final MaxLookupMapCache master)
+def ():
+    '''returns MaxLookupMapCache\n\n
+    (final MaxLookupMapCache master)\n
     '''
 def get():
-    '''public Object[] get(final String target, final String source, final String attr)
-    public Object[] get(final String target, final String source, final String attr, final boolean lookExtendingObject)
+    '''returns Object[]\n\n
+    get(final String target, final String source, final String attr)\n
+    get(final String target, final String source, final String attr, final boolean lookExtendingObject)\n
     '''
 def getExtendingObject():
-    '''public String getExtendingObject(final String objName)
+    '''returns String\n\n
+    getExtendingObject(final String objName)\n
     '''
 def init():
-    '''public void init()
-    '''
-def reload():
-    '''public synchronized void reload()
-    public synchronized void reload(final String target, final String source, final String attr)
-    public void reload(final String key)
+    '''returns None\n\n
+    init()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
+    '''
+def reload():
+    '''returns None\n\n
+    reload(final String key)\n
     '''
 def getLookupKeyMap():
-    '''public Object[] getLookupKeyMap(final String target, final String source, final String attr)
-    '''
-def setLookupKeyMap():
-    '''public synchronized void setLookupKeyMap(final String target, final String source, final String attr, final Object[] map)
+    '''returns Object[]\n\n
+    getLookupKeyMap(final String target, final String source, final String attr)\n
     '''

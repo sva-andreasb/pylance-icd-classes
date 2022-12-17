@@ -1,39 +1,48 @@
-def ShowTasksSet():
-    '''public ShowTasksSet(final MboRemote owner)
+def ():
+    '''returns ShowTasksSet\n\n
+    (final MboRemote owner)\n
     '''
 def fetchMbos():
-    '''public void fetchMbos(final int toPosition)
+    '''returns None\n\n
+    fetchMbos(final int toPosition)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def setOwner():
-    '''public final void setOwner(final MboRemote mbo)
+    '''returns String\n\n
+    getName()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def getZombie():
-    '''public MboRemote getZombie()
+    '''returns MboRemote\n\n
+    getZombie()\n
     '''
 def setOrderBy():
-    '''public void setOrderBy(final String orderByClause)
+    '''returns None\n\n
+    setOrderBy(final String orderByClause)\n
     '''
 def getOrderBy():
-    '''public String getOrderBy()
+    '''returns String\n\n
+    getOrderBy()\n
     '''
 def addedMbo():
-    '''public void addedMbo(final MboRemote newMbo, final int position)
+    '''returns None\n\n
+    addedMbo(final MboRemote newMbo, final int position)\n
     '''
 def removedMbo():
-    '''public void removedMbo(final MboRemote newMbo, final int position)
+    '''returns None\n\n
+    removedMbo(final MboRemote newMbo, final int position)\n
     '''
 def modifiedMbo():
-    '''public void modifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    modifiedMbo(final MboRemote modifiedMbo)\n
     '''

@@ -1,9 +1,12 @@
-def MaxSessionThread():
-    '''public MaxSessionThread(final MXServer mxServer)
+def ():
+    '''returns MaxSessionThread\n\n
+    (final MXServer mxServer)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def updateMaxSessionTimeStamp():
-    '''public void updateMaxSessionTimeStamp(final int tenantId)
+    '''returns None\n\n
+    updateMaxSessionTimeStamp(final int tenantId)\n
     '''

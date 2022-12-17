@@ -1,3 +1,4 @@
-def TargetException():
-    '''public TargetException(final String s)
+def ():
+    '''returns TargetException\n\n
+    (final String s)\n
     '''

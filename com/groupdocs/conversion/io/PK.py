@@ -1,21 +1,27 @@
-def PK():
-    '''public PK(final OutputStream outputStream)
-    public PK(final OutputStream out, final String s)
-    public PK(final File file)
-    public PK(final File file, final String s)
+def ():
+    '''returns PK\n\n
+    (final OutputStream outputStream)\n
+    (final OutputStream out, final String s)\n
+    (final File file)\n
+    (final File file, final String s)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def getDefaultEncoding():
-    '''public String getDefaultEncoding()
+    '''returns String\n\n
+    getDefaultEncoding()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final char[] cbuf, final int off, final int len)
+    '''returns None\n\n
+    write(final char[] cbuf, final int off, final int len)\n
     '''

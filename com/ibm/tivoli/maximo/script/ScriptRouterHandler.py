@@ -1,10 +1,13 @@
-def ScriptRouterHandler():
-    '''public ScriptRouterHandler(final MaxEndPointInfo endPointInfo)
-    public ScriptRouterHandler()
+def ():
+    '''returns ScriptRouterHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData, final byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData, final byte[] data)\n
     '''

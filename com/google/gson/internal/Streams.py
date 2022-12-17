@@ -1,26 +1,25 @@
-def parse():
-    '''public static JsonElement parse(final JsonReader reader)
-    '''
 def write():
-    '''public static void write(final JsonElement element, final JsonWriter writer)
-    public void write(final char[] chars, final int offset, final int length)
-    public void write(final int i)
-    '''
-def writerForAppendable():
-    '''public static Writer writerForAppendable(final Appendable appendable)
+    '''returns None\n\n
+    write(final char[] chars, final int offset, final int length)\n
+    write(final int i)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(final int i)
+    '''returns char\n\n
+    charAt(final int i)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''

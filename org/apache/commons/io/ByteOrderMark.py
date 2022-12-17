@@ -1,25 +1,33 @@
 UTF_BOM = "char  '\ufeff'"
-def ByteOrderMark():
-    '''public ByteOrderMark(final String charsetName, final int... bytes)
+def ():
+    '''returns ByteOrderMark\n\n
+    (final String charsetName, final int... bytes)\n
     '''
 def getCharsetName():
-    '''public String getCharsetName()
+    '''returns String\n\n
+    getCharsetName()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def get():
-    '''public int get(final int pos)
+    '''returns int\n\n
+    get(final int pos)\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

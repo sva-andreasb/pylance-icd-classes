@@ -1,3 +1,4 @@
-def AbortPartitionOperationRequest():
-    '''public AbortPartitionOperationRequest(final String s, final int n)
+def ():
+    '''returns AbortPartitionOperationRequest\n\n
+    (final String s, final int n)\n
     '''

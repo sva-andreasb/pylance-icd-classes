@@ -1,6 +1,4 @@
-def insertAtEnd():
-    '''public synchronized void insertAtEnd()
-    '''
 def docancel():
-    '''public int docancel()
+    '''returns int\n\n
+    docancel()\n
     '''

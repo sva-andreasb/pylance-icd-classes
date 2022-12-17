@@ -1,15 +1,16 @@
-def getSingletonDelegate():
-    '''public static synchronized TypeMappingDelegate getSingletonDelegate()
-    '''
 def register():
-    '''public void register(final Class javaType, final QName xmlType, final javax.xml.rpc.encoding.SerializerFactory sf, final DeserializerFactory dsf)
+    '''returns None\n\n
+    register(final Class javaType, final QName xmlType, final javax.xml.rpc.encoding.SerializerFactory sf, final DeserializerFactory dsf)\n
     '''
 def removeSerializer():
-    '''public void removeSerializer(final Class javaType, final QName xmlType)
+    '''returns None\n\n
+    removeSerializer(final Class javaType, final QName xmlType)\n
     '''
 def removeDeserializer():
-    '''public void removeDeserializer(final Class javaType, final QName xmlType)
+    '''returns None\n\n
+    removeDeserializer(final Class javaType, final QName xmlType)\n
     '''
 def setSupportedEncodings():
-    '''public void setSupportedEncodings(final String[] namespaceURIs)
+    '''returns None\n\n
+    setSupportedEncodings(final String[] namespaceURIs)\n
     '''

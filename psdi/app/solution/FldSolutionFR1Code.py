@@ -1,15 +1,20 @@
-def FldSolutionFR1Code():
-    '''public FldSolutionFR1Code(final MboValue mbv)
+def ():
+    '''returns FldSolutionFR1Code\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

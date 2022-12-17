@@ -1,18 +1,24 @@
-def MockAppIdentityService():
-    '''public MockAppIdentityService()
+def ():
+    '''returns MockAppIdentityService\n\n
+    ()\n
     '''
 def getGetAccessTokenCallCount():
-    '''public int getGetAccessTokenCallCount()
+    '''returns int\n\n
+    getGetAccessTokenCallCount()\n
     '''
 def getAccessTokenText():
-    '''public String getAccessTokenText()
+    '''returns String\n\n
+    getAccessTokenText()\n
     '''
 def setAccessTokenText():
-    '''public void setAccessTokenText(final String text)
+    '''returns None\n\n
+    setAccessTokenText(final String text)\n
     '''
 def getPublicCertificatesForApp():
-    '''public Collection<PublicCertificate> getPublicCertificatesForApp()
+    '''returns Collection<PublicCertificate>\n\n
+    getPublicCertificatesForApp()\n
     '''
 def getServiceAccountName():
-    '''public String getServiceAccountName()
+    '''returns String\n\n
+    getServiceAccountName()\n
     '''

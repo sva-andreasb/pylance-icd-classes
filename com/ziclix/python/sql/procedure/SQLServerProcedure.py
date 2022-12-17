@@ -1,3 +1,4 @@
-def SQLServerProcedure():
-    '''public SQLServerProcedure(final PyCursor cursor, final PyObject name)
+def ():
+    '''returns SQLServerProcedure\n\n
+    (final PyCursor cursor, final PyObject name)\n
     '''

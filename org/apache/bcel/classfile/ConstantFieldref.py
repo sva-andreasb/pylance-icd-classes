@@ -1,7 +1,9 @@
-def ConstantFieldref():
-    '''public ConstantFieldref(final ConstantFieldref c)
-    public ConstantFieldref(final int class_index, final int name_and_type_index)
+def ():
+    '''returns ConstantFieldref\n\n
+    (final ConstantFieldref c)\n
+    (final int class_index, final int name_and_type_index)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

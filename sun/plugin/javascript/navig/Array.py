@@ -1,9 +1,12 @@
 def getMember():
-    '''public Object getMember(final String s)
+    '''returns Object\n\n
+    getMember(final String s)\n
     '''
 def getSlot():
-    '''public Object getSlot(final int n)
+    '''returns Object\n\n
+    getSlot(final int n)\n
     '''
 def setSlot():
-    '''public void setSlot(final int n, final Object o)
+    '''returns None\n\n
+    setSlot(final int n, final Object o)\n
     '''

@@ -1,108 +1,144 @@
-def AMCrewLabor():
-    '''public AMCrewLabor(final MboSet ms)
+def ():
+    '''returns AMCrewLabor\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def checkForCrewAlreadyAssigned():
-    '''public boolean checkForCrewAlreadyAssigned(final String laborCode, final Date EffectiveDate)
+    '''returns boolean\n\n
+    checkForCrewAlreadyAssigned(final String laborCode, final Date EffectiveDate)\n
     '''
 def checkForCalShifNum():
-    '''public boolean checkForCalShifNum()
+    '''returns boolean\n\n
+    checkForCalShifNum()\n
     '''
 def checkForValidQualification():
-    '''public boolean checkForValidQualification(final String sPosition)
+    '''returns boolean\n\n
+    checkForValidQualification(final String sPosition)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getStandardRate():
-    '''public double getStandardRate()
+    '''returns double\n\n
+    getStandardRate()\n
     '''
 def getEffectiveDate():
-    '''public Date getEffectiveDate(Date effectivedate)
+    '''returns Date\n\n
+    getEffectiveDate(Date effectivedate)\n
     '''
 def checkForLaborAlreadyAssigned():
-    '''public void checkForLaborAlreadyAssigned(final String laborCode, final Date SpecifiedEffectiveDate)
+    '''returns None\n\n
+    checkForLaborAlreadyAssigned(final String laborCode, final Date SpecifiedEffectiveDate)\n
     '''
 def checkForDatesOverlapping():
-    '''public void checkForDatesOverlapping(final MboRemote mbo)
+    '''returns None\n\n
+    checkForDatesOverlapping(final MboRemote mbo)\n
     '''
 def checkForRules():
-    '''public void checkForRules(final MboRemote mbo)
+    '''returns None\n\n
+    checkForRules(final MboRemote mbo)\n
     '''
 def isDatesOverlapping():
-    '''public boolean isDatesOverlapping()
+    '''returns boolean\n\n
+    isDatesOverlapping()\n
     '''
 def setisDatesOverlapping():
-    '''public void setisDatesOverlapping(final boolean datesOverlapping)
+    '''returns None\n\n
+    setisDatesOverlapping(final boolean datesOverlapping)\n
     '''
 def setValidateLaborField():
-    '''public void setValidateLaborField(final boolean validateLaborField)
+    '''returns None\n\n
+    setValidateLaborField(final boolean validateLaborField)\n
     '''
 def getValidateLaborField():
-    '''public boolean getValidateLaborField()
+    '''returns boolean\n\n
+    getValidateLaborField()\n
     '''
 def setValidateCraftField():
-    '''public void setValidateCraftField(final boolean validateCraftField)
+    '''returns None\n\n
+    setValidateCraftField(final boolean validateCraftField)\n
     '''
 def getValidateCraftField():
-    '''public boolean getValidateCraftField()
+    '''returns boolean\n\n
+    getValidateCraftField()\n
     '''
 def setValidateSkillLevelField():
-    '''public void setValidateSkillLevelField(final boolean validateSkillLevelField)
+    '''returns None\n\n
+    setValidateSkillLevelField(final boolean validateSkillLevelField)\n
     '''
 def getValidateSkillLevelField():
-    '''public boolean getValidateSkillLevelField()
+    '''returns boolean\n\n
+    getValidateSkillLevelField()\n
     '''
 def setValidateVendorField():
-    '''public void setValidateVendorField(final boolean validateVendorField)
+    '''returns None\n\n
+    setValidateVendorField(final boolean validateVendorField)\n
     '''
 def getValidateVendorField():
-    '''public boolean getValidateVendorField()
+    '''returns boolean\n\n
+    getValidateVendorField()\n
     '''
 def setValidateContractField():
-    '''public void setValidateContractField(final boolean validateContractField)
+    '''returns None\n\n
+    setValidateContractField(final boolean validateContractField)\n
     '''
 def getValidateContractField():
-    '''public boolean getValidateContractField()
+    '''returns boolean\n\n
+    getValidateContractField()\n
     '''
 def setEffectiveDateIsLater():
-    '''public void setEffectiveDateIsLater(final boolean laterEffectivedate)
+    '''returns None\n\n
+    setEffectiveDateIsLater(final boolean laterEffectivedate)\n
     '''
 def isLaterEffectiveDate():
-    '''public boolean isLaterEffectiveDate()
+    '''returns boolean\n\n
+    isLaterEffectiveDate()\n
     '''
 def setEarlierEndDate():
-    '''public void setEarlierEndDate(final boolean earlierEndDate)
+    '''returns None\n\n
+    setEarlierEndDate(final boolean earlierEndDate)\n
     '''
 def isEndDateEarlier():
-    '''public boolean isEndDateEarlier()
+    '''returns boolean\n\n
+    isEndDateEarlier()\n
     '''
 def findAvailableTime():
-    '''public double findAvailableTime(final Date shiftStart, final Date shiftEnd, final Date crewDate)
+    '''returns double\n\n
+    findAvailableTime(final Date shiftStart, final Date shiftEnd, final Date crewDate)\n
     '''
 def setCreatedBySplit():
-    '''public void setCreatedBySplit(final boolean cbs)
+    '''returns None\n\n
+    setCreatedBySplit(final boolean cbs)\n
     '''
 def getCreatedBySplit():
-    '''public boolean getCreatedBySplit()
+    '''returns boolean\n\n
+    getCreatedBySplit()\n
     '''
 def getHasCrewPrompt():
-    '''public boolean getHasCrewPrompt()
+    '''returns boolean\n\n
+    getHasCrewPrompt()\n
     '''
 def setHasCrewPrompt():
-    '''public void setHasCrewPrompt(final boolean prompt)
+    '''returns None\n\n
+    setHasCrewPrompt(final boolean prompt)\n
     '''

@@ -1,12 +1,16 @@
 def lookupMatcher():
-    '''public UnicodeMatcher lookupMatcher(final int i)
+    '''returns UnicodeMatcher\n\n
+    lookupMatcher(final int i)\n
     '''
 def applyPropertyAlias():
-    '''public boolean applyPropertyAlias(final String propertyName, final String propertyValue, final UnicodeSet result)
+    '''returns boolean\n\n
+    applyPropertyAlias(final String propertyName, final String propertyValue, final UnicodeSet result)\n
     '''
 def lookup():
-    '''public char[] lookup(final String s)
+    '''returns char[]\n\n
+    lookup(final String s)\n
     '''
 def parseReference():
-    '''public String parseReference(final String text, final ParsePosition pos, final int limit)
+    '''returns String\n\n
+    parseReference(final String text, final ParsePosition pos, final int limit)\n
     '''

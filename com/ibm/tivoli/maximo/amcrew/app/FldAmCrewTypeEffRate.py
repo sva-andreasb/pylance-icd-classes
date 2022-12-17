@@ -1,6 +1,8 @@
-def FldAmCrewTypeEffRate():
-    '''public FldAmCrewTypeEffRate(final MboValue mbv)
+def ():
+    '''returns FldAmCrewTypeEffRate\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

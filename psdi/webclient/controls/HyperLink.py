@@ -1,12 +1,16 @@
-def HyperLink():
-    '''public HyperLink()
+def ():
+    '''returns HyperLink\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getDataBean():
-    '''public DataBean getDataBean()
+    '''returns DataBean\n\n
+    getDataBean()\n
     '''

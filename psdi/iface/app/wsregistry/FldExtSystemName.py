@@ -1,6 +1,8 @@
-def FldExtSystemName():
-    '''public FldExtSystemName(final MboValue mbv)
+def ():
+    '''returns FldExtSystemName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

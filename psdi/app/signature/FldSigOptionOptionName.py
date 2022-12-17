@@ -1,6 +1,8 @@
-def FldSigOptionOptionName():
-    '''public FldSigOptionOptionName(final MboValue mbv)
+def ():
+    '''returns FldSigOptionOptionName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

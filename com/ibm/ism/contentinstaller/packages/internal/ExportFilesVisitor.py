@@ -1,6 +1,8 @@
-def ExportFilesVisitor():
-    '''public ExportFilesVisitor(final ExportObject eo, final MaximoResolver maximoResolver, final IProgressMonitor monitor)
+def ():
+    '''returns ExportFilesVisitor\n\n
+    (final ExportObject eo, final MaximoResolver maximoResolver, final IProgressMonitor monitor)\n
     '''
 def visit():
-    '''public void visit(final BaseTag baseTag)
+    '''returns None\n\n
+    visit(final BaseTag baseTag)\n
     '''

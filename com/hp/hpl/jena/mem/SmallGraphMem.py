@@ -1,25 +1,33 @@
-def SmallGraphMem():
-    '''public SmallGraphMem()
-    public SmallGraphMem(final ReificationStyle style)
+def ():
+    '''returns SmallGraphMem\n\n
+    ()\n
+    (final ReificationStyle style)\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple t)
+    '''returns None\n\n
+    performDelete(final Triple t)\n
     '''
 def graphBaseSize():
-    '''public int graphBaseSize()
+    '''returns int\n\n
+    graphBaseSize()\n
     '''
 def graphBaseContains():
-    '''public boolean graphBaseContains(final Triple t)
+    '''returns boolean\n\n
+    graphBaseContains(final Triple t)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getBulkUpdateHandler():
-    '''public BulkUpdateHandler getBulkUpdateHandler()
+    '''returns BulkUpdateHandler\n\n
+    getBulkUpdateHandler()\n
     '''
 def graphBaseFind():
-    '''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch m)
+    '''returns ExtendedIterator<Triple>\n\n
+    graphBaseFind(final TripleMatch m)\n
     '''

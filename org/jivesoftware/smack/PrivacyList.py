@@ -1,12 +1,16 @@
 def isActiveList():
-    '''public boolean isActiveList()
+    '''returns boolean\n\n
+    isActiveList()\n
     '''
 def isDefaultList():
-    '''public boolean isDefaultList()
+    '''returns boolean\n\n
+    isDefaultList()\n
     '''
 def getItems():
-    '''public List<PrivacyItem> getItems()
+    '''returns List<PrivacyItem>\n\n
+    getItems()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

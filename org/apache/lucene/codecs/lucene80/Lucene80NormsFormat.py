@@ -1,6 +1,8 @@
 def normsConsumer():
-    '''public NormsConsumer normsConsumer(final SegmentWriteState state)
+    '''returns NormsConsumer\n\n
+    normsConsumer(final SegmentWriteState state)\n
     '''
 def normsProducer():
-    '''public NormsProducer normsProducer(final SegmentReadState state)
+    '''returns NormsProducer\n\n
+    normsProducer(final SegmentReadState state)\n
     '''

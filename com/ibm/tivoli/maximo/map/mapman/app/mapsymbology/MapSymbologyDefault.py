@@ -1,3 +1,4 @@
-def MapSymbologyDefault():
-    '''public MapSymbologyDefault(final MboSet ms)
+def ():
+    '''returns MapSymbologyDefault\n\n
+    (final MboSet ms)\n
     '''

@@ -1,3 +1,4 @@
-def HttpAuthRealm():
-    '''public HttpAuthRealm(final String domain, final String realm)
+def ():
+    '''returns HttpAuthRealm\n\n
+    (final String domain, final String realm)\n
     '''

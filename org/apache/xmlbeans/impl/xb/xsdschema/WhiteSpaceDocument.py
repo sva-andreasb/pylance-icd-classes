@@ -1,0 +1,7 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(((WhiteSpaceDocument$1.class$org$apache$xmlbeans$impl$xb$xsdschema$WhiteSpaceDocument$WhiteSpace$Value == null) ? (WhiteSpaceDocument$1.class$org$apache$xmlbeans$impl$xb$xsdschema$WhiteSpaceDocument$WhiteSpace$Value = WhiteSpaceDocument$1.class$(\"org.apache.xmlbeans.impl.xb.xsdschema.WhiteSpaceDocument$WhiteSpace$Value\")) : WhiteSpaceDocument$1.class$org$apache$xmlbeans$impl$xb$xsdschema$WhiteSpaceDocument$WhiteSpace$Value).getClassLoader(), \"schemaorg_apache_xmlbeans.system.sXMLSCHEMA\").resolveHandle(\"value8186attrtype\")"
+PRESERVE = "Enum  Enum.forString(\"preserve\")"
+REPLACE = "Enum  Enum.forString(\"replace\")"
+COLLAPSE = "Enum  Enum.forString(\"collapse\")"
+INT_PRESERVE = "int  1"
+INT_REPLACE = "int  2"
+INT_COLLAPSE = "int  3"

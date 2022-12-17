@@ -1,15 +1,20 @@
-def MaxIntErrorMsg():
-    '''public MaxIntErrorMsg(final MboSet ms)
+def ():
+    '''returns MaxIntErrorMsg\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def process():
-    '''public void process()
+    '''returns None\n\n
+    process()\n
     '''

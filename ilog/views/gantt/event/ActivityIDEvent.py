@@ -1,12 +1,16 @@
-def ActivityIDEvent():
-    '''public ActivityIDEvent(final IlvActivity ilvActivity, final String s, final String s2, final boolean b)
+def ():
+    '''returns ActivityIDEvent\n\n
+    (final IlvActivity ilvActivity, final String s, final String s2, final boolean b)\n
     '''
 def getOldID():
-    '''public String getOldID()
+    '''returns String\n\n
+    getOldID()\n
     '''
 def getNewID():
-    '''public String getNewID()
+    '''returns String\n\n
+    getNewID()\n
     '''
 def setNewID():
-    '''public void setNewID(final String newValue)
+    '''returns None\n\n
+    setNewID(final String newValue)\n
     '''

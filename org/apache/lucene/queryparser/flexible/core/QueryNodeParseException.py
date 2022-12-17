@@ -1,23 +1,30 @@
-def QueryNodeParseException():
-    '''public QueryNodeParseException(final Message message)
-    public QueryNodeParseException(final Throwable throwable)
-    public QueryNodeParseException(final Message message, final Throwable throwable)
+def ():
+    '''returns QueryNodeParseException\n\n
+    (final Message message)\n
+    (final Throwable throwable)\n
+    (final Message message, final Throwable throwable)\n
     '''
 def setQuery():
-    '''public void setQuery(final CharSequence query)
+    '''returns None\n\n
+    setQuery(final CharSequence query)\n
     '''
 def getQuery():
-    '''public CharSequence getQuery()
+    '''returns CharSequence\n\n
+    getQuery()\n
     '''
 def getErrorToken():
-    '''public String getErrorToken()
+    '''returns String\n\n
+    getErrorToken()\n
     '''
 def setNonLocalizedMessage():
-    '''public void setNonLocalizedMessage(final Message message)
+    '''returns None\n\n
+    setNonLocalizedMessage(final Message message)\n
     '''
 def getBeginLine():
-    '''public int getBeginLine()
+    '''returns int\n\n
+    getBeginLine()\n
     '''
 def getBeginColumn():
-    '''public int getBeginColumn()
+    '''returns int\n\n
+    getBeginColumn()\n
     '''

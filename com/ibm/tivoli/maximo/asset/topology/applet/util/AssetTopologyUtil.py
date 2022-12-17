@@ -1,11 +1,10 @@
-def instance():
-    '''public static synchronized AssetTopologyUtil instance()
-    '''
 def logMessage():
-    '''public void logMessage(final String message, final Throwable t)
-    public void logMessage(final String message)
-    public void logMessage(final Object o)
+    '''returns None\n\n
+    logMessage(final String message, final Throwable t)\n
+    logMessage(final String message)\n
+    logMessage(final Object o)\n
     '''
 def setApplet():
-    '''public void setApplet(final TopologyApplet applet)
+    '''returns None\n\n
+    setApplet(final TopologyApplet applet)\n
     '''

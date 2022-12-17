@@ -1,21 +1,27 @@
-def S3ObjectId():
-    '''public S3ObjectId(final String bucket, final String key)
-    public S3ObjectId(final String bucket, final String key, final String versionId)
-    public S3ObjectId(final S3ObjectIdBuilder builder)
+def ():
+    '''returns S3ObjectId\n\n
+    (final String bucket, final String key)\n
+    (final String bucket, final String key, final String versionId)\n
+    (final S3ObjectIdBuilder builder)\n
     '''
 def getBucket():
-    '''public String getBucket()
+    '''returns String\n\n
+    getBucket()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def instructionFileId():
-    '''public InstructionFileId instructionFileId()
-    public InstructionFileId instructionFileId(final String suffix)
+    '''returns InstructionFileId\n\n
+    instructionFileId()\n
+    instructionFileId(final String suffix)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
-def MaxLicUserAscSet():
-    '''public MaxLicUserAscSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLicUserAscSet\n\n
+    (final MboServerInterface ms)\n
     '''

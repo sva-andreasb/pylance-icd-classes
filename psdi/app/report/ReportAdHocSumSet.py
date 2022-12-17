@@ -1,3 +1,4 @@
-def ReportAdHocSumSet():
-    '''public ReportAdHocSumSet(final MboServerInterface ms)
+def ():
+    '''returns ReportAdHocSumSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,18 +1,24 @@
-def DMCollectionObject():
-    '''public DMCollectionObject(final MboSet ms)
+def ():
+    '''returns DMCollectionObject\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateExport():
-    '''public byte[] generateExport()
+    '''returns byte[]\n\n
+    generateExport()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

@@ -1,10 +1,13 @@
-def FldAMCTQualQuantity():
-    '''public FldAMCTQualQuantity()
-    public FldAMCTQualQuantity(final MboValue mbv)
+def ():
+    '''returns FldAMCTQualQuantity\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,13 +1,17 @@
-def Window():
-    '''public Window(final int n, final String s)
-    public Window(final int n)
+def ():
+    '''returns Window\n\n
+    (final int n, final String s)\n
+    (final int n)\n
     '''
 def call():
-    '''public Object call(final String s, final Object[] array)
+    '''returns Object\n\n
+    call(final String s, final Object[] array)\n
     '''
 def getMember():
-    '''public Object getMember(final String str)
+    '''returns Object\n\n
+    getMember(final String str)\n
     '''
 def setMember():
-    '''public void setMember(final String s, final Object o)
+    '''returns None\n\n
+    setMember(final String s, final Object o)\n
     '''

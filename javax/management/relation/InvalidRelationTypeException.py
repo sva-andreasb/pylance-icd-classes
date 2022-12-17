@@ -1,4 +1,5 @@
-def InvalidRelationTypeException():
-    '''public InvalidRelationTypeException()
-    public InvalidRelationTypeException(final String s)
+def ():
+    '''returns InvalidRelationTypeException\n\n
+    ()\n
+    (final String s)\n
     '''

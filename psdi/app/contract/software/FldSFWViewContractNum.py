@@ -1,6 +1,8 @@
-def FldSFWViewContractNum():
-    '''public FldSFWViewContractNum(final MboValue mbv)
+def ():
+    '''returns FldSFWViewContractNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

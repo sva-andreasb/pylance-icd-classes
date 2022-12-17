@@ -1,15 +1,20 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getAttrString():
-    '''public String getAttrString(final String relationPath)
+    '''returns String\n\n
+    getAttrString(final String relationPath)\n
     '''
 def clearAllSelectedAttributes():
-    '''public void clearAllSelectedAttributes()
+    '''returns None\n\n
+    clearAllSelectedAttributes()\n
     '''
 def unselectatt():
-    '''public int unselectatt()
+    '''returns int\n\n
+    unselectatt()\n
     '''
 def unselectallatt():
-    '''public int unselectallatt()
+    '''returns int\n\n
+    unselectallatt()\n
     '''

@@ -1,4 +1,5 @@
 PUSHNOTF_LOGGER = "String  \"maximo.pushnotification\""
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

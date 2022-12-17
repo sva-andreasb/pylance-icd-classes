@@ -1,18 +1,24 @@
-def IloCustomOplDecisionExprCallback():
-    '''public IloCustomOplDecisionExprCallback(final IloOplFactory oplEnv, final boolean enableScripting)
+def ():
+    '''returns IloCustomOplDecisionExprCallback\n\n
+    (final IloOplFactory oplEnv, final boolean enableScripting)\n
     '''
 def startDecisionExpr():
-    '''public boolean startDecisionExpr(final String dexprName, final double coef, final IloNumExprArg expr)
+    '''returns boolean\n\n
+    startDecisionExpr(final String dexprName, final double coef, final IloNumExprArg expr)\n
     '''
 def startSum():
-    '''public boolean startSum(final double coef, final IloNumExprArg expr)
+    '''returns boolean\n\n
+    startSum(final double coef, final IloNumExprArg expr)\n
     '''
 def addTerm():
-    '''public void addTerm(final double coef, final IloNumExprArg expr)
+    '''returns None\n\n
+    addTerm(final double coef, final IloNumExprArg expr)\n
     '''
 def endSum():
-    '''public void endSum()
+    '''returns None\n\n
+    endSum()\n
     '''
 def endDecisionExpr():
-    '''public void endDecisionExpr(final String dexprName)
+    '''returns None\n\n
+    endDecisionExpr(final String dexprName)\n
     '''

@@ -1,6 +1,4 @@
-def SelectAttrBean():
-    '''public SelectAttrBean()
-    '''
-def selectattr():
-    '''public synchronized int selectattr()
+def ():
+    '''returns SelectAttrBean\n\n
+    ()\n
     '''

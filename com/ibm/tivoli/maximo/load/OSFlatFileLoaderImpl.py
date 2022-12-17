@@ -1,13 +1,17 @@
-def OSFlatFileLoaderImpl():
-    '''public OSFlatFileLoaderImpl(final boolean preview, final boolean fromClient, final String delimiter, final String textQualifier, final boolean isFileExtract, final String fileName, final String processOwner)
-    public OSFlatFileLoaderImpl(final boolean preview, final String delimiter, final String textQualifier, final String action, final String transLangCode)
+def ():
+    '''returns OSFlatFileLoaderImpl\n\n
+    (final boolean preview, final boolean fromClient, final String delimiter, final String textQualifier, final boolean isFileExtract, final String fileName, final String processOwner)\n
+    (final boolean preview, final String delimiter, final String textQualifier, final String action, final String transLangCode)\n
     '''
 def processObjectStructureFlatData():
-    '''public void processObjectStructureFlatData(final InputStream inStream, final String osName, final String messageType, final MboRemote npMbo)
+    '''returns None\n\n
+    processObjectStructureFlatData(final InputStream inStream, final String osName, final String messageType, final MboRemote npMbo)\n
     '''
 def validateFile():
-    '''public void validateFile(final InputStream inStream, final String osName, final String messageType, final MboRemote npMbo)
+    '''returns None\n\n
+    validateFile(final InputStream inStream, final String osName, final String messageType, final MboRemote npMbo)\n
     '''
 def writeToFile():
-    '''public void writeToFile(final int lineNum)
+    '''returns None\n\n
+    writeToFile(final int lineNum)\n
     '''

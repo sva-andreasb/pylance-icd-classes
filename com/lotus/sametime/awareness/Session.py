@@ -1,9 +1,12 @@
-def Session():
-    '''public Session(final Integer id, final boolean visible)
+def ():
+    '''returns Session\n\n
+    (final Integer id, final boolean visible)\n
     '''
 def getId():
-    '''public Integer getId()
+    '''returns Integer\n\n
+    getId()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''

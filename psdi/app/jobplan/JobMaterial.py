@@ -1,15 +1,20 @@
-def JobMaterial():
-    '''public JobMaterial(final MboSet ms)
+def ():
+    '''returns JobMaterial\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def supplyStoreroom():
-    '''public void supplyStoreroom(final PM pm)
+    '''returns None\n\n
+    supplyStoreroom(final PM pm)\n
     '''
 def needsStoreroom():
-    '''public boolean needsStoreroom()
+    '''returns boolean\n\n
+    needsStoreroom()\n
     '''

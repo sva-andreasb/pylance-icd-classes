@@ -1,9 +1,12 @@
-def TripleCache():
-    '''public TripleCache()
+def ():
+    '''returns TripleCache\n\n
+    ()\n
     '''
 def put():
-    '''public Triple put(final Triple t)
+    '''returns Triple\n\n
+    put(final Triple t)\n
     '''
 def get():
-    '''public Triple get(final Node s, final Node p, final Node o)
+    '''returns Triple\n\n
+    get(final Node s, final Node p, final Node o)\n
     '''

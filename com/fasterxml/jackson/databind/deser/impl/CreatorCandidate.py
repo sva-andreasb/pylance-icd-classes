@@ -1,39 +1,48 @@
-def construct():
-    '''public static CreatorCandidate construct(final AnnotationIntrospector intr, final AnnotatedWithParams creator, final BeanPropertyDefinition[] propDefs)
-    '''
 def creator():
-    '''public AnnotatedWithParams creator()
+    '''returns AnnotatedWithParams\n\n
+    creator()\n
     '''
 def paramCount():
-    '''public int paramCount()
+    '''returns int\n\n
+    paramCount()\n
     '''
 def parameter():
-    '''public AnnotatedParameter parameter(final int i)
+    '''returns AnnotatedParameter\n\n
+    parameter(final int i)\n
     '''
 def propertyDef():
-    '''public BeanPropertyDefinition propertyDef(final int i)
+    '''returns BeanPropertyDefinition\n\n
+    propertyDef(final int i)\n
     '''
 def paramName():
-    '''public PropertyName paramName(final int i)
+    '''returns PropertyName\n\n
+    paramName(final int i)\n
     '''
 def explicitParamName():
-    '''public PropertyName explicitParamName(final int i)
+    '''returns PropertyName\n\n
+    explicitParamName(final int i)\n
     '''
 def findImplicitParamName():
-    '''public PropertyName findImplicitParamName(final int i)
+    '''returns PropertyName\n\n
+    findImplicitParamName(final int i)\n
     '''
 def findOnlyParamWithoutInjection():
-    '''public int findOnlyParamWithoutInjection()
+    '''returns int\n\n
+    findOnlyParamWithoutInjection()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Param():
-    '''public Param(final AnnotatedParameter p, final BeanPropertyDefinition pd, final JacksonInject.Value i)
+def ():
+    '''returns Param\n\n
+    (final AnnotatedParameter p, final BeanPropertyDefinition pd, final JacksonInject.Value i)\n
     '''
 def fullName():
-    '''public PropertyName fullName()
+    '''returns PropertyName\n\n
+    fullName()\n
     '''
 def hasFullName():
-    '''public boolean hasFullName()
+    '''returns boolean\n\n
+    hasFullName()\n
     '''

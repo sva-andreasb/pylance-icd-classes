@@ -1,9 +1,8 @@
-def BuildProperties():
-    '''public BuildProperties()
-    '''
-def create():
-    '''public static synchronized BuildProperties create(final String lineSeparator)
+def ():
+    '''returns BuildProperties\n\n
+    ()\n
     '''
 def generate():
-    '''public String generate(final Object argument)
+    '''returns String\n\n
+    generate(final Object argument)\n
     '''

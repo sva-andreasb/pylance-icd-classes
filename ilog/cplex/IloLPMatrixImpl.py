@@ -1,92 +1,119 @@
 def getNcols():
-    '''public int getNcols()
+    '''returns int\n\n
+    getNcols()\n
     '''
 def getNrows():
-    '''public int getNrows()
+    '''returns int\n\n
+    getNrows()\n
     '''
 def getNNZs():
-    '''public int getNNZs()
+    '''returns int\n\n
+    getNNZs()\n
     '''
 def getCols():
-    '''public void getCols(final int begin, final int num, final int[][] ind, final double[][] val)
+    '''returns None\n\n
+    getCols(final int begin, final int num, final int[][] ind, final double[][] val)\n
     '''
 def getRows():
-    '''public void getRows(final int start, final int num, final double[] lb, final double[] ub, final int[][] ind, final double[][] val)
+    '''returns None\n\n
+    getRows(final int start, final int num, final double[] lb, final double[] ub, final int[][] ind, final double[][] val)\n
     '''
 def getNZ():
-    '''public double getNZ(final int row, final int column)
+    '''returns double\n\n
+    getNZ(final int row, final int column)\n
     '''
 def getIndex():
-    '''public int getIndex(final ilog.concert.IloRange rng)
-    public int getIndex(final ilog.concert.IloNumVar var)
+    '''returns int\n\n
+    getIndex(final ilog.concert.IloRange rng)\n
+    getIndex(final ilog.concert.IloNumVar var)\n
     '''
 def getNumVarsO():
-    '''public IloNumVarArray getNumVarsO()
+    '''returns IloNumVarArray\n\n
+    getNumVarsO()\n
     '''
 def addRow():
-    '''public int addRow(final double lb, final double ub, final int[] ind, final double[] val)
-    public int addRow(final ilog.concert.IloRange rng)
+    '''returns int\n\n
+    addRow(final double lb, final double ub, final int[] ind, final double[] val)\n
+    addRow(final ilog.concert.IloRange rng)\n
     '''
 def addRows():
-    '''public int addRows(final double[] lb, final double[] ub, final int[][] ind, final double[][] val)
-    public int addRows(final ilog.concert.IloRange[] rng)
-    public int addRows(final ilog.concert.IloRange[] rng, final int start, final int num)
+    '''returns int\n\n
+    addRows(final double[] lb, final double[] ub, final int[][] ind, final double[][] val)\n
+    addRows(final ilog.concert.IloRange[] rng)\n
+    addRows(final ilog.concert.IloRange[] rng, final int start, final int num)\n
     '''
 def removeRow():
-    '''public void removeRow(final int ind)
+    '''returns None\n\n
+    removeRow(final int ind)\n
     '''
 def removeRows():
-    '''public void removeRows(final int start, final int num)
-    public void removeRows(final int[] ind)
-    public void removeRows(final int[] ind, final int start, final int num)
+    '''returns None\n\n
+    removeRows(final int start, final int num)\n
+    removeRows(final int[] ind)\n
+    removeRows(final int[] ind, final int start, final int num)\n
     '''
 def addColumn():
-    '''public int addColumn(final ilog.concert.IloNumVar var, final int[] ind, final double[] val)
-    public int addColumn(final ilog.concert.IloNumVar var)
+    '''returns int\n\n
+    addColumn(final ilog.concert.IloNumVar var, final int[] ind, final double[] val)\n
+    addColumn(final ilog.concert.IloNumVar var)\n
     '''
 def addCols():
-    '''public int addCols(final ilog.concert.IloNumVar[] var, final int[][] indices, final double[][] values)
-    public int addCols(final ilog.concert.IloNumVar[] var)
-    public int addCols(final ilog.concert.IloNumVar[] var, final int start, final int num)
+    '''returns int\n\n
+    addCols(final ilog.concert.IloNumVar[] var, final int[][] indices, final double[][] values)\n
+    addCols(final ilog.concert.IloNumVar[] var)\n
+    addCols(final ilog.concert.IloNumVar[] var, final int start, final int num)\n
     '''
 def removeColumn():
-    '''public void removeColumn(final int ind)
+    '''returns None\n\n
+    removeColumn(final int ind)\n
     '''
 def removeCols():
-    '''public void removeCols(final int begin, final int num)
-    public void removeCols(final int[] ind)
-    public void removeCols(final int[] ind, final int start, final int num)
+    '''returns None\n\n
+    removeCols(final int begin, final int num)\n
+    removeCols(final int[] ind)\n
+    removeCols(final int[] ind, final int start, final int num)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def setNZ():
-    '''public void setNZ(final int rowind, final int colind, final double val)
+    '''returns None\n\n
+    setNZ(final int rowind, final int colind, final double val)\n
     '''
 def setNZs():
-    '''public void setNZs(final int[] rowind, final int[] colind, final double[] val)
+    '''returns None\n\n
+    setNZs(final int[] rowind, final int[] colind, final double[] val)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String arg0)
+    '''returns None\n\n
+    setName(final String arg0)\n
     '''
 def needCopy():
-    '''public void needCopy(final IloCopyManager.Check check)
+    '''returns None\n\n
+    needCopy(final IloCopyManager.Check check)\n
     '''
 def makeCopy():
-    '''public IloCopyable makeCopy(final IloCopyManager copy)
+    '''returns IloCopyable\n\n
+    makeCopy(final IloCopyManager copy)\n
     '''
 def getCopy():
-    '''public IloCopyable getCopy(final IloCopyable arg0)
+    '''returns IloCopyable\n\n
+    getCopy(final IloCopyable arg0)\n
     '''
 def makeColumnArray():
-    '''public IloColumnArray makeColumnArray(final int num, final int[][] ind, final double[][] val)
+    '''returns IloColumnArray\n\n
+    makeColumnArray(final int num, final int[][] ind, final double[][] val)\n
     '''
 def install():
-    '''public void install(final ilog.concert.IloNumVar[] var)
+    '''returns None\n\n
+    install(final ilog.concert.IloNumVar[] var)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''

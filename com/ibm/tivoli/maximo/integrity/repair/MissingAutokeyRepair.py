@@ -1,6 +1,8 @@
-def MissingAutokeyRepair():
-    '''public MissingAutokeyRepair(final DatabaseInformation di, final String autokeyname, final String object, final String attr, final String siteorgtype)
+def ():
+    '''returns MissingAutokeyRepair\n\n
+    (final DatabaseInformation di, final String autokeyname, final String object, final String attr, final String siteorgtype)\n
     '''
 def doRepair():
-    '''public void doRepair()
+    '''returns None\n\n
+    doRepair()\n
     '''

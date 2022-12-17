@@ -1,37 +1,47 @@
 ELEMENT = "String  \"item\""
-def MUCItem():
-    '''public MUCItem(final MUCAffiliation affiliation)
-    public MUCItem(final MUCRole role)
-    public MUCItem(final MUCRole role, final Resourcepart nick)
-    public MUCItem(final MUCAffiliation affiliation, final Jid jid, final String reason)
-    public MUCItem(final MUCAffiliation affiliation, final Jid jid)
-    public MUCItem(final MUCRole role, final Resourcepart nick, final String reason)
-    public MUCItem(final MUCAffiliation affiliation, final MUCRole role, final Jid actor, final String reason, final Jid jid, final Resourcepart nick, final Resourcepart actorNick)
+def ():
+    '''returns MUCItem\n\n
+    (final MUCAffiliation affiliation)\n
+    (final MUCRole role)\n
+    (final MUCRole role, final Resourcepart nick)\n
+    (final MUCAffiliation affiliation, final Jid jid, final String reason)\n
+    (final MUCAffiliation affiliation, final Jid jid)\n
+    (final MUCRole role, final Resourcepart nick, final String reason)\n
+    (final MUCAffiliation affiliation, final MUCRole role, final Jid actor, final String reason, final Jid jid, final Resourcepart nick, final Resourcepart actorNick)\n
     '''
 def getActor():
-    '''public Jid getActor()
+    '''returns Jid\n\n
+    getActor()\n
     '''
 def getActorNick():
-    '''public Resourcepart getActorNick()
+    '''returns Resourcepart\n\n
+    getActorNick()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def getAffiliation():
-    '''public MUCAffiliation getAffiliation()
+    '''returns MUCAffiliation\n\n
+    getAffiliation()\n
     '''
 def getJid():
-    '''public Jid getJid()
+    '''returns Jid\n\n
+    getJid()\n
     '''
 def getNick():
-    '''public Resourcepart getNick()
+    '''returns Resourcepart\n\n
+    getNick()\n
     '''
 def getRole():
-    '''public MUCRole getRole()
+    '''returns MUCRole\n\n
+    getRole()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''

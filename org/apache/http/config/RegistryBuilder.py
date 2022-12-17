@@ -1,12 +1,12 @@
-def create():
-    '''public static <I> RegistryBuilder<I> create()
-    '''
 def register():
-    '''public RegistryBuilder<I> register(final String id, final I item)
+    '''returns RegistryBuilder<I>\n\n
+    register(final String id, final I item)\n
     '''
 def build():
-    '''public Registry<I> build()
+    '''returns Registry<I>\n\n
+    build()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

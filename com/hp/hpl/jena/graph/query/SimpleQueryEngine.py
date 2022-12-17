@@ -1,19 +1,21 @@
-def SimpleQueryEngine():
-    '''public SimpleQueryEngine(final NamedTripleBunches triples, final TripleSorter ts, final ExpressionSet constraint)
-    public SimpleQueryEngine(final List<Triple> pattern, final TripleSorter sorter, final ExpressionSet constraints)
+def ():
+    '''returns SimpleQueryEngine\n\n
+    (final NamedTripleBunches triples, final TripleSorter ts, final ExpressionSet constraint)\n
+    (final List<Triple> pattern, final TripleSorter sorter, final ExpressionSet constraints)\n
     '''
 def executeBindings():
-    '''public ExtendedIterator<Domain> executeBindings(final List<Stage> outStages, final NamedGraphMap args, final Node[] nodes)
+    '''returns ExtendedIterator<Domain>\n\n
+    executeBindings(final List<Stage> outStages, final NamedGraphMap args, final Node[] nodes)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def next():
-    '''public Domain next()
+    '''returns Domain\n\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    '''
-def cons():
-    '''public static Cons cons(final Triple pattern, final Object cons)
+    '''returns boolean\n\n
+    hasNext()\n
     '''

@@ -1,13 +1,16 @@
 PUBLIC_KEY = "String  \"PUBLIC\""
 SYSTEM_KEY = "String  \"SYSTEM\""
-def DocumentType():
-    '''public DocumentType(final String name, final String publicId, final String systemId)
-    public DocumentType(final String name, final String publicId, final String systemId, final String baseUri)
-    public DocumentType(final String name, final String pubSysKey, final String publicId, final String systemId, final String baseUri)
+def ():
+    '''returns DocumentType\n\n
+    (final String name, final String publicId, final String systemId)\n
+    (final String name, final String publicId, final String systemId, final String baseUri)\n
+    (final String name, final String pubSysKey, final String publicId, final String systemId, final String baseUri)\n
     '''
 def setPubSysKey():
-    '''public void setPubSysKey(final String value)
+    '''returns None\n\n
+    setPubSysKey(final String value)\n
     '''
 def nodeName():
-    '''public String nodeName()
+    '''returns String\n\n
+    nodeName()\n
     '''

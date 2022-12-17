@@ -1,101 +1,130 @@
-def XOPDecodingStreamReader():
-    '''public XOPDecodingStreamReader(final XMLStreamReader parent, final MimePartProvider mimePartProvider)
+def ():
+    '''returns DataHandlerProviderImpl\n\n
+    (final XMLStreamReader parent, final MimePartProvider mimePartProvider)\n
+    (final MimePartProvider mimePartProvider, final String contentID)\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def getEventType():
-    '''public int getEventType()
+    '''returns int\n\n
+    getEventType()\n
     '''
 def nextTag():
-    '''public int nextTag()
+    '''returns int\n\n
+    nextTag()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def getElementText():
-    '''public String getElementText()
+    '''returns String\n\n
+    getElementText()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
-    public String getNamespaceURI(final String prefix)
-    public String getNamespaceURI(final int index)
+    '''returns String\n\n
+    getNamespaceURI()\n
+    getNamespaceURI(final String prefix)\n
+    getNamespaceURI(final int index)\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def getNamespaceCount():
-    '''public int getNamespaceCount()
+    '''returns int\n\n
+    getNamespaceCount()\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final int index)
+    '''returns String\n\n
+    getNamespacePrefix(final int index)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
-    public int getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)
+    '''returns int\n\n
+    getTextCharacters()\n
+    getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getTextStart():
-    '''public int getTextStart()
+    '''returns int\n\n
+    getTextStart()\n
     '''
 def hasText():
-    '''public boolean hasText()
+    '''returns boolean\n\n
+    hasText()\n
     '''
 def isCharacters():
-    '''public boolean isCharacters()
+    '''returns boolean\n\n
+    isCharacters()\n
     '''
 def isStartElement():
-    '''public boolean isStartElement()
+    '''returns boolean\n\n
+    isStartElement()\n
     '''
 def isEndElement():
-    '''public boolean isEndElement()
+    '''returns boolean\n\n
+    isEndElement()\n
     '''
 def hasName():
-    '''public boolean hasName()
+    '''returns boolean\n\n
+    hasName()\n
     '''
 def isWhiteSpace():
-    '''public boolean isWhiteSpace()
+    '''returns boolean\n\n
+    isWhiteSpace()\n
     '''
 def require():
-    '''public void require(final int type, final String namespaceURI, final String localName)
+    '''returns None\n\n
+    require(final int type, final String namespaceURI, final String localName)\n
     '''
 def isBinary():
-    '''public boolean isBinary()
+    '''returns boolean\n\n
+    isBinary()\n
     '''
 def isOptimized():
-    '''public boolean isOptimized()
+    '''returns boolean\n\n
+    isOptimized()\n
     '''
 def isDeferred():
-    '''public boolean isDeferred()
+    '''returns boolean\n\n
+    isDeferred()\n
     '''
 def getContentID():
-    '''public String getContentID()
-    public String getContentID()
+    '''returns String\n\n
+    getContentID()\n
+    getContentID()\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler()
-    public DataHandler getDataHandler()
+    '''returns DataHandler\n\n
+    getDataHandler()\n
+    getDataHandler()\n
     '''
 def getDataHandlerProvider():
-    '''public DataHandlerProvider getDataHandlerProvider()
-    '''
-def DataHandlerProviderImpl():
-    '''public DataHandlerProviderImpl(final MimePartProvider mimePartProvider, final String contentID)
+    '''returns DataHandlerProvider\n\n
+    getDataHandlerProvider()\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''

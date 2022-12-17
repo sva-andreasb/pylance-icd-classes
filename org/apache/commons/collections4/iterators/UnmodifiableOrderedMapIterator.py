@@ -1,27 +1,32 @@
-def unmodifiableOrderedMapIterator():
-    '''public static <K, V> OrderedMapIterator<K, V> unmodifiableOrderedMapIterator(final OrderedMapIterator<K, ? extends V> iterator)
-    '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public K next()
+    '''returns K\n\n
+    next()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public K previous()
+    '''returns K\n\n
+    previous()\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

@@ -1,15 +1,20 @@
-def GenericBucketRequest():
-    '''public GenericBucketRequest(final String bucketName)
+def ():
+    '''returns GenericBucketRequest\n\n
+    (final String bucketName)\n
     '''
 def getBucket():
-    '''public String getBucket()
+    '''returns String\n\n
+    getBucket()\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public GenericBucketRequest withBucketName(final String bucketName)
+    '''returns GenericBucketRequest\n\n
+    withBucketName(final String bucketName)\n
     '''

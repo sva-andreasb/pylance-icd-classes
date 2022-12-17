@@ -1,7 +1,9 @@
-def DefaultHttpResponseWriterFactory():
-    '''public DefaultHttpResponseWriterFactory(final LineFormatter lineFormatter)
-    public DefaultHttpResponseWriterFactory()
+def ():
+    '''returns DefaultHttpResponseWriterFactory\n\n
+    (final LineFormatter lineFormatter)\n
+    ()\n
     '''
 def create():
-    '''public HttpMessageWriter<HttpResponse> create(final SessionOutputBuffer buffer)
+    '''returns HttpMessageWriter<HttpResponse>\n\n
+    create(final SessionOutputBuffer buffer)\n
     '''

@@ -1,27 +1,36 @@
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def okdialog():
-    '''public int okdialog()
+    '''returns int\n\n
+    okdialog()\n
     '''
 def returnFromSpellCheck():
-    '''public void returnFromSpellCheck()
+    '''returns None\n\n
+    returnFromSpellCheck()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def change():
-    '''public int change()
+    '''returns int\n\n
+    change()\n
     '''
 def changeAll():
-    '''public int changeAll()
+    '''returns int\n\n
+    changeAll()\n
     '''
 def ignore():
-    '''public int ignore()
+    '''returns int\n\n
+    ignore()\n
     '''
 def ignoreAll():
-    '''public int ignoreAll()
+    '''returns int\n\n
+    ignoreAll()\n
     '''
 def getString():
-    '''public String getString(final String attribute)
+    '''returns String\n\n
+    getString(final String attribute)\n
     '''

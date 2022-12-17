@@ -1,31 +1,25 @@
-def IlvDiagrammerPaletteAction():
-    '''public IlvDiagrammerPaletteAction(final IlvDiagrammer a, final Object c)
-    public IlvDiagrammerPaletteAction(final boolean e)
+def ():
+    '''returns IlvDiagrammerPaletteAction\n\n
+    (final IlvDiagrammer a, final Object c)\n
+    (final boolean e)\n
     '''
 def isSelectable():
-    '''public boolean isSelectable()
+    '''returns boolean\n\n
+    isSelectable()\n
     '''
 def isLink():
-    '''public boolean isLink()
-    '''
-def perform():
-    '''public final void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
+    '''returns boolean\n\n
+    isLink()\n
     '''
 def init():
-    '''public void init()
-    '''
-def getActions():
-    '''public static IlvDiagrammerAction[] getActions(final IlvDiagrammer ilvDiagrammer, final IlvDiagrammerHashFunction ilvDiagrammerHashFunction)
-    '''
-def setSmallIconSize():
-    '''public static void setSmallIconSize(final int g)
-    '''
-def getSmallIconSize():
-    '''public static int getSmallIconSize()
+    '''returns None\n\n
+    init()\n
     '''
 def getPaletteObject():
-    '''public Object getPaletteObject()
+    '''returns Object\n\n
+    getPaletteObject()\n
     '''
 def getPaletteDiagrammer():
-    '''public IlvDiagrammer getPaletteDiagrammer()
+    '''returns IlvDiagrammer\n\n
+    getPaletteDiagrammer()\n
     '''

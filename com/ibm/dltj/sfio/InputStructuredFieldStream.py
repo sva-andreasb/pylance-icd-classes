@@ -1,21 +1,27 @@
 INTLENGTH = "int  4"
-def InputStructuredFieldStream():
-    '''public InputStructuredFieldStream(final InputStream inStream)
+def ():
+    '''returns InputStructuredFieldStream\n\n
+    (final InputStream inStream)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def readHdr():
-    '''public InputStructuredFieldInfo readHdr()
+    '''returns InputStructuredFieldInfo\n\n
+    readHdr()\n
     '''
 def getHdr():
-    '''public InputStructuredFieldInfo getHdr()
+    '''returns InputStructuredFieldInfo\n\n
+    getHdr()\n
     '''
 def skipData():
-    '''public void skipData()
+    '''returns None\n\n
+    skipData()\n
     '''
 def readData():
-    '''public byte[] readData()
-    public void readData(final byte[] array)
-    public void readData(final byte[] array, final int n, final int n2)
+    '''returns None\n\n
+    readData()\n
+    readData(final byte[] array)\n
+    readData(final byte[] array, final int n, final int n2)\n
     '''

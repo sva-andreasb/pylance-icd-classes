@@ -1,19 +1,25 @@
-def LineContainsRegExp():
-    '''public LineContainsRegExp()
-    public LineContainsRegExp(final Reader in)
+def ():
+    '''returns LineContainsRegExp\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def addConfiguredRegexp():
-    '''public void addConfiguredRegexp(final RegularExpression regExp)
+    '''returns None\n\n
+    addConfiguredRegexp(final RegularExpression regExp)\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''
 def setNegate():
-    '''public void setNegate(final boolean b)
+    '''returns None\n\n
+    setNegate(final boolean b)\n
     '''
 def isNegated():
-    '''public boolean isNegated()
+    '''returns boolean\n\n
+    isNegated()\n
     '''

@@ -1,6 +1,8 @@
-def FSNObjProperty():
-    '''public FSNObjProperty(final MboSet ms)
+def ():
+    '''returns FSNObjProperty\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

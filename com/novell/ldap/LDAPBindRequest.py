@@ -1,9 +1,12 @@
-def LDAPBindRequest():
-    '''public LDAPBindRequest(final int n, final String s, final byte[] array, final LDAPControl[] array2)
+def ():
+    '''returns LDAPBindRequest\n\n
+    (final int n, final String s, final byte[] array, final LDAPControl[] array2)\n
     '''
 def getAuthenticationDN():
-    '''public String getAuthenticationDN()
+    '''returns String\n\n
+    getAuthenticationDN()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

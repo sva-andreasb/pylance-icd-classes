@@ -1,69 +1,92 @@
-def Budget():
-    '''public Budget(final MboSet ms)
+def ():
+    '''returns Budget\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getBudgetNum():
-    '''public String getBudgetNum()
+    '''returns String\n\n
+    getBudgetNum()\n
     '''
 def updateBudget():
-    '''public void updateBudget()
+    '''returns None\n\n
+    updateBudget()\n
     '''
 def getRules():
-    '''public BudgetRuleSetRemote getRules()
+    '''returns BudgetRuleSetRemote\n\n
+    getRules()\n
     '''
 def canGenerateBudget():
-    '''public boolean canGenerateBudget(final boolean deleteExistingRows)
+    '''returns boolean\n\n
+    canGenerateBudget(final boolean deleteExistingRows)\n
     '''
 def generateBudget():
-    '''public void generateBudget(final boolean deleteExistingRows)
+    '''returns None\n\n
+    generateBudget(final boolean deleteExistingRows)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def isDraft():
-    '''public boolean isDraft()
+    '''returns boolean\n\n
+    isDraft()\n
     '''
 def isApproved():
-    '''public boolean isApproved()
+    '''returns boolean\n\n
+    isApproved()\n
     '''
 def isWaitingForApproval():
-    '''public boolean isWaitingForApproval()
+    '''returns boolean\n\n
+    isWaitingForApproval()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def getOrgID():
-    '''public String getOrgID()
+    '''returns String\n\n
+    getOrgID()\n
     '''
 def getSiteID():
-    '''public String getSiteID()
+    '''returns String\n\n
+    getSiteID()\n
     '''
 def getBudgetAnalysisAxes():
-    '''public BudgetAnalysisAxisNumberSetRemote getBudgetAnalysisAxes()
+    '''returns BudgetAnalysisAxisNumberSetRemote\n\n
+    getBudgetAnalysisAxes()\n
     '''
 def getLines():
-    '''public BudgetLineSetRemote getLines()
+    '''returns BudgetLineSetRemote\n\n
+    getLines()\n
     '''
 def getSupervisor():
-    '''public String getSupervisor()
+    '''returns String\n\n
+    getSupervisor()\n
     '''
 def removeAllLines():
-    '''public void removeAllLines()
+    '''returns None\n\n
+    removeAllLines()\n
     '''

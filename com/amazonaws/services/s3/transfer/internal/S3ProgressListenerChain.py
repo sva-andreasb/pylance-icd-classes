@@ -1,6 +1,8 @@
-def S3ProgressListenerChain():
-    '''public S3ProgressListenerChain(final ProgressListener... listeners)
+def ():
+    '''returns S3ProgressListenerChain\n\n
+    (final ProgressListener... listeners)\n
     '''
 def onPersistableTransfer():
-    '''public void onPersistableTransfer(final PersistableTransfer persistableTransfer)
+    '''returns None\n\n
+    onPersistableTransfer(final PersistableTransfer persistableTransfer)\n
     '''

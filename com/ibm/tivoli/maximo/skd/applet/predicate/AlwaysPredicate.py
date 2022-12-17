@@ -1,6 +1,8 @@
-def AlwaysPredicate():
-    '''public AlwaysPredicate(final boolean always)
+def ():
+    '''returns AlwaysPredicate\n\n
+    (final boolean always)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final IlvHierarchyChart chart, final T in)
+    '''returns boolean\n\n
+    evaluate(final IlvHierarchyChart chart, final T in)\n
     '''

@@ -1,6 +1,8 @@
-def ESIInvalidatorSprayer():
-    '''public ESIInvalidatorSprayer()
+def ():
+    '''returns ESIInvalidatorSprayer\n\n
+    ()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

@@ -1,12 +1,12 @@
 def isCondition():
-    '''public boolean isCondition()
-    '''
-def newBuilder():
-    '''public static Builder newBuilder()
+    '''returns boolean\n\n
+    isCondition()\n
     '''
 def asBuilder():
-    '''public Builder asBuilder()
+    '''returns Builder\n\n
+    asBuilder()\n
     '''
 def build():
-    '''public DefaultArbiter build()
+    '''returns DefaultArbiter\n\n
+    build()\n
     '''

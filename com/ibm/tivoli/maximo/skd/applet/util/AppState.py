@@ -1,4 +1,5 @@
-def AppState():
-    '''public AppState()
-    public AppState(final String projectid)
+def ():
+    '''returns AppState\n\n
+    ()\n
+    (final String projectid)\n
     '''

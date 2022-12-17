@@ -1,3 +1,4 @@
-def ReportAdHocField():
-    '''public ReportAdHocField(final MboSet ms)
+def ():
+    '''returns ReportAdHocField\n\n
+    (final MboSet ms)\n
     '''

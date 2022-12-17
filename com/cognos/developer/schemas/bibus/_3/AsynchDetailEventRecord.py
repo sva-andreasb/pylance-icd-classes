@@ -1,109 +1,125 @@
-def AsynchDetailEventRecord():
-    '''public AsynchDetailEventRecord()
-    public AsynchDetailEventRecord(final BaseClass[] cancelledBy, final String duration, final String eventID, final BaseClass[] history, final BaseClass[] historyDetails, final int priority, final int processID, final Calendar requestedStartTime, final BaseClass[] runnable, final Calendar scheduledStartTime, final String scheduleTriggerName, final String scheduleType, final String status, final BaseClass[] suspendedBy, final BaseClass[] user)
+def ():
+    '''returns AsynchDetailEventRecord\n\n
+    ()\n
+    (final BaseClass[] cancelledBy, final String duration, final String eventID, final BaseClass[] history, final BaseClass[] historyDetails, final int priority, final int processID, final Calendar requestedStartTime, final BaseClass[] runnable, final Calendar scheduledStartTime, final String scheduleTriggerName, final String scheduleType, final String status, final BaseClass[] suspendedBy, final BaseClass[] user)\n
     '''
 def getCancelledBy():
-    '''public BaseClass[] getCancelledBy()
+    '''returns BaseClass[]\n\n
+    getCancelledBy()\n
     '''
 def setCancelledBy():
-    '''public void setCancelledBy(final BaseClass[] cancelledBy)
+    '''returns None\n\n
+    setCancelledBy(final BaseClass[] cancelledBy)\n
     '''
 def getDuration():
-    '''public String getDuration()
+    '''returns String\n\n
+    getDuration()\n
     '''
 def setDuration():
-    '''public void setDuration(final String duration)
+    '''returns None\n\n
+    setDuration(final String duration)\n
     '''
 def getEventID():
-    '''public String getEventID()
+    '''returns String\n\n
+    getEventID()\n
     '''
 def setEventID():
-    '''public void setEventID(final String eventID)
+    '''returns None\n\n
+    setEventID(final String eventID)\n
     '''
 def getHistory():
-    '''public BaseClass[] getHistory()
+    '''returns BaseClass[]\n\n
+    getHistory()\n
     '''
 def setHistory():
-    '''public void setHistory(final BaseClass[] history)
+    '''returns None\n\n
+    setHistory(final BaseClass[] history)\n
     '''
 def getHistoryDetails():
-    '''public BaseClass[] getHistoryDetails()
+    '''returns BaseClass[]\n\n
+    getHistoryDetails()\n
     '''
 def setHistoryDetails():
-    '''public void setHistoryDetails(final BaseClass[] historyDetails)
+    '''returns None\n\n
+    setHistoryDetails(final BaseClass[] historyDetails)\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def setPriority():
-    '''public void setPriority(final int priority)
+    '''returns None\n\n
+    setPriority(final int priority)\n
     '''
 def getProcessID():
-    '''public int getProcessID()
+    '''returns int\n\n
+    getProcessID()\n
     '''
 def setProcessID():
-    '''public void setProcessID(final int processID)
+    '''returns None\n\n
+    setProcessID(final int processID)\n
     '''
 def getRequestedStartTime():
-    '''public Calendar getRequestedStartTime()
+    '''returns Calendar\n\n
+    getRequestedStartTime()\n
     '''
 def setRequestedStartTime():
-    '''public void setRequestedStartTime(final Calendar requestedStartTime)
+    '''returns None\n\n
+    setRequestedStartTime(final Calendar requestedStartTime)\n
     '''
 def getRunnable():
-    '''public BaseClass[] getRunnable()
+    '''returns BaseClass[]\n\n
+    getRunnable()\n
     '''
 def setRunnable():
-    '''public void setRunnable(final BaseClass[] runnable)
+    '''returns None\n\n
+    setRunnable(final BaseClass[] runnable)\n
     '''
 def getScheduledStartTime():
-    '''public Calendar getScheduledStartTime()
+    '''returns Calendar\n\n
+    getScheduledStartTime()\n
     '''
 def setScheduledStartTime():
-    '''public void setScheduledStartTime(final Calendar scheduledStartTime)
+    '''returns None\n\n
+    setScheduledStartTime(final Calendar scheduledStartTime)\n
     '''
 def getScheduleTriggerName():
-    '''public String getScheduleTriggerName()
+    '''returns String\n\n
+    getScheduleTriggerName()\n
     '''
 def setScheduleTriggerName():
-    '''public void setScheduleTriggerName(final String scheduleTriggerName)
+    '''returns None\n\n
+    setScheduleTriggerName(final String scheduleTriggerName)\n
     '''
 def getScheduleType():
-    '''public String getScheduleType()
+    '''returns String\n\n
+    getScheduleType()\n
     '''
 def setScheduleType():
-    '''public void setScheduleType(final String scheduleType)
+    '''returns None\n\n
+    setScheduleType(final String scheduleType)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
+    '''returns None\n\n
+    setStatus(final String status)\n
     '''
 def getSuspendedBy():
-    '''public BaseClass[] getSuspendedBy()
+    '''returns BaseClass[]\n\n
+    getSuspendedBy()\n
     '''
 def setSuspendedBy():
-    '''public void setSuspendedBy(final BaseClass[] suspendedBy)
+    '''returns None\n\n
+    setSuspendedBy(final BaseClass[] suspendedBy)\n
     '''
 def getUser():
-    '''public BaseClass[] getUser()
+    '''returns BaseClass[]\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final BaseClass[] user)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setUser(final BaseClass[] user)\n
     '''

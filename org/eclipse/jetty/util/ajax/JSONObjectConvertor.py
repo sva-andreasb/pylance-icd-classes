@@ -1,11 +1,14 @@
-def JSONObjectConvertor():
-    '''public JSONObjectConvertor()
-    public JSONObjectConvertor(final boolean fromJSON)
-    public JSONObjectConvertor(final boolean fromJSON, final String[] excluded)
+def ():
+    '''returns JSONObjectConvertor\n\n
+    ()\n
+    (final boolean fromJSON)\n
+    (final boolean fromJSON, final String[] excluded)\n
     '''
 def fromJSON():
-    '''public Object fromJSON(final Map map)
+    '''returns Object\n\n
+    fromJSON(final Map map)\n
     '''
 def toJSON():
-    '''public void toJSON(final Object obj, final JSON.Output out)
+    '''returns None\n\n
+    toJSON(final Object obj, final JSON.Output out)\n
     '''

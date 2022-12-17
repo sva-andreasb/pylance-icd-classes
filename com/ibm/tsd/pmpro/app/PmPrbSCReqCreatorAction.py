@@ -1,6 +1,8 @@
-def PmPrbSCReqCreatorAction():
-    '''public PmPrbSCReqCreatorAction()
+def ():
+    '''returns PmPrbSCReqCreatorAction\n\n
+    ()\n
     '''
 def applyCustomAction():
-    '''public void applyCustomAction(final MboRemote mbo, final Object[] params)
+    '''returns None\n\n
+    applyCustomAction(final MboRemote mbo, final Object[] params)\n
     '''

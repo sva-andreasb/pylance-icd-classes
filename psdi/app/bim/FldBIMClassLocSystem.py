@@ -1,6 +1,8 @@
-def FldBIMClassLocSystem():
-    '''public FldBIMClassLocSystem(final MboValue mbv)
+def ():
+    '''returns FldBIMClassLocSystem\n\n
+    (final MboValue mbv)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

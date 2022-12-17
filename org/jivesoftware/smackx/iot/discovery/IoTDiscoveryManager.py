@@ -1,45 +1,52 @@
-def getInstanceFor():
-    '''public static synchronized IoTDiscoveryManager getInstanceFor(final XMPPConnection connection)
-    '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
-    public IQ handleIQRequest(final IQ iqRequest)
-    public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
+    handleIQRequest(final IQ iqRequest)\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def findRegistry():
-    '''public Jid findRegistry()
+    '''returns Jid\n\n
+    findRegistry()\n
     '''
 def registerThing():
-    '''public ThingState registerThing(final Thing thing)
-    public ThingState registerThing(final Jid registry, final Thing thing)
+    '''returns ThingState\n\n
+    registerThing(final Thing thing)\n
+    registerThing(final Jid registry, final Thing thing)\n
     '''
 def claimThing():
-    '''public IoTClaimed claimThing(final Collection<Tag> metaTags)
-    public IoTClaimed claimThing(final Collection<Tag> metaTags, final boolean publicThing)
-    public IoTClaimed claimThing(final Jid registry, final Collection<Tag> metaTags, final boolean publicThing)
+    '''returns IoTClaimed\n\n
+    claimThing(final Collection<Tag> metaTags)\n
+    claimThing(final Collection<Tag> metaTags, final boolean publicThing)\n
+    claimThing(final Jid registry, final Collection<Tag> metaTags, final boolean publicThing)\n
     '''
 def removeThing():
-    '''public void removeThing(final BareJid thing)
-    public void removeThing(final BareJid thing, final NodeInfo nodeInfo)
-    public void removeThing(final Jid registry, final BareJid thing, final NodeInfo nodeInfo)
+    '''returns None\n\n
+    removeThing(final BareJid thing)\n
+    removeThing(final BareJid thing, final NodeInfo nodeInfo)\n
+    removeThing(final Jid registry, final BareJid thing, final NodeInfo nodeInfo)\n
     '''
 def unregister():
-    '''public void unregister()
-    public void unregister(final NodeInfo nodeInfo)
-    public void unregister(final Jid registry, final NodeInfo nodeInfo)
+    '''returns None\n\n
+    unregister()\n
+    unregister(final NodeInfo nodeInfo)\n
+    unregister(final Jid registry, final NodeInfo nodeInfo)\n
     '''
 def disownThing():
-    '''public void disownThing(final Jid thing)
-    public void disownThing(final Jid thing, final NodeInfo nodeInfo)
-    public void disownThing(final Jid registry, final Jid thing, final NodeInfo nodeInfo)
+    '''returns None\n\n
+    disownThing(final Jid thing)\n
+    disownThing(final Jid thing, final NodeInfo nodeInfo)\n
+    disownThing(final Jid registry, final Jid thing, final NodeInfo nodeInfo)\n
     '''
 def isRegistry():
-    '''public boolean isRegistry(final BareJid jid)
-    public boolean isRegistry(final Jid jid)
+    '''returns boolean\n\n
+    isRegistry(final BareJid jid)\n
+    isRegistry(final Jid jid)\n
     '''
 def getStateFor():
-    '''public ThingState getStateFor(final Thing thing)
+    '''returns ThingState\n\n
+    getStateFor(final Thing thing)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

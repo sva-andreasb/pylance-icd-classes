@@ -1,6 +1,8 @@
-def ScramSha1PlusMechanism():
-    '''public ScramSha1PlusMechanism()
+def ():
+    '''returns ScramSha1PlusMechanism\n\n
+    ()\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''

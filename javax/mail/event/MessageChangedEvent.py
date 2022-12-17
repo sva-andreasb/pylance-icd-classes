@@ -1,14 +1,18 @@
 FLAGS_CHANGED = "int  1"
 ENVELOPE_CHANGED = "int  2"
 def getMessageChangeType():
-    '''public int getMessageChangeType()
+    '''returns int\n\n
+    getMessageChangeType()\n
     '''
 def dispatch():
-    '''public void dispatch(final Object listener)
+    '''returns None\n\n
+    dispatch(final Object listener)\n
     '''
 def getMessage():
-    '''public Message getMessage()
+    '''returns Message\n\n
+    getMessage()\n
     '''
-def MessageChangedEvent():
-    '''public MessageChangedEvent(final Object source, final int type, final Message msg)
+def ():
+    '''returns MessageChangedEvent\n\n
+    (final Object source, final int type, final Message msg)\n
     '''

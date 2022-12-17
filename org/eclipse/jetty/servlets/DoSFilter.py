@@ -1,126 +1,161 @@
-def DoSFilter():
-    '''public DoSFilter()
+def ():
+    '''returns FixedRateTracker\n\n
+    ()\n
+    (final String id, final int type, final int maxRequestsPerSecond)\n
+    (final String id, final int type, final int numRecentRequestsTracked)\n
     '''
 def init():
-    '''public void init(final FilterConfig filterConfig)
+    '''returns None\n\n
+    init(final FilterConfig filterConfig)\n
     '''
 def onComplete():
-    '''public void onComplete(final Continuation continuation)
+    '''returns None\n\n
+    onComplete(final Continuation continuation)\n
     '''
 def onTimeout():
-    '''public void onTimeout(final Continuation continuation)
+    '''returns None\n\n
+    onTimeout(final Continuation continuation)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def doFilter():
-    '''public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain filterchain)
+    '''returns None\n\n
+    doFilter(final ServletRequest request, final ServletResponse response, final FilterChain filterchain)\n
     '''
 def expired():
-    '''public void expired()
-    public void expired()
+    '''returns None\n\n
+    expired()\n
+    expired()\n
     '''
 def getRateTracker():
-    '''public RateTracker getRateTracker(final ServletRequest request)
+    '''returns RateTracker\n\n
+    getRateTracker(final ServletRequest request)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getMaxRequestsPerSec():
-    '''public int getMaxRequestsPerSec()
+    '''returns int\n\n
+    getMaxRequestsPerSec()\n
     '''
 def setMaxRequestsPerSec():
-    '''public void setMaxRequestsPerSec(final int value)
+    '''returns None\n\n
+    setMaxRequestsPerSec(final int value)\n
     '''
 def getDelayMs():
-    '''public long getDelayMs()
+    '''returns long\n\n
+    getDelayMs()\n
     '''
 def setDelayMs():
-    '''public void setDelayMs(final long value)
+    '''returns None\n\n
+    setDelayMs(final long value)\n
     '''
 def getMaxWaitMs():
-    '''public long getMaxWaitMs()
+    '''returns long\n\n
+    getMaxWaitMs()\n
     '''
 def setMaxWaitMs():
-    '''public void setMaxWaitMs(final long value)
+    '''returns None\n\n
+    setMaxWaitMs(final long value)\n
     '''
 def getThrottledRequests():
-    '''public int getThrottledRequests()
+    '''returns int\n\n
+    getThrottledRequests()\n
     '''
 def setThrottledRequests():
-    '''public void setThrottledRequests(final int value)
+    '''returns None\n\n
+    setThrottledRequests(final int value)\n
     '''
 def getThrottleMs():
-    '''public long getThrottleMs()
+    '''returns long\n\n
+    getThrottleMs()\n
     '''
 def setThrottleMs():
-    '''public void setThrottleMs(final long value)
+    '''returns None\n\n
+    setThrottleMs(final long value)\n
     '''
 def getMaxRequestMs():
-    '''public long getMaxRequestMs()
+    '''returns long\n\n
+    getMaxRequestMs()\n
     '''
 def setMaxRequestMs():
-    '''public void setMaxRequestMs(final long value)
+    '''returns None\n\n
+    setMaxRequestMs(final long value)\n
     '''
 def getMaxIdleTrackerMs():
-    '''public long getMaxIdleTrackerMs()
+    '''returns long\n\n
+    getMaxIdleTrackerMs()\n
     '''
 def setMaxIdleTrackerMs():
-    '''public void setMaxIdleTrackerMs(final long value)
+    '''returns None\n\n
+    setMaxIdleTrackerMs(final long value)\n
     '''
 def isInsertHeaders():
-    '''public boolean isInsertHeaders()
+    '''returns boolean\n\n
+    isInsertHeaders()\n
     '''
 def setInsertHeaders():
-    '''public void setInsertHeaders(final boolean value)
+    '''returns None\n\n
+    setInsertHeaders(final boolean value)\n
     '''
 def isTrackSessions():
-    '''public boolean isTrackSessions()
+    '''returns boolean\n\n
+    isTrackSessions()\n
     '''
 def setTrackSessions():
-    '''public void setTrackSessions(final boolean value)
+    '''returns None\n\n
+    setTrackSessions(final boolean value)\n
     '''
 def isRemotePort():
-    '''public boolean isRemotePort()
+    '''returns boolean\n\n
+    isRemotePort()\n
     '''
 def setRemotePort():
-    '''public void setRemotePort(final boolean value)
+    '''returns None\n\n
+    setRemotePort(final boolean value)\n
     '''
 def getWhitelist():
-    '''public String getWhitelist()
+    '''returns String\n\n
+    getWhitelist()\n
     '''
 def setWhitelist():
-    '''public void setWhitelist(final String value)
-    '''
-def RateTracker():
-    '''public RateTracker(final String id, final int type, final int maxRequestsPerSecond)
+    '''returns None\n\n
+    setWhitelist(final String value)\n
     '''
 def isRateExceeded():
-    '''public boolean isRateExceeded(final long now)
-    public boolean isRateExceeded(final long now)
+    '''returns boolean\n\n
+    isRateExceeded(final long now)\n
+    isRateExceeded(final long now)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def valueBound():
-    '''public void valueBound(final HttpSessionBindingEvent event)
+    '''returns None\n\n
+    valueBound(final HttpSessionBindingEvent event)\n
     '''
 def valueUnbound():
-    '''public void valueUnbound(final HttpSessionBindingEvent event)
+    '''returns None\n\n
+    valueUnbound(final HttpSessionBindingEvent event)\n
     '''
 def sessionWillPassivate():
-    '''public void sessionWillPassivate(final HttpSessionEvent se)
+    '''returns None\n\n
+    sessionWillPassivate(final HttpSessionEvent se)\n
     '''
 def sessionDidActivate():
-    '''public void sessionDidActivate(final HttpSessionEvent se)
+    '''returns None\n\n
+    sessionDidActivate(final HttpSessionEvent se)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def FixedRateTracker():
-    '''public FixedRateTracker(final String id, final int type, final int numRecentRequestsTracked)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

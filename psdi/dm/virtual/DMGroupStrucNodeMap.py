@@ -1,3 +1,4 @@
-def DMGroupStrucNodeMap():
-    '''public DMGroupStrucNodeMap()
+def ():
+    '''returns DMGroupStrucNodeMap\n\n
+    ()\n
     '''

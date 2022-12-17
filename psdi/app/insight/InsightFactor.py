@@ -1,3 +1,4 @@
-def InsightFactor():
-    '''public InsightFactor(final MboSet ms)
+def ():
+    '''returns InsightFactor\n\n
+    (final MboSet ms)\n
     '''

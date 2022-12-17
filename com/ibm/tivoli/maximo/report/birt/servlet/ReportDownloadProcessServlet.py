@@ -1,6 +1,8 @@
-def ReportDownloadProcessServlet():
-    '''public ReportDownloadProcessServlet()
+def ():
+    '''returns ReportDownloadProcessServlet\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final ServletConfig config)
+    '''returns None\n\n
+    init(final ServletConfig config)\n
     '''

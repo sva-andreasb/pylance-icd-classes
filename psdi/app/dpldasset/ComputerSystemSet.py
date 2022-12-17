@@ -1,33 +1,44 @@
-def ComputerSystemSet():
-    '''public ComputerSystemSet(final MboServerInterface ms)
+def ():
+    '''returns ComputerSystemSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getQbe():
-    '''public String getQbe(final String attribute)
+    '''returns String\n\n
+    getQbe(final String attribute)\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def getUserWhere():
-    '''public String getUserWhere(final String alias)
+    '''returns String\n\n
+    getUserWhere(final String alias)\n
     '''
 def getUserAndQbeWhere():
-    '''public String getUserAndQbeWhere()
+    '''returns String\n\n
+    getUserAndQbeWhere()\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''

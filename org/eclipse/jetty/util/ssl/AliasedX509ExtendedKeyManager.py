@@ -1,27 +1,36 @@
-def AliasedX509ExtendedKeyManager():
-    '''public AliasedX509ExtendedKeyManager(final String keyAlias, final X509KeyManager keyManager)
+def ():
+    '''returns AliasedX509ExtendedKeyManager\n\n
+    (final String keyAlias, final X509KeyManager keyManager)\n
     '''
 def chooseClientAlias():
-    '''public String chooseClientAlias(final String[] keyType, final Principal[] issuers, final Socket socket)
+    '''returns String\n\n
+    chooseClientAlias(final String[] keyType, final Principal[] issuers, final Socket socket)\n
     '''
 def chooseServerAlias():
-    '''public String chooseServerAlias(final String keyType, final Principal[] issuers, final Socket socket)
+    '''returns String\n\n
+    chooseServerAlias(final String keyType, final Principal[] issuers, final Socket socket)\n
     '''
 def getClientAliases():
-    '''public String[] getClientAliases(final String keyType, final Principal[] issuers)
+    '''returns String[]\n\n
+    getClientAliases(final String keyType, final Principal[] issuers)\n
     '''
 def getServerAliases():
-    '''public String[] getServerAliases(final String keyType, final Principal[] issuers)
+    '''returns String[]\n\n
+    getServerAliases(final String keyType, final Principal[] issuers)\n
     '''
 def getCertificateChain():
-    '''public X509Certificate[] getCertificateChain(final String alias)
+    '''returns X509Certificate[]\n\n
+    getCertificateChain(final String alias)\n
     '''
 def getPrivateKey():
-    '''public PrivateKey getPrivateKey(final String alias)
+    '''returns PrivateKey\n\n
+    getPrivateKey(final String alias)\n
     '''
 def chooseEngineServerAlias():
-    '''public String chooseEngineServerAlias(final String keyType, final Principal[] issuers, final SSLEngine engine)
+    '''returns String\n\n
+    chooseEngineServerAlias(final String keyType, final Principal[] issuers, final SSLEngine engine)\n
     '''
 def chooseEngineClientAlias():
-    '''public String chooseEngineClientAlias(final String[] keyType, final Principal[] issuers, final SSLEngine engine)
+    '''returns String\n\n
+    chooseEngineClientAlias(final String[] keyType, final Principal[] issuers, final SSLEngine engine)\n
     '''

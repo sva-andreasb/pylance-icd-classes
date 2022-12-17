@@ -1,13 +1,17 @@
-def FldTaskID():
-    '''public FldTaskID(final MboValue mbv, final String wonumName, final String refwoName, String criteriaName)
-    public FldTaskID(final MboValue mbv)
+def ():
+    '''returns FldTaskID\n\n
+    (final MboValue mbv, final String wonumName, final String refwoName, String criteriaName)\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

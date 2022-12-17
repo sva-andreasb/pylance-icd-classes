@@ -1,4 +1,5 @@
-def LabTransService():
-    '''public LabTransService()
-    public LabTransService(final MXServer mxServer)
+def ():
+    '''returns LabTransService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

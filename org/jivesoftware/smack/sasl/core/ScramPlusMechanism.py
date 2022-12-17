@@ -1,3 +1,4 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

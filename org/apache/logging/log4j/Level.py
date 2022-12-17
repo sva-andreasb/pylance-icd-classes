@@ -1,54 +1,49 @@
 CATEGORY = "String  \"Level\""
 def intLevel():
-    '''public int intLevel()
+    '''returns int\n\n
+    intLevel()\n
     '''
 def getStandardLevel():
-    '''public StandardLevel getStandardLevel()
+    '''returns StandardLevel\n\n
+    getStandardLevel()\n
     '''
 def isInRange():
-    '''public boolean isInRange(final Level minLevel, final Level maxLevel)
+    '''returns boolean\n\n
+    isInRange(final Level minLevel, final Level maxLevel)\n
     '''
 def isLessSpecificThan():
-    '''public boolean isLessSpecificThan(final Level level)
+    '''returns boolean\n\n
+    isLessSpecificThan(final Level level)\n
     '''
 def isMoreSpecificThan():
-    '''public boolean isMoreSpecificThan(final Level level)
+    '''returns boolean\n\n
+    isMoreSpecificThan(final Level level)\n
     '''
 def clone():
-    '''public Level clone()
+    '''returns Level\n\n
+    clone()\n
     '''
 def compareTo():
-    '''public int compareTo(final Level other)
+    '''returns int\n\n
+    compareTo(final Level other)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def getDeclaringClass():
-    '''public Class<Level> getDeclaringClass()
+    '''returns Class<Level>\n\n
+    getDeclaringClass()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def forName():
-    '''public static Level forName(final String name, final int intValue)
-    '''
-def getLevel():
-    '''public static Level getLevel(final String name)
-    '''
-def toLevel():
-    '''public static Level toLevel(final String sArg)
-    public static Level toLevel(final String name, final Level defaultLevel)
-    '''
-def values():
-    '''public static Level[] values()
-    '''
-def valueOf():
-    '''public static Level valueOf(final String name)
-    public static <T extends Enum<T>> T valueOf(final Class<T> enumType, final String name)
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,9 +1,12 @@
-def JobClientBuilderImpl():
-    '''public JobClientBuilderImpl(final String baseURL, final String clientid, final String secret)
+def ():
+    '''returns JobClientBuilderImpl\n\n
+    (final String baseURL, final String clientid, final String secret)\n
     '''
 def http():
-    '''public JobClientBuilder http(final CloseableHttpClient httpClient)
+    '''returns JobClientBuilder\n\n
+    http(final CloseableHttpClient httpClient)\n
     '''
 def build():
-    '''public JobClientImpl build()
+    '''returns JobClientImpl\n\n
+    build()\n
     '''

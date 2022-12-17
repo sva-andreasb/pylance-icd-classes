@@ -1,30 +1,40 @@
-def FWMVerticalExpansionListener():
-    '''public FWMVerticalExpansionListener()
+def ():
+    '''returns FWMVerticalExpansionListener\n\n
+    ()\n
     '''
 def rowCollapsed():
-    '''public void rowCollapsed(final RowCollapsedEvent arg0)
+    '''returns None\n\n
+    rowCollapsed(final RowCollapsedEvent arg0)\n
     '''
 def rowExpanded():
-    '''public void rowExpanded(final RowExpandedEvent arg0)
+    '''returns None\n\n
+    rowExpanded(final RowExpandedEvent arg0)\n
     '''
 def rowHeightChanged():
-    '''public void rowHeightChanged(final RowHeightChangedEvent arg0)
+    '''returns None\n\n
+    rowHeightChanged(final RowHeightChangedEvent arg0)\n
     '''
 def rowMoved():
-    '''public void rowMoved(final RowMovedEvent arg0)
+    '''returns None\n\n
+    rowMoved(final RowMovedEvent arg0)\n
     '''
 def rowsInserted():
-    '''public void rowsInserted(final RowsInsertedEvent arg0)
+    '''returns None\n\n
+    rowsInserted(final RowsInsertedEvent arg0)\n
     '''
 def rowsRemoved():
-    '''public void rowsRemoved(final RowsRemovedEvent arg0)
+    '''returns None\n\n
+    rowsRemoved(final RowsRemovedEvent arg0)\n
     '''
 def rootRowVisibilityChanged():
-    '''public void rootRowVisibilityChanged(final RootRowVisibilityChangedEvent arg0)
+    '''returns None\n\n
+    rootRowVisibilityChanged(final RootRowVisibilityChangedEvent arg0)\n
     '''
 def isEnableUpdates():
-    '''public boolean isEnableUpdates()
+    '''returns boolean\n\n
+    isEnableUpdates()\n
     '''
 def setEnableUpdates():
-    '''public void setEnableUpdates(final boolean enableUpdates)
+    '''returns None\n\n
+    setEnableUpdates(final boolean enableUpdates)\n
     '''

@@ -1,8 +1,9 @@
 def visit():
-    '''public void visit(final SqlColumn column)
-    public void visit(final SqlConstant constant)
-    public void visit(final SqlFunction1 expr)
-    public void visit(final SqlExpr1 expr)
-    public void visit(final SqlExpr2 expr)
-    public void visit(final S_Regex regex)
+    '''returns None\n\n
+    visit(final SqlColumn column)\n
+    visit(final SqlConstant constant)\n
+    visit(final SqlFunction1 expr)\n
+    visit(final SqlExpr1 expr)\n
+    visit(final SqlExpr2 expr)\n
+    visit(final S_Regex regex)\n
     '''

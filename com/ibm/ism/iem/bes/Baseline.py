@@ -1,56 +1,74 @@
 def getBaselineComponentCollection():
-    '''public BaselineComponentCollection getBaselineComponentCollection()
+    '''returns BaselineComponentCollection\n\n
+    getBaselineComponentCollection()\n
     '''
 def setBaselineComponentCollection():
-    '''public void setBaselineComponentCollection(final BaselineComponentCollection value)
+    '''returns None\n\n
+    setBaselineComponentCollection(final BaselineComponentCollection value)\n
     '''
 def getSettings():
-    '''public ActionSettingsType getSettings()
+    '''returns ActionSettingsType\n\n
+    getSettings()\n
     '''
 def setSettings():
-    '''public void setSettings(final ActionSettingsType value)
+    '''returns None\n\n
+    setSettings(final ActionSettingsType value)\n
     '''
 def getSettingsLocks():
-    '''public ActionSettingsLocks getSettingsLocks()
+    '''returns ActionSettingsLocks\n\n
+    getSettingsLocks()\n
     '''
 def setSettingsLocks():
-    '''public void setSettingsLocks(final ActionSettingsLocks value)
+    '''returns None\n\n
+    setSettingsLocks(final ActionSettingsLocks value)\n
     '''
 def getBaselineComponentGroup():
-    '''public List<BaselineComponentGroup> getBaselineComponentGroup()
+    '''returns List<BaselineComponentGroup>\n\n
+    getBaselineComponentGroup()\n
     '''
 def getBaselineComponent():
-    '''public List<BaselineComponent> getBaselineComponent()
+    '''returns List<BaselineComponent>\n\n
+    getBaselineComponent()\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
-    public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
+    setName(final String value)\n
     '''
 def getActionName():
-    '''public String getActionName()
+    '''returns String\n\n
+    getActionName()\n
     '''
 def setActionName():
-    '''public void setActionName(final String value)
+    '''returns None\n\n
+    setActionName(final String value)\n
     '''
 def isIncludeInRelevance():
-    '''public Boolean isIncludeInRelevance()
+    '''returns Boolean\n\n
+    isIncludeInRelevance()\n
     '''
 def setIncludeInRelevance():
-    '''public void setIncludeInRelevance(final Boolean value)
+    '''returns None\n\n
+    setIncludeInRelevance(final Boolean value)\n
     '''
 def getSourceSiteURL():
-    '''public String getSourceSiteURL()
+    '''returns String\n\n
+    getSourceSiteURL()\n
     '''
 def setSourceSiteURL():
-    '''public void setSourceSiteURL(final String value)
+    '''returns None\n\n
+    setSourceSiteURL(final String value)\n
     '''
 def getSourceID():
-    '''public BigInteger getSourceID()
+    '''returns BigInteger\n\n
+    getSourceID()\n
     '''
 def setSourceID():
-    '''public void setSourceID(final BigInteger value)
+    '''returns None\n\n
+    setSourceID(final BigInteger value)\n
     '''

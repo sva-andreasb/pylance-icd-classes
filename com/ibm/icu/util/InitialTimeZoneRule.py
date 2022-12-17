@@ -1,21 +1,28 @@
-def InitialTimeZoneRule():
-    '''public InitialTimeZoneRule(final String name, final int rawOffset, final int dstSavings)
+def ():
+    '''returns InitialTimeZoneRule\n\n
+    (final String name, final int rawOffset, final int dstSavings)\n
     '''
 def isEquivalentTo():
-    '''public boolean isEquivalentTo(final TimeZoneRule other)
+    '''returns boolean\n\n
+    isEquivalentTo(final TimeZoneRule other)\n
     '''
 def getFinalStart():
-    '''public Date getFinalStart(final int prevRawOffset, final int prevDSTSavings)
+    '''returns Date\n\n
+    getFinalStart(final int prevRawOffset, final int prevDSTSavings)\n
     '''
 def getFirstStart():
-    '''public Date getFirstStart(final int prevRawOffset, final int prevDSTSavings)
+    '''returns Date\n\n
+    getFirstStart(final int prevRawOffset, final int prevDSTSavings)\n
     '''
 def getNextStart():
-    '''public Date getNextStart(final long base, final int prevRawOffset, final int prevDSTSavings, final boolean inclusive)
+    '''returns Date\n\n
+    getNextStart(final long base, final int prevRawOffset, final int prevDSTSavings, final boolean inclusive)\n
     '''
 def getPreviousStart():
-    '''public Date getPreviousStart(final long base, final int prevRawOffset, final int prevDSTSavings, final boolean inclusive)
+    '''returns Date\n\n
+    getPreviousStart(final long base, final int prevRawOffset, final int prevDSTSavings, final boolean inclusive)\n
     '''
 def isTransitionRule():
-    '''public boolean isTransitionRule()
+    '''returns boolean\n\n
+    isTransitionRule()\n
     '''

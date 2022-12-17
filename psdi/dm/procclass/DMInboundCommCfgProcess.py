@@ -1,9 +1,12 @@
-def DMInboundCommCfgProcess():
-    '''public DMInboundCommCfgProcess()
+def ():
+    '''returns DMInboundCommCfgProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String objectName)\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''

@@ -1,19 +1,25 @@
-def Constant():
-    '''public Constant(final Number number)
-    public Constant(final String string)
+def ():
+    '''returns Constant\n\n
+    (final Number number)\n
+    (final String string)\n
     '''
 def compute():
-    '''public Object compute(final EvalContext context)
+    '''returns Object\n\n
+    compute(final EvalContext context)\n
     '''
 def computeValue():
-    '''public Object computeValue(final EvalContext context)
+    '''returns Object\n\n
+    computeValue(final EvalContext context)\n
     '''
 def isContextDependent():
-    '''public boolean isContextDependent()
+    '''returns boolean\n\n
+    isContextDependent()\n
     '''
 def computeContextDependent():
-    '''public boolean computeContextDependent()
+    '''returns boolean\n\n
+    computeContextDependent()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

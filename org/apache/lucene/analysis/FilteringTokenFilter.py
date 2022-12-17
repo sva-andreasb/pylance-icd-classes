@@ -1,12 +1,12 @@
-def FilteringTokenFilter():
-    '''public FilteringTokenFilter(final TokenStream in)
-    '''
-def incrementToken():
-    '''public final boolean incrementToken()
+def ():
+    '''returns FilteringTokenFilter\n\n
+    (final TokenStream in)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

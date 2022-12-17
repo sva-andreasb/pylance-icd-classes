@@ -1,81 +1,87 @@
 TOSTRING_TRIPLE_BASE = "int  10"
 TOSTRING_TRIPLE_LIMIT = "int  17"
-def GraphBase():
-    '''public GraphBase()
-    public GraphBase(final ReificationStyle style)
+def ():
+    '''returns GraphBase\n\n
+    ()\n
+    (final ReificationStyle style)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def dependsOn():
-    '''public boolean dependsOn(final Graph other)
+    '''returns boolean\n\n
+    dependsOn(final Graph other)\n
     '''
 def queryHandler():
-    '''public QueryHandler queryHandler()
+    '''returns QueryHandler\n\n
+    queryHandler()\n
     '''
 def getStatisticsHandler():
-    '''public GraphStatisticsHandler getStatisticsHandler()
+    '''returns GraphStatisticsHandler\n\n
+    getStatisticsHandler()\n
     '''
 def getEventManager():
-    '''public GraphEventManager getEventManager()
+    '''returns GraphEventManager\n\n
+    getEventManager()\n
     '''
 def notifyAdd():
-    '''public void notifyAdd(final Triple t)
+    '''returns None\n\n
+    notifyAdd(final Triple t)\n
     '''
 def notifyDelete():
-    '''public void notifyDelete(final Triple t)
+    '''returns None\n\n
+    notifyDelete(final Triple t)\n
     '''
 def getTransactionHandler():
-    '''public TransactionHandler getTransactionHandler()
+    '''returns TransactionHandler\n\n
+    getTransactionHandler()\n
     '''
 def getBulkUpdateHandler():
-    '''public BulkUpdateHandler getBulkUpdateHandler()
+    '''returns BulkUpdateHandler\n\n
+    getBulkUpdateHandler()\n
     '''
 def getCapabilities():
-    '''public Capabilities getCapabilities()
+    '''returns Capabilities\n\n
+    getCapabilities()\n
     '''
 def getPrefixMapping():
-    '''public PrefixMapping getPrefixMapping()
+    '''returns PrefixMapping\n\n
+    getPrefixMapping()\n
     '''
 def add():
-    '''public void add(final Triple t)
+    '''returns None\n\n
+    add(final Triple t)\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
-    '''
-def delete():
-    '''public final void delete(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple t)
-    '''
-def find():
-    '''public final ExtendedIterator<Triple> find(final TripleMatch m)
-    public final ExtendedIterator<Triple> find(final Node s, final Node p, final Node o)
+    '''returns None\n\n
+    performDelete(final Triple t)\n
     '''
 def forTestingOnly_graphBaseFind():
-    '''public ExtendedIterator<Triple> forTestingOnly_graphBaseFind(final TripleMatch tm)
-    '''
-def contains():
-    '''public final boolean contains(final Triple t)
-    public final boolean contains(final Node s, final Node p, final Node o)
+    '''returns ExtendedIterator<Triple>\n\n
+    forTestingOnly_graphBaseFind(final TripleMatch tm)\n
     '''
 def getReifier():
-    '''public Reifier getReifier()
-    '''
-def size():
-    '''public final int size()
+    '''returns Reifier\n\n
+    getReifier()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def isIsomorphicWith():
-    '''public boolean isIsomorphicWith(final Graph g)
+    '''returns boolean\n\n
+    isIsomorphicWith(final Graph g)\n
     '''
 def toString():
-    '''public String toString()
-    public static String toString(final String prefix, final Graph that)
+    '''returns String\n\n
+    toString()\n
     '''

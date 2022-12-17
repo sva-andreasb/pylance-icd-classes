@@ -1,6 +1,8 @@
 def resourceRecordCount():
-    '''public int resourceRecordCount(final ArrayList<String> queries)
+    '''returns int\n\n
+    resourceRecordCount(final ArrayList<String> queries)\n
     '''
 def populateResources():
-    '''public void populateResources(final ArrayList<String> queries)
+    '''returns None\n\n
+    populateResources(final ArrayList<String> queries)\n
     '''

@@ -1,14 +1,16 @@
-def PersianCalendar():
-    '''public PersianCalendar()
-    public PersianCalendar(final TimeZone zone)
-    public PersianCalendar(final Locale aLocale)
-    public PersianCalendar(final ULocale locale)
-    public PersianCalendar(final TimeZone zone, final Locale aLocale)
-    public PersianCalendar(final TimeZone zone, final ULocale locale)
-    public PersianCalendar(final Date date)
-    public PersianCalendar(final int year, final int month, final int date)
-    public PersianCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
+def ():
+    '''returns PersianCalendar\n\n
+    ()\n
+    (final TimeZone zone)\n
+    (final Locale aLocale)\n
+    (final ULocale locale)\n
+    (final TimeZone zone, final Locale aLocale)\n
+    (final TimeZone zone, final ULocale locale)\n
+    (final Date date)\n
+    (final int year, final int month, final int date)\n
+    (final int year, final int month, final int date, final int hour, final int minute, final int second)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''

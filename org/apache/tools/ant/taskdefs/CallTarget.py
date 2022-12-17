@@ -1,45 +1,60 @@
-def CallTarget():
-    '''public CallTarget()
+def ():
+    '''returns CallTarget\n\n
+    ()\n
     '''
 def setInheritAll():
-    '''public void setInheritAll(final boolean inherit)
+    '''returns None\n\n
+    setInheritAll(final boolean inherit)\n
     '''
 def setInheritRefs():
-    '''public void setInheritRefs(final boolean inheritRefs)
+    '''returns None\n\n
+    setInheritRefs(final boolean inheritRefs)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def createParam():
-    '''public Property createParam()
+    '''returns Property\n\n
+    createParam()\n
     '''
 def addReference():
-    '''public void addReference(final Ant.Reference r)
+    '''returns None\n\n
+    addReference(final Ant.Reference r)\n
     '''
 def addPropertyset():
-    '''public void addPropertyset(final PropertySet ps)
+    '''returns None\n\n
+    addPropertyset(final PropertySet ps)\n
     '''
 def setTarget():
-    '''public void setTarget(final String target)
+    '''returns None\n\n
+    setTarget(final String target)\n
     '''
 def addConfiguredTarget():
-    '''public void addConfiguredTarget(final Ant.TargetElement t)
+    '''returns None\n\n
+    addConfiguredTarget(final Ant.TargetElement t)\n
     '''
 def handleOutput():
-    '''public void handleOutput(final String output)
+    '''returns None\n\n
+    handleOutput(final String output)\n
     '''
 def handleInput():
-    '''public int handleInput(final byte[] buffer, final int offset, final int length)
+    '''returns int\n\n
+    handleInput(final byte[] buffer, final int offset, final int length)\n
     '''
 def handleFlush():
-    '''public void handleFlush(final String output)
+    '''returns None\n\n
+    handleFlush(final String output)\n
     '''
 def handleErrorOutput():
-    '''public void handleErrorOutput(final String output)
+    '''returns None\n\n
+    handleErrorOutput(final String output)\n
     '''
 def handleErrorFlush():
-    '''public void handleErrorFlush(final String output)
+    '''returns None\n\n
+    handleErrorFlush(final String output)\n
     '''

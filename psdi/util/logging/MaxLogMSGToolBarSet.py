@@ -1,3 +1,4 @@
-def MaxLogMSGToolBarSet():
-    '''public MaxLogMSGToolBarSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLogMSGToolBarSet\n\n
+    (final MboServerInterface ms)\n
     '''

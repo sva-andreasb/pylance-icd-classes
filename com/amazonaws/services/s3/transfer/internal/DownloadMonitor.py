@@ -1,6 +1,8 @@
-def DownloadMonitor():
-    '''public DownloadMonitor(final DownloadImpl download, final Future<?> future)
+def ():
+    '''returns DownloadMonitor\n\n
+    (final DownloadImpl download, final Future<?> future)\n
     '''
 def isDone():
-    '''public boolean isDone()
+    '''returns boolean\n\n
+    isDone()\n
     '''

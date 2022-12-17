@@ -2,94 +2,92 @@ HARD = "int  0"
 SOFT = "int  1"
 WEAK = "int  2"
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def remove():
-    '''public V remove(final Object key)
-    public void remove()
+    '''returns None\n\n
+    remove(final Object key)\n
+    remove()\n
     '''
 def clear():
-    '''public void clear()
-    '''
-def mapIterator():
-    '''public MapIterator<K, V> mapIterator()
+    '''returns None\n\n
+    clear()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<V> values()
-    '''
-def createEntry():
-    '''public HashEntry<K, V> createEntry(final HashEntry<K, V> next, final int hashCode, final K key, final V value)
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] arr)
-    public Object[] toArray()
-    public <T> T[] toArray(final T[] arr)
-    public Object[] toArray()
-    public <T> T[] toArray(final T[] arr)
+    '''returns Object[]\n\n
+    toArray()\n
+    toArray()\n
+    toArray()\n
     '''
-def ReferenceEntry():
-    '''public ReferenceEntry(final AbstractReferenceMap<K, V> parent, final ReferenceEntry<K, V> next, final int hashCode, final K key, final V value)
+def ():
+    '''returns WeakRef\n\n
+    (final AbstractReferenceMap<K, V> parent, final ReferenceEntry<K, V> next, final int hashCode, final K key, final V value)\n
+    (final AbstractReferenceMap<K, V> parent)\n
+    (final AbstractReferenceMap<K, V> abstractReferenceMap)\n
+    (final int hash, final T r, final ReferenceQueue q)\n
+    (final int hash, final T r, final ReferenceQueue q)\n
     '''
 def getKey():
-    '''public K getKey()
-    public K getKey()
+    '''returns K\n\n
+    getKey()\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
-    public V getValue()
+    '''returns V\n\n
+    getValue()\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V obj)
-    public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V obj)\n
+    setValue(final V value)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    public int hashCode()
-    '''
-def ReferenceIteratorBase():
-    '''public ReferenceIteratorBase(final AbstractReferenceMap<K, V> parent)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
+    hashCode()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    '''
-def superNext():
-    '''public ReferenceEntry<K, V> superNext()
-    '''
-def ReferenceEntrySetIterator():
-    '''public ReferenceEntrySetIterator(final AbstractReferenceMap<K, V> abstractReferenceMap)
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public ReferenceEntry<K, V> next()
-    public K next()
-    public V next()
-    public K next()
-    '''
-def SoftRef():
-    '''public SoftRef(final int hash, final T r, final ReferenceQueue q)
-    '''
-def WeakRef():
-    '''public WeakRef(final int hash, final T r, final ReferenceQueue q)
+    '''returns K\n\n
+    next()\n
+    next()\n
+    next()\n
     '''

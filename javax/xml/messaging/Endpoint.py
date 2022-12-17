@@ -1,6 +1,8 @@
-def Endpoint():
-    '''public Endpoint(final String uri)
+def ():
+    '''returns Endpoint\n\n
+    (final String uri)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

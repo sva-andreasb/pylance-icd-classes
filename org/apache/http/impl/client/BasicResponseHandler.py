@@ -1,6 +1,8 @@
 def handleEntity():
-    '''public String handleEntity(final HttpEntity entity)
+    '''returns String\n\n
+    handleEntity(final HttpEntity entity)\n
     '''
 def handleResponse():
-    '''public String handleResponse(final HttpResponse response)
+    '''returns String\n\n
+    handleResponse(final HttpResponse response)\n
     '''

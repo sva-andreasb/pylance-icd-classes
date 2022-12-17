@@ -1,13 +1,13 @@
-def AssertionViolatedException():
-    '''public AssertionViolatedException()
-    public AssertionViolatedException(String message)
+def ():
+    '''returns AssertionViolatedException\n\n
+    ()\n
+    (String message)\n
     '''
 def extendMessage():
-    '''public void extendMessage(String pre, String post)
+    '''returns None\n\n
+    extendMessage(String pre, String post)\n
     '''
 def getMessage():
-    '''public String getMessage()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    getMessage()\n
     '''

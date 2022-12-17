@@ -1,18 +1,24 @@
 def getInetAddress():
-    '''public InetAddress getInetAddress()
+    '''returns InetAddress\n\n
+    getInetAddress()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def awaitTermination():
-    '''public void awaitTermination(final long timeout, final TimeUnit timeUnit)
+    '''returns None\n\n
+    awaitTermination(final long timeout, final TimeUnit timeUnit)\n
     '''
 def shutdown():
-    '''public void shutdown(final long gracePeriod, final TimeUnit timeUnit)
+    '''returns None\n\n
+    shutdown(final long gracePeriod, final TimeUnit timeUnit)\n
     '''

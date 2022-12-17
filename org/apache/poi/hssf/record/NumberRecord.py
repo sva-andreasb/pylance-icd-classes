@@ -1,17 +1,22 @@
 sid = "short  515"
-def NumberRecord():
-    '''public NumberRecord()
-    public NumberRecord(final RecordInputStream in)
+def ():
+    '''returns NumberRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setValue():
-    '''public void setValue(final double value)
+    '''returns None\n\n
+    setValue(final double value)\n
     '''
 def getValue():
-    '''public double getValue()
+    '''returns double\n\n
+    getValue()\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public NumberRecord clone()
+    '''returns NumberRecord\n\n
+    clone()\n
     '''

@@ -1,6 +1,8 @@
-def SimpleAuthenticator():
-    '''public SimpleAuthenticator(final String userName, final String password)
+def ():
+    '''returns SimpleAuthenticator\n\n
+    (final String userName, final String password)\n
     '''
 def setThisAsDefault():
-    '''public void setThisAsDefault()
+    '''returns None\n\n
+    setThisAsDefault()\n
     '''

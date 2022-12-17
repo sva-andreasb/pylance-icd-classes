@@ -1,33 +1,44 @@
-def FixedDateTimeZone():
-    '''public FixedDateTimeZone(final String s, final String iNameKey, final int iWallOffset, final int iStandardOffset)
+def ():
+    '''returns FixedDateTimeZone\n\n
+    (final String s, final String iNameKey, final int iWallOffset, final int iStandardOffset)\n
     '''
 def getNameKey():
-    '''public String getNameKey(final long n)
+    '''returns String\n\n
+    getNameKey(final long n)\n
     '''
 def getOffset():
-    '''public int getOffset(final long n)
+    '''returns int\n\n
+    getOffset(final long n)\n
     '''
 def getStandardOffset():
-    '''public int getStandardOffset(final long n)
+    '''returns int\n\n
+    getStandardOffset(final long n)\n
     '''
 def getOffsetFromLocal():
-    '''public int getOffsetFromLocal(final long n)
+    '''returns int\n\n
+    getOffsetFromLocal(final long n)\n
     '''
 def isFixed():
-    '''public boolean isFixed()
+    '''returns boolean\n\n
+    isFixed()\n
     '''
 def nextTransition():
-    '''public long nextTransition(final long n)
+    '''returns long\n\n
+    nextTransition(final long n)\n
     '''
 def previousTransition():
-    '''public long previousTransition(final long n)
+    '''returns long\n\n
+    previousTransition(final long n)\n
     '''
 def toTimeZone():
-    '''public TimeZone toTimeZone()
+    '''returns TimeZone\n\n
+    toTimeZone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

@@ -1,928 +1,1232 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getActiveAgreement():
-    '''public Agreement getActiveAgreement()
+    '''returns Agreement\n\n
+    getActiveAgreement()\n
     '''
 def setActiveAgreement():
-    '''public void setActiveAgreement(final Agreement activeAgreement)
+    '''returns None\n\n
+    setActiveAgreement(final Agreement activeAgreement)\n
     '''
 def getActiveAgreementFlag():
-    '''public Agreement getActiveAgreementFlag()
+    '''returns Agreement\n\n
+    getActiveAgreementFlag()\n
     '''
 def setActiveAgreementFlag():
-    '''public void setActiveAgreementFlag(final Agreement activeAgreementFlag)
+    '''returns None\n\n
+    setActiveAgreementFlag(final Agreement activeAgreementFlag)\n
     '''
 def getActiveAssociatedChildren():
-    '''public List<Item> getActiveAssociatedChildren()
+    '''returns List<Item>\n\n
+    getActiveAssociatedChildren()\n
     '''
 def getActiveAssociatedGuestDiskBillingItems():
-    '''public List<Item> getActiveAssociatedGuestDiskBillingItems()
+    '''returns List<Item>\n\n
+    getActiveAssociatedGuestDiskBillingItems()\n
     '''
 def getActiveBundledItems():
-    '''public List<Item> getActiveBundledItems()
+    '''returns List<Item>\n\n
+    getActiveBundledItems()\n
     '''
 def setActiveCancellationItem():
-    '''public void setActiveCancellationItem(final com.softlayer.api.service.billing.item.cancellation.request.Item activeCancellationItem)
+    '''returns None\n\n
+    setActiveCancellationItem(final com.softlayer.api.service.billing.item.cancellation.request.Item activeCancellationItem)\n
     '''
 def getActiveChildren():
-    '''public List<Item> getActiveChildren()
+    '''returns List<Item>\n\n
+    getActiveChildren()\n
     '''
 def getActiveFlag():
-    '''public Boolean getActiveFlag()
+    '''returns Boolean\n\n
+    getActiveFlag()\n
     '''
 def setActiveFlag():
-    '''public void setActiveFlag(final Boolean activeFlag)
+    '''returns None\n\n
+    setActiveFlag(final Boolean activeFlag)\n
     '''
 def getActiveSparePoolAssociatedGuestDiskBillingItems():
-    '''public List<Item> getActiveSparePoolAssociatedGuestDiskBillingItems()
+    '''returns List<Item>\n\n
+    getActiveSparePoolAssociatedGuestDiskBillingItems()\n
     '''
 def getActiveSparePoolBundledItems():
-    '''public List<Item> getActiveSparePoolBundledItems()
+    '''returns List<Item>\n\n
+    getActiveSparePoolBundledItems()\n
     '''
 def getAssociatedBillingItem():
-    '''public Item getAssociatedBillingItem()
+    '''returns Item\n\n
+    getAssociatedBillingItem()\n
     '''
 def setAssociatedBillingItem():
-    '''public void setAssociatedBillingItem(final Item associatedBillingItem)
+    '''returns None\n\n
+    setAssociatedBillingItem(final Item associatedBillingItem)\n
     '''
 def getAssociatedBillingItemHistory():
-    '''public List<History> getAssociatedBillingItemHistory()
+    '''returns List<History>\n\n
+    getAssociatedBillingItemHistory()\n
     '''
 def getAssociatedChildren():
-    '''public List<Item> getAssociatedChildren()
+    '''returns List<Item>\n\n
+    getAssociatedChildren()\n
     '''
 def getAssociatedParent():
-    '''public List<Item> getAssociatedParent()
+    '''returns List<Item>\n\n
+    getAssociatedParent()\n
     '''
 def getAvailableMatchingVlans():
-    '''public List<Vlan> getAvailableMatchingVlans()
+    '''returns List<Vlan>\n\n
+    getAvailableMatchingVlans()\n
     '''
 def getBandwidthAllocation():
-    '''public Allocation getBandwidthAllocation()
+    '''returns Allocation\n\n
+    getBandwidthAllocation()\n
     '''
 def setBandwidthAllocation():
-    '''public void setBandwidthAllocation(final Allocation bandwidthAllocation)
+    '''returns None\n\n
+    setBandwidthAllocation(final Allocation bandwidthAllocation)\n
     '''
 def getBillableChildren():
-    '''public List<Item> getBillableChildren()
+    '''returns List<Item>\n\n
+    getBillableChildren()\n
     '''
 def getBundleItems():
-    '''public List<Bundles> getBundleItems()
+    '''returns List<Bundles>\n\n
+    getBundleItems()\n
     '''
 def getBundledItems():
-    '''public List<Item> getBundledItems()
+    '''returns List<Item>\n\n
+    getBundledItems()\n
     '''
 def getCanceledChildren():
-    '''public List<Item> getCanceledChildren()
+    '''returns List<Item>\n\n
+    getCanceledChildren()\n
     '''
 def getCancellationReason():
-    '''public Reason getCancellationReason()
+    '''returns Reason\n\n
+    getCancellationReason()\n
     '''
 def setCancellationReason():
-    '''public void setCancellationReason(final Reason cancellationReason)
+    '''returns None\n\n
+    setCancellationReason(final Reason cancellationReason)\n
     '''
 def getCancellationRequests():
-    '''public List<Request> getCancellationRequests()
+    '''returns List<Request>\n\n
+    getCancellationRequests()\n
     '''
 def getCategory():
-    '''public Category getCategory()
+    '''returns Category\n\n
+    getCategory()\n
     '''
 def setCategory():
-    '''public void setCategory(final Category category)
+    '''returns None\n\n
+    setCategory(final Category category)\n
     '''
 def getChildren():
-    '''public List<Item> getChildren()
+    '''returns List<Item>\n\n
+    getChildren()\n
     '''
 def getChildrenWithActiveAgreement():
-    '''public List<Item> getChildrenWithActiveAgreement()
+    '''returns List<Item>\n\n
+    getChildrenWithActiveAgreement()\n
     '''
 def getFilteredNextInvoiceChildren():
-    '''public List<Item> getFilteredNextInvoiceChildren()
+    '''returns List<Item>\n\n
+    getFilteredNextInvoiceChildren()\n
     '''
 def getHourlyFlag():
-    '''public Boolean getHourlyFlag()
+    '''returns Boolean\n\n
+    getHourlyFlag()\n
     '''
 def setHourlyFlag():
-    '''public void setHourlyFlag(final Boolean hourlyFlag)
+    '''returns None\n\n
+    setHourlyFlag(final Boolean hourlyFlag)\n
     '''
 def setInvoiceItem():
-    '''public void setInvoiceItem(final com.softlayer.api.service.billing.invoice.Item invoiceItem)
+    '''returns None\n\n
+    setInvoiceItem(final com.softlayer.api.service.billing.invoice.Item invoiceItem)\n
     '''
 def setItem():
-    '''public void setItem(final com.softlayer.api.service.product.Item item)
+    '''returns None\n\n
+    setItem(final com.softlayer.api.service.product.Item item)\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final Location location)
+    '''returns None\n\n
+    setLocation(final Location location)\n
     '''
 def getNextInvoiceChildren():
-    '''public List<Item> getNextInvoiceChildren()
+    '''returns List<Item>\n\n
+    getNextInvoiceChildren()\n
     '''
 def getNextInvoiceTotalOneTimeAmount():
-    '''public BigDecimal getNextInvoiceTotalOneTimeAmount()
+    '''returns BigDecimal\n\n
+    getNextInvoiceTotalOneTimeAmount()\n
     '''
 def setNextInvoiceTotalOneTimeAmount():
-    '''public void setNextInvoiceTotalOneTimeAmount(final BigDecimal nextInvoiceTotalOneTimeAmount)
+    '''returns None\n\n
+    setNextInvoiceTotalOneTimeAmount(final BigDecimal nextInvoiceTotalOneTimeAmount)\n
     '''
 def getNextInvoiceTotalOneTimeTaxAmount():
-    '''public BigDecimal getNextInvoiceTotalOneTimeTaxAmount()
+    '''returns BigDecimal\n\n
+    getNextInvoiceTotalOneTimeTaxAmount()\n
     '''
 def setNextInvoiceTotalOneTimeTaxAmount():
-    '''public void setNextInvoiceTotalOneTimeTaxAmount(final BigDecimal nextInvoiceTotalOneTimeTaxAmount)
+    '''returns None\n\n
+    setNextInvoiceTotalOneTimeTaxAmount(final BigDecimal nextInvoiceTotalOneTimeTaxAmount)\n
     '''
 def getNextInvoiceTotalRecurringAmount():
-    '''public BigDecimal getNextInvoiceTotalRecurringAmount()
+    '''returns BigDecimal\n\n
+    getNextInvoiceTotalRecurringAmount()\n
     '''
 def setNextInvoiceTotalRecurringAmount():
-    '''public void setNextInvoiceTotalRecurringAmount(final BigDecimal nextInvoiceTotalRecurringAmount)
+    '''returns None\n\n
+    setNextInvoiceTotalRecurringAmount(final BigDecimal nextInvoiceTotalRecurringAmount)\n
     '''
 def getNextInvoiceTotalRecurringTaxAmount():
-    '''public BigDecimal getNextInvoiceTotalRecurringTaxAmount()
+    '''returns BigDecimal\n\n
+    getNextInvoiceTotalRecurringTaxAmount()\n
     '''
 def setNextInvoiceTotalRecurringTaxAmount():
-    '''public void setNextInvoiceTotalRecurringTaxAmount(final BigDecimal nextInvoiceTotalRecurringTaxAmount)
+    '''returns None\n\n
+    setNextInvoiceTotalRecurringTaxAmount(final BigDecimal nextInvoiceTotalRecurringTaxAmount)\n
     '''
 def getNonZeroNextInvoiceChildren():
-    '''public List<Item> getNonZeroNextInvoiceChildren()
+    '''returns List<Item>\n\n
+    getNonZeroNextInvoiceChildren()\n
     '''
 def setOrderItem():
-    '''public void setOrderItem(final com.softlayer.api.service.billing.order.Item orderItem)
+    '''returns None\n\n
+    setOrderItem(final com.softlayer.api.service.billing.order.Item orderItem)\n
     '''
 def getOriginalLocation():
-    '''public Location getOriginalLocation()
+    '''returns Location\n\n
+    getOriginalLocation()\n
     '''
 def setOriginalLocation():
-    '''public void setOriginalLocation(final Location originalLocation)
+    '''returns None\n\n
+    setOriginalLocation(final Location originalLocation)\n
     '''
 def getItemPackage():
-    '''public Package getItemPackage()
+    '''returns Package\n\n
+    getItemPackage()\n
     '''
 def setItemPackage():
-    '''public void setItemPackage(final Package itemPackage)
+    '''returns None\n\n
+    setItemPackage(final Package itemPackage)\n
     '''
 def getParent():
-    '''public Item getParent()
+    '''returns Item\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final Item parent)
+    '''returns None\n\n
+    setParent(final Item parent)\n
     '''
 def getParentVirtualGuestBillingItem():
-    '''public Guest getParentVirtualGuestBillingItem()
+    '''returns Guest\n\n
+    getParentVirtualGuestBillingItem()\n
     '''
 def setParentVirtualGuestBillingItem():
-    '''public void setParentVirtualGuestBillingItem(final Guest parentVirtualGuestBillingItem)
+    '''returns None\n\n
+    setParentVirtualGuestBillingItem(final Guest parentVirtualGuestBillingItem)\n
     '''
 def getPendingCancellationFlag():
-    '''public Boolean getPendingCancellationFlag()
+    '''returns Boolean\n\n
+    getPendingCancellationFlag()\n
     '''
 def setPendingCancellationFlag():
-    '''public void setPendingCancellationFlag(final Boolean pendingCancellationFlag)
+    '''returns None\n\n
+    setPendingCancellationFlag(final Boolean pendingCancellationFlag)\n
     '''
 def setPendingOrderItem():
-    '''public void setPendingOrderItem(final com.softlayer.api.service.billing.order.Item pendingOrderItem)
+    '''returns None\n\n
+    setPendingOrderItem(final com.softlayer.api.service.billing.order.Item pendingOrderItem)\n
     '''
 def getProvisionTransaction():
-    '''public Transaction getProvisionTransaction()
+    '''returns Transaction\n\n
+    getProvisionTransaction()\n
     '''
 def setProvisionTransaction():
-    '''public void setProvisionTransaction(final Transaction provisionTransaction)
+    '''returns None\n\n
+    setProvisionTransaction(final Transaction provisionTransaction)\n
     '''
 def getSoftwareDescription():
-    '''public Description getSoftwareDescription()
+    '''returns Description\n\n
+    getSoftwareDescription()\n
     '''
 def setSoftwareDescription():
-    '''public void setSoftwareDescription(final Description softwareDescription)
+    '''returns None\n\n
+    setSoftwareDescription(final Description softwareDescription)\n
     '''
 def setUpgradeItem():
-    '''public void setUpgradeItem(final com.softlayer.api.service.product.Item upgradeItem)
+    '''returns None\n\n
+    setUpgradeItem(final com.softlayer.api.service.product.Item upgradeItem)\n
     '''
 def getAllowCancellationFlag():
-    '''public Long getAllowCancellationFlag()
+    '''returns Long\n\n
+    getAllowCancellationFlag()\n
     '''
 def setAllowCancellationFlag():
-    '''public void setAllowCancellationFlag(final Long allowCancellationFlag)
+    '''returns None\n\n
+    setAllowCancellationFlag(final Long allowCancellationFlag)\n
     '''
 def isAllowCancellationFlagSpecified():
-    '''public boolean isAllowCancellationFlagSpecified()
+    '''returns boolean\n\n
+    isAllowCancellationFlagSpecified()\n
     '''
 def unsetAllowCancellationFlag():
-    '''public void unsetAllowCancellationFlag()
+    '''returns None\n\n
+    unsetAllowCancellationFlag()\n
     '''
 def getAssociatedBillingItemId():
-    '''public String getAssociatedBillingItemId()
+    '''returns String\n\n
+    getAssociatedBillingItemId()\n
     '''
 def setAssociatedBillingItemId():
-    '''public void setAssociatedBillingItemId(final String associatedBillingItemId)
+    '''returns None\n\n
+    setAssociatedBillingItemId(final String associatedBillingItemId)\n
     '''
 def isAssociatedBillingItemIdSpecified():
-    '''public boolean isAssociatedBillingItemIdSpecified()
+    '''returns boolean\n\n
+    isAssociatedBillingItemIdSpecified()\n
     '''
 def unsetAssociatedBillingItemId():
-    '''public void unsetAssociatedBillingItemId()
+    '''returns None\n\n
+    unsetAssociatedBillingItemId()\n
     '''
 def getCancellationDate():
-    '''public GregorianCalendar getCancellationDate()
+    '''returns GregorianCalendar\n\n
+    getCancellationDate()\n
     '''
 def setCancellationDate():
-    '''public void setCancellationDate(final GregorianCalendar cancellationDate)
+    '''returns None\n\n
+    setCancellationDate(final GregorianCalendar cancellationDate)\n
     '''
 def isCancellationDateSpecified():
-    '''public boolean isCancellationDateSpecified()
+    '''returns boolean\n\n
+    isCancellationDateSpecified()\n
     '''
 def unsetCancellationDate():
-    '''public void unsetCancellationDate()
+    '''returns None\n\n
+    unsetCancellationDate()\n
     '''
 def getCategoryCode():
-    '''public String getCategoryCode()
+    '''returns String\n\n
+    getCategoryCode()\n
     '''
 def setCategoryCode():
-    '''public void setCategoryCode(final String categoryCode)
+    '''returns None\n\n
+    setCategoryCode(final String categoryCode)\n
     '''
 def isCategoryCodeSpecified():
-    '''public boolean isCategoryCodeSpecified()
+    '''returns boolean\n\n
+    isCategoryCodeSpecified()\n
     '''
 def unsetCategoryCode():
-    '''public void unsetCategoryCode()
+    '''returns None\n\n
+    unsetCategoryCode()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getCurrentHourlyCharge():
-    '''public String getCurrentHourlyCharge()
+    '''returns String\n\n
+    getCurrentHourlyCharge()\n
     '''
 def setCurrentHourlyCharge():
-    '''public void setCurrentHourlyCharge(final String currentHourlyCharge)
+    '''returns None\n\n
+    setCurrentHourlyCharge(final String currentHourlyCharge)\n
     '''
 def isCurrentHourlyChargeSpecified():
-    '''public boolean isCurrentHourlyChargeSpecified()
+    '''returns boolean\n\n
+    isCurrentHourlyChargeSpecified()\n
     '''
 def unsetCurrentHourlyCharge():
-    '''public void unsetCurrentHourlyCharge()
+    '''returns None\n\n
+    unsetCurrentHourlyCharge()\n
     '''
 def getCycleStartDate():
-    '''public GregorianCalendar getCycleStartDate()
+    '''returns GregorianCalendar\n\n
+    getCycleStartDate()\n
     '''
 def setCycleStartDate():
-    '''public void setCycleStartDate(final GregorianCalendar cycleStartDate)
+    '''returns None\n\n
+    setCycleStartDate(final GregorianCalendar cycleStartDate)\n
     '''
 def isCycleStartDateSpecified():
-    '''public boolean isCycleStartDateSpecified()
+    '''returns boolean\n\n
+    isCycleStartDateSpecified()\n
     '''
 def unsetCycleStartDate():
-    '''public void unsetCycleStartDate()
+    '''returns None\n\n
+    unsetCycleStartDate()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getDomainName():
-    '''public String getDomainName()
+    '''returns String\n\n
+    getDomainName()\n
     '''
 def setDomainName():
-    '''public void setDomainName(final String domainName)
+    '''returns None\n\n
+    setDomainName(final String domainName)\n
     '''
 def isDomainNameSpecified():
-    '''public boolean isDomainNameSpecified()
+    '''returns boolean\n\n
+    isDomainNameSpecified()\n
     '''
 def unsetDomainName():
-    '''public void unsetDomainName()
+    '''returns None\n\n
+    unsetDomainName()\n
     '''
 def getHostName():
-    '''public String getHostName()
+    '''returns String\n\n
+    getHostName()\n
     '''
 def setHostName():
-    '''public void setHostName(final String hostName)
+    '''returns None\n\n
+    setHostName(final String hostName)\n
     '''
 def isHostNameSpecified():
-    '''public boolean isHostNameSpecified()
+    '''returns boolean\n\n
+    isHostNameSpecified()\n
     '''
 def unsetHostName():
-    '''public void unsetHostName()
+    '''returns None\n\n
+    unsetHostName()\n
     '''
 def getHourlyRecurringFee():
-    '''public BigDecimal getHourlyRecurringFee()
+    '''returns BigDecimal\n\n
+    getHourlyRecurringFee()\n
     '''
 def setHourlyRecurringFee():
-    '''public void setHourlyRecurringFee(final BigDecimal hourlyRecurringFee)
+    '''returns None\n\n
+    setHourlyRecurringFee(final BigDecimal hourlyRecurringFee)\n
     '''
 def isHourlyRecurringFeeSpecified():
-    '''public boolean isHourlyRecurringFeeSpecified()
+    '''returns boolean\n\n
+    isHourlyRecurringFeeSpecified()\n
     '''
 def unsetHourlyRecurringFee():
-    '''public void unsetHourlyRecurringFee()
+    '''returns None\n\n
+    unsetHourlyRecurringFee()\n
     '''
 def getHoursUsed():
-    '''public String getHoursUsed()
+    '''returns String\n\n
+    getHoursUsed()\n
     '''
 def setHoursUsed():
-    '''public void setHoursUsed(final String hoursUsed)
+    '''returns None\n\n
+    setHoursUsed(final String hoursUsed)\n
     '''
 def isHoursUsedSpecified():
-    '''public boolean isHoursUsedSpecified()
+    '''returns boolean\n\n
+    isHoursUsedSpecified()\n
     '''
 def unsetHoursUsed():
-    '''public void unsetHoursUsed()
+    '''returns None\n\n
+    unsetHoursUsed()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getLaborFee():
-    '''public BigDecimal getLaborFee()
+    '''returns BigDecimal\n\n
+    getLaborFee()\n
     '''
 def setLaborFee():
-    '''public void setLaborFee(final BigDecimal laborFee)
+    '''returns None\n\n
+    setLaborFee(final BigDecimal laborFee)\n
     '''
 def isLaborFeeSpecified():
-    '''public boolean isLaborFeeSpecified()
+    '''returns boolean\n\n
+    isLaborFeeSpecified()\n
     '''
 def unsetLaborFee():
-    '''public void unsetLaborFee()
+    '''returns None\n\n
+    unsetLaborFee()\n
     '''
 def getLaborFeeTaxRate():
-    '''public BigDecimal getLaborFeeTaxRate()
+    '''returns BigDecimal\n\n
+    getLaborFeeTaxRate()\n
     '''
 def setLaborFeeTaxRate():
-    '''public void setLaborFeeTaxRate(final BigDecimal laborFeeTaxRate)
+    '''returns None\n\n
+    setLaborFeeTaxRate(final BigDecimal laborFeeTaxRate)\n
     '''
 def isLaborFeeTaxRateSpecified():
-    '''public boolean isLaborFeeTaxRateSpecified()
+    '''returns boolean\n\n
+    isLaborFeeTaxRateSpecified()\n
     '''
 def unsetLaborFeeTaxRate():
-    '''public void unsetLaborFeeTaxRate()
+    '''returns None\n\n
+    unsetLaborFeeTaxRate()\n
     '''
 def getLastBillDate():
-    '''public GregorianCalendar getLastBillDate()
+    '''returns GregorianCalendar\n\n
+    getLastBillDate()\n
     '''
 def setLastBillDate():
-    '''public void setLastBillDate(final GregorianCalendar lastBillDate)
+    '''returns None\n\n
+    setLastBillDate(final GregorianCalendar lastBillDate)\n
     '''
 def isLastBillDateSpecified():
-    '''public boolean isLastBillDateSpecified()
+    '''returns boolean\n\n
+    isLastBillDateSpecified()\n
     '''
 def unsetLastBillDate():
-    '''public void unsetLastBillDate()
+    '''returns None\n\n
+    unsetLastBillDate()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNextBillDate():
-    '''public GregorianCalendar getNextBillDate()
+    '''returns GregorianCalendar\n\n
+    getNextBillDate()\n
     '''
 def setNextBillDate():
-    '''public void setNextBillDate(final GregorianCalendar nextBillDate)
+    '''returns None\n\n
+    setNextBillDate(final GregorianCalendar nextBillDate)\n
     '''
 def isNextBillDateSpecified():
-    '''public boolean isNextBillDateSpecified()
+    '''returns boolean\n\n
+    isNextBillDateSpecified()\n
     '''
 def unsetNextBillDate():
-    '''public void unsetNextBillDate()
+    '''returns None\n\n
+    unsetNextBillDate()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getOneTimeFee():
-    '''public BigDecimal getOneTimeFee()
+    '''returns BigDecimal\n\n
+    getOneTimeFee()\n
     '''
 def setOneTimeFee():
-    '''public void setOneTimeFee(final BigDecimal oneTimeFee)
+    '''returns None\n\n
+    setOneTimeFee(final BigDecimal oneTimeFee)\n
     '''
 def isOneTimeFeeSpecified():
-    '''public boolean isOneTimeFeeSpecified()
+    '''returns boolean\n\n
+    isOneTimeFeeSpecified()\n
     '''
 def unsetOneTimeFee():
-    '''public void unsetOneTimeFee()
+    '''returns None\n\n
+    unsetOneTimeFee()\n
     '''
 def getOneTimeFeeTaxRate():
-    '''public BigDecimal getOneTimeFeeTaxRate()
+    '''returns BigDecimal\n\n
+    getOneTimeFeeTaxRate()\n
     '''
 def setOneTimeFeeTaxRate():
-    '''public void setOneTimeFeeTaxRate(final BigDecimal oneTimeFeeTaxRate)
+    '''returns None\n\n
+    setOneTimeFeeTaxRate(final BigDecimal oneTimeFeeTaxRate)\n
     '''
 def isOneTimeFeeTaxRateSpecified():
-    '''public boolean isOneTimeFeeTaxRateSpecified()
+    '''returns boolean\n\n
+    isOneTimeFeeTaxRateSpecified()\n
     '''
 def unsetOneTimeFeeTaxRate():
-    '''public void unsetOneTimeFeeTaxRate()
+    '''returns None\n\n
+    unsetOneTimeFeeTaxRate()\n
     '''
 def getOrderItemId():
-    '''public Long getOrderItemId()
+    '''returns Long\n\n
+    getOrderItemId()\n
     '''
 def setOrderItemId():
-    '''public void setOrderItemId(final Long orderItemId)
+    '''returns None\n\n
+    setOrderItemId(final Long orderItemId)\n
     '''
 def isOrderItemIdSpecified():
-    '''public boolean isOrderItemIdSpecified()
+    '''returns boolean\n\n
+    isOrderItemIdSpecified()\n
     '''
 def unsetOrderItemId():
-    '''public void unsetOrderItemId()
+    '''returns None\n\n
+    unsetOrderItemId()\n
     '''
 def getParentId():
-    '''public Long getParentId()
+    '''returns Long\n\n
+    getParentId()\n
     '''
 def setParentId():
-    '''public void setParentId(final Long parentId)
+    '''returns None\n\n
+    setParentId(final Long parentId)\n
     '''
 def isParentIdSpecified():
-    '''public boolean isParentIdSpecified()
+    '''returns boolean\n\n
+    isParentIdSpecified()\n
     '''
 def unsetParentId():
-    '''public void unsetParentId()
+    '''returns None\n\n
+    unsetParentId()\n
     '''
 def getRecurringFee():
-    '''public BigDecimal getRecurringFee()
+    '''returns BigDecimal\n\n
+    getRecurringFee()\n
     '''
 def setRecurringFee():
-    '''public void setRecurringFee(final BigDecimal recurringFee)
+    '''returns None\n\n
+    setRecurringFee(final BigDecimal recurringFee)\n
     '''
 def isRecurringFeeSpecified():
-    '''public boolean isRecurringFeeSpecified()
+    '''returns boolean\n\n
+    isRecurringFeeSpecified()\n
     '''
 def unsetRecurringFee():
-    '''public void unsetRecurringFee()
+    '''returns None\n\n
+    unsetRecurringFee()\n
     '''
 def getRecurringFeeTaxRate():
-    '''public BigDecimal getRecurringFeeTaxRate()
+    '''returns BigDecimal\n\n
+    getRecurringFeeTaxRate()\n
     '''
 def setRecurringFeeTaxRate():
-    '''public void setRecurringFeeTaxRate(final BigDecimal recurringFeeTaxRate)
+    '''returns None\n\n
+    setRecurringFeeTaxRate(final BigDecimal recurringFeeTaxRate)\n
     '''
 def isRecurringFeeTaxRateSpecified():
-    '''public boolean isRecurringFeeTaxRateSpecified()
+    '''returns boolean\n\n
+    isRecurringFeeTaxRateSpecified()\n
     '''
 def unsetRecurringFeeTaxRate():
-    '''public void unsetRecurringFeeTaxRate()
+    '''returns None\n\n
+    unsetRecurringFeeTaxRate()\n
     '''
 def getRecurringMonths():
-    '''public Long getRecurringMonths()
+    '''returns Long\n\n
+    getRecurringMonths()\n
     '''
 def setRecurringMonths():
-    '''public void setRecurringMonths(final Long recurringMonths)
+    '''returns None\n\n
+    setRecurringMonths(final Long recurringMonths)\n
     '''
 def isRecurringMonthsSpecified():
-    '''public boolean isRecurringMonthsSpecified()
+    '''returns boolean\n\n
+    isRecurringMonthsSpecified()\n
     '''
 def unsetRecurringMonths():
-    '''public void unsetRecurringMonths()
+    '''returns None\n\n
+    unsetRecurringMonths()\n
     '''
 def getServiceProviderId():
-    '''public Long getServiceProviderId()
+    '''returns Long\n\n
+    getServiceProviderId()\n
     '''
 def setServiceProviderId():
-    '''public void setServiceProviderId(final Long serviceProviderId)
+    '''returns None\n\n
+    setServiceProviderId(final Long serviceProviderId)\n
     '''
 def isServiceProviderIdSpecified():
-    '''public boolean isServiceProviderIdSpecified()
+    '''returns boolean\n\n
+    isServiceProviderIdSpecified()\n
     '''
 def unsetServiceProviderId():
-    '''public void unsetServiceProviderId()
+    '''returns None\n\n
+    unsetServiceProviderId()\n
     '''
 def getSetupFee():
-    '''public BigDecimal getSetupFee()
+    '''returns BigDecimal\n\n
+    getSetupFee()\n
     '''
 def setSetupFee():
-    '''public void setSetupFee(final BigDecimal setupFee)
+    '''returns None\n\n
+    setSetupFee(final BigDecimal setupFee)\n
     '''
 def isSetupFeeSpecified():
-    '''public boolean isSetupFeeSpecified()
+    '''returns boolean\n\n
+    isSetupFeeSpecified()\n
     '''
 def unsetSetupFee():
-    '''public void unsetSetupFee()
+    '''returns None\n\n
+    unsetSetupFee()\n
     '''
 def getSetupFeeTaxRate():
-    '''public BigDecimal getSetupFeeTaxRate()
+    '''returns BigDecimal\n\n
+    getSetupFeeTaxRate()\n
     '''
 def setSetupFeeTaxRate():
-    '''public void setSetupFeeTaxRate(final BigDecimal setupFeeTaxRate)
+    '''returns None\n\n
+    setSetupFeeTaxRate(final BigDecimal setupFeeTaxRate)\n
     '''
 def isSetupFeeTaxRateSpecified():
-    '''public boolean isSetupFeeTaxRateSpecified()
+    '''returns boolean\n\n
+    isSetupFeeTaxRateSpecified()\n
     '''
 def unsetSetupFeeTaxRate():
-    '''public void unsetSetupFeeTaxRate()
+    '''returns None\n\n
+    unsetSetupFeeTaxRate()\n
     '''
 def getActiveAssociatedChildrenCount():
-    '''public Long getActiveAssociatedChildrenCount()
+    '''returns Long\n\n
+    getActiveAssociatedChildrenCount()\n
     '''
 def setActiveAssociatedChildrenCount():
-    '''public void setActiveAssociatedChildrenCount(final Long activeAssociatedChildrenCount)
+    '''returns None\n\n
+    setActiveAssociatedChildrenCount(final Long activeAssociatedChildrenCount)\n
     '''
 def getActiveAssociatedGuestDiskBillingItemCount():
-    '''public Long getActiveAssociatedGuestDiskBillingItemCount()
+    '''returns Long\n\n
+    getActiveAssociatedGuestDiskBillingItemCount()\n
     '''
 def setActiveAssociatedGuestDiskBillingItemCount():
-    '''public void setActiveAssociatedGuestDiskBillingItemCount(final Long activeAssociatedGuestDiskBillingItemCount)
+    '''returns None\n\n
+    setActiveAssociatedGuestDiskBillingItemCount(final Long activeAssociatedGuestDiskBillingItemCount)\n
     '''
 def getActiveBundledItemCount():
-    '''public Long getActiveBundledItemCount()
+    '''returns Long\n\n
+    getActiveBundledItemCount()\n
     '''
 def setActiveBundledItemCount():
-    '''public void setActiveBundledItemCount(final Long activeBundledItemCount)
+    '''returns None\n\n
+    setActiveBundledItemCount(final Long activeBundledItemCount)\n
     '''
 def getActiveChildrenCount():
-    '''public Long getActiveChildrenCount()
+    '''returns Long\n\n
+    getActiveChildrenCount()\n
     '''
 def setActiveChildrenCount():
-    '''public void setActiveChildrenCount(final Long activeChildrenCount)
+    '''returns None\n\n
+    setActiveChildrenCount(final Long activeChildrenCount)\n
     '''
 def getActiveSparePoolAssociatedGuestDiskBillingItemCount():
-    '''public Long getActiveSparePoolAssociatedGuestDiskBillingItemCount()
+    '''returns Long\n\n
+    getActiveSparePoolAssociatedGuestDiskBillingItemCount()\n
     '''
 def setActiveSparePoolAssociatedGuestDiskBillingItemCount():
-    '''public void setActiveSparePoolAssociatedGuestDiskBillingItemCount(final Long activeSparePoolAssociatedGuestDiskBillingItemCount)
+    '''returns None\n\n
+    setActiveSparePoolAssociatedGuestDiskBillingItemCount(final Long activeSparePoolAssociatedGuestDiskBillingItemCount)\n
     '''
 def getActiveSparePoolBundledItemCount():
-    '''public Long getActiveSparePoolBundledItemCount()
+    '''returns Long\n\n
+    getActiveSparePoolBundledItemCount()\n
     '''
 def setActiveSparePoolBundledItemCount():
-    '''public void setActiveSparePoolBundledItemCount(final Long activeSparePoolBundledItemCount)
+    '''returns None\n\n
+    setActiveSparePoolBundledItemCount(final Long activeSparePoolBundledItemCount)\n
     '''
 def getAssociatedBillingItemHistoryCount():
-    '''public Long getAssociatedBillingItemHistoryCount()
+    '''returns Long\n\n
+    getAssociatedBillingItemHistoryCount()\n
     '''
 def setAssociatedBillingItemHistoryCount():
-    '''public void setAssociatedBillingItemHistoryCount(final Long associatedBillingItemHistoryCount)
+    '''returns None\n\n
+    setAssociatedBillingItemHistoryCount(final Long associatedBillingItemHistoryCount)\n
     '''
 def getAssociatedChildrenCount():
-    '''public Long getAssociatedChildrenCount()
+    '''returns Long\n\n
+    getAssociatedChildrenCount()\n
     '''
 def setAssociatedChildrenCount():
-    '''public void setAssociatedChildrenCount(final Long associatedChildrenCount)
+    '''returns None\n\n
+    setAssociatedChildrenCount(final Long associatedChildrenCount)\n
     '''
 def getAssociatedParentCount():
-    '''public Long getAssociatedParentCount()
+    '''returns Long\n\n
+    getAssociatedParentCount()\n
     '''
 def setAssociatedParentCount():
-    '''public void setAssociatedParentCount(final Long associatedParentCount)
+    '''returns None\n\n
+    setAssociatedParentCount(final Long associatedParentCount)\n
     '''
 def getAvailableMatchingVlanCount():
-    '''public Long getAvailableMatchingVlanCount()
+    '''returns Long\n\n
+    getAvailableMatchingVlanCount()\n
     '''
 def setAvailableMatchingVlanCount():
-    '''public void setAvailableMatchingVlanCount(final Long availableMatchingVlanCount)
+    '''returns None\n\n
+    setAvailableMatchingVlanCount(final Long availableMatchingVlanCount)\n
     '''
 def getBillableChildrenCount():
-    '''public Long getBillableChildrenCount()
+    '''returns Long\n\n
+    getBillableChildrenCount()\n
     '''
 def setBillableChildrenCount():
-    '''public void setBillableChildrenCount(final Long billableChildrenCount)
+    '''returns None\n\n
+    setBillableChildrenCount(final Long billableChildrenCount)\n
     '''
 def getBundleItemCount():
-    '''public Long getBundleItemCount()
+    '''returns Long\n\n
+    getBundleItemCount()\n
     '''
 def setBundleItemCount():
-    '''public void setBundleItemCount(final Long bundleItemCount)
+    '''returns None\n\n
+    setBundleItemCount(final Long bundleItemCount)\n
     '''
 def getBundledItemCount():
-    '''public Long getBundledItemCount()
+    '''returns Long\n\n
+    getBundledItemCount()\n
     '''
 def setBundledItemCount():
-    '''public void setBundledItemCount(final Long bundledItemCount)
+    '''returns None\n\n
+    setBundledItemCount(final Long bundledItemCount)\n
     '''
 def getCanceledChildrenCount():
-    '''public Long getCanceledChildrenCount()
+    '''returns Long\n\n
+    getCanceledChildrenCount()\n
     '''
 def setCanceledChildrenCount():
-    '''public void setCanceledChildrenCount(final Long canceledChildrenCount)
+    '''returns None\n\n
+    setCanceledChildrenCount(final Long canceledChildrenCount)\n
     '''
 def getCancellationRequestCount():
-    '''public Long getCancellationRequestCount()
+    '''returns Long\n\n
+    getCancellationRequestCount()\n
     '''
 def setCancellationRequestCount():
-    '''public void setCancellationRequestCount(final Long cancellationRequestCount)
+    '''returns None\n\n
+    setCancellationRequestCount(final Long cancellationRequestCount)\n
     '''
 def getChildrenCount():
-    '''public Long getChildrenCount()
+    '''returns Long\n\n
+    getChildrenCount()\n
     '''
 def setChildrenCount():
-    '''public void setChildrenCount(final Long childrenCount)
+    '''returns None\n\n
+    setChildrenCount(final Long childrenCount)\n
     '''
 def getChildrenWithActiveAgreementCount():
-    '''public Long getChildrenWithActiveAgreementCount()
+    '''returns Long\n\n
+    getChildrenWithActiveAgreementCount()\n
     '''
 def setChildrenWithActiveAgreementCount():
-    '''public void setChildrenWithActiveAgreementCount(final Long childrenWithActiveAgreementCount)
+    '''returns None\n\n
+    setChildrenWithActiveAgreementCount(final Long childrenWithActiveAgreementCount)\n
     '''
 def getDowngradeItemCount():
-    '''public Long getDowngradeItemCount()
+    '''returns Long\n\n
+    getDowngradeItemCount()\n
     '''
 def setDowngradeItemCount():
-    '''public void setDowngradeItemCount(final Long downgradeItemCount)
+    '''returns None\n\n
+    setDowngradeItemCount(final Long downgradeItemCount)\n
     '''
 def getFilteredNextInvoiceChildrenCount():
-    '''public Long getFilteredNextInvoiceChildrenCount()
+    '''returns Long\n\n
+    getFilteredNextInvoiceChildrenCount()\n
     '''
 def setFilteredNextInvoiceChildrenCount():
-    '''public void setFilteredNextInvoiceChildrenCount(final Long filteredNextInvoiceChildrenCount)
+    '''returns None\n\n
+    setFilteredNextInvoiceChildrenCount(final Long filteredNextInvoiceChildrenCount)\n
     '''
 def getInvoiceItemCount():
-    '''public Long getInvoiceItemCount()
+    '''returns Long\n\n
+    getInvoiceItemCount()\n
     '''
 def setInvoiceItemCount():
-    '''public void setInvoiceItemCount(final Long invoiceItemCount)
+    '''returns None\n\n
+    setInvoiceItemCount(final Long invoiceItemCount)\n
     '''
 def getNextInvoiceChildrenCount():
-    '''public Long getNextInvoiceChildrenCount()
+    '''returns Long\n\n
+    getNextInvoiceChildrenCount()\n
     '''
 def setNextInvoiceChildrenCount():
-    '''public void setNextInvoiceChildrenCount(final Long nextInvoiceChildrenCount)
+    '''returns None\n\n
+    setNextInvoiceChildrenCount(final Long nextInvoiceChildrenCount)\n
     '''
 def getNonZeroNextInvoiceChildrenCount():
-    '''public Long getNonZeroNextInvoiceChildrenCount()
+    '''returns Long\n\n
+    getNonZeroNextInvoiceChildrenCount()\n
     '''
 def setNonZeroNextInvoiceChildrenCount():
-    '''public void setNonZeroNextInvoiceChildrenCount(final Long nonZeroNextInvoiceChildrenCount)
+    '''returns None\n\n
+    setNonZeroNextInvoiceChildrenCount(final Long nonZeroNextInvoiceChildrenCount)\n
     '''
 def getUpgradeItemCount():
-    '''public Long getUpgradeItemCount()
+    '''returns Long\n\n
+    getUpgradeItemCount()\n
     '''
 def setUpgradeItemCount():
-    '''public void setUpgradeItemCount(final Long upgradeItemCount)
+    '''returns None\n\n
+    setUpgradeItemCount(final Long upgradeItemCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def activeAssociatedChildren():
-    '''public Mask activeAssociatedChildren()
+    '''returns Mask\n\n
+    activeAssociatedChildren()\n
     '''
 def activeAssociatedGuestDiskBillingItems():
-    '''public Mask activeAssociatedGuestDiskBillingItems()
+    '''returns Mask\n\n
+    activeAssociatedGuestDiskBillingItems()\n
     '''
 def activeBundledItems():
-    '''public Mask activeBundledItems()
+    '''returns Mask\n\n
+    activeBundledItems()\n
     '''
 def activeChildren():
-    '''public Mask activeChildren()
+    '''returns Mask\n\n
+    activeChildren()\n
     '''
 def activeFlag():
-    '''public Mask activeFlag()
+    '''returns Mask\n\n
+    activeFlag()\n
     '''
 def activeSparePoolAssociatedGuestDiskBillingItems():
-    '''public Mask activeSparePoolAssociatedGuestDiskBillingItems()
+    '''returns Mask\n\n
+    activeSparePoolAssociatedGuestDiskBillingItems()\n
     '''
 def activeSparePoolBundledItems():
-    '''public Mask activeSparePoolBundledItems()
+    '''returns Mask\n\n
+    activeSparePoolBundledItems()\n
     '''
 def associatedBillingItem():
-    '''public Mask associatedBillingItem()
+    '''returns Mask\n\n
+    associatedBillingItem()\n
     '''
 def associatedChildren():
-    '''public Mask associatedChildren()
+    '''returns Mask\n\n
+    associatedChildren()\n
     '''
 def associatedParent():
-    '''public Mask associatedParent()
+    '''returns Mask\n\n
+    associatedParent()\n
     '''
 def billableChildren():
-    '''public Mask billableChildren()
+    '''returns Mask\n\n
+    billableChildren()\n
     '''
 def bundledItems():
-    '''public Mask bundledItems()
+    '''returns Mask\n\n
+    bundledItems()\n
     '''
 def canceledChildren():
-    '''public Mask canceledChildren()
+    '''returns Mask\n\n
+    canceledChildren()\n
     '''
 def children():
-    '''public Mask children()
+    '''returns Mask\n\n
+    children()\n
     '''
 def childrenWithActiveAgreement():
-    '''public Mask childrenWithActiveAgreement()
+    '''returns Mask\n\n
+    childrenWithActiveAgreement()\n
     '''
 def filteredNextInvoiceChildren():
-    '''public Mask filteredNextInvoiceChildren()
+    '''returns Mask\n\n
+    filteredNextInvoiceChildren()\n
     '''
 def hourlyFlag():
-    '''public Mask hourlyFlag()
+    '''returns Mask\n\n
+    hourlyFlag()\n
     '''
 def nextInvoiceChildren():
-    '''public Mask nextInvoiceChildren()
+    '''returns Mask\n\n
+    nextInvoiceChildren()\n
     '''
 def nextInvoiceTotalOneTimeAmount():
-    '''public Mask nextInvoiceTotalOneTimeAmount()
+    '''returns Mask\n\n
+    nextInvoiceTotalOneTimeAmount()\n
     '''
 def nextInvoiceTotalOneTimeTaxAmount():
-    '''public Mask nextInvoiceTotalOneTimeTaxAmount()
+    '''returns Mask\n\n
+    nextInvoiceTotalOneTimeTaxAmount()\n
     '''
 def nextInvoiceTotalRecurringAmount():
-    '''public Mask nextInvoiceTotalRecurringAmount()
+    '''returns Mask\n\n
+    nextInvoiceTotalRecurringAmount()\n
     '''
 def nextInvoiceTotalRecurringTaxAmount():
-    '''public Mask nextInvoiceTotalRecurringTaxAmount()
+    '''returns Mask\n\n
+    nextInvoiceTotalRecurringTaxAmount()\n
     '''
 def nonZeroNextInvoiceChildren():
-    '''public Mask nonZeroNextInvoiceChildren()
+    '''returns Mask\n\n
+    nonZeroNextInvoiceChildren()\n
     '''
 def parent():
-    '''public Mask parent()
+    '''returns Mask\n\n
+    parent()\n
     '''
 def pendingCancellationFlag():
-    '''public Mask pendingCancellationFlag()
+    '''returns Mask\n\n
+    pendingCancellationFlag()\n
     '''
 def allowCancellationFlag():
-    '''public Mask allowCancellationFlag()
+    '''returns Mask\n\n
+    allowCancellationFlag()\n
     '''
 def associatedBillingItemId():
-    '''public Mask associatedBillingItemId()
+    '''returns Mask\n\n
+    associatedBillingItemId()\n
     '''
 def cancellationDate():
-    '''public Mask cancellationDate()
+    '''returns Mask\n\n
+    cancellationDate()\n
     '''
 def categoryCode():
-    '''public Mask categoryCode()
+    '''returns Mask\n\n
+    categoryCode()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def currentHourlyCharge():
-    '''public Mask currentHourlyCharge()
+    '''returns Mask\n\n
+    currentHourlyCharge()\n
     '''
 def cycleStartDate():
-    '''public Mask cycleStartDate()
+    '''returns Mask\n\n
+    cycleStartDate()\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def domainName():
-    '''public Mask domainName()
+    '''returns Mask\n\n
+    domainName()\n
     '''
 def hostName():
-    '''public Mask hostName()
+    '''returns Mask\n\n
+    hostName()\n
     '''
 def hourlyRecurringFee():
-    '''public Mask hourlyRecurringFee()
+    '''returns Mask\n\n
+    hourlyRecurringFee()\n
     '''
 def hoursUsed():
-    '''public Mask hoursUsed()
+    '''returns Mask\n\n
+    hoursUsed()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def laborFee():
-    '''public Mask laborFee()
+    '''returns Mask\n\n
+    laborFee()\n
     '''
 def laborFeeTaxRate():
-    '''public Mask laborFeeTaxRate()
+    '''returns Mask\n\n
+    laborFeeTaxRate()\n
     '''
 def lastBillDate():
-    '''public Mask lastBillDate()
+    '''returns Mask\n\n
+    lastBillDate()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def nextBillDate():
-    '''public Mask nextBillDate()
+    '''returns Mask\n\n
+    nextBillDate()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def oneTimeFee():
-    '''public Mask oneTimeFee()
+    '''returns Mask\n\n
+    oneTimeFee()\n
     '''
 def oneTimeFeeTaxRate():
-    '''public Mask oneTimeFeeTaxRate()
+    '''returns Mask\n\n
+    oneTimeFeeTaxRate()\n
     '''
 def orderItemId():
-    '''public Mask orderItemId()
+    '''returns Mask\n\n
+    orderItemId()\n
     '''
 def parentId():
-    '''public Mask parentId()
+    '''returns Mask\n\n
+    parentId()\n
     '''
 def recurringFee():
-    '''public Mask recurringFee()
+    '''returns Mask\n\n
+    recurringFee()\n
     '''
 def recurringFeeTaxRate():
-    '''public Mask recurringFeeTaxRate()
+    '''returns Mask\n\n
+    recurringFeeTaxRate()\n
     '''
 def recurringMonths():
-    '''public Mask recurringMonths()
+    '''returns Mask\n\n
+    recurringMonths()\n
     '''
 def serviceProviderId():
-    '''public Mask serviceProviderId()
+    '''returns Mask\n\n
+    serviceProviderId()\n
     '''
 def setupFee():
-    '''public Mask setupFee()
+    '''returns Mask\n\n
+    setupFee()\n
     '''
 def setupFeeTaxRate():
-    '''public Mask setupFeeTaxRate()
+    '''returns Mask\n\n
+    setupFeeTaxRate()\n
     '''
 def activeAssociatedChildrenCount():
-    '''public Mask activeAssociatedChildrenCount()
+    '''returns Mask\n\n
+    activeAssociatedChildrenCount()\n
     '''
 def activeAssociatedGuestDiskBillingItemCount():
-    '''public Mask activeAssociatedGuestDiskBillingItemCount()
+    '''returns Mask\n\n
+    activeAssociatedGuestDiskBillingItemCount()\n
     '''
 def activeBundledItemCount():
-    '''public Mask activeBundledItemCount()
+    '''returns Mask\n\n
+    activeBundledItemCount()\n
     '''
 def activeChildrenCount():
-    '''public Mask activeChildrenCount()
+    '''returns Mask\n\n
+    activeChildrenCount()\n
     '''
 def activeSparePoolAssociatedGuestDiskBillingItemCount():
-    '''public Mask activeSparePoolAssociatedGuestDiskBillingItemCount()
+    '''returns Mask\n\n
+    activeSparePoolAssociatedGuestDiskBillingItemCount()\n
     '''
 def activeSparePoolBundledItemCount():
-    '''public Mask activeSparePoolBundledItemCount()
+    '''returns Mask\n\n
+    activeSparePoolBundledItemCount()\n
     '''
 def associatedBillingItemHistoryCount():
-    '''public Mask associatedBillingItemHistoryCount()
+    '''returns Mask\n\n
+    associatedBillingItemHistoryCount()\n
     '''
 def associatedChildrenCount():
-    '''public Mask associatedChildrenCount()
+    '''returns Mask\n\n
+    associatedChildrenCount()\n
     '''
 def associatedParentCount():
-    '''public Mask associatedParentCount()
+    '''returns Mask\n\n
+    associatedParentCount()\n
     '''
 def availableMatchingVlanCount():
-    '''public Mask availableMatchingVlanCount()
+    '''returns Mask\n\n
+    availableMatchingVlanCount()\n
     '''
 def billableChildrenCount():
-    '''public Mask billableChildrenCount()
+    '''returns Mask\n\n
+    billableChildrenCount()\n
     '''
 def bundleItemCount():
-    '''public Mask bundleItemCount()
+    '''returns Mask\n\n
+    bundleItemCount()\n
     '''
 def bundledItemCount():
-    '''public Mask bundledItemCount()
+    '''returns Mask\n\n
+    bundledItemCount()\n
     '''
 def canceledChildrenCount():
-    '''public Mask canceledChildrenCount()
+    '''returns Mask\n\n
+    canceledChildrenCount()\n
     '''
 def cancellationRequestCount():
-    '''public Mask cancellationRequestCount()
+    '''returns Mask\n\n
+    cancellationRequestCount()\n
     '''
 def childrenCount():
-    '''public Mask childrenCount()
+    '''returns Mask\n\n
+    childrenCount()\n
     '''
 def childrenWithActiveAgreementCount():
-    '''public Mask childrenWithActiveAgreementCount()
+    '''returns Mask\n\n
+    childrenWithActiveAgreementCount()\n
     '''
 def downgradeItemCount():
-    '''public Mask downgradeItemCount()
+    '''returns Mask\n\n
+    downgradeItemCount()\n
     '''
 def filteredNextInvoiceChildrenCount():
-    '''public Mask filteredNextInvoiceChildrenCount()
+    '''returns Mask\n\n
+    filteredNextInvoiceChildrenCount()\n
     '''
 def invoiceItemCount():
-    '''public Mask invoiceItemCount()
+    '''returns Mask\n\n
+    invoiceItemCount()\n
     '''
 def nextInvoiceChildrenCount():
-    '''public Mask nextInvoiceChildrenCount()
+    '''returns Mask\n\n
+    nextInvoiceChildrenCount()\n
     '''
 def nonZeroNextInvoiceChildrenCount():
-    '''public Mask nonZeroNextInvoiceChildrenCount()
+    '''returns Mask\n\n
+    nonZeroNextInvoiceChildrenCount()\n
     '''
 def upgradeItemCount():
-    '''public Mask upgradeItemCount()
+    '''returns Mask\n\n
+    upgradeItemCount()\n
     '''

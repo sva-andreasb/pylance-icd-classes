@@ -1,36 +1,32 @@
-def IloBound():
-    '''public IloBound(final long cPtr, final boolean cMemoryOwn)
-    public IloBound()
-    public IloBound(final SWIGTYPE_p_IloBoundI impl)
-    public IloBound(final ilog.concert.cppimpl.IloNumVar var, final Type_cpp type)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloBound obj)
+def ():
+    '''returns Type_cpp\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    ()\n
+    (final SWIGTYPE_p_IloBoundI impl)\n
+    (final ilog.concert.cppimpl.IloNumVar var, final Type_cpp type)\n
+    (final String swigName, final int swigValue)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getVar():
-    '''public IloNumVar getVar()
+    '''returns IloNumVar\n\n
+    getVar()\n
     '''
 def getType():
-    '''public IloNumVarBoundType getType()
+    '''returns IloNumVarBoundType\n\n
+    getType()\n
     '''
 def getType_cpp():
-    '''public Type_cpp getType_cpp()
+    '''returns Type_cpp\n\n
+    getType_cpp()\n
     '''
 def mySwigValue():
-    '''public int mySwigValue()
-    '''
-def swigValue():
-    '''public final int swigValue()
+    '''returns int\n\n
+    mySwigValue()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def swigToEnum():
-    '''public static Type_cpp swigToEnum(final int swigValue)
-    '''
-def Type_cpp():
-    '''public Type_cpp(final String swigName, final int swigValue)
+    '''returns String\n\n
+    toString()\n
     '''

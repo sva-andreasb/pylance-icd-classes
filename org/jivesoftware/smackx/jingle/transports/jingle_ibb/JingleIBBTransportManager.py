@@ -1,12 +1,12 @@
-def getInstanceFor():
-    '''public static synchronized JingleIBBTransportManager getInstanceFor(final XMPPConnection connection)
-    '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def transportSession():
-    '''public JingleTransportSession<JingleIBBTransport> transportSession(final JingleSession jingleSession)
+    '''returns JingleTransportSession<JingleIBBTransport>\n\n
+    transportSession(final JingleSession jingleSession)\n
     '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''

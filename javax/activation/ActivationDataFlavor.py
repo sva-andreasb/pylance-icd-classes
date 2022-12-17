@@ -1,23 +1,30 @@
 def equals():
-    '''public boolean equals(final DataFlavor dataFlavor)
+    '''returns boolean\n\n
+    equals(final DataFlavor dataFlavor)\n
     '''
 def getRepresentationClass():
-    '''public Class getRepresentationClass()
+    '''returns Class\n\n
+    getRepresentationClass()\n
     '''
 def getHumanPresentableName():
-    '''public String getHumanPresentableName()
+    '''returns String\n\n
+    getHumanPresentableName()\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def setHumanPresentableName():
-    '''public void setHumanPresentableName(final String humanPresentableName)
+    '''returns None\n\n
+    setHumanPresentableName(final String humanPresentableName)\n
     '''
 def isMimeTypeEqual():
-    '''public boolean isMimeTypeEqual(final String mimeType)
+    '''returns boolean\n\n
+    isMimeTypeEqual(final String mimeType)\n
     '''
-def ActivationDataFlavor():
-    '''public ActivationDataFlavor(final Class representationClass, final String humanPresentableName)
-    public ActivationDataFlavor(final String mimeType, final String humanPresentableName)
-    public ActivationDataFlavor(final Class representationClass, final String mimeType, final String humanPresentableName)
+def ():
+    '''returns ActivationDataFlavor\n\n
+    (final Class representationClass, final String humanPresentableName)\n
+    (final String mimeType, final String humanPresentableName)\n
+    (final Class representationClass, final String mimeType, final String humanPresentableName)\n
     '''

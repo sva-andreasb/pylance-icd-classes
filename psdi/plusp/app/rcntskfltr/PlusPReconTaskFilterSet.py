@@ -1,3 +1,4 @@
-def PlusPReconTaskFilterSet():
-    '''public PlusPReconTaskFilterSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPReconTaskFilterSet\n\n
+    (final MboServerInterface arg0)\n
     '''

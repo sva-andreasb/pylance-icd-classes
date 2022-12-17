@@ -1,18 +1,16 @@
 def getLength():
-    '''public long getLength()
-    '''
-def getMediaType():
-    '''public final HttpMediaType getMediaType()
+    '''returns long\n\n
+    getLength()\n
     '''
 def setMediaType():
-    '''public AbstractHttpContent setMediaType(final HttpMediaType mediaType)
+    '''returns AbstractHttpContent\n\n
+    setMediaType(final HttpMediaType mediaType)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def retrySupported():
-    '''public boolean retrySupported()
-    '''
-def computeLength():
-    '''public static long computeLength(final HttpContent content)
+    '''returns boolean\n\n
+    retrySupported()\n
     '''

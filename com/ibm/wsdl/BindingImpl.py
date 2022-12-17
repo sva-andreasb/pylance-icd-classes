@@ -1,46 +1,61 @@
 serialVersionUID = "long  1L"
-def BindingImpl():
-    '''public BindingImpl()
+def ():
+    '''returns BindingImpl\n\n
+    ()\n
     '''
 def setQName():
-    '''public void setQName(final QName name)
+    '''returns None\n\n
+    setQName(final QName name)\n
     '''
 def getQName():
-    '''public QName getQName()
+    '''returns QName\n\n
+    getQName()\n
     '''
 def setPortType():
-    '''public void setPortType(final PortType portType)
+    '''returns None\n\n
+    setPortType(final PortType portType)\n
     '''
 def getPortType():
-    '''public PortType getPortType()
+    '''returns PortType\n\n
+    getPortType()\n
     '''
 def addBindingOperation():
-    '''public void addBindingOperation(final BindingOperation bindingOperation)
+    '''returns None\n\n
+    addBindingOperation(final BindingOperation bindingOperation)\n
     '''
 def getBindingOperation():
-    '''public BindingOperation getBindingOperation(final String str, final String s, final String s2)
+    '''returns BindingOperation\n\n
+    getBindingOperation(final String str, final String s, final String s2)\n
     '''
 def getBindingOperations():
-    '''public List getBindingOperations()
+    '''returns List\n\n
+    getBindingOperations()\n
     '''
 def setDocumentationElement():
-    '''public void setDocumentationElement(final Element docEl)
+    '''returns None\n\n
+    setDocumentationElement(final Element docEl)\n
     '''
 def getDocumentationElement():
-    '''public Element getDocumentationElement()
+    '''returns Element\n\n
+    getDocumentationElement()\n
     '''
 def addExtensibilityElement():
-    '''public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''returns None\n\n
+    addExtensibilityElement(final ExtensibilityElement extensibilityElement)\n
     '''
 def getExtensibilityElements():
-    '''public List getExtensibilityElements()
+    '''returns List\n\n
+    getExtensibilityElements()\n
     '''
 def setUndefined():
-    '''public void setUndefined(final boolean isUndefined)
+    '''returns None\n\n
+    setUndefined(final boolean isUndefined)\n
     '''
 def isUndefined():
-    '''public boolean isUndefined()
+    '''returns boolean\n\n
+    isUndefined()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

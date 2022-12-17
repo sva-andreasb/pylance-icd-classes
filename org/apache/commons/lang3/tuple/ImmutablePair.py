@@ -1,15 +1,16 @@
-def of():
-    '''public static <L, R> ImmutablePair<L, R> of(final L left, final R right)
-    '''
-def ImmutablePair():
-    '''public ImmutablePair(final L left, final R right)
+def ():
+    '''returns ImmutablePair\n\n
+    (final L left, final R right)\n
     '''
 def getLeft():
-    '''public L getLeft()
+    '''returns L\n\n
+    getLeft()\n
     '''
 def getRight():
-    '''public R getRight()
+    '''returns R\n\n
+    getRight()\n
     '''
 def setValue():
-    '''public R setValue(final R value)
+    '''returns R\n\n
+    setValue(final R value)\n
     '''

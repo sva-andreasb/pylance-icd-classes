@@ -1,3 +1,4 @@
-def WFStartSet():
-    '''public WFStartSet(final MboServerInterface ms)
+def ():
+    '''returns WFStartSet\n\n
+    (final MboServerInterface ms)\n
     '''

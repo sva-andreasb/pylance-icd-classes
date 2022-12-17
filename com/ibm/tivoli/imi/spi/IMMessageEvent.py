@@ -1,15 +1,20 @@
-def IMMessageEvent():
-    '''public IMMessageEvent(final Object o, final IMSession imSession, final IMMessage message)
+def ():
+    '''returns IMMessageEvent\n\n
+    (final Object o, final IMSession imSession, final IMMessage message)\n
     '''
 def getContent():
-    '''public IMMessage getContent()
+    '''returns IMMessage\n\n
+    getContent()\n
     '''
 def getFormatedMessage():
-    '''public String getFormatedMessage()
+    '''returns String\n\n
+    getFormatedMessage()\n
     '''
 def getSender():
-    '''public IMUser getSender()
+    '''returns IMUser\n\n
+    getSender()\n
     '''
 def getReceiver():
-    '''public IMUser getReceiver()
+    '''returns IMUser\n\n
+    getReceiver()\n
     '''

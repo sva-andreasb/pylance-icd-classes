@@ -1,3 +1,4 @@
-def ShowActualLaborSet():
-    '''public ShowActualLaborSet(final MboRemote owner)
+def ():
+    '''returns ShowActualLaborSet\n\n
+    (final MboRemote owner)\n
     '''

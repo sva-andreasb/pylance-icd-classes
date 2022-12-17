@@ -1,9 +1,8 @@
-def Compile():
-    '''public Compile()
-    '''
-def main():
-    '''public static void main(final String[] array)
+def ():
+    '''returns Compile\n\n
+    ()\n
     '''
 def start():
-    '''public void start(final String[] array)
+    '''returns None\n\n
+    start(final String[] array)\n
     '''

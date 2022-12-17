@@ -1,4 +1,5 @@
-def InvalidRoleValueException():
-    '''public InvalidRoleValueException()
-    public InvalidRoleValueException(final String s)
+def ():
+    '''returns InvalidRoleValueException\n\n
+    ()\n
+    (final String s)\n
     '''

@@ -1,15 +1,8 @@
-def getInstance():
-    '''public static final WeatherAssetCache getInstance()
-    '''
 def exists():
-    '''public boolean exists(final String productCode, final String osName, final long objectId, final String personId)
-    '''
-def getAllSubscriptions():
-    '''public Map<String, Map<String, Set<String>>> getAllSubscriptions()
-    '''
-def loadRegistryInfo():
-    '''public Map<String, WeatherOrgInfo> loadRegistryInfo()
+    '''returns boolean\n\n
+    exists(final String productCode, final String osName, final long objectId, final String personId)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

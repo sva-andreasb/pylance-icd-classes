@@ -1,55 +1,73 @@
-def Jetty6Continuation():
-    '''public Jetty6Continuation(final ServletRequest request, final org.mortbay.util.ajax.Continuation continuation)
+def ():
+    '''returns Jetty6Continuation\n\n
+    (final ServletRequest request, final org.mortbay.util.ajax.Continuation continuation)\n
     '''
 def addContinuationListener():
-    '''public void addContinuationListener(final ContinuationListener listener)
+    '''returns None\n\n
+    addContinuationListener(final ContinuationListener listener)\n
     '''
 def complete():
-    '''public void complete()
+    '''returns None\n\n
+    complete()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String name)
+    '''returns None\n\n
+    removeAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final Object attribute)
+    '''returns None\n\n
+    setAttribute(final String name, final Object attribute)\n
     '''
 def getServletResponse():
-    '''public ServletResponse getServletResponse()
+    '''returns ServletResponse\n\n
+    getServletResponse()\n
     '''
 def isExpired():
-    '''public boolean isExpired()
+    '''returns boolean\n\n
+    isExpired()\n
     '''
 def isInitial():
-    '''public boolean isInitial()
+    '''returns boolean\n\n
+    isInitial()\n
     '''
 def isResumed():
-    '''public boolean isResumed()
+    '''returns boolean\n\n
+    isResumed()\n
     '''
 def isSuspended():
-    '''public boolean isSuspended()
+    '''returns boolean\n\n
+    isSuspended()\n
     '''
 def resume():
-    '''public void resume()
+    '''returns None\n\n
+    resume()\n
     '''
 def setTimeout():
-    '''public void setTimeout(final long timeoutMs)
+    '''returns None\n\n
+    setTimeout(final long timeoutMs)\n
     '''
 def suspend():
-    '''public void suspend(final ServletResponse response)
-    public void suspend()
+    '''returns None\n\n
+    suspend(final ServletResponse response)\n
+    suspend()\n
     '''
 def isResponseWrapped():
-    '''public boolean isResponseWrapped()
+    '''returns boolean\n\n
+    isResponseWrapped()\n
     '''
 def undispatch():
-    '''public void undispatch()
+    '''returns None\n\n
+    undispatch()\n
     '''
 def enter():
-    '''public boolean enter(final ServletResponse response)
+    '''returns boolean\n\n
+    enter(final ServletResponse response)\n
     '''
 def exit():
-    '''public boolean exit()
+    '''returns boolean\n\n
+    exit()\n
     '''

@@ -1,16 +1,21 @@
-def InstanceProfileCredentialsProvider():
-    '''public InstanceProfileCredentialsProvider()
-    public InstanceProfileCredentialsProvider(final boolean refreshCredentialsAsync)
+def ():
+    '''returns InstanceProfileCredentialsProvider\n\n
+    ()\n
+    (final boolean refreshCredentialsAsync)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def getCredentials():
-    '''public AWSCredentials getCredentials()
+    '''returns AWSCredentials\n\n
+    getCredentials()\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

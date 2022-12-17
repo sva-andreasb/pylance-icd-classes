@@ -1,3 +1,4 @@
-def YornLookupList():
-    '''public YornLookupList(final MboSet ms)
+def ():
+    '''returns YornLookupList\n\n
+    (final MboSet ms)\n
     '''

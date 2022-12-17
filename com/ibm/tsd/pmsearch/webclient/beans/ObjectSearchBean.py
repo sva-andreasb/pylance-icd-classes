@@ -8,39 +8,47 @@ FR2CODE = "String  \"fr2code_longdescription\""
 DESCRIPTION_LD = "String  \"description_longdescription\""
 TICKETID = "String  \"ticketid\""
 CLASS = "String  \"class\""
-def ObjectSearchBean():
-    '''public ObjectSearchBean()
+def ():
+    '''returns ObjectSearchBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def searchSolutions():
-    '''public int searchSolutions()
+    '''returns int\n\n
+    searchSolutions()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def applySolution():
-    '''public int applySolution()
+    '''returns int\n\n
+    applySolution()\n
     '''
 def refresh():
-    '''public int refresh()
+    '''returns int\n\n
+    refresh()\n
     '''
 def APPLYSERCH():
-    '''public int APPLYSERCH()
+    '''returns int\n\n
+    APPLYSERCH()\n
     '''
 def getSelectedSerchFldList():
-    '''public HashSet<String> getSelectedSerchFldList()
+    '''returns HashSet<String>\n\n
+    getSelectedSerchFldList()\n
     '''
 def setSelectedSerchFldList():
-    '''public void setSelectedSerchFldList(final HashSet<String> selectedSerchFldList)
+    '''returns None\n\n
+    setSelectedSerchFldList(final HashSet<String> selectedSerchFldList)\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''

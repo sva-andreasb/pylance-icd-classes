@@ -1,16 +1,21 @@
-def QuerySet():
-    '''public QuerySet(final MboServerInterface ms)
+def ():
+    '''returns QuerySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getQueriesForUser():
-    '''public void getQueriesForUser(final String appName, final String orderBy)
-    public void getQueriesForUser(final String appName)
+    '''returns None\n\n
+    getQueriesForUser(final String appName, final String orderBy)\n
+    getQueriesForUser(final String appName)\n
     '''
 def addAndSaveQuery():
-    '''public void addAndSaveQuery(final String appName, final String clauseName, final String clause, final boolean isPublic, final boolean isDefault, final String description)
+    '''returns None\n\n
+    addAndSaveQuery(final String appName, final String clauseName, final String clause, final boolean isPublic, final boolean isDefault, final String description)\n
     '''
 def getCurrtDefault():
-    '''public MboRemote getCurrtDefault(final Mbo query)
+    '''returns MboRemote\n\n
+    getCurrtDefault(final Mbo query)\n
     '''
 def validateSqlExpression():
-    '''public void validateSqlExpression(final String objectname, final String expression)
+    '''returns None\n\n
+    validateSqlExpression(final String objectname, final String expression)\n
     '''

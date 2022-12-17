@@ -1,3 +1,4 @@
 def loadinteractiondialog():
-    '''public int loadinteractiondialog()
+    '''returns int\n\n
+    loadinteractiondialog()\n
     '''

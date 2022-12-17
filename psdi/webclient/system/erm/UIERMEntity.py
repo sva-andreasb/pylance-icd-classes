@@ -1,55 +1,69 @@
-def UIERMEntity():
-    '''public UIERMEntity()
-    public UIERMEntity(final Element controlElement)
+def ():
+    '''returns UIERMEntity\n\n
+    ()\n
+    (final Element controlElement)\n
     '''
 def getRelatedEntity():
-    '''public ERMEntity getRelatedEntity(final String relationship)
+    '''returns ERMEntity\n\n
+    getRelatedEntity(final String relationship)\n
     '''
 def getCreatingControlId():
-    '''public String getCreatingControlId()
+    '''returns String\n\n
+    getCreatingControlId()\n
     '''
 def setCreatingControl():
-    '''public void setCreatingControl(final Element creatingElement)
+    '''returns None\n\n
+    setCreatingControl(final Element creatingElement)\n
     '''
 def getRelationship():
-    '''public String getRelationship()
+    '''returns String\n\n
+    getRelationship()\n
     '''
 def addCondUISigOption():
-    '''public void addCondUISigOption(final String sigOption, final UIERMAttribute attribute)
-    '''
-def getCondUISigOptions():
-    '''public Map<String, Map<UIERMEntity, List<UIERMAttribute>>> getCondUISigOptions()
+    '''returns None\n\n
+    addCondUISigOption(final String sigOption, final UIERMAttribute attribute)\n
     '''
 def addAttribute():
-    '''public ERMAttribute addAttribute(final ERMAttribute attribute)
+    '''returns ERMAttribute\n\n
+    addAttribute(final ERMAttribute attribute)\n
     '''
 def getEntityForMbo():
-    '''public ERMEntity getEntityForMbo()
+    '''returns ERMEntity\n\n
+    getEntityForMbo()\n
     '''
 def addChildEntity():
-    '''public void addChildEntity(final String name, final ERMEntity entity)
+    '''returns None\n\n
+    addChildEntity(final String name, final ERMEntity entity)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getZombieMboSet():
-    '''public MboSetRemote getZombieMboSet(final MXSession mxSession, final String appName)
+    '''returns MboSetRemote\n\n
+    getZombieMboSet(final MXSession mxSession, final String appName)\n
     '''
 def hasSiteOrgDomains():
-    '''public boolean hasSiteOrgDomains()
+    '''returns boolean\n\n
+    hasSiteOrgDomains()\n
     '''
 def getSiteOrgValuesKey():
-    '''public int getSiteOrgValuesKey()
+    '''returns int\n\n
+    getSiteOrgValuesKey()\n
     '''
 def isCloned():
-    '''public boolean isCloned()
+    '''returns boolean\n\n
+    isCloned()\n
     '''
 def setIsCloned():
-    '''public void setIsCloned(final boolean aBool)
+    '''returns None\n\n
+    setIsCloned(final boolean aBool)\n
     '''
 def clone():
-    '''public UIERMEntity clone()
+    '''returns UIERMEntity\n\n
+    clone()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

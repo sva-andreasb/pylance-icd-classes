@@ -1,6 +1,8 @@
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def addChild():
-    '''public void addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)
+    '''returns None\n\n
+    addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)\n
     '''

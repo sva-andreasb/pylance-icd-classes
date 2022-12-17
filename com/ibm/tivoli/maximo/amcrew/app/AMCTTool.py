@@ -1,24 +1,32 @@
-def AMCTTool():
-    '''public AMCTTool(final MboSet ms)
+def ():
+    '''returns AMCTTool\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def deleteAssociatedQuals():
-    '''public void deleteAssociatedQuals(final String itemNum)
+    '''returns None\n\n
+    deleteAssociatedQuals(final String itemNum)\n
     '''
 def undeleteAddAssociatedQuals():
-    '''public void undeleteAddAssociatedQuals()
+    '''returns None\n\n
+    undeleteAddAssociatedQuals()\n
     '''
 def getStandardRate():
-    '''public double getStandardRate()
+    '''returns double\n\n
+    getStandardRate()\n
     '''

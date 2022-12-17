@@ -1,16 +1,21 @@
-def ActiveUsersCache():
-    '''public ActiveUsersCache()
+def ():
+    '''returns ActiveUsersCache\n\n
+    ()\n
     '''
 def getActiveUsersInfo():
-    '''public ActiveUsersInfo getActiveUsersInfo(String loginID)
+    '''returns ActiveUsersInfo\n\n
+    getActiveUsersInfo(String loginID)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String alldata)
+    '''returns None\n\n
+    reload()\n
+    reload(final String alldata)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

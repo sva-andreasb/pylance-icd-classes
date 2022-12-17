@@ -1,3 +1,4 @@
-def IpcBom():
-    '''public IpcBom(final MboSet ms)
+def ():
+    '''returns IpcBom\n\n
+    (final MboSet ms)\n
     '''

@@ -2,5 +2,6 @@ IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(
 ATTR_ACTIVITY = "String  \"ACTIVITY\""
 ATTR_NEWCHILDCLASS = "String  \"newchildclass\""
 def newactivity():
-    '''public int newactivity()
+    '''returns int\n\n
+    newactivity()\n
     '''

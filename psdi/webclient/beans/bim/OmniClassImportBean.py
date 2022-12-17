@@ -10,33 +10,39 @@ CTRL_UNI_CLOSE_BTN = "String  \"uniformat_close\""
 CTRL_UNI_BTN_GROUP = "String  \"uniformat_bg\""
 CTRL_UNIFORMAT_TAB_GROUP = "String  \"uniformat_tabs\""
 CTRL_UNIFORMAT_LOG_TAB = "String  \"uniformat_log_tab\""
-def OmniClassImportBean():
-    '''public OmniClassImportBean()
+def ():
+    '''returns OmniClassImportBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def omniclassImport():
-    '''public int omniclassImport()
+    '''returns int\n\n
+    omniclassImport()\n
     '''
 def uniformatImport():
-    '''public int uniformatImport()
+    '''returns int\n\n
+    uniformatImport()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def refreshLogs():
-    '''public int refreshLogs()
-    '''
-def cancelDialog():
-    '''public synchronized int cancelDialog()
+    '''returns int\n\n
+    refreshLogs()\n
     '''
 def setServerFileName():
-    '''public void setServerFileName(final MboRemote targetMbo, final String enentSource, final String fileName)
+    '''returns None\n\n
+    setServerFileName(final MboRemote targetMbo, final String enentSource, final String fileName)\n
     '''
 def setClientFileName():
-    '''public void setClientFileName(final MboRemote targetMbo, final String enentSource, final String fileName)
+    '''returns None\n\n
+    setClientFileName(final MboRemote targetMbo, final String enentSource, final String fileName)\n
     '''
 def getDirectoryPath():
-    '''public String getDirectoryPath(final String enentSource)
+    '''returns String\n\n
+    getDirectoryPath(final String enentSource)\n
     '''

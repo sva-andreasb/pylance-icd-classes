@@ -1,27 +1,24 @@
-def ICURWLock():
-    '''public ICURWLock()
-    '''
-def resetStats():
-    '''public synchronized Stats resetStats()
-    '''
-def clearStats():
-    '''public synchronized Stats clearStats()
-    '''
-def getStats():
-    '''public synchronized Stats getStats()
+def ():
+    '''returns ICURWLock\n\n
+    ()\n
     '''
 def acquireRead():
-    '''public void acquireRead()
+    '''returns None\n\n
+    acquireRead()\n
     '''
 def releaseRead():
-    '''public void releaseRead()
+    '''returns None\n\n
+    releaseRead()\n
     '''
 def acquireWrite():
-    '''public void acquireWrite()
+    '''returns None\n\n
+    acquireWrite()\n
     '''
 def releaseWrite():
-    '''public void releaseWrite()
+    '''returns None\n\n
+    releaseWrite()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

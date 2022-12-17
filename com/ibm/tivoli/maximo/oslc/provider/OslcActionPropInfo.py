@@ -5,18 +5,23 @@ SMALLINT = "String  \"SMALLINT\""
 DECIMAL = "String  \"DECIMAL\""
 YORN = "String  \"YORN\""
 DATETIME = "String  \"DATETIME\""
-def OslcActionPropInfo():
-    '''public OslcActionPropInfo(final String name, final QName qName, final String linkedOSName, final String literalType)
+def ():
+    '''returns OslcActionPropInfo\n\n
+    (final String name, final QName qName, final String linkedOSName, final String literalType)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getQName():
-    '''public QName getQName()
+    '''returns QName\n\n
+    getQName()\n
     '''
 def getLinkedOSName():
-    '''public String getLinkedOSName()
+    '''returns String\n\n
+    getLinkedOSName()\n
     '''
 def getLiteralType():
-    '''public String getLiteralType()
+    '''returns String\n\n
+    getLiteralType()\n
     '''

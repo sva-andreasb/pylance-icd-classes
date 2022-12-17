@@ -1,6 +1,7 @@
-def FunctorException():
-    '''public FunctorException()
-    public FunctorException(final String msg)
-    public FunctorException(final Throwable rootCause)
-    public FunctorException(final String msg, final Throwable rootCause)
+def ():
+    '''returns FunctorException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable rootCause)\n
+    (final String msg, final Throwable rootCause)\n
     '''

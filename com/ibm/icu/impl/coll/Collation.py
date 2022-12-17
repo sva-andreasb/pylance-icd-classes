@@ -25,12 +25,3 @@ TERTIARY_LEVEL = "int  4"
 QUATERNARY_LEVEL = "int  5"
 IDENTICAL_LEVEL = "int  6"
 ZERO_LEVEL = "int  7"
-def makeCE():
-    '''public static long makeCE(final long p)
-    '''
-def incTwoBytePrimaryByOffset():
-    '''public static long incTwoBytePrimaryByOffset(final long basePrimary, final boolean isCompressible, int offset)
-    '''
-def incThreeBytePrimaryByOffset():
-    '''public static long incThreeBytePrimaryByOffset(final long basePrimary, final boolean isCompressible, int offset)
-    '''

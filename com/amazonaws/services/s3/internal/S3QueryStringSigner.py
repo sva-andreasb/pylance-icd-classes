@@ -1,6 +1,8 @@
-def S3QueryStringSigner():
-    '''public S3QueryStringSigner(final String httpVerb, final String resourcePath, final Date expiration)
+def ():
+    '''returns S3QueryStringSigner\n\n
+    (final String httpVerb, final String resourcePath, final Date expiration)\n
     '''
 def sign():
-    '''public void sign(final SignableRequest<?> request, final AWSCredentials credentials)
+    '''returns None\n\n
+    sign(final SignableRequest<?> request, final AWSCredentials credentials)\n
     '''

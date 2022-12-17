@@ -1,6 +1,8 @@
 def put():
-    '''public NamedGraphMap put(final String name, final Graph g)
+    '''returns NamedGraphMap\n\n
+    put(final String name, final Graph g)\n
     '''
 def get():
-    '''public Graph get(final String name)
+    '''returns Graph\n\n
+    get(final String name)\n
     '''

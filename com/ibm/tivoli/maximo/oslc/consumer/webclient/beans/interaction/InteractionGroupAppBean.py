@@ -1,12 +1,12 @@
-def getList():
-    '''public synchronized MboSetRemote getList(final int nRow, final String attribute)
-    '''
 def setValueFromComponent():
-    '''public void setValueFromComponent(final BoundComponentInstance changedComponent, final WebClientEvent event, final String newValue)
+    '''returns None\n\n
+    setValueFromComponent(final BoundComponentInstance changedComponent, final WebClientEvent event, final String newValue)\n
     '''
 def instantdelete():
-    '''public int instantdelete()
+    '''returns int\n\n
+    instantdelete()\n
     '''
 def deleteInteractionGroupApp():
-    '''public void deleteInteractionGroupApp(final MboRemote mbo)
+    '''returns None\n\n
+    deleteInteractionGroupApp(final MboRemote mbo)\n
     '''

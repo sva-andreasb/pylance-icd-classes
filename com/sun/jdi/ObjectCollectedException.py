@@ -1,4 +1,5 @@
-def ObjectCollectedException():
-    '''public ObjectCollectedException()
-    public ObjectCollectedException(final String message)
+def ():
+    '''returns ObjectCollectedException\n\n
+    ()\n
+    (final String message)\n
     '''

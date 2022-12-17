@@ -1,18 +1,24 @@
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getProtocol():
-    '''public String getProtocol()
+    '''returns String\n\n
+    getProtocol()\n
     '''
 def getVendor():
-    '''public String getVendor()
+    '''returns String\n\n
+    getVendor()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''

@@ -1,18 +1,24 @@
 def fieldsWriter():
-    '''public PointsWriter fieldsWriter(final SegmentWriteState state)
+    '''returns PointsWriter\n\n
+    fieldsWriter(final SegmentWriteState state)\n
     '''
 def fieldsReader():
-    '''public PointsReader fieldsReader(final SegmentReadState state)
+    '''returns PointsReader\n\n
+    fieldsReader(final SegmentReadState state)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def ramBytesUsed():
-    '''public long ramBytesUsed()
+    '''returns long\n\n
+    ramBytesUsed()\n
     '''
 def checkIntegrity():
-    '''public void checkIntegrity()
+    '''returns None\n\n
+    checkIntegrity()\n
     '''
 def getValues():
-    '''public PointValues getValues(final String field)
+    '''returns PointValues\n\n
+    getValues(final String field)\n
     '''

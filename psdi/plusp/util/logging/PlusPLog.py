@@ -1,60 +1,69 @@
-def getInstance():
-    '''public static PlusPLog getInstance(final UserInfo userInfo)
-    public static PlusPLog getInstance()
-    '''
 def fatal():
-    '''public void fatal(final Exception ex)
+    '''returns None\n\n
+    fatal(final Exception ex)\n
     '''
 def error():
-    '''public void error(final Exception ex)
+    '''returns None\n\n
+    error(final Exception ex)\n
     '''
 def warn():
-    '''public void warn(final Exception ex)
-    public void warn(final MboRemote mboRemote)
+    '''returns None\n\n
+    warn(final Exception ex)\n
+    warn(final MboRemote mboRemote)\n
     '''
 def info():
-    '''public void info(final Exception ex)
-    public void info(final String s)
-    public void info(final MboRemote mboRemote)
+    '''returns None\n\n
+    info(final Exception ex)\n
+    info(final String s)\n
+    info(final MboRemote mboRemote)\n
     '''
 def debug():
-    '''public void debug(final Exception ex)
-    public void debug(final String s)
-    public void debug(final MboRemote mboRemote)
+    '''returns None\n\n
+    debug(final Exception ex)\n
+    debug(final String s)\n
+    debug(final MboRemote mboRemote)\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def isErrorEnabled():
-    '''public boolean isErrorEnabled()
+    '''returns boolean\n\n
+    isErrorEnabled()\n
     '''
 def isFatalEnabled():
-    '''public boolean isFatalEnabled()
+    '''returns boolean\n\n
+    isFatalEnabled()\n
     '''
 def isInfoEnabled():
-    '''public boolean isInfoEnabled()
+    '''returns boolean\n\n
+    isInfoEnabled()\n
     '''
 def isWarnEnabled():
-    '''public boolean isWarnEnabled()
+    '''returns boolean\n\n
+    isWarnEnabled()\n
     '''
 def setDebugLevelOn():
-    '''public void setDebugLevelOn()
+    '''returns None\n\n
+    setDebugLevelOn()\n
     '''
 def setErrorLevelOn():
-    '''public void setErrorLevelOn()
+    '''returns None\n\n
+    setErrorLevelOn()\n
     '''
 def setFatalLevelOn():
-    '''public void setFatalLevelOn()
+    '''returns None\n\n
+    setFatalLevelOn()\n
     '''
 def setInfoLevelOn():
-    '''public void setInfoLevelOn()
+    '''returns None\n\n
+    setInfoLevelOn()\n
     '''
 def setWarnLevelOn():
-    '''public void setWarnLevelOn()
-    '''
-def formatElapsedTime():
-    '''public static String formatElapsedTime(final long duration)
+    '''returns None\n\n
+    setWarnLevelOn()\n
     '''

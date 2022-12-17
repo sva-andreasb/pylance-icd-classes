@@ -1,31 +1,37 @@
-def InstructionCP():
-    '''public InstructionCP(final short opcode, final int index)
+def ():
+    '''returns InstructionCP\n\n
+    (final short opcode, final int index)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    public String toString(final ConstantPool cp)
-    '''
-def getIndex():
-    '''public final int getIndex()
+    '''returns String\n\n
+    toString(final boolean verbose)\n
+    toString(final ConstantPool cp)\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPool cpg)
+    '''returns Type\n\n
+    getType(final ConstantPool cpg)\n
     '''
 def getValue():
-    '''public Object getValue(final ConstantPool constantPool)
+    '''returns Object\n\n
+    getValue(final ConstantPool constantPool)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

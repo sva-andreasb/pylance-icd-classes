@@ -1,21 +1,28 @@
 def action():
-    '''public void action(final MboRemote pkgMbo, final MboRemote infoMbo)
+    '''returns None\n\n
+    action(final MboRemote pkgMbo, final MboRemote infoMbo)\n
     '''
 def deleteCommittedTargetStagingRecords():
-    '''public void deleteCommittedTargetStagingRecords(final Connection conn, final MboRemote pkgMbo)
+    '''returns None\n\n
+    deleteCommittedTargetStagingRecords(final Connection conn, final MboRemote pkgMbo)\n
     '''
 def readSourceStagingtable():
-    '''public void readSourceStagingtable(final Connection conn, final MboRemote pkgMbo)
+    '''returns None\n\n
+    readSourceStagingtable(final Connection conn, final MboRemote pkgMbo)\n
     '''
 def writeToTargetStagingtable():
-    '''public void writeToTargetStagingtable(final MboRemote stageMbo, final Connection conn)
+    '''returns None\n\n
+    writeToTargetStagingtable(final MboRemote stageMbo, final Connection conn)\n
     '''
 def setBindValue():
-    '''public void setBindValue(final PreparedStatement pstmt, final MboRemote stageMbo, final int bindIndex, final MboValue mv, final String columnName, final String dbName)
+    '''returns None\n\n
+    setBindValue(final PreparedStatement pstmt, final MboRemote stageMbo, final int bindIndex, final MboValue mv, final String columnName, final String dbName)\n
     '''
 def updateTargetDistStatus():
-    '''public void updateTargetDistStatus(final Connection conn, final MboRemote pkgMbo)
+    '''returns None\n\n
+    updateTargetDistStatus(final Connection conn, final MboRemote pkgMbo)\n
     '''
 def checkPkgAlreadyDistributed():
-    '''public boolean checkPkgAlreadyDistributed(final Connection conn, final MboRemote pkgMbo)
+    '''returns boolean\n\n
+    checkPkgAlreadyDistributed(final Connection conn, final MboRemote pkgMbo)\n
     '''

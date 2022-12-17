@@ -1,34 +1,44 @@
 def isEditable():
-    '''public boolean isEditable()
-    public boolean isEditable(final IlvHierarchyNode activity)
+    '''returns boolean\n\n
+    isEditable()\n
+    isEditable(final IlvHierarchyNode activity)\n
     '''
 def setEditable():
-    '''public void setEditable(final boolean isEditable)
+    '''returns None\n\n
+    setEditable(final boolean isEditable)\n
     '''
 def isHasAppLink():
-    '''public boolean isHasAppLink()
+    '''returns boolean\n\n
+    isHasAppLink()\n
     '''
 def setHasAppLink():
-    '''public void setHasAppLink(final boolean hasAppLink)
+    '''returns None\n\n
+    setHasAppLink(final boolean hasAppLink)\n
     '''
-def CustomActivityColumn():
-    '''public CustomActivityColumn(final Object headerValue)
-    public CustomActivityColumn(final Object headerValue, final Object identifier)
-    public CustomActivityColumn(final Object headerValue, final int width)
-    public CustomActivityColumn(final Object headerValue, final int width, final Object identifier)
+def ():
+    '''returns CustomActivityColumn\n\n
+    (final Object headerValue)\n
+    (final Object headerValue, final Object identifier)\n
+    (final Object headerValue, final int width)\n
+    (final Object headerValue, final int width, final Object identifier)\n
     '''
 def setPropertyName():
-    '''public void setPropertyName(final String propertyName)
+    '''returns None\n\n
+    setPropertyName(final String propertyName)\n
     '''
 def setGanttConfiguration():
-    '''public void setGanttConfiguration(final IlvGanttConfiguration ganttConfig)
+    '''returns None\n\n
+    setGanttConfiguration(final IlvGanttConfiguration ganttConfig)\n
     '''
 def getGanttConfiguration():
-    '''public IlvGanttConfiguration getGanttConfiguration()
+    '''returns IlvGanttConfiguration\n\n
+    getGanttConfiguration()\n
     '''
 def getValue():
-    '''public Object getValue(final IlvHierarchyNode activity)
+    '''returns Object\n\n
+    getValue(final IlvHierarchyNode activity)\n
     '''
 def inform():
-    '''public void inform(final EventObject event)
+    '''returns None\n\n
+    inform(final EventObject event)\n
     '''

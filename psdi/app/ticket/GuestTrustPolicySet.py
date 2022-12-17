@@ -1,6 +1,8 @@
-def GuestTrustPolicySet():
-    '''public GuestTrustPolicySet(final MboServerInterface ms)
+def ():
+    '''returns GuestTrustPolicySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

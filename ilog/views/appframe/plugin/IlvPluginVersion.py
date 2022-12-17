@@ -1,39 +1,52 @@
-def IlvPluginVersion():
-    '''public IlvPluginVersion(final String s)
+def ():
+    '''returns IlvPluginVersion\n\n
+    (final String s)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getMajorComponent():
-    '''public int getMajorComponent()
+    '''returns int\n\n
+    getMajorComponent()\n
     '''
 def getMinorComponent():
-    '''public int getMinorComponent()
+    '''returns int\n\n
+    getMinorComponent()\n
     '''
 def getServiceComponent():
-    '''public int getServiceComponent()
+    '''returns int\n\n
+    getServiceComponent()\n
     '''
 def getQualifierComponent():
-    '''public String getQualifierComponent()
+    '''returns String\n\n
+    getQualifierComponent()\n
     '''
 def isGreaterOrEqualTo():
-    '''public boolean isGreaterOrEqualTo(final IlvPluginVersion ilvPluginVersion)
+    '''returns boolean\n\n
+    isGreaterOrEqualTo(final IlvPluginVersion ilvPluginVersion)\n
     '''
 def isCompatibleWith():
-    '''public boolean isCompatibleWith(final IlvPluginVersion ilvPluginVersion)
+    '''returns boolean\n\n
+    isCompatibleWith(final IlvPluginVersion ilvPluginVersion)\n
     '''
 def isEquivalentTo():
-    '''public boolean isEquivalentTo(final IlvPluginVersion ilvPluginVersion)
+    '''returns boolean\n\n
+    isEquivalentTo(final IlvPluginVersion ilvPluginVersion)\n
     '''
 def isPerfect():
-    '''public boolean isPerfect(final IlvPluginVersion ilvPluginVersion)
+    '''returns boolean\n\n
+    isPerfect(final IlvPluginVersion ilvPluginVersion)\n
     '''
 def isGreaterThan():
-    '''public boolean isGreaterThan(final IlvPluginVersion ilvPluginVersion)
+    '''returns boolean\n\n
+    isGreaterThan(final IlvPluginVersion ilvPluginVersion)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,4 +1,5 @@
-def LDAPSortControl():
-    '''public LDAPSortControl(final LDAPSortKey ldapSortKey, final boolean b)
-    public LDAPSortControl(final LDAPSortKey[] array, final boolean b)
+def ():
+    '''returns LDAPSortControl\n\n
+    (final LDAPSortKey ldapSortKey, final boolean b)\n
+    (final LDAPSortKey[] array, final boolean b)\n
     '''

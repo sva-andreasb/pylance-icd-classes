@@ -1,28 +1,32 @@
 ADD = "int  0"
 DELETE = "int  1"
 REPLACE = "int  2"
-def LDAPModification():
-    '''public LDAPModification()
-    public LDAPModification(final int op, final LDAPAttribute attr)
+def ():
+    '''returns LDAPModification\n\n
+    ()\n
+    (final int op, final LDAPAttribute attr)\n
     '''
 def getAttribute():
-    '''public LDAPAttribute getAttribute()
+    '''returns LDAPAttribute\n\n
+    getAttribute()\n
     '''
 def getOp():
-    '''public int getOp()
+    '''returns int\n\n
+    getOp()\n
     '''
 def writeDSML():
-    '''public void writeDSML(final OutputStream out)
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns None\n\n
+    writeDSML(final OutputStream out)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput objectOutput)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput objectOutput)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput objectInput)
+    '''returns None\n\n
+    readExternal(final ObjectInput objectInput)\n
     '''

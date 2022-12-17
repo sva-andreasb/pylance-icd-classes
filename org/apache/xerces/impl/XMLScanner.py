@@ -1,24 +1,32 @@
-def XMLScanner():
-    '''public XMLScanner()
+def ():
+    '''returns XMLScanner\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset(final XMLComponentManager xmlComponentManager)
+    '''returns None\n\n
+    reset(final XMLComponentManager xmlComponentManager)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean b)
+    '''returns None\n\n
+    setFeature(final String s, final boolean b)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String s)
+    '''returns boolean\n\n
+    getFeature(final String s)\n
     '''
 def scanPseudoAttribute():
-    '''public String scanPseudoAttribute(final boolean b, final XMLString xmlString)
+    '''returns String\n\n
+    scanPseudoAttribute(final boolean b, final XMLString xmlString)\n
     '''
 def startEntity():
-    '''public void startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)
+    '''returns None\n\n
+    startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)\n
     '''
 def endEntity():
-    '''public void endEntity(final String s, final Augmentations augmentations)
+    '''returns None\n\n
+    endEntity(final String s, final Augmentations augmentations)\n
     '''

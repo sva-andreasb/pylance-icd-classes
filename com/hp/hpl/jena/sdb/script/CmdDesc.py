@@ -1,31 +1,33 @@
-def CmdDesc():
-    '''public CmdDesc()
-    '''
-def read():
-    '''public static CmdDesc read(final String filename)
-    '''
-def run():
-    '''public static void run(final String filename)
+def ():
+    '''returns CmdDesc\n\n
+    ()\n
     '''
 def addNamedArg():
-    '''public void addNamedArg(final String name, final String value)
-    public void addNamedArg(final String name)
+    '''returns None\n\n
+    addNamedArg(final String name, final String value)\n
+    addNamedArg(final String name)\n
     '''
 def addPosn():
-    '''public void addPosn(final String x)
+    '''returns None\n\n
+    addPosn(final String x)\n
     '''
 def getCmd():
-    '''public String getCmd()
+    '''returns String\n\n
+    getCmd()\n
     '''
 def setCmd():
-    '''public void setCmd(final String cname)
+    '''returns None\n\n
+    setCmd(final String cname)\n
     '''
 def set():
-    '''public void set(final CmdLineArgs cmdLineArgs)
+    '''returns None\n\n
+    set(final CmdLineArgs cmdLineArgs)\n
     '''
 def asStringArray():
-    '''public String[] asStringArray()
+    '''returns String[]\n\n
+    asStringArray()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

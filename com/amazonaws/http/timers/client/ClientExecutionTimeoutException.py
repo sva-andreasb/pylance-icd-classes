@@ -1,4 +1,5 @@
-def ClientExecutionTimeoutException():
-    '''public ClientExecutionTimeoutException()
-    public ClientExecutionTimeoutException(final String message)
+def ():
+    '''returns ClientExecutionTimeoutException\n\n
+    ()\n
+    (final String message)\n
     '''

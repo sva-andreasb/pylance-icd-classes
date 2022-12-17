@@ -1,22 +1,21 @@
-def ImComp():
-    '''public ImComp(final STSession stSession)
+def ():
+    '''returns ImComp\n\n
+    (final STSession stSession)\n
     '''
 def channelReceived():
-    '''public void channelReceived(final ChannelEvent channelEvent)
-    '''
-def addImServiceListener():
-    '''public synchronized void addImServiceListener(final ImServiceListener obj)
-    '''
-def removeImServiceListener():
-    '''public synchronized void removeImServiceListener(final ImServiceListener obj)
+    '''returns None\n\n
+    channelReceived(final ChannelEvent channelEvent)\n
     '''
 def createIm():
-    '''public Im createIm(final STUser stUser, final EncLevel encLevel, final int n)
-    public Im createIm(final STUser stUser, final EncLevel encLevel, final int v, final boolean b)
+    '''returns Im\n\n
+    createIm(final STUser stUser, final EncLevel encLevel, final int n)\n
+    createIm(final STUser stUser, final EncLevel encLevel, final int v, final boolean b)\n
     '''
 def registerImType():
-    '''public int registerImType(final int n)
+    '''returns int\n\n
+    registerImType(final int n)\n
     '''
 def unregisterImType():
-    '''public int unregisterImType(final int value)
+    '''returns int\n\n
+    unregisterImType(final int value)\n
     '''

@@ -1,16 +1,21 @@
-def AWSCredentialsProviderChain():
-    '''public AWSCredentialsProviderChain(final List<? extends AWSCredentialsProvider> credentialsProviders)
-    public AWSCredentialsProviderChain(final AWSCredentialsProvider... credentialsProviders)
+def ():
+    '''returns AWSCredentialsProviderChain\n\n
+    (final List<? extends AWSCredentialsProvider> credentialsProviders)\n
+    (final AWSCredentialsProvider... credentialsProviders)\n
     '''
 def getReuseLastProvider():
-    '''public boolean getReuseLastProvider()
+    '''returns boolean\n\n
+    getReuseLastProvider()\n
     '''
 def setReuseLastProvider():
-    '''public void setReuseLastProvider(final boolean b)
+    '''returns None\n\n
+    setReuseLastProvider(final boolean b)\n
     '''
 def getCredentials():
-    '''public AWSCredentials getCredentials()
+    '''returns AWSCredentials\n\n
+    getCredentials()\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''

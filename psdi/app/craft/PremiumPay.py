@@ -1,6 +1,8 @@
-def PremiumPay():
-    '''public PremiumPay(final MboSet ms)
+def ():
+    '''returns PremiumPay\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

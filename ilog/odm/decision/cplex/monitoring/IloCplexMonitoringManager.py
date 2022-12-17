@@ -1,22 +1,29 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCplexMonitoringManager():
-    '''public IloCplexMonitoringManager(final IloCplexController controller)
+def ():
+    '''returns IloCplexMonitoringManager\n\n
+    (final IloCplexController controller)\n
     '''
 def getLatestCplexSolvingState():
-    '''public IloCplexCallbackInfo getLatestCplexSolvingState()
+    '''returns IloCplexCallbackInfo\n\n
+    getLatestCplexSolvingState()\n
     '''
 def addCplexCallback():
-    '''public void addCplexCallback(final IloSolvingCallback callback)
+    '''returns None\n\n
+    addCplexCallback(final IloSolvingCallback callback)\n
     '''
 def removeCplexCallback():
-    '''public boolean removeCplexCallback(final IloSolvingCallback callback)
+    '''returns boolean\n\n
+    removeCplexCallback(final IloSolvingCallback callback)\n
     '''
 def installCallbacks():
-    '''public void installCallbacks()
+    '''returns None\n\n
+    installCallbacks()\n
     '''
 def desinstallCallbacks():
-    '''public void desinstallCallbacks()
+    '''returns None\n\n
+    desinstallCallbacks()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

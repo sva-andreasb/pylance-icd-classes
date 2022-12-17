@@ -1,55 +1,65 @@
-def parse():
-    '''public static MutableInterval parse(final String s)
-    '''
-def MutableInterval():
-    '''public MutableInterval()
-    public MutableInterval(final long n, final long n2)
-    public MutableInterval(final long n, final long n2, final Chronology chronology)
-    public MutableInterval(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public MutableInterval(final ReadableInstant readableInstant, final ReadableDuration readableDuration)
-    public MutableInterval(final ReadableDuration readableDuration, final ReadableInstant readableInstant)
-    public MutableInterval(final ReadableInstant readableInstant, final ReadablePeriod readablePeriod)
-    public MutableInterval(final ReadablePeriod readablePeriod, final ReadableInstant readableInstant)
-    public MutableInterval(final Object o)
-    public MutableInterval(final Object o, final Chronology chronology)
+def ():
+    '''returns MutableInterval\n\n
+    ()\n
+    (final long n, final long n2)\n
+    (final long n, final long n2, final Chronology chronology)\n
+    (final ReadableInstant readableInstant, final ReadableInstant readableInstant2)\n
+    (final ReadableInstant readableInstant, final ReadableDuration readableDuration)\n
+    (final ReadableDuration readableDuration, final ReadableInstant readableInstant)\n
+    (final ReadableInstant readableInstant, final ReadablePeriod readablePeriod)\n
+    (final ReadablePeriod readablePeriod, final ReadableInstant readableInstant)\n
+    (final Object o)\n
+    (final Object o, final Chronology chronology)\n
     '''
 def setInterval():
-    '''public void setInterval(final long n, final long n2)
-    public void setInterval(final ReadableInterval readableInterval)
-    public void setInterval(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
+    '''returns None\n\n
+    setInterval(final long n, final long n2)\n
+    setInterval(final ReadableInterval readableInterval)\n
+    setInterval(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)\n
     '''
 def setChronology():
-    '''public void setChronology(final Chronology chronology)
+    '''returns None\n\n
+    setChronology(final Chronology chronology)\n
     '''
 def setStartMillis():
-    '''public void setStartMillis(final long n)
+    '''returns None\n\n
+    setStartMillis(final long n)\n
     '''
 def setStart():
-    '''public void setStart(final ReadableInstant readableInstant)
+    '''returns None\n\n
+    setStart(final ReadableInstant readableInstant)\n
     '''
 def setEndMillis():
-    '''public void setEndMillis(final long n)
+    '''returns None\n\n
+    setEndMillis(final long n)\n
     '''
 def setEnd():
-    '''public void setEnd(final ReadableInstant readableInstant)
+    '''returns None\n\n
+    setEnd(final ReadableInstant readableInstant)\n
     '''
 def setDurationAfterStart():
-    '''public void setDurationAfterStart(final long n)
-    public void setDurationAfterStart(final ReadableDuration readableDuration)
+    '''returns None\n\n
+    setDurationAfterStart(final long n)\n
+    setDurationAfterStart(final ReadableDuration readableDuration)\n
     '''
 def setDurationBeforeEnd():
-    '''public void setDurationBeforeEnd(final long n)
-    public void setDurationBeforeEnd(final ReadableDuration readableDuration)
+    '''returns None\n\n
+    setDurationBeforeEnd(final long n)\n
+    setDurationBeforeEnd(final ReadableDuration readableDuration)\n
     '''
 def setPeriodAfterStart():
-    '''public void setPeriodAfterStart(final ReadablePeriod readablePeriod)
+    '''returns None\n\n
+    setPeriodAfterStart(final ReadablePeriod readablePeriod)\n
     '''
 def setPeriodBeforeEnd():
-    '''public void setPeriodBeforeEnd(final ReadablePeriod readablePeriod)
+    '''returns None\n\n
+    setPeriodBeforeEnd(final ReadablePeriod readablePeriod)\n
     '''
 def copy():
-    '''public MutableInterval copy()
+    '''returns MutableInterval\n\n
+    copy()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

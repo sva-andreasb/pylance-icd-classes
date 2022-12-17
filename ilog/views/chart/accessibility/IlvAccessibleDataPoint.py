@@ -1,35 +1,34 @@
-def IlvAccessibleDataPoint():
-    '''public IlvAccessibleDataPoint(final IlvChartRenderer ilvChartRenderer, final IlvDataSetPoint ilvDataSetPoint)
-    public IlvAccessibleDataPoint(final IlvChartRenderer ilvChartRenderer, final IlvDataSet set, final int n)
-    public IlvAccessibleDataPoint(final IlvAccessibleDataSet a, final int b)
-    '''
-def getRenderer():
-    '''public final IlvChartRenderer getRenderer()
-    '''
-def getDataSet():
-    '''public final IlvDataSet getDataSet()
-    '''
-def getIndex():
-    '''public final int getIndex()
+def ():
+    '''returns IlvAccessibleDataPoint\n\n
+    (final IlvChartRenderer ilvChartRenderer, final IlvDataSetPoint ilvDataSetPoint)\n
+    (final IlvChartRenderer ilvChartRenderer, final IlvDataSet set, final int n)\n
+    (final IlvAccessibleDataSet a, final int b)\n
     '''
 def getAccessibleDataSet():
-    '''public IlvAccessibleDataSet getAccessibleDataSet()
+    '''returns IlvAccessibleDataSet\n\n
+    getAccessibleDataSet()\n
     '''
 def getDataPoint():
-    '''public IlvDataSetPoint getDataPoint()
+    '''returns IlvDataSetPoint\n\n
+    getDataPoint()\n
     '''
 def isViewable():
-    '''public boolean isViewable()
+    '''returns boolean\n\n
+    isViewable()\n
     '''
 def drawSelectionHandles():
-    '''public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)
+    '''returns None\n\n
+    drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,67 +1,89 @@
-def ComparisonStatementHelper():
-    '''public ComparisonStatementHelper(final ReconInfo reconInfo, final String objectName)
+def ():
+    '''returns ComparisonStatementHelper\n\n
+    (final ReconInfo reconInfo, final String objectName)\n
     '''
 def prepare():
-    '''public void prepare()
+    '''returns None\n\n
+    prepare()\n
     '''
 def getSelectClauseForUnits():
-    '''public String getSelectClauseForUnits()
+    '''returns String\n\n
+    getSelectClauseForUnits()\n
     '''
 def initializeReconValueSet():
-    '''public void initializeReconValueSet()
+    '''returns None\n\n
+    initializeReconValueSet()\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String attribute)
-    public void addAttribute(final String attribute, final String unit)
+    '''returns None\n\n
+    addAttribute(final String attribute)\n
+    addAttribute(final String attribute, final String unit)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getOperationType():
-    '''public int getOperationType()
+    '''returns int\n\n
+    getOperationType()\n
     '''
 def isFilter():
-    '''public boolean isFilter()
+    '''returns boolean\n\n
+    isFilter()\n
     '''
 def isForDataSet1():
-    '''public boolean isForDataSet1()
+    '''returns boolean\n\n
+    isForDataSet1()\n
     '''
 def changeType():
-    '''public void changeType(final int type)
+    '''returns None\n\n
+    changeType(final int type)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getAttributes():
-    '''public List<String> getAttributes()
+    '''returns List<String>\n\n
+    getAttributes()\n
     '''
 def getSpecAttributes():
-    '''public List<String> getSpecAttributes()
+    '''returns List<String>\n\n
+    getSpecAttributes()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getRecordData():
-    '''public ReconValueSet getRecordData()
+    '''returns ReconValueSet\n\n
+    getRecordData()\n
     '''
 def getRecordCount():
-    '''public int getRecordCount(final String qualifiedName)
+    '''returns int\n\n
+    getRecordCount(final String qualifiedName)\n
     '''
 def addAttributeByObject():
-    '''public void addAttributeByObject(final String objectName, final String attributeName)
+    '''returns None\n\n
+    addAttributeByObject(final String objectName, final String attributeName)\n
     '''
 def getUnitsMap():
-    '''public Map getUnitsMap()
+    '''returns Map\n\n
+    getUnitsMap()\n
     '''
 def getUnitToAttributeIndex():
-    '''public int[] getUnitToAttributeIndex()
+    '''returns int[]\n\n
+    getUnitToAttributeIndex()\n
     '''
 def setLoaded():
-    '''public void setLoaded(final boolean loaded)
+    '''returns None\n\n
+    setLoaded(final boolean loaded)\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''
 def setLinkValue():
-    '''public void setLinkValue(final Map linkValue)
+    '''returns None\n\n
+    setLinkValue(final Map linkValue)\n
     '''

@@ -1,29 +1,24 @@
-def getInstance():
-    '''public static DateTimeComparator getInstance()
-    public static DateTimeComparator getInstance(final DateTimeFieldType dateTimeFieldType)
-    public static DateTimeComparator getInstance(final DateTimeFieldType dateTimeFieldType, final DateTimeFieldType dateTimeFieldType2)
-    '''
-def getDateOnlyInstance():
-    '''public static DateTimeComparator getDateOnlyInstance()
-    '''
-def getTimeOnlyInstance():
-    '''public static DateTimeComparator getTimeOnlyInstance()
-    '''
 def getLowerLimit():
-    '''public DateTimeFieldType getLowerLimit()
+    '''returns DateTimeFieldType\n\n
+    getLowerLimit()\n
     '''
 def getUpperLimit():
-    '''public DateTimeFieldType getUpperLimit()
+    '''returns DateTimeFieldType\n\n
+    getUpperLimit()\n
     '''
 def compare():
-    '''public int compare(final Object o, final Object o2)
+    '''returns int\n\n
+    compare(final Object o, final Object o2)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

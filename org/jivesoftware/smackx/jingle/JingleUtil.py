@@ -1,160 +1,213 @@
-def JingleUtil():
-    '''public JingleUtil(final XMPPConnection connection)
+def ():
+    '''returns JingleUtil\n\n
+    (final XMPPConnection connection)\n
     '''
 def createSessionInitiate():
-    '''public Jingle createSessionInitiate(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContent.Senders contentSenders, final JingleContentDescription description, final JingleContentTransport transport)
+    '''returns Jingle\n\n
+    createSessionInitiate(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContent.Senders contentSenders, final JingleContentDescription description, final JingleContentTransport transport)\n
     '''
 def createSessionInitiateFileOffer():
-    '''public Jingle createSessionInitiateFileOffer(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentDescription description, final JingleContentTransport transport)
+    '''returns Jingle\n\n
+    createSessionInitiateFileOffer(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentDescription description, final JingleContentTransport transport)\n
     '''
 def sendSessionInitiateFileOffer():
-    '''public IQ sendSessionInitiateFileOffer(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentDescription description, final JingleContentTransport transport)
+    '''returns IQ\n\n
+    sendSessionInitiateFileOffer(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentDescription description, final JingleContentTransport transport)\n
     '''
 def sendSessionInitiate():
-    '''public IQ sendSessionInitiate(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContent.Senders contentSenders, final JingleContentDescription description, final JingleContentTransport transport)
+    '''returns IQ\n\n
+    sendSessionInitiate(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContent.Senders contentSenders, final JingleContentDescription description, final JingleContentTransport transport)\n
     '''
 def createSessionAccept():
-    '''public Jingle createSessionAccept(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContent.Senders contentSenders, final JingleContentDescription description, final JingleContentTransport transport)
+    '''returns Jingle\n\n
+    createSessionAccept(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContent.Senders contentSenders, final JingleContentDescription description, final JingleContentTransport transport)\n
     '''
 def sendSessionAccept():
-    '''public IQ sendSessionAccept(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContent.Senders contentSenders, final JingleContentDescription description, final JingleContentTransport transport)
+    '''returns IQ\n\n
+    sendSessionAccept(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContent.Senders contentSenders, final JingleContentDescription description, final JingleContentTransport transport)\n
     '''
 def createSessionTerminate():
-    '''public Jingle createSessionTerminate(final FullJid recipient, final String sessionId, final JingleReason reason)
-    public Jingle createSessionTerminate(final FullJid recipient, final String sessionId, final JingleReason.Reason reason)
+    '''returns Jingle\n\n
+    createSessionTerminate(final FullJid recipient, final String sessionId, final JingleReason reason)\n
+    createSessionTerminate(final FullJid recipient, final String sessionId, final JingleReason.Reason reason)\n
     '''
 def createSessionTerminateDecline():
-    '''public Jingle createSessionTerminateDecline(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateDecline(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionTerminateDecline():
-    '''public IQ sendSessionTerminateDecline(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateDecline(final FullJid recipient, final String sessionId)\n
     '''
 def createSessionTerminateSuccess():
-    '''public Jingle createSessionTerminateSuccess(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateSuccess(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionTerminateSuccess():
-    '''public IQ sendSessionTerminateSuccess(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateSuccess(final FullJid recipient, final String sessionId)\n
     '''
 def createSessionTerminateBusy():
-    '''public Jingle createSessionTerminateBusy(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateBusy(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionTerminateBusy():
-    '''public IQ sendSessionTerminateBusy(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateBusy(final FullJid recipient, final String sessionId)\n
     '''
 def createSessionTerminateAlternativeSession():
-    '''public Jingle createSessionTerminateAlternativeSession(final FullJid recipient, final String sessionId, final String altSessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateAlternativeSession(final FullJid recipient, final String sessionId, final String altSessionId)\n
     '''
 def sendSessionTerminateAlternativeSession():
-    '''public IQ sendSessionTerminateAlternativeSession(final FullJid recipient, final String sessionId, final String altSessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateAlternativeSession(final FullJid recipient, final String sessionId, final String altSessionId)\n
     '''
 def createSessionTerminateCancel():
-    '''public Jingle createSessionTerminateCancel(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateCancel(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionTerminateCancel():
-    '''public IQ sendSessionTerminateCancel(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateCancel(final FullJid recipient, final String sessionId)\n
     '''
 def createSessionTerminateContentCancel():
-    '''public Jingle createSessionTerminateContentCancel(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName)
+    '''returns Jingle\n\n
+    createSessionTerminateContentCancel(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName)\n
     '''
 def sendSessionTerminateContentCancel():
-    '''public IQ sendSessionTerminateContentCancel(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName)
+    '''returns IQ\n\n
+    sendSessionTerminateContentCancel(final FullJid recipient, final String sessionId, final JingleContent.Creator contentCreator, final String contentName)\n
     '''
 def createSessionTerminateUnsupportedTransports():
-    '''public Jingle createSessionTerminateUnsupportedTransports(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateUnsupportedTransports(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionTerminateUnsupportedTransports():
-    '''public IQ sendSessionTerminateUnsupportedTransports(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateUnsupportedTransports(final FullJid recipient, final String sessionId)\n
     '''
 def createSessionTerminateFailedTransport():
-    '''public Jingle createSessionTerminateFailedTransport(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateFailedTransport(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionTerminateFailedTransport():
-    '''public IQ sendSessionTerminateFailedTransport(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateFailedTransport(final FullJid recipient, final String sessionId)\n
     '''
 def createSessionTerminateUnsupportedApplications():
-    '''public Jingle createSessionTerminateUnsupportedApplications(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateUnsupportedApplications(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionTerminateUnsupportedApplications():
-    '''public IQ sendSessionTerminateUnsupportedApplications(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateUnsupportedApplications(final FullJid recipient, final String sessionId)\n
     '''
 def createSessionTerminateFailedApplication():
-    '''public Jingle createSessionTerminateFailedApplication(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateFailedApplication(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionTerminateFailedApplication():
-    '''public IQ sendSessionTerminateFailedApplication(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateFailedApplication(final FullJid recipient, final String sessionId)\n
     '''
 def createSessionTerminateIncompatibleParameters():
-    '''public Jingle createSessionTerminateIncompatibleParameters(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionTerminateIncompatibleParameters(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionTerminateIncompatibleParameters():
-    '''public IQ sendSessionTerminateIncompatibleParameters(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionTerminateIncompatibleParameters(final FullJid recipient, final String sessionId)\n
     '''
 def sendContentRejectFileNotAvailable():
-    '''public IQ sendContentRejectFileNotAvailable(final FullJid recipient, final String sessionId, final JingleContentDescription description)
+    '''returns IQ\n\n
+    sendContentRejectFileNotAvailable(final FullJid recipient, final String sessionId, final JingleContentDescription description)\n
     '''
 def createSessionPing():
-    '''public Jingle createSessionPing(final FullJid recipient, final String sessionId)
+    '''returns Jingle\n\n
+    createSessionPing(final FullJid recipient, final String sessionId)\n
     '''
 def sendSessionPing():
-    '''public IQ sendSessionPing(final FullJid recipient, final String sessionId)
+    '''returns IQ\n\n
+    sendSessionPing(final FullJid recipient, final String sessionId)\n
     '''
 def createAck():
-    '''public IQ createAck(final Jingle jingle)
+    '''returns IQ\n\n
+    createAck(final Jingle jingle)\n
     '''
 def sendAck():
-    '''public void sendAck(final Jingle jingle)
+    '''returns None\n\n
+    sendAck(final Jingle jingle)\n
     '''
 def createTransportReplace():
-    '''public Jingle createTransportReplace(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)
+    '''returns Jingle\n\n
+    createTransportReplace(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)\n
     '''
 def sendTransportReplace():
-    '''public IQ sendTransportReplace(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)
+    '''returns IQ\n\n
+    sendTransportReplace(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)\n
     '''
 def createTransportAccept():
-    '''public Jingle createTransportAccept(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)
+    '''returns Jingle\n\n
+    createTransportAccept(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)\n
     '''
 def sendTransportAccept():
-    '''public IQ sendTransportAccept(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)
+    '''returns IQ\n\n
+    sendTransportAccept(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)\n
     '''
 def createTransportReject():
-    '''public Jingle createTransportReject(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)
+    '''returns Jingle\n\n
+    createTransportReject(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)\n
     '''
 def sendTransportReject():
-    '''public IQ sendTransportReject(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)
+    '''returns IQ\n\n
+    sendTransportReject(final FullJid recipient, final FullJid initiator, final String sessionId, final JingleContent.Creator contentCreator, final String contentName, final JingleContentTransport transport)\n
     '''
 def createErrorUnknownSession():
-    '''public IQ createErrorUnknownSession(final Jingle request)
+    '''returns IQ\n\n
+    createErrorUnknownSession(final Jingle request)\n
     '''
 def sendErrorUnknownSession():
-    '''public void sendErrorUnknownSession(final Jingle request)
+    '''returns None\n\n
+    sendErrorUnknownSession(final Jingle request)\n
     '''
 def createErrorUnknownInitiator():
-    '''public IQ createErrorUnknownInitiator(final Jingle request)
+    '''returns IQ\n\n
+    createErrorUnknownInitiator(final Jingle request)\n
     '''
 def sendErrorUnknownInitiator():
-    '''public void sendErrorUnknownInitiator(final Jingle request)
+    '''returns None\n\n
+    sendErrorUnknownInitiator(final Jingle request)\n
     '''
 def createErrorUnsupportedInfo():
-    '''public IQ createErrorUnsupportedInfo(final Jingle request)
+    '''returns IQ\n\n
+    createErrorUnsupportedInfo(final Jingle request)\n
     '''
 def sendErrorUnsupportedInfo():
-    '''public void sendErrorUnsupportedInfo(final Jingle request)
+    '''returns None\n\n
+    sendErrorUnsupportedInfo(final Jingle request)\n
     '''
 def createErrorTieBreak():
-    '''public IQ createErrorTieBreak(final Jingle request)
+    '''returns IQ\n\n
+    createErrorTieBreak(final Jingle request)\n
     '''
 def sendErrorTieBreak():
-    '''public void sendErrorTieBreak(final Jingle request)
+    '''returns None\n\n
+    sendErrorTieBreak(final Jingle request)\n
     '''
 def createErrorOutOfOrder():
-    '''public IQ createErrorOutOfOrder(final Jingle request)
+    '''returns IQ\n\n
+    createErrorOutOfOrder(final Jingle request)\n
     '''
 def sendErrorOutOfOrder():
-    '''public void sendErrorOutOfOrder(final Jingle request)
+    '''returns None\n\n
+    sendErrorOutOfOrder(final Jingle request)\n
     '''
 def createErrorMalformedRequest():
-    '''public IQ createErrorMalformedRequest(final Jingle request)
+    '''returns IQ\n\n
+    createErrorMalformedRequest(final Jingle request)\n
     '''
 def sendErrorMalformedRequest():
-    '''public void sendErrorMalformedRequest(final Jingle request)
+    '''returns None\n\n
+    sendErrorMalformedRequest(final Jingle request)\n
     '''

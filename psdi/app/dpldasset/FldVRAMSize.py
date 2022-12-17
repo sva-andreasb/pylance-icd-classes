@@ -1,6 +1,8 @@
-def FldVRAMSize():
-    '''public FldVRAMSize(final MboValue mbv)
+def ():
+    '''returns FldVRAMSize\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -1,3 +1,4 @@
 def dbconnsrefresh():
-    '''public int dbconnsrefresh()
+    '''returns int\n\n
+    dbconnsrefresh()\n
     '''

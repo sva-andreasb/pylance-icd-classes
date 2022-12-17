@@ -1,39 +1,42 @@
 HEADER_USER_AGENT = "String  \"User-Agent\""
 HEADER_SDK_TRANSACTION_ID = "String  \"amz-sdk-invocation-id\""
 HEADER_SDK_RETRY_INFO = "String  \"amz-sdk-retry\""
-def AmazonHttpClient():
-    '''public AmazonHttpClient(final ClientConfiguration config)
-    public AmazonHttpClient(final ClientConfiguration config, final RequestMetricCollector requestMetricCollector)
-    public AmazonHttpClient(final ClientConfiguration config, final RequestMetricCollector requestMetricCollector, final boolean useBrowserCompatibleHostNameVerifier)
-    public AmazonHttpClient(final ClientConfiguration clientConfig, final ConnectionManagerAwareHttpClient httpClient, final RequestMetricCollector requestMetricCollector)
+def ():
+    '''returns AmazonHttpClient\n\n
+    (final ClientConfiguration config)\n
+    (final ClientConfiguration config, final RequestMetricCollector requestMetricCollector)\n
+    (final ClientConfiguration config, final RequestMetricCollector requestMetricCollector, final boolean useBrowserCompatibleHostNameVerifier)\n
+    (final ClientConfiguration clientConfig, final ConnectionManagerAwareHttpClient httpClient, final RequestMetricCollector requestMetricCollector)\n
     '''
 def getHttpRequestTimer():
-    '''public HttpRequestTimer getHttpRequestTimer()
+    '''returns HttpRequestTimer\n\n
+    getHttpRequestTimer()\n
     '''
 def getClientExecutionTimer():
-    '''public ClientExecutionTimer getClientExecutionTimer()
+    '''returns ClientExecutionTimer\n\n
+    getClientExecutionTimer()\n
     '''
 def getResponseMetadataForRequest():
-    '''public ResponseMetadata getResponseMetadataForRequest(final AmazonWebServiceRequest request)
-    '''
-def execute():
-    '''public <T> Response<T> execute(final Request<?> request, final HttpResponseHandler<AmazonWebServiceResponse<T>> responseHandler, final HttpResponseHandler<AmazonServiceException> errorResponseHandler, final ExecutionContext executionContext)
+    '''returns ResponseMetadata\n\n
+    getResponseMetadataForRequest(final AmazonWebServiceRequest request)\n
     '''
 def handle():
-    '''public T handle(final com.amazonaws.http.HttpResponse response)
+    '''returns T\n\n
+    handle(final com.amazonaws.http.HttpResponse response)\n
     '''
 def needsConnectionLeftOpen():
-    '''public boolean needsConnectionLeftOpen()
-    '''
-def executeWithTimer():
-    '''public <T> Response<T> executeWithTimer(final Request<?> request, final HttpResponseHandler<AmazonWebServiceResponse<T>> responseHandler, final HttpResponseHandler<AmazonServiceException> errorResponseHandler, final ExecutionContext executionContext)
+    '''returns boolean\n\n
+    needsConnectionLeftOpen()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def getRequestMetricCollector():
-    '''public RequestMetricCollector getRequestMetricCollector()
+    '''returns RequestMetricCollector\n\n
+    getRequestMetricCollector()\n
     '''
 def getTimeOffset():
-    '''public int getTimeOffset()
+    '''returns int\n\n
+    getTimeOffset()\n
     '''

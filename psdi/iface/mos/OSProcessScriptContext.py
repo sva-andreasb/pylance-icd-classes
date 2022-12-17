@@ -1,84 +1,112 @@
-def OSProcessScriptContext():
-    '''public OSProcessScriptContext(final String scriptName, final String launchPointName, final Mbo mbo, final UserInfo userInfo, final MXTransaction mxtran, final StructureData sData, final String processTable)
+def ():
+    '''returns OSProcessScriptContext\n\n
+    (final String scriptName, final String launchPointName, final Mbo mbo, final UserInfo userInfo, final MXTransaction mxtran, final StructureData sData, final String processTable)\n
     '''
 def getParentMbo():
-    '''public Mbo getParentMbo()
+    '''returns Mbo\n\n
+    getParentMbo()\n
     '''
 def isPrimary():
-    '''public boolean isPrimary()
+    '''returns boolean\n\n
+    isPrimary()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getMxtran():
-    '''public MXTransaction getMxtran()
+    '''returns MXTransaction\n\n
+    getMxtran()\n
     '''
 def processAsUpdate():
-    '''public void processAsUpdate()
+    '''returns None\n\n
+    processAsUpdate()\n
     '''
 def processAsAddAtEnd():
-    '''public void processAsAddAtEnd()
+    '''returns None\n\n
+    processAsAddAtEnd()\n
     '''
 def bypassMbo():
-    '''public void bypassMbo()
+    '''returns None\n\n
+    bypassMbo()\n
     '''
 def setAccessModifier():
-    '''public void setAccessModifier(final long accessModifier)
+    '''returns None\n\n
+    setAccessModifier(final long accessModifier)\n
     '''
 def processAsAdd():
-    '''public void processAsAdd()
+    '''returns None\n\n
+    processAsAdd()\n
     '''
 def getMsgType():
-    '''public String getMsgType()
+    '''returns String\n\n
+    getMsgType()\n
     '''
 def setMsgType():
-    '''public void setMsgType(final String msgType)
+    '''returns None\n\n
+    setMsgType(final String msgType)\n
     '''
 def setMsgTypeSync():
-    '''public void setMsgTypeSync()
+    '''returns None\n\n
+    setMsgTypeSync()\n
     '''
 def setMsgTypeCreate():
-    '''public void setMsgTypeCreate()
+    '''returns None\n\n
+    setMsgTypeCreate()\n
     '''
 def setMsgTypeUpdate():
-    '''public void setMsgTypeUpdate()
+    '''returns None\n\n
+    setMsgTypeUpdate()\n
     '''
 def getData():
-    '''public StructureData getData()
+    '''returns StructureData\n\n
+    getData()\n
     '''
 def skipMboValidate():
-    '''public void skipMboValidate()
+    '''returns None\n\n
+    skipMboValidate()\n
     '''
 def setMboSet():
-    '''public void setMboSet(final MboSetRemote mboSet)
+    '''returns None\n\n
+    setMboSet(final MboSetRemote mboSet)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def setMbo():
-    '''public void setMbo(final Mbo mbo)
+    '''returns None\n\n
+    setMbo(final Mbo mbo)\n
     '''
 def getPrimaryMboSet():
-    '''public MboSetRemote getPrimaryMboSet()
+    '''returns MboSetRemote\n\n
+    getPrimaryMboSet()\n
     '''
 def getPrimaryMbo():
-    '''public Mbo getPrimaryMbo()
+    '''returns Mbo\n\n
+    getPrimaryMbo()\n
     '''
 def getProcessTable():
-    '''public String getProcessTable()
+    '''returns String\n\n
+    getProcessTable()\n
     '''
 def setProcessTable():
-    '''public void setProcessTable(final String processTable)
+    '''returns None\n\n
+    setProcessTable(final String processTable)\n
     '''
 def setSkipBaseAdditionalRules():
-    '''public void setSkipBaseAdditionalRules()
+    '''returns None\n\n
+    setSkipBaseAdditionalRules()\n
     '''
 def isProcessBaseAddlRules():
-    '''public boolean isProcessBaseAddlRules()
+    '''returns boolean\n\n
+    isProcessBaseAddlRules()\n
     '''
 def setClassStructureId():
-    '''public void setClassStructureId()
+    '''returns None\n\n
+    setClassStructureId()\n
     '''
 def getClassStructureId():
-    '''public String getClassStructureId(final String hierarchyPath)
+    '''returns String\n\n
+    getClassStructureId(final String hierarchyPath)\n
     '''

@@ -1,9 +1,12 @@
 def CREATECI():
-    '''public int CREATECI()
+    '''returns int\n\n
+    CREATECI()\n
     '''
 def CREATECIS():
-    '''public int CREATECIS()
+    '''returns int\n\n
+    CREATECIS()\n
     '''
 def LAUNCHENTRY():
-    '''public int LAUNCHENTRY()
+    '''returns int\n\n
+    LAUNCHENTRY()\n
     '''

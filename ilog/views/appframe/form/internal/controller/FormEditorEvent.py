@@ -3,15 +3,19 @@ DISPLAYED_VALUE_CHANGED = "int  100"
 MODEL_VALUE_CHANGED = "int  101"
 VALIDATION_CHANGED = "int  102"
 RELEVANCY_CHANGED = "int  103"
-def FormEditorEvent():
-    '''public FormEditorEvent(final int a, final IlvFormEditor b)
+def ():
+    '''returns FormEditorEvent\n\n
+    (final int a, final IlvFormEditor b)\n
     '''
 def getID():
-    '''public int getID()
+    '''returns int\n\n
+    getID()\n
     '''
 def getEditor():
-    '''public IlvFormEditor getEditor()
+    '''returns IlvFormEditor\n\n
+    getEditor()\n
     '''
 def getSingleEditor():
-    '''public IlvFormSingleEditor getSingleEditor()
+    '''returns IlvFormSingleEditor\n\n
+    getSingleEditor()\n
     '''

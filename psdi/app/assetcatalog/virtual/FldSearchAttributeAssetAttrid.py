@@ -1,12 +1,16 @@
-def FldSearchAttributeAssetAttrid():
-    '''public FldSearchAttributeAssetAttrid(final MboValue mbv)
+def ():
+    '''returns FldSearchAttributeAssetAttrid\n\n
+    (final MboValue mbv)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getListOfViews():
-    '''public String getListOfViews(final String mainObject)
+    '''returns String\n\n
+    getListOfViews(final String mainObject)\n
     '''

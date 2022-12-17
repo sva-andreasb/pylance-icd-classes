@@ -1,61 +1,59 @@
 RootParent = "int  -2"
 NoParent = "int  -99"
-def checkAll():
-    '''public static void checkAll()
-    '''
-def infoAll():
-    '''public static void infoAll()
-    '''
 def toString():
-    '''public String toString()
-    '''
-def readMeta():
-    '''public static BPlusTreeParams readMeta(final MetaFile mf)
+    '''returns String\n\n
+    toString()\n
     '''
 def addToMetaData():
-    '''public void addToMetaData(final MetaFile mf)
+    '''returns None\n\n
+    addToMetaData(final MetaFile mf)\n
     '''
-def BPlusTreeParams():
-    '''public BPlusTreeParams(final int order, final int keyLen, final int valLen)
-    public BPlusTreeParams(final int order, final RecordFactory factory)
+def ():
+    '''returns BPlusTreeParams\n\n
+    (final int order, final int keyLen, final int valLen)\n
+    (final int order, final RecordFactory factory)\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def getPtrLength():
-    '''public int getPtrLength()
+    '''returns int\n\n
+    getPtrLength()\n
     '''
 def getRecordLength():
-    '''public int getRecordLength()
+    '''returns int\n\n
+    getRecordLength()\n
     '''
 def getRecordFactory():
-    '''public RecordFactory getRecordFactory()
+    '''returns RecordFactory\n\n
+    getRecordFactory()\n
     '''
 def getKeyLength():
-    '''public int getKeyLength()
+    '''returns int\n\n
+    getKeyLength()\n
     '''
 def getKeyFactory():
-    '''public RecordFactory getKeyFactory()
+    '''returns RecordFactory\n\n
+    getKeyFactory()\n
     '''
 def getBlockSize():
-    '''public int getBlockSize()
-    '''
-def calcOrder():
-    '''public static int calcOrder(final int blockSize, final RecordFactory factory)
-    public static int calcOrder(int blockSize, final int recordLength)
-    '''
-def calcBlockSize():
-    '''public static int calcBlockSize(final int bpTreeOrder, final RecordFactory factory)
+    '''returns int\n\n
+    getBlockSize()\n
     '''
 def getMaxRec():
-    '''public int getMaxRec()
+    '''returns int\n\n
+    getMaxRec()\n
     '''
 def getMaxPtr():
-    '''public int getMaxPtr()
+    '''returns int\n\n
+    getMaxPtr()\n
     '''
 def getMinRec():
-    '''public int getMinRec()
+    '''returns int\n\n
+    getMinRec()\n
     '''
 def getMinPtr():
-    '''public int getMinPtr()
+    '''returns int\n\n
+    getMinPtr()\n
     '''

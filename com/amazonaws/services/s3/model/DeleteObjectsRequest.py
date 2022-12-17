@@ -1,59 +1,75 @@
-def DeleteObjectsRequest():
-    '''public DeleteObjectsRequest(final String bucketName)
+def ():
+    '''returns KeyVersion\n\n
+    (final String bucketName)\n
+    (final String key)\n
+    (final String key, final String version)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public DeleteObjectsRequest withBucketName(final String bucketName)
+    '''returns DeleteObjectsRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getMfa():
-    '''public MultiFactorAuthentication getMfa()
+    '''returns MultiFactorAuthentication\n\n
+    getMfa()\n
     '''
 def setMfa():
-    '''public void setMfa(final MultiFactorAuthentication mfa)
+    '''returns None\n\n
+    setMfa(final MultiFactorAuthentication mfa)\n
     '''
 def withMfa():
-    '''public DeleteObjectsRequest withMfa(final MultiFactorAuthentication mfa)
+    '''returns DeleteObjectsRequest\n\n
+    withMfa(final MultiFactorAuthentication mfa)\n
     '''
 def setQuiet():
-    '''public void setQuiet(final boolean quiet)
+    '''returns None\n\n
+    setQuiet(final boolean quiet)\n
     '''
 def getQuiet():
-    '''public boolean getQuiet()
+    '''returns boolean\n\n
+    getQuiet()\n
     '''
 def withQuiet():
-    '''public DeleteObjectsRequest withQuiet(final boolean quiet)
+    '''returns DeleteObjectsRequest\n\n
+    withQuiet(final boolean quiet)\n
     '''
 def setKeys():
-    '''public void setKeys(final List<KeyVersion> keys)
+    '''returns None\n\n
+    setKeys(final List<KeyVersion> keys)\n
     '''
 def withKeys():
-    '''public DeleteObjectsRequest withKeys(final List<KeyVersion> keys)
-    public DeleteObjectsRequest withKeys(final String... keys)
+    '''returns DeleteObjectsRequest\n\n
+    withKeys(final List<KeyVersion> keys)\n
+    withKeys(final String... keys)\n
     '''
 def getKeys():
-    '''public List<KeyVersion> getKeys()
+    '''returns List<KeyVersion>\n\n
+    getKeys()\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public DeleteObjectsRequest withRequesterPays(final boolean isRequesterPays)
-    '''
-def KeyVersion():
-    '''public KeyVersion(final String key)
-    public KeyVersion(final String key, final String version)
+    '''returns DeleteObjectsRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''

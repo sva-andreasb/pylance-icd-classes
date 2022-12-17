@@ -1,3 +1,4 @@
-def PluralSamples():
-    '''public PluralSamples(final PluralRules pluralRules)
+def ():
+    '''returns PluralSamples\n\n
+    (final PluralRules pluralRules)\n
     '''

@@ -1,24 +1,32 @@
-def WPLicenseSet():
-    '''public WPLicenseSet(final MboServerInterface ms)
+def ():
+    '''returns WPLicenseSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote mbo)
+    '''returns None\n\n
+    setOwner(final MboRemote mbo)\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener l)
+    '''returns None\n\n
+    addListener(final MboSetListener l)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener l)
+    '''returns None\n\n
+    removeListener(final MboSetListener l)\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote modifiedMbo)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

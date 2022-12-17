@@ -2,30 +2,38 @@ LOG_PROPERTY = "String  \"org.apache.commons.logging.Log\""
 ALLOW_FLAWED_CONTEXT_PROPERTY = "String  \"org.apache.commons.logging.Log.allowFlawedContext\""
 ALLOW_FLAWED_DISCOVERY_PROPERTY = "String  \"org.apache.commons.logging.Log.allowFlawedDiscovery\""
 ALLOW_FLAWED_HIERARCHY_PROPERTY = "String  \"org.apache.commons.logging.Log.allowFlawedHierarchy\""
-def LogFactoryImpl():
-    '''public LogFactoryImpl()
+def ():
+    '''returns LogFactoryImpl\n\n
+    ()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def getAttributeNames():
-    '''public String[] getAttributeNames()
+    '''returns String[]\n\n
+    getAttributeNames()\n
     '''
 def getInstance():
-    '''public Log getInstance(final Class clazz)
-    public Log getInstance(final String name)
+    '''returns Log\n\n
+    getInstance(final Class clazz)\n
+    getInstance(final String name)\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String name)
+    '''returns None\n\n
+    removeAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final Object value)
+    '''returns None\n\n
+    setAttribute(final String name, final Object value)\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
+    run()\n
     '''

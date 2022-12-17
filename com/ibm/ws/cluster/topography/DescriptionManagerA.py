@@ -1,23 +1,21 @@
-def DescriptionManagerA():
-    '''public DescriptionManagerA()
-    '''
-def getDescription():
-    '''public synchronized Description getDescription(final DescriptionKey key)
-    public synchronized Description getDescription(final DescriptionKey key, final String implKey)
+def ():
+    '''returns DescriptionManagerA\n\n
+    ()\n
     '''
 def stream():
-    '''public void stream(final Map formatsToKeys, final ObjectOutput out)
+    '''returns None\n\n
+    stream(final Map formatsToKeys, final ObjectOutput out)\n
     '''
 def update():
-    '''public void update(final ObjectInput in)
-    public void update(final String identifier, final byte[][] data)
+    '''returns None\n\n
+    update(final ObjectInput in)\n
+    update(final String identifier, final byte[][] data)\n
     '''
 def publish():
-    '''public boolean publish(final Description description)
-    '''
-def keyToString():
-    '''public static String keyToString(final DescriptionKey key)
+    '''returns boolean\n\n
+    publish(final Description description)\n
     '''
 def stringToKey():
-    '''public DescriptionKey stringToKey(final String keyString)
+    '''returns DescriptionKey\n\n
+    stringToKey(final String keyString)\n
     '''

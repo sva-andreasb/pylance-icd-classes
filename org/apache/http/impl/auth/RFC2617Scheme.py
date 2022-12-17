@@ -1,14 +1,18 @@
-def RFC2617Scheme():
-    '''public RFC2617Scheme(final ChallengeState challengeState)
-    public RFC2617Scheme(final Charset credentialsCharset)
-    public RFC2617Scheme()
+def ():
+    '''returns RFC2617Scheme\n\n
+    (final ChallengeState challengeState)\n
+    (final Charset credentialsCharset)\n
+    ()\n
     '''
 def getCredentialsCharset():
-    '''public Charset getCredentialsCharset()
+    '''returns Charset\n\n
+    getCredentialsCharset()\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def getRealm():
-    '''public String getRealm()
+    '''returns String\n\n
+    getRealm()\n
     '''

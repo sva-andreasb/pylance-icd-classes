@@ -1,9 +1,12 @@
-def RequestPaymentConfiguration():
-    '''public RequestPaymentConfiguration(final Payer payer)
+def ():
+    '''returns RequestPaymentConfiguration\n\n
+    (final Payer payer)\n
     '''
 def getPayer():
-    '''public Payer getPayer()
+    '''returns Payer\n\n
+    getPayer()\n
     '''
 def setPayer():
-    '''public void setPayer(final Payer payer)
+    '''returns None\n\n
+    setPayer(final Payer payer)\n
     '''

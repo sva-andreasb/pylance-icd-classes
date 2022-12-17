@@ -1,9 +1,12 @@
-def PropertyGetDispatcher():
-    '''public PropertyGetDispatcher(final Field field)
+def ():
+    '''returns PropertyGetDispatcher\n\n
+    (final Field field)\n
     '''
 def invoke():
-    '''public Object invoke(final Object obj, final Object[] array)
+    '''returns Object\n\n
+    invoke(final Object obj, final Object[] array)\n
     '''
 def getReturnType():
-    '''public Class getReturnType()
+    '''returns Class\n\n
+    getReturnType()\n
     '''

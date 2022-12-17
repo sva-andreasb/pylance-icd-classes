@@ -1,28 +1,37 @@
-def OslcQueryHandler():
-    '''public OslcQueryHandler()
-    public OslcQueryHandler(final JSONObject ojo)
+def ():
+    '''returns OslcQueryHandler\n\n
+    ()\n
+    (final JSONObject ojo)\n
     '''
 def setBookmarkWhere():
-    '''public void setBookmarkWhere(final MboSetRemote mboset, final Map<String, String[]> map)
+    '''returns None\n\n
+    setBookmarkWhere(final MboSetRemote mboset, final Map<String, String[]> map)\n
     '''
 def setSQLWhere():
-    '''public void setSQLWhere(final MboSetRemote mboset, final OslcRequest oslcRequest)
+    '''returns None\n\n
+    setSQLWhere(final MboSetRemote mboset, final OslcRequest oslcRequest)\n
     '''
 def getQbeWhere():
-    '''public String getQbeWhere()
+    '''returns String\n\n
+    getQbeWhere()\n
     '''
 def getOslcQueryForTemplate():
-    '''public OslcQuery getOslcQueryForTemplate(final OSTemplateInfo templateInfo)
+    '''returns OslcQuery\n\n
+    getOslcQueryForTemplate(final OSTemplateInfo templateInfo)\n
     '''
 def handleQueryClause():
-    '''public void handleQueryClause(String osName, final MboSetRemote mboSet, final OslcRequest oslcRequest, final Map<String, String> prefixNsMap)
+    '''returns None\n\n
+    handleQueryClause(String osName, final MboSetRemote mboSet, final OslcRequest oslcRequest, final Map<String, String> prefixNsMap)\n
     '''
 def isNull():
-    '''public boolean isNull(final String value)
+    '''returns boolean\n\n
+    isNull(final String value)\n
     '''
 def queryAsJSON():
-    '''public JSONObject queryAsJSON()
+    '''returns JSONObject\n\n
+    queryAsJSON()\n
     '''
 def queryAsJSONString():
-    '''public String queryAsJSONString()
+    '''returns String\n\n
+    queryAsJSONString()\n
     '''

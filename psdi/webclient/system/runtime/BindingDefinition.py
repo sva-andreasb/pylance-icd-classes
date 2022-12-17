@@ -1,21 +1,28 @@
 def getDataAttributeProperty():
-    '''public String getDataAttributeProperty()
+    '''returns String\n\n
+    getDataAttributeProperty()\n
     '''
 def getInputModeProperty():
-    '''public String getInputModeProperty()
+    '''returns String\n\n
+    getInputModeProperty()\n
     '''
 def getLabelProperty():
-    '''public String getLabelProperty()
+    '''returns String\n\n
+    getLabelProperty()\n
     '''
 def setFocusComponent():
-    '''public void setFocusComponent(final ComponentDescriptor componentTmplt)
+    '''returns None\n\n
+    setFocusComponent(final ComponentDescriptor componentTmplt)\n
     '''
 def setNotifyComponent():
-    '''public void setNotifyComponent(final ComponentDescriptor component)
+    '''returns None\n\n
+    setNotifyComponent(final ComponentDescriptor component)\n
     '''
 def findFocusComponent():
-    '''public ComponentInstance findFocusComponent(final ControlInstance control)
+    '''returns ComponentInstance\n\n
+    findFocusComponent(final ControlInstance control)\n
     '''
 def findNotifyComponent():
-    '''public ComponentInstance findNotifyComponent(final ControlInstance control)
+    '''returns ComponentInstance\n\n
+    findNotifyComponent(final ControlInstance control)\n
     '''

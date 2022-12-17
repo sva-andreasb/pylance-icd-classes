@@ -1,4 +1,5 @@
-def BigIntegerHolder():
-    '''public BigIntegerHolder()
-    public BigIntegerHolder(final BigInteger value)
+def ():
+    '''returns BigIntegerHolder\n\n
+    ()\n
+    (final BigInteger myBigInteger)\n
     '''

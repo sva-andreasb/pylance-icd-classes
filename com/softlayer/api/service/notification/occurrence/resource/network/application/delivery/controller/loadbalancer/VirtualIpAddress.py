@@ -1,45 +1,60 @@
 def getHostname():
-    '''public String getHostname()
+    '''returns String\n\n
+    getHostname()\n
     '''
 def setHostname():
-    '''public void setHostname(final String hostname)
+    '''returns None\n\n
+    setHostname(final String hostname)\n
     '''
 def isHostnameSpecified():
-    '''public boolean isHostnameSpecified()
+    '''returns boolean\n\n
+    isHostnameSpecified()\n
     '''
 def unsetHostname():
-    '''public void unsetHostname()
+    '''returns None\n\n
+    unsetHostname()\n
     '''
 def getPublicIp():
-    '''public String getPublicIp()
+    '''returns String\n\n
+    getPublicIp()\n
     '''
 def setPublicIp():
-    '''public void setPublicIp(final String publicIp)
+    '''returns None\n\n
+    setPublicIp(final String publicIp)\n
     '''
 def isPublicIpSpecified():
-    '''public boolean isPublicIpSpecified()
+    '''returns boolean\n\n
+    isPublicIpSpecified()\n
     '''
 def unsetPublicIp():
-    '''public void unsetPublicIp()
+    '''returns None\n\n
+    unsetPublicIp()\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def setResourceType():
-    '''public void setResourceType(final String resourceType)
+    '''returns None\n\n
+    setResourceType(final String resourceType)\n
     '''
 def isResourceTypeSpecified():
-    '''public boolean isResourceTypeSpecified()
+    '''returns boolean\n\n
+    isResourceTypeSpecified()\n
     '''
 def unsetResourceType():
-    '''public void unsetResourceType()
+    '''returns None\n\n
+    unsetResourceType()\n
     '''
 def hostname():
-    '''public Mask hostname()
+    '''returns Mask\n\n
+    hostname()\n
     '''
 def publicIp():
-    '''public Mask publicIp()
+    '''returns Mask\n\n
+    publicIp()\n
     '''
 def resourceType():
-    '''public Mask resourceType()
+    '''returns Mask\n\n
+    resourceType()\n
     '''

@@ -12,38 +12,50 @@ SIG_TERM = "String  \"TERM\""
 SIG_USR1 = "String  \"USR1\""
 SIG_USR2 = "String  \"USR2\""
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getErrorStream():
-    '''public InputStream getErrorStream()
+    '''returns InputStream\n\n
+    getErrorStream()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def signal():
-    '''public void signal(final String signalName)
+    '''returns None\n\n
+    signal(final String signalName)\n
     '''
 def waitFor():
-    '''public int waitFor()
+    '''returns int\n\n
+    waitFor()\n
     '''
 def getStandardOutput():
-    '''public String getStandardOutput()
+    '''returns String\n\n
+    getStandardOutput()\n
     '''
 def getStandardError():
-    '''public String getStandardError()
+    '''returns String\n\n
+    getStandardError()\n
     '''
 def getExitStatus():
-    '''public int getExitStatus()
+    '''returns int\n\n
+    getExitStatus()\n
     '''
 def getExitSignal():
-    '''public String getExitSignal()
+    '''returns String\n\n
+    getExitSignal()\n
     '''
 def didExitSignalDumpCore():
-    '''public boolean didExitSignalDumpCore()
+    '''returns boolean\n\n
+    didExitSignalDumpCore()\n
     '''
 def getExitSignalErrorMessage():
-    '''public String getExitSignalErrorMessage()
+    '''returns String\n\n
+    getExitSignalErrorMessage()\n
     '''

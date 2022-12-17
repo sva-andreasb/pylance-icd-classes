@@ -1,3 +1,4 @@
 def parse():
-    '''public UnblockContactsIQ parse(final XmlPullParser parser, final int initialDepth)
+    '''returns UnblockContactsIQ\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

@@ -1,29 +1,38 @@
-def DocumentStoredFieldVisitor():
-    '''public DocumentStoredFieldVisitor(final Set<String> fieldsToAdd)
-    public DocumentStoredFieldVisitor(final String... fields)
-    public DocumentStoredFieldVisitor()
+def ():
+    '''returns DocumentStoredFieldVisitor\n\n
+    (final Set<String> fieldsToAdd)\n
+    (final String... fields)\n
+    ()\n
     '''
 def binaryField():
-    '''public void binaryField(final FieldInfo fieldInfo, final byte[] value)
+    '''returns None\n\n
+    binaryField(final FieldInfo fieldInfo, final byte[] value)\n
     '''
 def stringField():
-    '''public void stringField(final FieldInfo fieldInfo, final byte[] value)
+    '''returns None\n\n
+    stringField(final FieldInfo fieldInfo, final byte[] value)\n
     '''
 def intField():
-    '''public void intField(final FieldInfo fieldInfo, final int value)
+    '''returns None\n\n
+    intField(final FieldInfo fieldInfo, final int value)\n
     '''
 def longField():
-    '''public void longField(final FieldInfo fieldInfo, final long value)
+    '''returns None\n\n
+    longField(final FieldInfo fieldInfo, final long value)\n
     '''
 def floatField():
-    '''public void floatField(final FieldInfo fieldInfo, final float value)
+    '''returns None\n\n
+    floatField(final FieldInfo fieldInfo, final float value)\n
     '''
 def doubleField():
-    '''public void doubleField(final FieldInfo fieldInfo, final double value)
+    '''returns None\n\n
+    doubleField(final FieldInfo fieldInfo, final double value)\n
     '''
 def needsField():
-    '''public Status needsField(final FieldInfo fieldInfo)
+    '''returns Status\n\n
+    needsField(final FieldInfo fieldInfo)\n
     '''
 def getDocument():
-    '''public Document getDocument()
+    '''returns Document\n\n
+    getDocument()\n
     '''

@@ -1,19 +1,25 @@
 sid = "short  133"
-def OldSheetRecord():
-    '''public OldSheetRecord(final RecordInputStream in)
+def ():
+    '''returns OldSheetRecord\n\n
+    (final RecordInputStream in)\n
     '''
 def setCodePage():
-    '''public void setCodePage(final CodepageRecord codepage)
+    '''returns None\n\n
+    setCodePage(final CodepageRecord codepage)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getPositionOfBof():
-    '''public int getPositionOfBof()
+    '''returns int\n\n
+    getPositionOfBof()\n
     '''
 def getSheetname():
-    '''public String getSheetname()
+    '''returns String\n\n
+    getSheetname()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

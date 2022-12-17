@@ -1,16 +1,21 @@
-def Socks5ProxyHandler():
-    '''public Socks5ProxyHandler(final SocketAddress proxyAddress)
-    public Socks5ProxyHandler(final SocketAddress proxyAddress, String username, String password)
+def ():
+    '''returns Socks5ProxyHandler\n\n
+    (final SocketAddress proxyAddress)\n
+    (final SocketAddress proxyAddress, String username, String password)\n
     '''
 def protocol():
-    '''public String protocol()
+    '''returns String\n\n
+    protocol()\n
     '''
 def authScheme():
-    '''public String authScheme()
+    '''returns String\n\n
+    authScheme()\n
     '''
 def username():
-    '''public String username()
+    '''returns String\n\n
+    username()\n
     '''
 def password():
-    '''public String password()
+    '''returns String\n\n
+    password()\n
     '''

@@ -1,3 +1,4 @@
-def STTrueFalseBlankImpl():
-    '''public STTrueFalseBlankImpl(final SchemaType schemaType)
+def ():
+    '''returns STTrueFalseBlankImpl\n\n
+    (final SchemaType schemaType)\n
     '''

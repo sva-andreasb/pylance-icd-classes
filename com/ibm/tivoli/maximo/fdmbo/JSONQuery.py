@@ -1,36 +1,47 @@
-def JSONQuery():
-    '''public JSONQuery(final String query, final MboRemote owner)
-    public JSONQuery()
+def ():
+    '''returns JSONQuery\n\n
+    (final String query, final MboRemote owner)\n
+    ()\n
     '''
 def format():
-    '''public String format()
+    '''returns String\n\n
+    format()\n
     '''
 def join():
-    '''public String join(final String query)
-    public String join(final JSONObject jsonQuery2)
+    '''returns String\n\n
+    join(final String query)\n
+    join(final JSONObject jsonQuery2)\n
     '''
 def setLimit():
-    '''public void setLimit(final int limit)
+    '''returns None\n\n
+    setLimit(final int limit)\n
     '''
 def setSkip():
-    '''public void setSkip(final int skip)
+    '''returns None\n\n
+    setSkip(final int skip)\n
     '''
 def remove():
-    '''public void remove(final String key)
+    '''returns None\n\n
+    remove(final String key)\n
     '''
 def setFields():
-    '''public void setFields(final Set<String> fields)
+    '''returns None\n\n
+    setFields(final Set<String> fields)\n
     '''
 def setSelectIDField():
-    '''public void setSelectIDField()
+    '''returns None\n\n
+    setSelectIDField()\n
     '''
 def setSort():
-    '''public void setSort(final Map<String, Boolean> sortMap)
-    public void setSort(final JSONArray orderBy)
+    '''returns None\n\n
+    setSort(final Map<String, Boolean> sortMap)\n
+    setSort(final JSONArray orderBy)\n
     '''
 def addSort():
-    '''public void addSort(final String attr, final boolean asc)
+    '''returns None\n\n
+    addSort(final String attr, final boolean asc)\n
     '''
 def getJSONQuery():
-    '''public String getJSONQuery()
+    '''returns String\n\n
+    getJSONQuery()\n
     '''

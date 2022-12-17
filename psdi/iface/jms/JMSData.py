@@ -14,23 +14,25 @@ MIMETYPE = "String  \"mimetype\""
 ACTIONTYPE = "String  \"actiontype\""
 MAPPINGID = "String  \"mappingid\""
 ALTKEY = "String  \"altkey\""
-def JMSData():
-    '''public JMSData(final byte[] msgBody, final Map<String, String> msgHeaders, final boolean compress)
-    public JMSData(final byte[] msgBody, final Map<String, String> msgHeaders)
-    public JMSData(final String textMsgBody, final Map<String, String> msgHeaders)
-    '''
-def getMessageProperties():
-    '''public Map<String, String> getMessageProperties()
+def ():
+    '''returns JMSData\n\n
+    (final byte[] msgBody, final Map<String, String> msgHeaders, final boolean compress)\n
+    (final byte[] msgBody, final Map<String, String> msgHeaders)\n
+    (final String textMsgBody, final Map<String, String> msgHeaders)\n
     '''
 def getMessageBody():
-    '''public byte[] getMessageBody()
+    '''returns byte[]\n\n
+    getMessageBody()\n
     '''
 def getTextMessageBody():
-    '''public String getTextMessageBody()
+    '''returns String\n\n
+    getTextMessageBody()\n
     '''
 def isCompress():
-    '''public boolean isCompress()
+    '''returns boolean\n\n
+    isCompress()\n
     '''
 def isTextMessage():
-    '''public boolean isTextMessage()
+    '''returns boolean\n\n
+    isTextMessage()\n
     '''

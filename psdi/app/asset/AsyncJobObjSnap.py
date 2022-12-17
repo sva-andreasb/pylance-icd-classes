@@ -1,3 +1,4 @@
-def AsyncJobObjSnap():
-    '''public AsyncJobObjSnap(final MboSet ms)
+def ():
+    '''returns AsyncJobObjSnap\n\n
+    (final MboSet ms)\n
     '''

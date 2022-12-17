@@ -1,6 +1,8 @@
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getValue():
-    '''public byte[] getValue()
+    '''returns byte[]\n\n
+    getValue()\n
     '''

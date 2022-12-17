@@ -1,6 +1,8 @@
 def getExceptions():
-    '''public Class[] getExceptions()
+    '''returns Class[]\n\n
+    getExceptions()\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cp)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cp)\n
     '''

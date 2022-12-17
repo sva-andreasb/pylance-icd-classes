@@ -1,16 +1,21 @@
-def SKDMAPInputParamInfo():
-    '''public SKDMAPInputParamInfo()
-    public SKDMAPInputParamInfo(final Double latitudeY, final Double longitudeX)
+def ():
+    '''returns SKDMAPInputParamInfo\n\n
+    ()\n
+    (final Double latitudeY, final Double longitudeX)\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def setLatitudeY():
-    '''public void setLatitudeY(final Double latitudeY)
+    '''returns None\n\n
+    setLatitudeY(final Double latitudeY)\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def setlongitudeX():
-    '''public void setlongitudeX(final Double longitudeX)
+    '''returns None\n\n
+    setlongitudeX(final Double longitudeX)\n
     '''

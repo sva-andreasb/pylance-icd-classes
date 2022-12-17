@@ -1,67 +1,86 @@
 CASE_INSENSTIVE = "boolean  true"
-def StringMap():
-    '''public StringMap()
-    public StringMap(final boolean ignoreCase)
-    public StringMap(final boolean ignoreCase, final int width)
+def ():
+    '''returns StringMap\n\n
+    ()\n
+    (final boolean ignoreCase)\n
+    (final boolean ignoreCase, final int width)\n
     '''
 def setIgnoreCase():
-    '''public void setIgnoreCase(final boolean ic)
+    '''returns None\n\n
+    setIgnoreCase(final boolean ic)\n
     '''
 def isIgnoreCase():
-    '''public boolean isIgnoreCase()
+    '''returns boolean\n\n
+    isIgnoreCase()\n
     '''
 def setWidth():
-    '''public void setWidth(final int width)
+    '''returns None\n\n
+    setWidth(final int width)\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
-    public Object put(final String key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
+    put(final String key, final Object value)\n
     '''
 def get():
-    '''public Object get(final Object key)
-    public Object get(final String key)
+    '''returns Object\n\n
+    get(final Object key)\n
+    get(final String key)\n
     '''
 def remove():
-    '''public Object remove(final Object key)
-    public Object remove(final String key)
+    '''returns Object\n\n
+    remove(final Object key)\n
+    remove(final String key)\n
     '''
 def entrySet():
-    '''public Set entrySet()
+    '''returns Set\n\n
+    entrySet()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def getKey():
-    '''public Object getKey()
-    public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
+    getKey()\n
     '''
 def getValue():
-    '''public Object getValue()
-    public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
+    getValue()\n
     '''
 def setValue():
-    '''public Object setValue(final Object o)
-    public Object setValue(final Object o)
+    '''returns Object\n\n
+    setValue(final Object o)\n
+    setValue(final Object o)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

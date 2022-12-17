@@ -1,6 +1,8 @@
-def FldCrontaskInstSchedule():
-    '''public FldCrontaskInstSchedule(final MboValue mbv)
+def ():
+    '''returns FldCrontaskInstSchedule\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

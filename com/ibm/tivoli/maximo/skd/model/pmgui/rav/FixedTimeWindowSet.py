@@ -1,35 +1,46 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def FixedTimeWindowSet():
-    '''public FixedTimeWindowSet(final String id, final String name, final String description, final boolean unavailable)
-    public FixedTimeWindowSet(final String description, final boolean unavailable)
+def ():
+    '''returns FixedTimeWindowSet\n\n
+    (final String id, final String name, final String description, final boolean unavailable)\n
+    (final String description, final boolean unavailable)\n
     '''
 def addTimeWindow():
-    '''public void addTimeWindow(final Date startTime, final Date endTime)
+    '''returns None\n\n
+    addTimeWindow(final Date startTime, final Date endTime)\n
     '''
 def computeTimeWindows():
-    '''public void computeTimeWindows()
+    '''returns None\n\n
+    computeTimeWindows()\n
     '''
 def clearChildren():
-    '''public void clearChildren()
+    '''returns None\n\n
+    clearChildren()\n
     '''
 def findFirstChildById():
-    '''public TimeWindowSet findFirstChildById(final String id)
+    '''returns TimeWindowSet\n\n
+    findFirstChildById(final String id)\n
     '''
 def fetchTimeWindowSetsById():
-    '''public void fetchTimeWindowSetsById(final List<TimeWindowSet> list, final String id)
+    '''returns None\n\n
+    fetchTimeWindowSetsById(final List<TimeWindowSet> list, final String id)\n
     '''
 def getChildrenIterator():
-    '''public Iterator<TimeWindowSet> getChildrenIterator()
+    '''returns Iterator<TimeWindowSet>\n\n
+    getChildrenIterator()\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''
 def getChildAt():
-    '''public TimeWindowSet getChildAt(final int index)
+    '''returns TimeWindowSet\n\n
+    getChildAt(final int index)\n
     '''
 def resetDisabledFlag():
-    '''public void resetDisabledFlag()
+    '''returns None\n\n
+    resetDisabledFlag()\n
     '''
 def writeXml():
-    '''public void writeXml(final PrintWriter out)
+    '''returns None\n\n
+    writeXml(final PrintWriter out)\n
     '''

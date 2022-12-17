@@ -1,69 +1,92 @@
-def TableCol():
-    '''public TableCol()
+def ():
+    '''returns TableCol\n\n
+    ()\n
     '''
 def getColumnNum():
-    '''public int getColumnNum()
+    '''returns int\n\n
+    getColumnNum()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getLinkedProperty():
-    '''public String getLinkedProperty(final String key)
+    '''returns String\n\n
+    getLinkedProperty(final String key)\n
     '''
 def getProperty():
-    '''public String getProperty(final String key)
+    '''returns String\n\n
+    getProperty(final String key)\n
     '''
 def hasInternalControls():
-    '''public boolean hasInternalControls()
+    '''returns boolean\n\n
+    hasInternalControls()\n
     '''
 def setInternalControls():
-    '''public void setInternalControls()
+    '''returns None\n\n
+    setInternalControls()\n
     '''
 def getTableCells():
-    '''public Vector<String> getTableCells()
+    '''returns Vector<String>\n\n
+    getTableCells()\n
     '''
 def addTableCell():
-    '''public void addTableCell(final String tableCellId)
+    '''returns None\n\n
+    addTableCell(final String tableCellId)\n
     '''
 def removeChild():
-    '''public void removeChild(final ControlInstance child)
+    '''returns None\n\n
+    removeChild(final ControlInstance child)\n
     '''
 def removeTableCell():
-    '''public void removeTableCell(final String id)
+    '''returns None\n\n
+    removeTableCell(final String id)\n
     '''
 def clearTableCells():
-    '''public void clearTableCells()
+    '''returns None\n\n
+    clearTableCells()\n
     '''
 def setDesignerSelected():
-    '''public ControlInstance setDesignerSelected(final boolean selected)
+    '''returns ControlInstance\n\n
+    setDesignerSelected(final boolean selected)\n
     '''
 def isNumeric():
-    '''public boolean isNumeric()
+    '''returns boolean\n\n
+    isNumeric()\n
     '''
 def isLTROnly():
-    '''public boolean isLTROnly()
+    '''returns boolean\n\n
+    isLTROnly()\n
     '''
 def canRemove():
-    '''public boolean canRemove()
+    '''returns boolean\n\n
+    canRemove()\n
     '''
 def canInsert():
-    '''public boolean canInsert(final ControlInstance newControl)
+    '''returns boolean\n\n
+    canInsert(final ControlInstance newControl)\n
     '''
 def setComponentForErrorFocus():
-    '''public void setComponentForErrorFocus(final ControlInstance innerControl)
+    '''returns None\n\n
+    setComponentForErrorFocus(final ControlInstance innerControl)\n
     '''
 def setErrorFocusOnControl():
-    '''public void setErrorFocusOnControl(final UIERMBoundControl ermControl, final int mboIndex)
+    '''returns None\n\n
+    setErrorFocusOnControl(final UIERMBoundControl ermControl, final int mboIndex)\n
     '''
 def setAttributeError():
-    '''public void setAttributeError(final UIERMBoundControl boundControl, final ERMAttributeError error)
+    '''returns None\n\n
+    setAttributeError(final UIERMBoundControl boundControl, final ERMAttributeError error)\n
     '''
 def setHeaderId():
-    '''public void setHeaderId(final String anId)
+    '''returns None\n\n
+    setHeaderId(final String anId)\n
     '''
 def getHeaderId():
-    '''public String getHeaderId()
+    '''returns String\n\n
+    getHeaderId()\n
     '''

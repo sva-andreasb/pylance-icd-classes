@@ -3,271 +3,360 @@ WILDCARDSEARCH = "int  0"
 EXACTSEARCH = "int  1"
 TEXTSEARCH = "int  2"
 NONESEARCH = "int  3"
-def MboValueInfo():
-    '''public MboValueInfo(final long uniqueId)
-    public MboValueInfo()
+def ():
+    '''returns MboValueInfo\n\n
+    (final long uniqueId)\n
+    ()\n
     '''
 def setDomainInfo():
-    '''public void setDomainInfo(final DomainInfo di)
+    '''returns None\n\n
+    setDomainInfo(final DomainInfo di)\n
     '''
 def getDomainInfo():
-    '''public DomainInfo getDomainInfo()
+    '''returns DomainInfo\n\n
+    getDomainInfo()\n
     '''
 def isNumeric():
-    '''public boolean isNumeric()
+    '''returns boolean\n\n
+    isNumeric()\n
     '''
 def getCustomClass():
-    '''public Class getCustomClass()
+    '''returns Class\n\n
+    getCustomClass()\n
     '''
 def getMboValueClass():
-    '''public Class getMboValueClass()
+    '''returns Class\n\n
+    getMboValueClass()\n
     '''
 def getTypedReference():
-    '''public MboValueInfoBase getTypedReference()
+    '''returns MboValueInfoBase\n\n
+    getTypedReference()\n
     '''
 def getAlias():
-    '''public String getAlias()
+    '''returns String\n\n
+    getAlias()\n
     '''
 def setAlias():
-    '''public void setAlias(final String aliasName)
+    '''returns None\n\n
+    setAlias(final String aliasName)\n
     '''
 def setHandleColumnName():
-    '''public void setHandleColumnName(final String name)
+    '''returns None\n\n
+    setHandleColumnName(final String name)\n
     '''
 def getHandleColumnName():
-    '''public String getHandleColumnName()
+    '''returns String\n\n
+    getHandleColumnName()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def setAttributeName():
-    '''public void setAttributeName(final String name)
+    '''returns None\n\n
+    setAttributeName(final String name)\n
     '''
 def getAttributeNumber():
-    '''public int getAttributeNumber()
+    '''returns int\n\n
+    getAttributeNumber()\n
     '''
 def getAutoKeyName():
-    '''public String getAutoKeyName()
+    '''returns String\n\n
+    getAutoKeyName()\n
     '''
 def getSearchType():
-    '''public String getSearchType()
+    '''returns String\n\n
+    getSearchType()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getEntityColumnName():
-    '''public String getEntityColumnName()
+    '''returns String\n\n
+    getEntityColumnName()\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String string)
+    '''returns None\n\n
+    setDefaultValue(final String string)\n
     '''
 def getDomainId():
-    '''public String getDomainId()
+    '''returns String\n\n
+    getDomainId()\n
     '''
 def isEAuditEnabled():
-    '''public boolean isEAuditEnabled()
+    '''returns boolean\n\n
+    isEAuditEnabled()\n
     '''
 def getEntityName():
-    '''public String getEntityName()
+    '''returns String\n\n
+    getEntityName()\n
     '''
 def setEntityName():
-    '''public void setEntityName(final String entityName)
+    '''returns None\n\n
+    setEntityName(final String entityName)\n
     '''
 def isESigEnabled():
-    '''public boolean isESigEnabled()
+    '''returns boolean\n\n
+    isESigEnabled()\n
     '''
 def setESigEnabled():
-    '''public void setESigEnabled(final boolean enabled)
+    '''returns None\n\n
+    setESigEnabled(final boolean enabled)\n
     '''
 def isLDOwner():
-    '''public boolean isLDOwner()
+    '''returns boolean\n\n
+    isLDOwner()\n
     '''
 def setLDOwner():
-    '''public void setLDOwner(final boolean isLDOwner)
+    '''returns None\n\n
+    setLDOwner(final boolean isLDOwner)\n
     '''
 def isPositive():
-    '''public boolean isPositive()
+    '''returns boolean\n\n
+    isPositive()\n
     '''
 def setPositive():
-    '''public void setPositive(final boolean isPositive)
+    '''returns None\n\n
+    setPositive(final boolean isPositive)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def setLength():
-    '''public void setLength(final int length)
+    '''returns None\n\n
+    setLength(final int length)\n
     '''
 def getMaxType():
-    '''public String getMaxType()
+    '''returns String\n\n
+    getMaxType()\n
     '''
 def setMaxType():
-    '''public void setMaxType(final String string)
+    '''returns None\n\n
+    setMaxType(final String string)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String string)
+    '''returns None\n\n
+    setObjectName(final String string)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def isExtended():
-    '''public boolean isExtended()
+    '''returns boolean\n\n
+    isExtended()\n
     '''
 def setExtended():
-    '''public void setExtended(final boolean extended)
+    '''returns None\n\n
+    setExtended(final boolean extended)\n
     '''
 def isFetchAttribute():
-    '''public boolean isFetchAttribute()
+    '''returns boolean\n\n
+    isFetchAttribute()\n
     '''
 def setPersistent():
-    '''public void setPersistent(final boolean persistent)
+    '''returns None\n\n
+    setPersistent(final boolean persistent)\n
     '''
 def getPrimaryKeyColSequence():
-    '''public int getPrimaryKeyColSequence()
+    '''returns int\n\n
+    getPrimaryKeyColSequence()\n
     '''
 def setPrimaryKeyColSequence():
-    '''public void setPrimaryKeyColSequence(final int sequenceNumber)
+    '''returns None\n\n
+    setPrimaryKeyColSequence(final int sequenceNumber)\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def getScale():
-    '''public int getScale()
+    '''returns int\n\n
+    getScale()\n
     '''
 def setScale():
-    '''public void setScale(final int scale)
+    '''returns None\n\n
+    setScale(final int scale)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String string)
+    '''returns None\n\n
+    setTitle(final String string)\n
     '''
 def isUserdefined():
-    '''public boolean isUserdefined()
+    '''returns boolean\n\n
+    isUserdefined()\n
     '''
 def setRestricted():
-    '''public void setRestricted(final boolean value)
+    '''returns None\n\n
+    setRestricted(final boolean value)\n
     '''
 def isRestricted():
-    '''public boolean isRestricted()
+    '''returns boolean\n\n
+    isRestricted()\n
     '''
 def setUserdefined():
-    '''public void setUserdefined(final boolean userdefined)
+    '''returns None\n\n
+    setUserdefined(final boolean userdefined)\n
     '''
 def getSameAsAttribute():
-    '''public String getSameAsAttribute()
+    '''returns String\n\n
+    getSameAsAttribute()\n
     '''
 def setSameAsAttribute():
-    '''public void setSameAsAttribute(final String sameAsAttribute)
+    '''returns None\n\n
+    setSameAsAttribute(final String sameAsAttribute)\n
     '''
 def getSameAsObject():
-    '''public String getSameAsObject()
+    '''returns String\n\n
+    getSameAsObject()\n
     '''
 def setSameAsObject():
-    '''public void setSameAsObject(final String sameAsObject)
+    '''returns None\n\n
+    setSameAsObject(final String sameAsObject)\n
     '''
 def getPersistentAttributeNumber():
-    '''public int getPersistentAttributeNumber()
+    '''returns int\n\n
+    getPersistentAttributeNumber()\n
     '''
 def getExtendedAttributeNumber():
-    '''public int getExtendedAttributeNumber()
+    '''returns int\n\n
+    getExtendedAttributeNumber()\n
     '''
 def setPersistentAttributeNumber():
-    '''public void setPersistentAttributeNumber(final int persistentAttributeNumber)
+    '''returns None\n\n
+    setPersistentAttributeNumber(final int persistentAttributeNumber)\n
     '''
 def setExtendedAttributeNumber():
-    '''public void setExtendedAttributeNumber(final int extendedAttributeNumber)
+    '''returns None\n\n
+    setExtendedAttributeNumber(final int extendedAttributeNumber)\n
     '''
 def getFetchAttributeNumber():
-    '''public int getFetchAttributeNumber()
+    '''returns int\n\n
+    getFetchAttributeNumber()\n
     '''
 def setFetchAttributeNumber():
-    '''public void setFetchAttributeNumber(final int fetchAttributeNumber)
+    '''returns None\n\n
+    setFetchAttributeNumber(final int fetchAttributeNumber)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isKey():
-    '''public boolean isKey()
+    '''returns boolean\n\n
+    isKey()\n
     '''
 def hasLongDescription():
-    '''public boolean hasLongDescription()
+    '''returns boolean\n\n
+    hasLongDescription()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getTypeAsInt():
-    '''public int getTypeAsInt()
+    '''returns int\n\n
+    getTypeAsInt()\n
     '''
 def getDomainName():
-    '''public String getDomainName()
+    '''returns String\n\n
+    getDomainName()\n
     '''
 def getPrimaryKeyColSeq():
-    '''public int getPrimaryKeyColSeq()
+    '''returns int\n\n
+    getPrimaryKeyColSeq()\n
     '''
 def setMLInUse():
-    '''public void setMLInUse(final boolean ml)
+    '''returns None\n\n
+    setMLInUse(final boolean ml)\n
     '''
 def isMLInUse():
-    '''public boolean isMLInUse()
+    '''returns boolean\n\n
+    isMLInUse()\n
     '''
 def setMLSupported():
-    '''public void setMLSupported(final boolean supported)
+    '''returns None\n\n
+    setMLSupported(final boolean supported)\n
     '''
 def isMLSupported():
-    '''public boolean isMLSupported()
+    '''returns boolean\n\n
+    isMLSupported()\n
     '''
 def getSearchTypeAsInt():
-    '''public int getSearchTypeAsInt()
+    '''returns int\n\n
+    getSearchTypeAsInt()\n
     '''
 def isContentAttribute():
-    '''public boolean isContentAttribute()
+    '''returns boolean\n\n
+    isContentAttribute()\n
     '''
 def setIsContentAttribute():
-    '''public void setIsContentAttribute(final boolean is)
+    '''returns None\n\n
+    setIsContentAttribute(final boolean is)\n
     '''
 def setLocalizable():
-    '''public void setLocalizable(final boolean f)
+    '''returns None\n\n
+    setLocalizable(final boolean f)\n
     '''
 def isLocalizable():
-    '''public boolean isLocalizable()
+    '''returns boolean\n\n
+    isLocalizable()\n
     '''
 def getTextdirection():
-    '''public String getTextdirection()
+    '''returns String\n\n
+    getTextdirection()\n
     '''
 def setTextdirection():
-    '''public void setTextdirection(final String string)
+    '''returns None\n\n
+    setTextdirection(final String string)\n
     '''
 def getComplexexpression():
-    '''public String getComplexexpression()
+    '''returns String\n\n
+    getComplexexpression()\n
     '''
 def setComplexexpression():
-    '''public void setComplexexpression(final String string)
+    '''returns None\n\n
+    setComplexexpression(final String string)\n
     '''
 def isTenantOwned():
-    '''public boolean isTenantOwned()
+    '''returns boolean\n\n
+    isTenantOwned()\n
     '''
 def getSkipCopyFlag():
-    '''public boolean getSkipCopyFlag()
+    '''returns boolean\n\n
+    getSkipCopyFlag()\n
     '''
 def setSkipCopyFlag():
-    '''public void setSkipCopyFlag(final boolean skipCopy)
+    '''returns None\n\n
+    setSkipCopyFlag(final boolean skipCopy)\n
     '''
 def getSkipCopyCondition():
-    '''public String getSkipCopyCondition()
+    '''returns String\n\n
+    getSkipCopyCondition()\n
     '''
 def setSkipCopyCondition():
-    '''public void setSkipCopyCondition(final String skipCopyCond)
+    '''returns None\n\n
+    setSkipCopyCondition(final String skipCopyCond)\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

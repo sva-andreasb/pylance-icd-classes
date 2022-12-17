@@ -6,16 +6,20 @@ JAR_URL_FILE_SEPARATOR = "String  \"!/\""
 PROPERTY_APP_DEV_BASE = "String  \"app.dev.base\""
 PROPERTY_APP_JAR_BASE = "String  \"app.jar.base\""
 APP_MAIN_CLASS_DIR = "String  \"classes/\""
-def ApplicationSecurityEnforcer():
-    '''public ApplicationSecurityEnforcer(final Class appMainClass, final String securityPolicy, final String appJarFile)
-    public ApplicationSecurityEnforcer(final Class appMainClass, final String securityPolicy)
+def ():
+    '''returns ApplicationSecurityEnforcer\n\n
+    (final Class appMainClass, final String securityPolicy, final String appJarFile)\n
+    (final Class appMainClass, final String securityPolicy)\n
     '''
 def enforceSecurity():
-    '''public void enforceSecurity(final boolean enforce)
+    '''returns None\n\n
+    enforceSecurity(final boolean enforce)\n
     '''
 def getPolicyURL():
-    '''public URL getPolicyURL()
+    '''returns URL\n\n
+    getPolicyURL()\n
     '''
 def installSecurityManager():
-    '''public void installSecurityManager()
+    '''returns None\n\n
+    installSecurityManager()\n
     '''

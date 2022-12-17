@@ -1,33 +1,44 @@
 def sendText():
-    '''public void sendText(final String s)
+    '''returns None\n\n
+    sendText(final String s)\n
     '''
 def sendData():
-    '''public void sendData(final int n, final byte[] array)
+    '''returns None\n\n
+    sendData(final int n, final byte[] array)\n
     '''
 def queryAttrContent():
-    '''public void queryAttrContent(final int n)
+    '''returns None\n\n
+    queryAttrContent(final int n)\n
     '''
 def changeAttribute():
-    '''public void changeAttribute(final STExtendedAttribute stExtendedAttribute)
+    '''returns None\n\n
+    changeAttribute(final STExtendedAttribute stExtendedAttribute)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final int n)
+    '''returns None\n\n
+    removeAttribute(final int n)\n
     '''
 def getMemberId():
-    '''public Integer getMemberId()
+    '''returns Integer\n\n
+    getMemberId()\n
     '''
 def getPlace():
-    '''public Place getPlace()
+    '''returns Place\n\n
+    getPlace()\n
     '''
 def getAttributes():
-    '''public Enumeration getAttributes()
+    '''returns Enumeration\n\n
+    getAttributes()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def processPlacesEvent():
-    '''public void processPlacesEvent(final PlacesEvent placesEvent)
+    '''returns None\n\n
+    processPlacesEvent(final PlacesEvent placesEvent)\n
     '''

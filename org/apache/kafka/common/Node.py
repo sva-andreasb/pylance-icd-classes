@@ -1,37 +1,45 @@
-def Node():
-    '''public Node(final int id, final String host, final int port)
-    public Node(final int id, final String host, final int port, final String rack)
-    '''
-def noNode():
-    '''public static Node noNode()
+def ():
+    '''returns Node\n\n
+    (final int id, final String host, final int port)\n
+    (final int id, final String host, final int port, final String rack)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def id():
-    '''public int id()
+    '''returns int\n\n
+    id()\n
     '''
 def idString():
-    '''public String idString()
+    '''returns String\n\n
+    idString()\n
     '''
 def host():
-    '''public String host()
+    '''returns String\n\n
+    host()\n
     '''
 def port():
-    '''public int port()
+    '''returns int\n\n
+    port()\n
     '''
 def hasRack():
-    '''public boolean hasRack()
+    '''returns boolean\n\n
+    hasRack()\n
     '''
 def rack():
-    '''public String rack()
+    '''returns String\n\n
+    rack()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

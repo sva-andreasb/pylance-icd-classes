@@ -1,4 +1,5 @@
-def ApiLoginException():
-    '''public ApiLoginException()
-    public ApiLoginException(final Throwable cause)
+def ():
+    '''returns ApiLoginException\n\n
+    ()\n
+    (final Throwable cause)\n
     '''

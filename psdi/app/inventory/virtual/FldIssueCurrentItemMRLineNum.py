@@ -1,9 +1,12 @@
-def FldIssueCurrentItemMRLineNum():
-    '''public FldIssueCurrentItemMRLineNum(final MboValue mbv)
+def ():
+    '''returns FldIssueCurrentItemMRLineNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

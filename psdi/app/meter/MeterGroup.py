@@ -1,21 +1,20 @@
-def MeterGroup():
-    '''public MeterGroup(final MboSet ms)
+def ():
+    '''returns MeterGroup\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
-    '''
-def getAdditionalRequiredAssetMeterAttrs():
-    '''public Hashtable<String, String> getAdditionalRequiredAssetMeterAttrs()
-    '''
-def getAdditionalRequiredLocationMeterAttrs():
-    '''public Hashtable<String, String> getAdditionalRequiredLocationMeterAttrs()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

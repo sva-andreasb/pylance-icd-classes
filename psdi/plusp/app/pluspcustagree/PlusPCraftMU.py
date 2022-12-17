@@ -1,12 +1,16 @@
-def PlusPCraftMU():
-    '''public PlusPCraftMU(final MboSet set)
+def ():
+    '''returns PlusPCraftMU\n\n
+    (final MboSet set)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def fieldAccessForStatus():
-    '''public void fieldAccessForStatus(final String s)
+    '''returns None\n\n
+    fieldAccessForStatus(final String s)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

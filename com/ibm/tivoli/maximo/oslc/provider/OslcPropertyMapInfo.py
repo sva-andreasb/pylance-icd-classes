@@ -1,42 +1,52 @@
-def OslcPropertyMapInfo():
-    '''public OslcPropertyMapInfo(final String attributeName, final String propName, final String propNs, final boolean required, final boolean resourceRef, final String linkOSName, final String linkRelation, final Map<String, String> keyMap, final boolean useKeyMapForURI, final int overrideType)
+def ():
+    '''returns OslcPropertyMapInfo\n\n
+    (final String attributeName, final String propName, final String propNs, final boolean required, final boolean resourceRef, final String linkOSName, final String linkRelation, final Map<String, String> keyMap, final boolean useKeyMapForURI, final int overrideType)\n
     '''
 def getOverrideType():
-    '''public int getOverrideType()
-    '''
-def getKeyMap():
-    '''public Map<String, String> getKeyMap()
+    '''returns int\n\n
+    getOverrideType()\n
     '''
 def getLinkRelation():
-    '''public String getLinkRelation()
+    '''returns String\n\n
+    getLinkRelation()\n
     '''
 def getLinkOSName():
-    '''public String getLinkOSName()
+    '''returns String\n\n
+    getLinkOSName()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def getPropName():
-    '''public String getPropName()
+    '''returns String\n\n
+    getPropName()\n
     '''
 def getPropNs():
-    '''public String getPropNs()
+    '''returns String\n\n
+    getPropNs()\n
     '''
 def isResourceRef():
-    '''public boolean isResourceRef()
+    '''returns boolean\n\n
+    isResourceRef()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def isUseKeyMapForURI():
-    '''public boolean isUseKeyMapForURI()
+    '''returns boolean\n\n
+    isUseKeyMapForURI()\n
     '''
 def isKeyMapHasLiteral():
-    '''public boolean isKeyMapHasLiteral()
+    '''returns boolean\n\n
+    isKeyMapHasLiteral()\n
     '''
 def getInClauseAttr():
-    '''public String getInClauseAttr()
+    '''returns String\n\n
+    getInClauseAttr()\n
     '''
 def isKeyMapAsURIID():
-    '''public boolean isKeyMapAsURIID()
+    '''returns boolean\n\n
+    isKeyMapAsURIID()\n
     '''

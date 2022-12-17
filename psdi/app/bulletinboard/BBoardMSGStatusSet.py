@@ -1,3 +1,4 @@
-def BBoardMSGStatusSet():
-    '''public BBoardMSGStatusSet(final MboServerInterface ms)
+def ():
+    '''returns BBoardMSGStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

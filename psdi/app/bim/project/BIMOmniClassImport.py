@@ -8,21 +8,19 @@ FIELD_FILENAME = "String  \"FILENAME\""
 FIELD_SOURCEFILENAME = "String  \"SOURCEFILENAME\""
 OMNICLASS = "String  \"OMNICLASS\""
 UNIFORMAT = "String  \"UNIFORMAT\""
-def BIMOmniClassImport():
-    '''public BIMOmniClassImport(final MboSet ms)
+def ():
+    '''returns BIMOmniClassImport\n\n
+    (final MboSet ms)\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getDirectoryPath():
-    '''public String getDirectoryPath()
+    '''returns String\n\n
+    getDirectoryPath()\n
     '''
 def runImport():
-    '''public void runImport(final String loaderType)
-    '''
-def getLoaderName():
-    '''public static String getLoaderName()
-    '''
-def setLoaderName():
-    '''public static void setLoaderName(final String loaderName)
+    '''returns None\n\n
+    runImport(final String loaderType)\n
     '''

@@ -1,15 +1,20 @@
-def TimeChangedEvent():
-    '''public TimeChangedEvent(final IlvTimeScrollable source, final Date a)
+def ():
+    '''returns TimeChangedEvent\n\n
+    (final IlvTimeScrollable source, final Date a)\n
     '''
 def getTimeScrollable():
-    '''public IlvTimeScrollable getTimeScrollable()
+    '''returns IlvTimeScrollable\n\n
+    getTimeScrollable()\n
     '''
 def getTime():
-    '''public Date getTime()
+    '''returns Date\n\n
+    getTime()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def paramString():
-    '''public String paramString()
+    '''returns String\n\n
+    paramString()\n
     '''

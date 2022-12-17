@@ -1,21 +1,28 @@
-def XSLFTheme():
-    '''public XSLFTheme(final PackagePart part)
+def ():
+    '''returns XSLFTheme\n\n
+    (final PackagePart part)\n
     '''
 def importTheme():
-    '''public void importTheme(final XSLFTheme theme)
+    '''returns None\n\n
+    importTheme(final XSLFTheme theme)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getXmlObject():
-    '''public CTOfficeStyleSheet getXmlObject()
+    '''returns CTOfficeStyleSheet\n\n
+    getXmlObject()\n
     '''
 def getMajorFont():
-    '''public String getMajorFont()
+    '''returns String\n\n
+    getMajorFont()\n
     '''
 def getMinorFont():
-    '''public String getMinorFont()
+    '''returns String\n\n
+    getMinorFont()\n
     '''

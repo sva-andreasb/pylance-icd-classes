@@ -1,17 +1,22 @@
-def AsyncCall():
-    '''public AsyncCall(final Call call)
-    public AsyncCall(final Call call, final IAsyncCallback callback)
+def ():
+    '''returns AsyncCall\n\n
+    (final Call call)\n
+    (final Call call, final IAsyncCallback callback)\n
     '''
 def getCallback():
-    '''public IAsyncCallback getCallback()
+    '''returns IAsyncCallback\n\n
+    getCallback()\n
     '''
 def setCallback():
-    '''public void setCallback(final IAsyncCallback callback)
+    '''returns None\n\n
+    setCallback(final IAsyncCallback callback)\n
     '''
 def invoke():
-    '''public IAsyncResult invoke(final Object[] inputParams)
-    public IAsyncResult invoke(final QName qName, final Object[] inputParams)
+    '''returns IAsyncResult\n\n
+    invoke(final Object[] inputParams)\n
+    invoke(final QName qName, final Object[] inputParams)\n
     '''
 def getCall():
-    '''public Call getCall()
+    '''returns Call\n\n
+    getCall()\n
     '''

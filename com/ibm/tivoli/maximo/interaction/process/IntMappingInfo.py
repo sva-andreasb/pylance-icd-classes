@@ -1,30 +1,40 @@
-def IntMappingInfo():
-    '''public IntMappingInfo(final String intObjectName, final String mapObject, final String hierarchyPath, final String objectName, final String relation, final int isResponse, final int processOrder)
+def ():
+    '''returns IntMappingInfo\n\n
+    (final String intObjectName, final String mapObject, final String hierarchyPath, final String objectName, final String relation, final int isResponse, final int processOrder)\n
     '''
 def getMapObject():
-    '''public String getMapObject()
+    '''returns String\n\n
+    getMapObject()\n
     '''
 def intObjectName():
-    '''public String intObjectName()
+    '''returns String\n\n
+    intObjectName()\n
     '''
 def getProcessOrder():
-    '''public int getProcessOrder()
+    '''returns int\n\n
+    getProcessOrder()\n
     '''
 def getHierarchyPath():
-    '''public String getHierarchyPath()
+    '''returns String\n\n
+    getHierarchyPath()\n
     '''
 def getSourceObject():
-    '''public String getSourceObject()
+    '''returns String\n\n
+    getSourceObject()\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def isResponse():
-    '''public boolean isResponse()
+    '''returns boolean\n\n
+    isResponse()\n
     '''
 def setObjectMappings():
-    '''public void setObjectMappings(final List<IntMappingDetailInfo> map)
+    '''returns None\n\n
+    setObjectMappings(final List<IntMappingDetailInfo> map)\n
     '''
 def getObjectMappings():
-    '''public List<IntMappingDetailInfo> getObjectMappings()
+    '''returns List<IntMappingDetailInfo>\n\n
+    getObjectMappings()\n
     '''

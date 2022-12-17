@@ -1,30 +1,40 @@
 def applymovedflt():
-    '''public int applymovedflt()
+    '''returns int\n\n
+    applymovedflt()\n
     '''
 def applymovesite():
-    '''public int applymovesite()
+    '''returns int\n\n
+    applymovesite()\n
     '''
 def applymoveparent():
-    '''public int applymoveparent()
+    '''returns int\n\n
+    applymoveparent()\n
     '''
 def applymoveloc():
-    '''public int applymoveloc()
+    '''returns int\n\n
+    applymoveloc()\n
     '''
 def applymovebin():
-    '''public int applymovebin()
+    '''returns int\n\n
+    applymovebin()\n
     '''
 def SAVEPLANASSETDATA():
-    '''public int SAVEPLANASSETDATA()
+    '''returns int\n\n
+    SAVEPLANASSETDATA()\n
     '''
 def SAVEPLANASSETDATAONLY():
-    '''public int SAVEPLANASSETDATAONLY()
+    '''returns int\n\n
+    SAVEPLANASSETDATAONLY()\n
     '''
 def MOVEALLASSETS():
-    '''public int MOVEALLASSETS()
+    '''returns int\n\n
+    MOVEALLASSETS()\n
     '''
 def MODIFYALLATTRIBUTES():
-    '''public int MODIFYALLATTRIBUTES()
+    '''returns int\n\n
+    MODIFYALLATTRIBUTES()\n
     '''
 def MOVEANDMODIFYALLASSETS():
-    '''public int MOVEANDMODIFYALLASSETS()
+    '''returns int\n\n
+    MOVEANDMODIFYALLASSETS()\n
     '''

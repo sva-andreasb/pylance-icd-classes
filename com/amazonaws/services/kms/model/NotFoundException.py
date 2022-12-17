@@ -1,3 +1,4 @@
-def NotFoundException():
-    '''public NotFoundException(final String message)
+def ():
+    '''returns NotFoundException\n\n
+    (final String message)\n
     '''

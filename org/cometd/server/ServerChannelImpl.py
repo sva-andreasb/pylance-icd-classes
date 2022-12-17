@@ -1,79 +1,105 @@
 def subscribe():
-    '''public boolean subscribe(final ServerSession session)
+    '''returns boolean\n\n
+    subscribe(final ServerSession session)\n
     '''
 def unsubscribe():
-    '''public boolean unsubscribe(final ServerSession session)
+    '''returns boolean\n\n
+    unsubscribe(final ServerSession session)\n
     '''
 def getSubscribers():
-    '''public Set<ServerSession> getSubscribers()
+    '''returns Set<ServerSession>\n\n
+    getSubscribers()\n
     '''
 def isBroadcast():
-    '''public boolean isBroadcast()
+    '''returns boolean\n\n
+    isBroadcast()\n
     '''
 def isDeepWild():
-    '''public boolean isDeepWild()
+    '''returns boolean\n\n
+    isDeepWild()\n
     '''
 def isLazy():
-    '''public boolean isLazy()
+    '''returns boolean\n\n
+    isLazy()\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def isWild():
-    '''public boolean isWild()
+    '''returns boolean\n\n
+    isWild()\n
     '''
 def setLazy():
-    '''public void setLazy(final boolean lazy)
+    '''returns None\n\n
+    setLazy(final boolean lazy)\n
     '''
 def setPersistent():
-    '''public void setPersistent(final boolean persistent)
+    '''returns None\n\n
+    setPersistent(final boolean persistent)\n
     '''
 def addListener():
-    '''public void addListener(final ServerChannel.ServerChannelListener listener)
+    '''returns None\n\n
+    addListener(final ServerChannel.ServerChannelListener listener)\n
     '''
 def removeListener():
-    '''public void removeListener(final ServerChannel.ServerChannelListener listener)
+    '''returns None\n\n
+    removeListener(final ServerChannel.ServerChannelListener listener)\n
     '''
 def getChannelId():
-    '''public ChannelId getChannelId()
+    '''returns ChannelId\n\n
+    getChannelId()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def isMeta():
-    '''public boolean isMeta()
+    '''returns boolean\n\n
+    isMeta()\n
     '''
 def isService():
-    '''public boolean isService()
+    '''returns boolean\n\n
+    isService()\n
     '''
 def publish():
-    '''public void publish(final Session from, final ServerMessage.Mutable mutable)
-    public void publish(final Session from, final Object data, final String id)
+    '''returns None\n\n
+    publish(final Session from, final ServerMessage.Mutable mutable)\n
+    publish(final Session from, final Object data, final String id)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final Object value)
+    '''returns None\n\n
+    setAttribute(final String name, final Object value)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def getAttributeNames():
-    '''public Set<String> getAttributeNames()
+    '''returns Set<String>\n\n
+    getAttributeNames()\n
     '''
 def removeAttribute():
-    '''public Object removeAttribute(final String name)
+    '''returns Object\n\n
+    removeAttribute(final String name)\n
     '''
 def addAuthorizer():
-    '''public void addAuthorizer(final Authorizer authorizer)
+    '''returns None\n\n
+    addAuthorizer(final Authorizer authorizer)\n
     '''
 def removeAuthorizer():
-    '''public void removeAuthorizer(final Authorizer authorizer)
+    '''returns None\n\n
+    removeAuthorizer(final Authorizer authorizer)\n
     '''
 def getAuthorizers():
-    '''public List<Authorizer> getAuthorizers()
+    '''returns List<Authorizer>\n\n
+    getAuthorizers()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

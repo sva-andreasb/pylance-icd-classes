@@ -1,17 +1,18 @@
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def asChecksum():
-    '''public final Checksum asChecksum()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getValue():
-    '''public long getValue()
+    '''returns long\n\n
+    getValue()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def update():
-    '''public void update(final int b)
-    public void update(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    update(final int b)\n
+    update(final byte[] b, final int off, final int len)\n
     '''

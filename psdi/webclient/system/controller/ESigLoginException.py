@@ -1,12 +1,16 @@
-def ESigLoginException():
-    '''public ESigLoginException(final WebClientEvent e, final String option, final DataBean bean)
+def ():
+    '''returns ESigLoginException\n\n
+    (final WebClientEvent e, final String option, final DataBean bean)\n
     '''
 def getValidatingOption():
-    '''public String getValidatingOption()
+    '''returns String\n\n
+    getValidatingOption()\n
     '''
 def getSourceEvent():
-    '''public WebClientEvent getSourceEvent()
+    '''returns WebClientEvent\n\n
+    getSourceEvent()\n
     '''
 def getSourceBean():
-    '''public DataBean getSourceBean()
+    '''returns DataBean\n\n
+    getSourceBean()\n
     '''

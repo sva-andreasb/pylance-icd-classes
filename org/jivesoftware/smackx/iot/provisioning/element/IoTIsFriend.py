@@ -1,5 +1,6 @@
 ELEMENT = "String  \"isFriend\""
 NAMESPACE = "String  \"urn:xmpp:iot:provisioning\""
-def IoTIsFriend():
-    '''public IoTIsFriend(final Jid jid)
+def ():
+    '''returns IoTIsFriend\n\n
+    (final Jid jid)\n
     '''

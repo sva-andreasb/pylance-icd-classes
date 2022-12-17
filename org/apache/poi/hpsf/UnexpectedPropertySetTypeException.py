@@ -1,6 +1,7 @@
-def UnexpectedPropertySetTypeException():
-    '''public UnexpectedPropertySetTypeException()
-    public UnexpectedPropertySetTypeException(final String msg)
-    public UnexpectedPropertySetTypeException(final Throwable reason)
-    public UnexpectedPropertySetTypeException(final String msg, final Throwable reason)
+def ():
+    '''returns UnexpectedPropertySetTypeException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable reason)\n
+    (final String msg, final Throwable reason)\n
     '''

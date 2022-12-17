@@ -5,696 +5,742 @@ HH_GRAYSCALE = "int  3"
 HH_SHARPEN = "int  4"
 HH_INVERT_COLORS = "int  5"
 HH_CUSTOM = "int  6"
-def IlvManager():
-    '''public IlvManager()
-    public IlvManager(final int n)
-    public IlvManager(final int n, final int n2)
-    public IlvManager(final IlvManager ilvManager)
-    public IlvManager(final IlvInputStream ilvInputStream)
-    '''
-def setDebugBoundingBoxesGlobal():
-    '''public static void setDebugBoundingBoxesGlobal(final boolean b9)
+def ():
+    '''returns IlvManager\n\n
+    ()\n
+    (final int n)\n
+    (final int n, final int n2)\n
+    (final IlvManager ilvManager)\n
+    (final IlvInputStream ilvInputStream)\n
     '''
 def setDebugBoundingBoxes():
-    '''public void setDebugBoundingBoxes(final boolean b)
+    '''returns None\n\n
+    setDebugBoundingBoxes(final boolean b)\n
     '''
 def isDebugBoundingBoxes():
-    '''public boolean isDebugBoundingBoxes()
+    '''returns boolean\n\n
+    isDebugBoundingBoxes()\n
     '''
 def setNameImpl():
-    '''public void setNameImpl(final String nameImpl)
-    '''
-def setUserData():
-    '''public final void setUserData(final Object l)
-    '''
-def getUserData():
-    '''public final Object getUserData()
+    '''returns None\n\n
+    setNameImpl(final String nameImpl)\n
     '''
 def addObject():
-    '''public void addObject(final IlvGraphic key, int n, boolean b)
-    public void addObject(final IlvGraphic ilvGraphic, final boolean b)
+    '''returns None\n\n
+    addObject(final IlvGraphic key, int n, boolean b)\n
+    addObject(final IlvGraphic ilvGraphic, final boolean b)\n
     '''
 def removeObject():
-    '''public void removeObject(final IlvGraphic key, final boolean b)
-    '''
-def getInsertionLayer():
-    '''public final int getInsertionLayer()
-    '''
-def setInsertionLayer():
-    '''public final void setInsertionLayer(final int s)
+    '''returns None\n\n
+    removeObject(final IlvGraphic key, final boolean b)\n
     '''
 def replaceObject():
-    '''public void replaceObject(final IlvGraphic obj, final IlvGraphic ilvGraphic, final boolean b)
+    '''returns None\n\n
+    replaceObject(final IlvGraphic obj, final IlvGraphic ilvGraphic, final boolean b)\n
     '''
 def isManaged():
-    '''public boolean isManaged(final IlvGraphic ilvGraphic)
-    '''
-def getCardinal():
-    '''public final int getCardinal()
-    public final int getCardinal(final boolean b)
-    public final int getCardinal(final int n)
-    '''
-def getObjects():
-    '''public final IlvGraphicEnumeration getObjects()
-    public final IlvGraphicEnumeration getObjects(final boolean b)
-    public final IlvGraphicEnumeration getObjects(final int n)
+    '''returns boolean\n\n
+    isManaged(final IlvGraphic ilvGraphic)\n
     '''
 def getObject():
-    '''public IlvGraphic getObject(final String key)
-    public IlvGraphic getObject(final IlvPoint ilvPoint, final int n, final IlvManagerView ilvManagerView)
-    public IlvGraphic getObject(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView)
-    public IlvGraphic getObject(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final boolean b)
+    '''returns IlvGraphic\n\n
+    getObject(final String key)\n
+    getObject(final IlvPoint ilvPoint, final int n, final IlvManagerView ilvManagerView)\n
+    getObject(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView)\n
+    getObject(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final boolean b)\n
     '''
 def setObjectName():
-    '''public boolean setObjectName(final IlvGraphic value, final String s)
+    '''returns boolean\n\n
+    setObjectName(final IlvGraphic value, final String s)\n
     '''
 def getObjectName():
-    '''public String getObjectName(final IlvGraphic ilvGraphic)
+    '''returns String\n\n
+    getObjectName(final IlvGraphic ilvGraphic)\n
     '''
 def applyToObject():
-    '''public void applyToObject(final IlvGraphic ilvGraphic, final IlvApplyObject ilvApplyObject, final Object o, final boolean b)
+    '''returns None\n\n
+    applyToObject(final IlvGraphic ilvGraphic, final IlvApplyObject ilvApplyObject, final Object o, final boolean b)\n
     '''
 def applyToObjects():
-    '''public void applyToObjects(final IlvGraphicVector ilvGraphicVector, final IlvApplyObject ilvApplyObject, final Object o, final boolean b)
-    public void applyToObjects(final IlvGraphicEnumeration ilvGraphicEnumeration, final IlvApplyObject ilvApplyObject, final Object o, final boolean b)
-    public void applyToObjects(final IlvGraphicVector ilvGraphicVector, final IlvApplyObjects ilvApplyObjects, final Object o, final boolean b)
-    public void applyToObjects(final IlvGraphicEnumeration ilvGraphicEnumeration, final IlvApplyObjects ilvApplyObjects, final Object o, final boolean b)
+    '''returns None\n\n
+    applyToObjects(final IlvGraphicVector ilvGraphicVector, final IlvApplyObject ilvApplyObject, final Object o, final boolean b)\n
+    applyToObjects(final IlvGraphicEnumeration ilvGraphicEnumeration, final IlvApplyObject ilvApplyObject, final Object o, final boolean b)\n
+    applyToObjects(final IlvGraphicVector ilvGraphicVector, final IlvApplyObjects ilvApplyObjects, final Object o, final boolean b)\n
+    applyToObjects(final IlvGraphicEnumeration ilvGraphicEnumeration, final IlvApplyObjects ilvApplyObjects, final Object o, final boolean b)\n
     '''
 def moveObject():
-    '''public void moveObject(final IlvGraphic ilvGraphic, final float n, final float n2, final boolean b)
+    '''returns None\n\n
+    moveObject(final IlvGraphic ilvGraphic, final float n, final float n2, final boolean b)\n
     '''
 def reshapeObject():
-    '''public void reshapeObject(final IlvGraphic ilvGraphic, final IlvRect ilvRect, final boolean b)
+    '''returns None\n\n
+    reshapeObject(final IlvGraphic ilvGraphic, final IlvRect ilvRect, final boolean b)\n
     '''
 def addLayer():
-    '''public void addLayer(final IlvManagerLayer ilvManagerLayer, int n)
-    public void addLayer(final int n)
+    '''returns None\n\n
+    addLayer(final IlvManagerLayer ilvManagerLayer, int n)\n
+    addLayer(final int n)\n
     '''
 def removeLayer():
-    '''public void removeLayer(final int n, final boolean b)
+    '''returns None\n\n
+    removeLayer(final int n, final boolean b)\n
     '''
 def setOptimizedLayerThreshold():
-    '''public void setOptimizedLayerThreshold(final long r)
+    '''returns None\n\n
+    setOptimizedLayerThreshold(final long r)\n
     '''
 def getOptimizedLayerThreshold():
-    '''public long getOptimizedLayerThreshold()
+    '''returns long\n\n
+    getOptimizedLayerThreshold()\n
     '''
 def setNumberOfLayer():
-    '''public void setNumberOfLayer(int n)
+    '''returns None\n\n
+    setNumberOfLayer(int n)\n
     '''
 def getLayersCount():
-    '''public int getLayersCount()
-    '''
-def getLayer():
-    '''public final int getLayer(final IlvGraphic obj)
-    public int getLayer(final String anObject)
+    '''returns int\n\n
+    getLayersCount()\n
     '''
 def swapLayers():
-    '''public void swapLayers(final int n, final int n2, final boolean b)
+    '''returns None\n\n
+    swapLayers(final int n, final int n2, final boolean b)\n
     '''
 def addManagerLayerListener():
-    '''public void addManagerLayerListener(final ManagerLayerListener l)
+    '''returns None\n\n
+    addManagerLayerListener(final ManagerLayerListener l)\n
     '''
 def removeManagerLayerListener():
-    '''public void removeManagerLayerListener(final ManagerLayerListener l)
+    '''returns None\n\n
+    removeManagerLayerListener(final ManagerLayerListener l)\n
     '''
 def setLayerName():
-    '''public void setLayerName(final int n, final String name)
+    '''returns None\n\n
+    setLayerName(final int n, final String name)\n
     '''
 def getLayerName():
-    '''public String getLayerName(final int n)
+    '''returns String\n\n
+    getLayerName(final int n)\n
+    '''
+def getLayer():
+    '''returns int\n\n
+    getLayer(final String anObject)\n
     '''
 def getManagerLayer():
-    '''public IlvManagerLayer getManagerLayer(final String anObject)
-    public final IlvManagerLayer getManagerLayer(final int n)
-    public final IlvManagerLayer getManagerLayer(final IlvGraphic obj)
+    '''returns IlvManagerLayer\n\n
+    getManagerLayer(final String anObject)\n
     '''
 def setLayer():
-    '''public void setLayer(final IlvGraphic obj, final int n, final boolean b)
+    '''returns None\n\n
+    setLayer(final IlvGraphic obj, final int n, final boolean b)\n
     '''
 def setVisible():
-    '''public void setVisible(final int n, final boolean b, final boolean b2)
-    public void setVisible(final IlvManagerView ilvManagerView, final int n, final boolean b, final boolean b2)
-    public void setVisible(final IlvGraphic ilvGraphic, final boolean visible, final boolean b)
+    '''returns None\n\n
+    setVisible(final int n, final boolean b, final boolean b2)\n
+    setVisible(final IlvManagerView ilvManagerView, final int n, final boolean b, final boolean b2)\n
+    setVisible(final IlvGraphic ilvGraphic, final boolean visible, final boolean b)\n
     '''
 def isVisible():
-    '''public boolean isVisible(final int n)
-    public boolean isVisible(final IlvManagerView ilvManagerView, final int n)
-    public boolean isVisible(final IlvGraphic ilvGraphic)
-    public boolean isVisible(final IlvGraphic ilvGraphic, final IlvManagerView ilvManagerView)
+    '''returns boolean\n\n
+    isVisible(final int n)\n
+    isVisible(final IlvManagerView ilvManagerView, final int n)\n
+    isVisible(final IlvGraphic ilvGraphic)\n
+    isVisible(final IlvGraphic ilvGraphic, final IlvManagerView ilvManagerView)\n
     '''
 def setInsertionAdjusting():
-    '''public void setInsertionAdjusting(final boolean b)
+    '''returns None\n\n
+    setInsertionAdjusting(final boolean b)\n
     '''
 def isInsertionAdjusting():
-    '''public boolean isInsertionAdjusting()
+    '''returns boolean\n\n
+    isInsertionAdjusting()\n
     '''
 def addManagerContentChangedListener():
-    '''public void addManagerContentChangedListener(final ManagerContentChangedListener l)
+    '''returns None\n\n
+    addManagerContentChangedListener(final ManagerContentChangedListener l)\n
     '''
 def removeManagerContentChangedListener():
-    '''public void removeManagerContentChangedListener(final ManagerContentChangedListener l)
+    '''returns None\n\n
+    removeManagerContentChangedListener(final ManagerContentChangedListener l)\n
     '''
 def addManagerTreeContentChangedListener():
-    '''public void addManagerTreeContentChangedListener(final ManagerContentChangedListener l)
+    '''returns None\n\n
+    addManagerTreeContentChangedListener(final ManagerContentChangedListener l)\n
     '''
 def removeManagerTreeContentChangedListener():
-    '''public void removeManagerTreeContentChangedListener(final ManagerContentChangedListener l)
+    '''returns None\n\n
+    removeManagerTreeContentChangedListener(final ManagerContentChangedListener l)\n
     '''
 def setContentsAdjusting():
-    '''public void setContentsAdjusting(final boolean b)
-    public void setContentsAdjusting(final boolean contentsAdjusting, final boolean b)
-    '''
-def isContentsAdjusting():
-    '''public final boolean isContentsAdjusting()
-    '''
-def getViews():
-    '''public final Enumeration getViews()
+    '''returns None\n\n
+    setContentsAdjusting(final boolean b)\n
+    setContentsAdjusting(final boolean contentsAdjusting, final boolean b)\n
     '''
 def addManagerViewsListener():
-    '''public void addManagerViewsListener(final ManagerViewsChangedListener l)
+    '''returns None\n\n
+    addManagerViewsListener(final ManagerViewsChangedListener l)\n
     '''
 def removeManagerViewsListener():
-    '''public void removeManagerViewsListener(final ManagerViewsChangedListener l)
+    '''returns None\n\n
+    removeManagerViewsListener(final ManagerViewsChangedListener l)\n
     '''
 def addManagerViewsHierarchyListener():
-    '''public void addManagerViewsHierarchyListener(final ManagerViewsChangedListener l)
+    '''returns None\n\n
+    addManagerViewsHierarchyListener(final ManagerViewsChangedListener l)\n
     '''
 def removeManagerViewsHierarchyListener():
-    '''public void removeManagerViewsHierarchyListener(final ManagerViewsChangedListener l)
+    '''returns None\n\n
+    removeManagerViewsHierarchyListener(final ManagerViewsChangedListener l)\n
     '''
 def enableManagerViewsHierarchyEventForwarding():
-    '''public void enableManagerViewsHierarchyEventForwarding()
+    '''returns None\n\n
+    enableManagerViewsHierarchyEventForwarding()\n
     '''
 def needsManagerViewsHierarchyEvent():
-    '''public boolean needsManagerViewsHierarchyEvent()
+    '''returns boolean\n\n
+    needsManagerViewsHierarchyEvent()\n
     '''
 def fireManagerViewsHierarchyEvent():
-    '''public void fireManagerViewsHierarchyEvent(final ManagerViewsChangedEvent managerViewsChangedEvent)
+    '''returns None\n\n
+    fireManagerViewsHierarchyEvent(final ManagerViewsChangedEvent managerViewsChangedEvent)\n
     '''
 def reDrawObj():
-    '''public void reDrawObj(final IlvGraphic ilvGraphic)
+    '''returns None\n\n
+    reDrawObj(final IlvGraphic ilvGraphic)\n
     '''
 def reDrawRegion():
-    '''public void reDrawRegion(final IlvRegion ilvRegion)
+    '''returns None\n\n
+    reDrawRegion(final IlvRegion ilvRegion)\n
     '''
 def invalidateRegion():
-    '''public void invalidateRegion(final IlvGraphic ilvGraphic)
-    public void invalidateRegion(final IlvRect ilvRect)
-    public void invalidateRegion(final IlvManagerView ilvManagerView, final IlvRect ilvRect)
+    '''returns None\n\n
+    invalidateRegion(final IlvGraphic ilvGraphic)\n
+    invalidateRegion(final IlvRect ilvRect)\n
+    invalidateRegion(final IlvManagerView ilvManagerView, final IlvRect ilvRect)\n
     '''
 def initReDraws():
-    '''public void initReDraws()
+    '''returns None\n\n
+    initReDraws()\n
     '''
 def isInvalidating():
-    '''public boolean isInvalidating()
+    '''returns boolean\n\n
+    isInvalidating()\n
     '''
 def abortReDraws():
-    '''public void abortReDraws()
+    '''returns None\n\n
+    abortReDraws()\n
     '''
 def reDrawViews():
-    '''public void reDrawViews()
+    '''returns None\n\n
+    reDrawViews()\n
     '''
 def blinkingReDraw():
-    '''public void blinkingReDraw()
+    '''returns None\n\n
+    blinkingReDraw()\n
     '''
 def reDraw():
-    '''public void reDraw()
+    '''returns None\n\n
+    reDraw()\n
     '''
 def computeBBox():
-    '''public IlvRect computeBBox(final IlvTransformer ilvTransformer)
-    public IlvRect computeBBox(final IlvTransformer ilvTransformer, final boolean b)
+    '''returns IlvRect\n\n
+    computeBBox(final IlvTransformer ilvTransformer)\n
+    computeBBox(final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvManagerView ilvManagerView)
-    public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvManagerView ilvManagerView)\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def print():
-    '''public void print(final Graphics graphics, final IlvRect ilvRect, final IlvManagerView ilvManagerView, final IlvTransformer ilvTransformer, final boolean b)
+    '''returns None\n\n
+    print(final Graphics graphics, final IlvRect ilvRect, final IlvManagerView ilvManagerView, final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def processEvent():
-    '''public boolean processEvent(final AWTEvent awtEvent, final IlvManagerView ilvManagerView)
-    '''
-def getObjectInteractor():
-    '''public final IlvObjectInteractor getObjectInteractor(final IlvGraphic ilvGraphic)
-    '''
-def setObjectInteractor():
-    '''public final void setObjectInteractor(final IlvGraphic ilvGraphic, final IlvObjectInteractor objectInteractor)
+    '''returns boolean\n\n
+    processEvent(final AWTEvent awtEvent, final IlvManagerView ilvManagerView)\n
     '''
 def setHoverHighlightingImageOperation():
-    '''public void setHoverHighlightingImageOperation(final IlvHoverHighlightingImageOperation bq)
+    '''returns None\n\n
+    setHoverHighlightingImageOperation(final IlvHoverHighlightingImageOperation bq)\n
     '''
 def getHoverHighlightingImageOperation():
-    '''public IlvHoverHighlightingImageOperation getHoverHighlightingImageOperation()
+    '''returns IlvHoverHighlightingImageOperation\n\n
+    getHoverHighlightingImageOperation()\n
     '''
 def setHoverHighlightingMode():
-    '''public void setHoverHighlightingMode(final int n)
+    '''returns None\n\n
+    setHoverHighlightingMode(final int n)\n
     '''
 def getHoverHighlightingMode():
-    '''public int getHoverHighlightingMode()
+    '''returns int\n\n
+    getHoverHighlightingMode()\n
     '''
 def shortCut():
-    '''public boolean shortCut(final AWTEvent awtEvent, final IlvManagerView ilvManagerView)
+    '''returns boolean\n\n
+    shortCut(final AWTEvent awtEvent, final IlvManagerView ilvManagerView)\n
     '''
 def processHoverHighlightingEvent():
-    '''public boolean processHoverHighlightingEvent(final AWTEvent awtEvent, final IlvManagerView ilvManagerView)
-    public boolean processHoverHighlightingEvent(final AWTEvent awtEvent, final IlvManagerView ilvManagerView, final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    processHoverHighlightingEvent(final AWTEvent awtEvent, final IlvManagerView ilvManagerView)\n
+    processHoverHighlightingEvent(final AWTEvent awtEvent, final IlvManagerView ilvManagerView, final IlvGraphic ilvGraphic)\n
     '''
 def dispatchToObjects():
-    '''public boolean dispatchToObjects(final AWTEvent awtEvent, final IlvManagerView ilvManagerView)
+    '''returns boolean\n\n
+    dispatchToObjects(final AWTEvent awtEvent, final IlvManagerView ilvManagerView)\n
     '''
 def addAccelerator():
-    '''public void addAccelerator(final IlvAccelerator e)
+    '''returns None\n\n
+    addAccelerator(final IlvAccelerator e)\n
     '''
 def removeAccelerator():
-    '''public void removeAccelerator(final IlvAccelerator o)
+    '''returns None\n\n
+    removeAccelerator(final IlvAccelerator o)\n
     '''
 def getAccelerators():
-    '''public IlvAccelerator[] getAccelerators()
+    '''returns IlvAccelerator[]\n\n
+    getAccelerators()\n
     '''
 def setAccelerators():
-    '''public void setAccelerators(final IlvAccelerator[] array)
+    '''returns None\n\n
+    setAccelerators(final IlvAccelerator[] array)\n
     '''
 def deleteAll():
-    '''public void deleteAll(final boolean b)
-    public void deleteAll(final int n, final boolean b)
+    '''returns None\n\n
+    deleteAll(final boolean b)\n
+    deleteAll(final int n, final boolean b)\n
     '''
 def allowMoving():
-    '''public boolean allowMoving(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    allowMoving(final IlvGraphic ilvGraphic)\n
     '''
 def isMovable():
-    '''public boolean isMovable(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    isMovable(final IlvGraphic ilvGraphic)\n
     '''
 def setMovable():
-    '''public void setMovable(final IlvGraphic ilvGraphic, final boolean movable)
+    '''returns None\n\n
+    setMovable(final IlvGraphic ilvGraphic, final boolean movable)\n
     '''
 def isEditable():
-    '''public boolean isEditable(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    isEditable(final IlvGraphic ilvGraphic)\n
     '''
 def setEditable():
-    '''public void setEditable(final IlvGraphic ilvGraphic, final boolean editable)
+    '''returns None\n\n
+    setEditable(final IlvGraphic ilvGraphic, final boolean editable)\n
     '''
 def isSelectable():
-    '''public boolean isSelectable(final IlvGraphic ilvGraphic)
-    public boolean isSelectable(final int n)
+    '''returns boolean\n\n
+    isSelectable(final IlvGraphic ilvGraphic)\n
+    isSelectable(final int n)\n
     '''
 def objectIsSelectable():
-    '''public boolean objectIsSelectable(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    objectIsSelectable(final IlvGraphic ilvGraphic)\n
     '''
 def setSelectable():
-    '''public void setSelectable(final IlvGraphic ilvGraphic, final boolean selectable)
-    public void setSelectable(final int n, final boolean b)
+    '''returns None\n\n
+    setSelectable(final IlvGraphic ilvGraphic, final boolean selectable)\n
+    setSelectable(final int n, final boolean b)\n
     '''
 def getAllObjects():
-    '''public IlvGraphicVector getAllObjects(final IlvPoint ilvPoint, final int n, final IlvManagerView ilvManagerView)
-    public IlvGraphicVector getAllObjects(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final boolean b, final boolean b2)
+    '''returns IlvGraphicVector\n\n
+    getAllObjects(final IlvPoint ilvPoint, final int n, final IlvManagerView ilvManagerView)\n
+    getAllObjects(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final boolean b, final boolean b2)\n
     '''
 def getCollapseExpandObject():
-    '''public IlvObjectWithSelection getCollapseExpandObject(final IlvPoint p4, final IlvManagerView ilvManagerView, final IlvTransformer ilvTransformer, final boolean b)
+    '''returns IlvObjectWithSelection\n\n
+    getCollapseExpandObject(final IlvPoint p4, final IlvManagerView ilvManagerView, final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def getSelectableObject():
-    '''public IlvGraphic getSelectableObject(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final IlvTransformer ilvTransformer, final boolean b)
+    '''returns IlvGraphic\n\n
+    getSelectableObject(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def getAllSelectableObjects():
-    '''public IlvGraphicVector getAllSelectableObjects(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final IlvTransformer ilvTransformer, final boolean b, final boolean b2)
+    '''returns IlvGraphicVector\n\n
+    getAllSelectableObjects(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final IlvTransformer ilvTransformer, final boolean b, final boolean b2)\n
     '''
 def getSelection():
-    '''public IlvSelection getSelection(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView)
-    public IlvSelection getSelection(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final boolean b)
-    public final IlvSelection getSelection(final IlvGraphic ilvGraphic)
+    '''returns IlvSelection\n\n
+    getSelection(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView)\n
+    getSelection(final IlvPoint ilvPoint, final IlvManagerView ilvManagerView, final boolean b)\n
     '''
 def isSelected():
-    '''public boolean isSelected(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    isSelected(final IlvGraphic ilvGraphic)\n
     '''
 def setSelected():
-    '''public void setSelected(final IlvGraphic ilvGraphic, final boolean b, final boolean b2)
-    public void setSelected(final IlvGraphic ilvGraphic, final IlvPoint ilvPoint, final IlvManagerView ilvManagerView)
+    '''returns None\n\n
+    setSelected(final IlvGraphic ilvGraphic, final boolean b, final boolean b2)\n
+    setSelected(final IlvGraphic ilvGraphic, final IlvPoint ilvPoint, final IlvManagerView ilvManagerView)\n
     '''
 def addManagerSelectionListener():
-    '''public void addManagerSelectionListener(final ManagerSelectionListener l)
+    '''returns None\n\n
+    addManagerSelectionListener(final ManagerSelectionListener l)\n
     '''
 def removeManagerSelectionListener():
-    '''public void removeManagerSelectionListener(final ManagerSelectionListener l)
+    '''returns None\n\n
+    removeManagerSelectionListener(final ManagerSelectionListener l)\n
     '''
 def addManagerTreeSelectionListener():
-    '''public void addManagerTreeSelectionListener(final ManagerSelectionListener l)
+    '''returns None\n\n
+    addManagerTreeSelectionListener(final ManagerSelectionListener l)\n
     '''
 def removeManagerTreeSelectionListener():
-    '''public void removeManagerTreeSelectionListener(final ManagerSelectionListener l)
+    '''returns None\n\n
+    removeManagerTreeSelectionListener(final ManagerSelectionListener l)\n
     '''
 def setSelectionEventSource():
-    '''public void setSelectionEventSource(final Object ac)
+    '''returns None\n\n
+    setSelectionEventSource(final Object ac)\n
     '''
 def setSelectionAdjusting():
-    '''public void setSelectionAdjusting(final boolean b)
+    '''returns None\n\n
+    setSelectionAdjusting(final boolean b)\n
     '''
 def isSelectionAdjusting():
-    '''public boolean isSelectionAdjusting()
+    '''returns boolean\n\n
+    isSelectionAdjusting()\n
     '''
 def selectAll():
-    '''public void selectAll(final IlvManagerView ilvManagerView, final boolean b)
-    public void selectAll(final boolean b)
-    public void selectAll(final boolean b, final boolean b2)
+    '''returns None\n\n
+    selectAll(final IlvManagerView ilvManagerView, final boolean b)\n
+    selectAll(final boolean b)\n
+    selectAll(final boolean b, final boolean b2)\n
     '''
 def deSelectAll():
-    '''public void deSelectAll(final boolean b)
-    public void deSelectAll(final boolean b, final boolean b2)
-    public void deSelectAll(final int n, final boolean b)
-    '''
-def getSelections():
-    '''public final IlvGraphicEnumeration getSelections()
-    '''
-def getSelectedObjects():
-    '''public final IlvGraphicEnumeration getSelectedObjects()
-    public final IlvGraphicEnumeration getSelectedObjects(final boolean b)
-    public final IlvGraphicEnumeration getSelectedObjects(final boolean b, final boolean b2)
-    '''
-def getSelectedObjectsCount():
-    '''public final int getSelectedObjectsCount()
-    public final int getSelectedObjectsCount(final boolean b)
-    public final int getSelectedObjectsCount(final boolean b, final boolean b2)
+    '''returns None\n\n
+    deSelectAll(final boolean b)\n
+    deSelectAll(final boolean b, final boolean b2)\n
+    deSelectAll(final int n, final boolean b)\n
     '''
 def setSelectionFactory():
-    '''public void setSelectionFactory(final IlvSelectionFactory ay)
+    '''returns None\n\n
+    setSelectionFactory(final IlvSelectionFactory ay)\n
     '''
 def getSelectionFactory():
-    '''public IlvSelectionFactory getSelectionFactory()
+    '''returns IlvSelectionFactory\n\n
+    getSelectionFactory()\n
     '''
 def write():
-    '''public void write(final IlvOutputStream ilvOutputStream)
-    public void write(final OutputStream outputStream, final boolean b)
-    public void write(final OutputStream outputStream)
-    public void write(final String name, final boolean b)
-    public void write(final String s)
+    '''returns None\n\n
+    write(final IlvOutputStream ilvOutputStream)\n
+    write(final OutputStream outputStream, final boolean b)\n
+    write(final OutputStream outputStream)\n
+    write(final String name, final boolean b)\n
+    write(final String s)\n
     '''
 def writeIt():
-    '''public void writeIt(final IlvOutputStream ilvOutputStream)
+    '''returns None\n\n
+    writeIt(final IlvOutputStream ilvOutputStream)\n
     '''
 def writePrefix():
-    '''public void writePrefix(final IlvOutputStream ilvOutputStream, final boolean b)
+    '''returns None\n\n
+    writePrefix(final IlvOutputStream ilvOutputStream, final boolean b)\n
     '''
 def writeSuffix():
-    '''public void writeSuffix(final IlvOutputStream ilvOutputStream, final boolean b)
+    '''returns None\n\n
+    writeSuffix(final IlvOutputStream ilvOutputStream, final boolean b)\n
     '''
 def readPrefix():
-    '''public void readPrefix(final IlvInputStream ilvInputStream, final boolean b)
+    '''returns None\n\n
+    readPrefix(final IlvInputStream ilvInputStream, final boolean b)\n
     '''
 def readSuffix():
-    '''public void readSuffix(final IlvInputStream ilvInputStream, final boolean b)
+    '''returns None\n\n
+    readSuffix(final IlvInputStream ilvInputStream, final boolean b)\n
     '''
 def setFileName():
-    '''public void setFileName(final URL a9)
+    '''returns None\n\n
+    setFileName(final URL a9)\n
     '''
 def getFileName():
-    '''public URL getFileName()
+    '''returns URL\n\n
+    getFileName()\n
     '''
 def read():
-    '''public boolean read(final InputStream inputStream)
-    public boolean read(final String name)
-    public boolean read(final URL az)
+    '''returns boolean\n\n
+    read(final InputStream inputStream)\n
+    read(final String name)\n
+    read(final URL az)\n
     '''
 def setStreamFactory():
-    '''public void setStreamFactory(final IlvManagerStreamFactory a7)
+    '''returns None\n\n
+    setStreamFactory(final IlvManagerStreamFactory a7)\n
     '''
 def getStreamFactory():
-    '''public IlvManagerStreamFactory getStreamFactory()
-    '''
-def beforeTransform():
-    '''public final void beforeTransform(final IlvGraphic ilvGraphic, final boolean b, final boolean b2, final boolean b3)
-    '''
-def afterTransform():
-    '''public final void afterTransform(final IlvGraphic ilvGraphic, final boolean b, final boolean b2, final boolean b3, final boolean b4)
+    '''returns IlvManagerStreamFactory\n\n
+    getStreamFactory()\n
     '''
 def check():
-    '''public void check(final boolean b)
+    '''returns None\n\n
+    check(final boolean b)\n
     '''
 def getSelectedMovingObjects():
-    '''public IlvGraphicEnumeration getSelectedMovingObjects(final boolean[] array)
+    '''returns IlvGraphicEnumeration\n\n
+    getSelectedMovingObjects(final boolean[] array)\n
     '''
 def translateSelections():
-    '''public void translateSelections(final float n, final float n2, final IlvManagerView ilvManagerView)
+    '''returns None\n\n
+    translateSelections(final float n, final float n2, final IlvManagerView ilvManagerView)\n
     '''
 def translateObjects():
-    '''public void translateObjects(final IlvGraphicEnumeration ilvGraphicEnumeration, final float n, final float n2, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    translateObjects(final IlvGraphicEnumeration ilvGraphicEnumeration, final float n, final float n2, final IlvTransformer ilvTransformer)\n
     '''
 def deleteSelections():
-    '''public void deleteSelections(final boolean b)
-    public void deleteSelections(final boolean b, final boolean b2)
+    '''returns None\n\n
+    deleteSelections(final boolean b)\n
+    deleteSelections(final boolean b, final boolean b2)\n
     '''
 def duplicateSelections():
-    '''public void duplicateSelections(final int n, final int n2)
-    public void duplicateSelections(final float n, final float n2, final IlvTransformer ilvTransformer, final boolean b)
+    '''returns None\n\n
+    duplicateSelections(final int n, final int n2)\n
+    duplicateSelections(final float n, final float n2, final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def map():
-    '''public void map(final IlvApplyObject ilvApplyObject, final Object o)
-    public void map(final IlvApplyObject ilvApplyObject, final Object o, final boolean b)
+    '''returns None\n\n
+    map(final IlvApplyObject ilvApplyObject, final Object o)\n
+    map(final IlvApplyObject ilvApplyObject, final Object o, final boolean b)\n
     '''
 def mapIntersects():
-    '''public void mapIntersects(final IlvApplyObject ilvApplyObject, final Object o, final IlvRect ilvRect, final IlvTransformer ilvTransformer)
-    public void mapIntersects(final IlvApplyObject ilvApplyObject, final Object o, final IlvRect ilvRect, final IlvTransformer ilvTransformer, final boolean b)
+    '''returns None\n\n
+    mapIntersects(final IlvApplyObject ilvApplyObject, final Object o, final IlvRect ilvRect, final IlvTransformer ilvTransformer)\n
+    mapIntersects(final IlvApplyObject ilvApplyObject, final Object o, final IlvRect ilvRect, final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def mapInside():
-    '''public void mapInside(final IlvApplyObject ilvApplyObject, final Object o, final IlvRect ilvRect, final IlvTransformer ilvTransformer)
-    public void mapInside(final IlvApplyObject ilvApplyObject, final Object o, final IlvRect ilvRect, final IlvTransformer ilvTransformer, final boolean b)
+    '''returns None\n\n
+    mapInside(final IlvApplyObject ilvApplyObject, final Object o, final IlvRect ilvRect, final IlvTransformer ilvTransformer)\n
+    mapInside(final IlvApplyObject ilvApplyObject, final Object o, final IlvRect ilvRect, final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def pasteSelection():
-    '''public IlvGraphicEnumeration pasteSelection(final IlvPoint ilvPoint, final boolean b)
+    '''returns IlvGraphicEnumeration\n\n
+    pasteSelection(final IlvPoint ilvPoint, final boolean b)\n
     '''
 def copySelection():
-    '''public void copySelection()
+    '''returns None\n\n
+    copySelection()\n
     '''
 def lostOwnership():
-    '''public void lostOwnership(final Clipboard clipboard, final Transferable transferable)
+    '''returns None\n\n
+    lostOwnership(final Clipboard clipboard, final Transferable transferable)\n
     '''
 def removeProperty():
-    '''public boolean removeProperty(final String key)
+    '''returns boolean\n\n
+    removeProperty(final String key)\n
     '''
 def setProperty():
-    '''public void setProperty(final String key, final Object value)
+    '''returns None\n\n
+    setProperty(final String key, final Object value)\n
     '''
 def replaceProperty():
-    '''public boolean replaceProperty(final String key, final Object value)
+    '''returns boolean\n\n
+    replaceProperty(final String key, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''
 def hasProperty():
-    '''public boolean hasProperty(final String key, final Object o)
-    '''
-def getManagers():
-    '''public final IlvGraphicEnumeration getManagers()
-    public final IlvGraphicEnumeration getManagers(final int n)
-    '''
-def getManagersCount():
-    '''public final int getManagersCount()
-    public final int getManagersCount(final int n)
+    '''returns boolean\n\n
+    hasProperty(final String key, final Object o)\n
     '''
 def zoomable():
-    '''public boolean zoomable()
+    '''returns boolean\n\n
+    zoomable()\n
     '''
 def applyTransform():
-    '''public void applyTransform(final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    applyTransform(final IlvTransformer ilvTransformer)\n
     '''
 def moveResize():
-    '''public void moveResize(IlvRect obj)
+    '''returns None\n\n
+    moveResize(IlvRect obj)\n
     '''
 def setGraphicBag():
-    '''public void setGraphicBag(final IlvGraphicBag graphicBag)
-    '''
-def setCollapsed():
-    '''public final void setCollapsed(final boolean bh)
-    '''
-def isCollapsed():
-    '''public final boolean isCollapsed()
-    '''
-def isCollapsible():
-    '''public final boolean isCollapsible()
-    '''
-def setCollapsedGraphic():
-    '''public final void setCollapsedGraphic(final IlvGraphic bi)
-    '''
-def getCollapsedGraphic():
-    '''public final IlvGraphic getCollapsedGraphic()
-    '''
-def isAutoLabelForCollapsedGraphic():
-    '''public final boolean isAutoLabelForCollapsedGraphic()
-    '''
-def setAutoLabelForCollapsedGraphic():
-    '''public final void setAutoLabelForCollapsedGraphic(final boolean bj)
+    '''returns None\n\n
+    setGraphicBag(final IlvGraphicBag graphicBag)\n
     '''
 def addManagerExpansionListener():
-    '''public void addManagerExpansionListener(final ManagerExpansionListener l)
+    '''returns None\n\n
+    addManagerExpansionListener(final ManagerExpansionListener l)\n
     '''
 def removeManagerExpansionListener():
-    '''public void removeManagerExpansionListener(final ManagerExpansionListener l)
+    '''returns None\n\n
+    removeManagerExpansionListener(final ManagerExpansionListener l)\n
     '''
 def addGraphicBagHierarchyListener():
-    '''public void addGraphicBagHierarchyListener(final GraphicBagHierarchyListener l)
+    '''returns None\n\n
+    addGraphicBagHierarchyListener(final GraphicBagHierarchyListener l)\n
     '''
 def removeGraphicBagHierarchyListener():
-    '''public void removeGraphicBagHierarchyListener(final GraphicBagHierarchyListener l)
+    '''returns None\n\n
+    removeGraphicBagHierarchyListener(final GraphicBagHierarchyListener l)\n
     '''
 def enableGraphicBagHierarchyEventForwarding():
-    '''public void enableGraphicBagHierarchyEventForwarding()
+    '''returns None\n\n
+    enableGraphicBagHierarchyEventForwarding()\n
     '''
 def needsGraphicBagHierarchyEvent():
-    '''public boolean needsGraphicBagHierarchyEvent()
+    '''returns boolean\n\n
+    needsGraphicBagHierarchyEvent()\n
     '''
 def fireGraphicBagHierarchyEvent():
-    '''public void fireGraphicBagHierarchyEvent(final GraphicBagHierarchyEvent graphicBagHierarchyEvent)
+    '''returns None\n\n
+    fireGraphicBagHierarchyEvent(final GraphicBagHierarchyEvent graphicBagHierarchyEvent)\n
     '''
 def setSelectionInvariantSubManagerBounds():
-    '''public void setSelectionInvariantSubManagerBounds(final boolean b)
+    '''returns None\n\n
+    setSelectionInvariantSubManagerBounds(final boolean b)\n
     '''
 def isSelectionInvariantSubManagerBounds():
-    '''public boolean isSelectionInvariantSubManagerBounds()
+    '''returns boolean\n\n
+    isSelectionInvariantSubManagerBounds()\n
     '''
 def boundingBox():
-    '''public IlvRect boundingBox(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    boundingBox(final IlvTransformer ilvTransformer)\n
     '''
 def copy():
-    '''public IlvGraphic copy()
+    '''returns IlvGraphic\n\n
+    copy()\n
     '''
 def getFrame():
-    '''public IlvManagerFrame getFrame()
+    '''returns IlvManagerFrame\n\n
+    getFrame()\n
     '''
 def setFrame():
-    '''public void setFrame(final IlvManagerFrame bg)
-    '''
-def getParent():
-    '''public final IlvManager getParent()
+    '''returns None\n\n
+    setFrame(final IlvManagerFrame bg)\n
     '''
 def getTransformer():
-    '''public IlvTransformer getTransformer()
-    public IlvTransformer getTransformer()
-    '''
-def setTransformer():
-    '''public final void setTransformer(final IlvTransformer ilvTransformer)
-    '''
-def isKeepingAspectRatio():
-    '''public final boolean isKeepingAspectRatio()
-    '''
-def setKeepingAspectRatio():
-    '''public final void setKeepingAspectRatio(final boolean b)
+    '''returns IlvTransformer\n\n
+    getTransformer()\n
+    getTransformer()\n
     '''
 def getDrawingTransformer():
-    '''public IlvTransformer getDrawingTransformer(final IlvManagerView ilvManagerView)
+    '''returns IlvTransformer\n\n
+    getDrawingTransformer(final IlvManagerView ilvManagerView)\n
     '''
 def getTopLevelTransformer():
-    '''public IlvTransformer getTopLevelTransformer()
-    '''
-def getTreeLock():
-    '''public final Object getTreeLock()
+    '''returns IlvTransformer\n\n
+    getTopLevelTransformer()\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
-    '''
-def getStoredULocale():
-    '''public final ULocale getStoredULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def setULocale():
-    '''public void setULocale(final ULocale uLocale)
-    public void setULocale(final ULocale bs, final boolean b)
+    '''returns None\n\n
+    setULocale(final ULocale uLocale)\n
+    setULocale(final ULocale bs, final boolean b)\n
     '''
 def isLocaleSensitive():
-    '''public boolean isLocaleSensitive()
+    '''returns boolean\n\n
+    isLocaleSensitive()\n
     '''
 def getComponentOrientation():
-    '''public ComponentOrientation getComponentOrientation()
-    '''
-def getStoredComponentOrientation():
-    '''public final ComponentOrientation getStoredComponentOrientation()
+    '''returns ComponentOrientation\n\n
+    getComponentOrientation()\n
     '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    public void setComponentOrientation(final ComponentOrientation bt, final boolean b)
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
+    setComponentOrientation(final ComponentOrientation bt, final boolean b)\n
     '''
 def isComponentOrientationSensitive():
-    '''public boolean isComponentOrientationSensitive()
+    '''returns boolean\n\n
+    isComponentOrientationSensitive()\n
     '''
 def isBaseTextDirectionSensitive():
-    '''public boolean isBaseTextDirectionSensitive()
+    '''returns boolean\n\n
+    isBaseTextDirectionSensitive()\n
     '''
 def containsFrame():
-    '''public boolean containsFrame(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    containsFrame(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def contains():
-    '''public boolean contains(final IlvPoint ilvPoint, final IlvPoint p3, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    contains(final IlvPoint ilvPoint, final IlvPoint p3, final IlvTransformer ilvTransformer)\n
     '''
 def getIntersectionWithOutline():
-    '''public IlvPoint getIntersectionWithOutline(final IlvPoint ilvPoint, final IlvPoint obj, final IlvTransformer ilvTransformer)
+    '''returns IlvPoint\n\n
+    getIntersectionWithOutline(final IlvPoint ilvPoint, final IlvPoint obj, final IlvTransformer ilvTransformer)\n
     '''
 def setSizeLimitToDrawSubmanagerContents():
-    '''public void setSizeLimitToDrawSubmanagerContents(final float bm)
+    '''returns None\n\n
+    setSizeLimitToDrawSubmanagerContents(final float bm)\n
     '''
 def getSizeLimitToDrawSubmanagerContents():
-    '''public float getSizeLimitToDrawSubmanagerContents()
+    '''returns float\n\n
+    getSizeLimitToDrawSubmanagerContents()\n
     '''
 def componentOrientationChanged():
-    '''public void componentOrientationChanged(final ComponentOrientation componentOrientation, final ComponentOrientation componentOrientation2)
+    '''returns None\n\n
+    componentOrientationChanged(final ComponentOrientation componentOrientation, final ComponentOrientation componentOrientation2)\n
     '''
 def localeChanged():
-    '''public void localeChanged(final ULocale uLocale, final ULocale uLocale2)
+    '''returns None\n\n
+    localeChanged(final ULocale uLocale, final ULocale uLocale2)\n
     '''
 def baseTextDirectionChanged():
-    '''public void baseTextDirectionChanged(final int d, final int baseTextDirection)
+    '''returns None\n\n
+    baseTextDirectionChanged(final int d, final int baseTextDirection)\n
     '''
 def setBaseTextDirection():
-    '''public void setBaseTextDirection(final int n, final boolean b)
+    '''returns None\n\n
+    setBaseTextDirection(final int n, final boolean b)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def repaint():
-    '''public void repaint(final IlvRect ilvRect)
+    '''returns None\n\n
+    repaint(final IlvRect ilvRect)\n
     '''
 def getGraphics():
-    '''public Graphics getGraphics()
+    '''returns Graphics\n\n
+    getGraphics()\n
     '''
 def getGrid():
-    '''public IlvGrid getGrid()
+    '''returns IlvGrid\n\n
+    getGrid()\n
     '''
 def setCursor():
-    '''public void setCursor(final Cursor cursor)
+    '''returns None\n\n
+    setCursor(final Cursor cursor)\n
     '''
 def getCursor():
-    '''public Cursor getCursor()
+    '''returns Cursor\n\n
+    getCursor()\n
     '''
 def isCursorSet():
-    '''public boolean isCursorSet()
+    '''returns boolean\n\n
+    isCursorSet()\n
     '''
 def ensureVisible():
-    '''public void ensureVisible(final IlvPoint ilvPoint)
+    '''returns None\n\n
+    ensureVisible(final IlvPoint ilvPoint)\n
     '''
 def snapToGrid():
-    '''public void snapToGrid(final IlvPoint ilvPoint)
+    '''returns None\n\n
+    snapToGrid(final IlvPoint ilvPoint)\n
     '''
 def getDefaultXORColor():
-    '''public Color getDefaultXORColor()
+    '''returns Color\n\n
+    getDefaultXORColor()\n
     '''
 def getDefaultGhostColor():
-    '''public Color getDefaultGhostColor()
+    '''returns Color\n\n
+    getDefaultGhostColor()\n
     '''
 def hasMoreElements():
-    '''public final boolean hasMoreElements()
-    public final boolean hasMoreElements()
-    public final boolean hasMoreElements()
-    public final boolean hasMoreElements()
-    public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public final IlvGraphic nextElement()
-    public final IlvGraphic nextElement()
-    public final IlvGraphic nextElement()
-    public final IlvGraphic nextElement()
-    public IlvGraphic nextElement()
-    '''
-def init():
-    '''public final void init(final float b, final float c, final IlvTransformer d)
-    '''
-def apply():
-    '''public final void apply(final IlvGraphic ilvGraphic, final Object o)
-    '''
-def translateObj():
-    '''public final void translateObj(final IlvGraphic ilvGraphic, final boolean b)
+    '''returns IlvGraphic\n\n
+    nextElement()\n
     '''

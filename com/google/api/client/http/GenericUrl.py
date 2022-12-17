@@ -1,91 +1,67 @@
-def GenericUrl():
-    '''public GenericUrl()
-    public GenericUrl(final String encodedUrl)
-    public GenericUrl(final URI uri)
-    public GenericUrl(final URL url)
+def ():
+    '''returns GenericUrl\n\n
+    ()\n
+    (final String encodedUrl)\n
+    (final URI uri)\n
+    (final URL url)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public GenericUrl clone()
+    '''returns GenericUrl\n\n
+    clone()\n
     '''
 def set():
-    '''public GenericUrl set(final String fieldName, final Object value)
-    '''
-def getScheme():
-    '''public final String getScheme()
-    '''
-def setScheme():
-    '''public final void setScheme(final String scheme)
+    '''returns GenericUrl\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def getHost():
-    '''public String getHost()
-    '''
-def setHost():
-    '''public final void setHost(final String host)
-    '''
-def getUserInfo():
-    '''public final String getUserInfo()
-    '''
-def setUserInfo():
-    '''public final void setUserInfo(final String userInfo)
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
-    '''
-def setPort():
-    '''public final void setPort(final int port)
+    '''returns int\n\n
+    getPort()\n
     '''
 def getPathParts():
-    '''public List<String> getPathParts()
+    '''returns List<String>\n\n
+    getPathParts()\n
     '''
 def setPathParts():
-    '''public void setPathParts(final List<String> pathParts)
+    '''returns None\n\n
+    setPathParts(final List<String> pathParts)\n
     '''
 def getFragment():
-    '''public String getFragment()
-    '''
-def setFragment():
-    '''public final void setFragment(final String fragment)
-    '''
-def build():
-    '''public final String build()
-    '''
-def buildAuthority():
-    '''public final String buildAuthority()
-    '''
-def buildRelativeUrl():
-    '''public final String buildRelativeUrl()
-    '''
-def toURI():
-    '''public final URI toURI()
-    '''
-def toURL():
-    '''public final URL toURL()
-    public final URL toURL(final String relativeUrl)
+    '''returns String\n\n
+    getFragment()\n
     '''
 def getFirst():
-    '''public Object getFirst(final String name)
+    '''returns Object\n\n
+    getFirst(final String name)\n
     '''
 def getAll():
-    '''public Collection<Object> getAll(final String name)
+    '''returns Collection<Object>\n\n
+    getAll(final String name)\n
     '''
 def getRawPath():
-    '''public String getRawPath()
+    '''returns String\n\n
+    getRawPath()\n
     '''
 def setRawPath():
-    '''public void setRawPath(final String encodedPath)
+    '''returns None\n\n
+    setRawPath(final String encodedPath)\n
     '''
 def appendRawPath():
-    '''public void appendRawPath(final String encodedPath)
-    '''
-def toPathParts():
-    '''public static List<String> toPathParts(final String encodedPath)
+    '''returns None\n\n
+    appendRawPath(final String encodedPath)\n
     '''

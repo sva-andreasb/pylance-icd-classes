@@ -1,7 +1,9 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloEpRelaxHandler():
-    '''public IloEpRelaxHandler(final IloOplConstraintHander hander, final IloOplConstraintDesc desc, final Attributes atts)
+def ():
+    '''returns IloEpRelaxHandler\n\n
+    (final IloOplConstraintHander hander, final IloOplConstraintDesc desc, final Attributes atts)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''

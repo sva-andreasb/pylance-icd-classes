@@ -1,6 +1,8 @@
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''
 def state():
-    '''public void state(final JFormatter f)
+    '''returns None\n\n
+    state(final JFormatter f)\n
     '''

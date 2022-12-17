@@ -1,21 +1,20 @@
-def getMaxExtIfaceIn():
-    '''public static synchronized MaxExtIfaceIn getMaxExtIfaceIn()
-    '''
 def getName():
-    '''public String getName()
-    '''
-def getMaxExtIfaceInMap():
-    '''public Map<String, HashMap<String, MaxExtIfaceInInfo>> getMaxExtIfaceInMap()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMaxExtIfaceInInfo():
-    '''public MaxExtIfaceInInfo getMaxExtIfaceInInfo(final String systemName, final String interfaceName)
+    '''returns MaxExtIfaceInInfo\n\n
+    getMaxExtIfaceInInfo(final String systemName, final String interfaceName)\n
     '''
 def getSystemsForServices():
-    '''public List<String> getSystemsForServices(final String serviceName)
+    '''returns List<String>\n\n
+    getSystemsForServices(final String serviceName)\n
     '''
 def isInterfaceEnabled():
-    '''public boolean isInterfaceEnabled(final String systemName, final String interfaceName)
+    '''returns boolean\n\n
+    isInterfaceEnabled(final String systemName, final String interfaceName)\n
     '''
 def isContinuous():
-    '''public boolean isContinuous(final String systemName, final String interfaceName)
+    '''returns boolean\n\n
+    isContinuous(final String systemName, final String interfaceName)\n
     '''

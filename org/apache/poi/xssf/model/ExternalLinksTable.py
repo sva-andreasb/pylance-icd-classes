@@ -1,61 +1,81 @@
-def ExternalLinksTable():
-    '''public ExternalLinksTable()
-    public ExternalLinksTable(final PackagePart part)
+def ():
+    '''returns ExternalLinksTable\n\n
+    ()\n
+    (final PackagePart part)\n
     '''
 def readFrom():
-    '''public void readFrom(final InputStream is)
+    '''returns None\n\n
+    readFrom(final InputStream is)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def getCTExternalLink():
-    '''public CTExternalLink getCTExternalLink()
+    '''returns CTExternalLink\n\n
+    getCTExternalLink()\n
     '''
 def getLinkedFileName():
-    '''public String getLinkedFileName()
+    '''returns String\n\n
+    getLinkedFileName()\n
     '''
 def setLinkedFileName():
-    '''public void setLinkedFileName(final String target)
+    '''returns None\n\n
+    setLinkedFileName(final String target)\n
     '''
 def getSheetNames():
-    '''public List<String> getSheetNames()
+    '''returns List<String>\n\n
+    getSheetNames()\n
     '''
 def getDefinedNames():
-    '''public List<Name> getDefinedNames()
+    '''returns List<Name>\n\n
+    getDefinedNames()\n
     '''
 def getNameName():
-    '''public String getNameName()
+    '''returns String\n\n
+    getNameName()\n
     '''
 def setNameName():
-    '''public void setNameName(final String name)
+    '''returns None\n\n
+    setNameName(final String name)\n
     '''
 def getSheetName():
-    '''public String getSheetName()
+    '''returns String\n\n
+    getSheetName()\n
     '''
 def getSheetIndex():
-    '''public int getSheetIndex()
+    '''returns int\n\n
+    getSheetIndex()\n
     '''
 def setSheetIndex():
-    '''public void setSheetIndex(final int sheetId)
+    '''returns None\n\n
+    setSheetIndex(final int sheetId)\n
     '''
 def getRefersToFormula():
-    '''public String getRefersToFormula()
+    '''returns String\n\n
+    getRefersToFormula()\n
     '''
 def setRefersToFormula():
-    '''public void setRefersToFormula(final String formulaText)
+    '''returns None\n\n
+    setRefersToFormula(final String formulaText)\n
     '''
 def isFunctionName():
-    '''public boolean isFunctionName()
+    '''returns boolean\n\n
+    isFunctionName()\n
     '''
 def isDeleted():
-    '''public boolean isDeleted()
+    '''returns boolean\n\n
+    isDeleted()\n
     '''
 def getComment():
-    '''public String getComment()
+    '''returns String\n\n
+    getComment()\n
     '''
 def setComment():
-    '''public void setComment(final String comment)
+    '''returns None\n\n
+    setComment(final String comment)\n
     '''
 def setFunction():
-    '''public void setFunction(final boolean value)
+    '''returns None\n\n
+    setFunction(final boolean value)\n
     '''

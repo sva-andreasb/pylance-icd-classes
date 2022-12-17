@@ -1,36 +1,44 @@
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-    '''
 def appgrant_read():
-    '''public int appgrant_read()
+    '''returns int\n\n
+    appgrant_read()\n
     '''
 def appgrant_insert():
-    '''public int appgrant_insert()
+    '''returns int\n\n
+    appgrant_insert()\n
     '''
 def appgrant_save():
-    '''public int appgrant_save()
+    '''returns int\n\n
+    appgrant_save()\n
     '''
 def appgrant_delete():
-    '''public int appgrant_delete()
+    '''returns int\n\n
+    appgrant_delete()\n
     '''
 def apprevoke_read():
-    '''public int apprevoke_read()
+    '''returns int\n\n
+    apprevoke_read()\n
     '''
 def apprevoke_insert():
-    '''public int apprevoke_insert()
+    '''returns int\n\n
+    apprevoke_insert()\n
     '''
 def apprevoke_save():
-    '''public int apprevoke_save()
+    '''returns int\n\n
+    apprevoke_save()\n
     '''
 def apprevoke_delete():
-    '''public int apprevoke_delete()
+    '''returns int\n\n
+    apprevoke_delete()\n
     '''
 def appgrant_all():
-    '''public int appgrant_all()
+    '''returns int\n\n
+    appgrant_all()\n
     '''
 def apprevoke_all():
-    '''public int apprevoke_all()
+    '''returns int\n\n
+    apprevoke_all()\n
     '''
 def allsigoauthorized():
-    '''public int allsigoauthorized()
+    '''returns int\n\n
+    allsigoauthorized()\n
     '''

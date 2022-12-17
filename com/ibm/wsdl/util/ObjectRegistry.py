@@ -1,13 +1,17 @@
-def ObjectRegistry():
-    '''public ObjectRegistry()
-    public ObjectRegistry(final ObjectRegistry parent)
+def ():
+    '''returns ObjectRegistry\n\n
+    ()\n
+    (final ObjectRegistry parent)\n
     '''
 def register():
-    '''public void register(final String key, final Object value)
+    '''returns None\n\n
+    register(final String key, final Object value)\n
     '''
 def unregister():
-    '''public void unregister(final String key)
+    '''returns None\n\n
+    unregister(final String key)\n
     '''
 def lookup():
-    '''public Object lookup(final String s)
+    '''returns Object\n\n
+    lookup(final String s)\n
     '''

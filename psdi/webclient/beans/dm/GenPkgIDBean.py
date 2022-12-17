@@ -1,12 +1,16 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def UPDATEPROP():
-    '''public int UPDATEPROP()
+    '''returns int\n\n
+    UPDATEPROP()\n
     '''
 def GENERATEUUID():
-    '''public int GENERATEUUID()
+    '''returns int\n\n
+    GENERATEUUID()\n
     '''

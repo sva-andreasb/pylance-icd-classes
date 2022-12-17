@@ -1,27 +1,36 @@
-def IlvLogarithmicStepsDefinition():
-    '''public IlvLogarithmicStepsDefinition()
+def ():
+    '''returns IlvLogarithmicStepsDefinition\n\n
+    ()\n
     '''
 def hasSubStep():
-    '''public boolean hasSubStep()
+    '''returns boolean\n\n
+    hasSubStep()\n
     '''
 def previousStep():
-    '''public double previousStep(final double a)
+    '''returns double\n\n
+    previousStep(final double a)\n
     '''
 def incrementStep():
-    '''public double incrementStep(final double n)
+    '''returns double\n\n
+    incrementStep(final double n)\n
     '''
 def previousSubStep():
-    '''public double previousSubStep(final double n)
+    '''returns double\n\n
+    previousSubStep(final double n)\n
     '''
 def incrementSubStep():
-    '''public double incrementSubStep(final double n)
+    '''returns double\n\n
+    incrementSubStep(final double n)\n
     '''
 def getNumberFormat():
-    '''public NumberFormat getNumberFormat()
+    '''returns NumberFormat\n\n
+    getNumberFormat()\n
     '''
 def setNumberFormat():
-    '''public void setNumberFormat(final NumberFormat a)
+    '''returns None\n\n
+    setNumberFormat(final NumberFormat a)\n
     '''
 def computeLabel():
-    '''public String computeLabel(final double number)
+    '''returns String\n\n
+    computeLabel(final double number)\n
     '''

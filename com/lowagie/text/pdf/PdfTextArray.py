@@ -1,9 +1,11 @@
-def PdfTextArray():
-    '''public PdfTextArray(final String str)
-    public PdfTextArray()
+def ():
+    '''returns PdfTextArray\n\n
+    (final String str)\n
+    ()\n
     '''
 def add():
-    '''public void add(final PdfNumber number)
-    public void add(final float number)
-    public void add(final String str)
+    '''returns None\n\n
+    add(final PdfNumber number)\n
+    add(final float number)\n
+    add(final String str)\n
     '''

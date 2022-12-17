@@ -1,25 +1,13 @@
-def AsynchDetailUnstructuredData():
-    '''public AsynchDetailUnstructuredData()
-    public AsynchDetailUnstructuredData(final XmlEncodedXML data)
+def ():
+    '''returns AsynchDetailUnstructuredData\n\n
+    ()\n
+    (final XmlEncodedXML data)\n
     '''
 def getData():
-    '''public XmlEncodedXML getData()
+    '''returns XmlEncodedXML\n\n
+    getData()\n
     '''
 def setData():
-    '''public void setData(final XmlEncodedXML data)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setData(final XmlEncodedXML data)\n
     '''

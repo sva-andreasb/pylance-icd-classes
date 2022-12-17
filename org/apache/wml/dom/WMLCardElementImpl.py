@@ -1,57 +1,76 @@
-def WMLCardElementImpl():
-    '''public WMLCardElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+def ():
+    '''returns WMLCardElementImpl\n\n
+    (final WMLDocumentImpl wmlDocumentImpl, final String s)\n
     '''
 def setOnTimer():
-    '''public void setOnTimer(final String s)
+    '''returns None\n\n
+    setOnTimer(final String s)\n
     '''
 def getOnTimer():
-    '''public String getOnTimer()
+    '''returns String\n\n
+    getOnTimer()\n
     '''
 def setOrdered():
-    '''public void setOrdered(final boolean b)
+    '''returns None\n\n
+    setOrdered(final boolean b)\n
     '''
 def getOrdered():
-    '''public boolean getOrdered()
+    '''returns boolean\n\n
+    getOrdered()\n
     '''
 def setOnEnterBackward():
-    '''public void setOnEnterBackward(final String s)
+    '''returns None\n\n
+    setOnEnterBackward(final String s)\n
     '''
 def getOnEnterBackward():
-    '''public String getOnEnterBackward()
+    '''returns String\n\n
+    getOnEnterBackward()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setXmlLang():
-    '''public void setXmlLang(final String s)
+    '''returns None\n\n
+    setXmlLang(final String s)\n
     '''
 def getXmlLang():
-    '''public String getXmlLang()
+    '''returns String\n\n
+    getXmlLang()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setNewContext():
-    '''public void setNewContext(final boolean b)
+    '''returns None\n\n
+    setNewContext(final boolean b)\n
     '''
 def getNewContext():
-    '''public boolean getNewContext()
+    '''returns boolean\n\n
+    getNewContext()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setOnEnterForward():
-    '''public void setOnEnterForward(final String s)
+    '''returns None\n\n
+    setOnEnterForward(final String s)\n
     '''
 def getOnEnterForward():
-    '''public String getOnEnterForward()
+    '''returns String\n\n
+    getOnEnterForward()\n
     '''

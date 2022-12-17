@@ -1,6 +1,8 @@
-def SimpleListDeserializerFactory():
-    '''public SimpleListDeserializerFactory(final Class javaType, final QName xmlType)
+def ():
+    '''returns SimpleListDeserializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def getDeserializerAs():
-    '''public Deserializer getDeserializerAs(final String mechanismType)
+    '''returns Deserializer\n\n
+    getDeserializerAs(final String mechanismType)\n
     '''

@@ -1,6 +1,8 @@
-def RtfCodePage():
-    '''public RtfCodePage(final RtfDocument doc)
+def ():
+    '''returns RtfCodePage\n\n
+    (final RtfDocument doc)\n
     '''
 def writeDefinition():
-    '''public byte[] writeDefinition()
+    '''returns byte[]\n\n
+    writeDefinition()\n
     '''

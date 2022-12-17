@@ -1,33 +1,44 @@
 def entered():
-    '''public void entered(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    entered(final PlaceEvent placeEvent)\n
     '''
 def enterFailed():
-    '''public void enterFailed(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    enterFailed(final PlaceEvent placeEvent)\n
     '''
 def left():
-    '''public void left(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    left(final PlaceEvent placeEvent)\n
     '''
 def activityAdded():
-    '''public void activityAdded(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    activityAdded(final PlaceEvent placeEvent)\n
     '''
 def activityRemoved():
-    '''public void activityRemoved(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    activityRemoved(final PlaceEvent placeEvent)\n
     '''
 def addActivityFailed():
-    '''public void addActivityFailed(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    addActivityFailed(final PlaceEvent placeEvent)\n
     '''
 def sectionAdded():
-    '''public void sectionAdded(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    sectionAdded(final PlaceEvent placeEvent)\n
     '''
 def sectionRemoved():
-    '''public void sectionRemoved(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    sectionRemoved(final PlaceEvent placeEvent)\n
     '''
 def invite15UserFailed():
-    '''public void invite15UserFailed(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    invite15UserFailed(final PlaceEvent placeEvent)\n
     '''
 def addAllowedUsersFailed():
-    '''public void addAllowedUsersFailed(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    addAllowedUsersFailed(final PlaceEvent placeEvent)\n
     '''
 def removeAllowedUsersFailed():
-    '''public void removeAllowedUsersFailed(final PlaceEvent placeEvent)
+    '''returns None\n\n
+    removeAllowedUsersFailed(final PlaceEvent placeEvent)\n
     '''

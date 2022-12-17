@@ -1,3 +1,4 @@
-def InspectionFormSet():
-    '''public InspectionFormSet(final MboServerInterface ms)
+def ():
+    '''returns InspectionFormSet\n\n
+    (final MboServerInterface ms)\n
     '''

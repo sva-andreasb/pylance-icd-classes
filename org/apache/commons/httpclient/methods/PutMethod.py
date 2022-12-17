@@ -1,7 +1,9 @@
-def PutMethod():
-    '''public PutMethod()
-    public PutMethod(final String uri)
+def ():
+    '''returns PutMethod\n\n
+    ()\n
+    (final String uri)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

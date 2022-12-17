@@ -1,3 +1,4 @@
-def ContentLoaderException():
-    '''public ContentLoaderException(final String message, final Throwable cause)
+def ():
+    '''returns ContentLoaderException\n\n
+    (final String message, final Throwable cause)\n
     '''

@@ -1,3 +1,4 @@
 def stopCurrentBundleAndDefer():
-    '''public void stopCurrentBundleAndDefer()
+    '''returns None\n\n
+    stopCurrentBundleAndDefer()\n
     '''

@@ -1,6 +1,8 @@
-def InvUseLineSplitSet():
-    '''public InvUseLineSplitSet(final MboServerInterface ms)
+def ():
+    '''returns InvUseLineSplitSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getTotalQuantity():
-    '''public double getTotalQuantity()
+    '''returns double\n\n
+    getTotalQuantity()\n
     '''

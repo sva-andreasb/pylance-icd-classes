@@ -1,9 +1,8 @@
 def reset():
-    '''public void reset()
-    '''
-def resetSuiteVector():
-    '''public static void resetSuiteVector(final Vector suiteVector)
+    '''returns None\n\n
+    reset()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''

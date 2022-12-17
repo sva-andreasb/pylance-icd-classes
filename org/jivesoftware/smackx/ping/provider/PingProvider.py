@@ -1,3 +1,4 @@
 def parse():
-    '''public Ping parse(final XmlPullParser parser, final int initialDepth)
+    '''returns Ping\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

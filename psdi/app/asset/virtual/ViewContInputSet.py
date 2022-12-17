@@ -1,24 +1,32 @@
-def ViewContInputSet():
-    '''public ViewContInputSet(final MboServerInterface ms)
+def ():
+    '''returns ViewContInputSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setAttributeName():
-    '''public void setAttributeName(final String attributename)
+    '''returns None\n\n
+    setAttributeName(final String attributename)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def getAllParentAssetsForWarranty():
-    '''public void getAllParentAssetsForWarranty()
+    '''returns None\n\n
+    getAllParentAssetsForWarranty()\n
     '''
 def setValuesFromContract():
-    '''public void setValuesFromContract(final MboSetRemote contractSetRemote)
+    '''returns None\n\n
+    setValuesFromContract(final MboSetRemote contractSetRemote)\n
     '''
 def setAssetValueIfZombie():
-    '''public void setAssetValueIfZombie(final String zombieAssetValue)
+    '''returns None\n\n
+    setAssetValueIfZombie(final String zombieAssetValue)\n
     '''
 def getAssetValueIfZombie():
-    '''public String getAssetValueIfZombie()
+    '''returns String\n\n
+    getAssetValueIfZombie()\n
     '''

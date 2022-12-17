@@ -6,36 +6,37 @@ N_DURATIONS = "int  240"
 SCOPE = "int  16"
 SESSION = "int  32"
 FOREVER = "int  64"
-def findPrivilege():
-    '''public static Privilege findPrivilege(final int n, final int n2)
-    '''
-def add():
-    '''public static int add(final int n, final int n2)
-    public static Privilege add(final Privilege privilege, final Privilege privilege2)
-    '''
 def samePermission():
-    '''public boolean samePermission(final Privilege privilege)
-    public boolean samePermission(final int n)
+    '''returns boolean\n\n
+    samePermission(final Privilege privilege)\n
+    samePermission(final int n)\n
     '''
 def sameDuration():
-    '''public boolean sameDuration(final Privilege privilege)
-    public boolean sameDuration(final int n)
+    '''returns boolean\n\n
+    sameDuration(final Privilege privilege)\n
+    sameDuration(final int n)\n
     '''
 def isAllowed():
-    '''public boolean isAllowed()
+    '''returns boolean\n\n
+    isAllowed()\n
     '''
 def isForbidden():
-    '''public boolean isForbidden()
+    '''returns boolean\n\n
+    isForbidden()\n
     '''
 def isBlank():
-    '''public boolean isBlank()
+    '''returns boolean\n\n
+    isBlank()\n
     '''
 def getPermission():
-    '''public int getPermission()
+    '''returns int\n\n
+    getPermission()\n
     '''
 def getDuration():
-    '''public int getDuration()
+    '''returns int\n\n
+    getDuration()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

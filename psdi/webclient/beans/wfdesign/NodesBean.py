@@ -1,42 +1,52 @@
-def NodesBean():
-    '''public NodesBean()
+def ():
+    '''returns NodesBean\n\n
+    ()\n
     '''
 def properties():
-    '''public int properties()
+    '''returns int\n\n
+    properties()\n
     '''
 def getNodeTypes():
-    '''public Hashtable getNodeTypes()
+    '''returns Hashtable\n\n
+    getNodeTypes()\n
     '''
 def getNodeTypeMaxValue():
-    '''public String getNodeTypeMaxValue()
+    '''returns String\n\n
+    getNodeTypeMaxValue()\n
     '''
 def addCondition():
-    '''public int addCondition()
+    '''returns int\n\n
+    addCondition()\n
     '''
 def addManualInput():
-    '''public int addManualInput()
+    '''returns int\n\n
+    addManualInput()\n
     '''
 def addInteraction():
-    '''public int addInteraction()
+    '''returns int\n\n
+    addInteraction()\n
     '''
 def addSubprocess():
-    '''public int addSubprocess()
+    '''returns int\n\n
+    addSubprocess()\n
     '''
 def addTask():
-    '''public int addTask()
+    '''returns int\n\n
+    addTask()\n
     '''
 def addWait():
-    '''public int addWait()
+    '''returns int\n\n
+    addWait()\n
     '''
 def addStop():
-    '''public int addStop()
-    '''
-def delete():
-    '''public synchronized void delete(final int row)
+    '''returns int\n\n
+    addStop()\n
     '''
 def getXCoord():
-    '''public String getXCoord()
+    '''returns String\n\n
+    getXCoord()\n
     '''
 def getYCoord():
-    '''public String getYCoord()
+    '''returns String\n\n
+    getYCoord()\n
     '''

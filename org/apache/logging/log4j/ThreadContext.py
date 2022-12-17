@@ -1,119 +1,80 @@
-def put():
-    '''public static void put(final String key, final String value)
-    '''
-def putIfNull():
-    '''public static void putIfNull(final String key, final String value)
-    '''
-def putAll():
-    '''public static void putAll(final Map<String, String> m)
-    '''
-def get():
-    '''public static String get(final String key)
-    '''
-def remove():
-    '''public static void remove(final String key)
-    public void remove()
-    '''
-def removeAll():
-    '''public static void removeAll(final Iterable<String> keys)
-    public boolean removeAll(final Collection<?> c)
-    '''
-def clearMap():
-    '''public static void clearMap()
-    '''
-def clearAll():
-    '''public static void clearAll()
-    '''
-def containsKey():
-    '''public static boolean containsKey(final String key)
-    '''
-def getContext():
-    '''public static Map<String, String> getContext()
-    '''
-def getImmutableContext():
-    '''public static Map<String, String> getImmutableContext()
-    '''
-def getThreadContextMap():
-    '''public static ReadOnlyThreadContextMap getThreadContextMap()
-    '''
-def isEmpty():
-    '''public static boolean isEmpty()
-    '''
-def clearStack():
-    '''public static void clearStack()
-    '''
-def cloneStack():
-    '''public static ContextStack cloneStack()
-    '''
-def getImmutableStack():
-    '''public static ContextStack getImmutableStack()
-    '''
-def setStack():
-    '''public static void setStack(final Collection<String> stack)
-    '''
-def getDepth():
-    '''public static int getDepth()
-    public int getDepth()
-    '''
 def pop():
-    '''public static String pop()
-    public String pop()
+    '''returns String\n\n
+    pop()\n
     '''
 def peek():
-    '''public static String peek()
-    public String peek()
+    '''returns String\n\n
+    peek()\n
     '''
 def push():
-    '''public static void push(final String message)
-    public static void push(final String message, final Object... args)
-    public void push(final String message)
+    '''returns None\n\n
+    push(final String message)\n
     '''
-def removeStack():
-    '''public static void removeStack()
-    '''
-def trim():
-    '''public static void trim(final int depth)
-    public void trim(final int depth)
+def getDepth():
+    '''returns int\n\n
+    getDepth()\n
     '''
 def asList():
-    '''public List<String> asList()
+    '''returns List<String>\n\n
+    asList()\n
+    '''
+def trim():
+    '''returns None\n\n
+    trim(final int depth)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def copy():
-    '''public ContextStack copy()
-    '''
-def toArray():
-    '''public <T> T[] toArray(final T[] a)
+    '''returns ContextStack\n\n
+    copy()\n
     '''
 def add():
-    '''public boolean add(final String e)
+    '''returns boolean\n\n
+    add(final String e)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> c)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> c)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends String> c)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends String> c)\n
+    '''
+def removeAll():
+    '''returns boolean\n\n
+    removeAll(final Collection<?> c)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> c)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> c)\n
     '''
 def iterator():
-    '''public Iterator<String> iterator()
+    '''returns Iterator<String>\n\n
+    iterator()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getImmutableStackOrNull():
-    '''public ContextStack getImmutableStackOrNull()
+    '''returns ContextStack\n\n
+    getImmutableStackOrNull()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
+    '''
+def remove():
+    '''returns None\n\n
+    remove()\n
     '''

@@ -1,55 +1,69 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def ConstraintInfo():
-    '''public ConstraintInfo(final IloConstraint constraint, final int explainPrio)
+def ():
+    '''returns Base\n\n
+    (final IloConstraint constraint, final int explainPrio)\n
+    (final String name, final IloReqPropertiesDef props)\n
     '''
 def getConstraint():
-    '''public IloConstraint getConstraint()
+    '''returns IloConstraint\n\n
+    getConstraint()\n
     '''
 def getExplainPrio():
-    '''public int getExplainPrio()
-    '''
-def Base():
-    '''public Base(final String name, final IloReqPropertiesDef props)
+    '''returns int\n\n
+    getExplainPrio()\n
     '''
 def needEngineUpdate():
-    '''public boolean needEngineUpdate(final int propIndex)
+    '''returns boolean\n\n
+    needEngineUpdate(final int propIndex)\n
     '''
 def getExplanationPriority():
-    '''public int getExplanationPriority(final int defaultVal)
+    '''returns int\n\n
+    getExplanationPriority(final int defaultVal)\n
     '''
 def getRelaxationEps():
-    '''public double getRelaxationEps(final double defaultVal)
+    '''returns double\n\n
+    getRelaxationEps(final double defaultVal)\n
     '''
 def getRelaxationMsg():
-    '''public IloMessage getRelaxationMsg()
+    '''returns IloMessage\n\n
+    getRelaxationMsg()\n
     '''
 def getRelaxationPref():
-    '''public double getRelaxationPref(final double defaultVal)
+    '''returns double\n\n
+    getRelaxationPref(final double defaultVal)\n
     '''
 def setExplanationPriority():
-    '''public void setExplanationPriority(final int v)
+    '''returns None\n\n
+    setExplanationPriority(final int v)\n
     '''
 def setRelaxationMsg():
-    '''public void setRelaxationMsg(final IloMessage msg)
-    public void setRelaxationMsg(final String msg)
+    '''returns None\n\n
+    setRelaxationMsg(final IloMessage msg)\n
+    setRelaxationMsg(final String msg)\n
     '''
 def getFormattedRelaxationMsg():
-    '''public String getFormattedRelaxationMsg(final IloCplexController ctl)
+    '''returns String\n\n
+    getFormattedRelaxationMsg(final IloCplexController ctl)\n
     '''
 def setRelaxationEps():
-    '''public void setRelaxationEps(final Double v)
-    public void setRelaxationEps(final double v)
+    '''returns None\n\n
+    setRelaxationEps(final Double v)\n
+    setRelaxationEps(final double v)\n
     '''
 def setRelaxationPref():
-    '''public void setRelaxationPref(final double v)
-    public void setRelaxationPref(final Double v)
+    '''returns None\n\n
+    setRelaxationPref(final double v)\n
+    setRelaxationPref(final Double v)\n
     '''
 def onChangeProperty():
-    '''public void onChangeProperty(final int propIndex, final Object oldValue, final IloEngineController ctler)
+    '''returns None\n\n
+    onChangeProperty(final int propIndex, final Object oldValue, final IloEngineController ctler)\n
     '''
 def onChangePriority():
-    '''public void onChangePriority(final IloEngineController ctler)
+    '''returns None\n\n
+    onChangePriority(final IloEngineController ctler)\n
     '''
 def getExplanation():
-    '''public IloMessage getExplanation()
+    '''returns IloMessage\n\n
+    getExplanation()\n
     '''

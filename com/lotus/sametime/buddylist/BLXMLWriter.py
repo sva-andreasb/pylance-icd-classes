@@ -1,21 +1,28 @@
-def BLXMLWriter():
-    '''public BLXMLWriter(final StringBuffer buffer)
+def ():
+    '''returns BLXMLWriter\n\n
+    (final StringBuffer buffer)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def addCommunities():
-    '''public void addCommunities(final Vector vector)
+    '''returns None\n\n
+    addCommunities(final Vector vector)\n
     '''
 def startGroup():
-    '''public void startGroup(final String str, final String str2, final String str3, final String str4)
+    '''returns None\n\n
+    startGroup(final String str, final String str2, final String str3, final String str4)\n
     '''
 def endGroup():
-    '''public void endGroup()
+    '''returns None\n\n
+    endGroup()\n
     '''
 def addUser():
-    '''public void addUser(final String str, final String str2, final String str3, final String str4)
+    '''returns None\n\n
+    addUser(final String str, final String str2, final String str3, final String str4)\n
     '''

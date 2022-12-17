@@ -1,27 +1,35 @@
 RECORD_ID = "short  -4083"
 RECORD_DESCRIPTION = "String  \"msofbtClientTextbox\""
-def EscherTextboxRecord():
-    '''public EscherTextboxRecord()
+def ():
+    '''returns EscherTextboxRecord\n\n
+    ()\n
     '''
 def fillFields():
-    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''returns int\n\n
+    fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data, final EscherSerializationListener listener)\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def setData():
-    '''public void setData(final byte[] b, final int start, final int length)
-    public void setData(final byte[] b)
+    '''returns None\n\n
+    setData(final byte[] b, final int start, final int length)\n
+    setData(final byte[] b)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def clone():
-    '''public EscherTextboxRecord clone()
+    '''returns EscherTextboxRecord\n\n
+    clone()\n
     '''
 def getRecordName():
-    '''public String getRecordName()
+    '''returns String\n\n
+    getRecordName()\n
     '''

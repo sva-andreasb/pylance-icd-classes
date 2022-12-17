@@ -1,0 +1,7 @@
+CONNECTION = "int  1"
+STATEMENT = "int  2"
+PREPARED_STATEMENT = "int  3"
+CALLABLE_STATEMENT = "int  4"
+RESULT_SET = "int  5"
+IGNORE = "int  -1"
+CONSTRUCTOR = "String  \"<init>\""

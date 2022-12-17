@@ -10,34 +10,32 @@ CLUSTER_DEACTIVE = "String  \"cluster.deactive\""
 TYPE_CLUSTER_SCOPED_DATA_ADDED = "String  \"type.cluster.scoped.data.added\""
 TYPE_CLUSTER_SCOPED_DATA_REMOVED = "String  \"type.cluster.scoped.data.removed\""
 TYPE_MEMBER_SCOPED_DATA_ADDED = "String  \"type.member.scoped.data.added\""
-def getInstance():
-    '''public static DescriptionFactory getInstance()
-    '''
 def createDescription():
-    '''public Description createDescription(final DescriptionKey key, final String implKey)
+    '''returns Description\n\n
+    createDescription(final DescriptionKey key, final String implKey)\n
     '''
 def createLocalDescription():
-    '''public Description createLocalDescription(final DescriptionKey key, final String implementationKey)
-    '''
-def registerNotificationListener():
-    '''public synchronized void registerNotificationListener(final DescriptionModificationListener listener, final String key, final String type)
-    '''
-def deregisterNotificationListener():
-    '''public synchronized void deregisterNotificationListener(final DescriptionModificationListener listener, final String key, final String type)
+    '''returns Description\n\n
+    createLocalDescription(final DescriptionKey key, final String implementationKey)\n
     '''
 def notifyListeners():
-    '''public void notifyListeners(final DescriptionKey key, final String type, final Object data)
+    '''returns None\n\n
+    notifyListeners(final DescriptionKey key, final String type, final Object data)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

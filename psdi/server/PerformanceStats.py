@@ -1,78 +1,75 @@
-def put():
-    '''public static void put(final String trans, final PerformanceStats ps)
-    '''
-def getList():
-    '''public static Iterator getList()
-    '''
-def get():
-    '''public static PerformanceStats get(final Object trans)
-    '''
-def reset():
-    '''public static void reset()
-    '''
-def enable():
-    '''public static void enable()
-    '''
-def disable():
-    '''public static void disable()
-    '''
-def isEnabled():
-    '''public static boolean isEnabled()
-    '''
-def PerformanceStats():
-    '''public PerformanceStats()
+def ():
+    '''returns PerformanceStats\n\n
+    ()\n
     '''
 def incrementSQLTime():
-    '''public void incrementSQLTime(long t)
+    '''returns None\n\n
+    incrementSQLTime(long t)\n
     '''
 def incrementSQLCount():
-    '''public void incrementSQLCount()
-    public void incrementSQLCount(final String stmt)
+    '''returns None\n\n
+    incrementSQLCount()\n
+    incrementSQLCount(final String stmt)\n
     '''
 def getSQLStatements():
-    '''public Iterator getSQLStatements()
+    '''returns Iterator\n\n
+    getSQLStatements()\n
     '''
 def getStatementIndividualTime():
-    '''public String getStatementIndividualTime(final Object obj)
+    '''returns String\n\n
+    getStatementIndividualTime(final Object obj)\n
     '''
 def getStatementCount():
-    '''public int getStatementCount(final Object obj)
+    '''returns int\n\n
+    getStatementCount(final Object obj)\n
     '''
 def getSQLCount():
-    '''public long getSQLCount()
+    '''returns long\n\n
+    getSQLCount()\n
     '''
 def getSQLTime():
-    '''public long getSQLTime()
+    '''returns long\n\n
+    getSQLTime()\n
     '''
 def incrementMboCount():
-    '''public void incrementMboCount()
-    public void incrementMboCount(final String name)
+    '''returns None\n\n
+    incrementMboCount()\n
+    incrementMboCount(final String name)\n
     '''
 def getMboString():
-    '''public String getMboString()
+    '''returns String\n\n
+    getMboString()\n
     '''
 def getMboCount():
-    '''public long getMboCount()
+    '''returns long\n\n
+    getMboCount()\n
     '''
 def incrementMboSetCount():
-    '''public void incrementMboSetCount()
-    public void incrementMboSetCount(final String name)
+    '''returns None\n\n
+    incrementMboSetCount()\n
+    incrementMboSetCount(final String name)\n
     '''
 def getMboSetString():
-    '''public String getMboSetString()
+    '''returns String\n\n
+    getMboSetString()\n
     '''
 def getMboSetCount():
-    '''public long getMboSetCount()
+    '''returns long\n\n
+    getMboSetCount()\n
     '''
 def hasValue():
-    '''public boolean hasValue()
+    '''returns boolean\n\n
+    hasValue()\n
     '''
 def addStackTrace():
-    '''public void addStackTrace(final String stm, final Object obj)
+    '''returns None\n\n
+    addStackTrace(final String stm, final Object obj)\n
     '''
 def normalizeStackTrace():
-    '''public Vector normalizeStackTrace(final Throwable e)
+    '''returns Vector\n\n
+    normalizeStackTrace(final Throwable e)\n
     '''
 def display():
-    '''public String display(final String stmt)
+    '''returns String\n\n
+    display(final String stmt)\n
     '''

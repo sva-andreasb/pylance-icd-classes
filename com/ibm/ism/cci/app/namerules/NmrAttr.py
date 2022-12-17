@@ -1,11 +1,14 @@
 REL_RELATIONNUM_NMRATTR = "String  \"RELATIONNUM\""
 REL_ASSETATTRID_NAMINGRULE = "String  \"ATTRID\""
-def NmrAttr():
-    '''public NmrAttr(final MboSet ms)
+def ():
+    '''returns NmrAttr\n\n
+    (final MboSet ms)\n
     '''
 def getRelationNum():
-    '''public MboSetRemote getRelationNum()
+    '''returns MboSetRemote\n\n
+    getRelationNum()\n
     '''
 def getAttrID():
-    '''public MboSetRemote getAttrID()
+    '''returns MboSetRemote\n\n
+    getAttrID()\n
     '''

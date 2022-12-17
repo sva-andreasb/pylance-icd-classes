@@ -1,48 +1,63 @@
-def WorkflowEditor():
-    '''public WorkflowEditor()
-    public WorkflowEditor(final Workflow workflow)
+def ():
+    '''returns WorkflowEditor\n\n
+    ()\n
+    (final Workflow workflow)\n
     '''
 def setEditable():
-    '''public void setEditable(final boolean editable)
+    '''returns None\n\n
+    setEditable(final boolean editable)\n
     '''
 def getTimestamp():
-    '''public int getTimestamp()
+    '''returns int\n\n
+    getTimestamp()\n
     '''
 def hasUndoEntries():
-    '''public boolean hasUndoEntries()
+    '''returns boolean\n\n
+    hasUndoEntries()\n
     '''
 def undo():
-    '''public boolean undo()
+    '''returns boolean\n\n
+    undo()\n
     '''
 def getTopTimestamp():
-    '''public int getTopTimestamp()
+    '''returns int\n\n
+    getTopTimestamp()\n
     '''
 def addWorkflowEditListener():
-    '''public void addWorkflowEditListener(final WorkflowEditListener listener)
+    '''returns None\n\n
+    addWorkflowEditListener(final WorkflowEditListener listener)\n
     '''
 def removeWorkflowEditListener():
-    '''public void removeWorkflowEditListener(final WorkflowEditListener listener)
+    '''returns None\n\n
+    removeWorkflowEditListener(final WorkflowEditListener listener)\n
     '''
 def setSelected():
-    '''public void setSelected(final WorkflowEntity selection, final boolean user)
+    '''returns None\n\n
+    setSelected(final WorkflowEntity selection, final boolean user)\n
     '''
 def getSelected():
-    '''public WorkflowEntity getSelected()
+    '''returns WorkflowEntity\n\n
+    getSelected()\n
     '''
 def add():
-    '''public void add(final WorkflowEntity entity)
+    '''returns None\n\n
+    add(final WorkflowEntity entity)\n
     '''
 def delete():
-    '''public void delete()
-    public void delete(final WorkflowEntity entity)
+    '''returns None\n\n
+    delete()\n
+    delete(final WorkflowEntity entity)\n
     '''
 def move():
-    '''public void move(final int column, final int row)
-    public void move(final WorkflowEntity entity, final int column, final int row)
+    '''returns None\n\n
+    move(final int column, final int row)\n
+    move(final WorkflowEntity entity, final int column, final int row)\n
     '''
 def hasChanges():
-    '''public boolean hasChanges()
+    '''returns boolean\n\n
+    hasChanges()\n
     '''
 def clearChanges():
-    '''public void clearChanges()
+    '''returns None\n\n
+    clearChanges()\n
     '''

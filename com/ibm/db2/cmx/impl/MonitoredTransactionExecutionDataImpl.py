@@ -1,78 +1,100 @@
 def getDatabaseAuthID():
-    '''public String getDatabaseAuthID()
+    '''returns String\n\n
+    getDatabaseAuthID()\n
     '''
 def getClientInfo():
-    '''public String[] getClientInfo()
+    '''returns String[]\n\n
+    getClientInfo()\n
     '''
 def getElapsedCursorHoldTimes():
-    '''public long getElapsedCursorHoldTimes()
+    '''returns long\n\n
+    getElapsedCursorHoldTimes()\n
     '''
 def getElapsedCursorHoldTimes_TimePrecision():
-    '''public TimePrecision getElapsedCursorHoldTimes_TimePrecision()
+    '''returns TimePrecision\n\n
+    getElapsedCursorHoldTimes_TimePrecision()\n
     '''
 def getElapsedDriverTimes():
-    '''public long getElapsedDriverTimes()
+    '''returns long\n\n
+    getElapsedDriverTimes()\n
     '''
 def getElapsedDriverTimes_TimePrecision():
-    '''public TimePrecision getElapsedDriverTimes_TimePrecision()
+    '''returns TimePrecision\n\n
+    getElapsedDriverTimes_TimePrecision()\n
     '''
 def getElapsedNetworkTimes():
-    '''public long getElapsedNetworkTimes()
+    '''returns long\n\n
+    getElapsedNetworkTimes()\n
     '''
 def getElapsedNetworkTimes_TimePrecision():
-    '''public TimePrecision getElapsedNetworkTimes_TimePrecision()
+    '''returns TimePrecision\n\n
+    getElapsedNetworkTimes_TimePrecision()\n
     '''
 def getElapsedServerTimes():
-    '''public long getElapsedServerTimes()
+    '''returns long\n\n
+    getElapsedServerTimes()\n
     '''
 def getElapsedServerTimes_TimePrecision():
-    '''public TimePrecision getElapsedServerTimes_TimePrecision()
+    '''returns TimePrecision\n\n
+    getElapsedServerTimes_TimePrecision()\n
     '''
 def getBytesSent():
-    '''public long getBytesSent()
+    '''returns long\n\n
+    getBytesSent()\n
     '''
 def getBytesReceived():
-    '''public long getBytesReceived()
+    '''returns long\n\n
+    getBytesReceived()\n
     '''
 def getNumberOfRoundTrips():
-    '''public long getNumberOfRoundTrips()
+    '''returns long\n\n
+    getNumberOfRoundTrips()\n
     '''
 def getNumberOfRowsSelected():
-    '''public long getNumberOfRowsSelected()
+    '''returns long\n\n
+    getNumberOfRowsSelected()\n
     '''
 def getNumberOfStatementExecutions():
-    '''public long getNumberOfStatementExecutions()
+    '''returns long\n\n
+    getNumberOfStatementExecutions()\n
     '''
 def getFirstNegativeSQLCode():
-    '''public int getFirstNegativeSQLCode()
+    '''returns int\n\n
+    getFirstNegativeSQLCode()\n
     '''
 def getNumberOfNegativeSQLCodes():
-    '''public int getNumberOfNegativeSQLCodes()
+    '''returns int\n\n
+    getNumberOfNegativeSQLCodes()\n
     '''
 def getNumberOfTransactionExecutions():
-    '''public long getNumberOfTransactionExecutions()
+    '''returns long\n\n
+    getNumberOfTransactionExecutions()\n
     '''
 def getElapsedTransactionTimes():
-    '''public long getElapsedTransactionTimes()
+    '''returns long\n\n
+    getElapsedTransactionTimes()\n
     '''
 def getElapsedTransactionTimes_TimePrecision():
-    '''public TimePrecision getElapsedTransactionTimes_TimePrecision()
+    '''returns TimePrecision\n\n
+    getElapsedTransactionTimes_TimePrecision()\n
     '''
 def getMaximumElapsedTransactionTime():
-    '''public long getMaximumElapsedTransactionTime()
+    '''returns long\n\n
+    getMaximumElapsedTransactionTime()\n
     '''
 def getMaximumElapsedTransactionTime_TimePrecision():
-    '''public TimePrecision getMaximumElapsedTransactionTime_TimePrecision()
+    '''returns TimePrecision\n\n
+    getMaximumElapsedTransactionTime_TimePrecision()\n
     '''
 def getHistogramData():
-    '''public String getHistogramData()
+    '''returns String\n\n
+    getHistogramData()\n
     '''
 def getWebspherePoolWaitTimes():
-    '''public long getWebspherePoolWaitTimes()
+    '''returns long\n\n
+    getWebspherePoolWaitTimes()\n
     '''
 def getWebspherePoolWaitTimes_TimePrecision():
-    '''public TimePrecision getWebspherePoolWaitTimes_TimePrecision()
-    '''
-def parseMonitoredTransactionExecutionDatas():
-    '''public static ArrayList<MonitoredTransactionExecutionData> parseMonitoredTransactionExecutionDatas(final JSONArray jsonArray, final JSONArray jsonArray2)
+    '''returns TimePrecision\n\n
+    getWebspherePoolWaitTimes_TimePrecision()\n
     '''

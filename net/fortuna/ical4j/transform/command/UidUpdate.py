@@ -1,6 +1,8 @@
-def UidUpdate():
-    '''public UidUpdate(final UidGenerator uidGenerator)
+def ():
+    '''returns UidUpdate\n\n
+    (final UidGenerator uidGenerator)\n
     '''
 def transform():
-    '''public Component transform(final Component object)
+    '''returns Component\n\n
+    transform(final Component object)\n
     '''

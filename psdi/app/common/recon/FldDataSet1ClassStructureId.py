@@ -1,3 +1,4 @@
-def FldDataSet1ClassStructureId():
-    '''public FldDataSet1ClassStructureId(final MboValue mbv)
+def ():
+    '''returns FldDataSet1ClassStructureId\n\n
+    (final MboValue mbv)\n
     '''

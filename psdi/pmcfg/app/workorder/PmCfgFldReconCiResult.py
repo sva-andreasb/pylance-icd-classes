@@ -1,3 +1,4 @@
-def PmCfgFldReconCiResult():
-    '''public PmCfgFldReconCiResult(final MboValue mbv)
+def ():
+    '''returns PmCfgFldReconCiResult\n\n
+    (final MboValue mbv)\n
     '''

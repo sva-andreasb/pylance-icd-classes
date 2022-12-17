@@ -1,18 +1,24 @@
-def DecomposeNormalizer2():
-    '''public DecomposeNormalizer2(final Normalizer2Impl ni)
+def ():
+    '''returns DecomposeNormalizer2\n\n
+    (final Normalizer2Impl ni)\n
     '''
 def spanQuickCheckYes():
-    '''public int spanQuickCheckYes(final CharSequence s)
+    '''returns int\n\n
+    spanQuickCheckYes(final CharSequence s)\n
     '''
 def getQuickCheck():
-    '''public int getQuickCheck(final int c)
+    '''returns int\n\n
+    getQuickCheck(final int c)\n
     '''
 def hasBoundaryBefore():
-    '''public boolean hasBoundaryBefore(final int c)
+    '''returns boolean\n\n
+    hasBoundaryBefore(final int c)\n
     '''
 def hasBoundaryAfter():
-    '''public boolean hasBoundaryAfter(final int c)
+    '''returns boolean\n\n
+    hasBoundaryAfter(final int c)\n
     '''
 def isInert():
-    '''public boolean isInert(final int c)
+    '''returns boolean\n\n
+    isInert(final int c)\n
     '''

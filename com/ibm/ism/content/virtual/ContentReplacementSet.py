@@ -1,3 +1,4 @@
-def ContentReplacementSet():
-    '''public ContentReplacementSet(final MboServerInterface ms)
+def ():
+    '''returns ContentReplacementSet\n\n
+    (final MboServerInterface ms)\n
     '''

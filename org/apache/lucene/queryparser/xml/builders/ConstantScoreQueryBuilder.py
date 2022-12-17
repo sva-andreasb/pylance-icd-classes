@@ -1,6 +1,8 @@
-def ConstantScoreQueryBuilder():
-    '''public ConstantScoreQueryBuilder(final QueryBuilderFactory queryFactory)
+def ():
+    '''returns ConstantScoreQueryBuilder\n\n
+    (final QueryBuilderFactory queryFactory)\n
     '''
 def getQuery():
-    '''public Query getQuery(final Element e)
+    '''returns Query\n\n
+    getQuery(final Element e)\n
     '''

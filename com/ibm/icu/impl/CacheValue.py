@@ -1,23 +1,16 @@
-def setStrength():
-    '''public static void setStrength(final Strength strength)
-    '''
-def futureInstancesWillBeStrong():
-    '''public static boolean futureInstancesWillBeStrong()
-    '''
-def getInstance():
-    '''public static <V> CacheValue<V> getInstance(final V value)
-    '''
 def isNull():
-    '''public boolean isNull()
-    public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
+    isNull()\n
     '''
 def get():
-    '''public V get()
-    public V get()
-    public V get()
+    '''returns V\n\n
+    get()\n
+    get()\n
+    get()\n
     '''
 def resetIfCleared():
-    '''public V resetIfCleared(final V value)
-    public V resetIfCleared(final V value)
-    public synchronized V resetIfCleared(final V value)
+    '''returns V\n\n
+    resetIfCleared(final V value)\n
+    resetIfCleared(final V value)\n
     '''

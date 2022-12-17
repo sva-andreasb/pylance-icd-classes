@@ -1,48 +1,56 @@
 def channelOpened():
-    '''public void channelOpened(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpened(final ChannelEvent channelEvent)\n
     '''
 def channelOpenFailed():
-    '''public void channelOpenFailed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpenFailed(final ChannelEvent channelEvent)\n
     '''
 def channelClosed():
-    '''public void channelClosed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelClosed(final ChannelEvent channelEvent)\n
     '''
 def channelMsgReceived():
-    '''public void channelMsgReceived(final ChannelEvent channelEvent)
-    '''
-def addImListener():
-    '''public synchronized void addImListener(final ImListener obj)
-    '''
-def removeImListener():
-    '''public synchronized void removeImListener(final ImListener obj)
+    '''returns None\n\n
+    channelMsgReceived(final ChannelEvent channelEvent)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def close():
-    '''public void close(final int n)
+    '''returns None\n\n
+    close(final int n)\n
     '''
 def sendText():
-    '''public void sendText(final boolean b, final String str)
+    '''returns None\n\n
+    sendText(final boolean b, final String str)\n
     '''
 def sendData():
-    '''public void sendData(final boolean b, final int v, final int v2, final byte[] b2)
+    '''returns None\n\n
+    sendData(final boolean b, final int v, final int v2, final byte[] b2)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def getPartnerDetails():
-    '''public STUserInstance getPartnerDetails()
+    '''returns STUserInstance\n\n
+    getPartnerDetails()\n
     '''
 def getPartner():
-    '''public STUser getPartner()
+    '''returns STUser\n\n
+    getPartner()\n
     '''
 def getAcceptingSideStatus():
-    '''public STUserStatus getAcceptingSideStatus()
+    '''returns STUserStatus\n\n
+    getAcceptingSideStatus()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getEncLevel():
-    '''public EncLevel getEncLevel()
+    '''returns EncLevel\n\n
+    getEncLevel()\n
     '''

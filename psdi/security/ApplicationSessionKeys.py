@@ -1,30 +1,32 @@
 def getPrivateKey():
-    '''public PrivateKey getPrivateKey()
+    '''returns PrivateKey\n\n
+    getPrivateKey()\n
     '''
 def setPrivateKey():
-    '''public void setPrivateKey(final PrivateKey key)
+    '''returns None\n\n
+    setPrivateKey(final PrivateKey key)\n
     '''
 def getPublicKey():
-    '''public PublicKey getPublicKey()
+    '''returns PublicKey\n\n
+    getPublicKey()\n
     '''
 def setPublicKey():
-    '''public void setPublicKey(final PublicKey key)
+    '''returns None\n\n
+    setPublicKey(final PublicKey key)\n
     '''
 def isInitialized():
-    '''public boolean isInitialized()
+    '''returns boolean\n\n
+    isInitialized()\n
     '''
 def setInitialized():
-    '''public void setInitialized(final boolean b)
-    '''
-def getDefaultApplicationSessionKeys():
-    '''public static final ApplicationSessionKeys getDefaultApplicationSessionKeys(final Object key)
-    '''
-def isValidSessionData():
-    '''public static boolean isValidSessionData(final byte[] signedSessionData, final String data)
+    '''returns None\n\n
+    setInitialized(final boolean b)\n
     '''
 def signData():
-    '''public byte[] signData(final String data)
+    '''returns byte[]\n\n
+    signData(final String data)\n
     '''
 def verifySignedData():
-    '''public boolean verifySignedData(final byte[] signedData, final String data)
+    '''returns boolean\n\n
+    verifySignedData(final byte[] signedData, final String data)\n
     '''

@@ -1,15 +1,16 @@
-def DBScriptTimingAppender():
-    '''public DBScriptTimingAppender()
+def ():
+    '''returns DBScriptTimingAppender\n\n
+    ()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def doAppend():
-    '''public void doAppend(final LoggingEvent event)
+    '''returns None\n\n
+    doAppend(final LoggingEvent event)\n
     '''
 def _doAppend():
-    '''public void _doAppend(final LoggingEvent event)
-    '''
-def setup():
-    '''public static void setup()
+    '''returns None\n\n
+    _doAppend(final LoggingEvent event)\n
     '''

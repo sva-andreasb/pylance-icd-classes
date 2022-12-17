@@ -1,6 +1,8 @@
-def FldPurchDateMaxLicPurchDet():
-    '''public FldPurchDateMaxLicPurchDet(final MboValue mbv)
+def ():
+    '''returns FldPurchDateMaxLicPurchDet\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

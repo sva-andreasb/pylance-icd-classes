@@ -1,6 +1,8 @@
-def ClassProbComparator():
-    '''public ClassProbComparator()
+def ():
+    '''returns ClassProbComparator\n\n
+    ()\n
     '''
 def compare():
-    '''public int compare(final Object A, final Object B)
+    '''returns int\n\n
+    compare(final Object A, final Object B)\n
     '''

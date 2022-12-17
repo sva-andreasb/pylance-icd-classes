@@ -1,10 +1,13 @@
-def GraphExtract():
-    '''public GraphExtract(final TripleBoundary b)
+def ():
+    '''returns GraphExtract\n\n
+    (final TripleBoundary b)\n
     '''
 def extract():
-    '''public Graph extract(final Node node, final Graph graph)
+    '''returns Graph\n\n
+    extract(final Node node, final Graph graph)\n
     '''
 def extractInto():
-    '''public Graph extractInto(final Graph toUpdate, final Node root, final Graph extractFrom)
-    public void extractInto(final Node root)
+    '''returns None\n\n
+    extractInto(final Graph toUpdate, final Node root, final Graph extractFrom)\n
+    extractInto(final Node root)\n
     '''

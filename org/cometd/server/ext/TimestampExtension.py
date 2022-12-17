@@ -1,17 +1,22 @@
-def TimestampExtension():
-    '''public TimestampExtension()
-    public TimestampExtension(final String format)
-    public TimestampExtension(final String format, final TimeZone tz)
+def ():
+    '''returns TimestampExtension\n\n
+    ()\n
+    (final String format)\n
+    (final String format, final TimeZone tz)\n
     '''
 def rcv():
-    '''public boolean rcv(final ServerSession from, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    rcv(final ServerSession from, final ServerMessage.Mutable message)\n
     '''
 def rcvMeta():
-    '''public boolean rcvMeta(final ServerSession from, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    rcvMeta(final ServerSession from, final ServerMessage.Mutable message)\n
     '''
 def send():
-    '''public boolean send(final ServerSession from, final ServerSession to, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    send(final ServerSession from, final ServerSession to, final ServerMessage.Mutable message)\n
     '''
 def sendMeta():
-    '''public boolean sendMeta(final ServerSession to, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    sendMeta(final ServerSession to, final ServerMessage.Mutable message)\n
     '''

@@ -1,58 +1,76 @@
-def UploadFile():
-    '''public UploadFile()
-    public UploadFile(final String fileName, final String contentType, final ByteArrayOutputStream outputStream)
-    public UploadFile(final String fileName, final String fullFileName, final String contentType, final ByteArrayOutputStream outputStream)
+def ():
+    '''returns UploadFile\n\n
+    ()\n
+    (final String fileName, final String contentType, final ByteArrayOutputStream outputStream)\n
+    (final String fileName, final String fullFileName, final String contentType, final ByteArrayOutputStream outputStream)\n
     '''
 def setFileName():
-    '''public void setFileName(final String fileName)
+    '''returns None\n\n
+    setFileName(final String fileName)\n
     '''
 def setFullFileName():
-    '''public void setFullFileName(final String fileName)
+    '''returns None\n\n
+    setFullFileName(final String fileName)\n
     '''
 def getFileOutputStream():
-    '''public ByteArrayOutputStream getFileOutputStream()
+    '''returns ByteArrayOutputStream\n\n
+    getFileOutputStream()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getFullFileName():
-    '''public String getFullFileName()
+    '''returns String\n\n
+    getFullFileName()\n
     '''
 def getAbsoluteFileName():
-    '''public String getAbsoluteFileName()
+    '''returns String\n\n
+    getAbsoluteFileName()\n
     '''
 def setDirectoryName():
-    '''public void setDirectoryName(final String directoryName)
+    '''returns None\n\n
+    setDirectoryName(final String directoryName)\n
     '''
 def getDirectoryName():
-    '''public String getDirectoryName()
+    '''returns String\n\n
+    getDirectoryName()\n
     '''
 def setProcessing():
-    '''public void setProcessing(final boolean processing)
+    '''returns None\n\n
+    setProcessing(final boolean processing)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def isDeleted():
-    '''public boolean isDeleted()
+    '''returns boolean\n\n
+    isDeleted()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def deleteFileOnDisk():
-    '''public void deleteFileOnDisk()
+    '''returns None\n\n
+    deleteFileOnDisk()\n
     '''
 def writeToDisk():
-    '''public void writeToDisk()
-    public void writeToDisk(final boolean removespace)
-    public void writeToDisk(final boolean removespace, final boolean removepercent)
+    '''returns None\n\n
+    writeToDisk()\n
+    writeToDisk(final boolean removespace)\n
+    writeToDisk(final boolean removespace, final boolean removepercent)\n
     '''
 def valueBound():
-    '''public void valueBound(final HttpSessionBindingEvent event)
+    '''returns None\n\n
+    valueBound(final HttpSessionBindingEvent event)\n
     '''
 def valueUnbound():
-    '''public void valueUnbound(final HttpSessionBindingEvent event)
+    '''returns None\n\n
+    valueUnbound(final HttpSessionBindingEvent event)\n
     '''

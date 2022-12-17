@@ -1,27 +1,36 @@
-def SKDPMResourceInfo():
-    '''public SKDPMResourceInfo()
+def ():
+    '''returns SKDPMResourceInfo\n\n
+    ()\n
     '''
 def setStartTime():
-    '''public void setStartTime(final Date starTime)
+    '''returns None\n\n
+    setStartTime(final Date starTime)\n
     '''
 def setEndTime():
-    '''public void setEndTime(final Date endTime)
+    '''returns None\n\n
+    setEndTime(final Date endTime)\n
     '''
 def setCraftLoad():
-    '''public void setCraftLoad(final double load)
+    '''returns None\n\n
+    setCraftLoad(final double load)\n
     '''
 def getStartTime():
-    '''public Date getStartTime()
+    '''returns Date\n\n
+    getStartTime()\n
     '''
 def getEndTime():
-    '''public Date getEndTime()
+    '''returns Date\n\n
+    getEndTime()\n
     '''
 def getCraftLoad():
-    '''public double getCraftLoad()
+    '''returns double\n\n
+    getCraftLoad()\n
     '''
 def setCraftLoadHrs():
-    '''public void setCraftLoadHrs(final double loadHrs)
+    '''returns None\n\n
+    setCraftLoadHrs(final double loadHrs)\n
     '''
 def getCraftLoadHrs():
-    '''public double getCraftLoadHrs()
+    '''returns double\n\n
+    getCraftLoadHrs()\n
     '''

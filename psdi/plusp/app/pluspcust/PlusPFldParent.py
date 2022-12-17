@@ -1,3 +1,4 @@
-def PlusPFldParent():
-    '''public PlusPFldParent(final MboValue mbv)
+def ():
+    '''returns PlusPFldParent\n\n
+    (final MboValue mbv)\n
     '''

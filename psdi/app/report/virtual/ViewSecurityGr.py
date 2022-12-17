@@ -1,3 +1,4 @@
-def ViewSecurityGr():
-    '''public ViewSecurityGr(final MboSet ms)
+def ():
+    '''returns ViewSecurityGr\n\n
+    (final MboSet ms)\n
     '''

@@ -1,6 +1,8 @@
-def PackageManager():
-    '''public PackageManager()
+def ():
+    '''returns PackageManager\n\n
+    ()\n
     '''
 def parsePackageImport():
-    '''public void parsePackageImport(final MRIUPackage mriuPackage, final URI pkgUri, final DefaultPackageResolver resolver)
+    '''returns None\n\n
+    parsePackageImport(final MRIUPackage mriuPackage, final URI pkgUri, final DefaultPackageResolver resolver)\n
     '''

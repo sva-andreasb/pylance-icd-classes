@@ -1,3 +1,4 @@
-def ShowAllPlanLaborSet():
-    '''public ShowAllPlanLaborSet(final MboRemote owner)
+def ():
+    '''returns ShowAllPlanLaborSet\n\n
+    (final MboRemote owner)\n
     '''

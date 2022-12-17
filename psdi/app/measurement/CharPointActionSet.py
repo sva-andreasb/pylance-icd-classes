@@ -1,6 +1,8 @@
-def CharPointActionSet():
-    '''public CharPointActionSet(final MboServerInterface ms)
+def ():
+    '''returns CharPointActionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

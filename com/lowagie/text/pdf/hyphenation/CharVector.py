@@ -1,33 +1,43 @@
-def CharVector():
-    '''public CharVector()
-    public CharVector(final int capacity)
-    public CharVector(final char[] a)
-    public CharVector(final char[] a, final int capacity)
+def ():
+    '''returns CharVector\n\n
+    ()\n
+    (final int capacity)\n
+    (final char[] a)\n
+    (final char[] a, final int capacity)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getArray():
-    '''public char[] getArray()
+    '''returns char[]\n\n
+    getArray()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def put():
-    '''public void put(final int index, final char val)
+    '''returns None\n\n
+    put(final int index, final char val)\n
     '''
 def get():
-    '''public char get(final int index)
+    '''returns char\n\n
+    get(final int index)\n
     '''
 def alloc():
-    '''public int alloc(final int size)
+    '''returns int\n\n
+    alloc(final int size)\n
     '''
 def trimToSize():
-    '''public void trimToSize()
+    '''returns None\n\n
+    trimToSize()\n
     '''

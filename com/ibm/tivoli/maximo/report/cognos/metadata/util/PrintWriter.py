@@ -1,18 +1,23 @@
-def PrintWriter():
-    '''public PrintWriter(final OutputStream out)
-    public PrintWriter(final Writer out)
+def ():
+    '''returns PrintWriter\n\n
+    (final OutputStream out)\n
+    (final Writer out)\n
     '''
 def indent():
-    '''public void indent(final int steps)
+    '''returns None\n\n
+    indent(final int steps)\n
     '''
 def unIndent():
-    '''public void unIndent(final int steps)
+    '''returns None\n\n
+    unIndent(final int steps)\n
     '''
 def println():
-    '''public void println()
+    '''returns None\n\n
+    println()\n
     '''
 def write():
-    '''public void write(final char[] buf, final int off, final int len)
-    public void write(final int c)
-    public void write(final String s, final int off, final int len)
+    '''returns None\n\n
+    write(final char[] buf, final int off, final int len)\n
+    write(final int c)\n
+    write(final String s, final int off, final int len)\n
     '''

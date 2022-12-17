@@ -1,6 +1,8 @@
-def FldAssignLocFromDate():
-    '''public FldAssignLocFromDate(final MboValue mbv)
+def ():
+    '''returns FldAssignLocFromDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

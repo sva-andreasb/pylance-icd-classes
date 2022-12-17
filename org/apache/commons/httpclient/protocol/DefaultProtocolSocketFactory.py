@@ -1,11 +1,14 @@
 def createSocket():
-    '''public Socket createSocket(final String host, final int port, final InetAddress localAddress, final int localPort)
-    public Socket createSocket(final String host, final int port, final InetAddress localAddress, final int localPort, final HttpConnectionParams params)
-    public Socket createSocket(final String host, final int port)
+    '''returns Socket\n\n
+    createSocket(final String host, final int port, final InetAddress localAddress, final int localPort)\n
+    createSocket(final String host, final int port, final InetAddress localAddress, final int localPort, final HttpConnectionParams params)\n
+    createSocket(final String host, final int port)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

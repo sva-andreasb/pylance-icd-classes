@@ -1,12 +1,16 @@
-def ConnManagerParamBean():
-    '''public ConnManagerParamBean(final HttpParams params)
+def ():
+    '''returns ConnManagerParamBean\n\n
+    (final HttpParams params)\n
     '''
 def setTimeout():
-    '''public void setTimeout(final long timeout)
+    '''returns None\n\n
+    setTimeout(final long timeout)\n
     '''
 def setMaxTotalConnections():
-    '''public void setMaxTotalConnections(final int maxConnections)
+    '''returns None\n\n
+    setMaxTotalConnections(final int maxConnections)\n
     '''
 def setConnectionsPerRoute():
-    '''public void setConnectionsPerRoute(final ConnPerRouteBean connPerRoute)
+    '''returns None\n\n
+    setConnectionsPerRoute(final ConnPerRouteBean connPerRoute)\n
     '''

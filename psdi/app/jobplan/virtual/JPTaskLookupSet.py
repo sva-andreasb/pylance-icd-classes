@@ -1,3 +1,4 @@
-def JPTaskLookupSet():
-    '''public JPTaskLookupSet(final MboServerInterface ms)
+def ():
+    '''returns JPTaskLookupSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,25 +1,33 @@
-def BicubicSplineInterpolatingFunction():
-    '''public BicubicSplineInterpolatingFunction(final double[] x, final double[] y, final double[][] f, final double[][] dFdX, final double[][] dFdY, final double[][] d2FdXdY)
-    public BicubicSplineInterpolatingFunction(final double[] x, final double[] y, final double[][] f, final double[][] dFdX, final double[][] dFdY, final double[][] d2FdXdY, final boolean initializeDerivatives)
+def ():
+    '''returns BicubicSplineInterpolatingFunction\n\n
+    (final double[] x, final double[] y, final double[][] f, final double[][] dFdX, final double[][] dFdY, final double[][] d2FdXdY)\n
+    (final double[] x, final double[] y, final double[][] f, final double[][] dFdX, final double[][] dFdY, final double[][] d2FdXdY, final boolean initializeDerivatives)\n
     '''
 def value():
-    '''public double value(final double x, final double y)
+    '''returns double\n\n
+    value(final double x, final double y)\n
     '''
 def isValidPoint():
-    '''public boolean isValidPoint(final double x, final double y)
+    '''returns boolean\n\n
+    isValidPoint(final double x, final double y)\n
     '''
 def partialDerivativeX():
-    '''public double partialDerivativeX(final double x, final double y)
+    '''returns double\n\n
+    partialDerivativeX(final double x, final double y)\n
     '''
 def partialDerivativeY():
-    '''public double partialDerivativeY(final double x, final double y)
+    '''returns double\n\n
+    partialDerivativeY(final double x, final double y)\n
     '''
 def partialDerivativeXX():
-    '''public double partialDerivativeXX(final double x, final double y)
+    '''returns double\n\n
+    partialDerivativeXX(final double x, final double y)\n
     '''
 def partialDerivativeYY():
-    '''public double partialDerivativeYY(final double x, final double y)
+    '''returns double\n\n
+    partialDerivativeYY(final double x, final double y)\n
     '''
 def partialDerivativeXY():
-    '''public double partialDerivativeXY(final double x, final double y)
+    '''returns double\n\n
+    partialDerivativeXY(final double x, final double y)\n
     '''

@@ -1,66 +1,79 @@
 sid = "short  23"
 ENCODED_SIZE = "int  6"
-def ExternSheetRecord():
-    '''public ExternSheetRecord()
-    public ExternSheetRecord(final RecordInputStream in)
+def ():
+    '''returns RefSubRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
+    (final int extBookIndex, final int firstSheetIndex, final int lastSheetIndex)\n
+    (final RecordInputStream in)\n
     '''
 def getNumOfRefs():
-    '''public int getNumOfRefs()
+    '''returns int\n\n
+    getNumOfRefs()\n
     '''
 def addREFRecord():
-    '''public void addREFRecord(final RefSubRecord rec)
+    '''returns None\n\n
+    addREFRecord(final RefSubRecord rec)\n
     '''
 def getNumOfREFRecords():
-    '''public int getNumOfREFRecords()
+    '''returns int\n\n
+    getNumOfREFRecords()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
-    public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def removeSheet():
-    '''public void removeSheet(final int sheetIdx)
+    '''returns None\n\n
+    removeSheet(final int sheetIdx)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getExtbookIndexFromRefIndex():
-    '''public int getExtbookIndexFromRefIndex(final int refIndex)
+    '''returns int\n\n
+    getExtbookIndexFromRefIndex(final int refIndex)\n
     '''
 def findRefIndexFromExtBookIndex():
-    '''public int findRefIndexFromExtBookIndex(final int extBookIndex)
+    '''returns int\n\n
+    findRefIndexFromExtBookIndex(final int extBookIndex)\n
     '''
 def getFirstSheetIndexFromRefIndex():
-    '''public int getFirstSheetIndexFromRefIndex(final int extRefIndex)
+    '''returns int\n\n
+    getFirstSheetIndexFromRefIndex(final int extRefIndex)\n
     '''
 def getLastSheetIndexFromRefIndex():
-    '''public int getLastSheetIndexFromRefIndex(final int extRefIndex)
+    '''returns int\n\n
+    getLastSheetIndexFromRefIndex(final int extRefIndex)\n
     '''
 def addRef():
-    '''public int addRef(final int extBookIndex, final int firstSheetIndex, final int lastSheetIndex)
+    '''returns int\n\n
+    addRef(final int extBookIndex, final int firstSheetIndex, final int lastSheetIndex)\n
     '''
 def getRefIxForSheet():
-    '''public int getRefIxForSheet(final int externalBookIndex, final int firstSheetIndex, final int lastSheetIndex)
-    '''
-def combine():
-    '''public static ExternSheetRecord combine(final ExternSheetRecord[] esrs)
+    '''returns int\n\n
+    getRefIxForSheet(final int externalBookIndex, final int firstSheetIndex, final int lastSheetIndex)\n
     '''
 def adjustIndex():
-    '''public void adjustIndex(final int offset)
-    '''
-def RefSubRecord():
-    '''public RefSubRecord(final int extBookIndex, final int firstSheetIndex, final int lastSheetIndex)
-    public RefSubRecord(final RecordInputStream in)
+    '''returns None\n\n
+    adjustIndex(final int offset)\n
     '''
 def getExtBookIndex():
-    '''public int getExtBookIndex()
+    '''returns int\n\n
+    getExtBookIndex()\n
     '''
 def getFirstSheetIndex():
-    '''public int getFirstSheetIndex()
+    '''returns int\n\n
+    getFirstSheetIndex()\n
     '''
 def getLastSheetIndex():
-    '''public int getLastSheetIndex()
+    '''returns int\n\n
+    getLastSheetIndex()\n
     '''

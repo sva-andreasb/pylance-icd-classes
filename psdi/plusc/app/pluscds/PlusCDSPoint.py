@@ -1,30 +1,40 @@
-def PlusCDSPoint():
-    '''public PlusCDSPoint(final MboSet ms)
+def ():
+    '''returns PlusCDSPoint\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def toInternalString():
-    '''public String toInternalString(final String sValuelist, final String sUserValue)
+    '''returns String\n\n
+    toInternalString(final String sValuelist, final String sUserValue)\n
     '''
 def toExternalDefaultValue():
-    '''public String toExternalDefaultValue(final String sValuelist, final String sUserValue)
+    '''returns String\n\n
+    toExternalDefaultValue(final String sValuelist, final String sUserValue)\n
     '''
 def setReadOnlyFields():
-    '''public void setReadOnlyFields()
+    '''returns None\n\n
+    setReadOnlyFields()\n
     '''
 def getOwner():
-    '''public MboRemote getOwner()
+    '''returns MboRemote\n\n
+    getOwner()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

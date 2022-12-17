@@ -1,89 +1,99 @@
-def IloCplex__ControlCallbackI():
-    '''public IloCplex__ControlCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__ControlCallbackI obj)
+def ():
+    '''returns IntegerFeasibility\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final String swigName, final int swigValue)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getNodeId():
-    '''public NodeId getNodeId()
+    '''returns NodeId\n\n
+    getNodeId()\n
     '''
 def getFeasibility():
-    '''public IntegerFeasibility getFeasibility(final IloSOS1 sos)
-    public IntegerFeasibility getFeasibility(final IloSOS2 sos)
-    public IntegerFeasibility getFeasibility(final IloNumVar var)
-    public IntegerFeasibility getFeasibility(final IloIntVar var)
+    '''returns IntegerFeasibility\n\n
+    getFeasibility(final IloSOS1 sos)\n
+    getFeasibility(final IloSOS2 sos)\n
+    getFeasibility(final IloNumVar var)\n
+    getFeasibility(final IloIntVar var)\n
     '''
 def getFeasibilities():
-    '''public void getFeasibilities(final IloCplex__ControlCallbackI__IntegerFeasibilityArray stat, final IloNumVarArray var)
-    public void getFeasibilities(final IloCplex__ControlCallbackI__IntegerFeasibilityArray stat, final IloIntVarArray var)
+    '''returns None\n\n
+    getFeasibilities(final IloCplex__ControlCallbackI__IntegerFeasibilityArray stat, final IloNumVarArray var)\n
+    getFeasibilities(final IloCplex__ControlCallbackI__IntegerFeasibilityArray stat, final IloIntVarArray var)\n
     '''
 def isSOSFeasible():
-    '''public boolean isSOSFeasible(final IloSOS1 sos1)
-    public boolean isSOSFeasible(final IloSOS2 sos2)
+    '''returns boolean\n\n
+    isSOSFeasible(final IloSOS1 sos1)\n
+    isSOSFeasible(final IloSOS2 sos2)\n
     '''
 def getLB():
-    '''public double getLB(final IloNumVar var)
-    public double getLB(final IloIntVar var)
+    '''returns double\n\n
+    getLB(final IloNumVar var)\n
+    getLB(final IloIntVar var)\n
     '''
 def getUB():
-    '''public double getUB(final IloNumVar var)
-    public double getUB(final IloIntVar var)
+    '''returns double\n\n
+    getUB(final IloNumVar var)\n
+    getUB(final IloIntVar var)\n
     '''
 def getLBs():
-    '''public void getLBs(final IloNumArray val, final IloNumVarArray vars)
-    public void getLBs(final IloNumArray val, final IloIntVarArray vars)
+    '''returns None\n\n
+    getLBs(final IloNumArray val, final IloNumVarArray vars)\n
+    getLBs(final IloNumArray val, final IloIntVarArray vars)\n
     '''
 def getUBs():
-    '''public void getUBs(final IloNumArray val, final IloNumVarArray vars)
-    public void getUBs(final IloNumArray val, final IloIntVarArray vars)
+    '''returns None\n\n
+    getUBs(final IloNumArray val, final IloNumVarArray vars)\n
+    getUBs(final IloNumArray val, final IloIntVarArray vars)\n
     '''
 def getObjValue():
-    '''public double getObjValue()
+    '''returns double\n\n
+    getObjValue()\n
     '''
 def getValue():
-    '''public double getValue(final SWIGTYPE_p_IloExprArg expr)
-    public double getValue(final IloNumVar var)
-    public double getValue(final IloIntVar var)
+    '''returns double\n\n
+    getValue(final SWIGTYPE_p_IloExprArg expr)\n
+    getValue(final IloNumVar var)\n
+    getValue(final IloIntVar var)\n
     '''
 def getSlack():
-    '''public double getSlack(final IloRange rng)
+    '''returns double\n\n
+    getSlack(final IloRange rng)\n
     '''
 def getValues():
-    '''public void getValues(final IloNumArray val, final IloNumVarArray vars)
-    public void getValues(final IloNumArray val, final IloIntVarArray vars)
+    '''returns None\n\n
+    getValues(final IloNumArray val, final IloNumVarArray vars)\n
+    getValues(final IloNumArray val, final IloIntVarArray vars)\n
     '''
 def getSlacks():
-    '''public void getSlacks(final IloNumArray val, final IloRangeArray con)
+    '''returns None\n\n
+    getSlacks(final IloNumArray val, final IloRangeArray con)\n
     '''
 def getDownPseudoCost():
-    '''public double getDownPseudoCost(final IloNumVar var)
-    public double getDownPseudoCost(final IloIntVar var)
+    '''returns double\n\n
+    getDownPseudoCost(final IloNumVar var)\n
+    getDownPseudoCost(final IloIntVar var)\n
     '''
 def getUpPseudoCost():
-    '''public double getUpPseudoCost(final IloNumVar var)
-    public double getUpPseudoCost(final IloIntVar var)
+    '''returns double\n\n
+    getUpPseudoCost(final IloNumVar var)\n
+    getUpPseudoCost(final IloIntVar var)\n
     '''
 def getNodeData():
-    '''public SWIGTYPE_p_NodeData getNodeData()
+    '''returns SWIGTYPE_p_NodeData\n\n
+    getNodeData()\n
     '''
 def setNodeData():
-    '''public SWIGTYPE_p_NodeData setNodeData(final SWIGTYPE_p_NodeData data)
+    '''returns SWIGTYPE_p_NodeData\n\n
+    setNodeData(final SWIGTYPE_p_NodeData data)\n
     '''
 def mySwigValue():
-    '''public int mySwigValue()
-    '''
-def swigValue():
-    '''public final int swigValue()
+    '''returns int\n\n
+    mySwigValue()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def swigToEnum():
-    '''public static IntegerFeasibility swigToEnum(final int swigValue)
-    '''
-def IntegerFeasibility():
-    '''public IntegerFeasibility(final String swigName, final int swigValue)
+    '''returns String\n\n
+    toString()\n
     '''

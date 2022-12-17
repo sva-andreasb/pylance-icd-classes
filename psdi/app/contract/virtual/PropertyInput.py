@@ -1,6 +1,8 @@
-def PropertyInput():
-    '''public PropertyInput(final MboSet ms)
+def ():
+    '''returns PropertyInput\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

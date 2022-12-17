@@ -1,106 +1,133 @@
-def TimedResourceMap():
-    '''public TimedResourceMap()
-    public TimedResourceMap(final int lifespan, final int terminationInterval)
-    public TimedResourceMap(final ConcurrentHashMap<K, SelfTerminatingValue> envoy, final int lifespan, final int terminationInterval)
+def ():
+    '''returns Terminator\n\n
+    ()\n
+    (final int lifespan, final int terminationInterval)\n
+    (final ConcurrentHashMap<K, SelfTerminatingValue> envoy, final int lifespan, final int terminationInterval)\n
+    (final boolean startWorkerThread)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
-    '''
-def entrySet():
-    '''public Set<Entry<K, TimedResource>> entrySet()
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def get():
-    '''public TimedResource get(final Object key)
+    '''returns TimedResource\n\n
+    get(final Object key)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def put():
-    '''public TimedResource put(final K key, final TimedResource value)
+    '''returns TimedResource\n\n
+    put(final K key, final TimedResource value)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends TimedResource> map)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends TimedResource> map)\n
     '''
 def remove():
-    '''public TimedResource remove(final Object key)
+    '''returns TimedResource\n\n
+    remove(final Object key)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def values():
-    '''public Collection<TimedResource> values()
+    '''returns Collection<TimedResource>\n\n
+    values()\n
     '''
 def keys():
-    '''public Enumeration keys()
+    '''returns Enumeration\n\n
+    keys()\n
     '''
 def getTerminatorThread():
-    '''public Terminator getTerminatorThread()
+    '''returns Terminator\n\n
+    getTerminatorThread()\n
     '''
 def getTerminatorInterval():
-    '''public int getTerminatorInterval()
-    public int getTerminatorInterval()
+    '''returns int\n\n
+    getTerminatorInterval()\n
+    getTerminatorInterval()\n
     '''
 def getLifeSpan():
-    '''public int getLifeSpan()
+    '''returns int\n\n
+    getLifeSpan()\n
     '''
 def setTerminationInterval():
-    '''public void setTerminationInterval(final int terminationInterval)
-    public void setTerminationInterval(final long terminationInterval)
+    '''returns None\n\n
+    setTerminationInterval(final int terminationInterval)\n
+    setTerminationInterval(final long terminationInterval)\n
     '''
 def setLifeSpan():
-    '''public void setLifeSpan(final int timeToLive)
+    '''returns None\n\n
+    setLifeSpan(final int timeToLive)\n
     '''
 def setKey():
-    '''public void setKey(final K key)
+    '''returns None\n\n
+    setKey(final K key)\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def setValue():
-    '''public void setValue(final TimedResource value)
+    '''returns None\n\n
+    setValue(final TimedResource value)\n
     '''
 def getValue():
-    '''public TimedResource getValue()
+    '''returns TimedResource\n\n
+    getValue()\n
     '''
 def setLastAccessed():
-    '''public void setLastAccessed(final long lastAccessed)
+    '''returns None\n\n
+    setLastAccessed(final long lastAccessed)\n
     '''
 def getLastAccessed():
-    '''public long getLastAccessed()
-    '''
-def Terminator():
-    '''public Terminator(final boolean startWorkerThread)
+    '''returns long\n\n
+    getLastAccessed()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def isThreadRunning():
-    '''public boolean isThreadRunning()
+    '''returns boolean\n\n
+    isThreadRunning()\n
     '''
 def stopTerminating():
-    '''public void stopTerminating()
+    '''returns None\n\n
+    stopTerminating()\n
     '''
 def startWorkerThread():
-    '''public void startWorkerThread()
+    '''returns None\n\n
+    startWorkerThread()\n
     '''
 def setLifespan():
-    '''public void setLifespan(final long lifespan)
+    '''returns None\n\n
+    setLifespan(final long lifespan)\n
     '''
 def getLifespan():
-    '''public int getLifespan()
+    '''returns int\n\n
+    getLifespan()\n
     '''

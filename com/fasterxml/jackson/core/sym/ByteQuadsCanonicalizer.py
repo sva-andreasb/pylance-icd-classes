@@ -1,64 +1,74 @@
-def createRoot():
-    '''public static ByteQuadsCanonicalizer createRoot()
-    '''
 def makeChild():
-    '''public ByteQuadsCanonicalizer makeChild(final int flags)
+    '''returns ByteQuadsCanonicalizer\n\n
+    makeChild(final int flags)\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def bucketCount():
-    '''public int bucketCount()
+    '''returns int\n\n
+    bucketCount()\n
     '''
 def maybeDirty():
-    '''public boolean maybeDirty()
+    '''returns boolean\n\n
+    maybeDirty()\n
     '''
 def hashSeed():
-    '''public int hashSeed()
+    '''returns int\n\n
+    hashSeed()\n
     '''
 def primaryCount():
-    '''public int primaryCount()
+    '''returns int\n\n
+    primaryCount()\n
     '''
 def secondaryCount():
-    '''public int secondaryCount()
+    '''returns int\n\n
+    secondaryCount()\n
     '''
 def tertiaryCount():
-    '''public int tertiaryCount()
+    '''returns int\n\n
+    tertiaryCount()\n
     '''
 def spilloverCount():
-    '''public int spilloverCount()
+    '''returns int\n\n
+    spilloverCount()\n
     '''
 def totalCount():
-    '''public int totalCount()
+    '''returns int\n\n
+    totalCount()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def findName():
-    '''public String findName(final int q1)
-    public String findName(final int q1, final int q2)
-    public String findName(final int q1, final int q2, final int q3)
-    public String findName(final int[] q, final int qlen)
+    '''returns String\n\n
+    findName(final int q1)\n
+    findName(final int q1, final int q2)\n
+    findName(final int q1, final int q2, final int q3)\n
+    findName(final int[] q, final int qlen)\n
     '''
 def addName():
-    '''public String addName(String name, final int q1)
-    public String addName(String name, final int q1, final int q2)
-    public String addName(String name, final int q1, final int q2, final int q3)
-    public String addName(String name, final int[] q, final int qlen)
+    '''returns String\n\n
+    addName(String name, final int q1)\n
+    addName(String name, final int q1, final int q2)\n
+    addName(String name, final int q1, final int q2, final int q3)\n
+    addName(String name, final int[] q, final int qlen)\n
     '''
 def calcHash():
-    '''public int calcHash(final int q1)
-    public int calcHash(final int q1, final int q2)
-    public int calcHash(final int q1, final int q2, final int q3)
-    public int calcHash(final int[] q, final int qlen)
+    '''returns int\n\n
+    calcHash(final int q1)\n
+    calcHash(final int q1, final int q2)\n
+    calcHash(final int q1, final int q2, final int q3)\n
+    calcHash(final int[] q, final int qlen)\n
     '''
-def TableInfo():
-    '''public TableInfo(final int size, final int count, final int tertiaryShift, final int[] mainHash, final String[] names, final int spilloverEnd, final int longNameOffset)
-    public TableInfo(final ByteQuadsCanonicalizer src)
-    '''
-def createInitial():
-    '''public static TableInfo createInitial(final int sz)
+def ():
+    '''returns TableInfo\n\n
+    (final int size, final int count, final int tertiaryShift, final int[] mainHash, final String[] names, final int spilloverEnd, final int longNameOffset)\n
+    (final ByteQuadsCanonicalizer src)\n
     '''

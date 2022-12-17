@@ -1,13 +1,17 @@
 def isOver100PercentEnable():
-    '''public boolean isOver100PercentEnable()
+    '''returns boolean\n\n
+    isOver100PercentEnable()\n
     '''
 def setOver100PercentEnable():
-    '''public void setOver100PercentEnable(final boolean over100PercentEnable)
+    '''returns None\n\n
+    setOver100PercentEnable(final boolean over100PercentEnable)\n
     '''
-def ActualPercentCompleteMethod():
-    '''public ActualPercentCompleteMethod(final UserInfo userInfo)
-    public ActualPercentCompleteMethod(final UserInfo userInfo, final boolean over100PercentEnable)
+def ():
+    '''returns ActualPercentCompleteMethod\n\n
+    (final UserInfo userInfo)\n
+    (final UserInfo userInfo, final boolean over100PercentEnable)\n
     '''
 def updatePercentCompleteItem():
-    '''public boolean updatePercentCompleteItem(final IMXActivity item)
+    '''returns boolean\n\n
+    updatePercentCompleteItem(final IMXActivity item)\n
     '''

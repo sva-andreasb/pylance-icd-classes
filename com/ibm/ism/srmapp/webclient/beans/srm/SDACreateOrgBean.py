@@ -5,18 +5,23 @@ NOVALIDATION_AND_NOACTION = "long  9L"
 LDAPVALUERELATIONSHIP = "String  \"MAXPROPVALUE\""
 ORGVALUERELATIONSHIP = "String  \"MAXPROPVALUEORG\""
 LOGOUTMINUTES = "String  \"mxe.adminmode.logoutmin\""
-def SDACreateOrgBean():
-    '''public SDACreateOrgBean()
+def ():
+    '''returns SDACreateOrgBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def executeCreateOrgAction():
-    '''public void executeCreateOrgAction()
+    '''returns None\n\n
+    executeCreateOrgAction()\n
     '''
 def admin_ON():
-    '''public int admin_ON()
+    '''returns int\n\n
+    admin_ON()\n
     '''
 def refreshStatus():
-    '''public int refreshStatus()
+    '''returns int\n\n
+    refreshStatus()\n
     '''

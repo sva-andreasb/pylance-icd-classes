@@ -2,208 +2,268 @@ INDENT_DEFAULT = "int  4"
 EXPORT_DEFAULT = "boolean  false"
 AUTOFILL_DEFAULT = "boolean  false"
 def getConnection():
-    '''public OalApiConnection getConnection()
+    '''returns OalApiConnection\n\n
+    getConnection()\n
     '''
 def getSession():
-    '''public ApiSession getSession()
+    '''returns ApiSession\n\n
+    getSession()\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getSessionId():
-    '''public String getSessionId()
+    '''returns String\n\n
+    getSessionId()\n
     '''
 def find():
-    '''public ModelObject[] find(final String query, final int depth, final Guid mss, final String[] permissions)
-    public ModelObject find(final Guid guid, final int depth, final String[] permissions)
+    '''returns ModelObject\n\n
+    find(final String query, final int depth, final Guid mss, final String[] permissions)\n
+    find(final Guid guid, final int depth, final String[] permissions)\n
     '''
 def findXML():
-    '''public String findXML(final String query, final int depth, final int indent, final Guid mss, final String[] permissions)
-    public void findXML(final String query, final int depth, final int indent, final String jdoQuery, final String jdoVarDecl, final Guid mss, final String[] permissions, final String suppressList, final OutputStream out)
-    public String findXML(final String query, final int depth, final int indent, final String jdoQuery, final String jdoVarDecl, final Guid mss, final String[] permissions, final String suppressList, final String outFile, final long maxFileSize)
-    public String findXML(final Guid guid, final int depth, final int indent, final String[] permissions)
+    '''returns String\n\n
+    findXML(final String query, final int depth, final int indent, final Guid mss, final String[] permissions)\n
+    findXML(final String query, final int depth, final int indent, final String jdoQuery, final String jdoVarDecl, final Guid mss, final String[] permissions, final String suppressList, final OutputStream out)\n
+    findXML(final String query, final int depth, final int indent, final String jdoQuery, final String jdoVarDecl, final Guid mss, final String[] permissions, final String suppressList, final String outFile, final long maxFileSize)\n
+    findXML(final Guid guid, final int depth, final int indent, final String[] permissions)\n
     '''
 def findJDO():
-    '''public ModelObject[] findJDO(final String root, final String jdoQuery, final String jdoVarDecl, final int depth, final Guid mss, final String[] permissions)
+    '''returns ModelObject[]\n\n
+    findJDO(final String root, final String jdoQuery, final String jdoVarDecl, final int depth, final Guid mss, final String[] permissions)\n
     '''
 def join():
-    '''public ModelObject[] join(final String query, final int depth, final Guid mss, final String[] permissions)
+    '''returns ModelObject[]\n\n
+    join(final String query, final int depth, final Guid mss, final String[] permissions)\n
     '''
 def executeQuery():
-    '''public DataResultSet executeQuery(final String query, final Guid mss, final String[] permissions)
+    '''returns DataResultSet\n\n
+    executeQuery(final String query, final Guid mss, final String[] permissions)\n
     '''
 def getMetaData():
-    '''public ObjectClass getMetaData(final String className)
-    public ObjectClass getMetaData(final String className, final Locale locale)
-    public ObjectClass getMetaData(final String className, final boolean flatten)
-    public ObjectClass getMetaData(final String className, final boolean flatten, final Locale locale)
+    '''returns ObjectClass\n\n
+    getMetaData(final String className)\n
+    getMetaData(final String className, final Locale locale)\n
+    getMetaData(final String className, final boolean flatten)\n
+    getMetaData(final String className, final boolean flatten, final Locale locale)\n
     '''
 def getAllMetaData():
-    '''public ObjectClass[] getAllMetaData()
-    public ObjectClass[] getAllMetaData(final Locale locale)
-    public ObjectClass[] getAllMetaData(final boolean flatten)
-    public ObjectClass[] getAllMetaData(final boolean flatten, final Locale locale)
+    '''returns ObjectClass[]\n\n
+    getAllMetaData()\n
+    getAllMetaData(final Locale locale)\n
+    getAllMetaData(final boolean flatten)\n
+    getAllMetaData(final boolean flatten, final Locale locale)\n
     '''
 def getClassNames():
-    '''public String[] getClassNames()
+    '''returns String[]\n\n
+    getClassNames()\n
     '''
 def update():
-    '''public Guid update(final ModelObject obj, final Guid mss)
-    public Guid[] update(final ModelObject[] objs, final Guid mss)
-    public Guid update(final ModelObject obj, final Guid mss, final String bidiFormat, final int bidiFlag)
-    public Guid[] update(final ModelObject[] objs, final Guid mss, final BidiProfile[] profile, final int[] bidiFlag)
-    public Guid[] update(final ModelObject[] objs, final Guid mss, final String[] bidiFormat, final int[] bidiFlag)
-    public Guid update(final ModelObject obj, final Guid mss, final BidiProfile profile, final int bidiFlag)
+    '''returns Guid\n\n
+    update(final ModelObject obj, final Guid mss)\n
+    update(final ModelObject[] objs, final Guid mss)\n
+    update(final ModelObject obj, final Guid mss, final String bidiFormat, final int bidiFlag)\n
+    update(final ModelObject[] objs, final Guid mss, final BidiProfile[] profile, final int[] bidiFlag)\n
+    update(final ModelObject[] objs, final Guid mss, final String[] bidiFormat, final int[] bidiFlag)\n
+    update(final ModelObject obj, final Guid mss, final BidiProfile profile, final int bidiFlag)\n
     '''
 def updateMerge():
-    '''public LinkedHashMap updateMerge(final ModelObject[] objs, final Guid mss)
+    '''returns LinkedHashMap\n\n
+    updateMerge(final ModelObject[] objs, final Guid mss)\n
     '''
 def updateXML():
-    '''public Guid[] updateXML(final String xml, final Guid mss)
+    '''returns Guid[]\n\n
+    updateXML(final String xml, final Guid mss)\n
     '''
 def add():
-    '''public Guid[] add(final ModelObject[] objs, final Guid mss)
+    '''returns Guid[]\n\n
+    add(final ModelObject[] objs, final Guid mss)\n
     '''
 def delete():
-    '''public int delete(final Guid[] guids, final Guid mss)
-    public int delete(final ModelObject[] objs, final Guid mss)
+    '''returns int\n\n
+    delete(final Guid[] guids, final Guid mss)\n
+    delete(final ModelObject[] objs, final Guid mss)\n
     '''
 def findChanges():
-    '''public ModelObject[] findChanges(final String query, final int depth, final long start, final long end, final int changeType)
+    '''returns ModelObject[]\n\n
+    findChanges(final String query, final int depth, final long start, final long end, final int changeType)\n
     '''
 def findChangesInXml():
-    '''public String findChangesInXml(final String query, final int depth, final long start, final long end, final int changeType)
+    '''returns String\n\n
+    findChangesInXml(final String query, final int depth, final long start, final long end, final int changeType)\n
     '''
 def getChangeHistory():
-    '''public ChangeHistory[] getChangeHistory(final Guid[] Guids, final long start, final long end)
-    public ChangeHistory[] getChangeHistory(final Guid[] Guids, final long start, final long end, final int offset, final int nextBatch)
-    public ChangeHistory[] getChangeHistory(final Guid Guid, final long start, final long end)
-    public ChangeHistory[] getChangeHistory(final Guid[] Guids, final long start, final long end, final int filterType)
+    '''returns ChangeHistory[]\n\n
+    getChangeHistory(final Guid[] Guids, final long start, final long end)\n
+    getChangeHistory(final Guid[] Guids, final long start, final long end, final int offset, final int nextBatch)\n
+    getChangeHistory(final Guid Guid, final long start, final long end)\n
+    getChangeHistory(final Guid[] Guids, final long start, final long end, final int filterType)\n
     '''
 def getNumberOfChanges():
-    '''public int getNumberOfChanges(final Guid[] Guids, final long start, final long end)
+    '''returns int\n\n
+    getNumberOfChanges(final Guid[] Guids, final long start, final long end)\n
     '''
 def getChangeHistoryFlat():
-    '''public ChangeHistory[] getChangeHistoryFlat(final Guid[] Guids, final long start, final long end)
-    public ChangeHistory[] getChangeHistoryFlat(final Guid Guid, final long start, final long end)
-    public ChangeHistory[] getChangeHistoryFlat(final Guid[] Guids, final long start, final long end, final int filterType)
+    '''returns ChangeHistory[]\n\n
+    getChangeHistoryFlat(final Guid[] Guids, final long start, final long end)\n
+    getChangeHistoryFlat(final Guid Guid, final long start, final long end)\n
+    getChangeHistoryFlat(final Guid[] Guids, final long start, final long end, final int filterType)\n
     '''
 def getPropagatedChanges():
-    '''public ChangeHistory[] getPropagatedChanges(final long primaryKey)
+    '''returns ChangeHistory[]\n\n
+    getPropagatedChanges(final long primaryKey)\n
     '''
 def getChangeHistoryInXML():
-    '''public String getChangeHistoryInXML(final Guid[] Guids, final long start, final long end)
-    public String getChangeHistoryInXML(final Guid Guid, final long start, final long end)
-    public String getChangeHistoryInXML(final Guid[] Guids, final long start, final long end, final int filterType)
+    '''returns String\n\n
+    getChangeHistoryInXML(final Guid[] Guids, final long start, final long end)\n
+    getChangeHistoryInXML(final Guid Guid, final long start, final long end)\n
+    getChangeHistoryInXML(final Guid[] Guids, final long start, final long end, final int filterType)\n
     '''
 def getChangeHistoryFlatInXML():
-    '''public String getChangeHistoryFlatInXML(final Guid[] Guids, final long start, final long end)
-    public String getChangeHistoryFlatInXML(final Guid Guid, final long start, final long end)
-    public String getChangeHistoryFlatInXML(final Guid[] Guids, final long start, final long end, final int filterType)
+    '''returns String\n\n
+    getChangeHistoryFlatInXML(final Guid[] Guids, final long start, final long end)\n
+    getChangeHistoryFlatInXML(final Guid Guid, final long start, final long end)\n
+    getChangeHistoryFlatInXML(final Guid[] Guids, final long start, final long end, final int filterType)\n
     '''
 def getPropagatedChangesInXML():
-    '''public String getPropagatedChangesInXML(final long primaryKey)
+    '''returns String\n\n
+    getPropagatedChangesInXML(final long primaryKey)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def addArrayElements():
-    '''public void addArrayElements(final Guid object, final String attrName, final Guid[] elements, final Guid mss)
+    '''returns None\n\n
+    addArrayElements(final Guid object, final String attrName, final Guid[] elements, final Guid mss)\n
     '''
 def removeArrayElements():
-    '''public void removeArrayElements(final Guid object, final String attrName, final Guid[] elements, final Guid mss)
+    '''returns None\n\n
+    removeArrayElements(final Guid object, final String attrName, final Guid[] elements, final Guid mss)\n
     '''
 def importData():
-    '''public void importData(final URI source, final boolean rebuildTopo, final Guid mss)
+    '''returns None\n\n
+    importData(final URI source, final boolean rebuildTopo, final Guid mss)\n
     '''
 def exportData():
-    '''public void exportData(final File directoryToWriteTo, final long maxFileSize, final Guid mss)
+    '''returns None\n\n
+    exportData(final File directoryToWriteTo, final long maxFileSize, final Guid mss)\n
     '''
 def beginTransaction():
-    '''public void beginTransaction(final int timeout)
-    public void beginTransaction()
+    '''returns None\n\n
+    beginTransaction(final int timeout)\n
+    beginTransaction()\n
     '''
 def commitTransaction():
-    '''public void commitTransaction()
+    '''returns None\n\n
+    commitTransaction()\n
     '''
 def rollback():
-    '''public void rollback()
+    '''returns None\n\n
+    rollback()\n
     '''
 def defineExtendedAttributeMeta():
-    '''public void defineExtendedAttributeMeta(final UserDataMeta udm)
+    '''returns None\n\n
+    defineExtendedAttributeMeta(final UserDataMeta udm)\n
     '''
 def getExtendedAttributeMeta():
-    '''public UserDataMeta[] getExtendedAttributeMeta(final String classname)
+    '''returns UserDataMeta[]\n\n
+    getExtendedAttributeMeta(final String classname)\n
     '''
 def setExtendedAttributes():
-    '''public void setExtendedAttributes(final Guid objGuid, final AttrNameValue[] attrNameVal)
+    '''returns None\n\n
+    setExtendedAttributes(final Guid objGuid, final AttrNameValue[] attrNameVal)\n
     '''
 def getExtendedAttributes():
-    '''public AttrNameValue[] getExtendedAttributes(final Guid objGuid)
+    '''returns AttrNameValue[]\n\n
+    getExtendedAttributes(final Guid objGuid)\n
     '''
 def removeExtendedAttributeMeta():
-    '''public void removeExtendedAttributeMeta(final String classname, final Guid acct)
+    '''returns None\n\n
+    removeExtendedAttributeMeta(final String classname, final Guid acct)\n
     '''
 def getDomain():
-    '''public CMDBDomain getDomain(final Guid guid)
+    '''returns CMDBDomain\n\n
+    getDomain(final Guid guid)\n
     '''
 def isECMDB():
-    '''public boolean isECMDB()
+    '''returns boolean\n\n
+    isECMDB()\n
     '''
 def getResultMetaData():
-    '''public ResultMetaData getResultMetaData(final String className, final String[] attribs)
+    '''returns ResultMetaData\n\n
+    getResultMetaData(final String className, final String[] attribs)\n
     '''
 def getEDM():
-    '''public EDMInterface getEDM()
+    '''returns EDMInterface\n\n
+    getEDM()\n
     '''
 def getChangedClasses():
-    '''public String[] getChangedClasses(final long start, final long end, final int changeType)
+    '''returns String[]\n\n
+    getChangedClasses(final long start, final long end, final int changeType)\n
     '''
 def getInventorySummary():
-    '''public String getInventorySummary(final boolean cached, final String fileName)
+    '''returns String\n\n
+    getInventorySummary(final boolean cached, final String fileName)\n
     '''
 def getAttributesWithReplacementValues():
-    '''public String[] getAttributesWithReplacementValues(final String fqModelObjectClass)
+    '''returns String[]\n\n
+    getAttributesWithReplacementValues(final String fqModelObjectClass)\n
     '''
 def getReplacementValues():
-    '''public String[] getReplacementValues(final String fqModelObjectClass, final String attribute)
+    '''returns String[]\n\n
+    getReplacementValues(final String fqModelObjectClass, final String attribute)\n
     '''
 def generateExplicitRelationships():
-    '''public void generateExplicitRelationships()
+    '''returns None\n\n
+    generateExplicitRelationships()\n
     '''
 def getAttrPrioClassMeta():
-    '''public String getAttrPrioClassMeta()
+    '''returns String\n\n
+    getAttrPrioClassMeta()\n
     '''
 def getDataSources():
-    '''public ArrayList getDataSources()
+    '''returns ArrayList\n\n
+    getDataSources()\n
     '''
 def setDataSources():
-    '''public Guid[] setDataSources(final ArrayList dataSources)
+    '''returns Guid[]\n\n
+    setDataSources(final ArrayList dataSources)\n
     '''
 def removeDataSources():
-    '''public void removeDataSources(final ArrayList dataSources)
+    '''returns None\n\n
+    removeDataSources(final ArrayList dataSources)\n
     '''
 def getPriorityRules():
-    '''public ArrayList getPriorityRules()
+    '''returns ArrayList\n\n
+    getPriorityRules()\n
     '''
 def setPriorityRules():
-    '''public Guid[] setPriorityRules(final ArrayList priorityRules)
+    '''returns Guid[]\n\n
+    setPriorityRules(final ArrayList priorityRules)\n
     '''
 def removePriorityRules():
-    '''public void removePriorityRules(final ArrayList priorityRules)
+    '''returns None\n\n
+    removePriorityRules(final ArrayList priorityRules)\n
     '''
 def mergeObjects():
-    '''public int mergeObjects(final Guid durableGuid, final Guid transientGuid, final int mergeType)
+    '''returns int\n\n
+    mergeObjects(final Guid durableGuid, final Guid transientGuid, final int mergeType)\n
     '''
 def assignMssToDataSource():
-    '''public boolean assignMssToDataSource(final Guid mssGuid, final AttributePrioDataSources apds)
+    '''returns boolean\n\n
+    assignMssToDataSource(final Guid mssGuid, final AttributePrioDataSources apds)\n
     '''
 def validateBidiFormat():
-    '''public boolean validateBidiFormat(final String bFormat)
+    '''returns boolean\n\n
+    validateBidiFormat(final String bFormat)\n
     '''
 def createBidiProfile():
-    '''public BidiProfile createBidiProfile(final String name, final String desc, final String format)
+    '''returns BidiProfile\n\n
+    createBidiProfile(final String name, final String desc, final String format)\n
     '''

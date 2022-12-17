@@ -1,24 +1,32 @@
-def MboSetResource():
-    '''public MboSetResource(final MboSetRemote mboSet)
+def ():
+    '''returns MboSetResource\n\n
+    (final MboSetRemote mboSet)\n
     '''
 def cleanUpCallBack():
-    '''public void cleanUpCallBack()
+    '''returns None\n\n
+    cleanUpCallBack()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def setLastAccessedCount():
-    '''public void setLastAccessedCount(final int count)
+    '''returns None\n\n
+    setLastAccessedCount(final int count)\n
     '''
 def getLastAccessedCount():
-    '''public int getLastAccessedCount()
+    '''returns int\n\n
+    getLastAccessedCount()\n
     '''
 def getTotalCount():
-    '''public int getTotalCount()
+    '''returns int\n\n
+    getTotalCount()\n
     '''
 def setMaxRowStamp():
-    '''public void setMaxRowStamp(final Long longValue)
+    '''returns None\n\n
+    setMaxRowStamp(final Long longValue)\n
     '''
 def getMaxRowStamp():
-    '''public Long getMaxRowStamp()
+    '''returns Long\n\n
+    getMaxRowStamp()\n
     '''

@@ -1,3 +1,4 @@
-def PlusPAgreeDummySet():
-    '''public PlusPAgreeDummySet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAgreeDummySet\n\n
+    (final MboServerInterface ms)\n
     '''

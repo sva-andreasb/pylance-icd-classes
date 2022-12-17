@@ -1,3 +1,4 @@
 def selectpeople():
-    '''public int selectpeople()
+    '''returns int\n\n
+    selectpeople()\n
     '''

@@ -1,35 +1,42 @@
 oracleProductName = "String  \"Oracle\""
 db2ProductName = "String  \"DB2\""
-def JspSurveyBean():
-    '''public JspSurveyBean()
+def ():
+    '''returns JspSurveyBean\n\n
+    ()\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def getDatabaseProductName():
-    '''public String getDatabaseProductName()
+    '''returns String\n\n
+    getDatabaseProductName()\n
     '''
 def composeQuestionAnswer():
-    '''public void composeQuestionAnswer(final String surveyId, final JspWriter out, final String imagePath)
+    '''returns None\n\n
+    composeQuestionAnswer(final String surveyId, final JspWriter out, final String imagePath)\n
     '''
 def getTemplFooter():
-    '''public String getTemplFooter()
+    '''returns String\n\n
+    getTemplFooter()\n
     '''
 def setTemplFooter():
-    '''public void setTemplFooter(final String templFooter)
+    '''returns None\n\n
+    setTemplFooter(final String templFooter)\n
     '''
 def ProcessSurveyResponse():
-    '''public void ProcessSurveyResponse(final HttpServletRequest request, final String surveyId)
+    '''returns None\n\n
+    ProcessSurveyResponse(final HttpServletRequest request, final String surveyId)\n
     '''
 def setNoUnTrackedViewed():
-    '''public void setNoUnTrackedViewed(final String surveyId)
+    '''returns None\n\n
+    setNoUnTrackedViewed(final String surveyId)\n
     '''
 def canAccessSurvey():
-    '''public boolean canAccessSurvey(final String surveyId)
-    '''
-def generateKey():
-    '''public static synchronized long generateKey(final Connection con, final String tbName, final String name)
+    '''returns boolean\n\n
+    canAccessSurvey(final String surveyId)\n
     '''
 def setLangcode():
-    '''public void setLangcode(final String lang)
+    '''returns None\n\n
+    setLangcode(final String lang)\n
     '''

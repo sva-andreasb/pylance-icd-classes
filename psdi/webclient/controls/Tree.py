@@ -1,162 +1,211 @@
 CONST_RESTRICT_ACTION_ON_LEAFNODES = "String  \"LEAF_NODES\""
 CONST_RESTRICT_ACTION_ON_BRANCHNODES = "String  \"BRANCH_NODES\""
-def Tree():
-    '''public Tree()
+def ():
+    '''returns Tree\n\n
+    ()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def collectNodeAttributes():
-    '''public void collectNodeAttributes()
+    '''returns None\n\n
+    collectNodeAttributes()\n
     '''
 def supportsMarkedForDelete():
-    '''public boolean supportsMarkedForDelete()
+    '''returns boolean\n\n
+    supportsMarkedForDelete()\n
     '''
 def selectnode():
-    '''public void selectnode()
+    '''returns None\n\n
+    selectnode()\n
     '''
 def setcurrentnode():
-    '''public void setcurrentnode(final String newobjectname, final String newuniqueIdName, final String newuniqueIdValue)
+    '''returns None\n\n
+    setcurrentnode(final String newobjectname, final String newuniqueIdName, final String newuniqueIdValue)\n
     '''
 def createNodes():
-    '''public void createNodes()
+    '''returns None\n\n
+    createNodes()\n
     '''
 def getTop():
-    '''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getTop(final String[] dataattributes, final int maxchildren)\n
     '''
 def getChildren():
-    '''public Object[][] getChildren(final String objectname, final String uniqueId, final String[] dataAttributes, final int maxChildren)
-    public Object[][] getChildren(final String objectname, final String uniqueId)
+    '''returns Object[][]\n\n
+    getChildren(final String objectname, final String uniqueId, final String[] dataAttributes, final int maxChildren)\n
+    getChildren(final String objectname, final String uniqueId)\n
     '''
 def getPathToTop():
-    '''public Object[][] getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)\n
     '''
 def getpathtotop():
-    '''public void getpathtotop()
+    '''returns None\n\n
+    getpathtotop()\n
     '''
 def getMboValueData():
-    '''public Object[] getMboValueData(final String[] dataAttributes)
+    '''returns Object[]\n\n
+    getMboValueData(final String[] dataAttributes)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String objectname, final String uniqueId, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String objectname, final String uniqueId, final String hierarchy)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String newobjectname)
+    '''returns None\n\n
+    setObjectName(final String newobjectname)\n
     '''
 def getUniqueIdName():
-    '''public String getUniqueIdName()
+    '''returns String\n\n
+    getUniqueIdName()\n
     '''
 def setUniqueIdName():
-    '''public void setUniqueIdName(final String newuniqueIdName)
+    '''returns None\n\n
+    setUniqueIdName(final String newuniqueIdName)\n
     '''
 def getUniqueIdValue():
-    '''public String getUniqueIdValue()
+    '''returns String\n\n
+    getUniqueIdValue()\n
     '''
 def setUniqueIdValue():
-    '''public void setUniqueIdValue(final String newUniqueIdValue)
+    '''returns None\n\n
+    setUniqueIdValue(final String newUniqueIdValue)\n
     '''
 def getRestrictActionOn():
-    '''public String getRestrictActionOn()
+    '''returns String\n\n
+    getRestrictActionOn()\n
     '''
 def setRefreshTree():
-    '''public void setRefreshTree(final boolean flag)
+    '''returns None\n\n
+    setRefreshTree(final boolean flag)\n
     '''
 def getSourceAttributeValue():
-    '''public String getSourceAttributeValue()
+    '''returns String\n\n
+    getSourceAttributeValue()\n
     '''
 def setSourceAttributeValue():
-    '''public void setSourceAttributeValue(final String sourceAttributeValue)
+    '''returns None\n\n
+    setSourceAttributeValue(final String sourceAttributeValue)\n
     '''
 def getSourceDataAttribute():
-    '''public String getSourceDataAttribute()
+    '''returns String\n\n
+    getSourceDataAttribute()\n
     '''
 def setSourceDataAttribute():
-    '''public void setSourceDataAttribute(final String sourceDataAttribute)
+    '''returns None\n\n
+    setSourceDataAttribute(final String sourceDataAttribute)\n
     '''
 def getTreeDataBean():
-    '''public TreeControlBean getTreeDataBean()
+    '''returns TreeControlBean\n\n
+    getTreeDataBean()\n
     '''
 def setTreeDataBean():
-    '''public void setTreeDataBean(final TreeControlBean treeDataBean)
+    '''returns None\n\n
+    setTreeDataBean(final TreeControlBean treeDataBean)\n
     '''
 def openFirstLevel():
-    '''public boolean openFirstLevel()
+    '''returns boolean\n\n
+    openFirstLevel()\n
     '''
 def expandAllNodes():
-    '''public boolean expandAllNodes()
+    '''returns boolean\n\n
+    expandAllNodes()\n
     '''
 def selectFirstNode():
-    '''public boolean selectFirstNode()
+    '''returns boolean\n\n
+    selectFirstNode()\n
     '''
 def getNodeDataAttributes():
-    '''public String[] getNodeDataAttributes()
+    '''returns String[]\n\n
+    getNodeDataAttributes()\n
     '''
 def getNodeDelimiter():
-    '''public String getNodeDelimiter()
+    '''returns String\n\n
+    getNodeDelimiter()\n
     '''
 def getNodeAttributeDefinition():
-    '''public ArrayList getNodeAttributeDefinition()
-    '''
-def getTreeNodeInfo():
-    '''public Hashtable<String, String> getTreeNodeInfo()
+    '''returns ArrayList\n\n
+    getNodeAttributeDefinition()\n
     '''
 def setTreeNodeInfo():
-    '''public void setTreeNodeInfo(final Hashtable<String, String> treeNodeInfo)
+    '''returns None\n\n
+    setTreeNodeInfo(final Hashtable<String, String> treeNodeInfo)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def getSelectedNode():
-    '''public TreeNode getSelectedNode()
+    '''returns TreeNode\n\n
+    getSelectedNode()\n
     '''
 def getLastSelectedNodeId():
-    '''public String getLastSelectedNodeId()
+    '''returns String\n\n
+    getLastSelectedNodeId()\n
     '''
 def setSelectedNode():
-    '''public void setSelectedNode(final TreeNode newSelectedNode)
+    '''returns None\n\n
+    setSelectedNode(final TreeNode newSelectedNode)\n
     '''
 def getBreadcrumbs():
-    '''public ArrayList getBreadcrumbs()
+    '''returns ArrayList\n\n
+    getBreadcrumbs()\n
     '''
 def setBreadcrumbs():
-    '''public void setBreadcrumbs(final ArrayList newBreadcrumbs)
+    '''returns None\n\n
+    setBreadcrumbs(final ArrayList newBreadcrumbs)\n
     '''
 def getBreadcrumbPath():
-    '''public ArrayList getBreadcrumbPath()
+    '''returns ArrayList\n\n
+    getBreadcrumbPath()\n
     '''
 def setBreadcrumbPath():
-    '''public void setBreadcrumbPath(final ArrayList newBreadcrumbPath)
+    '''returns None\n\n
+    setBreadcrumbPath(final ArrayList newBreadcrumbPath)\n
     '''
 def breadcrumbselected():
-    '''public int breadcrumbselected()
+    '''returns int\n\n
+    breadcrumbselected()\n
     '''
 def boundToBreadcrumbs():
-    '''public void boundToBreadcrumbs()
+    '''returns None\n\n
+    boundToBreadcrumbs()\n
     '''
 def isBoundToBreadcrumbs():
-    '''public boolean isBoundToBreadcrumbs()
+    '''returns boolean\n\n
+    isBoundToBreadcrumbs()\n
     '''
 def clearbreadcrumbs():
-    '''public int clearbreadcrumbs()
+    '''returns int\n\n
+    clearbreadcrumbs()\n
     '''
 def checkForNewNodes():
-    '''public boolean checkForNewNodes()
+    '''returns boolean\n\n
+    checkForNewNodes()\n
     '''
 def getTopULId():
-    '''public String getTopULId()
+    '''returns String\n\n
+    getTopULId()\n
     '''
 def setTopULId():
-    '''public void setTopULId(final String id)
+    '''returns None\n\n
+    setTopULId(final String id)\n
     '''

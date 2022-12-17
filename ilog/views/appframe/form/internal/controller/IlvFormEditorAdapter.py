@@ -1,3 +1,4 @@
 def receivedEditorEvent():
-    '''public void receivedEditorEvent(final FormEditorEvent formEditorEvent)
+    '''returns None\n\n
+    receivedEditorEvent(final FormEditorEvent formEditorEvent)\n
     '''

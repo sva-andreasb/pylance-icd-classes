@@ -1,6 +1,8 @@
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getDefaultValue():
-    '''public Value getDefaultValue()
+    '''returns Value\n\n
+    getDefaultValue()\n
     '''

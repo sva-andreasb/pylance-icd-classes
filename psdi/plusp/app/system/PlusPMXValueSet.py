@@ -1,13 +1,12 @@
-def PlusPMXValueSet():
-    '''public PlusPMXValueSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPMXValueSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def checkCompleteValues():
-    '''public void checkCompleteValues()
-    '''
-def getAppropriateValueId():
-    '''public static String getAppropriateValueId(final MboRemote mboRemote)
-    public static String getAppropriateValueId(final MboRemote mboRemote, final String str, final String str2, final String str3)
+    '''returns None\n\n
+    checkCompleteValues()\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''

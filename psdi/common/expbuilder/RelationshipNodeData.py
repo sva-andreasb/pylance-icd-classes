@@ -1,48 +1,64 @@
-def RelationshipNodeData():
-    '''public RelationshipNodeData(final long uniqueID)
+def ():
+    '''returns RelationshipNodeData\n\n
+    (final long uniqueID)\n
     '''
 def getUniqueID():
-    '''public long getUniqueID()
+    '''returns long\n\n
+    getUniqueID()\n
     '''
 def getUserFriendlyLabel():
-    '''public String getUserFriendlyLabel()
+    '''returns String\n\n
+    getUserFriendlyLabel()\n
     '''
 def getLineage():
-    '''public String getLineage()
+    '''returns String\n\n
+    getLineage()\n
     '''
 def getParentLine():
-    '''public String getParentLine()
+    '''returns String\n\n
+    getParentLine()\n
     '''
 def getNodeType():
-    '''public String getNodeType()
+    '''returns String\n\n
+    getNodeType()\n
     '''
 def getImmediateLineage():
-    '''public long getImmediateLineage()
+    '''returns long\n\n
+    getImmediateLineage()\n
     '''
 def getMboUniqueID():
-    '''public long getMboUniqueID()
+    '''returns long\n\n
+    getMboUniqueID()\n
     '''
 def isParent():
-    '''public boolean isParent()
+    '''returns boolean\n\n
+    isParent()\n
     '''
 def setUserFriendlyLabel():
-    '''public void setUserFriendlyLabel(final String label)
+    '''returns None\n\n
+    setUserFriendlyLabel(final String label)\n
     '''
 def setLineage():
-    '''public void setLineage(final String lineage)
+    '''returns None\n\n
+    setLineage(final String lineage)\n
     '''
 def setParentLine():
-    '''public void setParentLine(final String parent)
+    '''returns None\n\n
+    setParentLine(final String parent)\n
     '''
 def setParent():
-    '''public void setParent(final boolean flag)
+    '''returns None\n\n
+    setParent(final boolean flag)\n
     '''
 def setNodeType():
-    '''public void setNodeType(final String type)
+    '''returns None\n\n
+    setNodeType(final String type)\n
     '''
 def setImmediateLineage():
-    '''public void setImmediateLineage(final long uniqueID)
+    '''returns None\n\n
+    setImmediateLineage(final long uniqueID)\n
     '''
 def setMboUniqueID():
-    '''public void setMboUniqueID(final long uniqueID)
+    '''returns None\n\n
+    setMboUniqueID(final long uniqueID)\n
     '''

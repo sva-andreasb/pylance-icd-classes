@@ -1,6 +1,8 @@
-def AuthParamBean():
-    '''public AuthParamBean(final HttpParams params)
+def ():
+    '''returns AuthParamBean\n\n
+    (final HttpParams params)\n
     '''
 def setCredentialCharset():
-    '''public void setCredentialCharset(final String charset)
+    '''returns None\n\n
+    setCredentialCharset(final String charset)\n
     '''

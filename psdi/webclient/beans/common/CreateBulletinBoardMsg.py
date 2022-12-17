@@ -1,3 +1,4 @@
 def docancel():
-    '''public int docancel()
+    '''returns int\n\n
+    docancel()\n
     '''

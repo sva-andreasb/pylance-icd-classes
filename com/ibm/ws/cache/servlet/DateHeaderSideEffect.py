@@ -1,9 +1,12 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def DateHeaderSideEffect():
-    '''public DateHeaderSideEffect(final String name, final long value, final boolean set)
+def ():
+    '''returns DateHeaderSideEffect\n\n
+    (final String name, final long value, final boolean set)\n
     '''
 def performSideEffect():
-    '''public void performSideEffect(final HttpServletResponse response)
+    '''returns None\n\n
+    performSideEffect(final HttpServletResponse response)\n
     '''

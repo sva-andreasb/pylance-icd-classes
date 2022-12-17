@@ -1,12 +1,16 @@
 def bytesLength():
-    '''public int bytesLength()
+    '''returns int\n\n
+    bytesLength()\n
     '''
 def byteAt():
-    '''public byte byteAt(final int index)
+    '''returns byte\n\n
+    byteAt(final int index)\n
     '''
 def copyBytesTo():
-    '''public void copyBytesTo(final byte[] dest, final int destOffset)
+    '''returns None\n\n
+    copyBytesTo(final byte[] dest, final int destOffset)\n
     '''
 def bytesAsByteBuffer():
-    '''public ByteBuffer bytesAsByteBuffer()
+    '''returns ByteBuffer\n\n
+    bytesAsByteBuffer()\n
     '''

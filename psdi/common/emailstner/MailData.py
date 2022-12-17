@@ -4,141 +4,187 @@ INVALID = "int  2"
 INPROCESS = "int  3"
 WORKFLOW = "int  4"
 COMPLETE = "int  5"
-def MailData():
-    '''public MailData()
+def ():
+    '''returns MailData\n\n
+    ()\n
     '''
 def getConvertCidUris():
-    '''public boolean getConvertCidUris()
+    '''returns boolean\n\n
+    getConvertCidUris()\n
     '''
 def setConvertCidUris():
-    '''public void setConvertCidUris()
+    '''returns None\n\n
+    setConvertCidUris()\n
     '''
 def getFrom():
-    '''public String getFrom()
+    '''returns String\n\n
+    getFrom()\n
     '''
 def setFrom():
-    '''public void setFrom(final String string)
+    '''returns None\n\n
+    setFrom(final String string)\n
     '''
 def getTo():
-    '''public String getTo()
+    '''returns String\n\n
+    getTo()\n
     '''
 def setTo():
-    '''public void setTo(final String str)
+    '''returns None\n\n
+    setTo(final String str)\n
     '''
 def getCC():
-    '''public String getCC()
+    '''returns String\n\n
+    getCC()\n
     '''
 def setCC():
-    '''public void setCC(final String str)
+    '''returns None\n\n
+    setCC(final String str)\n
     '''
 def getBCC():
-    '''public String getBCC()
+    '''returns String\n\n
+    getBCC()\n
     '''
 def setBCC():
-    '''public void setBCC(final String str)
+    '''returns None\n\n
+    setBCC(final String str)\n
     '''
 def getSubject():
-    '''public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
     '''
 def setSubject():
-    '''public void setSubject(final String str)
+    '''returns None\n\n
+    setSubject(final String str)\n
     '''
 def getPriority():
-    '''public String getPriority()
+    '''returns String\n\n
+    getPriority()\n
     '''
 def setPriority():
-    '''public void setPriority(final String mailPriority)
+    '''returns None\n\n
+    setPriority(final String mailPriority)\n
     '''
 def getMailer():
-    '''public String getMailer()
+    '''returns String\n\n
+    getMailer()\n
     '''
 def setMailer():
-    '''public void setMailer(final String name)
+    '''returns None\n\n
+    setMailer(final String name)\n
     '''
 def getReceiveDate():
-    '''public Date getReceiveDate()
+    '''returns Date\n\n
+    getReceiveDate()\n
     '''
 def setReceiveDate():
-    '''public void setReceiveDate(final Date d)
+    '''returns None\n\n
+    setReceiveDate(final Date d)\n
     '''
 def getSentDate():
-    '''public Date getSentDate()
+    '''returns Date\n\n
+    getSentDate()\n
     '''
 def setSentDate():
-    '''public void setSentDate(final Date d)
+    '''returns None\n\n
+    setSentDate(final Date d)\n
     '''
 def getMessageBody():
-    '''public String getMessageBody()
+    '''returns String\n\n
+    getMessageBody()\n
     '''
 def setMessageBody():
-    '''public void setMessageBody(final String str)
+    '''returns None\n\n
+    setMessageBody(final String str)\n
     '''
 def getBodyParts():
-    '''public Vector getBodyParts()
+    '''returns Vector\n\n
+    getBodyParts()\n
     '''
 def setBodyParts():
-    '''public void setBodyParts(final Vector v)
+    '''returns None\n\n
+    setBodyParts(final Vector v)\n
     '''
 def getReplyTo():
-    '''public String getReplyTo()
+    '''returns String\n\n
+    getReplyTo()\n
     '''
 def setReplyTo():
-    '''public void setReplyTo(final String str)
+    '''returns None\n\n
+    setReplyTo(final String str)\n
     '''
 def getMailId():
-    '''public String getMailId()
+    '''returns String\n\n
+    getMailId()\n
     '''
 def setMailId():
-    '''public void setMailId(final String str)
+    '''returns None\n\n
+    setMailId(final String str)\n
     '''
 def getPersonId():
-    '''public String getPersonId()
+    '''returns String\n\n
+    getPersonId()\n
     '''
 def setPersonId():
-    '''public void setPersonId(final String str)
+    '''returns None\n\n
+    setPersonId(final String str)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String str)
+    '''returns None\n\n
+    setObjectName(final String str)\n
     '''
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''
 def setAction():
-    '''public void setAction(final String str)
+    '''returns None\n\n
+    setAction(final String str)\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final int id)
+    '''returns None\n\n
+    setStatus(final int id)\n
     '''
 def setInbCommUserInfo():
-    '''public void setInbCommUserInfo(final UserInfo ui)
+    '''returns None\n\n
+    setInbCommUserInfo(final UserInfo ui)\n
     '''
 def getInbCommUserInfo():
-    '''public UserInfo getInbCommUserInfo()
+    '''returns UserInfo\n\n
+    getInbCommUserInfo()\n
     '''
 def setMsgBodyContainsHtml():
-    '''public void setMsgBodyContainsHtml()
+    '''returns None\n\n
+    setMsgBodyContainsHtml()\n
     '''
 def setHandleCidImages():
-    '''public void setHandleCidImages()
+    '''returns None\n\n
+    setHandleCidImages()\n
     '''
 def setMsgBodyContainsCidUris():
-    '''public void setMsgBodyContainsCidUris()
+    '''returns None\n\n
+    setMsgBodyContainsCidUris()\n
     '''
 def getImgSrcCidUris():
-    '''public List<String> getImgSrcCidUris()
+    '''returns List<String>\n\n
+    getImgSrcCidUris()\n
     '''
 def setImgSrcCidUris():
-    '''public void setImgSrcCidUris(final List<String> imgSrcUris)
+    '''returns None\n\n
+    setImgSrcCidUris(final List<String> imgSrcUris)\n
     '''
 def getMimeBodyPartImageCids():
-    '''public List<String> getMimeBodyPartImageCids()
+    '''returns List<String>\n\n
+    getMimeBodyPartImageCids()\n
     '''
 def setMimeBodyPartImageCids():
-    '''public void setMimeBodyPartImageCids(final List<String> bodyPartCids)
+    '''returns None\n\n
+    setMimeBodyPartImageCids(final List<String> bodyPartCids)\n
     '''

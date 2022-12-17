@@ -1,28 +1,37 @@
 def execute():
-    '''public boolean execute()
-    public boolean execute(final FileVisitor<Path> visitor)
+    '''returns boolean\n\n
+    execute()\n
+    execute(final FileVisitor<Path> visitor)\n
     '''
 def getBasePath():
-    '''public Path getBasePath()
+    '''returns Path\n\n
+    getBasePath()\n
     '''
 def getBasePathString():
-    '''public String getBasePathString()
+    '''returns String\n\n
+    getBasePathString()\n
     '''
 def getStrSubstitutor():
-    '''public StrSubstitutor getStrSubstitutor()
+    '''returns StrSubstitutor\n\n
+    getStrSubstitutor()\n
     '''
 def getOptions():
-    '''public Set<FileVisitOption> getOptions()
+    '''returns Set<FileVisitOption>\n\n
+    getOptions()\n
     '''
 def isFollowSymbolicLinks():
-    '''public boolean isFollowSymbolicLinks()
+    '''returns boolean\n\n
+    isFollowSymbolicLinks()\n
     '''
 def getMaxDepth():
-    '''public int getMaxDepth()
+    '''returns int\n\n
+    getMaxDepth()\n
     '''
 def getPathConditions():
-    '''public List<PathCondition> getPathConditions()
+    '''returns List<PathCondition>\n\n
+    getPathConditions()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

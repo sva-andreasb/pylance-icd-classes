@@ -1,85 +1,92 @@
 def getFormatString():
-    '''public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
-    public String getFormatString()
-    public String getFormatString(final Locale locale)
+    '''returns String\n\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
     '''
 def format():
-    '''public String format(final DateFormat dateFormat, final Calendar calendar)
-    public String format(final DateFormat dateFormat, final Calendar calendar, final Locale locale)
-    public String format(final DateFormat dateFormat, final Calendar calendar, final Locale locale)
+    '''returns String\n\n
+    format(final DateFormat dateFormat, final Calendar calendar)\n
+    format(final DateFormat dateFormat, final Calendar calendar, final Locale locale)\n
+    format(final DateFormat dateFormat, final Calendar calendar, final Locale locale)\n
     '''
 def previousUnitTime():
-    '''public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
-    public Calendar previousUnitTime(final Calendar calendar)
+    '''returns Calendar\n\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
+    previousUnitTime(final Calendar calendar)\n
     '''
 def incrementTime():
-    '''public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
-    public Calendar incrementTime(final Calendar calendar)
+    '''returns Calendar\n\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
+    incrementTime(final Calendar calendar)\n
     '''
 def getMillis():
-    '''public double getMillis()
-    public double getMillis()
-    public double getMillis()
-    public double getMillis()
-    public double getMillis()
-    public double getMillis()
-    public double getMillis()
-    public double getMillis()
-    public double getMillis()
-    public double getMillis()
-    public double getMillis()
+    '''returns double\n\n
+    getMillis()\n
+    getMillis()\n
+    getMillis()\n
+    getMillis()\n
+    getMillis()\n
+    getMillis()\n
+    getMillis()\n
+    getMillis()\n
+    getMillis()\n
+    getMillis()\n
+    getMillis()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def get():
-    '''public T get(final Locale locale)
+    '''returns T\n\n
+    get(final Locale locale)\n
     '''

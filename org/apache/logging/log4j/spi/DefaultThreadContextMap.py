@@ -1,57 +1,54 @@
 INHERITABLE_MAP = "String  \"isThreadContextMapInheritable\""
-def DefaultThreadContextMap():
-    '''public DefaultThreadContextMap()
-    public DefaultThreadContextMap(final boolean useMap)
+def ():
+    '''returns DefaultThreadContextMap\n\n
+    ()\n
+    (final boolean useMap)\n
     '''
 def put():
-    '''public void put(final String key, final String value)
+    '''returns None\n\n
+    put(final String key, final String value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<String, String> m)
+    '''returns None\n\n
+    putAll(final Map<String, String> m)\n
     '''
 def get():
-    '''public String get(final String key)
+    '''returns String\n\n
+    get(final String key)\n
     '''
 def remove():
-    '''public void remove(final String key)
+    '''returns None\n\n
+    remove(final String key)\n
     '''
 def removeAll():
-    '''public void removeAll(final Iterable<String> keys)
+    '''returns None\n\n
+    removeAll(final Iterable<String> keys)\n
     '''
 def clear():
-    '''public void clear()
-    '''
-def toMap():
-    '''public Map<String, String> toMap()
+    '''returns None\n\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String key)
-    '''
-def forEach():
-    '''public <V> void forEach(final BiConsumer<String, ? super V> action)
-    public <V, S> void forEach(final TriConsumer<String, ? super V, S> action, final S state)
-    '''
-def getValue():
-    '''public <V> V getValue(final String key)
-    '''
-def getCopy():
-    '''public Map<String, String> getCopy()
-    '''
-def getImmutableMapOrNull():
-    '''public Map<String, String> getImmutableMapOrNull()
+    '''returns boolean\n\n
+    containsKey(final String key)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

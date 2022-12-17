@@ -1,60 +1,80 @@
 def getDescription():
-    '''public Description getDescription()
+    '''returns Description\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final Description value)
+    '''returns None\n\n
+    setDescription(final Description value)\n
     '''
 def getActionScript():
-    '''public ActionScript getActionScript()
+    '''returns ActionScript\n\n
+    getActionScript()\n
     '''
 def setActionScript():
-    '''public void setActionScript(final ActionScript value)
+    '''returns None\n\n
+    setActionScript(final ActionScript value)\n
     '''
 def getSuccessCriteria():
-    '''public ActionSuccessCriteria getSuccessCriteria()
+    '''returns ActionSuccessCriteria\n\n
+    getSuccessCriteria()\n
     '''
 def setSuccessCriteria():
-    '''public void setSuccessCriteria(final ActionSuccessCriteria value)
+    '''returns None\n\n
+    setSuccessCriteria(final ActionSuccessCriteria value)\n
     '''
 def isSuccessCriteriaLocked():
-    '''public Boolean isSuccessCriteriaLocked()
+    '''returns Boolean\n\n
+    isSuccessCriteriaLocked()\n
     '''
 def setSuccessCriteriaLocked():
-    '''public void setSuccessCriteriaLocked(final Boolean value)
+    '''returns None\n\n
+    setSuccessCriteriaLocked(final Boolean value)\n
     '''
 def getSettings():
-    '''public ActionSettingsType getSettings()
+    '''returns ActionSettingsType\n\n
+    getSettings()\n
     '''
 def setSettings():
-    '''public void setSettings(final ActionSettingsType value)
+    '''returns None\n\n
+    setSettings(final ActionSettingsType value)\n
     '''
 def getSettingsLocks():
-    '''public ActionSettingsLocks getSettingsLocks()
+    '''returns ActionSettingsLocks\n\n
+    getSettingsLocks()\n
     '''
 def setSettingsLocks():
-    '''public void setSettingsLocks(final ActionSettingsLocks value)
+    '''returns None\n\n
+    setSettingsLocks(final ActionSettingsLocks value)\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def setID():
-    '''public void setID(final String value)
+    '''returns None\n\n
+    setID(final String value)\n
     '''
 def getPreLink():
-    '''public String getPreLink()
+    '''returns String\n\n
+    getPreLink()\n
     '''
 def setPreLink():
-    '''public void setPreLink(final String value)
+    '''returns None\n\n
+    setPreLink(final String value)\n
     '''
 def getLink():
-    '''public String getLink()
+    '''returns String\n\n
+    getLink()\n
     '''
 def setLink():
-    '''public void setLink(final String value)
+    '''returns None\n\n
+    setLink(final String value)\n
     '''
 def getPostLink():
-    '''public String getPostLink()
+    '''returns String\n\n
+    getPostLink()\n
     '''
 def setPostLink():
-    '''public void setPostLink(final String value)
+    '''returns None\n\n
+    setPostLink(final String value)\n
     '''

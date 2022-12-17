@@ -1,27 +1,36 @@
-def PointQueryNode():
-    '''public PointQueryNode(final CharSequence field, final Number value, final NumberFormat numberFormat)
+def ():
+    '''returns PointQueryNode\n\n
+    (final CharSequence field, final Number value, final NumberFormat numberFormat)\n
     '''
 def getField():
-    '''public CharSequence getField()
+    '''returns CharSequence\n\n
+    getField()\n
     '''
 def setField():
-    '''public void setField(final CharSequence fieldName)
+    '''returns None\n\n
+    setField(final CharSequence fieldName)\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escapeSyntaxParser)\n
     '''
 def setNumberFormat():
-    '''public void setNumberFormat(final NumberFormat format)
+    '''returns None\n\n
+    setNumberFormat(final NumberFormat format)\n
     '''
 def getNumberFormat():
-    '''public NumberFormat getNumberFormat()
+    '''returns NumberFormat\n\n
+    getNumberFormat()\n
     '''
 def getValue():
-    '''public Number getValue()
+    '''returns Number\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Number value)
+    '''returns None\n\n
+    setValue(final Number value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

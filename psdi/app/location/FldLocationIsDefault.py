@@ -1,3 +1,4 @@
-def FldLocationIsDefault():
-    '''public FldLocationIsDefault(final MboValue mbv)
+def ():
+    '''returns FldLocationIsDefault\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,21 +1,20 @@
-def ModifiedLabelTreeStringRenderPolicy():
-    '''public ModifiedLabelTreeStringRenderPolicy(final IlvStringProperty prop, final ModifiedLabelHelper helper)
+def ():
+    '''returns ModifiedLabelTreeStringRenderPolicy\n\n
+    (final IlvStringProperty prop, final ModifiedLabelHelper helper)\n
     '''
 def getTreeCellRendererComponent():
-    '''public Component getTreeCellRendererComponent(final JTree paramJTree, final Object paramObject, final boolean paramBoolean1, final boolean paramBoolean2, final boolean paramBoolean3, final int paramInt, final boolean paramBoolean4)
+    '''returns Component\n\n
+    getTreeCellRendererComponent(final JTree paramJTree, final Object paramObject, final boolean paramBoolean1, final boolean paramBoolean2, final boolean paramBoolean3, final int paramInt, final boolean paramBoolean4)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def isEditable():
-    '''public boolean isEditable(final IlvHierarchyNode row)
+    '''returns boolean\n\n
+    isEditable(final IlvHierarchyNode row)\n
     '''
 def getValueAsText():
-    '''public String getValueAsText(final IlvHierarchyNode node)
-    '''
-def addToResourceTree():
-    '''public static final ModifiedLabelTreeStringRenderPolicy addToResourceTree(final IlvHierarchyChart chart, final HierarchyChartPredicate<IlvHierarchyNode> predicate)
-    '''
-def addToActivityTree():
-    '''public static final ModifiedLabelTreeStringRenderPolicy addToActivityTree(final IlvHierarchyChart chart, final HierarchyChartPredicate<IlvHierarchyNode> predicate)
+    '''returns String\n\n
+    getValueAsText(final IlvHierarchyNode node)\n
     '''

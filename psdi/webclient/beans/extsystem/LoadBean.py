@@ -1,18 +1,24 @@
-def LoadBean():
-    '''public LoadBean()
+def ():
+    '''returns LoadBean\n\n
+    ()\n
     '''
 def load():
-    '''public int load()
+    '''returns int\n\n
+    load()\n
     '''
 def importdata():
-    '''public int importdata()
+    '''returns int\n\n
+    importdata()\n
     '''
 def loadData():
-    '''public int loadData()
+    '''returns int\n\n
+    loadData()\n
     '''
 def loadImport():
-    '''public void loadImport(final UploadFile file)
+    '''returns None\n\n
+    loadImport(final UploadFile file)\n
     '''
 def showPreview():
-    '''public void showPreview()
+    '''returns None\n\n
+    showPreview()\n
     '''

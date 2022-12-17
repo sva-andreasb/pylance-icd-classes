@@ -11,26 +11,27 @@ SENE = "int  9"
 HAMLE = "int  10"
 NEHASSE = "int  11"
 PAGUMEN = "int  12"
-def EthiopicCalendar():
-    '''public EthiopicCalendar()
-    public EthiopicCalendar(final TimeZone zone)
-    public EthiopicCalendar(final Locale aLocale)
-    public EthiopicCalendar(final ULocale locale)
-    public EthiopicCalendar(final TimeZone zone, final Locale aLocale)
-    public EthiopicCalendar(final TimeZone zone, final ULocale locale)
-    public EthiopicCalendar(final int year, final int month, final int date)
-    public EthiopicCalendar(final Date date)
-    public EthiopicCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
+def ():
+    '''returns EthiopicCalendar\n\n
+    ()\n
+    (final TimeZone zone)\n
+    (final Locale aLocale)\n
+    (final ULocale locale)\n
+    (final TimeZone zone, final Locale aLocale)\n
+    (final TimeZone zone, final ULocale locale)\n
+    (final int year, final int month, final int date)\n
+    (final Date date)\n
+    (final int year, final int month, final int date, final int hour, final int minute, final int second)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setAmeteAlemEra():
-    '''public void setAmeteAlemEra(final boolean onOff)
+    '''returns None\n\n
+    setAmeteAlemEra(final boolean onOff)\n
     '''
 def isAmeteAlemEra():
-    '''public boolean isAmeteAlemEra()
-    '''
-def EthiopicToJD():
-    '''public static int EthiopicToJD(final long year, final int month, final int date)
+    '''returns boolean\n\n
+    isAmeteAlemEra()\n
     '''

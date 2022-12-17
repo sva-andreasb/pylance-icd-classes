@@ -4,11 +4,12 @@ UNSUPPORTED_MARKER = "int  1"
 NOPARAM_MARKER = "int  2"
 M_APP0 = "int  224"
 M_APPE = "int  238"
-def Jpeg():
-    '''public Jpeg(final URL url)
-    public Jpeg(final URL url, final float width, final float height)
-    public Jpeg(final String filename)
-    public Jpeg(final String filename, final float width, final float height)
-    public Jpeg(final byte[] img)
-    public Jpeg(final byte[] img, final float width, final float height)
+def ():
+    '''returns Jpeg\n\n
+    (final URL url)\n
+    (final URL url, final float width, final float height)\n
+    (final String filename)\n
+    (final String filename, final float width, final float height)\n
+    (final byte[] img)\n
+    (final byte[] img, final float width, final float height)\n
     '''

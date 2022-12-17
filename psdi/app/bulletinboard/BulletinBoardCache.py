@@ -1,41 +1,53 @@
-def BulletinBoardCache():
-    '''public BulletinBoardCache()
+def ():
+    '''returns BulletinBoardCache\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
-    public void init(final MXServer mxserver)
+    '''returns None\n\n
+    init()\n
+    init(final MXServer mxserver)\n
     '''
 def getValidMessagesCount():
-    '''public int getValidMessagesCount()
+    '''returns int\n\n
+    getValidMessagesCount()\n
     '''
 def getBBSetName():
-    '''public String getBBSetName()
+    '''returns String\n\n
+    getBBSetName()\n
     '''
 def getResultSetAttributes():
-    '''public Vector<String[]> getResultSetAttributes(final boolean reload)
-    public Vector<String[]> getResultSetAttributes()
-    public Vector getResultSetAttributes(final String isTrackViewedUnViewed)
+    '''returns Vector\n\n
+    getResultSetAttributes(final boolean reload)\n
+    getResultSetAttributes()\n
+    getResultSetAttributes(final String isTrackViewedUnViewed)\n
     '''
 def getValidMessages():
-    '''public List getValidMessages(final boolean reload)
-    public List getValidMessages()
+    '''returns List\n\n
+    getValidMessages(final boolean reload)\n
+    getValidMessages()\n
     '''
 def getViewedMessages():
-    '''public List getViewedMessages(final String user)
+    '''returns List\n\n
+    getViewedMessages(final String user)\n
     '''
 def getBBMSgStatusCount():
-    '''public int getBBMSgStatusCount()
+    '''returns int\n\n
+    getBBMSgStatusCount()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setCurrentUserInfo():
-    '''public void setCurrentUserInfo(final UserInfo info)
+    '''returns None\n\n
+    setCurrentUserInfo(final UserInfo info)\n
     '''
 def getCurrentUserInfo():
-    '''public UserInfo getCurrentUserInfo()
+    '''returns UserInfo\n\n
+    getCurrentUserInfo()\n
     '''

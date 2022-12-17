@@ -1,17 +1,22 @@
-def PdfPageLabels():
-    '''public PdfPageLabels()
+def ():
+    '''returns PdfPageLabels\n\n
+    ()\n
     '''
 def compare():
-    '''public int compare(final Object obj, final Object obj1)
+    '''returns int\n\n
+    compare(final Object obj, final Object obj1)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def addPageLabel():
-    '''public void addPageLabel(final int page, final int numberStyle, final String text, final int firstPage)
-    public void addPageLabel(final int page, final int numberStyle, final String text)
-    public void addPageLabel(final int page, final int numberStyle)
+    '''returns None\n\n
+    addPageLabel(final int page, final int numberStyle, final String text, final int firstPage)\n
+    addPageLabel(final int page, final int numberStyle, final String text)\n
+    addPageLabel(final int page, final int numberStyle)\n
     '''
 def removePageLabel():
-    '''public void removePageLabel(final int page)
+    '''returns None\n\n
+    removePageLabel(final int page)\n
     '''

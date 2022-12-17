@@ -1,26 +1,34 @@
-def ArrayIterator():
-    '''public ArrayIterator(final Object array)
-    public ArrayIterator(final Object array, final int startIndex)
-    public ArrayIterator(final Object array, final int startIndex, final int endIndex)
+def ():
+    '''returns ArrayIterator\n\n
+    (final Object array)\n
+    (final Object array, final int startIndex)\n
+    (final Object array, final int startIndex, final int endIndex)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getArray():
-    '''public Object getArray()
+    '''returns Object\n\n
+    getArray()\n
     '''
 def getStartIndex():
-    '''public int getStartIndex()
+    '''returns int\n\n
+    getStartIndex()\n
     '''
 def getEndIndex():
-    '''public int getEndIndex()
+    '''returns int\n\n
+    getEndIndex()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

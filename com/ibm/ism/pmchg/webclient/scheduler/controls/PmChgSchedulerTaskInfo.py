@@ -1,124 +1,162 @@
-def PmChgSchedulerTaskInfo():
-    '''public PmChgSchedulerTaskInfo()
+def ():
+    '''returns AvailableTimeWindow\n\n
+    ()\n
+    (final String id, final List<TimeWindow> timeWindows, final boolean available)\n
     '''
 def getWonum():
-    '''public String getWonum()
+    '''returns String\n\n
+    getWonum()\n
     '''
 def setWonum():
-    '''public void setWonum(final String wonum)
+    '''returns None\n\n
+    setWonum(final String wonum)\n
     '''
 def getWorkorderId():
-    '''public long getWorkorderId()
+    '''returns long\n\n
+    getWorkorderId()\n
     '''
 def setWorkorderId():
-    '''public void setWorkorderId(final long workorderId)
+    '''returns None\n\n
+    setWorkorderId(final long workorderId)\n
     '''
 def getWoclass():
-    '''public String getWoclass()
+    '''returns String\n\n
+    getWoclass()\n
     '''
 def setWoclass():
-    '''public void setWoclass(final String woclass)
+    '''returns None\n\n
+    setWoclass(final String woclass)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isTask():
-    '''public boolean isTask()
+    '''returns boolean\n\n
+    isTask()\n
     '''
 def setTask():
-    '''public void setTask(final boolean task)
+    '''returns None\n\n
+    setTask(final boolean task)\n
     '''
 def getTaskId():
-    '''public int getTaskId()
+    '''returns int\n\n
+    getTaskId()\n
     '''
 def setTaskId():
-    '''public void setTaskId(final int taskId)
+    '''returns None\n\n
+    setTaskId(final int taskId)\n
     '''
 def isImpTask():
-    '''public boolean isImpTask()
+    '''returns boolean\n\n
+    isImpTask()\n
     '''
 def setImptask():
-    '''public void setImptask(final boolean impTask)
+    '''returns None\n\n
+    setImptask(final boolean impTask)\n
     '''
 def getParent():
-    '''public String getParent()
+    '''returns String\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final String parent)
+    '''returns None\n\n
+    setParent(final String parent)\n
     '''
 def getStartDate():
-    '''public long getStartDate()
+    '''returns long\n\n
+    getStartDate()\n
     '''
 def setStartDate():
-    '''public void setStartDate(final long startDate)
+    '''returns None\n\n
+    setStartDate(final long startDate)\n
     '''
 def getFinishDate():
-    '''public long getFinishDate()
+    '''returns long\n\n
+    getFinishDate()\n
     '''
 def setFinishDate():
-    '''public void setFinishDate(final long finishDate)
+    '''returns None\n\n
+    setFinishDate(final long finishDate)\n
     '''
 def getDuration():
-    '''public long getDuration()
+    '''returns long\n\n
+    getDuration()\n
     '''
 def setDuration():
-    '''public void setDuration(final long duration)
+    '''returns None\n\n
+    setDuration(final long duration)\n
     '''
 def isScheduled():
-    '''public boolean isScheduled()
+    '''returns boolean\n\n
+    isScheduled()\n
     '''
 def setScheduled():
-    '''public void setScheduled(final boolean scheduled)
+    '''returns None\n\n
+    setScheduled(final boolean scheduled)\n
     '''
 def getModelList():
-    '''public ArrayList<TimeWindowModel> getModelList()
+    '''returns ArrayList<TimeWindowModel>\n\n
+    getModelList()\n
     '''
 def setModelList():
-    '''public void setModelList(final ArrayList<TimeWindowModel> modelList)
+    '''returns None\n\n
+    setModelList(final ArrayList<TimeWindowModel> modelList)\n
     '''
 def getTimeWindowSet():
-    '''public TimeWindowSet getTimeWindowSet(final String str)
+    '''returns TimeWindowSet\n\n
+    getTimeWindowSet(final String str)\n
     '''
 def copyAllTimeWindows():
-    '''public void copyAllTimeWindows(final Date startDate, final Date endDate)
+    '''returns None\n\n
+    copyAllTimeWindows(final Date startDate, final Date endDate)\n
     '''
 def getAvailableTimeWindows():
-    '''public ArrayList<AvailableTimeWindow> getAvailableTimeWindows()
+    '''returns ArrayList<AvailableTimeWindow>\n\n
+    getAvailableTimeWindows()\n
     '''
 def setAvailableTimeWindows():
-    '''public void setAvailableTimeWindows(final ArrayList<AvailableTimeWindow> availableTW)
+    '''returns None\n\n
+    setAvailableTimeWindows(final ArrayList<AvailableTimeWindow> availableTW)\n
     '''
 def addToAvailableTimeWindows():
-    '''public void addToAvailableTimeWindows(final String id, final List<TimeWindow> timeWindows, final boolean available)
-    public void addToAvailableTimeWindows(final String id, final Iterator<TimeWindow> iter, final Date startDate, final Date endDate, final boolean available)
+    '''returns None\n\n
+    addToAvailableTimeWindows(final String id, final List<TimeWindow> timeWindows, final boolean available)\n
+    addToAvailableTimeWindows(final String id, final Iterator<TimeWindow> iter, final Date startDate, final Date endDate, final boolean available)\n
     '''
 def clearAvailableTimeWindows():
-    '''public void clearAvailableTimeWindows()
+    '''returns None\n\n
+    clearAvailableTimeWindows()\n
     '''
 def clearModelList():
-    '''public void clearModelList()
-    '''
-def AvailableTimeWindow():
-    '''public AvailableTimeWindow(final String id, final List<TimeWindow> timeWindows, final boolean available)
+    '''returns None\n\n
+    clearModelList()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getTimeWindows():
-    '''public List<TimeWindow> getTimeWindows()
+    '''returns List<TimeWindow>\n\n
+    getTimeWindows()\n
     '''
 def setTimeWindows():
-    '''public void setTimeWindows(final List<TimeWindow> timeWindows)
+    '''returns None\n\n
+    setTimeWindows(final List<TimeWindow> timeWindows)\n
     '''
 def isAvailable():
-    '''public boolean isAvailable()
+    '''returns boolean\n\n
+    isAvailable()\n
     '''
 def setAvailable():
-    '''public void setAvailable(final boolean available)
+    '''returns None\n\n
+    setAvailable(final boolean available)\n
     '''

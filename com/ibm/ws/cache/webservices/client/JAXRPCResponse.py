@@ -1,33 +1,40 @@
-def JAXRPCResponse():
-    '''public JAXRPCResponse()
+def ():
+    '''returns JAXRPCResponse\n\n
+    ()\n
     '''
 def getCopyValue():
-    '''public Object getCopyValue()
+    '''returns Object\n\n
+    getCopyValue()\n
     '''
 def setCopyValue():
-    '''public void setCopyValue(final Object value)
+    '''returns None\n\n
+    setCopyValue(final Object value)\n
     '''
 def getNames():
-    '''public QName[] getNames()
+    '''returns QName[]\n\n
+    getNames()\n
     '''
 def setNames():
-    '''public void setNames(final QName[] names)
+    '''returns None\n\n
+    setNames(final QName[] names)\n
     '''
 def setSerializationMethod():
-    '''public void setSerializationMethod(final String serializationMethod)
+    '''returns None\n\n
+    setSerializationMethod(final String serializationMethod)\n
     '''
 def setCopyingMethod():
-    '''public void setCopyingMethod(final String copyingMethod)
+    '''returns None\n\n
+    setCopyingMethod(final String copyingMethod)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
-    '''
-def copy():
-    '''public static Object copy(final Object src)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

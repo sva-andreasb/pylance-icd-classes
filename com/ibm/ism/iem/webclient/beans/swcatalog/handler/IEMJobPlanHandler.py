@@ -1,18 +1,24 @@
-def IEMJobPlanHandler():
-    '''public IEMJobPlanHandler(final MboRemote software, final String licenseNum, final double licenseLineCost, final double licenseRequestedCap, final String itemNum, final String ORGID, final String ITEMSETID)
+def ():
+    '''returns IEMJobPlanHandler\n\n
+    (final MboRemote software, final String licenseNum, final double licenseLineCost, final double licenseRequestedCap, final String itemNum, final String ORGID, final String ITEMSETID)\n
     '''
 def exist():
-    '''public MboRemote exist(final MXTransaction trans, final MXSession mxsession)
+    '''returns MboRemote\n\n
+    exist(final MXTransaction trans, final MXSession mxsession)\n
     '''
 def create():
-    '''public MboRemote create(final MXTransaction trans, final MXSession mxsession)
+    '''returns MboRemote\n\n
+    create(final MXTransaction trans, final MXSession mxsession)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def handle():
-    '''public void handle(final MXTransaction trans, final MXSession mxsession)
+    '''returns None\n\n
+    handle(final MXTransaction trans, final MXSession mxsession)\n
     '''
 def activateJobPlan():
-    '''public void activateJobPlan(final MXTransaction trans, final MXSession mxsession)
+    '''returns None\n\n
+    activateJobPlan(final MXTransaction trans, final MXSession mxsession)\n
     '''

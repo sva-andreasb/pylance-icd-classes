@@ -1,25 +1,33 @@
 def getThreadID():
-    '''public String getThreadID()
+    '''returns String\n\n
+    getThreadID()\n
     '''
 def getParticipant():
-    '''public String getParticipant()
+    '''returns String\n\n
+    getParticipant()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final String text)
-    public void sendMessage(final Message message)
+    '''returns None\n\n
+    sendMessage(final String text)\n
+    sendMessage(final Message message)\n
     '''
 def addMessageListener():
-    '''public void addMessageListener(final MessageListener listener)
+    '''returns None\n\n
+    addMessageListener(final MessageListener listener)\n
     '''
 def removeMessageListener():
-    '''public void removeMessageListener(final MessageListener listener)
+    '''returns None\n\n
+    removeMessageListener(final MessageListener listener)\n
     '''
 def getListeners():
-    '''public Collection<MessageListener> getListeners()
+    '''returns Collection<MessageListener>\n\n
+    getListeners()\n
     '''
 def createCollector():
-    '''public PacketCollector createCollector()
+    '''returns PacketCollector\n\n
+    createCollector()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

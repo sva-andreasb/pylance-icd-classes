@@ -1,3 +1,4 @@
-def BIMFilterEntrySet():
-    '''public BIMFilterEntrySet(final MboServerInterface ms)
+def ():
+    '''returns BIMFilterEntrySet\n\n
+    (final MboServerInterface ms)\n
     '''

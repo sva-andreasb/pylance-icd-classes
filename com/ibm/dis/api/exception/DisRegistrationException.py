@@ -1,6 +1,7 @@
-def DisRegistrationException():
-    '''public DisRegistrationException()
-    public DisRegistrationException(final String message, final Throwable cause)
-    public DisRegistrationException(final String message)
-    public DisRegistrationException(final Throwable cause)
+def ():
+    '''returns DisRegistrationException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

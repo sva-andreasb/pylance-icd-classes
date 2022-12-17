@@ -1,10 +1,9 @@
-def DPAMMoveVariantSet():
-    '''public DPAMMoveVariantSet(final MboServerInterface ms)
-    '''
-def getMoveToFieldName():
-    '''public static String getMoveToFieldName()
+def ():
+    '''returns DPAMMoveVariantSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
-    public void execute(final MboRemote owningConversion)
+    '''returns None\n\n
+    execute()\n
+    execute(final MboRemote owningConversion)\n
     '''

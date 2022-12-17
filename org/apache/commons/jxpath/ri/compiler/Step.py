@@ -1,18 +1,20 @@
 def getAxis():
-    '''public int getAxis()
+    '''returns int\n\n
+    getAxis()\n
     '''
 def getNodeTest():
-    '''public NodeTest getNodeTest()
+    '''returns NodeTest\n\n
+    getNodeTest()\n
     '''
 def getPredicates():
-    '''public Expression[] getPredicates()
+    '''returns Expression[]\n\n
+    getPredicates()\n
     '''
 def isContextDependent():
-    '''public boolean isContextDependent()
+    '''returns boolean\n\n
+    isContextDependent()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def axisToString():
-    '''public static String axisToString(final int axis)
+    '''returns String\n\n
+    toString()\n
     '''

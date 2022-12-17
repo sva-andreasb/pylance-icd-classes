@@ -1,58 +1,77 @@
-def Escalation():
-    '''public Escalation(final MboSet ms)
+def ():
+    '''returns Escalation\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def actDeactEscalation():
-    '''public MboRemote actDeactEscalation()
+    '''returns MboRemote\n\n
+    actDeactEscalation()\n
     '''
 def deactivateCronTaskInstance():
-    '''public void deactivateCronTaskInstance()
+    '''returns None\n\n
+    deactivateCronTaskInstance()\n
     '''
 def activateCronTaskInstance():
-    '''public void activateCronTaskInstance()
+    '''returns None\n\n
+    activateCronTaskInstance()\n
     '''
 def deleteCronTaskInstance():
-    '''public void deleteCronTaskInstance()
+    '''returns None\n\n
+    deleteCronTaskInstance()\n
     '''
 def createCronTaskInstance():
-    '''public void createCronTaskInstance(final CrontaskInstanceSetRemote cis)
-    public void createCronTaskInstance()
+    '''returns None\n\n
+    createCronTaskInstance(final CrontaskInstanceSetRemote cis)\n
+    createCronTaskInstance()\n
     '''
 def isCronCreated():
-    '''public boolean isCronCreated()
+    '''returns boolean\n\n
+    isCronCreated()\n
     '''
 def enableDisableSiteOrg():
-    '''public void enableDisableSiteOrg(final String objectname)
+    '''returns None\n\n
+    enableDisableSiteOrg(final String objectname)\n
     '''
 def canChangeObject():
-    '''public void canChangeObject()
+    '''returns None\n\n
+    canChangeObject()\n
     '''
 def validateEscalation():
-    '''public void validateEscalation()
+    '''returns None\n\n
+    validateEscalation()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def isEscalationActive():
-    '''public boolean isEscalationActive()
+    '''returns boolean\n\n
+    isEscalationActive()\n
     '''
 def setActiveReadOnly():
-    '''public void setActiveReadOnly()
+    '''returns None\n\n
+    setActiveReadOnly()\n
     '''
 def setReleaseActiveReadOnly():
-    '''public void setReleaseActiveReadOnly()
+    '''returns None\n\n
+    setReleaseActiveReadOnly()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''

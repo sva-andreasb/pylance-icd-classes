@@ -1,6 +1,8 @@
-def FldIntegrationObject():
-    '''public FldIntegrationObject(final MboValue mbv)
+def ():
+    '''returns FldIntegrationObject\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

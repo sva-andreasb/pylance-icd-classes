@@ -1,3 +1,4 @@
-def OSEventConditionSet():
-    '''public OSEventConditionSet(final MboServerInterface ms)
+def ():
+    '''returns OSEventConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''

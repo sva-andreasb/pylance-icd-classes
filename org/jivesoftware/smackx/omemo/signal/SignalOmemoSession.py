@@ -1,9 +1,12 @@
 def createCipher():
-    '''public SessionCipher createCipher(final OmemoDevice contact)
+    '''returns SessionCipher\n\n
+    createCipher(final OmemoDevice contact)\n
     '''
 def encryptMessageKey():
-    '''public CiphertextTuple encryptMessageKey(final byte[] messageKey)
+    '''returns CiphertextTuple\n\n
+    encryptMessageKey(final byte[] messageKey)\n
     '''
 def decryptMessageKey():
-    '''public byte[] decryptMessageKey(final byte[] encryptedKey)
+    '''returns byte[]\n\n
+    decryptMessageKey(final byte[] encryptedKey)\n
     '''

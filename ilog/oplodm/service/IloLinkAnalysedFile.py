@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloLinkAnalysedFile():
-    '''public IloLinkAnalysedFile(final URL originalURL, final String basePathInJar)
+def ():
+    '''returns IloLinkAnalysedFile\n\n
+    (final URL originalURL, final String basePathInJar)\n
     '''
 def filesToPackage():
-    '''public Iterator<IloJarableFile> filesToPackage()
+    '''returns Iterator<IloJarableFile>\n\n
+    filesToPackage()\n
     '''
 def openStream():
-    '''public InputStream openStream()
+    '''returns InputStream\n\n
+    openStream()\n
     '''

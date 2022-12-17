@@ -1,71 +1,66 @@
-def AbstractTaskCommand():
-    '''public AbstractTaskCommand(final TaskCommandMetadata inMetadata)
-    public AbstractTaskCommand(final CommandData commandData)
+def ():
+    '''returns AbstractTaskCommand\n\n
+    (final TaskCommandMetadata inMetadata)\n
+    (final CommandData commandData)\n
     '''
 def getCurrentStep():
-    '''public CommandStep getCurrentStep(final int operation)
-    public CommandStep getCurrentStep(final int operation, final String stepName)
+    '''returns CommandStep\n\n
+    getCurrentStep(final int operation)\n
+    getCurrentStep(final int operation, final String stepName)\n
     '''
 def setCurrentStep():
-    '''public void setCurrentStep(final AbstractCommandStep newCurrentStep)
+    '''returns None\n\n
+    setCurrentStep(final AbstractCommandStep newCurrentStep)\n
     '''
 def getCurrentStepIndex():
-    '''public int getCurrentStepIndex()
+    '''returns int\n\n
+    getCurrentStepIndex()\n
     '''
 def setCurrentStepIndex():
-    '''public void setCurrentStepIndex(final int index)
+    '''returns None\n\n
+    setCurrentStepIndex(final int index)\n
     '''
 def listCommandSteps():
-    '''public String[] listCommandSteps()
-    '''
-def nextStep():
-    '''public final CommandStep nextStep()
-    '''
-def previousStep():
-    '''public final CommandStep previousStep()
-    '''
-def hasNextStep():
-    '''public final boolean hasNextStep()
-    '''
-def hasPreviousStep():
-    '''public final boolean hasPreviousStep()
-    '''
-def gotoStep():
-    '''public final CommandStep gotoStep(final String stepName)
+    '''returns String[]\n\n
+    listCommandSteps()\n
     '''
 def getCommandStep():
-    '''public CommandStep getCommandStep(final String stepName)
-    '''
-def getTaskCommandData():
-    '''public final TaskCommandData getTaskCommandData()
-    '''
-def getTaskCommandMetadata():
-    '''public final TaskCommandMetadata getTaskCommandMetadata()
+    '''returns CommandStep\n\n
+    getCommandStep(final String stepName)\n
     '''
 def addStep():
-    '''public void addStep(final AbstractCommandStep step, final int index)
+    '''returns None\n\n
+    addStep(final AbstractCommandStep step, final int index)\n
     '''
 def resetCommandData():
-    '''public void resetCommandData(final CommandData cmdData)
+    '''returns None\n\n
+    resetCommandData(final CommandData cmdData)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def processTaskParameters():
-    '''public void processTaskParameters()
+    '''returns None\n\n
+    processTaskParameters()\n
     '''
 def commandParamsModified():
-    '''public void commandParamsModified()
+    '''returns None\n\n
+    commandParamsModified()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def getTaskCommandResult():
-    '''public TaskCommandResult getTaskCommandResult()
+    '''returns TaskCommandResult\n\n
+    getTaskCommandResult()\n
     '''
 def listAllStepParamsData():
-    '''public void listAllStepParamsData()
+    '''returns None\n\n
+    listAllStepParamsData()\n
     '''

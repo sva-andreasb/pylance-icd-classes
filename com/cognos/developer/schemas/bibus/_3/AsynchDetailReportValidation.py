@@ -1,37 +1,29 @@
-def AsynchDetailReportValidation():
-    '''public AsynchDetailReportValidation()
-    public AsynchDetailReportValidation(final XmlEncodedXML defects, final ValidateSeverityEnum maximumSeverity, final XmlEncodedXML queryInfo)
+def ():
+    '''returns AsynchDetailReportValidation\n\n
+    ()\n
+    (final XmlEncodedXML defects, final ValidateSeverityEnum maximumSeverity, final XmlEncodedXML queryInfo)\n
     '''
 def getDefects():
-    '''public XmlEncodedXML getDefects()
+    '''returns XmlEncodedXML\n\n
+    getDefects()\n
     '''
 def setDefects():
-    '''public void setDefects(final XmlEncodedXML defects)
+    '''returns None\n\n
+    setDefects(final XmlEncodedXML defects)\n
     '''
 def getMaximumSeverity():
-    '''public ValidateSeverityEnum getMaximumSeverity()
+    '''returns ValidateSeverityEnum\n\n
+    getMaximumSeverity()\n
     '''
 def setMaximumSeverity():
-    '''public void setMaximumSeverity(final ValidateSeverityEnum maximumSeverity)
+    '''returns None\n\n
+    setMaximumSeverity(final ValidateSeverityEnum maximumSeverity)\n
     '''
 def getQueryInfo():
-    '''public XmlEncodedXML getQueryInfo()
+    '''returns XmlEncodedXML\n\n
+    getQueryInfo()\n
     '''
 def setQueryInfo():
-    '''public void setQueryInfo(final XmlEncodedXML queryInfo)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setQueryInfo(final XmlEncodedXML queryInfo)\n
     '''

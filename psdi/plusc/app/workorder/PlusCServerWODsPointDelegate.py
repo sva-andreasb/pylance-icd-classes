@@ -1,6 +1,8 @@
-def PlusCServerWODsPointDelegate():
-    '''public PlusCServerWODsPointDelegate(final MboAdapter mbo, final PlusCWODsInstrDelegate woDsInstrDelegate)
+def ():
+    '''returns PlusCServerWODsPointDelegate\n\n
+    (final MboAdapter mbo, final PlusCWODsInstrDelegate woDsInstrDelegate)\n
     '''
 def newInstance():
-    '''public PlusCWODsPointDelegate newInstance(final MboAdapter mbo, final PlusCWODsInstrDelegate woDsInstrDelegate)
+    '''returns PlusCWODsPointDelegate\n\n
+    newInstance(final MboAdapter mbo, final PlusCWODsInstrDelegate woDsInstrDelegate)\n
     '''

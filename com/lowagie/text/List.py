@@ -1,79 +1,96 @@
-def List():
-    '''public List(final boolean numbered, final float symbolIndent)
-    public List(final boolean numbered, final boolean lettered, final float symbolIndent)
-    public List(final Properties attributes)
+def ():
+    '''returns List\n\n
+    (final boolean numbered, final float symbolIndent)\n
+    (final boolean numbered, final boolean lettered, final float symbolIndent)\n
+    (final Properties attributes)\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''
 def setIndentationLeft():
-    '''public void setIndentationLeft(final float indentation)
+    '''returns None\n\n
+    setIndentationLeft(final float indentation)\n
     '''
 def setIndentationRight():
-    '''public void setIndentationRight(final float indentation)
+    '''returns None\n\n
+    setIndentationRight(final float indentation)\n
     '''
 def setFirst():
-    '''public void setFirst(final int first)
-    public void setFirst(final char first)
+    '''returns None\n\n
+    setFirst(final int first)\n
+    setFirst(final char first)\n
     '''
 def setListSymbol():
-    '''public void setListSymbol(final Chunk symbol)
-    public void setListSymbol(final String symbol)
+    '''returns None\n\n
+    setListSymbol(final Chunk symbol)\n
+    setListSymbol(final String symbol)\n
     '''
 def getItems():
-    '''public ArrayList getItems()
+    '''returns ArrayList\n\n
+    getItems()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def leading():
-    '''public float leading()
+    '''returns float\n\n
+    leading()\n
     '''
 def isNumbered():
-    '''public boolean isNumbered()
+    '''returns boolean\n\n
+    isNumbered()\n
     '''
 def symbolIndent():
-    '''public float symbolIndent()
+    '''returns float\n\n
+    symbolIndent()\n
     '''
 def symbol():
-    '''public Chunk symbol()
+    '''returns Chunk\n\n
+    symbol()\n
     '''
 def first():
-    '''public int first()
+    '''returns int\n\n
+    first()\n
     '''
 def indentationLeft():
-    '''public float indentationLeft()
+    '''returns float\n\n
+    indentationLeft()\n
     '''
 def indentationRight():
-    '''public float indentationRight()
-    '''
-def isSymbol():
-    '''public static boolean isSymbol(final String tag)
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns float\n\n
+    indentationRight()\n
     '''
 def setMarkupAttribute():
-    '''public void setMarkupAttribute(final String name, final String value)
+    '''returns None\n\n
+    setMarkupAttribute(final String name, final String value)\n
     '''
 def setMarkupAttributes():
-    '''public void setMarkupAttributes(final Properties markupAttributes)
+    '''returns None\n\n
+    setMarkupAttributes(final Properties markupAttributes)\n
     '''
 def getMarkupAttribute():
-    '''public String getMarkupAttribute(final String name)
+    '''returns String\n\n
+    getMarkupAttribute(final String name)\n
     '''
 def getMarkupAttributeNames():
-    '''public Set getMarkupAttributeNames()
+    '''returns Set\n\n
+    getMarkupAttributeNames()\n
     '''
 def getMarkupAttributes():
-    '''public Properties getMarkupAttributes()
+    '''returns Properties\n\n
+    getMarkupAttributes()\n
     '''

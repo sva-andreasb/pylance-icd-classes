@@ -1,180 +1,173 @@
-def CacheHandler():
-    '''public CacheHandler(final String appName, final HashMap appContext)
+def ():
+    '''returns SkipCacheAttributeHandler\n\n
+    (final String appName, final HashMap appContext)\n
+    ()\n
+    (final CacheEntryReceiver receiver)\n
+    ()\n
+    ()\n
+    (final PropertyReceiver receiver)\n
+    (final ComponentReceiver receiver)\n
+    (final MethodReceiver receiver)\n
+    (final FieldReceiver receiver)\n
+    (final RangeReceiver receiver)\n
+    ()\n
+    ()\n
+    (final SkipCacheAttributeReceiver receiver)\n
     '''
 def finished():
-    '''public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
-    public void finished()
+    '''returns None\n\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
+    finished()\n
     '''
 def addCacheEntry():
-    '''public void addCacheEntry(final ConfigEntry ce)
-    public void addCacheEntry(final ConfigEntry ce)
+    '''returns None\n\n
+    addCacheEntry(final ConfigEntry ce)\n
+    addCacheEntry(final ConfigEntry ce)\n
     '''
 def setFilename():
-    '''public void setFilename(final String filename)
+    '''returns None\n\n
+    setFilename(final String filename)\n
     '''
 def getEntries():
-    '''public ArrayList getEntries()
+    '''returns ArrayList\n\n
+    getEntries()\n
     '''
 def getInstances():
-    '''public ArrayList getInstances()
+    '''returns ArrayList\n\n
+    getInstances()\n
     '''
 def addRules():
-    '''public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
-    public void addRules(final RuleHandler ruleHandler)
+    '''returns None\n\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
+    addRules(final RuleHandler ruleHandler)\n
     '''
 def addSkipCacheAttribute():
-    '''public void addSkipCacheAttribute(final String s)
-    public void addSkipCacheAttribute(final String s)
+    '''returns None\n\n
+    addSkipCacheAttribute(final String s)\n
+    addSkipCacheAttribute(final String s)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    '''
-def CacheInstanceHandler():
-    '''public CacheInstanceHandler()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def reset():
-    '''public void reset()
-    public void reset()
-    public void reset()
-    public void reset()
-    public void reset()
-    public void reset()
-    public void reset()
-    public void reset()
-    public void reset()
-    public void reset()
-    public void reset()
+    '''returns None\n\n
+    reset()\n
+    reset()\n
+    reset()\n
+    reset()\n
+    reset()\n
+    reset()\n
+    reset()\n
+    reset()\n
+    reset()\n
+    reset()\n
+    reset()\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String name, final String qName, final Attributes attrs)
-    public void startElement(final String uri, final String name, final String qName, final Attributes attrs)
-    public void startElement(final String uri, final String name, final String qName, final Attributes attrs)
-    public void startElement(final String uri, final String name, final String qName, final Attributes attrs)
-    public void startElement(final String uri, String name, final String qName, final Attributes attrs)
-    '''
-def CacheEntryHandler():
-    '''public CacheEntryHandler(final CacheEntryReceiver receiver)
+    '''returns None\n\n
+    startElement(final String uri, final String name, final String qName, final Attributes attrs)\n
+    startElement(final String uri, final String name, final String qName, final Attributes attrs)\n
+    startElement(final String uri, final String name, final String qName, final Attributes attrs)\n
+    startElement(final String uri, final String name, final String qName, final Attributes attrs)\n
+    startElement(final String uri, String name, final String qName, final Attributes attrs)\n
     '''
 def addProperty():
-    '''public void addProperty(final Property p)
-    public void addProperty(final Property p)
-    '''
-def CacheIdHandler():
-    '''public CacheIdHandler()
+    '''returns None\n\n
+    addProperty(final Property p)\n
+    addProperty(final Property p)\n
     '''
 def addComponent():
-    '''public void addComponent(final Component component)
-    public void addComponent(final Component component)
-    public void addComponent(final Component component)
+    '''returns None\n\n
+    addComponent(final Component component)\n
+    addComponent(final Component component)\n
+    addComponent(final Component component)\n
     '''
 def setInvalidId():
-    '''public void setInvalidId(final boolean invalidId)
-    public void setInvalidId(final boolean invalidId)
-    public void setInvalidId(final boolean invalidId)
-    '''
-def InvalidationHandler():
-    '''public InvalidationHandler()
-    '''
-def PropertyHandler():
-    '''public PropertyHandler(final PropertyReceiver receiver)
-    '''
-def ComponentHandler():
-    '''public ComponentHandler(final ComponentReceiver receiver)
+    '''returns None\n\n
+    setInvalidId(final boolean invalidId)\n
+    setInvalidId(final boolean invalidId)\n
+    setInvalidId(final boolean invalidId)\n
     '''
 def addMethod():
-    '''public void addMethod(final Method m)
-    public void addMethod(final Method m)
-    public void addMethod(final Method m)
+    '''returns None\n\n
+    addMethod(final Method m)\n
+    addMethod(final Method m)\n
+    addMethod(final Method m)\n
     '''
 def addField():
-    '''public void addField(final Field f)
-    public void addField(final Field f)
-    public void addField(final Field f)
-    '''
-def MethodHandler():
-    '''public MethodHandler(final MethodReceiver receiver)
-    '''
-def FieldHandler():
-    '''public FieldHandler(final FieldReceiver receiver)
+    '''returns None\n\n
+    addField(final Field f)\n
+    addField(final Field f)\n
+    addField(final Field f)\n
     '''
 def addRange():
-    '''public void addRange(final Range r)
-    public void addRange(final Range r)
-    '''
-def RangeHandler():
-    '''public RangeHandler(final RangeReceiver receiver)
-    '''
-def DependencyIdHandler():
-    '''public DependencyIdHandler()
-    '''
-def GroupHandler():
-    '''public GroupHandler()
-    '''
-def SkipCacheAttributeHandler():
-    '''public SkipCacheAttributeHandler(final SkipCacheAttributeReceiver receiver)
+    '''returns None\n\n
+    addRange(final Range r)\n
+    addRange(final Range r)\n
     '''

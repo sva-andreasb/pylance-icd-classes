@@ -1,3 +1,4 @@
-def FldQueryApp():
-    '''public FldQueryApp(final MboValue mbv)
+def ():
+    '''returns FldQueryApp\n\n
+    (final MboValue mbv)\n
     '''

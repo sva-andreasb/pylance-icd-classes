@@ -1,18 +1,24 @@
-def ICAPResult():
-    '''public ICAPResult(final GenericClientResponse response)
+def ():
+    '''returns ICAPResult\n\n
+    (final GenericClientResponse response)\n
     '''
 def getBody():
-    '''public SocketInputStream getBody()
+    '''returns SocketInputStream\n\n
+    getBody()\n
     '''
 def getHeaders():
-    '''public String getHeaders()
+    '''returns String\n\n
+    getHeaders()\n
     '''
 def getInfectionFound():
-    '''public Infection getInfectionFound()
+    '''returns Infection\n\n
+    getInfectionFound()\n
     '''
 def getStatus():
-    '''public STATUS getStatus()
+    '''returns STATUS\n\n
+    getStatus()\n
     '''
 def getViolationsFound():
-    '''public List<Violation> getViolationsFound()
+    '''returns List<Violation>\n\n
+    getViolationsFound()\n
     '''

@@ -1,15 +1,16 @@
-def GraphQueryHandlerSDB():
-    '''public GraphQueryHandlerSDB(final Graph graph, final Node graphNode, final DatasetStoreGraph datasetStore)
-    '''
-def prepareTree():
-    '''public final TreeQueryPlan prepareTree(final Graph pattern)
+def ():
+    '''returns GraphQueryHandlerSDB\n\n
+    (final Graph graph, final Node graphNode, final DatasetStoreGraph datasetStore)\n
     '''
 def prepareBindings():
-    '''public BindingQueryPlan prepareBindings(final Query q, final Node[] variables)
+    '''returns BindingQueryPlan\n\n
+    prepareBindings(final Query q, final Node[] variables)\n
     '''
 def executeBindings():
-    '''public ExtendedIterator<Domain> executeBindings()
+    '''returns ExtendedIterator<Domain>\n\n
+    executeBindings()\n
     '''
 def convert():
-    '''public Domain convert(final Binding binding)
+    '''returns Domain\n\n
+    convert(final Binding binding)\n
     '''

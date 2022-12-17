@@ -2,79 +2,88 @@ WRITE_MODE = "int  1"
 DIFFERED_CHANGES_MODE = "int  2"
 DIRECT_ACCESS_MODE = "int  4"
 ONLY_SAVE_MODIFICATIONS_MODE = "int  8"
-def IlvFormModel():
-    '''public IlvFormModel(final int c)
-    public IlvFormModel(final IlvSettings ilvSettings, final int n)
-    public IlvFormModel(final IlvSettings ilvSettings)
-    public IlvFormModel()
+def ():
+    '''returns ModelNode\n\n
+    (final int c)\n
+    (final IlvSettings ilvSettings, final int n)\n
+    (final IlvSettings ilvSettings)\n
+    ()\n
+    (final String s)\n
+    ()\n
+    (final IlvSettings a, final String c, final IlvSettings ilvSettings, final int n)\n
     '''
 def commit():
-    '''public void commit()
-    public void commit(final IlvSettings ilvSettings)
+    '''returns None\n\n
+    commit()\n
+    commit(final IlvSettings ilvSettings)\n
     '''
 def cancelModifications():
-    '''public void cancelModifications()
-    public void cancelModifications()
+    '''returns None\n\n
+    cancelModifications()\n
+    cancelModifications()\n
     '''
 def getWritableModel():
-    '''public IlvSettings getWritableModel()
-    public IlvSettings getWritableModel()
+    '''returns IlvSettings\n\n
+    getWritableModel()\n
+    getWritableModel()\n
     '''
 def addModel():
-    '''public void addModel(final IlvSettings ilvSettings, final String s)
-    public void addModel(final IlvSettingsElement ilvSettingsElement, final String s)
-    public void addModel(final IlvSettingsElement ilvSettingsElement)
+    '''returns None\n\n
+    addModel(final IlvSettings ilvSettings, final String s)\n
+    addModel(final IlvSettingsElement ilvSettingsElement, final String s)\n
+    addModel(final IlvSettingsElement ilvSettingsElement)\n
     '''
 def getParent():
-    '''public Object getParent(final Object o)
+    '''returns Object\n\n
+    getParent(final Object o)\n
     '''
 def getChildren():
-    '''public Object[] getChildren(final Object o)
+    '''returns Object[]\n\n
+    getChildren(final Object o)\n
     '''
 def getAttributeValue():
-    '''public Object getAttributeValue(final Object o, final String s)
+    '''returns Object\n\n
+    getAttributeValue(final Object o, final String s)\n
     '''
 def getType():
-    '''public String getType(final Object o)
+    '''returns String\n\n
+    getType(final Object o)\n
     '''
 def getAttributes():
-    '''public String[] getAttributes(final Object o)
+    '''returns String[]\n\n
+    getAttributes(final Object o)\n
     '''
 def addXMLFile():
-    '''public void addXMLFile(final URL url, final String s)
+    '''returns None\n\n
+    addXMLFile(final URL url, final String s)\n
     '''
 def addBeanObjects():
-    '''public void addBeanObjects(final Object[] array, final String s)
+    '''returns None\n\n
+    addBeanObjects(final Object[] array, final String s)\n
     '''
 def getAllSettings():
-    '''public IlvSettings getAllSettings()
-    '''
-def getModelCount():
-    '''public final int getModelCount()
-    '''
-def getModel():
-    '''public final IlvSettings getModel(final int n)
-    public final IlvSettings getModel(final String s)
-    public IlvSettings getModel()
+    '''returns IlvSettings\n\n
+    getAllSettings()\n
     '''
 def removeModel():
-    '''public boolean removeModel(final IlvSettings ilvSettings)
-    public boolean removeModel(final String s)
+    '''returns boolean\n\n
+    removeModel(final IlvSettings ilvSettings)\n
+    removeModel(final String s)\n
     '''
 def dump():
-    '''public void dump()
-    public void dump()
-    '''
-def ModelManager():
-    '''public ModelManager(final String s)
-    public ModelManager()
+    '''returns None\n\n
+    dump()\n
+    dump()\n
     '''
 def getID():
-    '''public Object getID(final Object o)
-    '''
-def ModelNode():
-    '''public ModelNode(final IlvSettings a, final String c, final IlvSettings ilvSettings, final int n)
+    '''returns Object\n\n
+    getID(final Object o)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
+    '''
+def getModel():
+    '''returns IlvSettings\n\n
+    getModel()\n
     '''

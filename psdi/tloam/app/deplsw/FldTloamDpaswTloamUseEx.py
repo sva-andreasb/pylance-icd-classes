@@ -1,6 +1,8 @@
-def FldTloamDpaswTloamUseEx():
-    '''public FldTloamDpaswTloamUseEx(final MboValue mbv)
+def ():
+    '''returns FldTloamDpaswTloamUseEx\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

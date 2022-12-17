@@ -1,450 +1,600 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getAuthorizedCreditCardTransaction():
-    '''public Transaction getAuthorizedCreditCardTransaction()
+    '''returns Transaction\n\n
+    getAuthorizedCreditCardTransaction()\n
     '''
 def setAuthorizedCreditCardTransaction():
-    '''public void setAuthorizedCreditCardTransaction(final Transaction authorizedCreditCardTransaction)
+    '''returns None\n\n
+    setAuthorizedCreditCardTransaction(final Transaction authorizedCreditCardTransaction)\n
     '''
 def getCaptureCreditCardTransaction():
-    '''public Transaction getCaptureCreditCardTransaction()
+    '''returns Transaction\n\n
+    getCaptureCreditCardTransaction()\n
     '''
 def setCaptureCreditCardTransaction():
-    '''public void setCaptureCreditCardTransaction(final Transaction captureCreditCardTransaction)
+    '''returns None\n\n
+    setCaptureCreditCardTransaction(final Transaction captureCreditCardTransaction)\n
     '''
 def getTicketAttachmentReferences():
-    '''public List<Attachment> getTicketAttachmentReferences()
+    '''returns List<Attachment>\n\n
+    getTicketAttachmentReferences()\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getAmount():
-    '''public BigDecimal getAmount()
+    '''returns BigDecimal\n\n
+    getAmount()\n
     '''
 def setAmount():
-    '''public void setAmount(final BigDecimal amount)
+    '''returns None\n\n
+    setAmount(final BigDecimal amount)\n
     '''
 def isAmountSpecified():
-    '''public boolean isAmountSpecified()
+    '''returns boolean\n\n
+    isAmountSpecified()\n
     '''
 def unsetAmount():
-    '''public void unsetAmount()
+    '''returns None\n\n
+    unsetAmount()\n
     '''
 def getBillingAddressLine1():
-    '''public String getBillingAddressLine1()
+    '''returns String\n\n
+    getBillingAddressLine1()\n
     '''
 def setBillingAddressLine1():
-    '''public void setBillingAddressLine1(final String billingAddressLine1)
+    '''returns None\n\n
+    setBillingAddressLine1(final String billingAddressLine1)\n
     '''
 def isBillingAddressLine1Specified():
-    '''public boolean isBillingAddressLine1Specified()
+    '''returns boolean\n\n
+    isBillingAddressLine1Specified()\n
     '''
 def unsetBillingAddressLine1():
-    '''public void unsetBillingAddressLine1()
+    '''returns None\n\n
+    unsetBillingAddressLine1()\n
     '''
 def getBillingAddressLine2():
-    '''public String getBillingAddressLine2()
+    '''returns String\n\n
+    getBillingAddressLine2()\n
     '''
 def setBillingAddressLine2():
-    '''public void setBillingAddressLine2(final String billingAddressLine2)
+    '''returns None\n\n
+    setBillingAddressLine2(final String billingAddressLine2)\n
     '''
 def isBillingAddressLine2Specified():
-    '''public boolean isBillingAddressLine2Specified()
+    '''returns boolean\n\n
+    isBillingAddressLine2Specified()\n
     '''
 def unsetBillingAddressLine2():
-    '''public void unsetBillingAddressLine2()
+    '''returns None\n\n
+    unsetBillingAddressLine2()\n
     '''
 def getBillingCity():
-    '''public String getBillingCity()
+    '''returns String\n\n
+    getBillingCity()\n
     '''
 def setBillingCity():
-    '''public void setBillingCity(final String billingCity)
+    '''returns None\n\n
+    setBillingCity(final String billingCity)\n
     '''
 def isBillingCitySpecified():
-    '''public boolean isBillingCitySpecified()
+    '''returns boolean\n\n
+    isBillingCitySpecified()\n
     '''
 def unsetBillingCity():
-    '''public void unsetBillingCity()
+    '''returns None\n\n
+    unsetBillingCity()\n
     '''
 def getBillingCountryCode():
-    '''public String getBillingCountryCode()
+    '''returns String\n\n
+    getBillingCountryCode()\n
     '''
 def setBillingCountryCode():
-    '''public void setBillingCountryCode(final String billingCountryCode)
+    '''returns None\n\n
+    setBillingCountryCode(final String billingCountryCode)\n
     '''
 def isBillingCountryCodeSpecified():
-    '''public boolean isBillingCountryCodeSpecified()
+    '''returns boolean\n\n
+    isBillingCountryCodeSpecified()\n
     '''
 def unsetBillingCountryCode():
-    '''public void unsetBillingCountryCode()
+    '''returns None\n\n
+    unsetBillingCountryCode()\n
     '''
 def getBillingEmail():
-    '''public String getBillingEmail()
+    '''returns String\n\n
+    getBillingEmail()\n
     '''
 def setBillingEmail():
-    '''public void setBillingEmail(final String billingEmail)
+    '''returns None\n\n
+    setBillingEmail(final String billingEmail)\n
     '''
 def isBillingEmailSpecified():
-    '''public boolean isBillingEmailSpecified()
+    '''returns boolean\n\n
+    isBillingEmailSpecified()\n
     '''
 def unsetBillingEmail():
-    '''public void unsetBillingEmail()
+    '''returns None\n\n
+    unsetBillingEmail()\n
     '''
 def getBillingNameCompany():
-    '''public String getBillingNameCompany()
+    '''returns String\n\n
+    getBillingNameCompany()\n
     '''
 def setBillingNameCompany():
-    '''public void setBillingNameCompany(final String billingNameCompany)
+    '''returns None\n\n
+    setBillingNameCompany(final String billingNameCompany)\n
     '''
 def isBillingNameCompanySpecified():
-    '''public boolean isBillingNameCompanySpecified()
+    '''returns boolean\n\n
+    isBillingNameCompanySpecified()\n
     '''
 def unsetBillingNameCompany():
-    '''public void unsetBillingNameCompany()
+    '''returns None\n\n
+    unsetBillingNameCompany()\n
     '''
 def getBillingNameFirst():
-    '''public String getBillingNameFirst()
+    '''returns String\n\n
+    getBillingNameFirst()\n
     '''
 def setBillingNameFirst():
-    '''public void setBillingNameFirst(final String billingNameFirst)
+    '''returns None\n\n
+    setBillingNameFirst(final String billingNameFirst)\n
     '''
 def isBillingNameFirstSpecified():
-    '''public boolean isBillingNameFirstSpecified()
+    '''returns boolean\n\n
+    isBillingNameFirstSpecified()\n
     '''
 def unsetBillingNameFirst():
-    '''public void unsetBillingNameFirst()
+    '''returns None\n\n
+    unsetBillingNameFirst()\n
     '''
 def getBillingNameLast():
-    '''public String getBillingNameLast()
+    '''returns String\n\n
+    getBillingNameLast()\n
     '''
 def setBillingNameLast():
-    '''public void setBillingNameLast(final String billingNameLast)
+    '''returns None\n\n
+    setBillingNameLast(final String billingNameLast)\n
     '''
 def isBillingNameLastSpecified():
-    '''public boolean isBillingNameLastSpecified()
+    '''returns boolean\n\n
+    isBillingNameLastSpecified()\n
     '''
 def unsetBillingNameLast():
-    '''public void unsetBillingNameLast()
+    '''returns None\n\n
+    unsetBillingNameLast()\n
     '''
 def getBillingPhoneFax():
-    '''public String getBillingPhoneFax()
+    '''returns String\n\n
+    getBillingPhoneFax()\n
     '''
 def setBillingPhoneFax():
-    '''public void setBillingPhoneFax(final String billingPhoneFax)
+    '''returns None\n\n
+    setBillingPhoneFax(final String billingPhoneFax)\n
     '''
 def isBillingPhoneFaxSpecified():
-    '''public boolean isBillingPhoneFaxSpecified()
+    '''returns boolean\n\n
+    isBillingPhoneFaxSpecified()\n
     '''
 def unsetBillingPhoneFax():
-    '''public void unsetBillingPhoneFax()
+    '''returns None\n\n
+    unsetBillingPhoneFax()\n
     '''
 def getBillingPhoneVoice():
-    '''public String getBillingPhoneVoice()
+    '''returns String\n\n
+    getBillingPhoneVoice()\n
     '''
 def setBillingPhoneVoice():
-    '''public void setBillingPhoneVoice(final String billingPhoneVoice)
+    '''returns None\n\n
+    setBillingPhoneVoice(final String billingPhoneVoice)\n
     '''
 def isBillingPhoneVoiceSpecified():
-    '''public boolean isBillingPhoneVoiceSpecified()
+    '''returns boolean\n\n
+    isBillingPhoneVoiceSpecified()\n
     '''
 def unsetBillingPhoneVoice():
-    '''public void unsetBillingPhoneVoice()
+    '''returns None\n\n
+    unsetBillingPhoneVoice()\n
     '''
 def getBillingPostalCode():
-    '''public String getBillingPostalCode()
+    '''returns String\n\n
+    getBillingPostalCode()\n
     '''
 def setBillingPostalCode():
-    '''public void setBillingPostalCode(final String billingPostalCode)
+    '''returns None\n\n
+    setBillingPostalCode(final String billingPostalCode)\n
     '''
 def isBillingPostalCodeSpecified():
-    '''public boolean isBillingPostalCodeSpecified()
+    '''returns boolean\n\n
+    isBillingPostalCodeSpecified()\n
     '''
 def unsetBillingPostalCode():
-    '''public void unsetBillingPostalCode()
+    '''returns None\n\n
+    unsetBillingPostalCode()\n
     '''
 def getBillingState():
-    '''public String getBillingState()
+    '''returns String\n\n
+    getBillingState()\n
     '''
 def setBillingState():
-    '''public void setBillingState(final String billingState)
+    '''returns None\n\n
+    setBillingState(final String billingState)\n
     '''
 def isBillingStateSpecified():
-    '''public boolean isBillingStateSpecified()
+    '''returns boolean\n\n
+    isBillingStateSpecified()\n
     '''
 def unsetBillingState():
-    '''public void unsetBillingState()
+    '''returns None\n\n
+    unsetBillingState()\n
     '''
 def getCardAccountLast4():
-    '''public String getCardAccountLast4()
+    '''returns String\n\n
+    getCardAccountLast4()\n
     '''
 def setCardAccountLast4():
-    '''public void setCardAccountLast4(final String cardAccountLast4)
+    '''returns None\n\n
+    setCardAccountLast4(final String cardAccountLast4)\n
     '''
 def isCardAccountLast4Specified():
-    '''public boolean isCardAccountLast4Specified()
+    '''returns boolean\n\n
+    isCardAccountLast4Specified()\n
     '''
 def unsetCardAccountLast4():
-    '''public void unsetCardAccountLast4()
+    '''returns None\n\n
+    unsetCardAccountLast4()\n
     '''
 def getCardAccountNumber():
-    '''public String getCardAccountNumber()
+    '''returns String\n\n
+    getCardAccountNumber()\n
     '''
 def setCardAccountNumber():
-    '''public void setCardAccountNumber(final String cardAccountNumber)
+    '''returns None\n\n
+    setCardAccountNumber(final String cardAccountNumber)\n
     '''
 def isCardAccountNumberSpecified():
-    '''public boolean isCardAccountNumberSpecified()
+    '''returns boolean\n\n
+    isCardAccountNumberSpecified()\n
     '''
 def unsetCardAccountNumber():
-    '''public void unsetCardAccountNumber()
+    '''returns None\n\n
+    unsetCardAccountNumber()\n
     '''
 def getCardExpirationMonth():
-    '''public String getCardExpirationMonth()
+    '''returns String\n\n
+    getCardExpirationMonth()\n
     '''
 def setCardExpirationMonth():
-    '''public void setCardExpirationMonth(final String cardExpirationMonth)
+    '''returns None\n\n
+    setCardExpirationMonth(final String cardExpirationMonth)\n
     '''
 def isCardExpirationMonthSpecified():
-    '''public boolean isCardExpirationMonthSpecified()
+    '''returns boolean\n\n
+    isCardExpirationMonthSpecified()\n
     '''
 def unsetCardExpirationMonth():
-    '''public void unsetCardExpirationMonth()
+    '''returns None\n\n
+    unsetCardExpirationMonth()\n
     '''
 def getCardExpirationYear():
-    '''public String getCardExpirationYear()
+    '''returns String\n\n
+    getCardExpirationYear()\n
     '''
 def setCardExpirationYear():
-    '''public void setCardExpirationYear(final String cardExpirationYear)
+    '''returns None\n\n
+    setCardExpirationYear(final String cardExpirationYear)\n
     '''
 def isCardExpirationYearSpecified():
-    '''public boolean isCardExpirationYearSpecified()
+    '''returns boolean\n\n
+    isCardExpirationYearSpecified()\n
     '''
 def unsetCardExpirationYear():
-    '''public void unsetCardExpirationYear()
+    '''returns None\n\n
+    unsetCardExpirationYear()\n
     '''
 def getCardNickname():
-    '''public String getCardNickname()
+    '''returns String\n\n
+    getCardNickname()\n
     '''
 def setCardNickname():
-    '''public void setCardNickname(final String cardNickname)
+    '''returns None\n\n
+    setCardNickname(final String cardNickname)\n
     '''
 def isCardNicknameSpecified():
-    '''public boolean isCardNicknameSpecified()
+    '''returns boolean\n\n
+    isCardNicknameSpecified()\n
     '''
 def unsetCardNickname():
-    '''public void unsetCardNickname()
+    '''returns None\n\n
+    unsetCardNickname()\n
     '''
 def getCardType():
-    '''public String getCardType()
+    '''returns String\n\n
+    getCardType()\n
     '''
 def setCardType():
-    '''public void setCardType(final String cardType)
+    '''returns None\n\n
+    setCardType(final String cardType)\n
     '''
 def isCardTypeSpecified():
-    '''public boolean isCardTypeSpecified()
+    '''returns boolean\n\n
+    isCardTypeSpecified()\n
     '''
 def unsetCardType():
-    '''public void unsetCardType()
+    '''returns None\n\n
+    unsetCardType()\n
     '''
 def getCreditCardVerificationNumber():
-    '''public String getCreditCardVerificationNumber()
+    '''returns String\n\n
+    getCreditCardVerificationNumber()\n
     '''
 def setCreditCardVerificationNumber():
-    '''public void setCreditCardVerificationNumber(final String creditCardVerificationNumber)
+    '''returns None\n\n
+    setCreditCardVerificationNumber(final String creditCardVerificationNumber)\n
     '''
 def isCreditCardVerificationNumberSpecified():
-    '''public boolean isCreditCardVerificationNumberSpecified()
+    '''returns boolean\n\n
+    isCreditCardVerificationNumberSpecified()\n
     '''
 def unsetCreditCardVerificationNumber():
-    '''public void unsetCreditCardVerificationNumber()
+    '''returns None\n\n
+    unsetCreditCardVerificationNumber()\n
     '''
 def getCurrencyShortName():
-    '''public String getCurrencyShortName()
+    '''returns String\n\n
+    getCurrencyShortName()\n
     '''
 def setCurrencyShortName():
-    '''public void setCurrencyShortName(final String currencyShortName)
+    '''returns None\n\n
+    setCurrencyShortName(final String currencyShortName)\n
     '''
 def isCurrencyShortNameSpecified():
-    '''public boolean isCurrencyShortNameSpecified()
+    '''returns boolean\n\n
+    isCurrencyShortNameSpecified()\n
     '''
 def unsetCurrencyShortName():
-    '''public void unsetCurrencyShortName()
+    '''returns None\n\n
+    unsetCurrencyShortName()\n
     '''
 def getDeviceFingerprintId():
-    '''public String getDeviceFingerprintId()
+    '''returns String\n\n
+    getDeviceFingerprintId()\n
     '''
 def setDeviceFingerprintId():
-    '''public void setDeviceFingerprintId(final String deviceFingerprintId)
+    '''returns None\n\n
+    setDeviceFingerprintId(final String deviceFingerprintId)\n
     '''
 def isDeviceFingerprintIdSpecified():
-    '''public boolean isDeviceFingerprintIdSpecified()
+    '''returns boolean\n\n
+    isDeviceFingerprintIdSpecified()\n
     '''
 def unsetDeviceFingerprintId():
-    '''public void unsetDeviceFingerprintId()
+    '''returns None\n\n
+    unsetDeviceFingerprintId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getPaymentRoleId():
-    '''public Long getPaymentRoleId()
+    '''returns Long\n\n
+    getPaymentRoleId()\n
     '''
 def setPaymentRoleId():
-    '''public void setPaymentRoleId(final Long paymentRoleId)
+    '''returns None\n\n
+    setPaymentRoleId(final Long paymentRoleId)\n
     '''
 def isPaymentRoleIdSpecified():
-    '''public boolean isPaymentRoleIdSpecified()
+    '''returns boolean\n\n
+    isPaymentRoleIdSpecified()\n
     '''
 def unsetPaymentRoleId():
-    '''public void unsetPaymentRoleId()
+    '''returns None\n\n
+    unsetPaymentRoleId()\n
     '''
 def getPaymentType():
-    '''public String getPaymentType()
+    '''returns String\n\n
+    getPaymentType()\n
     '''
 def setPaymentType():
-    '''public void setPaymentType(final String paymentType)
+    '''returns None\n\n
+    setPaymentType(final String paymentType)\n
     '''
 def isPaymentTypeSpecified():
-    '''public boolean isPaymentTypeSpecified()
+    '''returns boolean\n\n
+    isPaymentTypeSpecified()\n
     '''
 def unsetPaymentType():
-    '''public void unsetPaymentType()
+    '''returns None\n\n
+    unsetPaymentType()\n
     '''
 def getTicketId():
-    '''public Long getTicketId()
+    '''returns Long\n\n
+    getTicketId()\n
     '''
 def setTicketId():
-    '''public void setTicketId(final Long ticketId)
+    '''returns None\n\n
+    setTicketId(final Long ticketId)\n
     '''
 def isTicketIdSpecified():
-    '''public boolean isTicketIdSpecified()
+    '''returns boolean\n\n
+    isTicketIdSpecified()\n
     '''
 def unsetTicketId():
-    '''public void unsetTicketId()
+    '''returns None\n\n
+    unsetTicketId()\n
     '''
 def getTicketAttachmentReferenceCount():
-    '''public Long getTicketAttachmentReferenceCount()
+    '''returns Long\n\n
+    getTicketAttachmentReferenceCount()\n
     '''
 def setTicketAttachmentReferenceCount():
-    '''public void setTicketAttachmentReferenceCount(final Long ticketAttachmentReferenceCount)
+    '''returns None\n\n
+    setTicketAttachmentReferenceCount(final Long ticketAttachmentReferenceCount)\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def amount():
-    '''public Mask amount()
+    '''returns Mask\n\n
+    amount()\n
     '''
 def billingAddressLine1():
-    '''public Mask billingAddressLine1()
+    '''returns Mask\n\n
+    billingAddressLine1()\n
     '''
 def billingAddressLine2():
-    '''public Mask billingAddressLine2()
+    '''returns Mask\n\n
+    billingAddressLine2()\n
     '''
 def billingCity():
-    '''public Mask billingCity()
+    '''returns Mask\n\n
+    billingCity()\n
     '''
 def billingCountryCode():
-    '''public Mask billingCountryCode()
+    '''returns Mask\n\n
+    billingCountryCode()\n
     '''
 def billingEmail():
-    '''public Mask billingEmail()
+    '''returns Mask\n\n
+    billingEmail()\n
     '''
 def billingNameCompany():
-    '''public Mask billingNameCompany()
+    '''returns Mask\n\n
+    billingNameCompany()\n
     '''
 def billingNameFirst():
-    '''public Mask billingNameFirst()
+    '''returns Mask\n\n
+    billingNameFirst()\n
     '''
 def billingNameLast():
-    '''public Mask billingNameLast()
+    '''returns Mask\n\n
+    billingNameLast()\n
     '''
 def billingPhoneFax():
-    '''public Mask billingPhoneFax()
+    '''returns Mask\n\n
+    billingPhoneFax()\n
     '''
 def billingPhoneVoice():
-    '''public Mask billingPhoneVoice()
+    '''returns Mask\n\n
+    billingPhoneVoice()\n
     '''
 def billingPostalCode():
-    '''public Mask billingPostalCode()
+    '''returns Mask\n\n
+    billingPostalCode()\n
     '''
 def billingState():
-    '''public Mask billingState()
+    '''returns Mask\n\n
+    billingState()\n
     '''
 def cardAccountLast4():
-    '''public Mask cardAccountLast4()
+    '''returns Mask\n\n
+    cardAccountLast4()\n
     '''
 def cardAccountNumber():
-    '''public Mask cardAccountNumber()
+    '''returns Mask\n\n
+    cardAccountNumber()\n
     '''
 def cardExpirationMonth():
-    '''public Mask cardExpirationMonth()
+    '''returns Mask\n\n
+    cardExpirationMonth()\n
     '''
 def cardExpirationYear():
-    '''public Mask cardExpirationYear()
+    '''returns Mask\n\n
+    cardExpirationYear()\n
     '''
 def cardNickname():
-    '''public Mask cardNickname()
+    '''returns Mask\n\n
+    cardNickname()\n
     '''
 def cardType():
-    '''public Mask cardType()
+    '''returns Mask\n\n
+    cardType()\n
     '''
 def creditCardVerificationNumber():
-    '''public Mask creditCardVerificationNumber()
+    '''returns Mask\n\n
+    creditCardVerificationNumber()\n
     '''
 def currencyShortName():
-    '''public Mask currencyShortName()
+    '''returns Mask\n\n
+    currencyShortName()\n
     '''
 def deviceFingerprintId():
-    '''public Mask deviceFingerprintId()
+    '''returns Mask\n\n
+    deviceFingerprintId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def paymentRoleId():
-    '''public Mask paymentRoleId()
+    '''returns Mask\n\n
+    paymentRoleId()\n
     '''
 def paymentType():
-    '''public Mask paymentType()
+    '''returns Mask\n\n
+    paymentType()\n
     '''
 def ticketId():
-    '''public Mask ticketId()
+    '''returns Mask\n\n
+    ticketId()\n
     '''
 def ticketAttachmentReferenceCount():
-    '''public Mask ticketAttachmentReferenceCount()
+    '''returns Mask\n\n
+    ticketAttachmentReferenceCount()\n
     '''

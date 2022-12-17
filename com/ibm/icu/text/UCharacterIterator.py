@@ -1,39 +1,40 @@
-def getInstance():
-    '''public static final UCharacterIterator getInstance(final Replaceable source)
-    public static final UCharacterIterator getInstance(final String source)
-    public static final UCharacterIterator getInstance(final char[] source)
-    public static final UCharacterIterator getInstance(final char[] source, final int start, final int limit)
-    public static final UCharacterIterator getInstance(final StringBuffer source)
-    public static final UCharacterIterator getInstance(final CharacterIterator source)
-    '''
 def getCharacterIterator():
-    '''public CharacterIterator getCharacterIterator()
+    '''returns CharacterIterator\n\n
+    getCharacterIterator()\n
     '''
 def currentCodePoint():
-    '''public int currentCodePoint()
+    '''returns int\n\n
+    currentCodePoint()\n
     '''
 def nextCodePoint():
-    '''public int nextCodePoint()
+    '''returns int\n\n
+    nextCodePoint()\n
     '''
 def previousCodePoint():
-    '''public int previousCodePoint()
+    '''returns int\n\n
+    previousCodePoint()\n
     '''
 def setToLimit():
-    '''public void setToLimit()
+    '''returns None\n\n
+    setToLimit()\n
     '''
 def setToStart():
-    '''public void setToStart()
+    '''returns None\n\n
+    setToStart()\n
     '''
 def getText():
-    '''public final int getText(final char[] fillIn)
-    public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def moveIndex():
-    '''public int moveIndex(final int delta)
+    '''returns int\n\n
+    moveIndex(final int delta)\n
     '''
 def moveCodePointIndex():
-    '''public int moveCodePointIndex(int delta)
+    '''returns int\n\n
+    moveCodePointIndex(int delta)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

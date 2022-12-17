@@ -1,23 +1,30 @@
 sid = "short  449"
-def RecalcIdRecord():
-    '''public RecalcIdRecord()
-    public RecalcIdRecord(final RecordInputStream in)
+def ():
+    '''returns RecalcIdRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def isNeeded():
-    '''public boolean isNeeded()
+    '''returns boolean\n\n
+    isNeeded()\n
     '''
 def setEngineId():
-    '''public void setEngineId(final int val)
+    '''returns None\n\n
+    setEngineId(final int val)\n
     '''
 def getEngineId():
-    '''public int getEngineId()
+    '''returns int\n\n
+    getEngineId()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

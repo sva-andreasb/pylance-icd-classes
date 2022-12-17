@@ -1,329 +1,411 @@
 IGNORE_SITE = "String  \"Profile.IgnoreSite\""
-def Profile():
-    '''public Profile(final MXServerRemote mxServer, final UserInfo systemUserInfo, final MboRemote maxUserMbo)
-    public Profile(final MXServerRemote mxServer, final UserInfo systemUserInfo, final String userID, final MboSetRemote groupUserSet, final boolean loadAll)
-    public Profile(final MXServerRemote mxServer, final UserInfo systemUserInfo, final UserInfo loginuserInfo, final boolean loadAll)
-    public Profile(final MXServer mxServer, final MboSetRemote maxRoleSet)
+def ():
+    '''returns Profile\n\n
+    (final MXServerRemote mxServer, final UserInfo systemUserInfo, final MboRemote maxUserMbo)\n
+    (final MXServerRemote mxServer, final UserInfo systemUserInfo, final String userID, final MboSetRemote groupUserSet, final boolean loadAll)\n
+    (final MXServerRemote mxServer, final UserInfo systemUserInfo, final UserInfo loginuserInfo, final boolean loadAll)\n
+    (final MXServer mxServer, final MboSetRemote maxRoleSet)\n
     '''
 def dumpSites():
-    '''public ArrayList<String> dumpSites()
+    '''returns ArrayList<String>\n\n
+    dumpSites()\n
     '''
 def getPwDuration():
-    '''public int getPwDuration()
+    '''returns int\n\n
+    getPwDuration()\n
     '''
 def getPwWarning():
-    '''public int getPwWarning()
+    '''returns int\n\n
+    getPwWarning()\n
     '''
 def dumpPwDays():
-    '''public ArrayList<String> dumpPwDays()
+    '''returns ArrayList<String>\n\n
+    dumpPwDays()\n
     '''
 def getApps():
-    '''public HashSet<String> getApps()
-    public HashSet<String> getApps(final int sysFlag)
-    '''
-def getAppsStructure():
-    '''public HashMap<String, HashMap<String, HashMap<String, HashSet<String>>>> getAppsStructure()
+    '''returns HashSet<String>\n\n
+    getApps()\n
+    getApps(final int sysFlag)\n
     '''
 def getAppLevel():
-    '''public int getAppLevel(final String app)
+    '''returns int\n\n
+    getAppLevel(final String app)\n
     '''
 def sysLevelApp():
-    '''public boolean sysLevelApp(final String app)
+    '''returns boolean\n\n
+    sysLevelApp(final String app)\n
     '''
 def orgLevelApp():
-    '''public boolean orgLevelApp(final String app)
-    public boolean orgLevelApp(final String app, final boolean baseLevelOnly)
+    '''returns boolean\n\n
+    orgLevelApp(final String app)\n
+    orgLevelApp(final String app, final boolean baseLevelOnly)\n
     '''
 def siteLevelApp():
-    '''public boolean siteLevelApp(final String app)
-    public boolean siteLevelApp(final String app, final boolean baseLevelOnly)
+    '''returns boolean\n\n
+    siteLevelApp(final String app)\n
+    siteLevelApp(final String app, final boolean baseLevelOnly)\n
     '''
 def getAppAuth():
-    '''public boolean getAppAuth(final String app)
+    '''returns boolean\n\n
+    getAppAuth(final String app)\n
     '''
 def getAppOptionAuth():
-    '''public boolean getAppOptionAuth(String app, String optionname, final String siteorg)
+    '''returns boolean\n\n
+    getAppOptionAuth(String app, String optionname, final String siteorg)\n
     '''
 def getPrerequisite():
-    '''public String getPrerequisite(final String app, final String optionname)
+    '''returns String\n\n
+    getPrerequisite(final String app, final String optionname)\n
     '''
 def getConditions():
-    '''public HashSet<String> getConditions(final String app, final String optionname, final String siteorg)
+    '''returns HashSet<String>\n\n
+    getConditions(final String app, final String optionname, final String siteorg)\n
     '''
 def getEveryoneCondition():
-    '''public String getEveryoneCondition(String app, String optionName)
+    '''returns String\n\n
+    getEveryoneCondition(String app, String optionName)\n
     '''
 def getAppOptions():
-    '''public HashSet<String> getAppOptions(String app)
+    '''returns HashSet<String>\n\n
+    getAppOptions(String app)\n
     '''
 def hasAppOption():
-    '''public boolean hasAppOption(String app, final String sigOption)
+    '''returns boolean\n\n
+    hasAppOption(String app, final String sigOption)\n
     '''
 def getAppSiteOrgs():
-    '''public HashSet<String> getAppSiteOrgs(final String app)
-    public HashSet<String> getAppSiteOrgs(String app, int forceLevel)
+    '''returns HashSet<String>\n\n
+    getAppSiteOrgs(final String app)\n
+    getAppSiteOrgs(String app, int forceLevel)\n
     '''
 def getSiteCache():
-    '''public HashSet<String> getSiteCache(final UserInfo ui)
+    '''returns HashSet<String>\n\n
+    getSiteCache(final UserInfo ui)\n
     '''
 def getAppMenu():
-    '''public TreeMap getAppMenu(String app, final UserInfo userInfo)
+    '''returns TreeMap\n\n
+    getAppMenu(String app, final UserInfo userInfo)\n
     '''
 def getAppTools():
-    '''public TreeMap getAppTools(String app, final UserInfo userInfo)
+    '''returns TreeMap\n\n
+    getAppTools(String app, final UserInfo userInfo)\n
     '''
 def getAppSearch():
-    '''public TreeMap getAppSearch(String app, final UserInfo userInfo)
+    '''returns TreeMap\n\n
+    getAppSearch(String app, final UserInfo userInfo)\n
     '''
 def getSystemOptionMap():
-    '''public TreeMap getSystemOptionMap(final UserInfo userInfo)
+    '''returns TreeMap\n\n
+    getSystemOptionMap(final UserInfo userInfo)\n
     '''
 def getModules():
-    '''public TreeMap getModules(final UserInfo userInfo)
+    '''returns TreeMap\n\n
+    getModules(final UserInfo userInfo)\n
     '''
 def getQueryMap():
-    '''public TreeMap getQueryMap(String app, final UserInfo userInfo)
-    '''
-def getAppInfo():
-    '''public Hashtable<String, String> getAppInfo(String app, final UserInfo userInfo)
+    '''returns TreeMap\n\n
+    getQueryMap(String app, final UserInfo userInfo)\n
     '''
 def setQueryMap():
-    '''public void setQueryMap(String app, final TreeMap newQueryMap, final UserInfo userInfo)
+    '''returns None\n\n
+    setQueryMap(String app, final TreeMap newQueryMap, final UserInfo userInfo)\n
     '''
 def addApp():
-    '''public void addApp(final String app, final UserInfo userInfo)
+    '''returns None\n\n
+    addApp(final String app, final UserInfo userInfo)\n
     '''
 def updateAppMaps():
-    '''public void updateAppMaps(final String app, final UserInfo userInfo)
+    '''returns None\n\n
+    updateAppMaps(final String app, final UserInfo userInfo)\n
     '''
 def dumpAppAuth():
-    '''public ArrayList<String> dumpAppAuth()
+    '''returns ArrayList<String>\n\n
+    dumpAppAuth()\n
     '''
 def getGLAuth():
-    '''public boolean getGLAuth(final String glField, String siteorg)
-    public boolean getGLAuth(final int glFieldPos, String siteorg)
+    '''returns boolean\n\n
+    getGLAuth(final String glField, String siteorg)\n
+    getGLAuth(final int glFieldPos, String siteorg)\n
     '''
 def getGLAuthForUserApp():
-    '''public boolean getGLAuthForUserApp(final int glFieldPos)
+    '''returns boolean\n\n
+    getGLAuthForUserApp(final int glFieldPos)\n
     '''
 def hasAllGLAuth():
-    '''public boolean hasAllGLAuth(String siteorg)
+    '''returns boolean\n\n
+    hasAllGLAuth(String siteorg)\n
     '''
 def hasAnyGLAuth():
-    '''public boolean hasAnyGLAuth(String siteorg)
+    '''returns boolean\n\n
+    hasAnyGLAuth(String siteorg)\n
     '''
 def dumpGLAuth():
-    '''public ArrayList<String> dumpGLAuth()
+    '''returns ArrayList<String>\n\n
+    dumpGLAuth()\n
     '''
 def getTolerance():
-    '''public double getTolerance(final String attrName, final String siteorg)
+    '''returns double\n\n
+    getTolerance(final String attrName, final String siteorg)\n
     '''
 def dumpTolerances():
-    '''public ArrayList<String> dumpTolerances()
+    '''returns ArrayList<String>\n\n
+    dumpTolerances()\n
     '''
 def isLocAuthAll():
-    '''public boolean isLocAuthAll()
-    public boolean isLocAuthAll(final String siteid)
+    '''returns boolean\n\n
+    isLocAuthAll()\n
+    isLocAuthAll(final String siteid)\n
     '''
 def getStorerooms():
-    '''public String getStorerooms(final String siteid)
+    '''returns String\n\n
+    getStorerooms(final String siteid)\n
     '''
 def getLocAuth():
-    '''public boolean getLocAuth(final String siteid, final String location)
+    '''returns boolean\n\n
+    getLocAuth(final String siteid, final String location)\n
     '''
 def dumpLocAuth():
-    '''public ArrayList<String> dumpLocAuth()
+    '''returns ArrayList<String>\n\n
+    dumpLocAuth()\n
     '''
 def isAllCombineableGLSegments():
-    '''public boolean isAllCombineableGLSegments()
+    '''returns boolean\n\n
+    isAllCombineableGLSegments()\n
     '''
 def isAllIndependentGLSegments():
-    '''public boolean isAllIndependentGLSegments()
+    '''returns boolean\n\n
+    isAllIndependentGLSegments()\n
     '''
 def getGroupNames():
-    '''public HashSet getGroupNames()
+    '''returns HashSet\n\n
+    getGroupNames()\n
     '''
 def getGroupStartApps():
-    '''public HashSet getGroupStartApps()
+    '''returns HashSet\n\n
+    getGroupStartApps()\n
     '''
 def getGroupsString():
-    '''public String getGroupsString()
+    '''returns String\n\n
+    getGroupsString()\n
     '''
 def getSite():
-    '''public boolean getSite(final String siteid)
+    '''returns boolean\n\n
+    getSite(final String siteid)\n
     '''
 def getOrg():
-    '''public boolean getOrg(final String orgid)
+    '''returns boolean\n\n
+    getOrg(final String orgid)\n
     '''
 def getLeftNav():
-    '''public boolean getLeftNav()
+    '''returns boolean\n\n
+    getLeftNav()\n
     '''
 def getSites():
-    '''public TreeSet<String> getSites()
+    '''returns TreeSet<String>\n\n
+    getSites()\n
     '''
 def getSitesString():
-    '''public String getSitesString()
+    '''returns String\n\n
+    getSitesString()\n
     '''
 def oneGroupHasAllSites():
-    '''public boolean oneGroupHasAllSites()
+    '''returns boolean\n\n
+    oneGroupHasAllSites()\n
     '''
 def hasCombinableAllRepairFacilities():
-    '''public boolean hasCombinableAllRepairFacilities()
+    '''returns boolean\n\n
+    hasCombinableAllRepairFacilities()\n
     '''
 def getOrgs():
-    '''public TreeSet<String> getOrgs()
+    '''returns TreeSet<String>\n\n
+    getOrgs()\n
     '''
 def getOrgsString():
-    '''public String getOrgsString()
+    '''returns String\n\n
+    getOrgsString()\n
     '''
 def getReadableSites():
-    '''public TreeSet<String> getReadableSites(final String app)
+    '''returns TreeSet<String>\n\n
+    getReadableSites(final String app)\n
     '''
 def getReadableSitesString():
-    '''public String getReadableSitesString(final String app)
+    '''returns String\n\n
+    getReadableSitesString(final String app)\n
     '''
 def getReadableOrgs():
-    '''public TreeSet<String> getReadableOrgs(final String app)
+    '''returns TreeSet<String>\n\n
+    getReadableOrgs(final String app)\n
     '''
 def getReadableOrgsString():
-    '''public String getReadableOrgsString(final String app)
+    '''returns String\n\n
+    getReadableOrgsString(final String app)\n
     '''
 def isLaborAuthAll():
-    '''public boolean isLaborAuthAll()
+    '''returns boolean\n\n
+    isLaborAuthAll()\n
     '''
 def isAuthLaborSelf():
-    '''public boolean isAuthLaborSelf(final String orgid, final String laborcode)
+    '''returns boolean\n\n
+    isAuthLaborSelf(final String orgid, final String laborcode)\n
     '''
 def isAuthLaborSuper():
-    '''public boolean isAuthLaborSuper(final String orgid, final String laborcode)
+    '''returns boolean\n\n
+    isAuthLaborSuper(final String orgid, final String laborcode)\n
     '''
 def isAuthLaborCrew():
-    '''public boolean isAuthLaborCrew(final String orgid, final String laborcode)
+    '''returns boolean\n\n
+    isAuthLaborCrew(final String orgid, final String laborcode)\n
     '''
 def isAuthLaborGroup():
-    '''public boolean isAuthLaborGroup(final String orgid, final String laborcode)
-    '''
-def getLaborAuthFlags():
-    '''public HashMap<String, Boolean> getLaborAuthFlags(final String orgid)
+    '''returns boolean\n\n
+    isAuthLaborGroup(final String orgid, final String laborcode)\n
     '''
 def getLaborAuth():
-    '''public boolean getLaborAuth(final String orgid, final String laborcode)
-    '''
-def getLaborAuthorities():
-    '''public HashMap<String, HashSet<String>> getLaborAuthorities()
+    '''returns boolean\n\n
+    getLaborAuth(final String orgid, final String laborcode)\n
     '''
 def getLaborCodes():
-    '''public String getLaborCodes(final String orgid)
-    '''
-def getLaborCodeSubWhere():
-    '''public static String getLaborCodeSubWhere(String laborcodes)
+    '''returns String\n\n
+    getLaborCodes(final String orgid)\n
     '''
 def dumpLaborAuth():
-    '''public ArrayList<String> dumpLaborAuth(final String tempUserid)
+    '''returns ArrayList<String>\n\n
+    dumpLaborAuth(final String tempUserid)\n
     '''
 def getRoleRestrictions():
-    '''public String getRoleRestrictions(final String entityname)
-    public HashMap getRoleRestrictions()
+    '''returns HashMap\n\n
+    getRoleRestrictions(final String entityname)\n
+    getRoleRestrictions()\n
     '''
 def dumpRoleRestrictions():
-    '''public ArrayList dumpRoleRestrictions()
+    '''returns ArrayList\n\n
+    dumpRoleRestrictions()\n
     '''
 def getNonStandardSiteOrgs():
-    '''public HashSet<String> getNonStandardSiteOrgs(final String app, final boolean getSites)
+    '''returns HashSet<String>\n\n
+    getNonStandardSiteOrgs(final String app, final boolean getSites)\n
     '''
 def getNonStandardApps():
-    '''public HashMap getNonStandardApps()
+    '''returns HashMap\n\n
+    getNonStandardApps()\n
     '''
 def getNonStandardAppOptionAuth():
-    '''public boolean getNonStandardAppOptionAuth(String app, String optionname, final String orgid, final String siteid)
+    '''returns boolean\n\n
+    getNonStandardAppOptionAuth(String app, String optionname, final String orgid, final String siteid)\n
     '''
 def dumpNonStandardApps():
-    '''public ArrayList<String> dumpNonStandardApps()
+    '''returns ArrayList<String>\n\n
+    dumpNonStandardApps()\n
     '''
 def getDefaultSite():
-    '''public String getDefaultSite()
+    '''returns String\n\n
+    getDefaultSite()\n
     '''
 def setDefaultSite():
-    '''public void setDefaultSite(final String site)
+    '''returns None\n\n
+    setDefaultSite(final String site)\n
     '''
 def getDefaultOrg():
-    '''public String getDefaultOrg()
+    '''returns String\n\n
+    getDefaultOrg()\n
     '''
 def setDefaultOrg():
-    '''public void setDefaultOrg(final String org)
+    '''returns None\n\n
+    setDefaultOrg(final String org)\n
     '''
 def getInsertSite():
-    '''public String getInsertSite()
+    '''returns String\n\n
+    getInsertSite()\n
     '''
 def getInsertOrg():
-    '''public String getInsertOrg()
+    '''returns String\n\n
+    getInsertOrg()\n
     '''
 def setInsertOrg():
-    '''public void setInsertOrg(String org)
+    '''returns None\n\n
+    setInsertOrg(String org)\n
     '''
 def setInsertSite():
-    '''public void setInsertSite(String site)
+    '''returns None\n\n
+    setInsertSite(String site)\n
     '''
 def getDefaultRepairFacility():
-    '''public String getDefaultRepairFacility()
+    '''returns String\n\n
+    getDefaultRepairFacility()\n
     '''
 def getDefaultRepairFacilitySite():
-    '''public String getDefaultRepairFacilitySite()
+    '''returns String\n\n
+    getDefaultRepairFacilitySite()\n
     '''
 def setInsertItemSet():
-    '''public void setInsertItemSet(final String setid)
+    '''returns None\n\n
+    setInsertItemSet(final String setid)\n
     '''
 def getInsertItemSet():
-    '''public String getInsertItemSet()
+    '''returns String\n\n
+    getInsertItemSet()\n
     '''
 def setInsertCompanySet():
-    '''public void setInsertCompanySet(final String setid)
+    '''returns None\n\n
+    setInsertCompanySet(final String setid)\n
     '''
 def getInsertCompanySet():
-    '''public String getInsertCompanySet()
+    '''returns String\n\n
+    getInsertCompanySet()\n
     '''
 def getQueryWithSite():
-    '''public boolean getQueryWithSite()
+    '''returns boolean\n\n
+    getQueryWithSite()\n
     '''
 def getDefaultStoreroom():
-    '''public String getDefaultStoreroom()
+    '''returns String\n\n
+    getDefaultStoreroom()\n
     '''
 def getDefaultStoreroomSite():
-    '''public String getDefaultStoreroomSite()
+    '''returns String\n\n
+    getDefaultStoreroomSite()\n
     '''
 def setUserStatus():
-    '''public void setUserStatus(final String newInternalStatus)
+    '''returns None\n\n
+    setUserStatus(final String newInternalStatus)\n
     '''
 def getLogout():
-    '''public boolean getLogout()
+    '''returns boolean\n\n
+    getLogout()\n
     '''
 def getUserStatus():
-    '''public String getUserStatus()
+    '''returns String\n\n
+    getUserStatus()\n
     '''
 def useDataRestriction():
-    '''public boolean useDataRestriction(final String groupname, final String app, final String siteorg)
+    '''returns boolean\n\n
+    useDataRestriction(final String groupname, final String app, final String siteorg)\n
     '''
 def allCollectionsAllowed():
-    '''public boolean allCollectionsAllowed()
+    '''returns boolean\n\n
+    allCollectionsAllowed()\n
     '''
 def getCollections():
-    '''public HashSet<String> getCollections()
+    '''returns HashSet<String>\n\n
+    getCollections()\n
     '''
 def hasCombinableNullRepairFacilities():
-    '''public boolean hasCombinableNullRepairFacilities()
-    '''
-def getDiscreteRepFacAuthSites():
-    '''public HashMap<String, Boolean[]> getDiscreteRepFacAuthSites()
+    '''returns boolean\n\n
+    hasCombinableNullRepairFacilities()\n
     '''
 def getCombinableSites():
-    '''public HashSet<String> getCombinableSites()
+    '''returns HashSet<String>\n\n
+    getCombinableSites()\n
     '''
 def setProxy():
-    '''public void setProxy(final Remote proxy)
+    '''returns None\n\n
+    setProxy(final Remote proxy)\n
     '''
 def getProxy():
-    '''public Remote getProxy()
+    '''returns Remote\n\n
+    getProxy()\n
     '''
 def getReportLimit():
-    '''public Integer getReportLimit(final String attributeName)
+    '''returns Integer\n\n
+    getReportLimit(final String attributeName)\n
     '''

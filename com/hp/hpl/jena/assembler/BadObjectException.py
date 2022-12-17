@@ -1,6 +1,8 @@
-def BadObjectException():
-    '''public BadObjectException(final Statement s)
+def ():
+    '''returns BadObjectException\n\n
+    (final Statement s)\n
     '''
 def getObject():
-    '''public RDFNode getObject()
+    '''returns RDFNode\n\n
+    getObject()\n
     '''

@@ -1,35 +1,46 @@
-def IlvMoveSelectionAccelerator():
-    '''public IlvMoveSelectionAccelerator(final int n, final int n2, final char c, final int n3, final boolean b)
-    public IlvMoveSelectionAccelerator(final int n, final int n2, final int n3, final boolean b)
-    public IlvMoveSelectionAccelerator(final int n, final int n2, final int n3)
+def ():
+    '''returns IlvMoveSelectionAccelerator\n\n
+    (final int n, final int n2, final char c, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3)\n
     '''
 def setMoveVector():
-    '''public void setMoveVector(final float a, final float b)
+    '''returns None\n\n
+    setMoveVector(final float a, final float b)\n
     '''
 def getMoveVectorX():
-    '''public float getMoveVectorX()
+    '''returns float\n\n
+    getMoveVectorX()\n
     '''
 def getMoveVectorY():
-    '''public float getMoveVectorY()
+    '''returns float\n\n
+    getMoveVectorY()\n
     '''
 def setLinksFollowEndNodes():
-    '''public void setLinksFollowEndNodes(final boolean c)
+    '''returns None\n\n
+    setLinksFollowEndNodes(final boolean c)\n
     '''
 def isLinksFollowEndNodes():
-    '''public boolean isLinksFollowEndNodes()
+    '''returns boolean\n\n
+    isLinksFollowEndNodes()\n
     '''
 def setHyperEdgesFollowEndNodes():
-    '''public void setHyperEdgesFollowEndNodes(final boolean d)
+    '''returns None\n\n
+    setHyperEdgesFollowEndNodes(final boolean d)\n
     '''
 def isHyperEdgesFollowEndNodes():
-    '''public boolean isHyperEdgesFollowEndNodes()
+    '''returns boolean\n\n
+    isHyperEdgesFollowEndNodes()\n
     '''
 def setMoveAffectsSingleSubManager():
-    '''public void setMoveAffectsSingleSubManager(final boolean e)
+    '''returns None\n\n
+    setMoveAffectsSingleSubManager(final boolean e)\n
     '''
 def isMoveAffectsSingleSubManager():
-    '''public boolean isMoveAffectsSingleSubManager()
+    '''returns boolean\n\n
+    isMoveAffectsSingleSubManager()\n
     '''
 def getSelectedMovingObjects():
-    '''public IlvGraphicEnumeration getSelectedMovingObjects(final IlvManager ilvManager)
+    '''returns IlvGraphicEnumeration\n\n
+    getSelectedMovingObjects(final IlvManager ilvManager)\n
     '''

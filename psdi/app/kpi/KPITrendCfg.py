@@ -1,9 +1,12 @@
-def KPITrendCfg():
-    '''public KPITrendCfg(final MboSet ms)
+def ():
+    '''returns KPITrendCfg\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setKPIsForComparision():
-    '''public void setKPIsForComparision(final MboSetRemote msb)
+    '''returns None\n\n
+    setKPIsForComparision(final MboSetRemote msb)\n
     '''

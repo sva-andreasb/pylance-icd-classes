@@ -1,6 +1,8 @@
-def StoreTriplesNodesIndexHSQL():
-    '''public StoreTriplesNodesIndexHSQL(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreTriplesNodesIndexHSQL\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''
 def getSize():
-    '''public long getSize(final Node node)
+    '''returns long\n\n
+    getSize(final Node node)\n
     '''

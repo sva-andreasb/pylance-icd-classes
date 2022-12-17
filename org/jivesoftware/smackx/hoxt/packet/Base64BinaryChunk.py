@@ -2,28 +2,36 @@ ELEMENT_CHUNK = "String  \"chunk\""
 ATTRIBUTE_STREAM_ID = "String  \"streamId\""
 ATTRIBUTE_LAST = "String  \"last\""
 ATTRIBUTE_NR = "String  \"nr\""
-def Base64BinaryChunk():
-    '''public Base64BinaryChunk(final String text, final String streamId, final int nr, final boolean last)
-    public Base64BinaryChunk(final String text, final String streamId, final int nr)
+def ():
+    '''returns Base64BinaryChunk\n\n
+    (final String text, final String streamId, final int nr, final boolean last)\n
+    (final String text, final String streamId, final int nr)\n
     '''
 def getStreamId():
-    '''public String getStreamId()
+    '''returns String\n\n
+    getStreamId()\n
     '''
 def isLast():
-    '''public boolean isLast()
+    '''returns boolean\n\n
+    isLast()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getNr():
-    '''public int getNr()
+    '''returns int\n\n
+    getNr()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

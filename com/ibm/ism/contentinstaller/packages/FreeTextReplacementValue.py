@@ -1,9 +1,12 @@
-def FreeTextReplacementValue():
-    '''public FreeTextReplacementValue(final String id, final String columnName, final String value, final boolean pkgDefault)
+def ():
+    '''returns FreeTextReplacementValue\n\n
+    (final String id, final String columnName, final String value, final boolean pkgDefault)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

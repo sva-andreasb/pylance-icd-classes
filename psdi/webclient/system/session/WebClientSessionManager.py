@@ -5,47 +5,57 @@ LOST_UISESSIONID = "String  \"lostcontext_uisessionid\""
 USER_REFRESH = "String  \"user_refresh\""
 MAX_UI_SESSION_PER_SESSION = "String  \"mxe.webclient.maxUISessionsPerHttpSession\""
 CSRFTOKEN = "String  \"csrftoken\""
-def getWebClientSessionManager():
-    '''public static WebClientSessionManager getWebClientSessionManager(final HttpSession session)
-    '''
-def WebClientSessionManager():
-    '''public WebClientSessionManager()
+def ():
+    '''returns WebClientSessionManager\n\n
+    ()\n
     '''
 def hasSessions():
-    '''public boolean hasSessions()
+    '''returns boolean\n\n
+    hasSessions()\n
     '''
 def hasMultipleSessions():
-    '''public boolean hasMultipleSessions()
+    '''returns boolean\n\n
+    hasMultipleSessions()\n
     '''
 def getWebClientSession():
-    '''public WebClientSession getWebClientSession(final String uisessionid)
-    public WebClientSession getWebClientSession(final HttpServletRequest request)
+    '''returns WebClientSession\n\n
+    getWebClientSession(final String uisessionid)\n
+    getWebClientSession(final HttpServletRequest request)\n
     '''
 def getWebClientSessionIds():
-    '''public String[] getWebClientSessionIds()
+    '''returns String[]\n\n
+    getWebClientSessionIds()\n
     '''
 def removeWebClientSession():
-    '''public boolean removeWebClientSession(final WebClientSession wcs)
-    public boolean removeWebClientSession(final WebClientSession wcs, final boolean closeSession)
+    '''returns boolean\n\n
+    removeWebClientSession(final WebClientSession wcs)\n
+    removeWebClientSession(final WebClientSession wcs, final boolean closeSession)\n
     '''
 def valueBound():
-    '''public void valueBound(final HttpSessionBindingEvent arg0)
+    '''returns None\n\n
+    valueBound(final HttpSessionBindingEvent arg0)\n
     '''
 def valueUnbound():
-    '''public void valueUnbound(final HttpSessionBindingEvent arg0)
+    '''returns None\n\n
+    valueUnbound(final HttpSessionBindingEvent arg0)\n
     '''
 def preserveMXSession():
-    '''public void preserveMXSession()
+    '''returns None\n\n
+    preserveMXSession()\n
     '''
 def hasAvailableSessions():
-    '''public boolean hasAvailableSessions()
+    '''returns boolean\n\n
+    hasAvailableSessions()\n
     '''
 def getWebClientSessionCount():
-    '''public int getWebClientSessionCount()
+    '''returns int\n\n
+    getWebClientSessionCount()\n
     '''
 def getSessionInvalidated():
-    '''public boolean getSessionInvalidated()
+    '''returns boolean\n\n
+    getSessionInvalidated()\n
     '''
 def setLostSessionId():
-    '''public void setLostSessionId(final String lostSessionId)
+    '''returns None\n\n
+    setLostSessionId(final String lostSessionId)\n
     '''

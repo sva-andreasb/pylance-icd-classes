@@ -9,15 +9,19 @@ EXPR_TYPE_UNKNOWN = "int  0"
 EXPR_TYPE_EXACT = "int  1"
 EXPR_TYPE_SUBSTRING = "int  2"
 EXPR_TYPE_REGEXP = "int  3"
-def BIMFilterEntry():
-    '''public BIMFilterEntry(final MboSet ms)
+def ():
+    '''returns BIMFilterEntry\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getInternalSheetName():
-    '''public String getInternalSheetName()
+    '''returns String\n\n
+    getInternalSheetName()\n
     '''
 def getExpressionType():
-    '''public int getExpressionType()
+    '''returns int\n\n
+    getExpressionType()\n
     '''

@@ -1,15 +1,16 @@
-def createLayout():
-    '''public static Log4j1XmlLayout createLayout(@PluginAttribute("locationInfo") final boolean locationInfo, @PluginAttribute("properties") final boolean properties)
-    '''
 def isLocationInfo():
-    '''public boolean isLocationInfo()
+    '''returns boolean\n\n
+    isLocationInfo()\n
     '''
 def isProperties():
-    '''public boolean isProperties()
+    '''returns boolean\n\n
+    isProperties()\n
     '''
 def encode():
-    '''public void encode(final LogEvent event, final ByteBufferDestination destination)
+    '''returns None\n\n
+    encode(final LogEvent event, final ByteBufferDestination destination)\n
     '''
 def toSerializable():
-    '''public String toSerializable(final LogEvent event)
+    '''returns String\n\n
+    toSerializable(final LogEvent event)\n
     '''

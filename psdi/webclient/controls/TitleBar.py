@@ -1,12 +1,16 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def renderChildren():
-    '''public void renderChildren()
+    '''returns None\n\n
+    renderChildren()\n
     '''
 def createRenderId():
-    '''public String createRenderId(final String id, final PageInstance page)
+    '''returns String\n\n
+    createRenderId(final String id, final PageInstance page)\n
     '''

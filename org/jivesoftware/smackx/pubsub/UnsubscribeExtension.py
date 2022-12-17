@@ -1,14 +1,18 @@
-def UnsubscribeExtension():
-    '''public UnsubscribeExtension(final String subscriptionJid)
-    public UnsubscribeExtension(final String subscriptionJid, final String nodeId)
-    public UnsubscribeExtension(final String jid, final String nodeId, final String subscriptionId)
+def ():
+    '''returns UnsubscribeExtension\n\n
+    (final String subscriptionJid)\n
+    (final String subscriptionJid, final String nodeId)\n
+    (final String jid, final String nodeId, final String subscriptionId)\n
     '''
 def getJid():
-    '''public String getJid()
+    '''returns String\n\n
+    getJid()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

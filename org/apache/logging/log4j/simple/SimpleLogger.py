@@ -1,33 +1,39 @@
-def SimpleLogger():
-    '''public SimpleLogger(final String name, final Level defaultLevel, final boolean showLogName, final boolean showShortLogName, final boolean showDateTime, final boolean showContextMap, final String dateTimeFormat, final MessageFactory messageFactory, final PropertiesUtil props, final PrintStream stream)
+def ():
+    '''returns SimpleLogger\n\n
+    (final String name, final Level defaultLevel, final boolean showLogName, final boolean showShortLogName, final boolean showDateTime, final boolean showContextMap, final String dateTimeFormat, final MessageFactory messageFactory, final PropertiesUtil props, final PrintStream stream)\n
     '''
 def getLevel():
-    '''public Level getLevel()
+    '''returns Level\n\n
+    getLevel()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Level testLevel, final Marker marker, final Message msg, final Throwable t)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final CharSequence msg, final Throwable t)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final Object msg, final Throwable t)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String msg)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String msg, final Object... p1)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public boolean isEnabled(final Level testLevel, final Marker marker, final String msg, final Throwable t)
+    '''returns boolean\n\n
+    isEnabled(final Level testLevel, final Marker marker, final Message msg, final Throwable t)\n
+    isEnabled(final Level testLevel, final Marker marker, final CharSequence msg, final Throwable t)\n
+    isEnabled(final Level testLevel, final Marker marker, final Object msg, final Throwable t)\n
+    isEnabled(final Level testLevel, final Marker marker, final String msg)\n
+    isEnabled(final Level testLevel, final Marker marker, final String msg, final Object... p1)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    isEnabled(final Level testLevel, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    isEnabled(final Level testLevel, final Marker marker, final String msg, final Throwable t)\n
     '''
 def logMessage():
-    '''public void logMessage(final String fqcn, final Level mgsLevel, final Marker marker, final Message msg, final Throwable throwable)
+    '''returns None\n\n
+    logMessage(final String fqcn, final Level mgsLevel, final Marker marker, final Message msg, final Throwable throwable)\n
     '''
 def setLevel():
-    '''public void setLevel(final Level level)
+    '''returns None\n\n
+    setLevel(final Level level)\n
     '''
 def setStream():
-    '''public void setStream(final PrintStream stream)
+    '''returns None\n\n
+    setStream(final PrintStream stream)\n
     '''

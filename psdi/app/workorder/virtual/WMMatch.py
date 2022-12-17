@@ -1,3 +1,4 @@
-def WMMatch():
-    '''public WMMatch(final MboSet ms)
+def ():
+    '''returns WMMatch\n\n
+    (final MboSet ms)\n
     '''

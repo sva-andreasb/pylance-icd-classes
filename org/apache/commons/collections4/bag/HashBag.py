@@ -1,4 +1,5 @@
-def HashBag():
-    '''public HashBag()
-    public HashBag(final Collection<? extends E> coll)
+def ():
+    '''returns HashBag\n\n
+    ()\n
+    (final Collection<? extends E> coll)\n
     '''

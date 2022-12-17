@@ -1,6 +1,8 @@
 def connect():
-    '''public void connect(final Object o, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connect(final Object o, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)\n
     '''
 def disconnect():
-    '''public void disconnect(final Object o, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnect(final Object o, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)\n
     '''

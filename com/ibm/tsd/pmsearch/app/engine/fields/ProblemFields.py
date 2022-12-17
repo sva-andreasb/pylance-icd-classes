@@ -1,10 +1,13 @@
 FIELDNAME = "String  \"PROBLEM\""
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def hasAttachment():
-    '''public boolean hasAttachment()
+    '''returns boolean\n\n
+    hasAttachment()\n
     '''

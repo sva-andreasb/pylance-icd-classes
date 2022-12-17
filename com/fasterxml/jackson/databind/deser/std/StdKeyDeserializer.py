@@ -15,23 +15,19 @@ TYPE_URL = "int  14"
 TYPE_CLASS = "int  15"
 TYPE_CURRENCY = "int  16"
 TYPE_BYTE_ARRAY = "int  17"
-def forType():
-    '''public static StdKeyDeserializer forType(final Class<?> raw)
-    public static StringKD forType(final Class<?> nominalType)
-    '''
 def deserializeKey():
-    '''public Object deserializeKey(final String key, final DeserializationContext ctxt)
-    public Object deserializeKey(final String key, final DeserializationContext ctxt)
-    public final Object deserializeKey(final String key, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserializeKey(final String key, final DeserializationContext ctxt)\n
+    deserializeKey(final String key, final DeserializationContext ctxt)\n
     '''
 def _parse():
-    '''public Object _parse(final String key, final DeserializationContext ctxt)
-    public Object _parse(final String key, final DeserializationContext ctxt)
-    public Object _parse(final String key, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    _parse(final String key, final DeserializationContext ctxt)\n
+    _parse(final String key, final DeserializationContext ctxt)\n
+    _parse(final String key, final DeserializationContext ctxt)\n
     '''
-def StringCtorKeyDeserializer():
-    '''public StringCtorKeyDeserializer(final Constructor<?> ctor)
-    '''
-def StringFactoryKeyDeserializer():
-    '''public StringFactoryKeyDeserializer(final Method fm)
+def ():
+    '''returns StringFactoryKeyDeserializer\n\n
+    (final Constructor<?> ctor)\n
+    (final Method fm)\n
     '''

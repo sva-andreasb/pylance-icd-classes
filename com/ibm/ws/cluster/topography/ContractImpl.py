@@ -1,51 +1,68 @@
-def ContractImpl():
-    '''public ContractImpl()
+def ():
+    '''returns ContractImpl\n\n
+    ()\n
     '''
 def getFrequency():
-    '''public int getFrequency()
+    '''returns int\n\n
+    getFrequency()\n
     '''
 def setFrequency():
-    '''public void setFrequency(final int frequency)
+    '''returns None\n\n
+    setFrequency(final int frequency)\n
     '''
 def getEvents():
-    '''public Set getEvents()
+    '''returns Set\n\n
+    getEvents()\n
     '''
 def addEvent():
-    '''public void addEvent(final TriggerInfo event)
+    '''returns None\n\n
+    addEvent(final TriggerInfo event)\n
     '''
 def addAllEvents():
-    '''public void addAllEvents(final Set events)
+    '''returns None\n\n
+    addAllEvents(final Set events)\n
     '''
 def removeEvent():
-    '''public void removeEvent(final TriggerInfo event)
+    '''returns None\n\n
+    removeEvent(final TriggerInfo event)\n
     '''
 def match():
-    '''public boolean match(final TriggerInfo event)
+    '''returns boolean\n\n
+    match(final TriggerInfo event)\n
     '''
 def getInterest():
-    '''public Concern getInterest()
+    '''returns Concern\n\n
+    getInterest()\n
     '''
 def setInterest():
-    '''public void setInterest(final Concern interest)
+    '''returns None\n\n
+    setInterest(final Concern interest)\n
     '''
 def subset():
-    '''public boolean subset(final Contract contract)
+    '''returns boolean\n\n
+    subset(final Contract contract)\n
     '''
 def getUnion():
-    '''public Contract getUnion(final Contract contract)
+    '''returns Contract\n\n
+    getUnion(final Contract contract)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

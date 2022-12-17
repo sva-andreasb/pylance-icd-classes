@@ -1,18 +1,24 @@
-def InsightFactorInfo():
-    '''public InsightFactorInfo(final String factorName, final String insightName, final String aggrFunction, final String aggrAttribute, final String filter)
+def ():
+    '''returns InsightFactorInfo\n\n
+    (final String factorName, final String insightName, final String aggrFunction, final String aggrAttribute, final String filter)\n
     '''
 def getAggrAttribute():
-    '''public String getAggrAttribute()
+    '''returns String\n\n
+    getAggrAttribute()\n
     '''
 def getFilter():
-    '''public String getFilter()
+    '''returns String\n\n
+    getFilter()\n
     '''
 def getFactorName():
-    '''public String getFactorName()
+    '''returns String\n\n
+    getFactorName()\n
     '''
 def getInsightName():
-    '''public String getInsightName()
+    '''returns String\n\n
+    getInsightName()\n
     '''
 def getAggrFunction():
-    '''public String getAggrFunction()
+    '''returns String\n\n
+    getAggrFunction()\n
     '''

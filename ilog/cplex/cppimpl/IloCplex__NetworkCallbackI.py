@@ -1,24 +1,28 @@
-def IloCplex__NetworkCallbackI():
-    '''public IloCplex__NetworkCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__NetworkCallbackI obj)
+def ():
+    '''returns IloCplex__NetworkCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getObjValue():
-    '''public double getObjValue()
+    '''returns double\n\n
+    getObjValue()\n
     '''
 def getInfeasibility():
-    '''public double getInfeasibility()
+    '''returns double\n\n
+    getInfeasibility()\n
     '''
 def isFeasible():
-    '''public boolean isFeasible()
+    '''returns boolean\n\n
+    isFeasible()\n
     '''
 def getNiterations64():
-    '''public long getNiterations64()
+    '''returns long\n\n
+    getNiterations64()\n
     '''
 def getNiterations():
-    '''public int getNiterations()
+    '''returns int\n\n
+    getNiterations()\n
     '''

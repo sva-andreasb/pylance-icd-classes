@@ -1,3 +1,4 @@
 def getRules():
-    '''public String getRules()
+    '''returns String\n\n
+    getRules()\n
     '''

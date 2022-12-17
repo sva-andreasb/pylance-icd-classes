@@ -1,27 +1,16 @@
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''
 def checkClientTrusted():
-    '''public void checkClientTrusted(final X509Certificate[] arg0, final String arg1)
+    '''returns None\n\n
+    checkClientTrusted(final X509Certificate[] arg0, final String arg1)\n
     '''
 def checkServerTrusted():
-    '''public void checkServerTrusted(final X509Certificate[] arg0, final String arg1)
+    '''returns None\n\n
+    checkServerTrusted(final X509Certificate[] arg0, final String arg1)\n
     '''
 def verify():
-    '''public boolean verify(final String hostname, final SSLSession session)
-    '''
-def testSSLConnection():
-    '''public static CONNECTION_RESULT testSSLConnection(final String server, final int port, final String username, final String password)
-    '''
-def executeGET():
-    '''public static BESAPI executeGET(final String baseUrl, final String username, final String password, final String url, final Unmarshaller uMarhaller)
-    '''
-def executePOST():
-    '''public static BESAPI executePOST(final String baseUrl, final String username, final String password, final String url, final String body, final Unmarshaller uMarhaller)
-    '''
-def pingServer():
-    '''public static CONNECTION_RESULT pingServer(final String ipAddress)
-    '''
-def stripResponseLayers():
-    '''public static List<Object> stripResponseLayers(final BESAPI besapi)
+    '''returns boolean\n\n
+    verify(final String hostname, final SSLSession session)\n
     '''

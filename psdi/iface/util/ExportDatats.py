@@ -1,3 +1,4 @@
-def ExportDatats():
-    '''public ExportDatats(final MboSet ms)
+def ():
+    '''returns ExportDatats\n\n
+    (final MboSet ms)\n
     '''

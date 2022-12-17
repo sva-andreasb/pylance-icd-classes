@@ -1,12 +1,16 @@
 def gotoapp():
-    '''public int gotoapp()
+    '''returns int\n\n
+    gotoapp()\n
     '''
 def goToLIC():
-    '''public int goToLIC()
+    '''returns int\n\n
+    goToLIC()\n
     '''
 def launchServicePortal():
-    '''public int launchServicePortal()
+    '''returns int\n\n
+    launchServicePortal()\n
     '''
 def CHATOPSLINK():
-    '''public int CHATOPSLINK()
+    '''returns int\n\n
+    CHATOPSLINK()\n
     '''

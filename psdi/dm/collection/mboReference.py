@@ -1,6 +1,8 @@
 def getMboFromReference():
-    '''public MboRemote getMboFromReference(final UserInfo userInfo)
+    '''returns MboRemote\n\n
+    getMboFromReference(final UserInfo userInfo)\n
     '''
 def setMboeference():
-    '''public void setMboeference(final MboRemote mbo)
+    '''returns None\n\n
+    setMboeference(final MboRemote mbo)\n
     '''

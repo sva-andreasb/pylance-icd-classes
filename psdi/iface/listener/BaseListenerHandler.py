@@ -1,16 +1,21 @@
-def BaseListenerHandler():
-    '''public BaseListenerHandler()
-    public BaseListenerHandler(final IntListenerInfo info)
+def ():
+    '''returns BaseListenerHandler\n\n
+    ()\n
+    (final IntListenerInfo info)\n
     '''
 def add():
-    '''public void add(final MboRemote mbo)
+    '''returns None\n\n
+    add(final MboRemote mbo)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo)
+    '''returns None\n\n
+    update(final MboRemote mbo)\n
     '''
 def delete():
-    '''public void delete(final MboRemote mbo)
+    '''returns None\n\n
+    delete(final MboRemote mbo)\n
     '''
 def getParamValue():
-    '''public String getParamValue(final MboSetRemote set, final String col)
+    '''returns String\n\n
+    getParamValue(final MboSetRemote set, final String col)\n
     '''

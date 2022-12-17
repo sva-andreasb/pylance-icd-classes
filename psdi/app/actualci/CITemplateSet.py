@@ -1,3 +1,4 @@
-def CITemplateSet():
-    '''public CITemplateSet(final MboServerInterface ms)
+def ():
+    '''returns CITemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

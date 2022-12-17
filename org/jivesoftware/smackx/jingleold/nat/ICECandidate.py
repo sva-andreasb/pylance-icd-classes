@@ -1,67 +1,89 @@
-def ICECandidate():
-    '''public ICECandidate()
-    public ICECandidate(final String ip, final int generation, final int network, final String password, final int port, final String username, final int preference, final Type type)
+def ():
+    '''returns ICECandidate\n\n
+    ()\n
+    (final String ip, final int generation, final int network, final String password, final int port, final String username, final int preference, final Type type)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getProto():
-    '''public Protocol getProto()
+    '''returns Protocol\n\n
+    getProto()\n
     '''
 def setProto():
-    '''public void setProto(final Protocol proto)
+    '''returns None\n\n
+    setProto(final Protocol proto)\n
     '''
 def getNetwork():
-    '''public int getNetwork()
+    '''returns int\n\n
+    getNetwork()\n
     '''
 def setNetwork():
-    '''public void setNetwork(final int network)
+    '''returns None\n\n
+    setNetwork(final int network)\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def getChannel():
-    '''public Channel getChannel()
+    '''returns Channel\n\n
+    getChannel()\n
     '''
 def setChannel():
-    '''public void setChannel(final Channel channel)
+    '''returns None\n\n
+    setChannel(final Channel channel)\n
     '''
 def setUsername():
-    '''public void setUsername(final String username)
+    '''returns None\n\n
+    setUsername(final String username)\n
     '''
 def getPreference():
-    '''public int getPreference()
+    '''returns int\n\n
+    getPreference()\n
     '''
 def setPreference():
-    '''public void setPreference(final int preference)
+    '''returns None\n\n
+    setPreference(final int preference)\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final Type type)
+    '''returns None\n\n
+    setType(final Type type)\n
     '''
 def check():
-    '''public void check(final List<TransportCandidate> localCandidates)
+    '''returns None\n\n
+    check(final List<TransportCandidate> localCandidates)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def testFinished():
-    '''public void testFinished(final TestResult testResult, final TransportCandidate candidate)
+    '''returns None\n\n
+    testFinished(final TestResult testResult, final TransportCandidate candidate)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isNull():
-    '''public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
     '''
 def compareTo():
-    '''public int compareTo(final ICECandidate arg)
+    '''returns int\n\n
+    compareTo(final ICECandidate arg)\n
     '''

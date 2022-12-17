@@ -1,123 +1,162 @@
-def Entity():
-    '''public Entity()
+def ():
+    '''returns Entity\n\n
+    ()\n
     '''
 def setAsInstance():
-    '''public void setAsInstance()
+    '''returns None\n\n
+    setAsInstance()\n
     '''
 def getSubType():
-    '''public URI getSubType()
+    '''returns URI\n\n
+    getSubType()\n
     '''
 def setSubType():
-    '''public void setSubType(final URI subType)
-    public void setSubType(final String subType)
+    '''returns None\n\n
+    setSubType(final URI subType)\n
+    setSubType(final String subType)\n
     '''
 def getState():
-    '''public URI getState()
+    '''returns URI\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final URI state)
-    public void setState(final String state)
+    '''returns None\n\n
+    setState(final URI state)\n
+    setState(final String state)\n
     '''
 def getStateText():
-    '''public String getStateText()
+    '''returns String\n\n
+    getStateText()\n
     '''
 def setStateText():
-    '''public void setStateText(final String stateText)
+    '''returns None\n\n
+    setStateText(final String stateText)\n
     '''
 def getActionState():
-    '''public String getActionState()
+    '''returns String\n\n
+    getActionState()\n
     '''
 def setActionState():
-    '''public void setActionState(final String actionState)
+    '''returns None\n\n
+    setActionState(final String actionState)\n
     '''
 def getParent():
-    '''public URI getParent()
+    '''returns URI\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final URI parent)
-    public void setParent(final String parent)
+    '''returns None\n\n
+    setParent(final URI parent)\n
+    setParent(final String parent)\n
     '''
 def getFlavorId():
-    '''public String getFlavorId()
+    '''returns String\n\n
+    getFlavorId()\n
     '''
 def setFlavorId():
-    '''public void setFlavorId(final String flavorId)
+    '''returns None\n\n
+    setFlavorId(final String flavorId)\n
     '''
 def getMemberCount():
-    '''public String getMemberCount()
+    '''returns String\n\n
+    getMemberCount()\n
     '''
 def setMemberCount():
-    '''public void setMemberCount(final String memberCount)
+    '''returns None\n\n
+    setMemberCount(final String memberCount)\n
     '''
 def getNumberNics():
-    '''public String getNumberNics()
+    '''returns String\n\n
+    getNumberNics()\n
     '''
 def setNumberNics():
-    '''public void setNumberNics(final String numberNics)
+    '''returns None\n\n
+    setNumberNics(final String numberNics)\n
     '''
 def getContainer():
-    '''public URI getContainer()
+    '''returns URI\n\n
+    getContainer()\n
     '''
 def setContainer():
-    '''public void setContainer(final URI container)
-    public void setContainer(final String container)
+    '''returns None\n\n
+    setContainer(final URI container)\n
+    setContainer(final String container)\n
     '''
 def setAvailableOperations():
-    '''public void setAvailableOperations(final List<URI> operations)
+    '''returns None\n\n
+    setAvailableOperations(final List<URI> operations)\n
     '''
 def addAvailableOperation():
-    '''public void addAvailableOperation(final URI operation)
+    '''returns None\n\n
+    addAvailableOperation(final URI operation)\n
     '''
 def getNic():
-    '''public List<Nic> getNic()
+    '''returns List<Nic>\n\n
+    getNic()\n
     '''
 def setNic():
-    '''public void setNic(final List<Nic> nic)
+    '''returns None\n\n
+    setNic(final List<Nic> nic)\n
     '''
 def getProperties():
-    '''public List<Property> getProperties()
+    '''returns List<Property>\n\n
+    getProperties()\n
     '''
 def setProperties():
-    '''public void setProperties(final List<Property> properties)
+    '''returns None\n\n
+    setProperties(final List<Property> properties)\n
     '''
 def addProperty():
-    '''public void addProperty(final Property property)
+    '''returns None\n\n
+    addProperty(final Property property)\n
     '''
 def getProperty():
-    '''public Property getProperty(final String name)
+    '''returns Property\n\n
+    getProperty(final String name)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Property value)
+    '''returns None\n\n
+    setProperty(final String name, final Property value)\n
     '''
 def removeProperty():
-    '''public void removeProperty(final String name)
-    public void removeProperty(final Property property)
+    '''returns None\n\n
+    removeProperty(final String name)\n
+    removeProperty(final Property property)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final String version)
+    '''returns None\n\n
+    setVersion(final String version)\n
     '''
 def getLinks():
-    '''public List<Link> getLinks()
+    '''returns List<Link>\n\n
+    getLinks()\n
     '''
 def setLinks():
-    '''public void setLinks(final List<Link> links)
+    '''returns None\n\n
+    setLinks(final List<Link> links)\n
     '''
 def addLink():
-    '''public void addLink(final Link link)
+    '''returns None\n\n
+    addLink(final Link link)\n
     '''
 def getNodes():
-    '''public List<Entity> getNodes()
-    public List<Entity> getNodes(final String requestedType)
+    '''returns List<Entity>\n\n
+    getNodes()\n
+    getNodes(final String requestedType)\n
     '''
 def setNodes():
-    '''public void setNodes(final List<Entity> nodes)
+    '''returns None\n\n
+    setNodes(final List<Entity> nodes)\n
     '''
 def addNode():
-    '''public void addNode(final Entity node)
+    '''returns None\n\n
+    addNode(final Entity node)\n
     '''
 def getNode():
-    '''public Entity getNode(final String type, final String identifier)
+    '''returns Entity\n\n
+    getNode(final String type, final String identifier)\n
     '''

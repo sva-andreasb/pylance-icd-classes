@@ -1,0 +1,7 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STExt.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"stext2fe5type\")"
+VIEW = "Enum  Enum.forString(\"view\")"
+EDIT = "Enum  Enum.forString(\"edit\")"
+BACKWARD_COMPATIBLE = "Enum  Enum.forString(\"backwardCompatible\")"
+INT_VIEW = "int  1"
+INT_EDIT = "int  2"
+INT_BACKWARD_COMPATIBLE = "int  3"

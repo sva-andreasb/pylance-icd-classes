@@ -1,19 +1,24 @@
-def IlvFormRect():
-    '''public IlvFormRect()
-    public IlvFormRect(final float x, final float y, final float width, final float height)
-    public IlvFormRect(final Rectangle rectangle)
+def ():
+    '''returns IlvFormRect\n\n
+    ()\n
+    (final float x, final float y, final float width, final float height)\n
+    (final Rectangle rectangle)\n
     '''
 def setRect():
-    '''public void setRect(final IlvFormRect ilvFormRect)
-    public void setRect(final Rectangle rectangle)
+    '''returns None\n\n
+    setRect(final IlvFormRect ilvFormRect)\n
+    setRect(final Rectangle rectangle)\n
     '''
 def getRect():
-    '''public Rectangle getRect()
+    '''returns Rectangle\n\n
+    getRect()\n
     '''
 def setSize():
-    '''public void setSize(final float width, final float height)
-    public void setSize(final IlvFormDimension ilvFormDimension)
+    '''returns None\n\n
+    setSize(final float width, final float height)\n
+    setSize(final IlvFormDimension ilvFormDimension)\n
     '''
 def getSize():
-    '''public IlvFormDimension getSize()
+    '''returns IlvFormDimension\n\n
+    getSize()\n
     '''

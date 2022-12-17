@@ -13,10 +13,12 @@ BAD_PARTICLE_TYPE = "int  11"
 NOT_WRITEABLE = "int  12"
 BAD_HANDLE = "int  13"
 NESTED_EXCEPTION = "int  14"
-def SchemaTypeLoaderException():
-    '''public SchemaTypeLoaderException(final String message, final String name, final String handle, final int code)
-    public SchemaTypeLoaderException(final String message, final String name, final String handle, final int code, final Exception cause)
+def ():
+    '''returns SchemaTypeLoaderException\n\n
+    (final String message, final String name, final String handle, final int code)\n
+    (final String message, final String name, final String handle, final int code, final Exception cause)\n
     '''
 def getCode():
-    '''public int getCode()
+    '''returns int\n\n
+    getCode()\n
     '''

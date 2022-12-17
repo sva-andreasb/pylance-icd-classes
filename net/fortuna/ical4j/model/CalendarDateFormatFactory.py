@@ -1,55 +1,63 @@
-def CalendarDateFormat():
-    '''public CalendarDateFormat(final String pattern)
+def ():
+    '''returns TimeFormat\n\n
+    (final String pattern)\n
+    (final String pattern)\n
+    (final String pattern)\n
+    (final String pattern)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone tz)
+    '''returns None\n\n
+    setTimeZone(final TimeZone tz)\n
     '''
 def setLenient():
-    '''public void setLenient(final boolean lenient)
+    '''returns None\n\n
+    setLenient(final boolean lenient)\n
     '''
 def isLenient():
-    '''public boolean isLenient()
+    '''returns boolean\n\n
+    isLenient()\n
     '''
 def getCalendar():
-    '''public Calendar getCalendar()
+    '''returns Calendar\n\n
+    getCalendar()\n
     '''
 def setCalendar():
-    '''public void setCalendar(final Calendar c)
+    '''returns None\n\n
+    setCalendar(final Calendar c)\n
     '''
 def getNumberFormat():
-    '''public NumberFormat getNumberFormat()
+    '''returns NumberFormat\n\n
+    getNumberFormat()\n
     '''
 def setNumberFormat():
-    '''public void setNumberFormat(final NumberFormat n)
+    '''returns None\n\n
+    setNumberFormat(final NumberFormat n)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def DateTimeFormat():
-    '''public DateTimeFormat(final String pattern)
+    '''returns int\n\n
+    hashCode()\n
     '''
 def format():
-    '''public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
-    public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
-    public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
+    '''returns StringBuffer\n\n
+    format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)\n
+    format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)\n
+    format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)\n
     '''
 def parse():
-    '''public Date parse(final String source, final ParsePosition pos)
-    public Date parse(final String source, final ParsePosition pos)
-    public Date parse(final String source, final ParsePosition pos)
-    '''
-def DateFormat():
-    '''public DateFormat(final String pattern)
-    '''
-def TimeFormat():
-    '''public TimeFormat(final String pattern)
+    '''returns Date\n\n
+    parse(final String source, final ParsePosition pos)\n
+    parse(final String source, final ParsePosition pos)\n
+    parse(final String source, final ParsePosition pos)\n
     '''

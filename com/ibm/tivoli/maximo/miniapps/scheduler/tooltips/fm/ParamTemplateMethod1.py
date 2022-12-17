@@ -1,3 +1,4 @@
 def exec():
-    '''public Object exec(final List arg0)
+    '''returns Object\n\n
+    exec(final List arg0)\n
     '''

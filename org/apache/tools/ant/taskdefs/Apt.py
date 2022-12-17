@@ -2,66 +2,87 @@ EXECUTABLE_NAME = "String  \"apt\""
 ERROR_IGNORING_COMPILER_OPTION = "String  \"Ignoring compiler attribute for the APT task, as it is fixed\""
 ERROR_WRONG_JAVA_VERSION = "String  \"Apt task requires Java 1.5+\""
 WARNING_IGNORING_FORK = "String  \"Apt only runs in its own JVM; fork=false option ignored\""
-def Apt():
-    '''public Apt()
+def ():
+    '''returns Apt\n\n
+    ()\n
     '''
 def getAptExecutable():
-    '''public String getAptExecutable()
+    '''returns String\n\n
+    getAptExecutable()\n
     '''
 def setCompiler():
-    '''public void setCompiler(final String compiler)
+    '''returns None\n\n
+    setCompiler(final String compiler)\n
     '''
 def setFork():
-    '''public void setFork(final boolean fork)
+    '''returns None\n\n
+    setFork(final boolean fork)\n
     '''
 def getCompiler():
-    '''public String getCompiler()
+    '''returns String\n\n
+    getCompiler()\n
     '''
 def isCompile():
-    '''public boolean isCompile()
+    '''returns boolean\n\n
+    isCompile()\n
     '''
 def setCompile():
-    '''public void setCompile(final boolean compile)
+    '''returns None\n\n
+    setCompile(final boolean compile)\n
     '''
 def getFactory():
-    '''public String getFactory()
+    '''returns String\n\n
+    getFactory()\n
     '''
 def setFactory():
-    '''public void setFactory(final String factory)
+    '''returns None\n\n
+    setFactory(final String factory)\n
     '''
 def setFactoryPathRef():
-    '''public void setFactoryPathRef(final Reference ref)
+    '''returns None\n\n
+    setFactoryPathRef(final Reference ref)\n
     '''
 def createFactoryPath():
-    '''public Path createFactoryPath()
+    '''returns Path\n\n
+    createFactoryPath()\n
     '''
 def getFactoryPath():
-    '''public Path getFactoryPath()
+    '''returns Path\n\n
+    getFactoryPath()\n
     '''
 def createOption():
-    '''public Option createOption()
+    '''returns Option\n\n
+    createOption()\n
     '''
 def getOptions():
-    '''public Vector getOptions()
+    '''returns Vector\n\n
+    getOptions()\n
     '''
 def getPreprocessDir():
-    '''public File getPreprocessDir()
+    '''returns File\n\n
+    getPreprocessDir()\n
     '''
 def setPreprocessDir():
-    '''public void setPreprocessDir(final File preprocessDir)
+    '''returns None\n\n
+    setPreprocessDir(final File preprocessDir)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''

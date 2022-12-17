@@ -1,6 +1,8 @@
-def FldInventoryCurBalTotal():
-    '''public FldInventoryCurBalTotal(final MboValue mbv)
+def ():
+    '''returns FldInventoryCurBalTotal\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

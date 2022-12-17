@@ -1,3 +1,4 @@
-def RefreshLDAPServerRequest():
-    '''public RefreshLDAPServerRequest()
+def ():
+    '''returns RefreshLDAPServerRequest\n\n
+    ()\n
     '''

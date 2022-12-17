@@ -1,12 +1,16 @@
-def CraftRateSet():
-    '''public CraftRateSet(final MboServerInterface ms)
+def ():
+    '''returns CraftRateSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getRate():
-    '''public double getRate(final Date planDate)
+    '''returns double\n\n
+    getRate(final Date planDate)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def matchLabor():
-    '''public CraftRateSet matchLabor(final Mbo mbo)
+    '''returns CraftRateSet\n\n
+    matchLabor(final Mbo mbo)\n
     '''

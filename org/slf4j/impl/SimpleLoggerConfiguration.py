@@ -1,6 +1,8 @@
-def SimpleLoggerConfiguration():
-    '''public SimpleLoggerConfiguration()
+def ():
+    '''returns SimpleLoggerConfiguration\n\n
+    ()\n
     '''
 def run():
-    '''public InputStream run()
+    '''returns InputStream\n\n
+    run()\n
     '''

@@ -1,137 +1,181 @@
-def StreamReaderDelegate():
-    '''public StreamReaderDelegate()
-    public StreamReaderDelegate(final XMLStreamReader reader)
+def ():
+    '''returns StreamReaderDelegate\n\n
+    ()\n
+    (final XMLStreamReader reader)\n
     '''
 def setParent():
-    '''public void setParent(final XMLStreamReader reader)
+    '''returns None\n\n
+    setParent(final XMLStreamReader reader)\n
     '''
 def getParent():
-    '''public XMLStreamReader getParent()
+    '''returns XMLStreamReader\n\n
+    getParent()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def nextTag():
-    '''public int nextTag()
+    '''returns int\n\n
+    nextTag()\n
     '''
 def getElementText():
-    '''public String getElementText()
+    '''returns String\n\n
+    getElementText()\n
     '''
 def require():
-    '''public void require(final int n, final String s, final String s2)
+    '''returns None\n\n
+    require(final int n, final String s, final String s2)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI(final String s)
-    public String getNamespaceURI(final int n)
-    public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI(final String s)\n
+    getNamespaceURI(final int n)\n
+    getNamespaceURI()\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
     '''
 def isStartElement():
-    '''public boolean isStartElement()
+    '''returns boolean\n\n
+    isStartElement()\n
     '''
 def isEndElement():
-    '''public boolean isEndElement()
+    '''returns boolean\n\n
+    isEndElement()\n
     '''
 def isCharacters():
-    '''public boolean isCharacters()
+    '''returns boolean\n\n
+    isCharacters()\n
     '''
 def isWhiteSpace():
-    '''public boolean isWhiteSpace()
+    '''returns boolean\n\n
+    isWhiteSpace()\n
     '''
 def getAttributeValue():
-    '''public String getAttributeValue(final String s, final String s2)
-    public String getAttributeValue(final int n)
+    '''returns String\n\n
+    getAttributeValue(final String s, final String s2)\n
+    getAttributeValue(final int n)\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getAttributeName():
-    '''public QName getAttributeName(final int n)
+    '''returns QName\n\n
+    getAttributeName(final int n)\n
     '''
 def getAttributePrefix():
-    '''public String getAttributePrefix(final int n)
+    '''returns String\n\n
+    getAttributePrefix(final int n)\n
     '''
 def getAttributeNamespace():
-    '''public String getAttributeNamespace(final int n)
+    '''returns String\n\n
+    getAttributeNamespace(final int n)\n
     '''
 def getAttributeLocalName():
-    '''public String getAttributeLocalName(final int n)
+    '''returns String\n\n
+    getAttributeLocalName(final int n)\n
     '''
 def getAttributeType():
-    '''public String getAttributeType(final int n)
+    '''returns String\n\n
+    getAttributeType(final int n)\n
     '''
 def isAttributeSpecified():
-    '''public boolean isAttributeSpecified(final int n)
+    '''returns boolean\n\n
+    isAttributeSpecified(final int n)\n
     '''
 def getNamespaceCount():
-    '''public int getNamespaceCount()
+    '''returns int\n\n
+    getNamespaceCount()\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final int n)
+    '''returns String\n\n
+    getNamespacePrefix(final int n)\n
     '''
 def getEventType():
-    '''public int getEventType()
+    '''returns int\n\n
+    getEventType()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTextCharacters():
-    '''public int getTextCharacters(final int n, final char[] array, final int n2, final int n3)
-    public char[] getTextCharacters()
+    '''returns char[]\n\n
+    getTextCharacters(final int n, final char[] array, final int n2, final int n3)\n
+    getTextCharacters()\n
     '''
 def getTextStart():
-    '''public int getTextStart()
+    '''returns int\n\n
+    getTextStart()\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def hasText():
-    '''public boolean hasText()
+    '''returns boolean\n\n
+    hasText()\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def hasName():
-    '''public boolean hasName()
+    '''returns boolean\n\n
+    hasName()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def isStandalone():
-    '''public boolean isStandalone()
+    '''returns boolean\n\n
+    isStandalone()\n
     '''
 def standaloneSet():
-    '''public boolean standaloneSet()
+    '''returns boolean\n\n
+    standaloneSet()\n
     '''
 def getCharacterEncodingScheme():
-    '''public String getCharacterEncodingScheme()
+    '''returns String\n\n
+    getCharacterEncodingScheme()\n
     '''
 def getPITarget():
-    '''public String getPITarget()
+    '''returns String\n\n
+    getPITarget()\n
     '''
 def getPIData():
-    '''public String getPIData()
+    '''returns String\n\n
+    getPIData()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''

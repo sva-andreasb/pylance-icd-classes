@@ -1,3 +1,4 @@
 def setHost():
-    '''public void setHost(final com.softlayer.api.service.Hardware host)
+    '''returns None\n\n
+    setHost(final com.softlayer.api.service.Hardware host)\n
     '''

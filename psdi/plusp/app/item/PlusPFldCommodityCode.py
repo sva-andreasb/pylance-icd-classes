@@ -1,15 +1,20 @@
-def PlusPFldCommodityCode():
-    '''public PlusPFldCommodityCode(final MboValue arg0)
+def ():
+    '''returns PlusPFldCommodityCode\n\n
+    (final MboValue arg0)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def isServiceItem():
-    '''public boolean isServiceItem()
+    '''returns boolean\n\n
+    isServiceItem()\n
     '''
 def returnPriceBookLineOwner():
-    '''public PlusPPriceBookLineRemote returnPriceBookLineOwner(final MboRemote mboRemote)
+    '''returns PlusPPriceBookLineRemote\n\n
+    returnPriceBookLineOwner(final MboRemote mboRemote)\n
     '''

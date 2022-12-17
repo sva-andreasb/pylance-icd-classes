@@ -1,71 +1,90 @@
-def NrsServiceExtension():
-    '''public NrsServiceExtension()
+def ():
+    '''returns NrsServiceExtension\n\n
+    ()\n
     '''
 def registerMSS():
-    '''public Guid registerMSS(final HashMap mss)
+    '''returns Guid\n\n
+    registerMSS(final HashMap mss)\n
     '''
 def updateMSS():
-    '''public void updateMSS(final HashMap mss, final boolean checkIdentifyingAttributes)
+    '''returns None\n\n
+    updateMSS(final HashMap mss, final boolean checkIdentifyingAttributes)\n
     '''
 def deleteMSS():
-    '''public void deleteMSS(final Guid mssGuid)
+    '''returns None\n\n
+    deleteMSS(final Guid mssGuid)\n
     '''
 def getMSS():
-    '''public HashMap[] getMSS(final Date date)
+    '''returns HashMap[]\n\n
+    getMSS(final Date date)\n
     '''
 def registerAttributes():
-    '''public void registerAttributes(final Guid mssGuid, final Guid[] guids, final HashMap[] attributeMaps, final HashMap[] cleansedAttributeMaps)
-    '''
-def searchAttribute():
-    '''public static int searchAttribute(final ArrayList aList, final String aString)
+    '''returns None\n\n
+    registerAttributes(final Guid mssGuid, final Guid[] guids, final HashMap[] attributeMaps, final HashMap[] cleansedAttributeMaps)\n
     '''
 def addAttribute():
-    '''public PreparedStatement addAttribute(PreparedStatement addPreparedStmt, final byte[] mssGuid, final byte[] meGuid, final byte[] attrGuid, final String attrName, final String standardValue, final String oldValue, final int isIdentifyingAttr)
+    '''returns PreparedStatement\n\n
+    addAttribute(PreparedStatement addPreparedStmt, final byte[] mssGuid, final byte[] meGuid, final byte[] attrGuid, final String attrName, final String standardValue, final String oldValue, final int isIdentifyingAttr)\n
     '''
 def addSourceToken():
-    '''public PreparedStatement addSourceToken(PreparedStatement addPreparedStmt, final byte[] mssGuid, final byte[] meGuid, final String sourceToken)
+    '''returns PreparedStatement\n\n
+    addSourceToken(PreparedStatement addPreparedStmt, final byte[] mssGuid, final byte[] meGuid, final String sourceToken)\n
     '''
 def update():
-    '''public void update(final Guid mssGuid, final HashMap[] attributeMaps)
+    '''returns None\n\n
+    update(final Guid mssGuid, final HashMap[] attributeMaps)\n
     '''
 def delete():
-    '''public void delete(final Guid mssGuid, final Guid[] guids)
+    '''returns None\n\n
+    delete(final Guid mssGuid, final Guid[] guids)\n
     '''
 def getDeleted():
-    '''public Guid[] getDeleted(final String classType, final Date date)
+    '''returns Guid[]\n\n
+    getDeleted(final String classType, final Date date)\n
     '''
 def addRelationships():
-    '''public Guid[] addRelationships(final Guid mssGuid, final HashMap[] relationships)
+    '''returns Guid[]\n\n
+    addRelationships(final Guid mssGuid, final HashMap[] relationships)\n
     '''
 def addRelationshipsOracle():
-    '''public Guid[] addRelationshipsOracle(final Guid mssGuid, final HashMap[] relationships)
+    '''returns Guid[]\n\n
+    addRelationshipsOracle(final Guid mssGuid, final HashMap[] relationships)\n
     '''
 def addRelationship():
-    '''public PreparedStatement addRelationship(PreparedStatement addPreparedStmt, final byte[] relGuid, final String relType, final byte[] sourceClass, final byte[] sourceGuid, final byte[] targetClass, final byte[] targetGuid, final String label)
+    '''returns PreparedStatement\n\n
+    addRelationship(PreparedStatement addPreparedStmt, final byte[] relGuid, final String relType, final byte[] sourceClass, final byte[] sourceGuid, final byte[] targetClass, final byte[] targetGuid, final String label)\n
     '''
 def addMSSRelationship():
-    '''public PreparedStatement addMSSRelationship(PreparedStatement addPreparedStmt, final byte[] mssGuid, final byte[] relGuid)
+    '''returns PreparedStatement\n\n
+    addMSSRelationship(PreparedStatement addPreparedStmt, final byte[] mssGuid, final byte[] relGuid)\n
     '''
 def deleteRelationships():
-    '''public void deleteRelationships(final Guid mssGuid, final HashMap[] relationships)
-    public void deleteRelationships(final byte[][] relGuids)
-    public void deleteRelationships(final Guid mssGuid, final HashMap filter)
+    '''returns None\n\n
+    deleteRelationships(final Guid mssGuid, final HashMap[] relationships)\n
+    deleteRelationships(final byte[][] relGuids)\n
+    deleteRelationships(final Guid mssGuid, final HashMap filter)\n
     '''
 def get():
-    '''public HashMap[] get(final byte[] mssGuid, final HashMap resourceFilter, final int scope)
+    '''returns HashMap[]\n\n
+    get(final byte[] mssGuid, final HashMap resourceFilter, final int scope)\n
     '''
 def getManagedElements():
-    '''public HashMap[] getManagedElements(final String classType, final Date date)
+    '''returns HashMap[]\n\n
+    getManagedElements(final String classType, final Date date)\n
     '''
 def getSourceToken():
-    '''public String getSourceToken(final Guid mssGuid, final Guid meGuid)
+    '''returns String\n\n
+    getSourceToken(final Guid mssGuid, final Guid meGuid)\n
     '''
 def getSourceTokens():
-    '''public HashMap[] getSourceTokens(final Guid mssGuid, final Date date)
+    '''returns HashMap[]\n\n
+    getSourceTokens(final Guid mssGuid, final Date date)\n
     '''
 def getRelationships():
-    '''public HashMap[] getRelationships(final String relationshipType, final String sourceClass, final String targetClass, final Date date)
+    '''returns HashMap[]\n\n
+    getRelationships(final String relationshipType, final String sourceClass, final String targetClass, final Date date)\n
     '''
 def removeStale():
-    '''public void removeStale(final Guid mssGuid, final Date date)
+    '''returns None\n\n
+    removeStale(final Guid mssGuid, final Date date)\n
     '''

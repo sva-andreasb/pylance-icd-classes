@@ -1,3 +1,4 @@
-def LicenseReservationSet():
-    '''public LicenseReservationSet(final MboServerInterface ms)
+def ():
+    '''returns LicenseReservationSet\n\n
+    (final MboServerInterface ms)\n
     '''

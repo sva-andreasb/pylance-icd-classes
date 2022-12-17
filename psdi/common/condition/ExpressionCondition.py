@@ -1,9 +1,12 @@
-def ExpressionCondition():
-    '''public ExpressionCondition()
+def ():
+    '''returns ExpressionCondition\n\n
+    ()\n
     '''
 def evaluateCondition():
-    '''public boolean evaluateCondition(final MboRemote mbo, final Object expression)
+    '''returns boolean\n\n
+    evaluateCondition(final MboRemote mbo, final Object expression)\n
     '''
 def toWhereClause():
-    '''public String toWhereClause(final Object expression, final MboSetRemote mboSet)
+    '''returns String\n\n
+    toWhereClause(final Object expression, final MboSetRemote mboSet)\n
     '''

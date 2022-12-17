@@ -1,9 +1,12 @@
-def INVOKESPECIAL():
-    '''public INVOKESPECIAL(final int index)
+def ():
+    '''returns INVOKESPECIAL\n\n
+    (final int index)\n
     '''
 def getExceptions():
-    '''public Class[] getExceptions()
+    '''returns Class[]\n\n
+    getExceptions()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

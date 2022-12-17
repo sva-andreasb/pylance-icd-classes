@@ -1,4 +1,5 @@
-def TypedArrayGloss():
-    '''public TypedArrayGloss()
-    public TypedArrayGloss(final StringGloss stringGloss, final Gloss[] array, final int n)
+def ():
+    '''returns TypedArrayGloss\n\n
+    ()\n
+    (final StringGloss stringGloss, final Gloss[] array, final int n)\n
     '''

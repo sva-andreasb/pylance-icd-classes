@@ -1,52 +1,69 @@
 serialVersionUID = "long  1L"
-def BindingOperationImpl():
-    '''public BindingOperationImpl()
+def ():
+    '''returns BindingOperationImpl\n\n
+    ()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setOperation():
-    '''public void setOperation(final Operation operation)
+    '''returns None\n\n
+    setOperation(final Operation operation)\n
     '''
 def getOperation():
-    '''public Operation getOperation()
+    '''returns Operation\n\n
+    getOperation()\n
     '''
 def setBindingInput():
-    '''public void setBindingInput(final BindingInput bindingInput)
+    '''returns None\n\n
+    setBindingInput(final BindingInput bindingInput)\n
     '''
 def getBindingInput():
-    '''public BindingInput getBindingInput()
+    '''returns BindingInput\n\n
+    getBindingInput()\n
     '''
 def setBindingOutput():
-    '''public void setBindingOutput(final BindingOutput bindingOutput)
+    '''returns None\n\n
+    setBindingOutput(final BindingOutput bindingOutput)\n
     '''
 def getBindingOutput():
-    '''public BindingOutput getBindingOutput()
+    '''returns BindingOutput\n\n
+    getBindingOutput()\n
     '''
 def addBindingFault():
-    '''public void addBindingFault(final BindingFault bindingFault)
+    '''returns None\n\n
+    addBindingFault(final BindingFault bindingFault)\n
     '''
 def getBindingFault():
-    '''public BindingFault getBindingFault(final String s)
+    '''returns BindingFault\n\n
+    getBindingFault(final String s)\n
     '''
 def getBindingFaults():
-    '''public Map getBindingFaults()
+    '''returns Map\n\n
+    getBindingFaults()\n
     '''
 def setDocumentationElement():
-    '''public void setDocumentationElement(final Element docEl)
+    '''returns None\n\n
+    setDocumentationElement(final Element docEl)\n
     '''
 def getDocumentationElement():
-    '''public Element getDocumentationElement()
+    '''returns Element\n\n
+    getDocumentationElement()\n
     '''
 def addExtensibilityElement():
-    '''public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''returns None\n\n
+    addExtensibilityElement(final ExtensibilityElement extensibilityElement)\n
     '''
 def getExtensibilityElements():
-    '''public List getExtensibilityElements()
+    '''returns List\n\n
+    getExtensibilityElements()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

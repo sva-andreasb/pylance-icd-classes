@@ -1,3 +1,4 @@
-def WOChangeSet():
-    '''public WOChangeSet(final MboServerInterface ms)
+def ():
+    '''returns WOChangeSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,14 +1,17 @@
-def Oq():
-    '''public Oq(final long n)
-    public Oq(final long fu, final boolean dn)
-    public Oq(final Date date)
-    public Oq(final Date date, final boolean b)
-    public Oq(final File file)
-    public Oq(final File file, final boolean b)
+def ():
+    '''returns Oq\n\n
+    (final long n)\n
+    (final long fu, final boolean dn)\n
+    (final Date date)\n
+    (final Date date, final boolean b)\n
+    (final File file)\n
+    (final File file, final boolean b)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

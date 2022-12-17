@@ -1,16 +1,21 @@
-def XmlEncodingSniffer():
-    '''public XmlEncodingSniffer(final InputStream stream, final String encodingOverride)
-    public XmlEncodingSniffer(final Reader reader, String encodingDefault)
+def ():
+    '''returns XmlEncodingSniffer\n\n
+    (final InputStream stream, final String encodingOverride)\n
+    (final Reader reader, String encodingDefault)\n
     '''
 def getXmlEncoding():
-    '''public String getXmlEncoding()
+    '''returns String\n\n
+    getXmlEncoding()\n
     '''
 def getJavaEncoding():
-    '''public String getJavaEncoding()
+    '''returns String\n\n
+    getJavaEncoding()\n
     '''
 def getStream():
-    '''public InputStream getStream()
+    '''returns InputStream\n\n
+    getStream()\n
     '''
 def getReader():
-    '''public Reader getReader()
+    '''returns Reader\n\n
+    getReader()\n
     '''

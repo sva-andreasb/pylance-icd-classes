@@ -1,6 +1,8 @@
-def PlusPFldRange():
-    '''public PlusPFldRange(final MboValue mbv)
+def ():
+    '''returns PlusPFldRange\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

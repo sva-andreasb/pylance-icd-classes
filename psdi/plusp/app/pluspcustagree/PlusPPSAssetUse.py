@@ -1,6 +1,8 @@
-def PlusPPSAssetUse():
-    '''public PlusPPSAssetUse(final MboSet set)
+def ():
+    '''returns PlusPPSAssetUse\n\n
+    (final MboSet set)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

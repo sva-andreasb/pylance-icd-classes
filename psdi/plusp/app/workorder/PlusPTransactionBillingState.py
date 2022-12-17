@@ -1,12 +1,16 @@
-def PlusPTransactionBillingState():
-    '''public PlusPTransactionBillingState(final MboSet ms)
+def ():
+    '''returns PlusPTransactionBillingState\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def preventTransactionFromBilling():
-    '''public void preventTransactionFromBilling()
+    '''returns None\n\n
+    preventTransactionFromBilling()\n
     '''
 def includeTransactionToBill():
-    '''public void includeTransactionToBill()
+    '''returns None\n\n
+    includeTransactionToBill()\n
     '''

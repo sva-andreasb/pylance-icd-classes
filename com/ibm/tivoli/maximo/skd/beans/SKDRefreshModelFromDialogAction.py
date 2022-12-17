@@ -1,23 +1,30 @@
-def SKDRefreshModelFromDialogAction():
-    '''public SKDRefreshModelFromDialogAction(final AppInstance app, final WebClientSession clientSession, final long uniqueId, final boolean isWorkOrderLevel)
+def ():
+    '''returns SKDRefreshModelFromDialogAction\n\n
+    (final AppInstance app, final WebClientSession clientSession, final long uniqueId, final boolean isWorkOrderLevel)\n
     '''
 def refreshModel():
-    '''public void refreshModel(final Map<String, Object> updateProperties)
-    public void refreshModel(final Map<String, Object> updateProperties, final IMXActivity activity)
+    '''returns None\n\n
+    refreshModel(final Map<String, Object> updateProperties)\n
+    refreshModel(final Map<String, Object> updateProperties, final IMXActivity activity)\n
     '''
 def addActivityToModel():
-    '''public void addActivityToModel(final Map<String, Object> updateProperties, final IMXActivity activity, final MXResource res)
+    '''returns None\n\n
+    addActivityToModel(final Map<String, Object> updateProperties, final IMXActivity activity, final MXResource res)\n
     '''
 def getModel():
-    '''public IMXGanttModel getModel()
+    '''returns IMXGanttModel\n\n
+    getModel()\n
     '''
 def getSelectedActivity():
-    '''public IMXActivity getSelectedActivity()
+    '''returns IMXActivity\n\n
+    getSelectedActivity()\n
     '''
 def isGAWorkViewTabSelected():
-    '''public boolean isGAWorkViewTabSelected()
+    '''returns boolean\n\n
+    isGAWorkViewTabSelected()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
-    public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
+    getUserInfo()\n
     '''

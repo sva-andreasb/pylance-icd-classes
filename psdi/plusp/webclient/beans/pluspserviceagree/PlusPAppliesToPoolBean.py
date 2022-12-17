@@ -1,3 +1,4 @@
 def selectpoolitems():
-    '''public int selectpoolitems()
+    '''returns int\n\n
+    selectpoolitems()\n
     '''

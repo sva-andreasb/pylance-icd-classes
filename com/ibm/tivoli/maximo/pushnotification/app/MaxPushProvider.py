@@ -1,3 +1,4 @@
-def MaxPushProvider():
-    '''public MaxPushProvider(final MboSet ms)
+def ():
+    '''returns MaxPushProvider\n\n
+    (final MboSet ms)\n
     '''

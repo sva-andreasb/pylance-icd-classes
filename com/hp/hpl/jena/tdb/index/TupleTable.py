@@ -1,43 +1,53 @@
-def TupleTable():
-    '''public TupleTable(final int tupleLen, final TupleIndex[] indexes)
+def ():
+    '''returns TupleTable\n\n
+    (final int tupleLen, final TupleIndex[] indexes)\n
     '''
 def add():
-    '''public boolean add(final Tuple<NodeId> t)
+    '''returns boolean\n\n
+    add(final Tuple<NodeId> t)\n
     '''
 def delete():
-    '''public boolean delete(final Tuple<NodeId> t)
+    '''returns boolean\n\n
+    delete(final Tuple<NodeId> t)\n
     '''
 def find():
-    '''public Iterator<Tuple<NodeId>> find(final Tuple<NodeId> pattern)
-    '''
-def close():
-    '''public final void close()
+    '''returns Iterator<Tuple<NodeId>>\n\n
+    find(final Tuple<NodeId> pattern)\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def getIndex():
-    '''public TupleIndex getIndex(final int i)
+    '''returns TupleIndex\n\n
+    getIndex(final int i)\n
     '''
 def getIndexes():
-    '''public TupleIndex[] getIndexes()
+    '''returns TupleIndex[]\n\n
+    getIndexes()\n
     '''
 def getTupleLen():
-    '''public int getTupleLen()
+    '''returns int\n\n
+    getTupleLen()\n
     '''
 def setTupleIndex():
-    '''public void setTupleIndex(final int i, final TupleIndex index)
+    '''returns None\n\n
+    setTupleIndex(final int i, final TupleIndex index)\n
     '''
 def numIndexes():
-    '''public int numIndexes()
+    '''returns int\n\n
+    numIndexes()\n
     '''

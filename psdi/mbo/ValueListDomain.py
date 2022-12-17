@@ -1,3 +1,4 @@
-def ValueListDomain():
-    '''public ValueListDomain(final MboValue mv)
+def ():
+    '''returns ValueListDomain\n\n
+    (final MboValue mv)\n
     '''

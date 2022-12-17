@@ -1,5 +1,6 @@
-def MalformedCookieException():
-    '''public MalformedCookieException()
-    public MalformedCookieException(final String message)
-    public MalformedCookieException(final String message, final Throwable cause)
+def ():
+    '''returns MalformedCookieException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

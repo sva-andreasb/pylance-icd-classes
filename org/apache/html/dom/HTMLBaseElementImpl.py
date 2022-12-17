@@ -1,15 +1,20 @@
 def getHref():
-    '''public String getHref()
+    '''returns String\n\n
+    getHref()\n
     '''
 def setHref():
-    '''public void setHref(final String s)
+    '''returns None\n\n
+    setHref(final String s)\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def setTarget():
-    '''public void setTarget(final String s)
+    '''returns None\n\n
+    setTarget(final String s)\n
     '''
-def HTMLBaseElementImpl():
-    '''public HTMLBaseElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLBaseElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

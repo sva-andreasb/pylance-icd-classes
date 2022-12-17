@@ -1,14 +1,17 @@
 WEBCLIENT_HIDE_UNAUTHORIZED_REPORTS = "String  \"webclient.hideUnauthorizedReports\""
-def ReportListCfgSet():
-    '''public ReportListCfgSet(final MboServerInterface ms)
-    '''
-def getSelectedReports():
-    '''public NavigableMap<Integer, Map<String, String>> getSelectedReports()
-    public MboSetData getSelectedReports(final int start, final int rowcount)
+def ():
+    '''returns ReportListCfgSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def updateSelectedReports():
-    '''public void updateSelectedReports(final MboSetRemote dataSet)
+    '''returns None\n\n
+    updateSelectedReports(final MboSetRemote dataSet)\n
+    '''
+def getSelectedReports():
+    '''returns MboSetData\n\n
+    getSelectedReports(final int start, final int rowcount)\n
     '''
 def getNoOfReports():
-    '''public int getNoOfReports()
+    '''returns int\n\n
+    getNoOfReports()\n
     '''

@@ -1,11 +1,14 @@
-def ScriptingException():
-    '''public ScriptingException()
-    public ScriptingException(final String msg)
-    public ScriptingException(final Throwable cause, final String msg)
+def ():
+    '''returns ScriptingException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable cause, final String msg)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''

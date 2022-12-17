@@ -1,99 +1,132 @@
 def getQueryApps():
-    '''public String[] getQueryApps()
+    '''returns String[]\n\n
+    getQueryApps()\n
     '''
 def setQueryApps():
-    '''public void setQueryApps(final String[] queryApps)
+    '''returns None\n\n
+    setQueryApps(final String[] queryApps)\n
     '''
 def getAutoPagingThreshold():
-    '''public int getAutoPagingThreshold()
+    '''returns int\n\n
+    getAutoPagingThreshold()\n
     '''
 def setAutoPagingThreshold():
-    '''public void setAutoPagingThreshold(final int autoPagingThreshold)
+    '''returns None\n\n
+    setAutoPagingThreshold(final int autoPagingThreshold)\n
     '''
 def getTimeLineAttr():
-    '''public String getTimeLineAttr()
+    '''returns String\n\n
+    getTimeLineAttr()\n
     '''
 def setTimeLineAttr():
-    '''public void setTimeLineAttr(final String timeLineAttr)
+    '''returns None\n\n
+    setTimeLineAttr(final String timeLineAttr)\n
     '''
 def getApp():
-    '''public String getApp()
+    '''returns String\n\n
+    getApp()\n
     '''
 def setApp():
-    '''public void setApp(final String app)
+    '''returns None\n\n
+    setApp(final String app)\n
     '''
-def MosInfo():
-    '''public MosInfo(final String intObectName)
+def ():
+    '''returns MosInfo\n\n
+    (final String intObectName)\n
     '''
 def getIntObjectName():
-    '''public String getIntObjectName()
+    '''returns String\n\n
+    getIntObjectName()\n
     '''
 def getMosDetailList():
-    '''public List<MosDetailInfo> getMosDetailList()
+    '''returns List<MosDetailInfo>\n\n
+    getMosDetailList()\n
     '''
 def getUseWithApp():
-    '''public String getUseWithApp()
+    '''returns String\n\n
+    getUseWithApp()\n
     '''
 def getAuthApp():
-    '''public String getAuthApp()
+    '''returns String\n\n
+    getAuthApp()\n
     '''
 def getDefClass():
-    '''public String getDefClass()
+    '''returns String\n\n
+    getDefClass()\n
     '''
 def getProcClass():
-    '''public String getProcClass()
+    '''returns String\n\n
+    getProcClass()\n
     '''
 def getModule():
-    '''public String getModule()
+    '''returns String\n\n
+    getModule()\n
     '''
 def isQueryOnly():
-    '''public boolean isQueryOnly()
+    '''returns boolean\n\n
+    isQueryOnly()\n
     '''
 def isInternal():
-    '''public boolean isInternal()
+    '''returns boolean\n\n
+    isInternal()\n
     '''
 def isFlatSupported():
-    '''public boolean isFlatSupported()
+    '''returns boolean\n\n
+    isFlatSupported()\n
     '''
 def isPrimaryAPI():
-    '''public boolean isPrimaryAPI()
+    '''returns boolean\n\n
+    isPrimaryAPI()\n
     '''
 def getPrimaryMosDetailInfo():
-    '''public MosDetailInfo getPrimaryMosDetailInfo()
+    '''returns MosDetailInfo\n\n
+    getPrimaryMosDetailInfo()\n
     '''
 def getMosDetailInfo():
-    '''public MosDetailInfo getMosDetailInfo(final String hierarchyPath)
+    '''returns MosDetailInfo\n\n
+    getMosDetailInfo(final String hierarchyPath)\n
     '''
 def loadSortedKeyInfo():
-    '''public void loadSortedKeyInfo(final MosDetailInfo info)
+    '''returns None\n\n
+    loadSortedKeyInfo(final MosDetailInfo info)\n
     '''
 def getSortedKeyList():
-    '''public List<MboValueInfo> getSortedKeyList()
+    '''returns List<MboValueInfo>\n\n
+    getSortedKeyList()\n
     '''
 def isSelfReferencing():
-    '''public boolean isSelfReferencing()
+    '''returns boolean\n\n
+    isSelfReferencing()\n
     '''
 def hasAliasConflict():
-    '''public boolean hasAliasConflict()
+    '''returns boolean\n\n
+    hasAliasConflict()\n
     '''
 def getSearchAttributes():
-    '''public String getSearchAttributes()
+    '''returns String\n\n
+    getSearchAttributes()\n
     '''
 def setLoadQueryFromApps():
-    '''public void setLoadQueryFromApps(final boolean loadQueryFromApps)
+    '''returns None\n\n
+    setLoadQueryFromApps(final boolean loadQueryFromApps)\n
     '''
 def isLoadQueryFromApps():
-    '''public boolean isLoadQueryFromApps()
+    '''returns boolean\n\n
+    isLoadQueryFromApps()\n
     '''
 def getRestrictWhere():
-    '''public String getRestrictWhere()
+    '''returns String\n\n
+    getRestrictWhere()\n
     '''
 def setRestrictWhere():
-    '''public void setRestrictWhere(final String restrictWhere)
+    '''returns None\n\n
+    setRestrictWhere(final String restrictWhere)\n
     '''
 def getTags():
-    '''public String getTags()
+    '''returns String\n\n
+    getTags()\n
     '''
 def setTags():
-    '''public void setTags(final String tags)
+    '''returns None\n\n
+    setTags(final String tags)\n
     '''

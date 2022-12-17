@@ -1,10 +1,13 @@
 PLUSPBILLSCHEDULE = "String  \"PLUSPBILLSCHEDULE\""
-def PlusPBSBaseSet():
-    '''public PlusPBSBaseSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBSBaseSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def isFinalAndLastBillDateInThePast():
-    '''public boolean isFinalAndLastBillDateInThePast()
+    '''returns boolean\n\n
+    isFinalAndLastBillDateInThePast()\n
     '''

@@ -1,123 +1,155 @@
 sid = "short  440"
 ENCODED_SIZE = "int  16"
-def HyperlinkRecord():
-    '''public HyperlinkRecord()
-    public HyperlinkRecord(final RecordInputStream in)
+def ():
+    '''returns GUID\n\n
+    ()\n
+    (final RecordInputStream in)\n
+    (final LittleEndianInput in)\n
+    (final int d1, final int d2, final int d3, final long d4)\n
     '''
 def getFirstColumn():
-    '''public int getFirstColumn()
+    '''returns int\n\n
+    getFirstColumn()\n
     '''
 def setFirstColumn():
-    '''public void setFirstColumn(final int firstCol)
+    '''returns None\n\n
+    setFirstColumn(final int firstCol)\n
     '''
 def getLastColumn():
-    '''public int getLastColumn()
+    '''returns int\n\n
+    getLastColumn()\n
     '''
 def setLastColumn():
-    '''public void setLastColumn(final int lastCol)
+    '''returns None\n\n
+    setLastColumn(final int lastCol)\n
     '''
 def getFirstRow():
-    '''public int getFirstRow()
+    '''returns int\n\n
+    getFirstRow()\n
     '''
 def setFirstRow():
-    '''public void setFirstRow(final int firstRow)
+    '''returns None\n\n
+    setFirstRow(final int firstRow)\n
     '''
 def getLastRow():
-    '''public int getLastRow()
+    '''returns int\n\n
+    getLastRow()\n
     '''
 def setLastRow():
-    '''public void setLastRow(final int lastRow)
+    '''returns None\n\n
+    setLastRow(final int lastRow)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def getTargetFrame():
-    '''public String getTargetFrame()
+    '''returns String\n\n
+    getTargetFrame()\n
     '''
 def getAddress():
-    '''public String getAddress()
+    '''returns String\n\n
+    getAddress()\n
     '''
 def setAddress():
-    '''public void setAddress(final String address)
+    '''returns None\n\n
+    setAddress(final String address)\n
     '''
 def getShortFilename():
-    '''public String getShortFilename()
+    '''returns String\n\n
+    getShortFilename()\n
     '''
 def setShortFilename():
-    '''public void setShortFilename(final String shortFilename)
+    '''returns None\n\n
+    setShortFilename(final String shortFilename)\n
     '''
 def getTextMark():
-    '''public String getTextMark()
+    '''returns String\n\n
+    getTextMark()\n
     '''
 def setTextMark():
-    '''public void setTextMark(final String textMark)
+    '''returns None\n\n
+    setTextMark(final String textMark)\n
     '''
 def getLabelOptions():
-    '''public int getLabelOptions()
+    '''returns int\n\n
+    getLabelOptions()\n
     '''
 def getFileOptions():
-    '''public int getFileOptions()
+    '''returns int\n\n
+    getFileOptions()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
-    public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def isUrlLink():
-    '''public boolean isUrlLink()
+    '''returns boolean\n\n
+    isUrlLink()\n
     '''
 def isFileLink():
-    '''public boolean isFileLink()
+    '''returns boolean\n\n
+    isFileLink()\n
     '''
 def isDocumentLink():
-    '''public boolean isDocumentLink()
+    '''returns boolean\n\n
+    isDocumentLink()\n
     '''
 def newUrlLink():
-    '''public void newUrlLink()
+    '''returns None\n\n
+    newUrlLink()\n
     '''
 def newFileLink():
-    '''public void newFileLink()
+    '''returns None\n\n
+    newFileLink()\n
     '''
 def newDocumentLink():
-    '''public void newDocumentLink()
+    '''returns None\n\n
+    newDocumentLink()\n
     '''
 def clone():
-    '''public HyperlinkRecord clone()
-    '''
-def GUID():
-    '''public GUID(final LittleEndianInput in)
-    public GUID(final int d1, final int d2, final int d3, final long d4)
+    '''returns HyperlinkRecord\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getD1():
-    '''public int getD1()
+    '''returns int\n\n
+    getD1()\n
     '''
 def getD2():
-    '''public int getD2()
+    '''returns int\n\n
+    getD2()\n
     '''
 def getD3():
-    '''public int getD3()
+    '''returns int\n\n
+    getD3()\n
     '''
 def getD4():
-    '''public long getD4()
+    '''returns long\n\n
+    getD4()\n
     '''
 def formatAsString():
-    '''public String formatAsString()
-    '''
-def parse():
-    '''public static GUID parse(final String rep)
+    '''returns String\n\n
+    formatAsString()\n
     '''

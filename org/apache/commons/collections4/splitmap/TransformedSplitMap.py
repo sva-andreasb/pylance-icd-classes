@@ -1,12 +1,12 @@
-def transformingMap():
-    '''public static <J, K, U, V> TransformedSplitMap<J, K, U, V> transformingMap(final Map<K, V> map, final Transformer<? super J, ? extends K> keyTransformer, final Transformer<? super U, ? extends V> valueTransformer)
-    '''
 def put():
-    '''public V put(final J key, final U value)
+    '''returns V\n\n
+    put(final J key, final U value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends J, ? extends U> mapToCopy)
+    '''returns None\n\n
+    putAll(final Map<? extends J, ? extends U> mapToCopy)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

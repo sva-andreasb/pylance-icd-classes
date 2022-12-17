@@ -1,33 +1,39 @@
-def toString():
-    '''public final String toString()
-    '''
-def SQLServerBlob():
-    '''public SQLServerBlob(final SQLServerConnection connection, final byte[] data)
+def ():
+    '''returns SQLServerBlob\n\n
+    (final SQLServerConnection connection, final byte[] data)\n
     '''
 def free():
-    '''public void free()
+    '''returns None\n\n
+    free()\n
     '''
 def getBinaryStream():
-    '''public InputStream getBinaryStream()
-    public InputStream getBinaryStream(final long pos, final long length)
+    '''returns InputStream\n\n
+    getBinaryStream()\n
+    getBinaryStream(final long pos, final long length)\n
     '''
 def getBytes():
-    '''public byte[] getBytes(long pos, int length)
+    '''returns byte[]\n\n
+    getBytes(long pos, int length)\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''
 def position():
-    '''public long position(final Blob pattern, final long start)
-    public long position(final byte[] bPattern, long start)
+    '''returns long\n\n
+    position(final Blob pattern, final long start)\n
+    position(final byte[] bPattern, long start)\n
     '''
 def truncate():
-    '''public void truncate(final long len)
+    '''returns None\n\n
+    truncate(final long len)\n
     '''
 def setBinaryStream():
-    '''public OutputStream setBinaryStream(final long pos)
+    '''returns OutputStream\n\n
+    setBinaryStream(final long pos)\n
     '''
 def setBytes():
-    '''public int setBytes(final long pos, final byte[] bytes)
-    public int setBytes(long pos, final byte[] bytes, final int offset, final int len)
+    '''returns int\n\n
+    setBytes(final long pos, final byte[] bytes)\n
+    setBytes(long pos, final byte[] bytes, final int offset, final int len)\n
     '''

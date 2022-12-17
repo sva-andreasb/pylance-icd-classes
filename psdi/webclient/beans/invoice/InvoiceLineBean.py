@@ -1,9 +1,12 @@
 def DISTCOSTS():
-    '''public int DISTCOSTS()
+    '''returns int\n\n
+    DISTCOSTS()\n
     '''
 def COPYPOLINE():
-    '''public int COPYPOLINE()
+    '''returns int\n\n
+    COPYPOLINE()\n
     '''
 def COPYTRLINE():
-    '''public int COPYTRLINE()
+    '''returns int\n\n
+    COPYTRLINE()\n
     '''

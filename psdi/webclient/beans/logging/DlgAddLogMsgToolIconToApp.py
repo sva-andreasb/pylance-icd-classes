@@ -1,9 +1,12 @@
 def addlogmsgicontoapp():
-    '''public int addlogmsgicontoapp()
+    '''returns int\n\n
+    addlogmsgicontoapp()\n
     '''
 def selectall():
-    '''public int selectall()
+    '''returns int\n\n
+    selectall()\n
     '''
 def unselectall():
-    '''public int unselectall()
+    '''returns int\n\n
+    unselectall()\n
     '''

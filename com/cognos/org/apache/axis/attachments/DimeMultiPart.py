@@ -1,12 +1,16 @@
-def DimeMultiPart():
-    '''public DimeMultiPart()
+def ():
+    '''returns DimeMultiPart\n\n
+    ()\n
     '''
 def addBodyPart():
-    '''public void addBodyPart(final DimeBodyPart part)
+    '''returns None\n\n
+    addBodyPart(final DimeBodyPart part)\n
     '''
 def write():
-    '''public void write(final OutputStream os)
+    '''returns None\n\n
+    write(final OutputStream os)\n
     '''
 def getTransmissionSize():
-    '''public long getTransmissionSize()
+    '''returns long\n\n
+    getTransmissionSize()\n
     '''

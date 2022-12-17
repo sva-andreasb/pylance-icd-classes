@@ -1,6 +1,8 @@
-def PlusPFldStAddrDirPrfx():
-    '''public PlusPFldStAddrDirPrfx(final MboValue mv)
+def ():
+    '''returns PlusPFldStAddrDirPrfx\n\n
+    (final MboValue mv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,36 +1,47 @@
 FIELD_STATE = "String  \"state\""
 FIELD_FILTER = "String  \"filter\""
 FIELD_UPDATED = "String  \"updated\""
-def AssignmentFilterState():
-    '''public AssignmentFilterState(final Supplier<Model> modelSupplier)
+def ():
+    '''returns AssignmentFilterState\n\n
+    (final Supplier<Model> modelSupplier)\n
     '''
 def getState():
-    '''public boolean getState()
+    '''returns boolean\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final boolean state)
+    '''returns None\n\n
+    setState(final boolean state)\n
     '''
 def lastUpdated():
-    '''public long lastUpdated()
+    '''returns long\n\n
+    lastUpdated()\n
     '''
 def getFilter():
-    '''public JSONArray getFilter()
+    '''returns JSONArray\n\n
+    getFilter()\n
     '''
 def getNonNullFilter():
-    '''public JSONArray getNonNullFilter()
+    '''returns JSONArray\n\n
+    getNonNullFilter()\n
     '''
 def setFilter():
-    '''public void setFilter(final JSONArray arr)
+    '''returns None\n\n
+    setFilter(final JSONArray arr)\n
     '''
 def hasFilter():
-    '''public boolean hasFilter()
+    '''returns boolean\n\n
+    hasFilter()\n
     '''
 def isFilterEnabled():
-    '''public boolean isFilterEnabled()
+    '''returns boolean\n\n
+    isFilterEnabled()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def store():
-    '''public void store()
+    '''returns None\n\n
+    store()\n
     '''

@@ -1,46 +1,56 @@
-def JsonReadContext():
-    '''public JsonReadContext(final JsonReadContext parent, final DupDetector dups, final int type, final int lineNr, final int colNr)
+def ():
+    '''returns JsonReadContext\n\n
+    (final JsonReadContext parent, final DupDetector dups, final int type, final int lineNr, final int colNr)\n
     '''
 def withDupDetector():
-    '''public JsonReadContext withDupDetector(final DupDetector dups)
+    '''returns JsonReadContext\n\n
+    withDupDetector(final DupDetector dups)\n
     '''
 def getCurrentValue():
-    '''public Object getCurrentValue()
+    '''returns Object\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final Object v)
-    '''
-def createRootContext():
-    '''public static JsonReadContext createRootContext(final int lineNr, final int colNr, final DupDetector dups)
-    public static JsonReadContext createRootContext(final DupDetector dups)
+    '''returns None\n\n
+    setCurrentValue(final Object v)\n
     '''
 def createChildArrayContext():
-    '''public JsonReadContext createChildArrayContext(final int lineNr, final int colNr)
+    '''returns JsonReadContext\n\n
+    createChildArrayContext(final int lineNr, final int colNr)\n
     '''
 def createChildObjectContext():
-    '''public JsonReadContext createChildObjectContext(final int lineNr, final int colNr)
+    '''returns JsonReadContext\n\n
+    createChildObjectContext(final int lineNr, final int colNr)\n
     '''
 def getCurrentName():
-    '''public String getCurrentName()
+    '''returns String\n\n
+    getCurrentName()\n
     '''
 def hasCurrentName():
-    '''public boolean hasCurrentName()
+    '''returns boolean\n\n
+    hasCurrentName()\n
     '''
 def getParent():
-    '''public JsonReadContext getParent()
+    '''returns JsonReadContext\n\n
+    getParent()\n
     '''
 def getStartLocation():
-    '''public JsonLocation getStartLocation(final Object srcRef)
+    '''returns JsonLocation\n\n
+    getStartLocation(final Object srcRef)\n
     '''
 def clearAndGetParent():
-    '''public JsonReadContext clearAndGetParent()
+    '''returns JsonReadContext\n\n
+    clearAndGetParent()\n
     '''
 def getDupDetector():
-    '''public DupDetector getDupDetector()
+    '''returns DupDetector\n\n
+    getDupDetector()\n
     '''
 def expectComma():
-    '''public boolean expectComma()
+    '''returns boolean\n\n
+    expectComma()\n
     '''
 def setCurrentName():
-    '''public void setCurrentName(final String name)
+    '''returns None\n\n
+    setCurrentName(final String name)\n
     '''

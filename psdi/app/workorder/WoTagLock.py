@@ -1,27 +1,36 @@
-def WoTagLock():
-    '''public WoTagLock(final MboSet ms)
+def ():
+    '''returns WoTagLock\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def copyAttributesFromLockout():
-    '''public void copyAttributesFromLockout(final MboRemote lockMbo)
+    '''returns None\n\n
+    copyAttributesFromLockout(final MboRemote lockMbo)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

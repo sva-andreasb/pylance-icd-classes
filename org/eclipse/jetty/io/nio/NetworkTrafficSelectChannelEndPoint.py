@@ -1,21 +1,28 @@
-def NetworkTrafficSelectChannelEndPoint():
-    '''public NetworkTrafficSelectChannelEndPoint(final SocketChannel channel, final SelectorManager.SelectSet selectSet, final SelectionKey key, final int maxIdleTime, final List<NetworkTrafficListener> listeners)
+def ():
+    '''returns NetworkTrafficSelectChannelEndPoint\n\n
+    (final SocketChannel channel, final SelectorManager.SelectSet selectSet, final SelectionKey key, final int maxIdleTime, final List<NetworkTrafficListener> listeners)\n
     '''
 def fill():
-    '''public int fill(final Buffer buffer)
+    '''returns int\n\n
+    fill(final Buffer buffer)\n
     '''
 def flush():
-    '''public int flush(final Buffer buffer)
+    '''returns int\n\n
+    flush(final Buffer buffer)\n
     '''
 def notifyOpened():
-    '''public void notifyOpened()
+    '''returns None\n\n
+    notifyOpened()\n
     '''
 def notifyIncoming():
-    '''public void notifyIncoming(final Buffer buffer, final int read)
+    '''returns None\n\n
+    notifyIncoming(final Buffer buffer, final int read)\n
     '''
 def notifyOutgoing():
-    '''public void notifyOutgoing(final Buffer buffer, final int position, final int written)
+    '''returns None\n\n
+    notifyOutgoing(final Buffer buffer, final int position, final int written)\n
     '''
 def notifyClosed():
-    '''public void notifyClosed()
+    '''returns None\n\n
+    notifyClosed()\n
     '''

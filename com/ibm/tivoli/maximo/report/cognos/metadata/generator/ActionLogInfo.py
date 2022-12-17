@@ -1,48 +1,64 @@
 def setInputModel():
-    '''public void setInputModel(final String inputModel)
+    '''returns None\n\n
+    setInputModel(final String inputModel)\n
     '''
 def getInputModel():
-    '''public String getInputModel()
+    '''returns String\n\n
+    getInputModel()\n
     '''
 def setDatabaseType():
-    '''public void setDatabaseType(final String databaseType)
+    '''returns None\n\n
+    setDatabaseType(final String databaseType)\n
     '''
 def getDatabaseType():
-    '''public String getDatabaseType()
+    '''returns String\n\n
+    getDatabaseType()\n
     '''
 def setDatabaseSchema():
-    '''public void setDatabaseSchema(final String databaseSchema)
+    '''returns None\n\n
+    setDatabaseSchema(final String databaseSchema)\n
     '''
 def getDatabaseSchema():
-    '''public String getDatabaseSchema()
+    '''returns String\n\n
+    getDatabaseSchema()\n
     '''
 def setDatabaseName():
-    '''public void setDatabaseName(final String databaseName)
+    '''returns None\n\n
+    setDatabaseName(final String databaseName)\n
     '''
 def getDatabaseName():
-    '''public String getDatabaseName()
+    '''returns String\n\n
+    getDatabaseName()\n
     '''
 def setDataSourceName():
-    '''public void setDataSourceName(final String dataSourceName)
+    '''returns None\n\n
+    setDataSourceName(final String dataSourceName)\n
     '''
 def getDataSourceName():
-    '''public String getDataSourceName()
+    '''returns String\n\n
+    getDataSourceName()\n
     '''
 def setContentStorePackageLocation():
-    '''public void setContentStorePackageLocation(final String contentStorePackageLocation)
+    '''returns None\n\n
+    setContentStorePackageLocation(final String contentStorePackageLocation)\n
     '''
 def getContentStorePackageLocation():
-    '''public String getContentStorePackageLocation()
+    '''returns String\n\n
+    getContentStorePackageLocation()\n
     '''
 def setQueryMode():
-    '''public void setQueryMode(final String queryMode)
+    '''returns None\n\n
+    setQueryMode(final String queryMode)\n
     '''
 def getQueryMode():
-    '''public String getQueryMode()
+    '''returns String\n\n
+    getQueryMode()\n
     '''
 def setMultiserver():
-    '''public void setMultiserver(final boolean multiserver)
+    '''returns None\n\n
+    setMultiserver(final boolean multiserver)\n
     '''
 def isMultiserver():
-    '''public boolean isMultiserver()
+    '''returns boolean\n\n
+    isMultiserver()\n
     '''

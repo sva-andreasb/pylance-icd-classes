@@ -1,18 +1,24 @@
-def OwnerCustBean():
-    '''public OwnerCustBean()
+def ():
+    '''returns OwnerCustBean\n\n
+    ()\n
     '''
 def REFRESHLIST():
-    '''public int REFRESHLIST()
+    '''returns int\n\n
+    REFRESHLIST()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def lucontinue():
-    '''public int lucontinue()
+    '''returns int\n\n
+    lucontinue()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

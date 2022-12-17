@@ -1,6 +1,8 @@
-def FRETURN():
-    '''public FRETURN()
+def ():
+    '''returns FRETURN\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

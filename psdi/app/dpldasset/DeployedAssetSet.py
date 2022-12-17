@@ -1,6 +1,8 @@
-def DeployedAssetSet():
-    '''public DeployedAssetSet(final MboServerInterface ms)
+def ():
+    '''returns DeployedAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def initDataDictionary():
-    '''public void initDataDictionary()
+    '''returns None\n\n
+    initDataDictionary()\n
     '''

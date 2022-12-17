@@ -1,189 +1,252 @@
-def ItemFACILITY():
-    '''public ItemFACILITY()
+def ():
+    '''returns ItemFACILITY\n\n
+    ()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def isDuplicat():
-    '''public boolean isDuplicat(final Parser parser, final Item item)
+    '''returns boolean\n\n
+    isDuplicat(final Parser parser, final Item item)\n
     '''
 def update():
-    '''public void update(final Item item)
+    '''returns None\n\n
+    update(final Item item)\n
     '''
 def addFloor():
-    '''public void addFloor(final ItemFLOOR floor)
+    '''returns None\n\n
+    addFloor(final ItemFLOOR floor)\n
     '''
 def floors():
-    '''public Enumeration<ItemFLOOR> floors()
+    '''returns Enumeration<ItemFLOOR>\n\n
+    floors()\n
     '''
 def getAreaMeasurement():
-    '''public String getAreaMeasurement()
+    '''returns String\n\n
+    getAreaMeasurement()\n
     '''
 def getAreaUnits():
-    '''public String getAreaUnits()
+    '''returns String\n\n
+    getAreaUnits()\n
     '''
 def isCurrencyCodeValid():
-    '''public boolean isCurrencyCodeValid()
+    '''returns boolean\n\n
+    isCurrencyCodeValid()\n
     '''
 def setCurrencyCodeValid():
-    '''public void setCurrencyCodeValid(final boolean currencyCodeValid)
+    '''returns None\n\n
+    setCurrencyCodeValid(final boolean currencyCodeValid)\n
     '''
 def getCurrencyUnit():
-    '''public String getCurrencyUnit()
+    '''returns String\n\n
+    getCurrencyUnit()\n
     '''
 def getCurrencyUnits():
-    '''public String getCurrencyUnits()
+    '''returns String\n\n
+    getCurrencyUnits()\n
     '''
 def setExternalSystem():
-    '''public void setExternalSystem(final String externalSystem)
+    '''returns None\n\n
+    setExternalSystem(final String externalSystem)\n
     '''
 def getDateTimeStamp():
-    '''public String getDateTimeStamp()
+    '''returns String\n\n
+    getDateTimeStamp()\n
     '''
 def getExternalFacilityIdentifier():
-    '''public String getExternalFacilityIdentifier()
+    '''returns String\n\n
+    getExternalFacilityIdentifier()\n
     '''
 def getExternalFacilityObject():
-    '''public String getExternalFacilityObject()
+    '''returns String\n\n
+    getExternalFacilityObject()\n
     '''
 def getExternalIdentifier():
-    '''public String getExternalIdentifier()
+    '''returns String\n\n
+    getExternalIdentifier()\n
     '''
 def getExternalProjectIdentifier():
-    '''public String getExternalProjectIdentifier()
+    '''returns String\n\n
+    getExternalProjectIdentifier()\n
     '''
 def getExternalProjectObject():
-    '''public String getExternalProjectObject()
+    '''returns String\n\n
+    getExternalProjectObject()\n
     '''
 def getExternalSiteIdentifier():
-    '''public String getExternalSiteIdentifier()
+    '''returns String\n\n
+    getExternalSiteIdentifier()\n
     '''
 def getExternalSiteObject():
-    '''public String getExternalSiteObject()
+    '''returns String\n\n
+    getExternalSiteObject()\n
     '''
 def getFloorCount():
-    '''public int getFloorCount()
+    '''returns int\n\n
+    getFloorCount()\n
     '''
 def getLinearUnits():
-    '''public String getLinearUnits()
+    '''returns String\n\n
+    getLinearUnits()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def getPhase():
-    '''public String getPhase()
+    '''returns String\n\n
+    getPhase()\n
     '''
 def getProjectDescription():
-    '''public String getProjectDescription()
+    '''returns String\n\n
+    getProjectDescription()\n
     '''
 def getProjectName():
-    '''public String getProjectName()
+    '''returns String\n\n
+    getProjectName()\n
     '''
 def getSiteDescription():
-    '''public String getSiteDescription()
+    '''returns String\n\n
+    getSiteDescription()\n
     '''
 def getSiteName():
-    '''public String getSiteName()
+    '''returns String\n\n
+    getSiteName()\n
     '''
 def getVolumeUnits():
-    '''public String getVolumeUnits()
+    '''returns String\n\n
+    getVolumeUnits()\n
     '''
 def isAreaUnitsValid():
-    '''public boolean isAreaUnitsValid()
+    '''returns boolean\n\n
+    isAreaUnitsValid()\n
     '''
 def isLineraUnitsValid():
-    '''public boolean isLineraUnitsValid()
+    '''returns boolean\n\n
+    isLineraUnitsValid()\n
     '''
 def isValumeUnitsValid():
-    '''public boolean isValumeUnitsValid()
+    '''returns boolean\n\n
+    isValumeUnitsValid()\n
     '''
 def setAreaMeasurement():
-    '''public void setAreaMeasurement(final String areaMeasurement)
+    '''returns None\n\n
+    setAreaMeasurement(final String areaMeasurement)\n
     '''
 def setAreaUnits():
-    '''public void setAreaUnits(final String areaUnits)
+    '''returns None\n\n
+    setAreaUnits(final String areaUnits)\n
     '''
 def setAreaUnitsValid():
-    '''public void setAreaUnitsValid(final boolean areaUnitsValid)
+    '''returns None\n\n
+    setAreaUnitsValid(final boolean areaUnitsValid)\n
     '''
 def setCurrencyUnit():
-    '''public void setCurrencyUnit(final String currencyUnit)
+    '''returns None\n\n
+    setCurrencyUnit(final String currencyUnit)\n
     '''
 def setCurrencyUnits():
-    '''public void setCurrencyUnits(final String currencyUnits)
+    '''returns None\n\n
+    setCurrencyUnits(final String currencyUnits)\n
     '''
 def setDateTimeStamp():
-    '''public void setDateTimeStamp(final String dateTimeStamp)
+    '''returns None\n\n
+    setDateTimeStamp(final String dateTimeStamp)\n
     '''
 def setExternalFacilityIdentifier():
-    '''public void setExternalFacilityIdentifier(final String extExternalFacilityIdentifier)
+    '''returns None\n\n
+    setExternalFacilityIdentifier(final String extExternalFacilityIdentifier)\n
     '''
 def setExtFacilityIdentifier():
-    '''public void setExtFacilityIdentifier(final String extFacilityIdentifier)
+    '''returns None\n\n
+    setExtFacilityIdentifier(final String extFacilityIdentifier)\n
     '''
 def setExternalFacilityObject():
-    '''public void setExternalFacilityObject(final String extExternalFacilityObject)
+    '''returns None\n\n
+    setExternalFacilityObject(final String extExternalFacilityObject)\n
     '''
 def setExtFacilityObject():
-    '''public void setExtFacilityObject(final String extFacilityObject)
+    '''returns None\n\n
+    setExtFacilityObject(final String extFacilityObject)\n
     '''
 def setExternalProjectIdentifier():
-    '''public void setExternalProjectIdentifier(final String externalProjectIdentifier)
+    '''returns None\n\n
+    setExternalProjectIdentifier(final String externalProjectIdentifier)\n
     '''
 def setExtProjectIdentifier():
-    '''public void setExtProjectIdentifier(final String extProjectIdentifier)
+    '''returns None\n\n
+    setExtProjectIdentifier(final String extProjectIdentifier)\n
     '''
 def setExternalProjectObject():
-    '''public void setExternalProjectObject(final String externalProjectObject)
+    '''returns None\n\n
+    setExternalProjectObject(final String externalProjectObject)\n
     '''
 def setExtProjectObject():
-    '''public void setExtProjectObject(final String extProjectObject)
+    '''returns None\n\n
+    setExtProjectObject(final String extProjectObject)\n
     '''
 def setExternalSiteIdentifier():
-    '''public void setExternalSiteIdentifier(final String externalSiteIdentifier)
+    '''returns None\n\n
+    setExternalSiteIdentifier(final String externalSiteIdentifier)\n
     '''
 def setExtSiteIdentifier():
-    '''public void setExtSiteIdentifier(final String extSiteIdentifier)
+    '''returns None\n\n
+    setExtSiteIdentifier(final String extSiteIdentifier)\n
     '''
 def setExternalSiteObject():
-    '''public void setExternalSiteObject(final String extExternalSiteObject)
+    '''returns None\n\n
+    setExternalSiteObject(final String extExternalSiteObject)\n
     '''
 def setExtSiteObject():
-    '''public void setExtSiteObject(final String extSiteObject)
+    '''returns None\n\n
+    setExtSiteObject(final String extSiteObject)\n
     '''
 def setLinearUnits():
-    '''public void setLinearUnits(final String linearUnits)
+    '''returns None\n\n
+    setLinearUnits(final String linearUnits)\n
     '''
 def setLineraUnitsValid():
-    '''public void setLineraUnitsValid(final boolean lineraUnitsValid)
+    '''returns None\n\n
+    setLineraUnitsValid(final boolean lineraUnitsValid)\n
     '''
 def setPhase():
-    '''public void setPhase(final String phase)
+    '''returns None\n\n
+    setPhase(final String phase)\n
     '''
 def setProjectDescription():
-    '''public void setProjectDescription(final String projectDescription)
+    '''returns None\n\n
+    setProjectDescription(final String projectDescription)\n
     '''
 def setProjectName():
-    '''public void setProjectName(final String projectName)
+    '''returns None\n\n
+    setProjectName(final String projectName)\n
     '''
 def setSiteDescription():
-    '''public void setSiteDescription(final String siteDescription)
+    '''returns None\n\n
+    setSiteDescription(final String siteDescription)\n
     '''
 def setSiteName():
-    '''public void setSiteName(final String siteName)
+    '''returns None\n\n
+    setSiteName(final String siteName)\n
     '''
 def setValumeUnitsValid():
-    '''public void setValumeUnitsValid(final boolean valumeUnitsValid)
+    '''returns None\n\n
+    setValumeUnitsValid(final boolean valumeUnitsValid)\n
     '''
 def setVolumeUnits():
-    '''public void setVolumeUnits(final String volumeUnits)
+    '''returns None\n\n
+    setVolumeUnits(final String volumeUnits)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

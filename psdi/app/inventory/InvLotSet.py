@@ -1,3 +1,4 @@
-def InvLotSet():
-    '''public InvLotSet(final MboServerInterface ms)
+def ():
+    '''returns InvLotSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -3,21 +3,27 @@ DISPATCH_PROPERTYGET = "int  2"
 DISPATCH_PROPERTYPUT = "int  4"
 DISPATCH_PROPERTYPUTREF = "int  8"
 DISPID_OFFSET = "int  10"
-def JavaClass():
-    '''public JavaClass(final Class wrappedClass)
+def ():
+    '''returns JavaClass\n\n
+    (final Class wrappedClass)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMethod():
-    '''public Method getMethod(final int n)
+    '''returns Method\n\n
+    getMethod(final int n)\n
     '''
 def getMethod1():
-    '''public Method getMethod1(final int n, final Object[] array)
+    '''returns Method\n\n
+    getMethod1(final int n, final Object[] array)\n
     '''
 def getField():
-    '''public Field getField(final int n)
+    '''returns Field\n\n
+    getField(final int n)\n
     '''
 def getDispatcher():
-    '''public Dispatcher getDispatcher(final int n, final int n2, final Object[] array)
+    '''returns Dispatcher\n\n
+    getDispatcher(final int n, final int n2, final Object[] array)\n
     '''

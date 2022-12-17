@@ -1,23 +1,30 @@
-def OfflineMessageManager():
-    '''public OfflineMessageManager(final XMPPConnection connection)
+def ():
+    '''returns OfflineMessageManager\n\n
+    (final XMPPConnection connection)\n
     '''
 def supportsFlexibleRetrieval():
-    '''public boolean supportsFlexibleRetrieval()
+    '''returns boolean\n\n
+    supportsFlexibleRetrieval()\n
     '''
 def getMessageCount():
-    '''public int getMessageCount()
+    '''returns int\n\n
+    getMessageCount()\n
     '''
 def getHeaders():
-    '''public List<OfflineMessageHeader> getHeaders()
+    '''returns List<OfflineMessageHeader>\n\n
+    getHeaders()\n
     '''
 def getMessages():
-    '''public List<Message> getMessages(final List<String> nodes)
-    public List<Message> getMessages()
+    '''returns List<Message>\n\n
+    getMessages(final List<String> nodes)\n
+    getMessages()\n
     '''
 def accept():
-    '''public boolean accept(final Stanza packet)
+    '''returns boolean\n\n
+    accept(final Stanza packet)\n
     '''
 def deleteMessages():
-    '''public void deleteMessages(final List<String> nodes)
-    public void deleteMessages()
+    '''returns None\n\n
+    deleteMessages(final List<String> nodes)\n
+    deleteMessages()\n
     '''

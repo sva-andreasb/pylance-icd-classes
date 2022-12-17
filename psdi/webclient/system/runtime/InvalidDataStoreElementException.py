@@ -1,3 +1,4 @@
-def InvalidDataStoreElementException():
-    '''public InvalidDataStoreElementException(final String message)
+def ():
+    '''returns InvalidDataStoreElementException\n\n
+    (final String message)\n
     '''

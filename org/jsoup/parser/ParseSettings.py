@@ -1,9 +1,12 @@
-def ParseSettings():
-    '''public ParseSettings(final boolean tag, final boolean attribute)
+def ():
+    '''returns ParseSettings\n\n
+    (final boolean tag, final boolean attribute)\n
     '''
 def normalizeTag():
-    '''public String normalizeTag(String name)
+    '''returns String\n\n
+    normalizeTag(String name)\n
     '''
 def normalizeAttribute():
-    '''public String normalizeAttribute(String name)
+    '''returns String\n\n
+    normalizeAttribute(String name)\n
     '''

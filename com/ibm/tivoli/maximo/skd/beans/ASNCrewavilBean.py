@@ -1,18 +1,20 @@
-def ASNCrewavilBean():
-    '''public ASNCrewavilBean()
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(final String option)
+def ():
+    '''returns ASNCrewavilBean\n\n
+    ()\n
     '''
 def setAmCrew():
-    '''public void setAmCrew(final MboRemote crew)
+    '''returns None\n\n
+    setAmCrew(final MboRemote crew)\n
     '''
 def getAmCrew():
-    '''public MboRemote getAmCrew()
+    '''returns MboRemote\n\n
+    getAmCrew()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

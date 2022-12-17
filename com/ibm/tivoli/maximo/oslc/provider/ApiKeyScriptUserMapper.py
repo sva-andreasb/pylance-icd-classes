@@ -1,3 +1,4 @@
 def getUserForKey():
-    '''public String getUserForKey(final MboRemote apikeyRec, final String principalName, final String mapperExp)
+    '''returns String\n\n
+    getUserForKey(final MboRemote apikeyRec, final String principalName, final String mapperExp)\n
     '''

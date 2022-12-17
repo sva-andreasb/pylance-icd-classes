@@ -1,6 +1,8 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def showOLSCRelationshipDetails():
-    '''public void showOLSCRelationshipDetails()
+    '''returns None\n\n
+    showOLSCRelationshipDetails()\n
     '''

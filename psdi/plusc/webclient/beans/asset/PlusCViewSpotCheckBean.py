@@ -1,3 +1,4 @@
 def refreshspo():
-    '''public int refreshspo()
+    '''returns int\n\n
+    refreshspo()\n
     '''

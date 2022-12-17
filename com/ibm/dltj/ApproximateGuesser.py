@@ -1,16 +1,17 @@
-def ApproximateGuesser():
-    '''public ApproximateGuesser(final UniMorphoSyntax morphoSyntax, final String s)
+def ():
+    '''returns ApproximateGuesser\n\n
+    (final UniMorphoSyntax morphoSyntax, final String s)\n
     '''
 def guess():
-    '''public String guess(final String anObject)
-    public String guess(final CharacterIterator characterIterator, final int n, final int n2)
+    '''returns String\n\n
+    guess(final String anObject)\n
+    guess(final CharacterIterator characterIterator, final int n, final int n2)\n
     '''
 def guessingLookup():
-    '''public GlossCollection guessingLookup(final CharacterIterator characterIterator, final int n, final int n2)
+    '''returns GlossCollection\n\n
+    guessingLookup(final CharacterIterator characterIterator, final int n, final int n2)\n
     '''
 def getType():
-    '''public int getType()
-    '''
-def checkDicts():
-    '''public static boolean checkDicts(final UniMorphoSyntax uniMorphoSyntax)
+    '''returns int\n\n
+    getType()\n
     '''

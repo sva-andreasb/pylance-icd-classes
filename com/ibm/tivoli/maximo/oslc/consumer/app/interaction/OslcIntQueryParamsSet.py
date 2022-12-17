@@ -1,3 +1,4 @@
-def OslcIntQueryParamsSet():
-    '''public OslcIntQueryParamsSet(final MboServerInterface ms)
+def ():
+    '''returns OslcIntQueryParamsSet\n\n
+    (final MboServerInterface ms)\n
     '''

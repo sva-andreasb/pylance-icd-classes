@@ -1,6 +1,8 @@
-def DMReportsProcess():
-    '''public DMReportsProcess()
+def ():
+    '''returns DMReportsProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String objectName)\n
     '''

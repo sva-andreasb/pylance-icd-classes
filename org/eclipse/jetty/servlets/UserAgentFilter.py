@@ -1,16 +1,21 @@
-def UserAgentFilter():
-    '''public UserAgentFilter()
+def ():
+    '''returns UserAgentFilter\n\n
+    ()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def doFilter():
-    '''public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)
+    '''returns None\n\n
+    doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)\n
     '''
 def init():
-    '''public void init(final FilterConfig filterConfig)
+    '''returns None\n\n
+    init(final FilterConfig filterConfig)\n
     '''
 def getUserAgent():
-    '''public String getUserAgent(final ServletRequest request)
-    public String getUserAgent(final String ua)
+    '''returns String\n\n
+    getUserAgent(final ServletRequest request)\n
+    getUserAgent(final String ua)\n
     '''

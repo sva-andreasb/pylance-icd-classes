@@ -1,3 +1,4 @@
-def TloamPersonSet():
-    '''public TloamPersonSet(final MboServerInterface ms)
+def ():
+    '''returns TloamPersonSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,10 +1,13 @@
-def CombineWhereClauses():
-    '''public CombineWhereClauses(final String firstWhere)
-    public CombineWhereClauses()
+def ():
+    '''returns CombineWhereClauses\n\n
+    (final String firstWhere)\n
+    ()\n
     '''
 def addWhere():
-    '''public void addWhere(final String clause)
+    '''returns None\n\n
+    addWhere(final String clause)\n
     '''
 def getWhereClause():
-    '''public String getWhereClause()
+    '''returns String\n\n
+    getWhereClause()\n
     '''

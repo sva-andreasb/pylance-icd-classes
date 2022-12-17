@@ -1,15 +1,12 @@
-def AnnotationDefault():
-    '''public AnnotationDefault(final int nameIndex, final int len, final DataInputStream dis, final ConstantPool cpool)
+def ():
+    '''returns AnnotationDefault\n\n
+    (final int nameIndex, final int len, final DataInputStream dis, final ConstantPool cpool)\n
     '''
 def copy():
-    '''public Attribute copy(final ConstantPool constant_pool)
-    '''
-def getElementValue():
-    '''public final ElementValue getElementValue()
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream dos)
+    '''returns Attribute\n\n
+    copy(final ConstantPool constant_pool)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''

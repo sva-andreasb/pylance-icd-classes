@@ -1,70 +1,85 @@
 def init():
-    '''public void init(final String f, final Analyzer a)
+    '''returns None\n\n
+    init(final String f, final Analyzer a)\n
     '''
 def parse():
-    '''public Query parse(final String query)
+    '''returns Query\n\n
+    parse(final String query)\n
     '''
 def getField():
-    '''public String getField()
-    '''
-def getAutoGeneratePhraseQueries():
-    '''public final boolean getAutoGeneratePhraseQueries()
+    '''returns String\n\n
+    getField()\n
     '''
 def setAutoGeneratePhraseQueries():
-    '''public void setAutoGeneratePhraseQueries(final boolean value)
+    '''returns None\n\n
+    setAutoGeneratePhraseQueries(final boolean value)\n
     '''
 def getFuzzyMinSim():
-    '''public float getFuzzyMinSim()
+    '''returns float\n\n
+    getFuzzyMinSim()\n
     '''
 def setFuzzyMinSim():
-    '''public void setFuzzyMinSim(final float fuzzyMinSim)
+    '''returns None\n\n
+    setFuzzyMinSim(final float fuzzyMinSim)\n
     '''
 def getFuzzyPrefixLength():
-    '''public int getFuzzyPrefixLength()
+    '''returns int\n\n
+    getFuzzyPrefixLength()\n
     '''
 def setFuzzyPrefixLength():
-    '''public void setFuzzyPrefixLength(final int fuzzyPrefixLength)
+    '''returns None\n\n
+    setFuzzyPrefixLength(final int fuzzyPrefixLength)\n
     '''
 def setPhraseSlop():
-    '''public void setPhraseSlop(final int phraseSlop)
+    '''returns None\n\n
+    setPhraseSlop(final int phraseSlop)\n
     '''
 def getPhraseSlop():
-    '''public int getPhraseSlop()
+    '''returns int\n\n
+    getPhraseSlop()\n
     '''
 def setAllowLeadingWildcard():
-    '''public void setAllowLeadingWildcard(final boolean allowLeadingWildcard)
+    '''returns None\n\n
+    setAllowLeadingWildcard(final boolean allowLeadingWildcard)\n
     '''
 def getAllowLeadingWildcard():
-    '''public boolean getAllowLeadingWildcard()
+    '''returns boolean\n\n
+    getAllowLeadingWildcard()\n
     '''
 def setDefaultOperator():
-    '''public void setDefaultOperator(final QueryParser.Operator op)
+    '''returns None\n\n
+    setDefaultOperator(final QueryParser.Operator op)\n
     '''
 def setMultiTermRewriteMethod():
-    '''public void setMultiTermRewriteMethod(final MultiTermQuery.RewriteMethod method)
+    '''returns None\n\n
+    setMultiTermRewriteMethod(final MultiTermQuery.RewriteMethod method)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone timeZone)
+    '''returns None\n\n
+    setTimeZone(final TimeZone timeZone)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def setDateResolution():
-    '''public void setDateResolution(final DateTools.Resolution dateResolution)
-    public void setDateResolution(final String fieldName, final DateTools.Resolution dateResolution)
+    '''returns None\n\n
+    setDateResolution(final DateTools.Resolution dateResolution)\n
+    setDateResolution(final String fieldName, final DateTools.Resolution dateResolution)\n
     '''
 def setMaxDeterminizedStates():
-    '''public void setMaxDeterminizedStates(final int maxDeterminizedStates)
+    '''returns None\n\n
+    setMaxDeterminizedStates(final int maxDeterminizedStates)\n
     '''
 def getMaxDeterminizedStates():
-    '''public int getMaxDeterminizedStates()
-    '''
-def escape():
-    '''public static String escape(final String s)
+    '''returns int\n\n
+    getMaxDeterminizedStates()\n
     '''

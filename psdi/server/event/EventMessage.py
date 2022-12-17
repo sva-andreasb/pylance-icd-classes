@@ -1,33 +1,43 @@
-def EventMessage():
-    '''public EventMessage()
-    public EventMessage(final String name, final Object obj)
-    public EventMessage(final String name, final Object obj, final Object id)
-    public EventMessage(final String name, final Object obj, final Object tid, final Object eid)
+def ():
+    '''returns EventMessage\n\n
+    ()\n
+    (final String name, final Object obj)\n
+    (final String name, final Object obj, final Object id)\n
+    (final String name, final Object obj, final Object tid, final Object eid)\n
     '''
 def getEventName():
-    '''public String getEventName()
+    '''returns String\n\n
+    getEventName()\n
     '''
 def getEventObject():
-    '''public Object getEventObject()
+    '''returns Object\n\n
+    getEventObject()\n
     '''
 def getTxnId():
-    '''public Object getTxnId()
+    '''returns Object\n\n
+    getTxnId()\n
     '''
 def getEventId():
-    '''public Object getEventId()
+    '''returns Object\n\n
+    getEventId()\n
     '''
 def getTimeStamp():
-    '''public Date getTimeStamp()
+    '''returns Date\n\n
+    getTimeStamp()\n
     '''
 def setEventName():
-    '''public void setEventName(final String name)
+    '''returns None\n\n
+    setEventName(final String name)\n
     '''
 def setEventObject():
-    '''public void setEventObject(final Object obj)
+    '''returns None\n\n
+    setEventObject(final Object obj)\n
     '''
 def setTxnId():
-    '''public void setTxnId(final Object id)
+    '''returns None\n\n
+    setTxnId(final Object id)\n
     '''
 def setEventId():
-    '''public void setEventId(final Object id)
+    '''returns None\n\n
+    setEventId(final Object id)\n
     '''

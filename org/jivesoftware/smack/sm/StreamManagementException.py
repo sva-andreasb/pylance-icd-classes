@@ -1,40 +1,43 @@
-def StreamManagementException():
-    '''public StreamManagementException()
-    public StreamManagementException(final String message)
-    '''
-def StreamIdDoesNotMatchException():
-    '''public StreamIdDoesNotMatchException(final String expected, final String got)
-    '''
-def StreamManagementCounterError():
-    '''public StreamManagementCounterError(final long handledCount, final long previousServerHandlerCount, final long ackedStanzaCount, final List<Stanza> ackedStanzas)
+def ():
+    '''returns StreamManagementCounterError\n\n
+    ()\n
+    (final String message)\n
+    (final String expected, final String got)\n
+    (final long handledCount, final long previousServerHandlerCount, final long ackedStanzaCount, final List<Stanza> ackedStanzas)\n
     '''
 def getHandledCount():
-    '''public long getHandledCount()
+    '''returns long\n\n
+    getHandledCount()\n
     '''
 def getPreviousServerHandledCount():
-    '''public long getPreviousServerHandledCount()
+    '''returns long\n\n
+    getPreviousServerHandledCount()\n
     '''
 def getAckedStanzaCount():
-    '''public long getAckedStanzaCount()
+    '''returns long\n\n
+    getAckedStanzaCount()\n
     '''
 def getOutstandingStanzasCount():
-    '''public int getOutstandingStanzasCount()
+    '''returns int\n\n
+    getOutstandingStanzasCount()\n
     '''
 def getAckedStanzas():
-    '''public List<Stanza> getAckedStanzas()
+    '''returns List<Stanza>\n\n
+    getAckedStanzas()\n
     '''
 def getOverflowElementNum():
-    '''public int getOverflowElementNum()
+    '''returns int\n\n
+    getOverflowElementNum()\n
     '''
 def getDroppedElements():
-    '''public int getDroppedElements()
+    '''returns int\n\n
+    getDroppedElements()\n
     '''
 def getElements():
-    '''public List<Element> getElements()
+    '''returns List<Element>\n\n
+    getElements()\n
     '''
 def getUnacknowledgesStanzas():
-    '''public List<Stanza> getUnacknowledgesStanzas()
-    '''
-def newWith():
-    '''public static UnacknowledgedQueueFullException newWith(final int overflowElementNum, final List<Element> elements, final BlockingQueue<Stanza> unacknowledgedStanzas)
+    '''returns List<Stanza>\n\n
+    getUnacknowledgesStanzas()\n
     '''

@@ -1,24 +1,20 @@
-def IlvFormDevice():
-    '''public IlvFormDevice(final String a)
-    '''
-def getName():
-    '''public final String getName()
+def ():
+    '''returns IlvFormDevice\n\n
+    (final String a)\n
     '''
 def setName():
-    '''public void setName(final String a)
+    '''returns None\n\n
+    setName(final String a)\n
     '''
 def getDeviceProperty():
-    '''public Object getDeviceProperty(final String s)
+    '''returns Object\n\n
+    getDeviceProperty(final String s)\n
     '''
 def setDeviceProperty():
-    '''public Object setDeviceProperty(final String s, final Object o)
+    '''returns Object\n\n
+    setDeviceProperty(final String s, final Object o)\n
     '''
 def createControl():
-    '''public Object createControl(final IlvForm ilvForm, final String s, final Class clazz)
-    '''
-def GetFormDevice():
-    '''public static IlvFormDevice GetFormDevice(final String s)
-    '''
-def RegisterFormDevice():
-    '''public static void RegisterFormDevice(final String s, final IlvFormDevice ilvFormDevice)
+    '''returns Object\n\n
+    createControl(final IlvForm ilvForm, final String s, final Class clazz)\n
     '''

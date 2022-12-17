@@ -1,17 +1,18 @@
 def setDebugStream():
-    '''public void setDebugStream(final PrintStream ds)
+    '''returns None\n\n
+    setDebugStream(final PrintStream ds)\n
     '''
-def PAParserTokenManager():
-    '''public PAParserTokenManager(final JavaCharStream stream)
-    public PAParserTokenManager(final JavaCharStream stream, final int lexState)
+def ():
+    '''returns PAParserTokenManager\n\n
+    (final JavaCharStream stream)\n
+    (final JavaCharStream stream, final int lexState)\n
     '''
 def ReInit():
-    '''public void ReInit(final JavaCharStream stream)
-    public void ReInit(final JavaCharStream stream, final int lexState)
+    '''returns None\n\n
+    ReInit(final JavaCharStream stream)\n
+    ReInit(final JavaCharStream stream, final int lexState)\n
     '''
 def SwitchTo():
-    '''public void SwitchTo(final int lexState)
-    '''
-def getNextToken():
-    '''public final Token getNextToken()
+    '''returns None\n\n
+    SwitchTo(final int lexState)\n
     '''

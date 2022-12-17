@@ -1,9 +1,8 @@
-def MigrationResBundle():
-    '''public MigrationResBundle()
+def ():
+    '''returns MigrationResBundle\n\n
+    ()\n
     '''
 def getMessage():
-    '''public String getMessage(final String message, final Object... parameters)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    getMessage(final String message, final Object... parameters)\n
     '''

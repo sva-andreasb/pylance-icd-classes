@@ -1,15 +1,16 @@
-def FixedResolver():
-    '''public FixedResolver(final String ip, final int port)
+def ():
+    '''returns FixedResolver\n\n
+    (final String ip, final int port)\n
     '''
 def setFixedCandidate():
-    '''public void setFixedCandidate(final String ip, final int port)
-    '''
-def resolve():
-    '''public synchronized void resolve(final JingleSession session)
+    '''returns None\n\n
+    setFixedCandidate(final String ip, final int port)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''

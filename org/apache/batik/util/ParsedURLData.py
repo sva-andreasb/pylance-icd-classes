@@ -1,46 +1,57 @@
-def checkGZIP():
-    '''public static InputStream checkGZIP(InputStream is)
-    '''
-def ParsedURLData():
-    '''public ParsedURLData()
-    public ParsedURLData(final URL url)
+def ():
+    '''returns ParsedURLData\n\n
+    ()\n
+    (final URL url)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getContentType():
-    '''public String getContentType(final String userAgent)
+    '''returns String\n\n
+    getContentType(final String userAgent)\n
     '''
 def getContentTypeMediaType():
-    '''public String getContentTypeMediaType(final String userAgent)
+    '''returns String\n\n
+    getContentTypeMediaType(final String userAgent)\n
     '''
 def getContentTypeCharset():
-    '''public String getContentTypeCharset(final String userAgent)
+    '''returns String\n\n
+    getContentTypeCharset(final String userAgent)\n
     '''
 def hasContentTypeParameter():
-    '''public boolean hasContentTypeParameter(final String userAgent, final String param)
+    '''returns boolean\n\n
+    hasContentTypeParameter(final String userAgent, final String param)\n
     '''
 def getContentEncoding():
-    '''public String getContentEncoding(final String userAgent)
+    '''returns String\n\n
+    getContentEncoding(final String userAgent)\n
     '''
 def complete():
-    '''public boolean complete()
+    '''returns boolean\n\n
+    complete()\n
     '''
 def openStream():
-    '''public InputStream openStream(final String userAgent, final Iterator mimeTypes)
+    '''returns InputStream\n\n
+    openStream(final String userAgent, final Iterator mimeTypes)\n
     '''
 def openStreamRaw():
-    '''public InputStream openStreamRaw(final String userAgent, final Iterator mimeTypes)
+    '''returns InputStream\n\n
+    openStreamRaw(final String userAgent, final Iterator mimeTypes)\n
     '''
 def getPortStr():
-    '''public String getPortStr()
+    '''returns String\n\n
+    getPortStr()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getPostConnectionURL():
-    '''public String getPostConnectionURL()
+    '''returns String\n\n
+    getPostConnectionURL()\n
     '''

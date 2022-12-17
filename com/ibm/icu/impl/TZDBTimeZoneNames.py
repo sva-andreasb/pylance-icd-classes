@@ -1,28 +1,37 @@
-def TZDBTimeZoneNames():
-    '''public TZDBTimeZoneNames(final ULocale loc)
+def ():
+    '''returns TZDBTimeZoneNames\n\n
+    (final ULocale loc)\n
     '''
 def getAvailableMetaZoneIDs():
-    '''public Set<String> getAvailableMetaZoneIDs()
-    public Set<String> getAvailableMetaZoneIDs(final String tzID)
+    '''returns Set<String>\n\n
+    getAvailableMetaZoneIDs()\n
+    getAvailableMetaZoneIDs(final String tzID)\n
     '''
 def getMetaZoneID():
-    '''public String getMetaZoneID(final String tzID, final long date)
+    '''returns String\n\n
+    getMetaZoneID(final String tzID, final long date)\n
     '''
 def getReferenceZoneID():
-    '''public String getReferenceZoneID(final String mzID, final String region)
+    '''returns String\n\n
+    getReferenceZoneID(final String mzID, final String region)\n
     '''
 def getMetaZoneDisplayName():
-    '''public String getMetaZoneDisplayName(final String mzID, final NameType type)
+    '''returns String\n\n
+    getMetaZoneDisplayName(final String mzID, final NameType type)\n
     '''
 def getTimeZoneDisplayName():
-    '''public String getTimeZoneDisplayName(final String tzID, final NameType type)
+    '''returns String\n\n
+    getTimeZoneDisplayName(final String tzID, final NameType type)\n
     '''
 def find():
-    '''public Collection<MatchInfo> find(final CharSequence text, final int start, final EnumSet<NameType> nameTypes)
+    '''returns Collection<MatchInfo>\n\n
+    find(final CharSequence text, final int start, final EnumSet<NameType> nameTypes)\n
     '''
 def handlePrefixMatch():
-    '''public boolean handlePrefixMatch(final int matchLength, final Iterator<TZDBNameInfo> values)
+    '''returns boolean\n\n
+    handlePrefixMatch(final int matchLength, final Iterator<TZDBNameInfo> values)\n
     '''
 def getMatches():
-    '''public Collection<MatchInfo> getMatches()
+    '''returns Collection<MatchInfo>\n\n
+    getMatches()\n
     '''

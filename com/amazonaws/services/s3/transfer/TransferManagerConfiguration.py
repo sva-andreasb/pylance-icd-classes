@@ -1,28 +1,37 @@
-def TransferManagerConfiguration():
-    '''public TransferManagerConfiguration()
+def ():
+    '''returns TransferManagerConfiguration\n\n
+    ()\n
     '''
 def getMinimumUploadPartSize():
-    '''public long getMinimumUploadPartSize()
+    '''returns long\n\n
+    getMinimumUploadPartSize()\n
     '''
 def setMinimumUploadPartSize():
-    '''public void setMinimumUploadPartSize(final long minimumUploadPartSize)
+    '''returns None\n\n
+    setMinimumUploadPartSize(final long minimumUploadPartSize)\n
     '''
 def getMultipartUploadThreshold():
-    '''public long getMultipartUploadThreshold()
+    '''returns long\n\n
+    getMultipartUploadThreshold()\n
     '''
 def setMultipartUploadThreshold():
-    '''public void setMultipartUploadThreshold(final long multipartUploadThreshold)
-    public void setMultipartUploadThreshold(final int multipartUploadThreshold)
+    '''returns None\n\n
+    setMultipartUploadThreshold(final long multipartUploadThreshold)\n
+    setMultipartUploadThreshold(final int multipartUploadThreshold)\n
     '''
 def getMultipartCopyPartSize():
-    '''public long getMultipartCopyPartSize()
+    '''returns long\n\n
+    getMultipartCopyPartSize()\n
     '''
 def setMultipartCopyPartSize():
-    '''public void setMultipartCopyPartSize(final long multipartCopyPartSize)
+    '''returns None\n\n
+    setMultipartCopyPartSize(final long multipartCopyPartSize)\n
     '''
 def getMultipartCopyThreshold():
-    '''public long getMultipartCopyThreshold()
+    '''returns long\n\n
+    getMultipartCopyThreshold()\n
     '''
 def setMultipartCopyThreshold():
-    '''public void setMultipartCopyThreshold(final long multipartCopyThreshold)
+    '''returns None\n\n
+    setMultipartCopyThreshold(final long multipartCopyThreshold)\n
     '''

@@ -1,10 +1,13 @@
-def PmCfgLifecycleService():
-    '''public PmCfgLifecycleService()
-    public PmCfgLifecycleService(final MXServer mxServer)
+def ():
+    '''returns PmCfgLifecycleService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''

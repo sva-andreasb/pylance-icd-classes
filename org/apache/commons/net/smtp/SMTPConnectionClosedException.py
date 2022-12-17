@@ -1,4 +1,5 @@
-def SMTPConnectionClosedException():
-    '''public SMTPConnectionClosedException()
-    public SMTPConnectionClosedException(final String message)
+def ():
+    '''returns SMTPConnectionClosedException\n\n
+    ()\n
+    (final String message)\n
     '''

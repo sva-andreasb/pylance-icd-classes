@@ -1,15 +1,15 @@
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def addZoomandGotoFunctionsToToolbar():
-    '''public void addZoomandGotoFunctionsToToolbar(final Viewer viewer, final JToolBar toolbar, final IlvTimeScrollController timeScroll)
+    '''returns None\n\n
+    addZoomandGotoFunctionsToToolbar(final Viewer viewer, final JToolBar toolbar, final IlvTimeScrollController timeScroll)\n
     '''
 def onDateSelected():
-    '''public void onDateSelected(final Calendar value)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    onDateSelected(final Calendar value)\n
     '''

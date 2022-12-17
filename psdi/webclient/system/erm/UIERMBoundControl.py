@@ -1,18 +1,24 @@
-def UIERMBoundControl():
-    '''public UIERMBoundControl(final Element element, final BindingDefinition bindDefinition, final List<String> tabList, final Element containingTable)
+def ():
+    '''returns UIERMBoundControl\n\n
+    (final Element element, final BindingDefinition bindDefinition, final List<String> tabList, final Element containingTable)\n
     '''
 def getTabList():
-    '''public List<String> getTabList()
+    '''returns List<String>\n\n
+    getTabList()\n
     '''
 def getContainingTable():
-    '''public Element getContainingTable()
+    '''returns Element\n\n
+    getContainingTable()\n
     '''
 def getBindDefinition():
-    '''public BindingDefinition getBindDefinition()
+    '''returns BindingDefinition\n\n
+    getBindDefinition()\n
     '''
 def getControlElement():
-    '''public Element getControlElement()
+    '''returns Element\n\n
+    getControlElement()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

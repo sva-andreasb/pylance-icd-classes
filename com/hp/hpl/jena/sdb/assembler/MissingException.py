@@ -1,3 +1,4 @@
-def MissingException():
-    '''public MissingException(final Resource type, final String string)
+def ():
+    '''returns MissingException\n\n
+    (final Resource type, final String string)\n
     '''

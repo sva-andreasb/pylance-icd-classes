@@ -1,48 +1,55 @@
-def ResultSetIterator():
-    '''public ResultSetIterator()
-    public ResultSetIterator(final ResultSet resultSet, final PreparedStatement sourceStatement, final SQLCache cache, final String opname)
-    public ResultSetIterator(final ResultSet resultSet, final PreparedStatement sourceStatement)
+def ():
+    '''returns ResultSetIterator\n\n
+    ()\n
+    (final ResultSet resultSet, final PreparedStatement sourceStatement, final SQLCache cache, final String opname)\n
+    (final ResultSet resultSet, final PreparedStatement sourceStatement)\n
     '''
 def reset():
-    '''public void reset(final ResultSet resultSet, final PreparedStatement sourceStatement, final SQLCache cache, final String opname)
-    public void reset(final ResultSet resultSet, final PreparedStatement sourceStatement)
+    '''returns None\n\n
+    reset(final ResultSet resultSet, final PreparedStatement sourceStatement, final SQLCache cache, final String opname)\n
+    reset(final ResultSet resultSet, final PreparedStatement sourceStatement)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def removeNext():
-    '''public T removeNext()
+    '''returns T\n\n
+    removeNext()\n
     '''
 def next():
-    '''public T next()
+    '''returns T\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getSingleton():
-    '''public Object getSingleton()
-    '''
-def andThen():
-    '''public <X extends T> ExtendedIterator<T> andThen(final Iterator<X> other)
+    '''returns Object\n\n
+    getSingleton()\n
     '''
 def toSet():
-    '''public Set<T> toSet()
+    '''returns Set<T>\n\n
+    toSet()\n
     '''
 def toList():
-    '''public List<T> toList()
+    '''returns List<T>\n\n
+    toList()\n
     '''
 def filterKeep():
-    '''public ExtendedIterator<T> filterKeep(final Filter<T> f)
+    '''returns ExtendedIterator<T>\n\n
+    filterKeep(final Filter<T> f)\n
     '''
 def filterDrop():
-    '''public ExtendedIterator<T> filterDrop(final Filter<T> f)
+    '''returns ExtendedIterator<T>\n\n
+    filterDrop(final Filter<T> f)\n
     '''
 def accept():
-    '''public boolean accept(final T x)
-    '''
-def mapWith():
-    '''public <X> ExtendedIterator<X> mapWith(final Map1<T, X> map1)
+    '''returns boolean\n\n
+    accept(final T x)\n
     '''

@@ -1,9 +1,11 @@
-def SerializationException():
-    '''public SerializationException(final String message, final Throwable cause)
-    public SerializationException(final String message)
-    public SerializationException(final Throwable cause)
-    public SerializationException()
+def ():
+    '''returns SerializationException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
+    ()\n
     '''
 def fillInStackTrace():
-    '''public Throwable fillInStackTrace()
+    '''returns Throwable\n\n
+    fillInStackTrace()\n
     '''

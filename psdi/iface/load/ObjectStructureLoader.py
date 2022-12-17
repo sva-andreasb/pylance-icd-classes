@@ -1,15 +1,20 @@
-def ObjectStructureLoader():
-    '''public ObjectStructureLoader(final MosInfo mosInfo, final boolean preview, final String messageType)
+def ():
+    '''returns ObjectStructureLoader\n\n
+    (final MosInfo mosInfo, final boolean preview, final String messageType)\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def processData():
-    '''public void processData(final byte[] data, final int intCurrentNoun, final int recStart, final int recEnd, final MboRemote npMbo, final MXTransaction trans)
+    '''returns None\n\n
+    processData(final byte[] data, final int intCurrentNoun, final int recStart, final int recEnd, final MboRemote npMbo, final MXTransaction trans)\n
     '''

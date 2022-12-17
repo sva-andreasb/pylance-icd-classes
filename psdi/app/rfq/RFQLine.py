@@ -1,57 +1,76 @@
-def RFQLine():
-    '''public RFQLine(final MboSet ms)
+def ():
+    '''returns RFQLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setNullValuesToPOVariables():
-    '''public void setNullValuesToPOVariables()
+    '''returns None\n\n
+    setNullValuesToPOVariables()\n
     '''
 def delete():
-    '''public void delete(final long accessmodifier)
+    '''returns None\n\n
+    delete(final long accessmodifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def relinkPRLineToModifiedRFQLineNum():
-    '''public void relinkPRLineToModifiedRFQLineNum()
+    '''returns None\n\n
+    relinkPRLineToModifiedRFQLineNum()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def copyRFQLinesToQuotationLines():
-    '''public void copyRFQLinesToQuotationLines(final String vendor)
+    '''returns None\n\n
+    copyRFQLinesToQuotationLines(final String vendor)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def copyLineValuesFromContractLine():
-    '''public void copyLineValuesFromContractLine(final MboRemote contractLine, final MboRemote createRelInput)
+    '''returns None\n\n
+    copyLineValuesFromContractLine(final MboRemote contractLine, final MboRemote createRelInput)\n
     '''
 def setOrderUnit():
-    '''public void setOrderUnit(final MboRemote inventory, final String orderOrIssueUnitAttr)
+    '''returns None\n\n
+    setOrderUnit(final MboRemote inventory, final String orderOrIssueUnitAttr)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''
 def smartFindByObjectName():
-    '''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)\n
     '''
 def setRecentItemNum():
-    '''public void setRecentItemNum(final String itemNum)
+    '''returns None\n\n
+    setRecentItemNum(final String itemNum)\n
     '''

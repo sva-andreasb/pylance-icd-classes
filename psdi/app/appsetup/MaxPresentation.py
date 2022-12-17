@@ -1,15 +1,20 @@
-def MaxPresentation():
-    '''public MaxPresentation(final MboSet ms)
+def ():
+    '''returns MaxPresentation\n\n
+    (final MboSet ms)\n
     '''
 def getPresentationReader():
-    '''public Reader getPresentationReader()
+    '''returns Reader\n\n
+    getPresentationReader()\n
     '''
 def closePresentationReader():
-    '''public void closePresentationReader()
+    '''returns None\n\n
+    closePresentationReader()\n
     '''
 def getPresentationWriter():
-    '''public Writer getPresentationWriter()
+    '''returns Writer\n\n
+    getPresentationWriter()\n
     '''
 def closePresentationWriter():
-    '''public void closePresentationWriter()
+    '''returns None\n\n
+    closePresentationWriter()\n
     '''

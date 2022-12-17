@@ -1,15 +1,20 @@
-def ReportResourceInfo():
-    '''public ReportResourceInfo()
+def ():
+    '''returns ReportResourceInfo\n\n
+    ()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def setFileName():
-    '''public void setFileName(final String fileName)
+    '''returns None\n\n
+    setFileName(final String fileName)\n
     '''
 def getReference():
-    '''public String getReference()
+    '''returns String\n\n
+    getReference()\n
     '''
 def setReference():
-    '''public void setReference(final String reference)
+    '''returns None\n\n
+    setReference(final String reference)\n
     '''

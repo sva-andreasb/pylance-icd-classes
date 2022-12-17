@@ -1,35 +1,42 @@
-def JaGramSetGloss():
-    '''public JaGramSetGloss()
-    public JaGramSetGloss(final long[] array)
-    public JaGramSetGloss(final int[] array, final int[] array2, final int[] array3)
+def ():
+    '''returns JaGramSetGloss\n\n
+    ()\n
+    (final long[] array)\n
+    (final int[] array, final int[] array2, final int[] array3)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def add():
-    '''public void add(final long[] array)
+    '''returns None\n\n
+    add(final long[] array)\n
     '''
 def getData():
-    '''public StateMatrix getData()
-    '''
-def getFlag():
-    '''public static final long getFlag(final int n, final int n2, final int n3)
+    '''returns StateMatrix\n\n
+    getData()\n
     '''
 def compare():
-    '''public int compare(final Object o, final Object o2)
+    '''returns int\n\n
+    compare(final Object o, final Object o2)\n
     '''

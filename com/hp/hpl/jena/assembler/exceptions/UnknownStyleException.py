@@ -1,6 +1,8 @@
-def UnknownStyleException():
-    '''public UnknownStyleException(final Resource root, final Resource style)
+def ():
+    '''returns UnknownStyleException\n\n
+    (final Resource root, final Resource style)\n
     '''
 def getStyle():
-    '''public Resource getStyle()
+    '''returns Resource\n\n
+    getStyle()\n
     '''

@@ -1,6 +1,8 @@
-def FldMaxVarPOReqdForOutLab():
-    '''public FldMaxVarPOReqdForOutLab(final MboValue mbv)
+def ():
+    '''returns FldMaxVarPOReqdForOutLab\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

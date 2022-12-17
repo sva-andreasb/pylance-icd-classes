@@ -1,37 +1,49 @@
-def BaseRESTSession():
-    '''public BaseRESTSession()
+def ():
+    '''returns BaseRESTSession\n\n
+    ()\n
     '''
 def setMXSession():
-    '''public void setMXSession(final MXSession mxSession, final boolean owner)
-    public void setMXSession(final MXSession mxSession)
+    '''returns None\n\n
+    setMXSession(final MXSession mxSession, final boolean owner)\n
+    setMXSession(final MXSession mxSession)\n
     '''
 def getMXSession():
-    '''public MXSession getMXSession()
+    '''returns MXSession\n\n
+    getMXSession()\n
     '''
 def setApiUserInfo():
-    '''public void setApiUserInfo(final UserInfo apiUserInfo)
+    '''returns None\n\n
+    setApiUserInfo(final UserInfo apiUserInfo)\n
     '''
 def isApiSession():
-    '''public boolean isApiSession()
+    '''returns boolean\n\n
+    isApiSession()\n
     '''
 def getApiUserInfo():
-    '''public UserInfo getApiUserInfo()
+    '''returns UserInfo\n\n
+    getApiUserInfo()\n
     '''
 def valueBound():
-    '''public void valueBound(final HttpSessionBindingEvent arg0)
+    '''returns None\n\n
+    valueBound(final HttpSessionBindingEvent arg0)\n
     '''
 def valueUnbound():
-    '''public void valueUnbound(final HttpSessionBindingEvent arg0)
+    '''returns None\n\n
+    valueUnbound(final HttpSessionBindingEvent arg0)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public Object setAttribute(final String name, final Object value)
+    '''returns Object\n\n
+    setAttribute(final String name, final Object value)\n
     '''
 def removeAttribute():
-    '''public Object removeAttribute(final String name)
+    '''returns Object\n\n
+    removeAttribute(final String name)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

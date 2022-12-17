@@ -1,91 +1,105 @@
 SKDACTIONINFOMAP_SEPARATOR = "String  \"\u00ef¿½\""
-def SLRouteService():
-    '''public SLRouteService(final MXServer mxServer)
+def ():
+    '''returns DataGroupInformation\n\n
+    (final MXServer mxServer)\n
+    ()\n
+    (final Date workPeriod, final Calendar startCal, final Calendar endCal)\n
+    (final String groupname, final String title)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def createSLRBasedOnSKDProject():
-    '''public int createSLRBasedOnSKDProject(final MboRemote skdProj)
+    '''returns int\n\n
+    createSLRBasedOnSKDProject(final MboRemote skdProj)\n
     '''
 def getSKDProjectResources():
-    '''public List<MboSetRemote> getSKDProjectResources(final MboRemote skdProj, final boolean useResourceFilter, final SLRouteServiceCache appCache)
+    '''returns List<MboSetRemote>\n\n
+    getSKDProjectResources(final MboRemote skdProj, final boolean useResourceFilter, final SLRouteServiceCache appCache)\n
     '''
 def getSkdProjAssignments():
-    '''public MboSetRemote getSkdProjAssignments(final MboRemote skdProj)
-    public MboSetRemote getSkdProjAssignments(final MboRemote skdProj, final Date start, final Date end)
+    '''returns MboSetRemote\n\n
+    getSkdProjAssignments(final MboRemote skdProj)\n
+    getSkdProjAssignments(final MboRemote skdProj, final Date start, final Date end)\n
     '''
 def getCrewAssignments():
-    '''public MboSetRemote getCrewAssignments(final String amcrew, final UserInfo userInfo, final Date start, final Date end, final String orgId, final SLRouteServiceCache appCache)
+    '''returns MboSetRemote\n\n
+    getCrewAssignments(final String amcrew, final UserInfo userInfo, final Date start, final Date end, final String orgId, final SLRouteServiceCache appCache)\n
     '''
 def getLaborAssignments():
-    '''public MboSetRemote getLaborAssignments(final String labor, final UserInfo userInfo, final Date start, final Date end, final String orgId, final SLRouteServiceCache appCache)
+    '''returns MboSetRemote\n\n
+    getLaborAssignments(final String labor, final UserInfo userInfo, final Date start, final Date end, final String orgId, final SLRouteServiceCache appCache)\n
     '''
 def getSLRouteSet():
-    '''public SLRouteSetRemote getSLRouteSet(final SLRouteRemote slroute)
+    '''returns SLRouteSetRemote\n\n
+    getSLRouteSet(final SLRouteRemote slroute)\n
     '''
 def applyRoutes():
-    '''public int applyRoutes(final MboRemote slroute)
+    '''returns int\n\n
+    applyRoutes(final MboRemote slroute)\n
     '''
 def getModel():
-    '''public IlvGanttModel getModel(final UserInfo userInfo, final String skdProjID, final boolean addShiftInfo, final SLRouteServiceCache appCache)
+    '''returns IlvGanttModel\n\n
+    getModel(final UserInfo userInfo, final String skdProjID, final boolean addShiftInfo, final SLRouteServiceCache appCache)\n
     '''
 def getSKDDD():
-    '''public SKDDD getSKDDD()
-    '''
-def getActionTitle():
-    '''public HashMap<String, HashMap<String, SKDActionInfo>> getActionTitle(final UserInfo userInfo, final HashMap<String, HashMap<String, SKDActionInfo>> actionInfo, final String useWith)
-    public HashMap<String, HashMap<String, SKDActionInfo>> getActionTitle(final UserInfo userInfo, final HashMap<String, HashMap<String, SKDActionInfo>> actionInfo)
+    '''returns SKDDD\n\n
+    getSKDDD()\n
     '''
 def updateTravelTime():
-    '''public String updateTravelTime(final IlvGanttModel model, final String toAssignId, final String fromAssignId, final String fromLocationId, final String toLocationId, final String slrRouteId, final Double duration, final UserInfo userInfo)
+    '''returns String\n\n
+    updateTravelTime(final IlvGanttModel model, final String toAssignId, final String fromAssignId, final String fromLocationId, final String toLocationId, final String slrRouteId, final Double duration, final UserInfo userInfo)\n
     '''
 def clearSLRTravelTimeData():
-    '''public void clearSLRTravelTimeData(final AssignmentRemote assignment)
+    '''returns None\n\n
+    clearSLRTravelTimeData(final AssignmentRemote assignment)\n
     '''
 def getSLRouteSetFromSelection():
-    '''public SLRouteSetRemote getSLRouteSetFromSelection(final SLRouteRemote slroute)
+    '''returns SLRouteSetRemote\n\n
+    getSLRouteSetFromSelection(final SLRouteRemote slroute)\n
     '''
 def getModelNew():
-    '''public IlvGanttModel getModelNew(final UserInfo userInfo, final String rootActivityName, final String rootResourceName, final List<MboSetRemote> resMboSetList, final Date startDate, final Date endDate, final int shiftMargin, final SLRouteServiceCache appCache, final boolean addHierachy, final MboRemote skdProj)
+    '''returns IlvGanttModel\n\n
+    getModelNew(final UserInfo userInfo, final String rootActivityName, final String rootResourceName, final List<MboSetRemote> resMboSetList, final Date startDate, final Date endDate, final int shiftMargin, final SLRouteServiceCache appCache, final boolean addHierachy, final MboRemote skdProj)\n
     '''
 def getModelForResource():
-    '''public IlvGanttModel getModelForResource(final UserInfo userInfo, final String skdProjID, final String resObj, final String resKey, final SLRouteServiceCache appCache)
+    '''returns IlvGanttModel\n\n
+    getModelForResource(final UserInfo userInfo, final String skdProjID, final String resObj, final String resKey, final SLRouteServiceCache appCache)\n
     '''
 def clearStaticDataCaches():
-    '''public void clearStaticDataCaches()
+    '''returns None\n\n
+    clearStaticDataCaches()\n
     '''
 def getSLRTravelTimeRecord():
-    '''public SLRTravelTimeSetRemote getSLRTravelTimeRecord(final String toAssignId, final String fromAssignId, final String fromLocationId, final String toLocationId, final long slrRouteId, final UserInfo userInfo)
+    '''returns SLRTravelTimeSetRemote\n\n
+    getSLRTravelTimeRecord(final String toAssignId, final String fromAssignId, final String fromLocationId, final String toLocationId, final long slrRouteId, final UserInfo userInfo)\n
     '''
 def refreshModel():
-    '''public List<MXReservation> refreshModel(final IlvGanttModel model, final UserInfo userInfo, final SLRouteServiceCache appCache)
+    '''returns List<MXReservation>\n\n
+    refreshModel(final IlvGanttModel model, final UserInfo userInfo, final SLRouteServiceCache appCache)\n
     '''
 def recalculateTravelTimeForAssigment():
-    '''public void recalculateTravelTimeForAssigment(final MXGanttModel mxModel, final MXActivity fromAssignment, final MXActivity toAssignment, final MXResource resource, final MboRemote project, final UserInfo userInfo)
+    '''returns None\n\n
+    recalculateTravelTimeForAssigment(final MXGanttModel mxModel, final MXActivity fromAssignment, final MXActivity toAssignment, final MXResource resource, final MboRemote project, final UserInfo userInfo)\n
     '''
 def notifyLaborOrCrewAssignment():
-    '''public void notifyLaborOrCrewAssignment(final Long assignmentId, final String workOrderNumber)
+    '''returns None\n\n
+    notifyLaborOrCrewAssignment(final Long assignmentId, final String workOrderNumber)\n
     '''
 def notifyAssignmentUpdate():
-    '''public void notifyAssignmentUpdate(final Long assignmentId, final String workOrderNumber, final int operation)
-    '''
-def join():
-    '''public static String join(final String attribute, final List<? extends MboRemote> mboList, final String delim, final boolean isString)
-    '''
-def ShiftInformation():
-    '''public ShiftInformation()
-    public ShiftInformation(final Date workPeriod, final Calendar startCal, final Calendar endCal)
-    '''
-def DataGroupInformation():
-    '''public DataGroupInformation(final String groupname, final String title)
+    '''returns None\n\n
+    notifyAssignmentUpdate(final Long assignmentId, final String workOrderNumber, final int operation)\n
     '''
 def getResource():
-    '''public MXResource getResource()
+    '''returns MXResource\n\n
+    getResource()\n
     '''
 def getGroupname():
-    '''public String getGroupname()
+    '''returns String\n\n
+    getGroupname()\n
     '''

@@ -1,23 +1,23 @@
-def read():
-    '''public static StoreDesc read(final String filename)
-    public static StoreDesc read(final Model m)
-    public static StoreDesc read(final Resource r)
-    '''
-def StoreDesc():
-    '''public StoreDesc(final String layoutName, final String dbTypeName)
-    public StoreDesc(final String layoutName, final String dbTypeName, final FeatureSet featureSet)
-    public StoreDesc(final LayoutType layout, final DatabaseType dbType)
-    public StoreDesc(final LayoutType layout, final DatabaseType dbType, FeatureSet featureSet)
+def ():
+    '''returns StoreDesc\n\n
+    (final String layoutName, final String dbTypeName)\n
+    (final String layoutName, final String dbTypeName, final FeatureSet featureSet)\n
+    (final LayoutType layout, final DatabaseType dbType)\n
+    (final LayoutType layout, final DatabaseType dbType, FeatureSet featureSet)\n
     '''
 def getLayout():
-    '''public LayoutType getLayout()
+    '''returns LayoutType\n\n
+    getLayout()\n
     '''
 def setLayout():
-    '''public void setLayout(final LayoutType layout)
+    '''returns None\n\n
+    setLayout(final LayoutType layout)\n
     '''
 def getDbType():
-    '''public DatabaseType getDbType()
+    '''returns DatabaseType\n\n
+    getDbType()\n
     '''
 def setDbType():
-    '''public void setDbType(final DatabaseType dbType)
+    '''returns None\n\n
+    setDbType(final DatabaseType dbType)\n
     '''

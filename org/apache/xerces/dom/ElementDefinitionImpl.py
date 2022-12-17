@@ -1,15 +1,20 @@
-def ElementDefinitionImpl():
-    '''public ElementDefinitionImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
+def ():
+    '''returns ElementDefinitionImpl\n\n
+    (final CoreDocumentImpl coreDocumentImpl, final String name)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
 def getAttributes():
-    '''public NamedNodeMap getAttributes()
+    '''returns NamedNodeMap\n\n
+    getAttributes()\n
     '''

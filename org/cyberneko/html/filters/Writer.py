@@ -1,35 +1,41 @@
 NOTIFY_CHAR_REFS = "String  \"http://apache.org/xml/features/scanner/notify-char-refs\""
 NOTIFY_HTML_BUILTIN_REFS = "String  \"http://cyberneko.org/html/features/scanner/notify-builtin-refs\""
-def Writer():
-    '''public Writer()
-    public Writer(final OutputStream outputStream, final String encoding)
-    public Writer(final java.io.Writer writer, final String encoding)
+def ():
+    '''returns Writer\n\n
+    ()\n
+    (final OutputStream outputStream, final String encoding)\n
+    (final java.io.Writer writer, final String encoding)\n
     '''
 def startDocument():
-    '''public void startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)
-    public void startDocument(final XMLLocator locator, final String encoding, final Augmentations augs)
+    '''returns None\n\n
+    startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)\n
+    startDocument(final XMLLocator locator, final String encoding, final Augmentations augs)\n
     '''
 def comment():
-    '''public void comment(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    comment(final XMLString text, final Augmentations augs)\n
     '''
 def startElement():
-    '''public void startElement(final QName element, final XMLAttributes attributes, final Augmentations augs)
+    '''returns None\n\n
+    startElement(final QName element, final XMLAttributes attributes, final Augmentations augs)\n
     '''
 def emptyElement():
-    '''public void emptyElement(final QName element, final XMLAttributes attributes, final Augmentations augs)
+    '''returns None\n\n
+    emptyElement(final QName element, final XMLAttributes attributes, final Augmentations augs)\n
     '''
 def characters():
-    '''public void characters(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    characters(final XMLString text, final Augmentations augs)\n
     '''
 def endElement():
-    '''public void endElement(final QName element, final Augmentations augs)
+    '''returns None\n\n
+    endElement(final QName element, final Augmentations augs)\n
     '''
 def startGeneralEntity():
-    '''public void startGeneralEntity(String name, final XMLResourceIdentifier id, final String encoding, final Augmentations augs)
+    '''returns None\n\n
+    startGeneralEntity(String name, final XMLResourceIdentifier id, final String encoding, final Augmentations augs)\n
     '''
 def endGeneralEntity():
-    '''public void endGeneralEntity(final String name, final Augmentations augs)
-    '''
-def main():
-    '''public static void main(final String[] argv)
+    '''returns None\n\n
+    endGeneralEntity(final String name, final Augmentations augs)\n
     '''

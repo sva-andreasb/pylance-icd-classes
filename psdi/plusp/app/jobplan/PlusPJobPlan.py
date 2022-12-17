@@ -1,55 +1,73 @@
-def PlusPJobPlan():
-    '''public PlusPJobPlan(final MboSet arg0)
+def ():
+    '''returns PlusPJobPlan\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def canChangeCustomerAssociation():
-    '''public void canChangeCustomerAssociation()
+    '''returns None\n\n
+    canChangeCustomerAssociation()\n
     '''
 def isDraftOrPendingRevision():
-    '''public boolean isDraftOrPendingRevision()
+    '''returns boolean\n\n
+    isDraftOrPendingRevision()\n
     '''
 def showCustomerChangeWarning():
-    '''public void showCustomerChangeWarning()
+    '''returns None\n\n
+    showCustomerChangeWarning()\n
     '''
 def canAddCustomer():
-    '''public void canAddCustomer(final String s)
-    public void canAddCustomer()
+    '''returns None\n\n
+    canAddCustomer(final String s)\n
+    canAddCustomer()\n
     '''
 def postAddCustomer():
-    '''public void postAddCustomer(final MboRemote mboRemote)
+    '''returns None\n\n
+    postAddCustomer(final MboRemote mboRemote)\n
     '''
 def postRemoveCustomer():
-    '''public void postRemoveCustomer(final MboRemote mboRemote)
+    '''returns None\n\n
+    postRemoveCustomer(final MboRemote mboRemote)\n
     '''
 def cancelAddModifyCustDialog():
-    '''public void cancelAddModifyCustDialog(final boolean b)
+    '''returns None\n\n
+    cancelAddModifyCustDialog(final boolean b)\n
     '''
 def getCustomerListToRestrictCommonLookups():
-    '''public String getCustomerListToRestrictCommonLookups()
+    '''returns String\n\n
+    getCustomerListToRestrictCommonLookups()\n
     '''
 def adjustCustomerReadOnly():
-    '''public void adjustCustomerReadOnly()
+    '''returns None\n\n
+    adjustCustomerReadOnly()\n
     '''
 def showCustomerAddOrRemovalWarning():
-    '''public void showCustomerAddOrRemovalWarning()
+    '''returns None\n\n
+    showCustomerAddOrRemovalWarning()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getJobPlanComponentSet():
-    '''public MboSetRemote getJobPlanComponentSet(final String maxRelName, final String s, final String s2)
+    '''returns MboSetRemote\n\n
+    getJobPlanComponentSet(final String maxRelName, final String s, final String s2)\n
     '''
 def sumNonPersistentValues():
-    '''public double sumNonPersistentValues(final String name, final String s)
+    '''returns double\n\n
+    sumNonPersistentValues(final String name, final String s)\n
     '''
 def propagateRevisionNumber():
-    '''public void propagateRevisionNumber(final JobPlanRemote newRevision)
+    '''returns None\n\n
+    propagateRevisionNumber(final JobPlanRemote newRevision)\n
     '''
 def setQuoteFlagRules():
-    '''public void setQuoteFlagRules()
+    '''returns None\n\n
+    setQuoteFlagRules()\n
     '''

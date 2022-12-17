@@ -1,6 +1,8 @@
-def FldSKDPropertyMapAppLinkApps():
-    '''public FldSKDPropertyMapAppLinkApps(final MboValue mbv)
+def ():
+    '''returns FldSKDPropertyMapAppLinkApps\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

@@ -1,12 +1,16 @@
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def setProperty():
-    '''public void setProperty(final String property)
+    '''returns None\n\n
+    setProperty(final String property)\n
     '''
 def setSuffix():
-    '''public void setSuffix(final String suffix)
+    '''returns None\n\n
+    setSuffix(final String suffix)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

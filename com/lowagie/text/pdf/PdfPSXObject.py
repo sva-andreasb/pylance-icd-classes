@@ -1,6 +1,8 @@
-def PdfPSXObject():
-    '''public PdfPSXObject(final PdfWriter wr)
+def ():
+    '''returns PdfPSXObject\n\n
+    (final PdfWriter wr)\n
     '''
 def getDuplicate():
-    '''public PdfContentByte getDuplicate()
+    '''returns PdfContentByte\n\n
+    getDuplicate()\n
     '''

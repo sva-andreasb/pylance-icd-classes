@@ -1,12 +1,16 @@
-def DMOrgProcess():
-    '''public DMOrgProcess()
+def ():
+    '''returns DMOrgProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def delete():
-    '''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''returns None\n\n
+    delete(final MboRemote mbo, final MosDetailInfo mdi)\n
     '''
 def afterReplace():
-    '''public void afterReplace(final MboRemote child)
+    '''returns None\n\n
+    afterReplace(final MboRemote child)\n
     '''

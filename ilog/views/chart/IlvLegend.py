@@ -1,224 +1,202 @@
 def getLock():
-    '''public Object getLock()
+    '''returns Object\n\n
+    getLock()\n
     '''
-def IlvLegend():
-    '''public IlvLegend()
+def ():
+    '''returns IlvLegendPaintAction\n\n
+    ()\n
+    (final int width, final int height)\n
+    (final int width, final int height)\n
+    (final IlvLegend f)\n
+    (final Container container)\n
     '''
 def updateUI():
-    '''public void updateUI()
+    '''returns None\n\n
+    updateUI()\n
     '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    '''
-def isAntiAliasing():
-    '''public final boolean isAntiAliasing()
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
     '''
 def setAntiAliasing():
-    '''public void setAntiAliasing(final boolean b)
-    '''
-def isAntiAliasingText():
-    '''public final boolean isAntiAliasingText()
+    '''returns None\n\n
+    setAntiAliasing(final boolean b)\n
     '''
 def setAntiAliasingText():
-    '''public void setAntiAliasingText(final boolean b)
-    '''
-def getBaseTextDirection():
-    '''public final int getBaseTextDirection()
+    '''returns None\n\n
+    setAntiAliasingText(final boolean b)\n
     '''
 def setBaseTextDirection():
-    '''public void setBaseTextDirection(final int z)
+    '''returns None\n\n
+    setBaseTextDirection(final int z)\n
     '''
 def getResolvedBaseTextDirection():
-    '''public int getResolvedBaseTextDirection()
-    '''
-def getTransparency():
-    '''public final int getTransparency()
+    '''returns int\n\n
+    getResolvedBaseTextDirection()\n
     '''
 def setTransparency():
-    '''public void setTransparency(final int t)
+    '''returns None\n\n
+    setTransparency(final int t)\n
     '''
 def setBackground():
-    '''public void setBackground(final Color background)
+    '''returns None\n\n
+    setBackground(final Color background)\n
     '''
 def setForeground():
-    '''public void setForeground(final Color color)
+    '''returns None\n\n
+    setForeground(final Color color)\n
     '''
 def setLocation():
-    '''public void setLocation(final Point location)
+    '''returns None\n\n
+    setLocation(final Point location)\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
-    '''
-def getTitle():
-    '''public final String getTitle()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def setTitle():
-    '''public void setTitle(final String u)
-    '''
-def getSymbolSize():
-    '''public final Dimension getSymbolSize()
+    '''returns None\n\n
+    setTitle(final String u)\n
     '''
 def setSymbolSize():
-    '''public void setSymbolSize(final Dimension o)
-    '''
-def getSymbolTextSpacing():
-    '''public final int getSymbolTextSpacing()
+    '''returns None\n\n
+    setSymbolSize(final Dimension o)\n
     '''
 def setSymbolTextSpacing():
-    '''public void setSymbolTextSpacing(final int p)
-    '''
-def isPaintingBackground():
-    '''public final boolean isPaintingBackground()
-    '''
-def setPaintingBackground():
-    '''public final void setPaintingBackground(final boolean b)
-    '''
-def isFloating():
-    '''public final boolean isFloating()
-    '''
-def setFloating():
-    '''public final void setFloating(final boolean b)
-    '''
-def isInteractive():
-    '''public final boolean isInteractive()
-    '''
-def setInteractive():
-    '''public final void setInteractive(final boolean b)
-    '''
-def isMovable():
-    '''public final boolean isMovable()
+    '''returns None\n\n
+    setSymbolTextSpacing(final int p)\n
     '''
 def setMovable():
-    '''public void setMovable(final boolean b)
-    '''
-def isFollowChartResize():
-    '''public final boolean isFollowChartResize()
+    '''returns None\n\n
+    setMovable(final boolean b)\n
     '''
 def setFollowChartResize():
-    '''public void setFollowChartResize(final boolean b)
-    '''
-def getFloatingLayoutDirection():
-    '''public final int getFloatingLayoutDirection()
+    '''returns None\n\n
+    setFollowChartResize(final boolean b)\n
     '''
 def setFloatingLayoutDirection():
-    '''public void setFloatingLayoutDirection(final int floatingLayoutDirection)
-    '''
-def getHorizontalOrientation():
-    '''public final int getHorizontalOrientation()
+    '''returns None\n\n
+    setFloatingLayoutDirection(final int floatingLayoutDirection)\n
     '''
 def setHorizontalOrientation():
-    '''public void setHorizontalOrientation(final int horizontalOrientation)
-    '''
-def getVerticalOrientation():
-    '''public final int getVerticalOrientation()
+    '''returns None\n\n
+    setHorizontalOrientation(final int horizontalOrientation)\n
     '''
 def setVerticalOrientation():
-    '''public void setVerticalOrientation(final int verticalOrientation)
-    '''
-def getChart():
-    '''public final IlvChart getChart()
-    '''
-def setDynamicSize():
-    '''public final void setDynamicSize(final Dimension ag)
+    '''returns None\n\n
+    setVerticalOrientation(final int verticalOrientation)\n
     '''
 def addLegendItem():
-    '''public void addLegendItem(final IlvLegendItem comp)
+    '''returns None\n\n
+    addLegendItem(final IlvLegendItem comp)\n
     '''
 def removeLegendItem():
-    '''public void removeLegendItem(final IlvLegendItem comp)
+    '''returns None\n\n
+    removeLegendItem(final IlvLegendItem comp)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def toImage():
-    '''public BufferedImage toImage(Graphics2D graphics, final int n, final int n2, final Color color)
-    public BufferedImage toImage(final BufferedImage bufferedImage, final boolean b)
+    '''returns BufferedImage\n\n
+    toImage(Graphics2D graphics, final int n, final int n2, final Color color)\n
+    toImage(final BufferedImage bufferedImage, final boolean b)\n
     '''
 def addLegendListener():
-    '''public void addLegendListener(final LegendListener l)
+    '''returns None\n\n
+    addLegendListener(final LegendListener l)\n
     '''
 def removeLegendListener():
-    '''public void removeLegendListener(final LegendListener l)
+    '''returns None\n\n
+    removeLegendListener(final LegendListener l)\n
     '''
 def addLegendDockingListener():
-    '''public void addLegendDockingListener(final LegendDockingListener l)
+    '''returns None\n\n
+    addLegendDockingListener(final LegendDockingListener l)\n
     '''
 def removeLegendDockingListener():
-    '''public void removeLegendDockingListener(final LegendDockingListener l)
+    '''returns None\n\n
+    removeLegendDockingListener(final LegendDockingListener l)\n
     '''
 def getPosition():
-    '''public String getPosition()
+    '''returns String\n\n
+    getPosition()\n
     '''
 def addImageMapAreas():
-    '''public void addImageMapAreas(final IlvIMapDefinition ilvIMapDefinition, final List<? super IlvIMapArea> list)
+    '''returns None\n\n
+    addImageMapAreas(final IlvIMapDefinition ilvIMapDefinition, final List<? super IlvIMapArea> list)\n
     '''
 def drawIntoHitmap():
-    '''public void drawIntoHitmap(final IlvChartHitmapDefinition ilvChartHitmapDefinition, final IlvChartHitmapAccumulator ilvChartHitmapAccumulator)
+    '''returns None\n\n
+    drawIntoHitmap(final IlvChartHitmapDefinition ilvChartHitmapDefinition, final IlvChartHitmapAccumulator ilvChartHitmapAccumulator)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def revalidate():
-    '''public void revalidate()
+    '''returns None\n\n
+    revalidate()\n
     '''
 def repaint():
-    '''public void repaint()
+    '''returns None\n\n
+    repaint()\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final MouseEvent event)
+    '''returns String\n\n
+    getToolTipText(final MouseEvent event)\n
     '''
 def setBounds():
-    '''public void setBounds(final int x, final int y, final int width, final int height)
-    '''
-def IlvLegendImagePaintContext():
-    '''public IlvLegendImagePaintContext(final int width, final int height)
+    '''returns None\n\n
+    setBounds(final int x, final int y, final int width, final int height)\n
     '''
 def getGraphics():
-    '''public Graphics getGraphics()
-    '''
-def IlvLegendPaintContext():
-    '''public IlvLegendPaintContext(final int width, final int height)
+    '''returns Graphics\n\n
+    getGraphics()\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent mouseEvent)
-    public final void mousePressed(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mousePressed(final MouseEvent mouseEvent)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent mouseEvent)
-    public final void mouseReleased(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent mouseEvent)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''
 def mouseDragged():
-    '''public void mouseDragged(final MouseEvent mouseEvent)
-    public final void mouseDragged(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseDragged(final MouseEvent mouseEvent)\n
     '''
 def mouseMoved():
-    '''public void mouseMoved(final MouseEvent mouseEvent)
-    public void mouseMoved(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseMoved(final MouseEvent mouseEvent)\n
+    mouseMoved(final MouseEvent mouseEvent)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent mouseEvent)
-    '''
-def MoveLegendInteractor():
-    '''public MoveLegendInteractor(final IlvLegend f)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent mouseEvent)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''
 def rendererChanged():
-    '''public void rendererChanged(final ChartRendererEvent chartRendererEvent)
+    '''returns None\n\n
+    rendererChanged(final ChartRendererEvent chartRendererEvent)\n
     '''
 def startRendererChanges():
-    '''public void startRendererChanges()
+    '''returns None\n\n
+    startRendererChanges()\n
     '''
 def endRendererChanges():
-    '''public void endRendererChanges()
-    '''
-def IlvLegendPaintAction():
-    '''public IlvLegendPaintAction(final Container container)
+    '''returns None\n\n
+    endRendererChanges()\n
     '''

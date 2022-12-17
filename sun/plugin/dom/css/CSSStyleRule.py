@@ -1,12 +1,16 @@
-def CSSStyleRule():
-    '''public CSSStyleRule(final DOMObject domObject, final CSSStyleSheet cssStyleSheet, final org.w3c.dom.css.CSSRule cssRule)
+def ():
+    '''returns CSSStyleRule\n\n
+    (final DOMObject domObject, final CSSStyleSheet cssStyleSheet, final org.w3c.dom.css.CSSRule cssRule)\n
     '''
 def getSelectorText():
-    '''public String getSelectorText()
+    '''returns String\n\n
+    getSelectorText()\n
     '''
 def setSelectorText():
-    '''public void setSelectorText(final String s)
+    '''returns None\n\n
+    setSelectorText(final String s)\n
     '''
 def getStyle():
-    '''public CSSStyleDeclaration getStyle()
+    '''returns CSSStyleDeclaration\n\n
+    getStyle()\n
     '''

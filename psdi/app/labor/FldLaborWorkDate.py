@@ -1,9 +1,12 @@
-def FldLaborWorkDate():
-    '''public FldLaborWorkDate(final MboValue mbv)
+def ():
+    '''returns FldLaborWorkDate\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def createAMGrid():
-    '''public void createAMGrid(final Labor laborMbo)
+    '''returns None\n\n
+    createAMGrid(final Labor laborMbo)\n
     '''

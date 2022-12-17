@@ -1,6 +1,8 @@
-def ExpException():
-    '''public ExpException(final MboSet ms)
+def ():
+    '''returns ExpException\n\n
+    (final MboSet ms)\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''

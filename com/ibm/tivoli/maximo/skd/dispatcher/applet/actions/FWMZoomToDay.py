@@ -1,21 +1,27 @@
 def getShortDescription():
-    '''public String getShortDescription()
+    '''returns String\n\n
+    getShortDescription()\n
     '''
 def getLongDescription():
-    '''public String getLongDescription()
+    '''returns String\n\n
+    getLongDescription()\n
     '''
 def setButton():
-    '''public void setButton(final JButton gotoButton)
+    '''returns None\n\n
+    setButton(final JButton gotoButton)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def onDateSelected():
-    '''public void onDateSelected(final Calendar value)
+    '''returns None\n\n
+    onDateSelected(final Calendar value)\n
     '''
-def FWMZoomToDay():
-    '''public FWMZoomToDay(final String arg0, final Icon arg1, final KeyStroke arg2, final String arg3, final String arg4)
-    public FWMZoomToDay(final String arg0, final Icon arg1, final KeyStroke arg2)
-    public FWMZoomToDay(final String arg0, final Icon arg1)
-    public FWMZoomToDay(final String arg0)
+def ():
+    '''returns FWMZoomToDay\n\n
+    (final String arg0, final Icon arg1, final KeyStroke arg2, final String arg3, final String arg4)\n
+    (final String arg0, final Icon arg1, final KeyStroke arg2)\n
+    (final String arg0, final Icon arg1)\n
+    (final String arg0)\n
     '''

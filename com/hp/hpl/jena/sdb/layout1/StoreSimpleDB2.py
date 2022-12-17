@@ -1,3 +1,4 @@
-def StoreSimpleDB2():
-    '''public StoreSimpleDB2(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreSimpleDB2\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

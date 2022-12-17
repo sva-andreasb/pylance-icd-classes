@@ -1,27 +1,24 @@
 def getMaxLineLength():
-    '''public int getMaxLineLength()
+    '''returns int\n\n
+    getMaxLineLength()\n
     '''
 def getMaxHeaderCount():
-    '''public int getMaxHeaderCount()
+    '''returns int\n\n
+    getMaxHeaderCount()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def lineLen():
-    '''public static MessageConstraints lineLen(final int max)
-    '''
-def custom():
-    '''public static Builder custom()
-    '''
-def copy():
-    '''public static Builder copy(final MessageConstraints config)
+    '''returns String\n\n
+    toString()\n
     '''
 def setMaxLineLength():
-    '''public Builder setMaxLineLength(final int maxLineLength)
+    '''returns Builder\n\n
+    setMaxLineLength(final int maxLineLength)\n
     '''
 def setMaxHeaderCount():
-    '''public Builder setMaxHeaderCount(final int maxHeaderCount)
+    '''returns Builder\n\n
+    setMaxHeaderCount(final int maxHeaderCount)\n
     '''
 def build():
-    '''public MessageConstraints build()
+    '''returns MessageConstraints\n\n
+    build()\n
     '''

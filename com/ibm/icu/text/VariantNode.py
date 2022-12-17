@@ -1,15 +1,20 @@
 def getSelector():
-    '''public String getSelector()
+    '''returns String\n\n
+    getSelector()\n
     '''
 def isSelectorNumeric():
-    '''public boolean isSelectorNumeric()
+    '''returns boolean\n\n
+    isSelectorNumeric()\n
     '''
 def getSelectorValue():
-    '''public double getSelectorValue()
+    '''returns double\n\n
+    getSelectorValue()\n
     '''
 def getMessage():
-    '''public MessageNode getMessage()
+    '''returns MessageNode\n\n
+    getMessage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,9 +1,12 @@
-def CCIBaselineCompareScope():
-    '''public CCIBaselineCompareScope(final ICCIBaselineComparisonHandler aHandler)
+def ():
+    '''returns CCIBaselineCompareScope\n\n
+    (final ICCIBaselineComparisonHandler aHandler)\n
     '''
 def getNextItems():
-    '''public void getNextItems(final TraversalState traversalState, final UserInfo userInfo)
+    '''returns None\n\n
+    getNextItems(final TraversalState traversalState, final UserInfo userInfo)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''

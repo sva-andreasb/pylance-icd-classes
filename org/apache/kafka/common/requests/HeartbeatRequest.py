@@ -1,30 +1,29 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def HeartbeatRequest():
-    '''public HeartbeatRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final String groupId, final int groupGenerationId, final String memberId)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def groupId():
-    '''public String groupId()
+    '''returns String\n\n
+    groupId()\n
     '''
 def groupGenerationId():
-    '''public int groupGenerationId()
+    '''returns int\n\n
+    groupGenerationId()\n
     '''
 def memberId():
-    '''public String memberId()
-    '''
-def parse():
-    '''public static HeartbeatRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final String groupId, final int groupGenerationId, final String memberId)
+    '''returns String\n\n
+    memberId()\n
     '''
 def build():
-    '''public HeartbeatRequest build(final short version)
+    '''returns HeartbeatRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

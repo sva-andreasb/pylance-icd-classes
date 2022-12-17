@@ -1,18 +1,16 @@
-def apply():
-    '''public static int apply(final DataBean dataBean, final WebClientSession webClientSession, final WebClientEvent srcEvent, final String str)
-    '''
-def addWarning():
-    '''public static void addWarning(final WebClientSession webClientSession, final MboRemote mboRemote)
-    '''
 def applysla():
-    '''public int applysla()
+    '''returns int\n\n
+    applysla()\n
     '''
 def applyps():
-    '''public int applyps()
+    '''returns int\n\n
+    applyps()\n
     '''
 def applyrp():
-    '''public int applyrp()
+    '''returns int\n\n
+    applyrp()\n
     '''
-def CustomObject():
-    '''public CustomObject(final String[] saId, final int retValue)
+def ():
+    '''returns CustomObject\n\n
+    (final String[] saId, final int retValue)\n
     '''

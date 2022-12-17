@@ -1,36 +1,47 @@
-def Schema():
-    '''public Schema(final Field... fs)
+def ():
+    '''returns Schema\n\n
+    (final Field... fs)\n
     '''
 def write():
-    '''public void write(final ByteBuffer buffer, final Object o)
+    '''returns None\n\n
+    write(final ByteBuffer buffer, final Object o)\n
     '''
 def read():
-    '''public Struct read(final ByteBuffer buffer)
+    '''returns Struct\n\n
+    read(final ByteBuffer buffer)\n
     '''
 def sizeOf():
-    '''public int sizeOf(final Object o)
+    '''returns int\n\n
+    sizeOf(final Object o)\n
     '''
 def numFields():
-    '''public int numFields()
+    '''returns int\n\n
+    numFields()\n
     '''
 def get():
-    '''public BoundField get(final int slot)
-    public BoundField get(final String name)
+    '''returns BoundField\n\n
+    get(final int slot)\n
+    get(final String name)\n
     '''
 def fields():
-    '''public BoundField[] fields()
+    '''returns BoundField[]\n\n
+    fields()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def validate():
-    '''public Struct validate(final Object item)
+    '''returns Struct\n\n
+    validate(final Object item)\n
     '''
 def walk():
-    '''public void walk(final Visitor visitor)
+    '''returns None\n\n
+    walk(final Visitor visitor)\n
     '''
 def visit():
-    '''public void visit(final Schema schema)
-    public void visit(final ArrayOf array)
-    public void visit(final Type field)
+    '''returns None\n\n
+    visit(final Schema schema)\n
+    visit(final ArrayOf array)\n
+    visit(final Type field)\n
     '''

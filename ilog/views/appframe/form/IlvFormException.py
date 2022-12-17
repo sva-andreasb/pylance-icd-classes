@@ -1,14 +1,18 @@
 FORM_PROCESSING_ERROR = "String  \"Form processing\""
-def IlvFormException():
-    '''public IlvFormException(final IlvForm a, final String message)
-    public IlvFormException(final IlvForm a, final String s, final Throwable b)
+def ():
+    '''returns IlvFormException\n\n
+    (final IlvForm a, final String message)\n
+    (final IlvForm a, final String s, final Throwable b)\n
     '''
 def getForm():
-    '''public IlvForm getForm()
+    '''returns IlvForm\n\n
+    getForm()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''

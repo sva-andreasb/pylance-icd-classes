@@ -1,43 +1,56 @@
-def PluralRanges():
-    '''public PluralRanges()
+def ():
+    '''returns PluralRanges\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final StandardPlural rangeStart, final StandardPlural rangeEnd, final StandardPlural result)
+    '''returns None\n\n
+    add(final StandardPlural rangeStart, final StandardPlural rangeEnd, final StandardPlural result)\n
     '''
 def get():
-    '''public StandardPlural get(final StandardPlural start, final StandardPlural end)
+    '''returns StandardPlural\n\n
+    get(final StandardPlural start, final StandardPlural end)\n
     '''
 def isExplicit():
-    '''public boolean isExplicit(final StandardPlural start, final StandardPlural end)
+    '''returns boolean\n\n
+    isExplicit(final StandardPlural start, final StandardPlural end)\n
     '''
 def isExplicitlySet():
-    '''public boolean isExplicitlySet(final StandardPlural count)
+    '''returns boolean\n\n
+    isExplicitlySet(final StandardPlural count)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final PluralRanges that)
-    public int compareTo(final Matrix o)
+    '''returns int\n\n
+    compareTo(final PluralRanges that)\n
+    compareTo(final Matrix o)\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
     '''
 def freeze():
-    '''public PluralRanges freeze()
+    '''returns PluralRanges\n\n
+    freeze()\n
     '''
 def cloneAsThawed():
-    '''public PluralRanges cloneAsThawed()
+    '''returns PluralRanges\n\n
+    cloneAsThawed()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def clone():
-    '''public Matrix clone()
+    '''returns Matrix\n\n
+    clone()\n
     '''

@@ -1,120 +1,152 @@
-def createAppender():
-    '''public static <B extends Builder<B>> SyslogAppender createAppender(final String host, final int port, final String protocolStr, final SslConfiguration sslConfiguration, final int connectTimeoutMillis, final int reconnectDelayMillis, final boolean immediateFail, final String name, final boolean immediateFlush, final boolean ignoreExceptions, final Facility facility, final String id, final int enterpriseNumber, final boolean includeMdc, final String mdcId, final String mdcPrefix, final String eventPrefix, final boolean newLine, final String escapeNL, final String appName, final String msgId, final String excludes, final String includes, final String required, final String format, final Filter filter, final Configuration configuration, final Charset charset, final String exceptionPattern, final LoggerFields[] loggerFields, final boolean advertise)
-    '''
-def newSyslogAppenderBuilder():
-    '''public static <B extends Builder<B>> B newSyslogAppenderBuilder()
-    '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def build():
-    '''public SyslogAppender build()
+    '''returns SyslogAppender\n\n
+    build()\n
     '''
 def getFacility():
-    '''public Facility getFacility()
+    '''returns Facility\n\n
+    getFacility()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getEnterpriseNumber():
-    '''public int getEnterpriseNumber()
+    '''returns int\n\n
+    getEnterpriseNumber()\n
     '''
 def isIncludeMdc():
-    '''public boolean isIncludeMdc()
+    '''returns boolean\n\n
+    isIncludeMdc()\n
     '''
 def getMdcId():
-    '''public String getMdcId()
+    '''returns String\n\n
+    getMdcId()\n
     '''
 def getMdcPrefix():
-    '''public String getMdcPrefix()
+    '''returns String\n\n
+    getMdcPrefix()\n
     '''
 def getEventPrefix():
-    '''public String getEventPrefix()
+    '''returns String\n\n
+    getEventPrefix()\n
     '''
 def isNewLine():
-    '''public boolean isNewLine()
+    '''returns boolean\n\n
+    isNewLine()\n
     '''
 def getEscapeNL():
-    '''public String getEscapeNL()
+    '''returns String\n\n
+    getEscapeNL()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def getMsgId():
-    '''public String getMsgId()
+    '''returns String\n\n
+    getMsgId()\n
     '''
 def getExcludes():
-    '''public String getExcludes()
+    '''returns String\n\n
+    getExcludes()\n
     '''
 def getIncludes():
-    '''public String getIncludes()
+    '''returns String\n\n
+    getIncludes()\n
     '''
 def getRequired():
-    '''public String getRequired()
+    '''returns String\n\n
+    getRequired()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getCharsetName():
-    '''public Charset getCharsetName()
+    '''returns Charset\n\n
+    getCharsetName()\n
     '''
 def getExceptionPattern():
-    '''public String getExceptionPattern()
+    '''returns String\n\n
+    getExceptionPattern()\n
     '''
 def getLoggerFields():
-    '''public LoggerFields[] getLoggerFields()
+    '''returns LoggerFields[]\n\n
+    getLoggerFields()\n
     '''
 def setFacility():
-    '''public B setFacility(final Facility facility)
+    '''returns B\n\n
+    setFacility(final Facility facility)\n
     '''
 def setId():
-    '''public B setId(final String id)
+    '''returns B\n\n
+    setId(final String id)\n
     '''
 def setEnterpriseNumber():
-    '''public B setEnterpriseNumber(final int enterpriseNumber)
+    '''returns B\n\n
+    setEnterpriseNumber(final int enterpriseNumber)\n
     '''
 def setIncludeMdc():
-    '''public B setIncludeMdc(final boolean includeMdc)
+    '''returns B\n\n
+    setIncludeMdc(final boolean includeMdc)\n
     '''
 def setMdcId():
-    '''public B setMdcId(final String mdcId)
+    '''returns B\n\n
+    setMdcId(final String mdcId)\n
     '''
 def setMdcPrefix():
-    '''public B setMdcPrefix(final String mdcPrefix)
+    '''returns B\n\n
+    setMdcPrefix(final String mdcPrefix)\n
     '''
 def setEventPrefix():
-    '''public B setEventPrefix(final String eventPrefix)
+    '''returns B\n\n
+    setEventPrefix(final String eventPrefix)\n
     '''
 def setNewLine():
-    '''public B setNewLine(final boolean newLine)
+    '''returns B\n\n
+    setNewLine(final boolean newLine)\n
     '''
 def setEscapeNL():
-    '''public B setEscapeNL(final String escapeNL)
+    '''returns B\n\n
+    setEscapeNL(final String escapeNL)\n
     '''
 def setAppName():
-    '''public B setAppName(final String appName)
+    '''returns B\n\n
+    setAppName(final String appName)\n
     '''
 def setMsgId():
-    '''public B setMsgId(final String msgId)
+    '''returns B\n\n
+    setMsgId(final String msgId)\n
     '''
 def setExcludes():
-    '''public B setExcludes(final String excludes)
+    '''returns B\n\n
+    setExcludes(final String excludes)\n
     '''
 def setIncludes():
-    '''public B setIncludes(final String includes)
+    '''returns B\n\n
+    setIncludes(final String includes)\n
     '''
 def setRequired():
-    '''public B setRequired(final String required)
+    '''returns B\n\n
+    setRequired(final String required)\n
     '''
 def setFormat():
-    '''public B setFormat(final String format)
+    '''returns B\n\n
+    setFormat(final String format)\n
     '''
 def setCharsetName():
-    '''public B setCharsetName(final Charset charset)
+    '''returns B\n\n
+    setCharsetName(final Charset charset)\n
     '''
 def setExceptionPattern():
-    '''public B setExceptionPattern(final String exceptionPattern)
+    '''returns B\n\n
+    setExceptionPattern(final String exceptionPattern)\n
     '''
 def setLoggerFields():
-    '''public B setLoggerFields(final LoggerFields[] loggerFields)
+    '''returns B\n\n
+    setLoggerFields(final LoggerFields[] loggerFields)\n
     '''

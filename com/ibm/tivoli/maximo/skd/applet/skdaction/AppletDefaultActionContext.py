@@ -1,63 +1,84 @@
-def AppletDefaultActionContext():
-    '''public AppletDefaultActionContext()
+def ():
+    '''returns AppletDefaultActionContext\n\n
+    ()\n
     '''
 def getActionName():
-    '''public String getActionName()
+    '''returns String\n\n
+    getActionName()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getSKDObjectName():
-    '''public String getSKDObjectName()
+    '''returns String\n\n
+    getSKDObjectName()\n
     '''
 def getModel():
-    '''public IlvGanttModel getModel()
+    '''returns IlvGanttModel\n\n
+    getModel()\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def getMultiRec():
-    '''public String getMultiRec()
+    '''returns String\n\n
+    getMultiRec()\n
     '''
 def setMultiRec():
-    '''public void setMultiRec(final String multirec)
+    '''returns None\n\n
+    setMultiRec(final String multirec)\n
     '''
 def getMenuOrder():
-    '''public String getMenuOrder()
+    '''returns String\n\n
+    getMenuOrder()\n
     '''
 def setMenuOrder():
-    '''public void setMenuOrder(final String menuorder)
+    '''returns None\n\n
+    setMenuOrder(final String menuorder)\n
     '''
 def getUseWith():
-    '''public String getUseWith()
+    '''returns String\n\n
+    getUseWith()\n
     '''
 def setUseWith():
-    '''public void setUseWith(final String useWith)
+    '''returns None\n\n
+    setUseWith(final String useWith)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getSelectedRows():
-    '''public String getSelectedRows()
+    '''returns String\n\n
+    getSelectedRows()\n
     '''
 def setSelectedRows():
-    '''public void setSelectedRows(final String selectedrows)
+    '''returns None\n\n
+    setSelectedRows(final String selectedrows)\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String id)
+    '''returns None\n\n
+    setProjectId(final String id)\n
     '''
 def setActionName():
-    '''public void setActionName(final String str)
+    '''returns None\n\n
+    setActionName(final String str)\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String str)
+    '''returns None\n\n
+    setObjectName(final String str)\n
     '''
 def setSKDObjectName():
-    '''public void setSKDObjectName(final String str)
+    '''returns None\n\n
+    setSKDObjectName(final String str)\n
     '''
 def setModel():
-    '''public void setModel(final MXGanttModel m)
+    '''returns None\n\n
+    setModel(final MXGanttModel m)\n
     '''

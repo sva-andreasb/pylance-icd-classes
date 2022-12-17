@@ -1,55 +1,57 @@
-def createRoot():
-    '''public static BytesToNameCanonicalizer createRoot()
-    '''
 def makeChild():
-    '''public BytesToNameCanonicalizer makeChild(final boolean canonicalize, final boolean intern)
+    '''returns BytesToNameCanonicalizer\n\n
+    makeChild(final boolean canonicalize, final boolean intern)\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def bucketCount():
-    '''public int bucketCount()
+    '''returns int\n\n
+    bucketCount()\n
     '''
 def maybeDirty():
-    '''public boolean maybeDirty()
+    '''returns boolean\n\n
+    maybeDirty()\n
     '''
 def hashSeed():
-    '''public int hashSeed()
+    '''returns int\n\n
+    hashSeed()\n
     '''
 def collisionCount():
-    '''public int collisionCount()
+    '''returns int\n\n
+    collisionCount()\n
     '''
 def maxCollisionLength():
-    '''public int maxCollisionLength()
-    '''
-def getEmptyName():
-    '''public static Name getEmptyName()
+    '''returns int\n\n
+    maxCollisionLength()\n
     '''
 def findName():
-    '''public Name findName(final int firstQuad)
-    public Name findName(final int firstQuad, final int secondQuad)
-    public Name findName(final int[] quads, final int qlen)
+    '''returns Name\n\n
+    findName(final int firstQuad)\n
+    findName(final int firstQuad, final int secondQuad)\n
+    findName(final int[] quads, final int qlen)\n
     '''
 def addName():
-    '''public Name addName(String symbolStr, final int q1, final int q2)
-    public Name addName(String symbolStr, final int[] quads, final int qlen)
+    '''returns Name\n\n
+    addName(String symbolStr, final int q1, final int q2)\n
+    addName(String symbolStr, final int[] quads, final int qlen)\n
     '''
-def calcHash():
-    '''public final int calcHash(final int firstQuad)
-    public final int calcHash(final int firstQuad, final int secondQuad)
-    public final int calcHash(final int[] quads, final int qlen)
-    '''
-def TableInfo():
-    '''public TableInfo(final int count, final int mainHashMask, final int[] mainHash, final Name[] mainNames, final Bucket[] collList, final int collCount, final int collEnd, final int longestCollisionList)
-    public TableInfo(final BytesToNameCanonicalizer src)
+def ():
+    '''returns TableInfo\n\n
+    (final int count, final int mainHashMask, final int[] mainHash, final Name[] mainNames, final Bucket[] collList, final int collCount, final int collEnd, final int longestCollisionList)\n
+    (final BytesToNameCanonicalizer src)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def find():
-    '''public Name find(final int hash, final int firstQuad, final int secondQuad)
-    public Name find(final int hash, final int[] quads, final int qlen)
+    '''returns Name\n\n
+    find(final int hash, final int firstQuad, final int secondQuad)\n
+    find(final int hash, final int[] quads, final int qlen)\n
     '''

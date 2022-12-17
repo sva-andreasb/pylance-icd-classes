@@ -1,27 +1,32 @@
 def iterator():
-    '''public Iterator<EmbeddedExtractor> iterator()
+    '''returns Iterator<EmbeddedExtractor>\n\n
+    iterator()\n
     '''
 def extractOne():
-    '''public EmbeddedData extractOne(final DirectoryNode src)
-    public EmbeddedData extractOne(final Picture src)
+    '''returns EmbeddedData\n\n
+    extractOne(final DirectoryNode src)\n
+    extractOne(final Picture src)\n
     '''
 def extractAll():
-    '''public List<EmbeddedData> extractAll(final Sheet sheet)
+    '''returns List<EmbeddedData>\n\n
+    extractAll(final Sheet sheet)\n
     '''
 def canExtract():
-    '''public boolean canExtract(final DirectoryNode source)
-    public boolean canExtract(final Picture source)
-    public boolean canExtract(final DirectoryNode dn)
-    public boolean canExtract(final DirectoryNode dn)
-    public boolean canExtract(final Picture source)
-    public boolean canExtract(final DirectoryNode dn)
-    public boolean canExtract(final DirectoryNode dn)
-    public boolean canExtract(final DirectoryNode dn)
+    '''returns boolean\n\n
+    canExtract(final DirectoryNode source)\n
+    canExtract(final Picture source)\n
+    canExtract(final DirectoryNode dn)\n
+    canExtract(final DirectoryNode dn)\n
+    canExtract(final Picture source)\n
+    canExtract(final DirectoryNode dn)\n
+    canExtract(final DirectoryNode dn)\n
+    canExtract(final DirectoryNode dn)\n
     '''
 def extract():
-    '''public EmbeddedData extract(final DirectoryNode dn)
-    public EmbeddedData extract(final DirectoryNode dn)
-    public EmbeddedData extract(final DirectoryNode dn)
-    public EmbeddedData extract(final DirectoryNode dn)
-    public EmbeddedData extract(final DirectoryNode dn)
+    '''returns EmbeddedData\n\n
+    extract(final DirectoryNode dn)\n
+    extract(final DirectoryNode dn)\n
+    extract(final DirectoryNode dn)\n
+    extract(final DirectoryNode dn)\n
+    extract(final DirectoryNode dn)\n
     '''

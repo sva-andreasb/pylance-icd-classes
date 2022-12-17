@@ -1,3 +1,4 @@
-def FldCompanyPayOnReceipt():
-    '''public FldCompanyPayOnReceipt(final MboValue mbv)
+def ():
+    '''returns FldCompanyPayOnReceipt\n\n
+    (final MboValue mbv)\n
     '''

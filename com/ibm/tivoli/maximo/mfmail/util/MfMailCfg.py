@@ -1,57 +1,76 @@
-def MfMailCfg():
-    '''public MfMailCfg(final MboSet ms)
+def ():
+    '''returns MfMailCfg\n\n
+    (final MboSet ms)\n
     '''
 def activate():
-    '''public void activate()
+    '''returns None\n\n
+    activate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def deactivate():
-    '''public void deactivate()
+    '''returns None\n\n
+    deactivate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def hasConfigChildren():
-    '''public boolean hasConfigChildren()
+    '''returns boolean\n\n
+    hasConfigChildren()\n
     '''
 def getZombieFromMboName():
-    '''public MboRemote getZombieFromMboName()
+    '''returns MboRemote\n\n
+    getZombieFromMboName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def isActivated():
-    '''public boolean isActivated()
+    '''returns boolean\n\n
+    isActivated()\n
     '''
 def isStatusChangeSupported():
-    '''public boolean isStatusChangeSupported()
+    '''returns boolean\n\n
+    isStatusChangeSupported()\n
     '''
 def isWorkflowSupported():
-    '''public boolean isWorkflowSupported()
+    '''returns boolean\n\n
+    isWorkflowSupported()\n
     '''
 def validateCfg():
-    '''public void validateCfg(final boolean isDuringActivation)
+    '''returns None\n\n
+    validateCfg(final boolean isDuringActivation)\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def canActivate():
-    '''public void canActivate()
+    '''returns None\n\n
+    canActivate()\n
     '''
 def canDeactivate():
-    '''public void canDeactivate()
+    '''returns None\n\n
+    canDeactivate()\n
     '''
 def doPostActivateProcessing():
-    '''public void doPostActivateProcessing()
+    '''returns None\n\n
+    doPostActivateProcessing()\n
     '''
 def setFieldFlags():
-    '''public void setFieldFlags(final String type)
+    '''returns None\n\n
+    setFieldFlags(final String type)\n
     '''

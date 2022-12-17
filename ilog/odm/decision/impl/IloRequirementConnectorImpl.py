@@ -1,38 +1,47 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloRequirementConnectorImpl():
-    '''public IloRequirementConnectorImpl()
-    public IloRequirementConnectorImpl(final IloRequirementConnectorImpl parent)
+def ():
+    '''returns Association\n\n
+    ()\n
+    (final IloRequirementConnectorImpl parent)\n
+    (final IloRequirement req, final String datasetId, final int colIndex, final IloRowKey key)\n
     '''
 def getParent():
-    '''public IloRequirementConnectorImpl getParent()
+    '''returns IloRequirementConnectorImpl\n\n
+    getParent()\n
     '''
 def associateRequirement():
-    '''public void associateRequirement(final IloRequirement requirement, final String datasetId, final int colIndex, final IloRowKey rowKey)
+    '''returns None\n\n
+    associateRequirement(final IloRequirement requirement, final String datasetId, final int colIndex, final IloRowKey rowKey)\n
     '''
 def makeTable():
-    '''public IloOrderedTableImpl makeTable(final IloRequirement.Status[] statusList, final IloSolutionReport solutionReport)
+    '''returns IloOrderedTableImpl\n\n
+    makeTable(final IloRequirement.Status[] statusList, final IloSolutionReport solutionReport)\n
     '''
 def removeRequirementAssociations():
-    '''public void removeRequirementAssociations(final IloRequirementId id)
+    '''returns None\n\n
+    removeRequirementAssociations(final IloRequirementId id)\n
     '''
 def getRequirements():
-    '''public Collection<IloRequirement> getRequirements(final String datasetId, final int colIndex, final IloRowKey key)
+    '''returns Collection<IloRequirement>\n\n
+    getRequirements(final String datasetId, final int colIndex, final IloRowKey key)\n
     '''
 def reset():
-    '''public void reset()
-    '''
-def Association():
-    '''public Association(final IloRequirement req, final String datasetId, final int colIndex, final IloRowKey key)
+    '''returns None\n\n
+    reset()\n
     '''
 def getColIndex():
-    '''public int getColIndex()
+    '''returns int\n\n
+    getColIndex()\n
     '''
 def getDatasetId():
-    '''public String getDatasetId()
+    '''returns String\n\n
+    getDatasetId()\n
     '''
 def getKey():
-    '''public IloRowKey getKey()
+    '''returns IloRowKey\n\n
+    getKey()\n
     '''
 def getReq():
-    '''public IloRequirement getReq()
+    '''returns IloRequirement\n\n
+    getReq()\n
     '''

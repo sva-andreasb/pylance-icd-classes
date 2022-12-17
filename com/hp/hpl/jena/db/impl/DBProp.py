@@ -1,16 +1,9 @@
-def DBProp():
-    '''public DBProp(final SpecializedGraph g)
-    public DBProp(final SpecializedGraph g, final Node n)
+def ():
+    '''returns DBProp\n\n
+    (final SpecializedGraph g)\n
+    (final SpecializedGraph g, final Node n)\n
     '''
 def getNode():
-    '''public Node getNode()
-    '''
-def listTriples():
-    '''public static ExtendedIterator<Triple> listTriples(final SpecializedGraph g, final Node self)
-    '''
-def generateUniqueID():
-    '''public static String generateUniqueID()
-    '''
-def generateNodeURI():
-    '''public static Node generateNodeURI()
+    '''returns Node\n\n
+    getNode()\n
     '''

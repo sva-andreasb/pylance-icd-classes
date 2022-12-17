@@ -1,52 +1,67 @@
-def CaseGloss():
-    '''public CaseGloss()
-    public CaseGloss(final String s)
+def ():
+    '''returns CaseGloss\n\n
+    ()\n
+    (final String s)\n
     '''
 def getCase():
-    '''public String getCase(final String s)
-    public int getCase()
+    '''returns int\n\n
+    getCase(final String s)\n
+    getCase()\n
     '''
 def isLowerCase():
-    '''public boolean isLowerCase()
+    '''returns boolean\n\n
+    isLowerCase()\n
     '''
 def isUpperCase():
-    '''public boolean isUpperCase()
+    '''returns boolean\n\n
+    isUpperCase()\n
     '''
 def isFirstTitleCase():
-    '''public boolean isFirstTitleCase()
+    '''returns boolean\n\n
+    isFirstTitleCase()\n
     '''
 def isAllTitleCase():
-    '''public boolean isAllTitleCase()
+    '''returns boolean\n\n
+    isAllTitleCase()\n
     '''
 def isCrazyCase():
-    '''public boolean isCrazyCase()
+    '''returns boolean\n\n
+    isCrazyCase()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isValid():
-    '''public boolean isValid(final String s)
-    public boolean isValid(final String str)
-    public boolean isValid(final String s)
-    public boolean isValid(final String s)
-    public boolean isValid(final String s)
+    '''returns boolean\n\n
+    isValid(final String s)\n
+    isValid(final String str)\n
+    isValid(final String s)\n
+    isValid(final String s)\n
+    isValid(final String s)\n
     '''
 def getCrazyBitSet():
-    '''public BitSet getCrazyBitSet()
-    public BitSet getCrazyBitSet()
+    '''returns BitSet\n\n
+    getCrazyBitSet()\n
+    getCrazyBitSet()\n
     '''

@@ -1,3 +1,4 @@
-def AssetZeroCostsSet():
-    '''public AssetZeroCostsSet(final MboServerInterface ms)
+def ():
+    '''returns AssetZeroCostsSet\n\n
+    (final MboServerInterface ms)\n
     '''

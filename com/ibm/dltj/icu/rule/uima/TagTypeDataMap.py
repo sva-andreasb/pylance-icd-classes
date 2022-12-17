@@ -1,6 +1,8 @@
-def TagTypeDataMap():
-    '''public TagTypeDataMap()
+def ():
+    '''returns TagTypeDataMap\n\n
+    ()\n
     '''
 def getTypeData():
-    '''public UimaTypeData getTypeData(final int value)
+    '''returns UimaTypeData\n\n
+    getTypeData(final int value)\n
     '''

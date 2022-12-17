@@ -1,113 +1,133 @@
-def AntClassLoader():
-    '''public AntClassLoader(final ClassLoader parent, final Project project, final Path classpath)
-    public AntClassLoader()
-    public AntClassLoader(final Project project, final Path classpath)
-    public AntClassLoader(final ClassLoader parent, final Project project, final Path classpath, final boolean parentFirst)
-    public AntClassLoader(final Project project, final Path classpath, final boolean parentFirst)
-    public AntClassLoader(final ClassLoader parent, final boolean parentFirst)
+def ():
+    '''returns AntClassLoader\n\n
+    (final ClassLoader parent, final Project project, final Path classpath)\n
+    ()\n
+    (final Project project, final Path classpath)\n
+    (final ClassLoader parent, final Project project, final Path classpath, final boolean parentFirst)\n
+    (final Project project, final Path classpath, final boolean parentFirst)\n
+    (final ClassLoader parent, final boolean parentFirst)\n
     '''
 def setProject():
-    '''public void setProject(final Project project)
+    '''returns None\n\n
+    setProject(final Project project)\n
     '''
 def setClassPath():
-    '''public void setClassPath(final Path classpath)
+    '''returns None\n\n
+    setClassPath(final Path classpath)\n
     '''
 def setParent():
-    '''public void setParent(final ClassLoader parent)
+    '''returns None\n\n
+    setParent(final ClassLoader parent)\n
     '''
 def setParentFirst():
-    '''public void setParentFirst(final boolean parentFirst)
+    '''returns None\n\n
+    setParentFirst(final boolean parentFirst)\n
     '''
 def setThreadContextLoader():
-    '''public void setThreadContextLoader()
+    '''returns None\n\n
+    setThreadContextLoader()\n
     '''
 def resetThreadContextLoader():
-    '''public void resetThreadContextLoader()
+    '''returns None\n\n
+    resetThreadContextLoader()\n
     '''
 def addPathElement():
-    '''public void addPathElement(final String pathElement)
+    '''returns None\n\n
+    addPathElement(final String pathElement)\n
     '''
 def addPathComponent():
-    '''public void addPathComponent(final File file)
+    '''returns None\n\n
+    addPathComponent(final File file)\n
     '''
 def getClasspath():
-    '''public String getClasspath()
-    '''
-def setIsolated():
-    '''public synchronized void setIsolated(final boolean isolated)
-    '''
-def initializeClass():
-    '''public static void initializeClass(final Class theClass)
+    '''returns String\n\n
+    getClasspath()\n
     '''
 def addSystemPackageRoot():
-    '''public void addSystemPackageRoot(final String packageRoot)
+    '''returns None\n\n
+    addSystemPackageRoot(final String packageRoot)\n
     '''
 def addLoaderPackageRoot():
-    '''public void addLoaderPackageRoot(final String packageRoot)
+    '''returns None\n\n
+    addLoaderPackageRoot(final String packageRoot)\n
     '''
 def forceLoadClass():
-    '''public Class forceLoadClass(final String classname)
+    '''returns Class\n\n
+    forceLoadClass(final String classname)\n
     '''
 def forceLoadSystemClass():
-    '''public Class forceLoadSystemClass(final String classname)
+    '''returns Class\n\n
+    forceLoadSystemClass(final String classname)\n
     '''
 def getResourceAsStream():
-    '''public InputStream getResourceAsStream(final String name)
+    '''returns InputStream\n\n
+    getResourceAsStream(final String name)\n
     '''
 def getResource():
-    '''public URL getResource(final String name)
+    '''returns URL\n\n
+    getResource(final String name)\n
     '''
 def getNamedResources():
-    '''public Enumeration getNamedResources(final String name)
+    '''returns Enumeration\n\n
+    getNamedResources(final String name)\n
     '''
 def findClass():
-    '''public Class findClass(final String name)
-    '''
-def cleanup():
-    '''public synchronized void cleanup()
+    '''returns Class\n\n
+    findClass(final String name)\n
     '''
 def getConfiguredParent():
-    '''public ClassLoader getConfiguredParent()
+    '''returns ClassLoader\n\n
+    getConfiguredParent()\n
     '''
 def buildStarted():
-    '''public void buildStarted(final BuildEvent event)
+    '''returns None\n\n
+    buildStarted(final BuildEvent event)\n
     '''
 def buildFinished():
-    '''public void buildFinished(final BuildEvent event)
+    '''returns None\n\n
+    buildFinished(final BuildEvent event)\n
     '''
 def subBuildFinished():
-    '''public void subBuildFinished(final BuildEvent event)
+    '''returns None\n\n
+    subBuildFinished(final BuildEvent event)\n
     '''
 def subBuildStarted():
-    '''public void subBuildStarted(final BuildEvent event)
+    '''returns None\n\n
+    subBuildStarted(final BuildEvent event)\n
     '''
 def targetStarted():
-    '''public void targetStarted(final BuildEvent event)
+    '''returns None\n\n
+    targetStarted(final BuildEvent event)\n
     '''
 def targetFinished():
-    '''public void targetFinished(final BuildEvent event)
+    '''returns None\n\n
+    targetFinished(final BuildEvent event)\n
     '''
 def taskStarted():
-    '''public void taskStarted(final BuildEvent event)
+    '''returns None\n\n
+    taskStarted(final BuildEvent event)\n
     '''
 def taskFinished():
-    '''public void taskFinished(final BuildEvent event)
+    '''returns None\n\n
+    taskFinished(final BuildEvent event)\n
     '''
 def messageLogged():
-    '''public void messageLogged(final BuildEvent event)
+    '''returns None\n\n
+    messageLogged(final BuildEvent event)\n
     '''
 def addJavaLibraries():
-    '''public void addJavaLibraries()
+    '''returns None\n\n
+    addJavaLibraries()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def newAntClassLoader():
-    '''public static AntClassLoader newAntClassLoader(final ClassLoader parent, final Project project, final Path path, final boolean parentFirst)
+    '''returns String\n\n
+    toString()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''

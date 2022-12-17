@@ -1,3 +1,4 @@
-def FldMasterPM():
-    '''public FldMasterPM(final MboValue mbv)
+def ():
+    '''returns FldMasterPM\n\n
+    (final MboValue mbv)\n
     '''

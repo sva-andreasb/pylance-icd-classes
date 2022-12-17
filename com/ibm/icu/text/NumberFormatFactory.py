@@ -4,9 +4,11 @@ FORMAT_PERCENT = "int  2"
 FORMAT_SCIENTIFIC = "int  3"
 FORMAT_INTEGER = "int  4"
 def visible():
-    '''public boolean visible()
+    '''returns boolean\n\n
+    visible()\n
     '''
 def createFormat():
-    '''public NumberFormat createFormat(final ULocale loc, final int formatType)
-    public NumberFormat createFormat(final Locale loc, final int formatType)
+    '''returns NumberFormat\n\n
+    createFormat(final ULocale loc, final int formatType)\n
+    createFormat(final Locale loc, final int formatType)\n
     '''

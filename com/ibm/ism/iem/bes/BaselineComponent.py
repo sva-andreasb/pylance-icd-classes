@@ -1,30 +1,40 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
     '''
 def getActionName():
-    '''public String getActionName()
+    '''returns String\n\n
+    getActionName()\n
     '''
 def setActionName():
-    '''public void setActionName(final String value)
+    '''returns None\n\n
+    setActionName(final String value)\n
     '''
 def isIncludeInRelevance():
-    '''public Boolean isIncludeInRelevance()
+    '''returns Boolean\n\n
+    isIncludeInRelevance()\n
     '''
 def setIncludeInRelevance():
-    '''public void setIncludeInRelevance(final Boolean value)
+    '''returns None\n\n
+    setIncludeInRelevance(final Boolean value)\n
     '''
 def getSourceSiteURL():
-    '''public String getSourceSiteURL()
+    '''returns String\n\n
+    getSourceSiteURL()\n
     '''
 def setSourceSiteURL():
-    '''public void setSourceSiteURL(final String value)
+    '''returns None\n\n
+    setSourceSiteURL(final String value)\n
     '''
 def getSourceID():
-    '''public BigInteger getSourceID()
+    '''returns BigInteger\n\n
+    getSourceID()\n
     '''
 def setSourceID():
-    '''public void setSourceID(final BigInteger value)
+    '''returns None\n\n
+    setSourceID(final BigInteger value)\n
     '''

@@ -1,20 +1,26 @@
-def PlusCAssetAliasFieldCommon():
-    '''public PlusCAssetAliasFieldCommon(final PlusCAssetAliasField adapter)
-    public PlusCAssetAliasFieldCommon()
+def ():
+    '''returns PlusCAssetAliasFieldCommon\n\n
+    (final PlusCAssetAliasField adapter)\n
+    ()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
-    public MboSetRemote getList(boolean replaceAssetTableReferences)
+    '''returns MboSetRemote\n\n
+    getList()\n
+    getList(boolean replaceAssetTableReferences)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String where, final String identifier)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String where, final String identifier)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(MboRemote sourceMbo)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''
 def getAlias():
-    '''public String getAlias()
+    '''returns String\n\n
+    getAlias()\n
     '''

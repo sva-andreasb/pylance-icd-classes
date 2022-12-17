@@ -1,7 +1,9 @@
-def GenerateWOSet():
-    '''public GenerateWOSet(final MboServerInterface ms)
+def ():
+    '''returns GenerateWOSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute(final MboRemote mbo)
-    public void execute()
+    '''returns None\n\n
+    execute(final MboRemote mbo)\n
+    execute()\n
     '''

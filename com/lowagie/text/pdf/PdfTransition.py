@@ -14,17 +14,21 @@ DISSOLVE = "int  13"
 LRGLITTER = "int  14"
 TBGLITTER = "int  15"
 DGLITTER = "int  16"
-def PdfTransition():
-    '''public PdfTransition()
-    public PdfTransition(final int type)
-    public PdfTransition(final int type, final int duration)
+def ():
+    '''returns PdfTransition\n\n
+    ()\n
+    (final int type)\n
+    (final int type, final int duration)\n
     '''
 def getDuration():
-    '''public int getDuration()
+    '''returns int\n\n
+    getDuration()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getTransitionDictionary():
-    '''public PdfDictionary getTransitionDictionary()
+    '''returns PdfDictionary\n\n
+    getTransitionDictionary()\n
     '''

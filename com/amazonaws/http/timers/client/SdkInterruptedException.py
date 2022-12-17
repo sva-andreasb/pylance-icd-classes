@@ -1,3 +1,4 @@
-def SdkInterruptedException():
-    '''public SdkInterruptedException(final Response<?> response)
+def ():
+    '''returns SdkInterruptedException\n\n
+    (final Response<?> response)\n
     '''

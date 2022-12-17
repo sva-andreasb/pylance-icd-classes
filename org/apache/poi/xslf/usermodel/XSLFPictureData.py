@@ -1,36 +1,48 @@
-def XSLFPictureData():
-    '''public XSLFPictureData(final PackagePart part)
+def ():
+    '''returns XSLFPictureData\n\n
+    (final PackagePart part)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def suggestFileExtension():
-    '''public String suggestFileExtension()
+    '''returns String\n\n
+    suggestFileExtension()\n
     '''
 def getChecksum():
-    '''public byte[] getChecksum()
+    '''returns byte[]\n\n
+    getChecksum()\n
     '''
 def getImageDimension():
-    '''public Dimension getImageDimension()
+    '''returns Dimension\n\n
+    getImageDimension()\n
     '''
 def getImageDimensionInPixels():
-    '''public Dimension getImageDimensionInPixels()
+    '''returns Dimension\n\n
+    getImageDimensionInPixels()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setData():
-    '''public void setData(final byte[] data)
+    '''returns None\n\n
+    setData(final byte[] data)\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''

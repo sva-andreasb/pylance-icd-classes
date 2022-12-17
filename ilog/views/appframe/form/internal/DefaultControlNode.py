@@ -1,48 +1,64 @@
-def DefaultControlNode():
-    '''public DefaultControlNode(final Class d)
+def ():
+    '''returns DefaultControlNode\n\n
+    (final Class d)\n
     '''
 def putProperty():
-    '''public void putProperty(final String key, final Object value, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    putProperty(final String key, final Object value, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''
 def getControl():
-    '''public Object getControl()
+    '''returns Object\n\n
+    getControl()\n
     '''
 def setControl():
-    '''public void setControl(final Object b)
+    '''returns None\n\n
+    setControl(final Object b)\n
     '''
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def createControl():
-    '''public Object createControl(final IlvForm ilvForm, final String c, final Object o, final Class clazz, final Element element)
+    '''returns Object\n\n
+    createControl(final IlvForm ilvForm, final String c, final Object o, final Class clazz, final Element element)\n
     '''
 def isLocaleDependentProperty():
-    '''public boolean isLocaleDependentProperty(final String s)
+    '''returns boolean\n\n
+    isLocaleDependentProperty(final String s)\n
     '''
 def getBounds():
-    '''public Rectangle getBounds()
+    '''returns Rectangle\n\n
+    getBounds()\n
     '''
 def setBounds():
-    '''public void setBounds(final Rectangle rectangle)
+    '''returns None\n\n
+    setBounds(final Rectangle rectangle)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def setPreferredSize():
-    '''public void setPreferredSize(final Dimension dimension)
+    '''returns None\n\n
+    setPreferredSize(final Dimension dimension)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize()
+    '''returns Dimension\n\n
+    getMinimumSize()\n
     '''
 def setMinimumSize():
-    '''public void setMinimumSize(final Dimension dimension)
+    '''returns None\n\n
+    setMinimumSize(final Dimension dimension)\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize()
+    '''returns Dimension\n\n
+    getMaximumSize()\n
     '''
 def setMaximumSize():
-    '''public void setMaximumSize(final Dimension dimension)
+    '''returns None\n\n
+    setMaximumSize(final Dimension dimension)\n
     '''

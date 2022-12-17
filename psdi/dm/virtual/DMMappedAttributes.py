@@ -1,3 +1,4 @@
-def DMMappedAttributes():
-    '''public DMMappedAttributes(final MboSet ms)
+def ():
+    '''returns DMMappedAttributes\n\n
+    (final MboSet ms)\n
     '''

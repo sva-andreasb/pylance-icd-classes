@@ -1,27 +1,28 @@
-def parse():
-    '''public static JPrimitiveType parse(final JCodeModel codeModel, final String typeName)
-    '''
 def binaryName():
-    '''public String binaryName()
+    '''returns String\n\n
+    binaryName()\n
     '''
 def isArray():
-    '''public boolean isArray()
+    '''returns boolean\n\n
+    isArray()\n
     '''
 def isPrimitive():
-    '''public boolean isPrimitive()
+    '''returns boolean\n\n
+    isPrimitive()\n
     '''
 def erasure():
-    '''public JType erasure()
-    '''
-def isReference():
-    '''public final boolean isReference()
+    '''returns JType\n\n
+    erasure()\n
     '''
 def elementType():
-    '''public JType elementType()
+    '''returns JType\n\n
+    elementType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final JType o)
+    '''returns int\n\n
+    compareTo(final JType o)\n
     '''

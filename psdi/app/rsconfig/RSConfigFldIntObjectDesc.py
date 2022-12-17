@@ -1,9 +1,12 @@
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
-def RSConfigFldIntObjectDesc():
-    '''public RSConfigFldIntObjectDesc(final MboValue mbv)
+def ():
+    '''returns RSConfigFldIntObjectDesc\n\n
+    (final MboValue mbv)\n
     '''

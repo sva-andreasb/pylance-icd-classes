@@ -1,12 +1,16 @@
-def V():
-    '''public V(final IConfig a)
+def ():
+    '''returns V\n\n
+    (final IConfig a)\n
     '''
 def getLicensePath():
-    '''public String getLicensePath()
+    '''returns String\n\n
+    getLicensePath()\n
     '''
 def getStoragePath():
-    '''public String getStoragePath()
+    '''returns String\n\n
+    getStoragePath()\n
     '''
 def getFileSavePath():
-    '''public String getFileSavePath()
+    '''returns String\n\n
+    getFileSavePath()\n
     '''

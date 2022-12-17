@@ -1,7 +1,9 @@
-def LaxContentLengthStrategy():
-    '''public LaxContentLengthStrategy(final int implicitLen)
-    public LaxContentLengthStrategy()
+def ():
+    '''returns LaxContentLengthStrategy\n\n
+    (final int implicitLen)\n
+    ()\n
     '''
 def determineLength():
-    '''public long determineLength(final HttpMessage message)
+    '''returns long\n\n
+    determineLength(final HttpMessage message)\n
     '''

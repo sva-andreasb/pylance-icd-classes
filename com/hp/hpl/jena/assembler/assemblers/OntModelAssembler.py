@@ -1,3 +1,4 @@
 def openEmptyModel():
-    '''public Model openEmptyModel(final Assembler a, final Resource root, final Mode mode)
+    '''returns Model\n\n
+    openEmptyModel(final Assembler a, final Resource root, final Mode mode)\n
     '''

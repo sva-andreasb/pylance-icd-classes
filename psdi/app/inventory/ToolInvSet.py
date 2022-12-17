@@ -1,3 +1,4 @@
-def ToolInvSet():
-    '''public ToolInvSet(final MboServerInterface ms)
+def ():
+    '''returns ToolInvSet\n\n
+    (final MboServerInterface ms)\n
     '''

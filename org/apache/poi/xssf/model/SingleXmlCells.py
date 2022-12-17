@@ -1,16 +1,21 @@
-def SingleXmlCells():
-    '''public SingleXmlCells()
-    public SingleXmlCells(final PackagePart part)
+def ():
+    '''returns SingleXmlCells\n\n
+    ()\n
+    (final PackagePart part)\n
     '''
 def readFrom():
-    '''public void readFrom(final InputStream is)
+    '''returns None\n\n
+    readFrom(final InputStream is)\n
     '''
 def getXSSFSheet():
-    '''public XSSFSheet getXSSFSheet()
+    '''returns XSSFSheet\n\n
+    getXSSFSheet()\n
     '''
 def getCTSingleXMLCells():
-    '''public CTSingleXmlCells getCTSingleXMLCells()
+    '''returns CTSingleXmlCells\n\n
+    getCTSingleXMLCells()\n
     '''
 def getAllSimpleXmlCell():
-    '''public List<XSSFSingleXmlCell> getAllSimpleXmlCell()
+    '''returns List<XSSFSingleXmlCell>\n\n
+    getAllSimpleXmlCell()\n
     '''

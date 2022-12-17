@@ -1,33 +1,36 @@
-def ScriptManager():
-    '''public ScriptManager(final Configuration configuration, final WatchManager watchManager)
+def ():
+    '''returns ThreadLocalScriptRunner\n\n
+    (final Configuration configuration, final WatchManager watchManager)\n
+    (final ScriptEngine scriptEngine, final AbstractScript script)\n
+    (final AbstractScript script)\n
     '''
 def addScript():
-    '''public void addScript(final AbstractScript script)
+    '''returns None\n\n
+    addScript(final AbstractScript script)\n
     '''
 def createBindings():
-    '''public Bindings createBindings(final AbstractScript script)
-    public Bindings createBindings()
+    '''returns Bindings\n\n
+    createBindings(final AbstractScript script)\n
+    createBindings()\n
     '''
 def getScript():
-    '''public AbstractScript getScript(final String name)
-    public AbstractScript getScript()
-    public AbstractScript getScript()
+    '''returns AbstractScript\n\n
+    getScript(final String name)\n
+    getScript()\n
+    getScript()\n
     '''
 def fileModified():
-    '''public void fileModified(final File file)
+    '''returns None\n\n
+    fileModified(final File file)\n
     '''
 def execute():
-    '''public Object execute(final String name, final Bindings bindings)
-    public Object execute(final Bindings bindings)
-    public Object execute(final Bindings bindings)
-    '''
-def MainScriptRunner():
-    '''public MainScriptRunner(final ScriptEngine scriptEngine, final AbstractScript script)
+    '''returns Object\n\n
+    execute(final String name, final Bindings bindings)\n
+    execute(final Bindings bindings)\n
+    execute(final Bindings bindings)\n
     '''
 def getScriptEngine():
-    '''public ScriptEngine getScriptEngine()
-    public ScriptEngine getScriptEngine()
-    '''
-def ThreadLocalScriptRunner():
-    '''public ThreadLocalScriptRunner(final AbstractScript script)
+    '''returns ScriptEngine\n\n
+    getScriptEngine()\n
+    getScriptEngine()\n
     '''

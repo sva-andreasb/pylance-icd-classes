@@ -1,82 +1,105 @@
-def SKDActivityDuration():
-    '''public SKDActivityDuration(final UserInfo userInfo, final IMXGanttModel model)
+def ():
+    '''returns SKDActivityDuration\n\n
+    (final UserInfo userInfo, final IMXGanttModel model)\n
     '''
 def getActivityDuration():
-    '''public Object[] getActivityDuration(final Date startDate, Date endDate, final boolean isInterruptable)
+    '''returns Object[]\n\n
+    getActivityDuration(final Date startDate, Date endDate, final boolean isInterruptable)\n
     '''
 def durationBetweenTwoDates():
-    '''public double durationBetweenTwoDates(final Date startTime, final Date endTime)
+    '''returns double\n\n
+    durationBetweenTwoDates(final Date startTime, final Date endTime)\n
     '''
 def getWorkingHoursBetweenStartAndEndDates():
-    '''public double getWorkingHoursBetweenStartAndEndDates(final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getWorkingHoursBetweenStartAndEndDates(final Date startDate, final Date endDate)\n
     '''
 def getWorkingHoursBetweenStartAndEndDatesForShift():
-    '''public double getWorkingHoursBetweenStartAndEndDatesForShift(final String shift, final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getWorkingHoursBetweenStartAndEndDatesForShift(final String shift, final Date startDate, final Date endDate)\n
     '''
 def getNonWorkingHoursBetweenStartAndEndDates():
-    '''public double getNonWorkingHoursBetweenStartAndEndDates(final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getNonWorkingHoursBetweenStartAndEndDates(final Date startDate, final Date endDate)\n
     '''
 def getNonWorkingHoursBetweenStartAndEndDatesForShift():
-    '''public double getNonWorkingHoursBetweenStartAndEndDatesForShift(final String shift, final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getNonWorkingHoursBetweenStartAndEndDatesForShift(final String shift, final Date startDate, final Date endDate)\n
     '''
 def getNonWorkingHours():
-    '''public double getNonWorkingHours(final ArrayList<Date> mergedNonWorkPeriods, final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getNonWorkingHours(final ArrayList<Date> mergedNonWorkPeriods, final Date startDate, final Date endDate)\n
     '''
 def getNWDateListBetweenDates():
-    '''public LinkedHashSet<TreeSet<Date>> getNWDateListBetweenDates(final Date startDate, final Date endDate)
+    '''returns LinkedHashSet<TreeSet<Date>>\n\n
+    getNWDateListBetweenDates(final Date startDate, final Date endDate)\n
     '''
 def getNWDateRangeListBetweenDates():
-    '''public List<Range<Date>> getNWDateRangeListBetweenDates(final Date startDate, final Date endDate)
+    '''returns List<Range<Date>>\n\n
+    getNWDateRangeListBetweenDates(final Date startDate, final Date endDate)\n
     '''
 def getNWDateRangeListBetweenDatesForShift():
-    '''public List<Range<Date>> getNWDateRangeListBetweenDatesForShift(final String shiftnum, final Date startDate, final Date endDate)
+    '''returns List<Range<Date>>\n\n
+    getNWDateRangeListBetweenDatesForShift(final String shiftnum, final Date startDate, final Date endDate)\n
     '''
 def getNWDateRangeList():
-    '''public List<Range<Date>> getNWDateRangeList(final ArrayList<Date> nonWorkPeriods, final Date startDate, final Date endDate)
+    '''returns List<Range<Date>>\n\n
+    getNWDateRangeList(final ArrayList<Date> nonWorkPeriods, final Date startDate, final Date endDate)\n
     '''
 def getActivityStartAndEndDates():
-    '''public IlvTimeInterval getActivityStartAndEndDates(final Date startDate, final Date endDate, final double duration, final boolean isInterruptable, final String intshift)
-    public IlvTimeInterval getActivityStartAndEndDates(Date startDate, Date endDate, double duration, final boolean isInterruptable, final ArrayList<Date> mergedNonWorkPeriods)
+    '''returns IlvTimeInterval\n\n
+    getActivityStartAndEndDates(final Date startDate, final Date endDate, final double duration, final boolean isInterruptable, final String intshift)\n
+    getActivityStartAndEndDates(Date startDate, Date endDate, double duration, final boolean isInterruptable, final ArrayList<Date> mergedNonWorkPeriods)\n
     '''
 def getFirstAvailableWorkingDate():
-    '''public Date getFirstAvailableWorkingDate(final Date scheduleDate)
-    public Date getFirstAvailableWorkingDate(final Date scheduleDate, final String intShift)
+    '''returns Date\n\n
+    getFirstAvailableWorkingDate(final Date scheduleDate)\n
+    getFirstAvailableWorkingDate(final Date scheduleDate, final String intShift)\n
     '''
 def getPreviousAvailableWorkingDate():
-    '''public Date getPreviousAvailableWorkingDate(final Date scheduleDate)
-    public Date getPreviousAvailableWorkingDate(final Date scheduleDate, final String intShift)
+    '''returns Date\n\n
+    getPreviousAvailableWorkingDate(final Date scheduleDate)\n
+    getPreviousAvailableWorkingDate(final Date scheduleDate, final String intShift)\n
     '''
 def getShiftEnd():
-    '''public Date getShiftEnd(final Date scheduleDate)
-    public Date getShiftEnd(final Date scheduleDate, final String intShift)
+    '''returns Date\n\n
+    getShiftEnd(final Date scheduleDate)\n
+    getShiftEnd(final Date scheduleDate, final String intShift)\n
     '''
 def getNextShift():
-    '''public Date getNextShift(final Date scheduleDate)
-    public Date getNextShift(final Date scheduleDate, final String intShift)
+    '''returns Date\n\n
+    getNextShift(final Date scheduleDate)\n
+    getNextShift(final Date scheduleDate, final String intShift)\n
     '''
 def getActivityLatestStartAndFinishDates():
-    '''public IlvTimeInterval getActivityLatestStartAndFinishDates(final Date startDate, final Date endDate, final double duration, final boolean isInterruptable, final String intshift)
-    public IlvTimeInterval getActivityLatestStartAndFinishDates(Date startDate, Date endDate, double duration, final boolean isInterruptable, final ArrayList<Date> mergedNonWorkPeriods)
+    '''returns IlvTimeInterval\n\n
+    getActivityLatestStartAndFinishDates(final Date startDate, final Date endDate, final double duration, final boolean isInterruptable, final String intshift)\n
+    getActivityLatestStartAndFinishDates(Date startDate, Date endDate, double duration, final boolean isInterruptable, final ArrayList<Date> mergedNonWorkPeriods)\n
     '''
 def getShiftWorkPeriod():
-    '''public ArrayList<Date> getShiftWorkPeriod(final String shift, final IMXGanttModel model)
+    '''returns ArrayList<Date>\n\n
+    getShiftWorkPeriod(final String shift, final IMXGanttModel model)\n
     '''
 def getNonInterruptableActivitiesCalendarBreaksDuration():
-    '''public double getNonInterruptableActivitiesCalendarBreaksDuration()
+    '''returns double\n\n
+    getNonInterruptableActivitiesCalendarBreaksDuration()\n
     '''
 def isWorkingDate():
-    '''public boolean isWorkingDate(final Date scheduleDate, final String intShift)
-    public boolean isWorkingDate(final Date scheduleDate)
+    '''returns boolean\n\n
+    isWorkingDate(final Date scheduleDate, final String intShift)\n
+    isWorkingDate(final Date scheduleDate)\n
     '''
 def addWorkingHours():
-    '''public Date addWorkingHours(final Date date, final double workingHours, final boolean isInterruptible)
-    public Date addWorkingHours(Date date, final double workingHours, final boolean isInterruptible, final boolean convertUserTimeZone)
-    public Date addWorkingHours(final Date date, final double workingHours, final boolean isInterruptible, final String intShift)
-    public Date addWorkingHours(Date date, final double workingHours, final boolean isInterruptible, final String intShift, final boolean convertUserTimeZone)
+    '''returns Date\n\n
+    addWorkingHours(final Date date, final double workingHours, final boolean isInterruptible)\n
+    addWorkingHours(Date date, final double workingHours, final boolean isInterruptible, final boolean convertUserTimeZone)\n
+    addWorkingHours(final Date date, final double workingHours, final boolean isInterruptible, final String intShift)\n
+    addWorkingHours(Date date, final double workingHours, final boolean isInterruptible, final String intShift, final boolean convertUserTimeZone)\n
     '''
 def subtractWorkingHours():
-    '''public Date subtractWorkingHours(final Date date, final double workingHours, final boolean isInterruptible, final String intShift)
-    public Date subtractWorkingHours(Date date, final double workingHours, final boolean isInterruptible, final String intShift, final boolean convertUserTimeZone)
-    public Date subtractWorkingHours(final Date date, final double workingHours, final boolean isInterruptible)
-    public Date subtractWorkingHours(Date date, final double workingHours, final boolean isInterruptible, final boolean convertUserTimeZone)
+    '''returns Date\n\n
+    subtractWorkingHours(final Date date, final double workingHours, final boolean isInterruptible, final String intShift)\n
+    subtractWorkingHours(Date date, final double workingHours, final boolean isInterruptible, final String intShift, final boolean convertUserTimeZone)\n
+    subtractWorkingHours(final Date date, final double workingHours, final boolean isInterruptible)\n
+    subtractWorkingHours(Date date, final double workingHours, final boolean isInterruptible, final boolean convertUserTimeZone)\n
     '''

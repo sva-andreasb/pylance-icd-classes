@@ -1,18 +1,24 @@
 def sendFailed():
-    '''public void sendFailed(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    sendFailed(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def attributeChanged():
-    '''public void attributeChanged(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    attributeChanged(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def attributeRemoved():
-    '''public void attributeRemoved(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    attributeRemoved(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def changeAttributeFailed():
-    '''public void changeAttributeFailed(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    changeAttributeFailed(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def removeAttributeFailed():
-    '''public void removeAttributeFailed(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    removeAttributeFailed(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def queryAttrContentFailed():
-    '''public void queryAttrContentFailed(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    queryAttrContentFailed(final PlaceMemberEvent placeMemberEvent)\n
     '''

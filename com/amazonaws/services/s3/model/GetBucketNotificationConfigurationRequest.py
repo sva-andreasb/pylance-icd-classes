@@ -1,3 +1,4 @@
-def GetBucketNotificationConfigurationRequest():
-    '''public GetBucketNotificationConfigurationRequest(final String bucketName)
+def ():
+    '''returns GetBucketNotificationConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

@@ -1,39 +1,48 @@
-def AssetLookupBaseToo():
-    '''public AssetLookupBaseToo()
+def ():
+    '''returns AssetLookupBaseToo\n\n
+    ()\n
     '''
 def bimviewer():
-    '''public int bimviewer()
+    '''returns int\n\n
+    bimviewer()\n
     '''
 def bimModelListChanged():
-    '''public int bimModelListChanged()
+    '''returns int\n\n
+    bimModelListChanged()\n
     '''
 def setCurrentBeanRecord():
-    '''public void setCurrentBeanRecord(final String modelLocation)
+    '''returns None\n\n
+    setCurrentBeanRecord(final String modelLocation)\n
     '''
 def setCurrentBeanRecordByLocId():
-    '''public void setCurrentBeanRecordByLocId(final long locationId)
+    '''returns None\n\n
+    setCurrentBeanRecordByLocId(final long locationId)\n
     '''
 def eventMultiSelect():
-    '''public int eventMultiSelect()
+    '''returns int\n\n
+    eventMultiSelect()\n
     '''
 def appendSelection():
-    '''public int appendSelection()
+    '''returns int\n\n
+    appendSelection()\n
     '''
 def getBinding():
-    '''public String getBinding()
+    '''returns String\n\n
+    getBinding()\n
     '''
 def getModel():
-    '''public BIMViewer getModel()
+    '''returns BIMViewer\n\n
+    getModel()\n
     '''
 def getValueList():
-    '''public Set<String> getValueList()
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''returns Set<String>\n\n
+    getValueList()\n
     '''
 def insertAssets():
-    '''public void insertAssets(final MboRemote appMbo, final Set<String> newAssets, final String siteid)
+    '''returns None\n\n
+    insertAssets(final MboRemote appMbo, final Set<String> newAssets, final String siteid)\n
     '''
 def insertLocations():
-    '''public void insertLocations(final MboRemote appMbo, final Set<String> newLocations, final String siteid)
+    '''returns None\n\n
+    insertLocations(final MboRemote appMbo, final Set<String> newLocations, final String siteid)\n
     '''

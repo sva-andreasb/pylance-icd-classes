@@ -1,3 +1,4 @@
-def WeatherAssetSet():
-    '''public WeatherAssetSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''

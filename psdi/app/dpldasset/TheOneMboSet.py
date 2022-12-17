@@ -1,3 +1,4 @@
-def TheOneMboSet():
-    '''public TheOneMboSet(final MboServerInterface ms)
+def ():
+    '''returns TheOneMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

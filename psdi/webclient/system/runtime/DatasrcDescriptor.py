@@ -1,3 +1,4 @@
 def initialize():
-    '''public void initialize(final Element controlElement)
+    '''returns None\n\n
+    initialize(final Element controlElement)\n
     '''

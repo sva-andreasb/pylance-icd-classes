@@ -1,37 +1,32 @@
-def of():
-    '''public static FieldInfo of(final Enum<?> enumValue)
-    public static FieldInfo of(final Field field)
-    '''
 def getField():
-    '''public Field getField()
+    '''returns Field\n\n
+    getField()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getGenericType():
-    '''public Type getGenericType()
+    '''returns Type\n\n
+    getGenericType()\n
     '''
 def isFinal():
-    '''public boolean isFinal()
+    '''returns boolean\n\n
+    isFinal()\n
     '''
 def isPrimitive():
-    '''public boolean isPrimitive()
+    '''returns boolean\n\n
+    isPrimitive()\n
     '''
 def getValue():
-    '''public Object getValue(final Object obj)
+    '''returns Object\n\n
+    getValue(final Object obj)\n
     '''
 def setValue():
-    '''public void setValue(final Object obj, final Object value)
+    '''returns None\n\n
+    setValue(final Object obj, final Object value)\n
     '''
 def getClassInfo():
-    '''public ClassInfo getClassInfo()
-    '''
-def enumValue():
-    '''public <T extends Enum<T>> T enumValue()
-    '''
-def getFieldValue():
-    '''public static Object getFieldValue(final Field field, final Object obj)
-    '''
-def setFieldValue():
-    '''public static void setFieldValue(final Field field, final Object obj, final Object value)
+    '''returns ClassInfo\n\n
+    getClassInfo()\n
     '''

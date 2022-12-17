@@ -1,12 +1,16 @@
-def Driver_MsSQL():
-    '''public Driver_MsSQL()
+def ():
+    '''returns Driver_MsSQL\n\n
+    ()\n
     '''
 def setConnection():
-    '''public void setConnection(final IDBConnection dbcon)
+    '''returns None\n\n
+    setConnection(final IDBConnection dbcon)\n
     '''
 def addRDBLongObject():
-    '''public DBIDInt addRDBLongObject(final RDBLongObject lobj, final String table)
+    '''returns DBIDInt\n\n
+    addRDBLongObject(final RDBLongObject lobj, final String table)\n
     '''
 def graphIdAlloc():
-    '''public int graphIdAlloc(final String graphName)
+    '''returns int\n\n
+    graphIdAlloc(final String graphName)\n
     '''

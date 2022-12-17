@@ -1,15 +1,19 @@
-def SimpleMboSetIterator():
-    '''public SimpleMboSetIterator(final MboSetRemote mboSet)
-    public SimpleMboSetIterator(final MboSetRemote mboSet, final boolean discardable)
-    public SimpleMboSetIterator(final MboRemote mbo, final String relationship)
-    public SimpleMboSetIterator(final MboRemote mbo, final String relationship, final boolean discardable)
+def ():
+    '''returns SimpleMboSetIterator\n\n
+    (final MboSetRemote mboSet)\n
+    (final MboSetRemote mboSet, final boolean discardable)\n
+    (final MboRemote mbo, final String relationship)\n
+    (final MboRemote mbo, final String relationship, final boolean discardable)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public MboRemote next()
+    '''returns MboRemote\n\n
+    next()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

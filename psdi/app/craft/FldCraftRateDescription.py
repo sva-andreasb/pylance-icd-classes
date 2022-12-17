@@ -1,6 +1,8 @@
-def FldCraftRateDescription():
-    '''public FldCraftRateDescription(final MboValue mbv)
+def ():
+    '''returns FldCraftRateDescription\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

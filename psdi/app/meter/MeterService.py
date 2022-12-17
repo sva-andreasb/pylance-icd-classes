@@ -1,10 +1,13 @@
-def MeterService():
-    '''public MeterService()
-    public MeterService(final MXServer mxServer)
+def ():
+    '''returns MeterService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def meterUniqueToSet():
-    '''public void meterUniqueToSet(final Mbo thisMbo)
+    '''returns None\n\n
+    meterUniqueToSet(final Mbo thisMbo)\n
     '''
 def meterSequenceUniqueToSet():
-    '''public void meterSequenceUniqueToSet(final Mbo thisMbo)
+    '''returns None\n\n
+    meterSequenceUniqueToSet(final Mbo thisMbo)\n
     '''

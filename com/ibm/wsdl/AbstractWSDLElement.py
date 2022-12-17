@@ -1,30 +1,40 @@
-def AbstractWSDLElement():
-    '''public AbstractWSDLElement()
+def ():
+    '''returns AbstractWSDLElement\n\n
+    ()\n
     '''
 def setDocumentationElement():
-    '''public void setDocumentationElement(final Element docEl)
+    '''returns None\n\n
+    setDocumentationElement(final Element docEl)\n
     '''
 def getDocumentationElement():
-    '''public Element getDocumentationElement()
+    '''returns Element\n\n
+    getDocumentationElement()\n
     '''
 def addExtensibilityElement():
-    '''public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''returns None\n\n
+    addExtensibilityElement(final ExtensibilityElement extensibilityElement)\n
     '''
 def removeExtensibilityElement():
-    '''public ExtensibilityElement removeExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''returns ExtensibilityElement\n\n
+    removeExtensibilityElement(final ExtensibilityElement extensibilityElement)\n
     '''
 def getExtensibilityElements():
-    '''public List getExtensibilityElements()
+    '''returns List\n\n
+    getExtensibilityElements()\n
     '''
 def setExtensionAttribute():
-    '''public void setExtensionAttribute(final QName qName, final Object o)
+    '''returns None\n\n
+    setExtensionAttribute(final QName qName, final Object o)\n
     '''
 def getExtensionAttribute():
-    '''public Object getExtensionAttribute(final QName qName)
+    '''returns Object\n\n
+    getExtensionAttribute(final QName qName)\n
     '''
 def getExtensionAttributes():
-    '''public Map getExtensionAttributes()
+    '''returns Map\n\n
+    getExtensionAttributes()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

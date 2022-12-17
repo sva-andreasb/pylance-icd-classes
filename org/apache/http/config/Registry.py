@@ -1,6 +1,8 @@
 def lookup():
-    '''public I lookup(final String key)
+    '''returns I\n\n
+    lookup(final String key)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

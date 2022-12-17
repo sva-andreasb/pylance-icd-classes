@@ -1,19 +1,25 @@
-def MockTokenServerTransport():
-    '''public MockTokenServerTransport()
-    public MockTokenServerTransport(final String tokenServerUrl)
+def ():
+    '''returns MockTokenServerTransport\n\n
+    ()\n
+    (final String tokenServerUrl)\n
     '''
 def addServiceAccount():
-    '''public void addServiceAccount(final String email, final String accessToken)
+    '''returns None\n\n
+    addServiceAccount(final String email, final String accessToken)\n
     '''
 def addClient():
-    '''public void addClient(final String clientId, final String clientSecret)
+    '''returns None\n\n
+    addClient(final String clientId, final String clientSecret)\n
     '''
 def addRefreshToken():
-    '''public void addRefreshToken(final String refreshToken, final String accessTokenToReturn)
+    '''returns None\n\n
+    addRefreshToken(final String refreshToken, final String accessTokenToReturn)\n
     '''
 def buildRequest():
-    '''public LowLevelHttpRequest buildRequest(final String method, final String url)
+    '''returns LowLevelHttpRequest\n\n
+    buildRequest(final String method, final String url)\n
     '''
 def execute():
-    '''public LowLevelHttpResponse execute()
+    '''returns LowLevelHttpResponse\n\n
+    execute()\n
     '''

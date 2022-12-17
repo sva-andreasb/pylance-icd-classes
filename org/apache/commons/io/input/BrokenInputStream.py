@@ -1,19 +1,21 @@
-def BrokenInputStream():
-    '''public BrokenInputStream(final IOException exception)
-    public BrokenInputStream()
+def ():
+    '''returns BrokenInputStream\n\n
+    (final IOException exception)\n
+    ()\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def skip():
-    '''public long skip(final long n)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

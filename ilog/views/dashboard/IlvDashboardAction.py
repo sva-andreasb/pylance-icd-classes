@@ -1,41 +1,48 @@
 def perform():
-    '''public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, IlvDiagrammer currentDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer parent)
+    '''returns None\n\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, IlvDiagrammer currentDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer parent)\n
     '''
 def redo():
-    '''public void redo()
-    public void redo()
+    '''returns None\n\n
+    redo()\n
+    redo()\n
     '''
 def undo():
-    '''public void undo()
-    public void undo()
+    '''returns None\n\n
+    undo()\n
+    undo()\n
     '''
 def isSelectable():
-    '''public boolean isSelectable()
-    public boolean isSelectable()
-    public boolean isSelectable()
-    public boolean isSelectable()
-    public boolean isSelectable()
-    public boolean isSelectable()
+    '''returns boolean\n\n
+    isSelectable()\n
+    isSelectable()\n
+    isSelectable()\n
+    isSelectable()\n
+    isSelectable()\n
+    isSelectable()\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''

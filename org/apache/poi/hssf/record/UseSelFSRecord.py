@@ -1,17 +1,22 @@
 sid = "short  352"
-def UseSelFSRecord():
-    '''public UseSelFSRecord(final RecordInputStream in)
-    public UseSelFSRecord(final boolean b)
+def ():
+    '''returns UseSelFSRecord\n\n
+    (final RecordInputStream in)\n
+    (final boolean b)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

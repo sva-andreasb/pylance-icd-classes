@@ -1,5 +1,6 @@
-def MullerSolver():
-    '''public MullerSolver()
-    public MullerSolver(final double absoluteAccuracy)
-    public MullerSolver(final double relativeAccuracy, final double absoluteAccuracy)
+def ():
+    '''returns MullerSolver\n\n
+    ()\n
+    (final double absoluteAccuracy)\n
+    (final double relativeAccuracy, final double absoluteAccuracy)\n
     '''

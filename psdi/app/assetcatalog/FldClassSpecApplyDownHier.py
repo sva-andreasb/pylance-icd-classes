@@ -1,3 +1,4 @@
-def FldClassSpecApplyDownHier():
-    '''public FldClassSpecApplyDownHier(final MboValue mbv)
+def ():
+    '''returns FldClassSpecApplyDownHier\n\n
+    (final MboValue mbv)\n
     '''

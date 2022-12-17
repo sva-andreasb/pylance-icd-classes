@@ -1,15 +1,20 @@
 def getHttpResponse():
-    '''public HttpResponseMessage getHttpResponse()
+    '''returns HttpResponseMessage\n\n
+    getHttpResponse()\n
     '''
 def getBodyAsStream():
-    '''public InputStream getBodyAsStream()
+    '''returns InputStream\n\n
+    getBodyAsStream()\n
     '''
 def getBodyEncoding():
-    '''public String getBodyEncoding()
+    '''returns String\n\n
+    getBodyEncoding()\n
     '''
 def requireParameters():
-    '''public void requireParameters(final String... names)
+    '''returns None\n\n
+    requireParameters(final String... names)\n
     '''
 def toOAuthProblemException():
-    '''public OAuthProblemException toOAuthProblemException()
+    '''returns OAuthProblemException\n\n
+    toOAuthProblemException()\n
     '''

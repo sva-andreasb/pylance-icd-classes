@@ -1,18 +1,24 @@
-def TloamCreateItemMasterSet():
-    '''public TloamCreateItemMasterSet(final MboServerInterface ms)
+def ():
+    '''returns TloamCreateItemMasterSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setSoftwareCatalog():
-    '''public void setSoftwareCatalog(final boolean onListTab, final MboSetRemote mboSet)
+    '''returns None\n\n
+    setSoftwareCatalog(final boolean onListTab, final MboSetRemote mboSet)\n
     '''
 def applyItemDefaults():
-    '''public void applyItemDefaults(final TloamItemDfltSetRemote tloamItemDfltSet)
+    '''returns None\n\n
+    applyItemDefaults(final TloamItemDfltSetRemote tloamItemDfltSet)\n
     '''
 def getItemNum():
-    '''public String getItemNum(final String attributeValue, final int itemNumLength)
+    '''returns String\n\n
+    getItemNum(final String attributeValue, final int itemNumLength)\n
     '''

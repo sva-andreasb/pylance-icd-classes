@@ -1,6 +1,8 @@
-def FldInventoryStagedQty():
-    '''public FldInventoryStagedQty(final MboValue mbv)
+def ():
+    '''returns FldInventoryStagedQty\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -1,52 +1,57 @@
-def MXApplyTransactions():
-    '''public MXApplyTransactions()
+def ():
+    '''returns MXApplyTransactions\n\n
+    ()\n
     '''
 def setOverWrite():
-    '''public void setOverWrite(final boolean b)
+    '''returns None\n\n
+    setOverWrite(final boolean b)\n
     '''
 def setSourceApp():
-    '''public void setSourceApp(final String s)
+    '''returns None\n\n
+    setSourceApp(final String s)\n
     '''
 def setTargetApp():
-    '''public void setTargetApp(final String s)
+    '''returns None\n\n
+    setTargetApp(final String s)\n
     '''
 def setConnection():
-    '''public void setConnection(final Connection c)
+    '''returns None\n\n
+    setConnection(final Connection c)\n
     '''
 def openTransactionDocument():
-    '''public void openTransactionDocument(final String filename)
+    '''returns None\n\n
+    openTransactionDocument(final String filename)\n
     '''
 def setTransactionStream():
-    '''public void setTransactionStream(final String filename)
-    public void setTransactionStream(final InputStream is)
+    '''returns None\n\n
+    setTransactionStream(final String filename)\n
+    setTransactionStream(final InputStream is)\n
     '''
 def setUpdateLabels():
-    '''public void setUpdateLabels(final boolean b)
+    '''returns None\n\n
+    setUpdateLabels(final boolean b)\n
     '''
 def setDebug():
-    '''public void setDebug(final boolean b)
+    '''returns None\n\n
+    setDebug(final boolean b)\n
     '''
 def ADD():
-    '''public void ADD(final Element app, final Element xact)
+    '''returns None\n\n
+    ADD(final Element app, final Element xact)\n
     '''
 def MODIFY():
-    '''public void MODIFY(final Element app, final Element xact)
+    '''returns None\n\n
+    MODIFY(final Element app, final Element xact)\n
     '''
 def MOVE():
-    '''public void MOVE(final Element app, final Element xact)
+    '''returns None\n\n
+    MOVE(final Element app, final Element xact)\n
     '''
 def REMOVE():
-    '''public void REMOVE(final Element app, final Element xact)
+    '''returns None\n\n
+    REMOVE(final Element app, final Element xact)\n
     '''
 def applyTransactions():
-    '''public void applyTransactions()
-    '''
-def applyScreenUpdates():
-    '''public static void applyScreenUpdates(final Connection con2, final InputStream fileStrm, final PrintStream tmpOut, final String filename)
-    public static void applyScreenUpdates(final Connection con2, final InputStream fileStrm, final PrintStream tmpOut)
-    public static void applyScreenUpdates(final Connection con2, final String targetApp, final String sourceApp, final InputStream fileStrm, final PrintStream tmpOut, final String filename)
-    public static void applyScreenUpdates(final Connection con2, final String targetApp, final String sourceApp, final InputStream fileStrm, final PrintStream tmpOut)
-    '''
-def main():
-    '''public static void main(final String[] argv)
+    '''returns None\n\n
+    applyTransactions()\n
     '''

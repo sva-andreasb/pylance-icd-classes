@@ -1,41 +1,46 @@
-def CdmSAXParser():
-    '''public CdmSAXParser(final String namingRulesLocation)
+def ():
+    '''returns FoundVersionException\n\n
+    (final String namingRulesLocation)\n
+    (final String message)\n
     '''
 def getNamingRulesVersion():
-    '''public String getNamingRulesVersion(final String namingRulesLocation)
-    public String getNamingRulesVersion(final MetadataService metaService)
+    '''returns String\n\n
+    getNamingRulesVersion(final String namingRulesLocation)\n
+    getNamingRulesVersion(final MetadataService metaService)\n
     '''
 def getNextNamingPolicy():
-    '''public NamingPolicy getNextNamingPolicy(final String duplicateClassName)
+    '''returns NamingPolicy\n\n
+    getNextNamingPolicy(final String duplicateClassName)\n
     '''
 def containsMultipleSuperiors():
-    '''public boolean containsMultipleSuperiors(final String classType)
-    '''
-def loadNamingRules():
-    '''public final void loadNamingRules()
+    '''returns boolean\n\n
+    containsMultipleSuperiors(final String classType)\n
     '''
 def getNamingPolicyForClass():
-    '''public NamingPolicy getNamingPolicyForClass(final String className)
+    '''returns NamingPolicy\n\n
+    getNamingPolicyForClass(final String className)\n
     '''
 def isSuperiorClass():
-    '''public boolean isSuperiorClass(final String className)
+    '''returns boolean\n\n
+    isSuperiorClass(final String className)\n
     '''
 def isParent():
-    '''public boolean isParent(final String parentClass, final String childClass)
+    '''returns boolean\n\n
+    isParent(final String parentClass, final String childClass)\n
     '''
 def isIdentifyingAttribute():
-    '''public boolean isIdentifyingAttribute(final String classType, final String attribute)
+    '''returns boolean\n\n
+    isIdentifyingAttribute(final String classType, final String attribute)\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String qName, final Attributes attributes)
-    public void startElement(final String uri, final String localName, final String qName, final Attributes attributes)
-    public void startElement(final String uri, final String localName, final String qName, final Attributes attributes)
-    public void startElement(final String uri, final String localName, final String qName, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String qName, final Attributes attributes)\n
+    startElement(final String uri, final String localName, final String qName, final Attributes attributes)\n
+    startElement(final String uri, final String localName, final String qName, final Attributes attributes)\n
+    startElement(final String uri, final String localName, final String qName, final Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String localName, final String qName)
-    public void endElement(final String uri, final String localName, final String qName)
-    '''
-def FoundVersionException():
-    '''public FoundVersionException(final String message)
+    '''returns None\n\n
+    endElement(final String uri, final String localName, final String qName)\n
+    endElement(final String uri, final String localName, final String qName)\n
     '''

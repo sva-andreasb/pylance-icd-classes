@@ -1,9 +1,12 @@
-def StreamManagementTest():
-    '''public StreamManagementTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns StreamManagementTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def connectionCallback():
-    '''public void connectionCallback(final XMPPTCPConnection connection)
+    '''returns None\n\n
+    connectionCallback(final XMPPTCPConnection connection)\n
     '''
 def testStreamManagement():
-    '''public void testStreamManagement(final XMPPTCPConnection conOne, final XMPPTCPConnection conTwo)
+    '''returns None\n\n
+    testStreamManagement(final XMPPTCPConnection conOne, final XMPPTCPConnection conTwo)\n
     '''

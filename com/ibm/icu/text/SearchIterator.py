@@ -1,58 +1,53 @@
 DONE = "int  -1"
 def setIndex():
-    '''public void setIndex(final int position)
+    '''returns None\n\n
+    setIndex(final int position)\n
     '''
 def setOverlapping():
-    '''public void setOverlapping(final boolean allowOverlap)
+    '''returns None\n\n
+    setOverlapping(final boolean allowOverlap)\n
     '''
 def setBreakIterator():
-    '''public void setBreakIterator(final BreakIterator breakiter)
+    '''returns None\n\n
+    setBreakIterator(final BreakIterator breakiter)\n
     '''
 def setTarget():
-    '''public void setTarget(final CharacterIterator text)
+    '''returns None\n\n
+    setTarget(final CharacterIterator text)\n
     '''
 def getMatchStart():
-    '''public int getMatchStart()
+    '''returns int\n\n
+    getMatchStart()\n
     '''
 def getMatchLength():
-    '''public int getMatchLength()
+    '''returns int\n\n
+    getMatchLength()\n
     '''
 def getBreakIterator():
-    '''public BreakIterator getBreakIterator()
+    '''returns BreakIterator\n\n
+    getBreakIterator()\n
     '''
 def getTarget():
-    '''public CharacterIterator getTarget()
+    '''returns CharacterIterator\n\n
+    getTarget()\n
     '''
 def getMatchedText():
-    '''public String getMatchedText()
+    '''returns String\n\n
+    getMatchedText()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def previous():
-    '''public int previous()
+    '''returns int\n\n
+    previous()\n
     '''
 def isOverlapping():
-    '''public boolean isOverlapping()
+    '''returns boolean\n\n
+    isOverlapping()\n
     '''
 def reset():
-    '''public void reset()
-    '''
-def first():
-    '''public final int first()
-    '''
-def following():
-    '''public final int following(final int position)
-    '''
-def last():
-    '''public final int last()
-    '''
-def preceding():
-    '''public final int preceding(final int position)
-    '''
-def setElementComparisonType():
-    '''public void setElementComparisonType(final ElementComparisonType type)
-    '''
-def getElementComparisonType():
-    '''public ElementComparisonType getElementComparisonType()
+    '''returns None\n\n
+    reset()\n
     '''

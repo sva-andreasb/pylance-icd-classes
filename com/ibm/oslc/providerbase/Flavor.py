@@ -1,12 +1,16 @@
 def getFlavorId():
-    '''public String getFlavorId()
+    '''returns String\n\n
+    getFlavorId()\n
     '''
 def setFlavorId():
-    '''public void setFlavorId(final String flavorId)
+    '''returns None\n\n
+    setFlavorId(final String flavorId)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''

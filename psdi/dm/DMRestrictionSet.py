@@ -1,3 +1,4 @@
-def DMRestrictionSet():
-    '''public DMRestrictionSet(final MboServerInterface ms)
+def ():
+    '''returns DMRestrictionSet\n\n
+    (final MboServerInterface ms)\n
     '''

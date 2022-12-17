@@ -1,12 +1,16 @@
-def ExternalServiceBean():
-    '''public ExternalServiceBean()
+def ():
+    '''returns ExternalServiceBean\n\n
+    ()\n
     '''
 def invokeservice():
-    '''public int invokeservice()
+    '''returns int\n\n
+    invokeservice()\n
     '''
 def applychanges():
-    '''public int applychanges()
+    '''returns int\n\n
+    applychanges()\n
     '''
 def silentmode():
-    '''public int silentmode()
+    '''returns int\n\n
+    silentmode()\n
     '''

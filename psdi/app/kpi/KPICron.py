@@ -1,9 +1,12 @@
-def KPICron():
-    '''public KPICron()
+def ():
+    '''returns KPICron\n\n
+    ()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''

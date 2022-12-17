@@ -1,105 +1,140 @@
 def addValidator():
-    '''public void addValidator(final Validator validator)
+    '''returns None\n\n
+    addValidator(final Validator validator)\n
     '''
 def addValueChangeListener():
-    '''public void addValueChangeListener(final ValueChangeListener valueChangeListener)
+    '''returns None\n\n
+    addValueChangeListener(final ValueChangeListener valueChangeListener)\n
     '''
 def clearDecodedPropertyMap():
-    '''public void clearDecodedPropertyMap()
+    '''returns None\n\n
+    clearDecodedPropertyMap()\n
     '''
 def findComponent():
-    '''public UIComponent findComponent(final String s)
+    '''returns UIComponent\n\n
+    findComponent(final String s)\n
     '''
 def getCursor():
-    '''public String getCursor()
+    '''returns String\n\n
+    getCursor()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getLocalValue():
-    '''public Object getLocalValue()
+    '''returns Object\n\n
+    getLocalValue()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getSubmittedValue():
-    '''public Object getSubmittedValue()
+    '''returns Object\n\n
+    getSubmittedValue()\n
     '''
 def getValidator():
-    '''public MethodBinding getValidator()
+    '''returns MethodBinding\n\n
+    getValidator()\n
     '''
 def getValidators():
-    '''public Validator[] getValidators()
+    '''returns Validator[]\n\n
+    getValidators()\n
     '''
 def getViewId():
-    '''public String getViewId()
+    '''returns String\n\n
+    getViewId()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isAutoSubmit():
-    '''public boolean isAutoSubmit()
+    '''returns boolean\n\n
+    isAutoSubmit()\n
     '''
 def isPartialSubmit():
-    '''public boolean isPartialSubmit()
+    '''returns boolean\n\n
+    isPartialSubmit()\n
     '''
 def isDecodedProperty():
-    '''public boolean isDecodedProperty(final String s)
+    '''returns boolean\n\n
+    isDecodedProperty(final String s)\n
     '''
 def isImmediate():
-    '''public boolean isImmediate()
+    '''returns boolean\n\n
+    isImmediate()\n
     '''
 def isLocalValueSet():
-    '''public boolean isLocalValueSet()
+    '''returns boolean\n\n
+    isLocalValueSet()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def removeValidator():
-    '''public void removeValidator(final Validator validator)
+    '''returns None\n\n
+    removeValidator(final Validator validator)\n
     '''
 def removeValueChangeListener():
-    '''public void removeValueChangeListener(final ValueChangeListener valueChangeListener)
+    '''returns None\n\n
+    removeValueChangeListener(final ValueChangeListener valueChangeListener)\n
     '''
 def resetDecodedProperties():
-    '''public void resetDecodedProperties()
+    '''returns None\n\n
+    resetDecodedProperties()\n
     '''
 def setAutoSubmit():
-    '''public void setAutoSubmit(final boolean b)
+    '''returns None\n\n
+    setAutoSubmit(final boolean b)\n
     '''
 def setPartialSubmit():
-    '''public void setPartialSubmit(final boolean b)
+    '''returns None\n\n
+    setPartialSubmit(final boolean b)\n
     '''
 def setCursor():
-    '''public void setCursor(final String s)
+    '''returns None\n\n
+    setCursor(final String s)\n
     '''
 def setDecodedProperty():
-    '''public void setDecodedProperty(final String s)
+    '''returns None\n\n
+    setDecodedProperty(final String s)\n
     '''
 def setImmediate():
-    '''public void setImmediate(final boolean b)
+    '''returns None\n\n
+    setImmediate(final boolean b)\n
     '''
 def setMessage():
-    '''public void setMessage(final String s)
+    '''returns None\n\n
+    setMessage(final String s)\n
     '''
 def setValid():
-    '''public void setValid(final boolean b)
+    '''returns None\n\n
+    setValid(final boolean b)\n
     '''
 def setValidator():
-    '''public void setValidator(final MethodBinding methodBinding)
+    '''returns None\n\n
+    setValidator(final MethodBinding methodBinding)\n
     '''
 def setViewId():
-    '''public void setViewId(final String s)
+    '''returns None\n\n
+    setViewId(final String s)\n
     '''
 def updateModel():
-    '''public void updateModel(final FacesContext facesContext)
+    '''returns None\n\n
+    updateModel(final FacesContext facesContext)\n
     '''
 def getValueChangeListener():
-    '''public MethodBinding getValueChangeListener()
+    '''returns MethodBinding\n\n
+    getValueChangeListener()\n
     '''
 def getValueChangeListeners():
-    '''public ValueChangeListener[] getValueChangeListeners()
+    '''returns ValueChangeListener[]\n\n
+    getValueChangeListeners()\n
     '''
 def setValueChangeListener():
-    '''public void setValueChangeListener(final MethodBinding methodBinding)
+    '''returns None\n\n
+    setValueChangeListener(final MethodBinding methodBinding)\n
     '''

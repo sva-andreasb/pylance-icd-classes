@@ -1,3 +1,4 @@
-def CompCommoditySet():
-    '''public CompCommoditySet(final MboServerInterface ms)
+def ():
+    '''returns CompCommoditySet\n\n
+    (final MboServerInterface ms)\n
     '''

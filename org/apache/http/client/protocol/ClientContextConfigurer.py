@@ -1,15 +1,20 @@
-def ClientContextConfigurer():
-    '''public ClientContextConfigurer(final HttpContext context)
+def ():
+    '''returns ClientContextConfigurer\n\n
+    (final HttpContext context)\n
     '''
 def setCookieSpecRegistry():
-    '''public void setCookieSpecRegistry(final CookieSpecRegistry registry)
+    '''returns None\n\n
+    setCookieSpecRegistry(final CookieSpecRegistry registry)\n
     '''
 def setAuthSchemeRegistry():
-    '''public void setAuthSchemeRegistry(final AuthSchemeRegistry registry)
+    '''returns None\n\n
+    setAuthSchemeRegistry(final AuthSchemeRegistry registry)\n
     '''
 def setCookieStore():
-    '''public void setCookieStore(final CookieStore store)
+    '''returns None\n\n
+    setCookieStore(final CookieStore store)\n
     '''
 def setCredentialsProvider():
-    '''public void setCredentialsProvider(final CredentialsProvider provider)
+    '''returns None\n\n
+    setCredentialsProvider(final CredentialsProvider provider)\n
     '''

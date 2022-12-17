@@ -1,3 +1,4 @@
-def ExpConditionSet():
-    '''public ExpConditionSet(final MboServerInterface ms)
+def ():
+    '''returns ExpConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''

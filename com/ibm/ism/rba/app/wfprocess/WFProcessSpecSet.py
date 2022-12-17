@@ -1,3 +1,4 @@
-def WFProcessSpecSet():
-    '''public WFProcessSpecSet(final MboServerInterface ms)
+def ():
+    '''returns WFProcessSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''

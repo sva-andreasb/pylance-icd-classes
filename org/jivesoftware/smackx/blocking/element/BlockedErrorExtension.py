@@ -1,17 +1,14 @@
 ELEMENT = "String  \"blocked\""
 NAMESPACE = "String  \"urn:xmpp:blocking:errors\""
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static BlockedErrorExtension from(final Message message)
-    '''
-def isInside():
-    '''public static boolean isInside(final Message message)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''

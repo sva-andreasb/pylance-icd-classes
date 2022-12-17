@@ -20,13 +20,12 @@ XMLNS_TNS_ATTRIBUTE = "String  \"xmlns:tns\""
 XMLNS_XSI_ATTRIBUTE = "String  \"xmlns:xsi\""
 XSI_SCHEMA_LOCATION_ATTRIBUTE = "String  \"xsi:schemaLocation\""
 INFOURL_ATTRIBUTE = "String  \"infourl\""
-def main():
-    '''public static void main(final String[] args)
-    '''
 def createPackageDocument():
-    '''public void createPackageDocument(final File contentSourceDir, final File[] dataDirContents)
-    public void createPackageDocument(final File file, final String mainTagName, final String tagName, final Map<String, TreeMap<String, String>> attributes)
+    '''returns None\n\n
+    createPackageDocument(final File contentSourceDir, final File[] dataDirContents)\n
+    createPackageDocument(final File file, final String mainTagName, final String tagName, final Map<String, TreeMap<String, String>> attributes)\n
     '''
 def updateDatabase():
-    '''public void updateDatabase(final String description, final String url)
+    '''returns None\n\n
+    updateDatabase(final String description, final String url)\n
     '''

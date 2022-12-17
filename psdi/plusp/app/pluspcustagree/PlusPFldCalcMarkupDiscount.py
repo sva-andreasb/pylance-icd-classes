@@ -1,12 +1,16 @@
-def PlusPFldCalcMarkupDiscount():
-    '''public PlusPFldCalcMarkupDiscount(final MboValue mbv)
+def ():
+    '''returns PlusPFldCalcMarkupDiscount\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

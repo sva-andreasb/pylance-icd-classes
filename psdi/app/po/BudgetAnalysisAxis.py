@@ -1,27 +1,36 @@
-def BudgetAnalysisAxis():
-    '''public BudgetAnalysisAxis(final MboSet ms)
+def ():
+    '''returns BudgetAnalysisAxis\n\n
+    (final MboSet ms)\n
     '''
 def getBudgetAnalysisAxisNum():
-    '''public String getBudgetAnalysisAxisNum()
+    '''returns String\n\n
+    getBudgetAnalysisAxisNum()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def getDescriptionAttributeName():
-    '''public String getDescriptionAttributeName()
+    '''returns String\n\n
+    getDescriptionAttributeName()\n
     '''
 def getCondition():
-    '''public MaxCondition getCondition()
+    '''returns MaxCondition\n\n
+    getCondition()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

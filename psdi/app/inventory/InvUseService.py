@@ -1,13 +1,17 @@
-def InvUseService():
-    '''public InvUseService()
-    public InvUseService(final MXServer mxServer)
+def ():
+    '''returns InvUseService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("INVUSE") final InvUseRemote invuse, final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("INVUSE") final InvUseRemote invuse, final String status, final Date date, final String memo)\n
     '''
 def createShipmentReceipt():
-    '''public MboRemote createShipmentReceipt(final UserInfo userInfo, final MboSetRemote receiptSet, final String shipmentnum, final long shipmentlinenum, final String ownersysid, final String siteid)
+    '''returns MboRemote\n\n
+    createShipmentReceipt(final UserInfo userInfo, final MboSetRemote receiptSet, final String shipmentnum, final long shipmentlinenum, final String ownersysid, final String siteid)\n
     '''
 def createShipmentReturn():
-    '''public MboRemote createShipmentReturn(final UserInfo userInfo, final MboSetRemote receiptSet, final String shipmentnum, final long shipmentlinenum, final String ownersysid, final String siteid)
+    '''returns MboRemote\n\n
+    createShipmentReturn(final UserInfo userInfo, final MboSetRemote receiptSet, final String shipmentnum, final long shipmentlinenum, final String ownersysid, final String siteid)\n
     '''

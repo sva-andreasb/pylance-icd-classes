@@ -1,9 +1,12 @@
-def ListUnmarshaller():
-    '''public ListUnmarshaller(final Unmarshaller<T, JsonUnmarshallerContext> itemUnmarshaller)
+def ():
+    '''returns ListUnmarshaller\n\n
+    (final Unmarshaller<T, JsonUnmarshallerContext> itemUnmarshaller)\n
     '''
 def unmarshall():
-    '''public List<T> unmarshall(final JsonUnmarshallerContext context)
+    '''returns List<T>\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''
 def readText():
-    '''public String readText()
+    '''returns String\n\n
+    readText()\n
     '''

@@ -1,22 +1,28 @@
-def CommonsCompressAction():
-    '''public CommonsCompressAction(final String name, final File source, final File destination, final boolean deleteSource)
+def ():
+    '''returns CommonsCompressAction\n\n
+    (final String name, final File source, final File destination, final boolean deleteSource)\n
     '''
 def execute():
-    '''public boolean execute()
-    public static boolean execute(final String name, final File source, final File destination, final boolean deleteSource)
+    '''returns boolean\n\n
+    execute()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSource():
-    '''public File getSource()
+    '''returns File\n\n
+    getSource()\n
     '''
 def getDestination():
-    '''public File getDestination()
+    '''returns File\n\n
+    getDestination()\n
     '''
 def isDeleteSource():
-    '''public boolean isDeleteSource()
+    '''returns boolean\n\n
+    isDeleteSource()\n
     '''

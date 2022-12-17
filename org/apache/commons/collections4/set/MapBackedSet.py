@@ -1,47 +1,56 @@
-def mapBackedSet():
-    '''public static <E, V> MapBackedSet<E, V> mapBackedSet(final Map<E, ? super V> map)
-    public static <E, V> MapBackedSet<E, V> mapBackedSet(final Map<E, ? super V> map, final V dummyValue)
-    '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def contains():
-    '''public boolean contains(final Object obj)
+    '''returns boolean\n\n
+    contains(final Object obj)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def add():
-    '''public boolean add(final E obj)
+    '''returns boolean\n\n
+    add(final E obj)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
     '''
 def remove():
-    '''public boolean remove(final Object obj)
+    '''returns boolean\n\n
+    remove(final Object obj)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] array)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

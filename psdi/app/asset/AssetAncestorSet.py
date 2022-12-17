@@ -1,3 +1,4 @@
-def AssetAncestorSet():
-    '''public AssetAncestorSet(final MboServerInterface ms)
+def ():
+    '''returns AssetAncestorSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,20 +1,26 @@
 sid = "short  34"
-def DateWindow1904Record():
-    '''public DateWindow1904Record()
-    public DateWindow1904Record(final RecordInputStream in)
+def ():
+    '''returns DateWindow1904Record\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setWindowing():
-    '''public void setWindowing(final short window)
+    '''returns None\n\n
+    setWindowing(final short window)\n
     '''
 def getWindowing():
-    '''public short getWindowing()
+    '''returns short\n\n
+    getWindowing()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

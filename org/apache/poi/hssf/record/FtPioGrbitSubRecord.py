@@ -9,31 +9,40 @@ PRSTM_BIT = "int  32"
 CAMERA_BIT = "int  128"
 DEFAULT_SIZE_BIT = "int  256"
 AUTO_LOAD_BIT = "int  512"
-def FtPioGrbitSubRecord():
-    '''public FtPioGrbitSubRecord()
-    public FtPioGrbitSubRecord(final LittleEndianInput in, final int size)
+def ():
+    '''returns FtPioGrbitSubRecord\n\n
+    ()\n
+    (final LittleEndianInput in, final int size)\n
     '''
 def setFlagByBit():
-    '''public void setFlagByBit(final int bitmask, final boolean enabled)
+    '''returns None\n\n
+    setFlagByBit(final int bitmask, final boolean enabled)\n
     '''
 def getFlagByBit():
-    '''public boolean getFlagByBit(final int bitmask)
+    '''returns boolean\n\n
+    getFlagByBit(final int bitmask)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public FtPioGrbitSubRecord clone()
+    '''returns FtPioGrbitSubRecord\n\n
+    clone()\n
     '''
 def getFlags():
-    '''public short getFlags()
+    '''returns short\n\n
+    getFlags()\n
     '''
 def setFlags():
-    '''public void setFlags(final short flags)
+    '''returns None\n\n
+    setFlags(final short flags)\n
     '''

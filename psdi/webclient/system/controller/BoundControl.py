@@ -1,22 +1,29 @@
-def BoundControl():
-    '''public BoundControl(final String controlId)
+def ():
+    '''returns BoundControl\n\n
+    (final String controlId)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String dataAttribute, final BitFlag flags, final String defaultValue)
-    public void addAttribute(final psdi.webclient.system.controller.BoundAttribute boundAttribute)
+    '''returns None\n\n
+    addAttribute(final String dataAttribute, final BitFlag flags, final String defaultValue)\n
+    addAttribute(final psdi.webclient.system.controller.BoundAttribute boundAttribute)\n
     '''
 def clearAttributes():
-    '''public void clearAttributes()
+    '''returns None\n\n
+    clearAttributes()\n
     '''
 def getBoundAttributes():
-    '''public Iterator<BoundAttribute> getBoundAttributes()
+    '''returns Iterator<BoundAttribute>\n\n
+    getBoundAttributes()\n
     '''
 def getBoundAttribute():
-    '''public BoundAttribute getBoundAttribute(final String dataAttribute)
+    '''returns BoundAttribute\n\n
+    getBoundAttribute(final String dataAttribute)\n
     '''
 def getControlId():
-    '''public String getControlId()
+    '''returns String\n\n
+    getControlId()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

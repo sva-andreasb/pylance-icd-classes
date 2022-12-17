@@ -1,28 +1,37 @@
-def SortFilter():
-    '''public SortFilter()
-    public SortFilter(final Reader in)
+def ():
+    '''returns SortFilter\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''
 def isReverse():
-    '''public boolean isReverse()
+    '''returns boolean\n\n
+    isReverse()\n
     '''
 def setReverse():
-    '''public void setReverse(final boolean reverse)
+    '''returns None\n\n
+    setReverse(final boolean reverse)\n
     '''
 def getComparator():
-    '''public Comparator getComparator()
+    '''returns Comparator\n\n
+    getComparator()\n
     '''
 def setComparator():
-    '''public void setComparator(final Comparator comparator)
+    '''returns None\n\n
+    setComparator(final Comparator comparator)\n
     '''
 def add():
-    '''public void add(final Comparator comparator)
+    '''returns None\n\n
+    add(final Comparator comparator)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''

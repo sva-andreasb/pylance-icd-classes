@@ -1,34 +1,45 @@
-def S3ObjectIdBuilder():
-    '''public S3ObjectIdBuilder()
-    public S3ObjectIdBuilder(final S3ObjectId id)
+def ():
+    '''returns S3ObjectIdBuilder\n\n
+    ()\n
+    (final S3ObjectId id)\n
     '''
 def getBucket():
-    '''public String getBucket()
+    '''returns String\n\n
+    getBucket()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setBucket():
-    '''public void setBucket(final String bucket)
+    '''returns None\n\n
+    setBucket(final String bucket)\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
     '''
 def withBucket():
-    '''public S3ObjectIdBuilder withBucket(final String bucket)
+    '''returns S3ObjectIdBuilder\n\n
+    withBucket(final String bucket)\n
     '''
 def withKey():
-    '''public S3ObjectIdBuilder withKey(final String key)
+    '''returns S3ObjectIdBuilder\n\n
+    withKey(final String key)\n
     '''
 def withVersionId():
-    '''public S3ObjectIdBuilder withVersionId(final String versionId)
+    '''returns S3ObjectIdBuilder\n\n
+    withVersionId(final String versionId)\n
     '''
 def build():
-    '''public S3ObjectId build()
+    '''returns S3ObjectId\n\n
+    build()\n
     '''

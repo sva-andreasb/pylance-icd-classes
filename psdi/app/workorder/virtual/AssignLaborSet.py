@@ -1,21 +1,28 @@
-def AssignLaborSet():
-    '''public AssignLaborSet(final MboServerInterface ms)
+def ():
+    '''returns AssignLaborSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setFromSKD():
-    '''public void setFromSKD(final boolean fromSKD)
+    '''returns None\n\n
+    setFromSKD(final boolean fromSKD)\n
     '''
 def getFromSKD():
-    '''public boolean getFromSKD()
+    '''returns boolean\n\n
+    getFromSKD()\n
     '''
 def setRestrictLaborClause():
-    '''public void setRestrictLaborClause(final String restrictLaborClause)
+    '''returns None\n\n
+    setRestrictLaborClause(final String restrictLaborClause)\n
     '''
 def setWO():
-    '''public void setWO(final WO wo)
+    '''returns None\n\n
+    setWO(final WO wo)\n
     '''
 def getWO():
-    '''public WO getWO()
+    '''returns WO\n\n
+    getWO()\n
     '''
 def getLaborSet():
-    '''public MboSetRemote getLaborSet()
+    '''returns MboSetRemote\n\n
+    getLaborSet()\n
     '''

@@ -1,156 +1,191 @@
-def logError():
-    '''public static void logError(final String sourceMethod, final String msg, final Throwable cause)
-    '''
 def init():
-    '''public void init(final Connection connection, final String jdbcDriver, final String databaseUrl, final String userId, final String userPassword)
+    '''returns None\n\n
+    init(final Connection connection, final String jdbcDriver, final String databaseUrl, final String userId, final String userPassword)\n
     '''
 def initConnection():
-    '''public void initConnection(final String jdbcDriver, final String databaseUrl, final String schema, final String userId, final String userPassword)
+    '''returns None\n\n
+    initConnection(final String jdbcDriver, final String databaseUrl, final String schema, final String userId, final String userPassword)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def getModelLevel():
-    '''public String getModelLevel()
+    '''returns String\n\n
+    getModelLevel()\n
     '''
 def getClassTypes():
-    '''public HashMap[] getClassTypes(final String className)
-    public HashMap[] getClassTypes(final Guid classGuid)
+    '''returns HashMap[]\n\n
+    getClassTypes(final String className)\n
+    getClassTypes(final Guid classGuid)\n
     '''
 def getAttributeTypes():
-    '''public HashMap[] getAttributeTypes(final int type, final String name)
+    '''returns HashMap[]\n\n
+    getAttributeTypes(final int type, final String name)\n
     '''
 def getEnumerations():
-    '''public HashMap getEnumerations(final String[] enumNames)
+    '''returns HashMap\n\n
+    getEnumerations(final String[] enumNames)\n
     '''
 def getValidRelationships():
-    '''public HashMap[] getValidRelationships(final String relType, final String sourceClass, final String targetClass)
+    '''returns HashMap[]\n\n
+    getValidRelationships(final String relType, final String sourceClass, final String targetClass)\n
     '''
 def registerFederatedAttributes():
-    '''public void registerFederatedAttributes(final Guid mssGUID, final String[] federatedAttributes, final String namespace)
+    '''returns None\n\n
+    registerFederatedAttributes(final Guid mssGUID, final String[] federatedAttributes, final String namespace)\n
     '''
 def registerFederatedClasses():
-    '''public void registerFederatedClasses(final Guid mssGUID, final String[] federatedClasses)
+    '''returns None\n\n
+    registerFederatedClasses(final Guid mssGUID, final String[] federatedClasses)\n
     '''
 def registerFederatedRelationships():
-    '''public void registerFederatedRelationships(final Guid mssGUID, final String[] federatedRelationships)
+    '''returns None\n\n
+    registerFederatedRelationships(final Guid mssGUID, final String[] federatedRelationships)\n
     '''
 def getFederatedAttributes():
-    '''public HashMap getFederatedAttributes(final Guid mssGUID)
+    '''returns HashMap\n\n
+    getFederatedAttributes(final Guid mssGUID)\n
     '''
 def getFederatedClasses():
-    '''public HashMap getFederatedClasses(final Guid mssGUID)
+    '''returns HashMap\n\n
+    getFederatedClasses(final Guid mssGUID)\n
     '''
 def getFederatedRelationships():
-    '''public HashMap getFederatedRelationships(final Guid mssGUID)
+    '''returns HashMap\n\n
+    getFederatedRelationships(final Guid mssGUID)\n
     '''
 def setAttributePriorities():
-    '''public void setAttributePriorities(final HashMap attributePriorities, final Guid[] mssGuids)
+    '''returns None\n\n
+    setAttributePriorities(final HashMap attributePriorities, final Guid[] mssGuids)\n
     '''
 def getAttributePriorities():
-    '''public HashMap getAttributePriorities(final String[] attributeTypes)
+    '''returns HashMap\n\n
+    getAttributePriorities(final String[] attributeTypes)\n
     '''
 def getParentClasses():
-    '''public Guid[] getParentClasses(final Guid classGuid)
-    public String[] getParentClasses(final String className)
+    '''returns String[]\n\n
+    getParentClasses(final Guid classGuid)\n
+    getParentClasses(final String className)\n
     '''
 def hasMetadataChanged():
-    '''public boolean hasMetadataChanged(final Date since)
+    '''returns boolean\n\n
+    hasMetadataChanged(final Date since)\n
     '''
 def register():
-    '''public Guid[] register(final Guid mssGuid, final HashMap[] attributeMaps)
+    '''returns Guid[]\n\n
+    register(final Guid mssGuid, final HashMap[] attributeMaps)\n
     '''
 def convergeMasters():
-    '''public void convergeMasters(final Guid masterGuid1, final Guid masterGuid2)
+    '''returns None\n\n
+    convergeMasters(final Guid masterGuid1, final Guid masterGuid2)\n
     '''
 def isMatch():
-    '''public boolean isMatch(final String nameUri)
-    public boolean isMatch(final Guid guid1, final Guid guid2)
+    '''returns boolean\n\n
+    isMatch(final String nameUri)\n
+    isMatch(final Guid guid1, final Guid guid2)\n
     '''
 def getAliases():
-    '''public Guid[] getAliases(final Guid masterGuid)
-    public Map<Guid, List<Guid>> getAliases(final Guid[] masterGuids)
-    public Guid[] getAliases(final String masterNameUri)
+    '''returns Guid[]\n\n
+    getAliases(final Guid masterGuid)\n
+    getAliases(final String masterNameUri)\n
     '''
 def getMaster():
-    '''public Guid getMaster(final Guid aliasGuid)
-    public Guid getMaster(final String aliasNameUri)
+    '''returns Guid\n\n
+    getMaster(final Guid aliasGuid)\n
+    getMaster(final String aliasNameUri)\n
     '''
 def getMasterAndAliases():
-    '''public Guid[] getMasterAndAliases(final Guid guid)
-    public Guid[] getMasterAndAliases(final String masterNameUri)
+    '''returns Guid[]\n\n
+    getMasterAndAliases(final Guid guid)\n
+    getMasterAndAliases(final String masterNameUri)\n
     '''
 def getNames():
-    '''public NrsMasterAliasInfo[] getNames(final Guid[] guids)
+    '''returns NrsMasterAliasInfo[]\n\n
+    getNames(final Guid[] guids)\n
     '''
 def getDuplicates():
-    '''public NrsDuplicateInfo[] getDuplicates(final String classType, final Date date)
+    '''returns NrsDuplicateInfo[]\n\n
+    getDuplicates(final String classType, final Date date)\n
     '''
 def deleteDuplicates():
-    '''public void deleteDuplicates(final String classType, final Date date)
+    '''returns None\n\n
+    deleteDuplicates(final String classType, final Date date)\n
     '''
 def registerMSS():
-    '''public Guid registerMSS(final HashMap mss)
+    '''returns Guid\n\n
+    registerMSS(final HashMap mss)\n
     '''
 def addRelationships():
-    '''public int[] addRelationships(final Guid mssGuid, final HashMap[] relationships)
+    '''returns int[]\n\n
+    addRelationships(final Guid mssGuid, final HashMap[] relationships)\n
     '''
 def registerRelationships():
-    '''public Guid[] registerRelationships(final Guid mssGuid, final HashMap[] relationships)
+    '''returns Guid[]\n\n
+    registerRelationships(final Guid mssGuid, final HashMap[] relationships)\n
     '''
 def getGuid():
-    '''public Guid getGuid(final Guid mssGuid, final String sourceToken)
+    '''returns Guid\n\n
+    getGuid(final Guid mssGuid, final String sourceToken)\n
     '''
 def getMSS():
-    '''public HashMap[] getMSS(final Date date)
+    '''returns HashMap[]\n\n
+    getMSS(final Date date)\n
     '''
 def get():
-    '''public HashMap[] get(final String mssName, final HashMap resourceFilter, final int scope)
-    public HashMap[] get(final Guid mssGuid, final HashMap resourceFilter, final int scope)
-    public HashMap[][] get(final String mssName, final HashMap[] resourceFilters, final int scope)
-    public HashMap[][] get(final Guid mssGuid, final HashMap[] resourceFilters, final int scope)
+    '''returns HashMap[][]\n\n
+    get(final String mssName, final HashMap resourceFilter, final int scope)\n
+    get(final Guid mssGuid, final HashMap resourceFilter, final int scope)\n
+    get(final String mssName, final HashMap[] resourceFilters, final int scope)\n
+    get(final Guid mssGuid, final HashMap[] resourceFilters, final int scope)\n
     '''
 def getManagedElements():
-    '''public HashMap[] getManagedElements(final String classType, final Date date)
+    '''returns HashMap[]\n\n
+    getManagedElements(final String classType, final Date date)\n
     '''
 def getSourceToken():
-    '''public String getSourceToken(final Guid mssGuid, final Guid meGuid)
+    '''returns String\n\n
+    getSourceToken(final Guid mssGuid, final Guid meGuid)\n
     '''
 def getSourceTokens():
-    '''public HashMap[] getSourceTokens(final Guid mssGuid, final Date date)
+    '''returns HashMap[]\n\n
+    getSourceTokens(final Guid mssGuid, final Date date)\n
     '''
 def getRelationships():
-    '''public HashMap[] getRelationships(final String relationshipType, final String sourceClass, final String targetClass, final Date date)
+    '''returns HashMap[]\n\n
+    getRelationships(final String relationshipType, final String sourceClass, final String targetClass, final Date date)\n
     '''
 def delete():
-    '''public void delete(final Guid mssGuid, final Guid[] guids)
+    '''returns None\n\n
+    delete(final Guid mssGuid, final Guid[] guids)\n
     '''
 def deleteMSS():
-    '''public void deleteMSS(final Guid mssGuid)
+    '''returns None\n\n
+    deleteMSS(final Guid mssGuid)\n
     '''
 def getDeleted():
-    '''public Guid[] getDeleted(final String classType, final Date date)
+    '''returns Guid[]\n\n
+    getDeleted(final String classType, final Date date)\n
     '''
 def removeStale():
-    '''public void removeStale(final Guid mssGuid, final Date date)
+    '''returns None\n\n
+    removeStale(final Guid mssGuid, final Date date)\n
     '''
 def update():
-    '''public void update(final Guid mssGuid, final HashMap[] attributeMaps)
+    '''returns None\n\n
+    update(final Guid mssGuid, final HashMap[] attributeMaps)\n
     '''
 def updateMSS():
-    '''public void updateMSS(final HashMap mss)
+    '''returns None\n\n
+    updateMSS(final HashMap mss)\n
     '''
 def deleteRelationships():
-    '''public void deleteRelationships(final Guid mssGuid, final HashMap filter)
-    public void deleteRelationships(final Guid mssGuid, final HashMap[] relationships)
-    '''
-def getAllNames():
-    '''public Map<Guid, Map<Guid, String>> getAllNames(final Guid[] guids)
-    '''
-def getAllGuids():
-    '''public Map<Guid, Set<Guid>> getAllGuids(final Guid[] guids)
+    '''returns None\n\n
+    deleteRelationships(final Guid mssGuid, final HashMap filter)\n
+    deleteRelationships(final Guid mssGuid, final HashMap[] relationships)\n
     '''
 def registerAbstractResources():
-    '''public Guid[] registerAbstractResources(final String mssName, final Map<String, Object>[] attributeMaps)
-    public Guid[] registerAbstractResources(final Guid mssGuid, final Map<String, Object>[] attributeMaps)
+    '''returns Guid[]\n\n
+    registerAbstractResources(final String mssName, final Map<String, Object>[] attributeMaps)\n
+    registerAbstractResources(final Guid mssGuid, final Map<String, Object>[] attributeMaps)\n
     '''

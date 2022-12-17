@@ -1,54 +1,55 @@
-def STSession():
-    '''public STSession()
-    public STSession(final String s)
-    public STSession(final String s, final boolean swingThreadingEnabled)
-    public STSession(final String name, final DispatchingThreadPool dispatchingThreadPool)
-    '''
-def addComponentListener():
-    '''public synchronized void addComponentListener(final ComponentListener obj)
-    '''
-def removeComponentListener():
-    '''public synchronized void removeComponentListener(final ComponentListener obj)
+def ():
+    '''returns STSession\n\n
+    ()\n
+    (final String s)\n
+    (final String s, final boolean swingThreadingEnabled)\n
+    (final String name, final DispatchingThreadPool dispatchingThreadPool)\n
     '''
 def getDispatcher():
-    '''public MessageDispatcher getDispatcher()
+    '''returns MessageDispatcher\n\n
+    getDispatcher()\n
     '''
 def getInvoker():
-    '''public Invoker getInvoker()
+    '''returns Invoker\n\n
+    getInvoker()\n
     '''
 def registerComponent():
-    '''public void registerComponent(final String s, final STCompApi value)
+    '''returns None\n\n
+    registerComponent(final String s, final STCompApi value)\n
     '''
 def getCompApi():
-    '''public STCompApi getCompApi(final String key)
-    '''
-def start():
-    '''public synchronized void start()
-    '''
-def stop():
-    '''public synchronized void stop()
+    '''returns STCompApi\n\n
+    getCompApi(final String key)\n
     '''
 def unloadSession():
-    '''public void unloadSession()
+    '''returns None\n\n
+    unloadSession()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def loadComponents():
-    '''public void loadComponents(final String[] array)
+    '''returns None\n\n
+    loadComponents(final String[] array)\n
     '''
 def loadSemanticComponents():
-    '''public void loadSemanticComponents()
+    '''returns None\n\n
+    loadSemanticComponents()\n
     '''
 def loadAllComponents():
-    '''public void loadAllComponents()
+    '''returns None\n\n
+    loadAllComponents()\n
     '''
 def getSessionProperty():
-    '''public Object getSessionProperty(final String key)
+    '''returns Object\n\n
+    getSessionProperty(final String key)\n
     '''
 def setSessionProperty():
-    '''public void setSessionProperty(final String s, final Object value)
+    '''returns None\n\n
+    setSessionProperty(final String s, final Object value)\n
     '''

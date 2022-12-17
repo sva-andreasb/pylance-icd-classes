@@ -1,9 +1,12 @@
-def FldInvUseLineOpenQty():
-    '''public FldInvUseLineOpenQty(final MboValue mbv)
+def ():
+    '''returns FldInvUseLineOpenQty\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

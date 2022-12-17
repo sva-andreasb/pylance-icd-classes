@@ -1,60 +1,72 @@
 def getSoTimeout():
-    '''public int getSoTimeout()
+    '''returns int\n\n
+    getSoTimeout()\n
     '''
 def isSoReuseAddress():
-    '''public boolean isSoReuseAddress()
+    '''returns boolean\n\n
+    isSoReuseAddress()\n
     '''
 def getSoLinger():
-    '''public int getSoLinger()
+    '''returns int\n\n
+    getSoLinger()\n
     '''
 def isSoKeepAlive():
-    '''public boolean isSoKeepAlive()
+    '''returns boolean\n\n
+    isSoKeepAlive()\n
     '''
 def isTcpNoDelay():
-    '''public boolean isTcpNoDelay()
+    '''returns boolean\n\n
+    isTcpNoDelay()\n
     '''
 def getSndBufSize():
-    '''public int getSndBufSize()
+    '''returns int\n\n
+    getSndBufSize()\n
     '''
 def getRcvBufSize():
-    '''public int getRcvBufSize()
+    '''returns int\n\n
+    getRcvBufSize()\n
     '''
 def getBacklogSize():
-    '''public int getBacklogSize()
+    '''returns int\n\n
+    getBacklogSize()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def custom():
-    '''public static Builder custom()
-    '''
-def copy():
-    '''public static Builder copy(final SocketConfig config)
+    '''returns String\n\n
+    toString()\n
     '''
 def setSoTimeout():
-    '''public Builder setSoTimeout(final int soTimeout)
+    '''returns Builder\n\n
+    setSoTimeout(final int soTimeout)\n
     '''
 def setSoReuseAddress():
-    '''public Builder setSoReuseAddress(final boolean soReuseAddress)
+    '''returns Builder\n\n
+    setSoReuseAddress(final boolean soReuseAddress)\n
     '''
 def setSoLinger():
-    '''public Builder setSoLinger(final int soLinger)
+    '''returns Builder\n\n
+    setSoLinger(final int soLinger)\n
     '''
 def setSoKeepAlive():
-    '''public Builder setSoKeepAlive(final boolean soKeepAlive)
+    '''returns Builder\n\n
+    setSoKeepAlive(final boolean soKeepAlive)\n
     '''
 def setTcpNoDelay():
-    '''public Builder setTcpNoDelay(final boolean tcpNoDelay)
+    '''returns Builder\n\n
+    setTcpNoDelay(final boolean tcpNoDelay)\n
     '''
 def setSndBufSize():
-    '''public Builder setSndBufSize(final int sndBufSize)
+    '''returns Builder\n\n
+    setSndBufSize(final int sndBufSize)\n
     '''
 def setRcvBufSize():
-    '''public Builder setRcvBufSize(final int rcvBufSize)
+    '''returns Builder\n\n
+    setRcvBufSize(final int rcvBufSize)\n
     '''
 def setBacklogSize():
-    '''public Builder setBacklogSize(final int backlogSize)
+    '''returns Builder\n\n
+    setBacklogSize(final int backlogSize)\n
     '''
 def build():
-    '''public SocketConfig build()
+    '''returns SocketConfig\n\n
+    build()\n
     '''

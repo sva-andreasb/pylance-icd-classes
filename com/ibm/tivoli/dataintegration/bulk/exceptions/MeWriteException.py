@@ -1,6 +1,7 @@
-def MeWriteException():
-    '''public MeWriteException()
-    public MeWriteException(final String msg)
-    public MeWriteException(final Throwable t)
-    public MeWriteException(final String msg, final Throwable t)
+def ():
+    '''returns MeWriteException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable t)\n
+    (final String msg, final Throwable t)\n
     '''

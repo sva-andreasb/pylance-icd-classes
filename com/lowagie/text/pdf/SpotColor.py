@@ -1,10 +1,13 @@
-def SpotColor():
-    '''public SpotColor(final PdfSpotColor spot, final float tint)
-    public SpotColor(final PdfSpotColor spot)
+def ():
+    '''returns SpotColor\n\n
+    (final PdfSpotColor spot, final float tint)\n
+    (final PdfSpotColor spot)\n
     '''
 def getPdfSpotColor():
-    '''public PdfSpotColor getPdfSpotColor()
+    '''returns PdfSpotColor\n\n
+    getPdfSpotColor()\n
     '''
 def getTint():
-    '''public float getTint()
+    '''returns float\n\n
+    getTint()\n
     '''

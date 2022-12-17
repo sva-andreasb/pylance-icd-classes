@@ -1,142 +1,185 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TopologyApplet():
-    '''public TopologyApplet()
+def ():
+    '''returns TopologyApplet\n\n
+    ()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def createGUI():
-    '''public void createGUI()
+    '''returns None\n\n
+    createGUI()\n
     '''
 def loadModel():
-    '''public void loadModel()
+    '''returns None\n\n
+    loadModel()\n
     '''
 def doInBackground():
-    '''public Object doInBackground()
-    public Object doInBackground()
-    public Object doInBackground()
-    public Object doInBackground()
+    '''returns Object\n\n
+    doInBackground()\n
+    doInBackground()\n
+    doInBackground()\n
+    doInBackground()\n
     '''
 def run():
-    '''public Object run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def markImpactedCIsNotInTopology():
-    '''public void markImpactedCIsNotInTopology(final IlvDefaultSDMModel model)
+    '''returns None\n\n
+    markImpactedCIsNotInTopology(final IlvDefaultSDMModel model)\n
     '''
 def getSelectedTargetsHash():
-    '''public HashSet<String> getSelectedTargetsHash()
+    '''returns HashSet<String>\n\n
+    getSelectedTargetsHash()\n
     '''
 def reloadModelSearched():
-    '''public void reloadModelSearched(final String search)
+    '''returns None\n\n
+    reloadModelSearched(final String search)\n
     '''
 def getDiagrammer():
-    '''public IlvDiagrammer getDiagrammer()
+    '''returns IlvDiagrammer\n\n
+    getDiagrammer()\n
     '''
 def setDiagrammer():
-    '''public void setDiagrammer(final IlvDiagrammer diagrammer)
+    '''returns None\n\n
+    setDiagrammer(final IlvDiagrammer diagrammer)\n
     '''
 def getTopologyDepth():
-    '''public String[] getTopologyDepth()
+    '''returns String[]\n\n
+    getTopologyDepth()\n
     '''
 def setTopologyDepth():
-    '''public void setTopologyDepth(final String[] topologyDepth)
+    '''returns None\n\n
+    setTopologyDepth(final String[] topologyDepth)\n
     '''
 def handleDirection():
-    '''public void handleDirection(final String txt)
+    '''returns None\n\n
+    handleDirection(final String txt)\n
     '''
 def getBizModel():
-    '''public IlvDefaultSDMModel getBizModel()
+    '''returns IlvDefaultSDMModel\n\n
+    getBizModel()\n
     '''
 def setBizModel():
-    '''public void setBizModel(final IlvDefaultSDMModel bizModel)
+    '''returns None\n\n
+    setBizModel(final IlvDefaultSDMModel bizModel)\n
     '''
 def getDetailModel():
-    '''public IlvDefaultSDMModel getDetailModel()
+    '''returns IlvDefaultSDMModel\n\n
+    getDetailModel()\n
     '''
 def setDetailModel():
-    '''public void setDetailModel(final IlvDefaultSDMModel detailModel)
+    '''returns None\n\n
+    setDetailModel(final IlvDefaultSDMModel detailModel)\n
     '''
 def isBusinessModel():
-    '''public boolean isBusinessModel()
+    '''returns boolean\n\n
+    isBusinessModel()\n
     '''
 def setBusinessModel():
-    '''public void setBusinessModel(final boolean businessModel)
+    '''returns None\n\n
+    setBusinessModel(final boolean businessModel)\n
     '''
 def clearDetailModel():
-    '''public void clearDetailModel()
+    '''returns None\n\n
+    clearDetailModel()\n
     '''
 def clearBizModel():
-    '''public void clearBizModel()
+    '''returns None\n\n
+    clearBizModel()\n
     '''
 def getAppname():
-    '''public String getAppname()
+    '''returns String\n\n
+    getAppname()\n
     '''
 def setAppname():
-    '''public void setAppname(final String appname)
+    '''returns None\n\n
+    setAppname(final String appname)\n
     '''
 def getDetaillSpinner():
-    '''public String getDetaillSpinner()
+    '''returns String\n\n
+    getDetaillSpinner()\n
     '''
 def setDetaillSpinner():
-    '''public void setDetaillSpinner(final String detaillSpinner)
+    '''returns None\n\n
+    setDetaillSpinner(final String detaillSpinner)\n
     '''
 def getBizSpinner():
-    '''public String getBizSpinner()
+    '''returns String\n\n
+    getBizSpinner()\n
     '''
 def setBizSpinner():
-    '''public void setBizSpinner(final String bizSpinner)
+    '''returns None\n\n
+    setBizSpinner(final String bizSpinner)\n
     '''
 def getBizSelectedTask():
-    '''public int getBizSelectedTask()
+    '''returns int\n\n
+    getBizSelectedTask()\n
     '''
 def setBizSelectedTask():
-    '''public void setBizSelectedTask(final int bizSelectedTask)
+    '''returns None\n\n
+    setBizSelectedTask(final int bizSelectedTask)\n
     '''
 def getBizSelectedtargets():
-    '''public int[] getBizSelectedtargets()
+    '''returns int[]\n\n
+    getBizSelectedtargets()\n
     '''
 def setBizSelectedtargets():
-    '''public void setBizSelectedtargets(final int[] bizSelectedtargets)
+    '''returns None\n\n
+    setBizSelectedtargets(final int[] bizSelectedtargets)\n
     '''
 def getDetailSelectedTask():
-    '''public int getDetailSelectedTask()
+    '''returns int\n\n
+    getDetailSelectedTask()\n
     '''
 def setDetailSelectedTask():
-    '''public void setDetailSelectedTask(final int detailSelectedTask)
+    '''returns None\n\n
+    setDetailSelectedTask(final int detailSelectedTask)\n
     '''
 def getDetailSelectedtargets():
-    '''public int[] getDetailSelectedtargets()
+    '''returns int[]\n\n
+    getDetailSelectedtargets()\n
     '''
 def setDetailSelectedtargets():
-    '''public void setDetailSelectedtargets(final int[] detailSelectedtargets)
+    '''returns None\n\n
+    setDetailSelectedtargets(final int[] detailSelectedtargets)\n
     '''
 def stateChanged():
-    '''public void stateChanged(final ChangeEvent e)
+    '''returns None\n\n
+    stateChanged(final ChangeEvent e)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent e)
-    public void valueChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent e)\n
+    valueChanged(final ListSelectionEvent e)\n
     '''
 def insertString():
-    '''public void insertString(final FilterBypass fb, final int offset, final String str, final AttributeSet attr)
-    public void insertString(final FilterBypass fb, final int offset, final String string, final AttributeSet attr)
+    '''returns None\n\n
+    insertString(final FilterBypass fb, final int offset, final String str, final AttributeSet attr)\n
+    insertString(final FilterBypass fb, final int offset, final String string, final AttributeSet attr)\n
     '''
 def remove():
-    '''public void remove(final FilterBypass fb, final int offset, final int length)
+    '''returns None\n\n
+    remove(final FilterBypass fb, final int offset, final int length)\n
     '''
 def replace():
-    '''public void replace(final FilterBypass fb, final int offset, final int length, final String str, final AttributeSet attr)
-    public void replace(final FilterBypass fb, final int offset, final int length, final String text, final AttributeSet attrs)
+    '''returns None\n\n
+    replace(final FilterBypass fb, final int offset, final int length, final String str, final AttributeSet attr)\n
+    replace(final FilterBypass fb, final int offset, final int length, final String text, final AttributeSet attrs)\n
     '''
 def stringToValue():
-    '''public Object stringToValue(final String text)
+    '''returns Object\n\n
+    stringToValue(final String text)\n
     '''
 def valueToString():
-    '''public String valueToString(final Object value)
+    '''returns String\n\n
+    valueToString(final Object value)\n
     '''

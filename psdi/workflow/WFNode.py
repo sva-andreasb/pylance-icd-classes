@@ -1,94 +1,124 @@
-def WFNode():
-    '''public WFNode(final MboSet ms)
+def ():
+    '''returns WFNode\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getWFCallStack():
-    '''public WFCallStack getWFCallStack()
+    '''returns WFCallStack\n\n
+    getWFCallStack()\n
     '''
 def getWorkflowActions():
-    '''public WFActionSet getWorkflowActions()
+    '''returns WFActionSet\n\n
+    getWorkflowActions()\n
     '''
 def getWorkflowActionsIn():
-    '''public WFActionSet getWorkflowActionsIn()
+    '''returns WFActionSet\n\n
+    getWorkflowActionsIn()\n
     '''
 def applyWorkflowAction():
-    '''public void applyWorkflowAction(final WFActionRemote action, final String memo)
-    public final void applyWorkflowAction(final WFActionRemote action)
+    '''returns None\n\n
+    applyWorkflowAction(final WFActionRemote action, final String memo)\n
     '''
 def makeNodeNotifications():
-    '''public void makeNodeNotifications()
+    '''returns None\n\n
+    makeNodeNotifications()\n
     '''
 def completeWorkflowAssignment():
-    '''public boolean completeWorkflowAssignment(final WFAssignment assignMbo, final WFAction actionMbo, final String memo)
+    '''returns boolean\n\n
+    completeWorkflowAssignment(final WFAssignment assignMbo, final WFAction actionMbo, final String memo)\n
     '''
 def stopAtNode():
-    '''public void stopAtNode(final String memo)
+    '''returns None\n\n
+    stopAtNode(final String memo)\n
     '''
 def writeTransaction():
-    '''public void writeTransaction(final String transType, final String memo)
+    '''returns None\n\n
+    writeTransaction(final String transType, final String memo)\n
     '''
 def hasOwnerNode():
-    '''public boolean hasOwnerNode()
+    '''returns boolean\n\n
+    hasOwnerNode()\n
     '''
 def countPositiveAction():
-    '''public int countPositiveAction()
+    '''returns int\n\n
+    countPositiveAction()\n
     '''
 def countNegativeAction():
-    '''public int countNegativeAction()
+    '''returns int\n\n
+    countNegativeAction()\n
     '''
 def hasPositiveActionIn():
-    '''public boolean hasPositiveActionIn()
+    '''returns boolean\n\n
+    hasPositiveActionIn()\n
     '''
 def hasNegativeActionIn():
-    '''public boolean hasNegativeActionIn()
+    '''returns boolean\n\n
+    hasNegativeActionIn()\n
     '''
 def countPositiveActionIn():
-    '''public int countPositiveActionIn()
+    '''returns int\n\n
+    countPositiveActionIn()\n
     '''
 def countNegativeActionIn():
-    '''public int countNegativeActionIn()
+    '''returns int\n\n
+    countNegativeActionIn()\n
     '''
 def getCompanionSet():
-    '''public MboSetRemote getCompanionSet()
+    '''returns MboSetRemote\n\n
+    getCompanionSet()\n
     '''
 def canTakePositive():
-    '''public boolean canTakePositive()
+    '''returns boolean\n\n
+    canTakePositive()\n
     '''
 def canTakeNegative():
-    '''public boolean canTakeNegative()
+    '''returns boolean\n\n
+    canTakeNegative()\n
     '''
 def addedAction():
-    '''public void addedAction(final boolean wasPositive)
+    '''returns None\n\n
+    addedAction(final boolean wasPositive)\n
     '''
 def removedAction():
-    '''public void removedAction(final boolean wasPositive)
+    '''returns None\n\n
+    removedAction(final boolean wasPositive)\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def hasNodeActions():
-    '''public boolean hasNodeActions(final boolean isPositive)
+    '''returns boolean\n\n
+    hasNodeActions(final boolean isPositive)\n
     '''
 def getNodeDetail():
-    '''public NodeDetail getNodeDetail()
+    '''returns NodeDetail\n\n
+    getNodeDetail()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def duplicateDetails():
-    '''public void duplicateDetails(final WFNode origNode)
+    '''returns None\n\n
+    duplicateDetails(final WFNode origNode)\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''

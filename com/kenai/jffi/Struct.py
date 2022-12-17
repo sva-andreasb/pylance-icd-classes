@@ -1,12 +1,12 @@
-def newStruct():
-    '''public static Struct newStruct(final Type... fields)
-    '''
-def Struct():
-    '''public Struct(final Type... fields)
+def ():
+    '''returns Struct\n\n
+    (final Type... fields)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

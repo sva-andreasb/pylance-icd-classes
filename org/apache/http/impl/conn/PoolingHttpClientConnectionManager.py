@@ -1,112 +1,144 @@
-def PoolingHttpClientConnectionManager():
-    '''public PoolingHttpClientConnectionManager()
-    public PoolingHttpClientConnectionManager(final long timeToLive, final TimeUnit tunit)
-    public PoolingHttpClientConnectionManager(final Registry<ConnectionSocketFactory> socketFactoryRegistry)
-    public PoolingHttpClientConnectionManager(final Registry<ConnectionSocketFactory> socketFactoryRegistry, final DnsResolver dnsResolver)
-    public PoolingHttpClientConnectionManager(final Registry<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory)
-    public PoolingHttpClientConnectionManager(final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory)
-    public PoolingHttpClientConnectionManager(final Registry<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final DnsResolver dnsResolver)
-    public PoolingHttpClientConnectionManager(final Registry<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final SchemePortResolver schemePortResolver, final DnsResolver dnsResolver, final long timeToLive, final TimeUnit tunit)
-    public PoolingHttpClientConnectionManager(final HttpClientConnectionOperator httpClientConnectionOperator, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final long timeToLive, final TimeUnit tunit)
+def ():
+    '''returns PoolingHttpClientConnectionManager\n\n
+    ()\n
+    (final long timeToLive, final TimeUnit tunit)\n
+    (final Registry<ConnectionSocketFactory> socketFactoryRegistry)\n
+    (final Registry<ConnectionSocketFactory> socketFactoryRegistry, final DnsResolver dnsResolver)\n
+    (final Registry<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory)\n
+    (final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory)\n
+    (final Registry<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final DnsResolver dnsResolver)\n
+    (final Registry<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final SchemePortResolver schemePortResolver, final DnsResolver dnsResolver, final long timeToLive, final TimeUnit tunit)\n
+    (final HttpClientConnectionOperator httpClientConnectionOperator, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final long timeToLive, final TimeUnit tunit)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def requestConnection():
-    '''public ConnectionRequest requestConnection(final HttpRoute route, final Object state)
+    '''returns ConnectionRequest\n\n
+    requestConnection(final HttpRoute route, final Object state)\n
     '''
 def cancel():
-    '''public boolean cancel()
+    '''returns boolean\n\n
+    cancel()\n
     '''
 def get():
-    '''public HttpClientConnection get(final long timeout, final TimeUnit tunit)
+    '''returns HttpClientConnection\n\n
+    get(final long timeout, final TimeUnit tunit)\n
     '''
 def releaseConnection():
-    '''public void releaseConnection(final HttpClientConnection managedConn, final Object state, final long keepalive, final TimeUnit tunit)
+    '''returns None\n\n
+    releaseConnection(final HttpClientConnection managedConn, final Object state, final long keepalive, final TimeUnit tunit)\n
     '''
 def connect():
-    '''public void connect(final HttpClientConnection managedConn, final HttpRoute route, final int connectTimeout, final HttpContext context)
+    '''returns None\n\n
+    connect(final HttpClientConnection managedConn, final HttpRoute route, final int connectTimeout, final HttpContext context)\n
     '''
 def upgrade():
-    '''public void upgrade(final HttpClientConnection managedConn, final HttpRoute route, final HttpContext context)
+    '''returns None\n\n
+    upgrade(final HttpClientConnection managedConn, final HttpRoute route, final HttpContext context)\n
     '''
 def routeComplete():
-    '''public void routeComplete(final HttpClientConnection managedConn, final HttpRoute route, final HttpContext context)
+    '''returns None\n\n
+    routeComplete(final HttpClientConnection managedConn, final HttpRoute route, final HttpContext context)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idleTimeout, final TimeUnit tunit)
+    '''returns None\n\n
+    closeIdleConnections(final long idleTimeout, final TimeUnit tunit)\n
     '''
 def closeExpiredConnections():
-    '''public void closeExpiredConnections()
+    '''returns None\n\n
+    closeExpiredConnections()\n
     '''
 def getMaxTotal():
-    '''public int getMaxTotal()
+    '''returns int\n\n
+    getMaxTotal()\n
     '''
 def setMaxTotal():
-    '''public void setMaxTotal(final int max)
+    '''returns None\n\n
+    setMaxTotal(final int max)\n
     '''
 def getDefaultMaxPerRoute():
-    '''public int getDefaultMaxPerRoute()
+    '''returns int\n\n
+    getDefaultMaxPerRoute()\n
     '''
 def setDefaultMaxPerRoute():
-    '''public void setDefaultMaxPerRoute(final int max)
+    '''returns None\n\n
+    setDefaultMaxPerRoute(final int max)\n
     '''
 def getMaxPerRoute():
-    '''public int getMaxPerRoute(final HttpRoute route)
+    '''returns int\n\n
+    getMaxPerRoute(final HttpRoute route)\n
     '''
 def setMaxPerRoute():
-    '''public void setMaxPerRoute(final HttpRoute route, final int max)
+    '''returns None\n\n
+    setMaxPerRoute(final HttpRoute route, final int max)\n
     '''
 def getTotalStats():
-    '''public PoolStats getTotalStats()
+    '''returns PoolStats\n\n
+    getTotalStats()\n
     '''
 def getStats():
-    '''public PoolStats getStats(final HttpRoute route)
+    '''returns PoolStats\n\n
+    getStats(final HttpRoute route)\n
     '''
 def getRoutes():
-    '''public Set<HttpRoute> getRoutes()
+    '''returns Set<HttpRoute>\n\n
+    getRoutes()\n
     '''
 def getDefaultSocketConfig():
-    '''public SocketConfig getDefaultSocketConfig()
-    public SocketConfig getDefaultSocketConfig()
+    '''returns SocketConfig\n\n
+    getDefaultSocketConfig()\n
+    getDefaultSocketConfig()\n
     '''
 def setDefaultSocketConfig():
-    '''public void setDefaultSocketConfig(final SocketConfig defaultSocketConfig)
-    public void setDefaultSocketConfig(final SocketConfig defaultSocketConfig)
+    '''returns None\n\n
+    setDefaultSocketConfig(final SocketConfig defaultSocketConfig)\n
+    setDefaultSocketConfig(final SocketConfig defaultSocketConfig)\n
     '''
 def getDefaultConnectionConfig():
-    '''public ConnectionConfig getDefaultConnectionConfig()
-    public ConnectionConfig getDefaultConnectionConfig()
+    '''returns ConnectionConfig\n\n
+    getDefaultConnectionConfig()\n
+    getDefaultConnectionConfig()\n
     '''
 def setDefaultConnectionConfig():
-    '''public void setDefaultConnectionConfig(final ConnectionConfig defaultConnectionConfig)
-    public void setDefaultConnectionConfig(final ConnectionConfig defaultConnectionConfig)
+    '''returns None\n\n
+    setDefaultConnectionConfig(final ConnectionConfig defaultConnectionConfig)\n
+    setDefaultConnectionConfig(final ConnectionConfig defaultConnectionConfig)\n
     '''
 def getSocketConfig():
-    '''public SocketConfig getSocketConfig(final HttpHost host)
-    public SocketConfig getSocketConfig(final HttpHost host)
+    '''returns SocketConfig\n\n
+    getSocketConfig(final HttpHost host)\n
+    getSocketConfig(final HttpHost host)\n
     '''
 def setSocketConfig():
-    '''public void setSocketConfig(final HttpHost host, final SocketConfig socketConfig)
-    public void setSocketConfig(final HttpHost host, final SocketConfig socketConfig)
+    '''returns None\n\n
+    setSocketConfig(final HttpHost host, final SocketConfig socketConfig)\n
+    setSocketConfig(final HttpHost host, final SocketConfig socketConfig)\n
     '''
 def getConnectionConfig():
-    '''public ConnectionConfig getConnectionConfig(final HttpHost host)
-    public ConnectionConfig getConnectionConfig(final HttpHost host)
+    '''returns ConnectionConfig\n\n
+    getConnectionConfig(final HttpHost host)\n
+    getConnectionConfig(final HttpHost host)\n
     '''
 def setConnectionConfig():
-    '''public void setConnectionConfig(final HttpHost host, final ConnectionConfig connectionConfig)
-    public void setConnectionConfig(final HttpHost host, final ConnectionConfig connectionConfig)
+    '''returns None\n\n
+    setConnectionConfig(final HttpHost host, final ConnectionConfig connectionConfig)\n
+    setConnectionConfig(final HttpHost host, final ConnectionConfig connectionConfig)\n
     '''
 def getValidateAfterInactivity():
-    '''public int getValidateAfterInactivity()
+    '''returns int\n\n
+    getValidateAfterInactivity()\n
     '''
 def setValidateAfterInactivity():
-    '''public void setValidateAfterInactivity(final int ms)
+    '''returns None\n\n
+    setValidateAfterInactivity(final int ms)\n
     '''
 def create():
-    '''public ManagedHttpClientConnection create(final HttpRoute route)
+    '''returns ManagedHttpClientConnection\n\n
+    create(final HttpRoute route)\n
     '''

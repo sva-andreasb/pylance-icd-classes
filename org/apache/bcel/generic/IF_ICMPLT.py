@@ -1,9 +1,12 @@
-def IF_ICMPLT():
-    '''public IF_ICMPLT(final InstructionHandle target)
+def ():
+    '''returns IF_ICMPLT\n\n
+    (final InstructionHandle target)\n
     '''
 def negate():
-    '''public IfInstruction negate()
+    '''returns IfInstruction\n\n
+    negate()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

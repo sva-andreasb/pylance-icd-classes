@@ -1,6 +1,8 @@
-def BoundField():
-    '''public BoundField(final Field def, final Schema schema, final int index)
+def ():
+    '''returns BoundField\n\n
+    (final Field def, final Schema schema, final int index)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

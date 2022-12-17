@@ -1,33 +1,44 @@
 def owner():
-    '''public JCodeModel owner()
+    '''returns JCodeModel\n\n
+    owner()\n
     '''
 def fullName():
-    '''public String fullName()
+    '''returns String\n\n
+    fullName()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def isPrimitive():
-    '''public boolean isPrimitive()
+    '''returns boolean\n\n
+    isPrimitive()\n
     '''
 def array():
-    '''public JClass array()
+    '''returns JClass\n\n
+    array()\n
     '''
 def boxify():
-    '''public JClass boxify()
+    '''returns JClass\n\n
+    boxify()\n
     '''
 def unboxify():
-    '''public JType unboxify()
+    '''returns JType\n\n
+    unboxify()\n
     '''
 def getWrapperClass():
-    '''public JClass getWrapperClass()
+    '''returns JClass\n\n
+    getWrapperClass()\n
     '''
 def wrap():
-    '''public JExpression wrap(final JExpression exp)
+    '''returns JExpression\n\n
+    wrap(final JExpression exp)\n
     '''
 def unwrap():
-    '''public JExpression unwrap(final JExpression exp)
+    '''returns JExpression\n\n
+    unwrap(final JExpression exp)\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''

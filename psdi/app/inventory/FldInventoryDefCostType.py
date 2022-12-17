@@ -1,9 +1,12 @@
-def FldInventoryDefCostType():
-    '''public FldInventoryDefCostType(final MboValue mbv)
+def ():
+    '''returns FldInventoryDefCostType\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def isRotatingSet():
-    '''public boolean isRotatingSet()
+    '''returns boolean\n\n
+    isRotatingSet()\n
     '''

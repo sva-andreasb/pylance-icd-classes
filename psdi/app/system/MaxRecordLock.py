@@ -1,9 +1,12 @@
-def MaxRecordLock():
-    '''public MaxRecordLock(final MboSet ms)
+def ():
+    '''returns MaxRecordLock\n\n
+    (final MboSet ms)\n
     '''
 def adminReleaseReclock():
-    '''public void adminReleaseReclock(final long accessModifier)
+    '''returns None\n\n
+    adminReleaseReclock(final long accessModifier)\n
     '''
 def timeRecordLocked():
-    '''public long timeRecordLocked()
+    '''returns long\n\n
+    timeRecordLocked()\n
     '''

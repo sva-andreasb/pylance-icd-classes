@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCplexAborter():
-    '''public IloCplexAborter(final IloResettableAbortable abortable)
+def ():
+    '''returns IloCplexAborter\n\n
+    (final IloResettableAbortable abortable)\n
     '''
 def main():
-    '''public boolean main(final IloCplexCallbackInfo state)
+    '''returns boolean\n\n
+    main(final IloCplexCallbackInfo state)\n
     '''
 def mustAbort():
-    '''public boolean mustAbort()
+    '''returns boolean\n\n
+    mustAbort()\n
     '''

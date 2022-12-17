@@ -1,15 +1,12 @@
-def getInstance():
-    '''public static final OslcProviderCache getInstance()
-    '''
 def getProvider():
-    '''public OslcProviderInfo getProvider(final String providerName)
-    '''
-def getProviders():
-    '''public Map<String, OslcProviderInfo> getProviders()
+    '''returns OslcProviderInfo\n\n
+    getProvider(final String providerName)\n
     '''
 def getOslcProviderForLink():
-    '''public String getOslcProviderForLink(final String urlLink)
+    '''returns String\n\n
+    getOslcProviderForLink(final String urlLink)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

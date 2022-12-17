@@ -1,99 +1,132 @@
 def setBillingItem():
-    '''public void setBillingItem(final com.softlayer.api.service.billing.Item billingItem)
+    '''returns None\n\n
+    setBillingItem(final com.softlayer.api.service.billing.Item billingItem)\n
     '''
 def getCancellationRequest():
-    '''public Request getCancellationRequest()
+    '''returns Request\n\n
+    getCancellationRequest()\n
     '''
 def setCancellationRequest():
-    '''public void setCancellationRequest(final Request cancellationRequest)
+    '''returns None\n\n
+    setCancellationRequest(final Request cancellationRequest)\n
     '''
 def getBillingItemId():
-    '''public Long getBillingItemId()
+    '''returns Long\n\n
+    getBillingItemId()\n
     '''
 def setBillingItemId():
-    '''public void setBillingItemId(final Long billingItemId)
+    '''returns None\n\n
+    setBillingItemId(final Long billingItemId)\n
     '''
 def isBillingItemIdSpecified():
-    '''public boolean isBillingItemIdSpecified()
+    '''returns boolean\n\n
+    isBillingItemIdSpecified()\n
     '''
 def unsetBillingItemId():
-    '''public void unsetBillingItemId()
+    '''returns None\n\n
+    unsetBillingItemId()\n
     '''
 def getCancellationRequestId():
-    '''public Long getCancellationRequestId()
+    '''returns Long\n\n
+    getCancellationRequestId()\n
     '''
 def setCancellationRequestId():
-    '''public void setCancellationRequestId(final Long cancellationRequestId)
+    '''returns None\n\n
+    setCancellationRequestId(final Long cancellationRequestId)\n
     '''
 def isCancellationRequestIdSpecified():
-    '''public boolean isCancellationRequestIdSpecified()
+    '''returns boolean\n\n
+    isCancellationRequestIdSpecified()\n
     '''
 def unsetCancellationRequestId():
-    '''public void unsetCancellationRequestId()
+    '''returns None\n\n
+    unsetCancellationRequestId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getImmediateCancellationFlag():
-    '''public Boolean getImmediateCancellationFlag()
+    '''returns Boolean\n\n
+    getImmediateCancellationFlag()\n
     '''
 def setImmediateCancellationFlag():
-    '''public void setImmediateCancellationFlag(final Boolean immediateCancellationFlag)
+    '''returns None\n\n
+    setImmediateCancellationFlag(final Boolean immediateCancellationFlag)\n
     '''
 def isImmediateCancellationFlagSpecified():
-    '''public boolean isImmediateCancellationFlagSpecified()
+    '''returns boolean\n\n
+    isImmediateCancellationFlagSpecified()\n
     '''
 def unsetImmediateCancellationFlag():
-    '''public void unsetImmediateCancellationFlag()
+    '''returns None\n\n
+    unsetImmediateCancellationFlag()\n
     '''
 def getScheduledCancellationDate():
-    '''public GregorianCalendar getScheduledCancellationDate()
+    '''returns GregorianCalendar\n\n
+    getScheduledCancellationDate()\n
     '''
 def setScheduledCancellationDate():
-    '''public void setScheduledCancellationDate(final GregorianCalendar scheduledCancellationDate)
+    '''returns None\n\n
+    setScheduledCancellationDate(final GregorianCalendar scheduledCancellationDate)\n
     '''
 def isScheduledCancellationDateSpecified():
-    '''public boolean isScheduledCancellationDateSpecified()
+    '''returns boolean\n\n
+    isScheduledCancellationDateSpecified()\n
     '''
 def unsetScheduledCancellationDate():
-    '''public void unsetScheduledCancellationDate()
+    '''returns None\n\n
+    unsetScheduledCancellationDate()\n
     '''
 def getServiceReclaimStatusCode():
-    '''public String getServiceReclaimStatusCode()
+    '''returns String\n\n
+    getServiceReclaimStatusCode()\n
     '''
 def setServiceReclaimStatusCode():
-    '''public void setServiceReclaimStatusCode(final String serviceReclaimStatusCode)
+    '''returns None\n\n
+    setServiceReclaimStatusCode(final String serviceReclaimStatusCode)\n
     '''
 def isServiceReclaimStatusCodeSpecified():
-    '''public boolean isServiceReclaimStatusCodeSpecified()
+    '''returns boolean\n\n
+    isServiceReclaimStatusCodeSpecified()\n
     '''
 def unsetServiceReclaimStatusCode():
-    '''public void unsetServiceReclaimStatusCode()
+    '''returns None\n\n
+    unsetServiceReclaimStatusCode()\n
     '''
 def billingItemId():
-    '''public Mask billingItemId()
+    '''returns Mask\n\n
+    billingItemId()\n
     '''
 def cancellationRequestId():
-    '''public Mask cancellationRequestId()
+    '''returns Mask\n\n
+    cancellationRequestId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def immediateCancellationFlag():
-    '''public Mask immediateCancellationFlag()
+    '''returns Mask\n\n
+    immediateCancellationFlag()\n
     '''
 def scheduledCancellationDate():
-    '''public Mask scheduledCancellationDate()
+    '''returns Mask\n\n
+    scheduledCancellationDate()\n
     '''
 def serviceReclaimStatusCode():
-    '''public Mask serviceReclaimStatusCode()
+    '''returns Mask\n\n
+    serviceReclaimStatusCode()\n
     '''

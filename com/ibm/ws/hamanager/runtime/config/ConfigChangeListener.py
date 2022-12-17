@@ -1,0 +1,6 @@
+PROCESSES = "int  0"
+POLICIES = "int  1"
+TRANSPORT = "int  2"
+SERVICE = "int  3"
+DOC_MIN = "int  0"
+DOC_MAX = "int  3"

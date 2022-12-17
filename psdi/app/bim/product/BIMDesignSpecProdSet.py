@@ -1,3 +1,4 @@
-def BIMDesignSpecProdSet():
-    '''public BIMDesignSpecProdSet(final MboServerInterface ms)
+def ():
+    '''returns BIMDesignSpecProdSet\n\n
+    (final MboServerInterface ms)\n
     '''

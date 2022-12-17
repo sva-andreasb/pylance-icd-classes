@@ -1,3 +1,4 @@
 def fillInStackTrace():
-    '''public Throwable fillInStackTrace()
+    '''returns Throwable\n\n
+    fillInStackTrace()\n
     '''

@@ -1,9 +1,12 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def SendRedirectSideEffect():
-    '''public SendRedirectSideEffect(final String url)
+def ():
+    '''returns SendRedirectSideEffect\n\n
+    (final String url)\n
     '''
 def performSideEffect():
-    '''public void performSideEffect(final HttpServletResponse response)
+    '''returns None\n\n
+    performSideEffect(final HttpServletResponse response)\n
     '''

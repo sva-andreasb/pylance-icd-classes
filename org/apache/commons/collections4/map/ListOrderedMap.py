@@ -1,132 +1,157 @@
-def listOrderedMap():
-    '''public static <K, V> ListOrderedMap<K, V> listOrderedMap(final Map<K, V> map)
-    '''
-def ListOrderedMap():
-    '''public ListOrderedMap()
-    '''
-def mapIterator():
-    '''public OrderedMapIterator<K, V> mapIterator()
+def ():
+    '''returns EntrySetView\n\n
+    ()\n
+    (final ListOrderedMap<K, V> parent, final List<K> insertOrder)\n
     '''
 def firstKey():
-    '''public K firstKey()
+    '''returns K\n\n
+    firstKey()\n
     '''
 def lastKey():
-    '''public K lastKey()
+    '''returns K\n\n
+    lastKey()\n
     '''
 def nextKey():
-    '''public K nextKey(final Object key)
+    '''returns K\n\n
+    nextKey(final Object key)\n
     '''
 def previousKey():
-    '''public K previousKey(final Object key)
+    '''returns K\n\n
+    previousKey(final Object key)\n
     '''
 def put():
-    '''public V put(final K key, final V value)
-    public V put(int index, final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
+    put(int index, final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> map)
-    public void putAll(int index, final Map<? extends K, ? extends V> map)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> map)\n
+    putAll(int index, final Map<? extends K, ? extends V> map)\n
     '''
 def remove():
-    '''public V remove(final Object key)
-    public V remove(final int index)
-    public V remove(final int index)
-    public boolean remove(final Object obj)
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final Object key)\n
+    remove(final int index)\n
+    remove(final int index)\n
+    remove(final Object obj)\n
+    remove()\n
+    remove()\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
-    public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
+    clear()\n
+    clear()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def keyList():
-    '''public List<K> keyList()
+    '''returns List<K>\n\n
+    keyList()\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def valueList():
-    '''public List<V> valueList()
+    '''returns List<V>\n\n
+    valueList()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def get():
-    '''public K get(final int index)
-    public V get(final int index)
+    '''returns V\n\n
+    get(final int index)\n
+    get(final int index)\n
     '''
 def getValue():
-    '''public V getValue(final int index)
-    public V getValue()
-    public V getValue()
+    '''returns V\n\n
+    getValue(final int index)\n
+    getValue()\n
+    getValue()\n
     '''
 def indexOf():
-    '''public int indexOf(final Object key)
+    '''returns int\n\n
+    indexOf(final Object key)\n
     '''
 def setValue():
-    '''public V setValue(final int index, final V value)
-    public V setValue(final V value)
-    public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final int index, final V value)\n
+    setValue(final V value)\n
+    setValue(final V value)\n
     '''
 def asList():
-    '''public List<K> asList()
+    '''returns List<K>\n\n
+    asList()\n
     '''
 def size():
-    '''public int size()
-    public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
+    size()\n
     '''
 def contains():
-    '''public boolean contains(final Object value)
-    public boolean contains(final Object value)
-    public boolean contains(final Object obj)
+    '''returns boolean\n\n
+    contains(final Object value)\n
+    contains(final Object value)\n
+    contains(final Object obj)\n
     '''
 def iterator():
-    '''public Iterator<V> iterator()
-    public Iterator<K> iterator()
+    '''returns Iterator<K>\n\n
+    iterator()\n
+    iterator()\n
     '''
 def next():
-    '''public V next()
-    public K next()
-    public K next()
+    '''returns K\n\n
+    next()\n
+    next()\n
+    next()\n
     '''
 def set():
-    '''public V set(final int index, final V value)
-    '''
-def EntrySetView():
-    '''public EntrySetView(final ListOrderedMap<K, V> parent, final List<K> insertOrder)
+    '''returns V\n\n
+    set(final int index, final V value)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public K previous()
+    '''returns K\n\n
+    previous()\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

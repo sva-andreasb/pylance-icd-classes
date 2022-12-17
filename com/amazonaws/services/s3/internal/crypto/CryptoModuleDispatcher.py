@@ -1,31 +1,41 @@
-def CryptoModuleDispatcher():
-    '''public CryptoModuleDispatcher(final AWSKMSClient kms, final S3Direct s3, final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider encryptionMaterialsProvider, CryptoConfiguration cryptoConfig)
+def ():
+    '''returns CryptoModuleDispatcher\n\n
+    (final AWSKMSClient kms, final S3Direct s3, final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider encryptionMaterialsProvider, CryptoConfiguration cryptoConfig)\n
     '''
 def putObjectSecurely():
-    '''public PutObjectResult putObjectSecurely(final PutObjectRequest putObjectRequest)
+    '''returns PutObjectResult\n\n
+    putObjectSecurely(final PutObjectRequest putObjectRequest)\n
     '''
 def getObjectSecurely():
-    '''public S3Object getObjectSecurely(final GetObjectRequest req)
-    public ObjectMetadata getObjectSecurely(final GetObjectRequest req, final File destinationFile)
+    '''returns ObjectMetadata\n\n
+    getObjectSecurely(final GetObjectRequest req)\n
+    getObjectSecurely(final GetObjectRequest req, final File destinationFile)\n
     '''
 def completeMultipartUploadSecurely():
-    '''public CompleteMultipartUploadResult completeMultipartUploadSecurely(final CompleteMultipartUploadRequest req)
+    '''returns CompleteMultipartUploadResult\n\n
+    completeMultipartUploadSecurely(final CompleteMultipartUploadRequest req)\n
     '''
 def abortMultipartUploadSecurely():
-    '''public void abortMultipartUploadSecurely(final AbortMultipartUploadRequest req)
+    '''returns None\n\n
+    abortMultipartUploadSecurely(final AbortMultipartUploadRequest req)\n
     '''
 def initiateMultipartUploadSecurely():
-    '''public InitiateMultipartUploadResult initiateMultipartUploadSecurely(final InitiateMultipartUploadRequest req)
+    '''returns InitiateMultipartUploadResult\n\n
+    initiateMultipartUploadSecurely(final InitiateMultipartUploadRequest req)\n
     '''
 def uploadPartSecurely():
-    '''public UploadPartResult uploadPartSecurely(final UploadPartRequest req)
+    '''returns UploadPartResult\n\n
+    uploadPartSecurely(final UploadPartRequest req)\n
     '''
 def copyPartSecurely():
-    '''public CopyPartResult copyPartSecurely(final CopyPartRequest req)
+    '''returns CopyPartResult\n\n
+    copyPartSecurely(final CopyPartRequest req)\n
     '''
 def putInstructionFileSecurely():
-    '''public PutObjectResult putInstructionFileSecurely(final PutInstructionFileRequest req)
+    '''returns PutObjectResult\n\n
+    putInstructionFileSecurely(final PutInstructionFileRequest req)\n
     '''
 def putLocalObjectSecurely():
-    '''public void putLocalObjectSecurely(final UploadObjectRequest req, final String uploadId, final OutputStream os)
+    '''returns None\n\n
+    putLocalObjectSecurely(final UploadObjectRequest req, final String uploadId, final OutputStream os)\n
     '''

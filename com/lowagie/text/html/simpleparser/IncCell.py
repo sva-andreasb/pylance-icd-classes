@@ -1,18 +1,24 @@
-def IncCell():
-    '''public IncCell(final String tag, final ChainedProperties props)
+def ():
+    '''returns IncCell\n\n
+    (final String tag, final ChainedProperties props)\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getCell():
-    '''public PdfPCell getCell()
+    '''returns PdfPCell\n\n
+    getCell()\n
     '''

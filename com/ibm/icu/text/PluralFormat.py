@@ -1,50 +1,52 @@
-def PluralFormat():
-    '''public PluralFormat()
-    public PluralFormat(final ULocale ulocale)
-    public PluralFormat(final Locale locale)
-    public PluralFormat(final PluralRules rules)
-    public PluralFormat(final ULocale ulocale, final PluralRules rules)
-    public PluralFormat(final Locale locale, final PluralRules rules)
-    public PluralFormat(final ULocale ulocale, final PluralRules.PluralType type)
-    public PluralFormat(final Locale locale, final PluralRules.PluralType type)
-    public PluralFormat(final String pattern)
-    public PluralFormat(final ULocale ulocale, final String pattern)
-    public PluralFormat(final PluralRules rules, final String pattern)
-    public PluralFormat(final ULocale ulocale, final PluralRules rules, final String pattern)
-    public PluralFormat(final ULocale ulocale, final PluralRules.PluralType type, final String pattern)
+def ():
+    '''returns PluralFormat\n\n
+    ()\n
+    (final ULocale ulocale)\n
+    (final PluralRules rules)\n
+    (final ULocale ulocale, final PluralRules rules)\n
+    (final String pattern)\n
+    (final ULocale ulocale, final String pattern)\n
+    (final PluralRules rules, final String pattern)\n
+    (final ULocale ulocale, final PluralRules rules, final String pattern)\n
     '''
 def applyPattern():
-    '''public void applyPattern(final String pattern)
+    '''returns None\n\n
+    applyPattern(String pttrn)\n
     '''
 def toPattern():
-    '''public String toPattern()
+    '''returns String\n\n
+    toPattern()\n
     '''
 def format():
-    '''public final String format(final double number)
-    public StringBuffer format(final Object number, final StringBuffer toAppendTo, final FieldPosition pos)
+    '''returns StringBuffer\n\n
+    format(final Object number, final StringBuffer toAppendTo, final FieldPosition pos)\n
     '''
 def parse():
-    '''public Number parse(final String text, final ParsePosition parsePosition)
+    '''returns Number\n\n
+    parse(final String text, final ParsePosition parsePosition)\n
     '''
 def parseObject():
-    '''public Object parseObject(final String source, final ParsePosition pos)
+    '''returns Object\n\n
+    parseObject(final String source, final ParsePosition pos)\n
     '''
 def setLocale():
-    '''public void setLocale(ULocale ulocale)
+    '''returns None\n\n
+    setLocale(ULocale ulocale)\n
     '''
 def setNumberFormat():
-    '''public void setNumberFormat(final NumberFormat format)
+    '''returns None\n\n
+    setNumberFormat(final NumberFormat format)\n
     '''
 def equals():
-    '''public boolean equals(final Object rhs)
-    public boolean equals(final PluralFormat rhs)
+    '''returns boolean\n\n
+    equals(final Object rhs)\n
+    equals(final PluralFormat rhs)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def select():
-    '''public String select(final Object context, final double number)
+    '''returns String\n\n
+    toString()\n
     '''

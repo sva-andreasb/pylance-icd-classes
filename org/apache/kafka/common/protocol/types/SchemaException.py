@@ -1,3 +1,4 @@
-def SchemaException():
-    '''public SchemaException(final String message)
+def ():
+    '''returns SchemaException\n\n
+    (final String message)\n
     '''

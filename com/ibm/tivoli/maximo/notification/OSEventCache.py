@@ -1,18 +1,16 @@
-def getInstance():
-    '''public static final OSEventCache getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEventInfo():
-    '''public OSEventInfo getEventInfo(final String osName, final String eventName)
-    '''
-def getOSEventMap():
-    '''public Map<String, OSEventInfo> getOSEventMap(final String osName)
+    '''returns OSEventInfo\n\n
+    getEventInfo(final String osName, final String eventName)\n
     '''
 def isFireEvent():
-    '''public boolean isFireEvent(final String osName, final String eventName, final Mbo mbo)
+    '''returns boolean\n\n
+    isFireEvent(final String osName, final String eventName, final Mbo mbo)\n
     '''
 def getEventDesc():
-    '''public String getEventDesc(final String osName, final String eventName, final String langCode)
+    '''returns String\n\n
+    getEventDesc(final String osName, final String eventName, final String langCode)\n
     '''

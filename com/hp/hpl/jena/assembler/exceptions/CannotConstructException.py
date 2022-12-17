@@ -1,6 +1,8 @@
-def CannotConstructException():
-    '''public CannotConstructException(final Class<?> assemblerClass, final Resource root, final Resource type)
+def ():
+    '''returns CannotConstructException\n\n
+    (final Class<?> assemblerClass, final Resource root, final Resource type)\n
     '''
 def getType():
-    '''public Resource getType()
+    '''returns Resource\n\n
+    getType()\n
     '''

@@ -1,7 +1,9 @@
 SLMTAG_EXTENSION = "String  \"slmtag\""
-def RollingSlmTagWriter():
-    '''public RollingSlmTagWriter(final SoftwareIdentity softwareIdentity, final String outputFile, final int maxFileSize, final int maxFileNumber)
+def ():
+    '''returns RollingSlmTagWriter\n\n
+    (final SoftwareIdentity softwareIdentity, final String outputFile, final int maxFileSize, final int maxFileNumber)\n
     '''
 def logMetric():
-    '''public void logMetric(final Metric metric)
+    '''returns None\n\n
+    logMetric(final Metric metric)\n
     '''

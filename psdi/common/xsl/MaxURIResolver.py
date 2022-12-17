@@ -1,6 +1,8 @@
-def MaxURIResolver():
-    '''public MaxURIResolver(final String path)
+def ():
+    '''returns MaxURIResolver\n\n
+    (final String path)\n
     '''
 def resolve():
-    '''public Source resolve(final String href, final String base)
+    '''returns Source\n\n
+    resolve(final String href, final String base)\n
     '''

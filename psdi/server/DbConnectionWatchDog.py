@@ -1,38 +1,25 @@
-def getWatchDogConnectionData():
-    '''public static Map<Integer, ConnectionData> getWatchDogConnectionData()
-    '''
 def run():
-    '''public void run()
-    public void run()
-    '''
-def addConnection():
-    '''public static void addConnection(final int conRefId, final String SPID)
-    '''
-def printCreationStackIfAvailable():
-    '''public static String printCreationStackIfAvailable(final int conRefId, final String SPID)
-    '''
-def closeConnection():
-    '''public static void closeConnection(final int conRefId)
-    '''
-def log():
-    '''public static void log(final String optionalMessage)
-    public static void log(final String optionalMessage, final boolean openConnectionsAreErrors, final boolean sendMail)
-    '''
-def printDBManagerLog():
-    '''public static void printDBManagerLog()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def getCreateTime():
-    '''public long getCreateTime()
+    '''returns long\n\n
+    getCreateTime()\n
     '''
 def getConRefId():
-    '''public long getConRefId()
+    '''returns long\n\n
+    getConRefId()\n
     '''
 def getStackTrace():
-    '''public StackTraceElement[] getStackTrace()
+    '''returns StackTraceElement[]\n\n
+    getStackTrace()\n
     '''
 def getCloseTime():
-    '''public long getCloseTime()
+    '''returns long\n\n
+    getCloseTime()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,16 +1,17 @@
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    public String toString(final ConstantPool cp)
-    '''
-def getIndex():
-    '''public final int getIndex()
+    '''returns String\n\n
+    toString(final boolean verbose)\n
+    toString(final ConstantPool cp)\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cpg)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cpg)\n
     '''

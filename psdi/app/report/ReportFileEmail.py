@@ -1,6 +1,8 @@
-def ReportFileEmail():
-    '''public ReportFileEmail(final MboSet ms)
+def ():
+    '''returns ReportFileEmail\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

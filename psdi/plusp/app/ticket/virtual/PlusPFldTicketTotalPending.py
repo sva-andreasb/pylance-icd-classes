@@ -1,7 +1,9 @@
-def PlusPFldTicketTotalPending():
-    '''public PlusPFldTicketTotalPending()
-    public PlusPFldTicketTotalPending(final MboValue mbv)
+def ():
+    '''returns PlusPFldTicketTotalPending\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

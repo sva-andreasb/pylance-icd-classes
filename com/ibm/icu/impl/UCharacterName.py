@@ -1,65 +1,65 @@
 LINES_PER_GROUP_ = "int  32"
 def getName():
-    '''public String getName(final int ch, final int choice)
+    '''returns String\n\n
+    getName(final int ch, final int choice)\n
     '''
 def getCharFromName():
-    '''public int getCharFromName(final int choice, final String name)
+    '''returns int\n\n
+    getCharFromName(final int choice, final String name)\n
     '''
 def getGroupLengths():
-    '''public int getGroupLengths(int index, final char[] offsets, final char[] lengths)
+    '''returns int\n\n
+    getGroupLengths(int index, final char[] offsets, final char[] lengths)\n
     '''
 def getGroupName():
-    '''public String getGroupName(int index, int length, final int choice)
-    public synchronized String getGroupName(final int ch, final int choice)
+    '''returns String\n\n
+    getGroupName(int index, int length, final int choice)\n
     '''
 def getExtendedName():
-    '''public String getExtendedName(final int ch)
+    '''returns String\n\n
+    getExtendedName(final int ch)\n
     '''
 def getGroup():
-    '''public int getGroup(final int codepoint)
+    '''returns int\n\n
+    getGroup(final int codepoint)\n
     '''
 def getExtendedOr10Name():
-    '''public String getExtendedOr10Name(final int ch)
+    '''returns String\n\n
+    getExtendedOr10Name(final int ch)\n
     '''
 def getGroupMSB():
-    '''public int getGroupMSB(final int gindex)
-    '''
-def getCodepointMSB():
-    '''public static int getCodepointMSB(final int codepoint)
-    '''
-def getGroupLimit():
-    '''public static int getGroupLimit(final int msb)
-    '''
-def getGroupMin():
-    '''public static int getGroupMin(final int msb)
-    '''
-def getGroupOffset():
-    '''public static int getGroupOffset(final int codepoint)
-    '''
-def getGroupMinFromCodepoint():
-    '''public static int getGroupMinFromCodepoint(final int codepoint)
+    '''returns int\n\n
+    getGroupMSB(final int gindex)\n
     '''
 def getAlgorithmLength():
-    '''public int getAlgorithmLength()
+    '''returns int\n\n
+    getAlgorithmLength()\n
     '''
 def getAlgorithmStart():
-    '''public int getAlgorithmStart(final int index)
+    '''returns int\n\n
+    getAlgorithmStart(final int index)\n
     '''
 def getAlgorithmEnd():
-    '''public int getAlgorithmEnd(final int index)
+    '''returns int\n\n
+    getAlgorithmEnd(final int index)\n
     '''
 def getAlgorithmName():
-    '''public String getAlgorithmName(final int index, final int codepoint)
+    '''returns String\n\n
+    getAlgorithmName(final int index, final int codepoint)\n
     '''
 def getMaxCharNameLength():
-    '''public int getMaxCharNameLength()
+    '''returns int\n\n
+    getMaxCharNameLength()\n
     '''
 def getMaxISOCommentLength():
-    '''public int getMaxISOCommentLength()
+    '''returns int\n\n
+    getMaxISOCommentLength()\n
     '''
 def getCharNameCharacters():
-    '''public void getCharNameCharacters(final UnicodeSet set)
+    '''returns None\n\n
+    getCharNameCharacters(final UnicodeSet set)\n
     '''
 def getISOCommentCharacters():
-    '''public void getISOCommentCharacters(final UnicodeSet set)
+    '''returns None\n\n
+    getISOCommentCharacters(final UnicodeSet set)\n
     '''

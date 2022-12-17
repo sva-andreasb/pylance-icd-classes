@@ -1,3 +1,4 @@
-def XDGFFactory():
-    '''public XDGFFactory(final XDGFDocument document)
+def ():
+    '''returns XDGFFactory\n\n
+    (final XDGFDocument document)\n
     '''

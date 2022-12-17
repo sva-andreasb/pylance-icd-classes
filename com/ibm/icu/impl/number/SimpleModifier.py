@@ -1,28 +1,33 @@
-def SimpleModifier():
-    '''public SimpleModifier(final String compiledPattern, final Format.Field field, final boolean strong)
-    public SimpleModifier(final String compiledPattern, final Format.Field field, final boolean strong, final Parameters parameters)
+def ():
+    '''returns SimpleModifier\n\n
+    (final String compiledPattern, final Format.Field field, final boolean strong)\n
+    (final String compiledPattern, final Format.Field field, final boolean strong, final Parameters parameters)\n
     '''
 def apply():
-    '''public int apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)
+    '''returns int\n\n
+    apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)\n
     '''
 def getPrefixLength():
-    '''public int getPrefixLength()
+    '''returns int\n\n
+    getPrefixLength()\n
     '''
 def getCodePointCount():
-    '''public int getCodePointCount()
+    '''returns int\n\n
+    getCodePointCount()\n
     '''
 def isStrong():
-    '''public boolean isStrong()
+    '''returns boolean\n\n
+    isStrong()\n
     '''
 def containsField():
-    '''public boolean containsField(final Format.Field field)
+    '''returns boolean\n\n
+    containsField(final Format.Field field)\n
     '''
 def getParameters():
-    '''public Parameters getParameters()
+    '''returns Parameters\n\n
+    getParameters()\n
     '''
 def semanticallyEquivalent():
-    '''public boolean semanticallyEquivalent(final Modifier other)
-    '''
-def formatTwoArgPattern():
-    '''public static void formatTwoArgPattern(final String compiledPattern, final FormattedStringBuilder result, final int index, final PrefixInfixSuffixLengthHelper h, final Format.Field field)
+    '''returns boolean\n\n
+    semanticallyEquivalent(final Modifier other)\n
     '''

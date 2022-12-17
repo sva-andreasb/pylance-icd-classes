@@ -1,21 +1,28 @@
-def IlvActionHandlerArray():
-    '''public IlvActionHandlerArray()
+def ():
+    '''returns IlvActionHandlerArray\n\n
+    ()\n
     '''
 def isProcessingAction():
-    '''public boolean isProcessingAction(final String s)
+    '''returns boolean\n\n
+    isProcessingAction(final String s)\n
     '''
 def getActionHandler():
-    '''public ActionHandler getActionHandler(final String s)
+    '''returns ActionHandler\n\n
+    getActionHandler(final String s)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def updateAction():
-    '''public boolean updateAction(final Action action)
+    '''returns boolean\n\n
+    updateAction(final Action action)\n
     '''
 def addActionHandler():
-    '''public void addActionHandler(final ActionHandler e)
+    '''returns None\n\n
+    addActionHandler(final ActionHandler e)\n
     '''
 def removeActionHandler():
-    '''public boolean removeActionHandler(final ActionHandler o)
+    '''returns boolean\n\n
+    removeActionHandler(final ActionHandler o)\n
     '''

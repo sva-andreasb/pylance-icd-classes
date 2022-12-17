@@ -1,9 +1,12 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
-def MeterInfo():
-    '''public MeterInfo(final String name, final String type)
+def ():
+    '''returns MeterInfo\n\n
+    (final String name, final String type)\n
     '''

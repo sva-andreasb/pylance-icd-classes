@@ -1,3 +1,4 @@
-def SelfAxisIterator():
-    '''public SelfAxisIterator(final Object node)
+def ():
+    '''returns SelfAxisIterator\n\n
+    (final Object node)\n
     '''

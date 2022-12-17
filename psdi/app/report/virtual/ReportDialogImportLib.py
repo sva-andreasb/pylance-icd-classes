@@ -1,15 +1,20 @@
-def ReportDialogImportLib():
-    '''public ReportDialogImportLib(final MboSet ms)
+def ():
+    '''returns ReportDialogImportLib\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def doesLibraryExist():
-    '''public boolean doesLibraryExist(final ReportImportInfo reportInfo, final UserInfo uInfo)
+    '''returns boolean\n\n
+    doesLibraryExist(final ReportImportInfo reportInfo, final UserInfo uInfo)\n
     '''
 def doResourcesExist():
-    '''public byte[] doResourcesExist(final ReportImportInfo reportInfo, final UserInfo uInfo)
+    '''returns byte[]\n\n
+    doResourcesExist(final ReportImportInfo reportInfo, final UserInfo uInfo)\n
     '''
 def importLibrary():
-    '''public void importLibrary(final ReportImportInfo reportInfo, final UserInfo uInfo)
+    '''returns None\n\n
+    importLibrary(final ReportImportInfo reportInfo, final UserInfo uInfo)\n
     '''

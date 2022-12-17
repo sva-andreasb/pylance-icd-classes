@@ -1,22 +1,22 @@
-def TrustStoreConfiguration():
-    '''public TrustStoreConfiguration(final String location, final PasswordProvider passwordProvider, final String keyStoreType, final String trustManagerFactoryAlgorithm)
-    public TrustStoreConfiguration(final String location, final char[] password, final String keyStoreType, final String trustManagerFactoryAlgorithm)
-    public TrustStoreConfiguration(final String location, final String password, final String keyStoreType, final String trustManagerFactoryAlgorithm)
-    '''
-def createKeyStoreConfiguration():
-    '''public static TrustStoreConfiguration createKeyStoreConfiguration(@PluginAttribute("location") final String location, @PluginAttribute(value = "password", sensitive = true) final char[] password, @PluginAttribute("passwordEnvironmentVariable") final String passwordEnvironmentVariable, @PluginAttribute("passwordFile") final String passwordFile, @PluginAttribute("type") final String keyStoreType, @PluginAttribute("trustManagerFactoryAlgorithm") final String trustManagerFactoryAlgorithm)
-    public static TrustStoreConfiguration createKeyStoreConfiguration(final String location, final char[] password, final String keyStoreType, final String trustManagerFactoryAlgorithm)
-    public static TrustStoreConfiguration createKeyStoreConfiguration(final String location, final String password, final String keyStoreType, final String trustManagerFactoryAlgorithm)
+def ():
+    '''returns TrustStoreConfiguration\n\n
+    (final String location, final PasswordProvider passwordProvider, final String keyStoreType, final String trustManagerFactoryAlgorithm)\n
+    (final String location, final char[] password, final String keyStoreType, final String trustManagerFactoryAlgorithm)\n
+    (final String location, final String password, final String keyStoreType, final String trustManagerFactoryAlgorithm)\n
     '''
 def initTrustManagerFactory():
-    '''public TrustManagerFactory initTrustManagerFactory()
+    '''returns TrustManagerFactory\n\n
+    initTrustManagerFactory()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getTrustManagerFactoryAlgorithm():
-    '''public String getTrustManagerFactoryAlgorithm()
+    '''returns String\n\n
+    getTrustManagerFactoryAlgorithm()\n
     '''

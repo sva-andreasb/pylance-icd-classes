@@ -1,15 +1,20 @@
-def HtmlSaveOptions():
-    '''public HtmlSaveOptions()
+def ():
+    '''returns HtmlSaveOptions\n\n
+    ()\n
     '''
 def getResourcePath():
-    '''public String getResourcePath()
+    '''returns String\n\n
+    getResourcePath()\n
     '''
 def setResourcePath():
-    '''public void setResourcePath(final String resourcePath)
+    '''returns None\n\n
+    setResourcePath(final String resourcePath)\n
     '''
 def isExportImagesAsBase64():
-    '''public boolean isExportImagesAsBase64()
+    '''returns boolean\n\n
+    isExportImagesAsBase64()\n
     '''
 def setExportImagesAsBase64():
-    '''public void setExportImagesAsBase64(final boolean exportImagesAsBase64)
+    '''returns None\n\n
+    setExportImagesAsBase64(final boolean exportImagesAsBase64)\n
     '''

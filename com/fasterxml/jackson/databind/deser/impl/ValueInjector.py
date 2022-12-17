@@ -1,10 +1,13 @@
-def ValueInjector():
-    '''public ValueInjector(final PropertyName propName, final JavaType type, final AnnotatedMember mutator, final Object valueId)
-    public ValueInjector(final PropertyName propName, final JavaType type, final Annotations contextAnnotations, final AnnotatedMember mutator, final Object valueId)
+def ():
+    '''returns ValueInjector\n\n
+    (final PropertyName propName, final JavaType type, final AnnotatedMember mutator, final Object valueId)\n
+    (final PropertyName propName, final JavaType type, final Annotations contextAnnotations, final AnnotatedMember mutator, final Object valueId)\n
     '''
 def findValue():
-    '''public Object findValue(final DeserializationContext context, final Object beanInstance)
+    '''returns Object\n\n
+    findValue(final DeserializationContext context, final Object beanInstance)\n
     '''
 def inject():
-    '''public void inject(final DeserializationContext context, final Object beanInstance)
+    '''returns None\n\n
+    inject(final DeserializationContext context, final Object beanInstance)\n
     '''

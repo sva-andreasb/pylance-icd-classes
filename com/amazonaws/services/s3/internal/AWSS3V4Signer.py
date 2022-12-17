@@ -1,3 +1,4 @@
-def AWSS3V4Signer():
-    '''public AWSS3V4Signer()
+def ():
+    '''returns AWSS3V4Signer\n\n
+    ()\n
     '''

@@ -1,7 +1,9 @@
-def UnixResolverDnsServerAddressStreamProvider():
-    '''public UnixResolverDnsServerAddressStreamProvider(final File etcResolvConf, final File... etcResolverFiles)
-    public UnixResolverDnsServerAddressStreamProvider(final String etcResolvConf, final String etcResolverDir)
+def ():
+    '''returns UnixResolverDnsServerAddressStreamProvider\n\n
+    (final File etcResolvConf, final File... etcResolverFiles)\n
+    (final String etcResolvConf, final String etcResolverDir)\n
     '''
 def nameServerAddressStream():
-    '''public DnsServerAddressStream nameServerAddressStream(String hostname)
+    '''returns DnsServerAddressStream\n\n
+    nameServerAddressStream(String hostname)\n
     '''

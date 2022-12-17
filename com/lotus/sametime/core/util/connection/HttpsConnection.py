@@ -1,19 +1,25 @@
-def HttpsConnection():
-    '''public HttpsConnection(final String s, final int n, final String proxyServer, final int proxyPort, final String proxyLogin, final String proxyPassword, final long n2)
-    public HttpsConnection(final int n, final String s, final int n2, final String s2, final String s3, final long n3)
+def ():
+    '''returns HttpsConnection\n\n
+    (final String s, final int n, final String proxyServer, final int proxyPort, final String proxyLogin, final String proxyPassword, final long n2)\n
+    (final int n, final String s, final int n2, final String s2, final String s3, final long n3)\n
     '''
 def getProxyServer():
-    '''public String getProxyServer()
+    '''returns String\n\n
+    getProxyServer()\n
     '''
 def getProxyPort():
-    '''public int getProxyPort()
+    '''returns int\n\n
+    getProxyPort()\n
     '''
 def getProxyLogin():
-    '''public String getProxyLogin()
+    '''returns String\n\n
+    getProxyLogin()\n
     '''
 def getProxyPassword():
-    '''public String getProxyPassword()
+    '''returns String\n\n
+    getProxyPassword()\n
     '''
 def getConnectionInfo():
-    '''public ConnectionInfo getConnectionInfo()
+    '''returns ConnectionInfo\n\n
+    getConnectionInfo()\n
     '''

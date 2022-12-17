@@ -1,10 +1,13 @@
-def FldCommonActualDate():
-    '''public FldCommonActualDate(final MboValue mbv, final String fpName)
-    public FldCommonActualDate(final MboValue mbv)
+def ():
+    '''returns FldCommonActualDate\n\n
+    (final MboValue mbv, final String fpName)\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

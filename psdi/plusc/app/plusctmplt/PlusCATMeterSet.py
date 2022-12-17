@@ -1,3 +1,4 @@
-def PlusCATMeterSet():
-    '''public PlusCATMeterSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCATMeterSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,59 +1,78 @@
-def StringSegment():
-    '''public StringSegment(final String str, final boolean foldCase)
+def ():
+    '''returns StringSegment\n\n
+    (final String str, final boolean foldCase)\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''
 def setOffset():
-    '''public void setOffset(final int start)
+    '''returns None\n\n
+    setOffset(final int start)\n
     '''
 def adjustOffset():
-    '''public void adjustOffset(final int delta)
+    '''returns None\n\n
+    adjustOffset(final int delta)\n
     '''
 def adjustOffsetByCodePoint():
-    '''public void adjustOffsetByCodePoint()
+    '''returns None\n\n
+    adjustOffsetByCodePoint()\n
     '''
 def setLength():
-    '''public void setLength(final int length)
+    '''returns None\n\n
+    setLength(final int length)\n
     '''
 def resetLength():
-    '''public void resetLength()
+    '''returns None\n\n
+    resetLength()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''
 def getCodePoint():
-    '''public int getCodePoint()
+    '''returns int\n\n
+    getCodePoint()\n
     '''
 def codePointAt():
-    '''public int codePointAt(final int index)
+    '''returns int\n\n
+    codePointAt(final int index)\n
     '''
 def startsWith():
-    '''public boolean startsWith(final int otherCp)
-    public boolean startsWith(final UnicodeSet uniset)
-    public boolean startsWith(final CharSequence other)
+    '''returns boolean\n\n
+    startsWith(final int otherCp)\n
+    startsWith(final UnicodeSet uniset)\n
+    startsWith(final CharSequence other)\n
     '''
 def getCommonPrefixLength():
-    '''public int getCommonPrefixLength(final CharSequence other)
+    '''returns int\n\n
+    getCommonPrefixLength(final CharSequence other)\n
     '''
 def getCaseSensitivePrefixLength():
-    '''public int getCaseSensitivePrefixLength(final CharSequence other)
+    '''returns int\n\n
+    getCaseSensitivePrefixLength(final CharSequence other)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def asString():
-    '''public String asString()
+    '''returns String\n\n
+    asString()\n
     '''

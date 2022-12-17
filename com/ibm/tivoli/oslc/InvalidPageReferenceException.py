@@ -1,6 +1,8 @@
-def InvalidPageReferenceException():
-    '''public InvalidPageReferenceException(final int pageNum)
+def ():
+    '''returns InvalidPageReferenceException\n\n
+    (final int pageNum)\n
     '''
 def getReferencedPage():
-    '''public int getReferencedPage()
+    '''returns int\n\n
+    getReferencedPage()\n
     '''

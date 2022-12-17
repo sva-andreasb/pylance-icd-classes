@@ -1,19 +1,25 @@
-def Person():
-    '''public Person(final String firstName, final String lastName)
+def ():
+    '''returns Person\n\n
+    (final String firstName, final String lastName)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getFirstName():
-    '''public String getFirstName()
+    '''returns String\n\n
+    getFirstName()\n
     '''
 def setFirstName():
-    '''public void setFirstName(final String firstName)
+    '''returns None\n\n
+    setFirstName(final String firstName)\n
     '''
 def getLastName():
-    '''public String getLastName()
+    '''returns String\n\n
+    getLastName()\n
     '''
 def setLastName():
-    '''public void setLastName(final String lastName)
+    '''returns None\n\n
+    setLastName(final String lastName)\n
     '''

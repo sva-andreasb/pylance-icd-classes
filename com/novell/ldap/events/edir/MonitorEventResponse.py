@@ -1,6 +1,8 @@
-def MonitorEventResponse():
-    '''public MonitorEventResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns MonitorEventResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getSpecifierList():
-    '''public EdirEventSpecifier[] getSpecifierList()
+    '''returns EdirEventSpecifier[]\n\n
+    getSpecifierList()\n
     '''

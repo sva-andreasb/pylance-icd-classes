@@ -1,9 +1,11 @@
-def WildcardFilter():
-    '''public WildcardFilter(final String wildcard)
-    public WildcardFilter(final String[] wildcards)
-    public WildcardFilter(final List<String> wildcards)
+def ():
+    '''returns WildcardFilter\n\n
+    (final String wildcard)\n
+    (final String[] wildcards)\n
+    (final List<String> wildcards)\n
     '''
 def accept():
-    '''public boolean accept(final File dir, final String name)
-    public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File dir, final String name)\n
+    accept(final File file)\n
     '''

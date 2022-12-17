@@ -1,25 +1,33 @@
-def ItemsExtension():
-    '''public ItemsExtension(final ItemsElementType itemsType, final String nodeId, final List<? extends NamedElement> items)
-    public ItemsExtension(final String nodeId, final List<? extends ExtensionElement> items, final boolean notify)
+def ():
+    '''returns ItemsExtension\n\n
+    (final ItemsElementType itemsType, final String nodeId, final List<? extends NamedElement> items)\n
+    (final String nodeId, final List<? extends ExtensionElement> items, final boolean notify)\n
     '''
 def getItemsElementType():
-    '''public ItemsElementType getItemsElementType()
+    '''returns ItemsElementType\n\n
+    getItemsElementType()\n
     '''
 def getExtensions():
-    '''public List<ExtensionElement> getExtensions()
+    '''returns List<ExtensionElement>\n\n
+    getExtensions()\n
     '''
 def getNotify():
-    '''public boolean getNotify()
+    '''returns boolean\n\n
+    getNotify()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getNodeElement():
-    '''public PubSubElementType getNodeElement()
+    '''returns PubSubElementType\n\n
+    getNodeElement()\n
     '''
 def getElementAttribute():
-    '''public String getElementAttribute()
+    '''returns String\n\n
+    getElementAttribute()\n
     '''

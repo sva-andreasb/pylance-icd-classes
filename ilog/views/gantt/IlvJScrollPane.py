@@ -1,40 +1,53 @@
-def IlvJScrollPane():
-    '''public IlvJScrollPane(final Component view, final int vsbPolicy, final int hsbPolicy)
-    public IlvJScrollPane(final Component component)
+def ():
+    '''returns IlvJScrollPane\n\n
+    (final Component view, final int vsbPolicy, final int hsbPolicy)\n
+    (final Component component)\n
     '''
 def isOpaque():
-    '''public boolean isOpaque()
+    '''returns boolean\n\n
+    isOpaque()\n
     '''
 def getViewportBackground():
-    '''public Color getViewportBackground()
+    '''returns Color\n\n
+    getViewportBackground()\n
     '''
 def setViewportBackground():
-    '''public void setViewportBackground(final Color color)
+    '''returns None\n\n
+    setViewportBackground(final Color color)\n
     '''
 def getMaxVerticalPosition():
-    '''public int getMaxVerticalPosition()
+    '''returns int\n\n
+    getMaxVerticalPosition()\n
     '''
 def setMaxVerticalPosition():
-    '''public void setMaxVerticalPosition(final int n)
+    '''returns None\n\n
+    setMaxVerticalPosition(final int n)\n
     '''
 def getVerticalPosition():
-    '''public int getVerticalPosition()
+    '''returns int\n\n
+    getVerticalPosition()\n
     '''
 def setVerticalPosition():
-    '''public void setVerticalPosition(final int y)
+    '''returns None\n\n
+    setVerticalPosition(final int y)\n
     '''
 def getVerticalExtent():
-    '''public int getVerticalExtent()
+    '''returns int\n\n
+    getVerticalExtent()\n
     '''
 def setVerticalExtent():
-    '''public void setVerticalExtent(final int n)
+    '''returns None\n\n
+    setVerticalExtent(final int n)\n
     '''
 def addVerticalScrollListener():
-    '''public void addVerticalScrollListener(final VerticalScrollListener l)
+    '''returns None\n\n
+    addVerticalScrollListener(final VerticalScrollListener l)\n
     '''
 def removeVerticalScrollListener():
-    '''public void removeVerticalScrollListener(final VerticalScrollListener l)
+    '''returns None\n\n
+    removeVerticalScrollListener(final VerticalScrollListener l)\n
     '''
 def stateChanged():
-    '''public void stateChanged(final ChangeEvent changeEvent)
+    '''returns None\n\n
+    stateChanged(final ChangeEvent changeEvent)\n
     '''

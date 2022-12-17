@@ -1,3 +1,4 @@
-def WFSubProcessSet():
-    '''public WFSubProcessSet(final MboServerInterface ms)
+def ():
+    '''returns WFSubProcessSet\n\n
+    (final MboServerInterface ms)\n
     '''

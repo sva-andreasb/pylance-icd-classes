@@ -1,3 +1,4 @@
-def ContractMaster():
-    '''public ContractMaster(final MboSet ms)
+def ():
+    '''returns ContractMaster\n\n
+    (final MboSet ms)\n
     '''

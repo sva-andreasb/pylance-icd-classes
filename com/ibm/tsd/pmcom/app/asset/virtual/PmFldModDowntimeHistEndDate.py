@@ -1,6 +1,8 @@
-def PmFldModDowntimeHistEndDate():
-    '''public PmFldModDowntimeHistEndDate(final MboValue mbv)
+def ():
+    '''returns PmFldModDowntimeHistEndDate\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

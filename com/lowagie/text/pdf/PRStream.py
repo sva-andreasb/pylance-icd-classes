@@ -1,30 +1,39 @@
-def PRStream():
-    '''public PRStream(final PRStream stream, final PdfDictionary newDic)
-    public PRStream(final PRStream stream, final PdfDictionary newDic, final PdfReader reader)
-    public PRStream(final PdfReader reader, final int offset)
-    public PRStream(final PdfReader reader, final byte[] conts)
+def ():
+    '''returns PRStream\n\n
+    (final PRStream stream, final PdfDictionary newDic)\n
+    (final PRStream stream, final PdfDictionary newDic, final PdfReader reader)\n
+    (final PdfReader reader, final int offset)\n
+    (final PdfReader reader, final byte[] conts)\n
     '''
 def setData():
-    '''public void setData(final byte[] data)
+    '''returns None\n\n
+    setData(final byte[] data)\n
     '''
 def setLength():
-    '''public void setLength(final int length)
+    '''returns None\n\n
+    setLength(final int length)\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getReader():
-    '''public PdfReader getReader()
+    '''returns PdfReader\n\n
+    getReader()\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def setObjNum():
-    '''public void setObjNum(final int objNum, final int objGen)
+    '''returns None\n\n
+    setObjNum(final int objNum, final int objGen)\n
     '''
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''

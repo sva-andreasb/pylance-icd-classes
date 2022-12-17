@@ -1,3 +1,4 @@
-def ConversionNotSupportedException():
-    '''public ConversionNotSupportedException(final FileType from, final FileType to)
+def ():
+    '''returns ConversionNotSupportedException\n\n
+    (final FileType from, final FileType to)\n
     '''

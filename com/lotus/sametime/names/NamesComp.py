@@ -1,24 +1,24 @@
-def NamesComp():
-    '''public NamesComp(final STSession stSession)
-    '''
-def addNamesServiceListener():
-    '''public synchronized void addNamesServiceListener(final NamesServiceListener obj)
-    '''
-def removeNamesServiceListener():
-    '''public synchronized void removeNamesServiceListener(final NamesServiceListener obj)
+def ():
+    '''returns NamesComp\n\n
+    (final STSession stSession)\n
     '''
 def setUserName():
-    '''public void setUserName(final STUser value)
+    '''returns None\n\n
+    setUserName(final STUser value)\n
     '''
 def getUser():
-    '''public STUser getUser(final STUser stUser)
+    '''returns STUser\n\n
+    getUser(final STUser stUser)\n
     '''
 def getNickname():
-    '''public String getNickname(final STUser stUser)
+    '''returns String\n\n
+    getNickname(final STUser stUser)\n
     '''
 def setNameDelimiter():
-    '''public void setNameDelimiter(final String nameDelimiter)
+    '''returns None\n\n
+    setNameDelimiter(final String nameDelimiter)\n
     '''
 def getNameDelimiter():
-    '''public String getNameDelimiter()
+    '''returns String\n\n
+    getNameDelimiter()\n
     '''

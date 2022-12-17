@@ -1,85 +1,106 @@
-def EnhancedDebugger():
-    '''public EnhancedDebugger(final XMPPConnection connection)
+def ():
+    '''returns EnhancedDebugger\n\n
+    (final XMPPConnection connection)\n
     '''
 def reconnectingIn():
-    '''public void reconnectingIn(final int seconds)
+    '''returns None\n\n
+    reconnectingIn(final int seconds)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def reconnectionFailed():
-    '''public void reconnectionFailed(final Exception e)
+    '''returns None\n\n
+    reconnectionFailed(final Exception e)\n
     '''
 def connectionClosed():
-    '''public void connectionClosed()
+    '''returns None\n\n
+    connectionClosed()\n
     '''
 def connectionClosedOnError():
-    '''public void connectionClosedOnError(final Exception e)
+    '''returns None\n\n
+    connectionClosedOnError(final Exception e)\n
     '''
 def isCellEditable():
-    '''public boolean isCellEditable(final int rowIndex, final int mColIndex)
-    public boolean isCellEditable(final int rowIndex, final int mColIndex)
+    '''returns boolean\n\n
+    isCellEditable(final int rowIndex, final int mColIndex)\n
+    isCellEditable(final int rowIndex, final int mColIndex)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def read():
-    '''public void read(final String str)
+    '''returns None\n\n
+    read(final String str)\n
     '''
 def write():
-    '''public void write(final String str)
+    '''returns None\n\n
+    write(final String str)\n
     '''
 def newConnectionReader():
-    '''public Reader newConnectionReader(final Reader newReader)
+    '''returns Reader\n\n
+    newConnectionReader(final Reader newReader)\n
     '''
 def newConnectionWriter():
-    '''public Writer newConnectionWriter(final Writer newWriter)
+    '''returns Writer\n\n
+    newConnectionWriter(final Writer newWriter)\n
     '''
 def userHasLogged():
-    '''public void userHasLogged(final EntityFullJid user)
+    '''returns None\n\n
+    userHasLogged(final EntityFullJid user)\n
     '''
 def onIncomingStreamElement():
-    '''public void onIncomingStreamElement(final TopLevelStreamElement streamElement)
+    '''returns None\n\n
+    onIncomingStreamElement(final TopLevelStreamElement streamElement)\n
     '''
 def onOutgoingStreamElement():
-    '''public void onOutgoingStreamElement(final TopLevelStreamElement streamElement)
+    '''returns None\n\n
+    onOutgoingStreamElement(final TopLevelStreamElement streamElement)\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent e)\n
     '''
 def create():
-    '''public SmackDebugger create(final XMPPConnection connection)
+    '''returns SmackDebugger\n\n
+    create(final XMPPConnection connection)\n
     '''

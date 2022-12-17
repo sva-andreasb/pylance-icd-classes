@@ -1,15 +1,15 @@
-def create():
-    '''public static BufferSupplier create()
-    '''
 def get():
-    '''public ByteBuffer get(final int capacity)
-    public ByteBuffer get(final int size)
+    '''returns ByteBuffer\n\n
+    get(final int capacity)\n
+    get(final int size)\n
     '''
 def release():
-    '''public void release(final ByteBuffer buffer)
-    public void release(final ByteBuffer buffer)
+    '''returns None\n\n
+    release(final ByteBuffer buffer)\n
+    release(final ByteBuffer buffer)\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''

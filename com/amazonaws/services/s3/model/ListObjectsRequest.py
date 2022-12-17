@@ -1,58 +1,77 @@
-def ListObjectsRequest():
-    '''public ListObjectsRequest()
-    public ListObjectsRequest(final String bucketName, final String prefix, final String marker, final String delimiter, final Integer maxKeys)
+def ():
+    '''returns ListObjectsRequest\n\n
+    ()\n
+    (final String bucketName, final String prefix, final String marker, final String delimiter, final Integer maxKeys)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public ListObjectsRequest withBucketName(final String bucketName)
+    '''returns ListObjectsRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def withPrefix():
-    '''public ListObjectsRequest withPrefix(final String prefix)
+    '''returns ListObjectsRequest\n\n
+    withPrefix(final String prefix)\n
     '''
 def getMarker():
-    '''public String getMarker()
+    '''returns String\n\n
+    getMarker()\n
     '''
 def setMarker():
-    '''public void setMarker(final String marker)
+    '''returns None\n\n
+    setMarker(final String marker)\n
     '''
 def withMarker():
-    '''public ListObjectsRequest withMarker(final String marker)
+    '''returns ListObjectsRequest\n\n
+    withMarker(final String marker)\n
     '''
 def getDelimiter():
-    '''public String getDelimiter()
+    '''returns String\n\n
+    getDelimiter()\n
     '''
 def setDelimiter():
-    '''public void setDelimiter(final String delimiter)
+    '''returns None\n\n
+    setDelimiter(final String delimiter)\n
     '''
 def withDelimiter():
-    '''public ListObjectsRequest withDelimiter(final String delimiter)
+    '''returns ListObjectsRequest\n\n
+    withDelimiter(final String delimiter)\n
     '''
 def getMaxKeys():
-    '''public Integer getMaxKeys()
+    '''returns Integer\n\n
+    getMaxKeys()\n
     '''
 def setMaxKeys():
-    '''public void setMaxKeys(final Integer maxKeys)
+    '''returns None\n\n
+    setMaxKeys(final Integer maxKeys)\n
     '''
 def withMaxKeys():
-    '''public ListObjectsRequest withMaxKeys(final Integer maxKeys)
+    '''returns ListObjectsRequest\n\n
+    withMaxKeys(final Integer maxKeys)\n
     '''
 def getEncodingType():
-    '''public String getEncodingType()
+    '''returns String\n\n
+    getEncodingType()\n
     '''
 def setEncodingType():
-    '''public void setEncodingType(final String encodingType)
+    '''returns None\n\n
+    setEncodingType(final String encodingType)\n
     '''
 def withEncodingType():
-    '''public ListObjectsRequest withEncodingType(final String encodingType)
+    '''returns ListObjectsRequest\n\n
+    withEncodingType(final String encodingType)\n
     '''

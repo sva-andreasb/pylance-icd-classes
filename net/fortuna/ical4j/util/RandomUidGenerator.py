@@ -1,3 +1,4 @@
 def generateUid():
-    '''public Uid generateUid()
+    '''returns Uid\n\n
+    generateUid()\n
     '''

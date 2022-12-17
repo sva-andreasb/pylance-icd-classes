@@ -4,41 +4,54 @@ MAX_INTERVAL_OPTION = "String  \"maxInterval\""
 MAX_LAZY_OPTION = "String  \"maxLazyTimeout\""
 META_CONNECT_DELIVERY_OPTION = "String  \"metaConnectDeliverOnly\""
 def getAdvice():
-    '''public Object getAdvice()
+    '''returns Object\n\n
+    getAdvice()\n
     '''
 def getInterval():
-    '''public long getInterval()
+    '''returns long\n\n
+    getInterval()\n
     '''
 def getMaxInterval():
-    '''public long getMaxInterval()
+    '''returns long\n\n
+    getMaxInterval()\n
     '''
 def getMaxLazyTimeout():
-    '''public long getMaxLazyTimeout()
+    '''returns long\n\n
+    getMaxLazyTimeout()\n
     '''
 def getTimeout():
-    '''public long getTimeout()
+    '''returns long\n\n
+    getTimeout()\n
     '''
 def isMetaConnectDeliveryOnly():
-    '''public boolean isMetaConnectDeliveryOnly()
+    '''returns boolean\n\n
+    isMetaConnectDeliveryOnly()\n
     '''
 def setMetaConnectDeliveryOnly():
-    '''public void setMetaConnectDeliveryOnly(final boolean meta)
+    '''returns None\n\n
+    setMetaConnectDeliveryOnly(final boolean meta)\n
     '''
 def getBayeux():
-    '''public BayeuxServerImpl getBayeux()
+    '''returns BayeuxServerImpl\n\n
+    getBayeux()\n
     '''
 def setInterval():
-    '''public void setInterval(final long interval)
+    '''returns None\n\n
+    setInterval(final long interval)\n
     '''
 def setMaxInterval():
-    '''public void setMaxInterval(final long maxInterval)
+    '''returns None\n\n
+    setMaxInterval(final long maxInterval)\n
     '''
 def setTimeout():
-    '''public void setTimeout(final long timeout)
+    '''returns None\n\n
+    setTimeout(final long timeout)\n
     '''
 def setMaxLazyTimeout():
-    '''public void setMaxLazyTimeout(final long maxLazyTimeout)
+    '''returns None\n\n
+    setMaxLazyTimeout(final long maxLazyTimeout)\n
     '''
 def setAdvice():
-    '''public void setAdvice(final Object advice)
+    '''returns None\n\n
+    setAdvice(final Object advice)\n
     '''

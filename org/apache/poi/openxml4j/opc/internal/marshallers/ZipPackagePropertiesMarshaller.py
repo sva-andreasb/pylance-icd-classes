@@ -1,3 +1,4 @@
 def marshall():
-    '''public boolean marshall(final PackagePart part, final OutputStream out)
+    '''returns boolean\n\n
+    marshall(final PackagePart part, final OutputStream out)\n
     '''

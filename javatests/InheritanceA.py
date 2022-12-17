@@ -1,15 +1,12 @@
 def whoAmI():
-    '''public String whoAmI()
+    '''returns String\n\n
+    whoAmI()\n
     '''
 def root():
-    '''public String root()
+    '''returns String\n\n
+    root()\n
     '''
 def everyOther():
-    '''public String everyOther()
-    '''
-def staticWhoAmI():
-    '''public static String staticWhoAmI()
-    '''
-def staticRoot():
-    '''public static String staticRoot()
+    '''returns String\n\n
+    everyOther()\n
     '''

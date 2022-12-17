@@ -1,3 +1,4 @@
-def values():
-    '''public static TimeUnit[] values()
+def toString():
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,68 +1,86 @@
-def Get():
-    '''public Get()
+def ():
+    '''returns VerboseProgress\n\n
+    ()\n
+    (final PrintStream out)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def doGet():
-    '''public boolean doGet(final int logLevel, final DownloadProgress progress)
-    public boolean doGet(final URL source, final File dest, final int logLevel, DownloadProgress progress)
+    '''returns boolean\n\n
+    doGet(final int logLevel, final DownloadProgress progress)\n
+    doGet(final URL source, final File dest, final int logLevel, DownloadProgress progress)\n
     '''
 def setSrc():
-    '''public void setSrc(final URL u)
+    '''returns None\n\n
+    setSrc(final URL u)\n
     '''
 def add():
-    '''public void add(final ResourceCollection rc)
-    public void add(final FileNameMapper fileNameMapper)
+    '''returns None\n\n
+    add(final ResourceCollection rc)\n
+    add(final FileNameMapper fileNameMapper)\n
     '''
 def setDest():
-    '''public void setDest(final File dest)
+    '''returns None\n\n
+    setDest(final File dest)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean v)
+    '''returns None\n\n
+    setVerbose(final boolean v)\n
     '''
 def setIgnoreErrors():
-    '''public void setIgnoreErrors(final boolean v)
+    '''returns None\n\n
+    setIgnoreErrors(final boolean v)\n
     '''
 def setUseTimestamp():
-    '''public void setUseTimestamp(final boolean v)
+    '''returns None\n\n
+    setUseTimestamp(final boolean v)\n
     '''
 def setUsername():
-    '''public void setUsername(final String u)
+    '''returns None\n\n
+    setUsername(final String u)\n
     '''
 def setPassword():
-    '''public void setPassword(final String p)
+    '''returns None\n\n
+    setPassword(final String p)\n
     '''
 def setMaxTime():
-    '''public void setMaxTime(final long maxTime)
+    '''returns None\n\n
+    setMaxTime(final long maxTime)\n
     '''
 def setRetries():
-    '''public void setRetries(final int r)
+    '''returns None\n\n
+    setRetries(final int r)\n
     '''
 def setSkipExisting():
-    '''public void setSkipExisting(final boolean s)
+    '''returns None\n\n
+    setSkipExisting(final boolean s)\n
     '''
 def setHttpUseCaches():
-    '''public void setHttpUseCaches(final boolean httpUseCache)
+    '''returns None\n\n
+    setHttpUseCaches(final boolean httpUseCache)\n
     '''
 def createMapper():
-    '''public Mapper createMapper()
+    '''returns Mapper\n\n
+    createMapper()\n
     '''
 def beginDownload():
-    '''public void beginDownload()
-    public void beginDownload()
+    '''returns None\n\n
+    beginDownload()\n
+    beginDownload()\n
     '''
 def onTick():
-    '''public void onTick()
-    public void onTick()
+    '''returns None\n\n
+    onTick()\n
+    onTick()\n
     '''
 def endDownload():
-    '''public void endDownload()
-    public void endDownload()
-    '''
-def VerboseProgress():
-    '''public VerboseProgress(final PrintStream out)
+    '''returns None\n\n
+    endDownload()\n
+    endDownload()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

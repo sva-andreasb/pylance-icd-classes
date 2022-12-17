@@ -1,12 +1,12 @@
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def getModuleExtension():
-    '''public String getModuleExtension()
+    '''returns String\n\n
+    getModuleExtension()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def getModuleType():
-    '''public static ModuleType getModuleType(final int value)
+    '''returns String\n\n
+    toString()\n
     '''

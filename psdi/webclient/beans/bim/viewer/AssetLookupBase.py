@@ -1,48 +1,60 @@
-def AssetLookupBase():
-    '''public AssetLookupBase()
+def ():
+    '''returns AssetLookupBase\n\n
+    ()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def setCurrentRecordToAppLocation():
-    '''public void setCurrentRecordToAppLocation()
+    '''returns None\n\n
+    setCurrentRecordToAppLocation()\n
     '''
 def bimviewer():
-    '''public int bimviewer()
+    '''returns int\n\n
+    bimviewer()\n
     '''
 def bimModelListChanged():
-    '''public int bimModelListChanged()
+    '''returns int\n\n
+    bimModelListChanged()\n
     '''
 def setCurrentBeanRecord():
-    '''public void setCurrentBeanRecord(final String modelLocation)
+    '''returns None\n\n
+    setCurrentBeanRecord(final String modelLocation)\n
     '''
 def eventMultiSelect():
-    '''public int eventMultiSelect()
+    '''returns int\n\n
+    eventMultiSelect()\n
     '''
 def appendSelection():
-    '''public int appendSelection()
+    '''returns int\n\n
+    appendSelection()\n
     '''
 def getBinding():
-    '''public String getBinding()
+    '''returns String\n\n
+    getBinding()\n
     '''
 def getModel():
-    '''public BIMViewer getModel()
+    '''returns BIMViewer\n\n
+    getModel()\n
     '''
 def getValueList():
-    '''public Set<String> getValueList()
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''returns Set<String>\n\n
+    getValueList()\n
     '''
 def insertAssets():
-    '''public void insertAssets(final MboRemote appMbo, final Set<String> newAssets, final String siteid)
+    '''returns None\n\n
+    insertAssets(final MboRemote appMbo, final Set<String> newAssets, final String siteid)\n
     '''
 def insertLocations():
-    '''public void insertLocations(final MboRemote appMbo, final Set<String> newLocations, final String siteid)
+    '''returns None\n\n
+    insertLocations(final MboRemote appMbo, final Set<String> newLocations, final String siteid)\n
     '''

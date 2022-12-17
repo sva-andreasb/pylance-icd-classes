@@ -1,18 +1,24 @@
-def MaxIntErrorSet():
-    '''public MaxIntErrorSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIntErrorSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def processAll():
-    '''public void processAll(final boolean isDelete)
+    '''returns None\n\n
+    processAll(final boolean isDelete)\n
     '''
 def processSelected():
-    '''public void processSelected(final Vector selected, final boolean isDelete)
+    '''returns None\n\n
+    processSelected(final Vector selected, final boolean isDelete)\n
     '''
 def process():
-    '''public void process(final List<String> selected, final boolean isDelete)
+    '''returns None\n\n
+    process(final List<String> selected, final boolean isDelete)\n
     '''
 def doProcess():
-    '''public void doProcess(final String key, final boolean isDelete)
+    '''returns None\n\n
+    doProcess(final String key, final boolean isDelete)\n
     '''

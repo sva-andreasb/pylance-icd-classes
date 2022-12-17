@@ -1,18 +1,24 @@
-def JRockitAgent():
-    '''public JRockitAgent()
+def ():
+    '''returns JRockitAgent\n\n
+    ()\n
     '''
 def preProcess():
-    '''public byte[] preProcess(final ClassLoader loader, final String className, final byte[] bytes)
+    '''returns byte[]\n\n
+    preProcess(final ClassLoader loader, final String className, final byte[] bytes)\n
     '''
 def empty():
-    '''public boolean empty()
+    '''returns boolean\n\n
+    empty()\n
     '''
 def peek():
-    '''public Object peek()
+    '''returns Object\n\n
+    peek()\n
     '''
 def push():
-    '''public void push(final Object obj)
+    '''returns None\n\n
+    push(final Object obj)\n
     '''
 def pop():
-    '''public Object pop()
+    '''returns Object\n\n
+    pop()\n
     '''

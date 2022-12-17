@@ -1,3 +1,4 @@
-def FldTagOutId():
-    '''public FldTagOutId(final MboValue mbv)
+def ():
+    '''returns FldTagOutId\n\n
+    (final MboValue mbv)\n
     '''

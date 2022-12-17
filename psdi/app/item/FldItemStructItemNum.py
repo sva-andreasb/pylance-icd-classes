@@ -1,18 +1,24 @@
-def FldItemStructItemNum():
-    '''public FldItemStructItemNum(final MboValue mbv)
+def ():
+    '''returns FldItemStructItemNum\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''

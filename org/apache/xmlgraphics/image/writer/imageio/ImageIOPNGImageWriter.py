@@ -1,3 +1,4 @@
-def ImageIOPNGImageWriter():
-    '''public ImageIOPNGImageWriter()
+def ():
+    '''returns ImageIOPNGImageWriter\n\n
+    ()\n
     '''

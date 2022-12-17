@@ -1,3 +1,4 @@
-def AHScoreMapSet():
-    '''public AHScoreMapSet(final MboServerInterface ms)
+def ():
+    '''returns AHScoreMapSet\n\n
+    (final MboServerInterface ms)\n
     '''

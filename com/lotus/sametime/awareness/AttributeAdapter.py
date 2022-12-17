@@ -1,12 +1,16 @@
 def attrChanged():
-    '''public void attrChanged(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    attrChanged(final AttributeEvent attributeEvent)\n
     '''
 def attrRemoved():
-    '''public void attrRemoved(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    attrRemoved(final AttributeEvent attributeEvent)\n
     '''
 def attrContentQueried():
-    '''public void attrContentQueried(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    attrContentQueried(final AttributeEvent attributeEvent)\n
     '''
 def queryAttrContentFailed():
-    '''public void queryAttrContentFailed(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    queryAttrContentFailed(final AttributeEvent attributeEvent)\n
     '''

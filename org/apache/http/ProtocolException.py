@@ -1,5 +1,6 @@
-def ProtocolException():
-    '''public ProtocolException()
-    public ProtocolException(final String message)
-    public ProtocolException(final String message, final Throwable cause)
+def ():
+    '''returns ProtocolException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

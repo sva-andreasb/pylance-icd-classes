@@ -1,6 +1,8 @@
-def FldReorderDescriptionView():
-    '''public FldReorderDescriptionView(final MboValue mbv)
+def ():
+    '''returns FldReorderDescriptionView\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

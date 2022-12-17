@@ -1,7 +1,9 @@
 def signal():
-    '''public void signal()
+    '''returns None\n\n
+    signal()\n
     '''
 def signalFailure():
-    '''public void signalFailure()
-    public void signalFailure(final String failureMessage)
+    '''returns None\n\n
+    signalFailure()\n
+    signalFailure(final String failureMessage)\n
     '''

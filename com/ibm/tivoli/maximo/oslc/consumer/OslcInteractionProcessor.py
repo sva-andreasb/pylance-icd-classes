@@ -1,52 +1,52 @@
-def OslcInteractionProcessor():
-    '''public OslcInteractionProcessor(final OslcEndPointData epData, final String interactionName, final MboRemote mbo)
-    public OslcInteractionProcessor(final String providerName)
-    public OslcInteractionProcessor(final OslcEndPointData epData)
-    public OslcInteractionProcessor(final OslcEndPointData epData, final MboRemote mbo, final String updatePropName, final String updatePropNs)
+def ():
+    '''returns OslcInteractionProcessor\n\n
+    (final OslcEndPointData epData, final String interactionName, final MboRemote mbo)\n
+    (final String providerName)\n
+    (final OslcEndPointData epData)\n
+    (final OslcEndPointData epData, final MboRemote mbo, final String updatePropName, final String updatePropNs)\n
     '''
 def getServiceProviders():
-    '''public List<OslcServiceProviderInfo> getServiceProviders()
+    '''returns List<OslcServiceProviderInfo>\n\n
+    getServiceProviders()\n
     '''
 def fetchQueryResult():
-    '''public void fetchQueryResult(final OslcEndPointData epData, final String spURI, MboSetRemote oslcResultSetRemote)
+    '''returns None\n\n
+    fetchQueryResult(final OslcEndPointData epData, final String spURI, MboSetRemote oslcResultSetRemote)\n
     '''
 def fetchQueryCollection():
-    '''public Resource fetchQueryCollection(final OslcEndPointData epData, String spURI)
+    '''returns Resource\n\n
+    fetchQueryCollection(final OslcEndPointData epData, String spURI)\n
     '''
 def isPreferProviderDescForRRURI():
-    '''public boolean isPreferProviderDescForRRURI(final String desc)
+    '''returns boolean\n\n
+    isPreferProviderDescForRRURI(final String desc)\n
     '''
 def getDialog():
-    '''public OslcDialogInfo getDialog(final OslcEndPointData epData, final String spURI)
+    '''returns OslcDialogInfo\n\n
+    getDialog(final OslcEndPointData epData, final String spURI)\n
     '''
 def nativePreview():
-    '''public void nativePreview(final String resourceURI, final MboRemote linkMbo)
+    '''returns None\n\n
+    nativePreview(final String resourceURI, final MboRemote linkMbo)\n
     '''
 def getPreviewDialog():
-    '''public OslcDialogInfo getPreviewDialog(final String resourceURI)
+    '''returns OslcDialogInfo\n\n
+    getPreviewDialog(final String resourceURI)\n
     '''
 def createOslcLinkFromEvent():
-    '''public void createOslcLinkFromEvent(final String event, final OslcServiceProviderInfo selectedServiceProviderInfo)
+    '''returns None\n\n
+    createOslcLinkFromEvent(final String event, final OslcServiceProviderInfo selectedServiceProviderInfo)\n
     '''
 def updateLinkedResource():
-    '''public void updateLinkedResource(final String contextPath)
+    '''returns None\n\n
+    updateLinkedResource(final String contextPath)\n
     '''
 def deleteAssociation():
-    '''public void deleteAssociation(final String contextPath, final String linkedResourceURI)
-    '''
-def createResource():
-    '''public Map<String, Object> createResource(final String resTypeURI, final Resource res, final Locale locale, final boolean errorOnStatus)
-    public Map<String, Object> createResource(String resTypeURI, final Resource res, final Locale locale, final boolean errorOnStatus, final Map<String, Object> metaDataForProvider)
+    '''returns None\n\n
+    deleteAssociation(final String contextPath, final String linkedResourceURI)\n
     '''
 def getResource():
-    '''public OslcResource getResource(final String uri, final Locale locale, final boolean errorOnStatus)
-    public OslcResource getResource(final String uri, final Locale locale, final boolean errorOnStatus, final Map<String, Object> metaDataForProvider)
-    '''
-def updateResource():
-    '''public Map<String, Object> updateResource(final Resource res, final String etag, final Locale locale, final boolean errorOnStatus)
-    public Map<String, Object> updateResource(final Resource res, final String etag, final Locale locale, final boolean errorOnStatus, final Map<String, Object> metaDataForProvider)
-    '''
-def deleteResource():
-    '''public Map<String, Object> deleteResource(final String resURI, final String etag, final boolean errorOnStatus)
-    public Map<String, Object> deleteResource(final String resURI, final String etag, final boolean errorOnStatus, final Map<String, Object> metaDataForProvider)
+    '''returns OslcResource\n\n
+    getResource(final String uri, final Locale locale, final boolean errorOnStatus)\n
+    getResource(final String uri, final Locale locale, final boolean errorOnStatus, final Map<String, Object> metaDataForProvider)\n
     '''

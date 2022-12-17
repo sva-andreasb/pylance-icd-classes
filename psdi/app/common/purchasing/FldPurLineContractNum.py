@@ -1,9 +1,12 @@
-def FldPurLineContractNum():
-    '''public FldPurLineContractNum(final MboValue mbv)
+def ():
+    '''returns FldPurLineContractNum\n\n
+    (final MboValue mbv)\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,10 +1,13 @@
 def testResetWhereClause():
-    '''public void testResetWhereClause()
+    '''returns None\n\n
+    testResetWhereClause()\n
     '''
 def visit():
-    '''public void visit(final BaseTag baseTag)
-    public void visit(final BaseTag baseTag)
+    '''returns None\n\n
+    visit(final BaseTag baseTag)\n
+    visit(final BaseTag baseTag)\n
     '''
-def DumpRootVisitor():
-    '''public DumpRootVisitor(final boolean compareWhereClauses)
+def ():
+    '''returns DumpRootVisitor\n\n
+    (final boolean compareWhereClauses)\n
     '''

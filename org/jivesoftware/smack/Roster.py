@@ -1,79 +1,97 @@
-def getDefaultSubscriptionMode():
-    '''public static SubscriptionMode getDefaultSubscriptionMode()
-    '''
-def setDefaultSubscriptionMode():
-    '''public static void setDefaultSubscriptionMode(final SubscriptionMode subscriptionMode)
-    '''
 def connectionClosed():
-    '''public void connectionClosed()
+    '''returns None\n\n
+    connectionClosed()\n
     '''
 def connectionClosedOnError():
-    '''public void connectionClosedOnError(final Exception e)
+    '''returns None\n\n
+    connectionClosedOnError(final Exception e)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final Connection connection)
+    '''returns None\n\n
+    connectionCreated(final Connection connection)\n
     '''
 def getSubscriptionMode():
-    '''public SubscriptionMode getSubscriptionMode()
+    '''returns SubscriptionMode\n\n
+    getSubscriptionMode()\n
     '''
 def setSubscriptionMode():
-    '''public void setSubscriptionMode(final SubscriptionMode subscriptionMode)
+    '''returns None\n\n
+    setSubscriptionMode(final SubscriptionMode subscriptionMode)\n
     '''
 def reload():
-    '''public void reload()
+    '''returns None\n\n
+    reload()\n
     '''
 def addRosterListener():
-    '''public void addRosterListener(final RosterListener rosterListener)
+    '''returns None\n\n
+    addRosterListener(final RosterListener rosterListener)\n
     '''
 def removeRosterListener():
-    '''public void removeRosterListener(final RosterListener rosterListener)
+    '''returns None\n\n
+    removeRosterListener(final RosterListener rosterListener)\n
     '''
 def createGroup():
-    '''public RosterGroup createGroup(final String name)
+    '''returns RosterGroup\n\n
+    createGroup(final String name)\n
     '''
 def createEntry():
-    '''public void createEntry(final String user, final String name, final String[] groups)
+    '''returns None\n\n
+    createEntry(final String user, final String name, final String[] groups)\n
     '''
 def removeEntry():
-    '''public void removeEntry(final RosterEntry entry)
+    '''returns None\n\n
+    removeEntry(final RosterEntry entry)\n
     '''
 def getEntryCount():
-    '''public int getEntryCount()
+    '''returns int\n\n
+    getEntryCount()\n
     '''
 def getEntries():
-    '''public Collection<RosterEntry> getEntries()
+    '''returns Collection<RosterEntry>\n\n
+    getEntries()\n
     '''
 def getUnfiledEntryCount():
-    '''public int getUnfiledEntryCount()
+    '''returns int\n\n
+    getUnfiledEntryCount()\n
     '''
 def getUnfiledEntries():
-    '''public Collection<RosterEntry> getUnfiledEntries()
+    '''returns Collection<RosterEntry>\n\n
+    getUnfiledEntries()\n
     '''
 def getEntry():
-    '''public RosterEntry getEntry(final String user)
+    '''returns RosterEntry\n\n
+    getEntry(final String user)\n
     '''
 def contains():
-    '''public boolean contains(final String user)
+    '''returns boolean\n\n
+    contains(final String user)\n
     '''
 def getGroup():
-    '''public RosterGroup getGroup(final String name)
+    '''returns RosterGroup\n\n
+    getGroup(final String name)\n
     '''
 def getGroupCount():
-    '''public int getGroupCount()
+    '''returns int\n\n
+    getGroupCount()\n
     '''
 def getGroups():
-    '''public Collection<RosterGroup> getGroups()
+    '''returns Collection<RosterGroup>\n\n
+    getGroups()\n
     '''
 def getPresence():
-    '''public Presence getPresence(final String user)
+    '''returns Presence\n\n
+    getPresence(final String user)\n
     '''
 def getPresenceResource():
-    '''public Presence getPresenceResource(final String userWithResource)
+    '''returns Presence\n\n
+    getPresenceResource(final String userWithResource)\n
     '''
 def getPresences():
-    '''public Iterator<Presence> getPresences(final String user)
+    '''returns Iterator<Presence>\n\n
+    getPresences(final String user)\n
     '''
 def processPacket():
-    '''public void processPacket(final Packet packet)
-    public void processPacket(final Packet packet)
+    '''returns None\n\n
+    processPacket(final Packet packet)\n
+    processPacket(final Packet packet)\n
     '''

@@ -1,33 +1,44 @@
 def init():
-    '''public void init(final String host, final int port, final boolean ssl, final String trustStore)
+    '''returns None\n\n
+    init(final String host, final int port, final boolean ssl, final String trustStore)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def isSSL():
-    '''public boolean isSSL()
+    '''returns boolean\n\n
+    isSSL()\n
     '''
 def getTrustStore():
-    '''public String getTrustStore()
+    '''returns String\n\n
+    getTrustStore()\n
     '''
 def getFingerPrint():
-    '''public long getFingerPrint()
+    '''returns long\n\n
+    getFingerPrint()\n
     '''

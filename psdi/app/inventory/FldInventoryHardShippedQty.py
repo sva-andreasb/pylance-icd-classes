@@ -1,6 +1,8 @@
-def FldInventoryHardShippedQty():
-    '''public FldInventoryHardShippedQty(final MboValue mbv)
+def ():
+    '''returns FldInventoryHardShippedQty\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

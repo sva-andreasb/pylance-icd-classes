@@ -1,33 +1,39 @@
-def open():
-    '''public static SocketChannel open()
-    '''
 def connect():
-    '''public boolean connect(final SocketAddress remote)
-    public boolean connect(final SocketAddress remote, final int timeout)
+    '''returns boolean\n\n
+    connect(final SocketAddress remote)\n
+    connect(final SocketAddress remote, final int timeout)\n
     '''
 def finishConnect():
-    '''public boolean finishConnect()
+    '''returns boolean\n\n
+    finishConnect()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def isConnectionPending():
-    '''public boolean isConnectionPending()
+    '''returns boolean\n\n
+    isConnectionPending()\n
     '''
 def socket():
-    '''public Socket socket()
+    '''returns Socket\n\n
+    socket()\n
     '''
 def read():
-    '''public long read(final ByteBuffer[] dsts, final int offset, final int length)
-    public int read(final ByteBuffer dst)
+    '''returns int\n\n
+    read(final ByteBuffer[] dsts, final int offset, final int length)\n
+    read(final ByteBuffer dst)\n
     '''
 def write():
-    '''public long write(final ByteBuffer[] srcs, final int offset, final int length)
-    public int write(final ByteBuffer src)
+    '''returns int\n\n
+    write(final ByteBuffer[] srcs, final int offset, final int length)\n
+    write(final ByteBuffer src)\n
     '''
 def implCloseSelectableChannel():
-    '''public void implCloseSelectableChannel()
+    '''returns None\n\n
+    implCloseSelectableChannel()\n
     '''
 def implConfigureBlocking():
-    '''public void implConfigureBlocking(final boolean block)
+    '''returns None\n\n
+    implConfigureBlocking(final boolean block)\n
     '''

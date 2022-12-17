@@ -1,44 +1,45 @@
-def IlvStringEvaluator():
-    '''public IlvStringEvaluator()
-    public IlvStringEvaluator(final String a)
+def ():
+    '''returns ConstantNode\n\n
+    ()\n
+    (final String a)\n
+    (final IlvStringEvaluatorFunction a)\n
+    ()\n
+    (final Object a)\n
     '''
 def initialize():
-    '''public void initialize(final IlvFormEditor e, final IlvEditionContext d)
+    '''returns None\n\n
+    initialize(final IlvFormEditor e, final IlvEditionContext d)\n
     '''
 def connectUI():
-    '''public void connectUI(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectUI(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
     '''
 def disconnectUI():
-    '''public void disconnectUI(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnectUI(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
     '''
 def evaluate():
-    '''public String evaluate(final String s)
-    public Object evaluate(final IlvEditionContext ilvEditionContext)
+    '''returns Object\n\n
+    evaluate(final String s)\n
+    evaluate(final IlvEditionContext ilvEditionContext)\n
     '''
 def evaluateBoolean():
-    '''public boolean evaluateBoolean(final String s)
+    '''returns boolean\n\n
+    evaluateBoolean(final String s)\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def setFormat():
-    '''public void setFormat(final String a)
+    '''returns None\n\n
+    setFormat(final String a)\n
     '''
 def read():
-    '''public void read(final Element element)
-    '''
-def RegisterFunction():
-    '''public static void RegisterFunction(final String s, final IlvStringEvaluatorFunction ilvStringEvaluatorFunction)
-    '''
-def FunctionNode():
-    '''public FunctionNode(final IlvStringEvaluatorFunction a)
-    '''
-def EvaluationNodeArray():
-    '''public EvaluationNodeArray()
+    '''returns None\n\n
+    read(final Element element)\n
     '''
 def setNodes():
-    '''public void setNodes(final EvaluationNode[] childNodes)
-    '''
-def ConstantNode():
-    '''public ConstantNode(final Object a)
+    '''returns None\n\n
+    setNodes(final EvaluationNode[] childNodes)\n
     '''

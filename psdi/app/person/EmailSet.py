@@ -1,3 +1,4 @@
-def EmailSet():
-    '''public EmailSet(final MboServerInterface ms)
+def ():
+    '''returns EmailSet\n\n
+    (final MboServerInterface ms)\n
     '''

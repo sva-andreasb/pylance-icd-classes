@@ -1,9 +1,12 @@
-def ActionOutboundProc():
-    '''public ActionOutboundProc()
+def ():
+    '''returns ActionOutboundProc\n\n
+    ()\n
     '''
 def isNull():
-    '''public boolean isNull(final String m)
+    '''returns boolean\n\n
+    isNull(final String m)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''returns int\n\n
+    checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)\n
     '''

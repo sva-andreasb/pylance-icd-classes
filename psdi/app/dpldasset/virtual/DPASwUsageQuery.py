@@ -1,3 +1,4 @@
-def DPASwUsageQuery():
-    '''public DPASwUsageQuery(final MboSet ms)
+def ():
+    '''returns DPASwUsageQuery\n\n
+    (final MboSet ms)\n
     '''

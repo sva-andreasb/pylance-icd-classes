@@ -1,3 +1,4 @@
-def InspResultStatusSet():
-    '''public InspResultStatusSet(final MboServerInterface ms)
+def ():
+    '''returns InspResultStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

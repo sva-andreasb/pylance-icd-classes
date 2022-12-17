@@ -1,32 +1,25 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
 def printGenerateUsage():
-    '''public void printGenerateUsage()
+    '''returns None\n\n
+    printGenerateUsage()\n
     '''
 def run():
-    '''public Object run(final Object object)
-    public void run(final IProgressMonitor progressMonitor)
-    '''
-def createEMFProject():
-    '''public static IProject createEMFProject(final IPath javaSource, final IPath projectLocationPath, final List referencedProjects, final IProgressMonitor progressMonitor, final int style)
-    public static IProject createEMFProject(final IPath javaSource, final IPath projectLocationPath, final List referencedProjects, final IProgressMonitor progressMonitor, final int style, final List pluginVariables)
+    '''returns None\n\n
+    run(final Object object)\n
+    run(final IProgressMonitor progressMonitor)\n
     '''
 def printStatus():
-    '''public void printStatus(final String prefix, final IStatus status)
-    '''
-def setSDODefaults():
-    '''public static void setSDODefaults(final GenModel genModel)
+    '''returns None\n\n
+    printStatus(final String prefix, final IStatus status)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qualifiedName, final Attributes atts)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qualifiedName, final Attributes atts)\n
     '''
 def getOptions():
-    '''public Map getOptions()
-    '''
-def parse():
-    '''public static Map parse(final String systemID)
+    '''returns Map\n\n
+    getOptions()\n
     '''

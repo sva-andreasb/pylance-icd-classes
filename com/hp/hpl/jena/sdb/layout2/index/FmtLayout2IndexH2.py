@@ -1,3 +1,4 @@
-def FmtLayout2IndexH2():
-    '''public FmtLayout2IndexH2(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2IndexH2\n\n
+    (final SDBConnection connection)\n
     '''

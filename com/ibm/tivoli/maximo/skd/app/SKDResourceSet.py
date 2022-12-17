@@ -1,3 +1,4 @@
-def SKDResourceSet():
-    '''public SKDResourceSet(final MboServerInterface ms)
+def ():
+    '''returns SKDResourceSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,68 +1,90 @@
-def FavoritesItem():
-    '''public FavoritesItem(final String name)
-    public FavoritesItem()
-    public FavoritesItem(final String s, final String target, final String url, final String title, final Locale locale)
+def ():
+    '''returns FavoritesItem\n\n
+    (final String name)\n
+    ()\n
+    (final String s, final String target, final String url, final String title, final Locale locale)\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean visible)
+    '''returns None\n\n
+    setVisible(final boolean visible)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def getURLSpec():
-    '''public String getURLSpec()
+    '''returns String\n\n
+    getURLSpec()\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def getHelpSetTitle():
-    '''public String getHelpSetTitle()
+    '''returns String\n\n
+    getHelpSetTitle()\n
     '''
 def setAsFolder():
-    '''public void setAsFolder()
+    '''returns None\n\n
+    setAsFolder()\n
     '''
 def allowsChildren():
-    '''public boolean allowsChildren()
+    '''returns boolean\n\n
+    allowsChildren()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def isFolder():
-    '''public boolean isFolder()
+    '''returns boolean\n\n
+    isFolder()\n
     '''
 def add():
-    '''public void add(final FavoritesItem e)
+    '''returns None\n\n
+    add(final FavoritesItem e)\n
     '''
 def emptyInitState():
-    '''public boolean emptyInitState()
+    '''returns boolean\n\n
+    emptyInitState()\n
     '''
 def remove():
-    '''public void remove(final FavoritesItem o)
+    '''returns None\n\n
+    remove(final FavoritesItem o)\n
     '''
 def getParent():
-    '''public FavoritesItem getParent()
+    '''returns FavoritesItem\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final FavoritesItem parent)
+    '''returns None\n\n
+    setParent(final FavoritesItem parent)\n
     '''
 def getChildren():
-    '''public Vector getChildren()
+    '''returns Vector\n\n
+    getChildren()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getTransferData():
-    '''public Object getTransferData(final DataFlavor flavor)
+    '''returns Object\n\n
+    getTransferData(final DataFlavor flavor)\n
     '''
 def getTransferDataFlavors():
-    '''public DataFlavor[] getTransferDataFlavors()
+    '''returns DataFlavor[]\n\n
+    getTransferDataFlavors()\n
     '''
 def isDataFlavorSupported():
-    '''public boolean isDataFlavorSupported(final DataFlavor dataFlavor)
+    '''returns boolean\n\n
+    isDataFlavorSupported(final DataFlavor dataFlavor)\n
     '''

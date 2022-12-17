@@ -1,3 +1,4 @@
-def FldLicTransPONum():
-    '''public FldLicTransPONum(final MboValue mbv)
+def ():
+    '''returns FldLicTransPONum\n\n
+    (final MboValue mbv)\n
     '''

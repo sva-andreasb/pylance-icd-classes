@@ -1,3 +1,4 @@
-def FldIntObjectCol():
-    '''public FldIntObjectCol(final MboValue mbv)
+def ():
+    '''returns FldIntObjectCol\n\n
+    (final MboValue mbv)\n
     '''

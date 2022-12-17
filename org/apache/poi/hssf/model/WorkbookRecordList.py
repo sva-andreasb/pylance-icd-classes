@@ -1,82 +1,109 @@
-def WorkbookRecordList():
-    '''public WorkbookRecordList()
+def ():
+    '''returns WorkbookRecordList\n\n
+    ()\n
     '''
 def setRecords():
-    '''public void setRecords(final List<Record> records)
+    '''returns None\n\n
+    setRecords(final List<Record> records)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def get():
-    '''public Record get(final int i)
+    '''returns Record\n\n
+    get(final int i)\n
     '''
 def add():
-    '''public void add(final int pos, final Record r)
+    '''returns None\n\n
+    add(final int pos, final Record r)\n
     '''
 def getRecords():
-    '''public List<Record> getRecords()
+    '''returns List<Record>\n\n
+    getRecords()\n
     '''
 def remove():
-    '''public void remove(final Object record)
-    public void remove(final int pos)
+    '''returns None\n\n
+    remove(final Object record)\n
+    remove(final int pos)\n
     '''
 def getProtpos():
-    '''public int getProtpos()
+    '''returns int\n\n
+    getProtpos()\n
     '''
 def setProtpos():
-    '''public void setProtpos(final int protpos)
+    '''returns None\n\n
+    setProtpos(final int protpos)\n
     '''
 def getBspos():
-    '''public int getBspos()
+    '''returns int\n\n
+    getBspos()\n
     '''
 def setBspos():
-    '''public void setBspos(final int bspos)
+    '''returns None\n\n
+    setBspos(final int bspos)\n
     '''
 def getTabpos():
-    '''public int getTabpos()
+    '''returns int\n\n
+    getTabpos()\n
     '''
 def setTabpos():
-    '''public void setTabpos(final int tabpos)
+    '''returns None\n\n
+    setTabpos(final int tabpos)\n
     '''
 def getFontpos():
-    '''public int getFontpos()
+    '''returns int\n\n
+    getFontpos()\n
     '''
 def setFontpos():
-    '''public void setFontpos(final int fontpos)
+    '''returns None\n\n
+    setFontpos(final int fontpos)\n
     '''
 def getXfpos():
-    '''public int getXfpos()
+    '''returns int\n\n
+    getXfpos()\n
     '''
 def setXfpos():
-    '''public void setXfpos(final int xfpos)
+    '''returns None\n\n
+    setXfpos(final int xfpos)\n
     '''
 def getBackuppos():
-    '''public int getBackuppos()
+    '''returns int\n\n
+    getBackuppos()\n
     '''
 def setBackuppos():
-    '''public void setBackuppos(final int backuppos)
+    '''returns None\n\n
+    setBackuppos(final int backuppos)\n
     '''
 def getPalettepos():
-    '''public int getPalettepos()
+    '''returns int\n\n
+    getPalettepos()\n
     '''
 def setPalettepos():
-    '''public void setPalettepos(final int palettepos)
+    '''returns None\n\n
+    setPalettepos(final int palettepos)\n
     '''
 def getNamepos():
-    '''public int getNamepos()
+    '''returns int\n\n
+    getNamepos()\n
     '''
 def getSupbookpos():
-    '''public int getSupbookpos()
+    '''returns int\n\n
+    getSupbookpos()\n
     '''
 def setNamepos():
-    '''public void setNamepos(final int namepos)
+    '''returns None\n\n
+    setNamepos(final int namepos)\n
     '''
 def setSupbookpos():
-    '''public void setSupbookpos(final int supbookpos)
+    '''returns None\n\n
+    setSupbookpos(final int supbookpos)\n
     '''
 def getExternsheetPos():
-    '''public int getExternsheetPos()
+    '''returns int\n\n
+    getExternsheetPos()\n
     '''
 def setExternsheetPos():
-    '''public void setExternsheetPos(final int externsheetPos)
+    '''returns None\n\n
+    setExternsheetPos(final int externsheetPos)\n
     '''

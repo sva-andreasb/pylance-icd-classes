@@ -14,45 +14,55 @@ PROPERTY_PREDECESSOR_WONUM = "String  \"PREDWONUM\""
 PROPERTY_PREDECESSOR_DESCRIPTION = "String  \"PREDDESC\""
 PROPERTY_SUCCESSOR_WONUM = "String  \"SUCCWONUM\""
 PROPERTY_SUCCESSOR_DESCRIPTION = "String  \"SUCCDESC\""
-def MXConstraint():
-    '''public MXConstraint(final IlvActivity fromActivity, final IlvActivity toActivity, final IlvConstraintType type)
+def ():
+    '''returns MXConstraint\n\n
+    (final IlvActivity fromActivity, final IlvActivity toActivity, final IlvConstraintType type)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String property, final Object value)
+    '''returns Object\n\n
+    setProperty(final String property, final Object value)\n
     '''
 def getModifiedProperties():
-    '''public Iterator getModifiedProperties()
+    '''returns Iterator\n\n
+    getModifiedProperties()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getObjectId():
-    '''public long getObjectId()
+    '''returns long\n\n
+    getObjectId()\n
     '''
 def getApplinkObject():
-    '''public String getApplinkObject(final String propertyName)
-    '''
-def getApplinkAppList():
-    '''public HashMap<String, String> getApplinkAppList(final String propertyName)
+    '''returns String\n\n
+    getApplinkObject(final String propertyName)\n
     '''
 def getFromActivityObject():
-    '''public IMXActivity getFromActivityObject()
+    '''returns IMXActivity\n\n
+    getFromActivityObject()\n
     '''
 def getToActivityObject():
-    '''public IMXActivity getToActivityObject()
+    '''returns IMXActivity\n\n
+    getToActivityObject()\n
     '''
 def setLeadLagHours():
-    '''public void setLeadLagHours(final Double leadLagHours)
+    '''returns None\n\n
+    setLeadLagHours(final Double leadLagHours)\n
     '''
 def setOptimize():
-    '''public void setOptimize(final Boolean optimize)
+    '''returns None\n\n
+    setOptimize(final Boolean optimize)\n
     '''
 def setOptsplit():
-    '''public void setOptsplit(final Boolean optsplit)
+    '''returns None\n\n
+    setOptsplit(final Boolean optsplit)\n
     '''
 def createConstraint():
-    '''public MXConstraint createConstraint(final MXActivity fromActivity, final MXActivity toActivity, final IlvConstraintType type)
+    '''returns MXConstraint\n\n
+    createConstraint(final MXActivity fromActivity, final MXActivity toActivity, final IlvConstraintType type)\n
     '''

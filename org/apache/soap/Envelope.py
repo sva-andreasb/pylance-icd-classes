@@ -1,44 +1,53 @@
-def Envelope():
-    '''public Envelope()
+def ():
+    '''returns Envelope\n\n
+    ()\n
     '''
 def declareNamespace():
-    '''public void declareNamespace(final String s, final String s2)
+    '''returns None\n\n
+    declareNamespace(final String s, final String s2)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final QName qName)
+    '''returns String\n\n
+    getAttribute(final QName qName)\n
     '''
 def getBody():
-    '''public Body getBody()
+    '''returns Body\n\n
+    getBody()\n
     '''
 def getEnvelopeEntries():
-    '''public Vector getEnvelopeEntries()
+    '''returns Vector\n\n
+    getEnvelopeEntries()\n
     '''
 def getHeader():
-    '''public Header getHeader()
+    '''returns Header\n\n
+    getHeader()\n
     '''
 def marshall():
-    '''public void marshall(final Writer writer, final XMLJavaMappingRegistry xmlJavaMappingRegistry)
-    public void marshall(final Writer writer, final XMLJavaMappingRegistry xmlJavaMappingRegistry, final SOAPContext soapContext)
+    '''returns None\n\n
+    marshall(final Writer writer, final XMLJavaMappingRegistry xmlJavaMappingRegistry)\n
+    marshall(final Writer writer, final XMLJavaMappingRegistry xmlJavaMappingRegistry, final SOAPContext soapContext)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final QName qName)
+    '''returns None\n\n
+    removeAttribute(final QName qName)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final QName qName, final String s)
+    '''returns None\n\n
+    setAttribute(final QName qName, final String s)\n
     '''
 def setBody():
-    '''public void setBody(final Body body)
+    '''returns None\n\n
+    setBody(final Body body)\n
     '''
 def setEnvelopeEntries():
-    '''public void setEnvelopeEntries(final Vector envelopeEntries)
+    '''returns None\n\n
+    setEnvelopeEntries(final Vector envelopeEntries)\n
     '''
 def setHeader():
-    '''public void setHeader(final Header header)
+    '''returns None\n\n
+    setHeader(final Header header)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def unmarshall():
-    '''public static Envelope unmarshall(final Node node)
-    public static Envelope unmarshall(final Node node, final SOAPContext soapContext)
+    '''returns String\n\n
+    toString()\n
     '''

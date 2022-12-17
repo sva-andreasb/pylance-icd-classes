@@ -1,3 +1,4 @@
-def MaxLicAppsSet():
-    '''public MaxLicAppsSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLicAppsSet\n\n
+    (final MboServerInterface ms)\n
     '''

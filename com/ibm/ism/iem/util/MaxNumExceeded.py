@@ -1,6 +1,8 @@
-def MaxNumExceeded():
-    '''public MaxNumExceeded(final int records)
+def ():
+    '''returns MaxNumExceeded\n\n
+    (final int records)\n
     '''
 def getReturnedRecords():
-    '''public int getReturnedRecords()
+    '''returns int\n\n
+    getReturnedRecords()\n
     '''

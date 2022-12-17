@@ -1,63 +1,84 @@
-def WMLSelectElementImpl():
-    '''public WMLSelectElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+def ():
+    '''returns WMLSelectElementImpl\n\n
+    (final WMLDocumentImpl wmlDocumentImpl, final String s)\n
     '''
 def setMultiple():
-    '''public void setMultiple(final boolean b)
+    '''returns None\n\n
+    setMultiple(final boolean b)\n
     '''
 def getMultiple():
-    '''public boolean getMultiple()
+    '''returns boolean\n\n
+    getMultiple()\n
     '''
 def setValue():
-    '''public void setValue(final String s)
+    '''returns None\n\n
+    setValue(final String s)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setTabIndex():
-    '''public void setTabIndex(final int n)
+    '''returns None\n\n
+    setTabIndex(final int n)\n
     '''
 def getTabIndex():
-    '''public int getTabIndex()
+    '''returns int\n\n
+    getTabIndex()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setXmlLang():
-    '''public void setXmlLang(final String s)
+    '''returns None\n\n
+    setXmlLang(final String s)\n
     '''
 def getXmlLang():
-    '''public String getXmlLang()
+    '''returns String\n\n
+    getXmlLang()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setIValue():
-    '''public void setIValue(final String s)
+    '''returns None\n\n
+    setIValue(final String s)\n
     '''
 def getIValue():
-    '''public String getIValue()
+    '''returns String\n\n
+    getIValue()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setIName():
-    '''public void setIName(final String s)
+    '''returns None\n\n
+    setIName(final String s)\n
     '''
 def getIName():
-    '''public String getIName()
+    '''returns String\n\n
+    getIName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

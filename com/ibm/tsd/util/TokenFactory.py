@@ -1,30 +1,40 @@
 def getTokens():
-    '''public LinkedList<PackedTokenAttributeImpl> getTokens()
+    '''returns LinkedList<PackedTokenAttributeImpl>\n\n
+    getTokens()\n
     '''
 def getSleepInterval():
-    '''public long getSleepInterval()
+    '''returns long\n\n
+    getSleepInterval()\n
     '''
 def setSleepInterval():
-    '''public long setSleepInterval(final long sleepInterval)
+    '''returns long\n\n
+    setSleepInterval(final long sleepInterval)\n
     '''
 def setThread():
-    '''public Thread setThread(final Thread thread)
+    '''returns Thread\n\n
+    setThread(final Thread thread)\n
     '''
 def getThread():
-    '''public Thread getThread()
+    '''returns Thread\n\n
+    getThread()\n
     '''
-def TokenFactory():
-    '''public TokenFactory(final Thread thread)
+def ():
+    '''returns TokenFactory\n\n
+    (final Thread thread)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def addToken():
-    '''public void addToken(final PackedTokenAttributeImpl token)
+    '''returns None\n\n
+    addToken(final PackedTokenAttributeImpl token)\n
     '''
 def next():
-    '''public PackedTokenAttributeImpl next()
+    '''returns PackedTokenAttributeImpl\n\n
+    next()\n
     '''

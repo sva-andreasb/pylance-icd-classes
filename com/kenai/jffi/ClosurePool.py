@@ -1,22 +1,22 @@
 def invoke():
-    '''public void invoke(final Buffer buffer)
-    public void invoke(final long retvalAddress, final long paramAddress)
+    '''returns None\n\n
+    invoke(final Buffer buffer)\n
+    invoke(final long retvalAddress, final long paramAddress)\n
     '''
 def getAddress():
-    '''public long getAddress()
+    '''returns long\n\n
+    getAddress()\n
     '''
 def setAutoRelease():
-    '''public void setAutoRelease(final boolean autorelease)
+    '''returns None\n\n
+    setAutoRelease(final boolean autorelease)\n
     '''
 def free():
-    '''public void free()
+    '''returns None\n\n
+    free()\n
     '''
-def dispose():
-    '''public synchronized void dispose()
-    '''
-def Slot():
-    '''public Slot(final long handle, final Proxy proxy)
-    '''
-def MagazineHolder():
-    '''public MagazineHolder(final ClosurePool pool, final Magazine magazine)
+def ():
+    '''returns MagazineHolder\n\n
+    (final long handle, final Proxy proxy)\n
+    (final ClosurePool pool, final Magazine magazine)\n
     '''

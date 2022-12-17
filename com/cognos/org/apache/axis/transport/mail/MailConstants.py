@@ -1,0 +1,6 @@
+FROM_ADDRESS = "String  \"transport.mail.from\""
+TO_ADDRESS = "String  \"transport.mail.to\""
+SMTP_HOST = "String  \"transport.mail.smtp.host\""
+POP3_HOST = "String  \"transport.mail.pop3.host\""
+POP3_USERID = "String  \"transport.mail.pop3.userid\""
+POP3_PASSWORD = "String  \"transport.mail.pop3.password\""

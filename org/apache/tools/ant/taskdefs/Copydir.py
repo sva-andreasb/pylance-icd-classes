@@ -1,21 +1,28 @@
-def Copydir():
-    '''public Copydir()
+def ():
+    '''returns Copydir\n\n
+    ()\n
     '''
 def setSrc():
-    '''public void setSrc(final File src)
+    '''returns None\n\n
+    setSrc(final File src)\n
     '''
 def setDest():
-    '''public void setDest(final File dest)
+    '''returns None\n\n
+    setDest(final File dest)\n
     '''
 def setFiltering():
-    '''public void setFiltering(final boolean filter)
+    '''returns None\n\n
+    setFiltering(final boolean filter)\n
     '''
 def setFlatten():
-    '''public void setFlatten(final boolean flatten)
+    '''returns None\n\n
+    setFlatten(final boolean flatten)\n
     '''
 def setForceoverwrite():
-    '''public void setForceoverwrite(final boolean force)
+    '''returns None\n\n
+    setForceoverwrite(final boolean force)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

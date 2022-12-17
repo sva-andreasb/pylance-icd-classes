@@ -1,3 +1,4 @@
-def MaxWorkcenterFiles():
-    '''public MaxWorkcenterFiles(final MboSet ms)
+def ():
+    '''returns MaxWorkcenterFiles\n\n
+    (final MboSet ms)\n
     '''

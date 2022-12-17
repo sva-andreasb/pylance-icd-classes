@@ -1,49 +1,65 @@
-def OSSubscriptionInfo():
-    '''public OSSubscriptionInfo(final String eventForUser, final String epName, final String pushUriTemplate, final String pushTag, final String pushTitle, final Date snoozeTill, final String userCondition, final String msgTemplate, final String userNotfType)
-    public OSSubscriptionInfo(final String eventForUser, final String epName, final String pushUriTemplate, final String pushTag, final String pushTitle, final Date snoozeTill, final String userCondition, final String msgTemplate, final String userNotfType, final String maxPushProjectName)
+def ():
+    '''returns OSSubscriptionInfo\n\n
+    (final String eventForUser, final String epName, final String pushUriTemplate, final String pushTag, final String pushTitle, final Date snoozeTill, final String userCondition, final String msgTemplate, final String userNotfType)\n
+    (final String eventForUser, final String epName, final String pushUriTemplate, final String pushTag, final String pushTitle, final Date snoozeTill, final String userCondition, final String msgTemplate, final String userNotfType, final String maxPushProjectName)\n
     '''
 def isSilent():
-    '''public boolean isSilent()
+    '''returns boolean\n\n
+    isSilent()\n
     '''
 def getUserNotificationType():
-    '''public String getUserNotificationType()
+    '''returns String\n\n
+    getUserNotificationType()\n
     '''
 def isEmail():
-    '''public boolean isEmail()
+    '''returns boolean\n\n
+    isEmail()\n
     '''
 def isSMS():
-    '''public boolean isSMS()
+    '''returns boolean\n\n
+    isSMS()\n
     '''
 def isPushNotification():
-    '''public boolean isPushNotification()
+    '''returns boolean\n\n
+    isPushNotification()\n
     '''
 def getMessageTemplate():
-    '''public String getMessageTemplate()
+    '''returns String\n\n
+    getMessageTemplate()\n
     '''
 def getMessageTemplateInfo():
-    '''public MessageTemplateInfo getMessageTemplateInfo()
+    '''returns MessageTemplateInfo\n\n
+    getMessageTemplateInfo()\n
     '''
 def getSnoozeTill():
-    '''public Date getSnoozeTill()
+    '''returns Date\n\n
+    getSnoozeTill()\n
     '''
 def getUserCondition():
-    '''public String getUserCondition()
+    '''returns String\n\n
+    getUserCondition()\n
     '''
 def getPushUriTemplate():
-    '''public String getPushUriTemplate()
+    '''returns String\n\n
+    getPushUriTemplate()\n
     '''
 def getPushTag():
-    '''public String getPushTag()
+    '''returns String\n\n
+    getPushTag()\n
     '''
 def getPushTitle():
-    '''public String getPushTitle()
+    '''returns String\n\n
+    getPushTitle()\n
     '''
 def getEventForUser():
-    '''public String getEventForUser()
+    '''returns String\n\n
+    getEventForUser()\n
     '''
 def getEpName():
-    '''public String getEpName()
+    '''returns String\n\n
+    getEpName()\n
     '''
 def getMaxPushProjectName():
-    '''public String getMaxPushProjectName()
+    '''returns String\n\n
+    getMaxPushProjectName()\n
     '''

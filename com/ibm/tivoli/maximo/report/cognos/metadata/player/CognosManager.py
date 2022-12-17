@@ -1,22 +1,29 @@
-def CognosManager():
-    '''public CognosManager(final String url, final String namespaeId, final String userName, final String password)
-    public CognosManager(final String url, final String namespaceId, final String userName, final String token, final String tokenurl)
+def ():
+    '''returns CognosManager\n\n
+    (final String url, final String namespaeId, final String userName, final String password)\n
+    (final String url, final String namespaceId, final String userName, final String token, final String tokenurl)\n
     '''
 def executeTransientCreateAction():
-    '''public void executeTransientCreateAction(final String projectLocation, final String transaction)
+    '''returns None\n\n
+    executeTransientCreateAction(final String projectLocation, final String transaction)\n
     '''
 def createModel():
-    '''public void createModel(final String projectLocation)
+    '''returns None\n\n
+    createModel(final String projectLocation)\n
     '''
 def openModel():
-    '''public void openModel(final String projectLocation)
+    '''returns None\n\n
+    openModel(final String projectLocation)\n
     '''
 def saveModel():
-    '''public void saveModel(final String projectLocation)
+    '''returns None\n\n
+    saveModel(final String projectLocation)\n
     '''
 def closeModel():
-    '''public void closeModel(final String projectLocation)
+    '''returns None\n\n
+    closeModel(final String projectLocation)\n
     '''
 def executeTransaction():
-    '''public void executeTransaction(final String projectLocation, final String transaction)
+    '''returns None\n\n
+    executeTransaction(final String projectLocation, final String transaction)\n
     '''

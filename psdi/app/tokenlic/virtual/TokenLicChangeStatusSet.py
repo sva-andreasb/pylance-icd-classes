@@ -1,3 +1,4 @@
-def TokenLicChangeStatusSet():
-    '''public TokenLicChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns TokenLicChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

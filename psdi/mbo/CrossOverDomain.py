@@ -1,30 +1,40 @@
-def CrossOverDomain():
-    '''public CrossOverDomain(final MboValue mbv)
+def ():
+    '''returns CrossOverDomain\n\n
+    (final MboValue mbv)\n
     '''
 def setFields():
-    '''public void setFields(final ArrayList<CrossoverFldDetail> fi)
+    '''returns None\n\n
+    setFields(final ArrayList<CrossoverFldDetail> fi)\n
     '''
 def addCrossOverField():
-    '''public void addCrossOverField(final String src, final String dest, final String srcCondition, final String destCondition, final boolean copynull, final boolean noOverwrite)
+    '''returns None\n\n
+    addCrossOverField(final String src, final String dest, final String srcCondition, final String destCondition, final boolean copynull, final boolean noOverwrite)\n
     '''
 def setCrossOverFields():
-    '''public void setCrossOverFields(final String[][] fl)
+    '''returns None\n\n
+    setCrossOverFields(final String[][] fl)\n
     '''
 def setSourceFields():
-    '''public void setSourceFields(final Vector fl)
+    '''returns None\n\n
+    setSourceFields(final Vector fl)\n
     '''
 def setDestinationFields():
-    '''public void setDestinationFields(final Vector fl)
+    '''returns None\n\n
+    setDestinationFields(final Vector fl)\n
     '''
 def setNullAllowed():
-    '''public void setNullAllowed(final Vector fl)
+    '''returns None\n\n
+    setNullAllowed(final Vector fl)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def chooseActualDomainValues():
-    '''public void chooseActualDomainValues()
+    '''returns None\n\n
+    chooseActualDomainValues()\n
     '''
 def logInfo():
-    '''public void logInfo(final MXException e)
+    '''returns None\n\n
+    logInfo(final MXException e)\n
     '''

@@ -1,12 +1,16 @@
-def Ear():
-    '''public Ear()
+def ():
+    '''returns Ear\n\n
+    ()\n
     '''
 def setEarfile():
-    '''public void setEarfile(final File earFile)
+    '''returns None\n\n
+    setEarfile(final File earFile)\n
     '''
 def setAppxml():
-    '''public void setAppxml(final File descr)
+    '''returns None\n\n
+    setAppxml(final File descr)\n
     '''
 def addArchives():
-    '''public void addArchives(final ZipFileSet fs)
+    '''returns None\n\n
+    addArchives(final ZipFileSet fs)\n
     '''

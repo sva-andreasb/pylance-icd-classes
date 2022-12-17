@@ -1,3 +1,4 @@
-def FmtLayout2IndexPGSQL():
-    '''public FmtLayout2IndexPGSQL(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2IndexPGSQL\n\n
+    (final SDBConnection connection)\n
     '''

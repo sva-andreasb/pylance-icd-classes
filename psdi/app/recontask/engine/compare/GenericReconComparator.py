@@ -1,6 +1,8 @@
 def setContext():
-    '''public void setContext(final ComparatorContext context)
+    '''returns None\n\n
+    setContext(final ComparatorContext context)\n
     '''
 def compare():
-    '''public List<ReconCompResult> compare(final Map linkValue1, final Map linkValue2)
+    '''returns List<ReconCompResult>\n\n
+    compare(final Map linkValue1, final Map linkValue2)\n
     '''

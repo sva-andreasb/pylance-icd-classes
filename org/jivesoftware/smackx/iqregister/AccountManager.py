@@ -1,34 +1,37 @@
-def getInstance():
-    '''public static synchronized AccountManager getInstance(final XMPPConnection connection)
-    '''
-def sensitiveOperationOverInsecureConnectionDefault():
-    '''public static void sensitiveOperationOverInsecureConnectionDefault(final boolean allow)
-    '''
 def sensitiveOperationOverInsecureConnection():
-    '''public void sensitiveOperationOverInsecureConnection(final boolean allow)
+    '''returns None\n\n
+    sensitiveOperationOverInsecureConnection(final boolean allow)\n
     '''
 def supportsAccountCreation():
-    '''public boolean supportsAccountCreation()
+    '''returns boolean\n\n
+    supportsAccountCreation()\n
     '''
 def getAccountAttributes():
-    '''public Set<String> getAccountAttributes()
+    '''returns Set<String>\n\n
+    getAccountAttributes()\n
     '''
 def getAccountAttribute():
-    '''public String getAccountAttribute(final String name)
+    '''returns String\n\n
+    getAccountAttribute(final String name)\n
     '''
 def getAccountInstructions():
-    '''public String getAccountInstructions()
+    '''returns String\n\n
+    getAccountInstructions()\n
     '''
 def createAccount():
-    '''public void createAccount(final Localpart username, final String password)
-    public void createAccount(final Localpart username, final String password, final Map<String, String> attributes)
+    '''returns None\n\n
+    createAccount(final Localpart username, final String password)\n
+    createAccount(final Localpart username, final String password, final Map<String, String> attributes)\n
     '''
 def changePassword():
-    '''public void changePassword(final String newPassword)
+    '''returns None\n\n
+    changePassword(final String newPassword)\n
     '''
 def deleteAccount():
-    '''public void deleteAccount()
+    '''returns None\n\n
+    deleteAccount()\n
     '''
 def isSupported():
-    '''public boolean isSupported()
+    '''returns boolean\n\n
+    isSupported()\n
     '''

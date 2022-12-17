@@ -1,9 +1,12 @@
-def DeleteBucketRequest():
-    '''public DeleteBucketRequest(final String bucketName)
+def ():
+    '''returns DeleteBucketRequest\n\n
+    (final String bucketName)\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''

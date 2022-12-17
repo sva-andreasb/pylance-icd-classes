@@ -5,25 +5,29 @@ QUOTEDSTRING = "int  -2"
 COMMENT = "int  -3"
 EOF = "int  -4"
 def getRemainder():
-    '''public String getRemainder()
+    '''returns String\n\n
+    getRemainder()\n
     '''
-def HeaderTokenizer():
-    '''public HeaderTokenizer(final String header)
-    public HeaderTokenizer(final String header, final String delimiters)
-    public HeaderTokenizer(final String header, final String delimiters, final boolean skipComments)
+def ():
+    '''returns Token\n\n
+    (final String header)\n
+    (final String header, final String delimiters)\n
+    (final String header, final String delimiters, final boolean skipComments)\n
+    (final int type, final String value)\n
     '''
 def next():
-    '''public Token next()
+    '''returns Token\n\n
+    next()\n
     '''
 def peek():
-    '''public Token peek()
+    '''returns Token\n\n
+    peek()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getValue():
-    '''public String getValue()
-    '''
-def Token():
-    '''public Token(final int type, final String value)
+    '''returns String\n\n
+    getValue()\n
     '''

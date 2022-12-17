@@ -1,61 +1,77 @@
-def ChildrenSet():
-    '''public ChildrenSet(final MboRemote owner)
+def ():
+    '''returns ChildrenSet\n\n
+    (final MboRemote owner)\n
     '''
 def fetchMbos():
-    '''public void fetchMbos(final int toPosition)
+    '''returns None\n\n
+    fetchMbos(final int toPosition)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def fetchMbosOriginal():
-    '''public void fetchMbosOriginal(final int toPosition)
+    '''returns None\n\n
+    fetchMbosOriginal(final int toPosition)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def setOwner():
-    '''public final void setOwner(final MboRemote mbo)
+    '''returns String\n\n
+    getName()\n
     '''
 def canAdd():
-    '''public void canAdd(final int woClass)
+    '''returns None\n\n
+    canAdd(final int woClass)\n
     '''
 def add():
-    '''public MboRemote add(final long accessModifier, final int woClass)
+    '''returns MboRemote\n\n
+    add(final long accessModifier, final int woClass)\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final int index, final int woClass)
-    public MboRemote addAtIndex(final long accessModifier, final int index, final int woClass)
+    '''returns MboRemote\n\n
+    addAtIndex(final int index, final int woClass)\n
+    addAtIndex(final long accessModifier, final int index, final int woClass)\n
     '''
 def addAtEnd():
-    '''public MboRemote addAtEnd(final int woClass)
+    '''returns MboRemote\n\n
+    addAtEnd(final int woClass)\n
     '''
 def getZombie():
-    '''public MboRemote getZombie()
+    '''returns MboRemote\n\n
+    getZombie()\n
     '''
 def setOrderBy():
-    '''public void setOrderBy(final String orderByClause)
+    '''returns None\n\n
+    setOrderBy(final String orderByClause)\n
     '''
 def getOrderBy():
-    '''public String getOrderBy()
+    '''returns String\n\n
+    getOrderBy()\n
     '''
 def addedMbo():
-    '''public void addedMbo(final MboRemote newMbo, final int position)
+    '''returns None\n\n
+    addedMbo(final MboRemote newMbo, final int position)\n
     '''
 def removedMbo():
-    '''public void removedMbo(final MboRemote newMbo, final int position)
+    '''returns None\n\n
+    removedMbo(final MboRemote newMbo, final int position)\n
     '''
 def modifiedMbo():
-    '''public void modifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    modifiedMbo(final MboRemote modifiedMbo)\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener l)
+    '''returns None\n\n
+    addListener(final MboSetListener l)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener l)
+    '''returns None\n\n
+    removeListener(final MboSetListener l)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote modifiedMbo)\n
     '''
 def max():
-    '''public double max(final String attribute)
+    '''returns double\n\n
+    max(final String attribute)\n
     '''

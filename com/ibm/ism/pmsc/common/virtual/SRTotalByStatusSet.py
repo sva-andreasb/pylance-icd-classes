@@ -1,6 +1,8 @@
-def SRTotalByStatusSet():
-    '''public SRTotalByStatusSet(final MboServerInterface ms)
+def ():
+    '''returns SRTotalByStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

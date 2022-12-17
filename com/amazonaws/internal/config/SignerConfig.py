@@ -1,6 +1,8 @@
 def getSignerType():
-    '''public String getSignerType()
+    '''returns String\n\n
+    getSignerType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

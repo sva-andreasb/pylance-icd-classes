@@ -1,3 +1,4 @@
-def RelatedApplicationAuthSet():
-    '''public RelatedApplicationAuthSet(final MboServerInterface ms)
+def ():
+    '''returns RelatedApplicationAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''

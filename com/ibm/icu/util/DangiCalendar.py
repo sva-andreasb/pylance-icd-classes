@@ -1,8 +1,10 @@
-def DangiCalendar():
-    '''public DangiCalendar()
-    public DangiCalendar(final Date date)
-    public DangiCalendar(final TimeZone zone, final ULocale locale)
+def ():
+    '''returns DangiCalendar\n\n
+    ()\n
+    (final Date date)\n
+    (final TimeZone zone, final ULocale locale)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''

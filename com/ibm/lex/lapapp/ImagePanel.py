@@ -1,15 +1,12 @@
-def ImagePanel():
-    '''public ImagePanel(final Image image)
-    '''
-def getImage():
-    '''public final Image getImage()
+def ():
+    '''returns ImagePanel\n\n
+    (final Image image)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def paint():
-    '''public void paint(final Graphics graphics)
-    '''
-def setImage():
-    '''public final void setImage(final Image image)
+    '''returns None\n\n
+    paint(final Graphics graphics)\n
     '''

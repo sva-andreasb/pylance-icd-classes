@@ -1,3 +1,4 @@
-def PlusPFldBillSched():
-    '''public PlusPFldBillSched(final MboValue mbv)
+def ():
+    '''returns PlusPFldBillSched\n\n
+    (final MboValue mbv)\n
     '''

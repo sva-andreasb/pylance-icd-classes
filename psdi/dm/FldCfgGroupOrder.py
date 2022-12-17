@@ -1,7 +1,9 @@
-def FldCfgGroupOrder():
-    '''public FldCfgGroupOrder()
-    public FldCfgGroupOrder(final MboValue mbv)
+def ():
+    '''returns FldCfgGroupOrder\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

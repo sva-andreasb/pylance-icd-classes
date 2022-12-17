@@ -1,53 +1,70 @@
-def ParserService():
-    '''public ParserService(final MXServer mxServer)
-    public ParserService(final String url, final MXServer mxServer)
+def ():
+    '''returns ParserService\n\n
+    (final MXServer mxServer)\n
+    (final String url, final MXServer mxServer)\n
     '''
 def configure():
-    '''public void configure(final Properties properties)
+    '''returns None\n\n
+    configure(final Properties properties)\n
     '''
 def parse():
-    '''public void parse(String str, final MboRemote mbo)
+    '''returns None\n\n
+    parse(String str, final MboRemote mbo)\n
     '''
 def getNodeDataType():
-    '''public int getNodeDataType(final String str)
-    public int getNodeDataType(final String str, final MboRemote mbo)
+    '''returns int\n\n
+    getNodeDataType(final String str)\n
+    getNodeDataType(final String str, final MboRemote mbo)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String str, final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final String str, final MboRemote mbo)\n
     '''
 def getString():
-    '''public String getString(final String str, final MboRemote mbo)
+    '''returns String\n\n
+    getString(final String str, final MboRemote mbo)\n
     '''
 def getDouble():
-    '''public double getDouble(final String str, final MboRemote mbo)
+    '''returns double\n\n
+    getDouble(final String str, final MboRemote mbo)\n
     '''
 def getInt():
-    '''public int getInt(final String str, final MboRemote mbo)
+    '''returns int\n\n
+    getInt(final String str, final MboRemote mbo)\n
     '''
 def getDate():
-    '''public Date getDate(final String str, final MboRemote mbo)
+    '''returns Date\n\n
+    getDate(final String str, final MboRemote mbo)\n
     '''
 def nodeString():
-    '''public String nodeString(final String str)
+    '''returns String\n\n
+    nodeString(final String str)\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def setURL():
-    '''public void setURL(final String url)
+    '''returns None\n\n
+    setURL(final String url)\n
     '''
 def isAppService():
-    '''public boolean isAppService()
+    '''returns boolean\n\n
+    isAppService()\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def isSingletonService():
-    '''public boolean isSingletonService()
+    '''returns boolean\n\n
+    isSingletonService()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def checkSqlInjection():
-    '''public void checkSqlInjection(final String where)
+    '''returns None\n\n
+    checkSqlInjection(final String where)\n
     '''

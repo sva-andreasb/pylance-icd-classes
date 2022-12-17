@@ -1,15 +1,20 @@
 def valueInstantiatorInstance():
-    '''public ValueInstantiator valueInstantiatorInstance(final MapperConfig<?> config, final Annotated annotated, final Class<?> resolverClass)
+    '''returns ValueInstantiator\n\n
+    valueInstantiatorInstance(final MapperConfig<?> config, final Annotated annotated, final Class<?> resolverClass)\n
     '''
 def resolverIdGeneratorInstance():
-    '''public ObjectIdResolver resolverIdGeneratorInstance(final MapperConfig<?> config, final Annotated annotated, final Class<?> implClass)
+    '''returns ObjectIdResolver\n\n
+    resolverIdGeneratorInstance(final MapperConfig<?> config, final Annotated annotated, final Class<?> implClass)\n
     '''
 def namingStrategyInstance():
-    '''public PropertyNamingStrategy namingStrategyInstance(final MapperConfig<?> config, final Annotated annotated, final Class<?> implClass)
+    '''returns PropertyNamingStrategy\n\n
+    namingStrategyInstance(final MapperConfig<?> config, final Annotated annotated, final Class<?> implClass)\n
     '''
 def virtualPropertyWriterInstance():
-    '''public VirtualBeanPropertyWriter virtualPropertyWriterInstance(final MapperConfig<?> config, final Class<?> implClass)
+    '''returns VirtualBeanPropertyWriter\n\n
+    virtualPropertyWriterInstance(final MapperConfig<?> config, final Class<?> implClass)\n
     '''
 def includeFilterInstance():
-    '''public Object includeFilterInstance(final SerializationConfig config, final BeanPropertyDefinition forProperty, final Class<?> filterClass)
+    '''returns Object\n\n
+    includeFilterInstance(final SerializationConfig config, final BeanPropertyDefinition forProperty, final Class<?> filterClass)\n
     '''

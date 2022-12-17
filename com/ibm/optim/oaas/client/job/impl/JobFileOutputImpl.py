@@ -1,10 +1,13 @@
-def JobFileOutputImpl():
-    '''public JobFileOutputImpl(final File file)
-    public JobFileOutputImpl(final String name, final File file)
+def ():
+    '''returns JobFileOutputImpl\n\n
+    (final File file)\n
+    (final String name, final File file)\n
     '''
 def download():
-    '''public void download(final JobClient client, final String jobid)
+    '''returns None\n\n
+    download(final JobClient client, final String jobid)\n
     '''
 def getContent():
-    '''public File getContent()
+    '''returns File\n\n
+    getContent()\n
     '''

@@ -1,27 +1,35 @@
 TABLE_RECONLINK = "String  \"RECONLINK\""
 TABLE_RECONRESULT = "String  \"RECONRESULT\""
-def ResultTableAttributes():
-    '''public ResultTableAttributes(final String resultTableName)
+def ():
+    '''returns ResultTableAttributes\n\n
+    (final String resultTableName)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String resultTableAttributeName, final String objectTableAttributeName)
-    public void addAttribute(final String resultTableAttributeName, final String objectTableAttributeName, final boolean isInRootObject)
+    '''returns None\n\n
+    addAttribute(final String resultTableAttributeName, final String objectTableAttributeName)\n
+    addAttribute(final String resultTableAttributeName, final String objectTableAttributeName, final boolean isInRootObject)\n
     '''
 def getResultTableName():
-    '''public String getResultTableName()
+    '''returns String\n\n
+    getResultTableName()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getResultTableAttributeName():
-    '''public String getResultTableAttributeName(final int index)
+    '''returns String\n\n
+    getResultTableAttributeName(final int index)\n
     '''
 def getObjectTableAttributeName():
-    '''public String getObjectTableAttributeName(final int index)
+    '''returns String\n\n
+    getObjectTableAttributeName(final int index)\n
     '''
 def isObjectTableAttributeInRoot():
-    '''public boolean isObjectTableAttributeInRoot(final int index)
+    '''returns boolean\n\n
+    isObjectTableAttributeInRoot(final int index)\n
     '''

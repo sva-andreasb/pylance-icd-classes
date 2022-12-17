@@ -1,3 +1,4 @@
-def PlusPBBCopyStatusSet():
-    '''public PlusPBBCopyStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBBCopyStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,15 +1,20 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getNotifTypes():
-    '''public String[] getNotifTypes()
+    '''returns String[]\n\n
+    getNotifTypes()\n
     '''
-def MBeanNotificationInfo():
-    '''public MBeanNotificationInfo(String[] no_TYPES, final String s, final String s2)
+def ():
+    '''returns MBeanNotificationInfo\n\n
+    (String[] no_TYPES, final String s, final String s2)\n
     '''

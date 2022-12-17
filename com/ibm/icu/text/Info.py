@@ -1,12 +1,16 @@
-def Info():
-    '''public Info()
+def ():
+    '''returns Info\n\n
+    ()\n
     '''
 def hasErrors():
-    '''public boolean hasErrors()
+    '''returns boolean\n\n
+    hasErrors()\n
     '''
 def getErrors():
-    '''public Set<Error> getErrors()
+    '''returns Set<Error>\n\n
+    getErrors()\n
     '''
 def isTransitionalDifferent():
-    '''public boolean isTransitionalDifferent()
+    '''returns boolean\n\n
+    isTransitionalDifferent()\n
     '''

@@ -1,3 +1,4 @@
-def DMPkgStagingSet():
-    '''public DMPkgStagingSet(final MboServerInterface ms)
+def ():
+    '''returns DMPkgStagingSet\n\n
+    (final MboServerInterface ms)\n
     '''

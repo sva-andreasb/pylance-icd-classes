@@ -1,37 +1,48 @@
-def Attribute():
-    '''public Attribute(final String name, final String displayName, final String className)
-    public Attribute()
-    public Attribute(final String name, final String displayName)
-    public Attribute(final String name, final String displayName, final String className, final String bidiCategory, final String condition)
-    public Attribute(final String name, final String displayName, final String className, final String bidiCategory)
+def ():
+    '''returns Attribute\n\n
+    (final String name, final String displayName, final String className)\n
+    ()\n
+    (final String name, final String displayName)\n
+    (final String name, final String displayName, final String className, final String bidiCategory, final String condition)\n
+    (final String name, final String displayName, final String className, final String bidiCategory)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final String displayName)
+    '''returns None\n\n
+    setDisplayName(final String displayName)\n
     '''
 def getBidiCategory():
-    '''public String getBidiCategory()
+    '''returns String\n\n
+    getBidiCategory()\n
     '''
 def setBidiCategory():
-    '''public void setBidiCategory(final String bidiCategory)
+    '''returns None\n\n
+    setBidiCategory(final String bidiCategory)\n
     '''
 def getCondition():
-    '''public String getCondition()
+    '''returns String\n\n
+    getCondition()\n
     '''
 def setCondition():
-    '''public void setCondition(final String condition)
+    '''returns None\n\n
+    setCondition(final String condition)\n
     '''

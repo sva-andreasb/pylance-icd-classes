@@ -1,24 +1,32 @@
-def ObjectArrayMessage():
-    '''public ObjectArrayMessage(final Object... obj)
+def ():
+    '''returns ObjectArrayMessage\n\n
+    (final Object... obj)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getFormattedMessage():
-    '''public String getFormattedMessage()
+    '''returns String\n\n
+    getFormattedMessage()\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

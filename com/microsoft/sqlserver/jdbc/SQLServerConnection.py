@@ -1,227 +1,260 @@
 def getUseBulkCopyForBatchInsert():
-    '''public boolean getUseBulkCopyForBatchInsert()
+    '''returns boolean\n\n
+    getUseBulkCopyForBatchInsert()\n
     '''
 def setUseBulkCopyForBatchInsert():
-    '''public void setUseBulkCopyForBatchInsert(final boolean useBulkCopyForBatchInsert)
-    '''
-def getSendTimeAsDatetime():
-    '''public final boolean getSendTimeAsDatetime()
-    '''
-def registerColumnEncryptionKeyStoreProviders():
-    '''public static synchronized void registerColumnEncryptionKeyStoreProviders(final Map<String, SQLServerColumnEncryptionKeyStoreProvider> clientKeyStoreProviders)
-    '''
-def setColumnEncryptionTrustedMasterKeyPaths():
-    '''public static synchronized void setColumnEncryptionTrustedMasterKeyPaths(final Map<String, List<String>> trustedKeyPaths)
-    '''
-def updateColumnEncryptionTrustedMasterKeyPaths():
-    '''public static synchronized void updateColumnEncryptionTrustedMasterKeyPaths(final String server, final List<String> trustedKeyPaths)
-    '''
-def removeColumnEncryptionTrustedMasterKeyPaths():
-    '''public static synchronized void removeColumnEncryptionTrustedMasterKeyPaths(final String server)
-    '''
-def getColumnEncryptionTrustedMasterKeyPaths():
-    '''public static synchronized Map<String, List<String>> getColumnEncryptionTrustedMasterKeyPaths()
+    '''returns None\n\n
+    setUseBulkCopyForBatchInsert(final boolean useBulkCopyForBatchInsert)\n
     '''
 def getClientConnectionId():
-    '''public UUID getClientConnectionId()
+    '''returns UUID\n\n
+    getClientConnectionId()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def createStatement():
-    '''public Statement createStatement()
-    public Statement createStatement(final int resultSetType, final int resultSetConcurrency)
-    public Statement createStatement(final int nType, final int nConcur, final int resultSetHoldability)
-    public Statement createStatement(final int nType, final int nConcur, final int resultSetHoldability, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)
+    '''returns Statement\n\n
+    createStatement()\n
+    createStatement(final int resultSetType, final int resultSetConcurrency)\n
+    createStatement(final int nType, final int nConcur, final int resultSetHoldability)\n
+    createStatement(final int nType, final int nConcur, final int resultSetHoldability, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)\n
     '''
 def prepareStatement():
-    '''public PreparedStatement prepareStatement(final String sql)
-    public PreparedStatement prepareStatement(final String sql, final int resultSetType, final int resultSetConcurrency)
-    public PreparedStatement prepareStatement(final String sql, final int nType, final int nConcur, final int resultSetHoldability)
-    public PreparedStatement prepareStatement(final String sql, final int nType, final int nConcur, final int resultSetHoldability, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)
-    public PreparedStatement prepareStatement(final String sql, final int flag)
-    public PreparedStatement prepareStatement(final String sql, final int flag, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)
-    public PreparedStatement prepareStatement(final String sql, final int[] columnIndexes)
-    public PreparedStatement prepareStatement(final String sql, final int[] columnIndexes, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)
-    public PreparedStatement prepareStatement(final String sql, final String[] columnNames)
-    public PreparedStatement prepareStatement(final String sql, final String[] columnNames, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)
+    '''returns PreparedStatement\n\n
+    prepareStatement(final String sql)\n
+    prepareStatement(final String sql, final int resultSetType, final int resultSetConcurrency)\n
+    prepareStatement(final String sql, final int nType, final int nConcur, final int resultSetHoldability)\n
+    prepareStatement(final String sql, final int nType, final int nConcur, final int resultSetHoldability, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)\n
+    prepareStatement(final String sql, final int flag)\n
+    prepareStatement(final String sql, final int flag, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)\n
+    prepareStatement(final String sql, final int[] columnIndexes)\n
+    prepareStatement(final String sql, final int[] columnIndexes, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)\n
+    prepareStatement(final String sql, final String[] columnNames)\n
+    prepareStatement(final String sql, final String[] columnNames, final SQLServerStatementColumnEncryptionSetting stmtColEncSetting)\n
     '''
 def prepareCall():
-    '''public CallableStatement prepareCall(final String sql)
-    public CallableStatement prepareCall(final String sql, final int resultSetType, final int resultSetConcurrency)
-    public CallableStatement prepareCall(final String sql, final int nType, final int nConcur, final int resultSetHoldability)
-    public CallableStatement prepareCall(final String sql, final int nType, final int nConcur, final int resultSetHoldability, final SQLServerStatementColumnEncryptionSetting stmtColEncSetiing)
+    '''returns CallableStatement\n\n
+    prepareCall(final String sql)\n
+    prepareCall(final String sql, final int resultSetType, final int resultSetConcurrency)\n
+    prepareCall(final String sql, final int nType, final int nConcur, final int resultSetHoldability)\n
+    prepareCall(final String sql, final int nType, final int nConcur, final int resultSetHoldability, final SQLServerStatementColumnEncryptionSetting stmtColEncSetiing)\n
     '''
 def nativeSQL():
-    '''public String nativeSQL(final String sql)
+    '''returns String\n\n
+    nativeSQL(final String sql)\n
     '''
 def setAutoCommit():
-    '''public void setAutoCommit(final boolean newAutoCommitMode)
+    '''returns None\n\n
+    setAutoCommit(final boolean newAutoCommitMode)\n
     '''
 def getAutoCommit():
-    '''public boolean getAutoCommit()
+    '''returns boolean\n\n
+    getAutoCommit()\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def rollback():
-    '''public void rollback()
-    public void rollback(final Savepoint s)
+    '''returns None\n\n
+    rollback()\n
+    rollback(final Savepoint s)\n
     '''
 def abort():
-    '''public void abort(final Executor executor)
+    '''returns None\n\n
+    abort(final Executor executor)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def getMetaData():
-    '''public DatabaseMetaData getMetaData()
+    '''returns DatabaseMetaData\n\n
+    getMetaData()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean readOnly)
+    '''returns None\n\n
+    setReadOnly(final boolean readOnly)\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def setCatalog():
-    '''public void setCatalog(final String catalog)
+    '''returns None\n\n
+    setCatalog(final String catalog)\n
     '''
 def getCatalog():
-    '''public String getCatalog()
+    '''returns String\n\n
+    getCatalog()\n
     '''
 def setTransactionIsolation():
-    '''public void setTransactionIsolation(final int level)
+    '''returns None\n\n
+    setTransactionIsolation(final int level)\n
     '''
 def getTransactionIsolation():
-    '''public int getTransactionIsolation()
+    '''returns int\n\n
+    getTransactionIsolation()\n
     '''
 def getWarnings():
-    '''public SQLWarning getWarnings()
+    '''returns SQLWarning\n\n
+    getWarnings()\n
     '''
 def clearWarnings():
-    '''public void clearWarnings()
+    '''returns None\n\n
+    clearWarnings()\n
     '''
 def setTypeMap():
-    '''public void setTypeMap(final Map<String, Class<?>> map)
+    '''returns None\n\n
+    setTypeMap(final Map<String, Class<?>> map)\n
     '''
 def releaseSavepoint():
-    '''public void releaseSavepoint(final Savepoint savepoint)
+    '''returns None\n\n
+    releaseSavepoint(final Savepoint savepoint)\n
     '''
 def setSavepoint():
-    '''public Savepoint setSavepoint(final String sName)
-    public Savepoint setSavepoint()
+    '''returns Savepoint\n\n
+    setSavepoint(final String sName)\n
+    setSavepoint()\n
     '''
 def getHoldability():
-    '''public int getHoldability()
+    '''returns int\n\n
+    getHoldability()\n
     '''
 def setHoldability():
-    '''public void setHoldability(final int holdability)
+    '''returns None\n\n
+    setHoldability(final int holdability)\n
     '''
 def getNetworkTimeout():
-    '''public int getNetworkTimeout()
+    '''returns int\n\n
+    getNetworkTimeout()\n
     '''
 def setNetworkTimeout():
-    '''public void setNetworkTimeout(final Executor executor, final int timeout)
+    '''returns None\n\n
+    setNetworkTimeout(final Executor executor, final int timeout)\n
     '''
 def getSchema():
-    '''public String getSchema()
+    '''returns String\n\n
+    getSchema()\n
     '''
 def setSchema():
-    '''public void setSchema(final String schema)
+    '''returns None\n\n
+    setSchema(final String schema)\n
     '''
 def setSendTimeAsDatetime():
-    '''public void setSendTimeAsDatetime(final boolean sendTimeAsDateTimeValue)
+    '''returns None\n\n
+    setSendTimeAsDatetime(final boolean sendTimeAsDateTimeValue)\n
     '''
 def setUseFmtOnly():
-    '''public void setUseFmtOnly(final boolean useFmtOnly)
-    '''
-def getUseFmtOnly():
-    '''public final boolean getUseFmtOnly()
+    '''returns None\n\n
+    setUseFmtOnly(final boolean useFmtOnly)\n
     '''
 def createArrayOf():
-    '''public Array createArrayOf(final String typeName, final Object[] elements)
+    '''returns Array\n\n
+    createArrayOf(final String typeName, final Object[] elements)\n
     '''
 def createBlob():
-    '''public Blob createBlob()
+    '''returns Blob\n\n
+    createBlob()\n
     '''
 def createClob():
-    '''public Clob createClob()
+    '''returns Clob\n\n
+    createClob()\n
     '''
 def createNClob():
-    '''public NClob createNClob()
+    '''returns NClob\n\n
+    createNClob()\n
     '''
 def createSQLXML():
-    '''public SQLXML createSQLXML()
+    '''returns SQLXML\n\n
+    createSQLXML()\n
     '''
 def createStruct():
-    '''public Struct createStruct(final String typeName, final Object[] attributes)
+    '''returns Struct\n\n
+    createStruct(final String typeName, final Object[] attributes)\n
     '''
 def getClientInfo():
-    '''public Properties getClientInfo()
-    public String getClientInfo(final String name)
+    '''returns String\n\n
+    getClientInfo()\n
+    getClientInfo(final String name)\n
     '''
 def setClientInfo():
-    '''public void setClientInfo(final Properties properties)
-    public void setClientInfo(final String name, final String value)
+    '''returns None\n\n
+    setClientInfo(final Properties properties)\n
+    setClientInfo(final String name, final String value)\n
     '''
 def isValid():
-    '''public boolean isValid(final int timeout)
+    '''returns boolean\n\n
+    isValid(final int timeout)\n
     '''
 def isWrapperFor():
-    '''public boolean isWrapperFor(final Class<?> iface)
-    '''
-def unwrap():
-    '''public <T> T unwrap(final Class<T> iface)
-    '''
-def setColumnEncryptionKeyCacheTtl():
-    '''public static synchronized void setColumnEncryptionKeyCacheTtl(final int columnEncryptionKeyCacheTTL, final TimeUnit unit)
+    '''returns boolean\n\n
+    isWrapperFor(final Class<?> iface)\n
     '''
 def getDiscardedServerPreparedStatementCount():
-    '''public int getDiscardedServerPreparedStatementCount()
+    '''returns int\n\n
+    getDiscardedServerPreparedStatementCount()\n
     '''
 def closeUnreferencedPreparedStatementHandles():
-    '''public void closeUnreferencedPreparedStatementHandles()
+    '''returns None\n\n
+    closeUnreferencedPreparedStatementHandles()\n
     '''
 def getEnablePrepareOnFirstPreparedStatementCall():
-    '''public boolean getEnablePrepareOnFirstPreparedStatementCall()
+    '''returns boolean\n\n
+    getEnablePrepareOnFirstPreparedStatementCall()\n
     '''
 def setEnablePrepareOnFirstPreparedStatementCall():
-    '''public void setEnablePrepareOnFirstPreparedStatementCall(final boolean value)
+    '''returns None\n\n
+    setEnablePrepareOnFirstPreparedStatementCall(final boolean value)\n
     '''
 def getServerPreparedStatementDiscardThreshold():
-    '''public int getServerPreparedStatementDiscardThreshold()
+    '''returns int\n\n
+    getServerPreparedStatementDiscardThreshold()\n
     '''
 def setServerPreparedStatementDiscardThreshold():
-    '''public void setServerPreparedStatementDiscardThreshold(final int value)
+    '''returns None\n\n
+    setServerPreparedStatementDiscardThreshold(final int value)\n
     '''
 def getDisableStatementPooling():
-    '''public boolean getDisableStatementPooling()
+    '''returns boolean\n\n
+    getDisableStatementPooling()\n
     '''
 def setDisableStatementPooling():
-    '''public void setDisableStatementPooling(final boolean value)
+    '''returns None\n\n
+    setDisableStatementPooling(final boolean value)\n
     '''
 def getStatementPoolingCacheSize():
-    '''public int getStatementPoolingCacheSize()
+    '''returns int\n\n
+    getStatementPoolingCacheSize()\n
     '''
 def getStatementHandleCacheEntryCount():
-    '''public int getStatementHandleCacheEntryCount()
+    '''returns int\n\n
+    getStatementHandleCacheEntryCount()\n
     '''
 def isStatementPoolingEnabled():
-    '''public boolean isStatementPoolingEnabled()
+    '''returns boolean\n\n
+    isStatementPoolingEnabled()\n
     '''
 def setStatementPoolingCacheSize():
-    '''public void setStatementPoolingCacheSize(int value)
+    '''returns None\n\n
+    setStatementPoolingCacheSize(int value)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def onEviction():
-    '''public void onEviction(final CityHash128Key key, final PreparedStatementHandle handle)
+    '''returns None\n\n
+    onEviction(final CityHash128Key key, final PreparedStatementHandle handle)\n
     '''

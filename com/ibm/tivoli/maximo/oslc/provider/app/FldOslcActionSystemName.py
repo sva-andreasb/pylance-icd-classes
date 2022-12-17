@@ -1,6 +1,8 @@
-def FldOslcActionSystemName():
-    '''public FldOslcActionSystemName(final MboValue mbv)
+def ():
+    '''returns FldOslcActionSystemName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

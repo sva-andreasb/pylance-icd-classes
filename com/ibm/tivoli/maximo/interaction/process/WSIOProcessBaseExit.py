@@ -1,9 +1,12 @@
-def WSIOProcessBaseExit():
-    '''public WSIOProcessBaseExit()
+def ():
+    '''returns WSIOProcessBaseExit\n\n
+    ()\n
     '''
 def getNamespace():
-    '''public Namespace getNamespace(final String ns, final Map<String, String> nsCtx)
+    '''returns Namespace\n\n
+    getNamespace(final String ns, final Map<String, String> nsCtx)\n
     '''
 def removeParentLocation():
-    '''public String removeParentLocation(final String strXPath, final WSIO wsio, final boolean isWsioAttr)
+    '''returns String\n\n
+    removeParentLocation(final String strXPath, final WSIO wsio, final boolean isWsioAttr)\n
     '''

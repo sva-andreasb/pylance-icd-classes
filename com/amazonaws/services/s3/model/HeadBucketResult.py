@@ -1,9 +1,12 @@
 def getBucketRegion():
-    '''public String getBucketRegion()
+    '''returns String\n\n
+    getBucketRegion()\n
     '''
 def setBucketRegion():
-    '''public void setBucketRegion(final String bucketRegion)
+    '''returns None\n\n
+    setBucketRegion(final String bucketRegion)\n
     '''
 def withBucketRegion():
-    '''public HeadBucketResult withBucketRegion(final String bucketRegion)
+    '''returns HeadBucketResult\n\n
+    withBucketRegion(final String bucketRegion)\n
     '''

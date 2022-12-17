@@ -1,56 +1,60 @@
-def Std():
-    '''public Std(final PropertyName name, final JavaType type, final PropertyName wrapperName, final AnnotatedMember member, final PropertyMetadata metadata)
-    public Std(final PropertyName name, final JavaType type, final PropertyName wrapperName, final Annotations contextAnnotations, final AnnotatedMember member, final PropertyMetadata metadata)
-    public Std(final Std base, final JavaType newType)
+def ():
+    '''returns Std\n\n
+    (final PropertyName name, final JavaType type, final PropertyName wrapperName, final AnnotatedMember member, final PropertyMetadata metadata)\n
+    (final PropertyName name, final JavaType type, final PropertyName wrapperName, final Annotations contextAnnotations, final AnnotatedMember member, final PropertyMetadata metadata)\n
+    (final Std base, final JavaType newType)\n
     '''
 def withType():
-    '''public Std withType(final JavaType type)
-    '''
-def getAnnotation():
-    '''public <A extends Annotation> A getAnnotation(final Class<A> acls)
-    public <A extends Annotation> A getAnnotation(final Class<A> acls)
-    '''
-def getContextAnnotation():
-    '''public <A extends Annotation> A getContextAnnotation(final Class<A> acls)
-    public <A extends Annotation> A getContextAnnotation(final Class<A> acls)
+    '''returns Std\n\n
+    withType(final JavaType type)\n
     '''
 def findAliases():
-    '''public List<PropertyName> findAliases(final MapperConfig<?> config)
-    public List<PropertyName> findAliases(final MapperConfig<?> config)
+    '''returns List<PropertyName>\n\n
+    findAliases(final MapperConfig<?> config)\n
+    findAliases(final MapperConfig<?> config)\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def getFullName():
-    '''public PropertyName getFullName()
-    public PropertyName getFullName()
+    '''returns PropertyName\n\n
+    getFullName()\n
+    getFullName()\n
     '''
 def getType():
-    '''public JavaType getType()
-    public JavaType getType()
+    '''returns JavaType\n\n
+    getType()\n
+    getType()\n
     '''
 def getWrapperName():
-    '''public PropertyName getWrapperName()
-    public PropertyName getWrapperName()
+    '''returns PropertyName\n\n
+    getWrapperName()\n
+    getWrapperName()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
-    public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
+    isRequired()\n
     '''
 def getMetadata():
-    '''public PropertyMetadata getMetadata()
-    public PropertyMetadata getMetadata()
+    '''returns PropertyMetadata\n\n
+    getMetadata()\n
+    getMetadata()\n
     '''
 def getMember():
-    '''public AnnotatedMember getMember()
-    public AnnotatedMember getMember()
+    '''returns AnnotatedMember\n\n
+    getMember()\n
+    getMember()\n
     '''
 def isVirtual():
-    '''public boolean isVirtual()
-    public boolean isVirtual()
+    '''returns boolean\n\n
+    isVirtual()\n
+    isVirtual()\n
     '''
 def depositSchemaProperty():
-    '''public void depositSchemaProperty(final JsonObjectFormatVisitor objectVisitor, final SerializerProvider provider)
-    public void depositSchemaProperty(final JsonObjectFormatVisitor objectVisitor, final SerializerProvider provider)
+    '''returns None\n\n
+    depositSchemaProperty(final JsonObjectFormatVisitor objectVisitor, final SerializerProvider provider)\n
+    depositSchemaProperty(final JsonObjectFormatVisitor objectVisitor, final SerializerProvider provider)\n
     '''

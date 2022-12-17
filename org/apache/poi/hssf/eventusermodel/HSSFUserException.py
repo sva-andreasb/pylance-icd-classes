@@ -1,9 +1,11 @@
-def HSSFUserException():
-    '''public HSSFUserException()
-    public HSSFUserException(final String msg)
-    public HSSFUserException(final Throwable reason)
-    public HSSFUserException(final String msg, final Throwable reason)
+def ():
+    '''returns HSSFUserException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable reason)\n
+    (final String msg, final Throwable reason)\n
     '''
 def getReason():
-    '''public Throwable getReason()
+    '''returns Throwable\n\n
+    getReason()\n
     '''

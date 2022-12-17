@@ -1,12 +1,12 @@
-def newUnion():
-    '''public static Union newUnion(final Type... fields)
-    '''
-def Union():
-    '''public Union(final Type... fields)
+def ():
+    '''returns Union\n\n
+    (final Type... fields)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

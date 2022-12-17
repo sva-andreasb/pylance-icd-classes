@@ -8,185 +8,243 @@ SELECTED_CONFIGURATION_PROPERTY = "String  \"selectedConfiguration\""
 DATA_CLASS_PROPERTY = "String  \"dataClass\""
 UNDO_LIMIT_PROPERTY = "String  \"undoLimit\""
 DOCUMENT_CLASS_PROPERTY = "String  \"documentClass\""
-def IlvDocumentTemplate():
-    '''public IlvDocumentTemplate()
-    public IlvDocumentTemplate(String original)
+def ():
+    '''returns IlvDocumentTemplate\n\n
+    ()\n
+    (String original)\n
     '''
 def createDocumentViews():
-    '''public boolean createDocumentViews(final IlvMainWindow ilvMainWindow, final IlvDocument ilvDocument)
+    '''returns boolean\n\n
+    createDocumentViews(final IlvMainWindow ilvMainWindow, final IlvDocument ilvDocument)\n
     '''
 def matchData():
-    '''public int matchData(final Object o)
+    '''returns int\n\n
+    matchData(final Object o)\n
     '''
 def closeDocumentViews():
-    '''public void closeDocumentViews(final IlvDocument ilvDocument)
+    '''returns None\n\n
+    closeDocumentViews(final IlvDocument ilvDocument)\n
     '''
 def getDocumentContainers():
-    '''public IlvViewContainer[] getDocumentContainers(final IlvDocument ilvDocument)
+    '''returns IlvViewContainer[]\n\n
+    getDocumentContainers(final IlvDocument ilvDocument)\n
     '''
 def newViewContainer():
-    '''public IlvViewContainer newViewContainer(final IlvDocument ilvDocument, final String s, final boolean b)
-    public IlvViewContainer newViewContainer(final IlvDocument ilvDocument, final IlvContainerTemplate ilvContainerTemplate, final String s)
+    '''returns IlvViewContainer\n\n
+    newViewContainer(final IlvDocument ilvDocument, final String s, final boolean b)\n
+    newViewContainer(final IlvDocument ilvDocument, final IlvContainerTemplate ilvContainerTemplate, final String s)\n
     '''
 def newMDIViewContainer():
-    '''public IlvMDIViewContainer newMDIViewContainer(final IlvDocument ilvDocument, final IlvMDIContainerTemplate ilvMDIContainerTemplate, final String s)
+    '''returns IlvMDIViewContainer\n\n
+    newMDIViewContainer(final IlvDocument ilvDocument, final IlvMDIContainerTemplate ilvMDIContainerTemplate, final String s)\n
     '''
 def activateDocumentView():
-    '''public void activateDocumentView(final IlvDocumentView ilvDocumentView)
-    public void activateDocumentView(final IlvDocument ilvDocument)
+    '''returns None\n\n
+    activateDocumentView(final IlvDocumentView ilvDocumentView)\n
+    activateDocumentView(final IlvDocument ilvDocument)\n
     '''
 def documentActivated():
-    '''public void documentActivated(final IlvDocument ilvDocument, final boolean b)
+    '''returns None\n\n
+    documentActivated(final IlvDocument ilvDocument, final boolean b)\n
     '''
 def documentViewExists():
-    '''public IlvDocumentView documentViewExists(final IlvDocument ilvDocument, final String s)
+    '''returns IlvDocumentView\n\n
+    documentViewExists(final IlvDocument ilvDocument, final String s)\n
     '''
 def ensureDocumentViewExists():
-    '''public IlvDocumentView ensureDocumentViewExists(final IlvDocument ilvDocument, final String s, final boolean b)
+    '''returns IlvDocumentView\n\n
+    ensureDocumentViewExists(final IlvDocument ilvDocument, final String s, final boolean b)\n
     '''
 def closeDocumentView():
-    '''public boolean closeDocumentView(final IlvDocument ilvDocument, final String s)
+    '''returns boolean\n\n
+    closeDocumentView(final IlvDocument ilvDocument, final String s)\n
     '''
 def initializeDocumentViews():
-    '''public void initializeDocumentViews(final IlvDocument ilvDocument)
+    '''returns None\n\n
+    initializeDocumentViews(final IlvDocument ilvDocument)\n
     '''
 def updateViewContainerTitles():
-    '''public void updateViewContainerTitles(final IlvDocument ilvDocument)
+    '''returns None\n\n
+    updateViewContainerTitles(final IlvDocument ilvDocument)\n
     '''
 def createDocument():
-    '''public IlvDocument createDocument()
+    '''returns IlvDocument\n\n
+    createDocument()\n
     '''
 def alwaysShowMenu():
-    '''public boolean alwaysShowMenu()
+    '''returns boolean\n\n
+    alwaysShowMenu()\n
     '''
 def insertBars():
-    '''public void insertBars(final IlvMainWindow ilvMainWindow)
+    '''returns None\n\n
+    insertBars(final IlvMainWindow ilvMainWindow)\n
     '''
 def removeBars():
-    '''public void removeBars(final IlvMainWindow ilvMainWindow)
+    '''returns None\n\n
+    removeBars(final IlvMainWindow ilvMainWindow)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def setApplication():
-    '''public void setApplication(final IlvApplication application)
+    '''returns None\n\n
+    setApplication(final IlvApplication application)\n
     '''
 def getSettings():
-    '''public IlvSettings getSettings()
+    '''returns IlvSettings\n\n
+    getSettings()\n
     '''
 def setSettings():
-    '''public void setSettings(final IlvSettings settings)
+    '''returns None\n\n
+    setSettings(final IlvSettings settings)\n
     '''
 def getDocumentClass():
-    '''public Class getDocumentClass()
+    '''returns Class\n\n
+    getDocumentClass()\n
     '''
 def setDocumentClass():
-    '''public void setDocumentClass(final Class clazz)
+    '''returns None\n\n
+    setDocumentClass(final Class clazz)\n
     '''
 def getDataClass():
-    '''public Class getDataClass()
+    '''returns Class\n\n
+    getDataClass()\n
     '''
 def getShortName():
-    '''public String getShortName()
+    '''returns String\n\n
+    getShortName()\n
     '''
 def setShortName():
-    '''public void setShortName(final String s)
+    '''returns None\n\n
+    setShortName(final String s)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String t)
+    '''returns None\n\n
+    setDescription(final String t)\n
     '''
 def getDefaultDocumentName():
-    '''public String getDefaultDocumentName()
+    '''returns String\n\n
+    getDefaultDocumentName()\n
     '''
 def setDefaultDocumentName():
-    '''public void setDefaultDocumentName(final String u)
+    '''returns None\n\n
+    setDefaultDocumentName(final String u)\n
     '''
 def isMDI():
-    '''public boolean isMDI()
+    '''returns boolean\n\n
+    isMDI()\n
     '''
 def setMDI():
-    '''public void setMDI(final boolean r)
+    '''returns None\n\n
+    setMDI(final boolean r)\n
     '''
 def hasOwnRecentFileList():
-    '''public boolean hasOwnRecentFileList()
+    '''returns boolean\n\n
+    hasOwnRecentFileList()\n
     '''
 def getRecentFileListCommand():
-    '''public String getRecentFileListCommand()
+    '''returns String\n\n
+    getRecentFileListCommand()\n
     '''
 def connectMainWindow():
-    '''public void connectMainWindow(final IlvMainWindow ilvMainWindow)
+    '''returns None\n\n
+    connectMainWindow(final IlvMainWindow ilvMainWindow)\n
     '''
 def applicationEventReceived():
-    '''public void applicationEventReceived(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationEventReceived(final ApplicationEvent applicationEvent)\n
     '''
 def getMenuCompletion():
-    '''public IlvMenuCompletion getMenuCompletion(final IlvMainWindow ilvMainWindow)
+    '''returns IlvMenuCompletion\n\n
+    getMenuCompletion(final IlvMainWindow ilvMainWindow)\n
     '''
 def readSettings():
-    '''public boolean readSettings(final IlvSettings settings, final IlvApplication application)
-    public void readSettings(final IlvSettingsElement ilvSettingsElement, final Object o)
-    public boolean readSettings(final IlvSettingsElement settingsElement, final IlvApplication application)
+    '''returns boolean\n\n
+    readSettings(final IlvSettings settings, final IlvApplication application)\n
+    readSettings(final IlvSettingsElement ilvSettingsElement, final Object o)\n
+    readSettings(final IlvSettingsElement settingsElement, final IlvApplication application)\n
     '''
 def writeSettings():
-    '''public void writeSettings(final IlvSettingsElement ilvSettingsElement, final Object o)
+    '''returns None\n\n
+    writeSettings(final IlvSettingsElement ilvSettingsElement, final Object o)\n
     '''
 def getSettingsElement():
-    '''public IlvSettingsElement getSettingsElement()
+    '''returns IlvSettingsElement\n\n
+    getSettingsElement()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def isProcessingAction():
-    '''public boolean isProcessingAction(final String s)
+    '''returns boolean\n\n
+    isProcessingAction(final String s)\n
     '''
 def updateAction():
-    '''public boolean updateAction(final Action action)
+    '''returns boolean\n\n
+    updateAction(final Action action)\n
     '''
 def getIcon():
-    '''public Icon getIcon()
-    public Icon getIcon(final String s)
+    '''returns Icon\n\n
+    getIcon()\n
+    getIcon(final String s)\n
     '''
 def closeDocument():
-    '''public boolean closeDocument(final IlvDocument ilvDocument, final boolean b)
+    '''returns boolean\n\n
+    closeDocument(final IlvDocument ilvDocument, final boolean b)\n
     '''
 def saveDocumentModifications():
-    '''public boolean saveDocumentModifications(final IlvDocument ilvDocument)
+    '''returns boolean\n\n
+    saveDocumentModifications(final IlvDocument ilvDocument)\n
     '''
 def closeViewContainer():
-    '''public boolean closeViewContainer(final IlvMDIViewContainer ilvMDIViewContainer)
-    public boolean closeViewContainer(final IlvMDIViewContainer ilvMDIViewContainer, final boolean b)
+    '''returns boolean\n\n
+    closeViewContainer(final IlvMDIViewContainer ilvMDIViewContainer)\n
+    closeViewContainer(final IlvMDIViewContainer ilvMDIViewContainer, final boolean b)\n
     '''
 def canCloseViewContainer():
-    '''public boolean canCloseViewContainer(final IlvViewContainer ilvViewContainer)
+    '''returns boolean\n\n
+    canCloseViewContainer(final IlvViewContainer ilvViewContainer)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String s, final Object o)
+    '''returns Object\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def getViewConfiguration():
-    '''public IlvDocumentViewConfiguration getViewConfiguration(final String s)
-    public IlvDocumentViewConfiguration getViewConfiguration(final int n)
+    '''returns IlvDocumentViewConfiguration\n\n
+    getViewConfiguration(final String s)\n
+    getViewConfiguration(final int n)\n
     '''
 def getViewConfigurationCount():
-    '''public int getViewConfigurationCount()
+    '''returns int\n\n
+    getViewConfigurationCount()\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''

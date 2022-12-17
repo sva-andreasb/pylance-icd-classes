@@ -1,6 +1,8 @@
-def PmScSSNewCartTemplateBean():
-    '''public PmScSSNewCartTemplateBean()
+def ():
+    '''returns PmScSSNewCartTemplateBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''

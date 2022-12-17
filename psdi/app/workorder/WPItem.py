@@ -1,42 +1,56 @@
-def WPItem():
-    '''public WPItem(final MboSet ms)
+def ():
+    '''returns WPItem\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def copyPlan():
-    '''public void copyPlan(final MboRemote source)
+    '''returns None\n\n
+    copyPlan(final MboRemote source)\n
     '''
 def copyHazardForItem():
-    '''public void copyHazardForItem()
+    '''returns None\n\n
+    copyHazardForItem()\n
     '''
 def updateTotals():
-    '''public void updateTotals(final MboRemote wo, final boolean isGain)
+    '''returns None\n\n
+    updateTotals(final MboRemote wo, final boolean isGain)\n
     '''
 def setEstCost():
-    '''public void setEstCost(final MboRemote wo, final double lineCost)
+    '''returns None\n\n
+    setEstCost(final MboRemote wo, final double lineCost)\n
     '''
 def validateStoreLocSite():
-    '''public void validateStoreLocSite()
+    '''returns None\n\n
+    validateStoreLocSite()\n
     '''
 def setLocation():
-    '''public void setLocation()
+    '''returns None\n\n
+    setLocation()\n
     '''
 def getRequiredMaterialCost():
-    '''public void getRequiredMaterialCost()
+    '''returns None\n\n
+    getRequiredMaterialCost()\n
     '''
 def setBaseCurrencyUnitCost():
-    '''public void setBaseCurrencyUnitCost(final double vendorunitcost)
+    '''returns None\n\n
+    setBaseCurrencyUnitCost(final double vendorunitcost)\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def isNullQty():
-    '''public void isNullQty()
+    '''returns None\n\n
+    isNullQty()\n
     '''
 def setVendor():
-    '''public void setVendor()
+    '''returns None\n\n
+    setVendor()\n
     '''

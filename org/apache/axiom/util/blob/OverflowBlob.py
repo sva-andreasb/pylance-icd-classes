@@ -1,60 +1,78 @@
-def OverflowBlob():
-    '''public OverflowBlob(final int numberOfChunks, final int chunkSize, final String tempPrefix, final String tempSuffix)
+def ():
+    '''returns OverflowBlob\n\n
+    (final int numberOfChunks, final int chunkSize, final String tempPrefix, final String tempSuffix)\n
     '''
 def isSupportingReadUncommitted():
-    '''public boolean isSupportingReadUncommitted()
+    '''returns boolean\n\n
+    isSupportingReadUncommitted()\n
     '''
 def getOutputStream():
-    '''public BlobOutputStream getOutputStream()
+    '''returns BlobOutputStream\n\n
+    getOutputStream()\n
     '''
 def readFrom():
-    '''public long readFrom(final InputStream in, final long length, final boolean commit)
-    public long readFrom(final InputStream in, final long length)
+    '''returns long\n\n
+    readFrom(final InputStream in, final long length, final boolean commit)\n
+    readFrom(final InputStream in, final long length)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def getBlob():
-    '''public WritableBlob getBlob()
+    '''returns WritableBlob\n\n
+    getBlob()\n
     '''
 def write():
-    '''public void write(final byte[] b, int off, int len)
-    public void write(final byte[] b)
-    public void write(final int b)
+    '''returns None\n\n
+    write(final byte[] b, int off, int len)\n
+    write(final byte[] b)\n
+    write(final int b)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def read():
-    '''public int read(final byte[] b, int off, int len)
-    public int read(final byte[] b)
-    public int read()
+    '''returns int\n\n
+    read(final byte[] b, int off, int len)\n
+    read(final byte[] b)\n
+    read()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''

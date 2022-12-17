@@ -1,27 +1,36 @@
-def Account():
-    '''public Account(final MboSet ms)
+def ():
+    '''returns Account\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def inActivateGLAccount():
-    '''public void inActivateGLAccount()
+    '''returns None\n\n
+    inActivateGLAccount()\n
     '''
 def activateGLAccount():
-    '''public void activateGLAccount()
+    '''returns None\n\n
+    activateGLAccount()\n
     '''
 def addUpdateComponents():
-    '''public void addUpdateComponents(final String[] compName, final String[] compDesc, final boolean[] CompDescAsNameArray)
+    '''returns None\n\n
+    addUpdateComponents(final String[] compName, final String[] compDesc, final boolean[] CompDescAsNameArray)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def canInActivate():
-    '''public boolean canInActivate()
+    '''returns boolean\n\n
+    canInActivate()\n
     '''

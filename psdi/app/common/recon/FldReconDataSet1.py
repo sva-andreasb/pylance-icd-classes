@@ -1,12 +1,16 @@
-def FldReconDataSet1():
-    '''public FldReconDataSet1(final MboValue mbv)
+def ():
+    '''returns FldReconDataSet1\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

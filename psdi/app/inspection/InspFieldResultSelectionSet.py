@@ -1,3 +1,4 @@
-def InspFieldResultSelectionSet():
-    '''public InspFieldResultSelectionSet(final MboServerInterface ms)
+def ():
+    '''returns InspFieldResultSelectionSet\n\n
+    (final MboServerInterface ms)\n
     '''

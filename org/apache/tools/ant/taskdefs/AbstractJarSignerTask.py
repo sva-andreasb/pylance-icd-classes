@@ -1,43 +1,57 @@
 ERROR_NO_SOURCE = "String  \"jar must be set through jar attribute or nested filesets\""
-def AbstractJarSignerTask():
-    '''public AbstractJarSignerTask()
+def ():
+    '''returns AbstractJarSignerTask\n\n
+    ()\n
     '''
 def setMaxmemory():
-    '''public void setMaxmemory(final String max)
+    '''returns None\n\n
+    setMaxmemory(final String max)\n
     '''
 def setJar():
-    '''public void setJar(final File jar)
+    '''returns None\n\n
+    setJar(final File jar)\n
     '''
 def setAlias():
-    '''public void setAlias(final String alias)
+    '''returns None\n\n
+    setAlias(final String alias)\n
     '''
 def setKeystore():
-    '''public void setKeystore(final String keystore)
+    '''returns None\n\n
+    setKeystore(final String keystore)\n
     '''
 def setStorepass():
-    '''public void setStorepass(final String storepass)
+    '''returns None\n\n
+    setStorepass(final String storepass)\n
     '''
 def setStoretype():
-    '''public void setStoretype(final String storetype)
+    '''returns None\n\n
+    setStoretype(final String storetype)\n
     '''
 def setKeypass():
-    '''public void setKeypass(final String keypass)
+    '''returns None\n\n
+    setKeypass(final String keypass)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean verbose)
+    '''returns None\n\n
+    setVerbose(final boolean verbose)\n
     '''
 def addFileset():
-    '''public void addFileset(final FileSet set)
+    '''returns None\n\n
+    addFileset(final FileSet set)\n
     '''
 def addSysproperty():
-    '''public void addSysproperty(final Environment.Variable sysp)
+    '''returns None\n\n
+    addSysproperty(final Environment.Variable sysp)\n
     '''
 def createPath():
-    '''public Path createPath()
+    '''returns Path\n\n
+    createPath()\n
     '''
 def getRedirector():
-    '''public RedirectorElement getRedirector()
+    '''returns RedirectorElement\n\n
+    getRedirector()\n
     '''
 def setExecutable():
-    '''public void setExecutable(final String executable)
+    '''returns None\n\n
+    setExecutable(final String executable)\n
     '''

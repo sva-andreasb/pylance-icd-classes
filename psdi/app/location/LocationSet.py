@@ -1,105 +1,139 @@
-def LocationSet():
-    '''public LocationSet(final MboServerInterface ms)
+def ():
+    '''returns LocationSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findTopLevel():
-    '''public void findTopLevel()
-    public void findTopLevel(final String locSiteId)
+    '''returns None\n\n
+    findTopLevel()\n
+    findTopLevel(final String locSiteId)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def setPathToTopCalledByControl():
-    '''public void setPathToTopCalledByControl(final boolean wasByControl)
+    '''returns None\n\n
+    setPathToTopCalledByControl(final boolean wasByControl)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String hierarchy)
-    public void setHierarchy(final String object, final String key, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String hierarchy)\n
+    setHierarchy(final String object, final String key, final String hierarchy)\n
     '''
 def getUniqueIDValue():
-    '''public MboValueData getUniqueIDValue(final String object, final String[] attributes, final String[] values)
+    '''returns MboValueData\n\n
+    getUniqueIDValue(final String object, final String[] attributes, final String[] values)\n
     '''
 def getAllHierarchies():
-    '''public MboValueData[][] getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def findTopLocationsAtSystem():
-    '''public void findTopLocationsAtSystem(final String system)
+    '''returns None\n\n
+    findTopLocationsAtSystem(final String system)\n
     '''
 def findLocation():
-    '''public void findLocation(final String location)
+    '''returns None\n\n
+    findLocation(final String location)\n
     '''
 def getAllLocationTypes():
-    '''public Vector getAllLocationTypes(final boolean internalVals)
+    '''returns Vector\n\n
+    getAllLocationTypes(final boolean internalVals)\n
     '''
 def findSelectedLocs():
-    '''public void findSelectedLocs(final String where)
+    '''returns None\n\n
+    findSelectedLocs(final String where)\n
     '''
 def findStoreRooms():
-    '''public void findStoreRooms()
+    '''returns None\n\n
+    findStoreRooms()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def setStoreroom():
-    '''public void setStoreroom()
+    '''returns None\n\n
+    setStoreroom()\n
     '''
 def setNonStoreroom():
-    '''public void setNonStoreroom()
+    '''returns None\n\n
+    setNonStoreroom()\n
     '''
 def getDataList():
-    '''public String[][] getDataList(final String[] attributes, final int overFlowValue, final MboRemote parent)
-    public String[][] getDataList(final String[] attributes, final int overFlowValue, final MboRemote parent, final String locSiteId)
+    '''returns String[][]\n\n
+    getDataList(final String[] attributes, final int overFlowValue, final MboRemote parent)\n
+    getDataList(final String[] attributes, final int overFlowValue, final MboRemote parent, final String locSiteId)\n
     '''
 def filterLocSet():
-    '''public void filterLocSet(final String locSiteId)
+    '''returns None\n\n
+    filterLocSet(final String locSiteId)\n
     '''
 def setDrilldownFlag():
-    '''public void setDrilldownFlag()
+    '''returns None\n\n
+    setDrilldownFlag()\n
     '''
 def applyLocationModifyDefaults():
-    '''public void applyLocationModifyDefaults(final AssetModifyDfltSetRemote assetModifyDfltSet)
+    '''returns None\n\n
+    applyLocationModifyDefaults(final AssetModifyDfltSetRemote assetModifyDfltSet)\n
     '''
 def setItemForAddToStore():
-    '''public void setItemForAddToStore(final MboRemote item)
+    '''returns None\n\n
+    setItemForAddToStore(final MboRemote item)\n
     '''
 def getItemForAddToStore():
-    '''public MboRemote getItemForAddToStore()
+    '''returns MboRemote\n\n
+    getItemForAddToStore()\n
     '''
 def getSqlForAuthorizedStorerooms():
-    '''public String getSqlForAuthorizedStorerooms()
+    '''returns String\n\n
+    getSqlForAuthorizedStorerooms()\n
     '''
 def authorizedStoreRoomSet():
-    '''public void authorizedStoreRoomSet()
+    '''returns None\n\n
+    authorizedStoreRoomSet()\n
     '''
 def getMultiSiteWhere():
-    '''public String getMultiSiteWhere()
+    '''returns String\n\n
+    getMultiSiteWhere()\n
     '''
 def getRoleRestrictionWhere():
-    '''public String getRoleRestrictionWhere()
+    '''returns String\n\n
+    getRoleRestrictionWhere()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int ind)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int ind)\n
     '''
 def addLocationOpSKD():
-    '''public void addLocationOpSKD(final MboSetRemote npLocationOpSKDSet)
+    '''returns None\n\n
+    addLocationOpSKD(final MboSetRemote npLocationOpSKDSet)\n
     '''
 def addLocationMntSKD():
-    '''public void addLocationMntSKD(final MboSetRemote npLocationOpSKDSet)
+    '''returns None\n\n
+    addLocationMntSKD(final MboSetRemote npLocationOpSKDSet)\n
     '''
 def addWorkZones():
-    '''public void addWorkZones(final String workzone, final String type, final String orgid)
+    '''returns None\n\n
+    addWorkZones(final String workzone, final String type, final String orgid)\n
     '''
 def addReorderStorelocUpdatedWarning():
-    '''public void addReorderStorelocUpdatedWarning()
+    '''returns None\n\n
+    addReorderStorelocUpdatedWarning()\n
     '''

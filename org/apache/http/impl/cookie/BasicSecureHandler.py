@@ -1,9 +1,12 @@
 def parse():
-    '''public void parse(final SetCookie cookie, final String value)
+    '''returns None\n\n
+    parse(final SetCookie cookie, final String value)\n
     '''
 def match():
-    '''public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''returns boolean\n\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''

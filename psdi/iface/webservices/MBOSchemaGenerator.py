@@ -1,49 +1,65 @@
-def MBOSchemaGenerator():
-    '''public MBOSchemaGenerator(final String mboName)
-    public MBOSchemaGenerator(final String mboName, final Map<String, Element> schemaElements)
+def ():
+    '''returns MBOSchemaGenerator\n\n
+    (final String mboName)\n
+    (final String mboName, final Map<String, Element> schemaElements)\n
     '''
 def getSchemaFileName():
-    '''public String getSchemaFileName()
+    '''returns String\n\n
+    getSchemaFileName()\n
     '''
 def createSchemaDcoument():
-    '''public Document createSchemaDcoument()
+    '''returns Document\n\n
+    createSchemaDcoument()\n
     '''
 def getMboKeySetType():
-    '''public String getMboKeySetType()
+    '''returns String\n\n
+    getMboKeySetType()\n
     '''
 def getMboKeyType():
-    '''public String getMboKeyType()
+    '''returns String\n\n
+    getMboKeyType()\n
     '''
 def getMboSetType():
-    '''public String getMboSetType()
+    '''returns String\n\n
+    getMboSetType()\n
     '''
 def getMboType():
-    '''public String getMboType()
+    '''returns String\n\n
+    getMboType()\n
     '''
 def getMboQueryType():
-    '''public String getMboQueryType()
+    '''returns String\n\n
+    getMboQueryType()\n
     '''
 def getMboQueryElementName():
-    '''public String getMboQueryElementName()
+    '''returns String\n\n
+    getMboQueryElementName()\n
     '''
 def getMboElementName():
-    '''public String getMboElementName()
+    '''returns String\n\n
+    getMboElementName()\n
     '''
 def getMboKeyElementName():
-    '''public String getMboKeyElementName()
+    '''returns String\n\n
+    getMboKeyElementName()\n
     '''
 def getMboKeySetElementName():
-    '''public String getMboKeySetElementName()
+    '''returns String\n\n
+    getMboKeySetElementName()\n
     '''
 def getMboSetElementName():
-    '''public String getMboSetElementName()
+    '''returns String\n\n
+    getMboSetElementName()\n
     '''
 def getSchemaFolder():
-    '''public File getSchemaFolder()
+    '''returns File\n\n
+    getSchemaFolder()\n
     '''
 def getSchemaElementFor():
-    '''public String getSchemaElementFor(final String identifier)
+    '''returns String\n\n
+    getSchemaElementFor(final String identifier)\n
     '''
 def getSchemaUrl():
-    '''public String getSchemaUrl()
+    '''returns String\n\n
+    getSchemaUrl()\n
     '''

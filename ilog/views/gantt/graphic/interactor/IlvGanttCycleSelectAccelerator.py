@@ -1,6 +1,8 @@
-def IlvGanttCycleSelectAccelerator():
-    '''public IlvGanttCycleSelectAccelerator(final KeyStroke keyStroke, final boolean b)
+def ():
+    '''returns IlvGanttCycleSelectAccelerator\n\n
+    (final KeyStroke keyStroke, final boolean b)\n
     '''
 def compare():
-    '''public int compare(final IlvGraphic ilvGraphic, final IlvGraphic ilvGraphic2)
+    '''returns int\n\n
+    compare(final IlvGraphic ilvGraphic, final IlvGraphic ilvGraphic2)\n
     '''

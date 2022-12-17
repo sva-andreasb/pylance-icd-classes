@@ -1,3 +1,4 @@
-def LaborQualStatusSet():
-    '''public LaborQualStatusSet(final MboServerInterface ms)
+def ():
+    '''returns LaborQualStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

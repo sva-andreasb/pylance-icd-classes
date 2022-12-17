@@ -1,3 +1,4 @@
-def ViewContInput():
-    '''public ViewContInput(final MboSet ms)
+def ():
+    '''returns ViewContInput\n\n
+    (final MboSet ms)\n
     '''

@@ -1,46 +1,58 @@
-def SelectionClusterMemberDescriptionImpl():
-    '''public SelectionClusterMemberDescriptionImpl(final DescriptionKey key)
+def ():
+    '''returns MementoImpl\n\n
+    (final DescriptionKey key)\n
+    ()\n
     '''
 def getDefinitionKey():
-    '''public String getDefinitionKey()
+    '''returns String\n\n
+    getDefinitionKey()\n
     '''
 def setClusterMemberAssociation():
-    '''public void setClusterMemberAssociation(final DescriptionKey association)
+    '''returns None\n\n
+    setClusterMemberAssociation(final DescriptionKey association)\n
     '''
 def exportToStream():
-    '''public void exportToStream(final DataOutput out, final Format format)
+    '''returns None\n\n
+    exportToStream(final DataOutput out, final Format format)\n
     '''
 def setHost():
-    '''public void setHost(final String host)
+    '''returns None\n\n
+    setHost(final String host)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String attribute)
+    '''returns None\n\n
+    addAttribute(final String attribute)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String attribute)
+    '''returns None\n\n
+    removeAttribute(final String attribute)\n
     '''
 def isAttributeEmpty():
-    '''public boolean isAttributeEmpty()
+    '''returns boolean\n\n
+    isAttributeEmpty()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def setMemento():
-    '''public void setMemento(final Description.Memento memento)
-    '''
-def MementoImpl():
-    '''public MementoImpl()
+    '''returns None\n\n
+    setMemento(final Description.Memento memento)\n
     '''
 def getConcern():
-    '''public Concern getConcern()
+    '''returns Concern\n\n
+    getConcern()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getClusterMemberAssociation():
-    '''public DescriptionKey getClusterMemberAssociation()
+    '''returns DescriptionKey\n\n
+    getClusterMemberAssociation()\n
     '''
 def getAttributes():
-    '''public Set getAttributes()
+    '''returns Set\n\n
+    getAttributes()\n
     '''

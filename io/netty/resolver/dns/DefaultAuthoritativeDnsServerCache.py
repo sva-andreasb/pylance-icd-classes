@@ -1,17 +1,22 @@
-def DefaultAuthoritativeDnsServerCache():
-    '''public DefaultAuthoritativeDnsServerCache()
-    public DefaultAuthoritativeDnsServerCache(final int minTtl, final int maxTtl, final Comparator<InetSocketAddress> comparator)
+def ():
+    '''returns DefaultAuthoritativeDnsServerCache\n\n
+    ()\n
+    (final int minTtl, final int maxTtl, final Comparator<InetSocketAddress> comparator)\n
     '''
 def get():
-    '''public DnsServerAddressStream get(final String hostname)
+    '''returns DnsServerAddressStream\n\n
+    get(final String hostname)\n
     '''
 def cache():
-    '''public void cache(final String hostname, final InetSocketAddress address, final long originalTtl, final EventLoop loop)
+    '''returns None\n\n
+    cache(final String hostname, final InetSocketAddress address, final long originalTtl, final EventLoop loop)\n
     '''
 def clear():
-    '''public void clear()
-    public boolean clear(final String hostname)
+    '''returns boolean\n\n
+    clear()\n
+    clear(final String hostname)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

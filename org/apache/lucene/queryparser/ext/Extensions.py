@@ -1,27 +1,24 @@
 DEFAULT_EXTENSION_FIELD_DELIMITER = "char  ':'"
-def Extensions():
-    '''public Extensions()
-    public Extensions(final char extensionFieldDelimiter)
+def ():
+    '''returns Pair\n\n
+    ()\n
+    (final char extensionFieldDelimiter)\n
+    (final Cur cur, final Cud cud)\n
     '''
 def add():
-    '''public void add(final String key, final ParserExtension extension)
-    '''
-def getExtension():
-    '''public final ParserExtension getExtension(final String key)
+    '''returns None\n\n
+    add(final String key, final ParserExtension extension)\n
     '''
 def getExtensionFieldDelimiter():
-    '''public char getExtensionFieldDelimiter()
-    '''
-def splitExtensionField():
-    '''public Pair<String, String> splitExtensionField(final String defaultField, final String field)
+    '''returns char\n\n
+    getExtensionFieldDelimiter()\n
     '''
 def escapeExtensionField():
-    '''public String escapeExtensionField(final String extfield)
+    '''returns String\n\n
+    escapeExtensionField(final String extfield)\n
     '''
 def buildExtensionField():
-    '''public String buildExtensionField(final String extensionKey)
-    public String buildExtensionField(final String extensionKey, final String field)
-    '''
-def Pair():
-    '''public Pair(final Cur cur, final Cud cud)
+    '''returns String\n\n
+    buildExtensionField(final String extensionKey)\n
+    buildExtensionField(final String extensionKey, final String field)\n
     '''

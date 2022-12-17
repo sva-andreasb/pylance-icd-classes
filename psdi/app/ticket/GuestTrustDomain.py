@@ -1,3 +1,4 @@
-def GuestTrustDomain():
-    '''public GuestTrustDomain(final MboSet ms)
+def ():
+    '''returns GuestTrustDomain\n\n
+    (final MboSet ms)\n
     '''

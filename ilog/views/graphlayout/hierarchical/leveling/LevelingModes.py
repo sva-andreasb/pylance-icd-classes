@@ -1,0 +1,5 @@
+OPTIMAL = "int  0"
+SEMI_OPTIMAL = "int  1"
+HIGHER_LEVELS = "int  2"
+LOWER_LEVELS = "int  3"
+SPREAD_OUT = "int  4"

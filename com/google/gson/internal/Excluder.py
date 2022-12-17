@@ -1,33 +1,40 @@
-def Excluder():
-    '''public Excluder()
+def ():
+    '''returns Excluder\n\n
+    ()\n
     '''
 def withVersion():
-    '''public Excluder withVersion(final double ignoreVersionsAfter)
+    '''returns Excluder\n\n
+    withVersion(final double ignoreVersionsAfter)\n
     '''
 def withModifiers():
-    '''public Excluder withModifiers(final int... modifiers)
+    '''returns Excluder\n\n
+    withModifiers(final int... modifiers)\n
     '''
 def disableInnerClassSerialization():
-    '''public Excluder disableInnerClassSerialization()
+    '''returns Excluder\n\n
+    disableInnerClassSerialization()\n
     '''
 def excludeFieldsWithoutExposeAnnotation():
-    '''public Excluder excludeFieldsWithoutExposeAnnotation()
+    '''returns Excluder\n\n
+    excludeFieldsWithoutExposeAnnotation()\n
     '''
 def withExclusionStrategy():
-    '''public Excluder withExclusionStrategy(final ExclusionStrategy exclusionStrategy, final boolean serialization, final boolean deserialization)
-    '''
-def create():
-    '''public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> type)
+    '''returns Excluder\n\n
+    withExclusionStrategy(final ExclusionStrategy exclusionStrategy, final boolean serialization, final boolean deserialization)\n
     '''
 def read():
-    '''public T read(final JsonReader in)
+    '''returns T\n\n
+    read(final JsonReader in)\n
     '''
 def write():
-    '''public void write(final JsonWriter out, final T value)
+    '''returns None\n\n
+    write(final JsonWriter out, final T value)\n
     '''
 def excludeField():
-    '''public boolean excludeField(final Field field, final boolean serialize)
+    '''returns boolean\n\n
+    excludeField(final Field field, final boolean serialize)\n
     '''
 def excludeClass():
-    '''public boolean excludeClass(final Class<?> clazz, final boolean serialize)
+    '''returns boolean\n\n
+    excludeClass(final Class<?> clazz, final boolean serialize)\n
     '''

@@ -1,7 +1,9 @@
-def SearchView():
-    '''public SearchView(final HelpSet set, final String s, final String s2, final Hashtable hashtable)
-    public SearchView(final HelpSet set, final String s, final String s2, final Locale locale, final Hashtable hashtable)
+def ():
+    '''returns SearchView\n\n
+    (final HelpSet set, final String s, final String s2, final Hashtable hashtable)\n
+    (final HelpSet set, final String s, final String s2, final Locale locale, final Hashtable hashtable)\n
     '''
 def createNavigator():
-    '''public Component createNavigator(final HelpModel helpModel)
+    '''returns Component\n\n
+    createNavigator(final HelpModel helpModel)\n
     '''

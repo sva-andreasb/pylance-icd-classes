@@ -1,50 +1,62 @@
-def ClassLoaderRepository():
-    '''public ClassLoaderRepository(final ClassLoader loader)
-    public ClassLoaderRepository(final ClassLoaderReference loaderRef)
+def ():
+    '''returns SoftHashMap\n\n
+    (final ClassLoader loader)\n
+    (final ClassLoaderReference loaderRef)\n
+    (final Map<Object, SpecialValue> map)\n
+    ()\n
+    (final Map map, final boolean b)\n
     '''
 def storeClass():
-    '''public void storeClass(final JavaClass clazz)
+    '''returns None\n\n
+    storeClass(final JavaClass clazz)\n
     '''
 def removeClass():
-    '''public void removeClass(final JavaClass clazz)
+    '''returns None\n\n
+    removeClass(final JavaClass clazz)\n
     '''
 def findClass():
-    '''public JavaClass findClass(final String className)
+    '''returns JavaClass\n\n
+    findClass(final String className)\n
     '''
 def loadClass():
-    '''public JavaClass loadClass(final String className)
-    public JavaClass loadClass(final Class clazz)
+    '''returns JavaClass\n\n
+    loadClass(final String className)\n
+    loadClass(final Class clazz)\n
     '''
 def report():
-    '''public String report()
+    '''returns String\n\n
+    report()\n
     '''
 def reportStats():
-    '''public long[] reportStats()
+    '''returns long[]\n\n
+    reportStats()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
-    '''
-def SoftHashMap():
-    '''public SoftHashMap(final Map<Object, SpecialValue> map)
-    public SoftHashMap()
-    public SoftHashMap(final Map map, final boolean b)
+    '''returns None\n\n
+    clear()\n
+    clear()\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public Object put(final Object k, final Object v)
+    '''returns Object\n\n
+    put(final Object k, final Object v)\n
     '''
 def entrySet():
-    '''public Set entrySet()
+    '''returns Set\n\n
+    entrySet()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def remove():
-    '''public Object remove(final Object k)
+    '''returns Object\n\n
+    remove(final Object k)\n
     '''

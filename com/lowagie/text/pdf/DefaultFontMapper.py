@@ -1,33 +1,41 @@
-def DefaultFontMapper():
-    '''public DefaultFontMapper()
+def ():
+    '''returns BaseFontParameters\n\n
+    ()\n
+    (final String fontName)\n
     '''
 def awtToPdf():
-    '''public BaseFont awtToPdf(final Font font)
+    '''returns BaseFont\n\n
+    awtToPdf(final Font font)\n
     '''
 def pdfToAwt():
-    '''public Font pdfToAwt(final BaseFont font, final int size)
+    '''returns Font\n\n
+    pdfToAwt(final BaseFont font, final int size)\n
     '''
 def putName():
-    '''public void putName(final String awtName, final BaseFontParameters parameters)
+    '''returns None\n\n
+    putName(final String awtName, final BaseFontParameters parameters)\n
     '''
 def putAlias():
-    '''public void putAlias(final String alias, final String awtName)
+    '''returns None\n\n
+    putAlias(final String alias, final String awtName)\n
     '''
 def getBaseFontParameters():
-    '''public BaseFontParameters getBaseFontParameters(final String name)
+    '''returns BaseFontParameters\n\n
+    getBaseFontParameters(final String name)\n
     '''
 def insertNames():
-    '''public void insertNames(final Object[] allNames, final String path)
+    '''returns None\n\n
+    insertNames(final Object[] allNames, final String path)\n
     '''
 def insertDirectory():
-    '''public int insertDirectory(final String dir)
+    '''returns int\n\n
+    insertDirectory(final String dir)\n
     '''
 def getMapper():
-    '''public HashMap getMapper()
+    '''returns HashMap\n\n
+    getMapper()\n
     '''
 def getAliases():
-    '''public HashMap getAliases()
-    '''
-def BaseFontParameters():
-    '''public BaseFontParameters(final String fontName)
+    '''returns HashMap\n\n
+    getAliases()\n
     '''

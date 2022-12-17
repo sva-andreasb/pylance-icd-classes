@@ -1,3 +1,4 @@
 def relate():
-    '''public int relate()
+    '''returns int\n\n
+    relate()\n
     '''

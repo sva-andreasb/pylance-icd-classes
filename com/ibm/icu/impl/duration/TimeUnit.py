@@ -1,12 +1,16 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def larger():
-    '''public TimeUnit larger()
+    '''returns TimeUnit\n\n
+    larger()\n
     '''
 def smaller():
-    '''public TimeUnit smaller()
+    '''returns TimeUnit\n\n
+    smaller()\n
     '''
 def ordinal():
-    '''public int ordinal()
+    '''returns int\n\n
+    ordinal()\n
     '''

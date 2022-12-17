@@ -1,21 +1,28 @@
-def ParserCursor():
-    '''public ParserCursor(final int lowerBound, final int upperBound)
+def ():
+    '''returns ParserCursor\n\n
+    (final int lowerBound, final int upperBound)\n
     '''
 def getLowerBound():
-    '''public int getLowerBound()
+    '''returns int\n\n
+    getLowerBound()\n
     '''
 def getUpperBound():
-    '''public int getUpperBound()
+    '''returns int\n\n
+    getUpperBound()\n
     '''
 def getPos():
-    '''public int getPos()
+    '''returns int\n\n
+    getPos()\n
     '''
 def updatePos():
-    '''public void updatePos(final int pos)
+    '''returns None\n\n
+    updatePos(final int pos)\n
     '''
 def atEnd():
-    '''public boolean atEnd()
+    '''returns boolean\n\n
+    atEnd()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

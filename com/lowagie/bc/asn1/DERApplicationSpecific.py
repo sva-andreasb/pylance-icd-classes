@@ -1,16 +1,21 @@
-def DERApplicationSpecific():
-    '''public DERApplicationSpecific(final int tag, final byte[] octets)
-    public DERApplicationSpecific(final int tag, final DEREncodable object)
+def ():
+    '''returns DERApplicationSpecific\n\n
+    (final int tag, final byte[] octets)\n
+    (final int tag, final DEREncodable object)\n
     '''
 def isConstructed():
-    '''public boolean isConstructed()
+    '''returns boolean\n\n
+    isConstructed()\n
     '''
 def getContents():
-    '''public byte[] getContents()
+    '''returns byte[]\n\n
+    getContents()\n
     '''
 def getApplicationTag():
-    '''public int getApplicationTag()
+    '''returns int\n\n
+    getApplicationTag()\n
     '''
 def getObject():
-    '''public DERObject getObject()
+    '''returns DERObject\n\n
+    getObject()\n
     '''

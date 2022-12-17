@@ -1,6 +1,8 @@
-def FldVarName():
-    '''public FldVarName(final MboValue mbv)
+def ():
+    '''returns FldVarName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

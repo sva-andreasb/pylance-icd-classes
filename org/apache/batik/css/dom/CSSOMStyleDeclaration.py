@@ -1,45 +1,57 @@
-def CSSOMStyleDeclaration():
-    '''public CSSOMStyleDeclaration(final ValueProvider vp, final CSSRule parent)
+def ():
+    '''returns StyleDeclarationValue\n\n
+    (final ValueProvider vp, final CSSRule parent)\n
+    (final String prop)\n
     '''
 def setModificationHandler():
-    '''public void setModificationHandler(final ModificationHandler h)
+    '''returns None\n\n
+    setModificationHandler(final ModificationHandler h)\n
     '''
 def getCssText():
-    '''public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
     '''
 def setCssText():
-    '''public void setCssText(final String cssText)
+    '''returns None\n\n
+    setCssText(final String cssText)\n
     '''
 def getPropertyValue():
-    '''public String getPropertyValue(final String propertyName)
+    '''returns String\n\n
+    getPropertyValue(final String propertyName)\n
     '''
 def getPropertyCSSValue():
-    '''public CSSValue getPropertyCSSValue(final String propertyName)
+    '''returns CSSValue\n\n
+    getPropertyCSSValue(final String propertyName)\n
     '''
 def removeProperty():
-    '''public String removeProperty(final String propertyName)
+    '''returns String\n\n
+    removeProperty(final String propertyName)\n
     '''
 def getPropertyPriority():
-    '''public String getPropertyPriority(final String propertyName)
+    '''returns String\n\n
+    getPropertyPriority(final String propertyName)\n
     '''
 def setProperty():
-    '''public void setProperty(final String propertyName, final String value, final String prio)
+    '''returns None\n\n
+    setProperty(final String propertyName, final String value, final String prio)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public String item(final int index)
+    '''returns String\n\n
+    item(final int index)\n
     '''
 def getParentRule():
-    '''public CSSRule getParentRule()
-    '''
-def StyleDeclarationValue():
-    '''public StyleDeclarationValue(final String prop)
+    '''returns CSSRule\n\n
+    getParentRule()\n
     '''
 def textChanged():
-    '''public void textChanged(final String text)
+    '''returns None\n\n
+    textChanged(final String text)\n
     '''
 def getValue():
-    '''public Value getValue()
+    '''returns Value\n\n
+    getValue()\n
     '''

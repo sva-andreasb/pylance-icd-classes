@@ -1,6 +1,8 @@
-def ParagraphPropertyFetcher():
-    '''public ParagraphPropertyFetcher(final int level)
+def ():
+    '''returns ParagraphPropertyFetcher\n\n
+    (final int level)\n
     '''
 def fetch():
-    '''public boolean fetch(final XSLFShape shape)
+    '''returns boolean\n\n
+    fetch(final XSLFShape shape)\n
     '''

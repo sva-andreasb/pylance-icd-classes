@@ -1,3 +1,4 @@
-def SKDReservationSet():
-    '''public SKDReservationSet(final MboServerInterface ms)
+def ():
+    '''returns SKDReservationSet\n\n
+    (final MboServerInterface ms)\n
     '''

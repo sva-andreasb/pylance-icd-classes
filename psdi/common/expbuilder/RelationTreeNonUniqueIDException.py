@@ -1,6 +1,7 @@
-def RelationTreeNonUniqueIDException():
-    '''public RelationTreeNonUniqueIDException()
-    public RelationTreeNonUniqueIDException(final String message)
-    public RelationTreeNonUniqueIDException(final Throwable cause)
-    public RelationTreeNonUniqueIDException(final String message, final Throwable cause)
+def ():
+    '''returns RelationTreeNonUniqueIDException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

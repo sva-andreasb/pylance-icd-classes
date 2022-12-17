@@ -1,19 +1,25 @@
-def MboSetCounter():
-    '''public MboSetCounter(final MboServerInterface mboServer, final MboSetConnectionDetails connectionDetails, final MboSet mboSet, final ReferenceQueue q)
+def ():
+    '''returns MboSetCounter\n\n
+    (final MboServerInterface mboServer, final MboSetConnectionDetails connectionDetails, final MboSet mboSet, final ReferenceQueue q)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setClientHost():
-    '''public void setClientHost(final String clientHost)
+    '''returns None\n\n
+    setClientHost(final String clientHost)\n
     '''
 def setClientAddr():
-    '''public void setClientAddr(final String clientAddr)
+    '''returns None\n\n
+    setClientAddr(final String clientAddr)\n
     '''
 def cleanup():
-    '''public void cleanup()
-    public void cleanup(final boolean fromCleanupThread)
+    '''returns None\n\n
+    cleanup()\n
+    cleanup(final boolean fromCleanupThread)\n
     '''

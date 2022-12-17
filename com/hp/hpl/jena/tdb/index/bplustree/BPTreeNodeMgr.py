@@ -1,54 +1,72 @@
-def BPTreeNodeMgr():
-    '''public BPTreeNodeMgr(final BPlusTree bpTree, final BlockMgr blockMgr)
+def ():
+    '''returns BPTreeNodeMgr\n\n
+    (final BPlusTree bpTree, final BlockMgr blockMgr)\n
     '''
 def getBlockMgr():
-    '''public BlockMgr getBlockMgr()
+    '''returns BlockMgr\n\n
+    getBlockMgr()\n
     '''
 def allocateId():
-    '''public int allocateId()
+    '''returns int\n\n
+    allocateId()\n
     '''
 def createRoot():
-    '''public BPTreeNode createRoot()
+    '''returns BPTreeNode\n\n
+    createRoot()\n
     '''
 def createNode():
-    '''public BPTreeNode createNode(final int parent)
+    '''returns BPTreeNode\n\n
+    createNode(final int parent)\n
     '''
 def getRoot():
-    '''public BPTreeNode getRoot(final int id)
+    '''returns BPTreeNode\n\n
+    getRoot(final int id)\n
     '''
 def get():
-    '''public BPTreeNode get(final int id, final int parent)
+    '''returns BPTreeNode\n\n
+    get(final int id, final int parent)\n
     '''
 def put():
-    '''public void put(final BPTreeNode node)
+    '''returns None\n\n
+    put(final BPTreeNode node)\n
     '''
 def release():
-    '''public void release(final int id)
+    '''returns None\n\n
+    release(final int id)\n
     '''
 def valid():
-    '''public boolean valid(final int id)
+    '''returns boolean\n\n
+    valid(final int id)\n
     '''
 def dump():
-    '''public void dump()
+    '''returns None\n\n
+    dump()\n
     '''
 def startRead():
-    '''public void startRead()
+    '''returns None\n\n
+    startRead()\n
     '''
 def finishRead():
-    '''public void finishRead()
+    '''returns None\n\n
+    finishRead()\n
     '''
 def startUpdate():
-    '''public void startUpdate()
+    '''returns None\n\n
+    startUpdate()\n
     '''
 def finishUpdate():
-    '''public void finishUpdate()
+    '''returns None\n\n
+    finishUpdate()\n
     '''
 def createFromByteBuffer():
-    '''public BPTreeNode createFromByteBuffer(final ByteBuffer bb, final BlockType bType)
+    '''returns BPTreeNode\n\n
+    createFromByteBuffer(final ByteBuffer bb, final BlockType bType)\n
     '''
 def fromByteBuffer():
-    '''public BPTreeNode fromByteBuffer(final ByteBuffer byteBuffer)
+    '''returns BPTreeNode\n\n
+    fromByteBuffer(final ByteBuffer byteBuffer)\n
     '''
 def toByteBuffer():
-    '''public ByteBuffer toByteBuffer(final BPTreeNode node)
+    '''returns ByteBuffer\n\n
+    toByteBuffer(final BPTreeNode node)\n
     '''

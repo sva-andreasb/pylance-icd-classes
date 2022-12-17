@@ -1,18 +1,24 @@
 def getSolutionIndex():
-    '''public int getSolutionIndex()
+    '''returns int\n\n
+    getSolutionIndex()\n
     '''
 def getObjective():
-    '''public double getObjective()
+    '''returns double\n\n
+    getObjective()\n
     '''
 def getSolutionDate():
-    '''public Date getSolutionDate()
+    '''returns Date\n\n
+    getSolutionDate()\n
     '''
 def setSolutionIndex():
-    '''public void setSolutionIndex(final int solutionIndex)
+    '''returns None\n\n
+    setSolutionIndex(final int solutionIndex)\n
     '''
 def setObjective():
-    '''public void setObjective(final double objective)
+    '''returns None\n\n
+    setObjective(final double objective)\n
     '''
 def setSolutionDate():
-    '''public void setSolutionDate(final Date solutionDate)
+    '''returns None\n\n
+    setSolutionDate(final Date solutionDate)\n
     '''

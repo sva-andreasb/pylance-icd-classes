@@ -1,15 +1,20 @@
-def ListNextBatchOfObjectsRequest():
-    '''public ListNextBatchOfObjectsRequest(final ObjectListing previousObjectListing)
+def ():
+    '''returns ListNextBatchOfObjectsRequest\n\n
+    (final ObjectListing previousObjectListing)\n
     '''
 def getPreviousObjectListing():
-    '''public ObjectListing getPreviousObjectListing()
+    '''returns ObjectListing\n\n
+    getPreviousObjectListing()\n
     '''
 def setPreviousObjectListing():
-    '''public void setPreviousObjectListing(final ObjectListing previousObjectListing)
+    '''returns None\n\n
+    setPreviousObjectListing(final ObjectListing previousObjectListing)\n
     '''
 def withPreviousObjectListing():
-    '''public ListNextBatchOfObjectsRequest withPreviousObjectListing(final ObjectListing previousObjectListing)
+    '''returns ListNextBatchOfObjectsRequest\n\n
+    withPreviousObjectListing(final ObjectListing previousObjectListing)\n
     '''
 def toListObjectsRequest():
-    '''public ListObjectsRequest toListObjectsRequest()
+    '''returns ListObjectsRequest\n\n
+    toListObjectsRequest()\n
     '''

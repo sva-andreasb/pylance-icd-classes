@@ -1,3 +1,4 @@
-def OslcKeyMap():
-    '''public OslcKeyMap(final MboSet ms)
+def ():
+    '''returns OslcKeyMap\n\n
+    (final MboSet ms)\n
     '''

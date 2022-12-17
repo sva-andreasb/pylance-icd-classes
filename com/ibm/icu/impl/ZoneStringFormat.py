@@ -1,84 +1,108 @@
-def ZoneStringFormat():
-    '''public ZoneStringFormat(final String[][] zoneStrings)
-    '''
-def getInstance():
-    '''public static ZoneStringFormat getInstance(final ULocale locale)
+def ():
+    '''returns ZoneStringFormat\n\n
+    (final String[][] zoneStrings)\n
     '''
 def getZoneStrings():
-    '''public String[][] getZoneStrings()
+    '''returns String[][]\n\n
+    getZoneStrings()\n
     '''
 def getSpecificLongString():
-    '''public String getSpecificLongString(final Calendar cal)
+    '''returns String\n\n
+    getSpecificLongString(final Calendar cal)\n
     '''
 def getSpecificShortString():
-    '''public String getSpecificShortString(final Calendar cal, final boolean commonlyUsedOnly)
+    '''returns String\n\n
+    getSpecificShortString(final Calendar cal, final boolean commonlyUsedOnly)\n
     '''
 def getGenericLongString():
-    '''public String getGenericLongString(final Calendar cal)
+    '''returns String\n\n
+    getGenericLongString(final Calendar cal)\n
     '''
 def getGenericShortString():
-    '''public String getGenericShortString(final Calendar cal, final boolean commonlyUsedOnly)
+    '''returns String\n\n
+    getGenericShortString(final Calendar cal, final boolean commonlyUsedOnly)\n
     '''
 def getGenericLocationString():
-    '''public String getGenericLocationString(final Calendar cal)
+    '''returns String\n\n
+    getGenericLocationString(final Calendar cal)\n
     '''
 def findSpecificLong():
-    '''public ZoneStringInfo findSpecificLong(final String text, final int start)
+    '''returns ZoneStringInfo\n\n
+    findSpecificLong(final String text, final int start)\n
     '''
 def findSpecificShort():
-    '''public ZoneStringInfo findSpecificShort(final String text, final int start)
+    '''returns ZoneStringInfo\n\n
+    findSpecificShort(final String text, final int start)\n
     '''
 def findGenericLong():
-    '''public ZoneStringInfo findGenericLong(final String text, final int start)
+    '''returns ZoneStringInfo\n\n
+    findGenericLong(final String text, final int start)\n
     '''
 def findGenericShort():
-    '''public ZoneStringInfo findGenericShort(final String text, final int start)
+    '''returns ZoneStringInfo\n\n
+    findGenericShort(final String text, final int start)\n
     '''
 def findGenericLocation():
-    '''public ZoneStringInfo findGenericLocation(final String text, final int start)
+    '''returns ZoneStringInfo\n\n
+    findGenericLocation(final String text, final int start)\n
     '''
 def getLongStandard():
-    '''public String getLongStandard(final String tzid, final long date)
+    '''returns String\n\n
+    getLongStandard(final String tzid, final long date)\n
     '''
 def getLongDaylight():
-    '''public String getLongDaylight(final String tzid, final long date)
+    '''returns String\n\n
+    getLongDaylight(final String tzid, final long date)\n
     '''
 def getLongGenericNonLocation():
-    '''public String getLongGenericNonLocation(final String tzid, final long date)
+    '''returns String\n\n
+    getLongGenericNonLocation(final String tzid, final long date)\n
     '''
 def getLongGenericPartialLocation():
-    '''public String getLongGenericPartialLocation(final String tzid, final long date)
+    '''returns String\n\n
+    getLongGenericPartialLocation(final String tzid, final long date)\n
     '''
 def getShortStandard():
-    '''public String getShortStandard(final String tzid, final long date, final boolean commonlyUsedOnly)
+    '''returns String\n\n
+    getShortStandard(final String tzid, final long date, final boolean commonlyUsedOnly)\n
     '''
 def getShortDaylight():
-    '''public String getShortDaylight(final String tzid, final long date, final boolean commonlyUsedOnly)
+    '''returns String\n\n
+    getShortDaylight(final String tzid, final long date, final boolean commonlyUsedOnly)\n
     '''
 def getShortGenericNonLocation():
-    '''public String getShortGenericNonLocation(final String tzid, final long date, final boolean commonlyUsedOnly)
+    '''returns String\n\n
+    getShortGenericNonLocation(final String tzid, final long date, final boolean commonlyUsedOnly)\n
     '''
 def getShortGenericPartialLocation():
-    '''public String getShortGenericPartialLocation(final String tzid, final long date, final boolean commonlyUsedOnly)
+    '''returns String\n\n
+    getShortGenericPartialLocation(final String tzid, final long date, final boolean commonlyUsedOnly)\n
     '''
 def getGenericLocation():
-    '''public String getGenericLocation(final String tzid)
+    '''returns String\n\n
+    getGenericLocation(final String tzid)\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def isStandard():
-    '''public boolean isStandard()
+    '''returns boolean\n\n
+    isStandard()\n
     '''
 def isDaylight():
-    '''public boolean isDaylight()
+    '''returns boolean\n\n
+    isDaylight()\n
     '''
 def isGeneric():
-    '''public boolean isGeneric()
+    '''returns boolean\n\n
+    isGeneric()\n
     '''
 def handlePrefixMatch():
-    '''public boolean handlePrefixMatch(final int matchLength, final Iterator<ZoneStringInfo> values)
+    '''returns boolean\n\n
+    handlePrefixMatch(final int matchLength, final Iterator<ZoneStringInfo> values)\n
     '''

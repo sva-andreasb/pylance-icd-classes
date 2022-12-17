@@ -1,30 +1,40 @@
-def ExternalCacheServices():
-    '''public ExternalCacheServices()
+def ():
+    '''returns ExternalCacheServices\n\n
+    ()\n
     '''
 def getExternalCacheGroupNames():
-    '''public Iterator getExternalCacheGroupNames()
+    '''returns Iterator\n\n
+    getExternalCacheGroupNames()\n
     '''
 def setExternalCacheGroups():
-    '''public void setExternalCacheGroups(final HashMap externalCacheGroups)
+    '''returns None\n\n
+    setExternalCacheGroups(final HashMap externalCacheGroups)\n
     '''
 def addExternalCacheAdapter():
-    '''public void addExternalCacheAdapter(final String groupId, final String address, final String beanName)
+    '''returns None\n\n
+    addExternalCacheAdapter(final String groupId, final String address, final String beanName)\n
     '''
 def removeExternalCacheAdapter():
-    '''public void removeExternalCacheAdapter(final String groupId, final String address)
+    '''returns None\n\n
+    removeExternalCacheAdapter(final String groupId, final String address)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def batchUpdate():
-    '''public void batchUpdate(final HashMap invalidateIdEvents, final HashMap invalidateTemplateEvents, final ArrayList pushECFEvents)
+    '''returns None\n\n
+    batchUpdate(final HashMap invalidateIdEvents, final HashMap invalidateTemplateEvents, final ArrayList pushECFEvents)\n
     '''
 def invalidateExternalCaches():
-    '''public void invalidateExternalCaches(final HashMap invalidateIdEvents, final HashMap invalidateTemplateEvents)
+    '''returns None\n\n
+    invalidateExternalCaches(final HashMap invalidateIdEvents, final HashMap invalidateTemplateEvents)\n
     '''
 def preInvoke():
-    '''public void preInvoke(final String cacheGroup, final ServletCacheRequest req, final HttpServletResponse resp)
+    '''returns None\n\n
+    preInvoke(final String cacheGroup, final ServletCacheRequest req, final HttpServletResponse resp)\n
     '''
 def postInvoke():
-    '''public void postInvoke(final String cacheGroup, final ServletCacheRequest req, final HttpServletResponse resp)
+    '''returns None\n\n
+    postInvoke(final String cacheGroup, final ServletCacheRequest req, final HttpServletResponse resp)\n
     '''

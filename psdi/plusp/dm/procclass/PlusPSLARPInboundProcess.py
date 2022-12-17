@@ -1,12 +1,16 @@
-def PlusPSLARPInboundProcess():
-    '''public PlusPSLARPInboundProcess()
+def ():
+    '''returns PlusPSLARPInboundProcess\n\n
+    ()\n
     '''
 def afterReplace():
-    '''public void afterReplace(final MboRemote child)
+    '''returns None\n\n
+    afterReplace(final MboRemote child)\n
     '''
 def createMboSet():
-    '''public MboSetRemote createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''returns MboSetRemote\n\n
+    createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''

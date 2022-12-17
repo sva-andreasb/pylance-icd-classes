@@ -1,765 +1,1018 @@
 def getCopyrightText():
-    '''public String getCopyrightText()
+    '''returns String\n\n
+    getCopyrightText()\n
     '''
 def setCopyrightText():
-    '''public void setCopyrightText(final String newCopyrightText)
+    '''returns None\n\n
+    setCopyrightText(final String newCopyrightText)\n
     '''
 def getModelDirectory():
-    '''public String getModelDirectory()
+    '''returns String\n\n
+    getModelDirectory()\n
     '''
 def getModelDirectoryGen():
-    '''public String getModelDirectoryGen()
+    '''returns String\n\n
+    getModelDirectoryGen()\n
     '''
 def setModelDirectory():
-    '''public void setModelDirectory(final String newModelDirectory)
+    '''returns None\n\n
+    setModelDirectory(final String newModelDirectory)\n
     '''
 def isCreationCommands():
-    '''public boolean isCreationCommands()
+    '''returns boolean\n\n
+    isCreationCommands()\n
     '''
 def setCreationCommands():
-    '''public void setCreationCommands(final boolean newCreationCommands)
+    '''returns None\n\n
+    setCreationCommands(final boolean newCreationCommands)\n
     '''
 def isCreationIcons():
-    '''public boolean isCreationIcons()
+    '''returns boolean\n\n
+    isCreationIcons()\n
     '''
 def setCreationIcons():
-    '''public void setCreationIcons(final boolean newCreationIcons)
+    '''returns None\n\n
+    setCreationIcons(final boolean newCreationIcons)\n
     '''
 def markImportLocation():
-    '''public void markImportLocation(final StringBuffer stringBuffer, final GenPackage genPackage)
-    public void markImportLocation(final StringBuffer stringBuffer)
+    '''returns None\n\n
+    markImportLocation(final StringBuffer stringBuffer, final GenPackage genPackage)\n
+    markImportLocation(final StringBuffer stringBuffer)\n
     '''
 def emitSortedImports():
-    '''public void emitSortedImports()
+    '''returns None\n\n
+    emitSortedImports()\n
     '''
 def getImportedName():
-    '''public String getImportedName(final String qualifiedName)
+    '''returns String\n\n
+    getImportedName(final String qualifiedName)\n
     '''
 def addImport():
-    '''public void addImport(final String qualifiedName)
+    '''returns None\n\n
+    addImport(final String qualifiedName)\n
     '''
 def addPseudoImport():
-    '''public void addPseudoImport(final String qualifiedName)
+    '''returns None\n\n
+    addPseudoImport(final String qualifiedName)\n
     '''
 def getDriverNumber():
-    '''public String getDriverNumber()
+    '''returns String\n\n
+    getDriverNumber()\n
     '''
 def getDate():
-    '''public String getDate()
+    '''returns String\n\n
+    getDate()\n
     '''
 def getNonNLS():
-    '''public String getNonNLS()
-    public String getNonNLS(final int i)
-    public String getNonNLS(final String s)
-    public String getNonNLS(final String s, int i)
+    '''returns String\n\n
+    getNonNLS()\n
+    getNonNLS(final int i)\n
+    getNonNLS(final String s)\n
+    getNonNLS(final String s, int i)\n
     '''
 def initialize():
-    '''public void initialize(final Collection ePackages)
-    public void initialize(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    initialize(final Collection ePackages)\n
+    initialize(final IProgressMonitor progressMonitor)\n
     '''
 def getJControlModel():
-    '''public JControlModel getJControlModel()
+    '''returns JControlModel\n\n
+    getJControlModel()\n
     '''
 def setMethod():
-    '''public void setMethod(final JETEmitter jetEmitter, final String className)
+    '''returns None\n\n
+    setMethod(final JETEmitter jetEmitter, final String className)\n
     '''
 def getInterfaceEmitter():
-    '''public JETEmitter getInterfaceEmitter()
+    '''returns JETEmitter\n\n
+    getInterfaceEmitter()\n
     '''
 def getClassEmitter():
-    '''public JETEmitter getClassEmitter()
+    '''returns JETEmitter\n\n
+    getClassEmitter()\n
     '''
 def getEnumClassEmitter():
-    '''public JETEmitter getEnumClassEmitter()
+    '''returns JETEmitter\n\n
+    getEnumClassEmitter()\n
     '''
 def getFactoryInterfaceEmitter():
-    '''public JETEmitter getFactoryInterfaceEmitter()
+    '''returns JETEmitter\n\n
+    getFactoryInterfaceEmitter()\n
     '''
 def getFactoryClassEmitter():
-    '''public JETEmitter getFactoryClassEmitter()
+    '''returns JETEmitter\n\n
+    getFactoryClassEmitter()\n
     '''
 def getPackageInterfaceEmitter():
-    '''public JETEmitter getPackageInterfaceEmitter()
+    '''returns JETEmitter\n\n
+    getPackageInterfaceEmitter()\n
     '''
 def getPackageClassEmitter():
-    '''public JETEmitter getPackageClassEmitter()
+    '''returns JETEmitter\n\n
+    getPackageClassEmitter()\n
     '''
 def getAdapterFactoryClassEmitter():
-    '''public JETEmitter getAdapterFactoryClassEmitter()
+    '''returns JETEmitter\n\n
+    getAdapterFactoryClassEmitter()\n
     '''
 def getSwitchClassEmitter():
-    '''public JETEmitter getSwitchClassEmitter()
+    '''returns JETEmitter\n\n
+    getSwitchClassEmitter()\n
     '''
 def getValidatorClassEmitter():
-    '''public JETEmitter getValidatorClassEmitter()
+    '''returns JETEmitter\n\n
+    getValidatorClassEmitter()\n
     '''
 def getPluginXMLEmitter():
-    '''public JETEmitter getPluginXMLEmitter()
+    '''returns JETEmitter\n\n
+    getPluginXMLEmitter()\n
     '''
 def getManifestMFEmitter():
-    '''public JETEmitter getManifestMFEmitter()
+    '''returns JETEmitter\n\n
+    getManifestMFEmitter()\n
     '''
 def getPluginPropertiesEmitter():
-    '''public JETEmitter getPluginPropertiesEmitter()
+    '''returns JETEmitter\n\n
+    getPluginPropertiesEmitter()\n
     '''
 def getBuildPropertiesEmitter():
-    '''public JETEmitter getBuildPropertiesEmitter()
+    '''returns JETEmitter\n\n
+    getBuildPropertiesEmitter()\n
     '''
 def getModelPluginClassEmitter():
-    '''public JETEmitter getModelPluginClassEmitter()
+    '''returns JETEmitter\n\n
+    getModelPluginClassEmitter()\n
     '''
 def getResourceClassEmitter():
-    '''public JETEmitter getResourceClassEmitter()
+    '''returns JETEmitter\n\n
+    getResourceClassEmitter()\n
     '''
 def getResourceFactoryClassEmitter():
-    '''public JETEmitter getResourceFactoryClassEmitter()
+    '''returns JETEmitter\n\n
+    getResourceFactoryClassEmitter()\n
     '''
 def canGenerate():
-    '''public boolean canGenerate()
+    '''returns boolean\n\n
+    canGenerate()\n
     '''
 def setCanGenerate():
-    '''public void setCanGenerate(final boolean canGenerate)
+    '''returns None\n\n
+    setCanGenerate(final boolean canGenerate)\n
     '''
 def validate():
-    '''public IStatus validate()
+    '''returns IStatus\n\n
+    validate()\n
     '''
 def getExtendedMetaData():
-    '''public ExtendedMetaData getExtendedMetaData()
+    '''returns ExtendedMetaData\n\n
+    getExtendedMetaData()\n
     '''
 def hasPluginSupport():
-    '''public boolean hasPluginSupport()
+    '''returns boolean\n\n
+    hasPluginSupport()\n
     '''
 def generate():
-    '''public void generate(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generate(final IProgressMonitor progressMonitor)\n
     '''
 def hasEditSupport():
-    '''public boolean hasEditSupport()
+    '''returns boolean\n\n
+    hasEditSupport()\n
     '''
 def canGenerateEdit():
-    '''public boolean canGenerateEdit()
+    '''returns boolean\n\n
+    canGenerateEdit()\n
     '''
 def generateEdit():
-    '''public void generateEdit(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateEdit(final IProgressMonitor progressMonitor)\n
     '''
 def hasEditorSupport():
-    '''public boolean hasEditorSupport()
+    '''returns boolean\n\n
+    hasEditorSupport()\n
     '''
 def canGenerateEditor():
-    '''public boolean canGenerateEditor()
+    '''returns boolean\n\n
+    canGenerateEditor()\n
     '''
 def generateEditor():
-    '''public void generateEditor(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateEditor(final IProgressMonitor progressMonitor)\n
     '''
 def canGenerateSchema():
-    '''public boolean canGenerateSchema()
+    '''returns boolean\n\n
+    canGenerateSchema()\n
     '''
 def generateSchema():
-    '''public void generateSchema(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateSchema(final IProgressMonitor progressMonitor)\n
     '''
 def hasTestSupport():
-    '''public boolean hasTestSupport()
+    '''returns boolean\n\n
+    hasTestSupport()\n
     '''
 def canGenerateTests():
-    '''public boolean canGenerateTests()
+    '''returns boolean\n\n
+    canGenerateTests()\n
     '''
 def generateTests():
-    '''public void generateTests(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateTests(final IProgressMonitor progressMonitor)\n
     '''
 def getItemProviderEmitter():
-    '''public JETEmitter getItemProviderEmitter()
+    '''returns JETEmitter\n\n
+    getItemProviderEmitter()\n
     '''
 def getItemProviderAdapterFactoryEmitter():
-    '''public JETEmitter getItemProviderAdapterFactoryEmitter()
+    '''returns JETEmitter\n\n
+    getItemProviderAdapterFactoryEmitter()\n
     '''
 def getEditPluginClassEmitter():
-    '''public JETEmitter getEditPluginClassEmitter()
+    '''returns JETEmitter\n\n
+    getEditPluginClassEmitter()\n
     '''
 def getEditPluginXMLEmitter():
-    '''public JETEmitter getEditPluginXMLEmitter()
+    '''returns JETEmitter\n\n
+    getEditPluginXMLEmitter()\n
     '''
 def getEditManifestMFEmitter():
-    '''public JETEmitter getEditManifestMFEmitter()
+    '''returns JETEmitter\n\n
+    getEditManifestMFEmitter()\n
     '''
 def getEditPluginPropertiesEmitter():
-    '''public JETEmitter getEditPluginPropertiesEmitter()
+    '''returns JETEmitter\n\n
+    getEditPluginPropertiesEmitter()\n
     '''
 def getEditBuildPropertiesEmitter():
-    '''public JETEmitter getEditBuildPropertiesEmitter()
+    '''returns JETEmitter\n\n
+    getEditBuildPropertiesEmitter()\n
     '''
 def getItemGIFEmitter():
-    '''public GIFEmitter getItemGIFEmitter()
+    '''returns GIFEmitter\n\n
+    getItemGIFEmitter()\n
     '''
 def getCreateChildGIFEmitter():
-    '''public GIFEmitter getCreateChildGIFEmitter()
+    '''returns GIFEmitter\n\n
+    getCreateChildGIFEmitter()\n
     '''
 def getModelGIFEmitter():
-    '''public GIFEmitter getModelGIFEmitter()
+    '''returns GIFEmitter\n\n
+    getModelGIFEmitter()\n
     '''
 def getModelWizardGIFEmitter():
-    '''public GIFEmitter getModelWizardGIFEmitter()
+    '''returns GIFEmitter\n\n
+    getModelWizardGIFEmitter()\n
     '''
 def getEditorEmitter():
-    '''public JETEmitter getEditorEmitter()
+    '''returns JETEmitter\n\n
+    getEditorEmitter()\n
     '''
 def getActionBarContributorEmitter():
-    '''public JETEmitter getActionBarContributorEmitter()
+    '''returns JETEmitter\n\n
+    getActionBarContributorEmitter()\n
     '''
 def getModelWizardEmitter():
-    '''public JETEmitter getModelWizardEmitter()
+    '''returns JETEmitter\n\n
+    getModelWizardEmitter()\n
     '''
 def getEditorAdvisorEmitter():
-    '''public JETEmitter getEditorAdvisorEmitter()
+    '''returns JETEmitter\n\n
+    getEditorAdvisorEmitter()\n
     '''
 def getEditorPluginClassEmitter():
-    '''public JETEmitter getEditorPluginClassEmitter()
+    '''returns JETEmitter\n\n
+    getEditorPluginClassEmitter()\n
     '''
 def getEditorPluginXMLEmitter():
-    '''public JETEmitter getEditorPluginXMLEmitter()
+    '''returns JETEmitter\n\n
+    getEditorPluginXMLEmitter()\n
     '''
 def getEditorManifestMFEmitter():
-    '''public JETEmitter getEditorManifestMFEmitter()
+    '''returns JETEmitter\n\n
+    getEditorManifestMFEmitter()\n
     '''
 def getEditorPluginPropertiesEmitter():
-    '''public JETEmitter getEditorPluginPropertiesEmitter()
+    '''returns JETEmitter\n\n
+    getEditorPluginPropertiesEmitter()\n
     '''
 def getEditorBuildPropertiesEmitter():
-    '''public JETEmitter getEditorBuildPropertiesEmitter()
+    '''returns JETEmitter\n\n
+    getEditorBuildPropertiesEmitter()\n
     '''
 def getTestCaseEmitter():
-    '''public JETEmitter getTestCaseEmitter()
+    '''returns JETEmitter\n\n
+    getTestCaseEmitter()\n
     '''
 def getModelTestSuiteEmitter():
-    '''public JETEmitter getModelTestSuiteEmitter()
+    '''returns JETEmitter\n\n
+    getModelTestSuiteEmitter()\n
     '''
 def getPackageTestSuiteEmitter():
-    '''public JETEmitter getPackageTestSuiteEmitter()
+    '''returns JETEmitter\n\n
+    getPackageTestSuiteEmitter()\n
     '''
 def getPackageExampleEmitter():
-    '''public JETEmitter getPackageExampleEmitter()
+    '''returns JETEmitter\n\n
+    getPackageExampleEmitter()\n
     '''
 def getTestsPluginXMLEmitter():
-    '''public JETEmitter getTestsPluginXMLEmitter()
+    '''returns JETEmitter\n\n
+    getTestsPluginXMLEmitter()\n
     '''
 def getTestsManifestMFEmitter():
-    '''public JETEmitter getTestsManifestMFEmitter()
+    '''returns JETEmitter\n\n
+    getTestsManifestMFEmitter()\n
     '''
 def getTestsPluginPropertiesEmitter():
-    '''public JETEmitter getTestsPluginPropertiesEmitter()
+    '''returns JETEmitter\n\n
+    getTestsPluginPropertiesEmitter()\n
     '''
 def getTestsBuildPropertiesEmitter():
-    '''public JETEmitter getTestsBuildPropertiesEmitter()
+    '''returns JETEmitter\n\n
+    getTestsBuildPropertiesEmitter()\n
     '''
 def getEditDirectory():
-    '''public String getEditDirectory()
+    '''returns String\n\n
+    getEditDirectory()\n
     '''
 def getEditDirectoryGen():
-    '''public String getEditDirectoryGen()
+    '''returns String\n\n
+    getEditDirectoryGen()\n
     '''
 def setEditDirectory():
-    '''public void setEditDirectory(final String newEditDirectory)
+    '''returns None\n\n
+    setEditDirectory(final String newEditDirectory)\n
     '''
 def unsetEditDirectory():
-    '''public void unsetEditDirectory()
+    '''returns None\n\n
+    unsetEditDirectory()\n
     '''
 def isSetEditDirectory():
-    '''public boolean isSetEditDirectory()
+    '''returns boolean\n\n
+    isSetEditDirectory()\n
     '''
 def getEditorDirectory():
-    '''public String getEditorDirectory()
+    '''returns String\n\n
+    getEditorDirectory()\n
     '''
 def getEditorDirectoryGen():
-    '''public String getEditorDirectoryGen()
+    '''returns String\n\n
+    getEditorDirectoryGen()\n
     '''
 def setEditorDirectory():
-    '''public void setEditorDirectory(final String newEditorDirectory)
+    '''returns None\n\n
+    setEditorDirectory(final String newEditorDirectory)\n
     '''
 def unsetEditorDirectory():
-    '''public void unsetEditorDirectory()
+    '''returns None\n\n
+    unsetEditorDirectory()\n
     '''
 def isSetEditorDirectory():
-    '''public boolean isSetEditorDirectory()
+    '''returns boolean\n\n
+    isSetEditorDirectory()\n
     '''
 def getModelPluginID():
-    '''public String getModelPluginID()
+    '''returns String\n\n
+    getModelPluginID()\n
     '''
 def setModelPluginID():
-    '''public void setModelPluginID(final String newModelPluginID)
+    '''returns None\n\n
+    setModelPluginID(final String newModelPluginID)\n
     '''
 def getTemplateDirectory():
-    '''public String getTemplateDirectory()
+    '''returns String\n\n
+    getTemplateDirectory()\n
     '''
 def setTemplateDirectory():
-    '''public void setTemplateDirectory(final String newTemplateDirectory)
+    '''returns None\n\n
+    setTemplateDirectory(final String newTemplateDirectory)\n
     '''
 def isRuntimeJar():
-    '''public boolean isRuntimeJar()
+    '''returns boolean\n\n
+    isRuntimeJar()\n
     '''
 def setRuntimeJar():
-    '''public void setRuntimeJar(final boolean newRuntimeJar)
+    '''returns None\n\n
+    setRuntimeJar(final boolean newRuntimeJar)\n
     '''
 def getForeignModel():
-    '''public EList getForeignModel()
+    '''returns EList\n\n
+    getForeignModel()\n
     '''
 def isDynamicTemplates():
-    '''public boolean isDynamicTemplates()
+    '''returns boolean\n\n
+    isDynamicTemplates()\n
     '''
 def setDynamicTemplates():
-    '''public void setDynamicTemplates(final boolean newDynamicTemplates)
+    '''returns None\n\n
+    setDynamicTemplates(final boolean newDynamicTemplates)\n
     '''
 def getRedirection():
-    '''public String getRedirection()
+    '''returns String\n\n
+    getRedirection()\n
     '''
 def setRedirection():
-    '''public void setRedirection(final String newRedirection)
+    '''returns None\n\n
+    setRedirection(final String newRedirection)\n
     '''
 def isForceOverwrite():
-    '''public boolean isForceOverwrite()
+    '''returns boolean\n\n
+    isForceOverwrite()\n
     '''
 def setForceOverwrite():
-    '''public void setForceOverwrite(final boolean newForceOverwrite)
+    '''returns None\n\n
+    setForceOverwrite(final boolean newForceOverwrite)\n
     '''
 def getNonExternalizedStringTag():
-    '''public String getNonExternalizedStringTag()
+    '''returns String\n\n
+    getNonExternalizedStringTag()\n
     '''
 def setNonExternalizedStringTagGen():
-    '''public void setNonExternalizedStringTagGen(final String newNonExternalizedStringTag)
+    '''returns None\n\n
+    setNonExternalizedStringTagGen(final String newNonExternalizedStringTag)\n
     '''
 def setNonExternalizedStringTag():
-    '''public void setNonExternalizedStringTag(final String newNonExternalizedStringTag)
+    '''returns None\n\n
+    setNonExternalizedStringTag(final String newNonExternalizedStringTag)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getModelName():
-    '''public String getModelName()
+    '''returns String\n\n
+    getModelName()\n
     '''
 def setModelName():
-    '''public void setModelName(final String newModelName)
+    '''returns None\n\n
+    setModelName(final String newModelName)\n
     '''
 def getModelPluginClass():
-    '''public String getModelPluginClass()
+    '''returns String\n\n
+    getModelPluginClass()\n
     '''
 def setModelPluginClass():
-    '''public void setModelPluginClass(final String newModelPluginClass)
+    '''returns None\n\n
+    setModelPluginClass(final String newModelPluginClass)\n
     '''
 def getEditPluginClass():
-    '''public String getEditPluginClass()
+    '''returns String\n\n
+    getEditPluginClass()\n
     '''
 def getEditPluginClassGen():
-    '''public String getEditPluginClassGen()
+    '''returns String\n\n
+    getEditPluginClassGen()\n
     '''
 def setEditPluginClass():
-    '''public void setEditPluginClass(final String newEditPluginClass)
+    '''returns None\n\n
+    setEditPluginClass(final String newEditPluginClass)\n
     '''
 def unsetEditPluginClass():
-    '''public void unsetEditPluginClass()
+    '''returns None\n\n
+    unsetEditPluginClass()\n
     '''
 def isSetEditPluginClass():
-    '''public boolean isSetEditPluginClass()
+    '''returns boolean\n\n
+    isSetEditPluginClass()\n
     '''
 def getEditorPluginClass():
-    '''public String getEditorPluginClass()
+    '''returns String\n\n
+    getEditorPluginClass()\n
     '''
 def getEditorPluginClassGen():
-    '''public String getEditorPluginClassGen()
+    '''returns String\n\n
+    getEditorPluginClassGen()\n
     '''
 def setEditorPluginClass():
-    '''public void setEditorPluginClass(final String newEditorPluginClass)
+    '''returns None\n\n
+    setEditorPluginClass(final String newEditorPluginClass)\n
     '''
 def unsetEditorPluginClass():
-    '''public void unsetEditorPluginClass()
+    '''returns None\n\n
+    unsetEditorPluginClass()\n
     '''
 def isSetEditorPluginClass():
-    '''public boolean isSetEditorPluginClass()
+    '''returns boolean\n\n
+    isSetEditorPluginClass()\n
     '''
 def isUpdateClasspath():
-    '''public boolean isUpdateClasspath()
+    '''returns boolean\n\n
+    isUpdateClasspath()\n
     '''
 def setUpdateClasspath():
-    '''public void setUpdateClasspath(final boolean newUpdateClasspath)
+    '''returns None\n\n
+    setUpdateClasspath(final boolean newUpdateClasspath)\n
     '''
 def isGenerateSchema():
-    '''public boolean isGenerateSchema()
+    '''returns boolean\n\n
+    isGenerateSchema()\n
     '''
 def setGenerateSchema():
-    '''public void setGenerateSchema(final boolean newGenerateSchema)
+    '''returns None\n\n
+    setGenerateSchema(final boolean newGenerateSchema)\n
     '''
 def isNonNLSMarkers():
-    '''public boolean isNonNLSMarkers()
+    '''returns boolean\n\n
+    isNonNLSMarkers()\n
     '''
 def setNonNLSMarkersGen():
-    '''public void setNonNLSMarkersGen(final boolean newNonNLSMarkers)
+    '''returns None\n\n
+    setNonNLSMarkersGen(final boolean newNonNLSMarkers)\n
     '''
 def setNonNLSMarkers():
-    '''public void setNonNLSMarkers(final boolean newNonNLSMarkers)
+    '''returns None\n\n
+    setNonNLSMarkers(final boolean newNonNLSMarkers)\n
     '''
 def getStaticPackages():
-    '''public EList getStaticPackages()
+    '''returns EList\n\n
+    getStaticPackages()\n
     '''
 def getModelPluginVariables():
-    '''public EList getModelPluginVariables()
+    '''returns EList\n\n
+    getModelPluginVariables()\n
     '''
 def getRootExtendsInterface():
-    '''public String getRootExtendsInterface()
+    '''returns String\n\n
+    getRootExtendsInterface()\n
     '''
 def setRootExtendsInterface():
-    '''public void setRootExtendsInterface(final String newRootExtendsInterface)
+    '''returns None\n\n
+    setRootExtendsInterface(final String newRootExtendsInterface)\n
     '''
 def getRootExtendsClass():
-    '''public String getRootExtendsClass()
+    '''returns String\n\n
+    getRootExtendsClass()\n
     '''
 def setRootExtendsClass():
-    '''public void setRootExtendsClass(final String newRootExtendsClass)
+    '''returns None\n\n
+    setRootExtendsClass(final String newRootExtendsClass)\n
     '''
 def getRootImplementsInterface():
-    '''public String getRootImplementsInterface()
+    '''returns String\n\n
+    getRootImplementsInterface()\n
     '''
 def getRootImplementsInterfaceGenClass():
-    '''public GenClass getRootImplementsInterfaceGenClass()
+    '''returns GenClass\n\n
+    getRootImplementsInterfaceGenClass()\n
     '''
 def setRootImplementsInterfaceGen():
-    '''public void setRootImplementsInterfaceGen(final String newRootImplementsInterface)
+    '''returns None\n\n
+    setRootImplementsInterfaceGen(final String newRootImplementsInterface)\n
     '''
 def setRootImplementsInterface():
-    '''public void setRootImplementsInterface(final String newRootImplementsInterface)
+    '''returns None\n\n
+    setRootImplementsInterface(final String newRootImplementsInterface)\n
     '''
 def getEffectiveModelPluginVariables():
-    '''public List getEffectiveModelPluginVariables()
+    '''returns List\n\n
+    getEffectiveModelPluginVariables()\n
     '''
 def getEffectiveModelPluginIDs():
-    '''public List getEffectiveModelPluginIDs()
+    '''returns List\n\n
+    getEffectiveModelPluginIDs()\n
     '''
 def isSuppressEMFTypes():
-    '''public boolean isSuppressEMFTypes()
+    '''returns boolean\n\n
+    isSuppressEMFTypes()\n
     '''
 def setSuppressEMFTypes():
-    '''public void setSuppressEMFTypes(final boolean newSuppressEMFTypes)
+    '''returns None\n\n
+    setSuppressEMFTypes(final boolean newSuppressEMFTypes)\n
     '''
 def getFeatureMapWrapperInterface():
-    '''public String getFeatureMapWrapperInterface()
+    '''returns String\n\n
+    getFeatureMapWrapperInterface()\n
     '''
 def setFeatureMapWrapperInterface():
-    '''public void setFeatureMapWrapperInterface(final String newFeatureMapWrapperInterface)
+    '''returns None\n\n
+    setFeatureMapWrapperInterface(final String newFeatureMapWrapperInterface)\n
     '''
 def getFeatureMapWrapperInternalInterface():
-    '''public String getFeatureMapWrapperInternalInterface()
+    '''returns String\n\n
+    getFeatureMapWrapperInternalInterface()\n
     '''
 def setFeatureMapWrapperInternalInterface():
-    '''public void setFeatureMapWrapperInternalInterface(final String newFeatureMapWrapperInternalInterface)
+    '''returns None\n\n
+    setFeatureMapWrapperInternalInterface(final String newFeatureMapWrapperInternalInterface)\n
     '''
 def getFeatureMapWrapperClass():
-    '''public String getFeatureMapWrapperClass()
+    '''returns String\n\n
+    getFeatureMapWrapperClass()\n
     '''
 def setFeatureMapWrapperClass():
-    '''public void setFeatureMapWrapperClass(final String newFeatureMapWrapperClass)
+    '''returns None\n\n
+    setFeatureMapWrapperClass(final String newFeatureMapWrapperClass)\n
     '''
 def isRuntimeCompatibility():
-    '''public boolean isRuntimeCompatibility()
+    '''returns boolean\n\n
+    isRuntimeCompatibility()\n
     '''
 def needsRuntimeCompatibility():
-    '''public boolean needsRuntimeCompatibility()
+    '''returns boolean\n\n
+    needsRuntimeCompatibility()\n
     '''
 def setRuntimeCompatibility():
-    '''public void setRuntimeCompatibility(final boolean newRuntimeCompatibility)
+    '''returns None\n\n
+    setRuntimeCompatibility(final boolean newRuntimeCompatibility)\n
     '''
 def isRichClientPlatform():
-    '''public boolean isRichClientPlatform()
+    '''returns boolean\n\n
+    isRichClientPlatform()\n
     '''
 def setRichClientPlatform():
-    '''public void setRichClientPlatform(final boolean newRichClientPlatform)
+    '''returns None\n\n
+    setRichClientPlatform(final boolean newRichClientPlatform)\n
     '''
 def isReflectiveDelegation():
-    '''public boolean isReflectiveDelegation()
+    '''returns boolean\n\n
+    isReflectiveDelegation()\n
     '''
 def setReflectiveDelegation():
-    '''public void setReflectiveDelegation(final boolean newReflectiveDelegation)
+    '''returns None\n\n
+    setReflectiveDelegation(final boolean newReflectiveDelegation)\n
     '''
 def isCodeFormatting():
-    '''public boolean isCodeFormatting()
+    '''returns boolean\n\n
+    isCodeFormatting()\n
     '''
 def setCodeFormatting():
-    '''public void setCodeFormatting(final boolean newCodeFormatting)
+    '''returns None\n\n
+    setCodeFormatting(final boolean newCodeFormatting)\n
     '''
 def getTestsDirectory():
-    '''public String getTestsDirectory()
+    '''returns String\n\n
+    getTestsDirectory()\n
     '''
 def getTestsDirectoryGen():
-    '''public String getTestsDirectoryGen()
+    '''returns String\n\n
+    getTestsDirectoryGen()\n
     '''
 def setTestsDirectory():
-    '''public void setTestsDirectory(final String newTestsDirectory)
+    '''returns None\n\n
+    setTestsDirectory(final String newTestsDirectory)\n
     '''
 def unsetTestsDirectory():
-    '''public void unsetTestsDirectory()
+    '''returns None\n\n
+    unsetTestsDirectory()\n
     '''
 def isSetTestsDirectory():
-    '''public boolean isSetTestsDirectory()
+    '''returns boolean\n\n
+    isSetTestsDirectory()\n
     '''
 def getTestSuiteClass():
-    '''public String getTestSuiteClass()
+    '''returns String\n\n
+    getTestSuiteClass()\n
     '''
 def getTestSuiteClassGen():
-    '''public String getTestSuiteClassGen()
+    '''returns String\n\n
+    getTestSuiteClassGen()\n
     '''
 def setTestSuiteClass():
-    '''public void setTestSuiteClass(final String newTestSuiteClass)
+    '''returns None\n\n
+    setTestSuiteClass(final String newTestSuiteClass)\n
     '''
 def unsetTestSuiteClass():
-    '''public void unsetTestSuiteClass()
+    '''returns None\n\n
+    unsetTestSuiteClass()\n
     '''
 def isSetTestSuiteClass():
-    '''public boolean isSetTestSuiteClass()
+    '''returns boolean\n\n
+    isSetTestSuiteClass()\n
     '''
 def getBooleanFlagsField():
-    '''public String getBooleanFlagsField()
+    '''returns String\n\n
+    getBooleanFlagsField()\n
     '''
 def setBooleanFlagsField():
-    '''public void setBooleanFlagsField(final String newBooleanFlagsField)
+    '''returns None\n\n
+    setBooleanFlagsField(final String newBooleanFlagsField)\n
     '''
 def getBooleanFlagsReservedBits():
-    '''public int getBooleanFlagsReservedBits()
+    '''returns int\n\n
+    getBooleanFlagsReservedBits()\n
     '''
 def setBooleanFlagsReservedBits():
-    '''public void setBooleanFlagsReservedBits(final int newBooleanFlagsReservedBits)
+    '''returns None\n\n
+    setBooleanFlagsReservedBits(final int newBooleanFlagsReservedBits)\n
     '''
 def getImporterID():
-    '''public String getImporterID()
+    '''returns String\n\n
+    getImporterID()\n
     '''
 def setImporterID():
-    '''public void setImporterID(final String newImporterID)
+    '''returns None\n\n
+    setImporterID(final String newImporterID)\n
     '''
 def isBundleManifest():
-    '''public boolean isBundleManifest()
+    '''returns boolean\n\n
+    isBundleManifest()\n
     '''
 def setBundleManifest():
-    '''public void setBundleManifest(final boolean newBundleManifest)
+    '''returns None\n\n
+    setBundleManifest(final boolean newBundleManifest)\n
     '''
 def getGenPackages():
-    '''public EList getGenPackages()
+    '''returns EList\n\n
+    getGenPackages()\n
     '''
 def getStaticGenPackages():
-    '''public EList getStaticGenPackages()
+    '''returns EList\n\n
+    getStaticGenPackages()\n
     '''
 def getUsedGenPackages():
-    '''public EList getUsedGenPackages()
+    '''returns EList\n\n
+    getUsedGenPackages()\n
     '''
 def eInverseAdd():
-    '''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getModelProjectDirectory():
-    '''public String getModelProjectDirectory()
+    '''returns String\n\n
+    getModelProjectDirectory()\n
     '''
 def getEditProjectDirectory():
-    '''public String getEditProjectDirectory()
+    '''returns String\n\n
+    getEditProjectDirectory()\n
     '''
 def getEditorProjectDirectory():
-    '''public String getEditorProjectDirectory()
+    '''returns String\n\n
+    getEditorProjectDirectory()\n
     '''
 def getTestsProjectDirectory():
-    '''public String getTestsProjectDirectory()
+    '''returns String\n\n
+    getTestsProjectDirectory()\n
     '''
 def sameModelEditProject():
-    '''public boolean sameModelEditProject()
+    '''returns boolean\n\n
+    sameModelEditProject()\n
     '''
 def sameEditEditorProject():
-    '''public boolean sameEditEditorProject()
+    '''returns boolean\n\n
+    sameEditEditorProject()\n
     '''
 def sameModelEditorProject():
-    '''public boolean sameModelEditorProject()
+    '''returns boolean\n\n
+    sameModelEditorProject()\n
     '''
 def sameModelTestsProject():
-    '''public boolean sameModelTestsProject()
+    '''returns boolean\n\n
+    sameModelTestsProject()\n
     '''
 def getEditIconsDirectory():
-    '''public String getEditIconsDirectory()
+    '''returns String\n\n
+    getEditIconsDirectory()\n
     '''
 def getEditorIconsDirectory():
-    '''public String getEditorIconsDirectory()
+    '''returns String\n\n
+    getEditorIconsDirectory()\n
     '''
 def getEditPluginID():
-    '''public String getEditPluginID()
+    '''returns String\n\n
+    getEditPluginID()\n
     '''
 def getEditorPluginID():
-    '''public String getEditorPluginID()
+    '''returns String\n\n
+    getEditorPluginID()\n
     '''
 def getTestsPluginID():
-    '''public String getTestsPluginID()
+    '''returns String\n\n
+    getTestsPluginID()\n
     '''
 def hasModelPluginClass():
-    '''public boolean hasModelPluginClass()
+    '''returns boolean\n\n
+    hasModelPluginClass()\n
     '''
 def getModelPluginPackageName():
-    '''public String getModelPluginPackageName()
+    '''returns String\n\n
+    getModelPluginPackageName()\n
     '''
 def getModelPluginClassName():
-    '''public String getModelPluginClassName()
+    '''returns String\n\n
+    getModelPluginClassName()\n
     '''
 def getQualifiedModelPluginClassName():
-    '''public String getQualifiedModelPluginClassName()
+    '''returns String\n\n
+    getQualifiedModelPluginClassName()\n
     '''
 def getEditPluginPackageName():
-    '''public String getEditPluginPackageName()
+    '''returns String\n\n
+    getEditPluginPackageName()\n
     '''
 def getEditPluginClassName():
-    '''public String getEditPluginClassName()
+    '''returns String\n\n
+    getEditPluginClassName()\n
     '''
 def getQualifiedEditPluginClassName():
-    '''public String getQualifiedEditPluginClassName()
+    '''returns String\n\n
+    getQualifiedEditPluginClassName()\n
     '''
 def getEditorPluginPackageName():
-    '''public String getEditorPluginPackageName()
+    '''returns String\n\n
+    getEditorPluginPackageName()\n
     '''
 def getEditorPluginClassName():
-    '''public String getEditorPluginClassName()
+    '''returns String\n\n
+    getEditorPluginClassName()\n
     '''
 def getQualifiedEditorPluginClassName():
-    '''public String getQualifiedEditorPluginClassName()
+    '''returns String\n\n
+    getQualifiedEditorPluginClassName()\n
     '''
 def getQualifiedEditorAdvisorClassName():
-    '''public String getQualifiedEditorAdvisorClassName()
+    '''returns String\n\n
+    getQualifiedEditorAdvisorClassName()\n
     '''
 def getEditorAdvisorClassName():
-    '''public String getEditorAdvisorClassName()
+    '''returns String\n\n
+    getEditorAdvisorClassName()\n
     '''
 def getTestSuitePackageName():
-    '''public String getTestSuitePackageName()
+    '''returns String\n\n
+    getTestSuitePackageName()\n
     '''
 def getTestSuiteClassName():
-    '''public String getTestSuiteClassName()
+    '''returns String\n\n
+    getTestSuiteClassName()\n
     '''
 def getQualifiedTestSuiteClassName():
-    '''public String getQualifiedTestSuiteClassName()
+    '''returns String\n\n
+    getQualifiedTestSuiteClassName()\n
     '''
 def getAllGenPackagesWithClassifiers():
-    '''public List getAllGenPackagesWithClassifiers()
+    '''returns List\n\n
+    getAllGenPackagesWithClassifiers()\n
     '''
 def getAllUsedGenPackagesWithClassifiers():
-    '''public List getAllUsedGenPackagesWithClassifiers()
+    '''returns List\n\n
+    getAllUsedGenPackagesWithClassifiers()\n
     '''
 def getAllGenAndUsedGenPackagesWithClassifiers():
-    '''public List getAllGenAndUsedGenPackagesWithClassifiers()
+    '''returns List\n\n
+    getAllGenAndUsedGenPackagesWithClassifiers()\n
     '''
 def getAllGenUsedAndStaticGenPackagesWithClassifiers():
-    '''public List getAllGenUsedAndStaticGenPackagesWithClassifiers()
+    '''returns List\n\n
+    getAllGenUsedAndStaticGenPackagesWithClassifiers()\n
     '''
 def getModelQualifiedPackageNames():
-    '''public List getModelQualifiedPackageNames()
+    '''returns List\n\n
+    getModelQualifiedPackageNames()\n
     '''
 def getModelRequiredPlugins():
-    '''public List getModelRequiredPlugins()
+    '''returns List\n\n
+    getModelRequiredPlugins()\n
     '''
 def getEditQualifiedPackageNames():
-    '''public List getEditQualifiedPackageNames()
+    '''returns List\n\n
+    getEditQualifiedPackageNames()\n
     '''
 def getEditRequiredPlugins():
-    '''public List getEditRequiredPlugins()
+    '''returns List\n\n
+    getEditRequiredPlugins()\n
     '''
 def getEditorQualifiedPackageNames():
-    '''public List getEditorQualifiedPackageNames()
+    '''returns List\n\n
+    getEditorQualifiedPackageNames()\n
     '''
 def getEditorRequiredPlugins():
-    '''public List getEditorRequiredPlugins()
+    '''returns List\n\n
+    getEditorRequiredPlugins()\n
     '''
 def getTestsQualifiedPackageNames():
-    '''public List getTestsQualifiedPackageNames()
+    '''returns List\n\n
+    getTestsQualifiedPackageNames()\n
     '''
 def getTestsRequiredPlugins():
-    '''public List getTestsRequiredPlugins()
+    '''returns List\n\n
+    getTestsRequiredPlugins()\n
     '''
 def getEditResourceDelegateImportedPluginClassNames():
-    '''public List getEditResourceDelegateImportedPluginClassNames()
+    '''returns List\n\n
+    getEditResourceDelegateImportedPluginClassNames()\n
     '''
 def reconcile():
-    '''public boolean reconcile(final GenModel oldGenModelVersion)
-    public boolean reconcile()
+    '''returns boolean\n\n
+    reconcile(final GenModel oldGenModelVersion)\n
+    reconcile()\n
     '''
 def computeMissingUsedGenPackages():
-    '''public List computeMissingUsedGenPackages()
+    '''returns List\n\n
+    computeMissingUsedGenPackages()\n
     '''
 def getMissingPackages():
-    '''public List getMissingPackages()
+    '''returns List\n\n
+    getMissingPackages()\n
     '''
 def hasXMLDependency():
-    '''public boolean hasXMLDependency()
+    '''returns boolean\n\n
+    hasXMLDependency()\n
     '''
 def getXMLEncodingChoices():
-    '''public String getXMLEncodingChoices()
+    '''returns String\n\n
+    getXMLEncodingChoices()\n
     '''
 def getIndentation():
-    '''public String getIndentation(final StringBuffer stringBuffer)
+    '''returns String\n\n
+    getIndentation(final StringBuffer stringBuffer)\n
     '''
 def getEcoreModelElement():
-    '''public EModelElement getEcoreModelElement()
+    '''returns EModelElement\n\n
+    getEcoreModelElement()\n
     '''
 def getAllGenFeatures():
-    '''public List getAllGenFeatures()
+    '''returns List\n\n
+    getAllGenFeatures()\n
     '''
 def getFilteredAllGenFeatures():
-    '''public List getFilteredAllGenFeatures()
+    '''returns List\n\n
+    getFilteredAllGenFeatures()\n
     '''
 def setCodeFormatterOptions():
-    '''public void setCodeFormatterOptions(final Map options)
+    '''returns None\n\n
+    setCodeFormatterOptions(final Map options)\n
     '''
 def createCodeFormatter():
-    '''public CodeFormatter createCodeFormatter()
+    '''returns CodeFormatter\n\n
+    createCodeFormatter()\n
     '''
 def isBooleanFlagsEnabled():
-    '''public boolean isBooleanFlagsEnabled()
+    '''returns boolean\n\n
+    isBooleanFlagsEnabled()\n
     '''
 def createGenModel():
-    '''public GenModel createGenModel()
+    '''returns GenModel\n\n
+    createGenModel()\n
     '''
 def createGenPackage():
-    '''public GenPackage createGenPackage()
+    '''returns GenPackage\n\n
+    createGenPackage()\n
     '''
 def createGenClass():
-    '''public GenClass createGenClass()
+    '''returns GenClass\n\n
+    createGenClass()\n
     '''
 def createGenFeature():
-    '''public GenFeature createGenFeature()
+    '''returns GenFeature\n\n
+    createGenFeature()\n
     '''
 def createGenEnum():
-    '''public GenEnum createGenEnum()
+    '''returns GenEnum\n\n
+    createGenEnum()\n
     '''
 def createGenEnumLiteral():
-    '''public GenEnumLiteral createGenEnumLiteral()
+    '''returns GenEnumLiteral\n\n
+    createGenEnumLiteral()\n
     '''
 def createGenDataType():
-    '''public GenDataType createGenDataType()
+    '''returns GenDataType\n\n
+    createGenDataType()\n
     '''
 def createGenOperation():
-    '''public GenOperation createGenOperation()
+    '''returns GenOperation\n\n
+    createGenOperation()\n
     '''
 def createGenParameter():
-    '''public GenParameter createGenParameter()
+    '''returns GenParameter\n\n
+    createGenParameter()\n
     '''
 def getPropertyCategories():
-    '''public Set getPropertyCategories()
+    '''returns Set\n\n
+    getPropertyCategories()\n
     '''
 def hasLocalGenModel():
-    '''public boolean hasLocalGenModel()
+    '''returns boolean\n\n
+    hasLocalGenModel()\n
     '''
 def getRelativeGenModelLocation():
-    '''public String getRelativeGenModelLocation()
+    '''returns String\n\n
+    getRelativeGenModelLocation()\n
     '''
 def getPropertyCategoryKey():
-    '''public String getPropertyCategoryKey(final String category)
+    '''returns String\n\n
+    getPropertyCategoryKey(final String category)\n
     '''

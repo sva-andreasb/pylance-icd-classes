@@ -1,16 +1,21 @@
-def SKDBalloonTip():
-    '''public SKDBalloonTip()
-    public SKDBalloonTip(final JComponent attach, final String text)
+def ():
+    '''returns SKDBalloonTip\n\n
+    ()\n
+    (final JComponent attach, final String text)\n
     '''
 def setToolTipText():
-    '''public void setToolTipText(final String text)
+    '''returns None\n\n
+    setToolTipText(final String text)\n
     '''
 def getAttachedRectangle():
-    '''public Rectangle getAttachedRectangle()
+    '''returns Rectangle\n\n
+    getAttachedRectangle()\n
     '''
 def setOffsetLocation():
-    '''public void setOffsetLocation(final Point locationOnScreen)
+    '''returns None\n\n
+    setOffsetLocation(final Point locationOnScreen)\n
     '''
 def forceSetVisible():
-    '''public void forceSetVisible(final boolean visible)
+    '''returns None\n\n
+    forceSetVisible(final boolean visible)\n
     '''

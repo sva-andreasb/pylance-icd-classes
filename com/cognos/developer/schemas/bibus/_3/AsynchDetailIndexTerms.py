@@ -1,43 +1,37 @@
-def AsynchDetailIndexTerms():
-    '''public AsynchDetailIndexTerms()
-    public AsynchDetailIndexTerms(final IndexTerm[] childTerms, final IndexTerm[] exampleTerms, final IndexTerm[] parentTerms, final IndexTerm[] siblingTerms)
+def ():
+    '''returns AsynchDetailIndexTerms\n\n
+    ()\n
+    (final IndexTerm[] childTerms, final IndexTerm[] exampleTerms, final IndexTerm[] parentTerms, final IndexTerm[] siblingTerms)\n
     '''
 def getChildTerms():
-    '''public IndexTerm[] getChildTerms()
+    '''returns IndexTerm[]\n\n
+    getChildTerms()\n
     '''
 def setChildTerms():
-    '''public void setChildTerms(final IndexTerm[] childTerms)
+    '''returns None\n\n
+    setChildTerms(final IndexTerm[] childTerms)\n
     '''
 def getExampleTerms():
-    '''public IndexTerm[] getExampleTerms()
+    '''returns IndexTerm[]\n\n
+    getExampleTerms()\n
     '''
 def setExampleTerms():
-    '''public void setExampleTerms(final IndexTerm[] exampleTerms)
+    '''returns None\n\n
+    setExampleTerms(final IndexTerm[] exampleTerms)\n
     '''
 def getParentTerms():
-    '''public IndexTerm[] getParentTerms()
+    '''returns IndexTerm[]\n\n
+    getParentTerms()\n
     '''
 def setParentTerms():
-    '''public void setParentTerms(final IndexTerm[] parentTerms)
+    '''returns None\n\n
+    setParentTerms(final IndexTerm[] parentTerms)\n
     '''
 def getSiblingTerms():
-    '''public IndexTerm[] getSiblingTerms()
+    '''returns IndexTerm[]\n\n
+    getSiblingTerms()\n
     '''
 def setSiblingTerms():
-    '''public void setSiblingTerms(final IndexTerm[] siblingTerms)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setSiblingTerms(final IndexTerm[] siblingTerms)\n
     '''

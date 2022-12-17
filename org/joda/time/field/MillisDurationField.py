@@ -1,51 +1,58 @@
 def getType():
-    '''public DurationFieldType getType()
+    '''returns DurationFieldType\n\n
+    getType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isSupported():
-    '''public boolean isSupported()
-    '''
-def isPrecise():
-    '''public final boolean isPrecise()
-    '''
-def getUnitMillis():
-    '''public final long getUnitMillis()
+    '''returns boolean\n\n
+    isSupported()\n
     '''
 def getValue():
-    '''public int getValue(final long n)
-    public int getValue(final long n, final long n2)
+    '''returns int\n\n
+    getValue(final long n)\n
+    getValue(final long n, final long n2)\n
     '''
 def getValueAsLong():
-    '''public long getValueAsLong(final long n)
-    public long getValueAsLong(final long n, final long n2)
+    '''returns long\n\n
+    getValueAsLong(final long n)\n
+    getValueAsLong(final long n, final long n2)\n
     '''
 def getMillis():
-    '''public long getMillis(final int n)
-    public long getMillis(final long n)
-    public long getMillis(final int n, final long n2)
-    public long getMillis(final long n, final long n2)
+    '''returns long\n\n
+    getMillis(final int n)\n
+    getMillis(final long n)\n
+    getMillis(final int n, final long n2)\n
+    getMillis(final long n, final long n2)\n
     '''
 def add():
-    '''public long add(final long n, final int n2)
-    public long add(final long n, final long n2)
+    '''returns long\n\n
+    add(final long n, final int n2)\n
+    add(final long n, final long n2)\n
     '''
 def getDifference():
-    '''public int getDifference(final long n, final long n2)
+    '''returns int\n\n
+    getDifference(final long n, final long n2)\n
     '''
 def getDifferenceAsLong():
-    '''public long getDifferenceAsLong(final long n, final long n2)
+    '''returns long\n\n
+    getDifferenceAsLong(final long n, final long n2)\n
     '''
 def compareTo():
-    '''public int compareTo(final DurationField durationField)
+    '''returns int\n\n
+    compareTo(final DurationField durationField)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

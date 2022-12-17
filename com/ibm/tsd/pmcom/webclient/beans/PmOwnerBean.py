@@ -1,6 +1,8 @@
-def PmOwnerBean():
-    '''public PmOwnerBean()
+def ():
+    '''returns PmOwnerBean\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

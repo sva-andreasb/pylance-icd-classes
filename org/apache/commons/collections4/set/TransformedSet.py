@@ -1,12 +1,8 @@
-def transformingSet():
-    '''public static <E> TransformedSet<E> transformingSet(final Set<E> set, final Transformer<? super E, ? extends E> transformer)
-    '''
-def transformedSet():
-    '''public static <E> Set<E> transformedSet(final Set<E> set, final Transformer<? super E, ? extends E> transformer)
-    '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

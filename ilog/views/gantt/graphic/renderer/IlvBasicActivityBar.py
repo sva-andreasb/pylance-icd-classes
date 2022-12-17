@@ -1,44 +1,54 @@
 SHADOW = "int  0"
 RELIEF = "int  1"
-def IlvBasicActivityBar():
-    '''public IlvBasicActivityBar()
+def ():
+    '''returns IlvBasicActivityBar\n\n
+    ()\n
     '''
 def getStyle():
-    '''public int getStyle()
+    '''returns int\n\n
+    getStyle()\n
     '''
 def setStyle():
-    '''public void setStyle(final int n)
+    '''returns None\n\n
+    setStyle(final int n)\n
     '''
 def getForeground():
-    '''public Color getForeground()
+    '''returns Color\n\n
+    getForeground()\n
     '''
 def getBackground():
-    '''public Color getBackground()
+    '''returns Color\n\n
+    getBackground()\n
     '''
 def getThickness():
-    '''public int getThickness()
+    '''returns int\n\n
+    getThickness()\n
     '''
 def setThickness():
-    '''public void setThickness(final int thickness)
+    '''returns None\n\n
+    setThickness(final int thickness)\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
-    '''
-def isAntialiasing():
-    '''public final boolean isAntialiasing()
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def setAntialiasing():
-    '''public void setAntialiasing(final boolean b)
+    '''returns None\n\n
+    setAntialiasing(final boolean b)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setGraphic():
-    '''public void setGraphic(final IlvGraphic graphic)
+    '''returns None\n\n
+    setGraphic(final IlvGraphic graphic)\n
     '''

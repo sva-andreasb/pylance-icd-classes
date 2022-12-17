@@ -1,9 +1,12 @@
-def FldDJPJobLaborCalcMethod():
-    '''public FldDJPJobLaborCalcMethod(final MboValue mv)
+def ():
+    '''returns FldDJPJobLaborCalcMethod\n\n
+    (final MboValue mv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

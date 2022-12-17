@@ -1,111 +1,147 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 ID_PATH_DELIMITER = "String  \">\""
-def TimeWindowSet():
-    '''public TimeWindowSet(final String id, final String name, final String description, final boolean unavailable)
-    public TimeWindowSet(final String description, final boolean unavailable)
+def ():
+    '''returns TimeWindowSet\n\n
+    (final String id, final String name, final String description, final boolean unavailable)\n
+    (final String description, final boolean unavailable)\n
     '''
 def clearProperty():
-    '''public void clearProperty(final String name)
+    '''returns None\n\n
+    clearProperty(final String name)\n
     '''
 def clearProperties():
-    '''public void clearProperties()
+    '''returns None\n\n
+    clearProperties()\n
     '''
 def clearTimeWindows():
-    '''public void clearTimeWindows()
+    '''returns None\n\n
+    clearTimeWindows()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getIconImageString():
-    '''public String getIconImageString()
+    '''returns String\n\n
+    getIconImageString()\n
     '''
 def getIdPath():
-    '''public String[] getIdPath()
+    '''returns String[]\n\n
+    getIdPath()\n
     '''
 def getIdPathString():
-    '''public String getIdPathString()
+    '''returns String\n\n
+    getIdPathString()\n
     '''
 def getObjectPath():
-    '''public TimeWindowSet[] getObjectPath()
+    '''returns TimeWindowSet[]\n\n
+    getObjectPath()\n
     '''
 def getParent():
-    '''public TimeWindowSet getParent()
+    '''returns TimeWindowSet\n\n
+    getParent()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def getTimeWindowAt():
-    '''public TimeWindow getTimeWindowAt(final int index)
+    '''returns TimeWindow\n\n
+    getTimeWindowAt(final int index)\n
     '''
 def getTimeWindowCount():
-    '''public int getTimeWindowCount()
+    '''returns int\n\n
+    getTimeWindowCount()\n
     '''
 def getTimeWindowIterator():
-    '''public Iterator<TimeWindow> getTimeWindowIterator()
+    '''returns Iterator<TimeWindow>\n\n
+    getTimeWindowIterator()\n
     '''
 def hasProperty():
-    '''public boolean hasProperty(final String name)
+    '''returns boolean\n\n
+    hasProperty(final String name)\n
     '''
 def invert():
-    '''public List<TimeWindow> invert()
+    '''returns List<TimeWindow>\n\n
+    invert()\n
     '''
 def isAncestorDisabled():
-    '''public boolean isAncestorDisabled()
+    '''returns boolean\n\n
+    isAncestorDisabled()\n
     '''
 def isAvailable():
-    '''public boolean isAvailable()
+    '''returns boolean\n\n
+    isAvailable()\n
     '''
 def isChildrenHidden():
-    '''public boolean isChildrenHidden()
+    '''returns boolean\n\n
+    isChildrenHidden()\n
     '''
 def isDisabled():
-    '''public boolean isDisabled()
+    '''returns boolean\n\n
+    isDisabled()\n
     '''
 def isMerged():
-    '''public boolean isMerged()
+    '''returns boolean\n\n
+    isMerged()\n
     '''
 def isSorted():
-    '''public boolean isSorted()
+    '''returns boolean\n\n
+    isSorted()\n
     '''
 def isUnavailable():
-    '''public boolean isUnavailable()
+    '''returns boolean\n\n
+    isUnavailable()\n
     '''
 def isZeroDurationTWsAllowed():
-    '''public boolean isZeroDurationTWsAllowed()
+    '''returns boolean\n\n
+    isZeroDurationTWsAllowed()\n
     '''
 def locateTimeWindow():
-    '''public int locateTimeWindow(final Date time)
+    '''returns int\n\n
+    locateTimeWindow(final Date time)\n
     '''
 def merge():
-    '''public void merge()
+    '''returns None\n\n
+    merge()\n
     '''
 def removeFromParent():
-    '''public void removeFromParent()
+    '''returns None\n\n
+    removeFromParent()\n
     '''
 def setChildrenHidden():
-    '''public void setChildrenHidden(final boolean hidden)
+    '''returns None\n\n
+    setChildrenHidden(final boolean hidden)\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean disabled)
+    '''returns None\n\n
+    setDisabled(final boolean disabled)\n
     '''
 def setIconImageString():
-    '''public void setIconImageString(final String image)
+    '''returns None\n\n
+    setIconImageString(final String image)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''
 def setZeroDurationTWsAllowed():
-    '''public void setZeroDurationTWsAllowed(final boolean allowed)
+    '''returns None\n\n
+    setZeroDurationTWsAllowed(final boolean allowed)\n
     '''
 def sort():
-    '''public void sort()
+    '''returns None\n\n
+    sort()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
-def MalformedPolicyDocumentException():
-    '''public MalformedPolicyDocumentException(final String message)
+def ():
+    '''returns MalformedPolicyDocumentException\n\n
+    (final String message)\n
     '''

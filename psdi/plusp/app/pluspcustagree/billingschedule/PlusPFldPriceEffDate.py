@@ -1,7 +1,9 @@
-def PlusPFldPriceEffDate():
-    '''public PlusPFldPriceEffDate()
-    public PlusPFldPriceEffDate(final MboValue mbv)
+def ():
+    '''returns PlusPFldPriceEffDate\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

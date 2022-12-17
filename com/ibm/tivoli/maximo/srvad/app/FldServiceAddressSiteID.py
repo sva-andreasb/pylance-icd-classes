@@ -1,3 +1,4 @@
-def FldServiceAddressSiteID():
-    '''public FldServiceAddressSiteID(final MboValue mbv)
+def ():
+    '''returns FldServiceAddressSiteID\n\n
+    (final MboValue mbv)\n
     '''

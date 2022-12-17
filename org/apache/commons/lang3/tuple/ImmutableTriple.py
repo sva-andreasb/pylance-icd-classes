@@ -1,15 +1,16 @@
-def of():
-    '''public static <L, M, R> ImmutableTriple<L, M, R> of(final L left, final M middle, final R right)
-    '''
-def ImmutableTriple():
-    '''public ImmutableTriple(final L left, final M middle, final R right)
+def ():
+    '''returns ImmutableTriple\n\n
+    (final L left, final M middle, final R right)\n
     '''
 def getLeft():
-    '''public L getLeft()
+    '''returns L\n\n
+    getLeft()\n
     '''
 def getMiddle():
-    '''public M getMiddle()
+    '''returns M\n\n
+    getMiddle()\n
     '''
 def getRight():
-    '''public R getRight()
+    '''returns R\n\n
+    getRight()\n
     '''

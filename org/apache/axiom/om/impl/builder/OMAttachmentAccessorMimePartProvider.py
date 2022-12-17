@@ -1,9 +1,12 @@
-def OMAttachmentAccessorMimePartProvider():
-    '''public OMAttachmentAccessorMimePartProvider(final OMAttachmentAccessor attachments)
+def ():
+    '''returns OMAttachmentAccessorMimePartProvider\n\n
+    (final OMAttachmentAccessor attachments)\n
     '''
 def isLoaded():
-    '''public boolean isLoaded(final String contentID)
+    '''returns boolean\n\n
+    isLoaded(final String contentID)\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler(final String contentID)
+    '''returns DataHandler\n\n
+    getDataHandler(final String contentID)\n
     '''

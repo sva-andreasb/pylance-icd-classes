@@ -1,21 +1,28 @@
 def visitJSONObject():
-    '''public void visitJSONObject(final Object parent, final Object key, final JSONObject val)
+    '''returns None\n\n
+    visitJSONObject(final Object parent, final Object key, final JSONObject val)\n
     '''
 def visitJSONArray():
-    '''public void visitJSONArray(final Object parent, final Object key, final JSONArray val)
+    '''returns None\n\n
+    visitJSONArray(final Object parent, final Object key, final JSONArray val)\n
     '''
 def visitNumber():
-    '''public void visitNumber(final Object parent, final Object key, final Number val)
+    '''returns None\n\n
+    visitNumber(final Object parent, final Object key, final Number val)\n
     '''
 def visitBoolean():
-    '''public void visitBoolean(final Object parent, final Object key, final Boolean val)
+    '''returns None\n\n
+    visitBoolean(final Object parent, final Object key, final Boolean val)\n
     '''
 def visitString():
-    '''public void visitString(final Object parent, final Object key, final String val)
+    '''returns None\n\n
+    visitString(final Object parent, final Object key, final String val)\n
     '''
 def visitNull():
-    '''public void visitNull(final Object parent, final Object key)
+    '''returns None\n\n
+    visitNull(final Object parent, final Object key)\n
     '''
 def visitObject():
-    '''public void visitObject(final Object parent, final Object key, final Object val)
+    '''returns None\n\n
+    visitObject(final Object parent, final Object key, final Object val)\n
     '''

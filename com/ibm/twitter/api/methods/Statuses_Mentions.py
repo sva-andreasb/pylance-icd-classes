@@ -1,6 +1,8 @@
-def Statuses_Mentions():
-    '''public Statuses_Mentions()
+def ():
+    '''returns Statuses_Mentions\n\n
+    ()\n
     '''
 def getResult():
-    '''public List<Status> getResult()
+    '''returns List<Status>\n\n
+    getResult()\n
     '''

@@ -1,18 +1,24 @@
-def MoutAssetProcess():
-    '''public MoutAssetProcess()
+def ():
+    '''returns MoutAssetProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''returns int\n\n
+    checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)\n
     '''
 def publicAssets():
-    '''public void publicAssets(final MboSet assetSet)
+    '''returns None\n\n
+    publicAssets(final MboSet assetSet)\n
     '''
 def topTenCostliestAssets():
-    '''public void topTenCostliestAssets(final MboSet assetSet)
+    '''returns None\n\n
+    topTenCostliestAssets(final MboSet assetSet)\n
     '''
 def lookupAsset():
-    '''public void lookupAsset(final MboSet assetSet, final String siteid)
+    '''returns None\n\n
+    lookupAsset(final MboSet assetSet, final String siteid)\n
     '''
 def assetList():
-    '''public void assetList(final MboSet assetSet)
+    '''returns None\n\n
+    assetList(final MboSet assetSet)\n
     '''

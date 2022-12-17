@@ -1,51 +1,67 @@
 UNSPECIFIED_PROPERTY = "int  Integer.MIN_VALUE"
-def PropertyPointer():
-    '''public PropertyPointer(final NodePointer parent)
+def ():
+    '''returns PropertyPointer\n\n
+    (final NodePointer parent)\n
     '''
 def getPropertyIndex():
-    '''public int getPropertyIndex()
+    '''returns int\n\n
+    getPropertyIndex()\n
     '''
 def setPropertyIndex():
-    '''public void setPropertyIndex(int index)
+    '''returns None\n\n
+    setPropertyIndex(int index)\n
     '''
 def getBean():
-    '''public Object getBean()
+    '''returns Object\n\n
+    getBean()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def isActual():
-    '''public boolean isActual()
+    '''returns boolean\n\n
+    isActual()\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getImmediateValuePointer():
-    '''public NodePointer getImmediateValuePointer()
+    '''returns NodePointer\n\n
+    getImmediateValuePointer()\n
     '''
 def createPath():
-    '''public NodePointer createPath(final JXPathContext context)
-    public NodePointer createPath(final JXPathContext context, final Object value)
+    '''returns NodePointer\n\n
+    createPath(final JXPathContext context)\n
+    createPath(final JXPathContext context, final Object value)\n
     '''
 def createChild():
-    '''public NodePointer createChild(final JXPathContext context, final QName name, final int index, final Object value)
-    public NodePointer createChild(final JXPathContext context, final QName name, final int index)
+    '''returns NodePointer\n\n
+    createChild(final JXPathContext context, final QName name, final int index, final Object value)\n
+    createChild(final JXPathContext context, final QName name, final int index)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def compareChildNodePointers():
-    '''public int compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)
+    '''returns int\n\n
+    compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)\n
     '''

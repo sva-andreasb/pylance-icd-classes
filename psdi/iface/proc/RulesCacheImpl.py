@@ -1,59 +1,73 @@
 NAME = "String  \"IFACEPROC\""
-def RulesCacheImpl():
-    '''public RulesCacheImpl()
+def ():
+    '''returns RulesCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hasOutboundRules():
-    '''public boolean hasOutboundRules(final String ifacename)
-    public boolean hasOutboundRules(final String ifacename, final String mosname)
+    '''returns boolean\n\n
+    hasOutboundRules(final String ifacename)\n
+    hasOutboundRules(final String ifacename, final String mosname)\n
     '''
 def hasInboundMboRules():
-    '''public boolean hasInboundMboRules(final String ifacename)
-    public boolean hasInboundMboRules(final String ifacename, final String mosname)
+    '''returns boolean\n\n
+    hasInboundMboRules(final String ifacename)\n
+    hasInboundMboRules(final String ifacename, final String mosname)\n
     '''
 def hasInboundObjectRules():
-    '''public boolean hasInboundObjectRules(final String ifacename)
-    public boolean hasInboundObjectRules(final String ifacename, final String mosname)
+    '''returns boolean\n\n
+    hasInboundObjectRules(final String ifacename)\n
+    hasInboundObjectRules(final String ifacename, final String mosname)\n
     '''
 def hasMigrationObjectRules():
-    '''public boolean hasMigrationObjectRules(final String mosname)
+    '''returns boolean\n\n
+    hasMigrationObjectRules(final String mosname)\n
     '''
 def hasMigrationPackageRules():
-    '''public boolean hasMigrationPackageRules(final String packageName)
+    '''returns boolean\n\n
+    hasMigrationPackageRules(final String packageName)\n
     '''
 def hasMigrationPackageRulesForObject():
-    '''public boolean hasMigrationPackageRulesForObject(final String packageName, final String mosname)
+    '''returns boolean\n\n
+    hasMigrationPackageRulesForObject(final String packageName, final String mosname)\n
     '''
 def getTableProcsObjIn():
-    '''public List getTableProcsObjIn(final String ifacename, final String mosname, final String hpath)
+    '''returns List\n\n
+    getTableProcsObjIn(final String ifacename, final String mosname, final String hpath)\n
     '''
 def getTableProcsMboIn():
-    '''public List getTableProcsMboIn(final String ifacename, final String mosname, final String hpath)
+    '''returns List\n\n
+    getTableProcsMboIn(final String ifacename, final String mosname, final String hpath)\n
     '''
 def getTableProcsOut():
-    '''public List getTableProcsOut(final String ifacename, final String mosname, final String hpath)
+    '''returns List\n\n
+    getTableProcsOut(final String ifacename, final String mosname, final String hpath)\n
     '''
 def getProcessingRules():
-    '''public List getProcessingRules(final String useWith, final String entityName, final String objStructName, final String hpath)
+    '''returns List\n\n
+    getProcessingRules(final String useWith, final String entityName, final String objStructName, final String hpath)\n
     '''
 def isAnyOutBoundRulesEnabled():
-    '''public boolean isAnyOutBoundRulesEnabled(final String ifacename)
+    '''returns boolean\n\n
+    isAnyOutBoundRulesEnabled(final String ifacename)\n
     '''
 def isAnyInBoundMBORulesEnabled():
-    '''public boolean isAnyInBoundMBORulesEnabled(final String ifacename)
+    '''returns boolean\n\n
+    isAnyInBoundMBORulesEnabled(final String ifacename)\n
     '''
 def isAnyInBoundObjectRulesEnabled():
-    '''public boolean isAnyInBoundObjectRulesEnabled(final String ifacename)
-    '''
-def refresh():
-    '''public synchronized void refresh()
+    '''returns boolean\n\n
+    isAnyInBoundObjectRulesEnabled(final String ifacename)\n
     '''

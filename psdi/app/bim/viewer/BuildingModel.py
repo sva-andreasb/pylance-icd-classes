@@ -26,33 +26,43 @@ FIELD_WORKORDERVIEW = "String  \"WORKORDERVIEW\""
 FIELD_LATITUDEY = "String  \"LATITUDEY\""
 FIELD_LONGITUDEX = "String  \"LONGITUDEX\""
 FIELD_FORMATTEDADDRESS = "String  \"FORMATTEDADDRESS\""
-def BuildingModel():
-    '''public BuildingModel(final MboSet ms)
+def ():
+    '''returns BuildingModel\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getViewerType():
-    '''public String getViewerType()
+    '''returns String\n\n
+    getViewerType()\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''

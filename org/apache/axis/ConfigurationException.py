@@ -1,11 +1,14 @@
-def ConfigurationException():
-    '''public ConfigurationException(final String message)
-    public ConfigurationException(final Exception exception)
-    public ConfigurationException(final Exception exception, final boolean copyStack)
+def ():
+    '''returns ConfigurationException\n\n
+    (final String message)\n
+    (final Exception exception)\n
+    (final Exception exception, final boolean copyStack)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getContainedException():
-    '''public Exception getContainedException()
+    '''returns Exception\n\n
+    getContainedException()\n
     '''

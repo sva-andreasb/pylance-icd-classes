@@ -2,42 +2,55 @@ NO_RESULT_FOUND = "String  \"[Same Result]\""
 NOT_SET = "String  \"[Not Set]\""
 ARRAY_VALUE_NO_RESULT_FOUND = "String  \"[Not Set]\""
 def getLevel():
-    '''public int getLevel()
+    '''returns int\n\n
+    getLevel()\n
     '''
-def CompareResultRow():
-    '''public CompareResultRow(final String displayName, final CompareResults[] compareResults, final boolean leftOnlyRow, final CompareResultFactory factory, final int level, final long version)
-    public CompareResultRow()
+def ():
+    '''returns CompareResultRow\n\n
+    (final String displayName, final CompareResults[] compareResults, final boolean leftOnlyRow, final CompareResultFactory factory, final int level, final long version)\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getActualValue():
-    '''public Object getActualValue(final int column)
+    '''returns Object\n\n
+    getActualValue(final int column)\n
     '''
 def getValue():
-    '''public Object getValue(final int column)
+    '''returns Object\n\n
+    getValue(final int column)\n
     '''
 def getChildren():
-    '''public List getChildren()
+    '''returns List\n\n
+    getChildren()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def setBlob():
-    '''public void setBlob(final boolean blob)
+    '''returns None\n\n
+    setBlob(final boolean blob)\n
     '''
 def isLeftOnly():
-    '''public boolean isLeftOnly()
+    '''returns boolean\n\n
+    isLeftOnly()\n
     '''
 def setBlobResults():
-    '''public void setBlobResults(final BlobCompareResults[] blobCompareResults)
+    '''returns None\n\n
+    setBlobResults(final BlobCompareResults[] blobCompareResults)\n
     '''
 def getParent():
-    '''public CompareResultRow getParent()
+    '''returns CompareResultRow\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final CompareResultRow parent)
+    '''returns None\n\n
+    setParent(final CompareResultRow parent)\n
     '''

@@ -1,24 +1,32 @@
-def RequestEntry():
-    '''public RequestEntry(final HttpServletRequest request, final WebClientSession session)
+def ():
+    '''returns RequestEntry\n\n
+    (final HttpServletRequest request, final WebClientSession session)\n
     '''
 def getEvents():
-    '''public Events getEvents()
+    '''returns Events\n\n
+    getEvents()\n
     '''
 def getLogs():
-    '''public LogEntry[] getLogs()
+    '''returns LogEntry[]\n\n
+    getLogs()\n
     '''
 def setHandling():
-    '''public void setHandling(final WebClientEvent event, final boolean handling)
+    '''returns None\n\n
+    setHandling(final WebClientEvent event, final boolean handling)\n
     '''
 def addHandledBy():
-    '''public void addHandledBy(final WebClientEvent event, final Object handler)
+    '''returns None\n\n
+    addHandledBy(final WebClientEvent event, final Object handler)\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def isFinished():
-    '''public boolean isFinished()
+    '''returns boolean\n\n
+    isFinished()\n
     '''
 def setRequestEvent():
-    '''public void setRequestEvent(final WebClientEvent event, final boolean isRequestEvent)
+    '''returns None\n\n
+    setRequestEvent(final WebClientEvent event, final boolean isRequestEvent)\n
     '''

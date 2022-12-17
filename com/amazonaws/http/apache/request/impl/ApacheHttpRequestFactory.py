@@ -1,3 +1,4 @@
 def create():
-    '''public HttpRequestBase create(final Request<?> request, final HttpClientSettings settings)
+    '''returns HttpRequestBase\n\n
+    create(final Request<?> request, final HttpClientSettings settings)\n
     '''

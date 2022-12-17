@@ -1,18 +1,24 @@
-def JSONProcessNPMboSet():
-    '''public JSONProcessNPMboSet(final MboServerInterface ms)
+def ():
+    '''returns JSONProcessNPMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def process():
-    '''public void process()
+    '''returns None\n\n
+    process()\n
     '''
 def setResourceInfo():
-    '''public void setResourceInfo(final JSONResourceInfo resInfo)
+    '''returns None\n\n
+    setResourceInfo(final JSONResourceInfo resInfo)\n
     '''
 def getResourceInfo():
-    '''public JSONResourceInfo getResourceInfo()
+    '''returns JSONResourceInfo\n\n
+    getResourceInfo()\n
     '''

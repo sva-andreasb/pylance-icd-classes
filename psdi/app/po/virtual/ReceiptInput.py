@@ -1,45 +1,60 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
-def ReceiptInput():
-    '''public ReceiptInput(final MboSet ms)
+def ():
+    '''returns ReceiptInput\n\n
+    (final MboSet ms)\n
     '''
 def createReceipt():
-    '''public MboRemote createReceipt(final MboSetRemote targetSet)
+    '''returns MboRemote\n\n
+    createReceipt(final MboSetRemote targetSet)\n
     '''
 def createShipmentReceipt():
-    '''public MboRemote createShipmentReceipt(final MboSetRemote targetSet)
+    '''returns MboRemote\n\n
+    createShipmentReceipt(final MboSetRemote targetSet)\n
     '''
 def setPOMbo():
-    '''public void setPOMbo(final PORemote po)
+    '''returns None\n\n
+    setPOMbo(final PORemote po)\n
     '''
 def setPOLineMbo():
-    '''public void setPOLineMbo(final POLineRemote poLine)
+    '''returns None\n\n
+    setPOLineMbo(final POLineRemote poLine)\n
     '''
 def setMRMbo():
-    '''public void setMRMbo(final MRRemote mr)
+    '''returns None\n\n
+    setMRMbo(final MRRemote mr)\n
     '''
 def setPOLineSet():
-    '''public void setPOLineSet(final POLineSetRemote poLineSet)
+    '''returns None\n\n
+    setPOLineSet(final POLineSetRemote poLineSet)\n
     '''
 def setShipmentLine():
-    '''public void setShipmentLine(final ShipmentLineRemote sml)
+    '''returns None\n\n
+    setShipmentLine(final ShipmentLineRemote sml)\n
     '''
 def setShipment():
-    '''public void setShipment(final ShipmentRemote sm)
+    '''returns None\n\n
+    setShipment(final ShipmentRemote sm)\n
     '''
 def createReturnReceipt():
-    '''public MboRemote createReturnReceipt(final MboSetRemote targetSet)
+    '''returns MboRemote\n\n
+    createReturnReceipt(final MboSetRemote targetSet)\n
     '''
 def createReturnReceiptSrv():
-    '''public MboRemote createReturnReceiptSrv(final MboSetRemote targetSet)
+    '''returns MboRemote\n\n
+    createReturnReceiptSrv(final MboSetRemote targetSet)\n
     '''
 def createReturnShipReceipt():
-    '''public MboRemote createReturnShipReceipt(final MboSetRemote targetSet)
+    '''returns MboRemote\n\n
+    createReturnShipReceipt(final MboSetRemote targetSet)\n
     '''
 def getInternalLineType():
-    '''public String getInternalLineType()
+    '''returns String\n\n
+    getInternalLineType()\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''

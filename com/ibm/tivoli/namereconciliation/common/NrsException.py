@@ -1,9 +1,12 @@
-def NrsException():
-    '''public NrsException(final int errorCode)
+def ():
+    '''returns NrsException\n\n
+    (final int errorCode)\n
     '''
 def getErrorCode():
-    '''public int getErrorCode()
+    '''returns int\n\n
+    getErrorCode()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

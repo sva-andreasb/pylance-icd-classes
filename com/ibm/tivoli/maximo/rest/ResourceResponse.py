@@ -1,44 +1,54 @@
-def ResourceResponse():
-    '''public ResourceResponse(final String resourceId, final String format, final String mimeType, final String resourceType, final String resourceName)
-    public ResourceResponse(final byte[] data, final String format, final String mimeType, final String resourceType, final String resourceName)
-    public ResourceResponse(final byte[] data, final String format, final String mimeType, final String resourceType, final String resourceName, final Date lastModified, final boolean modified, final int maxAge, final String etag, final String resourceLocatorId, final Map<String, String> customHeaders)
+def ():
+    '''returns ResourceResponse\n\n
+    (final String resourceId, final String format, final String mimeType, final String resourceType, final String resourceName)\n
+    (final byte[] data, final String format, final String mimeType, final String resourceType, final String resourceName)\n
+    (final byte[] data, final String format, final String mimeType, final String resourceType, final String resourceName, final Date lastModified, final boolean modified, final int maxAge, final String etag, final String resourceLocatorId, final Map<String, String> customHeaders)\n
     '''
 def setResourceLocatorId():
-    '''public void setResourceLocatorId(final String resourceLocatorId)
+    '''returns None\n\n
+    setResourceLocatorId(final String resourceLocatorId)\n
     '''
 def getResourceLocatorId():
-    '''public String getResourceLocatorId()
-    '''
-def getCustomHeaders():
-    '''public Map<String, String> getCustomHeaders()
+    '''returns String\n\n
+    getResourceLocatorId()\n
     '''
 def getMaxAge():
-    '''public int getMaxAge()
+    '''returns int\n\n
+    getMaxAge()\n
     '''
 def getResourceId():
-    '''public String getResourceId()
+    '''returns String\n\n
+    getResourceId()\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def getLastModified():
-    '''public Date getLastModified()
+    '''returns Date\n\n
+    getLastModified()\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def getResourceName():
-    '''public String getResourceName()
+    '''returns String\n\n
+    getResourceName()\n
     '''

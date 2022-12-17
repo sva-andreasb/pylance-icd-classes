@@ -1,3 +1,4 @@
-def ContractPurch():
-    '''public ContractPurch(final MboSet ms)
+def ():
+    '''returns ContractPurch\n\n
+    (final MboSet ms)\n
     '''

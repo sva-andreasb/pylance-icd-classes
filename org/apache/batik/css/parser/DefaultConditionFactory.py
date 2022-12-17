@@ -1,42 +1,56 @@
 def createAndCondition():
-    '''public CombinatorCondition createAndCondition(final Condition first, final Condition second)
+    '''returns CombinatorCondition\n\n
+    createAndCondition(final Condition first, final Condition second)\n
     '''
 def createOrCondition():
-    '''public CombinatorCondition createOrCondition(final Condition first, final Condition second)
+    '''returns CombinatorCondition\n\n
+    createOrCondition(final Condition first, final Condition second)\n
     '''
 def createNegativeCondition():
-    '''public NegativeCondition createNegativeCondition(final Condition condition)
+    '''returns NegativeCondition\n\n
+    createNegativeCondition(final Condition condition)\n
     '''
 def createPositionalCondition():
-    '''public PositionalCondition createPositionalCondition(final int position, final boolean typeNode, final boolean type)
+    '''returns PositionalCondition\n\n
+    createPositionalCondition(final int position, final boolean typeNode, final boolean type)\n
     '''
 def createAttributeCondition():
-    '''public AttributeCondition createAttributeCondition(final String localName, final String namespaceURI, final boolean specified, final String value)
+    '''returns AttributeCondition\n\n
+    createAttributeCondition(final String localName, final String namespaceURI, final boolean specified, final String value)\n
     '''
 def createIdCondition():
-    '''public AttributeCondition createIdCondition(final String value)
+    '''returns AttributeCondition\n\n
+    createIdCondition(final String value)\n
     '''
 def createLangCondition():
-    '''public LangCondition createLangCondition(final String lang)
+    '''returns LangCondition\n\n
+    createLangCondition(final String lang)\n
     '''
 def createOneOfAttributeCondition():
-    '''public AttributeCondition createOneOfAttributeCondition(final String localName, final String nsURI, final boolean specified, final String value)
+    '''returns AttributeCondition\n\n
+    createOneOfAttributeCondition(final String localName, final String nsURI, final boolean specified, final String value)\n
     '''
 def createBeginHyphenAttributeCondition():
-    '''public AttributeCondition createBeginHyphenAttributeCondition(final String localName, final String namespaceURI, final boolean specified, final String value)
+    '''returns AttributeCondition\n\n
+    createBeginHyphenAttributeCondition(final String localName, final String namespaceURI, final boolean specified, final String value)\n
     '''
 def createClassCondition():
-    '''public AttributeCondition createClassCondition(final String namespaceURI, final String value)
+    '''returns AttributeCondition\n\n
+    createClassCondition(final String namespaceURI, final String value)\n
     '''
 def createPseudoClassCondition():
-    '''public AttributeCondition createPseudoClassCondition(final String namespaceURI, final String value)
+    '''returns AttributeCondition\n\n
+    createPseudoClassCondition(final String namespaceURI, final String value)\n
     '''
 def createOnlyChildCondition():
-    '''public Condition createOnlyChildCondition()
+    '''returns Condition\n\n
+    createOnlyChildCondition()\n
     '''
 def createOnlyTypeCondition():
-    '''public Condition createOnlyTypeCondition()
+    '''returns Condition\n\n
+    createOnlyTypeCondition()\n
     '''
 def createContentCondition():
-    '''public ContentCondition createContentCondition(final String data)
+    '''returns ContentCondition\n\n
+    createContentCondition(final String data)\n
     '''

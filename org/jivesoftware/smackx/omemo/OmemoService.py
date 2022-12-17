@@ -1,27 +1,28 @@
-def isServiceRegistered():
-    '''public static boolean isServiceRegistered()
-    '''
-def getOmemoStoreBackend():
-    '''public OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> getOmemoStoreBackend()
-    '''
 def setOmemoStoreBackend():
-    '''public void setOmemoStoreBackend(final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore)
+    '''returns None\n\n
+    setOmemoStoreBackend(final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore)\n
     '''
-def OmemoService():
-    '''public OmemoService()
+def ():
+    '''returns OmemoService\n\n
+    ()\n
     '''
 def accept():
-    '''public boolean accept(final Stanza stanza)
+    '''returns boolean\n\n
+    accept(final Stanza stanza)\n
     '''
 def buildSessionFromOmemoBundle():
-    '''public void buildSessionFromOmemoBundle(final OmemoManager omemoManager, final OmemoDevice device, final boolean fresh)
+    '''returns None\n\n
+    buildSessionFromOmemoBundle(final OmemoManager omemoManager, final OmemoDevice device, final boolean fresh)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
     '''
 def onCarbonCopyReceived():
-    '''public void onCarbonCopyReceived(final CarbonExtension.Direction direction, final Message carbonCopy, final Message wrappingMessage)
+    '''returns None\n\n
+    onCarbonCopyReceived(final CarbonExtension.Direction direction, final Message carbonCopy, final Message wrappingMessage)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

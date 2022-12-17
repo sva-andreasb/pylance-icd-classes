@@ -1,3 +1,4 @@
-def PmtcoCICRTVSet():
-    '''public PmtcoCICRTVSet(final MboServerInterface ms)
+def ():
+    '''returns PmtcoCICRTVSet\n\n
+    (final MboServerInterface ms)\n
     '''

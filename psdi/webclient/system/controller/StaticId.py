@@ -1,6 +1,8 @@
-def StaticId():
-    '''public StaticId()
+def ():
+    '''returns StaticId\n\n
+    ()\n
     '''
 def generateTpaeStaticId():
-    '''public String generateTpaeStaticId(final String controlId, final AppInstance app)
+    '''returns String\n\n
+    generateTpaeStaticId(final String controlId, final AppInstance app)\n
     '''

@@ -1,6 +1,8 @@
-def TAMITDPAMProcessor():
-    '''public TAMITDPAMProcessor(final MboSet ms)
+def ():
+    '''returns TAMITDPAMProcessor\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

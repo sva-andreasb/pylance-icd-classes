@@ -1,6 +1,8 @@
-def DERInputStream():
-    '''public DERInputStream(final InputStream is)
+def ():
+    '''returns DERInputStream\n\n
+    (final InputStream is)\n
     '''
 def readObject():
-    '''public DERObject readObject()
+    '''returns DERObject\n\n
+    readObject()\n
     '''

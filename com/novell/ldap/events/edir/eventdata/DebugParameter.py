@@ -1,12 +1,16 @@
-def DebugParameter():
-    '''public DebugParameter(final ASN1Tagged asn1Tagged)
+def ():
+    '''returns DebugParameter\n\n
+    (final ASN1Tagged asn1Tagged)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getData():
-    '''public Object getData()
+    '''returns Object\n\n
+    getData()\n
     '''

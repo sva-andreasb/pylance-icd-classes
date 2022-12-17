@@ -1,23 +1,29 @@
-def JMSProducer():
-    '''public JMSProducer(final String destinationName, final String conFactoryName, final int txMode, final Properties env, final String providerUserName, final String providerPassword)
-    public JMSProducer(final String destinationName, final String conFactoryName, final int txMode, final Properties env)
-    public JMSProducer(final String destinationName, final Session session, final Properties env)
+def ():
+    '''returns JMSProducer\n\n
+    (final String destinationName, final String conFactoryName, final int txMode, final Properties env, final String providerUserName, final String providerPassword)\n
+    (final String destinationName, final String conFactoryName, final int txMode, final Properties env)\n
+    (final String destinationName, final Session session, final Properties env)\n
     '''
 def addMessage():
-    '''public void addMessage(final JMSData data)
+    '''returns None\n\n
+    addMessage(final JMSData data)\n
     '''
 def sendMessage():
-    '''public void sendMessage(final boolean autocommit)
-    public void sendMessage(final List<JMSData> listData, final boolean autocommit)
-    public void sendMessage(final JMSData data, final boolean autocommit)
+    '''returns None\n\n
+    sendMessage(final boolean autocommit)\n
+    sendMessage(final List<JMSData> listData, final boolean autocommit)\n
+    sendMessage(final JMSData data, final boolean autocommit)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def createClientInSession():
-    '''public JMSClient createClientInSession()
-    public JMSClient createClientInSession(final String destinationName, final Properties env)
+    '''returns JMSClient\n\n
+    createClientInSession()\n
+    createClientInSession(final String destinationName, final Properties env)\n
     '''
 def createJMSConsumerInSession():
-    '''public JMSConsumer createJMSConsumerInSession(final String selector)
+    '''returns JMSConsumer\n\n
+    createJMSConsumerInSession(final String selector)\n
     '''

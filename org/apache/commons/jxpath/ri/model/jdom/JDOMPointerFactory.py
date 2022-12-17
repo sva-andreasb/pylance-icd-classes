@@ -1,8 +1,10 @@
 JDOM_POINTER_FACTORY_ORDER = "int  110"
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def createNodePointer():
-    '''public NodePointer createNodePointer(final QName name, final Object bean, final Locale locale)
-    public NodePointer createNodePointer(final NodePointer parent, final QName name, final Object bean)
+    '''returns NodePointer\n\n
+    createNodePointer(final QName name, final Object bean, final Locale locale)\n
+    createNodePointer(final NodePointer parent, final QName name, final Object bean)\n
     '''

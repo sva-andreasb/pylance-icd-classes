@@ -3,42 +3,55 @@ TITLEROW = "int  -3"
 FILTERROW = "int  -2"
 NOCOLUMNS = "int  -1"
 DATAROW = "int  0"
-def TableRow():
-    '''public TableRow()
+def ():
+    '''returns TableRow\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def tableHasData():
-    '''public boolean tableHasData()
+    '''returns boolean\n\n
+    tableHasData()\n
     '''
 def isrowselected():
-    '''public boolean isrowselected()
+    '''returns boolean\n\n
+    isrowselected()\n
     '''
 def hasData():
-    '''public boolean hasData()
+    '''returns boolean\n\n
+    hasData()\n
     '''
 def getRenderRow():
-    '''public int getRenderRow()
+    '''returns int\n\n
+    getRenderRow()\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def getTableControl():
-    '''public Table getTableControl()
+    '''returns Table\n\n
+    getTableControl()\n
     '''
 def toggleselectrow():
-    '''public int toggleselectrow()
+    '''returns int\n\n
+    toggleselectrow()\n
     '''
 def setCurrent():
-    '''public void setCurrent()
+    '''returns None\n\n
+    setCurrent()\n
     '''
 def rowVisible():
-    '''public boolean rowVisible()
+    '''returns boolean\n\n
+    rowVisible()\n
     '''
 def isExpanded():
-    '''public boolean isExpanded()
+    '''returns boolean\n\n
+    isExpanded()\n
     '''
 def getHeaders():
-    '''public String getHeaders()
+    '''returns String\n\n
+    getHeaders()\n
     '''

@@ -1,41 +1,51 @@
-def PathQueryNode():
-    '''public PathQueryNode(final List<QueryText> pathElements)
+def ():
+    '''returns QueryText\n\n
+    (final List<QueryText> pathElements)\n
+    (final CharSequence value, final int begin, final int end)\n
     '''
 def getPathElements():
-    '''public List<QueryText> getPathElements()
-    public List<QueryText> getPathElements(final int startIndex)
+    '''returns List<QueryText>\n\n
+    getPathElements()\n
+    getPathElements(final int startIndex)\n
     '''
 def setPathElements():
-    '''public void setPathElements(final List<QueryText> elements)
+    '''returns None\n\n
+    setPathElements(final List<QueryText> elements)\n
     '''
 def getPathElement():
-    '''public QueryText getPathElement(final int index)
+    '''returns QueryText\n\n
+    getPathElement(final int index)\n
     '''
 def getFirstPathElement():
-    '''public CharSequence getFirstPathElement()
+    '''returns CharSequence\n\n
+    getFirstPathElement()\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escaper)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escaper)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def cloneTree():
-    '''public QueryNode cloneTree()
-    '''
-def QueryText():
-    '''public QueryText(final CharSequence value, final int begin, final int end)
+    '''returns QueryNode\n\n
+    cloneTree()\n
     '''
 def clone():
-    '''public QueryText clone()
+    '''returns QueryText\n\n
+    clone()\n
     '''
 def getValue():
-    '''public CharSequence getValue()
+    '''returns CharSequence\n\n
+    getValue()\n
     '''
 def getBegin():
-    '''public int getBegin()
+    '''returns int\n\n
+    getBegin()\n
     '''
 def getEnd():
-    '''public int getEnd()
+    '''returns int\n\n
+    getEnd()\n
     '''

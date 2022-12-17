@@ -16,41 +16,34 @@ SRC_NFKC_CF = "int  10"
 SRC_NFC_CANON_ITER = "int  11"
 SRC_COUNT = "int  12"
 def setIndexData():
-    '''public void setIndexData(final CharTrie.FriendAgent friendagent)
-    '''
-def getProperty():
-    '''public final int getProperty(final int ch)
+    '''returns None\n\n
+    setIndexData(final CharTrie.FriendAgent friendagent)\n
     '''
 def getAdditional():
-    '''public int getAdditional(final int codepoint, final int column)
+    '''returns int\n\n
+    getAdditional(final int codepoint, final int column)\n
     '''
 def getAge():
-    '''public VersionInfo getAge(final int codepoint)
+    '''returns VersionInfo\n\n
+    getAge(final int codepoint)\n
     '''
 def hasBinaryProperty():
-    '''public boolean hasBinaryProperty(int c, final int which)
-    '''
-def getSource():
-    '''public final int getSource(final int which)
-    '''
-def getRawSupplementary():
-    '''public static int getRawSupplementary(final char lead, final char trail)
-    '''
-def isRuleWhiteSpace():
-    '''public static boolean isRuleWhiteSpace(final int c)
+    '''returns boolean\n\n
+    hasBinaryProperty(int c, final int which)\n
     '''
 def getMaxValues():
-    '''public int getMaxValues(final int column)
-    '''
-def getMask():
-    '''public static final int getMask(final int type)
+    '''returns int\n\n
+    getMaxValues(final int column)\n
     '''
 def addPropertyStarts():
-    '''public UnicodeSet addPropertyStarts(final UnicodeSet set)
+    '''returns UnicodeSet\n\n
+    addPropertyStarts(final UnicodeSet set)\n
     '''
 def upropsvec_addPropertyStarts():
-    '''public void upropsvec_addPropertyStarts(final UnicodeSet set)
+    '''returns None\n\n
+    upropsvec_addPropertyStarts(final UnicodeSet set)\n
     '''
-def BinaryProperties():
-    '''public BinaryProperties(final int column, final int mask)
+def ():
+    '''returns BinaryProperties\n\n
+    (final int column, final int mask)\n
     '''

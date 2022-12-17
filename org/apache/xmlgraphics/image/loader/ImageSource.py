@@ -1,24 +1,32 @@
-def ImageSource():
-    '''public ImageSource(final ImageInputStream in, final String systemId, final boolean fastSource)
+def ():
+    '''returns ImageSource\n\n
+    (final ImageInputStream in, final String systemId, final boolean fastSource)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getImageInputStream():
-    '''public ImageInputStream getImageInputStream()
+    '''returns ImageInputStream\n\n
+    getImageInputStream()\n
     '''
 def setImageInputStream():
-    '''public void setImageInputStream(final ImageInputStream in)
+    '''returns None\n\n
+    setImageInputStream(final ImageInputStream in)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
     '''
 def isFastSource():
-    '''public boolean isFastSource()
+    '''returns boolean\n\n
+    isFastSource()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

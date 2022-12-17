@@ -1,5 +1,6 @@
-def JsonGenerationException():
-    '''public JsonGenerationException(final Throwable rootCause)
-    public JsonGenerationException(final String msg)
-    public JsonGenerationException(final String msg, final Throwable rootCause)
+def ():
+    '''returns JsonGenerationException\n\n
+    (final Throwable rootCause)\n
+    (final String msg)\n
+    (final String msg, final Throwable rootCause)\n
     '''

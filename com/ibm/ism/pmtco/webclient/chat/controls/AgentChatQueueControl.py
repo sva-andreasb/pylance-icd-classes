@@ -1,15 +1,20 @@
 def setupAgent():
-    '''public void setupAgent()
+    '''returns None\n\n
+    setupAgent()\n
     '''
 def isChatAgent():
-    '''public boolean isChatAgent()
+    '''returns boolean\n\n
+    isChatAgent()\n
     '''
 def getQueueListJson():
-    '''public String getQueueListJson()
+    '''returns String\n\n
+    getQueueListJson()\n
     '''
 def launchChat():
-    '''public int launchChat()
+    '''returns int\n\n
+    launchChat()\n
     '''
 def resetChat():
-    '''public int resetChat()
+    '''returns int\n\n
+    resetChat()\n
     '''

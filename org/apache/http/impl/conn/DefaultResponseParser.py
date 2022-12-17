@@ -1,3 +1,4 @@
-def DefaultResponseParser():
-    '''public DefaultResponseParser(final SessionInputBuffer buffer, final LineParser parser, final HttpResponseFactory responseFactory, final HttpParams params)
+def ():
+    '''returns DefaultResponseParser\n\n
+    (final SessionInputBuffer buffer, final LineParser parser, final HttpResponseFactory responseFactory, final HttpParams params)\n
     '''

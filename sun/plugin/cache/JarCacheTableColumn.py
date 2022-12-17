@@ -1,28 +1,37 @@
-def JarCacheTableColumn():
-    '''public JarCacheTableColumn(final String headerValue, final String str, final int n, final int fieldSize, final boolean leftAligned, final boolean visible, final boolean b)
-    public JarCacheTableColumn(final String headerValue, final String str, final boolean resizable)
+def ():
+    '''returns JarCacheTableColumn\n\n
+    (final String headerValue, final String str, final int n, final int fieldSize, final boolean leftAligned, final boolean visible, final boolean b)\n
+    (final String headerValue, final String str, final boolean resizable)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean visible)
+    '''returns None\n\n
+    setVisible(final boolean visible)\n
     '''
 def getFieldSize():
-    '''public int getFieldSize()
+    '''returns int\n\n
+    getFieldSize()\n
     '''
 def setFieldSize():
-    '''public void setFieldSize(final int fieldSize)
+    '''returns None\n\n
+    setFieldSize(final int fieldSize)\n
     '''
 def isLeftAligned():
-    '''public boolean isLeftAligned()
+    '''returns boolean\n\n
+    isLeftAligned()\n
     '''
 def setLeftAligned():
-    '''public void setLeftAligned(final boolean leftAligned)
+    '''returns None\n\n
+    setLeftAligned(final boolean leftAligned)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText()
+    '''returns String\n\n
+    getToolTipText()\n
     '''
 def setToolTipText():
-    '''public void setToolTipText(final String toolTipText)
+    '''returns None\n\n
+    setToolTipText(final String toolTipText)\n
     '''

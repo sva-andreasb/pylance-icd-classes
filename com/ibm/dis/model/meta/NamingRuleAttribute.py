@@ -1,6 +1,8 @@
-def NamingRuleAttribute():
-    '''public NamingRuleAttribute(final String attributeName, final boolean isAllowed)
+def ():
+    '''returns NamingRuleAttribute\n\n
+    (final String attributeName, final boolean isAllowed)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

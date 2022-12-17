@@ -1,15 +1,17 @@
-def PlusCFldKFactorConfidLevel():
-    '''public PlusCFldKFactorConfidLevel(final MboValue mv)
+def ():
+    '''returns KFactorConfidLevelPair\n\n
+    (final MboValue mv)\n
+    (final Double kFactor, final Double confidLevel)\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
-    '''
-def KFactorConfidLevelPair():
-    '''public KFactorConfidLevelPair(final Double kFactor, final Double confidLevel)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''

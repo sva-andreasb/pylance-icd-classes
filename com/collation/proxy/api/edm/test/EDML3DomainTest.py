@@ -1,3 +1,4 @@
-def EDML3DomainTest():
-    '''public EDML3DomainTest(final String testName)
+def ():
+    '''returns EDML3DomainTest\n\n
+    (final String testName)\n
     '''

@@ -1,9 +1,12 @@
-def OslcInteractionGroupMemberSet():
-    '''public OslcInteractionGroupMemberSet(final MboServerInterface ms)
+def ():
+    '''returns OslcInteractionGroupMemberSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def fillInteraction():
-    '''public MboSetRemote fillInteraction()
+    '''returns MboSetRemote\n\n
+    fillInteraction()\n
     '''
 def fillGroupMembers():
-    '''public void fillGroupMembers(final MboSetRemote npSet)
+    '''returns None\n\n
+    fillGroupMembers(final MboSetRemote npSet)\n
     '''

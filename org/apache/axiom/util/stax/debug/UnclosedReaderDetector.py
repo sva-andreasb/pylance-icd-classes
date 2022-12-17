@@ -1,9 +1,9 @@
-def UnclosedReaderDetector():
-    '''public UnclosedReaderDetector(final XMLInputFactory parent)
-    '''
-def StreamReaderWrapper():
-    '''public StreamReaderWrapper(final XMLStreamReader parent)
+def ():
+    '''returns StreamReaderWrapper\n\n
+    (final XMLInputFactory parent)\n
+    (final XMLStreamReader parent)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

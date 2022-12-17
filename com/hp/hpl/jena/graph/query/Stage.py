@@ -1,15 +1,16 @@
-def Stage():
-    '''public Stage()
-    '''
-def initial():
-    '''public static Stage initial(final int count)
+def ():
+    '''returns Stage\n\n
+    ()\n
     '''
 def connectFrom():
-    '''public Stage connectFrom(final Stage s)
+    '''returns Stage\n\n
+    connectFrom(final Stage s)\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

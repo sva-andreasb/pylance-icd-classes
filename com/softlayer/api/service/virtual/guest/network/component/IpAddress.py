@@ -1,54 +1,72 @@
 def setIpAddress():
-    '''public void setIpAddress(final com.softlayer.api.service.network.subnet.IpAddress ipAddress)
+    '''returns None\n\n
+    setIpAddress(final com.softlayer.api.service.network.subnet.IpAddress ipAddress)\n
     '''
 def getNetworkComponent():
-    '''public Component getNetworkComponent()
+    '''returns Component\n\n
+    getNetworkComponent()\n
     '''
 def setNetworkComponent():
-    '''public void setNetworkComponent(final Component networkComponent)
+    '''returns None\n\n
+    setNetworkComponent(final Component networkComponent)\n
     '''
 def getIpAddressId():
-    '''public Long getIpAddressId()
+    '''returns Long\n\n
+    getIpAddressId()\n
     '''
 def setIpAddressId():
-    '''public void setIpAddressId(final Long ipAddressId)
+    '''returns None\n\n
+    setIpAddressId(final Long ipAddressId)\n
     '''
 def isIpAddressIdSpecified():
-    '''public boolean isIpAddressIdSpecified()
+    '''returns boolean\n\n
+    isIpAddressIdSpecified()\n
     '''
 def unsetIpAddressId():
-    '''public void unsetIpAddressId()
+    '''returns None\n\n
+    unsetIpAddressId()\n
     '''
 def getPort():
-    '''public Long getPort()
+    '''returns Long\n\n
+    getPort()\n
     '''
 def setPort():
-    '''public void setPort(final Long port)
+    '''returns None\n\n
+    setPort(final Long port)\n
     '''
 def isPortSpecified():
-    '''public boolean isPortSpecified()
+    '''returns boolean\n\n
+    isPortSpecified()\n
     '''
 def unsetPort():
-    '''public void unsetPort()
+    '''returns None\n\n
+    unsetPort()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def isTypeSpecified():
-    '''public boolean isTypeSpecified()
+    '''returns boolean\n\n
+    isTypeSpecified()\n
     '''
 def unsetType():
-    '''public void unsetType()
+    '''returns None\n\n
+    unsetType()\n
     '''
 def ipAddressId():
-    '''public Mask ipAddressId()
+    '''returns Mask\n\n
+    ipAddressId()\n
     '''
 def port():
-    '''public Mask port()
+    '''returns Mask\n\n
+    port()\n
     '''
 def type():
-    '''public Mask type()
+    '''returns Mask\n\n
+    type()\n
     '''

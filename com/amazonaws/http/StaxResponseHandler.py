@@ -1,9 +1,12 @@
-def StaxResponseHandler():
-    '''public StaxResponseHandler(final Unmarshaller<T, StaxUnmarshallerContext> responseUnmarshaller)
+def ():
+    '''returns StaxResponseHandler\n\n
+    (final Unmarshaller<T, StaxUnmarshallerContext> responseUnmarshaller)\n
     '''
 def handle():
-    '''public AmazonWebServiceResponse<T> handle(final HttpResponse response)
+    '''returns AmazonWebServiceResponse<T>\n\n
+    handle(final HttpResponse response)\n
     '''
 def needsConnectionLeftOpen():
-    '''public boolean needsConnectionLeftOpen()
+    '''returns boolean\n\n
+    needsConnectionLeftOpen()\n
     '''

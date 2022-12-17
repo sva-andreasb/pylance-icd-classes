@@ -1,21 +1,28 @@
-def SKDDataGroupInfoSet():
-    '''public SKDDataGroupInfoSet()
+def ():
+    '''returns SKDDataGroupInfoSet\n\n
+    ()\n
     '''
 def getGroupName():
-    '''public String getGroupName()
+    '''returns String\n\n
+    getGroupName()\n
     '''
 def setGroupName():
-    '''public void setGroupName(final String name)
+    '''returns None\n\n
+    setGroupName(final String name)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String name)
+    '''returns None\n\n
+    setTitle(final String name)\n
     '''
 def setSkdObjectName():
-    '''public void setSkdObjectName(final String name)
+    '''returns None\n\n
+    setSkdObjectName(final String name)\n
     '''
 def getSkdObjectName():
-    '''public String getSkdObjectName()
+    '''returns String\n\n
+    getSkdObjectName()\n
     '''

@@ -1,27 +1,36 @@
-def XMLJavaMappingRegistry():
-    '''public XMLJavaMappingRegistry()
+def ():
+    '''returns XMLJavaMappingRegistry\n\n
+    ()\n
     '''
 def mapTypes():
-    '''public void mapTypes(final String s, final QName value, final Class value2, final Serializer value3, final Deserializer value4)
+    '''returns None\n\n
+    mapTypes(final String s, final QName value, final Class value2, final Serializer value3, final Deserializer value4)\n
     '''
 def marshall():
-    '''public void marshall(final String s, final Class clazz, final Object o, final Object o2, final Writer writer, final NSStack nsStack, final SOAPContext soapContext)
+    '''returns None\n\n
+    marshall(final String s, final Class clazz, final Object o, final Object o2, final Writer writer, final NSStack nsStack, final SOAPContext soapContext)\n
     '''
 def queryDeserializer():
-    '''public Deserializer queryDeserializer(final QName obj, final String str)
+    '''returns Deserializer\n\n
+    queryDeserializer(final QName obj, final String str)\n
     '''
 def queryElementType():
-    '''public QName queryElementType(final Class clazz, final String str)
+    '''returns QName\n\n
+    queryElementType(final Class clazz, final String str)\n
     '''
 def queryJavaType():
-    '''public Class queryJavaType(final QName obj, final String str)
+    '''returns Class\n\n
+    queryJavaType(final QName obj, final String str)\n
     '''
 def querySerializer():
-    '''public Serializer querySerializer(final Class clazz, final String str)
+    '''returns Serializer\n\n
+    querySerializer(final Class clazz, final String str)\n
     '''
 def setDefaultEncodingStyle():
-    '''public void setDefaultEncodingStyle(final String defaultEncodingStyle)
+    '''returns None\n\n
+    setDefaultEncodingStyle(final String defaultEncodingStyle)\n
     '''
 def unmarshall():
-    '''public Bean unmarshall(final String s, final QName qName, final Node node, final SOAPContext soapContext)
+    '''returns Bean\n\n
+    unmarshall(final String s, final QName qName, final Node node, final SOAPContext soapContext)\n
     '''

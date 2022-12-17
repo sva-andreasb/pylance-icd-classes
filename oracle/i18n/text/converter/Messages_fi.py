@@ -1,6 +1,8 @@
-def Messages_fi():
-    '''public Messages_fi()
+def ():
+    '''returns Messages_fi\n\n
+    ()\n
     '''
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

@@ -1,24 +1,32 @@
-def Socks5BytestreamSession():
-    '''public Socks5BytestreamSession(final Socket socket, final boolean isDirect)
+def ():
+    '''returns Socks5BytestreamSession\n\n
+    (final Socket socket, final boolean isDirect)\n
     '''
 def isDirect():
-    '''public boolean isDirect()
+    '''returns boolean\n\n
+    isDirect()\n
     '''
 def isMediated():
-    '''public boolean isMediated()
+    '''returns boolean\n\n
+    isMediated()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getReadTimeout():
-    '''public int getReadTimeout()
+    '''returns int\n\n
+    getReadTimeout()\n
     '''
 def setReadTimeout():
-    '''public void setReadTimeout(final int timeout)
+    '''returns None\n\n
+    setReadTimeout(final int timeout)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

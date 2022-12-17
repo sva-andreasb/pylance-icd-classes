@@ -1,3 +1,4 @@
-def TargetAuthenticationStrategy():
-    '''public TargetAuthenticationStrategy()
+def ():
+    '''returns TargetAuthenticationStrategy\n\n
+    ()\n
     '''

@@ -1,3 +1,4 @@
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

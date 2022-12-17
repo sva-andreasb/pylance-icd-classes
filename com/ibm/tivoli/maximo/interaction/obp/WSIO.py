@@ -1,72 +1,92 @@
-def WSIO():
-    '''public WSIO()
+def ():
+    '''returns WSIO\n\n
+    ()\n
     '''
 def hasAttributes():
-    '''public boolean hasAttributes()
+    '''returns boolean\n\n
+    hasAttributes()\n
     '''
 def setSchemaType():
-    '''public void setSchemaType(final QName schemaType)
+    '''returns None\n\n
+    setSchemaType(final QName schemaType)\n
     '''
 def getSchemaType():
-    '''public QName getSchemaType()
+    '''returns QName\n\n
+    getSchemaType()\n
     '''
 def getWSIOAttributes():
-    '''public List<WSIOAttribute> getWSIOAttributes()
+    '''returns List<WSIOAttribute>\n\n
+    getWSIOAttributes()\n
     '''
 def getWSIOAttribute():
-    '''public WSIOAttribute getWSIOAttribute(final String attrName)
+    '''returns WSIOAttribute\n\n
+    getWSIOAttribute(final String attrName)\n
     '''
 def addWSIOAttribute():
-    '''public void addWSIOAttribute(final WSIOAttribute wsioAttribute)
+    '''returns None\n\n
+    addWSIOAttribute(final WSIOAttribute wsioAttribute)\n
     '''
 def getWSIOChildren():
-    '''public List<WSIO> getWSIOChildren()
+    '''returns List<WSIO>\n\n
+    getWSIOChildren()\n
     '''
 def addWSIOChild():
-    '''public void addWSIOChild(final WSIO wsioChild)
+    '''returns None\n\n
+    addWSIOChild(final WSIO wsioChild)\n
     '''
 def addWSIOChildren():
-    '''public void addWSIOChildren(final List<WSIO> addnlWsioChildren)
+    '''returns None\n\n
+    addWSIOChildren(final List<WSIO> addnlWsioChildren)\n
     '''
 def setWSIOChildren():
-    '''public void setWSIOChildren(final List<WSIO> wsioChildren)
+    '''returns None\n\n
+    setWSIOChildren(final List<WSIO> wsioChildren)\n
     '''
 def getMaxOccurs():
-    '''public int getMaxOccurs()
+    '''returns int\n\n
+    getMaxOccurs()\n
     '''
 def setMaxOccurs():
-    '''public void setMaxOccurs(final int maxOccurs)
+    '''returns None\n\n
+    setMaxOccurs(final int maxOccurs)\n
     '''
 def getParent():
-    '''public WSIO getParent()
+    '''returns WSIO\n\n
+    getParent()\n
     '''
 def getMinOccurs():
-    '''public int getMinOccurs()
+    '''returns int\n\n
+    getMinOccurs()\n
     '''
 def setMinOccurs():
-    '''public void setMinOccurs(final int minOccurs)
+    '''returns None\n\n
+    setMinOccurs(final int minOccurs)\n
     '''
 def canExclude():
-    '''public boolean canExclude()
+    '''returns boolean\n\n
+    canExclude()\n
     '''
 def isWrapper():
-    '''public boolean isWrapper()
+    '''returns boolean\n\n
+    isWrapper()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def isRoot():
-    '''public boolean isRoot()
+    '''returns boolean\n\n
+    isRoot()\n
     '''
 def hasSingleChild():
-    '''public boolean hasSingleChild()
+    '''returns boolean\n\n
+    hasSingleChild()\n
     '''
 def getFirstChild():
-    '''public WSIO getFirstChild()
+    '''returns WSIO\n\n
+    getFirstChild()\n
     '''
 def isMaxOccursUnbounded():
-    '''public boolean isMaxOccursUnbounded()
-    '''
-def getWSIOAttributesMap():
-    '''public Map<String, WSIOAttribute> getWSIOAttributesMap()
+    '''returns boolean\n\n
+    isMaxOccursUnbounded()\n
     '''

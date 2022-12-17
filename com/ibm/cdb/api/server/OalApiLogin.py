@@ -1,42 +1,51 @@
-def OalApiLogin():
-    '''public OalApiLogin()
-    public OalApiLogin(final String user, final String pass, final ApiPrincipal pr, final String clientIp, final long verison)
+def ():
+    '''returns OalApiLogin\n\n
+    ()\n
+    (final String user, final String pass, final ApiPrincipal pr, final String clientIp, final long verison)\n
     '''
 def init():
-    '''public void init(final long sess, final long version)
-    public void init(final ApiPrincipal pr, final String user, final String pass, final String clientIp, final long verison)
+    '''returns None\n\n
+    init(final long sess, final long version)\n
+    init(final ApiPrincipal pr, final String user, final String pass, final String clientIp, final long verison)\n
     '''
 def checkSessionId():
-    '''public ApiLoginInterface checkSessionId(final String sessionId)
+    '''returns ApiLoginInterface\n\n
+    checkSessionId(final String sessionId)\n
     '''
 def getTopoMgr():
-    '''public TopologyManager getTopoMgr(final TopologyManagerFactory tmf)
-    public TopologyManager getTopoMgr()
+    '''returns TopologyManager\n\n
+    getTopoMgr(final TopologyManagerFactory tmf)\n
+    getTopoMgr()\n
     '''
 def getSessionId():
-    '''public long getSessionId()
+    '''returns long\n\n
+    getSessionId()\n
     '''
 def getSession():
-    '''public SessionContext getSession()
+    '''returns SessionContext\n\n
+    getSession()\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def logout():
-    '''public void logout()
+    '''returns None\n\n
+    logout()\n
     '''
 def checkPermission():
-    '''public SessionContext checkPermission(final int type)
-    '''
-def ping():
-    '''public static boolean ping()
+    '''returns SessionContext\n\n
+    checkPermission(final int type)\n
     '''
 def getTxTimer():
-    '''public Timer getTxTimer()
+    '''returns Timer\n\n
+    getTxTimer()\n
     '''
 def setTxTimer():
-    '''public void setTxTimer(final Timer t)
+    '''returns None\n\n
+    setTxTimer(final Timer t)\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''

@@ -1,3 +1,4 @@
-def KeyUnavailableException():
-    '''public KeyUnavailableException(final String message)
+def ():
+    '''returns KeyUnavailableException\n\n
+    (final String message)\n
     '''

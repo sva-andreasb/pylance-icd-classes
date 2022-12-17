@@ -1,23 +1,30 @@
-def SiteCache():
-    '''public SiteCache()
+def ():
+    '''returns SiteCache\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
-    public void init(final MXServer mxs)
+    '''returns None\n\n
+    init()\n
+    init(final MXServer mxs)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOrgForSite():
-    '''public String getOrgForSite(String siteID, final UserInfo userInfo)
+    '''returns String\n\n
+    getOrgForSite(String siteID, final UserInfo userInfo)\n
     '''
 def getAllSites():
-    '''public Hashtable getAllSites()
+    '''returns Hashtable\n\n
+    getAllSites()\n
     '''
 def isActiveSite():
-    '''public boolean isActiveSite(final String siteID)
+    '''returns boolean\n\n
+    isActiveSite(final String siteID)\n
     '''

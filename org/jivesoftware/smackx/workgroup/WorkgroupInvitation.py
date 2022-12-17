@@ -1,25 +1,29 @@
-def WorkgroupInvitation():
-    '''public WorkgroupInvitation(final Jid jid, final Jid group, final Jid workgroup, final String sessID, final String msgBody, final Jid from)
-    public WorkgroupInvitation(final Jid jid, final Jid group, final Jid workgroup, final String sessID, final String msgBody, final Jid from, final Map<String, List<String>> metaData)
+def ():
+    '''returns WorkgroupInvitation\n\n
+    (final Jid jid, final Jid group, final Jid workgroup, final String sessID, final String msgBody, final Jid from)\n
+    (final Jid jid, final Jid group, final Jid workgroup, final String sessID, final String msgBody, final Jid from, final Map<String, List<String>> metaData)\n
     '''
 def getUniqueID():
-    '''public Jid getUniqueID()
+    '''returns Jid\n\n
+    getUniqueID()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getGroupChatName():
-    '''public Jid getGroupChatName()
+    '''returns Jid\n\n
+    getGroupChatName()\n
     '''
 def getWorkgroupName():
-    '''public Jid getWorkgroupName()
+    '''returns Jid\n\n
+    getWorkgroupName()\n
     '''
 def getMessageBody():
-    '''public String getMessageBody()
+    '''returns String\n\n
+    getMessageBody()\n
     '''
 def getInvitationSender():
-    '''public Jid getInvitationSender()
-    '''
-def getMetaData():
-    '''public Map<String, List<String>> getMetaData()
+    '''returns Jid\n\n
+    getInvitationSender()\n
     '''

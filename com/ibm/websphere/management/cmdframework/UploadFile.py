@@ -1,9 +1,12 @@
-def UploadFile():
-    '''public UploadFile(final String filePath)
+def ():
+    '''returns UploadFile\n\n
+    (final String filePath)\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

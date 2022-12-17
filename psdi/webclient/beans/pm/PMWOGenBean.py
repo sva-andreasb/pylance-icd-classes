@@ -1,9 +1,12 @@
 def dogenerate():
-    '''public int dogenerate()
+    '''returns int\n\n
+    dogenerate()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def beforedialogok():
-    '''public int beforedialogok()
+    '''returns int\n\n
+    beforedialogok()\n
     '''

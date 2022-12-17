@@ -1,4 +1,5 @@
-def WeightTableEntryOutOfRangeException():
-    '''public WeightTableEntryOutOfRangeException()
-    public WeightTableEntryOutOfRangeException(final String message)
+def ():
+    '''returns WeightTableEntryOutOfRangeException\n\n
+    ()\n
+    (final String message)\n
     '''

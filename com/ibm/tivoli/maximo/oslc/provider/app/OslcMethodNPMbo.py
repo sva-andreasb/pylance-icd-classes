@@ -1,3 +1,4 @@
-def OslcMethodNPMbo():
-    '''public OslcMethodNPMbo(final MboSet ms)
+def ():
+    '''returns OslcMethodNPMbo\n\n
+    (final MboSet ms)\n
     '''

@@ -1,59 +1,74 @@
-def TenantRegCache():
-    '''public TenantRegCache()
+def ():
+    '''returns TenantRegCache\n\n
+    ()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def tenantStartupRoutine():
-    '''public void tenantStartupRoutine()
+    '''returns None\n\n
+    tenantStartupRoutine()\n
     '''
 def hasTenant():
-    '''public boolean hasTenant(final int tenantID)
+    '''returns boolean\n\n
+    hasTenant(final int tenantID)\n
     '''
 def hasTenantSession():
-    '''public boolean hasTenantSession(final int tenantID)
+    '''returns boolean\n\n
+    hasTenantSession(final int tenantID)\n
     '''
 def setTenantSession():
-    '''public void setTenantSession(final int tenantID)
-    '''
-def getTenantSessions():
-    '''public Map<Integer, Integer> getTenantSessions()
+    '''returns None\n\n
+    setTenantSession(final int tenantID)\n
     '''
 def removeTenantSession():
-    '''public void removeTenantSession(final int tenantID)
+    '''returns None\n\n
+    removeTenantSession(final int tenantID)\n
     '''
 def getTenantIDFromTenantCode():
-    '''public int getTenantIDFromTenantCode(final String tenantCode)
+    '''returns int\n\n
+    getTenantIDFromTenantCode(final String tenantCode)\n
     '''
 def getTenantCode():
-    '''public String getTenantCode(final UserInfo info)
-    public String getTenantCode(final int id)
+    '''returns String\n\n
+    getTenantCode(final UserInfo info)\n
+    getTenantCode(final int id)\n
     '''
 def getTenantLoginId():
-    '''public String getTenantLoginId(final UserInfo info)
+    '''returns String\n\n
+    getTenantLoginId(final UserInfo info)\n
     '''
 def getPartNumber():
-    '''public String getPartNumber(final int id)
+    '''returns String\n\n
+    getPartNumber(final int id)\n
     '''
 def getDescription():
-    '''public String getDescription(final int id)
+    '''returns String\n\n
+    getDescription(final int id)\n
     '''
 def getSubscriptionID():
-    '''public long getSubscriptionID(final UserInfo info)
+    '''returns long\n\n
+    getSubscriptionID(final UserInfo info)\n
     '''
 def getCustomerID():
-    '''public long getCustomerID(final UserInfo info)
+    '''returns long\n\n
+    getCustomerID(final UserInfo info)\n
     '''
 def getStartTime():
-    '''public long getStartTime(final int id)
+    '''returns long\n\n
+    getStartTime(final int id)\n
     '''
 def getNumberOfSeats():
-    '''public long getNumberOfSeats(final UserInfo info)
+    '''returns long\n\n
+    getNumberOfSeats(final UserInfo info)\n
     '''

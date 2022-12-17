@@ -2,65 +2,72 @@ IS_THE_SAME_CLASS = "int  0"
 ON_DIFFERENT_INHERITANCE_PATH = "int  1"
 ON_LOWER_INHERITANCE_HIERARCHY = "int  2"
 ON_HIGHER_INHERITANCE_HIERARCHY = "int  3"
-def getInstance():
-    '''public static synchronized MetadataCache getInstance(final Connection conn)
-    public static synchronized MetadataCache getInstance(final Connection conn, final boolean forceRefresh)
-    '''
 def writeLock():
-    '''public void writeLock()
+    '''returns None\n\n
+    writeLock()\n
     '''
 def writeUnlock():
-    '''public void writeUnlock()
+    '''returns None\n\n
+    writeUnlock()\n
     '''
 def isRelated():
-    '''public int isRelated(final byte[] class1, final byte[] class2)
+    '''returns int\n\n
+    isRelated(final byte[] class1, final byte[] class2)\n
     '''
 def getDerivedClasses():
-    '''public Guid[] getDerivedClasses(final byte[] classGUID)
-    public ArrayList getDerivedClasses(final Guid classGUID)
+    '''returns ArrayList\n\n
+    getDerivedClasses(final byte[] classGUID)\n
+    getDerivedClasses(final Guid classGUID)\n
     '''
 def getAllClassTypes():
-    '''public HashMap[] getAllClassTypes()
+    '''returns HashMap[]\n\n
+    getAllClassTypes()\n
     '''
 def getClassType():
-    '''public HashMap[] getClassType(final Guid clazz)
-    '''
-def buildShortName():
-    '''public static String buildShortName(final String className)
-    '''
-def isDuplicateClass():
-    '''public static boolean isDuplicateClass(final String className)
+    '''returns HashMap[]\n\n
+    getClassType(final Guid clazz)\n
     '''
 def isValidClassType():
-    '''public boolean isValidClassType(final Guid classType)
+    '''returns boolean\n\n
+    isValidClassType(final Guid classType)\n
     '''
 def isDesiredClassType():
-    '''public boolean isDesiredClassType(final String classType)
+    '''returns boolean\n\n
+    isDesiredClassType(final String classType)\n
     '''
 def isDesiredRelationshipType():
-    '''public boolean isDesiredRelationshipType(final String relationship)
+    '''returns boolean\n\n
+    isDesiredRelationshipType(final String relationship)\n
     '''
 def isDesiredAttribute():
-    '''public boolean isDesiredAttribute(final String className, final String attName)
+    '''returns boolean\n\n
+    isDesiredAttribute(final String className, final String attName)\n
     '''
 def isValidDesiredAttributeType():
-    '''public boolean isValidDesiredAttributeType(final String attributeType)
+    '''returns boolean\n\n
+    isValidDesiredAttributeType(final String attributeType)\n
     '''
 def getParentsOfClass():
-    '''public ArrayList getParentsOfClass(final Guid classGUID)
+    '''returns ArrayList\n\n
+    getParentsOfClass(final Guid classGUID)\n
     '''
 def getParentsOfInterface():
-    '''public ArrayList getParentsOfInterface(final byte[] interfaceGUID)
+    '''returns ArrayList\n\n
+    getParentsOfInterface(final byte[] interfaceGUID)\n
     '''
 def isDerivedClass():
-    '''public boolean isDerivedClass(final Guid class1, final Guid class2)
+    '''returns boolean\n\n
+    isDerivedClass(final Guid class1, final Guid class2)\n
     '''
 def isValidInterfaceType():
-    '''public boolean isValidInterfaceType(final Guid interfaceGUID)
+    '''returns boolean\n\n
+    isValidInterfaceType(final Guid interfaceGUID)\n
     '''
 def getDesiredClasses():
-    '''public HashMap getDesiredClasses()
+    '''returns HashMap\n\n
+    getDesiredClasses()\n
     '''
 def getDesiredAttributes():
-    '''public HashMap getDesiredAttributes(final String className)
+    '''returns HashMap\n\n
+    getDesiredAttributes(final String className)\n
     '''

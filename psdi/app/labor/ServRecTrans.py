@@ -1,46 +1,61 @@
-def ServRecTrans():
-    '''public ServRecTrans(final MboSet ms)
+def ():
+    '''returns ServRecTrans\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def approve():
-    '''public void approve(final Date changeDate, final boolean fromLabTrans)
+    '''returns None\n\n
+    approve(final Date changeDate, final boolean fromLabTrans)\n
     '''
 def setServRecTransValues():
-    '''public void setServRecTransValues(final double quantity, final double unitCost, final double lineCost)
-    public void setServRecTransValues(final double quantity, final double unitCost, final double lineCost, final double exchangeRate)
+    '''returns None\n\n
+    setServRecTransValues(final double quantity, final double unitCost, final double lineCost)\n
+    setServRecTransValues(final double quantity, final double unitCost, final double lineCost, final double exchangeRate)\n
     '''
 def updateCompletedFields():
-    '''public void updateCompletedFields(Date changeDate)
+    '''returns None\n\n
+    updateCompletedFields(Date changeDate)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def calculateUnInvoicedQtyCost():
-    '''public double[] calculateUnInvoicedQtyCost()
+    '''returns double[]\n\n
+    calculateUnInvoicedQtyCost()\n
     '''
 def getReceiptStatus():
-    '''public String getReceiptStatus()
+    '''returns String\n\n
+    getReceiptStatus()\n
     '''
 def getPOLineUpdated():
-    '''public boolean getPOLineUpdated()
+    '''returns boolean\n\n
+    getPOLineUpdated()\n
     '''
 def setPOLineUpdated():
-    '''public void setPOLineUpdated()
+    '''returns None\n\n
+    setPOLineUpdated()\n
     '''
 def setWorkOrderUpdatedFlag():
-    '''public void setWorkOrderUpdatedFlag(final boolean updated)
+    '''returns None\n\n
+    setWorkOrderUpdatedFlag(final boolean updated)\n
     '''
 def getWorkOrderUpdatedFlag():
-    '''public boolean getWorkOrderUpdatedFlag()
+    '''returns boolean\n\n
+    getWorkOrderUpdatedFlag()\n
     '''

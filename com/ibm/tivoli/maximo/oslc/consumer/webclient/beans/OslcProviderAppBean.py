@@ -1,3 +1,4 @@
 def MIGRATE():
-    '''public int MIGRATE()
+    '''returns int\n\n
+    MIGRATE()\n
     '''

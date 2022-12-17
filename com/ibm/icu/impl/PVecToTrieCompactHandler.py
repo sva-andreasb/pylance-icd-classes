@@ -1,12 +1,16 @@
 def setRowIndexForErrorValue():
-    '''public void setRowIndexForErrorValue(final int rowIndex)
+    '''returns None\n\n
+    setRowIndexForErrorValue(final int rowIndex)\n
     '''
 def setRowIndexForInitialValue():
-    '''public void setRowIndexForInitialValue(final int rowIndex)
+    '''returns None\n\n
+    setRowIndexForInitialValue(final int rowIndex)\n
     '''
 def setRowIndexForRange():
-    '''public void setRowIndexForRange(final int start, final int end, final int rowIndex)
+    '''returns None\n\n
+    setRowIndexForRange(final int start, final int end, final int rowIndex)\n
     '''
 def startRealValues():
-    '''public void startRealValues(final int rowIndex)
+    '''returns None\n\n
+    startRealValues(final int rowIndex)\n
     '''

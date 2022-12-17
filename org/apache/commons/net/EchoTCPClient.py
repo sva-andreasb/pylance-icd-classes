@@ -1,7 +1,9 @@
 DEFAULT_PORT = "int  7"
-def EchoTCPClient():
-    '''public EchoTCPClient()
+def ():
+    '''returns EchoTCPClient\n\n
+    ()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''

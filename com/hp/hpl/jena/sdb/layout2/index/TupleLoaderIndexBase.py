@@ -1,12 +1,16 @@
-def TupleLoaderIndexBase():
-    '''public TupleLoaderIndexBase(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+def ():
+    '''returns TupleLoaderIndexBase\n\n
+    (final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)\n
     '''
 def getLoadTuples():
-    '''public String getLoadTuples()
+    '''returns String\n\n
+    getLoadTuples()\n
     '''
 def getDeleteTuples():
-    '''public String getDeleteTuples()
+    '''returns String\n\n
+    getDeleteTuples()\n
     '''
 def getDeleteAllTuples():
-    '''public String getDeleteAllTuples()
+    '''returns String\n\n
+    getDeleteAllTuples()\n
     '''

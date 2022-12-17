@@ -1,51 +1,60 @@
-def SCCDCometDChatService():
-    '''public SCCDCometDChatService()
-    '''
-def getInstance():
-    '''public static synchronized SCCDCometDChatService getInstance()
+def ():
+    '''returns SCCDCometDChatService\n\n
+    ()\n
     '''
 def handleAbandonedChat():
-    '''public void handleAbandonedChat(final ServerSession client, final ServerMessage message)
+    '''returns None\n\n
+    handleAbandonedChat(final ServerSession client, final ServerMessage message)\n
     '''
 def updateServerQueue():
-    '''public void updateServerQueue(final ServerSession client, final ServerMessage message)
+    '''returns None\n\n
+    updateServerQueue(final ServerSession client, final ServerMessage message)\n
     '''
 def requestNextAgent():
-    '''public void requestNextAgent(final ServerSession client, final ServerMessage message)
+    '''returns None\n\n
+    requestNextAgent(final ServerSession client, final ServerMessage message)\n
     '''
 def requestWaitQueueInfo():
-    '''public void requestWaitQueueInfo(final ServerSession client, final ServerMessage message)
+    '''returns None\n\n
+    requestWaitQueueInfo(final ServerSession client, final ServerMessage message)\n
     '''
 def notifyAgentReady():
-    '''public void notifyAgentReady(final ServerSession client, final ServerMessage message)
+    '''returns None\n\n
+    notifyAgentReady(final ServerSession client, final ServerMessage message)\n
     '''
 def registerHost():
-    '''public void registerHost(final String URL)
+    '''returns None\n\n
+    registerHost(final String URL)\n
     '''
 def getOortCloud():
-    '''public ArrayList<String> getOortCloud(final String URL)
+    '''returns ArrayList<String>\n\n
+    getOortCloud(final String URL)\n
     '''
 def configureCloud():
-    '''public void configureCloud(final ArrayList<String> comets)
+    '''returns None\n\n
+    configureCloud(final ArrayList<String> comets)\n
     '''
 def notifyLeaveChatDirect():
-    '''public void notifyLeaveChatDirect(final String clientID)
+    '''returns None\n\n
+    notifyLeaveChatDirect(final String clientID)\n
     '''
 def chatSession():
-    '''public void chatSession(final ServerSession client, final ServerMessage message)
-    '''
-def getTimeMap():
-    '''public ConcurrentHashMap<String, Long> getTimeMap()
+    '''returns None\n\n
+    chatSession(final ServerSession client, final ServerMessage message)\n
     '''
 def isChatAgent():
-    '''public boolean isChatAgent(final String personID)
+    '''returns boolean\n\n
+    isChatAgent(final String personID)\n
     '''
 def canUserChatOnChannel():
-    '''public boolean canUserChatOnChannel(final String channelID, final String sessionPersonID)
+    '''returns boolean\n\n
+    canUserChatOnChannel(final String channelID, final String sessionPersonID)\n
     '''
 def addUsersToChatChannel():
-    '''public void addUsersToChatChannel(final String channel, final String agentPersonID, final String userPersonID)
+    '''returns None\n\n
+    addUsersToChatChannel(final String channel, final String agentPersonID, final String userPersonID)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

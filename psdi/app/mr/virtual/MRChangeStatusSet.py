@@ -1,3 +1,4 @@
-def MRChangeStatusSet():
-    '''public MRChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns MRChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

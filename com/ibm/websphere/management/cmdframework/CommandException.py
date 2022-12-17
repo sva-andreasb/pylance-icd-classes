@@ -1,5 +1,6 @@
-def CommandException():
-    '''public CommandException(final String msg)
-    public CommandException(final Throwable th, final String msg)
-    public CommandException(final Throwable th)
+def ():
+    '''returns CommandException\n\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

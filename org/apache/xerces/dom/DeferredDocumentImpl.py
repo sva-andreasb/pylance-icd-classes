@@ -1,160 +1,208 @@
-def DeferredDocumentImpl():
-    '''public DeferredDocumentImpl()
-    public DeferredDocumentImpl(final boolean b)
-    public DeferredDocumentImpl(final boolean fNamespacesEnabled, final boolean b)
+def ():
+    '''returns DeferredDocumentImpl\n\n
+    ()\n
+    (final boolean b)\n
+    (final boolean fNamespacesEnabled, final boolean b)\n
     '''
 def getImplementation():
-    '''public DOMImplementation getImplementation()
+    '''returns DOMImplementation\n\n
+    getImplementation()\n
     '''
 def createDeferredDocument():
-    '''public int createDeferredDocument()
+    '''returns int\n\n
+    createDeferredDocument()\n
     '''
 def createDeferredDocumentType():
-    '''public int createDeferredDocumentType(final String s, final String s2, final String s3)
+    '''returns int\n\n
+    createDeferredDocumentType(final String s, final String s2, final String s3)\n
     '''
 def setInternalSubset():
-    '''public void setInternalSubset(final int n, final String s)
+    '''returns None\n\n
+    setInternalSubset(final int n, final String s)\n
     '''
 def createDeferredNotation():
-    '''public int createDeferredNotation(final String s, final String s2, final String s3, final String s4)
+    '''returns int\n\n
+    createDeferredNotation(final String s, final String s2, final String s3, final String s4)\n
     '''
 def createDeferredEntity():
-    '''public int createDeferredEntity(final String s, final String s2, final String s3, final String s4, final String s5)
+    '''returns int\n\n
+    createDeferredEntity(final String s, final String s2, final String s3, final String s4, final String s5)\n
     '''
 def getDeferredEntityBaseURI():
-    '''public String getDeferredEntityBaseURI(final int n)
+    '''returns String\n\n
+    getDeferredEntityBaseURI(final int n)\n
     '''
 def setEntityInfo():
-    '''public void setEntityInfo(final int n, final String s, final String s2)
+    '''returns None\n\n
+    setEntityInfo(final int n, final String s, final String s2)\n
     '''
 def setTypeInfo():
-    '''public void setTypeInfo(final int n, final Object o)
+    '''returns None\n\n
+    setTypeInfo(final int n, final Object o)\n
     '''
 def setInputEncoding():
-    '''public void setInputEncoding(final int n, final String s)
+    '''returns None\n\n
+    setInputEncoding(final int n, final String s)\n
     '''
 def createDeferredEntityReference():
-    '''public int createDeferredEntityReference(final String s, final String s2)
+    '''returns int\n\n
+    createDeferredEntityReference(final String s, final String s2)\n
     '''
 def createDeferredElement():
-    '''public int createDeferredElement(final String s, final String s2, final Object o)
-    public int createDeferredElement(final String s)
-    public int createDeferredElement(final String s, final String s2)
+    '''returns int\n\n
+    createDeferredElement(final String s, final String s2, final Object o)\n
+    createDeferredElement(final String s)\n
+    createDeferredElement(final String s, final String s2)\n
     '''
 def setDeferredAttribute():
-    '''public int setDeferredAttribute(final int n, final String s, final String s2, final String s3, final boolean b, final boolean b2, final Object o)
-    public int setDeferredAttribute(final int n, final String s, final String s2, final String s3, final boolean b)
+    '''returns int\n\n
+    setDeferredAttribute(final int n, final String s, final String s2, final String s3, final boolean b, final boolean b2, final Object o)\n
+    setDeferredAttribute(final int n, final String s, final String s2, final String s3, final boolean b)\n
     '''
 def createDeferredAttribute():
-    '''public int createDeferredAttribute(final String s, final String s2, final boolean b)
-    public int createDeferredAttribute(final String s, final String s2, final String s3, final boolean b)
+    '''returns int\n\n
+    createDeferredAttribute(final String s, final String s2, final boolean b)\n
+    createDeferredAttribute(final String s, final String s2, final String s3, final boolean b)\n
     '''
 def createDeferredElementDefinition():
-    '''public int createDeferredElementDefinition(final String s)
+    '''returns int\n\n
+    createDeferredElementDefinition(final String s)\n
     '''
 def createDeferredTextNode():
-    '''public int createDeferredTextNode(final String s, final boolean b)
+    '''returns int\n\n
+    createDeferredTextNode(final String s, final boolean b)\n
     '''
 def createDeferredCDATASection():
-    '''public int createDeferredCDATASection(final String s)
+    '''returns int\n\n
+    createDeferredCDATASection(final String s)\n
     '''
 def createDeferredProcessingInstruction():
-    '''public int createDeferredProcessingInstruction(final String s, final String s2)
+    '''returns int\n\n
+    createDeferredProcessingInstruction(final String s, final String s2)\n
     '''
 def createDeferredComment():
-    '''public int createDeferredComment(final String s)
+    '''returns int\n\n
+    createDeferredComment(final String s)\n
     '''
 def cloneNode():
-    '''public int cloneNode(final int n, final boolean b)
+    '''returns int\n\n
+    cloneNode(final int n, final boolean b)\n
     '''
 def appendChild():
-    '''public void appendChild(final int n, final int n2)
+    '''returns None\n\n
+    appendChild(final int n, final int n2)\n
     '''
 def setAttributeNode():
-    '''public int setAttributeNode(final int n, final int n2)
+    '''returns int\n\n
+    setAttributeNode(final int n, final int n2)\n
     '''
 def setIdAttributeNode():
-    '''public void setIdAttributeNode(final int n, final int n2)
+    '''returns None\n\n
+    setIdAttributeNode(final int n, final int n2)\n
     '''
 def setIdAttribute():
-    '''public void setIdAttribute(final int n)
+    '''returns None\n\n
+    setIdAttribute(final int n)\n
     '''
 def insertBefore():
-    '''public int insertBefore(final int n, final int n2, final int n3)
+    '''returns int\n\n
+    insertBefore(final int n, final int n2, final int n3)\n
     '''
 def setAsLastChild():
-    '''public void setAsLastChild(final int n, final int n2)
+    '''returns None\n\n
+    setAsLastChild(final int n, final int n2)\n
     '''
 def getParentNode():
-    '''public int getParentNode(final int n)
-    public int getParentNode(final int n, final boolean b)
+    '''returns int\n\n
+    getParentNode(final int n)\n
+    getParentNode(final int n, final boolean b)\n
     '''
 def getLastChild():
-    '''public int getLastChild(final int n)
-    public int getLastChild(final int n, final boolean b)
+    '''returns int\n\n
+    getLastChild(final int n)\n
+    getLastChild(final int n, final boolean b)\n
     '''
 def getPrevSibling():
-    '''public int getPrevSibling(final int n)
-    public int getPrevSibling(int n, final boolean b)
+    '''returns int\n\n
+    getPrevSibling(final int n)\n
+    getPrevSibling(int n, final boolean b)\n
     '''
 def getRealPrevSibling():
-    '''public int getRealPrevSibling(final int n)
-    public int getRealPrevSibling(final int n, final boolean b)
+    '''returns int\n\n
+    getRealPrevSibling(final int n)\n
+    getRealPrevSibling(final int n, final boolean b)\n
     '''
 def lookupElementDefinition():
-    '''public int lookupElementDefinition(final String s)
+    '''returns int\n\n
+    lookupElementDefinition(final String s)\n
     '''
 def getNodeObject():
-    '''public DeferredNode getNodeObject(final int n)
+    '''returns DeferredNode\n\n
+    getNodeObject(final int n)\n
     '''
 def getNodeName():
-    '''public String getNodeName(final int n)
-    public String getNodeName(final int n, final boolean b)
+    '''returns String\n\n
+    getNodeName(final int n)\n
+    getNodeName(final int n, final boolean b)\n
     '''
 def getNodeValueString():
-    '''public String getNodeValueString(final int n)
-    public String getNodeValueString(final int n, final boolean b)
+    '''returns String\n\n
+    getNodeValueString(final int n)\n
+    getNodeValueString(final int n, final boolean b)\n
     '''
 def getNodeValue():
-    '''public String getNodeValue(final int n)
-    public String getNodeValue(final int n, final boolean b)
+    '''returns String\n\n
+    getNodeValue(final int n)\n
+    getNodeValue(final int n, final boolean b)\n
     '''
 def getTypeInfo():
-    '''public Object getTypeInfo(final int n)
+    '''returns Object\n\n
+    getTypeInfo(final int n)\n
     '''
 def getNodeExtra():
-    '''public int getNodeExtra(final int n)
-    public int getNodeExtra(final int n, final boolean b)
+    '''returns int\n\n
+    getNodeExtra(final int n)\n
+    getNodeExtra(final int n, final boolean b)\n
     '''
 def getNodeType():
-    '''public short getNodeType(final int n)
-    public short getNodeType(final int n, final boolean b)
+    '''returns short\n\n
+    getNodeType(final int n)\n
+    getNodeType(final int n, final boolean b)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final int n, final String s)
+    '''returns String\n\n
+    getAttribute(final int n, final String s)\n
     '''
 def getNodeURI():
-    '''public String getNodeURI(final int n)
-    public String getNodeURI(final int n, final boolean b)
+    '''returns String\n\n
+    getNodeURI(final int n)\n
+    getNodeURI(final int n, final boolean b)\n
     '''
 def putIdentifier():
-    '''public void putIdentifier(final String s, final int n)
+    '''returns None\n\n
+    putIdentifier(final String s, final int n)\n
     '''
 def print():
-    '''public void print()
+    '''returns None\n\n
+    print()\n
     '''
 def getNodeIndex():
-    '''public int getNodeIndex()
+    '''returns int\n\n
+    getNodeIndex()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def elementAt():
-    '''public int elementAt(final int n)
+    '''returns int\n\n
+    elementAt(final int n)\n
     '''
 def addElement():
-    '''public void addElement(final int n)
+    '''returns None\n\n
+    addElement(final int n)\n
     '''
 def removeAllElements():
-    '''public void removeAllElements()
+    '''returns None\n\n
+    removeAllElements()\n
     '''

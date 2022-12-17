@@ -1,12 +1,8 @@
-def getInstance():
-    '''public static final JSONMapperCache getInstance()
-    '''
-def getAllMaps():
-    '''public Map<String, JSONMapInfo> getAllMaps()
-    '''
 def getMapInfo():
-    '''public JSONMapInfo getMapInfo(final String mapName)
+    '''returns JSONMapInfo\n\n
+    getMapInfo(final String mapName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

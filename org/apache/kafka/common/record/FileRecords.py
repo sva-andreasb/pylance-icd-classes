@@ -1,81 +1,93 @@
-def FileRecords():
-    '''public FileRecords(final File file, final FileChannel channel, final int start, final int end, final boolean isSlice)
+def ():
+    '''returns TimestampAndOffset\n\n
+    (final File file, final FileChannel channel, final int start, final int end, final boolean isSlice)\n
+    (final long offset, final int position, final int size)\n
+    (final long timestamp, final long offset)\n
     '''
 def sizeInBytes():
-    '''public int sizeInBytes()
+    '''returns int\n\n
+    sizeInBytes()\n
     '''
 def file():
-    '''public File file()
+    '''returns File\n\n
+    file()\n
     '''
 def channel():
-    '''public FileChannel channel()
+    '''returns FileChannel\n\n
+    channel()\n
     '''
 def readInto():
-    '''public ByteBuffer readInto(final ByteBuffer buffer, final int position)
+    '''returns ByteBuffer\n\n
+    readInto(final ByteBuffer buffer, final int position)\n
     '''
 def read():
-    '''public FileRecords read(final int position, final int size)
+    '''returns FileRecords\n\n
+    read(final int position, final int size)\n
     '''
 def append():
-    '''public int append(final MemoryRecords records)
+    '''returns int\n\n
+    append(final MemoryRecords records)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def closeHandlers():
-    '''public void closeHandlers()
+    '''returns None\n\n
+    closeHandlers()\n
     '''
 def deleteIfExists():
-    '''public boolean deleteIfExists()
+    '''returns boolean\n\n
+    deleteIfExists()\n
     '''
 def trim():
-    '''public void trim()
+    '''returns None\n\n
+    trim()\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def renameTo():
-    '''public void renameTo(final File f)
+    '''returns None\n\n
+    renameTo(final File f)\n
     '''
 def truncateTo():
-    '''public int truncateTo(final int targetSize)
+    '''returns int\n\n
+    truncateTo(final int targetSize)\n
     '''
 def writeTo():
-    '''public long writeTo(final GatheringByteChannel destChannel, final long offset, final int length)
+    '''returns long\n\n
+    writeTo(final GatheringByteChannel destChannel, final long offset, final int length)\n
     '''
 def searchForOffsetWithSize():
-    '''public LogOffsetPosition searchForOffsetWithSize(final long targetOffset, final int startingPosition)
+    '''returns LogOffsetPosition\n\n
+    searchForOffsetWithSize(final long targetOffset, final int startingPosition)\n
     '''
 def searchForTimestamp():
-    '''public TimestampAndOffset searchForTimestamp(final long targetTimestamp, final int startingPosition, final long startingOffset)
+    '''returns TimestampAndOffset\n\n
+    searchForTimestamp(final long targetTimestamp, final int startingPosition, final long startingOffset)\n
     '''
 def largestTimestampAfter():
-    '''public TimestampAndOffset largestTimestampAfter(final int startingPosition)
-    '''
-def open():
-    '''public static FileRecords open(final File file, final boolean mutable, final boolean fileAlreadyExists, final int initFileSize, final boolean preallocate)
-    public static FileRecords open(final File file, final boolean fileAlreadyExists, final int initFileSize, final boolean preallocate)
-    public static FileRecords open(final File file, final boolean mutable)
-    public static FileRecords open(final File file)
-    '''
-def LogOffsetPosition():
-    '''public LogOffsetPosition(final long offset, final int position, final int size)
+    '''returns TimestampAndOffset\n\n
+    largestTimestampAfter(final int startingPosition)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def TimestampAndOffset():
-    '''public TimestampAndOffset(final long timestamp, final long offset)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

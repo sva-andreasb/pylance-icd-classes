@@ -1,24 +1,32 @@
-def RelationRules():
-    '''public RelationRules(final MboSet ms)
+def ():
+    '''returns RelationRules\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def clearSourceClassification():
-    '''public void clearSourceClassification()
+    '''returns None\n\n
+    clearSourceClassification()\n
     '''
 def clearTargetClassification():
-    '''public void clearTargetClassification()
+    '''returns None\n\n
+    clearTargetClassification()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

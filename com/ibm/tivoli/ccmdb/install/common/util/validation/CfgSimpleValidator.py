@@ -1,0 +1,7 @@
+VALID_MAXIMO_CHARACTER_PATTERN = "String  \"[a-zA-Z0-9@\\\\.\\$\\-_]*\""
+VALID_MAXIMO_CHARACTER_DISPLAY = "String  \"a-zA-Z0-9@\\.$-_\""
+VALID_WAS_CHARACTER_PATTERN = "String  \"[a-zA-Z0-9!()\\-\\.?\\[\\]_`~]*\""
+VALID_WAS_CHARACTER_DISPLAY = "String  \"a-zA-Z0-9!()-.?[]_`~\""
+VALID_ORACLE_CHARACTER_PATTERN = "String  \"[a-zA-Z0-9_$#]*\""
+VALID_ORACLE_START_PATTERN = "String  \"^[a-zA-Z].*\""
+VALID_ORACLE_CHARACTER_DISPLAY = "String  \"a-zA-Z0-9_$#\""

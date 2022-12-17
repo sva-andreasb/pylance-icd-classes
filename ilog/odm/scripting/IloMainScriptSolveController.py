@@ -1,22 +1,29 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloMainScriptSolveController():
-    '''public IloMainScriptSolveController(final IloOplModel masterModel)
+def ():
+    '''returns IloMainScriptSolveController\n\n
+    (final IloOplModel masterModel)\n
     '''
 def generate():
-    '''public boolean generate(final IloOplModel subModel)
+    '''returns boolean\n\n
+    generate(final IloOplModel subModel)\n
     '''
 def solve():
-    '''public boolean solve(final IloOplModel subModel)
+    '''returns boolean\n\n
+    solve(final IloOplModel subModel)\n
     '''
 def getScenario():
-    '''public IloScenario getScenario()
+    '''returns IloScenario\n\n
+    getScenario()\n
     '''
 def publishCurrentResults():
-    '''public void publishCurrentResults()
+    '''returns None\n\n
+    publishCurrentResults()\n
     '''
 def getApplicationContext():
-    '''public IloApplicationContext getApplicationContext()
+    '''returns IloApplicationContext\n\n
+    getApplicationContext()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

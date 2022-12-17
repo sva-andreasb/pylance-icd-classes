@@ -1,39 +1,52 @@
-def DBQueryHandler():
-    '''public DBQueryHandler(final GraphRDB graph)
+def ():
+    '''returns DBQueryHandler\n\n
+    (final GraphRDB graph)\n
     '''
 def setDoFastpath():
-    '''public void setDoFastpath(final boolean val)
+    '''returns None\n\n
+    setDoFastpath(final boolean val)\n
     '''
 def getDoFastpath():
-    '''public boolean getDoFastpath()
+    '''returns boolean\n\n
+    getDoFastpath()\n
     '''
 def setDoImplicitJoin():
-    '''public void setDoImplicitJoin(final boolean val)
+    '''returns None\n\n
+    setDoImplicitJoin(final boolean val)\n
     '''
 def patternStage():
-    '''public Stage patternStage(final Mapping varMap, final ExpressionSet constraints, final Triple[] givenTriples)
+    '''returns Stage\n\n
+    patternStage(final Mapping varMap, final ExpressionSet constraints, final Triple[] givenTriples)\n
     '''
 def setQueryOnlyAsserted():
-    '''public void setQueryOnlyAsserted(final boolean opt)
+    '''returns None\n\n
+    setQueryOnlyAsserted(final boolean opt)\n
     '''
 def getQueryOnlyAsserted():
-    '''public boolean getQueryOnlyAsserted()
+    '''returns boolean\n\n
+    getQueryOnlyAsserted()\n
     '''
 def setQueryOnlyReified():
-    '''public void setQueryOnlyReified(final boolean opt)
+    '''returns None\n\n
+    setQueryOnlyReified(final boolean opt)\n
     '''
 def getQueryOnlyReified():
-    '''public boolean getQueryOnlyReified()
+    '''returns boolean\n\n
+    getQueryOnlyReified()\n
     '''
 def setQueryFullReified():
-    '''public void setQueryFullReified(final boolean opt)
+    '''returns None\n\n
+    setQueryFullReified(final boolean opt)\n
     '''
 def getQueryFullReified():
-    '''public boolean getQueryFullReified()
+    '''returns boolean\n\n
+    getQueryFullReified()\n
     '''
 def connectFrom():
-    '''public Stage connectFrom(Stage s)
+    '''returns Stage\n\n
+    connectFrom(Stage s)\n
     '''
 def deliver():
-    '''public Pipe deliver(final Pipe L)
+    '''returns Pipe\n\n
+    deliver(final Pipe L)\n
     '''

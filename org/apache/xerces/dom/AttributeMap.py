@@ -1,15 +1,20 @@
 def setNamedItem():
-    '''public Node setNamedItem(final Node node)
+    '''returns Node\n\n
+    setNamedItem(final Node node)\n
     '''
 def setNamedItemNS():
-    '''public Node setNamedItemNS(final Node node)
+    '''returns Node\n\n
+    setNamedItemNS(final Node node)\n
     '''
 def removeNamedItem():
-    '''public Node removeNamedItem(final String s)
+    '''returns Node\n\n
+    removeNamedItem(final String s)\n
     '''
 def removeNamedItemNS():
-    '''public Node removeNamedItemNS(final String s, final String s2)
+    '''returns Node\n\n
+    removeNamedItemNS(final String s, final String s2)\n
     '''
 def cloneMap():
-    '''public NamedNodeMapImpl cloneMap(final NodeImpl nodeImpl)
+    '''returns NamedNodeMapImpl\n\n
+    cloneMap(final NodeImpl nodeImpl)\n
     '''

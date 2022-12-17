@@ -1,6 +1,8 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''

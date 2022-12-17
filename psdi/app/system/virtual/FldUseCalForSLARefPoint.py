@@ -1,3 +1,4 @@
-def FldUseCalForSLARefPoint():
-    '''public FldUseCalForSLARefPoint(final MboValue mbv)
+def ():
+    '''returns FldUseCalForSLARefPoint\n\n
+    (final MboValue mbv)\n
     '''

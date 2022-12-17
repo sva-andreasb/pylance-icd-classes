@@ -1,69 +1,80 @@
-def NPXControllerAgentImpl():
-    '''public NPXControllerAgentImpl()
+def ():
+    '''returns NPXControllerAgentImpl\n\n
+    ()\n
     '''
 def writeToLogStream():
-    '''public void writeToLogStream(final JSONArray jsonArray, final int i, final int n)
+    '''returns None\n\n
+    writeToLogStream(final JSONArray jsonArray, final int i, final int n)\n
     '''
 def fetchConfigNPX():
-    '''public String fetchConfigNPX(final String s, final int i, final int j)
+    '''returns String\n\n
+    fetchConfigNPX(final String s, final int i, final int j)\n
     '''
 def lookupOverNetwork():
-    '''public void lookupOverNetwork(final ControlDataSourceImpl controlDataSourceImpl)
+    '''returns None\n\n
+    lookupOverNetwork(final ControlDataSourceImpl controlDataSourceImpl)\n
     '''
 def registerDriverOverNetwork():
-    '''public void registerDriverOverNetwork(final Map<String, Object> map, final String s, final String s2, final long n)
+    '''returns None\n\n
+    registerDriverOverNetwork(final Map<String, Object> map, final String s, final String s2, final long n)\n
     '''
 def getControllerInfo():
-    '''public void getControllerInfo(final StringBuilder sb)
+    '''returns None\n\n
+    getControllerInfo(final StringBuilder sb)\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def registerMonitorDataSource():
-    '''public void registerMonitorDataSource(final String s, final String s2, final String[] array, final int n, final String s3, final String[] array2, final int n2, final int n3, final int n4, final int n5, final boolean b, final int[] array3, final String[] array4, final String s4, final int n6, final int n7)
+    '''returns None\n\n
+    registerMonitorDataSource(final String s, final String s2, final String[] array, final int n, final String s3, final String[] array2, final int n2, final int n3, final int n4, final int n5, final boolean b, final int[] array3, final String[] array4, final String s4, final int n6, final int n7)\n
     '''
 def deregisterMonitorDataSource():
-    '''public void deregisterMonitorDataSource(final String s, final String s2, final int n, final String s3, final String s4, final int n2)
+    '''returns None\n\n
+    deregisterMonitorDataSource(final String s, final String s2, final int n, final String s3, final String s4, final int n2)\n
     '''
 def sendDeregisterDriver():
-    '''public void sendDeregisterDriver(final String s)
+    '''returns None\n\n
+    sendDeregisterDriver(final String s)\n
     '''
 def sendDeregisterDataSource():
-    '''public void sendDeregisterDataSource(final String s)
+    '''returns None\n\n
+    sendDeregisterDataSource(final String s)\n
     '''
 def sendAndReceiveChainedMessages():
-    '''public void sendAndReceiveChainedMessages(final ArrayList<ControlDriver.RequestInfo> list)
+    '''returns None\n\n
+    sendAndReceiveChainedMessages(final ArrayList<ControlDriver.RequestInfo> list)\n
     '''
 def logLookup():
-    '''public void logLookup(final String s, final String s2, final String s3, final String s4, final String s5, final String s6, final String[] array, final String[] array2, final String[] array3, final String[] array4, final String[] array5)
+    '''returns None\n\n
+    logLookup(final String s, final String s2, final String s3, final String s4, final String s5, final String s6, final String[] array, final String[] array2, final String[] array3, final String[] array4, final String[] array5)\n
     '''
 def logStatistics():
-    '''public void logStatistics(final String s, final String s2, final String s3, final String s4, final String[] array, final String[] array2, final String[] array3, final Set<ClientInfo>[] array4, final HashMap<String, TransportPoolStatistics> hashMap, final long[][] array5, final Long[] array6, final Object[][] array7, final String[] array8, final String[] array9, final String[] array10, final String[] array11, final long[][] array12)
+    '''returns None\n\n
+    logStatistics(final String s, final String s2, final String s3, final String s4, final String[] array, final String[] array2, final String[] array3, final Set<ClientInfo>[] array4, final HashMap<String, TransportPoolStatistics> hashMap, final long[][] array5, final Long[] array6, final Object[][] array7, final String[] array8, final String[] array9, final String[] array10, final String[] array11, final long[][] array12)\n
     '''
 def logPushDownErrors():
-    '''public void logPushDownErrors(final String s, final String s2, final String s3, final MonitorInterface.ClientRuntime clientRuntime, final ArrayList<PushDownError> list)
+    '''returns None\n\n
+    logPushDownErrors(final String s, final String s2, final String s3, final MonitorInterface.ClientRuntime clientRuntime, final ArrayList<PushDownError> list)\n
     '''
 def logApplicationException():
-    '''public void logApplicationException(final String s, final String s2, final String s3, final MonitorInterface.ClientRuntime clientRuntime, final SQLException ex)
+    '''returns None\n\n
+    logApplicationException(final String s, final String s2, final String s3, final MonitorInterface.ClientRuntime clientRuntime, final SQLException ex)\n
     '''
 def logPushDownApplication():
-    '''public void logPushDownApplication(final String s, final String s2, final Map<String, Object> map, final String s3, final String s4, final String s5, final String s6, final String[] array, final Map<String, Object>[] array2, final String[] array3, final String[] array4, final String[] array5, final String[] array6, final HashMap<String, String>[] array7)
+    '''returns None\n\n
+    logPushDownApplication(final String s, final String s2, final Map<String, Object> map, final String s3, final String s4, final String s5, final String s6, final String[] array, final Map<String, Object>[] array2, final String[] array3, final String[] array4, final String[] array5, final String[] array6, final HashMap<String, String>[] array7)\n
     '''
 def getNegotiatedVersion():
-    '''public int getNegotiatedVersion()
-    '''
-def getInstance():
-    '''public static NPXControllerAgentImpl getInstance()
+    '''returns int\n\n
+    getNegotiatedVersion()\n
     '''
 def setConnectionMap():
-    '''public void setConnectionMap(final Map<Integer, Connection> monconnectionMap)
-    '''
-def getLogStreamName():
-    '''public static String getLogStreamName()
-    '''
-def setLogStreamName():
-    '''public static void setLogStreamName(final String logStreamName)
+    '''returns None\n\n
+    setConnectionMap(final Map<Integer, Connection> monconnectionMap)\n
     '''

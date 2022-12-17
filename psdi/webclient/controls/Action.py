@@ -1,9 +1,12 @@
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def action():
-    '''public int action()
+    '''returns int\n\n
+    action()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''

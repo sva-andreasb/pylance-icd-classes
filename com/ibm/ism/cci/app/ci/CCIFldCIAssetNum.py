@@ -1,15 +1,20 @@
-def CCIFldCIAssetNum():
-    '''public CCIFldCIAssetNum(final MboValue mbv)
+def ():
+    '''returns CCIFldCIAssetNum\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setListCriteria():
-    '''public void setListCriteria(String listWhere)
+    '''returns None\n\n
+    setListCriteria(String listWhere)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

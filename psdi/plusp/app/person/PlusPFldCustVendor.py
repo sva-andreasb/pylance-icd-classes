@@ -1,15 +1,20 @@
-def PlusPFldCustVendor():
-    '''public PlusPFldCustVendor(final MboValue mbv)
+def ():
+    '''returns PlusPFldCustVendor\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String s, final boolean b)
+    '''returns MboSetRemote\n\n
+    smartFind(final String s, final boolean b)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote mboRemote, final long accessModifier)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote mboRemote, final long accessModifier)\n
     '''

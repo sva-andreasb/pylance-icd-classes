@@ -1,24 +1,32 @@
-def CSSOMStoredStyleDeclaration():
-    '''public CSSOMStoredStyleDeclaration(final CSSEngine eng)
+def ():
+    '''returns CSSOMStoredStyleDeclaration\n\n
+    (final CSSEngine eng)\n
     '''
 def getStyleDeclaration():
-    '''public StyleDeclaration getStyleDeclaration()
+    '''returns StyleDeclaration\n\n
+    getStyleDeclaration()\n
     '''
 def setStyleDeclaration():
-    '''public void setStyleDeclaration(final StyleDeclaration sd)
+    '''returns None\n\n
+    setStyleDeclaration(final StyleDeclaration sd)\n
     '''
 def getValue():
-    '''public Value getValue(final String name)
+    '''returns Value\n\n
+    getValue(final String name)\n
     '''
 def isImportant():
-    '''public boolean isImportant(final String name)
+    '''returns boolean\n\n
+    isImportant(final String name)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public String item(final int idx)
+    '''returns String\n\n
+    item(final int idx)\n
     '''

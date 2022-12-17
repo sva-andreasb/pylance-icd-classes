@@ -1,34 +1,43 @@
 RESERVED = "int  -1"
-def StructuredDataId():
-    '''public StructuredDataId(final String name)
-    public StructuredDataId(final String name, final int maxLength)
-    public StructuredDataId(final String name, final String[] required, final String[] optional)
-    public StructuredDataId(final String name, final String[] required, final String[] optional, int maxLength)
-    public StructuredDataId(final String name, final int enterpriseNumber, final String[] required, final String[] optional)
-    public StructuredDataId(final String name, final int enterpriseNumber, final String[] required, final String[] optional, final int maxLength)
+def ():
+    '''returns StructuredDataId\n\n
+    (final String name)\n
+    (final String name, final int maxLength)\n
+    (final String name, final String[] required, final String[] optional)\n
+    (final String name, final String[] required, final String[] optional, int maxLength)\n
+    (final String name, final int enterpriseNumber, final String[] required, final String[] optional)\n
+    (final String name, final int enterpriseNumber, final String[] required, final String[] optional, final int maxLength)\n
     '''
 def makeId():
-    '''public StructuredDataId makeId(final StructuredDataId id)
-    public StructuredDataId makeId(final String defaultId, final int anEnterpriseNumber)
+    '''returns StructuredDataId\n\n
+    makeId(final StructuredDataId id)\n
+    makeId(final String defaultId, final int anEnterpriseNumber)\n
     '''
 def getRequired():
-    '''public String[] getRequired()
+    '''returns String[]\n\n
+    getRequired()\n
     '''
 def getOptional():
-    '''public String[] getOptional()
+    '''returns String[]\n\n
+    getOptional()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEnterpriseNumber():
-    '''public int getEnterpriseNumber()
+    '''returns int\n\n
+    getEnterpriseNumber()\n
     '''
 def isReserved():
-    '''public boolean isReserved()
+    '''returns boolean\n\n
+    isReserved()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def formatTo():
-    '''public void formatTo(final StringBuilder buffer)
+    '''returns None\n\n
+    formatTo(final StringBuilder buffer)\n
     '''

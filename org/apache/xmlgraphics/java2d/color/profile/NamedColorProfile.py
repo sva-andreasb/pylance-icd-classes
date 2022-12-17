@@ -1,21 +1,28 @@
-def NamedColorProfile():
-    '''public NamedColorProfile(final String profileName, final String copyright, final NamedColorSpace[] namedColors, final RenderingIntent intent)
+def ():
+    '''returns NamedColorProfile\n\n
+    (final String profileName, final String copyright, final NamedColorSpace[] namedColors, final RenderingIntent intent)\n
     '''
 def getRenderingIntent():
-    '''public RenderingIntent getRenderingIntent()
+    '''returns RenderingIntent\n\n
+    getRenderingIntent()\n
     '''
 def getNamedColors():
-    '''public NamedColorSpace[] getNamedColors()
+    '''returns NamedColorSpace[]\n\n
+    getNamedColors()\n
     '''
 def getNamedColor():
-    '''public NamedColorSpace getNamedColor(final String name)
+    '''returns NamedColorSpace\n\n
+    getNamedColor(final String name)\n
     '''
 def getProfileName():
-    '''public String getProfileName()
+    '''returns String\n\n
+    getProfileName()\n
     '''
 def getCopyright():
-    '''public String getCopyright()
+    '''returns String\n\n
+    getCopyright()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

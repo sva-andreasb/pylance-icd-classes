@@ -1,42 +1,56 @@
 def getBirtAdminService():
-    '''public ReportAdminServiceRemote getBirtAdminService()
+    '''returns ReportAdminServiceRemote\n\n
+    getBirtAdminService()\n
     '''
 def setBirtAdminService():
-    '''public void setBirtAdminService(final ReportAdminServiceRemote birtAdminService)
+    '''returns None\n\n
+    setBirtAdminService(final ReportAdminServiceRemote birtAdminService)\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''
 def getReportName():
-    '''public String getReportName()
+    '''returns String\n\n
+    getReportName()\n
     '''
 def setReportName():
-    '''public void setReportName(final String reportName)
+    '''returns None\n\n
+    setReportName(final String reportName)\n
     '''
 def getThreadName():
-    '''public String getThreadName()
+    '''returns String\n\n
+    getThreadName()\n
     '''
 def setThreadName():
-    '''public void setThreadName(final String threadName)
+    '''returns None\n\n
+    setThreadName(final String threadName)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def addActiveThread():
-    '''public Long addActiveThread()
+    '''returns Long\n\n
+    addActiveThread()\n
     '''
 def removeActiveThread():
-    '''public void removeActiveThread()
+    '''returns None\n\n
+    removeActiveThread()\n
     '''
 def renewActiveThread():
-    '''public void renewActiveThread()
+    '''returns None\n\n
+    renewActiveThread()\n
     '''
 def isReportJobCancelled():
-    '''public Boolean isReportJobCancelled(final Long reportJobId)
+    '''returns Boolean\n\n
+    isReportJobCancelled(final Long reportJobId)\n
     '''

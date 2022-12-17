@@ -1,3 +1,4 @@
 def graphBaseFind():
-    '''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch tm)
+    '''returns ExtendedIterator<Triple>\n\n
+    graphBaseFind(final TripleMatch tm)\n
     '''

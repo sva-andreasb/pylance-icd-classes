@@ -1,139 +1,179 @@
 ELEMENT = "String  \"vCard\""
 NAMESPACE = "String  \"vcard-temp\""
-def VCard():
-    '''public VCard()
+def ():
+    '''returns VCard\n\n
+    ()\n
     '''
 def getField():
-    '''public String getField(final String field)
+    '''returns String\n\n
+    getField(final String field)\n
     '''
 def setField():
-    '''public void setField(final String field, final String value)
-    public void setField(final String field, final String value, final boolean isUnescapable)
+    '''returns None\n\n
+    setField(final String field, final String value)\n
+    setField(final String field, final String value, final boolean isUnescapable)\n
     '''
 def getFirstName():
-    '''public String getFirstName()
+    '''returns String\n\n
+    getFirstName()\n
     '''
 def setFirstName():
-    '''public void setFirstName(final String firstName)
+    '''returns None\n\n
+    setFirstName(final String firstName)\n
     '''
 def getLastName():
-    '''public String getLastName()
+    '''returns String\n\n
+    getLastName()\n
     '''
 def setLastName():
-    '''public void setLastName(final String lastName)
+    '''returns None\n\n
+    setLastName(final String lastName)\n
     '''
 def getMiddleName():
-    '''public String getMiddleName()
+    '''returns String\n\n
+    getMiddleName()\n
     '''
 def setMiddleName():
-    '''public void setMiddleName(final String middleName)
+    '''returns None\n\n
+    setMiddleName(final String middleName)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def getSuffix():
-    '''public String getSuffix()
+    '''returns String\n\n
+    getSuffix()\n
     '''
 def setSuffix():
-    '''public void setSuffix(final String suffix)
+    '''returns None\n\n
+    setSuffix(final String suffix)\n
     '''
 def getNickName():
-    '''public String getNickName()
+    '''returns String\n\n
+    getNickName()\n
     '''
 def setNickName():
-    '''public void setNickName(final String nickName)
+    '''returns None\n\n
+    setNickName(final String nickName)\n
     '''
 def getEmailHome():
-    '''public String getEmailHome()
+    '''returns String\n\n
+    getEmailHome()\n
     '''
 def setEmailHome():
-    '''public void setEmailHome(final String email)
+    '''returns None\n\n
+    setEmailHome(final String email)\n
     '''
 def getEmailWork():
-    '''public String getEmailWork()
+    '''returns String\n\n
+    getEmailWork()\n
     '''
 def setEmailWork():
-    '''public void setEmailWork(final String emailWork)
+    '''returns None\n\n
+    setEmailWork(final String emailWork)\n
     '''
 def getJabberId():
-    '''public String getJabberId()
+    '''returns String\n\n
+    getJabberId()\n
     '''
 def setJabberId():
-    '''public void setJabberId(final CharSequence jabberId)
+    '''returns None\n\n
+    setJabberId(final CharSequence jabberId)\n
     '''
 def getOrganization():
-    '''public String getOrganization()
+    '''returns String\n\n
+    getOrganization()\n
     '''
 def setOrganization():
-    '''public void setOrganization(final String organization)
+    '''returns None\n\n
+    setOrganization(final String organization)\n
     '''
 def getOrganizationUnit():
-    '''public String getOrganizationUnit()
+    '''returns String\n\n
+    getOrganizationUnit()\n
     '''
 def setOrganizationUnit():
-    '''public void setOrganizationUnit(final String organizationUnit)
+    '''returns None\n\n
+    setOrganizationUnit(final String organizationUnit)\n
     '''
 def getAddressFieldHome():
-    '''public String getAddressFieldHome(final String addrField)
+    '''returns String\n\n
+    getAddressFieldHome(final String addrField)\n
     '''
 def setAddressFieldHome():
-    '''public void setAddressFieldHome(final String addrField, final String value)
+    '''returns None\n\n
+    setAddressFieldHome(final String addrField, final String value)\n
     '''
 def getAddressFieldWork():
-    '''public String getAddressFieldWork(final String addrField)
+    '''returns String\n\n
+    getAddressFieldWork(final String addrField)\n
     '''
 def setAddressFieldWork():
-    '''public void setAddressFieldWork(final String addrField, final String value)
+    '''returns None\n\n
+    setAddressFieldWork(final String addrField, final String value)\n
     '''
 def setPhoneHome():
-    '''public void setPhoneHome(final String phoneType, final String phoneNum)
+    '''returns None\n\n
+    setPhoneHome(final String phoneType, final String phoneNum)\n
     '''
 def getPhoneHome():
-    '''public String getPhoneHome(final String phoneType)
+    '''returns String\n\n
+    getPhoneHome(final String phoneType)\n
     '''
 def setPhoneWork():
-    '''public void setPhoneWork(final String phoneType, final String phoneNum)
+    '''returns None\n\n
+    setPhoneWork(final String phoneType, final String phoneNum)\n
     '''
 def getPhoneWork():
-    '''public String getPhoneWork(final String phoneType)
+    '''returns String\n\n
+    getPhoneWork(final String phoneType)\n
     '''
 def setAvatar():
-    '''public void setAvatar(final URL avatarURL)
-    public void setAvatar(final byte[] bytes)
-    public void setAvatar(final byte[] bytes, final String mimeType)
-    public void setAvatar(final String encodedImage, final String mimeType)
+    '''returns None\n\n
+    setAvatar(final URL avatarURL)\n
+    setAvatar(final byte[] bytes)\n
+    setAvatar(final byte[] bytes, final String mimeType)\n
+    setAvatar(final String encodedImage, final String mimeType)\n
     '''
 def removeAvatar():
-    '''public void removeAvatar()
+    '''returns None\n\n
+    removeAvatar()\n
     '''
 def setEncodedImage():
-    '''public void setEncodedImage(final String encodedAvatar)
+    '''returns None\n\n
+    setEncodedImage(final String encodedAvatar)\n
     '''
 def getAvatar():
-    '''public byte[] getAvatar()
+    '''returns byte[]\n\n
+    getAvatar()\n
     '''
 def getAvatarMimeType():
-    '''public String getAvatarMimeType()
-    '''
-def getBytes():
-    '''public static byte[] getBytes(final URL url)
+    '''returns String\n\n
+    getAvatarMimeType()\n
     '''
 def getAvatarHash():
-    '''public String getAvatarHash()
+    '''returns String\n\n
+    getAvatarHash()\n
     '''
 def save():
-    '''public void save(final XMPPConnection connection)
+    '''returns None\n\n
+    save(final XMPPConnection connection)\n
     '''
 def load():
-    '''public void load(final XMPPConnection connection)
-    public void load(final XMPPConnection connection, final EntityBareJid user)
+    '''returns None\n\n
+    load(final XMPPConnection connection)\n
+    load(final XMPPConnection connection, final EntityBareJid user)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

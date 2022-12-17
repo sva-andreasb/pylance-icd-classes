@@ -1,3 +1,4 @@
-def FldEstLabTotal():
-    '''public FldEstLabTotal(final MboValue mbv)
+def ():
+    '''returns FldEstLabTotal\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,9 +1,11 @@
-def InternalException():
-    '''public InternalException()
-    public InternalException(final String message)
-    public InternalException(final int errorCode)
-    public InternalException(final String message, final int errorCode)
+def ():
+    '''returns InternalException\n\n
+    ()\n
+    (final String message)\n
+    (final int errorCode)\n
+    (final String message, final int errorCode)\n
     '''
 def errorCode():
-    '''public int errorCode()
+    '''returns int\n\n
+    errorCode()\n
     '''

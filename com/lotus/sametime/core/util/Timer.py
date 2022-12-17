@@ -1,30 +1,28 @@
-def Timer():
-    '''public Timer(final long rate, final TimerListener listener)
+def ():
+    '''returns Timer\n\n
+    (final long rate, final TimerListener listener)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def run():
-    '''public void run()
-    '''
-def stop():
-    '''public synchronized void stop()
-    '''
-def restart():
-    '''public synchronized void restart()
-    '''
-def tick():
-    '''public synchronized void tick()
+    '''returns None\n\n
+    run()\n
     '''
 def setTimerListener():
-    '''public void setTimerListener(final TimerListener listener)
+    '''returns None\n\n
+    setTimerListener(final TimerListener listener)\n
     '''
 def setTimerRate():
-    '''public void setTimerRate(final long rate)
+    '''returns None\n\n
+    setTimerRate(final long rate)\n
     '''
 def getTimerRate():
-    '''public long getTimerRate()
+    '''returns long\n\n
+    getTimerRate()\n
     '''
 def isStarted():
-    '''public boolean isStarted()
+    '''returns boolean\n\n
+    isStarted()\n
     '''

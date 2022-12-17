@@ -1,21 +1,20 @@
-def SystemCache():
-    '''public SystemCache()
-    '''
-def set():
-    '''public static final synchronized void set(final SystemCache instance)
-    '''
-def get():
-    '''public static final SystemCache get()
+def ():
+    '''returns SystemCache\n\n
+    ()\n
     '''
 def getFromTypeLoaderCache():
-    '''public SchemaTypeLoader getFromTypeLoaderCache(final ClassLoader cl)
+    '''returns SchemaTypeLoader\n\n
+    getFromTypeLoaderCache(final ClassLoader cl)\n
     '''
 def addToTypeLoaderCache():
-    '''public void addToTypeLoaderCache(final SchemaTypeLoader stl, final ClassLoader cl)
+    '''returns None\n\n
+    addToTypeLoaderCache(final SchemaTypeLoader stl, final ClassLoader cl)\n
     '''
 def getSaxLoader():
-    '''public Object getSaxLoader()
+    '''returns Object\n\n
+    getSaxLoader()\n
     '''
 def setSaxLoader():
-    '''public void setSaxLoader(final Object saxLoader)
+    '''returns None\n\n
+    setSaxLoader(final Object saxLoader)\n
     '''

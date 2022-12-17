@@ -1,29 +1,38 @@
-def Normalizer2WithImpl():
-    '''public Normalizer2WithImpl(final Normalizer2Impl ni)
+def ():
+    '''returns Normalizer2WithImpl\n\n
+    (final Normalizer2Impl ni)\n
     '''
 def normalize():
-    '''public StringBuilder normalize(final CharSequence src, final StringBuilder dest)
-    public Appendable normalize(final CharSequence src, final Appendable dest)
+    '''returns Appendable\n\n
+    normalize(final CharSequence src, final StringBuilder dest)\n
+    normalize(final CharSequence src, final Appendable dest)\n
     '''
 def normalizeSecondAndAppend():
-    '''public StringBuilder normalizeSecondAndAppend(final StringBuilder first, final CharSequence second)
-    public StringBuilder normalizeSecondAndAppend(final StringBuilder first, final CharSequence second, final boolean doNormalize)
+    '''returns StringBuilder\n\n
+    normalizeSecondAndAppend(final StringBuilder first, final CharSequence second)\n
+    normalizeSecondAndAppend(final StringBuilder first, final CharSequence second, final boolean doNormalize)\n
     '''
 def append():
-    '''public StringBuilder append(final StringBuilder first, final CharSequence second)
+    '''returns StringBuilder\n\n
+    append(final StringBuilder first, final CharSequence second)\n
     '''
 def getDecomposition():
-    '''public String getDecomposition(final int c)
+    '''returns String\n\n
+    getDecomposition(final int c)\n
     '''
 def getRawDecomposition():
-    '''public String getRawDecomposition(final int c)
+    '''returns String\n\n
+    getRawDecomposition(final int c)\n
     '''
 def composePair():
-    '''public int composePair(final int a, final int b)
+    '''returns int\n\n
+    composePair(final int a, final int b)\n
     '''
 def getCombiningClass():
-    '''public int getCombiningClass(final int c)
+    '''returns int\n\n
+    getCombiningClass(final int c)\n
     '''
 def isNormalized():
-    '''public boolean isNormalized(final CharSequence s)
+    '''returns boolean\n\n
+    isNormalized(final CharSequence s)\n
     '''

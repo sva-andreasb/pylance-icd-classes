@@ -1,20 +1,22 @@
-def LDAPDITContentRuleSchema():
-    '''public LDAPDITContentRuleSchema()
-    public LDAPDITContentRuleSchema(final String[] array, final String oid, final String description, final boolean obsolete, final String[] auxiliary, final String[] required, final String[] optional, final String[] precluded)
-    public LDAPDITContentRuleSchema(final String s)
+def ():
+    '''returns LDAPDITContentRuleSchema\n\n
+    ()\n
+    (final String[] array, final String oid, final String description, final boolean obsolete, final String[] auxiliary, final String[] required, final String[] optional, final String[] precluded)\n
+    (final String s)\n
     '''
 def getAuxiliaryClasses():
-    '''public String[] getAuxiliaryClasses()
+    '''returns String[]\n\n
+    getAuxiliaryClasses()\n
     '''
 def getRequiredAttributes():
-    '''public String[] getRequiredAttributes()
+    '''returns String[]\n\n
+    getRequiredAttributes()\n
     '''
 def getOptionalAttributes():
-    '''public String[] getOptionalAttributes()
+    '''returns String[]\n\n
+    getOptionalAttributes()\n
     '''
 def getPrecludedAttributes():
-    '''public String[] getPrecludedAttributes()
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns String[]\n\n
+    getPrecludedAttributes()\n
     '''

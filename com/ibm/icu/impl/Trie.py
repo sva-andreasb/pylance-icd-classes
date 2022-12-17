@@ -1,12 +1,12 @@
-def isLatin1Linear():
-    '''public final boolean isLatin1Linear()
-    '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def getSerializedDataSize():
-    '''public int getSerializedDataSize()
+    '''returns int\n\n
+    getSerializedDataSize()\n
     '''
 def getFoldingOffset():
-    '''public int getFoldingOffset(final int value)
+    '''returns int\n\n
+    getFoldingOffset(final int value)\n
     '''

@@ -1,9 +1,12 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
-def ConsTransaction():
-    '''public ConsTransaction(final MboSet ms)
+def ():
+    '''returns ConsTransaction\n\n
+    (final MboSet ms)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''

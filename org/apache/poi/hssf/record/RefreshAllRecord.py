@@ -1,23 +1,30 @@
 sid = "short  439"
-def RefreshAllRecord():
-    '''public RefreshAllRecord(final RecordInputStream in)
-    public RefreshAllRecord(final boolean refreshAll)
+def ():
+    '''returns RefreshAllRecord\n\n
+    (final RecordInputStream in)\n
+    (final boolean refreshAll)\n
     '''
 def setRefreshAll():
-    '''public void setRefreshAll(final boolean refreshAll)
+    '''returns None\n\n
+    setRefreshAll(final boolean refreshAll)\n
     '''
 def getRefreshAll():
-    '''public boolean getRefreshAll()
+    '''returns boolean\n\n
+    getRefreshAll()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

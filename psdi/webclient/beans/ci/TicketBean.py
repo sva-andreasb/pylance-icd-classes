@@ -1,9 +1,8 @@
-def TicketBean():
-    '''public TicketBean()
+def ():
+    '''returns TicketBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    initialize()\n
     '''

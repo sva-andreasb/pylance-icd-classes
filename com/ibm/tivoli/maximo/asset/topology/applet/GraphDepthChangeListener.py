@@ -1,3 +1,4 @@
 def stateChanged():
-    '''public void stateChanged(final ChangeEvent e)
+    '''returns None\n\n
+    stateChanged(final ChangeEvent e)\n
     '''

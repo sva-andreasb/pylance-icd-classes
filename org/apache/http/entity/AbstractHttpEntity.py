@@ -1,26 +1,34 @@
 def getContentType():
-    '''public Header getContentType()
+    '''returns Header\n\n
+    getContentType()\n
     '''
 def getContentEncoding():
-    '''public Header getContentEncoding()
+    '''returns Header\n\n
+    getContentEncoding()\n
     '''
 def isChunked():
-    '''public boolean isChunked()
+    '''returns boolean\n\n
+    isChunked()\n
     '''
 def setContentType():
-    '''public void setContentType(final Header contentType)
-    public void setContentType(final String ctString)
+    '''returns None\n\n
+    setContentType(final Header contentType)\n
+    setContentType(final String ctString)\n
     '''
 def setContentEncoding():
-    '''public void setContentEncoding(final Header contentEncoding)
-    public void setContentEncoding(final String ceString)
+    '''returns None\n\n
+    setContentEncoding(final Header contentEncoding)\n
+    setContentEncoding(final String ceString)\n
     '''
 def setChunked():
-    '''public void setChunked(final boolean b)
+    '''returns None\n\n
+    setChunked(final boolean b)\n
     '''
 def consumeContent():
-    '''public void consumeContent()
+    '''returns None\n\n
+    consumeContent()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

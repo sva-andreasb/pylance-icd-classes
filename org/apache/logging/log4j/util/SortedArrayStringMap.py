@@ -1,61 +1,63 @@
-def SortedArrayStringMap():
-    '''public SortedArrayStringMap()
-    public SortedArrayStringMap(final int initialCapacity)
-    public SortedArrayStringMap(final ReadOnlyStringMap other)
-    public SortedArrayStringMap(final Map<String, ?> map)
+def ():
+    '''returns SortedArrayStringMap\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final ReadOnlyStringMap other)\n
+    (final Map<String, ?> map)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String key)
-    '''
-def toMap():
-    '''public Map<String, String> toMap()
+    '''returns boolean\n\n
+    containsKey(final String key)\n
     '''
 def freeze():
-    '''public void freeze()
+    '''returns None\n\n
+    freeze()\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
-    '''
-def getValue():
-    '''public <V> V getValue(final String key)
+    '''returns boolean\n\n
+    isFrozen()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def indexOfKey():
-    '''public int indexOfKey(final String key)
+    '''returns int\n\n
+    indexOfKey(final String key)\n
     '''
 def putValue():
-    '''public void putValue(final String key, final Object value)
+    '''returns None\n\n
+    putValue(final String key, final Object value)\n
     '''
 def putAll():
-    '''public void putAll(final ReadOnlyStringMap source)
+    '''returns None\n\n
+    putAll(final ReadOnlyStringMap source)\n
     '''
 def remove():
-    '''public void remove(final String key)
+    '''returns None\n\n
+    remove(final String key)\n
     '''
 def getKeyAt():
-    '''public String getKeyAt(final int index)
-    '''
-def getValueAt():
-    '''public <V> V getValueAt(final int index)
+    '''returns String\n\n
+    getKeyAt(final int index)\n
     '''
 def size():
-    '''public int size()
-    '''
-def forEach():
-    '''public <V> void forEach(final BiConsumer<String, ? super V> action)
-    public <V, T> void forEach(final TriConsumer<String, ? super V, T> action, final T state)
+    '''returns int\n\n
+    size()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

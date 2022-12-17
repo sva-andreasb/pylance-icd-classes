@@ -1,6 +1,8 @@
-def PlusPCustOperSet():
-    '''public PlusPCustOperSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustOperSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

@@ -1,57 +1,76 @@
-def BaseXPath():
-    '''public BaseXPath(final String xpathExpr, final Navigator navigator)
+def ():
+    '''returns BaseXPath\n\n
+    (final String xpathExpr, final Navigator navigator)\n
     '''
 def evaluate():
-    '''public Object evaluate(final Object context)
+    '''returns Object\n\n
+    evaluate(final Object context)\n
     '''
 def selectNodes():
-    '''public List selectNodes(final Object node)
+    '''returns List\n\n
+    selectNodes(final Object node)\n
     '''
 def selectSingleNode():
-    '''public Object selectSingleNode(final Object node)
+    '''returns Object\n\n
+    selectSingleNode(final Object node)\n
     '''
 def valueOf():
-    '''public String valueOf(final Object node)
+    '''returns String\n\n
+    valueOf(final Object node)\n
     '''
 def stringValueOf():
-    '''public String stringValueOf(final Object node)
+    '''returns String\n\n
+    stringValueOf(final Object node)\n
     '''
 def booleanValueOf():
-    '''public boolean booleanValueOf(final Object node)
+    '''returns boolean\n\n
+    booleanValueOf(final Object node)\n
     '''
 def numberValueOf():
-    '''public Number numberValueOf(final Object node)
+    '''returns Number\n\n
+    numberValueOf(final Object node)\n
     '''
 def addNamespace():
-    '''public void addNamespace(final String prefix, final String uri)
+    '''returns None\n\n
+    addNamespace(final String prefix, final String uri)\n
     '''
 def setNamespaceContext():
-    '''public void setNamespaceContext(final NamespaceContext namespaceContext)
+    '''returns None\n\n
+    setNamespaceContext(final NamespaceContext namespaceContext)\n
     '''
 def setFunctionContext():
-    '''public void setFunctionContext(final FunctionContext functionContext)
+    '''returns None\n\n
+    setFunctionContext(final FunctionContext functionContext)\n
     '''
 def setVariableContext():
-    '''public void setVariableContext(final VariableContext variableContext)
+    '''returns None\n\n
+    setVariableContext(final VariableContext variableContext)\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
     '''
 def getFunctionContext():
-    '''public FunctionContext getFunctionContext()
+    '''returns FunctionContext\n\n
+    getFunctionContext()\n
     '''
 def getVariableContext():
-    '''public VariableContext getVariableContext()
+    '''returns VariableContext\n\n
+    getVariableContext()\n
     '''
 def getRootExpr():
-    '''public Expr getRootExpr()
+    '''returns Expr\n\n
+    getRootExpr()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def debug():
-    '''public String debug()
+    '''returns String\n\n
+    debug()\n
     '''
 def getNavigator():
-    '''public Navigator getNavigator()
+    '''returns Navigator\n\n
+    getNavigator()\n
     '''

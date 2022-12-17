@@ -1,30 +1,35 @@
-def DigestScheme():
-    '''public DigestScheme(final Charset credentialsCharset)
-    public DigestScheme(final ChallengeState challengeState)
-    public DigestScheme()
+def ():
+    '''returns DigestScheme\n\n
+    (final Charset credentialsCharset)\n
+    (final ChallengeState challengeState)\n
+    ()\n
     '''
 def processChallenge():
-    '''public void processChallenge(final Header header)
+    '''returns None\n\n
+    processChallenge(final Header header)\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def getSchemeName():
-    '''public String getSchemeName()
+    '''returns String\n\n
+    getSchemeName()\n
     '''
 def isConnectionBased():
-    '''public boolean isConnectionBased()
+    '''returns boolean\n\n
+    isConnectionBased()\n
     '''
 def overrideParamter():
-    '''public void overrideParamter(final String name, final String value)
+    '''returns None\n\n
+    overrideParamter(final String name, final String value)\n
     '''
 def authenticate():
-    '''public Header authenticate(final Credentials credentials, final HttpRequest request)
-    public Header authenticate(final Credentials credentials, final HttpRequest request, final HttpContext context)
-    '''
-def createCnonce():
-    '''public static String createCnonce()
+    '''returns Header\n\n
+    authenticate(final Credentials credentials, final HttpRequest request)\n
+    authenticate(final Credentials credentials, final HttpRequest request, final HttpContext context)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

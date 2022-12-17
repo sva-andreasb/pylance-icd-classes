@@ -1,12 +1,16 @@
-def WarrantyViewStatusHandler():
-    '''public WarrantyViewStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns WarrantyViewStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def approve():
-    '''public void approve(final String desiredStatus, final Date approveDate)
+    '''returns None\n\n
+    approve(final String desiredStatus, final Date approveDate)\n
     '''
 def cancel():
-    '''public void cancel(final String desiredStatus, final Date cancelDate)
+    '''returns None\n\n
+    cancel(final String desiredStatus, final Date cancelDate)\n
     '''
 def close():
-    '''public void close(final String desiredStatus, final Date closeDate)
+    '''returns None\n\n
+    close(final String desiredStatus, final Date closeDate)\n
     '''

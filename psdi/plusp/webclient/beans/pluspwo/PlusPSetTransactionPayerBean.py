@@ -1,6 +1,4 @@
-def execute():
-    '''public synchronized int execute()
-    '''
 def applyFilter():
-    '''public int applyFilter()
+    '''returns int\n\n
+    applyFilter()\n
     '''

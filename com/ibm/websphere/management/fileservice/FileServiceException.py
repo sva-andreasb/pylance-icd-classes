@@ -1,6 +1,7 @@
-def FileServiceException():
-    '''public FileServiceException()
-    public FileServiceException(final String msg)
-    public FileServiceException(final Throwable cause)
-    public FileServiceException(final Throwable cause, final String msg)
+def ():
+    '''returns FileServiceException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable cause)\n
+    (final Throwable cause, final String msg)\n
     '''

@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def refreshcosttype():
-    '''public int refreshcosttype()
+    '''returns int\n\n
+    refreshcosttype()\n
     '''

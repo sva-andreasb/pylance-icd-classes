@@ -1,37 +1,37 @@
-def getNext():
-    '''public final InstructionHandle getNext()
-    '''
-def getPrev():
-    '''public final InstructionHandle getPrev()
-    '''
-def getInstruction():
-    '''public final Instruction getInstruction()
-    '''
 def setInstruction():
-    '''public void setInstruction(final Instruction i)
+    '''returns None\n\n
+    setInstruction(final Instruction i)\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def removeAllTargeters():
-    '''public void removeAllTargeters()
+    '''returns None\n\n
+    removeAllTargeters()\n
     '''
 def removeTargeter():
-    '''public void removeTargeter(final InstructionTargeter t)
+    '''returns None\n\n
+    removeTargeter(final InstructionTargeter t)\n
     '''
 def addTargeter():
-    '''public void addTargeter(final InstructionTargeter t)
+    '''returns None\n\n
+    addTargeter(final InstructionTargeter t)\n
     '''
 def hasTargeters():
-    '''public boolean hasTargeters()
+    '''returns boolean\n\n
+    hasTargeters()\n
     '''
 def getTargeters():
-    '''public Set<InstructionTargeter> getTargeters()
+    '''returns Set<InstructionTargeter>\n\n
+    getTargeters()\n
     '''
 def getTargetersCopy():
-    '''public Set<InstructionTargeter> getTargetersCopy()
+    '''returns Set<InstructionTargeter>\n\n
+    getTargetersCopy()\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    public String toString()
+    '''returns String\n\n
+    toString(final boolean verbose)\n
+    toString()\n
     '''

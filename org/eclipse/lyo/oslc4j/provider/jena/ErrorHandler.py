@@ -1,9 +1,12 @@
 def error():
-    '''public void error(final Exception exception)
+    '''returns None\n\n
+    error(final Exception exception)\n
     '''
 def fatalError():
-    '''public void fatalError(final Exception exception)
+    '''returns None\n\n
+    fatalError(final Exception exception)\n
     '''
 def warning():
-    '''public void warning(final Exception exception)
+    '''returns None\n\n
+    warning(final Exception exception)\n
     '''

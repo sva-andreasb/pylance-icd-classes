@@ -1,6 +1,8 @@
 def textReceived():
-    '''public void textReceived(final MyselfEvent myselfEvent)
+    '''returns None\n\n
+    textReceived(final MyselfEvent myselfEvent)\n
     '''
 def dataReceived():
-    '''public void dataReceived(final MyselfEvent myselfEvent)
+    '''returns None\n\n
+    dataReceived(final MyselfEvent myselfEvent)\n
     '''

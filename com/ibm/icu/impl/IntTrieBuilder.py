@@ -1,18 +1,23 @@
-def IntTrieBuilder():
-    '''public IntTrieBuilder(final IntTrieBuilder table)
-    public IntTrieBuilder(final int[] aliasdata, final int maxdatalength, final int initialvalue, final int leadunitvalue, final boolean latin1linear)
+def ():
+    '''returns IntTrieBuilder\n\n
+    (final IntTrieBuilder table)\n
+    (final int[] aliasdata, final int maxdatalength, final int initialvalue, final int leadunitvalue, final boolean latin1linear)\n
     '''
 def getValue():
-    '''public int getValue(final int ch)
-    public int getValue(final int ch, final boolean[] inBlockZero)
+    '''returns int\n\n
+    getValue(final int ch)\n
+    getValue(final int ch, final boolean[] inBlockZero)\n
     '''
 def setValue():
-    '''public boolean setValue(final int ch, final int value)
+    '''returns boolean\n\n
+    setValue(final int ch, final int value)\n
     '''
 def serialize():
-    '''public IntTrie serialize(final DataManipulate datamanipulate, final Trie.DataManipulate triedatamanipulate)
-    public int serialize(final OutputStream os, final boolean reduceTo16Bits, final DataManipulate datamanipulate)
+    '''returns int\n\n
+    serialize(final DataManipulate datamanipulate, final Trie.DataManipulate triedatamanipulate)\n
+    serialize(final OutputStream os, final boolean reduceTo16Bits, final DataManipulate datamanipulate)\n
     '''
 def setRange():
-    '''public boolean setRange(int start, int limit, final int value, final boolean overwrite)
+    '''returns boolean\n\n
+    setRange(int start, int limit, final int value, final boolean overwrite)\n
     '''

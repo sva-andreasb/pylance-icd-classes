@@ -1,45 +1,60 @@
-def SKDObjectInfo():
-    '''public SKDObjectInfo()
+def ():
+    '''returns SKDObjectInfo\n\n
+    ()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def getSKDObjectName():
-    '''public String getSKDObjectName()
+    '''returns String\n\n
+    getSKDObjectName()\n
     '''
 def setSKDObjectName():
-    '''public void setSKDObjectName(final String skdObjectName)
+    '''returns None\n\n
+    setSKDObjectName(final String skdObjectName)\n
     '''
 def getSameAsObjectName():
-    '''public String getSameAsObjectName()
+    '''returns String\n\n
+    getSameAsObjectName()\n
     '''
 def setSameAsObjectName():
-    '''public void setSameAsObjectName(final String sameAsObjectName)
+    '''returns None\n\n
+    setSameAsObjectName(final String sameAsObjectName)\n
     '''
 def getDataGroupName():
-    '''public String getDataGroupName()
+    '''returns String\n\n
+    getDataGroupName()\n
     '''
 def setDataGroupName():
-    '''public void setDataGroupName(final String dataGroupName)
+    '''returns None\n\n
+    setDataGroupName(final String dataGroupName)\n
     '''
 def getObjectSequence():
-    '''public int getObjectSequence()
+    '''returns int\n\n
+    getObjectSequence()\n
     '''
 def setObjectSequence():
-    '''public void setObjectSequence(final int objectSequence)
+    '''returns None\n\n
+    setObjectSequence(final int objectSequence)\n
     '''
 def addObjectManagerInfo():
-    '''public void addObjectManagerInfo(final SKDObjectManagerInfo objectManagerInfo)
+    '''returns None\n\n
+    addObjectManagerInfo(final SKDObjectManagerInfo objectManagerInfo)\n
     '''
 def getObjectManagerInfoIterator():
-    '''public Iterator<SKDObjectManagerInfo> getObjectManagerInfoIterator()
+    '''returns Iterator<SKDObjectManagerInfo>\n\n
+    getObjectManagerInfoIterator()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compare():
-    '''public int compare(final SKDObjectManagerInfo info1, final SKDObjectManagerInfo info2)
+    '''returns int\n\n
+    compare(final SKDObjectManagerInfo info1, final SKDObjectManagerInfo info2)\n
     '''

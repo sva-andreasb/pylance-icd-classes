@@ -1,6 +1,8 @@
-def FldInvoiceMatchPOLineNum():
-    '''public FldInvoiceMatchPOLineNum(final MboValue mbv)
+def ():
+    '''returns FldInvoiceMatchPOLineNum\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

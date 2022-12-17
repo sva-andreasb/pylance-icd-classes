@@ -1,16 +1,17 @@
 MIME_EMF = "String  \"image/x-emf\""
-def getMimeForRawFlavor():
-    '''public static String getMimeForRawFlavor(final ImageFlavor flavor)
-    '''
 def getSupportedMIMETypes():
-    '''public String[] getSupportedMIMETypes()
+    '''returns String[]\n\n
+    getSupportedMIMETypes()\n
     '''
 def getSupportedFlavors():
-    '''public ImageFlavor[] getSupportedFlavors(final String mime)
+    '''returns ImageFlavor[]\n\n
+    getSupportedFlavors(final String mime)\n
     '''
 def newImageLoader():
-    '''public ImageLoader newImageLoader(final ImageFlavor targetFlavor)
+    '''returns ImageLoader\n\n
+    newImageLoader(final ImageFlavor targetFlavor)\n
     '''
 def isAvailable():
-    '''public boolean isAvailable()
+    '''returns boolean\n\n
+    isAvailable()\n
     '''

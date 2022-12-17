@@ -1,15 +1,20 @@
 def isExternalLinkedPicture():
-    '''public boolean isExternalLinkedPicture()
+    '''returns boolean\n\n
+    isExternalLinkedPicture()\n
     '''
 def getPictureData():
-    '''public XSLFPictureData getPictureData()
+    '''returns XSLFPictureData\n\n
+    getPictureData()\n
     '''
 def setPlaceholder():
-    '''public void setPlaceholder(final Placeholder placeholder)
+    '''returns None\n\n
+    setPlaceholder(final Placeholder placeholder)\n
     '''
 def getPictureLink():
-    '''public URI getPictureLink()
+    '''returns URI\n\n
+    getPictureLink()\n
     '''
 def getClipping():
-    '''public Insets getClipping()
+    '''returns Insets\n\n
+    getClipping()\n
     '''

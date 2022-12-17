@@ -1,27 +1,31 @@
 NAMESPACE = "String  \"urn:xmpp:time\""
 ELEMENT = "String  \"time\""
-def Time():
-    '''public Time()
-    public Time(final Calendar cal)
+def ():
+    '''returns Time\n\n
+    ()\n
+    (final Calendar cal)\n
     '''
 def getTime():
-    '''public Date getTime()
+    '''returns Date\n\n
+    getTime()\n
     '''
 def setTime():
-    '''public void setTime(final Date time)
+    '''returns None\n\n
+    setTime(final Date time)\n
     '''
 def getUtc():
-    '''public String getUtc()
+    '''returns String\n\n
+    getUtc()\n
     '''
 def setUtc():
-    '''public void setUtc(final String utc)
+    '''returns None\n\n
+    setUtc(final String utc)\n
     '''
 def getTzo():
-    '''public String getTzo()
+    '''returns String\n\n
+    getTzo()\n
     '''
 def setTzo():
-    '''public void setTzo(final String tzo)
-    '''
-def createResponse():
-    '''public static Time createResponse(final IQ request)
+    '''returns None\n\n
+    setTzo(final String tzo)\n
     '''

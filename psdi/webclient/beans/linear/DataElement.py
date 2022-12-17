@@ -1,40 +1,49 @@
-def DataElement():
-    '''public DataElement(final MboRemote mbo, final String startMAttr, final String endMAttr, final LinearClientSession linearClientSession, final CacheLvcMsgDesc lvcInfoMsgUtil)
-    public DataElement(final MboRemote mbo, final String startMAttr, final String endMAttr, final String startMAttr2, final String endMAttr2, final LinearClientSession linearClientSession, final CacheLvcMsgDesc lvcInfoMsgUtil)
+def ():
+    '''returns DataElement\n\n
+    (final MboRemote mbo, final String startMAttr, final String endMAttr, final LinearClientSession linearClientSession, final CacheLvcMsgDesc lvcInfoMsgUtil)\n
+    (final MboRemote mbo, final String startMAttr, final String endMAttr, final String startMAttr2, final String endMAttr2, final LinearClientSession linearClientSession, final CacheLvcMsgDesc lvcInfoMsgUtil)\n
     '''
 def getMbo():
-    '''public MboRemote getMbo()
+    '''returns MboRemote\n\n
+    getMbo()\n
     '''
 def getStartM():
-    '''public double getStartM()
+    '''returns double\n\n
+    getStartM()\n
     '''
 def getEndM():
-    '''public double getEndM()
+    '''returns double\n\n
+    getEndM()\n
     '''
 def setStartMAttr():
-    '''public void setStartMAttr(final String startMAttr)
+    '''returns None\n\n
+    setStartMAttr(final String startMAttr)\n
     '''
 def setEndMAttr():
-    '''public void setEndMAttr(final String endMAttr)
+    '''returns None\n\n
+    setEndMAttr(final String endMAttr)\n
     '''
 def setLabelAttr():
-    '''public void setLabelAttr(final String labelAttr)
+    '''returns None\n\n
+    setLabelAttr(final String labelAttr)\n
     '''
 def put():
-    '''public void put(final String name, final String value)
+    '''returns None\n\n
+    put(final String name, final String value)\n
     '''
 def getLvcSym():
-    '''public JSONObject getLvcSym()
+    '''returns JSONObject\n\n
+    getLvcSym()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def toJSON():
-    '''public JSONObject toJSON()
+    '''returns JSONObject\n\n
+    toJSON()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def getLinearLayerMsgInfo():
-    '''public Map<String, String> getLinearLayerMsgInfo(final LinearClientSession linearClientSession, final MboRemote mbo, final Map<String, String> attributes, final Map<String, String> msgTemplates, final CacheLvcMsgDesc lvcInfoMsgUtil)
+    '''returns String\n\n
+    toString()\n
     '''

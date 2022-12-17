@@ -1,3 +1,4 @@
 def getTimeZoneFromRule():
-    '''public String getTimeZoneFromRule(final MboRemote currentMbo, final MboRemote procRule)
+    '''returns String\n\n
+    getTimeZoneFromRule(final MboRemote currentMbo, final MboRemote procRule)\n
     '''

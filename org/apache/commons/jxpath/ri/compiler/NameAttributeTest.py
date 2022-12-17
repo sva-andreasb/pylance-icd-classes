@@ -1,9 +1,12 @@
-def NameAttributeTest():
-    '''public NameAttributeTest(final Expression namePath, final Expression nameValue)
+def ():
+    '''returns NameAttributeTest\n\n
+    (final Expression namePath, final Expression nameValue)\n
     '''
 def getNameTestExpression():
-    '''public Expression getNameTestExpression()
+    '''returns Expression\n\n
+    getNameTestExpression()\n
     '''
 def computeContextDependent():
-    '''public boolean computeContextDependent()
+    '''returns boolean\n\n
+    computeContextDependent()\n
     '''

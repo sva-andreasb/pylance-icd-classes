@@ -1,6 +1,8 @@
-def InvalidParameterNameException():
-    '''public InvalidParameterNameException(final String cmdName, final String paramName)
+def ():
+    '''returns InvalidParameterNameException\n\n
+    (final String cmdName, final String paramName)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

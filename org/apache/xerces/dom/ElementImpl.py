@@ -1,114 +1,132 @@
-def ElementImpl():
-    '''public ElementImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
+def ():
+    '''returns ElementImpl\n\n
+    (final CoreDocumentImpl coreDocumentImpl, final String name)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getAttributes():
-    '''public NamedNodeMap getAttributes()
+    '''returns NamedNodeMap\n\n
+    getAttributes()\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
 def getBaseURI():
-    '''public String getBaseURI()
+    '''returns String\n\n
+    getBaseURI()\n
     '''
 def getAttribute():
-    '''public String getAttribute(final String s)
+    '''returns String\n\n
+    getAttribute(final String s)\n
     '''
 def getAttributeNode():
-    '''public Attr getAttributeNode(final String s)
+    '''returns Attr\n\n
+    getAttributeNode(final String s)\n
     '''
 def getElementsByTagName():
-    '''public NodeList getElementsByTagName(final String s)
+    '''returns NodeList\n\n
+    getElementsByTagName(final String s)\n
     '''
 def getTagName():
-    '''public String getTagName()
+    '''returns String\n\n
+    getTagName()\n
     '''
 def normalize():
-    '''public void normalize()
+    '''returns None\n\n
+    normalize()\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String s)
+    '''returns None\n\n
+    removeAttribute(final String s)\n
     '''
 def removeAttributeNode():
-    '''public Attr removeAttributeNode(final Attr attr)
+    '''returns Attr\n\n
+    removeAttributeNode(final Attr attr)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String s, final String s2)
+    '''returns None\n\n
+    setAttribute(final String s, final String s2)\n
     '''
 def setAttributeNode():
-    '''public Attr setAttributeNode(final Attr namedItem)
+    '''returns Attr\n\n
+    setAttributeNode(final Attr namedItem)\n
     '''
 def getAttributeNS():
-    '''public String getAttributeNS(final String s, final String s2)
+    '''returns String\n\n
+    getAttributeNS(final String s, final String s2)\n
     '''
 def setAttributeNS():
-    '''public void setAttributeNS(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    setAttributeNS(final String s, final String s2, final String s3)\n
     '''
 def removeAttributeNS():
-    '''public void removeAttributeNS(final String s, final String s2)
+    '''returns None\n\n
+    removeAttributeNS(final String s, final String s2)\n
     '''
 def getAttributeNodeNS():
-    '''public Attr getAttributeNodeNS(final String s, final String s2)
+    '''returns Attr\n\n
+    getAttributeNodeNS(final String s, final String s2)\n
     '''
 def setAttributeNodeNS():
-    '''public Attr setAttributeNodeNS(final Attr namedItemNS)
+    '''returns Attr\n\n
+    setAttributeNodeNS(final Attr namedItemNS)\n
     '''
 def hasAttributes():
-    '''public boolean hasAttributes()
+    '''returns boolean\n\n
+    hasAttributes()\n
     '''
 def hasAttribute():
-    '''public boolean hasAttribute(final String s)
+    '''returns boolean\n\n
+    hasAttribute(final String s)\n
     '''
 def hasAttributeNS():
-    '''public boolean hasAttributeNS(final String s, final String s2)
+    '''returns boolean\n\n
+    hasAttributeNS(final String s, final String s2)\n
     '''
 def getElementsByTagNameNS():
-    '''public NodeList getElementsByTagNameNS(final String s, final String s2)
+    '''returns NodeList\n\n
+    getElementsByTagNameNS(final String s, final String s2)\n
     '''
 def isEqualNode():
-    '''public boolean isEqualNode(final Node node)
+    '''returns boolean\n\n
+    isEqualNode(final Node node)\n
     '''
 def setIdAttributeNode():
-    '''public void setIdAttributeNode(final Attr attr, final boolean b)
+    '''returns None\n\n
+    setIdAttributeNode(final Attr attr, final boolean b)\n
     '''
 def setIdAttribute():
-    '''public void setIdAttribute(final String s, final boolean b)
+    '''returns None\n\n
+    setIdAttribute(final String s, final boolean b)\n
     '''
 def setIdAttributeNS():
-    '''public void setIdAttributeNS(final String s, final String s2, final boolean b)
+    '''returns None\n\n
+    setIdAttributeNS(final String s, final String s2, final boolean b)\n
     '''
 def getTypeName():
-    '''public String getTypeName()
+    '''returns String\n\n
+    getTypeName()\n
     '''
 def getTypeNamespace():
-    '''public String getTypeNamespace()
+    '''returns String\n\n
+    getTypeNamespace()\n
     '''
 def isDerivedFrom():
-    '''public boolean isDerivedFrom(final String s, final String s2, final int n)
+    '''returns boolean\n\n
+    isDerivedFrom(final String s, final String s2, final int n)\n
     '''
 def getSchemaTypeInfo():
-    '''public TypeInfo getSchemaTypeInfo()
+    '''returns TypeInfo\n\n
+    getSchemaTypeInfo()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean b, final boolean b2)
-    '''
-def getChildElementCount():
-    '''public final int getChildElementCount()
-    '''
-def getFirstElementChild():
-    '''public final Element getFirstElementChild()
-    '''
-def getLastElementChild():
-    '''public final Element getLastElementChild()
-    '''
-def getNextElementSibling():
-    '''public final Element getNextElementSibling()
-    '''
-def getPreviousElementSibling():
-    '''public final Element getPreviousElementSibling()
+    '''returns None\n\n
+    setReadOnly(final boolean b, final boolean b2)\n
     '''

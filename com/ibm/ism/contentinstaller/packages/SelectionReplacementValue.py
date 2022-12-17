@@ -1,6 +1,8 @@
-def SelectionReplacementValue():
-    '''public SelectionReplacementValue(final String id, final String columnName, final boolean pkgDefault)
+def ():
+    '''returns SelectionReplacementValue\n\n
+    (final String id, final String columnName, final boolean pkgDefault)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

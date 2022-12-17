@@ -4,12 +4,15 @@ FIELD_ORGID = "String  \"ORGID\""
 FIELD_DESIGNSPECID = "String  \"DESIGNSPECID\""
 FIELD_PRODUCTID = "String  \"PRODUCTID\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
-def BIMDesignSpecProd():
-    '''public BIMDesignSpecProd(final MboSet ms)
+def ():
+    '''returns BIMDesignSpecProd\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

@@ -1,26 +1,26 @@
 ELEMENT = "String  \"x\""
 NAMESPACE = "String  \"jabber:x:conference\""
-def GroupChatInvitation():
-    '''public GroupChatInvitation(final String roomAddress)
+def ():
+    '''returns GroupChatInvitation\n\n
+    (final String roomAddress)\n
     '''
 def getRoomAddress():
-    '''public String getRoomAddress()
+    '''returns String\n\n
+    getRoomAddress()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def getFrom():
-    '''public static GroupChatInvitation getFrom(final Stanza packet)
-    '''
-def from():
-    '''public static GroupChatInvitation from(final Stanza packet)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def parse():
-    '''public GroupChatInvitation parse(final XmlPullParser parser, final int initialDepth)
+    '''returns GroupChatInvitation\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

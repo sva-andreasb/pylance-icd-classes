@@ -1,9 +1,12 @@
 def RESTORELVCSYMBTEMPLATE():
-    '''public int RESTORELVCSYMBTEMPLATE()
+    '''returns int\n\n
+    RESTORELVCSYMBTEMPLATE()\n
     '''
 def VALIDATELVCSYMBOLOGY():
-    '''public int VALIDATELVCSYMBOLOGY()
+    '''returns int\n\n
+    VALIDATELVCSYMBOLOGY()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''

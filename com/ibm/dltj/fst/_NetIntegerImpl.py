@@ -1,118 +1,157 @@
-def _NetIntegerImpl():
-    '''public _NetIntegerImpl()
+def ():
+    '''returns _NetIntegerImpl\n\n
+    ()\n
     '''
 def first():
-    '''public Node first()
+    '''returns Node\n\n
+    first()\n
     '''
 def readContents():
-    '''public long readContents(final DataInput dataInput, final int n)
+    '''returns long\n\n
+    readContents(final DataInput dataInput, final int n)\n
     '''
 def setChainPolicy():
-    '''public void setChainPolicy(final boolean enchain)
+    '''returns None\n\n
+    setChainPolicy(final boolean enchain)\n
     '''
 def getChainPolicy():
-    '''public boolean getChainPolicy()
+    '''returns boolean\n\n
+    getChainPolicy()\n
     '''
 def isContracted():
-    '''public boolean isContracted()
+    '''returns boolean\n\n
+    isContracted()\n
     '''
 def getFileFSTFormat():
-    '''public int getFileFSTFormat()
+    '''returns int\n\n
+    getFileFSTFormat()\n
     '''
 def processGlosses():
-    '''public void processGlosses(final GlossProcessor glossProcessor)
+    '''returns None\n\n
+    processGlosses(final GlossProcessor glossProcessor)\n
     '''
 def endReading():
-    '''public void endReading()
+    '''returns None\n\n
+    endReading()\n
     '''
 def startBuild():
-    '''public void startBuild(final boolean b)
+    '''returns None\n\n
+    startBuild(final boolean b)\n
     '''
 def endBuild():
-    '''public int endBuild()
+    '''returns int\n\n
+    endBuild()\n
     '''
 def remove():
-    '''public int remove(final CharacterIterator characterIterator, final int n)
+    '''returns int\n\n
+    remove(final CharacterIterator characterIterator, final int n)\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def iteratorAC():
-    '''public Iterator iteratorAC(final String s)
+    '''returns Iterator\n\n
+    iteratorAC(final String s)\n
     '''
 def removeGloss():
-    '''public void removeGloss(final CharacterIterator characterIterator, final int n, final Gloss gloss)
+    '''returns None\n\n
+    removeGloss(final CharacterIterator characterIterator, final int n, final Gloss gloss)\n
     '''
 def newNode():
-    '''public WritableNode newNode(final int n, final int n2)
+    '''returns WritableNode\n\n
+    newNode(final int n, final int n2)\n
     '''
 def setFirstNode():
-    '''public void setFirstNode(final Node node)
+    '''returns None\n\n
+    setFirstNode(final Node node)\n
     '''
 def next():
-    '''public Node next(final char c)
-    public Node next(final CharacterIterator characterIterator)
+    '''returns Node\n\n
+    next(final char c)\n
+    next(final CharacterIterator characterIterator)\n
     '''
 def num_trans():
-    '''public int num_trans()
+    '''returns int\n\n
+    num_trans()\n
     '''
 def num_chars():
-    '''public int num_chars()
+    '''returns int\n\n
+    num_chars()\n
     '''
 def get_trans():
-    '''public Node get_trans(final int n)
+    '''returns Node\n\n
+    get_trans(final int n)\n
     '''
 def get_char():
-    '''public char get_char(final int n)
+    '''returns char\n\n
+    get_char(final int n)\n
     '''
 def get_chars():
-    '''public String get_chars(final int n)
+    '''returns String\n\n
+    get_chars(final int n)\n
     '''
 def set_trans():
-    '''public void set_trans(final int n, final Node node)
+    '''returns None\n\n
+    set_trans(final int n, final Node node)\n
     '''
 def process_glosses():
-    '''public void process_glosses(final GlossProcessor glossProcessor)
+    '''returns None\n\n
+    process_glosses(final GlossProcessor glossProcessor)\n
     '''
 def addChar():
-    '''public int addChar(final char c, final int n, final Node node)
+    '''returns int\n\n
+    addChar(final char c, final int n, final Node node)\n
     '''
 def add():
-    '''public int add(final CharacterIterator characterIterator, final int n, final int n2, final Node node)
+    '''returns int\n\n
+    add(final CharacterIterator characterIterator, final int n, final int n2, final Node node)\n
     '''
 def removeChar():
-    '''public int removeChar(final char c, final int n)
+    '''returns int\n\n
+    removeChar(final char c, final int n)\n
     '''
 def dupRemoveChar():
-    '''public Node dupRemoveChar(final char c)
+    '''returns Node\n\n
+    dupRemoveChar(final char c)\n
     '''
 def deallocate():
-    '''public void deallocate()
+    '''returns None\n\n
+    deallocate()\n
     '''
 def isFinal():
-    '''public boolean isFinal()
+    '''returns boolean\n\n
+    isFinal()\n
     '''
 def copy():
-    '''public void copy(final Node node)
+    '''returns None\n\n
+    copy(final Node node)\n
     '''
 def getGloss():
-    '''public Object getGloss()
+    '''returns Object\n\n
+    getGloss()\n
     '''
 def setGloss():
-    '''public void setGloss(final Object o)
+    '''returns None\n\n
+    setGloss(final Object o)\n
     '''
 def nextRestricted():
-    '''public Node nextRestricted(final CharacterIterator characterIterator, final int n)
+    '''returns Node\n\n
+    nextRestricted(final CharacterIterator characterIterator, final int n)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''

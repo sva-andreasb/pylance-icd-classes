@@ -1,18 +1,24 @@
-def SessionReportRunInfo():
-    '''public SessionReportRunInfo(final ReportRunInfo reportRunInfo, final ReportAdminServiceRemote birtAdminService)
+def ():
+    '''returns SessionReportRunInfo\n\n
+    (final ReportRunInfo reportRunInfo, final ReportAdminServiceRemote birtAdminService)\n
     '''
 def getReportRunInfo():
-    '''public ReportRunInfo getReportRunInfo()
+    '''returns ReportRunInfo\n\n
+    getReportRunInfo()\n
     '''
 def setCancelled():
-    '''public void setCancelled()
+    '''returns None\n\n
+    setCancelled()\n
     '''
 def isCancelled():
-    '''public Boolean isCancelled()
+    '''returns Boolean\n\n
+    isCancelled()\n
     '''
 def valueBound():
-    '''public void valueBound(final HttpSessionBindingEvent event)
+    '''returns None\n\n
+    valueBound(final HttpSessionBindingEvent event)\n
     '''
 def valueUnbound():
-    '''public void valueUnbound(final HttpSessionBindingEvent event)
+    '''returns None\n\n
+    valueUnbound(final HttpSessionBindingEvent event)\n
     '''

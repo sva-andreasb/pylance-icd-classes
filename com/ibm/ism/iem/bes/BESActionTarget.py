@@ -1,18 +1,24 @@
 def getComputerName():
-    '''public List<String> getComputerName()
+    '''returns List<String>\n\n
+    getComputerName()\n
     '''
 def getComputerID():
-    '''public List<BigInteger> getComputerID()
+    '''returns List<BigInteger>\n\n
+    getComputerID()\n
     '''
 def getCustomRelevance():
-    '''public String getCustomRelevance()
+    '''returns String\n\n
+    getCustomRelevance()\n
     '''
 def setCustomRelevance():
-    '''public void setCustomRelevance(final String value)
+    '''returns None\n\n
+    setCustomRelevance(final String value)\n
     '''
 def isAllComputers():
-    '''public Boolean isAllComputers()
+    '''returns Boolean\n\n
+    isAllComputers()\n
     '''
 def setAllComputers():
-    '''public void setAllComputers(final Boolean value)
+    '''returns None\n\n
+    setAllComputers(final Boolean value)\n
     '''

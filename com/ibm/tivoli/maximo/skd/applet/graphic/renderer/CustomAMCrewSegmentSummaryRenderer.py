@@ -1,37 +1,37 @@
-def CustomAMCrewSegmentSummaryRenderer():
-    '''public CustomAMCrewSegmentSummaryRenderer()
+def ():
+    '''returns MyActivityBarSelection\n\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    (final IlvActivityGraphic ag, final String[] properties)\n
     '''
 def getMainRender():
-    '''public IlvBasicActivityBar getMainRender()
+    '''returns IlvBasicActivityBar\n\n
+    getMainRender()\n
     '''
 def createSelection():
-    '''public IlvSelection createSelection(final IlvActivityGraphic ag, final String[] properties)
+    '''returns IlvSelection\n\n
+    createSelection(final IlvActivityGraphic ag, final String[] properties)\n
     '''
 def getSequenceNum():
-    '''public int getSequenceNum()
+    '''returns int\n\n
+    getSequenceNum()\n
     '''
 def setSequenceNum():
-    '''public void setSequenceNum(final int sequenceNum)
-    '''
-def CustomAMCrewSegmentSummaryMainRenderer():
-    '''public CustomAMCrewSegmentSummaryMainRenderer()
+    '''returns None\n\n
+    setSequenceNum(final int sequenceNum)\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu(final IlvActivityGraphic activity, final IlvPoint arg1, final IlvTransformer arg2, final IlvManagerView arg3, final IlvPopupMenuManager arg4)
-    '''
-def CustomSummaryStartRenderer():
-    '''public CustomSummaryStartRenderer()
+    '''returns JPopupMenu\n\n
+    getPopupMenu(final IlvActivityGraphic activity, final IlvPoint arg1, final IlvTransformer arg2, final IlvManagerView arg3, final IlvPopupMenuManager arg4)\n
     '''
 def draw():
-    '''public void draw(final Graphics arg0, final IlvActivityGraphic ag, final IlvTransformer arg2)
-    public void draw(final Graphics arg0, final IlvActivityGraphic ag, final IlvTransformer arg2)
-    '''
-def CustomSummaryEndRenderer():
-    '''public CustomSummaryEndRenderer()
-    '''
-def MyActivityBarSelection():
-    '''public MyActivityBarSelection(final IlvActivityGraphic ag, final String[] properties)
+    '''returns None\n\n
+    draw(final Graphics arg0, final IlvActivityGraphic ag, final IlvTransformer arg2)\n
+    draw(final Graphics arg0, final IlvActivityGraphic ag, final IlvTransformer arg2)\n
     '''
 def getHandle():
-    '''public IlvPoint getHandle(final int i, final IlvTransformer t)
+    '''returns IlvPoint\n\n
+    getHandle(final int i, final IlvTransformer t)\n
     '''

@@ -1,22 +1,28 @@
-def LoggingSessionInputBuffer():
-    '''public LoggingSessionInputBuffer(final SessionInputBuffer in, final Wire wire, final String charset)
-    public LoggingSessionInputBuffer(final SessionInputBuffer in, final Wire wire)
+def ():
+    '''returns LoggingSessionInputBuffer\n\n
+    (final SessionInputBuffer in, final Wire wire, final String charset)\n
+    (final SessionInputBuffer in, final Wire wire)\n
     '''
 def isDataAvailable():
-    '''public boolean isDataAvailable(final int timeout)
+    '''returns boolean\n\n
+    isDataAvailable(final int timeout)\n
     '''
 def read():
-    '''public int read(final byte[] b, final int off, final int len)
-    public int read()
-    public int read(final byte[] b)
+    '''returns int\n\n
+    read(final byte[] b, final int off, final int len)\n
+    read()\n
+    read(final byte[] b)\n
     '''
 def readLine():
-    '''public String readLine()
-    public int readLine(final CharArrayBuffer buffer)
+    '''returns int\n\n
+    readLine()\n
+    readLine(final CharArrayBuffer buffer)\n
     '''
 def getMetrics():
-    '''public HttpTransportMetrics getMetrics()
+    '''returns HttpTransportMetrics\n\n
+    getMetrics()\n
     '''
 def isEof():
-    '''public boolean isEof()
+    '''returns boolean\n\n
+    isEof()\n
     '''

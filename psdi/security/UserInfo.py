@@ -1,199 +1,264 @@
 def setRestUser():
-    '''public void setRestUser(final boolean restUser)
+    '''returns None\n\n
+    setRestUser(final boolean restUser)\n
     '''
 def isRestUser():
-    '''public boolean isRestUser()
+    '''returns boolean\n\n
+    isRestUser()\n
     '''
 def getUserLoginDetails():
-    '''public UserLoginDetails getUserLoginDetails()
+    '''returns UserLoginDetails\n\n
+    getUserLoginDetails()\n
     '''
 def getConnectionKey():
-    '''public ConnectionKey getConnectionKey()
+    '''returns ConnectionKey\n\n
+    getConnectionKey()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def getIBMID():
-    '''public String getIBMID()
+    '''returns String\n\n
+    getIBMID()\n
     '''
 def getDefaultUserNotfType():
-    '''public String getDefaultUserNotfType()
+    '''returns String\n\n
+    getDefaultUserNotfType()\n
     '''
 def getIBMPass():
-    '''public String getIBMPass()
+    '''returns String\n\n
+    getIBMPass()\n
     '''
 def getPersonId():
-    '''public String getPersonId()
+    '''returns String\n\n
+    getPersonId()\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getLoginUserName():
-    '''public String getLoginUserName()
+    '''returns String\n\n
+    getLoginUserName()\n
     '''
 def getLoginID():
-    '''public String getLoginID()
+    '''returns String\n\n
+    getLoginID()\n
     '''
 def setEmail():
-    '''public void setEmail(final String email)
+    '''returns None\n\n
+    setEmail(final String email)\n
     '''
 def getEmail():
-    '''public String getEmail()
+    '''returns String\n\n
+    getEmail()\n
     '''
 def setPhone():
-    '''public void setPhone(final String phone)
+    '''returns None\n\n
+    setPhone(final String phone)\n
     '''
 def getPhone():
-    '''public String getPhone()
+    '''returns String\n\n
+    getPhone()\n
     '''
 def setMaxSessionID():
-    '''public void setMaxSessionID(final long maxsessionid)
+    '''returns None\n\n
+    setMaxSessionID(final long maxsessionid)\n
     '''
 def getMaxSessionID():
-    '''public long getMaxSessionID()
+    '''returns long\n\n
+    getMaxSessionID()\n
     '''
 def setUserName():
-    '''public void setUserName(final String s)
+    '''returns None\n\n
+    setUserName(final String s)\n
     '''
 def getSchemaOwner():
-    '''public String getSchemaOwner()
+    '''returns String\n\n
+    getSchemaOwner()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getICULocale():
-    '''public ULocale getICULocale()
+    '''returns ULocale\n\n
+    getICULocale()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
-    public void setLocale(final String localeStr)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
+    setLocale(final String localeStr)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone timeZone)
-    public void setTimeZone(final String tzStr)
+    '''returns None\n\n
+    setTimeZone(final TimeZone timeZone)\n
+    setTimeZone(final String tzStr)\n
     '''
 def getBaseCurrency():
-    '''public String getBaseCurrency()
+    '''returns String\n\n
+    getBaseCurrency()\n
     '''
 def setMXServer():
-    '''public void setMXServer(final MXServerRemote server)
+    '''returns None\n\n
+    setMXServer(final MXServerRemote server)\n
     '''
 def getServerGuid():
-    '''public UUID getServerGuid()
+    '''returns UUID\n\n
+    getServerGuid()\n
     '''
 def getCaltype():
-    '''public String getCaltype()
+    '''returns String\n\n
+    getCaltype()\n
     '''
 def setCalType():
-    '''public void setCalType(final String Cal)
+    '''returns None\n\n
+    setCalType(final String Cal)\n
     '''
 def getBaseCaltype():
-    '''public String getBaseCaltype()
+    '''returns String\n\n
+    getBaseCaltype()\n
     '''
 def getLangCode():
-    '''public String getLangCode()
+    '''returns String\n\n
+    getLangCode()\n
     '''
 def setLangCode():
-    '''public void setLangCode(final String langCode)
-    public void setLangCode(final String langCode, final MXServerRemote server)
+    '''returns None\n\n
+    setLangCode(final String langCode)\n
+    setLangCode(final String langCode, final MXServerRemote server)\n
     '''
 def setInteractive():
-    '''public void setInteractive(final boolean interactiveValue)
+    '''returns None\n\n
+    setInteractive(final boolean interactiveValue)\n
     '''
 def isInteractive():
-    '''public boolean isInteractive()
+    '''returns boolean\n\n
+    isInteractive()\n
     '''
 def getDefaultLang():
-    '''public String getDefaultLang()
+    '''returns String\n\n
+    getDefaultLang()\n
     '''
 def getDefaultLocaleStr():
-    '''public String getDefaultLocaleStr()
+    '''returns String\n\n
+    getDefaultLocaleStr()\n
     '''
 def getDefaultTZStr():
-    '''public String getDefaultTZStr()
+    '''returns String\n\n
+    getDefaultTZStr()\n
     '''
 def refreshLoginDetails():
-    '''public void refreshLoginDetails(final UserLoginDetails newLoginDetails)
+    '''returns None\n\n
+    refreshLoginDetails(final UserLoginDetails newLoginDetails)\n
     '''
 def getInsertSite():
-    '''public String getInsertSite()
+    '''returns String\n\n
+    getInsertSite()\n
     '''
 def setInsertSite():
-    '''public void setInsertSite(String siteID)
+    '''returns None\n\n
+    setInsertSite(String siteID)\n
     '''
 def getScreenReader():
-    '''public boolean getScreenReader()
+    '''returns boolean\n\n
+    getScreenReader()\n
     '''
 def getInactiveSites():
-    '''public boolean getInactiveSites()
+    '''returns boolean\n\n
+    getInactiveSites()\n
     '''
 def clone():
-    '''public Object clone()
-    public Object clone(final boolean keepKey)
+    '''returns Object\n\n
+    clone()\n
+    clone(final boolean keepKey)\n
     '''
 def getCredential():
-    '''public Object getCredential()
+    '''returns Object\n\n
+    getCredential()\n
     '''
 def setCredential():
-    '''public void setCredential(final Object cert)
+    '''returns None\n\n
+    setCredential(final Object cert)\n
     '''
 def isClonedFrom():
-    '''public boolean isClonedFrom(final UserInfo ui)
+    '''returns boolean\n\n
+    isClonedFrom(final UserInfo ui)\n
     '''
 def getClientHost():
-    '''public String getClientHost()
+    '''returns String\n\n
+    getClientHost()\n
     '''
 def getClientAddr():
-    '''public String getClientAddr()
+    '''returns String\n\n
+    getClientAddr()\n
     '''
 def setPreview():
-    '''public boolean setPreview(final boolean flag)
+    '''returns boolean\n\n
+    setPreview(final boolean flag)\n
     '''
 def isPreview():
-    '''public boolean isPreview()
+    '''returns boolean\n\n
+    isPreview()\n
     '''
 def setLocalSession():
-    '''public void setLocalSession(final boolean isLocalSession)
+    '''returns None\n\n
+    setLocalSession(final boolean isLocalSession)\n
     '''
 def isLocalSession():
-    '''public boolean isLocalSession()
+    '''returns boolean\n\n
+    isLocalSession()\n
     '''
 def getStartApp():
-    '''public String getStartApp()
+    '''returns String\n\n
+    getStartApp()\n
     '''
 def setStartApp():
-    '''public void setStartApp(final String startApp)
+    '''returns None\n\n
+    setStartApp(final String startApp)\n
     '''
 def getLeftNav():
-    '''public int getLeftNav()
+    '''returns int\n\n
+    getLeftNav()\n
     '''
 def setLeftNav():
-    '''public void setLeftNav(final int leftNav)
+    '''returns None\n\n
+    setLeftNav(final int leftNav)\n
     '''
 def getTenantID():
-    '''public int getTenantID()
+    '''returns int\n\n
+    getTenantID()\n
     '''
 def isLandlord():
-    '''public boolean isLandlord()
+    '''returns boolean\n\n
+    isLandlord()\n
     '''
 def getSubscriptionId():
-    '''public long getSubscriptionId()
+    '''returns long\n\n
+    getSubscriptionId()\n
     '''
 def getSubscriptionPartNumber():
-    '''public String getSubscriptionPartNumber()
+    '''returns String\n\n
+    getSubscriptionPartNumber()\n
     '''
 def getSubscriberid():
-    '''public long getSubscriberid()
+    '''returns long\n\n
+    getSubscriberid()\n
     '''
 def getSeatid():
-    '''public String getSeatid()
+    '''returns String\n\n
+    getSeatid()\n
     '''
 def toJSON():
-    '''public void toJSON(final JSONObject jsonObject, final boolean lean)
+    '''returns None\n\n
+    toJSON(final JSONObject jsonObject, final boolean lean)\n
     '''

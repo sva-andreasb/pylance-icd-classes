@@ -1,32 +1,42 @@
-def ReplaceableUCharacterIterator():
-    '''public ReplaceableUCharacterIterator(final Replaceable replaceable)
-    public ReplaceableUCharacterIterator(final String str)
-    public ReplaceableUCharacterIterator(final StringBuffer buf)
+def ():
+    '''returns ReplaceableUCharacterIterator\n\n
+    (final Replaceable replaceable)\n
+    (final String str)\n
+    (final StringBuffer buf)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def current():
-    '''public int current()
+    '''returns int\n\n
+    current()\n
     '''
 def currentCodePoint():
-    '''public int currentCodePoint()
+    '''returns int\n\n
+    currentCodePoint()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def previous():
-    '''public int previous()
+    '''returns int\n\n
+    previous()\n
     '''
 def setIndex():
-    '''public void setIndex(final int currentIndex)
+    '''returns None\n\n
+    setIndex(final int currentIndex)\n
     '''
 def getText():
-    '''public int getText(final char[] fillIn, final int offset)
+    '''returns int\n\n
+    getText(final char[] fillIn, final int offset)\n
     '''

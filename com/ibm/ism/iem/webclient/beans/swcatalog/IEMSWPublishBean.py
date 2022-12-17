@@ -1,21 +1,20 @@
-def IEMSWPublishBean():
-    '''public IEMSWPublishBean()
-    '''
-def completeSW():
-    '''public synchronized void completeSW()
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final MboRemote lookupMbo)
+def ():
+    '''returns IEMSWPublishBean\n\n
+    ()\n
     '''
 def setCompletedStep1():
-    '''public void setCompletedStep1(final boolean enabled)
+    '''returns None\n\n
+    setCompletedStep1(final boolean enabled)\n
     '''
 def setCompletedStep2():
-    '''public void setCompletedStep2(final boolean enabled)
+    '''returns None\n\n
+    setCompletedStep2(final boolean enabled)\n
     '''
 def fillDeploymentTask():
-    '''public void fillDeploymentTask(final String taskName, final String taskID, final String siteName)
+    '''returns None\n\n
+    fillDeploymentTask(final String taskName, final String taskID, final String siteName)\n
     '''
 def createOffering():
-    '''public int createOffering()
+    '''returns int\n\n
+    createOffering()\n
     '''

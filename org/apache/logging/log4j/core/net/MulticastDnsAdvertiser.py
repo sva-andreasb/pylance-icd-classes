@@ -1,6 +1,8 @@
 def advertise():
-    '''public Object advertise(final Map<String, String> properties)
+    '''returns Object\n\n
+    advertise(final Map<String, String> properties)\n
     '''
 def unadvertise():
-    '''public void unadvertise(final Object serviceInfo)
+    '''returns None\n\n
+    unadvertise(final Object serviceInfo)\n
     '''

@@ -1,6 +1,8 @@
-def GetBindDNResponse():
-    '''public GetBindDNResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns GetBindDNResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getIdentity():
-    '''public String getIdentity()
+    '''returns String\n\n
+    getIdentity()\n
     '''

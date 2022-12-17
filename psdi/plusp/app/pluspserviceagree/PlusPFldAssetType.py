@@ -1,6 +1,8 @@
-def PlusPFldAssetType():
-    '''public PlusPFldAssetType(final MboValue mv)
+def ():
+    '''returns PlusPFldAssetType\n\n
+    (final MboValue mv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

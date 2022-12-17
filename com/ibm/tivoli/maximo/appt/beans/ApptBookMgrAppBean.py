@@ -1,6 +1,8 @@
 def APPLYWINS():
-    '''public int APPLYWINS()
+    '''returns int\n\n
+    APPLYWINS()\n
     '''
 def DUPLICATEWORKZONE():
-    '''public int DUPLICATEWORKZONE()
+    '''returns int\n\n
+    DUPLICATEWORKZONE()\n
     '''

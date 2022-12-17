@@ -1,76 +1,101 @@
-def GenericAuth():
-    '''public GenericAuth()
-    public GenericAuth(final String name, final String authClassName)
+def ():
+    '''returns GenericAuth\n\n
+    ()\n
+    (final String name, final String authClassName)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''
 def getAuthClassName():
-    '''public String getAuthClassName()
+    '''returns String\n\n
+    getAuthClassName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getCategoryName():
-    '''public String getCategoryName()
+    '''returns String\n\n
+    getCategoryName()\n
     '''
 def setCategoryName():
-    '''public void setCategoryName(final String name)
+    '''returns None\n\n
+    setCategoryName(final String name)\n
     '''
 def getScopeName():
-    '''public String getScopeName()
+    '''returns String\n\n
+    getScopeName()\n
     '''
 def setScopeName():
-    '''public void setScopeName(final String name)
+    '''returns None\n\n
+    setScopeName(final String name)\n
     '''
 def setPassword():
-    '''public void setPassword(final String passwd)
+    '''returns None\n\n
+    setPassword(final String passwd)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String username)
+    '''returns None\n\n
+    setUserName(final String username)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def setProperty():
-    '''public void setProperty(final String key, final Object val)
+    '''returns None\n\n
+    setProperty(final String key, final Object val)\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def debugPrint():
-    '''public void debugPrint()
+    '''returns None\n\n
+    debugPrint()\n
     '''
 def setTrustStoreSSLAuth():
-    '''public void setTrustStoreSSLAuth(final SSLAuth truststore)
+    '''returns None\n\n
+    setTrustStoreSSLAuth(final SSLAuth truststore)\n
     '''
 def getTrustStoreSSLAuth():
-    '''public SSLAuth getTrustStoreSSLAuth()
+    '''returns SSLAuth\n\n
+    getTrustStoreSSLAuth()\n
     '''
 def setKeyStoreSSLAuth():
-    '''public void setKeyStoreSSLAuth(final SSLAuth keystore)
+    '''returns None\n\n
+    setKeyStoreSSLAuth(final SSLAuth keystore)\n
     '''
 def getKeyStoreSSLAuth():
-    '''public SSLAuth getKeyStoreSSLAuth()
+    '''returns SSLAuth\n\n
+    getKeyStoreSSLAuth()\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def setOrder():
-    '''public void setOrder(final int order)
+    '''returns None\n\n
+    setOrder(final int order)\n
     '''

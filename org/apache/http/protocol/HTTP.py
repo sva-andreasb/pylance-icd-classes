@@ -28,6 +28,3 @@ OCTET_STREAM_TYPE = "String  \"application/octet-stream\""
 PLAIN_TEXT_TYPE = "String  \"text/plain\""
 CHARSET_PARAM = "String  \"; charset=\""
 DEFAULT_CONTENT_TYPE = "String  \"application/octet-stream\""
-def isWhitespace():
-    '''public static boolean isWhitespace(final char ch)
-    '''

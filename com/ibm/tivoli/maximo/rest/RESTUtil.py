@@ -1,36 +1,28 @@
-def RESTUtil():
-    '''public RESTUtil(final ResourceRequest req)
+def ():
+    '''returns RESTUtil\n\n
+    (final ResourceRequest req)\n
     '''
 def getDomainInfo():
-    '''public DomainInfo getDomainInfo(final String objectName, final String domainName, final String siteid, final String orgid)
-    '''
-def generateUniqueID():
-    '''public static String generateUniqueID()
+    '''returns DomainInfo\n\n
+    getDomainInfo(final String objectName, final String domainName, final String siteid, final String orgid)\n
     '''
 def setQbe():
-    '''public void setQbe(final MboSetRemote mboset, final Map<String, String[]> map)
+    '''returns None\n\n
+    setQbe(final MboSetRemote mboset, final Map<String, String[]> map)\n
     '''
 def getMboForQbe():
-    '''public MboRemote getMboForQbe(final MboSetRemote mboSet, final Map<String, String[]> qbeMap)
+    '''returns MboRemote\n\n
+    getMboForQbe(final MboSetRemote mboSet, final Map<String, String[]> qbeMap)\n
     '''
 def isNull():
-    '''public boolean isNull(final String value)
+    '''returns boolean\n\n
+    isNull(final String value)\n
     '''
 def invokeMethod():
-    '''public Object invokeMethod(final AppService maxService, final MethodInfo methodInfo, final Map<String, String[]> queryParams, final Map<String, String> paramsDescriptorMap, final Resource resource)
+    '''returns Object\n\n
+    invokeMethod(final AppService maxService, final MethodInfo methodInfo, final Map<String, String[]> queryParams, final Map<String, String> paramsDescriptorMap, final Resource resource)\n
     '''
 def interpreteDateExpression():
-    '''public Date interpreteDateExpression(final String value)
-    '''
-def getPropertyValues():
-    '''public static Set<String> getPropertyValues(final String propName, final String delimiter, final boolean caseSensitive)
-    '''
-def getProperty():
-    '''public static String getProperty(final String propName)
-    '''
-def getBooleanProperty():
-    '''public static boolean getBooleanProperty(final String propName, final boolean dflt)
-    '''
-def getIntegerProperty():
-    '''public static int getIntegerProperty(final String propName, final int dflt)
+    '''returns Date\n\n
+    interpreteDateExpression(final String value)\n
     '''

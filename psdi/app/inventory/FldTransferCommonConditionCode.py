@@ -1,12 +1,16 @@
-def FldTransferCommonConditionCode():
-    '''public FldTransferCommonConditionCode(final MboValue mbv, final String locationAttribute, final String siteAttribute, final String binAttribute, final String lotAttribute)
+def ():
+    '''returns FldTransferCommonConditionCode\n\n
+    (final MboValue mbv, final String locationAttribute, final String siteAttribute, final String binAttribute, final String lotAttribute)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

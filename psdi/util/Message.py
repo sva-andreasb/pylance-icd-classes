@@ -1,23 +1,30 @@
-def Message():
-    '''public Message(final String s)
+def ():
+    '''returns Message\n\n
+    (final String s)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getMessage():
-    '''public String getMessage()
-    public String getMessage(final Object[] args)
-    public String getMessage(final Object arg)
+    '''returns String\n\n
+    getMessage()\n
+    getMessage(final Object[] args)\n
+    getMessage(final Object arg)\n
     '''
 def setMessage():
-    '''public void setMessage(final String s)
+    '''returns None\n\n
+    setMessage(final String s)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale loc)
+    '''returns None\n\n
+    setLocale(final Locale loc)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''

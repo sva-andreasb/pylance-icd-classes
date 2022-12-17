@@ -1,9 +1,12 @@
-def MultiStepRepair():
-    '''public MultiStepRepair()
+def ():
+    '''returns MultiStepRepair\n\n
+    ()\n
     '''
 def doRepair():
-    '''public void doRepair()
+    '''returns None\n\n
+    doRepair()\n
     '''
 def add():
-    '''public void add(final Repair e)
+    '''returns None\n\n
+    add(final Repair e)\n
     '''

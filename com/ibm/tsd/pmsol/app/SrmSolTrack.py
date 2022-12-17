@@ -1,3 +1,4 @@
-def SrmSolTrack():
-    '''public SrmSolTrack(final MboSet ms)
+def ():
+    '''returns SrmSolTrack\n\n
+    (final MboSet ms)\n
     '''

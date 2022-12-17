@@ -1,9 +1,12 @@
 def label():
-    '''public JExpression label()
+    '''returns JExpression\n\n
+    label()\n
     '''
 def body():
-    '''public JBlock body()
+    '''returns JBlock\n\n
+    body()\n
     '''
 def state():
-    '''public void state(final JFormatter f)
+    '''returns None\n\n
+    state(final JFormatter f)\n
     '''

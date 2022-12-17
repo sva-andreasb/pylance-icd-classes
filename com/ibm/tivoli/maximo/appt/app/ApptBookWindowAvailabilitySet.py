@@ -1,3 +1,4 @@
-def ApptBookWindowAvailabilitySet():
-    '''public ApptBookWindowAvailabilitySet(final MboServerInterface ms)
+def ():
+    '''returns ApptBookWindowAvailabilitySet\n\n
+    (final MboServerInterface ms)\n
     '''

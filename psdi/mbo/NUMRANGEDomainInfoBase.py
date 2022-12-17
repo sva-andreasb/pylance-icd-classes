@@ -1,24 +1,28 @@
-def NUMRANGEDomainInfoBase():
-    '''public NUMRANGEDomainInfoBase(final String name, final long id)
+def ():
+    '''returns Detail\n\n
+    (final String name, final long id)\n
+    ()\n
     '''
 def initDetailObject():
-    '''public Detail initDetailObject(final String site, final String org)
+    '''returns Detail\n\n
+    initDetailObject(final String site, final String org)\n
     '''
 def addSegment():
-    '''public void addSegment(final double min, final double max, final double interval, final String siteId, final String orgId)
-    public void addSegment(final double min, final double max, final double interval)
-    public void addSegment(final double min, final double max, final double interval)
+    '''returns None\n\n
+    addSegment(final double min, final double max, final double interval, final String siteId, final String orgId)\n
+    addSegment(final double min, final double max, final double interval)\n
+    addSegment(final double min, final double max, final double interval)\n
     '''
 def getSegments():
-    '''public double[][] getSegments(final Object[] signature)
-    public double[][] getSegments()
+    '''returns double[][]\n\n
+    getSegments(final Object[] signature)\n
+    getSegments()\n
     '''
 def getDomainObject():
-    '''public MboValueListener getDomainObject(final MboValue mbv)
+    '''returns MboValueListener\n\n
+    getDomainObject(final MboValue mbv)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def Detail():
-    '''public Detail()
+    '''returns String\n\n
+    toString()\n
     '''

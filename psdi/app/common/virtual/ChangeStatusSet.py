@@ -1,10 +1,13 @@
-def ChangeStatusSet():
-    '''public ChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns ChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
-    public void execute(final MboRemote mbo)
+    '''returns None\n\n
+    execute()\n
+    execute(final MboRemote mbo)\n
     '''

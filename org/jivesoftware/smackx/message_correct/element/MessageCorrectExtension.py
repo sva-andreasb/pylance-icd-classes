@@ -1,21 +1,23 @@
 ELEMENT = "String  \"replace\""
 NAMESPACE = "String  \"urn:xmpp:message-correct:0\""
 ID_TAG = "String  \"id\""
-def MessageCorrectExtension():
-    '''public MessageCorrectExtension(final String idInitialMessage)
+def ():
+    '''returns MessageCorrectExtension\n\n
+    (final String idInitialMessage)\n
     '''
 def getIdInitialMessage():
-    '''public String getIdInitialMessage()
+    '''returns String\n\n
+    getIdInitialMessage()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    '''
-def from():
-    '''public static MessageCorrectExtension from(final Message message)
+    '''returns String\n\n
+    getNamespace()\n
     '''

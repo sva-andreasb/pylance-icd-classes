@@ -1,6 +1,8 @@
-def FldResourceType():
-    '''public FldResourceType(final MboValue mbv)
+def ():
+    '''returns FldResourceType\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

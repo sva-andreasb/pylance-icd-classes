@@ -1,27 +1,36 @@
 def preloadImage():
-    '''public ImageInfo preloadImage(final String uri, final Source src, final ImageContext context)
+    '''returns ImageInfo\n\n
+    preloadImage(final String uri, final Source src, final ImageContext context)\n
     '''
 def getPSStart():
-    '''public long getPSStart()
+    '''returns long\n\n
+    getPSStart()\n
     '''
 def getPSLength():
-    '''public long getPSLength()
+    '''returns long\n\n
+    getPSLength()\n
     '''
 def hasWMFPreview():
-    '''public boolean hasWMFPreview()
+    '''returns boolean\n\n
+    hasWMFPreview()\n
     '''
 def getWMFStart():
-    '''public long getWMFStart()
+    '''returns long\n\n
+    getWMFStart()\n
     '''
 def getWMFLength():
-    '''public long getWMFLength()
+    '''returns long\n\n
+    getWMFLength()\n
     '''
 def hasTIFFPreview():
-    '''public boolean hasTIFFPreview()
+    '''returns boolean\n\n
+    hasTIFFPreview()\n
     '''
 def getTIFFStart():
-    '''public long getTIFFStart()
+    '''returns long\n\n
+    getTIFFStart()\n
     '''
 def getTIFFLength():
-    '''public long getTIFFLength()
+    '''returns long\n\n
+    getTIFFLength()\n
     '''

@@ -1,240 +1,189 @@
 CURRENCY_SPC_CURRENCY_MATCH = "int  0"
 CURRENCY_SPC_SURROUNDING_MATCH = "int  1"
 CURRENCY_SPC_INSERT = "int  2"
-def DecimalFormatSymbols():
-    '''public DecimalFormatSymbols()
-    public DecimalFormatSymbols(final Locale locale)
-    public DecimalFormatSymbols(final ULocale locale)
-    '''
-def getInstance():
-    '''public static DecimalFormatSymbols getInstance()
-    public static DecimalFormatSymbols getInstance(final Locale locale)
-    public static DecimalFormatSymbols getInstance(final ULocale locale)
-    '''
-def forNumberingSystem():
-    '''public static DecimalFormatSymbols forNumberingSystem(final Locale locale, final NumberingSystem ns)
-    public static DecimalFormatSymbols forNumberingSystem(final ULocale locale, final NumberingSystem ns)
-    '''
-def getAvailableLocales():
-    '''public static Locale[] getAvailableLocales()
-    '''
-def getAvailableULocales():
-    '''public static ULocale[] getAvailableULocales()
+def ():
+    '''returns DecimalFormatSymbols\n\n
+    ()\n
+    (final Locale locale)\n
+    (final ULocale locale)\n
     '''
 def getZeroDigit():
-    '''public char getZeroDigit()
-    '''
-def getDigits():
-    '''public char[] getDigits()
+    '''returns char\n\n
+    getZeroDigit()\n
     '''
 def setZeroDigit():
-    '''public void setZeroDigit(final char zeroDigit)
-    '''
-def getDigitStrings():
-    '''public String[] getDigitStrings()
-    '''
-def getDigitStringsLocal():
-    '''public String[] getDigitStringsLocal()
-    '''
-def getCodePointZero():
-    '''public int getCodePointZero()
-    '''
-def setDigitStrings():
-    '''public void setDigitStrings(final String[] digitStrings)
+    '''returns None\n\n
+    setZeroDigit(final char zeroDigit)\n
     '''
 def getSignificantDigit():
-    '''public char getSignificantDigit()
+    '''returns char\n\n
+    getSignificantDigit()\n
     '''
 def setSignificantDigit():
-    '''public void setSignificantDigit(final char sigDigit)
+    '''returns None\n\n
+    setSignificantDigit(final char sigDigit)\n
     '''
 def getGroupingSeparator():
-    '''public char getGroupingSeparator()
+    '''returns char\n\n
+    getGroupingSeparator()\n
     '''
 def setGroupingSeparator():
-    '''public void setGroupingSeparator(final char groupingSeparator)
-    '''
-def getGroupingSeparatorString():
-    '''public String getGroupingSeparatorString()
-    '''
-def setGroupingSeparatorString():
-    '''public void setGroupingSeparatorString(final String groupingSeparatorString)
+    '''returns None\n\n
+    setGroupingSeparator(final char groupingSeparator)\n
     '''
 def getDecimalSeparator():
-    '''public char getDecimalSeparator()
+    '''returns char\n\n
+    getDecimalSeparator()\n
     '''
 def setDecimalSeparator():
-    '''public void setDecimalSeparator(final char decimalSeparator)
-    '''
-def getDecimalSeparatorString():
-    '''public String getDecimalSeparatorString()
-    '''
-def setDecimalSeparatorString():
-    '''public void setDecimalSeparatorString(final String decimalSeparatorString)
+    '''returns None\n\n
+    setDecimalSeparator(final char decimalSeparator)\n
     '''
 def getPerMill():
-    '''public char getPerMill()
+    '''returns char\n\n
+    getPerMill()\n
     '''
 def setPerMill():
-    '''public void setPerMill(final char perMill)
-    '''
-def getPerMillString():
-    '''public String getPerMillString()
-    '''
-def setPerMillString():
-    '''public void setPerMillString(final String perMillString)
+    '''returns None\n\n
+    setPerMill(final char perMill)\n
     '''
 def getPercent():
-    '''public char getPercent()
+    '''returns char\n\n
+    getPercent()\n
     '''
 def setPercent():
-    '''public void setPercent(final char percent)
-    '''
-def getPercentString():
-    '''public String getPercentString()
-    '''
-def setPercentString():
-    '''public void setPercentString(final String percentString)
+    '''returns None\n\n
+    setPercent(final char percent)\n
     '''
 def getDigit():
-    '''public char getDigit()
+    '''returns char\n\n
+    getDigit()\n
     '''
 def setDigit():
-    '''public void setDigit(final char digit)
+    '''returns None\n\n
+    setDigit(final char digit)\n
     '''
 def getPatternSeparator():
-    '''public char getPatternSeparator()
+    '''returns char\n\n
+    getPatternSeparator()\n
     '''
 def setPatternSeparator():
-    '''public void setPatternSeparator(final char patternSeparator)
+    '''returns None\n\n
+    setPatternSeparator(final char patternSeparator)\n
     '''
 def getInfinity():
-    '''public String getInfinity()
+    '''returns String\n\n
+    getInfinity()\n
     '''
 def setInfinity():
-    '''public void setInfinity(final String infinity)
+    '''returns None\n\n
+    setInfinity(final String infinity)\n
     '''
 def getNaN():
-    '''public String getNaN()
+    '''returns String\n\n
+    getNaN()\n
     '''
 def setNaN():
-    '''public void setNaN(final String NaN)
+    '''returns None\n\n
+    setNaN(final String NaN)\n
     '''
 def getMinusSign():
-    '''public char getMinusSign()
+    '''returns char\n\n
+    getMinusSign()\n
     '''
 def setMinusSign():
-    '''public void setMinusSign(final char minusSign)
-    '''
-def getMinusSignString():
-    '''public String getMinusSignString()
-    '''
-def setMinusSignString():
-    '''public void setMinusSignString(final String minusSignString)
-    '''
-def getPlusSign():
-    '''public char getPlusSign()
-    '''
-def setPlusSign():
-    '''public void setPlusSign(final char plus)
-    '''
-def getPlusSignString():
-    '''public String getPlusSignString()
-    '''
-def setPlusSignString():
-    '''public void setPlusSignString(final String plusSignString)
+    '''returns None\n\n
+    setMinusSign(final char minusSign)\n
     '''
 def getCurrencySymbol():
-    '''public String getCurrencySymbol()
+    '''returns String\n\n
+    getCurrencySymbol()\n
     '''
 def setCurrencySymbol():
-    '''public void setCurrencySymbol(final String currency)
+    '''returns None\n\n
+    setCurrencySymbol(final String currency)\n
     '''
 def getInternationalCurrencySymbol():
-    '''public String getInternationalCurrencySymbol()
+    '''returns String\n\n
+    getInternationalCurrencySymbol()\n
     '''
 def setInternationalCurrencySymbol():
-    '''public void setInternationalCurrencySymbol(final String currency)
+    '''returns None\n\n
+    setInternationalCurrencySymbol(final String currency)\n
     '''
 def getCurrency():
-    '''public Currency getCurrency()
+    '''returns Currency\n\n
+    getCurrency()\n
     '''
 def setCurrency():
-    '''public void setCurrency(final Currency currency)
+    '''returns None\n\n
+    setCurrency(final Currency currency)\n
     '''
 def getMonetaryDecimalSeparator():
-    '''public char getMonetaryDecimalSeparator()
-    '''
-def setMonetaryDecimalSeparator():
-    '''public void setMonetaryDecimalSeparator(final char sep)
-    '''
-def getMonetaryDecimalSeparatorString():
-    '''public String getMonetaryDecimalSeparatorString()
-    '''
-def setMonetaryDecimalSeparatorString():
-    '''public void setMonetaryDecimalSeparatorString(final String sep)
+    '''returns char\n\n
+    getMonetaryDecimalSeparator()\n
     '''
 def getMonetaryGroupingSeparator():
-    '''public char getMonetaryGroupingSeparator()
+    '''returns char\n\n
+    getMonetaryGroupingSeparator()\n
+    '''
+def setMonetaryDecimalSeparator():
+    '''returns None\n\n
+    setMonetaryDecimalSeparator(final char sep)\n
     '''
 def setMonetaryGroupingSeparator():
-    '''public void setMonetaryGroupingSeparator(final char sep)
-    '''
-def getMonetaryGroupingSeparatorString():
-    '''public String getMonetaryGroupingSeparatorString()
-    '''
-def setMonetaryGroupingSeparatorString():
-    '''public void setMonetaryGroupingSeparatorString(final String sep)
-    '''
-def getCurrencyPattern():
-    '''public String getCurrencyPattern()
-    '''
-def getExponentMultiplicationSign():
-    '''public String getExponentMultiplicationSign()
-    '''
-def setExponentMultiplicationSign():
-    '''public void setExponentMultiplicationSign(final String exponentMultiplicationSign)
+    '''returns None\n\n
+    setMonetaryGroupingSeparator(final char sep)\n
     '''
 def getExponentSeparator():
-    '''public String getExponentSeparator()
+    '''returns String\n\n
+    getExponentSeparator()\n
     '''
 def setExponentSeparator():
-    '''public void setExponentSeparator(final String exp)
+    '''returns None\n\n
+    setExponentSeparator(final String exp)\n
+    '''
+def getPlusSign():
+    '''returns char\n\n
+    getPlusSign()\n
+    '''
+def setPlusSign():
+    '''returns None\n\n
+    setPlusSign(final char plus)\n
     '''
 def getPadEscape():
-    '''public char getPadEscape()
+    '''returns char\n\n
+    getPadEscape()\n
     '''
 def setPadEscape():
-    '''public void setPadEscape(final char c)
+    '''returns None\n\n
+    setPadEscape(final char c)\n
     '''
 def getPatternForCurrencySpacing():
-    '''public String getPatternForCurrencySpacing(final int itemType, final boolean beforeCurrency)
+    '''returns String\n\n
+    getPatternForCurrencySpacing(final int itemType, final boolean beforeCurrency)\n
     '''
 def setPatternForCurrencySpacing():
-    '''public void setPatternForCurrencySpacing(final int itemType, final boolean beforeCurrency, final String pattern)
+    '''returns None\n\n
+    setPatternForCurrencySpacing(final int itemType, final boolean beforeCurrency, final String pattern)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
-    public final ULocale getLocale(final ULocale.Type type)
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def DecFmtDataSink():
-    '''public DecFmtDataSink(final String[] numberElements)
-    '''
-def put():
-    '''public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
-    '''
-def CacheData():
-    '''public CacheData(final ULocale loc, final String[] digits, final String[] numberElements)
+    '''returns int\n\n
+    hashCode()\n
     '''

@@ -1,16 +1,21 @@
-def BoundedReader():
-    '''public BoundedReader(final Reader target, final int maxCharsFromTargetReader)
+def ():
+    '''returns BoundedReader\n\n
+    (final Reader target, final int maxCharsFromTargetReader)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def mark():
-    '''public void mark(final int readAheadLimit)
+    '''returns None\n\n
+    mark(final int readAheadLimit)\n
     '''
 def read():
-    '''public int read()
-    public int read(final char[] cbuf, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final char[] cbuf, final int off, final int len)\n
     '''

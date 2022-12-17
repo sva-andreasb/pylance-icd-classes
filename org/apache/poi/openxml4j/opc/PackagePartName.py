@@ -1,28 +1,32 @@
 def isRelationshipPartURI():
-    '''public boolean isRelationshipPartURI()
+    '''returns boolean\n\n
+    isRelationshipPartURI()\n
     '''
 def compareTo():
-    '''public int compareTo(final PackagePartName other)
+    '''returns int\n\n
+    compareTo(final PackagePartName other)\n
     '''
 def getExtension():
-    '''public String getExtension()
+    '''returns String\n\n
+    getExtension()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getURI():
-    '''public URI getURI()
-    '''
-def compare():
-    '''public static int compare(final PackagePartName obj1, final PackagePartName obj2)
-    public static int compare(final String str1, final String str2)
+    '''returns URI\n\n
+    getURI()\n
     '''

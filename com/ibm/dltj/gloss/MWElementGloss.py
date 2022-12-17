@@ -1,39 +1,51 @@
 TRIGGER_FLAG = "int  Integer.MIN_VALUE"
 LEFT_CONTEXT_FLAG = "int  1073741824"
-def MWElementGloss():
-    '''public MWElementGloss()
-    public MWElementGloss(final boolean b, final boolean b2)
+def ():
+    '''returns MWElementGloss\n\n
+    ()\n
+    (final boolean b, final boolean b2)\n
     '''
 def getFlags():
-    '''public int getFlags()
+    '''returns int\n\n
+    getFlags()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def isTrigger():
-    '''public boolean isTrigger()
+    '''returns boolean\n\n
+    isTrigger()\n
     '''
 def needsLeftContext():
-    '''public boolean needsLeftContext()
+    '''returns boolean\n\n
+    needsLeftContext()\n
     '''
 def addMWU():
-    '''public void addMWU(final MWUGloss mwuGloss)
+    '''returns None\n\n
+    addMWU(final MWUGloss mwuGloss)\n
     '''
 def removeLast():
-    '''public void removeLast()
+    '''returns None\n\n
+    removeLast()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

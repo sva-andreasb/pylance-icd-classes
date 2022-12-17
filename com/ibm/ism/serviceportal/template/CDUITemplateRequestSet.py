@@ -1,3 +1,4 @@
-def CDUITemplateRequestSet():
-    '''public CDUITemplateRequestSet(final MboServerInterface ms)
+def ():
+    '''returns CDUITemplateRequestSet\n\n
+    (final MboServerInterface ms)\n
     '''

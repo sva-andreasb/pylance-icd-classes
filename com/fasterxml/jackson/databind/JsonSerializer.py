@@ -1,28 +1,37 @@
 def unwrappingSerializer():
-    '''public JsonSerializer<T> unwrappingSerializer(final NameTransformer unwrapper)
+    '''returns JsonSerializer<T>\n\n
+    unwrappingSerializer(final NameTransformer unwrapper)\n
     '''
 def replaceDelegatee():
-    '''public JsonSerializer<T> replaceDelegatee(final JsonSerializer<?> delegatee)
+    '''returns JsonSerializer<T>\n\n
+    replaceDelegatee(final JsonSerializer<?> delegatee)\n
     '''
 def serializeWithType():
-    '''public void serializeWithType(final T value, final JsonGenerator gen, final SerializerProvider serializers, final TypeSerializer typeSer)
+    '''returns None\n\n
+    serializeWithType(final T value, final JsonGenerator gen, final SerializerProvider serializers, final TypeSerializer typeSer)\n
     '''
 def handledType():
-    '''public Class<T> handledType()
+    '''returns Class<T>\n\n
+    handledType()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty(final T value)
-    public boolean isEmpty(final SerializerProvider provider, final T value)
+    '''returns boolean\n\n
+    isEmpty(final T value)\n
+    isEmpty(final SerializerProvider provider, final T value)\n
     '''
 def usesObjectId():
-    '''public boolean usesObjectId()
+    '''returns boolean\n\n
+    usesObjectId()\n
     '''
 def isUnwrappingSerializer():
-    '''public boolean isUnwrappingSerializer()
+    '''returns boolean\n\n
+    isUnwrappingSerializer()\n
     '''
 def properties():
-    '''public Iterator<PropertyWriter> properties()
+    '''returns Iterator<PropertyWriter>\n\n
+    properties()\n
     '''
 def acceptJsonFormatVisitor():
-    '''public void acceptJsonFormatVisitor(final JsonFormatVisitorWrapper visitor, final JavaType type)
+    '''returns None\n\n
+    acceptJsonFormatVisitor(final JsonFormatVisitorWrapper visitor, final JavaType type)\n
     '''

@@ -1,30 +1,37 @@
-def IlvMakeActivityInteractor():
-    '''public IlvMakeActivityInteractor()
+def ():
+    '''returns ActivitySelector\n\n
+    ()\n
+    (final IlvGanttSheet a, final IlvActivity b)\n
     '''
 def getCursor():
-    '''public Cursor getCursor()
+    '''returns Cursor\n\n
+    getCursor()\n
     '''
 def setCursor():
-    '''public void setCursor(final Cursor f)
+    '''returns None\n\n
+    setCursor(final Cursor f)\n
     '''
 def setLineStyle():
-    '''public void setLineStyle(final float[] d)
+    '''returns None\n\n
+    setLineStyle(final float[] d)\n
     '''
 def getLineStyle():
-    '''public float[] getLineStyle()
+    '''returns float[]\n\n
+    getLineStyle()\n
     '''
 def isGhostMode():
-    '''public boolean isGhostMode()
+    '''returns boolean\n\n
+    isGhostMode()\n
     '''
 def setGhostMode():
-    '''public void setGhostMode(final boolean h)
+    '''returns None\n\n
+    setGhostMode(final boolean h)\n
     '''
 def abort():
-    '''public void abort()
-    '''
-def ActivitySelector():
-    '''public ActivitySelector(final IlvGanttSheet a, final IlvActivity b)
+    '''returns None\n\n
+    abort()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

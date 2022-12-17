@@ -1,12 +1,16 @@
-def AuthOption():
-    '''public AuthOption(final AuthScheme authScheme, final Credentials creds)
+def ():
+    '''returns AuthOption\n\n
+    (final AuthScheme authScheme, final Credentials creds)\n
     '''
 def getAuthScheme():
-    '''public AuthScheme getAuthScheme()
+    '''returns AuthScheme\n\n
+    getAuthScheme()\n
     '''
 def getCredentials():
-    '''public Credentials getCredentials()
+    '''returns Credentials\n\n
+    getCredentials()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

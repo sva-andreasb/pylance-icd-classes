@@ -1,6 +1,8 @@
 def nameChanged():
-    '''public void nameChanged(final NamesEvent namesEvent)
+    '''returns None\n\n
+    nameChanged(final NamesEvent namesEvent)\n
     '''
 def nameDelimiterChanged():
-    '''public void nameDelimiterChanged(final NamesEvent namesEvent)
+    '''returns None\n\n
+    nameDelimiterChanged(final NamesEvent namesEvent)\n
     '''

@@ -1,3 +1,4 @@
-def ShowAssignmentSet():
-    '''public ShowAssignmentSet(final MboRemote owner)
+def ():
+    '''returns ShowAssignmentSet\n\n
+    (final MboRemote owner)\n
     '''

@@ -1,75 +1,100 @@
-def ExpressionBuilderSet():
-    '''public ExpressionBuilderSet(final MboServerInterface ms)
+def ():
+    '''returns ExpressionBuilderSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setTreeObject():
-    '''public void setTreeObject(final String objectname)
+    '''returns None\n\n
+    setTreeObject(final String objectname)\n
     '''
 def getTreeObject():
-    '''public String getTreeObject()
+    '''returns String\n\n
+    getTreeObject()\n
     '''
 def getObjectAttribute():
-    '''public String getObjectAttribute()
+    '''returns String\n\n
+    getObjectAttribute()\n
     '''
 def setObjectAttribute():
-    '''public void setObjectAttribute(final String attrname)
+    '''returns None\n\n
+    setObjectAttribute(final String attrname)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def isDotNotationOn():
-    '''public boolean isDotNotationOn()
+    '''returns boolean\n\n
+    isDotNotationOn()\n
     '''
 def isSubselectsOn():
-    '''public boolean isSubselectsOn()
+    '''returns boolean\n\n
+    isSubselectsOn()\n
     '''
 def setDotNotation():
-    '''public void setDotNotation(final boolean flag)
+    '''returns None\n\n
+    setDotNotation(final boolean flag)\n
     '''
 def setSubSelects():
-    '''public void setSubSelects(final boolean flag)
+    '''returns None\n\n
+    setSubSelects(final boolean flag)\n
     '''
 def isRelationshipsOn():
-    '''public boolean isRelationshipsOn()
+    '''returns boolean\n\n
+    isRelationshipsOn()\n
     '''
 def isAttributesOn():
-    '''public boolean isAttributesOn()
+    '''returns boolean\n\n
+    isAttributesOn()\n
     '''
 def setRelationship():
-    '''public void setRelationship(final boolean flag)
+    '''returns None\n\n
+    setRelationship(final boolean flag)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final boolean flag)
+    '''returns None\n\n
+    setAttributes(final boolean flag)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getAllHierarchies():
-    '''public MboValueData[][] getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getHierarchy():
-    '''public MboValueData[] getHierarchy(final String object, final String key)
+    '''returns MboValueData[]\n\n
+    getHierarchy(final String object, final String key)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String object, final String key, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String object, final String key, final String hierarchy)\n
     '''
 def getUniqueIDValue():
-    '''public MboValueData getUniqueIDValue(final String object, final String[] attributes, final String[] values)
+    '''returns MboValueData\n\n
+    getUniqueIDValue(final String object, final String[] attributes, final String[] values)\n
     '''

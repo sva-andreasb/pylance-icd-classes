@@ -1,3 +1,4 @@
-def VpkMsgLoginCont():
-    '''public VpkMsgLoginCont(final int n)
+def ():
+    '''returns VpkMsgLoginCont\n\n
+    (final int n)\n
     '''

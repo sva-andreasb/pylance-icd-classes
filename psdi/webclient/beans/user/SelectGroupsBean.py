@@ -1,3 +1,4 @@
 def okGroups():
-    '''public int okGroups()
+    '''returns int\n\n
+    okGroups()\n
     '''

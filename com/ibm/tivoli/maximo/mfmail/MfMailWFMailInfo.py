@@ -1,4 +1,5 @@
-def MfMailWFMailInfo():
-    '''public MfMailWFMailInfo(final int dev)
-    public MfMailWFMailInfo(final int dev, final long w)
+def ():
+    '''returns MfMailWFMailInfo\n\n
+    (final int dev)\n
+    (final int dev, final long w)\n
     '''

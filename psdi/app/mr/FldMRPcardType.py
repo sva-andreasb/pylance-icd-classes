@@ -1,3 +1,4 @@
-def FldMRPcardType():
-    '''public FldMRPcardType(final MboValue mbv)
+def ():
+    '''returns FldMRPcardType\n\n
+    (final MboValue mbv)\n
     '''

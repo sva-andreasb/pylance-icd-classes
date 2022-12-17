@@ -1,136 +1,176 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def setDetailType():
-    '''public void setDetailType(final com.softlayer.api.service.account.regional.registry.detail.Type detailType)
+    '''returns None\n\n
+    setDetailType(final com.softlayer.api.service.account.regional.registry.detail.Type detailType)\n
     '''
 def getDetails():
-    '''public List<Details> getDetails()
+    '''returns List<Details>\n\n
+    getDetails()\n
     '''
 def getProperties():
-    '''public List<Property> getProperties()
+    '''returns List<Property>\n\n
+    getProperties()\n
     '''
 def getRegionalInternetRegistryHandle():
-    '''public Handle getRegionalInternetRegistryHandle()
+    '''returns Handle\n\n
+    getRegionalInternetRegistryHandle()\n
     '''
 def setRegionalInternetRegistryHandle():
-    '''public void setRegionalInternetRegistryHandle(final Handle regionalInternetRegistryHandle)
+    '''returns None\n\n
+    setRegionalInternetRegistryHandle(final Handle regionalInternetRegistryHandle)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getDetailTypeId():
-    '''public Long getDetailTypeId()
+    '''returns Long\n\n
+    getDetailTypeId()\n
     '''
 def setDetailTypeId():
-    '''public void setDetailTypeId(final Long detailTypeId)
+    '''returns None\n\n
+    setDetailTypeId(final Long detailTypeId)\n
     '''
 def isDetailTypeIdSpecified():
-    '''public boolean isDetailTypeIdSpecified()
+    '''returns boolean\n\n
+    isDetailTypeIdSpecified()\n
     '''
 def unsetDetailTypeId():
-    '''public void unsetDetailTypeId()
+    '''returns None\n\n
+    unsetDetailTypeId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getRegionalInternetRegistryHandleId():
-    '''public Long getRegionalInternetRegistryHandleId()
+    '''returns Long\n\n
+    getRegionalInternetRegistryHandleId()\n
     '''
 def setRegionalInternetRegistryHandleId():
-    '''public void setRegionalInternetRegistryHandleId(final Long regionalInternetRegistryHandleId)
+    '''returns None\n\n
+    setRegionalInternetRegistryHandleId(final Long regionalInternetRegistryHandleId)\n
     '''
 def isRegionalInternetRegistryHandleIdSpecified():
-    '''public boolean isRegionalInternetRegistryHandleIdSpecified()
+    '''returns boolean\n\n
+    isRegionalInternetRegistryHandleIdSpecified()\n
     '''
 def unsetRegionalInternetRegistryHandleId():
-    '''public void unsetRegionalInternetRegistryHandleId()
+    '''returns None\n\n
+    unsetRegionalInternetRegistryHandleId()\n
     '''
 def getDetailCount():
-    '''public Long getDetailCount()
+    '''returns Long\n\n
+    getDetailCount()\n
     '''
 def setDetailCount():
-    '''public void setDetailCount(final Long detailCount)
+    '''returns None\n\n
+    setDetailCount(final Long detailCount)\n
     '''
 def getPropertyCount():
-    '''public Long getPropertyCount()
+    '''returns Long\n\n
+    getPropertyCount()\n
     '''
 def setPropertyCount():
-    '''public void setPropertyCount(final Long propertyCount)
+    '''returns None\n\n
+    setPropertyCount(final Long propertyCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def detailTypeId():
-    '''public Mask detailTypeId()
+    '''returns Mask\n\n
+    detailTypeId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def regionalInternetRegistryHandleId():
-    '''public Mask regionalInternetRegistryHandleId()
+    '''returns Mask\n\n
+    regionalInternetRegistryHandleId()\n
     '''
 def detailCount():
-    '''public Mask detailCount()
+    '''returns Mask\n\n
+    detailCount()\n
     '''
 def propertyCount():
-    '''public Mask propertyCount()
+    '''returns Mask\n\n
+    propertyCount()\n
     '''

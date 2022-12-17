@@ -1,36 +1,48 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def applymovedflt():
-    '''public int applymovedflt()
+    '''returns int\n\n
+    applymovedflt()\n
     '''
 def applymovesite():
-    '''public int applymovesite()
+    '''returns int\n\n
+    applymovesite()\n
     '''
 def applymoveparent():
-    '''public int applymoveparent()
+    '''returns int\n\n
+    applymoveparent()\n
     '''
 def applymoveloc():
-    '''public int applymoveloc()
+    '''returns int\n\n
+    applymoveloc()\n
     '''
 def applymovebin():
-    '''public int applymovebin()
+    '''returns int\n\n
+    applymovebin()\n
     '''
 def applyusercustdfld():
-    '''public int applyusercustdfld()
+    '''returns int\n\n
+    applyusercustdfld()\n
     '''
 def applyattrdfld():
-    '''public int applyattrdfld()
+    '''returns int\n\n
+    applyattrdfld()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def applymovegla():
-    '''public int applymovegla()
+    '''returns int\n\n
+    applymovegla()\n
     '''
 def applypersongroupfld():
-    '''public int applypersongroupfld()
+    '''returns int\n\n
+    applypersongroupfld()\n
     '''
 def pluscapplymovelploc():
-    '''public int pluscapplymovelploc()
+    '''returns int\n\n
+    pluscapplymovelploc()\n
     '''

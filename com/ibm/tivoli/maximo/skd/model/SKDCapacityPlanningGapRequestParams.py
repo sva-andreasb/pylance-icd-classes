@@ -1,16 +1,21 @@
-def SKDCapacityPlanningGapRequestParams():
-    '''public SKDCapacityPlanningGapRequestParams()
-    public SKDCapacityPlanningGapRequestParams(final String projectId, final ViewType viewType)
+def ():
+    '''returns SKDCapacityPlanningGapRequestParams\n\n
+    ()\n
+    (final String projectId, final ViewType viewType)\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String projectId)
+    '''returns None\n\n
+    setProjectId(final String projectId)\n
     '''
 def getViewType():
-    '''public ViewType getViewType()
+    '''returns ViewType\n\n
+    getViewType()\n
     '''
 def setViewType():
-    '''public void setViewType(final ViewType viewType)
+    '''returns None\n\n
+    setViewType(final ViewType viewType)\n
     '''

@@ -1,3 +1,4 @@
-def InvalidTxnStateException():
-    '''public InvalidTxnStateException(final String message)
+def ():
+    '''returns InvalidTxnStateException\n\n
+    (final String message)\n
     '''

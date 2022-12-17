@@ -1,43 +1,56 @@
 def areScalesSelectable():
-    '''public boolean areScalesSelectable()
+    '''returns boolean\n\n
+    areScalesSelectable()\n
     '''
 def setScalesSelectable():
-    '''public void setScalesSelectable(final boolean b)
+    '''returns None\n\n
+    setScalesSelectable(final boolean b)\n
     '''
 def areSingleRenderersSelectable():
-    '''public boolean areSingleRenderersSelectable()
+    '''returns boolean\n\n
+    areSingleRenderersSelectable()\n
     '''
 def setSingleRenderersSelectable():
-    '''public void setSingleRenderersSelectable(final boolean c)
+    '''returns None\n\n
+    setSingleRenderersSelectable(final boolean c)\n
     '''
 def isSelectable():
-    '''public boolean isSelectable(final IlvScale ilvScale)
-    public boolean isSelectable(final IlvChartRenderer ilvChartRenderer)
-    public boolean isSelectable(final IlvDataSet set)
+    '''returns boolean\n\n
+    isSelectable(final IlvScale ilvScale)\n
+    isSelectable(final IlvChartRenderer ilvChartRenderer)\n
+    isSelectable(final IlvDataSet set)\n
     '''
 def setSelectable():
-    '''public void setSelectable(final IlvScale ilvScale, final boolean b)
-    public void setSelectable(final IlvChartRenderer ilvChartRenderer, final boolean b)
-    public void setSelectable(final IlvDataSet set, final boolean b)
+    '''returns None\n\n
+    setSelectable(final IlvScale ilvScale, final boolean b)\n
+    setSelectable(final IlvChartRenderer ilvChartRenderer, final boolean b)\n
+    setSelectable(final IlvDataSet set, final boolean b)\n
     '''
 def getFirstSelectable():
-    '''public IlvChartAreaAccessible getFirstSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)
+    '''returns IlvChartAreaAccessible\n\n
+    getFirstSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)\n
     '''
 def getLastSelectable():
-    '''public IlvChartAreaAccessible getLastSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)
+    '''returns IlvChartAreaAccessible\n\n
+    getLastSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)\n
     '''
 def getNextSelectable():
-    '''public IlvChartAreaAccessible getNextSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)
+    '''returns IlvChartAreaAccessible\n\n
+    getNextSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)\n
     '''
 def getPreviousSelectable():
-    '''public IlvChartAreaAccessible getPreviousSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)
+    '''returns IlvChartAreaAccessible\n\n
+    getPreviousSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)\n
     '''
 def getParentRowSelectable():
-    '''public IlvChartAreaAccessible getParentRowSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)
+    '''returns IlvChartAreaAccessible\n\n
+    getParentRowSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)\n
     '''
 def getChildRowFirstSelectable():
-    '''public IlvChartAreaAccessible getChildRowFirstSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)
+    '''returns IlvChartAreaAccessible\n\n
+    getChildRowFirstSelectable(final IlvChartAreaAccessible ilvChartAreaAccessible)\n
     '''
-def IlvDefaultChartAreaAccessibleHierarchy():
-    '''public IlvDefaultChartAreaAccessibleHierarchy(final IlvChart a)
+def ():
+    '''returns IlvDefaultChartAreaAccessibleHierarchy\n\n
+    (final IlvChart a)\n
     '''

@@ -1,6 +1,8 @@
-def FldUserName():
-    '''public FldUserName(final MboValue mbv)
+def ():
+    '''returns FldUserName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

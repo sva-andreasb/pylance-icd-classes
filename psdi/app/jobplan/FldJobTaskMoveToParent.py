@@ -1,6 +1,8 @@
-def FldJobTaskMoveToParent():
-    '''public FldJobTaskMoveToParent(final MboValue mbv)
+def ():
+    '''returns FldJobTaskMoveToParent\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

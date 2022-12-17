@@ -6,124 +6,71 @@ WEEKLY = "String  \"WEEKLY\""
 MONTHLY = "String  \"MONTHLY\""
 YEARLY = "String  \"YEARLY\""
 KEY_MAX_INCREMENT_COUNT = "String  \"net.fortuna.ical4j.recur.maxincrementcount\""
-def Recur():
-    '''public Recur(final String aValue)
-    public Recur(final String frequency, final Date until)
-    public Recur(final Frequency frequency, final Date until)
-    public Recur(final String frequency, final int count)
-    public Recur(final Frequency frequency, final int count)
-    '''
-def getDayList():
-    '''public final WeekDayList getDayList()
-    '''
-def getHourList():
-    '''public final NumberList getHourList()
-    '''
-def getMinuteList():
-    '''public final NumberList getMinuteList()
-    '''
-def getMonthDayList():
-    '''public final NumberList getMonthDayList()
-    '''
-def getMonthList():
-    '''public final NumberList getMonthList()
-    '''
-def getSecondList():
-    '''public final NumberList getSecondList()
-    '''
-def getSetPosList():
-    '''public final NumberList getSetPosList()
-    '''
-def getWeekNoList():
-    '''public final NumberList getWeekNoList()
-    '''
-def getYearDayList():
-    '''public final NumberList getYearDayList()
-    '''
-def getCount():
-    '''public final int getCount()
-    '''
-def getExperimentalValues():
-    '''public final Map<String, String> getExperimentalValues()
-    '''
-def getFrequency():
-    '''public final Frequency getFrequency()
-    '''
-def getInterval():
-    '''public final int getInterval()
-    '''
-def getUntil():
-    '''public final Date getUntil()
-    '''
-def setWeekStartDay():
-    '''public final void setWeekStartDay(final WeekDay.Day weekStartDay)
-    '''
-def toString():
-    '''public final String toString()
-    '''
-def getDates():
-    '''public final DateList getDates(final Date periodStart, final Date periodEnd, final Value value)
-    public final DateList getDates(final Date seed, final Period period, final Value value)
-    public final DateList getDates(final Date seed, final Date periodStart, final Date periodEnd, final Value value)
-    public final DateList getDates(final Date seed, final Date periodStart, final Date periodEnd, final Value value, final int maxCount)
-    '''
-def getNextDate():
-    '''public final Date getNextDate(final Date seed, final Date startDate)
-    '''
-def setCount():
-    '''public final void setCount(final int count)
-    '''
-def setFrequency():
-    '''public final void setFrequency(final String frequency)
-    '''
-def setInterval():
-    '''public final void setInterval(final int interval)
-    '''
-def setUntil():
-    '''public final void setUntil(final Date until)
+def ():
+    '''returns Recur\n\n
+    (final String aValue)\n
+    (final String frequency, final Date until)\n
+    (final Frequency frequency, final Date until)\n
+    (final String frequency, final int count)\n
+    (final Frequency frequency, final int count)\n
     '''
 def frequency():
-    '''public Builder frequency(final Frequency frequency)
+    '''returns Builder\n\n
+    frequency(final Frequency frequency)\n
     '''
 def until():
-    '''public Builder until(final Date until)
+    '''returns Builder\n\n
+    until(final Date until)\n
     '''
 def count():
-    '''public Builder count(final Integer count)
+    '''returns Builder\n\n
+    count(final Integer count)\n
     '''
 def interval():
-    '''public Builder interval(final Integer interval)
+    '''returns Builder\n\n
+    interval(final Integer interval)\n
     '''
 def secondList():
-    '''public Builder secondList(final NumberList secondList)
+    '''returns Builder\n\n
+    secondList(final NumberList secondList)\n
     '''
 def minuteList():
-    '''public Builder minuteList(final NumberList minuteList)
+    '''returns Builder\n\n
+    minuteList(final NumberList minuteList)\n
     '''
 def hourList():
-    '''public Builder hourList(final NumberList hourList)
+    '''returns Builder\n\n
+    hourList(final NumberList hourList)\n
     '''
 def dayList():
-    '''public Builder dayList(final WeekDayList dayList)
+    '''returns Builder\n\n
+    dayList(final WeekDayList dayList)\n
     '''
 def monthDayList():
-    '''public Builder monthDayList(final NumberList monthDayList)
+    '''returns Builder\n\n
+    monthDayList(final NumberList monthDayList)\n
     '''
 def yearDayList():
-    '''public Builder yearDayList(final NumberList yearDayList)
+    '''returns Builder\n\n
+    yearDayList(final NumberList yearDayList)\n
     '''
 def weekNoList():
-    '''public Builder weekNoList(final NumberList weekNoList)
+    '''returns Builder\n\n
+    weekNoList(final NumberList weekNoList)\n
     '''
 def monthList():
-    '''public Builder monthList(final NumberList monthList)
+    '''returns Builder\n\n
+    monthList(final NumberList monthList)\n
     '''
 def setPosList():
-    '''public Builder setPosList(final NumberList setPosList)
+    '''returns Builder\n\n
+    setPosList(final NumberList setPosList)\n
     '''
 def weekStartDay():
-    '''public Builder weekStartDay(final WeekDay.Day weekStartDay)
+    '''returns Builder\n\n
+    weekStartDay(final WeekDay.Day weekStartDay)\n
     '''
 def build():
-    '''public Recur build()
+    '''returns Recur\n\n
+    build()\n
     '''

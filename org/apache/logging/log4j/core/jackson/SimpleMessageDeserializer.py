@@ -1,3 +1,4 @@
 def deserialize():
-    '''public SimpleMessage deserialize(final JsonParser jp, final DeserializationContext ctxt)
+    '''returns SimpleMessage\n\n
+    deserialize(final JsonParser jp, final DeserializationContext ctxt)\n
     '''

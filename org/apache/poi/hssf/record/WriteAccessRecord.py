@@ -1,20 +1,26 @@
 sid = "short  92"
-def WriteAccessRecord():
-    '''public WriteAccessRecord()
-    public WriteAccessRecord(final RecordInputStream in)
+def ():
+    '''returns WriteAccessRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setUsername():
-    '''public void setUsername(final String username)
+    '''returns None\n\n
+    setUsername(final String username)\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

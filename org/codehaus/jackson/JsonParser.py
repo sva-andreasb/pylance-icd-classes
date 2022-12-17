@@ -1,130 +1,153 @@
 def setSchema():
-    '''public void setSchema(final FormatSchema schema)
+    '''returns None\n\n
+    setSchema(final FormatSchema schema)\n
     '''
 def canUseSchema():
-    '''public boolean canUseSchema(final FormatSchema schema)
+    '''returns boolean\n\n
+    canUseSchema(final FormatSchema schema)\n
     '''
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def getInputSource():
-    '''public Object getInputSource()
+    '''returns Object\n\n
+    getInputSource()\n
     '''
 def releaseBuffered():
-    '''public int releaseBuffered(final OutputStream out)
-    public int releaseBuffered(final Writer w)
+    '''returns int\n\n
+    releaseBuffered(final OutputStream out)\n
+    releaseBuffered(final Writer w)\n
     '''
 def enable():
-    '''public JsonParser enable(final Feature f)
+    '''returns JsonParser\n\n
+    enable(final Feature f)\n
     '''
 def disable():
-    '''public JsonParser disable(final Feature f)
+    '''returns JsonParser\n\n
+    disable(final Feature f)\n
     '''
 def configure():
-    '''public JsonParser configure(final Feature f, final boolean state)
+    '''returns JsonParser\n\n
+    configure(final Feature f, final boolean state)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Feature f)
+    '''returns boolean\n\n
+    isEnabled(final Feature f)\n
     '''
 def setFeature():
-    '''public void setFeature(final Feature f, final boolean state)
+    '''returns None\n\n
+    setFeature(final Feature f, final boolean state)\n
     '''
 def enableFeature():
-    '''public void enableFeature(final Feature f)
+    '''returns None\n\n
+    enableFeature(final Feature f)\n
     '''
 def disableFeature():
-    '''public void disableFeature(final Feature f)
-    '''
-def isFeatureEnabled():
-    '''public final boolean isFeatureEnabled(final Feature f)
+    '''returns None\n\n
+    disableFeature(final Feature f)\n
     '''
 def nextValue():
-    '''public JsonToken nextValue()
+    '''returns JsonToken\n\n
+    nextValue()\n
     '''
 def nextFieldName():
-    '''public boolean nextFieldName(final SerializableString str)
+    '''returns boolean\n\n
+    nextFieldName(final SerializableString str)\n
     '''
 def nextTextValue():
-    '''public String nextTextValue()
+    '''returns String\n\n
+    nextTextValue()\n
     '''
 def nextIntValue():
-    '''public int nextIntValue(final int defaultValue)
+    '''returns int\n\n
+    nextIntValue(final int defaultValue)\n
     '''
 def nextLongValue():
-    '''public long nextLongValue(final long defaultValue)
+    '''returns long\n\n
+    nextLongValue(final long defaultValue)\n
     '''
 def nextBooleanValue():
-    '''public Boolean nextBooleanValue()
+    '''returns Boolean\n\n
+    nextBooleanValue()\n
     '''
 def getCurrentToken():
-    '''public JsonToken getCurrentToken()
+    '''returns JsonToken\n\n
+    getCurrentToken()\n
     '''
 def hasCurrentToken():
-    '''public boolean hasCurrentToken()
+    '''returns boolean\n\n
+    hasCurrentToken()\n
     '''
 def clearCurrentToken():
-    '''public void clearCurrentToken()
+    '''returns None\n\n
+    clearCurrentToken()\n
     '''
 def getLastClearedToken():
-    '''public JsonToken getLastClearedToken()
+    '''returns JsonToken\n\n
+    getLastClearedToken()\n
     '''
 def isExpectedStartArrayToken():
-    '''public boolean isExpectedStartArrayToken()
+    '''returns boolean\n\n
+    isExpectedStartArrayToken()\n
     '''
 def hasTextCharacters():
-    '''public boolean hasTextCharacters()
+    '''returns boolean\n\n
+    hasTextCharacters()\n
     '''
 def getByteValue():
-    '''public byte getByteValue()
+    '''returns byte\n\n
+    getByteValue()\n
     '''
 def getShortValue():
-    '''public short getShortValue()
+    '''returns short\n\n
+    getShortValue()\n
     '''
 def getBooleanValue():
-    '''public boolean getBooleanValue()
+    '''returns boolean\n\n
+    getBooleanValue()\n
     '''
 def getEmbeddedObject():
-    '''public Object getEmbeddedObject()
+    '''returns Object\n\n
+    getEmbeddedObject()\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue()
+    '''returns byte[]\n\n
+    getBinaryValue()\n
     '''
 def getValueAsInt():
-    '''public int getValueAsInt()
-    public int getValueAsInt(final int defaultValue)
+    '''returns int\n\n
+    getValueAsInt()\n
+    getValueAsInt(final int defaultValue)\n
     '''
 def getValueAsLong():
-    '''public long getValueAsLong()
-    public long getValueAsLong(final long defaultValue)
+    '''returns long\n\n
+    getValueAsLong()\n
+    getValueAsLong(final long defaultValue)\n
     '''
 def getValueAsDouble():
-    '''public double getValueAsDouble()
-    public double getValueAsDouble(final double defaultValue)
+    '''returns double\n\n
+    getValueAsDouble()\n
+    getValueAsDouble(final double defaultValue)\n
     '''
 def getValueAsBoolean():
-    '''public boolean getValueAsBoolean()
-    public boolean getValueAsBoolean(final boolean defaultValue)
-    '''
-def readValueAs():
-    '''public <T> T readValueAs(final Class<T> valueType)
-    public <T> T readValueAs(final TypeReference<?> valueTypeRef)
-    '''
-def readValuesAs():
-    '''public <T> Iterator<T> readValuesAs(final Class<T> valueType)
-    public <T> Iterator<T> readValuesAs(final TypeReference<?> valueTypeRef)
+    '''returns boolean\n\n
+    getValueAsBoolean()\n
+    getValueAsBoolean(final boolean defaultValue)\n
     '''
 def readValueAsTree():
-    '''public JsonNode readValueAsTree()
-    '''
-def collectDefaults():
-    '''public static int collectDefaults()
+    '''returns JsonNode\n\n
+    readValueAsTree()\n
     '''
 def enabledByDefault():
-    '''public boolean enabledByDefault()
+    '''returns boolean\n\n
+    enabledByDefault()\n
     '''
 def enabledIn():
-    '''public boolean enabledIn(final int flags)
+    '''returns boolean\n\n
+    enabledIn(final int flags)\n
     '''
 def getMask():
-    '''public int getMask()
+    '''returns int\n\n
+    getMask()\n
     '''

@@ -1,3 +1,4 @@
 def build():
-    '''public RegexpQuery build(final QueryNode queryNode)
+    '''returns RegexpQuery\n\n
+    build(final QueryNode queryNode)\n
     '''

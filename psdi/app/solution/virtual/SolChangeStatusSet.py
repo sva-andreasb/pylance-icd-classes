@@ -1,3 +1,4 @@
-def SolChangeStatusSet():
-    '''public SolChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns SolChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

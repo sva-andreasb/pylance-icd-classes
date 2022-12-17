@@ -1,3 +1,4 @@
-def SASLPlainMechanism():
-    '''public SASLPlainMechanism(final SASLAuthentication saslAuthentication)
+def ():
+    '''returns SASLPlainMechanism\n\n
+    (final SASLAuthentication saslAuthentication)\n
     '''

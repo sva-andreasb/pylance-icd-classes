@@ -1,3 +1,4 @@
-def ProblemSet():
-    '''public ProblemSet(final MboServerInterface ms)
+def ():
+    '''returns ProblemSet\n\n
+    (final MboServerInterface ms)\n
     '''

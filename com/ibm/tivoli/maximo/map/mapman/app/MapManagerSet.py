@@ -1,6 +1,8 @@
-def MapManagerSet():
-    '''public MapManagerSet(final MboServerInterface ms)
+def ():
+    '''returns MapManagerSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

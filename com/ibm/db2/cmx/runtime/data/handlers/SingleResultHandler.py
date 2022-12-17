@@ -1,8 +1,10 @@
-def SingleResultHandler():
-    '''public SingleResultHandler(final RowHandler<T> singleRowHandler_)
-    public SingleResultHandler(final RowHandler<T> singleRowHandler_, final Object[] methodParameters_)
-    public SingleResultHandler(final Class<T> beanClass_)
+def ():
+    '''returns SingleResultHandler\n\n
+    (final RowHandler<T> singleRowHandler_)\n
+    (final RowHandler<T> singleRowHandler_, final Object[] methodParameters_)\n
+    (final Class<T> beanClass_)\n
     '''
 def handle():
-    '''public T handle(final ResultSet set)
+    '''returns T\n\n
+    handle(final ResultSet set)\n
     '''

@@ -1,9 +1,12 @@
-def MethodDispatcher():
-    '''public MethodDispatcher(final Method method)
+def ():
+    '''returns MethodDispatcher\n\n
+    (final Method method)\n
     '''
 def invoke():
-    '''public Object invoke(final Object obj, final Object[] array)
+    '''returns Object\n\n
+    invoke(final Object obj, final Object[] array)\n
     '''
 def getReturnType():
-    '''public Class getReturnType()
+    '''returns Class\n\n
+    getReturnType()\n
     '''

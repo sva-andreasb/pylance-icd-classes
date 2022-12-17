@@ -1,15 +1,20 @@
-def AbstractAppSyncTask():
-    '''public AbstractAppSyncTask()
+def ():
+    '''returns AbstractAppSyncTask\n\n
+    ()\n
     '''
 def setData():
-    '''public void setData(final ConfigRepository repo, final String cell, final String node, final boolean local, final Hashtable cachedSIMap, final Hashtable newSIMap)
+    '''returns None\n\n
+    setData(final ConfigRepository repo, final String cell, final String node, final boolean local, final Hashtable cachedSIMap, final Hashtable newSIMap)\n
     '''
 def setSecurity():
-    '''public void setSecurity(final Subject sub, final Object notify, final Class cls)
+    '''returns None\n\n
+    setSecurity(final Subject sub, final Object notify, final Class cls)\n
     '''
 def appIsDeployedOnNode():
-    '''public boolean appIsDeployedOnNode(final String appname)
+    '''returns boolean\n\n
+    appIsDeployedOnNode(final String appname)\n
     '''
 def appWasDeployedOnNode():
-    '''public boolean appWasDeployedOnNode(final String appname)
+    '''returns boolean\n\n
+    appWasDeployedOnNode(final String appname)\n
     '''

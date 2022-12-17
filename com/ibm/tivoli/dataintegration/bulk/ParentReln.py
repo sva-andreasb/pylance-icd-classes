@@ -1,21 +1,28 @@
-def ParentReln():
-    '''public ParentReln(final String relationship, final String child, final String role)
+def ():
+    '''returns ParentReln\n\n
+    (final String relationship, final String child, final String role)\n
     '''
 def getRelationship():
-    '''public String getRelationship()
+    '''returns String\n\n
+    getRelationship()\n
     '''
 def setRelationship():
-    '''public void setRelationship(final String relationship)
+    '''returns None\n\n
+    setRelationship(final String relationship)\n
     '''
 def getChild():
-    '''public String getChild()
+    '''returns String\n\n
+    getChild()\n
     '''
 def setChild():
-    '''public void setChild(final String child)
+    '''returns None\n\n
+    setChild(final String child)\n
     '''
 def getRole():
-    '''public String getRole()
+    '''returns String\n\n
+    getRole()\n
     '''
 def setRole():
-    '''public void setRole(final String role)
+    '''returns None\n\n
+    setRole(final String role)\n
     '''

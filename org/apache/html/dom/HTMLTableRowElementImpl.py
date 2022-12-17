@@ -1,60 +1,80 @@
 def getRowIndex():
-    '''public int getRowIndex()
+    '''returns int\n\n
+    getRowIndex()\n
     '''
 def setRowIndex():
-    '''public void setRowIndex(final int n)
+    '''returns None\n\n
+    setRowIndex(final int n)\n
     '''
 def getSectionRowIndex():
-    '''public int getSectionRowIndex()
+    '''returns int\n\n
+    getSectionRowIndex()\n
     '''
 def setSectionRowIndex():
-    '''public void setSectionRowIndex(final int n)
+    '''returns None\n\n
+    setSectionRowIndex(final int n)\n
     '''
 def getCells():
-    '''public HTMLCollection getCells()
+    '''returns HTMLCollection\n\n
+    getCells()\n
     '''
 def setCells():
-    '''public void setCells(final HTMLCollection collection)
+    '''returns None\n\n
+    setCells(final HTMLCollection collection)\n
     '''
 def insertCell():
-    '''public HTMLElement insertCell(int n)
+    '''returns HTMLElement\n\n
+    insertCell(int n)\n
     '''
 def deleteCell():
-    '''public void deleteCell(int n)
+    '''returns None\n\n
+    deleteCell(int n)\n
     '''
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getBgColor():
-    '''public String getBgColor()
+    '''returns String\n\n
+    getBgColor()\n
     '''
 def setBgColor():
-    '''public void setBgColor(final String s)
+    '''returns None\n\n
+    setBgColor(final String s)\n
     '''
 def getCh():
-    '''public String getCh()
+    '''returns String\n\n
+    getCh()\n
     '''
 def setCh():
-    '''public void setCh(String substring)
+    '''returns None\n\n
+    setCh(String substring)\n
     '''
 def getChOff():
-    '''public String getChOff()
+    '''returns String\n\n
+    getChOff()\n
     '''
 def setChOff():
-    '''public void setChOff(final String s)
+    '''returns None\n\n
+    setChOff(final String s)\n
     '''
 def getVAlign():
-    '''public String getVAlign()
+    '''returns String\n\n
+    getVAlign()\n
     '''
 def setVAlign():
-    '''public void setVAlign(final String s)
+    '''returns None\n\n
+    setVAlign(final String s)\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
-def HTMLTableRowElementImpl():
-    '''public HTMLTableRowElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLTableRowElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

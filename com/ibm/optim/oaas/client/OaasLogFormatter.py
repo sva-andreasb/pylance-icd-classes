@@ -1,6 +1,8 @@
-def OaasLogFormatter():
-    '''public OaasLogFormatter()
+def ():
+    '''returns OaasLogFormatter\n\n
+    ()\n
     '''
 def format():
-    '''public String format(final LogRecord record)
+    '''returns String\n\n
+    format(final LogRecord record)\n
     '''

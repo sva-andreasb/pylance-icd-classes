@@ -1,12 +1,16 @@
 def selectAllItems():
-    '''public int selectAllItems()
+    '''returns int\n\n
+    selectAllItems()\n
     '''
 def modifySingleShiftFromToolItem():
-    '''public int modifySingleShiftFromToolItem()
+    '''returns int\n\n
+    modifySingleShiftFromToolItem()\n
     '''
 def toggleselectrow():
-    '''public int toggleselectrow()
+    '''returns int\n\n
+    toggleselectrow()\n
     '''
 def toggleselectallrows():
-    '''public int toggleselectallrows()
+    '''returns int\n\n
+    toggleselectallrows()\n
     '''

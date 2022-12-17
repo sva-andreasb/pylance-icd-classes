@@ -1,15 +1,20 @@
-def CombinedIterable():
-    '''public CombinedIterable(final SortedMap<Long, T> baseItems, final SortedMap<Long, T> masterItems)
+def ():
+    '''returns CombinedIterable\n\n
+    (final SortedMap<Long, T> baseItems, final SortedMap<Long, T> masterItems)\n
     '''
 def iterator():
-    '''public Iterator<T> iterator()
+    '''returns Iterator<T>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public T next()
+    '''returns T\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

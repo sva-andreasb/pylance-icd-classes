@@ -29,13 +29,16 @@ DISTRIBUTION_DONE = "String  \"true\""
 DISTRIBUTION_NOT_DONE = "String  \"false\""
 DISTRIBUTION_UNKNOWN = "String  \"unknown\""
 DISTRIBUTION = "String  \"AppDistribution\""
-def AppNotification():
-    '''public AppNotification(final String tName, final String sName, final String st, final String sst, final String msg, final Properties p)
-    public AppNotification(final String tName, final String sName, final String st, final String sst, final String msg)
+def ():
+    '''returns AppNotification\n\n
+    (final String tName, final String sName, final String st, final String sst, final String msg, final Properties p)\n
+    (final String tName, final String sName, final String st, final String sst, final String msg)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setProperties():
-    '''public void setProperties(final Properties p)
+    '''returns None\n\n
+    setProperties(final Properties p)\n
     '''

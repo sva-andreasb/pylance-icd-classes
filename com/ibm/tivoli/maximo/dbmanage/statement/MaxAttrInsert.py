@@ -1,18 +1,24 @@
-def MaxAttrInsert():
-    '''public MaxAttrInsert(final Connection dc)
+def ():
+    '''returns MaxAttrInsert\n\n
+    (final Connection dc)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def addColumnStringValue():
-    '''public void addColumnStringValue(final String column, final String value)
+    '''returns None\n\n
+    addColumnStringValue(final String column, final String value)\n
     '''
 def addColumnValue():
-    '''public void addColumnValue(final String column, final Object value)
+    '''returns None\n\n
+    addColumnValue(final String column, final Object value)\n
     '''
 def addWhere():
-    '''public void addWhere(final String generateWhereSql)
+    '''returns None\n\n
+    addWhere(final String generateWhereSql)\n
     '''
 def startInsertSelect():
-    '''public void startInsertSelect()
+    '''returns None\n\n
+    startInsertSelect()\n
     '''

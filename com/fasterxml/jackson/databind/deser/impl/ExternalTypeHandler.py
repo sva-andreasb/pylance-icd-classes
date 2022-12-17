@@ -1,46 +1,57 @@
-def builder():
-    '''public static Builder builder(final JavaType beanType)
-    '''
 def start():
-    '''public ExternalTypeHandler start()
+    '''returns ExternalTypeHandler\n\n
+    start()\n
     '''
 def handleTypePropertyValue():
-    '''public boolean handleTypePropertyValue(final JsonParser p, final DeserializationContext ctxt, final String propName, final Object bean)
+    '''returns boolean\n\n
+    handleTypePropertyValue(final JsonParser p, final DeserializationContext ctxt, final String propName, final Object bean)\n
     '''
 def handlePropertyValue():
-    '''public boolean handlePropertyValue(final JsonParser p, final DeserializationContext ctxt, final String propName, final Object bean)
+    '''returns boolean\n\n
+    handlePropertyValue(final JsonParser p, final DeserializationContext ctxt, final String propName, final Object bean)\n
     '''
 def complete():
-    '''public Object complete(final JsonParser p, final DeserializationContext ctxt, final Object bean)
-    public Object complete(final JsonParser p, final DeserializationContext ctxt, final PropertyValueBuffer buffer, final PropertyBasedCreator creator)
+    '''returns Object\n\n
+    complete(final JsonParser p, final DeserializationContext ctxt, final Object bean)\n
+    complete(final JsonParser p, final DeserializationContext ctxt, final PropertyValueBuffer buffer, final PropertyBasedCreator creator)\n
     '''
 def addExternal():
-    '''public void addExternal(final SettableBeanProperty property, final TypeDeserializer typeDeser)
+    '''returns None\n\n
+    addExternal(final SettableBeanProperty property, final TypeDeserializer typeDeser)\n
     '''
 def build():
-    '''public ExternalTypeHandler build(final BeanPropertyMap otherProps)
+    '''returns ExternalTypeHandler\n\n
+    build(final BeanPropertyMap otherProps)\n
     '''
-def ExtTypedProperty():
-    '''public ExtTypedProperty(final SettableBeanProperty property, final TypeDeserializer typeDeser)
+def ():
+    '''returns ExtTypedProperty\n\n
+    (final SettableBeanProperty property, final TypeDeserializer typeDeser)\n
     '''
 def linkTypeProperty():
-    '''public void linkTypeProperty(final SettableBeanProperty p)
+    '''returns None\n\n
+    linkTypeProperty(final SettableBeanProperty p)\n
     '''
 def hasTypePropertyName():
-    '''public boolean hasTypePropertyName(final String n)
+    '''returns boolean\n\n
+    hasTypePropertyName(final String n)\n
     '''
 def hasDefaultType():
-    '''public boolean hasDefaultType()
+    '''returns boolean\n\n
+    hasDefaultType()\n
     '''
 def getDefaultTypeId():
-    '''public String getDefaultTypeId()
+    '''returns String\n\n
+    getDefaultTypeId()\n
     '''
 def getTypePropertyName():
-    '''public String getTypePropertyName()
+    '''returns String\n\n
+    getTypePropertyName()\n
     '''
 def getProperty():
-    '''public SettableBeanProperty getProperty()
+    '''returns SettableBeanProperty\n\n
+    getProperty()\n
     '''
 def getTypeProperty():
-    '''public SettableBeanProperty getTypeProperty()
+    '''returns SettableBeanProperty\n\n
+    getTypeProperty()\n
     '''

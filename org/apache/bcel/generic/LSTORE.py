@@ -1,6 +1,8 @@
-def LSTORE():
-    '''public LSTORE(final int n)
+def ():
+    '''returns LSTORE\n\n
+    (final int n)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

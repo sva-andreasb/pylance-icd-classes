@@ -1,3 +1,4 @@
-def DPAMSwMoveVariantSet():
-    '''public DPAMSwMoveVariantSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMSwMoveVariantSet\n\n
+    (final MboServerInterface ms)\n
     '''

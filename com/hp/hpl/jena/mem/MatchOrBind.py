@@ -1,14 +1,10 @@
-def createSP():
-    '''public static MatchOrBind createSP(final ProcessedTriple Q)
-    '''
 def reset():
-    '''public MatchOrBind reset(final Domain d)
-    public MatchOrBind reset(final Domain d)
+    '''returns MatchOrBind\n\n
+    reset(final Domain d)\n
+    reset(final Domain d)\n
     '''
 def matches():
-    '''public boolean matches(final Triple t)
-    public boolean matches(final Triple t)
-    '''
-def createPO():
-    '''public static MatchOrBind createPO(final ProcessedTriple Q)
+    '''returns boolean\n\n
+    matches(final Triple t)\n
+    matches(final Triple t)\n
     '''

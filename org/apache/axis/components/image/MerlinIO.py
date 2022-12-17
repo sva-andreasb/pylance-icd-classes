@@ -1,6 +1,8 @@
 def saveImage():
-    '''public void saveImage(final String mimeType, final Image image, final OutputStream os)
+    '''returns None\n\n
+    saveImage(final String mimeType, final Image image, final OutputStream os)\n
     '''
 def loadImage():
-    '''public Image loadImage(final InputStream in)
+    '''returns Image\n\n
+    loadImage(final InputStream in)\n
     '''

@@ -1,4 +1,5 @@
-def AttributeNotSetException():
-    '''public AttributeNotSetException()
-    public AttributeNotSetException(final String msg)
+def ():
+    '''returns AttributeNotSetException\n\n
+    ()\n
+    (final String msg)\n
     '''

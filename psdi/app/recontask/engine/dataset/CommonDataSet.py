@@ -1,66 +1,88 @@
-def CommonDataSet():
-    '''public CommonDataSet()
+def ():
+    '''returns CommonDataSet\n\n
+    ()\n
     '''
 def setContext():
-    '''public void setContext(final DataSetContext context)
+    '''returns None\n\n
+    setContext(final DataSetContext context)\n
     '''
 def getDataSetName():
-    '''public String getDataSetName()
+    '''returns String\n\n
+    getDataSetName()\n
     '''
 def setDataSetName():
-    '''public void setDataSetName(final String datasetName)
+    '''returns None\n\n
+    setDataSetName(final String datasetName)\n
     '''
 def getMainObjectPrimaryKeys():
-    '''public String[] getMainObjectPrimaryKeys()
+    '''returns String[]\n\n
+    getMainObjectPrimaryKeys()\n
     '''
 def getMainObjectUID():
-    '''public String getMainObjectUID()
+    '''returns String\n\n
+    getMainObjectUID()\n
     '''
 def getObjectUID():
-    '''public String getObjectUID(final String objectName)
+    '''returns String\n\n
+    getObjectUID(final String objectName)\n
     '''
 def getMasterForSpec():
-    '''public String getMasterForSpec(final String objectname)
+    '''returns String\n\n
+    getMasterForSpec(final String objectname)\n
     '''
 def getSpecForMaster():
-    '''public String getSpecForMaster(final String objectname)
+    '''returns String\n\n
+    getSpecForMaster(final String objectname)\n
     '''
 def getFixedTaskFilterWhereClause():
-    '''public String getFixedTaskFilterWhereClause()
+    '''returns String\n\n
+    getFixedTaskFilterWhereClause()\n
     '''
 def getRootClassstructureID():
-    '''public String getRootClassstructureID(final String objectName)
+    '''returns String\n\n
+    getRootClassstructureID(final String objectName)\n
     '''
 def readMaxVar():
-    '''public String readMaxVar(final String varName, final boolean hasDefaultValue)
+    '''returns String\n\n
+    readMaxVar(final String varName, final boolean hasDefaultValue)\n
     '''
 def getTableJoinWhereClauseForComparison():
-    '''public String getTableJoinWhereClauseForComparison(final String tableName, final Map uidKeys)
+    '''returns String\n\n
+    getTableJoinWhereClauseForComparison(final String tableName, final Map uidKeys)\n
     '''
 def getTableNameForTaskFilter():
-    '''public String getTableNameForTaskFilter(final String attributeName)
+    '''returns String\n\n
+    getTableNameForTaskFilter(final String attributeName)\n
     '''
 def getTableColumnNameForTaskFilter():
-    '''public String getTableColumnNameForTaskFilter(final String attributeName)
+    '''returns String\n\n
+    getTableColumnNameForTaskFilter(final String attributeName)\n
     '''
 def getExtraTableNamesForComparison():
-    '''public String[] getExtraTableNamesForComparison(final String tableName)
+    '''returns String[]\n\n
+    getExtraTableNamesForComparison(final String tableName)\n
     '''
 def getTableJoinWhereClauseForTaskFilter():
-    '''public String getTableJoinWhereClauseForTaskFilter(final String tableName)
+    '''returns String\n\n
+    getTableJoinWhereClauseForTaskFilter(final String tableName)\n
     '''
 def getRecordCount():
-    '''public int getRecordCount(final Map uidKeys, final String objectName, final String classStructureID)
+    '''returns int\n\n
+    getRecordCount(final Map uidKeys, final String objectName, final String classStructureID)\n
     '''
 def isUnitOfMeasureAllowed():
-    '''public boolean isUnitOfMeasureAllowed(final String objectName)
+    '''returns boolean\n\n
+    isUnitOfMeasureAllowed(final String objectName)\n
     '''
 def getTaskFilterClause():
-    '''public String getTaskFilterClause()
+    '''returns String\n\n
+    getTaskFilterClause()\n
     '''
 def setTaskFilterClause():
-    '''public void setTaskFilterClause(final String filterClause)
+    '''returns None\n\n
+    setTaskFilterClause(final String filterClause)\n
     '''
 def getReconLinker():
-    '''public ReconLinkerI getReconLinker()
+    '''returns ReconLinkerI\n\n
+    getReconLinker()\n
     '''

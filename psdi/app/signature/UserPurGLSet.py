@@ -1,3 +1,4 @@
-def UserPurGLSet():
-    '''public UserPurGLSet(final MboServerInterface ms)
+def ():
+    '''returns UserPurGLSet\n\n
+    (final MboServerInterface ms)\n
     '''

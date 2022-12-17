@@ -1,20 +1,14 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def HeartbeatResponse():
-    '''public HeartbeatResponse(final Errors error)
-    public HeartbeatResponse(final int throttleTimeMs, final Errors error)
-    public HeartbeatResponse(final Struct struct)
+def ():
+    '''returns HeartbeatResponse\n\n
+    (final Errors error)\n
+    (final int throttleTimeMs, final Errors error)\n
+    (final Struct struct)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static HeartbeatResponse parse(final ByteBuffer buffer, final short version)
+    '''returns Errors\n\n
+    error()\n
     '''

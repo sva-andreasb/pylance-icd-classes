@@ -1,3 +1,4 @@
-def PlusCJobPlanStatusSet():
-    '''public PlusCJobPlanStatusSet(final MboServerInterface mboserverinterface)
+def ():
+    '''returns PlusCJobPlanStatusSet\n\n
+    (final MboServerInterface mboserverinterface)\n
     '''

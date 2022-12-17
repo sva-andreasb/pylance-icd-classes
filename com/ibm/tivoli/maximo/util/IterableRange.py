@@ -1,16 +1,21 @@
-def IterableRange():
-    '''public IterableRange(final Iterator<T> iterator, final boolean shift)
-    public IterableRange(List<T> data, final boolean shiftByOne)
+def ():
+    '''returns IterableRange\n\n
+    (final Iterator<T> iterator, final boolean shift)\n
+    (List<T> data, final boolean shiftByOne)\n
     '''
 def iterator():
-    '''public Iterator<Range<T>> iterator()
+    '''returns Iterator<Range<T>>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Range<T> next()
+    '''returns Range<T>\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

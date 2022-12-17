@@ -1,5 +1,6 @@
-def DatabaseConfigFactoryException():
-    '''public DatabaseConfigFactoryException(final String message)
-    public DatabaseConfigFactoryException()
-    public DatabaseConfigFactoryException(final Exception e)
+def ():
+    '''returns DatabaseConfigFactoryException\n\n
+    (final String message)\n
+    ()\n
+    (final Exception e)\n
     '''

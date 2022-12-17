@@ -1,5 +1,6 @@
-def RiddersSolver():
-    '''public RiddersSolver()
-    public RiddersSolver(final double absoluteAccuracy)
-    public RiddersSolver(final double relativeAccuracy, final double absoluteAccuracy)
+def ():
+    '''returns RiddersSolver\n\n
+    ()\n
+    (final double absoluteAccuracy)\n
+    (final double relativeAccuracy, final double absoluteAccuracy)\n
     '''

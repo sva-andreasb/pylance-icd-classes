@@ -1,24 +1,32 @@
-def RestrictionBundle():
-    '''public RestrictionBundle()
+def ():
+    '''returns RestrictionBundle\n\n
+    ()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getNoGrpNoAppRestriction():
-    '''public DataRestriction getNoGrpNoAppRestriction()
+    '''returns DataRestriction\n\n
+    getNoGrpNoAppRestriction()\n
     '''
 def getNoGrpWithAppRestriction():
-    '''public DataRestriction getNoGrpWithAppRestriction()
+    '''returns DataRestriction\n\n
+    getNoGrpWithAppRestriction()\n
     '''
 def getPerGrpRestrictions():
-    '''public ArrayList<Object[]> getPerGrpRestrictions()
+    '''returns ArrayList<Object[]>\n\n
+    getPerGrpRestrictions()\n
     '''
 def addGrpRestriction():
-    '''public void addGrpRestriction(final String grp, DataRestriction withOutApp, final DataRestriction withApp)
+    '''returns None\n\n
+    addGrpRestriction(final String grp, DataRestriction withOutApp, final DataRestriction withApp)\n
     '''
 def setGenericRestriction():
-    '''public void setGenericRestriction(final DataRestriction withOutApp, final DataRestriction withApp)
+    '''returns None\n\n
+    setGenericRestriction(final DataRestriction withOutApp, final DataRestriction withApp)\n
     '''
 def markGrpNoRestriction():
-    '''public void markGrpNoRestriction(final String grp)
+    '''returns None\n\n
+    markGrpNoRestriction(final String grp)\n
     '''

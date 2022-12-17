@@ -1,64 +1,85 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getProperty():
-    '''public Object getProperty(final int index, final boolean inherited)
+    '''returns Object\n\n
+    getProperty(final int index, final boolean inherited)\n
     '''
 def setPriorityForBranch():
-    '''public void setPriorityForBranch(final IloPriority priority)
+    '''returns None\n\n
+    setPriorityForBranch(final IloPriority priority)\n
     '''
 def onSetController():
-    '''public void onSetController(final IloEngineController ctl)
+    '''returns None\n\n
+    onSetController(final IloEngineController ctl)\n
     '''
 def registerRequirement():
-    '''public void registerRequirement(final IloRequirement req, final boolean force)
+    '''returns None\n\n
+    registerRequirement(final IloRequirement req, final boolean force)\n
     '''
 def unregisterRequirement():
-    '''public IloRequirement unregisterRequirement(final String name)
+    '''returns IloRequirement\n\n
+    unregisterRequirement(final String name)\n
     '''
 def internalPutReq():
-    '''public void internalPutReq(final IloRequirement r)
+    '''returns None\n\n
+    internalPutReq(final IloRequirement r)\n
     '''
 def onRenameRequirement():
-    '''public void onRenameRequirement(final IloRequirement r, final String oldName)
+    '''returns None\n\n
+    onRenameRequirement(final IloRequirement r, final String oldName)\n
     '''
 def internalRemoveReq():
-    '''public IloRequirement internalRemoveReq(final String name)
+    '''returns IloRequirement\n\n
+    internalRemoveReq(final String name)\n
     '''
 def getRequirement():
-    '''public IloRequirement getRequirement(final String id)
+    '''returns IloRequirement\n\n
+    getRequirement(final String id)\n
     '''
 def getModel():
-    '''public IloDecisionModel getModel()
+    '''returns IloDecisionModel\n\n
+    getModel()\n
     '''
 def getReqPropertiesDef():
-    '''public IloReqPropertiesDef getReqPropertiesDef()
+    '''returns IloReqPropertiesDef\n\n
+    getReqPropertiesDef()\n
     '''
 def print():
-    '''public IloTabulatedStream print(final IloTabulatedStream stm, final IloPublisher publisher)
+    '''returns IloTabulatedStream\n\n
+    print(final IloTabulatedStream stm, final IloPublisher publisher)\n
     '''
 def nullifyChildrenProperty():
-    '''public void nullifyChildrenProperty(final int index)
+    '''returns None\n\n
+    nullifyChildrenProperty(final int index)\n
     '''
 def internalNullifyProp():
-    '''public void internalNullifyProp(final int index, final boolean resetIncluded)
+    '''returns None\n\n
+    internalNullifyProp(final int index, final boolean resetIncluded)\n
     '''
 def decrActivePrio():
-    '''public void decrActivePrio()
+    '''returns None\n\n
+    decrActivePrio()\n
     '''
 def incrActivePrio():
-    '''public void incrActivePrio()
+    '''returns None\n\n
+    incrActivePrio()\n
     '''
 def testActivePrio():
-    '''public boolean testActivePrio()
+    '''returns boolean\n\n
+    testActivePrio()\n
     '''
 def isComposite():
-    '''public boolean isComposite()
+    '''returns boolean\n\n
+    isComposite()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getParent():
-    '''public IloRequirementNode getParent()
+    '''returns IloRequirementNode\n\n
+    getParent()\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''

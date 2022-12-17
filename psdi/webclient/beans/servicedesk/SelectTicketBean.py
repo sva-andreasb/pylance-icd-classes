@@ -1,6 +1,8 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def callMethod():
-    '''public int callMethod(final WebClientEvent event, final Class[] paramTypes, final Object[] params)
+    '''returns int\n\n
+    callMethod(final WebClientEvent event, final Class[] paramTypes, final Object[] params)\n
     '''

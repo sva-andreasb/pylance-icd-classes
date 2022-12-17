@@ -1,6 +1,8 @@
-def RtfMapper():
-    '''public RtfMapper(final RtfDocument doc)
+def ():
+    '''returns RtfMapper\n\n
+    (final RtfDocument doc)\n
     '''
 def mapElement():
-    '''public RtfBasicElement mapElement(final Element element)
+    '''returns RtfBasicElement\n\n
+    mapElement(final Element element)\n
     '''

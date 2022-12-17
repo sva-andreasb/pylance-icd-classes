@@ -1,14 +1,18 @@
-def BeanSerializer():
-    '''public BeanSerializer(final Class javaType, final QName xmlType)
-    public BeanSerializer(final Class javaType, final QName xmlType, final TypeDesc typeDesc)
-    public BeanSerializer(final Class javaType, final QName xmlType, final TypeDesc typeDesc, final BeanPropertyDescriptor[] propertyDescriptor)
+def ():
+    '''returns BeanSerializer\n\n
+    (final Class javaType, final QName xmlType)\n
+    (final Class javaType, final QName xmlType, final TypeDesc typeDesc)\n
+    (final Class javaType, final QName xmlType, final TypeDesc typeDesc, final BeanPropertyDescriptor[] propertyDescriptor)\n
     '''
 def serialize():
-    '''public void serialize(final QName name, final Attributes attributes, Object value, final SerializationContext context)
+    '''returns None\n\n
+    serialize(final QName name, final Attributes attributes, Object value, final SerializationContext context)\n
     '''
 def getMechanismType():
-    '''public String getMechanismType()
+    '''returns String\n\n
+    getMechanismType()\n
     '''
 def writeSchema():
-    '''public Element writeSchema(final Class javaType, final Types types)
+    '''returns Element\n\n
+    writeSchema(final Class javaType, final Types types)\n
     '''

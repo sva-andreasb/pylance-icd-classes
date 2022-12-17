@@ -1,12 +1,8 @@
-def GLNavigatorComboboxBean():
-    '''public GLNavigatorComboboxBean()
-    '''
-def getList():
-    '''public synchronized MboSetRemote getList(final int row, final String attribute)
+def ():
+    '''returns GLNavigatorComboboxBean\n\n
+    ()\n
     '''
 def setvalue():
-    '''public int setvalue()
-    '''
-def structureChangedEvent():
-    '''public synchronized void structureChangedEvent(final DataBean speaker)
+    '''returns int\n\n
+    setvalue()\n
     '''

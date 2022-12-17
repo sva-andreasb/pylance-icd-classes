@@ -1,32 +1,42 @@
-def QueryFilter():
-    '''public QueryFilter(final QueryFilter left, final QueryOp op, final QueryFilter right)
-    public QueryFilter(final String[] domains, final QueryFilter left, final QueryOp op, final QueryFilter right)
-    public QueryFilter(final String[] domains, final QueryFilter left, final QueryOp op, final QueryFilter right, final String rootClass)
+def ():
+    '''returns QueryFilter\n\n
+    (final QueryFilter left, final QueryOp op, final QueryFilter right)\n
+    (final String[] domains, final QueryFilter left, final QueryOp op, final QueryFilter right)\n
+    (final String[] domains, final QueryFilter left, final QueryOp op, final QueryFilter right, final String rootClass)\n
     '''
 def getLeft():
-    '''public QueryFilter getLeft()
+    '''returns QueryFilter\n\n
+    getLeft()\n
     '''
 def getOp():
-    '''public QueryOp getOp()
+    '''returns QueryOp\n\n
+    getOp()\n
     '''
 def getRight():
-    '''public QueryFilter getRight()
+    '''returns QueryFilter\n\n
+    getRight()\n
     '''
 def getDomains():
-    '''public String[] getDomains()
+    '''returns String[]\n\n
+    getDomains()\n
     '''
 def setDomains():
-    '''public void setDomains(final String[] domains)
+    '''returns None\n\n
+    setDomains(final String[] domains)\n
     '''
 def genString():
-    '''public String genString(final QueryContext qc, final DataView view)
+    '''returns String\n\n
+    genString(final QueryContext qc, final DataView view)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDomainsAsString():
-    '''public String getDomainsAsString()
+    '''returns String\n\n
+    getDomainsAsString()\n
     '''
 def getRoot():
-    '''public String getRoot()
+    '''returns String\n\n
+    getRoot()\n
     '''

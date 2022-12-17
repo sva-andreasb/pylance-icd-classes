@@ -1,6 +1,8 @@
-def FileInfoAS400():
-    '''public FileInfoAS400()
+def ():
+    '''returns FileInfoAS400\n\n
+    ()\n
     '''
 def getCCSID():
-    '''public int getCCSID()
+    '''returns int\n\n
+    getCCSID()\n
     '''

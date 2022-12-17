@@ -1,23 +1,18 @@
 ELEMENT = "String  \"origin-id\""
-def OriginIdElement():
-    '''public OriginIdElement()
-    public OriginIdElement(final String id)
-    '''
-def addOriginId():
-    '''public static OriginIdElement addOriginId(final Message message)
-    '''
-def hasOriginId():
-    '''public static boolean hasOriginId(final Message message)
-    '''
-def getOriginId():
-    '''public static OriginIdElement getOriginId(final Message message)
+def ():
+    '''returns OriginIdElement\n\n
+    ()\n
+    (final String id)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''

@@ -1,60 +1,72 @@
-def FailureReportSet():
-    '''public FailureReportSet(final MboServerInterface ms)
+def ():
+    '''returns FailureReportSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote mbo)
+    '''returns None\n\n
+    setOwner(final MboRemote mbo)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def doDelete():
-    '''public boolean doDelete()
+    '''returns boolean\n\n
+    doDelete()\n
     '''
 def clearFromHere():
-    '''public void clearFromHere(final FailureReport fr)
-    '''
-def deleteAll():
-    '''public synchronized void deleteAll(final long accessModifier)
+    '''returns None\n\n
+    clearFromHere(final FailureReport fr)\n
     '''
 def codeSet():
-    '''public void codeSet(final MboRemote forThisFR)
+    '''returns None\n\n
+    codeSet(final MboRemote forThisFR)\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def reflectFailureClass():
-    '''public void reflectFailureClass()
+    '''returns None\n\n
+    reflectFailureClass()\n
     '''
 def reflectProblemCode():
-    '''public void reflectProblemCode()
+    '''returns None\n\n
+    reflectProblemCode()\n
     '''
 def getParentOfProblemCode():
-    '''public String getParentOfProblemCode()
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo(final int index)
+    '''returns String\n\n
+    getParentOfProblemCode()\n
     '''
 def undeleteAll():
-    '''public void undeleteAll()
+    '''returns None\n\n
+    undeleteAll()\n
     '''
 def getEndOfReport():
-    '''public MboRemote getEndOfReport()
+    '''returns MboRemote\n\n
+    getEndOfReport()\n
     '''
 def register():
-    '''public void register(final int levelNum)
+    '''returns None\n\n
+    register(final int levelNum)\n
     '''
 def isLevelEditable():
-    '''public boolean isLevelEditable(final int levelNum)
+    '''returns boolean\n\n
+    isLevelEditable(final int levelNum)\n
     '''
 def refreshFRCodes():
-    '''public void refreshFRCodes()
+    '''returns None\n\n
+    refreshFRCodes()\n
     '''
 def doUndelete():
-    '''public boolean doUndelete()
+    '''returns boolean\n\n
+    doUndelete()\n
     '''
 def undeleteFromHere():
-    '''public void undeleteFromHere(final FailureReport fr)
+    '''returns None\n\n
+    undeleteFromHere(final FailureReport fr)\n
     '''

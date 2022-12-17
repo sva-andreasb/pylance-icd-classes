@@ -1,31 +1,35 @@
-def BackAction():
-    '''public BackAction(final Object o)
+def ():
+    '''returns HistoryActionListener\n\n
+    (final Object o)\n
+    (final MouseEvent e)\n
+    (final int index)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseExited(final MouseEvent mouseEvent)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent mouseEvent)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mousePressed(final MouseEvent mouseEvent)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent mouseEvent)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent mouseEvent)\n
     '''
 def historyChanged():
-    '''public void historyChanged(final HelpHistoryModelEvent helpHistoryModelEvent)
-    '''
-def TimeListener():
-    '''public TimeListener(final MouseEvent e)
+    '''returns None\n\n
+    historyChanged(final HelpHistoryModelEvent helpHistoryModelEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    '''
-def HistoryActionListener():
-    '''public HistoryActionListener(final int index)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''

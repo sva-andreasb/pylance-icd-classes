@@ -1,47 +1,62 @@
-def MessageHandler():
-    '''public MessageHandler()
-    public MessageHandler(final boolean accumulateOnly)
+def ():
+    '''returns MessageHandler\n\n
+    ()\n
+    (final boolean accumulateOnly)\n
     '''
 def init():
-    '''public void init()
-    public void init(final boolean accumulateOnly)
+    '''returns None\n\n
+    init()\n
+    init(final boolean accumulateOnly)\n
     '''
 def clearMessages():
-    '''public void clearMessages()
+    '''returns None\n\n
+    clearMessages()\n
     '''
 def handleMessage():
-    '''public boolean handleMessage(final IMessage message)
+    '''returns boolean\n\n
+    handleMessage(final IMessage message)\n
     '''
 def isIgnoring():
-    '''public boolean isIgnoring(final IMessage.Kind kind)
+    '''returns boolean\n\n
+    isIgnoring(final IMessage.Kind kind)\n
     '''
 def ignore():
-    '''public void ignore(final IMessage.Kind kind)
+    '''returns None\n\n
+    ignore(final IMessage.Kind kind)\n
     '''
 def dontIgnore():
-    '''public void dontIgnore(final IMessage.Kind kind)
+    '''returns None\n\n
+    dontIgnore(final IMessage.Kind kind)\n
     '''
 def hasAnyMessage():
-    '''public boolean hasAnyMessage(final IMessage.Kind kind, final boolean orGreater)
+    '''returns boolean\n\n
+    hasAnyMessage(final IMessage.Kind kind, final boolean orGreater)\n
     '''
 def numMessages():
-    '''public int numMessages(final IMessage.Kind kind, final boolean orGreater)
+    '''returns int\n\n
+    numMessages(final IMessage.Kind kind, final boolean orGreater)\n
     '''
 def getUnmodifiableListView():
-    '''public List<IMessage> getUnmodifiableListView()
+    '''returns List<IMessage>\n\n
+    getUnmodifiableListView()\n
     '''
 def getMessages():
-    '''public IMessage[] getMessages(final IMessage.Kind kind, final boolean orGreater)
+    '''returns IMessage[]\n\n
+    getMessages(final IMessage.Kind kind, final boolean orGreater)\n
     '''
 def getErrors():
-    '''public IMessage[] getErrors()
+    '''returns IMessage[]\n\n
+    getErrors()\n
     '''
 def getWarnings():
-    '''public IMessage[] getWarnings()
+    '''returns IMessage[]\n\n
+    getWarnings()\n
     '''
 def setInterceptor():
-    '''public void setInterceptor(final IMessageHandler interceptor)
+    '''returns None\n\n
+    setInterceptor(final IMessageHandler interceptor)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

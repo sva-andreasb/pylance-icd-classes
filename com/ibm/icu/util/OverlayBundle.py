@@ -1,6 +1,8 @@
-def OverlayBundle():
-    '''public OverlayBundle(final String[] baseNames, final Locale locale)
+def ():
+    '''returns OverlayBundle\n\n
+    (final String[] baseNames, final Locale locale)\n
     '''
 def getKeys():
-    '''public Enumeration getKeys()
+    '''returns Enumeration<String>\n\n
+    getKeys()\n
     '''

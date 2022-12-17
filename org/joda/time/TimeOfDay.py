@@ -2,157 +2,190 @@ HOUR_OF_DAY = "int  0"
 MINUTE_OF_HOUR = "int  1"
 SECOND_OF_MINUTE = "int  2"
 MILLIS_OF_SECOND = "int  3"
-def fromCalendarFields():
-    '''public static TimeOfDay fromCalendarFields(final Calendar calendar)
-    '''
-def fromDateFields():
-    '''public static TimeOfDay fromDateFields(final Date date)
-    '''
-def fromMillisOfDay():
-    '''public static TimeOfDay fromMillisOfDay(final long n)
-    public static TimeOfDay fromMillisOfDay(final long n, Chronology chronology)
-    '''
-def TimeOfDay():
-    '''public TimeOfDay()
-    public TimeOfDay(final DateTimeZone dateTimeZone)
-    public TimeOfDay(final Chronology chronology)
-    public TimeOfDay(final long n)
-    public TimeOfDay(final long n, final Chronology chronology)
-    public TimeOfDay(final Object o)
-    public TimeOfDay(final Object o, final Chronology chronology)
-    public TimeOfDay(final int n, final int n2)
-    public TimeOfDay(final int n, final int n2, final Chronology chronology)
-    public TimeOfDay(final int n, final int n2, final int n3)
-    public TimeOfDay(final int n, final int n2, final int n3, final Chronology chronology)
-    public TimeOfDay(final int n, final int n2, final int n3, final int n4)
-    public TimeOfDay(final int n, final int n2, final int n3, final int n4, final Chronology chronology)
+def ():
+    '''returns TimeOfDay\n\n
+    ()\n
+    (final DateTimeZone dateTimeZone)\n
+    (final Chronology chronology)\n
+    (final long n)\n
+    (final long n, final Chronology chronology)\n
+    (final Object o)\n
+    (final Object o, final Chronology chronology)\n
+    (final int n, final int n2)\n
+    (final int n, final int n2, final Chronology chronology)\n
+    (final int n, final int n2, final int n3)\n
+    (final int n, final int n2, final int n3, final Chronology chronology)\n
+    (final int n, final int n2, final int n3, final int n4)\n
+    (final int n, final int n2, final int n3, final int n4, final Chronology chronology)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getFieldType():
-    '''public DateTimeFieldType getFieldType(final int n)
+    '''returns DateTimeFieldType\n\n
+    getFieldType(final int n)\n
     '''
 def getFieldTypes():
-    '''public DateTimeFieldType[] getFieldTypes()
+    '''returns DateTimeFieldType[]\n\n
+    getFieldTypes()\n
     '''
 def withChronologyRetainFields():
-    '''public TimeOfDay withChronologyRetainFields(Chronology chronology)
+    '''returns TimeOfDay\n\n
+    withChronologyRetainFields(Chronology chronology)\n
     '''
 def withField():
-    '''public TimeOfDay withField(final DateTimeFieldType dateTimeFieldType, final int n)
+    '''returns TimeOfDay\n\n
+    withField(final DateTimeFieldType dateTimeFieldType, final int n)\n
     '''
 def withFieldAdded():
-    '''public TimeOfDay withFieldAdded(final DurationFieldType durationFieldType, final int n)
+    '''returns TimeOfDay\n\n
+    withFieldAdded(final DurationFieldType durationFieldType, final int n)\n
     '''
 def withPeriodAdded():
-    '''public TimeOfDay withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''returns TimeOfDay\n\n
+    withPeriodAdded(final ReadablePeriod readablePeriod, final int n)\n
     '''
 def plus():
-    '''public TimeOfDay plus(final ReadablePeriod readablePeriod)
+    '''returns TimeOfDay\n\n
+    plus(final ReadablePeriod readablePeriod)\n
     '''
 def plusHours():
-    '''public TimeOfDay plusHours(final int n)
+    '''returns TimeOfDay\n\n
+    plusHours(final int n)\n
     '''
 def plusMinutes():
-    '''public TimeOfDay plusMinutes(final int n)
+    '''returns TimeOfDay\n\n
+    plusMinutes(final int n)\n
     '''
 def plusSeconds():
-    '''public TimeOfDay plusSeconds(final int n)
+    '''returns TimeOfDay\n\n
+    plusSeconds(final int n)\n
     '''
 def plusMillis():
-    '''public TimeOfDay plusMillis(final int n)
+    '''returns TimeOfDay\n\n
+    plusMillis(final int n)\n
     '''
 def minus():
-    '''public TimeOfDay minus(final ReadablePeriod readablePeriod)
+    '''returns TimeOfDay\n\n
+    minus(final ReadablePeriod readablePeriod)\n
     '''
 def minusHours():
-    '''public TimeOfDay minusHours(final int n)
+    '''returns TimeOfDay\n\n
+    minusHours(final int n)\n
     '''
 def minusMinutes():
-    '''public TimeOfDay minusMinutes(final int n)
+    '''returns TimeOfDay\n\n
+    minusMinutes(final int n)\n
     '''
 def minusSeconds():
-    '''public TimeOfDay minusSeconds(final int n)
+    '''returns TimeOfDay\n\n
+    minusSeconds(final int n)\n
     '''
 def minusMillis():
-    '''public TimeOfDay minusMillis(final int n)
+    '''returns TimeOfDay\n\n
+    minusMillis(final int n)\n
     '''
 def property():
-    '''public Property property(final DateTimeFieldType dateTimeFieldType)
+    '''returns Property\n\n
+    property(final DateTimeFieldType dateTimeFieldType)\n
     '''
 def toLocalTime():
-    '''public LocalTime toLocalTime()
+    '''returns LocalTime\n\n
+    toLocalTime()\n
     '''
 def toDateTimeToday():
-    '''public DateTime toDateTimeToday()
-    public DateTime toDateTimeToday(final DateTimeZone dateTimeZone)
+    '''returns DateTime\n\n
+    toDateTimeToday()\n
+    toDateTimeToday(final DateTimeZone dateTimeZone)\n
     '''
 def getHourOfDay():
-    '''public int getHourOfDay()
+    '''returns int\n\n
+    getHourOfDay()\n
     '''
 def getMinuteOfHour():
-    '''public int getMinuteOfHour()
+    '''returns int\n\n
+    getMinuteOfHour()\n
     '''
 def getSecondOfMinute():
-    '''public int getSecondOfMinute()
+    '''returns int\n\n
+    getSecondOfMinute()\n
     '''
 def getMillisOfSecond():
-    '''public int getMillisOfSecond()
+    '''returns int\n\n
+    getMillisOfSecond()\n
     '''
 def withHourOfDay():
-    '''public TimeOfDay withHourOfDay(final int n)
+    '''returns TimeOfDay\n\n
+    withHourOfDay(final int n)\n
     '''
 def withMinuteOfHour():
-    '''public TimeOfDay withMinuteOfHour(final int n)
+    '''returns TimeOfDay\n\n
+    withMinuteOfHour(final int n)\n
     '''
 def withSecondOfMinute():
-    '''public TimeOfDay withSecondOfMinute(final int n)
+    '''returns TimeOfDay\n\n
+    withSecondOfMinute(final int n)\n
     '''
 def withMillisOfSecond():
-    '''public TimeOfDay withMillisOfSecond(final int n)
+    '''returns TimeOfDay\n\n
+    withMillisOfSecond(final int n)\n
     '''
 def hourOfDay():
-    '''public Property hourOfDay()
+    '''returns Property\n\n
+    hourOfDay()\n
     '''
 def minuteOfHour():
-    '''public Property minuteOfHour()
+    '''returns Property\n\n
+    minuteOfHour()\n
     '''
 def secondOfMinute():
-    '''public Property secondOfMinute()
+    '''returns Property\n\n
+    secondOfMinute()\n
     '''
 def millisOfSecond():
-    '''public Property millisOfSecond()
+    '''returns Property\n\n
+    millisOfSecond()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getField():
-    '''public DateTimeField getField()
+    '''returns DateTimeField\n\n
+    getField()\n
     '''
 def getTimeOfDay():
-    '''public TimeOfDay getTimeOfDay()
+    '''returns TimeOfDay\n\n
+    getTimeOfDay()\n
     '''
 def get():
-    '''public int get()
+    '''returns int\n\n
+    get()\n
     '''
 def addToCopy():
-    '''public TimeOfDay addToCopy(final int n)
+    '''returns TimeOfDay\n\n
+    addToCopy(final int n)\n
     '''
 def addNoWrapToCopy():
-    '''public TimeOfDay addNoWrapToCopy(final int n)
+    '''returns TimeOfDay\n\n
+    addNoWrapToCopy(final int n)\n
     '''
 def addWrapFieldToCopy():
-    '''public TimeOfDay addWrapFieldToCopy(final int n)
+    '''returns TimeOfDay\n\n
+    addWrapFieldToCopy(final int n)\n
     '''
 def setCopy():
-    '''public TimeOfDay setCopy(final int n)
-    public TimeOfDay setCopy(final String s, final Locale locale)
-    public TimeOfDay setCopy(final String s)
+    '''returns TimeOfDay\n\n
+    setCopy(final int n)\n
+    setCopy(final String s, final Locale locale)\n
+    setCopy(final String s)\n
     '''
 def withMaximumValue():
-    '''public TimeOfDay withMaximumValue()
+    '''returns TimeOfDay\n\n
+    withMaximumValue()\n
     '''
 def withMinimumValue():
-    '''public TimeOfDay withMinimumValue()
+    '''returns TimeOfDay\n\n
+    withMinimumValue()\n
     '''

@@ -1,6 +1,8 @@
-def CannotLoadClassException():
-    '''public CannotLoadClassException(final Resource root, final String className, final ClassNotFoundException e)
+def ():
+    '''returns CannotLoadClassException\n\n
+    (final Resource root, final String className, final ClassNotFoundException e)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''

@@ -1,3 +1,4 @@
-def ViewReportDepSet():
-    '''public ViewReportDepSet(final MboServerInterface ms)
+def ():
+    '''returns ViewReportDepSet\n\n
+    (final MboServerInterface ms)\n
     '''

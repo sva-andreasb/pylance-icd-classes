@@ -3,11 +3,14 @@ RESLEVEL = "int  2"
 CAPPLAN = "int  3"
 CPS = "int  6"
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def dialogokandmove():
-    '''public int dialogokandmove()
+    '''returns int\n\n
+    dialogokandmove()\n
     '''
 def createScenario():
-    '''public int createScenario()
+    '''returns int\n\n
+    createScenario()\n
     '''

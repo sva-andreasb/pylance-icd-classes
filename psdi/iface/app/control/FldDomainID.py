@@ -1,3 +1,4 @@
-def FldDomainID():
-    '''public FldDomainID(final MboValue mbv)
+def ():
+    '''returns FldDomainID\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,15 +1,20 @@
-def LDAPBackupResponse():
-    '''public LDAPBackupResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns LDAPBackupResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getBufferLength():
-    '''public int getBufferLength()
+    '''returns int\n\n
+    getBufferLength()\n
     '''
 def getStatusInfo():
-    '''public String getStatusInfo()
+    '''returns String\n\n
+    getStatusInfo()\n
     '''
 def getChunkSizesString():
-    '''public String getChunkSizesString()
+    '''returns String\n\n
+    getChunkSizesString()\n
     '''
 def getReturnedBuffer():
-    '''public byte[] getReturnedBuffer()
+    '''returns byte[]\n\n
+    getReturnedBuffer()\n
     '''

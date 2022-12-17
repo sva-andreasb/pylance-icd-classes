@@ -1,3 +1,4 @@
 def selectobject():
-    '''public int selectobject()
+    '''returns int\n\n
+    selectobject()\n
     '''

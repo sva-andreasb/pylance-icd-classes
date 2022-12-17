@@ -1,18 +1,20 @@
-def PlusPSLABreachLineStatusHandler():
-    '''public PlusPSLABreachLineStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns PlusPSLABreachLineStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String s)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String s)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def toInternalStatus():
-    '''public String toInternalStatus(final String value)
-    '''
-def convertStatusToInt():
-    '''public static int convertStatusToInt(final String s)
+    '''returns String\n\n
+    toInternalStatus(final String value)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)\n
     '''

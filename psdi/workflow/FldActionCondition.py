@@ -1,3 +1,4 @@
-def FldActionCondition():
-    '''public FldActionCondition(final MboValue mbv)
+def ():
+    '''returns FldActionCondition\n\n
+    (final MboValue mbv)\n
     '''

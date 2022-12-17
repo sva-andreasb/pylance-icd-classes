@@ -1,21 +1,28 @@
-def MeasurePointWoGenCronTask():
-    '''public MeasurePointWoGenCronTask()
+def ():
+    '''returns MeasurePointWoGenCronTask\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def readConfig():
-    '''public void readConfig()
+    '''returns None\n\n
+    readConfig()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def getParameterValidationMbo():
-    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''returns MboRemote\n\n
+    getParameterValidationMbo(final CrontaskInstanceRemote instance)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''

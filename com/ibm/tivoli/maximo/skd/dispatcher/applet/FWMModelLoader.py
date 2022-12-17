@@ -1,3 +1,4 @@
 def isCompressed():
-    '''public boolean isCompressed()
+    '''returns boolean\n\n
+    isCompressed()\n
     '''

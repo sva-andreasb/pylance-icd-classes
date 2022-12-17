@@ -1,18 +1,20 @@
-def setLog():
-    '''public static void setLog(final Log _log)
-    '''
-def DiscoverNamesInAlternateManagedProperties():
-    '''public DiscoverNamesInAlternateManagedProperties()
+def ():
+    '''returns DiscoverNamesInAlternateManagedProperties\n\n
+    ()\n
     '''
 def addClassToPropertyNameMapping():
-    '''public void addClassToPropertyNameMapping(final String className, final String propertyName)
+    '''returns None\n\n
+    addClassToPropertyNameMapping(final String className, final String propertyName)\n
     '''
 def findResourceNames():
-    '''public ResourceNameIterator findResourceNames(final String resourceName)
+    '''returns ResourceNameIterator\n\n
+    findResourceNames(final String resourceName)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def nextResourceName():
-    '''public String nextResourceName()
+    '''returns String\n\n
+    nextResourceName()\n
     '''

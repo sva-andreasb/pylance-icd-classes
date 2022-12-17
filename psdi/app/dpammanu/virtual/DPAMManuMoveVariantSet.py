@@ -1,3 +1,4 @@
-def DPAMManuMoveVariantSet():
-    '''public DPAMManuMoveVariantSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMManuMoveVariantSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,42 +1,56 @@
-def ReconCompRule():
-    '''public ReconCompRule(final MboSet ms)
+def ():
+    '''returns ReconCompRule\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def buildAssetFilterExpression():
-    '''public void buildAssetFilterExpression()
+    '''returns None\n\n
+    buildAssetFilterExpression()\n
     '''
 def buildDPAFilterExpression():
-    '''public void buildDPAFilterExpression()
+    '''returns None\n\n
+    buildDPAFilterExpression()\n
     '''
 def buildMatchesFoundExpression():
-    '''public void buildMatchesFoundExpression()
+    '''returns None\n\n
+    buildMatchesFoundExpression()\n
     '''
 def buildAttributesEqualityExpression():
-    '''public void buildAttributesEqualityExpression()
+    '''returns None\n\n
+    buildAttributesEqualityExpression()\n
     '''
 def resetRuleNames():
-    '''public void resetRuleNames()
+    '''returns None\n\n
+    resetRuleNames()\n
     '''
 def resetRuleName():
-    '''public void resetRuleName(final String relationshipName)
+    '''returns None\n\n
+    resetRuleName(final String relationshipName)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def compAppValidate():
-    '''public void compAppValidate()
+    '''returns None\n\n
+    compAppValidate()\n
     '''
 def validateSet():
-    '''public void validateSet(final String relationshipName)
+    '''returns None\n\n
+    validateSet(final String relationshipName)\n
     '''

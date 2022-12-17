@@ -1,21 +1,20 @@
 def initialize():
-    '''public void initialize()
-    '''
-def setValue():
-    '''public synchronized void setValue(final String attribute, final MboRemote mboRemote)
-    '''
-def setDate():
-    '''public synchronized void setDate(final String componentId, final Date value)
+    '''returns None\n\n
+    initialize()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''
 def getCurrentDateTime():
-    '''public Date getCurrentDateTime(Date currentDate)
+    '''returns Date\n\n
+    getCurrentDateTime(Date currentDate)\n
     '''
 def refreshhistory():
-    '''public int refreshhistory()
+    '''returns int\n\n
+    refreshhistory()\n
     '''

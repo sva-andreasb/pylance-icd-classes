@@ -1,48 +1,60 @@
-def Attendance():
-    '''public Attendance(final MboSet ms)
+def ():
+    '''returns Attendance\n\n
+    (final MboSet ms)\n
     '''
 def getProcess():
-    '''public String getProcess()
+    '''returns String\n\n
+    getProcess()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getTotalAttendance():
-    '''public double getTotalAttendance()
+    '''returns double\n\n
+    getTotalAttendance()\n
     '''
 def isSameDate():
-    '''public boolean isSameDate(final Date date1, final Date date2)
-    '''
-def isStartAfterFinshDate():
-    '''public static boolean isStartAfterFinshDate(final Date startDate, final Date finishDate)
+    '''returns boolean\n\n
+    isSameDate(final Date date1, final Date date2)\n
     '''
 def getTotalHrsinMinutes():
-    '''public int getTotalHrsinMinutes()
+    '''returns int\n\n
+    getTotalHrsinMinutes()\n
     '''
 def checkStartDateTime():
-    '''public void checkStartDateTime()
+    '''returns None\n\n
+    checkStartDateTime()\n
     '''
 def checkFinishDateTime():
-    '''public void checkFinishDateTime()
+    '''returns None\n\n
+    checkFinishDateTime()\n
     '''
 def getDatesDiff():
-    '''public double getDatesDiff()
+    '''returns double\n\n
+    getDatesDiff()\n
     '''
 def validDates():
-    '''public boolean validDates()
+    '''returns boolean\n\n
+    validDates()\n
     '''
 def checkDates():
-    '''public void checkDates()
+    '''returns None\n\n
+    checkDates()\n
     '''
 def checkLaborHrs():
-    '''public void checkLaborHrs()
+    '''returns None\n\n
+    checkLaborHrs()\n
     '''
 def validateDateTime():
-    '''public Date validateDateTime(final Date date, final Date time)
+    '''returns Date\n\n
+    validateDateTime(final Date date, final Date time)\n
     '''
 def getNextDateTime():
-    '''public Date getNextDateTime(final Date d1, final Date d2, final int minutes)
+    '''returns Date\n\n
+    getNextDateTime(final Date d1, final Date d2, final int minutes)\n
     '''

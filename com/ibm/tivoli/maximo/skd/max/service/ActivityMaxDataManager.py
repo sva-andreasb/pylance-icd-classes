@@ -1,40 +1,53 @@
-def ActivityMaxDataManager():
-    '''public ActivityMaxDataManager(final MXServer mxServer)
+def ():
+    '''returns ActivityMaxDataManager\n\n
+    (final MXServer mxServer)\n
     '''
 def populateDataObjects():
-    '''public void populateDataObjects(final MboRemote projectMbo, final Map<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateDataObjects(final MboRemote projectMbo, final Map<String, ArrayList<String>> queryMap)\n
     '''
 def findById():
-    '''public Activity findById(final Schedule schedule, final String id, final DataSpec dataSpec)
+    '''returns Activity\n\n
+    findById(final Schedule schedule, final String id, final DataSpec dataSpec)\n
     '''
 def loadDataObjects():
-    '''public JSONArray loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final Long offsetRecord, boolean parentOnly)
-    public JSONArray loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final List<String> activityIDs)
+    '''returns JSONArray\n\n
+    loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final Long offsetRecord, boolean parentOnly)\n
+    loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final List<String> activityIDs)\n
     '''
 def processChanges():
-    '''public void processChanges(final MboRemote projectMbo, final List<Activity> activityChanges)
+    '''returns None\n\n
+    processChanges(final MboRemote projectMbo, final List<Activity> activityChanges)\n
     '''
 def commitChanges():
-    '''public void commitChanges(final MboRemote projectMbo, final MboSetRemote activitySet, final String selectedIDs)
+    '''returns None\n\n
+    commitChanges(final MboRemote projectMbo, final MboSetRemote activitySet, final String selectedIDs)\n
     '''
 def getPageCount():
-    '''public int getPageCount(final Schedule schedule, final DataSpec dataSpec, final boolean parentOnly)
+    '''returns int\n\n
+    getPageCount(final Schedule schedule, final DataSpec dataSpec, final boolean parentOnly)\n
     '''
 def getRowCount():
-    '''public int getRowCount(final Schedule schedule, final DataSpec dataSpec, final boolean parentOnly)
+    '''returns int\n\n
+    getRowCount(final Schedule schedule, final DataSpec dataSpec, final boolean parentOnly)\n
     '''
 def getCompareRowCount():
-    '''public int getCompareRowCount(final Schedule leftModel, final long rightModelId, final DataSpec dataSpec)
+    '''returns int\n\n
+    getCompareRowCount(final Schedule leftModel, final long rightModelId, final DataSpec dataSpec)\n
     '''
 def fetchChildren():
-    '''public JSONArray fetchChildren(final Schedule schedule, final DataSpec dataSpec, final String workOrderNumber, final Long offsetRecord, final Integer level)
+    '''returns JSONArray\n\n
+    fetchChildren(final Schedule schedule, final DataSpec dataSpec, final String workOrderNumber, final Long offsetRecord, final Integer level)\n
     '''
 def loadDiffDataObjects():
-    '''public JSONArray loadDiffDataObjects(final Schedule leftSchedule, final long otherProjectID, final DataSpec dataSpec, final Long offsetRecord)
+    '''returns JSONArray\n\n
+    loadDiffDataObjects(final Schedule leftSchedule, final long otherProjectID, final DataSpec dataSpec, final Long offsetRecord)\n
     '''
 def bulkLoadDataObjects():
-    '''public JSONArray bulkLoadDataObjects(final Schedule schedule, final DataSpec dataSpec, final Long offsetRecord)
+    '''returns JSONArray\n\n
+    bulkLoadDataObjects(final Schedule schedule, final DataSpec dataSpec, final Long offsetRecord)\n
     '''
 def loadMissingDataObjects():
-    '''public JSONArray loadMissingDataObjects(final Schedule leftSchedule, final long otherProjectID, final DataSpec dataSpec)
+    '''returns JSONArray\n\n
+    loadMissingDataObjects(final Schedule leftSchedule, final long otherProjectID, final DataSpec dataSpec)\n
     '''

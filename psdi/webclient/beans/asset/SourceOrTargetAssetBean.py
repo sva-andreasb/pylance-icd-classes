@@ -1,3 +1,4 @@
-def SourceOrTargetAssetBean():
-    '''public SourceOrTargetAssetBean()
+def ():
+    '''returns SourceOrTargetAssetBean\n\n
+    ()\n
     '''

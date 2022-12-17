@@ -1,3 +1,4 @@
-def SRSet():
-    '''public SRSet(final MboServerInterface ms)
+def ():
+    '''returns SRSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,9 +1,12 @@
-def PmChgPredecessorConstraintUtil():
-    '''public PmChgPredecessorConstraintUtil(final Map<String, PmChgSchedulerTaskInfo> map)
+def ():
+    '''returns PmChgPredecessorConstraintUtil\n\n
+    (final Map<String, PmChgSchedulerTaskInfo> map)\n
     '''
 def applyPredecessorConstraints():
-    '''public void applyPredecessorConstraints(final MboRemote changeMbo, final Date startDate, final Date endDate)
+    '''returns None\n\n
+    applyPredecessorConstraints(final MboRemote changeMbo, final Date startDate, final Date endDate)\n
     '''
 def applyPredecessorConstraintsForTask():
-    '''public TimeWindowSet applyPredecessorConstraintsForTask(final MboRemote taskMbo, final Date startDate, final Date endDate, final boolean successorCheck)
+    '''returns TimeWindowSet\n\n
+    applyPredecessorConstraintsForTask(final MboRemote taskMbo, final Date startDate, final Date endDate, final boolean successorCheck)\n
     '''

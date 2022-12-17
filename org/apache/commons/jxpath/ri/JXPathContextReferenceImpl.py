@@ -1,69 +1,72 @@
 USE_SOFT_CACHE = "boolean  true"
-def JXPathContextReferenceImpl():
-    '''public JXPathContextReferenceImpl(final JXPathContext parentContext, final Object contextBean, final Pointer contextPointer)
+def ():
+    '''returns JXPathContextReferenceImpl\n\n
+    (final JXPathContext parentContext, final Object contextBean, final Pointer contextPointer)\n
     '''
 def compare():
-    '''public int compare(final Object a, final Object b)
-    '''
-def addNodePointerFactory():
-    '''public static void addNodePointerFactory(final NodePointerFactory factory)
-    '''
-def getNodePointerFactories():
-    '''public static NodePointerFactory[] getNodePointerFactories()
+    '''returns int\n\n
+    compare(final Object a, final Object b)\n
     '''
 def getValue():
-    '''public Object getValue(final String xpath)
-    public Object getValue(final String xpath, final Expression expr)
-    public Object getValue(final String xpath, final Class requiredType)
-    public Object getValue(final String xpath, final Expression expr, final Class requiredType)
+    '''returns Object\n\n
+    getValue(final String xpath)\n
+    getValue(final String xpath, final Expression expr)\n
+    getValue(final String xpath, final Class requiredType)\n
+    getValue(final String xpath, final Expression expr, final Class requiredType)\n
     '''
 def iterate():
-    '''public Iterator iterate(final String xpath)
-    public Iterator iterate(final String xpath, final Expression expr)
+    '''returns Iterator\n\n
+    iterate(final String xpath)\n
+    iterate(final String xpath, final Expression expr)\n
     '''
 def getPointer():
-    '''public Pointer getPointer(final String xpath)
-    public Pointer getPointer(final String xpath, final Expression expr)
+    '''returns Pointer\n\n
+    getPointer(final String xpath)\n
+    getPointer(final String xpath, final Expression expr)\n
     '''
 def setValue():
-    '''public void setValue(final String xpath, final Object value)
-    public void setValue(final String xpath, final Expression expr, final Object value)
+    '''returns None\n\n
+    setValue(final String xpath, final Object value)\n
+    setValue(final String xpath, final Expression expr, final Object value)\n
     '''
 def createPath():
-    '''public Pointer createPath(final String xpath)
-    public Pointer createPath(final String xpath, final Expression expr)
+    '''returns Pointer\n\n
+    createPath(final String xpath)\n
+    createPath(final String xpath, final Expression expr)\n
     '''
 def createPathAndSetValue():
-    '''public Pointer createPathAndSetValue(final String xpath, final Object value)
-    public Pointer createPathAndSetValue(final String xpath, final Expression expr, final Object value)
+    '''returns Pointer\n\n
+    createPathAndSetValue(final String xpath, final Object value)\n
+    createPathAndSetValue(final String xpath, final Expression expr, final Object value)\n
     '''
 def iteratePointers():
-    '''public Iterator iteratePointers(final String xpath)
-    public Iterator iteratePointers(final String xpath, final Expression expr)
+    '''returns Iterator\n\n
+    iteratePointers(final String xpath)\n
+    iteratePointers(final String xpath, final Expression expr)\n
     '''
 def removePath():
-    '''public void removePath(final String xpath)
-    public void removePath(final String xpath, final Expression expr)
+    '''returns None\n\n
+    removePath(final String xpath)\n
+    removePath(final String xpath, final Expression expr)\n
     '''
 def removeAll():
-    '''public void removeAll(final String xpath)
-    public void removeAll(final String xpath, final Expression expr)
+    '''returns None\n\n
+    removeAll(final String xpath)\n
+    removeAll(final String xpath, final Expression expr)\n
     '''
 def getRelativeContext():
-    '''public JXPathContext getRelativeContext(final Pointer pointer)
-    '''
-def getContextPointer():
-    '''public synchronized Pointer getContextPointer()
+    '''returns JXPathContext\n\n
+    getRelativeContext(final Pointer pointer)\n
     '''
 def getAbsoluteRootContext():
-    '''public EvalContext getAbsoluteRootContext()
+    '''returns EvalContext\n\n
+    getAbsoluteRootContext()\n
     '''
 def getVariablePointer():
-    '''public NodePointer getVariablePointer(final QName name)
+    '''returns NodePointer\n\n
+    getVariablePointer(final QName name)\n
     '''
 def getFunction():
-    '''public Function getFunction(final QName functionName, final Object[] parameters)
-    '''
-def allocateConditionally():
-    '''public static Object allocateConditionally(final String className, final String existenceCheckClassName)
+    '''returns Function\n\n
+    getFunction(final QName functionName, final Object[] parameters)\n
     '''

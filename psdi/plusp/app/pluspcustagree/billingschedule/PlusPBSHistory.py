@@ -1,3 +1,4 @@
-def PlusPBSHistory():
-    '''public PlusPBSHistory(final MboSet set)
+def ():
+    '''returns PlusPBSHistory\n\n
+    (final MboSet set)\n
     '''

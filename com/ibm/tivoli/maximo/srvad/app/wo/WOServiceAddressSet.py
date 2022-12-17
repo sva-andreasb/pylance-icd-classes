@@ -1,3 +1,4 @@
-def WOServiceAddressSet():
-    '''public WOServiceAddressSet(final MboServerInterface ms)
+def ():
+    '''returns WOServiceAddressSet\n\n
+    (final MboServerInterface ms)\n
     '''

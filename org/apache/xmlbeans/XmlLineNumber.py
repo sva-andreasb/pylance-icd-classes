@@ -1,14 +1,18 @@
-def XmlLineNumber():
-    '''public XmlLineNumber(final int line)
-    public XmlLineNumber(final int line, final int column)
-    public XmlLineNumber(final int line, final int column, final int offset)
+def ():
+    '''returns XmlLineNumber\n\n
+    (final int line)\n
+    (final int line, final int column)\n
+    (final int line, final int column, final int offset)\n
     '''
 def getLine():
-    '''public int getLine()
+    '''returns int\n\n
+    getLine()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''

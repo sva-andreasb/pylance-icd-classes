@@ -1,6 +1,8 @@
-def YamlConfiguration():
-    '''public YamlConfiguration(final LoggerContext loggerContext, final ConfigurationSource configSource)
+def ():
+    '''returns YamlConfiguration\n\n
+    (final LoggerContext loggerContext, final ConfigurationSource configSource)\n
     '''
 def reconfigure():
-    '''public Configuration reconfigure()
+    '''returns Configuration\n\n
+    reconfigure()\n
     '''

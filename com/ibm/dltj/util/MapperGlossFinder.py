@@ -1,6 +1,4 @@
-def getCopyright():
-    '''public static String getCopyright()
-    '''
 def process():
-    '''public void process(final Node badNode)
+    '''returns None\n\n
+    process(final Node badNode)\n
     '''

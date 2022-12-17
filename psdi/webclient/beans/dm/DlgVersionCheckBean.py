@@ -1,6 +1,8 @@
 def dook():
-    '''public int dook()
+    '''returns int\n\n
+    dook()\n
     '''
 def docancel():
-    '''public int docancel()
+    '''returns int\n\n
+    docancel()\n
     '''

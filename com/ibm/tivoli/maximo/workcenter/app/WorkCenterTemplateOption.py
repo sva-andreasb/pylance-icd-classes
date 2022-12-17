@@ -1,12 +1,16 @@
-def WorkCenterTemplateOption():
-    '''public WorkCenterTemplateOption(final MboSet ms)
+def ():
+    '''returns WorkCenterTemplateOption\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

@@ -1,12 +1,16 @@
-def SrndTruncQuery():
-    '''public SrndTruncQuery(final String truncated, final char unlimited, final char mask)
+def ():
+    '''returns SrndTruncQuery\n\n
+    (final String truncated, final char unlimited, final char mask)\n
     '''
 def getTruncated():
-    '''public String getTruncated()
+    '''returns String\n\n
+    getTruncated()\n
     '''
 def toStringUnquoted():
-    '''public String toStringUnquoted()
+    '''returns String\n\n
+    toStringUnquoted()\n
     '''
 def visitMatchingTerms():
-    '''public void visitMatchingTerms(final IndexReader reader, final String fieldName, final MatchingTermVisitor mtv)
+    '''returns None\n\n
+    visitMatchingTerms(final IndexReader reader, final String fieldName, final MatchingTermVisitor mtv)\n
     '''

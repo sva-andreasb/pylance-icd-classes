@@ -1,18 +1,16 @@
-def getInstance():
-    '''public static final OslcResourceCache getInstance()
-    '''
 def getOslcResourcesForDomain():
-    '''public List<OslcResourceInfo> getOslcResourcesForDomain(final String nsURI)
+    '''returns List<OslcResourceInfo>\n\n
+    getOslcResourcesForDomain(final String nsURI)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOslcResourceInfo():
-    '''public OslcResourceInfo getOslcResourceInfo(final String osName)
-    '''
-def getOslcResourceMap():
-    '''public Map<String, OslcResourceInfo> getOslcResourceMap()
+    '''returns OslcResourceInfo\n\n
+    getOslcResourceInfo(final String osName)\n
     '''
 def isAllowIntegrationOSAsResource():
-    '''public boolean isAllowIntegrationOSAsResource()
+    '''returns boolean\n\n
+    isAllowIntegrationOSAsResource()\n
     '''

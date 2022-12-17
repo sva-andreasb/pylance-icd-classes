@@ -1,6 +1,8 @@
-def FldInvCostNewStdCost():
-    '''public FldInvCostNewStdCost(final MboValue mbv)
+def ():
+    '''returns FldInvCostNewStdCost\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

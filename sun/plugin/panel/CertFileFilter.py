@@ -1,24 +1,32 @@
-def CertFileFilter():
-    '''public CertFileFilter()
+def ():
+    '''returns CertFileFilter\n\n
+    ()\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def getExtension():
-    '''public String getExtension(final File file)
+    '''returns String\n\n
+    getExtension(final File file)\n
     '''
 def addExtension():
-    '''public void addExtension(final String s)
+    '''returns None\n\n
+    addExtension(final String s)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def setExtensionListInDescription():
-    '''public void setExtensionListInDescription(final boolean useExtensionsInDescription)
+    '''returns None\n\n
+    setExtensionListInDescription(final boolean useExtensionsInDescription)\n
     '''
 def isExtensionListInDescription():
-    '''public boolean isExtensionListInDescription()
+    '''returns boolean\n\n
+    isExtensionListInDescription()\n
     '''

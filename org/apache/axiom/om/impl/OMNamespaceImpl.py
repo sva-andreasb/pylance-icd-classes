@@ -1,19 +1,25 @@
-def OMNamespaceImpl():
-    '''public OMNamespaceImpl(final String uri, final String prefix)
+def ():
+    '''returns OMNamespaceImpl\n\n
+    (final String uri, final String prefix)\n
     '''
 def equals():
-    '''public boolean equals(final String uri, final String prefix)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final String uri, final String prefix)\n
+    equals(final Object obj)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

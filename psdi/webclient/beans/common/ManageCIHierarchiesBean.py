@@ -1,13 +1,13 @@
 CHILDREN_TABLE_BEAN = "String  \"ChildernTableBean\""
-def execute():
-    '''public synchronized int execute()
-    '''
 def addChildBean():
-    '''public void addChildBean(final DataBean bean, final String key)
+    '''returns None\n\n
+    addChildBean(final DataBean bean, final String key)\n
     '''
 def getChildBean():
-    '''public DataBean getChildBean(final String key)
+    '''returns DataBean\n\n
+    getChildBean(final String key)\n
     '''
 def saveCITemplate():
-    '''public void saveCITemplate()
+    '''returns None\n\n
+    saveCITemplate()\n
     '''

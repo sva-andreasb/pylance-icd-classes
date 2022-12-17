@@ -1,15 +1,18 @@
-def ValidatingObjectInputStream():
-    '''public ValidatingObjectInputStream(final InputStream input)
+def ():
+    '''returns ValidatingObjectInputStream\n\n
+    (final InputStream input)\n
     '''
 def accept():
-    '''public ValidatingObjectInputStream accept(final Class<?>... classes)
-    public ValidatingObjectInputStream accept(final String... patterns)
-    public ValidatingObjectInputStream accept(final Pattern pattern)
-    public ValidatingObjectInputStream accept(final ClassNameMatcher m)
+    '''returns ValidatingObjectInputStream\n\n
+    accept(final Class<?>... classes)\n
+    accept(final String... patterns)\n
+    accept(final Pattern pattern)\n
+    accept(final ClassNameMatcher m)\n
     '''
 def reject():
-    '''public ValidatingObjectInputStream reject(final Class<?>... classes)
-    public ValidatingObjectInputStream reject(final String... patterns)
-    public ValidatingObjectInputStream reject(final Pattern pattern)
-    public ValidatingObjectInputStream reject(final ClassNameMatcher m)
+    '''returns ValidatingObjectInputStream\n\n
+    reject(final Class<?>... classes)\n
+    reject(final String... patterns)\n
+    reject(final Pattern pattern)\n
+    reject(final ClassNameMatcher m)\n
     '''

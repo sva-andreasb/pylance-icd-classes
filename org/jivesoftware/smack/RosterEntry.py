@@ -1,21 +1,28 @@
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getGroups():
-    '''public Collection<RosterGroup> getGroups()
+    '''returns Collection<RosterGroup>\n\n
+    getGroups()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def equalsDeep():
-    '''public boolean equalsDeep(final Object obj)
+    '''returns boolean\n\n
+    equalsDeep(final Object obj)\n
     '''

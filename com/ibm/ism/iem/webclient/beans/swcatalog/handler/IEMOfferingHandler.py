@@ -1,22 +1,29 @@
-def IEMOfferingHandler():
-    '''public IEMOfferingHandler(final MboRemote iemOBJ, final String offeringName, final String desc, final String orgId, final String itemsetid)
+def ():
+    '''returns IEMOfferingHandler\n\n
+    (final MboRemote iemOBJ, final String offeringName, final String desc, final String orgId, final String itemsetid)\n
     '''
 def exist():
-    '''public MboRemote exist(final MXTransaction trans, final MXSession mxsession)
+    '''returns MboRemote\n\n
+    exist(final MXTransaction trans, final MXSession mxsession)\n
     '''
 def create():
-    '''public MboRemote create(final MXTransaction trans, final MXSession mxsession)
+    '''returns MboRemote\n\n
+    create(final MXTransaction trans, final MXSession mxsession)\n
     '''
 def handle():
-    '''public void handle(final MXTransaction trans, final MXSession mxsession, final String jobPlanNum, final OfferingApprovalWkf approval)
-    public void handle(final MXTransaction trans, final MXSession mxsession)
+    '''returns None\n\n
+    handle(final MXTransaction trans, final MXSession mxsession, final String jobPlanNum, final OfferingApprovalWkf approval)\n
+    handle(final MXTransaction trans, final MXSession mxsession)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setOfferingDataToIEMObj():
-    '''public void setOfferingDataToIEMObj(final String offName, final String offDesc)
+    '''returns None\n\n
+    setOfferingDataToIEMObj(final String offName, final String offDesc)\n
     '''
 def numOfOffering():
-    '''public int numOfOffering(final MXTransaction trans, final MXSession mxsession)
+    '''returns int\n\n
+    numOfOffering(final MXTransaction trans, final MXSession mxsession)\n
     '''

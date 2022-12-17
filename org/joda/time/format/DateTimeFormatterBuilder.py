@@ -1,239 +1,298 @@
-def DateTimeFormatterBuilder():
-    '''public DateTimeFormatterBuilder()
+def ():
+    '''returns DateTimeFormatterBuilder\n\n
+    ()\n
     '''
 def toFormatter():
-    '''public DateTimeFormatter toFormatter()
+    '''returns DateTimeFormatter\n\n
+    toFormatter()\n
     '''
 def toPrinter():
-    '''public DateTimePrinter toPrinter()
+    '''returns DateTimePrinter\n\n
+    toPrinter()\n
     '''
 def toParser():
-    '''public DateTimeParser toParser()
+    '''returns DateTimeParser\n\n
+    toParser()\n
     '''
 def canBuildFormatter():
-    '''public boolean canBuildFormatter()
+    '''returns boolean\n\n
+    canBuildFormatter()\n
     '''
 def canBuildPrinter():
-    '''public boolean canBuildPrinter()
+    '''returns boolean\n\n
+    canBuildPrinter()\n
     '''
 def canBuildParser():
-    '''public boolean canBuildParser()
+    '''returns boolean\n\n
+    canBuildParser()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def append():
-    '''public DateTimeFormatterBuilder append(final DateTimeFormatter dateTimeFormatter)
-    public DateTimeFormatterBuilder append(final DateTimePrinter dateTimePrinter)
-    public DateTimeFormatterBuilder append(final DateTimeParser dateTimeParser)
-    public DateTimeFormatterBuilder append(final DateTimePrinter dateTimePrinter, final DateTimeParser dateTimeParser)
-    public DateTimeFormatterBuilder append(final DateTimePrinter dateTimePrinter, final DateTimeParser[] array)
+    '''returns DateTimeFormatterBuilder\n\n
+    append(final DateTimeFormatter dateTimeFormatter)\n
+    append(final DateTimePrinter dateTimePrinter)\n
+    append(final DateTimeParser dateTimeParser)\n
+    append(final DateTimePrinter dateTimePrinter, final DateTimeParser dateTimeParser)\n
+    append(final DateTimePrinter dateTimePrinter, final DateTimeParser[] array)\n
     '''
 def appendOptional():
-    '''public DateTimeFormatterBuilder appendOptional(final DateTimeParser dateTimeParser)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendOptional(final DateTimeParser dateTimeParser)\n
     '''
 def appendLiteral():
-    '''public DateTimeFormatterBuilder appendLiteral(final char c)
-    public DateTimeFormatterBuilder appendLiteral(final String s)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendLiteral(final char c)\n
+    appendLiteral(final String s)\n
     '''
 def appendDecimal():
-    '''public DateTimeFormatterBuilder appendDecimal(final DateTimeFieldType dateTimeFieldType, final int n, int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendDecimal(final DateTimeFieldType dateTimeFieldType, final int n, int n2)\n
     '''
 def appendFixedDecimal():
-    '''public DateTimeFormatterBuilder appendFixedDecimal(final DateTimeFieldType dateTimeFieldType, final int i)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendFixedDecimal(final DateTimeFieldType dateTimeFieldType, final int i)\n
     '''
 def appendSignedDecimal():
-    '''public DateTimeFormatterBuilder appendSignedDecimal(final DateTimeFieldType dateTimeFieldType, final int n, int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendSignedDecimal(final DateTimeFieldType dateTimeFieldType, final int n, int n2)\n
     '''
 def appendFixedSignedDecimal():
-    '''public DateTimeFormatterBuilder appendFixedSignedDecimal(final DateTimeFieldType dateTimeFieldType, final int i)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendFixedSignedDecimal(final DateTimeFieldType dateTimeFieldType, final int i)\n
     '''
 def appendText():
-    '''public DateTimeFormatterBuilder appendText(final DateTimeFieldType dateTimeFieldType)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendText(final DateTimeFieldType dateTimeFieldType)\n
     '''
 def appendShortText():
-    '''public DateTimeFormatterBuilder appendShortText(final DateTimeFieldType dateTimeFieldType)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendShortText(final DateTimeFieldType dateTimeFieldType)\n
     '''
 def appendFraction():
-    '''public DateTimeFormatterBuilder appendFraction(final DateTimeFieldType dateTimeFieldType, final int n, int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendFraction(final DateTimeFieldType dateTimeFieldType, final int n, int n2)\n
     '''
 def appendFractionOfSecond():
-    '''public DateTimeFormatterBuilder appendFractionOfSecond(final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendFractionOfSecond(final int n, final int n2)\n
     '''
 def appendFractionOfMinute():
-    '''public DateTimeFormatterBuilder appendFractionOfMinute(final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendFractionOfMinute(final int n, final int n2)\n
     '''
 def appendFractionOfHour():
-    '''public DateTimeFormatterBuilder appendFractionOfHour(final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendFractionOfHour(final int n, final int n2)\n
     '''
 def appendFractionOfDay():
-    '''public DateTimeFormatterBuilder appendFractionOfDay(final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendFractionOfDay(final int n, final int n2)\n
     '''
 def appendMillisOfSecond():
-    '''public DateTimeFormatterBuilder appendMillisOfSecond(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendMillisOfSecond(final int n)\n
     '''
 def appendMillisOfDay():
-    '''public DateTimeFormatterBuilder appendMillisOfDay(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendMillisOfDay(final int n)\n
     '''
 def appendSecondOfMinute():
-    '''public DateTimeFormatterBuilder appendSecondOfMinute(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendSecondOfMinute(final int n)\n
     '''
 def appendSecondOfDay():
-    '''public DateTimeFormatterBuilder appendSecondOfDay(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendSecondOfDay(final int n)\n
     '''
 def appendMinuteOfHour():
-    '''public DateTimeFormatterBuilder appendMinuteOfHour(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendMinuteOfHour(final int n)\n
     '''
 def appendMinuteOfDay():
-    '''public DateTimeFormatterBuilder appendMinuteOfDay(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendMinuteOfDay(final int n)\n
     '''
 def appendHourOfDay():
-    '''public DateTimeFormatterBuilder appendHourOfDay(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendHourOfDay(final int n)\n
     '''
 def appendClockhourOfDay():
-    '''public DateTimeFormatterBuilder appendClockhourOfDay(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendClockhourOfDay(final int n)\n
     '''
 def appendHourOfHalfday():
-    '''public DateTimeFormatterBuilder appendHourOfHalfday(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendHourOfHalfday(final int n)\n
     '''
 def appendClockhourOfHalfday():
-    '''public DateTimeFormatterBuilder appendClockhourOfHalfday(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendClockhourOfHalfday(final int n)\n
     '''
 def appendDayOfWeek():
-    '''public DateTimeFormatterBuilder appendDayOfWeek(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendDayOfWeek(final int n)\n
     '''
 def appendDayOfMonth():
-    '''public DateTimeFormatterBuilder appendDayOfMonth(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendDayOfMonth(final int n)\n
     '''
 def appendDayOfYear():
-    '''public DateTimeFormatterBuilder appendDayOfYear(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendDayOfYear(final int n)\n
     '''
 def appendWeekOfWeekyear():
-    '''public DateTimeFormatterBuilder appendWeekOfWeekyear(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendWeekOfWeekyear(final int n)\n
     '''
 def appendWeekyear():
-    '''public DateTimeFormatterBuilder appendWeekyear(final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendWeekyear(final int n, final int n2)\n
     '''
 def appendMonthOfYear():
-    '''public DateTimeFormatterBuilder appendMonthOfYear(final int n)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendMonthOfYear(final int n)\n
     '''
 def appendYear():
-    '''public DateTimeFormatterBuilder appendYear(final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendYear(final int n, final int n2)\n
     '''
 def appendTwoDigitYear():
-    '''public DateTimeFormatterBuilder appendTwoDigitYear(final int n)
-    public DateTimeFormatterBuilder appendTwoDigitYear(final int n, final boolean b)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendTwoDigitYear(final int n)\n
+    appendTwoDigitYear(final int n, final boolean b)\n
     '''
 def appendTwoDigitWeekyear():
-    '''public DateTimeFormatterBuilder appendTwoDigitWeekyear(final int n)
-    public DateTimeFormatterBuilder appendTwoDigitWeekyear(final int n, final boolean b)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendTwoDigitWeekyear(final int n)\n
+    appendTwoDigitWeekyear(final int n, final boolean b)\n
     '''
 def appendYearOfEra():
-    '''public DateTimeFormatterBuilder appendYearOfEra(final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendYearOfEra(final int n, final int n2)\n
     '''
 def appendYearOfCentury():
-    '''public DateTimeFormatterBuilder appendYearOfCentury(final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendYearOfCentury(final int n, final int n2)\n
     '''
 def appendCenturyOfEra():
-    '''public DateTimeFormatterBuilder appendCenturyOfEra(final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendCenturyOfEra(final int n, final int n2)\n
     '''
 def appendHalfdayOfDayText():
-    '''public DateTimeFormatterBuilder appendHalfdayOfDayText()
+    '''returns DateTimeFormatterBuilder\n\n
+    appendHalfdayOfDayText()\n
     '''
 def appendDayOfWeekText():
-    '''public DateTimeFormatterBuilder appendDayOfWeekText()
+    '''returns DateTimeFormatterBuilder\n\n
+    appendDayOfWeekText()\n
     '''
 def appendDayOfWeekShortText():
-    '''public DateTimeFormatterBuilder appendDayOfWeekShortText()
+    '''returns DateTimeFormatterBuilder\n\n
+    appendDayOfWeekShortText()\n
     '''
 def appendMonthOfYearText():
-    '''public DateTimeFormatterBuilder appendMonthOfYearText()
+    '''returns DateTimeFormatterBuilder\n\n
+    appendMonthOfYearText()\n
     '''
 def appendMonthOfYearShortText():
-    '''public DateTimeFormatterBuilder appendMonthOfYearShortText()
+    '''returns DateTimeFormatterBuilder\n\n
+    appendMonthOfYearShortText()\n
     '''
 def appendEraText():
-    '''public DateTimeFormatterBuilder appendEraText()
+    '''returns DateTimeFormatterBuilder\n\n
+    appendEraText()\n
     '''
 def appendTimeZoneName():
-    '''public DateTimeFormatterBuilder appendTimeZoneName()
-    public DateTimeFormatterBuilder appendTimeZoneName(final Map<String, DateTimeZone> map)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendTimeZoneName()\n
+    appendTimeZoneName(final Map<String, DateTimeZone> map)\n
     '''
 def appendTimeZoneShortName():
-    '''public DateTimeFormatterBuilder appendTimeZoneShortName()
-    public DateTimeFormatterBuilder appendTimeZoneShortName(final Map<String, DateTimeZone> map)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendTimeZoneShortName()\n
+    appendTimeZoneShortName(final Map<String, DateTimeZone> map)\n
     '''
 def appendTimeZoneId():
-    '''public DateTimeFormatterBuilder appendTimeZoneId()
+    '''returns DateTimeFormatterBuilder\n\n
+    appendTimeZoneId()\n
     '''
 def appendTimeZoneOffset():
-    '''public DateTimeFormatterBuilder appendTimeZoneOffset(final String s, final boolean b, final int n, final int n2)
-    public DateTimeFormatterBuilder appendTimeZoneOffset(final String s, final String s2, final boolean b, final int n, final int n2)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendTimeZoneOffset(final String s, final boolean b, final int n, final int n2)\n
+    appendTimeZoneOffset(final String s, final String s2, final boolean b, final int n, final int n2)\n
     '''
 def appendPattern():
-    '''public DateTimeFormatterBuilder appendPattern(final String s)
+    '''returns DateTimeFormatterBuilder\n\n
+    appendPattern(final String s)\n
     '''
 def estimatePrintedLength():
-    '''public int estimatePrintedLength()
-    public int estimatePrintedLength()
-    public int estimatePrintedLength()
-    public int estimatePrintedLength()
-    public int estimatePrintedLength()
-    public int estimatePrintedLength()
-    public int estimatePrintedLength()
-    public int estimatePrintedLength()
-    public int estimatePrintedLength()
-    public int estimatePrintedLength()
-    public int estimatePrintedLength()
+    '''returns int\n\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
+    estimatePrintedLength()\n
     '''
 def printTo():
-    '''public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, Locale default1)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, Locale default1)
+    '''returns None\n\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, Locale default1)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, Locale default1)\n
     '''
 def estimateParsedLength():
-    '''public int estimateParsedLength()
-    public int estimateParsedLength()
-    public int estimateParsedLength()
-    public int estimateParsedLength()
-    public int estimateParsedLength()
-    public int estimateParsedLength()
-    public int estimateParsedLength()
-    public int estimateParsedLength()
-    public int estimateParsedLength()
-    public int estimateParsedLength()
-    public int estimateParsedLength()
+    '''returns int\n\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
+    estimateParsedLength()\n
     '''
 def parseInto():
-    '''public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, int into)
-    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
+    '''returns int\n\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, int into)\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)\n
     '''

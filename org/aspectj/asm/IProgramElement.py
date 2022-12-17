@@ -1,63 +1,75 @@
-def ExtraInformation():
-    '''public ExtraInformation()
+def ():
+    '''returns ExtraInformation\n\n
+    ()\n
     '''
 def setExtraAdviceInformation():
-    '''public void setExtraAdviceInformation(final String string)
+    '''returns None\n\n
+    setExtraAdviceInformation(final String string)\n
     '''
 def getExtraAdviceInformation():
-    '''public String getExtraAdviceInformation()
+    '''returns String\n\n
+    getExtraAdviceInformation()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def getBit():
-    '''public int getBit()
-    '''
-def getKindForString():
-    '''public static Kind getKindForString(final String kindString)
-    '''
-def getNonAJMemberKinds():
-    '''public static List<Kind> getNonAJMemberKinds()
+    '''returns int\n\n
+    getBit()\n
     '''
 def isMember():
-    '''public boolean isMember()
+    '''returns boolean\n\n
+    isMember()\n
     '''
 def isInterTypeMember():
-    '''public boolean isInterTypeMember()
+    '''returns boolean\n\n
+    isInterTypeMember()\n
     '''
 def isType():
-    '''public boolean isType()
+    '''returns boolean\n\n
+    isType()\n
     '''
 def isSourceFile():
-    '''public boolean isSourceFile()
+    '''returns boolean\n\n
+    isSourceFile()\n
     '''
 def isFile():
-    '''public boolean isFile()
+    '''returns boolean\n\n
+    isFile()\n
     '''
 def isDeclare():
-    '''public boolean isDeclare()
+    '''returns boolean\n\n
+    isDeclare()\n
     '''
 def isDeclareAnnotation():
-    '''public boolean isDeclareAnnotation()
+    '''returns boolean\n\n
+    isDeclareAnnotation()\n
     '''
 def isDeclareParents():
-    '''public boolean isDeclareParents()
+    '''returns boolean\n\n
+    isDeclareParents()\n
     '''
 def isDeclareSoft():
-    '''public boolean isDeclareSoft()
+    '''returns boolean\n\n
+    isDeclareSoft()\n
     '''
 def isDeclareWarning():
-    '''public boolean isDeclareWarning()
+    '''returns boolean\n\n
+    isDeclareWarning()\n
     '''
 def isDeclareError():
-    '''public boolean isDeclareError()
+    '''returns boolean\n\n
+    isDeclareError()\n
     '''
 def isDeclarePrecedence():
-    '''public boolean isDeclarePrecedence()
+    '''returns boolean\n\n
+    isDeclarePrecedence()\n
     '''
 def isPackageDeclaration():
-    '''public boolean isPackageDeclaration()
+    '''returns boolean\n\n
+    isPackageDeclaration()\n
     '''

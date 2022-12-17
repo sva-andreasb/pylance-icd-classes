@@ -1,31 +1,40 @@
 FORM_URL_ENCODED_CONTENT_TYPE = "String  \"application/x-www-form-urlencoded\""
-def PostMethod():
-    '''public PostMethod()
-    public PostMethod(final String uri)
+def ():
+    '''returns PostMethod\n\n
+    ()\n
+    (final String uri)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setParameter():
-    '''public void setParameter(final String parameterName, final String parameterValue)
+    '''returns None\n\n
+    setParameter(final String parameterName, final String parameterValue)\n
     '''
 def getParameter():
-    '''public NameValuePair getParameter(final String paramName)
+    '''returns NameValuePair\n\n
+    getParameter(final String paramName)\n
     '''
 def getParameters():
-    '''public NameValuePair[] getParameters()
+    '''returns NameValuePair[]\n\n
+    getParameters()\n
     '''
 def addParameter():
-    '''public void addParameter(final String paramName, final String paramValue)
-    public void addParameter(final NameValuePair param)
+    '''returns None\n\n
+    addParameter(final String paramName, final String paramValue)\n
+    addParameter(final NameValuePair param)\n
     '''
 def addParameters():
-    '''public void addParameters(final NameValuePair[] parameters)
+    '''returns None\n\n
+    addParameters(final NameValuePair[] parameters)\n
     '''
 def removeParameter():
-    '''public boolean removeParameter(final String paramName)
-    public boolean removeParameter(final String paramName, final String paramValue)
+    '''returns boolean\n\n
+    removeParameter(final String paramName)\n
+    removeParameter(final String paramName, final String paramValue)\n
     '''
 def setRequestBody():
-    '''public void setRequestBody(final NameValuePair[] parametersBody)
+    '''returns None\n\n
+    setRequestBody(final NameValuePair[] parametersBody)\n
     '''

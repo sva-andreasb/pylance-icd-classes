@@ -1,12 +1,12 @@
-def SparePartsBean():
-    '''public SparePartsBean()
+def ():
+    '''returns SparePartsBean\n\n
+    ()\n
     '''
 def addrow():
-    '''public int addrow()
-    '''
-def setValue():
-    '''public synchronized void setValue(final String attribute, final MboRemote mboRemote)
+    '''returns int\n\n
+    addrow()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''

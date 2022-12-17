@@ -1,6 +1,8 @@
-def XSDDayType():
-    '''public XSDDayType(final String typename)
+def ():
+    '''returns XSDDayType\n\n
+    (final String typename)\n
     '''
 def parseValidated():
-    '''public Object parseValidated(final String str)
+    '''returns Object\n\n
+    parseValidated(final String str)\n
     '''

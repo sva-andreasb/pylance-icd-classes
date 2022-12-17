@@ -1,69 +1,84 @@
-def OslcInteraction():
-    '''public OslcInteraction(final MboSet ms)
+def ():
+    '''returns OslcInteraction\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def parse():
-    '''public void parse(final OslcEndPointData oslcEndPointData)
+    '''returns None\n\n
+    parse(final OslcEndPointData oslcEndPointData)\n
     '''
 def setUsage():
-    '''public void setUsage()
+    '''returns None\n\n
+    setUsage()\n
     '''
 def setQueriesAndParamaters():
-    '''public void setQueriesAndParamaters()
+    '''returns None\n\n
+    setQueriesAndParamaters()\n
     '''
 def validateQuery():
-    '''public void validateQuery()
+    '''returns None\n\n
+    validateQuery()\n
     '''
 def createInteraction():
-    '''public String createInteraction(final byte[] present)
+    '''returns String\n\n
+    createInteraction(final byte[] present)\n
     '''
 def deleteInteraction():
-    '''public String deleteInteraction(final byte[] presentataion)
+    '''returns String\n\n
+    deleteInteraction(final byte[] presentataion)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def getDesigner():
-    '''public OslcInteractionDesigner getDesigner()
-    '''
-def getAllproviders():
-    '''public Map<String, String> getAllproviders()
+    '''returns OslcInteractionDesigner\n\n
+    getDesigner()\n
     '''
 def setPresentataion():
-    '''public void setPresentataion(final byte[] data)
+    '''returns None\n\n
+    setPresentataion(final byte[] data)\n
     '''
 def setTabList():
-    '''public void setTabList()
+    '''returns None\n\n
+    setTabList()\n
     '''
 def getPresentataion():
-    '''public byte[] getPresentataion()
-    '''
-def getTabMap():
-    '''public Map<String, String> getTabMap()
+    '''returns byte[]\n\n
+    getPresentataion()\n
     '''
 def getAllUsages():
-    '''public Set<String> getAllUsages()
+    '''returns Set<String>\n\n
+    getAllUsages()\n
     '''
 def hasRelation():
-    '''public boolean hasRelation()
+    '''returns boolean\n\n
+    hasRelation()\n
     '''
 def checkInteractionGroup():
-    '''public void checkInteractionGroup()
+    '''returns None\n\n
+    checkInteractionGroup()\n
     '''
 def logStep():
-    '''public void logStep(final int step, final boolean isPrevious)
+    '''returns None\n\n
+    logStep(final int step, final boolean isPrevious)\n
     '''

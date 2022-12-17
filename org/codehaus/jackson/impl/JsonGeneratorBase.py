@@ -1,59 +1,58 @@
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def enable():
-    '''public JsonGenerator enable(final Feature f)
+    '''returns JsonGenerator\n\n
+    enable(final Feature f)\n
     '''
 def disable():
-    '''public JsonGenerator disable(final Feature f)
-    '''
-def isEnabled():
-    '''public final boolean isEnabled(final Feature f)
+    '''returns JsonGenerator\n\n
+    disable(final Feature f)\n
     '''
 def useDefaultPrettyPrinter():
-    '''public JsonGenerator useDefaultPrettyPrinter()
+    '''returns JsonGenerator\n\n
+    useDefaultPrettyPrinter()\n
     '''
 def setCodec():
-    '''public JsonGenerator setCodec(final ObjectCodec oc)
-    '''
-def getCodec():
-    '''public final ObjectCodec getCodec()
-    '''
-def getOutputContext():
-    '''public final JsonWriteContext getOutputContext()
+    '''returns JsonGenerator\n\n
+    setCodec(final ObjectCodec oc)\n
     '''
 def writeStartArray():
-    '''public void writeStartArray()
+    '''returns None\n\n
+    writeStartArray()\n
     '''
 def writeEndArray():
-    '''public void writeEndArray()
+    '''returns None\n\n
+    writeEndArray()\n
     '''
 def writeStartObject():
-    '''public void writeStartObject()
+    '''returns None\n\n
+    writeStartObject()\n
     '''
 def writeEndObject():
-    '''public void writeEndObject()
+    '''returns None\n\n
+    writeEndObject()\n
     '''
 def writeRawValue():
-    '''public void writeRawValue(final String text)
-    public void writeRawValue(final String text, final int offset, final int len)
-    public void writeRawValue(final char[] text, final int offset, final int len)
+    '''returns None\n\n
+    writeRawValue(final String text)\n
+    writeRawValue(final String text, final int offset, final int len)\n
+    writeRawValue(final char[] text, final int offset, final int len)\n
     '''
 def writeObject():
-    '''public void writeObject(final Object value)
+    '''returns None\n\n
+    writeObject(final Object value)\n
     '''
 def writeTree():
-    '''public void writeTree(final JsonNode rootNode)
+    '''returns None\n\n
+    writeTree(final JsonNode rootNode)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
-    '''
-def copyCurrentEvent():
-    '''public final void copyCurrentEvent(final JsonParser jp)
-    '''
-def copyCurrentStructure():
-    '''public final void copyCurrentStructure(final JsonParser jp)
+    '''returns boolean\n\n
+    isClosed()\n
     '''

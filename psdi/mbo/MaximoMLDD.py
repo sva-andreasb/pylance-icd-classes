@@ -1,26 +1,26 @@
-def MaximoMLDD():
-    '''public MaximoMLDD()
+def ():
+    '''returns InternalPresentation\n\n
+    ()\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public synchronized void reload(final String key)
+    '''returns None\n\n
+    reload()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMboValueInfoStatic():
-    '''public MboValueInfoStatic getMboValueInfoStatic(final UserInfo ui, final String objectName, final String attributeName)
-    public MboValueInfoStatic getMboValueInfoStatic(final String attr)
-    '''
-def getLangCache():
-    '''public HashMap<String, InternalPresentation> getLangCache(final String langCode)
-    '''
-def InternalPresentation():
-    '''public InternalPresentation()
+    '''returns MboValueInfoStatic\n\n
+    getMboValueInfoStatic(final UserInfo ui, final String objectName, final String attributeName)\n
+    getMboValueInfoStatic(final String attr)\n
     '''
 def addAttrInfo():
-    '''public void addAttrInfo(final MboRemote attr)
+    '''returns None\n\n
+    addAttrInfo(final MboRemote attr)\n
     '''

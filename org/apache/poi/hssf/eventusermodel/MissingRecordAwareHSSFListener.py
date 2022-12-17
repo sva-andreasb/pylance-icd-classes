@@ -1,6 +1,8 @@
-def MissingRecordAwareHSSFListener():
-    '''public MissingRecordAwareHSSFListener(final HSSFListener listener)
+def ():
+    '''returns MissingRecordAwareHSSFListener\n\n
+    (final HSSFListener listener)\n
     '''
 def processRecord():
-    '''public void processRecord(final Record record)
+    '''returns None\n\n
+    processRecord(final Record record)\n
     '''

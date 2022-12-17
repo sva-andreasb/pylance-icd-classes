@@ -1,22 +1,25 @@
-def NonPersistentMboSet():
-    '''public NonPersistentMboSet(final MboServerInterface ms)
+def ():
+    '''returns NonPersistentMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def count():
-    '''public int count()
-    '''
-def isClosed():
-    '''public final boolean isClosed()
+    '''returns int\n\n
+    count()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def setMboSetInfo():
-    '''public void setMboSetInfo(final MboSetInfo ms)
+    '''returns None\n\n
+    setMboSetInfo(final MboSetInfo ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
-    public void execute(final MboRemote mbo)
+    '''returns None\n\n
+    execute()\n
+    execute(final MboRemote mbo)\n
     '''

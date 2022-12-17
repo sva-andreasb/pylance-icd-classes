@@ -1,15 +1,20 @@
-def TKStatusHandler():
-    '''public TKStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns TKStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredStatus)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)\n
     '''
 def updateMboForStatus():
-    '''public void updateMboForStatus(final String status)
+    '''returns None\n\n
+    updateMboForStatus(final String status)\n
     '''

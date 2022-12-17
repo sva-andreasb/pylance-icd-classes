@@ -1,26 +1,22 @@
-def StringGloss():
-    '''public StringGloss()
-    public StringGloss(final String s)
-    public StringGloss(final String s, final int rtData)
+def ():
+    '''returns StringGloss\n\n
+    ()\n
+    (final String s)\n
+    (final String s, final int rtData)\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-    '''
-def equals():
-    '''public final boolean equals(final Object o)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
-    '''
-def hashCode():
-    '''public final int hashCode()
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def getType():
-    '''public int getType()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns int\n\n
+    getType()\n
     '''

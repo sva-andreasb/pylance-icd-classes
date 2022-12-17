@@ -1,12 +1,16 @@
-def FldSKDPropertyMapAttributeName():
-    '''public FldSKDPropertyMapAttributeName(final MboValue mbv)
+def ():
+    '''returns FldSKDPropertyMapAttributeName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''

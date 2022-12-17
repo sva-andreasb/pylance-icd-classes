@@ -1,6 +1,4 @@
-def SelectProductBean():
-    '''public SelectProductBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns SelectProductBean\n\n
+    ()\n
     '''

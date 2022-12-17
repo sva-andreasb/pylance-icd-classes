@@ -1,19 +1,25 @@
-def TableData():
-    '''public TableData(final String entityName)
+def ():
+    '''returns TableData\n\n
+    (final String entityName)\n
     '''
 def addMaximoDefinition():
-    '''public void addMaximoDefinition(final String colName, final String maxType, final Integer length, final Integer scale, final Boolean required, final Integer attrNum)
+    '''returns None\n\n
+    addMaximoDefinition(final String colName, final String maxType, final Integer length, final Integer scale, final Boolean required, final Integer attrNum)\n
     '''
 def addDatabaseDefinition():
-    '''public void addDatabaseDefinition(final String colName, final String typeName, final Integer length, final Integer scale, final Boolean required, final Integer attrNum)
+    '''returns None\n\n
+    addDatabaseDefinition(final String colName, final String typeName, final Integer length, final Integer scale, final Boolean required, final Integer attrNum)\n
     '''
 def columnDataPaired():
-    '''public boolean columnDataPaired()
+    '''returns boolean\n\n
+    columnDataPaired()\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def getColumnData():
-    '''public Collection<ColumnData> getColumnData()
-    public ColumnData getColumnData(final String colName)
+    '''returns ColumnData\n\n
+    getColumnData()\n
+    getColumnData(final String colName)\n
     '''

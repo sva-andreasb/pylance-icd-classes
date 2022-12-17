@@ -7,6 +7,3 @@ GREATER_OR_EQUAL = "String  \"GREATEROREQUAL\""
 LESS_OR_EQUAL = "String  \"LESSOREQUAL\""
 LIKE = "String  \"LIKE\""
 NOT_LIKE = "String  \"NOTLIKE\""
-def toInternalString():
-    '''public static String toInternalString(final MboRemote mbo, final String fld)
-    '''

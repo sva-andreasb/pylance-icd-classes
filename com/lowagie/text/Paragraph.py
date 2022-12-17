@@ -1,77 +1,95 @@
-def Paragraph():
-    '''public Paragraph()
-    public Paragraph(final float leading)
-    public Paragraph(final Chunk chunk)
-    public Paragraph(final float leading, final Chunk chunk)
-    public Paragraph(final String string)
-    public Paragraph(final String string, final Font font)
-    public Paragraph(final float leading, final String string)
-    public Paragraph(final float leading, final String string, final Font font)
-    public Paragraph(final Phrase phrase)
-    public Paragraph(final Properties attributes)
+def ():
+    '''returns Paragraph\n\n
+    ()\n
+    (final float leading)\n
+    (final Chunk chunk)\n
+    (final float leading, final Chunk chunk)\n
+    (final String string)\n
+    (final String string, final Font font)\n
+    (final float leading, final String string)\n
+    (final float leading, final String string, final Font font)\n
+    (final Phrase phrase)\n
+    (final Properties attributes)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''
 def setAlignment():
-    '''public void setAlignment(final int alignment)
-    public void setAlignment(final String alignment)
+    '''returns None\n\n
+    setAlignment(final int alignment)\n
+    setAlignment(final String alignment)\n
     '''
 def setIndentationLeft():
-    '''public void setIndentationLeft(final float indentation)
+    '''returns None\n\n
+    setIndentationLeft(final float indentation)\n
     '''
 def setIndentationRight():
-    '''public void setIndentationRight(final float indentation)
+    '''returns None\n\n
+    setIndentationRight(final float indentation)\n
     '''
 def setSpacingBefore():
-    '''public void setSpacingBefore(final float spacing)
+    '''returns None\n\n
+    setSpacingBefore(final float spacing)\n
     '''
 def setSpacingAfter():
-    '''public void setSpacingAfter(final float spacing)
+    '''returns None\n\n
+    setSpacingAfter(final float spacing)\n
     '''
 def setKeepTogether():
-    '''public void setKeepTogether(final boolean keeptogether)
+    '''returns None\n\n
+    setKeepTogether(final boolean keeptogether)\n
     '''
 def getKeepTogether():
-    '''public boolean getKeepTogether()
+    '''returns boolean\n\n
+    getKeepTogether()\n
     '''
 def alignment():
-    '''public int alignment()
+    '''returns int\n\n
+    alignment()\n
     '''
 def indentationLeft():
-    '''public float indentationLeft()
+    '''returns float\n\n
+    indentationLeft()\n
     '''
 def indentationRight():
-    '''public float indentationRight()
+    '''returns float\n\n
+    indentationRight()\n
     '''
 def spacingBefore():
-    '''public float spacingBefore()
+    '''returns float\n\n
+    spacingBefore()\n
     '''
 def spacingAfter():
-    '''public float spacingAfter()
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns float\n\n
+    spacingAfter()\n
     '''
 def setLeading():
-    '''public void setLeading(final float fixedLeading, final float multipliedLeading)
-    public void setLeading(final float fixedLeading)
+    '''returns None\n\n
+    setLeading(final float fixedLeading, final float multipliedLeading)\n
+    setLeading(final float fixedLeading)\n
     '''
 def getMultipliedLeading():
-    '''public float getMultipliedLeading()
+    '''returns float\n\n
+    getMultipliedLeading()\n
     '''
 def getFirstLineIndent():
-    '''public float getFirstLineIndent()
+    '''returns float\n\n
+    getFirstLineIndent()\n
     '''
 def setFirstLineIndent():
-    '''public void setFirstLineIndent(final float firstLineIndent)
+    '''returns None\n\n
+    setFirstLineIndent(final float firstLineIndent)\n
     '''
 def getExtraParagraphSpace():
-    '''public float getExtraParagraphSpace()
+    '''returns float\n\n
+    getExtraParagraphSpace()\n
     '''
 def setExtraParagraphSpace():
-    '''public void setExtraParagraphSpace(final float extraParagraphSpace)
+    '''returns None\n\n
+    setExtraParagraphSpace(final float extraParagraphSpace)\n
     '''

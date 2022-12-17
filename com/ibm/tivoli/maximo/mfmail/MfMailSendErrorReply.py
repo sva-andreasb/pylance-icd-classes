@@ -1,3 +1,4 @@
 def applyCustomAction():
-    '''public void applyCustomAction(final MboRemote inboundComm, final Object[] arg1)
+    '''returns None\n\n
+    applyCustomAction(final MboRemote inboundComm, final Object[] arg1)\n
     '''

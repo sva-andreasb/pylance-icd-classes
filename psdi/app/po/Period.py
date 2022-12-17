@@ -1,17 +1,22 @@
-def Period():
-    '''public Period(final int year)
-    public Period(final String financialPeriod, final String orgId)
-    public Period(String year, final String financialPeriod, final String orgId, final Date periodStartDate, final Date periodEndDate)
+def ():
+    '''returns Period\n\n
+    (final int year)\n
+    (final String financialPeriod, final String orgId)\n
+    (String year, final String financialPeriod, final String orgId, final Date periodStartDate, final Date periodEndDate)\n
     '''
 def getStartDate():
-    '''public Date getStartDate()
+    '''returns Date\n\n
+    getStartDate()\n
     '''
 def getEndDate():
-    '''public Date getEndDate()
+    '''returns Date\n\n
+    getEndDate()\n
     '''
 def isYear():
-    '''public boolean isYear()
+    '''returns boolean\n\n
+    isYear()\n
     '''
 def isCustom():
-    '''public boolean isCustom()
+    '''returns boolean\n\n
+    isCustom()\n
     '''

@@ -1,31 +1,22 @@
-def SharedObject():
-    '''public SharedObject()
+def ():
+    '''returns Reference\n\n
+    ()\n
+    (final T r)\n
     '''
 def clone():
-    '''public SharedObject clone()
-    public Reference<T> clone()
-    '''
-def addRef():
-    '''public final void addRef()
-    '''
-def removeRef():
-    '''public final void removeRef()
-    '''
-def getRefCount():
-    '''public final int getRefCount()
-    '''
-def deleteIfZeroRefCount():
-    '''public final void deleteIfZeroRefCount()
-    '''
-def Reference():
-    '''public Reference(final T r)
+    '''returns Reference<T>\n\n
+    clone()\n
+    clone()\n
     '''
 def readOnly():
-    '''public T readOnly()
+    '''returns T\n\n
+    readOnly()\n
     '''
 def copyOnWrite():
-    '''public T copyOnWrite()
+    '''returns T\n\n
+    copyOnWrite()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

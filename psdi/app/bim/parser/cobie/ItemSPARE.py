@@ -1,45 +1,60 @@
-def ItemSPARE():
-    '''public ItemSPARE()
+def ():
+    '''returns ItemSPARE\n\n
+    ()\n
     '''
 def addSupplier():
-    '''public void addSupplier(final ItemCONTACT supplier)
+    '''returns None\n\n
+    addSupplier(final ItemCONTACT supplier)\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def skip():
-    '''public boolean skip(final Parser parser, final long flags)
+    '''returns boolean\n\n
+    skip(final Parser parser, final long flags)\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def getTypeName():
-    '''public String getTypeName()
+    '''returns String\n\n
+    getTypeName()\n
     '''
 def setTypeName():
-    '''public void setTypeName(final String typeName)
+    '''returns None\n\n
+    setTypeName(final String typeName)\n
     '''
 def getSuppliers():
-    '''public String getSuppliers()
+    '''returns String\n\n
+    getSuppliers()\n
     '''
 def setSuppliers():
-    '''public void setSuppliers(String suppliers)
+    '''returns None\n\n
+    setSuppliers(String suppliers)\n
     '''
 def getSetNumber():
-    '''public String getSetNumber()
+    '''returns String\n\n
+    getSetNumber()\n
     '''
 def setSetNumber():
-    '''public void setSetNumber(final String setNumber)
+    '''returns None\n\n
+    setSetNumber(final String setNumber)\n
     '''
 def getPartNumber():
-    '''public String getPartNumber()
+    '''returns String\n\n
+    getPartNumber()\n
     '''
 def setPartNumber():
-    '''public void setPartNumber(final String partNumber)
+    '''returns None\n\n
+    setPartNumber(final String partNumber)\n
     '''
 def suppliers():
-    '''public Enumeration<ItemCONTACT> suppliers()
+    '''returns Enumeration<ItemCONTACT>\n\n
+    suppliers()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

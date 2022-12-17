@@ -1,4 +1,5 @@
-def SDAService():
-    '''public SDAService()
-    public SDAService(final MXServer mxServer)
+def ():
+    '''returns SDAService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

@@ -1,25 +1,33 @@
 PUSHNOTF_LOGGER = "String  \"maximo.pushnotification\""
-def MaxPushProviderDevType():
-    '''public MaxPushProviderDevType(final MboSet ms)
+def ():
+    '''returns MaxPushProviderDevType\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def checkAppRequiredAttributes():
-    '''public void checkAppRequiredAttributes()
+    '''returns None\n\n
+    checkAppRequiredAttributes()\n
     '''
 def encKey():
-    '''public String encKey(final String privateKey)
+    '''returns String\n\n
+    encKey(final String privateKey)\n
     '''
 def resolveKey():
-    '''public String resolveKey(final String encApiKey)
+    '''returns String\n\n
+    resolveKey(final String encApiKey)\n
     '''
 def resolvePrivateKey():
-    '''public String resolvePrivateKey()
+    '''returns String\n\n
+    resolvePrivateKey()\n
     '''

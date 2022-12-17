@@ -1,3 +1,4 @@
-def NativeMethod():
-    '''public NativeMethod(final long address, final String name, final String signature)
+def ():
+    '''returns NativeMethod\n\n
+    (final long address, final String name, final String signature)\n
     '''

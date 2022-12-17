@@ -1,120 +1,110 @@
-def getApplicationDefault():
-    '''public static GoogleCredential getApplicationDefault()
-    public static GoogleCredential getApplicationDefault(final HttpTransport transport, final JsonFactory jsonFactory)
-    '''
-def fromStream():
-    '''public static GoogleCredential fromStream(final InputStream credentialStream)
-    public static GoogleCredential fromStream(final InputStream credentialStream, final HttpTransport transport, final JsonFactory jsonFactory)
-    '''
-def GoogleCredential():
-    '''public GoogleCredential()
+def ():
+    '''returns Builder\n\n
+    ()\n
+    ()\n
     '''
 def setAccessToken():
-    '''public GoogleCredential setAccessToken(final String accessToken)
+    '''returns GoogleCredential\n\n
+    setAccessToken(final String accessToken)\n
     '''
 def setRefreshToken():
-    '''public GoogleCredential setRefreshToken(final String refreshToken)
+    '''returns GoogleCredential\n\n
+    setRefreshToken(final String refreshToken)\n
     '''
 def setExpirationTimeMilliseconds():
-    '''public GoogleCredential setExpirationTimeMilliseconds(final Long expirationTimeMilliseconds)
+    '''returns GoogleCredential\n\n
+    setExpirationTimeMilliseconds(final Long expirationTimeMilliseconds)\n
     '''
 def setExpiresInSeconds():
-    '''public GoogleCredential setExpiresInSeconds(final Long expiresIn)
+    '''returns GoogleCredential\n\n
+    setExpiresInSeconds(final Long expiresIn)\n
     '''
 def setFromTokenResponse():
-    '''public GoogleCredential setFromTokenResponse(final TokenResponse tokenResponse)
-    '''
-def getServiceAccountId():
-    '''public final String getServiceAccountId()
-    public final String getServiceAccountId()
-    '''
-def getServiceAccountProjectId():
-    '''public final String getServiceAccountProjectId()
-    public final String getServiceAccountProjectId()
-    '''
-def getServiceAccountScopes():
-    '''public final Collection<String> getServiceAccountScopes()
-    public final Collection<String> getServiceAccountScopes()
-    '''
-def getServiceAccountScopesAsString():
-    '''public final String getServiceAccountScopesAsString()
-    '''
-def getServiceAccountPrivateKey():
-    '''public final PrivateKey getServiceAccountPrivateKey()
-    public final PrivateKey getServiceAccountPrivateKey()
-    '''
-def getServiceAccountPrivateKeyId():
-    '''public final String getServiceAccountPrivateKeyId()
-    public final String getServiceAccountPrivateKeyId()
-    '''
-def getServiceAccountUser():
-    '''public final String getServiceAccountUser()
-    public final String getServiceAccountUser()
+    '''returns GoogleCredential\n\n
+    setFromTokenResponse(final TokenResponse tokenResponse)\n
     '''
 def createScopedRequired():
-    '''public boolean createScopedRequired()
+    '''returns boolean\n\n
+    createScopedRequired()\n
     '''
 def createScoped():
-    '''public GoogleCredential createScoped(final Collection<String> scopes)
-    '''
-def Builder():
-    '''public Builder()
+    '''returns GoogleCredential\n\n
+    createScoped(final Collection<String> scopes)\n
     '''
 def build():
-    '''public GoogleCredential build()
+    '''returns GoogleCredential\n\n
+    build()\n
     '''
 def setTransport():
-    '''public Builder setTransport(final HttpTransport transport)
+    '''returns Builder\n\n
+    setTransport(final HttpTransport transport)\n
     '''
 def setJsonFactory():
-    '''public Builder setJsonFactory(final JsonFactory jsonFactory)
+    '''returns Builder\n\n
+    setJsonFactory(final JsonFactory jsonFactory)\n
     '''
 def setClock():
-    '''public Builder setClock(final Clock clock)
+    '''returns Builder\n\n
+    setClock(final Clock clock)\n
     '''
 def setClientSecrets():
-    '''public Builder setClientSecrets(final String clientId, final String clientSecret)
-    public Builder setClientSecrets(final GoogleClientSecrets clientSecrets)
+    '''returns Builder\n\n
+    setClientSecrets(final String clientId, final String clientSecret)\n
+    setClientSecrets(final GoogleClientSecrets clientSecrets)\n
     '''
 def setServiceAccountId():
-    '''public Builder setServiceAccountId(final String serviceAccountId)
+    '''returns Builder\n\n
+    setServiceAccountId(final String serviceAccountId)\n
     '''
 def setServiceAccountProjectId():
-    '''public Builder setServiceAccountProjectId(final String serviceAccountProjectId)
+    '''returns Builder\n\n
+    setServiceAccountProjectId(final String serviceAccountProjectId)\n
     '''
 def setServiceAccountScopes():
-    '''public Builder setServiceAccountScopes(final Collection<String> serviceAccountScopes)
+    '''returns Builder\n\n
+    setServiceAccountScopes(final Collection<String> serviceAccountScopes)\n
     '''
 def setServiceAccountPrivateKey():
-    '''public Builder setServiceAccountPrivateKey(final PrivateKey serviceAccountPrivateKey)
+    '''returns Builder\n\n
+    setServiceAccountPrivateKey(final PrivateKey serviceAccountPrivateKey)\n
     '''
 def setServiceAccountPrivateKeyId():
-    '''public Builder setServiceAccountPrivateKeyId(final String serviceAccountPrivateKeyId)
+    '''returns Builder\n\n
+    setServiceAccountPrivateKeyId(final String serviceAccountPrivateKeyId)\n
     '''
 def setServiceAccountPrivateKeyFromP12File():
-    '''public Builder setServiceAccountPrivateKeyFromP12File(final File p12File)
+    '''returns Builder\n\n
+    setServiceAccountPrivateKeyFromP12File(final File p12File)\n
     '''
 def setServiceAccountPrivateKeyFromPemFile():
-    '''public Builder setServiceAccountPrivateKeyFromPemFile(final File pemFile)
+    '''returns Builder\n\n
+    setServiceAccountPrivateKeyFromPemFile(final File pemFile)\n
     '''
 def setServiceAccountUser():
-    '''public Builder setServiceAccountUser(final String serviceAccountUser)
+    '''returns Builder\n\n
+    setServiceAccountUser(final String serviceAccountUser)\n
     '''
 def setRequestInitializer():
-    '''public Builder setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''returns Builder\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def addRefreshListener():
-    '''public Builder addRefreshListener(final CredentialRefreshListener refreshListener)
+    '''returns Builder\n\n
+    addRefreshListener(final CredentialRefreshListener refreshListener)\n
     '''
 def setRefreshListeners():
-    '''public Builder setRefreshListeners(final Collection<CredentialRefreshListener> refreshListeners)
+    '''returns Builder\n\n
+    setRefreshListeners(final Collection<CredentialRefreshListener> refreshListeners)\n
     '''
 def setTokenServerUrl():
-    '''public Builder setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''returns Builder\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setTokenServerEncodedUrl():
-    '''public Builder setTokenServerEncodedUrl(final String tokenServerEncodedUrl)
+    '''returns Builder\n\n
+    setTokenServerEncodedUrl(final String tokenServerEncodedUrl)\n
     '''
 def setClientAuthentication():
-    '''public Builder setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''returns Builder\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''

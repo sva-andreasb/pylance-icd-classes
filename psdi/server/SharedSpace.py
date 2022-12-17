@@ -1,29 +1,17 @@
-def SharedSpace():
-    '''public SharedSpace()
+def ():
+    '''returns Reaper\n\n
+    ()\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def put():
-    '''public synchronized void put(final Object key, final Object data)
-    public synchronized void put(final Object key, final Object data, final long time)
-    '''
-def get():
-    '''public synchronized Object get(final Object key)
-    public synchronized Object get(final Object key, long timeout)
-    '''
-def createKey():
-    '''public synchronized Object createKey()
-    '''
-def containsKey():
-    '''public synchronized boolean containsKey(final Object key)
+    '''returns String\n\n
+    toString()\n
     '''
 def finalize():
-    '''public void finalize()
-    '''
-def Reaper():
-    '''public Reaper()
+    '''returns None\n\n
+    finalize()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

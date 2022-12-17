@@ -1,22 +1,25 @@
-def DataSet():
-    '''public DataSet(final LinearClientSession session, final MboRemote parentMbo, final DataSetInfo setInfo, final DataSet parent)
-    public DataSet(final LinearClientSession session, final MboRemote parentMbo, final DataSetInfo setInfo, final String id, final DataSet parent)
+def ():
+    '''returns DataSet\n\n
+    (final LinearClientSession session, final MboRemote parentMbo, final DataSetInfo setInfo, final DataSet parent)\n
+    (final LinearClientSession session, final MboRemote parentMbo, final DataSetInfo setInfo, final String id, final DataSet parent)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
-    '''
-def loadData():
-    '''public synchronized void loadData()
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def toJSON():
-    '''public JSONObject toJSON()
+    '''returns JSONObject\n\n
+    toJSON()\n
     '''
 def getOrgId():
-    '''public String getOrgId(final MboRemote mbo)
+    '''returns String\n\n
+    getOrgId(final MboRemote mbo)\n
     '''

@@ -1,3 +1,4 @@
-def G():
-    '''public G(final ILoader<ca, FromProjectsOptions> loader, final T t)
+def ():
+    '''returns G\n\n
+    (final ILoader<ca, FromProjectsOptions> loader, final T t)\n
     '''

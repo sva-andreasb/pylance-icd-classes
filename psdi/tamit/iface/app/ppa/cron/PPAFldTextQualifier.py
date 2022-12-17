@@ -1,3 +1,4 @@
-def PPAFldTextQualifier():
-    '''public PPAFldTextQualifier(final MboValue mbv)
+def ():
+    '''returns PPAFldTextQualifier\n\n
+    (final MboValue mbv)\n
     '''

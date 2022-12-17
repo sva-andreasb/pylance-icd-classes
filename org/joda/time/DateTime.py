@@ -1,302 +1,381 @@
-def now():
-    '''public static DateTime now()
-    public static DateTime now(final DateTimeZone dateTimeZone)
-    public static DateTime now(final Chronology chronology)
-    '''
-def parse():
-    '''public static DateTime parse(final String s)
-    public static DateTime parse(final String s, final DateTimeFormatter dateTimeFormatter)
-    '''
-def DateTime():
-    '''public DateTime()
-    public DateTime(final DateTimeZone dateTimeZone)
-    public DateTime(final Chronology chronology)
-    public DateTime(final long n)
-    public DateTime(final long n, final DateTimeZone dateTimeZone)
-    public DateTime(final long n, final Chronology chronology)
-    public DateTime(final Object o)
-    public DateTime(final Object o, final DateTimeZone dateTimeZone)
-    public DateTime(final Object o, final Chronology chronology)
-    public DateTime(final int n, final int n2, final int n3, final int n4, final int n5)
-    public DateTime(final int n, final int n2, final int n3, final int n4, final int n5, final DateTimeZone dateTimeZone)
-    public DateTime(final int n, final int n2, final int n3, final int n4, final int n5, final Chronology chronology)
-    public DateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6)
-    public DateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final DateTimeZone dateTimeZone)
-    public DateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final Chronology chronology)
-    public DateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
-    public DateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final DateTimeZone dateTimeZone)
-    public DateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final Chronology chronology)
+def ():
+    '''returns DateTime\n\n
+    ()\n
+    (final DateTimeZone dateTimeZone)\n
+    (final Chronology chronology)\n
+    (final long n)\n
+    (final long n, final DateTimeZone dateTimeZone)\n
+    (final long n, final Chronology chronology)\n
+    (final Object o)\n
+    (final Object o, final DateTimeZone dateTimeZone)\n
+    (final Object o, final Chronology chronology)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final DateTimeZone dateTimeZone)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final Chronology chronology)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final DateTimeZone dateTimeZone)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final Chronology chronology)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final DateTimeZone dateTimeZone)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final Chronology chronology)\n
     '''
 def toDateTime():
-    '''public DateTime toDateTime()
-    public DateTime toDateTime(DateTimeZone zone)
-    public DateTime toDateTime(Chronology chronology)
+    '''returns DateTime\n\n
+    toDateTime()\n
+    toDateTime(DateTimeZone zone)\n
+    toDateTime(Chronology chronology)\n
     '''
 def toDateTimeISO():
-    '''public DateTime toDateTimeISO()
+    '''returns DateTime\n\n
+    toDateTimeISO()\n
     '''
 def withMillis():
-    '''public DateTime withMillis(final long n)
+    '''returns DateTime\n\n
+    withMillis(final long n)\n
     '''
 def withChronology():
-    '''public DateTime withChronology(Chronology chronology)
+    '''returns DateTime\n\n
+    withChronology(Chronology chronology)\n
     '''
 def withZone():
-    '''public DateTime withZone(final DateTimeZone dateTimeZone)
+    '''returns DateTime\n\n
+    withZone(final DateTimeZone dateTimeZone)\n
     '''
 def withZoneRetainFields():
-    '''public DateTime withZoneRetainFields(DateTimeZone zone)
+    '''returns DateTime\n\n
+    withZoneRetainFields(DateTimeZone zone)\n
     '''
 def withEarlierOffsetAtOverlap():
-    '''public DateTime withEarlierOffsetAtOverlap()
+    '''returns DateTime\n\n
+    withEarlierOffsetAtOverlap()\n
     '''
 def withLaterOffsetAtOverlap():
-    '''public DateTime withLaterOffsetAtOverlap()
+    '''returns DateTime\n\n
+    withLaterOffsetAtOverlap()\n
     '''
 def withDate():
-    '''public DateTime withDate(final int n, final int n2, final int n3)
-    public DateTime withDate(final LocalDate localDate)
+    '''returns DateTime\n\n
+    withDate(final int n, final int n2, final int n3)\n
+    withDate(final LocalDate localDate)\n
     '''
 def withTime():
-    '''public DateTime withTime(final int n, final int n2, final int n3, final int n4)
-    public DateTime withTime(final LocalTime localTime)
+    '''returns DateTime\n\n
+    withTime(final int n, final int n2, final int n3, final int n4)\n
+    withTime(final LocalTime localTime)\n
     '''
 def withTimeAtStartOfDay():
-    '''public DateTime withTimeAtStartOfDay()
+    '''returns DateTime\n\n
+    withTimeAtStartOfDay()\n
     '''
 def withFields():
-    '''public DateTime withFields(final ReadablePartial readablePartial)
+    '''returns DateTime\n\n
+    withFields(final ReadablePartial readablePartial)\n
     '''
 def withField():
-    '''public DateTime withField(final DateTimeFieldType dateTimeFieldType, final int n)
+    '''returns DateTime\n\n
+    withField(final DateTimeFieldType dateTimeFieldType, final int n)\n
     '''
 def withFieldAdded():
-    '''public DateTime withFieldAdded(final DurationFieldType durationFieldType, final int n)
+    '''returns DateTime\n\n
+    withFieldAdded(final DurationFieldType durationFieldType, final int n)\n
     '''
 def withDurationAdded():
-    '''public DateTime withDurationAdded(final long n, final int n2)
-    public DateTime withDurationAdded(final ReadableDuration readableDuration, final int n)
+    '''returns DateTime\n\n
+    withDurationAdded(final long n, final int n2)\n
+    withDurationAdded(final ReadableDuration readableDuration, final int n)\n
     '''
 def withPeriodAdded():
-    '''public DateTime withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''returns DateTime\n\n
+    withPeriodAdded(final ReadablePeriod readablePeriod, final int n)\n
     '''
 def plus():
-    '''public DateTime plus(final long n)
-    public DateTime plus(final ReadableDuration readableDuration)
-    public DateTime plus(final ReadablePeriod readablePeriod)
+    '''returns DateTime\n\n
+    plus(final long n)\n
+    plus(final ReadableDuration readableDuration)\n
+    plus(final ReadablePeriod readablePeriod)\n
     '''
 def plusYears():
-    '''public DateTime plusYears(final int n)
+    '''returns DateTime\n\n
+    plusYears(final int n)\n
     '''
 def plusMonths():
-    '''public DateTime plusMonths(final int n)
+    '''returns DateTime\n\n
+    plusMonths(final int n)\n
     '''
 def plusWeeks():
-    '''public DateTime plusWeeks(final int n)
+    '''returns DateTime\n\n
+    plusWeeks(final int n)\n
     '''
 def plusDays():
-    '''public DateTime plusDays(final int n)
+    '''returns DateTime\n\n
+    plusDays(final int n)\n
     '''
 def plusHours():
-    '''public DateTime plusHours(final int n)
+    '''returns DateTime\n\n
+    plusHours(final int n)\n
     '''
 def plusMinutes():
-    '''public DateTime plusMinutes(final int n)
+    '''returns DateTime\n\n
+    plusMinutes(final int n)\n
     '''
 def plusSeconds():
-    '''public DateTime plusSeconds(final int n)
+    '''returns DateTime\n\n
+    plusSeconds(final int n)\n
     '''
 def plusMillis():
-    '''public DateTime plusMillis(final int n)
+    '''returns DateTime\n\n
+    plusMillis(final int n)\n
     '''
 def minus():
-    '''public DateTime minus(final long n)
-    public DateTime minus(final ReadableDuration readableDuration)
-    public DateTime minus(final ReadablePeriod readablePeriod)
+    '''returns DateTime\n\n
+    minus(final long n)\n
+    minus(final ReadableDuration readableDuration)\n
+    minus(final ReadablePeriod readablePeriod)\n
     '''
 def minusYears():
-    '''public DateTime minusYears(final int n)
+    '''returns DateTime\n\n
+    minusYears(final int n)\n
     '''
 def minusMonths():
-    '''public DateTime minusMonths(final int n)
+    '''returns DateTime\n\n
+    minusMonths(final int n)\n
     '''
 def minusWeeks():
-    '''public DateTime minusWeeks(final int n)
+    '''returns DateTime\n\n
+    minusWeeks(final int n)\n
     '''
 def minusDays():
-    '''public DateTime minusDays(final int n)
+    '''returns DateTime\n\n
+    minusDays(final int n)\n
     '''
 def minusHours():
-    '''public DateTime minusHours(final int n)
+    '''returns DateTime\n\n
+    minusHours(final int n)\n
     '''
 def minusMinutes():
-    '''public DateTime minusMinutes(final int n)
+    '''returns DateTime\n\n
+    minusMinutes(final int n)\n
     '''
 def minusSeconds():
-    '''public DateTime minusSeconds(final int n)
+    '''returns DateTime\n\n
+    minusSeconds(final int n)\n
     '''
 def minusMillis():
-    '''public DateTime minusMillis(final int n)
+    '''returns DateTime\n\n
+    minusMillis(final int n)\n
     '''
 def property():
-    '''public Property property(final DateTimeFieldType obj)
+    '''returns Property\n\n
+    property(final DateTimeFieldType obj)\n
     '''
 def toDateMidnight():
-    '''public DateMidnight toDateMidnight()
+    '''returns DateMidnight\n\n
+    toDateMidnight()\n
     '''
 def toYearMonthDay():
-    '''public YearMonthDay toYearMonthDay()
+    '''returns YearMonthDay\n\n
+    toYearMonthDay()\n
     '''
 def toTimeOfDay():
-    '''public TimeOfDay toTimeOfDay()
+    '''returns TimeOfDay\n\n
+    toTimeOfDay()\n
     '''
 def toLocalDateTime():
-    '''public LocalDateTime toLocalDateTime()
+    '''returns LocalDateTime\n\n
+    toLocalDateTime()\n
     '''
 def toLocalDate():
-    '''public LocalDate toLocalDate()
+    '''returns LocalDate\n\n
+    toLocalDate()\n
     '''
 def toLocalTime():
-    '''public LocalTime toLocalTime()
+    '''returns LocalTime\n\n
+    toLocalTime()\n
     '''
 def withEra():
-    '''public DateTime withEra(final int n)
+    '''returns DateTime\n\n
+    withEra(final int n)\n
     '''
 def withCenturyOfEra():
-    '''public DateTime withCenturyOfEra(final int n)
+    '''returns DateTime\n\n
+    withCenturyOfEra(final int n)\n
     '''
 def withYearOfEra():
-    '''public DateTime withYearOfEra(final int n)
+    '''returns DateTime\n\n
+    withYearOfEra(final int n)\n
     '''
 def withYearOfCentury():
-    '''public DateTime withYearOfCentury(final int n)
+    '''returns DateTime\n\n
+    withYearOfCentury(final int n)\n
     '''
 def withYear():
-    '''public DateTime withYear(final int n)
+    '''returns DateTime\n\n
+    withYear(final int n)\n
     '''
 def withWeekyear():
-    '''public DateTime withWeekyear(final int n)
+    '''returns DateTime\n\n
+    withWeekyear(final int n)\n
     '''
 def withMonthOfYear():
-    '''public DateTime withMonthOfYear(final int n)
+    '''returns DateTime\n\n
+    withMonthOfYear(final int n)\n
     '''
 def withWeekOfWeekyear():
-    '''public DateTime withWeekOfWeekyear(final int n)
+    '''returns DateTime\n\n
+    withWeekOfWeekyear(final int n)\n
     '''
 def withDayOfYear():
-    '''public DateTime withDayOfYear(final int n)
+    '''returns DateTime\n\n
+    withDayOfYear(final int n)\n
     '''
 def withDayOfMonth():
-    '''public DateTime withDayOfMonth(final int n)
+    '''returns DateTime\n\n
+    withDayOfMonth(final int n)\n
     '''
 def withDayOfWeek():
-    '''public DateTime withDayOfWeek(final int n)
+    '''returns DateTime\n\n
+    withDayOfWeek(final int n)\n
     '''
 def withHourOfDay():
-    '''public DateTime withHourOfDay(final int n)
+    '''returns DateTime\n\n
+    withHourOfDay(final int n)\n
     '''
 def withMinuteOfHour():
-    '''public DateTime withMinuteOfHour(final int n)
+    '''returns DateTime\n\n
+    withMinuteOfHour(final int n)\n
     '''
 def withSecondOfMinute():
-    '''public DateTime withSecondOfMinute(final int n)
+    '''returns DateTime\n\n
+    withSecondOfMinute(final int n)\n
     '''
 def withMillisOfSecond():
-    '''public DateTime withMillisOfSecond(final int n)
+    '''returns DateTime\n\n
+    withMillisOfSecond(final int n)\n
     '''
 def withMillisOfDay():
-    '''public DateTime withMillisOfDay(final int n)
+    '''returns DateTime\n\n
+    withMillisOfDay(final int n)\n
     '''
 def era():
-    '''public Property era()
+    '''returns Property\n\n
+    era()\n
     '''
 def centuryOfEra():
-    '''public Property centuryOfEra()
+    '''returns Property\n\n
+    centuryOfEra()\n
     '''
 def yearOfCentury():
-    '''public Property yearOfCentury()
+    '''returns Property\n\n
+    yearOfCentury()\n
     '''
 def yearOfEra():
-    '''public Property yearOfEra()
+    '''returns Property\n\n
+    yearOfEra()\n
     '''
 def year():
-    '''public Property year()
+    '''returns Property\n\n
+    year()\n
     '''
 def weekyear():
-    '''public Property weekyear()
+    '''returns Property\n\n
+    weekyear()\n
     '''
 def monthOfYear():
-    '''public Property monthOfYear()
+    '''returns Property\n\n
+    monthOfYear()\n
     '''
 def weekOfWeekyear():
-    '''public Property weekOfWeekyear()
+    '''returns Property\n\n
+    weekOfWeekyear()\n
     '''
 def dayOfYear():
-    '''public Property dayOfYear()
+    '''returns Property\n\n
+    dayOfYear()\n
     '''
 def dayOfMonth():
-    '''public Property dayOfMonth()
+    '''returns Property\n\n
+    dayOfMonth()\n
     '''
 def dayOfWeek():
-    '''public Property dayOfWeek()
+    '''returns Property\n\n
+    dayOfWeek()\n
     '''
 def hourOfDay():
-    '''public Property hourOfDay()
+    '''returns Property\n\n
+    hourOfDay()\n
     '''
 def minuteOfDay():
-    '''public Property minuteOfDay()
+    '''returns Property\n\n
+    minuteOfDay()\n
     '''
 def minuteOfHour():
-    '''public Property minuteOfHour()
+    '''returns Property\n\n
+    minuteOfHour()\n
     '''
 def secondOfDay():
-    '''public Property secondOfDay()
+    '''returns Property\n\n
+    secondOfDay()\n
     '''
 def secondOfMinute():
-    '''public Property secondOfMinute()
+    '''returns Property\n\n
+    secondOfMinute()\n
     '''
 def millisOfDay():
-    '''public Property millisOfDay()
+    '''returns Property\n\n
+    millisOfDay()\n
     '''
 def millisOfSecond():
-    '''public Property millisOfSecond()
+    '''returns Property\n\n
+    millisOfSecond()\n
     '''
 def getField():
-    '''public DateTimeField getField()
+    '''returns DateTimeField\n\n
+    getField()\n
     '''
 def getDateTime():
-    '''public DateTime getDateTime()
+    '''returns DateTime\n\n
+    getDateTime()\n
     '''
 def addToCopy():
-    '''public DateTime addToCopy(final int n)
-    public DateTime addToCopy(final long n)
+    '''returns DateTime\n\n
+    addToCopy(final int n)\n
+    addToCopy(final long n)\n
     '''
 def addWrapFieldToCopy():
-    '''public DateTime addWrapFieldToCopy(final int n)
+    '''returns DateTime\n\n
+    addWrapFieldToCopy(final int n)\n
     '''
 def setCopy():
-    '''public DateTime setCopy(final int n)
-    public DateTime setCopy(final String s, final Locale locale)
-    public DateTime setCopy(final String s)
+    '''returns DateTime\n\n
+    setCopy(final int n)\n
+    setCopy(final String s, final Locale locale)\n
+    setCopy(final String s)\n
     '''
 def withMaximumValue():
-    '''public DateTime withMaximumValue()
+    '''returns DateTime\n\n
+    withMaximumValue()\n
     '''
 def withMinimumValue():
-    '''public DateTime withMinimumValue()
+    '''returns DateTime\n\n
+    withMinimumValue()\n
     '''
 def roundFloorCopy():
-    '''public DateTime roundFloorCopy()
+    '''returns DateTime\n\n
+    roundFloorCopy()\n
     '''
 def roundCeilingCopy():
-    '''public DateTime roundCeilingCopy()
+    '''returns DateTime\n\n
+    roundCeilingCopy()\n
     '''
 def roundHalfFloorCopy():
-    '''public DateTime roundHalfFloorCopy()
+    '''returns DateTime\n\n
+    roundHalfFloorCopy()\n
     '''
 def roundHalfCeilingCopy():
-    '''public DateTime roundHalfCeilingCopy()
+    '''returns DateTime\n\n
+    roundHalfCeilingCopy()\n
     '''
 def roundHalfEvenCopy():
-    '''public DateTime roundHalfEvenCopy()
+    '''returns DateTime\n\n
+    roundHalfEvenCopy()\n
     '''

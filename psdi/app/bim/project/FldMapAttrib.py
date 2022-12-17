@@ -1,6 +1,8 @@
-def FldMapAttrib():
-    '''public FldMapAttrib(final MboValue mbv)
+def ():
+    '''returns FldMapAttrib\n\n
+    (final MboValue mbv)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)\n
     '''

@@ -1,63 +1,80 @@
 def connectionClosed():
-    '''public void connectionClosed()
+    '''returns None\n\n
+    connectionClosed()\n
     '''
 def connectionClosedOnError():
-    '''public void connectionClosedOnError(final Exception e)
+    '''returns None\n\n
+    connectionClosedOnError(final Exception e)\n
     '''
 def reconnectionFailed():
-    '''public void reconnectionFailed(final Exception e)
+    '''returns None\n\n
+    reconnectionFailed(final Exception e)\n
     '''
 def reconnectingIn():
-    '''public void reconnectingIn(final int seconds)
+    '''returns None\n\n
+    reconnectingIn(final int seconds)\n
     '''
 def reconnectionSuccessful():
-    '''public void reconnectionSuccessful()
+    '''returns None\n\n
+    reconnectionSuccessful()\n
     '''
 def processPacket():
-    '''public void processPacket(final Packet packet)
+    '''returns None\n\n
+    processPacket(final Packet packet)\n
     '''
 def getChildElementXML():
-    '''public String getChildElementXML()
-    '''
-def getInstanceFor():
-    '''public static PrivacyListManager getInstanceFor(final Connection connection)
+    '''returns String\n\n
+    getChildElementXML()\n
     '''
 def getActiveList():
-    '''public PrivacyList getActiveList()
+    '''returns PrivacyList\n\n
+    getActiveList()\n
     '''
 def getDefaultList():
-    '''public PrivacyList getDefaultList()
+    '''returns PrivacyList\n\n
+    getDefaultList()\n
     '''
 def getPrivacyList():
-    '''public PrivacyList getPrivacyList(final String listName)
+    '''returns PrivacyList\n\n
+    getPrivacyList(final String listName)\n
     '''
 def getPrivacyLists():
-    '''public PrivacyList[] getPrivacyLists()
+    '''returns PrivacyList[]\n\n
+    getPrivacyLists()\n
     '''
 def setActiveListName():
-    '''public void setActiveListName(final String listName)
+    '''returns None\n\n
+    setActiveListName(final String listName)\n
     '''
 def declineActiveList():
-    '''public void declineActiveList()
+    '''returns None\n\n
+    declineActiveList()\n
     '''
 def setDefaultListName():
-    '''public void setDefaultListName(final String listName)
+    '''returns None\n\n
+    setDefaultListName(final String listName)\n
     '''
 def declineDefaultList():
-    '''public void declineDefaultList()
+    '''returns None\n\n
+    declineDefaultList()\n
     '''
 def createPrivacyList():
-    '''public void createPrivacyList(final String listName, final List<PrivacyItem> privacyItems)
+    '''returns None\n\n
+    createPrivacyList(final String listName, final List<PrivacyItem> privacyItems)\n
     '''
 def updatePrivacyList():
-    '''public void updatePrivacyList(final String listName, final List<PrivacyItem> privacyItems)
+    '''returns None\n\n
+    updatePrivacyList(final String listName, final List<PrivacyItem> privacyItems)\n
     '''
 def deletePrivacyList():
-    '''public void deletePrivacyList(final String listName)
+    '''returns None\n\n
+    deletePrivacyList(final String listName)\n
     '''
 def addListener():
-    '''public void addListener(final PrivacyListListener listener)
+    '''returns None\n\n
+    addListener(final PrivacyListListener listener)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final Connection connection)
+    '''returns None\n\n
+    connectionCreated(final Connection connection)\n
     '''

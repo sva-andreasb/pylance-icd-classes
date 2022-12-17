@@ -1,4 +1,5 @@
-def ApptBookService():
-    '''public ApptBookService()
-    public ApptBookService(final MXServer mxServer)
+def ():
+    '''returns ApptBookService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

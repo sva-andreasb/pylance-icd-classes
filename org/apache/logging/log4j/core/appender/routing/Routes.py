@@ -1,42 +1,47 @@
-def createRoutes():
-    '''public static Routes createRoutes(final String pattern, final Route... routes)
-    '''
-def newBuilder():
-    '''public static Builder newBuilder()
-    '''
 def getPattern():
-    '''public String getPattern(final LogEvent event, final ConcurrentMap<Object, Object> scriptStaticVariables)
-    public String getPattern()
+    '''returns String\n\n
+    getPattern(final LogEvent event, final ConcurrentMap<Object, Object> scriptStaticVariables)\n
+    getPattern()\n
     '''
 def getPatternScript():
-    '''public AbstractScript getPatternScript()
-    public AbstractScript getPatternScript()
+    '''returns AbstractScript\n\n
+    getPatternScript()\n
+    getPatternScript()\n
     '''
 def getRoute():
-    '''public Route getRoute(final String key)
+    '''returns Route\n\n
+    getRoute(final String key)\n
     '''
 def getRoutes():
-    '''public Route[] getRoutes()
-    public Route[] getRoutes()
+    '''returns Route[]\n\n
+    getRoutes()\n
+    getRoutes()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def build():
-    '''public Routes build()
+    '''returns Routes\n\n
+    build()\n
     '''
 def getConfiguration():
-    '''public Configuration getConfiguration()
+    '''returns Configuration\n\n
+    getConfiguration()\n
     '''
 def withConfiguration():
-    '''public Builder withConfiguration(final Configuration configuration)
+    '''returns Builder\n\n
+    withConfiguration(final Configuration configuration)\n
     '''
 def withPattern():
-    '''public Builder withPattern(final String pattern)
+    '''returns Builder\n\n
+    withPattern(final String pattern)\n
     '''
 def withPatternScript():
-    '''public Builder withPatternScript(final AbstractScript patternScript)
+    '''returns Builder\n\n
+    withPatternScript(final AbstractScript patternScript)\n
     '''
 def withRoutes():
-    '''public Builder withRoutes(final Route[] routes)
+    '''returns Builder\n\n
+    withRoutes(final Route[] routes)\n
     '''

@@ -1,12 +1,16 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def deleteassign():
-    '''public int deleteassign()
+    '''returns int\n\n
+    deleteassign()\n
     '''
 def viewactive():
-    '''public int viewactive()
+    '''returns int\n\n
+    viewactive()\n
     '''
 def workflowstop():
-    '''public int workflowstop()
+    '''returns int\n\n
+    workflowstop()\n
     '''

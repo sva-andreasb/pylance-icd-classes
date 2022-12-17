@@ -1,42 +1,56 @@
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setAccessInfoURI():
-    '''public void setAccessInfoURI(final String accessInfoURI)
+    '''returns None\n\n
+    setAccessInfoURI(final String accessInfoURI)\n
     '''
 def getAccessInfoURI():
-    '''public String getAccessInfoURI()
+    '''returns String\n\n
+    getAccessInfoURI()\n
     '''
 def setClassType():
-    '''public void setClassType(final String classType)
+    '''returns None\n\n
+    setClassType(final String classType)\n
     '''
 def getClassType():
-    '''public String getClassType()
+    '''returns String\n\n
+    getClassType()\n
     '''
 def setOffset():
-    '''public void setOffset(final long offset)
+    '''returns None\n\n
+    setOffset(final long offset)\n
     '''
 def getOffset():
-    '''public long getOffset()
+    '''returns long\n\n
+    getOffset()\n
     '''
 def getCdmVersion():
-    '''public String getCdmVersion()
+    '''returns String\n\n
+    getCdmVersion()\n
     '''
 def setCdmVersion():
-    '''public void setCdmVersion(final String cdmVersion)
+    '''returns None\n\n
+    setCdmVersion(final String cdmVersion)\n
     '''
 def getCdmRelease():
-    '''public String getCdmRelease()
+    '''returns String\n\n
+    getCdmRelease()\n
     '''
 def setCdmRelease():
-    '''public void setCdmRelease(final String cdmRelease)
+    '''returns None\n\n
+    setCdmRelease(final String cdmRelease)\n
     '''
 def getCdmModifier():
-    '''public String getCdmModifier()
+    '''returns String\n\n
+    getCdmModifier()\n
     '''
 def setCdmModifier():
-    '''public void setCdmModifier(final String cdmModifier)
+    '''returns None\n\n
+    setCdmModifier(final String cdmModifier)\n
     '''

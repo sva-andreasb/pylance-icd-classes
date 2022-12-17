@@ -77,18 +77,3 @@ FILE_UNAVAILABLE = "int  550"
 PAGE_TYPE_UNKNOWN = "int  551"
 STORAGE_ALLOCATION_EXCEEDED = "int  552"
 FILE_NAME_NOT_ALLOWED = "int  553"
-def isPositivePreliminary():
-    '''public static boolean isPositivePreliminary(final int reply)
-    '''
-def isPositiveCompletion():
-    '''public static boolean isPositiveCompletion(final int reply)
-    '''
-def isPositiveIntermediate():
-    '''public static boolean isPositiveIntermediate(final int reply)
-    '''
-def isNegativeTransient():
-    '''public static boolean isNegativeTransient(final int reply)
-    '''
-def isNegativePermanent():
-    '''public static boolean isNegativePermanent(final int reply)
-    '''

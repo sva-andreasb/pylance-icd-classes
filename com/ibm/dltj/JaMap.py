@@ -1,18 +1,12 @@
-def isStopwordByJpos():
-    '''public static final boolean isStopwordByJpos(final int n)
-    '''
-def isStopwordByJkom():
-    '''public static final boolean isStopwordByJkom(final int n)
-    '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toId():
-    '''public int toId()
+    '''returns int\n\n
+    toId()\n
     '''
 def toDLTPos():
-    '''public DLTPos toDLTPos()
-    '''
-def parseId():
-    '''public static final JPos parseId(final int n)
+    '''returns DLTPos\n\n
+    toDLTPos()\n
     '''

@@ -1,9 +1,12 @@
-def AbstractBasePreImportProcessor():
-    '''public AbstractBasePreImportProcessor()
+def ():
+    '''returns AbstractBasePreImportProcessor\n\n
+    ()\n
     '''
 def canReuseInstance():
-    '''public boolean canReuseInstance()
+    '''returns boolean\n\n
+    canReuseInstance()\n
     '''
 def setOutput():
-    '''public void setOutput(final PrintStream output)
+    '''returns None\n\n
+    setOutput(final PrintStream output)\n
     '''

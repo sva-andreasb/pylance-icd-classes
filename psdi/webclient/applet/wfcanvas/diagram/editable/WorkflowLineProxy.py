@@ -1,18 +1,24 @@
-def WorkflowLineProxy():
-    '''public WorkflowLineProxy(final WorkflowNode node)
+def ():
+    '''returns WorkflowLineProxy\n\n
+    (final WorkflowNode node)\n
     '''
 def getNode():
-    '''public WorkflowNode getNode()
+    '''returns WorkflowNode\n\n
+    getNode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getTransferData():
-    '''public Object getTransferData(final DataFlavor flavor)
+    '''returns Object\n\n
+    getTransferData(final DataFlavor flavor)\n
     '''
 def getTransferDataFlavors():
-    '''public DataFlavor[] getTransferDataFlavors()
+    '''returns DataFlavor[]\n\n
+    getTransferDataFlavors()\n
     '''
 def isDataFlavorSupported():
-    '''public boolean isDataFlavorSupported(final DataFlavor flavor)
+    '''returns boolean\n\n
+    isDataFlavorSupported(final DataFlavor flavor)\n
     '''

@@ -1,42 +1,56 @@
 def getPortNumber():
-    '''public String getPortNumber()
+    '''returns String\n\n
+    getPortNumber()\n
     '''
 def setPortNumber():
-    '''public void setPortNumber(final String value)
+    '''returns None\n\n
+    setPortNumber(final String value)\n
     '''
 def getGatherInterval():
-    '''public MastheadGatherInterval getGatherInterval()
+    '''returns MastheadGatherInterval\n\n
+    getGatherInterval()\n
     '''
 def setGatherInterval():
-    '''public void setGatherInterval(final MastheadGatherInterval value)
+    '''returns None\n\n
+    setGatherInterval(final MastheadGatherInterval value)\n
     '''
 def getController():
-    '''public MastheadController getController()
+    '''returns MastheadController\n\n
+    getController()\n
     '''
 def setController():
-    '''public void setController(final MastheadController value)
+    '''returns None\n\n
+    setController(final MastheadController value)\n
     '''
 def getInitialLockState():
-    '''public MastheadLockState getInitialLockState()
+    '''returns MastheadLockState\n\n
+    getInitialLockState()\n
     '''
 def setInitialLockState():
-    '''public void setInitialLockState(final MastheadLockState value)
+    '''returns None\n\n
+    setInitialLockState(final MastheadLockState value)\n
     '''
 def getInitialLockDuration():
-    '''public BigInteger getInitialLockDuration()
+    '''returns BigInteger\n\n
+    getInitialLockDuration()\n
     '''
 def setInitialLockDuration():
-    '''public void setInitialLockDuration(final BigInteger value)
+    '''returns None\n\n
+    setInitialLockDuration(final BigInteger value)\n
     '''
 def getActionLockExemptionURL():
-    '''public String getActionLockExemptionURL()
+    '''returns String\n\n
+    getActionLockExemptionURL()\n
     '''
 def setActionLockExemptionURL():
-    '''public void setActionLockExemptionURL(final String value)
+    '''returns None\n\n
+    setActionLockExemptionURL(final String value)\n
     '''
 def isRequireFIPSCompliantCrypto():
-    '''public Boolean isRequireFIPSCompliantCrypto()
+    '''returns Boolean\n\n
+    isRequireFIPSCompliantCrypto()\n
     '''
 def setRequireFIPSCompliantCrypto():
-    '''public void setRequireFIPSCompliantCrypto(final Boolean value)
+    '''returns None\n\n
+    setRequireFIPSCompliantCrypto(final Boolean value)\n
     '''

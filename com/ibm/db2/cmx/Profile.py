@@ -1,65 +1,57 @@
 MONITOR_ENABLED = "String  \"monitorEnabled\""
 MONITOR_INTERVAL = "String  \"monitorCollectionInterval\""
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def getSpecialRegisters():
-    '''public Properties getSpecialRegisters()
+    '''returns Properties\n\n
+    getSpecialRegisters()\n
     '''
-def getJccDirectives():
-    '''public HashMap<String, String> getJccDirectives()
-    '''
-def getCliDirectives():
-    '''public HashMap<String, String> getCliDirectives()
-    '''
-def getDotNetDirectives():
-    '''public HashMap<String, String> getDotNetDirectives()
-    '''
-def getWasDirectives():
-    '''public HashMap<String, String> getWasDirectives()
-    '''
-def getCmxDirectives():
-    '''public HashMap<String, String> getCmxDirectives()
-    '''
-def Driver():
-    '''public Driver(final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5)
-    public Driver(final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final int pollingInterval_, final int statisticsCollectionInterval_, final int maxClientInfoToLogPerDataSource_)
-    public Driver(final String s, final long n, final Properties properties, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5)
-    public Driver(final String s, final long n, final Properties properties, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final int pollingInterval_, final int statisticsCollectionInterval_, final int maxClientInfoToLogPerDataSource_)
+def ():
+    '''returns Database\n\n
+    (final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5)\n
+    (final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final int pollingInterval_, final int statisticsCollectionInterval_, final int maxClientInfoToLogPerDataSource_)\n
+    (final String s, final long n, final Properties properties, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5)\n
+    (final String s, final long n, final Properties properties, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final int pollingInterval_, final int statisticsCollectionInterval_, final int maxClientInfoToLogPerDataSource_)\n
+    (final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping remapping, final TransactionRule.PenaltyBox penaltyBox, final com.ibm.db2.cmx.Database database, final com.ibm.db2.cmx.Database database2, final com.ibm.db2.cmx.Database database3)\n
+    (final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping[] transactionRemappingRules_, final TransactionRule.PenaltyBox[] transactionPenaltyBoxRules_, final com.ibm.db2.cmx.Database targetDatabase_, final com.ibm.db2.cmx.Database rerouteDatabase_, final com.ibm.db2.cmx.Database redirectDatabase_)\n
+    (final String s, final long n, final Properties properties, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping[] transactionRemappingRules_, final TransactionRule.PenaltyBox[] transactionPenaltyBoxRules_, final com.ibm.db2.cmx.Database targetDatabase_, final com.ibm.db2.cmx.Database rerouteDatabase_, final com.ibm.db2.cmx.Database redirectDatabase_)\n
+    (final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping remapping, final TransactionRule.PenaltyBox penaltyBox)\n
+    (final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping[] transactionRemappingRules_, final TransactionRule.PenaltyBox[] transactionPenaltyBoxRules_)\n
+    (final String s, final long n, final Properties properties, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping[] transactionRemappingRules_, final TransactionRule.PenaltyBox[] transactionPenaltyBoxRules_)\n
     '''
 def updateToNewVersion():
-    '''public void updateToNewVersion(final Driver driver)
-    public void updateToNewVersion(final DataSource dataSource)
-    public void updateToNewVersion(final Database database)
+    '''returns None\n\n
+    updateToNewVersion(final Driver driver)\n
+    updateToNewVersion(final DataSource dataSource)\n
+    updateToNewVersion(final Database database)\n
     '''
 def getPollingInterval():
-    '''public int getPollingInterval()
+    '''returns int\n\n
+    getPollingInterval()\n
     '''
 def getStatisticsCollectionInterval():
-    '''public int getStatisticsCollectionInterval()
+    '''returns int\n\n
+    getStatisticsCollectionInterval()\n
     '''
 def getMaxClientInfoToLogPerDataSource():
-    '''public int getMaxClientInfoToLogPerDataSource()
-    '''
-def DataSource():
-    '''public DataSource(final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping remapping, final TransactionRule.PenaltyBox penaltyBox, final com.ibm.db2.cmx.Database database, final com.ibm.db2.cmx.Database database2, final com.ibm.db2.cmx.Database database3)
-    public DataSource(final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping[] transactionRemappingRules_, final TransactionRule.PenaltyBox[] transactionPenaltyBoxRules_, final com.ibm.db2.cmx.Database targetDatabase_, final com.ibm.db2.cmx.Database rerouteDatabase_, final com.ibm.db2.cmx.Database redirectDatabase_)
-    public DataSource(final String s, final long n, final Properties properties, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping[] transactionRemappingRules_, final TransactionRule.PenaltyBox[] transactionPenaltyBoxRules_, final com.ibm.db2.cmx.Database targetDatabase_, final com.ibm.db2.cmx.Database rerouteDatabase_, final com.ibm.db2.cmx.Database redirectDatabase_)
+    '''returns int\n\n
+    getMaxClientInfoToLogPerDataSource()\n
     '''
 def getNumberOfTransactions():
-    '''public long getNumberOfTransactions()
+    '''returns long\n\n
+    getNumberOfTransactions()\n
     '''
 def incrNumberOfTimesApplied():
-    '''public void incrNumberOfTimesApplied()
+    '''returns None\n\n
+    incrNumberOfTimesApplied()\n
     '''
 def resetNumberOfTimesApplied():
-    '''public void resetNumberOfTimesApplied()
-    '''
-def Database():
-    '''public Database(final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping remapping, final TransactionRule.PenaltyBox penaltyBox)
-    public Database(final String s, final long n, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping[] transactionRemappingRules_, final TransactionRule.PenaltyBox[] transactionPenaltyBoxRules_)
-    public Database(final String s, final long n, final Properties properties, final HashMap<String, String> hashMap, final HashMap<String, String> hashMap2, final HashMap<String, String> hashMap3, final HashMap<String, String> hashMap4, final HashMap<String, String> hashMap5, final TransactionRule.Remapping[] transactionRemappingRules_, final TransactionRule.PenaltyBox[] transactionPenaltyBoxRules_)
+    '''returns None\n\n
+    resetNumberOfTimesApplied()\n
     '''

@@ -1,129 +1,165 @@
-def SerializationContext():
-    '''public SerializationContext(final Writer writer)
-    public SerializationContext(final Writer writer, final MessageContext msgContext)
+def ():
+    '''returns SerializationContext\n\n
+    (final Writer writer)\n
+    (final Writer writer, final MessageContext msgContext)\n
     '''
 def getPretty():
-    '''public boolean getPretty()
+    '''returns boolean\n\n
+    getPretty()\n
     '''
 def setPretty():
-    '''public void setPretty(final boolean pretty)
+    '''returns None\n\n
+    setPretty(final boolean pretty)\n
     '''
 def getDoMultiRefs():
-    '''public boolean getDoMultiRefs()
+    '''returns boolean\n\n
+    getDoMultiRefs()\n
     '''
 def setDoMultiRefs():
-    '''public void setDoMultiRefs(final boolean shouldDo)
+    '''returns None\n\n
+    setDoMultiRefs(final boolean shouldDo)\n
     '''
 def setSendDecl():
-    '''public void setSendDecl(final boolean sendDecl)
+    '''returns None\n\n
+    setSendDecl(final boolean sendDecl)\n
     '''
 def shouldSendXSIType():
-    '''public boolean shouldSendXSIType()
+    '''returns boolean\n\n
+    shouldSendXSIType()\n
     '''
 def getTypeMapping():
-    '''public TypeMapping getTypeMapping()
+    '''returns TypeMapping\n\n
+    getTypeMapping()\n
     '''
 def getTypeMappingRegistry():
-    '''public TypeMappingRegistry getTypeMappingRegistry()
+    '''returns TypeMappingRegistry\n\n
+    getTypeMappingRegistry()\n
     '''
 def getPrefixForURI():
-    '''public String getPrefixForURI(final String uri)
-    public String getPrefixForURI(final String uri, final String defaultPrefix)
-    public String getPrefixForURI(final String uri, final String defaultPrefix, final boolean attribute)
+    '''returns String\n\n
+    getPrefixForURI(final String uri)\n
+    getPrefixForURI(final String uri, final String defaultPrefix)\n
+    getPrefixForURI(final String uri, final String defaultPrefix, final boolean attribute)\n
     '''
 def registerPrefixForURI():
-    '''public void registerPrefixForURI(final String prefix, final String uri)
+    '''returns None\n\n
+    registerPrefixForURI(final String prefix, final String uri)\n
     '''
 def getCurrentMessage():
-    '''public Message getCurrentMessage()
+    '''returns Message\n\n
+    getCurrentMessage()\n
     '''
 def getMessageContext():
-    '''public MessageContext getMessageContext()
+    '''returns MessageContext\n\n
+    getMessageContext()\n
     '''
 def getEncodingStyle():
-    '''public String getEncodingStyle()
+    '''returns String\n\n
+    getEncodingStyle()\n
     '''
 def isEncoded():
-    '''public boolean isEncoded()
+    '''returns boolean\n\n
+    isEncoded()\n
     '''
 def qName2String():
-    '''public String qName2String(final QName qName, final boolean writeNS)
-    public String qName2String(final QName qName)
+    '''returns String\n\n
+    qName2String(final QName qName, final boolean writeNS)\n
+    qName2String(final QName qName)\n
     '''
 def attributeQName2String():
-    '''public String attributeQName2String(final QName qName)
+    '''returns String\n\n
+    attributeQName2String(final QName qName)\n
     '''
 def getQNameForClass():
-    '''public QName getQNameForClass(final Class cls)
+    '''returns QName\n\n
+    getQNameForClass(final Class cls)\n
     '''
 def isPrimitive():
-    '''public boolean isPrimitive(final Object value)
+    '''returns boolean\n\n
+    isPrimitive(final Object value)\n
     '''
 def serialize():
-    '''public void serialize(final QName elemQName, final Attributes attributes, final Object value)
-    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType)
-    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Class javaType)
-    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final boolean sendNull, final Boolean sendType)
-    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Boolean sendNull, final Boolean sendType)
-    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Class javaClass, Boolean sendNull, final Boolean sendType)
+    '''returns None\n\n
+    serialize(final QName elemQName, final Attributes attributes, final Object value)\n
+    serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType)\n
+    serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Class javaType)\n
+    serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final boolean sendNull, final Boolean sendType)\n
+    serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Boolean sendNull, final Boolean sendType)\n
+    serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Class javaClass, Boolean sendNull, final Boolean sendType)\n
     '''
 def outputMultiRefs():
-    '''public void outputMultiRefs()
+    '''returns None\n\n
+    outputMultiRefs()\n
     '''
 def writeXMLDeclaration():
-    '''public void writeXMLDeclaration()
+    '''returns None\n\n
+    writeXMLDeclaration()\n
     '''
 def startElement():
-    '''public void startElement(final QName qName, Attributes attributes)
+    '''returns None\n\n
+    startElement(final QName qName, Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement()
+    '''returns None\n\n
+    endElement()\n
     '''
 def writeChars():
-    '''public void writeChars(final char[] p1, final int p2, final int p3)
+    '''returns None\n\n
+    writeChars(final char[] p1, final int p2, final int p3)\n
     '''
 def writeString():
-    '''public void writeString(final String string)
+    '''returns None\n\n
+    writeString(final String string)\n
     '''
 def writeSafeString():
-    '''public void writeSafeString(final String string)
+    '''returns None\n\n
+    writeSafeString(final String string)\n
     '''
 def writeDOMElement():
-    '''public void writeDOMElement(final Element el)
-    '''
-def getSerializerForJavaType():
-    '''public final Serializer getSerializerForJavaType(final Class javaType)
+    '''returns None\n\n
+    writeDOMElement(final Element el)\n
     '''
 def setTypeAttribute():
-    '''public Attributes setTypeAttribute(final Attributes attributes, final QName type)
+    '''returns Attributes\n\n
+    setTypeAttribute(final Attributes attributes, final QName type)\n
     '''
 def getCurrentXMLType():
-    '''public QName getCurrentXMLType()
+    '''returns QName\n\n
+    getCurrentXMLType()\n
     '''
 def getValueAsString():
-    '''public String getValueAsString(final Object value, final QName xmlType, final Class javaClass)
+    '''returns String\n\n
+    getValueAsString(final Object value, final QName xmlType, final Class javaClass)\n
     '''
 def setWriteXMLType():
-    '''public void setWriteXMLType(final QName type)
+    '''returns None\n\n
+    setWriteXMLType(final QName type)\n
     '''
 def getEncoder():
-    '''public XMLEncoder getEncoder()
+    '''returns XMLEncoder\n\n
+    getEncoder()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def getItemQName():
-    '''public QName getItemQName()
+    '''returns QName\n\n
+    getItemQName()\n
     '''
 def setItemQName():
-    '''public void setItemQName(final QName itemQName)
+    '''returns None\n\n
+    setItemQName(final QName itemQName)\n
     '''
 def getItemType():
-    '''public QName getItemType()
+    '''returns QName\n\n
+    getItemType()\n
     '''
 def setItemType():
-    '''public void setItemType(final QName itemType)
+    '''returns None\n\n
+    setItemType(final QName itemType)\n
     '''

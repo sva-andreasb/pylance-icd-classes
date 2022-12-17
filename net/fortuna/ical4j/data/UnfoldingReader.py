@@ -1,13 +1,11 @@
-def UnfoldingReader():
-    '''public UnfoldingReader(final Reader in)
-    public UnfoldingReader(final Reader in, final int size)
-    public UnfoldingReader(final Reader in, final boolean relaxed)
-    public UnfoldingReader(final Reader in, final int size, final boolean relaxed)
-    '''
-def getLinesUnfolded():
-    '''public final int getLinesUnfolded()
+def ():
+    '''returns UnfoldingReader\n\n
+    (final Reader in)\n
+    (final Reader in, final int size)\n
+    (final Reader in, final boolean relaxed)\n
+    (final Reader in, final int size, final boolean relaxed)\n
     '''
 def read():
-    '''public final int read()
-    public int read(final char[] cbuf, final int off, final int len)
+    '''returns int\n\n
+    read(final char[] cbuf, final int off, final int len)\n
     '''

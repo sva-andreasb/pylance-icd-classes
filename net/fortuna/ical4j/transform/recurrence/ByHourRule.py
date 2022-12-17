@@ -1,14 +1,15 @@
-def ByHourRule():
-    '''public ByHourRule(final NumberList hourList, final Recur.Frequency frequency)
-    public ByHourRule(final NumberList hourList, final Recur.Frequency frequency, final Optional<WeekDay.Day> weekStartDay)
+def ():
+    '''returns ExpansionFilter\n\n
+    (final NumberList hourList, final Recur.Frequency frequency)\n
+    (final NumberList hourList, final Recur.Frequency frequency, final Optional<WeekDay.Day> weekStartDay)\n
+    (final Value type)\n
     '''
 def transform():
-    '''public DateList transform(final DateList dates)
+    '''returns DateList\n\n
+    transform(final DateList dates)\n
     '''
 def apply():
-    '''public Optional<Date> apply(final Date date)
-    public List<Date> apply(final Date date)
-    '''
-def ExpansionFilter():
-    '''public ExpansionFilter(final Value type)
+    '''returns List<Date>\n\n
+    apply(final Date date)\n
+    apply(final Date date)\n
     '''

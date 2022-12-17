@@ -1,22 +1,17 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def AddOffsetsToTxnResponse():
-    '''public AddOffsetsToTxnResponse(final int throttleTimeMs, final Errors error)
-    public AddOffsetsToTxnResponse(final Struct struct)
+def ():
+    '''returns AddOffsetsToTxnResponse\n\n
+    (final int throttleTimeMs, final Errors error)\n
+    (final Struct struct)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static AddOffsetsToTxnResponse parse(final ByteBuffer buffer, final short version)
+    '''returns Errors\n\n
+    error()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

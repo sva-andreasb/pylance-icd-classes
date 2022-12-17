@@ -1,15 +1,16 @@
-def PlusPOrderTerms():
-    '''public PlusPOrderTerms(final MboSet ms)
+def ():
+    '''returns PlusPOrderTerms\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
-    '''
-def validateAttributes():
-    '''public Hashtable<String, Exception> validateAttributes()
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def setSequenceValue():
-    '''public void setSequenceValue(final String s)
+    '''returns None\n\n
+    setSequenceValue(final String s)\n
     '''

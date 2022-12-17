@@ -1,96 +1,120 @@
-def PlusCWODS():
-    '''public PlusCWODS(final MboSet ms)
+def ():
+    '''returns PlusCWODS\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getOwner():
-    '''public MboRemote getOwner()
+    '''returns MboRemote\n\n
+    getOwner()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setFailSynonymDSStatusSet():
-    '''public void setFailSynonymDSStatusSet()
+    '''returns None\n\n
+    setFailSynonymDSStatusSet()\n
     '''
 def checkForBrokenSynonymDefaultAsFound():
-    '''public boolean checkForBrokenSynonymDefaultAsFound()
+    '''returns boolean\n\n
+    checkForBrokenSynonymDefaultAsFound()\n
     '''
 def checkForBrokenSynonymDefaultAsLeft():
-    '''public boolean checkForBrokenSynonymDefaultAsLeft()
+    '''returns boolean\n\n
+    checkForBrokenSynonymDefaultAsLeft()\n
     '''
 def setFailDSStatusSet():
-    '''public void setFailDSStatusSet()
+    '''returns None\n\n
+    setFailDSStatusSet()\n
     '''
 def setPassDSStatusSet():
-    '''public void setPassDSStatusSet()
+    '''returns None\n\n
+    setPassDSStatusSet()\n
     '''
 def setDSRowStatus():
-    '''public void setDSRowStatus(final Set<String> afMap, final Set<String> alMap)
+    '''returns None\n\n
+    setDSRowStatus(final Set<String> afMap, final Set<String> alMap)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def buildStatusMaps():
-    '''public Set<String> buildStatusMaps(final Set<String> currentStatusSet, final int iStatusSet, final boolean bTolStatusDefined, final boolean bSkipAsFound, final boolean bSkipAsLeft, final String status1, final String status2, final String status3, final String status4)
+    '''returns Set<String>\n\n
+    buildStatusMaps(final Set<String> currentStatusSet, final int iStatusSet, final boolean bTolStatusDefined, final boolean bSkipAsFound, final boolean bSkipAsLeft, final String status1, final String status2, final String status3, final String status4)\n
     '''
 def isLoop():
-    '''public boolean isLoop()
+    '''returns boolean\n\n
+    isLoop()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
-    '''
-def propagateKeyValueToRelatedMbos():
-    '''public static void propagateKeyValueToRelatedMbos(final MboSetRemote msr, final String keyName, final String keyValue)
-    '''
-def setKeyValueInRelatedMboSetQuery():
-    '''public static void setKeyValueInRelatedMboSetQuery(final MboSetRemote msr)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def setReadOnlyFields():
-    '''public void setReadOnlyFields()
+    '''returns None\n\n
+    setReadOnlyFields()\n
     '''
 def clearUncertaintyFields():
-    '''public void clearUncertaintyFields()
+    '''returns None\n\n
+    clearUncertaintyFields()\n
     '''
 def isAddingToWO():
-    '''public boolean isAddingToWO()
+    '''returns boolean\n\n
+    isAddingToWO()\n
     '''
 def setIsAddingToWO():
-    '''public void setIsAddingToWO(final boolean setting)
+    '''returns None\n\n
+    setIsAddingToWO(final boolean setting)\n
     '''
 def isDeletingFromWO():
-    '''public boolean isDeletingFromWO()
+    '''returns boolean\n\n
+    isDeletingFromWO()\n
     '''
 def setIsDeleteingFromWO():
-    '''public void setIsDeleteingFromWO(final boolean setting)
+    '''returns None\n\n
+    setIsDeleteingFromWO(final boolean setting)\n
     '''
 def getMyInstrOwner():
-    '''public MboRemote getMyInstrOwner()
+    '''returns MboRemote\n\n
+    getMyInstrOwner()\n
     '''
 def copyDStoWODS():
-    '''public void copyDStoWODS()
+    '''returns None\n\n
+    copyDStoWODS()\n
     '''
 def validateDS():
-    '''public void validateDS(final String dsNum, final String revNum)
+    '''returns None\n\n
+    validateDS(final String dsNum, final String revNum)\n
     '''
 def getBooleanWithDefault():
-    '''public boolean getBooleanWithDefault(final String attribute, final boolean valueIfNull)
+    '''returns boolean\n\n
+    getBooleanWithDefault(final String attribute, final boolean valueIfNull)\n
     '''
 def setDSRequiredStatus():
-    '''public void setDSRequiredStatus(final boolean cleared)
+    '''returns None\n\n
+    setDSRequiredStatus(final boolean cleared)\n
     '''
 def childHasChanged():
-    '''public void childHasChanged()
+    '''returns None\n\n
+    childHasChanged()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

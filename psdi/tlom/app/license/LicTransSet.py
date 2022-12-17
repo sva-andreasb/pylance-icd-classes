@@ -1,15 +1,20 @@
-def LicTransSet():
-    '''public LicTransSet(final MboServerInterface ms)
+def ():
+    '''returns LicTransSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener l)
+    '''returns None\n\n
+    addListener(final MboSetListener l)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener l)
+    '''returns None\n\n
+    removeListener(final MboSetListener l)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote modifiedMbo)\n
     '''

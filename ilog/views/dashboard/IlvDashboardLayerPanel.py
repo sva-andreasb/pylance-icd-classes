@@ -1,82 +1,103 @@
-def IlvDashboardLayerPanel():
-    '''public IlvDashboardLayerPanel(final IlvDashboardEditor ilvDashboardEditor)
+def ():
+    '''returns LayerComboBoxModel\n\n
+    (final IlvDashboardEditor ilvDashboardEditor)\n
+    ()\n
     '''
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent listSelectionEvent)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent listSelectionEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def keyTyped():
-    '''public void keyTyped(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyTyped(final KeyEvent keyEvent)\n
     '''
 def keyPressed():
-    '''public void keyPressed(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyPressed(final KeyEvent keyEvent)\n
     '''
 def keyReleased():
-    '''public void keyReleased(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyReleased(final KeyEvent keyEvent)\n
     '''
 def focusGained():
-    '''public void focusGained(final FocusEvent focusEvent)
+    '''returns None\n\n
+    focusGained(final FocusEvent focusEvent)\n
     '''
 def focusLost():
-    '''public void focusLost(final FocusEvent focusEvent)
+    '''returns None\n\n
+    focusLost(final FocusEvent focusEvent)\n
     '''
 def itemStateChanged():
-    '''public void itemStateChanged(final ItemEvent itemEvent)
-    public void itemStateChanged(final ItemEvent itemEvent)
-    public void itemStateChanged(final ItemEvent itemEvent)
+    '''returns None\n\n
+    itemStateChanged(final ItemEvent itemEvent)\n
+    itemStateChanged(final ItemEvent itemEvent)\n
+    itemStateChanged(final ItemEvent itemEvent)\n
     '''
 def stateChanged():
-    '''public void stateChanged(final ChangeEvent changeEvent)
+    '''returns None\n\n
+    stateChanged(final ChangeEvent changeEvent)\n
     '''
 def setDiagram():
-    '''public void setDiagram(final IlvDashboardDiagram diagram)
+    '''returns None\n\n
+    setDiagram(final IlvDashboardDiagram diagram)\n
     '''
 def redo():
-    '''public void redo()
-    public void redo()
+    '''returns None\n\n
+    redo()\n
+    redo()\n
     '''
 def undo():
-    '''public void undo()
-    public void undo()
+    '''returns None\n\n
+    undo()\n
+    undo()\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)
-    '''
-def LayerComboBoxModel():
-    '''public LayerComboBoxModel()
+    '''returns None\n\n
+    selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)\n
     '''
 def setSelectedItem():
-    '''public void setSelectedItem(final Object a)
+    '''returns None\n\n
+    setSelectedItem(final Object a)\n
     '''
 def getSelectedItem():
-    '''public Object getSelectedItem()
+    '''returns Object\n\n
+    getSelectedItem()\n
     '''
 def getElementAt():
-    '''public Object getElementAt(int c)
-    public Object getElementAt(int b)
+    '''returns Object\n\n
+    getElementAt(int c)\n
+    getElementAt(int b)\n
     '''
 def getSize():
-    '''public int getSize()
-    public int getSize()
+    '''returns int\n\n
+    getSize()\n
+    getSize()\n
     '''
 def layerInserted():
-    '''public void layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)
-    public void layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)
+    '''returns None\n\n
+    layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)\n
+    layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)\n
     '''
 def layerChanged():
-    '''public void layerChanged(final ManagerLayerEvent managerLayerEvent)
+    '''returns None\n\n
+    layerChanged(final ManagerLayerEvent managerLayerEvent)\n
     '''
 def layerRemoved():
-    '''public void layerRemoved(final ManagerLayerRemovedEvent managerLayerRemovedEvent)
+    '''returns None\n\n
+    layerRemoved(final ManagerLayerRemovedEvent managerLayerRemovedEvent)\n
     '''
 def layerMoved():
-    '''public void layerMoved(final ManagerLayerMovedEvent managerLayerMovedEvent)
+    '''returns None\n\n
+    layerMoved(final ManagerLayerMovedEvent managerLayerMovedEvent)\n
     '''
 def contentsChanged():
-    '''public void contentsChanged()
+    '''returns None\n\n
+    contentsChanged()\n
     '''

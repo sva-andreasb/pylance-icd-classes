@@ -1,39 +1,52 @@
 def setLimit():
-    '''public void setLimit(final Integer limit)
+    '''returns None\n\n
+    setLimit(final Integer limit)\n
     '''
 def getLimit():
-    '''public Integer getLimit()
+    '''returns Integer\n\n
+    getLimit()\n
     '''
 def withLimit():
-    '''public ListGrantsRequest withLimit(final Integer limit)
+    '''returns ListGrantsRequest\n\n
+    withLimit(final Integer limit)\n
     '''
 def setMarker():
-    '''public void setMarker(final String marker)
+    '''returns None\n\n
+    setMarker(final String marker)\n
     '''
 def getMarker():
-    '''public String getMarker()
+    '''returns String\n\n
+    getMarker()\n
     '''
 def withMarker():
-    '''public ListGrantsRequest withMarker(final String marker)
+    '''returns ListGrantsRequest\n\n
+    withMarker(final String marker)\n
     '''
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public ListGrantsRequest withKeyId(final String keyId)
+    '''returns ListGrantsRequest\n\n
+    withKeyId(final String keyId)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public ListGrantsRequest clone()
+    '''returns ListGrantsRequest\n\n
+    clone()\n
     '''

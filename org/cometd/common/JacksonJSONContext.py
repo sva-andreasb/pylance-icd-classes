@@ -1,12 +1,15 @@
 def getObjectMapper():
-    '''public ObjectMapper getObjectMapper()
+    '''returns ObjectMapper\n\n
+    getObjectMapper()\n
     '''
 def parse():
-    '''public T[] parse(final InputStream stream)
-    public T[] parse(final Reader reader)
-    public T[] parse(final String json)
+    '''returns T[]\n\n
+    parse(final InputStream stream)\n
+    parse(final Reader reader)\n
+    parse(final String json)\n
     '''
 def generate():
-    '''public String generate(final T message)
-    public String generate(final T[] messages)
+    '''returns String\n\n
+    generate(final T message)\n
+    generate(final T[] messages)\n
     '''

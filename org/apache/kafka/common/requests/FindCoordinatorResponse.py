@@ -1,26 +1,22 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def FindCoordinatorResponse():
-    '''public FindCoordinatorResponse(final Errors error, final Node node)
-    public FindCoordinatorResponse(final int throttleTimeMs, final Errors error, final Node node)
-    public FindCoordinatorResponse(final Struct struct)
+def ():
+    '''returns FindCoordinatorResponse\n\n
+    (final Errors error, final Node node)\n
+    (final int throttleTimeMs, final Errors error, final Node node)\n
+    (final Struct struct)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
+    '''returns Errors\n\n
+    error()\n
     '''
 def node():
-    '''public Node node()
-    '''
-def parse():
-    '''public static FindCoordinatorResponse parse(final ByteBuffer buffer, final short version)
+    '''returns Node\n\n
+    node()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

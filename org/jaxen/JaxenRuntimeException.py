@@ -1,14 +1,18 @@
-def JaxenRuntimeException():
-    '''public JaxenRuntimeException(final Throwable cause)
-    public JaxenRuntimeException(final String message)
+def ():
+    '''returns JaxenRuntimeException\n\n
+    (final Throwable cause)\n
+    (final String message)\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''
 def initCause():
-    '''public Throwable initCause(final Throwable cause)
+    '''returns Throwable\n\n
+    initCause(final Throwable cause)\n
     '''
 def printStackTrace():
-    '''public void printStackTrace(final PrintStream s)
-    public void printStackTrace(final PrintWriter s)
+    '''returns None\n\n
+    printStackTrace(final PrintStream s)\n
+    printStackTrace(final PrintWriter s)\n
     '''

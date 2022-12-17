@@ -1,28 +1,31 @@
-def SSHProtocol():
-    '''public SSHProtocol()
-    public SSHProtocol(final String username, final byte[] password)
-    public SSHProtocol(final String username, final byte[] password, final String hostname)
-    public SSHProtocol(final File privateKeyStore, final String username, final byte[] passPhrase)
-    public SSHProtocol(final File privateKeyStore, final String username, final byte[] passPhrase, final String hostname)
-    public SSHProtocol(final KeyPair keyPair, final String username)
-    public SSHProtocol(final KeyPair keyPair, final String username, final String hostname)
-    '''
-def clone():
-    '''public synchronized Object clone()
+def ():
+    '''returns SSHProtocol\n\n
+    ()\n
+    (final String username, final byte[] password)\n
+    (final String username, final byte[] password, final String hostname)\n
+    (final File privateKeyStore, final String username, final byte[] passPhrase)\n
+    (final File privateKeyStore, final String username, final byte[] passPhrase, final String hostname)\n
+    (final KeyPair keyPair, final String username)\n
+    (final KeyPair keyPair, final String username, final String hostname)\n
     '''
 def exec():
-    '''public RemoteProcess exec(final String command)
+    '''returns RemoteProcess\n\n
+    exec(final String command)\n
     '''
 def getServerVersion():
-    '''public String getServerVersion()
+    '''returns String\n\n
+    getServerVersion()\n
     '''
 def getHostKey():
-    '''public HostKey getHostKey()
+    '''returns HostKey\n\n
+    getHostKey()\n
     '''
 def installKey():
-    '''public void installKey(final PublicKey publicKey)
-    public void installKey(final File publicKeyFile)
+    '''returns None\n\n
+    installKey(final PublicKey publicKey)\n
+    installKey(final File publicKeyFile)\n
     '''
 def getSecureSession():
-    '''public SecureSession getSecureSession()
+    '''returns SecureSession\n\n
+    getSecureSession()\n
     '''

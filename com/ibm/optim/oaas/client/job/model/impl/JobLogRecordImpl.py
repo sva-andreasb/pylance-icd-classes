@@ -1,23 +1,30 @@
-def JobLogRecordImpl():
-    '''public JobLogRecordImpl()
-    public JobLogRecordImpl(final Date date, final Level level, final String message)
-    public JobLogRecordImpl(final Date date, final String level, final String message)
+def ():
+    '''returns JobLogRecordImpl\n\n
+    ()\n
+    (final Date date, final Level level, final String message)\n
+    (final Date date, final String level, final String message)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def getDate():
-    '''public Date getDate()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def setDate():
-    '''public void setDate(final Date date)
+    '''returns None\n\n
+    setDate(final Date date)\n
     '''
 def getLevel():
-    '''public String getLevel()
+    '''returns String\n\n
+    getLevel()\n
     '''
 def setLevel():
-    '''public void setLevel(final String level)
+    '''returns None\n\n
+    setLevel(final String level)\n
     '''

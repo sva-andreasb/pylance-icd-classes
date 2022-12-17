@@ -1,21 +1,28 @@
-def AccessDecision():
-    '''public AccessDecision(final Resource resource, final boolean decision)
+def ():
+    '''returns AccessDecision\n\n
+    (final Resource resource, final boolean decision)\n
     '''
 def getResource():
-    '''public Resource getResource()
+    '''returns Resource\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final Resource resource)
+    '''returns None\n\n
+    setResource(final Resource resource)\n
     '''
 def getAccessDecision():
-    '''public boolean getAccessDecision()
+    '''returns boolean\n\n
+    getAccessDecision()\n
     '''
 def setAccessDecision():
-    '''public void setAccessDecision(final boolean accessDecision)
+    '''returns None\n\n
+    setAccessDecision(final boolean accessDecision)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

@@ -1,16 +1,17 @@
-def UtcProperty():
-    '''public UtcProperty(final String name, final ParameterList parameters, final PropertyFactory factory)
-    public UtcProperty(final String name, final PropertyFactory factory)
-    '''
-def getDateTime():
-    '''public final DateTime getDateTime()
+def ():
+    '''returns UtcProperty\n\n
+    (final String name, final ParameterList parameters, final PropertyFactory factory)\n
+    (final String name, final PropertyFactory factory)\n
     '''
 def setDateTime():
-    '''public void setDateTime(final DateTime dateTime)
+    '''returns None\n\n
+    setDateTime(final DateTime dateTime)\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone timezone)
+    '''returns None\n\n
+    setTimeZone(final TimeZone timezone)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

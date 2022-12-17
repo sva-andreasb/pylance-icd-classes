@@ -1,6 +1,8 @@
-def IndexListenerHandler():
-    '''public IndexListenerHandler(final IntListenerInfo info)
+def ():
+    '''returns IndexListenerHandler\n\n
+    (final IntListenerInfo info)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo)
+    '''returns None\n\n
+    update(final MboRemote mbo)\n
     '''

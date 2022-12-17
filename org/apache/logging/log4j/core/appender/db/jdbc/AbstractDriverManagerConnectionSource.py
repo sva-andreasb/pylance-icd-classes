@@ -1,50 +1,61 @@
-def getLogger():
-    '''public static Logger getLogger()
-    '''
-def AbstractDriverManagerConnectionSource():
-    '''public AbstractDriverManagerConnectionSource(final String driverClassName, final String connectionString, final String actualConnectionString, final char[] userName, final char[] password, final Property[] properties)
+def ():
+    '''returns AbstractDriverManagerConnectionSource\n\n
+    (final String driverClassName, final String connectionString, final String actualConnectionString, final char[] userName, final char[] password, final Property[] properties)\n
     '''
 def getActualConnectionString():
-    '''public String getActualConnectionString()
+    '''returns String\n\n
+    getActualConnectionString()\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def getConnectionString():
-    '''public String getConnectionString()
-    public String getConnectionString()
+    '''returns String\n\n
+    getConnectionString()\n
+    getConnectionString()\n
     '''
 def getDriverClassName():
-    '''public String getDriverClassName()
-    public String getDriverClassName()
+    '''returns String\n\n
+    getDriverClassName()\n
+    getDriverClassName()\n
     '''
 def getPassword():
-    '''public char[] getPassword()
-    public char[] getPassword()
+    '''returns char[]\n\n
+    getPassword()\n
+    getPassword()\n
     '''
 def getProperties():
-    '''public Property[] getProperties()
-    public Property[] getProperties()
+    '''returns Property[]\n\n
+    getProperties()\n
+    getProperties()\n
     '''
 def getUserName():
-    '''public char[] getUserName()
-    public char[] getUserName()
+    '''returns char[]\n\n
+    getUserName()\n
+    getUserName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setConnectionString():
-    '''public B setConnectionString(final String connectionString)
+    '''returns B\n\n
+    setConnectionString(final String connectionString)\n
     '''
 def setDriverClassName():
-    '''public B setDriverClassName(final String driverClassName)
+    '''returns B\n\n
+    setDriverClassName(final String driverClassName)\n
     '''
 def setPassword():
-    '''public B setPassword(final char[] password)
+    '''returns B\n\n
+    setPassword(final char[] password)\n
     '''
 def setProperties():
-    '''public B setProperties(final Property[] properties)
+    '''returns B\n\n
+    setProperties(final Property[] properties)\n
     '''
 def setUserName():
-    '''public B setUserName(final char[] userName)
+    '''returns B\n\n
+    setUserName(final char[] userName)\n
     '''

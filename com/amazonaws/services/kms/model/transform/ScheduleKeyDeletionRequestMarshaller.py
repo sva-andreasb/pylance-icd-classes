@@ -1,6 +1,8 @@
-def ScheduleKeyDeletionRequestMarshaller():
-    '''public ScheduleKeyDeletionRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns ScheduleKeyDeletionRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<ScheduleKeyDeletionRequest> marshall(final ScheduleKeyDeletionRequest scheduleKeyDeletionRequest)
+    '''returns Request<ScheduleKeyDeletionRequest>\n\n
+    marshall(final ScheduleKeyDeletionRequest scheduleKeyDeletionRequest)\n
     '''

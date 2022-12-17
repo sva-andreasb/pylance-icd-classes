@@ -1,6 +1,8 @@
-def FldGLConfigureGLLength():
-    '''public FldGLConfigureGLLength(final MboValue mbv)
+def ():
+    '''returns FldGLConfigureGLLength\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,6 +1,8 @@
 def testxml():
-    '''public int testxml()
+    '''returns int\n\n
+    testxml()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

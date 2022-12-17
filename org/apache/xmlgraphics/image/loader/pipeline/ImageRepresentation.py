@@ -1,18 +1,24 @@
-def ImageRepresentation():
-    '''public ImageRepresentation(final ImageFlavor flavor)
+def ():
+    '''returns ImageRepresentation\n\n
+    (final ImageFlavor flavor)\n
     '''
 def getFlavor():
-    '''public ImageFlavor getFlavor()
+    '''returns ImageFlavor\n\n
+    getFlavor()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
+    '''returns int\n\n
+    compareTo(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

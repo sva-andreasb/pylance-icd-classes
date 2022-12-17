@@ -1,6 +1,8 @@
-def PlusPFldWOReportedBy():
-    '''public PlusPFldWOReportedBy(final MboValue arg0)
+def ():
+    '''returns PlusPFldWOReportedBy\n\n
+    (final MboValue arg0)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

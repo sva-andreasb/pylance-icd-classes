@@ -1,20 +1,22 @@
 ELEMENT_NAME = "String  \"generic-metadata\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def getQuery():
-    '''public String getQuery()
+    '''returns String\n\n
+    getQuery()\n
     '''
 def setQuery():
-    '''public void setQuery(final String query)
-    '''
-def getMap():
-    '''public Map<String, String> getMap()
+    '''returns None\n\n
+    setQuery(final String query)\n
     '''
 def setMap():
-    '''public void setMap(final Map<String, String> map)
+    '''returns None\n\n
+    setMap(final Map<String, String> map)\n
     '''
-def GenericSettings():
-    '''public GenericSettings()
+def ():
+    '''returns GenericSettings\n\n
+    ()\n
     '''
 def parse():
-    '''public GenericSettings parse(final XmlPullParser parser, final int initialDepth)
+    '''returns GenericSettings\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

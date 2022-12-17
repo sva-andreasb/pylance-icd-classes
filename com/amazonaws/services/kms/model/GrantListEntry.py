@@ -1,95 +1,126 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public GrantListEntry withKeyId(final String keyId)
+    '''returns GrantListEntry\n\n
+    withKeyId(final String keyId)\n
     '''
 def setGrantId():
-    '''public void setGrantId(final String grantId)
+    '''returns None\n\n
+    setGrantId(final String grantId)\n
     '''
 def getGrantId():
-    '''public String getGrantId()
+    '''returns String\n\n
+    getGrantId()\n
     '''
 def withGrantId():
-    '''public GrantListEntry withGrantId(final String grantId)
+    '''returns GrantListEntry\n\n
+    withGrantId(final String grantId)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def withName():
-    '''public GrantListEntry withName(final String name)
+    '''returns GrantListEntry\n\n
+    withName(final String name)\n
     '''
 def setCreationDate():
-    '''public void setCreationDate(final Date creationDate)
+    '''returns None\n\n
+    setCreationDate(final Date creationDate)\n
     '''
 def getCreationDate():
-    '''public Date getCreationDate()
+    '''returns Date\n\n
+    getCreationDate()\n
     '''
 def withCreationDate():
-    '''public GrantListEntry withCreationDate(final Date creationDate)
+    '''returns GrantListEntry\n\n
+    withCreationDate(final Date creationDate)\n
     '''
 def setGranteePrincipal():
-    '''public void setGranteePrincipal(final String granteePrincipal)
+    '''returns None\n\n
+    setGranteePrincipal(final String granteePrincipal)\n
     '''
 def getGranteePrincipal():
-    '''public String getGranteePrincipal()
+    '''returns String\n\n
+    getGranteePrincipal()\n
     '''
 def withGranteePrincipal():
-    '''public GrantListEntry withGranteePrincipal(final String granteePrincipal)
+    '''returns GrantListEntry\n\n
+    withGranteePrincipal(final String granteePrincipal)\n
     '''
 def setRetiringPrincipal():
-    '''public void setRetiringPrincipal(final String retiringPrincipal)
+    '''returns None\n\n
+    setRetiringPrincipal(final String retiringPrincipal)\n
     '''
 def getRetiringPrincipal():
-    '''public String getRetiringPrincipal()
+    '''returns String\n\n
+    getRetiringPrincipal()\n
     '''
 def withRetiringPrincipal():
-    '''public GrantListEntry withRetiringPrincipal(final String retiringPrincipal)
+    '''returns GrantListEntry\n\n
+    withRetiringPrincipal(final String retiringPrincipal)\n
     '''
 def setIssuingAccount():
-    '''public void setIssuingAccount(final String issuingAccount)
+    '''returns None\n\n
+    setIssuingAccount(final String issuingAccount)\n
     '''
 def getIssuingAccount():
-    '''public String getIssuingAccount()
+    '''returns String\n\n
+    getIssuingAccount()\n
     '''
 def withIssuingAccount():
-    '''public GrantListEntry withIssuingAccount(final String issuingAccount)
+    '''returns GrantListEntry\n\n
+    withIssuingAccount(final String issuingAccount)\n
     '''
 def getOperations():
-    '''public List<String> getOperations()
+    '''returns List<String>\n\n
+    getOperations()\n
     '''
 def setOperations():
-    '''public void setOperations(final Collection<String> operations)
+    '''returns None\n\n
+    setOperations(final Collection<String> operations)\n
     '''
 def withOperations():
-    '''public GrantListEntry withOperations(final String... operations)
-    public GrantListEntry withOperations(final Collection<String> operations)
-    public GrantListEntry withOperations(final GrantOperation... operations)
+    '''returns GrantListEntry\n\n
+    withOperations(final String... operations)\n
+    withOperations(final Collection<String> operations)\n
+    withOperations(final GrantOperation... operations)\n
     '''
 def setConstraints():
-    '''public void setConstraints(final GrantConstraints constraints)
+    '''returns None\n\n
+    setConstraints(final GrantConstraints constraints)\n
     '''
 def getConstraints():
-    '''public GrantConstraints getConstraints()
+    '''returns GrantConstraints\n\n
+    getConstraints()\n
     '''
 def withConstraints():
-    '''public GrantListEntry withConstraints(final GrantConstraints constraints)
+    '''returns GrantListEntry\n\n
+    withConstraints(final GrantConstraints constraints)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public GrantListEntry clone()
+    '''returns GrantListEntry\n\n
+    clone()\n
     '''

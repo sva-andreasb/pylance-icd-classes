@@ -1,6 +1,7 @@
-def MXApplicationException():
-    '''public MXApplicationException(final String eg, final String ek)
-    public MXApplicationException(final String eg, final String ek, final Object[] params)
-    public MXApplicationException(final String eg, final String ek, final Throwable t)
-    public MXApplicationException(final String eg, final String ek, final Object[] p, final Throwable t)
+def ():
+    '''returns MXApplicationException\n\n
+    (final String eg, final String ek)\n
+    (final String eg, final String ek, final Object[] params)\n
+    (final String eg, final String ek, final Throwable t)\n
+    (final String eg, final String ek, final Object[] p, final Throwable t)\n
     '''

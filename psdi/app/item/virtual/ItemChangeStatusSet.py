@@ -1,6 +1,8 @@
-def ItemChangeStatusSet():
-    '''public ItemChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns ItemChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute(final MboRemote mbo)
+    '''returns None\n\n
+    execute(final MboRemote mbo)\n
     '''

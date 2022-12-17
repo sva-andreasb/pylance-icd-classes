@@ -1,75 +1,100 @@
-def VersionListing():
-    '''public VersionListing()
+def ():
+    '''returns VersionListing\n\n
+    ()\n
     '''
 def getVersionSummaries():
-    '''public List<S3VersionSummary> getVersionSummaries()
+    '''returns List<S3VersionSummary>\n\n
+    getVersionSummaries()\n
     '''
 def setVersionSummaries():
-    '''public void setVersionSummaries(final List<S3VersionSummary> versionSummaries)
+    '''returns None\n\n
+    setVersionSummaries(final List<S3VersionSummary> versionSummaries)\n
     '''
 def getCommonPrefixes():
-    '''public List<String> getCommonPrefixes()
+    '''returns List<String>\n\n
+    getCommonPrefixes()\n
     '''
 def setCommonPrefixes():
-    '''public void setCommonPrefixes(final List<String> commonPrefixes)
+    '''returns None\n\n
+    setCommonPrefixes(final List<String> commonPrefixes)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def getKeyMarker():
-    '''public String getKeyMarker()
+    '''returns String\n\n
+    getKeyMarker()\n
     '''
 def setKeyMarker():
-    '''public void setKeyMarker(final String keyMarker)
+    '''returns None\n\n
+    setKeyMarker(final String keyMarker)\n
     '''
 def getVersionIdMarker():
-    '''public String getVersionIdMarker()
+    '''returns String\n\n
+    getVersionIdMarker()\n
     '''
 def setVersionIdMarker():
-    '''public void setVersionIdMarker(final String versionIdMarker)
+    '''returns None\n\n
+    setVersionIdMarker(final String versionIdMarker)\n
     '''
 def getMaxKeys():
-    '''public int getMaxKeys()
+    '''returns int\n\n
+    getMaxKeys()\n
     '''
 def setMaxKeys():
-    '''public void setMaxKeys(final int maxKeys)
+    '''returns None\n\n
+    setMaxKeys(final int maxKeys)\n
     '''
 def getDelimiter():
-    '''public String getDelimiter()
+    '''returns String\n\n
+    getDelimiter()\n
     '''
 def setDelimiter():
-    '''public void setDelimiter(final String delimiter)
+    '''returns None\n\n
+    setDelimiter(final String delimiter)\n
     '''
 def getNextKeyMarker():
-    '''public String getNextKeyMarker()
+    '''returns String\n\n
+    getNextKeyMarker()\n
     '''
 def setNextKeyMarker():
-    '''public void setNextKeyMarker(final String marker)
+    '''returns None\n\n
+    setNextKeyMarker(final String marker)\n
     '''
 def getNextVersionIdMarker():
-    '''public String getNextVersionIdMarker()
+    '''returns String\n\n
+    getNextVersionIdMarker()\n
     '''
 def setNextVersionIdMarker():
-    '''public void setNextVersionIdMarker(final String marker)
+    '''returns None\n\n
+    setNextVersionIdMarker(final String marker)\n
     '''
 def isTruncated():
-    '''public boolean isTruncated()
+    '''returns boolean\n\n
+    isTruncated()\n
     '''
 def setTruncated():
-    '''public void setTruncated(final boolean isTruncated)
+    '''returns None\n\n
+    setTruncated(final boolean isTruncated)\n
     '''
 def getEncodingType():
-    '''public String getEncodingType()
+    '''returns String\n\n
+    getEncodingType()\n
     '''
 def setEncodingType():
-    '''public void setEncodingType(final String encodingType)
+    '''returns None\n\n
+    setEncodingType(final String encodingType)\n
     '''

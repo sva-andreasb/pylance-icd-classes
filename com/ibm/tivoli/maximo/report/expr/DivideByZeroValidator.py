@@ -1,6 +1,8 @@
-def DivideByZeroValidator():
-    '''public DivideByZeroValidator()
+def ():
+    '''returns DivideByZeroValidator\n\n
+    ()\n
     '''
 def accept():
-    '''public boolean accept(final Node n)
+    '''returns boolean\n\n
+    accept(final Node n)\n
     '''

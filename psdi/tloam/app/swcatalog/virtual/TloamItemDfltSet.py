@@ -1,3 +1,4 @@
-def TloamItemDfltSet():
-    '''public TloamItemDfltSet(final MboServerInterface ms)
+def ():
+    '''returns TloamItemDfltSet\n\n
+    (final MboServerInterface ms)\n
     '''

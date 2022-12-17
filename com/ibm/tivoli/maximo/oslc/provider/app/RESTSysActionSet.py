@@ -1,6 +1,8 @@
-def RESTSysActionSet():
-    '''public RESTSysActionSet(final MboServerInterface ms)
+def ():
+    '''returns RESTSysActionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

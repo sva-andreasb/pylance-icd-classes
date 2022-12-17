@@ -1,45 +1,58 @@
-def STAttribute():
-    '''public STAttribute(final int key, final byte[] val)
-    public STAttribute(final int key, final String str)
-    public STAttribute(final int key, final int v)
-    public STAttribute(final int key, final long v)
-    public STAttribute(final int key, final boolean v)
-    public STAttribute(final NdrInputStream ndrInputStream)
+def ():
+    '''returns STAttribute\n\n
+    (final int key, final byte[] val)\n
+    (final int key, final String str)\n
+    (final int key, final int v)\n
+    (final int key, final long v)\n
+    (final int key, final boolean v)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
-    public void dump(final NdrOutputStream ndrOutputStream, final boolean b)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
+    dump(final NdrOutputStream ndrOutputStream, final boolean b)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream, final boolean b)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream, final boolean b)\n
     '''
 def getKey():
-    '''public int getKey()
+    '''returns int\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public byte[] getValue()
+    '''returns byte[]\n\n
+    getValue()\n
     '''
 def getInt():
-    '''public int getInt()
+    '''returns int\n\n
+    getInt()\n
     '''
 def getLong():
-    '''public long getLong()
+    '''returns long\n\n
+    getLong()\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def getBoolean():
-    '''public boolean getBoolean()
+    '''returns boolean\n\n
+    getBoolean()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''

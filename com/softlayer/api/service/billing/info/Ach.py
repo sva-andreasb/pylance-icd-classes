@@ -1,246 +1,328 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getAccountNumber():
-    '''public String getAccountNumber()
+    '''returns String\n\n
+    getAccountNumber()\n
     '''
 def setAccountNumber():
-    '''public void setAccountNumber(final String accountNumber)
+    '''returns None\n\n
+    setAccountNumber(final String accountNumber)\n
     '''
 def isAccountNumberSpecified():
-    '''public boolean isAccountNumberSpecified()
+    '''returns boolean\n\n
+    isAccountNumberSpecified()\n
     '''
 def unsetAccountNumber():
-    '''public void unsetAccountNumber()
+    '''returns None\n\n
+    unsetAccountNumber()\n
     '''
 def getAccountType():
-    '''public String getAccountType()
+    '''returns String\n\n
+    getAccountType()\n
     '''
 def setAccountType():
-    '''public void setAccountType(final String accountType)
+    '''returns None\n\n
+    setAccountType(final String accountType)\n
     '''
 def isAccountTypeSpecified():
-    '''public boolean isAccountTypeSpecified()
+    '''returns boolean\n\n
+    isAccountTypeSpecified()\n
     '''
 def unsetAccountType():
-    '''public void unsetAccountType()
+    '''returns None\n\n
+    unsetAccountType()\n
     '''
 def getBankTransitNumber():
-    '''public String getBankTransitNumber()
+    '''returns String\n\n
+    getBankTransitNumber()\n
     '''
 def setBankTransitNumber():
-    '''public void setBankTransitNumber(final String bankTransitNumber)
+    '''returns None\n\n
+    setBankTransitNumber(final String bankTransitNumber)\n
     '''
 def isBankTransitNumberSpecified():
-    '''public boolean isBankTransitNumberSpecified()
+    '''returns boolean\n\n
+    isBankTransitNumberSpecified()\n
     '''
 def unsetBankTransitNumber():
-    '''public void unsetBankTransitNumber()
+    '''returns None\n\n
+    unsetBankTransitNumber()\n
     '''
 def getCity():
-    '''public String getCity()
+    '''returns String\n\n
+    getCity()\n
     '''
 def setCity():
-    '''public void setCity(final String city)
+    '''returns None\n\n
+    setCity(final String city)\n
     '''
 def isCitySpecified():
-    '''public boolean isCitySpecified()
+    '''returns boolean\n\n
+    isCitySpecified()\n
     '''
 def unsetCity():
-    '''public void unsetCity()
+    '''returns None\n\n
+    unsetCity()\n
     '''
 def getCountry():
-    '''public String getCountry()
+    '''returns String\n\n
+    getCountry()\n
     '''
 def setCountry():
-    '''public void setCountry(final String country)
+    '''returns None\n\n
+    setCountry(final String country)\n
     '''
 def isCountrySpecified():
-    '''public boolean isCountrySpecified()
+    '''returns boolean\n\n
+    isCountrySpecified()\n
     '''
 def unsetCountry():
-    '''public void unsetCountry()
+    '''returns None\n\n
+    unsetCountry()\n
     '''
 def getFirstName():
-    '''public String getFirstName()
+    '''returns String\n\n
+    getFirstName()\n
     '''
 def setFirstName():
-    '''public void setFirstName(final String firstName)
+    '''returns None\n\n
+    setFirstName(final String firstName)\n
     '''
 def isFirstNameSpecified():
-    '''public boolean isFirstNameSpecified()
+    '''returns boolean\n\n
+    isFirstNameSpecified()\n
     '''
 def unsetFirstName():
-    '''public void unsetFirstName()
+    '''returns None\n\n
+    unsetFirstName()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getLastName():
-    '''public String getLastName()
+    '''returns String\n\n
+    getLastName()\n
     '''
 def setLastName():
-    '''public void setLastName(final String lastName)
+    '''returns None\n\n
+    setLastName(final String lastName)\n
     '''
 def isLastNameSpecified():
-    '''public boolean isLastNameSpecified()
+    '''returns boolean\n\n
+    isLastNameSpecified()\n
     '''
 def unsetLastName():
-    '''public void unsetLastName()
+    '''returns None\n\n
+    unsetLastName()\n
     '''
 def getPhoneNumber():
-    '''public String getPhoneNumber()
+    '''returns String\n\n
+    getPhoneNumber()\n
     '''
 def setPhoneNumber():
-    '''public void setPhoneNumber(final String phoneNumber)
+    '''returns None\n\n
+    setPhoneNumber(final String phoneNumber)\n
     '''
 def isPhoneNumberSpecified():
-    '''public boolean isPhoneNumberSpecified()
+    '''returns boolean\n\n
+    isPhoneNumberSpecified()\n
     '''
 def unsetPhoneNumber():
-    '''public void unsetPhoneNumber()
+    '''returns None\n\n
+    unsetPhoneNumber()\n
     '''
 def getPostalcode():
-    '''public String getPostalcode()
+    '''returns String\n\n
+    getPostalcode()\n
     '''
 def setPostalcode():
-    '''public void setPostalcode(final String postalcode)
+    '''returns None\n\n
+    setPostalcode(final String postalcode)\n
     '''
 def isPostalcodeSpecified():
-    '''public boolean isPostalcodeSpecified()
+    '''returns boolean\n\n
+    isPostalcodeSpecified()\n
     '''
 def unsetPostalcode():
-    '''public void unsetPostalcode()
+    '''returns None\n\n
+    unsetPostalcode()\n
     '''
 def getState():
-    '''public String getState()
+    '''returns String\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final String state)
+    '''returns None\n\n
+    setState(final String state)\n
     '''
 def isStateSpecified():
-    '''public boolean isStateSpecified()
+    '''returns boolean\n\n
+    isStateSpecified()\n
     '''
 def unsetState():
-    '''public void unsetState()
+    '''returns None\n\n
+    unsetState()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
+    '''returns None\n\n
+    setStatus(final String status)\n
     '''
 def isStatusSpecified():
-    '''public boolean isStatusSpecified()
+    '''returns boolean\n\n
+    isStatusSpecified()\n
     '''
 def unsetStatus():
-    '''public void unsetStatus()
+    '''returns None\n\n
+    unsetStatus()\n
     '''
 def getStreet1():
-    '''public String getStreet1()
+    '''returns String\n\n
+    getStreet1()\n
     '''
 def setStreet1():
-    '''public void setStreet1(final String street1)
+    '''returns None\n\n
+    setStreet1(final String street1)\n
     '''
 def isStreet1Specified():
-    '''public boolean isStreet1Specified()
+    '''returns boolean\n\n
+    isStreet1Specified()\n
     '''
 def unsetStreet1():
-    '''public void unsetStreet1()
+    '''returns None\n\n
+    unsetStreet1()\n
     '''
 def getStreet2():
-    '''public String getStreet2()
+    '''returns String\n\n
+    getStreet2()\n
     '''
 def setStreet2():
-    '''public void setStreet2(final String street2)
+    '''returns None\n\n
+    setStreet2(final String street2)\n
     '''
 def isStreet2Specified():
-    '''public boolean isStreet2Specified()
+    '''returns boolean\n\n
+    isStreet2Specified()\n
     '''
 def unsetStreet2():
-    '''public void unsetStreet2()
+    '''returns None\n\n
+    unsetStreet2()\n
     '''
 def getVerifiedDate():
-    '''public GregorianCalendar getVerifiedDate()
+    '''returns GregorianCalendar\n\n
+    getVerifiedDate()\n
     '''
 def setVerifiedDate():
-    '''public void setVerifiedDate(final GregorianCalendar verifiedDate)
+    '''returns None\n\n
+    setVerifiedDate(final GregorianCalendar verifiedDate)\n
     '''
 def isVerifiedDateSpecified():
-    '''public boolean isVerifiedDateSpecified()
+    '''returns boolean\n\n
+    isVerifiedDateSpecified()\n
     '''
 def unsetVerifiedDate():
-    '''public void unsetVerifiedDate()
+    '''returns None\n\n
+    unsetVerifiedDate()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def accountNumber():
-    '''public Mask accountNumber()
+    '''returns Mask\n\n
+    accountNumber()\n
     '''
 def accountType():
-    '''public Mask accountType()
+    '''returns Mask\n\n
+    accountType()\n
     '''
 def bankTransitNumber():
-    '''public Mask bankTransitNumber()
+    '''returns Mask\n\n
+    bankTransitNumber()\n
     '''
 def city():
-    '''public Mask city()
+    '''returns Mask\n\n
+    city()\n
     '''
 def country():
-    '''public Mask country()
+    '''returns Mask\n\n
+    country()\n
     '''
 def firstName():
-    '''public Mask firstName()
+    '''returns Mask\n\n
+    firstName()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def lastName():
-    '''public Mask lastName()
+    '''returns Mask\n\n
+    lastName()\n
     '''
 def phoneNumber():
-    '''public Mask phoneNumber()
+    '''returns Mask\n\n
+    phoneNumber()\n
     '''
 def postalcode():
-    '''public Mask postalcode()
+    '''returns Mask\n\n
+    postalcode()\n
     '''
 def state():
-    '''public Mask state()
+    '''returns Mask\n\n
+    state()\n
     '''
 def status():
-    '''public Mask status()
+    '''returns Mask\n\n
+    status()\n
     '''
 def street1():
-    '''public Mask street1()
+    '''returns Mask\n\n
+    street1()\n
     '''
 def street2():
-    '''public Mask street2()
+    '''returns Mask\n\n
+    street2()\n
     '''
 def verifiedDate():
-    '''public Mask verifiedDate()
+    '''returns Mask\n\n
+    verifiedDate()\n
     '''

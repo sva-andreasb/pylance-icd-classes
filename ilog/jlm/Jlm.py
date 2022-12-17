@@ -13,131 +13,36 @@ DIALOG_STYLE_SWING = "int  1"
 EXCEPTION_DIALOG_CONTINUE = "int  0"
 EXCEPTION_DIALOG_DAMAGE = "int  1"
 EXCEPTION_DIALOG_EXIT = "int  2"
-def init():
-    '''public static void init(final String anObject, final String s)
-    '''
-def setFailureOperation():
-    '''public static void setFailureOperation(final int f)
-    '''
-def setMissingAckOperation():
-    '''public static void setMissingAckOperation(final int g)
-    '''
-def setDialogStyle():
-    '''public static void setDialogStyle(final int n)
-    '''
-def setEmbeddedKeys():
-    '''public static void setEmbeddedKeys(final byte[] value)
-    '''
-def registerBundle():
-    '''public static void registerBundle(final Bundle e)
-    '''
-def isMaintenanceAlive():
-    '''public static boolean isMaintenanceAlive(final int n, final String s)
-    '''
-def acknowledge():
-    '''public static void acknowledge(final String p0)
-    '''
-def getAcknowledgedProducts():
-    '''public static String[] getAcknowledgedProducts()
-    '''
-def setEmbeddedAcknowledge():
-    '''public static void setEmbeddedAcknowledge(final String s, final boolean b)
-    '''
-def addPropertyChangeListener():
-    '''public static void addPropertyChangeListener(final String s, final Class clazz, final int n, final Runnable runnable)
-    '''
-def firePropertyChanged():
-    '''public static void firePropertyChanged(final String[] array, final Class clazz, final int n)
-    '''
-def fireIntegerPropertyChanged():
-    '''public static void fireIntegerPropertyChanged(final String s, final Class clazz, final int n, final Runnable runnable)
-    '''
-def fireLongPropertyChanged():
-    '''public static void fireLongPropertyChanged(final String s, final Class clazz, final int n, final Runnable runnable)
-    '''
-def fireFloatPropertyChanged():
-    '''public static void fireFloatPropertyChanged(final String s, final Class clazz, final int n, final Runnable runnable)
-    '''
-def fireDoublePropertyChanged():
-    '''public static void fireDoublePropertyChanged(final String s, final Class clazz, final int n, final Runnable runnable)
-    '''
-def fireBooleanPropertyChanged():
-    '''public static void fireBooleanPropertyChanged(final String s, final Class clazz, final int n, final Runnable runnable)
-    '''
-def removePropertyChangeListener():
-    '''public static void removePropertyChangeListener(final String s, final Class clazz, final int n, final Runnable runnable)
-    '''
-def hasSecondaryListeners():
-    '''public static synchronized boolean hasSecondaryListeners(final String s, final Class clazz, final int n)
-    '''
-def hasWeakListeners():
-    '''public static synchronized boolean hasWeakListeners(final String s, final Class clazz, final int n)
-    '''
-def hasListeners():
-    '''public static synchronized boolean hasListeners(final String s, final String s2, final ClassLoader classLoader)
-    '''
-def getPropertyNames():
-    '''public static synchronized String[] getPropertyNames(final String s, final String s2, final ClassLoader classLoader, final boolean b)
-    '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    '''
-def getAllValidKeys():
-    '''public static JlmKey[] getAllValidKeys()
-    '''
-def getUsedValidKeys():
-    '''public static JlmKey[] getUsedValidKeys(final boolean b)
-    '''
-def getPropertiesFile():
-    '''public static URL getPropertiesFile()
-    '''
-def noteUsingJTGO():
-    '''public static void noteUsingJTGO()
-    '''
-def hintForProduct():
-    '''public static void hintForProduct(String[] t)
-    '''
-def addJlmUseListener():
-    '''public static synchronized void addJlmUseListener(final JlmUseListener l)
-    '''
-def removeJlmUseListener():
-    '''public static synchronized void removeJlmUseListener(final JlmUseListener l)
-    '''
-def keysChanged():
-    '''public static void keysChanged()
-    '''
-def registerKey():
-    '''public static void registerKey(final String s)
-    '''
-def verifyKey():
-    '''public static void verifyKey(final String s, final float n)
-    public static void verifyKey(final String[] array, final float n)
-    '''
-def registerPrettyName():
-    '''public static void registerPrettyName(final String s, final String s2)
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public String next()
+    '''returns String\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getBundleReleaseLabel():
-    '''public String getBundleReleaseLabel()
+    '''returns String\n\n
+    getBundleReleaseLabel()\n
     '''
-def Bundle():
-    '''public Bundle(final String a, final ProductAtMinimumVersion[] b)
-    '''
-def ProductAtMinimumVersion():
-    '''public ProductAtMinimumVersion(final String s, final float b)
+def ():
+    '''returns ProductAtMinimumVersion\n\n
+    (final String a, final ProductAtMinimumVersion[] b)\n
+    (final String s, final float b)\n
     '''

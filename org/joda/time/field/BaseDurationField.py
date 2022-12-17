@@ -1,29 +1,26 @@
-def getType():
-    '''public final DurationFieldType getType()
-    '''
-def getName():
-    '''public final String getName()
-    '''
-def isSupported():
-    '''public final boolean isSupported()
-    '''
 def getValue():
-    '''public int getValue(final long n)
-    public int getValue(final long n, final long n2)
+    '''returns int\n\n
+    getValue(final long n)\n
+    getValue(final long n, final long n2)\n
     '''
 def getValueAsLong():
-    '''public long getValueAsLong(final long n)
+    '''returns long\n\n
+    getValueAsLong(final long n)\n
     '''
 def getMillis():
-    '''public long getMillis(final int n)
-    public long getMillis(final long n)
+    '''returns long\n\n
+    getMillis(final int n)\n
+    getMillis(final long n)\n
     '''
 def getDifference():
-    '''public int getDifference(final long n, final long n2)
+    '''returns int\n\n
+    getDifference(final long n, final long n2)\n
     '''
 def compareTo():
-    '''public int compareTo(final DurationField durationField)
+    '''returns int\n\n
+    compareTo(final DurationField durationField)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

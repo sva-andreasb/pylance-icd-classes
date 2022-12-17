@@ -1,21 +1,24 @@
-def IINC():
-    '''public IINC(final int n, final int c, final boolean w)
+def ():
+    '''returns IINC\n\n
+    (final int n, final int c, final boolean w)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    '''
-def getIncrement():
-    '''public final int getIncrement()
+    '''returns String\n\n
+    toString(final boolean verbose)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

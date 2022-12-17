@@ -1,3 +1,4 @@
 def match():
-    '''public boolean match(final Domain d, final Triple t)
+    '''returns boolean\n\n
+    match(final Domain d, final Triple t)\n
     '''

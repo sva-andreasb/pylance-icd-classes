@@ -1,3 +1,4 @@
-def RfcRelativeLDAPDN():
-    '''public RfcRelativeLDAPDN(final String s)
+def ():
+    '''returns RfcRelativeLDAPDN\n\n
+    (final String s)\n
     '''

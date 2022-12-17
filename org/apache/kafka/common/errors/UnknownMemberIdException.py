@@ -1,6 +1,7 @@
-def UnknownMemberIdException():
-    '''public UnknownMemberIdException()
-    public UnknownMemberIdException(final String message, final Throwable cause)
-    public UnknownMemberIdException(final String message)
-    public UnknownMemberIdException(final Throwable cause)
+def ():
+    '''returns UnknownMemberIdException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

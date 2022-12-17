@@ -1,15 +1,20 @@
-def BcelAccessForInlineMunger():
-    '''public BcelAccessForInlineMunger(final ResolvedType aspectType)
+def ():
+    '''returns BcelAccessForInlineMunger\n\n
+    (final ResolvedType aspectType)\n
     '''
 def munge():
-    '''public boolean munge(final BcelClassWeaver weaver)
+    '''returns boolean\n\n
+    munge(final BcelClassWeaver weaver)\n
     '''
 def getMatchingSyntheticMember():
-    '''public ResolvedMember getMatchingSyntheticMember(final Member member)
+    '''returns ResolvedMember\n\n
+    getMatchingSyntheticMember(final Member member)\n
     '''
 def getSignature():
-    '''public ResolvedMember getSignature()
+    '''returns ResolvedMember\n\n
+    getSignature()\n
     '''
 def matches():
-    '''public boolean matches(final ResolvedType onType)
+    '''returns boolean\n\n
+    matches(final ResolvedType onType)\n
     '''

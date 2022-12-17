@@ -1,6 +1,8 @@
-def TAMITFldJobPlanTask():
-    '''public TAMITFldJobPlanTask(final MboValue mbv)
+def ():
+    '''returns TAMITFldJobPlanTask\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

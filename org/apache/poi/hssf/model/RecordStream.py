@@ -1,16 +1,21 @@
-def RecordStream():
-    '''public RecordStream(final List<Record> inputList, final int startIndex, final int endIx)
-    public RecordStream(final List<Record> records, final int startIx)
+def ():
+    '''returns RecordStream\n\n
+    (final List<Record> inputList, final int startIndex, final int endIx)\n
+    (final List<Record> records, final int startIx)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def getNext():
-    '''public Record getNext()
+    '''returns Record\n\n
+    getNext()\n
     '''
 def peekNextSid():
-    '''public int peekNextSid()
+    '''returns int\n\n
+    peekNextSid()\n
     '''
 def getCountRead():
-    '''public int getCountRead()
+    '''returns int\n\n
+    getCountRead()\n
     '''

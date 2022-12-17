@@ -1,9 +1,8 @@
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(final String option)
-    '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def getWoMbo():
-    '''public MboRemote getWoMbo()
+    '''returns MboRemote\n\n
+    getWoMbo()\n
     '''

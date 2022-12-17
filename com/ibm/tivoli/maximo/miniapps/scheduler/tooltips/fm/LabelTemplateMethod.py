@@ -1,6 +1,8 @@
-def LabelTemplateMethod():
-    '''public LabelTemplateMethod(final AbstractTreeGridMiniAppBean bean)
+def ():
+    '''returns LabelTemplateMethod\n\n
+    (final AbstractTreeGridMiniAppBean bean)\n
     '''
 def exec():
-    '''public Object exec(final Object arg0)
+    '''returns Object\n\n
+    exec(final Object arg0)\n
     '''

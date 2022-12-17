@@ -1,11 +1,10 @@
-def parse():
-    '''public static PatternTriple parse(final Item pt)
-    '''
-def PatternTriple():
-    '''public PatternTriple(final Item s, final Item p, final Item o)
-    public PatternTriple(final Node s, final Node p, final Node o)
-    public PatternTriple(final Triple triple)
+def ():
+    '''returns PatternTriple\n\n
+    (final Item s, final Item p, final Item o)\n
+    (final Node s, final Node p, final Node o)\n
+    (final Triple triple)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

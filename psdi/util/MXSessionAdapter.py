@@ -1,9 +1,12 @@
 def serverConnected():
-    '''public void serverConnected(final MXEvent evt)
+    '''returns None\n\n
+    serverConnected(final MXEvent evt)\n
     '''
 def serverDisconnected():
-    '''public void serverDisconnected(final MXEvent evt)
+    '''returns None\n\n
+    serverDisconnected(final MXEvent evt)\n
     '''
 def serverConnectionError():
-    '''public void serverConnectionError(final MXEvent evt)
+    '''returns None\n\n
+    serverConnectionError(final MXEvent evt)\n
     '''

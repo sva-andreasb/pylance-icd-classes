@@ -1,3 +1,4 @@
-def CompareID():
-    '''public CompareID(final String id)
+def ():
+    '''returns CompareID\n\n
+    (final String id)\n
     '''

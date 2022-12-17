@@ -1,4 +1,5 @@
-def InvalidPartitionsException():
-    '''public InvalidPartitionsException(final String message)
-    public InvalidPartitionsException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidPartitionsException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

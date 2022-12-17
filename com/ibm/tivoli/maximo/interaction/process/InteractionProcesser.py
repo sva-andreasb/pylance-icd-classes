@@ -1,23 +1,30 @@
-def InteractionProcesser():
-    '''public InteractionProcesser(final String intName)
-    public InteractionProcesser(final String sigoption, final String appname)
-    public InteractionProcesser(final String mainObjectName, final String relation, final String topObject)
+def ():
+    '''returns InteractionProcesser\n\n
+    (final String intName)\n
+    (final String sigoption, final String appname)\n
+    (final String mainObjectName, final String relation, final String topObject)\n
     '''
 def processInteraction():
-    '''public MboSetRemote processInteraction(final MboRemote appMbo)
+    '''returns MboSetRemote\n\n
+    processInteraction(final MboRemote appMbo)\n
     '''
 def fillRequest():
-    '''public void fillRequest(final MboSetRemote requestSet, final MboRemote mbo)
+    '''returns None\n\n
+    fillRequest(final MboSetRemote requestSet, final MboRemote mbo)\n
     '''
 def invokeservice():
-    '''public boolean invokeservice(final MboRemote mbo)
+    '''returns boolean\n\n
+    invokeservice(final MboRemote mbo)\n
     '''
 def applychanges():
-    '''public boolean applychanges(final MboSetRemote set, final MboRemote mbo)
+    '''returns boolean\n\n
+    applychanges(final MboSetRemote set, final MboRemote mbo)\n
     '''
 def showResponse():
-    '''public boolean showResponse()
+    '''returns boolean\n\n
+    showResponse()\n
     '''
 def unselect():
-    '''public void unselect(final MosDetailInfo info, final MboSetRemote set)
+    '''returns None\n\n
+    unselect(final MosDetailInfo info, final MboSetRemote set)\n
     '''

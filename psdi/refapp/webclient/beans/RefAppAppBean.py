@@ -1,6 +1,8 @@
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''

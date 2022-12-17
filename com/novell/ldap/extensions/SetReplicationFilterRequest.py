@@ -1,3 +1,4 @@
-def SetReplicationFilterRequest():
-    '''public SetReplicationFilterRequest(final String s, final String[][] array)
+def ():
+    '''returns SetReplicationFilterRequest\n\n
+    (final String s, final String[][] array)\n
     '''

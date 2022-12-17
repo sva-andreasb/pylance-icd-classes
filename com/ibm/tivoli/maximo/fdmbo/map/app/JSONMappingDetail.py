@@ -1,33 +1,44 @@
-def JSONMappingDetail():
-    '''public JSONMappingDetail(final MboSet ms)
+def ():
+    '''returns JSONMappingDetail\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getObjectInfo():
-    '''public JSONObjectInfo getObjectInfo()
+    '''returns JSONObjectInfo\n\n
+    getObjectInfo()\n
     '''
 def setObjectInfo():
-    '''public void setObjectInfo(final JSONObjectInfo objectInfo)
+    '''returns None\n\n
+    setObjectInfo(final JSONObjectInfo objectInfo)\n
     '''
 def findObjectInfo():
-    '''public JSONObjectInfo findObjectInfo(final JSONObjectInfo objectInfo, final String hpath)
+    '''returns JSONObjectInfo\n\n
+    findObjectInfo(final JSONObjectInfo objectInfo, final String hpath)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''

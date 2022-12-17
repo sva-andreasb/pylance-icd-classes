@@ -1,3 +1,4 @@
-def FldClassificationId():
-    '''public FldClassificationId(final MboValue mbv)
+def ():
+    '''returns FldClassificationId\n\n
+    (final MboValue mbv)\n
     '''

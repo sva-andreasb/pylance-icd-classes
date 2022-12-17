@@ -1,34 +1,45 @@
-def COSAttachmentStorage():
-    '''public COSAttachmentStorage()
+def ():
+    '''returns COSAttachmentStorage\n\n
+    ()\n
     '''
 def getAttachmentSize():
-    '''public long getAttachmentSize(final MboRemote doclink)
+    '''returns long\n\n
+    getAttachmentSize(final MboRemote doclink)\n
     '''
 def createAttachment():
-    '''public void createAttachment(final String name, final byte[] data, final String mimeType)
+    '''returns None\n\n
+    createAttachment(final String name, final byte[] data, final String mimeType)\n
     '''
 def deleteAttachment():
-    '''public void deleteAttachment(final MboRemote doclink)
+    '''returns None\n\n
+    deleteAttachment(final MboRemote doclink)\n
     '''
 def getAttachment():
-    '''public byte[] getAttachment(final MboRemote doclink)
-    public byte[] getAttachment(final String urlName)
+    '''returns byte[]\n\n
+    getAttachment(final MboRemote doclink)\n
+    getAttachment(final String urlName)\n
     '''
 def getAttachmentQualifiedName():
-    '''public String getAttachmentQualifiedName(final MboRemote doclink, final String name)
+    '''returns String\n\n
+    getAttachmentQualifiedName(final MboRemote doclink, final String name)\n
     '''
 def setupStorage():
-    '''public void setupStorage()
+    '''returns None\n\n
+    setupStorage()\n
     '''
 def cleanupStorage():
-    '''public void cleanupStorage()
+    '''returns None\n\n
+    cleanupStorage()\n
     '''
 def streamAttachment():
-    '''public InputStream streamAttachment(final MboRemote doclink)
+    '''returns InputStream\n\n
+    streamAttachment(final MboRemote doclink)\n
     '''
 def isAttachmentNeedsCustomDatasource():
-    '''public boolean isAttachmentNeedsCustomDatasource(final String urlName)
+    '''returns boolean\n\n
+    isAttachmentNeedsCustomDatasource(final String urlName)\n
     '''
 def getAttachmentDatasource():
-    '''public DataSource getAttachmentDatasource(final String urlName)
+    '''returns DataSource\n\n
+    getAttachmentDatasource(final String urlName)\n
     '''

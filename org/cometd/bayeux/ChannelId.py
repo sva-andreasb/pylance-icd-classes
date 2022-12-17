@@ -1,56 +1,70 @@
 WILD = "String  \"*\""
 DEEPWILD = "String  \"**\""
-def ChannelId():
-    '''public ChannelId(String id)
+def ():
+    '''returns ChannelId\n\n
+    (String id)\n
     '''
 def isWild():
-    '''public boolean isWild()
+    '''returns boolean\n\n
+    isWild()\n
     '''
 def isShallowWild():
-    '''public boolean isShallowWild()
+    '''returns boolean\n\n
+    isShallowWild()\n
     '''
 def isDeepWild():
-    '''public boolean isDeepWild()
+    '''returns boolean\n\n
+    isDeepWild()\n
     '''
 def isMeta():
-    '''public boolean isMeta()
-    public static boolean isMeta(final String channelId)
+    '''returns boolean\n\n
+    isMeta()\n
     '''
 def isService():
-    '''public boolean isService()
-    public static boolean isService(final String channelId)
+    '''returns boolean\n\n
+    isService()\n
     '''
 def isBroadcast():
-    '''public boolean isBroadcast()
-    public static boolean isBroadcast(final String channelId)
+    '''returns boolean\n\n
+    isBroadcast()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def matches():
-    '''public boolean matches(final ChannelId channelId)
+    '''returns boolean\n\n
+    matches(final ChannelId channelId)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def depth():
-    '''public int depth()
+    '''returns int\n\n
+    depth()\n
     '''
 def isAncestorOf():
-    '''public boolean isAncestorOf(final ChannelId id)
+    '''returns boolean\n\n
+    isAncestorOf(final ChannelId id)\n
     '''
 def isParentOf():
-    '''public boolean isParentOf(final ChannelId id)
+    '''returns boolean\n\n
+    isParentOf(final ChannelId id)\n
     '''
 def getParent():
-    '''public String getParent()
+    '''returns String\n\n
+    getParent()\n
     '''
 def getSegment():
-    '''public String getSegment(final int i)
+    '''returns String\n\n
+    getSegment(final int i)\n
     '''
 def getWilds():
-    '''public List<String> getWilds()
+    '''returns List<String>\n\n
+    getWilds()\n
     '''

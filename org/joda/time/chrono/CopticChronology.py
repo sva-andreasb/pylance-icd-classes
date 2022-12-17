@@ -1,15 +1,9 @@
 AM = "int  1"
-def getInstanceUTC():
-    '''public static CopticChronology getInstanceUTC()
-    '''
-def getInstance():
-    '''public static CopticChronology getInstance()
-    public static CopticChronology getInstance(final DateTimeZone dateTimeZone)
-    public static CopticChronology getInstance(DateTimeZone default1, final int i)
-    '''
 def withUTC():
-    '''public Chronology withUTC()
+    '''returns Chronology\n\n
+    withUTC()\n
     '''
 def withZone():
-    '''public Chronology withZone(DateTimeZone default1)
+    '''returns Chronology\n\n
+    withZone(DateTimeZone default1)\n
     '''

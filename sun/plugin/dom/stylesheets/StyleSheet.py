@@ -1,24 +1,32 @@
-def StyleSheet():
-    '''public StyleSheet(final DOMObject obj, final Node owner)
+def ():
+    '''returns StyleSheet\n\n
+    (final DOMObject obj, final Node owner)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getDisabled():
-    '''public boolean getDisabled()
+    '''returns boolean\n\n
+    getDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean value)
+    '''returns None\n\n
+    setDisabled(final boolean value)\n
     '''
 def getOwnerNode():
-    '''public Node getOwnerNode()
+    '''returns Node\n\n
+    getOwnerNode()\n
     '''
 def getHref():
-    '''public String getHref()
+    '''returns String\n\n
+    getHref()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getMedia():
-    '''public MediaList getMedia()
+    '''returns MediaList\n\n
+    getMedia()\n
     '''

@@ -1,132 +1,161 @@
-def SequencedHashMap():
-    '''public SequencedHashMap()
-    public SequencedHashMap(final int initialSize)
-    public SequencedHashMap(final int initialSize, final float loadFactor)
-    public SequencedHashMap(final Map m)
+def ():
+    '''returns OrderedIterator\n\n
+    ()\n
+    (final int initialSize)\n
+    (final int initialSize, final float loadFactor)\n
+    (final Map m)\n
+    (final Object key, final Object value)\n
+    (final int returnType)\n
     '''
 def size():
-    '''public int size()
-    public int size()
-    public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
+    size()\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
-    public boolean isEmpty()
-    public boolean isEmpty()
-    public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
+    isEmpty()\n
+    isEmpty()\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def get():
-    '''public Object get(final Object o)
-    public Object get(final int index)
+    '''returns Object\n\n
+    get(final Object o)\n
+    get(final int index)\n
     '''
 def getFirstKey():
-    '''public Object getFirstKey()
+    '''returns Object\n\n
+    getFirstKey()\n
     '''
 def getFirstValue():
-    '''public Object getFirstValue()
+    '''returns Object\n\n
+    getFirstValue()\n
     '''
 def getLastKey():
-    '''public Object getLastKey()
+    '''returns Object\n\n
+    getLastKey()\n
     '''
 def getLastValue():
-    '''public Object getLastValue()
+    '''returns Object\n\n
+    getLastValue()\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
     '''
 def remove():
-    '''public Object remove(final Object key)
-    public boolean remove(final Object o)
-    public boolean remove(final Object value)
-    public boolean remove(final Object o)
-    public Object remove(final int index)
-    public void remove()
+    '''returns None\n\n
+    remove(final Object key)\n
+    remove(final Object o)\n
+    remove(final Object value)\n
+    remove(final Object o)\n
+    remove(final int index)\n
+    remove()\n
     '''
 def putAll():
-    '''public void putAll(final Map t)
+    '''returns None\n\n
+    putAll(final Map t)\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
-    public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
+    clear()\n
+    clear()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def keySet():
-    '''public Set keySet()
+    '''returns Set\n\n
+    keySet()\n
     '''
 def iterator():
-    '''public Iterator iterator()
-    public Iterator iterator()
-    public Iterator iterator()
-    public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
+    iterator()\n
+    iterator()\n
+    iterator()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
-    public boolean contains(final Object o)
-    public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
+    contains(final Object o)\n
+    contains(final Object o)\n
     '''
 def values():
-    '''public Collection values()
+    '''returns Collection\n\n
+    values()\n
     '''
 def entrySet():
-    '''public Set entrySet()
+    '''returns Set\n\n
+    entrySet()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getValue():
-    '''public Object getValue(final int index)
-    public Object getValue()
+    '''returns Object\n\n
+    getValue(final int index)\n
+    getValue()\n
     '''
 def indexOf():
-    '''public int indexOf(final Object key)
+    '''returns int\n\n
+    indexOf(final Object key)\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object key)
+    '''returns int\n\n
+    lastIndexOf(final Object key)\n
     '''
 def sequence():
-    '''public List sequence()
+    '''returns List\n\n
+    sequence()\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
-    '''
-def Entry():
-    '''public Entry(final Object key, final Object value)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''
 def setValue():
-    '''public Object setValue(final Object value)
-    '''
-def OrderedIterator():
-    '''public OrderedIterator(final int returnType)
+    '''returns Object\n\n
+    setValue(final Object value)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

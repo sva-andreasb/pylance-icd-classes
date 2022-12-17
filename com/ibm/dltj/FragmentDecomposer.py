@@ -1,13 +1,17 @@
-def FragmentDecomposer():
-    '''public FragmentDecomposer()
-    public FragmentDecomposer(final int skipAfter)
+def ():
+    '''returns FragmentDecomposer\n\n
+    ()\n
+    (final int skipAfter)\n
     '''
 def open():
-    '''public void open(final Dictionary[] dictionaries, final FragmentConsumer consumer)
+    '''returns None\n\n
+    open(final Dictionary[] dictionaries, final FragmentConsumer consumer)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def extractDictionaryParts():
-    '''public void extractDictionaryParts(final CharacterIterator characterIterator, final int n, final int n2)
+    '''returns None\n\n
+    extractDictionaryParts(final CharacterIterator characterIterator, final int n, final int n2)\n
     '''

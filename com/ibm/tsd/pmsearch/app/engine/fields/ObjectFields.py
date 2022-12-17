@@ -1,19 +1,25 @@
-def ObjectFields():
-    '''public ObjectFields()
+def ():
+    '''returns ObjectFields\n\n
+    ()\n
     '''
 def getValues():
-    '''public Collection<String> getValues()
+    '''returns Collection<String>\n\n
+    getValues()\n
     '''
 def getKeyValues():
-    '''public Collection<String> getKeyValues()
+    '''returns Collection<String>\n\n
+    getKeyValues()\n
     '''
 def setValues():
-    '''public void setValues(final Collection<String> v)
+    '''returns None\n\n
+    setValues(final Collection<String> v)\n
     '''
 def setKeyValues():
-    '''public void setKeyValues(final Collection<String> v)
+    '''returns None\n\n
+    setKeyValues(final Collection<String> v)\n
     '''
 def getMLFieldName():
-    '''public String getMLFieldName(final UserInfo user)
-    public String getMLFieldName()
+    '''returns String\n\n
+    getMLFieldName(final UserInfo user)\n
+    getMLFieldName()\n
     '''

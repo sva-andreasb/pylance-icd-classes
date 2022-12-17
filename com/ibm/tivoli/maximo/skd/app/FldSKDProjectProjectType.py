@@ -1,6 +1,8 @@
-def FldSKDProjectProjectType():
-    '''public FldSKDProjectProjectType(final MboValue mbv)
+def ():
+    '''returns FldSKDProjectProjectType\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

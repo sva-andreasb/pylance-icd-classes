@@ -1,3 +1,4 @@
 def copySpareParts():
-    '''public int copySpareParts(final MboSetRemote spareParts)
+    '''returns int\n\n
+    copySpareParts(final MboSetRemote spareParts)\n
     '''

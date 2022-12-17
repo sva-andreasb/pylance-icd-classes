@@ -1,12 +1,16 @@
-def PMViaRouteSet():
-    '''public PMViaRouteSet(final MboServerInterface ms)
+def ():
+    '''returns PMViaRouteSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def getDisplayMbo():
-    '''public MboRemote getDisplayMbo(final int index)
+    '''returns MboRemote\n\n
+    getDisplayMbo(final int index)\n
     '''
 def count():
-    '''public int count()
+    '''returns int\n\n
+    count()\n
     '''

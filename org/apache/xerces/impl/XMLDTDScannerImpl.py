@@ -1,47 +1,62 @@
-def XMLDTDScannerImpl():
-    '''public XMLDTDScannerImpl()
-    public XMLDTDScannerImpl(final SymbolTable fSymbolTable, final XMLErrorReporter fErrorReporter, final XMLEntityManager fEntityManager)
+def ():
+    '''returns XMLDTDScannerImpl\n\n
+    ()\n
+    (final SymbolTable fSymbolTable, final XMLErrorReporter fErrorReporter, final XMLEntityManager fEntityManager)\n
     '''
 def setInputSource():
-    '''public void setInputSource(final XMLInputSource xmlInputSource)
+    '''returns None\n\n
+    setInputSource(final XMLInputSource xmlInputSource)\n
     '''
 def scanDTDExternalSubset():
-    '''public boolean scanDTDExternalSubset(final boolean b)
+    '''returns boolean\n\n
+    scanDTDExternalSubset(final boolean b)\n
     '''
 def scanDTDInternalSubset():
-    '''public boolean scanDTDInternalSubset(final boolean b, final boolean fStandalone, final boolean b2)
+    '''returns boolean\n\n
+    scanDTDInternalSubset(final boolean b, final boolean fStandalone, final boolean b2)\n
     '''
 def reset():
-    '''public void reset(final XMLComponentManager xmlComponentManager)
-    public void reset()
+    '''returns None\n\n
+    reset(final XMLComponentManager xmlComponentManager)\n
+    reset()\n
     '''
 def getRecognizedFeatures():
-    '''public String[] getRecognizedFeatures()
+    '''returns String[]\n\n
+    getRecognizedFeatures()\n
     '''
 def getRecognizedProperties():
-    '''public String[] getRecognizedProperties()
+    '''returns String[]\n\n
+    getRecognizedProperties()\n
     '''
 def getFeatureDefault():
-    '''public Boolean getFeatureDefault(final String anObject)
+    '''returns Boolean\n\n
+    getFeatureDefault(final String anObject)\n
     '''
 def getPropertyDefault():
-    '''public Object getPropertyDefault(final String anObject)
+    '''returns Object\n\n
+    getPropertyDefault(final String anObject)\n
     '''
 def setDTDHandler():
-    '''public void setDTDHandler(final XMLDTDHandler fdtdHandler)
+    '''returns None\n\n
+    setDTDHandler(final XMLDTDHandler fdtdHandler)\n
     '''
 def getDTDHandler():
-    '''public XMLDTDHandler getDTDHandler()
+    '''returns XMLDTDHandler\n\n
+    getDTDHandler()\n
     '''
 def setDTDContentModelHandler():
-    '''public void setDTDContentModelHandler(final XMLDTDContentModelHandler fdtdContentModelHandler)
+    '''returns None\n\n
+    setDTDContentModelHandler(final XMLDTDContentModelHandler fdtdContentModelHandler)\n
     '''
 def getDTDContentModelHandler():
-    '''public XMLDTDContentModelHandler getDTDContentModelHandler()
+    '''returns XMLDTDContentModelHandler\n\n
+    getDTDContentModelHandler()\n
     '''
 def startEntity():
-    '''public void startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)
+    '''returns None\n\n
+    startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)\n
     '''
 def endEntity():
-    '''public void endEntity(final String s, final Augmentations augmentations)
+    '''returns None\n\n
+    endEntity(final String s, final Augmentations augmentations)\n
     '''

@@ -1,15 +1,20 @@
-def PlusPFldValue():
-    '''public PlusPFldValue(final MboValue mbv)
+def ():
+    '''returns PlusPFldValue\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final String value, final boolean b)
+    '''returns MboSetRemote\n\n
+    smartFill(final String value, final boolean b)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def chooseActualDomainValues():
-    '''public void chooseActualDomainValues()
+    '''returns None\n\n
+    chooseActualDomainValues()\n
     '''

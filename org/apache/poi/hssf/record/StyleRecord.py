@@ -1,35 +1,46 @@
 sid = "short  659"
-def StyleRecord():
-    '''public StyleRecord()
-    public StyleRecord(final RecordInputStream in)
+def ():
+    '''returns StyleRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setXFIndex():
-    '''public void setXFIndex(final int xfIndex)
+    '''returns None\n\n
+    setXFIndex(final int xfIndex)\n
     '''
 def getXFIndex():
-    '''public int getXFIndex()
+    '''returns int\n\n
+    getXFIndex()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setBuiltinStyle():
-    '''public void setBuiltinStyle(final int builtinStyleId)
+    '''returns None\n\n
+    setBuiltinStyle(final int builtinStyleId)\n
     '''
 def setOutlineStyleLevel():
-    '''public void setOutlineStyleLevel(final int level)
+    '''returns None\n\n
+    setOutlineStyleLevel(final int level)\n
     '''
 def isBuiltin():
-    '''public boolean isBuiltin()
+    '''returns boolean\n\n
+    isBuiltin()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

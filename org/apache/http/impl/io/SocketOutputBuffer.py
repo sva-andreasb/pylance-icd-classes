@@ -1,3 +1,4 @@
-def SocketOutputBuffer():
-    '''public SocketOutputBuffer(final Socket socket, final int buffersize, final HttpParams params)
+def ():
+    '''returns SocketOutputBuffer\n\n
+    (final Socket socket, final int buffersize, final HttpParams params)\n
     '''

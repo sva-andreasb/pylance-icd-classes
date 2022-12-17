@@ -1,42 +1,55 @@
-def MutableBoolean():
-    '''public MutableBoolean()
-    public MutableBoolean(final boolean value)
-    public MutableBoolean(final Boolean value)
+def ():
+    '''returns MutableBoolean\n\n
+    ()\n
+    (final boolean value)\n
+    (final Boolean value)\n
     '''
 def getValue():
-    '''public Boolean getValue()
+    '''returns Boolean\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final boolean value)
-    public void setValue(final Boolean value)
+    '''returns None\n\n
+    setValue(final boolean value)\n
+    setValue(final Boolean value)\n
     '''
 def setFalse():
-    '''public void setFalse()
+    '''returns None\n\n
+    setFalse()\n
     '''
 def setTrue():
-    '''public void setTrue()
+    '''returns None\n\n
+    setTrue()\n
     '''
 def isTrue():
-    '''public boolean isTrue()
+    '''returns boolean\n\n
+    isTrue()\n
     '''
 def isFalse():
-    '''public boolean isFalse()
+    '''returns boolean\n\n
+    isFalse()\n
     '''
 def booleanValue():
-    '''public boolean booleanValue()
+    '''returns boolean\n\n
+    booleanValue()\n
     '''
 def toBoolean():
-    '''public Boolean toBoolean()
+    '''returns Boolean\n\n
+    toBoolean()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final MutableBoolean other)
+    '''returns int\n\n
+    compareTo(final MutableBoolean other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

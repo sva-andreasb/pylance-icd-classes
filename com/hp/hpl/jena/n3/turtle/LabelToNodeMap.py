@@ -1,12 +1,16 @@
-def LabelToNodeMap():
-    '''public LabelToNodeMap()
+def ():
+    '''returns LabelToNodeMap\n\n
+    ()\n
     '''
 def asNode():
-    '''public Node asNode(final String label)
+    '''returns Node\n\n
+    asNode(final String label)\n
     '''
 def allocNode():
-    '''public Node allocNode()
+    '''returns Node\n\n
+    allocNode()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

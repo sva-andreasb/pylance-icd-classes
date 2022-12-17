@@ -1,4 +1,5 @@
-def AbstractErrorUnmarshaller():
-    '''public AbstractErrorUnmarshaller()
-    public AbstractErrorUnmarshaller(final Class<? extends AmazonServiceException> exceptionClass)
+def ():
+    '''returns AbstractErrorUnmarshaller\n\n
+    ()\n
+    (final Class<? extends AmazonServiceException> exceptionClass)\n
     '''

@@ -1,24 +1,32 @@
-def MaxLogger():
-    '''public MaxLogger(final MboSet ms)
+def ():
+    '''returns MaxLogger\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def addAppenders():
-    '''public void addAppenders()
+    '''returns None\n\n
+    addAppenders()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setInheritedAppenders():
-    '''public void setInheritedAppenders()
+    '''returns None\n\n
+    setInheritedAppenders()\n
     '''
 def getMaximoRootLogger():
-    '''public MboRemote getMaximoRootLogger()
+    '''returns MboRemote\n\n
+    getMaximoRootLogger()\n
     '''
 def write():
-    '''public String write()
+    '''returns String\n\n
+    write()\n
     '''

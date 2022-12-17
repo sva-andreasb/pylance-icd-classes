@@ -9,12 +9,15 @@ FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 FILTER_TYPE_UNKNOWN = "int  0"
 FILTER_TYPE_INCLUDE = "int  1"
 FILTER_TYPE_EXCLUDE = "int  2"
-def BIMFilter():
-    '''public BIMFilter(final MboSet ms)
+def ():
+    '''returns BIMFilter\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getFilterType():
-    '''public int getFilterType()
+    '''returns int\n\n
+    getFilterType()\n
     '''

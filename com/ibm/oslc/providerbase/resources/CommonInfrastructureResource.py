@@ -1,21 +1,28 @@
 def getInfrastructureResources():
-    '''public List<Entity> getInfrastructureResources(@Context final HttpServletRequest httpServletRequest)
+    '''returns List<Entity>\n\n
+    getInfrastructureResources(@Context final HttpServletRequest httpServletRequest)\n
     '''
 def getInfrastructureResource():
-    '''public Entity getInfrastructureResource(@Context final HttpServletRequest httpServletRequest, @PathParam("resourceId") final String resourceId)
+    '''returns Entity\n\n
+    getInfrastructureResource(@Context final HttpServletRequest httpServletRequest, @PathParam("resourceId") final String resourceId)\n
     '''
 def getCompact():
-    '''public Compact getCompact(@Context final HttpServletRequest httpServletRequest, @PathParam("resourceId") final String resourceId)
+    '''returns Compact\n\n
+    getCompact(@Context final HttpServletRequest httpServletRequest, @PathParam("resourceId") final String resourceId)\n
     '''
 def getSmallPreview():
-    '''public void getSmallPreview(@Context final HttpServletRequest httpServletRequest, @Context final HttpServletResponse httpServletResponse, @PathParam("resourceId") final String resourceId)
+    '''returns None\n\n
+    getSmallPreview(@Context final HttpServletRequest httpServletRequest, @Context final HttpServletResponse httpServletResponse, @PathParam("resourceId") final String resourceId)\n
     '''
 def createInfrastructureResource():
-    '''public Response createInfrastructureResource(@Context final HttpServletRequest httpServletRequest, final Entity resource)
+    '''returns Response\n\n
+    createInfrastructureResource(@Context final HttpServletRequest httpServletRequest, final Entity resource)\n
     '''
 def updateInfrastructureResource():
-    '''public Entity updateInfrastructureResource(@Context final HttpServletRequest httpServletRequest, @PathParam("resourceId") final String resourceId, final Entity resource)
+    '''returns Entity\n\n
+    updateInfrastructureResource(@Context final HttpServletRequest httpServletRequest, @PathParam("resourceId") final String resourceId, final Entity resource)\n
     '''
 def deleteInfrastructureResource():
-    '''public void deleteInfrastructureResource(@Context final HttpServletRequest httpServletRequest, @PathParam("resourceId") final String resourceId)
+    '''returns None\n\n
+    deleteInfrastructureResource(@Context final HttpServletRequest httpServletRequest, @PathParam("resourceId") final String resourceId)\n
     '''

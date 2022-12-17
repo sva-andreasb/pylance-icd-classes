@@ -1,56 +1,71 @@
 BASE64_VALUE_INVALID = "int  -1"
 BASE64_VALUE_PADDING = "int  -2"
-def Base64Variant():
-    '''public Base64Variant(final String name, final String base64Alphabet, final boolean usesPadding, final char paddingChar, final int maxLineLength)
-    public Base64Variant(final Base64Variant base, final String name, final int maxLineLength)
-    public Base64Variant(final Base64Variant base, final String name, final boolean usesPadding, final char paddingChar, final int maxLineLength)
+def ():
+    '''returns Base64Variant\n\n
+    (final String name, final String base64Alphabet, final boolean usesPadding, final char paddingChar, final int maxLineLength)\n
+    (final Base64Variant base, final String name, final int maxLineLength)\n
+    (final Base64Variant base, final String name, final boolean usesPadding, final char paddingChar, final int maxLineLength)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def usesPadding():
-    '''public boolean usesPadding()
+    '''returns boolean\n\n
+    usesPadding()\n
     '''
 def usesPaddingChar():
-    '''public boolean usesPaddingChar(final char c)
-    public boolean usesPaddingChar(final int ch)
+    '''returns boolean\n\n
+    usesPaddingChar(final char c)\n
+    usesPaddingChar(final int ch)\n
     '''
 def getPaddingChar():
-    '''public char getPaddingChar()
+    '''returns char\n\n
+    getPaddingChar()\n
     '''
 def getPaddingByte():
-    '''public byte getPaddingByte()
+    '''returns byte\n\n
+    getPaddingByte()\n
     '''
 def getMaxLineLength():
-    '''public int getMaxLineLength()
+    '''returns int\n\n
+    getMaxLineLength()\n
     '''
 def decodeBase64Char():
-    '''public int decodeBase64Char(final char c)
-    public int decodeBase64Char(final int ch)
+    '''returns int\n\n
+    decodeBase64Char(final char c)\n
+    decodeBase64Char(final int ch)\n
     '''
 def decodeBase64Byte():
-    '''public int decodeBase64Byte(final byte b)
+    '''returns int\n\n
+    decodeBase64Byte(final byte b)\n
     '''
 def encodeBase64BitsAsChar():
-    '''public char encodeBase64BitsAsChar(final int value)
+    '''returns char\n\n
+    encodeBase64BitsAsChar(final int value)\n
     '''
 def encodeBase64Chunk():
-    '''public int encodeBase64Chunk(final int b24, final char[] buffer, int ptr)
-    public void encodeBase64Chunk(final StringBuilder sb, final int b24)
-    public int encodeBase64Chunk(final int b24, final byte[] buffer, int ptr)
+    '''returns int\n\n
+    encodeBase64Chunk(final int b24, final char[] buffer, int ptr)\n
+    encodeBase64Chunk(final StringBuilder sb, final int b24)\n
+    encodeBase64Chunk(final int b24, final byte[] buffer, int ptr)\n
     '''
 def encodeBase64Partial():
-    '''public int encodeBase64Partial(final int bits, final int outputBytes, final char[] buffer, int outPtr)
-    public void encodeBase64Partial(final StringBuilder sb, final int bits, final int outputBytes)
-    public int encodeBase64Partial(final int bits, final int outputBytes, final byte[] buffer, int outPtr)
+    '''returns int\n\n
+    encodeBase64Partial(final int bits, final int outputBytes, final char[] buffer, int outPtr)\n
+    encodeBase64Partial(final StringBuilder sb, final int bits, final int outputBytes)\n
+    encodeBase64Partial(final int bits, final int outputBytes, final byte[] buffer, int outPtr)\n
     '''
 def encodeBase64BitsAsByte():
-    '''public byte encodeBase64BitsAsByte(final int value)
+    '''returns byte\n\n
+    encodeBase64BitsAsByte(final int value)\n
     '''
 def encode():
-    '''public String encode(final byte[] input)
-    public String encode(final byte[] input, final boolean addQuotes)
+    '''returns String\n\n
+    encode(final byte[] input)\n
+    encode(final byte[] input, final boolean addQuotes)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

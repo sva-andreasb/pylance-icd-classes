@@ -1,9 +1,11 @@
 def trackMessage():
-    '''public boolean trackMessage(final Map<String, String> msgProperties, final byte[] data)
-    public boolean trackMessage(final Map<String, String> msgProperties)
-    public boolean trackMessage(final Map<String, String> msgProperties, final Connection conn)
-    public boolean trackMessage(final Map<String, String> msgProperties, final byte[] data, final Connection conn)
+    '''returns boolean\n\n
+    trackMessage(final Map<String, String> msgProperties, final byte[] data)\n
+    trackMessage(final Map<String, String> msgProperties)\n
+    trackMessage(final Map<String, String> msgProperties, final Connection conn)\n
+    trackMessage(final Map<String, String> msgProperties, final byte[] data, final Connection conn)\n
     '''
 def rollbackTrackingLog():
-    '''public boolean rollbackTrackingLog(final String messageId)
+    '''returns boolean\n\n
+    rollbackTrackingLog(final String messageId)\n
     '''

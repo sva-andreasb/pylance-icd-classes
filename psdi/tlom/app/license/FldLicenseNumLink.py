@@ -1,3 +1,4 @@
-def FldLicenseNumLink():
-    '''public FldLicenseNumLink(final MboValue mbv)
+def ():
+    '''returns FldLicenseNumLink\n\n
+    (final MboValue mbv)\n
     '''

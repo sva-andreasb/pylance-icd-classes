@@ -1,4 +1,5 @@
-def SfwlicviewService():
-    '''public SfwlicviewService()
-    public SfwlicviewService(final MXServer mxServer)
+def ():
+    '''returns SfwlicviewService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

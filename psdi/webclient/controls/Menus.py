@@ -62,97 +62,107 @@ MENUTYPE_REPORTS = "int  5"
 MENUTYPE_PROFILE = "int  6"
 MENUTYPE_DYNAMIC = "int  6"
 MENUTYPE_TOOLBAR = "int  7"
-def Menus():
-    '''public Menus()
+def ():
+    '''returns Menus\n\n
+    ()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def clearMenuData():
-    '''public void clearMenuData()
+    '''returns None\n\n
+    clearMenuData()\n
     '''
 def setIsGotoMenu():
-    '''public void setIsGotoMenu(final boolean showGoto)
+    '''returns None\n\n
+    setIsGotoMenu(final boolean showGoto)\n
     '''
 def getParentComponent():
-    '''public ComponentInstance getParentComponent()
+    '''returns ComponentInstance\n\n
+    getParentComponent()\n
     '''
 def getTriggerItemId():
-    '''public String getTriggerItemId()
+    '''returns String\n\n
+    getTriggerItemId()\n
     '''
 def setRendered():
-    '''public void setRendered()
+    '''returns None\n\n
+    setRendered()\n
     '''
 def getMenuType():
-    '''public int getMenuType()
+    '''returns int\n\n
+    getMenuType()\n
     '''
 def getFirstMenuId():
-    '''public String getFirstMenuId()
+    '''returns String\n\n
+    getFirstMenuId()\n
     '''
 def getFirstMenuItemId():
-    '''public String getFirstMenuItemId()
+    '''returns String\n\n
+    getFirstMenuItemId()\n
     '''
 def isGotoMenu():
-    '''public boolean isGotoMenu()
+    '''returns boolean\n\n
+    isGotoMenu()\n
     '''
 def getOriginalEvent():
-    '''public WebClientEvent getOriginalEvent()
+    '''returns WebClientEvent\n\n
+    getOriginalEvent()\n
     '''
 def showmenu():
-    '''public int showmenu()
+    '''returns int\n\n
+    showmenu()\n
     '''
 def getMenus():
-    '''public ArrayList<MenuInstance> getMenus()
+    '''returns ArrayList<MenuInstance>\n\n
+    getMenus()\n
     '''
 def buildMenuCache():
-    '''public JSONObject buildMenuCache(final String componentId)
+    '''returns JSONObject\n\n
+    buildMenuCache(final String componentId)\n
     '''
 def fetchMenuDef():
-    '''public JSONObject fetchMenuDef(final int type, final String compId, final String menuId)
-    public JSONObject fetchMenuDef(final int type, final String compId, final String menuId, final boolean inLeftNav)
+    '''returns JSONObject\n\n
+    fetchMenuDef(final int type, final String compId, final String menuId)\n
+    fetchMenuDef(final int type, final String compId, final String menuId, final boolean inLeftNav)\n
     '''
 def fetchmenucache():
-    '''public int fetchmenucache()
+    '''returns int\n\n
+    fetchmenucache()\n
     '''
 def getMenusAsJson():
-    '''public JSONObject getMenusAsJson()
-    '''
-def getMenubarOptions():
-    '''public Map<String, Map<String, String>> getMenubarOptions()
-    '''
-def getQueryOptions():
-    '''public Map<String, Map<String, String>> getQueryOptions()
+    '''returns JSONObject\n\n
+    getMenusAsJson()\n
     '''
 def buildMenu():
-    '''public String buildMenu(final Element libraryMenu, final boolean isSub, final String parentId)
-    public void buildMenu(final Map<?, Map<String, String>> options)
-    public void buildMenu(final Map<?, Map<String, String>> options, final int limit)
-    public void buildMenu(final Map<?, Map<String, String>> options, final int limit, final WebClientEvent overflowEvent)
+    '''returns None\n\n
+    buildMenu(final Element libraryMenu, final boolean isSub, final String parentId)\n
+    buildMenu(final Map<?, Map<String, String>> options)\n
+    buildMenu(final Map<?, Map<String, String>> options, final int limit)\n
+    buildMenu(final Map<?, Map<String, String>> options, final int limit, final WebClientEvent overflowEvent)\n
     '''
 def buildDummyMenu():
-    '''public String buildDummyMenu(final Element libraryMenu, final boolean isSub, final String parentId)
-    '''
-def createMenuItemProperties():
-    '''public Map<String, String> createMenuItemProperties(final Map<String, String> oldMap)
-    '''
-def changePropertyName():
-    '''public Map<String, String> changePropertyName(final Map<String, String> props, final String oldName, final String newName)
-    '''
-def getMenuItem():
-    '''public Map<String, String> getMenuItem(final String id)
+    '''returns String\n\n
+    buildDummyMenu(final Element libraryMenu, final boolean isSub, final String parentId)\n
     '''
 def click():
-    '''public int click()
+    '''returns int\n\n
+    click()\n
     '''
 def getShowSingle():
-    '''public boolean getShowSingle()
+    '''returns boolean\n\n
+    getShowSingle()\n
     '''
 def setNeedsRender():
-    '''public void setNeedsRender(final boolean needsRender)
+    '''returns None\n\n
+    setNeedsRender(final boolean needsRender)\n
     '''
 def hiddenByProperty():
-    '''public boolean hiddenByProperty(String hideWhen)
+    '''returns boolean\n\n
+    hiddenByProperty(String hideWhen)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''

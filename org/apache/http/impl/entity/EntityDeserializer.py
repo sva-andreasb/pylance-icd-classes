@@ -1,6 +1,8 @@
-def EntityDeserializer():
-    '''public EntityDeserializer(final ContentLengthStrategy lenStrategy)
+def ():
+    '''returns EntityDeserializer\n\n
+    (final ContentLengthStrategy lenStrategy)\n
     '''
 def deserialize():
-    '''public HttpEntity deserialize(final SessionInputBuffer inbuffer, final HttpMessage message)
+    '''returns HttpEntity\n\n
+    deserialize(final SessionInputBuffer inbuffer, final HttpMessage message)\n
     '''

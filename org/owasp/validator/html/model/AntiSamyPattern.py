@@ -1,12 +1,16 @@
-def AntiSamyPattern():
-    '''public AntiSamyPattern(final Pattern pattern)
+def ():
+    '''returns AntiSamyPattern\n\n
+    (final Pattern pattern)\n
     '''
 def getPattern():
-    '''public Pattern getPattern()
+    '''returns Pattern\n\n
+    getPattern()\n
     '''
 def matcher():
-    '''public Matcher matcher(final CharSequence input)
+    '''returns Matcher\n\n
+    matcher(final CharSequence input)\n
     '''
 def matches():
-    '''public boolean matches(final String other)
+    '''returns boolean\n\n
+    matches(final String other)\n
     '''

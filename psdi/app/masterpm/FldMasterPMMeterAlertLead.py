@@ -1,6 +1,8 @@
-def FldMasterPMMeterAlertLead():
-    '''public FldMasterPMMeterAlertLead(final MboValue mbv)
+def ():
+    '''returns FldMasterPMMeterAlertLead\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

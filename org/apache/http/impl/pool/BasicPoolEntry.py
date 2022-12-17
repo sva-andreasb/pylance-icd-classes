@@ -1,9 +1,12 @@
-def BasicPoolEntry():
-    '''public BasicPoolEntry(final String id, final HttpHost route, final HttpClientConnection conn)
+def ():
+    '''returns BasicPoolEntry\n\n
+    (final String id, final HttpHost route, final HttpClientConnection conn)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''

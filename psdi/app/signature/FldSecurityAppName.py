@@ -1,3 +1,4 @@
-def FldSecurityAppName():
-    '''public FldSecurityAppName(final MboValue mbv)
+def ():
+    '''returns FldSecurityAppName\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,9 +1,12 @@
-def AppMemberSelectableRule():
-    '''public AppMemberSelectableRule(final CustomAdvisorHandler caHandler)
+def ():
+    '''returns AppMemberSelectableRule\n\n
+    (final CustomAdvisorHandler caHandler)\n
     '''
 def subset():
-    '''public void subset(final List identities, final StringBuffer reason)
+    '''returns None\n\n
+    subset(final List identities, final StringBuffer reason)\n
     '''
 def handleNotification():
-    '''public void handleNotification()
+    '''returns None\n\n
+    handleNotification()\n
     '''

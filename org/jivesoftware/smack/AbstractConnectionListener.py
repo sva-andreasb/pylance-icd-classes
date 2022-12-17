@@ -1,15 +1,20 @@
 def connectionClosed():
-    '''public void connectionClosed()
+    '''returns None\n\n
+    connectionClosed()\n
     '''
 def connectionClosedOnError():
-    '''public void connectionClosedOnError(final Exception e)
+    '''returns None\n\n
+    connectionClosedOnError(final Exception e)\n
     '''
 def reconnectingIn():
-    '''public void reconnectingIn(final int seconds)
+    '''returns None\n\n
+    reconnectingIn(final int seconds)\n
     '''
 def reconnectionFailed():
-    '''public void reconnectionFailed(final Exception e)
+    '''returns None\n\n
+    reconnectionFailed(final Exception e)\n
     '''
 def reconnectionSuccessful():
-    '''public void reconnectionSuccessful()
+    '''returns None\n\n
+    reconnectionSuccessful()\n
     '''

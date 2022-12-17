@@ -1,3 +1,4 @@
-def InMemoryDispSet():
-    '''public InMemoryDispSet(final MboServerInterface ms)
+def ():
+    '''returns InMemoryDispSet\n\n
+    (final MboServerInterface ms)\n
     '''

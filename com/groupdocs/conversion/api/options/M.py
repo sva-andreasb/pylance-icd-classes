@@ -1,13 +1,13 @@
-def M():
-    '''public M(final InputStream inputStream, final FromSlidesOptions a)
+def ():
+    '''returns M\n\n
+    (final InputStream inputStream, final FromSlidesOptions a)\n
     '''
 def a():
-    '''public mn a()
-    public FromSlidesOptions a()
+    '''returns FromSlidesOptions\n\n
+    a()\n
+    a()\n
     '''
 def getPagesCount():
-    '''public int getPagesCount()
-    '''
-def bindSaveOptions():
-    '''public ILoader<mn, FromSlidesOptions> bindSaveOptions(final SaveOptions saveOptions)
+    '''returns int\n\n
+    getPagesCount()\n
     '''

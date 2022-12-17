@@ -1,21 +1,28 @@
 def getValueType():
-    '''public JavaType getValueType()
+    '''returns JavaType\n\n
+    getValueType()\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''
 def findBackReference():
-    '''public SettableBeanProperty findBackReference(final String refName)
+    '''returns SettableBeanProperty\n\n
+    findBackReference(final String refName)\n
     '''
 def getContentType():
-    '''public JavaType getContentType()
+    '''returns JavaType\n\n
+    getContentType()\n
     '''
 def getValueInstantiator():
-    '''public ValueInstantiator getValueInstantiator()
+    '''returns ValueInstantiator\n\n
+    getValueInstantiator()\n
     '''
 def getEmptyAccessPattern():
-    '''public AccessPattern getEmptyAccessPattern()
+    '''returns AccessPattern\n\n
+    getEmptyAccessPattern()\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
     '''

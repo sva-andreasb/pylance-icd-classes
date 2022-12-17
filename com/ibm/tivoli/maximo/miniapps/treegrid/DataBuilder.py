@@ -1,4 +1,5 @@
-def DataBuilder():
-    '''public DataBuilder()
-    public DataBuilder(final Map data)
+def ():
+    '''returns DataBuilder\n\n
+    ()\n
+    (final Map data)\n
     '''

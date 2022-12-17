@@ -1,72 +1,80 @@
-def LinkedTreeMap():
-    '''public LinkedTreeMap()
-    public LinkedTreeMap(final Comparator<? super K> comparator)
+def ():
+    '''returns LinkedTreeMap\n\n
+    ()\n
+    (final Comparator<? super K> comparator)\n
     '''
 def size():
-    '''public int size()
-    public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
+    size()\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
+    clear()\n
     '''
 def remove():
-    '''public V remove(final Object key)
-    public final void remove()
-    public boolean remove(final Object o)
-    public boolean remove(final Object key)
+    '''returns boolean\n\n
+    remove(final Object key)\n
+    remove(final Object o)\n
+    remove(final Object key)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def compare():
-    '''public int compare(final Comparable a, final Comparable b)
+    '''returns int\n\n
+    compare(final Comparable a, final Comparable b)\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def first():
-    '''public Node<K, V> first()
-    '''
-def last():
-    '''public Node<K, V> last()
-    '''
-def hasNext():
-    '''public final boolean hasNext()
+    '''returns String\n\n
+    toString()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
-    public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
+    contains(final Object o)\n
     '''
 def iterator():
-    '''public Iterator<K> iterator()
+    '''returns Iterator<K>\n\n
+    iterator()\n
     '''
 def next():
-    '''public K next()
+    '''returns K\n\n
+    next()\n
     '''

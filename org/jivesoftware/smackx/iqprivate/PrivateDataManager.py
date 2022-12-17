@@ -1,33 +1,28 @@
-def getInstanceFor():
-    '''public static synchronized PrivateDataManager getInstanceFor(final XMPPConnection connection)
-    '''
-def getPrivateDataProvider():
-    '''public static PrivateDataProvider getPrivateDataProvider(final String elementName, final String namespace)
-    '''
-def addPrivateDataProvider():
-    '''public static void addPrivateDataProvider(final String elementName, final String namespace, final PrivateDataProvider provider)
-    '''
-def removePrivateDataProvider():
-    '''public static void removePrivateDataProvider(final String elementName, final String namespace)
-    '''
 def getPrivateData():
-    '''public PrivateData getPrivateData(final String elementName, final String namespace)
+    '''returns PrivateData\n\n
+    getPrivateData(final String elementName, final String namespace)\n
     '''
 def setPrivateData():
-    '''public void setPrivateData(final PrivateData privateData)
+    '''returns None\n\n
+    setPrivateData(final PrivateData privateData)\n
     '''
 def isSupported():
-    '''public boolean isSupported()
+    '''returns boolean\n\n
+    isSupported()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public CharSequence toXML()
+    '''returns CharSequence\n\n
+    toXML()\n
     '''
 def parse():
-    '''public PrivateDataIQ parse(final XmlPullParser parser, final int initialDepth)
+    '''returns PrivateDataIQ\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

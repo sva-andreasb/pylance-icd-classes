@@ -1,52 +1,41 @@
 INVALID_HIGHWATERMARK = "long  -1L"
 INVALID_LAST_STABLE_OFFSET = "long  -1L"
 INVALID_LOG_START_OFFSET = "long  -1L"
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def FetchResponse():
-    '''public FetchResponse(final Errors error, final LinkedHashMap<TopicPartition, PartitionData> responseData, final int throttleTimeMs, final int sessionId)
-    public FetchResponse(final Struct struct)
+def ():
+    '''returns PartitionData\n\n
+    (final Errors error, final LinkedHashMap<TopicPartition, PartitionData> responseData, final int throttleTimeMs, final int sessionId)\n
+    (final Struct struct)\n
+    (final long producerId, final long firstOffset)\n
+    (final Errors error, final long highWatermark, final long lastStableOffset, final long logStartOffset, final List<AbortedTransaction> abortedTransactions, final Records records)\n
     '''
 def toStruct():
-    '''public Struct toStruct(final short version)
+    '''returns Struct\n\n
+    toStruct(final short version)\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def responseData():
-    '''public LinkedHashMap<TopicPartition, PartitionData> responseData()
+    '''returns Errors\n\n
+    error()\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def sessionId():
-    '''public int sessionId()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static FetchResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def sizeOf():
-    '''public static int sizeOf(final short version, final Iterator<Map.Entry<TopicPartition, PartitionData>> partIterator)
-    '''
-def AbortedTransaction():
-    '''public AbortedTransaction(final long producerId, final long firstOffset)
+    '''returns int\n\n
+    sessionId()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def PartitionData():
-    '''public PartitionData(final Errors error, final long highWatermark, final long lastStableOffset, final long logStartOffset, final List<AbortedTransaction> abortedTransactions, final Records records)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

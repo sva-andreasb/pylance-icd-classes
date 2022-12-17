@@ -1,3 +1,4 @@
-def PlusCAssetTemplateDumStatus():
-    '''public PlusCAssetTemplateDumStatus(final MboSet ms)
+def ():
+    '''returns PlusCAssetTemplateDumStatus\n\n
+    (final MboSet ms)\n
     '''

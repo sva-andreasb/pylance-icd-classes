@@ -1,4 +1,5 @@
-def InbxConfigService():
-    '''public InbxConfigService()
-    public InbxConfigService(final MXServer mxServer)
+def ():
+    '''returns InbxConfigService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

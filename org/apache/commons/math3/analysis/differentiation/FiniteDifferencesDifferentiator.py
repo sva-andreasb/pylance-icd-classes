@@ -1,23 +1,28 @@
-def FiniteDifferencesDifferentiator():
-    '''public FiniteDifferencesDifferentiator(final int nbPoints, final double stepSize)
-    public FiniteDifferencesDifferentiator(final int nbPoints, final double stepSize, final double tLower, final double tUpper)
+def ():
+    '''returns FiniteDifferencesDifferentiator\n\n
+    (final int nbPoints, final double stepSize)\n
+    (final int nbPoints, final double stepSize, final double tLower, final double tUpper)\n
     '''
 def getNbPoints():
-    '''public int getNbPoints()
+    '''returns int\n\n
+    getNbPoints()\n
     '''
 def getStepSize():
-    '''public double getStepSize()
+    '''returns double\n\n
+    getStepSize()\n
     '''
 def differentiate():
-    '''public UnivariateDifferentiableFunction differentiate(final UnivariateFunction function)
-    public UnivariateDifferentiableVectorFunction differentiate(final UnivariateVectorFunction function)
-    public UnivariateDifferentiableMatrixFunction differentiate(final UnivariateMatrixFunction function)
+    '''returns UnivariateDifferentiableMatrixFunction\n\n
+    differentiate(final UnivariateFunction function)\n
+    differentiate(final UnivariateVectorFunction function)\n
+    differentiate(final UnivariateMatrixFunction function)\n
     '''
 def value():
-    '''public double value(final double x)
-    public DerivativeStructure value(final DerivativeStructure t)
-    public double[] value(final double x)
-    public DerivativeStructure[] value(final DerivativeStructure t)
-    public double[][] value(final double x)
-    public DerivativeStructure[][] value(final DerivativeStructure t)
+    '''returns DerivativeStructure[][]\n\n
+    value(final double x)\n
+    value(final DerivativeStructure t)\n
+    value(final double x)\n
+    value(final DerivativeStructure t)\n
+    value(final double x)\n
+    value(final DerivativeStructure t)\n
     '''

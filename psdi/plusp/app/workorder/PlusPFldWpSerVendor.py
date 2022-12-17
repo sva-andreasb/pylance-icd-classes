@@ -1,6 +1,8 @@
-def PlusPFldWpSerVendor():
-    '''public PlusPFldWpSerVendor(final MboValue arg0)
+def ():
+    '''returns PlusPFldWpSerVendor\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

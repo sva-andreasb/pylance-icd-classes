@@ -5,48 +5,59 @@ RESPONDER_ATTRIBUTE_NAME = "String  \"responder\""
 SESSION_ID_ATTRIBUTE_NAME = "String  \"sid\""
 ELEMENT = "String  \"jingle\""
 def getInitiator():
-    '''public FullJid getInitiator()
+    '''returns FullJid\n\n
+    getInitiator()\n
     '''
 def getResponder():
-    '''public FullJid getResponder()
+    '''returns FullJid\n\n
+    getResponder()\n
     '''
 def getSid():
-    '''public String getSid()
+    '''returns String\n\n
+    getSid()\n
     '''
 def getAction():
-    '''public JingleAction getAction()
+    '''returns JingleAction\n\n
+    getAction()\n
     '''
 def getReason():
-    '''public JingleReason getReason()
+    '''returns JingleReason\n\n
+    getReason()\n
     '''
 def getContents():
-    '''public List<JingleContent> getContents()
+    '''returns List<JingleContent>\n\n
+    getContents()\n
     '''
 def getSoleContentOrThrow():
-    '''public JingleContent getSoleContentOrThrow()
-    '''
-def getBuilder():
-    '''public static Builder getBuilder()
+    '''returns JingleContent\n\n
+    getSoleContentOrThrow()\n
     '''
 def setSessionId():
-    '''public Builder setSessionId(final String sessionId)
+    '''returns Builder\n\n
+    setSessionId(final String sessionId)\n
     '''
 def setAction():
-    '''public Builder setAction(final JingleAction action)
+    '''returns Builder\n\n
+    setAction(final JingleAction action)\n
     '''
 def setInitiator():
-    '''public Builder setInitiator(final FullJid initator)
+    '''returns Builder\n\n
+    setInitiator(final FullJid initator)\n
     '''
 def setResponder():
-    '''public Builder setResponder(final FullJid responder)
+    '''returns Builder\n\n
+    setResponder(final FullJid responder)\n
     '''
 def addJingleContent():
-    '''public Builder addJingleContent(final JingleContent content)
+    '''returns Builder\n\n
+    addJingleContent(final JingleContent content)\n
     '''
 def setReason():
-    '''public Builder setReason(final JingleReason.Reason reason)
-    public Builder setReason(final JingleReason reason)
+    '''returns Builder\n\n
+    setReason(final JingleReason.Reason reason)\n
+    setReason(final JingleReason reason)\n
     '''
 def build():
-    '''public Jingle build()
+    '''returns Jingle\n\n
+    build()\n
     '''

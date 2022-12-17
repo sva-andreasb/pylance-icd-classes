@@ -1,11 +1,10 @@
-def IlvNamedProperty():
-    '''public IlvNamedProperty(final String a)
-    public IlvNamedProperty(final IlvNamedProperty ilvNamedProperty)
-    public IlvNamedProperty(final IlvInputStream ilvInputStream)
+def ():
+    '''returns IlvNamedProperty\n\n
+    (final String a)\n
+    (final IlvNamedProperty ilvNamedProperty)\n
+    (final IlvInputStream ilvInputStream)\n
     '''
 def write():
-    '''public void write(final IlvOutputStream ilvOutputStream)
-    '''
-def getName():
-    '''public final String getName()
+    '''returns None\n\n
+    write(final IlvOutputStream ilvOutputStream)\n
     '''

@@ -1,6 +1,8 @@
 def CREINTTAB():
-    '''public int CREINTTAB()
+    '''returns int\n\n
+    CREINTTAB()\n
     '''
 def SETUPCNTRL():
-    '''public int SETUPCNTRL()
+    '''returns int\n\n
+    SETUPCNTRL()\n
     '''

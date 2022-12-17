@@ -1,15 +1,20 @@
-def XSDbase64Binary():
-    '''public XSDbase64Binary(final String typeName)
+def ():
+    '''returns XSDbase64Binary\n\n
+    (final String typeName)\n
     '''
 def isValidValue():
-    '''public boolean isValidValue(final Object valueForm)
+    '''returns boolean\n\n
+    isValidValue(final Object valueForm)\n
     '''
 def unparse():
-    '''public String unparse(final Object value)
+    '''returns String\n\n
+    unparse(final Object value)\n
     '''
 def isEqual():
-    '''public boolean isEqual(final LiteralLabel value1, final LiteralLabel value2)
+    '''returns boolean\n\n
+    isEqual(final LiteralLabel value1, final LiteralLabel value2)\n
     '''
 def getHashCode():
-    '''public int getHashCode(final LiteralLabel lit)
+    '''returns int\n\n
+    getHashCode(final LiteralLabel lit)\n
     '''

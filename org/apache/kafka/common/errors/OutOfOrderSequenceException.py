@@ -1,3 +1,4 @@
-def OutOfOrderSequenceException():
-    '''public OutOfOrderSequenceException(final String msg)
+def ():
+    '''returns OutOfOrderSequenceException\n\n
+    (final String msg)\n
     '''

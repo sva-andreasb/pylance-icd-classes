@@ -1,3 +1,4 @@
-def NPInspFormSet():
-    '''public NPInspFormSet(final MboServerInterface ms)
+def ():
+    '''returns NPInspFormSet\n\n
+    (final MboServerInterface ms)\n
     '''

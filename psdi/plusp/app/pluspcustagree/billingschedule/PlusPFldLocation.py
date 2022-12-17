@@ -1,15 +1,20 @@
-def PlusPFldLocation():
-    '''public PlusPFldLocation(final MboValue mbv)
+def ():
+    '''returns PlusPFldLocation\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getTopOwner():
-    '''public MboRemote getTopOwner(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    getTopOwner(final MboRemote mboRemote)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote valueFromLookup)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote valueFromLookup)\n
     '''

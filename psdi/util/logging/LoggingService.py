@@ -1,37 +1,41 @@
-def LoggingService():
-    '''public LoggingService()
-    public LoggingService(final MXServer mxServer)
+def ():
+    '''returns LoggingService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def generateLoggingProperties():
-    '''public String generateLoggingProperties()
+    '''returns String\n\n
+    generateLoggingProperties()\n
     '''
 def applySettings():
-    '''public void applySettings(final boolean startup)
+    '''returns None\n\n
+    applySettings(final boolean startup)\n
     '''
 def getRootFolder():
-    '''public String getRootFolder()
+    '''returns String\n\n
+    getRootFolder()\n
     '''
 def getLoggerList():
-    '''public MboSetRemote getLoggerList()
+    '''returns MboSetRemote\n\n
+    getLoggerList()\n
     '''
 def getAppenderList():
-    '''public MboSetRemote getAppenderList()
+    '''returns MboSetRemote\n\n
+    getAppenderList()\n
     '''
 def getLogLevel():
-    '''public String getLogLevel(final String logKey)
+    '''returns String\n\n
+    getLogLevel(final String logKey)\n
     '''
 def setLogLevel():
-    '''public void setLogLevel(final String logKey, final String logLevel)
-    '''
-def setReadFromFile():
-    '''public static void setReadFromFile(final boolean flag)
-    '''
-def getReadFromFile():
-    '''public static boolean getReadFromFile()
+    '''returns None\n\n
+    setLogLevel(final String logKey, final String logLevel)\n
     '''
 def getLogFiles():
-    '''public Vector<String> getLogFiles()
+    '''returns Vector<String>\n\n
+    getLogFiles()\n
     '''
 def getLTA_URL():
-    '''public String getLTA_URL()
+    '''returns String\n\n
+    getLTA_URL()\n
     '''

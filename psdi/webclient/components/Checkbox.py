@@ -1,15 +1,20 @@
-def Checkbox():
-    '''public Checkbox()
+def ():
+    '''returns Checkbox\n\n
+    ()\n
     '''
 def toggle():
-    '''public int toggle()
+    '''returns int\n\n
+    toggle()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getCustomTooltip():
-    '''public String getCustomTooltip()
+    '''returns String\n\n
+    getCustomTooltip()\n
     '''

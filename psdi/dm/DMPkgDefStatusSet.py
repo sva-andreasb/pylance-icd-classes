@@ -1,3 +1,4 @@
-def DMPkgDefStatusSet():
-    '''public DMPkgDefStatusSet(final MboServerInterface ms)
+def ():
+    '''returns DMPkgDefStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,90 +1,110 @@
-def GenCust():
-    '''public GenCust()
-    '''
-def main():
-    '''public static void main(final String[] argv)
+def ():
+    '''returns Field\n\n
+    ()\n
+    (final String tableName, final Connection con)\n
+    (final TableStructure table, final ResultSet rs)\n
     '''
 def setUsername():
-    '''public void setUsername(final String s)
+    '''returns None\n\n
+    setUsername(final String s)\n
     '''
 def setPassword():
-    '''public void setPassword(final String s)
+    '''returns None\n\n
+    setPassword(final String s)\n
     '''
 def setDriver():
-    '''public void setDriver(final String s)
+    '''returns None\n\n
+    setDriver(final String s)\n
     '''
 def setUrl():
-    '''public void setUrl(final String s)
+    '''returns None\n\n
+    setUrl(final String s)\n
     '''
 def setJspRoot():
-    '''public void setJspRoot(final String s)
+    '''returns None\n\n
+    setJspRoot(final String s)\n
     '''
 def setAppFolder():
-    '''public void setAppFolder(final String s)
+    '''returns None\n\n
+    setAppFolder(final String s)\n
     '''
 def setTableName():
-    '''public void setTableName(final String s)
+    '''returns None\n\n
+    setTableName(final String s)\n
     '''
 def setModule():
-    '''public void setModule(final String s)
+    '''returns None\n\n
+    setModule(final String s)\n
     '''
 def setPosition():
-    '''public void setPosition(final String s)
+    '''returns None\n\n
+    setPosition(final String s)\n
     '''
 def setOutputFile():
-    '''public void setOutputFile(final String s)
+    '''returns None\n\n
+    setOutputFile(final String s)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def updateDB():
-    '''public void updateDB()
+    '''returns None\n\n
+    updateDB()\n
     '''
 def outputDBScriptComments():
-    '''public void outputDBScriptComments(final int position)
+    '''returns None\n\n
+    outputDBScriptComments(final int position)\n
     '''
 def generateAppFiles():
-    '''public void generateAppFiles()
-    '''
-def TableStructure():
-    '''public TableStructure(final String tableName, final Connection con)
+    '''returns None\n\n
+    generateAppFiles()\n
     '''
 def getFieldAttributeList():
-    '''public String getFieldAttributeList()
+    '''returns String\n\n
+    getFieldAttributeList()\n
     '''
 def getBoundFieldBlock():
-    '''public String getBoundFieldBlock(final boolean asQuery)
+    '''returns String\n\n
+    getBoundFieldBlock(final boolean asQuery)\n
     '''
 def getKeyField():
-    '''public Field getKeyField()
+    '''returns Field\n\n
+    getKeyField()\n
     '''
 def getPrimaryKeyColSeq():
-    '''public int getPrimaryKeyColSeq()
+    '''returns int\n\n
+    getPrimaryKeyColSeq()\n
     '''
 def getString():
-    '''public String getString(final String attr)
+    '''returns String\n\n
+    getString(final String attr)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def isLdKey():
-    '''public boolean isLdKey()
+    '''returns boolean\n\n
+    isLdKey()\n
     '''
 def isLdOwner():
-    '''public boolean isLdOwner()
+    '''returns boolean\n\n
+    isLdOwner()\n
     '''
 def isGlMaxType():
-    '''public boolean isGlMaxType()
+    '''returns boolean\n\n
+    isGlMaxType()\n
     '''
 def getFieldAsString():
-    '''public String getFieldAsString(final boolean asQuery)
-    '''
-def Field():
-    '''public Field(final TableStructure table, final ResultSet rs)
+    '''returns String\n\n
+    getFieldAsString(final boolean asQuery)\n
     '''

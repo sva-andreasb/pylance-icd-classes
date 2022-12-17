@@ -1,25 +1,33 @@
-def ALNDomain():
-    '''public ALNDomain(final MboValue mbv)
+def ():
+    '''returns ALNDomain\n\n
+    (final MboValue mbv)\n
     '''
 def setListName():
-    '''public void setListName(final String name)
+    '''returns None\n\n
+    setListName(final String name)\n
     '''
 def setDomainId():
-    '''public void setDomainId(final String name, final boolean hasValCondition)
-    public void setDomainId(final String name)
+    '''returns None\n\n
+    setDomainId(final String name, final boolean hasValCondition)\n
+    setDomainId(final String name)\n
     '''
 def setRelationship():
-    '''public void setRelationship(final String objectName, final String whereClause)
+    '''returns None\n\n
+    setRelationship(final String objectName, final String whereClause)\n
     '''
 def setListCriteria():
-    '''public void setListCriteria(final String listWhere)
+    '''returns None\n\n
+    setListCriteria(final String listWhere)\n
     '''
 def chooseActualDomainValues():
-    '''public void chooseActualDomainValues()
+    '''returns None\n\n
+    chooseActualDomainValues()\n
     '''
 def getListName():
-    '''public String getListName()
+    '''returns String\n\n
+    getListName()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''

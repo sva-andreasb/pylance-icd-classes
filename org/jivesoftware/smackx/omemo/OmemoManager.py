@@ -1,112 +1,127 @@
 def eventReceived():
-    '''public void eventReceived(final EntityBareJid from, final EventElement event, final Message message)
+    '''returns None\n\n
+    eventReceived(final EntityBareJid from, final EventElement event, final Message message)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
-    '''
-def getInstanceFor():
-    '''public static synchronized OmemoManager getInstanceFor(final XMPPConnection connection, Integer deviceId)
-    public static synchronized OmemoManager getInstanceFor(final XMPPConnection connection)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def encrypt():
-    '''public Message encrypt(final BareJid to, final String message)
-    public Message encrypt(final ArrayList<BareJid> recipients, final String message)
-    public Message encrypt(final MultiUserChat muc, final String message)
+    '''returns Message\n\n
+    encrypt(final BareJid to, final String message)\n
+    encrypt(final ArrayList<BareJid> recipients, final String message)\n
+    encrypt(final MultiUserChat muc, final String message)\n
     '''
 def encryptForExistingSessions():
-    '''public Message encryptForExistingSessions(final CannotEstablishOmemoSessionException exception, final String message)
+    '''returns Message\n\n
+    encryptForExistingSessions(final CannotEstablishOmemoSessionException exception, final String message)\n
     '''
 def decrypt():
-    '''public ClearTextMessage decrypt(final BareJid sender, final Message omemoMessage)
+    '''returns ClearTextMessage\n\n
+    decrypt(final BareJid sender, final Message omemoMessage)\n
     '''
 def decryptMamQueryResult():
-    '''public List<ClearTextMessage> decryptMamQueryResult(final MamManager.MamQuery mamQuery)
+    '''returns List<ClearTextMessage>\n\n
+    decryptMamQueryResult(final MamManager.MamQuery mamQuery)\n
     '''
 def trustOmemoIdentity():
-    '''public void trustOmemoIdentity(final OmemoDevice device, final OmemoFingerprint fingerprint)
+    '''returns None\n\n
+    trustOmemoIdentity(final OmemoDevice device, final OmemoFingerprint fingerprint)\n
     '''
 def distrustOmemoIdentity():
-    '''public void distrustOmemoIdentity(final OmemoDevice device, final OmemoFingerprint fingerprint)
+    '''returns None\n\n
+    distrustOmemoIdentity(final OmemoDevice device, final OmemoFingerprint fingerprint)\n
     '''
 def isTrustedOmemoIdentity():
-    '''public boolean isTrustedOmemoIdentity(final OmemoDevice device, final OmemoFingerprint fingerprint)
+    '''returns boolean\n\n
+    isTrustedOmemoIdentity(final OmemoDevice device, final OmemoFingerprint fingerprint)\n
     '''
 def isDecidedOmemoIdentity():
-    '''public boolean isDecidedOmemoIdentity(final OmemoDevice device, final OmemoFingerprint fingerprint)
+    '''returns boolean\n\n
+    isDecidedOmemoIdentity(final OmemoDevice device, final OmemoFingerprint fingerprint)\n
     '''
 def purgeDevices():
-    '''public void purgeDevices()
+    '''returns None\n\n
+    purgeDevices()\n
     '''
 def regenerate():
-    '''public void regenerate()
+    '''returns None\n\n
+    regenerate()\n
     '''
 def sendRatchetUpdateMessage():
-    '''public void sendRatchetUpdateMessage(final OmemoDevice recipient)
+    '''returns None\n\n
+    sendRatchetUpdateMessage(final OmemoDevice recipient)\n
     '''
 def createKeyTransportElement():
-    '''public OmemoVAxolotlElement createKeyTransportElement(final byte[] aesKey, final byte[] iv, final OmemoDevice... to)
+    '''returns OmemoVAxolotlElement\n\n
+    createKeyTransportElement(final byte[] aesKey, final byte[] iv, final OmemoDevice... to)\n
     '''
 def contactSupportsOmemo():
-    '''public boolean contactSupportsOmemo(final BareJid contact)
+    '''returns boolean\n\n
+    contactSupportsOmemo(final BareJid contact)\n
     '''
 def multiUserChatSupportsOmemo():
-    '''public boolean multiUserChatSupportsOmemo(final EntityBareJid multiUserChat)
-    '''
-def serverSupportsOmemo():
-    '''public static boolean serverSupportsOmemo(final XMPPConnection connection, final DomainBareJid server)
+    '''returns boolean\n\n
+    multiUserChatSupportsOmemo(final EntityBareJid multiUserChat)\n
     '''
 def getOurFingerprint():
-    '''public OmemoFingerprint getOurFingerprint()
+    '''returns OmemoFingerprint\n\n
+    getOurFingerprint()\n
     '''
 def getFingerprint():
-    '''public OmemoFingerprint getFingerprint(final OmemoDevice device)
-    '''
-def getActiveFingerprints():
-    '''public HashMap<OmemoDevice, OmemoFingerprint> getActiveFingerprints(final BareJid contact)
+    '''returns OmemoFingerprint\n\n
+    getFingerprint(final OmemoDevice device)\n
     '''
 def addOmemoMessageListener():
-    '''public void addOmemoMessageListener(final OmemoMessageListener listener)
+    '''returns None\n\n
+    addOmemoMessageListener(final OmemoMessageListener listener)\n
     '''
 def removeOmemoMessageListener():
-    '''public void removeOmemoMessageListener(final OmemoMessageListener listener)
+    '''returns None\n\n
+    removeOmemoMessageListener(final OmemoMessageListener listener)\n
     '''
 def addOmemoMucMessageListener():
-    '''public void addOmemoMucMessageListener(final OmemoMucMessageListener listener)
+    '''returns None\n\n
+    addOmemoMucMessageListener(final OmemoMucMessageListener listener)\n
     '''
 def removeOmemoMucMessageListener():
-    '''public void removeOmemoMucMessageListener(final OmemoMucMessageListener listener)
+    '''returns None\n\n
+    removeOmemoMucMessageListener(final OmemoMucMessageListener listener)\n
     '''
 def buildSessionsWith():
-    '''public void buildSessionsWith(final BareJid contact)
+    '''returns None\n\n
+    buildSessionsWith(final BareJid contact)\n
     '''
 def requestDeviceListUpdateFor():
-    '''public void requestDeviceListUpdateFor(final BareJid contact)
+    '''returns None\n\n
+    requestDeviceListUpdateFor(final BareJid contact)\n
     '''
 def rotateSignedPreKey():
-    '''public void rotateSignedPreKey()
-    '''
-def stanzaContainsOmemoElement():
-    '''public static boolean stanzaContainsOmemoElement(final Stanza stanza)
-    '''
-def randomDeviceId():
-    '''public static int randomDeviceId()
+    '''returns None\n\n
+    rotateSignedPreKey()\n
     '''
 def getOwnJid():
-    '''public BareJid getOwnJid()
+    '''returns BareJid\n\n
+    getOwnJid()\n
     '''
 def getDeviceId():
-    '''public int getDeviceId()
+    '''returns int\n\n
+    getDeviceId()\n
     '''
 def getOwnDevice():
-    '''public OmemoDevice getOwnDevice()
+    '''returns OmemoDevice\n\n
+    getOwnDevice()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

@@ -1,12 +1,16 @@
-def XMLNamespaceEnabledImageFlavor():
-    '''public XMLNamespaceEnabledImageFlavor(final ImageFlavor parentFlavor, final String namespace)
+def ():
+    '''returns XMLNamespaceEnabledImageFlavor\n\n
+    (final ImageFlavor parentFlavor, final String namespace)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

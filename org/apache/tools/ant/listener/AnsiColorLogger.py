@@ -1,3 +1,4 @@
-def AnsiColorLogger():
-    '''public AnsiColorLogger()
+def ():
+    '''returns AnsiColorLogger\n\n
+    ()\n
     '''

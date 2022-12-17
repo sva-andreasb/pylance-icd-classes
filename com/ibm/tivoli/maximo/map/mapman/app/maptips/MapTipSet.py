@@ -1,3 +1,4 @@
-def MapTipSet():
-    '''public MapTipSet(final MboServerInterface ms)
+def ():
+    '''returns MapTipSet\n\n
+    (final MboServerInterface ms)\n
     '''

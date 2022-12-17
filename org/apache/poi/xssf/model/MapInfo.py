@@ -1,25 +1,33 @@
-def MapInfo():
-    '''public MapInfo()
-    public MapInfo(final PackagePart part)
+def ():
+    '''returns MapInfo\n\n
+    ()\n
+    (final PackagePart part)\n
     '''
 def readFrom():
-    '''public void readFrom(final InputStream is)
+    '''returns None\n\n
+    readFrom(final InputStream is)\n
     '''
 def getWorkbook():
-    '''public XSSFWorkbook getWorkbook()
+    '''returns XSSFWorkbook\n\n
+    getWorkbook()\n
     '''
 def getCTMapInfo():
-    '''public CTMapInfo getCTMapInfo()
+    '''returns CTMapInfo\n\n
+    getCTMapInfo()\n
     '''
 def getCTSchemaById():
-    '''public CTSchema getCTSchemaById(final String schemaId)
+    '''returns CTSchema\n\n
+    getCTSchemaById(final String schemaId)\n
     '''
 def getXSSFMapById():
-    '''public XSSFMap getXSSFMapById(final int id)
+    '''returns XSSFMap\n\n
+    getXSSFMapById(final int id)\n
     '''
 def getXSSFMapByName():
-    '''public XSSFMap getXSSFMapByName(final String name)
+    '''returns XSSFMap\n\n
+    getXSSFMapByName(final String name)\n
     '''
 def getAllXSSFMaps():
-    '''public Collection<XSSFMap> getAllXSSFMaps()
+    '''returns Collection<XSSFMap>\n\n
+    getAllXSSFMaps()\n
     '''

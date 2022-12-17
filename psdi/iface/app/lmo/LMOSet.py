@@ -1,6 +1,8 @@
-def LMOSet():
-    '''public LMOSet(final MboServerInterface ms)
+def ():
+    '''returns LMOSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

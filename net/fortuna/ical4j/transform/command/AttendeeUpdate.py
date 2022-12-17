@@ -1,6 +1,8 @@
-def AttendeeUpdate():
-    '''public AttendeeUpdate(final Attendee attendee)
+def ():
+    '''returns AttendeeUpdate\n\n
+    (final Attendee attendee)\n
     '''
 def transform():
-    '''public Component transform(final Component object)
+    '''returns Component\n\n
+    transform(final Component object)\n
     '''

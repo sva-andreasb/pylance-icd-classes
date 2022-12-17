@@ -1,15 +1,20 @@
-def MapTipUtils():
-    '''public MapTipUtils()
+def ():
+    '''returns MapTipUtils\n\n
+    ()\n
     '''
 def getMapTipFor():
-    '''public MapTipTemplateData getMapTipFor(final String siteId, final String objectname, final UserInfo userinfo)
+    '''returns MapTipTemplateData\n\n
+    getMapTipFor(final String siteId, final String objectname, final UserInfo userinfo)\n
     '''
 def getMapTipData():
-    '''public String getMapTipData(final MboRemote mbo, final MapTipTemplateData maptipTemplate, final UserInfo userinfo, final String templateField, final JSONArray mapTipOverrides)
+    '''returns String\n\n
+    getMapTipData(final MboRemote mbo, final MapTipTemplateData maptipTemplate, final UserInfo userinfo, final String templateField, final JSONArray mapTipOverrides)\n
     '''
 def getMboFromRelationship():
-    '''public MboRemote getMboFromRelationship(final MboRemote mboOwner, String featureClass)
+    '''returns MboRemote\n\n
+    getMboFromRelationship(final MboRemote mboOwner, String featureClass)\n
     '''
 def clearMapTipTemplateCache():
-    '''public void clearMapTipTemplateCache()
+    '''returns None\n\n
+    clearMapTipTemplateCache()\n
     '''

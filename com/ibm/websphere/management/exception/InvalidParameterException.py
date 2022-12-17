@@ -1,6 +1,7 @@
-def InvalidParameterException():
-    '''public InvalidParameterException()
-    public InvalidParameterException(final String msg)
-    public InvalidParameterException(final Throwable th, final String msg)
-    public InvalidParameterException(final Throwable th)
+def ():
+    '''returns InvalidParameterException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

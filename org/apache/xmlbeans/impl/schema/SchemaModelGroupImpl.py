@@ -1,49 +1,65 @@
-def SchemaModelGroupImpl():
-    '''public SchemaModelGroupImpl(final SchemaContainer container)
-    public SchemaModelGroupImpl(final SchemaContainer container, final QName name)
+def ():
+    '''returns SchemaModelGroupImpl\n\n
+    (final SchemaContainer container)\n
+    (final SchemaContainer container, final QName name)\n
     '''
 def init():
-    '''public void init(final QName name, final String targetNamespace, final boolean chameleon, final String elemFormDefault, final String attFormDefault, final boolean redefinition, final XmlObject x, final SchemaAnnotation a, final Object userData)
+    '''returns None\n\n
+    init(final QName name, final String targetNamespace, final boolean chameleon, final String elemFormDefault, final String attFormDefault, final boolean redefinition, final XmlObject x, final SchemaAnnotation a, final Object userData)\n
     '''
 def getTypeSystem():
-    '''public SchemaTypeSystem getTypeSystem()
+    '''returns SchemaTypeSystem\n\n
+    getTypeSystem()\n
     '''
 def getComponentType():
-    '''public int getComponentType()
+    '''returns int\n\n
+    getComponentType()\n
     '''
 def setFilename():
-    '''public void setFilename(final String filename)
+    '''returns None\n\n
+    setFilename(final String filename)\n
     '''
 def getSourceName():
-    '''public String getSourceName()
+    '''returns String\n\n
+    getSourceName()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getParseObject():
-    '''public XmlObject getParseObject()
+    '''returns XmlObject\n\n
+    getParseObject()\n
     '''
 def getTargetNamespace():
-    '''public String getTargetNamespace()
+    '''returns String\n\n
+    getTargetNamespace()\n
     '''
 def getChameleonNamespace():
-    '''public String getChameleonNamespace()
+    '''returns String\n\n
+    getChameleonNamespace()\n
     '''
 def getElemFormDefault():
-    '''public String getElemFormDefault()
+    '''returns String\n\n
+    getElemFormDefault()\n
     '''
 def getAttFormDefault():
-    '''public String getAttFormDefault()
+    '''returns String\n\n
+    getAttFormDefault()\n
     '''
 def isRedefinition():
-    '''public boolean isRedefinition()
+    '''returns boolean\n\n
+    isRedefinition()\n
     '''
 def getAnnotation():
-    '''public SchemaAnnotation getAnnotation()
+    '''returns SchemaAnnotation\n\n
+    getAnnotation()\n
     '''
 def getRef():
-    '''public Ref getRef()
+    '''returns Ref\n\n
+    getRef()\n
     '''
 def getUserData():
-    '''public Object getUserData()
+    '''returns Object\n\n
+    getUserData()\n
     '''

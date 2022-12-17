@@ -1,63 +1,84 @@
-def SOAPHTTPConnection():
-    '''public SOAPHTTPConnection()
+def ():
+    '''returns SOAPHTTPConnection\n\n
+    ()\n
     '''
 def getHeaders():
-    '''public Hashtable getHeaders()
+    '''returns Hashtable\n\n
+    getHeaders()\n
     '''
 def getMaintainSession():
-    '''public boolean getMaintainSession()
+    '''returns boolean\n\n
+    getMaintainSession()\n
     '''
 def getOutputBufferSize():
-    '''public int getOutputBufferSize()
+    '''returns int\n\n
+    getOutputBufferSize()\n
     '''
 def getProxyHost():
-    '''public String getProxyHost()
+    '''returns String\n\n
+    getProxyHost()\n
     '''
 def getProxyPort():
-    '''public int getProxyPort()
+    '''returns int\n\n
+    getProxyPort()\n
     '''
 def getResponseSOAPContext():
-    '''public SOAPContext getResponseSOAPContext()
+    '''returns SOAPContext\n\n
+    getResponseSOAPContext()\n
     '''
 def getTcpNoDelay():
-    '''public Boolean getTcpNoDelay()
+    '''returns Boolean\n\n
+    getTcpNoDelay()\n
     '''
 def getTimeout():
-    '''public int getTimeout()
+    '''returns int\n\n
+    getTimeout()\n
     '''
 def receive():
-    '''public BufferedReader receive()
+    '''returns BufferedReader\n\n
+    receive()\n
     '''
 def send():
-    '''public void send(final URL url, final String str, Hashtable hashtable, final Envelope envelope, final SOAPMappingRegistry soapMappingRegistry, final SOAPContext soapContext)
+    '''returns None\n\n
+    send(final URL url, final String str, Hashtable hashtable, final Envelope envelope, final SOAPMappingRegistry soapMappingRegistry, final SOAPContext soapContext)\n
     '''
 def setMaintainSession():
-    '''public void setMaintainSession(final boolean maintainSession)
+    '''returns None\n\n
+    setMaintainSession(final boolean maintainSession)\n
     '''
 def setOutputBufferSize():
-    '''public void setOutputBufferSize(final int outputBufferSize)
+    '''returns None\n\n
+    setOutputBufferSize(final int outputBufferSize)\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def setProxyHost():
-    '''public void setProxyHost(final String httpProxyHost)
+    '''returns None\n\n
+    setProxyHost(final String httpProxyHost)\n
     '''
 def setProxyPassword():
-    '''public void setProxyPassword(final String proxyPassword)
+    '''returns None\n\n
+    setProxyPassword(final String proxyPassword)\n
     '''
 def setProxyPort():
-    '''public void setProxyPort(final int httpProxyPort)
+    '''returns None\n\n
+    setProxyPort(final int httpProxyPort)\n
     '''
 def setProxyUserName():
-    '''public void setProxyUserName(final String proxyUserName)
+    '''returns None\n\n
+    setProxyUserName(final String proxyUserName)\n
     '''
 def setTcpNoDelay():
-    '''public void setTcpNoDelay(final Boolean tcpNoDelay)
+    '''returns None\n\n
+    setTcpNoDelay(final Boolean tcpNoDelay)\n
     '''
 def setTimeout():
-    '''public void setTimeout(final int timeout)
+    '''returns None\n\n
+    setTimeout(final int timeout)\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''

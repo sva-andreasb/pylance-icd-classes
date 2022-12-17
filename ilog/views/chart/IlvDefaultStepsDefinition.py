@@ -1,78 +1,75 @@
 SIMPLE_MODE = "int  1"
 COMPLEX_MODE = "int  2"
-def IlvDefaultStepsDefinition():
-    '''public IlvDefaultStepsDefinition()
-    public IlvDefaultStepsDefinition(final int autoMode)
-    '''
-def isAutoNumberFormat():
-    '''public final boolean isAutoNumberFormat()
+def ():
+    '''returns IlvDefaultStepsDefinition\n\n
+    ()\n
+    (final int autoMode)\n
     '''
 def setAutoNumberFormat():
-    '''public void setAutoNumberFormat(final boolean b)
+    '''returns None\n\n
+    setAutoNumberFormat(final boolean b)\n
     '''
 def getNumberFormat():
-    '''public NumberFormat getNumberFormat()
+    '''returns NumberFormat\n\n
+    getNumberFormat()\n
     '''
 def setNumberFormat():
-    '''public void setNumberFormat(final NumberFormat numberFormat)
-    '''
-def getAutoMode():
-    '''public final int getAutoMode()
+    '''returns None\n\n
+    setNumberFormat(final NumberFormat numberFormat)\n
     '''
 def setAutoMode():
-    '''public void setAutoMode(final int o)
-    '''
-def isAutoStepUnit():
-    '''public final boolean isAutoStepUnit()
+    '''returns None\n\n
+    setAutoMode(final int o)\n
     '''
 def setAutoStepUnit():
-    '''public void setAutoStepUnit(final boolean b)
-    '''
-def isAutoSubStepUnit():
-    '''public final boolean isAutoSubStepUnit()
+    '''returns None\n\n
+    setAutoStepUnit(final boolean b)\n
     '''
 def setAutoSubStepUnit():
-    '''public void setAutoSubStepUnit(final boolean b)
-    '''
-def getStepUnit():
-    '''public final double getStepUnit()
+    '''returns None\n\n
+    setAutoSubStepUnit(final boolean b)\n
     '''
 def setStepUnit():
-    '''public void setStepUnit(final double n)
+    '''returns None\n\n
+    setStepUnit(final double n)\n
     '''
 def hasSubStep():
-    '''public boolean hasSubStep()
-    '''
-def getSubStepUnit():
-    '''public final double getSubStepUnit()
+    '''returns boolean\n\n
+    hasSubStep()\n
     '''
 def setSubStepUnit():
-    '''public void setSubStepUnit(final double n)
+    '''returns None\n\n
+    setSubStepUnit(final double n)\n
     '''
 def getSubStepCount():
-    '''public int getSubStepCount()
+    '''returns int\n\n
+    getSubStepCount()\n
     '''
 def setSubStepCount():
-    '''public void setSubStepCount(final int n)
+    '''returns None\n\n
+    setSubStepCount(final int n)\n
     '''
 def update():
-    '''public void update()
+    '''returns None\n\n
+    update()\n
     '''
 def computeLabel():
-    '''public String computeLabel(final double n)
+    '''returns String\n\n
+    computeLabel(final double n)\n
     '''
 def previousStep():
-    '''public double previousStep(final double n)
+    '''returns double\n\n
+    previousStep(final double n)\n
     '''
 def incrementStep():
-    '''public double incrementStep(final double n)
+    '''returns double\n\n
+    incrementStep(final double n)\n
     '''
 def previousSubStep():
-    '''public double previousSubStep(final double n)
+    '''returns double\n\n
+    previousSubStep(final double n)\n
     '''
 def incrementSubStep():
-    '''public double incrementSubStep(final double n)
-    '''
-def adjustRange():
-    '''public static void adjustRange(final IlvDataInterval ilvDataInterval)
+    '''returns double\n\n
+    incrementSubStep(final double n)\n
     '''

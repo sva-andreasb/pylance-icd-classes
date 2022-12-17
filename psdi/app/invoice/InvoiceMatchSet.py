@@ -1,3 +1,4 @@
-def InvoiceMatchSet():
-    '''public InvoiceMatchSet(final MboServerInterface ms)
+def ():
+    '''returns InvoiceMatchSet\n\n
+    (final MboServerInterface ms)\n
     '''

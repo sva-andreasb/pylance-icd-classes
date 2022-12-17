@@ -1,54 +1,68 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
-def PlusPBSAsset():
-    '''public PlusPBSAsset(final MboSet set)
+def ():
+    '''returns PlusPBSAsset\n\n
+    (final MboSet set)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboSetRemote)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboSetRemote)\n
     '''
 def setCustomerFromAgreement():
-    '''public void setCustomerFromAgreement()
+    '''returns None\n\n
+    setCustomerFromAgreement()\n
     '''
 def deleteRanges():
-    '''public void deleteRanges()
+    '''returns None\n\n
+    deleteRanges()\n
     '''
 def deleteSpecification():
-    '''public void deleteSpecification()
+    '''returns None\n\n
+    deleteSpecification()\n
     '''
 def createSalesOrder():
-    '''public MboRemote createSalesOrder(final MboRemote mbo, final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    createSalesOrder(final MboRemote mbo, final MboRemote mboRemote)\n
     '''
 def createGBTrans():
-    '''public MboRemote createGBTrans(final MboRemote mboRemote, final MboRemote mboRemote2, final double n, final double n2, final double n3)
+    '''returns MboRemote\n\n
+    createGBTrans(final MboRemote mboRemote, final MboRemote mboRemote2, final double n, final double n2, final double n3)\n
     '''
 def setDefaultAssetCI():
-    '''public void setDefaultAssetCI()
+    '''returns None\n\n
+    setDefaultAssetCI()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
-    '''
-def getAttributePricingMap():
-    '''public HashMap<String, ArrayList<PlusPBSAssetSpecRemote>> getAttributePricingMap()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def getClassificationTotalAttributePrice():
-    '''public double getClassificationTotalAttributePrice(final MboRemote mboRemote)
+    '''returns double\n\n
+    getClassificationTotalAttributePrice(final MboRemote mboRemote)\n
     '''
 def getManagedAssetBasePrice():
-    '''public double getManagedAssetBasePrice(final int n)
+    '''returns double\n\n
+    getManagedAssetBasePrice(final int n)\n
     '''
 def getAssetCISet():
-    '''public MboSetRemote getAssetCISet(final MboRemote mr)
+    '''returns MboSetRemote\n\n
+    getAssetCISet(final MboRemote mr)\n
     '''
 def isAsset():
-    '''public boolean isAsset()
+    '''returns boolean\n\n
+    isAsset()\n
     '''

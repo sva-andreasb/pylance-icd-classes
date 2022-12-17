@@ -1,91 +1,120 @@
 def setXStep():
-    '''public void setXStep(final float xstep)
+    '''returns None\n\n
+    setXStep(final float xstep)\n
     '''
 def setYStep():
-    '''public void setYStep(final float ystep)
+    '''returns None\n\n
+    setYStep(final float ystep)\n
     '''
 def getXStep():
-    '''public float getXStep()
+    '''returns float\n\n
+    getXStep()\n
     '''
 def getYStep():
-    '''public float getYStep()
+    '''returns float\n\n
+    getYStep()\n
     '''
 def isStencil():
-    '''public boolean isStencil()
+    '''returns boolean\n\n
+    isStencil()\n
     '''
 def setPatternMatrix():
-    '''public void setPatternMatrix(final float a, final float b, final float c, final float d, final float e, final float f)
+    '''returns None\n\n
+    setPatternMatrix(final float a, final float b, final float c, final float d, final float e, final float f)\n
     '''
 def getDuplicate():
-    '''public PdfContentByte getDuplicate()
+    '''returns PdfContentByte\n\n
+    getDuplicate()\n
     '''
 def getDefaultColor():
-    '''public Color getDefaultColor()
+    '''returns Color\n\n
+    getDefaultColor()\n
     '''
 def setGrayFill():
-    '''public void setGrayFill(final float gray)
+    '''returns None\n\n
+    setGrayFill(final float gray)\n
     '''
 def resetGrayFill():
-    '''public void resetGrayFill()
+    '''returns None\n\n
+    resetGrayFill()\n
     '''
 def setGrayStroke():
-    '''public void setGrayStroke(final float gray)
+    '''returns None\n\n
+    setGrayStroke(final float gray)\n
     '''
 def resetGrayStroke():
-    '''public void resetGrayStroke()
+    '''returns None\n\n
+    resetGrayStroke()\n
     '''
 def setRGBColorFillF():
-    '''public void setRGBColorFillF(final float red, final float green, final float blue)
+    '''returns None\n\n
+    setRGBColorFillF(final float red, final float green, final float blue)\n
     '''
 def resetRGBColorFill():
-    '''public void resetRGBColorFill()
+    '''returns None\n\n
+    resetRGBColorFill()\n
     '''
 def setRGBColorStrokeF():
-    '''public void setRGBColorStrokeF(final float red, final float green, final float blue)
+    '''returns None\n\n
+    setRGBColorStrokeF(final float red, final float green, final float blue)\n
     '''
 def resetRGBColorStroke():
-    '''public void resetRGBColorStroke()
+    '''returns None\n\n
+    resetRGBColorStroke()\n
     '''
 def setCMYKColorFillF():
-    '''public void setCMYKColorFillF(final float cyan, final float magenta, final float yellow, final float black)
+    '''returns None\n\n
+    setCMYKColorFillF(final float cyan, final float magenta, final float yellow, final float black)\n
     '''
 def resetCMYKColorFill():
-    '''public void resetCMYKColorFill()
+    '''returns None\n\n
+    resetCMYKColorFill()\n
     '''
 def setCMYKColorStrokeF():
-    '''public void setCMYKColorStrokeF(final float cyan, final float magenta, final float yellow, final float black)
+    '''returns None\n\n
+    setCMYKColorStrokeF(final float cyan, final float magenta, final float yellow, final float black)\n
     '''
 def resetCMYKColorStroke():
-    '''public void resetCMYKColorStroke()
+    '''returns None\n\n
+    resetCMYKColorStroke()\n
     '''
 def addImage():
-    '''public void addImage(final Image image, final float a, final float b, final float c, final float d, final float e, final float f)
+    '''returns None\n\n
+    addImage(final Image image, final float a, final float b, final float c, final float d, final float e, final float f)\n
     '''
 def setCMYKColorFill():
-    '''public void setCMYKColorFill(final int cyan, final int magenta, final int yellow, final int black)
+    '''returns None\n\n
+    setCMYKColorFill(final int cyan, final int magenta, final int yellow, final int black)\n
     '''
 def setCMYKColorStroke():
-    '''public void setCMYKColorStroke(final int cyan, final int magenta, final int yellow, final int black)
+    '''returns None\n\n
+    setCMYKColorStroke(final int cyan, final int magenta, final int yellow, final int black)\n
     '''
 def setRGBColorFill():
-    '''public void setRGBColorFill(final int red, final int green, final int blue)
+    '''returns None\n\n
+    setRGBColorFill(final int red, final int green, final int blue)\n
     '''
 def setRGBColorStroke():
-    '''public void setRGBColorStroke(final int red, final int green, final int blue)
+    '''returns None\n\n
+    setRGBColorStroke(final int red, final int green, final int blue)\n
     '''
 def setColorStroke():
-    '''public void setColorStroke(final Color color)
-    public void setColorStroke(final PdfSpotColor sp, final float tint)
+    '''returns None\n\n
+    setColorStroke(final Color color)\n
+    setColorStroke(final PdfSpotColor sp, final float tint)\n
     '''
 def setColorFill():
-    '''public void setColorFill(final Color color)
-    public void setColorFill(final PdfSpotColor sp, final float tint)
+    '''returns None\n\n
+    setColorFill(final Color color)\n
+    setColorFill(final PdfSpotColor sp, final float tint)\n
     '''
 def setPatternFill():
-    '''public void setPatternFill(final PdfPatternPainter p)
-    public void setPatternFill(final PdfPatternPainter p, final Color color, final float tint)
+    '''returns None\n\n
+    setPatternFill(final PdfPatternPainter p)\n
+    setPatternFill(final PdfPatternPainter p, final Color color, final float tint)\n
     '''
 def setPatternStroke():
-    '''public void setPatternStroke(final PdfPatternPainter p, final Color color, final float tint)
-    public void setPatternStroke(final PdfPatternPainter p)
+    '''returns None\n\n
+    setPatternStroke(final PdfPatternPainter p, final Color color, final float tint)\n
+    setPatternStroke(final PdfPatternPainter p)\n
     '''

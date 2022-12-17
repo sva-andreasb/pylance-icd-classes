@@ -1,3 +1,4 @@
-def FldWorkManagementStartFeatureLabel():
-    '''public FldWorkManagementStartFeatureLabel(final MboValue mbv)
+def ():
+    '''returns FldWorkManagementStartFeatureLabel\n\n
+    (final MboValue mbv)\n
     '''

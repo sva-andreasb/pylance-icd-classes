@@ -1,12 +1,15 @@
-def JSONDateConvertor():
-    '''public JSONDateConvertor()
-    public JSONDateConvertor(final boolean fromJSON)
-    public JSONDateConvertor(final String format, final TimeZone zone, final boolean fromJSON)
-    public JSONDateConvertor(final String format, final TimeZone zone, final boolean fromJSON, final Locale locale)
+def ():
+    '''returns JSONDateConvertor\n\n
+    ()\n
+    (final boolean fromJSON)\n
+    (final String format, final TimeZone zone, final boolean fromJSON)\n
+    (final String format, final TimeZone zone, final boolean fromJSON, final Locale locale)\n
     '''
 def fromJSON():
-    '''public Object fromJSON(final Map map)
+    '''returns Object\n\n
+    fromJSON(final Map map)\n
     '''
 def toJSON():
-    '''public void toJSON(final Object obj, final JSON.Output out)
+    '''returns None\n\n
+    toJSON(final Object obj, final JSON.Output out)\n
     '''

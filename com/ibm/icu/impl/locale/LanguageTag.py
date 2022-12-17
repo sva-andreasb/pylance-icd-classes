@@ -1,125 +1,78 @@
 SEP = "String  \"-\""
 PRIVATEUSE = "String  \"x\""
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def getExtlangs():
-    '''public List<String> getExtlangs()
+    '''returns List<String>\n\n
+    getExtlangs()\n
     '''
 def getScript():
-    '''public String getScript()
+    '''returns String\n\n
+    getScript()\n
     '''
 def getRegion():
-    '''public String getRegion()
+    '''returns String\n\n
+    getRegion()\n
     '''
 def getVariants():
-    '''public List<String> getVariants()
-    '''
-def getExtensions():
-    '''public SortedMap<Character, Extension> getExtensions()
+    '''returns List<String>\n\n
+    getVariants()\n
     '''
 def getPrivateuse():
-    '''public String getPrivateuse()
+    '''returns String\n\n
+    getPrivateuse()\n
     '''
 def getGrandfathered():
-    '''public String getGrandfathered()
+    '''returns String\n\n
+    getGrandfathered()\n
     '''
 def getBaseLocale():
-    '''public BaseLocale getBaseLocale()
+    '''returns BaseLocale\n\n
+    getBaseLocale()\n
     '''
 def getLocaleExtensions():
-    '''public LocaleExtensions getLocaleExtensions()
+    '''returns LocaleExtensions\n\n
+    getLocaleExtensions()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def isLanguage():
-    '''public static boolean isLanguage(final String s)
-    '''
-def isExtlang():
-    '''public static boolean isExtlang(final String s)
-    '''
-def isScript():
-    '''public static boolean isScript(final String s)
-    '''
-def isRegion():
-    '''public static boolean isRegion(final String s)
-    '''
-def isVariant():
-    '''public static boolean isVariant(final String s)
-    '''
-def isExtensionSingleton():
-    '''public static boolean isExtensionSingleton(final String s)
-    '''
-def isExtensionSubtag():
-    '''public static boolean isExtensionSubtag(final String s)
-    '''
-def isPrivateuseSingleton():
-    '''public static boolean isPrivateuseSingleton(final String s)
-    '''
-def isPrivateuseSubtag():
-    '''public static boolean isPrivateuseSubtag(final String s)
-    '''
-def canonicalizeLanguage():
-    '''public static String canonicalizeLanguage(final String s)
-    '''
-def canonicalizeExtlang():
-    '''public static String canonicalizeExtlang(final String s)
-    '''
-def canonicalizeScript():
-    '''public static String canonicalizeScript(final String s)
-    '''
-def canonicalizeRegion():
-    '''public static String canonicalizeRegion(final String s)
-    '''
-def canonicalizeVariant():
-    '''public static String canonicalizeVariant(final String s)
-    '''
-def canonicalizeExtensionSingleton():
-    '''public static String canonicalizeExtensionSingleton(final String s)
-    '''
-def canonicalizeExtensionSubtag():
-    '''public static String canonicalizeExtensionSubtag(final String s)
-    '''
-def canonicalizePrivateuseSubtag():
-    '''public static String canonicalizePrivateuseSubtag(final String s)
-    '''
-def parse():
-    '''public static LanguageTag parse(final String str, final boolean javaCompatVar)
-    '''
-def parseStrict():
-    '''public static LanguageTag parseStrict(final String str, final boolean javaCompatVar)
-    '''
-def parseLocale():
-    '''public static LanguageTag parseLocale(final BaseLocale base, final LocaleExtensions locExts)
-    '''
-def ParseStatus():
-    '''public ParseStatus()
+def ():
+    '''returns ParseStatus\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def parseLanguage():
-    '''public String parseLanguage(final StringTokenIterator itr, final ParseStatus sts)
+    '''returns String\n\n
+    parseLanguage(final StringTokenIterator itr, final ParseStatus sts)\n
     '''
 def parseExtlangs():
-    '''public List<String> parseExtlangs(final StringTokenIterator itr, final ParseStatus sts)
+    '''returns List<String>\n\n
+    parseExtlangs(final StringTokenIterator itr, final ParseStatus sts)\n
     '''
 def parseScript():
-    '''public String parseScript(final StringTokenIterator itr, final ParseStatus sts)
+    '''returns String\n\n
+    parseScript(final StringTokenIterator itr, final ParseStatus sts)\n
     '''
 def parseRegion():
-    '''public String parseRegion(final StringTokenIterator itr, final ParseStatus sts)
+    '''returns String\n\n
+    parseRegion(final StringTokenIterator itr, final ParseStatus sts)\n
     '''
 def parseVariants():
-    '''public List<String> parseVariants(final StringTokenIterator itr, final ParseStatus sts)
-    '''
-def parseExtensions():
-    '''public SortedMap<Character, Extension> parseExtensions(final StringTokenIterator itr, final ParseStatus sts)
+    '''returns List<String>\n\n
+    parseVariants(final StringTokenIterator itr, final ParseStatus sts)\n
     '''
 def parsePrivateuse():
-    '''public String parsePrivateuse(final StringTokenIterator itr, final ParseStatus sts)
+    '''returns String\n\n
+    parsePrivateuse(final StringTokenIterator itr, final ParseStatus sts)\n
     '''

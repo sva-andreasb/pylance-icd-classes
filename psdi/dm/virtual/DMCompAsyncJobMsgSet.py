@@ -1,3 +1,4 @@
-def DMCompAsyncJobMsgSet():
-    '''public DMCompAsyncJobMsgSet(final MboServerInterface ms)
+def ():
+    '''returns DMCompAsyncJobMsgSet\n\n
+    (final MboServerInterface ms)\n
     '''

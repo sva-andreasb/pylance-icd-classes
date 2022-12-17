@@ -1,28 +1,30 @@
-def getHolidays():
-    '''public static Holiday[] getHolidays()
-    public static Holiday[] getHolidays(final Locale locale)
-    public static Holiday[] getHolidays(final ULocale locale)
-    '''
 def firstAfter():
-    '''public Date firstAfter(final Date start)
+    '''returns Date\n\n
+    firstAfter(final Date start)\n
     '''
 def firstBetween():
-    '''public Date firstBetween(final Date start, final Date end)
+    '''returns Date\n\n
+    firstBetween(final Date start, final Date end)\n
     '''
 def isOn():
-    '''public boolean isOn(final Date date)
+    '''returns boolean\n\n
+    isOn(final Date date)\n
     '''
 def isBetween():
-    '''public boolean isBetween(final Date start, final Date end)
+    '''returns boolean\n\n
+    isBetween(final Date start, final Date end)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
-    public String getDisplayName(final Locale locale)
-    public String getDisplayName(final ULocale locale)
+    '''returns String\n\n
+    getDisplayName()\n
+    getDisplayName(final Locale locale)\n
+    getDisplayName(final ULocale locale)\n
     '''
 def getRule():
-    '''public DateRule getRule()
+    '''returns DateRule\n\n
+    getRule()\n
     '''
 def setRule():
-    '''public void setRule(final DateRule rule)
+    '''returns None\n\n
+    setRule(final DateRule rule)\n
     '''

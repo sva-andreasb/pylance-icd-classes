@@ -1,6 +1,8 @@
-def DrawingParagraph():
-    '''public DrawingParagraph(final CTTextParagraph p)
+def ():
+    '''returns DrawingParagraph\n\n
+    (final CTTextParagraph p)\n
     '''
 def getText():
-    '''public CharSequence getText()
+    '''returns CharSequence\n\n
+    getText()\n
     '''

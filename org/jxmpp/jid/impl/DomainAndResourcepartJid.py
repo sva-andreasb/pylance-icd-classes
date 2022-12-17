@@ -1,48 +1,63 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def asDomainBareJid():
-    '''public DomainBareJid asDomainBareJid()
+    '''returns DomainBareJid\n\n
+    asDomainBareJid()\n
     '''
 def hasNoResource():
-    '''public boolean hasNoResource()
+    '''returns boolean\n\n
+    hasNoResource()\n
     '''
 def asEntityBareJidIfPossible():
-    '''public EntityBareJid asEntityBareJidIfPossible()
+    '''returns EntityBareJid\n\n
+    asEntityBareJidIfPossible()\n
     '''
 def asEntityFullJidIfPossible():
-    '''public EntityFullJid asEntityFullJidIfPossible()
+    '''returns EntityFullJid\n\n
+    asEntityFullJidIfPossible()\n
     '''
 def asDomainFullJidIfPossible():
-    '''public DomainFullJid asDomainFullJidIfPossible()
+    '''returns DomainFullJid\n\n
+    asDomainFullJidIfPossible()\n
     '''
 def getResourceOrNull():
-    '''public Resourcepart getResourceOrNull()
+    '''returns Resourcepart\n\n
+    getResourceOrNull()\n
     '''
 def isParentOf():
-    '''public boolean isParentOf(final EntityBareJid bareJid)
-    public boolean isParentOf(final EntityFullJid fullJid)
-    public boolean isParentOf(final DomainBareJid domainBareJid)
-    public boolean isParentOf(final DomainFullJid domainFullJid)
+    '''returns boolean\n\n
+    isParentOf(final EntityBareJid bareJid)\n
+    isParentOf(final EntityFullJid fullJid)\n
+    isParentOf(final DomainBareJid domainBareJid)\n
+    isParentOf(final DomainFullJid domainFullJid)\n
     '''
 def getResourcepart():
-    '''public Resourcepart getResourcepart()
+    '''returns Resourcepart\n\n
+    getResourcepart()\n
     '''
 def asBareJid():
-    '''public BareJid asBareJid()
+    '''returns BareJid\n\n
+    asBareJid()\n
     '''
 def getDomain():
-    '''public Domainpart getDomain()
+    '''returns Domainpart\n\n
+    getDomain()\n
     '''
 def asUnescapedString():
-    '''public String asUnescapedString()
+    '''returns String\n\n
+    asUnescapedString()\n
     '''
 def asEntityJidIfPossible():
-    '''public EntityJid asEntityJidIfPossible()
+    '''returns EntityJid\n\n
+    asEntityJidIfPossible()\n
     '''
 def asFullJidIfPossible():
-    '''public FullJid asFullJidIfPossible()
+    '''returns FullJid\n\n
+    asFullJidIfPossible()\n
     '''
 def getLocalpartOrNull():
-    '''public Localpart getLocalpartOrNull()
+    '''returns Localpart\n\n
+    getLocalpartOrNull()\n
     '''

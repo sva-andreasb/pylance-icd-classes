@@ -2,29 +2,37 @@ FETCHLIMIT = "String  \"mxe.db.fetchResultStopLimit\""
 ITIC_NOT_COMPLETE = "String  \"NO\""
 ITIC_COMPLETE = "String  \"YES\""
 ITIC_COMPLETE_VARNAME = "String  \"CCIITICCOMPLETE\""
-def CCIActualCIService():
-    '''public CCIActualCIService()
-    public CCIActualCIService(final MXServer mxServer)
+def ():
+    '''returns CCIActualCIService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def deleteActualCIs():
-    '''public void deleteActualCIs(final MboRemote mbo)
+    '''returns None\n\n
+    deleteActualCIs(final MboRemote mbo)\n
     '''
 def updateDeletedActCI():
-    '''public void updateDeletedActCI(final CCIDeletedActualCIRemote deletedActCI, final MboRemote actci, final Date systemDate)
+    '''returns None\n\n
+    updateDeletedActCI(final CCIDeletedActualCIRemote deletedActCI, final MboRemote actci, final Date systemDate)\n
     '''
 def getActualCIsToDelete():
-    '''public CCIDeletedActualCISet getActualCIsToDelete(final MboRemote mbo)
+    '''returns CCIDeletedActualCISet\n\n
+    getActualCIsToDelete(final MboRemote mbo)\n
     '''
 def setITICAsNotComplete():
-    '''public void setITICAsNotComplete(final MboRemote mbo)
+    '''returns None\n\n
+    setITICAsNotComplete(final MboRemote mbo)\n
     '''
 def setITICAsComplete():
-    '''public void setITICAsComplete(final MboRemote mbo)
+    '''returns None\n\n
+    setITICAsComplete(final MboRemote mbo)\n
     '''
 def getITICCompleteValue():
-    '''public String getITICCompleteValue(final MboRemote mbo)
+    '''returns String\n\n
+    getITICCompleteValue(final MboRemote mbo)\n
     '''
 def addCustomerAssociations():
-    '''public ArrayList<String> addCustomerAssociations(final MboSetRemote actCISet, final String primaryCustomer, final ArrayList<String> customers, final boolean continueOnError)
-    public String addCustomerAssociations(final MboRemote actCI, final String primaryCustomer, final ArrayList<String> customers, final boolean continueOnError)
+    '''returns String\n\n
+    addCustomerAssociations(final MboSetRemote actCISet, final String primaryCustomer, final ArrayList<String> customers, final boolean continueOnError)\n
+    addCustomerAssociations(final MboRemote actCI, final String primaryCustomer, final ArrayList<String> customers, final boolean continueOnError)\n
     '''

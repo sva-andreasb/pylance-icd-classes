@@ -1,3 +1,4 @@
-def AHMethodDriverSet():
-    '''public AHMethodDriverSet(final MboServerInterface ms)
+def ():
+    '''returns AHMethodDriverSet\n\n
+    (final MboServerInterface ms)\n
     '''

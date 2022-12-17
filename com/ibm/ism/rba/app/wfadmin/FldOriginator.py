@@ -1,3 +1,4 @@
-def FldOriginator():
-    '''public FldOriginator(final MboValue mbv)
+def ():
+    '''returns FldOriginator\n\n
+    (final MboValue mbv)\n
     '''

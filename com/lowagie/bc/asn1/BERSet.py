@@ -1,5 +1,6 @@
-def BERSet():
-    '''public BERSet()
-    public BERSet(final DEREncodable obj)
-    public BERSet(final DEREncodableVector v)
+def ():
+    '''returns BERSet\n\n
+    ()\n
+    (final DEREncodable obj)\n
+    (final DEREncodableVector v)\n
     '''

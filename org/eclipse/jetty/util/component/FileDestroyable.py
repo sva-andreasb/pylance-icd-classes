@@ -1,19 +1,24 @@
-def FileDestroyable():
-    '''public FileDestroyable()
-    public FileDestroyable(final String file)
-    public FileDestroyable(final File file)
+def ():
+    '''returns FileDestroyable\n\n
+    ()\n
+    (final String file)\n
+    (final File file)\n
     '''
 def addFile():
-    '''public void addFile(final String file)
-    public void addFile(final File file)
+    '''returns None\n\n
+    addFile(final String file)\n
+    addFile(final File file)\n
     '''
 def addFiles():
-    '''public void addFiles(final Collection<File> files)
+    '''returns None\n\n
+    addFiles(final Collection<File> files)\n
     '''
 def removeFile():
-    '''public void removeFile(final String file)
-    public void removeFile(final File file)
+    '''returns None\n\n
+    removeFile(final String file)\n
+    removeFile(final File file)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''

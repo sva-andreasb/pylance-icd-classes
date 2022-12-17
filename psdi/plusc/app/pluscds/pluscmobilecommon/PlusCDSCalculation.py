@@ -4,94 +4,108 @@ OUTPUT_FROM = "int  2"
 OUTPUT_TO = "int  3"
 DEVIATION_N = "int  1"
 DEVIATION_N_MINUS_1 = "int  2"
-def PlusCDSCalculation():
-    '''public PlusCDSCalculation(final HashMap dsConfig)
+def ():
+    '''returns PlusCDSCalculation\n\n
+    (final HashMap dsConfig)\n
     '''
 def getTolPrecision():
-    '''public int getTolPrecision(final int minOutputPrecision, final int actualOutputPrecision, final int actualInputPrecision)
+    '''returns int\n\n
+    getTolPrecision(final int minOutputPrecision, final int actualOutputPrecision, final int actualInputPrecision)\n
     '''
 def getAssetPrecision():
-    '''public int getAssetPrecision(final int minOutputPrecision, final int actualOutputPrecision, final int actualInputPrecision)
+    '''returns int\n\n
+    getAssetPrecision(final int minOutputPrecision, final int actualOutputPrecision, final int actualInputPrecision)\n
     '''
 def getTolError():
-    '''public int getTolError()
+    '''returns int\n\n
+    getTolError()\n
     '''
 def getAssetError():
-    '''public int getAssetError()
+    '''returns int\n\n
+    getAssetError()\n
     '''
 def getTolNPlaces():
-    '''public int getTolNPlaces()
+    '''returns int\n\n
+    getTolNPlaces()\n
     '''
 def getAssetNPlaces():
-    '''public int getAssetNPlaces()
+    '''returns int\n\n
+    getAssetNPlaces()\n
     '''
 def getTolTruncate():
-    '''public boolean getTolTruncate()
+    '''returns boolean\n\n
+    getTolTruncate()\n
     '''
 def getAssetTruncate():
-    '''public boolean getAssetTruncate()
+    '''returns boolean\n\n
+    getAssetTruncate()\n
     '''
 def getDesiredOutputTruncate():
-    '''public boolean getDesiredOutputTruncate()
+    '''returns boolean\n\n
+    getDesiredOutputTruncate()\n
     '''
 def getStdDeviationType():
-    '''public int getStdDeviationType()
+    '''returns int\n\n
+    getStdDeviationType()\n
     '''
 def summedToleranceEquationsTightesWidest():
-    '''public double[] summedToleranceEquationsTightesWidest(final PlusCMboRemote owner, final String fieldName, final int tol, final boolean[] summedCalcTypes)
+    '''returns double[]\n\n
+    summedToleranceEquationsTightesWidest(final PlusCMboRemote owner, final String fieldName, final int tol, final boolean[] summedCalcTypes)\n
     '''
 def squaredDesiredOutputValue():
-    '''public String squaredDesiredOutputValue(final PlusCMboRemote owner)
+    '''returns String\n\n
+    squaredDesiredOutputValue(final PlusCMboRemote owner)\n
     '''
 def squareRootDesiredOutputValue():
-    '''public String squareRootDesiredOutputValue(final PlusCMboRemote owner)
-    '''
-def squareRootOutputValueNegative():
-    '''public static String squareRootOutputValueNegative(final Locale locale, final String instrcalrangeto, final String instroutrangefrom, final String instrOutputSpan, final String invalue)
-    '''
-def squaredOutputValueNegative():
-    '''public static String squaredOutputValueNegative(final Locale locale, final String instrcalrangefrom, final String instrcalrangeto, final String instroutrangefrom, final String instrOutputSpan, final String invalue, final int precision)
-    '''
-def squaredOutputValue():
-    '''public static String squaredOutputValue(final Locale locale, final String instrcalrangefrom, final String instrcalrangeto, final String instroutrangefrom, final String instrOutputSpan, final String invalue, final double sign, final int precision)
+    '''returns String\n\n
+    squareRootDesiredOutputValue(final PlusCMboRemote owner)\n
     '''
 def calculateToleranceRangeSquareRoot():
-    '''public boolean calculateToleranceRangeSquareRoot(final PlusCMboRemote owner, final String fieldName)
+    '''returns boolean\n\n
+    calculateToleranceRangeSquareRoot(final PlusCMboRemote owner, final String fieldName)\n
     '''
 def calculateToleranceRangeSquared():
-    '''public boolean calculateToleranceRangeSquared(final PlusCMboRemote owner, final String fieldName)
+    '''returns boolean\n\n
+    calculateToleranceRangeSquared(final PlusCMboRemote owner, final String fieldName)\n
     '''
 def calcPointRangeLimits():
-    '''public void calcPointRangeLimits(final PlusCMboRemote mboRemote)
+    '''returns None\n\n
+    calcPointRangeLimits(final PlusCMboRemote mboRemote)\n
     '''
 def getRangeLimitsTruncate():
-    '''public boolean getRangeLimitsTruncate()
+    '''returns boolean\n\n
+    getRangeLimitsTruncate()\n
     '''
 def summedToleranceEquations():
-    '''public boolean summedToleranceEquations(final PlusCMboRemote owner, final String fieldName, final int tol, final boolean[] summedCalcTypes)
-    '''
-def directionCheck():
-    '''public static double[] directionCheck(final PlusCMboRemote owner, final Locale locale)
+    '''returns boolean\n\n
+    summedToleranceEquations(final PlusCMboRemote owner, final String fieldName, final int tol, final boolean[] summedCalcTypes)\n
     '''
 def doUpdateOutputValue():
-    '''public void doUpdateOutputValue(final PlusCMboRemote mboRemote, final boolean bValidateWhenSetting)
+    '''returns None\n\n
+    doUpdateOutputValue(final PlusCMboRemote mboRemote, final boolean bValidateWhenSetting)\n
     '''
 def doWOUpdateOutputValue():
-    '''public String doWOUpdateOutputValue(final PlusCMboRemote owner, final String sPrefix)
+    '''returns String\n\n
+    doWOUpdateOutputValue(final PlusCMboRemote owner, final String sPrefix)\n
     '''
 def doUpdateRonValues():
-    '''public void doUpdateRonValues(final PlusCMboRemote mboRemote)
+    '''returns None\n\n
+    doUpdateRonValues(final PlusCMboRemote mboRemote)\n
     '''
 def doUpdateTolValues():
-    '''public boolean doUpdateTolValues(final PlusCMboRemote mboRemote, String fieldName)
+    '''returns boolean\n\n
+    doUpdateTolValues(final PlusCMboRemote mboRemote, String fieldName)\n
     '''
 def doUpdateErrorValues():
-    '''public boolean doUpdateErrorValues(final PlusCMboRemote mboRemote, final String asFoundOrLeft, final boolean bShowOutOfTolMsg)
+    '''returns boolean\n\n
+    doUpdateErrorValues(final PlusCMboRemote mboRemote, final String asFoundOrLeft, final boolean bShowOutOfTolMsg)\n
     '''
 def checkAndAdjustFldValueSize():
-    '''public String checkAndAdjustFldValueSize(String value, final DecimalFormatSymbols df, final int minFraction, final Locale locale)
-    public String checkAndAdjustFldValueSize(String value, final DecimalFormatSymbols df, final Locale locale, final boolean shouldRound)
+    '''returns String\n\n
+    checkAndAdjustFldValueSize(String value, final DecimalFormatSymbols df, final int minFraction, final Locale locale)\n
+    checkAndAdjustFldValueSize(String value, final DecimalFormatSymbols df, final Locale locale, final boolean shouldRound)\n
     '''
 def calculateAveragesAndStdDevs():
-    '''public boolean calculateAveragesAndStdDevs(final PlusCMboRemote[] groupPoints, final PlusCMboRemote groupAveragePoint, final String fieldName)
+    '''returns boolean\n\n
+    calculateAveragesAndStdDevs(final PlusCMboRemote[] groupPoints, final PlusCMboRemote groupAveragePoint, final String fieldName)\n
     '''

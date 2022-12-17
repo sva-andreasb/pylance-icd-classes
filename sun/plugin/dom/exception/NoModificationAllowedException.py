@@ -1,3 +1,4 @@
-def NoModificationAllowedException():
-    '''public NoModificationAllowedException(final String message)
+def ():
+    '''returns NoModificationAllowedException\n\n
+    (final String message)\n
     '''

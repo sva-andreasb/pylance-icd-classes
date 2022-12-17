@@ -1,55 +1,65 @@
 def addFilter():
-    '''public CompositeFilter addFilter(final Filter filter)
+    '''returns CompositeFilter\n\n
+    addFilter(final Filter filter)\n
     '''
 def removeFilter():
-    '''public CompositeFilter removeFilter(final Filter filter)
+    '''returns CompositeFilter\n\n
+    removeFilter(final Filter filter)\n
     '''
 def iterator():
-    '''public Iterator<Filter> iterator()
+    '''returns Iterator<Filter>\n\n
+    iterator()\n
     '''
 def getFilters():
-    '''public List<Filter> getFilters()
+    '''returns List<Filter>\n\n
+    getFilters()\n
     '''
 def getFiltersArray():
-    '''public Filter[] getFiltersArray()
+    '''returns Filter[]\n\n
+    getFiltersArray()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def getOnMismatch():
-    '''public Result getOnMismatch()
+    '''returns Result\n\n
+    getOnMismatch()\n
     '''
 def getOnMatch():
-    '''public Result getOnMatch()
+    '''returns Result\n\n
+    getOnMatch()\n
     '''
 def filter():
-    '''public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object... params)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final Object msg, final Throwable t)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final Message msg, final Throwable t)
-    public Result filter(final LogEvent event)
+    '''returns Result\n\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object... params)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    filter(final Logger logger, final Level level, final Marker marker, final Object msg, final Throwable t)\n
+    filter(final Logger logger, final Level level, final Marker marker, final Message msg, final Throwable t)\n
+    filter(final LogEvent event)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def createFilters():
-    '''public static CompositeFilter createFilters(@PluginElement("Filters") final Filter[] filters)
+    '''returns String\n\n
+    toString()\n
     '''

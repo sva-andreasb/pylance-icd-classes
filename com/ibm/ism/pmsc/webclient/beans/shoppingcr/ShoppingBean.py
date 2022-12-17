@@ -1,76 +1,93 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def ShoppingBean():
-    '''public ShoppingBean()
+def ():
+    '''returns ShoppingBean\n\n
+    ()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def setPmScInputSpecBean():
-    '''public void setPmScInputSpecBean(final PmScInputSpecBean pmscBean)
+    '''returns None\n\n
+    setPmScInputSpecBean(final PmScInputSpecBean pmscBean)\n
     '''
 def getPmScInputSpecBean():
-    '''public PmScInputSpecBean getPmScInputSpecBean()
+    '''returns PmScInputSpecBean\n\n
+    getPmScInputSpecBean()\n
     '''
 def getSelectedCR():
-    '''public long getSelectedCR()
+    '''returns long\n\n
+    getSelectedCR()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def opencatalog():
-    '''public void opencatalog(final CatalogRemote catData)
+    '''returns None\n\n
+    opencatalog(final CatalogRemote catData)\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def opennewcart():
-    '''public void opennewcart()
+    '''returns None\n\n
+    opennewcart()\n
     '''
 def makeCatalogDefaultFromList():
-    '''public void makeCatalogDefaultFromList()
+    '''returns None\n\n
+    makeCatalogDefaultFromList()\n
     '''
 def makeCatalogDefault():
-    '''public void makeCatalogDefault()
+    '''returns None\n\n
+    makeCatalogDefault()\n
     '''
 def makeCatalogDefaultCommon():
-    '''public void makeCatalogDefaultCommon(final CatalogRemote catMbo)
+    '''returns None\n\n
+    makeCatalogDefaultCommon(final CatalogRemote catMbo)\n
     '''
 def openCartFrmOffCat():
-    '''public int openCartFrmOffCat()
+    '''returns int\n\n
+    openCartFrmOffCat()\n
     '''
 def viewRequests():
-    '''public int viewRequests()
+    '''returns int\n\n
+    viewRequests()\n
     '''
 def viewcartforcurrentcr():
-    '''public int viewcartforcurrentcr()
+    '''returns int\n\n
+    viewcartforcurrentcr()\n
     '''
 def showAllOfferings():
-    '''public int showAllOfferings()
+    '''returns int\n\n
+    showAllOfferings()\n
     '''
 def showFavoriteOfferings():
-    '''public int showFavoriteOfferings()
+    '''returns int\n\n
+    showFavoriteOfferings()\n
     '''
 def updateTktInfo():
-    '''public void updateTktInfo(final OfferingRemote off)
+    '''returns None\n\n
+    updateTktInfo(final OfferingRemote off)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def getMboForUniqueIdNoTableInvalidate():
-    '''public MboRemote getMboForUniqueIdNoTableInvalidate(final long uid)
+    '''returns MboRemote\n\n
+    getMboForUniqueIdNoTableInvalidate(final long uid)\n
     '''
 def returnToShopExp():
-    '''public void returnToShopExp()
+    '''returns None\n\n
+    returnToShopExp()\n
     '''
 def viewpmscdetails():
-    '''public int viewpmscdetails()
+    '''returns int\n\n
+    viewpmscdetails()\n
     '''
 def searchOffers():
-    '''public int searchOffers()
-    '''
-def loadDialog():
-    '''public static int loadDialog(final String dialogId, final String appname, final WebClientSession wcs)
-    '''
-def findDialog():
-    '''public static PageInstance findDialog(final String dialogId, final String appname, final WebClientSession wcs)
+    '''returns int\n\n
+    searchOffers()\n
     '''

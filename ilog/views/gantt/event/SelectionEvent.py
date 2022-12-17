@@ -1,18 +1,24 @@
-def SelectionEvent():
-    '''public SelectionEvent(final Object source, final boolean a)
+def ():
+    '''returns SelectionEvent\n\n
+    (final Object source, final boolean a)\n
     '''
 def isObjectSelected():
-    '''public boolean isObjectSelected()
+    '''returns boolean\n\n
+    isObjectSelected()\n
     '''
 def isSelected():
-    '''public boolean isSelected()
+    '''returns boolean\n\n
+    isSelected()\n
     '''
 def isAdjusting():
-    '''public boolean isAdjusting()
+    '''returns boolean\n\n
+    isAdjusting()\n
     '''
 def setAdjusting():
-    '''public void setAdjusting(final boolean b)
+    '''returns None\n\n
+    setAdjusting(final boolean b)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

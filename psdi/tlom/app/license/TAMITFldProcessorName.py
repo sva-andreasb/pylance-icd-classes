@@ -1,16 +1,21 @@
-def TAMITFldProcessorName():
-    '''public TAMITFldProcessorName(final MboValue mbv)
+def ():
+    '''returns TAMITFldProcessorName\n\n
+    (final MboValue mbv)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
-    public void validate(final long theProcessorID, final String theProcessorName)
+    '''returns None\n\n
+    validate()\n
+    validate(final long theProcessorID, final String theProcessorName)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

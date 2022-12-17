@@ -1,9 +1,8 @@
 def getAuthApp():
-    '''public String getAuthApp(final String context, final String objectName)
+    '''returns String\n\n
+    getAuthApp(final String context, final String objectName)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getInstance():
-    '''public static final ObjectAppAuthCache getInstance()
+    '''returns String\n\n
+    getName()\n
     '''

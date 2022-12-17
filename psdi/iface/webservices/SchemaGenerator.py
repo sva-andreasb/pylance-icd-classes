@@ -3,34 +3,44 @@ ML_SUPPORTED_DOC = "String  \"Multiple languages supported\""
 MAXOCCURSUNBOUNDED = "String  \"unbounded\""
 BASESCHEMADIR = "String  \"schema\""
 USEOPTIONAL = "String  \"optional\""
-def SchemaGenerator():
-    '''public SchemaGenerator()
-    public SchemaGenerator(final Map<String, Element> schemaElements)
+def ():
+    '''returns SchemaGenerator\n\n
+    ()\n
+    (final Map<String, Element> schemaElements)\n
     '''
 def getTargetNS():
-    '''public String getTargetNS()
+    '''returns String\n\n
+    getTargetNS()\n
     '''
 def isSchemaGenerated():
-    '''public boolean isSchemaGenerated()
+    '''returns boolean\n\n
+    isSchemaGenerated()\n
     '''
 def getSchemaFile():
-    '''public File getSchemaFile()
+    '''returns File\n\n
+    getSchemaFile()\n
     '''
 def getSchemaElementFor():
-    '''public String getSchemaElementFor(final String identifier)
+    '''returns String\n\n
+    getSchemaElementFor(final String identifier)\n
     '''
 def getSchemaDocument():
-    '''public Document getSchemaDocument()
+    '''returns Document\n\n
+    getSchemaDocument()\n
     '''
 def generateSampleXml():
-    '''public String generateSampleXml(final String identifier)
+    '''returns String\n\n
+    generateSampleXml(final String identifier)\n
     '''
 def generateSchemaElements():
-    '''public void generateSchemaElements()
+    '''returns None\n\n
+    generateSchemaElements()\n
     '''
 def generateSchema():
-    '''public void generateSchema()
+    '''returns None\n\n
+    generateSchema()\n
     '''
 def generateSchemaAsDcoument():
-    '''public Document generateSchemaAsDcoument()
+    '''returns Document\n\n
+    generateSchemaAsDcoument()\n
     '''

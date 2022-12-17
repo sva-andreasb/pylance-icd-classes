@@ -1,15 +1,20 @@
-def ImageGraphics2D():
-    '''public ImageGraphics2D(final ImageInfo info, final Graphics2DImagePainter painter)
+def ():
+    '''returns ImageGraphics2D\n\n
+    (final ImageInfo info, final Graphics2DImagePainter painter)\n
     '''
 def getFlavor():
-    '''public ImageFlavor getFlavor()
+    '''returns ImageFlavor\n\n
+    getFlavor()\n
     '''
 def isCacheable():
-    '''public boolean isCacheable()
+    '''returns boolean\n\n
+    isCacheable()\n
     '''
 def getGraphics2DImagePainter():
-    '''public Graphics2DImagePainter getGraphics2DImagePainter()
+    '''returns Graphics2DImagePainter\n\n
+    getGraphics2DImagePainter()\n
     '''
 def setGraphics2DImagePainter():
-    '''public void setGraphics2DImagePainter(final Graphics2DImagePainter painter)
+    '''returns None\n\n
+    setGraphics2DImagePainter(final Graphics2DImagePainter painter)\n
     '''

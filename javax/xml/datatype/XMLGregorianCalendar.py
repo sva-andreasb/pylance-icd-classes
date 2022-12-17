@@ -1,17 +1,22 @@
 def setTime():
-    '''public void setTime(final int n, final int n2, final int n3)
-    public void setTime(final int hour, final int minute, final int second, final BigDecimal fractionalSecond)
-    public void setTime(final int hour, final int minute, final int second, final int millisecond)
+    '''returns None\n\n
+    setTime(final int n, final int n2, final int n3)\n
+    setTime(final int hour, final int minute, final int second, final BigDecimal fractionalSecond)\n
+    setTime(final int hour, final int minute, final int second, final int millisecond)\n
     '''
 def getMillisecond():
-    '''public int getMillisecond()
+    '''returns int\n\n
+    getMillisecond()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

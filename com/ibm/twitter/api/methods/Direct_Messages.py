@@ -1,6 +1,8 @@
-def Direct_Messages():
-    '''public Direct_Messages(final long lng)
+def ():
+    '''returns Direct_Messages\n\n
+    (final long lng)\n
     '''
 def getResult():
-    '''public List<DirectMessage> getResult()
+    '''returns List<DirectMessage>\n\n
+    getResult()\n
     '''

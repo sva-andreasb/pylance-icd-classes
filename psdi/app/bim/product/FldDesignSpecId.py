@@ -1,4 +1,5 @@
-def FldDesignSpecId():
-    '''public FldDesignSpecId(final MboValue mbv)
-    public FldDesignSpecId(final MboValue mbv, final String criteriaName)
+def ():
+    '''returns FldDesignSpecId\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String criteriaName)\n
     '''

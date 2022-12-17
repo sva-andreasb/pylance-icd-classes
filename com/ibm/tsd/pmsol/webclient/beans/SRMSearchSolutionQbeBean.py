@@ -3,33 +3,43 @@ FR2CODE = "String  \"fr2code_longdescription\""
 PROBLEMCODE = "String  \"problemcode_longdescription\""
 SRMRTEQBE = "String  \"SRMRTESAVEDQBE\""
 DEBUG_ON = "boolean  false"
-def SRMSearchSolutionQbeBean():
-    '''public SRMSearchSolutionQbeBean()
+def ():
+    '''returns SRMSearchSolutionQbeBean\n\n
+    ()\n
     '''
 def checkQuery():
-    '''public void checkQuery(final DataBean results)
+    '''returns None\n\n
+    checkQuery(final DataBean results)\n
     '''
 def clearqryandfld():
-    '''public int clearqryandfld()
+    '''returns int\n\n
+    clearqryandfld()\n
     '''
 def clearfield():
-    '''public int clearfield()
+    '''returns int\n\n
+    clearfield()\n
     '''
 def restoredefaultqry():
-    '''public int restoredefaultqry()
+    '''returns int\n\n
+    restoredefaultqry()\n
     '''
 def clearfieldExec():
-    '''public int clearfieldExec()
+    '''returns int\n\n
+    clearfieldExec()\n
     '''
 def clearqryandfldExec():
-    '''public int clearqryandfldExec()
+    '''returns int\n\n
+    clearqryandfldExec()\n
     '''
 def restoredefaultqryExec():
-    '''public int restoredefaultqryExec()
+    '''returns int\n\n
+    restoredefaultqryExec()\n
     '''
 def qbeclear():
-    '''public int qbeclear()
+    '''returns int\n\n
+    qbeclear()\n
     '''
 def qbeclearExec():
-    '''public int qbeclearExec()
+    '''returns int\n\n
+    qbeclearExec()\n
     '''

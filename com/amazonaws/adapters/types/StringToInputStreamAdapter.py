@@ -1,3 +1,4 @@
 def adapt():
-    '''public InputStream adapt(final String source)
+    '''returns InputStream\n\n
+    adapt(final String source)\n
     '''

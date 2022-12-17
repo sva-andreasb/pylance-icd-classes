@@ -1,6 +1,8 @@
-def FldWOCalcPriority():
-    '''public FldWOCalcPriority(final MboValue mbv)
+def ():
+    '''returns FldWOCalcPriority\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

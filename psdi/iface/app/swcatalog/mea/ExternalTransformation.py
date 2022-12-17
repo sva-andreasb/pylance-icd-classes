@@ -1,9 +1,12 @@
-def ExternalTransformation():
-    '''public ExternalTransformation()
+def ():
+    '''returns ExternalTransformation\n\n
+    ()\n
     '''
 def transformXml():
-    '''public void transformXml(final String xslfile, final String catalogId, final String xmlInputFilePath, final String xmlOutputFilePath)
+    '''returns None\n\n
+    transformXml(final String xslfile, final String catalogId, final String xmlInputFilePath, final String xmlOutputFilePath)\n
     '''
 def runMeaLoad():
-    '''public void runMeaLoad(final String xmlInputFilePath, final String serviceName)
+    '''returns None\n\n
+    runMeaLoad(final String xmlInputFilePath, final String serviceName)\n
     '''

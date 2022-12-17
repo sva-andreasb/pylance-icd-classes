@@ -1,3 +1,4 @@
-def FldAssetVendor():
-    '''public FldAssetVendor(final MboValue mbv)
+def ():
+    '''returns FldAssetVendor\n\n
+    (final MboValue mbv)\n
     '''

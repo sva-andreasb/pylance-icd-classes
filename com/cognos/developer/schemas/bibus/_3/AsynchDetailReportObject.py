@@ -1,31 +1,21 @@
-def AsynchDetailReportObject():
-    '''public AsynchDetailReportObject()
-    public AsynchDetailReportObject(final AuthoredReport report, final boolean upgraded)
+def ():
+    '''returns AsynchDetailReportObject\n\n
+    ()\n
+    (final AuthoredReport report, final boolean upgraded)\n
     '''
 def getReport():
-    '''public AuthoredReport getReport()
+    '''returns AuthoredReport\n\n
+    getReport()\n
     '''
 def setReport():
-    '''public void setReport(final AuthoredReport report)
+    '''returns None\n\n
+    setReport(final AuthoredReport report)\n
     '''
 def isUpgraded():
-    '''public boolean isUpgraded()
+    '''returns boolean\n\n
+    isUpgraded()\n
     '''
 def setUpgraded():
-    '''public void setUpgraded(final boolean upgraded)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setUpgraded(final boolean upgraded)\n
     '''

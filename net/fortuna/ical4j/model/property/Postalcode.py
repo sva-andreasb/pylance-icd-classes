@@ -1,21 +1,16 @@
-def Postalcode():
-    '''public Postalcode()
-    public Postalcode(final String aValue)
-    public Postalcode(final ParameterList aList, final String aValue)
-    '''
-def setValue():
-    '''public final void setValue(final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final String aValue)\n
+    (final ParameterList aList, final String aValue)\n
+    ()\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns None\n\n
+    validate()\n
     '''
 def createProperty():
-    '''public Postalcode createProperty(final ParameterList parameters, final String value)
-    public Postalcode createProperty()
+    '''returns Postalcode\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

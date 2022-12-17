@@ -1,24 +1,32 @@
 def getBytesRef():
-    '''public BytesRef getBytesRef()
+    '''returns BytesRef\n\n
+    getBytesRef()\n
     '''
 def setBytesRef():
-    '''public void setBytesRef(final BytesRef bytes)
+    '''returns None\n\n
+    setBytesRef(final BytesRef bytes)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def copyTo():
-    '''public void copyTo(final AttributeImpl target)
+    '''returns None\n\n
+    copyTo(final AttributeImpl target)\n
     '''
 def clone():
-    '''public AttributeImpl clone()
+    '''returns AttributeImpl\n\n
+    clone()\n
     '''
 def reflectWith():
-    '''public void reflectWith(final AttributeReflector reflector)
+    '''returns None\n\n
+    reflectWith(final AttributeReflector reflector)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

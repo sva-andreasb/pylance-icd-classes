@@ -1,3 +1,4 @@
-def LburpEndRequest():
-    '''public LburpEndRequest(final int n)
+def ():
+    '''returns LburpEndRequest\n\n
+    (final int n)\n
     '''

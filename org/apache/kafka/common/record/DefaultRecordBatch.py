@@ -2,119 +2,147 @@ LAST_OFFSET_DELTA_OFFSET = "int  23"
 RECORDS_COUNT_OFFSET = "int  57"
 RECORD_BATCH_OVERHEAD = "int  61"
 def magic():
-    '''public byte magic()
+    '''returns byte\n\n
+    magic()\n
     '''
 def ensureValid():
-    '''public void ensureValid()
+    '''returns None\n\n
+    ensureValid()\n
     '''
 def firstTimestamp():
-    '''public long firstTimestamp()
+    '''returns long\n\n
+    firstTimestamp()\n
     '''
 def maxTimestamp():
-    '''public long maxTimestamp()
+    '''returns long\n\n
+    maxTimestamp()\n
     '''
 def timestampType():
-    '''public TimestampType timestampType()
+    '''returns TimestampType\n\n
+    timestampType()\n
     '''
 def baseOffset():
-    '''public long baseOffset()
-    public long baseOffset()
+    '''returns long\n\n
+    baseOffset()\n
+    baseOffset()\n
     '''
 def lastOffset():
-    '''public long lastOffset()
-    public long lastOffset()
+    '''returns long\n\n
+    lastOffset()\n
+    lastOffset()\n
     '''
 def producerId():
-    '''public long producerId()
-    public long producerId()
+    '''returns long\n\n
+    producerId()\n
+    producerId()\n
     '''
 def producerEpoch():
-    '''public short producerEpoch()
-    public short producerEpoch()
+    '''returns short\n\n
+    producerEpoch()\n
+    producerEpoch()\n
     '''
 def baseSequence():
-    '''public int baseSequence()
-    public int baseSequence()
+    '''returns int\n\n
+    baseSequence()\n
+    baseSequence()\n
     '''
 def lastSequence():
-    '''public int lastSequence()
-    public int lastSequence()
+    '''returns int\n\n
+    lastSequence()\n
+    lastSequence()\n
     '''
 def compressionType():
-    '''public CompressionType compressionType()
+    '''returns CompressionType\n\n
+    compressionType()\n
     '''
 def sizeInBytes():
-    '''public int sizeInBytes()
-    public static int sizeInBytes(final long baseOffset, final Iterable<Record> records)
-    public static int sizeInBytes(final Iterable<SimpleRecord> records)
+    '''returns int\n\n
+    sizeInBytes()\n
     '''
 def countOrNull():
-    '''public Integer countOrNull()
-    public Integer countOrNull()
+    '''returns Integer\n\n
+    countOrNull()\n
+    countOrNull()\n
     '''
 def writeTo():
-    '''public void writeTo(final ByteBuffer buffer)
-    public void writeTo(final ByteBufferOutputStream outputStream)
+    '''returns None\n\n
+    writeTo(final ByteBuffer buffer)\n
+    writeTo(final ByteBufferOutputStream outputStream)\n
     '''
 def isTransactional():
-    '''public boolean isTransactional()
-    public boolean isTransactional()
+    '''returns boolean\n\n
+    isTransactional()\n
+    isTransactional()\n
     '''
 def isControlBatch():
-    '''public boolean isControlBatch()
-    public boolean isControlBatch()
+    '''returns boolean\n\n
+    isControlBatch()\n
+    isControlBatch()\n
     '''
 def partitionLeaderEpoch():
-    '''public int partitionLeaderEpoch()
-    public int partitionLeaderEpoch()
+    '''returns int\n\n
+    partitionLeaderEpoch()\n
+    partitionLeaderEpoch()\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def iterator():
-    '''public Iterator<Record> iterator()
+    '''returns Iterator<Record>\n\n
+    iterator()\n
     '''
 def streamingIterator():
-    '''public CloseableIterator<Record> streamingIterator(final BufferSupplier bufferSupplier)
+    '''returns CloseableIterator<Record>\n\n
+    streamingIterator(final BufferSupplier bufferSupplier)\n
     '''
 def setLastOffset():
-    '''public void setLastOffset(final long offset)
+    '''returns None\n\n
+    setLastOffset(final long offset)\n
     '''
 def setMaxTimestamp():
-    '''public void setMaxTimestamp(final TimestampType timestampType, final long maxTimestamp)
+    '''returns None\n\n
+    setMaxTimestamp(final TimestampType timestampType, final long maxTimestamp)\n
     '''
 def setPartitionLeaderEpoch():
-    '''public void setPartitionLeaderEpoch(final int epoch)
+    '''returns None\n\n
+    setPartitionLeaderEpoch(final int epoch)\n
     '''
 def checksum():
-    '''public long checksum()
-    public long checksum()
+    '''returns long\n\n
+    checksum()\n
+    checksum()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def writeEmptyHeader():
-    '''public static void writeEmptyHeader(final ByteBuffer buffer, final byte magic, final long producerId, final short producerEpoch, final int baseSequence, final long baseOffset, final long lastOffset, final int partitionLeaderEpoch, final TimestampType timestampType, final long timestamp, final boolean isTransactional, final boolean isControlRecord)
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def RecordIterator():
-    '''public RecordIterator()
+def ():
+    '''returns RecordIterator\n\n
+    ()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Record next()
+    '''returns Record\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

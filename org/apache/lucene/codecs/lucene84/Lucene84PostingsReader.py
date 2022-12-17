@@ -1,126 +1,139 @@
-def Lucene84PostingsReader():
-    '''public Lucene84PostingsReader(final SegmentReadState state)
+def ():
+    '''returns BlockImpactsEverythingEnum\n\n
+    (final SegmentReadState state)\n
+    (final FieldInfo fieldInfo)\n
+    (final FieldInfo fieldInfo)\n
+    (final FieldInfo fieldInfo, final Lucene84PostingsFormat.IntBlockTermState termState)\n
+    (final FieldInfo fieldInfo, final Lucene84PostingsFormat.IntBlockTermState termState)\n
+    (final FieldInfo fieldInfo, final Lucene84PostingsFormat.IntBlockTermState termState, final int flags)\n
     '''
 def init():
-    '''public void init(final IndexInput termsIn, final SegmentReadState state)
+    '''returns None\n\n
+    init(final IndexInput termsIn, final SegmentReadState state)\n
     '''
 def newTermState():
-    '''public BlockTermState newTermState()
+    '''returns BlockTermState\n\n
+    newTermState()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def decodeTerm():
-    '''public void decodeTerm(final DataInput in, final FieldInfo fieldInfo, final BlockTermState _termState, final boolean absolute)
+    '''returns None\n\n
+    decodeTerm(final DataInput in, final FieldInfo fieldInfo, final BlockTermState _termState, final boolean absolute)\n
     '''
 def postings():
-    '''public PostingsEnum postings(final FieldInfo fieldInfo, final BlockTermState termState, final PostingsEnum reuse, final int flags)
+    '''returns PostingsEnum\n\n
+    postings(final FieldInfo fieldInfo, final BlockTermState termState, final PostingsEnum reuse, final int flags)\n
     '''
 def impacts():
-    '''public ImpactsEnum impacts(final FieldInfo fieldInfo, final BlockTermState state, final int flags)
+    '''returns ImpactsEnum\n\n
+    impacts(final FieldInfo fieldInfo, final BlockTermState state, final int flags)\n
     '''
 def ramBytesUsed():
-    '''public long ramBytesUsed()
+    '''returns long\n\n
+    ramBytesUsed()\n
     '''
 def checkIntegrity():
-    '''public void checkIntegrity()
+    '''returns None\n\n
+    checkIntegrity()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def BlockDocsEnum():
-    '''public BlockDocsEnum(final FieldInfo fieldInfo)
+    '''returns String\n\n
+    toString()\n
     '''
 def canReuse():
-    '''public boolean canReuse(final IndexInput docIn, final FieldInfo fieldInfo)
-    public boolean canReuse(final IndexInput docIn, final FieldInfo fieldInfo)
+    '''returns boolean\n\n
+    canReuse(final IndexInput docIn, final FieldInfo fieldInfo)\n
+    canReuse(final IndexInput docIn, final FieldInfo fieldInfo)\n
     '''
 def reset():
-    '''public PostingsEnum reset(final Lucene84PostingsFormat.IntBlockTermState termState, final int flags)
-    public EverythingEnum reset(final Lucene84PostingsFormat.IntBlockTermState termState, final int flags)
+    '''returns EverythingEnum\n\n
+    reset(final Lucene84PostingsFormat.IntBlockTermState termState, final int flags)\n
+    reset(final Lucene84PostingsFormat.IntBlockTermState termState, final int flags)\n
     '''
 def freq():
-    '''public int freq()
-    public int freq()
-    public int freq()
-    public int freq()
-    public int freq()
+    '''returns int\n\n
+    freq()\n
+    freq()\n
+    freq()\n
+    freq()\n
+    freq()\n
     '''
 def nextPosition():
-    '''public int nextPosition()
-    public int nextPosition()
-    public int nextPosition()
-    public int nextPosition()
-    public int nextPosition()
+    '''returns int\n\n
+    nextPosition()\n
+    nextPosition()\n
+    nextPosition()\n
+    nextPosition()\n
+    nextPosition()\n
     '''
 def startOffset():
-    '''public int startOffset()
-    public int startOffset()
-    public int startOffset()
-    public int startOffset()
-    public int startOffset()
+    '''returns int\n\n
+    startOffset()\n
+    startOffset()\n
+    startOffset()\n
+    startOffset()\n
+    startOffset()\n
     '''
 def endOffset():
-    '''public int endOffset()
-    public int endOffset()
-    public int endOffset()
-    public int endOffset()
-    public int endOffset()
+    '''returns int\n\n
+    endOffset()\n
+    endOffset()\n
+    endOffset()\n
+    endOffset()\n
+    endOffset()\n
     '''
 def getPayload():
-    '''public BytesRef getPayload()
-    public BytesRef getPayload()
-    public BytesRef getPayload()
-    public BytesRef getPayload()
-    public BytesRef getPayload()
+    '''returns BytesRef\n\n
+    getPayload()\n
+    getPayload()\n
+    getPayload()\n
+    getPayload()\n
+    getPayload()\n
     '''
 def docID():
-    '''public int docID()
-    public int docID()
-    public int docID()
-    public int docID()
-    public int docID()
+    '''returns int\n\n
+    docID()\n
+    docID()\n
+    docID()\n
+    docID()\n
+    docID()\n
     '''
 def nextDoc():
-    '''public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
-    public int nextDoc()
+    '''returns int\n\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
+    nextDoc()\n
     '''
 def advance():
-    '''public int advance(final int target)
-    public int advance(final int target)
-    public int advance(final int target)
-    public int advance(final int target)
-    public int advance(final int target)
+    '''returns int\n\n
+    advance(final int target)\n
+    advance(final int target)\n
+    advance(final int target)\n
+    advance(final int target)\n
+    advance(final int target)\n
     '''
 def cost():
-    '''public long cost()
-    public long cost()
-    public long cost()
-    public long cost()
-    public long cost()
-    '''
-def EverythingEnum():
-    '''public EverythingEnum(final FieldInfo fieldInfo)
-    '''
-def BlockImpactsDocsEnum():
-    '''public BlockImpactsDocsEnum(final FieldInfo fieldInfo, final Lucene84PostingsFormat.IntBlockTermState termState)
+    '''returns long\n\n
+    cost()\n
+    cost()\n
+    cost()\n
+    cost()\n
+    cost()\n
     '''
 def advanceShallow():
-    '''public void advanceShallow(final int target)
-    public void advanceShallow(final int target)
-    public void advanceShallow(final int target)
+    '''returns None\n\n
+    advanceShallow(final int target)\n
+    advanceShallow(final int target)\n
+    advanceShallow(final int target)\n
     '''
 def getImpacts():
-    '''public Impacts getImpacts()
-    public Impacts getImpacts()
-    public Impacts getImpacts()
-    '''
-def BlockImpactsPostingsEnum():
-    '''public BlockImpactsPostingsEnum(final FieldInfo fieldInfo, final Lucene84PostingsFormat.IntBlockTermState termState)
-    '''
-def BlockImpactsEverythingEnum():
-    '''public BlockImpactsEverythingEnum(final FieldInfo fieldInfo, final Lucene84PostingsFormat.IntBlockTermState termState, final int flags)
+    '''returns Impacts\n\n
+    getImpacts()\n
+    getImpacts()\n
+    getImpacts()\n
     '''

@@ -1,12 +1,16 @@
 def associatelicenses():
-    '''public int associatelicenses()
+    '''returns int\n\n
+    associatelicenses()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def associatelicbyproducts():
-    '''public int associatelicbyproducts()
+    '''returns int\n\n
+    associatelicbyproducts()\n
     '''
 def associatelicbyvendor():
-    '''public int associatelicbyvendor()
+    '''returns int\n\n
+    associatelicbyvendor()\n
     '''

@@ -1,25 +1,33 @@
-def IlvDefaultActivityRendererFactory():
-    '''public IlvDefaultActivityRendererFactory(final IlvHierarchyChart ilvHierarchyChart)
-    public IlvDefaultActivityRendererFactory(final IlvGanttConfiguration d)
+def ():
+    '''returns IlvDefaultActivityRendererFactory\n\n
+    (final IlvHierarchyChart ilvHierarchyChart)\n
+    (final IlvGanttConfiguration d)\n
     '''
 def createActivityRenderer():
-    '''public IlvActivityRenderer createActivityRenderer(final IlvActivity ilvActivity)
+    '''returns IlvActivityRenderer\n\n
+    createActivityRenderer(final IlvActivity ilvActivity)\n
     '''
 def getParentActivityRenderer():
-    '''public IlvActivityRenderer getParentActivityRenderer()
+    '''returns IlvActivityRenderer\n\n
+    getParentActivityRenderer()\n
     '''
 def setParentActivityRenderer():
-    '''public void setParentActivityRenderer(final IlvActivityRenderer b)
+    '''returns None\n\n
+    setParentActivityRenderer(final IlvActivityRenderer b)\n
     '''
 def getLeafActivityRenderer():
-    '''public IlvActivityRenderer getLeafActivityRenderer()
+    '''returns IlvActivityRenderer\n\n
+    getLeafActivityRenderer()\n
     '''
 def setLeafActivityRenderer():
-    '''public void setLeafActivityRenderer(final IlvActivityRenderer a)
+    '''returns None\n\n
+    setLeafActivityRenderer(final IlvActivityRenderer a)\n
     '''
 def getMilestoneRenderer():
-    '''public IlvActivityRenderer getMilestoneRenderer()
+    '''returns IlvActivityRenderer\n\n
+    getMilestoneRenderer()\n
     '''
 def setMilestoneRenderer():
-    '''public void setMilestoneRenderer(final IlvActivityRenderer c)
+    '''returns None\n\n
+    setMilestoneRenderer(final IlvActivityRenderer c)\n
     '''

@@ -1,23 +1,30 @@
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def mark():
-    '''public void mark(final int readLimit)
+    '''returns None\n\n
+    mark(final int readLimit)\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] buf)
-    public int read(final byte[] buf, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] buf)\n
+    read(final byte[] buf, final int off, final int len)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''

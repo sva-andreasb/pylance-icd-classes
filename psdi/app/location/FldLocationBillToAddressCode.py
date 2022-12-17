@@ -1,6 +1,8 @@
-def FldLocationBillToAddressCode():
-    '''public FldLocationBillToAddressCode(final MboValue mbv)
+def ():
+    '''returns FldLocationBillToAddressCode\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

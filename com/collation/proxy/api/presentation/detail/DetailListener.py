@@ -1,18 +1,24 @@
 def setDisplayType():
-    '''public void setDisplayType(final int type)
+    '''returns None\n\n
+    setDisplayType(final int type)\n
     '''
 def setModelObject():
-    '''public void setModelObject(final ModelObject mo)
+    '''returns None\n\n
+    setModelObject(final ModelObject mo)\n
     '''
 def getDisplaytype():
-    '''public int getDisplaytype()
+    '''returns int\n\n
+    getDisplaytype()\n
     '''
 def getModelObject():
-    '''public ModelObject getModelObject()
+    '''returns ModelObject\n\n
+    getModelObject()\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final long version)
+    '''returns None\n\n
+    setVersion(final long version)\n
     '''

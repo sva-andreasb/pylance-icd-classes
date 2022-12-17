@@ -1,15 +1,20 @@
-def AssetCILinker():
-    '''public AssetCILinker(final DataSetContext context)
+def ():
+    '''returns AssetCILinker\n\n
+    (final DataSetContext context)\n
     '''
 def link():
-    '''public Map[][] link()
+    '''returns Map[][]\n\n
+    link()\n
     '''
 def processLinkerResults():
-    '''public void processLinkerResults(final List<CCILinker.LinkResult> results)
+    '''returns None\n\n
+    processLinkerResults(final List<CCILinker.LinkResult> results)\n
     '''
 def createGenericAsset():
-    '''public boolean createGenericAsset(final String ciNum, final String disguid, final LinkValidatorMetaLoader linkRuleMetaLoader)
+    '''returns boolean\n\n
+    createGenericAsset(final String ciNum, final String disguid, final LinkValidatorMetaLoader linkRuleMetaLoader)\n
     '''
 def createGenericCI():
-    '''public boolean createGenericCI(final String assetNum, final String site, final String disguid, final LinkValidatorMetaLoader linkRuleMetaLoader)
+    '''returns boolean\n\n
+    createGenericCI(final String assetNum, final String site, final String disguid, final LinkValidatorMetaLoader linkRuleMetaLoader)\n
     '''

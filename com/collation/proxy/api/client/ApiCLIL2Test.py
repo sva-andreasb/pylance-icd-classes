@@ -1,30 +1,32 @@
-def ApiCLIL2Test():
-    '''public ApiCLIL2Test(final String arg0)
-    '''
-def main():
-    '''public static void main(final String[] args)
-    '''
-def suite():
-    '''public static Test suite()
+def ():
+    '''returns ApiCLIL2Test\n\n
+    (final String arg0)\n
     '''
 def testFind():
-    '''public void testFind()
+    '''returns None\n\n
+    testFind()\n
     '''
 def testFindWithDepth():
-    '''public void testFindWithDepth()
+    '''returns None\n\n
+    testFindWithDepth()\n
     '''
 def testChanges1():
-    '''public void testChanges1()
+    '''returns None\n\n
+    testChanges1()\n
     '''
 def testChanges2():
-    '''public void testChanges2()
+    '''returns None\n\n
+    testChanges2()\n
     '''
 def testChanges3():
-    '''public void testChanges3()
+    '''returns None\n\n
+    testChanges3()\n
     '''
 def testDiscoverStatus():
-    '''public void testDiscoverStatus()
+    '''returns None\n\n
+    testDiscoverStatus()\n
     '''
 def testVersion():
-    '''public void testVersion()
+    '''returns None\n\n
+    testVersion()\n
     '''

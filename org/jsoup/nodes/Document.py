@@ -1,83 +1,99 @@
-def Document():
-    '''public Document(final String baseUri)
-    '''
-def createShell():
-    '''public static Document createShell(final String baseUri)
+def ():
+    '''returns OutputSettings\n\n
+    (final String baseUri)\n
+    ()\n
     '''
 def location():
-    '''public String location()
+    '''returns String\n\n
+    location()\n
     '''
 def head():
-    '''public Element head()
+    '''returns Element\n\n
+    head()\n
     '''
 def body():
-    '''public Element body()
+    '''returns Element\n\n
+    body()\n
     '''
 def title():
-    '''public String title()
-    public void title(final String title)
+    '''returns None\n\n
+    title()\n
+    title(final String title)\n
     '''
 def createElement():
-    '''public Element createElement(final String tagName)
+    '''returns Element\n\n
+    createElement(final String tagName)\n
     '''
 def normalise():
-    '''public Document normalise()
+    '''returns Document\n\n
+    normalise()\n
     '''
 def outerHtml():
-    '''public String outerHtml()
+    '''returns String\n\n
+    outerHtml()\n
     '''
 def text():
-    '''public Element text(final String text)
+    '''returns Element\n\n
+    text(final String text)\n
     '''
 def nodeName():
-    '''public String nodeName()
+    '''returns String\n\n
+    nodeName()\n
     '''
 def charset():
-    '''public void charset(final Charset charset)
-    public Charset charset()
-    public Charset charset()
-    public OutputSettings charset(final Charset charset)
-    public OutputSettings charset(final String charset)
+    '''returns OutputSettings\n\n
+    charset(final Charset charset)\n
+    charset()\n
+    charset()\n
+    charset(final Charset charset)\n
+    charset(final String charset)\n
     '''
 def updateMetaCharsetElement():
-    '''public void updateMetaCharsetElement(final boolean update)
-    public boolean updateMetaCharsetElement()
+    '''returns boolean\n\n
+    updateMetaCharsetElement(final boolean update)\n
+    updateMetaCharsetElement()\n
     '''
 def clone():
-    '''public Document clone()
-    public OutputSettings clone()
+    '''returns OutputSettings\n\n
+    clone()\n
+    clone()\n
     '''
 def outputSettings():
-    '''public OutputSettings outputSettings()
-    public Document outputSettings(final OutputSettings outputSettings)
+    '''returns Document\n\n
+    outputSettings()\n
+    outputSettings(final OutputSettings outputSettings)\n
     '''
 def quirksMode():
-    '''public QuirksMode quirksMode()
-    public Document quirksMode(final QuirksMode quirksMode)
+    '''returns Document\n\n
+    quirksMode()\n
+    quirksMode(final QuirksMode quirksMode)\n
     '''
 def parser():
-    '''public Parser parser()
-    public Document parser(final Parser parser)
-    '''
-def OutputSettings():
-    '''public OutputSettings()
+    '''returns Document\n\n
+    parser()\n
+    parser(final Parser parser)\n
     '''
 def escapeMode():
-    '''public OutputSettings escapeMode(final Entities.EscapeMode escapeMode)
+    '''returns OutputSettings\n\n
+    escapeMode(final Entities.EscapeMode escapeMode)\n
     '''
 def syntax():
-    '''public Syntax syntax()
-    public OutputSettings syntax(final Syntax syntax)
+    '''returns OutputSettings\n\n
+    syntax()\n
+    syntax(final Syntax syntax)\n
     '''
 def prettyPrint():
-    '''public boolean prettyPrint()
-    public OutputSettings prettyPrint(final boolean pretty)
+    '''returns OutputSettings\n\n
+    prettyPrint()\n
+    prettyPrint(final boolean pretty)\n
     '''
 def outline():
-    '''public boolean outline()
-    public OutputSettings outline(final boolean outlineMode)
+    '''returns OutputSettings\n\n
+    outline()\n
+    outline(final boolean outlineMode)\n
     '''
 def indentAmount():
-    '''public int indentAmount()
-    public OutputSettings indentAmount(final int indentAmount)
+    '''returns OutputSettings\n\n
+    indentAmount()\n
+    indentAmount(final int indentAmount)\n
     '''

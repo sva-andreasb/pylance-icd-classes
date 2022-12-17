@@ -1,31 +1,41 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object o)
+    '''returns boolean\n\n
+    containsValue(final Object o)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String s)
+    '''returns boolean\n\n
+    containsKey(final String s)\n
     '''
 def values():
-    '''public Collection values()
+    '''returns Collection\n\n
+    values()\n
     '''
 def getCompositeType():
-    '''public CompositeType getCompositeType()
+    '''returns CompositeType\n\n
+    getCompositeType()\n
     '''
 def get():
-    '''public Object get(final String s)
+    '''returns Object\n\n
+    get(final String s)\n
     '''
 def getAll():
-    '''public Object[] getAll(final String[] array)
+    '''returns Object[]\n\n
+    getAll(final String[] array)\n
     '''
-def CompositeDataSupport():
-    '''public CompositeDataSupport(final CompositeType compositeType, final Map map)
-    public CompositeDataSupport(final CompositeType compositeType, final String[] a, final Object[] array)
+def ():
+    '''returns CompositeDataSupport\n\n
+    (final CompositeType compositeType, final Map map)\n
+    (final CompositeType compositeType, final String[] a, final Object[] array)\n
     '''

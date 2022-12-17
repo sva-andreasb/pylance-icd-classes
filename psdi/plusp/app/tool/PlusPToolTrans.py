@@ -1,12 +1,16 @@
-def PlusPToolTrans():
-    '''public PlusPToolTrans(final MboSet arg0)
+def ():
+    '''returns PlusPToolTrans\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def updateActualToolPrice():
-    '''public void updateActualToolPrice()
+    '''returns None\n\n
+    updateActualToolPrice()\n
     '''

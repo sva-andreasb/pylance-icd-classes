@@ -1,21 +1,20 @@
-def ModelAppBean():
-    '''public ModelAppBean()
+def ():
+    '''returns ModelAppBean\n\n
+    ()\n
     '''
 def loadModelFile():
-    '''public int loadModelFile()
-    '''
-def setValue():
-    '''public synchronized void setValue(final String attribute, final MboRemote mboRemote)
+    '''returns int\n\n
+    loadModelFile()\n
     '''
 def eventTabChanged():
-    '''public int eventTabChanged()
+    '''returns int\n\n
+    eventTabChanged()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
-    '''
-def insert():
-    '''public synchronized void insert()
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''

@@ -1,18 +1,23 @@
-def PdfNumber():
-    '''public PdfNumber(final String content)
-    public PdfNumber(final int value)
-    public PdfNumber(final double value)
-    public PdfNumber(final float value)
+def ():
+    '''returns PdfNumber\n\n
+    (final String content)\n
+    (final int value)\n
+    (final double value)\n
+    (final float value)\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def increment():
-    '''public void increment()
+    '''returns None\n\n
+    increment()\n
     '''

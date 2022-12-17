@@ -1,12 +1,16 @@
-def QuietWriter():
-    '''public QuietWriter(final Writer writer, final ErrorHandler errorHandler)
+def ():
+    '''returns QuietWriter\n\n
+    (final Writer writer, final ErrorHandler errorHandler)\n
     '''
 def write():
-    '''public void write(final String string)
+    '''returns None\n\n
+    write(final String string)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler eh)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler eh)\n
     '''

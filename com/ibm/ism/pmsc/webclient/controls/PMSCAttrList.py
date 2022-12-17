@@ -1,28 +1,37 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def PMSCAttrList():
-    '''public PMSCAttrList()
+def ():
+    '''returns PMSCAttrList\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def initialize_onticketspec():
-    '''public void initialize_onticketspec()
+    '''returns None\n\n
+    initialize_onticketspec()\n
     '''
 def initializeNewest():
-    '''public void initializeNewest()
+    '''returns None\n\n
+    initializeNewest()\n
     '''
 def initializeNew():
-    '''public void initializeNew()
+    '''returns None\n\n
+    initializeNew()\n
     '''
 def bindComponents():
-    '''public void bindComponents(final Iterator components)
+    '''returns None\n\n
+    bindComponents(final Iterator components)\n
     '''
 def initializeOld():
-    '''public void initializeOld()
+    '''returns None\n\n
+    initializeOld()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''

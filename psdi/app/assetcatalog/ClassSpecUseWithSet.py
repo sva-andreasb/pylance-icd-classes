@@ -1,3 +1,4 @@
-def ClassSpecUseWithSet():
-    '''public ClassSpecUseWithSet(final MboServerInterface ms)
+def ():
+    '''returns ClassSpecUseWithSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def BadDescriptionException():
-    '''public BadDescriptionException(final Resource type, final String string)
+def ():
+    '''returns BadDescriptionException\n\n
+    (final Resource type, final String string)\n
     '''

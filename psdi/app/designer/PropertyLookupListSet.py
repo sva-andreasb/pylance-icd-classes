@@ -1,6 +1,8 @@
-def PropertyLookupListSet():
-    '''public PropertyLookupListSet(final MboServerInterface ms)
+def ():
+    '''returns PropertyLookupListSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

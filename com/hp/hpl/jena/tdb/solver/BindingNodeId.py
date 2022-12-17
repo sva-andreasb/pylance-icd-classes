@@ -1,13 +1,17 @@
-def BindingNodeId():
-    '''public BindingNodeId(final BindingNodeId other)
-    public BindingNodeId(final Binding binding)
+def ():
+    '''returns BindingNodeId\n\n
+    (final BindingNodeId other)\n
+    (final Binding binding)\n
     '''
 def getParentBinding():
-    '''public Binding getParentBinding()
+    '''returns Binding\n\n
+    getParentBinding()\n
     '''
 def put():
-    '''public void put(final Var v, final NodeId n)
+    '''returns None\n\n
+    put(final Var v, final NodeId n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

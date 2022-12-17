@@ -1,3 +1,4 @@
-def SKDResGanttProp():
-    '''public SKDResGanttProp(final MboSet ms)
+def ():
+    '''returns SKDResGanttProp\n\n
+    (final MboSet ms)\n
     '''

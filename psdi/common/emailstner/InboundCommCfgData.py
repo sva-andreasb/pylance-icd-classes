@@ -1,147 +1,196 @@
-def InboundCommCfgData():
-    '''public InboundCommCfgData()
+def ():
+    '''returns InboundCommCfgData\n\n
+    ()\n
     '''
 def setOAuthClientId():
-    '''public void setOAuthClientId(final String clientId)
+    '''returns None\n\n
+    setOAuthClientId(final String clientId)\n
     '''
 def getOAuthClientId():
-    '''public String getOAuthClientId()
+    '''returns String\n\n
+    getOAuthClientId()\n
     '''
 def setOAuthClientSecret():
-    '''public void setOAuthClientSecret(final String clientSecret)
+    '''returns None\n\n
+    setOAuthClientSecret(final String clientSecret)\n
     '''
 def getOAuthClientSecret():
-    '''public String getOAuthClientSecret()
+    '''returns String\n\n
+    getOAuthClientSecret()\n
     '''
 def setOAuthTokenUrl():
-    '''public void setOAuthTokenUrl(final String tokenUrl)
+    '''returns None\n\n
+    setOAuthTokenUrl(final String tokenUrl)\n
     '''
 def getOAuthTokenUrl():
-    '''public String getOAuthTokenUrl()
+    '''returns String\n\n
+    getOAuthTokenUrl()\n
     '''
 def setOAuthRefreshToken():
-    '''public void setOAuthRefreshToken(final String refreshToken)
+    '''returns None\n\n
+    setOAuthRefreshToken(final String refreshToken)\n
     '''
 def getOAuthRefreshToken():
-    '''public String getOAuthRefreshToken()
+    '''returns String\n\n
+    getOAuthRefreshToken()\n
     '''
 def setOAuthAccessToken():
-    '''public void setOAuthAccessToken(final String accessToken)
+    '''returns None\n\n
+    setOAuthAccessToken(final String accessToken)\n
     '''
 def getOAuthAccessToken():
-    '''public String getOAuthAccessToken()
+    '''returns String\n\n
+    getOAuthAccessToken()\n
     '''
 def setOAuthAccessTokenExpDate():
-    '''public void setOAuthAccessTokenExpDate(final Date accessTokenExpDate)
+    '''returns None\n\n
+    setOAuthAccessTokenExpDate(final Date accessTokenExpDate)\n
     '''
 def getOAuthAccessTokenExpDate():
-    '''public Date getOAuthAccessTokenExpDate()
+    '''returns Date\n\n
+    getOAuthAccessTokenExpDate()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def setActive():
-    '''public void setActive(final boolean b)
+    '''returns None\n\n
+    setActive(final boolean b)\n
     '''
 def isEmailDeletion():
-    '''public boolean isEmailDeletion()
+    '''returns boolean\n\n
+    isEmailDeletion()\n
     '''
 def setEmailDeletion():
-    '''public void setEmailDeletion(final boolean b)
+    '''returns None\n\n
+    setEmailDeletion(final boolean b)\n
     '''
 def getEmailAddress():
-    '''public String getEmailAddress()
+    '''returns String\n\n
+    getEmailAddress()\n
     '''
 def setEmailAddress():
-    '''public void setEmailAddress(final String string)
+    '''returns None\n\n
+    setEmailAddress(final String string)\n
     '''
 def getMailServerName():
-    '''public String getMailServerName()
+    '''returns String\n\n
+    getMailServerName()\n
     '''
 def setMailServerName():
-    '''public void setMailServerName(final String str)
+    '''returns None\n\n
+    setMailServerName(final String str)\n
     '''
 def getEmailPassword():
-    '''public String getEmailPassword()
+    '''returns String\n\n
+    getEmailPassword()\n
     '''
 def setEmailPassword():
-    '''public void setEmailPassword(final String str)
+    '''returns None\n\n
+    setEmailPassword(final String str)\n
     '''
 def getProtocol():
-    '''public String getProtocol()
+    '''returns String\n\n
+    getProtocol()\n
     '''
 def setProtocol():
-    '''public void setProtocol(final String str)
+    '''returns None\n\n
+    setProtocol(final String str)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String str)
+    '''returns None\n\n
+    setUserName(final String str)\n
     '''
 def getFolder():
-    '''public String getFolder()
+    '''returns String\n\n
+    getFolder()\n
     '''
 def setFolder():
-    '''public void setFolder(final String str)
+    '''returns None\n\n
+    setFolder(final String str)\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def setPort():
-    '''public void setPort(final int num)
+    '''returns None\n\n
+    setPort(final int num)\n
     '''
 def isStartTls():
-    '''public boolean isStartTls()
+    '''returns boolean\n\n
+    isStartTls()\n
     '''
 def setStartTls():
-    '''public void setStartTls(final boolean s)
+    '''returns None\n\n
+    setStartTls(final boolean s)\n
     '''
 def getObjectKeyDel():
-    '''public String getObjectKeyDel()
+    '''returns String\n\n
+    getObjectKeyDel()\n
     '''
 def setObjectKeyDel():
-    '''public void setObjectKeyDel(final String str)
+    '''returns None\n\n
+    setObjectKeyDel(final String str)\n
     '''
 def getConnFactory():
-    '''public String getConnFactory()
+    '''returns String\n\n
+    getConnFactory()\n
     '''
 def setConnFactory():
-    '''public void setConnFactory(final String str)
+    '''returns None\n\n
+    setConnFactory(final String str)\n
     '''
 def getJMSQueue():
-    '''public String getJMSQueue()
+    '''returns String\n\n
+    getJMSQueue()\n
     '''
 def setJMSQueue():
-    '''public void setJMSQueue(final String str)
+    '''returns None\n\n
+    setJMSQueue(final String str)\n
     '''
 def getAdminEmail():
-    '''public String getAdminEmail()
+    '''returns String\n\n
+    getAdminEmail()\n
     '''
 def setAdminEmail():
-    '''public void setAdminEmail(final String str)
+    '''returns None\n\n
+    setAdminEmail(final String str)\n
     '''
 def getAgeThreshold():
-    '''public int getAgeThreshold()
+    '''returns int\n\n
+    getAgeThreshold()\n
     '''
 def setAgeThreshold():
-    '''public void setAgeThreshold(final int age)
+    '''returns None\n\n
+    setAgeThreshold(final int age)\n
     '''
 def setAgeUOM():
-    '''public void setAgeUOM(final String str)
+    '''returns None\n\n
+    setAgeUOM(final String str)\n
     '''
 def getAgeUOM():
-    '''public String getAgeUOM()
+    '''returns String\n\n
+    getAgeUOM()\n
     '''
 def setWFProcess():
-    '''public void setWFProcess(final String str)
+    '''returns None\n\n
+    setWFProcess(final String str)\n
     '''
 def getWFProcess():
-    '''public String getWFProcess()
+    '''returns String\n\n
+    getWFProcess()\n
     '''
 def setAsyncFlag():
-    '''public void setAsyncFlag(final boolean flag)
+    '''returns None\n\n
+    setAsyncFlag(final boolean flag)\n
     '''
 def getAsyncFlag():
-    '''public boolean getAsyncFlag()
+    '''returns boolean\n\n
+    getAsyncFlag()\n
     '''

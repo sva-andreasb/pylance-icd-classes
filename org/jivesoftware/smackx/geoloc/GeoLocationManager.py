@@ -1,21 +1,20 @@
-def GeoLocationManager():
-    '''public GeoLocationManager(final XMPPConnection connection)
-    '''
-def getInstanceFor():
-    '''public static synchronized GeoLocationManager getInstanceFor(final XMPPConnection connection)
+def ():
+    '''returns GeoLocationManager\n\n
+    (final XMPPConnection connection)\n
     '''
 def sendGeoLocationToJid():
-    '''public void sendGeoLocationToJid(final GeoLocation geoLocation, final Jid jid)
-    '''
-def isGeoLocationMessage():
-    '''public static boolean isGeoLocationMessage(final Message message)
+    '''returns None\n\n
+    sendGeoLocationToJid(final GeoLocation geoLocation, final Jid jid)\n
     '''
 def sendGeolocation():
-    '''public void sendGeolocation(final GeoLocation geoLocation)
+    '''returns None\n\n
+    sendGeolocation(final GeoLocation geoLocation)\n
     '''
 def stopPublishingGeolocation():
-    '''public void stopPublishingGeolocation()
+    '''returns None\n\n
+    stopPublishingGeolocation()\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

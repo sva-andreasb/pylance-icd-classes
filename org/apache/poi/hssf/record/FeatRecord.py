@@ -1,40 +1,52 @@
 sid = "short  2152"
 v11_sid = "short  2162"
 v12_sid = "short  2168"
-def FeatRecord():
-    '''public FeatRecord()
-    public FeatRecord(final RecordInputStream in)
+def ():
+    '''returns FeatRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getIsf_sharedFeatureType():
-    '''public int getIsf_sharedFeatureType()
+    '''returns int\n\n
+    getIsf_sharedFeatureType()\n
     '''
 def getCbFeatData():
-    '''public long getCbFeatData()
+    '''returns long\n\n
+    getCbFeatData()\n
     '''
 def setCbFeatData():
-    '''public void setCbFeatData(final long cbFeatData)
+    '''returns None\n\n
+    setCbFeatData(final long cbFeatData)\n
     '''
 def getCellRefs():
-    '''public CellRangeAddress[] getCellRefs()
+    '''returns CellRangeAddress[]\n\n
+    getCellRefs()\n
     '''
 def setCellRefs():
-    '''public void setCellRefs(final CellRangeAddress[] cellRefs)
+    '''returns None\n\n
+    setCellRefs(final CellRangeAddress[] cellRefs)\n
     '''
 def getSharedFeature():
-    '''public SharedFeature getSharedFeature()
+    '''returns SharedFeature\n\n
+    getSharedFeature()\n
     '''
 def setSharedFeature():
-    '''public void setSharedFeature(final SharedFeature feature)
+    '''returns None\n\n
+    setSharedFeature(final SharedFeature feature)\n
     '''
 def clone():
-    '''public FeatRecord clone()
+    '''returns FeatRecord\n\n
+    clone()\n
     '''

@@ -1,80 +1,104 @@
-def Calendar():
-    '''public Calendar(final MboSet ms)
+def ():
+    '''returns Calendar\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def isAvailable():
-    '''public boolean isAvailable(final Date date)
+    '''returns boolean\n\n
+    isAvailable(final Date date)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canApplyShift():
-    '''public void canApplyShift(final ShiftRemote shift)
-    public void canApplyShift(final String shiftname)
+    '''returns None\n\n
+    canApplyShift(final ShiftRemote shift)\n
+    canApplyShift(final String shiftname)\n
     '''
 def applyShift():
-    '''public void applyShift(final Vector shiftSet)
-    public void applyShift(final String shiftname)
-    public void applyShift(final String shiftname, final Date startdate, final Date enddate)
+    '''returns None\n\n
+    applyShift(final Vector shiftSet)\n
+    applyShift(final String shiftname)\n
+    applyShift(final String shiftname, final Date startdate, final Date enddate)\n
     '''
 def setWPIncrement():
-    '''public void setWPIncrement(final int i)
+    '''returns None\n\n
+    setWPIncrement(final int i)\n
     '''
 def applyNonWorkTime():
-    '''public boolean applyNonWorkTime(final MboSetRemote nonWorkTimeSet)
-    public void applyNonWorkTime(final String nonWorkType, final String description, final Date startDate, final Date endDate)
+    '''returns None\n\n
+    applyNonWorkTime(final MboSetRemote nonWorkTimeSet)\n
+    applyNonWorkTime(final String nonWorkType, final String description, final Date startDate, final Date endDate)\n
     '''
 def calculateAvailability():
-    '''public double calculateAvailability()
-    public double calculateAvailability(final Date startDate, final Date endDate)
+    '''returns double\n\n
+    calculateAvailability()\n
+    calculateAvailability(final Date startDate, final Date endDate)\n
     '''
 def calculateHours():
-    '''public double calculateHours(final Date date1, final Date date2)
+    '''returns double\n\n
+    calculateHours(final Date date1, final Date date2)\n
     '''
 def calculateDownTime():
-    '''public double calculateDownTime(final Date lastChangeDate, final Date currentChangeDate)
+    '''returns double\n\n
+    calculateDownTime(final Date lastChangeDate, final Date currentChangeDate)\n
     '''
 def getDownTime():
-    '''public double getDownTime(final Date currentChangeDate, final Date lastChangeDate)
-    public double getDownTime(final Date currentChangeDate, final Date lastChangeDate, final TimeZone tz)
+    '''returns double\n\n
+    getDownTime(final Date currentChangeDate, final Date lastChangeDate)\n
+    getDownTime(final Date currentChangeDate, final Date lastChangeDate, final TimeZone tz)\n
     '''
 def getWorkPeriodData():
-    '''public double getWorkPeriodData(final WorkPeriodSet workPeriodSet, final Date lastChangeDate, final Date currentChangeDate)
-    public double getWorkPeriodData(final WorkPeriodSet workPeriodSet, final Date lastChangeDate, final Date currentChangeDate, final TimeZone tz)
+    '''returns double\n\n
+    getWorkPeriodData(final WorkPeriodSet workPeriodSet, final Date lastChangeDate, final Date currentChangeDate)\n
+    getWorkPeriodData(final WorkPeriodSet workPeriodSet, final Date lastChangeDate, final Date currentChangeDate, final TimeZone tz)\n
     '''
 def addDates():
-    '''public Date addDates(final Date date, final int days)
+    '''returns Date\n\n
+    addDates(final Date date, final int days)\n
     '''
 def combineDateTime():
-    '''public Date combineDateTime(final Date date, final Date time)
-    public Date combineDateTime(final Date date, final Date time, final TimeZone tz)
+    '''returns Date\n\n
+    combineDateTime(final Date date, final Date time)\n
+    combineDateTime(final Date date, final Date time, final TimeZone tz)\n
     '''
 def deleteWorkPeriod():
-    '''public void deleteWorkPeriod(final Date startDate, final Date endDate)
+    '''returns None\n\n
+    deleteWorkPeriod(final Date startDate, final Date endDate)\n
     '''
 def calculateWorkHours():
-    '''public double calculateWorkHours(final Date workDate)
+    '''returns double\n\n
+    calculateWorkHours(final Date workDate)\n
     '''
 def getWorkPeriodSet():
-    '''public WorkPeriodSetRemote getWorkPeriodSet(final Date workDate)
+    '''returns WorkPeriodSetRemote\n\n
+    getWorkPeriodSet(final Date workDate)\n
     '''
 def getMonthsAvailableHours():
-    '''public String[][] getMonthsAvailableHours(final com.ibm.icu.util.Calendar cal)
+    '''returns String[][]\n\n
+    getMonthsAvailableHours(final com.ibm.icu.util.Calendar cal)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

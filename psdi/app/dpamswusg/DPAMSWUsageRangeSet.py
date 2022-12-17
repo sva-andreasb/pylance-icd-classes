@@ -1,3 +1,4 @@
-def DPAMSWUsageRangeSet():
-    '''public DPAMSWUsageRangeSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMSWUsageRangeSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,45 +1,58 @@
-def IlvDataWindow():
-    '''public IlvDataWindow()
-    public IlvDataWindow(final Rectangle2D rectangle2D)
-    public IlvDataWindow(final double n, final double n2, final double n3, final double n4)
-    public IlvDataWindow(final IlvDataInterval xRange, final IlvDataInterval yRange)
-    public IlvDataWindow(final IlvDataWindow ilvDataWindow)
+def ():
+    '''returns IlvDataWindow\n\n
+    ()\n
+    (final Rectangle2D rectangle2D)\n
+    (final double n, final double n2, final double n3, final double n4)\n
+    (final IlvDataInterval xRange, final IlvDataInterval yRange)\n
+    (final IlvDataWindow ilvDataWindow)\n
     '''
 def add():
-    '''public void add(final double n, final double n2)
-    public void add(final IlvDataWindow ilvDataWindow)
+    '''returns None\n\n
+    add(final double n, final double n2)\n
+    add(final IlvDataWindow ilvDataWindow)\n
     '''
 def intersects():
-    '''public boolean intersects(final IlvDataWindow ilvDataWindow)
+    '''returns boolean\n\n
+    intersects(final IlvDataWindow ilvDataWindow)\n
     '''
 def intersection():
-    '''public void intersection(final IlvDataWindow ilvDataWindow)
-    public void intersection(final IlvDataInterval ilvDataInterval, final IlvDataInterval ilvDataInterval2)
+    '''returns None\n\n
+    intersection(final IlvDataWindow ilvDataWindow)\n
+    intersection(final IlvDataInterval ilvDataInterval, final IlvDataInterval ilvDataInterval2)\n
     '''
 def contains():
-    '''public boolean contains(final double n, final double n2)
+    '''returns boolean\n\n
+    contains(final double n, final double n2)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getXMin():
-    '''public double getXMin()
+    '''returns double\n\n
+    getXMin()\n
     '''
 def getXMax():
-    '''public double getXMax()
+    '''returns double\n\n
+    getXMax()\n
     '''
 def getYMin():
-    '''public double getYMin()
+    '''returns double\n\n
+    getYMin()\n
     '''
 def getYMax():
-    '''public double getYMax()
+    '''returns double\n\n
+    getYMax()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

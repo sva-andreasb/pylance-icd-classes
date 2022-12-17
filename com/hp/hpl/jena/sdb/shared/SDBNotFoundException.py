@@ -1,5 +1,6 @@
-def SDBNotFoundException():
-    '''public SDBNotFoundException()
-    public SDBNotFoundException(final String msg)
-    public SDBNotFoundException(final String msg, final Exception cause)
+def ():
+    '''returns SDBNotFoundException\n\n
+    ()\n
+    (final String msg)\n
+    (final String msg, final Exception cause)\n
     '''

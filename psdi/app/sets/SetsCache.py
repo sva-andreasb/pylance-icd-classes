@@ -1,20 +1,26 @@
-def SetsCache():
-    '''public SetsCache()
+def ():
+    '''returns SetsCache\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
-    public void init(final MXServer mxs)
+    '''returns None\n\n
+    init()\n
+    init(final MXServer mxs)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOrgForItemSet():
-    '''public Vector getOrgForItemSet(String itemSetId, final UserInfo userInfo)
+    '''returns Vector\n\n
+    getOrgForItemSet(String itemSetId, final UserInfo userInfo)\n
     '''
 def getOrgForCompanySet():
-    '''public Vector getOrgForCompanySet(String companySetId, final UserInfo userInfo)
+    '''returns Vector\n\n
+    getOrgForCompanySet(String companySetId, final UserInfo userInfo)\n
     '''

@@ -1,26 +1,29 @@
-def LaborService():
-    '''public LaborService()
-    public LaborService(final MXServer mxServer)
+def ():
+    '''returns LaborService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def initCriteriaList():
-    '''public void initCriteriaList(final Hashtable criteriaTable)
+    '''returns None\n\n
+    initCriteriaList(final Hashtable criteriaTable)\n
     '''
 def getServReceiptSet():
-    '''public MboSetRemote getServReceiptSet(final UserInfo ui, final String ponum)
+    '''returns MboSetRemote\n\n
+    getServReceiptSet(final UserInfo ui, final String ponum)\n
     '''
 def createServiceReceipts():
-    '''public final void createServiceReceipts(final UserInfo userinfo, final MboRemote forLabor, final boolean createSummary, final Date startDate, final Date endDate)
-    public void createServiceReceipts(final UserInfo userinfo, final Vector forLabor, final boolean createSummary, final Date startDate, final Date endDate)
+    '''returns None\n\n
+    createServiceReceipts(final UserInfo userinfo, final Vector forLabor, final boolean createSummary, final Date startDate, final Date endDate)\n
     '''
 def createInvoiceForLabTrans():
-    '''public void createInvoiceForLabTrans(final MboRemote labTransMbo, final UserInfo userInfo)
-    '''
-def updateHours():
-    '''public synchronized void updateHours(final UserInfo userinfo, final String laborcode, final String orgid, final double regHours, final double otHours)
+    '''returns None\n\n
+    createInvoiceForLabTrans(final MboRemote labTransMbo, final UserInfo userInfo)\n
     '''

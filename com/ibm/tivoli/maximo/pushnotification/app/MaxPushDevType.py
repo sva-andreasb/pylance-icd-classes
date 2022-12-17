@@ -1,18 +1,24 @@
-def MaxPushDevType():
-    '''public MaxPushDevType(final MboSet ms)
+def ():
+    '''returns MaxPushDevType\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def validateData():
-    '''public void validateData()
+    '''returns None\n\n
+    validateData()\n
     '''

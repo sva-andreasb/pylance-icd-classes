@@ -1,21 +1,28 @@
-def SetBucketCrossOriginConfigurationRequest():
-    '''public SetBucketCrossOriginConfigurationRequest(final String bucketName, final BucketCrossOriginConfiguration crossOriginConfiguration)
+def ():
+    '''returns SetBucketCrossOriginConfigurationRequest\n\n
+    (final String bucketName, final BucketCrossOriginConfiguration crossOriginConfiguration)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public SetBucketCrossOriginConfigurationRequest withBucketName(final String bucketName)
+    '''returns SetBucketCrossOriginConfigurationRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getCrossOriginConfiguration():
-    '''public BucketCrossOriginConfiguration getCrossOriginConfiguration()
+    '''returns BucketCrossOriginConfiguration\n\n
+    getCrossOriginConfiguration()\n
     '''
 def setCrossOriginConfiguration():
-    '''public void setCrossOriginConfiguration(final BucketCrossOriginConfiguration crossOriginConfiguration)
+    '''returns None\n\n
+    setCrossOriginConfiguration(final BucketCrossOriginConfiguration crossOriginConfiguration)\n
     '''
 def withCrossOriginConfiguration():
-    '''public SetBucketCrossOriginConfigurationRequest withCrossOriginConfiguration(final BucketCrossOriginConfiguration crossOriginConfiguration)
+    '''returns SetBucketCrossOriginConfigurationRequest\n\n
+    withCrossOriginConfiguration(final BucketCrossOriginConfiguration crossOriginConfiguration)\n
     '''

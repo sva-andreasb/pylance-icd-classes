@@ -1,6 +1,8 @@
-def PmScFldPresentationType():
-    '''public PmScFldPresentationType(final MboValue mbv)
+def ():
+    '''returns PmScFldPresentationType\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

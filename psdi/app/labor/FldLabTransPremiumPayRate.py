@@ -1,6 +1,8 @@
-def FldLabTransPremiumPayRate():
-    '''public FldLabTransPremiumPayRate(final MboValue mbv)
+def ():
+    '''returns FldLabTransPremiumPayRate\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,6 +1,8 @@
-def OslcCoreMisusedOccursException():
-    '''public OslcCoreMisusedOccursException(final Class<?> resourceClass, final Method method)
+def ():
+    '''returns OslcCoreMisusedOccursException\n\n
+    (final Class<?> resourceClass, final Method method)\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
     '''

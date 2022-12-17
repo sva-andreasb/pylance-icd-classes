@@ -1,18 +1,20 @@
 def getThresholdCount():
-    '''public int getThresholdCount()
+    '''returns int\n\n
+    getThresholdCount()\n
     '''
 def getNestedConditions():
-    '''public List<PathCondition> getNestedConditions()
+    '''returns List<PathCondition>\n\n
+    getNestedConditions()\n
     '''
 def accept():
-    '''public boolean accept(final Path basePath, final Path relativePath, final BasicFileAttributes attrs)
+    '''returns boolean\n\n
+    accept(final Path basePath, final Path relativePath, final BasicFileAttributes attrs)\n
     '''
 def beforeFileTreeWalk():
-    '''public void beforeFileTreeWalk()
-    '''
-def createFileCountCondition():
-    '''public static IfAccumulatedFileCount createFileCountCondition(@PluginAttribute(value = "exceeds", defaultInt = Integer.MAX_VALUE) final int threshold, @PluginElement("PathConditions") final PathCondition... nestedConditions)
+    '''returns None\n\n
+    beforeFileTreeWalk()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

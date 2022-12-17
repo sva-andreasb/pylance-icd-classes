@@ -1,9 +1,12 @@
-def TicketGrandTotalSet():
-    '''public TicketGrandTotalSet(final MboServerInterface ms)
+def ():
+    '''returns TicketGrandTotalSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMbo():
-    '''public MboRemote getMbo(final int pos)
+    '''returns MboRemote\n\n
+    getMbo(final int pos)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

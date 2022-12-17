@@ -1,10 +1,13 @@
-def ListResultHandler():
-    '''public ListResultHandler(final RowHandler<T> singleRowFactory_)
-    public ListResultHandler(final Class<T> beanClass_)
+def ():
+    '''returns ListResultHandler\n\n
+    (final RowHandler<T> singleRowFactory_)\n
+    (final Class<T> beanClass_)\n
     '''
 def handle():
-    '''public List<T> handle(final ResultSet set)
+    '''returns List<T>\n\n
+    handle(final ResultSet set)\n
     '''
 def close():
-    '''public void close(final ResultSet set)
+    '''returns None\n\n
+    close(final ResultSet set)\n
     '''

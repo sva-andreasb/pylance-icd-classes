@@ -4,18 +4,15 @@ PMSCWOCOPYWF = "String  \"PMSCWOCOPYWF\""
 SOGEN = "String  \"SOGEN\""
 ALL = "String  \"ALL\""
 NONE = "String  \"NONE\""
-def PmScCopyAttributes():
-    '''public PmScCopyAttributes(final MboRemote wo)
+def ():
+    '''returns PmScCopyAttributes\n\n
+    (final MboRemote wo)\n
     '''
 def copyFromParents():
-    '''public boolean copyFromParents()
+    '''returns boolean\n\n
+    copyFromParents()\n
     '''
 def copyToParents():
-    '''public boolean copyToParents()
-    '''
-def copyAttrValuesFromParents():
-    '''public static void copyAttrValuesFromParents(final WO wo)
-    '''
-def copyAttrValuesToParents():
-    '''public static void copyAttrValuesToParents(final WO wo)
+    '''returns boolean\n\n
+    copyToParents()\n
     '''

@@ -1,27 +1,36 @@
-def FldJobTaskNestedJPNum():
-    '''public FldJobTaskNestedJPNum(final MboValue mbv)
+def ():
+    '''returns FldJobTaskNestedJPNum\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def jpTree():
-    '''public void jpTree(final MboRemote jobPlanMbo, final String nestedJPNum, final String nestedJpRevnum)
+    '''returns None\n\n
+    jpTree(final MboRemote jobPlanMbo, final String nestedJPNum, final String nestedJpRevnum)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String sourceObj, final String value, final boolean exact)\n
     '''

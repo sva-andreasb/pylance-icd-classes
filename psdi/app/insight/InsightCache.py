@@ -1,12 +1,8 @@
-def getInstance():
-    '''public static final InsightCache getInstance()
-    '''
-def getAllInsightInfo():
-    '''public Map<String, InsightInfo> getAllInsightInfo()
-    '''
 def getInsightByName():
-    '''public InsightInfo getInsightByName(final String insightName)
+    '''returns InsightInfo\n\n
+    getInsightByName(final String insightName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

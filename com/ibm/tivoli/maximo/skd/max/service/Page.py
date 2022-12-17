@@ -1,28 +1,37 @@
-def Page():
-    '''public Page(final int pageNumber, final JSONArray items, final int pageSize)
-    public Page()
+def ():
+    '''returns Page\n\n
+    (final int pageNumber, final JSONArray items, final int pageSize)\n
+    ()\n
     '''
 def getPageNumber():
-    '''public int getPageNumber()
+    '''returns int\n\n
+    getPageNumber()\n
     '''
 def setPageNumber():
-    '''public void setPageNumber(final int pageNumber)
+    '''returns None\n\n
+    setPageNumber(final int pageNumber)\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def setCount():
-    '''public void setCount(final int count)
+    '''returns None\n\n
+    setCount(final int count)\n
     '''
 def getPageSize():
-    '''public int getPageSize()
+    '''returns int\n\n
+    getPageSize()\n
     '''
 def setPageSize():
-    '''public void setPageSize(final int pageSize)
+    '''returns None\n\n
+    setPageSize(final int pageSize)\n
     '''
 def getItems():
-    '''public JSONArray getItems()
+    '''returns JSONArray\n\n
+    getItems()\n
     '''
 def setItems():
-    '''public void setItems(final JSONArray items)
+    '''returns None\n\n
+    setItems(final JSONArray items)\n
     '''

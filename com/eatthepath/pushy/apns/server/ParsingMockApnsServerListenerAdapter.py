@@ -1,30 +1,40 @@
 def handlePushNotificationAccepted():
-    '''public void handlePushNotificationAccepted(final Http2Headers headers, final ByteBuf payload)
+    '''returns None\n\n
+    handlePushNotificationAccepted(final Http2Headers headers, final ByteBuf payload)\n
     '''
 def handlePushNotificationRejected():
-    '''public void handlePushNotificationRejected(final Http2Headers headers, final ByteBuf payload, final RejectionReason rejectionReason, final Instant deviceTokenExpirationTimestamp)
+    '''returns None\n\n
+    handlePushNotificationRejected(final Http2Headers headers, final ByteBuf payload, final RejectionReason rejectionReason, final Instant deviceTokenExpirationTimestamp)\n
     '''
 def getToken():
-    '''public String getToken()
+    '''returns String\n\n
+    getToken()\n
     '''
 def getPayload():
-    '''public String getPayload()
+    '''returns String\n\n
+    getPayload()\n
     '''
 def getExpiration():
-    '''public Instant getExpiration()
+    '''returns Instant\n\n
+    getExpiration()\n
     '''
 def getPriority():
-    '''public DeliveryPriority getPriority()
+    '''returns DeliveryPriority\n\n
+    getPriority()\n
     '''
 def getPushType():
-    '''public PushType getPushType()
+    '''returns PushType\n\n
+    getPushType()\n
     '''
 def getTopic():
-    '''public String getTopic()
+    '''returns String\n\n
+    getTopic()\n
     '''
 def getCollapseId():
-    '''public String getCollapseId()
+    '''returns String\n\n
+    getCollapseId()\n
     '''
 def getApnsId():
-    '''public UUID getApnsId()
+    '''returns UUID\n\n
+    getApnsId()\n
     '''

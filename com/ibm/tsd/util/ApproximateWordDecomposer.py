@@ -1,12 +1,16 @@
-def ApproximateWordDecomposer():
-    '''public ApproximateWordDecomposer()
+def ():
+    '''returns ApproximateWordDecomposer\n\n
+    ()\n
     '''
 def open():
-    '''public void open(final Dictionary[] dicts, final FragmentConsumer fragmentConsumer)
+    '''returns None\n\n
+    open(final Dictionary[] dicts, final FragmentConsumer fragmentConsumer)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def extractWordParts():
-    '''public void extractWordParts(final CharacterIterator itr, int begin, final int end)
+    '''returns None\n\n
+    extractWordParts(final CharacterIterator itr, int begin, final int end)\n
     '''

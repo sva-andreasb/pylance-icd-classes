@@ -1,61 +1,57 @@
 ROLLBACK_VERSION = "int  -1"
-def staticDriverPropertiesApplied():
-    '''public synchronized boolean staticDriverPropertiesApplied()
-    '''
-def getStaticDriverProfileApplied():
-    '''public synchronized boolean getStaticDriverProfileApplied()
-    '''
-def setStaticDriverProfileApplied():
-    '''public synchronized void setStaticDriverProfileApplied()
-    '''
-def getInstance():
-    '''public static ControlDriver getInstance()
-    '''
 def updateDriverDescriptorMapWithWASData():
-    '''public void updateDriverDescriptorMapWithWASData(final String s, final String s2)
-    '''
-def getDriverDescriptorMap():
-    '''public Map<String, Object> getDriverDescriptorMap()
+    '''returns None\n\n
+    updateDriverDescriptorMapWithWASData(final String s, final String s2)\n
     '''
 def sendPushDownErrors():
-    '''public void sendPushDownErrors(final ArrayList<PushDownError> list, final String s)
+    '''returns None\n\n
+    sendPushDownErrors(final ArrayList<PushDownError> list, final String s)\n
     '''
 def sendApplicationException():
-    '''public void sendApplicationException(final String s, final SQLException ex)
+    '''returns None\n\n
+    sendApplicationException(final String s, final SQLException ex)\n
     '''
 def getUUID():
-    '''public String getUUID()
+    '''returns String\n\n
+    getUUID()\n
     '''
 def getDriverID():
-    '''public String getDriverID()
+    '''returns String\n\n
+    getDriverID()\n
     '''
 def doLogStatisticsLookup():
-    '''public void doLogStatisticsLookup()
+    '''returns None\n\n
+    doLogStatisticsLookup()\n
     '''
 def setDriverProfileVersion():
-    '''public void setDriverProfileVersion(final long lastAppliedDriverProfileVersion_)
+    '''returns None\n\n
+    setDriverProfileVersion(final long lastAppliedDriverProfileVersion_)\n
     '''
 def getRollbackGlobalDynamicProperties():
-    '''public HashMap getRollbackGlobalDynamicProperties()
+    '''returns HashMap\n\n
+    getRollbackGlobalDynamicProperties()\n
     '''
 def setMonConnection():
-    '''public void setMonConnection(final int i, final Connection connection)
+    '''returns None\n\n
+    setMonConnection(final int i, final Connection connection)\n
     '''
 def isMonConnectionset():
-    '''public boolean isMonConnectionset(final int i)
+    '''returns boolean\n\n
+    isMonConnectionset(final int i)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public Thread run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def cancel():
-    '''public boolean cancel()
+    '''returns boolean\n\n
+    cancel()\n
     '''
-def ShutdownHookAction():
-    '''public ShutdownHookAction(final TimerTask timerTask_, final String threadName_)
-    '''
-def ShutdownHookRunnable():
-    '''public ShutdownHookRunnable(final TimerTask timerTask_)
+def ():
+    '''returns ShutdownHookRunnable\n\n
+    (final TimerTask timerTask_, final String threadName_)\n
+    (final TimerTask timerTask_)\n
     '''

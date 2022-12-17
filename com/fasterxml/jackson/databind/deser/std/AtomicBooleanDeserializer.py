@@ -1,6 +1,8 @@
-def AtomicBooleanDeserializer():
-    '''public AtomicBooleanDeserializer()
+def ():
+    '''returns AtomicBooleanDeserializer\n\n
+    ()\n
     '''
 def deserialize():
-    '''public AtomicBoolean deserialize(final JsonParser jp, final DeserializationContext ctxt)
+    '''returns AtomicBoolean\n\n
+    deserialize(final JsonParser jp, final DeserializationContext ctxt)\n
     '''

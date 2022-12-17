@@ -1,36 +1,44 @@
-def ProxyServlet():
-    '''public ProxyServlet()
+def ():
+    '''returns Transparent\n\n
+    ()\n
+    ()\n
+    (final String prefix, final String host, final int port)\n
+    (final String prefix, final String schema, final String host, final int port, final String path)\n
     '''
 def init():
-    '''public void init(final ServletConfig config)
-    public void init(final ServletConfig config)
+    '''returns None\n\n
+    init(final ServletConfig config)\n
+    init(final ServletConfig config)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def validateDestination():
-    '''public boolean validateDestination(final String host, final String path)
+    '''returns boolean\n\n
+    validateDestination(final String host, final String path)\n
     '''
 def getServletConfig():
-    '''public ServletConfig getServletConfig()
+    '''returns ServletConfig\n\n
+    getServletConfig()\n
     '''
 def getHostHeader():
-    '''public String getHostHeader()
+    '''returns String\n\n
+    getHostHeader()\n
     '''
 def setHostHeader():
-    '''public void setHostHeader(final String hostHeader)
+    '''returns None\n\n
+    setHostHeader(final String hostHeader)\n
     '''
 def service():
-    '''public void service(final ServletRequest req, final ServletResponse res)
+    '''returns None\n\n
+    service(final ServletRequest req, final ServletResponse res)\n
     '''
 def handleConnect():
-    '''public void handleConnect(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    handleConnect(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def getServletInfo():
-    '''public String getServletInfo()
-    '''
-def Transparent():
-    '''public Transparent()
-    public Transparent(final String prefix, final String host, final int port)
-    public Transparent(final String prefix, final String schema, final String host, final int port, final String path)
+    '''returns String\n\n
+    getServletInfo()\n
     '''

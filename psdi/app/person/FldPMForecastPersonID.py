@@ -1,6 +1,8 @@
-def FldPMForecastPersonID():
-    '''public FldPMForecastPersonID(final MboValue mbv)
+def ():
+    '''returns FldPMForecastPersonID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

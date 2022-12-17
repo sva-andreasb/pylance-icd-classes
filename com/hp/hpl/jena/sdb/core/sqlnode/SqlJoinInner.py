@@ -1,18 +1,24 @@
-def SqlJoinInner():
-    '''public SqlJoinInner(final SqlNode left, final SqlNode right)
+def ():
+    '''returns SqlJoinInner\n\n
+    (final SqlNode left, final SqlNode right)\n
     '''
 def isInnerJoin():
-    '''public boolean isInnerJoin()
+    '''returns boolean\n\n
+    isInnerJoin()\n
     '''
 def asInnerJoin():
-    '''public SqlJoinInner asInnerJoin()
+    '''returns SqlJoinInner\n\n
+    asInnerJoin()\n
     '''
 def visit():
-    '''public void visit(final SqlNodeVisitor visitor)
+    '''returns None\n\n
+    visit(final SqlNodeVisitor visitor)\n
     '''
 def apply():
-    '''public SqlNode apply(final SqlTransform transform, final SqlNode left, final SqlNode right)
+    '''returns SqlNode\n\n
+    apply(final SqlTransform transform, final SqlNode left, final SqlNode right)\n
     '''
 def copy():
-    '''public SqlNode copy(final SqlNode left, final SqlNode right)
+    '''returns SqlNode\n\n
+    copy(final SqlNode left, final SqlNode right)\n
     '''

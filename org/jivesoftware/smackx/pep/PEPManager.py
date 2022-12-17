@@ -1,21 +1,24 @@
-def getInstanceFor():
-    '''public static synchronized PEPManager getInstanceFor(final XMPPConnection connection)
-    '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def addPEPListener():
-    '''public boolean addPEPListener(final PEPListener pepListener)
+    '''returns boolean\n\n
+    addPEPListener(final PEPListener pepListener)\n
     '''
 def removePEPListener():
-    '''public boolean removePEPListener(final PEPListener pepListener)
+    '''returns boolean\n\n
+    removePEPListener(final PEPListener pepListener)\n
     '''
 def publish():
-    '''public void publish(final Item item, final String node)
+    '''returns None\n\n
+    publish(final Item item, final String node)\n
     '''
 def isSupported():
-    '''public boolean isSupported()
+    '''returns boolean\n\n
+    isSupported()\n
     '''

@@ -1,6 +1,8 @@
-def CodeGen():
-    '''public CodeGen(final String[] args)
+def ():
+    '''returns CodeGen\n\n
+    (final String[] args)\n
     '''
 def forName():
-    '''public XClass forName(final String nm)
+    '''returns XClass\n\n
+    forName(final String nm)\n
     '''

@@ -1,138 +1,169 @@
 INSTALL_BY_DEFAULT = "String  \"installByDefault\""
 NOT_INSTALL_BY_DEFAULT = "String  \"notInstallByDefault\""
 NEVER_INSTALL_BY_DEFAULT = "String  \"neverInstallByDefault\""
-def IlvPluginManager():
-    '''public IlvPluginManager()
+def ():
+    '''returns JarLibrary\n\n
+    ()\n
+    (final URL url)\n
+    (final URL a)\n
+    (final URL url)\n
     '''
 def readSettings():
-    '''public void readSettings(final IlvSettingsElement ilvSettingsElement, final Object o)
+    '''returns None\n\n
+    readSettings(final IlvSettingsElement ilvSettingsElement, final Object o)\n
     '''
 def writeSettings():
-    '''public void writeSettings(final IlvSettingsElement ilvSettingsElement, final Object o)
+    '''returns None\n\n
+    writeSettings(final IlvSettingsElement ilvSettingsElement, final Object o)\n
     '''
 def setApplication():
-    '''public void setApplication(final IlvApplication c)
+    '''returns None\n\n
+    setApplication(final IlvApplication c)\n
     '''
 def applicationInitializingSettings():
-    '''public void applicationInitializingSettings(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationInitializingSettings(final ApplicationEvent applicationEvent)\n
     '''
 def applicationInitialized():
-    '''public void applicationInitialized(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationInitialized(final ApplicationEvent applicationEvent)\n
     '''
 def mainWindowInitialized():
-    '''public void mainWindowInitialized(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    mainWindowInitialized(final ApplicationEvent applicationEvent)\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def setRootURL():
-    '''public void setRootURL(final URL url)
+    '''returns None\n\n
+    setRootURL(final URL url)\n
     '''
 def getRootURL():
-    '''public URL getRootURL()
-    public URL getRootURL(final int index)
+    '''returns URL\n\n
+    getRootURL()\n
+    getRootURL(final int index)\n
     '''
 def addRootURL():
-    '''public void addRootURL(final URL e)
+    '''returns None\n\n
+    addRootURL(final URL e)\n
     '''
 def getRootURLCount():
-    '''public int getRootURLCount()
+    '''returns int\n\n
+    getRootURLCount()\n
     '''
 def setRootDirectory():
-    '''public void setRootDirectory(final File file)
+    '''returns None\n\n
+    setRootDirectory(final File file)\n
     '''
 def getRootDirectory():
-    '''public File getRootDirectory()
-    public File getRootDirectory(final int n)
+    '''returns File\n\n
+    getRootDirectory()\n
+    getRootDirectory(final int n)\n
     '''
 def addRootDirectory():
-    '''public void addRootDirectory(final File file)
+    '''returns None\n\n
+    addRootDirectory(final File file)\n
     '''
 def getRootDirectoryCount():
-    '''public int getRootDirectoryCount()
+    '''returns int\n\n
+    getRootDirectoryCount()\n
     '''
 def readPlugins():
-    '''public void readPlugins()
+    '''returns None\n\n
+    readPlugins()\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def isInstalled():
-    '''public boolean isInstalled()
+    '''returns boolean\n\n
+    isInstalled()\n
     '''
 def uninstallPlugins():
-    '''public void uninstallPlugins()
+    '''returns None\n\n
+    uninstallPlugins()\n
     '''
 def installPlugin():
-    '''public boolean installPlugin(final IlvPlugin ilvPlugin)
+    '''returns boolean\n\n
+    installPlugin(final IlvPlugin ilvPlugin)\n
     '''
 def uninstallPlugin():
-    '''public boolean uninstallPlugin(final IlvPlugin ilvPlugin, final boolean b)
+    '''returns boolean\n\n
+    uninstallPlugin(final IlvPlugin ilvPlugin, final boolean b)\n
     '''
 def getPluginCount():
-    '''public int getPluginCount()
+    '''returns int\n\n
+    getPluginCount()\n
     '''
 def getPlugins():
-    '''public IlvPlugin[] getPlugins()
+    '''returns IlvPlugin[]\n\n
+    getPlugins()\n
     '''
 def getPlugin():
-    '''public IlvPlugin getPlugin(final int n)
-    public IlvPlugin getPlugin(final String s)
+    '''returns IlvPlugin\n\n
+    getPlugin(final int n)\n
+    getPlugin(final String s)\n
     '''
 def getRequiredPlugins():
-    '''public IlvPlugin[] getRequiredPlugins(final IlvPlugin ilvPlugin)
+    '''returns IlvPlugin[]\n\n
+    getRequiredPlugins(final IlvPlugin ilvPlugin)\n
     '''
 def getSettings():
-    '''public IlvSettings getSettings()
+    '''returns IlvSettings\n\n
+    getSettings()\n
     '''
 def setSettings():
-    '''public void setSettings(final IlvSettings settings)
+    '''returns None\n\n
+    setSettings(final IlvSettings settings)\n
     '''
 def setSettingsQuery():
-    '''public void setSettingsQuery(final IlvSettingsQuery settingsQuery)
+    '''returns None\n\n
+    setSettingsQuery(final IlvSettingsQuery settingsQuery)\n
     '''
 def getSettingsQuery():
-    '''public IlvSettingsQuery getSettingsQuery()
+    '''returns IlvSettingsQuery\n\n
+    getSettingsQuery()\n
     '''
 def setSettingsElement():
-    '''public void setSettingsElement(final IlvSettingsElement settingsElement)
+    '''returns None\n\n
+    setSettingsElement(final IlvSettingsElement settingsElement)\n
     '''
 def getSettingsElement():
-    '''public IlvSettingsElement getSettingsElement()
+    '''returns IlvSettingsElement\n\n
+    getSettingsElement()\n
     '''
 def initializedOnUserSettings():
-    '''public boolean initializedOnUserSettings()
+    '''returns boolean\n\n
+    initializedOnUserSettings()\n
     '''
 def addPluginListener():
-    '''public void addPluginListener(final PluginListener e)
+    '''returns None\n\n
+    addPluginListener(final PluginListener e)\n
     '''
 def removePluginListener():
-    '''public void removePluginListener(final PluginListener o)
-    '''
-def getPluginManagers():
-    '''public static ArrayList getPluginManagers(final IlvApplication ilvApplication)
-    '''
-def DocumentBaseLibrary():
-    '''public DocumentBaseLibrary(final URL url)
-    '''
-def Library():
-    '''public Library(final URL a)
+    '''returns None\n\n
+    removePluginListener(final PluginListener o)\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def lock():
-    '''public void lock(final IlvApplication ilvApplication)
+    '''returns None\n\n
+    lock(final IlvApplication ilvApplication)\n
     '''
 def unlock():
-    '''public void unlock(final IlvApplication ilvApplication)
+    '''returns None\n\n
+    unlock(final IlvApplication ilvApplication)\n
     '''
 def isLocked():
-    '''public boolean isLocked()
-    '''
-def JarLibrary():
-    '''public JarLibrary(final URL url)
+    '''returns boolean\n\n
+    isLocked()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''

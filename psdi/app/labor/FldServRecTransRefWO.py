@@ -1,3 +1,4 @@
-def FldServRecTransRefWO():
-    '''public FldServRecTransRefWO(final MboValue mbv)
+def ():
+    '''returns FldServRecTransRefWO\n\n
+    (final MboValue mbv)\n
     '''

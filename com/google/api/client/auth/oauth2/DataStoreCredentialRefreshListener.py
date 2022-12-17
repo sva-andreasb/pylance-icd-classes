@@ -1,16 +1,21 @@
-def DataStoreCredentialRefreshListener():
-    '''public DataStoreCredentialRefreshListener(final String userId, final DataStoreFactory dataStoreFactory)
-    public DataStoreCredentialRefreshListener(final String userId, final DataStore<StoredCredential> credentialDataStore)
+def ():
+    '''returns DataStoreCredentialRefreshListener\n\n
+    (final String userId, final DataStoreFactory dataStoreFactory)\n
+    (final String userId, final DataStore<StoredCredential> credentialDataStore)\n
     '''
 def onTokenResponse():
-    '''public void onTokenResponse(final Credential credential, final TokenResponse tokenResponse)
+    '''returns None\n\n
+    onTokenResponse(final Credential credential, final TokenResponse tokenResponse)\n
     '''
 def onTokenErrorResponse():
-    '''public void onTokenErrorResponse(final Credential credential, final TokenErrorResponse tokenErrorResponse)
+    '''returns None\n\n
+    onTokenErrorResponse(final Credential credential, final TokenErrorResponse tokenErrorResponse)\n
     '''
 def getCredentialDataStore():
-    '''public DataStore<StoredCredential> getCredentialDataStore()
+    '''returns DataStore<StoredCredential>\n\n
+    getCredentialDataStore()\n
     '''
 def makePersistent():
-    '''public void makePersistent(final Credential credential)
+    '''returns None\n\n
+    makePersistent(final Credential credential)\n
     '''

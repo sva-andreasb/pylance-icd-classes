@@ -1,6 +1,8 @@
 def hierarchicalmove():
-    '''public int hierarchicalmove()
+    '''returns int\n\n
+    hierarchicalmove()\n
     '''
 def highlightrow():
-    '''public int highlightrow(final int row)
+    '''returns int\n\n
+    highlightrow(final int row)\n
     '''

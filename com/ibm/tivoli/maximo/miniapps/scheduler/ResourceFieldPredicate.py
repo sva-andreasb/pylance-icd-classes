@@ -1,6 +1,8 @@
-def ResourceFieldPredicate():
-    '''public ResourceFieldPredicate(final String fld, final Object value)
+def ():
+    '''returns ResourceFieldPredicate\n\n
+    (final String fld, final Object value)\n
     '''
 def test():
-    '''public boolean test(final IlvResource in)
+    '''returns boolean\n\n
+    test(final IlvResource in)\n
     '''

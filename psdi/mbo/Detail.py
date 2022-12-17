@@ -1,3 +1,4 @@
-def Detail():
-    '''public Detail()
+def ():
+    '''returns Detail\n\n
+    ()\n
     '''

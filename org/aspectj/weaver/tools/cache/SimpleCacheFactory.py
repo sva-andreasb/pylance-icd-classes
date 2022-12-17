@@ -1,0 +1,5 @@
+CACHE_ENABLED_PROPERTY = "String  \"aj.weaving.cache.enabled\""
+CACHE_DIR = "String  \"aj.weaving.cache.dir\""
+CACHE_IMPL = "String  \"aj.weaving.cache.impl\""
+PATH_DEFAULT = "String  \"/tmp/\""
+BYDEFAULT = "boolean  false"

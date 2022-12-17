@@ -1,9 +1,12 @@
-def HttpEndpoint():
-    '''public HttpEndpoint(final String url, final String user, final String password)
+def ():
+    '''returns HttpEndpoint\n\n
+    (final String url, final String user, final String password)\n
     '''
 def getCredentials():
-    '''public UsernamePasswordCredentials getCredentials()
+    '''returns UsernamePasswordCredentials\n\n
+    getCredentials()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''

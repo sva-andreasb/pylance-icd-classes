@@ -1,38 +1,49 @@
-def NRSNamingAttributeCleanser():
-    '''public NRSNamingAttributeCleanser(final InputStream stream1, final InputStream stream2, final InputStream xsd, final MXLogger logger, final Connection con)
+def ():
+    '''returns NRSNamingAttributeCleanser\n\n
+    (final InputStream stream1, final InputStream stream2, final InputStream xsd, final MXLogger logger, final Connection con)\n
     '''
 def clean():
-    '''public String clean(final String major, final String minor, final String input)
-    public HashMap[] clean(final HashMap[] attributeMaps)
+    '''returns HashMap[]\n\n
+    clean(final String major, final String minor, final String input)\n
+    clean(final HashMap[] attributeMaps)\n
     '''
 def toBeCleansed():
-    '''public boolean toBeCleansed(final String major, final String minor)
+    '''returns boolean\n\n
+    toBeCleansed(final String major, final String minor)\n
     '''
 def allToBeCleansed():
-    '''public List<String[]> allToBeCleansed()
+    '''returns List<String[]>\n\n
+    allToBeCleansed()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException e)
+    '''returns None\n\n
+    fatalError(final SAXParseException e)\n
     '''
 def error():
-    '''public void error(final SAXParseException e)
+    '''returns None\n\n
+    error(final SAXParseException e)\n
     '''
 def getVersionStr():
-    '''public String getVersionStr()
+    '''returns String\n\n
+    getVersionStr()\n
     '''
 def run():
-    '''public String run(final String input)
-    public String run(final String input)
-    public String run(final String input)
-    public String run(final String input)
-    public String run(final String input)
+    '''returns String\n\n
+    run(final String input)\n
+    run(final String input)\n
+    run(final String input)\n
+    run(final String input)\n
+    run(final String input)\n
     '''

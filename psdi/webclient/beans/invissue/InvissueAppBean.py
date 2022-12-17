@@ -1,12 +1,16 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def EDITRESV():
-    '''public int EDITRESV()
+    '''returns int\n\n
+    EDITRESV()\n
     '''
 def saveYesNoCheckForAddModifyRes():
-    '''public boolean saveYesNoCheckForAddModifyRes()
+    '''returns boolean\n\n
+    saveYesNoCheckForAddModifyRes()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''

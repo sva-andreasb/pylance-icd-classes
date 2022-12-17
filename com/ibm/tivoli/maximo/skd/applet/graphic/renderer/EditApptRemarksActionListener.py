@@ -1,6 +1,8 @@
-def EditApptRemarksActionListener():
-    '''public EditApptRemarksActionListener(final IlvReservation reservation)
+def ():
+    '''returns EditApptRemarksActionListener\n\n
+    (final IlvReservation reservation)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

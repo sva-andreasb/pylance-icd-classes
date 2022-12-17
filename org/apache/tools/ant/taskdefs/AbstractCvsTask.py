@@ -1,105 +1,139 @@
 DEFAULT_COMPRESSION_LEVEL = "int  3"
-def AbstractCvsTask():
-    '''public AbstractCvsTask()
+def ():
+    '''returns AbstractCvsTask\n\n
+    ()\n
     '''
 def setExecuteStreamHandler():
-    '''public void setExecuteStreamHandler(final ExecuteStreamHandler handler)
+    '''returns None\n\n
+    setExecuteStreamHandler(final ExecuteStreamHandler handler)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setCvsRoot():
-    '''public void setCvsRoot(String root)
+    '''returns None\n\n
+    setCvsRoot(String root)\n
     '''
 def getCvsRoot():
-    '''public String getCvsRoot()
+    '''returns String\n\n
+    getCvsRoot()\n
     '''
 def setCvsRsh():
-    '''public void setCvsRsh(String rsh)
+    '''returns None\n\n
+    setCvsRsh(String rsh)\n
     '''
 def getCvsRsh():
-    '''public String getCvsRsh()
+    '''returns String\n\n
+    getCvsRsh()\n
     '''
 def setPort():
-    '''public void setPort(final int port)
+    '''returns None\n\n
+    setPort(final int port)\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def setPassfile():
-    '''public void setPassfile(final File passFile)
+    '''returns None\n\n
+    setPassfile(final File passFile)\n
     '''
 def getPassFile():
-    '''public File getPassFile()
+    '''returns File\n\n
+    getPassFile()\n
     '''
 def setDest():
-    '''public void setDest(final File dest)
+    '''returns None\n\n
+    setDest(final File dest)\n
     '''
 def getDest():
-    '''public File getDest()
+    '''returns File\n\n
+    getDest()\n
     '''
 def setPackage():
-    '''public void setPackage(final String p)
+    '''returns None\n\n
+    setPackage(final String p)\n
     '''
 def getPackage():
-    '''public String getPackage()
+    '''returns String\n\n
+    getPackage()\n
     '''
 def getTag():
-    '''public String getTag()
+    '''returns String\n\n
+    getTag()\n
     '''
 def setTag():
-    '''public void setTag(final String p)
+    '''returns None\n\n
+    setTag(final String p)\n
     '''
 def addCommandArgument():
-    '''public void addCommandArgument(final String arg)
-    public void addCommandArgument(final Commandline c, final String arg)
+    '''returns None\n\n
+    addCommandArgument(final String arg)\n
+    addCommandArgument(final Commandline c, final String arg)\n
     '''
 def setDate():
-    '''public void setDate(final String p)
+    '''returns None\n\n
+    setDate(final String p)\n
     '''
 def setCommand():
-    '''public void setCommand(final String c)
+    '''returns None\n\n
+    setCommand(final String c)\n
     '''
 def getCommand():
-    '''public String getCommand()
+    '''returns String\n\n
+    getCommand()\n
     '''
 def setQuiet():
-    '''public void setQuiet(final boolean q)
+    '''returns None\n\n
+    setQuiet(final boolean q)\n
     '''
 def setReallyquiet():
-    '''public void setReallyquiet(final boolean q)
+    '''returns None\n\n
+    setReallyquiet(final boolean q)\n
     '''
 def setNoexec():
-    '''public void setNoexec(final boolean ne)
+    '''returns None\n\n
+    setNoexec(final boolean ne)\n
     '''
 def setOutput():
-    '''public void setOutput(final File output)
+    '''returns None\n\n
+    setOutput(final File output)\n
     '''
 def setError():
-    '''public void setError(final File error)
+    '''returns None\n\n
+    setError(final File error)\n
     '''
 def setAppend():
-    '''public void setAppend(final boolean value)
+    '''returns None\n\n
+    setAppend(final boolean value)\n
     '''
 def setFailOnError():
-    '''public void setFailOnError(final boolean failOnError)
+    '''returns None\n\n
+    setFailOnError(final boolean failOnError)\n
     '''
 def addConfiguredCommandline():
-    '''public void addConfiguredCommandline(final Commandline c)
-    public void addConfiguredCommandline(final Commandline c, final boolean insertAtStart)
+    '''returns None\n\n
+    addConfiguredCommandline(final Commandline c)\n
+    addConfiguredCommandline(final Commandline c, final boolean insertAtStart)\n
     '''
 def setCompressionLevel():
-    '''public void setCompressionLevel(final int level)
+    '''returns None\n\n
+    setCompressionLevel(final int level)\n
     '''
 def setCompression():
-    '''public void setCompression(final boolean usecomp)
+    '''returns None\n\n
+    setCompression(final boolean usecomp)\n
     '''
 def addModule():
-    '''public void addModule(final Module m)
+    '''returns None\n\n
+    addModule(final Module m)\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

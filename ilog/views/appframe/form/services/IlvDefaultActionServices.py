@@ -1,15 +1,20 @@
 def getAction():
-    '''public Action getAction(final String s)
+    '''returns Action\n\n
+    getAction(final String s)\n
     '''
 def addAction():
-    '''public void addAction(final Action action)
+    '''returns None\n\n
+    addAction(final Action action)\n
     '''
 def removeAction():
-    '''public void removeAction(final Action action)
+    '''returns None\n\n
+    removeAction(final Action action)\n
     '''
 def setServicesDelegate():
-    '''public void setServicesDelegate(final IlvServices a)
+    '''returns None\n\n
+    setServicesDelegate(final IlvServices a)\n
     '''
 def getServicesDelegate():
-    '''public IlvServices getServicesDelegate()
+    '''returns IlvServices\n\n
+    getServicesDelegate()\n
     '''

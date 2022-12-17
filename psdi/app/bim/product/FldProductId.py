@@ -1,7 +1,9 @@
-def FldProductId():
-    '''public FldProductId(final MboValue mbv)
-    public FldProductId(final MboValue mbv, final String criteriaName)
+def ():
+    '''returns FldProductId\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String criteriaName)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

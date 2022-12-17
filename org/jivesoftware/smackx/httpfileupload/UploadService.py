@@ -1,15 +1,20 @@
 def getAddress():
-    '''public DomainBareJid getAddress()
+    '''returns DomainBareJid\n\n
+    getAddress()\n
     '''
 def getVersion():
-    '''public Version getVersion()
+    '''returns Version\n\n
+    getVersion()\n
     '''
 def hasMaxFileSizeLimit():
-    '''public boolean hasMaxFileSizeLimit()
+    '''returns boolean\n\n
+    hasMaxFileSizeLimit()\n
     '''
 def getMaxFileSize():
-    '''public Long getMaxFileSize()
+    '''returns Long\n\n
+    getMaxFileSize()\n
     '''
 def acceptsFileOfSize():
-    '''public boolean acceptsFileOfSize(final long size)
+    '''returns boolean\n\n
+    acceptsFileOfSize(final long size)\n
     '''

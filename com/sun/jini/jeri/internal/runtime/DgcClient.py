@@ -1,13 +1,17 @@
 def registerRefs():
-    '''public void registerRefs(final Endpoint endpoint, final Collection collection)
+    '''returns None\n\n
+    registerRefs(final Endpoint endpoint, final Collection collection)\n
     '''
 def dirty():
-    '''public long dirty(final long value, final Object[] array, final long n)
+    '''returns long\n\n
+    dirty(final long value, final Object[] array, final long n)\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
     '''
 def clean():
-    '''public void clean(final long value, final Object[] array, final boolean b)
+    '''returns None\n\n
+    clean(final long value, final Object[] array, final boolean b)\n
     '''

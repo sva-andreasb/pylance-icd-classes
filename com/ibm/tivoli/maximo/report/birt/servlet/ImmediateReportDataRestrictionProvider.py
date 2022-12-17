@@ -1,18 +1,24 @@
-def ImmediateReportDataRestrictionProvider():
-    '''public ImmediateReportDataRestrictionProvider()
+def ():
+    '''returns ImmediateReportDataRestrictionProvider\n\n
+    ()\n
     '''
 def setMXServerRemote():
-    '''public void setMXServerRemote(final MXServerRemote mxServerRemote)
+    '''returns None\n\n
+    setMXServerRemote(final MXServerRemote mxServerRemote)\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''
 def getDataRestrictionWhere():
-    '''public String getDataRestrictionWhere()
+    '''returns String\n\n
+    getDataRestrictionWhere()\n
     '''

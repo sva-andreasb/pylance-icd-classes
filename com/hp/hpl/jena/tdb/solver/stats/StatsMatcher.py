@@ -7,36 +7,42 @@ weightTypeO = "double  1000.0"
 weightSP_small = "double  2.0"
 weightPO_small = "double  4.0"
 weightTypeO_small = "double  40.0"
-def StatsMatcher():
-    '''public StatsMatcher()
-    public StatsMatcher(final String filename)
-    public StatsMatcher(final Item stats)
+def ():
+    '''returns Pattern\n\n
+    ()\n
+    (final String filename)\n
+    (final Item stats)\n
+    (final double w, final Item subj, final Item pred, final Item obj)\n
     '''
 def addPatterns():
-    '''public void addPatterns(final Node predicate, final double numProp)
+    '''returns None\n\n
+    addPatterns(final Node predicate, final double numProp)\n
     '''
 def addPatternsSmall():
-    '''public void addPatternsSmall(final Node predicate, final double numProp)
+    '''returns None\n\n
+    addPatternsSmall(final Node predicate, final double numProp)\n
     '''
 def addPattern():
-    '''public void addPattern(final Pattern pattern)
-    public void addPattern(final Triple triple)
+    '''returns None\n\n
+    addPattern(final Pattern pattern)\n
+    addPattern(final Triple triple)\n
     '''
 def match():
-    '''public double match(final Triple t)
-    public double match(final PatternTriple pTriple)
-    public double match(final Item subj, final Item pred, final Item obj)
+    '''returns double\n\n
+    match(final Triple t)\n
+    match(final PatternTriple pTriple)\n
+    match(final Item subj, final Item pred, final Item obj)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def printSSE():
-    '''public void printSSE(final PrintStream ps)
-    '''
-def Pattern():
-    '''public Pattern(final double w, final Item subj, final Item pred, final Item obj)
+    '''returns None\n\n
+    printSSE(final PrintStream ps)\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
     '''

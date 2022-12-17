@@ -1,12 +1,16 @@
-def PropertiesPropertySource():
-    '''public PropertiesPropertySource(final Properties properties)
+def ():
+    '''returns PropertiesPropertySource\n\n
+    (final Properties properties)\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def forEach():
-    '''public void forEach(final BiConsumer<String, String> action)
+    '''returns None\n\n
+    forEach(final BiConsumer<String, String> action)\n
     '''
 def getNormalForm():
-    '''public CharSequence getNormalForm(final Iterable<? extends CharSequence> tokens)
+    '''returns CharSequence\n\n
+    getNormalForm(final Iterable<? extends CharSequence> tokens)\n
     '''

@@ -1,6 +1,8 @@
-def GenerateDataKeyWithoutPlaintextRequestMarshaller():
-    '''public GenerateDataKeyWithoutPlaintextRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns GenerateDataKeyWithoutPlaintextRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<GenerateDataKeyWithoutPlaintextRequest> marshall(final GenerateDataKeyWithoutPlaintextRequest generateDataKeyWithoutPlaintextRequest)
+    '''returns Request<GenerateDataKeyWithoutPlaintextRequest>\n\n
+    marshall(final GenerateDataKeyWithoutPlaintextRequest generateDataKeyWithoutPlaintextRequest)\n
     '''

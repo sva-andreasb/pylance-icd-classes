@@ -1,70 +1,89 @@
-def CrewAssignViewBean():
-    '''public CrewAssignViewBean()
+def ():
+    '''returns CrewAssignViewBean\n\n
+    ()\n
     '''
 def _toggleview():
-    '''public JSONObject _toggleview(final WebClientSession sess, final String ids, final String values)
+    '''returns JSONObject\n\n
+    _toggleview(final WebClientSession sess, final String ids, final String values)\n
     '''
 def _pre3wks():
-    '''public JSONObject _pre3wks(final WebClientSession sess, final String ids, final String values)
+    '''returns JSONObject\n\n
+    _pre3wks(final WebClientSession sess, final String ids, final String values)\n
     '''
 def _next3wks():
-    '''public JSONObject _next3wks(final WebClientSession sess, final String ids, final String values)
+    '''returns JSONObject\n\n
+    _next3wks(final WebClientSession sess, final String ids, final String values)\n
     '''
 def loadSchedulerProject():
-    '''public void loadSchedulerProject(final WebClientSession sess)
+    '''returns None\n\n
+    loadSchedulerProject(final WebClientSession sess)\n
     '''
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''
 def applyModelChange():
-    '''public void applyModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final MXResource res, final WebClientSession session)
+    '''returns None\n\n
+    applyModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final MXResource res, final WebClientSession session)\n
     '''
 def addModelChange():
-    '''public void addModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final MXResource res, final WebClientSession session)
-    public void addModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final WebClientSession session)
+    '''returns None\n\n
+    addModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final MXResource res, final WebClientSession session)\n
+    addModelChange(final MXGanttModel model, final JSONObject obj, final MXActivity currentActivity, final WebClientSession session)\n
     '''
 def setSkillMapping():
-    '''public boolean setSkillMapping(final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res, final boolean update)
+    '''returns boolean\n\n
+    setSkillMapping(final MXGanttModel model, final IlvGeneralActivity currentActivity, final MXResource res, final boolean update)\n
     '''
 def setSegmentInfo():
-    '''public void setSegmentInfo(final IlvGeneralActivity activity, final MXResource res)
+    '''returns None\n\n
+    setSegmentInfo(final IlvGeneralActivity activity, final MXResource res)\n
     '''
 def newWorkAction():
-    '''public JSONObject newWorkAction(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    newWorkAction(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def splitAction():
-    '''public JSONObject splitAction(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    splitAction(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def createNewAssignment():
-    '''public MXActivity createNewAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity activity, final MXResource res, final long start, final long end, final int selectedseg, final boolean activityIsParent)
+    '''returns MXActivity\n\n
+    createNewAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity activity, final MXResource res, final long start, final long end, final int selectedseg, final boolean activityIsParent)\n
     '''
 def splitAssignment():
-    '''public void splitAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity segmentactivity, final MXResource res, final long start, final long end)
+    '''returns None\n\n
+    splitAssignment(final MXGanttModel model, final WebClientSession session, final MXActivity segmentactivity, final MXResource res, final long start, final long end)\n
     '''
 def reassign():
-    '''public JSONObject reassign(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    reassign(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def AssignAssignment():
-    '''public void AssignAssignment(final MXGanttModel model, final ReplyBuilder reply, final WebClientSession sess, final MXActivity act, final MXResource res)
+    '''returns None\n\n
+    AssignAssignment(final MXGanttModel model, final ReplyBuilder reply, final WebClientSession sess, final MXActivity act, final MXResource res)\n
     '''
 def newassignment():
-    '''public JSONObject newassignment(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    newassignment(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def canReassign():
-    '''public boolean canReassign(final String[] selectedresources, final Selection selected)
+    '''returns boolean\n\n
+    canReassign(final String[] selectedresources, final Selection selected)\n
     '''
 def processChange():
-    '''public void processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)
+    '''returns None\n\n
+    processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)\n
     '''
 def markAssignmentDelete():
-    '''public void markAssignmentDelete(final Future<MXGanttModel> modelFuture, final JSONObject obj, final MXActivity act)
+    '''returns None\n\n
+    markAssignmentDelete(final Future<MXGanttModel> modelFuture, final JSONObject obj, final MXActivity act)\n
     '''
 def showmenu():
-    '''public boolean showmenu(final MXGanttModel model, final MXActivity act, final MXResource res)
-    '''
-def loadProject():
-    '''public synchronized Future<MXGanttModel> loadProject(final JSONObject projectOptions)
+    '''returns boolean\n\n
+    showmenu(final MXGanttModel model, final MXActivity act, final MXResource res)\n
     '''
 def isDailyView():
-    '''public boolean isDailyView()
+    '''returns boolean\n\n
+    isDailyView()\n
     '''

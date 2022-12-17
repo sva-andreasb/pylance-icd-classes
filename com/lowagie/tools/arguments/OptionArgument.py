@@ -1,37 +1,46 @@
-def OptionArgument():
-    '''public OptionArgument(final AbstractTool tool, final String name, final String description)
+def ():
+    '''returns Entry\n\n
+    (final AbstractTool tool, final String name, final String description)\n
+    (final Object value)\n
+    (final Object description, final Object value)\n
     '''
 def addOption():
-    '''public void addOption(final Object description, final Object value)
+    '''returns None\n\n
+    addOption(final Object description, final Object value)\n
     '''
 def getArgument():
-    '''public Object getArgument()
+    '''returns Object\n\n
+    getArgument()\n
     '''
 def getUsage():
-    '''public String getUsage()
+    '''returns String\n\n
+    getUsage()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent evt)
-    '''
-def Entry():
-    '''public Entry(final Object value)
-    public Entry(final Object description, final Object value)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent evt)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getValueToString():
-    '''public String getValueToString()
+    '''returns String\n\n
+    getValueToString()\n
     '''
 def getDescription():
-    '''public Object getDescription()
+    '''returns Object\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final Object description)
+    '''returns None\n\n
+    setDescription(final Object description)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''

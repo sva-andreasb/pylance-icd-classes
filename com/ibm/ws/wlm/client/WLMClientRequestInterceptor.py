@@ -1,39 +1,48 @@
-def WLMClientRequestInterceptor():
-    '''public WLMClientRequestInterceptor()
+def ():
+    '''returns WLMClientRequestInterceptor\n\n
+    ()\n
     '''
 def pre_init():
-    '''public void pre_init(final ORBInitInfo info)
+    '''returns None\n\n
+    pre_init(final ORBInitInfo info)\n
     '''
 def post_init():
-    '''public void post_init(final ORBInitInfo info)
+    '''returns None\n\n
+    post_init(final ORBInitInfo info)\n
     '''
 def send_request():
-    '''public void send_request(final ClientRequestInfo cri)
+    '''returns None\n\n
+    send_request(final ClientRequestInfo cri)\n
     '''
 def receive_reply():
-    '''public void receive_reply(final ClientRequestInfo cri)
+    '''returns None\n\n
+    receive_reply(final ClientRequestInfo cri)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def send_poll():
-    '''public void send_poll(final ClientRequestInfo cri)
+    '''returns None\n\n
+    send_poll(final ClientRequestInfo cri)\n
     '''
 def receive_exception():
-    '''public void receive_exception(final ClientRequestInfo cri)
+    '''returns None\n\n
+    receive_exception(final ClientRequestInfo cri)\n
     '''
 def receive_other():
-    '''public void receive_other(final ClientRequestInfo cri)
+    '''returns None\n\n
+    receive_other(final ClientRequestInfo cri)\n
     '''
 def registerServiceContextListener():
-    '''public void registerServiceContextListener(final ORB orb, final WLMServiceClientContextListener context_listener)
+    '''returns None\n\n
+    registerServiceContextListener(final ORB orb, final WLMServiceClientContextListener context_listener)\n
     '''
 def deregisterServiceContextListener():
-    '''public void deregisterServiceContextListener(final ORB orb, final WLMServiceClientContextListener context_listener)
-    '''
-def registerTargetForwardedListener():
-    '''public static synchronized void registerTargetForwardedListener(final TargetForwardedListener tfListener)
+    '''returns None\n\n
+    deregisterServiceContextListener(final ORB orb, final WLMServiceClientContextListener context_listener)\n
     '''

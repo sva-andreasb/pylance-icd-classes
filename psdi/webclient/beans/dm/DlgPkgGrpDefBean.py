@@ -1,3 +1,4 @@
 def addcfggrpdef():
-    '''public int addcfggrpdef()
+    '''returns int\n\n
+    addcfggrpdef()\n
     '''

@@ -1,21 +1,28 @@
-def ImportTask():
-    '''public ImportTask()
+def ():
+    '''returns ImportTask\n\n
+    ()\n
     '''
 def setOptional():
-    '''public void setOptional(final boolean optional)
+    '''returns None\n\n
+    setOptional(final boolean optional)\n
     '''
 def setFile():
-    '''public void setFile(final String file)
+    '''returns None\n\n
+    setFile(final String file)\n
     '''
 def setAs():
-    '''public void setAs(final String prefix)
+    '''returns None\n\n
+    setAs(final String prefix)\n
     '''
 def setPrefixSeparator():
-    '''public void setPrefixSeparator(final String s)
+    '''returns None\n\n
+    setPrefixSeparator(final String s)\n
     '''
 def add():
-    '''public void add(final ResourceCollection r)
+    '''returns None\n\n
+    add(final ResourceCollection r)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

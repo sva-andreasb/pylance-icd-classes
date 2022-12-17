@@ -1,9 +1,12 @@
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
-def FromStringTerm():
-    '''public FromStringTerm(final String pattern)
+def ():
+    '''returns FromStringTerm\n\n
+    (final String pattern)\n
     '''
 def match():
-    '''public boolean match(final Message msg)
+    '''returns boolean\n\n
+    match(final Message msg)\n
     '''

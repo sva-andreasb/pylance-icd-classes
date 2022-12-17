@@ -1,103 +1,133 @@
-def ViewComponent():
-    '''public ViewComponent()
-    public ViewComponent(final String aName, final String dName, final int category, final String cName, final Guid ident, final int type, final ViewDescriptor vd)
+def ():
+    '''returns ViewComponent\n\n
+    ()\n
+    (final String aName, final String dName, final int category, final String cName, final Guid ident, final int type, final ViewDescriptor vd)\n
     '''
 def getAdminName():
-    '''public String getAdminName()
+    '''returns String\n\n
+    getAdminName()\n
     '''
 def setAdminName():
-    '''public void setAdminName(final String aName)
+    '''returns None\n\n
+    setAdminName(final String aName)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final String dName)
+    '''returns None\n\n
+    setDisplayName(final String dName)\n
     '''
 def getComponentCategory():
-    '''public int getComponentCategory()
+    '''returns int\n\n
+    getComponentCategory()\n
     '''
 def setComponentCategory():
-    '''public void setComponentCategory(final int category)
+    '''returns None\n\n
+    setComponentCategory(final int category)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String cName)
+    '''returns None\n\n
+    setClassName(final String cName)\n
     '''
 def getCollationSubType():
-    '''public String getCollationSubType()
+    '''returns String\n\n
+    getCollationSubType()\n
     '''
 def setCollationSubType():
-    '''public void setCollationSubType(final String sType)
+    '''returns None\n\n
+    setCollationSubType(final String sType)\n
     '''
 def getCollationType():
-    '''public String getCollationType()
+    '''returns String\n\n
+    getCollationType()\n
     '''
 def setCollationType():
-    '''public void setCollationType(final String cType)
+    '''returns None\n\n
+    setCollationType(final String cType)\n
     '''
 def getGuid():
-    '''public Guid getGuid()
+    '''returns Guid\n\n
+    getGuid()\n
     '''
 def setGuid():
-    '''public void setGuid(final Guid id_)
+    '''returns None\n\n
+    setGuid(final Guid id_)\n
     '''
 def getContainerId():
-    '''public Guid getContainerId()
+    '''returns Guid\n\n
+    getContainerId()\n
     '''
 def setContainerId():
-    '''public void setContainerId(final Guid cid_)
+    '''returns None\n\n
+    setContainerId(final Guid cid_)\n
     '''
 def getComponentType():
-    '''public int getComponentType()
+    '''returns int\n\n
+    getComponentType()\n
     '''
 def setComponentType():
-    '''public void setComponentType(final int ct)
+    '''returns None\n\n
+    setComponentType(final int ct)\n
     '''
 def getViewDescriptor():
-    '''public ViewDescriptor getViewDescriptor()
+    '''returns ViewDescriptor\n\n
+    getViewDescriptor()\n
     '''
 def setViewDescriptor():
-    '''public void setViewDescriptor(final ViewDescriptor vd)
+    '''returns None\n\n
+    setViewDescriptor(final ViewDescriptor vd)\n
     '''
 def category():
-    '''public String category()
+    '''returns String\n\n
+    category()\n
     '''
 def type():
-    '''public String type()
-    '''
-def setDetailedOutput():
-    '''public static void setDetailedOutput(final boolean flag)
+    '''returns String\n\n
+    type()\n
     '''
 def setKeyDisplayName():
-    '''public void setKeyDisplayName(final boolean key)
+    '''returns None\n\n
+    setKeyDisplayName(final boolean key)\n
     '''
 def isKeyDisplayName():
-    '''public boolean isKeyDisplayName()
+    '''returns boolean\n\n
+    isKeyDisplayName()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getVirtualType():
-    '''public int getVirtualType()
+    '''returns int\n\n
+    getVirtualType()\n
     '''
 def setVirtualType():
-    '''public void setVirtualType(final int virtualType)
+    '''returns None\n\n
+    setVirtualType(final int virtualType)\n
     '''
 def isComposite():
-    '''public boolean isComposite()
+    '''returns boolean\n\n
+    isComposite()\n
     '''
 def setComposite():
-    '''public void setComposite(final boolean isComposite)
+    '''returns None\n\n
+    setComposite(final boolean isComposite)\n
     '''
 def isSoftwareModule():
-    '''public boolean isSoftwareModule()
+    '''returns boolean\n\n
+    isSoftwareModule()\n
     '''
 def setSoftwareModule():
-    '''public void setSoftwareModule(final boolean isSoftwareModule)
+    '''returns None\n\n
+    setSoftwareModule(final boolean isSoftwareModule)\n
     '''

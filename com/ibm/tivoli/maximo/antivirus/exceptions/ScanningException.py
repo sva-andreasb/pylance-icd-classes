@@ -1,4 +1,5 @@
-def ScanningException():
-    '''public ScanningException(final String error)
-    public ScanningException(final String error, final Throwable exception)
+def ():
+    '''returns ScanningException\n\n
+    (final String error)\n
+    (final String error, final Throwable exception)\n
     '''

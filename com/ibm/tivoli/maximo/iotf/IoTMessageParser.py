@@ -1,9 +1,12 @@
-def IoTMessageParser():
-    '''public IoTMessageParser()
+def ():
+    '''returns IoTMessageParser\n\n
+    ()\n
     '''
 def parseMessage():
-    '''public MboSetRemote parseMessage(final byte[] jsonData, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    parseMessage(final byte[] jsonData, final UserInfo userInfo)\n
     '''
 def validateProperty():
-    '''public boolean validateProperty(final byte[] jsonData, final UserInfo userInfo, final String value)
+    '''returns boolean\n\n
+    validateProperty(final byte[] jsonData, final UserInfo userInfo, final String value)\n
     '''

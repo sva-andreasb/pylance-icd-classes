@@ -1,9 +1,12 @@
 def deleteQuietly():
-    '''public boolean deleteQuietly(final File fileToDelete)
+    '''returns boolean\n\n
+    deleteQuietly(final File fileToDelete)\n
     '''
 def delete():
-    '''public void delete(final File fileToDelete)
+    '''returns None\n\n
+    delete(final File fileToDelete)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

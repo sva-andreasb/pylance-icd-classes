@@ -1,24 +1,31 @@
 def setServerCredentials():
-    '''public BenchmarkApnsServerBuilder setServerCredentials(final File certificatePemFile, final File privateKeyPkcs8File, final String privateKeyPassword)
-    public BenchmarkApnsServerBuilder setServerCredentials(final InputStream certificatePemInputStream, final InputStream privateKeyPkcs8InputStream, final String privateKeyPassword)
-    public BenchmarkApnsServerBuilder setServerCredentials(final X509Certificate[] certificates, final PrivateKey privateKey, final String privateKeyPassword)
+    '''returns BenchmarkApnsServerBuilder\n\n
+    setServerCredentials(final File certificatePemFile, final File privateKeyPkcs8File, final String privateKeyPassword)\n
+    setServerCredentials(final InputStream certificatePemInputStream, final InputStream privateKeyPkcs8InputStream, final String privateKeyPassword)\n
+    setServerCredentials(final X509Certificate[] certificates, final PrivateKey privateKey, final String privateKeyPassword)\n
     '''
 def setTrustedClientCertificateChain():
-    '''public BenchmarkApnsServerBuilder setTrustedClientCertificateChain(final File certificatePemFile)
-    public BenchmarkApnsServerBuilder setTrustedClientCertificateChain(final InputStream certificateInputStream)
+    '''returns BenchmarkApnsServerBuilder\n\n
+    setTrustedClientCertificateChain(final File certificatePemFile)\n
+    setTrustedClientCertificateChain(final InputStream certificateInputStream)\n
     '''
 def setTrustedServerCertificateChain():
-    '''public BenchmarkApnsServerBuilder setTrustedServerCertificateChain(final X509Certificate... certificates)
+    '''returns BenchmarkApnsServerBuilder\n\n
+    setTrustedServerCertificateChain(final X509Certificate... certificates)\n
     '''
 def setEventLoopGroup():
-    '''public BenchmarkApnsServerBuilder setEventLoopGroup(final EventLoopGroup eventLoopGroup)
+    '''returns BenchmarkApnsServerBuilder\n\n
+    setEventLoopGroup(final EventLoopGroup eventLoopGroup)\n
     '''
 def setMaxConcurrentStreams():
-    '''public BenchmarkApnsServerBuilder setMaxConcurrentStreams(final int maxConcurrentStreams)
+    '''returns BenchmarkApnsServerBuilder\n\n
+    setMaxConcurrentStreams(final int maxConcurrentStreams)\n
     '''
 def setUseAlpn():
-    '''public BenchmarkApnsServerBuilder setUseAlpn(final boolean useAlpn)
+    '''returns BenchmarkApnsServerBuilder\n\n
+    setUseAlpn(final boolean useAlpn)\n
     '''
 def build():
-    '''public BenchmarkApnsServer build()
+    '''returns BenchmarkApnsServer\n\n
+    build()\n
     '''

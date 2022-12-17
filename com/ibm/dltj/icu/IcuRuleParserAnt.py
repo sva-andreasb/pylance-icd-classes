@@ -1,28 +1,37 @@
-def IcuRuleParserAnt():
-    '''public IcuRuleParserAnt()
+def ():
+    '''returns IcuRuleParserAnt\n\n
+    ()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setInput():
-    '''public void setInput(final File input)
+    '''returns None\n\n
+    setInput(final File input)\n
     '''
 def setJar():
-    '''public void setJar(final File jar)
+    '''returns None\n\n
+    setJar(final File jar)\n
     '''
 def setTypesystem():
-    '''public void setTypesystem(final File typeSystem)
+    '''returns None\n\n
+    setTypesystem(final File typeSystem)\n
     '''
 def setBrk():
-    '''public void setBrk(final File brkOutput)
+    '''returns None\n\n
+    setBrk(final File brkOutput)\n
     '''
 def setIcudir():
-    '''public void setIcudir(final File icuDir)
+    '''returns None\n\n
+    setIcudir(final File icuDir)\n
     '''
 def setLog():
-    '''public void setLog(final File file)
+    '''returns None\n\n
+    setLog(final File file)\n
     '''
 def write():
-    '''public void write(final int n)
-    public void write(final byte[] bytes, final int offset, final int length)
+    '''returns None\n\n
+    write(final int n)\n
+    write(final byte[] bytes, final int offset, final int length)\n
     '''

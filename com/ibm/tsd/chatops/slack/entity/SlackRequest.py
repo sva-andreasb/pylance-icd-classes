@@ -1,51 +1,68 @@
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTicketId():
-    '''public String getTicketId()
+    '''returns String\n\n
+    getTicketId()\n
     '''
 def getTool():
-    '''public String getTool()
+    '''returns String\n\n
+    getTool()\n
     '''
 def getTeamId():
-    '''public String getTeamId()
+    '''returns String\n\n
+    getTeamId()\n
     '''
 def getChannelId():
-    '''public String getChannelId()
+    '''returns String\n\n
+    getChannelId()\n
     '''
 def getChatOpsUserId():
-    '''public String getChatOpsUserId()
+    '''returns String\n\n
+    getChatOpsUserId()\n
     '''
 def getChatOpsUserName():
-    '''public String getChatOpsUserName()
+    '''returns String\n\n
+    getChatOpsUserName()\n
     '''
 def getICDUserId():
-    '''public String getICDUserId()
+    '''returns String\n\n
+    getICDUserId()\n
     '''
 def getResourceRequest():
-    '''public String getResourceRequest()
+    '''returns String\n\n
+    getResourceRequest()\n
     '''
 def getRequestUrl():
-    '''public String getRequestUrl()
+    '''returns String\n\n
+    getRequestUrl()\n
     '''
 def getSessionId():
-    '''public String getSessionId()
+    '''returns String\n\n
+    getSessionId()\n
     '''
 def getEvent():
-    '''public String getEvent()
+    '''returns String\n\n
+    getEvent()\n
     '''
 def getValue():
-    '''public JSONObject getValue()
+    '''returns JSONObject\n\n
+    getValue()\n
     '''
 def getCommand():
-    '''public String getCommand()
+    '''returns String\n\n
+    getCommand()\n
     '''
 def getTriggerId():
-    '''public String getTriggerId()
+    '''returns String\n\n
+    getTriggerId()\n
     '''
 def getOAuthCode():
-    '''public String getOAuthCode()
+    '''returns String\n\n
+    getOAuthCode()\n
     '''
 def getActionId():
-    '''public String getActionId()
+    '''returns String\n\n
+    getActionId()\n
     '''

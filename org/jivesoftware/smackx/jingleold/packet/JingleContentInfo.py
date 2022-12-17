@@ -1,36 +1,29 @@
 NAMESPACE = "String  \"urn:xmpp:tmp:jingle:apps:rtp\""
-def JingleContentInfo():
-    '''public JingleContentInfo()
-    public JingleContentInfo(final ContentInfo mediaInfoElement)
+def ():
+    '''returns Ringing\n\n
+    ()\n
+    (final ContentInfo mediaInfoElement)\n
+    (final ContentInfo mi)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def getMediaInfo():
-    '''public ContentInfo getMediaInfo()
+    '''returns ContentInfo\n\n
+    getMediaInfo()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
-    '''
-def Audio():
-    '''public Audio(final ContentInfo mi)
-    '''
-def Busy():
-    '''public Busy()
-    '''
-def Hold():
-    '''public Hold()
-    '''
-def Mute():
-    '''public Mute()
-    '''
-def Queued():
-    '''public Queued()
-    '''
-def Ringing():
-    '''public Ringing()
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''

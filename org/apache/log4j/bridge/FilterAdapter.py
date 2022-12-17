@@ -1,9 +1,12 @@
-def FilterAdapter():
-    '''public FilterAdapter(final Filter filter)
+def ():
+    '''returns FilterAdapter\n\n
+    (final Filter filter)\n
     '''
 def getFilter():
-    '''public Filter getFilter()
+    '''returns Filter\n\n
+    getFilter()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''

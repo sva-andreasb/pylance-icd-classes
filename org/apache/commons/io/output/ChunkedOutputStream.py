@@ -1,7 +1,9 @@
-def ChunkedOutputStream():
-    '''public ChunkedOutputStream(final OutputStream stream, final int chunkSize)
-    public ChunkedOutputStream(final OutputStream stream)
+def ():
+    '''returns ChunkedOutputStream\n\n
+    (final OutputStream stream, final int chunkSize)\n
+    (final OutputStream stream)\n
     '''
 def write():
-    '''public void write(final byte[] data, final int srcOffset, final int length)
+    '''returns None\n\n
+    write(final byte[] data, final int srcOffset, final int length)\n
     '''

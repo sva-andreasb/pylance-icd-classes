@@ -1,24 +1,32 @@
-def JobExecutorBuilderImpl():
-    '''public JobExecutorBuilderImpl()
+def ():
+    '''returns JobExecutorBuilderImpl\n\n
+    ()\n
     '''
 def threads():
-    '''public JobExecutorBuilder threads(final int threads)
+    '''returns JobExecutorBuilder\n\n
+    threads(final int threads)\n
     '''
 def interval():
-    '''public JobExecutorBuilder interval(final long interval, final TimeUnit unit)
+    '''returns JobExecutorBuilder\n\n
+    interval(final long interval, final TimeUnit unit)\n
     '''
 def timeout():
-    '''public JobExecutorBuilder timeout(final long timeout, final TimeUnit unit)
+    '''returns JobExecutorBuilder\n\n
+    timeout(final long timeout, final TimeUnit unit)\n
     '''
 def service():
-    '''public JobExecutorBuilder service(final ExecutorService service)
+    '''returns JobExecutorBuilder\n\n
+    service(final ExecutorService service)\n
     '''
 def retry():
-    '''public JobExecutorBuilder retry(final int retry)
+    '''returns JobExecutorBuilder\n\n
+    retry(final int retry)\n
     '''
 def retryDelay():
-    '''public JobExecutorBuilder retryDelay(final long delay, final TimeUnit unit)
+    '''returns JobExecutorBuilder\n\n
+    retryDelay(final long delay, final TimeUnit unit)\n
     '''
 def build():
-    '''public JobExecutor build()
+    '''returns JobExecutor\n\n
+    build()\n
     '''

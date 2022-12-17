@@ -1,6 +1,8 @@
-def ShowWFSubprocessSet():
-    '''public ShowWFSubprocessSet(final MboServerInterface ms)
+def ():
+    '''returns ShowWFSubprocessSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

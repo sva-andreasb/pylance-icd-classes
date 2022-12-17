@@ -1,6 +1,8 @@
-def WOActivitySet():
-    '''public WOActivitySet(final MboServerInterface ms)
+def ():
+    '''returns WOActivitySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

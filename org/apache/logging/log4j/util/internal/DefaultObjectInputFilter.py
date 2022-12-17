@@ -1,10 +1,9 @@
-def DefaultObjectInputFilter():
-    '''public DefaultObjectInputFilter()
-    public DefaultObjectInputFilter(final ObjectInputFilter filter)
-    '''
-def newInstance():
-    '''public static DefaultObjectInputFilter newInstance(final ObjectInputFilter filter)
+def ():
+    '''returns DefaultObjectInputFilter\n\n
+    ()\n
+    (final ObjectInputFilter filter)\n
     '''
 def checkInput():
-    '''public Status checkInput(final FilterInfo filterInfo)
+    '''returns Status\n\n
+    checkInput(final FilterInfo filterInfo)\n
     '''

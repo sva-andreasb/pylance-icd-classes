@@ -1,37 +1,49 @@
 serialVersionUID = "long  1L"
-def MessageImpl():
-    '''public MessageImpl()
+def ():
+    '''returns MessageImpl\n\n
+    ()\n
     '''
 def setQName():
-    '''public void setQName(final QName name)
+    '''returns None\n\n
+    setQName(final QName name)\n
     '''
 def getQName():
-    '''public QName getQName()
+    '''returns QName\n\n
+    getQName()\n
     '''
 def addPart():
-    '''public void addPart(final Part part)
+    '''returns None\n\n
+    addPart(final Part part)\n
     '''
 def getPart():
-    '''public Part getPart(final String s)
+    '''returns Part\n\n
+    getPart(final String s)\n
     '''
 def getParts():
-    '''public Map getParts()
+    '''returns Map\n\n
+    getParts()\n
     '''
 def getOrderedParts():
-    '''public List getOrderedParts(List additionOrderOfParts)
+    '''returns List\n\n
+    getOrderedParts(List additionOrderOfParts)\n
     '''
 def setDocumentationElement():
-    '''public void setDocumentationElement(final Element docEl)
+    '''returns None\n\n
+    setDocumentationElement(final Element docEl)\n
     '''
 def getDocumentationElement():
-    '''public Element getDocumentationElement()
+    '''returns Element\n\n
+    getDocumentationElement()\n
     '''
 def setUndefined():
-    '''public void setUndefined(final boolean isUndefined)
+    '''returns None\n\n
+    setUndefined(final boolean isUndefined)\n
     '''
 def isUndefined():
-    '''public boolean isUndefined()
+    '''returns boolean\n\n
+    isUndefined()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

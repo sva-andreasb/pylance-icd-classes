@@ -1,12 +1,16 @@
 def getGpsDefined():
-    '''public GPSDefined getGpsDefined()
+    '''returns GPSDefined\n\n
+    getGpsDefined()\n
     '''
 def setGpsDefined():
-    '''public void setGpsDefined(final GPSDefined gpsDefined)
+    '''returns None\n\n
+    setGpsDefined(final GPSDefined gpsDefined)\n
     '''
 def getPointDefined():
-    '''public PointDefined getPointDefined()
+    '''returns PointDefined\n\n
+    getPointDefined()\n
     '''
 def setPointDefined():
-    '''public void setPointDefined(final PointDefined pointDefined)
+    '''returns None\n\n
+    setPointDefined(final PointDefined pointDefined)\n
     '''

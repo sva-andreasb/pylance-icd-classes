@@ -1,42 +1,56 @@
 def getExistingBlueIdFlag():
-    '''public Boolean getExistingBlueIdFlag()
+    '''returns Boolean\n\n
+    getExistingBlueIdFlag()\n
     '''
 def setExistingBlueIdFlag():
-    '''public void setExistingBlueIdFlag(final Boolean existingBlueIdFlag)
+    '''returns None\n\n
+    setExistingBlueIdFlag(final Boolean existingBlueIdFlag)\n
     '''
 def isExistingBlueIdFlagSpecified():
-    '''public boolean isExistingBlueIdFlagSpecified()
+    '''returns boolean\n\n
+    isExistingBlueIdFlagSpecified()\n
     '''
 def unsetExistingBlueIdFlag():
-    '''public void unsetExistingBlueIdFlag()
+    '''returns None\n\n
+    unsetExistingBlueIdFlag()\n
     '''
 def getFederatedEmailDomainFlag():
-    '''public Boolean getFederatedEmailDomainFlag()
+    '''returns Boolean\n\n
+    getFederatedEmailDomainFlag()\n
     '''
 def setFederatedEmailDomainFlag():
-    '''public void setFederatedEmailDomainFlag(final Boolean federatedEmailDomainFlag)
+    '''returns None\n\n
+    setFederatedEmailDomainFlag(final Boolean federatedEmailDomainFlag)\n
     '''
 def isFederatedEmailDomainFlagSpecified():
-    '''public boolean isFederatedEmailDomainFlagSpecified()
+    '''returns boolean\n\n
+    isFederatedEmailDomainFlagSpecified()\n
     '''
 def unsetFederatedEmailDomainFlag():
-    '''public void unsetFederatedEmailDomainFlag()
+    '''returns None\n\n
+    unsetFederatedEmailDomainFlag()\n
     '''
 def getUser():
-    '''public Customer getUser()
+    '''returns Customer\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final Customer user)
+    '''returns None\n\n
+    setUser(final Customer user)\n
     '''
 def isUserSpecified():
-    '''public boolean isUserSpecified()
+    '''returns boolean\n\n
+    isUserSpecified()\n
     '''
 def unsetUser():
-    '''public void unsetUser()
+    '''returns None\n\n
+    unsetUser()\n
     '''
 def existingBlueIdFlag():
-    '''public Mask existingBlueIdFlag()
+    '''returns Mask\n\n
+    existingBlueIdFlag()\n
     '''
 def federatedEmailDomainFlag():
-    '''public Mask federatedEmailDomainFlag()
+    '''returns Mask\n\n
+    federatedEmailDomainFlag()\n
     '''

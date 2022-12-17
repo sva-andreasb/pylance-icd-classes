@@ -3,17 +3,22 @@ MODERATED_POSTING_PERMISSION = "int  1"
 PERMITTED_POSTING_PERMISSION = "int  2"
 PROHIBITED_POSTING_PERMISSION = "int  3"
 def getNewsgroup():
-    '''public String getNewsgroup()
+    '''returns String\n\n
+    getNewsgroup()\n
     '''
 def getArticleCount():
-    '''public int getArticleCount()
+    '''returns int\n\n
+    getArticleCount()\n
     '''
 def getFirstArticle():
-    '''public int getFirstArticle()
+    '''returns int\n\n
+    getFirstArticle()\n
     '''
 def getLastArticle():
-    '''public int getLastArticle()
+    '''returns int\n\n
+    getLastArticle()\n
     '''
 def getPostingPermission():
-    '''public int getPostingPermission()
+    '''returns int\n\n
+    getPostingPermission()\n
     '''

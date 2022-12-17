@@ -1,16 +1,21 @@
 def getMsgErrHandler():
-    '''public MessageErrorHandler getMsgErrHandler(final String queue)
+    '''returns MessageErrorHandler\n\n
+    getMsgErrHandler(final String queue)\n
     '''
 def refreshErrorHandlers():
-    '''public void refreshErrorHandlers()
+    '''returns None\n\n
+    refreshErrorHandlers()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''

@@ -1,38 +1,28 @@
-def equal():
-    '''public static boolean equal(@Nullable final Object a, @Nullable final Object b)
-    '''
-def hashCode():
-    '''public static int hashCode(@Nullable final Object... objects)
-    '''
-def toStringHelper():
-    '''public static ToStringHelper toStringHelper(final Object self)
-    public static ToStringHelper toStringHelper(final Class<?> clazz)
-    public static ToStringHelper toStringHelper(final String className)
-    '''
-def firstNonNull():
-    '''public static <T> T firstNonNull(@Nullable final T first, @Nullable final T second)
-    '''
 def omitNullValues():
-    '''public ToStringHelper omitNullValues()
+    '''returns ToStringHelper\n\n
+    omitNullValues()\n
     '''
 def add():
-    '''public ToStringHelper add(final String name, @Nullable final Object value)
-    public ToStringHelper add(final String name, final boolean value)
-    public ToStringHelper add(final String name, final char value)
-    public ToStringHelper add(final String name, final double value)
-    public ToStringHelper add(final String name, final float value)
-    public ToStringHelper add(final String name, final int value)
-    public ToStringHelper add(final String name, final long value)
+    '''returns ToStringHelper\n\n
+    add(final String name, @Nullable final Object value)\n
+    add(final String name, final boolean value)\n
+    add(final String name, final char value)\n
+    add(final String name, final double value)\n
+    add(final String name, final float value)\n
+    add(final String name, final int value)\n
+    add(final String name, final long value)\n
     '''
 def addValue():
-    '''public ToStringHelper addValue(@Nullable final Object value)
-    public ToStringHelper addValue(final boolean value)
-    public ToStringHelper addValue(final char value)
-    public ToStringHelper addValue(final double value)
-    public ToStringHelper addValue(final float value)
-    public ToStringHelper addValue(final int value)
-    public ToStringHelper addValue(final long value)
+    '''returns ToStringHelper\n\n
+    addValue(@Nullable final Object value)\n
+    addValue(final boolean value)\n
+    addValue(final char value)\n
+    addValue(final double value)\n
+    addValue(final float value)\n
+    addValue(final int value)\n
+    addValue(final long value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -5,177 +5,233 @@ LEFT = "int  4"
 RIGHT = "int  8"
 NO_BORDER = "int  0"
 BOX = "int  15"
-def Rectangle():
-    '''public Rectangle(final float llx, final float lly, final float urx, final float ury)
-    public Rectangle(final float urx, final float ury)
-    public Rectangle(final Rectangle rect)
+def ():
+    '''returns Rectangle\n\n
+    (final float llx, final float lly, final float urx, final float ury)\n
+    (final float urx, final float ury)\n
+    (final Rectangle rect)\n
     '''
 def cloneNonPositionParameters():
-    '''public void cloneNonPositionParameters(final Rectangle rect)
+    '''returns None\n\n
+    cloneNonPositionParameters(final Rectangle rect)\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def normalize():
-    '''public void normalize()
+    '''returns None\n\n
+    normalize()\n
     '''
 def rectangle():
-    '''public Rectangle rectangle(final float top, final float bottom)
+    '''returns Rectangle\n\n
+    rectangle(final float top, final float bottom)\n
     '''
 def rotate():
-    '''public Rectangle rotate()
+    '''returns Rectangle\n\n
+    rotate()\n
     '''
 def setLeft():
-    '''public void setLeft(final float value)
+    '''returns None\n\n
+    setLeft(final float value)\n
     '''
 def setRight():
-    '''public void setRight(final float value)
+    '''returns None\n\n
+    setRight(final float value)\n
     '''
 def setTop():
-    '''public void setTop(final float value)
+    '''returns None\n\n
+    setTop(final float value)\n
     '''
 def setBottom():
-    '''public void setBottom(final float value)
+    '''returns None\n\n
+    setBottom(final float value)\n
     '''
 def setBorder():
-    '''public void setBorder(final int value)
+    '''returns None\n\n
+    setBorder(final int value)\n
     '''
 def enableBorderSide():
-    '''public void enableBorderSide(final int side)
+    '''returns None\n\n
+    enableBorderSide(final int side)\n
     '''
 def disableBorderSide():
-    '''public void disableBorderSide(final int side)
+    '''returns None\n\n
+    disableBorderSide(final int side)\n
     '''
 def setBorderWidth():
-    '''public void setBorderWidth(final float value)
+    '''returns None\n\n
+    setBorderWidth(final float value)\n
     '''
 def setBorderColor():
-    '''public void setBorderColor(final Color value)
+    '''returns None\n\n
+    setBorderColor(final Color value)\n
     '''
 def setBorderColorRight():
-    '''public void setBorderColorRight(final Color value)
+    '''returns None\n\n
+    setBorderColorRight(final Color value)\n
     '''
 def setBorderColorLeft():
-    '''public void setBorderColorLeft(final Color value)
+    '''returns None\n\n
+    setBorderColorLeft(final Color value)\n
     '''
 def setBorderColorTop():
-    '''public void setBorderColorTop(final Color value)
+    '''returns None\n\n
+    setBorderColorTop(final Color value)\n
     '''
 def setBorderColorBottom():
-    '''public void setBorderColorBottom(final Color value)
+    '''returns None\n\n
+    setBorderColorBottom(final Color value)\n
     '''
 def setBackgroundColor():
-    '''public void setBackgroundColor(final Color value)
+    '''returns None\n\n
+    setBackgroundColor(final Color value)\n
     '''
 def setGrayFill():
-    '''public void setGrayFill(final float value)
+    '''returns None\n\n
+    setGrayFill(final float value)\n
     '''
 def left():
-    '''public float left()
-    public float left(final float margin)
+    '''returns float\n\n
+    left()\n
+    left(final float margin)\n
     '''
 def right():
-    '''public float right()
-    public float right(final float margin)
+    '''returns float\n\n
+    right()\n
+    right(final float margin)\n
     '''
 def top():
-    '''public float top()
-    public float top(final float margin)
+    '''returns float\n\n
+    top()\n
+    top(final float margin)\n
     '''
 def bottom():
-    '''public float bottom()
-    public float bottom(final float margin)
+    '''returns float\n\n
+    bottom()\n
+    bottom(final float margin)\n
     '''
 def width():
-    '''public float width()
+    '''returns float\n\n
+    width()\n
     '''
 def height():
-    '''public float height()
+    '''returns float\n\n
+    height()\n
     '''
 def hasBorders():
-    '''public boolean hasBorders()
+    '''returns boolean\n\n
+    hasBorders()\n
     '''
 def hasBorder():
-    '''public boolean hasBorder(final int type)
+    '''returns boolean\n\n
+    hasBorder(final int type)\n
     '''
 def border():
-    '''public int border()
+    '''returns int\n\n
+    border()\n
     '''
 def borderWidth():
-    '''public float borderWidth()
+    '''returns float\n\n
+    borderWidth()\n
     '''
 def borderColor():
-    '''public Color borderColor()
+    '''returns Color\n\n
+    borderColor()\n
     '''
 def backgroundColor():
-    '''public Color backgroundColor()
+    '''returns Color\n\n
+    backgroundColor()\n
     '''
 def grayFill():
-    '''public float grayFill()
+    '''returns float\n\n
+    grayFill()\n
     '''
 def getRotation():
-    '''public int getRotation()
+    '''returns int\n\n
+    getRotation()\n
     '''
 def setMarkupAttribute():
-    '''public void setMarkupAttribute(final String name, final String value)
+    '''returns None\n\n
+    setMarkupAttribute(final String name, final String value)\n
     '''
 def setMarkupAttributes():
-    '''public void setMarkupAttributes(final Properties markupAttributes)
+    '''returns None\n\n
+    setMarkupAttributes(final Properties markupAttributes)\n
     '''
 def getMarkupAttribute():
-    '''public String getMarkupAttribute(final String name)
+    '''returns String\n\n
+    getMarkupAttribute(final String name)\n
     '''
 def getMarkupAttributeNames():
-    '''public Set getMarkupAttributeNames()
+    '''returns Set\n\n
+    getMarkupAttributeNames()\n
     '''
 def getMarkupAttributes():
-    '''public Properties getMarkupAttributes()
+    '''returns Properties\n\n
+    getMarkupAttributes()\n
     '''
 def getBorderColorLeft():
-    '''public Color getBorderColorLeft()
+    '''returns Color\n\n
+    getBorderColorLeft()\n
     '''
 def getBorderColorRight():
-    '''public Color getBorderColorRight()
+    '''returns Color\n\n
+    getBorderColorRight()\n
     '''
 def getBorderColorTop():
-    '''public Color getBorderColorTop()
+    '''returns Color\n\n
+    getBorderColorTop()\n
     '''
 def getBorderColorBottom():
-    '''public Color getBorderColorBottom()
+    '''returns Color\n\n
+    getBorderColorBottom()\n
     '''
 def getBorderWidthLeft():
-    '''public float getBorderWidthLeft()
+    '''returns float\n\n
+    getBorderWidthLeft()\n
     '''
 def setBorderWidthLeft():
-    '''public void setBorderWidthLeft(final float borderWidthLeft)
+    '''returns None\n\n
+    setBorderWidthLeft(final float borderWidthLeft)\n
     '''
 def getBorderWidthRight():
-    '''public float getBorderWidthRight()
+    '''returns float\n\n
+    getBorderWidthRight()\n
     '''
 def setBorderWidthRight():
-    '''public void setBorderWidthRight(final float borderWidthRight)
+    '''returns None\n\n
+    setBorderWidthRight(final float borderWidthRight)\n
     '''
 def getBorderWidthTop():
-    '''public float getBorderWidthTop()
+    '''returns float\n\n
+    getBorderWidthTop()\n
     '''
 def setBorderWidthTop():
-    '''public void setBorderWidthTop(final float borderWidthTop)
+    '''returns None\n\n
+    setBorderWidthTop(final float borderWidthTop)\n
     '''
 def getBorderWidthBottom():
-    '''public float getBorderWidthBottom()
+    '''returns float\n\n
+    getBorderWidthBottom()\n
     '''
 def setBorderWidthBottom():
-    '''public void setBorderWidthBottom(final float borderWidthBottom)
+    '''returns None\n\n
+    setBorderWidthBottom(final float borderWidthBottom)\n
     '''
 def isUseVariableBorders():
-    '''public boolean isUseVariableBorders()
+    '''returns boolean\n\n
+    isUseVariableBorders()\n
     '''
 def setUseVariableBorders():
-    '''public void setUseVariableBorders(final boolean useVariableBorders)
+    '''returns None\n\n
+    setUseVariableBorders(final boolean useVariableBorders)\n
     '''

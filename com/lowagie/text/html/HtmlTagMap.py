@@ -1,24 +1,32 @@
-def HtmlTagMap():
-    '''public HtmlTagMap()
+def ():
+    '''returns HtmlTagMap\n\n
+    ()\n
     '''
 def isHtml():
-    '''public boolean isHtml(final String tag)
+    '''returns boolean\n\n
+    isHtml(final String tag)\n
     '''
 def isHead():
-    '''public boolean isHead(final String tag)
+    '''returns boolean\n\n
+    isHead(final String tag)\n
     '''
 def isMeta():
-    '''public boolean isMeta(final String tag)
+    '''returns boolean\n\n
+    isMeta(final String tag)\n
     '''
 def isLink():
-    '''public boolean isLink(final String tag)
+    '''returns boolean\n\n
+    isLink(final String tag)\n
     '''
 def isTitle():
-    '''public boolean isTitle(final String tag)
+    '''returns boolean\n\n
+    isTitle(final String tag)\n
     '''
 def isBody():
-    '''public boolean isBody(final String tag)
+    '''returns boolean\n\n
+    isBody(final String tag)\n
     '''
 def isSpecialTag():
-    '''public boolean isSpecialTag(final String tag)
+    '''returns boolean\n\n
+    isSpecialTag(final String tag)\n
     '''

@@ -1,33 +1,40 @@
-def forProperties():
-    '''public static AffixPatternProvider forProperties(final DecimalFormatProperties properties)
-    '''
 def charAt():
-    '''public char charAt(final int flags, final int i)
+    '''returns char\n\n
+    charAt(final int flags, final int i)\n
     '''
 def length():
-    '''public int length(final int flags)
+    '''returns int\n\n
+    length(final int flags)\n
     '''
 def getString():
-    '''public String getString(final int flags)
+    '''returns String\n\n
+    getString(final int flags)\n
     '''
 def positiveHasPlusSign():
-    '''public boolean positiveHasPlusSign()
+    '''returns boolean\n\n
+    positiveHasPlusSign()\n
     '''
 def hasNegativeSubpattern():
-    '''public boolean hasNegativeSubpattern()
+    '''returns boolean\n\n
+    hasNegativeSubpattern()\n
     '''
 def negativeHasMinusSign():
-    '''public boolean negativeHasMinusSign()
+    '''returns boolean\n\n
+    negativeHasMinusSign()\n
     '''
 def hasCurrencySign():
-    '''public boolean hasCurrencySign()
+    '''returns boolean\n\n
+    hasCurrencySign()\n
     '''
 def containsSymbolType():
-    '''public boolean containsSymbolType(final int type)
+    '''returns boolean\n\n
+    containsSymbolType(final int type)\n
     '''
 def hasBody():
-    '''public boolean hasBody()
+    '''returns boolean\n\n
+    hasBody()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

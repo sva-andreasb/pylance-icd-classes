@@ -1,7 +1,9 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Output():
-    '''public Output()
-    public Output(final T value)
+def ():
+    '''returns Output\n\n
+    ()\n
+    (final T value)\n
     '''

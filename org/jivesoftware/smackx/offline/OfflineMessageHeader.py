@@ -1,12 +1,16 @@
-def OfflineMessageHeader():
-    '''public OfflineMessageHeader(final DiscoverItems.Item item)
+def ():
+    '''returns OfflineMessageHeader\n\n
+    (final DiscoverItems.Item item)\n
     '''
 def getUser():
-    '''public Jid getUser()
+    '''returns Jid\n\n
+    getUser()\n
     '''
 def getJid():
-    '''public String getJid()
+    '''returns String\n\n
+    getJid()\n
     '''
 def getStamp():
-    '''public String getStamp()
+    '''returns String\n\n
+    getStamp()\n
     '''

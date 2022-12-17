@@ -1,68 +1,90 @@
-def XSLFSheet():
-    '''public XSLFSheet()
-    public XSLFSheet(final PackagePart part)
+def ():
+    '''returns XSLFSheet\n\n
+    ()\n
+    (final PackagePart part)\n
     '''
 def getSlideShow():
-    '''public XMLSlideShow getSlideShow()
+    '''returns XMLSlideShow\n\n
+    getSlideShow()\n
     '''
 def getCommonSlideData():
-    '''public XSLFCommonSlideData getCommonSlideData()
+    '''returns XSLFCommonSlideData\n\n
+    getCommonSlideData()\n
     '''
 def getShapes():
-    '''public List<XSLFShape> getShapes()
+    '''returns List<XSLFShape>\n\n
+    getShapes()\n
     '''
 def createAutoShape():
-    '''public XSLFAutoShape createAutoShape()
+    '''returns XSLFAutoShape\n\n
+    createAutoShape()\n
     '''
 def createFreeform():
-    '''public XSLFFreeformShape createFreeform()
+    '''returns XSLFFreeformShape\n\n
+    createFreeform()\n
     '''
 def createTextBox():
-    '''public XSLFTextBox createTextBox()
+    '''returns XSLFTextBox\n\n
+    createTextBox()\n
     '''
 def createConnector():
-    '''public XSLFConnectorShape createConnector()
+    '''returns XSLFConnectorShape\n\n
+    createConnector()\n
     '''
 def createGroup():
-    '''public XSLFGroupShape createGroup()
+    '''returns XSLFGroupShape\n\n
+    createGroup()\n
     '''
 def createPicture():
-    '''public XSLFPictureShape createPicture(final PictureData pictureData)
+    '''returns XSLFPictureShape\n\n
+    createPicture(final PictureData pictureData)\n
     '''
 def createTable():
-    '''public XSLFTable createTable()
-    public XSLFTable createTable(final int numRows, final int numCols)
+    '''returns XSLFTable\n\n
+    createTable()\n
+    createTable(final int numRows, final int numCols)\n
     '''
 def iterator():
-    '''public Iterator<XSLFShape> iterator()
+    '''returns Iterator<XSLFShape>\n\n
+    iterator()\n
     '''
 def addShape():
-    '''public void addShape(final XSLFShape shape)
+    '''returns None\n\n
+    addShape(final XSLFShape shape)\n
     '''
 def removeShape():
-    '''public boolean removeShape(final XSLFShape xShape)
+    '''returns boolean\n\n
+    removeShape(final XSLFShape xShape)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def importContent():
-    '''public XSLFSheet importContent(final XSLFSheet src)
+    '''returns XSLFSheet\n\n
+    importContent(final XSLFSheet src)\n
     '''
 def appendContent():
-    '''public XSLFSheet appendContent(final XSLFSheet src)
+    '''returns XSLFSheet\n\n
+    appendContent(final XSLFSheet src)\n
     '''
 def getPlaceholder():
-    '''public XSLFTextShape getPlaceholder(final int idx)
+    '''returns XSLFTextShape\n\n
+    getPlaceholder(final int idx)\n
     '''
 def getPlaceholders():
-    '''public XSLFTextShape[] getPlaceholders()
+    '''returns XSLFTextShape[]\n\n
+    getPlaceholders()\n
     '''
 def getFollowMasterGraphics():
-    '''public boolean getFollowMasterGraphics()
+    '''returns boolean\n\n
+    getFollowMasterGraphics()\n
     '''
 def getBackground():
-    '''public XSLFBackground getBackground()
+    '''returns XSLFBackground\n\n
+    getBackground()\n
     '''
 def draw():
-    '''public void draw(final Graphics2D graphics)
+    '''returns None\n\n
+    draw(final Graphics2D graphics)\n
     '''

@@ -1,17 +1,18 @@
 ELEMENT = "String  \"fin\""
 NAMESPACE = "String  \"urn:xmpp:mam:1\""
-def MamFinIQ():
-    '''public MamFinIQ(final String queryId, final RSMSet rsmSet, final boolean complete, final boolean stable)
+def ():
+    '''returns MamFinIQ\n\n
+    (final String queryId, final RSMSet rsmSet, final boolean complete, final boolean stable)\n
     '''
 def getRSMSet():
-    '''public RSMSet getRSMSet()
+    '''returns RSMSet\n\n
+    getRSMSet()\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def isStable():
-    '''public boolean isStable()
-    '''
-def getQueryId():
-    '''public final String getQueryId()
+    '''returns boolean\n\n
+    isStable()\n
     '''

@@ -15,6 +15,7 @@ NAMESPACE_ERR = "short  14"
 INVALID_ACCESS_ERR = "short  15"
 VALIDATION_ERR = "short  16"
 TYPE_MISMATCH_ERR = "short  17"
-def DOMException():
-    '''public DOMException(final short code, final String message)
+def ():
+    '''returns DOMException\n\n
+    (final short code, final String message)\n
     '''

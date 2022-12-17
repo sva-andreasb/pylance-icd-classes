@@ -1,3 +1,4 @@
-def RfcLDAPURL():
-    '''public RfcLDAPURL(final String s)
+def ():
+    '''returns RfcLDAPURL\n\n
+    (final String s)\n
     '''

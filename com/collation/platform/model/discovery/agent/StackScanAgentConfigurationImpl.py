@@ -1,403 +1,537 @@
-def StackScanAgentConfigurationImpl():
-    '''public StackScanAgentConfigurationImpl()
-    public StackScanAgentConfigurationImpl(final Map m)
+def ():
+    '''returns StackScanAgentConfigurationImpl\n\n
+    ()\n
+    (final Map m)\n
     '''
 def getUdpPorts():
-    '''public String getUdpPorts()
+    '''returns String\n\n
+    getUdpPorts()\n
     '''
 def hasUdpPorts():
-    '''public boolean hasUdpPorts()
+    '''returns boolean\n\n
+    hasUdpPorts()\n
     '''
 def setUdpPorts():
-    '''public void setUdpPorts(final String udpports)
+    '''returns None\n\n
+    setUdpPorts(final String udpports)\n
     '''
 def getTcpPorts():
-    '''public String getTcpPorts()
+    '''returns String\n\n
+    getTcpPorts()\n
     '''
 def hasTcpPorts():
-    '''public boolean hasTcpPorts()
+    '''returns boolean\n\n
+    hasTcpPorts()\n
     '''
 def setTcpPorts():
-    '''public void setTcpPorts(final String tcpports)
+    '''returns None\n\n
+    setTcpPorts(final String tcpports)\n
     '''
 def getFingerprintFile():
-    '''public String getFingerprintFile()
+    '''returns String\n\n
+    getFingerprintFile()\n
     '''
 def hasFingerprintFile():
-    '''public boolean hasFingerprintFile()
+    '''returns boolean\n\n
+    hasFingerprintFile()\n
     '''
 def setFingerprintFile():
-    '''public void setFingerprintFile(final String file)
+    '''returns None\n\n
+    setFingerprintFile(final String file)\n
     '''
 def getServicesFileParserFile():
-    '''public String getServicesFileParserFile()
+    '''returns String\n\n
+    getServicesFileParserFile()\n
     '''
 def hasServicesFileParserFile():
-    '''public boolean hasServicesFileParserFile()
+    '''returns boolean\n\n
+    hasServicesFileParserFile()\n
     '''
 def setServicesFileParserFile():
-    '''public void setServicesFileParserFile(final String servicesParserFile)
+    '''returns None\n\n
+    setServicesFileParserFile(final String servicesParserFile)\n
     '''
 def getIpscanThreads():
-    '''public String getIpscanThreads()
+    '''returns String\n\n
+    getIpscanThreads()\n
     '''
 def hasIpscanThreads():
-    '''public boolean hasIpscanThreads()
+    '''returns boolean\n\n
+    hasIpscanThreads()\n
     '''
 def setIpscanThreads():
-    '''public void setIpscanThreads(final String ipScanThreads)
+    '''returns None\n\n
+    setIpscanThreads(final String ipScanThreads)\n
     '''
 def getPortscanThreads():
-    '''public String getPortscanThreads()
+    '''returns String\n\n
+    getPortscanThreads()\n
     '''
 def hasPortscanThreads():
-    '''public boolean hasPortscanThreads()
+    '''returns boolean\n\n
+    hasPortscanThreads()\n
     '''
 def setPortscanThreads():
-    '''public void setPortscanThreads(final String portScanThreads)
+    '''returns None\n\n
+    setPortscanThreads(final String portScanThreads)\n
     '''
 def getTcpTimeoutMs():
-    '''public String getTcpTimeoutMs()
+    '''returns String\n\n
+    getTcpTimeoutMs()\n
     '''
 def hasTcpTimeoutMs():
-    '''public boolean hasTcpTimeoutMs()
+    '''returns boolean\n\n
+    hasTcpTimeoutMs()\n
     '''
 def setTcpTimeoutMs():
-    '''public void setTcpTimeoutMs(final String tcpTimeout)
+    '''returns None\n\n
+    setTcpTimeoutMs(final String tcpTimeout)\n
     '''
 def getUdpTimeoutMs():
-    '''public String getUdpTimeoutMs()
+    '''returns String\n\n
+    getUdpTimeoutMs()\n
     '''
 def hasUdpTimeoutMs():
-    '''public boolean hasUdpTimeoutMs()
+    '''returns boolean\n\n
+    hasUdpTimeoutMs()\n
     '''
 def setUdpTimeoutMs():
-    '''public void setUdpTimeoutMs(final String udpTimeout)
+    '''returns None\n\n
+    setUdpTimeoutMs(final String udpTimeout)\n
     '''
 def getOsTimeoutMs():
-    '''public String getOsTimeoutMs()
+    '''returns String\n\n
+    getOsTimeoutMs()\n
     '''
 def hasOsTimeoutMs():
-    '''public boolean hasOsTimeoutMs()
+    '''returns boolean\n\n
+    hasOsTimeoutMs()\n
     '''
 def setOsTimeoutMs():
-    '''public void setOsTimeoutMs(final String osTimeout)
+    '''returns None\n\n
+    setOsTimeoutMs(final String osTimeout)\n
     '''
 def getNmapExec():
-    '''public String getNmapExec()
+    '''returns String\n\n
+    getNmapExec()\n
     '''
 def hasNmapExec():
-    '''public boolean hasNmapExec()
+    '''returns boolean\n\n
+    hasNmapExec()\n
     '''
 def setNmapExec():
-    '''public void setNmapExec(final String nmapExec)
+    '''returns None\n\n
+    setNmapExec(final String nmapExec)\n
     '''
 def getCombinerOSRules():
-    '''public String getCombinerOSRules()
+    '''returns String\n\n
+    getCombinerOSRules()\n
     '''
 def hasCombinerOSRules():
-    '''public boolean hasCombinerOSRules()
+    '''returns boolean\n\n
+    hasCombinerOSRules()\n
     '''
 def setCombinerOSRules():
-    '''public void setCombinerOSRules(final String combinerOSRules)
+    '''returns None\n\n
+    setCombinerOSRules(final String combinerOSRules)\n
     '''
 def getWindowsSessionTimeout():
-    '''public String getWindowsSessionTimeout()
+    '''returns String\n\n
+    getWindowsSessionTimeout()\n
     '''
 def hasWindowsSessionTimeout():
-    '''public boolean hasWindowsSessionTimeout()
+    '''returns boolean\n\n
+    hasWindowsSessionTimeout()\n
     '''
 def setWindowsSessionTimeout():
-    '''public void setWindowsSessionTimeout(final String windowsSessionTimeout)
+    '''returns None\n\n
+    setWindowsSessionTimeout(final String windowsSessionTimeout)\n
     '''
 def getConfidenceThreshold():
-    '''public String getConfidenceThreshold()
+    '''returns String\n\n
+    getConfidenceThreshold()\n
     '''
 def hasConfidenceThreshold():
-    '''public boolean hasConfidenceThreshold()
+    '''returns boolean\n\n
+    hasConfidenceThreshold()\n
     '''
 def setConfidenceThreshold():
-    '''public void setConfidenceThreshold(final String confidenceThreshold)
+    '''returns None\n\n
+    setConfidenceThreshold(final String confidenceThreshold)\n
     '''
 def getGuid():
-    '''public Guid getGuid()
+    '''returns Guid\n\n
+    getGuid()\n
     '''
 def hasGuid():
-    '''public boolean hasGuid()
+    '''returns boolean\n\n
+    hasGuid()\n
     '''
 def setGuid():
-    '''public void setGuid(final Guid guid)
+    '''returns None\n\n
+    setGuid(final Guid guid)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def hasDisplayName():
-    '''public boolean hasDisplayName()
+    '''returns boolean\n\n
+    hasDisplayName()\n
     '''
 def getContextIp():
-    '''public String getContextIp()
+    '''returns String\n\n
+    getContextIp()\n
     '''
 def hasContextIp():
-    '''public boolean hasContextIp()
+    '''returns boolean\n\n
+    hasContextIp()\n
     '''
 def setContextIp():
-    '''public void setContextIp(final String ctx)
+    '''returns None\n\n
+    setContextIp(final String ctx)\n
     '''
 def getObjectType():
-    '''public String getObjectType()
+    '''returns String\n\n
+    getObjectType()\n
     '''
 def hasObjectType():
-    '''public boolean hasObjectType()
+    '''returns boolean\n\n
+    hasObjectType()\n
     '''
 def setObjectType():
-    '''public void setObjectType(final String type)
+    '''returns None\n\n
+    setObjectType(final String type)\n
     '''
 def getCDMSource():
-    '''public String getCDMSource()
+    '''returns String\n\n
+    getCDMSource()\n
     '''
 def hasCDMSource():
-    '''public boolean hasCDMSource()
+    '''returns boolean\n\n
+    hasCDMSource()\n
     '''
 def setCDMSource():
-    '''public void setCDMSource(final String source)
+    '''returns None\n\n
+    setCDMSource(final String source)\n
     '''
 def getSourceToken():
-    '''public String getSourceToken()
+    '''returns String\n\n
+    getSourceToken()\n
     '''
 def hasSourceToken():
-    '''public boolean hasSourceToken()
+    '''returns boolean\n\n
+    hasSourceToken()\n
     '''
 def setSourceToken():
-    '''public void setSourceToken(final String sourceToken)
+    '''returns None\n\n
+    setSourceToken(final String sourceToken)\n
     '''
 def getCmdbSource():
-    '''public Guid getCmdbSource()
+    '''returns Guid\n\n
+    getCmdbSource()\n
     '''
 def hasCmdbSource():
-    '''public boolean hasCmdbSource()
+    '''returns boolean\n\n
+    hasCmdbSource()\n
     '''
 def setCmdbSource():
-    '''public void setCmdbSource(final Guid cmdbsource)
+    '''returns None\n\n
+    setCmdbSource(final Guid cmdbsource)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def hasLabel():
-    '''public boolean hasLabel()
+    '''returns boolean\n\n
+    hasLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def hasDescription():
-    '''public boolean hasDescription()
+    '''returns boolean\n\n
+    hasDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getAdminState():
-    '''public int getAdminState()
+    '''returns int\n\n
+    getAdminState()\n
     '''
 def hasAdminState():
-    '''public boolean hasAdminState()
+    '''returns boolean\n\n
+    hasAdminState()\n
     '''
 def setAdminState():
-    '''public void setAdminState(final int state)
+    '''returns None\n\n
+    setAdminState(final int state)\n
     '''
 def getBidiFlag():
-    '''public int getBidiFlag()
+    '''returns int\n\n
+    getBidiFlag()\n
     '''
 def hasBidiFlag():
-    '''public boolean hasBidiFlag()
+    '''returns boolean\n\n
+    hasBidiFlag()\n
     '''
 def setBidiFlag():
-    '''public void setBidiFlag(final int bidiflag)
+    '''returns None\n\n
+    setBidiFlag(final int bidiflag)\n
     '''
 def getBidiFormat():
-    '''public String getBidiFormat()
+    '''returns String\n\n
+    getBidiFormat()\n
     '''
 def hasBidiFormat():
-    '''public boolean hasBidiFormat()
+    '''returns boolean\n\n
+    hasBidiFormat()\n
     '''
 def setBidiFormat():
-    '''public void setBidiFormat(final String bidiformat)
+    '''returns None\n\n
+    setBidiFormat(final String bidiformat)\n
     '''
 def getAllAttributes():
-    '''public Map getAllAttributes()
+    '''returns Map\n\n
+    getAllAttributes()\n
     '''
 def getCreatedBy():
-    '''public String getCreatedBy()
+    '''returns String\n\n
+    getCreatedBy()\n
     '''
 def hasCreatedBy():
-    '''public boolean hasCreatedBy()
+    '''returns boolean\n\n
+    hasCreatedBy()\n
     '''
 def getLastModifiedTime():
-    '''public long getLastModifiedTime()
+    '''returns long\n\n
+    getLastModifiedTime()\n
     '''
 def hasLastModifiedTime():
-    '''public boolean hasLastModifiedTime()
+    '''returns boolean\n\n
+    hasLastModifiedTime()\n
     '''
 def getLastModifiedBy():
-    '''public String getLastModifiedBy()
+    '''returns String\n\n
+    getLastModifiedBy()\n
     '''
 def hasLastModifiedBy():
-    '''public boolean hasLastModifiedBy()
+    '''returns boolean\n\n
+    hasLastModifiedBy()\n
     '''
 def getExtendedAttributes():
-    '''public byte[] getExtendedAttributes()
+    '''returns byte[]\n\n
+    getExtendedAttributes()\n
     '''
 def hasExtendedAttributes():
-    '''public boolean hasExtendedAttributes()
+    '''returns boolean\n\n
+    hasExtendedAttributes()\n
     '''
 def setExtendedAttributes():
-    '''public void setExtendedAttributes(final byte[] eAttribMap)
+    '''returns None\n\n
+    setExtendedAttributes(final byte[] eAttribMap)\n
     '''
 def getSeedClassName():
-    '''public String getSeedClassName()
+    '''returns String\n\n
+    getSeedClassName()\n
     '''
 def hasSeedClassName():
-    '''public boolean hasSeedClassName()
+    '''returns boolean\n\n
+    hasSeedClassName()\n
     '''
 def setSeedClassName():
-    '''public void setSeedClassName(final String className)
+    '''returns None\n\n
+    setSeedClassName(final String className)\n
     '''
 def getAgentClassName():
-    '''public String getAgentClassName()
+    '''returns String\n\n
+    getAgentClassName()\n
     '''
 def hasAgentClassName():
-    '''public boolean hasAgentClassName()
+    '''returns boolean\n\n
+    hasAgentClassName()\n
     '''
 def setAgentClassName():
-    '''public void setAgentClassName(final String className)
+    '''returns None\n\n
+    setAgentClassName(final String className)\n
     '''
 def getTemplateClassName():
-    '''public String getTemplateClassName()
+    '''returns String\n\n
+    getTemplateClassName()\n
     '''
 def hasTemplateClassName():
-    '''public boolean hasTemplateClassName()
+    '''returns boolean\n\n
+    hasTemplateClassName()\n
     '''
 def setTemplateClassName():
-    '''public void setTemplateClassName(final String className)
+    '''returns None\n\n
+    setTemplateClassName(final String className)\n
     '''
 def getClassPath():
-    '''public ClassPathEntry[] getClassPath()
+    '''returns ClassPathEntry[]\n\n
+    getClassPath()\n
     '''
 def hasClassPath():
-    '''public boolean hasClassPath()
+    '''returns boolean\n\n
+    hasClassPath()\n
     '''
 def setClassPath():
-    '''public void setClassPath(final ClassPathEntry[] classpath)
+    '''returns None\n\n
+    setClassPath(final ClassPathEntry[] classpath)\n
     '''
 def getScopeSetName():
-    '''public String getScopeSetName()
+    '''returns String\n\n
+    getScopeSetName()\n
     '''
 def hasScopeSetName():
-    '''public boolean hasScopeSetName()
+    '''returns boolean\n\n
+    hasScopeSetName()\n
     '''
 def setScopeSetName():
-    '''public void setScopeSetName(final String scopeName)
+    '''returns None\n\n
+    setScopeSetName(final String scopeName)\n
     '''
 def getBidiConfigFlag():
-    '''public int getBidiConfigFlag()
+    '''returns int\n\n
+    getBidiConfigFlag()\n
     '''
 def hasBidiConfigFlag():
-    '''public boolean hasBidiConfigFlag()
+    '''returns boolean\n\n
+    hasBidiConfigFlag()\n
     '''
 def setBidiConfigFlag():
-    '''public void setBidiConfigFlag(final int flag)
+    '''returns None\n\n
+    setBidiConfigFlag(final int flag)\n
     '''
 def getBidiConfigFormat():
-    '''public String getBidiConfigFormat()
+    '''returns String\n\n
+    getBidiConfigFormat()\n
     '''
 def hasBidiConfigFormat():
-    '''public boolean hasBidiConfigFormat()
+    '''returns boolean\n\n
+    hasBidiConfigFormat()\n
     '''
 def setBidiConfigFormat():
-    '''public void setBidiConfigFormat(final String format)
+    '''returns None\n\n
+    setBidiConfigFormat(final String format)\n
     '''
 def getBidiProfile():
-    '''public String getBidiProfile()
+    '''returns String\n\n
+    getBidiProfile()\n
     '''
 def hasBidiProfile():
-    '''public boolean hasBidiProfile()
+    '''returns boolean\n\n
+    hasBidiProfile()\n
     '''
 def setBidiProfile():
-    '''public void setBidiProfile(final String profileName)
+    '''returns None\n\n
+    setBidiProfile(final String profileName)\n
     '''
 def getObjectVersion():
-    '''public int getObjectVersion()
+    '''returns int\n\n
+    getObjectVersion()\n
     '''
 def hasObjectVersion():
-    '''public boolean hasObjectVersion()
+    '''returns boolean\n\n
+    hasObjectVersion()\n
     '''
 def setObjectVersion():
-    '''public void setObjectVersion(final int version)
+    '''returns None\n\n
+    setObjectVersion(final int version)\n
     '''
 def getOriginalName():
-    '''public String getOriginalName()
+    '''returns String\n\n
+    getOriginalName()\n
     '''
 def hasOriginalName():
-    '''public boolean hasOriginalName()
+    '''returns boolean\n\n
+    hasOriginalName()\n
     '''
 def setOriginalName():
-    '''public void setOriginalName(final String originalName)
+    '''returns None\n\n
+    setOriginalName(final String originalName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hasName():
-    '''public boolean hasName()
+    '''returns boolean\n\n
+    hasName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getFamilyName():
-    '''public String getFamilyName()
+    '''returns String\n\n
+    getFamilyName()\n
     '''
 def hasFamilyName():
-    '''public boolean hasFamilyName()
+    '''returns boolean\n\n
+    hasFamilyName()\n
     '''
 def setFamilyName():
-    '''public void setFamilyName(final String name)
+    '''returns None\n\n
+    setFamilyName(final String name)\n
     '''
 def getEnabled():
-    '''public boolean getEnabled()
+    '''returns boolean\n\n
+    getEnabled()\n
     '''
 def hasEnabled():
-    '''public boolean hasEnabled()
+    '''returns boolean\n\n
+    hasEnabled()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
     '''
 def getOperationalStatus():
-    '''public int getOperationalStatus()
+    '''returns int\n\n
+    getOperationalStatus()\n
     '''
 def hasOperationalStatus():
-    '''public boolean hasOperationalStatus()
+    '''returns boolean\n\n
+    hasOperationalStatus()\n
     '''
 def setOperationalStatus():
-    '''public void setOperationalStatus(final int status)
+    '''returns None\n\n
+    setOperationalStatus(final int status)\n
     '''
 def getRejectionReason():
-    '''public String getRejectionReason()
+    '''returns String\n\n
+    getRejectionReason()\n
     '''
 def hasRejectionReason():
-    '''public boolean hasRejectionReason()
+    '''returns boolean\n\n
+    hasRejectionReason()\n
     '''
 def setRejectionReason():
-    '''public void setRejectionReason(final String reason)
+    '''returns None\n\n
+    setRejectionReason(final String reason)\n
     '''
 def getMssGuid():
-    '''public String getMssGuid()
+    '''returns String\n\n
+    getMssGuid()\n
     '''
 def hasMssGuid():
-    '''public boolean hasMssGuid()
+    '''returns boolean\n\n
+    hasMssGuid()\n
     '''
 def setMssGuid():
-    '''public void setMssGuid(final String mssGuid)
+    '''returns None\n\n
+    setMssGuid(final String mssGuid)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

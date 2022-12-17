@@ -1,9 +1,12 @@
-def FldReconDataSet2():
-    '''public FldReconDataSet2(final MboValue mbv)
+def ():
+    '''returns FldReconDataSet2\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

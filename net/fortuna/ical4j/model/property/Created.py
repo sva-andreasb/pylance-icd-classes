@@ -1,14 +1,14 @@
-def Created():
-    '''public Created()
-    public Created(final String aValue)
-    public Created(final ParameterList aList, final String aValue)
-    public Created(final DateTime aDate)
-    public Created(final ParameterList aList, final DateTime aDate)
-    '''
-def Factory():
-    '''public Factory()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final String aValue)\n
+    (final ParameterList aList, final String aValue)\n
+    (final DateTime aDate)\n
+    (final ParameterList aList, final DateTime aDate)\n
+    ()\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

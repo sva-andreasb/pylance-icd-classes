@@ -1,10 +1,13 @@
 UNICODE_VARCHAR = "int  -9"
-def SQLServerDataHandler():
-    '''public SQLServerDataHandler(final DataHandler datahandler)
+def ():
+    '''returns SQLServerDataHandler\n\n
+    (final DataHandler datahandler)\n
     '''
 def getProcedure():
-    '''public Procedure getProcedure(final PyCursor cursor, final PyObject name)
+    '''returns Procedure\n\n
+    getProcedure(final PyCursor cursor, final PyObject name)\n
     '''
 def getPyObject():
-    '''public PyObject getPyObject(final ResultSet set, final int col, final int type)
+    '''returns PyObject\n\n
+    getPyObject(final ResultSet set, final int col, final int type)\n
     '''

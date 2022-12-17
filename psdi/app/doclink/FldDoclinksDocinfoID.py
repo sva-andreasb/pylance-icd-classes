@@ -1,6 +1,8 @@
-def FldDoclinksDocinfoID():
-    '''public FldDoclinksDocinfoID(final MboValue mbv)
+def ():
+    '''returns FldDoclinksDocinfoID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

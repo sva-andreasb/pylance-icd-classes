@@ -1,3 +1,4 @@
-def BIMProjectSet():
-    '''public BIMProjectSet(final MboServerInterface ms)
+def ():
+    '''returns BIMProjectSet\n\n
+    (final MboServerInterface ms)\n
     '''

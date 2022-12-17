@@ -1,13 +1,17 @@
 def getCondition():
-    '''public String getCondition()
+    '''returns String\n\n
+    getCondition()\n
     '''
 def getFormula():
-    '''public String getFormula()
+    '''returns String\n\n
+    getFormula()\n
     '''
 def getMethodologyName():
-    '''public String getMethodologyName()
+    '''returns String\n\n
+    getMethodologyName()\n
     '''
-def AttrFormulaCondInfo():
-    '''public AttrFormulaCondInfo(final String condition, final String formula)
-    public AttrFormulaCondInfo(final String condition, final String formula, final String methodologyName)
+def ():
+    '''returns AttrFormulaCondInfo\n\n
+    (final String condition, final String formula)\n
+    (final String condition, final String formula, final String methodologyName)\n
     '''

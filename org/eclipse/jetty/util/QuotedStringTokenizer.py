@@ -1,45 +1,44 @@
-def QuotedStringTokenizer():
-    '''public QuotedStringTokenizer(final String str, final String delim, final boolean returnDelimiters, final boolean returnQuotes)
-    public QuotedStringTokenizer(final String str, final String delim, final boolean returnDelimiters)
-    public QuotedStringTokenizer(final String str, final String delim)
-    public QuotedStringTokenizer(final String str)
+def ():
+    '''returns QuotedStringTokenizer\n\n
+    (final String str, final String delim, final boolean returnDelimiters, final boolean returnQuotes)\n
+    (final String str, final String delim, final boolean returnDelimiters)\n
+    (final String str, final String delim)\n
+    (final String str)\n
     '''
 def hasMoreTokens():
-    '''public boolean hasMoreTokens()
+    '''returns boolean\n\n
+    hasMoreTokens()\n
     '''
 def nextToken():
-    '''public String nextToken()
-    public String nextToken(final String delim)
+    '''returns String\n\n
+    nextToken()\n
+    nextToken(final String delim)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''
 def countTokens():
-    '''public int countTokens()
-    '''
-def quoteIfNeeded():
-    '''public static String quoteIfNeeded(final String s, final String delim)
-    public static boolean quoteIfNeeded(final Appendable buf, final String s, final String delim)
-    '''
-def quote():
-    '''public static String quote(final String s)
-    public static void quote(final Appendable buffer, final String input)
-    '''
-def unquote():
-    '''public static String unquote(final String s)
+    '''returns int\n\n
+    countTokens()\n
     '''
 def getDouble():
-    '''public boolean getDouble()
+    '''returns boolean\n\n
+    getDouble()\n
     '''
 def setDouble():
-    '''public void setDouble(final boolean d)
+    '''returns None\n\n
+    setDouble(final boolean d)\n
     '''
 def getSingle():
-    '''public boolean getSingle()
+    '''returns boolean\n\n
+    getSingle()\n
     '''
 def setSingle():
-    '''public void setSingle(final boolean single)
+    '''returns None\n\n
+    setSingle(final boolean single)\n
     '''

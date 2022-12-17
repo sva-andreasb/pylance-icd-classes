@@ -1,3 +1,4 @@
-def ActivationEvent():
-    '''public ActivationEvent(final Object o)
+def ():
+    '''returns ActivationEvent\n\n
+    (final Object o)\n
     '''

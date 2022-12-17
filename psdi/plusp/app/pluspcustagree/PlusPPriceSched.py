@@ -1,91 +1,121 @@
-def PlusPPriceSched():
-    '''public PlusPPriceSched(final MboSet set)
+def ():
+    '''returns PlusPPriceSched\n\n
+    (final MboSet set)\n
     '''
 def getIdField():
-    '''public String getIdField()
+    '''returns String\n\n
+    getIdField()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)\n
     '''
 def validateStatus():
-    '''public void validateStatus()
+    '''returns None\n\n
+    validateStatus()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String s, final String val)
+    '''returns None\n\n
+    propagateKeyValue(final String s, final String val)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def setSOFieldFlags():
-    '''public void setSOFieldFlags(final boolean state)
+    '''returns None\n\n
+    setSOFieldFlags(final boolean state)\n
     '''
 def toInternalAgreeStatus():
-    '''public String toInternalAgreeStatus(final String value)
+    '''returns String\n\n
+    toInternalAgreeStatus(final String value)\n
     '''
 def copyCraftsToMU():
-    '''public void copyCraftsToMU(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyCraftsToMU(final MboSetRemote mboSetRemote)\n
     '''
 def copyCraftsToRate():
-    '''public void copyCraftsToRate(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyCraftsToRate(final MboSetRemote mboSetRemote)\n
     '''
 def copyServicesToMU():
-    '''public void copyServicesToMU(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyServicesToMU(final MboSetRemote mboSetRemote)\n
     '''
 def copyToolsToMU():
-    '''public void copyToolsToMU(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyToolsToMU(final MboSetRemote mboSetRemote)\n
     '''
 def copyMaterialsToMU():
-    '''public void copyMaterialsToMU(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyMaterialsToMU(final MboSetRemote mboSetRemote)\n
     '''
 def updateNoChargeLabor():
-    '''public void updateNoChargeLabor()
+    '''returns None\n\n
+    updateNoChargeLabor()\n
     '''
 def updateNoChargeMaterial():
-    '''public void updateNoChargeMaterial()
+    '''returns None\n\n
+    updateNoChargeMaterial()\n
     '''
 def updateNoChargeService():
-    '''public void updateNoChargeService()
+    '''returns None\n\n
+    updateNoChargeService()\n
     '''
 def updateNoChargeTool():
-    '''public void updateNoChargeTool()
+    '''returns None\n\n
+    updateNoChargeTool()\n
     '''
 def isActive():
-    '''public boolean isActive()
-    public boolean isActive(final boolean b)
+    '''returns boolean\n\n
+    isActive()\n
+    isActive(final boolean b)\n
     '''
 def incrementTotalCost():
-    '''public void incrementTotalCost(final double n)
+    '''returns None\n\n
+    incrementTotalCost(final double n)\n
     '''
 def incrementTotalTax():
-    '''public void incrementTotalTax(final double n)
+    '''returns None\n\n
+    incrementTotalTax(final double n)\n
     '''
 def enableCalendarFields():
-    '''public void enableCalendarFields()
+    '''returns None\n\n
+    enableCalendarFields()\n
     '''
 def copyRecordToPSMatPricTable():
-    '''public void copyRecordToPSMatPricTable(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyRecordToPSMatPricTable(final MboSetRemote mboSetRemote)\n
     '''
 def setPricingRulesFlags():
-    '''public void setPricingRulesFlags()
+    '''returns None\n\n
+    setPricingRulesFlags()\n
     '''

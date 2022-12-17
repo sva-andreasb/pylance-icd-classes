@@ -1,3 +1,4 @@
-def LNRRecalibNonafSet():
-    '''public LNRRecalibNonafSet(final MboServerInterface ms)
+def ():
+    '''returns LNRRecalibNonafSet\n\n
+    (final MboServerInterface ms)\n
     '''

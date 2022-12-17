@@ -1,30 +1,40 @@
-def ComparatorContext():
-    '''public ComparatorContext(final ReconInfo reconInfo)
+def ():
+    '''returns ComparatorContext\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def isWriteFailures():
-    '''public boolean isWriteFailures()
+    '''returns boolean\n\n
+    isWriteFailures()\n
     '''
 def setWriteFailures():
-    '''public void setWriteFailures(final boolean writeFailures)
+    '''returns None\n\n
+    setWriteFailures(final boolean writeFailures)\n
     '''
 def isWriteSuccesses():
-    '''public boolean isWriteSuccesses()
+    '''returns boolean\n\n
+    isWriteSuccesses()\n
     '''
 def setWriteSuccesses():
-    '''public void setWriteSuccesses(final boolean writeSuccesses)
+    '''returns None\n\n
+    setWriteSuccesses(final boolean writeSuccesses)\n
     '''
 def getCompRule():
-    '''public ComparisonRule getCompRule()
+    '''returns ComparisonRule\n\n
+    getCompRule()\n
     '''
 def setCompRule():
-    '''public void setCompRule(final ComparisonRule compRule)
+    '''returns None\n\n
+    setCompRule(final ComparisonRule compRule)\n
     '''
 def getCompRuleMbo():
-    '''public MboRemote getCompRuleMbo()
+    '''returns MboRemote\n\n
+    getCompRuleMbo()\n
     '''
 def setCompRuleMbo():
-    '''public void setCompRuleMbo(final MboRemote compRuleMbo)
+    '''returns None\n\n
+    setCompRuleMbo(final MboRemote compRuleMbo)\n
     '''
 def clone():
-    '''public ComparatorContext clone()
+    '''returns ComparatorContext\n\n
+    clone()\n
     '''

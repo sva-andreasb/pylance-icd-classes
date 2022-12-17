@@ -1,19 +1,25 @@
-def StackedRequestHandler():
-    '''public StackedRequestHandler(final RequestHandler2... requestHandlers)
-    public StackedRequestHandler(final List<RequestHandler2> requestHandlers)
+def ():
+    '''returns StackedRequestHandler\n\n
+    (final RequestHandler2... requestHandlers)\n
+    (final List<RequestHandler2> requestHandlers)\n
     '''
 def beforeMarshalling():
-    '''public AmazonWebServiceRequest beforeMarshalling(final AmazonWebServiceRequest origRequest)
+    '''returns AmazonWebServiceRequest\n\n
+    beforeMarshalling(final AmazonWebServiceRequest origRequest)\n
     '''
 def beforeRequest():
-    '''public void beforeRequest(final Request<?> request)
+    '''returns None\n\n
+    beforeRequest(final Request<?> request)\n
     '''
 def beforeUnmarshalling():
-    '''public HttpResponse beforeUnmarshalling(final Request<?> request, final HttpResponse origHttpResponse)
+    '''returns HttpResponse\n\n
+    beforeUnmarshalling(final Request<?> request, final HttpResponse origHttpResponse)\n
     '''
 def afterResponse():
-    '''public void afterResponse(final Request<?> request, final Response<?> response)
+    '''returns None\n\n
+    afterResponse(final Request<?> request, final Response<?> response)\n
     '''
 def afterError():
-    '''public void afterError(final Request<?> request, final Response<?> response, final Exception e)
+    '''returns None\n\n
+    afterError(final Request<?> request, final Response<?> response, final Exception e)\n
     '''

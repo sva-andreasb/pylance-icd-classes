@@ -1,3 +1,4 @@
 def getProjectData():
-    '''public JSONObject getProjectData(@MXEventParam("start") final long start, @MXEventParam("end") final long end)
+    '''returns JSONObject\n\n
+    getProjectData(@MXEventParam("start") final long start, @MXEventParam("end") final long end)\n
     '''

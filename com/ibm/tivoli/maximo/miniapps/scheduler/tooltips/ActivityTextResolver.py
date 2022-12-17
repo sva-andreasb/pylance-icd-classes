@@ -1,12 +1,16 @@
-def ActivityTextResolver():
-    '''public ActivityTextResolver(final IMXActivity act, final IMXGanttModel model, final UserInfo info)
+def ():
+    '''returns ActivityTextResolver\n\n
+    (final IMXActivity act, final IMXGanttModel model, final UserInfo info)\n
     '''
 def getProperty():
-    '''public Object getProperty(final IMXActivity data, final String in)
+    '''returns Object\n\n
+    getProperty(final IMXActivity data, final String in)\n
     '''
 def getColumnInfo():
-    '''public IMXGanttPropertyInfo getColumnInfo(final String in)
+    '''returns IMXGanttPropertyInfo\n\n
+    getColumnInfo(final String in)\n
     '''
 def getPropertyNames():
-    '''public Collection<String> getPropertyNames(final IMXActivity data)
+    '''returns Collection<String>\n\n
+    getPropertyNames(final IMXActivity data)\n
     '''

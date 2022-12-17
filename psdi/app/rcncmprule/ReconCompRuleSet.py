@@ -1,3 +1,4 @@
-def ReconCompRuleSet():
-    '''public ReconCompRuleSet(final MboServerInterface ms)
+def ():
+    '''returns ReconCompRuleSet\n\n
+    (final MboServerInterface ms)\n
     '''

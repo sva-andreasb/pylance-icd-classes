@@ -1,45 +1,60 @@
 def getProcessOrder():
-    '''public int getProcessOrder()
+    '''returns int\n\n
+    getProcessOrder()\n
     '''
 def setProcessOrder():
-    '''public void setProcessOrder(final int e)
+    '''returns None\n\n
+    setProcessOrder(final int e)\n
     '''
 def setFieldName():
-    '''public void setFieldName(final String t)
+    '''returns None\n\n
+    setFieldName(final String t)\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def setTransFieldName():
-    '''public void setTransFieldName(final String t)
+    '''returns None\n\n
+    setTransFieldName(final String t)\n
     '''
 def getTransFieldName():
-    '''public String getTransFieldName()
+    '''returns String\n\n
+    getTransFieldName()\n
     '''
 def getFieldLength():
-    '''public int getFieldLength()
+    '''returns int\n\n
+    getFieldLength()\n
     '''
 def setFieldLength():
-    '''public void setFieldLength(final int e)
+    '''returns None\n\n
+    setFieldLength(final int e)\n
     '''
 def setIfaceControl():
-    '''public void setIfaceControl(final String d)
+    '''returns None\n\n
+    setIfaceControl(final String d)\n
     '''
 def getIfaceControl():
-    '''public String getIfaceControl()
+    '''returns String\n\n
+    getIfaceControl()\n
     '''
 def setCombineType():
-    '''public void setCombineType(final String d)
+    '''returns None\n\n
+    setCombineType(final String d)\n
     '''
 def getCombineType():
-    '''public String getCombineType()
+    '''returns String\n\n
+    getCombineType()\n
     '''
 def setTransControlName():
-    '''public void setTransControlName(final String c)
+    '''returns None\n\n
+    setTransControlName(final String c)\n
     '''
 def getTransControlName():
-    '''public String getTransControlName()
+    '''returns String\n\n
+    getTransControlName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,49 +1,62 @@
-def ReorderSet():
-    '''public ReorderSet(final MboServerInterface ms)
+def ():
+    '''returns NextItemRetriever\n\n
+    (final MboServerInterface ms)\n
+    ()\n
     '''
 def processQuantity():
-    '''public void processQuantity(final int allowanceDays, final boolean ignoreReorderPoint)
+    '''returns None\n\n
+    processQuantity(final int allowanceDays, final boolean ignoreReorderPoint)\n
     '''
 def cancelReorder():
-    '''public void cancelReorder()
+    '''returns None\n\n
+    cancelReorder()\n
     '''
 def decideVendorAndCost():
-    '''public ReorderSetRemote decideVendorAndCost(final boolean groupByVendor, final boolean considerContract, final int allowanceDays)
+    '''returns ReorderSetRemote\n\n
+    decideVendorAndCost(final boolean groupByVendor, final boolean considerContract, final int allowanceDays)\n
     '''
 def reorder():
-    '''public void reorder(final boolean groupByVendor, final boolean considerContract)
-    public void reorder()
+    '''returns None\n\n
+    reorder(final boolean groupByVendor, final boolean considerContract)\n
+    reorder()\n
     '''
 def setKey():
-    '''public void setKey(final Object parent, final String key, final String type, final String siteID, final String orgID)
+    '''returns None\n\n
+    setKey(final Object parent, final String key, final String type, final String siteID, final String orgID)\n
     '''
 def setInsertDate():
-    '''public void setInsertDate(final Object parent, final Date date)
+    '''returns None\n\n
+    setInsertDate(final Object parent, final Date date)\n
     '''
 def setUserName():
-    '''public void setUserName(final Object parent, final String theUserName)
+    '''returns None\n\n
+    setUserName(final Object parent, final String theUserName)\n
     '''
 def setViewOnly():
-    '''public void setViewOnly(final Object parent, final boolean viewOnlyFlag)
+    '''returns None\n\n
+    setViewOnly(final Object parent, final boolean viewOnlyFlag)\n
     '''
 def addWarning():
-    '''public void addWarning(final MXApplicationException e)
+    '''returns None\n\n
+    addWarning(final MXApplicationException e)\n
     '''
 def getReorderWarnings():
-    '''public Vector getReorderWarnings()
+    '''returns Vector\n\n
+    getReorderWarnings()\n
     '''
 def useAgreement():
-    '''public void useAgreement(final boolean useA)
+    '''returns None\n\n
+    useAgreement(final boolean useA)\n
     '''
 def getReorderResult():
-    '''public Object[] getReorderResult()
+    '''returns Object[]\n\n
+    getReorderResult()\n
     '''
 def monitorLock():
-    '''public void monitorLock(final String siteID)
+    '''returns None\n\n
+    monitorLock(final String siteID)\n
     '''
 def deleteNullOrderUnit():
-    '''public void deleteNullOrderUnit(final UserInfo userInfo, final String siteID)
-    '''
-def NextItemRetriever():
-    '''public NextItemRetriever()
+    '''returns None\n\n
+    deleteNullOrderUnit(final UserInfo userInfo, final String siteID)\n
     '''

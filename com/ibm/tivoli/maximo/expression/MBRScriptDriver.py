@@ -1,32 +1,30 @@
 SCRIPT_LOGGER = "String  \"maximo.script\""
-def MBRScriptDriver():
-    '''public MBRScriptDriver()
-    '''
-def getAllSupportedScriptEngines():
-    '''public static Map<String, ScriptEngineInfo> getAllSupportedScriptEngines()
+def ():
+    '''returns MBRScriptDriver\n\n
+    ()\n
     '''
 def compileScript():
-    '''public void compileScript(final String scriptName, final String scriptSource, final String scriptLanguage)
+    '''returns None\n\n
+    compileScript(final String scriptName, final String scriptSource, final String scriptLanguage)\n
     '''
 def preCompileScript():
-    '''public boolean preCompileScript(final ScriptInfo scriptInfo)
-    '''
-def wrapMXException():
-    '''public static void wrapMXException(final MXException me, final String scrName, final int lineNum)
+    '''returns boolean\n\n
+    preCompileScript(final ScriptInfo scriptInfo)\n
     '''
 def canRun():
-    '''public boolean canRun(final String scriptLang)
+    '''returns boolean\n\n
+    canRun(final String scriptLang)\n
     '''
 def releaseResources():
-    '''public void releaseResources()
-    public void releaseResources(final String scriptName)
-    '''
-def getSupportedEngines():
-    '''public Map<String, ScriptEngineInfo> getSupportedEngines()
+    '''returns None\n\n
+    releaseResources()\n
+    releaseResources(final String scriptName)\n
     '''
 def isBinaryScript():
-    '''public boolean isBinaryScript()
+    '''returns boolean\n\n
+    isBinaryScript()\n
     '''
 def parseScriptForParams():
-    '''public List<ScriptParamInfo> parseScriptForParams(final byte[] scriptBytes)
+    '''returns List<ScriptParamInfo>\n\n
+    parseScriptForParams(final byte[] scriptBytes)\n
     '''

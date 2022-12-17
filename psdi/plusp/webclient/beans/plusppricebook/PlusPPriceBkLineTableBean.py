@@ -1,9 +1,8 @@
 def pluspselectitems():
-    '''public int pluspselectitems()
+    '''returns int\n\n
+    pluspselectitems()\n
     '''
 def addrow():
-    '''public int addrow()
-    '''
-def delete():
-    '''public synchronized void delete(final int nRow)
+    '''returns int\n\n
+    addrow()\n
     '''

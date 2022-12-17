@@ -14,150 +14,85 @@ DEFAULT_NUM_TESTS_PER_EVICTION_RUN = "int  3"
 DEFAULT_MIN_EVICTABLE_IDLE_TIME_MILLIS = "long  1800000L"
 DEFAULT_MIN_IDLE = "int  0"
 DEFAULT_LIFO = "boolean  true"
-def GenericKeyedObjectPool():
-    '''public GenericKeyedObjectPool()
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final Config config)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final int maxActive)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final boolean testOnBorrow, final boolean testOnReturn)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final boolean testOnBorrow, final boolean testOnReturn)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final boolean testOnBorrow, final boolean testOnReturn, final long timeBetweenEvictionRunsMillis, final int numTestsPerEvictionRun, final long minEvictableIdleTimeMillis, final boolean testWhileIdle)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final int maxTotal, final boolean testOnBorrow, final boolean testOnReturn, final long timeBetweenEvictionRunsMillis, final int numTestsPerEvictionRun, final long minEvictableIdleTimeMillis, final boolean testWhileIdle)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final int maxTotal, final int minIdle, final boolean testOnBorrow, final boolean testOnReturn, final long timeBetweenEvictionRunsMillis, final int numTestsPerEvictionRun, final long minEvictableIdleTimeMillis, final boolean testWhileIdle)
-    public GenericKeyedObjectPool(final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final int maxTotal, final int minIdle, final boolean testOnBorrow, final boolean testOnReturn, final long timeBetweenEvictionRunsMillis, final int numTestsPerEvictionRun, final long minEvictableIdleTimeMillis, final boolean testWhileIdle, final boolean lifo)
-    '''
-def getMaxActive():
-    '''public synchronized int getMaxActive()
-    '''
-def setMaxActive():
-    '''public synchronized void setMaxActive(final int maxActive)
-    '''
-def getMaxTotal():
-    '''public synchronized int getMaxTotal()
-    '''
-def setMaxTotal():
-    '''public synchronized void setMaxTotal(final int maxTotal)
-    '''
-def getWhenExhaustedAction():
-    '''public synchronized byte getWhenExhaustedAction()
-    '''
-def setWhenExhaustedAction():
-    '''public synchronized void setWhenExhaustedAction(final byte whenExhaustedAction)
-    '''
-def getMaxWait():
-    '''public synchronized long getMaxWait()
-    '''
-def setMaxWait():
-    '''public synchronized void setMaxWait(final long maxWait)
-    '''
-def getMaxIdle():
-    '''public synchronized int getMaxIdle()
-    '''
-def setMaxIdle():
-    '''public synchronized void setMaxIdle(final int maxIdle)
-    '''
-def setMinIdle():
-    '''public synchronized void setMinIdle(final int poolSize)
-    '''
-def getMinIdle():
-    '''public synchronized int getMinIdle()
+def ():
+    '''returns Config\n\n
+    ()\n
+    (final KeyedPoolableObjectFactory factory)\n
+    (final KeyedPoolableObjectFactory factory, final Config config)\n
+    (final KeyedPoolableObjectFactory factory, final int maxActive)\n
+    (final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait)\n
+    (final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final boolean testOnBorrow, final boolean testOnReturn)\n
+    (final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle)\n
+    (final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final boolean testOnBorrow, final boolean testOnReturn)\n
+    (final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final boolean testOnBorrow, final boolean testOnReturn, final long timeBetweenEvictionRunsMillis, final int numTestsPerEvictionRun, final long minEvictableIdleTimeMillis, final boolean testWhileIdle)\n
+    (final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final int maxTotal, final boolean testOnBorrow, final boolean testOnReturn, final long timeBetweenEvictionRunsMillis, final int numTestsPerEvictionRun, final long minEvictableIdleTimeMillis, final boolean testWhileIdle)\n
+    (final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final int maxTotal, final int minIdle, final boolean testOnBorrow, final boolean testOnReturn, final long timeBetweenEvictionRunsMillis, final int numTestsPerEvictionRun, final long minEvictableIdleTimeMillis, final boolean testWhileIdle)\n
+    (final KeyedPoolableObjectFactory factory, final int maxActive, final byte whenExhaustedAction, final long maxWait, final int maxIdle, final int maxTotal, final int minIdle, final boolean testOnBorrow, final boolean testOnReturn, final long timeBetweenEvictionRunsMillis, final int numTestsPerEvictionRun, final long minEvictableIdleTimeMillis, final boolean testWhileIdle, final boolean lifo)\n
+    ()\n
     '''
 def getTestOnBorrow():
-    '''public boolean getTestOnBorrow()
+    '''returns boolean\n\n
+    getTestOnBorrow()\n
     '''
 def setTestOnBorrow():
-    '''public void setTestOnBorrow(final boolean testOnBorrow)
+    '''returns None\n\n
+    setTestOnBorrow(final boolean testOnBorrow)\n
     '''
 def getTestOnReturn():
-    '''public boolean getTestOnReturn()
+    '''returns boolean\n\n
+    getTestOnReturn()\n
     '''
 def setTestOnReturn():
-    '''public void setTestOnReturn(final boolean testOnReturn)
-    '''
-def getTimeBetweenEvictionRunsMillis():
-    '''public synchronized long getTimeBetweenEvictionRunsMillis()
-    '''
-def setTimeBetweenEvictionRunsMillis():
-    '''public synchronized void setTimeBetweenEvictionRunsMillis(final long timeBetweenEvictionRunsMillis)
-    '''
-def getNumTestsPerEvictionRun():
-    '''public synchronized int getNumTestsPerEvictionRun()
-    '''
-def setNumTestsPerEvictionRun():
-    '''public synchronized void setNumTestsPerEvictionRun(final int numTestsPerEvictionRun)
-    '''
-def getMinEvictableIdleTimeMillis():
-    '''public synchronized long getMinEvictableIdleTimeMillis()
-    '''
-def setMinEvictableIdleTimeMillis():
-    '''public synchronized void setMinEvictableIdleTimeMillis(final long minEvictableIdleTimeMillis)
-    '''
-def getTestWhileIdle():
-    '''public synchronized boolean getTestWhileIdle()
-    '''
-def setTestWhileIdle():
-    '''public synchronized void setTestWhileIdle(final boolean testWhileIdle)
-    '''
-def setConfig():
-    '''public synchronized void setConfig(final Config conf)
-    '''
-def getLifo():
-    '''public synchronized boolean getLifo()
-    '''
-def setLifo():
-    '''public synchronized void setLifo(final boolean lifo)
+    '''returns None\n\n
+    setTestOnReturn(final boolean testOnReturn)\n
     '''
 def borrowObject():
-    '''public Object borrowObject(final Object key)
+    '''returns Object\n\n
+    borrowObject(final Object key)\n
     '''
 def clear():
-    '''public void clear()
-    public void clear(final Object key)
+    '''returns None\n\n
+    clear()\n
+    clear(final Object key)\n
     '''
 def clearOldest():
-    '''public void clearOldest()
-    '''
-def getNumActive():
-    '''public synchronized int getNumActive()
-    public synchronized int getNumActive(final Object key)
-    '''
-def getNumIdle():
-    '''public synchronized int getNumIdle()
-    public synchronized int getNumIdle(final Object key)
+    '''returns None\n\n
+    clearOldest()\n
     '''
 def returnObject():
-    '''public void returnObject(final Object key, final Object obj)
+    '''returns None\n\n
+    returnObject(final Object key, final Object obj)\n
     '''
 def invalidateObject():
-    '''public void invalidateObject(final Object key, final Object obj)
+    '''returns None\n\n
+    invalidateObject(final Object key, final Object obj)\n
     '''
 def addObject():
-    '''public void addObject(final Object key)
-    '''
-def preparePool():
-    '''public synchronized void preparePool(final Object key, final boolean populateImmediately)
+    '''returns None\n\n
+    addObject(final Object key)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def setFactory():
-    '''public void setFactory(final KeyedPoolableObjectFactory factory)
+    '''returns None\n\n
+    setFactory(final KeyedPoolableObjectFactory factory)\n
     '''
 def evict():
-    '''public void evict()
+    '''returns None\n\n
+    evict()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
-    public int compareTo(final ObjectTimestampPair other)
+    '''returns int\n\n
+    compareTo(final Object obj)\n
+    compareTo(final ObjectTimestampPair other)\n
     '''
 def run():
-    '''public void run()
-    '''
-def Config():
-    '''public Config()
+    '''returns None\n\n
+    run()\n
     '''

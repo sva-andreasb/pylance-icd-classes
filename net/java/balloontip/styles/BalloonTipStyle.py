@@ -1,24 +1,32 @@
-def BalloonTipStyle():
-    '''public BalloonTipStyle()
+def ():
+    '''returns BalloonTipStyle\n\n
+    ()\n
     '''
 def setHorizontalOffset():
-    '''public void setHorizontalOffset(final int px)
+    '''returns None\n\n
+    setHorizontalOffset(final int px)\n
     '''
 def setVerticalOffset():
-    '''public void setVerticalOffset(final int px)
+    '''returns None\n\n
+    setVerticalOffset(final int px)\n
     '''
 def getMinimalHorizontalOffset():
-    '''public int getMinimalHorizontalOffset()
+    '''returns int\n\n
+    getMinimalHorizontalOffset()\n
     '''
 def flipX():
-    '''public void flipX(final boolean flipX)
+    '''returns None\n\n
+    flipX(final boolean flipX)\n
     '''
 def flipY():
-    '''public void flipY(final boolean flipY)
+    '''returns None\n\n
+    flipY(final boolean flipY)\n
     '''
 def flip():
-    '''public void flip(final boolean flipX, final boolean flipY)
+    '''returns None\n\n
+    flip(final boolean flipX, final boolean flipY)\n
     '''
 def isBorderOpaque():
-    '''public boolean isBorderOpaque()
+    '''returns boolean\n\n
+    isBorderOpaque()\n
     '''

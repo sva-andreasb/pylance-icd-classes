@@ -1,3 +1,4 @@
-def FldAssetAttrId():
-    '''public FldAssetAttrId(final MboValue mbv)
+def ():
+    '''returns FldAssetAttrId\n\n
+    (final MboValue mbv)\n
     '''

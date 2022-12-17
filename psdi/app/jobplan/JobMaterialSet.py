@@ -1,9 +1,12 @@
-def JobMaterialSet():
-    '''public JobMaterialSet(final MboServerInterface ms)
+def ():
+    '''returns JobMaterialSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def returnIPCParts():
-    '''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''returns None\n\n
+    returnIPCParts(final IpcSelectedPartsSetRemote partset)\n
     '''
 def preValidateIpcBom():
-    '''public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''returns None\n\n
+    preValidateIpcBom(final IpcBomSetRemote bomset)\n
     '''

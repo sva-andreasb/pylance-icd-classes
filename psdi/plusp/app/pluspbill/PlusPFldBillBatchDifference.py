@@ -1,7 +1,9 @@
-def PlusPFldBillBatchDifference():
-    '''public PlusPFldBillBatchDifference()
-    public PlusPFldBillBatchDifference(final MboValue mbv)
+def ():
+    '''returns PlusPFldBillBatchDifference\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -1,48 +1,64 @@
-def Serializer():
-    '''public Serializer(final Writer writer)
+def ():
+    '''returns Serializer\n\n
+    (final Writer writer)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def writeRawString():
-    '''public Serializer writeRawString(final String str)
+    '''returns Serializer\n\n
+    writeRawString(final String str)\n
     '''
 def writeNull():
-    '''public Serializer writeNull()
+    '''returns Serializer\n\n
+    writeNull()\n
     '''
 def writeNumber():
-    '''public Serializer writeNumber(final Number n)
+    '''returns Serializer\n\n
+    writeNumber(final Number n)\n
     '''
 def writeBoolean():
-    '''public Serializer writeBoolean(final Boolean b)
+    '''returns Serializer\n\n
+    writeBoolean(final Boolean b)\n
     '''
 def writeString():
-    '''public Serializer writeString(final String s)
+    '''returns Serializer\n\n
+    writeString(final String s)\n
     '''
 def writeObject():
-    '''public Serializer writeObject(final JSONObject jsonObject)
+    '''returns Serializer\n\n
+    writeObject(final JSONObject jsonObject)\n
     '''
 def writeArray():
-    '''public Serializer writeArray(final JSONArray obj)
+    '''returns Serializer\n\n
+    writeArray(final JSONArray obj)\n
     '''
 def space():
-    '''public void space()
+    '''returns None\n\n
+    space()\n
     '''
 def newLine():
-    '''public void newLine()
+    '''returns None\n\n
+    newLine()\n
     '''
 def indent():
-    '''public void indent()
+    '''returns None\n\n
+    indent()\n
     '''
 def indentPush():
-    '''public void indentPush()
+    '''returns None\n\n
+    indentPush()\n
     '''
 def indentPop():
-    '''public void indentPop()
+    '''returns None\n\n
+    indentPop()\n
     '''
 def getPropertyNames():
-    '''public List getPropertyNames(final Map map)
+    '''returns List\n\n
+    getPropertyNames(final Map map)\n
     '''

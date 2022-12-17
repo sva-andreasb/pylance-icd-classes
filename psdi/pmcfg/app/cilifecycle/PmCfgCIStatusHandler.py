@@ -1,11 +1,14 @@
-def PmCfgCIStatusHandler():
-    '''public PmCfgCIStatusHandler(final PmCfgCI ci)
+def ():
+    '''returns PmCfgCIStatusHandler\n\n
+    (final PmCfgCI ci)\n
     '''
 def validate():
-    '''public void validate()
-    public void validate(final boolean isDefault)
-    public void validate(final boolean checkRFC, final boolean isDefault)
+    '''returns None\n\n
+    validate()\n
+    validate(final boolean isDefault)\n
+    validate(final boolean checkRFC, final boolean isDefault)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''

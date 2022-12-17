@@ -1,6 +1,4 @@
 def getScriptDescriptor():
-    '''public IlvScriptDescriptor getScriptDescriptor()
-    '''
-def getRendererType():
-    '''public static String getRendererType()
+    '''returns IlvScriptDescriptor\n\n
+    getScriptDescriptor()\n
     '''

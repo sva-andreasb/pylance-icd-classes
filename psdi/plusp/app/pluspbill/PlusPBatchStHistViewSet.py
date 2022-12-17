@@ -1,3 +1,4 @@
-def PlusPBatchStHistViewSet():
-    '''public PlusPBatchStHistViewSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBatchStHistViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

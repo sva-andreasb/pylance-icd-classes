@@ -1,3 +1,4 @@
-def PainterException():
-    '''public PainterException(final String msg)
+def ():
+    '''returns PainterException\n\n
+    (final String msg)\n
     '''

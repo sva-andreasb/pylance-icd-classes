@@ -1,57 +1,76 @@
-def PlusCWODSPoint():
-    '''public PlusCWODSPoint(final MboSet ms)
+def ():
+    '''returns PlusCWODSPoint\n\n
+    (final MboSet ms)\n
     '''
 def getOwner():
-    '''public MboRemote getOwner()
+    '''returns MboRemote\n\n
+    getOwner()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def toInternalString():
-    '''public String toInternalString(final String sValuelist, final String sUserValue)
+    '''returns String\n\n
+    toInternalString(final String sValuelist, final String sUserValue)\n
     '''
 def toExternalDefaultValue():
-    '''public String toExternalDefaultValue(final String sValuelist, final String sUserValue)
+    '''returns String\n\n
+    toExternalDefaultValue(final String sValuelist, final String sUserValue)\n
     '''
 def getMyInstrOwner():
-    '''public MboRemote getMyInstrOwner()
+    '''returns MboRemote\n\n
+    getMyInstrOwner()\n
     '''
 def setReadOnlyFields():
-    '''public void setReadOnlyFields()
+    '''returns None\n\n
+    setReadOnlyFields()\n
     '''
 def setReadOnlyFieldsAfterAdd():
-    '''public void setReadOnlyFieldsAfterAdd()
+    '''returns None\n\n
+    setReadOnlyFieldsAfterAdd()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, long accessModifier)\n
     '''
 def setValueNull():
-    '''public void setValueNull(final String attributeName, long accessModifier)
+    '''returns None\n\n
+    setValueNull(final String attributeName, long accessModifier)\n
     '''
 def setDSRequiredStatus():
-    '''public void setDSRequiredStatus(final boolean cleared)
+    '''returns None\n\n
+    setDSRequiredStatus(final boolean cleared)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def getGroupAveragePoint():
-    '''public MboRemote getGroupAveragePoint()
+    '''returns MboRemote\n\n
+    getGroupAveragePoint()\n
     '''
 def getGroupPoints():
-    '''public MboRemote[] getGroupPoints()
+    '''returns MboRemote[]\n\n
+    getGroupPoints()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

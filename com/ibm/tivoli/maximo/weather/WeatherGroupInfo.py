@@ -1,12 +1,16 @@
-def WeatherGroupInfo():
-    '''public WeatherGroupInfo(final String org, final String groupName, final WeatherOrgInfo orgInfo)
+def ():
+    '''returns WeatherGroupInfo\n\n
+    (final String org, final String groupName, final WeatherOrgInfo orgInfo)\n
     '''
 def getOrganization():
-    '''public String getOrganization()
+    '''returns String\n\n
+    getOrganization()\n
     '''
 def getGroupName():
-    '''public String getGroupName()
+    '''returns String\n\n
+    getGroupName()\n
     '''
 def regOrgInfo():
-    '''public WeatherOrgInfo regOrgInfo()
+    '''returns WeatherOrgInfo\n\n
+    regOrgInfo()\n
     '''

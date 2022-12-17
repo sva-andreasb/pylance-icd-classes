@@ -1,11 +1,14 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCplexMonitoringInstaller():
-    '''public IloCplexMonitoringInstaller(final IloCplexController controller)
+def ():
+    '''returns IloCplexMonitoringInstaller\n\n
+    (final IloCplexController controller)\n
     '''
 def installCustomMonitoring():
-    '''public void installCustomMonitoring()
-    public void installCustomMonitoring(final IloChrono chrono, final IloSolvingInterrupter interrupter)
+    '''returns None\n\n
+    installCustomMonitoring()\n
+    installCustomMonitoring(final IloChrono chrono, final IloSolvingInterrupter interrupter)\n
     '''
 def desinstallCustomMonitoring():
-    '''public void desinstallCustomMonitoring()
+    '''returns None\n\n
+    desinstallCustomMonitoring()\n
     '''

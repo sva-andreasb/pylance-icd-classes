@@ -1,116 +1,116 @@
-def RandomAccessFileOrArray():
-    '''public RandomAccessFileOrArray(final String filename)
-    public RandomAccessFileOrArray(final URL url)
-    public RandomAccessFileOrArray(final InputStream is)
-    public RandomAccessFileOrArray(final byte[] arrayIn)
-    public RandomAccessFileOrArray(final RandomAccessFileOrArray file)
+def ():
+    '''returns RandomAccessFileOrArray\n\n
+    (final String filename)\n
+    (final URL url)\n
+    (final InputStream is)\n
+    (final byte[] arrayIn)\n
+    (final RandomAccessFileOrArray file)\n
     '''
 def InputStreamToArray():
-    '''public byte[] InputStreamToArray(final InputStream is)
+    '''returns byte[]\n\n
+    InputStreamToArray(final InputStream is)\n
     '''
 def pushBack():
-    '''public void pushBack(final byte b)
+    '''returns None\n\n
+    pushBack(final byte b)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, int off, int len)
-    public int read(final byte[] b)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, int off, int len)\n
+    read(final byte[] b)\n
     '''
 def readFully():
-    '''public void readFully(final byte[] b)
-    public void readFully(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    readFully(final byte[] b)\n
+    readFully(final byte[] b, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def skipBytes():
-    '''public int skipBytes(int n)
+    '''returns int\n\n
+    skipBytes(int n)\n
     '''
 def reOpen():
-    '''public void reOpen()
+    '''returns None\n\n
+    reOpen()\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def seek():
-    '''public void seek(int pos)
-    public void seek(final long pos)
+    '''returns None\n\n
+    seek(int pos)\n
+    seek(final long pos)\n
     '''
 def getFilePointer():
-    '''public int getFilePointer()
+    '''returns int\n\n
+    getFilePointer()\n
     '''
 def readBoolean():
-    '''public boolean readBoolean()
+    '''returns boolean\n\n
+    readBoolean()\n
     '''
 def readByte():
-    '''public byte readByte()
+    '''returns byte\n\n
+    readByte()\n
     '''
 def readUnsignedByte():
-    '''public int readUnsignedByte()
+    '''returns int\n\n
+    readUnsignedByte()\n
     '''
 def readShort():
-    '''public short readShort()
-    '''
-def readShortLE():
-    '''public final short readShortLE()
+    '''returns short\n\n
+    readShort()\n
     '''
 def readUnsignedShort():
-    '''public int readUnsignedShort()
-    '''
-def readUnsignedShortLE():
-    '''public final int readUnsignedShortLE()
+    '''returns int\n\n
+    readUnsignedShort()\n
     '''
 def readChar():
-    '''public char readChar()
-    '''
-def readCharLE():
-    '''public final char readCharLE()
+    '''returns char\n\n
+    readChar()\n
     '''
 def readInt():
-    '''public int readInt()
-    '''
-def readIntLE():
-    '''public final int readIntLE()
-    '''
-def readUnsignedInt():
-    '''public final long readUnsignedInt()
-    '''
-def readUnsignedIntLE():
-    '''public final long readUnsignedIntLE()
+    '''returns int\n\n
+    readInt()\n
     '''
 def readLong():
-    '''public long readLong()
-    '''
-def readLongLE():
-    '''public final long readLongLE()
+    '''returns long\n\n
+    readLong()\n
     '''
 def readFloat():
-    '''public float readFloat()
-    '''
-def readFloatLE():
-    '''public final float readFloatLE()
+    '''returns float\n\n
+    readFloat()\n
     '''
 def readDouble():
-    '''public double readDouble()
-    '''
-def readDoubleLE():
-    '''public final double readDoubleLE()
+    '''returns double\n\n
+    readDouble()\n
     '''
 def readLine():
-    '''public String readLine()
+    '''returns String\n\n
+    readLine()\n
     '''
 def readUTF():
-    '''public String readUTF()
+    '''returns String\n\n
+    readUTF()\n
     '''
 def getStartOffset():
-    '''public int getStartOffset()
+    '''returns int\n\n
+    getStartOffset()\n
     '''
 def setStartOffset():
-    '''public void setStartOffset(final int startOffset)
+    '''returns None\n\n
+    setStartOffset(final int startOffset)\n
     '''

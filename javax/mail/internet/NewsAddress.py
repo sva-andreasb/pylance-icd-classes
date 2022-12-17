@@ -1,33 +1,38 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
-def NewsAddress():
-    '''public NewsAddress()
-    public NewsAddress(final String newsgroup)
-    public NewsAddress(final String newsgroup, final String host)
+def ():
+    '''returns NewsAddress\n\n
+    ()\n
+    (final String newsgroup)\n
+    (final String newsgroup, final String host)\n
     '''
 def equals():
-    '''public boolean equals(final Object a)
+    '''returns boolean\n\n
+    equals(final Object a)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getNewsgroup():
-    '''public String getNewsgroup()
+    '''returns String\n\n
+    getNewsgroup()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
-    public static String toString(final Address[] addresses)
+    '''returns String\n\n
+    toString()\n
     '''
 def setHost():
-    '''public void setHost(final String host)
+    '''returns None\n\n
+    setHost(final String host)\n
     '''
 def setNewsgroup():
-    '''public void setNewsgroup(final String newsgroup)
-    '''
-def parse():
-    '''public static NewsAddress[] parse(final String newsgroups)
+    '''returns None\n\n
+    setNewsgroup(final String newsgroup)\n
     '''

@@ -1,3 +1,4 @@
-def FldNotifConditionNum():
-    '''public FldNotifConditionNum(final MboValue mbv)
+def ():
+    '''returns FldNotifConditionNum\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,24 +1,32 @@
-def Pair():
-    '''public Pair(final A a, final B b)
+def ():
+    '''returns Pair\n\n
+    (final A a, final B b)\n
     '''
 def getLeft():
-    '''public A getLeft()
+    '''returns A\n\n
+    getLeft()\n
     '''
 def getRight():
-    '''public B getRight()
+    '''returns B\n\n
+    getRight()\n
     '''
 def car():
-    '''public A car()
+    '''returns A\n\n
+    car()\n
     '''
 def cdr():
-    '''public B cdr()
+    '''returns B\n\n
+    cdr()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

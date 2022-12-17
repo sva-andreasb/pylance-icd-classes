@@ -1,69 +1,92 @@
-def WorkflowRelationship():
-    '''public WorkflowRelationship(final WorkflowNode predecessorNode, final WorkflowNode successorNode)
+def ():
+    '''returns WorkflowRelationship\n\n
+    (final WorkflowNode predecessorNode, final WorkflowNode successorNode)\n
     '''
 def getWorkflow():
-    '''public Workflow getWorkflow()
+    '''returns Workflow\n\n
+    getWorkflow()\n
     '''
 def setWorkflow():
-    '''public void setWorkflow(final Workflow workflow)
+    '''returns None\n\n
+    setWorkflow(final Workflow workflow)\n
     '''
 def getPredecessorNode():
-    '''public WorkflowNode getPredecessorNode()
+    '''returns WorkflowNode\n\n
+    getPredecessorNode()\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getSuccessorNode():
-    '''public WorkflowNode getSuccessorNode()
+    '''returns WorkflowNode\n\n
+    getSuccessorNode()\n
     '''
 def getAction():
-    '''public Object getAction()
+    '''returns Object\n\n
+    getAction()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def setAction():
-    '''public void setAction(final Object action)
+    '''returns None\n\n
+    setAction(final Object action)\n
     '''
 def getInstruction():
-    '''public Object getInstruction()
+    '''returns Object\n\n
+    getInstruction()\n
     '''
 def setInstruction():
-    '''public void setInstruction(final Object instruction)
+    '''returns None\n\n
+    setInstruction(final Object instruction)\n
     '''
 def setMboRow():
-    '''public void setMboRow(final int row)
+    '''returns None\n\n
+    setMboRow(final int row)\n
     '''
 def getMboRow():
-    '''public int getMboRow()
+    '''returns int\n\n
+    getMboRow()\n
     '''
 def setNegative():
-    '''public void setNegative(final boolean isNegative)
+    '''returns None\n\n
+    setNegative(final boolean isNegative)\n
     '''
 def isNegative():
-    '''public boolean isNegative()
+    '''returns boolean\n\n
+    isNegative()\n
     '''
 def getHorizontalRelationship():
-    '''public int getHorizontalRelationship()
+    '''returns int\n\n
+    getHorizontalRelationship()\n
     '''
 def getVerticalRelationship():
-    '''public int getVerticalRelationship()
+    '''returns int\n\n
+    getVerticalRelationship()\n
     '''
 def copy():
-    '''public WorkflowEntity copy()
+    '''returns WorkflowEntity\n\n
+    copy()\n
     '''
 def restoreFrom():
-    '''public void restoreFrom(final WorkflowEntity entity)
+    '''returns None\n\n
+    restoreFrom(final WorkflowEntity entity)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hasProperties():
-    '''public boolean hasProperties()
+    '''returns boolean\n\n
+    hasProperties()\n
     '''

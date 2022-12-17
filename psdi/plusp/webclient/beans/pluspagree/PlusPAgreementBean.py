@@ -1,12 +1,16 @@
 def REVISION():
-    '''public int REVISION()
+    '''returns int\n\n
+    REVISION()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def previewbillingdates():
-    '''public void previewbillingdates()
+    '''returns None\n\n
+    previewbillingdates()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''

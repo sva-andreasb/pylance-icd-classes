@@ -1,3 +1,4 @@
-def PlusPPSAssetPerf():
-    '''public PlusPPSAssetPerf(final MboSet set)
+def ():
+    '''returns PlusPPSAssetPerf\n\n
+    (final MboSet set)\n
     '''

@@ -1,24 +1,32 @@
-def CachedDeviceList():
-    '''public CachedDeviceList()
+def ():
+    '''returns CachedDeviceList\n\n
+    ()\n
     '''
 def getActiveDevices():
-    '''public Set<Integer> getActiveDevices()
+    '''returns Set<Integer>\n\n
+    getActiveDevices()\n
     '''
 def getInactiveDevices():
-    '''public Set<Integer> getInactiveDevices()
+    '''returns Set<Integer>\n\n
+    getInactiveDevices()\n
     '''
 def getAllDevices():
-    '''public Set<Integer> getAllDevices()
+    '''returns Set<Integer>\n\n
+    getAllDevices()\n
     '''
 def merge():
-    '''public void merge(final Set<Integer> deviceListUpdate)
+    '''returns None\n\n
+    merge(final Set<Integer> deviceListUpdate)\n
     '''
 def addDevice():
-    '''public void addDevice(final int deviceId)
+    '''returns None\n\n
+    addDevice(final int deviceId)\n
     '''
 def contains():
-    '''public boolean contains(final int deviceId)
+    '''returns boolean\n\n
+    contains(final int deviceId)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

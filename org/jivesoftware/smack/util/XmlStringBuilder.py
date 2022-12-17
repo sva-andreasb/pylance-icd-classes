@@ -1,147 +1,184 @@
-def XmlStringBuilder():
-    '''public XmlStringBuilder()
-    public XmlStringBuilder(final String enclosingNamespace)
-    public XmlStringBuilder(final ExtensionElement pe)
-    public XmlStringBuilder(final NamedElement e)
-    public XmlStringBuilder(final ExtensionElement ee, final String enclosingNamespace)
+def ():
+    '''returns XmlStringBuilder\n\n
+    ()\n
+    (final String enclosingNamespace)\n
+    (final ExtensionElement pe)\n
+    (final NamedElement e)\n
+    (final ExtensionElement ee, final String enclosingNamespace)\n
     '''
 def escapedElement():
-    '''public XmlStringBuilder escapedElement(final String name, final String escapedContent)
+    '''returns XmlStringBuilder\n\n
+    escapedElement(final String name, final String escapedContent)\n
     '''
 def element():
-    '''public XmlStringBuilder element(final String name, final String content)
-    public XmlStringBuilder element(final String name, final Date content)
-    public XmlStringBuilder element(final String name, final CharSequence content)
-    public XmlStringBuilder element(final String name, final Enum<?> content)
-    public XmlStringBuilder element(final Element element)
+    '''returns XmlStringBuilder\n\n
+    element(final String name, final String content)\n
+    element(final String name, final Date content)\n
+    element(final String name, final CharSequence content)\n
+    element(final String name, final Enum<?> content)\n
+    element(final Element element)\n
     '''
 def optElement():
-    '''public XmlStringBuilder optElement(final String name, final String content)
-    public XmlStringBuilder optElement(final String name, final Date content)
-    public XmlStringBuilder optElement(final String name, final CharSequence content)
-    public XmlStringBuilder optElement(final Element element)
-    public XmlStringBuilder optElement(final String name, final Enum<?> content)
-    public XmlStringBuilder optElement(final String name, final Object object)
+    '''returns XmlStringBuilder\n\n
+    optElement(final String name, final String content)\n
+    optElement(final String name, final Date content)\n
+    optElement(final String name, final CharSequence content)\n
+    optElement(final Element element)\n
+    optElement(final String name, final Enum<?> content)\n
+    optElement(final String name, final Object object)\n
     '''
 def optIntElement():
-    '''public XmlStringBuilder optIntElement(final String name, final int value)
+    '''returns XmlStringBuilder\n\n
+    optIntElement(final String name, final int value)\n
     '''
 def halfOpenElement():
-    '''public XmlStringBuilder halfOpenElement(final String name)
-    public XmlStringBuilder halfOpenElement(final NamedElement namedElement)
+    '''returns XmlStringBuilder\n\n
+    halfOpenElement(final String name)\n
+    halfOpenElement(final NamedElement namedElement)\n
     '''
 def openElement():
-    '''public XmlStringBuilder openElement(final String name)
+    '''returns XmlStringBuilder\n\n
+    openElement(final String name)\n
     '''
 def closeElement():
-    '''public XmlStringBuilder closeElement(final String name)
-    public XmlStringBuilder closeElement(final NamedElement e)
+    '''returns XmlStringBuilder\n\n
+    closeElement(final String name)\n
+    closeElement(final NamedElement e)\n
     '''
 def closeEmptyElement():
-    '''public XmlStringBuilder closeEmptyElement()
+    '''returns XmlStringBuilder\n\n
+    closeEmptyElement()\n
     '''
 def rightAngleBracket():
-    '''public XmlStringBuilder rightAngleBracket()
+    '''returns XmlStringBuilder\n\n
+    rightAngleBracket()\n
     '''
 def rightAngelBracket():
-    '''public XmlStringBuilder rightAngelBracket()
+    '''returns XmlStringBuilder\n\n
+    rightAngelBracket()\n
     '''
 def attribute():
-    '''public XmlStringBuilder attribute(final String name, final String value)
-    public XmlStringBuilder attribute(final String name, final boolean bool)
-    public XmlStringBuilder attribute(final String name, final Date value)
-    public XmlStringBuilder attribute(final String name, final CharSequence value)
-    public XmlStringBuilder attribute(final String name, final Enum<?> value)
-    public XmlStringBuilder attribute(final String name, final int value)
+    '''returns XmlStringBuilder\n\n
+    attribute(final String name, final String value)\n
+    attribute(final String name, final boolean bool)\n
+    attribute(final String name, final Date value)\n
+    attribute(final String name, final CharSequence value)\n
+    attribute(final String name, final Enum<?> value)\n
+    attribute(final String name, final int value)\n
     '''
 def optAttribute():
-    '''public XmlStringBuilder optAttribute(final String name, final String value)
-    public XmlStringBuilder optAttribute(final String name, final Date value)
-    public XmlStringBuilder optAttribute(final String name, final CharSequence value)
-    public XmlStringBuilder optAttribute(final String name, final Enum<?> value)
+    '''returns XmlStringBuilder\n\n
+    optAttribute(final String name, final String value)\n
+    optAttribute(final String name, final Date value)\n
+    optAttribute(final String name, final CharSequence value)\n
+    optAttribute(final String name, final Enum<?> value)\n
     '''
 def optIntAttribute():
-    '''public XmlStringBuilder optIntAttribute(final String name, final int value)
+    '''returns XmlStringBuilder\n\n
+    optIntAttribute(final String name, final int value)\n
     '''
 def optLongAttribute():
-    '''public XmlStringBuilder optLongAttribute(final String name, final Long value)
+    '''returns XmlStringBuilder\n\n
+    optLongAttribute(final String name, final Long value)\n
     '''
 def optBooleanAttribute():
-    '''public XmlStringBuilder optBooleanAttribute(final String name, final boolean bool)
+    '''returns XmlStringBuilder\n\n
+    optBooleanAttribute(final String name, final boolean bool)\n
     '''
 def optBooleanAttributeDefaultTrue():
-    '''public XmlStringBuilder optBooleanAttributeDefaultTrue(final String name, final boolean bool)
+    '''returns XmlStringBuilder\n\n
+    optBooleanAttributeDefaultTrue(final String name, final boolean bool)\n
     '''
 def xmlnsAttribute():
-    '''public XmlStringBuilder xmlnsAttribute(final String value)
+    '''returns XmlStringBuilder\n\n
+    xmlnsAttribute(final String value)\n
     '''
 def xmllangAttribute():
-    '''public XmlStringBuilder xmllangAttribute(final String value)
+    '''returns XmlStringBuilder\n\n
+    xmllangAttribute(final String value)\n
     '''
 def optXmlLangAttribute():
-    '''public XmlStringBuilder optXmlLangAttribute(final String lang)
+    '''returns XmlStringBuilder\n\n
+    optXmlLangAttribute(final String lang)\n
     '''
 def escape():
-    '''public XmlStringBuilder escape(final String text)
-    public XmlStringBuilder escape(final CharSequence text)
+    '''returns XmlStringBuilder\n\n
+    escape(final String text)\n
+    escape(final CharSequence text)\n
     '''
 def escapeAttributeValue():
-    '''public XmlStringBuilder escapeAttributeValue(final String value)
+    '''returns XmlStringBuilder\n\n
+    escapeAttributeValue(final String value)\n
     '''
 def optEscape():
-    '''public XmlStringBuilder optEscape(final CharSequence text)
+    '''returns XmlStringBuilder\n\n
+    optEscape(final CharSequence text)\n
     '''
 def prelude():
-    '''public XmlStringBuilder prelude(final ExtensionElement pe)
-    public XmlStringBuilder prelude(final String elementName, final String namespace)
+    '''returns XmlStringBuilder\n\n
+    prelude(final ExtensionElement pe)\n
+    prelude(final String elementName, final String namespace)\n
     '''
 def optAppend():
-    '''public XmlStringBuilder optAppend(final CharSequence csq)
-    public XmlStringBuilder optAppend(final Element element)
+    '''returns XmlStringBuilder\n\n
+    optAppend(final CharSequence csq)\n
+    optAppend(final Element element)\n
     '''
 def append():
-    '''public XmlStringBuilder append(final XmlStringBuilder xsb)
-    public XmlStringBuilder append(final Collection<? extends Element> elements)
-    public XmlStringBuilder append(final Collection<? extends Element> elements, final String enclosingNamespace)
-    public XmlStringBuilder append(final CharSequence csq)
-    public XmlStringBuilder append(final CharSequence csq, final int start, final int end)
-    public XmlStringBuilder append(final char c)
+    '''returns XmlStringBuilder\n\n
+    append(final XmlStringBuilder xsb)\n
+    append(final Collection<? extends Element> elements)\n
+    append(final Collection<? extends Element> elements, final String enclosingNamespace)\n
+    append(final CharSequence csq)\n
+    append(final CharSequence csq, final int start, final int end)\n
+    append(final char c)\n
     '''
 def emptyElement():
-    '''public XmlStringBuilder emptyElement(final Enum<?> element)
-    public XmlStringBuilder emptyElement(final String element)
+    '''returns XmlStringBuilder\n\n
+    emptyElement(final Enum<?> element)\n
+    emptyElement(final String element)\n
     '''
 def condEmptyElement():
-    '''public XmlStringBuilder condEmptyElement(final boolean condition, final String element)
+    '''returns XmlStringBuilder\n\n
+    condEmptyElement(final boolean condition, final String element)\n
     '''
 def condAttribute():
-    '''public XmlStringBuilder condAttribute(final boolean condition, final String name, final String value)
+    '''returns XmlStringBuilder\n\n
+    condAttribute(final boolean condition, final String name, final String value)\n
     '''
 def length():
-    '''public int length()
-    public int length()
+    '''returns int\n\n
+    length()\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
-    public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
+    charAt(final int index)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
-    public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
+    subSequence(final int start, final int end)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def write():
-    '''public void write(final Writer writer, String enclosingNamespace)
+    '''returns None\n\n
+    write(final Writer writer, String enclosingNamespace)\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''

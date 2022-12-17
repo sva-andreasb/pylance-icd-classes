@@ -1,51 +1,67 @@
 ORACLEDB = "int  1"
 SQLSERVERDB = "int  2"
 DB2DB = "int  3"
-def AttributeExpressions():
-    '''public AttributeExpressions(final String attrStrg)
+def ():
+    '''returns AttributeExpressions\n\n
+    (final String attrStrg)\n
     '''
 def satisfy():
-    '''public boolean satisfy(final MboRemote mbo)
+    '''returns boolean\n\n
+    satisfy(final MboRemote mbo)\n
     '''
 def setValue():
-    '''public void setValue(final String val)
+    '''returns None\n\n
+    setValue(final String val)\n
     '''
 def isWildCardPresentAtFirst():
-    '''public boolean isWildCardPresentAtFirst(final String expr)
+    '''returns boolean\n\n
+    isWildCardPresentAtFirst(final String expr)\n
     '''
 def isWildCardPresentAtLast():
-    '''public boolean isWildCardPresentAtLast(final String expr)
+    '''returns boolean\n\n
+    isWildCardPresentAtLast(final String expr)\n
     '''
 def isWildCardPresent():
-    '''public boolean isWildCardPresent(final String expr)
+    '''returns boolean\n\n
+    isWildCardPresent(final String expr)\n
     '''
 def getGuiFieldName():
-    '''public String getGuiFieldName()
+    '''returns String\n\n
+    getGuiFieldName()\n
     '''
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def getAttribute():
-    '''public String getAttribute()
+    '''returns String\n\n
+    getAttribute()\n
     '''
 def getPrepend():
-    '''public String getPrepend()
+    '''returns String\n\n
+    getPrepend()\n
     '''
 def getQbeKey():
-    '''public String getQbeKey()
+    '''returns String\n\n
+    getQbeKey()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setUnparsedValue():
-    '''public void setUnparsedValue(final String val)
+    '''returns None\n\n
+    setUnparsedValue(final String val)\n
     '''
 def setWhereQbe():
-    '''public void setWhereQbe(final boolean isWhereWbe)
+    '''returns None\n\n
+    setWhereQbe(final boolean isWhereWbe)\n
     '''
 def getWhereSnippet():
-    '''public String getWhereSnippet(final String alias)
+    '''returns String\n\n
+    getWhereSnippet(final String alias)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

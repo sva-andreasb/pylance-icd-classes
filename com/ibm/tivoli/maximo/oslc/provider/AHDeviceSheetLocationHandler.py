@@ -1,9 +1,8 @@
-def getPathTokensMeta():
-    '''public Map<String, String> getPathTokensMeta()
-    '''
 def getLocationMeterCount():
-    '''public int getLocationMeterCount(final MboSetRemote locationMeterMboSet, final String location)
+    '''returns int\n\n
+    getLocationMeterCount(final MboSetRemote locationMeterMboSet, final String location)\n
     '''
 def handleRequest():
-    '''public OslcResourceResponse handleRequest(final OslcRequest oslcRequest)
+    '''returns OslcResourceResponse\n\n
+    handleRequest(final OslcRequest oslcRequest)\n
     '''

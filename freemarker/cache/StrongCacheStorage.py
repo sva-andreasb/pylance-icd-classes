@@ -1,21 +1,28 @@
-def StrongCacheStorage():
-    '''public StrongCacheStorage()
+def ():
+    '''returns StrongCacheStorage\n\n
+    ()\n
     '''
 def isConcurrent():
-    '''public boolean isConcurrent()
+    '''returns boolean\n\n
+    isConcurrent()\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public void put(final Object key, final Object value)
+    '''returns None\n\n
+    put(final Object key, final Object value)\n
     '''
 def remove():
-    '''public void remove(final Object key)
+    '''returns None\n\n
+    remove(final Object key)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

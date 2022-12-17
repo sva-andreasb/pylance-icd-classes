@@ -1,3 +1,4 @@
-def SearchDR():
-    '''public SearchDR(final MboSet ms)
+def ():
+    '''returns SearchDR\n\n
+    (final MboSet ms)\n
     '''

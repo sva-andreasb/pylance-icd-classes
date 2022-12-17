@@ -1,6 +1,8 @@
-def SetLongData():
-    '''public SetLongData(final String name, final long value)
+def ():
+    '''returns SetLongData\n\n
+    (final String name, final long value)\n
     '''
 def getLongValue():
-    '''public Long getLongValue()
+    '''returns Long\n\n
+    getLongValue()\n
     '''

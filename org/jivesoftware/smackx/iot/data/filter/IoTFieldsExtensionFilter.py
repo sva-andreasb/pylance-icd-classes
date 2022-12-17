@@ -1,3 +1,4 @@
-def IoTFieldsExtensionFilter():
-    '''public IoTFieldsExtensionFilter(final int seqNr, final boolean onlyDone)
+def ():
+    '''returns IoTFieldsExtensionFilter\n\n
+    (final int seqNr, final boolean onlyDone)\n
     '''

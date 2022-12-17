@@ -1,12 +1,16 @@
-def FieldHermiteInterpolator():
-    '''public FieldHermiteInterpolator()
+def ():
+    '''returns FieldHermiteInterpolator\n\n
+    ()\n
     '''
 def addSamplePoint():
-    '''public void addSamplePoint(final T x, final T[]... value)
+    '''returns None\n\n
+    addSamplePoint(final T x, final T[]... value)\n
     '''
 def value():
-    '''public T[] value(final T x)
+    '''returns T[]\n\n
+    value(final T x)\n
     '''
 def derivatives():
-    '''public T[][] derivatives(final T x, final int order)
+    '''returns T[][]\n\n
+    derivatives(final T x, final int order)\n
     '''

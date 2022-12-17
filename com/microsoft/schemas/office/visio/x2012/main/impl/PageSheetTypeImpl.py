@@ -1,21 +1,28 @@
-def PageSheetTypeImpl():
-    '''public PageSheetTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns PageSheetTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getUniqueID():
-    '''public String getUniqueID()
+    '''returns String\n\n
+    getUniqueID()\n
     '''
 def xgetUniqueID():
-    '''public XmlString xgetUniqueID()
+    '''returns XmlString\n\n
+    xgetUniqueID()\n
     '''
 def isSetUniqueID():
-    '''public boolean isSetUniqueID()
+    '''returns boolean\n\n
+    isSetUniqueID()\n
     '''
 def setUniqueID():
-    '''public void setUniqueID(final String stringValue)
+    '''returns None\n\n
+    setUniqueID(final String stringValue)\n
     '''
 def xsetUniqueID():
-    '''public void xsetUniqueID(final XmlString xmlString)
+    '''returns None\n\n
+    xsetUniqueID(final XmlString xmlString)\n
     '''
 def unsetUniqueID():
-    '''public void unsetUniqueID()
+    '''returns None\n\n
+    unsetUniqueID()\n
     '''

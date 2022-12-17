@@ -1,6 +1,8 @@
-def PlusPFldCustPayer():
-    '''public PlusPFldCustPayer(final MboValue mbv)
+def ():
+    '''returns PlusPFldCustPayer\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

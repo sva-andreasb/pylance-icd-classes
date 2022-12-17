@@ -1,21 +1,24 @@
-def MaxEndPointInfo():
-    '''public MaxEndPointInfo(final String endPointName, final String description, final String handlerName)
+def ():
+    '''returns MaxEndPointInfo\n\n
+    (final String endPointName, final String description, final String handlerName)\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def getHandlerName():
-    '''public String getHandlerName()
-    '''
-def getProperties():
-    '''public Map<String, MaxEndPointPropInfo> getProperties()
+    '''returns String\n\n
+    getHandlerName()\n
     '''
 def setProperty():
-    '''public void setProperty(final String property, final String value, final int over)
+    '''returns None\n\n
+    setProperty(final String property, final String value, final int over)\n
     '''
 def getProperty():
-    '''public MaxEndPointPropInfo getProperty(final String property)
+    '''returns MaxEndPointPropInfo\n\n
+    getProperty(final String property)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''

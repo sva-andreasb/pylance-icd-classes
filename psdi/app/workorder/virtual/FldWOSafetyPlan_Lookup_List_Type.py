@@ -1,6 +1,8 @@
-def FldWOSafetyPlan_Lookup_List_Type():
-    '''public FldWOSafetyPlan_Lookup_List_Type(final MboValue mbv)
+def ():
+    '''returns FldWOSafetyPlan_Lookup_List_Type\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

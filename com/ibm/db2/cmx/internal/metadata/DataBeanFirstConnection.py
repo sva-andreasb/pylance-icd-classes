@@ -1,21 +1,28 @@
-def DataBeanFirstConnection():
-    '''public DataBeanFirstConnection()
+def ():
+    '''returns DataBeanFirstConnection\n\n
+    ()\n
     '''
 def toJSON():
-    '''public JSONArray toJSON(final int n)
+    '''returns JSONArray\n\n
+    toJSON(final int n)\n
     '''
 def toJSON_DSM():
-    '''public JSONArray toJSON_DSM()
+    '''returns JSONArray\n\n
+    toJSON_DSM()\n
     '''
 def toJSONv1():
-    '''public JSONArray toJSONv1()
+    '''returns JSONArray\n\n
+    toJSONv1()\n
     '''
 def toJSONv3():
-    '''public JSONArray toJSONv3()
+    '''returns JSONArray\n\n
+    toJSONv3()\n
     '''
 def setGatewayPrdid():
-    '''public void setGatewayPrdid(final String gatewayPrdid_)
+    '''returns None\n\n
+    setGatewayPrdid(final String gatewayPrdid_)\n
     '''
 def run():
-    '''public String run()
+    '''returns String\n\n
+    run()\n
     '''

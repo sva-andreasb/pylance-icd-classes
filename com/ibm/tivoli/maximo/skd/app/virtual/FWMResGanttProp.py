@@ -1,3 +1,4 @@
-def FWMResGanttProp():
-    '''public FWMResGanttProp(final MboSet ms)
+def ():
+    '''returns FWMResGanttProp\n\n
+    (final MboSet ms)\n
     '''

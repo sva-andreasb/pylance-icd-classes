@@ -1,21 +1,28 @@
-def VMMSynchronizerInitData():
-    '''public VMMSynchronizerInitData(final VMMContextSettings contextSettings, final VMMSynchronizerSettings synchronizerSettings, final UserSettings userSettings, final GroupSettings groupSettings, final MXLogger logger, final MXLogger sqlLogger)
+def ():
+    '''returns VMMSynchronizerInitData\n\n
+    (final VMMContextSettings contextSettings, final VMMSynchronizerSettings synchronizerSettings, final UserSettings userSettings, final GroupSettings groupSettings, final MXLogger logger, final MXLogger sqlLogger)\n
     '''
 def getContextSettings():
-    '''public VMMContextSettings getContextSettings()
+    '''returns VMMContextSettings\n\n
+    getContextSettings()\n
     '''
 def getSynchronizerSettings():
-    '''public VMMSynchronizerSettings getSynchronizerSettings()
+    '''returns VMMSynchronizerSettings\n\n
+    getSynchronizerSettings()\n
     '''
 def getUserSettings():
-    '''public UserSettings getUserSettings()
+    '''returns UserSettings\n\n
+    getUserSettings()\n
     '''
 def getGroupSettings():
-    '''public GroupSettings getGroupSettings()
+    '''returns GroupSettings\n\n
+    getGroupSettings()\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def getSqlLogger():
-    '''public MXLogger getSqlLogger()
+    '''returns MXLogger\n\n
+    getSqlLogger()\n
     '''

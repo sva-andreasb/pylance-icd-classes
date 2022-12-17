@@ -1,30 +1,39 @@
 sid = "short  549"
 DEFAULT_ROW_HEIGHT = "short  255"
-def DefaultRowHeightRecord():
-    '''public DefaultRowHeightRecord()
-    public DefaultRowHeightRecord(final RecordInputStream in)
+def ():
+    '''returns DefaultRowHeightRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setOptionFlags():
-    '''public void setOptionFlags(final short flags)
+    '''returns None\n\n
+    setOptionFlags(final short flags)\n
     '''
 def setRowHeight():
-    '''public void setRowHeight(final short height)
+    '''returns None\n\n
+    setRowHeight(final short height)\n
     '''
 def getOptionFlags():
-    '''public short getOptionFlags()
+    '''returns short\n\n
+    getOptionFlags()\n
     '''
 def getRowHeight():
-    '''public short getRowHeight()
+    '''returns short\n\n
+    getRowHeight()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public DefaultRowHeightRecord clone()
+    '''returns DefaultRowHeightRecord\n\n
+    clone()\n
     '''

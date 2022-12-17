@@ -1,62 +1,79 @@
 UNKNOWN_SYNTAX = "int  -4"
-def IRIFactoryImpl():
-    '''public IRIFactoryImpl()
-    public IRIFactoryImpl(final IRIFactoryImpl template)
+def ():
+    '''returns IRIFactoryImpl\n\n
+    ()\n
+    (final IRIFactoryImpl template)\n
     '''
 def create():
-    '''public IRI create(final IRI i)
-    public IRI create(final String s)
+    '''returns IRI\n\n
+    create(final IRI i)\n
+    create(final String s)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String enc)
+    '''returns None\n\n
+    setEncoding(final String enc)\n
     '''
 def setSameSchemeRelativeReferences():
-    '''public void setSameSchemeRelativeReferences(final String scheme)
+    '''returns None\n\n
+    setSameSchemeRelativeReferences(final String scheme)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def iterator():
-    '''public Iterator<String> iterator()
+    '''returns Iterator<String>\n\n
+    iterator()\n
     '''
 def add():
-    '''public boolean add(final String o)
+    '''returns boolean\n\n
+    add(final String o)\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def getScheme():
-    '''public SchemeSpecificPart getScheme(String scheme, final Parser parser)
+    '''returns SchemeSpecificPart\n\n
+    getScheme(String scheme, final Parser parser)\n
     '''
 def noScheme():
-    '''public SchemeSpecificPart noScheme()
+    '''returns SchemeSpecificPart\n\n
+    noScheme()\n
     '''
 def getRequired():
-    '''public int getRequired()
-    public int getRequired()
-    public int getRequired()
+    '''returns int\n\n
+    getRequired()\n
+    getRequired()\n
+    getRequired()\n
     '''
 def getProhibited():
-    '''public int getProhibited()
-    public int getProhibited()
-    public int getProhibited()
+    '''returns int\n\n
+    getProhibited()\n
+    getProhibited()\n
+    getProhibited()\n
     '''
 def useSchemeSpecificRules():
-    '''public void useSchemeSpecificRules(String scheme, final boolean asErr)
+    '''returns None\n\n
+    useSchemeSpecificRules(String scheme, final boolean asErr)\n
     '''
 def getMask():
-    '''public long getMask(final boolean includeWarnings)
-    public long getMask(final boolean includeWarnings)
+    '''returns long\n\n
+    getMask(final boolean includeWarnings)\n
+    getMask(final boolean includeWarnings)\n
     '''
 def analyse():
-    '''public void analyse(final Parser parser, final int range)
-    public void analyse(final Parser parser, final int range)
+    '''returns None\n\n
+    analyse(final Parser parser, final int range)\n
+    analyse(final Parser parser, final int range)\n
     '''
 def port():
-    '''public int port()
-    public int port()
+    '''returns int\n\n
+    port()\n
+    port()\n
     '''
 def withScheme():
-    '''public boolean withScheme()
-    public boolean withScheme()
+    '''returns boolean\n\n
+    withScheme()\n
+    withScheme()\n
     '''

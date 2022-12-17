@@ -1,6 +1,8 @@
-def ConstructorFunction():
-    '''public ConstructorFunction(final Constructor constructor)
+def ():
+    '''returns ConstructorFunction\n\n
+    (final Constructor constructor)\n
     '''
 def invoke():
-    '''public Object invoke(final ExpressionContext context, Object[] parameters)
+    '''returns Object\n\n
+    invoke(final ExpressionContext context, Object[] parameters)\n
     '''

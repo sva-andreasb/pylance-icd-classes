@@ -1,93 +1,124 @@
-def CreateListReportInputInfo():
-    '''public CreateListReportInputInfo()
+def ():
+    '''returns CreateListReportInputInfo\n\n
+    ()\n
     '''
 def getObjectID():
-    '''public int getObjectID()
+    '''returns int\n\n
+    getObjectID()\n
     '''
 def setObjectID():
-    '''public void setObjectID(final int objectID)
+    '''returns None\n\n
+    setObjectID(final int objectID)\n
     '''
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def setMboName():
-    '''public void setMboName(final String mboName)
+    '''returns None\n\n
+    setMboName(final String mboName)\n
     '''
 def getEntityName():
-    '''public String getEntityName()
+    '''returns String\n\n
+    getEntityName()\n
     '''
 def setEntityName():
-    '''public void setEntityName(final String entityName)
+    '''returns None\n\n
+    setEntityName(final String entityName)\n
     '''
 def getDataSetName():
-    '''public String getDataSetName()
+    '''returns String\n\n
+    getDataSetName()\n
     '''
 def getViewName():
-    '''public String getViewName()
+    '''returns String\n\n
+    getViewName()\n
     '''
 def setViewName():
-    '''public void setViewName(final String viewName)
+    '''returns None\n\n
+    setViewName(final String viewName)\n
     '''
 def getFixedQueryWhereClause():
-    '''public String getFixedQueryWhereClause()
+    '''returns String\n\n
+    getFixedQueryWhereClause()\n
     '''
 def setFixedQueryWhereClause():
-    '''public void setFixedQueryWhereClause(final String fixedQueryWhereClause)
+    '''returns None\n\n
+    setFixedQueryWhereClause(final String fixedQueryWhereClause)\n
     '''
 def addDataColumnInputInfo():
-    '''public void addDataColumnInputInfo(final CreateListReportDataColumnInputInfo info)
+    '''returns None\n\n
+    addDataColumnInputInfo(final CreateListReportDataColumnInputInfo info)\n
     '''
 def removeDataColumnInputInfo():
-    '''public void removeDataColumnInputInfo(final String mboAttributeName, final String mboName)
+    '''returns None\n\n
+    removeDataColumnInputInfo(final String mboAttributeName, final String mboName)\n
     '''
 def getAllDataColumnInputInfo():
-    '''public Iterator getAllDataColumnInputInfo()
+    '''returns Iterator\n\n
+    getAllDataColumnInputInfo()\n
     '''
 def includesDataColumn():
-    '''public boolean includesDataColumn(final String objectName, final String attributeName)
+    '''returns boolean\n\n
+    includesDataColumn(final String objectName, final String attributeName)\n
     '''
 def addRelationshipInfo():
-    '''public void addRelationshipInfo(final CreateReportRelationshipInfo info)
+    '''returns None\n\n
+    addRelationshipInfo(final CreateReportRelationshipInfo info)\n
     '''
 def getAllRelationshipInfo():
-    '''public Iterator getAllRelationshipInfo()
+    '''returns Iterator\n\n
+    getAllRelationshipInfo()\n
     '''
 def getWhereClause():
-    '''public String getWhereClause(final String parent, final String child)
+    '''returns String\n\n
+    getWhereClause(final String parent, final String child)\n
     '''
 def getLinkRelation():
-    '''public String getLinkRelation()
+    '''returns String\n\n
+    getLinkRelation()\n
     '''
 def setLinkRelation():
-    '''public void setLinkRelation(final String linkRelation)
+    '''returns None\n\n
+    setLinkRelation(final String linkRelation)\n
     '''
 def addBindParam():
-    '''public void addBindParam(final String attributeName)
+    '''returns None\n\n
+    addBindParam(final String attributeName)\n
     '''
 def getAllBindParams():
-    '''public Iterator getAllBindParams()
+    '''returns Iterator\n\n
+    getAllBindParams()\n
     '''
 def getBindParamList():
-    '''public ArrayList<String> getBindParamList()
+    '''returns ArrayList<String>\n\n
+    getBindParamList()\n
     '''
 def addIncludedObject():
-    '''public void addIncludedObject(final Integer objectID)
+    '''returns None\n\n
+    addIncludedObject(final Integer objectID)\n
     '''
 def isObjectIncluded():
-    '''public boolean isObjectIncluded(final int objectID)
+    '''returns boolean\n\n
+    isObjectIncluded(final int objectID)\n
     '''
 def getHeaderText():
-    '''public String getHeaderText()
+    '''returns String\n\n
+    getHeaderText()\n
     '''
 def setHeaderText():
-    '''public void setHeaderText(final String headerText)
+    '''returns None\n\n
+    setHeaderText(final String headerText)\n
     '''
 def isAttributeIncluded():
-    '''public boolean isAttributeIncluded(final String attributeName)
+    '''returns boolean\n\n
+    isAttributeIncluded(final String attributeName)\n
     '''
 def getNextSummaryOrder():
-    '''public int getNextSummaryOrder()
+    '''returns int\n\n
+    getNextSummaryOrder()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

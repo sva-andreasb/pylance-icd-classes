@@ -1,15 +1,20 @@
-def SaslServerCallbackHandler():
-    '''public SaslServerCallbackHandler(final JaasContext jaasContext)
+def ():
+    '''returns SaslServerCallbackHandler\n\n
+    (final JaasContext jaasContext)\n
     '''
 def configure():
-    '''public void configure(final Map<String, ?> configs, final Mode mode, final Subject subject, final String saslMechanism)
+    '''returns None\n\n
+    configure(final Map<String, ?> configs, final Mode mode, final Subject subject, final String saslMechanism)\n
     '''
 def jaasContext():
-    '''public JaasContext jaasContext()
+    '''returns JaasContext\n\n
+    jaasContext()\n
     '''
 def handle():
-    '''public void handle(final Callback[] callbacks)
+    '''returns None\n\n
+    handle(final Callback[] callbacks)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,66 +1,66 @@
-def days():
-    '''public static Days days(final int n)
-    '''
-def daysBetween():
-    '''public static Days daysBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public static Days daysBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
-    '''
-def daysIn():
-    '''public static Days daysIn(final ReadableInterval readableInterval)
-    '''
-def standardDaysIn():
-    '''public static Days standardDaysIn(final ReadablePeriod readablePeriod)
-    '''
-def parseDays():
-    '''public static Days parseDays(final String s)
-    '''
 def getFieldType():
-    '''public DurationFieldType getFieldType()
+    '''returns DurationFieldType\n\n
+    getFieldType()\n
     '''
 def getPeriodType():
-    '''public PeriodType getPeriodType()
+    '''returns PeriodType\n\n
+    getPeriodType()\n
     '''
 def toStandardWeeks():
-    '''public Weeks toStandardWeeks()
+    '''returns Weeks\n\n
+    toStandardWeeks()\n
     '''
 def toStandardHours():
-    '''public Hours toStandardHours()
+    '''returns Hours\n\n
+    toStandardHours()\n
     '''
 def toStandardMinutes():
-    '''public Minutes toStandardMinutes()
+    '''returns Minutes\n\n
+    toStandardMinutes()\n
     '''
 def toStandardSeconds():
-    '''public Seconds toStandardSeconds()
+    '''returns Seconds\n\n
+    toStandardSeconds()\n
     '''
 def toStandardDuration():
-    '''public Duration toStandardDuration()
+    '''returns Duration\n\n
+    toStandardDuration()\n
     '''
 def getDays():
-    '''public int getDays()
+    '''returns int\n\n
+    getDays()\n
     '''
 def plus():
-    '''public Days plus(final int n)
-    public Days plus(final Days days)
+    '''returns Days\n\n
+    plus(final int n)\n
+    plus(final Days days)\n
     '''
 def minus():
-    '''public Days minus(final int n)
-    public Days minus(final Days days)
+    '''returns Days\n\n
+    minus(final int n)\n
+    minus(final Days days)\n
     '''
 def multipliedBy():
-    '''public Days multipliedBy(final int n)
+    '''returns Days\n\n
+    multipliedBy(final int n)\n
     '''
 def dividedBy():
-    '''public Days dividedBy(final int n)
+    '''returns Days\n\n
+    dividedBy(final int n)\n
     '''
 def negated():
-    '''public Days negated()
+    '''returns Days\n\n
+    negated()\n
     '''
 def isGreaterThan():
-    '''public boolean isGreaterThan(final Days days)
+    '''returns boolean\n\n
+    isGreaterThan(final Days days)\n
     '''
 def isLessThan():
-    '''public boolean isLessThan(final Days days)
+    '''returns boolean\n\n
+    isLessThan(final Days days)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

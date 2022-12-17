@@ -1,9 +1,12 @@
-def EscalationCommLog():
-    '''public EscalationCommLog(final MboSet ms)
+def ():
+    '''returns EscalationCommLog\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getRealObjectID():
-    '''public String getRealObjectID()
+    '''returns String\n\n
+    getRealObjectID()\n
     '''

@@ -1,9 +1,8 @@
-def MessageEvent():
-    '''public MessageEvent(final Object source, final String a, final Object[] array)
+def ():
+    '''returns MessageEvent\n\n
+    (final Object source, final String a, final Object[] array)\n
     '''
 def getMessageName():
-    '''public String getMessageName()
-    '''
-def getMessageParameters():
-    '''public final Object[] getMessageParameters()
+    '''returns String\n\n
+    getMessageName()\n
     '''

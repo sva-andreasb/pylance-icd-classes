@@ -1,21 +1,16 @@
-def ModelAddBean():
-    '''public ModelAddBean()
+def ():
+    '''returns ModelAddBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    initialize()\n
     '''
 def loadModelFile():
-    '''public int loadModelFile()
+    '''returns int\n\n
+    loadModelFile()\n
     '''
 def addrow():
-    '''public int addrow()
-    '''
-def setCurrentRow():
-    '''public synchronized boolean setCurrentRow(final int nRow)
-    '''
-def dataChangedEvent():
-    '''public synchronized void dataChangedEvent(final DataBean speaker)
+    '''returns int\n\n
+    addrow()\n
     '''

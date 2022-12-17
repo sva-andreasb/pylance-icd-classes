@@ -1,3 +1,4 @@
-def WoSchedActivity():
-    '''public WoSchedActivity(final MboSet ms)
+def ():
+    '''returns WoSchedActivity\n\n
+    (final MboSet ms)\n
     '''

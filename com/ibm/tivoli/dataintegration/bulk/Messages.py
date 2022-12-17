@@ -1,13 +1,16 @@
-def Messages():
-    '''public Messages()
-    public Messages(final Locale loc)
-    public Messages(final String baseName)
-    public Messages(final String baseName, final Locale loc)
+def ():
+    '''returns Messages\n\n
+    ()\n
+    (final Locale loc)\n
+    (final String baseName)\n
+    (final String baseName, final Locale loc)\n
     '''
 def getString():
-    '''public String getString(final String key, final String defaultValue, final Object[] inserts)
+    '''returns String\n\n
+    getString(final String key, final String defaultValue, final Object[] inserts)\n
     '''
 def getMessage():
-    '''public String getMessage(final String key, final String defaultValue)
-    public String getMessage(final String key)
+    '''returns String\n\n
+    getMessage(final String key, final String defaultValue)\n
+    getMessage(final String key)\n
     '''

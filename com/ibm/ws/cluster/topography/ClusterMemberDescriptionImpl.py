@@ -1,53 +1,50 @@
-def ClusterMemberDescriptionImpl():
-    '''public ClusterMemberDescriptionImpl(final DescriptionKey key)
-    '''
-def setState():
-    '''public synchronized void setState(final byte state)
+def ():
+    '''returns ClusterMemberDescriptionImpl\n\n
+    (final DescriptionKey key)\n
     '''
 def setReachability():
-    '''public void setReachability(final byte state)
+    '''returns None\n\n
+    setReachability(final byte state)\n
     '''
 def getReachability():
-    '''public byte getReachability()
-    public byte getReachability()
+    '''returns byte\n\n
+    getReachability()\n
+    getReachability()\n
     '''
 def setAvailability():
-    '''public void setAvailability(final byte state)
-    '''
-def setVersion():
-    '''public synchronized void setVersion(final String version)
-    '''
-def setClusterAssociation():
-    '''public synchronized void setClusterAssociation(final DescriptionKey association)
-    '''
-def removeClusterAssociation():
-    '''public synchronized void removeClusterAssociation(final DescriptionKey association)
+    '''returns None\n\n
+    setAvailability(final byte state)\n
     '''
 def getDefinitionKey():
-    '''public String getDefinitionKey()
-    '''
-def exportToStream():
-    '''public synchronized void exportToStream(final DataOutput out, final Format format)
+    '''returns String\n\n
+    getDefinitionKey()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def setMemento():
-    '''public void setMemento(final Description.Memento memento)
+    '''returns None\n\n
+    setMemento(final Description.Memento memento)\n
     '''
 def getState():
-    '''public byte getState()
+    '''returns byte\n\n
+    getState()\n
     '''
 def getAvailability():
-    '''public byte getAvailability()
+    '''returns byte\n\n
+    getAvailability()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getClusterAssociations():
-    '''public Set getClusterAssociations()
+    '''returns Set\n\n
+    getClusterAssociations()\n
     '''

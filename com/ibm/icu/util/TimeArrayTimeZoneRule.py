@@ -1,30 +1,40 @@
-def TimeArrayTimeZoneRule():
-    '''public TimeArrayTimeZoneRule(final String name, final int rawOffset, final int dstSavings, final long[] startTimes, final int timeType)
+def ():
+    '''returns TimeArrayTimeZoneRule\n\n
+    (final String name, final int rawOffset, final int dstSavings, final long[] startTimes, final int timeType)\n
     '''
 def getStartTimes():
-    '''public long[] getStartTimes()
+    '''returns long[]\n\n
+    getStartTimes()\n
     '''
 def getTimeType():
-    '''public int getTimeType()
+    '''returns int\n\n
+    getTimeType()\n
     '''
 def getFirstStart():
-    '''public Date getFirstStart(final int prevRawOffset, final int prevDSTSavings)
+    '''returns Date\n\n
+    getFirstStart(final int prevRawOffset, final int prevDSTSavings)\n
     '''
 def getFinalStart():
-    '''public Date getFinalStart(final int prevRawOffset, final int prevDSTSavings)
+    '''returns Date\n\n
+    getFinalStart(final int prevRawOffset, final int prevDSTSavings)\n
     '''
 def getNextStart():
-    '''public Date getNextStart(final long base, final int prevOffset, final int prevDSTSavings, final boolean inclusive)
+    '''returns Date\n\n
+    getNextStart(final long base, final int prevOffset, final int prevDSTSavings, final boolean inclusive)\n
     '''
 def getPreviousStart():
-    '''public Date getPreviousStart(final long base, final int prevOffset, final int prevDSTSavings, final boolean inclusive)
+    '''returns Date\n\n
+    getPreviousStart(final long base, final int prevOffset, final int prevDSTSavings, final boolean inclusive)\n
     '''
 def isEquivalentTo():
-    '''public boolean isEquivalentTo(final TimeZoneRule other)
+    '''returns boolean\n\n
+    isEquivalentTo(final TimeZoneRule other)\n
     '''
 def isTransitionRule():
-    '''public boolean isTransitionRule()
+    '''returns boolean\n\n
+    isTransitionRule()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

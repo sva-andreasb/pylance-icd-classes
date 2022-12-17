@@ -1,6 +1,8 @@
-def RelationRulesSet():
-    '''public RelationRulesSet(final MboServerInterface ms)
+def ():
+    '''returns RelationRulesSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

@@ -1,56 +1,66 @@
-def TypeDesc():
-    '''public TypeDesc(final Class javaClass)
-    public TypeDesc(final Class javaClass, final boolean canSearchParents)
-    '''
-def registerTypeDescForClass():
-    '''public static void registerTypeDescForClass(final Class cls, final TypeDesc td)
-    '''
-def getTypeDescForClass():
-    '''public static TypeDesc getTypeDescForClass(final Class cls)
+def ():
+    '''returns TypeDesc\n\n
+    (final Class javaClass)\n
+    (final Class javaClass, final boolean canSearchParents)\n
     '''
 def getAnyDesc():
-    '''public BeanPropertyDescriptor getAnyDesc()
+    '''returns BeanPropertyDescriptor\n\n
+    getAnyDesc()\n
     '''
 def getFields():
-    '''public FieldDesc[] getFields()
-    public FieldDesc[] getFields(final boolean searchParents)
+    '''returns FieldDesc[]\n\n
+    getFields()\n
+    getFields(final boolean searchParents)\n
     '''
 def setFields():
-    '''public void setFields(final FieldDesc[] newFields)
+    '''returns None\n\n
+    setFields(final FieldDesc[] newFields)\n
     '''
 def addFieldDesc():
-    '''public void addFieldDesc(final FieldDesc field)
+    '''returns None\n\n
+    addFieldDesc(final FieldDesc field)\n
     '''
 def getElementNameForField():
-    '''public QName getElementNameForField(final String fieldName)
+    '''returns QName\n\n
+    getElementNameForField(final String fieldName)\n
     '''
 def getAttributeNameForField():
-    '''public QName getAttributeNameForField(final String fieldName)
+    '''returns QName\n\n
+    getAttributeNameForField(final String fieldName)\n
     '''
 def getFieldNameForElement():
-    '''public String getFieldNameForElement(final QName qname, final boolean ignoreNS)
+    '''returns String\n\n
+    getFieldNameForElement(final QName qname, final boolean ignoreNS)\n
     '''
 def getFieldNameForAttribute():
-    '''public String getFieldNameForAttribute(final QName qname)
+    '''returns String\n\n
+    getFieldNameForAttribute(final QName qname)\n
     '''
 def getFieldByName():
-    '''public FieldDesc getFieldByName(final String name)
+    '''returns FieldDesc\n\n
+    getFieldByName(final String name)\n
     '''
 def hasAttributes():
-    '''public boolean hasAttributes()
+    '''returns boolean\n\n
+    hasAttributes()\n
     '''
 def getXmlType():
-    '''public QName getXmlType()
+    '''returns QName\n\n
+    getXmlType()\n
     '''
 def setXmlType():
-    '''public void setXmlType(final QName xmlType)
+    '''returns None\n\n
+    setXmlType(final QName xmlType)\n
     '''
 def getPropertyDescriptors():
-    '''public BeanPropertyDescriptor[] getPropertyDescriptors()
+    '''returns BeanPropertyDescriptor[]\n\n
+    getPropertyDescriptors()\n
     '''
 def getAnyContentDescriptor():
-    '''public BeanPropertyDescriptor getAnyContentDescriptor()
+    '''returns BeanPropertyDescriptor\n\n
+    getAnyContentDescriptor()\n
     '''
 def getPropertyDescriptorMap():
-    '''public Map getPropertyDescriptorMap()
+    '''returns Map\n\n
+    getPropertyDescriptorMap()\n
     '''

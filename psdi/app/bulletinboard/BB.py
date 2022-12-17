@@ -1,21 +1,28 @@
-def BB():
-    '''public BB(final MboSet ms)
+def ():
+    '''returns BB\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def copyAndReplaceId():
-    '''public void copyAndReplaceId(final MboSetRemote currentSet, final MboSetRemote newSet, final String bbid)
+    '''returns None\n\n
+    copyAndReplaceId(final MboSetRemote currentSet, final MboSetRemote newSet, final String bbid)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def associateBBAudienceToCommLog():
-    '''public void associateBBAudienceToCommLog(final MboRemote commLog)
+    '''returns None\n\n
+    associateBBAudienceToCommLog(final MboRemote commLog)\n
     '''

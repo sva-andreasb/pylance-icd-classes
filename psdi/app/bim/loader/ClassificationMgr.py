@@ -11,30 +11,39 @@ OBJECT_TYPE_COMPANY = "String  \"COMPANY\""
 OBJECT_TYPE_ITEM = "String  \"ITEM\""
 OBJECT_TYPE_JOB = "String  \"JOB\""
 QUERY_CLASSSTRUCT = "String  \"CLASSSTRUCTUREID =:1\""
-def ClassificationMgr():
-    '''public ClassificationMgr(final ProgressLogger<?> logger, final String siteId, final String orgId, final UserInfo userInfo)
+def ():
+    '''returns ClassificationMgr\n\n
+    (final ProgressLogger<?> logger, final String siteId, final String orgId, final UserInfo userInfo)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def getClassification():
-    '''public String getClassification(String classificationName, final String cobieObjectType, final Item item, final boolean allowSite, final boolean allowOrg)
+    '''returns String\n\n
+    getClassification(String classificationName, final String cobieObjectType, final Item item, final boolean allowSite, final boolean allowOrg)\n
     '''
 def getClassificationSingle():
-    '''public String getClassificationSingle(final String classificationName, final String cobieObjectType, final Item item, final boolean allowSite, final boolean allowOrg)
+    '''returns String\n\n
+    getClassificationSingle(final String classificationName, final String cobieObjectType, final Item item, final boolean allowSite, final boolean allowOrg)\n
     '''
 def getClassifcationDescriotion():
-    '''public String getClassifcationDescriotion(final String classStructId, final ItemBase item)
+    '''returns String\n\n
+    getClassifcationDescriotion(final String classStructId, final ItemBase item)\n
     '''
 def setAddMissing():
-    '''public void setAddMissing(final boolean addMissing)
+    '''returns None\n\n
+    setAddMissing(final boolean addMissing)\n
     '''
 def setTypesAreSpec():
-    '''public void setTypesAreSpec(final boolean typesAreSpecs)
+    '''returns None\n\n
+    setTypesAreSpec(final boolean typesAreSpecs)\n
     '''
 def associateAttributeTypesWithClassifications():
-    '''public void associateAttributeTypesWithClassifications(final AttributeTypeMap typeMap, final AttributeMapMgr mapMgr, final String[] sheets)
+    '''returns None\n\n
+    associateAttributeTypesWithClassifications(final AttributeTypeMap typeMap, final AttributeMapMgr mapMgr, final String[] sheets)\n
     '''
 def fixupProductDefaultUseWith():
-    '''public void fixupProductDefaultUseWith()
+    '''returns None\n\n
+    fixupProductDefaultUseWith()\n
     '''

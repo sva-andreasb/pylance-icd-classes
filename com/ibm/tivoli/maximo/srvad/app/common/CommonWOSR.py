@@ -1,46 +1,61 @@
-def CommonWOSR():
-    '''public CommonWOSR(final MboSet ms)
+def ():
+    '''returns CommonWOSR\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isAddressChanged():
-    '''public boolean isAddressChanged()
+    '''returns boolean\n\n
+    isAddressChanged()\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def hasServiceAddress():
-    '''public boolean hasServiceAddress()
+    '''returns boolean\n\n
+    hasServiceAddress()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def getServiceAddress():
-    '''public MboRemote getServiceAddress()
+    '''returns MboRemote\n\n
+    getServiceAddress()\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def isAllFieldsBlank():
-    '''public boolean isAllFieldsBlank(final ArrayList<String> filter)
+    '''returns boolean\n\n
+    isAllFieldsBlank(final ArrayList<String> filter)\n
     '''
 def clearAllFields():
-    '''public void clearAllFields()
+    '''returns None\n\n
+    clearAllFields()\n
     '''
 def copyDataFromOtherCommonWOSR():
-    '''public void copyDataFromOtherCommonWOSR(final CommonWOSR sa)
+    '''returns None\n\n
+    copyDataFromOtherCommonWOSR(final CommonWOSR sa)\n
     '''
 def getAutoLocateObject():
-    '''public MboRemote getAutoLocateObject(final AutoLocatable parent)
-    public MboRemote getAutoLocateObject()
+    '''returns MboRemote\n\n
+    getAutoLocateObject(final AutoLocatable parent)\n
+    getAutoLocateObject()\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''

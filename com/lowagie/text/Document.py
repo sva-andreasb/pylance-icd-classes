@@ -1,142 +1,183 @@
-def Document():
-    '''public Document()
-    public Document(final Rectangle pageSize)
-    public Document(final Rectangle pageSize, final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)
+def ():
+    '''returns Document\n\n
+    ()\n
+    (final Rectangle pageSize)\n
+    (final Rectangle pageSize, final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)\n
     '''
 def addDocListener():
-    '''public void addDocListener(final DocListener listener)
+    '''returns None\n\n
+    addDocListener(final DocListener listener)\n
     '''
 def removeDocListener():
-    '''public void removeDocListener(final DocListener listener)
+    '''returns None\n\n
+    removeDocListener(final DocListener listener)\n
     '''
 def add():
-    '''public boolean add(final Element element)
-    public boolean add(final Watermark watermark)
+    '''returns boolean\n\n
+    add(final Element element)\n
+    add(final Watermark watermark)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def setPageSize():
-    '''public boolean setPageSize(final Rectangle pageSize)
+    '''returns boolean\n\n
+    setPageSize(final Rectangle pageSize)\n
     '''
 def removeWatermark():
-    '''public void removeWatermark()
+    '''returns None\n\n
+    removeWatermark()\n
     '''
 def setMargins():
-    '''public boolean setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)
+    '''returns boolean\n\n
+    setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)\n
     '''
 def newPage():
-    '''public boolean newPage()
+    '''returns boolean\n\n
+    newPage()\n
     '''
 def setHeader():
-    '''public void setHeader(final HeaderFooter header)
+    '''returns None\n\n
+    setHeader(final HeaderFooter header)\n
     '''
 def resetHeader():
-    '''public void resetHeader()
+    '''returns None\n\n
+    resetHeader()\n
     '''
 def setFooter():
-    '''public void setFooter(final HeaderFooter footer)
+    '''returns None\n\n
+    setFooter(final HeaderFooter footer)\n
     '''
 def resetFooter():
-    '''public void resetFooter()
+    '''returns None\n\n
+    resetFooter()\n
     '''
 def resetPageCount():
-    '''public void resetPageCount()
+    '''returns None\n\n
+    resetPageCount()\n
     '''
 def setPageCount():
-    '''public void setPageCount(final int pageN)
+    '''returns None\n\n
+    setPageCount(final int pageN)\n
     '''
 def getPageNumber():
-    '''public int getPageNumber()
+    '''returns int\n\n
+    getPageNumber()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def addHeader():
-    '''public boolean addHeader(final String name, final String content)
+    '''returns boolean\n\n
+    addHeader(final String name, final String content)\n
     '''
 def addTitle():
-    '''public boolean addTitle(final String title)
+    '''returns boolean\n\n
+    addTitle(final String title)\n
     '''
 def addSubject():
-    '''public boolean addSubject(final String subject)
+    '''returns boolean\n\n
+    addSubject(final String subject)\n
     '''
 def addKeywords():
-    '''public boolean addKeywords(final String keywords)
+    '''returns boolean\n\n
+    addKeywords(final String keywords)\n
     '''
 def addAuthor():
-    '''public boolean addAuthor(final String author)
+    '''returns boolean\n\n
+    addAuthor(final String author)\n
     '''
 def addCreator():
-    '''public boolean addCreator(final String creator)
+    '''returns boolean\n\n
+    addCreator(final String creator)\n
     '''
 def addProducer():
-    '''public boolean addProducer()
+    '''returns boolean\n\n
+    addProducer()\n
     '''
 def addCreationDate():
-    '''public boolean addCreationDate()
+    '''returns boolean\n\n
+    addCreationDate()\n
     '''
 def leftMargin():
-    '''public float leftMargin()
+    '''returns float\n\n
+    leftMargin()\n
     '''
 def rightMargin():
-    '''public float rightMargin()
+    '''returns float\n\n
+    rightMargin()\n
     '''
 def topMargin():
-    '''public float topMargin()
+    '''returns float\n\n
+    topMargin()\n
     '''
 def bottomMargin():
-    '''public float bottomMargin()
+    '''returns float\n\n
+    bottomMargin()\n
     '''
 def left():
-    '''public float left()
-    public float left(final float margin)
+    '''returns float\n\n
+    left()\n
+    left(final float margin)\n
     '''
 def right():
-    '''public float right()
-    public float right(final float margin)
+    '''returns float\n\n
+    right()\n
+    right(final float margin)\n
     '''
 def top():
-    '''public float top()
-    public float top(final float margin)
+    '''returns float\n\n
+    top()\n
+    top(final float margin)\n
     '''
 def bottom():
-    '''public float bottom()
-    public float bottom(final float margin)
+    '''returns float\n\n
+    bottom()\n
+    bottom(final float margin)\n
     '''
 def getPageSize():
-    '''public Rectangle getPageSize()
+    '''returns Rectangle\n\n
+    getPageSize()\n
     '''
 def isOpen():
-    '''public boolean isOpen()
-    '''
-def getVersion():
-    '''public static String getVersion()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def setJavaScript_onLoad():
-    '''public void setJavaScript_onLoad(final String code)
+    '''returns None\n\n
+    setJavaScript_onLoad(final String code)\n
     '''
 def getJavaScript_onLoad():
-    '''public String getJavaScript_onLoad()
+    '''returns String\n\n
+    getJavaScript_onLoad()\n
     '''
 def setJavaScript_onUnLoad():
-    '''public void setJavaScript_onUnLoad(final String code)
+    '''returns None\n\n
+    setJavaScript_onUnLoad(final String code)\n
     '''
 def getJavaScript_onUnLoad():
-    '''public String getJavaScript_onUnLoad()
+    '''returns String\n\n
+    getJavaScript_onUnLoad()\n
     '''
 def setHtmlStyleClass():
-    '''public void setHtmlStyleClass(final String htmlStyleClass)
+    '''returns None\n\n
+    setHtmlStyleClass(final String htmlStyleClass)\n
     '''
 def getHtmlStyleClass():
-    '''public String getHtmlStyleClass()
+    '''returns String\n\n
+    getHtmlStyleClass()\n
     '''
 def clearTextWrap():
-    '''public void clearTextWrap()
+    '''returns None\n\n
+    clearTextWrap()\n
     '''
 def setMarginMirroring():
-    '''public boolean setMarginMirroring(final boolean marginMirroring)
+    '''returns boolean\n\n
+    setMarginMirroring(final boolean marginMirroring)\n
     '''
 def isMarginMirroring():
-    '''public boolean isMarginMirroring()
+    '''returns boolean\n\n
+    isMarginMirroring()\n
     '''

@@ -1,7 +1,9 @@
-def PlusCFldSlidingWindowSize():
-    '''public PlusCFldSlidingWindowSize()
-    public PlusCFldSlidingWindowSize(final MboValue mbv)
+def ():
+    '''returns PlusCFldSlidingWindowSize\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,12 +1,16 @@
-def PlusPBSAssetRange():
-    '''public PlusPBSAssetRange(final MboSet ms)
+def ():
+    '''returns PlusPBSAssetRange\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def hasRange():
-    '''public boolean hasRange()
+    '''returns boolean\n\n
+    hasRange()\n
     '''
 def rangeContains():
-    '''public boolean rangeContains(final int n)
+    '''returns boolean\n\n
+    rangeContains(final int n)\n
     '''

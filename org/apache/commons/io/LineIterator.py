@@ -1,21 +1,24 @@
-def LineIterator():
-    '''public LineIterator(final Reader reader)
+def ():
+    '''returns LineIterator\n\n
+    (final Reader reader)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public String next()
+    '''returns String\n\n
+    next()\n
     '''
 def nextLine():
-    '''public String nextLine()
+    '''returns String\n\n
+    nextLine()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def remove():
-    '''public void remove()
-    '''
-def closeQuietly():
-    '''public static void closeQuietly(final LineIterator iterator)
+    '''returns None\n\n
+    remove()\n
     '''

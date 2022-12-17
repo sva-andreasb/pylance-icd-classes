@@ -1,103 +1,99 @@
-def getType():
-    '''public static RDFDatatype getType(final String s)
-    '''
-def createAnon():
-    '''public static Node createAnon()
-    public static Node createAnon(final AnonId id)
-    '''
-def createLiteral():
-    '''public static Node createLiteral(final LiteralLabel lit)
-    public static Node createLiteral(final String value)
-    public static Node createLiteral(final String lit, final String lang, final boolean isXml)
-    public static Node createLiteral(final String lex, final String lang, final RDFDatatype dtype)
-    '''
-def createURI():
-    '''public static Node createURI(final String uri)
-    '''
-def createVariable():
-    '''public static Node createVariable(final String name)
-    '''
-def createUncachedLiteral():
-    '''public static Node createUncachedLiteral(final Object value, final String lang, final RDFDatatype dtype)
-    '''
 def isLiteral():
-    '''public boolean isLiteral()
+    '''returns boolean\n\n
+    isLiteral()\n
     '''
 def isBlank():
-    '''public boolean isBlank()
+    '''returns boolean\n\n
+    isBlank()\n
     '''
 def isURI():
-    '''public boolean isURI()
+    '''returns boolean\n\n
+    isURI()\n
     '''
 def isVariable():
-    '''public boolean isVariable()
+    '''returns boolean\n\n
+    isVariable()\n
     '''
 def getBlankNodeId():
-    '''public AnonId getBlankNodeId()
+    '''returns AnonId\n\n
+    getBlankNodeId()\n
     '''
 def getBlankNodeLabel():
-    '''public String getBlankNodeLabel()
+    '''returns String\n\n
+    getBlankNodeLabel()\n
     '''
 def getLiteral():
-    '''public LiteralLabel getLiteral()
+    '''returns LiteralLabel\n\n
+    getLiteral()\n
     '''
 def getLiteralValue():
-    '''public Object getLiteralValue()
+    '''returns Object\n\n
+    getLiteralValue()\n
     '''
 def getLiteralLexicalForm():
-    '''public String getLiteralLexicalForm()
+    '''returns String\n\n
+    getLiteralLexicalForm()\n
     '''
 def getLiteralLanguage():
-    '''public String getLiteralLanguage()
+    '''returns String\n\n
+    getLiteralLanguage()\n
     '''
 def getLiteralDatatypeURI():
-    '''public String getLiteralDatatypeURI()
+    '''returns String\n\n
+    getLiteralDatatypeURI()\n
     '''
 def getLiteralDatatype():
-    '''public RDFDatatype getLiteralDatatype()
+    '''returns RDFDatatype\n\n
+    getLiteralDatatype()\n
     '''
 def getLiteralIsXML():
-    '''public boolean getLiteralIsXML()
+    '''returns boolean\n\n
+    getLiteralIsXML()\n
     '''
 def getIndexingValue():
-    '''public Object getIndexingValue()
+    '''returns Object\n\n
+    getIndexingValue()\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def getNameSpace():
-    '''public String getNameSpace()
+    '''returns String\n\n
+    getNameSpace()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hasURI():
-    '''public boolean hasURI(final String uri)
-    '''
-def cache():
-    '''public static void cache(final boolean wantCache)
-    '''
-def create():
-    '''public static synchronized Node create(final NodeMaker maker, final Object label)
+    '''returns boolean\n\n
+    hasURI(final String uri)\n
     '''
 def sameValueAs():
-    '''public boolean sameValueAs(final Object o)
+    '''returns boolean\n\n
+    sameValueAs(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def matches():
-    '''public boolean matches(final Node other)
+    '''returns boolean\n\n
+    matches(final Node other)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final boolean quoting)
-    public String toString(final PrefixMapping pm)
-    public String toString(final PrefixMapping pm, final boolean quoting)
+    '''returns String\n\n
+    toString()\n
+    toString(final boolean quoting)\n
+    toString(final PrefixMapping pm)\n
+    toString(final PrefixMapping pm, final boolean quoting)\n
     '''
-def NotLiteral():
-    '''public NotLiteral(final Node it)
+def ():
+    '''returns NotLiteral\n\n
+    (final Node it)\n
     '''

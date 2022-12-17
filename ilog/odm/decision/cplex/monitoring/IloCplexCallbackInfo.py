@@ -1,34 +1,45 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getBestValue():
-    '''public double getBestValue()
+    '''returns double\n\n
+    getBestValue()\n
     '''
 def hasFeasibleSolution():
-    '''public boolean hasFeasibleSolution()
+    '''returns boolean\n\n
+    hasFeasibleSolution()\n
     '''
 def hasGap():
-    '''public boolean hasGap()
+    '''returns boolean\n\n
+    hasGap()\n
     '''
 def isMip():
-    '''public boolean isMip()
+    '''returns boolean\n\n
+    isMip()\n
     '''
 def isOptimal():
-    '''public boolean isOptimal()
+    '''returns boolean\n\n
+    isOptimal()\n
     '''
 def hasNewIncumbent():
-    '''public boolean hasNewIncumbent()
+    '''returns boolean\n\n
+    hasNewIncumbent()\n
     '''
 def getObjValue():
-    '''public double getObjValue()
+    '''returns double\n\n
+    getObjValue()\n
     '''
 def setBestValue():
-    '''public void setBestValue(final double d)
+    '''returns None\n\n
+    setBestValue(final double d)\n
     '''
 def setHasFeasibleSolution():
-    '''public void setHasFeasibleSolution(final boolean b)
+    '''returns None\n\n
+    setHasFeasibleSolution(final boolean b)\n
     '''
 def hasAborted():
-    '''public boolean hasAborted()
+    '''returns boolean\n\n
+    hasAborted()\n
     '''
 def setAborted():
-    '''public void setAborted(final boolean b)
+    '''returns None\n\n
+    setAborted(final boolean b)\n
     '''

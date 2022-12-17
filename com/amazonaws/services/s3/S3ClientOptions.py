@@ -2,48 +2,58 @@ DEFAULT_PATH_STYLE_ACCESS = "boolean  false"
 DEFAULT_CHUNKED_ENCODING_DISABLED = "boolean  true"
 DEFAULT_PAYLOAD_SIGNING_ENABLED = "boolean  false"
 DEFAULT_ACCELERATE_MODE_ENABLED = "boolean  false"
-def builder():
-    '''public static Builder builder()
-    '''
-def S3ClientOptions():
-    '''public S3ClientOptions()
-    public S3ClientOptions(final S3ClientOptions other)
+def ():
+    '''returns S3ClientOptions\n\n
+    ()\n
+    (final S3ClientOptions other)\n
     '''
 def isPathStyleAccess():
-    '''public boolean isPathStyleAccess()
+    '''returns boolean\n\n
+    isPathStyleAccess()\n
     '''
 def isChunkedEncodingDisabled():
-    '''public boolean isChunkedEncodingDisabled()
+    '''returns boolean\n\n
+    isChunkedEncodingDisabled()\n
     '''
 def isAccelerateModeEnabled():
-    '''public boolean isAccelerateModeEnabled()
+    '''returns boolean\n\n
+    isAccelerateModeEnabled()\n
     '''
 def isPayloadSigningEnabled():
-    '''public boolean isPayloadSigningEnabled()
+    '''returns boolean\n\n
+    isPayloadSigningEnabled()\n
     '''
 def setPathStyleAccess():
-    '''public void setPathStyleAccess(final boolean pathStyleAccess)
-    public Builder setPathStyleAccess(final boolean pathStyleAccess)
+    '''returns Builder\n\n
+    setPathStyleAccess(final boolean pathStyleAccess)\n
+    setPathStyleAccess(final boolean pathStyleAccess)\n
     '''
 def withPathStyleAccess():
-    '''public S3ClientOptions withPathStyleAccess(final boolean pathStyleAccess)
+    '''returns S3ClientOptions\n\n
+    withPathStyleAccess(final boolean pathStyleAccess)\n
     '''
 def setChunkedEncodingDisabled():
-    '''public void setChunkedEncodingDisabled(final boolean chunkedEncodingDisabled)
+    '''returns None\n\n
+    setChunkedEncodingDisabled(final boolean chunkedEncodingDisabled)\n
     '''
 def withChunkedEncodingDisabled():
-    '''public S3ClientOptions withChunkedEncodingDisabled(final boolean chunkedEncodingDisabled)
+    '''returns S3ClientOptions\n\n
+    withChunkedEncodingDisabled(final boolean chunkedEncodingDisabled)\n
     '''
 def disableChunkedEncoding():
-    '''public S3ClientOptions disableChunkedEncoding()
-    public Builder disableChunkedEncoding()
+    '''returns Builder\n\n
+    disableChunkedEncoding()\n
+    disableChunkedEncoding()\n
     '''
 def build():
-    '''public S3ClientOptions build()
+    '''returns S3ClientOptions\n\n
+    build()\n
     '''
 def setAccelerateModeEnabled():
-    '''public Builder setAccelerateModeEnabled(final boolean accelerateModeEnabled)
+    '''returns Builder\n\n
+    setAccelerateModeEnabled(final boolean accelerateModeEnabled)\n
     '''
 def setPayloadSigningEnabled():
-    '''public Builder setPayloadSigningEnabled(final boolean payloadSigningEnabled)
+    '''returns Builder\n\n
+    setPayloadSigningEnabled(final boolean payloadSigningEnabled)\n
     '''

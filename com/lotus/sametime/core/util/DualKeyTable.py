@@ -1,27 +1,36 @@
-def DualKeyTable():
-    '''public DualKeyTable()
+def ():
+    '''returns DualKeyTable\n\n
+    ()\n
     '''
 def put():
-    '''public void put(final Object o, final Object o2)
+    '''returns None\n\n
+    put(final Object o, final Object o2)\n
     '''
 def getValue():
-    '''public Object getValue(final Object key)
+    '''returns Object\n\n
+    getValue(final Object key)\n
     '''
 def getKey():
-    '''public Object getKey(final Object key)
+    '''returns Object\n\n
+    getKey(final Object key)\n
     '''
 def removeKey():
-    '''public Object removeKey(final Object key)
+    '''returns Object\n\n
+    removeKey(final Object key)\n
     '''
 def removeValue():
-    '''public Object removeValue(final Object key)
+    '''returns Object\n\n
+    removeValue(final Object key)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def keys():
-    '''public Enumeration keys()
+    '''returns Enumeration\n\n
+    keys()\n
     '''
 def elements():
-    '''public Enumeration elements()
+    '''returns Enumeration\n\n
+    elements()\n
     '''

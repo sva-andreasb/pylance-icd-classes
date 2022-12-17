@@ -1,6 +1,8 @@
-def PR():
-    '''public PR(final MboSet ms)
+def ():
+    '''returns PR\n\n
+    (final MboSet ms)\n
     '''
 def getStatusHandler():
-    '''public StatusHandler getStatusHandler()
+    '''returns StatusHandler\n\n
+    getStatusHandler()\n
     '''

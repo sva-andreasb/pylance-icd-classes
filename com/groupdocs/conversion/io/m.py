@@ -1,30 +1,36 @@
-def a():
-    '''public static m a(final String s)
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isCaseSensitive():
-    '''public boolean isCaseSensitive()
+    '''returns boolean\n\n
+    isCaseSensitive()\n
     '''
 def checkCompareTo():
-    '''public int checkCompareTo(final String str1, final String str2)
+    '''returns int\n\n
+    checkCompareTo(final String str1, final String str2)\n
     '''
 def checkEquals():
-    '''public boolean checkEquals(final String str1, final String str2)
+    '''returns boolean\n\n
+    checkEquals(final String str1, final String str2)\n
     '''
 def checkStartsWith():
-    '''public boolean checkStartsWith(final String str, final String start)
+    '''returns boolean\n\n
+    checkStartsWith(final String str, final String start)\n
     '''
 def checkEndsWith():
-    '''public boolean checkEndsWith(final String str, final String end)
+    '''returns boolean\n\n
+    checkEndsWith(final String str, final String end)\n
     '''
 def checkIndexOf():
-    '''public int checkIndexOf(final String str, final int strStartIndex, final String search)
+    '''returns int\n\n
+    checkIndexOf(final String str, final int strStartIndex, final String search)\n
     '''
 def checkRegionMatches():
-    '''public boolean checkRegionMatches(final String str, final int strStartIndex, final String search)
+    '''returns boolean\n\n
+    checkRegionMatches(final String str, final int strStartIndex, final String search)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

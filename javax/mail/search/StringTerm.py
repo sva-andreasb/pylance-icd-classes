@@ -1,12 +1,16 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getIgnoreCase():
-    '''public boolean getIgnoreCase()
+    '''returns boolean\n\n
+    getIgnoreCase()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getPattern():
-    '''public String getPattern()
+    '''returns String\n\n
+    getPattern()\n
     '''

@@ -1,197 +1,231 @@
-def now():
-    '''public static LocalTime now()
-    public static LocalTime now(final DateTimeZone dateTimeZone)
-    public static LocalTime now(final Chronology chronology)
-    '''
-def parse():
-    '''public static LocalTime parse(final String s)
-    public static LocalTime parse(final String s, final DateTimeFormatter dateTimeFormatter)
-    '''
-def fromMillisOfDay():
-    '''public static LocalTime fromMillisOfDay(final long n)
-    public static LocalTime fromMillisOfDay(final long n, Chronology withUTC)
-    '''
-def fromCalendarFields():
-    '''public static LocalTime fromCalendarFields(final Calendar calendar)
-    '''
-def fromDateFields():
-    '''public static LocalTime fromDateFields(final Date date)
-    '''
-def LocalTime():
-    '''public LocalTime()
-    public LocalTime(final DateTimeZone dateTimeZone)
-    public LocalTime(final Chronology chronology)
-    public LocalTime(final long n)
-    public LocalTime(final long n, final DateTimeZone dateTimeZone)
-    public LocalTime(final long n, Chronology iChronology)
-    public LocalTime(final Object o)
-    public LocalTime(final Object o, final DateTimeZone dateTimeZone)
-    public LocalTime(final Object o, Chronology chronology)
-    public LocalTime(final int n, final int n2)
-    public LocalTime(final int n, final int n2, final int n3)
-    public LocalTime(final int n, final int n2, final int n3, final int n4)
-    public LocalTime(final int n, final int n2, final int n3, final int n4, Chronology withUTC)
+def ():
+    '''returns LocalTime\n\n
+    ()\n
+    (final DateTimeZone dateTimeZone)\n
+    (final Chronology chronology)\n
+    (final long n)\n
+    (final long n, final DateTimeZone dateTimeZone)\n
+    (final long n, Chronology iChronology)\n
+    (final Object o)\n
+    (final Object o, final DateTimeZone dateTimeZone)\n
+    (final Object o, Chronology chronology)\n
+    (final int n, final int n2)\n
+    (final int n, final int n2, final int n3)\n
+    (final int n, final int n2, final int n3, final int n4)\n
+    (final int n, final int n2, final int n3, final int n4, Chronology withUTC)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getValue():
-    '''public int getValue(final int i)
+    '''returns int\n\n
+    getValue(final int i)\n
     '''
 def get():
-    '''public int get(final DateTimeFieldType obj)
+    '''returns int\n\n
+    get(final DateTimeFieldType obj)\n
     '''
 def isSupported():
-    '''public boolean isSupported(final DateTimeFieldType dateTimeFieldType)
-    public boolean isSupported(final DurationFieldType durationFieldType)
+    '''returns boolean\n\n
+    isSupported(final DateTimeFieldType dateTimeFieldType)\n
+    isSupported(final DurationFieldType durationFieldType)\n
     '''
 def getChronology():
-    '''public Chronology getChronology()
+    '''returns Chronology\n\n
+    getChronology()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final ReadablePartial readablePartial)
+    '''returns int\n\n
+    compareTo(final ReadablePartial readablePartial)\n
     '''
 def withFields():
-    '''public LocalTime withFields(final ReadablePartial readablePartial)
+    '''returns LocalTime\n\n
+    withFields(final ReadablePartial readablePartial)\n
     '''
 def withField():
-    '''public LocalTime withField(final DateTimeFieldType obj, final int n)
+    '''returns LocalTime\n\n
+    withField(final DateTimeFieldType obj, final int n)\n
     '''
 def withFieldAdded():
-    '''public LocalTime withFieldAdded(final DurationFieldType obj, final int n)
+    '''returns LocalTime\n\n
+    withFieldAdded(final DurationFieldType obj, final int n)\n
     '''
 def withPeriodAdded():
-    '''public LocalTime withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''returns LocalTime\n\n
+    withPeriodAdded(final ReadablePeriod readablePeriod, final int n)\n
     '''
 def plus():
-    '''public LocalTime plus(final ReadablePeriod readablePeriod)
+    '''returns LocalTime\n\n
+    plus(final ReadablePeriod readablePeriod)\n
     '''
 def plusHours():
-    '''public LocalTime plusHours(final int n)
+    '''returns LocalTime\n\n
+    plusHours(final int n)\n
     '''
 def plusMinutes():
-    '''public LocalTime plusMinutes(final int n)
+    '''returns LocalTime\n\n
+    plusMinutes(final int n)\n
     '''
 def plusSeconds():
-    '''public LocalTime plusSeconds(final int n)
+    '''returns LocalTime\n\n
+    plusSeconds(final int n)\n
     '''
 def plusMillis():
-    '''public LocalTime plusMillis(final int n)
+    '''returns LocalTime\n\n
+    plusMillis(final int n)\n
     '''
 def minus():
-    '''public LocalTime minus(final ReadablePeriod readablePeriod)
+    '''returns LocalTime\n\n
+    minus(final ReadablePeriod readablePeriod)\n
     '''
 def minusHours():
-    '''public LocalTime minusHours(final int n)
+    '''returns LocalTime\n\n
+    minusHours(final int n)\n
     '''
 def minusMinutes():
-    '''public LocalTime minusMinutes(final int n)
+    '''returns LocalTime\n\n
+    minusMinutes(final int n)\n
     '''
 def minusSeconds():
-    '''public LocalTime minusSeconds(final int n)
+    '''returns LocalTime\n\n
+    minusSeconds(final int n)\n
     '''
 def minusMillis():
-    '''public LocalTime minusMillis(final int n)
+    '''returns LocalTime\n\n
+    minusMillis(final int n)\n
     '''
 def property():
-    '''public Property property(final DateTimeFieldType obj)
+    '''returns Property\n\n
+    property(final DateTimeFieldType obj)\n
     '''
 def getHourOfDay():
-    '''public int getHourOfDay()
+    '''returns int\n\n
+    getHourOfDay()\n
     '''
 def getMinuteOfHour():
-    '''public int getMinuteOfHour()
+    '''returns int\n\n
+    getMinuteOfHour()\n
     '''
 def getSecondOfMinute():
-    '''public int getSecondOfMinute()
+    '''returns int\n\n
+    getSecondOfMinute()\n
     '''
 def getMillisOfSecond():
-    '''public int getMillisOfSecond()
+    '''returns int\n\n
+    getMillisOfSecond()\n
     '''
 def getMillisOfDay():
-    '''public int getMillisOfDay()
+    '''returns int\n\n
+    getMillisOfDay()\n
     '''
 def withHourOfDay():
-    '''public LocalTime withHourOfDay(final int n)
+    '''returns LocalTime\n\n
+    withHourOfDay(final int n)\n
     '''
 def withMinuteOfHour():
-    '''public LocalTime withMinuteOfHour(final int n)
+    '''returns LocalTime\n\n
+    withMinuteOfHour(final int n)\n
     '''
 def withSecondOfMinute():
-    '''public LocalTime withSecondOfMinute(final int n)
+    '''returns LocalTime\n\n
+    withSecondOfMinute(final int n)\n
     '''
 def withMillisOfSecond():
-    '''public LocalTime withMillisOfSecond(final int n)
+    '''returns LocalTime\n\n
+    withMillisOfSecond(final int n)\n
     '''
 def withMillisOfDay():
-    '''public LocalTime withMillisOfDay(final int n)
+    '''returns LocalTime\n\n
+    withMillisOfDay(final int n)\n
     '''
 def hourOfDay():
-    '''public Property hourOfDay()
+    '''returns Property\n\n
+    hourOfDay()\n
     '''
 def minuteOfHour():
-    '''public Property minuteOfHour()
+    '''returns Property\n\n
+    minuteOfHour()\n
     '''
 def secondOfMinute():
-    '''public Property secondOfMinute()
+    '''returns Property\n\n
+    secondOfMinute()\n
     '''
 def millisOfSecond():
-    '''public Property millisOfSecond()
+    '''returns Property\n\n
+    millisOfSecond()\n
     '''
 def millisOfDay():
-    '''public Property millisOfDay()
+    '''returns Property\n\n
+    millisOfDay()\n
     '''
 def toDateTimeToday():
-    '''public DateTime toDateTimeToday()
-    public DateTime toDateTimeToday(final DateTimeZone dateTimeZone)
+    '''returns DateTime\n\n
+    toDateTimeToday()\n
+    toDateTimeToday(final DateTimeZone dateTimeZone)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String s)
-    public String toString(final String s, final Locale locale)
+    '''returns String\n\n
+    toString()\n
+    toString(final String s)\n
+    toString(final String s, final Locale locale)\n
     '''
 def getField():
-    '''public DateTimeField getField()
+    '''returns DateTimeField\n\n
+    getField()\n
     '''
 def getLocalTime():
-    '''public LocalTime getLocalTime()
+    '''returns LocalTime\n\n
+    getLocalTime()\n
     '''
 def addCopy():
-    '''public LocalTime addCopy(final int n)
-    public LocalTime addCopy(final long n)
+    '''returns LocalTime\n\n
+    addCopy(final int n)\n
+    addCopy(final long n)\n
     '''
 def addNoWrapToCopy():
-    '''public LocalTime addNoWrapToCopy(final int n)
+    '''returns LocalTime\n\n
+    addNoWrapToCopy(final int n)\n
     '''
 def addWrapFieldToCopy():
-    '''public LocalTime addWrapFieldToCopy(final int n)
+    '''returns LocalTime\n\n
+    addWrapFieldToCopy(final int n)\n
     '''
 def setCopy():
-    '''public LocalTime setCopy(final int n)
-    public LocalTime setCopy(final String s, final Locale locale)
-    public LocalTime setCopy(final String s)
+    '''returns LocalTime\n\n
+    setCopy(final int n)\n
+    setCopy(final String s, final Locale locale)\n
+    setCopy(final String s)\n
     '''
 def withMaximumValue():
-    '''public LocalTime withMaximumValue()
+    '''returns LocalTime\n\n
+    withMaximumValue()\n
     '''
 def withMinimumValue():
-    '''public LocalTime withMinimumValue()
+    '''returns LocalTime\n\n
+    withMinimumValue()\n
     '''
 def roundFloorCopy():
-    '''public LocalTime roundFloorCopy()
+    '''returns LocalTime\n\n
+    roundFloorCopy()\n
     '''
 def roundCeilingCopy():
-    '''public LocalTime roundCeilingCopy()
+    '''returns LocalTime\n\n
+    roundCeilingCopy()\n
     '''
 def roundHalfFloorCopy():
-    '''public LocalTime roundHalfFloorCopy()
+    '''returns LocalTime\n\n
+    roundHalfFloorCopy()\n
     '''
 def roundHalfCeilingCopy():
-    '''public LocalTime roundHalfCeilingCopy()
+    '''returns LocalTime\n\n
+    roundHalfCeilingCopy()\n
     '''
 def roundHalfEvenCopy():
-    '''public LocalTime roundHalfEvenCopy()
+    '''returns LocalTime\n\n
+    roundHalfEvenCopy()\n
     '''

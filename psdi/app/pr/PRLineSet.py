@@ -1,27 +1,36 @@
-def PRLineSet():
-    '''public PRLineSet(final MboServerInterface ms)
+def ():
+    '''returns PRLineSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getPRLinesForContract():
-    '''public void getPRLinesForContract(final MboRemote mboRemote)
+    '''returns None\n\n
+    getPRLinesForContract(final MboRemote mboRemote)\n
     '''
 def returnIPCParts():
-    '''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''returns None\n\n
+    returnIPCParts(final IpcSelectedPartsSetRemote partset)\n
     '''
 def preValidateIpcBom():
-    '''public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''returns None\n\n
+    preValidateIpcBom(final IpcBomSetRemote bomset)\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def populatePRLineNum():
-    '''public void populatePRLineNum(final MboRemote prLine)
+    '''returns None\n\n
+    populatePRLineNum(final MboRemote prLine)\n
     '''
 def setDBPRLineSet():
-    '''public MboSetRemote setDBPRLineSet(final MboRemote thisPRLine)
+    '''returns MboSetRemote\n\n
+    setDBPRLineSet(final MboRemote thisPRLine)\n
     '''
 def setMaxPRLineSeq():
-    '''public void setMaxPRLineSeq(final int newSeq)
+    '''returns None\n\n
+    setMaxPRLineSeq(final int newSeq)\n
     '''

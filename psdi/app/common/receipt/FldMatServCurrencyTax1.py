@@ -1,6 +1,8 @@
-def FldMatServCurrencyTax1():
-    '''public FldMatServCurrencyTax1(final MboValue mbv)
+def ():
+    '''returns FldMatServCurrencyTax1\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

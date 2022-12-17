@@ -1,10 +1,13 @@
 def stream():
-    '''public AbstractHttp2StreamFrame stream(final Http2FrameStream stream)
-    public Http2FrameStream stream()
+    '''returns Http2FrameStream\n\n
+    stream(final Http2FrameStream stream)\n
+    stream()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

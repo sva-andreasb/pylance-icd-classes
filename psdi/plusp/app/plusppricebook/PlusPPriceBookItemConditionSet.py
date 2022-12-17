@@ -1,3 +1,4 @@
-def PlusPPriceBookItemConditionSet():
-    '''public PlusPPriceBookItemConditionSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPriceBookItemConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''

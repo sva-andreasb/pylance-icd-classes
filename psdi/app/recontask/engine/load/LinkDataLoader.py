@@ -1,18 +1,24 @@
-def LinkDataLoader():
-    '''public LinkDataLoader(final ReconInfo reconInfo, final DataSet dataSet)
+def ():
+    '''returns LinkDataLoader\n\n
+    (final ReconInfo reconInfo, final DataSet dataSet)\n
     '''
 def setTaskFilter():
-    '''public void setTaskFilter(final TaskFilter taskFilter)
+    '''returns None\n\n
+    setTaskFilter(final TaskFilter taskFilter)\n
     '''
 def load():
-    '''public void load()
+    '''returns None\n\n
+    load()\n
     '''
 def setAttributes():
-    '''public void setAttributes(final List<String> attributes)
+    '''returns None\n\n
+    setAttributes(final List<String> attributes)\n
     '''
 def setSpecAttributes():
-    '''public void setSpecAttributes(final List<String> specAttributes)
+    '''returns None\n\n
+    setSpecAttributes(final List<String> specAttributes)\n
     '''
 def getReconValueSet():
-    '''public ReconValueSet getReconValueSet()
+    '''returns ReconValueSet\n\n
+    getReconValueSet()\n
     '''

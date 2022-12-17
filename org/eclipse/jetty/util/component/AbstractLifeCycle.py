@@ -4,55 +4,63 @@ STARTING = "String  \"STARTING\""
 STARTED = "String  \"STARTED\""
 STOPPING = "String  \"STOPPING\""
 RUNNING = "String  \"RUNNING\""
-def AbstractLifeCycle():
-    '''public AbstractLifeCycle()
-    '''
-def start():
-    '''public final void start()
-    '''
-def stop():
-    '''public final void stop()
+def ():
+    '''returns AbstractLifeCycle\n\n
+    ()\n
     '''
 def isRunning():
-    '''public boolean isRunning()
+    '''returns boolean\n\n
+    isRunning()\n
     '''
 def isStarted():
-    '''public boolean isStarted()
+    '''returns boolean\n\n
+    isStarted()\n
     '''
 def isStarting():
-    '''public boolean isStarting()
+    '''returns boolean\n\n
+    isStarting()\n
     '''
 def isStopping():
-    '''public boolean isStopping()
+    '''returns boolean\n\n
+    isStopping()\n
     '''
 def isStopped():
-    '''public boolean isStopped()
+    '''returns boolean\n\n
+    isStopped()\n
     '''
 def isFailed():
-    '''public boolean isFailed()
+    '''returns boolean\n\n
+    isFailed()\n
     '''
 def addLifeCycleListener():
-    '''public void addLifeCycleListener(final Listener listener)
+    '''returns None\n\n
+    addLifeCycleListener(final Listener listener)\n
     '''
 def removeLifeCycleListener():
-    '''public void removeLifeCycleListener(final Listener listener)
+    '''returns None\n\n
+    removeLifeCycleListener(final Listener listener)\n
     '''
 def getState():
-    '''public String getState()
-    public static String getState(final LifeCycle lc)
+    '''returns String\n\n
+    getState()\n
     '''
 def lifeCycleFailure():
-    '''public void lifeCycleFailure(final LifeCycle event, final Throwable cause)
+    '''returns None\n\n
+    lifeCycleFailure(final LifeCycle event, final Throwable cause)\n
     '''
 def lifeCycleStarted():
-    '''public void lifeCycleStarted(final LifeCycle event)
+    '''returns None\n\n
+    lifeCycleStarted(final LifeCycle event)\n
     '''
 def lifeCycleStarting():
-    '''public void lifeCycleStarting(final LifeCycle event)
+    '''returns None\n\n
+    lifeCycleStarting(final LifeCycle event)\n
     '''
 def lifeCycleStopped():
-    '''public void lifeCycleStopped(final LifeCycle event)
+    '''returns None\n\n
+    lifeCycleStopped(final LifeCycle event)\n
     '''
 def lifeCycleStopping():
-    '''public void lifeCycleStopping(final LifeCycle event)
+    '''returns None\n\n
+    lifeCycleStopping(final LifeCycle event)\n
     '''

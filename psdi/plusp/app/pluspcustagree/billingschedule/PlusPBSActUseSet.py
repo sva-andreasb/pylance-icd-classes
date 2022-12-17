@@ -1,3 +1,4 @@
-def PlusPBSActUseSet():
-    '''public PlusPBSActUseSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPBSActUseSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''

@@ -1,12 +1,16 @@
 def taskDataChanged():
-    '''public void taskDataChanged(final AppDeploymentTask task, final AppDeploymentInfo info)
+    '''returns None\n\n
+    taskDataChanged(final AppDeploymentTask task, final AppDeploymentInfo info)\n
     '''
 def afterPrepare():
-    '''public void afterPrepare(final AppDeploymentTask task, final AppDeploymentInfo info)
+    '''returns None\n\n
+    afterPrepare(final AppDeploymentTask task, final AppDeploymentInfo info)\n
     '''
 def beforeComplete():
-    '''public void beforeComplete(final AppDeploymentTask task, final AppDeploymentInfo info)
+    '''returns None\n\n
+    beforeComplete(final AppDeploymentTask task, final AppDeploymentInfo info)\n
     '''
 def afterComplete():
-    '''public void afterComplete(final AppDeploymentTask task, final AppDeploymentInfo info)
+    '''returns None\n\n
+    afterComplete(final AppDeploymentTask task, final AppDeploymentInfo info)\n
     '''

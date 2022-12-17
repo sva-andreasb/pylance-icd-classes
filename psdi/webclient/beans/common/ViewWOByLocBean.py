@@ -1,12 +1,16 @@
-def ViewWOByLocBean():
-    '''public ViewWOByLocBean()
+def ():
+    '''returns ViewWOByLocBean\n\n
+    ()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def doRefresh():
-    '''public int doRefresh()
+    '''returns int\n\n
+    doRefresh()\n
     '''
 def setRefreshHistoryTaskValue():
-    '''public int setRefreshHistoryTaskValue(final String[] historyAndTaskFromViewWOPMs)
+    '''returns int\n\n
+    setRefreshHistoryTaskValue(final String[] historyAndTaskFromViewWOPMs)\n
     '''

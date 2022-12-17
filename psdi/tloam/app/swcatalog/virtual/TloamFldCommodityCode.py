@@ -1,3 +1,4 @@
-def TloamFldCommodityCode():
-    '''public TloamFldCommodityCode(final MboValue mbv)
+def ():
+    '''returns TloamFldCommodityCode\n\n
+    (final MboValue mbv)\n
     '''

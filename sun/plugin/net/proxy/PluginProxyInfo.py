@@ -1,13 +1,17 @@
-def PluginProxyInfo():
-    '''public PluginProxyInfo()
-    public PluginProxyInfo(final String host, final int port, final boolean socks)
+def ():
+    '''returns PluginProxyInfo\n\n
+    ()\n
+    (final String host, final int port, final boolean socks)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def isSocks():
-    '''public boolean isSocks()
+    '''returns boolean\n\n
+    isSocks()\n
     '''

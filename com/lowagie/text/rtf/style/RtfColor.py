@@ -1,35 +1,46 @@
-def RtfColor():
-    '''public RtfColor(final RtfDocument doc, final RtfColor col)
-    public RtfColor(final RtfDocument doc, final Color col)
-    public RtfColor(final RtfDocument doc, final int red, final int green, final int blue)
+def ():
+    '''returns RtfColor\n\n
+    (final RtfDocument doc, final RtfColor col)\n
+    (final RtfDocument doc, final Color col)\n
+    (final RtfDocument doc, final int red, final int green, final int blue)\n
     '''
 def writeDefinition():
-    '''public byte[] writeDefinition()
+    '''returns byte[]\n\n
+    writeDefinition()\n
     '''
 def writeBegin():
-    '''public byte[] writeBegin()
+    '''returns byte[]\n\n
+    writeBegin()\n
     '''
 def writeEnd():
-    '''public byte[] writeEnd()
+    '''returns byte[]\n\n
+    writeEnd()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getBlue():
-    '''public int getBlue()
+    '''returns int\n\n
+    getBlue()\n
     '''
 def getGreen():
-    '''public int getGreen()
+    '''returns int\n\n
+    getGreen()\n
     '''
 def getRed():
-    '''public int getRed()
+    '''returns int\n\n
+    getRed()\n
     '''
 def getColorNumber():
-    '''public int getColorNumber()
+    '''returns int\n\n
+    getColorNumber()\n
     '''
 def setRtfDocument():
-    '''public void setRtfDocument(final RtfDocument doc)
+    '''returns None\n\n
+    setRtfDocument(final RtfDocument doc)\n
     '''

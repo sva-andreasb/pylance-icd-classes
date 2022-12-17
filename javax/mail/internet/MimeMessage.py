@@ -1,188 +1,227 @@
 def getLineCount():
-    '''public int getLineCount()
+    '''returns int\n\n
+    getLineCount()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def saveChanges():
-    '''public void saveChanges()
+    '''returns None\n\n
+    saveChanges()\n
     '''
 def setFrom():
-    '''public void setFrom()
-    public void setFrom(final Address address)
+    '''returns None\n\n
+    setFrom()\n
+    setFrom(final Address address)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getRawInputStream():
-    '''public InputStream getRawInputStream()
+    '''returns InputStream\n\n
+    getRawInputStream()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream os)
-    public void writeTo(final OutputStream os, final String[] ignoreList)
+    '''returns None\n\n
+    writeTo(final OutputStream os)\n
+    writeTo(final OutputStream os, final String[] ignoreList)\n
     '''
 def getContent():
-    '''public Object getContent()
+    '''returns Object\n\n
+    getContent()\n
     '''
 def getContentID():
-    '''public String getContentID()
+    '''returns String\n\n
+    getContentID()\n
     '''
 def getContentMD5():
-    '''public String getContentMD5()
+    '''returns String\n\n
+    getContentMD5()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getDisposition():
-    '''public String getDisposition()
+    '''returns String\n\n
+    getDisposition()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getMessageID():
-    '''public String getMessageID()
+    '''returns String\n\n
+    getMessageID()\n
     '''
 def getSubject():
-    '''public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
     '''
 def getContentLanguage():
-    '''public String[] getContentLanguage()
+    '''returns String[]\n\n
+    getContentLanguage()\n
     '''
 def addHeaderLine():
-    '''public void addHeaderLine(final String line)
+    '''returns None\n\n
+    addHeaderLine(final String line)\n
     '''
 def removeHeader():
-    '''public void removeHeader(final String name)
+    '''returns None\n\n
+    removeHeader(final String name)\n
     '''
 def setContentID():
-    '''public void setContentID(final String cid)
+    '''returns None\n\n
+    setContentID(final String cid)\n
     '''
 def setContentMD5():
-    '''public void setContentMD5(final String md5)
+    '''returns None\n\n
+    setContentMD5(final String md5)\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
-    public void setDescription(final String description, final String charset)
+    '''returns None\n\n
+    setDescription(final String description)\n
+    setDescription(final String description, final String charset)\n
     '''
 def setDisposition():
-    '''public void setDisposition(final String disposition)
+    '''returns None\n\n
+    setDisposition(final String disposition)\n
     '''
 def setFileName():
-    '''public void setFileName(final String filename)
+    '''returns None\n\n
+    setFileName(final String filename)\n
     '''
 def setSubject():
-    '''public void setSubject(final String subject)
-    public void setSubject(final String subject, final String charset)
+    '''returns None\n\n
+    setSubject(final String subject)\n
+    setSubject(final String subject, final String charset)\n
     '''
 def setText():
-    '''public void setText(final String text)
-    public void setText(final String text, final String charset)
+    '''returns None\n\n
+    setText(final String text)\n
+    setText(final String text, final String charset)\n
     '''
 def isMimeType():
-    '''public boolean isMimeType(final String mimeType)
+    '''returns boolean\n\n
+    isMimeType(final String mimeType)\n
     '''
 def setContentLanguage():
-    '''public void setContentLanguage(final String[] languages)
+    '''returns None\n\n
+    setContentLanguage(final String[] languages)\n
     '''
 def getReceivedDate():
-    '''public Date getReceivedDate()
+    '''returns Date\n\n
+    getReceivedDate()\n
     '''
 def getSentDate():
-    '''public Date getSentDate()
+    '''returns Date\n\n
+    getSentDate()\n
     '''
 def setSentDate():
-    '''public void setSentDate(final Date d)
+    '''returns None\n\n
+    setSentDate(final Date d)\n
     '''
 def getAllHeaderLines():
-    '''public Enumeration getAllHeaderLines()
+    '''returns Enumeration\n\n
+    getAllHeaderLines()\n
     '''
 def getAllHeaders():
-    '''public Enumeration getAllHeaders()
-    '''
-def getDataHandler():
-    '''public synchronized DataHandler getDataHandler()
-    '''
-def setDataHandler():
-    '''public synchronized void setDataHandler(final DataHandler dh)
+    '''returns Enumeration\n\n
+    getAllHeaders()\n
     '''
 def getSender():
-    '''public Address getSender()
+    '''returns Address\n\n
+    getSender()\n
     '''
 def getAllRecipients():
-    '''public Address[] getAllRecipients()
+    '''returns Address[]\n\n
+    getAllRecipients()\n
     '''
 def getFrom():
-    '''public Address[] getFrom()
+    '''returns Address[]\n\n
+    getFrom()\n
     '''
 def getReplyTo():
-    '''public Address[] getReplyTo()
+    '''returns Address[]\n\n
+    getReplyTo()\n
     '''
 def setSender():
-    '''public void setSender(final Address address)
+    '''returns None\n\n
+    setSender(final Address address)\n
     '''
 def addFrom():
-    '''public void addFrom(final Address[] addresses)
+    '''returns None\n\n
+    addFrom(final Address[] addresses)\n
     '''
 def setReplyTo():
-    '''public void setReplyTo(final Address[] addresses)
-    '''
-def getFlags():
-    '''public synchronized Flags getFlags()
-    '''
-def setFlags():
-    '''public synchronized void setFlags(final Flags flag, final boolean set)
-    '''
-def isSet():
-    '''public synchronized boolean isSet(final Flags.Flag flag)
+    '''returns None\n\n
+    setReplyTo(final Address[] addresses)\n
     '''
 def reply():
-    '''public Message reply(final boolean replyToAll)
+    '''returns Message\n\n
+    reply(final boolean replyToAll)\n
     '''
 def setContent():
-    '''public void setContent(final Multipart mp)
-    public void setContent(final Object o, final String type)
+    '''returns None\n\n
+    setContent(final Multipart mp)\n
+    setContent(final Object o, final String type)\n
     '''
-def MimeMessage():
-    '''public MimeMessage(final Session session)
-    public MimeMessage(final MimeMessage source)
-    public MimeMessage(final Session session, final InputStream is)
+def ():
+    '''returns MimeMessage\n\n
+    (final Session session)\n
+    (final MimeMessage source)\n
+    (final Session session, final InputStream is)\n
     '''
 def getHeader():
-    '''public String[] getHeader(final String name)
-    public String getHeader(final String name, final String delimiter)
+    '''returns String\n\n
+    getHeader(final String name)\n
+    getHeader(final String name, final String delimiter)\n
     '''
 def addHeader():
-    '''public void addHeader(final String name, final String value)
+    '''returns None\n\n
+    addHeader(final String name, final String value)\n
     '''
 def setHeader():
-    '''public void setHeader(final String name, final String value)
+    '''returns None\n\n
+    setHeader(final String name, final String value)\n
     '''
 def addRecipients():
-    '''public void addRecipients(final Message.RecipientType type, final String addresses)
-    public void addRecipients(final Message.RecipientType type, final Address[] addresses)
+    '''returns None\n\n
+    addRecipients(final Message.RecipientType type, final String addresses)\n
+    addRecipients(final Message.RecipientType type, final Address[] addresses)\n
     '''
 def setRecipients():
-    '''public void setRecipients(final Message.RecipientType type, final String addresses)
-    public void setRecipients(final Message.RecipientType type, final Address[] addresses)
+    '''returns None\n\n
+    setRecipients(final Message.RecipientType type, final String addresses)\n
+    setRecipients(final Message.RecipientType type, final Address[] addresses)\n
     '''
 def getMatchingHeaderLines():
-    '''public Enumeration getMatchingHeaderLines(final String[] names)
+    '''returns Enumeration\n\n
+    getMatchingHeaderLines(final String[] names)\n
     '''
 def getMatchingHeaders():
-    '''public Enumeration getMatchingHeaders(final String[] names)
+    '''returns Enumeration\n\n
+    getMatchingHeaders(final String[] names)\n
     '''
 def getNonMatchingHeaderLines():
-    '''public Enumeration getNonMatchingHeaderLines(final String[] names)
+    '''returns Enumeration\n\n
+    getNonMatchingHeaderLines(final String[] names)\n
     '''
 def getNonMatchingHeaders():
-    '''public Enumeration getNonMatchingHeaders(final String[] names)
+    '''returns Enumeration\n\n
+    getNonMatchingHeaders(final String[] names)\n
     '''
 def getRecipients():
-    '''public Address[] getRecipients(final Message.RecipientType type)
+    '''returns Address[]\n\n
+    getRecipients(final Message.RecipientType type)\n
     '''

@@ -1,16 +1,21 @@
 MIN_MAX_PACKET_SIZE = "int  512"
-def MulticastMaxPacketSize():
-    '''public MulticastMaxPacketSize(final int size)
+def ():
+    '''returns MulticastMaxPacketSize\n\n
+    (final int size)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

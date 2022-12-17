@@ -1,3 +1,4 @@
-def AsyncJobObjSnapSet():
-    '''public AsyncJobObjSnapSet(final MboServerInterface ms)
+def ():
+    '''returns AsyncJobObjSnapSet\n\n
+    (final MboServerInterface ms)\n
     '''

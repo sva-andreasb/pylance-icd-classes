@@ -1,10 +1,9 @@
-def IlvTreemapRendererLegendItem():
-    '''public IlvTreemapRendererLegendItem(final IlvTreemapChartRenderer ilvTreemapChartRenderer)
-    public IlvTreemapRendererLegendItem(final Color a, final IlvTreemapChartRenderer ilvTreemapChartRenderer)
-    '''
-def getColor():
-    '''public final Color getColor()
+def ():
+    '''returns IlvTreemapRendererLegendItem\n\n
+    (final IlvTreemapChartRenderer ilvTreemapChartRenderer)\n
+    (final Color a, final IlvTreemapChartRenderer ilvTreemapChartRenderer)\n
     '''
 def setColor():
-    '''public void setColor(final Color a)
+    '''returns None\n\n
+    setColor(final Color a)\n
     '''

@@ -1,9 +1,12 @@
-def MaxLicHoldTopUsers():
-    '''public MaxLicHoldTopUsers()
+def ():
+    '''returns MaxLicHoldTopUsers\n\n
+    ()\n
     '''
 def checkAndAddUser():
-    '''public void checkAndAddUser(final String userid, final int currUserLoginLength)
+    '''returns None\n\n
+    checkAndAddUser(final String userid, final int currUserLoginLength)\n
     '''
 def getTopUsers():
-    '''public String[] getTopUsers()
+    '''returns String[]\n\n
+    getTopUsers()\n
     '''

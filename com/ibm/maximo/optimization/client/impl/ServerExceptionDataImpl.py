@@ -1,56 +1,70 @@
-def ServerExceptionDataImpl():
-    '''public ServerExceptionDataImpl()
-    public ServerExceptionDataImpl()
+def ():
+    '''returns ServerExceptionDataImpl\n\n
+    ()\n
+    ()\n
     '''
 def getCode():
-    '''public String getCode()
-    public String getCode()
+    '''returns String\n\n
+    getCode()\n
+    getCode()\n
     '''
 def setCode():
-    '''public void setCode(final String code)
-    public void setCode(final String code)
+    '''returns None\n\n
+    setCode(final String code)\n
+    setCode(final String code)\n
     '''
 def getMessage():
-    '''public String getMessage()
-    public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
-    public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
+    setMessage(final String message)\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
-    public String getLocalizedMessage()
+    '''returns String\n\n
+    getLocalizedMessage()\n
+    getLocalizedMessage()\n
     '''
 def setLocalizedMessage():
-    '''public void setLocalizedMessage(final String localizedMessage)
-    public void setLocalizedMessage(final String localizedMessage)
+    '''returns None\n\n
+    setLocalizedMessage(final String localizedMessage)\n
+    setLocalizedMessage(final String localizedMessage)\n
     '''
 def getStacktrace():
-    '''public String getStacktrace()
-    public String getStacktrace()
+    '''returns String\n\n
+    getStacktrace()\n
+    getStacktrace()\n
     '''
 def setStacktrace():
-    '''public void setStacktrace(final Throwable th)
-    public void setStacktrace(final Throwable th)
+    '''returns None\n\n
+    setStacktrace(final Throwable th)\n
+    setStacktrace(final Throwable th)\n
     '''
 def getExceptionclass():
-    '''public String getExceptionclass()
-    public String getExceptionclass()
+    '''returns String\n\n
+    getExceptionclass()\n
+    getExceptionclass()\n
     '''
 def setExceptionclass():
-    '''public void setExceptionclass(final String exclass)
-    public void setExceptionclass(final String exclass)
+    '''returns None\n\n
+    setExceptionclass(final String exclass)\n
+    setExceptionclass(final String exclass)\n
     '''
 def getParameters():
-    '''public List<String> getParameters()
-    public List<String> getParameters()
+    '''returns List<String>\n\n
+    getParameters()\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final Object[] parameters)
-    public void setParameters(final Object[] parameters)
+    '''returns None\n\n
+    setParameters(final Object[] parameters)\n
+    setParameters(final Object[] parameters)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

@@ -1,12 +1,16 @@
-def InvitationRequest():
-    '''public InvitationRequest(final EntityJid inviter, final EntityBareJid room, final String reason)
+def ():
+    '''returns InvitationRequest\n\n
+    (final EntityJid inviter, final EntityBareJid room, final String reason)\n
     '''
 def getInviter():
-    '''public EntityJid getInviter()
+    '''returns EntityJid\n\n
+    getInviter()\n
     '''
 def getRoom():
-    '''public EntityBareJid getRoom()
+    '''returns EntityBareJid\n\n
+    getRoom()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''

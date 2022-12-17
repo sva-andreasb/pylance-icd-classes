@@ -1,9 +1,12 @@
-def AssetReserveBean():
-    '''public AssetReserveBean()
+def ():
+    '''returns AssetReserveBean\n\n
+    ()\n
     '''
 def getReservedKey():
-    '''public String getReservedKey()
+    '''returns String\n\n
+    getReservedKey()\n
     '''
 def getReservedValue():
-    '''public Object getReservedValue()
+    '''returns Object\n\n
+    getReservedValue()\n
     '''

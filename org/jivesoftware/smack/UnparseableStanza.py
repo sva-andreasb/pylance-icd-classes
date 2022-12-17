@@ -1,6 +1,8 @@
 def getParsingException():
-    '''public Exception getParsingException()
+    '''returns Exception\n\n
+    getParsingException()\n
     '''
 def getContent():
-    '''public CharSequence getContent()
+    '''returns CharSequence\n\n
+    getContent()\n
     '''

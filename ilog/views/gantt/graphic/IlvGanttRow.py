@@ -1,79 +1,100 @@
 def getIdentifier():
-    '''public Object getIdentifier()
+    '''returns Object\n\n
+    getIdentifier()\n
     '''
 def getTimeConverter():
-    '''public IlvTimeConverter getTimeConverter()
+    '''returns IlvTimeConverter\n\n
+    getTimeConverter()\n
     '''
 def getActivityGraphicCount():
-    '''public int getActivityGraphicCount()
+    '''returns int\n\n
+    getActivityGraphicCount()\n
     '''
 def getActivityGraphic():
-    '''public IlvActivityGraphic getActivityGraphic(final int n)
-    public IlvActivityGraphic getActivityGraphic(final IlvActivity ilvActivity)
-    public IlvActivityGraphic getActivityGraphic(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns IlvActivityGraphic\n\n
+    getActivityGraphic(final int n)\n
+    getActivityGraphic(final IlvActivity ilvActivity)\n
+    getActivityGraphic(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def getActivityGraphics():
-    '''public IlvActivityGraphic[] getActivityGraphics()
+    '''returns IlvActivityGraphic[]\n\n
+    getActivityGraphics()\n
     '''
 def getReservationGraphic():
-    '''public IlvReservationGraphic getReservationGraphic(final IlvReservation obj)
+    '''returns IlvReservationGraphic\n\n
+    getReservationGraphic(final IlvReservation obj)\n
     '''
 def getActivityGraphicIndex():
-    '''public int getActivityGraphicIndex(final IlvActivityGraphic ilvActivityGraphic)
+    '''returns int\n\n
+    getActivityGraphicIndex(final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def setActivityGraphicIndex():
-    '''public void setActivityGraphicIndex(final IlvActivityGraphic ilvActivityGraphic, final int n)
-    '''
-def getActivityLayout():
-    '''public final IlvActivityLayout getActivityLayout()
+    '''returns None\n\n
+    setActivityGraphicIndex(final IlvActivityGraphic ilvActivityGraphic, final int n)\n
     '''
 def setActivityLayout():
-    '''public void setActivityLayout(final IlvActivityLayout i)
+    '''returns None\n\n
+    setActivityLayout(final IlvActivityLayout i)\n
     '''
 def getTop():
-    '''public float getTop()
+    '''returns float\n\n
+    getTop()\n
     '''
 def getBottom():
-    '''public float getBottom()
+    '''returns float\n\n
+    getBottom()\n
     '''
 def getHeight():
-    '''public float getHeight()
+    '''returns float\n\n
+    getHeight()\n
     '''
 def contains():
-    '''public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def add():
-    '''public void add(final IlvActivityGraphic ilvActivityGraphic)
+    '''returns None\n\n
+    add(final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def remove():
-    '''public boolean remove(final IlvActivityGraphic ilvActivityGraphic)
+    '''returns boolean\n\n
+    remove(final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def move():
-    '''public void move(final IlvActivityGraphic ilvActivityGraphic, final int a)
+    '''returns None\n\n
+    move(final IlvActivityGraphic ilvActivityGraphic, final int a)\n
     '''
 def set():
-    '''public IlvActivityGraphic set(final int n, final IlvActivityGraphic ilvActivityGraphic)
+    '''returns IlvActivityGraphic\n\n
+    set(final int n, final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def iterator():
-    '''public Iterator iterator(final IlvActivity ilvActivity)
-    public Iterator<IlvActivityGraphic> iterator()
+    '''returns Iterator<IlvActivityGraphic>\n\n
+    iterator(final IlvActivity ilvActivity)\n
+    iterator()\n
     '''
 def get():
-    '''public IlvActivityGraphic get(final IlvActivity ilvActivity)
-    public IlvActivityGraphic get(final int n)
+    '''returns IlvActivityGraphic\n\n
+    get(final IlvActivity ilvActivity)\n
+    get(final int n)\n
     '''
 def indexOf():
-    '''public int indexOf(final IlvActivityGraphic ilvActivityGraphic)
+    '''returns int\n\n
+    indexOf(final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def toArray():
-    '''public IlvActivityGraphic[] toArray(final IlvActivityGraphic[] array)
+    '''returns IlvActivityGraphic[]\n\n
+    toArray(final IlvActivityGraphic[] array)\n
     '''

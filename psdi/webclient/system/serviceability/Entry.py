@@ -1,3 +1,4 @@
 def getTimestamp():
-    '''public String getTimestamp()
+    '''returns String\n\n
+    getTimestamp()\n
     '''

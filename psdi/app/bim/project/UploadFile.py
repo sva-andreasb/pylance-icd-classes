@@ -1,3 +1,4 @@
-def UploadFile():
-    '''public UploadFile(final BIMUploadRemote uploadMbo)
+def ():
+    '''returns UploadFile\n\n
+    (final BIMUploadRemote uploadMbo)\n
     '''

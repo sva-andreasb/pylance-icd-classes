@@ -1,34 +1,29 @@
-def PluginDelegateHttpsURLConnection():
-    '''public PluginDelegateHttpsURLConnection(final URL url, final Handler handler, final HttpsURLConnection httpsURLConnection)
-    '''
-def connect():
-    '''public synchronized void connect()
-    '''
-def disconnect():
-    '''public synchronized void disconnect()
+def ():
+    '''returns PluginDelegateHttpsURLConnection\n\n
+    (final URL url, final Handler handler, final HttpsURLConnection httpsURLConnection)\n
     '''
 def checkPermission():
-    '''public void checkPermission()
+    '''returns None\n\n
+    checkPermission()\n
     '''
 def connectWithCache():
-    '''public void connectWithCache()
+    '''returns None\n\n
+    connectWithCache()\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
     '''
 def getHeaderField():
-    '''public String getHeaderField(final String s)
+    '''returns String\n\n
+    getHeaderField(final String s)\n
     '''
 def connectSetup():
-    '''public void connectSetup()
-    '''
-def getInputStream():
-    '''public synchronized InputStream getInputStream()
+    '''returns None\n\n
+    connectSetup()\n
     '''
 def usingProxy():
-    '''public boolean usingProxy()
-    '''
-def checkCookieHeader():
-    '''public synchronized void checkCookieHeader()
+    '''returns boolean\n\n
+    usingProxy()\n
     '''

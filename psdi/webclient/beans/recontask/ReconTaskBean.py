@@ -1,3 +1,4 @@
 def TLOAMADRT():
-    '''public int TLOAMADRT()
+    '''returns int\n\n
+    TLOAMADRT()\n
     '''

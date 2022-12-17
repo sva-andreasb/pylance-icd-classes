@@ -1,7 +1,9 @@
-def DefaultConnectionFactory():
-    '''public DefaultConnectionFactory()
-    public DefaultConnectionFactory(final Proxy proxy)
+def ():
+    '''returns DefaultConnectionFactory\n\n
+    ()\n
+    (final Proxy proxy)\n
     '''
 def openConnection():
-    '''public HttpURLConnection openConnection(final URL url)
+    '''returns HttpURLConnection\n\n
+    openConnection(final URL url)\n
     '''

@@ -12,12 +12,3 @@ AGGREGATION_FUNCTION_MIN = "String  \"Minimum\""
 AGGREGATION_FUNCTION_MAX = "String  \"Maximum\""
 AGGREGATION_FUNCTION_MODE = "String  \"Mode\""
 AGGREGATION_FUNCTION_MEDIAN = "String  \"Median\""
-def isValidDataType():
-    '''public static boolean isValidDataType(final String functionName, final MboValueInfo mvi)
-    '''
-def getReturnType():
-    '''public static String getReturnType(final String functionName, final MboValueInfo mvi)
-    '''
-def getBirtAggregationFunction():
-    '''public static String getBirtAggregationFunction(final String function)
-    '''

@@ -1,3 +1,4 @@
-def IncidentTotalByStatus():
-    '''public IncidentTotalByStatus(final MboSet ms)
+def ():
+    '''returns IncidentTotalByStatus\n\n
+    (final MboSet ms)\n
     '''

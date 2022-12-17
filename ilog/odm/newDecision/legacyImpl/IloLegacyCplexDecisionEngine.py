@@ -1,46 +1,58 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloLegacyCplexDecisionEngine():
-    '''public IloLegacyCplexDecisionEngine(final IloOptimDesc desc, final IloScenario scenario)
+def ():
+    '''returns IloOplControllerFactory\n\n
+    (final IloOptimDesc desc, final IloScenario scenario)\n
+    (final IloCplex cplex)\n
     '''
 def notifyChanged():
-    '''public void notifyChanged(final Object source)
+    '''returns None\n\n
+    notifyChanged(final Object source)\n
     '''
 def getModeler():
-    '''public IloModeler getModeler()
+    '''returns IloModeler\n\n
+    getModeler()\n
     '''
 def generateRequirementsPreview():
-    '''public IloTable generateRequirementsPreview(final boolean solve)
+    '''returns IloTable\n\n
+    generateRequirementsPreview(final boolean solve)\n
     '''
 def makeModelAndEngine():
-    '''public IloOplModel makeModelAndEngine(final IloOplFactory factory, final IloOplModelDefinition def)
+    '''returns IloOplModel\n\n
+    makeModelAndEngine(final IloOplFactory factory, final IloOplModelDefinition def)\n
     '''
 def getMappingAccessor():
-    '''public IloOplMappingAccessor getMappingAccessor()
+    '''returns IloOplMappingAccessor\n\n
+    getMappingAccessor()\n
     '''
 def getCplexController():
-    '''public IloOplCplexController getCplexController()
+    '''returns IloOplCplexController\n\n
+    getCplexController()\n
     '''
 def runEngine():
-    '''public boolean runEngine()
+    '''returns boolean\n\n
+    runEngine()\n
     '''
 def setupScenarioInfo():
-    '''public void setupScenarioInfo(final IloScenarioInfo info, final IloScenario scenario)
+    '''returns None\n\n
+    setupScenarioInfo(final IloScenarioInfo info, final IloScenario scenario)\n
     '''
 def freeMemory():
-    '''public void freeMemory()
+    '''returns None\n\n
+    freeMemory()\n
     '''
 def postProcessResult():
-    '''public void postProcessResult()
+    '''returns None\n\n
+    postProcessResult()\n
     '''
 def getValueAccessor():
-    '''public IloValueAccessor getValueAccessor()
+    '''returns IloValueAccessor\n\n
+    getValueAccessor()\n
     '''
 def getCplex():
-    '''public IloCplex getCplex()
+    '''returns IloCplex\n\n
+    getCplex()\n
     '''
 def getObjectiveValue():
-    '''public double getObjectiveValue()
-    '''
-def IloOplControllerFactory():
-    '''public IloOplControllerFactory(final IloCplex cplex)
+    '''returns double\n\n
+    getObjectiveValue()\n
     '''

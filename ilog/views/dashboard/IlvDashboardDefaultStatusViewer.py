@@ -1,15 +1,20 @@
-def IlvDashboardDefaultStatusViewer():
-    '''public IlvDashboardDefaultStatusViewer(final IlvDashboardEditor ilvDashboardEditor)
+def ():
+    '''returns IlvDashboardDefaultStatusViewer\n\n
+    (final IlvDashboardEditor ilvDashboardEditor)\n
     '''
 def showStatus():
-    '''public void showStatus(final String s)
+    '''returns None\n\n
+    showStatus(final String s)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def publish():
-    '''public void publish(final LogRecord logRecord)
+    '''returns None\n\n
+    publish(final LogRecord logRecord)\n
     '''

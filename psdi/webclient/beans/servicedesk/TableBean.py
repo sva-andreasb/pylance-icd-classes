@@ -1,18 +1,16 @@
 def setupBean():
-    '''public void setupBean(final SessionContext sc)
+    '''returns None\n\n
+    setupBean(final SessionContext sc)\n
     '''
 def updateClassstructure():
-    '''public void updateClassstructure(final String hierarchypath)
+    '''returns None\n\n
+    updateClassstructure(final String hierarchypath)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
-    '''
-def getQbe():
-    '''public synchronized String getQbe(final String attribute)
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
-    '''
-def restoreSavedQbeSettings():
-    '''public synchronized void restoreSavedQbeSettings()
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''

@@ -1,45 +1,59 @@
-def SafetyPlan():
-    '''public SafetyPlan(final MboSet ms)
+def ():
+    '''returns SafetyPlan\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def associateHazardToSafetyPlan():
-    '''public MboSetRemote associateHazardToSafetyPlan(MboSetRemote spwset, final String hazardid, final String relatedassetnum, final String relatedlocation)
-    public void associateHazardToSafetyPlan(final MboRemote spw, final MboRemote spRelatedAsset, final MboSetRemote hazardSet)
-    public void associateHazardToSafetyPlan(final MboSetRemote safetyLexiconSet)
-    public void associateHazardToSafetyPlan(final MboRemote spw, final MboSetRemote safetyLexiconSet)
+    '''returns None\n\n
+    associateHazardToSafetyPlan(MboSetRemote spwset, final String hazardid, final String relatedassetnum, final String relatedlocation)\n
+    associateHazardToSafetyPlan(final MboRemote spw, final MboRemote spRelatedAsset, final MboSetRemote hazardSet)\n
+    associateHazardToSafetyPlan(final MboSetRemote safetyLexiconSet)\n
+    associateHazardToSafetyPlan(final MboRemote spw, final MboSetRemote safetyLexiconSet)\n
     '''
 def removeHazardFromSafetyPlan():
-    '''public MboSetRemote removeHazardFromSafetyPlan(MboSetRemote spwset, final String hazardid, final String relatedassetnum, final String relatedlocation)
+    '''returns MboSetRemote\n\n
+    removeHazardFromSafetyPlan(MboSetRemote spwset, final String hazardid, final String relatedassetnum, final String relatedlocation)\n
     '''
 def associateTagOutToSafetyPlan():
-    '''public MboSetRemote associateTagOutToSafetyPlan(MboSetRemote spwset, final String hazardid, final String tagoutid, final String relatedassetnum, final String relatedlocation)
+    '''returns MboSetRemote\n\n
+    associateTagOutToSafetyPlan(MboSetRemote spwset, final String hazardid, final String tagoutid, final String relatedassetnum, final String relatedlocation)\n
     '''
 def removeTagOutFromSafetyPlan():
-    '''public MboSetRemote removeTagOutFromSafetyPlan(MboSetRemote spwset, final String hazardid, final String tagoutid, final String relatedassetnum, final String relatedlocation)
+    '''returns MboSetRemote\n\n
+    removeTagOutFromSafetyPlan(MboSetRemote spwset, final String hazardid, final String tagoutid, final String relatedassetnum, final String relatedlocation)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''

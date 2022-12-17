@@ -1,6 +1,8 @@
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def refreshTree():
-    '''public int refreshTree()
+    '''returns int\n\n
+    refreshTree()\n
     '''

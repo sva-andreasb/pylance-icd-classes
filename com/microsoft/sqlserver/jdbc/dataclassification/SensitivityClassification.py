@@ -1,12 +1,16 @@
-def SensitivityClassification():
-    '''public SensitivityClassification(final List<Label> labels, final List<InformationType> informationTypes, final List<ColumnSensitivity> columnSensitivity)
+def ():
+    '''returns SensitivityClassification\n\n
+    (final List<Label> labels, final List<InformationType> informationTypes, final List<ColumnSensitivity> columnSensitivity)\n
     '''
 def getLabels():
-    '''public List<Label> getLabels()
+    '''returns List<Label>\n\n
+    getLabels()\n
     '''
 def getInformationTypes():
-    '''public List<InformationType> getInformationTypes()
+    '''returns List<InformationType>\n\n
+    getInformationTypes()\n
     '''
 def getColumnSensitivities():
-    '''public List<ColumnSensitivity> getColumnSensitivities()
+    '''returns List<ColumnSensitivity>\n\n
+    getColumnSensitivities()\n
     '''

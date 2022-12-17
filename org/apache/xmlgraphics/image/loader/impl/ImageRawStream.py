@@ -1,38 +1,41 @@
-def ImageRawStream():
-    '''public ImageRawStream(final ImageInfo info, final ImageFlavor flavor, final InputStreamFactory streamFactory)
-    public ImageRawStream(final ImageInfo info, final ImageFlavor flavor, final InputStream in)
+def ():
+    '''returns ByteArrayStreamFactory\n\n
+    (final ImageInfo info, final ImageFlavor flavor, final InputStreamFactory streamFactory)\n
+    (final ImageInfo info, final ImageFlavor flavor, final InputStream in)\n
+    (final InputStream in)\n
+    (final byte[] data)\n
     '''
 def getFlavor():
-    '''public ImageFlavor getFlavor()
+    '''returns ImageFlavor\n\n
+    getFlavor()\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def isCacheable():
-    '''public boolean isCacheable()
+    '''returns boolean\n\n
+    isCacheable()\n
     '''
 def setInputStreamFactory():
-    '''public void setInputStreamFactory(final InputStreamFactory factory)
+    '''returns None\n\n
+    setInputStreamFactory(final InputStreamFactory factory)\n
     '''
 def createInputStream():
-    '''public InputStream createInputStream()
-    public synchronized InputStream createInputStream()
-    public InputStream createInputStream()
+    '''returns InputStream\n\n
+    createInputStream()\n
+    createInputStream()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
-    '''
-def SingleStreamFactory():
-    '''public SingleStreamFactory(final InputStream in)
-    '''
-def close():
-    '''public synchronized void close()
-    public void close()
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def isUsedOnceOnly():
-    '''public boolean isUsedOnceOnly()
-    public boolean isUsedOnceOnly()
+    '''returns boolean\n\n
+    isUsedOnceOnly()\n
+    isUsedOnceOnly()\n
     '''
-def ByteArrayStreamFactory():
-    '''public ByteArrayStreamFactory(final byte[] data)
+def close():
+    '''returns None\n\n
+    close()\n
     '''

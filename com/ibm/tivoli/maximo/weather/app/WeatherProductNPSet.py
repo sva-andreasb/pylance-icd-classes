@@ -1,9 +1,12 @@
-def WeatherProductNPSet():
-    '''public WeatherProductNPSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherProductNPSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def fillNewProducts():
-    '''public void fillNewProducts(final MboSetRemote targetSet)
+    '''returns None\n\n
+    fillNewProducts(final MboSetRemote targetSet)\n
     '''
 def apply():
-    '''public void apply(final MboSetRemote parent, final String groupName)
+    '''returns None\n\n
+    apply(final MboSetRemote parent, final String groupName)\n
     '''

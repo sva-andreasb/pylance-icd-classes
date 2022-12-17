@@ -1,30 +1,40 @@
-def MaxIntObjectCols():
-    '''public MaxIntObjectCols(final MboSet ms)
+def ():
+    '''returns MaxIntObjectCols\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def isExclude():
-    '''public boolean isExclude()
+    '''returns boolean\n\n
+    isExclude()\n
     '''
 def isNone():
-    '''public boolean isNone()
+    '''returns boolean\n\n
+    isNone()\n
     '''
 def isNonPersistent():
-    '''public boolean isNonPersistent()
+    '''returns boolean\n\n
+    isNonPersistent()\n
     '''
 def isRestrictSetting():
-    '''public boolean isRestrictSetting()
+    '''returns boolean\n\n
+    isRestrictSetting()\n
     '''

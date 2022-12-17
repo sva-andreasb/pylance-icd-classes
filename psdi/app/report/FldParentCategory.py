@@ -1,6 +1,8 @@
-def FldParentCategory():
-    '''public FldParentCategory(final MboValue mbv)
+def ():
+    '''returns FldParentCategory\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

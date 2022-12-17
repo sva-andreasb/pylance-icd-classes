@@ -1,6 +1,8 @@
-def ComparisonNode():
-    '''public ComparisonNode(final TreeNode oper1, final String operation, final TreeNode oper2)
+def ():
+    '''returns ComparisonNode\n\n
+    (final TreeNode oper1, final String operation, final TreeNode oper2)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final MboRemote mbo)\n
     '''

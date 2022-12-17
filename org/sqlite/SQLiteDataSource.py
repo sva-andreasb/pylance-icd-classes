@@ -1,128 +1,166 @@
-def SQLiteDataSource():
-    '''public SQLiteDataSource()
-    public SQLiteDataSource(final SQLiteConfig config)
+def ():
+    '''returns SQLiteDataSource\n\n
+    ()\n
+    (final SQLiteConfig config)\n
     '''
 def setConfig():
-    '''public void setConfig(final SQLiteConfig config)
+    '''returns None\n\n
+    setConfig(final SQLiteConfig config)\n
     '''
 def getConfig():
-    '''public SQLiteConfig getConfig()
+    '''returns SQLiteConfig\n\n
+    getConfig()\n
     '''
 def setUrl():
-    '''public void setUrl(final String url)
+    '''returns None\n\n
+    setUrl(final String url)\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def setDatabaseName():
-    '''public void setDatabaseName(final String databaseName)
+    '''returns None\n\n
+    setDatabaseName(final String databaseName)\n
     '''
 def getDatabaseName():
-    '''public String getDatabaseName()
+    '''returns String\n\n
+    getDatabaseName()\n
     '''
 def setSharedCache():
-    '''public void setSharedCache(final boolean enable)
+    '''returns None\n\n
+    setSharedCache(final boolean enable)\n
     '''
 def setLoadExtension():
-    '''public void setLoadExtension(final boolean enable)
+    '''returns None\n\n
+    setLoadExtension(final boolean enable)\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean readOnly)
+    '''returns None\n\n
+    setReadOnly(final boolean readOnly)\n
     '''
 def setCacheSize():
-    '''public void setCacheSize(final int numberOfPages)
+    '''returns None\n\n
+    setCacheSize(final int numberOfPages)\n
     '''
 def setCaseSensitiveLike():
-    '''public void setCaseSensitiveLike(final boolean enable)
+    '''returns None\n\n
+    setCaseSensitiveLike(final boolean enable)\n
     '''
 def setCountChanges():
-    '''public void setCountChanges(final boolean enable)
+    '''returns None\n\n
+    setCountChanges(final boolean enable)\n
     '''
 def setDefaultCacheSize():
-    '''public void setDefaultCacheSize(final int numberOfPages)
+    '''returns None\n\n
+    setDefaultCacheSize(final int numberOfPages)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def setEnforceForeignKeys():
-    '''public void setEnforceForeignKeys(final boolean enforce)
+    '''returns None\n\n
+    setEnforceForeignKeys(final boolean enforce)\n
     '''
 def setFullColumnNames():
-    '''public void setFullColumnNames(final boolean enable)
+    '''returns None\n\n
+    setFullColumnNames(final boolean enable)\n
     '''
 def setFullSync():
-    '''public void setFullSync(final boolean enable)
+    '''returns None\n\n
+    setFullSync(final boolean enable)\n
     '''
 def setIncrementalVacuum():
-    '''public void setIncrementalVacuum(final int numberOfPagesToBeRemoved)
+    '''returns None\n\n
+    setIncrementalVacuum(final int numberOfPagesToBeRemoved)\n
     '''
 def setJournalMode():
-    '''public void setJournalMode(final String mode)
+    '''returns None\n\n
+    setJournalMode(final String mode)\n
     '''
 def setJournalSizeLimit():
-    '''public void setJournalSizeLimit(final int limit)
+    '''returns None\n\n
+    setJournalSizeLimit(final int limit)\n
     '''
 def setLegacyFileFormat():
-    '''public void setLegacyFileFormat(final boolean use)
+    '''returns None\n\n
+    setLegacyFileFormat(final boolean use)\n
     '''
 def setLockingMode():
-    '''public void setLockingMode(final String mode)
+    '''returns None\n\n
+    setLockingMode(final String mode)\n
     '''
 def setPageSize():
-    '''public void setPageSize(final int numBytes)
+    '''returns None\n\n
+    setPageSize(final int numBytes)\n
     '''
 def setMaxPageCount():
-    '''public void setMaxPageCount(final int numPages)
+    '''returns None\n\n
+    setMaxPageCount(final int numPages)\n
     '''
 def setReadUncommited():
-    '''public void setReadUncommited(final boolean useReadUncommitedIsolationMode)
+    '''returns None\n\n
+    setReadUncommited(final boolean useReadUncommitedIsolationMode)\n
     '''
 def setRecursiveTriggers():
-    '''public void setRecursiveTriggers(final boolean enable)
+    '''returns None\n\n
+    setRecursiveTriggers(final boolean enable)\n
     '''
 def setReverseUnorderedSelects():
-    '''public void setReverseUnorderedSelects(final boolean enable)
+    '''returns None\n\n
+    setReverseUnorderedSelects(final boolean enable)\n
     '''
 def setShortColumnNames():
-    '''public void setShortColumnNames(final boolean enable)
+    '''returns None\n\n
+    setShortColumnNames(final boolean enable)\n
     '''
 def setSynchronous():
-    '''public void setSynchronous(final String mode)
+    '''returns None\n\n
+    setSynchronous(final String mode)\n
     '''
 def setTempStore():
-    '''public void setTempStore(final String storeType)
+    '''returns None\n\n
+    setTempStore(final String storeType)\n
     '''
 def setTempStoreDirectory():
-    '''public void setTempStoreDirectory(final String directoryName)
+    '''returns None\n\n
+    setTempStoreDirectory(final String directoryName)\n
     '''
 def setTransactionMode():
-    '''public void setTransactionMode(final String transactionMode)
+    '''returns None\n\n
+    setTransactionMode(final String transactionMode)\n
     '''
 def setUserVersion():
-    '''public void setUserVersion(final int version)
+    '''returns None\n\n
+    setUserVersion(final int version)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
-    public SQLiteConnection getConnection(final String username, final String password)
+    '''returns SQLiteConnection\n\n
+    getConnection()\n
+    getConnection(final String username, final String password)\n
     '''
 def getLogWriter():
-    '''public PrintWriter getLogWriter()
+    '''returns PrintWriter\n\n
+    getLogWriter()\n
     '''
 def getLoginTimeout():
-    '''public int getLoginTimeout()
+    '''returns int\n\n
+    getLoginTimeout()\n
     '''
 def getParentLogger():
-    '''public Logger getParentLogger()
+    '''returns Logger\n\n
+    getParentLogger()\n
     '''
 def setLogWriter():
-    '''public void setLogWriter(final PrintWriter out)
+    '''returns None\n\n
+    setLogWriter(final PrintWriter out)\n
     '''
 def setLoginTimeout():
-    '''public void setLoginTimeout(final int seconds)
+    '''returns None\n\n
+    setLoginTimeout(final int seconds)\n
     '''
 def isWrapperFor():
-    '''public boolean isWrapperFor(final Class<?> iface)
-    '''
-def unwrap():
-    '''public <T> T unwrap(final Class<T> iface)
+    '''returns boolean\n\n
+    isWrapperFor(final Class<?> iface)\n
     '''

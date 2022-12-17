@@ -1,9 +1,12 @@
-def ContractFromRFQ():
-    '''public ContractFromRFQ(final MboSet ms)
+def ():
+    '''returns ContractFromRFQ\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setContractAutoKey():
-    '''public void setContractAutoKey()
+    '''returns None\n\n
+    setContractAutoKey()\n
     '''

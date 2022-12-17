@@ -1,6 +1,8 @@
-def AndQuery():
-    '''public AndQuery(final List<SrndQuery> queries, final boolean inf, final String opName)
+def ():
+    '''returns AndQuery\n\n
+    (final List<SrndQuery> queries, final boolean inf, final String opName)\n
     '''
 def makeLuceneQueryFieldNoBoost():
-    '''public Query makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)
+    '''returns Query\n\n
+    makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)\n
     '''

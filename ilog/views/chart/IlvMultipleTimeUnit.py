@@ -1,20 +1,26 @@
-def IlvMultipleTimeUnit():
-    '''public IlvMultipleTimeUnit(final IlvTimeUnit ilvTimeUnit, final int n)
-    public IlvMultipleTimeUnit(final IlvTimeUnit ilvTimeUnit, final int n, final Date date)
+def ():
+    '''returns IlvMultipleTimeUnit\n\n
+    (final IlvTimeUnit ilvTimeUnit, final int n)\n
+    (final IlvTimeUnit ilvTimeUnit, final int n, final Date date)\n
     '''
 def previousUnitTime():
-    '''public Calendar previousUnitTime(Calendar previousUnitTime)
+    '''returns Calendar\n\n
+    previousUnitTime(Calendar previousUnitTime)\n
     '''
 def incrementTime():
-    '''public Calendar incrementTime(final Calendar calendar)
+    '''returns Calendar\n\n
+    incrementTime(final Calendar calendar)\n
     '''
 def getMillis():
-    '''public double getMillis()
+    '''returns double\n\n
+    getMillis()\n
     '''
 def getFormatString():
-    '''public String getFormatString()
-    public String getFormatString(final Locale locale)
+    '''returns String\n\n
+    getFormatString()\n
+    getFormatString(final Locale locale)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

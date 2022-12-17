@@ -1,102 +1,136 @@
 def getDiskImage():
-    '''public Image getDiskImage()
+    '''returns Image\n\n
+    getDiskImage()\n
     '''
 def setDiskImage():
-    '''public void setDiskImage(final Image diskImage)
+    '''returns None\n\n
+    setDiskImage(final Image diskImage)\n
     '''
 def getGroup():
-    '''public Group getGroup()
+    '''returns Group\n\n
+    getGroup()\n
     '''
 def setGroup():
-    '''public void setGroup(final Group group)
+    '''returns None\n\n
+    setGroup(final Group group)\n
     '''
 def getDevice():
-    '''public String getDevice()
+    '''returns String\n\n
+    getDevice()\n
     '''
 def setDevice():
-    '''public void setDevice(final String device)
+    '''returns None\n\n
+    setDevice(final String device)\n
     '''
 def isDeviceSpecified():
-    '''public boolean isDeviceSpecified()
+    '''returns boolean\n\n
+    isDeviceSpecified()\n
     '''
 def unsetDevice():
-    '''public void unsetDevice()
+    '''returns None\n\n
+    unsetDevice()\n
     '''
 def getDiskImageId():
-    '''public Long getDiskImageId()
+    '''returns Long\n\n
+    getDiskImageId()\n
     '''
 def setDiskImageId():
-    '''public void setDiskImageId(final Long diskImageId)
+    '''returns None\n\n
+    setDiskImageId(final Long diskImageId)\n
     '''
 def isDiskImageIdSpecified():
-    '''public boolean isDiskImageIdSpecified()
+    '''returns boolean\n\n
+    isDiskImageIdSpecified()\n
     '''
 def unsetDiskImageId():
-    '''public void unsetDiskImageId()
+    '''returns None\n\n
+    unsetDiskImageId()\n
     '''
 def getDiskSpace():
-    '''public BigDecimal getDiskSpace()
+    '''returns BigDecimal\n\n
+    getDiskSpace()\n
     '''
 def setDiskSpace():
-    '''public void setDiskSpace(final BigDecimal diskSpace)
+    '''returns None\n\n
+    setDiskSpace(final BigDecimal diskSpace)\n
     '''
 def isDiskSpaceSpecified():
-    '''public boolean isDiskSpaceSpecified()
+    '''returns boolean\n\n
+    isDiskSpaceSpecified()\n
     '''
 def unsetDiskSpace():
-    '''public void unsetDiskSpace()
+    '''returns None\n\n
+    unsetDiskSpace()\n
     '''
 def getGroupId():
-    '''public Long getGroupId()
+    '''returns Long\n\n
+    getGroupId()\n
     '''
 def setGroupId():
-    '''public void setGroupId(final Long groupId)
+    '''returns None\n\n
+    setGroupId(final Long groupId)\n
     '''
 def isGroupIdSpecified():
-    '''public boolean isGroupIdSpecified()
+    '''returns boolean\n\n
+    isGroupIdSpecified()\n
     '''
 def unsetGroupId():
-    '''public void unsetGroupId()
+    '''returns None\n\n
+    unsetGroupId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getUnits():
-    '''public String getUnits()
+    '''returns String\n\n
+    getUnits()\n
     '''
 def setUnits():
-    '''public void setUnits(final String units)
+    '''returns None\n\n
+    setUnits(final String units)\n
     '''
 def isUnitsSpecified():
-    '''public boolean isUnitsSpecified()
+    '''returns boolean\n\n
+    isUnitsSpecified()\n
     '''
 def unsetUnits():
-    '''public void unsetUnits()
+    '''returns None\n\n
+    unsetUnits()\n
     '''
 def device():
-    '''public Mask device()
+    '''returns Mask\n\n
+    device()\n
     '''
 def diskImageId():
-    '''public Mask diskImageId()
+    '''returns Mask\n\n
+    diskImageId()\n
     '''
 def diskSpace():
-    '''public Mask diskSpace()
+    '''returns Mask\n\n
+    diskSpace()\n
     '''
 def groupId():
-    '''public Mask groupId()
+    '''returns Mask\n\n
+    groupId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def units():
-    '''public Mask units()
+    '''returns Mask\n\n
+    units()\n
     '''

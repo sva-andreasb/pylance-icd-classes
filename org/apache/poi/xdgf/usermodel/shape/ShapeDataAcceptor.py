@@ -1,3 +1,4 @@
 def accept():
-    '''public boolean accept(final XDGFShape shape)
+    '''returns boolean\n\n
+    accept(final XDGFShape shape)\n
     '''

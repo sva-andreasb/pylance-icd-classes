@@ -1,3 +1,4 @@
-def ObjectSearch():
-    '''public ObjectSearch(final MboSet ms)
+def ():
+    '''returns ObjectSearch\n\n
+    (final MboSet ms)\n
     '''

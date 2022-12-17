@@ -1,30 +1,32 @@
-def getInstance():
-    '''public static LocaleExtensions getInstance(final String str)
-    '''
 def getKeys():
-    '''public Set<Character> getKeys()
+    '''returns Set<Character>\n\n
+    getKeys()\n
     '''
 def getExtension():
-    '''public Extension getExtension(final Character key)
+    '''returns Extension\n\n
+    getExtension(final Character key)\n
     '''
 def getExtensionValue():
-    '''public String getExtensionValue(final Character key)
+    '''returns String\n\n
+    getExtensionValue(final Character key)\n
     '''
 def getUnicodeLocaleKeys():
-    '''public Set<String> getUnicodeLocaleKeys()
+    '''returns Set<String>\n\n
+    getUnicodeLocaleKeys()\n
     '''
 def getUnicodeLocaleType():
-    '''public String getUnicodeLocaleType(final String unicodeLocaleKey)
+    '''returns String\n\n
+    getUnicodeLocaleType(final String unicodeLocaleKey)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def isValidKey():
-    '''public static boolean isValidKey(final String key)
+    '''returns int\n\n
+    hashCode()\n
     '''

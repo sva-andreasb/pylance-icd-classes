@@ -1,6 +1,8 @@
-def SubmitComments():
-    '''public SubmitComments(final MboSet ms)
+def ():
+    '''returns SubmitComments\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

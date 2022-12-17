@@ -1,6 +1,7 @@
-def NotEnoughReplicasException():
-    '''public NotEnoughReplicasException()
-    public NotEnoughReplicasException(final String message, final Throwable cause)
-    public NotEnoughReplicasException(final String message)
-    public NotEnoughReplicasException(final Throwable cause)
+def ():
+    '''returns NotEnoughReplicasException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

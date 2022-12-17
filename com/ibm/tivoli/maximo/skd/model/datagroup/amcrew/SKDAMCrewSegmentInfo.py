@@ -6,48 +6,55 @@ PROPERTY_LABOR_CRAFT_TITLE = "String  \"laborcraftTitle\""
 PROPERTY_SKD_TITLE_LABOR_CRAFT_MAP = "String  \"skdTitleLaborCraftMap\""
 PROPERTY_SKIP = "String  \"SKIP\""
 PROPERTY_SPLITTED = "String  \"SPLITTED\""
-def SKDAMCrewSegmentInfo():
-    '''public SKDAMCrewSegmentInfo(final MXActivity parent, final int seq)
+def ():
+    '''returns SKDAMCrewSegmentInfo\n\n
+    (final MXActivity parent, final int seq)\n
     '''
 def getAssigedSeqNo():
-    '''public int getAssigedSeqNo()
+    '''returns int\n\n
+    getAssigedSeqNo()\n
     '''
 def setAssignSeqNo():
-    '''public void setAssignSeqNo(final int number)
+    '''returns None\n\n
+    setAssignSeqNo(final int number)\n
     '''
 def isAssigned():
-    '''public boolean isAssigned()
+    '''returns boolean\n\n
+    isAssigned()\n
     '''
 def setAssigned():
-    '''public void setAssigned(final boolean flag)
+    '''returns None\n\n
+    setAssigned(final boolean flag)\n
     '''
 def isQulified():
-    '''public boolean isQulified()
+    '''returns boolean\n\n
+    isQulified()\n
     '''
 def setQulified():
-    '''public void setQulified(final boolean flag)
+    '''returns None\n\n
+    setQulified(final boolean flag)\n
     '''
 def getLaborCraft():
-    '''public String getLaborCraft()
+    '''returns String\n\n
+    getLaborCraft()\n
     '''
 def setLaborCraft():
-    '''public void setLaborCraft(final String laborcraft)
+    '''returns None\n\n
+    setLaborCraft(final String laborcraft)\n
     '''
 def getLaborCraftTitle():
-    '''public String getLaborCraftTitle()
+    '''returns String\n\n
+    getLaborCraftTitle()\n
     '''
 def setLaborCraftTitle():
-    '''public void setLaborCraftTitle(final String title)
-    '''
-def getSKDAMCrewTitleMap():
-    '''public HashMap<String, String> getSKDAMCrewTitleMap()
+    '''returns None\n\n
+    setLaborCraftTitle(final String title)\n
     '''
 def setSKDAMCrewTitleMap():
-    '''public void setSKDAMCrewTitleMap(final HashMap<String, String> map)
-    '''
-def getSKDAMCrewLaborTitleMap():
-    '''public HashMap<String, String> getSKDAMCrewLaborTitleMap()
+    '''returns None\n\n
+    setSKDAMCrewTitleMap(final HashMap<String, String> map)\n
     '''
 def setSKDAMCrewLaborTitleMap():
-    '''public void setSKDAMCrewLaborTitleMap(final HashMap<String, String> map)
+    '''returns None\n\n
+    setSKDAMCrewLaborTitleMap(final HashMap<String, String> map)\n
     '''

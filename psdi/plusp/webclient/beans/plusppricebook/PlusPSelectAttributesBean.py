@@ -1,3 +1,4 @@
 def copyAssetAttributes():
-    '''public void copyAssetAttributes(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyAssetAttributes(final MboSetRemote mboSetRemote)\n
     '''

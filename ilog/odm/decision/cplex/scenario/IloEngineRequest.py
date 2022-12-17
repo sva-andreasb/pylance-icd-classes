@@ -3,46 +3,60 @@ DO_NOTHING_REQUEST = "int  0"
 SOLVE_REQUEST = "int  1"
 SOLVE_ANYWAY_REQUEST = "int  2"
 FIND_GOAL_BOUNDS_REQUEST = "int  4"
-def IloEngineRequest():
-    '''public IloEngineRequest(final int requestType)
-    public IloEngineRequest(final IloTable table)
+def ():
+    '''returns IloEngineRequest\n\n
+    (final int requestType)\n
+    (final IloTable table)\n
     '''
 def isEqualWith():
-    '''public boolean isEqualWith(final IloComparable oth)
+    '''returns boolean\n\n
+    isEqualWith(final IloComparable oth)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final int engineRequestType)
+    '''returns None\n\n
+    setType(final int engineRequestType)\n
     '''
 def getGoalId():
-    '''public String getGoalId()
+    '''returns String\n\n
+    getGoalId()\n
     '''
 def setGoalId():
-    '''public void setGoalId(final String goalId)
+    '''returns None\n\n
+    setGoalId(final String goalId)\n
     '''
 def findBestGoalBound():
-    '''public boolean findBestGoalBound()
+    '''returns boolean\n\n
+    findBestGoalBound()\n
     '''
 def setFindBestGoalBound():
-    '''public void setFindBestGoalBound(final boolean isFindMaxGoalBound)
+    '''returns None\n\n
+    setFindBestGoalBound(final boolean isFindMaxGoalBound)\n
     '''
 def setSolvingTimeLimit():
-    '''public void setSolvingTimeLimit(final int timeInSecond)
+    '''returns None\n\n
+    setSolvingTimeLimit(final int timeInSecond)\n
     '''
 def getSolvingTimeLimit():
-    '''public int getSolvingTimeLimit()
+    '''returns int\n\n
+    getSolvingTimeLimit()\n
     '''
 def getTable():
-    '''public IloTable getTable()
+    '''returns IloTable\n\n
+    getTable()\n
     '''
 def getIgnoredPriority():
-    '''public String getIgnoredPriority()
+    '''returns String\n\n
+    getIgnoredPriority()\n
     '''
 def setIgnoredPriority():
-    '''public void setIgnoredPriority(final String priorty)
+    '''returns None\n\n
+    setIgnoredPriority(final String priorty)\n
     '''
 def isSearchBoundsRequest():
-    '''public boolean isSearchBoundsRequest()
+    '''returns boolean\n\n
+    isSearchBoundsRequest()\n
     '''

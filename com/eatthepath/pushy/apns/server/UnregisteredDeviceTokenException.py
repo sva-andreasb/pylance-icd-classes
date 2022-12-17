@@ -1,3 +1,4 @@
-def UnregisteredDeviceTokenException():
-    '''public UnregisteredDeviceTokenException(final Instant deviceTokenExpirationTimestamp)
+def ():
+    '''returns UnregisteredDeviceTokenException\n\n
+    (final Instant deviceTokenExpirationTimestamp)\n
     '''

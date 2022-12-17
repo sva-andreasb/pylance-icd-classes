@@ -1,3 +1,4 @@
-def ChangeAgentConnectException():
-    '''public ChangeAgentConnectException(final String msg)
+def ():
+    '''returns ChangeAgentConnectException\n\n
+    (final String msg)\n
     '''

@@ -1,10 +1,13 @@
 ELEMENT = "String  \"timestamp\""
-def TimestampElement():
-    '''public TimestampElement(final Date date, final List<? extends IoTDataField> fields)
+def ():
+    '''returns TimestampElement\n\n
+    (final Date date, final List<? extends IoTDataField> fields)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

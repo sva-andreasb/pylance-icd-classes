@@ -1,6 +1,8 @@
 def getValue():
-    '''public T getValue()
+    '''returns T\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final T val)
+    '''returns None\n\n
+    setValue(final T val)\n
     '''

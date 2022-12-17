@@ -1,46 +1,56 @@
 SCOPE_PER_ACCESS = "int  0"
 SCOPE_PER_REQUEST = "int  1"
 SCOPE_SINGLETON = "int  2"
-def WSDDDeployableItem():
-    '''public WSDDDeployableItem()
-    public WSDDDeployableItem(final Element e)
+def ():
+    '''returns WSDDDeployableItem\n\n
+    ()\n
+    (final Element e)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setQName():
-    '''public void setQName(final QName qname)
+    '''returns None\n\n
+    setQName(final QName qname)\n
     '''
 def getQName():
-    '''public QName getQName()
+    '''returns QName\n\n
+    getQName()\n
     '''
 def getType():
-    '''public QName getType()
+    '''returns QName\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final QName type)
+    '''returns None\n\n
+    setType(final QName type)\n
     '''
 def setParameter():
-    '''public void setParameter(final String name, final String value)
+    '''returns None\n\n
+    setParameter(final String name, final String value)\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def getParametersTable():
-    '''public LockableHashtable getParametersTable()
+    '''returns LockableHashtable\n\n
+    getParametersTable()\n
     '''
 def setOptionsHashtable():
-    '''public void setOptionsHashtable(final Hashtable hashtable)
+    '''returns None\n\n
+    setOptionsHashtable(final Hashtable hashtable)\n
     '''
 def writeParamsToContext():
-    '''public void writeParamsToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeParamsToContext(final SerializationContext context)\n
     '''
 def removeParameter():
-    '''public void removeParameter(final String name)
-    '''
-def getInstance():
-    '''public final Handler getInstance(final EngineConfiguration registry)
+    '''returns None\n\n
+    removeParameter(final String name)\n
     '''
 def getJavaClass():
-    '''public Class getJavaClass()
+    '''returns Class\n\n
+    getJavaClass()\n
     '''

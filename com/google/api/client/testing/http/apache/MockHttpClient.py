@@ -1,9 +1,8 @@
 def execute():
-    '''public HttpResponse execute(final HttpHost target, final HttpRequest request, final HttpContext context)
-    '''
-def getResponseCode():
-    '''public final int getResponseCode()
+    '''returns HttpResponse\n\n
+    execute(final HttpHost target, final HttpRequest request, final HttpContext context)\n
     '''
 def setResponseCode():
-    '''public MockHttpClient setResponseCode(final int responseCode)
+    '''returns MockHttpClient\n\n
+    setResponseCode(final int responseCode)\n
     '''

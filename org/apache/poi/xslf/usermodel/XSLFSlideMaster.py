@@ -1,19 +1,25 @@
 def getXmlObject():
-    '''public CTSlideMaster getXmlObject()
+    '''returns CTSlideMaster\n\n
+    getXmlObject()\n
     '''
 def getMasterSheet():
-    '''public XSLFSlideMaster getMasterSheet()
+    '''returns XSLFSlideMaster\n\n
+    getMasterSheet()\n
     '''
 def getSlideLayouts():
-    '''public XSLFSlideLayout[] getSlideLayouts()
+    '''returns XSLFSlideLayout[]\n\n
+    getSlideLayouts()\n
     '''
 def getLayout():
-    '''public XSLFSlideLayout getLayout(final SlideLayout type)
-    public XSLFSlideLayout getLayout(final String name)
+    '''returns XSLFSlideLayout\n\n
+    getLayout(final SlideLayout type)\n
+    getLayout(final String name)\n
     '''
 def getTheme():
-    '''public XSLFTheme getTheme()
+    '''returns XSLFTheme\n\n
+    getTheme()\n
     '''
 def getBackground():
-    '''public XSLFBackground getBackground()
+    '''returns XSLFBackground\n\n
+    getBackground()\n
     '''

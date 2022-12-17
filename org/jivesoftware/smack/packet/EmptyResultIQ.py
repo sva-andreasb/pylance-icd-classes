@@ -1,4 +1,5 @@
-def EmptyResultIQ():
-    '''public EmptyResultIQ()
-    public EmptyResultIQ(final IQ request)
+def ():
+    '''returns EmptyResultIQ\n\n
+    ()\n
+    (final IQ request)\n
     '''

@@ -1,6 +1,8 @@
-def PlusPFldAgreeTemplateStartDate():
-    '''public PlusPFldAgreeTemplateStartDate(final MboValue mbv)
+def ():
+    '''returns PlusPFldAgreeTemplateStartDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

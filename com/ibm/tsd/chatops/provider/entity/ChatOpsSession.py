@@ -1,12 +1,16 @@
-def ChatOpsSession():
-    '''public ChatOpsSession(final MboRemote userMbo)
+def ():
+    '''returns ChatOpsSession\n\n
+    (final MboRemote userMbo)\n
     '''
 def hasAuthorizedUser():
-    '''public boolean hasAuthorizedUser()
+    '''returns boolean\n\n
+    hasAuthorizedUser()\n
     '''
 def hasValidMXSession():
-    '''public boolean hasValidMXSession()
+    '''returns boolean\n\n
+    hasValidMXSession()\n
     '''
 def refreshMXSession():
-    '''public void refreshMXSession()
+    '''returns None\n\n
+    refreshMXSession()\n
     '''

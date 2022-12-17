@@ -1,30 +1,40 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public KeyListEntry withKeyId(final String keyId)
+    '''returns KeyListEntry\n\n
+    withKeyId(final String keyId)\n
     '''
 def setKeyArn():
-    '''public void setKeyArn(final String keyArn)
+    '''returns None\n\n
+    setKeyArn(final String keyArn)\n
     '''
 def getKeyArn():
-    '''public String getKeyArn()
+    '''returns String\n\n
+    getKeyArn()\n
     '''
 def withKeyArn():
-    '''public KeyListEntry withKeyArn(final String keyArn)
+    '''returns KeyListEntry\n\n
+    withKeyArn(final String keyArn)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public KeyListEntry clone()
+    '''returns KeyListEntry\n\n
+    clone()\n
     '''

@@ -1,11 +1,14 @@
 SELECTION_POINT_PROPERTY_NAME = "String  \"SelectionPoint\""
 SELECTION_TRANSFORMER_PROPERTY_NAME = "String  \"SelectionTransformer\""
-def SKDGanttSelectInteractor():
-    '''public SKDGanttSelectInteractor()
+def ():
+    '''returns SKDGanttSelectInteractor\n\n
+    ()\n
     '''
 def isMoveAllowed():
-    '''public boolean isMoveAllowed()
+    '''returns boolean\n\n
+    isMoveAllowed()\n
     '''
 def getMoveSelectionInteractorObject():
-    '''public IlvManagerViewInteractor getMoveSelectionInteractorObject()
+    '''returns IlvManagerViewInteractor\n\n
+    getMoveSelectionInteractorObject()\n
     '''

@@ -1,6 +1,8 @@
-def CurrencyDigits():
-    '''public CurrencyDigits(final int fractionDigits, final int roundingIncrement)
+def ():
+    '''returns CurrencyDigits\n\n
+    (final int fractionDigits, final int roundingIncrement)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

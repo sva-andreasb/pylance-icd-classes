@@ -1,21 +1,27 @@
-def AttributeImpl():
-    '''public AttributeImpl(final QName qName, final String s)
-    public AttributeImpl(final QName qName, final String s, final Location location)
-    public AttributeImpl(final QName qName, final String s, final String s2, final boolean b)
-    public AttributeImpl(final QName fqName, final String fValue, final String fdtdType, final boolean fIsSpecified, final Location location)
+def ():
+    '''returns AttributeImpl\n\n
+    (final QName qName, final String s)\n
+    (final QName qName, final String s, final Location location)\n
+    (final QName qName, final String s, final String s2, final boolean b)\n
+    (final QName fqName, final String fValue, final String fdtdType, final boolean fIsSpecified, final Location location)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getDTDType():
-    '''public String getDTDType()
+    '''returns String\n\n
+    getDTDType()\n
     '''
 def isSpecified():
-    '''public boolean isSpecified()
+    '''returns boolean\n\n
+    isSpecified()\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final Writer writer)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final Writer writer)\n
     '''

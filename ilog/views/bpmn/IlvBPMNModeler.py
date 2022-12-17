@@ -1,35 +1,40 @@
 def init():
-    '''public void init(final Container container)
+    '''returns None\n\n
+    init(final Container container)\n
     '''
 def perform():
-    '''public void perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
+    '''returns None\n\n
+    perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
     '''
 def group():
-    '''public void group(final IlvDiagrammer ilvDiagrammer)
+    '''returns None\n\n
+    group(final IlvDiagrammer ilvDiagrammer)\n
     '''
 def setFlowValidator():
-    '''public void setFlowValidator(final IlvBPMNFlowValidator b)
+    '''returns None\n\n
+    setFlowValidator(final IlvBPMNFlowValidator b)\n
     '''
 def getFlowValidator():
-    '''public IlvBPMNFlowValidator getFlowValidator()
+    '''returns IlvBPMNFlowValidator\n\n
+    getFlowValidator()\n
     '''
-def LaneAutomaticExtending():
-    '''public LaneAutomaticExtending()
-    '''
-def NodeLaneReparenting():
-    '''public NodeLaneReparenting()
-    '''
-def NotResizableSelection():
-    '''public NotResizableSelection(final IlvGraphic ilvGraphic)
+def ():
+    '''returns NotResizableSelection\n\n
+    ()\n
+    ()\n
+    (final IlvGraphic ilvGraphic)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def contains():
-    '''public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection(final IlvGraphic ilvGraphic)
+    '''returns IlvSelection\n\n
+    makeSelection(final IlvGraphic ilvGraphic)\n
     '''

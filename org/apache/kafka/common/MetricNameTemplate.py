@@ -1,25 +1,33 @@
-def MetricNameTemplate():
-    '''public MetricNameTemplate(final String name, final String group, final String description, final Set<String> tagsNames)
-    public MetricNameTemplate(final String name, final String group, final String description, final String... tagsNames)
+def ():
+    '''returns MetricNameTemplate\n\n
+    (final String name, final String group, final String description, final Set<String> tagsNames)\n
+    (final String name, final String group, final String description, final String... tagsNames)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def group():
-    '''public String group()
+    '''returns String\n\n
+    group()\n
     '''
 def description():
-    '''public String description()
+    '''returns String\n\n
+    description()\n
     '''
 def tags():
-    '''public Set<String> tags()
+    '''returns Set<String>\n\n
+    tags()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

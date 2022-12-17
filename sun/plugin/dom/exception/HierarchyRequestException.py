@@ -1,3 +1,4 @@
-def HierarchyRequestException():
-    '''public HierarchyRequestException(final String message)
+def ():
+    '''returns HierarchyRequestException\n\n
+    (final String message)\n
     '''

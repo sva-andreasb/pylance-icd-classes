@@ -1,3 +1,4 @@
-def ProductInfoSet():
-    '''public ProductInfoSet(final MboServerInterface ms)
+def ():
+    '''returns ProductInfoSet\n\n
+    (final MboServerInterface ms)\n
     '''

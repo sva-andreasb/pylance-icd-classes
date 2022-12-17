@@ -1,21 +1,24 @@
 PROPERTY_NAME = "String  \"IMAGE\""
-def Image():
-    '''public Image()
-    public Image(final ParameterList params, final String value)
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final ParameterList params, final String value)\n
+    ()\n
     '''
 def setValue():
-    '''public void setValue(final String aValue)
+    '''returns None\n\n
+    setValue(final String aValue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getValue():
-    '''public String getValue()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns String\n\n
+    getValue()\n
     '''
 def createProperty():
-    '''public Image createProperty()
-    public Image createProperty(final ParameterList parameters, final String value)
+    '''returns Image\n\n
+    createProperty()\n
+    createProperty(final ParameterList parameters, final String value)\n
     '''

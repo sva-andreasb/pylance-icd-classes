@@ -1,25 +1,33 @@
-def DiskFileUpload():
-    '''public DiskFileUpload()
-    public DiskFileUpload(final DefaultFileItemFactory fileItemFactory)
+def ():
+    '''returns DiskFileUpload\n\n
+    ()\n
+    (final DefaultFileItemFactory fileItemFactory)\n
     '''
 def getFileItemFactory():
-    '''public FileItemFactory getFileItemFactory()
+    '''returns FileItemFactory\n\n
+    getFileItemFactory()\n
     '''
 def setFileItemFactory():
-    '''public void setFileItemFactory(final FileItemFactory factory)
+    '''returns None\n\n
+    setFileItemFactory(final FileItemFactory factory)\n
     '''
 def getSizeThreshold():
-    '''public int getSizeThreshold()
+    '''returns int\n\n
+    getSizeThreshold()\n
     '''
 def setSizeThreshold():
-    '''public void setSizeThreshold(final int sizeThreshold)
+    '''returns None\n\n
+    setSizeThreshold(final int sizeThreshold)\n
     '''
 def getRepositoryPath():
-    '''public String getRepositoryPath()
+    '''returns String\n\n
+    getRepositoryPath()\n
     '''
 def setRepositoryPath():
-    '''public void setRepositoryPath(final String repositoryPath)
+    '''returns None\n\n
+    setRepositoryPath(final String repositoryPath)\n
     '''
 def parseRequest():
-    '''public List<FileItem> parseRequest(final HttpServletRequest req, final int sizeThreshold, final long sizeMax, final String path)
+    '''returns List<FileItem>\n\n
+    parseRequest(final HttpServletRequest req, final int sizeThreshold, final long sizeMax, final String path)\n
     '''

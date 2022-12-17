@@ -1,3 +1,4 @@
-def SMSSet():
-    '''public SMSSet(final MboServerInterface ms)
+def ():
+    '''returns SMSSet\n\n
+    (final MboServerInterface ms)\n
     '''

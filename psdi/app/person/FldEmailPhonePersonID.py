@@ -1,6 +1,8 @@
-def FldEmailPhonePersonID():
-    '''public FldEmailPhonePersonID(final MboValue mbv)
+def ():
+    '''returns FldEmailPhonePersonID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

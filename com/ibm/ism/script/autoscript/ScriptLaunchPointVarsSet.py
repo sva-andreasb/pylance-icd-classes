@@ -1,6 +1,8 @@
-def ScriptLaunchPointVarsSet():
-    '''public ScriptLaunchPointVarsSet(final MboServerInterface ms)
+def ():
+    '''returns ScriptLaunchPointVarsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def fillLaunchPointVars():
-    '''public void fillLaunchPointVars(final MboRemote autovar)
+    '''returns None\n\n
+    fillLaunchPointVars(final MboRemote autovar)\n
     '''

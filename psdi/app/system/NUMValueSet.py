@@ -1,6 +1,8 @@
-def NUMValueSet():
-    '''public NUMValueSet(final MboServerInterface ms)
+def ():
+    '''returns NUMValueSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

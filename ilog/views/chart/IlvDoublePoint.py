@@ -1,30 +1,39 @@
-def IlvDoublePoint():
-    '''public IlvDoublePoint()
-    public IlvDoublePoint(final double x, final double y)
-    public IlvDoublePoint(final IlvDoublePoint ilvDoublePoint)
+def ():
+    '''returns IlvDoublePoint\n\n
+    ()\n
+    (final double x, final double y)\n
+    (final IlvDoublePoint ilvDoublePoint)\n
     '''
 def translate():
-    '''public void translate(final double n, final double n2)
+    '''returns None\n\n
+    translate(final double n, final double n2)\n
     '''
 def setLocation():
-    '''public void setLocation(final double x, final double y)
-    public void setLocation(final IlvDoublePoint ilvDoublePoint)
+    '''returns None\n\n
+    setLocation(final double x, final double y)\n
+    setLocation(final IlvDoublePoint ilvDoublePoint)\n
     '''
 def floor():
-    '''public void floor()
+    '''returns None\n\n
+    floor()\n
     '''
 def xFloor():
-    '''public int xFloor()
+    '''returns int\n\n
+    xFloor()\n
     '''
 def yFloor():
-    '''public int yFloor()
+    '''returns int\n\n
+    yFloor()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

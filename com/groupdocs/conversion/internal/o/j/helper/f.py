@@ -1,15 +1,19 @@
-def f():
-    '''public f()
+def ():
+    '''returns a\n\n
+    ()\n
+    (final Document a2)\n
     '''
 def a():
-    '''public Document a(final e obj)
-    public void a(final e e, final Document document)
-    public a(final Document a2)
-    public void a(final j j, final int n)
+    '''returns None\n\n
+    a(final e obj)\n
+    a(final e e, final Document document)\n
+    a(final j j, final int n)\n
     '''
 def asString():
-    '''public String asString(final Document doc)
+    '''returns String\n\n
+    asString(final Document doc)\n
     '''
 def b():
-    '''public void b(final j j, final int n)
+    '''returns None\n\n
+    b(final j j, final int n)\n
     '''

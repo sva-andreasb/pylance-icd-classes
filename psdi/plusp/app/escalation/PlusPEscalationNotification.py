@@ -1,6 +1,8 @@
-def PlusPEscalationNotification():
-    '''public PlusPEscalationNotification(final MboSet arg0)
+def ():
+    '''returns PlusPEscalationNotification\n\n
+    (final MboSet arg0)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

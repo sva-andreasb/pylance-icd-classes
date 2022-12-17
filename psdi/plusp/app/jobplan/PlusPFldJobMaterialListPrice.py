@@ -1,6 +1,8 @@
-def PlusPFldJobMaterialListPrice():
-    '''public PlusPFldJobMaterialListPrice(final MboValue mbv)
+def ():
+    '''returns PlusPFldJobMaterialListPrice\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

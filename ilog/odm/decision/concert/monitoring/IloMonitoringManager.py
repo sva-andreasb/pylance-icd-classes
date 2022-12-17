@@ -1,34 +1,45 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def addPhaseListener():
-    '''public void addPhaseListener(final IloEnginePhaseListener listener)
+    '''returns None\n\n
+    addPhaseListener(final IloEnginePhaseListener listener)\n
     '''
 def removeListener():
-    '''public boolean removeListener(final IloEnginePhaseListener listener)
+    '''returns boolean\n\n
+    removeListener(final IloEnginePhaseListener listener)\n
     '''
 def addSolveAnywayCallback():
-    '''public void addSolveAnywayCallback(final IloSolveAnywayCallback cb)
+    '''returns None\n\n
+    addSolveAnywayCallback(final IloSolveAnywayCallback cb)\n
     '''
 def removeSolveAnywayCallback():
-    '''public boolean removeSolveAnywayCallback(final IloSolveAnywayCallback cb)
+    '''returns boolean\n\n
+    removeSolveAnywayCallback(final IloSolveAnywayCallback cb)\n
     '''
 def searchFeasibleSolutionEvent():
-    '''public boolean searchFeasibleSolutionEvent(final String model, final IloPriority maxRelaxablePriorityLevel, final Collection<?> relaxblesRanges, final boolean isHighestPriority)
+    '''returns boolean\n\n
+    searchFeasibleSolutionEvent(final String model, final IloPriority maxRelaxablePriorityLevel, final Collection<?> relaxblesRanges, final boolean isHighestPriority)\n
     '''
 def searchOptimalSolutionEvent():
-    '''public boolean searchOptimalSolutionEvent(final String model, final IloPriority maxRelaxablePriorityLevel, final Collection<?> relaxblesRanges)
+    '''returns boolean\n\n
+    searchOptimalSolutionEvent(final String model, final IloPriority maxRelaxablePriorityLevel, final Collection<?> relaxblesRanges)\n
     '''
 def setPhase():
-    '''public void setPhase(final IloEnginePhase phase)
+    '''returns None\n\n
+    setPhase(final IloEnginePhase phase)\n
     '''
 def buildModelEvent():
-    '''public boolean buildModelEvent(final String modelingType, final String model, final String label)
+    '''returns boolean\n\n
+    buildModelEvent(final String modelingType, final String model, final String label)\n
     '''
 def publishSolutionEvent():
-    '''public boolean publishSolutionEvent(final String publicationType, final String modelName, final String label)
+    '''returns boolean\n\n
+    publishSolutionEvent(final String publicationType, final String modelName, final String label)\n
     '''
 def getController():
-    '''public IloConcertController getController()
+    '''returns IloConcertController\n\n
+    getController()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

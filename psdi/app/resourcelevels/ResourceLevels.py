@@ -1,21 +1,28 @@
-def ResourceLevels():
-    '''public ResourceLevels(final MboSet ms)
+def ():
+    '''returns ResourceLevels\n\n
+    (final MboSet ms)\n
     '''
 def getResourceLevelsNum():
-    '''public String getResourceLevelsNum()
+    '''returns String\n\n
+    getResourceLevelsNum()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getLevels():
-    '''public ResourceByLevelSetRemote getLevels()
+    '''returns ResourceByLevelSetRemote\n\n
+    getLevels()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getLevelForValue():
-    '''public ResourceByLevelRemote getLevelForValue(final double value)
+    '''returns ResourceByLevelRemote\n\n
+    getLevelForValue(final double value)\n
     '''

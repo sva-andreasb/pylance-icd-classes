@@ -1,76 +1,101 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def ILogControl():
-    '''public ILogControl()
+def ():
+    '''returns ILogControl\n\n
+    ()\n
     '''
 def needsRender():
-    '''public boolean needsRender()
+    '''returns boolean\n\n
+    needsRender()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def getDataChanged():
-    '''public boolean getDataChanged()
+    '''returns boolean\n\n
+    getDataChanged()\n
     '''
 def setDataChanged():
-    '''public void setDataChanged(final boolean dataChanged)
+    '''returns None\n\n
+    setDataChanged(final boolean dataChanged)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getAppId():
-    '''public String getAppId()
+    '''returns String\n\n
+    getAppId()\n
     '''
 def getUiSessionId():
-    '''public String getUiSessionId()
+    '''returns String\n\n
+    getUiSessionId()\n
     '''
 def checkVisibility():
-    '''public int checkVisibility()
+    '''returns int\n\n
+    checkVisibility()\n
     '''
 def getAppletVisible():
-    '''public boolean getAppletVisible()
+    '''returns boolean\n\n
+    getAppletVisible()\n
     '''
 def getRefreshVisibility():
-    '''public boolean getRefreshVisibility()
+    '''returns boolean\n\n
+    getRefreshVisibility()\n
     '''
 def setRefreshVisibility():
-    '''public void setRefreshVisibility(final boolean vis)
+    '''returns None\n\n
+    setRefreshVisibility(final boolean vis)\n
     '''
 def updateapplet():
-    '''public int updateapplet()
+    '''returns int\n\n
+    updateapplet()\n
     '''
 def showerror():
-    '''public int showerror()
+    '''returns int\n\n
+    showerror()\n
     '''
 def getError():
-    '''public String getError()
+    '''returns String\n\n
+    getError()\n
     '''
 def setError():
-    '''public void setError(final String error)
+    '''returns None\n\n
+    setError(final String error)\n
     '''
 def getSkinName():
-    '''public String getSkinName()
+    '''returns String\n\n
+    getSkinName()\n
     '''
 def bidiPrepareForWrap():
-    '''public String bidiPrepareForWrap(final String str)
+    '''returns String\n\n
+    bidiPrepareForWrap(final String str)\n
     '''
 def getAppletLoadingMsg():
-    '''public String getAppletLoadingMsg()
+    '''returns String\n\n
+    getAppletLoadingMsg()\n
     '''
 def getAppletLoadingTimeout():
-    '''public int getAppletLoadingTimeout()
+    '''returns int\n\n
+    getAppletLoadingTimeout()\n
     '''
 def logJspMessage():
-    '''public void logJspMessage(final String msg)
+    '''returns None\n\n
+    logJspMessage(final String msg)\n
     '''
 def isDebugOn():
-    '''public boolean isDebugOn()
+    '''returns boolean\n\n
+    isDebugOn()\n
     '''
 def useAppletBackingRectangle():
-    '''public boolean useAppletBackingRectangle()
+    '''returns boolean\n\n
+    useAppletBackingRectangle()\n
     '''

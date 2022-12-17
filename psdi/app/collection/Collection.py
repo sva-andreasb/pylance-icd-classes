@@ -1,18 +1,24 @@
-def Collection():
-    '''public Collection(final MboSet ms)
+def ():
+    '''returns Collection\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getIsDuplicate():
-    '''public boolean getIsDuplicate()
+    '''returns boolean\n\n
+    getIsDuplicate()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

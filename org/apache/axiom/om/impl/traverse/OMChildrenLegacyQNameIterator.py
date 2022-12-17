@@ -1,6 +1,8 @@
-def OMChildrenLegacyQNameIterator():
-    '''public OMChildrenLegacyQNameIterator(final OMNode currentChild, final QName qName)
+def ():
+    '''returns OMChildrenLegacyQNameIterator\n\n
+    (final OMNode currentChild, final QName qName)\n
     '''
 def isEqual():
-    '''public boolean isEqual(final QName searchQName, final QName currentQName)
+    '''returns boolean\n\n
+    isEqual(final QName searchQName, final QName currentQName)\n
     '''

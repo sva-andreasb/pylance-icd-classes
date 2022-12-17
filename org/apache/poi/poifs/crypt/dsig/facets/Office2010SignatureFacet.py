@@ -1,3 +1,4 @@
 def postSign():
-    '''public void postSign(final Document document)
+    '''returns None\n\n
+    postSign(final Document document)\n
     '''

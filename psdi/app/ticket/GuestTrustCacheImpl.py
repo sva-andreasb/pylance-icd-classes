@@ -1,21 +1,27 @@
 POLICY_EMAILDOMAIN = "String  \"EMAILDOMAIN\""
 POLICY_EMAILID = "String  \"EMAILID\""
-def GuestTrustCacheImpl():
-    '''public GuestTrustCacheImpl()
+def ():
+    '''returns GuestTrustCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validate():
-    '''public boolean validate(String id)
+    '''returns boolean\n\n
+    validate(String id)\n
     '''
 def isPolicyEmailDomain():
-    '''public boolean isPolicyEmailDomain()
+    '''returns boolean\n\n
+    isPolicyEmailDomain()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

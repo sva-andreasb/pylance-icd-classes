@@ -1,9 +1,12 @@
 def begin():
-    '''public void begin()
+    '''returns None\n\n
+    begin()\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def rollback():
-    '''public void rollback()
+    '''returns None\n\n
+    rollback()\n
     '''

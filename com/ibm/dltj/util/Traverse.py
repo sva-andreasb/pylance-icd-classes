@@ -1,12 +1,8 @@
-def Traverse():
-    '''public Traverse()
-    '''
-def getCopyright():
-    '''public static String getCopyright()
-    '''
-def doTraverse():
-    '''public final int doTraverse(final Node node)
+def ():
+    '''returns Traverse\n\n
+    ()\n
     '''
 def visit():
-    '''public int visit(final Node node)
+    '''returns int\n\n
+    visit(final Node node)\n
     '''

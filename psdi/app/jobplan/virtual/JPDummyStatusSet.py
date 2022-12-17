@@ -1,3 +1,4 @@
-def JPDummyStatusSet():
-    '''public JPDummyStatusSet(final MboServerInterface ms)
+def ():
+    '''returns JPDummyStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def RefChildBSet():
-    '''public RefChildBSet(final MboServerInterface mboServerInterface0)
+def ():
+    '''returns RefChildBSet\n\n
+    (final MboServerInterface mboServerInterface0)\n
     '''

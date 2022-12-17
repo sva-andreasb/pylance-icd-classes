@@ -1,69 +1,90 @@
-def ObjectList():
-    '''public ObjectList()
-    public ObjectList(final List<Element> c)
+def ():
+    '''returns ObjectList\n\n
+    ()\n
+    (final List<Element> c)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public Object[] toArray(Object[] a)
+    '''returns Object[]\n\n
+    toArray()\n
+    toArray(Object[] a)\n
     '''
 def get():
-    '''public Object get(final int index)
+    '''returns Object\n\n
+    get(final int index)\n
     '''
 def remove():
-    '''public Object remove(final int index)
-    public boolean remove(final Object o)
+    '''returns boolean\n\n
+    remove(final int index)\n
+    remove(final Object o)\n
     '''
 def add():
-    '''public void add(final int index, final Object element)
-    public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final int index, final Object element)\n
+    add(final Object o)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object o)
+    '''returns int\n\n
+    indexOf(final Object o)\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object o)
+    '''returns int\n\n
+    lastIndexOf(final Object o)\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def addAll():
-    '''public boolean addAll(final int index, final Collection c)
-    public boolean addAll(final Collection c)
+    '''returns boolean\n\n
+    addAll(final int index, final Collection c)\n
+    addAll(final Collection c)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection c)
+    '''returns boolean\n\n
+    containsAll(final Collection c)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection c)
+    '''returns boolean\n\n
+    removeAll(final Collection c)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection c)
+    '''returns boolean\n\n
+    retainAll(final Collection c)\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def subList():
-    '''public List subList(final int fromIndex, final int toIndex)
+    '''returns List\n\n
+    subList(final int fromIndex, final int toIndex)\n
     '''
 def listIterator():
-    '''public ListIterator listIterator()
-    public ListIterator listIterator(final int index)
+    '''returns ListIterator\n\n
+    listIterator()\n
+    listIterator(final int index)\n
     '''
 def set():
-    '''public Object set(final int index, final Object element)
+    '''returns Object\n\n
+    set(final int index, final Object element)\n
     '''
 def toElementCollection():
-    '''public Collection<Element> toElementCollection(final Collection<Element> c)
+    '''returns Collection<Element>\n\n
+    toElementCollection(final Collection<Element> c)\n
     '''
 def getList():
-    '''public List getList()
+    '''returns List\n\n
+    getList()\n
     '''

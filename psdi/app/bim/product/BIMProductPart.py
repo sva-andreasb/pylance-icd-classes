@@ -8,18 +8,23 @@ FIELD_NAME = "String  \"NAME\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 FIELD_PARTNUM = "String  \"PARTNUM\""
 FIELD_ITEMSETID = "String  \"ITEMSETID\""
-def BIMProductPart():
-    '''public BIMProductPart(final MboSet ms)
+def ():
+    '''returns BIMProductPart\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

@@ -1,33 +1,40 @@
-def LoadMonitor():
-    '''public LoadMonitor(final DatasetGraph dsg, final Logger log, final String itemsName, final long dataTickPoint, final long indexTickPoint)
+def ():
+    '''returns LoadMonitor\n\n
+    (final DatasetGraph dsg, final Logger log, final String itemsName, final long dataTickPoint, final long indexTickPoint)\n
     '''
 def startLoad():
-    '''public void startLoad()
+    '''returns None\n\n
+    startLoad()\n
     '''
 def finishLoad():
-    '''public void finishLoad()
+    '''returns None\n\n
+    finishLoad()\n
     '''
 def startDataPhase():
-    '''public void startDataPhase()
+    '''returns None\n\n
+    startDataPhase()\n
     '''
 def finishDataPhase():
-    '''public void finishDataPhase()
-    '''
-def dataItem():
-    '''public final void dataItem()
+    '''returns None\n\n
+    finishDataPhase()\n
     '''
 def startIndexPhase():
-    '''public void startIndexPhase()
+    '''returns None\n\n
+    startIndexPhase()\n
     '''
 def finishIndexPhase():
-    '''public void finishIndexPhase()
+    '''returns None\n\n
+    finishIndexPhase()\n
     '''
 def startIndex():
-    '''public void startIndex(final String label)
+    '''returns None\n\n
+    startIndex(final String label)\n
     '''
 def finishIndex():
-    '''public void finishIndex(final String label)
+    '''returns None\n\n
+    finishIndex(final String label)\n
     '''
 def print():
-    '''public void print(final String fmt, final Object... args)
+    '''returns None\n\n
+    print(final String fmt, final Object... args)\n
     '''

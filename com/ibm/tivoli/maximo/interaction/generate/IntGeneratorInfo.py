@@ -1,63 +1,84 @@
-def IntGeneratorInfo():
-    '''public IntGeneratorInfo()
+def ():
+    '''returns IntGeneratorInfo\n\n
+    ()\n
     '''
 def setInteractionName():
-    '''public void setInteractionName(final String intrName)
+    '''returns None\n\n
+    setInteractionName(final String intrName)\n
     '''
 def setProcessResponse():
-    '''public void setProcessResponse(final boolean hasResponse)
+    '''returns None\n\n
+    setProcessResponse(final boolean hasResponse)\n
     '''
 def setReqRelationName():
-    '''public void setReqRelationName(final String relName)
+    '''returns None\n\n
+    setReqRelationName(final String relName)\n
     '''
 def setDefaultAttributeLength():
-    '''public void setDefaultAttributeLength(final String length)
+    '''returns None\n\n
+    setDefaultAttributeLength(final String length)\n
     '''
 def setInteractionMainObject():
-    '''public void setInteractionMainObject(final String mainObjName)
+    '''returns None\n\n
+    setInteractionMainObject(final String mainObjName)\n
     '''
 def setReqOSName():
-    '''public void setReqOSName(final String osName)
+    '''returns None\n\n
+    setReqOSName(final String osName)\n
     '''
 def setRespOSName():
-    '''public void setRespOSName(final String osName)
+    '''returns None\n\n
+    setRespOSName(final String osName)\n
     '''
 def setInvkChannelName():
-    '''public void setInvkChannelName(final String channelName)
+    '''returns None\n\n
+    setInvkChannelName(final String channelName)\n
     '''
 def setEndPointName():
-    '''public void setEndPointName(final String epName)
+    '''returns None\n\n
+    setEndPointName(final String epName)\n
     '''
 def setEndpointInfo():
-    '''public void setEndpointInfo(final EndpointInfo epInfo)
+    '''returns None\n\n
+    setEndpointInfo(final EndpointInfo epInfo)\n
     '''
 def getInteractionName():
-    '''public String getInteractionName()
+    '''returns String\n\n
+    getInteractionName()\n
     '''
 def getReqOSName():
-    '''public String getReqOSName()
+    '''returns String\n\n
+    getReqOSName()\n
     '''
 def getRespOSName():
-    '''public String getRespOSName()
+    '''returns String\n\n
+    getRespOSName()\n
     '''
 def getDefaultAttributeLength():
-    '''public String getDefaultAttributeLength()
+    '''returns String\n\n
+    getDefaultAttributeLength()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def getInvokeChannelName():
-    '''public String getInvokeChannelName()
+    '''returns String\n\n
+    getInvokeChannelName()\n
     '''
 def isProcessResponse():
-    '''public boolean isProcessResponse()
+    '''returns boolean\n\n
+    isProcessResponse()\n
     '''
 def getReqRelationName():
-    '''public String getReqRelationName()
+    '''returns String\n\n
+    getReqRelationName()\n
     '''
 def getInteractionMainObject():
-    '''public String getInteractionMainObject()
+    '''returns String\n\n
+    getInteractionMainObject()\n
     '''
 def getEndPointInfo():
-    '''public EndpointInfo getEndPointInfo()
+    '''returns EndpointInfo\n\n
+    getEndPointInfo()\n
     '''

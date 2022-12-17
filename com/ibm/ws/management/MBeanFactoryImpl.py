@@ -1,78 +1,95 @@
-def MBeanFactoryImpl():
-    '''public MBeanFactoryImpl(final String serverName)
-    public MBeanFactoryImpl(final String serverName, final MBeanServer mbeanServer)
+def ():
+    '''returns MBeanSecurityPolicyInfo\n\n
+    (final String serverName)\n
+    (final String serverName, final MBeanServer mbeanServer)\n
+    (final ModelMBeanInfo i, final String s)\n
     '''
 def getMBeanServer():
-    '''public MBeanServer getMBeanServer()
+    '''returns MBeanServer\n\n
+    getMBeanServer()\n
     '''
 def setCellName():
-    '''public void setCellName(final String name)
+    '''returns None\n\n
+    setCellName(final String name)\n
     '''
 def setNodeName():
-    '''public void setNodeName(final String name)
+    '''returns None\n\n
+    setNodeName(final String name)\n
     '''
 def setProcessName():
-    '''public void setProcessName(final String name)
+    '''returns None\n\n
+    setProcessName(final String name)\n
     '''
 def setRepositoryDir():
-    '''public void setRepositoryDir(final String dir)
+    '''returns None\n\n
+    setRepositoryDir(final String dir)\n
     '''
 def getMBeanTypes():
-    '''public List getMBeanTypes()
+    '''returns List\n\n
+    getMBeanTypes()\n
     '''
 def getConfigId():
-    '''public String getConfigId(final Object target)
+    '''returns String\n\n
+    getConfigId(final Object target)\n
     '''
 def activateMBean():
-    '''public ObjectName activateMBean(final String type, final RuntimeCollaborator collaborator, final String configId, final String descriptor)
-    public ObjectName activateMBean(final String type, final RuntimeCollaborator collaborator, final String configId)
-    public ObjectName activateMBean(final String type, final RuntimeCollaborator collaborator, String configId, final String descriptor, final Properties props)
-    public ObjectName activateMBean(final String type, final Proxy proxy, final String configId, final String descriptor, final ModelMBeanInfo info)
-    public ObjectName activateMBean(final Proxy proxy, final ModelMBeanInfo info)
+    '''returns ObjectName\n\n
+    activateMBean(final String type, final RuntimeCollaborator collaborator, final String configId, final String descriptor)\n
+    activateMBean(final String type, final RuntimeCollaborator collaborator, final String configId)\n
+    activateMBean(final String type, final RuntimeCollaborator collaborator, String configId, final String descriptor, final Properties props)\n
+    activateMBean(final String type, final Proxy proxy, final String configId, final String descriptor, final ModelMBeanInfo info)\n
+    activateMBean(final Proxy proxy, final ModelMBeanInfo info)\n
     '''
 def completeActivateMBeans():
-    '''public void completeActivateMBeans()
+    '''returns None\n\n
+    completeActivateMBeans()\n
     '''
 def createObjectName():
-    '''public ObjectName createObjectName(final String type, String configId, final String descriptor, final Properties props)
+    '''returns ObjectName\n\n
+    createObjectName(final String type, String configId, final String descriptor, final Properties props)\n
     '''
 def deactivateMBean():
-    '''public void deactivateMBean(final String configId)
-    public void deactivateMBean(final ObjectName mbean)
+    '''returns None\n\n
+    deactivateMBean(final String configId)\n
+    deactivateMBean(final ObjectName mbean)\n
     '''
 def findMBean():
-    '''public ObjectName findMBean(String configId)
+    '''returns ObjectName\n\n
+    findMBean(String configId)\n
     '''
 def getDescriptorManager():
-    '''public MBeanDescriptorManager getDescriptorManager()
+    '''returns MBeanDescriptorManager\n\n
+    getDescriptorManager()\n
     '''
 def completeApplySecurityPolicy():
-    '''public void completeApplySecurityPolicy()
-    '''
-def printModelMBeanInfo():
-    '''public static String printModelMBeanInfo(final ModelMBeanInfo info)
+    '''returns None\n\n
+    completeApplySecurityPolicy()\n
     '''
 def setAdminAgentDeactivatedMBeanTypes():
-    '''public void setAdminAgentDeactivatedMBeanTypes(final ArrayList<ObjectName> adminAgentActivatedMBeans)
+    '''returns None\n\n
+    setAdminAgentDeactivatedMBeanTypes(final ArrayList<ObjectName> adminAgentActivatedMBeans)\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''
 def remove():
-    '''public boolean remove(final Object o)
-    '''
-def MBeanSecurityPolicyInfo():
-    '''public MBeanSecurityPolicyInfo(final ModelMBeanInfo i, final String s)
+    '''returns boolean\n\n
+    remove(final Object o)\n
     '''
 def getDescriptor():
-    '''public String getDescriptor()
+    '''returns String\n\n
+    getDescriptor()\n
     '''
 def setDescriptor():
-    '''public void setDescriptor(final String descriptor)
+    '''returns None\n\n
+    setDescriptor(final String descriptor)\n
     '''
 def getInfo():
-    '''public ModelMBeanInfo getInfo()
+    '''returns ModelMBeanInfo\n\n
+    getInfo()\n
     '''
 def setInfo():
-    '''public void setInfo(final ModelMBeanInfo info)
+    '''returns None\n\n
+    setInfo(final ModelMBeanInfo info)\n
     '''

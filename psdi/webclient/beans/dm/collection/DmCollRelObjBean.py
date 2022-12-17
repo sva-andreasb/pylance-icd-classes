@@ -1,12 +1,16 @@
 def deletSelected():
-    '''public int deletSelected()
+    '''returns int\n\n
+    deletSelected()\n
     '''
 def deletAll():
-    '''public int deletAll()
+    '''returns int\n\n
+    deletAll()\n
     '''
 def addSelected():
-    '''public int addSelected()
+    '''returns int\n\n
+    addSelected()\n
     '''
 def addAll():
-    '''public int addAll()
+    '''returns int\n\n
+    addAll()\n
     '''

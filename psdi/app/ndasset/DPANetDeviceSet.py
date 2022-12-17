@@ -1,3 +1,4 @@
-def DPANetDeviceSet():
-    '''public DPANetDeviceSet(final MboServerInterface ms)
+def ():
+    '''returns DPANetDeviceSet\n\n
+    (final MboServerInterface ms)\n
     '''

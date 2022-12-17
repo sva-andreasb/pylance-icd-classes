@@ -1,15 +1,18 @@
-def WrappingXMLOutputFactory():
-    '''public WrappingXMLOutputFactory(final XMLOutputFactory parent)
+def ():
+    '''returns WrappingXMLOutputFactory\n\n
+    (final XMLOutputFactory parent)\n
     '''
 def createXMLEventWriter():
-    '''public XMLEventWriter createXMLEventWriter(final OutputStream stream, final String encoding)
-    public XMLEventWriter createXMLEventWriter(final OutputStream stream)
-    public XMLEventWriter createXMLEventWriter(final Result result)
-    public XMLEventWriter createXMLEventWriter(final Writer stream)
+    '''returns XMLEventWriter\n\n
+    createXMLEventWriter(final OutputStream stream, final String encoding)\n
+    createXMLEventWriter(final OutputStream stream)\n
+    createXMLEventWriter(final Result result)\n
+    createXMLEventWriter(final Writer stream)\n
     '''
 def createXMLStreamWriter():
-    '''public XMLStreamWriter createXMLStreamWriter(final OutputStream stream, final String encoding)
-    public XMLStreamWriter createXMLStreamWriter(final OutputStream stream)
-    public XMLStreamWriter createXMLStreamWriter(final Result result)
-    public XMLStreamWriter createXMLStreamWriter(final Writer stream)
+    '''returns XMLStreamWriter\n\n
+    createXMLStreamWriter(final OutputStream stream, final String encoding)\n
+    createXMLStreamWriter(final OutputStream stream)\n
+    createXMLStreamWriter(final Result result)\n
+    createXMLStreamWriter(final Writer stream)\n
     '''

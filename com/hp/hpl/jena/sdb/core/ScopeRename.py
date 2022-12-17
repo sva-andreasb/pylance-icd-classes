@@ -1,27 +1,36 @@
-def ScopeRename():
-    '''public ScopeRename(final Scope oldScope)
+def ():
+    '''returns ScopeRename\n\n
+    (final Scope oldScope)\n
     '''
 def convert():
-    '''public ScopeEntry convert(ScopeEntry entry)
+    '''returns ScopeEntry\n\n
+    convert(ScopeEntry entry)\n
     '''
 def setAlias():
-    '''public void setAlias(final Var var, final SqlColumn col)
+    '''returns None\n\n
+    setAlias(final Var var, final SqlColumn col)\n
     '''
 def findScopeForVar():
-    '''public ScopeEntry findScopeForVar(final Var var)
+    '''returns ScopeEntry\n\n
+    findScopeForVar(final Var var)\n
     '''
 def findScopes():
-    '''public Set<ScopeEntry> findScopes()
+    '''returns Set<ScopeEntry>\n\n
+    findScopes()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getVars():
-    '''public Set<Var> getVars()
+    '''returns Set<Var>\n\n
+    getVars()\n
     '''
 def hasColumnForVar():
-    '''public boolean hasColumnForVar(final Var var)
+    '''returns boolean\n\n
+    hasColumnForVar(final Var var)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,12 +1,16 @@
-def ResourceFormatException():
-    '''public ResourceFormatException(final String s, final String className, final String key)
+def ():
+    '''returns ResourceFormatException\n\n
+    (final String s, final String className, final String key)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

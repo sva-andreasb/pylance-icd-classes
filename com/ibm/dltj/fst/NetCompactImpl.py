@@ -1,47 +1,62 @@
-def NetCompactImpl():
-    '''public NetCompactImpl()
+def ():
+    '''returns NetCompactImpl\n\n
+    ()\n
     '''
 def startBuild():
-    '''public void startBuild(final boolean b)
+    '''returns None\n\n
+    startBuild(final boolean b)\n
     '''
 def endBuild():
-    '''public int endBuild()
+    '''returns int\n\n
+    endBuild()\n
     '''
 def add():
-    '''public void add(final CharacterIterator characterIterator, int n, final Object o)
+    '''returns None\n\n
+    add(final CharacterIterator characterIterator, int n, final Object o)\n
     '''
 def remove():
-    '''public int remove(final CharacterIterator characterIterator, int n)
+    '''returns int\n\n
+    remove(final CharacterIterator characterIterator, int n)\n
     '''
 def removeGloss():
-    '''public void removeGloss(final CharacterIterator characterIterator, int n, final Gloss gloss)
+    '''returns None\n\n
+    removeGloss(final CharacterIterator characterIterator, int n, final Gloss gloss)\n
     '''
 def contract():
-    '''public void contract()
+    '''returns None\n\n
+    contract()\n
     '''
 def newNode():
-    '''public WritableNode newNode(final int n, final int n2)
+    '''returns WritableNode\n\n
+    newNode(final int n, final int n2)\n
     '''
 def setFirstNode():
-    '''public void setFirstNode(final Node node)
+    '''returns None\n\n
+    setFirstNode(final Node node)\n
     '''
 def setCharMapping():
-    '''public void setCharMapping(final char c, final char c2)
+    '''returns None\n\n
+    setCharMapping(final char c, final char c2)\n
     '''
 def readContents():
-    '''public long readContents(final DataInput dataInput, final int n)
+    '''returns long\n\n
+    readContents(final DataInput dataInput, final int n)\n
     '''
 def dumpNet():
-    '''public void dumpNet(final PrintStream printStream)
+    '''returns None\n\n
+    dumpNet(final PrintStream printStream)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def Apply():
-    '''public int Apply(final int n)
-    public int Apply(final int n)
-    public int Apply(final int n)
+    '''returns int\n\n
+    Apply(final int n)\n
+    Apply(final int n)\n
+    Apply(final int n)\n
     '''

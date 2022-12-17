@@ -1,32 +1,38 @@
-def ResourceData():
-    '''public ResourceData()
-    '''
-def useOverlappingAvails():
-    '''public static boolean useOverlappingAvails()
+def ():
+    '''returns ResourceData\n\n
+    ()\n
     '''
 def getNow():
-    '''public Date getNow(final UserInfo userInfo)
+    '''returns Date\n\n
+    getNow(final UserInfo userInfo)\n
     '''
 def getAvailableHoursData():
-    '''public ListAvailDataSets getAvailableHoursData(final IMXGanttModel model, final IMXResource resource, final UserInfo info, final AlternateAvailHashMap alternateAvailHashMap)
-    public double getAvailableHoursData(final IMXGanttModel model, final IMXResource res, final UserInfo userInfo, final Date clickdate, final AlternateAvailHashMap alternateAvailHashMap)
+    '''returns double\n\n
+    getAvailableHoursData(final IMXGanttModel model, final IMXResource resource, final UserInfo info, final AlternateAvailHashMap alternateAvailHashMap)\n
+    getAvailableHoursData(final IMXGanttModel model, final IMXResource res, final UserInfo userInfo, final Date clickdate, final AlternateAvailHashMap alternateAvailHashMap)\n
     '''
 def useOverlappingLoads():
-    '''public boolean useOverlappingLoads()
+    '''returns boolean\n\n
+    useOverlappingLoads()\n
     '''
 def getLoadHoursData():
-    '''public ListLoadDataSets getLoadHoursData(final IMXGanttModel model, final IMXResource resource, final UserInfo userInfo)
-    public double getLoadHoursData(final IMXGanttModel mxGanttModel, final IMXResource res, final UserInfo userInfo, final Date clickdate)
+    '''returns double\n\n
+    getLoadHoursData(final IMXGanttModel model, final IMXResource resource, final UserInfo userInfo)\n
+    getLoadHoursData(final IMXGanttModel mxGanttModel, final IMXResource res, final UserInfo userInfo, final Date clickdate)\n
     '''
 def getLaborCrewTotalhours():
-    '''public double getLaborCrewTotalhours(final double avail, final AbstractTreeGridMiniAppBean.ShiftInfo shiftInfo)
+    '''returns double\n\n
+    getLaborCrewTotalhours(final double avail, final AbstractTreeGridMiniAppBean.ShiftInfo shiftInfo)\n
     '''
 def getAdditionalCapacity():
-    '''public double getAdditionalCapacity(final double load, final double avail)
+    '''returns double\n\n
+    getAdditionalCapacity(final double load, final double avail)\n
     '''
 def getAdditionalCapacityQuantity():
-    '''public double getAdditionalCapacityQuantity(final double addCapacity, final AbstractTreeGridMiniAppBean.ShiftInfo shiftInfo)
+    '''returns double\n\n
+    getAdditionalCapacityQuantity(final double addCapacity, final AbstractTreeGridMiniAppBean.ShiftInfo shiftInfo)\n
     '''
 def getLoadQuantityData():
-    '''public double getLoadQuantityData(final IMXGanttModel model, final IMXResource resource, final Date clickdate)
+    '''returns double\n\n
+    getLoadQuantityData(final IMXGanttModel model, final IMXResource resource, final Date clickdate)\n
     '''

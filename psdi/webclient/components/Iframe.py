@@ -1,9 +1,12 @@
-def Iframe():
-    '''public Iframe()
+def ():
+    '''returns Iframe\n\n
+    ()\n
     '''
 def submitform():
-    '''public void submitform()
+    '''returns None\n\n
+    submitform()\n
     '''
 def canSubmit():
-    '''public boolean canSubmit()
+    '''returns boolean\n\n
+    canSubmit()\n
     '''

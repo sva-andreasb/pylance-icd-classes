@@ -1,9 +1,12 @@
-def GlossMapper():
-    '''public GlossMapper(final GlossPool[] glossPools)
+def ():
+    '''returns GlossMapper\n\n
+    (final GlossPool[] glossPools)\n
     '''
 def reAssign():
-    '''public void reAssign()
+    '''returns None\n\n
+    reAssign()\n
     '''
 def getGlossIndex():
-    '''public int getGlossIndex(final Gloss gloss)
+    '''returns int\n\n
+    getGlossIndex(final Gloss gloss)\n
     '''

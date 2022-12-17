@@ -1,21 +1,28 @@
-def PlusPPriceBookLineLaborSet():
-    '''public PlusPPriceBookLineLaborSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPriceBookLineLaborSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String[] array, final String[] array2)
+    '''returns boolean\n\n
+    containsKey(final String[] array, final String[] array2)\n
     '''
 def isRefreshed():
-    '''public boolean isRefreshed()
+    '''returns boolean\n\n
+    isRefreshed()\n
     '''
 def setRefreshed():
-    '''public void setRefreshed(final boolean refreshed)
+    '''returns None\n\n
+    setRefreshed(final boolean refreshed)\n
     '''
 def resetOriginalSet():
-    '''public void resetOriginalSet()
+    '''returns None\n\n
+    resetOriginalSet()\n
     '''
 def previewChanges():
-    '''public void previewChanges()
+    '''returns None\n\n
+    previewChanges()\n
     '''
 def setUpFactor():
-    '''public double setUpFactor(final double n)
+    '''returns double\n\n
+    setUpFactor(final double n)\n
     '''

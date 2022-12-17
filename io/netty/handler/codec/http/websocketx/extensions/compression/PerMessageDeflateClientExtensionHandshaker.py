@@ -1,20 +1,26 @@
-def PerMessageDeflateClientExtensionHandshaker():
-    '''public PerMessageDeflateClientExtensionHandshaker()
-    public PerMessageDeflateClientExtensionHandshaker(final int compressionLevel, final boolean allowClientWindowSize, final int requestedServerWindowSize, final boolean allowClientNoContext, final boolean requestedServerNoContext)
-    public PerMessageDeflateClientExtensionHandshaker(final int compressionLevel, final boolean allowClientWindowSize, final int requestedServerWindowSize, final boolean allowClientNoContext, final boolean requestedServerNoContext, final WebSocketExtensionFilterProvider extensionFilterProvider)
+def ():
+    '''returns PerMessageDeflateClientExtensionHandshaker\n\n
+    ()\n
+    (final int compressionLevel, final boolean allowClientWindowSize, final int requestedServerWindowSize, final boolean allowClientNoContext, final boolean requestedServerNoContext)\n
+    (final int compressionLevel, final boolean allowClientWindowSize, final int requestedServerWindowSize, final boolean allowClientNoContext, final boolean requestedServerNoContext, final WebSocketExtensionFilterProvider extensionFilterProvider)\n
     '''
 def newRequestData():
-    '''public WebSocketExtensionData newRequestData()
+    '''returns WebSocketExtensionData\n\n
+    newRequestData()\n
     '''
 def handshakeExtension():
-    '''public WebSocketClientExtension handshakeExtension(final WebSocketExtensionData extensionData)
+    '''returns WebSocketClientExtension\n\n
+    handshakeExtension(final WebSocketExtensionData extensionData)\n
     '''
 def rsv():
-    '''public int rsv()
+    '''returns int\n\n
+    rsv()\n
     '''
 def newExtensionEncoder():
-    '''public WebSocketExtensionEncoder newExtensionEncoder()
+    '''returns WebSocketExtensionEncoder\n\n
+    newExtensionEncoder()\n
     '''
 def newExtensionDecoder():
-    '''public WebSocketExtensionDecoder newExtensionDecoder()
+    '''returns WebSocketExtensionDecoder\n\n
+    newExtensionDecoder()\n
     '''

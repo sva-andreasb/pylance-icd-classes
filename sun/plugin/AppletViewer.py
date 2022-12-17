@@ -1,197 +1,237 @@
-def loadPropertiesFiles():
-    '''public static void loadPropertiesFiles()
-    '''
-def setStartTime():
-    '''public static void setStartTime(final long value)
-    '''
-def initEnvironment():
-    '''public static void initEnvironment(final int n, final long startTime)
-    public static void initEnvironment(final int service)
-    '''
-def AppletViewer():
-    '''public AppletViewer()
+def ():
+    '''returns AppletViewer\n\n
+    ()\n
     '''
 def appletInit():
-    '''public void appletInit()
+    '''returns None\n\n
+    appletInit()\n
     '''
 def appletStart():
-    '''public void appletStart()
+    '''returns None\n\n
+    appletStart()\n
     '''
 def appletStop():
-    '''public void appletStop()
+    '''returns None\n\n
+    appletStop()\n
     '''
 def appletDestroy():
-    '''public void appletDestroy()
-    public void appletDestroy(final long millis)
+    '''returns None\n\n
+    appletDestroy()\n
+    appletDestroy(final long millis)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def preRefresh():
-    '''public void preRefresh()
+    '''returns None\n\n
+    preRefresh()\n
     '''
 def getParameter():
-    '''public String getParameter(String lowerCase)
+    '''returns String\n\n
+    getParameter(String lowerCase)\n
     '''
 def setParameter():
-    '''public void setParameter(String lowerCase, final Object o)
+    '''returns None\n\n
+    setParameter(String lowerCase, final Object o)\n
     '''
 def setDocumentBase():
-    '''public void setDocumentBase(final String s)
+    '''returns None\n\n
+    setDocumentBase(final String s)\n
     '''
 def canonicalizeDocumentURL():
-    '''public String canonicalizeDocumentURL(final String s)
+    '''returns String\n\n
+    canonicalizeDocumentURL(final String s)\n
     '''
 def getDocumentBase():
-    '''public URL getDocumentBase()
+    '''returns URL\n\n
+    getDocumentBase()\n
     '''
 def getCodeBase():
-    '''public URL getCodeBase()
+    '''returns URL\n\n
+    getCodeBase()\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def getHeight():
-    '''public int getHeight()
+    '''returns int\n\n
+    getHeight()\n
     '''
 def getCode():
-    '''public String getCode()
+    '''returns String\n\n
+    getCode()\n
     '''
 def isLegacyLifeCycle():
-    '''public boolean isLegacyLifeCycle()
+    '''returns boolean\n\n
+    isLegacyLifeCycle()\n
     '''
 def getClassLoaderCacheKey():
-    '''public String getClassLoaderCacheKey()
+    '''returns String\n\n
+    getClassLoaderCacheKey()\n
     '''
 def getJarFiles():
-    '''public String getJarFiles()
+    '''returns String\n\n
+    getJarFiles()\n
     '''
 def accept():
-    '''public boolean accept(final File file, final String s)
+    '''returns boolean\n\n
+    accept(final File file, final String s)\n
     '''
 def getSerializedObject():
-    '''public String getSerializedObject()
+    '''returns String\n\n
+    getSerializedObject()\n
     '''
 def getApplet():
-    '''public Applet getApplet()
+    '''returns Applet\n\n
+    getApplet()\n
     '''
 def getViewedObject():
-    '''public Object getViewedObject()
+    '''returns Object\n\n
+    getViewedObject()\n
     '''
 def setAppletContext():
-    '''public void setAppletContext(final AppletContext appletContext)
+    '''returns None\n\n
+    setAppletContext(final AppletContext appletContext)\n
     '''
 def getAppletContext():
-    '''public AppletContext getAppletContext()
+    '''returns AppletContext\n\n
+    getAppletContext()\n
     '''
 def setColorAndText():
-    '''public void setColorAndText()
+    '''returns None\n\n
+    setColorAndText()\n
     '''
 def paint():
-    '''public void paint(final Graphics graphics)
+    '''returns None\n\n
+    paint(final Graphics graphics)\n
     '''
 def getForeground():
-    '''public Color getForeground()
+    '''returns Color\n\n
+    getForeground()\n
     '''
 def paintForegrnd():
-    '''public void paintForegrnd(final Graphics graphics)
+    '''returns None\n\n
+    paintForegrnd(final Graphics graphics)\n
     '''
 def getWaitingMessage():
-    '''public String getWaitingMessage()
+    '''returns String\n\n
+    getWaitingMessage()\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getAcceleratorKey():
-    '''public static int getAcceleratorKey(final String s)
+    '''returns String\n\n
+    getName()\n
     '''
 def addAppletStatusListener():
-    '''public void addAppletStatusListener(final AppletStatusListener statusListener)
+    '''returns None\n\n
+    addAppletStatusListener(final AppletStatusListener statusListener)\n
     '''
 def removeAppletStatusListener():
-    '''public void removeAppletStatusListener(final AppletStatusListener appletStatusListener)
+    '''returns None\n\n
+    removeAppletStatusListener(final AppletStatusListener appletStatusListener)\n
     '''
 def setStatus():
-    '''public void setStatus(final int status)
+    '''returns None\n\n
+    setStatus(final int status)\n
     '''
 def showAppletLog():
-    '''public void showAppletLog(final String s)
+    '''returns None\n\n
+    showAppletLog(final String s)\n
     '''
 def isStopped():
-    '''public boolean isStopped()
+    '''returns boolean\n\n
+    isStopped()\n
     '''
 def showAppletStatus():
-    '''public void showAppletStatus(final String s)
+    '''returns None\n\n
+    showAppletStatus(final String s)\n
     '''
 def setDoInit():
-    '''public void setDoInit(final boolean doInit)
-    '''
-def getMessage():
-    '''public static String getMessage(final String s)
-    '''
-def getMessageArray():
-    '''public static String[] getMessageArray(final String s)
+    '''returns None\n\n
+    setDoInit(final boolean doInit)\n
     '''
 def showStatusText():
-    '''public void showStatusText(final String s)
+    '''returns None\n\n
+    showStatusText(final String s)\n
     '''
 def onStartBinding():
-    '''public void onStartBinding(final Object o)
+    '''returns None\n\n
+    onStartBinding(final Object o)\n
     '''
 def onProgressAvailable():
-    '''public void onProgressAvailable(final Object o, final int n, final int n2)
+    '''returns None\n\n
+    onProgressAvailable(final Object o, final int n, final int n2)\n
     '''
 def update():
-    '''public void update(final Graphics graphics)
+    '''returns None\n\n
+    update(final Graphics graphics)\n
     '''
 def onStopBinding():
-    '''public void onStopBinding(final Object o)
+    '''returns None\n\n
+    onStopBinding(final Object o)\n
     '''
 def onProgressComplete():
-    '''public void onProgressComplete(final Object o)
+    '''returns None\n\n
+    onProgressComplete(final Object o)\n
     '''
 def getLoadingStatus():
-    '''public int getLoadingStatus()
+    '''returns int\n\n
+    getLoadingStatus()\n
     '''
 def windowActivated():
-    '''public void windowActivated(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowActivated(final WindowEvent windowEvent)\n
     '''
 def windowClosed():
-    '''public void windowClosed(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosed(final WindowEvent windowEvent)\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''
 def windowDeactivated():
-    '''public void windowDeactivated(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowDeactivated(final WindowEvent windowEvent)\n
     '''
 def windowDeiconified():
-    '''public void windowDeiconified(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowDeiconified(final WindowEvent windowEvent)\n
     '''
 def windowIconified():
-    '''public void windowIconified(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowIconified(final WindowEvent windowEvent)\n
     '''
 def windowOpened():
-    '''public void windowOpened(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowOpened(final WindowEvent windowEvent)\n
     '''
 def appletStateChanged():
-    '''public void appletStateChanged(final AppletEvent appletEvent)
+    '''returns None\n\n
+    appletStateChanged(final AppletEvent appletEvent)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent mouseEvent)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseExited(final MouseEvent mouseEvent)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mousePressed(final MouseEvent mouseEvent)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent mouseEvent)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent mouseEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''

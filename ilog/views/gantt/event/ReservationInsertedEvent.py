@@ -1,9 +1,12 @@
-def ReservationInsertedEvent():
-    '''public ReservationInsertedEvent(final IlvGanttModel source, final IlvReservation a)
+def ():
+    '''returns ReservationInsertedEvent\n\n
+    (final IlvGanttModel source, final IlvReservation a)\n
     '''
 def getGanttModel():
-    '''public IlvGanttModel getGanttModel()
+    '''returns IlvGanttModel\n\n
+    getGanttModel()\n
     '''
 def getReservation():
-    '''public IlvReservation getReservation()
+    '''returns IlvReservation\n\n
+    getReservation()\n
     '''

@@ -1,5 +1,6 @@
-def AccessLocalException():
-    '''public AccessLocalException()
-    public AccessLocalException(final String message)
-    public AccessLocalException(final String message, final Exception ex)
+def ():
+    '''returns AccessLocalException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Exception ex)\n
     '''

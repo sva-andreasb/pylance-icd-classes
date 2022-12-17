@@ -1,3 +1,4 @@
-def WarrantyViewSet():
-    '''public WarrantyViewSet(final MboServerInterface ms)
+def ():
+    '''returns WarrantyViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

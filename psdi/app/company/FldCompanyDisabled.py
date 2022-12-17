@@ -1,9 +1,12 @@
-def FldCompanyDisabled():
-    '''public FldCompanyDisabled(final MboValue mv)
+def ():
+    '''returns FldCompanyDisabled\n\n
+    (final MboValue mv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

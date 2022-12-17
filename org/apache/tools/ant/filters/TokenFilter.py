@@ -1,104 +1,113 @@
-def TokenFilter():
-    '''public TokenFilter()
-    public TokenFilter(final Reader in)
+def ():
+    '''returns DeleteCharacters\n\n
+    ()\n
+    (final Reader in)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def read():
-    '''public int read()
-    public int read()
-    '''
-def chain():
-    '''public final Reader chain(final Reader reader)
-    public Reader chain(final Reader reader)
-    public Reader chain(final Reader reader)
+    '''returns int\n\n
+    read()\n
+    read()\n
     '''
 def setDelimOutput():
-    '''public void setDelimOutput(final String delimOutput)
+    '''returns None\n\n
+    setDelimOutput(final String delimOutput)\n
     '''
 def addLineTokenizer():
-    '''public void addLineTokenizer(final LineTokenizer tokenizer)
+    '''returns None\n\n
+    addLineTokenizer(final LineTokenizer tokenizer)\n
     '''
 def addStringTokenizer():
-    '''public void addStringTokenizer(final StringTokenizer tokenizer)
+    '''returns None\n\n
+    addStringTokenizer(final StringTokenizer tokenizer)\n
     '''
 def addFileTokenizer():
-    '''public void addFileTokenizer(final FileTokenizer tokenizer)
+    '''returns None\n\n
+    addFileTokenizer(final FileTokenizer tokenizer)\n
     '''
 def add():
-    '''public void add(final Tokenizer tokenizer)
-    public void add(final Filter filter)
+    '''returns None\n\n
+    add(final Tokenizer tokenizer)\n
+    add(final Filter filter)\n
     '''
 def addReplaceString():
-    '''public void addReplaceString(final ReplaceString filter)
+    '''returns None\n\n
+    addReplaceString(final ReplaceString filter)\n
     '''
 def addContainsString():
-    '''public void addContainsString(final ContainsString filter)
+    '''returns None\n\n
+    addContainsString(final ContainsString filter)\n
     '''
 def addReplaceRegex():
-    '''public void addReplaceRegex(final ReplaceRegex filter)
+    '''returns None\n\n
+    addReplaceRegex(final ReplaceRegex filter)\n
     '''
 def addContainsRegex():
-    '''public void addContainsRegex(final ContainsRegex filter)
+    '''returns None\n\n
+    addContainsRegex(final ContainsRegex filter)\n
     '''
 def addTrim():
-    '''public void addTrim(final Trim filter)
+    '''returns None\n\n
+    addTrim(final Trim filter)\n
     '''
 def addIgnoreBlank():
-    '''public void addIgnoreBlank(final IgnoreBlank filter)
+    '''returns None\n\n
+    addIgnoreBlank(final IgnoreBlank filter)\n
     '''
 def addDeleteCharacters():
-    '''public void addDeleteCharacters(final DeleteCharacters filter)
-    '''
-def resolveBackSlash():
-    '''public static String resolveBackSlash(final String input)
-    '''
-def convertRegexOptions():
-    '''public static int convertRegexOptions(final String flags)
-    '''
-def ChainableReaderFilter():
-    '''public ChainableReaderFilter()
+    '''returns None\n\n
+    addDeleteCharacters(final DeleteCharacters filter)\n
     '''
 def setByLine():
-    '''public void setByLine(final boolean byLine)
+    '''returns None\n\n
+    setByLine(final boolean byLine)\n
+    '''
+def chain():
+    '''returns Reader\n\n
+    chain(final Reader reader)\n
+    chain(final Reader reader)\n
     '''
 def setFrom():
-    '''public void setFrom(final String from)
+    '''returns None\n\n
+    setFrom(final String from)\n
     '''
 def setTo():
-    '''public void setTo(final String to)
+    '''returns None\n\n
+    setTo(final String to)\n
     '''
 def filter():
-    '''public String filter(final String line)
-    public String filter(final String string)
-    public String filter(final String line)
-    public String filter(final String string)
-    public String filter(final String line)
-    public String filter(final String line)
-    public String filter(final String string)
+    '''returns String\n\n
+    filter(final String line)\n
+    filter(final String string)\n
+    filter(final String line)\n
+    filter(final String string)\n
+    filter(final String line)\n
+    filter(final String line)\n
+    filter(final String string)\n
     '''
 def setContains():
-    '''public void setContains(final String contains)
-    '''
-def ReplaceRegex():
-    '''public ReplaceRegex()
+    '''returns None\n\n
+    setContains(final String contains)\n
     '''
 def setPattern():
-    '''public void setPattern(final String from)
-    public void setPattern(final String from)
+    '''returns None\n\n
+    setPattern(final String from)\n
+    setPattern(final String from)\n
     '''
 def setReplace():
-    '''public void setReplace(final String to)
-    public void setReplace(final String to)
+    '''returns None\n\n
+    setReplace(final String to)\n
+    setReplace(final String to)\n
     '''
 def setFlags():
-    '''public void setFlags(final String flags)
-    public void setFlags(final String flags)
-    '''
-def ContainsRegex():
-    '''public ContainsRegex()
-    '''
-def DeleteCharacters():
-    '''public DeleteCharacters()
+    '''returns None\n\n
+    setFlags(final String flags)\n
+    setFlags(final String flags)\n
     '''
 def setChars():
-    '''public void setChars(final String deleteChars)
+    '''returns None\n\n
+    setChars(final String deleteChars)\n
     '''

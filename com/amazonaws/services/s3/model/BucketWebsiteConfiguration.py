@@ -1,35 +1,46 @@
-def BucketWebsiteConfiguration():
-    '''public BucketWebsiteConfiguration()
-    public BucketWebsiteConfiguration(final String indexDocumentSuffix)
-    public BucketWebsiteConfiguration(final String indexDocumentSuffix, final String errorDocument)
+def ():
+    '''returns BucketWebsiteConfiguration\n\n
+    ()\n
+    (final String indexDocumentSuffix)\n
+    (final String indexDocumentSuffix, final String errorDocument)\n
     '''
 def getIndexDocumentSuffix():
-    '''public String getIndexDocumentSuffix()
+    '''returns String\n\n
+    getIndexDocumentSuffix()\n
     '''
 def setIndexDocumentSuffix():
-    '''public void setIndexDocumentSuffix(final String indexDocumentSuffix)
+    '''returns None\n\n
+    setIndexDocumentSuffix(final String indexDocumentSuffix)\n
     '''
 def getErrorDocument():
-    '''public String getErrorDocument()
+    '''returns String\n\n
+    getErrorDocument()\n
     '''
 def setErrorDocument():
-    '''public void setErrorDocument(final String errorDocument)
+    '''returns None\n\n
+    setErrorDocument(final String errorDocument)\n
     '''
 def setRedirectAllRequestsTo():
-    '''public void setRedirectAllRequestsTo(final RedirectRule redirectAllRequestsTo)
+    '''returns None\n\n
+    setRedirectAllRequestsTo(final RedirectRule redirectAllRequestsTo)\n
     '''
 def getRedirectAllRequestsTo():
-    '''public RedirectRule getRedirectAllRequestsTo()
+    '''returns RedirectRule\n\n
+    getRedirectAllRequestsTo()\n
     '''
 def withRedirectAllRequestsTo():
-    '''public BucketWebsiteConfiguration withRedirectAllRequestsTo(final RedirectRule redirectAllRequestsTo)
+    '''returns BucketWebsiteConfiguration\n\n
+    withRedirectAllRequestsTo(final RedirectRule redirectAllRequestsTo)\n
     '''
 def setRoutingRules():
-    '''public void setRoutingRules(final List<RoutingRule> routingRules)
+    '''returns None\n\n
+    setRoutingRules(final List<RoutingRule> routingRules)\n
     '''
 def getRoutingRules():
-    '''public List<RoutingRule> getRoutingRules()
+    '''returns List<RoutingRule>\n\n
+    getRoutingRules()\n
     '''
 def withRoutingRules():
-    '''public BucketWebsiteConfiguration withRoutingRules(final List<RoutingRule> routingRules)
+    '''returns BucketWebsiteConfiguration\n\n
+    withRoutingRules(final List<RoutingRule> routingRules)\n
     '''

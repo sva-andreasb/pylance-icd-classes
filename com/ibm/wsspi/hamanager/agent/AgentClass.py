@@ -1,0 +1,1 @@
+K_DU_PROP = "String  \"IBM_DISASTER_UNIT\""

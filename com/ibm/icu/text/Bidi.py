@@ -1,12 +1,11 @@
 LEVEL_DEFAULT_LTR = "byte  126"
 LEVEL_DEFAULT_RTL = "byte  Byte.MAX_VALUE"
-MAX_EXPLICIT_LEVEL = "byte  125"
+MAX_EXPLICIT_LEVEL = "byte  61"
 LEVEL_OVERRIDE = "byte  Byte.MIN_VALUE"
 MAP_NOWHERE = "int  -1"
 LTR = "byte  0"
 RTL = "byte  1"
 MIXED = "byte  2"
-NEUTRAL = "byte  3"
 KEEP_BASE_COMBINING = "short  1"
 DO_MIRRORING = "short  2"
 INSERT_LRM_FOR_NUMERIC = "short  4"
@@ -23,173 +22,194 @@ OPTION_DEFAULT = "int  0"
 OPTION_INSERT_MARKS = "int  1"
 OPTION_REMOVE_CONTROLS = "int  2"
 OPTION_STREAMING = "int  4"
-CLASS_DEFAULT = "int  23"
+CLASS_DEFAULT = "int  19"
 DIRECTION_LEFT_TO_RIGHT = "int  0"
 DIRECTION_RIGHT_TO_LEFT = "int  1"
 DIRECTION_DEFAULT_LEFT_TO_RIGHT = "int  126"
 DIRECTION_DEFAULT_RIGHT_TO_LEFT = "int  127"
-def Bidi():
-    '''public Bidi()
-    public Bidi(final int maxLength, final int maxRunCount)
-    public Bidi(final String paragraph, final int flags)
-    public Bidi(final AttributedCharacterIterator paragraph)
-    public Bidi(final char[] text, final int textStart, final byte[] embeddings, final int embStart, final int paragraphLength, final int flags)
+def ():
+    '''returns Bidi\n\n
+    ()\n
+    (final int maxLength, final int maxRunCount)\n
+    (final String paragraph, final int flags)\n
+    (final AttributedCharacterIterator paragraph)\n
+    (final char[] text, final int textStart, final byte[] embeddings, final int embStart, final int paragraphLength, final int flags)\n
     '''
 def setInverse():
-    '''public void setInverse(final boolean isInverse)
+    '''returns None\n\n
+    setInverse(final boolean isInverse)\n
     '''
 def isInverse():
-    '''public boolean isInverse()
+    '''returns boolean\n\n
+    isInverse()\n
     '''
 def setReorderingMode():
-    '''public void setReorderingMode(final int reorderingMode)
+    '''returns None\n\n
+    setReorderingMode(final int reorderingMode)\n
     '''
 def getReorderingMode():
-    '''public int getReorderingMode()
+    '''returns int\n\n
+    getReorderingMode()\n
     '''
 def setReorderingOptions():
-    '''public void setReorderingOptions(final int options)
+    '''returns None\n\n
+    setReorderingOptions(final int options)\n
     '''
 def getReorderingOptions():
-    '''public int getReorderingOptions()
-    '''
-def getBaseDirection():
-    '''public static byte getBaseDirection(final CharSequence paragraph)
-    '''
-def setContext():
-    '''public void setContext(final String prologue, final String epilogue)
+    '''returns int\n\n
+    getReorderingOptions()\n
     '''
 def setPara():
-    '''public void setPara(final String text, final byte paraLevel, final byte[] embeddingLevels)
-    public void setPara(char[] chars, final byte paraLevel, final byte[] embeddingLevels)
-    public void setPara(final AttributedCharacterIterator paragraph)
+    '''returns None\n\n
+    setPara(final String text, final byte paraLevel, final byte[] embeddingLevels)\n
+    setPara(char[] chars, byte paraLevel, final byte[] embeddingLevels)\n
+    setPara(final AttributedCharacterIterator paragraph)\n
     '''
 def orderParagraphsLTR():
-    '''public void orderParagraphsLTR(final boolean ordarParaLTR)
+    '''returns None\n\n
+    orderParagraphsLTR(final boolean ordarParaLTR)\n
     '''
 def isOrderParagraphsLTR():
-    '''public boolean isOrderParagraphsLTR()
+    '''returns boolean\n\n
+    isOrderParagraphsLTR()\n
     '''
 def getDirection():
-    '''public byte getDirection()
+    '''returns byte\n\n
+    getDirection()\n
     '''
 def getTextAsString():
-    '''public String getTextAsString()
+    '''returns String\n\n
+    getTextAsString()\n
     '''
 def getText():
-    '''public char[] getText()
+    '''returns char[]\n\n
+    getText()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getProcessedLength():
-    '''public int getProcessedLength()
+    '''returns int\n\n
+    getProcessedLength()\n
     '''
 def getResultLength():
-    '''public int getResultLength()
+    '''returns int\n\n
+    getResultLength()\n
     '''
 def getParaLevel():
-    '''public byte getParaLevel()
+    '''returns byte\n\n
+    getParaLevel()\n
     '''
 def countParagraphs():
-    '''public int countParagraphs()
+    '''returns int\n\n
+    countParagraphs()\n
     '''
 def getParagraphByIndex():
-    '''public BidiRun getParagraphByIndex(final int paraIndex)
+    '''returns BidiRun\n\n
+    getParagraphByIndex(final int paraIndex)\n
     '''
 def getParagraph():
-    '''public BidiRun getParagraph(final int charIndex)
+    '''returns BidiRun\n\n
+    getParagraph(final int charIndex)\n
     '''
 def getParagraphIndex():
-    '''public int getParagraphIndex(final int charIndex)
+    '''returns int\n\n
+    getParagraphIndex(final int charIndex)\n
     '''
 def setCustomClassifier():
-    '''public void setCustomClassifier(final BidiClassifier classifier)
+    '''returns None\n\n
+    setCustomClassifier(final BidiClassifier classifier)\n
     '''
 def getCustomClassifier():
-    '''public BidiClassifier getCustomClassifier()
+    '''returns BidiClassifier\n\n
+    getCustomClassifier()\n
     '''
 def getCustomizedClass():
-    '''public int getCustomizedClass(final int c)
+    '''returns int\n\n
+    getCustomizedClass(final int c)\n
     '''
 def setLine():
-    '''public Bidi setLine(final int start, final int limit)
+    '''returns Bidi\n\n
+    setLine(final int start, final int limit)\n
     '''
 def getLevelAt():
-    '''public byte getLevelAt(final int charIndex)
+    '''returns byte\n\n
+    getLevelAt(final int charIndex)\n
     '''
 def getLevels():
-    '''public byte[] getLevels()
+    '''returns byte[]\n\n
+    getLevels()\n
     '''
 def getLogicalRun():
-    '''public BidiRun getLogicalRun(final int logicalPosition)
+    '''returns BidiRun\n\n
+    getLogicalRun(final int logicalPosition)\n
     '''
 def countRuns():
-    '''public int countRuns()
+    '''returns int\n\n
+    countRuns()\n
     '''
 def getVisualRun():
-    '''public BidiRun getVisualRun(final int runIndex)
+    '''returns BidiRun\n\n
+    getVisualRun(final int runIndex)\n
     '''
 def getVisualIndex():
-    '''public int getVisualIndex(final int logicalIndex)
+    '''returns int\n\n
+    getVisualIndex(final int logicalIndex)\n
     '''
 def getLogicalIndex():
-    '''public int getLogicalIndex(final int visualIndex)
+    '''returns int\n\n
+    getLogicalIndex(final int visualIndex)\n
     '''
 def getLogicalMap():
-    '''public int[] getLogicalMap()
+    '''returns int[]\n\n
+    getLogicalMap()\n
     '''
 def getVisualMap():
-    '''public int[] getVisualMap()
-    '''
-def reorderLogical():
-    '''public static int[] reorderLogical(final byte[] levels)
-    '''
-def reorderVisual():
-    '''public static int[] reorderVisual(final byte[] levels)
-    '''
-def invertMap():
-    '''public static int[] invertMap(final int[] srcMap)
+    '''returns int[]\n\n
+    getVisualMap()\n
     '''
 def createLineBidi():
-    '''public Bidi createLineBidi(final int lineStart, final int lineLimit)
+    '''returns Bidi\n\n
+    createLineBidi(final int lineStart, final int lineLimit)\n
     '''
 def isMixed():
-    '''public boolean isMixed()
+    '''returns boolean\n\n
+    isMixed()\n
     '''
 def isLeftToRight():
-    '''public boolean isLeftToRight()
+    '''returns boolean\n\n
+    isLeftToRight()\n
     '''
 def isRightToLeft():
-    '''public boolean isRightToLeft()
+    '''returns boolean\n\n
+    isRightToLeft()\n
     '''
 def baseIsLeftToRight():
-    '''public boolean baseIsLeftToRight()
+    '''returns boolean\n\n
+    baseIsLeftToRight()\n
     '''
 def getBaseLevel():
-    '''public int getBaseLevel()
+    '''returns int\n\n
+    getBaseLevel()\n
     '''
 def getRunCount():
-    '''public int getRunCount()
+    '''returns int\n\n
+    getRunCount()\n
     '''
 def getRunLevel():
-    '''public int getRunLevel(final int run)
+    '''returns int\n\n
+    getRunLevel(final int run)\n
     '''
 def getRunStart():
-    '''public int getRunStart(final int run)
+    '''returns int\n\n
+    getRunStart(final int run)\n
     '''
 def getRunLimit():
-    '''public int getRunLimit(final int run)
-    '''
-def requiresBidi():
-    '''public static boolean requiresBidi(final char[] text, final int start, final int limit)
-    '''
-def reorderVisually():
-    '''public static void reorderVisually(final byte[] levels, final int levelStart, final Object[] objects, final int objectStart, final int count)
+    '''returns int\n\n
+    getRunLimit(final int run)\n
     '''
 def writeReordered():
-    '''public String writeReordered(final int options)
-    '''
-def writeReverse():
-    '''public static String writeReverse(final String src, final int options)
+    '''returns String\n\n
+    writeReordered(final int options)\n
     '''

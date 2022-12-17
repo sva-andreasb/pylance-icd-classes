@@ -1,22 +1,28 @@
 INTLENGTH = "int  4"
-def OutputStructuredFieldStream():
-    '''public OutputStructuredFieldStream(final OutputStream outStream)
+def ():
+    '''returns OutputStructuredFieldStream\n\n
+    (final OutputStream outStream)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def writeHdr():
-    '''public void writeHdr(final byte b, final byte b2, final byte b3, final byte b4, final int n)
-    public void writeHdr(final StructuredFieldHeader structuredFieldHeader, final int n)
+    '''returns None\n\n
+    writeHdr(final byte b, final byte b2, final byte b3, final byte b4, final int n)\n
+    writeHdr(final StructuredFieldHeader structuredFieldHeader, final int n)\n
     '''
 def writeData():
-    '''public void writeData(final byte[] b)
-    public void writeData(final byte b)
-    public void writeData(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    writeData(final byte[] b)\n
+    writeData(final byte b)\n
+    writeData(final byte[] b, final int off, final int len)\n
     '''
 def writeInt():
-    '''public void writeInt(final int n)
+    '''returns None\n\n
+    writeInt(final int n)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

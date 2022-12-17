@@ -1,12 +1,12 @@
 def isDeclareKind():
-    '''public boolean isDeclareKind()
+    '''returns boolean\n\n
+    isDeclareKind()\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getKindFor():
-    '''public static Kind getKindFor(final String stringFormOfRelationshipKind)
+    '''returns String\n\n
+    getName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

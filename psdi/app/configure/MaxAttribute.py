@@ -1,3 +1,4 @@
-def MaxAttribute():
-    '''public MaxAttribute(final MboSet ms)
+def ():
+    '''returns MaxAttribute\n\n
+    (final MboSet ms)\n
     '''

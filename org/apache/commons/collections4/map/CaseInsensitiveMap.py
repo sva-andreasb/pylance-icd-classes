@@ -1,9 +1,7 @@
-def CaseInsensitiveMap():
-    '''public CaseInsensitiveMap()
-    public CaseInsensitiveMap(final int initialCapacity)
-    public CaseInsensitiveMap(final int initialCapacity, final float loadFactor)
-    public CaseInsensitiveMap(final Map<? extends K, ? extends V> map)
-    '''
-def clone():
-    '''public CaseInsensitiveMap<K, V> clone()
+def ():
+    '''returns CaseInsensitiveMap\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final Map<? extends K, ? extends V> map)\n
     '''

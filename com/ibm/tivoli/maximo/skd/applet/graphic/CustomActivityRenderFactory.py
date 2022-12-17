@@ -1,7 +1,9 @@
-def CustomActivityRenderFactory():
-    '''public CustomActivityRenderFactory(final IlvHierarchyChart hierarchyChart)
-    public CustomActivityRenderFactory(final IlvHierarchyChart hierarchyChart, final boolean addComplianceBars)
+def ():
+    '''returns CustomActivityRenderFactory\n\n
+    (final IlvHierarchyChart hierarchyChart)\n
+    (final IlvHierarchyChart hierarchyChart, final boolean addComplianceBars)\n
     '''
 def createActivityRenderer():
-    '''public IlvActivityRenderer createActivityRenderer(final IlvActivity activity)
+    '''returns IlvActivityRenderer\n\n
+    createActivityRenderer(final IlvActivity activity)\n
     '''

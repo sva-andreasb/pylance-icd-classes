@@ -1,3 +1,4 @@
-def UUIDDeserializer():
-    '''public UUIDDeserializer()
+def ():
+    '''returns UUIDDeserializer\n\n
+    ()\n
     '''

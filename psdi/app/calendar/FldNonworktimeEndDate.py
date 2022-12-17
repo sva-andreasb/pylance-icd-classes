@@ -1,6 +1,8 @@
-def FldNonworktimeEndDate():
-    '''public FldNonworktimeEndDate(final MboValue mbv)
+def ():
+    '''returns FldNonworktimeEndDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

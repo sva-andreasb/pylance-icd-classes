@@ -1,6 +1,8 @@
-def QueryCompilerHash():
-    '''public QueryCompilerHash(final SDBRequest request)
+def ():
+    '''returns QueryCompilerHash\n\n
+    (final SDBRequest request)\n
     '''
 def createQuadBlockCompiler():
-    '''public QuadBlockCompiler createQuadBlockCompiler()
+    '''returns QuadBlockCompiler\n\n
+    createQuadBlockCompiler()\n
     '''

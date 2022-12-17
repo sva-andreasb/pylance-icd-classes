@@ -1,6 +1,8 @@
-def EnumDeserializer():
-    '''public EnumDeserializer(final Class javaType, final QName xmlType)
+def ():
+    '''returns EnumDeserializer\n\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def makeValue():
-    '''public Object makeValue(final String source)
+    '''returns Object\n\n
+    makeValue(final String source)\n
     '''

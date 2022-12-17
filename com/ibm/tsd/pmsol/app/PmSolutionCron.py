@@ -1,9 +1,12 @@
-def PmSolutionCron():
-    '''public PmSolutionCron()
+def ():
+    '''returns PmSolutionCron\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

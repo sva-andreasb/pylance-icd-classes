@@ -1,22 +1,25 @@
 def getDescriptiveText():
-    '''public String getDescriptiveText()
-    public String getDescriptiveText(final String xmllang)
-    '''
-def getExtension():
-    '''public <PE extends ExtensionElement> PE getExtension(final String elementName, final String namespace)
+    '''returns String\n\n
+    getDescriptiveText()\n
+    getDescriptiveText(final String xmllang)\n
     '''
 def setDescriptiveTexts():
-    '''public B setDescriptiveTexts(final Map<String, String> descriptiveTexts)
+    '''returns B\n\n
+    setDescriptiveTexts(final Map<String, String> descriptiveTexts)\n
     '''
 def setDescriptiveEnText():
-    '''public B setDescriptiveEnText(final String descriptiveEnText)
+    '''returns B\n\n
+    setDescriptiveEnText(final String descriptiveEnText)\n
     '''
 def setTextNamespace():
-    '''public B setTextNamespace(final String textNamespace)
+    '''returns B\n\n
+    setTextNamespace(final String textNamespace)\n
     '''
 def setExtensions():
-    '''public B setExtensions(final List<ExtensionElement> extensions)
+    '''returns B\n\n
+    setExtensions(final List<ExtensionElement> extensions)\n
     '''
 def addExtension():
-    '''public B addExtension(final ExtensionElement extension)
+    '''returns B\n\n
+    addExtension(final ExtensionElement extension)\n
     '''

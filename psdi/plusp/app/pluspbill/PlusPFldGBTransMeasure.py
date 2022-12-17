@@ -1,7 +1,9 @@
-def PlusPFldGBTransMeasure():
-    '''public PlusPFldGBTransMeasure()
-    public PlusPFldGBTransMeasure(final MboValue mbv)
+def ():
+    '''returns PlusPFldGBTransMeasure\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

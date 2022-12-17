@@ -1,13 +1,13 @@
 def close():
-    '''public void close()
-    public void close()
-    '''
-def setReader():
-    '''public final void setReader(final Reader input)
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def read():
-    '''public int read(final char[] cbuf, final int off, final int len)
+    '''returns int\n\n
+    read(final char[] cbuf, final int off, final int len)\n
     '''

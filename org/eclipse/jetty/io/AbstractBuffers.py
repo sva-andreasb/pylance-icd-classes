@@ -1,18 +1,16 @@
-def AbstractBuffers():
-    '''public AbstractBuffers(final Type headerType, final int headerSize, final Type bufferType, final int bufferSize, final Type otherType)
+def ():
+    '''returns AbstractBuffers\n\n
+    (final Type headerType, final int headerSize, final Type bufferType, final int bufferSize, final Type otherType)\n
     '''
 def getBufferSize():
-    '''public int getBufferSize()
+    '''returns int\n\n
+    getBufferSize()\n
     '''
 def getHeaderSize():
-    '''public int getHeaderSize()
-    '''
-def isHeader():
-    '''public final boolean isHeader(final Buffer buffer)
-    '''
-def isBuffer():
-    '''public final boolean isBuffer(final Buffer buffer)
+    '''returns int\n\n
+    getHeaderSize()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

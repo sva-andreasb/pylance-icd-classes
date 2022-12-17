@@ -1,54 +1,71 @@
 def getFieldType():
-    '''public DateTimeFieldType getFieldType()
+    '''returns DateTimeFieldType\n\n
+    getFieldType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getAsString():
-    '''public String getAsString()
+    '''returns String\n\n
+    getAsString()\n
     '''
 def getAsText():
-    '''public String getAsText()
-    public String getAsText(final Locale locale)
+    '''returns String\n\n
+    getAsText()\n
+    getAsText(final Locale locale)\n
     '''
 def getAsShortText():
-    '''public String getAsShortText()
-    public String getAsShortText(final Locale locale)
+    '''returns String\n\n
+    getAsShortText()\n
+    getAsShortText(final Locale locale)\n
     '''
 def getDurationField():
-    '''public DurationField getDurationField()
+    '''returns DurationField\n\n
+    getDurationField()\n
     '''
 def getRangeDurationField():
-    '''public DurationField getRangeDurationField()
+    '''returns DurationField\n\n
+    getRangeDurationField()\n
     '''
 def getMinimumValueOverall():
-    '''public int getMinimumValueOverall()
+    '''returns int\n\n
+    getMinimumValueOverall()\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue()
+    '''returns int\n\n
+    getMinimumValue()\n
     '''
 def getMaximumValueOverall():
-    '''public int getMaximumValueOverall()
+    '''returns int\n\n
+    getMaximumValueOverall()\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue()
+    '''returns int\n\n
+    getMaximumValue()\n
     '''
 def getMaximumTextLength():
-    '''public int getMaximumTextLength(final Locale locale)
+    '''returns int\n\n
+    getMaximumTextLength(final Locale locale)\n
     '''
 def getMaximumShortTextLength():
-    '''public int getMaximumShortTextLength(final Locale locale)
+    '''returns int\n\n
+    getMaximumShortTextLength(final Locale locale)\n
     '''
 def compareTo():
-    '''public int compareTo(final ReadableInstant readableInstant)
-    public int compareTo(final ReadablePartial readablePartial)
+    '''returns int\n\n
+    compareTo(final ReadableInstant readableInstant)\n
+    compareTo(final ReadablePartial readablePartial)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,172 +1,229 @@
-def CacheProxyRequest():
-    '''public CacheProxyRequest(final HttpServletRequest proxiedRequest)
-    public CacheProxyRequest()
+def ():
+    '''returns CacheProxyRequest\n\n
+    (final HttpServletRequest proxiedRequest)\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setGeneratingId():
-    '''public void setGeneratingId(final boolean b)
+    '''returns None\n\n
+    setGeneratingId(final boolean b)\n
     '''
 def isGeneratingId():
-    '''public boolean isGeneratingId()
+    '''returns boolean\n\n
+    isGeneratingId()\n
     '''
 def getInputStream():
-    '''public ServletInputStream getInputStream()
+    '''returns ServletInputStream\n\n
+    getInputStream()\n
     '''
 def getReader():
-    '''public BufferedReader getReader()
+    '''returns BufferedReader\n\n
+    getReader()\n
     '''
 def setFragmentComposer():
-    '''public void setFragmentComposer(final FragmentComposer fragmentComposer)
+    '''returns None\n\n
+    setFragmentComposer(final FragmentComposer fragmentComposer)\n
     '''
 def unionDependencies():
-    '''public void unionDependencies(final EntryInfo entryInfo)
+    '''returns None\n\n
+    unionDependencies(final EntryInfo entryInfo)\n
     '''
 def _setFragmentInfo():
-    '''public void _setFragmentInfo(final FragmentInfo fragmentInfo)
+    '''returns None\n\n
+    _setFragmentInfo(final FragmentInfo fragmentInfo)\n
     '''
 def getInclude():
-    '''public boolean getInclude()
+    '''returns boolean\n\n
+    getInclude()\n
     '''
 def setInclude():
-    '''public void setInclude(final boolean include)
+    '''returns None\n\n
+    setInclude(final boolean include)\n
     '''
 def getNamedDispatch():
-    '''public boolean getNamedDispatch()
+    '''returns boolean\n\n
+    getNamedDispatch()\n
     '''
 def setNamedDispatch():
-    '''public void setNamedDispatch(final boolean namedDispatch)
+    '''returns None\n\n
+    setNamedDispatch(final boolean namedDispatch)\n
     '''
 def getPortletMethod():
-    '''public int getPortletMethod()
+    '''returns int\n\n
+    getPortletMethod()\n
     '''
 def setPortletMethod():
-    '''public void setPortletMethod(final int portletMethod)
+    '''returns None\n\n
+    setPortletMethod(final int portletMethod)\n
     '''
 def getPortletRequest():
-    '''public PortletRequest getPortletRequest()
+    '''returns PortletRequest\n\n
+    getPortletRequest()\n
     '''
 def setPortletRequest():
-    '''public void setPortletRequest(final PortletRequest portletRequest)
+    '''returns None\n\n
+    setPortletRequest(final PortletRequest portletRequest)\n
     '''
 def setRelativeUri():
-    '''public void setRelativeUri(final String relativeUri)
+    '''returns None\n\n
+    setRelativeUri(final String relativeUri)\n
     '''
 def getRelativeUri():
-    '''public String getRelativeUri()
+    '''returns String\n\n
+    getRelativeUri()\n
     '''
 def setAbsoluteUri():
-    '''public void setAbsoluteUri(final String absoluteUri)
+    '''returns None\n\n
+    setAbsoluteUri(final String absoluteUri)\n
     '''
 def getAbsoluteUri():
-    '''public String getAbsoluteUri()
+    '''returns String\n\n
+    getAbsoluteUri()\n
     '''
 def _setContextPath():
-    '''public void _setContextPath(final String contextPath)
+    '''returns None\n\n
+    _setContextPath(final String contextPath)\n
     '''
 def _getContextPath():
-    '''public String _getContextPath()
+    '''returns String\n\n
+    _getContextPath()\n
     '''
 def setServletName():
-    '''public void setServletName(final String servletName)
+    '''returns None\n\n
+    setServletName(final String servletName)\n
     '''
 def getServletName():
-    '''public String getServletName()
+    '''returns String\n\n
+    getServletName()\n
     '''
 def setServletClassName():
-    '''public void setServletClassName(final String servletClassName)
+    '''returns None\n\n
+    setServletClassName(final String servletClassName)\n
     '''
 def getServletClassName():
-    '''public String getServletClassName()
+    '''returns String\n\n
+    getServletClassName()\n
     '''
 def getCaching():
-    '''public boolean getCaching()
+    '''returns boolean\n\n
+    getCaching()\n
     '''
 def setCaching():
-    '''public void setCaching(final boolean b)
+    '''returns None\n\n
+    setCaching(final boolean b)\n
     '''
 def setUncacheable():
-    '''public void setUncacheable(final boolean uncacheable)
+    '''returns None\n\n
+    setUncacheable(final boolean uncacheable)\n
     '''
 def isUncacheable():
-    '''public boolean isUncacheable()
+    '''returns boolean\n\n
+    isUncacheable()\n
     '''
 def setAsyncID():
-    '''public void setAsyncID(final String id)
+    '''returns None\n\n
+    setAsyncID(final String id)\n
     '''
 def getAsyncID():
-    '''public String getAsyncID()
+    '''returns String\n\n
+    getAsyncID()\n
     '''
 def isArdParent():
-    '''public boolean isArdParent()
+    '''returns boolean\n\n
+    isArdParent()\n
     '''
 def setArdParent():
-    '''public void setArdParent(final boolean ardParent)
+    '''returns None\n\n
+    setArdParent(final boolean ardParent)\n
     '''
 def getAttributeTable():
-    '''public Hashtable getAttributeTable()
+    '''returns Hashtable\n\n
+    getAttributeTable()\n
     '''
 def getChangedAttributes():
-    '''public Attribute[] getChangedAttributes()
+    '''returns Attribute[]\n\n
+    getChangedAttributes()\n
     '''
 def setAttributeTableUnReadied():
-    '''public void setAttributeTableUnReadied(final Attribute[] unready)
+    '''returns None\n\n
+    setAttributeTableUnReadied(final Attribute[] unready)\n
     '''
 def removeAttributeTableUnReadied():
-    '''public Attribute[] removeAttributeTableUnReadied()
+    '''returns Attribute[]\n\n
+    removeAttributeTableUnReadied()\n
     '''
 def setAttributeTableBytes():
-    '''public void setAttributeTableBytes(final byte[] attributeTableBytes)
+    '''returns None\n\n
+    setAttributeTableBytes(final byte[] attributeTableBytes)\n
     '''
 def removeAttributeTableBytes():
-    '''public byte[] removeAttributeTableBytes()
+    '''returns byte[]\n\n
+    removeAttributeTableBytes()\n
     '''
 def isUnReadied():
-    '''public boolean isUnReadied()
+    '''returns boolean\n\n
+    isUnReadied()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String key)
+    '''returns Object\n\n
+    getAttribute(final String key)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String key, final Object value)
+    '''returns None\n\n
+    setAttribute(final String key, final Object value)\n
     '''
 def readyAttributes():
-    '''public void readyAttributes()
+    '''returns None\n\n
+    readyAttributes()\n
     '''
 def getPrivateAttribute():
-    '''public Object getPrivateAttribute(final String name)
+    '''returns Object\n\n
+    getPrivateAttribute(final String name)\n
     '''
 def getPrivateAttributeNames():
-    '''public Enumeration getPrivateAttributeNames()
+    '''returns Enumeration\n\n
+    getPrivateAttributeNames()\n
     '''
 def setPrivateAttribute():
-    '''public void setPrivateAttribute(final String name, final Object value)
+    '''returns None\n\n
+    setPrivateAttribute(final String name, final Object value)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getFragmentComposer():
-    '''public FragmentComposer getFragmentComposer()
+    '''returns FragmentComposer\n\n
+    getFragmentComposer()\n
     '''
 def isAsyncInclude():
-    '''public boolean isAsyncInclude()
+    '''returns boolean\n\n
+    isAsyncInclude()\n
     '''
 def setAsyncInclude():
-    '''public void setAsyncInclude(final boolean asyncInclude)
+    '''returns None\n\n
+    setAsyncInclude(final boolean asyncInclude)\n
     '''
 def isNestedDispatch():
-    '''public boolean isNestedDispatch()
+    '''returns boolean\n\n
+    isNestedDispatch()\n
     '''
 def setNestedDispatch():
-    '''public void setNestedDispatch(final boolean nestedDispatch)
+    '''returns None\n\n
+    setNestedDispatch(final boolean nestedDispatch)\n
     '''
 def isArdInThread():
-    '''public boolean isArdInThread()
+    '''returns boolean\n\n
+    isArdInThread()\n
     '''
 def setArdInThread():
-    '''public void setArdInThread(final boolean ardInThread)
+    '''returns None\n\n
+    setArdInThread(final boolean ardInThread)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,28 +1,29 @@
 def isMetricActivated():
-    '''public boolean isMetricActivated()
+    '''returns boolean\n\n
+    isMetricActivated()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''

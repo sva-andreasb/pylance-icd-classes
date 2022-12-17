@@ -1,6 +1,8 @@
-def ReconCompMatchesFoundExpression():
-    '''public ReconCompMatchesFoundExpression(final ReconInfo reconInfo)
+def ():
+    '''returns ReconCompMatchesFoundExpression\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def evaluateExpression():
-    '''public ReconCompResult evaluateExpression(final ComparisonQueryHelper queries)
+    '''returns ReconCompResult\n\n
+    evaluateExpression(final ComparisonQueryHelper queries)\n
     '''

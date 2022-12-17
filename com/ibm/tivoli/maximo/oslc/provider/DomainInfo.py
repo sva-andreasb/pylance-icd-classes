@@ -1,15 +1,20 @@
-def DomainInfo():
-    '''public DomainInfo(final String name, final String nsURI, final String providerobjname)
+def ():
+    '''returns DomainInfo\n\n
+    (final String name, final String nsURI, final String providerobjname)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getNsURI():
-    '''public String getNsURI()
+    '''returns String\n\n
+    getNsURI()\n
     '''
 def getProviderObjName():
-    '''public String getProviderObjName()
+    '''returns String\n\n
+    getProviderObjName()\n
     '''
 def getOSList():
-    '''public List<OslcResourceInfo> getOSList()
+    '''returns List<OslcResourceInfo>\n\n
+    getOSList()\n
     '''

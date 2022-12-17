@@ -1,15 +1,20 @@
 def validate():
-    '''public void validate(final Source source)
+    '''returns None\n\n
+    validate(final Source source)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String s)
+    '''returns boolean\n\n
+    getFeature(final String s)\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean b)
+    '''returns None\n\n
+    setFeature(final String s, final boolean b)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''

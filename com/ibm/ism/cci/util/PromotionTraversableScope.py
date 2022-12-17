@@ -1,36 +1,38 @@
-def PromotionTraversableScope():
-    '''public PromotionTraversableScope(final String topAuthCIClass, final boolean isActual)
+def ():
+    '''returns RelationRuleHashObject\n\n
+    (final String topAuthCIClass, final boolean isActual)\n
+    ()\n
+    ()\n
     '''
 def getNextItems():
-    '''public void getNextItems(final TraversalState traversalState, final UserInfo userInfo)
+    '''returns None\n\n
+    getNextItems(final TraversalState traversalState, final UserInfo userInfo)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
-    '''
-def CCITraversalCache():
-    '''public CCITraversalCache()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def populateCacheForPromotion():
-    '''public void populateCacheForPromotion(final String topAuthCIClass)
+    '''returns None\n\n
+    populateCacheForPromotion(final String topAuthCIClass)\n
     '''
 def getRelationRulesForClassID():
-    '''public ArrayList<RelationRuleInfo> getRelationRulesForClassID(final String authClassID, final boolean isSource)
+    '''returns ArrayList<RelationRuleInfo>\n\n
+    getRelationRulesForClassID(final String authClassID, final boolean isSource)\n
     '''
 def getRelationRulesForActClassID():
-    '''public ArrayList<RelationRuleInfo> getRelationRulesForActClassID(final String actClassID, final boolean isSource)
-    '''
-def getTemplateCache():
-    '''public HashMap<String, String> getTemplateCache()
+    '''returns ArrayList<RelationRuleInfo>\n\n
+    getRelationRulesForActClassID(final String actClassID, final boolean isSource)\n
     '''
 def testOutPut():
-    '''public void testOutPut(final String topAuthCIClass)
-    '''
-def RelationRuleHashObject():
-    '''public RelationRuleHashObject()
+    '''returns None\n\n
+    testOutPut(final String topAuthCIClass)\n
     '''
 def getClassIsASourceList():
-    '''public ArrayList<RelationRuleInfo> getClassIsASourceList()
+    '''returns ArrayList<RelationRuleInfo>\n\n
+    getClassIsASourceList()\n
     '''
 def getClassIsATargetList():
-    '''public ArrayList<RelationRuleInfo> getClassIsATargetList()
+    '''returns ArrayList<RelationRuleInfo>\n\n
+    getClassIsATargetList()\n
     '''

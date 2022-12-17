@@ -1,42 +1,51 @@
-def AuthMap():
-    '''public AuthMap()
+def ():
+    '''returns AuthMap\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final Auth obj)
+    '''returns None\n\n
+    add(final Auth obj)\n
     '''
 def addGenericAuth():
-    '''public void addGenericAuth(final GenericAuth ga)
+    '''returns None\n\n
+    addGenericAuth(final GenericAuth ga)\n
     '''
 def get():
-    '''public Auth get(final int index)
-    public ArrayList get(final Class cl, final IpAddress ip)
-    '''
-def getData():
-    '''public static String getData(final Auth auth)
+    '''returns ArrayList\n\n
+    get(final int index)\n
+    get(final Class cl, final IpAddress ip)\n
     '''
 def remove():
-    '''public void remove(final int index)
+    '''returns None\n\n
+    remove(final int index)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def seal():
-    '''public void seal()
-    public void seal(final Key key)
+    '''returns None\n\n
+    seal()\n
+    seal(final Key key)\n
     '''
 def unSeal():
-    '''public void unSeal()
-    public void unSeal(final Key key)
+    '''returns None\n\n
+    unSeal()\n
+    unSeal(final Key key)\n
     '''
 def getAuthArray():
-    '''public Auth[] getAuthArray()
+    '''returns Auth[]\n\n
+    getAuthArray()\n
     '''
 def getGenericAuthArray():
-    '''public GenericAuth[] getGenericAuthArray()
+    '''returns GenericAuth[]\n\n
+    getGenericAuthArray()\n
     '''
 def setAuthArray():
-    '''public void setAuthArray(final Auth[] authArray)
+    '''returns None\n\n
+    setAuthArray(final Auth[] authArray)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

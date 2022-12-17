@@ -1,21 +1,28 @@
-def AppenderAdmin():
-    '''public AppenderAdmin(final String contextName, final Appender appender)
+def ():
+    '''returns AppenderAdmin\n\n
+    (final String contextName, final Appender appender)\n
     '''
 def getObjectName():
-    '''public ObjectName getObjectName()
+    '''returns ObjectName\n\n
+    getObjectName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getLayout():
-    '''public String getLayout()
+    '''returns String\n\n
+    getLayout()\n
     '''
 def isIgnoreExceptions():
-    '''public boolean isIgnoreExceptions()
+    '''returns boolean\n\n
+    isIgnoreExceptions()\n
     '''
 def getErrorHandler():
-    '''public String getErrorHandler()
+    '''returns String\n\n
+    getErrorHandler()\n
     '''
 def getFilter():
-    '''public String getFilter()
+    '''returns String\n\n
+    getFilter()\n
     '''

@@ -1,4 +1,5 @@
-def DepartQueuePacket():
-    '''public DepartQueuePacket(final EntityBareJid workgroup)
-    public DepartQueuePacket(final EntityBareJid workgroup, final EntityJid user)
+def ():
+    '''returns DepartQueuePacket\n\n
+    (final EntityBareJid workgroup)\n
+    (final EntityBareJid workgroup, final EntityJid user)\n
     '''

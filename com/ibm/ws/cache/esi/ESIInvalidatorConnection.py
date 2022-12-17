@@ -1,6 +1,8 @@
 def initialValue():
-    '''public Object initialValue()
+    '''returns Object\n\n
+    initialValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

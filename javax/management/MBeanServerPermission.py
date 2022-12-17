@@ -1,16 +1,21 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
-def MBeanServerPermission():
-    '''public MBeanServerPermission(final String s)
-    public MBeanServerPermission(final String s, final String s2)
+def ():
+    '''returns MBeanServerPermission\n\n
+    (final String s)\n
+    (final String s, final String s2)\n
     '''
 def implies():
-    '''public boolean implies(final Permission permission)
+    '''returns boolean\n\n
+    implies(final Permission permission)\n
     '''
 def newPermissionCollection():
-    '''public PermissionCollection newPermissionCollection()
+    '''returns PermissionCollection\n\n
+    newPermissionCollection()\n
     '''

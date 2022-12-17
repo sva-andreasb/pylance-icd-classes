@@ -1,9 +1,12 @@
-def ForgotPassword():
-    '''public ForgotPassword(final MboSet ms)
+def ():
+    '''returns ForgotPassword\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def requestPassword():
-    '''public void requestPassword()
+    '''returns None\n\n
+    requestPassword()\n
     '''

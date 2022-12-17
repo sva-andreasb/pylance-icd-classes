@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloMonitoringManager():
-    '''public IloMonitoringManager()
+def ():
+    '''returns IloMonitoringManager\n\n
+    ()\n
     '''
 def addEngineListener():
-    '''public void addEngineListener(final IloIntermediateResultListener i)
+    '''returns None\n\n
+    addEngineListener(final IloIntermediateResultListener i)\n
     '''
 def goalUpdateHappened():
-    '''public void goalUpdateHappened(final boolean hasSolution, final IloGoalReport goalReport, final long timeMilli)
+    '''returns None\n\n
+    goalUpdateHappened(final boolean hasSolution, final IloGoalReport goalReport, final long timeMilli)\n
     '''
 def resultUpdateHappened():
-    '''public void resultUpdateHappened(final boolean hasSolution, final IloGoalReport goalReport, final long timeMilli)
+    '''returns None\n\n
+    resultUpdateHappened(final boolean hasSolution, final IloGoalReport goalReport, final long timeMilli)\n
     '''
 def enginePhaseChanged():
-    '''public void enginePhaseChanged(final IloEnginePhase newPhase)
+    '''returns None\n\n
+    enginePhaseChanged(final IloEnginePhase newPhase)\n
     '''

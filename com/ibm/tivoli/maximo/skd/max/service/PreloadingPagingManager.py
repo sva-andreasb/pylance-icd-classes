@@ -1,12 +1,16 @@
-def PreloadingPagingManager():
-    '''public PreloadingPagingManager(final int preloadPagees, final PagingManager other)
+def ():
+    '''returns PreloadingPagingManager\n\n
+    (final int preloadPagees, final PagingManager other)\n
     '''
 def getPage():
-    '''public Page getPage(final int page)
+    '''returns Page\n\n
+    getPage(final int page)\n
     '''
 def call():
-    '''public Page call()
+    '''returns Page\n\n
+    call()\n
     '''
 def getChildren():
-    '''public JSONArray getChildren(final Activity parentActivity)
+    '''returns JSONArray\n\n
+    getChildren(final Activity parentActivity)\n
     '''

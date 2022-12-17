@@ -1,25 +1,33 @@
 def withPresence():
-    '''public Builder withPresence(final Presence presence)
+    '''returns Builder\n\n
+    withPresence(final Presence presence)\n
     '''
 def withPassword():
-    '''public Builder withPassword(final String password)
+    '''returns Builder\n\n
+    withPassword(final String password)\n
     '''
 def timeoutAfter():
-    '''public Builder timeoutAfter(final long timeout)
+    '''returns Builder\n\n
+    timeoutAfter(final long timeout)\n
     '''
 def requestNoHistory():
-    '''public Builder requestNoHistory()
+    '''returns Builder\n\n
+    requestNoHistory()\n
     '''
 def requestMaxCharsHistory():
-    '''public Builder requestMaxCharsHistory(final int maxChars)
+    '''returns Builder\n\n
+    requestMaxCharsHistory(final int maxChars)\n
     '''
 def requestMaxStanzasHistory():
-    '''public Builder requestMaxStanzasHistory(final int maxStanzas)
+    '''returns Builder\n\n
+    requestMaxStanzasHistory(final int maxStanzas)\n
     '''
 def requestHistorySince():
-    '''public Builder requestHistorySince(final int seconds)
-    public Builder requestHistorySince(final Date since)
+    '''returns Builder\n\n
+    requestHistorySince(final int seconds)\n
+    requestHistorySince(final Date since)\n
     '''
 def build():
-    '''public MucEnterConfiguration build()
+    '''returns MucEnterConfiguration\n\n
+    build()\n
     '''

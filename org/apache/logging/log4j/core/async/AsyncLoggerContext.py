@@ -1,22 +1,28 @@
-def AsyncLoggerContext():
-    '''public AsyncLoggerContext(final String name)
-    public AsyncLoggerContext(final String name, final Object externalContext)
-    public AsyncLoggerContext(final String name, final Object externalContext, final URI configLocn)
-    public AsyncLoggerContext(final String name, final Object externalContext, final String configLocn)
+def ():
+    '''returns AsyncLoggerContext\n\n
+    (final String name)\n
+    (final String name, final Object externalContext)\n
+    (final String name, final Object externalContext, final URI configLocn)\n
+    (final String name, final Object externalContext, final String configLocn)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def start():
-    '''public void start()
-    public void start(final Configuration config)
+    '''returns None\n\n
+    start()\n
+    start(final Configuration config)\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def createRingBufferAdmin():
-    '''public RingBufferAdmin createRingBufferAdmin()
+    '''returns RingBufferAdmin\n\n
+    createRingBufferAdmin()\n
     '''
 def setUseThreadLocals():
-    '''public void setUseThreadLocals(final boolean useThreadLocals)
+    '''returns None\n\n
+    setUseThreadLocals(final boolean useThreadLocals)\n
     '''

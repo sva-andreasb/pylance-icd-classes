@@ -1,3 +1,4 @@
 def unmarshall():
-    '''public T unmarshall(final StaxUnmarshallerContext context)
+    '''returns T\n\n
+    unmarshall(final StaxUnmarshallerContext context)\n
     '''

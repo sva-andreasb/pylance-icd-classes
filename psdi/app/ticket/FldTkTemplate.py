@@ -1,12 +1,16 @@
-def FldTkTemplate():
-    '''public FldTkTemplate(final MboValue mbv)
+def ():
+    '''returns FldTkTemplate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

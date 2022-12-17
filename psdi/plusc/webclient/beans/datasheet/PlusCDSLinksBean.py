@@ -1,12 +1,8 @@
-def PlusCDSLinksBean():
-    '''public PlusCDSLinksBean()
-    '''
-def execute():
-    '''public synchronized int execute()
-    '''
-def close():
-    '''public synchronized void close()
+def ():
+    '''returns PlusCDSLinksBean\n\n
+    ()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

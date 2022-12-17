@@ -1,9 +1,12 @@
-def TableRowColumnController():
-    '''public TableRowColumnController(final JTable table, final RowListener rowListener, final ColumnListener colListener)
+def ():
+    '''returns TableRowColumnController\n\n
+    (final JTable table, final RowListener rowListener, final ColumnListener colListener)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent e)
+    '''returns None\n\n
+    mouseExited(final MouseEvent e)\n
     '''
 def mouseMoved():
-    '''public void mouseMoved(final MouseEvent e)
+    '''returns None\n\n
+    mouseMoved(final MouseEvent e)\n
     '''

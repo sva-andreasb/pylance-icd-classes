@@ -1,6 +1,8 @@
 def compare():
-    '''public int compare(final IlvActivity a1, final IlvActivity a2)
+    '''returns int\n\n
+    compare(final IlvActivity a1, final IlvActivity a2)\n
     '''
 def changesSortOrder():
-    '''public boolean changesSortOrder(final ActivityPropertyEvent event)
+    '''returns boolean\n\n
+    changesSortOrder(final ActivityPropertyEvent event)\n
     '''

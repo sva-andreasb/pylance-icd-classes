@@ -1,3 +1,4 @@
-def UnresolvableException():
-    '''public UnresolvableException(final String message)
+def ():
+    '''returns UnresolvableException\n\n
+    (final String message)\n
     '''

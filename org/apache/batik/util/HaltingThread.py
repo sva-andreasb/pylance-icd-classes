@@ -1,23 +1,19 @@
-def HaltingThread():
-    '''public HaltingThread()
-    public HaltingThread(final Runnable r)
-    public HaltingThread(final String name)
-    public HaltingThread(final Runnable r, final String name)
+def ():
+    '''returns HaltingThread\n\n
+    ()\n
+    (final Runnable r)\n
+    (final String name)\n
+    (final Runnable r, final String name)\n
     '''
 def isHalted():
-    '''public boolean isHalted()
+    '''returns boolean\n\n
+    isHalted()\n
     '''
 def halt():
-    '''public void halt()
+    '''returns None\n\n
+    halt()\n
     '''
 def clearHalted():
-    '''public void clearHalted()
-    '''
-def haltThread():
-    '''public static void haltThread()
-    public static void haltThread(final Thread t)
-    '''
-def hasBeenHalted():
-    '''public static boolean hasBeenHalted()
-    public static boolean hasBeenHalted(final Thread t)
+    '''returns None\n\n
+    clearHalted()\n
     '''

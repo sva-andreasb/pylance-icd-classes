@@ -1,18 +1,17 @@
-def XSSFImportFromXML():
-    '''public XSSFImportFromXML(final XSSFMap map)
+def ():
+    '''returns DefaultNamespaceContext\n\n
+    (final XSSFMap map)\n
+    (final Document doc)\n
     '''
 def importFromXML():
-    '''public void importFromXML(final String xmlInputString)
-    '''
-def getDataType():
-    '''public static DataType getDataType(final STXmlDataType.Enum xmlDataType)
-    '''
-def DefaultNamespaceContext():
-    '''public DefaultNamespaceContext(final Document doc)
+    '''returns None\n\n
+    importFromXML(final String xmlInputString)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI(final String prefix)
+    '''returns String\n\n
+    getNamespaceURI(final String prefix)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String uri)
+    '''returns String\n\n
+    getPrefix(final String uri)\n
     '''

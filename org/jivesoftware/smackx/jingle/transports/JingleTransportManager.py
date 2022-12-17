@@ -1,15 +1,20 @@
-def JingleTransportManager():
-    '''public JingleTransportManager(final XMPPConnection connection)
+def ():
+    '''returns JingleTransportManager\n\n
+    (final XMPPConnection connection)\n
     '''
 def getConnection():
-    '''public XMPPConnection getConnection()
+    '''returns XMPPConnection\n\n
+    getConnection()\n
     '''
 def connected():
-    '''public void connected(final XMPPConnection connection)
+    '''returns None\n\n
+    connected(final XMPPConnection connection)\n
     '''
 def connectionClosed():
-    '''public void connectionClosed()
+    '''returns None\n\n
+    connectionClosed()\n
     '''
 def connectionClosedOnError():
-    '''public void connectionClosedOnError(final Exception e)
+    '''returns None\n\n
+    connectionClosedOnError(final Exception e)\n
     '''

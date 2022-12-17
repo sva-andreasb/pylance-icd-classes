@@ -1,9 +1,12 @@
-def MaxWOHierarchyProcess():
-    '''public MaxWOHierarchyProcess()
+def ():
+    '''returns MaxWOHierarchyProcess\n\n
+    ()\n
     '''
 def afterProcess():
-    '''public void afterProcess()
+    '''returns None\n\n
+    afterProcess()\n
     '''
 def processStatefulSet():
-    '''public void processStatefulSet(final MboSetRemote set)
+    '''returns None\n\n
+    processStatefulSet(final MboSetRemote set)\n
     '''

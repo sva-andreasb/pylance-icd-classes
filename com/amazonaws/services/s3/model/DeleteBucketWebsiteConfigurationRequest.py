@@ -1,3 +1,4 @@
-def DeleteBucketWebsiteConfigurationRequest():
-    '''public DeleteBucketWebsiteConfigurationRequest(final String bucketName)
+def ():
+    '''returns DeleteBucketWebsiteConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

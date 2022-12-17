@@ -1,7 +1,9 @@
-def FldRouteSummary():
-    '''public FldRouteSummary(final MboValue mbv)
-    public FldRouteSummary(final MboValue mbv, final String criteriaName)
+def ():
+    '''returns FldRouteSummary\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String criteriaName)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

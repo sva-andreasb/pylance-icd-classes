@@ -1,9 +1,12 @@
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def testjson():
-    '''public int testjson()
+    '''returns int\n\n
+    testjson()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

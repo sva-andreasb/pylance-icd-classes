@@ -1,20 +1,26 @@
-def CustomProperty():
-    '''public CustomProperty()
-    public CustomProperty(final Property property)
-    public CustomProperty(final Property property, final String name)
+def ():
+    '''returns CustomProperty\n\n
+    ()\n
+    (final Property property)\n
+    (final Property property, final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def equalsContents():
-    '''public boolean equalsContents(final Object o)
+    '''returns boolean\n\n
+    equalsContents(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

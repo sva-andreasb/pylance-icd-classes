@@ -1,23 +1,30 @@
-def Guid():
-    '''public Guid(final String str)
-    public Guid(final byte[] bytes)
-    public Guid(final byte[] bytes, final boolean adopt)
+def ():
+    '''returns Guid\n\n
+    (final String str)\n
+    (final byte[] bytes)\n
+    (final byte[] bytes, final boolean adopt)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
+    '''returns int\n\n
+    compareTo(final Object obj)\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray()
+    '''returns byte[]\n\n
+    toByteArray()\n
     '''

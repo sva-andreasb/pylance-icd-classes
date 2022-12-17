@@ -1,12 +1,16 @@
-def IlvFilteredGraphicEnumeration():
-    '''public IlvFilteredGraphicEnumeration(final IlvGraphicEnumeration a, final IlvGraphicFilter b)
+def ():
+    '''returns IlvFilteredGraphicEnumeration\n\n
+    (final IlvGraphicEnumeration a, final IlvGraphicFilter b)\n
     '''
 def getFilter():
-    '''public IlvGraphicFilter getFilter()
+    '''returns IlvGraphicFilter\n\n
+    getFilter()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public IlvGraphic nextElement()
+    '''returns IlvGraphic\n\n
+    nextElement()\n
     '''

@@ -1,12 +1,16 @@
-def HttpRequestModifyWrapper():
-    '''public HttpRequestModifyWrapper(final HttpServletRequest servletRequest)
+def ():
+    '''returns HttpRequestModifyWrapper\n\n
+    (final HttpServletRequest servletRequest)\n
     '''
 def getParameterValues():
-    '''public String[] getParameterValues(final String parameter)
+    '''returns String[]\n\n
+    getParameterValues(final String parameter)\n
     '''
 def getParameter():
-    '''public String getParameter(final String parameter)
+    '''returns String\n\n
+    getParameter(final String parameter)\n
     '''
 def securitySafeWithHTMLEncoding():
-    '''public String securitySafeWithHTMLEncoding(final String aText)
+    '''returns String\n\n
+    securitySafeWithHTMLEncoding(final String aText)\n
     '''

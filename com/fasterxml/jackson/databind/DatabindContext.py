@@ -1,18 +1,16 @@
 def constructType():
-    '''public JavaType constructType(final Type type)
+    '''returns JavaType\n\n
+    constructType(final Type type)\n
     '''
 def constructSpecializedType():
-    '''public JavaType constructSpecializedType(final JavaType baseType, final Class<?> subclass)
+    '''returns JavaType\n\n
+    constructSpecializedType(final JavaType baseType, final Class<?> subclass)\n
     '''
 def resolveSubType():
-    '''public JavaType resolveSubType(final JavaType baseType, final String subClass)
+    '''returns JavaType\n\n
+    resolveSubType(final JavaType baseType, final String subClass)\n
     '''
 def objectIdResolverInstance():
-    '''public ObjectIdResolver objectIdResolverInstance(final Annotated annotated, final ObjectIdInfo objectIdInfo)
-    '''
-def converterInstance():
-    '''public Converter<Object, Object> converterInstance(final Annotated annotated, final Object converterDef)
-    '''
-def reportBadDefinition():
-    '''public <T> T reportBadDefinition(final Class<?> type, final String msg)
+    '''returns ObjectIdResolver\n\n
+    objectIdResolverInstance(final Annotated annotated, final ObjectIdInfo objectIdInfo)\n
     '''

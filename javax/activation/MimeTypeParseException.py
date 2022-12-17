@@ -1,4 +1,5 @@
-def MimeTypeParseException():
-    '''public MimeTypeParseException()
-    public MimeTypeParseException(final String s)
+def ():
+    '''returns MimeTypeParseException\n\n
+    ()\n
+    (final String s)\n
     '''

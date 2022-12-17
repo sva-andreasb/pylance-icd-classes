@@ -1,3 +1,4 @@
-def InbCommSecuritySet():
-    '''public InbCommSecuritySet(final MboServerInterface ms)
+def ():
+    '''returns InbCommSecuritySet\n\n
+    (final MboServerInterface ms)\n
     '''

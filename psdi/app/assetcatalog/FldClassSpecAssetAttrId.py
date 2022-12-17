@@ -1,18 +1,24 @@
-def FldClassSpecAssetAttrId():
-    '''public FldClassSpecAssetAttrId(final MboValue mbv)
+def ():
+    '''returns FldClassSpecAssetAttrId\n\n
+    (final MboValue mbv)\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFill(final String value, final boolean exact)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

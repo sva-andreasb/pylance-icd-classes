@@ -1,7 +1,9 @@
-def CCIFldCreateRelatedCIs():
-    '''public CCIFldCreateRelatedCIs()
-    public CCIFldCreateRelatedCIs(final MboValue mbv)
+def ():
+    '''returns CCIFldCreateRelatedCIs\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,3 +1,4 @@
 def click():
-    '''public int click()
+    '''returns int\n\n
+    click()\n
     '''

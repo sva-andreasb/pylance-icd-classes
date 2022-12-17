@@ -1,3 +1,4 @@
 def hasImageAttached():
-    '''public boolean hasImageAttached()
+    '''returns boolean\n\n
+    hasImageAttached()\n
     '''

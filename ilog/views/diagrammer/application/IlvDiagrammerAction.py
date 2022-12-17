@@ -1,215 +1,144 @@
 ABOUT_APPLICATION_NAME = "String  \"AboutApplicationName\""
-def perform():
-    '''public final void perform(final ActionEvent actionEvent, final Component component)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer parentComponent)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public final void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public final void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer parentComponent)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer obj)
-    public void perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)
-    public final void perform(final ComponentAction componentAction, final Component component, final ActionEvent actionEvent)
-    '''
 def call():
-    '''public void call(final IlvDiagrammer ilvDiagrammer)
+    '''returns None\n\n
+    call(final IlvDiagrammer ilvDiagrammer)\n
     '''
 def setHandler():
-    '''public void setHandler(final Handler handler)
+    '''returns None\n\n
+    setHandler(final Handler handler)\n
     '''
-def getActionFileChooser():
-    '''public static JFileChooser getActionFileChooser()
-    '''
-def getFileChooserDirectory():
-    '''public static File getFileChooserDirectory()
-    '''
-def setFileChooserDirectory():
-    '''public static void setFileChooserDirectory(final File f)
-    '''
-def getDefaultSelectedFile():
-    '''public static File getDefaultSelectedFile()
-    '''
-def setDefaultSelectedFile():
-    '''public static void setDefaultSelectedFile(final File h)
-    '''
-def chooseFile():
-    '''public static URL chooseFile(final Component component, final boolean dialogType, final ResourceBundle resourceBundle, final String s, final String[] array, final String[] array2)
-    '''
-def getErrorHandler():
-    '''public static ErrorHandler getErrorHandler()
-    '''
-def setErrorHandler():
-    '''public static void setErrorHandler(final ErrorHandler errorHandler)
-    '''
-def addStatusListener():
-    '''public static void addStatusListener(final StatusListener key)
-    '''
-def removeStatusListener():
-    '''public static void removeStatusListener(final StatusListener statusListener)
-    '''
-def updateActions():
-    '''public static void updateActions(final Component component, final IlvDiagrammer ilvDiagrammer)
-    '''
-def addActionToUpdate():
-    '''public static void addActionToUpdate(final IlvDiagrammerAction ilvDiagrammerAction)
-    '''
-def removeActionToUpdate():
-    '''public static void removeActionToUpdate(final IlvDiagrammerAction ilvDiagrammerAction)
+def perform():
+    '''returns None\n\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer parentComponent)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer parentComponent)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer obj)\n
+    perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)\n
     '''
 def targetChanged():
-    '''public void targetChanged(final ComponentContextEvent componentContextEvent)
+    '''returns None\n\n
+    targetChanged(final ComponentContextEvent componentContextEvent)\n
     '''
-def ModelUpdateActionsListener():
-    '''public ModelUpdateActionsListener(final IlvDiagrammer a)
+def ():
+    '''returns MethodAction\n\n
+    (final IlvDiagrammer a)\n
+    (final StatusListener a)\n
+    (final Object o)\n
+    (final ErrorHandler a)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    (final String s)\n
+    ()\n
+    ()\n
+    ()\n
+    (final ResourceBundle resourceBundle)\n
+    ()\n
+    ()\n
+    (final String s, final ResourceBundle resourceBundle, final boolean b)\n
+    (final String s, final ResourceBundle resourceBundle, final boolean a, final String[] b, final String[] c)\n
+    (final String a, final String b)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    (final String s, final ResourceBundle resourceBundle, final boolean b)\n
+    ()\n
+    (final String s)\n
+    (final String s, final ResourceBundle resourceBundle)\n
+    ()\n
+    (final String s, final String s2, final boolean a)\n
+    (final String s, final String a, final String b)\n
     '''
 def propertyChanged():
-    '''public void propertyChanged(final SDMPropertyChangeEvent sdmPropertyChangeEvent)
+    '''returns None\n\n
+    propertyChanged(final SDMPropertyChangeEvent sdmPropertyChangeEvent)\n
     '''
 def contentsChanged():
-    '''public void contentsChanged(final ManagerContentChangedEvent managerContentChangedEvent)
+    '''returns None\n\n
+    contentsChanged(final ManagerContentChangedEvent managerContentChangedEvent)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)
+    '''returns None\n\n
+    selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def interactorChanged():
-    '''public void interactorChanged(final InteractorChangedEvent interactorChangedEvent)
+    '''returns None\n\n
+    interactorChanged(final InteractorChangedEvent interactorChangedEvent)\n
     '''
 def transformerChanged():
-    '''public void transformerChanged(final TransformerChangedEvent transformerChangedEvent)
-    '''
-def StatusAdapter():
-    '''public StatusAdapter(final StatusListener a)
+    '''returns None\n\n
+    transformerChanged(final TransformerChangedEvent transformerChangedEvent)\n
     '''
 def actionDescribed():
-    '''public void actionDescribed(final ComponentAction.StatusEvent statusEvent)
+    '''returns None\n\n
+    actionDescribed(final ComponentAction.StatusEvent statusEvent)\n
     '''
 def actionStarted():
-    '''public void actionStarted(final ComponentAction.StatusEvent statusEvent)
+    '''returns None\n\n
+    actionStarted(final ComponentAction.StatusEvent statusEvent)\n
     '''
 def actionFinished():
-    '''public void actionFinished(final ComponentAction.StatusEvent statusEvent)
-    '''
-def StatusEvent():
-    '''public StatusEvent(final Object o)
+    '''returns None\n\n
+    actionFinished(final ComponentAction.StatusEvent statusEvent)\n
     '''
 def getDiagrammerAction():
-    '''public IlvDiagrammerAction getDiagrammerAction()
-    '''
-def ErrorAdapter():
-    '''public ErrorAdapter(final ErrorHandler a)
+    '''returns IlvDiagrammerAction\n\n
+    getDiagrammerAction()\n
     '''
 def getHandler():
-    '''public ErrorHandler getHandler()
+    '''returns ErrorHandler\n\n
+    getHandler()\n
     '''
 def error():
-    '''public void error(final Component component, final ResourceBundle resourceBundle, String s, final Object[] arguments, Throwable t)
-    '''
-def CallBuilder():
-    '''public CallBuilder()
-    '''
-def PrintWithDialog():
-    '''public PrintWithDialog()
+    '''returns None\n\n
+    error(final Component component, final ResourceBundle resourceBundle, String s, final Object[] arguments, Throwable t)\n
     '''
 def exceptionThrown():
-    '''public void exceptionThrown(final PrinterException ex, final IlvDiagrammer ilvDiagrammer)
-    '''
-def PrintWithoutDialog():
-    '''public PrintWithoutDialog()
-    '''
-def HelpAction():
-    '''public HelpAction()
-    '''
-def EnabledAction():
-    '''public EnabledAction(final String s)
-    '''
-def AboutAction():
-    '''public AboutAction()
-    '''
-def ExitAction():
-    '''public ExitAction()
-    '''
-def Close():
-    '''public Close()
-    '''
-def New():
-    '''public New(final ResourceBundle resourceBundle)
-    public New()
-    '''
-def Open():
-    '''public Open()
-    '''
-def XMLFileAction():
-    '''public XMLFileAction(final String s, final ResourceBundle resourceBundle, final boolean b)
-    '''
-def FileAction():
-    '''public FileAction(final String s, final ResourceBundle resourceBundle, final boolean a, final String[] b, final String[] c)
+    '''returns None\n\n
+    exceptionThrown(final PrinterException ex, final IlvDiagrammer ilvDiagrammer)\n
     '''
 def setSuffixes():
-    '''public void setSuffixes(final String[] b)
+    '''returns None\n\n
+    setSuffixes(final String[] b)\n
     '''
 def setDescriptionKeys():
-    '''public void setDescriptionKeys(final String[] c)
-    '''
-def MyFileFilter():
-    '''public MyFileFilter(final String a, final String b)
+    '''returns None\n\n
+    setDescriptionKeys(final String[] c)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getSuffix():
-    '''public String getSuffix()
-    '''
-def PrintToBitmap():
-    '''public PrintToBitmap()
-    '''
-def SaveAction():
-    '''public SaveAction()
-    '''
-def SaveAsAction():
-    '''public SaveAsAction()
-    '''
-def OpenStyleSheetAction():
-    '''public OpenStyleSheetAction()
-    '''
-def CSSFileAction():
-    '''public CSSFileAction(final String s, final ResourceBundle resourceBundle, final boolean b)
-    '''
-def ReadAction():
-    '''public ReadAction()
-    '''
-def ToggleAction():
-    '''public ToggleAction(final String s)
-    public ToggleAction(final String s, final ResourceBundle resourceBundle)
+    '''returns String\n\n
+    getSuffix()\n
     '''
 def isSelectable():
-    '''public boolean isSelectable()
-    '''
-def GridSpacingAction():
-    '''public GridSpacingAction()
-    '''
-def AlignAction():
-    '''public AlignAction(final String s, final String s2, final boolean a)
-    '''
-def MethodAction():
-    '''public MethodAction(final String s, final String a, final String b)
+    '''returns boolean\n\n
+    isSelectable()\n
     '''
 def update():
-    '''public void update(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer)
-    public final void update(final ComponentAction componentAction, final Component component)
+    '''returns None\n\n
+    update(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer)\n
     '''

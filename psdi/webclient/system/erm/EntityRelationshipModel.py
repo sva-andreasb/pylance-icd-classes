@@ -1,64 +1,73 @@
-def EntityRelationshipModel():
-    '''public EntityRelationshipModel(final String id)
-    public EntityRelationshipModel()
+def ():
+    '''returns EntityRelationshipModel\n\n
+    (final String id)\n
+    ()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def putTopLevelEntity():
-    '''public void putTopLevelEntity(final String datasrc, final UIERMEntity entity)
+    '''returns None\n\n
+    putTopLevelEntity(final String datasrc, final UIERMEntity entity)\n
     '''
 def putEntity():
-    '''public void putEntity(final String datasrc, final UIERMEntity entity)
-    '''
-def getTopLevelEntities():
-    '''public Map<String, UIERMEntity> getTopLevelEntities()
+    '''returns None\n\n
+    putEntity(final String datasrc, final UIERMEntity entity)\n
     '''
 def findEntity():
-    '''public UIERMEntity findEntity(final String datasrc)
+    '''returns UIERMEntity\n\n
+    findEntity(final String datasrc)\n
     '''
 def generateERMXML():
-    '''public StringBuilder generateERMXML()
+    '''returns StringBuilder\n\n
+    generateERMXML()\n
     '''
 def dialogEntityExists():
-    '''public boolean dialogEntityExists(final String id)
+    '''returns boolean\n\n
+    dialogEntityExists(final String id)\n
     '''
 def hasDialogEntity():
-    '''public boolean hasDialogEntity(final String id)
+    '''returns boolean\n\n
+    hasDialogEntity(final String id)\n
     '''
 def addDialogEntity():
-    '''public void addDialogEntity(final String id)
+    '''returns None\n\n
+    addDialogEntity(final String id)\n
     '''
 def removeDialogEntity():
-    '''public void removeDialogEntity(final String id)
+    '''returns None\n\n
+    removeDialogEntity(final String id)\n
     '''
 def setConditionalSigOptions():
-    '''public void setConditionalSigOptions(final List<String> sigOptions)
+    '''returns None\n\n
+    setConditionalSigOptions(final List<String> sigOptions)\n
     '''
 def sigOptionHaveCondInputmode():
-    '''public boolean sigOptionHaveCondInputmode(final String sigOption)
+    '''returns boolean\n\n
+    sigOptionHaveCondInputmode(final String sigOption)\n
     '''
 def generateDataStores():
-    '''public void generateDataStores(final Element presentationElement, final MXSession mxSession)
-    '''
-def generateDataStoresForDialog():
-    '''public synchronized List<DataStoreInfo> generateDataStoresForDialog(final Element el, final MXSession mxSession)
+    '''returns None\n\n
+    generateDataStores(final Element presentationElement, final MXSession mxSession)\n
     '''
 def addDataStoreInfo():
-    '''public void addDataStoreInfo(final DataStoreInfo dataStoreInfo)
+    '''returns None\n\n
+    addDataStoreInfo(final DataStoreInfo dataStoreInfo)\n
     '''
 def getDataStore():
-    '''public DataStoreInfo getDataStore(final String dataStoreId)
-    '''
-def getDataStoreList():
-    '''public Map<String, DataStoreInfo> getDataStoreList()
+    '''returns DataStoreInfo\n\n
+    getDataStore(final String dataStoreId)\n
     '''
 def addToCheckForDataStoresList():
-    '''public void addToCheckForDataStoresList(final UIERMEntity currentEntity)
+    '''returns None\n\n
+    addToCheckForDataStoresList(final UIERMEntity currentEntity)\n
     '''
 def addRepLibraryEntity():
-    '''public void addRepLibraryEntity(final UIERMEntity currentEntity)
+    '''returns None\n\n
+    addRepLibraryEntity(final UIERMEntity currentEntity)\n
     '''
 def removeRepLibraryEntitites():
-    '''public void removeRepLibraryEntitites()
+    '''returns None\n\n
+    removeRepLibraryEntitites()\n
     '''

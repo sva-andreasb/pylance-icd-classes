@@ -1,6 +1,7 @@
-def IllegalGenerationException():
-    '''public IllegalGenerationException()
-    public IllegalGenerationException(final String message, final Throwable cause)
-    public IllegalGenerationException(final String message)
-    public IllegalGenerationException(final Throwable cause)
+def ():
+    '''returns IllegalGenerationException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

@@ -1,106 +1,137 @@
-def Pass2Verifier():
-    '''public Pass2Verifier(final Verifier owner)
+def ():
+    '''returns InnerClassDetector\n\n
+    (final Verifier owner)\n
+    (final JavaClass _jc)\n
     '''
 def getLocalVariablesInfo():
-    '''public LocalVariablesInfo getLocalVariablesInfo(final int method_nr)
+    '''returns LocalVariablesInfo\n\n
+    getLocalVariablesInfo(final int method_nr)\n
     '''
 def do_verify():
-    '''public VerificationResult do_verify()
+    '''returns VerificationResult\n\n
+    do_verify()\n
     '''
 def visitJavaClass():
-    '''public void visitJavaClass(final JavaClass obj)
+    '''returns None\n\n
+    visitJavaClass(final JavaClass obj)\n
     '''
 def visitConstantClass():
-    '''public void visitConstantClass(final ConstantClass obj)
-    public void visitConstantClass(final ConstantClass obj)
+    '''returns None\n\n
+    visitConstantClass(final ConstantClass obj)\n
+    visitConstantClass(final ConstantClass obj)\n
     '''
 def visitConstantFieldref():
-    '''public void visitConstantFieldref(final ConstantFieldref obj)
-    public void visitConstantFieldref(final ConstantFieldref obj)
+    '''returns None\n\n
+    visitConstantFieldref(final ConstantFieldref obj)\n
+    visitConstantFieldref(final ConstantFieldref obj)\n
     '''
 def visitConstantMethodref():
-    '''public void visitConstantMethodref(final ConstantMethodref obj)
-    public void visitConstantMethodref(final ConstantMethodref obj)
+    '''returns None\n\n
+    visitConstantMethodref(final ConstantMethodref obj)\n
+    visitConstantMethodref(final ConstantMethodref obj)\n
     '''
 def visitConstantInterfaceMethodref():
-    '''public void visitConstantInterfaceMethodref(final ConstantInterfaceMethodref obj)
-    public void visitConstantInterfaceMethodref(final ConstantInterfaceMethodref obj)
+    '''returns None\n\n
+    visitConstantInterfaceMethodref(final ConstantInterfaceMethodref obj)\n
+    visitConstantInterfaceMethodref(final ConstantInterfaceMethodref obj)\n
     '''
 def visitConstantString():
-    '''public void visitConstantString(final ConstantString obj)
+    '''returns None\n\n
+    visitConstantString(final ConstantString obj)\n
     '''
 def visitConstantInteger():
-    '''public void visitConstantInteger(final ConstantInteger obj)
+    '''returns None\n\n
+    visitConstantInteger(final ConstantInteger obj)\n
     '''
 def visitConstantFloat():
-    '''public void visitConstantFloat(final ConstantFloat obj)
+    '''returns None\n\n
+    visitConstantFloat(final ConstantFloat obj)\n
     '''
 def visitConstantLong():
-    '''public void visitConstantLong(final ConstantLong obj)
+    '''returns None\n\n
+    visitConstantLong(final ConstantLong obj)\n
     '''
 def visitConstantDouble():
-    '''public void visitConstantDouble(final ConstantDouble obj)
+    '''returns None\n\n
+    visitConstantDouble(final ConstantDouble obj)\n
     '''
 def visitConstantNameAndType():
-    '''public void visitConstantNameAndType(final ConstantNameAndType obj)
+    '''returns None\n\n
+    visitConstantNameAndType(final ConstantNameAndType obj)\n
     '''
 def visitConstantUtf8():
-    '''public void visitConstantUtf8(final ConstantUtf8 obj)
+    '''returns None\n\n
+    visitConstantUtf8(final ConstantUtf8 obj)\n
     '''
 def visitField():
-    '''public void visitField(final Field obj)
+    '''returns None\n\n
+    visitField(final Field obj)\n
     '''
 def visitMethod():
-    '''public void visitMethod(final Method obj)
+    '''returns None\n\n
+    visitMethod(final Method obj)\n
     '''
 def visitSourceFile():
-    '''public void visitSourceFile(final SourceFile obj)
+    '''returns None\n\n
+    visitSourceFile(final SourceFile obj)\n
     '''
 def visitDeprecated():
-    '''public void visitDeprecated(final Deprecated obj)
+    '''returns None\n\n
+    visitDeprecated(final Deprecated obj)\n
     '''
 def visitSynthetic():
-    '''public void visitSynthetic(final Synthetic obj)
+    '''returns None\n\n
+    visitSynthetic(final Synthetic obj)\n
     '''
 def visitInnerClasses():
-    '''public void visitInnerClasses(final InnerClasses obj)
+    '''returns None\n\n
+    visitInnerClasses(final InnerClasses obj)\n
     '''
 def visitConstantValue():
-    '''public void visitConstantValue(final ConstantValue obj)
+    '''returns None\n\n
+    visitConstantValue(final ConstantValue obj)\n
     '''
 def visitCode():
-    '''public void visitCode(final Code obj)
+    '''returns None\n\n
+    visitCode(final Code obj)\n
     '''
 def visitExceptionTable():
-    '''public void visitExceptionTable(final ExceptionTable obj)
+    '''returns None\n\n
+    visitExceptionTable(final ExceptionTable obj)\n
     '''
 def visitLineNumberTable():
-    '''public void visitLineNumberTable(final LineNumberTable obj)
+    '''returns None\n\n
+    visitLineNumberTable(final LineNumberTable obj)\n
     '''
 def visitLocalVariableTable():
-    '''public void visitLocalVariableTable(final LocalVariableTable obj)
+    '''returns None\n\n
+    visitLocalVariableTable(final LocalVariableTable obj)\n
     '''
 def visitUnknown():
-    '''public void visitUnknown(final Unknown obj)
+    '''returns None\n\n
+    visitUnknown(final Unknown obj)\n
     '''
 def visitLocalVariable():
-    '''public void visitLocalVariable(final LocalVariable obj)
+    '''returns None\n\n
+    visitLocalVariable(final LocalVariable obj)\n
     '''
 def visitCodeException():
-    '''public void visitCodeException(final CodeException obj)
+    '''returns None\n\n
+    visitCodeException(final CodeException obj)\n
     '''
 def visitConstantPool():
-    '''public void visitConstantPool(final ConstantPool obj)
+    '''returns None\n\n
+    visitConstantPool(final ConstantPool obj)\n
     '''
 def visitInnerClass():
-    '''public void visitInnerClass(final InnerClass obj)
+    '''returns None\n\n
+    visitInnerClass(final InnerClass obj)\n
     '''
 def visitLineNumber():
-    '''public void visitLineNumber(final LineNumber obj)
-    '''
-def InnerClassDetector():
-    '''public InnerClassDetector(final JavaClass _jc)
+    '''returns None\n\n
+    visitLineNumber(final LineNumber obj)\n
     '''
 def innerClassReferenced():
-    '''public boolean innerClassReferenced()
+    '''returns boolean\n\n
+    innerClassReferenced()\n
     '''

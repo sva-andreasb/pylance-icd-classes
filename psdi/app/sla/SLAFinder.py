@@ -1,21 +1,28 @@
-def SLAFinder():
-    '''public SLAFinder(final Mbo mbo)
+def ():
+    '''returns SLAFinder\n\n
+    (final Mbo mbo)\n
     '''
 def applySLAs():
-    '''public void applySLAs()
+    '''returns None\n\n
+    applySLAs()\n
     '''
 def calculateMeasurements():
-    '''public void calculateMeasurements()
+    '''returns None\n\n
+    calculateMeasurements()\n
     '''
 def clearTargetDates():
-    '''public void clearTargetDates()
+    '''returns None\n\n
+    clearTargetDates()\n
     '''
 def calculateSLARecordsTimes():
-    '''public MboRemote calculateSLARecordsTimes(final MboRemote slaR)
+    '''returns MboRemote\n\n
+    calculateSLARecordsTimes(final MboRemote slaR)\n
     '''
 def getAppliableSLAs():
-    '''public List getAppliableSLAs(final String extraWhere, final boolean all)
+    '''returns List\n\n
+    getAppliableSLAs(final String extraWhere, final boolean all)\n
     '''
 def getAppliableSLAsAsMboSet():
-    '''public MboSetRemote getAppliableSLAsAsMboSet(final String extraWhere, final boolean all)
+    '''returns MboSetRemote\n\n
+    getAppliableSLAsAsMboSet(final String extraWhere, final boolean all)\n
     '''

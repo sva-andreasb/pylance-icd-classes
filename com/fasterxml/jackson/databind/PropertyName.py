@@ -1,45 +1,54 @@
-def PropertyName():
-    '''public PropertyName(final String simpleName)
-    public PropertyName(final String simpleName, final String namespace)
-    '''
-def construct():
-    '''public static PropertyName construct(final String simpleName)
-    public static PropertyName construct(String simpleName, final String ns)
+def ():
+    '''returns PropertyName\n\n
+    (final String simpleName)\n
+    (final String simpleName, final String namespace)\n
     '''
 def internSimpleName():
-    '''public PropertyName internSimpleName()
+    '''returns PropertyName\n\n
+    internSimpleName()\n
     '''
 def withSimpleName():
-    '''public PropertyName withSimpleName(String simpleName)
+    '''returns PropertyName\n\n
+    withSimpleName(String simpleName)\n
     '''
 def withNamespace():
-    '''public PropertyName withNamespace(final String ns)
+    '''returns PropertyName\n\n
+    withNamespace(final String ns)\n
     '''
 def getSimpleName():
-    '''public String getSimpleName()
+    '''returns String\n\n
+    getSimpleName()\n
     '''
 def simpleAsEncoded():
-    '''public SerializableString simpleAsEncoded(final MapperConfig<?> config)
+    '''returns SerializableString\n\n
+    simpleAsEncoded(final MapperConfig<?> config)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def hasSimpleName():
-    '''public boolean hasSimpleName()
-    public boolean hasSimpleName(final String str)
+    '''returns boolean\n\n
+    hasSimpleName()\n
+    hasSimpleName(final String str)\n
     '''
 def hasNamespace():
-    '''public boolean hasNamespace()
+    '''returns boolean\n\n
+    hasNamespace()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

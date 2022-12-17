@@ -1,3 +1,4 @@
 def getSignal():
-    '''public int getSignal()
+    '''returns int\n\n
+    getSignal()\n
     '''

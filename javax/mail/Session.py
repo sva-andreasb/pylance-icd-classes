@@ -1,64 +1,44 @@
-def getDebug():
-    '''public synchronized boolean getDebug()
-    '''
-def setDebug():
-    '''public synchronized void setDebug(final boolean debug)
-    '''
-def getDebugOut():
-    '''public synchronized PrintStream getDebugOut()
-    '''
-def setDebugOut():
-    '''public synchronized void setDebugOut(final PrintStream out)
-    '''
 def load():
-    '''public void load(final InputStream is)
-    public void load(final InputStream is)
+    '''returns None\n\n
+    load(final InputStream is)\n
+    load(final InputStream is)\n
     '''
 def getProperties():
-    '''public Properties getProperties()
-    '''
-def getProviders():
-    '''public synchronized Provider[] getProviders()
-    '''
-def setProvider():
-    '''public synchronized void setProvider(final Provider provider)
+    '''returns Properties\n\n
+    getProperties()\n
     '''
 def getStore():
-    '''public Store getStore()
-    public Store getStore(final String protocol)
-    public Store getStore(final Provider provider)
-    public Store getStore(final URLName url)
+    '''returns Store\n\n
+    getStore()\n
+    getStore(final String protocol)\n
+    getStore(final Provider provider)\n
+    getStore(final URLName url)\n
     '''
 def getTransport():
-    '''public Transport getTransport()
-    public Transport getTransport(final String protocol)
-    public Transport getTransport(final Address address)
-    public Transport getTransport(final Provider provider)
-    public Transport getTransport(final URLName url)
+    '''returns Transport\n\n
+    getTransport()\n
+    getTransport(final String protocol)\n
+    getTransport(final Address address)\n
+    getTransport(final Provider provider)\n
+    getTransport(final URLName url)\n
     '''
 def getProperty():
-    '''public String getProperty(final String name)
+    '''returns String\n\n
+    getProperty(final String name)\n
     '''
 def getFolder():
-    '''public Folder getFolder(final URLName url)
+    '''returns Folder\n\n
+    getFolder(final URLName url)\n
     '''
 def getPasswordAuthentication():
-    '''public PasswordAuthentication getPasswordAuthentication(final URLName url)
+    '''returns PasswordAuthentication\n\n
+    getPasswordAuthentication(final URLName url)\n
     '''
 def setPasswordAuthentication():
-    '''public void setPasswordAuthentication(final URLName url, final PasswordAuthentication pw)
-    '''
-def getProvider():
-    '''public synchronized Provider getProvider(final String protocol)
-    '''
-def getDefaultInstance():
-    '''public static Session getDefaultInstance(final Properties props)
-    public static synchronized Session getDefaultInstance(final Properties props, final Authenticator authenticator)
-    '''
-def getInstance():
-    '''public static Session getInstance(final Properties props)
-    public static Session getInstance(final Properties props, final Authenticator authenticator)
+    '''returns None\n\n
+    setPasswordAuthentication(final URLName url, final PasswordAuthentication pw)\n
     '''
 def requestPasswordAuthentication():
-    '''public PasswordAuthentication requestPasswordAuthentication(final InetAddress addr, final int port, final String protocol, final String prompt, final String defaultUserName)
+    '''returns PasswordAuthentication\n\n
+    requestPasswordAuthentication(final InetAddress addr, final int port, final String protocol, final String prompt, final String defaultUserName)\n
     '''

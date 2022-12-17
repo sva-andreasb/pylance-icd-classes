@@ -1,7 +1,9 @@
-def PlusPFldConditionPricing():
-    '''public PlusPFldConditionPricing()
-    public PlusPFldConditionPricing(final MboValue mbv)
+def ():
+    '''returns PlusPFldConditionPricing\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

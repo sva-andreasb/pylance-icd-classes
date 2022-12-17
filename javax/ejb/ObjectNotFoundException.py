@@ -1,4 +1,5 @@
-def ObjectNotFoundException():
-    '''public ObjectNotFoundException()
-    public ObjectNotFoundException(final String message)
+def ():
+    '''returns ObjectNotFoundException\n\n
+    ()\n
+    (final String message)\n
     '''

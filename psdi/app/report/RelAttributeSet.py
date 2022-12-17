@@ -1,3 +1,4 @@
-def RelAttributeSet():
-    '''public RelAttributeSet(final MboServerInterface ms)
+def ():
+    '''returns RelAttributeSet\n\n
+    (final MboServerInterface ms)\n
     '''

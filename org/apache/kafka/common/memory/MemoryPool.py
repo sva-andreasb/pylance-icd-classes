@@ -1,18 +1,24 @@
 def tryAllocate():
-    '''public ByteBuffer tryAllocate(final int sizeBytes)
+    '''returns ByteBuffer\n\n
+    tryAllocate(final int sizeBytes)\n
     '''
 def release():
-    '''public void release(final ByteBuffer previouslyAllocated)
+    '''returns None\n\n
+    release(final ByteBuffer previouslyAllocated)\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def availableMemory():
-    '''public long availableMemory()
+    '''returns long\n\n
+    availableMemory()\n
     '''
 def isOutOfMemory():
-    '''public boolean isOutOfMemory()
+    '''returns boolean\n\n
+    isOutOfMemory()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

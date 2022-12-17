@@ -1,26 +1,18 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DeleteGroupsResponse():
-    '''public DeleteGroupsResponse(final Map<String, Errors> errors)
-    public DeleteGroupsResponse(final int throttleTimeMs, final Map<String, Errors> errors)
-    public DeleteGroupsResponse(final Struct struct)
+def ():
+    '''returns DeleteGroupsResponse\n\n
+    (final Map<String, Errors> errors)\n
+    (final int throttleTimeMs, final Map<String, Errors> errors)\n
+    (final Struct struct)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
-    '''
-def errors():
-    '''public Map<String, Errors> errors()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def hasError():
-    '''public boolean hasError(final String group)
+    '''returns boolean\n\n
+    hasError(final String group)\n
     '''
 def get():
-    '''public Errors get(final String group)
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static DeleteGroupsResponse parse(final ByteBuffer buffer, final short version)
+    '''returns Errors\n\n
+    get(final String group)\n
     '''

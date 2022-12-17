@@ -1,9 +1,12 @@
-def Operation():
-    '''public Operation(final Expression[] args)
+def ():
+    '''returns Operation\n\n
+    (final Expression[] args)\n
     '''
 def getArguments():
-    '''public Expression[] getArguments()
+    '''returns Expression[]\n\n
+    getArguments()\n
     '''
 def computeContextDependent():
-    '''public boolean computeContextDependent()
+    '''returns boolean\n\n
+    computeContextDependent()\n
     '''

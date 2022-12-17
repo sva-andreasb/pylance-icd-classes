@@ -1,6 +1,8 @@
 def createSocket():
-    '''public Socket createSocket(final String host, final int port)
+    '''returns Socket\n\n
+    createSocket(final String host, final int port)\n
     '''
 def createServerSocket():
-    '''public ServerSocket createServerSocket(int port)
+    '''returns ServerSocket\n\n
+    createServerSocket(int port)\n
     '''

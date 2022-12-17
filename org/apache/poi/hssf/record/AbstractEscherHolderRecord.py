@@ -1,50 +1,66 @@
-def AbstractEscherHolderRecord():
-    '''public AbstractEscherHolderRecord()
-    public AbstractEscherHolderRecord(final RecordInputStream in)
+def ():
+    '''returns AbstractEscherHolderRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def clone():
-    '''public AbstractEscherHolderRecord clone()
+    '''returns AbstractEscherHolderRecord\n\n
+    clone()\n
     '''
 def addEscherRecord():
-    '''public void addEscherRecord(final int index, final EscherRecord element)
-    public boolean addEscherRecord(final EscherRecord element)
+    '''returns boolean\n\n
+    addEscherRecord(final int index, final EscherRecord element)\n
+    addEscherRecord(final EscherRecord element)\n
     '''
 def getEscherRecords():
-    '''public List<EscherRecord> getEscherRecords()
+    '''returns List<EscherRecord>\n\n
+    getEscherRecords()\n
     '''
 def clearEscherRecords():
-    '''public void clearEscherRecords()
+    '''returns None\n\n
+    clearEscherRecords()\n
     '''
 def getEscherContainer():
-    '''public EscherContainerRecord getEscherContainer()
+    '''returns EscherContainerRecord\n\n
+    getEscherContainer()\n
     '''
 def findFirstWithId():
-    '''public EscherRecord findFirstWithId(final short id)
+    '''returns EscherRecord\n\n
+    findFirstWithId(final short id)\n
     '''
 def getEscherRecord():
-    '''public EscherRecord getEscherRecord(final int index)
+    '''returns EscherRecord\n\n
+    getEscherRecord(final int index)\n
     '''
 def join():
-    '''public void join(final AbstractEscherHolderRecord record)
+    '''returns None\n\n
+    join(final AbstractEscherHolderRecord record)\n
     '''
 def processContinueRecord():
-    '''public void processContinueRecord(final byte[] record)
+    '''returns None\n\n
+    processContinueRecord(final byte[] record)\n
     '''
 def getRawData():
-    '''public byte[] getRawData()
+    '''returns byte[]\n\n
+    getRawData()\n
     '''
 def setRawData():
-    '''public void setRawData(final byte[] rawData)
+    '''returns None\n\n
+    setRawData(final byte[] rawData)\n
     '''
 def decode():
-    '''public void decode()
+    '''returns None\n\n
+    decode()\n
     '''

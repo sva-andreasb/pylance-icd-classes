@@ -1,3 +1,4 @@
-def AbstractQuantifierPredicate():
-    '''public AbstractQuantifierPredicate(final Predicate<? super T>... predicates)
+def ():
+    '''returns AbstractQuantifierPredicate\n\n
+    (final Predicate<? super T>... predicates)\n
     '''

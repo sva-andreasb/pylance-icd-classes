@@ -1,3 +1,4 @@
-def Server():
-    '''public Server()
+def ():
+    '''returns Server\n\n
+    ()\n
     '''

@@ -1,92 +1,118 @@
 LTR_DIRECTION = "String  \"LTR\""
 RTL_DIRECTION = "String  \"RTL\""
-def SKDUserLocaleData():
-    '''public SKDUserLocaleData()
+def ():
+    '''returns SKDUserLocaleData\n\n
+    ()\n
     '''
 def getUserLocale():
-    '''public Locale getUserLocale()
+    '''returns Locale\n\n
+    getUserLocale()\n
     '''
 def setUserLocale():
-    '''public void setUserLocale(final Locale userLocale)
+    '''returns None\n\n
+    setUserLocale(final Locale userLocale)\n
     '''
 def getUserTimeZoneId():
-    '''public String getUserTimeZoneId()
+    '''returns String\n\n
+    getUserTimeZoneId()\n
     '''
 def setUserTimeZoneId():
-    '''public void setUserTimeZoneId(final String timeZoneId)
+    '''returns None\n\n
+    setUserTimeZoneId(final String timeZoneId)\n
     '''
 def getServerTimeZoneId():
-    '''public String getServerTimeZoneId()
+    '''returns String\n\n
+    getServerTimeZoneId()\n
     '''
 def setServerTimeZoneId():
-    '''public void setServerTimeZoneId(final String timeZoneId)
-    '''
-def getSKDMessageMap():
-    '''public HashMap<String, SKDMessage> getSKDMessageMap()
+    '''returns None\n\n
+    setServerTimeZoneId(final String timeZoneId)\n
     '''
 def setMessageMap():
-    '''public void setMessageMap(final HashMap<String, SKDMessage> messageMap)
+    '''returns None\n\n
+    setMessageMap(final HashMap<String, SKDMessage> messageMap)\n
     '''
 def getSKDMessage():
-    '''public SKDMessage getSKDMessage(final String key)
+    '''returns SKDMessage\n\n
+    getSKDMessage(final String key)\n
     '''
 def getDisplayDateTimePattern():
-    '''public String getDisplayDateTimePattern()
+    '''returns String\n\n
+    getDisplayDateTimePattern()\n
     '''
 def setDisplayDateTimePattern():
-    '''public void setDisplayDateTimePattern(final String dateTimePattern)
+    '''returns None\n\n
+    setDisplayDateTimePattern(final String dateTimePattern)\n
     '''
 def getParseDateTimePattern():
-    '''public String getParseDateTimePattern()
+    '''returns String\n\n
+    getParseDateTimePattern()\n
     '''
 def setParseDateTimePattern():
-    '''public void setParseDateTimePattern(final String dateTimePattern)
+    '''returns None\n\n
+    setParseDateTimePattern(final String dateTimePattern)\n
     '''
 def getDatePattern():
-    '''public String getDatePattern()
+    '''returns String\n\n
+    getDatePattern()\n
     '''
 def setDatePattern():
-    '''public void setDatePattern(final String datePattern)
+    '''returns None\n\n
+    setDatePattern(final String datePattern)\n
     '''
 def getDisplayTimePattern():
-    '''public String getDisplayTimePattern()
+    '''returns String\n\n
+    getDisplayTimePattern()\n
     '''
 def setDisplayTimePattern():
-    '''public void setDisplayTimePattern(final String timePattern)
+    '''returns None\n\n
+    setDisplayTimePattern(final String timePattern)\n
     '''
 def getParseTimePattern():
-    '''public String getParseTimePattern()
+    '''returns String\n\n
+    getParseTimePattern()\n
     '''
 def setParseTimePattern():
-    '''public void setParseTimePattern(final String timePattern)
+    '''returns None\n\n
+    setParseTimePattern(final String timePattern)\n
     '''
 def getDisplayYes():
-    '''public String getDisplayYes()
+    '''returns String\n\n
+    getDisplayYes()\n
     '''
 def setDisplayYes():
-    '''public void setDisplayYes(final String displayYes)
+    '''returns None\n\n
+    setDisplayYes(final String displayYes)\n
     '''
 def getDisplayNo():
-    '''public String getDisplayNo()
+    '''returns String\n\n
+    getDisplayNo()\n
     '''
 def setDisplayNo():
-    '''public void setDisplayNo(final String displayNo)
+    '''returns None\n\n
+    setDisplayNo(final String displayNo)\n
     '''
 def isBIDIEnabled():
-    '''public boolean isBIDIEnabled()
+    '''returns boolean\n\n
+    isBIDIEnabled()\n
     '''
 def setBIDIEnabled():
-    '''public void setBIDIEnabled(final boolean flag)
+    '''returns None\n\n
+    setBIDIEnabled(final boolean flag)\n
     '''
 def isGUIMirrored():
-    '''public boolean isGUIMirrored()
+    '''returns boolean\n\n
+    isGUIMirrored()\n
     '''
 def setGUIMirrored():
-    '''public void setGUIMirrored(final boolean flag)
+    '''returns None\n\n
+    setGUIMirrored(final boolean flag)\n
     '''
 def getInstanceTextDirection():
-    '''public String getInstanceTextDirection()
+    '''returns String\n\n
+    getInstanceTextDirection()\n
     '''
 def setInstanceTextDirection():
-    '''public void setInstanceTextDirection(final String str)
+    '''returns None\n\n
+    setInstanceTextDirection(final String str)\n
     '''

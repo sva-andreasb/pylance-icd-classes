@@ -1,18 +1,24 @@
-def SystemsTreeBean():
-    '''public SystemsTreeBean()
+def ():
+    '''returns SystemsTreeBean\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def getRecordSelected():
-    '''public boolean getRecordSelected()
+    '''returns boolean\n\n
+    getRecordSelected()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def getHighlightedUID():
-    '''public long getHighlightedUID()
+    '''returns long\n\n
+    getHighlightedUID()\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String objectname, final String uniqueid, final String hierarchy)\n
     '''

@@ -1,3 +1,4 @@
 def applyToSelected():
-    '''public int applyToSelected()
+    '''returns int\n\n
+    applyToSelected()\n
     '''

@@ -1,37 +1,49 @@
-def DynamicPointer():
-    '''public DynamicPointer(final QName name, final Object bean, final DynamicPropertyHandler handler, final Locale locale)
-    public DynamicPointer(final NodePointer parent, final QName name, final Object bean, final DynamicPropertyHandler handler)
+def ():
+    '''returns DynamicPointer\n\n
+    (final QName name, final Object bean, final DynamicPropertyHandler handler, final Locale locale)\n
+    (final NodePointer parent, final QName name, final Object bean, final DynamicPropertyHandler handler)\n
     '''
 def getPropertyPointer():
-    '''public PropertyPointer getPropertyPointer()
+    '''returns PropertyPointer\n\n
+    getPropertyPointer()\n
     '''
 def createNodeIterator():
-    '''public NodeIterator createNodeIterator(final String property, final boolean reverse, final NodePointer startWith)
+    '''returns NodeIterator\n\n
+    createNodeIterator(final String property, final boolean reverse, final NodePointer startWith)\n
     '''
 def attributeIterator():
-    '''public NodeIterator attributeIterator(final QName name)
+    '''returns NodeIterator\n\n
+    attributeIterator(final QName name)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''

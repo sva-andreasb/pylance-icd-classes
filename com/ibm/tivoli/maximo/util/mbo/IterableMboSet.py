@@ -1,8 +1,10 @@
-def IterableMboSet():
-    '''public IterableMboSet(final MboSetRemote mboSet)
-    public IterableMboSet(final Iterator<MboRemote> iter)
-    public IterableMboSet(final MboSetIterator iter)
+def ():
+    '''returns IterableMboSet\n\n
+    (final MboSetRemote mboSet)\n
+    (final Iterator<MboRemote> iter)\n
+    (final MboSetIterator iter)\n
     '''
 def iterator():
-    '''public Iterator<MboRemote> iterator()
+    '''returns Iterator<MboRemote>\n\n
+    iterator()\n
     '''

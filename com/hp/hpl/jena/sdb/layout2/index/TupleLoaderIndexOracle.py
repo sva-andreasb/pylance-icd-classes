@@ -1,21 +1,28 @@
-def TupleLoaderIndexOracle():
-    '''public TupleLoaderIndexOracle(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+def ():
+    '''returns TupleLoaderIndexOracle\n\n
+    (final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)\n
     '''
 def getNodeColTypes():
-    '''public String[] getNodeColTypes()
+    '''returns String[]\n\n
+    getNodeColTypes()\n
     '''
 def getTupleColType():
-    '''public String getTupleColType()
+    '''returns String\n\n
+    getTupleColType()\n
     '''
 def getCreateTempTable():
-    '''public String[] getCreateTempTable()
+    '''returns String[]\n\n
+    getCreateTempTable()\n
     '''
 def clearsOnCommit():
-    '''public boolean clearsOnCommit()
+    '''returns boolean\n\n
+    clearsOnCommit()\n
     '''
 def getLoadTuples():
-    '''public String getLoadTuples()
+    '''returns String\n\n
+    getLoadTuples()\n
     '''
 def getLoadNodes():
-    '''public String getLoadNodes()
+    '''returns String\n\n
+    getLoadNodes()\n
     '''

@@ -1,9 +1,12 @@
-def RowsRemovedEvent():
-    '''public RowsRemovedEvent(final IlvGanttConfiguration ilvGanttConfiguration, final IlvHierarchyNode ilvHierarchyNode, final IlvHierarchyNode[] array, final int[] array2, final int[] a, final int[] b)
+def ():
+    '''returns RowsRemovedEvent\n\n
+    (final IlvGanttConfiguration ilvGanttConfiguration, final IlvHierarchyNode ilvHierarchyNode, final IlvHierarchyNode[] array, final int[] array2, final int[] a, final int[] b)\n
     '''
 def getChildRows():
-    '''public int[] getChildRows()
+    '''returns int[]\n\n
+    getChildRows()\n
     '''
 def getHiddenRowCounts():
-    '''public int[] getHiddenRowCounts()
+    '''returns int[]\n\n
+    getHiddenRowCounts()\n
     '''

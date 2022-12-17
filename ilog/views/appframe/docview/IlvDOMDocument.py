@@ -1,12 +1,16 @@
 def initializeDocument():
-    '''public boolean initializeDocument(final Object o)
+    '''returns boolean\n\n
+    initializeDocument(final Object o)\n
     '''
 def writeDocument():
-    '''public boolean writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)\n
     '''
 def readDocument():
-    '''public boolean readDocument(final URL url, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    readDocument(final URL url, final IlvFileFilter ilvFileFilter)\n
     '''
 def getDOMDocument():
-    '''public Document getDOMDocument()
+    '''returns Document\n\n
+    getDOMDocument()\n
     '''

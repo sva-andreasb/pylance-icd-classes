@@ -1,9 +1,12 @@
 def getPropertyNames():
-    '''public String[] getPropertyNames(final Object pageContext)
+    '''returns String[]\n\n
+    getPropertyNames(final Object pageContext)\n
     '''
 def getProperty():
-    '''public Object getProperty(final Object pageContext, final String property)
+    '''returns Object\n\n
+    getProperty(final Object pageContext, final String property)\n
     '''
 def setProperty():
-    '''public void setProperty(final Object pageContext, final String property, final Object value)
+    '''returns None\n\n
+    setProperty(final Object pageContext, final String property, final Object value)\n
     '''

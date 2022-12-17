@@ -1,15 +1,20 @@
-def IfaceTbKey():
-    '''public IfaceTbKey()
+def ():
+    '''returns IfaceTbKey\n\n
+    ()\n
     '''
 def setCurrentLevelKeys():
-    '''public void setCurrentLevelKeys(final List<IfaceColumnInfo> keys)
+    '''returns None\n\n
+    setCurrentLevelKeys(final List<IfaceColumnInfo> keys)\n
     '''
 def setParentLevelKeys():
-    '''public void setParentLevelKeys(final List<IfaceColumnInfo> keys)
+    '''returns None\n\n
+    setParentLevelKeys(final List<IfaceColumnInfo> keys)\n
     '''
 def getCurrentLevelKeys():
-    '''public List<IfaceColumnInfo> getCurrentLevelKeys()
+    '''returns List<IfaceColumnInfo>\n\n
+    getCurrentLevelKeys()\n
     '''
 def getParentLevelKeys():
-    '''public List<IfaceColumnInfo> getParentLevelKeys()
+    '''returns List<IfaceColumnInfo>\n\n
+    getParentLevelKeys()\n
     '''

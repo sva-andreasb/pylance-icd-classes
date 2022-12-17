@@ -1,7 +1,9 @@
-def OS400FTPEntryParser():
-    '''public OS400FTPEntryParser()
-    public OS400FTPEntryParser(final FTPClientConfig config)
+def ():
+    '''returns OS400FTPEntryParser\n\n
+    ()\n
+    (final FTPClientConfig config)\n
     '''
 def parseFTPEntry():
-    '''public FTPFile parseFTPEntry(final String entry)
+    '''returns FTPFile\n\n
+    parseFTPEntry(final String entry)\n
     '''

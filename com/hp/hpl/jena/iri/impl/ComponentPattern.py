@@ -1,3 +1,4 @@
 def analyse():
-    '''public void analyse(final Parser parser, final int range)
+    '''returns None\n\n
+    analyse(final Parser parser, final int range)\n
     '''

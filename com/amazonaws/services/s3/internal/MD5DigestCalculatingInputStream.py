@@ -1,16 +1,21 @@
-def MD5DigestCalculatingInputStream():
-    '''public MD5DigestCalculatingInputStream(final InputStream in)
+def ():
+    '''returns MD5DigestCalculatingInputStream\n\n
+    (final InputStream in)\n
     '''
 def getMd5Digest():
-    '''public byte[] getMd5Digest()
+    '''returns byte[]\n\n
+    getMd5Digest()\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''

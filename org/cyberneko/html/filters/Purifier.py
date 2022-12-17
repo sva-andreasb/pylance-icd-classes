@@ -1,41 +1,54 @@
 SYNTHESIZED_NAMESPACE_PREFX = "String  \"http://cyberneko.org/html/ns/synthesized/\""
-def Purifier():
-    '''public Purifier()
+def ():
+    '''returns Purifier\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset(final XMLComponentManager manager)
+    '''returns None\n\n
+    reset(final XMLComponentManager manager)\n
     '''
 def startDocument():
-    '''public void startDocument(final XMLLocator locator, final String encoding, final Augmentations augs)
-    public void startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)
+    '''returns None\n\n
+    startDocument(final XMLLocator locator, final String encoding, final Augmentations augs)\n
+    startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)\n
     '''
 def xmlDecl():
-    '''public void xmlDecl(String version, String encoding, String standalone, final Augmentations augs)
+    '''returns None\n\n
+    xmlDecl(String version, String encoding, String standalone, final Augmentations augs)\n
     '''
 def comment():
-    '''public void comment(XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    comment(XMLString text, final Augmentations augs)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(String target, XMLString data, final Augmentations augs)
+    '''returns None\n\n
+    processingInstruction(String target, XMLString data, final Augmentations augs)\n
     '''
 def doctypeDecl():
-    '''public void doctypeDecl(final String root, final String pubid, final String sysid, final Augmentations augs)
+    '''returns None\n\n
+    doctypeDecl(final String root, final String pubid, final String sysid, final Augmentations augs)\n
     '''
 def startElement():
-    '''public void startElement(final QName element, final XMLAttributes attrs, final Augmentations augs)
+    '''returns None\n\n
+    startElement(final QName element, final XMLAttributes attrs, final Augmentations augs)\n
     '''
 def emptyElement():
-    '''public void emptyElement(final QName element, final XMLAttributes attrs, final Augmentations augs)
+    '''returns None\n\n
+    emptyElement(final QName element, final XMLAttributes attrs, final Augmentations augs)\n
     '''
 def startCDATA():
-    '''public void startCDATA(final Augmentations augs)
+    '''returns None\n\n
+    startCDATA(final Augmentations augs)\n
     '''
 def endCDATA():
-    '''public void endCDATA(final Augmentations augs)
+    '''returns None\n\n
+    endCDATA(final Augmentations augs)\n
     '''
 def characters():
-    '''public void characters(XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    characters(XMLString text, final Augmentations augs)\n
     '''
 def endElement():
-    '''public void endElement(QName element, final Augmentations augs)
+    '''returns None\n\n
+    endElement(QName element, final Augmentations augs)\n
     '''

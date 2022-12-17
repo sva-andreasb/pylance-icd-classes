@@ -1,12 +1,16 @@
-def ViewWOPMsBeanLoc():
-    '''public ViewWOPMsBeanLoc()
+def ():
+    '''returns ViewWOPMsBeanLoc\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setValueFromComponent():
-    '''public void setValueFromComponent(BoundComponentInstance changedComponent, final WebClientEvent event, final String newValue)
+    '''returns None\n\n
+    setValueFromComponent(BoundComponentInstance changedComponent, final WebClientEvent event, final String newValue)\n
     '''
 def doRefresh():
-    '''public void doRefresh()
+    '''returns None\n\n
+    doRefresh()\n
     '''

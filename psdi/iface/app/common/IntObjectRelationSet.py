@@ -1,3 +1,4 @@
-def IntObjectRelationSet():
-    '''public IntObjectRelationSet(final MboServerInterface ms)
+def ():
+    '''returns IntObjectRelationSet\n\n
+    (final MboServerInterface ms)\n
     '''

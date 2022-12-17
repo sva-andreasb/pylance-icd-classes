@@ -1,6 +1,8 @@
-def FldDMLatestError():
-    '''public FldDMLatestError(final MboValue mbv)
+def ():
+    '''returns FldDMLatestError\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

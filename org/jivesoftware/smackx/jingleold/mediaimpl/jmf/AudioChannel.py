@@ -1,18 +1,16 @@
-def AudioChannel():
-    '''public AudioChannel(final MediaLocator locator, final String localIpAddress, final String remoteIpAddress, final int localPort, final int remotePort, final Format format, final JingleMediaSession jingleMediaSession)
-    '''
-def start():
-    '''public synchronized String start()
+def ():
+    '''returns AudioChannel\n\n
+    (final MediaLocator locator, final String localIpAddress, final String remoteIpAddress, final int localPort, final int remotePort, final Format format, final JingleMediaSession jingleMediaSession)\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def setTrasmit():
-    '''public void setTrasmit(final boolean active)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    setTrasmit(final boolean active)\n
     '''
 def controllerUpdate():
-    '''public void controllerUpdate(final ControllerEvent ce)
+    '''returns None\n\n
+    controllerUpdate(final ControllerEvent ce)\n
     '''

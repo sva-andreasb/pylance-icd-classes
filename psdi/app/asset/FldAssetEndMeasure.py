@@ -1,6 +1,8 @@
-def FldAssetEndMeasure():
-    '''public FldAssetEndMeasure(final MboValue mbv)
+def ():
+    '''returns FldAssetEndMeasure\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

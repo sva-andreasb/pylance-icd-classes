@@ -1,54 +1,72 @@
 def init():
-    '''public void init(final QName name, final SchemaType.Ref typeref, final int use, final String deftext, final XmlObject parseObject, final XmlValueRef defvalue, final boolean isFixed, final SOAPArrayType wsdlArray, final SchemaAnnotation ann, final Object userData)
+    '''returns None\n\n
+    init(final QName name, final SchemaType.Ref typeref, final int use, final String deftext, final XmlObject parseObject, final XmlValueRef defvalue, final boolean isFixed, final SOAPArrayType wsdlArray, final SchemaAnnotation ann, final Object userData)\n
     '''
 def isTypeResolved():
-    '''public boolean isTypeResolved()
+    '''returns boolean\n\n
+    isTypeResolved()\n
     '''
 def resolveTypeRef():
-    '''public void resolveTypeRef(final SchemaType.Ref typeref)
+    '''returns None\n\n
+    resolveTypeRef(final SchemaType.Ref typeref)\n
     '''
 def getUse():
-    '''public int getUse()
+    '''returns int\n\n
+    getUse()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getDefaultText():
-    '''public String getDefaultText()
+    '''returns String\n\n
+    getDefaultText()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def isFixed():
-    '''public boolean isFixed()
+    '''returns boolean\n\n
+    isFixed()\n
     '''
 def isAttribute():
-    '''public boolean isAttribute()
+    '''returns boolean\n\n
+    isAttribute()\n
     '''
 def getAnnotation():
-    '''public SchemaAnnotation getAnnotation()
+    '''returns SchemaAnnotation\n\n
+    getAnnotation()\n
     '''
 def getType():
-    '''public SchemaType getType()
+    '''returns SchemaType\n\n
+    getType()\n
     '''
 def getMinOccurs():
-    '''public BigInteger getMinOccurs()
+    '''returns BigInteger\n\n
+    getMinOccurs()\n
     '''
 def getMaxOccurs():
-    '''public BigInteger getMaxOccurs()
+    '''returns BigInteger\n\n
+    getMaxOccurs()\n
     '''
 def isNillable():
-    '''public boolean isNillable()
+    '''returns boolean\n\n
+    isNillable()\n
     '''
 def getWSDLArrayType():
-    '''public SOAPArrayType getWSDLArrayType()
+    '''returns SOAPArrayType\n\n
+    getWSDLArrayType()\n
     '''
 def getDefaultValue():
-    '''public XmlAnySimpleType getDefaultValue()
+    '''returns XmlAnySimpleType\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final XmlValueRef defaultRef)
+    '''returns None\n\n
+    setDefaultValue(final XmlValueRef defaultRef)\n
     '''
 def getUserData():
-    '''public Object getUserData()
+    '''returns Object\n\n
+    getUserData()\n
     '''

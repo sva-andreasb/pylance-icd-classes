@@ -1,306 +1,408 @@
-def MasterTypeImpl():
-    '''public MasterTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns MasterTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getPageSheet():
-    '''public PageSheetType getPageSheet()
+    '''returns PageSheetType\n\n
+    getPageSheet()\n
     '''
 def isSetPageSheet():
-    '''public boolean isSetPageSheet()
+    '''returns boolean\n\n
+    isSetPageSheet()\n
     '''
 def setPageSheet():
-    '''public void setPageSheet(final PageSheetType pageSheetType)
+    '''returns None\n\n
+    setPageSheet(final PageSheetType pageSheetType)\n
     '''
 def addNewPageSheet():
-    '''public PageSheetType addNewPageSheet()
+    '''returns PageSheetType\n\n
+    addNewPageSheet()\n
     '''
 def unsetPageSheet():
-    '''public void unsetPageSheet()
+    '''returns None\n\n
+    unsetPageSheet()\n
     '''
 def getRel():
-    '''public RelType getRel()
+    '''returns RelType\n\n
+    getRel()\n
     '''
 def setRel():
-    '''public void setRel(final RelType relType)
+    '''returns None\n\n
+    setRel(final RelType relType)\n
     '''
 def addNewRel():
-    '''public RelType addNewRel()
+    '''returns RelType\n\n
+    addNewRel()\n
     '''
 def getIcon():
-    '''public IconType getIcon()
+    '''returns IconType\n\n
+    getIcon()\n
     '''
 def isSetIcon():
-    '''public boolean isSetIcon()
+    '''returns boolean\n\n
+    isSetIcon()\n
     '''
 def setIcon():
-    '''public void setIcon(final IconType iconType)
+    '''returns None\n\n
+    setIcon(final IconType iconType)\n
     '''
 def addNewIcon():
-    '''public IconType addNewIcon()
+    '''returns IconType\n\n
+    addNewIcon()\n
     '''
 def unsetIcon():
-    '''public void unsetIcon()
+    '''returns None\n\n
+    unsetIcon()\n
     '''
 def getID():
-    '''public long getID()
+    '''returns long\n\n
+    getID()\n
     '''
 def xgetID():
-    '''public XmlUnsignedInt xgetID()
+    '''returns XmlUnsignedInt\n\n
+    xgetID()\n
     '''
 def setID():
-    '''public void setID(final long longValue)
+    '''returns None\n\n
+    setID(final long longValue)\n
     '''
 def xsetID():
-    '''public void xsetID(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetID(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def getBaseID():
-    '''public String getBaseID()
+    '''returns String\n\n
+    getBaseID()\n
     '''
 def xgetBaseID():
-    '''public XmlString xgetBaseID()
+    '''returns XmlString\n\n
+    xgetBaseID()\n
     '''
 def isSetBaseID():
-    '''public boolean isSetBaseID()
+    '''returns boolean\n\n
+    isSetBaseID()\n
     '''
 def setBaseID():
-    '''public void setBaseID(final String stringValue)
+    '''returns None\n\n
+    setBaseID(final String stringValue)\n
     '''
 def xsetBaseID():
-    '''public void xsetBaseID(final XmlString xmlString)
+    '''returns None\n\n
+    xsetBaseID(final XmlString xmlString)\n
     '''
 def unsetBaseID():
-    '''public void unsetBaseID()
+    '''returns None\n\n
+    unsetBaseID()\n
     '''
 def getUniqueID():
-    '''public String getUniqueID()
+    '''returns String\n\n
+    getUniqueID()\n
     '''
 def xgetUniqueID():
-    '''public XmlString xgetUniqueID()
+    '''returns XmlString\n\n
+    xgetUniqueID()\n
     '''
 def isSetUniqueID():
-    '''public boolean isSetUniqueID()
+    '''returns boolean\n\n
+    isSetUniqueID()\n
     '''
 def setUniqueID():
-    '''public void setUniqueID(final String stringValue)
+    '''returns None\n\n
+    setUniqueID(final String stringValue)\n
     '''
 def xsetUniqueID():
-    '''public void xsetUniqueID(final XmlString xmlString)
+    '''returns None\n\n
+    xsetUniqueID(final XmlString xmlString)\n
     '''
 def unsetUniqueID():
-    '''public void unsetUniqueID()
+    '''returns None\n\n
+    unsetUniqueID()\n
     '''
 def getMatchByName():
-    '''public boolean getMatchByName()
+    '''returns boolean\n\n
+    getMatchByName()\n
     '''
 def xgetMatchByName():
-    '''public XmlBoolean xgetMatchByName()
+    '''returns XmlBoolean\n\n
+    xgetMatchByName()\n
     '''
 def isSetMatchByName():
-    '''public boolean isSetMatchByName()
+    '''returns boolean\n\n
+    isSetMatchByName()\n
     '''
 def setMatchByName():
-    '''public void setMatchByName(final boolean booleanValue)
+    '''returns None\n\n
+    setMatchByName(final boolean booleanValue)\n
     '''
 def xsetMatchByName():
-    '''public void xsetMatchByName(final XmlBoolean xmlBoolean)
+    '''returns None\n\n
+    xsetMatchByName(final XmlBoolean xmlBoolean)\n
     '''
 def unsetMatchByName():
-    '''public void unsetMatchByName()
+    '''returns None\n\n
+    unsetMatchByName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def xgetName():
-    '''public XmlString xgetName()
+    '''returns XmlString\n\n
+    xgetName()\n
     '''
 def isSetName():
-    '''public boolean isSetName()
+    '''returns boolean\n\n
+    isSetName()\n
     '''
 def setName():
-    '''public void setName(final String stringValue)
+    '''returns None\n\n
+    setName(final String stringValue)\n
     '''
 def xsetName():
-    '''public void xsetName(final XmlString xmlString)
+    '''returns None\n\n
+    xsetName(final XmlString xmlString)\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getNameU():
-    '''public String getNameU()
+    '''returns String\n\n
+    getNameU()\n
     '''
 def xgetNameU():
-    '''public XmlString xgetNameU()
+    '''returns XmlString\n\n
+    xgetNameU()\n
     '''
 def isSetNameU():
-    '''public boolean isSetNameU()
+    '''returns boolean\n\n
+    isSetNameU()\n
     '''
 def setNameU():
-    '''public void setNameU(final String stringValue)
+    '''returns None\n\n
+    setNameU(final String stringValue)\n
     '''
 def xsetNameU():
-    '''public void xsetNameU(final XmlString xmlString)
+    '''returns None\n\n
+    xsetNameU(final XmlString xmlString)\n
     '''
 def unsetNameU():
-    '''public void unsetNameU()
+    '''returns None\n\n
+    unsetNameU()\n
     '''
 def getIsCustomName():
-    '''public boolean getIsCustomName()
+    '''returns boolean\n\n
+    getIsCustomName()\n
     '''
 def xgetIsCustomName():
-    '''public XmlBoolean xgetIsCustomName()
+    '''returns XmlBoolean\n\n
+    xgetIsCustomName()\n
     '''
 def isSetIsCustomName():
-    '''public boolean isSetIsCustomName()
+    '''returns boolean\n\n
+    isSetIsCustomName()\n
     '''
 def setIsCustomName():
-    '''public void setIsCustomName(final boolean booleanValue)
+    '''returns None\n\n
+    setIsCustomName(final boolean booleanValue)\n
     '''
 def xsetIsCustomName():
-    '''public void xsetIsCustomName(final XmlBoolean xmlBoolean)
+    '''returns None\n\n
+    xsetIsCustomName(final XmlBoolean xmlBoolean)\n
     '''
 def unsetIsCustomName():
-    '''public void unsetIsCustomName()
+    '''returns None\n\n
+    unsetIsCustomName()\n
     '''
 def getIsCustomNameU():
-    '''public boolean getIsCustomNameU()
+    '''returns boolean\n\n
+    getIsCustomNameU()\n
     '''
 def xgetIsCustomNameU():
-    '''public XmlBoolean xgetIsCustomNameU()
+    '''returns XmlBoolean\n\n
+    xgetIsCustomNameU()\n
     '''
 def isSetIsCustomNameU():
-    '''public boolean isSetIsCustomNameU()
+    '''returns boolean\n\n
+    isSetIsCustomNameU()\n
     '''
 def setIsCustomNameU():
-    '''public void setIsCustomNameU(final boolean booleanValue)
+    '''returns None\n\n
+    setIsCustomNameU(final boolean booleanValue)\n
     '''
 def xsetIsCustomNameU():
-    '''public void xsetIsCustomNameU(final XmlBoolean xmlBoolean)
+    '''returns None\n\n
+    xsetIsCustomNameU(final XmlBoolean xmlBoolean)\n
     '''
 def unsetIsCustomNameU():
-    '''public void unsetIsCustomNameU()
+    '''returns None\n\n
+    unsetIsCustomNameU()\n
     '''
 def getIconSize():
-    '''public int getIconSize()
+    '''returns int\n\n
+    getIconSize()\n
     '''
 def xgetIconSize():
-    '''public XmlUnsignedShort xgetIconSize()
+    '''returns XmlUnsignedShort\n\n
+    xgetIconSize()\n
     '''
 def isSetIconSize():
-    '''public boolean isSetIconSize()
+    '''returns boolean\n\n
+    isSetIconSize()\n
     '''
 def setIconSize():
-    '''public void setIconSize(final int intValue)
+    '''returns None\n\n
+    setIconSize(final int intValue)\n
     '''
 def xsetIconSize():
-    '''public void xsetIconSize(final XmlUnsignedShort xmlUnsignedShort)
+    '''returns None\n\n
+    xsetIconSize(final XmlUnsignedShort xmlUnsignedShort)\n
     '''
 def unsetIconSize():
-    '''public void unsetIconSize()
+    '''returns None\n\n
+    unsetIconSize()\n
     '''
 def getPatternFlags():
-    '''public int getPatternFlags()
+    '''returns int\n\n
+    getPatternFlags()\n
     '''
 def xgetPatternFlags():
-    '''public XmlUnsignedShort xgetPatternFlags()
+    '''returns XmlUnsignedShort\n\n
+    xgetPatternFlags()\n
     '''
 def isSetPatternFlags():
-    '''public boolean isSetPatternFlags()
+    '''returns boolean\n\n
+    isSetPatternFlags()\n
     '''
 def setPatternFlags():
-    '''public void setPatternFlags(final int intValue)
+    '''returns None\n\n
+    setPatternFlags(final int intValue)\n
     '''
 def xsetPatternFlags():
-    '''public void xsetPatternFlags(final XmlUnsignedShort xmlUnsignedShort)
+    '''returns None\n\n
+    xsetPatternFlags(final XmlUnsignedShort xmlUnsignedShort)\n
     '''
 def unsetPatternFlags():
-    '''public void unsetPatternFlags()
+    '''returns None\n\n
+    unsetPatternFlags()\n
     '''
 def getPrompt():
-    '''public String getPrompt()
+    '''returns String\n\n
+    getPrompt()\n
     '''
 def xgetPrompt():
-    '''public XmlString xgetPrompt()
+    '''returns XmlString\n\n
+    xgetPrompt()\n
     '''
 def isSetPrompt():
-    '''public boolean isSetPrompt()
+    '''returns boolean\n\n
+    isSetPrompt()\n
     '''
 def setPrompt():
-    '''public void setPrompt(final String stringValue)
+    '''returns None\n\n
+    setPrompt(final String stringValue)\n
     '''
 def xsetPrompt():
-    '''public void xsetPrompt(final XmlString xmlString)
+    '''returns None\n\n
+    xsetPrompt(final XmlString xmlString)\n
     '''
 def unsetPrompt():
-    '''public void unsetPrompt()
+    '''returns None\n\n
+    unsetPrompt()\n
     '''
 def getHidden():
-    '''public boolean getHidden()
+    '''returns boolean\n\n
+    getHidden()\n
     '''
 def xgetHidden():
-    '''public XmlBoolean xgetHidden()
+    '''returns XmlBoolean\n\n
+    xgetHidden()\n
     '''
 def isSetHidden():
-    '''public boolean isSetHidden()
+    '''returns boolean\n\n
+    isSetHidden()\n
     '''
 def setHidden():
-    '''public void setHidden(final boolean booleanValue)
+    '''returns None\n\n
+    setHidden(final boolean booleanValue)\n
     '''
 def xsetHidden():
-    '''public void xsetHidden(final XmlBoolean xmlBoolean)
+    '''returns None\n\n
+    xsetHidden(final XmlBoolean xmlBoolean)\n
     '''
 def unsetHidden():
-    '''public void unsetHidden()
+    '''returns None\n\n
+    unsetHidden()\n
     '''
 def getIconUpdate():
-    '''public boolean getIconUpdate()
+    '''returns boolean\n\n
+    getIconUpdate()\n
     '''
 def xgetIconUpdate():
-    '''public XmlBoolean xgetIconUpdate()
+    '''returns XmlBoolean\n\n
+    xgetIconUpdate()\n
     '''
 def isSetIconUpdate():
-    '''public boolean isSetIconUpdate()
+    '''returns boolean\n\n
+    isSetIconUpdate()\n
     '''
 def setIconUpdate():
-    '''public void setIconUpdate(final boolean booleanValue)
+    '''returns None\n\n
+    setIconUpdate(final boolean booleanValue)\n
     '''
 def xsetIconUpdate():
-    '''public void xsetIconUpdate(final XmlBoolean xmlBoolean)
+    '''returns None\n\n
+    xsetIconUpdate(final XmlBoolean xmlBoolean)\n
     '''
 def unsetIconUpdate():
-    '''public void unsetIconUpdate()
+    '''returns None\n\n
+    unsetIconUpdate()\n
     '''
 def getAlignName():
-    '''public int getAlignName()
+    '''returns int\n\n
+    getAlignName()\n
     '''
 def xgetAlignName():
-    '''public XmlUnsignedShort xgetAlignName()
+    '''returns XmlUnsignedShort\n\n
+    xgetAlignName()\n
     '''
 def isSetAlignName():
-    '''public boolean isSetAlignName()
+    '''returns boolean\n\n
+    isSetAlignName()\n
     '''
 def setAlignName():
-    '''public void setAlignName(final int intValue)
+    '''returns None\n\n
+    setAlignName(final int intValue)\n
     '''
 def xsetAlignName():
-    '''public void xsetAlignName(final XmlUnsignedShort xmlUnsignedShort)
+    '''returns None\n\n
+    xsetAlignName(final XmlUnsignedShort xmlUnsignedShort)\n
     '''
 def unsetAlignName():
-    '''public void unsetAlignName()
+    '''returns None\n\n
+    unsetAlignName()\n
     '''
 def getMasterType():
-    '''public int getMasterType()
+    '''returns int\n\n
+    getMasterType()\n
     '''
 def xgetMasterType():
-    '''public XmlUnsignedShort xgetMasterType()
+    '''returns XmlUnsignedShort\n\n
+    xgetMasterType()\n
     '''
 def isSetMasterType():
-    '''public boolean isSetMasterType()
+    '''returns boolean\n\n
+    isSetMasterType()\n
     '''
 def setMasterType():
-    '''public void setMasterType(final int intValue)
+    '''returns None\n\n
+    setMasterType(final int intValue)\n
     '''
 def xsetMasterType():
-    '''public void xsetMasterType(final XmlUnsignedShort xmlUnsignedShort)
+    '''returns None\n\n
+    xsetMasterType(final XmlUnsignedShort xmlUnsignedShort)\n
     '''
 def unsetMasterType():
-    '''public void unsetMasterType()
+    '''returns None\n\n
+    unsetMasterType()\n
     '''

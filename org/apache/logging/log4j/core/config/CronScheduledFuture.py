@@ -1,25 +1,33 @@
-def CronScheduledFuture():
-    '''public CronScheduledFuture(final ScheduledFuture<V> future, final Date runDate)
+def ():
+    '''returns CronScheduledFuture\n\n
+    (final ScheduledFuture<V> future, final Date runDate)\n
     '''
 def getFireTime():
-    '''public Date getFireTime()
+    '''returns Date\n\n
+    getFireTime()\n
     '''
 def getDelay():
-    '''public long getDelay(final TimeUnit unit)
+    '''returns long\n\n
+    getDelay(final TimeUnit unit)\n
     '''
 def compareTo():
-    '''public int compareTo(final Delayed delayed)
+    '''returns int\n\n
+    compareTo(final Delayed delayed)\n
     '''
 def cancel():
-    '''public boolean cancel(final boolean mayInterruptIfRunning)
+    '''returns boolean\n\n
+    cancel(final boolean mayInterruptIfRunning)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def isDone():
-    '''public boolean isDone()
+    '''returns boolean\n\n
+    isDone()\n
     '''
 def get():
-    '''public V get()
-    public V get(final long timeout, final TimeUnit unit)
+    '''returns V\n\n
+    get()\n
+    get(final long timeout, final TimeUnit unit)\n
     '''

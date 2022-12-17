@@ -1,6 +1,8 @@
-def Concat():
-    '''public Concat(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns Concat\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def eval():
-    '''public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval(final List<BigDecimal> parameters)\n
     '''

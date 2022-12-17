@@ -1,3 +1,4 @@
-def PersonDefaultApp():
-    '''public PersonDefaultApp(final MboSet ms)
+def ():
+    '''returns PersonDefaultApp\n\n
+    (final MboSet ms)\n
     '''

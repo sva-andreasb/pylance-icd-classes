@@ -1,40 +1,49 @@
-def InstructionLV():
-    '''public InstructionLV(final short opcode, final int lvar)
-    public InstructionLV(final short opcode)
+def ():
+    '''returns InstructionLV\n\n
+    (final short opcode, final int lvar)\n
+    (final short opcode)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
+    '''returns String\n\n
+    toString(final boolean verbose)\n
     '''
 def isALOAD():
-    '''public boolean isALOAD()
+    '''returns boolean\n\n
+    isALOAD()\n
     '''
 def isASTORE():
-    '''public boolean isASTORE()
+    '''returns boolean\n\n
+    isASTORE()\n
     '''
 def getBaseOpcode():
-    '''public int getBaseOpcode()
-    '''
-def getIndex():
-    '''public final int getIndex()
+    '''returns int\n\n
+    getBaseOpcode()\n
     '''
 def setIndex():
-    '''public void setIndex(final int i)
+    '''returns None\n\n
+    setIndex(final int i)\n
     '''
 def canSetIndex():
-    '''public boolean canSetIndex()
+    '''returns boolean\n\n
+    canSetIndex()\n
     '''
 def setIndexAndCopyIfNecessary():
-    '''public InstructionLV setIndexAndCopyIfNecessary(final int newIndex)
+    '''returns InstructionLV\n\n
+    setIndexAndCopyIfNecessary(final int newIndex)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

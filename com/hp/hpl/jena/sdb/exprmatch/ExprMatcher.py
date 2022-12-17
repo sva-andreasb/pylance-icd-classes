@@ -1,18 +1,15 @@
-def match():
-    '''public static MapResult match(final Expr expression, final Expr pattern, final MapAction mapAction, final MapCallout mapCallout, final MapResult mapResult)
-    public static MapResult match(final Expr expression, final Expr pattern, final MapAction mapAction, final MapCallout mapCallout)
-    public static MapResult match(final Expr expression, final Expr pattern, final MapAction mapAction)
-    public static MapResult match(final String expression, final String pattern, final MapAction mapAction)
-    '''
 def startVisit():
-    '''public void startVisit()
+    '''returns None\n\n
+    startVisit()\n
     '''
 def visit():
-    '''public void visit(final ExprFunction patExpr)
-    public void visit(final NodeValue nv)
-    public void visit(final ExprVar patternVar)
-    public void visit(final ExprFunctionOp funcOp)
+    '''returns None\n\n
+    visit(final ExprFunction patExpr)\n
+    visit(final NodeValue nv)\n
+    visit(final ExprVar patternVar)\n
+    visit(final ExprFunctionOp funcOp)\n
     '''
 def finishVisit():
-    '''public void finishVisit()
+    '''returns None\n\n
+    finishVisit()\n
     '''

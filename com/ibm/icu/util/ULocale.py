@@ -1,271 +1,199 @@
 PRIVATE_USE_EXTENSION = "char  'x'"
 UNICODE_LOCALE_EXTENSION = "char  'u'"
-def forLocale():
-    '''public static ULocale forLocale(final Locale loc)
-    '''
-def ULocale():
-    '''public ULocale(final String localeID)
-    public ULocale(final String a, final String b)
-    public ULocale(final String a, final String b, final String c)
-    '''
-def createCanonical():
-    '''public static ULocale createCanonical(final String nonCanonicalID)
-    public static ULocale createCanonical(final ULocale locale)
+def ():
+    '''returns Builder\n\n
+    (final String localeID)\n
+    (final String a, final String b)\n
+    (final String a, final String b, final String c)\n
+    (final double theq, final int theserial)\n
+    ()\n
+    (final boolean isLenientVariant)\n
     '''
 def toLocale():
-    '''public Locale toLocale()
-    public static Locale toLocale(final ULocale uloc)
-    '''
-def getDefault():
-    '''public static ULocale getDefault()
-    public static ULocale getDefault(final Category category)
-    public static Locale getDefault(final Category category)
-    '''
-def setDefault():
-    '''public static synchronized void setDefault(final ULocale newLocale)
-    public static synchronized void setDefault(final Category category, final ULocale newLocale)
-    public static void setDefault(final Category category, final Locale newLocale)
+    '''returns Locale\n\n
+    toLocale()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    '''
-def compareTo():
-    '''public int compareTo(final ULocale other)
-    '''
-def getAvailableLocales():
-    '''public static ULocale[] getAvailableLocales()
-    '''
-def getAvailableLocalesByType():
-    '''public static Collection<ULocale> getAvailableLocalesByType(final AvailableType type)
-    '''
-def getISOCountries():
-    '''public static String[] getISOCountries()
-    '''
-def getISOLanguages():
-    '''public static String[] getISOLanguages()
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getLanguage():
-    '''public String getLanguage()
-    public static String getLanguage(final String localeID)
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def getScript():
-    '''public String getScript()
-    public static String getScript(final String localeID)
+    '''returns String\n\n
+    getScript()\n
     '''
 def getCountry():
-    '''public String getCountry()
-    public static String getCountry(final String localeID)
-    '''
-def getRegionForSupplementalData():
-    '''public static String getRegionForSupplementalData(final ULocale locale, final boolean inferRegion)
+    '''returns String\n\n
+    getCountry()\n
     '''
 def getVariant():
-    '''public String getVariant()
-    public static String getVariant(final String localeID)
+    '''returns String\n\n
+    getVariant()\n
     '''
 def getFallback():
-    '''public static String getFallback(final String localeID)
-    public ULocale getFallback()
+    '''returns ULocale\n\n
+    getFallback()\n
     '''
 def getBaseName():
-    '''public String getBaseName()
-    public static String getBaseName(final String localeID)
+    '''returns String\n\n
+    getBaseName()\n
     '''
 def getName():
-    '''public String getName()
-    public static String getName(final String localeID)
+    '''returns String\n\n
+    getName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getKeywords():
-    '''public Iterator<String> getKeywords()
-    public static Iterator<String> getKeywords(final String localeID)
+    '''returns Iterator<String>\n\n
+    getKeywords()\n
     '''
 def getKeywordValue():
-    '''public String getKeywordValue(final String keywordName)
-    public static String getKeywordValue(final String localeID, final String keywordName)
-    '''
-def canonicalize():
-    '''public static String canonicalize(final String localeID)
+    '''returns String\n\n
+    getKeywordValue(final String keywordName)\n
     '''
 def setKeywordValue():
-    '''public ULocale setKeywordValue(final String keyword, final String value)
-    public static String setKeywordValue(final String localeID, final String keyword, final String value)
+    '''returns ULocale\n\n
+    setKeywordValue(final String keyword, final String value)\n
     '''
 def getISO3Language():
-    '''public String getISO3Language()
-    public static String getISO3Language(final String localeID)
+    '''returns String\n\n
+    getISO3Language()\n
     '''
 def getISO3Country():
-    '''public String getISO3Country()
-    public static String getISO3Country(final String localeID)
-    '''
-def isRightToLeft():
-    '''public boolean isRightToLeft()
+    '''returns String\n\n
+    getISO3Country()\n
     '''
 def getDisplayLanguage():
-    '''public String getDisplayLanguage()
-    public String getDisplayLanguage(final ULocale displayLocale)
-    public static String getDisplayLanguage(final String localeID, final String displayLocaleID)
-    public static String getDisplayLanguage(final String localeID, final ULocale displayLocale)
+    '''returns String\n\n
+    getDisplayLanguage()\n
+    getDisplayLanguage(final ULocale displayLocale)\n
     '''
 def getDisplayLanguageWithDialect():
-    '''public String getDisplayLanguageWithDialect()
-    public String getDisplayLanguageWithDialect(final ULocale displayLocale)
-    public static String getDisplayLanguageWithDialect(final String localeID, final String displayLocaleID)
-    public static String getDisplayLanguageWithDialect(final String localeID, final ULocale displayLocale)
+    '''returns String\n\n
+    getDisplayLanguageWithDialect()\n
+    getDisplayLanguageWithDialect(final ULocale displayLocale)\n
     '''
 def getDisplayScript():
-    '''public String getDisplayScript()
-    public String getDisplayScript(final ULocale displayLocale)
-    public static String getDisplayScript(final String localeID, final String displayLocaleID)
-    public static String getDisplayScript(final String localeID, final ULocale displayLocale)
-    '''
-def getDisplayScriptInContext():
-    '''public String getDisplayScriptInContext()
-    public String getDisplayScriptInContext(final ULocale displayLocale)
-    public static String getDisplayScriptInContext(final String localeID, final String displayLocaleID)
-    public static String getDisplayScriptInContext(final String localeID, final ULocale displayLocale)
+    '''returns String\n\n
+    getDisplayScript()\n
+    getDisplayScript(final ULocale displayLocale)\n
     '''
 def getDisplayCountry():
-    '''public String getDisplayCountry()
-    public String getDisplayCountry(final ULocale displayLocale)
-    public static String getDisplayCountry(final String localeID, final String displayLocaleID)
-    public static String getDisplayCountry(final String localeID, final ULocale displayLocale)
+    '''returns String\n\n
+    getDisplayCountry()\n
+    getDisplayCountry(final ULocale displayLocale)\n
     '''
 def getDisplayVariant():
-    '''public String getDisplayVariant()
-    public String getDisplayVariant(final ULocale displayLocale)
-    public static String getDisplayVariant(final String localeID, final String displayLocaleID)
-    public static String getDisplayVariant(final String localeID, final ULocale displayLocale)
-    '''
-def getDisplayKeyword():
-    '''public static String getDisplayKeyword(final String keyword)
-    public static String getDisplayKeyword(final String keyword, final String displayLocaleID)
-    public static String getDisplayKeyword(final String keyword, final ULocale displayLocale)
+    '''returns String\n\n
+    getDisplayVariant()\n
+    getDisplayVariant(final ULocale displayLocale)\n
     '''
 def getDisplayKeywordValue():
-    '''public String getDisplayKeywordValue(final String keyword)
-    public String getDisplayKeywordValue(final String keyword, final ULocale displayLocale)
-    public static String getDisplayKeywordValue(final String localeID, final String keyword, final String displayLocaleID)
-    public static String getDisplayKeywordValue(final String localeID, final String keyword, final ULocale displayLocale)
+    '''returns String\n\n
+    getDisplayKeywordValue(final String keyword)\n
+    getDisplayKeywordValue(final String keyword, final ULocale displayLocale)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
-    public String getDisplayName(final ULocale displayLocale)
-    public static String getDisplayName(final String localeID, final String displayLocaleID)
-    public static String getDisplayName(final String localeID, final ULocale displayLocale)
+    '''returns String\n\n
+    getDisplayName()\n
+    getDisplayName(final ULocale displayLocale)\n
     '''
 def getDisplayNameWithDialect():
-    '''public String getDisplayNameWithDialect()
-    public String getDisplayNameWithDialect(final ULocale displayLocale)
-    public static String getDisplayNameWithDialect(final String localeID, final String displayLocaleID)
-    public static String getDisplayNameWithDialect(final String localeID, final ULocale displayLocale)
+    '''returns String\n\n
+    getDisplayNameWithDialect()\n
+    getDisplayNameWithDialect(final ULocale displayLocale)\n
     '''
 def getCharacterOrientation():
-    '''public String getCharacterOrientation()
+    '''returns String\n\n
+    getCharacterOrientation()\n
     '''
 def getLineOrientation():
-    '''public String getLineOrientation()
+    '''returns String\n\n
+    getLineOrientation()\n
     '''
-def acceptLanguage():
-    '''public static ULocale acceptLanguage(final String acceptLanguageList, final ULocale[] availableLocales, final boolean[] fallback)
-    public static ULocale acceptLanguage(final ULocale[] acceptLanguageList, final ULocale[] availableLocales, final boolean[] fallback)
-    public static ULocale acceptLanguage(final String acceptLanguageList, final boolean[] fallback)
-    public static ULocale acceptLanguage(final ULocale[] acceptLanguageList, final boolean[] fallback)
-    '''
-def addLikelySubtags():
-    '''public static ULocale addLikelySubtags(final ULocale loc)
-    '''
-def minimizeSubtags():
-    '''public static ULocale minimizeSubtags(final ULocale loc)
-    public static ULocale minimizeSubtags(final ULocale loc, final Minimize fieldToFavor)
+def compareTo():
+    '''returns int\n\n
+    compareTo(final ULocaleAcceptLanguageQ other)\n
     '''
 def getExtension():
-    '''public String getExtension(final char key)
+    '''returns String\n\n
+    getExtension(final char key)\n
     '''
 def getExtensionKeys():
-    '''public Set<Character> getExtensionKeys()
-    '''
-def getUnicodeLocaleAttributes():
-    '''public Set<String> getUnicodeLocaleAttributes()
+    '''returns Set<Character>\n\n
+    getExtensionKeys()\n
     '''
 def getUnicodeLocaleType():
-    '''public String getUnicodeLocaleType(final String key)
+    '''returns String\n\n
+    getUnicodeLocaleType(final String key)\n
     '''
 def getUnicodeLocaleKeys():
-    '''public Set<String> getUnicodeLocaleKeys()
+    '''returns Set<String>\n\n
+    getUnicodeLocaleKeys()\n
     '''
 def toLanguageTag():
-    '''public String toLanguageTag()
+    '''returns String\n\n
+    toLanguageTag()\n
     '''
-def forLanguageTag():
-    '''public static ULocale forLanguageTag(final String languageTag)
-    '''
-def toUnicodeLocaleKey():
-    '''public static String toUnicodeLocaleKey(final String keyword)
-    '''
-def toUnicodeLocaleType():
-    '''public static String toUnicodeLocaleType(final String keyword, final String value)
-    '''
-def toLegacyKey():
-    '''public static String toLegacyKey(final String keyword)
-    '''
-def toLegacyType():
-    '''public static String toLegacyType(final String keyword, final String value)
-    '''
-def Builder():
-    '''public Builder()
+def isLenientVariant():
+    '''returns boolean\n\n
+    isLenientVariant()\n
     '''
 def setLocale():
-    '''public Builder setLocale(final ULocale locale)
+    '''returns Builder\n\n
+    setLocale(final ULocale locale)\n
     '''
 def setLanguageTag():
-    '''public Builder setLanguageTag(final String languageTag)
+    '''returns Builder\n\n
+    setLanguageTag(final String languageTag)\n
     '''
 def setLanguage():
-    '''public Builder setLanguage(final String language)
+    '''returns Builder\n\n
+    setLanguage(final String language)\n
     '''
 def setScript():
-    '''public Builder setScript(final String script)
+    '''returns Builder\n\n
+    setScript(final String script)\n
     '''
 def setRegion():
-    '''public Builder setRegion(final String region)
+    '''returns Builder\n\n
+    setRegion(final String region)\n
     '''
 def setVariant():
-    '''public Builder setVariant(final String variant)
+    '''returns Builder\n\n
+    setVariant(final String variant)\n
     '''
 def setExtension():
-    '''public Builder setExtension(final char key, final String value)
+    '''returns Builder\n\n
+    setExtension(final char key, final String value)\n
     '''
 def setUnicodeLocaleKeyword():
-    '''public Builder setUnicodeLocaleKeyword(final String key, final String type)
-    '''
-def addUnicodeLocaleAttribute():
-    '''public Builder addUnicodeLocaleAttribute(final String attribute)
-    '''
-def removeUnicodeLocaleAttribute():
-    '''public Builder removeUnicodeLocaleAttribute(final String attribute)
+    '''returns Builder\n\n
+    setUnicodeLocaleKeyword(final String key, final String type)\n
     '''
 def clear():
-    '''public Builder clear()
+    '''returns Builder\n\n
+    clear()\n
     '''
 def clearExtensions():
-    '''public Builder clearExtensions()
+    '''returns Builder\n\n
+    clearExtensions()\n
     '''
 def build():
-    '''public ULocale build()
-    '''
-def hasLocaleCategories():
-    '''public static boolean hasLocaleCategories()
-    '''
-def toULocale():
-    '''public static ULocale toULocale(final Locale loc)
+    '''returns ULocale\n\n
+    build()\n
     '''

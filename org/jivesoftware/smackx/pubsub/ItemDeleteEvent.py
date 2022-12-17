@@ -1,9 +1,12 @@
-def ItemDeleteEvent():
-    '''public ItemDeleteEvent(final String nodeId, final List<String> deletedItemIds, final List<String> subscriptionIds)
+def ():
+    '''returns ItemDeleteEvent\n\n
+    (final String nodeId, final List<String> deletedItemIds, final List<String> subscriptionIds)\n
     '''
 def getItemIds():
-    '''public List<String> getItemIds()
+    '''returns List<String>\n\n
+    getItemIds()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

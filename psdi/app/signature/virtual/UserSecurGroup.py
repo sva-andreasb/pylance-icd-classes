@@ -1,6 +1,8 @@
-def UserSecurGroup():
-    '''public UserSecurGroup(final MboSet ms)
+def ():
+    '''returns UserSecurGroup\n\n
+    (final MboSet ms)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

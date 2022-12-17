@@ -1,15 +1,20 @@
-def CssValidator():
-    '''public CssValidator(final Policy policy)
+def ():
+    '''returns CssValidator\n\n
+    (final Policy policy)\n
     '''
 def isValidProperty():
-    '''public boolean isValidProperty(final String name, LexicalUnit lu)
+    '''returns boolean\n\n
+    isValidProperty(final String name, LexicalUnit lu)\n
     '''
 def isValidSelector():
-    '''public boolean isValidSelector(final String selectorName, final Selector selector)
+    '''returns boolean\n\n
+    isValidSelector(final String selectorName, final Selector selector)\n
     '''
 def isValidCondition():
-    '''public boolean isValidCondition(final String selectorName, final Condition condition)
+    '''returns boolean\n\n
+    isValidCondition(final String selectorName, final Condition condition)\n
     '''
 def lexicalValueToString():
-    '''public String lexicalValueToString(final LexicalUnit lu)
+    '''returns String\n\n
+    lexicalValueToString(final LexicalUnit lu)\n
     '''

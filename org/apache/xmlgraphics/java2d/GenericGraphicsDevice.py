@@ -1,18 +1,24 @@
-def GenericGraphicsDevice():
-    '''public GenericGraphicsDevice(final GraphicsConfiguration gc)
+def ():
+    '''returns GenericGraphicsDevice\n\n
+    (final GraphicsConfiguration gc)\n
     '''
 def getBestConfiguration():
-    '''public GraphicsConfiguration getBestConfiguration(final GraphicsConfigTemplate gct)
+    '''returns GraphicsConfiguration\n\n
+    getBestConfiguration(final GraphicsConfigTemplate gct)\n
     '''
 def getConfigurations():
-    '''public GraphicsConfiguration[] getConfigurations()
+    '''returns GraphicsConfiguration[]\n\n
+    getConfigurations()\n
     '''
 def getDefaultConfiguration():
-    '''public GraphicsConfiguration getDefaultConfiguration()
+    '''returns GraphicsConfiguration\n\n
+    getDefaultConfiguration()\n
     '''
 def getIDstring():
-    '''public String getIDstring()
+    '''returns String\n\n
+    getIDstring()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

@@ -1,45 +1,56 @@
-def Task():
-    '''public Task(final TaskID taskID, final TaskAction taskAction)
+def ():
+    '''returns Task\n\n
+    (final TaskID taskID, final TaskAction taskAction)\n
     '''
 def getTaskID():
-    '''public TaskID getTaskID()
+    '''returns TaskID\n\n
+    getTaskID()\n
     '''
 def getTaskIDStr():
-    '''public String getTaskIDStr()
+    '''returns String\n\n
+    getTaskIDStr()\n
     '''
 def getTaskAction():
-    '''public TaskAction getTaskAction()
+    '''returns TaskAction\n\n
+    getTaskAction()\n
     '''
 def getTaskActionStr():
-    '''public String getTaskActionStr()
+    '''returns String\n\n
+    getTaskActionStr()\n
     '''
 def getTaskResults():
-    '''public List<TaskResult> getTaskResults()
+    '''returns List<TaskResult>\n\n
+    getTaskResults()\n
     '''
 def getTaskStatus():
-    '''public TaskStatus getTaskStatus()
+    '''returns TaskStatus\n\n
+    getTaskStatus()\n
     '''
 def getTaskStatusStr():
-    '''public String getTaskStatusStr()
+    '''returns String\n\n
+    getTaskStatusStr()\n
     '''
 def getStopFlag():
-    '''public boolean getStopFlag()
+    '''returns boolean\n\n
+    getStopFlag()\n
     '''
 def getTaskWeight():
-    '''public int getTaskWeight()
+    '''returns int\n\n
+    getTaskWeight()\n
     '''
 def getTaskDescription():
-    '''public String getTaskDescription()
+    '''returns String\n\n
+    getTaskDescription()\n
     '''
 def setTaskDescriptionString():
-    '''public void setTaskDescriptionString(final String description)
+    '''returns None\n\n
+    setTaskDescriptionString(final String description)\n
     '''
 def setTaskWeight():
-    '''public void setTaskWeight(final int taskTime)
+    '''returns None\n\n
+    setTaskWeight(final int taskTime)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    toString()\n
     '''

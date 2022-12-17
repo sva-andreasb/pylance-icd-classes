@@ -1,12 +1,16 @@
-def PlusPFldEscNotificatTemplId():
-    '''public PlusPFldEscNotificatTemplId(final MboValue arg0)
+def ():
+    '''returns PlusPFldEscNotificatTemplId\n\n
+    (final MboValue arg0)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

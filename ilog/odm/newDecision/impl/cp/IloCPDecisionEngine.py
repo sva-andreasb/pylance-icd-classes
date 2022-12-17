@@ -1,31 +1,37 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def setCpSolveInfoCallbackForODM3352():
-    '''public static synchronized void setCpSolveInfoCallbackForODM3352(final CpSolveInfoCallbackForODM3352 callback)
-    '''
-def IloCPDecisionEngine():
-    '''public IloCPDecisionEngine(final IloOptimDesc desc, final IloScenario scenario)
+def ():
+    '''returns IloCPDecisionEngine\n\n
+    (final IloOptimDesc desc, final IloScenario scenario)\n
     '''
 def makeModelAndEngine():
-    '''public IloOplModel makeModelAndEngine(final IloOplFactory factory, final IloOplModelDefinition def)
+    '''returns IloOplModel\n\n
+    makeModelAndEngine(final IloOplFactory factory, final IloOplModelDefinition def)\n
     '''
 def runEngine():
-    '''public boolean runEngine()
+    '''returns boolean\n\n
+    runEngine()\n
     '''
 def getCP():
-    '''public IloCP getCP()
+    '''returns IloCP\n\n
+    getCP()\n
     '''
 def getModeler():
-    '''public IloModeler getModeler()
+    '''returns IloModeler\n\n
+    getModeler()\n
     '''
 def getValueAccessor():
-    '''public IloValueAccessor getValueAccessor()
+    '''returns IloValueAccessor\n\n
+    getValueAccessor()\n
     '''
 def getObjectiveValue():
-    '''public double getObjectiveValue()
+    '''returns double\n\n
+    getObjectiveValue()\n
     '''
 def generateRequirementsPreview():
-    '''public IloTable generateRequirementsPreview(final boolean solve)
+    '''returns IloTable\n\n
+    generateRequirementsPreview(final boolean solve)\n
     '''
 def solveFinished():
-    '''public void solveFinished(final IloCP cp)
+    '''returns None\n\n
+    solveFinished(final IloCP cp)\n
     '''

@@ -1,10 +1,13 @@
-def WSDDElement():
-    '''public WSDDElement()
-    public WSDDElement(final Element e)
+def ():
+    '''returns WSDDElement\n\n
+    ()\n
+    (final Element e)\n
     '''
 def getChildElement():
-    '''public Element getChildElement(final Element e, final String name)
+    '''returns Element\n\n
+    getChildElement(final Element e, final String name)\n
     '''
 def getChildElements():
-    '''public Element[] getChildElements(final Element e, final String name)
+    '''returns Element[]\n\n
+    getChildElements(final Element e, final String name)\n
     '''

@@ -1,3 +1,4 @@
 def toggledeleteselectedrows():
-    '''public int toggledeleteselectedrows()
+    '''returns int\n\n
+    toggledeleteselectedrows()\n
     '''

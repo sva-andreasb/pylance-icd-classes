@@ -1,89 +1,104 @@
 COMPONENT_HELPER_REFERENCE = "String  \"ant.ComponentHelper\""
 def getProject():
-    '''public Project getProject()
-    '''
-def getComponentHelper():
-    '''public static ComponentHelper getComponentHelper(final Project project)
+    '''returns Project\n\n
+    getProject()\n
     '''
 def setNext():
-    '''public void setNext(final ComponentHelper next)
+    '''returns None\n\n
+    setNext(final ComponentHelper next)\n
     '''
 def getNext():
-    '''public ComponentHelper getNext()
+    '''returns ComponentHelper\n\n
+    getNext()\n
     '''
 def setProject():
-    '''public void setProject(final Project project)
+    '''returns None\n\n
+    setProject(final Project project)\n
     '''
 def initSubProject():
-    '''public void initSubProject(final ComponentHelper helper)
+    '''returns None\n\n
+    initSubProject(final ComponentHelper helper)\n
     '''
 def createComponent():
-    '''public Object createComponent(final UnknownElement ue, final String ns, final String componentType)
-    public Object createComponent(final String componentName)
+    '''returns Object\n\n
+    createComponent(final UnknownElement ue, final String ns, final String componentType)\n
+    createComponent(final String componentName)\n
     '''
 def getComponentClass():
-    '''public Class getComponentClass(final String componentName)
+    '''returns Class\n\n
+    getComponentClass(final String componentName)\n
     '''
 def getDefinition():
-    '''public AntTypeDefinition getDefinition(final String componentName)
+    '''returns AntTypeDefinition\n\n
+    getDefinition(final String componentName)\n
     '''
 def initDefaultDefinitions():
-    '''public void initDefaultDefinitions()
+    '''returns None\n\n
+    initDefaultDefinitions()\n
     '''
 def addTaskDefinition():
-    '''public void addTaskDefinition(final String taskName, final Class taskClass)
+    '''returns None\n\n
+    addTaskDefinition(final String taskName, final Class taskClass)\n
     '''
 def checkTaskClass():
-    '''public void checkTaskClass(final Class taskClass)
+    '''returns None\n\n
+    checkTaskClass(final Class taskClass)\n
     '''
 def getTaskDefinitions():
-    '''public Hashtable getTaskDefinitions()
+    '''returns Hashtable\n\n
+    getTaskDefinitions()\n
     '''
 def getDataTypeDefinitions():
-    '''public Hashtable getDataTypeDefinitions()
+    '''returns Hashtable\n\n
+    getDataTypeDefinitions()\n
     '''
 def getRestrictedDefinitions():
-    '''public List getRestrictedDefinitions(final String componentName)
+    '''returns List\n\n
+    getRestrictedDefinitions(final String componentName)\n
     '''
 def addDataTypeDefinition():
-    '''public void addDataTypeDefinition(final String typeName, final Class typeClass)
-    public void addDataTypeDefinition(final AntTypeDefinition def)
+    '''returns None\n\n
+    addDataTypeDefinition(final String typeName, final Class typeClass)\n
+    addDataTypeDefinition(final AntTypeDefinition def)\n
     '''
 def getAntTypeTable():
-    '''public Hashtable getAntTypeTable()
+    '''returns Hashtable\n\n
+    getAntTypeTable()\n
     '''
 def createTask():
-    '''public Task createTask(final String taskType)
+    '''returns Task\n\n
+    createTask(final String taskType)\n
     '''
 def createDataType():
-    '''public Object createDataType(final String typeName)
+    '''returns Object\n\n
+    createDataType(final String typeName)\n
     '''
 def getElementName():
-    '''public String getElementName(final Object element)
-    public String getElementName(final Object o, final boolean brief)
-    public static String getElementName(Project p, final Object o, final boolean brief)
+    '''returns String\n\n
+    getElementName(final Object element)\n
+    getElementName(final Object o, final boolean brief)\n
     '''
 def enterAntLib():
-    '''public void enterAntLib(final String uri)
+    '''returns None\n\n
+    enterAntLib(final String uri)\n
     '''
 def getCurrentAntlibUri():
-    '''public String getCurrentAntlibUri()
+    '''returns String\n\n
+    getCurrentAntlibUri()\n
     '''
 def exitAntLib():
-    '''public void exitAntLib()
+    '''returns None\n\n
+    exitAntLib()\n
     '''
 def diagnoseCreationFailure():
-    '''public String diagnoseCreationFailure(final String componentName, final String type)
+    '''returns String\n\n
+    diagnoseCreationFailure(final String componentName, final String type)\n
     '''
 def get():
-    '''public Object get(final Object key)
-    '''
-def contains():
-    '''public synchronized boolean contains(final Object clazz)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
-    '''
-def findMatches():
-    '''public synchronized List findMatches(final String prefix)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''

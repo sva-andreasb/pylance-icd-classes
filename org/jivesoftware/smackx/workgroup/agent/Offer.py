@@ -1,33 +1,40 @@
 def accept():
-    '''public void accept()
+    '''returns None\n\n
+    accept()\n
     '''
 def reject():
-    '''public void reject()
+    '''returns None\n\n
+    reject()\n
     '''
 def getUserID():
-    '''public Jid getUserID()
+    '''returns Jid\n\n
+    getUserID()\n
     '''
 def getUserJID():
-    '''public Jid getUserJID()
+    '''returns Jid\n\n
+    getUserJID()\n
     '''
 def getWorkgroupName():
-    '''public Jid getWorkgroupName()
+    '''returns Jid\n\n
+    getWorkgroupName()\n
     '''
 def getExpiresDate():
-    '''public Date getExpiresDate()
+    '''returns Date\n\n
+    getExpiresDate()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
-    '''
-def getMetaData():
-    '''public Map<String, List<String>> getMetaData()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getContent():
-    '''public OfferContent getContent()
+    '''returns OfferContent\n\n
+    getContent()\n
     '''
 def isAccepted():
-    '''public boolean isAccepted()
+    '''returns boolean\n\n
+    isAccepted()\n
     '''
 def isRejected():
-    '''public boolean isRejected()
+    '''returns boolean\n\n
+    isRejected()\n
     '''

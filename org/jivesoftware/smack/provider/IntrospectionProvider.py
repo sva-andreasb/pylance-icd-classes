@@ -1,7 +1,5 @@
-def parseWithIntrospection():
-    '''public static Object parseWithIntrospection(final Class<?> objectClass, final XmlPullParser parser, final int initialDepth)
-    '''
 def parse():
-    '''public I parse(final XmlPullParser parser, final int initialDepth)
-    public PE parse(final XmlPullParser parser, final int initialDepth)
+    '''returns PE\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

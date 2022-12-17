@@ -1,9 +1,12 @@
-def PlusPFldPSBillApprWork():
-    '''public PlusPFldPSBillApprWork(final MboValue arg0)
+def ():
+    '''returns PlusPFldPSBillApprWork\n\n
+    (final MboValue arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

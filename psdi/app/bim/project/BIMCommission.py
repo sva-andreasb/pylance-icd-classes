@@ -29,12 +29,15 @@ FIELD_UPDATEPRODUCT = "String  \"UPDATEPRODUCT\""
 FIELD_UPDATEREQ = "String  \"UPDATEREQ\""
 FIELD_UPDATEJOBPLAN = "String  \"UPDATEJOBPLAN\""
 FIELD_UPDATEPM = "String  \"UPDATEPM\""
-def BIMCommission():
-    '''public BIMCommission(final MboSet ms)
+def ():
+    '''returns BIMCommission\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def commision():
-    '''public void commision()
+    '''returns None\n\n
+    commision()\n
     '''

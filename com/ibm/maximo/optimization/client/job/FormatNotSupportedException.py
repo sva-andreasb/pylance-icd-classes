@@ -1,4 +1,5 @@
-def FormatNotSupportedException():
-    '''public FormatNotSupportedException(final Object[] params, final OperationException e)
-    public FormatNotSupportedException(final String jobtype, final String format)
+def ():
+    '''returns FormatNotSupportedException\n\n
+    (final Object[] params, final OperationException e)\n
+    (final String jobtype, final String format)\n
     '''

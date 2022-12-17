@@ -1,6 +1,8 @@
-def FldSKDProjectComplianceStart():
-    '''public FldSKDProjectComplianceStart(final MboValue mbv)
+def ():
+    '''returns FldSKDProjectComplianceStart\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

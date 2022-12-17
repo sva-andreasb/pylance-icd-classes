@@ -1,21 +1,20 @@
-def getInstance():
-    '''public static final OSSubscriptionCache getInstance()
-    '''
-def getListenersForResource():
-    '''public Map<String, Map<String, OSSubscriptionInfo>> getListenersForResource(final String osName, final Long objectid)
-    '''
 def isUserSubscribed():
-    '''public boolean isUserSubscribed(final String osName, final Long id, final UserInfo userInfo)
+    '''returns boolean\n\n
+    isUserSubscribed(final String osName, final Long id, final UserInfo userInfo)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isEmail():
-    '''public boolean isEmail(final String notfType)
+    '''returns boolean\n\n
+    isEmail(final String notfType)\n
     '''
 def isSMS():
-    '''public boolean isSMS(final String notfType)
+    '''returns boolean\n\n
+    isSMS(final String notfType)\n
     '''
 def isPushNotification():
-    '''public boolean isPushNotification(final String notfType)
+    '''returns boolean\n\n
+    isPushNotification(final String notfType)\n
     '''

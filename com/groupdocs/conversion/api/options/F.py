@@ -1,6 +1,8 @@
-def F():
-    '''public F(final IResourceCallback a)
+def ():
+    '''returns F\n\n
+    (final IResourceCallback a)\n
     '''
 def a():
-    '''public String a(final dT.e e)
+    '''returns String\n\n
+    a(final dT.e e)\n
     '''

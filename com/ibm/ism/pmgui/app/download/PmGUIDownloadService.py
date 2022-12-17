@@ -1,4 +1,5 @@
-def PmGUIDownloadService():
-    '''public PmGUIDownloadService()
-    public PmGUIDownloadService(final MXServer mxServer)
+def ():
+    '''returns PmGUIDownloadService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

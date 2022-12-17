@@ -1,6 +1,8 @@
-def PmFldRelatedRecKey():
-    '''public PmFldRelatedRecKey(final MboValue mbv)
+def ():
+    '''returns PmFldRelatedRecKey\n\n
+    (final MboValue mbv)\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''

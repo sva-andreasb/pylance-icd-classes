@@ -1,12 +1,16 @@
-def TloamWOStatusHandler():
-    '''public TloamWOStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns TloamWOStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)\n
     '''
 def changeStatusModifyPlanAsset():
-    '''public void changeStatusModifyPlanAsset()
+    '''returns None\n\n
+    changeStatusModifyPlanAsset()\n
     '''
 def updateMboForStatus():
-    '''public void updateMboForStatus(final String status)
+    '''returns None\n\n
+    updateMboForStatus(final String status)\n
     '''

@@ -1,30 +1,33 @@
-def createReader():
-    '''public static Reader createReader(final URLConnection urlConnection)
-    public static Reader createReader(final InputStream inputStream)
-    public static Reader createReader(final InputStream in, String charsetName)
-    '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def read():
-    '''public int read(final char[] cbuf, int offset, final int length)
-    public int read()
+    '''returns int\n\n
+    read(final char[] cbuf, int offset, final int length)\n
+    read()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def mark():
-    '''public void mark(final int readAheadLimit)
+    '''returns None\n\n
+    mark(final int readAheadLimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def ready():
-    '''public boolean ready()
+    '''returns boolean\n\n
+    ready()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,9 +1,8 @@
 def accept():
-    '''public boolean accept(final Stanza stanza)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns boolean\n\n
+    accept(final Stanza stanza)\n
     '''
 def isTypeOf():
-    '''public boolean isTypeOf(final Jid jid)
+    '''returns boolean\n\n
+    isTypeOf(final Jid jid)\n
     '''

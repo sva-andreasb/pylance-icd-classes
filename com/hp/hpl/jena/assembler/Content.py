@@ -1,10 +1,13 @@
-def Content():
-    '''public Content(final List<Content> contents)
-    public Content()
+def ():
+    '''returns Content\n\n
+    (final List<Content> contents)\n
+    ()\n
     '''
 def fill():
-    '''public Model fill(final Model m)
+    '''returns Model\n\n
+    fill(final Model m)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''

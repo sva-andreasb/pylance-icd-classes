@@ -1,130 +1,140 @@
-def PAContext():
-    '''public PAContext(final Component component)
-    public PAContext(final Graphics2D g, final Dimension size)
-    public PAContext(final PAPencil pencil)
+def ():
+    '''returns PAContext\n\n
+    (final Component component)\n
+    (final Graphics2D g, final Dimension size)\n
+    (final PAPencil pencil)\n
     '''
 def draw():
-    '''public void draw(final InputStream inputStream)
+    '''returns None\n\n
+    draw(final InputStream inputStream)\n
     '''
 def getLastUnknownIdentifier():
-    '''public Object getLastUnknownIdentifier()
+    '''returns Object\n\n
+    getLastUnknownIdentifier()\n
     '''
 def popNumberOperands():
-    '''public double[] popNumberOperands(final int n)
+    '''returns double[]\n\n
+    popNumberOperands(final int n)\n
     '''
 def popOperands():
-    '''public Object[] popOperands(final int n)
+    '''returns Object[]\n\n
+    popOperands(final int n)\n
     '''
 def peekOperand():
-    '''public Object peekOperand()
+    '''returns Object\n\n
+    peekOperand()\n
     '''
 def findIdentifier():
-    '''public Object findIdentifier(final Object identifier)
+    '''returns Object\n\n
+    findIdentifier(final Object identifier)\n
     '''
 def findDictionary():
-    '''public Object findDictionary(final Object identifier)
+    '''returns Object\n\n
+    findDictionary(final Object identifier)\n
     '''
 def collectArray():
-    '''public void collectArray()
+    '''returns None\n\n
+    collectArray()\n
     '''
 def execute():
-    '''public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
-    public void execute(final PAContext context)
+    '''returns None\n\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
+    execute(final PAContext context)\n
     '''

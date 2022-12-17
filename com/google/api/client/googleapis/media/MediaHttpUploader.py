@@ -2,72 +2,95 @@ CONTENT_LENGTH_HEADER = "String  \"X-Upload-Content-Length\""
 CONTENT_TYPE_HEADER = "String  \"X-Upload-Content-Type\""
 MINIMUM_CHUNK_SIZE = "int  262144"
 DEFAULT_CHUNK_SIZE = "int  10485760"
-def MediaHttpUploader():
-    '''public MediaHttpUploader(final AbstractInputStreamContent mediaContent, final HttpTransport transport, final HttpRequestInitializer httpRequestInitializer)
+def ():
+    '''returns MediaHttpUploader\n\n
+    (final AbstractInputStreamContent mediaContent, final HttpTransport transport, final HttpRequestInitializer httpRequestInitializer)\n
     '''
 def upload():
-    '''public HttpResponse upload(final GenericUrl initiationRequestUrl)
+    '''returns HttpResponse\n\n
+    upload(final GenericUrl initiationRequestUrl)\n
     '''
 def getMetadata():
-    '''public HttpContent getMetadata()
+    '''returns HttpContent\n\n
+    getMetadata()\n
     '''
 def setMetadata():
-    '''public MediaHttpUploader setMetadata(final HttpContent metadata)
+    '''returns MediaHttpUploader\n\n
+    setMetadata(final HttpContent metadata)\n
     '''
 def getMediaContent():
-    '''public HttpContent getMediaContent()
+    '''returns HttpContent\n\n
+    getMediaContent()\n
     '''
 def getTransport():
-    '''public HttpTransport getTransport()
+    '''returns HttpTransport\n\n
+    getTransport()\n
     '''
 def setDirectUploadEnabled():
-    '''public MediaHttpUploader setDirectUploadEnabled(final boolean directUploadEnabled)
+    '''returns MediaHttpUploader\n\n
+    setDirectUploadEnabled(final boolean directUploadEnabled)\n
     '''
 def isDirectUploadEnabled():
-    '''public boolean isDirectUploadEnabled()
+    '''returns boolean\n\n
+    isDirectUploadEnabled()\n
     '''
 def setProgressListener():
-    '''public MediaHttpUploader setProgressListener(final MediaHttpUploaderProgressListener progressListener)
+    '''returns MediaHttpUploader\n\n
+    setProgressListener(final MediaHttpUploaderProgressListener progressListener)\n
     '''
 def getProgressListener():
-    '''public MediaHttpUploaderProgressListener getProgressListener()
+    '''returns MediaHttpUploaderProgressListener\n\n
+    getProgressListener()\n
     '''
 def setChunkSize():
-    '''public MediaHttpUploader setChunkSize(final int chunkSize)
+    '''returns MediaHttpUploader\n\n
+    setChunkSize(final int chunkSize)\n
     '''
 def getChunkSize():
-    '''public int getChunkSize()
+    '''returns int\n\n
+    getChunkSize()\n
     '''
 def getDisableGZipContent():
-    '''public boolean getDisableGZipContent()
+    '''returns boolean\n\n
+    getDisableGZipContent()\n
     '''
 def setDisableGZipContent():
-    '''public MediaHttpUploader setDisableGZipContent(final boolean disableGZipContent)
+    '''returns MediaHttpUploader\n\n
+    setDisableGZipContent(final boolean disableGZipContent)\n
     '''
 def getSleeper():
-    '''public Sleeper getSleeper()
+    '''returns Sleeper\n\n
+    getSleeper()\n
     '''
 def setSleeper():
-    '''public MediaHttpUploader setSleeper(final Sleeper sleeper)
+    '''returns MediaHttpUploader\n\n
+    setSleeper(final Sleeper sleeper)\n
     '''
 def getInitiationRequestMethod():
-    '''public String getInitiationRequestMethod()
+    '''returns String\n\n
+    getInitiationRequestMethod()\n
     '''
 def setInitiationRequestMethod():
-    '''public MediaHttpUploader setInitiationRequestMethod(final String initiationRequestMethod)
+    '''returns MediaHttpUploader\n\n
+    setInitiationRequestMethod(final String initiationRequestMethod)\n
     '''
 def setInitiationHeaders():
-    '''public MediaHttpUploader setInitiationHeaders(final HttpHeaders initiationHeaders)
+    '''returns MediaHttpUploader\n\n
+    setInitiationHeaders(final HttpHeaders initiationHeaders)\n
     '''
 def getInitiationHeaders():
-    '''public HttpHeaders getInitiationHeaders()
+    '''returns HttpHeaders\n\n
+    getInitiationHeaders()\n
     '''
 def getNumBytesUploaded():
-    '''public long getNumBytesUploaded()
+    '''returns long\n\n
+    getNumBytesUploaded()\n
     '''
 def getUploadState():
-    '''public UploadState getUploadState()
+    '''returns UploadState\n\n
+    getUploadState()\n
     '''
 def getProgress():
-    '''public double getProgress()
+    '''returns double\n\n
+    getProgress()\n
     '''

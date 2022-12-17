@@ -1,16 +1,17 @@
-def getInstance():
-    '''public static SetsCacheFactory getInstance()
-    '''
-def SetsCacheFactory():
-    '''public SetsCacheFactory()
+def ():
+    '''returns SetsCacheFactory\n\n
+    ()\n
     '''
 def getCache():
-    '''public MaximoCache getCache()
+    '''returns MaximoCache\n\n
+    getCache()\n
     '''
 def init():
-    '''public void init()
-    public void init(final MXServer mxs)
+    '''returns None\n\n
+    init()\n
+    init(final MXServer mxs)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

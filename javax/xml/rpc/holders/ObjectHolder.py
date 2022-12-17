@@ -1,4 +1,5 @@
-def ObjectHolder():
-    '''public ObjectHolder()
-    public ObjectHolder(final Object value)
+def ():
+    '''returns ObjectHolder\n\n
+    ()\n
+    (final Object value)\n
     '''

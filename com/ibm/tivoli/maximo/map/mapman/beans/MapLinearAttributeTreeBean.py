@@ -1,13 +1,17 @@
-def MapLinearAttributeTreeBean():
-    '''public MapLinearAttributeTreeBean()
-    public MapLinearAttributeTreeBean(final String templateFld)
+def ():
+    '''returns MapLinearAttributeTreeBean\n\n
+    ()\n
+    (final String templateFld)\n
     '''
 def getTreeControlObjectName():
-    '''public String getTreeControlObjectName()
+    '''returns String\n\n
+    getTreeControlObjectName()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

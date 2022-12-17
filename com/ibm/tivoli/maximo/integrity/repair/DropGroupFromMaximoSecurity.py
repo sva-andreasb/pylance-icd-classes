@@ -1,6 +1,8 @@
-def DropGroupFromMaximoSecurity():
-    '''public DropGroupFromMaximoSecurity(final List<String> groups, final DatabaseInformation di, final Connection dc)
+def ():
+    '''returns DropGroupFromMaximoSecurity\n\n
+    (final List<String> groups, final DatabaseInformation di, final Connection dc)\n
     '''
 def doRepair():
-    '''public void doRepair()
+    '''returns None\n\n
+    doRepair()\n
     '''

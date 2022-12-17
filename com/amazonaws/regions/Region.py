@@ -1,42 +1,48 @@
-def Region():
-    '''public Region(final RegionImpl regionImpl)
-    '''
-def getRegion():
-    '''public static Region getRegion(final Regions region)
+def ():
+    '''returns Region\n\n
+    (final RegionImpl regionImpl)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def getPartition():
-    '''public String getPartition()
+    '''returns String\n\n
+    getPartition()\n
     '''
 def getServiceEndpoint():
-    '''public String getServiceEndpoint(final String serviceName)
+    '''returns String\n\n
+    getServiceEndpoint(final String serviceName)\n
     '''
 def isServiceSupported():
-    '''public boolean isServiceSupported(final String serviceName)
+    '''returns boolean\n\n
+    isServiceSupported(final String serviceName)\n
     '''
 def hasHttpsEndpoint():
-    '''public boolean hasHttpsEndpoint(final String serviceName)
+    '''returns boolean\n\n
+    hasHttpsEndpoint(final String serviceName)\n
     '''
 def hasHttpEndpoint():
-    '''public boolean hasHttpEndpoint(final String serviceName)
+    '''returns boolean\n\n
+    hasHttpEndpoint(final String serviceName)\n
     '''
 def getAvailableEndpoints():
-    '''public Collection<String> getAvailableEndpoints()
-    '''
-def createClient():
-    '''public <T extends AmazonWebServiceClient> T createClient(final Class<T> serviceClass, final AWSCredentialsProvider credentials, final ClientConfiguration config)
+    '''returns Collection<String>\n\n
+    getAvailableEndpoints()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

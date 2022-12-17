@@ -1,6 +1,8 @@
-def FldInvVendorQtyRejected():
-    '''public FldInvVendorQtyRejected(final MboValue mbv)
+def ():
+    '''returns FldInvVendorQtyRejected\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

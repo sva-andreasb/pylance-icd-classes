@@ -1,3 +1,4 @@
-def FldCompanyLoc():
-    '''public FldCompanyLoc(final MboValue mbv)
+def ():
+    '''returns FldCompanyLoc\n\n
+    (final MboValue mbv)\n
     '''

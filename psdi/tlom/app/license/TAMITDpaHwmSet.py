@@ -1,9 +1,12 @@
-def TAMITDpaHwmSet():
-    '''public TAMITDpaHwmSet(final MboServerInterface ms)
+def ():
+    '''returns TAMITDpaHwmSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

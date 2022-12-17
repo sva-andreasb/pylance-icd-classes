@@ -1,27 +1,36 @@
-def CrontaskDef():
-    '''public CrontaskDef(final MboSet ms)
+def ():
+    '''returns CrontaskDef\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getCrontaskClass():
-    '''public String getCrontaskClass()
+    '''returns String\n\n
+    getCrontaskClass()\n
     '''
 def getCrontaskName():
-    '''public String getCrontaskName()
+    '''returns String\n\n
+    getCrontaskName()\n
     '''
 def getParameterList():
-    '''public CrontaskParamInfo[] getParameterList()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameterList()\n
     '''
 def getParameterValidationMbo():
-    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote inst)
+    '''returns MboRemote\n\n
+    getParameterValidationMbo(final CrontaskInstanceRemote inst)\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''

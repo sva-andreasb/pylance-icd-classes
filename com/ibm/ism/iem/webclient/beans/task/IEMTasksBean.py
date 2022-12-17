@@ -1,6 +1,8 @@
 def refreshList():
-    '''public void refreshList()
+    '''returns None\n\n
+    refreshList()\n
     '''
 def completeAssign():
-    '''public void completeAssign()
+    '''returns None\n\n
+    completeAssign()\n
     '''

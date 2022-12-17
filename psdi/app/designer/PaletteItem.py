@@ -1,3 +1,4 @@
-def PaletteItem():
-    '''public PaletteItem(final MboSet ms)
+def ():
+    '''returns PaletteItem\n\n
+    (final MboSet ms)\n
     '''

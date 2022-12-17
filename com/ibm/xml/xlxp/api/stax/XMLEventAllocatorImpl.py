@@ -1,7 +1,9 @@
 def newInstance():
-    '''public XMLEventAllocator newInstance()
+    '''returns XMLEventAllocator\n\n
+    newInstance()\n
     '''
 def allocate():
-    '''public XMLEvent allocate(final XMLStreamReader xmlStreamReader)
-    public void allocate(final XMLStreamReader xmlStreamReader, final XMLEventConsumer xmlEventConsumer)
+    '''returns None\n\n
+    allocate(final XMLStreamReader xmlStreamReader)\n
+    allocate(final XMLStreamReader xmlStreamReader, final XMLEventConsumer xmlEventConsumer)\n
     '''

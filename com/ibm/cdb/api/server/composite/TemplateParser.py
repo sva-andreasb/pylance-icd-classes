@@ -1,97 +1,117 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
-def TemplateParser():
-    '''public TemplateParser()
+def ():
+    '''returns AtomicCINode\n\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def init():
-    '''public void init(final String param)
+    '''returns None\n\n
+    init(final String param)\n
     '''
 def traverseNodes():
-    '''public void traverseNodes(final CompositeNode node)
+    '''returns None\n\n
+    traverseNodes(final CompositeNode node)\n
     '''
 def traverseAtomicNodes():
-    '''public void traverseAtomicNodes(final AtomicCINode node)
+    '''returns None\n\n
+    traverseAtomicNodes(final AtomicCINode node)\n
     '''
 def printArrayList():
-    '''public void printArrayList(final ArrayList list)
+    '''returns None\n\n
+    printArrayList(final ArrayList list)\n
     '''
 def traverseAtomicCI():
-    '''public HashMap traverseAtomicCI(final AtomicConfigurationItem configItem, final int ctr, int d, String path)
+    '''returns HashMap\n\n
+    traverseAtomicCI(final AtomicConfigurationItem configItem, final int ctr, int d, String path)\n
     '''
 def AtomicMemberList():
-    '''public AtomicCINode[] AtomicMemberList(final ArrayList atomicCIList, final int dth, final String path)
+    '''returns AtomicCINode[]\n\n
+    AtomicMemberList(final ArrayList atomicCIList, final int dth, final String path)\n
     '''
 def compositeMemberList():
-    '''public CompositeNode[] compositeMemberList(final ArrayList compCIList, final int dth, final String path)
+    '''returns CompositeNode[]\n\n
+    compositeMemberList(final ArrayList compCIList, final int dth, final String path)\n
     '''
 def traverseCompositeCI():
-    '''public CompositeNode traverseCompositeCI(final Composite composite, final int depth, final String path)
+    '''returns CompositeNode\n\n
+    traverseCompositeCI(final Composite composite, final int depth, final String path)\n
     '''
 def getatomicCIList():
-    '''public ArrayList getatomicCIList()
+    '''returns ArrayList\n\n
+    getatomicCIList()\n
     '''
 def getCIAttributesMap():
-    '''public HashMap getCIAttributesMap()
+    '''returns HashMap\n\n
+    getCIAttributesMap()\n
     '''
 def getCompositeCIMap():
-    '''public HashMap getCompositeCIMap()
-    '''
-def CompositeNode():
-    '''public CompositeNode()
+    '''returns HashMap\n\n
+    getCompositeCIMap()\n
     '''
 def getMembers():
-    '''public CompositeNode[] getMembers()
-    public AtomicCINode[] getMembers()
+    '''returns AtomicCINode[]\n\n
+    getMembers()\n
+    getMembers()\n
     '''
 def setMembers():
-    '''public void setMembers(final CompositeNode[] members)
-    public void setMembers(final AtomicCINode[] members)
+    '''returns None\n\n
+    setMembers(final CompositeNode[] members)\n
+    setMembers(final AtomicCINode[] members)\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
-    public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
+    setName(final String name)\n
     '''
 def getParent():
-    '''public CompositeNode getParent()
-    public AtomicCINode getParent()
+    '''returns AtomicCINode\n\n
+    getParent()\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final CompositeNode parent)
-    public void setParent(final AtomicCINode parent)
+    '''returns None\n\n
+    setParent(final CompositeNode parent)\n
+    setParent(final AtomicCINode parent)\n
     '''
 def getMemberList():
-    '''public ArrayList getMemberList()
-    public ArrayList getMemberList()
+    '''returns ArrayList\n\n
+    getMemberList()\n
+    getMemberList()\n
     '''
 def setMemberList():
-    '''public void setMemberList(final ArrayList memberList)
+    '''returns None\n\n
+    setMemberList(final ArrayList memberList)\n
     '''
 def getRoot():
-    '''public AtomicCINode getRoot()
+    '''returns AtomicCINode\n\n
+    getRoot()\n
     '''
 def setRoot():
-    '''public void setRoot(final AtomicCINode root)
+    '''returns None\n\n
+    setRoot(final AtomicCINode root)\n
     '''
 def getRootName():
-    '''public String getRootName()
+    '''returns String\n\n
+    getRootName()\n
     '''
 def setRootName():
-    '''public void setRootName(final String rootName)
-    '''
-def AtomicCINode():
-    '''public AtomicCINode()
+    '''returns None\n\n
+    setRootName(final String rootName)\n
     '''
 def setMemberNamesList():
-    '''public void setMemberNamesList(final ArrayList memberNamesList)
+    '''returns None\n\n
+    setMemberNamesList(final ArrayList memberNamesList)\n
     '''
 def getAttributeList():
-    '''public ArrayList getAttributeList()
+    '''returns ArrayList\n\n
+    getAttributeList()\n
     '''
 def setAttributeList():
-    '''public void setAttributeList(final ArrayList attributeList)
+    '''returns None\n\n
+    setAttributeList(final ArrayList attributeList)\n
     '''

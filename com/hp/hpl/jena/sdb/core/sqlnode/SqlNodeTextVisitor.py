@@ -1,17 +1,19 @@
-def SqlNodeTextVisitor():
-    '''public SqlNodeTextVisitor(final IndentedWriter out)
-    public SqlNodeTextVisitor(final IndentedWriter out, final boolean withAnnotations)
+def ():
+    '''returns SqlNodeTextVisitor\n\n
+    (final IndentedWriter out)\n
+    (final IndentedWriter out, final boolean withAnnotations)\n
     '''
 def visit():
-    '''public void visit(final SqlProject sqlNode)
-    public void visit(final SqlDistinct sqlNode)
-    public void visit(final SqlRestrict sqlNode)
-    public void visit(final SqlRename sqlRename)
-    public void visit(final SqlTable sqlNode)
-    public void visit(final SqlJoinInner sqlJoin)
-    public void visit(final SqlJoinLeftOuter sqlJoin)
-    public void visit(final SqlUnion sqlUnion)
-    public void visit(final SqlCoalesce sqlNode)
-    public void visit(final SqlSlice sqlNode)
-    public void visit(final SqlSelectBlock sqlNode)
+    '''returns None\n\n
+    visit(final SqlProject sqlNode)\n
+    visit(final SqlDistinct sqlNode)\n
+    visit(final SqlRestrict sqlNode)\n
+    visit(final SqlRename sqlRename)\n
+    visit(final SqlTable sqlNode)\n
+    visit(final SqlJoinInner sqlJoin)\n
+    visit(final SqlJoinLeftOuter sqlJoin)\n
+    visit(final SqlUnion sqlUnion)\n
+    visit(final SqlCoalesce sqlNode)\n
+    visit(final SqlSlice sqlNode)\n
+    visit(final SqlSelectBlock sqlNode)\n
     '''

@@ -1,33 +1,44 @@
-def Hazard():
-    '''public Hazard(final MboSet ms)
+def ():
+    '''returns Hazard\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def isHazardEnabled():
-    '''public boolean isHazardEnabled()
+    '''returns boolean\n\n
+    isHazardEnabled()\n
     '''
 def isPrecautionEnabled():
-    '''public boolean isPrecautionEnabled()
+    '''returns boolean\n\n
+    isPrecautionEnabled()\n
     '''
 def isTagOutEnabled():
-    '''public boolean isTagOutEnabled()
+    '''returns boolean\n\n
+    isTagOutEnabled()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

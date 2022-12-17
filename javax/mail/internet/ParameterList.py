@@ -1,23 +1,30 @@
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
-def ParameterList():
-    '''public ParameterList()
-    public ParameterList(final String s)
+def ():
+    '''returns ParameterList\n\n
+    ()\n
+    (final String s)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(int used)
+    '''returns String\n\n
+    toString()\n
+    toString(int used)\n
     '''
 def remove():
-    '''public void remove(final String name)
+    '''returns None\n\n
+    remove(final String name)\n
     '''
 def getNames():
-    '''public Enumeration getNames()
+    '''returns Enumeration\n\n
+    getNames()\n
     '''
 def get():
-    '''public String get(final String name)
+    '''returns String\n\n
+    get(final String name)\n
     '''
 def set():
-    '''public void set(final String name, final String value)
+    '''returns None\n\n
+    set(final String name, final String value)\n
     '''

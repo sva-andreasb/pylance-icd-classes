@@ -1,211 +1,280 @@
-def Item():
-    '''public Item(final MboSet ms)
+def ():
+    '''returns Item\n\n
+    (final MboSet ms)\n
     '''
 def getProcess():
-    '''public String getProcess()
+    '''returns String\n\n
+    getProcess()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setLotTypeReadOnly():
-    '''public void setLotTypeReadOnly(final boolean state)
+    '''returns None\n\n
+    setLotTypeReadOnly(final boolean state)\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canAddKitToStore():
-    '''public void canAddKitToStore()
+    '''returns None\n\n
+    canAddKitToStore()\n
     '''
 def canModifyKitStructure():
-    '''public void canModifyKitStructure()
+    '''returns None\n\n
+    canModifyKitStructure()\n
     '''
 def isNewKitComponentUniqueToSet():
-    '''public void isNewKitComponentUniqueToSet(final Mbo newKitItemStruct)
+    '''returns None\n\n
+    isNewKitComponentUniqueToSet(final Mbo newKitItemStruct)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def createTopItemStruct():
-    '''public void createTopItemStruct()
+    '''returns None\n\n
+    createTopItemStruct()\n
     '''
 def autoKeyItemnum():
-    '''public void autoKeyItemnum()
+    '''returns None\n\n
+    autoKeyItemnum()\n
     '''
 def isRotating():
-    '''public boolean isRotating()
+    '''returns boolean\n\n
+    isRotating()\n
     '''
 def isCapitalized():
-    '''public boolean isCapitalized()
+    '''returns boolean\n\n
+    isCapitalized()\n
     '''
 def isKit():
-    '''public boolean isKit()
+    '''returns boolean\n\n
+    isKit()\n
     '''
 def toggleRotating():
-    '''public void toggleRotating()
+    '''returns None\n\n
+    toggleRotating()\n
     '''
 def changeCapitalizedStatus():
-    '''public MboSetRemote changeCapitalizedStatus(final boolean capitalized)
-    public void changeCapitalizedStatus(final boolean capitalized, final String capitalacc, final String memo)
+    '''returns None\n\n
+    changeCapitalizedStatus(final boolean capitalized)\n
+    changeCapitalizedStatus(final boolean capitalized, final String capitalacc, final String memo)\n
     '''
 def addToStore():
-    '''public InventoryRemote addToStore(final String store, final String category, final boolean validateLocationLater)
-    public InventoryRemote addToStore(final String store)
-    public InventoryRemote addToStore(final String store, final String category)
+    '''returns InventoryRemote\n\n
+    addToStore(final String store, final String category, final boolean validateLocationLater)\n
+    addToStore(final String store)\n
+    addToStore(final String store, final String category)\n
     '''
 def isLotted():
-    '''public boolean isLotted()
+    '''returns boolean\n\n
+    isLotted()\n
     '''
 def isConditionEnabled():
-    '''public boolean isConditionEnabled()
+    '''returns boolean\n\n
+    isConditionEnabled()\n
     '''
 def getDefaultBin():
-    '''public String getDefaultBin()
+    '''returns String\n\n
+    getDefaultBin()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def canSparePartAutoAdd():
-    '''public boolean canSparePartAutoAdd()
+    '''returns boolean\n\n
+    canSparePartAutoAdd()\n
     '''
 def sparePartExists():
-    '''public boolean sparePartExists(final String assetnum, final String siteid)
+    '''returns boolean\n\n
+    sparePartExists(final String assetnum, final String siteid)\n
     '''
 def addSparePart():
-    '''public MboRemote addSparePart(final String assetnum, final String siteid)
+    '''returns MboRemote\n\n
+    addSparePart(final String assetnum, final String siteid)\n
     '''
 def applyIAS():
-    '''public void applyIAS(final MboRemote applyToMbo)
+    '''returns None\n\n
+    applyIAS(final MboRemote applyToMbo)\n
     '''
 def createItemSpecSet():
-    '''public MboSetRemote createItemSpecSet()
+    '''returns MboSetRemote\n\n
+    createItemSpecSet()\n
     '''
 def updateDesc():
-    '''public void updateDesc()
+    '''returns None\n\n
+    updateDesc()\n
     '''
 def updateRelatedObjects():
-    '''public void updateRelatedObjects(final String newStatus, final Date date, final String memo)
+    '''returns None\n\n
+    updateRelatedObjects(final String newStatus, final Date date, final String memo)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def appendDescription():
-    '''public void appendDescription(final String descSpec)
+    '''returns None\n\n
+    appendDescription(final String descSpec)\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def generateItemSpec():
-    '''public MboSetRemote generateItemSpec()
+    '''returns MboSetRemote\n\n
+    generateItemSpec()\n
     '''
 def processItemSpecSet():
-    '''public void processItemSpecSet()
+    '''returns None\n\n
+    processItemSpecSet()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def removeSpecialOrderItems():
-    '''public boolean removeSpecialOrderItems(final Vector storeLoc)
+    '''returns boolean\n\n
+    removeSpecialOrderItems(final Vector storeLoc)\n
     '''
 def getOneHundredPercent():
-    '''public MboRemote getOneHundredPercent()
+    '''returns MboRemote\n\n
+    getOneHundredPercent()\n
     '''
 def setThisComponentsKitAndDefaultBin():
-    '''public void setThisComponentsKitAndDefaultBin(final String kitNum, final String defaultBin)
+    '''returns None\n\n
+    setThisComponentsKitAndDefaultBin(final String kitNum, final String defaultBin)\n
     '''
 def getThisComponentsKit():
-    '''public String getThisComponentsKit()
+    '''returns String\n\n
+    getThisComponentsKit()\n
     '''
 def getThisComponentsDefaultBin():
-    '''public String getThisComponentsDefaultBin()
+    '''returns String\n\n
+    getThisComponentsDefaultBin()\n
     '''
 def getInternalItemType():
-    '''public String getInternalItemType()
+    '''returns String\n\n
+    getInternalItemType()\n
     '''
 def checkWOExists():
-    '''public boolean checkWOExists()
+    '''returns boolean\n\n
+    checkWOExists()\n
     '''
 def checkInvBalancesExists():
-    '''public boolean checkInvBalancesExists()
+    '''returns boolean\n\n
+    checkInvBalancesExists()\n
     '''
 def checkAssetExists():
-    '''public boolean checkAssetExists()
+    '''returns boolean\n\n
+    checkAssetExists()\n
     '''
 def checkJPExists():
-    '''public boolean checkJPExists()
+    '''returns boolean\n\n
+    checkJPExists()\n
     '''
 def checkMRExists():
-    '''public boolean checkMRExists()
+    '''returns boolean\n\n
+    checkMRExists()\n
     '''
 def checkPRExists():
-    '''public boolean checkPRExists()
+    '''returns boolean\n\n
+    checkPRExists()\n
     '''
 def checkPOExists():
-    '''public boolean checkPOExists()
+    '''returns boolean\n\n
+    checkPOExists()\n
     '''
 def checkContractExists():
-    '''public boolean checkContractExists()
+    '''returns boolean\n\n
+    checkContractExists()\n
     '''
 def checkCIExists():
-    '''public boolean checkCIExists()
+    '''returns boolean\n\n
+    checkCIExists()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
-    public void changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
+    changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)\n
     '''
 def validateChangeStatus():
-    '''public void validateChangeStatus(final String status, final boolean rolldown, final Date date, final String memo)
+    '''returns None\n\n
+    validateChangeStatus(final String status, final boolean rolldown, final Date date, final String memo)\n
     '''
 def isPendobs():
-    '''public boolean isPendobs()
+    '''returns boolean\n\n
+    isPendobs()\n
     '''
 def isObsolete():
-    '''public boolean isObsolete()
+    '''returns boolean\n\n
+    isObsolete()\n
     '''
 def isPlanning():
-    '''public boolean isPlanning()
+    '''returns boolean\n\n
+    isPlanning()\n
     '''
 def isRollDown():
-    '''public boolean isRollDown()
+    '''returns boolean\n\n
+    isRollDown()\n
     '''
 def updateInvVendor():
-    '''public void updateInvVendor()
+    '''returns None\n\n
+    updateInvVendor()\n
     '''
 def setUseThisItemSpecSet():
-    '''public void setUseThisItemSpecSet(final MboSetRemote itemSpecSet)
+    '''returns None\n\n
+    setUseThisItemSpecSet(final MboSetRemote itemSpecSet)\n
     '''
 def getUseThisItemSpecSet():
-    '''public MboSetRemote getUseThisItemSpecSet()
+    '''returns MboSetRemote\n\n
+    getUseThisItemSpecSet()\n
     '''
 def updateRotatingClassStructureSQLServer():
-    '''public void updateRotatingClassStructureSQLServer(String where, int counter, final long accessModifier)
+    '''returns None\n\n
+    updateRotatingClassStructureSQLServer(String where, int counter, final long accessModifier)\n
     '''
 def getNumberOfRotatingAssets():
-    '''public int getNumberOfRotatingAssets()
+    '''returns int\n\n
+    getNumberOfRotatingAssets()\n
     '''
 def processUpdateClassStructureID():
-    '''public void processUpdateClassStructureID(final String updateSql)
+    '''returns None\n\n
+    processUpdateClassStructureID(final String updateSql)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def checkKitCostType():
-    '''public void checkKitCostType(final boolean isKit)
+    '''returns None\n\n
+    checkKitCostType(final boolean isKit)\n
     '''
 def createNewDepreciation():
-    '''public MboRemote createNewDepreciation()
+    '''returns MboRemote\n\n
+    createNewDepreciation()\n
     '''
 def validateDepreciation():
-    '''public void validateDepreciation()
+    '''returns None\n\n
+    validateDepreciation()\n
     '''

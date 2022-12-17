@@ -1,3 +1,4 @@
-def PlusPNewBillBatchSet():
-    '''public PlusPNewBillBatchSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPNewBillBatchSet\n\n
+    (final MboServerInterface ms)\n
     '''

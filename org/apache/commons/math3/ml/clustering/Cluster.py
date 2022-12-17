@@ -1,9 +1,12 @@
-def Cluster():
-    '''public Cluster()
+def ():
+    '''returns Cluster\n\n
+    ()\n
     '''
 def addPoint():
-    '''public void addPoint(final T point)
+    '''returns None\n\n
+    addPoint(final T point)\n
     '''
 def getPoints():
-    '''public List<T> getPoints()
+    '''returns List<T>\n\n
+    getPoints()\n
     '''

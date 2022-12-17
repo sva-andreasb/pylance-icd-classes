@@ -1,57 +1,73 @@
 def finishDocument():
-    '''public void finishDocument()
+    '''returns None\n\n
+    finishDocument()\n
     '''
 def merge():
-    '''public int merge(final MergeState mergeState)
+    '''returns int\n\n
+    merge(final MergeState mergeState)\n
     '''
-def StoredFieldsMergeSub():
-    '''public StoredFieldsMergeSub(final MergeVisitor visitor, final MergeState.DocMap docMap, final StoredFieldsReader reader, final int maxDoc)
+def ():
+    '''returns MergeVisitor\n\n
+    (final MergeVisitor visitor, final MergeState.DocMap docMap, final StoredFieldsReader reader, final int maxDoc)\n
+    (final MergeState mergeState, final int readerIndex)\n
     '''
 def nextDoc():
-    '''public int nextDoc()
-    '''
-def MergeVisitor():
-    '''public MergeVisitor(final MergeState mergeState, final int readerIndex)
+    '''returns int\n\n
+    nextDoc()\n
     '''
 def binaryField():
-    '''public void binaryField(final FieldInfo fieldInfo, final byte[] value)
+    '''returns None\n\n
+    binaryField(final FieldInfo fieldInfo, final byte[] value)\n
     '''
 def stringField():
-    '''public void stringField(final FieldInfo fieldInfo, final byte[] value)
+    '''returns None\n\n
+    stringField(final FieldInfo fieldInfo, final byte[] value)\n
     '''
 def intField():
-    '''public void intField(final FieldInfo fieldInfo, final int value)
+    '''returns None\n\n
+    intField(final FieldInfo fieldInfo, final int value)\n
     '''
 def longField():
-    '''public void longField(final FieldInfo fieldInfo, final long value)
+    '''returns None\n\n
+    longField(final FieldInfo fieldInfo, final long value)\n
     '''
 def floatField():
-    '''public void floatField(final FieldInfo fieldInfo, final float value)
+    '''returns None\n\n
+    floatField(final FieldInfo fieldInfo, final float value)\n
     '''
 def doubleField():
-    '''public void doubleField(final FieldInfo fieldInfo, final double value)
+    '''returns None\n\n
+    doubleField(final FieldInfo fieldInfo, final double value)\n
     '''
 def needsField():
-    '''public Status needsField(final FieldInfo fieldInfo)
+    '''returns Status\n\n
+    needsField(final FieldInfo fieldInfo)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def fieldType():
-    '''public IndexableFieldType fieldType()
+    '''returns IndexableFieldType\n\n
+    fieldType()\n
     '''
 def binaryValue():
-    '''public BytesRef binaryValue()
+    '''returns BytesRef\n\n
+    binaryValue()\n
     '''
 def stringValue():
-    '''public String stringValue()
+    '''returns String\n\n
+    stringValue()\n
     '''
 def numericValue():
-    '''public Number numericValue()
+    '''returns Number\n\n
+    numericValue()\n
     '''
 def readerValue():
-    '''public Reader readerValue()
+    '''returns Reader\n\n
+    readerValue()\n
     '''
 def tokenStream():
-    '''public TokenStream tokenStream(final Analyzer analyzer, final TokenStream reuse)
+    '''returns TokenStream\n\n
+    tokenStream(final Analyzer analyzer, final TokenStream reuse)\n
     '''

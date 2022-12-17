@@ -1,27 +1,36 @@
-def Terminator():
-    '''public Terminator(final boolean startWorkerThread)
+def ():
+    '''returns Terminator\n\n
+    (final boolean startWorkerThread)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def isThreadRunning():
-    '''public boolean isThreadRunning()
+    '''returns boolean\n\n
+    isThreadRunning()\n
     '''
 def stopTerminating():
-    '''public void stopTerminating()
+    '''returns None\n\n
+    stopTerminating()\n
     '''
 def startWorkerThread():
-    '''public void startWorkerThread()
+    '''returns None\n\n
+    startWorkerThread()\n
     '''
 def setTerminationInterval():
-    '''public void setTerminationInterval(final long terminationInterval)
+    '''returns None\n\n
+    setTerminationInterval(final long terminationInterval)\n
     '''
 def getTerminatorInterval():
-    '''public int getTerminatorInterval()
+    '''returns int\n\n
+    getTerminatorInterval()\n
     '''
 def setLifespan():
-    '''public void setLifespan(final long lifespan)
+    '''returns None\n\n
+    setLifespan(final long lifespan)\n
     '''
 def getLifespan():
-    '''public int getLifespan()
+    '''returns int\n\n
+    getLifespan()\n
     '''

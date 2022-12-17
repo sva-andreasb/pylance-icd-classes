@@ -1,3 +1,4 @@
-def RequestLogSet():
-    '''public RequestLogSet(final MboServerInterface ms)
+def ():
+    '''returns RequestLogSet\n\n
+    (final MboServerInterface ms)\n
     '''

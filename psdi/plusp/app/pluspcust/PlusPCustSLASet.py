@@ -1,3 +1,4 @@
-def PlusPCustSLASet():
-    '''public PlusPCustSLASet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustSLASet\n\n
+    (final MboServerInterface ms)\n
     '''

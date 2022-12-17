@@ -1,28 +1,33 @@
-def MaxLicMonitorService():
-    '''public MaxLicMonitorService()
-    public MaxLicMonitorService(final MXServer mxServer)
+def ():
+    '''returns MaxLicMonitorService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getLicProductKeys():
-    '''public String getLicProductKeys()
-    '''
-def getLictrackLogger():
-    '''public static MXLogger getLictrackLogger()
+    '''returns String\n\n
+    getLicProductKeys()\n
     '''
 def getProductKEYS():
-    '''public HashSet<String> getProductKEYS()
+    '''returns HashSet<String>\n\n
+    getProductKEYS()\n
     '''
 def getProductName():
-    '''public String getProductName(final String prodId)
+    '''returns String\n\n
+    getProductName(final String prodId)\n
     '''
 def checkMaxprodidInAppTable():
-    '''public boolean checkMaxprodidInAppTable(final String prodId)
+    '''returns boolean\n\n
+    checkMaxprodidInAppTable(final String prodId)\n
     '''
 def checkAppInAppTable():
-    '''public boolean checkAppInAppTable(final String appName)
+    '''returns boolean\n\n
+    checkAppInAppTable(final String appName)\n
     '''
 def getLicenseType():
-    '''public List<Object> getLicenseType(final String userId)
+    '''returns List<Object>\n\n
+    getLicenseType(final String userId)\n
     '''

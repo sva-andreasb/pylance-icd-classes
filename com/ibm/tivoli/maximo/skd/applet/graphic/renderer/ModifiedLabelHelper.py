@@ -1,19 +1,25 @@
-def ModifiedLabelHelper():
-    '''public ModifiedLabelHelper(final IlvHierarchyChart chart, final HierarchyChartPredicate<IlvHierarchyNode> predicate)
-    public ModifiedLabelHelper(final String leadingDecorator, final String color, final IlvHierarchyChart chart, final HierarchyChartPredicate<IlvHierarchyNode> predicate)
+def ():
+    '''returns ModifiedLabelHelper\n\n
+    (final IlvHierarchyChart chart, final HierarchyChartPredicate<IlvHierarchyNode> predicate)\n
+    (final String leadingDecorator, final String color, final IlvHierarchyChart chart, final HierarchyChartPredicate<IlvHierarchyNode> predicate)\n
     '''
 def decorateFont():
-    '''public void decorateFont(final Component orig)
+    '''returns None\n\n
+    decorateFont(final Component orig)\n
     '''
 def decorateText():
-    '''public String decorateText(final String text)
+    '''returns String\n\n
+    decorateText(final String text)\n
     '''
 def isModified():
-    '''public boolean isModified(final Object value)
+    '''returns boolean\n\n
+    isModified(final Object value)\n
     '''
 def getPredicate():
-    '''public HierarchyChartPredicate<IlvHierarchyNode> getPredicate()
+    '''returns HierarchyChartPredicate<IlvHierarchyNode>\n\n
+    getPredicate()\n
     '''
 def setPredicate():
-    '''public void setPredicate(final HierarchyChartPredicate<IlvHierarchyNode> predicate)
+    '''returns None\n\n
+    setPredicate(final HierarchyChartPredicate<IlvHierarchyNode> predicate)\n
     '''

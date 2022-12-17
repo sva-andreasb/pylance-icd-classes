@@ -1,26 +1,30 @@
 ACCESS_TOKEN = "String  \"access_xyz\""
 REFRESH_TOKEN = "String  \"refresh123\""
-def MockGoogleCredential():
-    '''public MockGoogleCredential(final Builder builder)
-    '''
-def newMockHttpTransportWithSampleTokenResponse():
-    '''public static MockHttpTransport newMockHttpTransportWithSampleTokenResponse()
+def ():
+    '''returns MockGoogleCredential\n\n
+    (final Builder builder)\n
     '''
 def setTransport():
-    '''public Builder setTransport(final HttpTransport transport)
+    '''returns Builder\n\n
+    setTransport(final HttpTransport transport)\n
     '''
 def setClientAuthentication():
-    '''public Builder setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''returns Builder\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def setJsonFactory():
-    '''public Builder setJsonFactory(final JsonFactory jsonFactory)
+    '''returns Builder\n\n
+    setJsonFactory(final JsonFactory jsonFactory)\n
     '''
 def setClock():
-    '''public Builder setClock(final Clock clock)
+    '''returns Builder\n\n
+    setClock(final Clock clock)\n
     '''
 def build():
-    '''public MockGoogleCredential build()
+    '''returns MockGoogleCredential\n\n
+    build()\n
     '''
 def intercept():
-    '''public void intercept(final HttpRequest request)
+    '''returns None\n\n
+    intercept(final HttpRequest request)\n
     '''

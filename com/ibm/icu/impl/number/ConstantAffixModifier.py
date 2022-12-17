@@ -1,28 +1,37 @@
-def ConstantAffixModifier():
-    '''public ConstantAffixModifier(final String prefix, final String suffix, final Format.Field field, final boolean strong)
-    public ConstantAffixModifier()
+def ():
+    '''returns ConstantAffixModifier\n\n
+    (final String prefix, final String suffix, final Format.Field field, final boolean strong)\n
+    ()\n
     '''
 def apply():
-    '''public int apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)
+    '''returns int\n\n
+    apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)\n
     '''
 def getPrefixLength():
-    '''public int getPrefixLength()
+    '''returns int\n\n
+    getPrefixLength()\n
     '''
 def getCodePointCount():
-    '''public int getCodePointCount()
+    '''returns int\n\n
+    getCodePointCount()\n
     '''
 def isStrong():
-    '''public boolean isStrong()
+    '''returns boolean\n\n
+    isStrong()\n
     '''
 def containsField():
-    '''public boolean containsField(final Format.Field field)
+    '''returns boolean\n\n
+    containsField(final Format.Field field)\n
     '''
 def getParameters():
-    '''public Parameters getParameters()
+    '''returns Parameters\n\n
+    getParameters()\n
     '''
 def semanticallyEquivalent():
-    '''public boolean semanticallyEquivalent(final Modifier other)
+    '''returns boolean\n\n
+    semanticallyEquivalent(final Modifier other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

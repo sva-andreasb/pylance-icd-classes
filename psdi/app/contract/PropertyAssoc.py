@@ -1,3 +1,4 @@
-def PropertyAssoc():
-    '''public PropertyAssoc(final MboSet ms)
+def ():
+    '''returns PropertyAssoc\n\n
+    (final MboSet ms)\n
     '''

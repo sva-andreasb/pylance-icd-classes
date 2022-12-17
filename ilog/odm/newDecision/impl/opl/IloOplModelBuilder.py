@@ -1,22 +1,29 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloOplModelBuilder():
-    '''public IloOplModelBuilder(final IloOplDecisionEngine owner)
+def ():
+    '''returns IloOplModelBuilder\n\n
+    (final IloOplDecisionEngine owner)\n
     '''
 def changeRequirementPriorities():
-    '''public void changeRequirementPriorities()
+    '''returns None\n\n
+    changeRequirementPriorities()\n
     '''
 def buildObjective():
-    '''public void buildObjective()
+    '''returns None\n\n
+    buildObjective()\n
     '''
 def addDecisionVariableConstraints():
-    '''public void addDecisionVariableConstraints()
+    '''returns None\n\n
+    addDecisionVariableConstraints()\n
     '''
 def getMappingAccessor():
-    '''public IloOplMappingAccessor getMappingAccessor()
+    '''returns IloOplMappingAccessor\n\n
+    getMappingAccessor()\n
     '''
 def getOplModelAccessor():
-    '''public IloOplModelAccessor getOplModelAccessor()
+    '''returns IloOplModelAccessor\n\n
+    getOplModelAccessor()\n
     '''
 def buildDecisionModel():
-    '''public void buildDecisionModel()
+    '''returns None\n\n
+    buildDecisionModel()\n
     '''

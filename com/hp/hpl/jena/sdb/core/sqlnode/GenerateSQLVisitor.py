@@ -1,25 +1,30 @@
-def GenerateSQLVisitor():
-    '''public GenerateSQLVisitor(final IndentedWriter out)
+def ():
+    '''returns GenerateSQLVisitor\n\n
+    (final IndentedWriter out)\n
     '''
 def visit():
-    '''public void visit(final SqlProject sqlNode)
-    public void visit(final SqlDistinct sqlNode)
-    public void visit(final SqlRestrict sqlNode)
-    public void visit(final SqlSlice sqlNode)
-    public void visit(final SqlRename sqlNode)
-    public void visit(final SqlSelectBlock sqlSelectBlock)
-    public void visit(final SqlTable table)
-    public void visit(SqlJoinInner join)
-    public void visit(final SqlJoinLeftOuter join)
-    public void visit(final SqlCoalesce sqlNode)
-    public void visit(final SqlUnion sqlUnion)
+    '''returns None\n\n
+    visit(final SqlProject sqlNode)\n
+    visit(final SqlDistinct sqlNode)\n
+    visit(final SqlRestrict sqlNode)\n
+    visit(final SqlSlice sqlNode)\n
+    visit(final SqlRename sqlNode)\n
+    visit(final SqlSelectBlock sqlSelectBlock)\n
+    visit(final SqlTable table)\n
+    visit(SqlJoinInner join)\n
+    visit(final SqlJoinLeftOuter join)\n
+    visit(final SqlCoalesce sqlNode)\n
+    visit(final SqlUnion sqlUnion)\n
     '''
 def rewrite():
-    '''public SqlJoinInner rewrite(final SqlJoinInner join)
+    '''returns SqlJoinInner\n\n
+    rewrite(final SqlJoinInner join)\n
     '''
 def conditionList():
-    '''public void conditionList(final SqlExprList conditions)
+    '''returns None\n\n
+    conditionList(final SqlExprList conditions)\n
     '''
 def convert():
-    '''public SqlTable convert(final SqlColumn item)
+    '''returns SqlTable\n\n
+    convert(final SqlColumn item)\n
     '''

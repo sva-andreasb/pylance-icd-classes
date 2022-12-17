@@ -1,4 +1,5 @@
-def AbstractDateExpansionRule():
-    '''public AbstractDateExpansionRule(final Recur.Frequency frequency)
-    public AbstractDateExpansionRule(final Recur.Frequency frequency, final Optional<WeekDay.Day> weekStartDay)
+def ():
+    '''returns AbstractDateExpansionRule\n\n
+    (final Recur.Frequency frequency)\n
+    (final Recur.Frequency frequency, final Optional<WeekDay.Day> weekStartDay)\n
     '''

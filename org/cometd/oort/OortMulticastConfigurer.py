@@ -1,37 +1,43 @@
-def OortMulticastConfigurer():
-    '''public OortMulticastConfigurer(final Oort oort)
+def ():
+    '''returns MulticastSender\n\n
+    (final Oort oort)\n
+    (final MulticastSocket socket)\n
+    (final MulticastSocket socket)\n
     '''
 def setBindAddress():
-    '''public void setBindAddress(final InetAddress bindAddress)
+    '''returns None\n\n
+    setBindAddress(final InetAddress bindAddress)\n
     '''
 def setGroupAddress():
-    '''public void setGroupAddress(final InetAddress groupAddress)
+    '''returns None\n\n
+    setGroupAddress(final InetAddress groupAddress)\n
     '''
 def setGroupPort():
-    '''public void setGroupPort(final int groupPort)
+    '''returns None\n\n
+    setGroupPort(final int groupPort)\n
     '''
 def setTimeToLive():
-    '''public void setTimeToLive(final int timeToLive)
+    '''returns None\n\n
+    setTimeToLive(final int timeToLive)\n
     '''
 def setAdvertiseInterval():
-    '''public void setAdvertiseInterval(final long advertiseInterval)
+    '''returns None\n\n
+    setAdvertiseInterval(final long advertiseInterval)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def join():
-    '''public boolean join(final long timeout)
-    '''
-def MulticastReceiver():
-    '''public MulticastReceiver(final MulticastSocket socket)
+    '''returns boolean\n\n
+    join(final long timeout)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    '''
-def MulticastSender():
-    '''public MulticastSender(final MulticastSocket socket)
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''

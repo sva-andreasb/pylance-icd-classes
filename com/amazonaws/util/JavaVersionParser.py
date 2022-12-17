@@ -1,40 +1,41 @@
 JAVA_VERSION_PROPERTY = "String  \"java.version\""
-def getCurrentJavaVersion():
-    '''public static JavaVersion getCurrentJavaVersion()
-    '''
-def parseJavaVersion():
-    '''public static JavaVersion parseJavaVersion(final String fullVersionString)
-    '''
-def JavaVersion():
-    '''public JavaVersion(final Integer majorVersionFamily, final Integer majorVersion, final Integer maintenanceNumber, final Integer updateNumber)
+def ():
+    '''returns JavaVersion\n\n
+    (final Integer majorVersionFamily, final Integer majorVersion, final Integer maintenanceNumber, final Integer updateNumber)\n
     '''
 def getMajorVersionFamily():
-    '''public Integer getMajorVersionFamily()
+    '''returns Integer\n\n
+    getMajorVersionFamily()\n
     '''
 def getMajorVersion():
-    '''public Integer getMajorVersion()
+    '''returns Integer\n\n
+    getMajorVersion()\n
     '''
 def getMajorVersionString():
-    '''public String getMajorVersionString()
+    '''returns String\n\n
+    getMajorVersionString()\n
     '''
 def getMaintenanceNumber():
-    '''public Integer getMaintenanceNumber()
+    '''returns Integer\n\n
+    getMaintenanceNumber()\n
     '''
 def getUpdateNumber():
-    '''public Integer getUpdateNumber()
+    '''returns Integer\n\n
+    getUpdateNumber()\n
     '''
 def getKnownVersion():
-    '''public KnownJavaVersions getKnownVersion()
+    '''returns KnownJavaVersions\n\n
+    getKnownVersion()\n
     '''
 def compareTo():
-    '''public int compareTo(final JavaVersion other)
+    '''returns int\n\n
+    compareTo(final JavaVersion other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    '''
-def fromMajorVersion():
-    '''public static KnownJavaVersions fromMajorVersion(final Integer majorVersionFamily, final Integer majorVersion)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

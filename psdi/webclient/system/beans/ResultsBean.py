@@ -1,128 +1,127 @@
-def ResultsBean():
-    '''public ResultsBean()
+def ():
+    '''returns ResultsBean\n\n
+    ()\n
     '''
 def addListener():
-    '''public void addListener(final DataBeanListener listener)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    addListener(final DataBeanListener listener)\n
     '''
 def recHasChanged():
-    '''public void recHasChanged()
-    public void recHasChanged(final int oper)
+    '''returns None\n\n
+    recHasChanged()\n
+    recHasChanged(final int oper)\n
     '''
 def isAppLockEnabled():
-    '''public boolean isAppLockEnabled()
+    '''returns boolean\n\n
+    isAppLockEnabled()\n
     '''
 def hasRecChanged():
-    '''public boolean hasRecChanged()
+    '''returns boolean\n\n
+    hasRecChanged()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
-    '''
-def save():
-    '''public synchronized void save()
-    '''
-def setCurrentRow():
-    '''public synchronized boolean setCurrentRow(final int nRow)
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def setSubSetMaxRowCount():
-    '''public void setSubSetMaxRowCount(final int maxrows)
+    '''returns None\n\n
+    setSubSetMaxRowCount(final int maxrows)\n
     '''
 def resetSelectedCache():
-    '''public void resetSelectedCache()
+    '''returns None\n\n
+    resetSelectedCache()\n
     '''
 def clearBean():
-    '''public void clearBean()
+    '''returns None\n\n
+    clearBean()\n
     '''
 def getFirstRecord():
-    '''public void getFirstRecord()
+    '''returns None\n\n
+    getFirstRecord()\n
     '''
 def search():
-    '''public int search()
+    '''returns int\n\n
+    search()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def setPageRowCount():
-    '''public void setPageRowCount(final int rowCount)
+    '''returns None\n\n
+    setPageRowCount(final int rowCount)\n
     '''
 def togglesubselect():
-    '''public int togglesubselect()
+    '''returns int\n\n
+    togglesubselect()\n
     '''
 def useSubSelect():
-    '''public boolean useSubSelect()
-    '''
-def select():
-    '''public synchronized void select(final int row)
-    public synchronized void select(final int startIndex, final int count)
-    '''
-def unselect():
-    '''public synchronized void unselect(final int row)
-    public synchronized void unselect(final int startIndex, final int count)
-    '''
-def selectAll():
-    '''public synchronized void selectAll()
-    '''
-def unselectAll():
-    '''public synchronized void unselectAll()
-    '''
-def next():
-    '''public synchronized boolean next()
-    '''
-def previous():
-    '''public synchronized boolean previous()
+    '''returns boolean\n\n
+    useSubSelect()\n
     '''
 def findFirstSelectedIndex():
-    '''public int findFirstSelectedIndex()
+    '''returns int\n\n
+    findFirstSelectedIndex()\n
     '''
 def allSelected():
-    '''public boolean allSelected()
+    '''returns boolean\n\n
+    allSelected()\n
     '''
 def fetchTableData():
-    '''public int fetchTableData()
+    '''returns int\n\n
+    fetchTableData()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    public void setupBean(final SessionContext sc)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
+    setupBean(final SessionContext sc)\n
     '''
 def hasRecordsForAction():
-    '''public boolean hasRecordsForAction()
+    '''returns boolean\n\n
+    hasRecordsForAction()\n
     '''
 def clearfilter():
-    '''public int clearfilter()
+    '''returns int\n\n
+    clearfilter()\n
     '''
 def BOOKMARK():
-    '''public int BOOKMARK()
+    '''returns int\n\n
+    BOOKMARK()\n
     '''
 def setStartEmpty():
-    '''public void setStartEmpty()
+    '''returns None\n\n
+    setStartEmpty()\n
     '''
 def turnEmptyStateOff():
-    '''public void turnEmptyStateOff()
-    public void turnEmptyStateOff(final boolean dofetch)
+    '''returns None\n\n
+    turnEmptyStateOff()\n
+    turnEmptyStateOff(final boolean dofetch)\n
     '''
 def getDataAsArray():
-    '''public String[][] getDataAsArray(final String[] attributeNames)
+    '''returns String[][]\n\n
+    getDataAsArray(final String[] attributeNames)\n
     '''
 def getSelectedDataAsArray():
-    '''public String[][] getSelectedDataAsArray(final String[] attributeNames)
+    '''returns String[][]\n\n
+    getSelectedDataAsArray(final String[] attributeNames)\n
     '''
 def getResetFromQbeclearInit():
-    '''public boolean getResetFromQbeclearInit()
+    '''returns boolean\n\n
+    getResetFromQbeclearInit()\n
     '''
 def setResetFromQbeclearInit():
-    '''public void setResetFromQbeclearInit(final boolean flag)
-    '''
-def setQbeDefaults():
-    '''public synchronized void setQbeDefaults()
+    '''returns None\n\n
+    setResetFromQbeclearInit(final boolean flag)\n
     '''
 def clearTableRetainCache():
-    '''public void clearTableRetainCache()
+    '''returns None\n\n
+    clearTableRetainCache()\n
     '''
 def isModifiedRow():
-    '''public boolean isModifiedRow(final int thisRow)
+    '''returns boolean\n\n
+    isModifiedRow(final int thisRow)\n
     '''
 def isRowDeleted():
-    '''public boolean isRowDeleted(final int thisRow)
+    '''returns boolean\n\n
+    isRowDeleted(final int thisRow)\n
     '''

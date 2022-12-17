@@ -1,30 +1,40 @@
 def setCiphertextBlob():
-    '''public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''returns None\n\n
+    setCiphertextBlob(final ByteBuffer ciphertextBlob)\n
     '''
 def getCiphertextBlob():
-    '''public ByteBuffer getCiphertextBlob()
+    '''returns ByteBuffer\n\n
+    getCiphertextBlob()\n
     '''
 def withCiphertextBlob():
-    '''public GenerateDataKeyWithoutPlaintextResult withCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''returns GenerateDataKeyWithoutPlaintextResult\n\n
+    withCiphertextBlob(final ByteBuffer ciphertextBlob)\n
     '''
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public GenerateDataKeyWithoutPlaintextResult withKeyId(final String keyId)
+    '''returns GenerateDataKeyWithoutPlaintextResult\n\n
+    withKeyId(final String keyId)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public GenerateDataKeyWithoutPlaintextResult clone()
+    '''returns GenerateDataKeyWithoutPlaintextResult\n\n
+    clone()\n
     '''

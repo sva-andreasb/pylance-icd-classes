@@ -1,9 +1,12 @@
-def POITextExtractor():
-    '''public POITextExtractor()
+def ():
+    '''returns POITextExtractor\n\n
+    ()\n
     '''
 def setFilesystem():
-    '''public void setFilesystem(final Closeable fs)
+    '''returns None\n\n
+    setFilesystem(final Closeable fs)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

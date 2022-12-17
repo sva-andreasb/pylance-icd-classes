@@ -1,9 +1,12 @@
-def CssScanner():
-    '''public CssScanner(final InternalPolicy policy, final ResourceBundle messages)
+def ():
+    '''returns CssScanner\n\n
+    (final InternalPolicy policy, final ResourceBundle messages)\n
     '''
 def scanStyleSheet():
-    '''public CleanResults scanStyleSheet(String taintedCss, final int sizeLimit)
+    '''returns CleanResults\n\n
+    scanStyleSheet(String taintedCss, final int sizeLimit)\n
     '''
 def scanInlineStyle():
-    '''public CleanResults scanInlineStyle(final String taintedCss, final String tagName, final int sizeLimit)
+    '''returns CleanResults\n\n
+    scanInlineStyle(final String taintedCss, final String tagName, final int sizeLimit)\n
     '''

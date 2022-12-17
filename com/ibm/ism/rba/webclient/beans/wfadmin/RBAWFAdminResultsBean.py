@@ -1,6 +1,8 @@
 def ASSIGNWF():
-    '''public int ASSIGNWF()
+    '''returns int\n\n
+    ASSIGNWF()\n
     '''
 def STOPWF():
-    '''public int STOPWF()
+    '''returns int\n\n
+    STOPWF()\n
     '''

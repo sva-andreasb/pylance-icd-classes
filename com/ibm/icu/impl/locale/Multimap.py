@@ -1,30 +1,34 @@
 def putAll():
-    '''public final Multimap<K, V> putAll(final K key, final V... values)
-    public void putAll(final K key, final Collection<V> values)
-    public void putAll(final Collection<K> keys, final V value)
-    public void putAll(final Multimap<K, V> source)
+    '''returns None\n\n
+    putAll(final K key, final Collection<V> values)\n
+    putAll(final Collection<K> keys, final V value)\n
+    putAll(final Multimap<K, V> source)\n
     '''
 def put():
-    '''public void put(final K key, final V value)
+    '''returns None\n\n
+    put(final K key, final V value)\n
     '''
 def get():
-    '''public Set<V> get(final K key)
+    '''returns Set<V>\n\n
+    get(final K key)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
-    '''
-def asMap():
-    '''public Map<K, Set<V>> asMap()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Set<V> values()
+    '''returns Set<V>\n\n
+    values()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

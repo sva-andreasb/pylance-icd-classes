@@ -1,15 +1,20 @@
-def ModModel():
-    '''public ModModel(final String argName, final String... altNames)
+def ():
+    '''returns ModModel\n\n
+    (final String argName, final String... altNames)\n
     '''
 def getArg():
-    '''public ArgDecl getArg()
+    '''returns ArgDecl\n\n
+    getArg()\n
     '''
 def registerWith():
-    '''public void registerWith(final CmdGeneral cmdLine)
+    '''returns None\n\n
+    registerWith(final CmdGeneral cmdLine)\n
     '''
 def processArgs():
-    '''public void processArgs(final CmdArgModule cmdLine)
+    '''returns None\n\n
+    processArgs(final CmdArgModule cmdLine)\n
     '''
 def getModel():
-    '''public Model getModel()
+    '''returns Model\n\n
+    getModel()\n
     '''

@@ -1,15 +1,20 @@
 def getAssetAttridId():
-    '''public String getAssetAttridId()
+    '''returns String\n\n
+    getAssetAttridId()\n
     '''
 def getDataType():
-    '''public String getDataType()
+    '''returns String\n\n
+    getDataType()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getOrgId():
-    '''public String getOrgId()
+    '''returns String\n\n
+    getOrgId()\n
     '''
 def getSiteId():
-    '''public String getSiteId()
+    '''returns String\n\n
+    getSiteId()\n
     '''

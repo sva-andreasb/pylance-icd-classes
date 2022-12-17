@@ -1,27 +1,32 @@
-def CachedJarURLConnection():
-    '''public CachedJarURLConnection(final URL url, final Handler handler)
-    '''
-def getJarFileURL():
-    '''public synchronized URL getJarFileURL()
+def ():
+    '''returns CachedJarURLConnection\n\n
+    (final URL url, final Handler handler)\n
     '''
 def getJarFile():
-    '''public JarFile getJarFile()
+    '''returns JarFile\n\n
+    getJarFile()\n
     '''
 def getJarEntry():
-    '''public JarEntry getJarEntry()
+    '''returns JarEntry\n\n
+    getJarEntry()\n
     '''
 def connect():
-    '''public void connect()
+    '''returns None\n\n
+    connect()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getContent():
-    '''public Object getContent()
+    '''returns Object\n\n
+    getContent()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getContentLength():
-    '''public int getContentLength()
+    '''returns int\n\n
+    getContentLength()\n
     '''

@@ -1,37 +1,42 @@
-def SettableAnyProperty():
-    '''public SettableAnyProperty(final BeanProperty property, final AnnotatedMember setter, final JavaType type, final KeyDeserializer keyDeser, final JsonDeserializer<Object> valueDeser, final TypeDeserializer typeDeser)
-    public SettableAnyProperty(final BeanProperty property, final AnnotatedMember setter, final JavaType type, final JsonDeserializer<Object> valueDeser, final TypeDeserializer typeDeser)
+def ():
+    '''returns AnySetterReferring\n\n
+    (final BeanProperty property, final AnnotatedMember setter, final JavaType type, final KeyDeserializer keyDeser, final JsonDeserializer<Object> valueDeser, final TypeDeserializer typeDeser)\n
+    (final BeanProperty property, final AnnotatedMember setter, final JavaType type, final JsonDeserializer<Object> valueDeser, final TypeDeserializer typeDeser)\n
+    (final SettableAnyProperty parent, final UnresolvedForwardReference reference, final Class<?> type, final Object instance, final String propName)\n
     '''
 def withValueDeserializer():
-    '''public SettableAnyProperty withValueDeserializer(final JsonDeserializer<Object> deser)
+    '''returns SettableAnyProperty\n\n
+    withValueDeserializer(final JsonDeserializer<Object> deser)\n
     '''
 def fixAccess():
-    '''public void fixAccess(final DeserializationConfig config)
+    '''returns None\n\n
+    fixAccess(final DeserializationConfig config)\n
     '''
 def getProperty():
-    '''public BeanProperty getProperty()
+    '''returns BeanProperty\n\n
+    getProperty()\n
     '''
 def hasValueDeserializer():
-    '''public boolean hasValueDeserializer()
+    '''returns boolean\n\n
+    hasValueDeserializer()\n
     '''
 def getType():
-    '''public JavaType getType()
-    '''
-def deserializeAndSet():
-    '''public final void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance, final String propName)
+    '''returns JavaType\n\n
+    getType()\n
     '''
 def deserialize():
-    '''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
     '''
 def set():
-    '''public void set(final Object instance, final Object propName, final Object value)
+    '''returns None\n\n
+    set(final Object instance, final Object propName, final Object value)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def AnySetterReferring():
-    '''public AnySetterReferring(final SettableAnyProperty parent, final UnresolvedForwardReference reference, final Class<?> type, final Object instance, final String propName)
+    '''returns String\n\n
+    toString()\n
     '''
 def handleResolvedForwardReference():
-    '''public void handleResolvedForwardReference(final Object id, final Object value)
+    '''returns None\n\n
+    handleResolvedForwardReference(final Object id, final Object value)\n
     '''

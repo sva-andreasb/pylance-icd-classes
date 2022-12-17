@@ -1,3 +1,4 @@
-def MaxLabelsSet():
-    '''public MaxLabelsSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLabelsSet\n\n
+    (final MboServerInterface ms)\n
     '''

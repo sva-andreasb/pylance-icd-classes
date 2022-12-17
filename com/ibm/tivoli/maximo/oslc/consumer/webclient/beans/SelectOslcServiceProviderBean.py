@@ -1,6 +1,8 @@
-def SelectOslcServiceProviderBean():
-    '''public SelectOslcServiceProviderBean()
+def ():
+    '''returns SelectOslcServiceProviderBean\n\n
+    ()\n
     '''
 def SELECT():
-    '''public int SELECT()
+    '''returns int\n\n
+    SELECT()\n
     '''

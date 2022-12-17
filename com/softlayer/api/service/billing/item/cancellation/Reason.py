@@ -1,94 +1,120 @@
 def getBillingCancellationReasonCategory():
-    '''public Category getBillingCancellationReasonCategory()
+    '''returns Category\n\n
+    getBillingCancellationReasonCategory()\n
     '''
 def setBillingCancellationReasonCategory():
-    '''public void setBillingCancellationReasonCategory(final Category billingCancellationReasonCategory)
+    '''returns None\n\n
+    setBillingCancellationReasonCategory(final Category billingCancellationReasonCategory)\n
     '''
 def getBillingItems():
-    '''public List<Item> getBillingItems()
+    '''returns List<Item>\n\n
+    getBillingItems()\n
     '''
 def getTranslatedReason():
-    '''public String getTranslatedReason()
+    '''returns String\n\n
+    getTranslatedReason()\n
     '''
 def setTranslatedReason():
-    '''public void setTranslatedReason(final String translatedReason)
+    '''returns None\n\n
+    setTranslatedReason(final String translatedReason)\n
     '''
 def getBillingCancelReasonCategoryId():
-    '''public Long getBillingCancelReasonCategoryId()
+    '''returns Long\n\n
+    getBillingCancelReasonCategoryId()\n
     '''
 def setBillingCancelReasonCategoryId():
-    '''public void setBillingCancelReasonCategoryId(final Long billingCancelReasonCategoryId)
+    '''returns None\n\n
+    setBillingCancelReasonCategoryId(final Long billingCancelReasonCategoryId)\n
     '''
 def isBillingCancelReasonCategoryIdSpecified():
-    '''public boolean isBillingCancelReasonCategoryIdSpecified()
+    '''returns boolean\n\n
+    isBillingCancelReasonCategoryIdSpecified()\n
     '''
 def unsetBillingCancelReasonCategoryId():
-    '''public void unsetBillingCancelReasonCategoryId()
+    '''returns None\n\n
+    unsetBillingCancelReasonCategoryId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getKeyName():
-    '''public String getKeyName()
+    '''returns String\n\n
+    getKeyName()\n
     '''
 def setKeyName():
-    '''public void setKeyName(final String keyName)
+    '''returns None\n\n
+    setKeyName(final String keyName)\n
     '''
 def isKeyNameSpecified():
-    '''public boolean isKeyNameSpecified()
+    '''returns boolean\n\n
+    isKeyNameSpecified()\n
     '''
 def unsetKeyName():
-    '''public void unsetKeyName()
+    '''returns None\n\n
+    unsetKeyName()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def setReason():
-    '''public void setReason(final String reason)
+    '''returns None\n\n
+    setReason(final String reason)\n
     '''
 def isReasonSpecified():
-    '''public boolean isReasonSpecified()
+    '''returns boolean\n\n
+    isReasonSpecified()\n
     '''
 def unsetReason():
-    '''public void unsetReason()
+    '''returns None\n\n
+    unsetReason()\n
     '''
 def getBillingItemCount():
-    '''public Long getBillingItemCount()
+    '''returns Long\n\n
+    getBillingItemCount()\n
     '''
 def setBillingItemCount():
-    '''public void setBillingItemCount(final Long billingItemCount)
+    '''returns None\n\n
+    setBillingItemCount(final Long billingItemCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def translatedReason():
-    '''public Mask translatedReason()
+    '''returns Mask\n\n
+    translatedReason()\n
     '''
 def billingCancelReasonCategoryId():
-    '''public Mask billingCancelReasonCategoryId()
+    '''returns Mask\n\n
+    billingCancelReasonCategoryId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def keyName():
-    '''public Mask keyName()
+    '''returns Mask\n\n
+    keyName()\n
     '''
 def reason():
-    '''public Mask reason()
+    '''returns Mask\n\n
+    reason()\n
     '''
 def billingItemCount():
-    '''public Mask billingItemCount()
+    '''returns Mask\n\n
+    billingItemCount()\n
     '''

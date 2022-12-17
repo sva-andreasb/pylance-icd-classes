@@ -11,49 +11,60 @@ DC_CONFIDENTIAL = "int  2"
 DC_FORBIDDEN = "int  3"
 NONE = "String  \"NONE\""
 ANY_ROLE = "String  \"*\""
-def validateMethod():
-    '''public static boolean validateMethod(String method)
-    '''
-def Constraint():
-    '''public Constraint()
-    public Constraint(final String name, final String role)
+def ():
+    '''returns Constraint\n\n
+    ()\n
+    (final String name, final String role)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setRoles():
-    '''public void setRoles(final String[] roles)
+    '''returns None\n\n
+    setRoles(final String[] roles)\n
     '''
 def isAnyRole():
-    '''public boolean isAnyRole()
+    '''returns boolean\n\n
+    isAnyRole()\n
     '''
 def getRoles():
-    '''public String[] getRoles()
+    '''returns String[]\n\n
+    getRoles()\n
     '''
 def hasRole():
-    '''public boolean hasRole(final String role)
+    '''returns boolean\n\n
+    hasRole(final String role)\n
     '''
 def setAuthenticate():
-    '''public void setAuthenticate(final boolean authenticate)
+    '''returns None\n\n
+    setAuthenticate(final boolean authenticate)\n
     '''
 def getAuthenticate():
-    '''public boolean getAuthenticate()
+    '''returns boolean\n\n
+    getAuthenticate()\n
     '''
 def isForbidden():
-    '''public boolean isForbidden()
+    '''returns boolean\n\n
+    isForbidden()\n
     '''
 def setDataConstraint():
-    '''public void setDataConstraint(final int c)
+    '''returns None\n\n
+    setDataConstraint(final int c)\n
     '''
 def getDataConstraint():
-    '''public int getDataConstraint()
+    '''returns int\n\n
+    getDataConstraint()\n
     '''
 def hasDataConstraint():
-    '''public boolean hasDataConstraint()
+    '''returns boolean\n\n
+    hasDataConstraint()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,0 +1,1 @@
+NOTHING = "TemplateModel  GeneralPurposeNothing.getInstance()"

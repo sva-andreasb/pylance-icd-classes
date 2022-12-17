@@ -1,70 +1,78 @@
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def login():
-    '''public void login(final String username, final String password)
+    '''returns None\n\n
+    login(final String username, final String password)\n
     '''
 def getAccountManager():
-    '''public AccountManager getAccountManager()
-    '''
-def getChatManager():
-    '''public synchronized ChatManager getChatManager()
+    '''returns AccountManager\n\n
+    getAccountManager()\n
     '''
 def getSASLAuthentication():
-    '''public SASLAuthentication getSASLAuthentication()
+    '''returns SASLAuthentication\n\n
+    getSASLAuthentication()\n
     '''
 def disconnect():
-    '''public void disconnect()
-    '''
-def addConnectionCreationListener():
-    '''public static void addConnectionCreationListener(final ConnectionCreationListener connectionCreationListener)
-    '''
-def removeConnectionCreationListener():
-    '''public static void removeConnectionCreationListener(final ConnectionCreationListener connectionCreationListener)
+    '''returns None\n\n
+    disconnect()\n
     '''
 def addConnectionListener():
-    '''public void addConnectionListener(final ConnectionListener connectionListener)
+    '''returns None\n\n
+    addConnectionListener(final ConnectionListener connectionListener)\n
     '''
 def removeConnectionListener():
-    '''public void removeConnectionListener(final ConnectionListener connectionListener)
+    '''returns None\n\n
+    removeConnectionListener(final ConnectionListener connectionListener)\n
     '''
 def createPacketCollector():
-    '''public PacketCollector createPacketCollector(final PacketFilter packetFilter)
+    '''returns PacketCollector\n\n
+    createPacketCollector(final PacketFilter packetFilter)\n
     '''
 def addPacketListener():
-    '''public void addPacketListener(final PacketListener packetListener, final PacketFilter packetFilter)
+    '''returns None\n\n
+    addPacketListener(final PacketListener packetListener, final PacketFilter packetFilter)\n
     '''
 def removePacketListener():
-    '''public void removePacketListener(final PacketListener packetListener)
+    '''returns None\n\n
+    removePacketListener(final PacketListener packetListener)\n
     '''
 def addPacketSendingListener():
-    '''public void addPacketSendingListener(final PacketListener packetListener, final PacketFilter packetFilter)
+    '''returns None\n\n
+    addPacketSendingListener(final PacketListener packetListener, final PacketFilter packetFilter)\n
     '''
 def removePacketSendingListener():
-    '''public void removePacketSendingListener(final PacketListener packetListener)
+    '''returns None\n\n
+    removePacketSendingListener(final PacketListener packetListener)\n
     '''
 def addPacketInterceptor():
-    '''public void addPacketInterceptor(final PacketInterceptor packetInterceptor, final PacketFilter packetFilter)
+    '''returns None\n\n
+    addPacketInterceptor(final PacketInterceptor packetInterceptor, final PacketFilter packetFilter)\n
     '''
 def removePacketInterceptor():
-    '''public void removePacketInterceptor(final PacketInterceptor packetInterceptor)
+    '''returns None\n\n
+    removePacketInterceptor(final PacketInterceptor packetInterceptor)\n
     '''
-def ListenerWrapper():
-    '''public ListenerWrapper(final PacketListener packetListener, final PacketFilter packetFilter)
+def ():
+    '''returns InterceptorWrapper\n\n
+    (final PacketListener packetListener, final PacketFilter packetFilter)\n
+    (final PacketInterceptor packetInterceptor, final PacketFilter packetFilter)\n
     '''
 def notifyListener():
-    '''public void notifyListener(final Packet packet)
-    public void notifyListener(final Packet packet)
-    '''
-def InterceptorWrapper():
-    '''public InterceptorWrapper(final PacketInterceptor packetInterceptor, final PacketFilter packetFilter)
+    '''returns None\n\n
+    notifyListener(final Packet packet)\n
+    notifyListener(final Packet packet)\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''

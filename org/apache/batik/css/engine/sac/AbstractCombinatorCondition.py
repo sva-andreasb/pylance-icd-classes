@@ -1,12 +1,16 @@
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getSpecificity():
-    '''public int getSpecificity()
+    '''returns int\n\n
+    getSpecificity()\n
     '''
 def getFirstCondition():
-    '''public Condition getFirstCondition()
+    '''returns Condition\n\n
+    getFirstCondition()\n
     '''
 def getSecondCondition():
-    '''public Condition getSecondCondition()
+    '''returns Condition\n\n
+    getSecondCondition()\n
     '''

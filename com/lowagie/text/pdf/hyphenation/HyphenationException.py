@@ -1,3 +1,4 @@
-def HyphenationException():
-    '''public HyphenationException(final String msg)
+def ():
+    '''returns HyphenationException\n\n
+    (final String msg)\n
     '''

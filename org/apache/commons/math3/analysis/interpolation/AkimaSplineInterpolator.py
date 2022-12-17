@@ -1,3 +1,4 @@
 def interpolate():
-    '''public PolynomialSplineFunction interpolate(final double[] xvals, final double[] yvals)
+    '''returns PolynomialSplineFunction\n\n
+    interpolate(final double[] xvals, final double[] yvals)\n
     '''

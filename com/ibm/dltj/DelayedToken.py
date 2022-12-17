@@ -9,42 +9,55 @@ token_type_closeGroup = "int  7"
 token_type_fork = "int  8"
 token_type_addToFork = "int  9"
 token_type_mergeRoutes = "int  10"
-def DelayedToken():
-    '''public DelayedToken()
+def ():
+    '''returns DelayedToken\n\n
+    ()\n
     '''
 def tokenUnzip():
-    '''public String[] tokenUnzip(final String s)
+    '''returns String[]\n\n
+    tokenUnzip(final String s)\n
     '''
 def close():
-    '''public String close()
+    '''returns String\n\n
+    close()\n
     '''
 def createStd():
-    '''public String createStd(final int i, final int j, final int k, final GlossCollection e)
+    '''returns String\n\n
+    createStd(final int i, final int j, final int k, final GlossCollection e)\n
     '''
 def createUnknown():
-    '''public String createUnknown(final int i, final int j, final int k, final int l)
+    '''returns String\n\n
+    createUnknown(final int i, final int j, final int k, final int l)\n
     '''
 def createBreakpoint():
-    '''public String createBreakpoint(final int i, final int j, final int k)
+    '''returns String\n\n
+    createBreakpoint(final int i, final int j, final int k)\n
     '''
 def createPunctuation():
-    '''public String createPunctuation(final int i, final int j, final int k, final int l)
+    '''returns String\n\n
+    createPunctuation(final int i, final int j, final int k, final int l)\n
     '''
 def reset():
-    '''public String reset(final UniLexAnalyzer e)
+    '''returns String\n\n
+    reset(final UniLexAnalyzer e)\n
     '''
 def startGroup():
-    '''public String startGroup(final int i, final int j, final int k)
+    '''returns String\n\n
+    startGroup(final int i, final int j, final int k)\n
     '''
 def closeGroup():
-    '''public String closeGroup(final int i)
+    '''returns String\n\n
+    closeGroup(final int i)\n
     '''
 def fork():
-    '''public String fork()
+    '''returns String\n\n
+    fork()\n
     '''
 def addToFork():
-    '''public String addToFork()
+    '''returns String\n\n
+    addToFork()\n
     '''
 def mergeRoutes():
-    '''public String mergeRoutes(final int i)
+    '''returns String\n\n
+    mergeRoutes(final int i)\n
     '''

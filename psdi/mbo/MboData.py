@@ -1,31 +1,41 @@
-def MboData():
-    '''public MboData()
-    public MboData(final Mbo mbo, final String[] attributes)
+def ():
+    '''returns MboData\n\n
+    ()\n
+    (final Mbo mbo, final String[] attributes)\n
     '''
 def isFlagSet():
-    '''public boolean isFlagSet(final long flag)
+    '''returns boolean\n\n
+    isFlagSet(final long flag)\n
     '''
 def getMboValueData():
-    '''public MboValueData getMboValueData(final String attributeName)
+    '''returns MboValueData\n\n
+    getMboValueData(final String attributeName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toBeDeleted():
-    '''public boolean toBeDeleted()
+    '''returns boolean\n\n
+    toBeDeleted()\n
     '''
 def toBeAdded():
-    '''public boolean toBeAdded()
+    '''returns boolean\n\n
+    toBeAdded()\n
     '''
 def toBeUpdated():
-    '''public boolean toBeUpdated()
+    '''returns boolean\n\n
+    toBeUpdated()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def setModified():
-    '''public void setModified(final boolean modified)
+    '''returns None\n\n
+    setModified(final boolean modified)\n
     '''
 def isSelected():
-    '''public boolean isSelected()
+    '''returns boolean\n\n
+    isSelected()\n
     '''

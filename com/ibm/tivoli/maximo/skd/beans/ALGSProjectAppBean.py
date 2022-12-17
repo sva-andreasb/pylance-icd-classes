@@ -1,3 +1,4 @@
 def RECALPC():
-    '''public int RECALPC()
+    '''returns int\n\n
+    RECALPC()\n
     '''

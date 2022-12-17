@@ -1,11 +1,14 @@
 def getContentHandler():
-    '''public ContentHandler getContentHandler()
+    '''returns ContentHandler\n\n
+    getContentHandler()\n
     '''
-def TreeWalker():
-    '''public TreeWalker(final ContentHandler ch)
-    public TreeWalker(final ContentHandler contentHandler, final String systemId)
+def ():
+    '''returns TreeWalker\n\n
+    (final ContentHandler ch)\n
+    (final ContentHandler contentHandler, final String systemId)\n
     '''
 def traverse():
-    '''public void traverse(Node pos)
-    public void traverse(Node pos, final Node top)
+    '''returns None\n\n
+    traverse(Node pos)\n
+    traverse(Node pos, final Node top)\n
     '''

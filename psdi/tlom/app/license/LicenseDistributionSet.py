@@ -1,11 +1,14 @@
-def LicenseDistributionSet():
-    '''public LicenseDistributionSet(final MboServerInterface ms)
+def ():
+    '''returns LicenseDistributionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def checkDuplicates():
-    '''public void checkDuplicates(final MboRemote currentMbo)
-    public void checkDuplicates(final MboValue mboValue)
-    public void checkDuplicates(final MboRemote currentMbo, final MboValue mboValue)
+    '''returns None\n\n
+    checkDuplicates(final MboRemote currentMbo)\n
+    checkDuplicates(final MboValue mboValue)\n
+    checkDuplicates(final MboRemote currentMbo, final MboValue mboValue)\n
     '''
 def objectExists():
-    '''public boolean objectExists(final MboRemote obj)
+    '''returns boolean\n\n
+    objectExists(final MboRemote obj)\n
     '''

@@ -1,205 +1,150 @@
 def getConfig():
-    '''public DeserializationConfig getConfig()
-    '''
-def canOverrideAccessModifiers():
-    '''public final boolean canOverrideAccessModifiers()
-    '''
-def isEnabled():
-    '''public final boolean isEnabled(final MapperFeature feature)
-    public final boolean isEnabled(final DeserializationFeature feat)
-    '''
-def getAnnotationIntrospector():
-    '''public final AnnotationIntrospector getAnnotationIntrospector()
-    '''
-def getTypeFactory():
-    '''public final TypeFactory getTypeFactory()
+    '''returns DeserializationConfig\n\n
+    getConfig()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final Object key)
+    '''returns Object\n\n
+    getAttribute(final Object key)\n
     '''
 def setAttribute():
-    '''public DeserializationContext setAttribute(final Object key, final Object value)
+    '''returns DeserializationContext\n\n
+    setAttribute(final Object key, final Object value)\n
     '''
 def getContextualType():
-    '''public JavaType getContextualType()
+    '''returns JavaType\n\n
+    getContextualType()\n
     '''
 def getFactory():
-    '''public DeserializerFactory getFactory()
-    '''
-def getDeserializationFeatures():
-    '''public final int getDeserializationFeatures()
-    '''
-def hasDeserializationFeatures():
-    '''public final boolean hasDeserializationFeatures(final int featureMask)
-    '''
-def hasSomeOfFeatures():
-    '''public final boolean hasSomeOfFeatures(final int featureMask)
-    '''
-def getParser():
-    '''public final JsonParser getParser()
-    '''
-def findInjectableValue():
-    '''public final Object findInjectableValue(final Object valueId, final BeanProperty forProperty, final Object beanInstance)
-    '''
-def getBase64Variant():
-    '''public final Base64Variant getBase64Variant()
-    '''
-def getNodeFactory():
-    '''public final JsonNodeFactory getNodeFactory()
+    '''returns DeserializerFactory\n\n
+    getFactory()\n
     '''
 def hasValueDeserializerFor():
-    '''public boolean hasValueDeserializerFor(final JavaType type, final AtomicReference<Throwable> cause)
-    '''
-def findContextualValueDeserializer():
-    '''public final JsonDeserializer<Object> findContextualValueDeserializer(final JavaType type, final BeanProperty prop)
-    '''
-def findNonContextualValueDeserializer():
-    '''public final JsonDeserializer<Object> findNonContextualValueDeserializer(final JavaType type)
-    '''
-def findRootValueDeserializer():
-    '''public final JsonDeserializer<Object> findRootValueDeserializer(final JavaType type)
-    '''
-def findKeyDeserializer():
-    '''public final KeyDeserializer findKeyDeserializer(final JavaType keyType, final BeanProperty prop)
-    '''
-def constructType():
-    '''public final JavaType constructType(final Class<?> cls)
-    '''
-def leaseObjectBuffer():
-    '''public final ObjectBuffer leaseObjectBuffer()
-    '''
-def returnObjectBuffer():
-    '''public final void returnObjectBuffer(final ObjectBuffer buf)
-    '''
-def getArrayBuilders():
-    '''public final ArrayBuilders getArrayBuilders()
+    '''returns boolean\n\n
+    hasValueDeserializerFor(final JavaType type, final AtomicReference<Throwable> cause)\n
     '''
 def parseDate():
-    '''public Date parseDate(final String dateStr)
+    '''returns Date\n\n
+    parseDate(final String dateStr)\n
     '''
 def constructCalendar():
-    '''public Calendar constructCalendar(final Date d)
-    '''
-def readValue():
-    '''public <T> T readValue(final JsonParser p, final Class<T> type)
-    public <T> T readValue(final JsonParser p, final JavaType type)
-    '''
-def readPropertyValue():
-    '''public <T> T readPropertyValue(final JsonParser p, final BeanProperty prop, final Class<T> type)
-    public <T> T readPropertyValue(final JsonParser p, final BeanProperty prop, final JavaType type)
+    '''returns Calendar\n\n
+    constructCalendar(final Date d)\n
     '''
 def handleUnknownProperty():
-    '''public boolean handleUnknownProperty(final JsonParser p, final JsonDeserializer<?> deser, final Object instanceOrClass, final String propName)
+    '''returns boolean\n\n
+    handleUnknownProperty(final JsonParser p, final JsonDeserializer<?> deser, final Object instanceOrClass, final String propName)\n
     '''
 def handleWeirdKey():
-    '''public Object handleWeirdKey(final Class<?> keyClass, final String keyValue, String msg, final Object... msgArgs)
+    '''returns Object\n\n
+    handleWeirdKey(final Class<?> keyClass, final String keyValue, String msg, final Object... msgArgs)\n
     '''
 def handleWeirdStringValue():
-    '''public Object handleWeirdStringValue(final Class<?> targetClass, final String value, String msg, final Object... msgArgs)
+    '''returns Object\n\n
+    handleWeirdStringValue(final Class<?> targetClass, final String value, String msg, final Object... msgArgs)\n
     '''
 def handleWeirdNumberValue():
-    '''public Object handleWeirdNumberValue(final Class<?> targetClass, final Number value, String msg, final Object... msgArgs)
+    '''returns Object\n\n
+    handleWeirdNumberValue(final Class<?> targetClass, final Number value, String msg, final Object... msgArgs)\n
     '''
 def handleWeirdNativeValue():
-    '''public Object handleWeirdNativeValue(final JavaType targetType, final Object badValue, final JsonParser p)
+    '''returns Object\n\n
+    handleWeirdNativeValue(final JavaType targetType, final Object badValue, final JsonParser p)\n
     '''
 def handleMissingInstantiator():
-    '''public Object handleMissingInstantiator(final Class<?> instClass, final ValueInstantiator valueInst, JsonParser p, String msg, final Object... msgArgs)
+    '''returns Object\n\n
+    handleMissingInstantiator(final Class<?> instClass, final ValueInstantiator valueInst, JsonParser p, String msg, final Object... msgArgs)\n
     '''
 def handleInstantiationProblem():
-    '''public Object handleInstantiationProblem(final Class<?> instClass, final Object argument, final Throwable t)
+    '''returns Object\n\n
+    handleInstantiationProblem(final Class<?> instClass, final Object argument, final Throwable t)\n
     '''
 def handleUnexpectedToken():
-    '''public Object handleUnexpectedToken(final Class<?> instClass, final JsonParser p)
-    public Object handleUnexpectedToken(final Class<?> instClass, final JsonToken t, final JsonParser p, String msg, final Object... msgArgs)
+    '''returns Object\n\n
+    handleUnexpectedToken(final Class<?> instClass, final JsonParser p)\n
+    handleUnexpectedToken(final Class<?> instClass, final JsonToken t, final JsonParser p, String msg, final Object... msgArgs)\n
     '''
 def handleUnknownTypeId():
-    '''public JavaType handleUnknownTypeId(final JavaType baseType, final String id, final TypeIdResolver idResolver, final String extraDesc)
+    '''returns JavaType\n\n
+    handleUnknownTypeId(final JavaType baseType, final String id, final TypeIdResolver idResolver, final String extraDesc)\n
     '''
 def handleMissingTypeId():
-    '''public JavaType handleMissingTypeId(final JavaType baseType, final TypeIdResolver idResolver, final String extraDesc)
+    '''returns JavaType\n\n
+    handleMissingTypeId(final JavaType baseType, final TypeIdResolver idResolver, final String extraDesc)\n
     '''
 def reportWrongTokenException():
-    '''public void reportWrongTokenException(final JsonDeserializer<?> deser, final JsonToken expToken, String msg, final Object... msgArgs)
-    public void reportWrongTokenException(final JavaType targetType, final JsonToken expToken, String msg, final Object... msgArgs)
-    public void reportWrongTokenException(final Class<?> targetType, final JsonToken expToken, String msg, final Object... msgArgs)
-    public void reportWrongTokenException(final JsonParser p, final JsonToken expToken, String msg, final Object... msgArgs)
-    '''
-def reportUnresolvedObjectId():
-    '''public <T> T reportUnresolvedObjectId(final ObjectIdReader oidReader, final Object bean)
-    '''
-def reportInputMismatch():
-    '''public <T> T reportInputMismatch(final BeanProperty prop, String msg, final Object... msgArgs)
-    public <T> T reportInputMismatch(final JsonDeserializer<?> src, String msg, final Object... msgArgs)
-    public <T> T reportInputMismatch(final Class<?> targetType, String msg, final Object... msgArgs)
-    public <T> T reportInputMismatch(final JavaType targetType, String msg, final Object... msgArgs)
-    '''
-def reportTrailingTokens():
-    '''public <T> T reportTrailingTokens(final Class<?> targetType, final JsonParser p, final JsonToken trailingToken)
+    '''returns None\n\n
+    reportWrongTokenException(final JsonDeserializer<?> deser, final JsonToken expToken, String msg, final Object... msgArgs)\n
+    reportWrongTokenException(final JavaType targetType, final JsonToken expToken, String msg, final Object... msgArgs)\n
+    reportWrongTokenException(final Class<?> targetType, final JsonToken expToken, String msg, final Object... msgArgs)\n
+    reportWrongTokenException(final JsonParser p, final JsonToken expToken, String msg, final Object... msgArgs)\n
     '''
 def reportUnknownProperty():
-    '''public void reportUnknownProperty(final Object instanceOrClass, final String fieldName, final JsonDeserializer<?> deser)
+    '''returns None\n\n
+    reportUnknownProperty(final Object instanceOrClass, final String fieldName, final JsonDeserializer<?> deser)\n
     '''
 def reportMissingContent():
-    '''public void reportMissingContent(final String msg, final Object... msgArgs)
-    '''
-def reportBadTypeDefinition():
-    '''public <T> T reportBadTypeDefinition(final BeanDescription bean, String msg, final Object... msgArgs)
-    '''
-def reportBadPropertyDefinition():
-    '''public <T> T reportBadPropertyDefinition(final BeanDescription bean, final BeanPropertyDefinition prop, String msg, final Object... msgArgs)
-    '''
-def reportBadDefinition():
-    '''public <T> T reportBadDefinition(final JavaType type, final String msg)
-    '''
-def reportBadMerge():
-    '''public <T> T reportBadMerge(final JsonDeserializer<?> deser)
+    '''returns None\n\n
+    reportMissingContent(final String msg, final Object... msgArgs)\n
     '''
 def wrongTokenException():
-    '''public JsonMappingException wrongTokenException(final JsonParser p, final JavaType targetType, final JsonToken expToken, final String extra)
-    public JsonMappingException wrongTokenException(final JsonParser p, final Class<?> targetType, final JsonToken expToken, final String extra)
-    public JsonMappingException wrongTokenException(final JsonParser p, final JsonToken expToken, final String msg)
+    '''returns JsonMappingException\n\n
+    wrongTokenException(final JsonParser p, final JavaType targetType, final JsonToken expToken, final String extra)\n
+    wrongTokenException(final JsonParser p, final Class<?> targetType, final JsonToken expToken, final String extra)\n
+    wrongTokenException(final JsonParser p, final JsonToken expToken, final String msg)\n
     '''
 def weirdKeyException():
-    '''public JsonMappingException weirdKeyException(final Class<?> keyClass, final String keyValue, final String msg)
+    '''returns JsonMappingException\n\n
+    weirdKeyException(final Class<?> keyClass, final String keyValue, final String msg)\n
     '''
 def weirdStringException():
-    '''public JsonMappingException weirdStringException(final String value, final Class<?> instClass, final String msg)
+    '''returns JsonMappingException\n\n
+    weirdStringException(final String value, final Class<?> instClass, final String msg)\n
     '''
 def weirdNumberException():
-    '''public JsonMappingException weirdNumberException(final Number value, final Class<?> instClass, final String msg)
+    '''returns JsonMappingException\n\n
+    weirdNumberException(final Number value, final Class<?> instClass, final String msg)\n
     '''
 def weirdNativeValueException():
-    '''public JsonMappingException weirdNativeValueException(final Object value, final Class<?> instClass)
+    '''returns JsonMappingException\n\n
+    weirdNativeValueException(final Object value, final Class<?> instClass)\n
     '''
 def instantiationException():
-    '''public JsonMappingException instantiationException(final Class<?> instClass, final Throwable cause)
-    public JsonMappingException instantiationException(final Class<?> instClass, final String msg0)
+    '''returns JsonMappingException\n\n
+    instantiationException(final Class<?> instClass, final Throwable cause)\n
+    instantiationException(final Class<?> instClass, final String msg0)\n
     '''
 def invalidTypeIdException():
-    '''public JsonMappingException invalidTypeIdException(final JavaType baseType, final String typeId, final String extraDesc)
+    '''returns JsonMappingException\n\n
+    invalidTypeIdException(final JavaType baseType, final String typeId, final String extraDesc)\n
     '''
 def missingTypeIdException():
-    '''public JsonMappingException missingTypeIdException(final JavaType baseType, final String extraDesc)
+    '''returns JsonMappingException\n\n
+    missingTypeIdException(final JavaType baseType, final String extraDesc)\n
     '''
 def unknownTypeException():
-    '''public JsonMappingException unknownTypeException(final JavaType type, final String id, final String extraDesc)
+    '''returns JsonMappingException\n\n
+    unknownTypeException(final JavaType type, final String id, final String extraDesc)\n
     '''
 def endOfInputException():
-    '''public JsonMappingException endOfInputException(final Class<?> instClass)
+    '''returns JsonMappingException\n\n
+    endOfInputException(final Class<?> instClass)\n
     '''
 def reportMappingException():
-    '''public void reportMappingException(final String msg, final Object... msgArgs)
+    '''returns None\n\n
+    reportMappingException(final String msg, final Object... msgArgs)\n
     '''
 def mappingException():
-    '''public JsonMappingException mappingException(final String message)
-    public JsonMappingException mappingException(final String msg, final Object... msgArgs)
-    public JsonMappingException mappingException(final Class<?> targetClass)
-    public JsonMappingException mappingException(final Class<?> targetClass, final JsonToken token)
+    '''returns JsonMappingException\n\n
+    mappingException(final String message)\n
+    mappingException(final String msg, final Object... msgArgs)\n
+    mappingException(final Class<?> targetClass)\n
+    mappingException(final Class<?> targetClass, final JsonToken token)\n
     '''

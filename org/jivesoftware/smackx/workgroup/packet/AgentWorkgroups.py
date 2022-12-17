@@ -1,13 +1,17 @@
-def AgentWorkgroups():
-    '''public AgentWorkgroups(final Jid agentJID)
-    public AgentWorkgroups(final Jid agentJID, final List<String> workgroups)
+def ():
+    '''returns AgentWorkgroups\n\n
+    (final Jid agentJID)\n
+    (final Jid agentJID, final List<String> workgroups)\n
     '''
 def getAgentJID():
-    '''public Jid getAgentJID()
+    '''returns Jid\n\n
+    getAgentJID()\n
     '''
 def getWorkgroups():
-    '''public List<String> getWorkgroups()
+    '''returns List<String>\n\n
+    getWorkgroups()\n
     '''
 def parse():
-    '''public AgentWorkgroups parse(final XmlPullParser parser, final int initialDepth)
+    '''returns AgentWorkgroups\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

@@ -1,19 +1,25 @@
 AUTOCOMMIT_LIMIT = "int  1024"
-def SaaSOrgSiteCronTask():
-    '''public SaaSOrgSiteCronTask()
+def ():
+    '''returns SaaSOrgSiteCronTask\n\n
+    ()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def previouslyRun():
-    '''public boolean previouslyRun()
+    '''returns boolean\n\n
+    previouslyRun()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def readConfig():
-    '''public void readConfig()
+    '''returns None\n\n
+    readConfig()\n
     '''
 def getInstanceName():
-    '''public String getInstanceName()
+    '''returns String\n\n
+    getInstanceName()\n
     '''

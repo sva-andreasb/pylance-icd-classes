@@ -1,3 +1,4 @@
-def MoutWFAssignmentProcess():
-    '''public MoutWFAssignmentProcess()
+def ():
+    '''returns MoutWFAssignmentProcess\n\n
+    ()\n
     '''

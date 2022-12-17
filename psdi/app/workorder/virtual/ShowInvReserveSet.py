@@ -1,30 +1,36 @@
-def ShowInvReserveSet():
-    '''public ShowInvReserveSet(final MboRemote owner)
+def ():
+    '''returns ShowInvReserveSet\n\n
+    (final MboRemote owner)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def setOwner():
-    '''public final void setOwner(final MboRemote mbo)
+    '''returns String\n\n
+    getName()\n
     '''
 def setCurrentWorkOrder():
-    '''public void setCurrentWorkOrder(final MboRemote mbo)
+    '''returns None\n\n
+    setCurrentWorkOrder(final MboRemote mbo)\n
     '''
 def fetchMbos():
-    '''public void fetchMbos(final int toPosition)
+    '''returns None\n\n
+    fetchMbos(final int toPosition)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setOrderBy():
-    '''public void setOrderBy(final String orderByClause)
+    '''returns None\n\n
+    setOrderBy(final String orderByClause)\n
     '''
 def getOrderBy():
-    '''public String getOrderBy()
+    '''returns String\n\n
+    getOrderBy()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def getZombie():
-    '''public MboRemote getZombie()
+    '''returns MboRemote\n\n
+    getZombie()\n
     '''

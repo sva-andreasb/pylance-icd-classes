@@ -1,3 +1,4 @@
-def ReportAttachedDocsServlet():
-    '''public ReportAttachedDocsServlet()
+def ():
+    '''returns ReportAttachedDocsServlet\n\n
+    ()\n
     '''

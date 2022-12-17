@@ -1,9 +1,12 @@
 def toggleselectrow():
-    '''public int toggleselectrow()
+    '''returns int\n\n
+    toggleselectrow()\n
     '''
 def toggleselectallrows():
-    '''public int toggleselectallrows()
+    '''returns int\n\n
+    toggleselectallrows()\n
     '''
 def updateBeanToolSet():
-    '''public void updateBeanToolSet()
+    '''returns None\n\n
+    updateBeanToolSet()\n
     '''

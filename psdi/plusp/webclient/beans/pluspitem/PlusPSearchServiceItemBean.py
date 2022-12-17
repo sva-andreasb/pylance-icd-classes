@@ -1,18 +1,20 @@
-def getQbe():
-    '''public synchronized String getQbe(final String s)
-    '''
 def defaultExec():
-    '''public int defaultExec()
+    '''returns int\n\n
+    defaultExec()\n
     '''
 def clearqryandfld():
-    '''public int clearqryandfld()
+    '''returns int\n\n
+    clearqryandfld()\n
     '''
 def clearfield():
-    '''public int clearfield()
+    '''returns int\n\n
+    clearfield()\n
     '''
 def restoredefaultqry():
-    '''public int restoredefaultqry()
+    '''returns int\n\n
+    restoredefaultqry()\n
     '''
 def setQbe():
-    '''public void setQbe(final String s, final String expression)
+    '''returns None\n\n
+    setQbe(final String s, final String expression)\n
     '''

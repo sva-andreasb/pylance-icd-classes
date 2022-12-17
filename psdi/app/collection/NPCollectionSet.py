@@ -1,3 +1,4 @@
-def NPCollectionSet():
-    '''public NPCollectionSet(final MboServerInterface ms)
+def ():
+    '''returns NPCollectionSet\n\n
+    (final MboServerInterface ms)\n
     '''

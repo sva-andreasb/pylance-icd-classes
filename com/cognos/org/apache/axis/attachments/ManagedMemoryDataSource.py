@@ -1,50 +1,49 @@
 MIN_MEMORY_DISK_CACHED = "int  -1"
 MAX_MEMORY_DISK_CACHED = "int  16384"
 READ_CHUNK_SZ = "int  32768"
-def ManagedMemoryDataSource():
-    '''public ManagedMemoryDataSource(final InputStream ss, final int maxCached, final String contentType)
-    public ManagedMemoryDataSource(final InputStream ss, final int maxCached, final String contentType, final boolean readall)
+def ():
+    '''returns ManagedMemoryDataSource\n\n
+    (final InputStream ss, final int maxCached, final String contentType)\n
+    (final InputStream ss, final int maxCached, final String contentType, final boolean readall)\n
     '''
 def getContentType():
-    '''public String getContentType()
-    '''
-def getInputStream():
-    '''public synchronized InputStream getInputStream()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
-    '''
-def delete():
-    '''public synchronized boolean delete()
-    '''
-def main():
-    '''public static void main(final String[] arg)
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getDiskCacheFile():
-    '''public File getDiskCacheFile()
+    '''returns File\n\n
+    getDiskCacheFile()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, int len)\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def skip():
-    '''public long skip(long skipped)
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns long\n\n
+    skip(long skipped)\n
     '''

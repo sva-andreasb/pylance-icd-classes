@@ -1,27 +1,36 @@
-def Plain():
-    '''public Plain(final String authorizationID, final String authenticationID, final byte[] pw)
+def ():
+    '''returns Plain\n\n
+    (final String authorizationID, final String authenticationID, final byte[] pw)\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''
 def evaluateChallenge():
-    '''public byte[] evaluateChallenge(final byte[] array)
+    '''returns byte[]\n\n
+    evaluateChallenge(final byte[] array)\n
     '''
 def getMechanismName():
-    '''public String getMechanismName()
+    '''returns String\n\n
+    getMechanismName()\n
     '''
 def getNegotiatedProperty():
-    '''public String getNegotiatedProperty(final String s)
+    '''returns String\n\n
+    getNegotiatedProperty(final String s)\n
     '''
 def hasInitialResponse():
-    '''public boolean hasInitialResponse()
+    '''returns boolean\n\n
+    hasInitialResponse()\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def unwrap():
-    '''public byte[] unwrap(final byte[] array, final int n, final int n2)
+    '''returns byte[]\n\n
+    unwrap(final byte[] array, final int n, final int n2)\n
     '''
 def wrap():
-    '''public byte[] wrap(final byte[] array, final int n, final int n2)
+    '''returns byte[]\n\n
+    wrap(final byte[] array, final int n, final int n2)\n
     '''

@@ -1,7 +1,9 @@
-def FldItemnum():
-    '''public FldItemnum(final MboValue mbv)
-    public FldItemnum(final MboValue mbv, String criteriaName)
+def ():
+    '''returns FldItemnum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, String criteriaName)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

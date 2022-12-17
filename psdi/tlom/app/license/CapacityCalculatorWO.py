@@ -1,12 +1,16 @@
-def CapacityCalculatorWO():
-    '''public CapacityCalculatorWO(final MboRemote license)
+def ():
+    '''returns CapacityCalculatorWO\n\n
+    (final MboRemote license)\n
     '''
 def calculateCapacity():
-    '''public boolean calculateCapacity()
+    '''returns boolean\n\n
+    calculateCapacity()\n
     '''
 def isTotalIntCapGreaterLicCap():
-    '''public boolean isTotalIntCapGreaterLicCap()
+    '''returns boolean\n\n
+    isTotalIntCapGreaterLicCap()\n
     '''
 def calcSoftwareContractCapacity():
-    '''public void calcSoftwareContractCapacity()
+    '''returns None\n\n
+    calcSoftwareContractCapacity()\n
     '''

@@ -1,6 +1,4 @@
-def exceptionFactory():
-    '''public static <T> Factory<T> exceptionFactory()
-    '''
 def create():
-    '''public T create()
+    '''returns T\n\n
+    create()\n
     '''

@@ -1,9 +1,12 @@
-def NotificationGraphicRenderer():
-    '''public NotificationGraphicRenderer(final int size, final Color borderColor, final Color backgroundColor, final Color textColor, final int textSize, final Model model)
+def ():
+    '''returns NotificationGraphicRenderer\n\n
+    (final int size, final Color borderColor, final Color backgroundColor, final Color textColor, final int textSize, final Model model)\n
     '''
 def draw():
-    '''public void draw(final Graphics g, final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns None\n\n
+    draw(final Graphics g, final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''
 def getGradientPaint():
-    '''public Paint getGradientPaint(final Color bg)
+    '''returns Paint\n\n
+    getGradientPaint(final Color bg)\n
     '''

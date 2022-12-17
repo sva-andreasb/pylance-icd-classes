@@ -1,3 +1,4 @@
-def DepPreview():
-    '''public DepPreview(final MboSet ms)
+def ():
+    '''returns DepPreview\n\n
+    (final MboSet ms)\n
     '''

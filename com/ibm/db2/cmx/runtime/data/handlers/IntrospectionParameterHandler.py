@@ -1,11 +1,14 @@
-def IntrospectionParameterHandler():
-    '''public IntrospectionParameterHandler(final StatementDescriptorImpl statementDescriptor_)
+def ():
+    '''returns IntrospectionParameterHandler\n\n
+    (final StatementDescriptorImpl statementDescriptor_)\n
     '''
 def handleParameters():
-    '''public void handleParameters(final PreparedStatement preparedStatement, final Object... array)
+    '''returns None\n\n
+    handleParameters(final PreparedStatement preparedStatement, final Object... array)\n
     '''
 def run():
-    '''public Method run()
-    public ClassLoader run()
-    public Method run()
+    '''returns Method\n\n
+    run()\n
+    run()\n
+    run()\n
     '''

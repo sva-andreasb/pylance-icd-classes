@@ -1,21 +1,28 @@
-def MultiFactorAuthentication():
-    '''public MultiFactorAuthentication(final String deviceSerialNumber, final String token)
+def ():
+    '''returns MultiFactorAuthentication\n\n
+    (final String deviceSerialNumber, final String token)\n
     '''
 def getDeviceSerialNumber():
-    '''public String getDeviceSerialNumber()
+    '''returns String\n\n
+    getDeviceSerialNumber()\n
     '''
 def setDeviceSerialNumber():
-    '''public void setDeviceSerialNumber(final String deviceSerialNumber)
+    '''returns None\n\n
+    setDeviceSerialNumber(final String deviceSerialNumber)\n
     '''
 def withDeviceSerialNumber():
-    '''public MultiFactorAuthentication withDeviceSerialNumber(final String deviceSerialNumber)
+    '''returns MultiFactorAuthentication\n\n
+    withDeviceSerialNumber(final String deviceSerialNumber)\n
     '''
 def getToken():
-    '''public String getToken()
+    '''returns String\n\n
+    getToken()\n
     '''
 def setToken():
-    '''public void setToken(final String token)
+    '''returns None\n\n
+    setToken(final String token)\n
     '''
 def withToken():
-    '''public MultiFactorAuthentication withToken(final String token)
+    '''returns MultiFactorAuthentication\n\n
+    withToken(final String token)\n
     '''

@@ -1,6 +1,8 @@
-def LoggingStreamingContent():
-    '''public LoggingStreamingContent(final StreamingContent content, final Logger logger, final Level loggingLevel, final int contentLoggingLimit)
+def ():
+    '''returns LoggingStreamingContent\n\n
+    (final StreamingContent content, final Logger logger, final Level loggingLevel, final int contentLoggingLimit)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''

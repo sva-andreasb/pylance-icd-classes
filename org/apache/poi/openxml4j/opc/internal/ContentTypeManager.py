@@ -1,26 +1,34 @@
 CONTENT_TYPES_PART_NAME = "String  \"[Content_Types].xml\""
 TYPES_NAMESPACE_URI = "String  \"http://schemas.openxmlformats.org/package/2006/content-types\""
-def ContentTypeManager():
-    '''public ContentTypeManager(final InputStream in, final OPCPackage pkg)
+def ():
+    '''returns ContentTypeManager\n\n
+    (final InputStream in, final OPCPackage pkg)\n
     '''
 def addContentType():
-    '''public void addContentType(final PackagePartName partName, final String contentType)
+    '''returns None\n\n
+    addContentType(final PackagePartName partName, final String contentType)\n
     '''
 def removeContentType():
-    '''public void removeContentType(final PackagePartName partName)
+    '''returns None\n\n
+    removeContentType(final PackagePartName partName)\n
     '''
 def isContentTypeRegister():
-    '''public boolean isContentTypeRegister(final String contentType)
+    '''returns boolean\n\n
+    isContentTypeRegister(final String contentType)\n
     '''
 def getContentType():
-    '''public String getContentType(final PackagePartName partName)
+    '''returns String\n\n
+    getContentType(final PackagePartName partName)\n
     '''
 def clearAll():
-    '''public void clearAll()
+    '''returns None\n\n
+    clearAll()\n
     '''
 def clearOverrideContentTypes():
-    '''public void clearOverrideContentTypes()
+    '''returns None\n\n
+    clearOverrideContentTypes()\n
     '''
 def save():
-    '''public boolean save(final OutputStream outStream)
+    '''returns boolean\n\n
+    save(final OutputStream outStream)\n
     '''

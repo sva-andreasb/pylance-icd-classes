@@ -1,35 +1,46 @@
-def ModelAttachmentImpl():
-    '''public ModelAttachmentImpl()
-    public ModelAttachmentImpl(final String name)
-    public ModelAttachmentImpl(final String name, final ModelAttachmentType type)
+def ():
+    '''returns ModelAttachmentImpl\n\n
+    ()\n
+    (final String name)\n
+    (final String name, final ModelAttachmentType type)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getType():
-    '''public ModelAttachmentType getType()
+    '''returns ModelAttachmentType\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final ModelAttachmentType type)
+    '''returns None\n\n
+    setType(final ModelAttachmentType type)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def setLength():
-    '''public void setLength(final long length)
+    '''returns None\n\n
+    setLength(final long length)\n
     '''
 def getStorageId():
-    '''public String getStorageId()
+    '''returns String\n\n
+    getStorageId()\n
     '''
 def setStorageId():
-    '''public void setStorageId(final String storageId)
+    '''returns None\n\n
+    setStorageId(final String storageId)\n
     '''
 def isIgnoreSize():
-    '''public boolean isIgnoreSize()
+    '''returns boolean\n\n
+    isIgnoreSize()\n
     '''
 def setIgnoreSize():
-    '''public void setIgnoreSize(final boolean ignoreSize)
+    '''returns None\n\n
+    setIgnoreSize(final boolean ignoreSize)\n
     '''

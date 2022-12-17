@@ -1,17 +1,22 @@
-def AbstractBuilder():
-    '''public AbstractBuilder()
-    public AbstractBuilder(final String prefix, final Properties props)
+def ():
+    '''returns AbstractBuilder\n\n
+    ()\n
+    (final String prefix, final Properties props)\n
     '''
 def getProperty():
-    '''public String getProperty(final String key)
-    public String getProperty(final String key, final String defaultValue)
+    '''returns String\n\n
+    getProperty(final String key)\n
+    getProperty(final String key, final String defaultValue)\n
     '''
 def getBooleanProperty():
-    '''public boolean getBooleanProperty(final String key)
+    '''returns boolean\n\n
+    getBooleanProperty(final String key)\n
     '''
 def getIntegerProperty():
-    '''public int getIntegerProperty(final String key, final int defaultValue)
+    '''returns int\n\n
+    getIntegerProperty(final String key, final int defaultValue)\n
     '''
 def getProperties():
-    '''public Properties getProperties()
+    '''returns Properties\n\n
+    getProperties()\n
     '''

@@ -1,9 +1,12 @@
-def Exists():
-    '''public Exists(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns Exists\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def eval():
-    '''public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval(final List<BigDecimal> parameters)\n
     '''
 def count():
-    '''public BigDecimal count(final MboRemote mbo, final String relName, final String timeLineAttrName, final BigDecimal limitDuration)
+    '''returns BigDecimal\n\n
+    count(final MboRemote mbo, final String relName, final String timeLineAttrName, final BigDecimal limitDuration)\n
     '''

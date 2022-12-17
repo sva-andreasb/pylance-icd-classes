@@ -1,29 +1,34 @@
-def g():
-    '''public g()
+def ():
+    '''returns g\n\n
+    ()\n
     '''
 def track():
-    '''public void track(final File file, final Object marker)
-    public void track(final String path, final Object marker)
+    '''returns None\n\n
+    track(final File file, final Object marker)\n
+    track(final String path, final Object marker)\n
     '''
 def a():
-    '''public void a(final File file, final Object o, final h h)
-    public void a(final String s, final Object o, final h h)
+    '''returns None\n\n
+    a(final File file, final Object o, final h h)\n
+    a(final String s, final Object o, final h h)\n
     '''
 def getTrackCount():
-    '''public int getTrackCount()
+    '''returns int\n\n
+    getTrackCount()\n
     '''
 def getDeleteFailures():
-    '''public List<String> getDeleteFailures()
-    '''
-def exitWhenFinished():
-    '''public synchronized void exitWhenFinished()
+    '''returns List<String>\n\n
+    getDeleteFailures()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def delete():
-    '''public boolean delete()
+    '''returns boolean\n\n
+    delete()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

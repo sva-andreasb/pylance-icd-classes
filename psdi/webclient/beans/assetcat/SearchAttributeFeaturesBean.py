@@ -1,9 +1,12 @@
-def SearchAttributeFeaturesBean():
-    '''public SearchAttributeFeaturesBean()
+def ():
+    '''returns SearchAttributeFeaturesBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def toUseAssetFeature():
-    '''public boolean toUseAssetFeature()
+    '''returns boolean\n\n
+    toUseAssetFeature()\n
     '''

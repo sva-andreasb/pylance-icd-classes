@@ -1,6 +1,8 @@
-def FldTloamWOActTotalCost():
-    '''public FldTloamWOActTotalCost(final MboValue mbv)
+def ():
+    '''returns FldTloamWOActTotalCost\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

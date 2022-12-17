@@ -1,9 +1,8 @@
-def ModifyRSDisplay():
-    '''public ModifyRSDisplay()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns ModifyRSDisplay\n\n
+    ()\n
     '''
 def currentStartCenterId():
-    '''public long currentStartCenterId()
+    '''returns long\n\n
+    currentStartCenterId()\n
     '''

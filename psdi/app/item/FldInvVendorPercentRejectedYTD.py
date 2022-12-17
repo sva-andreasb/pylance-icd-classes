@@ -1,6 +1,8 @@
-def FldInvVendorPercentRejectedYTD():
-    '''public FldInvVendorPercentRejectedYTD(final MboValue mbv)
+def ():
+    '''returns FldInvVendorPercentRejectedYTD\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

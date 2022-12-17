@@ -1,45 +1,60 @@
-def MaxApps():
-    '''public MaxApps(final MboSet ms)
+def ():
+    '''returns MaxApps\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def enableAppForRecordLock():
-    '''public void enableAppForRecordLock()
+    '''returns None\n\n
+    enableAppForRecordLock()\n
     '''
 def disableAppForRecordLock():
-    '''public void disableAppForRecordLock()
+    '''returns None\n\n
+    disableAppForRecordLock()\n
     '''
 def getSiteOrgType():
-    '''public int getSiteOrgType()
+    '''returns int\n\n
+    getSiteOrgType()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def mainTableHasUniqueID():
-    '''public boolean mainTableHasUniqueID()
+    '''returns boolean\n\n
+    mainTableHasUniqueID()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def copyModuleApp():
-    '''public void copyModuleApp()
+    '''returns None\n\n
+    copyModuleApp()\n
     '''
 def addModuleApp():
-    '''public void addModuleApp()
+    '''returns None\n\n
+    addModuleApp()\n
     '''
 def getMboValue():
-    '''public MboValue getMboValue(final String nameInput)
+    '''returns MboValue\n\n
+    getMboValue(final String nameInput)\n
     '''
 def markAllForWorkCenter():
-    '''public void markAllForWorkCenter(final boolean value, final String optionName)
+    '''returns None\n\n
+    markAllForWorkCenter(final boolean value, final String optionName)\n
     '''
 def markAllForWorkCenterLoop():
-    '''public void markAllForWorkCenterLoop(final MboSetRemote optionSet, final boolean value, final String optionName)
+    '''returns None\n\n
+    markAllForWorkCenterLoop(final MboSetRemote optionSet, final boolean value, final String optionName)\n
     '''

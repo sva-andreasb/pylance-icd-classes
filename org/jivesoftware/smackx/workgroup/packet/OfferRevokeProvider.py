@@ -1,20 +1,26 @@
 ELEMENT = "String  \"offer-revoke\""
 NAMESPACE = "String  \"http://jabber.org/protocol/workgroup\""
 def parse():
-    '''public OfferRevokePacket parse(final XmlPullParser parser, final int initialDepth)
+    '''returns OfferRevokePacket\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''
-def OfferRevokePacket():
-    '''public OfferRevokePacket(final Jid userJID, final Jid userID, final String cause, final String sessionID)
+def ():
+    '''returns OfferRevokePacket\n\n
+    (final Jid userJID, final Jid userID, final String cause, final String sessionID)\n
     '''
 def getUserJID():
-    '''public Jid getUserJID()
+    '''returns Jid\n\n
+    getUserJID()\n
     '''
 def getUserID():
-    '''public Jid getUserID()
+    '''returns Jid\n\n
+    getUserID()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''

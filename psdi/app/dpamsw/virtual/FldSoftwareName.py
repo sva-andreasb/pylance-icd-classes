@@ -1,3 +1,4 @@
-def FldSoftwareName():
-    '''public FldSoftwareName(final MboValue mbv)
+def ():
+    '''returns FldSoftwareName\n\n
+    (final MboValue mbv)\n
     '''

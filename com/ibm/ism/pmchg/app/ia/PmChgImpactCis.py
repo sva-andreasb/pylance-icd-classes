@@ -2,37 +2,48 @@ COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Co
 FULL_IMPACTS = "int  0"
 UNIQUE_IMPACTS = "int  1"
 UNIQUE_PATHS = "int  2"
-def PmChgImpactCis():
-    '''public PmChgImpactCis(final MboRemote mbo)
-    public PmChgImpactCis(final MboRemote mbo, final int resultType)
+def ():
+    '''returns PmChgImpactCis\n\n
+    (final MboRemote mbo)\n
+    (final MboRemote mbo, final int resultType)\n
     '''
 def getImpacts():
-    '''public ArrayList<PmChgRuleResultRecord> getImpacts(final String cinum)
+    '''returns ArrayList<PmChgRuleResultRecord>\n\n
+    getImpacts(final String cinum)\n
     '''
 def getAndSaveImpactMboSet():
-    '''public PmChgRuleRsltSet getAndSaveImpactMboSet(final MboSetRemote set, final String cinum)
+    '''returns PmChgRuleRsltSet\n\n
+    getAndSaveImpactMboSet(final MboSetRemote set, final String cinum)\n
     '''
 def getMaxDepth():
-    '''public int getMaxDepth()
+    '''returns int\n\n
+    getMaxDepth()\n
     '''
 def setMaxDepth():
-    '''public void setMaxDepth(final int maxDepth)
+    '''returns None\n\n
+    setMaxDepth(final int maxDepth)\n
     '''
 def getResultType():
-    '''public int getResultType()
+    '''returns int\n\n
+    getResultType()\n
     '''
 def setResultType():
-    '''public void setResultType(final int resultType)
+    '''returns None\n\n
+    setResultType(final int resultType)\n
     '''
 def isFullCheck():
-    '''public boolean isFullCheck()
+    '''returns boolean\n\n
+    isFullCheck()\n
     '''
 def setFullCheck():
-    '''public void setFullCheck(final boolean fullCheck)
+    '''returns None\n\n
+    setFullCheck(final boolean fullCheck)\n
     '''
 def isOnlyReturnMatches():
-    '''public boolean isOnlyReturnMatches()
+    '''returns boolean\n\n
+    isOnlyReturnMatches()\n
     '''
 def setOnlyReturnMatches():
-    '''public void setOnlyReturnMatches(final boolean onlyReturnMatches)
+    '''returns None\n\n
+    setOnlyReturnMatches(final boolean onlyReturnMatches)\n
     '''

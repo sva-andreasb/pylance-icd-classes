@@ -1,49 +1,65 @@
-def PlusCWODsPointDelegate():
-    '''public PlusCWODsPointDelegate(final MboAdapter mbo, final PlusCWODsInstrDelegate woDsInstrDelegate)
+def ():
+    '''returns PlusCWODsPointDelegate\n\n
+    (final MboAdapter mbo, final PlusCWODsInstrDelegate woDsInstrDelegate)\n
     '''
 def getInstrDelegate():
-    '''public PlusCWODsInstrDelegate getInstrDelegate()
+    '''returns PlusCWODsInstrDelegate\n\n
+    getInstrDelegate()\n
     '''
 def getPlanType():
-    '''public String getPlanType()
+    '''returns String\n\n
+    getPlanType()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def isCalPoint():
-    '''public boolean isCalPoint()
+    '''returns boolean\n\n
+    isCalPoint()\n
     '''
 def isFunctionCheck():
-    '''public boolean isFunctionCheck()
+    '''returns boolean\n\n
+    isFunctionCheck()\n
     '''
 def isDynamicCheck():
-    '''public boolean isDynamicCheck()
+    '''returns boolean\n\n
+    isDynamicCheck()\n
     '''
 def isAverage():
-    '''public boolean isAverage()
+    '''returns boolean\n\n
+    isAverage()\n
     '''
 def isAllEntered():
-    '''public boolean isAllEntered()
-    public boolean isAllEntered(final String prefix)
+    '''returns boolean\n\n
+    isAllEntered()\n
+    isAllEntered(final String prefix)\n
     '''
 def isAllClear():
-    '''public boolean isAllClear()
+    '''returns boolean\n\n
+    isAllClear()\n
     '''
 def setFunctionCheckPass():
-    '''public void setFunctionCheckPass(final String fieldName, final boolean status)
+    '''returns None\n\n
+    setFunctionCheckPass(final String fieldName, final boolean status)\n
     '''
 def getGroupAveragePoint():
-    '''public MboAdapter getGroupAveragePoint()
+    '''returns MboAdapter\n\n
+    getGroupAveragePoint()\n
     '''
 def getGroupPoints():
-    '''public MboAdapter[] getGroupPoints()
+    '''returns MboAdapter[]\n\n
+    getGroupPoints()\n
     '''
 def hasErrors():
-    '''public boolean hasErrors()
+    '''returns boolean\n\n
+    hasErrors()\n
     '''
 def meetsNoAdjustmentConditions():
-    '''public boolean meetsNoAdjustmentConditions(final String adjchoice)
+    '''returns boolean\n\n
+    meetsNoAdjustmentConditions(final String adjchoice)\n
     '''
 def warnChangeMeasuredValue():
-    '''public boolean warnChangeMeasuredValue(final String attributeName, final String previousValue, final String newValue)
+    '''returns boolean\n\n
+    warnChangeMeasuredValue(final String attributeName, final String previousValue, final String newValue)\n
     '''

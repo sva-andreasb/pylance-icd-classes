@@ -1,0 +1,1 @@
+eINSTANCE = "ChangeFactory  new ChangeFactoryImpl()"

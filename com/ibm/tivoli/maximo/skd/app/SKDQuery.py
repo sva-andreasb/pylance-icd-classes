@@ -1,39 +1,48 @@
-def SKDQuery():
-    '''public SKDQuery(final MboSet ms)
+def ():
+    '''returns SKDQuery\n\n
+    (final MboSet ms)\n
     '''
 def getDefaultObjectName():
-    '''public String getDefaultObjectName(final String relationShipName)
+    '''returns String\n\n
+    getDefaultObjectName(final String relationShipName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def copyQuerys():
-    '''public void copyQuerys(final MboSetRemote querySet)
+    '''returns None\n\n
+    copyQuerys(final MboSetRemote querySet)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def setQueryValues():
-    '''public void setQueryValues(final String whereClause)
+    '''returns None\n\n
+    setQueryValues(final String whereClause)\n
     '''
 def saveQuickQueryQbe():
-    '''public void saveQuickQueryQbe(final Hashtable<String, String> savedQbeAttributes)
-    '''
-def getQuickQueryQbe():
-    '''public Hashtable<String, String> getQuickQueryQbe()
+    '''returns None\n\n
+    saveQuickQueryQbe(final Hashtable<String, String> savedQbeAttributes)\n
     '''

@@ -3,20 +3,26 @@ PROVIDER_URL = "String  \"java.naming.provider.url\""
 _CONNECTION_FACTORY_JNDI_NAME = "String  \"ConnectionFactoryJNDIName\""
 CONNECTION_FACTORY_JNDI_NAME = "String  \"transport.jms.ConnectionFactoryJNDIName\""
 def getQueueConnectionFactory():
-    '''public QueueConnectionFactory getQueueConnectionFactory(final HashMap cfConfig)
+    '''returns QueueConnectionFactory\n\n
+    getQueueConnectionFactory(final HashMap cfConfig)\n
     '''
 def getTopicConnectionFactory():
-    '''public TopicConnectionFactory getTopicConnectionFactory(final HashMap cfConfig)
+    '''returns TopicConnectionFactory\n\n
+    getTopicConnectionFactory(final HashMap cfConfig)\n
     '''
 def addVendorConnectionFactoryProperties():
-    '''public void addVendorConnectionFactoryProperties(final JMSURLHelper jmsurl, final HashMap cfConfig)
+    '''returns None\n\n
+    addVendorConnectionFactoryProperties(final JMSURLHelper jmsurl, final HashMap cfConfig)\n
     '''
 def isMatchingConnectionFactory():
-    '''public boolean isMatchingConnectionFactory(final ConnectionFactory cf, final JMSURLHelper originalJMSURL, final HashMap cfProps)
+    '''returns boolean\n\n
+    isMatchingConnectionFactory(final ConnectionFactory cf, final JMSURLHelper originalJMSURL, final HashMap cfProps)\n
     '''
 def getQueue():
-    '''public Queue getQueue(final QueueSession session, final String name)
+    '''returns Queue\n\n
+    getQueue(final QueueSession session, final String name)\n
     '''
 def getTopic():
-    '''public Topic getTopic(final TopicSession session, final String name)
+    '''returns Topic\n\n
+    getTopic(final TopicSession session, final String name)\n
     '''

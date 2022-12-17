@@ -1,18 +1,24 @@
-def ItemStructSet():
-    '''public ItemStructSet(final MboServerInterface ms)
+def ():
+    '''returns ItemStructSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findTopLevelItems():
-    '''public void findTopLevelItems()
+    '''returns None\n\n
+    findTopLevelItems()\n
     '''
 def copyIAS():
-    '''public void copyIAS()
+    '''returns None\n\n
+    copyIAS()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def clearItemStructsVector():
-    '''public void clearItemStructsVector()
+    '''returns None\n\n
+    clearItemStructsVector()\n
     '''
 def getItemStructsVector():
-    '''public Vector getItemStructsVector()
+    '''returns Vector\n\n
+    getItemStructsVector()\n
     '''

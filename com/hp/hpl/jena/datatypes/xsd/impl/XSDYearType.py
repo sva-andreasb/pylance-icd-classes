@@ -1,6 +1,8 @@
-def XSDYearType():
-    '''public XSDYearType(final String typename)
+def ():
+    '''returns XSDYearType\n\n
+    (final String typename)\n
     '''
 def parseValidated():
-    '''public Object parseValidated(final String str)
+    '''returns Object\n\n
+    parseValidated(final String str)\n
     '''

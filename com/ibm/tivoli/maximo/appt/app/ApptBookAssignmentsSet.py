@@ -1,3 +1,4 @@
-def ApptBookAssignmentsSet():
-    '''public ApptBookAssignmentsSet(final MboServerInterface ms)
+def ():
+    '''returns ApptBookAssignmentsSet\n\n
+    (final MboServerInterface ms)\n
     '''

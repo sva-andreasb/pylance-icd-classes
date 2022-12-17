@@ -1,33 +1,40 @@
-def OslcInteractionDesigner():
-    '''public OslcInteractionDesigner(final OslcEndPointData epData, final String oslcProviderName, final String resourceType, final String interactionType, final String resourceTypeName)
+def ():
+    '''returns OslcInteractionDesigner\n\n
+    (final OslcEndPointData epData, final String oslcProviderName, final String resourceType, final String interactionType, final String resourceTypeName)\n
     '''
 def isSingleServiceProvider():
-    '''public boolean isSingleServiceProvider()
+    '''returns boolean\n\n
+    isSingleServiceProvider()\n
     '''
 def loadUsageURIs():
-    '''public Set<String> loadUsageURIs()
+    '''returns Set<String>\n\n
+    loadUsageURIs()\n
     '''
 def isProviderRR():
-    '''public boolean isProviderRR(final String domURI)
-    '''
-def getMatchingServiceProviders():
-    '''public Map<String, String> getMatchingServiceProviders(final String usageURI)
+    '''returns boolean\n\n
+    isProviderRR(final String domURI)\n
     '''
 def getDefaultLinkPath():
-    '''public String getDefaultLinkPath()
+    '''returns String\n\n
+    getDefaultLinkPath()\n
     '''
 def getDefaultLinkLabel():
-    '''public String getDefaultLinkLabel()
+    '''returns String\n\n
+    getDefaultLinkLabel()\n
     '''
 def getOslcLinkType():
-    '''public String getOslcLinkType()
+    '''returns String\n\n
+    getOslcLinkType()\n
     '''
 def getDialogURI():
-    '''public String getDialogURI(final String spURI)
+    '''returns String\n\n
+    getDialogURI(final String spURI)\n
     '''
 def hasShapeInformation():
-    '''public boolean hasShapeInformation()
+    '''returns boolean\n\n
+    hasShapeInformation()\n
     '''
 def getParsedShape():
-    '''public ShapeRDFParser getParsedShape()
+    '''returns ShapeRDFParser\n\n
+    getParsedShape()\n
     '''

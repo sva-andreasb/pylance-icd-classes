@@ -1,3 +1,4 @@
-def InvUseChangeStatusSet():
-    '''public InvUseChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns InvUseChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

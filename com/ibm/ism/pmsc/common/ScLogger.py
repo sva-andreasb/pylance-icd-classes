@@ -1,103 +1,118 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def ScLogger():
-    '''public ScLogger(final MXLogger logger)
-    '''
-def getInstance():
-    '''public static ScLogger getInstance(final Type loggerType)
+def ():
+    '''returns ScLogger\n\n
+    (final MXLogger logger)\n
     '''
 def debugEntry():
-    '''public void debugEntry(final Class className, final String method, final Object[] params)
-    public void debugEntry(final Class className, final String method)
-    public void debugEntry(final Class className, final String method, final String msg)
-    public void debugEntry(final Class className, final String method, final Object param1)
-    public void debugEntry(final Class className, final String method, final Object param1, final Object param2)
-    public void debugEntry(final Class className, final String method, final Object param1, final Object param2, final Object param3)
-    public void debugEntry(final Class className, final String method, final Object param1, final Object param2, final Object param3, final Object param4)
-    public void debugEntry(final String className, final String method, final Object[] params)
-    public void debugEntry(final String className, final String method)
-    public void debugEntry(final String className, final String method, final Object param1)
-    public void debugEntry(final String className, final String method, final Object param1, final Object param2)
-    public void debugEntry(final String className, final String method, final Object param1, final Object param2, final Object param3)
-    public void debugEntry(final String className, final String method, final Object param1, final Object param2, final Object param3, final Object param4)
+    '''returns None\n\n
+    debugEntry(final Class className, final String method, final Object[] params)\n
+    debugEntry(final Class className, final String method)\n
+    debugEntry(final Class className, final String method, final String msg)\n
+    debugEntry(final Class className, final String method, final Object param1)\n
+    debugEntry(final Class className, final String method, final Object param1, final Object param2)\n
+    debugEntry(final Class className, final String method, final Object param1, final Object param2, final Object param3)\n
+    debugEntry(final Class className, final String method, final Object param1, final Object param2, final Object param3, final Object param4)\n
+    debugEntry(final String className, final String method, final Object[] params)\n
+    debugEntry(final String className, final String method)\n
+    debugEntry(final String className, final String method, final Object param1)\n
+    debugEntry(final String className, final String method, final Object param1, final Object param2)\n
+    debugEntry(final String className, final String method, final Object param1, final Object param2, final Object param3)\n
+    debugEntry(final String className, final String method, final Object param1, final Object param2, final Object param3, final Object param4)\n
     '''
 def debugExit():
-    '''public void debugExit(final Class className, final String method, final Object returnValue)
-    public void debugExit(final Class className, final String method)
-    public void debugExit(final Class className, final String methodName, final String msg)
-    public void debugExit(final String className, final String method, final Object returnValue)
-    public void debugExit(final String className, final String method)
+    '''returns None\n\n
+    debugExit(final Class className, final String method, final Object returnValue)\n
+    debugExit(final Class className, final String method)\n
+    debugExit(final Class className, final String methodName, final String msg)\n
+    debugExit(final String className, final String method, final Object returnValue)\n
+    debugExit(final String className, final String method)\n
     '''
 def debugNote():
-    '''public void debugNote(final Class className, final String methodName, final String msg)
+    '''returns None\n\n
+    debugNote(final Class className, final String methodName, final String msg)\n
     '''
 def infoNote():
-    '''public void infoNote(final Class className, final String methodName, final String msg)
+    '''returns None\n\n
+    infoNote(final Class className, final String methodName, final String msg)\n
     '''
 def warnNote():
-    '''public void warnNote(final Class className, final String methodName, final String msg)
+    '''returns None\n\n
+    warnNote(final Class className, final String methodName, final String msg)\n
     '''
 def errorNote():
-    '''public void errorNote(final Class className, final String methodName, final String msg)
+    '''returns None\n\n
+    errorNote(final Class className, final String methodName, final String msg)\n
     '''
 def fatalNote():
-    '''public void fatalNote(final Class className, final String methodName, final String msg)
+    '''returns None\n\n
+    fatalNote(final Class className, final String methodName, final String msg)\n
     '''
 def logException():
-    '''public void logException(final Class className, final String methodName, final Throwable thrown)
+    '''returns None\n\n
+    logException(final Class className, final String methodName, final Throwable thrown)\n
     '''
 def isFatalEnabled():
-    '''public boolean isFatalEnabled()
+    '''returns boolean\n\n
+    isFatalEnabled()\n
     '''
 def isErrorEnabled():
-    '''public boolean isErrorEnabled()
+    '''returns boolean\n\n
+    isErrorEnabled()\n
     '''
 def isWarnEnabled():
-    '''public boolean isWarnEnabled()
+    '''returns boolean\n\n
+    isWarnEnabled()\n
     '''
 def isInfoEnabled():
-    '''public boolean isInfoEnabled()
+    '''returns boolean\n\n
+    isInfoEnabled()\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final int level)
-    '''
-def getErrorMessageForThrowable():
-    '''public static final String getErrorMessageForThrowable(final Throwable t)
-    '''
-def main():
-    '''public static void main()
+    '''returns boolean\n\n
+    isEnabled(final int level)\n
     '''
 def isDebug():
-    '''public boolean isDebug()
+    '''returns boolean\n\n
+    isDebug()\n
     '''
 def isInfo():
-    '''public boolean isInfo()
+    '''returns boolean\n\n
+    isInfo()\n
     '''
 def isWarn():
-    '''public boolean isWarn()
+    '''returns boolean\n\n
+    isWarn()\n
     '''
 def isError():
-    '''public boolean isError()
+    '''returns boolean\n\n
+    isError()\n
     '''
 def debug():
-    '''public void debug(final String className, final String method, final String msg)
-    public void debug(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    debug(final String className, final String method, final String msg)\n
+    debug(final String className, final String method, final String msg, final Throwable t)\n
     '''
 def info():
-    '''public void info(final String className, final String method, final String msg)
-    public void info(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    info(final String className, final String method, final String msg)\n
+    info(final String className, final String method, final String msg, final Throwable t)\n
     '''
 def warn():
-    '''public void warn(final String className, final String method, final String msg)
-    public void warn(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    warn(final String className, final String method, final String msg)\n
+    warn(final String className, final String method, final String msg, final Throwable t)\n
     '''
 def error():
-    '''public void error(final String className, final String method, final String msg)
-    public void error(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    error(final String className, final String method, final String msg)\n
+    error(final String className, final String method, final String msg, final Throwable t)\n
     '''
 def fatal():
-    '''public void fatal(final String className, final String method, final String msg)
-    public void fatal(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    fatal(final String className, final String method, final String msg)\n
+    fatal(final String className, final String method, final String msg, final Throwable t)\n
     '''

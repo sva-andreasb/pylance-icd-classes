@@ -1,3 +1,4 @@
-def VpkMsgSetPrivacyMode():
-    '''public VpkMsgSetPrivacyMode(final int n, final short v)
+def ():
+    '''returns VpkMsgSetPrivacyMode\n\n
+    (final int n, final short v)\n
     '''

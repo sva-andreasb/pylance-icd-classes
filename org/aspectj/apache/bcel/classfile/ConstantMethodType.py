@@ -1,18 +1,12 @@
-def ConstantMethodType():
-    '''public ConstantMethodType(final int descriptorIndex)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def getDescriptorIndex():
-    '''public final int getDescriptorIndex()
-    '''
-def toString():
-    '''public final String toString()
+def ():
+    '''returns ConstantMethodType\n\n
+    (final int descriptorIndex)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''

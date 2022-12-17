@@ -1,6 +1,8 @@
-def EncMethod():
-    '''public EncMethod()
+def ():
+    '''returns EncMethod\n\n
+    ()\n
     '''
 def getEncError():
-    '''public int getEncError()
+    '''returns int\n\n
+    getEncError()\n
     '''

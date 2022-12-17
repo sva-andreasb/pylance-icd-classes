@@ -1,3 +1,4 @@
-def MeterGroupSet():
-    '''public MeterGroupSet(final MboServerInterface ms)
+def ():
+    '''returns MeterGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''

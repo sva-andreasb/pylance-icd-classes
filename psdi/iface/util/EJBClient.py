@@ -1,10 +1,13 @@
-def EJBClient():
-    '''public EJBClient(final String jndiName)
-    public EJBClient(final String jndiName, final Properties env)
+def ():
+    '''returns EJBClient\n\n
+    (final String jndiName)\n
+    (final String jndiName, final Properties env)\n
     '''
 def invoke():
-    '''public Object invoke(final String methodName, final Class[] paramClasses, final Object[] params)
+    '''returns Object\n\n
+    invoke(final String methodName, final Class[] paramClasses, final Object[] params)\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''

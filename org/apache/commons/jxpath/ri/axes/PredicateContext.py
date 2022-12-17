@@ -1,18 +1,24 @@
-def PredicateContext():
-    '''public PredicateContext(final EvalContext parentContext, final Expression expression)
+def ():
+    '''returns PredicateContext\n\n
+    (final EvalContext parentContext, final Expression expression)\n
     '''
 def nextNode():
-    '''public boolean nextNode()
+    '''returns boolean\n\n
+    nextNode()\n
     '''
 def setPosition():
-    '''public boolean setPosition(final int position)
+    '''returns boolean\n\n
+    setPosition(final int position)\n
     '''
 def getCurrentNodePointer():
-    '''public NodePointer getCurrentNodePointer()
+    '''returns NodePointer\n\n
+    getCurrentNodePointer()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def nextSet():
-    '''public boolean nextSet()
+    '''returns boolean\n\n
+    nextSet()\n
     '''

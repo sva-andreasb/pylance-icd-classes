@@ -1,34 +1,45 @@
-def XMLEventWriterImpl():
-    '''public XMLEventWriterImpl(final XMLOutputFactory xmlOutputFactory, final XMLStreamWriter fStreamWriter)
+def ():
+    '''returns XMLEventWriterImpl\n\n
+    (final XMLOutputFactory xmlOutputFactory, final XMLStreamWriter fStreamWriter)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def add():
-    '''public void add(final XMLEvent xmlEvent)
-    public void add(final XMLEventReader xmlEventReader)
+    '''returns None\n\n
+    add(final XMLEvent xmlEvent)\n
+    add(final XMLEventReader xmlEventReader)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String s)
+    '''returns String\n\n
+    getPrefix(final String s)\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String s, final String s2)
+    '''returns None\n\n
+    setPrefix(final String s, final String s2)\n
     '''
 def setDefaultNamespace():
-    '''public void setDefaultNamespace(final String defaultNamespace)
+    '''returns None\n\n
+    setDefaultNamespace(final String defaultNamespace)\n
     '''
 def setNamespaceContext():
-    '''public void setNamespaceContext(final NamespaceContext namespaceContext)
+    '''returns None\n\n
+    setNamespaceContext(final NamespaceContext namespaceContext)\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
     '''
 def setXMLStreamWriter():
-    '''public void setXMLStreamWriter(final XMLStreamWriter fStreamWriter)
+    '''returns None\n\n
+    setXMLStreamWriter(final XMLStreamWriter fStreamWriter)\n
     '''
 def getXMLStreamWriter():
-    '''public XMLStreamWriter getXMLStreamWriter()
+    '''returns XMLStreamWriter\n\n
+    getXMLStreamWriter()\n
     '''

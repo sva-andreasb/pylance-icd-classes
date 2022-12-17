@@ -1,6 +1,8 @@
-def MaxPropProcess():
-    '''public MaxPropProcess()
+def ():
+    '''returns MaxPropProcess\n\n
+    ()\n
     '''
 def afterProcess():
-    '''public void afterProcess()
+    '''returns None\n\n
+    afterProcess()\n
     '''

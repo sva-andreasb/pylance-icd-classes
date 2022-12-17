@@ -1,80 +1,106 @@
-def ConfigServiceProxy():
-    '''public ConfigServiceProxy(final AdminClient adminClient)
+def ():
+    '''returns ConfigServiceProxy\n\n
+    (final AdminClient adminClient)\n
     '''
 def getAdminClient():
-    '''public AdminClient getAdminClient()
+    '''returns AdminClient\n\n
+    getAdminClient()\n
     '''
 def setProperties():
-    '''public void setProperties(final Session session, final HashMap props)
+    '''returns None\n\n
+    setProperties(final Session session, final HashMap props)\n
     '''
 def validate():
-    '''public ValidationResult validate(final Session session, final ObjectName scope)
+    '''returns ValidationResult\n\n
+    validate(final Session session, final ObjectName scope)\n
     '''
 def save():
-    '''public void save(final Session session, final boolean overwriteOnConflict)
+    '''returns None\n\n
+    save(final Session session, final boolean overwriteOnConflict)\n
     '''
 def discard():
-    '''public void discard(final Session session)
+    '''returns None\n\n
+    discard(final Session session)\n
     '''
 def getUnsavedChanges():
-    '''public String[] getUnsavedChanges(final Session session)
+    '''returns String[]\n\n
+    getUnsavedChanges(final Session session)\n
     '''
 def getConflictDocuments():
-    '''public Map getConflictDocuments(final Session session)
+    '''returns Map\n\n
+    getConflictDocuments(final Session session)\n
     '''
 def getSupportedConfigObjectTypes():
-    '''public String[] getSupportedConfigObjectTypes()
+    '''returns String[]\n\n
+    getSupportedConfigObjectTypes()\n
     '''
 def getAttributesMetaInfo():
-    '''public AttributeList getAttributesMetaInfo(final String configDataType)
+    '''returns AttributeList\n\n
+    getAttributesMetaInfo(final String configDataType)\n
     '''
 def getRelationshipsMetaInfo():
-    '''public AttributeList getRelationshipsMetaInfo(final String configObjectType)
+    '''returns AttributeList\n\n
+    getRelationshipsMetaInfo(final String configObjectType)\n
     '''
 def queryConfigObjects():
-    '''public ObjectName[] queryConfigObjects(final Session inSession, final ObjectName scope, final ObjectName name, final QueryExp query)
+    '''returns ObjectName[]\n\n
+    queryConfigObjects(final Session inSession, final ObjectName scope, final ObjectName name, final QueryExp query)\n
     '''
 def queryTemplates():
-    '''public ObjectName[] queryTemplates(final Session inSession, final String type)
+    '''returns ObjectName[]\n\n
+    queryTemplates(final Session inSession, final String type)\n
     '''
 def resolve():
-    '''public ObjectName[] resolve(final Session inSession, final String containmentPath)
-    public ObjectName[] resolve(final Session inSession, final ObjectName scope, final String containmentPath)
+    '''returns ObjectName[]\n\n
+    resolve(final Session inSession, final String containmentPath)\n
+    resolve(final Session inSession, final ObjectName scope, final String containmentPath)\n
     '''
 def createConfigDataByTemplate():
-    '''public ObjectName createConfigDataByTemplate(final Session inSession, final ObjectName parent, final String attributeName, final AttributeList attrList, final ObjectName template)
+    '''returns ObjectName\n\n
+    createConfigDataByTemplate(final Session inSession, final ObjectName parent, final String attributeName, final AttributeList attrList, final ObjectName template)\n
     '''
 def createConfigData():
-    '''public ObjectName createConfigData(final Session inSession, final ObjectName parent, final String attributeName, final String type, final AttributeList attrList)
+    '''returns ObjectName\n\n
+    createConfigData(final Session inSession, final ObjectName parent, final String attributeName, final String type, final AttributeList attrList)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final Session inSession, final ObjectName configData, final AttributeList attrList)
+    '''returns None\n\n
+    setAttributes(final Session inSession, final ObjectName configData, final AttributeList attrList)\n
     '''
 def addElement():
-    '''public void addElement(final Session inSession, final ObjectName configData, final String attribute, final Object element, final int position)
+    '''returns None\n\n
+    addElement(final Session inSession, final ObjectName configData, final String attribute, final Object element, final int position)\n
     '''
 def removeElement():
-    '''public void removeElement(final Session inSession, final ObjectName configData, final String attribute, final Object element)
+    '''returns None\n\n
+    removeElement(final Session inSession, final ObjectName configData, final String attribute, final Object element)\n
     '''
 def unsetAttributes():
-    '''public void unsetAttributes(final Session inSession, final ObjectName configData, final String[] attributes)
+    '''returns None\n\n
+    unsetAttributes(final Session inSession, final ObjectName configData, final String[] attributes)\n
     '''
 def resetAttributes():
-    '''public void resetAttributes(final Session inSession, final ObjectName configData, final AttributeList attrList)
+    '''returns None\n\n
+    resetAttributes(final Session inSession, final ObjectName configData, final AttributeList attrList)\n
     '''
 def getAttributes():
-    '''public AttributeList getAttributes(final Session inSession, final ObjectName configData, final String[] attributes, final boolean recursive)
+    '''returns AttributeList\n\n
+    getAttributes(final Session inSession, final ObjectName configData, final String[] attributes, final boolean recursive)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final Session inSession, final ObjectName configData, final String attribute)
-    public Object getAttribute(final Session session, final ObjectName configData, final String attribute, final boolean recursive)
+    '''returns Object\n\n
+    getAttribute(final Session inSession, final ObjectName configData, final String attribute)\n
+    getAttribute(final Session session, final ObjectName configData, final String attribute, final boolean recursive)\n
     '''
 def deleteConfigData():
-    '''public void deleteConfigData(final Session inSession, final ObjectName configData)
+    '''returns None\n\n
+    deleteConfigData(final Session inSession, final ObjectName configData)\n
     '''
 def getRelationships():
-    '''public AttributeList getRelationships(final Session inSession, final ObjectName configData, final String[] relationshipNames)
+    '''returns AttributeList\n\n
+    getRelationships(final Session inSession, final ObjectName configData, final String[] relationshipNames)\n
     '''
 def getRelationship():
-    '''public ObjectName[] getRelationship(final Session inSession, final ObjectName configData, final String relationship)
+    '''returns ObjectName[]\n\n
+    getRelationship(final Session inSession, final ObjectName configData, final String relationship)\n
     '''

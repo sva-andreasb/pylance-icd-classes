@@ -1,6 +1,8 @@
-def FldLocationPrimarySystem():
-    '''public FldLocationPrimarySystem(final MboValue mbv)
+def ():
+    '''returns FldLocationPrimarySystem\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

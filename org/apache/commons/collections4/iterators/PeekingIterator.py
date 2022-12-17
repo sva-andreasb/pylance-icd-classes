@@ -1,21 +1,24 @@
-def peekingIterator():
-    '''public static <E> PeekingIterator<E> peekingIterator(final Iterator<? extends E> iterator)
-    '''
-def PeekingIterator():
-    '''public PeekingIterator(final Iterator<? extends E> iterator)
+def ():
+    '''returns PeekingIterator\n\n
+    (final Iterator<? extends E> iterator)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def peek():
-    '''public E peek()
+    '''returns E\n\n
+    peek()\n
     '''
 def element():
-    '''public E element()
+    '''returns E\n\n
+    element()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

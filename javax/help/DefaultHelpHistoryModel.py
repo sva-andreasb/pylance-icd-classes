@@ -1,45 +1,60 @@
-def DefaultHelpHistoryModel():
-    '''public DefaultHelpHistoryModel(final JHelp help)
+def ():
+    '''returns DefaultHelpHistoryModel\n\n
+    (final JHelp help)\n
     '''
 def setHelpModel():
-    '''public void setHelpModel(final HelpModel helpModel)
+    '''returns None\n\n
+    setHelpModel(final HelpModel helpModel)\n
     '''
 def removeHelpHistoryModelListener():
-    '''public void removeHelpHistoryModelListener(final HelpHistoryModelListener helpHistoryModelListener)
+    '''returns None\n\n
+    removeHelpHistoryModelListener(final HelpHistoryModelListener helpHistoryModelListener)\n
     '''
 def addHelpHistoryModelListener():
-    '''public void addHelpHistoryModelListener(final HelpHistoryModelListener helpHistoryModelListener)
+    '''returns None\n\n
+    addHelpHistoryModelListener(final HelpHistoryModelListener helpHistoryModelListener)\n
     '''
 def discard():
-    '''public void discard()
+    '''returns None\n\n
+    discard()\n
     '''
 def getHistory():
-    '''public Vector getHistory()
+    '''returns Vector\n\n
+    getHistory()\n
     '''
 def removeLastEntry():
-    '''public void removeLastEntry()
+    '''returns None\n\n
+    removeLastEntry()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def goForward():
-    '''public void goForward()
+    '''returns None\n\n
+    goForward()\n
     '''
 def goBack():
-    '''public void goBack()
+    '''returns None\n\n
+    goBack()\n
     '''
 def getForwardHistory():
-    '''public Vector getForwardHistory()
+    '''returns Vector\n\n
+    getForwardHistory()\n
     '''
 def getBackwardHistory():
-    '''public Vector getBackwardHistory()
+    '''returns Vector\n\n
+    getBackwardHistory()\n
     '''
 def setHistoryEntry():
-    '''public void setHistoryEntry(final int n)
+    '''returns None\n\n
+    setHistoryEntry(final int n)\n
     '''
 def idChanged():
-    '''public void idChanged(final HelpModelEvent obj)
+    '''returns None\n\n
+    idChanged(final HelpModelEvent obj)\n
     '''
 def removeHelpSet():
-    '''public void removeHelpSet(final HelpSet set)
+    '''returns None\n\n
+    removeHelpSet(final HelpSet set)\n
     '''

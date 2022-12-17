@@ -1,26 +1,34 @@
-def OracleManagedConnectionFactory():
-    '''public OracleManagedConnectionFactory()
-    public OracleManagedConnectionFactory(final XADataSource xaDataSource)
+def ():
+    '''returns OracleManagedConnectionFactory\n\n
+    ()\n
+    (final XADataSource xaDataSource)\n
     '''
 def setXADataSourceName():
-    '''public void setXADataSourceName(final String xaDataSourceName)
+    '''returns None\n\n
+    setXADataSourceName(final String xaDataSourceName)\n
     '''
 def getXADataSourceName():
-    '''public String getXADataSourceName()
+    '''returns String\n\n
+    getXADataSourceName()\n
     '''
 def createConnectionFactory():
-    '''public Object createConnectionFactory(final ConnectionManager connectionManager)
-    public Object createConnectionFactory()
+    '''returns Object\n\n
+    createConnectionFactory(final ConnectionManager connectionManager)\n
+    createConnectionFactory()\n
     '''
 def createManagedConnection():
-    '''public ManagedConnection createManagedConnection(final Subject subject, final ConnectionRequestInfo connectionRequestInfo)
+    '''returns ManagedConnection\n\n
+    createManagedConnection(final Subject subject, final ConnectionRequestInfo connectionRequestInfo)\n
     '''
 def matchManagedConnections():
-    '''public ManagedConnection matchManagedConnections(final Set set, final Subject subject, final ConnectionRequestInfo connectionRequestInfo)
+    '''returns ManagedConnection\n\n
+    matchManagedConnections(final Set set, final Subject subject, final ConnectionRequestInfo connectionRequestInfo)\n
     '''
 def setLogWriter():
-    '''public void setLogWriter(final PrintWriter logWriter)
+    '''returns None\n\n
+    setLogWriter(final PrintWriter logWriter)\n
     '''
 def getLogWriter():
-    '''public PrintWriter getLogWriter()
+    '''returns PrintWriter\n\n
+    getLogWriter()\n
     '''

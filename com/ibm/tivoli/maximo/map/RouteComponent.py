@@ -1,21 +1,28 @@
-def RouteComponent():
-    '''public RouteComponent()
+def ():
+    '''returns RouteComponent\n\n
+    ()\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def isRouteDataSourceDynamic():
-    '''public Boolean isRouteDataSourceDynamic()
+    '''returns Boolean\n\n
+    isRouteDataSourceDynamic()\n
     '''
 def getRouteStops():
-    '''public int getRouteStops()
+    '''returns int\n\n
+    getRouteStops()\n
     '''
 def getRouteConfiguration():
-    '''public JSONObject getRouteConfiguration()
+    '''returns JSONObject\n\n
+    getRouteConfiguration()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''

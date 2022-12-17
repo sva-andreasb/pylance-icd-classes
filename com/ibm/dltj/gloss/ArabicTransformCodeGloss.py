@@ -1,41 +1,50 @@
-def ArabicTransformCodeGloss():
-    '''public ArabicTransformCodeGloss()
-    public ArabicTransformCodeGloss(final String s)
+def ():
+    '''returns ArabicTransformCodeGloss\n\n
+    ()\n
+    (final String s)\n
     '''
 def getLemma():
-    '''public void getLemma(CharacterIterator characterIterator, final int index, final int n, final StringBuffer sb)
-    public String getLemma(final CharacterIterator characterIterator, final int n, final int n2)
+    '''returns String\n\n
+    getLemma(CharacterIterator characterIterator, final int index, final int n, final StringBuffer sb)\n
+    getLemma(final CharacterIterator characterIterator, final int n, final int n2)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def getMinSourceLength():
-    '''public int getMinSourceLength()
+    '''returns int\n\n
+    getMinSourceLength()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
-    '''
-def getCodes():
-    '''public static Collection getCodes(final String s, final String s2)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def getCode():
-    '''public String getCode()
+    '''returns String\n\n
+    getCode()\n
     '''
 def insertedChars():
-    '''public int insertedChars()
+    '''returns int\n\n
+    insertedChars()\n
     '''

@@ -1,21 +1,28 @@
-def LocalCommand():
-    '''public LocalCommand()
+def ():
+    '''returns LocalCommand\n\n
+    ()\n
     '''
 def setSessionID():
-    '''public void setSessionID(final String sessionID)
+    '''returns None\n\n
+    setSessionID(final String sessionID)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def setOwnerJID():
-    '''public void setOwnerJID(final Jid ownerJID)
+    '''returns None\n\n
+    setOwnerJID(final Jid ownerJID)\n
     '''
 def getOwnerJID():
-    '''public Jid getOwnerJID()
+    '''returns Jid\n\n
+    getOwnerJID()\n
     '''
 def getCreationDate():
-    '''public long getCreationDate()
+    '''returns long\n\n
+    getCreationDate()\n
     '''
 def getCurrentStage():
-    '''public int getCurrentStage()
+    '''returns int\n\n
+    getCurrentStage()\n
     '''

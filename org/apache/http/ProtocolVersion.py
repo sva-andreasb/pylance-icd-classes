@@ -1,39 +1,24 @@
-def ProtocolVersion():
-    '''public ProtocolVersion(final String protocol, final int major, final int minor)
-    '''
-def getProtocol():
-    '''public final String getProtocol()
-    '''
-def getMajor():
-    '''public final int getMajor()
-    '''
-def getMinor():
-    '''public final int getMinor()
+def ():
+    '''returns ProtocolVersion\n\n
+    (final String protocol, final int major, final int minor)\n
     '''
 def forVersion():
-    '''public ProtocolVersion forVersion(final int major, final int minor)
-    '''
-def hashCode():
-    '''public final int hashCode()
-    '''
-def equals():
-    '''public final boolean equals(final Object obj)
+    '''returns ProtocolVersion\n\n
+    forVersion(final int major, final int minor)\n
     '''
 def isComparable():
-    '''public boolean isComparable(final ProtocolVersion that)
+    '''returns boolean\n\n
+    isComparable(final ProtocolVersion that)\n
     '''
 def compareToVersion():
-    '''public int compareToVersion(final ProtocolVersion that)
-    '''
-def greaterEquals():
-    '''public final boolean greaterEquals(final ProtocolVersion version)
-    '''
-def lessEquals():
-    '''public final boolean lessEquals(final ProtocolVersion version)
+    '''returns int\n\n
+    compareToVersion(final ProtocolVersion that)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

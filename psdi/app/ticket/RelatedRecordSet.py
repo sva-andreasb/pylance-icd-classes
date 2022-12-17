@@ -1,9 +1,12 @@
-def RelatedRecordSet():
-    '''public RelatedRecordSet(final MboServerInterface ms)
+def ():
+    '''returns RelatedRecordSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def otherDeletedFound():
-    '''public boolean otherDeletedFound(final MboRemote otherRelInDB)
+    '''returns boolean\n\n
+    otherDeletedFound(final MboRemote otherRelInDB)\n
     '''
 def setOtherRelDeleted():
-    '''public void setOtherRelDeleted(final MboRemote otherRelrecord)
+    '''returns None\n\n
+    setOtherRelDeleted(final MboRemote otherRelrecord)\n
     '''

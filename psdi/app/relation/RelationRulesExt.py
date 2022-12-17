@@ -1,18 +1,24 @@
-def RelationRulesExt():
-    '''public RelationRulesExt(final MboSet ms)
+def ():
+    '''returns RelationRulesExt\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def clearSourceClassification():
-    '''public void clearSourceClassification()
+    '''returns None\n\n
+    clearSourceClassification()\n
     '''
 def clearTargetClassification():
-    '''public void clearTargetClassification()
+    '''returns None\n\n
+    clearTargetClassification()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

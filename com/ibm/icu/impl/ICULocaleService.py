@@ -1,92 +1,101 @@
 KIND_ANY = "int  -1"
 VISIBLE = "boolean  true"
 INVISIBLE = "boolean  false"
-def ICULocaleService():
-    '''public ICULocaleService()
-    public ICULocaleService(final String name)
+def ():
+    '''returns ICUResourceBundleFactory\n\n
+    ()\n
+    (final String name)\n
+    (final Object obj, final ULocale locale, final int kind, final boolean visible)\n
+    (final Object obj, final ULocale locale, final int kind, final boolean visible, final String name)\n
+    ()\n
+    (final String bundleName)\n
     '''
 def get():
-    '''public Object get(final ULocale locale)
-    public Object get(final ULocale locale, final int kind)
-    public Object get(final ULocale locale, final ULocale[] actualReturn)
-    public Object get(final ULocale locale, final int kind, final ULocale[] actualReturn)
+    '''returns Object\n\n
+    get(final ULocale locale)\n
+    get(final ULocale locale, final int kind)\n
+    get(final ULocale locale, final ULocale[] actualReturn)\n
+    get(final ULocale locale, final int kind, final ULocale[] actualReturn)\n
     '''
 def registerObject():
-    '''public Factory registerObject(final Object obj, final ULocale locale)
-    public Factory registerObject(final Object obj, final ULocale locale, final boolean visible)
-    public Factory registerObject(final Object obj, final ULocale locale, final int kind)
-    public Factory registerObject(final Object obj, final ULocale locale, final int kind, final boolean visible)
+    '''returns Factory\n\n
+    registerObject(final Object obj, final ULocale locale)\n
+    registerObject(final Object obj, final ULocale locale, final boolean visible)\n
+    registerObject(final Object obj, final ULocale locale, final int kind)\n
+    registerObject(final Object obj, final ULocale locale, final int kind, final boolean visible)\n
     '''
 def getAvailableLocales():
-    '''public Locale[] getAvailableLocales()
+    '''returns Locale[]\n\n
+    getAvailableLocales()\n
     '''
 def getAvailableULocales():
-    '''public ULocale[] getAvailableULocales()
+    '''returns ULocale[]\n\n
+    getAvailableULocales()\n
     '''
 def validateFallbackLocale():
-    '''public String validateFallbackLocale()
+    '''returns String\n\n
+    validateFallbackLocale()\n
     '''
 def createKey():
-    '''public Key createKey(final String id)
-    public Key createKey(final String id, final int kind)
-    public Key createKey(final ULocale l, final int kind)
-    '''
-def createWithCanonicalFallback():
-    '''public static LocaleKey createWithCanonicalFallback(final String primaryID, final String canonicalFallbackID)
-    public static LocaleKey createWithCanonicalFallback(final String primaryID, final String canonicalFallbackID, final int kind)
-    '''
-def createWithCanonical():
-    '''public static LocaleKey createWithCanonical(final ULocale locale, final String canonicalFallbackID, final int kind)
+    '''returns Key\n\n
+    createKey(final String id)\n
+    createKey(final String id, final int kind)\n
+    createKey(final ULocale l, final int kind)\n
     '''
 def prefix():
-    '''public String prefix()
+    '''returns String\n\n
+    prefix()\n
     '''
 def kind():
-    '''public int kind()
+    '''returns int\n\n
+    kind()\n
     '''
 def canonicalID():
-    '''public String canonicalID()
+    '''returns String\n\n
+    canonicalID()\n
     '''
 def currentID():
-    '''public String currentID()
+    '''returns String\n\n
+    currentID()\n
     '''
 def currentDescriptor():
-    '''public String currentDescriptor()
+    '''returns String\n\n
+    currentDescriptor()\n
     '''
 def canonicalLocale():
-    '''public ULocale canonicalLocale()
+    '''returns ULocale\n\n
+    canonicalLocale()\n
     '''
 def currentLocale():
-    '''public ULocale currentLocale()
+    '''returns ULocale\n\n
+    currentLocale()\n
     '''
 def fallback():
-    '''public boolean fallback()
+    '''returns boolean\n\n
+    fallback()\n
     '''
 def isFallbackOf():
-    '''public boolean isFallbackOf(final String id)
+    '''returns boolean\n\n
+    isFallbackOf(final String id)\n
     '''
 def create():
-    '''public Object create(final Key key, final ICUService service)
-    public Object create(final Key key, final ICUService service)
+    '''returns Object\n\n
+    create(final Key key, final ICUService service)\n
+    create(final Key key, final ICUService service)\n
     '''
 def updateVisibleIDs():
-    '''public void updateVisibleIDs(final Map<String, Factory> result)
-    public void updateVisibleIDs(final Map<String, Factory> result)
-    public void updateVisibleIDs(final Map<String, Factory> result)
+    '''returns None\n\n
+    updateVisibleIDs(final Map<String, Factory> result)\n
+    updateVisibleIDs(final Map<String, Factory> result)\n
+    updateVisibleIDs(final Map<String, Factory> result)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName(final String id, final ULocale locale)
+    '''returns String\n\n
+    getDisplayName(final String id, final ULocale locale)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    '''
-def SimpleLocaleKeyFactory():
-    '''public SimpleLocaleKeyFactory(final Object obj, final ULocale locale, final int kind, final boolean visible)
-    public SimpleLocaleKeyFactory(final Object obj, final ULocale locale, final int kind, final boolean visible, final String name)
-    '''
-def ICUResourceBundleFactory():
-    '''public ICUResourceBundleFactory()
-    public ICUResourceBundleFactory(final String bundleName)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

@@ -1,6 +1,8 @@
-def TripleMatchFilter():
-    '''public TripleMatchFilter(final Triple tMatch)
+def ():
+    '''returns TripleMatchFilter\n\n
+    (final Triple tMatch)\n
     '''
 def accept():
-    '''public boolean accept(final Triple t)
+    '''returns boolean\n\n
+    accept(final Triple t)\n
     '''

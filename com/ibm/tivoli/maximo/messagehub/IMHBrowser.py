@@ -1,21 +1,20 @@
-def IMHBrowser():
-    '''public IMHBrowser(final Properties consumerProperties)
+def ():
+    '''returns IMHBrowser\n\n
+    (final Properties consumerProperties)\n
     '''
 def close():
-    '''public void close()
-    '''
-def getConnectionMetaData():
-    '''public Map<String, Object> getConnectionMetaData()
+    '''returns None\n\n
+    close()\n
     '''
 def position():
-    '''public Long position(final int partition)
+    '''returns Long\n\n
+    position(final int partition)\n
     '''
 def seek():
-    '''public void seek(final int partition, final long offset)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    seek(final int partition, final long offset)\n
     '''
 def browseMessages():
-    '''public List<Message> browseMessages(final long maxCount, final long skipCount)
+    '''returns List<Message>\n\n
+    browseMessages(final long maxCount, final long skipCount)\n
     '''

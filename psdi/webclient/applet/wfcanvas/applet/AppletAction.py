@@ -1,6 +1,8 @@
-def AppletAction():
-    '''public AppletAction(final WorkflowApplet applet, final KeyStroke accelerator)
+def ():
+    '''returns AppletAction\n\n
+    (final WorkflowApplet applet, final KeyStroke accelerator)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

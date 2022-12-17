@@ -1,12 +1,16 @@
 def itemreturn():
-    '''public int itemreturn()
+    '''returns int\n\n
+    itemreturn()\n
     '''
 def selorditem():
-    '''public int selorditem()
+    '''returns int\n\n
+    selorditem()\n
     '''
 def selordserv():
-    '''public int selordserv()
+    '''returns int\n\n
+    selordserv()\n
     '''
 def propagateRequired():
-    '''public void propagateRequired()
+    '''returns None\n\n
+    propagateRequired()\n
     '''

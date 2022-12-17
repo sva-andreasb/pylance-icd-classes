@@ -1,40 +1,53 @@
-def SLAAssetLoc():
-    '''public SLAAssetLoc(final MboSet ms)
+def ():
+    '''returns SLAAssetLoc\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setDescription():
-    '''public void setDescription()
-    public void setDescription(final MboRemote mbo)
+    '''returns None\n\n
+    setDescription()\n
+    setDescription(final MboRemote mbo)\n
     '''
 def setAsset():
-    '''public void setAsset(final MboRemote asset)
+    '''returns None\n\n
+    setAsset(final MboRemote asset)\n
     '''
 def setLocation():
-    '''public void setLocation(final MboRemote location)
+    '''returns None\n\n
+    setLocation(final MboRemote location)\n
     '''
 def setAssetNum():
-    '''public void setAssetNum()
+    '''returns None\n\n
+    setAssetNum()\n
     '''
 def setLocationID():
-    '''public void setLocationID()
+    '''returns None\n\n
+    setLocationID()\n
     '''
 def validateAsset():
-    '''public void validateAsset(final String assetNum)
+    '''returns None\n\n
+    validateAsset(final String assetNum)\n
     '''
 def validateLocation():
-    '''public void validateLocation(final String location)
+    '''returns None\n\n
+    validateLocation(final String location)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def enableFields():
-    '''public void enableFields()
+    '''returns None\n\n
+    enableFields()\n
     '''
 def setCopyDefaults():
-    '''public void setCopyDefaults()
+    '''returns None\n\n
+    setCopyDefaults()\n
     '''

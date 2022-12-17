@@ -20,93 +20,102 @@ REG_OPT = "String  \"register\""
 UNIQUE_ID_OPT = "String  \"uid\""
 REG_DESC_OPT = "String  \"desc\""
 SHOW_EXIT_CODE_OPT = "String  \"show_exit_code\""
-def LAP():
-    '''public LAP()
-    public LAP(final String[] array)
-    public LAP(final String[] array, final boolean b)
+def ():
+    '''returns LAP\n\n
+    ()\n
+    (final String[] array)\n
+    (final String[] array, final boolean b)\n
     '''
 def breakText():
-    '''public String[] breakText(final int n, final int n2, final String[] array, final Locale locale)
+    '''returns String[]\n\n
+    breakText(final int n, final int n2, final String[] array, final Locale locale)\n
     '''
 def doLAP():
-    '''public void doLAP()
-    public void doLAP(final boolean b)
+    '''returns None\n\n
+    doLAP()\n
+    doLAP(final boolean b)\n
     '''
 def doLapCommandLine():
-    '''public int doLapCommandLine()
+    '''returns int\n\n
+    doLapCommandLine()\n
     '''
 def statusChanged():
-    '''public void statusChanged(final int n)
+    '''returns None\n\n
+    statusChanged(final int n)\n
     '''
 def getLAPTitle():
-    '''public String getLAPTitle()
+    '''returns String\n\n
+    getLAPTitle()\n
     '''
 def getLicenseAcceptanceProcess():
-    '''public LicenseAcceptanceProcess getLicenseAcceptanceProcess()
+    '''returns LicenseAcceptanceProcess\n\n
+    getLicenseAcceptanceProcess()\n
     '''
 def getLicenseAgreement():
-    '''public String[] getLicenseAgreement(final Locale locale)
-    '''
-def getRegDesc():
-    '''public final String getRegDesc()
-    '''
-def getRegister():
-    '''public final boolean getRegister()
+    '''returns String[]\n\n
+    getLicenseAgreement(final Locale locale)\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''
 def getSupportedLanguages():
-    '''public SupportedLanguages getSupportedLanguages()
-    '''
-def getUniqueID():
-    '''public final String getUniqueID()
+    '''returns SupportedLanguages\n\n
+    getSupportedLanguages()\n
     '''
 def licenseIsValid():
-    '''public boolean licenseIsValid()
-    '''
-def main():
-    '''public static void main(final String[] array)
-    '''
-def run():
-    '''public static int run(final String[] array)
+    '''returns boolean\n\n
+    licenseIsValid()\n
     '''
 def setExportLA():
-    '''public void setExportLA(final boolean b)
+    '''returns None\n\n
+    setExportLA(final boolean b)\n
     '''
 def setStatus():
-    '''public void setStatus(final int status)
+    '''returns None\n\n
+    setStatus(final int status)\n
     '''
 def getmPath():
-    '''public String getmPath()
+    '''returns String\n\n
+    getmPath()\n
     '''
 def getnoPrint():
-    '''public boolean getnoPrint()
+    '''returns boolean\n\n
+    getnoPrint()\n
     '''
 def getnoExport():
-    '''public boolean getnoExport()
+    '''returns boolean\n\n
+    getnoExport()\n
     '''
 def getwinStyle():
-    '''public String getwinStyle()
+    '''returns String\n\n
+    getwinStyle()\n
     '''
 def getwinColorString():
-    '''public String getwinColorString()
+    '''returns String\n\n
+    getwinColorString()\n
     '''
 def getdialogBackcolorString():
-    '''public String getdialogBackcolorString()
+    '''returns String\n\n
+    getdialogBackcolorString()\n
     '''
 def getdialogSizeString():
-    '''public String getdialogSizeString()
+    '''returns String\n\n
+    getdialogSizeString()\n
     '''
 def getfontName():
-    '''public String getfontName()
+    '''returns String\n\n
+    getfontName()\n
     '''
 def getfontStyleString():
-    '''public String getfontStyleString()
+    '''returns String\n\n
+    getfontStyleString()\n
     '''
 def getfontSizeString():
-    '''public String getfontSizeString()
+    '''returns String\n\n
+    getfontSizeString()\n
     '''
 def getbShowExitCode():
-    '''public boolean getbShowExitCode()
+    '''returns boolean\n\n
+    getbShowExitCode()\n
     '''

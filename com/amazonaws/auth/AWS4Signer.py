@@ -1,25 +1,33 @@
-def AWS4Signer():
-    '''public AWS4Signer()
-    public AWS4Signer(final boolean doubleUrlEncoding)
+def ():
+    '''returns AWS4Signer\n\n
+    ()\n
+    (final boolean doubleUrlEncoding)\n
     '''
 def setServiceName():
-    '''public void setServiceName(final String serviceName)
+    '''returns None\n\n
+    setServiceName(final String serviceName)\n
     '''
 def setRegionName():
-    '''public void setRegionName(final String regionName)
+    '''returns None\n\n
+    setRegionName(final String regionName)\n
     '''
 def getRegionName():
-    '''public String getRegionName()
+    '''returns String\n\n
+    getRegionName()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getOverriddenDate():
-    '''public Date getOverriddenDate()
+    '''returns Date\n\n
+    getOverriddenDate()\n
     '''
 def sign():
-    '''public void sign(final SignableRequest<?> request, final AWSCredentials credentials)
+    '''returns None\n\n
+    sign(final SignableRequest<?> request, final AWSCredentials credentials)\n
     '''
 def presignRequest():
-    '''public void presignRequest(final SignableRequest<?> request, final AWSCredentials credentials, final Date userSpecifiedExpirationDate)
+    '''returns None\n\n
+    presignRequest(final SignableRequest<?> request, final AWSCredentials credentials, final Date userSpecifiedExpirationDate)\n
     '''

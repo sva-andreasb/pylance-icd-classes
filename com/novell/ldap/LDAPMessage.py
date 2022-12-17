@@ -20,35 +20,42 @@ EXTENDED_REQUEST = "int  23"
 EXTENDED_RESPONSE = "int  24"
 INTERMEDIATE_RESPONSE = "int  25"
 def getControls():
-    '''public LDAPControl[] getControls()
+    '''returns LDAPControl[]\n\n
+    getControls()\n
     '''
 def getMessageID():
-    '''public int getMessageID()
+    '''returns int\n\n
+    getMessageID()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def isRequest():
-    '''public boolean isRequest()
+    '''returns boolean\n\n
+    isRequest()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setTag():
-    '''public void setTag(final String stringTag)
+    '''returns None\n\n
+    setTag(final String stringTag)\n
     '''
 def getTag():
-    '''public String getTag()
+    '''returns String\n\n
+    getTag()\n
     '''
 def writeDSML():
-    '''public void writeDSML(final OutputStream outputStream)
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns None\n\n
+    writeDSML(final OutputStream outputStream)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput objectOutput)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput objectOutput)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput objectInput)
+    '''returns None\n\n
+    readExternal(final ObjectInput objectInput)\n
     '''

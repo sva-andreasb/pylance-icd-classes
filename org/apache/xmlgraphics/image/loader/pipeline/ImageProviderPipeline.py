@@ -1,25 +1,32 @@
-def ImageProviderPipeline():
-    '''public ImageProviderPipeline(final ImageCache cache, final ImageLoader loader)
-    public ImageProviderPipeline(final ImageLoader loader)
-    public ImageProviderPipeline()
+def ():
+    '''returns ImageProviderPipeline\n\n
+    (final ImageCache cache, final ImageLoader loader)\n
+    (final ImageLoader loader)\n
+    ()\n
     '''
 def execute():
-    '''public Image execute(final ImageInfo info, final Map hints, final ImageSessionContext context)
-    public Image execute(final ImageInfo info, final Image originalImage, Map hints, final ImageSessionContext context)
+    '''returns Image\n\n
+    execute(final ImageInfo info, final Map hints, final ImageSessionContext context)\n
+    execute(final ImageInfo info, final Image originalImage, Map hints, final ImageSessionContext context)\n
     '''
 def setImageLoader():
-    '''public void setImageLoader(final ImageLoader imageLoader)
+    '''returns None\n\n
+    setImageLoader(final ImageLoader imageLoader)\n
     '''
 def addConverter():
-    '''public void addConverter(final ImageConverter converter)
+    '''returns None\n\n
+    addConverter(final ImageConverter converter)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getConversionPenalty():
-    '''public int getConversionPenalty()
-    public Penalty getConversionPenalty(final ImageImplRegistry registry)
+    '''returns Penalty\n\n
+    getConversionPenalty()\n
+    getConversionPenalty(final ImageImplRegistry registry)\n
     '''
 def getTargetFlavor():
-    '''public ImageFlavor getTargetFlavor()
+    '''returns ImageFlavor\n\n
+    getTargetFlavor()\n
     '''

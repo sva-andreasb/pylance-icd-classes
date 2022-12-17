@@ -1,3 +1,4 @@
-def PlusPFldSLAContractSLANum():
-    '''public PlusPFldSLAContractSLANum(final MboValue arg0)
+def ():
+    '''returns PlusPFldSLAContractSLANum\n\n
+    (final MboValue arg0)\n
     '''

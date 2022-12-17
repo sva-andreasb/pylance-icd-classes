@@ -1,3 +1,4 @@
-def FldGroupUserUserName():
-    '''public FldGroupUserUserName(final MboValue mbv)
+def ():
+    '''returns FldGroupUserUserName\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,14 +1,14 @@
 NO_TRANS_GROUP_EXC = "String  \"LCNoTransGroup\""
 NO_TRANS_EXC = "String  \"LCNoTransitions\""
-def PmCfgCIChangeStatusBean():
-    '''public PmCfgCIChangeStatusBean()
+def ():
+    '''returns PmCfgCIChangeStatusBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getList():
-    '''public MboSetRemote getList(final int nRow, final String attribute)
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns MboSetRemote\n\n
+    getList(final int nRow, final String attribute)\n
     '''

@@ -2,39 +2,47 @@ PROCESSING = "String  \"PROCESSING\""
 PROCESSED = "String  \"PROCESSED\""
 FAILED = "String  \"FAILED\""
 ABORTED = "String  \"ABORTED\""
-def SchedulerDashboardCronTask():
-    '''public SchedulerDashboardCronTask()
+def ():
+    '''returns SchedulerDashboardCronTask\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
-    '''
-def getParameter():
-    '''public synchronized MboRemote getParameter(final String parameter)
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def setCrontaskInstance():
-    '''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''returns None\n\n
+    setCrontaskInstance(final CrontaskInstanceRemote inst)\n
     '''
 def getMyLogger():
-    '''public MXLogger getMyLogger()
+    '''returns MXLogger\n\n
+    getMyLogger()\n
     '''
 def isInitialized():
-    '''public boolean isInitialized()
+    '''returns boolean\n\n
+    isInitialized()\n
     '''
 def setInitialized():
-    '''public void setInitialized(final boolean initialized)
+    '''returns None\n\n
+    setInitialized(final boolean initialized)\n
     '''
 def calculatewocost():
-    '''public void calculatewocost(final MboRemote skdProject)
+    '''returns None\n\n
+    calculatewocost(final MboRemote skdProject)\n
     '''
 def calculatelaborhrs():
-    '''public void calculatelaborhrs(final MboRemote skdProject)
+    '''returns None\n\n
+    calculatelaborhrs(final MboRemote skdProject)\n
     '''
 def calculatewocostall():
-    '''public void calculatewocostall(final MboRemote mbo)
+    '''returns None\n\n
+    calculatewocostall(final MboRemote mbo)\n
     '''
 def calculatepmfocost():
-    '''public void calculatepmfocost(final MboRemote skdProject)
+    '''returns None\n\n
+    calculatepmfocost(final MboRemote skdProject)\n
     '''

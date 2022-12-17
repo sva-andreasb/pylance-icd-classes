@@ -1,134 +1,157 @@
 def addCandidateEcho():
-    '''public void addCandidateEcho(final JingleSession session)
+    '''returns None\n\n
+    addCandidateEcho(final JingleSession session)\n
     '''
 def removeCandidateEcho():
-    '''public void removeCandidateEcho()
+    '''returns None\n\n
+    removeCandidateEcho()\n
     '''
 def getCandidateEcho():
-    '''public CandidateEcho getCandidateEcho()
+    '''returns CandidateEcho\n\n
+    getCandidateEcho()\n
     '''
 def getIp():
-    '''public String getIp()
+    '''returns String\n\n
+    getIp()\n
     '''
 def setIp():
-    '''public void setIp(final String ip)
+    '''returns None\n\n
+    setIp(final String ip)\n
     '''
 def getLocalIp():
-    '''public String getLocalIp()
+    '''returns String\n\n
+    getLocalIp()\n
     '''
 def setLocalIp():
-    '''public void setLocalIp(final String localIp)
+    '''returns None\n\n
+    setLocalIp(final String localIp)\n
     '''
 def getSymmetric():
-    '''public TransportCandidate getSymmetric()
+    '''returns TransportCandidate\n\n
+    getSymmetric()\n
     '''
 def setSymmetric():
-    '''public void setSymmetric(final TransportCandidate symmetric)
+    '''returns None\n\n
+    setSymmetric(final TransportCandidate symmetric)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def getConnection():
-    '''public XMPPConnection getConnection()
+    '''returns XMPPConnection\n\n
+    getConnection()\n
     '''
 def setConnection():
-    '''public void setConnection(final XMPPConnection connection)
+    '''returns None\n\n
+    setConnection(final XMPPConnection connection)\n
     '''
 def getSessionId():
-    '''public String getSessionId()
+    '''returns String\n\n
+    getSessionId()\n
     '''
 def setSessionId():
-    '''public void setSessionId(final String sessionId)
+    '''returns None\n\n
+    setSessionId(final String sessionId)\n
     '''
-def TransportCandidate():
-    '''public TransportCandidate()
-    public TransportCandidate(final String ip, final int port)
-    public TransportCandidate(final String ip, final int port, final int generation)
+def ():
+    '''returns CandidateEcho\n\n
+    ()\n
+    (final String ip, final int port)\n
+    (final String ip, final int port, final int generation)\n
+    ()\n
+    (final String ip, final int port)\n
+    (final String ip, final int port, final int generation)\n
+    (final String value)\n
+    (final String value)\n
+    (final TransportCandidate candidate, final JingleSession session)\n
     '''
 def isNull():
-    '''public boolean isNull()
-    public boolean isNull()
-    public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
+    isNull()\n
+    isNull()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def setPort():
-    '''public void setPort(final int port)
+    '''returns None\n\n
+    setPort(final int port)\n
     '''
 def getGeneration():
-    '''public int getGeneration()
+    '''returns int\n\n
+    getGeneration()\n
     '''
 def setGeneration():
-    '''public void setGeneration(final int generation)
+    '''returns None\n\n
+    setGeneration(final int generation)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def check():
-    '''public void check(final List<TransportCandidate> localCandidates)
+    '''returns None\n\n
+    check(final List<TransportCandidate> localCandidates)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def addListener():
-    '''public void addListener(final TransportResolverListener.Checker li)
-    public void addListener(final DatagramListener listener)
-    '''
-def Fixed():
-    '''public Fixed()
-    public Fixed(final String ip, final int port)
-    public Fixed(final String ip, final int port, final int generation)
-    '''
-def Protocol():
-    '''public Protocol(final String value)
+    '''returns None\n\n
+    addListener(final TransportResolverListener.Checker li)\n
+    addListener(final DatagramListener listener)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def fromString():
-    '''public static Protocol fromString(String value)
-    public static Channel fromString(String value)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    '''
-def Channel():
-    '''public Channel(final String value)
-    '''
-def CandidateEcho():
-    '''public CandidateEcho(final TransportCandidate candidate, final JingleSession session)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def testASync():
-    '''public void testASync(final TransportCandidate transportCandidate, final String password)
+    '''returns None\n\n
+    testASync(final TransportCandidate transportCandidate, final String password)\n
     '''
 def datagramReceived():
-    '''public boolean datagramReceived(final DatagramPacket datagramPacket)
+    '''returns boolean\n\n
+    datagramReceived(final DatagramPacket datagramPacket)\n
     '''
 def removeListener():
-    '''public void removeListener(final DatagramListener listener)
+    '''returns None\n\n
+    removeListener(final DatagramListener listener)\n
     '''
 def addResultListener():
-    '''public void addResultListener(final ResultListener resultListener)
+    '''returns None\n\n
+    addResultListener(final ResultListener resultListener)\n
     '''
 def removeResultListener():
-    '''public void removeResultListener(final ResultListener resultListener)
+    '''returns None\n\n
+    removeResultListener(final ResultListener resultListener)\n
     '''

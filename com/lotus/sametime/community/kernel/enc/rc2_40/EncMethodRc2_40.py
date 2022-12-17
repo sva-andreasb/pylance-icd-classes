@@ -1,22 +1,29 @@
-def EncMethodRc2_40():
-    '''public EncMethodRc2_40()
+def ():
+    '''returns EncMethodRc2_40\n\n
+    ()\n
     '''
 def newParams():
-    '''public EncParams newParams(final EncData encData)
-    public EncParams newParams(final EncData encData, final NdrInputStream ndrInputStream)
+    '''returns EncParams\n\n
+    newParams(final EncData encData)\n
+    newParams(final EncData encData, final NdrInputStream ndrInputStream)\n
     '''
 def localizeParams():
-    '''public EncParams localizeParams(final EncData encData, final EncParams encParams, final boolean b)
+    '''returns EncParams\n\n
+    localizeParams(final EncData encData, final EncParams encParams, final boolean b)\n
     '''
 def encrypt():
-    '''public byte[] encrypt(final byte[] array, final EncData encData)
+    '''returns byte[]\n\n
+    encrypt(final byte[] array, final EncData encData)\n
     '''
 def decrypt():
-    '''public byte[] decrypt(final byte[] array, final EncData encData)
+    '''returns byte[]\n\n
+    decrypt(final byte[] array, final EncData encData)\n
     '''
 def getType():
-    '''public short getType()
+    '''returns short\n\n
+    getType()\n
     '''
 def getLevel():
-    '''public EncLevel getLevel()
+    '''returns EncLevel\n\n
+    getLevel()\n
     '''

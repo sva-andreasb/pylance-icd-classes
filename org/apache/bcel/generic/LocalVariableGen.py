@@ -1,54 +1,72 @@
-def LocalVariableGen():
-    '''public LocalVariableGen(final int index, final String name, final Type type, final InstructionHandle start, final InstructionHandle end)
+def ():
+    '''returns LocalVariableGen\n\n
+    (final int index, final String name, final Type type, final InstructionHandle start, final InstructionHandle end)\n
     '''
 def getLocalVariable():
-    '''public LocalVariable getLocalVariable(final ConstantPoolGen cp)
+    '''returns LocalVariable\n\n
+    getLocalVariable(final ConstantPoolGen cp)\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setType():
-    '''public void setType(final Type type)
+    '''returns None\n\n
+    setType(final Type type)\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getStart():
-    '''public InstructionHandle getStart()
+    '''returns InstructionHandle\n\n
+    getStart()\n
     '''
 def getEnd():
-    '''public InstructionHandle getEnd()
+    '''returns InstructionHandle\n\n
+    getEnd()\n
     '''
 def setStart():
-    '''public void setStart(final InstructionHandle start)
+    '''returns None\n\n
+    setStart(final InstructionHandle start)\n
     '''
 def setEnd():
-    '''public void setEnd(final InstructionHandle end)
+    '''returns None\n\n
+    setEnd(final InstructionHandle end)\n
     '''
 def updateTarget():
-    '''public void updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)
+    '''returns None\n\n
+    updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)\n
     '''
 def containsTarget():
-    '''public boolean containsTarget(final InstructionHandle ih)
+    '''returns boolean\n\n
+    containsTarget(final InstructionHandle ih)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

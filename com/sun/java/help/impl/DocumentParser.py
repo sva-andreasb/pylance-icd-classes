@@ -1,20 +1,26 @@
-def DocumentParser():
-    '''public DocumentParser(final InputStream in)
-    public DocumentParser(final Reader source)
+def ():
+    '''returns DocumentParser\n\n
+    (final InputStream in)\n
+    (final Reader source)\n
     '''
 def setInput():
-    '''public void setInput(final Reader source)
-    public void setInput(final InputStream in, final String charsetName)
+    '''returns None\n\n
+    setInput(final Reader source)\n
+    setInput(final InputStream in, final String charsetName)\n
     '''
 def setShouldCacheSource():
-    '''public void setShouldCacheSource(final boolean shouldCacheSource)
+    '''returns None\n\n
+    setShouldCacheSource(final boolean shouldCacheSource)\n
     '''
 def getDocumentSource():
-    '''public String getDocumentSource()
+    '''returns String\n\n
+    getDocumentSource()\n
     '''
 def parse():
-    '''public void parse()
+    '''returns None\n\n
+    parse()\n
     '''
 def parseText():
-    '''public void parseText()
+    '''returns None\n\n
+    parseText()\n
     '''

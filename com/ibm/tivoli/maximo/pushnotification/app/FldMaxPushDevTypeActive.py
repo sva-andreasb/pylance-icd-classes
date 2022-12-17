@@ -1,3 +1,4 @@
-def FldMaxPushDevTypeActive():
-    '''public FldMaxPushDevTypeActive(final MboValue mbv)
+def ():
+    '''returns FldMaxPushDevTypeActive\n\n
+    (final MboValue mbv)\n
     '''

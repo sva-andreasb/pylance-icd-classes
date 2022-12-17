@@ -1,6 +1,8 @@
-def OslcCoreMissingNamespacePrefixException():
-    '''public OslcCoreMissingNamespacePrefixException(final String prefix)
+def ():
+    '''returns OslcCoreMissingNamespacePrefixException\n\n
+    (final String prefix)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''

@@ -1,64 +1,80 @@
 def get():
-    '''public List<V> get(final K key)
-    public V get(final int index)
+    '''returns V\n\n
+    get(final K key)\n
+    get(final int index)\n
     '''
 def remove():
-    '''public List<V> remove(final Object key)
-    public V remove(final int index)
-    public void remove()
+    '''returns None\n\n
+    remove(final Object key)\n
+    remove(final int index)\n
+    remove()\n
     '''
-def WrappedList():
-    '''public WrappedList(final K key)
+def ():
+    '''returns ValuesListIterator\n\n
+    (final K key)\n
+    (final K key)\n
+    (final K key, final int index)\n
     '''
 def add():
-    '''public void add(final int index, final V value)
-    public void add(final V value)
+    '''returns None\n\n
+    add(final int index, final V value)\n
+    add(final V value)\n
     '''
 def addAll():
-    '''public boolean addAll(final int index, final Collection<? extends V> c)
+    '''returns boolean\n\n
+    addAll(final int index, final Collection<? extends V> c)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object o)
+    '''returns int\n\n
+    indexOf(final Object o)\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object o)
+    '''returns int\n\n
+    lastIndexOf(final Object o)\n
     '''
 def listIterator():
-    '''public ListIterator<V> listIterator()
-    public ListIterator<V> listIterator(final int index)
+    '''returns ListIterator<V>\n\n
+    listIterator()\n
+    listIterator(final int index)\n
     '''
 def set():
-    '''public V set(final int index, final V value)
-    public void set(final V value)
+    '''returns None\n\n
+    set(final int index, final V value)\n
+    set(final V value)\n
     '''
 def subList():
-    '''public List<V> subList(final int fromIndex, final int toIndex)
+    '''returns List<V>\n\n
+    subList(final int fromIndex, final int toIndex)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def ValuesListIterator():
-    '''public ValuesListIterator(final K key)
-    public ValuesListIterator(final K key, final int index)
+    '''returns int\n\n
+    hashCode()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def next():
-    '''public V next()
+    '''returns V\n\n
+    next()\n
     '''
 def nextIndex():
-    '''public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
     '''
 def previous():
-    '''public V previous()
+    '''returns V\n\n
+    previous()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''

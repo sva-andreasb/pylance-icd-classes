@@ -1,43 +1,37 @@
-def IlvReshapeSelection():
-    '''public IlvReshapeSelection()
+def ():
+    '''returns IlvReshapeSelection\n\n
+    ()\n
     '''
 def getCursor():
-    '''public Cursor getCursor(final int n)
+    '''returns Cursor\n\n
+    getCursor(final int n)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''
 def setOpaqueMode():
-    '''public void setOpaqueMode(final boolean m)
+    '''returns None\n\n
+    setOpaqueMode(final boolean m)\n
     '''
 def isOpaqueMode():
-    '''public boolean isOpaqueMode()
+    '''returns boolean\n\n
+    isOpaqueMode()\n
     '''
 def processEvent():
-    '''public boolean processEvent(final IlvGraphic ilvGraphic, final AWTEvent awtEvent, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns boolean\n\n
+    processEvent(final IlvGraphic ilvGraphic, final AWTEvent awtEvent, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def handleExpose():
-    '''public void handleExpose(final IlvGraphic ilvGraphic, final Graphics graphics, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    handleExpose(final IlvGraphic ilvGraphic, final Graphics graphics, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def onEnter():
-    '''public void onEnter(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    onEnter(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def onExit():
-    '''public void onExit(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)
-    '''
-def setPreserveAspectModifier():
-    '''public static void setPreserveAspectModifier(final int f)
-    '''
-def getPreserveAspectModifier():
-    '''public static int getPreserveAspectModifier()
-    '''
-def getPreserveAspectModifierEx():
-    '''public static int getPreserveAspectModifierEx()
-    '''
-def setPredictionCursorMode():
-    '''public static void setPredictionCursorMode(final boolean h)
-    '''
-def isPredictionCursorMode():
-    '''public static boolean isPredictionCursorMode()
+    '''returns None\n\n
+    onExit(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''

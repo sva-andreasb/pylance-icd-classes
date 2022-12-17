@@ -1,3 +1,4 @@
-def PromoteDefaultSet():
-    '''public PromoteDefaultSet(final MboServerInterface ms)
+def ():
+    '''returns PromoteDefaultSet\n\n
+    (final MboServerInterface ms)\n
     '''

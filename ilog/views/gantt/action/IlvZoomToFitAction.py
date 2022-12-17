@@ -1,28 +1,37 @@
-def IlvZoomToFitAction():
-    '''public IlvZoomToFitAction(final IlvHierarchyChart ilvHierarchyChart, final String s, final KeyStroke keyStroke, final String s2, final String s3)
-    public IlvZoomToFitAction(final IlvHierarchyChart b, final String s, final Icon icon, final KeyStroke keyStroke, final String s2, final String s3)
+def ():
+    '''returns IlvZoomToFitAction\n\n
+    (final IlvHierarchyChart ilvHierarchyChart, final String s, final KeyStroke keyStroke, final String s2, final String s3)\n
+    (final IlvHierarchyChart b, final String s, final Icon icon, final KeyStroke keyStroke, final String s2, final String s3)\n
     '''
 def getIntervalPolicy():
-    '''public IntervalPolicy getIntervalPolicy()
+    '''returns IntervalPolicy\n\n
+    getIntervalPolicy()\n
     '''
 def setIntervalPolicy():
-    '''public void setIntervalPolicy(final IntervalPolicy c)
+    '''returns None\n\n
+    setIntervalPolicy(final IntervalPolicy c)\n
     '''
 def setAreaCalculator():
-    '''public void setAreaCalculator(final IlvManagerView.FitAreaCalculator d)
+    '''returns None\n\n
+    setAreaCalculator(final IlvManagerView.FitAreaCalculator d)\n
     '''
 def getMargin():
-    '''public double getMargin()
+    '''returns double\n\n
+    getMargin()\n
     '''
 def setMargin():
-    '''public void setMargin(final double f)
+    '''returns None\n\n
+    setMargin(final double f)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def perform():
-    '''public void perform()
+    '''returns None\n\n
+    perform()\n
     '''
 def getInterval():
-    '''public IlvTimeInterval getInterval(final IlvGanttModel ilvGanttModel)
+    '''returns IlvTimeInterval\n\n
+    getInterval(final IlvGanttModel ilvGanttModel)\n
     '''

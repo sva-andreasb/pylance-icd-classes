@@ -1,24 +1,32 @@
-def ModernBalloonStyle():
-    '''public ModernBalloonStyle(final int arcWidth, final int arcHeight, final Color topFillColor, final Color bottomFillColor, final Color borderColor)
+def ():
+    '''returns ModernBalloonStyle\n\n
+    (final int arcWidth, final int arcHeight, final Color topFillColor, final Color bottomFillColor, final Color borderColor)\n
     '''
 def setCornerStyles():
-    '''public void setCornerStyles(final boolean topLeft, final boolean topRight, final boolean bottomLeft, final boolean bottomRight)
+    '''returns None\n\n
+    setCornerStyles(final boolean topLeft, final boolean topRight, final boolean bottomLeft, final boolean bottomRight)\n
     '''
 def setBorderThickness():
-    '''public void setBorderThickness(final int thickness)
+    '''returns None\n\n
+    setBorderThickness(final int thickness)\n
     '''
 def enableAntiAliasing():
-    '''public void enableAntiAliasing(final boolean enable)
+    '''returns None\n\n
+    enableAntiAliasing(final boolean enable)\n
     '''
 def getBorderInsets():
-    '''public Insets getBorderInsets(final Component c)
+    '''returns Insets\n\n
+    getBorderInsets(final Component c)\n
     '''
 def isBorderOpaque():
-    '''public boolean isBorderOpaque()
+    '''returns boolean\n\n
+    isBorderOpaque()\n
     '''
 def paintBorder():
-    '''public void paintBorder(final Component c, final Graphics g, int x, int y, int width, int height)
+    '''returns None\n\n
+    paintBorder(final Component c, final Graphics g, int x, int y, int width, int height)\n
     '''
 def getMinimalHorizontalOffset():
-    '''public int getMinimalHorizontalOffset()
+    '''returns int\n\n
+    getMinimalHorizontalOffset()\n
     '''

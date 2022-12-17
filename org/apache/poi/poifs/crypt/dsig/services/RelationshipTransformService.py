@@ -1,33 +1,36 @@
 TRANSFORM_URI = "String  \"http://schemas.openxmlformats.org/package/2006/RelationshipTransform\""
-def RelationshipTransformService():
-    '''public RelationshipTransformService()
-    '''
-def registerDsigProvider():
-    '''public static synchronized void registerDsigProvider()
+def ():
+    '''returns RelationshipTransformParameterSpec\n\n
+    ()\n
+    ()\n
     '''
 def init():
-    '''public void init(final TransformParameterSpec params)
-    public void init(final XMLStructure parent, final XMLCryptoContext context)
+    '''returns None\n\n
+    init(final TransformParameterSpec params)\n
+    init(final XMLStructure parent, final XMLCryptoContext context)\n
     '''
 def marshalParams():
-    '''public void marshalParams(final XMLStructure parent, final XMLCryptoContext context)
+    '''returns None\n\n
+    marshalParams(final XMLStructure parent, final XMLCryptoContext context)\n
     '''
 def getParameterSpec():
-    '''public AlgorithmParameterSpec getParameterSpec()
+    '''returns AlgorithmParameterSpec\n\n
+    getParameterSpec()\n
     '''
 def transform():
-    '''public Data transform(final Data data, final XMLCryptoContext context)
-    public Data transform(final Data data, final XMLCryptoContext context, final OutputStream os)
+    '''returns Data\n\n
+    transform(final Data data, final XMLCryptoContext context)\n
+    transform(final Data data, final XMLCryptoContext context, final OutputStream os)\n
     '''
 def isFeatureSupported():
-    '''public boolean isFeatureSupported(final String feature)
-    '''
-def RelationshipTransformParameterSpec():
-    '''public RelationshipTransformParameterSpec()
+    '''returns boolean\n\n
+    isFeatureSupported(final String feature)\n
     '''
 def addRelationshipReference():
-    '''public void addRelationshipReference(final String relationshipId)
+    '''returns None\n\n
+    addRelationshipReference(final String relationshipId)\n
     '''
 def hasSourceIds():
-    '''public boolean hasSourceIds()
+    '''returns boolean\n\n
+    hasSourceIds()\n
     '''

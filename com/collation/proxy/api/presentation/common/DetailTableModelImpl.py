@@ -1,37 +1,46 @@
 def getTableContent():
-    '''public TableContent getTableContent()
+    '''returns TableContent\n\n
+    getTableContent()\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def isListTableModel():
-    '''public boolean isListTableModel()
+    '''returns boolean\n\n
+    isListTableModel()\n
     '''
-def DetailTableModelImpl():
-    '''public DetailTableModelImpl(final Map detailData, final Guid id, final TableContent tableContent, final long version, final String displayName)
-    public DetailTableModelImpl(final List detailData, final Guid id, final TableContent tableContent, final String displayName)
+def ():
+    '''returns DetailDataComparator\n\n
+    (final Map detailData, final Guid id, final TableContent tableContent, final long version, final String displayName)\n
+    (final List detailData, final Guid id, final TableContent tableContent, final String displayName)\n
+    (final int col, final boolean ascending)\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getValueAt():
-    '''public Object getValueAt(final int row, final int column)
+    '''returns Object\n\n
+    getValueAt(final int row, final int column)\n
     '''
 def getRow():
-    '''public DetailTableData getRow(final int row)
+    '''returns DetailTableData\n\n
+    getRow(final int row)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int col)
+    '''returns String\n\n
+    getColumnName(final int col)\n
     '''
 def sort():
-    '''public void sort(final int column, final boolean ascending)
-    '''
-def DetailDataComparator():
-    '''public DetailDataComparator(final int col, final boolean ascending)
+    '''returns None\n\n
+    sort(final int column, final boolean ascending)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''

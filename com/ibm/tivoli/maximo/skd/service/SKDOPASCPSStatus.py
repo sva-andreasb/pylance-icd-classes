@@ -1,3 +1,4 @@
-def SKDOPASCPSStatus():
-    '''public SKDOPASCPSStatus(final MboSet ms)
+def ():
+    '''returns SKDOPASCPSStatus\n\n
+    (final MboSet ms)\n
     '''

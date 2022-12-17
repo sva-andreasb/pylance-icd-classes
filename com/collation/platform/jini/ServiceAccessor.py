@@ -1,53 +1,32 @@
-def ServiceAccessor():
-    '''public ServiceAccessor(final ServiceAccessListener listener, final Class[] interfaces, final String name, final String reggieHost, final int reggiePort)
-    public ServiceAccessor(final ServiceAccessListener listener, final Class[] interfaces, final String name)
-    public ServiceAccessor(final ServiceAccessListener listener, final Class[] interfaces)
-    public ServiceAccessor(final Class intf)
-    public ServiceAccessor(final Class intf, final String host, final int port)
-    public ServiceAccessor(final Class intf, final String name)
+def ():
+    '''returns ServiceAccessor\n\n
+    (final ServiceAccessListener listener, final Class[] interfaces, final String name, final String reggieHost, final int reggiePort)\n
+    (final ServiceAccessListener listener, final Class[] interfaces, final String name)\n
+    (final ServiceAccessListener listener, final Class[] interfaces)\n
+    (final Class intf)\n
+    (final Class intf, final String host, final int port)\n
+    (final Class intf, final String name)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    '''
-def putLocalServiceImpl():
-    '''public static synchronized void putLocalServiceImpl(final Class interface_, final Object service)
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def isLocalServiceImpl():
-    '''public boolean isLocalServiceImpl()
-    '''
-def setDebugEnabled():
-    '''public static void setDebugEnabled(final boolean enable)
-    '''
-def setDefaultUnicastHost():
-    '''public static synchronized void setDefaultUnicastHost(final String host)
-    '''
-def setDefaultUnicastPort():
-    '''public static synchronized void setDefaultUnicastPort(final int port)
+    '''returns boolean\n\n
+    isLocalServiceImpl()\n
     '''
 def addListener():
-    '''public void addListener(final ServiceAccessListener l)
-    '''
-def getService():
-    '''public synchronized Object getService()
-    public synchronized Object getService(final int timeout)
-    public synchronized Object getService(final boolean useLocal, final int timeout)
-    public synchronized Object getService(final boolean useLocal)
+    '''returns None\n\n
+    addListener(final ServiceAccessListener l)\n
     '''
 def disconnectFromRegistrar():
-    '''public void disconnectFromRegistrar()
-    '''
-def serviceChanged():
-    '''public synchronized void serviceChanged(final ServiceDiscoveryEvent e)
-    '''
-def serviceRemoved():
-    '''public synchronized void serviceRemoved(final ServiceDiscoveryEvent e)
-    '''
-def serviceAdded():
-    '''public synchronized void serviceAdded(final ServiceDiscoveryEvent e)
+    '''returns None\n\n
+    disconnectFromRegistrar()\n
     '''
 def terminate():
-    '''public void terminate()
+    '''returns None\n\n
+    terminate()\n
     '''

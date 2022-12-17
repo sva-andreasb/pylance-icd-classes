@@ -1,21 +1,28 @@
 def setOverPrintStroking():
-    '''public void setOverPrintStroking(final boolean ov)
+    '''returns None\n\n
+    setOverPrintStroking(final boolean ov)\n
     '''
 def setOverPrintNonStroking():
-    '''public void setOverPrintNonStroking(final boolean ov)
+    '''returns None\n\n
+    setOverPrintNonStroking(final boolean ov)\n
     '''
 def setStrokeOpacity():
-    '''public void setStrokeOpacity(final float n)
+    '''returns None\n\n
+    setStrokeOpacity(final float n)\n
     '''
 def setFillOpacity():
-    '''public void setFillOpacity(final float n)
+    '''returns None\n\n
+    setFillOpacity(final float n)\n
     '''
 def setAlphaIsShape():
-    '''public void setAlphaIsShape(final boolean v)
+    '''returns None\n\n
+    setAlphaIsShape(final boolean v)\n
     '''
 def setTextKnockout():
-    '''public void setTextKnockout(final boolean v)
+    '''returns None\n\n
+    setTextKnockout(final boolean v)\n
     '''
 def setBlendMode():
-    '''public void setBlendMode(final PdfName bm)
+    '''returns None\n\n
+    setBlendMode(final PdfName bm)\n
     '''

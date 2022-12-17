@@ -1,3 +1,4 @@
-def CriticalPathMethod():
-    '''public CriticalPathMethod(final Object model, final UserInfo userInfo)
+def ():
+    '''returns CriticalPathMethod\n\n
+    (final Object model, final UserInfo userInfo)\n
     '''

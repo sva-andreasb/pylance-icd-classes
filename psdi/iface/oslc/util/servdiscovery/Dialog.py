@@ -1,35 +1,44 @@
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getLable():
-    '''public String getLable()
+    '''returns String\n\n
+    getLable()\n
     '''
 def getDialog():
-    '''public String getDialog()
+    '''returns String\n\n
+    getDialog()\n
     '''
 def getHintWidth():
-    '''public String getHintWidth()
+    '''returns String\n\n
+    getHintWidth()\n
     '''
 def getHintHeight():
-    '''public String getHintHeight()
+    '''returns String\n\n
+    getHintHeight()\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def getUsage():
-    '''public String getUsage()
+    '''returns String\n\n
+    getUsage()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

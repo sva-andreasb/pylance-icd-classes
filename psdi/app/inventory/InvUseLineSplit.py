@@ -1,42 +1,52 @@
-def InvUseLineSplit():
-    '''public InvUseLineSplit(final MboSet ms)
+def ():
+    '''returns InvUseLineSplit\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def checkForNegativeBalance():
-    '''public void checkForNegativeBalance()
+    '''returns None\n\n
+    checkForNegativeBalance()\n
     '''
 def getSharedInventory():
-    '''public MboRemote getSharedInventory()
+    '''returns MboRemote\n\n
+    getSharedInventory()\n
     '''
 def getSharedInvBalance():
-    '''public MboRemote getSharedInvBalance()
+    '''returns MboRemote\n\n
+    getSharedInvBalance()\n
     '''
 def checkLot():
-    '''public void checkLot(final MboRemote invBal)
+    '''returns None\n\n
+    checkLot(final MboRemote invBal)\n
     '''
 def canGoNegative():
-    '''public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)
+    '''returns None\n\n
+    canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def chkPickListMbo():
-    '''public boolean chkPickListMbo(final MboRemote owner)
-    '''
-def loadSkipFieldCopyHashSet():
-    '''public static void loadSkipFieldCopyHashSet()
+    '''returns boolean\n\n
+    chkPickListMbo(final MboRemote owner)\n
     '''
 def setCheckNegBalanceFlag():
-    '''public void setCheckNegBalanceFlag(final boolean flag)
+    '''returns None\n\n
+    setCheckNegBalanceFlag(final boolean flag)\n
     '''

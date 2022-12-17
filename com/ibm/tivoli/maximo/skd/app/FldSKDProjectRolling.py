@@ -1,10 +1,13 @@
 DEFAULT_ROLLING_SCHEDULE = "String  \"1d,0,0,0,*,*,*,*,*,*\""
-def FldSKDProjectRolling():
-    '''public FldSKDProjectRolling(final MboValue mbv)
+def ():
+    '''returns FldSKDProjectRolling\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

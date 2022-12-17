@@ -1,35 +1,46 @@
 sid = "short  513"
-def BlankRecord():
-    '''public BlankRecord()
-    public BlankRecord(final RecordInputStream in)
+def ():
+    '''returns BlankRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setRow():
-    '''public void setRow(final int row)
+    '''returns None\n\n
+    setRow(final int row)\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def getColumn():
-    '''public short getColumn()
+    '''returns short\n\n
+    getColumn()\n
     '''
 def setXFIndex():
-    '''public void setXFIndex(final short xf)
+    '''returns None\n\n
+    setXFIndex(final short xf)\n
     '''
 def getXFIndex():
-    '''public short getXFIndex()
+    '''returns short\n\n
+    getXFIndex()\n
     '''
 def setColumn():
-    '''public void setColumn(final short col)
+    '''returns None\n\n
+    setColumn(final short col)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def clone():
-    '''public BlankRecord clone()
+    '''returns BlankRecord\n\n
+    clone()\n
     '''

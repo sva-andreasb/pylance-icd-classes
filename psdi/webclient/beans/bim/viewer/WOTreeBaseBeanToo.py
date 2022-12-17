@@ -1,14 +1,18 @@
 CTRL_VIEW_LOC = "String  \"model_viewer\""
 CTRL_TREE_LOC = "String  \"view_tree_loc\""
-def WOTreeBaseBeanToo():
-    '''public WOTreeBaseBeanToo()
+def ():
+    '''returns WOTreeBaseBeanToo\n\n
+    ()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def processLocationChange():
-    '''public void processLocationChange()
+    '''returns None\n\n
+    processLocationChange()\n
     '''

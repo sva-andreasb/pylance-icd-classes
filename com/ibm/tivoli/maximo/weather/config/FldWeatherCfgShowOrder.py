@@ -1,6 +1,8 @@
-def FldWeatherCfgShowOrder():
-    '''public FldWeatherCfgShowOrder(final MboValue mbv)
+def ():
+    '''returns FldWeatherCfgShowOrder\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

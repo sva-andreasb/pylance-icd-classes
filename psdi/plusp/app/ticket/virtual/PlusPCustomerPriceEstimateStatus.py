@@ -1,9 +1,12 @@
-def PlusPCustomerPriceEstimateStatus():
-    '''public PlusPCustomerPriceEstimateStatus(final MboSet ms)
+def ():
+    '''returns PlusPCustomerPriceEstimateStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def changeStatus():
-    '''public void changeStatus()
+    '''returns None\n\n
+    changeStatus()\n
     '''

@@ -1,20 +1,26 @@
 biff2_sid = "short  4"
 biff345_sid = "short  516"
-def OldLabelRecord():
-    '''public OldLabelRecord(final RecordInputStream in)
+def ():
+    '''returns OldLabelRecord\n\n
+    (final RecordInputStream in)\n
     '''
 def setCodePage():
-    '''public void setCodePage(final CodepageRecord codepage)
+    '''returns None\n\n
+    setCodePage(final CodepageRecord codepage)\n
     '''
 def getStringLength():
-    '''public short getStringLength()
+    '''returns short\n\n
+    getStringLength()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''

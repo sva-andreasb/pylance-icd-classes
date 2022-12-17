@@ -1,63 +1,84 @@
 def isJsonArray():
-    '''public boolean isJsonArray()
+    '''returns boolean\n\n
+    isJsonArray()\n
     '''
 def isJsonObject():
-    '''public boolean isJsonObject()
+    '''returns boolean\n\n
+    isJsonObject()\n
     '''
 def isJsonPrimitive():
-    '''public boolean isJsonPrimitive()
+    '''returns boolean\n\n
+    isJsonPrimitive()\n
     '''
 def isJsonNull():
-    '''public boolean isJsonNull()
+    '''returns boolean\n\n
+    isJsonNull()\n
     '''
 def getAsJsonObject():
-    '''public JsonObject getAsJsonObject()
+    '''returns JsonObject\n\n
+    getAsJsonObject()\n
     '''
 def getAsJsonArray():
-    '''public JsonArray getAsJsonArray()
+    '''returns JsonArray\n\n
+    getAsJsonArray()\n
     '''
 def getAsJsonPrimitive():
-    '''public JsonPrimitive getAsJsonPrimitive()
+    '''returns JsonPrimitive\n\n
+    getAsJsonPrimitive()\n
     '''
 def getAsJsonNull():
-    '''public JsonNull getAsJsonNull()
+    '''returns JsonNull\n\n
+    getAsJsonNull()\n
     '''
 def getAsBoolean():
-    '''public boolean getAsBoolean()
+    '''returns boolean\n\n
+    getAsBoolean()\n
     '''
 def getAsNumber():
-    '''public Number getAsNumber()
+    '''returns Number\n\n
+    getAsNumber()\n
     '''
 def getAsString():
-    '''public String getAsString()
+    '''returns String\n\n
+    getAsString()\n
     '''
 def getAsDouble():
-    '''public double getAsDouble()
+    '''returns double\n\n
+    getAsDouble()\n
     '''
 def getAsFloat():
-    '''public float getAsFloat()
+    '''returns float\n\n
+    getAsFloat()\n
     '''
 def getAsLong():
-    '''public long getAsLong()
+    '''returns long\n\n
+    getAsLong()\n
     '''
 def getAsInt():
-    '''public int getAsInt()
+    '''returns int\n\n
+    getAsInt()\n
     '''
 def getAsByte():
-    '''public byte getAsByte()
+    '''returns byte\n\n
+    getAsByte()\n
     '''
 def getAsCharacter():
-    '''public char getAsCharacter()
+    '''returns char\n\n
+    getAsCharacter()\n
     '''
 def getAsBigDecimal():
-    '''public BigDecimal getAsBigDecimal()
+    '''returns BigDecimal\n\n
+    getAsBigDecimal()\n
     '''
 def getAsBigInteger():
-    '''public BigInteger getAsBigInteger()
+    '''returns BigInteger\n\n
+    getAsBigInteger()\n
     '''
 def getAsShort():
-    '''public short getAsShort()
+    '''returns short\n\n
+    getAsShort()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

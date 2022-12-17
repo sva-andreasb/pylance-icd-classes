@@ -1,18 +1,23 @@
 MODE_STACK = "int  0"
 MODE_PROCEDURE = "int  1"
 MODE_ARRAY = "int  2"
-def PAEngine():
-    '''public PAEngine(final PAContext context)
+def ():
+    '''returns PAEngine\n\n
+    (final PAContext context)\n
     '''
 def startProcedure():
-    '''public void startProcedure()
+    '''returns None\n\n
+    startProcedure()\n
     '''
 def endProcedure():
-    '''public void endProcedure()
+    '''returns None\n\n
+    endProcedure()\n
     '''
 def bindProcedure():
-    '''public void bindProcedure(final PAToken patoken)
+    '''returns None\n\n
+    bindProcedure(final PAToken patoken)\n
     '''
 def process():
-    '''public void process(final Object token)
+    '''returns None\n\n
+    process(final Object token)\n
     '''

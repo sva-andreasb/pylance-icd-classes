@@ -1,3 +1,4 @@
-def DMCollectionSet():
-    '''public DMCollectionSet(final MboServerInterface ms)
+def ():
+    '''returns DMCollectionSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPDownPaymentSet():
-    '''public PlusPDownPaymentSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPDownPaymentSet\n\n
+    (final MboServerInterface ms)\n
     '''

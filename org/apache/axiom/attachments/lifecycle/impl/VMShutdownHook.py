@@ -1,9 +1,12 @@
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def isRegistered():
-    '''public boolean isRegistered()
+    '''returns boolean\n\n
+    isRegistered()\n
     '''
 def setRegistered():
-    '''public void setRegistered(final boolean isRegistered)
+    '''returns None\n\n
+    setRegistered(final boolean isRegistered)\n
     '''

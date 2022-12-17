@@ -1,6 +1,8 @@
-def LanguageMboSet():
-    '''public LanguageMboSet(final MboServerInterface ms)
+def ():
+    '''returns LanguageMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setTableName():
-    '''public void setTableName(final String tbName)
+    '''returns None\n\n
+    setTableName(final String tbName)\n
     '''

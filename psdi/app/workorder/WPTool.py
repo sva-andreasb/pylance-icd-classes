@@ -1,48 +1,64 @@
-def WPTool():
-    '''public WPTool(final MboSet ms)
+def ():
+    '''returns WPTool\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def refreshRate():
-    '''public void refreshRate()
+    '''returns None\n\n
+    refreshRate()\n
     '''
 def copyPlan():
-    '''public void copyPlan(final MboRemote source)
+    '''returns None\n\n
+    copyPlan(final MboRemote source)\n
     '''
 def updateEstimateTotal():
-    '''public void updateEstimateTotal(final double delta)
+    '''returns None\n\n
+    updateEstimateTotal(final double delta)\n
     '''
 def validateToolAvailInStorerooms():
-    '''public void validateToolAvailInStorerooms()
+    '''returns None\n\n
+    validateToolAvailInStorerooms()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def updateTotals():
-    '''public void updateTotals(final MboRemote wo, final boolean isGain)
+    '''returns None\n\n
+    updateTotals(final MboRemote wo, final boolean isGain)\n
     '''
 def setFieldsFlagInDuplicate():
-    '''public void setFieldsFlagInDuplicate()
+    '''returns None\n\n
+    setFieldsFlagInDuplicate()\n
     '''
 def isCrewTool():
-    '''public boolean isCrewTool()
+    '''returns boolean\n\n
+    isCrewTool()\n
     '''
 def getAssociatedLabor():
-    '''public MboRemote getAssociatedLabor()
+    '''returns MboRemote\n\n
+    getAssociatedLabor()\n
     '''
 def removeTool():
-    '''public void removeTool()
+    '''returns None\n\n
+    removeTool()\n
     '''

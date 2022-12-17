@@ -1,61 +1,81 @@
-def Depreciation():
-    '''public Depreciation(final MboSet ms)
+def ():
+    '''returns Depreciation\n\n
+    (final MboSet ms)\n
     '''
 def doReplaceEntireDepSched():
-    '''public boolean doReplaceEntireDepSched()
+    '''returns boolean\n\n
+    doReplaceEntireDepSched()\n
     '''
 def isRecalcPoint():
-    '''public boolean isRecalcPoint()
+    '''returns boolean\n\n
+    isRecalcPoint()\n
     '''
 def validateAndClearStartDate():
-    '''public void validateAndClearStartDate()
+    '''returns None\n\n
+    validateAndClearStartDate()\n
     '''
 def validateAndClearStartDateByItem():
-    '''public void validateAndClearStartDateByItem()
+    '''returns None\n\n
+    validateAndClearStartDateByItem()\n
     '''
 def generateDepreciationSchedule():
-    '''public void generateDepreciationSchedule(final String historyType)
+    '''returns None\n\n
+    generateDepreciationSchedule(final String historyType)\n
     '''
 def generateDepreciationScheduleAndHistory():
-    '''public void generateDepreciationScheduleAndHistory(final AssetRemote asset, final String historyType)
+    '''returns None\n\n
+    generateDepreciationScheduleAndHistory(final AssetRemote asset, final String historyType)\n
     '''
 def generateDepreciationSchedulePreview():
-    '''public void generateDepreciationSchedulePreview()
+    '''returns None\n\n
+    generateDepreciationSchedulePreview()\n
     '''
 def generateDepreciationSchedulePreviewByItem():
-    '''public void generateDepreciationSchedulePreviewByItem()
+    '''returns None\n\n
+    generateDepreciationSchedulePreviewByItem()\n
     '''
 def deleteDepreciation():
-    '''public void deleteDepreciation()
+    '''returns None\n\n
+    deleteDepreciation()\n
     '''
 def removeDepreciation():
-    '''public void removeDepreciation(final AssetRemote asset)
+    '''returns None\n\n
+    removeDepreciation(final AssetRemote asset)\n
     '''
 def moveAssetDepreciationData():
-    '''public void moveAssetDepreciationData(final AssetRemote asset)
+    '''returns None\n\n
+    moveAssetDepreciationData(final AssetRemote asset)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def recalcAllocTargetAssets():
-    '''public void recalcAllocTargetAssets()
+    '''returns None\n\n
+    recalcAllocTargetAssets()\n
     '''
 def getSplitAllocAssetList():
-    '''public MboSetRemote getSplitAllocAssetList()
+    '''returns MboSetRemote\n\n
+    getSplitAllocAssetList()\n
     '''
 def copyAssetsToSplitAllocTable():
-    '''public void copyAssetsToSplitAllocTable(final AssetSetRemote assetSetRemote)
+    '''returns None\n\n
+    copyAssetsToSplitAllocTable(final AssetSetRemote assetSetRemote)\n
     '''
 def copyChildrenAssetsToSplitAllocTable():
-    '''public void copyChildrenAssetsToSplitAllocTable(final MboSetRemote allocDepAssetSet)
+    '''returns None\n\n
+    copyChildrenAssetsToSplitAllocTable(final MboSetRemote allocDepAssetSet)\n
     '''
 def splitDepreciation():
-    '''public void splitDepreciation(final MboSetRemote allocDepAssetSet)
+    '''returns None\n\n
+    splitDepreciation(final MboSetRemote allocDepAssetSet)\n
     '''
 def createDepreciationHistory():
-    '''public DepHistoryRemote createDepreciationHistory(final AssetRemote asset, final String historyType)
-    public DepHistoryRemote createDepreciationHistory(final AssetRemote asset, final AssetRemote previousAsset, final String historyType)
+    '''returns DepHistoryRemote\n\n
+    createDepreciationHistory(final AssetRemote asset, final String historyType)\n
+    createDepreciationHistory(final AssetRemote asset, final AssetRemote previousAsset, final String historyType)\n
     '''
 def hasErro():
-    '''public boolean hasErro()
+    '''returns boolean\n\n
+    hasErro()\n
     '''

@@ -1,27 +1,36 @@
-def PmAsset():
-    '''public PmAsset(final MboSet ms)
+def ():
+    '''returns PmAsset\n\n
+    (final MboSet ms)\n
     '''
 def recordAssetStatusChange():
-    '''public void recordAssetStatusChange(final MboRemote woMbo, final Date changeDate, final String code, final boolean operational)
+    '''returns None\n\n
+    recordAssetStatusChange(final MboRemote woMbo, final Date changeDate, final String code, final boolean operational)\n
     '''
 def reportDowntime():
-    '''public void reportDowntime(final MboRemote mbo, final Date startDate, final Date endDate, final double hoursDown, final String code, final boolean operational)
+    '''returns None\n\n
+    reportDowntime(final MboRemote mbo, final Date startDate, final Date endDate, final double hoursDown, final String code, final boolean operational)\n
     '''
 def calculateDownTime():
-    '''public double calculateDownTime(final Date lastChangeDate, final Date currentChangeDate)
+    '''returns double\n\n
+    calculateDownTime(final Date lastChangeDate, final Date currentChangeDate)\n
     '''
 def hasMeters():
-    '''public void hasMeters()
+    '''returns None\n\n
+    hasMeters()\n
     '''
 def isReportingDownTime():
-    '''public boolean isReportingDownTime()
+    '''returns boolean\n\n
+    isReportingDownTime()\n
     '''
 def getDowntimeReportUpperDateLimit():
-    '''public Date getDowntimeReportUpperDateLimit()
+    '''returns Date\n\n
+    getDowntimeReportUpperDateLimit()\n
     '''
 def setDowntimeReportUpperDateLimit():
-    '''public void setDowntimeReportUpperDateLimit(final Date ULDate)
+    '''returns None\n\n
+    setDowntimeReportUpperDateLimit(final Date ULDate)\n
     '''
 def lastAssetStatusForAssetnum():
-    '''public MboRemote lastAssetStatusForAssetnum()
+    '''returns MboRemote\n\n
+    lastAssetStatusForAssetnum()\n
     '''

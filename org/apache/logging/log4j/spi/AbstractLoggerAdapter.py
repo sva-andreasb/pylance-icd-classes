@@ -1,18 +1,20 @@
-def AbstractLoggerAdapter():
-    '''public AbstractLoggerAdapter()
+def ():
+    '''returns AbstractLoggerAdapter\n\n
+    ()\n
     '''
 def getLogger():
-    '''public L getLogger(final String name)
+    '''returns L\n\n
+    getLogger(final String name)\n
     '''
 def contextShutdown():
-    '''public void contextShutdown(final LoggerContext loggerContext)
-    '''
-def getLoggersInContext():
-    '''public ConcurrentMap<String, L> getLoggersInContext(final LoggerContext context)
+    '''returns None\n\n
+    contextShutdown(final LoggerContext loggerContext)\n
     '''
 def getLoggerContexts():
-    '''public Set<LoggerContext> getLoggerContexts()
+    '''returns Set<LoggerContext>\n\n
+    getLoggerContexts()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

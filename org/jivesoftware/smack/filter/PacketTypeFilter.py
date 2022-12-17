@@ -1,9 +1,12 @@
-def PacketTypeFilter():
-    '''public PacketTypeFilter(final Class packetType)
+def ():
+    '''returns PacketTypeFilter\n\n
+    (final Class packetType)\n
     '''
 def accept():
-    '''public boolean accept(final Packet packet)
+    '''returns boolean\n\n
+    accept(final Packet packet)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

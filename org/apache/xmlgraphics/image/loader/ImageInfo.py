@@ -1,24 +1,32 @@
-def ImageInfo():
-    '''public ImageInfo(final String originalURI, final String mimeType)
+def ():
+    '''returns ImageInfo\n\n
+    (final String originalURI, final String mimeType)\n
     '''
 def getOriginalURI():
-    '''public String getOriginalURI()
+    '''returns String\n\n
+    getOriginalURI()\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def getSize():
-    '''public ImageSize getSize()
+    '''returns ImageSize\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final ImageSize size)
+    '''returns None\n\n
+    setSize(final ImageSize size)\n
     '''
 def getCustomObjects():
-    '''public Map getCustomObjects()
+    '''returns Map\n\n
+    getCustomObjects()\n
     '''
 def getOriginalImage():
-    '''public Image getOriginalImage()
+    '''returns Image\n\n
+    getOriginalImage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

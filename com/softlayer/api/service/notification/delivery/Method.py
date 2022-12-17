@@ -1,75 +1,100 @@
 def getActive():
-    '''public Long getActive()
+    '''returns Long\n\n
+    getActive()\n
     '''
 def setActive():
-    '''public void setActive(final Long active)
+    '''returns None\n\n
+    setActive(final Long active)\n
     '''
 def isActiveSpecified():
-    '''public boolean isActiveSpecified()
+    '''returns boolean\n\n
+    isActiveSpecified()\n
     '''
 def unsetActive():
-    '''public void unsetActive()
+    '''returns None\n\n
+    unsetActive()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getKeyName():
-    '''public String getKeyName()
+    '''returns String\n\n
+    getKeyName()\n
     '''
 def setKeyName():
-    '''public void setKeyName(final String keyName)
+    '''returns None\n\n
+    setKeyName(final String keyName)\n
     '''
 def isKeyNameSpecified():
-    '''public boolean isKeyNameSpecified()
+    '''returns boolean\n\n
+    isKeyNameSpecified()\n
     '''
 def unsetKeyName():
-    '''public void unsetKeyName()
+    '''returns None\n\n
+    unsetKeyName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isNameSpecified():
-    '''public boolean isNameSpecified()
+    '''returns boolean\n\n
+    isNameSpecified()\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def active():
-    '''public Mask active()
+    '''returns Mask\n\n
+    active()\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def keyName():
-    '''public Mask keyName()
+    '''returns Mask\n\n
+    keyName()\n
     '''
 def name():
-    '''public Mask name()
+    '''returns Mask\n\n
+    name()\n
     '''

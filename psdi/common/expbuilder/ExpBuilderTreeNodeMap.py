@@ -1,3 +1,4 @@
 def getTreeUniqueID():
-    '''public long getTreeUniqueID(final MboRemote mbo)
+    '''returns long\n\n
+    getTreeUniqueID(final MboRemote mbo)\n
     '''

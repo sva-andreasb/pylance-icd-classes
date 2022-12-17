@@ -1,6 +1,8 @@
-def FldClassStructureHasChildren():
-    '''public FldClassStructureHasChildren(final MboValue mbv)
+def ():
+    '''returns FldClassStructureHasChildren\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

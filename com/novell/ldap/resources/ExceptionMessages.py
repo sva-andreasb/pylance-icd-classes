@@ -61,5 +61,6 @@ NO_SCHEMA = "String  \"NO_SCHEMA\""
 READ_MULTIPLE = "String  \"READ_MULTIPLE\""
 CANNOT_BIND = "String  \"CANNOT_BIND\""
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

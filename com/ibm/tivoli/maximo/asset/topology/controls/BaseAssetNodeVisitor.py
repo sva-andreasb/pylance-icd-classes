@@ -1,123 +1,145 @@
-def getImpactedAsset():
-    '''public Hashtable<String, Boolean> getImpactedAsset()
-    '''
 def setImpactedASset():
-    '''public void setImpactedASset(final Hashtable<String, Boolean> impactedAsset)
+    '''returns None\n\n
+    setImpactedASset(final Hashtable<String, Boolean> impactedAsset)\n
     '''
-def BaseAssetNodeVisitor():
-    '''public BaseAssetNodeVisitor(final IlvDefaultSDMModel model, final int maxNodeDepth, final int maxAssetDepth, final int maxNodes)
-    '''
-def nativeInit():
-    '''public static synchronized void nativeInit(final MboRemote mbo)
+def ():
+    '''returns LinearData\n\n
+    (final IlvDefaultSDMModel model, final int maxNodeDepth, final int maxAssetDepth, final int maxNodes)\n
+    ()\n
+    ()\n
+    (final String valuelabel)\n
+    (final String valuelabel, final LinearData startLinearData, final LinearData endLinearData)\n
+    (final boolean isRTL)\n
     '''
 def atMaxNodeDepth():
-    '''public boolean atMaxNodeDepth()
+    '''returns boolean\n\n
+    atMaxNodeDepth()\n
     '''
 def maxNodesReached():
-    '''public boolean maxNodesReached()
+    '''returns boolean\n\n
+    maxNodesReached()\n
     '''
 def atMaxAssetDepth():
-    '''public boolean atMaxAssetDepth()
+    '''returns boolean\n\n
+    atMaxAssetDepth()\n
     '''
 def notVisited():
-    '''public boolean notVisited(final String assetnum)
+    '''returns boolean\n\n
+    notVisited(final String assetnum)\n
     '''
 def proceedDeepForEncounteredNode():
-    '''public boolean proceedDeepForEncounteredNode(final String assetnum)
+    '''returns boolean\n\n
+    proceedDeepForEncounteredNode(final String assetnum)\n
     '''
 def push():
-    '''public void push(final String assetNum, final Object ilvNode)
-    public void push(final String assetNum, final HashSet<String> fromRelations, final HashSet<String> toRelations)
-    public void push(final String assetNum, final Object ilvNode, final HashSet<String> inRelations, final HashSet<String> outRelations)
+    '''returns None\n\n
+    push(final String assetNum, final Object ilvNode)\n
+    push(final String assetNum, final HashSet<String> fromRelations, final HashSet<String> toRelations)\n
+    push(final String assetNum, final Object ilvNode, final HashSet<String> inRelations, final HashSet<String> outRelations)\n
     '''
 def pop():
-    '''public void pop()
+    '''returns None\n\n
+    pop()\n
     '''
 def generateIlvNode():
-    '''public Object generateIlvNode(final MboRemote assetMbo, final String tag)
+    '''returns Object\n\n
+    generateIlvNode(final MboRemote assetMbo, final String tag)\n
     '''
 def setupMouseOverInfo():
-    '''public void setupMouseOverInfo(final MboRemote mbo)
+    '''returns None\n\n
+    setupMouseOverInfo(final MboRemote mbo)\n
     '''
 def isCiImpacted():
-    '''public boolean isCiImpacted(final String assetnum)
+    '''returns boolean\n\n
+    isCiImpacted(final String assetnum)\n
     '''
 def generateLinks():
-    '''public void generateLinks(final Object ilvNode, final HashSet<String> inRelations, final HashSet<String> outRelations, final String tag)
+    '''returns None\n\n
+    generateLinks(final Object ilvNode, final HashSet<String> inRelations, final HashSet<String> outRelations, final String tag)\n
     '''
 def getCLASSSTRUCTURE_CLASSIFICATIONID():
-    '''public String getCLASSSTRUCTURE_CLASSIFICATIONID(final MboRemote assetMbo)
+    '''returns String\n\n
+    getCLASSSTRUCTURE_CLASSIFICATIONID(final MboRemote assetMbo)\n
     '''
 def getClassificationId():
-    '''public String getClassificationId(final MboRemote assetMbo)
+    '''returns String\n\n
+    getClassificationId(final MboRemote assetMbo)\n
     '''
 def getCLASSSTRUCTURE_DESCRIPTION():
-    '''public String getCLASSSTRUCTURE_DESCRIPTION(final MboRemote assetMbo)
+    '''returns String\n\n
+    getCLASSSTRUCTURE_DESCRIPTION(final MboRemote assetMbo)\n
     '''
 def isTopLevelAsset():
-    '''public boolean isTopLevelAsset(final MboRemote assetMbo)
+    '''returns boolean\n\n
+    isTopLevelAsset(final MboRemote assetMbo)\n
     '''
 def getNodeImage():
-    '''public String getNodeImage(final MboRemote assetMbo)
+    '''returns String\n\n
+    getNodeImage(final MboRemote assetMbo)\n
     '''
 def getLinkToolTip():
-    '''public String getLinkToolTip(final String relations)
+    '''returns String\n\n
+    getLinkToolTip(final String relations)\n
     '''
 def getScheduledTaskIndicator():
-    '''public TaskIndicator getScheduledTaskIndicator(final MboRemote assetMbo)
+    '''returns TaskIndicator\n\n
+    getScheduledTaskIndicator(final MboRemote assetMbo)\n
     '''
 def setNodeDegree():
-    '''public void setNodeDegree(final String assetnum, final int degree)
+    '''returns None\n\n
+    setNodeDegree(final String assetnum, final int degree)\n
     '''
 def compare():
-    '''public int compare(final NodeTooltipInfo object1, final NodeTooltipInfo object2)
+    '''returns int\n\n
+    compare(final NodeTooltipInfo object1, final NodeTooltipInfo object2)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    '''
-def NodeTooltipInfo():
-    '''public NodeTooltipInfo()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMoObject():
-    '''public String getMoObject()
+    '''returns String\n\n
+    getMoObject()\n
     '''
 def getMoAttribute():
-    '''public String getMoAttribute()
+    '''returns String\n\n
+    getMoAttribute()\n
     '''
 def getDisplayTitle():
-    '''public String getDisplayTitle()
+    '''returns String\n\n
+    getDisplayTitle()\n
     '''
 def getDisplayOrder():
-    '''public int getDisplayOrder()
-    '''
-def ValueDetail():
-    '''public ValueDetail()
-    public ValueDetail(final String valuelabel)
-    public ValueDetail(final String valuelabel, final LinearData startLinearData, final LinearData endLinearData)
+    '''returns int\n\n
+    getDisplayOrder()\n
     '''
 def getValuelabel():
-    '''public String getValuelabel()
+    '''returns String\n\n
+    getValuelabel()\n
     '''
 def getStartLinearData():
-    '''public LinearData getStartLinearData()
+    '''returns LinearData\n\n
+    getStartLinearData()\n
     '''
 def getEndLinearData():
-    '''public LinearData getEndLinearData()
-    '''
-def LinearData():
-    '''public LinearData(final boolean isRTL)
+    '''returns LinearData\n\n
+    getEndLinearData()\n
     '''
 def getLinearLabel():
-    '''public String getLinearLabel()
+    '''returns String\n\n
+    getLinearLabel()\n
     '''
 def getLinearMeasure():
-    '''public String getLinearMeasure()
+    '''returns String\n\n
+    getLinearMeasure()\n
     '''
 def getLinearMeasureUnitID():
-    '''public String getLinearMeasureUnitID()
+    '''returns String\n\n
+    getLinearMeasureUnitID()\n
     '''

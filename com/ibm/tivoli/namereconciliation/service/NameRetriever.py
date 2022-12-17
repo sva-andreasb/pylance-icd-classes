@@ -1,6 +1,4 @@
-def NameRetriever():
-    '''public NameRetriever(final Connection conn)
-    '''
-def getAllNames():
-    '''public Map<Guid, Map<Guid, String>> getAllNames(final Guid[] guids)
+def ():
+    '''returns NameRetriever\n\n
+    (final Connection conn)\n
     '''

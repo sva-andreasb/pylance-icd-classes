@@ -1,11 +1,14 @@
-def Annotation1():
-    '''public Annotation1(final String separator)
-    public Annotation1()
-    public Annotation1(final boolean withCommas)
+def ():
+    '''returns Annotation1\n\n
+    (final String separator)\n
+    ()\n
+    (final boolean withCommas)\n
     '''
 def addAnnotation():
-    '''public void addAnnotation(final String note)
+    '''returns None\n\n
+    addAnnotation(final String note)\n
     '''
 def setAnnotation():
-    '''public void setAnnotation(final SqlNode node)
+    '''returns None\n\n
+    setAnnotation(final SqlNode node)\n
     '''

@@ -4,17 +4,22 @@ CONNECTION_POOL_TIMEOUT_KEY = "String  \"axis.http.client.connection.pool.timeou
 CONNECTION_DEFAULT_CONNECTION_TIMEOUT_KEY = "String  \"axis.http.client.connection.default.connection.timeout\""
 CONNECTION_DEFAULT_SO_TIMEOUT_KEY = "String  \"axis.http.client.connection.default.so.timeout\""
 def getMaximumTotalConnections():
-    '''public int getMaximumTotalConnections()
+    '''returns int\n\n
+    getMaximumTotalConnections()\n
     '''
 def getMaximumConnectionsPerHost():
-    '''public int getMaximumConnectionsPerHost()
+    '''returns int\n\n
+    getMaximumConnectionsPerHost()\n
     '''
 def getConnectionPoolTimeout():
-    '''public int getConnectionPoolTimeout()
+    '''returns int\n\n
+    getConnectionPoolTimeout()\n
     '''
 def getDefaultConnectionTimeout():
-    '''public int getDefaultConnectionTimeout()
+    '''returns int\n\n
+    getDefaultConnectionTimeout()\n
     '''
 def getDefaultSoTimeout():
-    '''public int getDefaultSoTimeout()
+    '''returns int\n\n
+    getDefaultSoTimeout()\n
     '''

@@ -1,6 +1,8 @@
 def getRunnable():
-    '''public Runnable getRunnable()
+    '''returns Runnable\n\n
+    getRunnable()\n
     '''
 def getTimeToInvoke():
-    '''public long getTimeToInvoke()
+    '''returns long\n\n
+    getTimeToInvoke()\n
     '''

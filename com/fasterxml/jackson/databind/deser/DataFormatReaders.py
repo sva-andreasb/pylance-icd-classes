@@ -1,55 +1,68 @@
 DEFAULT_MAX_INPUT_LOOKAHEAD = "int  64"
-def DataFormatReaders():
-    '''public DataFormatReaders(final ObjectReader... detectors)
-    public DataFormatReaders(final Collection<ObjectReader> detectors)
+def ():
+    '''returns AccessorForReader\n\n
+    (final ObjectReader... detectors)\n
+    (final Collection<ObjectReader> detectors)\n
+    (final InputStream in, final byte[] buffer)\n
+    (final byte[] inputDocument)\n
+    (final byte[] inputDocument, final int start, final int len)\n
     '''
 def withOptimalMatch():
-    '''public DataFormatReaders withOptimalMatch(final MatchStrength optMatch)
+    '''returns DataFormatReaders\n\n
+    withOptimalMatch(final MatchStrength optMatch)\n
     '''
 def withMinimalMatch():
-    '''public DataFormatReaders withMinimalMatch(final MatchStrength minMatch)
+    '''returns DataFormatReaders\n\n
+    withMinimalMatch(final MatchStrength minMatch)\n
     '''
 def with():
-    '''public DataFormatReaders with(final ObjectReader[] readers)
-    public DataFormatReaders with(final DeserializationConfig config)
+    '''returns DataFormatReaders\n\n
+    with(final ObjectReader[] readers)\n
+    with(final DeserializationConfig config)\n
     '''
 def withMaxInputLookahead():
-    '''public DataFormatReaders withMaxInputLookahead(final int lookaheadBytes)
+    '''returns DataFormatReaders\n\n
+    withMaxInputLookahead(final int lookaheadBytes)\n
     '''
 def withType():
-    '''public DataFormatReaders withType(final JavaType type)
+    '''returns DataFormatReaders\n\n
+    withType(final JavaType type)\n
     '''
 def findFormat():
-    '''public Match findFormat(final InputStream in)
-    public Match findFormat(final byte[] fullInputData)
-    public Match findFormat(final byte[] fullInputData, final int offset, final int len)
+    '''returns Match\n\n
+    findFormat(final InputStream in)\n
+    findFormat(final byte[] fullInputData)\n
+    findFormat(final byte[] fullInputData, final int offset, final int len)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def AccessorForReader():
-    '''public AccessorForReader(final InputStream in, final byte[] buffer)
-    public AccessorForReader(final byte[] inputDocument)
-    public AccessorForReader(final byte[] inputDocument, final int start, final int len)
+    '''returns String\n\n
+    toString()\n
     '''
 def createMatcher():
-    '''public Match createMatcher(final ObjectReader match, final MatchStrength matchStrength)
+    '''returns Match\n\n
+    createMatcher(final ObjectReader match, final MatchStrength matchStrength)\n
     '''
 def hasMatch():
-    '''public boolean hasMatch()
+    '''returns boolean\n\n
+    hasMatch()\n
     '''
 def getMatchStrength():
-    '''public MatchStrength getMatchStrength()
+    '''returns MatchStrength\n\n
+    getMatchStrength()\n
     '''
 def getReader():
-    '''public ObjectReader getReader()
+    '''returns ObjectReader\n\n
+    getReader()\n
     '''
 def getMatchedFormatName():
-    '''public String getMatchedFormatName()
+    '''returns String\n\n
+    getMatchedFormatName()\n
     '''
 def createParserWithMatch():
-    '''public JsonParser createParserWithMatch()
+    '''returns JsonParser\n\n
+    createParserWithMatch()\n
     '''
 def getDataStream():
-    '''public InputStream getDataStream()
+    '''returns InputStream\n\n
+    getDataStream()\n
     '''

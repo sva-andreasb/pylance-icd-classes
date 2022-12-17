@@ -1,13 +1,14 @@
 def visit():
-    '''public void visit(final SqlProject sqlProject)
-    public void visit(final SqlDistinct sqlDistinct)
-    public void visit(final SqlRestrict sqlRestrict)
-    public void visit(final SqlRename sqlRename)
-    public void visit(final SqlTable sqlTable)
-    public void visit(final SqlJoinInner sqlJoin)
-    public void visit(final SqlJoinLeftOuter sqlJoin)
-    public void visit(final SqlUnion sqlUnion)
-    public void visit(final SqlCoalesce sqlCoalesce)
-    public void visit(final SqlSlice sqlSlice)
-    public void visit(final SqlSelectBlock sqlSelectBlock)
+    '''returns None\n\n
+    visit(final SqlProject sqlProject)\n
+    visit(final SqlDistinct sqlDistinct)\n
+    visit(final SqlRestrict sqlRestrict)\n
+    visit(final SqlRename sqlRename)\n
+    visit(final SqlTable sqlTable)\n
+    visit(final SqlJoinInner sqlJoin)\n
+    visit(final SqlJoinLeftOuter sqlJoin)\n
+    visit(final SqlUnion sqlUnion)\n
+    visit(final SqlCoalesce sqlCoalesce)\n
+    visit(final SqlSlice sqlSlice)\n
+    visit(final SqlSelectBlock sqlSelectBlock)\n
     '''

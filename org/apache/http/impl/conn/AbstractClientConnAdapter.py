@@ -1,84 +1,104 @@
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def isStale():
-    '''public boolean isStale()
+    '''returns boolean\n\n
+    isStale()\n
     '''
 def setSocketTimeout():
-    '''public void setSocketTimeout(final int timeout)
+    '''returns None\n\n
+    setSocketTimeout(final int timeout)\n
     '''
 def getSocketTimeout():
-    '''public int getSocketTimeout()
+    '''returns int\n\n
+    getSocketTimeout()\n
     '''
 def getMetrics():
-    '''public HttpConnectionMetrics getMetrics()
+    '''returns HttpConnectionMetrics\n\n
+    getMetrics()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def isResponseAvailable():
-    '''public boolean isResponseAvailable(final int timeout)
+    '''returns boolean\n\n
+    isResponseAvailable(final int timeout)\n
     '''
 def receiveResponseEntity():
-    '''public void receiveResponseEntity(final HttpResponse response)
+    '''returns None\n\n
+    receiveResponseEntity(final HttpResponse response)\n
     '''
 def receiveResponseHeader():
-    '''public HttpResponse receiveResponseHeader()
+    '''returns HttpResponse\n\n
+    receiveResponseHeader()\n
     '''
 def sendRequestEntity():
-    '''public void sendRequestEntity(final HttpEntityEnclosingRequest request)
+    '''returns None\n\n
+    sendRequestEntity(final HttpEntityEnclosingRequest request)\n
     '''
 def sendRequestHeader():
-    '''public void sendRequestHeader(final HttpRequest request)
+    '''returns None\n\n
+    sendRequestHeader(final HttpRequest request)\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getRemoteAddress():
-    '''public InetAddress getRemoteAddress()
+    '''returns InetAddress\n\n
+    getRemoteAddress()\n
     '''
 def getRemotePort():
-    '''public int getRemotePort()
+    '''returns int\n\n
+    getRemotePort()\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''
 def bind():
-    '''public void bind(final Socket socket)
+    '''returns None\n\n
+    bind(final Socket socket)\n
     '''
 def getSocket():
-    '''public Socket getSocket()
+    '''returns Socket\n\n
+    getSocket()\n
     '''
 def getSSLSession():
-    '''public SSLSession getSSLSession()
+    '''returns SSLSession\n\n
+    getSSLSession()\n
     '''
 def markReusable():
-    '''public void markReusable()
+    '''returns None\n\n
+    markReusable()\n
     '''
 def unmarkReusable():
-    '''public void unmarkReusable()
+    '''returns None\n\n
+    unmarkReusable()\n
     '''
 def isMarkedReusable():
-    '''public boolean isMarkedReusable()
+    '''returns boolean\n\n
+    isMarkedReusable()\n
     '''
 def setIdleDuration():
-    '''public void setIdleDuration(final long duration, final TimeUnit unit)
-    '''
-def releaseConnection():
-    '''public synchronized void releaseConnection()
-    '''
-def abortConnection():
-    '''public synchronized void abortConnection()
+    '''returns None\n\n
+    setIdleDuration(final long duration, final TimeUnit unit)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String id)
+    '''returns Object\n\n
+    getAttribute(final String id)\n
     '''
 def removeAttribute():
-    '''public Object removeAttribute(final String id)
+    '''returns Object\n\n
+    removeAttribute(final String id)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String id, final Object obj)
+    '''returns None\n\n
+    setAttribute(final String id, final Object obj)\n
     '''

@@ -1,9 +1,12 @@
-def CoreOperationNotEqual():
-    '''public CoreOperationNotEqual(final Expression arg1, final Expression arg2)
+def ():
+    '''returns CoreOperationNotEqual\n\n
+    (final Expression arg1, final Expression arg2)\n
     '''
 def computeValue():
-    '''public Object computeValue(final EvalContext context)
+    '''returns Object\n\n
+    computeValue(final EvalContext context)\n
     '''
 def getSymbol():
-    '''public String getSymbol()
+    '''returns String\n\n
+    getSymbol()\n
     '''

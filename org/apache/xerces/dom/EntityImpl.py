@@ -1,54 +1,72 @@
-def EntityImpl():
-    '''public EntityImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
+def ():
+    '''returns EntityImpl\n\n
+    (final CoreDocumentImpl coreDocumentImpl, final String name)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def getXmlVersion():
-    '''public String getXmlVersion()
+    '''returns String\n\n
+    getXmlVersion()\n
     '''
 def getXmlEncoding():
-    '''public String getXmlEncoding()
+    '''returns String\n\n
+    getXmlEncoding()\n
     '''
 def getNotationName():
-    '''public String getNotationName()
+    '''returns String\n\n
+    getNotationName()\n
     '''
 def setPublicId():
-    '''public void setPublicId(final String publicId)
+    '''returns None\n\n
+    setPublicId(final String publicId)\n
     '''
 def setXmlEncoding():
-    '''public void setXmlEncoding(final String encoding)
+    '''returns None\n\n
+    setXmlEncoding(final String encoding)\n
     '''
 def getInputEncoding():
-    '''public String getInputEncoding()
+    '''returns String\n\n
+    getInputEncoding()\n
     '''
 def setInputEncoding():
-    '''public void setInputEncoding(final String inputEncoding)
+    '''returns None\n\n
+    setInputEncoding(final String inputEncoding)\n
     '''
 def setXmlVersion():
-    '''public void setXmlVersion(final String version)
+    '''returns None\n\n
+    setXmlVersion(final String version)\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
     '''
 def setNotationName():
-    '''public void setNotationName(final String notationName)
+    '''returns None\n\n
+    setNotationName(final String notationName)\n
     '''
 def getBaseURI():
-    '''public String getBaseURI()
+    '''returns String\n\n
+    getBaseURI()\n
     '''
 def setBaseURI():
-    '''public void setBaseURI(final String baseURI)
+    '''returns None\n\n
+    setBaseURI(final String baseURI)\n
     '''

@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final SigOptionCache getInstance()
-    '''
 def getOptionDescription():
-    '''public String getOptionDescription(final String app, final String option, final UserInfo userInfo)
+    '''returns String\n\n
+    getOptionDescription(final String app, final String option, final UserInfo userInfo)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

@@ -1,13 +1,17 @@
 TYPE = "short  1"
 def getType():
-    '''public short getType()
+    '''returns short\n\n
+    getType()\n
     '''
 def setMediaList():
-    '''public void setMediaList(final SACMediaList ml)
+    '''returns None\n\n
+    setMediaList(final SACMediaList ml)\n
     '''
 def getMediaList():
-    '''public SACMediaList getMediaList()
+    '''returns SACMediaList\n\n
+    getMediaList()\n
     '''
 def toString():
-    '''public String toString(final CSSEngine eng)
+    '''returns String\n\n
+    toString(final CSSEngine eng)\n
     '''

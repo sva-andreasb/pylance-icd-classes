@@ -1,3 +1,4 @@
-def ReportAttachUncPath():
-    '''public ReportAttachUncPath(final MboSet ms)
+def ():
+    '''returns ReportAttachUncPath\n\n
+    (final MboSet ms)\n
     '''

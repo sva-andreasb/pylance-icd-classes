@@ -1,3 +1,4 @@
-def HexDumpEncoder():
-    '''public HexDumpEncoder()
+def ():
+    '''returns HexDumpEncoder\n\n
+    ()\n
     '''

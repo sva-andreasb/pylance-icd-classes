@@ -1,6 +1,7 @@
-def CdmVersionException():
-    '''public CdmVersionException()
-    public CdmVersionException(final String message, final Throwable cause)
-    public CdmVersionException(final String message)
-    public CdmVersionException(final Throwable cause)
+def ():
+    '''returns CdmVersionException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

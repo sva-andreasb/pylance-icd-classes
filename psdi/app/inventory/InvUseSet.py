@@ -1,15 +1,20 @@
-def InvUseSet():
-    '''public InvUseSet(final MboServerInterface ms)
+def ():
+    '''returns InvUseSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addInvUse():
-    '''public MboRemote addInvUse(final MboRemote owner, final String useType)
+    '''returns MboRemote\n\n
+    addInvUse(final MboRemote owner, final String useType)\n
     '''
 def getExternalValues():
-    '''public String getExternalValues(final String listName, final String internalValue, final String siteID, final String orgID)
+    '''returns String\n\n
+    getExternalValues(final String listName, final String internalValue, final String siteID, final String orgID)\n
     '''
 def setUserPreference():
-    '''public void setUserPreference()
+    '''returns None\n\n
+    setUserPreference()\n
     '''
 def initUserPreference():
-    '''public void initUserPreference()
+    '''returns None\n\n
+    initUserPreference()\n
     '''

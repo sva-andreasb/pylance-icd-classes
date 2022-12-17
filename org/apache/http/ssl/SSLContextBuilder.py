@@ -1,71 +1,79 @@
-def create():
-    '''public static SSLContextBuilder create()
-    '''
-def SSLContextBuilder():
-    '''public SSLContextBuilder()
+def ():
+    '''returns SSLContextBuilder\n\n
+    ()\n
     '''
 def useProtocol():
-    '''public SSLContextBuilder useProtocol(final String protocol)
+    '''returns SSLContextBuilder\n\n
+    useProtocol(final String protocol)\n
     '''
 def setSecureRandom():
-    '''public SSLContextBuilder setSecureRandom(final SecureRandom secureRandom)
+    '''returns SSLContextBuilder\n\n
+    setSecureRandom(final SecureRandom secureRandom)\n
     '''
 def loadTrustMaterial():
-    '''public SSLContextBuilder loadTrustMaterial(final KeyStore truststore, final TrustStrategy trustStrategy)
-    public SSLContextBuilder loadTrustMaterial(final TrustStrategy trustStrategy)
-    public SSLContextBuilder loadTrustMaterial(final File file, final char[] storePassword, final TrustStrategy trustStrategy)
-    public SSLContextBuilder loadTrustMaterial(final File file, final char[] storePassword)
-    public SSLContextBuilder loadTrustMaterial(final File file)
-    public SSLContextBuilder loadTrustMaterial(final URL url, final char[] storePassword, final TrustStrategy trustStrategy)
-    public SSLContextBuilder loadTrustMaterial(final URL url, final char[] storePassword)
+    '''returns SSLContextBuilder\n\n
+    loadTrustMaterial(final KeyStore truststore, final TrustStrategy trustStrategy)\n
+    loadTrustMaterial(final TrustStrategy trustStrategy)\n
+    loadTrustMaterial(final File file, final char[] storePassword, final TrustStrategy trustStrategy)\n
+    loadTrustMaterial(final File file, final char[] storePassword)\n
+    loadTrustMaterial(final File file)\n
+    loadTrustMaterial(final URL url, final char[] storePassword, final TrustStrategy trustStrategy)\n
+    loadTrustMaterial(final URL url, final char[] storePassword)\n
     '''
 def loadKeyMaterial():
-    '''public SSLContextBuilder loadKeyMaterial(final KeyStore keystore, final char[] keyPassword, final PrivateKeyStrategy aliasStrategy)
-    public SSLContextBuilder loadKeyMaterial(final KeyStore keystore, final char[] keyPassword)
-    public SSLContextBuilder loadKeyMaterial(final File file, final char[] storePassword, final char[] keyPassword, final PrivateKeyStrategy aliasStrategy)
-    public SSLContextBuilder loadKeyMaterial(final File file, final char[] storePassword, final char[] keyPassword)
-    public SSLContextBuilder loadKeyMaterial(final URL url, final char[] storePassword, final char[] keyPassword, final PrivateKeyStrategy aliasStrategy)
-    public SSLContextBuilder loadKeyMaterial(final URL url, final char[] storePassword, final char[] keyPassword)
+    '''returns SSLContextBuilder\n\n
+    loadKeyMaterial(final KeyStore keystore, final char[] keyPassword, final PrivateKeyStrategy aliasStrategy)\n
+    loadKeyMaterial(final KeyStore keystore, final char[] keyPassword)\n
+    loadKeyMaterial(final File file, final char[] storePassword, final char[] keyPassword, final PrivateKeyStrategy aliasStrategy)\n
+    loadKeyMaterial(final File file, final char[] storePassword, final char[] keyPassword)\n
+    loadKeyMaterial(final URL url, final char[] storePassword, final char[] keyPassword, final PrivateKeyStrategy aliasStrategy)\n
+    loadKeyMaterial(final URL url, final char[] storePassword, final char[] keyPassword)\n
     '''
 def build():
-    '''public SSLContext build()
+    '''returns SSLContext\n\n
+    build()\n
     '''
 def checkClientTrusted():
-    '''public void checkClientTrusted(final X509Certificate[] chain, final String authType)
+    '''returns None\n\n
+    checkClientTrusted(final X509Certificate[] chain, final String authType)\n
     '''
 def checkServerTrusted():
-    '''public void checkServerTrusted(final X509Certificate[] chain, final String authType)
+    '''returns None\n\n
+    checkServerTrusted(final X509Certificate[] chain, final String authType)\n
     '''
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''
 def getClientAliases():
-    '''public String[] getClientAliases(final String keyType, final Principal[] issuers)
-    '''
-def getClientAliasMap():
-    '''public Map<String, PrivateKeyDetails> getClientAliasMap(final String[] keyTypes, final Principal[] issuers)
-    '''
-def getServerAliasMap():
-    '''public Map<String, PrivateKeyDetails> getServerAliasMap(final String keyType, final Principal[] issuers)
+    '''returns String[]\n\n
+    getClientAliases(final String keyType, final Principal[] issuers)\n
     '''
 def chooseClientAlias():
-    '''public String chooseClientAlias(final String[] keyTypes, final Principal[] issuers, final Socket socket)
+    '''returns String\n\n
+    chooseClientAlias(final String[] keyTypes, final Principal[] issuers, final Socket socket)\n
     '''
 def getServerAliases():
-    '''public String[] getServerAliases(final String keyType, final Principal[] issuers)
+    '''returns String[]\n\n
+    getServerAliases(final String keyType, final Principal[] issuers)\n
     '''
 def chooseServerAlias():
-    '''public String chooseServerAlias(final String keyType, final Principal[] issuers, final Socket socket)
+    '''returns String\n\n
+    chooseServerAlias(final String keyType, final Principal[] issuers, final Socket socket)\n
     '''
 def getCertificateChain():
-    '''public X509Certificate[] getCertificateChain(final String alias)
+    '''returns X509Certificate[]\n\n
+    getCertificateChain(final String alias)\n
     '''
 def getPrivateKey():
-    '''public PrivateKey getPrivateKey(final String alias)
+    '''returns PrivateKey\n\n
+    getPrivateKey(final String alias)\n
     '''
 def chooseEngineClientAlias():
-    '''public String chooseEngineClientAlias(final String[] keyTypes, final Principal[] issuers, final SSLEngine sslEngine)
+    '''returns String\n\n
+    chooseEngineClientAlias(final String[] keyTypes, final Principal[] issuers, final SSLEngine sslEngine)\n
     '''
 def chooseEngineServerAlias():
-    '''public String chooseEngineServerAlias(final String keyType, final Principal[] issuers, final SSLEngine sslEngine)
+    '''returns String\n\n
+    chooseEngineServerAlias(final String keyType, final Principal[] issuers, final SSLEngine sslEngine)\n
     '''

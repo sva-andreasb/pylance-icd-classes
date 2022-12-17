@@ -1,3 +1,4 @@
 def setResource():
-    '''public void setResource(final com.softlayer.api.service.user.customer.external.Binding resource)
+    '''returns None\n\n
+    setResource(final com.softlayer.api.service.user.customer.external.Binding resource)\n
     '''

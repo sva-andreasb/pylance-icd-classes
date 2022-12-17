@@ -1,6 +1,8 @@
-def FldMaxObjectCfgTrigRoot():
-    '''public FldMaxObjectCfgTrigRoot(final MboValue mbv)
+def ():
+    '''returns FldMaxObjectCfgTrigRoot\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

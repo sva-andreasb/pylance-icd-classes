@@ -1,12 +1,16 @@
-def IlvDefaultConstraintGraphicFactory():
-    '''public IlvDefaultConstraintGraphicFactory()
+def ():
+    '''returns IlvDefaultConstraintGraphicFactory\n\n
+    ()\n
     '''
 def createConstraintGraphic():
-    '''public IlvConstraintGraphic createConstraintGraphic(final IlvActivityGraphic ilvActivityGraphic, final IlvActivityGraphic ilvActivityGraphic2, final IlvConstraint ilvConstraint)
+    '''returns IlvConstraintGraphic\n\n
+    createConstraintGraphic(final IlvActivityGraphic ilvActivityGraphic, final IlvActivityGraphic ilvActivityGraphic2, final IlvConstraint ilvConstraint)\n
     '''
 def getConstraintColor():
-    '''public Color getConstraintColor()
+    '''returns Color\n\n
+    getConstraintColor()\n
     '''
 def setConstraintColor():
-    '''public void setConstraintColor(final Color a)
+    '''returns None\n\n
+    setConstraintColor(final Color a)\n
     '''

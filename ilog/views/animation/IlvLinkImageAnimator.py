@@ -1,30 +1,40 @@
-def IlvLinkImageAnimator():
-    '''public IlvLinkImageAnimator(final IlvLinkImage a)
+def ():
+    '''returns IlvLinkImageAnimator\n\n
+    (final IlvLinkImage a)\n
     '''
 def getOldLinkPoints():
-    '''public IlvPoint[] getOldLinkPoints()
+    '''returns IlvPoint[]\n\n
+    getOldLinkPoints()\n
     '''
 def getNewLinkPoints():
-    '''public IlvPoint[] getNewLinkPoints()
+    '''returns IlvPoint[]\n\n
+    getNewLinkPoints()\n
     '''
 def getOldLineWidth():
-    '''public float getOldLineWidth()
+    '''returns float\n\n
+    getOldLineWidth()\n
     '''
 def getNewLineWidth():
-    '''public float getNewLineWidth()
+    '''returns float\n\n
+    getNewLineWidth()\n
     '''
 def recordState():
-    '''public void recordState()
+    '''returns None\n\n
+    recordState()\n
     '''
 def animInit():
-    '''public void animInit()
+    '''returns None\n\n
+    animInit()\n
     '''
 def animCleanup():
-    '''public void animCleanup()
+    '''returns None\n\n
+    animCleanup()\n
     '''
 def animStep():
-    '''public boolean animStep(final IlvManager ilvManager, final int g, final int h)
+    '''returns boolean\n\n
+    animStep(final IlvManager ilvManager, final int g, final int h)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''

@@ -1,11 +1,14 @@
-def Ov():
-    '''public Ov(final FilenameFilter a)
-    public Ov(final FileFilter b)
+def ():
+    '''returns Ov\n\n
+    (final FilenameFilter a)\n
+    (final FileFilter b)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File dir, final String name)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File dir, final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

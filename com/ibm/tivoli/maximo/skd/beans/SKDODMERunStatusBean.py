@@ -1,18 +1,20 @@
-def SKDODMERunStatusBean():
-    '''public SKDODMERunStatusBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns SKDODMERunStatusBean\n\n
+    ()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def refreshStatus():
-    '''public int refreshStatus()
+    '''returns int\n\n
+    refreshStatus()\n
     '''
 def abort():
-    '''public int abort()
+    '''returns int\n\n
+    abort()\n
     '''
 def clearLog():
-    '''public int clearLog()
+    '''returns int\n\n
+    clearLog()\n
     '''

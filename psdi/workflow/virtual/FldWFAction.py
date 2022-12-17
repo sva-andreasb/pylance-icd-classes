@@ -1,6 +1,8 @@
-def FldWFAction():
-    '''public FldWFAction(final MboValue mbv)
+def ():
+    '''returns FldWFAction\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

@@ -1,6 +1,4 @@
-def MXDbPing():
-    '''public MXDbPing()
-    '''
-def main():
-    '''public static void main(final String[] argv)
+def ():
+    '''returns MXDbPing\n\n
+    ()\n
     '''

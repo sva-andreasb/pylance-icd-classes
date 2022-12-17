@@ -1,18 +1,16 @@
-def ExportPmpObjects():
-    '''public ExportPmpObjects(final String replaceStr)
-    '''
-def main():
-    '''public static void main(final String[] args)
-    '''
-def printUsage():
-    '''public static void printUsage()
+def ():
+    '''returns ExportPmpObjects\n\n
+    (final String replaceStr)\n
     '''
 def printIncludes():
-    '''public void printIncludes()
+    '''returns None\n\n
+    printIncludes()\n
     '''
 def parse():
-    '''public void parse(final String pmpRoot, final String filename, final String activeModules)
+    '''returns None\n\n
+    parse(final String pmpRoot, final String filename, final String activeModules)\n
     '''
 def executeExport():
-    '''public void executeExport()
+    '''returns None\n\n
+    executeExport()\n
     '''

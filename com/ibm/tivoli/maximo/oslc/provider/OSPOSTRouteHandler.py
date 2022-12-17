@@ -1,12 +1,12 @@
-def getPathTokensMeta():
-    '''public Map<String, String> getPathTokensMeta()
-    '''
 def handleRequest():
-    '''public OslcResourceResponse handleRequest(final OslcRequest oslcRequest)
+    '''returns OslcResourceResponse\n\n
+    handleRequest(final OslcRequest oslcRequest)\n
     '''
 def mboForBulk():
-    '''public MboRemote mboForBulk(final String primaryMboName, final UserInfo userInfo, final Long idValue, final String osName, final OslcResourceInfo resourceInfo)
+    '''returns MboRemote\n\n
+    mboForBulk(final String primaryMboName, final UserInfo userInfo, final Long idValue, final String osName, final OslcResourceInfo resourceInfo)\n
     '''
 def clearUserInput():
-    '''public void clearUserInput(final UserInfo userInfo)
+    '''returns None\n\n
+    clearUserInput(final UserInfo userInfo)\n
     '''

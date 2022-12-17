@@ -1,3 +1,4 @@
-def SmtpAuthenticator():
-    '''public SmtpAuthenticator(final String user, final String password)
+def ():
+    '''returns SmtpAuthenticator\n\n
+    (final String user, final String password)\n
     '''

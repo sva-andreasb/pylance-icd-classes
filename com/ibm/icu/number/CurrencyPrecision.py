@@ -1,3 +1,4 @@
 def withCurrency():
-    '''public Precision withCurrency(final Currency currency)
+    '''returns Precision\n\n
+    withCurrency(final Currency currency)\n
     '''

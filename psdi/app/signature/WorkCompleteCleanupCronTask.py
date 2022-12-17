@@ -1,18 +1,24 @@
-def WorkCompleteCleanupCronTask():
-    '''public WorkCompleteCleanupCronTask()
+def ():
+    '''returns WorkCompleteCleanupCronTask\n\n
+    ()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def setCrontaskInstance():
-    '''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''returns None\n\n
+    setCrontaskInstance(final CrontaskInstanceRemote inst)\n
     '''
 def cleanupCompletedRecods():
-    '''public void cleanupCompletedRecods(final UserInfo userInfo)
+    '''returns None\n\n
+    cleanupCompletedRecods(final UserInfo userInfo)\n
     '''

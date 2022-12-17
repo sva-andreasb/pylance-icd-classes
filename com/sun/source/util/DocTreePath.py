@@ -1,35 +1,41 @@
-def getPath():
-    '''public static DocTreePath getPath(final TreePath treePath, final DocCommentTree docCommentTree, final DocTree docTree)
-    public static DocTreePath getPath(final DocTreePath docTreePath, final DocTree docTree)
-    '''
 def scan():
-    '''public DocTreePath scan(final DocTree docTree, final DocTree docTree2)
+    '''returns DocTreePath\n\n
+    scan(final DocTree docTree, final DocTree docTree2)\n
     '''
-def DocTreePath():
-    '''public DocTreePath(final TreePath treePath, final DocCommentTree docCommentTree)
-    public DocTreePath(final DocTreePath parent, final DocTree leaf)
+def ():
+    '''returns DocTreePath\n\n
+    (final TreePath treePath, final DocCommentTree docCommentTree)\n
+    (final DocTreePath parent, final DocTree leaf)\n
     '''
 def getTreePath():
-    '''public TreePath getTreePath()
+    '''returns TreePath\n\n
+    getTreePath()\n
     '''
 def getDocComment():
-    '''public DocCommentTree getDocComment()
+    '''returns DocCommentTree\n\n
+    getDocComment()\n
     '''
 def getLeaf():
-    '''public DocTree getLeaf()
+    '''returns DocTree\n\n
+    getLeaf()\n
     '''
 def getParentPath():
-    '''public DocTreePath getParentPath()
+    '''returns DocTreePath\n\n
+    getParentPath()\n
     '''
 def iterator():
-    '''public Iterator<DocTree> iterator()
+    '''returns Iterator<DocTree>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public DocTree next()
+    '''returns DocTree\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

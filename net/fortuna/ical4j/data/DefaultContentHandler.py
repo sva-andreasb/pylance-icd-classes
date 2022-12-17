@@ -1,28 +1,37 @@
-def DefaultContentHandler():
-    '''public DefaultContentHandler(final Consumer<Calendar> consumer, final TimeZoneRegistry tzRegistry)
-    public DefaultContentHandler(final Consumer<Calendar> consumer, final TimeZoneRegistry tzRegistry, final Supplier<List<ParameterFactory<?>>> parameterFactorySupplier, final Supplier<List<PropertyFactory<?>>> propertyFactorySupplier, final Supplier<List<ComponentFactory<?>>> componentFactorySupplier)
+def ():
+    '''returns DefaultContentHandler\n\n
+    (final Consumer<Calendar> consumer, final TimeZoneRegistry tzRegistry)\n
+    (final Consumer<Calendar> consumer, final TimeZoneRegistry tzRegistry, final Supplier<List<ParameterFactory<?>>> parameterFactorySupplier, final Supplier<List<PropertyFactory<?>>> propertyFactorySupplier, final Supplier<List<ComponentFactory<?>>> componentFactorySupplier)\n
     '''
 def startCalendar():
-    '''public void startCalendar()
+    '''returns None\n\n
+    startCalendar()\n
     '''
 def endCalendar():
-    '''public void endCalendar()
+    '''returns None\n\n
+    endCalendar()\n
     '''
 def startComponent():
-    '''public void startComponent(final String name)
+    '''returns None\n\n
+    startComponent(final String name)\n
     '''
 def endComponent():
-    '''public void endComponent(final String name)
+    '''returns None\n\n
+    endComponent(final String name)\n
     '''
 def startProperty():
-    '''public void startProperty(final String name)
+    '''returns None\n\n
+    startProperty(final String name)\n
     '''
 def propertyValue():
-    '''public void propertyValue(final String value)
+    '''returns None\n\n
+    propertyValue(final String value)\n
     '''
 def endProperty():
-    '''public void endProperty(final String name)
+    '''returns None\n\n
+    endProperty(final String name)\n
     '''
 def parameter():
-    '''public void parameter(final String name, final String value)
+    '''returns None\n\n
+    parameter(final String name, final String value)\n
     '''

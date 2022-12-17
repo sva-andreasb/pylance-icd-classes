@@ -1,3 +1,4 @@
-def SKDDataValOptionSet():
-    '''public SKDDataValOptionSet(final MboServerInterface ms)
+def ():
+    '''returns SKDDataValOptionSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,55 +1,64 @@
-def ApptBookSearchDataBean():
-    '''public ApptBookSearchDataBean()
+def ():
+    '''returns ApptBookSearchDataBean\n\n
+    ()\n
     '''
 def bindComponent():
-    '''public void bindComponent(final BoundComponentInstance boundComponent)
-    '''
-def getString():
-    '''public synchronized String getString(final String attribute)
-    '''
-def setQbe():
-    '''public synchronized void setQbe(final String attribute, final MboSetRemote expression)
-    public synchronized void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    bindComponent(final BoundComponentInstance boundComponent)\n
     '''
 def setLocation():
-    '''public void setLocation(final MboRemote location, final boolean nestedCall)
+    '''returns None\n\n
+    setLocation(final MboRemote location, final boolean nestedCall)\n
     '''
 def setApptBook():
-    '''public void setApptBook(final MboRemote apptBook, final String expression)
+    '''returns None\n\n
+    setApptBook(final MboRemote apptBook, final String expression)\n
     '''
 def setServiceAddress():
-    '''public void setServiceAddress(final MboRemote serviceAddress, final boolean nestedCall)
+    '''returns None\n\n
+    setServiceAddress(final MboRemote serviceAddress, final boolean nestedCall)\n
     '''
 def setJobPlan():
-    '''public void setJobPlan(final MboRemote apptBookJobPlan)
+    '''returns None\n\n
+    setJobPlan(final MboRemote apptBookJobPlan)\n
     '''
 def setWorkZone():
-    '''public void setWorkZone(final MboRemote workZone)
+    '''returns None\n\n
+    setWorkZone(final MboRemote workZone)\n
     '''
 def searchForApptBook():
-    '''public void searchForApptBook()
+    '''returns None\n\n
+    searchForApptBook()\n
     '''
 def clearFields():
-    '''public void clearFields()
+    '''returns None\n\n
+    clearFields()\n
     '''
 def getLocationSet():
-    '''public MboSetRemote getLocationSet()
+    '''returns MboSetRemote\n\n
+    getLocationSet()\n
     '''
 def getWorkZoneSet():
-    '''public MboSetRemote getWorkZoneSet()
+    '''returns MboSetRemote\n\n
+    getWorkZoneSet()\n
     '''
 def getApptBookSet():
-    '''public MboSetRemote getApptBookSet()
+    '''returns MboSetRemote\n\n
+    getApptBookSet()\n
     '''
 def resetLocationSet():
-    '''public void resetLocationSet()
+    '''returns None\n\n
+    resetLocationSet()\n
     '''
 def resetWorkZoneSet():
-    '''public void resetWorkZoneSet()
+    '''returns None\n\n
+    resetWorkZoneSet()\n
     '''
 def resetApptBookSet():
-    '''public void resetApptBookSet()
+    '''returns None\n\n
+    resetApptBookSet()\n
     '''
 def getApptBookJobPlan():
-    '''public MboRemote getApptBookJobPlan(final String jpNum)
+    '''returns MboRemote\n\n
+    getApptBookJobPlan(final String jpNum)\n
     '''

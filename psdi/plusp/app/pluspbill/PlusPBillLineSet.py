@@ -1,9 +1,12 @@
-def PlusPBillLineSet():
-    '''public PlusPBillLineSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBillLineSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def skipInit():
-    '''public void skipInit(final boolean isChangeStatus)
+    '''returns None\n\n
+    skipInit(final boolean isChangeStatus)\n
     '''
 def isSkipInit():
-    '''public boolean isSkipInit()
+    '''returns boolean\n\n
+    isSkipInit()\n
     '''

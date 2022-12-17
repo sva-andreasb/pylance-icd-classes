@@ -1,12 +1,12 @@
-def forClosure():
-    '''public static <E> Closure<E> forClosure(final int count, final Closure<? super E> closure)
-    '''
-def ForClosure():
-    '''public ForClosure(final int count, final Closure<? super E> closure)
+def ():
+    '''returns ForClosure\n\n
+    (final int count, final Closure<? super E> closure)\n
     '''
 def execute():
-    '''public void execute(final E input)
+    '''returns None\n\n
+    execute(final E input)\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''

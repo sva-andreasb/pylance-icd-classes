@@ -1,15 +1,16 @@
-def RuntimeXML():
-    '''public RuntimeXML()
-    '''
-def readXML():
-    '''public static HashMap<String, HashMap> readXML(final InputStream is)
+def ():
+    '''returns RuntimeXML\n\n
+    ()\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String qname, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String qname, final Attributes attributes)\n
     '''
 def characters():
-    '''public void characters(final char[] text, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] text, final int start, final int length)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String localName, final String qname)
+    '''returns None\n\n
+    endElement(final String uri, final String localName, final String qname)\n
     '''

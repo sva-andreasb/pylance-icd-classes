@@ -1,6 +1,8 @@
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def selectPredecessorTasks():
-    '''public int selectPredecessorTasks()
+    '''returns int\n\n
+    selectPredecessorTasks()\n
     '''

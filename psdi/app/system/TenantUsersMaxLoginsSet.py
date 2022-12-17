@@ -1,12 +1,12 @@
-def TenantUsersMaxLoginsSet():
-    '''public TenantUsersMaxLoginsSet(final MboServerInterface ms)
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo(final int row)
+def ():
+    '''returns TenantUsersMaxLoginsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setTenant():
-    '''public void setTenant(final int id)
+    '''returns None\n\n
+    setTenant(final int id)\n
     '''
 def setLandlordInfo():
-    '''public void setLandlordInfo(final UserInfo landlord)
+    '''returns None\n\n
+    setLandlordInfo(final UserInfo landlord)\n
     '''

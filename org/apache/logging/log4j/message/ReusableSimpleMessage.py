@@ -1,43 +1,53 @@
 def set():
-    '''public void set(final String message)
-    public void set(final CharSequence charSequence)
+    '''returns None\n\n
+    set(final String message)\n
+    set(final CharSequence charSequence)\n
     '''
 def getFormattedMessage():
-    '''public String getFormattedMessage()
+    '''returns String\n\n
+    getFormattedMessage()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''
 def formatTo():
-    '''public void formatTo(final StringBuilder buffer)
+    '''returns None\n\n
+    formatTo(final StringBuilder buffer)\n
     '''
 def swapParameters():
-    '''public Object[] swapParameters(final Object[] emptyReplacement)
+    '''returns Object[]\n\n
+    swapParameters(final Object[] emptyReplacement)\n
     '''
 def getParameterCount():
-    '''public short getParameterCount()
-    '''
-def forEachParameter():
-    '''public <S> void forEachParameter(final ParameterConsumer<S> action, final S state)
+    '''returns short\n\n
+    getParameterCount()\n
     '''
 def memento():
-    '''public Message memento()
+    '''returns Message\n\n
+    memento()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

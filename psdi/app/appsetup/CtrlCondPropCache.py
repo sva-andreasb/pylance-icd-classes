@@ -1,32 +1,26 @@
-def CtrlCondPropCache():
-    '''public CtrlCondPropCache()
+def ():
+    '''returns CtrlCondPropCache\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
-    public void init(final MXServer mxs)
+    '''returns None\n\n
+    init()\n
+    init(final MXServer mxs)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
-    '''
-def getPropertyCache():
-    '''public HashMap<String, String> getPropertyCache(final UserInfo ui, final String ctrlConditionID, final String result)
-    '''
-def getLoadedProperties():
-    '''public HashMap<String, String> getLoadedProperties(final String langCode, final String ctrlConditionID, final String result)
-    '''
-def getCtrlGroups():
-    '''public TreeMap<Integer, HashMap<String, Object>> getCtrlGroups(final String app, final String optionname)
-    '''
-def getCtrlConditions():
-    '''public TreeMap<Integer, String[]> getCtrlConditions(final String app, final String optionname, final HashSet groupNames)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getPropertyList():
-    '''public TreeSet<String> getPropertyList()
+    '''returns TreeSet<String>\n\n
+    getPropertyList()\n
     '''
 def setPropertyList():
-    '''public void setPropertyList(final TreeSet<String> propertyList)
+    '''returns None\n\n
+    setPropertyList(final TreeSet<String> propertyList)\n
     '''

@@ -3,112 +3,146 @@ CACHEKEY_PMACTIVITY_ANCESTORINFO = "String  \"PMActivityDataManager-ancestorinfo
 CACHEKEY_PMACTIVITY_FORECAST = "String  \"PMActivityDataManager-forecast\""
 CACHEKEY_PMACTIVITY_FORECASTJP = "String  \"PMActivityDataManager-forecastjp\""
 def populate():
-    '''public boolean populate()
+    '''returns boolean\n\n
+    populate()\n
     '''
 def populateActivities():
-    '''public void populateActivities(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateActivities(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def populateActivityPropertyDetails():
-    '''public void populateActivityPropertyDetails()
+    '''returns None\n\n
+    populateActivityPropertyDetails()\n
     '''
 def getCompleteQueryWhere():
-    '''public String getCompleteQueryWhere(final String objectName, final HashMap<String, ArrayList<String>> queryMap)
+    '''returns String\n\n
+    getCompleteQueryWhere(final String objectName, final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def getDefaultRestriction():
-    '''public String getDefaultRestriction(final String objectName)
+    '''returns String\n\n
+    getDefaultRestriction(final String objectName)\n
     '''
 def loadActivity():
-    '''public void loadActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)
-    public void loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)
+    '''returns None\n\n
+    loadActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)\n
+    loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)\n
     '''
 def activityRecordCount():
-    '''public int activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns int\n\n
+    activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def saveActivities():
-    '''public void saveActivities(final IlvGeneralActivity activity)
+    '''returns None\n\n
+    saveActivities(final IlvGeneralActivity activity)\n
     '''
 def duplicateProjectData():
-    '''public void duplicateProjectData(final String originalProjectId)
+    '''returns None\n\n
+    duplicateProjectData(final String originalProjectId)\n
     '''
 def deleteProjectData():
-    '''public void deleteProjectData()
+    '''returns None\n\n
+    deleteProjectData()\n
     '''
 def applyActivityChange():
-    '''public void applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)
-    public void applyActivityChange(final MboRemote activityMboRemote, final String ids, final MXTransaction txn)
+    '''returns None\n\n
+    applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)\n
+    applyActivityChange(final MboRemote activityMboRemote, final String ids, final MXTransaction txn)\n
     '''
 def getAsyncCount():
-    '''public int getAsyncCount()
+    '''returns int\n\n
+    getAsyncCount()\n
     '''
 def populateActivityParentFromAsset():
-    '''public void populateActivityParentFromAsset(final String objectname, final String uniqueidname)
+    '''returns None\n\n
+    populateActivityParentFromAsset(final String objectname, final String uniqueidname)\n
     '''
 def populateActivityParentFromLocation():
-    '''public void populateActivityParentFromLocation(final String objectname, final String uniqueidname)
+    '''returns None\n\n
+    populateActivityParentFromLocation(final String objectname, final String uniqueidname)\n
     '''
 def getPmNum():
-    '''public String getPmNum()
-    public String getPmNum()
+    '''returns String\n\n
+    getPmNum()\n
+    getPmNum()\n
     '''
 def setPmNum():
-    '''public void setPmNum(final String pmNum)
-    public void setPmNum(final String pmNum)
+    '''returns None\n\n
+    setPmNum(final String pmNum)\n
+    setPmNum(final String pmNum)\n
     '''
 def getSiteId():
-    '''public String getSiteId()
-    public String getSiteId()
+    '''returns String\n\n
+    getSiteId()\n
+    getSiteId()\n
     '''
 def setSiteId():
-    '''public void setSiteId(final String siteId)
-    public void setSiteId(final String siteId)
+    '''returns None\n\n
+    setSiteId(final String siteId)\n
+    setSiteId(final String siteId)\n
     '''
 def getForecastDate():
-    '''public Date getForecastDate()
+    '''returns Date\n\n
+    getForecastDate()\n
     '''
 def setForecastDate():
-    '''public void setForecastDate(final Date forecastDate)
+    '''returns None\n\n
+    setForecastDate(final Date forecastDate)\n
     '''
 def getNewDate():
-    '''public Date getNewDate()
+    '''returns Date\n\n
+    getNewDate()\n
     '''
 def setNewDate():
-    '''public void setNewDate(final Date newDate)
+    '''returns None\n\n
+    setNewDate(final Date newDate)\n
     '''
 def getForecastSeqNo():
-    '''public int getForecastSeqNo()
-    public int getForecastSeqNo()
+    '''returns int\n\n
+    getForecastSeqNo()\n
+    getForecastSeqNo()\n
     '''
 def setForecastSeqNo():
-    '''public void setForecastSeqNo(final int forecastSeqNo)
-    public void setForecastSeqNo(final int forecastSeqNo)
+    '''returns None\n\n
+    setForecastSeqNo(final int forecastSeqNo)\n
+    setForecastSeqNo(final int forecastSeqNo)\n
     '''
 def getLtdCounter():
-    '''public int getLtdCounter()
+    '''returns int\n\n
+    getLtdCounter()\n
     '''
 def setLtdCounter():
-    '''public void setLtdCounter(final int ltdCounter)
+    '''returns None\n\n
+    setLtdCounter(final int ltdCounter)\n
     '''
 def getRemarks():
-    '''public String getRemarks()
+    '''returns String\n\n
+    getRemarks()\n
     '''
 def setRemarks():
-    '''public void setRemarks(final String remarks)
+    '''returns None\n\n
+    setRemarks(final String remarks)\n
     '''
 def isRegenerate():
-    '''public boolean isRegenerate()
+    '''returns boolean\n\n
+    isRegenerate()\n
     '''
 def setRegenerate():
-    '''public void setRegenerate(final boolean regenerate)
+    '''returns None\n\n
+    setRegenerate(final boolean regenerate)\n
     '''
 def getJpDuration():
-    '''public double getJpDuration()
+    '''returns double\n\n
+    getJpDuration()\n
     '''
 def setJpDuration():
-    '''public void setJpDuration(final double jpDuration)
+    '''returns None\n\n
+    setJpDuration(final double jpDuration)\n
     '''
 def getJpNum():
-    '''public String getJpNum()
+    '''returns String\n\n
+    getJpNum()\n
     '''
 def setJpNum():
-    '''public void setJpNum(final String jpNum)
+    '''returns None\n\n
+    setJpNum(final String jpNum)\n
     '''

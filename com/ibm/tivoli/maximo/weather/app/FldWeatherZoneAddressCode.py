@@ -1,6 +1,8 @@
-def FldWeatherZoneAddressCode():
-    '''public FldWeatherZoneAddressCode(final MboValue mbv)
+def ():
+    '''returns FldWeatherZoneAddressCode\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

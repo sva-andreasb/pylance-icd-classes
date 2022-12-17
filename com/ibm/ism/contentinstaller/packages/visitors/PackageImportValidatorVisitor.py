@@ -1,7 +1,9 @@
-def PackageImportValidatorVisitor():
-    '''public PackageImportValidatorVisitor(final boolean validateSelected)
+def ():
+    '''returns PackageImportValidatorVisitor\n\n
+    (final boolean validateSelected)\n
     '''
 def visit():
-    '''public void visit(final BaseTag baseTag)
-    public void visit(final BaseTag visitor)
+    '''returns None\n\n
+    visit(final BaseTag baseTag)\n
+    visit(final BaseTag visitor)\n
     '''

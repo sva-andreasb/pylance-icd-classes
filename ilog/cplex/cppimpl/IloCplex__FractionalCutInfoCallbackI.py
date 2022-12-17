@@ -1,12 +1,12 @@
-def IloCplex__FractionalCutInfoCallbackI():
-    '''public IloCplex__FractionalCutInfoCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__FractionalCutInfoCallbackI obj)
+def ():
+    '''returns IloCplex__FractionalCutInfoCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getProgress():
-    '''public double getProgress()
+    '''returns double\n\n
+    getProgress()\n
     '''

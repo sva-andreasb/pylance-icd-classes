@@ -1,56 +1,62 @@
 def getAgentClass():
-    '''public AgentClass getAgentClass()
+    '''returns AgentClass\n\n
+    getAgentClass()\n
     '''
 def getInstanceId():
-    '''public Map getInstanceId()
+    '''returns Map\n\n
+    getInstanceId()\n
     '''
 def getPrimaryId():
-    '''public GroupMemberId getPrimaryId()
+    '''returns GroupMemberId\n\n
+    getPrimaryId()\n
     '''
 def getHAGroup():
-    '''public HAGroup getHAGroup()
+    '''returns HAGroup\n\n
+    getHAGroup()\n
     '''
 def getMemberName():
-    '''public GroupMemberId getMemberName()
+    '''returns GroupMemberId\n\n
+    getMemberName()\n
     '''
 def isPrimary():
-    '''public boolean isPrimary()
-    '''
-def destroy():
-    '''public synchronized void destroy()
-    '''
-def destroySecondary():
-    '''public synchronized void destroySecondary()
+    '''returns boolean\n\n
+    isPrimary()\n
     '''
 def getMembers():
-    '''public GroupMemberId[] getMembers()
+    '''returns GroupMemberId[]\n\n
+    getMembers()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final MsgQoS qos, final GroupMemberId destination, final byte[] msg)
-    public void sendMessage(final MsgQoS qos, final GroupMemberId[] destinations, final byte[] msg)
-    public void sendMessage(final MsgQoS qos, final byte[] msg)
+    '''returns None\n\n
+    sendMessage(final MsgQoS qos, final GroupMemberId destination, final byte[] msg)\n
+    sendMessage(final MsgQoS qos, final GroupMemberId[] destinations, final byte[] msg)\n
+    sendMessage(final MsgQoS qos, final byte[] msg)\n
     '''
 def isAlive():
-    '''public boolean isAlive(final GroupName gn)
+    '''returns boolean\n\n
+    isAlive(final GroupName gn)\n
     '''
 def memberDeactivate():
-    '''public void memberDeactivate(final GroupName groupName, final AsynchOperationComplete callback, final Object callbackContext)
+    '''returns None\n\n
+    memberDeactivate(final GroupName groupName, final AsynchOperationComplete callback, final Object callbackContext)\n
     '''
 def memberIsActivated():
-    '''public void memberIsActivated(final GroupName groupName, final AsynchOperationComplete callback, final Object callbackContext)
+    '''returns None\n\n
+    memberIsActivated(final GroupName groupName, final AsynchOperationComplete callback, final Object callbackContext)\n
     '''
 def memberMayActivate():
-    '''public void memberMayActivate(final GroupName groupName)
+    '''returns None\n\n
+    memberMayActivate(final GroupName groupName)\n
     '''
 def memberMayActivateCancelled():
-    '''public void memberMayActivateCancelled(final GroupName groupName)
-    '''
-def onMessage():
-    '''public synchronized void onMessage(final GroupMemberId sender, final byte[] msg)
+    '''returns None\n\n
+    memberMayActivateCancelled(final GroupName groupName)\n
     '''
 def membershipChanged():
-    '''public void membershipChanged(final GroupName groupName, final GroupMemberId[] members)
+    '''returns None\n\n
+    membershipChanged(final GroupName groupName, final GroupMemberId[] members)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

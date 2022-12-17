@@ -1,109 +1,144 @@
-def GraphicContext():
-    '''public GraphicContext()
-    public GraphicContext(final AffineTransform defaultDeviceTransform)
+def ():
+    '''returns GraphicContext\n\n
+    ()\n
+    (final AffineTransform defaultDeviceTransform)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getColor():
-    '''public Color getColor()
+    '''returns Color\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final Color c)
+    '''returns None\n\n
+    setColor(final Color c)\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def getClipBounds():
-    '''public Rectangle getClipBounds()
+    '''returns Rectangle\n\n
+    getClipBounds()\n
     '''
 def clipRect():
-    '''public void clipRect(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    clipRect(final int x, final int y, final int width, final int height)\n
     '''
 def setClip():
-    '''public void setClip(final int x, final int y, final int width, final int height)
-    public void setClip(final Shape clip)
+    '''returns None\n\n
+    setClip(final int x, final int y, final int width, final int height)\n
+    setClip(final Shape clip)\n
     '''
 def getClip():
-    '''public Shape getClip()
+    '''returns Shape\n\n
+    getClip()\n
     '''
 def setComposite():
-    '''public void setComposite(final Composite comp)
+    '''returns None\n\n
+    setComposite(final Composite comp)\n
     '''
 def setPaint():
-    '''public void setPaint(final Paint paint)
+    '''returns None\n\n
+    setPaint(final Paint paint)\n
     '''
 def setStroke():
-    '''public void setStroke(final Stroke s)
+    '''returns None\n\n
+    setStroke(final Stroke s)\n
     '''
 def setRenderingHint():
-    '''public void setRenderingHint(final RenderingHints.Key hintKey, final Object hintValue)
+    '''returns None\n\n
+    setRenderingHint(final RenderingHints.Key hintKey, final Object hintValue)\n
     '''
 def getRenderingHint():
-    '''public Object getRenderingHint(final RenderingHints.Key hintKey)
+    '''returns Object\n\n
+    getRenderingHint(final RenderingHints.Key hintKey)\n
     '''
 def setRenderingHints():
-    '''public void setRenderingHints(final Map hints)
+    '''returns None\n\n
+    setRenderingHints(final Map hints)\n
     '''
 def addRenderingHints():
-    '''public void addRenderingHints(final Map hints)
+    '''returns None\n\n
+    addRenderingHints(final Map hints)\n
     '''
 def getRenderingHints():
-    '''public RenderingHints getRenderingHints()
+    '''returns RenderingHints\n\n
+    getRenderingHints()\n
     '''
 def translate():
-    '''public void translate(final int x, final int y)
-    public void translate(final double tx, final double ty)
+    '''returns None\n\n
+    translate(final int x, final int y)\n
+    translate(final double tx, final double ty)\n
     '''
 def rotate():
-    '''public void rotate(final double theta)
-    public void rotate(final double theta, final double x, final double y)
+    '''returns None\n\n
+    rotate(final double theta)\n
+    rotate(final double theta, final double x, final double y)\n
     '''
 def scale():
-    '''public void scale(final double sx, final double sy)
+    '''returns None\n\n
+    scale(final double sx, final double sy)\n
     '''
 def shear():
-    '''public void shear(final double shx, final double shy)
+    '''returns None\n\n
+    shear(final double shx, final double shy)\n
     '''
 def transform():
-    '''public void transform(final AffineTransform tx)
+    '''returns None\n\n
+    transform(final AffineTransform tx)\n
     '''
 def setTransform():
-    '''public void setTransform(final AffineTransform tx)
+    '''returns None\n\n
+    setTransform(final AffineTransform tx)\n
     '''
 def validateTransformStack():
-    '''public void validateTransformStack()
+    '''returns None\n\n
+    validateTransformStack()\n
     '''
 def isTransformStackValid():
-    '''public boolean isTransformStackValid()
+    '''returns boolean\n\n
+    isTransformStackValid()\n
     '''
 def getTransformStack():
-    '''public TransformStackElement[] getTransformStack()
+    '''returns TransformStackElement[]\n\n
+    getTransformStack()\n
     '''
 def getTransform():
-    '''public AffineTransform getTransform()
+    '''returns AffineTransform\n\n
+    getTransform()\n
     '''
 def getPaint():
-    '''public Paint getPaint()
+    '''returns Paint\n\n
+    getPaint()\n
     '''
 def getComposite():
-    '''public Composite getComposite()
+    '''returns Composite\n\n
+    getComposite()\n
     '''
 def setBackground():
-    '''public void setBackground(final Color color)
+    '''returns None\n\n
+    setBackground(final Color color)\n
     '''
 def getBackground():
-    '''public Color getBackground()
+    '''returns Color\n\n
+    getBackground()\n
     '''
 def getStroke():
-    '''public Stroke getStroke()
+    '''returns Stroke\n\n
+    getStroke()\n
     '''
 def clip():
-    '''public void clip(Shape s)
+    '''returns None\n\n
+    clip(Shape s)\n
     '''
 def getFontRenderContext():
-    '''public FontRenderContext getFontRenderContext()
+    '''returns FontRenderContext\n\n
+    getFontRenderContext()\n
     '''

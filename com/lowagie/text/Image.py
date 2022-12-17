@@ -20,279 +20,340 @@ ORIGINAL_BMP = "int  4"
 ORIGINAL_TIFF = "int  5"
 ORIGINAL_WMF = "int  6"
 ORIGINAL_PS = "int  7"
-def Image():
-    '''public Image(final URL url)
-    '''
-def getInstance():
-    '''public static Image getInstance(final Image image)
-    public static Image getInstance(final URL url)
-    public static Image getInstance(final byte[] imgb)
-    public static Image getInstance(final java.awt.Image image, final Color color, final boolean forceBW)
-    public static Image getInstance(final java.awt.Image image, final Color color)
-    public static Image getInstance(final String filename)
-    public static Image getInstance(final int width, final int height, final int components, final int bpc, final byte[] data)
-    public static Image getInstance(final PdfTemplate template)
-    public static Image getInstance(final int width, final int height, final boolean reverseBits, final int typeCCITT, final int parameters, final byte[] data)
-    public static Image getInstance(final int width, final int height, final boolean reverseBits, final int typeCCITT, final int parameters, final byte[] data, final int[] transparency)
-    public static Image getInstance(final int width, final int height, final int components, final int bpc, final byte[] data, final int[] transparency)
-    public static Image getInstance(final Properties attributes)
+def ():
+    '''returns Image\n\n
+    (final URL url)\n
     '''
 def setAlignment():
-    '''public void setAlignment(final int alignment)
+    '''returns None\n\n
+    setAlignment(final int alignment)\n
     '''
 def setAlt():
-    '''public void setAlt(final String alt)
+    '''returns None\n\n
+    setAlt(final String alt)\n
     '''
 def setAbsolutePosition():
-    '''public void setAbsolutePosition(final float absoluteX, final float absoluteY)
+    '''returns None\n\n
+    setAbsolutePosition(final float absoluteX, final float absoluteY)\n
     '''
 def scaleAbsolute():
-    '''public void scaleAbsolute(final float newWidth, final float newHeight)
+    '''returns None\n\n
+    scaleAbsolute(final float newWidth, final float newHeight)\n
     '''
 def scaleAbsoluteWidth():
-    '''public void scaleAbsoluteWidth(final float newWidth)
+    '''returns None\n\n
+    scaleAbsoluteWidth(final float newWidth)\n
     '''
 def scaleAbsoluteHeight():
-    '''public void scaleAbsoluteHeight(final float newHeight)
+    '''returns None\n\n
+    scaleAbsoluteHeight(final float newHeight)\n
     '''
 def scalePercent():
-    '''public void scalePercent(final float percent)
-    public void scalePercent(final float percentX, final float percentY)
+    '''returns None\n\n
+    scalePercent(final float percent)\n
+    scalePercent(final float percentX, final float percentY)\n
     '''
 def scaleToFit():
-    '''public void scaleToFit(final float fitWidth, final float fitHeight)
+    '''returns None\n\n
+    scaleToFit(final float fitWidth, final float fitHeight)\n
     '''
 def setRotation():
-    '''public void setRotation(final float r)
+    '''returns None\n\n
+    setRotation(final float r)\n
     '''
 def setRotationDegrees():
-    '''public void setRotationDegrees(final float deg)
+    '''returns None\n\n
+    setRotationDegrees(final float deg)\n
     '''
 def setAnnotation():
-    '''public void setAnnotation(final Annotation annotation)
+    '''returns None\n\n
+    setAnnotation(final Annotation annotation)\n
     '''
 def annotation():
-    '''public Annotation annotation()
+    '''returns Annotation\n\n
+    annotation()\n
     '''
 def bpc():
-    '''public int bpc()
+    '''returns int\n\n
+    bpc()\n
     '''
 def rawData():
-    '''public byte[] rawData()
+    '''returns byte[]\n\n
+    rawData()\n
     '''
 def templateData():
-    '''public PdfTemplate templateData()
+    '''returns PdfTemplate\n\n
+    templateData()\n
     '''
 def setTemplateData():
-    '''public void setTemplateData(final PdfTemplate template)
+    '''returns None\n\n
+    setTemplateData(final PdfTemplate template)\n
     '''
 def hasAbsolutePosition():
-    '''public boolean hasAbsolutePosition()
+    '''returns boolean\n\n
+    hasAbsolutePosition()\n
     '''
 def hasAbsoluteX():
-    '''public boolean hasAbsoluteX()
+    '''returns boolean\n\n
+    hasAbsoluteX()\n
     '''
 def absoluteX():
-    '''public float absoluteX()
+    '''returns float\n\n
+    absoluteX()\n
     '''
 def absoluteY():
-    '''public float absoluteY()
+    '''returns float\n\n
+    absoluteY()\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def isJpeg():
-    '''public boolean isJpeg()
+    '''returns boolean\n\n
+    isJpeg()\n
     '''
 def isImgRaw():
-    '''public boolean isImgRaw()
+    '''returns boolean\n\n
+    isImgRaw()\n
     '''
 def isImgTemplate():
-    '''public boolean isImgTemplate()
+    '''returns boolean\n\n
+    isImgTemplate()\n
     '''
 def url():
-    '''public URL url()
+    '''returns URL\n\n
+    url()\n
     '''
 def alignment():
-    '''public int alignment()
+    '''returns int\n\n
+    alignment()\n
     '''
 def alt():
-    '''public String alt()
+    '''returns String\n\n
+    alt()\n
     '''
 def scaledWidth():
-    '''public float scaledWidth()
+    '''returns float\n\n
+    scaledWidth()\n
     '''
 def scaledHeight():
-    '''public float scaledHeight()
+    '''returns float\n\n
+    scaledHeight()\n
     '''
 def colorspace():
-    '''public int colorspace()
+    '''returns int\n\n
+    colorspace()\n
     '''
 def matrix():
-    '''public float[] matrix()
-    '''
-def skip():
-    '''public static void skip(final InputStream is, int size)
-    '''
-def toURL():
-    '''public static URL toURL(final String filename)
+    '''returns float[]\n\n
+    matrix()\n
     '''
 def getTransparency():
-    '''public int[] getTransparency()
+    '''returns int[]\n\n
+    getTransparency()\n
     '''
 def setTransparency():
-    '''public void setTransparency(final int[] transparency)
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns None\n\n
+    setTransparency(final int[] transparency)\n
     '''
 def plainWidth():
-    '''public float plainWidth()
+    '''returns float\n\n
+    plainWidth()\n
     '''
 def plainHeight():
-    '''public float plainHeight()
+    '''returns float\n\n
+    plainHeight()\n
     '''
 def getMySerialId():
-    '''public Long getMySerialId()
+    '''returns Long\n\n
+    getMySerialId()\n
     '''
 def getDpiX():
-    '''public int getDpiX()
+    '''returns int\n\n
+    getDpiX()\n
     '''
 def getDpiY():
-    '''public int getDpiY()
+    '''returns int\n\n
+    getDpiY()\n
     '''
 def setDpi():
-    '''public void setDpi(final int dpiX, final int dpiY)
+    '''returns None\n\n
+    setDpi(final int dpiX, final int dpiY)\n
     '''
 def isMaskCandidate():
-    '''public boolean isMaskCandidate()
+    '''returns boolean\n\n
+    isMaskCandidate()\n
     '''
 def makeMask():
-    '''public void makeMask()
+    '''returns None\n\n
+    makeMask()\n
     '''
 def setImageMask():
-    '''public void setImageMask(final Image mask)
+    '''returns None\n\n
+    setImageMask(final Image mask)\n
     '''
 def getImageMask():
-    '''public Image getImageMask()
+    '''returns Image\n\n
+    getImageMask()\n
     '''
 def isMask():
-    '''public boolean isMask()
+    '''returns boolean\n\n
+    isMask()\n
     '''
 def setInvertMask():
-    '''public void setInvertMask(final boolean invert)
+    '''returns None\n\n
+    setInvertMask(final boolean invert)\n
     '''
 def isInvertMask():
-    '''public boolean isInvertMask()
+    '''returns boolean\n\n
+    isInvertMask()\n
     '''
 def isInverted():
-    '''public boolean isInverted()
+    '''returns boolean\n\n
+    isInverted()\n
     '''
 def setInverted():
-    '''public void setInverted(final boolean invert)
+    '''returns None\n\n
+    setInverted(final boolean invert)\n
     '''
 def isInterpolation():
-    '''public boolean isInterpolation()
+    '''returns boolean\n\n
+    isInterpolation()\n
     '''
 def setInterpolation():
-    '''public void setInterpolation(final boolean interpolation)
+    '''returns None\n\n
+    setInterpolation(final boolean interpolation)\n
     '''
 def setMarkupAttribute():
-    '''public void setMarkupAttribute(final String name, final String value)
+    '''returns None\n\n
+    setMarkupAttribute(final String name, final String value)\n
     '''
 def setMarkupAttributes():
-    '''public void setMarkupAttributes(final Properties markupAttributes)
+    '''returns None\n\n
+    setMarkupAttributes(final Properties markupAttributes)\n
     '''
 def getMarkupAttribute():
-    '''public String getMarkupAttribute(final String name)
+    '''returns String\n\n
+    getMarkupAttribute(final String name)\n
     '''
 def getMarkupAttributeNames():
-    '''public Set getMarkupAttributeNames()
+    '''returns Set\n\n
+    getMarkupAttributeNames()\n
     '''
 def getMarkupAttributes():
-    '''public Properties getMarkupAttributes()
+    '''returns Properties\n\n
+    getMarkupAttributes()\n
     '''
 def tagICC():
-    '''public void tagICC(final ICC_Profile profile)
+    '''returns None\n\n
+    tagICC(final ICC_Profile profile)\n
     '''
 def hasICCProfile():
-    '''public boolean hasICCProfile()
+    '''returns boolean\n\n
+    hasICCProfile()\n
     '''
 def getICCProfile():
-    '''public ICC_Profile getICCProfile()
+    '''returns ICC_Profile\n\n
+    getICCProfile()\n
     '''
 def isDeflated():
-    '''public boolean isDeflated()
+    '''returns boolean\n\n
+    isDeflated()\n
     '''
 def setDeflated():
-    '''public void setDeflated(final boolean deflated)
+    '''returns None\n\n
+    setDeflated(final boolean deflated)\n
     '''
 def getAdditional():
-    '''public PdfDictionary getAdditional()
+    '''returns PdfDictionary\n\n
+    getAdditional()\n
     '''
 def setAdditional():
-    '''public void setAdditional(final PdfDictionary additional)
+    '''returns None\n\n
+    setAdditional(final PdfDictionary additional)\n
     '''
 def isSmask():
-    '''public boolean isSmask()
+    '''returns boolean\n\n
+    isSmask()\n
     '''
 def setSmask():
-    '''public void setSmask(final boolean smask)
+    '''returns None\n\n
+    setSmask(final boolean smask)\n
     '''
 def getXYRatio():
-    '''public float getXYRatio()
+    '''returns float\n\n
+    getXYRatio()\n
     '''
 def setXYRatio():
-    '''public void setXYRatio(final float XYRatio)
+    '''returns None\n\n
+    setXYRatio(final float XYRatio)\n
     '''
 def indentationLeft():
-    '''public float indentationLeft()
+    '''returns float\n\n
+    indentationLeft()\n
     '''
 def indentationRight():
-    '''public float indentationRight()
+    '''returns float\n\n
+    indentationRight()\n
     '''
 def setIndentationLeft():
-    '''public void setIndentationLeft(final float f)
+    '''returns None\n\n
+    setIndentationLeft(final float f)\n
     '''
 def setIndentationRight():
-    '''public void setIndentationRight(final float f)
+    '''returns None\n\n
+    setIndentationRight(final float f)\n
     '''
 def getOriginalType():
-    '''public int getOriginalType()
+    '''returns int\n\n
+    getOriginalType()\n
     '''
 def setOriginalType():
-    '''public void setOriginalType(final int originalType)
+    '''returns None\n\n
+    setOriginalType(final int originalType)\n
     '''
 def getOriginalData():
-    '''public byte[] getOriginalData()
+    '''returns byte[]\n\n
+    getOriginalData()\n
     '''
 def setOriginalData():
-    '''public void setOriginalData(final byte[] originalData)
+    '''returns None\n\n
+    setOriginalData(final byte[] originalData)\n
     '''
 def setUrl():
-    '''public void setUrl(final URL url)
+    '''returns None\n\n
+    setUrl(final URL url)\n
     '''
 def setSpacingBefore():
-    '''public void setSpacingBefore(final float spacing)
+    '''returns None\n\n
+    setSpacingBefore(final float spacing)\n
     '''
 def setSpacingAfter():
-    '''public void setSpacingAfter(final float spacing)
+    '''returns None\n\n
+    setSpacingAfter(final float spacing)\n
     '''
 def spacingBefore():
-    '''public float spacingBefore()
+    '''returns float\n\n
+    spacingBefore()\n
     '''
 def spacingAfter():
-    '''public float spacingAfter()
+    '''returns float\n\n
+    spacingAfter()\n
     '''
 def getWidthPercentage():
-    '''public float getWidthPercentage()
+    '''returns float\n\n
+    getWidthPercentage()\n
     '''
 def setWidthPercentage():
-    '''public void setWidthPercentage(final float widthPercentage)
+    '''returns None\n\n
+    setWidthPercentage(final float widthPercentage)\n
     '''
 def getLayer():
-    '''public PdfOCG getLayer()
+    '''returns PdfOCG\n\n
+    getLayer()\n
     '''
 def setLayer():
-    '''public void setLayer(final PdfOCG layer)
+    '''returns None\n\n
+    setLayer(final PdfOCG layer)\n
     '''

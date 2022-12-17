@@ -1,130 +1,171 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getCplexSharedDefs():
-    '''public IloCplexSharedDefs getCplexSharedDefs()
+    '''returns IloCplexSharedDefs\n\n
+    getCplexSharedDefs()\n
     '''
 def getSharedDefs():
-    '''public IloSharedDefs getSharedDefs()
+    '''returns IloSharedDefs\n\n
+    getSharedDefs()\n
     '''
 def getCurrentExecMode():
-    '''public int getCurrentExecMode()
+    '''returns int\n\n
+    getCurrentExecMode()\n
     '''
 def getModelingFactory():
-    '''public IloCplexModelingFactory getModelingFactory()
+    '''returns IloCplexModelingFactory\n\n
+    getModelingFactory()\n
     '''
 def registerRequirement():
-    '''public void registerRequirement(final IloCplexRequirement req, final IloPriority prio, final boolean force)
-    public void registerRequirement(final IloCplexRequirement req, final IloPriority prio)
+    '''returns None\n\n
+    registerRequirement(final IloCplexRequirement req, final IloPriority prio, final boolean force)\n
+    registerRequirement(final IloCplexRequirement req, final IloPriority prio)\n
     '''
 def registerWeightedObjective():
-    '''public IloWeightedObjective registerWeightedObjective(final String name, final IloCplexDecisionVariable o, final IloObjectiveSense sense)
-    public IloWeightedObjective registerWeightedObjective(final String name, final IloCplexDecisionVariable o, final IloObjectiveSense sense, final double weight, final boolean force, final boolean isPublished, final boolean isMonitored)
+    '''returns IloWeightedObjective\n\n
+    registerWeightedObjective(final String name, final IloCplexDecisionVariable o, final IloObjectiveSense sense)\n
+    registerWeightedObjective(final String name, final IloCplexDecisionVariable o, final IloObjectiveSense sense, final double weight, final boolean force, final boolean isPublished, final boolean isMonitored)\n
     '''
 def unregisterWeightedObjective():
-    '''public void unregisterWeightedObjective(final IloWeightedObjective obj)
-    public void unregisterWeightedObjective(final String id)
+    '''returns None\n\n
+    unregisterWeightedObjective(final IloWeightedObjective obj)\n
+    unregisterWeightedObjective(final String id)\n
     '''
 def unregisterRequirement():
-    '''public void unregisterRequirement(final IloRequirement req)
-    public IloRequirement unregisterRequirement(final IloRequirementId reqId)
+    '''returns IloRequirement\n\n
+    unregisterRequirement(final IloRequirement req)\n
+    unregisterRequirement(final IloRequirementId reqId)\n
     '''
 def solveAnyway():
-    '''public boolean solveAnyway(final int timeLimitSeconds, final boolean optimizeObjective)
+    '''returns boolean\n\n
+    solveAnyway(final int timeLimitSeconds, final boolean optimizeObjective)\n
     '''
 def onChangeProperty():
-    '''public void onChangeProperty(final IloDecisionObjective o, final int propIndex, final Object oldValue)
-    public void onChangeProperty(final IloDecisionVariable o, final int propIndex, final Object oldValue)
+    '''returns None\n\n
+    onChangeProperty(final IloDecisionObjective o, final int propIndex, final Object oldValue)\n
+    onChangeProperty(final IloDecisionVariable o, final int propIndex, final Object oldValue)\n
     '''
 def getCurrentObjective():
-    '''public IloObjective getCurrentObjective()
+    '''returns IloObjective\n\n
+    getCurrentObjective()\n
     '''
 def isAborted():
-    '''public boolean isAborted()
+    '''returns boolean\n\n
+    isAborted()\n
     '''
 def resetAbort():
-    '''public void resetAbort()
+    '''returns None\n\n
+    resetAbort()\n
     '''
 def setRelaxationPref():
-    '''public void setRelaxationPref(final IloRange range, final double pref)
-    public void setRelaxationPref(final IloRange range, final double lbPref, final double ubPref)
+    '''returns None\n\n
+    setRelaxationPref(final IloRange range, final double pref)\n
+    setRelaxationPref(final IloRange range, final double lbPref, final double ubPref)\n
     '''
 def buildRequirement():
-    '''public IloRangeRequirement buildRequirement(final IloRange rg)
+    '''returns IloRangeRequirement\n\n
+    buildRequirement(final IloRange rg)\n
     '''
 def getRequirementProps():
-    '''public IloCplexReqPropsDef getRequirementProps()
+    '''returns IloCplexReqPropsDef\n\n
+    getRequirementProps()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def isEnded():
-    '''public boolean isEnded()
+    '''returns boolean\n\n
+    isEnded()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def findObjectiveBound():
-    '''public boolean findObjectiveBound(final String objectiveName, final IloPriority lowestPriority, final int timeLimitSeconds, final boolean isBest)
+    '''returns boolean\n\n
+    findObjectiveBound(final String objectiveName, final IloPriority lowestPriority, final int timeLimitSeconds, final boolean isBest)\n
     '''
 def getScenarioProcessor():
-    '''public IloScenarioProcessor getScenarioProcessor()
+    '''returns IloScenarioProcessor\n\n
+    getScenarioProcessor()\n
     '''
 def getHighestIgnoredPriority():
-    '''public IloPriority getHighestIgnoredPriority()
+    '''returns IloPriority\n\n
+    getHighestIgnoredPriority()\n
     '''
 def ignorePriorityLowerOrEqualsTo():
-    '''public void ignorePriorityLowerOrEqualsTo(final IloPriority priority)
+    '''returns None\n\n
+    ignorePriorityLowerOrEqualsTo(final IloPriority priority)\n
     '''
 def getIssuesReport():
-    '''public IloIssuesReport getIssuesReport()
+    '''returns IloIssuesReport\n\n
+    getIssuesReport()\n
     '''
 def getValueAccessor():
-    '''public IloValueAccessor getValueAccessor()
+    '''returns IloValueAccessor\n\n
+    getValueAccessor()\n
     '''
 def setValueAccessor():
-    '''public void setValueAccessor(final IloValueAccessor accessor)
+    '''returns None\n\n
+    setValueAccessor(final IloValueAccessor accessor)\n
     '''
 def getMonitoringManager():
-    '''public IloMonitoringManager getMonitoringManager()
+    '''returns IloMonitoringManager\n\n
+    getMonitoringManager()\n
     '''
 def getRootRequirementNode():
-    '''public IloRequirementNode getRootRequirementNode()
+    '''returns IloRequirementNode\n\n
+    getRootRequirementNode()\n
     '''
 def getRequirement():
-    '''public IloRequirement getRequirement(final IloRequirementId id)
+    '''returns IloRequirement\n\n
+    getRequirement(final IloRequirementId id)\n
     '''
 def getObjective():
-    '''public IloWeightedObjective getObjective(final String objectiveName)
+    '''returns IloWeightedObjective\n\n
+    getObjective(final String objectiveName)\n
     '''
 def getRequirementConnector():
-    '''public IloRequirementConnector getRequirementConnector()
+    '''returns IloRequirementConnector\n\n
+    getRequirementConnector()\n
     '''
 def getTreeBuilder():
-    '''public IloRequirementTreeBuilder getTreeBuilder()
+    '''returns IloRequirementTreeBuilder\n\n
+    getTreeBuilder()\n
     '''
 def setTreeBuilder():
-    '''public void setTreeBuilder(final IloRequirementTreeBuilder treeBuilder)
+    '''returns None\n\n
+    setTreeBuilder(final IloRequirementTreeBuilder treeBuilder)\n
     '''
 def getIssueReporter():
-    '''public IloIssueReporter getIssueReporter()
+    '''returns IloIssueReporter\n\n
+    getIssueReporter()\n
     '''
 def setIssueReporter():
-    '''public void setIssueReporter(final IloIssueReporter errorReporter)
+    '''returns None\n\n
+    setIssueReporter(final IloIssueReporter errorReporter)\n
     '''
 def getModelName():
-    '''public String getModelName()
+    '''returns String\n\n
+    getModelName()\n
     '''
 def setModelName():
-    '''public void setModelName(final String modelName)
+    '''returns None\n\n
+    setModelName(final String modelName)\n
     '''
 def getAlgorithmHeuristic():
-    '''public int getAlgorithmHeuristic()
+    '''returns int\n\n
+    getAlgorithmHeuristic()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public IloCplexRequirement next()
+    '''returns IloCplexRequirement\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

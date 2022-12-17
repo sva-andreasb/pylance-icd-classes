@@ -1,16 +1,21 @@
 defaultAssemblerFile = "String  \"tdb.ttl\""
-def ModTDBAssembler():
-    '''public ModTDBAssembler()
+def ():
+    '''returns ModTDBAssembler\n\n
+    ()\n
     '''
 def processArgs():
-    '''public void processArgs(final CmdArgModule cmdLine)
+    '''returns None\n\n
+    processArgs(final CmdArgModule cmdLine)\n
     '''
 def registerWith():
-    '''public void registerWith(final CmdGeneral cmdLine)
+    '''returns None\n\n
+    registerWith(final CmdGeneral cmdLine)\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def getAssemblerFile():
-    '''public String getAssemblerFile()
+    '''returns String\n\n
+    getAssemblerFile()\n
     '''

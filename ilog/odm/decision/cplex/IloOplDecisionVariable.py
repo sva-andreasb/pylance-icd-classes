@@ -1,29 +1,38 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getEvaluatedVariable():
-    '''public IloCplexEvaluatedDecisionVariable getEvaluatedVariable()
+    '''returns IloCplexEvaluatedDecisionVariable\n\n
+    getEvaluatedVariable()\n
     '''
 def setEvaluatedVariable():
-    '''public void setEvaluatedVariable(final IloCplexEvaluatedDecisionVariable evaluatedVariable)
+    '''returns None\n\n
+    setEvaluatedVariable(final IloCplexEvaluatedDecisionVariable evaluatedVariable)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def getDecisionVariable():
-    '''public IloDecisionVariable getDecisionVariable(final String name)
-    public IloDecisionVariable getDecisionVariable(final IloCompositeId name)
+    '''returns IloDecisionVariable\n\n
+    getDecisionVariable(final String name)\n
+    getDecisionVariable(final IloCompositeId name)\n
     '''
 def internalRemoveVar():
-    '''public void internalRemoveVar(final String name)
+    '''returns None\n\n
+    internalRemoveVar(final String name)\n
     '''
 def internalPutVar():
-    '''public void internalPutVar(final IloDecisionVariable var)
+    '''returns None\n\n
+    internalPutVar(final IloDecisionVariable var)\n
     '''
 def getExplanation():
-    '''public IloMessage getExplanation()
+    '''returns IloMessage\n\n
+    getExplanation()\n
     '''

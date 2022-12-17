@@ -1,3 +1,4 @@
-def PmSRLSNRBPCreateBasicSRAction():
-    '''public PmSRLSNRBPCreateBasicSRAction()
+def ():
+    '''returns PmSRLSNRBPCreateBasicSRAction\n\n
+    ()\n
     '''

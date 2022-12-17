@@ -1,3 +1,4 @@
-def ReconLinkClauseSet():
-    '''public ReconLinkClauseSet(final MboServerInterface ms)
+def ():
+    '''returns ReconLinkClauseSet\n\n
+    (final MboServerInterface ms)\n
     '''

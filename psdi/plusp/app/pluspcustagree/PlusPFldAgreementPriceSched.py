@@ -1,3 +1,4 @@
-def PlusPFldAgreementPriceSched():
-    '''public PlusPFldAgreementPriceSched(final MboValue mbv)
+def ():
+    '''returns PlusPFldAgreementPriceSched\n\n
+    (final MboValue mbv)\n
     '''

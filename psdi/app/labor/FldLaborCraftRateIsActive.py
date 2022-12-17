@@ -1,6 +1,8 @@
-def FldLaborCraftRateIsActive():
-    '''public FldLaborCraftRateIsActive(final MboValue mbv)
+def ():
+    '''returns FldLaborCraftRateIsActive\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

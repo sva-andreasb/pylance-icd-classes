@@ -10,27 +10,19 @@ TYPE_Chart = "String  \"Chart\""
 TYPE_Date = "String  \"Date\""
 TYPE_Button = "String  \"Button\""
 TYPE_Bool = "String  \"Bool\""
-def newVisibleColumn():
-    '''public static TreeGridColumn newVisibleColumn(final String id, final String label, final boolean visible)
-    '''
-def newInternalColumn():
-    '''public static TreeGridColumn newInternalColumn(final String id)
-    '''
-def TreeGridColumn():
-    '''public TreeGridColumn(final String id, final String label)
+def ():
+    '''returns TreeGridColumn\n\n
+    (final String id, final String label)\n
     '''
 def set():
-    '''public TreeGridColumn set(final String prop, final Object value)
-    '''
-def get():
-    '''public <T> T get(final String prop)
-    '''
-def getColumnModel():
-    '''public Map<String, Object> getColumnModel()
+    '''returns TreeGridColumn\n\n
+    set(final String prop, final Object value)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''

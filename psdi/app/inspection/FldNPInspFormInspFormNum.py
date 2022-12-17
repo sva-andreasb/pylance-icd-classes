@@ -1,3 +1,4 @@
-def FldNPInspFormInspFormNum():
-    '''public FldNPInspFormInspFormNum(final MboValue mbv)
+def ():
+    '''returns FldNPInspFormInspFormNum\n\n
+    (final MboValue mbv)\n
     '''

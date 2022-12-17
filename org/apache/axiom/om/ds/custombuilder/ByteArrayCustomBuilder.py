@@ -1,6 +1,8 @@
-def ByteArrayCustomBuilder():
-    '''public ByteArrayCustomBuilder(final String encoding)
+def ():
+    '''returns ByteArrayCustomBuilder\n\n
+    (final String encoding)\n
     '''
 def create():
-    '''public OMElement create(final String namespace, final String localPart, final OMContainer parent, final XMLStreamReader reader, final OMFactory factory)
+    '''returns OMElement\n\n
+    create(final String namespace, final String localPart, final OMContainer parent, final XMLStreamReader reader, final OMFactory factory)\n
     '''

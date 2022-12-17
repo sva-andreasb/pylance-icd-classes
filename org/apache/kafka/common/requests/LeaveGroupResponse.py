@@ -1,23 +1,18 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def LeaveGroupResponse():
-    '''public LeaveGroupResponse(final Errors error)
-    public LeaveGroupResponse(final int throttleTimeMs, final Errors error)
-    public LeaveGroupResponse(final Struct struct)
+def ():
+    '''returns LeaveGroupResponse\n\n
+    (final Errors error)\n
+    (final int throttleTimeMs, final Errors error)\n
+    (final Struct struct)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
+    '''returns Errors\n\n
+    error()\n
     '''
 def toStruct():
-    '''public Struct toStruct(final short version)
-    '''
-def parse():
-    '''public static LeaveGroupResponse parse(final ByteBuffer buffer, final short versionId)
+    '''returns Struct\n\n
+    toStruct(final short version)\n
     '''

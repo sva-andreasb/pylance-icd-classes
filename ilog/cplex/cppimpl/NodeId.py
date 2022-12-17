@@ -1,28 +1,33 @@
-def NodeId():
-    '''public NodeId(final long cPtr, final boolean cMemoryOwn)
-    public NodeId()
+def ():
+    '''returns NodeId\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    ()\n
     '''
 def setOwn():
-    '''public void setOwn(final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final NodeId obj)
+    '''returns None\n\n
+    setOwn(final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def set_id():
-    '''public void set_id(final int value)
+    '''returns None\n\n
+    set_id(final int value)\n
     '''
 def get_id():
-    '''public int get_id()
+    '''returns int\n\n
+    get_id()\n
     '''
 def operator_eq():
-    '''public int operator_eq(final NodeId nodeid)
+    '''returns int\n\n
+    operator_eq(final NodeId nodeid)\n
     '''
 def operator_neq():
-    '''public int operator_neq(final NodeId nodeid)
+    '''returns int\n\n
+    operator_neq(final NodeId nodeid)\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''

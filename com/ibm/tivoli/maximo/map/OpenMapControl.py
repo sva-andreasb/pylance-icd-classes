@@ -1,90 +1,116 @@
 def getClientEventCtrl():
-    '''public MapControlClientEvent getClientEventCtrl()
+    '''returns MapControlClientEvent\n\n
+    getClientEventCtrl()\n
     '''
-def OpenMapControl():
-    '''public OpenMapControl()
+def ():
+    '''returns OpenMapControl\n\n
+    ()\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def isContextPersistent():
-    '''public Boolean isContextPersistent()
+    '''returns Boolean\n\n
+    isContextPersistent()\n
     '''
 def getZoomLevel():
-    '''public String getZoomLevel()
+    '''returns String\n\n
+    getZoomLevel()\n
     '''
 def isMapViewOnly():
-    '''public Boolean isMapViewOnly()
+    '''returns Boolean\n\n
+    isMapViewOnly()\n
     '''
 def getInitialX():
-    '''public Double getInitialX()
+    '''returns Double\n\n
+    getInitialX()\n
     '''
 def getInitialY():
-    '''public Double getInitialY()
+    '''returns Double\n\n
+    getInitialY()\n
     '''
 def isMobile():
-    '''public boolean isMobile()
+    '''returns boolean\n\n
+    isMobile()\n
     '''
 def getHeight():
-    '''public String getHeight()
+    '''returns String\n\n
+    getHeight()\n
     '''
 def getRefreshMapInterval():
-    '''public String getRefreshMapInterval()
+    '''returns String\n\n
+    getRefreshMapInterval()\n
     '''
 def getMapConfiguration():
-    '''public JSONObject getMapConfiguration()
+    '''returns JSONObject\n\n
+    getMapConfiguration()\n
     '''
 def loadGISMapConfiguration():
-    '''public void loadGISMapConfiguration()
+    '''returns None\n\n
+    loadGISMapConfiguration()\n
     '''
 def storeUserLocation():
-    '''public int storeUserLocation()
+    '''returns int\n\n
+    storeUserLocation()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getCurrentState():
-    '''public JSONArray getCurrentState()
+    '''returns JSONArray\n\n
+    getCurrentState()\n
     '''
 def getCurrentRecordData():
-    '''public JSONObject getCurrentRecordData()
+    '''returns JSONObject\n\n
+    getCurrentRecordData()\n
     '''
 def getMainRecordMbo():
-    '''public MboRemote getMainRecordMbo()
+    '''returns MboRemote\n\n
+    getMainRecordMbo()\n
     '''
 def showMaxMessage():
-    '''public int showMaxMessage()
+    '''returns int\n\n
+    showMaxMessage()\n
     '''
 def showErrorsParamObject():
-    '''public int showErrorsParamObject()
+    '''returns int\n\n
+    showErrorsParamObject()\n
     '''
 def showErrors():
-    '''public int showErrors()
+    '''returns int\n\n
+    showErrors()\n
     '''
 def createMapCallback():
-    '''public void createMapCallback(final String actionName, final JSONObject data)
+    '''returns None\n\n
+    createMapCallback(final String actionName, final JSONObject data)\n
     '''
 def addRecordsToLayer():
-    '''public void addRecordsToLayer(final String layerName, final MboSetRemote mboSet, final boolean cleanOld)
+    '''returns None\n\n
+    addRecordsToLayer(final String layerName, final MboSetRemote mboSet, final boolean cleanOld)\n
     '''
 def addEventToMap():
-    '''public void addEventToMap(final String eventName, final JSONObject action)
+    '''returns None\n\n
+    addEventToMap(final String eventName, final JSONObject action)\n
     '''
 def removeRecordsFromLayer():
-    '''public void removeRecordsFromLayer(final String layerName, final MboSetRemote mboSet)
-    '''
-def removeCommentsFromJson():
-    '''public static String removeCommentsFromJson(final String isStr)
+    '''returns None\n\n
+    removeRecordsFromLayer(final String layerName, final MboSetRemote mboSet)\n
     '''
 def clearNextEventData():
-    '''public void clearNextEventData()
+    '''returns None\n\n
+    clearNextEventData()\n
     '''
 def getOpenMapReturnAttribute():
-    '''public String getOpenMapReturnAttribute()
+    '''returns String\n\n
+    getOpenMapReturnAttribute()\n
     '''
 def getOriginalApp():
-    '''public String getOriginalApp(final String app)
+    '''returns String\n\n
+    getOriginalApp(final String app)\n
     '''
 def pushMapControlClientEventHandler():
-    '''public int pushMapControlClientEventHandler()
+    '''returns int\n\n
+    pushMapControlClientEventHandler()\n
     '''

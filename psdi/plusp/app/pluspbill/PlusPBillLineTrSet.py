@@ -1,3 +1,4 @@
-def PlusPBillLineTrSet():
-    '''public PlusPBillLineTrSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBillLineTrSet\n\n
+    (final MboServerInterface ms)\n
     '''

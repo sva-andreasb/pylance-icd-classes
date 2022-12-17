@@ -1,0 +1,4 @@
+SOAP_MONITOR_REQUEST = "int  0"
+SOAP_MONITOR_RESPONSE = "int  1"
+SOAP_MONITOR_PORT = "String  \"SOAPMonitorPort\""
+SOAP_MONITOR_ID = "String  \"SOAPMonitorId\""

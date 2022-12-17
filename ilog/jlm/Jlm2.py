@@ -1,15 +1,16 @@
 def getEmptyCopy():
-    '''public Jlm2 getEmptyCopy()
+    '''returns Jlm2\n\n
+    getEmptyCopy()\n
     '''
 def add():
-    '''public void add(final JlmKey e)
-    '''
-def getKeys():
-    '''public final Collection<JlmKey> getKeys()
+    '''returns None\n\n
+    add(final JlmKey e)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

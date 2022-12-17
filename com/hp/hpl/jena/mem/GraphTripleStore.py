@@ -1,3 +1,4 @@
-def GraphTripleStore():
-    '''public GraphTripleStore(final Graph parent)
+def ():
+    '''returns GraphTripleStore\n\n
+    (final Graph parent)\n
     '''

@@ -1,6 +1,8 @@
-def JsonEOFException():
-    '''public JsonEOFException(final JsonParser p, final JsonToken token, final String msg)
+def ():
+    '''returns JsonEOFException\n\n
+    (final JsonParser p, final JsonToken token, final String msg)\n
     '''
 def getTokenBeingDecoded():
-    '''public JsonToken getTokenBeingDecoded()
+    '''returns JsonToken\n\n
+    getTokenBeingDecoded()\n
     '''

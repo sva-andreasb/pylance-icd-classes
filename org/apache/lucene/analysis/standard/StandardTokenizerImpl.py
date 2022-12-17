@@ -8,42 +8,15 @@ HIRAGANA_TYPE = "int  4"
 KATAKANA_TYPE = "int  5"
 HANGUL_TYPE = "int  6"
 EMOJI_TYPE = "int  7"
-def yychar():
-    '''public final int yychar()
-    '''
-def getText():
-    '''public final void getText(final CharTermAttribute t)
-    '''
-def setBufferSize():
-    '''public final void setBufferSize(final int numChars)
-    '''
-def StandardTokenizerImpl():
-    '''public StandardTokenizerImpl(final Reader in)
-    '''
-def yyclose():
-    '''public final void yyclose()
-    '''
-def yyreset():
-    '''public final void yyreset(final Reader reader)
-    '''
-def yystate():
-    '''public final int yystate()
-    '''
-def yybegin():
-    '''public final void yybegin(final int newState)
-    '''
-def yytext():
-    '''public final String yytext()
-    '''
-def yycharat():
-    '''public final char yycharat(final int pos)
-    '''
-def yylength():
-    '''public final int yylength()
+def ():
+    '''returns StandardTokenizerImpl\n\n
+    (final Reader in)\n
     '''
 def yypushback():
-    '''public void yypushback(final int number)
+    '''returns None\n\n
+    yypushback(final int number)\n
     '''
 def getNextToken():
-    '''public int getNextToken()
+    '''returns int\n\n
+    getNextToken()\n
     '''

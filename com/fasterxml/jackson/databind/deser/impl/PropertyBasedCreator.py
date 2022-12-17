@@ -1,24 +1,25 @@
-def construct():
-    '''public static PropertyBasedCreator construct(final DeserializationContext ctxt, final ValueInstantiator valueInstantiator, final SettableBeanProperty[] srcCreatorProps, final BeanPropertyMap allProperties)
-    public static PropertyBasedCreator construct(final DeserializationContext ctxt, final ValueInstantiator valueInstantiator, final SettableBeanProperty[] srcCreatorProps, final boolean caseInsensitive)
-    public static PropertyBasedCreator construct(final DeserializationContext ctxt, final ValueInstantiator valueInstantiator, final SettableBeanProperty[] srcCreatorProps)
-    '''
 def properties():
-    '''public Collection<SettableBeanProperty> properties()
+    '''returns Collection<SettableBeanProperty>\n\n
+    properties()\n
     '''
 def findCreatorProperty():
-    '''public SettableBeanProperty findCreatorProperty(final String name)
-    public SettableBeanProperty findCreatorProperty(final int propertyIndex)
+    '''returns SettableBeanProperty\n\n
+    findCreatorProperty(final String name)\n
+    findCreatorProperty(final int propertyIndex)\n
     '''
 def startBuilding():
-    '''public PropertyValueBuffer startBuilding(final JsonParser p, final DeserializationContext ctxt, final ObjectIdReader oir)
+    '''returns PropertyValueBuffer\n\n
+    startBuilding(final JsonParser p, final DeserializationContext ctxt, final ObjectIdReader oir)\n
     '''
 def build():
-    '''public Object build(final DeserializationContext ctxt, final PropertyValueBuffer buffer)
+    '''returns Object\n\n
+    build(final DeserializationContext ctxt, final PropertyValueBuffer buffer)\n
     '''
 def get():
-    '''public SettableBeanProperty get(final Object key0)
+    '''returns SettableBeanProperty\n\n
+    get(final Object key0)\n
     '''
 def put():
-    '''public SettableBeanProperty put(String key, final SettableBeanProperty value)
+    '''returns SettableBeanProperty\n\n
+    put(String key, final SettableBeanProperty value)\n
     '''

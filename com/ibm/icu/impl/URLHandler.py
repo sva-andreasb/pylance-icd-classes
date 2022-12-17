@@ -1,9 +1,7 @@
 PROPNAME = "String  \"urlhandler.props\""
-def get():
-    '''public static URLHandler get(final URL url)
-    '''
 def guide():
-    '''public void guide(final URLVisitor visitor, final boolean recurse)
-    public void guide(final URLVisitor v, final boolean recurse, final boolean strip)
-    public void guide(final URLVisitor v, final boolean recurse, final boolean strip)
+    '''returns None\n\n
+    guide(final URLVisitor visitor, final boolean recurse)\n
+    guide(final URLVisitor v, final boolean recurse, final boolean strip)\n
+    guide(final URLVisitor v, final boolean recurse, final boolean strip)\n
     '''

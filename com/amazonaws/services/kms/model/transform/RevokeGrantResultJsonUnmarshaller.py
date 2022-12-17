@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public RevokeGrantResult unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static RevokeGrantResultJsonUnmarshaller getInstance()
+    '''returns RevokeGrantResult\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

@@ -1,6 +1,8 @@
-def ConnConnectionParamBean():
-    '''public ConnConnectionParamBean(final HttpParams params)
+def ():
+    '''returns ConnConnectionParamBean\n\n
+    (final HttpParams params)\n
     '''
 def setMaxStatusLineGarbage():
-    '''public void setMaxStatusLineGarbage(final int maxStatusLineGarbage)
+    '''returns None\n\n
+    setMaxStatusLineGarbage(final int maxStatusLineGarbage)\n
     '''

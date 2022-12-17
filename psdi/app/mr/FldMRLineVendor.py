@@ -1,12 +1,16 @@
-def FldMRLineVendor():
-    '''public FldMRLineVendor(final MboValue mbv)
+def ():
+    '''returns FldMRLineVendor\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

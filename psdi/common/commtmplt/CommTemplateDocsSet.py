@@ -1,6 +1,8 @@
-def CommTemplateDocsSet():
-    '''public CommTemplateDocsSet(final MboServerInterface ms)
+def ():
+    '''returns CommTemplateDocsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

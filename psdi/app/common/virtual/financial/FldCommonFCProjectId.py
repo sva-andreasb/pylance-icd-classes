@@ -1,6 +1,8 @@
-def FldCommonFCProjectId():
-    '''public FldCommonFCProjectId(final MboValue mbv)
+def ():
+    '''returns FldCommonFCProjectId\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -1,66 +1,88 @@
 def getXmlObject():
-    '''public CTSlide getXmlObject()
+    '''returns CTSlide\n\n
+    getXmlObject()\n
     '''
 def getMasterSheet():
-    '''public XSLFSlideLayout getMasterSheet()
+    '''returns XSLFSlideLayout\n\n
+    getMasterSheet()\n
     '''
 def getSlideLayout():
-    '''public XSLFSlideLayout getSlideLayout()
+    '''returns XSLFSlideLayout\n\n
+    getSlideLayout()\n
     '''
 def getSlideMaster():
-    '''public XSLFSlideMaster getSlideMaster()
+    '''returns XSLFSlideMaster\n\n
+    getSlideMaster()\n
     '''
 def getComments():
-    '''public XSLFComments getComments()
+    '''returns XSLFComments\n\n
+    getComments()\n
     '''
 def getNotes():
-    '''public XSLFNotes getNotes()
+    '''returns XSLFNotes\n\n
+    getNotes()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getTheme():
-    '''public XSLFTheme getTheme()
+    '''returns XSLFTheme\n\n
+    getTheme()\n
     '''
 def getBackground():
-    '''public XSLFBackground getBackground()
+    '''returns XSLFBackground\n\n
+    getBackground()\n
     '''
 def getFollowMasterGraphics():
-    '''public boolean getFollowMasterGraphics()
+    '''returns boolean\n\n
+    getFollowMasterGraphics()\n
     '''
 def setFollowMasterGraphics():
-    '''public void setFollowMasterGraphics(final boolean value)
+    '''returns None\n\n
+    setFollowMasterGraphics(final boolean value)\n
     '''
 def getFollowMasterObjects():
-    '''public boolean getFollowMasterObjects()
+    '''returns boolean\n\n
+    getFollowMasterObjects()\n
     '''
 def setFollowMasterObjects():
-    '''public void setFollowMasterObjects(final boolean follow)
+    '''returns None\n\n
+    setFollowMasterObjects(final boolean follow)\n
     '''
 def importContent():
-    '''public XSLFSlide importContent(final XSLFSheet src)
+    '''returns XSLFSlide\n\n
+    importContent(final XSLFSheet src)\n
     '''
 def getFollowMasterBackground():
-    '''public boolean getFollowMasterBackground()
+    '''returns boolean\n\n
+    getFollowMasterBackground()\n
     '''
 def setFollowMasterBackground():
-    '''public void setFollowMasterBackground(final boolean follow)
+    '''returns None\n\n
+    setFollowMasterBackground(final boolean follow)\n
     '''
 def getFollowMasterColourScheme():
-    '''public boolean getFollowMasterColourScheme()
+    '''returns boolean\n\n
+    getFollowMasterColourScheme()\n
     '''
 def setFollowMasterColourScheme():
-    '''public void setFollowMasterColourScheme(final boolean follow)
+    '''returns None\n\n
+    setFollowMasterColourScheme(final boolean follow)\n
     '''
 def setNotes():
-    '''public void setNotes(final Notes<XSLFShape, XSLFTextParagraph> notes)
+    '''returns None\n\n
+    setNotes(final Notes<XSLFShape, XSLFTextParagraph> notes)\n
     '''
 def getSlideNumber():
-    '''public int getSlideNumber()
+    '''returns int\n\n
+    getSlideNumber()\n
     '''
 def draw():
-    '''public void draw(final Graphics2D graphics)
+    '''returns None\n\n
+    draw(final Graphics2D graphics)\n
     '''
 def getDisplayPlaceholder():
-    '''public boolean getDisplayPlaceholder(final Placeholder placeholder)
+    '''returns boolean\n\n
+    getDisplayPlaceholder(final Placeholder placeholder)\n
     '''

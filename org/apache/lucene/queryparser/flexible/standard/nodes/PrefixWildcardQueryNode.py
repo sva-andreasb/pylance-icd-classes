@@ -1,10 +1,13 @@
-def PrefixWildcardQueryNode():
-    '''public PrefixWildcardQueryNode(final CharSequence field, final CharSequence text, final int begin, final int end)
-    public PrefixWildcardQueryNode(final FieldQueryNode fqn)
+def ():
+    '''returns PrefixWildcardQueryNode\n\n
+    (final CharSequence field, final CharSequence text, final int begin, final int end)\n
+    (final FieldQueryNode fqn)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def cloneTree():
-    '''public PrefixWildcardQueryNode cloneTree()
+    '''returns PrefixWildcardQueryNode\n\n
+    cloneTree()\n
     '''

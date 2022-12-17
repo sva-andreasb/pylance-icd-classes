@@ -1,6 +1,8 @@
-def OSUserSubscriptionSet():
-    '''public OSUserSubscriptionSet(final MboServerInterface ms)
+def ():
+    '''returns OSUserSubscriptionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

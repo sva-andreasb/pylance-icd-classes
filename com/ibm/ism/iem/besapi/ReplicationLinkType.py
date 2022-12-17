@@ -1,42 +1,56 @@
 def getSourceServerID():
-    '''public BigInteger getSourceServerID()
+    '''returns BigInteger\n\n
+    getSourceServerID()\n
     '''
 def setSourceServerID():
-    '''public void setSourceServerID(final BigInteger value)
+    '''returns None\n\n
+    setSourceServerID(final BigInteger value)\n
     '''
 def getDestinationServerID():
-    '''public BigInteger getDestinationServerID()
+    '''returns BigInteger\n\n
+    getDestinationServerID()\n
     '''
 def setDestinationServerID():
-    '''public void setDestinationServerID(final BigInteger value)
+    '''returns None\n\n
+    setDestinationServerID(final BigInteger value)\n
     '''
 def getWeight():
-    '''public BigInteger getWeight()
+    '''returns BigInteger\n\n
+    getWeight()\n
     '''
 def setWeight():
-    '''public void setWeight(final BigInteger value)
+    '''returns None\n\n
+    setWeight(final BigInteger value)\n
     '''
 def isIsConnected():
-    '''public Boolean isIsConnected()
+    '''returns Boolean\n\n
+    isIsConnected()\n
     '''
 def setIsConnected():
-    '''public void setIsConnected(final Boolean value)
+    '''returns None\n\n
+    setIsConnected(final Boolean value)\n
     '''
 def getLastReplication():
-    '''public String getLastReplication()
+    '''returns String\n\n
+    getLastReplication()\n
     '''
 def setLastReplication():
-    '''public void setLastReplication(final String value)
+    '''returns None\n\n
+    setLastReplication(final String value)\n
     '''
 def getLastError():
-    '''public String getLastError()
+    '''returns String\n\n
+    getLastError()\n
     '''
 def setLastError():
-    '''public void setLastError(final String value)
+    '''returns None\n\n
+    setLastError(final String value)\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String value)
+    '''returns None\n\n
+    setResource(final String value)\n
     '''

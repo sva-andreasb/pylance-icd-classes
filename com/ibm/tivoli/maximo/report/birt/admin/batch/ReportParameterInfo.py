@@ -1,18 +1,24 @@
-def ReportParameterInfo():
-    '''public ReportParameterInfo()
+def ():
+    '''returns ReportParameterInfo\n\n
+    ()\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String attributeName, final String attributeValue)
+    '''returns None\n\n
+    setAttribute(final String attributeName, final String attributeValue)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final String attributeName)
+    '''returns String\n\n
+    getAttribute(final String attributeName)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String attributeName)
+    '''returns None\n\n
+    removeAttribute(final String attributeName)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getAttributes():
-    '''public Iterator getAttributes()
+    '''returns Iterator\n\n
+    getAttributes()\n
     '''

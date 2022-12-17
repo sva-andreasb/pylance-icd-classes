@@ -1,21 +1,24 @@
-def MXServerInfo():
-    '''public MXServerInfo()
-    '''
-def getMXServerInfo():
-    '''public static MXServerInfo getMXServerInfo()
+def ():
+    '''returns MXServerInfo\n\n
+    ()\n
     '''
 def isStartedInProcess():
-    '''public boolean isStartedInProcess()
+    '''returns boolean\n\n
+    isStartedInProcess()\n
     '''
 def allowLocalObjects():
-    '''public boolean allowLocalObjects()
+    '''returns boolean\n\n
+    allowLocalObjects()\n
     '''
 def isRunning():
-    '''public boolean isRunning()
+    '''returns boolean\n\n
+    isRunning()\n
     '''
 def useAppServerSecurity():
-    '''public boolean useAppServerSecurity()
+    '''returns boolean\n\n
+    useAppServerSecurity()\n
     '''
 def setUseAppServerSecurity():
-    '''public void setUseAppServerSecurity(final boolean useAppServerSecurity)
+    '''returns None\n\n
+    setUseAppServerSecurity(final boolean useAppServerSecurity)\n
     '''

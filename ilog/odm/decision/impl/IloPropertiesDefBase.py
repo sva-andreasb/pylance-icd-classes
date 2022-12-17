@@ -1,31 +1,41 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloPropertiesDefBase():
-    '''public IloPropertiesDefBase()
+def ():
+    '''returns IloPropertiesDefBase\n\n
+    ()\n
     '''
 def getPropertyIndex():
-    '''public int getPropertyIndex(String name)
+    '''returns int\n\n
+    getPropertyIndex(String name)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName(final int index)
+    '''returns String\n\n
+    getPropertyName(final int index)\n
     '''
 def getPropertyGetter():
-    '''public Getter getPropertyGetter(final int index)
+    '''returns Getter\n\n
+    getPropertyGetter(final int index)\n
     '''
 def getPropertySetter():
-    '''public Setter getPropertySetter(final int index)
+    '''returns Setter\n\n
+    getPropertySetter(final int index)\n
     '''
 def addProperty():
-    '''public void addProperty(final String propName, final Class<?> propType, final boolean isMandatory, final boolean isStored, final boolean isExported, final Getter getter, final Setter setter)
+    '''returns None\n\n
+    addProperty(final String propName, final Class<?> propType, final boolean isMandatory, final boolean isStored, final boolean isExported, final Getter getter, final Setter setter)\n
     '''
 def selectProperty():
-    '''public void selectProperty(final String propName)
+    '''returns None\n\n
+    selectProperty(final String propName)\n
     '''
 def propertyCount():
-    '''public int propertyCount(final Selector select)
+    '''returns int\n\n
+    propertyCount(final Selector select)\n
     '''
 def exportedProperties():
-    '''public Property[] exportedProperties()
+    '''returns Property[]\n\n
+    exportedProperties()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

@@ -1,4 +1,5 @@
-def JDIPermission():
-    '''public JDIPermission(final String s)
-    public JDIPermission(final String s, final String str)
+def ():
+    '''returns JDIPermission\n\n
+    (final String s)\n
+    (final String s, final String str)\n
     '''

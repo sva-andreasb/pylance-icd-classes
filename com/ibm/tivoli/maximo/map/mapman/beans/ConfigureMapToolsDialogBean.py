@@ -1,24 +1,28 @@
-def ConfigureMapToolsDialogBean():
-    '''public ConfigureMapToolsDialogBean()
+def ():
+    '''returns ConfigureMapToolsDialogBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def updateAppToolItemsMap():
-    '''public void updateAppToolItemsMap(final String appName, final String toolsList)
+    '''returns None\n\n
+    updateAppToolItemsMap(final String appName, final String toolsList)\n
     '''
 def selectAllToolsForAllApps():
-    '''public int selectAllToolsForAllApps()
+    '''returns int\n\n
+    selectAllToolsForAllApps()\n
     '''
 def selectAllToolsForCurrentApp():
-    '''public int selectAllToolsForCurrentApp()
+    '''returns int\n\n
+    selectAllToolsForCurrentApp()\n
     '''
 def selectAllToolsForApp():
-    '''public void selectAllToolsForApp(final MboRemote appMbo)
+    '''returns None\n\n
+    selectAllToolsForApp(final MboRemote appMbo)\n
     '''
 def getModifiedToolsForApp():
-    '''public String getModifiedToolsForApp(final String appName)
-    '''
-def getAvailabletWidgetMap():
-    '''public Map<String, String> getAvailabletWidgetMap()
+    '''returns String\n\n
+    getModifiedToolsForApp(final String appName)\n
     '''

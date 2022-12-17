@@ -1,3 +1,4 @@
 def openStream():
-    '''public InputStream openStream(final URL url)
+    '''returns InputStream\n\n
+    openStream(final URL url)\n
     '''

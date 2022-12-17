@@ -1,3 +1,4 @@
-def SKDAction():
-    '''public SKDAction(final MboSet ms)
+def ():
+    '''returns SKDAction\n\n
+    (final MboSet ms)\n
     '''

@@ -1,34 +1,45 @@
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def add():
-    '''public void add(final int index, final E object)
+    '''returns None\n\n
+    add(final int index, final E object)\n
     '''
 def addAll():
-    '''public boolean addAll(final int index, final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final int index, final Collection<? extends E> coll)\n
     '''
 def get():
-    '''public E get(final int index)
+    '''returns E\n\n
+    get(final int index)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object object)
+    '''returns int\n\n
+    indexOf(final Object object)\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object object)
+    '''returns int\n\n
+    lastIndexOf(final Object object)\n
     '''
 def listIterator():
-    '''public ListIterator<E> listIterator()
-    public ListIterator<E> listIterator(final int index)
+    '''returns ListIterator<E>\n\n
+    listIterator()\n
+    listIterator(final int index)\n
     '''
 def remove():
-    '''public E remove(final int index)
+    '''returns E\n\n
+    remove(final int index)\n
     '''
 def set():
-    '''public E set(final int index, final E object)
+    '''returns E\n\n
+    set(final int index, final E object)\n
     '''
 def subList():
-    '''public List<E> subList(final int fromIndex, final int toIndex)
+    '''returns List<E>\n\n
+    subList(final int fromIndex, final int toIndex)\n
     '''

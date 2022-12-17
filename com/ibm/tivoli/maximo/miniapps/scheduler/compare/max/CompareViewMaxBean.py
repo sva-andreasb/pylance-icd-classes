@@ -1,18 +1,16 @@
-def CompareViewMaxBean():
-    '''public CompareViewMaxBean()
+def ():
+    '''returns CompareViewMaxBean\n\n
+    ()\n
     '''
 def loadCompareUI():
-    '''public void loadCompareUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("compare") final JSONObject compareJsonData)
+    '''returns None\n\n
+    loadCompareUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("compare") final JSONObject compareJsonData)\n
     '''
 def run():
-    '''public void run()
-    '''
-def loadComparePages():
-    '''public synchronized JSONObject loadComparePages(final WebClientSession sess, @MXEventParam("compare") final JSONObject compareJsonData)
-    '''
-def loadComparePage():
-    '''public synchronized JSONObject loadComparePage(final WebClientSession sess, @MXEventParam("compare") JSONObject compareJsonData)
+    '''returns None\n\n
+    run()\n
     '''
 def async_export_xls():
-    '''public void async_export_xls(final WebClientSession sess)
+    '''returns None\n\n
+    async_export_xls(final WebClientSession sess)\n
     '''

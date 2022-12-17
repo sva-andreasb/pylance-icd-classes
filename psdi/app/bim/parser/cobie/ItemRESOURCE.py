@@ -8,8 +8,10 @@ RESOURCE_NAME_MATERIAL = "String  \"Material\""
 RESOURCE_NAME_TOOLS = "String  \"Tools\""
 RESOURCE_NAME_TRAINING = "String  \"Training\""
 def getResourceType():
-    '''public int getResourceType()
+    '''returns int\n\n
+    getResourceType()\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''

@@ -1,6 +1,8 @@
-def FldRFQVendorPONum():
-    '''public FldRFQVendorPONum(final MboValue mbv)
+def ():
+    '''returns FldRFQVendorPONum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

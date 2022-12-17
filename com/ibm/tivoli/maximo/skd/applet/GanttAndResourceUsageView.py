@@ -1,98 +1,121 @@
 WORKORDER_ACTIVITY_OBJECTS = "String  \"WOACTIVITY, WOCHANGE, WORELEASE, WORKORDER\""
-def GanttAndResourceUsageView():
-    '''public GanttAndResourceUsageView(final Viewer viewer, final String iD, final String name, final IlvTimeScrollController timeScrollController)
+def ():
+    '''returns ResourceViewDividerUpdater\n\n
+    (final Viewer viewer, final String iD, final String name, final IlvTimeScrollController timeScrollController)\n
+    (final GanttAndResourceUsageView view)\n
     '''
 def propertyChanged():
-    '''public void propertyChanged(final GanttModelPropertyEvent ganttmodelpropertyevent)
+    '''returns None\n\n
+    propertyChanged(final GanttModelPropertyEvent ganttmodelpropertyevent)\n
     '''
 def ganttModelChanged():
-    '''public void ganttModelChanged(final GanttModelChangedEvent ganttmodelchangedevent)
+    '''returns None\n\n
+    ganttModelChanged(final GanttModelChangedEvent ganttmodelchangedevent)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
-    public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
+    mouseClicked(final MouseEvent e)\n
     '''
 def getSecondaryComponent():
-    '''public JComponent getSecondaryComponent()
+    '''returns JComponent\n\n
+    getSecondaryComponent()\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent se)
-    public void selectionChanged(final SelectionEvent event)
-    public void selectionChanged(final ManagerSelectionChangedEvent event)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent se)\n
+    selectionChanged(final SelectionEvent event)\n
+    selectionChanged(final ManagerSelectionChangedEvent event)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setViewVisibilty():
-    '''public void setViewVisibilty()
+    '''returns None\n\n
+    setViewVisibilty()\n
     '''
 def applyDividerLocation():
-    '''public void applyDividerLocation()
-    public void applyDividerLocation(final IlvHierarchyChart chart)
-    public void applyDividerLocation(final JSplitPane pane)
+    '''returns None\n\n
+    applyDividerLocation()\n
+    applyDividerLocation(final IlvHierarchyChart chart)\n
+    applyDividerLocation(final JSplitPane pane)\n
     '''
 def applyVisibleTime():
-    '''public void applyVisibleTime(final IlvGanttModel model)
+    '''returns None\n\n
+    applyVisibleTime(final IlvGanttModel model)\n
     '''
 def getGanttChart():
-    '''public IlvGanttChart getGanttChart()
+    '''returns IlvGanttChart\n\n
+    getGanttChart()\n
     '''
 def isStylable():
-    '''public boolean isStylable()
+    '''returns boolean\n\n
+    isStylable()\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def contentsChanged():
-    '''public void contentsChanged(final ManagerContentChangedEvent evt)
+    '''returns None\n\n
+    contentsChanged(final ManagerContentChangedEvent evt)\n
     '''
 def updateReadonlyActivityGraphic():
-    '''public void updateReadonlyActivityGraphic(final IlvActivityGraphic ag)
+    '''returns None\n\n
+    updateReadonlyActivityGraphic(final IlvActivityGraphic ag)\n
     '''
 def createTimeIndicators():
-    '''public void createTimeIndicators(final IlvActivity activity)
+    '''returns None\n\n
+    createTimeIndicators(final IlvActivity activity)\n
     '''
 def activityGraphicUpdated():
-    '''public void activityGraphicUpdated(final ActivityGraphicInteractorEvent event)
-    '''
-def getResourceViews():
-    '''public Map<String, ResourceView> getResourceViews()
+    '''returns None\n\n
+    activityGraphicUpdated(final ActivityGraphicInteractorEvent event)\n
     '''
 def printResourceView():
-    '''public void printResourceView()
+    '''returns None\n\n
+    printResourceView()\n
     '''
 def printPreviewResourceView():
-    '''public void printPreviewResourceView()
+    '''returns None\n\n
+    printPreviewResourceView()\n
     '''
 def printSetupResourceView():
-    '''public void printSetupResourceView()
+    '''returns None\n\n
+    printSetupResourceView()\n
     '''
 def attachGanttModelToViewComponents():
-    '''public void attachGanttModelToViewComponents()
+    '''returns None\n\n
+    attachGanttModelToViewComponents()\n
     '''
 def detachGanttModelFromViewComponents():
-    '''public void detachGanttModelFromViewComponents()
+    '''returns None\n\n
+    detachGanttModelFromViewComponents()\n
     '''
 def applyActivityQbeFilter():
-    '''public void applyActivityQbeFilter(final HashMap qbeActivityFilter)
+    '''returns None\n\n
+    applyActivityQbeFilter(final HashMap qbeActivityFilter)\n
     '''
 def applyActivityFilter():
-    '''public void applyActivityFilter(final String regEx)
+    '''returns None\n\n
+    applyActivityFilter(final String regEx)\n
     '''
 def reapplySortedModel():
-    '''public void reapplySortedModel()
+    '''returns None\n\n
+    reapplySortedModel()\n
     '''
 def getTimeController():
-    '''public IlvTimeScrollController getTimeController()
+    '''returns IlvTimeScrollController\n\n
+    getTimeController()\n
     '''
 def getResourceViewContainer():
-    '''public ResourceViewContainer getResourceViewContainer()
-    '''
-def ResourceViewDividerUpdater():
-    '''public ResourceViewDividerUpdater(final GanttAndResourceUsageView view)
+    '''returns ResourceViewContainer\n\n
+    getResourceViewContainer()\n
     '''

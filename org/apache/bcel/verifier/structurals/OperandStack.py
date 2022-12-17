@@ -1,48 +1,63 @@
-def OperandStack():
-    '''public OperandStack(final int maxStack)
-    public OperandStack(final int maxStack, final ObjectType obj)
+def ():
+    '''returns OperandStack\n\n
+    (final int maxStack)\n
+    (final int maxStack, final ObjectType obj)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getClone():
-    '''public OperandStack getClone()
+    '''returns OperandStack\n\n
+    getClone()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def maxStack():
-    '''public int maxStack()
+    '''returns int\n\n
+    maxStack()\n
     '''
 def peek():
-    '''public Type peek()
-    public Type peek(final int i)
+    '''returns Type\n\n
+    peek()\n
+    peek(final int i)\n
     '''
 def pop():
-    '''public Type pop()
-    public Type pop(final int i)
+    '''returns Type\n\n
+    pop()\n
+    pop(final int i)\n
     '''
 def push():
-    '''public void push(final Type type)
+    '''returns None\n\n
+    push(final Type type)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def slotsUsed():
-    '''public int slotsUsed()
+    '''returns int\n\n
+    slotsUsed()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def merge():
-    '''public void merge(final OperandStack s)
+    '''returns None\n\n
+    merge(final OperandStack s)\n
     '''
 def initializeObject():
-    '''public void initializeObject(final UninitializedObjectType u)
+    '''returns None\n\n
+    initializeObject(final UninitializedObjectType u)\n
     '''

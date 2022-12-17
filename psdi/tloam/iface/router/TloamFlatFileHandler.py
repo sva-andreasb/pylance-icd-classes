@@ -1,8 +1,10 @@
 INTCTL_TLOAMMIGDEST = "String  \"TLOMMIGDEST\""
-def TloamFlatFileHandler():
-    '''public TloamFlatFileHandler(final MaxEndPointInfo endPointInfo)
-    public TloamFlatFileHandler()
+def ():
+    '''returns TloamFlatFileHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData1, final byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData1, final byte[] data)\n
     '''

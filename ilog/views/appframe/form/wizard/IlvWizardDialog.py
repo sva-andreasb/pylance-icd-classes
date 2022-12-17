@@ -2,47 +2,61 @@ CANCEL_BACK_NEXT_FINISH_WIZARD = "short  1"
 OK_CANCEL_WIZARD = "short  2"
 FINISHED = "int  1"
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
-def IlvWizardDialog():
-    '''public IlvWizardDialog(final Frame frame, final IlvApplication ilvApplication, final String s)
-    public IlvWizardDialog(final Frame frame, final IlvApplication ilvApplication)
-    public IlvWizardDialog(final Frame frame, final IlvApplication ilvApplication, final int n)
+def ():
+    '''returns IlvWizardDialog\n\n
+    (final Frame frame, final IlvApplication ilvApplication, final String s)\n
+    (final Frame frame, final IlvApplication ilvApplication)\n
+    (final Frame frame, final IlvApplication ilvApplication, final int n)\n
     '''
 def readWizardPanel():
-    '''public void readWizardPanel(final URL url)
+    '''returns None\n\n
+    readWizardPanel(final URL url)\n
     '''
 def setApplication():
-    '''public void setApplication(final IlvApplication application)
+    '''returns None\n\n
+    setApplication(final IlvApplication application)\n
     '''
 def setPageTitle():
-    '''public void setPageTitle(final String s)
+    '''returns None\n\n
+    setPageTitle(final String s)\n
     '''
 def setPageDescription():
-    '''public void setPageDescription(final String s)
+    '''returns None\n\n
+    setPageDescription(final String s)\n
     '''
 def setFormModel():
-    '''public void setFormModel(final IlvFormModel formModel)
+    '''returns None\n\n
+    setFormModel(final IlvFormModel formModel)\n
     '''
 def getFormModel():
-    '''public IlvFormModel getFormModel()
+    '''returns IlvFormModel\n\n
+    getFormModel()\n
     '''
 def setPageIcon():
-    '''public void setPageIcon(final Icon icon)
+    '''returns None\n\n
+    setPageIcon(final Icon icon)\n
     '''
 def getWizardPanel():
-    '''public IlvWizardPanel getWizardPanel()
+    '''returns IlvWizardPanel\n\n
+    getWizardPanel()\n
     '''
 def setWizardPanel():
-    '''public void setWizardPanel(final IlvWizardPanel ilvWizardPanel)
+    '''returns None\n\n
+    setWizardPanel(final IlvWizardPanel ilvWizardPanel)\n
     '''
 def receivedWizardPanelEvent():
-    '''public void receivedWizardPanelEvent(final WizardPanelEvent wizardPanelEvent)
+    '''returns None\n\n
+    receivedWizardPanelEvent(final WizardPanelEvent wizardPanelEvent)\n
     '''
 def show():
-    '''public void show()
+    '''returns None\n\n
+    show()\n
     '''
 def getResult():
-    '''public int getResult()
+    '''returns int\n\n
+    getResult()\n
     '''

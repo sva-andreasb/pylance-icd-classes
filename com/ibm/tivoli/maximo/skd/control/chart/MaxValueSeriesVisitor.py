@@ -1,15 +1,20 @@
-def MaxValueSeriesVisitor():
-    '''public MaxValueSeriesVisitor(final String field)
+def ():
+    '''returns MaxValueSeriesVisitor\n\n
+    (final String field)\n
     '''
 def each():
-    '''public boolean each(final Series s, final int i, final JSONObject point)
+    '''returns boolean\n\n
+    each(final Series s, final int i, final JSONObject point)\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''

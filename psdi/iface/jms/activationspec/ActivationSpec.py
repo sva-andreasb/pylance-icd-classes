@@ -1,18 +1,24 @@
-def ActivationSpec():
-    '''public ActivationSpec()
+def ():
+    '''returns ActivationSpec\n\n
+    ()\n
     '''
 def setAdminService():
-    '''public void setAdminService(final AdminService service)
+    '''returns None\n\n
+    setAdminService(final AdminService service)\n
     '''
 def pause():
-    '''public void pause()
+    '''returns None\n\n
+    pause()\n
     '''
 def resume():
-    '''public void resume()
+    '''returns None\n\n
+    resume()\n
     '''
 def status():
-    '''public int status()
+    '''returns int\n\n
+    status()\n
     '''
 def activationProperties():
-    '''public String activationProperties()
+    '''returns String\n\n
+    activationProperties()\n
     '''

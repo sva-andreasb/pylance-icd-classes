@@ -1,16 +1,10 @@
-def DelegatedFrom():
-    '''public DelegatedFrom(final String aValue)
-    public DelegatedFrom(final AddressList aList)
-    '''
-def getDelegators():
-    '''public final AddressList getDelegators()
-    '''
-def getValue():
-    '''public final String getValue()
-    '''
-def Factory():
-    '''public Factory()
+def ():
+    '''returns Factory\n\n
+    (final String aValue)\n
+    (final AddressList aList)\n
+    ()\n
     '''
 def createParameter():
-    '''public Parameter createParameter(final String value)
+    '''returns Parameter\n\n
+    createParameter(final String value)\n
     '''

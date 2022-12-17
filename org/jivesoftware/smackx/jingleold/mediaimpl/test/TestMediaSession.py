@@ -1,21 +1,28 @@
-def TestMediaSession():
-    '''public TestMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final String locator, final JingleSession jingleSession)
+def ():
+    '''returns TestMediaSession\n\n
+    (final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final String locator, final JingleSession jingleSession)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def startTransmit():
-    '''public void startTransmit()
+    '''returns None\n\n
+    startTransmit()\n
     '''
 def setTransmit():
-    '''public void setTransmit(final boolean active)
+    '''returns None\n\n
+    setTransmit(final boolean active)\n
     '''
 def startReceive():
-    '''public void startReceive()
+    '''returns None\n\n
+    startReceive()\n
     '''
 def stopTransmit():
-    '''public void stopTransmit()
+    '''returns None\n\n
+    stopTransmit()\n
     '''
 def stopReceive():
-    '''public void stopReceive()
+    '''returns None\n\n
+    stopReceive()\n
     '''

@@ -1,39 +1,49 @@
-def CSSOMComputedStyle():
-    '''public CSSOMComputedStyle(final CSSEngine e, final CSSStylableElement elt, final String pseudoElt)
+def ():
+    '''returns ComputedCSSValue\n\n
+    (final CSSEngine e, final CSSStylableElement elt, final String pseudoElt)\n
+    (final int idx)\n
     '''
 def getCssText():
-    '''public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
     '''
 def setCssText():
-    '''public void setCssText(final String cssText)
+    '''returns None\n\n
+    setCssText(final String cssText)\n
     '''
 def getPropertyValue():
-    '''public String getPropertyValue(final String propertyName)
+    '''returns String\n\n
+    getPropertyValue(final String propertyName)\n
     '''
 def getPropertyCSSValue():
-    '''public CSSValue getPropertyCSSValue(final String propertyName)
+    '''returns CSSValue\n\n
+    getPropertyCSSValue(final String propertyName)\n
     '''
 def removeProperty():
-    '''public String removeProperty(final String propertyName)
+    '''returns String\n\n
+    removeProperty(final String propertyName)\n
     '''
 def getPropertyPriority():
-    '''public String getPropertyPriority(final String propertyName)
+    '''returns String\n\n
+    getPropertyPriority(final String propertyName)\n
     '''
 def setProperty():
-    '''public void setProperty(final String propertyName, final String value, final String prio)
+    '''returns None\n\n
+    setProperty(final String propertyName, final String value, final String prio)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public String item(final int index)
+    '''returns String\n\n
+    item(final int index)\n
     '''
 def getParentRule():
-    '''public CSSRule getParentRule()
-    '''
-def ComputedCSSValue():
-    '''public ComputedCSSValue(final int idx)
+    '''returns CSSRule\n\n
+    getParentRule()\n
     '''
 def getValue():
-    '''public Value getValue()
+    '''returns Value\n\n
+    getValue()\n
     '''

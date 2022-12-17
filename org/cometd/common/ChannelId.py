@@ -1,3 +1,4 @@
-def ChannelId():
-    '''public ChannelId(final String name)
+def ():
+    '''returns ChannelId\n\n
+    (final String name)\n
     '''

@@ -1,28 +1,24 @@
-def NodeTableNative():
-    '''public NodeTableNative(final Index nodeToId, final ObjectFile objectFile)
+def ():
+    '''returns NodeTableNative\n\n
+    (final Index nodeToId, final ObjectFile objectFile)\n
     '''
 def getNodeForNodeId():
-    '''public Node getNodeForNodeId(final NodeId id)
+    '''returns Node\n\n
+    getNodeForNodeId(final NodeId id)\n
     '''
 def getNodeIdForNode():
-    '''public NodeId getNodeIdForNode(final Node node)
+    '''returns NodeId\n\n
+    getNodeIdForNode(final Node node)\n
     '''
 def getAllocateNodeId():
-    '''public NodeId getAllocateNodeId(final Node node)
-    '''
-def close():
-    '''public synchronized void close()
-    '''
-def all():
-    '''public Iterator<Pair<NodeId, Node>> all()
-    '''
-def convert():
-    '''public Pair<NodeId, Node> convert(final Record item)
+    '''returns NodeId\n\n
+    getAllocateNodeId(final Node node)\n
     '''
 def sync():
-    '''public void sync()
-    public synchronized void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
     '''
 def getObjects():
-    '''public ObjectFile getObjects()
+    '''returns ObjectFile\n\n
+    getObjects()\n
     '''

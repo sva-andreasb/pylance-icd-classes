@@ -1,15 +1,20 @@
 def getMember():
-    '''public Object getMember(final String s)
+    '''returns Object\n\n
+    getMember(final String s)\n
     '''
 def setMember():
-    '''public void setMember(final String str, Object o)
+    '''returns None\n\n
+    setMember(final String str, Object o)\n
     '''
 def call():
-    '''public Object call(final String s, final Object[] array)
+    '''returns Object\n\n
+    call(final String s, final Object[] array)\n
     '''
 def eval():
-    '''public Object eval(final String s)
+    '''returns Object\n\n
+    eval(final String s)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

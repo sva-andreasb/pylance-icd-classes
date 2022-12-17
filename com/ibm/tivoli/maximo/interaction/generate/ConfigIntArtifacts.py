@@ -1,3 +1,4 @@
 def runConfigDB():
-    '''public void runConfigDB()
+    '''returns None\n\n
+    runConfigDB()\n
     '''

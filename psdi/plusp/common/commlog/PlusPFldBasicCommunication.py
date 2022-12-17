@@ -1,6 +1,8 @@
-def PlusPFldBasicCommunication():
-    '''public PlusPFldBasicCommunication(final MboValue mbv, final String relationShipName)
+def ():
+    '''returns PlusPFldBasicCommunication\n\n
+    (final MboValue mbv, final String relationShipName)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

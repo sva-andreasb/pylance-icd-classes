@@ -1,9 +1,12 @@
-def AddItemsBean():
-    '''public AddItemsBean()
+def ():
+    '''returns AddItemsBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def addtoInventory():
-    '''public void addtoInventory(final MboSetRemote invSetRemote)
+    '''returns None\n\n
+    addtoInventory(final MboSetRemote invSetRemote)\n
     '''

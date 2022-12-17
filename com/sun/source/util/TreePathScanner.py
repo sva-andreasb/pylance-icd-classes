@@ -1,7 +1,9 @@
 def scan():
-    '''public R scan(final TreePath path, final P p2)
-    public R scan(final Tree tree, final P p2)
+    '''returns R\n\n
+    scan(final TreePath path, final P p2)\n
+    scan(final Tree tree, final P p2)\n
     '''
 def getCurrentPath():
-    '''public TreePath getCurrentPath()
+    '''returns TreePath\n\n
+    getCurrentPath()\n
     '''

@@ -1,3 +1,4 @@
-def MaxLicStatusSet():
-    '''public MaxLicStatusSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLicStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

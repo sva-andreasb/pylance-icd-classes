@@ -1,34 +1,40 @@
-def ImpreciseDateTimeField():
-    '''public ImpreciseDateTimeField(final DateTimeFieldType dateTimeFieldType, final long iUnitMillis)
+def ():
+    '''returns ImpreciseDateTimeField\n\n
+    (final DateTimeFieldType dateTimeFieldType, final long iUnitMillis)\n
     '''
 def getDifference():
-    '''public int getDifference(final long n, final long n2)
-    public int getDifference(final long n, final long n2)
+    '''returns int\n\n
+    getDifference(final long n, final long n2)\n
+    getDifference(final long n, final long n2)\n
     '''
 def getDifferenceAsLong():
-    '''public long getDifferenceAsLong(final long n, final long n2)
-    public long getDifferenceAsLong(final long n, final long n2)
-    '''
-def getDurationField():
-    '''public final DurationField getDurationField()
+    '''returns long\n\n
+    getDifferenceAsLong(final long n, final long n2)\n
+    getDifferenceAsLong(final long n, final long n2)\n
     '''
 def isPrecise():
-    '''public boolean isPrecise()
+    '''returns boolean\n\n
+    isPrecise()\n
     '''
 def getUnitMillis():
-    '''public long getUnitMillis()
+    '''returns long\n\n
+    getUnitMillis()\n
     '''
 def getValue():
-    '''public int getValue(final long n, final long n2)
+    '''returns int\n\n
+    getValue(final long n, final long n2)\n
     '''
 def getValueAsLong():
-    '''public long getValueAsLong(final long n, final long n2)
+    '''returns long\n\n
+    getValueAsLong(final long n, final long n2)\n
     '''
 def getMillis():
-    '''public long getMillis(final int n, final long n2)
-    public long getMillis(final long n, final long n2)
+    '''returns long\n\n
+    getMillis(final int n, final long n2)\n
+    getMillis(final long n, final long n2)\n
     '''
 def add():
-    '''public long add(final long n, final int n2)
-    public long add(final long n, final long n2)
+    '''returns long\n\n
+    add(final long n, final int n2)\n
+    add(final long n, final long n2)\n
     '''

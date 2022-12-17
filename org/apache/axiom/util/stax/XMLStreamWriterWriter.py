@@ -1,15 +1,19 @@
-def XMLStreamWriterWriter():
-    '''public XMLStreamWriterWriter(final XMLStreamWriter writer)
+def ():
+    '''returns XMLStreamWriterWriter\n\n
+    (final XMLStreamWriter writer)\n
     '''
 def write():
-    '''public void write(final char[] cbuf, final int off, final int len)
-    public void write(final String str, final int off, final int len)
-    public void write(final String str)
-    public void write(final int c)
+    '''returns None\n\n
+    write(final char[] cbuf, final int off, final int len)\n
+    write(final String str, final int off, final int len)\n
+    write(final String str)\n
+    write(final int c)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,3 +1,4 @@
 def REFRESHLIST():
-    '''public int REFRESHLIST()
+    '''returns int\n\n
+    REFRESHLIST()\n
     '''

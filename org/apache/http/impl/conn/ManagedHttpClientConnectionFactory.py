@@ -1,9 +1,11 @@
-def ManagedHttpClientConnectionFactory():
-    '''public ManagedHttpClientConnectionFactory(final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy)
-    public ManagedHttpClientConnectionFactory(final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)
-    public ManagedHttpClientConnectionFactory(final HttpMessageParserFactory<HttpResponse> responseParserFactory)
-    public ManagedHttpClientConnectionFactory()
+def ():
+    '''returns ManagedHttpClientConnectionFactory\n\n
+    (final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy)\n
+    (final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)\n
+    (final HttpMessageParserFactory<HttpResponse> responseParserFactory)\n
+    ()\n
     '''
 def create():
-    '''public ManagedHttpClientConnection create(final HttpRoute route, final ConnectionConfig config)
+    '''returns ManagedHttpClientConnection\n\n
+    create(final HttpRoute route, final ConnectionConfig config)\n
     '''

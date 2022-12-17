@@ -1,4 +1,5 @@
-def ConfigurationException():
-    '''public ConfigurationException()
-    public ConfigurationException(final String msg)
+def ():
+    '''returns ConfigurationException\n\n
+    ()\n
+    (final String msg)\n
     '''

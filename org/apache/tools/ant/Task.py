@@ -1,48 +1,55 @@
 def setOwningTarget():
-    '''public void setOwningTarget(final Target target)
+    '''returns None\n\n
+    setOwningTarget(final Target target)\n
     '''
 def getOwningTarget():
-    '''public Target getOwningTarget()
+    '''returns Target\n\n
+    getOwningTarget()\n
     '''
 def setTaskName():
-    '''public void setTaskName(final String name)
+    '''returns None\n\n
+    setTaskName(final String name)\n
     '''
 def getTaskName():
-    '''public String getTaskName()
+    '''returns String\n\n
+    getTaskName()\n
     '''
 def setTaskType():
-    '''public void setTaskType(final String type)
+    '''returns None\n\n
+    setTaskType(final String type)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def getRuntimeConfigurableWrapper():
-    '''public RuntimeConfigurable getRuntimeConfigurableWrapper()
+    '''returns RuntimeConfigurable\n\n
+    getRuntimeConfigurableWrapper()\n
     '''
 def setRuntimeConfigurableWrapper():
-    '''public void setRuntimeConfigurableWrapper(final RuntimeConfigurable wrapper)
+    '''returns None\n\n
+    setRuntimeConfigurableWrapper(final RuntimeConfigurable wrapper)\n
     '''
 def maybeConfigure():
-    '''public void maybeConfigure()
+    '''returns None\n\n
+    maybeConfigure()\n
     '''
 def reconfigure():
-    '''public void reconfigure()
+    '''returns None\n\n
+    reconfigure()\n
     '''
 def log():
-    '''public void log(final String msg)
-    public void log(final String msg, final int msgLevel)
-    public void log(final Throwable t, final int msgLevel)
-    public void log(final String msg, final Throwable t, final int msgLevel)
-    '''
-def perform():
-    '''public final void perform()
+    '''returns None\n\n
+    log(final String msg)\n
+    log(final String msg, final int msgLevel)\n
+    log(final Throwable t, final int msgLevel)\n
+    log(final String msg, final Throwable t, final int msgLevel)\n
     '''
 def getTaskType():
-    '''public String getTaskType()
-    '''
-def bindToOwner():
-    '''public final void bindToOwner(final Task owner)
+    '''returns String\n\n
+    getTaskType()\n
     '''

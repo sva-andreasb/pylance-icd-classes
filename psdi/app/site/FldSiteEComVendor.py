@@ -1,3 +1,4 @@
-def FldSiteEComVendor():
-    '''public FldSiteEComVendor(final MboValue mbv)
+def ():
+    '''returns FldSiteEComVendor\n\n
+    (final MboValue mbv)\n
     '''

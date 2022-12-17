@@ -1,164 +1,210 @@
 NAMESPACE = "String  \"http://jabber.org/protocol/geoloc\""
 ELEMENT = "String  \"geoloc\""
 def getAccuracy():
-    '''public Double getAccuracy()
+    '''returns Double\n\n
+    getAccuracy()\n
     '''
 def getAlt():
-    '''public Double getAlt()
+    '''returns Double\n\n
+    getAlt()\n
     '''
 def getAltAccuracy():
-    '''public Double getAltAccuracy()
+    '''returns Double\n\n
+    getAltAccuracy()\n
     '''
 def getArea():
-    '''public String getArea()
+    '''returns String\n\n
+    getArea()\n
     '''
 def getBearing():
-    '''public Double getBearing()
+    '''returns Double\n\n
+    getBearing()\n
     '''
 def getBuilding():
-    '''public String getBuilding()
+    '''returns String\n\n
+    getBuilding()\n
     '''
 def getCountry():
-    '''public String getCountry()
+    '''returns String\n\n
+    getCountry()\n
     '''
 def getCountryCode():
-    '''public String getCountryCode()
+    '''returns String\n\n
+    getCountryCode()\n
     '''
 def getDatum():
-    '''public String getDatum()
+    '''returns String\n\n
+    getDatum()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getError():
-    '''public Double getError()
+    '''returns Double\n\n
+    getError()\n
     '''
 def getFloor():
-    '''public String getFloor()
+    '''returns String\n\n
+    getFloor()\n
     '''
 def getLat():
-    '''public Double getLat()
+    '''returns Double\n\n
+    getLat()\n
     '''
 def getLocality():
-    '''public String getLocality()
+    '''returns String\n\n
+    getLocality()\n
     '''
 def getLon():
-    '''public Double getLon()
+    '''returns Double\n\n
+    getLon()\n
     '''
 def getPostalcode():
-    '''public String getPostalcode()
+    '''returns String\n\n
+    getPostalcode()\n
     '''
 def getRegion():
-    '''public String getRegion()
+    '''returns String\n\n
+    getRegion()\n
     '''
 def getRoom():
-    '''public String getRoom()
+    '''returns String\n\n
+    getRoom()\n
     '''
 def getSpeed():
-    '''public Double getSpeed()
+    '''returns Double\n\n
+    getSpeed()\n
     '''
 def getStreet():
-    '''public String getStreet()
+    '''returns String\n\n
+    getStreet()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTimestamp():
-    '''public Date getTimestamp()
+    '''returns Date\n\n
+    getTimestamp()\n
     '''
 def getTzo():
-    '''public String getTzo()
+    '''returns String\n\n
+    getTzo()\n
     '''
 def getUri():
-    '''public URI getUri()
+    '''returns URI\n\n
+    getUri()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    '''
-def builder():
-    '''public static Builder builder()
-    '''
-def from():
-    '''public static GeoLocation from(final Message message)
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def setAccuracy():
-    '''public Builder setAccuracy(final Double accuracy)
+    '''returns Builder\n\n
+    setAccuracy(final Double accuracy)\n
     '''
 def setAlt():
-    '''public Builder setAlt(final Double alt)
+    '''returns Builder\n\n
+    setAlt(final Double alt)\n
     '''
 def setAltAccuracy():
-    '''public Builder setAltAccuracy(final Double altAccuracy)
+    '''returns Builder\n\n
+    setAltAccuracy(final Double altAccuracy)\n
     '''
 def setArea():
-    '''public Builder setArea(final String area)
+    '''returns Builder\n\n
+    setArea(final String area)\n
     '''
 def setBearing():
-    '''public Builder setBearing(final Double bearing)
+    '''returns Builder\n\n
+    setBearing(final Double bearing)\n
     '''
 def setBuilding():
-    '''public Builder setBuilding(final String building)
+    '''returns Builder\n\n
+    setBuilding(final String building)\n
     '''
 def setCountry():
-    '''public Builder setCountry(final String country)
+    '''returns Builder\n\n
+    setCountry(final String country)\n
     '''
 def setCountryCode():
-    '''public Builder setCountryCode(final String countryCode)
+    '''returns Builder\n\n
+    setCountryCode(final String countryCode)\n
     '''
 def setDatum():
-    '''public Builder setDatum(final String datum)
+    '''returns Builder\n\n
+    setDatum(final String datum)\n
     '''
 def setDescription():
-    '''public Builder setDescription(final String description)
+    '''returns Builder\n\n
+    setDescription(final String description)\n
     '''
 def setError():
-    '''public Builder setError(final Double error)
+    '''returns Builder\n\n
+    setError(final Double error)\n
     '''
 def setFloor():
-    '''public Builder setFloor(final String floor)
+    '''returns Builder\n\n
+    setFloor(final String floor)\n
     '''
 def setLat():
-    '''public Builder setLat(final Double lat)
+    '''returns Builder\n\n
+    setLat(final Double lat)\n
     '''
 def setLocality():
-    '''public Builder setLocality(final String locality)
+    '''returns Builder\n\n
+    setLocality(final String locality)\n
     '''
 def setLon():
-    '''public Builder setLon(final Double lon)
+    '''returns Builder\n\n
+    setLon(final Double lon)\n
     '''
 def setPostalcode():
-    '''public Builder setPostalcode(final String postalcode)
+    '''returns Builder\n\n
+    setPostalcode(final String postalcode)\n
     '''
 def setRegion():
-    '''public Builder setRegion(final String region)
+    '''returns Builder\n\n
+    setRegion(final String region)\n
     '''
 def setRoom():
-    '''public Builder setRoom(final String room)
+    '''returns Builder\n\n
+    setRoom(final String room)\n
     '''
 def setSpeed():
-    '''public Builder setSpeed(final Double speed)
+    '''returns Builder\n\n
+    setSpeed(final Double speed)\n
     '''
 def setStreet():
-    '''public Builder setStreet(final String street)
+    '''returns Builder\n\n
+    setStreet(final String street)\n
     '''
 def setText():
-    '''public Builder setText(final String text)
+    '''returns Builder\n\n
+    setText(final String text)\n
     '''
 def setTimestamp():
-    '''public Builder setTimestamp(final Date timestamp)
+    '''returns Builder\n\n
+    setTimestamp(final Date timestamp)\n
     '''
 def setTzo():
-    '''public Builder setTzo(final String tzo)
+    '''returns Builder\n\n
+    setTzo(final String tzo)\n
     '''
 def setUri():
-    '''public Builder setUri(final URI uri)
+    '''returns Builder\n\n
+    setUri(final URI uri)\n
     '''
 def build():
-    '''public GeoLocation build()
+    '''returns GeoLocation\n\n
+    build()\n
     '''

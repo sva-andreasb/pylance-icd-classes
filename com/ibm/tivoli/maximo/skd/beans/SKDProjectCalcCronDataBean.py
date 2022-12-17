@@ -1,12 +1,16 @@
-def SKDProjectCalcCronDataBean():
-    '''public SKDProjectCalcCronDataBean()
+def ():
+    '''returns SKDProjectCalcCronDataBean\n\n
+    ()\n
     '''
 def runOK():
-    '''public int runOK()
+    '''returns int\n\n
+    runOK()\n
     '''
 def saveCalc():
-    '''public int saveCalc()
+    '''returns int\n\n
+    saveCalc()\n
     '''
 def runCalc():
-    '''public int runCalc()
+    '''returns int\n\n
+    runCalc()\n
     '''

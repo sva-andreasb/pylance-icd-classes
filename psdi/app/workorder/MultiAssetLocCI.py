@@ -1,66 +1,88 @@
-def MultiAssetLocCI():
-    '''public MultiAssetLocCI(final MboSet ms)
+def ():
+    '''returns MultiAssetLocCI\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getLocForAsset():
-    '''public void getLocForAsset()
+    '''returns None\n\n
+    getLocForAsset()\n
     '''
 def getCIForAsset():
-    '''public void getCIForAsset()
+    '''returns None\n\n
+    getCIForAsset()\n
     '''
 def getAssetForCI():
-    '''public void getAssetForCI()
+    '''returns None\n\n
+    getAssetForCI()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''
 def setLinearAssetFieldsReadOnly():
-    '''public void setLinearAssetFieldsReadOnly(final boolean readonlystate)
+    '''returns None\n\n
+    setLinearAssetFieldsReadOnly(final boolean readonlystate)\n
     '''
 def clearLinearAssetFields():
-    '''public void clearLinearAssetFields()
+    '''returns None\n\n
+    clearLinearAssetFields()\n
     '''
 def moveAsset():
-    '''public void moveAsset()
+    '''returns None\n\n
+    moveAsset()\n
     '''
 def modifyAssetLocationAttributes():
-    '''public void modifyAssetLocationAttributes()
+    '''returns None\n\n
+    modifyAssetLocationAttributes()\n
     '''
 def setMoveAssetFieldsDefault():
-    '''public void setMoveAssetFieldsDefault()
+    '''returns None\n\n
+    setMoveAssetFieldsDefault()\n
     '''
 def isStoreDestinationLocation():
-    '''public boolean isStoreDestinationLocation()
+    '''returns boolean\n\n
+    isStoreDestinationLocation()\n
     '''
 def modifyAssetLocationUserCust():
-    '''public void modifyAssetLocationUserCust()
+    '''returns None\n\n
+    modifyAssetLocationUserCust()\n
     '''
 def applyToAllUser():
-    '''public void applyToAllUser(final MboRemote currentUserCust)
+    '''returns None\n\n
+    applyToAllUser(final MboRemote currentUserCust)\n
     '''
 def findAssetMboForReplacement():
-    '''public MboRemote findAssetMboForReplacement()
+    '''returns MboRemote\n\n
+    findAssetMboForReplacement()\n
     '''
 def findReplaceAssetMbo():
-    '''public MboRemote findReplaceAssetMbo()
+    '''returns MboRemote\n\n
+    findReplaceAssetMbo()\n
     '''

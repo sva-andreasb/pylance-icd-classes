@@ -1,10 +1,10 @@
-def LabelTooLongException():
-    '''public LabelTooLongException(final String ace, final String label)
+def ():
+    '''returns DNSNameTooLongException\n\n
+    (final String ace, final String label)\n
+    (final String ace, final byte[] bytes)\n
     '''
 def getMessage():
-    '''public String getMessage()
-    public String getMessage()
-    '''
-def DNSNameTooLongException():
-    '''public DNSNameTooLongException(final String ace, final byte[] bytes)
+    '''returns String\n\n
+    getMessage()\n
+    getMessage()\n
     '''

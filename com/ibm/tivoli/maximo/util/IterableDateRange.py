@@ -1,28 +1,25 @@
-def IterableDateRange():
-    '''public IterableDateRange(final Iterator<Date> availCalInfoIterator, final boolean shiftDates)
-    public IterableDateRange(Collection<Date> dates, final boolean shiftDates)
+def ():
+    '''returns IterableDateRange\n\n
+    (final Iterator<Date> availCalInfoIterator, final boolean shiftDates)\n
+    (Collection<Date> dates, final boolean shiftDates)\n
     '''
 def iterator():
-    '''public Iterator<Range<Date>> iterator()
+    '''returns Iterator<Range<Date>>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Range<Date> next()
+    '''returns Range<Date>\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
-    '''
-def toDateRangeList():
-    '''public static List<DateRange> toDateRangeList(final Collection<Date> dates, final boolean shift)
+    '''returns None\n\n
+    remove()\n
     '''
 def returnPosition():
-    '''public void returnPosition()
-    '''
-def toDateList():
-    '''public static List<Date> toDateList(final Collection<? extends Range<Date>> dates)
-    '''
-def toDateRangeSet():
-    '''public static Set<DateRange> toDateRangeSet(final Collection<Date> dates, final boolean shift)
+    '''returns None\n\n
+    returnPosition()\n
     '''

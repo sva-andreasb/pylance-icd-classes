@@ -1,18 +1,20 @@
-def getInstance():
-    '''public static EraRules getInstance(final CalType calType, final boolean includeTentativeEra)
-    '''
 def getNumberOfEras():
-    '''public int getNumberOfEras()
+    '''returns int\n\n
+    getNumberOfEras()\n
     '''
 def getStartDate():
-    '''public int[] getStartDate(final int eraIdx, final int[] fillIn)
+    '''returns int[]\n\n
+    getStartDate(final int eraIdx, final int[] fillIn)\n
     '''
 def getStartYear():
-    '''public int getStartYear(final int eraIdx)
+    '''returns int\n\n
+    getStartYear(final int eraIdx)\n
     '''
 def getEraIndex():
-    '''public int getEraIndex(final int year, final int month, final int day)
+    '''returns int\n\n
+    getEraIndex(final int year, final int month, final int day)\n
     '''
 def getCurrentEraIndex():
-    '''public int getCurrentEraIndex()
+    '''returns int\n\n
+    getCurrentEraIndex()\n
     '''

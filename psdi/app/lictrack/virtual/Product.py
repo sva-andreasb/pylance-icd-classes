@@ -1,3 +1,4 @@
-def Product():
-    '''public Product(final MboSet ms)
+def ():
+    '''returns Product\n\n
+    (final MboSet ms)\n
     '''

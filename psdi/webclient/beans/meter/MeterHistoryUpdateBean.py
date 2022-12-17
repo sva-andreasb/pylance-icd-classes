@@ -1,6 +1,8 @@
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def updatereading():
-    '''public void updatereading()
+    '''returns None\n\n
+    updatereading()\n
     '''

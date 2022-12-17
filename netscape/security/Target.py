@@ -1,38 +1,38 @@
-def Target():
-    '''public Target(final String s, final Principal principal)
-    public Target(final String s)
-    public Target(final String s, final Principal principal, final Target[] array)
-    public Target(final String s, final Principal principal, final String s2, final String s3, final String s4, final String s5)
-    public Target(final String name, final Principal prin, final String risk, final String riskColor, final String description, final String url, final Target[] targetAry)
-    '''
-def findTarget():
-    '''public static Target findTarget(final String s)
-    public static Target findTarget(final String s, final Principal principal)
-    public static Target findTarget(final Target target)
+def ():
+    '''returns Target\n\n
+    (final String s, final Principal principal)\n
+    (final String s)\n
+    (final String s, final Principal principal, final Target[] array)\n
+    (final String s, final Principal principal, final String s2, final String s3, final String s4, final String s5)\n
+    (final String name, final Principal prin, final String risk, final String riskColor, final String description, final String url, final Target[] targetAry)\n
     '''
 def checkPrivilegeEnabled():
-    '''public Privilege checkPrivilegeEnabled(final Principal[] array, final Object o)
-    public Privilege checkPrivilegeEnabled(final Principal[] array)
-    public Privilege checkPrivilegeEnabled(final Principal principal, final Object o)
+    '''returns Privilege\n\n
+    checkPrivilegeEnabled(final Principal[] array, final Object o)\n
+    checkPrivilegeEnabled(final Principal[] array)\n
+    checkPrivilegeEnabled(final Principal principal, final Object o)\n
     '''
 def enablePrivilege():
-    '''public Privilege enablePrivilege(final Principal principal, final Object o)
+    '''returns Privilege\n\n
+    enablePrivilege(final Principal principal, final Object o)\n
     '''
 def getRisk():
-    '''public String getRisk()
+    '''returns String\n\n
+    getRisk()\n
     '''
 def getRiskColor():
-    '''public String getRiskColor()
+    '''returns String\n\n
+    getRiskColor()\n
     '''
 def getDescription():
-    '''public String getDescription()
-    '''
-def getTargetFromDescription():
-    '''public static Target getTargetFromDescription(final String s)
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getHelpUrl():
-    '''public String getHelpUrl()
+    '''returns String\n\n
+    getHelpUrl()\n
     '''
 def getDetailedInfo():
-    '''public String getDetailedInfo(final Object o)
+    '''returns String\n\n
+    getDetailedInfo(final Object o)\n
     '''

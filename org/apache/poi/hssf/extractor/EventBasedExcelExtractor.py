@@ -1,31 +1,38 @@
-def EventBasedExcelExtractor():
-    '''public EventBasedExcelExtractor(final DirectoryNode dir)
-    public EventBasedExcelExtractor(final POIFSFileSystem fs)
+def ():
+    '''returns TextListener\n\n
+    (final DirectoryNode dir)\n
+    (final POIFSFileSystem fs)\n
+    ()\n
     '''
 def getDocSummaryInformation():
-    '''public DocumentSummaryInformation getDocSummaryInformation()
+    '''returns DocumentSummaryInformation\n\n
+    getDocSummaryInformation()\n
     '''
 def getSummaryInformation():
-    '''public SummaryInformation getSummaryInformation()
+    '''returns SummaryInformation\n\n
+    getSummaryInformation()\n
     '''
 def setIncludeCellComments():
-    '''public void setIncludeCellComments(final boolean includeComments)
+    '''returns None\n\n
+    setIncludeCellComments(final boolean includeComments)\n
     '''
 def setIncludeHeadersFooters():
-    '''public void setIncludeHeadersFooters(final boolean includeHeadersFooters)
+    '''returns None\n\n
+    setIncludeHeadersFooters(final boolean includeHeadersFooters)\n
     '''
 def setIncludeSheetNames():
-    '''public void setIncludeSheetNames(final boolean includeSheetNames)
+    '''returns None\n\n
+    setIncludeSheetNames(final boolean includeSheetNames)\n
     '''
 def setFormulasNotResults():
-    '''public void setFormulasNotResults(final boolean formulasNotResults)
+    '''returns None\n\n
+    setFormulasNotResults(final boolean formulasNotResults)\n
     '''
 def getText():
-    '''public String getText()
-    '''
-def TextListener():
-    '''public TextListener()
+    '''returns String\n\n
+    getText()\n
     '''
 def processRecord():
-    '''public void processRecord(final Record record)
+    '''returns None\n\n
+    processRecord(final Record record)\n
     '''

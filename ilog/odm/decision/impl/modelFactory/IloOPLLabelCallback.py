@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloOPLLabelCallback():
-    '''public IloOPLLabelCallback(final IloOplCplexController controller, final IloOplRequirementTreeBuilder factory)
+def ():
+    '''returns IloOPLLabelCallback\n\n
+    (final IloOplCplexController controller, final IloOplRequirementTreeBuilder factory)\n
     '''
 def customMain():
-    '''public void customMain(final String label)
+    '''returns None\n\n
+    customMain(final String label)\n
     '''
 def evaluate():
-    '''public Object evaluate(final IloOplScriptExpression expr, final Parameter elts, final IloStringArray array, final boolean keyOnly, final boolean canReturnTuple)
+    '''returns Object\n\n
+    evaluate(final IloOplScriptExpression expr, final Parameter elts, final IloStringArray array, final boolean keyOnly, final boolean canReturnTuple)\n
     '''
 def hasChangedIndexNameArray():
-    '''public boolean hasChangedIndexNameArray()
+    '''returns boolean\n\n
+    hasChangedIndexNameArray()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

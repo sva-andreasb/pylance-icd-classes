@@ -1,32 +1,38 @@
-def Policy():
-    '''public Policy()
-    public Policy(final String id)
-    public Policy(final String id, final Collection<Statement> statements)
+def ():
+    '''returns Policy\n\n
+    ()\n
+    (final String id)\n
+    (final String id, final Collection<Statement> statements)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def withId():
-    '''public Policy withId(final String id)
+    '''returns Policy\n\n
+    withId(final String id)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def getStatements():
-    '''public Collection<Statement> getStatements()
+    '''returns Collection<Statement>\n\n
+    getStatements()\n
     '''
 def setStatements():
-    '''public void setStatements(final Collection<Statement> statements)
+    '''returns None\n\n
+    setStatements(final Collection<Statement> statements)\n
     '''
 def withStatements():
-    '''public Policy withStatements(final Statement... statements)
+    '''returns Policy\n\n
+    withStatements(final Statement... statements)\n
     '''
 def toJson():
-    '''public String toJson()
-    '''
-def fromJson():
-    '''public static Policy fromJson(final String jsonString)
+    '''returns String\n\n
+    toJson()\n
     '''

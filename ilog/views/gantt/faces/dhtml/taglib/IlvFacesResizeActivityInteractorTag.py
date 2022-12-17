@@ -1,12 +1,16 @@
 def getComponentType():
-    '''public String getComponentType()
+    '''returns String\n\n
+    getComponentType()\n
     '''
 def getRendererType():
-    '''public String getRendererType()
+    '''returns String\n\n
+    getRendererType()\n
     '''
 def setActionName():
-    '''public void setActionName(final String a)
+    '''returns None\n\n
+    setActionName(final String a)\n
     '''
 def getActionName():
-    '''public String getActionName()
+    '''returns String\n\n
+    getActionName()\n
     '''

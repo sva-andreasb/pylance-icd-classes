@@ -1,7 +1,9 @@
-def ImpactUrgencyValidator():
-    '''public ImpactUrgencyValidator()
-    public ImpactUrgencyValidator(final MboValue mbv)
+def ():
+    '''returns ImpactUrgencyValidator\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,10 +1,12 @@
-def setValue():
-    '''public synchronized void setValue(final String attribute, final MboRemote mboRemote)
-    public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-    '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def duplicaterow():
-    '''public int duplicaterow()
+    '''returns int\n\n
+    duplicaterow()\n
+    '''
+def setValue():
+    '''returns None\n\n
+    setValue(final int nRow, final String attribute, final String value, final long accessModifier)\n
     '''

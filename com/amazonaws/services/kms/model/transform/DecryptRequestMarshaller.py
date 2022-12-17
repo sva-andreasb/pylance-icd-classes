@@ -1,6 +1,8 @@
-def DecryptRequestMarshaller():
-    '''public DecryptRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns DecryptRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<DecryptRequest> marshall(final DecryptRequest decryptRequest)
+    '''returns Request<DecryptRequest>\n\n
+    marshall(final DecryptRequest decryptRequest)\n
     '''

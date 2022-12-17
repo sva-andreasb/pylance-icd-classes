@@ -1,9 +1,8 @@
 def read():
-    '''public Object read(final JsonReader in)
+    '''returns Object\n\n
+    read(final JsonReader in)\n
     '''
 def write():
-    '''public void write(final JsonWriter out, final Object value)
-    '''
-def create():
-    '''public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> type)
+    '''returns None\n\n
+    write(final JsonWriter out, final Object value)\n
     '''

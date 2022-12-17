@@ -1,11 +1,14 @@
-def Pe():
-    '''public Pe(final File file)
-    public Pe(final File file, final int aNn, final Charset charset)
-    public Pe(final File file, final int n, final String charset)
+def ():
+    '''returns Pe\n\n
+    (final File file)\n
+    (final File file, final int aNn, final Charset charset)\n
+    (final File file, final int n, final String charset)\n
     '''
 def readLine():
-    '''public String readLine()
+    '''returns String\n\n
+    readLine()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

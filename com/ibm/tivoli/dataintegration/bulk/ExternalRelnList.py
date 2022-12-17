@@ -1,16 +1,21 @@
-def ExternalRelnList():
-    '''public ExternalRelnList()
+def ():
+    '''returns ExternalRelnList\n\n
+    ()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def setExternalRelationship():
-    '''public void setExternalRelationship(final String reln)
-    public void setExternalRelationship(final ExternalRelnEntry externalRelnData)
+    '''returns None\n\n
+    setExternalRelationship(final String reln)\n
+    setExternalRelationship(final ExternalRelnEntry externalRelnData)\n
     '''
 def getexternalRelationship():
-    '''public ArrayList getexternalRelationship()
+    '''returns ArrayList\n\n
+    getexternalRelationship()\n
     '''
 def getEntry():
-    '''public ExternalRelnEntry getEntry(final int pos)
+    '''returns ExternalRelnEntry\n\n
+    getEntry(final int pos)\n
     '''

@@ -1,6 +1,7 @@
-def SchedulerException():
-    '''public SchedulerException(final String ek, final Object[] p, final Throwable t)
-    public SchedulerException(final String ek, final Object[] params)
-    public SchedulerException(final String ek, final Throwable t)
-    public SchedulerException(final String ek)
+def ():
+    '''returns SchedulerException\n\n
+    (final String ek, final Object[] p, final Throwable t)\n
+    (final String ek, final Object[] params)\n
+    (final String ek, final Throwable t)\n
+    (final String ek)\n
     '''

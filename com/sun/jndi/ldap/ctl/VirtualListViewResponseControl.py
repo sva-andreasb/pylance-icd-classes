@@ -1,19 +1,25 @@
 OID = "String  \"2.16.840.1.113730.3.4.10\""
-def VirtualListViewResponseControl():
-    '''public VirtualListViewResponseControl(final String id, final boolean criticality, final byte[] array)
+def ():
+    '''returns VirtualListViewResponseControl\n\n
+    (final String id, final boolean criticality, final byte[] array)\n
     '''
 def getContextID():
-    '''public byte[] getContextID()
+    '''returns byte[]\n\n
+    getContextID()\n
     '''
 def getException():
-    '''public NamingException getException()
+    '''returns NamingException\n\n
+    getException()\n
     '''
 def getListSize():
-    '''public int getListSize()
+    '''returns int\n\n
+    getListSize()\n
     '''
 def getResultCode():
-    '''public int getResultCode()
+    '''returns int\n\n
+    getResultCode()\n
     '''
 def getTargetOffset():
-    '''public int getTargetOffset()
+    '''returns int\n\n
+    getTargetOffset()\n
     '''

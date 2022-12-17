@@ -1,6 +1,8 @@
-def TenantStaging():
-    '''public TenantStaging(final MboSet ms)
+def ():
+    '''returns TenantStaging\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

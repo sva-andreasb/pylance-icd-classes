@@ -1,3 +1,4 @@
 def resize():
-    '''public int resize()
+    '''returns int\n\n
+    resize()\n
     '''

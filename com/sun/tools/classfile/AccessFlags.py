@@ -17,39 +17,51 @@ ACC_SYNTHETIC = "int  4096"
 ACC_ANNOTATION = "int  8192"
 ACC_ENUM = "int  16384"
 ACC_MANDATED = "int  32768"
-def AccessFlags():
-    '''public AccessFlags(final int flags)
+def ():
+    '''returns AccessFlags\n\n
+    (final int flags)\n
     '''
 def ignore():
-    '''public AccessFlags ignore(final int n)
+    '''returns AccessFlags\n\n
+    ignore(final int n)\n
     '''
 def is():
-    '''public boolean is(final int n)
+    '''returns boolean\n\n
+    is(final int n)\n
     '''
 def byteLength():
-    '''public int byteLength()
+    '''returns int\n\n
+    byteLength()\n
     '''
 def getClassModifiers():
-    '''public Set<String> getClassModifiers()
+    '''returns Set<String>\n\n
+    getClassModifiers()\n
     '''
 def getClassFlags():
-    '''public Set<String> getClassFlags()
+    '''returns Set<String>\n\n
+    getClassFlags()\n
     '''
 def getInnerClassModifiers():
-    '''public Set<String> getInnerClassModifiers()
+    '''returns Set<String>\n\n
+    getInnerClassModifiers()\n
     '''
 def getInnerClassFlags():
-    '''public Set<String> getInnerClassFlags()
+    '''returns Set<String>\n\n
+    getInnerClassFlags()\n
     '''
 def getFieldModifiers():
-    '''public Set<String> getFieldModifiers()
+    '''returns Set<String>\n\n
+    getFieldModifiers()\n
     '''
 def getFieldFlags():
-    '''public Set<String> getFieldFlags()
+    '''returns Set<String>\n\n
+    getFieldFlags()\n
     '''
 def getMethodModifiers():
-    '''public Set<String> getMethodModifiers()
+    '''returns Set<String>\n\n
+    getMethodModifiers()\n
     '''
 def getMethodFlags():
-    '''public Set<String> getMethodFlags()
+    '''returns Set<String>\n\n
+    getMethodFlags()\n
     '''

@@ -1,3 +1,4 @@
 def convertToXmlByteArray():
-    '''public byte[] convertToXmlByteArray(final RequestPaymentConfiguration requestPaymentConfiguration)
+    '''returns byte[]\n\n
+    convertToXmlByteArray(final RequestPaymentConfiguration requestPaymentConfiguration)\n
     '''

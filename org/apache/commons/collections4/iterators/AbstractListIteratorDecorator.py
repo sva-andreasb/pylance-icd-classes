@@ -1,30 +1,40 @@
-def AbstractListIteratorDecorator():
-    '''public AbstractListIteratorDecorator(final ListIterator<E> iterator)
+def ():
+    '''returns AbstractListIteratorDecorator\n\n
+    (final ListIterator<E> iterator)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def nextIndex():
-    '''public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public E previous()
+    '''returns E\n\n
+    previous()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def set():
-    '''public void set(final E obj)
+    '''returns None\n\n
+    set(final E obj)\n
     '''
 def add():
-    '''public void add(final E obj)
+    '''returns None\n\n
+    add(final E obj)\n
     '''

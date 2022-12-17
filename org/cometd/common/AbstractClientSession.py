@@ -1,89 +1,117 @@
 def addExtension():
-    '''public void addExtension(final ClientSession.Extension extension)
+    '''returns None\n\n
+    addExtension(final ClientSession.Extension extension)\n
     '''
 def removeExtension():
-    '''public void removeExtension(final ClientSession.Extension extension)
+    '''returns None\n\n
+    removeExtension(final ClientSession.Extension extension)\n
     '''
 def getChannel():
-    '''public ClientSessionChannel getChannel(final String channelId)
+    '''returns ClientSessionChannel\n\n
+    getChannel(final String channelId)\n
     '''
 def startBatch():
-    '''public void startBatch()
+    '''returns None\n\n
+    startBatch()\n
     '''
 def endBatch():
-    '''public boolean endBatch()
+    '''returns boolean\n\n
+    endBatch()\n
     '''
 def batch():
-    '''public void batch(final Runnable batch)
+    '''returns None\n\n
+    batch(final Runnable batch)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
-    public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
+    getAttribute(final String name)\n
     '''
 def getAttributeNames():
-    '''public Set<String> getAttributeNames()
-    public Set<String> getAttributeNames()
+    '''returns Set<String>\n\n
+    getAttributeNames()\n
+    getAttributeNames()\n
     '''
 def removeAttribute():
-    '''public Object removeAttribute(final String name)
-    public Object removeAttribute(final String name)
+    '''returns Object\n\n
+    removeAttribute(final String name)\n
+    removeAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final Object value)
-    public void setAttribute(final String name, final Object value)
+    '''returns None\n\n
+    setAttribute(final String name, final Object value)\n
+    setAttribute(final String name, final Object value)\n
     '''
 def receive():
-    '''public void receive(final Message.Mutable message)
+    '''returns None\n\n
+    receive(final Message.Mutable message)\n
     '''
 def dump():
-    '''public void dump(final StringBuilder b, final String indent)
+    '''returns None\n\n
+    dump(final StringBuilder b, final String indent)\n
     '''
 def getChannelId():
-    '''public ChannelId getChannelId()
+    '''returns ChannelId\n\n
+    getChannelId()\n
     '''
 def addListener():
-    '''public void addListener(final ClientSessionChannel.ClientSessionChannelListener listener)
+    '''returns None\n\n
+    addListener(final ClientSessionChannel.ClientSessionChannelListener listener)\n
     '''
 def removeListener():
-    '''public void removeListener(final ClientSessionChannel.ClientSessionChannelListener listener)
+    '''returns None\n\n
+    removeListener(final ClientSessionChannel.ClientSessionChannelListener listener)\n
     '''
 def subscribe():
-    '''public void subscribe(final ClientSessionChannel.MessageListener listener)
+    '''returns None\n\n
+    subscribe(final ClientSessionChannel.MessageListener listener)\n
     '''
 def unsubscribe():
-    '''public void unsubscribe(final ClientSessionChannel.MessageListener listener)
-    public void unsubscribe()
+    '''returns None\n\n
+    unsubscribe(final ClientSessionChannel.MessageListener listener)\n
+    unsubscribe()\n
     '''
 def release():
-    '''public boolean release()
+    '''returns boolean\n\n
+    release()\n
     '''
 def isReleased():
-    '''public boolean isReleased()
+    '''returns boolean\n\n
+    isReleased()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def isDeepWild():
-    '''public boolean isDeepWild()
+    '''returns boolean\n\n
+    isDeepWild()\n
     '''
 def isMeta():
-    '''public boolean isMeta()
+    '''returns boolean\n\n
+    isMeta()\n
     '''
 def isService():
-    '''public boolean isService()
+    '''returns boolean\n\n
+    isService()\n
     '''
 def isBroadcast():
-    '''public boolean isBroadcast()
+    '''returns boolean\n\n
+    isBroadcast()\n
     '''
 def isWild():
-    '''public boolean isWild()
+    '''returns boolean\n\n
+    isWild()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getReference():
-    '''public T getReference()
+    '''returns T\n\n
+    getReference()\n
     '''
 def isMarked():
-    '''public boolean isMarked()
+    '''returns boolean\n\n
+    isMarked()\n
     '''

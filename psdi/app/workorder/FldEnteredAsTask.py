@@ -1,9 +1,12 @@
-def FldEnteredAsTask():
-    '''public FldEnteredAsTask(final MboValue mbv)
+def ():
+    '''returns FldEnteredAsTask\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

@@ -1,16 +1,17 @@
-def getInstance():
-    '''public static DecimalMatcher getInstance(final DecimalFormatSymbols symbols, final Grouper grouper, final int parseFlags)
-    '''
 def match():
-    '''public boolean match(final StringSegment segment, final ParsedNumber result)
-    public boolean match(final StringSegment segment, final ParsedNumber result, final int exponentSign)
+    '''returns boolean\n\n
+    match(final StringSegment segment, final ParsedNumber result)\n
+    match(final StringSegment segment, final ParsedNumber result, final int exponentSign)\n
     '''
 def smokeTest():
-    '''public boolean smokeTest(final StringSegment segment)
+    '''returns boolean\n\n
+    smokeTest(final StringSegment segment)\n
     '''
 def postProcess():
-    '''public void postProcess(final ParsedNumber result)
+    '''returns None\n\n
+    postProcess(final ParsedNumber result)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

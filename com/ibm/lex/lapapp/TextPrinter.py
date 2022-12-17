@@ -1,28 +1,25 @@
-def TextPrinter():
-    '''public TextPrinter(final String[] paragraphs, final JDialog parentFrame, final LicenseAcceptanceProcess model, final LAPResources lapResources, final boolean controlFontSize, final JButton acceptButton, final Font font, final Color background, final Dimension screenSize, final Rectangle bounds)
-    public TextPrinter(final String s, final JDialog parentFrame, final LicenseAcceptanceProcess model, final LAPResources lapResources, final boolean controlFontSize, final JButton acceptButton, final Font font, final Color background, final Dimension screenSize, final Rectangle bounds)
+def ():
+    '''returns TextPrinter\n\n
+    (final String[] paragraphs, final JDialog parentFrame, final LicenseAcceptanceProcess model, final LAPResources lapResources, final boolean controlFontSize, final JButton acceptButton, final Font font, final Color background, final Dimension screenSize, final Rectangle bounds)\n
+    (final String s, final JDialog parentFrame, final LicenseAcceptanceProcess model, final LAPResources lapResources, final boolean controlFontSize, final JButton acceptButton, final Font font, final Color background, final Dimension screenSize, final Rectangle bounds)\n
     '''
 def print():
-    '''public void print()
+    '''returns None\n\n
+    print()\n
     '''
 def run():
-    '''public void run()
-    '''
-def setFont():
-    '''public final void setFont(final Font font)
-    '''
-def setHiddenMargin():
-    '''public final void setHiddenMargin(final double hMargin)
+    '''returns None\n\n
+    run()\n
     '''
 def setMargin():
-    '''public void setMargin(final double tMargin, final double lMargin, final double bMargin, final double rMargin)
-    '''
-def setSpacing():
-    '''public final void setSpacing(final double spacing)
+    '''returns None\n\n
+    setMargin(final double tMargin, final double lMargin, final double bMargin, final double rMargin)\n
     '''
 def keyPressed():
-    '''public void keyPressed(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyPressed(final KeyEvent keyEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''

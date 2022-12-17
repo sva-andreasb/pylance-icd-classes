@@ -1,63 +1,73 @@
-def createUI():
-    '''public static ComponentUI createUI(final JComponent component)
-    '''
-def BasicIndexNavigatorUI():
-    '''public BasicIndexNavigatorUI(final JHelpIndexNavigator helpIndexNavigator)
+def ():
+    '''returns NavSwingWorker\n\n
+    (final JHelpIndexNavigator helpIndexNavigator)\n
+    (final IndexView view)\n
     '''
 def installUI():
-    '''public void installUI(final JComponent component)
+    '''returns None\n\n
+    installUI(final JComponent component)\n
     '''
 def uninstallUI():
-    '''public void uninstallUI(final JComponent component)
+    '''returns None\n\n
+    uninstallUI(final JComponent component)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize(final JComponent component)
+    '''returns Dimension\n\n
+    getPreferredSize(final JComponent component)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMinimumSize(final JComponent component)\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMaximumSize(final JComponent component)\n
     '''
 def doMerge():
-    '''public void doMerge(final NavigatorView navigatorView)
+    '''returns None\n\n
+    doMerge(final NavigatorView navigatorView)\n
     '''
 def merge():
-    '''public void merge(final NavigatorView navigatorView)
+    '''returns None\n\n
+    merge(final NavigatorView navigatorView)\n
     '''
 def remove():
-    '''public void remove(final NavigatorView obj)
-    '''
-def idChanged():
-    '''public synchronized void idChanged(final HelpModelEvent obj)
+    '''returns None\n\n
+    remove(final NavigatorView obj)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final TreeSelectionEvent obj)
+    '''returns None\n\n
+    valueChanged(final TreeSelectionEvent obj)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''
 def componentMoved():
-    '''public void componentMoved(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentMoved(final ComponentEvent componentEvent)\n
     '''
 def componentShown():
-    '''public void componentShown(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentShown(final ComponentEvent componentEvent)\n
     '''
 def componentHidden():
-    '''public void componentHidden(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentHidden(final ComponentEvent componentEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    '''
-def NavSwingWorker():
-    '''public NavSwingWorker(final IndexView view)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def construct():
-    '''public Object construct()
+    '''returns Object\n\n
+    construct()\n
     '''
 def finished():
-    '''public void finished()
+    '''returns None\n\n
+    finished()\n
     '''

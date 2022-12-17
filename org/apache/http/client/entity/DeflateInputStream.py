@@ -1,30 +1,36 @@
-def DeflateInputStream():
-    '''public DeflateInputStream(final InputStream wrapped)
+def ():
+    '''returns DeflateStream\n\n
+    (final InputStream wrapped)\n
+    (final InputStream in, final Inflater inflater)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b)
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b)\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def mark():
-    '''public void mark(final int readLimit)
+    '''returns None\n\n
+    mark(final int readLimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def close():
-    '''public void close()
-    public void close()
-    '''
-def DeflateStream():
-    '''public DeflateStream(final InputStream in, final Inflater inflater)
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''

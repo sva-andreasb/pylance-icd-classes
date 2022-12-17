@@ -1,34 +1,37 @@
 def getNodeAgentName():
-    '''public String getNodeAgentName()
-    public String getNodeAgentName(final String nodeName)
+    '''returns String\n\n
+    getNodeAgentName()\n
+    getNodeAgentName(final String nodeName)\n
     '''
 def getAdminAgentName():
-    '''public String getAdminAgentName()
+    '''returns String\n\n
+    getAdminAgentName()\n
     '''
 def getDeploymentManagerName():
-    '''public String getDeploymentManagerName()
+    '''returns String\n\n
+    getDeploymentManagerName()\n
     '''
 def getNodeHostName():
-    '''public String getNodeHostName(final String nodeName)
+    '''returns String\n\n
+    getNodeHostName(final String nodeName)\n
     '''
 def getLocalHost():
-    '''public InetAddress getLocalHost()
+    '''returns InetAddress\n\n
+    getLocalHost()\n
     '''
 def getHostName():
-    '''public String getHostName()
+    '''returns String\n\n
+    getHostName()\n
     '''
 def useMultiHome():
-    '''public Boolean useMultiHome()
-    '''
-def setEndPointManager():
-    '''public static synchronized void setEndPointManager(final EndPointMgr newEpMgr)
+    '''returns Boolean\n\n
+    useMultiHome()\n
     '''
 def audit():
-    '''public void audit(final String msgKeyWithUser, final String msgKeyWithoutUser, final Object objs)
+    '''returns None\n\n
+    audit(final String msgKeyWithUser, final String msgKeyWithoutUser, final Object objs)\n
     '''
 def getWasConfiguredSystemName():
-    '''public String getWasConfiguredSystemName()
-    '''
-def isCellRegistered():
-    '''public synchronized boolean isCellRegistered()
+    '''returns String\n\n
+    getWasConfiguredSystemName()\n
     '''

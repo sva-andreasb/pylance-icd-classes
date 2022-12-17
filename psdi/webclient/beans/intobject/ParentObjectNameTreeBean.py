@@ -1,24 +1,32 @@
-def ParentObjectNameTreeBean():
-    '''public ParentObjectNameTreeBean()
+def ():
+    '''returns ParentObjectNameTreeBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getTop():
-    '''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getTop(final String[] dataattributes, final int maxchildren)\n
     '''
 def getChildren():
-    '''public Object[][] getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)\n
     '''
 def getPathToTop():
-    '''public Object[][] getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)\n
     '''
 def getMboValueData():
-    '''public Object[] getMboValueData(final String[] dataattributes)
+    '''returns Object[]\n\n
+    getMboValueData(final String[] dataattributes)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String objectname, final String uniqueid, final String hierarchy)\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

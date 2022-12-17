@@ -1,48 +1,64 @@
-def CharacterConverter1Byte():
-    '''public CharacterConverter1Byte()
+def ():
+    '''returns CharacterConverter1Byte\n\n
+    ()\n
     '''
 def getDisplayWidth():
-    '''public int getDisplayWidth(final int n, final boolean b)
+    '''returns int\n\n
+    getDisplayWidth(final int n, final boolean b)\n
     '''
 def toUnicodeString():
-    '''public String toUnicodeString(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toUnicodeString(final byte[] array, final int n, final int n2)\n
     '''
 def toUnicodeStringWithReplacement():
-    '''public String toUnicodeStringWithReplacement(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toUnicodeStringWithReplacement(final byte[] array, final int n, final int n2)\n
     '''
 def toUnicodeCharsWithReplacement():
-    '''public int toUnicodeCharsWithReplacement(final byte[] array, final int n, final char[] array2, final int n2, final int n3)
+    '''returns int\n\n
+    toUnicodeCharsWithReplacement(final byte[] array, final int n, final char[] array2, final int n2, final int n3)\n
     '''
 def toOracleString():
-    '''public byte[] toOracleString(final String s)
+    '''returns byte[]\n\n
+    toOracleString(final String s)\n
     '''
 def toOracleStringWithReplacement():
-    '''public byte[] toOracleStringWithReplacement(final char[] array, final int n, final byte[] array2, int n2, final int[] array3)
+    '''returns byte[]\n\n
+    toOracleStringWithReplacement(final char[] array, final int n, final byte[] array2, int n2, final int[] array3)\n
     '''
 def buildUnicodeToOracleMapping():
-    '''public void buildUnicodeToOracleMapping()
+    '''returns None\n\n
+    buildUnicodeToOracleMapping()\n
     '''
 def extractCodepoints():
-    '''public void extractCodepoints(final Vector vector)
+    '''returns None\n\n
+    extractCodepoints(final Vector vector)\n
     '''
 def extractExtraMappings():
-    '''public void extractExtraMappings(final Vector vector)
+    '''returns None\n\n
+    extractExtraMappings(final Vector vector)\n
     '''
 def hasExtraMappings():
-    '''public boolean hasExtraMappings()
+    '''returns boolean\n\n
+    hasExtraMappings()\n
     '''
 def getOraChar1ByteRep():
-    '''public char getOraChar1ByteRep()
+    '''returns char\n\n
+    getOraChar1ByteRep()\n
     '''
 def getOraChar2ByteRep():
-    '''public char getOraChar2ByteRep()
+    '''returns char\n\n
+    getOraChar2ByteRep()\n
     '''
 def getUCS2CharRep():
-    '''public int getUCS2CharRep()
+    '''returns int\n\n
+    getUCS2CharRep()\n
     '''
 def ByteToCharConvert():
-    '''public int ByteToCharConvert(final byte[] array, final int n, final int n2, final char[] array2, final int n3, final int n4)
+    '''returns int\n\n
+    ByteToCharConvert(final byte[] array, final int n, final int n2, final char[] array2, final int n3, final int n4)\n
     '''
 def CharToByteConvert():
-    '''public int CharToByteConvert(final char[] array, final int n, final int n2, final byte[] array2, final int n3, final int n4)
+    '''returns int\n\n
+    CharToByteConvert(final char[] array, final int n, final int n2, final byte[] array2, final int n3, final int n4)\n
     '''

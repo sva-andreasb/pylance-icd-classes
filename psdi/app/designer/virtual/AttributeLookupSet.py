@@ -1,3 +1,4 @@
-def AttributeLookupSet():
-    '''public AttributeLookupSet(final MboServerInterface ms)
+def ():
+    '''returns AttributeLookupSet\n\n
+    (final MboServerInterface ms)\n
     '''

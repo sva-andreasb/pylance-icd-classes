@@ -1,3 +1,4 @@
-def PlusPAppliesToCISet():
-    '''public PlusPAppliesToCISet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPAppliesToCISet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''

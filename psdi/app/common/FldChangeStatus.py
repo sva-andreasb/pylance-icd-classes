@@ -1,12 +1,16 @@
-def FldChangeStatus():
-    '''public FldChangeStatus(final MboValue mbv)
+def ():
+    '''returns FldChangeStatus\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getSiteOrgWhere():
-    '''public String getSiteOrgWhere()
+    '''returns String\n\n
+    getSiteOrgWhere()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

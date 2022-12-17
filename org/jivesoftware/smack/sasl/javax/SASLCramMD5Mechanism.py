@@ -1,10 +1,13 @@
 NAME = "String  \"CRAM-MD5\""
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def newInstance():
-    '''public SASLCramMD5Mechanism newInstance()
+    '''returns SASLCramMD5Mechanism\n\n
+    newInstance()\n
     '''

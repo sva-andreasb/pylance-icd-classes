@@ -1,9 +1,12 @@
-def PlusPSLABreachLineChangeStatus():
-    '''public PlusPSLABreachLineChangeStatus(final MboSet ms)
+def ():
+    '''returns PlusPSLABreachLineChangeStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def changeStatus():
-    '''public void changeStatus()
+    '''returns None\n\n
+    changeStatus()\n
     '''

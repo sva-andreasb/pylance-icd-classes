@@ -1,54 +1,72 @@
-def MicSetInfo():
-    '''public MicSetInfo(final MosDetailInfo mosDetlInfo)
+def ():
+    '''returns MicSetInfo\n\n
+    (final MosDetailInfo mosDetlInfo)\n
     '''
 def getMosDetailInfo():
-    '''public MosDetailInfo getMosDetailInfo()
+    '''returns MosDetailInfo\n\n
+    getMosDetailInfo()\n
     '''
 def getIfaceTbKey():
-    '''public IfaceTbKey getIfaceTbKey()
+    '''returns IfaceTbKey\n\n
+    getIfaceTbKey()\n
     '''
 def getIfaceTbExclusiveCols():
-    '''public List<IfaceColumnInfo> getIfaceTbExclusiveCols()
+    '''returns List<IfaceColumnInfo>\n\n
+    getIfaceTbExclusiveCols()\n
     '''
 def getIntObjectName():
-    '''public String getIntObjectName()
+    '''returns String\n\n
+    getIntObjectName()\n
     '''
 def getObjectOrder():
-    '''public int getObjectOrder()
+    '''returns int\n\n
+    getObjectOrder()\n
     '''
 def isPrimaryTable():
-    '''public boolean isPrimaryTable()
+    '''returns boolean\n\n
+    isPrimaryTable()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def getChildren():
-    '''public List getChildren()
+    '''returns List\n\n
+    getChildren()\n
     '''
 def getParentObjName():
-    '''public String getParentObjName()
+    '''returns String\n\n
+    getParentObjName()\n
     '''
 def getProcessOrder():
-    '''public int getProcessOrder()
+    '''returns int\n\n
+    getProcessOrder()\n
     '''
 def getColumns():
-    '''public List getColumns()
+    '''returns List\n\n
+    getColumns()\n
     '''
 def getKeyInfoMap():
-    '''public Map getKeyInfoMap()
+    '''returns Map\n\n
+    getKeyInfoMap()\n
     '''
 def isAltKey():
-    '''public boolean isAltKey(final String key)
+    '''returns boolean\n\n
+    isAltKey(final String key)\n
     '''
 def getAltKeys():
-    '''public String[] getAltKeys()
+    '''returns String[]\n\n
+    getAltKeys()\n
     '''
 def isSelfReferencing():
-    '''public boolean isSelfReferencing()
+    '''returns boolean\n\n
+    isSelfReferencing()\n
     '''
 def isMerge():
-    '''public boolean isMerge()
+    '''returns boolean\n\n
+    isMerge()\n
     '''

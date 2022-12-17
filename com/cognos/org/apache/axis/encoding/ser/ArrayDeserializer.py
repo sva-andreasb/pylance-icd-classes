@@ -1,30 +1,40 @@
-def ArrayDeserializer():
-    '''public ArrayDeserializer()
+def ():
+    '''returns ArrayDeserializer\n\n
+    ()\n
     '''
 def onStartElement():
-    '''public void onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def onStartChild():
-    '''public SOAPHandler onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns SOAPHandler\n\n
+    onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def onEndChild():
-    '''public void onEndChild(final String namespace, final String localName, final DeserializationContext context)
+    '''returns None\n\n
+    onEndChild(final String namespace, final String localName, final DeserializationContext context)\n
     '''
 def characters():
-    '''public void characters(final char[] chars, int i, final int i1)
+    '''returns None\n\n
+    characters(final char[] chars, int i, final int i1)\n
     '''
 def setChildValue():
-    '''public void setChildValue(final Object value, final Object hint)
+    '''returns None\n\n
+    setChildValue(final Object value, final Object hint)\n
     '''
 def valueComplete():
-    '''public void valueComplete()
+    '''returns None\n\n
+    valueComplete()\n
     '''
 def setConvertedValue():
-    '''public void setConvertedValue(final Class cls, final Object value)
+    '''returns None\n\n
+    setConvertedValue(final Class cls, final Object value)\n
     '''
 def getConvertedValue():
-    '''public Object getConvertedValue(final Class cls)
+    '''returns Object\n\n
+    getConvertedValue(final Class cls)\n
     '''
 def getDestClass():
-    '''public Class getDestClass()
+    '''returns Class\n\n
+    getDestClass()\n
     '''

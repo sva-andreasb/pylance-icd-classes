@@ -1,3 +1,4 @@
-def RichText():
-    '''public RichText(final MboSet ms)
+def ():
+    '''returns RichText\n\n
+    (final MboSet ms)\n
     '''

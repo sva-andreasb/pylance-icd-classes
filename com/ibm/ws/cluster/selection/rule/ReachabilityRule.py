@@ -1,9 +1,12 @@
-def ReachabilityRule():
-    '''public ReachabilityRule()
+def ():
+    '''returns ReachabilityRule\n\n
+    ()\n
     '''
 def subset():
-    '''public void subset(final List identities, final StringBuffer reason)
+    '''returns None\n\n
+    subset(final List identities, final StringBuffer reason)\n
     '''
 def registerRuleArbitrator():
-    '''public void registerRuleArbitrator(final RuleArbitrator coordinator)
+    '''returns None\n\n
+    registerRuleArbitrator(final RuleArbitrator coordinator)\n
     '''

@@ -1,73 +1,75 @@
-def create():
-    '''public static VTimeZone create(final String tzid)
-    public static VTimeZone create(final Reader reader)
-    '''
 def getOffset():
-    '''public int getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int milliseconds)
-    public void getOffset(final long date, final boolean local, final int[] offsets)
+    '''returns None\n\n
+    getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int milliseconds)\n
+    getOffset(final long date, final boolean local, final int[] offsets)\n
     '''
 def getOffsetFromLocal():
-    '''public void getOffsetFromLocal(final long date, final int nonExistingTimeOpt, final int duplicatedTimeOpt, final int[] offsets)
+    '''returns None\n\n
+    getOffsetFromLocal(final long date, final int nonExistingTimeOpt, final int duplicatedTimeOpt, final int[] offsets)\n
     '''
 def getRawOffset():
-    '''public int getRawOffset()
+    '''returns int\n\n
+    getRawOffset()\n
     '''
 def inDaylightTime():
-    '''public boolean inDaylightTime(final Date date)
+    '''returns boolean\n\n
+    inDaylightTime(final Date date)\n
     '''
 def setRawOffset():
-    '''public void setRawOffset(final int offsetMillis)
+    '''returns None\n\n
+    setRawOffset(final int offsetMillis)\n
     '''
 def useDaylightTime():
-    '''public boolean useDaylightTime()
-    '''
-def observesDaylightTime():
-    '''public boolean observesDaylightTime()
+    '''returns boolean\n\n
+    useDaylightTime()\n
     '''
 def hasSameRules():
-    '''public boolean hasSameRules(final TimeZone other)
+    '''returns boolean\n\n
+    hasSameRules(final TimeZone other)\n
     '''
 def getTZURL():
-    '''public String getTZURL()
+    '''returns String\n\n
+    getTZURL()\n
     '''
 def setTZURL():
-    '''public void setTZURL(final String url)
+    '''returns None\n\n
+    setTZURL(final String url)\n
     '''
 def getLastModified():
-    '''public Date getLastModified()
+    '''returns Date\n\n
+    getLastModified()\n
     '''
 def setLastModified():
-    '''public void setLastModified(final Date date)
+    '''returns None\n\n
+    setLastModified(final Date date)\n
     '''
 def write():
-    '''public void write(final Writer writer)
-    public void write(final Writer writer, final long start)
+    '''returns None\n\n
+    write(final Writer writer)\n
+    write(final Writer writer, final long start)\n
     '''
 def writeSimple():
-    '''public void writeSimple(final Writer writer, final long time)
+    '''returns None\n\n
+    writeSimple(final Writer writer, final long time)\n
     '''
 def getNextTransition():
-    '''public TimeZoneTransition getNextTransition(final long base, final boolean inclusive)
+    '''returns TimeZoneTransition\n\n
+    getNextTransition(final long base, final boolean inclusive)\n
     '''
 def getPreviousTransition():
-    '''public TimeZoneTransition getPreviousTransition(final long base, final boolean inclusive)
+    '''returns TimeZoneTransition\n\n
+    getPreviousTransition(final long base, final boolean inclusive)\n
     '''
 def hasEquivalentTransitions():
-    '''public boolean hasEquivalentTransitions(final TimeZone other, final long start, final long end)
+    '''returns boolean\n\n
+    hasEquivalentTransitions(final TimeZone other, final long start, final long end)\n
     '''
 def getTimeZoneRules():
-    '''public TimeZoneRule[] getTimeZoneRules()
-    public TimeZoneRule[] getTimeZoneRules(final long start)
+    '''returns TimeZoneRule[]\n\n
+    getTimeZoneRules()\n
+    getTimeZoneRules(final long start)\n
     '''
 def clone():
-    '''public Object clone()
-    '''
-def isFrozen():
-    '''public boolean isFrozen()
-    '''
-def freeze():
-    '''public TimeZone freeze()
-    '''
-def cloneAsThawed():
-    '''public TimeZone cloneAsThawed()
+    '''returns Object\n\n
+    clone()\n
     '''

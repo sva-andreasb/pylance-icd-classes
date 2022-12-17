@@ -1,57 +1,76 @@
 def getDisabled():
-    '''public boolean getDisabled()
+    '''returns boolean\n\n
+    getDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean b)
+    '''returns None\n\n
+    setDisabled(final boolean b)\n
     '''
 def getCharset():
-    '''public String getCharset()
+    '''returns String\n\n
+    getCharset()\n
     '''
 def setCharset():
-    '''public void setCharset(final String s)
+    '''returns None\n\n
+    setCharset(final String s)\n
     '''
 def getHref():
-    '''public String getHref()
+    '''returns String\n\n
+    getHref()\n
     '''
 def setHref():
-    '''public void setHref(final String s)
+    '''returns None\n\n
+    setHref(final String s)\n
     '''
 def getHreflang():
-    '''public String getHreflang()
+    '''returns String\n\n
+    getHreflang()\n
     '''
 def setHreflang():
-    '''public void setHreflang(final String s)
+    '''returns None\n\n
+    setHreflang(final String s)\n
     '''
 def getMedia():
-    '''public String getMedia()
+    '''returns String\n\n
+    getMedia()\n
     '''
 def setMedia():
-    '''public void setMedia(final String s)
+    '''returns None\n\n
+    setMedia(final String s)\n
     '''
 def getRel():
-    '''public String getRel()
+    '''returns String\n\n
+    getRel()\n
     '''
 def setRel():
-    '''public void setRel(final String s)
+    '''returns None\n\n
+    setRel(final String s)\n
     '''
 def getRev():
-    '''public String getRev()
+    '''returns String\n\n
+    getRev()\n
     '''
 def setRev():
-    '''public void setRev(final String s)
+    '''returns None\n\n
+    setRev(final String s)\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def setTarget():
-    '''public void setTarget(final String s)
+    '''returns None\n\n
+    setTarget(final String s)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String s)
+    '''returns None\n\n
+    setType(final String s)\n
     '''
-def HTMLLinkElementImpl():
-    '''public HTMLLinkElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLLinkElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

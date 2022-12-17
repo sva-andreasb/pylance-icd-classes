@@ -1,3 +1,4 @@
 def getControlInstance():
-    '''public Control getControlInstance(final Control control)
+    '''returns Control\n\n
+    getControlInstance(final Control control)\n
     '''

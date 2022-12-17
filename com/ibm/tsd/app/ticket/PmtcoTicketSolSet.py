@@ -1,3 +1,4 @@
-def PmtcoTicketSolSet():
-    '''public PmtcoTicketSolSet(final MboServerInterface ms)
+def ():
+    '''returns PmtcoTicketSolSet\n\n
+    (final MboServerInterface ms)\n
     '''

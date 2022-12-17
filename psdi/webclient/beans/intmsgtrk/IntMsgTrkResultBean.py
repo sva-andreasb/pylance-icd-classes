@@ -1,3 +1,4 @@
 def displaymsg():
-    '''public int displaymsg()
+    '''returns int\n\n
+    displaymsg()\n
     '''

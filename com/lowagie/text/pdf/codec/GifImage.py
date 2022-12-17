@@ -1,18 +1,23 @@
-def GifImage():
-    '''public GifImage(final URL url)
-    public GifImage(final String file)
-    public GifImage(final byte[] data)
-    public GifImage(final InputStream is)
+def ():
+    '''returns GifImage\n\n
+    (final URL url)\n
+    (final String file)\n
+    (final byte[] data)\n
+    (final InputStream is)\n
     '''
 def getFrameCount():
-    '''public int getFrameCount()
+    '''returns int\n\n
+    getFrameCount()\n
     '''
 def getImage():
-    '''public Image getImage(final int frame)
+    '''returns Image\n\n
+    getImage(final int frame)\n
     '''
 def getFramePosition():
-    '''public int[] getFramePosition(final int frame)
+    '''returns int[]\n\n
+    getFramePosition(final int frame)\n
     '''
 def getLogicalScreen():
-    '''public int[] getLogicalScreen()
+    '''returns int[]\n\n
+    getLogicalScreen()\n
     '''

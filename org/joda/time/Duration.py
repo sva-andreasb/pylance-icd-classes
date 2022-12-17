@@ -1,75 +1,74 @@
-def parse():
-    '''public static Duration parse(final String s)
-    '''
-def standardDays():
-    '''public static Duration standardDays(final long n)
-    '''
-def standardHours():
-    '''public static Duration standardHours(final long n)
-    '''
-def standardMinutes():
-    '''public static Duration standardMinutes(final long n)
-    '''
-def standardSeconds():
-    '''public static Duration standardSeconds(final long n)
-    '''
-def millis():
-    '''public static Duration millis(final long n)
-    '''
-def Duration():
-    '''public Duration(final long n)
-    public Duration(final long n, final long n2)
-    public Duration(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public Duration(final Object o)
+def ():
+    '''returns Duration\n\n
+    (final long n)\n
+    (final long n, final long n2)\n
+    (final ReadableInstant readableInstant, final ReadableInstant readableInstant2)\n
+    (final Object o)\n
     '''
 def getStandardDays():
-    '''public long getStandardDays()
+    '''returns long\n\n
+    getStandardDays()\n
     '''
 def getStandardHours():
-    '''public long getStandardHours()
+    '''returns long\n\n
+    getStandardHours()\n
     '''
 def getStandardMinutes():
-    '''public long getStandardMinutes()
+    '''returns long\n\n
+    getStandardMinutes()\n
     '''
 def getStandardSeconds():
-    '''public long getStandardSeconds()
+    '''returns long\n\n
+    getStandardSeconds()\n
     '''
 def toDuration():
-    '''public Duration toDuration()
+    '''returns Duration\n\n
+    toDuration()\n
     '''
 def toStandardDays():
-    '''public Days toStandardDays()
+    '''returns Days\n\n
+    toStandardDays()\n
     '''
 def toStandardHours():
-    '''public Hours toStandardHours()
+    '''returns Hours\n\n
+    toStandardHours()\n
     '''
 def toStandardMinutes():
-    '''public Minutes toStandardMinutes()
+    '''returns Minutes\n\n
+    toStandardMinutes()\n
     '''
 def toStandardSeconds():
-    '''public Seconds toStandardSeconds()
+    '''returns Seconds\n\n
+    toStandardSeconds()\n
     '''
 def withMillis():
-    '''public Duration withMillis(final long n)
+    '''returns Duration\n\n
+    withMillis(final long n)\n
     '''
 def withDurationAdded():
-    '''public Duration withDurationAdded(final long n, final int n2)
-    public Duration withDurationAdded(final ReadableDuration readableDuration, final int n)
+    '''returns Duration\n\n
+    withDurationAdded(final long n, final int n2)\n
+    withDurationAdded(final ReadableDuration readableDuration, final int n)\n
     '''
 def plus():
-    '''public Duration plus(final long n)
-    public Duration plus(final ReadableDuration readableDuration)
+    '''returns Duration\n\n
+    plus(final long n)\n
+    plus(final ReadableDuration readableDuration)\n
     '''
 def minus():
-    '''public Duration minus(final long n)
-    public Duration minus(final ReadableDuration readableDuration)
+    '''returns Duration\n\n
+    minus(final long n)\n
+    minus(final ReadableDuration readableDuration)\n
     '''
 def multipliedBy():
-    '''public Duration multipliedBy(final long n)
+    '''returns Duration\n\n
+    multipliedBy(final long n)\n
     '''
 def dividedBy():
-    '''public Duration dividedBy(final long n)
+    '''returns Duration\n\n
+    dividedBy(final long n)\n
     '''
 def negated():
-    '''public Duration negated()
+    '''returns Duration\n\n
+    negated()\n
     '''

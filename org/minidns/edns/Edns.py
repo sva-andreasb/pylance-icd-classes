@@ -1,39 +1,35 @@
 FLAG_DNSSEC_OK = "int  32768"
-def Edns():
-    '''public Edns(final Record<OPT> optRecord)
-    public Edns(final Builder builder)
-    '''
-def getEdnsOption():
-    '''public <O extends EdnsOption> O getEdnsOption(final OptionCode optionCode)
+def ():
+    '''returns Edns\n\n
+    (final Record<OPT> optRecord)\n
+    (final Builder builder)\n
     '''
 def asRecord():
-    '''public Record<OPT> asRecord()
+    '''returns Record<OPT>\n\n
+    asRecord()\n
     '''
 def asTerminalOutput():
-    '''public String asTerminalOutput()
+    '''returns String\n\n
+    asTerminalOutput()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def fromRecord():
-    '''public static Edns fromRecord(final Record<? extends Data> record)
-    '''
-def builder():
-    '''public static Builder builder()
-    '''
-def from():
-    '''public static OptionCode from(final int optionCode)
+    '''returns String\n\n
+    toString()\n
     '''
 def setUdpPayloadSize():
-    '''public Builder setUdpPayloadSize(final int udpPayloadSize)
+    '''returns Builder\n\n
+    setUdpPayloadSize(final int udpPayloadSize)\n
     '''
 def setDnssecOk():
-    '''public Builder setDnssecOk(final boolean dnssecOk)
-    public Builder setDnssecOk()
+    '''returns Builder\n\n
+    setDnssecOk(final boolean dnssecOk)\n
+    setDnssecOk()\n
     '''
 def addEdnsOption():
-    '''public Builder addEdnsOption(final EdnsOption ednsOption)
+    '''returns Builder\n\n
+    addEdnsOption(final EdnsOption ednsOption)\n
     '''
 def build():
-    '''public Edns build()
+    '''returns Edns\n\n
+    build()\n
     '''

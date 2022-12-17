@@ -1,33 +1,42 @@
 HORIZONTAL_LINE = "String  \"HORIZONTAL\""
 BORDER = "String  \"BORDER\""
-def Graphic():
-    '''public Graphic()
+def ():
+    '''returns Graphic\n\n
+    ()\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def setHorizontalLine():
-    '''public void setHorizontalLine(final float linewidth, final float percentage)
-    public void setHorizontalLine(final float linewidth, final float percentage, final int align)
-    public void setHorizontalLine(final float linewidth, final float percentage, final Color color)
-    public void setHorizontalLine(final float linewidth, final float percentage, final Color color, final int align)
+    '''returns None\n\n
+    setHorizontalLine(final float linewidth, final float percentage)\n
+    setHorizontalLine(final float linewidth, final float percentage, final int align)\n
+    setHorizontalLine(final float linewidth, final float percentage, final Color color)\n
+    setHorizontalLine(final float linewidth, final float percentage, final Color color, final int align)\n
     '''
 def drawHorizontalLine():
-    '''public void drawHorizontalLine(final float lineWidth, final Color color, final float x1, final float x2, final float y)
+    '''returns None\n\n
+    drawHorizontalLine(final float lineWidth, final Color color, final float x1, final float x2, final float y)\n
     '''
 def setBorder():
-    '''public void setBorder(final float linewidth, final float extraSpace)
-    public void setBorder(final float linewidth, final float extraSpace, final Color color)
+    '''returns None\n\n
+    setBorder(final float linewidth, final float extraSpace)\n
+    setBorder(final float linewidth, final float extraSpace, final Color color)\n
     '''
 def drawBorder():
-    '''public void drawBorder(final float lineWidth, final Color color, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    drawBorder(final float lineWidth, final Color color, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def processAttributes():
-    '''public void processAttributes(final float llx, final float lly, final float urx, final float ury, final float y)
+    '''returns None\n\n
+    processAttributes(final float llx, final float lly, final float urx, final float ury, final float y)\n
     '''

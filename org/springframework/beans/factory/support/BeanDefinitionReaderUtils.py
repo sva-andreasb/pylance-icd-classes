@@ -1,0 +1,1 @@
+GENERATED_BEAN_NAME_SEPARATOR = "String  \"#\""

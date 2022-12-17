@@ -1,27 +1,28 @@
-def ReservationData():
-    '''public ReservationData()
-    '''
-def getObjectNames():
-    '''public HashMap<String, TreeSet<String>> getObjectNames()
+def ():
+    '''returns ReservationData\n\n
+    ()\n
     '''
 def getAllObjectNames():
-    '''public Set<String> getAllObjectNames()
+    '''returns Set<String>\n\n
+    getAllObjectNames()\n
     '''
 def setObjectNames():
-    '''public void setObjectNames(final HashMap<String, TreeSet<String>> objectNames)
+    '''returns None\n\n
+    setObjectNames(final HashMap<String, TreeSet<String>> objectNames)\n
     '''
 def getReservationList():
-    '''public ArrayList<MXReservation> getReservationList()
+    '''returns ArrayList<MXReservation>\n\n
+    getReservationList()\n
     '''
 def setReservationList():
-    '''public void setReservationList(final ArrayList<MXReservation> reservationList)
+    '''returns None\n\n
+    setReservationList(final ArrayList<MXReservation> reservationList)\n
     '''
 def isInitializationNeeded():
-    '''public boolean isInitializationNeeded()
+    '''returns boolean\n\n
+    isInitializationNeeded()\n
     '''
 def setInitializationNeeded():
-    '''public void setInitializationNeeded(final boolean initializationNeeded)
-    '''
-def getReservations():
-    '''public HashMap<Long, ArrayList<MXReservation>> getReservations(final String reservationObjectName)
+    '''returns None\n\n
+    setInitializationNeeded(final boolean initializationNeeded)\n
     '''

@@ -1,28 +1,37 @@
-def Afpa():
-    '''public Afpa()
+def ():
+    '''returns Afpa\n\n
+    ()\n
     '''
 def setAddress():
-    '''public void setAddress(final String address)
+    '''returns None\n\n
+    setAddress(final String address)\n
     '''
 def run():
-    '''public void run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
     '''
 def writePages():
-    '''public void writePages(final Iterator externalCacheEntries)
+    '''returns None\n\n
+    writePages(final Iterator externalCacheEntries)\n
     '''
 def invalidatePages():
-    '''public void invalidatePages(final Iterator urls)
+    '''returns None\n\n
+    invalidatePages(final Iterator urls)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def invalidateIds():
-    '''public void invalidateIds(final Iterator ids)
+    '''returns None\n\n
+    invalidateIds(final Iterator ids)\n
     '''
 def preInvoke():
-    '''public void preInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)
+    '''returns None\n\n
+    preInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)\n
     '''
 def postInvoke():
-    '''public void postInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)
+    '''returns None\n\n
+    postInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)\n
     '''

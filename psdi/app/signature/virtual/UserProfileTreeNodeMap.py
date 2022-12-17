@@ -1,16 +1,21 @@
-def UserProfileTreeNodeMap():
-    '''public UserProfileTreeNodeMap()
+def ():
+    '''returns UserProfileTreeNodeMap\n\n
+    ()\n
     '''
 def getTreeUniqueID():
-    '''public long getTreeUniqueID(final MboRemote mbo)
+    '''returns long\n\n
+    getTreeUniqueID(final MboRemote mbo)\n
     '''
 def addSite():
-    '''public void addSite(final String site)
+    '''returns None\n\n
+    addSite(final String site)\n
     '''
 def mapUniqueIdToSite():
-    '''public void mapUniqueIdToSite(final long parentid, final long currentid)
-    public void mapUniqueIdToSite(final long uniqueid, final String site)
+    '''returns None\n\n
+    mapUniqueIdToSite(final long parentid, final long currentid)\n
+    mapUniqueIdToSite(final long uniqueid, final String site)\n
     '''
 def getCurrentSiteId():
-    '''public String getCurrentSiteId(final long currentid)
+    '''returns String\n\n
+    getCurrentSiteId(final long currentid)\n
     '''

@@ -1,51 +1,64 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TreeInTable():
-    '''public TreeInTable(final TreeInTableModel model)
+def ():
+    '''returns CellRenderer\n\n
+    (final TreeInTableModel model)\n
+    (final TreeModel model)\n
     '''
 def setTreeInTableModel():
-    '''public void setTreeInTableModel(final TreeInTableModel model)
+    '''returns None\n\n
+    setTreeInTableModel(final TreeInTableModel model)\n
     '''
 def getTreeInTableModel():
-    '''public TreeInTableModel getTreeInTableModel()
+    '''returns TreeInTableModel\n\n
+    getTreeInTableModel()\n
     '''
 def getEmbeddedTree():
-    '''public JTree getEmbeddedTree()
+    '''returns JTree\n\n
+    getEmbeddedTree()\n
     '''
 def applyComponentOrientation():
-    '''public void applyComponentOrientation(final ComponentOrientation arg)
+    '''returns None\n\n
+    applyComponentOrientation(final ComponentOrientation arg)\n
     '''
 def setRowHeight():
-    '''public void setRowHeight(final int rowHeight)
-    public void setRowHeight(final int rowHeight)
+    '''returns None\n\n
+    setRowHeight(final int rowHeight)\n
+    setRowHeight(final int rowHeight)\n
     '''
 def getEditingRow():
-    '''public int getEditingRow()
+    '''returns int\n\n
+    getEditingRow()\n
     '''
 def updateUI():
-    '''public void updateUI()
-    public void updateUI()
-    '''
-def CellRenderer():
-    '''public CellRenderer(final TreeModel model)
+    '''returns None\n\n
+    updateUI()\n
+    updateUI()\n
     '''
 def getTableCellRendererComponent():
-    '''public Component getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int col)
+    '''returns Component\n\n
+    getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int col)\n
     '''
 def setBounds():
-    '''public void setBounds(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    setBounds(final int x, final int y, final int width, final int height)\n
     '''
 def paint():
-    '''public void paint(final Graphics g)
+    '''returns None\n\n
+    paint(final Graphics g)\n
     '''
 def getTableCellEditorComponent():
-    '''public Component getTableCellEditorComponent(final JTable arg0, final Object arg1, final boolean arg2, final int arg3, final int arg4)
+    '''returns Component\n\n
+    getTableCellEditorComponent(final JTable arg0, final Object arg1, final boolean arg2, final int arg3, final int arg4)\n
     '''
 def getCellEditorValue():
-    '''public Object getCellEditorValue()
+    '''returns Object\n\n
+    getCellEditorValue()\n
     '''
 def isCellEditable():
-    '''public boolean isCellEditable(final EventObject e)
+    '''returns boolean\n\n
+    isCellEditable(final EventObject e)\n
     '''
 def getListSelectionModel():
-    '''public ListSelectionModel getListSelectionModel()
+    '''returns ListSelectionModel\n\n
+    getListSelectionModel()\n
     '''

@@ -1,42 +1,56 @@
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def setLocale():
-    '''public Builder setLocale(final ULocale locale)
+    '''returns Builder\n\n
+    setLocale(final ULocale locale)\n
     '''
 def setLanguageTag():
-    '''public Builder setLanguageTag(final String languageTag)
+    '''returns Builder\n\n
+    setLanguageTag(final String languageTag)\n
     '''
 def setLanguage():
-    '''public Builder setLanguage(final String language)
+    '''returns Builder\n\n
+    setLanguage(final String language)\n
     '''
 def setScript():
-    '''public Builder setScript(final String script)
+    '''returns Builder\n\n
+    setScript(final String script)\n
     '''
 def setRegion():
-    '''public Builder setRegion(final String region)
+    '''returns Builder\n\n
+    setRegion(final String region)\n
     '''
 def setVariant():
-    '''public Builder setVariant(final String variant)
+    '''returns Builder\n\n
+    setVariant(final String variant)\n
     '''
 def setExtension():
-    '''public Builder setExtension(final char key, final String value)
+    '''returns Builder\n\n
+    setExtension(final char key, final String value)\n
     '''
 def setUnicodeLocaleKeyword():
-    '''public Builder setUnicodeLocaleKeyword(final String key, final String type)
+    '''returns Builder\n\n
+    setUnicodeLocaleKeyword(final String key, final String type)\n
     '''
 def addUnicodeLocaleAttribute():
-    '''public Builder addUnicodeLocaleAttribute(final String attribute)
+    '''returns Builder\n\n
+    addUnicodeLocaleAttribute(final String attribute)\n
     '''
 def removeUnicodeLocaleAttribute():
-    '''public Builder removeUnicodeLocaleAttribute(final String attribute)
+    '''returns Builder\n\n
+    removeUnicodeLocaleAttribute(final String attribute)\n
     '''
 def clear():
-    '''public Builder clear()
+    '''returns Builder\n\n
+    clear()\n
     '''
 def clearExtensions():
-    '''public Builder clearExtensions()
+    '''returns Builder\n\n
+    clearExtensions()\n
     '''
 def build():
-    '''public ULocale build()
+    '''returns ULocale\n\n
+    build()\n
     '''

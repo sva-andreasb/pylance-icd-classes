@@ -2,13 +2,12 @@ MIMETYPE_XML = "String  \"application/xml\""
 MIMETYPE_HTML = "String  \"text/html\""
 MIMETYPE_OCTET_STREAM = "String  \"application/octet-stream\""
 MIMETYPE_GZIP = "String  \"application/x-gzip\""
-def getInstance():
-    '''public static synchronized Mimetypes getInstance()
-    '''
 def loadAndReplaceMimetypes():
-    '''public void loadAndReplaceMimetypes(final InputStream is)
+    '''returns None\n\n
+    loadAndReplaceMimetypes(final InputStream is)\n
     '''
 def getMimetype():
-    '''public String getMimetype(final String fileName)
-    public String getMimetype(final File file)
+    '''returns String\n\n
+    getMimetype(final String fileName)\n
+    getMimetype(final File file)\n
     '''

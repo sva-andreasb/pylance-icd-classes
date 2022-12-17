@@ -1,48 +1,64 @@
 def nextBatch():
-    '''public FileChannelRecordBatch nextBatch()
+    '''returns FileChannelRecordBatch\n\n
+    nextBatch()\n
     '''
 def compressionType():
-    '''public CompressionType compressionType()
+    '''returns CompressionType\n\n
+    compressionType()\n
     '''
 def timestampType():
-    '''public TimestampType timestampType()
+    '''returns TimestampType\n\n
+    timestampType()\n
     '''
 def checksum():
-    '''public long checksum()
+    '''returns long\n\n
+    checksum()\n
     '''
 def maxTimestamp():
-    '''public long maxTimestamp()
+    '''returns long\n\n
+    maxTimestamp()\n
     '''
 def position():
-    '''public int position()
+    '''returns int\n\n
+    position()\n
     '''
 def magic():
-    '''public byte magic()
+    '''returns byte\n\n
+    magic()\n
     '''
 def iterator():
-    '''public Iterator<Record> iterator()
+    '''returns Iterator<Record>\n\n
+    iterator()\n
     '''
 def streamingIterator():
-    '''public CloseableIterator<Record> streamingIterator(final BufferSupplier bufferSupplier)
+    '''returns CloseableIterator<Record>\n\n
+    streamingIterator(final BufferSupplier bufferSupplier)\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def ensureValid():
-    '''public void ensureValid()
+    '''returns None\n\n
+    ensureValid()\n
     '''
 def sizeInBytes():
-    '''public int sizeInBytes()
+    '''returns int\n\n
+    sizeInBytes()\n
     '''
 def writeTo():
-    '''public void writeTo(final ByteBuffer buffer)
+    '''returns None\n\n
+    writeTo(final ByteBuffer buffer)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

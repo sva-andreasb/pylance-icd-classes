@@ -1,6 +1,8 @@
-def Horizon():
-    '''public Horizon(final double alt, final double azim)
+def ():
+    '''returns Horizon\n\n
+    (final double alt, final double azim)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

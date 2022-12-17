@@ -1,16 +1,21 @@
-def XmlDeclaration():
-    '''public XmlDeclaration(final String name, final boolean isProcessingInstruction)
-    public XmlDeclaration(final String name, final String baseUri, final boolean isProcessingInstruction)
+def ():
+    '''returns XmlDeclaration\n\n
+    (final String name, final boolean isProcessingInstruction)\n
+    (final String name, final String baseUri, final boolean isProcessingInstruction)\n
     '''
 def nodeName():
-    '''public String nodeName()
+    '''returns String\n\n
+    nodeName()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def getWholeDeclaration():
-    '''public String getWholeDeclaration()
+    '''returns String\n\n
+    getWholeDeclaration()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

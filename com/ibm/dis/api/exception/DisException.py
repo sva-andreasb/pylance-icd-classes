@@ -1,6 +1,7 @@
-def DisException():
-    '''public DisException()
-    public DisException(final String message, final Throwable cause)
-    public DisException(final String message)
-    public DisException(final Throwable cause)
+def ():
+    '''returns DisException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

@@ -1,21 +1,12 @@
-def getRow():
-    '''public final int getRow()
-    '''
-def getColumn():
-    '''public final short getColumn()
-    '''
-def getXFIndex():
-    '''public final short getXFIndex()
-    '''
 def getCellAttrs():
-    '''public int getCellAttrs()
+    '''returns int\n\n
+    getCellAttrs()\n
     '''
 def isBiff2():
-    '''public boolean isBiff2()
+    '''returns boolean\n\n
+    isBiff2()\n
     '''
 def getSid():
-    '''public short getSid()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns short\n\n
+    getSid()\n
     '''

@@ -1,9 +1,8 @@
 def removeClassificationGroup():
-    '''public int removeClassificationGroup()
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''returns int\n\n
+    removeClassificationGroup()\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''

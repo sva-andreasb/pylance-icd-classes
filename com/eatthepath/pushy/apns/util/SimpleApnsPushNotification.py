@@ -1,43 +1,55 @@
-def SimpleApnsPushNotification():
-    '''public SimpleApnsPushNotification(final String token, final String topic, final String payload)
-    public SimpleApnsPushNotification(final String token, final String topic, final String payload, final Instant invalidationTime)
-    public SimpleApnsPushNotification(final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority)
-    public SimpleApnsPushNotification(final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final PushType pushType)
-    public SimpleApnsPushNotification(final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final String collapseId)
-    public SimpleApnsPushNotification(final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final PushType pushType, final String collapseId)
-    public SimpleApnsPushNotification(final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final String collapseId, final UUID apnsId)
-    public SimpleApnsPushNotification(final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final PushType pushType, final String collapseId, final UUID apnsId)
+def ():
+    '''returns SimpleApnsPushNotification\n\n
+    (final String token, final String topic, final String payload)\n
+    (final String token, final String topic, final String payload, final Instant invalidationTime)\n
+    (final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority)\n
+    (final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final PushType pushType)\n
+    (final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final String collapseId)\n
+    (final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final PushType pushType, final String collapseId)\n
+    (final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final String collapseId, final UUID apnsId)\n
+    (final String token, final String topic, final String payload, final Instant invalidationTime, final DeliveryPriority priority, final PushType pushType, final String collapseId, final UUID apnsId)\n
     '''
 def getToken():
-    '''public String getToken()
+    '''returns String\n\n
+    getToken()\n
     '''
 def getPayload():
-    '''public String getPayload()
+    '''returns String\n\n
+    getPayload()\n
     '''
 def getExpiration():
-    '''public Instant getExpiration()
+    '''returns Instant\n\n
+    getExpiration()\n
     '''
 def getPriority():
-    '''public DeliveryPriority getPriority()
+    '''returns DeliveryPriority\n\n
+    getPriority()\n
     '''
 def getPushType():
-    '''public PushType getPushType()
+    '''returns PushType\n\n
+    getPushType()\n
     '''
 def getTopic():
-    '''public String getTopic()
+    '''returns String\n\n
+    getTopic()\n
     '''
 def getCollapseId():
-    '''public String getCollapseId()
+    '''returns String\n\n
+    getCollapseId()\n
     '''
 def getApnsId():
-    '''public UUID getApnsId()
+    '''returns UUID\n\n
+    getApnsId()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

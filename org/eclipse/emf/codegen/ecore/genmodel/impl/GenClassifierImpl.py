@@ -1,48 +1,64 @@
 def getGenPackage():
-    '''public GenPackage getGenPackage()
+    '''returns GenPackage\n\n
+    getGenPackage()\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def getEcoreModelElement():
-    '''public EModelElement getEcoreModelElement()
+    '''returns EModelElement\n\n
+    getEcoreModelElement()\n
     '''
 def getMetaType():
-    '''public String getMetaType()
+    '''returns String\n\n
+    getMetaType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getUncapName():
-    '''public String getUncapName()
+    '''returns String\n\n
+    getUncapName()\n
     '''
 def getSafeUncapName():
-    '''public String getSafeUncapName()
+    '''returns String\n\n
+    getSafeUncapName()\n
     '''
 def getClassifierAccessorName():
-    '''public String getClassifierAccessorName()
+    '''returns String\n\n
+    getClassifierAccessorName()\n
     '''
 def getFormattedName():
-    '''public String getFormattedName()
+    '''returns String\n\n
+    getFormattedName()\n
     '''
 def getClassifierInstanceName():
-    '''public String getClassifierInstanceName()
+    '''returns String\n\n
+    getClassifierInstanceName()\n
     '''
 def getClassifierID():
-    '''public String getClassifierID()
+    '''returns String\n\n
+    getClassifierID()\n
     '''
 def getGenConstraints():
-    '''public List getGenConstraints()
+    '''returns List\n\n
+    getGenConstraints()\n
     '''
 def getAllGenConstraints():
-    '''public List getAllGenConstraints()
+    '''returns List\n\n
+    getAllGenConstraints()\n
     '''
 def getConstraintImplementor():
-    '''public GenClassifier getConstraintImplementor(final String constraint)
+    '''returns GenClassifier\n\n
+    getConstraintImplementor(final String constraint)\n
     '''
 def hasOnlyDefaultConstraints():
-    '''public boolean hasOnlyDefaultConstraints()
+    '''returns boolean\n\n
+    hasOnlyDefaultConstraints()\n
     '''

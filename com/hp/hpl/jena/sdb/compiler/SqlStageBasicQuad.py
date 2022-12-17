@@ -1,12 +1,16 @@
-def SqlStageBasicQuad():
-    '''public SqlStageBasicQuad(final Quad quad)
+def ():
+    '''returns SqlStageBasicQuad\n\n
+    (final Quad quad)\n
     '''
 def build():
-    '''public SqlNode build(final SDBRequest request, final SlotCompiler slotCompiler)
+    '''returns SqlNode\n\n
+    build(final SDBRequest request, final SlotCompiler slotCompiler)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
     '''

@@ -1,6 +1,8 @@
-def FldSKDModelSolnPrecision():
-    '''public FldSKDModelSolnPrecision(final MboValue mbv)
+def ():
+    '''returns FldSKDModelSolnPrecision\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

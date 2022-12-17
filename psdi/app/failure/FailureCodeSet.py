@@ -1,3 +1,4 @@
-def FailureCodeSet():
-    '''public FailureCodeSet(final MboServerInterface ms)
+def ():
+    '''returns FailureCodeSet\n\n
+    (final MboServerInterface ms)\n
     '''

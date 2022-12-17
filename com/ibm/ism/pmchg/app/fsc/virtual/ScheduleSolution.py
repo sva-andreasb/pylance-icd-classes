@@ -1,33 +1,43 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def ScheduleSolution():
-    '''public ScheduleSolution()
-    public ScheduleSolution(final List<TimeWindow> twList)
-    public ScheduleSolution(final ScheduleError error)
+def ():
+    '''returns ScheduleSolution\n\n
+    ()\n
+    (final List<TimeWindow> twList)\n
+    (final ScheduleError error)\n
     '''
 def isSolutionGood():
-    '''public boolean isSolutionGood()
+    '''returns boolean\n\n
+    isSolutionGood()\n
     '''
 def getTimeWindows():
-    '''public List<TimeWindow> getTimeWindows()
+    '''returns List<TimeWindow>\n\n
+    getTimeWindows()\n
     '''
 def getError():
-    '''public ScheduleError getError()
+    '''returns ScheduleError\n\n
+    getError()\n
     '''
 def getTasksNotScheduled():
-    '''public int getTasksNotScheduled()
+    '''returns int\n\n
+    getTasksNotScheduled()\n
     '''
 def setTasksNotScheduled():
-    '''public void setTasksNotScheduled(final int count)
+    '''returns None\n\n
+    setTasksNotScheduled(final int count)\n
     '''
 def setLatestTime():
-    '''public void setLatestTime(final Date time)
+    '''returns None\n\n
+    setLatestTime(final Date time)\n
     '''
 def getLatestTime():
-    '''public Date getLatestTime()
+    '''returns Date\n\n
+    getLatestTime()\n
     '''
 def setEarliestTime():
-    '''public void setEarliestTime(final Date time)
+    '''returns None\n\n
+    setEarliestTime(final Date time)\n
     '''
 def getEarliestTime():
-    '''public Date getEarliestTime()
+    '''returns Date\n\n
+    getEarliestTime()\n
     '''

@@ -1,17 +1,21 @@
-def MultipleFileTransferMonitor():
-    '''public MultipleFileTransferMonitor(final AbstractTransfer transfer, final Collection<? extends AbstractTransfer> subTransfers)
+def ():
+    '''returns MultipleFileTransferMonitor\n\n
+    (final AbstractTransfer transfer, final Collection<? extends AbstractTransfer> subTransfers)\n
     '''
 def cancel():
-    '''public boolean cancel(final boolean mayInterruptIfRunning)
+    '''returns boolean\n\n
+    cancel(final boolean mayInterruptIfRunning)\n
     '''
 def get():
-    '''public Object get()
-    public Object get(final long timeout, final TimeUnit unit)
+    '''returns Object\n\n
+    get()\n
+    get(final long timeout, final TimeUnit unit)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def isDone():
-    '''public boolean isDone()
-    public synchronized boolean isDone()
+    '''returns boolean\n\n
+    isDone()\n
     '''

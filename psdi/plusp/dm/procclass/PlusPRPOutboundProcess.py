@@ -1,6 +1,8 @@
-def PlusPRPOutboundProcess():
-    '''public PlusPRPOutboundProcess()
+def ():
+    '''returns PlusPRPOutboundProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboRemote mboRemote, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''returns int\n\n
+    checkBusinessRules(final MboRemote mboRemote, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)\n
     '''

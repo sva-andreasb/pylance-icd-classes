@@ -1,6 +1,8 @@
-def PlusCFldConfidLevel():
-    '''public PlusCFldConfidLevel(final MboValue mv)
+def ():
+    '''returns PlusCFldConfidLevel\n\n
+    (final MboValue mv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

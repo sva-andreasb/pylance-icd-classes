@@ -1,57 +1,52 @@
-def FeatureField():
-    '''public FeatureField(final String fieldName, final String featureName, final float featureValue)
+def ():
+    '''returns FeatureField\n\n
+    (final String fieldName, final String featureName, final float featureValue)\n
     '''
 def setFeatureValue():
-    '''public void setFeatureValue(final float featureValue)
+    '''returns None\n\n
+    setFeatureValue(final float featureValue)\n
     '''
 def tokenStream():
-    '''public TokenStream tokenStream(final Analyzer analyzer, final TokenStream reuse)
-    '''
-def newLogQuery():
-    '''public static Query newLogQuery(final String fieldName, final String featureName, final float weight, final float scalingFactor)
-    '''
-def newSaturationQuery():
-    '''public static Query newSaturationQuery(final String fieldName, final String featureName, final float weight, final float pivot)
-    public static Query newSaturationQuery(final String fieldName, final String featureName)
-    '''
-def newSigmoidQuery():
-    '''public static Query newSigmoidQuery(final String fieldName, final String featureName, final float weight, final float pivot, final float exp)
-    '''
-def newFeatureSort():
-    '''public static SortField newFeatureSort(final String field, final String featureName)
-    '''
-def newDoubleValues():
-    '''public static DoubleValuesSource newDoubleValues(final String field, final String featureName)
+    '''returns TokenStream\n\n
+    tokenStream(final Analyzer analyzer, final TokenStream reuse)\n
     '''
 def incrementToken():
-    '''public boolean incrementToken()
+    '''returns boolean\n\n
+    incrementToken()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def score():
-    '''public float score(final float freq, final long norm)
-    public float score(final float freq, final long norm)
-    public float score(final float freq, final long norm)
+    '''returns float\n\n
+    score(final float freq, final long norm)\n
+    score(final float freq, final long norm)\n
+    score(final float freq, final long norm)\n
     '''
 def rewrite():
-    '''public FeatureFunction rewrite(final IndexReader reader)
+    '''returns FeatureFunction\n\n
+    rewrite(final IndexReader reader)\n
     '''

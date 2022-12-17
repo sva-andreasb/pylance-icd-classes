@@ -1,6 +1,8 @@
-def PointsConfigListener():
-    '''public PointsConfigListener(final QueryConfigHandler config)
+def ():
+    '''returns PointsConfigListener\n\n
+    (final QueryConfigHandler config)\n
     '''
 def buildFieldConfig():
-    '''public void buildFieldConfig(final FieldConfig fieldConfig)
+    '''returns None\n\n
+    buildFieldConfig(final FieldConfig fieldConfig)\n
     '''

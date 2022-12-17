@@ -1,6 +1,8 @@
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''

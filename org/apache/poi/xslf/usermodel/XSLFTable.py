@@ -1,36 +1,48 @@
 def getCell():
-    '''public XSLFTableCell getCell(final int row, final int col)
+    '''returns XSLFTableCell\n\n
+    getCell(final int row, final int col)\n
     '''
 def getCTTable():
-    '''public CTTable getCTTable()
+    '''returns CTTable\n\n
+    getCTTable()\n
     '''
 def getNumberOfColumns():
-    '''public int getNumberOfColumns()
+    '''returns int\n\n
+    getNumberOfColumns()\n
     '''
 def getNumberOfRows():
-    '''public int getNumberOfRows()
+    '''returns int\n\n
+    getNumberOfRows()\n
     '''
 def getColumnWidth():
-    '''public double getColumnWidth(final int idx)
+    '''returns double\n\n
+    getColumnWidth(final int idx)\n
     '''
 def setColumnWidth():
-    '''public void setColumnWidth(final int idx, final double width)
+    '''returns None\n\n
+    setColumnWidth(final int idx, final double width)\n
     '''
 def getRowHeight():
-    '''public double getRowHeight(final int row)
+    '''returns double\n\n
+    getRowHeight(final int row)\n
     '''
 def setRowHeight():
-    '''public void setRowHeight(final int row, final double height)
+    '''returns None\n\n
+    setRowHeight(final int row, final double height)\n
     '''
 def iterator():
-    '''public Iterator<XSLFTableRow> iterator()
+    '''returns Iterator<XSLFTableRow>\n\n
+    iterator()\n
     '''
 def getRows():
-    '''public List<XSLFTableRow> getRows()
+    '''returns List<XSLFTableRow>\n\n
+    getRows()\n
     '''
 def addRow():
-    '''public XSLFTableRow addRow()
+    '''returns XSLFTableRow\n\n
+    addRow()\n
     '''
 def mergeCells():
-    '''public void mergeCells(final int firstRow, final int lastRow, final int firstCol, final int lastCol)
+    '''returns None\n\n
+    mergeCells(final int firstRow, final int lastRow, final int firstCol, final int lastCol)\n
     '''

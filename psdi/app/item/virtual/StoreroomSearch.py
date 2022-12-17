@@ -1,3 +1,4 @@
-def StoreroomSearch():
-    '''public StoreroomSearch(final MboSet ms)
+def ():
+    '''returns StoreroomSearch\n\n
+    (final MboSet ms)\n
     '''

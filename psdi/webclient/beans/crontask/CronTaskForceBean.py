@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def getInstanceMbo():
-    '''public CrontaskInstanceRemote getInstanceMbo(final String taskName, final String instanceName)
+    '''returns CrontaskInstanceRemote\n\n
+    getInstanceMbo(final String taskName, final String instanceName)\n
     '''

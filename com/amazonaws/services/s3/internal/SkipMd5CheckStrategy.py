@@ -1,23 +1,29 @@
 DISABLE_GET_OBJECT_MD5_VALIDATION_PROPERTY = "String  \"com.amazonaws.services.s3.disableGetObjectMD5Validation\""
 DISABLE_PUT_OBJECT_MD5_VALIDATION_PROPERTY = "String  \"com.amazonaws.services.s3.disablePutObjectMD5Validation\""
 def skipClientSideValidationPerGetResponse():
-    '''public boolean skipClientSideValidationPerGetResponse(final ObjectMetadata metadata)
+    '''returns boolean\n\n
+    skipClientSideValidationPerGetResponse(final ObjectMetadata metadata)\n
     '''
 def skipClientSideValidationPerPutResponse():
-    '''public boolean skipClientSideValidationPerPutResponse(final ObjectMetadata metadata)
+    '''returns boolean\n\n
+    skipClientSideValidationPerPutResponse(final ObjectMetadata metadata)\n
     '''
 def skipClientSideValidationPerUploadPartResponse():
-    '''public boolean skipClientSideValidationPerUploadPartResponse(final ObjectMetadata metadata)
+    '''returns boolean\n\n
+    skipClientSideValidationPerUploadPartResponse(final ObjectMetadata metadata)\n
     '''
 def skipClientSideValidation():
-    '''public boolean skipClientSideValidation(final GetObjectRequest request, final ObjectMetadata returnedMetadata)
+    '''returns boolean\n\n
+    skipClientSideValidation(final GetObjectRequest request, final ObjectMetadata returnedMetadata)\n
     '''
 def skipClientSideValidationPerRequest():
-    '''public boolean skipClientSideValidationPerRequest(final PutObjectRequest request)
-    public boolean skipClientSideValidationPerRequest(final UploadPartRequest request)
-    public boolean skipClientSideValidationPerRequest(final GetObjectRequest request)
+    '''returns boolean\n\n
+    skipClientSideValidationPerRequest(final PutObjectRequest request)\n
+    skipClientSideValidationPerRequest(final UploadPartRequest request)\n
+    skipClientSideValidationPerRequest(final GetObjectRequest request)\n
     '''
 def skipServerSideValidation():
-    '''public boolean skipServerSideValidation(final PutObjectRequest request)
-    public boolean skipServerSideValidation(final UploadPartRequest request)
+    '''returns boolean\n\n
+    skipServerSideValidation(final PutObjectRequest request)\n
+    skipServerSideValidation(final UploadPartRequest request)\n
     '''

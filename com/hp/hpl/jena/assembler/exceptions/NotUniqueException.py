@@ -1,6 +1,8 @@
-def NotUniqueException():
-    '''public NotUniqueException(final Resource root, final Property property)
+def ():
+    '''returns NotUniqueException\n\n
+    (final Resource root, final Property property)\n
     '''
 def getProperty():
-    '''public Property getProperty()
+    '''returns Property\n\n
+    getProperty()\n
     '''

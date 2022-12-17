@@ -1,83 +1,104 @@
-def MultiMap():
-    '''public MultiMap()
-    public MultiMap(final Map<K, Object> map)
-    public MultiMap(final MultiMap<K> map)
-    public MultiMap(final int capacity)
-    public MultiMap(final boolean concurrent)
+def ():
+    '''returns MultiMap\n\n
+    ()\n
+    (final Map<K, Object> map)\n
+    (final MultiMap<K> map)\n
+    (final int capacity)\n
+    (final boolean concurrent)\n
     '''
 def getValues():
-    '''public List<Object> getValues(final Object name)
+    '''returns List<Object>\n\n
+    getValues(final Object name)\n
     '''
 def getValue():
-    '''public Object getValue(final Object name, final int i)
+    '''returns Object\n\n
+    getValue(final Object name, final int i)\n
     '''
 def getString():
-    '''public String getString(final Object name)
+    '''returns String\n\n
+    getString(final Object name)\n
     '''
 def get():
-    '''public Object get(final Object name)
+    '''returns Object\n\n
+    get(final Object name)\n
     '''
 def put():
-    '''public Object put(final K name, final Object value)
+    '''returns Object\n\n
+    put(final K name, final Object value)\n
     '''
 def putValues():
-    '''public Object putValues(final K name, final List<?> values)
-    public Object putValues(final K name, final String... values)
+    '''returns Object\n\n
+    putValues(final K name, final List<?> values)\n
+    putValues(final K name, final String... values)\n
     '''
 def add():
-    '''public void add(final K name, final Object value)
+    '''returns None\n\n
+    add(final K name, final Object value)\n
     '''
 def addValues():
-    '''public void addValues(final K name, final List<?> values)
-    public void addValues(final K name, final String[] values)
+    '''returns None\n\n
+    addValues(final K name, final List<?> values)\n
+    addValues(final K name, final String[] values)\n
     '''
 def removeValue():
-    '''public boolean removeValue(final K name, final Object value)
+    '''returns boolean\n\n
+    removeValue(final K name, final Object value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ?> m)
-    '''
-def toStringArrayMap():
-    '''public Map<K, String[]> toStringArrayMap()
+    '''returns None\n\n
+    putAll(final Map<? extends K, ?> m)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def remove():
-    '''public Object remove(final Object key)
-    public boolean remove(final Object key, final Object value)
+    '''returns boolean\n\n
+    remove(final Object key)\n
+    remove(final Object key, final Object value)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def values():
-    '''public Collection<Object> values()
+    '''returns Collection<Object>\n\n
+    values()\n
     '''
 def putIfAbsent():
-    '''public Object putIfAbsent(final K key, final Object value)
+    '''returns Object\n\n
+    putIfAbsent(final K key, final Object value)\n
     '''
 def replace():
-    '''public boolean replace(final K key, final Object oldValue, final Object newValue)
-    public Object replace(final K key, final Object value)
+    '''returns Object\n\n
+    replace(final K key, final Object oldValue, final Object newValue)\n
+    replace(final K key, final Object value)\n
     '''

@@ -1,6 +1,8 @@
 def newComplete():
-    '''public CompletionFlag newComplete()
+    '''returns CompletionFlag\n\n
+    newComplete()\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final Node s, final Node p, final Node o, final CompletionFlag complete)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final Node s, final Node p, final Node o, final CompletionFlag complete)\n
     '''

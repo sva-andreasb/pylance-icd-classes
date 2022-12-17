@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloMessageEvaluatorManager():
-    '''public IloMessageEvaluatorManager()
+def ():
+    '''returns IloMessageEvaluatorManager\n\n
+    ()\n
     '''
 def registerEvaluator():
-    '''public void registerEvaluator(final IloMessageParameterFormatter evaluator)
+    '''returns None\n\n
+    registerEvaluator(final IloMessageParameterFormatter evaluator)\n
     '''
 def formatValue():
-    '''public Serializable formatValue(final Object parameter)
+    '''returns Serializable\n\n
+    formatValue(final Object parameter)\n
     '''

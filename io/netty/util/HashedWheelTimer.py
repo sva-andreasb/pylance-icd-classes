@@ -1,70 +1,90 @@
 WORKER_STATE_INIT = "int  0"
 WORKER_STATE_STARTED = "int  1"
 WORKER_STATE_SHUTDOWN = "int  2"
-def HashedWheelTimer():
-    '''public HashedWheelTimer()
-    public HashedWheelTimer(final long tickDuration, final TimeUnit unit)
-    public HashedWheelTimer(final long tickDuration, final TimeUnit unit, final int ticksPerWheel)
-    public HashedWheelTimer(final ThreadFactory threadFactory)
-    public HashedWheelTimer(final ThreadFactory threadFactory, final long tickDuration, final TimeUnit unit)
-    public HashedWheelTimer(final ThreadFactory threadFactory, final long tickDuration, final TimeUnit unit, final int ticksPerWheel)
-    public HashedWheelTimer(final ThreadFactory threadFactory, final long tickDuration, final TimeUnit unit, final int ticksPerWheel, final boolean leakDetection)
-    public HashedWheelTimer(final ThreadFactory threadFactory, final long tickDuration, final TimeUnit unit, final int ticksPerWheel, final boolean leakDetection, final long maxPendingTimeouts)
+def ():
+    '''returns HashedWheelTimer\n\n
+    ()\n
+    (final long tickDuration, final TimeUnit unit)\n
+    (final long tickDuration, final TimeUnit unit, final int ticksPerWheel)\n
+    (final ThreadFactory threadFactory)\n
+    (final ThreadFactory threadFactory, final long tickDuration, final TimeUnit unit)\n
+    (final ThreadFactory threadFactory, final long tickDuration, final TimeUnit unit, final int ticksPerWheel)\n
+    (final ThreadFactory threadFactory, final long tickDuration, final TimeUnit unit, final int ticksPerWheel, final boolean leakDetection)\n
+    (final ThreadFactory threadFactory, final long tickDuration, final TimeUnit unit, final int ticksPerWheel, final boolean leakDetection, final long maxPendingTimeouts)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public Set<Timeout> stop()
+    '''returns Set<Timeout>\n\n
+    stop()\n
     '''
 def newTimeout():
-    '''public Timeout newTimeout(final TimerTask task, final long delay, final TimeUnit unit)
+    '''returns Timeout\n\n
+    newTimeout(final TimerTask task, final long delay, final TimeUnit unit)\n
     '''
 def pendingTimeouts():
-    '''public long pendingTimeouts()
+    '''returns long\n\n
+    pendingTimeouts()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def unprocessedTimeouts():
-    '''public Set<Timeout> unprocessedTimeouts()
+    '''returns Set<Timeout>\n\n
+    unprocessedTimeouts()\n
     '''
 def timer():
-    '''public Timer timer()
+    '''returns Timer\n\n
+    timer()\n
     '''
 def task():
-    '''public TimerTask task()
+    '''returns TimerTask\n\n
+    task()\n
     '''
 def cancel():
-    '''public boolean cancel()
+    '''returns boolean\n\n
+    cancel()\n
     '''
 def compareAndSetState():
-    '''public boolean compareAndSetState(final int expected, final int state)
+    '''returns boolean\n\n
+    compareAndSetState(final int expected, final int state)\n
     '''
 def state():
-    '''public int state()
+    '''returns int\n\n
+    state()\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def isExpired():
-    '''public boolean isExpired()
+    '''returns boolean\n\n
+    isExpired()\n
     '''
 def expire():
-    '''public void expire()
+    '''returns None\n\n
+    expire()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def addTimeout():
-    '''public void addTimeout(final HashedWheelTimeout timeout)
+    '''returns None\n\n
+    addTimeout(final HashedWheelTimeout timeout)\n
     '''
 def expireTimeouts():
-    '''public void expireTimeouts(final long deadline)
+    '''returns None\n\n
+    expireTimeouts(final long deadline)\n
     '''
 def remove():
-    '''public HashedWheelTimeout remove(final HashedWheelTimeout timeout)
+    '''returns HashedWheelTimeout\n\n
+    remove(final HashedWheelTimeout timeout)\n
     '''
 def clearTimeouts():
-    '''public void clearTimeouts(final Set<Timeout> set)
+    '''returns None\n\n
+    clearTimeouts(final Set<Timeout> set)\n
     '''

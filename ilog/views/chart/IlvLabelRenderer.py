@@ -1,107 +1,90 @@
-def getFont():
-    '''public final Font getFont()
-    '''
 def setFont():
-    '''public void setFont(final Font a)
-    '''
-def isScalingFont():
-    '''public final boolean isScalingFont()
+    '''returns None\n\n
+    setFont(final Font a)\n
     '''
 def setScalingFont():
-    '''public void setScalingFont(final boolean b)
-    '''
-def getColor():
-    '''public final Color getColor()
+    '''returns None\n\n
+    setScalingFont(final boolean b)\n
     '''
 def setColor():
-    '''public void setColor(final Color c)
-    '''
-def getBackground():
-    '''public final Color getBackground()
-    '''
-def getBackgroundPaint():
-    '''public final Paint getBackgroundPaint()
+    '''returns None\n\n
+    setColor(final Color c)\n
     '''
 def setBackground():
-    '''public void setBackground(final Color backgroundPaint)
+    '''returns None\n\n
+    setBackground(final Color backgroundPaint)\n
     '''
 def setBackgroundPaint():
-    '''public void setBackgroundPaint(final Paint paint)
-    '''
-def getRotation():
-    '''public final double getRotation()
+    '''returns None\n\n
+    setBackgroundPaint(final Paint paint)\n
     '''
 def setRotation():
-    '''public void setRotation(final double n)
-    '''
-def isOpaque():
-    '''public final boolean isOpaque()
+    '''returns None\n\n
+    setRotation(final double n)\n
     '''
 def setOpaque():
-    '''public void setOpaque(final boolean b)
-    '''
-def isOutline():
-    '''public final boolean isOutline()
+    '''returns None\n\n
+    setOpaque(final boolean b)\n
     '''
 def setOutline():
-    '''public void setOutline(final boolean b)
-    '''
-def getAlignment():
-    '''public final int getAlignment()
+    '''returns None\n\n
+    setOutline(final boolean b)\n
     '''
 def setAlignment():
-    '''public void setAlignment(final int n)
-    '''
-def isAutoWrapping():
-    '''public final boolean isAutoWrapping()
+    '''returns None\n\n
+    setAlignment(final int n)\n
     '''
 def setAutoWrapping():
-    '''public void setAutoWrapping(final boolean b)
-    '''
-def getWrappingWidth():
-    '''public final float getWrappingWidth()
+    '''returns None\n\n
+    setAutoWrapping(final boolean b)\n
     '''
 def setWrappingWidth():
-    '''public void setWrappingWidth(final float n)
-    '''
-def getBorder():
-    '''public final Border getBorder()
+    '''returns None\n\n
+    setWrappingWidth(final float n)\n
     '''
 def setBorder():
-    '''public void setBorder(final Border l)
-    '''
-def isCaching():
-    '''public final boolean isCaching()
+    '''returns None\n\n
+    setBorder(final Border l)\n
     '''
 def setCaching():
-    '''public void setCaching(final boolean b)
+    '''returns None\n\n
+    setCaching(final boolean b)\n
     '''
 def paintLabel():
-    '''public void paintLabel(final JComponent component, final Graphics graphics, final String s, final double n, final double n2)
-    public void paintLabel(final JComponent component, final Color color, final Graphics graphics, final String s, final double n, final double n2)
+    '''returns None\n\n
+    paintLabel(final JComponent component, final Graphics graphics, final String s, final double n, final double n2)\n
+    paintLabel(final JComponent component, final Color color, final Graphics graphics, final String s, final double n, final double n2)\n
     '''
 def getBounds():
-    '''public Rectangle2D getBounds(final JComponent component, final double n, final double n2, final String s, Rectangle2D rectangle2D)
+    '''returns Rectangle2D\n\n
+    getBounds(final JComponent component, final double n, final double n2, final String s, Rectangle2D rectangle2D)\n
     '''
 def getSize2D():
-    '''public Dimension2D getSize2D(final JComponent component, final String s, final boolean b, final boolean b2)
+    '''returns Dimension2D\n\n
+    getSize2D(final JComponent component, final String s, final boolean b, final boolean b2)\n
     '''
 def getSize():
-    '''public Dimension getSize(final JComponent component, final String s, final boolean b, final boolean b2)
+    '''returns Dimension\n\n
+    getSize(final JComponent component, final String s, final boolean b, final boolean b2)\n
     '''
 def getBackgroundShape():
-    '''public Shape getBackgroundShape(final JComponent component, final double n, final double n2, final String s)
+    '''returns Shape\n\n
+    getBackgroundShape(final JComponent component, final double n, final double n2, final String s)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener l)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener l)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener l)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener l)\n
     '''
 def firePropertyChange():
-    '''public void firePropertyChange(final String s, final Object o, final Object o2, final int n)
+    '''returns None\n\n
+    firePropertyChange(final String s, final Object o, final Object o2, final int n)\n
     '''
-def IlvLabelRenderer():
-    '''public IlvLabelRenderer()
-    public IlvLabelRenderer(final Color background, final Color color)
+def ():
+    '''returns IlvLabelRenderer\n\n
+    ()\n
+    (final Color background, final Color color)\n
     '''

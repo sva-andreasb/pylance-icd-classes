@@ -1,52 +1,67 @@
 DEFAULT_CAPACITY = "int  64"
 DEFAULT_GROWTH = "int  32"
-def ArrayQueue():
-    '''public ArrayQueue()
-    public ArrayQueue(final int capacity)
-    public ArrayQueue(final int initCapacity, final int growBy)
-    public ArrayQueue(final int initCapacity, final int growBy, final Object lock)
+def ():
+    '''returns ArrayQueue\n\n
+    ()\n
+    (final int capacity)\n
+    (final int initCapacity, final int growBy)\n
+    (final int initCapacity, final int growBy, final Object lock)\n
     '''
 def getCapacity():
-    '''public int getCapacity()
+    '''returns int\n\n
+    getCapacity()\n
     '''
 def add():
-    '''public boolean add(final E e)
-    public void add(final int index, final E element)
+    '''returns None\n\n
+    add(final E e)\n
+    add(final int index, final E element)\n
     '''
 def offer():
-    '''public boolean offer(final E e)
+    '''returns boolean\n\n
+    offer(final E e)\n
     '''
 def addUnsafe():
-    '''public void addUnsafe(final E e)
+    '''returns None\n\n
+    addUnsafe(final E e)\n
     '''
 def element():
-    '''public E element()
+    '''returns E\n\n
+    element()\n
     '''
 def peek():
-    '''public E peek()
+    '''returns E\n\n
+    peek()\n
     '''
 def poll():
-    '''public E poll()
+    '''returns E\n\n
+    poll()\n
     '''
 def remove():
-    '''public E remove()
-    public E remove(final int index)
+    '''returns E\n\n
+    remove()\n
+    remove(final int index)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def get():
-    '''public E get(final int index)
+    '''returns E\n\n
+    get(final int index)\n
     '''
 def getUnsafe():
-    '''public E getUnsafe(final int index)
+    '''returns E\n\n
+    getUnsafe(final int index)\n
     '''
 def set():
-    '''public E set(final int index, final E element)
+    '''returns E\n\n
+    set(final int index, final E element)\n
     '''

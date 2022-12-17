@@ -1,3 +1,4 @@
-def NmrGroupMappingSet():
-    '''public NmrGroupMappingSet(final MboServerInterface ms)
+def ():
+    '''returns NmrGroupMappingSet\n\n
+    (final MboServerInterface ms)\n
     '''

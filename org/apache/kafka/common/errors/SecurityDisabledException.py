@@ -1,4 +1,5 @@
-def SecurityDisabledException():
-    '''public SecurityDisabledException(final String message)
-    public SecurityDisabledException(final String message, final Throwable cause)
+def ():
+    '''returns SecurityDisabledException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

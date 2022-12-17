@@ -1,9 +1,12 @@
-def ReconComparisonProcessor():
-    '''public ReconComparisonProcessor(final ReconInfo reconInfo, final Map[][] linkedPairs)
+def ():
+    '''returns ReconComparisonProcessor\n\n
+    (final ReconInfo reconInfo, final Map[][] linkedPairs)\n
     '''
 def calculateResultOption():
-    '''public void calculateResultOption()
+    '''returns None\n\n
+    calculateResultOption()\n
     '''
 def compare():
-    '''public void compare()
+    '''returns None\n\n
+    compare()\n
     '''

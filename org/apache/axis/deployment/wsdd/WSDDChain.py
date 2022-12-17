@@ -1,22 +1,29 @@
-def WSDDChain():
-    '''public WSDDChain()
-    public WSDDChain(final Element e)
+def ():
+    '''returns WSDDChain\n\n
+    ()\n
+    (final Element e)\n
     '''
 def addHandler():
-    '''public void addHandler(final WSDDHandler handler)
+    '''returns None\n\n
+    addHandler(final WSDDHandler handler)\n
     '''
 def getHandlers():
-    '''public Vector getHandlers()
+    '''returns Vector\n\n
+    getHandlers()\n
     '''
 def removeHandler():
-    '''public void removeHandler(final WSDDHandler victim)
+    '''returns None\n\n
+    removeHandler(final WSDDHandler victim)\n
     '''
 def makeNewInstance():
-    '''public Handler makeNewInstance(final EngineConfiguration registry)
+    '''returns Handler\n\n
+    makeNewInstance(final EngineConfiguration registry)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def deployToRegistry():
-    '''public void deployToRegistry(final WSDDDeployment registry)
+    '''returns None\n\n
+    deployToRegistry(final WSDDDeployment registry)\n
     '''

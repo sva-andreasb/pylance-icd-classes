@@ -1,326 +1,422 @@
-def Invoice():
-    '''public Invoice(final MboSet ms)
+def ():
+    '''returns MatchResult\n\n
+    (final MboSet ms)\n
+    (final Invoice inv)\n
+    (final MboRemote theReceipt, final double theQty, final double theCost)\n
     '''
 def getProcess():
-    '''public String getProcess()
+    '''returns String\n\n
+    getProcess()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def setRelatedMboEditibility():
-    '''public void setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)\n
     '''
 def setCompanyValues():
-    '''public void setCompanyValues()
+    '''returns None\n\n
+    setCompanyValues()\n
     '''
 def getExternalStatus():
-    '''public String getExternalStatus(final String internalStatus)
+    '''returns String\n\n
+    getExternalStatus(final String internalStatus)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def isSyscodeSet():
-    '''public boolean isSyscodeSet(final long field)
-    public boolean isSyscodeSet()
+    '''returns boolean\n\n
+    isSyscodeSet(final long field)\n
+    isSyscodeSet()\n
     '''
 def setSyscode():
-    '''public void setSyscode(final long field)
+    '''returns None\n\n
+    setSyscode(final long field)\n
     '''
 def clearSyscode():
-    '''public void clearSyscode(final long field)
+    '''returns None\n\n
+    clearSyscode(final long field)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def validateForApproval():
-    '''public void validateForApproval()
+    '''returns None\n\n
+    validateForApproval()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def checkForServiceLinePOTolerance():
-    '''public void checkForServiceLinePOTolerance()
+    '''returns None\n\n
+    checkForServiceLinePOTolerance()\n
     '''
 def checkForPOLineTolerance():
-    '''public void checkForPOLineTolerance()
+    '''returns None\n\n
+    checkForPOLineTolerance()\n
     '''
 def checkForServiceLineTolerance():
-    '''public void checkForServiceLineTolerance()
+    '''returns None\n\n
+    checkForServiceLineTolerance()\n
     '''
 def checkForTaxTolerance():
-    '''public void checkForTaxTolerance()
+    '''returns None\n\n
+    checkForTaxTolerance()\n
     '''
 def totalInclusiveTax():
-    '''public double totalInclusiveTax()
+    '''returns double\n\n
+    totalInclusiveTax()\n
     '''
 def approve():
-    '''public void approve()
+    '''returns None\n\n
+    approve()\n
     '''
 def setExchangeRateLineCost2():
-    '''public void setExchangeRateLineCost2()
+    '''returns None\n\n
+    setExchangeRateLineCost2()\n
     '''
 def prorateTotalTaxDifference():
-    '''public void prorateTotalTaxDifference()
+    '''returns None\n\n
+    prorateTotalTaxDifference()\n
     '''
 def calcIntermediateLoadedCost():
-    '''public void calcIntermediateLoadedCost()
+    '''returns None\n\n
+    calcIntermediateLoadedCost()\n
     '''
 def createInvoiceTransForTaxes():
-    '''public void createInvoiceTransForTaxes()
+    '''returns None\n\n
+    createInvoiceTransForTaxes()\n
     '''
 def createInvoiceTransTotal():
-    '''public void createInvoiceTransTotal()
+    '''returns None\n\n
+    createInvoiceTransTotal()\n
     '''
 def setRequiredInvoiceTransFields():
-    '''public void setRequiredInvoiceTransFields(final MboRemote invoiceLine, final MboRemote newInvoiceTrans, final int j)
+    '''returns None\n\n
+    setRequiredInvoiceTransFields(final MboRemote invoiceLine, final MboRemote newInvoiceTrans, final int j)\n
     '''
 def createInvoiceForReceipt():
-    '''public MboRemote createInvoiceForReceipt(final MboRemote receipt)
+    '''returns MboRemote\n\n
+    createInvoiceForReceipt(final MboRemote receipt)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def getUninvoicedReceiptsInfo():
-    '''public UninvoicedReceiptsInfo getUninvoicedReceiptsInfo()
+    '''returns UninvoicedReceiptsInfo\n\n
+    getUninvoicedReceiptsInfo()\n
     '''
 def getAllUninvoicedReceipts():
-    '''public Vector<MboRemote> getAllUninvoicedReceipts(final String poNum, final String poLineNum, final int receiptType, final String siteID, final boolean isNegativeLine, final String receiptID)
+    '''returns Vector<MboRemote>\n\n
+    getAllUninvoicedReceipts(final String poNum, final String poLineNum, final int receiptType, final String siteID, final boolean isNegativeLine, final String receiptID)\n
     '''
 def getAllUninvoicedMatReceipts():
-    '''public Vector<MboRemote> getAllUninvoicedMatReceipts(final String poNum, final String poLineNum, final String siteID, final boolean isNegativeLine, final String receiptID)
+    '''returns Vector<MboRemote>\n\n
+    getAllUninvoicedMatReceipts(final String poNum, final String poLineNum, final String siteID, final boolean isNegativeLine, final String receiptID)\n
     '''
 def getAllUninvoicedServReceipts():
-    '''public Vector<MboRemote> getAllUninvoicedServReceipts(final String poNum, final String poLineNum, final String siteID, final boolean isNegativeLine, final String receiptID)
+    '''returns Vector<MboRemote>\n\n
+    getAllUninvoicedServReceipts(final String poNum, final String poLineNum, final String siteID, final boolean isNegativeLine, final String receiptID)\n
     '''
 def findMatch():
-    '''public Vector findMatch(final boolean exactFirst, final Vector uninvoicedReceipts, final double minimumSigned, final double maximumSigned, final boolean byCost, final boolean considerTax, final boolean partialAllowed, final InvoiceLineRemote invoiceLine, final POLineRemote poline)
-    public Vector findMatch(final boolean exactFirst, final Vector uninvoicedReceipts, final double value, final boolean byCost, final InvoiceLineRemote invoiceLine, final POLineRemote poline)
+    '''returns Vector\n\n
+    findMatch(final boolean exactFirst, final Vector uninvoicedReceipts, final double minimumSigned, final double maximumSigned, final boolean byCost, final boolean considerTax, final boolean partialAllowed, final InvoiceLineRemote invoiceLine, final POLineRemote poline)\n
+    findMatch(final boolean exactFirst, final Vector uninvoicedReceipts, final double value, final boolean byCost, final InvoiceLineRemote invoiceLine, final POLineRemote poline)\n
     '''
 def confirmMatch():
-    '''public void confirmMatch(final MboRemote invoiceLine, final Vector matchReceipts)
+    '''returns None\n\n
+    confirmMatch(final MboRemote invoiceLine, final Vector matchReceipts)\n
     '''
 def createInvoiceTransAfterAppr():
-    '''public void createInvoiceTransAfterAppr(final MboRemote invoice, final double currencyVariance, final double priceVariance)
-    public void createInvoiceTransAfterAppr(final String invoicenum, final double currencyVariance, final double priceVariance)
+    '''returns None\n\n
+    createInvoiceTransAfterAppr(final MboRemote invoice, final double currencyVariance, final double priceVariance)\n
+    createInvoiceTransAfterAppr(final String invoicenum, final double currencyVariance, final double priceVariance)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def copyPOLineToInvoiceLine():
-    '''public MboSetRemote copyPOLineToInvoiceLine(final MboSetRemote poLineSet)
+    '''returns MboSetRemote\n\n
+    copyPOLineToInvoiceLine(final MboSetRemote poLineSet)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
-    public void changeStatus(final String status, final Date date, final String memo, final boolean autoClosePo)
-    public void changeStatus(final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
+    changeStatus(final String status, final Date date, final String memo, final boolean autoClosePo)\n
+    changeStatus(final String status, final Date date, final String memo)\n
     '''
 def calculateUnInvoicedTotal():
-    '''public double calculateUnInvoicedTotal()
+    '''returns double\n\n
+    calculateUnInvoicedTotal()\n
     '''
 def copyReceiptToInvoiceLine():
-    '''public MboSetRemote copyReceiptToInvoiceLine(final MboSetRemote receiptSet)
+    '''returns MboSetRemote\n\n
+    copyReceiptToInvoiceLine(final MboSetRemote receiptSet)\n
     '''
 def canAllocateService():
-    '''public void canAllocateService()
+    '''returns None\n\n
+    canAllocateService()\n
     '''
 def getAllocatePrepSets():
-    '''public InvoiceLineSetRemote[] getAllocatePrepSets(final InvoiceLineSetRemote toBeAllocated, final InvoiceLineSetRemote acceptingLines)
+    '''returns InvoiceLineSetRemote[]\n\n
+    getAllocatePrepSets(final InvoiceLineSetRemote toBeAllocated, final InvoiceLineSetRemote acceptingLines)\n
     '''
 def validateAndCompleteAllocation():
-    '''public void validateAndCompleteAllocation(final InvoiceLineSetRemote toBeAllocated, final InvoiceLineSetRemote acceptingLines)
+    '''returns None\n\n
+    validateAndCompleteAllocation(final InvoiceLineSetRemote toBeAllocated, final InvoiceLineSetRemote acceptingLines)\n
     '''
 def allocateServices():
-    '''public void allocateServices(final InvoiceLineSetRemote toBeAllocated, final InvoiceLineSetRemote acceptingLines)
+    '''returns None\n\n
+    allocateServices(final InvoiceLineSetRemote toBeAllocated, final InvoiceLineSetRemote acceptingLines)\n
     '''
 def cancelAllocateService():
-    '''public void cancelAllocateService()
+    '''returns None\n\n
+    cancelAllocateService()\n
     '''
 def resetTotalAllocated():
-    '''public void resetTotalAllocated(final InvoiceLineSetRemote lineSet)
+    '''returns None\n\n
+    resetTotalAllocated(final InvoiceLineSetRemote lineSet)\n
     '''
 def getPOReference():
-    '''public MboRemote getPOReference()
+    '''returns MboRemote\n\n
+    getPOReference()\n
     '''
 def setPOReference():
-    '''public void setPOReference(final MboRemote poRemote)
+    '''returns None\n\n
+    setPOReference(final MboRemote poRemote)\n
     '''
 def checkForOpenStatus():
-    '''public void checkForOpenStatus()
+    '''returns None\n\n
+    checkForOpenStatus()\n
     '''
 def getCopyPOLineSet():
-    '''public MboSetRemote getCopyPOLineSet(final String tbName)
+    '''returns MboSetRemote\n\n
+    getCopyPOLineSet(final String tbName)\n
     '''
 def isCreditInvoice():
-    '''public boolean isCreditInvoice()
+    '''returns boolean\n\n
+    isCreditInvoice()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def getWOReference():
-    '''public MboRemote getWOReference(final String wonum)
-    public MboRemote getWOReference(final String wonum, final String siteID)
+    '''returns MboRemote\n\n
+    getWOReference(final String wonum)\n
+    getWOReference(final String wonum, final String siteID)\n
     '''
 def setTaxGLs():
-    '''public void setTaxGLs(final String taxCode, final int typeCode)
+    '''returns None\n\n
+    setTaxGLs(final String taxCode, final int typeCode)\n
     '''
 def copyTerms():
-    '''public void copyTerms(final MboSetRemote termsSet)
+    '''returns None\n\n
+    copyTerms(final MboSetRemote termsSet)\n
     '''
 def createInvoiceForPurchSched():
-    '''public MboRemote createInvoiceForPurchSched(final MboRemote poLine, final MboRemote scheduleLine, final MboRemote receipt)
+    '''returns MboRemote\n\n
+    createInvoiceForPurchSched(final MboRemote poLine, final MboRemote scheduleLine, final MboRemote receipt)\n
     '''
 def createInvoiceForLabTrans():
-    '''public MboRemote createInvoiceForLabTrans(final MboRemote labTrans, final double quantity, double lineCost, final boolean lineByLine)
+    '''returns MboRemote\n\n
+    createInvoiceForLabTrans(final MboRemote labTrans, final double quantity, double lineCost, final boolean lineByLine)\n
     '''
 def createInvoiceForLeaseSched():
-    '''public MboRemote createInvoiceForLeaseSched(final MboRemote schedule, final double quantity, final double lineCost, final boolean singleLine)
+    '''returns MboRemote\n\n
+    createInvoiceForLeaseSched(final MboRemote schedule, final double quantity, final double lineCost, final boolean singleLine)\n
     '''
 def copyFromContract():
-    '''public void copyFromContract(final MboRemote contractRemote)
+    '''returns None\n\n
+    copyFromContract(final MboRemote contractRemote)\n
     '''
 def changeVendorTaxInfo():
-    '''public void changeVendorTaxInfo(final MboRemote mboRemote)
+    '''returns None\n\n
+    changeVendorTaxInfo(final MboRemote mboRemote)\n
     '''
 def nullVendor():
-    '''public void nullVendor()
+    '''returns None\n\n
+    nullVendor()\n
     '''
 def createInvoiceForWarrSched():
-    '''public MboRemote createInvoiceForWarrSched(final MboRemote schedule, final double quantity, final double lineCost)
+    '''returns MboRemote\n\n
+    createInvoiceForWarrSched(final MboRemote schedule, final double quantity, final double lineCost)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def checkAndClearAllocatedLines():
-    '''public void checkAndClearAllocatedLines()
+    '''returns None\n\n
+    checkAndClearAllocatedLines()\n
     '''
 def canCopyPOLines():
-    '''public void canCopyPOLines()
-    '''
-def getPOHash():
-    '''public Hashtable<String, MboRemote> getPOHash()
+    '''returns None\n\n
+    canCopyPOLines()\n
     '''
 def setPOHash():
-    '''public void setPOHash(final PORemote thePO)
+    '''returns None\n\n
+    setPOHash(final PORemote thePO)\n
     '''
 def isConditionEnabled():
-    '''public void isConditionEnabled(final MboSetRemote poLineSet, final boolean copyFromPOLineTab)
+    '''returns None\n\n
+    isConditionEnabled(final MboSetRemote poLineSet, final boolean copyFromPOLineTab)\n
     '''
 def smartFindByObjectName():
-    '''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)\n
     '''
 def canReverseInvoice():
-    '''public void canReverseInvoice()
+    '''returns None\n\n
+    canReverseInvoice()\n
     '''
 def createReverseInvoice():
-    '''public void createReverseInvoice(final String status)
-    public void createReverseInvoice(final String invoiceNum, final String description, final String revReason, final Date glPostdate, final String status)
+    '''returns None\n\n
+    createReverseInvoice(final String status)\n
+    createReverseInvoice(final String invoiceNum, final String description, final String revReason, final Date glPostdate, final String status)\n
     '''
 def canDeleteAttachedDocs():
-    '''public void canDeleteAttachedDocs()
+    '''returns None\n\n
+    canDeleteAttachedDocs()\n
     '''
 def canDuplicateInvoice():
-    '''public void canDuplicateInvoice()
+    '''returns None\n\n
+    canDuplicateInvoice()\n
     '''
 def canChangeVendor():
-    '''public void canChangeVendor()
+    '''returns None\n\n
+    canChangeVendor()\n
     '''
 def isReverseInvoice():
-    '''public boolean isReverseInvoice()
+    '''returns boolean\n\n
+    isReverseInvoice()\n
     '''
 def defineSysCode():
-    '''public long[] defineSysCode()
+    '''returns long[]\n\n
+    defineSysCode()\n
     '''
 def getSysCode():
-    '''public long getSysCode(final int i)
+    '''returns long\n\n
+    getSysCode(final int i)\n
     '''
 def setInvoiceMatchReversed():
-    '''public void setInvoiceMatchReversed()
+    '''returns None\n\n
+    setInvoiceMatchReversed()\n
     '''
 def createInvoiceLineForCons():
-    '''public void createInvoiceLineForCons(final MboSetRemote transSet)
-    public void createInvoiceLineForCons(final ArrayList consTransByVendorList)
+    '''returns None\n\n
+    createInvoiceLineForCons(final MboSetRemote transSet)\n
+    createInvoiceLineForCons(final ArrayList consTransByVendorList)\n
     '''
 def updateConsTransInvoiceNum():
-    '''public void updateConsTransInvoiceNum(final boolean clearInvoiceNum)
+    '''returns None\n\n
+    updateConsTransInvoiceNum(final boolean clearInvoiceNum)\n
     '''
 def createVarTransForConInvoice():
-    '''public void createVarTransForConInvoice()
+    '''returns None\n\n
+    createVarTransForConInvoice()\n
     '''
 def isConsignmentInvoice():
-    '''public boolean isConsignmentInvoice()
+    '''returns boolean\n\n
+    isConsignmentInvoice()\n
     '''
 def isOrgInvoiceSchedType():
-    '''public boolean isOrgInvoiceSchedType()
+    '''returns boolean\n\n
+    isOrgInvoiceSchedType()\n
     '''
 def toPostDontCheckCompleteFlag():
-    '''public boolean toPostDontCheckCompleteFlag(final MboRemote thePO, final MboRemote invoiceLine, final MboRemote theReceipt)
+    '''returns boolean\n\n
+    toPostDontCheckCompleteFlag(final MboRemote thePO, final MboRemote invoiceLine, final MboRemote theReceipt)\n
     '''
 def taxWithinTolerance():
-    '''public boolean taxWithinTolerance(final double lineTaxTotal, final double totalTax)
+    '''returns boolean\n\n
+    taxWithinTolerance(final double lineTaxTotal, final double totalTax)\n
     '''
 def createDepreciation():
-    '''public void createDepreciation(final boolean recalculationPoint, final List<String> warnings)
+    '''returns None\n\n
+    createDepreciation(final boolean recalculationPoint, final List<String> warnings)\n
     '''
 def checkDepreciation():
-    '''public boolean checkDepreciation()
-    '''
-def UninvoicedReceiptsInfo():
-    '''public UninvoicedReceiptsInfo(final Invoice inv)
+    '''returns boolean\n\n
+    checkDepreciation()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getRemainingQty():
-    '''public double getRemainingQty(final MboRemote receipt)
+    '''returns double\n\n
+    getRemainingQty(final MboRemote receipt)\n
     '''
 def getRemainingCost():
-    '''public double getRemainingCost(final MboRemote receipt)
+    '''returns double\n\n
+    getRemainingCost(final MboRemote receipt)\n
     '''
 def getNewlyAllocated():
-    '''public double[] getNewlyAllocated(final String invoiceLineNum, final String receiptID)
+    '''returns double[]\n\n
+    getNewlyAllocated(final String invoiceLineNum, final String receiptID)\n
     '''
 def getUninvoicedReceipts():
-    '''public Vector<MboRemote> getUninvoicedReceipts(final String poNum, final String polinenum, final int type, final boolean isCreditInvoice, final String siteID, final boolean isNegativeLine, final String receiptID)
+    '''returns Vector<MboRemote>\n\n
+    getUninvoicedReceipts(final String poNum, final String polinenum, final int type, final boolean isCreditInvoice, final String siteID, final boolean isNegativeLine, final String receiptID)\n
     '''
 def update():
-    '''public void update(final MboRemote invoiceLine, final MboRemote receipt, final double qty, final double cost)
+    '''returns None\n\n
+    update(final MboRemote invoiceLine, final MboRemote receipt, final double qty, final double cost)\n
     '''
 def getIssueUnitCost():
-    '''public double getIssueUnitCost(final MboRemote receipt, final MboRemote invoiceLine)
-    '''
-def MatchResult():
-    '''public MatchResult(final MboRemote theReceipt, final double theQty, final double theCost)
+    '''returns double\n\n
+    getIssueUnitCost(final MboRemote receipt, final MboRemote invoiceLine)\n
     '''
 def getQty():
-    '''public double getQty()
+    '''returns double\n\n
+    getQty()\n
     '''
 def setQty():
-    '''public void setQty(final double qtyToBe)
+    '''returns None\n\n
+    setQty(final double qtyToBe)\n
     '''
 def getCost():
-    '''public double getCost()
+    '''returns double\n\n
+    getCost()\n
     '''
 def setCost():
-    '''public void setCost(final double costToBe)
+    '''returns None\n\n
+    setCost(final double costToBe)\n
     '''
 def getReceipt():
-    '''public MboRemote getReceipt()
+    '''returns MboRemote\n\n
+    getReceipt()\n
     '''
 def setReceipt():
-    '''public void setReceipt(final MboRemote receiptToBe)
+    '''returns None\n\n
+    setReceipt(final MboRemote receiptToBe)\n
     '''

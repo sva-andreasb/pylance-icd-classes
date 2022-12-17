@@ -1,28 +1,33 @@
-def FlowControlHandler():
-    '''public FlowControlHandler()
-    public FlowControlHandler(final boolean releaseMessages)
+def ():
+    '''returns FlowControlHandler\n\n
+    ()\n
+    (final boolean releaseMessages)\n
     '''
 def handlerAdded():
-    '''public void handlerAdded(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerAdded(final ChannelHandlerContext ctx)\n
     '''
 def channelInactive():
-    '''public void channelInactive(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    channelInactive(final ChannelHandlerContext ctx)\n
     '''
 def read():
-    '''public void read(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    read(final ChannelHandlerContext ctx)\n
     '''
 def channelRead():
-    '''public void channelRead(final ChannelHandlerContext ctx, final Object msg)
+    '''returns None\n\n
+    channelRead(final ChannelHandlerContext ctx, final Object msg)\n
     '''
 def channelReadComplete():
-    '''public void channelReadComplete(final ChannelHandlerContext ctx)
-    '''
-def newInstance():
-    '''public static RecyclableArrayDeque newInstance()
+    '''returns None\n\n
+    channelReadComplete(final ChannelHandlerContext ctx)\n
     '''
 def recycle():
-    '''public void recycle()
+    '''returns None\n\n
+    recycle()\n
     '''
 def newObject():
-    '''public RecyclableArrayDeque newObject(final ObjectPool.Handle<RecyclableArrayDeque> handle)
+    '''returns RecyclableArrayDeque\n\n
+    newObject(final ObjectPool.Handle<RecyclableArrayDeque> handle)\n
     '''

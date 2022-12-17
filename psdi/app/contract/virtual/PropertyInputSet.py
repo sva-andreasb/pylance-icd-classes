@@ -1,9 +1,12 @@
-def PropertyInputSet():
-    '''public PropertyInputSet(final MboServerInterface ms)
+def ():
+    '''returns PropertyInputSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

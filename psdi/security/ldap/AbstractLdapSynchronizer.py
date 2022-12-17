@@ -1,32 +1,42 @@
 USER_SEARCH_PAGE_SIZE = "int  500"
 GROUP_SEARCH_PAGE_SIZE = "int  20"
-def AbstractLdapSynchronizer():
-    '''public AbstractLdapSynchronizer()
+def ():
+    '''returns AbstractLdapSynchronizer\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final LdapSynchronizerInitData initData)
+    '''returns None\n\n
+    init(final LdapSynchronizerInitData initData)\n
     '''
 def getSyncParameters():
-    '''public SyncParameters getSyncParameters()
+    '''returns SyncParameters\n\n
+    getSyncParameters()\n
     '''
 def getSynchronizerSettings():
-    '''public SynchronizerSettings getSynchronizerSettings()
+    '''returns SynchronizerSettings\n\n
+    getSynchronizerSettings()\n
     '''
 def performSync():
-    '''public void performSync(final Connection con, final SyncParameters syncParams, final UserInfo userInfo)
+    '''returns None\n\n
+    performSync(final Connection con, final SyncParameters syncParams, final UserInfo userInfo)\n
     '''
 def setOwner():
-    '''public void setOwner(final LdapSyncTask val)
+    '''returns None\n\n
+    setOwner(final LdapSyncTask val)\n
     '''
 def isFullSyncNeeded():
-    '''public boolean isFullSyncNeeded()
+    '''returns boolean\n\n
+    isFullSyncNeeded()\n
     '''
 def isSyncNeeded():
-    '''public boolean isSyncNeeded()
+    '''returns boolean\n\n
+    isSyncNeeded()\n
     '''
 def setLDAPSyncListener():
-    '''public void setLDAPSyncListener(final LdapSyncListener ldapSyncListener)
+    '''returns None\n\n
+    setLDAPSyncListener(final LdapSyncListener ldapSyncListener)\n
     '''
 def getLDAPSyncListener():
-    '''public LdapSyncListener getLDAPSyncListener()
+    '''returns LdapSyncListener\n\n
+    getLDAPSyncListener()\n
     '''

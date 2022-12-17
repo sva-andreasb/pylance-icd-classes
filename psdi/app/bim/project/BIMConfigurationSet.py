@@ -1,3 +1,4 @@
-def BIMConfigurationSet():
-    '''public BIMConfigurationSet(final MboServerInterface ms)
+def ():
+    '''returns BIMConfigurationSet\n\n
+    (final MboServerInterface ms)\n
     '''

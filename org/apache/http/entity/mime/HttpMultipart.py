@@ -1,29 +1,38 @@
-def HttpMultipart():
-    '''public HttpMultipart(final String subType, final Charset charset, final String boundary, final HttpMultipartMode mode)
-    public HttpMultipart(final String subType, final Charset charset, final String boundary)
-    public HttpMultipart(final String subType, final String boundary)
+def ():
+    '''returns HttpMultipart\n\n
+    (final String subType, final Charset charset, final String boundary, final HttpMultipartMode mode)\n
+    (final String subType, final Charset charset, final String boundary)\n
+    (final String subType, final String boundary)\n
     '''
 def getSubType():
-    '''public String getSubType()
+    '''returns String\n\n
+    getSubType()\n
     '''
 def getCharset():
-    '''public Charset getCharset()
+    '''returns Charset\n\n
+    getCharset()\n
     '''
 def getMode():
-    '''public HttpMultipartMode getMode()
+    '''returns HttpMultipartMode\n\n
+    getMode()\n
     '''
 def getBodyParts():
-    '''public List<FormBodyPart> getBodyParts()
+    '''returns List<FormBodyPart>\n\n
+    getBodyParts()\n
     '''
 def addBodyPart():
-    '''public void addBodyPart(final FormBodyPart part)
+    '''returns None\n\n
+    addBodyPart(final FormBodyPart part)\n
     '''
 def getBoundary():
-    '''public String getBoundary()
+    '''returns String\n\n
+    getBoundary()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def getTotalLength():
-    '''public long getTotalLength()
+    '''returns long\n\n
+    getTotalLength()\n
     '''

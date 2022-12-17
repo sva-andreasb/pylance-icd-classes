@@ -1,3 +1,4 @@
 def selectRelationRules():
-    '''public int selectRelationRules()
+    '''returns int\n\n
+    selectRelationRules()\n
     '''

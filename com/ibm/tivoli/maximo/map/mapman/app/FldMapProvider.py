@@ -1,9 +1,12 @@
-def FldMapProvider():
-    '''public FldMapProvider(final MboValue mv)
+def ():
+    '''returns FldMapProvider\n\n
+    (final MboValue mv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,12 +1,16 @@
-def ZTriggerCheck():
-    '''public ZTriggerCheck(final DatabaseInformation di, final ReportCollector rc)
+def ():
+    '''returns ZTriggerCheck\n\n
+    (final DatabaseInformation di, final ReportCollector rc)\n
     '''
 def getTitle():
-    '''public MXException getTitle()
+    '''returns MXException\n\n
+    getTitle()\n
     '''
 def conditionsCheck():
-    '''public boolean conditionsCheck()
+    '''returns boolean\n\n
+    conditionsCheck()\n
     '''
 def prerequisitesCheck():
-    '''public boolean prerequisitesCheck()
+    '''returns boolean\n\n
+    prerequisitesCheck()\n
     '''

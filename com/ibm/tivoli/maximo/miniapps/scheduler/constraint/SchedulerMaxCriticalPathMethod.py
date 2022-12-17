@@ -1,3 +1,4 @@
-def SchedulerMaxCriticalPathMethod():
-    '''public SchedulerMaxCriticalPathMethod(final Object model, final UserInfo userInfo)
+def ():
+    '''returns SchedulerMaxCriticalPathMethod\n\n
+    (final Object model, final UserInfo userInfo)\n
     '''

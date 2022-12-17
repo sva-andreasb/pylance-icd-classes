@@ -1,6 +1,8 @@
-def PhantomQueueProcessor():
-    '''public PhantomQueueProcessor()
+def ():
+    '''returns PhantomQueueProcessor\n\n
+    ()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

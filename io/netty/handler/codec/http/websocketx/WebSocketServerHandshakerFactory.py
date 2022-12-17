@@ -1,16 +1,11 @@
-def WebSocketServerHandshakerFactory():
-    '''public WebSocketServerHandshakerFactory(final String webSocketURL, final String subprotocols, final boolean allowExtensions)
-    public WebSocketServerHandshakerFactory(final String webSocketURL, final String subprotocols, final boolean allowExtensions, final int maxFramePayloadLength)
-    public WebSocketServerHandshakerFactory(final String webSocketURL, final String subprotocols, final boolean allowExtensions, final int maxFramePayloadLength, final boolean allowMaskMismatch)
-    public WebSocketServerHandshakerFactory(final String webSocketURL, final String subprotocols, final WebSocketDecoderConfig decoderConfig)
+def ():
+    '''returns WebSocketServerHandshakerFactory\n\n
+    (final String webSocketURL, final String subprotocols, final boolean allowExtensions)\n
+    (final String webSocketURL, final String subprotocols, final boolean allowExtensions, final int maxFramePayloadLength)\n
+    (final String webSocketURL, final String subprotocols, final boolean allowExtensions, final int maxFramePayloadLength, final boolean allowMaskMismatch)\n
+    (final String webSocketURL, final String subprotocols, final WebSocketDecoderConfig decoderConfig)\n
     '''
 def newHandshaker():
-    '''public WebSocketServerHandshaker newHandshaker(final HttpRequest req)
-    '''
-def sendUnsupportedWebSocketVersionResponse():
-    '''public static void sendUnsupportedWebSocketVersionResponse(final Channel channel)
-    '''
-def sendUnsupportedVersionResponse():
-    '''public static ChannelFuture sendUnsupportedVersionResponse(final Channel channel)
-    public static ChannelFuture sendUnsupportedVersionResponse(final Channel channel, final ChannelPromise promise)
+    '''returns WebSocketServerHandshaker\n\n
+    newHandshaker(final HttpRequest req)\n
     '''

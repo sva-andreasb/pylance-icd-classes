@@ -1,6 +1,8 @@
-def FldDeployedMeterReadingType():
-    '''public FldDeployedMeterReadingType(final MboValue mbv)
+def ():
+    '''returns FldDeployedMeterReadingType\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

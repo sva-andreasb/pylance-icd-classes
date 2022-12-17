@@ -1,74 +1,94 @@
 tagsSupportedString = "String  \"ol ul li a pre font span br p div body table td th tr i b u sub sup em strong h1 h2 h3 h4 h5 h6\""
-def HTMLWorker():
-    '''public HTMLWorker(final DocListener document)
+def ():
+    '''returns HTMLWorker\n\n
+    (final DocListener document)\n
     '''
 def setStyleSheet():
-    '''public void setStyleSheet(final StyleSheet style)
+    '''returns None\n\n
+    setStyleSheet(final StyleSheet style)\n
     '''
 def parse():
-    '''public void parse(final Reader reader)
-    '''
-def parseToList():
-    '''public static ArrayList parseToList(final Reader reader, final StyleSheet style)
+    '''returns None\n\n
+    parse(final Reader reader)\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String tag, final HashMap h)
+    '''returns None\n\n
+    startElement(final String tag, final HashMap h)\n
     '''
 def endElement():
-    '''public void endElement(final String tag)
+    '''returns None\n\n
+    endElement(final String tag)\n
     '''
 def text():
-    '''public void text(final String str)
+    '''returns None\n\n
+    text(final String str)\n
     '''
 def add():
-    '''public boolean add(final Element element)
-    public boolean add(final Watermark watermark)
+    '''returns boolean\n\n
+    add(final Element element)\n
+    add(final Watermark watermark)\n
     '''
 def clearTextWrap():
-    '''public void clearTextWrap()
+    '''returns None\n\n
+    clearTextWrap()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def newPage():
-    '''public boolean newPage()
+    '''returns boolean\n\n
+    newPage()\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def removeWatermark():
-    '''public void removeWatermark()
+    '''returns None\n\n
+    removeWatermark()\n
     '''
 def resetFooter():
-    '''public void resetFooter()
+    '''returns None\n\n
+    resetFooter()\n
     '''
 def resetHeader():
-    '''public void resetHeader()
+    '''returns None\n\n
+    resetHeader()\n
     '''
 def resetPageCount():
-    '''public void resetPageCount()
+    '''returns None\n\n
+    resetPageCount()\n
     '''
 def setFooter():
-    '''public void setFooter(final HeaderFooter footer)
+    '''returns None\n\n
+    setFooter(final HeaderFooter footer)\n
     '''
 def setHeader():
-    '''public void setHeader(final HeaderFooter header)
+    '''returns None\n\n
+    setHeader(final HeaderFooter header)\n
     '''
 def setMarginMirroring():
-    '''public boolean setMarginMirroring(final boolean marginMirroring)
+    '''returns boolean\n\n
+    setMarginMirroring(final boolean marginMirroring)\n
     '''
 def setMargins():
-    '''public boolean setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)
+    '''returns boolean\n\n
+    setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)\n
     '''
 def setPageCount():
-    '''public void setPageCount(final int pageN)
+    '''returns None\n\n
+    setPageCount(final int pageN)\n
     '''
 def setPageSize():
-    '''public boolean setPageSize(final Rectangle pageSize)
+    '''returns boolean\n\n
+    setPageSize(final Rectangle pageSize)\n
     '''

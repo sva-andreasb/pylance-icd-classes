@@ -1,3 +1,4 @@
-def WMMatchToCrew():
-    '''public WMMatchToCrew(final MboSet ms)
+def ():
+    '''returns WMMatchToCrew\n\n
+    (final MboSet ms)\n
     '''

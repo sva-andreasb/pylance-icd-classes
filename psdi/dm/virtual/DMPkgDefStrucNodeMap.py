@@ -1,3 +1,4 @@
-def DMPkgDefStrucNodeMap():
-    '''public DMPkgDefStrucNodeMap()
+def ():
+    '''returns DMPkgDefStrucNodeMap\n\n
+    ()\n
     '''

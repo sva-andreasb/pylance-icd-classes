@@ -1,22 +1,21 @@
-def OslcGbTemplateCacheImpl():
-    '''public OslcGbTemplateCacheImpl()
+def ():
+    '''returns OslcGbTemplateCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getAllTemplates():
-    '''public Map<String, Map<String, OslcGbTemplateInfo>> getAllTemplates()
-    '''
-def getTemplatesByOsName():
-    '''public Map<String, OslcGbTemplateInfo> getTemplatesByOsName(final String osname)
+    '''returns String\n\n
+    getName()\n
     '''
 def getTemplateByOsAndTemplateName():
-    '''public OslcGbTemplateInfo getTemplateByOsAndTemplateName(final String osname, final String templatename)
+    '''returns OslcGbTemplateInfo\n\n
+    getTemplateByOsAndTemplateName(final String osname, final String templatename)\n
     '''

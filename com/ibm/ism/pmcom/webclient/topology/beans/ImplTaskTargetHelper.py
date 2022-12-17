@@ -1,35 +1,46 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def ImplTaskTargetHelper():
-    '''public ImplTaskTargetHelper()
-    public ImplTaskTargetHelper(final String taskWonum, final String taskID, final String description)
+def ():
+    '''returns ImplTaskTargetHelper\n\n
+    ()\n
+    (final String taskWonum, final String taskID, final String description)\n
     '''
 def getTaskWonum():
-    '''public String getTaskWonum()
+    '''returns String\n\n
+    getTaskWonum()\n
     '''
 def setTaskWonum():
-    '''public void setTaskWonum(final String taskWonum)
+    '''returns None\n\n
+    setTaskWonum(final String taskWonum)\n
     '''
 def getTaskID():
-    '''public String getTaskID()
+    '''returns String\n\n
+    getTaskID()\n
     '''
 def setTaskID():
-    '''public void setTaskID(final String taskID)
+    '''returns None\n\n
+    setTaskID(final String taskID)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getTaskTargetsList():
-    '''public List<TargetHelper> getTaskTargetsList()
+    '''returns List<TargetHelper>\n\n
+    getTaskTargetsList()\n
     '''
 def setTaskTargetsList():
-    '''public void setTaskTargetsList(final List<TargetHelper> taskTargetsList)
+    '''returns None\n\n
+    setTaskTargetsList(final List<TargetHelper> taskTargetsList)\n
     '''
 def getTaskTargetsImpactedList():
-    '''public List<TargetHelper> getTaskTargetsImpactedList()
+    '''returns List<TargetHelper>\n\n
+    getTaskTargetsImpactedList()\n
     '''
 def setTaskTargetsImpactedList():
-    '''public void setTaskTargetsImpactedList(final List<TargetHelper> taskTargetsImpactedList)
+    '''returns None\n\n
+    setTaskTargetsImpactedList(final List<TargetHelper> taskTargetsImpactedList)\n
     '''

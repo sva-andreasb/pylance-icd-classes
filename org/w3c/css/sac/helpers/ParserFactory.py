@@ -1,3 +1,4 @@
 def makeParser():
-    '''public Parser makeParser()
+    '''returns Parser\n\n
+    makeParser()\n
     '''

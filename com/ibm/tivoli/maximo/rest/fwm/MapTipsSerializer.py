@@ -1,15 +1,16 @@
-def MapTipsSerializer():
-    '''public MapTipsSerializer()
+def ():
+    '''returns MapTipsSerializer\n\n
+    ()\n
     '''
 def getMapTipDataByte():
-    '''public byte[] getMapTipDataByte(final MboRemote mbo, final MboRemote maptip, final UserInfo userinfo)
+    '''returns byte[]\n\n
+    getMapTipDataByte(final MboRemote mbo, final MboRemote maptip, final UserInfo userinfo)\n
     '''
 def getMapTipData():
-    '''public String getMapTipData(final MboRemote mbo, final MboRemote maptip, final UserInfo userinfo)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    getMapTipData(final MboRemote mbo, final MboRemote maptip, final UserInfo userinfo)\n
     '''
 def getMapTipFor():
-    '''public MboRemote getMapTipFor(final String siteId, final String objectname, final UserInfo userinfo)
+    '''returns MboRemote\n\n
+    getMapTipFor(final String siteId, final String objectname, final UserInfo userinfo)\n
     '''

@@ -1,21 +1,28 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def doRefresh():
-    '''public int doRefresh()
+    '''returns int\n\n
+    doRefresh()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def updateClassstructure():
-    '''public void updateClassstructure(final String hierarchypath)
+    '''returns None\n\n
+    updateClassstructure(final String hierarchypath)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def getRemoteForLookup():
-    '''public MboSetRemote getRemoteForLookup()
+    '''returns MboSetRemote\n\n
+    getRemoteForLookup()\n
     '''
 def callMethod():
-    '''public int callMethod(final String methodName, final WebClientEvent event, final Class[] paramTypes, final Object[] params)
+    '''returns int\n\n
+    callMethod(final String methodName, final WebClientEvent event, final Class[] paramTypes, final Object[] params)\n
     '''

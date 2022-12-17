@@ -1,6 +1,8 @@
 def PLUSPEDESC():
-    '''public int PLUSPEDESC()
+    '''returns int\n\n
+    PLUSPEDESC()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''

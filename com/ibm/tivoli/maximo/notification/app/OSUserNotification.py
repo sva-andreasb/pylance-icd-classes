@@ -1,6 +1,8 @@
-def OSUserNotification():
-    '''public OSUserNotification(final MboSet ms)
+def ():
+    '''returns OSUserNotification\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

@@ -1,39 +1,52 @@
-def ClassSpecUseWith():
-    '''public ClassSpecUseWith(final MboSet ms)
+def ():
+    '''returns ClassSpecUseWith\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def setAlnNumTableReadOnly():
-    '''public void setAlnNumTableReadOnly(final MboRemote classSpec)
+    '''returns None\n\n
+    setAlnNumTableReadOnly(final MboRemote classSpec)\n
     '''
 def copyValuesFromApplyDownHierUseWith():
-    '''public void copyValuesFromApplyDownHierUseWith(final MboSetRemote originalSpecUseWithSet)
+    '''returns None\n\n
+    copyValuesFromApplyDownHierUseWith(final MboSetRemote originalSpecUseWithSet)\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''
 def getNumValueBeforeFormat():
-    '''public String getNumValueBeforeFormat()
+    '''returns String\n\n
+    getNumValueBeforeFormat()\n
     '''
 def copyValuesToChildClassSpecUseWith():
-    '''public void copyValuesToChildClassSpecUseWith(final MboSetRemote childSpecUseWithSet)
+    '''returns None\n\n
+    copyValuesToChildClassSpecUseWith(final MboSetRemote childSpecUseWithSet)\n
     '''
 def IsParentClassSpecUseWithFound():
-    '''public boolean IsParentClassSpecUseWithFound()
+    '''returns boolean\n\n
+    IsParentClassSpecUseWithFound()\n
     '''
 def setParentClassSpecUseWithFound():
-    '''public void setParentClassSpecUseWithFound(final boolean toSet)
+    '''returns None\n\n
+    setParentClassSpecUseWithFound(final boolean toSet)\n
     '''

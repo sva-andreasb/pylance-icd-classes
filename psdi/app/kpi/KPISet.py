@@ -1,7 +1,9 @@
-def KPISet():
-    '''public KPISet(final MboServerInterface ms)
+def ():
+    '''returns KPISet\n\n
+    (final MboServerInterface ms)\n
     '''
 def kpiInfo():
-    '''public Vector kpiInfo()
-    public Vector kpiInfo(final Vector selectedKPIs)
+    '''returns Vector\n\n
+    kpiInfo()\n
+    kpiInfo(final Vector selectedKPIs)\n
     '''

@@ -1,33 +1,44 @@
-def DialogGenerator():
-    '''public DialogGenerator()
+def ():
+    '''returns DialogGenerator\n\n
+    ()\n
     '''
 def generateDialog():
-    '''public String generateDialog(final MboRemote intGenerator, final byte[] presentataion)
+    '''returns String\n\n
+    generateDialog(final MboRemote intGenerator, final byte[] presentataion)\n
     '''
 def getAppXML():
-    '''public Document getAppXML(final String app, final UserInfo userInfo)
+    '''returns Document\n\n
+    getAppXML(final String app, final UserInfo userInfo)\n
     '''
 def removeDialog():
-    '''public String removeDialog(final Document doc, final String dialogID)
+    '''returns String\n\n
+    removeDialog(final Document doc, final String dialogID)\n
     '''
 def findDialog():
-    '''public boolean findDialog(final Document doc, final String appName, final String dialogID)
+    '''returns boolean\n\n
+    findDialog(final Document doc, final String appName, final String dialogID)\n
     '''
 def findElementByID():
-    '''public boolean findElementByID(final Element in, final String inid)
+    '''returns boolean\n\n
+    findElementByID(final Element in, final String inid)\n
     '''
 def findAction():
-    '''public boolean findAction(final Document doc, final String appName, final String actionId)
+    '''returns boolean\n\n
+    findAction(final Document doc, final String appName, final String actionId)\n
     '''
 def findChildren():
-    '''public List<MboRemote> findChildren(final MboSetRemote set, final String relation, final String hierarchyPath)
+    '''returns List<MboRemote>\n\n
+    findChildren(final MboSetRemote set, final String relation, final String hierarchyPath)\n
     '''
 def setLookup():
-    '''public void setLookup(final Element data, final String type)
+    '''returns None\n\n
+    setLookup(final Element data, final String type)\n
     '''
 def generateUniqueID():
-    '''public String generateUniqueID()
+    '''returns String\n\n
+    generateUniqueID()\n
     '''
 def getFileName():
-    '''public String getFileName(final String inter, final String name)
+    '''returns String\n\n
+    getFileName(final String inter, final String name)\n
     '''

@@ -1,49 +1,45 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def TxnOffsetCommitRequest():
-    '''public TxnOffsetCommitRequest(final short version, final String transactionalId, final String consumerGroupId, final long producerId, final short producerEpoch, final Map<TopicPartition, CommittedOffset> offsets)
-    public TxnOffsetCommitRequest(final Struct struct, final short version)
+def ():
+    '''returns CommittedOffset\n\n
+    (final short version, final String transactionalId, final String consumerGroupId, final long producerId, final short producerEpoch, final Map<TopicPartition, CommittedOffset> offsets)\n
+    (final Struct struct, final short version)\n
+    (final String transactionalId, final String consumerGroupId, final long producerId, final short producerEpoch, final Map<TopicPartition, CommittedOffset> offsets)\n
+    (final long offset, final String metadata)\n
     '''
 def transactionalId():
-    '''public String transactionalId()
+    '''returns String\n\n
+    transactionalId()\n
     '''
 def consumerGroupId():
-    '''public String consumerGroupId()
-    public String consumerGroupId()
+    '''returns String\n\n
+    consumerGroupId()\n
+    consumerGroupId()\n
     '''
 def producerId():
-    '''public long producerId()
+    '''returns long\n\n
+    producerId()\n
     '''
 def producerEpoch():
-    '''public short producerEpoch()
-    '''
-def offsets():
-    '''public Map<TopicPartition, CommittedOffset> offsets()
-    public Map<TopicPartition, CommittedOffset> offsets()
+    '''returns short\n\n
+    producerEpoch()\n
     '''
 def getErrorResponse():
-    '''public TxnOffsetCommitResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static TxnOffsetCommitRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final String transactionalId, final String consumerGroupId, final long producerId, final short producerEpoch, final Map<TopicPartition, CommittedOffset> offsets)
+    '''returns TxnOffsetCommitResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def build():
-    '''public TxnOffsetCommitRequest build(final short version)
+    '''returns TxnOffsetCommitRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def CommittedOffset():
-    '''public CommittedOffset(final long offset, final String metadata)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def offset():
-    '''public long offset()
+    '''returns long\n\n
+    offset()\n
     '''
 def metadata():
-    '''public String metadata()
+    '''returns String\n\n
+    metadata()\n
     '''

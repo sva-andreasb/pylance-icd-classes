@@ -1,12 +1,16 @@
-def ContractAuthSet():
-    '''public ContractAuthSet(final MboServerInterface ms)
+def ():
+    '''returns ContractAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def validateSiteVendorCombination():
-    '''public void validateSiteVendorCombination(final String vendor, final String authSiteID, final MboRemote currMbo)
+    '''returns None\n\n
+    validateSiteVendorCombination(final String vendor, final String authSiteID, final MboRemote currMbo)\n
     '''
 def getSiteString():
-    '''public String getSiteString()
+    '''returns String\n\n
+    getSiteString()\n
     '''

@@ -1,58 +1,73 @@
-def ObjectExport():
-    '''public ObjectExport()
+def ():
+    '''returns ObjectExport\n\n
+    ()\n
     '''
 def getRunBeforeImport():
-    '''public String getRunBeforeImport()
+    '''returns String\n\n
+    getRunBeforeImport()\n
     '''
 def setRunBeforeImport():
-    '''public void setRunBeforeImport(final String runBeforeImport)
+    '''returns None\n\n
+    setRunBeforeImport(final String runBeforeImport)\n
     '''
 def getRunAfterExport():
-    '''public String getRunAfterExport()
+    '''returns String\n\n
+    getRunAfterExport()\n
     '''
 def setRunAfterExport():
-    '''public void setRunAfterExport(final String runAfterExport)
+    '''returns None\n\n
+    setRunAfterExport(final String runAfterExport)\n
     '''
 def getRunBeforeExport():
-    '''public String getRunBeforeExport()
+    '''returns String\n\n
+    getRunBeforeExport()\n
     '''
 def setRunBeforeExport():
-    '''public void setRunBeforeExport(final String runBeforeExport)
+    '''returns None\n\n
+    setRunBeforeExport(final String runBeforeExport)\n
     '''
 def getRunAfterImport():
-    '''public String getRunAfterImport()
+    '''returns String\n\n
+    getRunAfterImport()\n
     '''
 def setRunAfterImport():
-    '''public void setRunAfterImport(final String runAfterImport)
+    '''returns None\n\n
+    setRunAfterImport(final String runAfterImport)\n
     '''
 def getObjects():
-    '''public List<XMLObject> getObjects()
+    '''returns List<XMLObject>\n\n
+    getObjects()\n
     '''
 def getReplaceQueries():
-    '''public List<ReplaceQuery> getReplaceQueries()
+    '''returns List<ReplaceQuery>\n\n
+    getReplaceQueries()\n
     '''
 def getExecuteSQLs():
-    '''public List<ExecuteSql> getExecuteSQLs()
+    '''returns List<ExecuteSql>\n\n
+    getExecuteSQLs()\n
     '''
 def getDeletions():
-    '''public List<Deletion> getDeletions()
+    '''returns List<Deletion>\n\n
+    getDeletions()\n
     '''
 def addReplaceQuery():
-    '''public void addReplaceQuery(final ReplaceQuery query)
-    public void addReplaceQuery(final Deletion deletion)
+    '''returns None\n\n
+    addReplaceQuery(final ReplaceQuery query)\n
+    addReplaceQuery(final Deletion deletion)\n
     '''
 def addExecuteSql():
-    '''public void addExecuteSql(final ExecuteSql sql)
+    '''returns None\n\n
+    addExecuteSql(final ExecuteSql sql)\n
     '''
 def addObject():
-    '''public void addObject(final XMLObject object)
+    '''returns None\n\n
+    addObject(final XMLObject object)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getUserDataParameters():
-    '''public Map<String, String> getUserDataParameters()
+    '''returns String\n\n
+    getName()\n
     '''
 def setUserDataParameters():
-    '''public void setUserDataParameters(final Map<String, String> userDataParameters)
+    '''returns None\n\n
+    setUserDataParameters(final Map<String, String> userDataParameters)\n
     '''

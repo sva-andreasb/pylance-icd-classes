@@ -1,30 +1,40 @@
-def PlusPFeaturePriceSet():
-    '''public PlusPFeaturePriceSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPFeaturePriceSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def createPriceScheduleTable():
-    '''public void createPriceScheduleTable(final MboRemote mboRemote)
+    '''returns None\n\n
+    createPriceScheduleTable(final MboRemote mboRemote)\n
     '''
 def createBillingScheduleTable():
-    '''public void createBillingScheduleTable(final MboRemote mboRemote)
+    '''returns None\n\n
+    createBillingScheduleTable(final MboRemote mboRemote)\n
     '''
 def createPriceBookBasedFeatureLines():
-    '''public void createPriceBookBasedFeatureLines(final MboRemote mr, final MboRemote mboRemote, final PlusPPriceBookRemote plusPPriceBookRemote)
+    '''returns None\n\n
+    createPriceBookBasedFeatureLines(final MboRemote mr, final MboRemote mboRemote, final PlusPPriceBookRemote plusPPriceBookRemote)\n
     '''
 def createFeatureLinesFor():
-    '''public void createFeatureLinesFor(final PlusPPriceBookLineRemote plusPPriceBookLineRemote, final MboRemote mbo)
+    '''returns None\n\n
+    createFeatureLinesFor(final PlusPPriceBookLineRemote plusPPriceBookLineRemote, final MboRemote mbo)\n
     '''
 def createFeaturePriceMbo():
-    '''public void createFeaturePriceMbo(final MboRemote mbo, final MboRemote mboRemote, final MboRemote mboRemote2, final double n)
+    '''returns None\n\n
+    createFeaturePriceMbo(final MboRemote mbo, final MboRemote mboRemote, final MboRemote mboRemote2, final double n)\n
     '''
 def createFeesAndChargesTable():
-    '''public void createFeesAndChargesTable(final MboRemote mbo)
+    '''returns None\n\n
+    createFeesAndChargesTable(final MboRemote mbo)\n
     '''
 def createServiceFeaturePrice():
-    '''public void createServiceFeaturePrice(final MboRemote mr, final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''returns None\n\n
+    createServiceFeaturePrice(final MboRemote mr, final MboRemote mboRemote, final MboRemote mboRemote2)\n
     '''
 def createManagedAssetFeaturePrice():
-    '''public void createManagedAssetFeaturePrice(final MboRemote mboRemote, final MboRemote mboRemote2, final MboRemote mboRemote3)
+    '''returns None\n\n
+    createManagedAssetFeaturePrice(final MboRemote mboRemote, final MboRemote mboRemote2, final MboRemote mboRemote3)\n
     '''

@@ -1,13 +1,14 @@
-def StringMap():
-    '''public StringMap()
-    public StringMap(final StringMap t)
+def ():
+    '''returns Entry\n\n
+    ()\n
+    (final StringMap t)\n
+    (final int hash, final String key, final Object value, final Entry next)\n
     '''
 def get():
-    '''public Object get(final String key)
+    '''returns Object\n\n
+    get(final String key)\n
     '''
 def put():
-    '''public Object put(final String key, final Object value)
-    '''
-def Entry():
-    '''public Entry(final int hash, final String key, final Object value, final Entry next)
+    '''returns Object\n\n
+    put(final String key, final Object value)\n
     '''

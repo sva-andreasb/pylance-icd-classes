@@ -1,26 +1,34 @@
-def ContentDisposition():
-    '''public ContentDisposition()
-    public ContentDisposition(final String s)
-    public ContentDisposition(final String disposition, final ParameterList list)
+def ():
+    '''returns ContentDisposition\n\n
+    ()\n
+    (final String s)\n
+    (final String disposition, final ParameterList list)\n
     '''
 def getDisposition():
-    '''public String getDisposition()
+    '''returns String\n\n
+    getDisposition()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setDisposition():
-    '''public void setDisposition(final String disposition)
+    '''returns None\n\n
+    setDisposition(final String disposition)\n
     '''
 def getParameterList():
-    '''public ParameterList getParameterList()
+    '''returns ParameterList\n\n
+    getParameterList()\n
     '''
 def setParameterList():
-    '''public void setParameterList(final ParameterList list)
+    '''returns None\n\n
+    setParameterList(final ParameterList list)\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def setParameter():
-    '''public void setParameter(final String name, final String value)
+    '''returns None\n\n
+    setParameter(final String name, final String value)\n
     '''

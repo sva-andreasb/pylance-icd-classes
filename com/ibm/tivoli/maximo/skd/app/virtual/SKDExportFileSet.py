@@ -1,27 +1,36 @@
-def SKDExportFileSet():
-    '''public SKDExportFileSet(final MboServerInterface ms)
+def ():
+    '''returns SKDExportFileSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def accept():
-    '''public boolean accept(final File dir, final String name)
+    '''returns boolean\n\n
+    accept(final File dir, final String name)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def addFileIndex():
-    '''public void addFileIndex(final Integer index)
+    '''returns None\n\n
+    addFileIndex(final Integer index)\n
     '''
 def removeFileIndex():
-    '''public void removeFileIndex(final Integer index)
+    '''returns None\n\n
+    removeFileIndex(final Integer index)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setProjectName():
-    '''public void setProjectName(final String projectName)
+    '''returns None\n\n
+    setProjectName(final String projectName)\n
     '''
 def setRemoveAllFiles():
-    '''public void setRemoveAllFiles(final boolean removeAllFiles)
+    '''returns None\n\n
+    setRemoveAllFiles(final boolean removeAllFiles)\n
     '''

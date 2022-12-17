@@ -1,27 +1,36 @@
-def AMCrewType():
-    '''public AMCrewType(final MboSet ms)
+def ():
+    '''returns AMCrewType\n\n
+    (final MboSet ms)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def updateStandardRate():
-    '''public void updateStandardRate()
+    '''returns None\n\n
+    updateStandardRate()\n
     '''
 def getResourceNumber():
-    '''public int getResourceNumber()
+    '''returns int\n\n
+    getResourceNumber()\n
     '''

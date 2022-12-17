@@ -1,6 +1,8 @@
-def UnparsedIQ():
-    '''public UnparsedIQ(final String element, final String namespace, final CharSequence content)
+def ():
+    '''returns UnparsedIQ\n\n
+    (final String element, final String namespace, final CharSequence content)\n
     '''
 def getContent():
-    '''public CharSequence getContent()
+    '''returns CharSequence\n\n
+    getContent()\n
     '''

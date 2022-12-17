@@ -1,19 +1,25 @@
-def ClassProb():
-    '''public ClassProb()
-    public ClassProb(final double prob, final String aclass)
+def ():
+    '''returns ClassProb\n\n
+    ()\n
+    (final double prob, final String aclass)\n
     '''
 def getProb():
-    '''public double getProb()
+    '''returns double\n\n
+    getProb()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setProb():
-    '''public void setProb(final double prob)
+    '''returns None\n\n
+    setProb(final double prob)\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

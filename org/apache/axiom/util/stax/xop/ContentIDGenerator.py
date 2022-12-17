@@ -1,3 +1,4 @@
 def generateContentID():
-    '''public String generateContentID(final String existingContentID)
+    '''returns String\n\n
+    generateContentID(final String existingContentID)\n
     '''

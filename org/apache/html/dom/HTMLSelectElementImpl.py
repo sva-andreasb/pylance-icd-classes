@@ -1,72 +1,96 @@
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String s)
+    '''returns None\n\n
+    setValue(final String s)\n
     '''
 def getSelectedIndex():
-    '''public int getSelectedIndex()
+    '''returns int\n\n
+    getSelectedIndex()\n
     '''
 def setSelectedIndex():
-    '''public void setSelectedIndex(final int n)
+    '''returns None\n\n
+    setSelectedIndex(final int n)\n
     '''
 def getOptions():
-    '''public HTMLCollection getOptions()
+    '''returns HTMLCollection\n\n
+    getOptions()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getDisabled():
-    '''public boolean getDisabled()
+    '''returns boolean\n\n
+    getDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean b)
+    '''returns None\n\n
+    setDisabled(final boolean b)\n
     '''
 def getMultiple():
-    '''public boolean getMultiple()
+    '''returns boolean\n\n
+    getMultiple()\n
     '''
 def setMultiple():
-    '''public void setMultiple(final boolean b)
+    '''returns None\n\n
+    setMultiple(final boolean b)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final int i)
+    '''returns None\n\n
+    setSize(final int i)\n
     '''
 def getTabIndex():
-    '''public int getTabIndex()
+    '''returns int\n\n
+    getTabIndex()\n
     '''
 def setTabIndex():
-    '''public void setTabIndex(final int i)
+    '''returns None\n\n
+    setTabIndex(final int i)\n
     '''
 def add():
-    '''public void add(final HTMLElement htmlElement, final HTMLElement htmlElement2)
+    '''returns None\n\n
+    add(final HTMLElement htmlElement, final HTMLElement htmlElement2)\n
     '''
 def remove():
-    '''public void remove(final int n)
+    '''returns None\n\n
+    remove(final int n)\n
     '''
 def blur():
-    '''public void blur()
+    '''returns None\n\n
+    blur()\n
     '''
 def focus():
-    '''public void focus()
+    '''returns None\n\n
+    focus()\n
     '''
 def getChildNodes():
-    '''public NodeList getChildNodes()
+    '''returns NodeList\n\n
+    getChildNodes()\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
-def HTMLSelectElementImpl():
-    '''public HTMLSelectElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLSelectElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

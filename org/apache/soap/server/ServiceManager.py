@@ -1,18 +1,24 @@
-def ServiceManager():
-    '''public ServiceManager(final ServletContext context, final String configFilename)
+def ():
+    '''returns ServiceManager\n\n
+    (final ServletContext context, final String configFilename)\n
     '''
 def deploy():
-    '''public void deploy(final DeploymentDescriptor deploymentDescriptor)
+    '''returns None\n\n
+    deploy(final DeploymentDescriptor deploymentDescriptor)\n
     '''
 def list():
-    '''public String[] list()
+    '''returns String[]\n\n
+    list()\n
     '''
 def query():
-    '''public DeploymentDescriptor query(final String str)
+    '''returns DeploymentDescriptor\n\n
+    query(final String str)\n
     '''
 def setConfigFilename():
-    '''public void setConfigFilename(final String configFilename)
+    '''returns None\n\n
+    setConfigFilename(final String configFilename)\n
     '''
 def undeploy():
-    '''public DeploymentDescriptor undeploy(final String s)
+    '''returns DeploymentDescriptor\n\n
+    undeploy(final String s)\n
     '''

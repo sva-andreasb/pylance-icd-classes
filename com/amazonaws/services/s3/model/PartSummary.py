@@ -1,24 +1,32 @@
 def getPartNumber():
-    '''public int getPartNumber()
+    '''returns int\n\n
+    getPartNumber()\n
     '''
 def setPartNumber():
-    '''public void setPartNumber(final int partNumber)
+    '''returns None\n\n
+    setPartNumber(final int partNumber)\n
     '''
 def getLastModified():
-    '''public Date getLastModified()
+    '''returns Date\n\n
+    getLastModified()\n
     '''
 def setLastModified():
-    '''public void setLastModified(final Date lastModified)
+    '''returns None\n\n
+    setLastModified(final Date lastModified)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def setETag():
-    '''public void setETag(final String eTag)
+    '''returns None\n\n
+    setETag(final String eTag)\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final long size)
+    '''returns None\n\n
+    setSize(final long size)\n
     '''

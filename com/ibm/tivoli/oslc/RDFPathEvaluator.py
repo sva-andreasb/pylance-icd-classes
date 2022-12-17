@@ -1,10 +1,13 @@
-def RDFPathEvaluator():
-    '''public RDFPathEvaluator(final byte[] resourceBytes, final String resourceURI, final Map<String, String> prefixNSMap, final ResourceURIResolver uriResolver, final boolean resourceAsURI)
-    public RDFPathEvaluator(final Model model, final String resourceURI, final Map<String, String> prefixNSMap, final ResourceURIResolver uriResolver, final boolean resourceAsURI)
+def ():
+    '''returns RDFPathEvaluator\n\n
+    (final byte[] resourceBytes, final String resourceURI, final Map<String, String> prefixNSMap, final ResourceURIResolver uriResolver, final boolean resourceAsURI)\n
+    (final Model model, final String resourceURI, final Map<String, String> prefixNSMap, final ResourceURIResolver uriResolver, final boolean resourceAsURI)\n
     '''
 def setLogger():
-    '''public void setLogger(final Logger logger)
+    '''returns None\n\n
+    setLogger(final Logger logger)\n
     '''
 def getRsolvedObjects():
-    '''public List<Object> getRsolvedObjects(final String linkPathExp)
+    '''returns List<Object>\n\n
+    getRsolvedObjects(final String linkPathExp)\n
     '''

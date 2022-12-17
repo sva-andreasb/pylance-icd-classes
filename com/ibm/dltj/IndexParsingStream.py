@@ -1,51 +1,68 @@
-def IndexParsingStream():
-    '''public IndexParsingStream()
+def ():
+    '''returns IndexParsingStream\n\n
+    ()\n
     '''
 def createMWU():
-    '''public void createMWU(final int n, final int n2, final int n3, final Gloss gloss)
+    '''returns None\n\n
+    createMWU(final int n, final int n2, final int n3, final Gloss gloss)\n
     '''
 def reset():
-    '''public void reset(final UniLexAnalyzer uniLexAnalyzer)
+    '''returns None\n\n
+    reset(final UniLexAnalyzer uniLexAnalyzer)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def createStd():
-    '''public void createStd(final int n, final int n2, final int n3, final GlossCollection collection)
+    '''returns None\n\n
+    createStd(final int n, final int n2, final int n3, final GlossCollection collection)\n
     '''
 def createUnknown():
-    '''public void createUnknown(final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    createUnknown(final int n, final int n2, final int n3, final int n4)\n
     '''
 def createBreakpoint():
-    '''public void createBreakpoint(final int n, final int n2, final int n3)
+    '''returns None\n\n
+    createBreakpoint(final int n, final int n2, final int n3)\n
     '''
 def createPunctuation():
-    '''public void createPunctuation(final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    createPunctuation(final int n, final int n2, final int n3, final int n4)\n
     '''
 def startGroup():
-    '''public int startGroup(final int n, final int n2, final int n3)
+    '''returns int\n\n
+    startGroup(final int n, final int n2, final int n3)\n
     '''
 def closeGroup():
-    '''public void closeGroup(final int n)
+    '''returns None\n\n
+    closeGroup(final int n)\n
     '''
 def fork():
-    '''public void fork()
+    '''returns None\n\n
+    fork()\n
     '''
 def addToFork():
-    '''public void addToFork()
+    '''returns None\n\n
+    addToFork()\n
     '''
 def mergeRoutes():
-    '''public void mergeRoutes(final int n)
+    '''returns None\n\n
+    mergeRoutes(final int n)\n
     '''
 def getLemma():
-    '''public StringBuffer getLemma()
+    '''returns StringBuffer\n\n
+    getLemma()\n
     '''
 def getNext():
-    '''public IndexElement getNext()
+    '''returns IndexElement\n\n
+    getNext()\n
     '''
 def getBegin():
-    '''public int getBegin()
+    '''returns int\n\n
+    getBegin()\n
     '''
 def getEnd():
-    '''public int getEnd()
+    '''returns int\n\n
+    getEnd()\n
     '''

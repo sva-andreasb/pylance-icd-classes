@@ -1,18 +1,20 @@
-def HttpRequestHandlerRegistry():
-    '''public HttpRequestHandlerRegistry()
+def ():
+    '''returns HttpRequestHandlerRegistry\n\n
+    ()\n
     '''
 def register():
-    '''public void register(final String pattern, final HttpRequestHandler handler)
+    '''returns None\n\n
+    register(final String pattern, final HttpRequestHandler handler)\n
     '''
 def unregister():
-    '''public void unregister(final String pattern)
+    '''returns None\n\n
+    unregister(final String pattern)\n
     '''
 def setHandlers():
-    '''public void setHandlers(final Map<String, HttpRequestHandler> map)
-    '''
-def getHandlers():
-    '''public Map<String, HttpRequestHandler> getHandlers()
+    '''returns None\n\n
+    setHandlers(final Map<String, HttpRequestHandler> map)\n
     '''
 def lookup():
-    '''public HttpRequestHandler lookup(final String requestURI)
+    '''returns HttpRequestHandler\n\n
+    lookup(final String requestURI)\n
     '''

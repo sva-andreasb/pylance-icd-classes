@@ -1,6 +1,8 @@
 def invoke():
-    '''public Object invoke(final Object o, final Method method, final Object[] objects)
+    '''returns Object\n\n
+    invoke(final Object o, final Method method, final Object[] objects)\n
     '''
 def getCall():
-    '''public Call getCall()
+    '''returns Call\n\n
+    getCall()\n
     '''

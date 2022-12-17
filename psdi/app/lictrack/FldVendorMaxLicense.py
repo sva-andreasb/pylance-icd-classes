@@ -1,3 +1,4 @@
-def FldVendorMaxLicense():
-    '''public FldVendorMaxLicense(final MboValue mbv)
+def ():
+    '''returns FldVendorMaxLicense\n\n
+    (final MboValue mbv)\n
     '''

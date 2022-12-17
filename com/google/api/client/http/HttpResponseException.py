@@ -1,50 +1,35 @@
-def HttpResponseException():
-    '''public HttpResponseException(final HttpResponse response)
-    '''
-def isSuccessStatusCode():
-    '''public final boolean isSuccessStatusCode()
-    '''
-def getStatusCode():
-    '''public final int getStatusCode()
-    public final int getStatusCode()
-    '''
-def getStatusMessage():
-    '''public final String getStatusMessage()
-    public final String getStatusMessage()
+def ():
+    '''returns Builder\n\n
+    (final HttpResponse response)\n
+    (final int statusCode, final String statusMessage, final HttpHeaders headers)\n
+    (final HttpResponse response)\n
     '''
 def getHeaders():
-    '''public HttpHeaders getHeaders()
-    public HttpHeaders getHeaders()
-    '''
-def getContent():
-    '''public final String getContent()
-    public final String getContent()
-    '''
-def computeMessageBuffer():
-    '''public static StringBuilder computeMessageBuffer(final HttpResponse response)
-    '''
-def Builder():
-    '''public Builder(final int statusCode, final String statusMessage, final HttpHeaders headers)
-    public Builder(final HttpResponse response)
-    '''
-def getMessage():
-    '''public final String getMessage()
+    '''returns HttpHeaders\n\n
+    getHeaders()\n
+    getHeaders()\n
     '''
 def setMessage():
-    '''public Builder setMessage(final String message)
+    '''returns Builder\n\n
+    setMessage(final String message)\n
     '''
 def setStatusCode():
-    '''public Builder setStatusCode(final int statusCode)
+    '''returns Builder\n\n
+    setStatusCode(final int statusCode)\n
     '''
 def setStatusMessage():
-    '''public Builder setStatusMessage(final String statusMessage)
+    '''returns Builder\n\n
+    setStatusMessage(final String statusMessage)\n
     '''
 def setHeaders():
-    '''public Builder setHeaders(final HttpHeaders headers)
+    '''returns Builder\n\n
+    setHeaders(final HttpHeaders headers)\n
     '''
 def setContent():
-    '''public Builder setContent(final String content)
+    '''returns Builder\n\n
+    setContent(final String content)\n
     '''
 def build():
-    '''public HttpResponseException build()
+    '''returns HttpResponseException\n\n
+    build()\n
     '''

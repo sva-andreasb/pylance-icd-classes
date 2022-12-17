@@ -1,6 +1,8 @@
-def FldOrgApp():
-    '''public FldOrgApp(final MboValue mbv)
+def ():
+    '''returns FldOrgApp\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

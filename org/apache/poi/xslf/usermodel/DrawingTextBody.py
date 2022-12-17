@@ -1,6 +1,8 @@
-def DrawingTextBody():
-    '''public DrawingTextBody(final CTTextBody textBody)
+def ():
+    '''returns DrawingTextBody\n\n
+    (final CTTextBody textBody)\n
     '''
 def getParagraphs():
-    '''public DrawingParagraph[] getParagraphs()
+    '''returns DrawingParagraph[]\n\n
+    getParagraphs()\n
     '''

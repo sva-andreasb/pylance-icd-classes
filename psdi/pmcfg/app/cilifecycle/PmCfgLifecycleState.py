@@ -1,47 +1,62 @@
 DELETE_DEFLT = "long  8388608L"
 DELETE_LC = "long  16777216L"
-def PmCfgLifecycleState():
-    '''public PmCfgLifecycleState(final MboSet ms)
+def ():
+    '''returns PmCfgLifecycleState\n\n
+    (final MboSet ms)\n
     '''
 def getLifecycle():
-    '''public PmCfgLifecycleRemote getLifecycle()
+    '''returns PmCfgLifecycleRemote\n\n
+    getLifecycle()\n
     '''
 def getState():
-    '''public String getState()
+    '''returns String\n\n
+    getState()\n
     '''
 def getLCName():
-    '''public String getLCName()
+    '''returns String\n\n
+    getLCName()\n
     '''
 def getTargetStates():
-    '''public Collection<String> getTargetStates()
+    '''returns Collection<String>\n\n
+    getTargetStates()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def isProtected():
-    '''public boolean isProtected()
+    '''returns boolean\n\n
+    isProtected()\n
     '''
 def setDefault():
-    '''public void setDefault(final boolean isDefault)
+    '''returns None\n\n
+    setDefault(final boolean isDefault)\n
     '''
 def setLifecycle():
-    '''public void setLifecycle(final PmCfgLifecycleRemote lc)
+    '''returns None\n\n
+    setLifecycle(final PmCfgLifecycleRemote lc)\n
     '''
 def setProtected():
-    '''public void setProtected(final boolean isProtected)
+    '''returns None\n\n
+    setProtected(final boolean isProtected)\n
     '''
 def setState():
-    '''public void setState(final String state)
+    '''returns None\n\n
+    setState(final String state)\n
     '''
 def getDefaultLifecycleState():
-    '''public PmCfgLifecycleStateRemote getDefaultLifecycleState()
+    '''returns PmCfgLifecycleStateRemote\n\n
+    getDefaultLifecycleState()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

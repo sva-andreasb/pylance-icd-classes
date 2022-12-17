@@ -1,25 +1,18 @@
-def initServiceProviders():
-    '''public static void initServiceProviders()
-    '''
-def copyProperties():
-    '''public static void copyProperties(final List<Property> properties, final StringMap result)
-    '''
-def ForDefaultThreadContextMap():
-    '''public ForDefaultThreadContextMap()
+def ():
+    '''returns ForCopyOnWriteThreadContextMap\n\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def injectContextData():
-    '''public StringMap injectContextData(final List<Property> props, final StringMap contextData)
-    public StringMap injectContextData(final List<Property> props, final StringMap reusable)
-    public StringMap injectContextData(final List<Property> props, final StringMap ignore)
+    '''returns StringMap\n\n
+    injectContextData(final List<Property> props, final StringMap contextData)\n
+    injectContextData(final List<Property> props, final StringMap reusable)\n
+    injectContextData(final List<Property> props, final StringMap ignore)\n
     '''
 def rawContextData():
-    '''public ReadOnlyStringMap rawContextData()
-    public ReadOnlyStringMap rawContextData()
-    public ReadOnlyStringMap rawContextData()
-    '''
-def ForGarbageFreeThreadContextMap():
-    '''public ForGarbageFreeThreadContextMap()
-    '''
-def ForCopyOnWriteThreadContextMap():
-    '''public ForCopyOnWriteThreadContextMap()
+    '''returns ReadOnlyStringMap\n\n
+    rawContextData()\n
+    rawContextData()\n
+    rawContextData()\n
     '''

@@ -1,12 +1,16 @@
-def InternalIterator():
-    '''public InternalIterator(final Iterator iterator)
+def ():
+    '''returns InternalIterator\n\n
+    (final Iterator iterator)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

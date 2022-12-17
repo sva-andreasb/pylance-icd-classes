@@ -1,39 +1,52 @@
-def CiTopologyLinkInfo():
-    '''public CiTopologyLinkInfo()
+def ():
+    '''returns CiTopologyLinkInfo\n\n
+    ()\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def setRelation():
-    '''public void setRelation(final String relation)
+    '''returns None\n\n
+    setRelation(final String relation)\n
     '''
 def getTag():
-    '''public String getTag()
+    '''returns String\n\n
+    getTag()\n
     '''
 def setTag():
-    '''public void setTag(final String tag)
+    '''returns None\n\n
+    setTag(final String tag)\n
     '''
 def getLinkID():
-    '''public String getLinkID()
+    '''returns String\n\n
+    getLinkID()\n
     '''
 def setLinkID():
-    '''public void setLinkID(final String linkID)
+    '''returns None\n\n
+    setLinkID(final String linkID)\n
     '''
 def getSrcCinum():
-    '''public Object getSrcCinum()
+    '''returns Object\n\n
+    getSrcCinum()\n
     '''
 def setSrcCinum():
-    '''public void setSrcCinum(final Object srcCinum)
+    '''returns None\n\n
+    setSrcCinum(final Object srcCinum)\n
     '''
 def getDstCinum():
-    '''public Object getDstCinum()
+    '''returns Object\n\n
+    getDstCinum()\n
     '''
 def setDstCinum():
-    '''public void setDstCinum(final Object dstCinum)
+    '''returns None\n\n
+    setDstCinum(final Object dstCinum)\n
     '''
 def isBusiness():
-    '''public boolean isBusiness()
+    '''returns boolean\n\n
+    isBusiness()\n
     '''
 def setBusiness():
-    '''public void setBusiness(final boolean isBusiness)
+    '''returns None\n\n
+    setBusiness(final boolean isBusiness)\n
     '''

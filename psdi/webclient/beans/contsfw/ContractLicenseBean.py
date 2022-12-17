@@ -1,6 +1,8 @@
 def associatelicenses():
-    '''public int associatelicenses()
+    '''returns int\n\n
+    associatelicenses()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

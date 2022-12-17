@@ -1,4 +1,5 @@
-def XPathFactoryConfigurationException():
-    '''public XPathFactoryConfigurationException(final String s)
-    public XPathFactoryConfigurationException(final Throwable t)
+def ():
+    '''returns XPathFactoryConfigurationException\n\n
+    (final String s)\n
+    (final Throwable t)\n
     '''

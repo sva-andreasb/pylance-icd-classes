@@ -1,3 +1,4 @@
-def XmlBeanDeserializerFactory():
-    '''public XmlBeanDeserializerFactory(final Class javaType, final QName xmlType)
+def ():
+    '''returns XmlBeanDeserializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

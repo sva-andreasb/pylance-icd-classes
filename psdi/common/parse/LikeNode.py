@@ -1,6 +1,8 @@
-def LikeNode():
-    '''public LikeNode(final TreeNode oper, final TreeNode pat)
+def ():
+    '''returns LikeNode\n\n
+    (final TreeNode oper, final TreeNode pat)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final MboRemote mbo)\n
     '''

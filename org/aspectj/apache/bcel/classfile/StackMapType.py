@@ -1,33 +1,24 @@
-def StackMapType():
-    '''public StackMapType(final byte type, final int index, final ConstantPool constant_pool)
+def ():
+    '''returns StackMapType\n\n
+    (final byte type, final int index, final ConstantPool constant_pool)\n
     '''
 def setType():
-    '''public void setType(final byte t)
+    '''returns None\n\n
+    setType(final byte t)\n
     '''
 def getType():
-    '''public byte getType()
+    '''returns byte\n\n
+    getType()\n
     '''
 def setIndex():
-    '''public void setIndex(final int t)
+    '''returns None\n\n
+    setIndex(final int t)\n
     '''
 def getIndex():
-    '''public int getIndex()
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def hasIndex():
-    '''public final boolean hasIndex()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def copy():
-    '''public StackMapType copy()
-    '''
-def getConstantPool():
-    '''public final ConstantPool getConstantPool()
-    '''
-def setConstantPool():
-    '''public final void setConstantPool(final ConstantPool constant_pool)
+    '''returns StackMapType\n\n
+    copy()\n
     '''

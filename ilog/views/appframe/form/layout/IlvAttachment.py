@@ -1,30 +1,40 @@
-def IlvAttachment():
-    '''public IlvAttachment(final IlvControlAnchor a, final IlvControlAnchor b, final IlvFormLayout.Function c)
+def ():
+    '''returns IlvAttachment\n\n
+    (final IlvControlAnchor a, final IlvControlAnchor b, final IlvFormLayout.Function c)\n
     '''
 def apply():
-    '''public void apply(final Object o, final IlvFormLayout ilvFormLayout, final int n)
+    '''returns None\n\n
+    apply(final Object o, final IlvFormLayout ilvFormLayout, final int n)\n
     '''
 def reverseCalc():
-    '''public void reverseCalc(final Object o, final IlvFormLayout ilvFormLayout, final int n)
+    '''returns None\n\n
+    reverseCalc(final Object o, final IlvFormLayout ilvFormLayout, final int n)\n
     '''
 def reset():
-    '''public void reset(final Object o)
+    '''returns None\n\n
+    reset(final Object o)\n
     '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
     '''
 def isAlreadyProcessed():
-    '''public boolean isAlreadyProcessed()
+    '''returns boolean\n\n
+    isAlreadyProcessed()\n
     '''
 def isInProcess():
-    '''public boolean isInProcess()
+    '''returns boolean\n\n
+    isInProcess()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getReferenceAnchor():
-    '''public IlvControlAnchor getReferenceAnchor()
+    '''returns IlvControlAnchor\n\n
+    getReferenceAnchor()\n
     '''
 def getAttachedAnchor():
-    '''public IlvControlAnchor getAttachedAnchor()
+    '''returns IlvControlAnchor\n\n
+    getAttachedAnchor()\n
     '''

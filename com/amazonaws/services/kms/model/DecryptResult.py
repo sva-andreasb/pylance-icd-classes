@@ -1,30 +1,40 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public DecryptResult withKeyId(final String keyId)
+    '''returns DecryptResult\n\n
+    withKeyId(final String keyId)\n
     '''
 def setPlaintext():
-    '''public void setPlaintext(final ByteBuffer plaintext)
+    '''returns None\n\n
+    setPlaintext(final ByteBuffer plaintext)\n
     '''
 def getPlaintext():
-    '''public ByteBuffer getPlaintext()
+    '''returns ByteBuffer\n\n
+    getPlaintext()\n
     '''
 def withPlaintext():
-    '''public DecryptResult withPlaintext(final ByteBuffer plaintext)
+    '''returns DecryptResult\n\n
+    withPlaintext(final ByteBuffer plaintext)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public DecryptResult clone()
+    '''returns DecryptResult\n\n
+    clone()\n
     '''

@@ -1,16 +1,21 @@
-def AbstractConnection():
-    '''public AbstractConnection(final EndPoint endp)
-    public AbstractConnection(final EndPoint endp, final long timestamp)
+def ():
+    '''returns AbstractConnection\n\n
+    (final EndPoint endp)\n
+    (final EndPoint endp, final long timestamp)\n
     '''
 def getTimeStamp():
-    '''public long getTimeStamp()
+    '''returns long\n\n
+    getTimeStamp()\n
     '''
 def getEndPoint():
-    '''public EndPoint getEndPoint()
+    '''returns EndPoint\n\n
+    getEndPoint()\n
     '''
 def onIdleExpired():
-    '''public void onIdleExpired(final long idleForMs)
+    '''returns None\n\n
+    onIdleExpired(final long idleForMs)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

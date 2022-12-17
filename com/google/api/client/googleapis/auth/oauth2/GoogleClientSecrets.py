@@ -1,56 +1,70 @@
 def getInstalled():
-    '''public Details getInstalled()
+    '''returns Details\n\n
+    getInstalled()\n
     '''
 def setInstalled():
-    '''public GoogleClientSecrets setInstalled(final Details installed)
+    '''returns GoogleClientSecrets\n\n
+    setInstalled(final Details installed)\n
     '''
 def getWeb():
-    '''public Details getWeb()
+    '''returns Details\n\n
+    getWeb()\n
     '''
 def setWeb():
-    '''public GoogleClientSecrets setWeb(final Details web)
+    '''returns GoogleClientSecrets\n\n
+    setWeb(final Details web)\n
     '''
 def getDetails():
-    '''public Details getDetails()
+    '''returns Details\n\n
+    getDetails()\n
     '''
 def set():
-    '''public GoogleClientSecrets set(final String fieldName, final Object value)
-    public Details set(final String fieldName, final Object value)
+    '''returns Details\n\n
+    set(final String fieldName, final Object value)\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public GoogleClientSecrets clone()
-    public Details clone()
-    '''
-def load():
-    '''public static GoogleClientSecrets load(final JsonFactory jsonFactory, final Reader reader)
+    '''returns Details\n\n
+    clone()\n
+    clone()\n
     '''
 def getClientId():
-    '''public String getClientId()
+    '''returns String\n\n
+    getClientId()\n
     '''
 def setClientId():
-    '''public Details setClientId(final String clientId)
+    '''returns Details\n\n
+    setClientId(final String clientId)\n
     '''
 def getClientSecret():
-    '''public String getClientSecret()
+    '''returns String\n\n
+    getClientSecret()\n
     '''
 def setClientSecret():
-    '''public Details setClientSecret(final String clientSecret)
+    '''returns Details\n\n
+    setClientSecret(final String clientSecret)\n
     '''
 def getRedirectUris():
-    '''public List<String> getRedirectUris()
+    '''returns List<String>\n\n
+    getRedirectUris()\n
     '''
 def setRedirectUris():
-    '''public Details setRedirectUris(final List<String> redirectUris)
+    '''returns Details\n\n
+    setRedirectUris(final List<String> redirectUris)\n
     '''
 def getAuthUri():
-    '''public String getAuthUri()
+    '''returns String\n\n
+    getAuthUri()\n
     '''
 def setAuthUri():
-    '''public Details setAuthUri(final String authUri)
+    '''returns Details\n\n
+    setAuthUri(final String authUri)\n
     '''
 def getTokenUri():
-    '''public String getTokenUri()
+    '''returns String\n\n
+    getTokenUri()\n
     '''
 def setTokenUri():
-    '''public Details setTokenUri(final String tokenUri)
+    '''returns Details\n\n
+    setTokenUri(final String tokenUri)\n
     '''

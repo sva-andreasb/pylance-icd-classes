@@ -1,6 +1,8 @@
-def LicenseChangeStatus():
-    '''public LicenseChangeStatus(final MboSet ms)
+def ():
+    '''returns LicenseChangeStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

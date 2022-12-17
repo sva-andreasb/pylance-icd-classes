@@ -1,3 +1,4 @@
 def build():
-    '''public MultiPhraseQuery build(final QueryNode queryNode)
+    '''returns MultiPhraseQuery\n\n
+    build(final QueryNode queryNode)\n
     '''

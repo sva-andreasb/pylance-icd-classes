@@ -1,43 +1,57 @@
 def getAliases():
-    '''public List<AliasListEntry> getAliases()
+    '''returns List<AliasListEntry>\n\n
+    getAliases()\n
     '''
 def setAliases():
-    '''public void setAliases(final Collection<AliasListEntry> aliases)
+    '''returns None\n\n
+    setAliases(final Collection<AliasListEntry> aliases)\n
     '''
 def withAliases():
-    '''public ListAliasesResult withAliases(final AliasListEntry... aliases)
-    public ListAliasesResult withAliases(final Collection<AliasListEntry> aliases)
+    '''returns ListAliasesResult\n\n
+    withAliases(final AliasListEntry... aliases)\n
+    withAliases(final Collection<AliasListEntry> aliases)\n
     '''
 def setNextMarker():
-    '''public void setNextMarker(final String nextMarker)
+    '''returns None\n\n
+    setNextMarker(final String nextMarker)\n
     '''
 def getNextMarker():
-    '''public String getNextMarker()
+    '''returns String\n\n
+    getNextMarker()\n
     '''
 def withNextMarker():
-    '''public ListAliasesResult withNextMarker(final String nextMarker)
+    '''returns ListAliasesResult\n\n
+    withNextMarker(final String nextMarker)\n
     '''
 def setTruncated():
-    '''public void setTruncated(final Boolean truncated)
+    '''returns None\n\n
+    setTruncated(final Boolean truncated)\n
     '''
 def getTruncated():
-    '''public Boolean getTruncated()
+    '''returns Boolean\n\n
+    getTruncated()\n
     '''
 def withTruncated():
-    '''public ListAliasesResult withTruncated(final Boolean truncated)
+    '''returns ListAliasesResult\n\n
+    withTruncated(final Boolean truncated)\n
     '''
 def isTruncated():
-    '''public Boolean isTruncated()
+    '''returns Boolean\n\n
+    isTruncated()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public ListAliasesResult clone()
+    '''returns ListAliasesResult\n\n
+    clone()\n
     '''

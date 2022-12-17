@@ -1,3 +1,4 @@
-def Arguments():
-    '''public Arguments()
+def ():
+    '''returns Arguments\n\n
+    ()\n
     '''

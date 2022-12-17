@@ -1,6 +1,8 @@
-def Main():
-    '''public Main()
+def ():
+    '''returns Main\n\n
+    ()\n
     '''
 def main():
-    '''public void main(final String[] args)
+    '''returns None\n\n
+    main(final String[] args)\n
     '''

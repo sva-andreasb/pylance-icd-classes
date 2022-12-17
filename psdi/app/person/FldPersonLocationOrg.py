@@ -1,6 +1,8 @@
-def FldPersonLocationOrg():
-    '''public FldPersonLocationOrg(final MboValue mbv)
+def ():
+    '''returns FldPersonLocationOrg\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

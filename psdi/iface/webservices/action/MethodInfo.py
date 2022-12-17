@@ -1,72 +1,96 @@
-def MethodInfo():
-    '''public MethodInfo(final Method method)
+def ():
+    '''returns MethodInfo\n\n
+    (final Method method)\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
     '''
 def isVoidReturnType():
-    '''public boolean isVoidReturnType()
+    '''returns boolean\n\n
+    isVoidReturnType()\n
     '''
 def getParameters():
-    '''public ParamInfo[] getParameters()
+    '''returns ParamInfo[]\n\n
+    getParameters()\n
     '''
 def getOperationName():
-    '''public String getOperationName()
+    '''returns String\n\n
+    getOperationName()\n
     '''
 def isAuthEnabled():
-    '''public boolean isAuthEnabled()
+    '''returns boolean\n\n
+    isAuthEnabled()\n
     '''
 def getAuthApp():
-    '''public String getAuthApp()
+    '''returns String\n\n
+    getAuthApp()\n
     '''
 def getSigOption():
-    '''public String getSigOption()
+    '''returns String\n\n
+    getSigOption()\n
     '''
 def isHttpGET():
-    '''public boolean isHttpGET()
+    '''returns boolean\n\n
+    isHttpGET()\n
     '''
 def isExcludeWS():
-    '''public boolean isExcludeWS()
+    '''returns boolean\n\n
+    isExcludeWS()\n
     '''
 def getReturnTypeInfo():
-    '''public ParamInfo getReturnTypeInfo()
+    '''returns ParamInfo\n\n
+    getReturnTypeInfo()\n
     '''
 def setReturnTypeInfo():
-    '''public void setReturnTypeInfo(final ParamInfo returnTypeInfo)
+    '''returns None\n\n
+    setReturnTypeInfo(final ParamInfo returnTypeInfo)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setRequiresRESTRequest():
-    '''public void setRequiresRESTRequest()
+    '''returns None\n\n
+    setRequiresRESTRequest()\n
     '''
 def isRequiresRESTRequest():
-    '''public boolean isRequiresRESTRequest()
+    '''returns boolean\n\n
+    isRequiresRESTRequest()\n
     '''
 def getTag():
-    '''public String getTag()
+    '''returns String\n\n
+    getTag()\n
     '''
 def setTag():
-    '''public void setTag(String tag)
+    '''returns None\n\n
+    setTag(String tag)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(String description)
+    '''returns None\n\n
+    setDescription(String description)\n
     '''
 def setTagLocalized():
-    '''public void setTagLocalized(final boolean localize)
+    '''returns None\n\n
+    setTagLocalized(final boolean localize)\n
     '''
 def isInternal():
-    '''public boolean isInternal()
+    '''returns boolean\n\n
+    isInternal()\n
     '''
 def setInternal():
-    '''public void setInternal(final boolean internal)
+    '''returns None\n\n
+    setInternal(final boolean internal)\n
     '''
 def setParamFacets():
-    '''public void setParamFacets(final String value)
+    '''returns None\n\n
+    setParamFacets(final String value)\n
     '''
 def getParamFacet():
-    '''public String getParamFacet(final String paramName)
+    '''returns String\n\n
+    getParamFacet(final String paramName)\n
     '''

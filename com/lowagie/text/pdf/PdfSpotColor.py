@@ -1,9 +1,12 @@
-def PdfSpotColor():
-    '''public PdfSpotColor(final String name, final float tint, final Color altcs)
+def ():
+    '''returns PdfSpotColor\n\n
+    (final String name, final float tint, final Color altcs)\n
     '''
 def getTint():
-    '''public float getTint()
+    '''returns float\n\n
+    getTint()\n
     '''
 def getAlternativeCS():
-    '''public Color getAlternativeCS()
+    '''returns Color\n\n
+    getAlternativeCS()\n
     '''

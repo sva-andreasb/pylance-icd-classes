@@ -1,15 +1,20 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getBean():
-    '''public Component getBean()
+    '''returns Component\n\n
+    getBean()\n
     '''

@@ -1,49 +1,65 @@
-def IlvActivityGraphicSelection():
-    '''public IlvActivityGraphicSelection(final IlvActivityGraphic ilvActivityGraphic)
-    public IlvActivityGraphicSelection(final IlvActivityGraphic ilvActivityGraphic, final String[] a)
+def ():
+    '''returns IlvActivityGraphicSelection\n\n
+    (final IlvActivityGraphic ilvActivityGraphic)\n
+    (final IlvActivityGraphic ilvActivityGraphic, final String[] a)\n
     '''
 def getActivityGraphic():
-    '''public IlvActivityGraphic getActivityGraphic()
+    '''returns IlvActivityGraphic\n\n
+    getActivityGraphic()\n
     '''
 def getActivityRenderer():
-    '''public IlvActivityRenderer getActivityRenderer()
+    '''returns IlvActivityRenderer\n\n
+    getActivityRenderer()\n
     '''
 def getActivity():
-    '''public IlvActivity getActivity()
+    '''returns IlvActivity\n\n
+    getActivity()\n
     '''
 def getHandleProperties():
-    '''public String[] getHandleProperties()
+    '''returns String[]\n\n
+    getHandleProperties()\n
     '''
 def getPropertyValue():
-    '''public Date getPropertyValue(final int i)
+    '''returns Date\n\n
+    getPropertyValue(final int i)\n
     '''
 def getStartTime():
-    '''public Date getStartTime()
+    '''returns Date\n\n
+    getStartTime()\n
     '''
 def getEndTime():
-    '''public Date getEndTime()
+    '''returns Date\n\n
+    getEndTime()\n
     '''
 def getDefinitionRect():
-    '''public IlvRect getDefinitionRect(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    getDefinitionRect(final IlvTransformer ilvTransformer)\n
     '''
 def invalidateCache():
-    '''public void invalidateCache()
+    '''returns None\n\n
+    invalidateCache()\n
     '''
 def getDefaultInteractor():
-    '''public String getDefaultInteractor()
+    '''returns String\n\n
+    getDefaultInteractor()\n
     '''
 def getHandleCardinal():
-    '''public int getHandleCardinal()
+    '''returns int\n\n
+    getHandleCardinal()\n
     '''
 def getHandle():
-    '''public IlvPoint getHandle(final int n, final IlvTransformer ilvTransformer)
+    '''returns IlvPoint\n\n
+    getHandle(final int n, final IlvTransformer ilvTransformer)\n
     '''
 def getHandleTime():
-    '''public Date getHandleTime(final int n)
+    '''returns Date\n\n
+    getHandleTime(final int n)\n
     '''
 def setHandleTime():
-    '''public void setHandleTime(final int n, final Date date)
+    '''returns None\n\n
+    setHandleTime(final int n, final Date date)\n
     '''
 def setBothHandleTimes():
-    '''public void setBothHandleTimes(final Date startTime, final Date endTime)
+    '''returns None\n\n
+    setBothHandleTimes(final Date startTime, final Date endTime)\n
     '''

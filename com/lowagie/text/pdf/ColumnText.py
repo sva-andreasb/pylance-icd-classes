@@ -10,130 +10,156 @@ DIGIT_TYPE_AN_EXTENDED = "int  256"
 GLOBAL_SPACE_CHAR_RATIO = "float  0.0f"
 NO_MORE_TEXT = "int  1"
 NO_MORE_COLUMN = "int  2"
-def ColumnText():
-    '''public ColumnText(final PdfContentByte canvas)
-    '''
-def duplicate():
-    '''public static ColumnText duplicate(final ColumnText org)
+def ():
+    '''returns ColumnText\n\n
+    (final PdfContentByte canvas)\n
     '''
 def setACopy():
-    '''public ColumnText setACopy(final ColumnText org)
+    '''returns ColumnText\n\n
+    setACopy(final ColumnText org)\n
     '''
 def addText():
-    '''public void addText(final Phrase phrase)
-    public void addText(final Chunk chunk)
+    '''returns None\n\n
+    addText(final Phrase phrase)\n
+    addText(final Chunk chunk)\n
     '''
 def setText():
-    '''public void setText(final Phrase phrase)
+    '''returns None\n\n
+    setText(final Phrase phrase)\n
     '''
 def addElement():
-    '''public void addElement(Element element)
+    '''returns None\n\n
+    addElement(Element element)\n
     '''
 def setColumns():
-    '''public void setColumns(final float[] leftLine, final float[] rightLine)
+    '''returns None\n\n
+    setColumns(final float[] leftLine, final float[] rightLine)\n
     '''
 def setSimpleColumn():
-    '''public void setSimpleColumn(final Phrase phrase, final float llx, final float lly, final float urx, final float ury, final float leading, final int alignment)
-    public void setSimpleColumn(final float llx, final float lly, final float urx, final float ury, final float leading, final int alignment)
-    public void setSimpleColumn(final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    setSimpleColumn(final Phrase phrase, final float llx, final float lly, final float urx, final float ury, final float leading, final int alignment)\n
+    setSimpleColumn(final float llx, final float lly, final float urx, final float ury, final float leading, final int alignment)\n
+    setSimpleColumn(final float llx, final float lly, final float urx, final float ury)\n
     '''
 def setLeading():
-    '''public void setLeading(final float leading)
-    public void setLeading(final float fixedLeading, final float multipliedLeading)
+    '''returns None\n\n
+    setLeading(final float leading)\n
+    setLeading(final float fixedLeading, final float multipliedLeading)\n
     '''
 def getLeading():
-    '''public float getLeading()
+    '''returns float\n\n
+    getLeading()\n
     '''
 def getMultipliedLeading():
-    '''public float getMultipliedLeading()
+    '''returns float\n\n
+    getMultipliedLeading()\n
     '''
 def setYLine():
-    '''public void setYLine(final float yLine)
+    '''returns None\n\n
+    setYLine(final float yLine)\n
     '''
 def getYLine():
-    '''public float getYLine()
+    '''returns float\n\n
+    getYLine()\n
     '''
 def setAlignment():
-    '''public void setAlignment(final int alignment)
+    '''returns None\n\n
+    setAlignment(final int alignment)\n
     '''
 def getAlignment():
-    '''public int getAlignment()
+    '''returns int\n\n
+    getAlignment()\n
     '''
 def setIndent():
-    '''public void setIndent(final float indent)
+    '''returns None\n\n
+    setIndent(final float indent)\n
     '''
 def getIndent():
-    '''public float getIndent()
+    '''returns float\n\n
+    getIndent()\n
     '''
 def setFollowingIndent():
-    '''public void setFollowingIndent(final float indent)
+    '''returns None\n\n
+    setFollowingIndent(final float indent)\n
     '''
 def getFollowingIndent():
-    '''public float getFollowingIndent()
+    '''returns float\n\n
+    getFollowingIndent()\n
     '''
 def setRightIndent():
-    '''public void setRightIndent(final float indent)
+    '''returns None\n\n
+    setRightIndent(final float indent)\n
     '''
 def getRightIndent():
-    '''public float getRightIndent()
+    '''returns float\n\n
+    getRightIndent()\n
     '''
 def go():
-    '''public int go()
-    public int go(final boolean simulate)
+    '''returns int\n\n
+    go()\n
+    go(final boolean simulate)\n
     '''
 def getExtraParagraphSpace():
-    '''public float getExtraParagraphSpace()
+    '''returns float\n\n
+    getExtraParagraphSpace()\n
     '''
 def setExtraParagraphSpace():
-    '''public void setExtraParagraphSpace(final float extraParagraphSpace)
+    '''returns None\n\n
+    setExtraParagraphSpace(final float extraParagraphSpace)\n
     '''
 def clearChunks():
-    '''public void clearChunks()
+    '''returns None\n\n
+    clearChunks()\n
     '''
 def getSpaceCharRatio():
-    '''public float getSpaceCharRatio()
+    '''returns float\n\n
+    getSpaceCharRatio()\n
     '''
 def setSpaceCharRatio():
-    '''public void setSpaceCharRatio(final float spaceCharRatio)
+    '''returns None\n\n
+    setSpaceCharRatio(final float spaceCharRatio)\n
     '''
 def setRunDirection():
-    '''public void setRunDirection(final int runDirection)
+    '''returns None\n\n
+    setRunDirection(final int runDirection)\n
     '''
 def getRunDirection():
-    '''public int getRunDirection()
+    '''returns int\n\n
+    getRunDirection()\n
     '''
 def getLinesWritten():
-    '''public int getLinesWritten()
+    '''returns int\n\n
+    getLinesWritten()\n
     '''
 def getArabicOptions():
-    '''public int getArabicOptions()
+    '''returns int\n\n
+    getArabicOptions()\n
     '''
 def setArabicOptions():
-    '''public void setArabicOptions(final int arabicOptions)
+    '''returns None\n\n
+    setArabicOptions(final int arabicOptions)\n
     '''
 def getDescender():
-    '''public float getDescender()
-    '''
-def getWidth():
-    '''public static float getWidth(final Phrase phrase, final int runDirection, final int arabicOptions)
-    public static float getWidth(final Phrase phrase)
-    '''
-def showTextAligned():
-    '''public static void showTextAligned(final PdfContentByte canvas, int alignment, final Phrase phrase, final float x, final float y, final float rotation, final int runDirection, final int arabicOptions)
-    public static void showTextAligned(final PdfContentByte canvas, final int alignment, final Phrase phrase, final float x, final float y, final float rotation)
+    '''returns float\n\n
+    getDescender()\n
     '''
 def getCanvas():
-    '''public PdfContentByte getCanvas()
+    '''returns PdfContentByte\n\n
+    getCanvas()\n
     '''
 def setCanvas():
-    '''public void setCanvas(final PdfContentByte canvas)
+    '''returns None\n\n
+    setCanvas(final PdfContentByte canvas)\n
     '''
 def zeroHeightElement():
-    '''public boolean zeroHeightElement()
+    '''returns boolean\n\n
+    zeroHeightElement()\n
     '''
 def isUseAscender():
-    '''public boolean isUseAscender()
+    '''returns boolean\n\n
+    isUseAscender()\n
     '''
 def setUseAscender():
-    '''public void setUseAscender(final boolean use)
+    '''returns None\n\n
+    setUseAscender(final boolean use)\n
     '''

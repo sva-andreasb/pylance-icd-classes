@@ -1,3 +1,4 @@
-def PlusPCustStatusVSet():
-    '''public PlusPCustStatusVSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustStatusVSet\n\n
+    (final MboServerInterface ms)\n
     '''

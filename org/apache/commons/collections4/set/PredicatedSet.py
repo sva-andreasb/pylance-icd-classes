@@ -1,9 +1,8 @@
-def predicatedSet():
-    '''public static <E> PredicatedSet<E> predicatedSet(final Set<E> set, final Predicate<? super E> predicate)
-    '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

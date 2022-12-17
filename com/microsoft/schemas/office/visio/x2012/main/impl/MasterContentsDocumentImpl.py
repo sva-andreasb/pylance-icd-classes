@@ -1,12 +1,16 @@
-def MasterContentsDocumentImpl():
-    '''public MasterContentsDocumentImpl(final SchemaType schemaType)
+def ():
+    '''returns MasterContentsDocumentImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getMasterContents():
-    '''public PageContentsType getMasterContents()
+    '''returns PageContentsType\n\n
+    getMasterContents()\n
     '''
 def setMasterContents():
-    '''public void setMasterContents(final PageContentsType pageContentsType)
+    '''returns None\n\n
+    setMasterContents(final PageContentsType pageContentsType)\n
     '''
 def addNewMasterContents():
-    '''public PageContentsType addNewMasterContents()
+    '''returns PageContentsType\n\n
+    addNewMasterContents()\n
     '''

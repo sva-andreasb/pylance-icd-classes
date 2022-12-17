@@ -1,110 +1,146 @@
-def CellTypeImpl():
-    '''public CellTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns CellTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getRefByList():
-    '''public List<RefByType> getRefByList()
+    '''returns List<RefByType>\n\n
+    getRefByList()\n
     '''
 def getRefByArray():
-    '''public RefByType[] getRefByArray()
-    public RefByType getRefByArray(final int n)
+    '''returns RefByType\n\n
+    getRefByArray()\n
+    getRefByArray(final int n)\n
     '''
 def sizeOfRefByArray():
-    '''public int sizeOfRefByArray()
+    '''returns int\n\n
+    sizeOfRefByArray()\n
     '''
 def setRefByArray():
-    '''public void setRefByArray(final RefByType[] array)
-    public void setRefByArray(final int n, final RefByType refByType)
+    '''returns None\n\n
+    setRefByArray(final RefByType[] array)\n
+    setRefByArray(final int n, final RefByType refByType)\n
     '''
 def insertNewRefBy():
-    '''public RefByType insertNewRefBy(final int n)
+    '''returns RefByType\n\n
+    insertNewRefBy(final int n)\n
     '''
 def addNewRefBy():
-    '''public RefByType addNewRefBy()
+    '''returns RefByType\n\n
+    addNewRefBy()\n
     '''
 def removeRefBy():
-    '''public void removeRefBy(final int n)
+    '''returns None\n\n
+    removeRefBy(final int n)\n
     '''
 def getN():
-    '''public String getN()
+    '''returns String\n\n
+    getN()\n
     '''
 def xgetN():
-    '''public XmlString xgetN()
+    '''returns XmlString\n\n
+    xgetN()\n
     '''
 def setN():
-    '''public void setN(final String stringValue)
+    '''returns None\n\n
+    setN(final String stringValue)\n
     '''
 def xsetN():
-    '''public void xsetN(final XmlString xmlString)
+    '''returns None\n\n
+    xsetN(final XmlString xmlString)\n
     '''
 def getU():
-    '''public String getU()
+    '''returns String\n\n
+    getU()\n
     '''
 def xgetU():
-    '''public XmlString xgetU()
+    '''returns XmlString\n\n
+    xgetU()\n
     '''
 def isSetU():
-    '''public boolean isSetU()
+    '''returns boolean\n\n
+    isSetU()\n
     '''
 def setU():
-    '''public void setU(final String stringValue)
+    '''returns None\n\n
+    setU(final String stringValue)\n
     '''
 def xsetU():
-    '''public void xsetU(final XmlString xmlString)
+    '''returns None\n\n
+    xsetU(final XmlString xmlString)\n
     '''
 def unsetU():
-    '''public void unsetU()
+    '''returns None\n\n
+    unsetU()\n
     '''
 def getE():
-    '''public String getE()
+    '''returns String\n\n
+    getE()\n
     '''
 def xgetE():
-    '''public XmlString xgetE()
+    '''returns XmlString\n\n
+    xgetE()\n
     '''
 def isSetE():
-    '''public boolean isSetE()
+    '''returns boolean\n\n
+    isSetE()\n
     '''
 def setE():
-    '''public void setE(final String stringValue)
+    '''returns None\n\n
+    setE(final String stringValue)\n
     '''
 def xsetE():
-    '''public void xsetE(final XmlString xmlString)
+    '''returns None\n\n
+    xsetE(final XmlString xmlString)\n
     '''
 def unsetE():
-    '''public void unsetE()
+    '''returns None\n\n
+    unsetE()\n
     '''
 def getF():
-    '''public String getF()
+    '''returns String\n\n
+    getF()\n
     '''
 def xgetF():
-    '''public XmlString xgetF()
+    '''returns XmlString\n\n
+    xgetF()\n
     '''
 def isSetF():
-    '''public boolean isSetF()
+    '''returns boolean\n\n
+    isSetF()\n
     '''
 def setF():
-    '''public void setF(final String stringValue)
+    '''returns None\n\n
+    setF(final String stringValue)\n
     '''
 def xsetF():
-    '''public void xsetF(final XmlString xmlString)
+    '''returns None\n\n
+    xsetF(final XmlString xmlString)\n
     '''
 def unsetF():
-    '''public void unsetF()
+    '''returns None\n\n
+    unsetF()\n
     '''
 def getV():
-    '''public String getV()
+    '''returns String\n\n
+    getV()\n
     '''
 def xgetV():
-    '''public XmlString xgetV()
+    '''returns XmlString\n\n
+    xgetV()\n
     '''
 def isSetV():
-    '''public boolean isSetV()
+    '''returns boolean\n\n
+    isSetV()\n
     '''
 def setV():
-    '''public void setV(final String stringValue)
+    '''returns None\n\n
+    setV(final String stringValue)\n
     '''
 def xsetV():
-    '''public void xsetV(final XmlString xmlString)
+    '''returns None\n\n
+    xsetV(final XmlString xmlString)\n
     '''
 def unsetV():
-    '''public void unsetV()
+    '''returns None\n\n
+    unsetV()\n
     '''

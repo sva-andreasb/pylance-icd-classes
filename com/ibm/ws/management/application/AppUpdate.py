@@ -1,18 +1,24 @@
-def AppUpdate():
-    '''public AppUpdate()
+def ():
+    '''returns AppUpdate\n\n
+    ()\n
     '''
 def getDeletedList():
-    '''public List getDeletedList()
+    '''returns List\n\n
+    getDeletedList()\n
     '''
 def setLists():
-    '''public void setLists(final List d, final List a, final List u)
+    '''returns None\n\n
+    setLists(final List d, final List a, final List u)\n
     '''
 def setSyncMode():
-    '''public void setSyncMode(final boolean isSyncMode)
+    '''returns None\n\n
+    setSyncMode(final boolean isSyncMode)\n
     '''
 def mergeFiles():
-    '''public void mergeFiles(final String operation, final String srcPath, final String destPath)
+    '''returns None\n\n
+    mergeFiles(final String operation, final String srcPath, final String destPath)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale loc)
+    '''returns None\n\n
+    setLocale(final Locale loc)\n
     '''

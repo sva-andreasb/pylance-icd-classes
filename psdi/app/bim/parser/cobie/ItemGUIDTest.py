@@ -1,9 +1,8 @@
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''

@@ -1,6 +1,8 @@
 def getQuery():
-    '''public String getQuery()
+    '''returns String\n\n
+    getQuery()\n
     '''
 def setQuery():
-    '''public void setQuery(final String query)
+    '''returns None\n\n
+    setQuery(final String query)\n
     '''

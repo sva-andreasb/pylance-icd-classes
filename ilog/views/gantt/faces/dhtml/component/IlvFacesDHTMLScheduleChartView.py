@@ -1,105 +1,136 @@
-def IlvFacesDHTMLScheduleChartView():
-    '''public IlvFacesDHTMLScheduleChartView()
+def ():
+    '''returns IlvFacesDHTMLScheduleChartView\n\n
+    ()\n
     '''
 def getFamily():
-    '''public String getFamily()
-    '''
-def getComponentType():
-    '''public static String getComponentType()
+    '''returns String\n\n
+    getFamily()\n
     '''
 def getControllerURL():
-    '''public String getControllerURL()
+    '''returns String\n\n
+    getControllerURL()\n
     '''
 def setErrorMessage():
-    '''public void setErrorMessage(final String errorMessage)
+    '''returns None\n\n
+    setErrorMessage(final String errorMessage)\n
     '''
 def getErrorMessage():
-    '''public String getErrorMessage()
+    '''returns String\n\n
+    getErrorMessage()\n
     '''
 def setImageFormat():
-    '''public void setImageFormat(final String imageFormat)
+    '''returns None\n\n
+    setImageFormat(final String imageFormat)\n
     '''
 def getImageFormat():
-    '''public String getImageFormat()
+    '''returns String\n\n
+    getImageFormat()\n
     '''
 def setServlet():
-    '''public void setServlet(final String value)
+    '''returns None\n\n
+    setServlet(final String value)\n
     '''
 def getServlet():
-    '''public String getServlet()
+    '''returns String\n\n
+    getServlet()\n
     '''
 def setServletClass():
-    '''public void setServletClass(final String servletClass)
+    '''returns None\n\n
+    setServletClass(final String servletClass)\n
     '''
 def getServletClass():
-    '''public String getServletClass()
+    '''returns String\n\n
+    getServletClass()\n
     '''
 def setServletURL():
-    '''public void setServletURL(final String servletURL)
+    '''returns None\n\n
+    setServletURL(final String servletURL)\n
     '''
 def getServletURL():
-    '''public String getServletURL()
+    '''returns String\n\n
+    getServletURL()\n
     '''
 def setUpdateInterval():
-    '''public void setUpdateInterval(final int updateInterval)
+    '''returns None\n\n
+    setUpdateInterval(final int updateInterval)\n
     '''
 def getUpdateInterval():
-    '''public int getUpdateInterval()
+    '''returns int\n\n
+    getUpdateInterval()\n
     '''
 def setWaitingImage():
-    '''public void setWaitingImage(final String waitingImage)
+    '''returns None\n\n
+    setWaitingImage(final String waitingImage)\n
     '''
 def getWaitingImage():
-    '''public String getWaitingImage()
+    '''returns String\n\n
+    getWaitingImage()\n
     '''
 def setAutoUpdateCapabilities():
-    '''public void setAutoUpdateCapabilities(final boolean autoUpdateCapabilities)
+    '''returns None\n\n
+    setAutoUpdateCapabilities(final boolean autoUpdateCapabilities)\n
     '''
 def isAutoUpdateCapabilities():
-    '''public boolean isAutoUpdateCapabilities()
+    '''returns boolean\n\n
+    isAutoUpdateCapabilities()\n
     '''
 def setValue():
-    '''public void setValue(final Object o)
+    '''returns None\n\n
+    setValue(final Object o)\n
     '''
 def getColumnResizeMessage():
-    '''public String getColumnResizeMessage()
+    '''returns String\n\n
+    getColumnResizeMessage()\n
     '''
 def setColumnResizeMessage():
-    '''public void setColumnResizeMessage(final String columnResizeMessage)
+    '''returns None\n\n
+    setColumnResizeMessage(final String columnResizeMessage)\n
     '''
 def isResizable():
-    '''public boolean isResizable()
+    '''returns boolean\n\n
+    isResizable()\n
     '''
 def setResizable():
-    '''public void setResizable(final boolean resizable)
+    '''returns None\n\n
+    setResizable(final boolean resizable)\n
     '''
 def isAccessible():
-    '''public boolean isAccessible()
+    '''returns boolean\n\n
+    isAccessible()\n
     '''
 def setAccessible():
-    '''public void setAccessible(final boolean accessible)
+    '''returns None\n\n
+    setAccessible(final boolean accessible)\n
     '''
 def getHotkeys():
-    '''public String getHotkeys()
+    '''returns String\n\n
+    getHotkeys()\n
     '''
 def setHotkeys():
-    '''public void setHotkeys(final String hotkeys)
+    '''returns None\n\n
+    setHotkeys(final String hotkeys)\n
     '''
 def getChart():
-    '''public IlvHierarchyChart getChart()
+    '''returns IlvHierarchyChart\n\n
+    getChart()\n
     '''
 def getBeforeSessionExpirationHandler():
-    '''public String getBeforeSessionExpirationHandler()
+    '''returns String\n\n
+    getBeforeSessionExpirationHandler()\n
     '''
 def setBeforeSessionExpirationHandler():
-    '''public void setBeforeSessionExpirationHandler(final String beforeSessionExpirationHandler)
+    '''returns None\n\n
+    setBeforeSessionExpirationHandler(final String beforeSessionExpirationHandler)\n
     '''
 def updateModel():
-    '''public void updateModel(final FacesContext facesContext)
+    '''returns None\n\n
+    updateModel(final FacesContext facesContext)\n
     '''
 def saveState():
-    '''public Object saveState(final FacesContext facesContext)
+    '''returns Object\n\n
+    saveState(final FacesContext facesContext)\n
     '''
 def restoreState():
-    '''public void restoreState(final FacesContext facesContext, final Object o)
+    '''returns None\n\n
+    restoreState(final FacesContext facesContext, final Object o)\n
     '''

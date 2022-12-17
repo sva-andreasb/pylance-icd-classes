@@ -1,12 +1,16 @@
-def PMCommitSelectedAppletAction():
-    '''public PMCommitSelectedAppletAction()
+def ():
+    '''returns PMCommitSelectedAppletAction\n\n
+    ()\n
     '''
 def processActionResponse():
-    '''public void processActionResponse(final Object responseObject)
+    '''returns None\n\n
+    processActionResponse(final Object responseObject)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Object actionObject)
+    '''returns boolean\n\n
+    isEnabled(final Object actionObject)\n
     '''
 def setAppletActionContext():
-    '''public void setAppletActionContext(final AppletActionContext context)
+    '''returns None\n\n
+    setAppletActionContext(final AppletActionContext context)\n
     '''

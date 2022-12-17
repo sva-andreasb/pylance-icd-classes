@@ -1,21 +1,25 @@
-def HttpContentEncoder():
-    '''public HttpContentEncoder()
+def ():
+    '''returns Result\n\n
+    ()\n
+    (final String targetContentEncoding, final EmbeddedChannel contentEncoder)\n
     '''
 def acceptOutboundMessage():
-    '''public boolean acceptOutboundMessage(final Object msg)
+    '''returns boolean\n\n
+    acceptOutboundMessage(final Object msg)\n
     '''
 def handlerRemoved():
-    '''public void handlerRemoved(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerRemoved(final ChannelHandlerContext ctx)\n
     '''
 def channelInactive():
-    '''public void channelInactive(final ChannelHandlerContext ctx)
-    '''
-def Result():
-    '''public Result(final String targetContentEncoding, final EmbeddedChannel contentEncoder)
+    '''returns None\n\n
+    channelInactive(final ChannelHandlerContext ctx)\n
     '''
 def targetContentEncoding():
-    '''public String targetContentEncoding()
+    '''returns String\n\n
+    targetContentEncoding()\n
     '''
 def contentEncoder():
-    '''public EmbeddedChannel contentEncoder()
+    '''returns EmbeddedChannel\n\n
+    contentEncoder()\n
     '''

@@ -1,20 +1,26 @@
-def JHelpFavoritesNavigator():
-    '''public JHelpFavoritesNavigator(final NavigatorView navigatorView)
-    public JHelpFavoritesNavigator(final NavigatorView navigatorView, final HelpModel helpModel)
-    public JHelpFavoritesNavigator(final HelpSet set, final String s, final String s2, final URL url)
+def ():
+    '''returns JHelpFavoritesNavigator\n\n
+    (final NavigatorView navigatorView)\n
+    (final NavigatorView navigatorView, final HelpModel helpModel)\n
+    (final HelpSet set, final String s, final String s2, final URL url)\n
     '''
 def getUIClassID():
-    '''public String getUIClassID()
+    '''returns String\n\n
+    getUIClassID()\n
     '''
 def canMerge():
-    '''public boolean canMerge(final NavigatorView navigatorView)
+    '''returns boolean\n\n
+    canMerge(final NavigatorView navigatorView)\n
     '''
 def expandID():
-    '''public void expandID(final String newValue)
+    '''returns None\n\n
+    expandID(final String newValue)\n
     '''
 def collapseID():
-    '''public void collapseID(final String newValue)
+    '''returns None\n\n
+    collapseID(final String newValue)\n
     '''
 def getAddAction():
-    '''public Action getAddAction()
+    '''returns Action\n\n
+    getAddAction()\n
     '''

@@ -1,3 +1,4 @@
-def IpcSelectedParts():
-    '''public IpcSelectedParts(final MboSet ms)
+def ():
+    '''returns IpcSelectedParts\n\n
+    (final MboSet ms)\n
     '''

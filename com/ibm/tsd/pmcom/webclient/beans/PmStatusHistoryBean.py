@@ -1,9 +1,8 @@
-def PmStatusHistoryBean():
-    '''public PmStatusHistoryBean()
+def ():
+    '''returns PmStatusHistoryBean\n\n
+    ()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    '''
-def sort():
-    '''public synchronized void sort(final String sOrderByClause)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''

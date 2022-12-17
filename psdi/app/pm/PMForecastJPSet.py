@@ -1,3 +1,4 @@
-def PMForecastJPSet():
-    '''public PMForecastJPSet(final MboServerInterface ms)
+def ():
+    '''returns PMForecastJPSet\n\n
+    (final MboServerInterface ms)\n
     '''

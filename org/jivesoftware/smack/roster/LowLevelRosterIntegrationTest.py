@@ -1,9 +1,12 @@
-def LowLevelRosterIntegrationTest():
-    '''public LowLevelRosterIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns LowLevelRosterIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def testPresenceEventListenersOffline():
-    '''public void testPresenceEventListenersOffline(final XMPPTCPConnection conOne, final XMPPTCPConnection conTwo)
+    '''returns None\n\n
+    testPresenceEventListenersOffline(final XMPPTCPConnection conOne, final XMPPTCPConnection conTwo)\n
     '''
 def presenceUnavailable():
-    '''public void presenceUnavailable(final FullJid jid, final Presence presence)
+    '''returns None\n\n
+    presenceUnavailable(final FullJid jid, final Presence presence)\n
     '''

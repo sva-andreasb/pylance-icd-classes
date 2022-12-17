@@ -1,3 +1,4 @@
-def FldApptBookJobPlanSiteID():
-    '''public FldApptBookJobPlanSiteID(final MboValue mbv)
+def ():
+    '''returns FldApptBookJobPlanSiteID\n\n
+    (final MboValue mbv)\n
     '''

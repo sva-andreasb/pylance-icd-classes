@@ -1,3 +1,4 @@
 def testSchema():
-    '''public void testSchema()
+    '''returns None\n\n
+    testSchema()\n
     '''

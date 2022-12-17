@@ -1,20 +1,26 @@
-def BAAOutputStream():
-    '''public BAAOutputStream()
+def ():
+    '''returns BAAOutputStream\n\n
+    ()\n
     '''
 def write():
-    '''public void write(final byte[] b, int off, final int len)
-    public void write(final byte[] b)
-    public void write(final int b)
+    '''returns None\n\n
+    write(final byte[] b, int off, final int len)\n
+    write(final byte[] b)\n
+    write(final int b)\n
     '''
 def buffers():
-    '''public ArrayList buffers()
+    '''returns ArrayList\n\n
+    buffers()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def receive():
-    '''public long receive(final InputStream is, final long maxRead)
+    '''returns long\n\n
+    receive(final InputStream is, final long maxRead)\n
     '''
 def readFrom():
-    '''public long readFrom(final InputStream is, long maxRead)
+    '''returns long\n\n
+    readFrom(final InputStream is, long maxRead)\n
     '''

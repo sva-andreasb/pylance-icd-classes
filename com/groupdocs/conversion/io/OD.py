@@ -1,12 +1,15 @@
-def OD():
-    '''public OD(final byte[] array)
-    public OD(final String s)
-    public OD(final String s, final long fv)
-    public OD(final byte[] array, final long fv)
+def ():
+    '''returns OD\n\n
+    (final byte[] array)\n
+    (final String s)\n
+    (final String s, final long fv)\n
+    (final byte[] array, final long fv)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

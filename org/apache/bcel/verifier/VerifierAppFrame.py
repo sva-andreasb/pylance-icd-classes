@@ -1,13 +1,16 @@
-def VerifierAppFrame():
-    '''public VerifierAppFrame()
+def ():
+    '''returns VerifierAppFrame\n\n
+    ()\n
     '''
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent e)
-    public void valueChanged(final ListSelectionEvent e)
-    public void valueChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent e)\n
+    valueChanged(final ListSelectionEvent e)\n
+    valueChanged(final ListSelectionEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''

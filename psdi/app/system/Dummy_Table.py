@@ -1,6 +1,8 @@
-def Dummy_Table():
-    '''public Dummy_Table(final MboSet ms)
+def ():
+    '''returns Dummy_Table\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

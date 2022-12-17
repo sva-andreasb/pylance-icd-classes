@@ -1,12 +1,16 @@
-def Datastore():
-    '''public Datastore(final MboSet ms)
+def ():
+    '''returns Datastore\n\n
+    (final MboSet ms)\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote targetSet)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote targetSet)\n
     '''
 def getXML():
-    '''public String getXML()
+    '''returns String\n\n
+    getXML()\n
     '''
 def generateElement():
-    '''public Element generateElement()
+    '''returns Element\n\n
+    generateElement()\n
     '''

@@ -1,35 +1,45 @@
 CONTENT_LENGTH_AUTO = "long  -2L"
 CONTENT_LENGTH_CHUNKED = "long  -1L"
-def EntityEnclosingMethod():
-    '''public EntityEnclosingMethod()
-    public EntityEnclosingMethod(final String uri)
+def ():
+    '''returns EntityEnclosingMethod\n\n
+    ()\n
+    (final String uri)\n
     '''
 def getFollowRedirects():
-    '''public boolean getFollowRedirects()
+    '''returns boolean\n\n
+    getFollowRedirects()\n
     '''
 def setFollowRedirects():
-    '''public void setFollowRedirects(final boolean followRedirects)
+    '''returns None\n\n
+    setFollowRedirects(final boolean followRedirects)\n
     '''
 def setRequestContentLength():
-    '''public void setRequestContentLength(final int length)
-    public void setRequestContentLength(final long length)
+    '''returns None\n\n
+    setRequestContentLength(final int length)\n
+    setRequestContentLength(final long length)\n
     '''
 def getRequestCharSet():
-    '''public String getRequestCharSet()
+    '''returns String\n\n
+    getRequestCharSet()\n
     '''
 def setContentChunked():
-    '''public void setContentChunked(final boolean chunked)
+    '''returns None\n\n
+    setContentChunked(final boolean chunked)\n
     '''
 def setRequestBody():
-    '''public void setRequestBody(final InputStream body)
-    public void setRequestBody(final String body)
+    '''returns None\n\n
+    setRequestBody(final InputStream body)\n
+    setRequestBody(final String body)\n
     '''
 def recycle():
-    '''public void recycle()
+    '''returns None\n\n
+    recycle()\n
     '''
 def getRequestEntity():
-    '''public RequestEntity getRequestEntity()
+    '''returns RequestEntity\n\n
+    getRequestEntity()\n
     '''
 def setRequestEntity():
-    '''public void setRequestEntity(final RequestEntity requestEntity)
+    '''returns None\n\n
+    setRequestEntity(final RequestEntity requestEntity)\n
     '''

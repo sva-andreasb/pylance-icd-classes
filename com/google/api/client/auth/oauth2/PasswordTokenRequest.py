@@ -1,33 +1,36 @@
-def PasswordTokenRequest():
-    '''public PasswordTokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl, final String username, final String password)
+def ():
+    '''returns PasswordTokenRequest\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl, final String username, final String password)\n
     '''
 def setRequestInitializer():
-    '''public PasswordTokenRequest setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''returns PasswordTokenRequest\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def setTokenServerUrl():
-    '''public PasswordTokenRequest setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''returns PasswordTokenRequest\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setScopes():
-    '''public PasswordTokenRequest setScopes(final Collection<String> scopes)
+    '''returns PasswordTokenRequest\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setGrantType():
-    '''public PasswordTokenRequest setGrantType(final String grantType)
+    '''returns PasswordTokenRequest\n\n
+    setGrantType(final String grantType)\n
     '''
 def setClientAuthentication():
-    '''public PasswordTokenRequest setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
-    '''
-def getUsername():
-    '''public final String getUsername()
+    '''returns PasswordTokenRequest\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def setUsername():
-    '''public PasswordTokenRequest setUsername(final String username)
-    '''
-def getPassword():
-    '''public final String getPassword()
+    '''returns PasswordTokenRequest\n\n
+    setUsername(final String username)\n
     '''
 def setPassword():
-    '''public PasswordTokenRequest setPassword(final String password)
+    '''returns PasswordTokenRequest\n\n
+    setPassword(final String password)\n
     '''
 def set():
-    '''public PasswordTokenRequest set(final String fieldName, final Object value)
+    '''returns PasswordTokenRequest\n\n
+    set(final String fieldName, final Object value)\n
     '''

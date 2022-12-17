@@ -1,6 +1,8 @@
-def FldMatRecTransGLAcct():
-    '''public FldMatRecTransGLAcct(final MboValue mbv)
+def ():
+    '''returns FldMatRecTransGLAcct\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

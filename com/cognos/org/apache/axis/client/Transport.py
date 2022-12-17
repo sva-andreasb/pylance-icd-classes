@@ -1,24 +1,28 @@
-def Transport():
-    '''public Transport()
-    '''
-def setupMessageContext():
-    '''public final void setupMessageContext(final MessageContext context, final Call message, final AxisEngine engine)
+def ():
+    '''returns Transport\n\n
+    ()\n
     '''
 def setupMessageContextImpl():
-    '''public void setupMessageContextImpl(final MessageContext context, final Call message, final AxisEngine engine)
+    '''returns None\n\n
+    setupMessageContextImpl(final MessageContext context, final Call message, final AxisEngine engine)\n
     '''
 def processReturnedMessageContext():
-    '''public void processReturnedMessageContext(final MessageContext context)
+    '''returns None\n\n
+    processReturnedMessageContext(final MessageContext context)\n
     '''
 def setTransportName():
-    '''public void setTransportName(final String name)
+    '''returns None\n\n
+    setTransportName(final String name)\n
     '''
 def getTransportName():
-    '''public String getTransportName()
+    '''returns String\n\n
+    getTransportName()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def setUrl():
-    '''public void setUrl(final String url)
+    '''returns None\n\n
+    setUrl(final String url)\n
     '''

@@ -1,225 +1,299 @@
 DEFAULT_STREAM_NAME = "String  \"\u0005DocumentSummaryInformation\""
 def getPropertySetIDMap():
-    '''public PropertyIDMap getPropertySetIDMap()
+    '''returns PropertyIDMap\n\n
+    getPropertySetIDMap()\n
     '''
-def DocumentSummaryInformation():
-    '''public DocumentSummaryInformation()
-    public DocumentSummaryInformation(final PropertySet ps)
-    public DocumentSummaryInformation(final InputStream stream)
+def ():
+    '''returns DocumentSummaryInformation\n\n
+    ()\n
+    (final PropertySet ps)\n
+    (final InputStream stream)\n
     '''
 def getCategory():
-    '''public String getCategory()
+    '''returns String\n\n
+    getCategory()\n
     '''
 def setCategory():
-    '''public void setCategory(final String category)
+    '''returns None\n\n
+    setCategory(final String category)\n
     '''
 def removeCategory():
-    '''public void removeCategory()
+    '''returns None\n\n
+    removeCategory()\n
     '''
 def getPresentationFormat():
-    '''public String getPresentationFormat()
+    '''returns String\n\n
+    getPresentationFormat()\n
     '''
 def setPresentationFormat():
-    '''public void setPresentationFormat(final String presentationFormat)
+    '''returns None\n\n
+    setPresentationFormat(final String presentationFormat)\n
     '''
 def removePresentationFormat():
-    '''public void removePresentationFormat()
+    '''returns None\n\n
+    removePresentationFormat()\n
     '''
 def getByteCount():
-    '''public int getByteCount()
+    '''returns int\n\n
+    getByteCount()\n
     '''
 def setByteCount():
-    '''public void setByteCount(final int byteCount)
+    '''returns None\n\n
+    setByteCount(final int byteCount)\n
     '''
 def removeByteCount():
-    '''public void removeByteCount()
+    '''returns None\n\n
+    removeByteCount()\n
     '''
 def getLineCount():
-    '''public int getLineCount()
+    '''returns int\n\n
+    getLineCount()\n
     '''
 def setLineCount():
-    '''public void setLineCount(final int lineCount)
+    '''returns None\n\n
+    setLineCount(final int lineCount)\n
     '''
 def removeLineCount():
-    '''public void removeLineCount()
+    '''returns None\n\n
+    removeLineCount()\n
     '''
 def getParCount():
-    '''public int getParCount()
+    '''returns int\n\n
+    getParCount()\n
     '''
 def setParCount():
-    '''public void setParCount(final int parCount)
+    '''returns None\n\n
+    setParCount(final int parCount)\n
     '''
 def removeParCount():
-    '''public void removeParCount()
+    '''returns None\n\n
+    removeParCount()\n
     '''
 def getSlideCount():
-    '''public int getSlideCount()
+    '''returns int\n\n
+    getSlideCount()\n
     '''
 def setSlideCount():
-    '''public void setSlideCount(final int slideCount)
+    '''returns None\n\n
+    setSlideCount(final int slideCount)\n
     '''
 def removeSlideCount():
-    '''public void removeSlideCount()
+    '''returns None\n\n
+    removeSlideCount()\n
     '''
 def getNoteCount():
-    '''public int getNoteCount()
+    '''returns int\n\n
+    getNoteCount()\n
     '''
 def setNoteCount():
-    '''public void setNoteCount(final int noteCount)
+    '''returns None\n\n
+    setNoteCount(final int noteCount)\n
     '''
 def removeNoteCount():
-    '''public void removeNoteCount()
+    '''returns None\n\n
+    removeNoteCount()\n
     '''
 def getHiddenCount():
-    '''public int getHiddenCount()
+    '''returns int\n\n
+    getHiddenCount()\n
     '''
 def setHiddenCount():
-    '''public void setHiddenCount(final int hiddenCount)
+    '''returns None\n\n
+    setHiddenCount(final int hiddenCount)\n
     '''
 def removeHiddenCount():
-    '''public void removeHiddenCount()
+    '''returns None\n\n
+    removeHiddenCount()\n
     '''
 def getMMClipCount():
-    '''public int getMMClipCount()
+    '''returns int\n\n
+    getMMClipCount()\n
     '''
 def setMMClipCount():
-    '''public void setMMClipCount(final int mmClipCount)
+    '''returns None\n\n
+    setMMClipCount(final int mmClipCount)\n
     '''
 def removeMMClipCount():
-    '''public void removeMMClipCount()
+    '''returns None\n\n
+    removeMMClipCount()\n
     '''
 def getScale():
-    '''public boolean getScale()
+    '''returns boolean\n\n
+    getScale()\n
     '''
 def setScale():
-    '''public void setScale(final boolean scale)
+    '''returns None\n\n
+    setScale(final boolean scale)\n
     '''
 def removeScale():
-    '''public void removeScale()
+    '''returns None\n\n
+    removeScale()\n
     '''
 def getHeadingPair():
-    '''public byte[] getHeadingPair()
+    '''returns byte[]\n\n
+    getHeadingPair()\n
     '''
 def setHeadingPair():
-    '''public void setHeadingPair(final byte[] headingPair)
+    '''returns None\n\n
+    setHeadingPair(final byte[] headingPair)\n
     '''
 def removeHeadingPair():
-    '''public void removeHeadingPair()
+    '''returns None\n\n
+    removeHeadingPair()\n
     '''
 def getDocparts():
-    '''public byte[] getDocparts()
+    '''returns byte[]\n\n
+    getDocparts()\n
     '''
 def setDocparts():
-    '''public void setDocparts(final byte[] docparts)
+    '''returns None\n\n
+    setDocparts(final byte[] docparts)\n
     '''
 def removeDocparts():
-    '''public void removeDocparts()
+    '''returns None\n\n
+    removeDocparts()\n
     '''
 def getManager():
-    '''public String getManager()
+    '''returns String\n\n
+    getManager()\n
     '''
 def setManager():
-    '''public void setManager(final String manager)
+    '''returns None\n\n
+    setManager(final String manager)\n
     '''
 def removeManager():
-    '''public void removeManager()
+    '''returns None\n\n
+    removeManager()\n
     '''
 def getCompany():
-    '''public String getCompany()
+    '''returns String\n\n
+    getCompany()\n
     '''
 def setCompany():
-    '''public void setCompany(final String company)
+    '''returns None\n\n
+    setCompany(final String company)\n
     '''
 def removeCompany():
-    '''public void removeCompany()
+    '''returns None\n\n
+    removeCompany()\n
     '''
 def getLinksDirty():
-    '''public boolean getLinksDirty()
+    '''returns boolean\n\n
+    getLinksDirty()\n
     '''
 def setLinksDirty():
-    '''public void setLinksDirty(final boolean linksDirty)
+    '''returns None\n\n
+    setLinksDirty(final boolean linksDirty)\n
     '''
 def removeLinksDirty():
-    '''public void removeLinksDirty()
+    '''returns None\n\n
+    removeLinksDirty()\n
     '''
 def getCharCountWithSpaces():
-    '''public int getCharCountWithSpaces()
+    '''returns int\n\n
+    getCharCountWithSpaces()\n
     '''
 def setCharCountWithSpaces():
-    '''public void setCharCountWithSpaces(final int count)
+    '''returns None\n\n
+    setCharCountWithSpaces(final int count)\n
     '''
 def removeCharCountWithSpaces():
-    '''public void removeCharCountWithSpaces()
+    '''returns None\n\n
+    removeCharCountWithSpaces()\n
     '''
 def getHyperlinksChanged():
-    '''public boolean getHyperlinksChanged()
+    '''returns boolean\n\n
+    getHyperlinksChanged()\n
     '''
 def setHyperlinksChanged():
-    '''public void setHyperlinksChanged(final boolean changed)
+    '''returns None\n\n
+    setHyperlinksChanged(final boolean changed)\n
     '''
 def removeHyperlinksChanged():
-    '''public void removeHyperlinksChanged()
+    '''returns None\n\n
+    removeHyperlinksChanged()\n
     '''
 def getApplicationVersion():
-    '''public int getApplicationVersion()
+    '''returns int\n\n
+    getApplicationVersion()\n
     '''
 def setApplicationVersion():
-    '''public void setApplicationVersion(final int version)
+    '''returns None\n\n
+    setApplicationVersion(final int version)\n
     '''
 def removeApplicationVersion():
-    '''public void removeApplicationVersion()
+    '''returns None\n\n
+    removeApplicationVersion()\n
     '''
 def getVBADigitalSignature():
-    '''public byte[] getVBADigitalSignature()
+    '''returns byte[]\n\n
+    getVBADigitalSignature()\n
     '''
 def setVBADigitalSignature():
-    '''public void setVBADigitalSignature(final byte[] signature)
+    '''returns None\n\n
+    setVBADigitalSignature(final byte[] signature)\n
     '''
 def removeVBADigitalSignature():
-    '''public void removeVBADigitalSignature()
+    '''returns None\n\n
+    removeVBADigitalSignature()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setContentType():
-    '''public void setContentType(final String type)
+    '''returns None\n\n
+    setContentType(final String type)\n
     '''
 def removeContentType():
-    '''public void removeContentType()
+    '''returns None\n\n
+    removeContentType()\n
     '''
 def getContentStatus():
-    '''public String getContentStatus()
+    '''returns String\n\n
+    getContentStatus()\n
     '''
 def setContentStatus():
-    '''public void setContentStatus(final String status)
+    '''returns None\n\n
+    setContentStatus(final String status)\n
     '''
 def removeContentStatus():
-    '''public void removeContentStatus()
+    '''returns None\n\n
+    removeContentStatus()\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def setLanguage():
-    '''public void setLanguage(final String language)
+    '''returns None\n\n
+    setLanguage(final String language)\n
     '''
 def removeLanguage():
-    '''public void removeLanguage()
+    '''returns None\n\n
+    removeLanguage()\n
     '''
 def getDocumentVersion():
-    '''public String getDocumentVersion()
+    '''returns String\n\n
+    getDocumentVersion()\n
     '''
 def setDocumentVersion():
-    '''public void setDocumentVersion(final String version)
+    '''returns None\n\n
+    setDocumentVersion(final String version)\n
     '''
 def removeDocumentVersion():
-    '''public void removeDocumentVersion()
+    '''returns None\n\n
+    removeDocumentVersion()\n
     '''
 def getCustomProperties():
-    '''public CustomProperties getCustomProperties()
+    '''returns CustomProperties\n\n
+    getCustomProperties()\n
     '''
 def setCustomProperties():
-    '''public void setCustomProperties(final CustomProperties customProperties)
+    '''returns None\n\n
+    setCustomProperties(final CustomProperties customProperties)\n
     '''
 def removeCustomProperties():
-    '''public void removeCustomProperties()
+    '''returns None\n\n
+    removeCustomProperties()\n
     '''

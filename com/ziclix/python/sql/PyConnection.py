@@ -1,46 +1,56 @@
-def PyConnection():
-    '''public PyConnection(final Connection connection)
+def ():
+    '''returns PyConnection\n\n
+    (final Connection connection)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def classDictInit():
-    '''public static void classDictInit(final PyObject dict)
+    '''returns String\n\n
+    toString()\n
     '''
 def __setattr__():
-    '''public void __setattr__(final String name, final PyObject value)
+    '''returns None\n\n
+    __setattr__(final String name, final PyObject value)\n
     '''
 def __findattr_ex__():
-    '''public PyObject __findattr_ex__(final String name)
+    '''returns PyObject\n\n
+    __findattr_ex__(final String name)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def rollback():
-    '''public void rollback()
+    '''returns None\n\n
+    rollback()\n
     '''
 def nativesql():
-    '''public PyObject nativesql(final PyObject nativeSQL)
+    '''returns PyObject\n\n
+    nativesql(final PyObject nativeSQL)\n
     '''
 def cursor():
-    '''public PyCursor cursor()
-    public PyCursor cursor(final boolean dynamicFetch)
-    public PyCursor cursor(final boolean dynamicFetch, final PyObject rsType, final PyObject rsConcur)
+    '''returns PyCursor\n\n
+    cursor()\n
+    cursor(final boolean dynamicFetch)\n
+    cursor(final boolean dynamicFetch, final PyObject rsType, final PyObject rsConcur)\n
     '''
 def __enter__():
-    '''public PyObject __enter__(final ThreadState ts)
-    public PyObject __enter__()
+    '''returns PyObject\n\n
+    __enter__(final ThreadState ts)\n
+    __enter__()\n
     '''
 def __exit__():
-    '''public boolean __exit__(final ThreadState ts, final PyException exception)
-    public boolean __exit__(final PyObject type, final PyObject value, final PyObject traceback)
+    '''returns boolean\n\n
+    __exit__(final ThreadState ts, final PyException exception)\n
+    __exit__(final PyObject type, final PyObject value, final PyObject traceback)\n
     '''
 def traverse():
-    '''public int traverse(final Visitproc visit, final Object arg)
+    '''returns int\n\n
+    traverse(final Visitproc visit, final Object arg)\n
     '''
 def refersDirectlyTo():
-    '''public boolean refersDirectlyTo(final PyObject ob)
+    '''returns boolean\n\n
+    refersDirectlyTo(final PyObject ob)\n
     '''

@@ -1,15 +1,12 @@
-def Pw():
-    '''public Pw(final OutputStream outputStream)
+def ():
+    '''returns Pw\n\n
+    (final OutputStream outputStream)\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def resetCount():
-    '''public int resetCount()
-    '''
-def getByteCount():
-    '''public synchronized long getByteCount()
-    '''
-def resetByteCount():
-    '''public synchronized long resetByteCount()
+    '''returns int\n\n
+    resetCount()\n
     '''

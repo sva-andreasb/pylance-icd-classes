@@ -1,4 +1,5 @@
-def TransportTimeoutException():
-    '''public TransportTimeoutException()
-    public TransportTimeoutException(final String message)
+def ():
+    '''returns TransportTimeoutException\n\n
+    ()\n
+    (final String message)\n
     '''

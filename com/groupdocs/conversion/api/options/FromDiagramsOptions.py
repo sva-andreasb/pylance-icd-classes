@@ -1,16 +1,21 @@
-def FromDiagramsOptions():
-    '''public FromDiagramsOptions(final FileType sourceFileType)
-    public FromDiagramsOptions(final FileType sourceFileType, final int page)
+def ():
+    '''returns FromDiagramsOptions\n\n
+    (final FileType sourceFileType)\n
+    (final FileType sourceFileType, final int page)\n
     '''
 def getSourceFileType():
-    '''public FileType getSourceFileType()
+    '''returns FileType\n\n
+    getSourceFileType()\n
     '''
 def setSourceFileType():
-    '''public void setSourceFileType(final FileType sourceFileType)
+    '''returns None\n\n
+    setSourceFileType(final FileType sourceFileType)\n
     '''
 def getPage():
-    '''public int getPage()
+    '''returns int\n\n
+    getPage()\n
     '''
 def setPage():
-    '''public void setPage(final int page)
+    '''returns None\n\n
+    setPage(final int page)\n
     '''

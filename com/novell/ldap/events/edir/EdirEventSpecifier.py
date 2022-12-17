@@ -1,13 +1,17 @@
-def EdirEventSpecifier():
-    '''public EdirEventSpecifier(final int n, final int n2)
-    public EdirEventSpecifier(final int eventClassification, final int eventType, final String filter)
+def ():
+    '''returns EdirEventSpecifier\n\n
+    (final int n, final int n2)\n
+    (final int eventClassification, final int eventType, final String filter)\n
     '''
 def getEventclassification():
-    '''public int getEventclassification()
+    '''returns int\n\n
+    getEventclassification()\n
     '''
 def getEventtype():
-    '''public int getEventtype()
+    '''returns int\n\n
+    getEventtype()\n
     '''
 def getFilter():
-    '''public String getFilter()
+    '''returns String\n\n
+    getFilter()\n
     '''

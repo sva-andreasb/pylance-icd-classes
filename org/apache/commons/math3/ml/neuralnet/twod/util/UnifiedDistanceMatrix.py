@@ -1,6 +1,8 @@
-def UnifiedDistanceMatrix():
-    '''public UnifiedDistanceMatrix(final boolean individualDistances, final DistanceMeasure distance)
+def ():
+    '''returns UnifiedDistanceMatrix\n\n
+    (final boolean individualDistances, final DistanceMeasure distance)\n
     '''
 def computeImage():
-    '''public double[][] computeImage(final NeuronSquareMesh2D map)
+    '''returns double[][]\n\n
+    computeImage(final NeuronSquareMesh2D map)\n
     '''

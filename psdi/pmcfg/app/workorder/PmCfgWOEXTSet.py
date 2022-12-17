@@ -1,3 +1,4 @@
-def PmCfgWOEXTSet():
-    '''public PmCfgWOEXTSet(final MboServerInterface ms)
+def ():
+    '''returns PmCfgWOEXTSet\n\n
+    (final MboServerInterface ms)\n
     '''

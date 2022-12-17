@@ -1,9 +1,12 @@
-def DMCronTaskProcess():
-    '''public DMCronTaskProcess()
+def ():
+    '''returns DMCronTaskProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def createMboSet():
-    '''public MboSetRemote createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''returns MboSetRemote\n\n
+    createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)\n
     '''

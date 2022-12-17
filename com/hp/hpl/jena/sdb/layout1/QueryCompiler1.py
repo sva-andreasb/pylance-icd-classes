@@ -1,6 +1,8 @@
-def QueryCompiler1():
-    '''public QueryCompiler1(final SDBRequest request, final EncoderDecoder codec)
+def ():
+    '''returns QueryCompiler1\n\n
+    (final SDBRequest request, final EncoderDecoder codec)\n
     '''
 def createQuadBlockCompiler():
-    '''public QuadBlockCompiler createQuadBlockCompiler()
+    '''returns QuadBlockCompiler\n\n
+    createQuadBlockCompiler()\n
     '''

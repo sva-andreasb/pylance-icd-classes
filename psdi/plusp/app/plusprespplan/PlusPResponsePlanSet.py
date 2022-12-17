@@ -1,12 +1,16 @@
-def PlusPResponsePlanSet():
-    '''public PlusPResponsePlanSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPResponsePlanSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''
 def apply():
-    '''public String[] apply(final MboRemote mboRemote)
+    '''returns String[]\n\n
+    apply(final MboRemote mboRemote)\n
     '''
 def getActiveStatus():
-    '''public String getActiveStatus()
+    '''returns String\n\n
+    getActiveStatus()\n
     '''
 def getWhereClause():
-    '''public String getWhereClause(final MboRemote mr)
+    '''returns String\n\n
+    getWhereClause(final MboRemote mr)\n
     '''

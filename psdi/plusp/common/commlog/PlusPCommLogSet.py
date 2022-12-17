@@ -1,3 +1,4 @@
-def PlusPCommLogSet():
-    '''public PlusPCommLogSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPCommLogSet\n\n
+    (final MboServerInterface arg0)\n
     '''

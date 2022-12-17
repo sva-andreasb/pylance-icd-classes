@@ -1,25 +1,29 @@
-def RuntimeParamAnnos():
-    '''public RuntimeParamAnnos(final byte attrid, final boolean visible, final int nameIdx, final int len, final ConstantPool cpool)
-    public RuntimeParamAnnos(final byte attrid, final boolean visible, final int nameIdx, final int len, final byte[] data, final ConstantPool cpool)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream dos)
+def ():
+    '''returns RuntimeParamAnnos\n\n
+    (final byte attrid, final boolean visible, final int nameIdx, final int len, final ConstantPool cpool)\n
+    (final byte attrid, final boolean visible, final int nameIdx, final int len, final byte[] data, final ConstantPool cpool)\n
     '''
 def copy():
-    '''public Attribute copy(final ConstantPool constant_pool)
+    '''returns Attribute\n\n
+    copy(final ConstantPool constant_pool)\n
     '''
 def getParameterAnnotations():
-    '''public List<AnnotationGen[]> getParameterAnnotations()
+    '''returns List<AnnotationGen[]>\n\n
+    getParameterAnnotations()\n
     '''
 def getAnnotationsOnParameter():
-    '''public AnnotationGen[] getAnnotationsOnParameter(final int parameterIndex)
+    '''returns AnnotationGen[]\n\n
+    getAnnotationsOnParameter(final int parameterIndex)\n
     '''
 def areVisible():
-    '''public boolean areVisible()
+    '''returns boolean\n\n
+    areVisible()\n
     '''
 def isInflated():
-    '''public boolean isInflated()
+    '''returns boolean\n\n
+    isInflated()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

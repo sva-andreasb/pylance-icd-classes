@@ -1,101 +1,84 @@
 NAMESPACE = "String  \"http://jabber.org/protocol/caps\""
 ELEMENT = "String  \"c\""
-def setDefaultEntityNode():
-    '''public static void setDefaultEntityNode(final String entityNode)
-    '''
-def getNodeVersionByJid():
-    '''public static String getNodeVersionByJid(final Jid jid)
-    '''
-def getNodeVerHashByJid():
-    '''public static NodeVerHash getNodeVerHashByJid(final Jid jid)
-    '''
-def getDiscoverInfoByUser():
-    '''public static DiscoverInfo getDiscoverInfoByUser(final Jid user)
-    public DiscoverInfo getDiscoverInfoByUser(final ServiceDiscoveryManager serviceDiscoveryManager, final Jid jid)
-    '''
-def getDiscoveryInfoByNodeVer():
-    '''public static DiscoverInfo getDiscoveryInfoByNodeVer(final String nodeVer)
-    '''
-def setPersistentCache():
-    '''public static void setPersistentCache(final EntityCapsPersistentCache cache)
-    '''
-def setMaxsCacheSizes():
-    '''public static void setMaxsCacheSizes(final int maxJidToNodeVerSize, final int maxCapsCacheSize)
-    '''
-def clearMemoryCache():
-    '''public static void clearMemoryCache()
-    '''
 def connected():
-    '''public void connected(final XMPPConnection connection)
+    '''returns None\n\n
+    connected(final XMPPConnection connection)\n
     '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
     '''
 def presenceUnavailable():
-    '''public void presenceUnavailable(final FullJid from, final Presence presence)
+    '''returns None\n\n
+    presenceUnavailable(final FullJid from, final Presence presence)\n
     '''
 def onEntityCapailitiesChanged():
-    '''public void onEntityCapailitiesChanged()
-    '''
-def getInstanceFor():
-    '''public static synchronized EntityCapsManager getInstanceFor(final XMPPConnection connection)
-    '''
-def enableEntityCaps():
-    '''public synchronized void enableEntityCaps()
-    '''
-def disableEntityCaps():
-    '''public synchronized void disableEntityCaps()
+    '''returns None\n\n
+    onEntityCapailitiesChanged()\n
     '''
 def entityCapsEnabled():
-    '''public boolean entityCapsEnabled()
+    '''returns boolean\n\n
+    entityCapsEnabled()\n
     '''
 def setEntityNode():
-    '''public void setEntityNode(final String entityNode)
-    '''
-def removeUserCapsNode():
-    '''public static void removeUserCapsNode(final Jid user)
+    '''returns None\n\n
+    setEntityNode(final String entityNode)\n
     '''
 def getCapsVersionAndHash():
-    '''public CapsVersionAndHash getCapsVersionAndHash()
+    '''returns CapsVersionAndHash\n\n
+    getCapsVersionAndHash()\n
     '''
 def getLocalNodeVer():
-    '''public String getLocalNodeVer()
+    '''returns String\n\n
+    getLocalNodeVer()\n
     '''
 def areEntityCapsSupported():
-    '''public boolean areEntityCapsSupported(final Jid jid)
+    '''returns boolean\n\n
+    areEntityCapsSupported(final Jid jid)\n
     '''
 def areEntityCapsSupportedByServer():
-    '''public boolean areEntityCapsSupportedByServer()
+    '''returns boolean\n\n
+    areEntityCapsSupportedByServer()\n
     '''
 def getNodeFeatures():
-    '''public List<String> getNodeFeatures()
+    '''returns List<String>\n\n
+    getNodeFeatures()\n
     '''
 def getNodePacketExtensions():
-    '''public List<ExtensionElement> getNodePacketExtensions()
-    '''
-def verifyDiscoverInfoVersion():
-    '''public static boolean verifyDiscoverInfoVersion(final String ver, final String hash, final DiscoverInfo info)
+    '''returns List<ExtensionElement>\n\n
+    getNodePacketExtensions()\n
     '''
 def compare():
-    '''public int compare(final FormField f1, final FormField f2)
+    '''returns int\n\n
+    compare(final FormField f1, final FormField f2)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
+    '''
+def getDiscoverInfoByUser():
+    '''returns DiscoverInfo\n\n
+    getDiscoverInfoByUser(final ServiceDiscoveryManager serviceDiscoveryManager, final Jid jid)\n
     '''
 def getNodeVer():
-    '''public String getNodeVer()
+    '''returns String\n\n
+    getNodeVer()\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''
 def getHash():
-    '''public String getHash()
+    '''returns String\n\n
+    getHash()\n
     '''
 def getVer():
-    '''public String getVer()
+    '''returns String\n\n
+    getVer()\n
     '''

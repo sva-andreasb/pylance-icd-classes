@@ -1,37 +1,49 @@
-def XSLFSlideShow():
-    '''public XSLFSlideShow(final OPCPackage container)
-    public XSLFSlideShow(final String file)
+def ():
+    '''returns XSLFSlideShow\n\n
+    (final OPCPackage container)\n
+    (final String file)\n
     '''
 def getPresentation():
-    '''public CTPresentation getPresentation()
+    '''returns CTPresentation\n\n
+    getPresentation()\n
     '''
 def getSlideReferences():
-    '''public CTSlideIdList getSlideReferences()
+    '''returns CTSlideIdList\n\n
+    getSlideReferences()\n
     '''
 def getSlideMasterReferences():
-    '''public CTSlideMasterIdList getSlideMasterReferences()
+    '''returns CTSlideMasterIdList\n\n
+    getSlideMasterReferences()\n
     '''
 def getSlideMasterPart():
-    '''public PackagePart getSlideMasterPart(final CTSlideMasterIdListEntry master)
+    '''returns PackagePart\n\n
+    getSlideMasterPart(final CTSlideMasterIdListEntry master)\n
     '''
 def getSlideMaster():
-    '''public CTSlideMaster getSlideMaster(final CTSlideMasterIdListEntry master)
+    '''returns CTSlideMaster\n\n
+    getSlideMaster(final CTSlideMasterIdListEntry master)\n
     '''
 def getSlidePart():
-    '''public PackagePart getSlidePart(final CTSlideIdListEntry slide)
+    '''returns PackagePart\n\n
+    getSlidePart(final CTSlideIdListEntry slide)\n
     '''
 def getSlide():
-    '''public CTSlide getSlide(final CTSlideIdListEntry slide)
+    '''returns CTSlide\n\n
+    getSlide(final CTSlideIdListEntry slide)\n
     '''
 def getNodesPart():
-    '''public PackagePart getNodesPart(final CTSlideIdListEntry parentSlide)
+    '''returns PackagePart\n\n
+    getNodesPart(final CTSlideIdListEntry parentSlide)\n
     '''
 def getNotes():
-    '''public CTNotesSlide getNotes(final CTSlideIdListEntry slide)
+    '''returns CTNotesSlide\n\n
+    getNotes(final CTSlideIdListEntry slide)\n
     '''
 def getSlideComments():
-    '''public CTCommentList getSlideComments(final CTSlideIdListEntry slide)
+    '''returns CTCommentList\n\n
+    getSlideComments(final CTSlideIdListEntry slide)\n
     '''
 def getAllEmbedds():
-    '''public List<PackagePart> getAllEmbedds()
+    '''returns List<PackagePart>\n\n
+    getAllEmbedds()\n
     '''

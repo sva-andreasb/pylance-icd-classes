@@ -1,13 +1,17 @@
-def LDAPCompareRequest():
-    '''public LDAPCompareRequest()
-    public LDAPCompareRequest(final String s, final String s2, final byte[] array, final LDAPControl[] array2)
+def ():
+    '''returns LDAPCompareRequest\n\n
+    ()\n
+    (final String s, final String s2, final byte[] array, final LDAPControl[] array2)\n
     '''
 def getAttributeDescription():
-    '''public String getAttributeDescription()
+    '''returns String\n\n
+    getAttributeDescription()\n
     '''
 def getAssertionValue():
-    '''public byte[] getAssertionValue()
+    '''returns byte[]\n\n
+    getAssertionValue()\n
     '''
 def getDN():
-    '''public String getDN()
+    '''returns String\n\n
+    getDN()\n
     '''

@@ -1,21 +1,28 @@
-def BLServiceImpl():
-    '''public BLServiceImpl(final STSession stSession)
+def ():
+    '''returns BLServiceImpl\n\n
+    (final STSession stSession)\n
     '''
 def attrQueried():
-    '''public void attrQueried(final StorageEvent storageEvent)
+    '''returns None\n\n
+    attrQueried(final StorageEvent storageEvent)\n
     '''
 def attrStored():
-    '''public void attrStored(final StorageEvent storageEvent)
+    '''returns None\n\n
+    attrStored(final StorageEvent storageEvent)\n
     '''
 def serviceAvailable():
-    '''public void serviceAvailable(final StorageEvent storageEvent)
+    '''returns None\n\n
+    serviceAvailable(final StorageEvent storageEvent)\n
     '''
 def serviceUnavailable():
-    '''public void serviceUnavailable(final StorageEvent storageEvent)
+    '''returns None\n\n
+    serviceUnavailable(final StorageEvent storageEvent)\n
     '''
 def attrUpdated():
-    '''public void attrUpdated(final StorageEvent storageEvent)
+    '''returns None\n\n
+    attrUpdated(final StorageEvent storageEvent)\n
     '''
 def setBuddyListAttrKey():
-    '''public void setBuddyListAttrKey(final int buddyListAttrKey)
+    '''returns None\n\n
+    setBuddyListAttrKey(final int buddyListAttrKey)\n
     '''

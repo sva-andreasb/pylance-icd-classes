@@ -1,12 +1,16 @@
-def Oc():
-    '''public Oc(final String message, final int amq, final String url)
+def ():
+    '''returns Oc\n\n
+    (final String message, final int amq, final String url)\n
     '''
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

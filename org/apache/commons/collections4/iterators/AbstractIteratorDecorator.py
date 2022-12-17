@@ -1,3 +1,4 @@
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''

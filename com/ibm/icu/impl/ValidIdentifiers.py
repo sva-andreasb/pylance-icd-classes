@@ -1,17 +1,13 @@
-def getData():
-    '''public static Map<Datatype, Map<Datasubtype, ValiditySet>> getData()
-    '''
-def isValid():
-    '''public static Datasubtype isValid(final Datatype datatype, final Set<Datasubtype> datasubtypes, final String code)
-    public static Datasubtype isValid(final Datatype datatype, final Set<Datasubtype> datasubtypes, String code, String value)
-    '''
-def ValiditySet():
-    '''public ValiditySet(final Set<String> plainData, final boolean makeMap)
+def ():
+    '''returns ValiditySet\n\n
+    (final Set<String> plainData, final boolean makeMap)\n
     '''
 def contains():
-    '''public boolean contains(final String code)
-    public boolean contains(final String key, final String value)
+    '''returns boolean\n\n
+    contains(final String code)\n
+    contains(final String key, final String value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

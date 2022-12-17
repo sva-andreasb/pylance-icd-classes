@@ -1,3 +1,4 @@
 def ModifySelectedDays():
-    '''public int ModifySelectedDays()
+    '''returns int\n\n
+    ModifySelectedDays()\n
     '''

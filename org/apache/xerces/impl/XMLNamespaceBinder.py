@@ -1,90 +1,120 @@
-def XMLNamespaceBinder():
-    '''public XMLNamespaceBinder()
+def ():
+    '''returns XMLNamespaceBinder\n\n
+    ()\n
     '''
 def setOnlyPassPrefixMappingEvents():
-    '''public void setOnlyPassPrefixMappingEvents(final boolean fOnlyPassPrefixMappingEvents)
+    '''returns None\n\n
+    setOnlyPassPrefixMappingEvents(final boolean fOnlyPassPrefixMappingEvents)\n
     '''
 def getOnlyPassPrefixMappingEvents():
-    '''public boolean getOnlyPassPrefixMappingEvents()
+    '''returns boolean\n\n
+    getOnlyPassPrefixMappingEvents()\n
     '''
 def reset():
-    '''public void reset(final XMLComponentManager xmlComponentManager)
+    '''returns None\n\n
+    reset(final XMLComponentManager xmlComponentManager)\n
     '''
 def getRecognizedFeatures():
-    '''public String[] getRecognizedFeatures()
+    '''returns String[]\n\n
+    getRecognizedFeatures()\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean b)
+    '''returns None\n\n
+    setFeature(final String s, final boolean b)\n
     '''
 def getRecognizedProperties():
-    '''public String[] getRecognizedProperties()
+    '''returns String[]\n\n
+    getRecognizedProperties()\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getFeatureDefault():
-    '''public Boolean getFeatureDefault(final String anObject)
+    '''returns Boolean\n\n
+    getFeatureDefault(final String anObject)\n
     '''
 def getPropertyDefault():
-    '''public Object getPropertyDefault(final String anObject)
+    '''returns Object\n\n
+    getPropertyDefault(final String anObject)\n
     '''
 def setDocumentHandler():
-    '''public void setDocumentHandler(final XMLDocumentHandler fDocumentHandler)
+    '''returns None\n\n
+    setDocumentHandler(final XMLDocumentHandler fDocumentHandler)\n
     '''
 def getDocumentHandler():
-    '''public XMLDocumentHandler getDocumentHandler()
+    '''returns XMLDocumentHandler\n\n
+    getDocumentHandler()\n
     '''
 def setDocumentSource():
-    '''public void setDocumentSource(final XMLDocumentSource fDocumentSource)
+    '''returns None\n\n
+    setDocumentSource(final XMLDocumentSource fDocumentSource)\n
     '''
 def getDocumentSource():
-    '''public XMLDocumentSource getDocumentSource()
+    '''returns XMLDocumentSource\n\n
+    getDocumentSource()\n
     '''
 def startGeneralEntity():
-    '''public void startGeneralEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)
+    '''returns None\n\n
+    startGeneralEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)\n
     '''
 def textDecl():
-    '''public void textDecl(final String s, final String s2, final Augmentations augmentations)
+    '''returns None\n\n
+    textDecl(final String s, final String s2, final Augmentations augmentations)\n
     '''
 def startDocument():
-    '''public void startDocument(final XMLLocator xmlLocator, final String s, final NamespaceContext fNamespaceContext, final Augmentations augmentations)
+    '''returns None\n\n
+    startDocument(final XMLLocator xmlLocator, final String s, final NamespaceContext fNamespaceContext, final Augmentations augmentations)\n
     '''
 def xmlDecl():
-    '''public void xmlDecl(final String s, final String s2, final String s3, final Augmentations augmentations)
+    '''returns None\n\n
+    xmlDecl(final String s, final String s2, final String s3, final Augmentations augmentations)\n
     '''
 def doctypeDecl():
-    '''public void doctypeDecl(final String s, final String s2, final String s3, final Augmentations augmentations)
+    '''returns None\n\n
+    doctypeDecl(final String s, final String s2, final String s3, final Augmentations augmentations)\n
     '''
 def comment():
-    '''public void comment(final XMLString xmlString, final Augmentations augmentations)
+    '''returns None\n\n
+    comment(final XMLString xmlString, final Augmentations augmentations)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String s, final XMLString xmlString, final Augmentations augmentations)
+    '''returns None\n\n
+    processingInstruction(final String s, final XMLString xmlString, final Augmentations augmentations)\n
     '''
 def startElement():
-    '''public void startElement(final QName qName, final XMLAttributes xmlAttributes, final Augmentations augmentations)
+    '''returns None\n\n
+    startElement(final QName qName, final XMLAttributes xmlAttributes, final Augmentations augmentations)\n
     '''
 def emptyElement():
-    '''public void emptyElement(final QName qName, final XMLAttributes xmlAttributes, final Augmentations augmentations)
+    '''returns None\n\n
+    emptyElement(final QName qName, final XMLAttributes xmlAttributes, final Augmentations augmentations)\n
     '''
 def characters():
-    '''public void characters(final XMLString xmlString, final Augmentations augmentations)
+    '''returns None\n\n
+    characters(final XMLString xmlString, final Augmentations augmentations)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final XMLString xmlString, final Augmentations augmentations)
+    '''returns None\n\n
+    ignorableWhitespace(final XMLString xmlString, final Augmentations augmentations)\n
     '''
 def endElement():
-    '''public void endElement(final QName qName, final Augmentations augmentations)
+    '''returns None\n\n
+    endElement(final QName qName, final Augmentations augmentations)\n
     '''
 def startCDATA():
-    '''public void startCDATA(final Augmentations augmentations)
+    '''returns None\n\n
+    startCDATA(final Augmentations augmentations)\n
     '''
 def endCDATA():
-    '''public void endCDATA(final Augmentations augmentations)
+    '''returns None\n\n
+    endCDATA(final Augmentations augmentations)\n
     '''
 def endDocument():
-    '''public void endDocument(final Augmentations augmentations)
+    '''returns None\n\n
+    endDocument(final Augmentations augmentations)\n
     '''
 def endGeneralEntity():
-    '''public void endGeneralEntity(final String s, final Augmentations augmentations)
+    '''returns None\n\n
+    endGeneralEntity(final String s, final Augmentations augmentations)\n
     '''

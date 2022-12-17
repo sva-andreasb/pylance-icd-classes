@@ -1,246 +1,278 @@
 GLOBAL_VARS = "String  \"globalvars\""
 LOCAL_VARS = "String  \"localvars\""
 def getVariables():
-    '''public ExpressionContext getVariables()
+    '''returns ExpressionContext\n\n
+    getVariables()\n
     '''
 def setLineNum():
-    '''public void setLineNum(final int lineNum)
+    '''returns None\n\n
+    setLineNum(final int lineNum)\n
     '''
 def getLineNum():
-    '''public Integer getLineNum()
+    '''returns Integer\n\n
+    getLineNum()\n
     '''
 def isMBRMode():
-    '''public boolean isMBRMode()
+    '''returns boolean\n\n
+    isMBRMode()\n
     '''
 def setScriptContext():
-    '''public void setScriptContext(final Map<String, Object> context)
-    '''
-def getScriptContext():
-    '''public Map<String, Object> getScriptContext()
+    '''returns None\n\n
+    setScriptContext(final Map<String, Object> context)\n
     '''
 def setGlobalVar():
-    '''public void setGlobalVar(final String varName, final Object value)
+    '''returns None\n\n
+    setGlobalVar(final String varName, final Object value)\n
     '''
 def getGlobalVar():
-    '''public Object getGlobalVar(final String varName)
+    '''returns Object\n\n
+    getGlobalVar(final String varName)\n
     '''
 def hasGlobalVar():
-    '''public boolean hasGlobalVar(final String varName)
+    '''returns boolean\n\n
+    hasGlobalVar(final String varName)\n
     '''
 def setLocalVar():
-    '''public void setLocalVar(final String varName, final Object value)
+    '''returns None\n\n
+    setLocalVar(final String varName, final Object value)\n
     '''
 def getLocalVar():
-    '''public Object getLocalVar(final String varName)
+    '''returns Object\n\n
+    getLocalVar(final String varName)\n
     '''
 def hasLocalVar():
-    '''public boolean hasLocalVar(final String varName)
+    '''returns boolean\n\n
+    hasLocalVar(final String varName)\n
     '''
 def resolveVar():
-    '''public Object resolveVar(final String varName)
+    '''returns Object\n\n
+    resolveVar(final String varName)\n
     '''
-def Expression():
-    '''public Expression(final String expression, final ExpressionContext context)
+def ():
+    '''returns Tokenizer\n\n
+    (final String expression, final ExpressionContext context)\n
+    (final String oper, final int precedence, final boolean leftAssoc)\n
+    (final String input)\n
     '''
 def eval():
-    '''public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final BigDecimal v1, final BigDecimal v2)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval()
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval(final List<BigDecimal> parameters)
-    public BigDecimal eval()
-    public BigDecimal eval()
-    public BigDecimal eval()
-    public BigDecimal eval()
-    public BigDecimal eval()
-    public BigDecimal eval()
-    public BigDecimal eval()
-    public BigDecimal eval()
-    public BigDecimal eval()
+    '''returns BigDecimal\n\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(BigDecimal v1, final BigDecimal v2)\n
+    eval(BigDecimal v1, final BigDecimal v2)\n
+    eval(BigDecimal v1, final BigDecimal v2)\n
+    eval(BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final BigDecimal v1, final BigDecimal v2)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval()\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval(final List<BigDecimal> parameters)\n
+    eval()\n
+    eval()\n
+    eval()\n
+    eval()\n
+    eval()\n
+    eval()\n
+    eval()\n
+    eval()\n
+    eval()\n
     '''
 def lazyEval():
-    '''public LazyNumber lazyEval(final List<LazyNumber> lazyParams)
+    '''returns LazyNumber\n\n
+    lazyEval(final List<LazyNumber> lazyParams)\n
     '''
 def getError():
-    '''public Exception getError()
-    public Exception getError()
-    public Exception getError()
-    public Exception getError()
-    public Exception getError()
-    public Exception getError()
-    public Exception getError()
-    public Exception getError()
-    public Exception getError()
+    '''returns Exception\n\n
+    getError()\n
+    getError()\n
+    getError()\n
+    getError()\n
+    getError()\n
+    getError()\n
+    getError()\n
+    getError()\n
+    getError()\n
     '''
 def findAttributesInExpression():
-    '''public Set<String> findAttributesInExpression()
+    '''returns Set<String>\n\n
+    findAttributesInExpression()\n
     '''
 def validateAttributesInExpression():
-    '''public void validateAttributesInExpression()
+    '''returns None\n\n
+    validateAttributesInExpression()\n
     '''
 def validateEval():
-    '''public BigDecimal validateEval()
+    '''returns BigDecimal\n\n
+    validateEval()\n
     '''
 def evalObjectValue():
-    '''public Object evalObjectValue()
+    '''returns Object\n\n
+    evalObjectValue()\n
     '''
 def setPrecision():
-    '''public Expression setPrecision(final int precision)
+    '''returns Expression\n\n
+    setPrecision(final int precision)\n
     '''
 def setRoundingMode():
-    '''public Expression setRoundingMode(final RoundingMode roundingMode)
+    '''returns Expression\n\n
+    setRoundingMode(final RoundingMode roundingMode)\n
     '''
 def getMathContext():
-    '''public MathContext getMathContext()
+    '''returns MathContext\n\n
+    getMathContext()\n
     '''
 def addOperator():
-    '''public Operator addOperator(final Operator operator)
+    '''returns Operator\n\n
+    addOperator(final Operator operator)\n
     '''
 def addFunction():
-    '''public Function addFunction(final Function function)
+    '''returns Function\n\n
+    addFunction(final Function function)\n
     '''
 def addLazyFunction():
-    '''public LazyFunction addLazyFunction(final LazyFunction function)
+    '''returns LazyFunction\n\n
+    addLazyFunction(final LazyFunction function)\n
     '''
 def setVariable():
-    '''public Expression setVariable(final String variable, final BigDecimal value)
-    public Expression setVariable(final String variable, final String value)
+    '''returns Expression\n\n
+    setVariable(final String variable, final BigDecimal value)\n
+    setVariable(final String variable, final String value)\n
     '''
 def with():
-    '''public Expression with(final String variable, final BigDecimal value)
-    public Expression with(final String variable, final String value)
+    '''returns Expression\n\n
+    with(final String variable, final BigDecimal value)\n
+    with(final String variable, final String value)\n
     '''
 def and():
-    '''public Expression and(final String variable, final String value)
-    public Expression and(final String variable, final BigDecimal value)
+    '''returns Expression\n\n
+    and(final String variable, final String value)\n
+    and(final String variable, final BigDecimal value)\n
     '''
 def getExpressionTokenizer():
-    '''public Iterator<String> getExpressionTokenizer()
+    '''returns Iterator<String>\n\n
+    getExpressionTokenizer()\n
     '''
 def toRPN():
-    '''public String toRPN()
+    '''returns String\n\n
+    toRPN()\n
     '''
 def getCalculatedValue():
-    '''public Map<String, Object> getCalculatedValue()
-    public Object getCalculatedValue(final Object key)
-    '''
-def getExpValue():
-    '''public Map<String, Double> getExpValue()
+    '''returns Object\n\n
+    getCalculatedValue(final Object key)\n
     '''
 def cacheValue():
-    '''public void cacheValue(final String key, final Double value)
+    '''returns None\n\n
+    cacheValue(final String key, final Double value)\n
     '''
 def getCachedValue():
-    '''public Double getCachedValue(final String key)
+    '''returns Double\n\n
+    getCachedValue(final String key)\n
     '''
 def hasCachedValue():
-    '''public boolean hasCachedValue(final String key)
+    '''returns boolean\n\n
+    hasCachedValue(final String key)\n
     '''
 def setAttrFormulaAttrName():
-    '''public void setAttrFormulaAttrName(final String attrName)
+    '''returns None\n\n
+    setAttrFormulaAttrName(final String attrName)\n
     '''
 def getAttrFormulaAttrName():
-    '''public String getAttrFormulaAttrName()
+    '''returns String\n\n
+    getAttrFormulaAttrName()\n
     '''
 def getObjectFormulaInfo():
-    '''public ObjectFormulaInfo getObjectFormulaInfo()
+    '''returns ObjectFormulaInfo\n\n
+    getObjectFormulaInfo()\n
     '''
 def setObjectFormulaInfo():
-    '''public void setObjectFormulaInfo(final ObjectFormulaInfo objectFormulaInfo)
+    '''returns None\n\n
+    setObjectFormulaInfo(final ObjectFormulaInfo objectFormulaInfo)\n
     '''
 def setExpValue():
-    '''public void setExpValue(final String key, final Double value)
-    '''
-def getExpValueMap():
-    '''public Map<String, Double> getExpValueMap()
+    '''returns None\n\n
+    setExpValue(final String key, final Double value)\n
     '''
 def getMetaData():
-    '''public Object getMetaData(final String key)
-    '''
-def getMetaDataMap():
-    '''public Map<String, Object> getMetaDataMap()
+    '''returns Object\n\n
+    getMetaData(final String key)\n
     '''
 def setMetaData():
-    '''public void setMetaData(final String key, final Object value)
-    '''
-def getErrorDataMap():
-    '''public Map<String, Exception> getErrorDataMap()
+    '''returns None\n\n
+    setMetaData(final String key, final Object value)\n
     '''
 def setErrorData():
-    '''public void setErrorData(final String key, final Exception value)
+    '''returns None\n\n
+    setErrorData(final String key, final Exception value)\n
     '''
 def isVar():
-    '''public boolean isVar(final String key)
+    '''returns boolean\n\n
+    isVar(final String key)\n
     '''
 def shouldEval():
-    '''public boolean shouldEval()
-    '''
-def Operator():
-    '''public Operator(final String oper, final int precedence, final boolean leftAssoc)
+    '''returns boolean\n\n
+    shouldEval()\n
     '''
 def getOper():
-    '''public String getOper()
+    '''returns String\n\n
+    getOper()\n
     '''
 def getPrecedence():
-    '''public int getPrecedence()
+    '''returns int\n\n
+    getPrecedence()\n
     '''
 def isLeftAssoc():
-    '''public boolean isLeftAssoc()
-    '''
-def Tokenizer():
-    '''public Tokenizer(final String input)
+    '''returns boolean\n\n
+    isLeftAssoc()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public String next()
+    '''returns String\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getPos():
-    '''public int getPos()
+    '''returns int\n\n
+    getPos()\n
     '''

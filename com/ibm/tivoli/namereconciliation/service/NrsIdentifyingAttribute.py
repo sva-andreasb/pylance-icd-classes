@@ -1,27 +1,36 @@
 def getGUID():
-    '''public byte[] getGUID()
+    '''returns byte[]\n\n
+    getGUID()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def getStandardizedValue():
-    '''public String getStandardizedValue()
+    '''returns String\n\n
+    getStandardizedValue()\n
     '''
 def getOldValue():
-    '''public String getOldValue()
+    '''returns String\n\n
+    getOldValue()\n
     '''
 def setGUID():
-    '''public void setGUID(final byte[] guid)
+    '''returns None\n\n
+    setGUID(final byte[] guid)\n
     '''
 def setAttributeName():
-    '''public void setAttributeName(final String attributeName)
+    '''returns None\n\n
+    setAttributeName(final String attributeName)\n
     '''
 def setStandardizedValue():
-    '''public void setStandardizedValue(final String standardizedValue)
+    '''returns None\n\n
+    setStandardizedValue(final String standardizedValue)\n
     '''
 def setOldValue():
-    '''public void setOldValue(final String oldValue)
+    '''returns None\n\n
+    setOldValue(final String oldValue)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

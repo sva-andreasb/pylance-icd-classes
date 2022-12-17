@@ -1,25 +1,33 @@
-def OMNavigator():
-    '''public OMNavigator()
-    public OMNavigator(final OMNode node)
+def ():
+    '''returns OMNavigator\n\n
+    ()\n
+    (final OMNode node)\n
     '''
 def init():
-    '''public void init(final OMNode node)
+    '''returns None\n\n
+    init(final OMNode node)\n
     '''
 def setDataSourceIsLeaf():
-    '''public void setDataSourceIsLeaf(final boolean value)
+    '''returns None\n\n
+    setDataSourceIsLeaf(final boolean value)\n
     '''
 def next():
-    '''public OMNode next()
+    '''returns OMNode\n\n
+    next()\n
     '''
 def visited():
-    '''public boolean visited()
+    '''returns boolean\n\n
+    visited()\n
     '''
 def step():
-    '''public void step()
+    '''returns None\n\n
+    step()\n
     '''
 def isNavigable():
-    '''public boolean isNavigable()
+    '''returns boolean\n\n
+    isNavigable()\n
     '''
 def isCompleted():
-    '''public boolean isCompleted()
+    '''returns boolean\n\n
+    isCompleted()\n
     '''

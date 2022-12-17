@@ -1,3 +1,4 @@
-def AuthRoleUser():
-    '''public AuthRoleUser(final MboSet ms)
+def ():
+    '''returns AuthRoleUser\n\n
+    (final MboSet ms)\n
     '''

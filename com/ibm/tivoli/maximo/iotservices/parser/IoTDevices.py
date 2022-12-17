@@ -1,12 +1,16 @@
-def IoTDevices():
-    '''public IoTDevices(final Map<String, String> metadata, final JSONObject payload)
+def ():
+    '''returns IoTDevices\n\n
+    (final Map<String, String> metadata, final JSONObject payload)\n
     '''
 def getPayload():
-    '''public JSONObject getPayload()
+    '''returns JSONObject\n\n
+    getPayload()\n
     '''
 def setPayload():
-    '''public void setPayload(final JSONObject payload)
+    '''returns None\n\n
+    setPayload(final JSONObject payload)\n
     '''
 def devices():
-    '''public Object devices()
+    '''returns Object\n\n
+    devices()\n
     '''

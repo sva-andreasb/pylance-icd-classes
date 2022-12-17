@@ -1,42 +1,36 @@
-def STBaseImpl():
-    '''public STBaseImpl(final STSession session)
+def ():
+    '''returns STBaseImpl\n\n
+    (final STSession session)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
-    '''
-def loginByPassword():
-    '''public synchronized boolean loginByPassword(final String s, final String s2, final String s3, final String s4, final ConnectionHandler connectionHandler, final InetAddress ip, final String location)
-    '''
-def loginByToken():
-    '''public synchronized boolean loginByToken(final String s, final String s2, final String s3, final String s4, final ConnectionHandler connectionHandler, final InetAddress ip, final String location)
-    '''
-def loginAsAnon():
-    '''public synchronized boolean loginAsAnon(final String s, final String s2, final String s3, final ConnectionHandler connectionHandler, final InetAddress ip, final String location)
-    '''
-def loginAsServerApp():
-    '''public synchronized boolean loginAsServerApp(final String s, final short n, final String s2, final int[] array)
+    '''returns None\n\n
+    stop()\n
     '''
 def logout():
-    '''public boolean logout()
+    '''returns boolean\n\n
+    logout()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getSession():
-    '''public STSession getSession()
+    '''returns STSession\n\n
+    getSession()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def processSTEvent():
-    '''public void processSTEvent(final STEvent stEvent)
-    '''
-def timerTick():
-    '''public synchronized boolean timerTick()
+    '''returns None\n\n
+    processSTEvent(final STEvent stEvent)\n
     '''

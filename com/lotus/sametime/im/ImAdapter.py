@@ -1,15 +1,20 @@
 def imOpened():
-    '''public void imOpened(final ImEvent imEvent)
+    '''returns None\n\n
+    imOpened(final ImEvent imEvent)\n
     '''
 def openImFailed():
-    '''public void openImFailed(final ImEvent imEvent)
+    '''returns None\n\n
+    openImFailed(final ImEvent imEvent)\n
     '''
 def imClosed():
-    '''public void imClosed(final ImEvent imEvent)
+    '''returns None\n\n
+    imClosed(final ImEvent imEvent)\n
     '''
 def textReceived():
-    '''public void textReceived(final ImEvent imEvent)
+    '''returns None\n\n
+    textReceived(final ImEvent imEvent)\n
     '''
 def dataReceived():
-    '''public void dataReceived(final ImEvent imEvent)
+    '''returns None\n\n
+    dataReceived(final ImEvent imEvent)\n
     '''

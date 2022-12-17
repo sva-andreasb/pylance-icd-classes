@@ -1,35 +1,42 @@
 REPORTNAMEPROP = "String  \"mxe.app.solution.selfsrv.print.reportname\""
 DEFAULTREPORTNAME = "String  \"solutionprint.rptdesign\""
-def SRMSSSolutionDataBean():
-    '''public SRMSSSolutionDataBean()
+def ():
+    '''returns SRMSSSolutionDataBean\n\n
+    ()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def print():
-    '''public void print()
+    '''returns None\n\n
+    print()\n
     '''
 def runreport():
-    '''public void runreport()
+    '''returns None\n\n
+    runreport()\n
     '''
 def createSR():
-    '''public void createSR()
+    '''returns None\n\n
+    createSR()\n
     '''
 def saveCommentsRanking():
-    '''public void saveCommentsRanking()
+    '''returns None\n\n
+    saveCommentsRanking()\n
     '''
 def createNewSR():
-    '''public int createNewSR()
+    '''returns int\n\n
+    createNewSR()\n
     '''
 def openranksolution():
-    '''public void openranksolution()
+    '''returns None\n\n
+    openranksolution()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def saveSolutionsTrack():
-    '''public void saveSolutionsTrack(final long ticketUID)
+    '''returns None\n\n
+    saveSolutionsTrack(final long ticketUID)\n
     '''

@@ -1,12 +1,16 @@
-def FldImportLimit():
-    '''public FldImportLimit(final MboValue mbv)
+def ():
+    '''returns FldImportLimit\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

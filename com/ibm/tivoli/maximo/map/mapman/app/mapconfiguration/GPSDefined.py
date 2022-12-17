@@ -1,7 +1,9 @@
-def GPSDefined():
-    '''public GPSDefined()
-    public GPSDefined(final Double zoomLevel)
+def ():
+    '''returns GPSDefined\n\n
+    ()\n
+    (final Double zoomLevel)\n
     '''
 def getZoomLevel():
-    '''public Double getZoomLevel()
+    '''returns Double\n\n
+    getZoomLevel()\n
     '''

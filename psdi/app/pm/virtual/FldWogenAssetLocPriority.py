@@ -1,6 +1,8 @@
-def FldWogenAssetLocPriority():
-    '''public FldWogenAssetLocPriority(final MboValue mbv)
+def ():
+    '''returns FldWogenAssetLocPriority\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

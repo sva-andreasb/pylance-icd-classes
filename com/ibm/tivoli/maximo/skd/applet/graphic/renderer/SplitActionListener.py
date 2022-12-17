@@ -1,6 +1,8 @@
-def SplitActionListener():
-    '''public SplitActionListener(final IlvReservation reservation)
+def ():
+    '''returns SplitActionListener\n\n
+    (final IlvReservation reservation)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

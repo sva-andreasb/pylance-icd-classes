@@ -1,6 +1,8 @@
-def FldSiteContactGroup():
-    '''public FldSiteContactGroup(final MboValue mbv)
+def ():
+    '''returns FldSiteContactGroup\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

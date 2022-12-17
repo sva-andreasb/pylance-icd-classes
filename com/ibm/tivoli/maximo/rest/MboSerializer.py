@@ -1,21 +1,28 @@
-def MboSerializer():
-    '''public MboSerializer()
+def ():
+    '''returns MboSerializer\n\n
+    ()\n
     '''
 def getLastModified():
-    '''public Date getLastModified(final Resource res)
+    '''returns Date\n\n
+    getLastModified(final Resource res)\n
     '''
 def isRequestNoCache():
-    '''public boolean isRequestNoCache(final ResourceRequest req)
+    '''returns boolean\n\n
+    isRequestNoCache(final ResourceRequest req)\n
     '''
 def getMaxAge():
-    '''public int getMaxAge(final Resource res)
+    '''returns int\n\n
+    getMaxAge(final Resource res)\n
     '''
 def isUseCache():
-    '''public boolean isUseCache(final Resource res, final ResourceRequest req)
+    '''returns boolean\n\n
+    isUseCache(final Resource res, final ResourceRequest req)\n
     '''
 def isResourceCollectionModified():
-    '''public boolean isResourceCollectionModified(final Resource res, final ResourceRequest request)
+    '''returns boolean\n\n
+    isResourceCollectionModified(final Resource res, final ResourceRequest request)\n
     '''
 def serialize():
-    '''public ResourceResponse serialize(final Resource res, final ResourceRequest req)
+    '''returns ResourceResponse\n\n
+    serialize(final Resource res, final ResourceRequest req)\n
     '''

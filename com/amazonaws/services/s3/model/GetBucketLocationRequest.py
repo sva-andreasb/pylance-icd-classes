@@ -1,12 +1,16 @@
-def GetBucketLocationRequest():
-    '''public GetBucketLocationRequest(final String bucketName)
+def ():
+    '''returns GetBucketLocationRequest\n\n
+    (final String bucketName)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public GetBucketLocationRequest withBucketName(final String bucketName)
+    '''returns GetBucketLocationRequest\n\n
+    withBucketName(final String bucketName)\n
     '''

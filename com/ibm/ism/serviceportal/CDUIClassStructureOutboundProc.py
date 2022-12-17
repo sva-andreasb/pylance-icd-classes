@@ -1,6 +1,8 @@
-def CDUIClassStructureOutboundProc():
-    '''public CDUIClassStructureOutboundProc()
+def ():
+    '''returns CDUIClassStructureOutboundProc\n\n
+    ()\n
     '''
 def filterByTicketuid():
-    '''public void filterByTicketuid(final MboSetRemote mboSet, final String ticketuid)
+    '''returns None\n\n
+    filterByTicketuid(final MboSetRemote mboSet, final String ticketuid)\n
     '''

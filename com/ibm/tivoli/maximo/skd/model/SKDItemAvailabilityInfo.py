@@ -1,57 +1,76 @@
-def SKDItemAvailabilityInfo():
-    '''public SKDItemAvailabilityInfo()
+def ():
+    '''returns SKDItemAvailabilityInfo\n\n
+    ()\n
     '''
 def setKeyStr():
-    '''public void setKeyStr(final String str)
+    '''returns None\n\n
+    setKeyStr(final String str)\n
     '''
 def getKeyStr():
-    '''public String getKeyStr()
+    '''returns String\n\n
+    getKeyStr()\n
     '''
 def setLocation():
-    '''public void setLocation(final String str)
+    '''returns None\n\n
+    setLocation(final String str)\n
     '''
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''
 def setLocationSite():
-    '''public void setLocationSite(final String str)
+    '''returns None\n\n
+    setLocationSite(final String str)\n
     '''
 def getLocationSite():
-    '''public String getLocationSite()
+    '''returns String\n\n
+    getLocationSite()\n
     '''
 def setDescription():
-    '''public void setDescription(final String desc)
+    '''returns None\n\n
+    setDescription(final String desc)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setCurrentBalance():
-    '''public void setCurrentBalance(final double qty)
+    '''returns None\n\n
+    setCurrentBalance(final double qty)\n
     '''
 def getCurrentBalance():
-    '''public double getCurrentBalance()
+    '''returns double\n\n
+    getCurrentBalance()\n
     '''
 def setAvailableBalance():
-    '''public void setAvailableBalance(final double qty)
+    '''returns None\n\n
+    setAvailableBalance(final double qty)\n
     '''
 def getAvailableBalance():
-    '''public double getAvailableBalance()
+    '''returns double\n\n
+    getAvailableBalance()\n
     '''
 def setRequestedBalance():
-    '''public void setRequestedBalance(final double qty)
+    '''returns None\n\n
+    setRequestedBalance(final double qty)\n
     '''
 def getRequestedBalance():
-    '''public double getRequestedBalance()
+    '''returns double\n\n
+    getRequestedBalance()\n
     '''
 def setBalanceFlag():
-    '''public void setBalanceFlag(final int i)
+    '''returns None\n\n
+    setBalanceFlag(final int i)\n
     '''
 def getBalanceFlag():
-    '''public int getBalanceFlag()
+    '''returns int\n\n
+    getBalanceFlag()\n
     '''
 def setResType():
-    '''public void setResType(final String restype)
+    '''returns None\n\n
+    setResType(final String restype)\n
     '''
 def getResType():
-    '''public String getResType()
+    '''returns String\n\n
+    getResType()\n
     '''

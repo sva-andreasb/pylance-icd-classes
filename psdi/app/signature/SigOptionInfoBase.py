@@ -1,36 +1,48 @@
 def getSigOptionName():
-    '''public String getSigOptionName()
+    '''returns String\n\n
+    getSigOptionName()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def getAlsoGrants():
-    '''public String getAlsoGrants()
+    '''returns String\n\n
+    getAlsoGrants()\n
     '''
 def getAlsoRevokes():
-    '''public String getAlsoRevokes()
+    '''returns String\n\n
+    getAlsoRevokes()\n
     '''
 def getPrerequisite():
-    '''public String getPrerequisite()
+    '''returns String\n\n
+    getPrerequisite()\n
     '''
 def isEsigEnabled():
-    '''public boolean isEsigEnabled()
+    '''returns boolean\n\n
+    isEsigEnabled()\n
     '''
 def isEsEnabledAsString():
-    '''public String isEsEnabledAsString()
+    '''returns String\n\n
+    isEsEnabledAsString()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getLongDescription():
-    '''public String getLongDescription()
+    '''returns String\n\n
+    getLongDescription()\n
     '''
 def getValue():
-    '''public String getValue(final String in)
+    '''returns String\n\n
+    getValue(final String in)\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

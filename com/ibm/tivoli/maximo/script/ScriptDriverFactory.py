@@ -1,17 +1,14 @@
-def getAllSupportedEngines():
-    '''public Map<String, ScriptEngineInfo> getAllSupportedEngines()
-    '''
-def getInstance():
-    '''public static final ScriptDriverFactory getInstance()
-    '''
 def getScriptDriver():
-    '''public ScriptDriver getScriptDriver(final String scriptName)
-    public ScriptDriver getScriptDriver(final ScriptInfo scriptInfo)
+    '''returns ScriptDriver\n\n
+    getScriptDriver(final String scriptName)\n
+    getScriptDriver(final ScriptInfo scriptInfo)\n
     '''
 def getScriptDriverForLanguage():
-    '''public ScriptDriver getScriptDriverForLanguage(final String scriptLang)
+    '''returns ScriptDriver\n\n
+    getScriptDriverForLanguage(final String scriptLang)\n
     '''
 def releaseDriverResources():
-    '''public void releaseDriverResources()
-    public void releaseDriverResources(final String scriptName)
+    '''returns None\n\n
+    releaseDriverResources()\n
+    releaseDriverResources(final String scriptName)\n
     '''

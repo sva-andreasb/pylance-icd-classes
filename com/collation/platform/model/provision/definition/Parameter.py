@@ -1,0 +1,7 @@
+APPLICATION = "int  3"
+MODULE = "int  4"
+PACKAGE = "int  5"
+TARGET = "int  6"
+QUERY = "int  0"
+LITERAL = "int  1"
+SCRIPT = "int  2"

@@ -1,18 +1,24 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def service():
-    '''public void service(final HttpServletRequest req, final HttpServletResponse res)
+    '''returns None\n\n
+    service(final HttpServletRequest req, final HttpServletResponse res)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def set():
-    '''public void set(final String name, final String value)
+    '''returns None\n\n
+    set(final String name, final String value)\n
     '''
 def getEnvArray():
-    '''public String[] getEnvArray()
+    '''returns String[]\n\n
+    getEnvArray()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

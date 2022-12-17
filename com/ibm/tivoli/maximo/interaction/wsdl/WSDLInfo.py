@@ -1,12 +1,16 @@
-def WSDLInfo():
-    '''public WSDLInfo(final Map<String, ServiceInfo> map, final SchemaTypeSystem compiledScehma)
+def ():
+    '''returns WSDLInfo\n\n
+    (final Map<String, ServiceInfo> map, final SchemaTypeSystem compiledScehma)\n
     '''
 def getServiceInfo():
-    '''public ServiceInfo getServiceInfo(final String serviceName)
+    '''returns ServiceInfo\n\n
+    getServiceInfo(final String serviceName)\n
     '''
 def getAllServices():
-    '''public Collection<ServiceInfo> getAllServices()
+    '''returns Collection<ServiceInfo>\n\n
+    getAllServices()\n
     '''
 def getCompiledSchema():
-    '''public SchemaTypeSystem getCompiledSchema()
+    '''returns SchemaTypeSystem\n\n
+    getCompiledSchema()\n
     '''

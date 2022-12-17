@@ -1,9 +1,12 @@
-def DefaultDescendantSelector():
-    '''public DefaultDescendantSelector(final Selector ancestor, final SimpleSelector simple)
+def ():
+    '''returns DefaultDescendantSelector\n\n
+    (final Selector ancestor, final SimpleSelector simple)\n
     '''
 def getSelectorType():
-    '''public short getSelectorType()
+    '''returns short\n\n
+    getSelectorType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

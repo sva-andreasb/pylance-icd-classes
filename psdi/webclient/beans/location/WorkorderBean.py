@@ -1,6 +1,4 @@
 def initialize():
-    '''public void initialize()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    initialize()\n
     '''

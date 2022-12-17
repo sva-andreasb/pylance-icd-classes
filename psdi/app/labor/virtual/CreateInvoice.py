@@ -1,6 +1,8 @@
-def CreateInvoice():
-    '''public CreateInvoice(final MboSet ms)
+def ():
+    '''returns CreateInvoice\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

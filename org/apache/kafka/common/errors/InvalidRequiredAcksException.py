@@ -1,3 +1,4 @@
-def InvalidRequiredAcksException():
-    '''public InvalidRequiredAcksException(final String message)
+def ():
+    '''returns InvalidRequiredAcksException\n\n
+    (final String message)\n
     '''

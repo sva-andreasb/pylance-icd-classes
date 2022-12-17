@@ -1,6 +1,8 @@
-def TamitMoMoAssetChangeStatus():
-    '''public TamitMoMoAssetChangeStatus(final MboRemote workorder)
+def ():
+    '''returns TamitMoMoAssetChangeStatus\n\n
+    (final MboRemote workorder)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

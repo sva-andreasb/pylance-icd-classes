@@ -1,45 +1,60 @@
-def BasicHandler():
-    '''public BasicHandler()
+def ():
+    '''returns BasicHandler\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def canHandleBlock():
-    '''public boolean canHandleBlock(final QName qname)
+    '''returns boolean\n\n
+    canHandleBlock(final QName qname)\n
     '''
 def onFault():
-    '''public void onFault(final MessageContext msgContext)
+    '''returns None\n\n
+    onFault(final MessageContext msgContext)\n
     '''
 def setOption():
-    '''public void setOption(final String name, final Object value)
+    '''returns None\n\n
+    setOption(final String name, final Object value)\n
     '''
 def setOptionDefault():
-    '''public boolean setOptionDefault(final String name, final Object value)
+    '''returns boolean\n\n
+    setOptionDefault(final String name, final Object value)\n
     '''
 def getOption():
-    '''public Object getOption(final String name)
+    '''returns Object\n\n
+    getOption(final String name)\n
     '''
 def getOptions():
-    '''public Hashtable getOptions()
+    '''returns Hashtable\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final Hashtable opts)
+    '''returns None\n\n
+    setOptions(final Hashtable opts)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDeploymentData():
-    '''public Element getDeploymentData(final Document doc)
+    '''returns Element\n\n
+    getDeploymentData(final Document doc)\n
     '''
 def generateWSDL():
-    '''public void generateWSDL(final MessageContext msgContext)
+    '''returns None\n\n
+    generateWSDL(final MessageContext msgContext)\n
     '''
 def getUnderstoodHeaders():
-    '''public List getUnderstoodHeaders()
+    '''returns List\n\n
+    getUnderstoodHeaders()\n
     '''

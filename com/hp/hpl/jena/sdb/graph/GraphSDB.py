@@ -1,65 +1,86 @@
-def GraphSDB():
-    '''public GraphSDB(final Store store, final String uri)
-    public GraphSDB(final Store store)
-    public GraphSDB(final Store store, Node graphNode)
+def ():
+    '''returns GraphSDB\n\n
+    (final Store store, final String uri)\n
+    (final Store store)\n
+    (final Store store, Node graphNode)\n
     '''
 def getCapabilities():
-    '''public Capabilities getCapabilities()
+    '''returns Capabilities\n\n
+    getCapabilities()\n
     '''
 def handlesLiteralTyping():
-    '''public boolean handlesLiteralTyping()
+    '''returns boolean\n\n
+    handlesLiteralTyping()\n
     '''
 def getStore():
-    '''public Store getStore()
+    '''returns Store\n\n
+    getStore()\n
     '''
 def getConnection():
-    '''public SDBConnection getConnection()
+    '''returns SDBConnection\n\n
+    getConnection()\n
     '''
 def createPrefixMapping():
-    '''public PrefixMapping createPrefixMapping()
+    '''returns PrefixMapping\n\n
+    createPrefixMapping()\n
     '''
 def getBulkLoader():
-    '''public StoreLoader getBulkLoader()
+    '''returns StoreLoader\n\n
+    getBulkLoader()\n
     '''
 def getBulkUpdateHandler():
-    '''public BulkUpdateHandler getBulkUpdateHandler()
+    '''returns BulkUpdateHandler\n\n
+    getBulkUpdateHandler()\n
     '''
 def queryHandler():
-    '''public QueryHandler queryHandler()
+    '''returns QueryHandler\n\n
+    queryHandler()\n
     '''
 def getEventManager():
-    '''public GraphEventManager getEventManager()
+    '''returns GraphEventManager\n\n
+    getEventManager()\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple triple)
+    '''returns None\n\n
+    performAdd(final Triple triple)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple triple)
+    '''returns None\n\n
+    performDelete(final Triple triple)\n
     '''
 def startBulkUpdate():
-    '''public void startBulkUpdate()
+    '''returns None\n\n
+    startBulkUpdate()\n
     '''
 def finishBulkUpdate():
-    '''public void finishBulkUpdate()
+    '''returns None\n\n
+    finishBulkUpdate()\n
     '''
 def getTransactionHandler():
-    '''public TransactionHandler getTransactionHandler()
+    '''returns TransactionHandler\n\n
+    getTransactionHandler()\n
     '''
 def graphBaseSize():
-    '''public int graphBaseSize()
+    '''returns int\n\n
+    graphBaseSize()\n
     '''
 def deleteAll():
-    '''public void deleteAll()
+    '''returns None\n\n
+    deleteAll()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Triple next()
+    '''returns Triple\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

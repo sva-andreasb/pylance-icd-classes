@@ -1,3 +1,4 @@
-def SKDPMFOCost():
-    '''public SKDPMFOCost(final MboSet ms)
+def ():
+    '''returns SKDPMFOCost\n\n
+    (final MboSet ms)\n
     '''

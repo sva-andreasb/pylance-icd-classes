@@ -1,29 +1,37 @@
-def AttList():
-    '''public AttList(final NamedNodeMap attrs, final DOM2Helper dh)
+def ():
+    '''returns AttList\n\n
+    (final NamedNodeMap attrs, final DOM2Helper dh)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getURI():
-    '''public String getURI(final int index)
+    '''returns String\n\n
+    getURI(final int index)\n
     '''
 def getLocalName():
-    '''public String getLocalName(final int index)
+    '''returns String\n\n
+    getLocalName(final int index)\n
     '''
 def getQName():
-    '''public String getQName(final int i)
+    '''returns String\n\n
+    getQName(final int i)\n
     '''
 def getType():
-    '''public String getType(final int i)
-    public String getType(final String name)
-    public String getType(final String uri, final String localName)
+    '''returns String\n\n
+    getType(final int i)\n
+    getType(final String name)\n
+    getType(final String uri, final String localName)\n
     '''
 def getValue():
-    '''public String getValue(final int i)
-    public String getValue(final String name)
-    public String getValue(final String uri, final String localName)
+    '''returns String\n\n
+    getValue(final int i)\n
+    getValue(final String name)\n
+    getValue(final String uri, final String localName)\n
     '''
 def getIndex():
-    '''public int getIndex(final String uri, final String localPart)
-    public int getIndex(final String qName)
+    '''returns int\n\n
+    getIndex(final String uri, final String localPart)\n
+    getIndex(final String qName)\n
     '''

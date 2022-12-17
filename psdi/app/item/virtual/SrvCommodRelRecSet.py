@@ -1,3 +1,4 @@
-def SrvCommodRelRecSet():
-    '''public SrvCommodRelRecSet(final MboServerInterface ms)
+def ():
+    '''returns SrvCommodRelRecSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,13 +1,17 @@
 def receiveFile():
-    '''public InputStream receiveFile()
-    public void receiveFile(final File file)
+    '''returns None\n\n
+    receiveFile()\n
+    receiveFile(final File file)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def call():
-    '''public InputStream call()
+    '''returns InputStream\n\n
+    call()\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''

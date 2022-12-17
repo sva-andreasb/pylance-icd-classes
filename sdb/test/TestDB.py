@@ -1,6 +1,8 @@
-def TestDB():
-    '''public TestDB(final Connection jdbc, final boolean verbose)
+def ():
+    '''returns TestDB\n\n
+    (final Connection jdbc, final boolean verbose)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean newValue)
+    '''returns None\n\n
+    setVerbose(final boolean newValue)\n
     '''

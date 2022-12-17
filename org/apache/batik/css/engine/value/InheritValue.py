@@ -1,9 +1,12 @@
 def getCssText():
-    '''public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
     '''
 def getCssValueType():
-    '''public short getCssValueType()
+    '''returns short\n\n
+    getCssValueType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

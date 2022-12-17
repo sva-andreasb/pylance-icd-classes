@@ -1,3 +1,4 @@
-def PasswordHistorySet():
-    '''public PasswordHistorySet(final MboServerInterface ms)
+def ():
+    '''returns PasswordHistorySet\n\n
+    (final MboServerInterface ms)\n
     '''

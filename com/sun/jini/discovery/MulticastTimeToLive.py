@@ -1,16 +1,21 @@
 MAX_TIME_TO_LIVE = "int  255"
-def MulticastTimeToLive():
-    '''public MulticastTimeToLive(final int ttl)
+def ():
+    '''returns MulticastTimeToLive\n\n
+    (final int ttl)\n
     '''
 def getTimeToLive():
-    '''public int getTimeToLive()
+    '''returns int\n\n
+    getTimeToLive()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

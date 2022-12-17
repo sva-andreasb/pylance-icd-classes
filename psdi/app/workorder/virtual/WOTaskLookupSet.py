@@ -1,3 +1,4 @@
-def WOTaskLookupSet():
-    '''public WOTaskLookupSet(final MboServerInterface ms)
+def ():
+    '''returns WOTaskLookupSet\n\n
+    (final MboServerInterface ms)\n
     '''

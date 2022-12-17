@@ -1,41 +1,53 @@
 def completePendingCommand():
-    '''public boolean completePendingCommand()
+    '''returns boolean\n\n
+    completePendingCommand()\n
     '''
 def login():
-    '''public boolean login(final String hostname)
-    public boolean login()
+    '''returns boolean\n\n
+    login(final String hostname)\n
+    login()\n
     '''
 def setSender():
-    '''public boolean setSender(final RelayPath path)
-    public boolean setSender(final String address)
+    '''returns boolean\n\n
+    setSender(final RelayPath path)\n
+    setSender(final String address)\n
     '''
 def addRecipient():
-    '''public boolean addRecipient(final RelayPath path)
-    public boolean addRecipient(final String address)
+    '''returns boolean\n\n
+    addRecipient(final RelayPath path)\n
+    addRecipient(final String address)\n
     '''
 def sendMessageData():
-    '''public Writer sendMessageData()
+    '''returns Writer\n\n
+    sendMessageData()\n
     '''
 def sendShortMessageData():
-    '''public boolean sendShortMessageData(final String message)
+    '''returns boolean\n\n
+    sendShortMessageData(final String message)\n
     '''
 def sendSimpleMessage():
-    '''public boolean sendSimpleMessage(final String sender, final String recipient, final String message)
-    public boolean sendSimpleMessage(final String sender, final String[] recipients, final String message)
+    '''returns boolean\n\n
+    sendSimpleMessage(final String sender, final String recipient, final String message)\n
+    sendSimpleMessage(final String sender, final String[] recipients, final String message)\n
     '''
 def logout():
-    '''public boolean logout()
+    '''returns boolean\n\n
+    logout()\n
     '''
 def reset():
-    '''public boolean reset()
+    '''returns boolean\n\n
+    reset()\n
     '''
 def verify():
-    '''public boolean verify(final String username)
+    '''returns boolean\n\n
+    verify(final String username)\n
     '''
 def listHelp():
-    '''public String listHelp()
-    public String listHelp(final String command)
+    '''returns String\n\n
+    listHelp()\n
+    listHelp(final String command)\n
     '''
 def sendNoOp():
-    '''public boolean sendNoOp()
+    '''returns boolean\n\n
+    sendNoOp()\n
     '''

@@ -1,33 +1,36 @@
-def getInstanceFor():
-    '''public static synchronized MessageEventManager getInstanceFor(final XMPPConnection connection)
-    '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
-    '''
-def addNotificationsRequests():
-    '''public static void addNotificationsRequests(final Message message, final boolean offline, final boolean delivered, final boolean displayed, final boolean composing)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
     '''
 def addMessageEventRequestListener():
-    '''public void addMessageEventRequestListener(final MessageEventRequestListener messageEventRequestListener)
+    '''returns None\n\n
+    addMessageEventRequestListener(final MessageEventRequestListener messageEventRequestListener)\n
     '''
 def removeMessageEventRequestListener():
-    '''public void removeMessageEventRequestListener(final MessageEventRequestListener messageEventRequestListener)
+    '''returns None\n\n
+    removeMessageEventRequestListener(final MessageEventRequestListener messageEventRequestListener)\n
     '''
 def addMessageEventNotificationListener():
-    '''public void addMessageEventNotificationListener(final MessageEventNotificationListener messageEventNotificationListener)
+    '''returns None\n\n
+    addMessageEventNotificationListener(final MessageEventNotificationListener messageEventNotificationListener)\n
     '''
 def removeMessageEventNotificationListener():
-    '''public void removeMessageEventNotificationListener(final MessageEventNotificationListener messageEventNotificationListener)
+    '''returns None\n\n
+    removeMessageEventNotificationListener(final MessageEventNotificationListener messageEventNotificationListener)\n
     '''
 def sendDeliveredNotification():
-    '''public void sendDeliveredNotification(final Jid to, final String packetID)
+    '''returns None\n\n
+    sendDeliveredNotification(final Jid to, final String packetID)\n
     '''
 def sendDisplayedNotification():
-    '''public void sendDisplayedNotification(final Jid to, final String packetID)
+    '''returns None\n\n
+    sendDisplayedNotification(final Jid to, final String packetID)\n
     '''
 def sendComposingNotification():
-    '''public void sendComposingNotification(final Jid to, final String packetID)
+    '''returns None\n\n
+    sendComposingNotification(final Jid to, final String packetID)\n
     '''
 def sendCancelledNotification():
-    '''public void sendCancelledNotification(final Jid to, final String packetID)
+    '''returns None\n\n
+    sendCancelledNotification(final Jid to, final String packetID)\n
     '''

@@ -1,3 +1,4 @@
-def FldAMCrewLbrPosContractNum():
-    '''public FldAMCrewLbrPosContractNum(final MboValue mbv)
+def ():
+    '''returns FldAMCrewLbrPosContractNum\n\n
+    (final MboValue mbv)\n
     '''

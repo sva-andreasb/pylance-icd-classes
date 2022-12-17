@@ -1,27 +1,36 @@
-def IlvDashboardTabbedPane():
-    '''public IlvDashboardTabbedPane(final IlvDashboardEditor a)
+def ():
+    '''returns IlvDashboardTabbedPane\n\n
+    (final IlvDashboardEditor a)\n
     '''
 def getEditor():
-    '''public IlvDashboardEditor getEditor()
+    '''returns IlvDashboardEditor\n\n
+    getEditor()\n
     '''
 def addDashboardDiagram():
-    '''public void addDashboardDiagram(final IlvDashboardDiagram ilvDashboardDiagram)
+    '''returns None\n\n
+    addDashboardDiagram(final IlvDashboardDiagram ilvDashboardDiagram)\n
     '''
 def removeDashboardDiagram():
-    '''public void removeDashboardDiagram(final IlvDashboardDiagram component)
+    '''returns None\n\n
+    removeDashboardDiagram(final IlvDashboardDiagram component)\n
     '''
 def getSelectedDashboardDiagram():
-    '''public IlvDashboardDiagram getSelectedDashboardDiagram()
+    '''returns IlvDashboardDiagram\n\n
+    getSelectedDashboardDiagram()\n
     '''
 def setSelectedDashboardDiagram():
-    '''public void setSelectedDashboardDiagram(final IlvDashboardDiagram selectedComponent)
+    '''returns None\n\n
+    setSelectedDashboardDiagram(final IlvDashboardDiagram selectedComponent)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''

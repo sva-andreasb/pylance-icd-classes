@@ -1,3 +1,4 @@
-def OwnerHistorySet():
-    '''public OwnerHistorySet(final MboServerInterface ms)
+def ():
+    '''returns OwnerHistorySet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,32 +1,42 @@
-def JavaXNamespaceContext():
-    '''public JavaXNamespaceContext()
-    public JavaXNamespaceContext(final JavaXNamespaceContext javaXNamespaceContext, final boolean b)
+def ():
+    '''returns JavaXNamespaceContext\n\n
+    ()\n
+    (final JavaXNamespaceContext javaXNamespaceContext, final boolean b)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getNamespaceCount():
-    '''public int getNamespaceCount()
+    '''returns int\n\n
+    getNamespaceCount()\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(int n)
+    '''returns String\n\n
+    getNamespacePrefix(int n)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI(int n)
-    public String getNamespaceURI(String intern)
+    '''returns String\n\n
+    getNamespaceURI(int n)\n
+    getNamespaceURI(String intern)\n
     '''
 def startScope():
-    '''public void startScope()
+    '''returns None\n\n
+    startScope()\n
     '''
 def endScope():
-    '''public void endScope()
+    '''returns None\n\n
+    endScope()\n
     '''
 def declareNamespace():
-    '''public void declareNamespace(String intern, String intern2)
+    '''returns None\n\n
+    declareNamespace(String intern, String intern2)\n
     '''
 def getPrefix():
-    '''public String getPrefix(String intern)
+    '''returns String\n\n
+    getPrefix(String intern)\n
     '''
 def getPrefixes():
-    '''public Iterator getPrefixes(String intern)
+    '''returns Iterator\n\n
+    getPrefixes(String intern)\n
     '''

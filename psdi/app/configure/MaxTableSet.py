@@ -1,3 +1,4 @@
-def MaxTableSet():
-    '''public MaxTableSet(final MboServerInterface ms)
+def ():
+    '''returns MaxTableSet\n\n
+    (final MboServerInterface ms)\n
     '''

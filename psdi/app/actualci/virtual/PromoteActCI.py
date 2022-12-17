@@ -1,3 +1,4 @@
-def PromoteActCI():
-    '''public PromoteActCI(final MboSet ms)
+def ():
+    '''returns PromoteActCI\n\n
+    (final MboSet ms)\n
     '''

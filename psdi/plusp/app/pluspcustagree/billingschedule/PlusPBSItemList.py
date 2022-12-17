@@ -1,30 +1,40 @@
-def PlusPBSItemList():
-    '''public PlusPBSItemList(final MboSet set)
+def ():
+    '''returns PlusPBSItemList\n\n
+    (final MboSet set)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def createSalesOrder():
-    '''public MboRemote createSalesOrder(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    createSalesOrder(final MboRemote mboRemote)\n
     '''
 def createGBTrans():
-    '''public MboRemote createGBTrans(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    createGBTrans(final MboRemote mboRemote)\n
     '''
 def determineLocationAction():
-    '''public String[] determineLocationAction(final MboValue mboValue, String s, String string)
+    '''returns String[]\n\n
+    determineLocationAction(final MboValue mboValue, String s, String string)\n
     '''
 def coordinateAssetLocChange():
-    '''public void coordinateAssetLocChange(final MboValue mboValue, final String s, final String val)
+    '''returns None\n\n
+    coordinateAssetLocChange(final MboValue mboValue, final String s, final String val)\n
     '''
 def modifyLocation():
-    '''public void modifyLocation()
+    '''returns None\n\n
+    modifyLocation()\n
     '''
 def determineAssetNumAction():
-    '''public String[] determineAssetNumAction(final MboValue mboValue, String s, String assetForLocation)
+    '''returns String[]\n\n
+    determineAssetNumAction(final MboValue mboValue, String s, String assetForLocation)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

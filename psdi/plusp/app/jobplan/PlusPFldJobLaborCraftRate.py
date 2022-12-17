@@ -1,6 +1,4 @@
-def PlusPFldJobLaborCraftRate():
-    '''public PlusPFldJobLaborCraftRate(final MboValue arg0)
-    '''
-def getVendorCustomerFilterWhere():
-    '''public static String getVendorCustomerFilterWhere()
+def ():
+    '''returns PlusPFldJobLaborCraftRate\n\n
+    (final MboValue arg0)\n
     '''

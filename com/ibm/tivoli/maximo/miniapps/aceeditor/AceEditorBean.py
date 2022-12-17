@@ -1,18 +1,24 @@
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''
 def updateSource():
-    '''public void updateSource(@MXEventParam("source") final String source)
+    '''returns None\n\n
+    updateSource(@MXEventParam("source") final String source)\n
     '''
 def getSource():
-    '''public JSONObject getSource()
+    '''returns JSONObject\n\n
+    getSource()\n
     '''
 def getScriptType():
-    '''public JSONObject getScriptType()
+    '''returns JSONObject\n\n
+    getScriptType()\n
     '''
 def getDataAttribute():
-    '''public String getDataAttribute()
+    '''returns String\n\n
+    getDataAttribute()\n
     '''
 def getPresentationOptions():
-    '''public JSONObject getPresentationOptions()
+    '''returns JSONObject\n\n
+    getPresentationOptions()\n
     '''

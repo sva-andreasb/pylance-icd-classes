@@ -1,55 +1,68 @@
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def firstKey():
-    '''public K firstKey()
+    '''returns K\n\n
+    firstKey()\n
     '''
 def lastKey():
-    '''public K lastKey()
+    '''returns K\n\n
+    lastKey()\n
     '''
 def nextKey():
-    '''public K nextKey(final Object key)
+    '''returns K\n\n
+    nextKey(final Object key)\n
     '''
 def previousKey():
-    '''public K previousKey(final Object key)
-    '''
-def mapIterator():
-    '''public OrderedMapIterator<K, V> mapIterator()
+    '''returns K\n\n
+    previousKey(final Object key)\n
     '''
 def next():
-    '''public K next()
-    public K next()
-    public V next()
+    '''returns V\n\n
+    next()\n
+    next()\n
+    next()\n
     '''
 def previous():
-    '''public K previous()
-    public K previous()
-    public V previous()
+    '''returns V\n\n
+    previous()\n
+    previous()\n
+    previous()\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,6 +1,7 @@
-def AlreadyProcessedException():
-    '''public AlreadyProcessedException()
-    public AlreadyProcessedException(final String msg)
-    public AlreadyProcessedException(final Throwable t)
-    public AlreadyProcessedException(final String msg, final Throwable t)
+def ():
+    '''returns AlreadyProcessedException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable t)\n
+    (final String msg, final Throwable t)\n
     '''

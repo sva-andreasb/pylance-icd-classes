@@ -1,3 +1,4 @@
 def updatecache():
-    '''public int updatecache()
+    '''returns int\n\n
+    updatecache()\n
     '''

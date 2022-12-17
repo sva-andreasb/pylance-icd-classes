@@ -1,6 +1,8 @@
-def ReconResultSet():
-    '''public ReconResultSet(final MboServerInterface ms)
+def ():
+    '''returns ReconResultSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def deleteAll():
-    '''public void deleteAll()
+    '''returns None\n\n
+    deleteAll()\n
     '''

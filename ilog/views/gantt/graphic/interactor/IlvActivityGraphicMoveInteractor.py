@@ -2,39 +2,51 @@ BOTH = "int  0"
 HORIZONTAL = "int  1"
 VERTICAL = "int  2"
 AUTO_DETECT = "int  3"
-def IlvActivityGraphicMoveInteractor():
-    '''public IlvActivityGraphicMoveInteractor(final IlvGanttSelectInteractor a)
+def ():
+    '''returns IlvActivityGraphicMoveInteractor\n\n
+    (final IlvGanttSelectInteractor a)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getMovementAxis():
-    '''public int getMovementAxis()
+    '''returns int\n\n
+    getMovementAxis()\n
     '''
 def setMovementAxis():
-    '''public void setMovementAxis(final int l)
+    '''returns None\n\n
+    setMovementAxis(final int l)\n
     '''
 def isMovementDetectionEnabled():
-    '''public boolean isMovementDetectionEnabled()
+    '''returns boolean\n\n
+    isMovementDetectionEnabled()\n
     '''
 def setMovementDetectionEnabled():
-    '''public void setMovementDetectionEnabled(final boolean b)
+    '''returns None\n\n
+    setMovementDetectionEnabled(final boolean b)\n
     '''
 def isSnapGhostToRowsEnabled():
-    '''public boolean isSnapGhostToRowsEnabled()
+    '''returns boolean\n\n
+    isSnapGhostToRowsEnabled()\n
     '''
 def setSnapGhostToRowsEnabled():
-    '''public void setSnapGhostToRowsEnabled(final boolean g)
+    '''returns None\n\n
+    setSnapGhostToRowsEnabled(final boolean g)\n
     '''
 def getCursor():
-    '''public Cursor getCursor()
+    '''returns Cursor\n\n
+    getCursor()\n
     '''
 def setCursor():
-    '''public void setCursor(final Cursor j)
+    '''returns None\n\n
+    setCursor(final Cursor j)\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def drawGhost():
-    '''public void drawGhost(final Graphics graphics)
+    '''returns None\n\n
+    drawGhost(final Graphics graphics)\n
     '''

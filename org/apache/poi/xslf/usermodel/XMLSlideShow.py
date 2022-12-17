@@ -1,68 +1,85 @@
-def XMLSlideShow():
-    '''public XMLSlideShow()
-    public XMLSlideShow(final OPCPackage pkg)
-    public XMLSlideShow(final InputStream is)
+def ():
+    '''returns XMLSlideShow\n\n
+    ()\n
+    (final OPCPackage pkg)\n
+    (final InputStream is)\n
     '''
 def getAllEmbedds():
-    '''public List<PackagePart> getAllEmbedds()
+    '''returns List<PackagePart>\n\n
+    getAllEmbedds()\n
     '''
 def getPictureData():
-    '''public List<XSLFPictureData> getPictureData()
+    '''returns List<XSLFPictureData>\n\n
+    getPictureData()\n
     '''
 def createSlide():
-    '''public XSLFSlide createSlide(final XSLFSlideLayout layout)
-    public XSLFSlide createSlide()
+    '''returns XSLFSlide\n\n
+    createSlide(final XSLFSlideLayout layout)\n
+    createSlide()\n
     '''
 def getNotesSlide():
-    '''public XSLFNotes getNotesSlide(final XSLFSlide slide)
+    '''returns XSLFNotes\n\n
+    getNotesSlide(final XSLFSlide slide)\n
     '''
 def createNotesMaster():
-    '''public void createNotesMaster()
+    '''returns None\n\n
+    createNotesMaster()\n
     '''
 def getNotesMaster():
-    '''public XSLFNotesMaster getNotesMaster()
+    '''returns XSLFNotesMaster\n\n
+    getNotesMaster()\n
     '''
 def getSlideMasters():
-    '''public List<XSLFSlideMaster> getSlideMasters()
+    '''returns List<XSLFSlideMaster>\n\n
+    getSlideMasters()\n
     '''
 def getSlides():
-    '''public List<XSLFSlide> getSlides()
+    '''returns List<XSLFSlide>\n\n
+    getSlides()\n
     '''
 def getCommentAuthors():
-    '''public XSLFCommentAuthors getCommentAuthors()
+    '''returns XSLFCommentAuthors\n\n
+    getCommentAuthors()\n
     '''
 def setSlideOrder():
-    '''public void setSlideOrder(final XSLFSlide slide, final int newIndex)
+    '''returns None\n\n
+    setSlideOrder(final XSLFSlide slide, final int newIndex)\n
     '''
 def removeSlide():
-    '''public XSLFSlide removeSlide(final int index)
+    '''returns XSLFSlide\n\n
+    removeSlide(final int index)\n
     '''
 def getPageSize():
-    '''public Dimension getPageSize()
+    '''returns Dimension\n\n
+    getPageSize()\n
     '''
 def setPageSize():
-    '''public void setPageSize(final Dimension pgSize)
+    '''returns None\n\n
+    setPageSize(final Dimension pgSize)\n
     '''
 def getCTPresentation():
-    '''public CTPresentation getCTPresentation()
+    '''returns CTPresentation\n\n
+    getCTPresentation()\n
     '''
 def addPicture():
-    '''public XSLFPictureData addPicture(final byte[] pictureData, final PictureData.PictureType format)
-    public XSLFPictureData addPicture(final InputStream is, final PictureData.PictureType format)
-    public XSLFPictureData addPicture(final File pict, final PictureData.PictureType format)
+    '''returns XSLFPictureData\n\n
+    addPicture(final byte[] pictureData, final PictureData.PictureType format)\n
+    addPicture(final InputStream is, final PictureData.PictureType format)\n
+    addPicture(final File pict, final PictureData.PictureType format)\n
     '''
 def findPictureData():
-    '''public XSLFPictureData findPictureData(final byte[] pictureData)
+    '''returns XSLFPictureData\n\n
+    findPictureData(final byte[] pictureData)\n
     '''
 def findLayout():
-    '''public XSLFSlideLayout findLayout(final String name)
+    '''returns XSLFSlideLayout\n\n
+    findLayout(final String name)\n
     '''
 def getTableStyles():
-    '''public XSLFTableStyles getTableStyles()
-    '''
-def createMasterSheet():
-    '''public MasterSheet<XSLFShape, XSLFTextParagraph> createMasterSheet()
+    '''returns XSLFTableStyles\n\n
+    getTableStyles()\n
     '''
 def getResources():
-    '''public Resources getResources()
+    '''returns Resources\n\n
+    getResources()\n
     '''

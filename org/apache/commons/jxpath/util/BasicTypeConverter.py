@@ -1,42 +1,53 @@
 def canConvert():
-    '''public boolean canConvert(final Object object, final Class toType)
+    '''returns boolean\n\n
+    canConvert(final Object object, final Class toType)\n
     '''
 def convert():
-    '''public Object convert(final Object object, final Class toType)
+    '''returns Object\n\n
+    convert(final Object object, final Class toType)\n
     '''
-def ValueNodeSet():
-    '''public ValueNodeSet(final List values)
+def ():
+    '''returns ValuePointer\n\n
+    (final List values)\n
+    (final Object object)\n
     '''
 def getValues():
-    '''public List getValues()
+    '''returns List\n\n
+    getValues()\n
     '''
 def getNodes():
-    '''public List getNodes()
+    '''returns List\n\n
+    getNodes()\n
     '''
 def getPointers():
-    '''public List getPointers()
-    '''
-def ValuePointer():
-    '''public ValuePointer(final Object object)
+    '''returns List\n\n
+    getPointers()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def getNode():
-    '''public Object getNode()
+    '''returns Object\n\n
+    getNode()\n
     '''
 def getRootNode():
-    '''public Object getRootNode()
+    '''returns Object\n\n
+    getRootNode()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object object)
+    '''returns int\n\n
+    compareTo(final Object object)\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''

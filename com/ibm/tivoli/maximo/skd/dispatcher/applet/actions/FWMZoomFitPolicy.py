@@ -1,3 +1,4 @@
 def getInterval():
-    '''public IlvTimeInterval getInterval(final IlvGanttModel model)
+    '''returns IlvTimeInterval\n\n
+    getInterval(final IlvGanttModel model)\n
     '''

@@ -1,17 +1,22 @@
 sid = "short  12"
-def FtCblsSubRecord():
-    '''public FtCblsSubRecord()
-    public FtCblsSubRecord(final LittleEndianInput in, final int size)
+def ():
+    '''returns FtCblsSubRecord\n\n
+    ()\n
+    (final LittleEndianInput in, final int size)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public FtCblsSubRecord clone()
+    '''returns FtCblsSubRecord\n\n
+    clone()\n
     '''

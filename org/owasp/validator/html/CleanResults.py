@@ -1,23 +1,30 @@
-def CleanResults():
-    '''public CleanResults()
-    public CleanResults(final long startOfScan, final String cleanHTML, final DocumentFragment XMLDocumentFragment, final List<String> errorMessages)
-    public CleanResults(final long startOfScan, final Callable<String> cleanHTML, final DocumentFragment XMLDocumentFragment, final List<String> errorMessages)
+def ():
+    '''returns CleanResults\n\n
+    ()\n
+    (final long startOfScan, final String cleanHTML, final DocumentFragment XMLDocumentFragment, final List<String> errorMessages)\n
+    (final long startOfScan, final Callable<String> cleanHTML, final DocumentFragment XMLDocumentFragment, final List<String> errorMessages)\n
     '''
 def call():
-    '''public String call()
+    '''returns String\n\n
+    call()\n
     '''
 def getCleanXMLDocumentFragment():
-    '''public DocumentFragment getCleanXMLDocumentFragment()
+    '''returns DocumentFragment\n\n
+    getCleanXMLDocumentFragment()\n
     '''
 def getCleanHTML():
-    '''public String getCleanHTML()
+    '''returns String\n\n
+    getCleanHTML()\n
     '''
 def getErrorMessages():
-    '''public List<String> getErrorMessages()
+    '''returns List<String>\n\n
+    getErrorMessages()\n
     '''
 def getScanTime():
-    '''public double getScanTime()
+    '''returns double\n\n
+    getScanTime()\n
     '''
 def getNumberOfErrors():
-    '''public int getNumberOfErrors()
+    '''returns int\n\n
+    getNumberOfErrors()\n
     '''

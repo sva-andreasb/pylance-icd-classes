@@ -1,6 +1,8 @@
-def FldSLAAssetLocDescription():
-    '''public FldSLAAssetLocDescription(final MboValue mbv)
+def ():
+    '''returns FldSLAAssetLocDescription\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

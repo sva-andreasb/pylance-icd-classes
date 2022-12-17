@@ -1,24 +1,32 @@
 def getInstances():
-    '''public List<Entity> getInstances(@Context final HttpServletRequest httpServletRequest, @QueryParam("oslc.where") final String where)
+    '''returns List<Entity>\n\n
+    getInstances(@Context final HttpServletRequest httpServletRequest, @QueryParam("oslc.where") final String where)\n
     '''
 def getInstance():
-    '''public Entity getInstance(@Context final HttpServletRequest httpServletRequest, @PathParam("instanceId") final String instanceId)
+    '''returns Entity\n\n
+    getInstance(@Context final HttpServletRequest httpServletRequest, @PathParam("instanceId") final String instanceId)\n
     '''
 def getCompact():
-    '''public Compact getCompact(@Context final HttpServletRequest httpServletRequest, @PathParam("instanceId") final String instanceId)
+    '''returns Compact\n\n
+    getCompact(@Context final HttpServletRequest httpServletRequest, @PathParam("instanceId") final String instanceId)\n
     '''
 def getSmallPreview():
-    '''public void getSmallPreview(@Context final HttpServletRequest httpServletRequest, @Context final HttpServletResponse httpServletResponse, @PathParam("resourceId") final String resourceId)
+    '''returns None\n\n
+    getSmallPreview(@Context final HttpServletRequest httpServletRequest, @Context final HttpServletResponse httpServletResponse, @PathParam("resourceId") final String resourceId)\n
     '''
 def getLargePreview():
-    '''public void getLargePreview(@Context final HttpServletRequest httpServletRequest, @Context final HttpServletResponse httpServletResponse, @PathParam("resourceId") final String resourceId)
+    '''returns None\n\n
+    getLargePreview(@Context final HttpServletRequest httpServletRequest, @Context final HttpServletResponse httpServletResponse, @PathParam("resourceId") final String resourceId)\n
     '''
 def createInstance():
-    '''public Response createInstance(@Context final HttpServletRequest httpServletRequest, final Template instance)
+    '''returns Response\n\n
+    createInstance(@Context final HttpServletRequest httpServletRequest, final Template instance)\n
     '''
 def updateInstance():
-    '''public Response updateInstance(@Context final HttpServletRequest httpServletRequest, @PathParam("instanceId") final String instanceId, final Entity instance)
+    '''returns Response\n\n
+    updateInstance(@Context final HttpServletRequest httpServletRequest, @PathParam("instanceId") final String instanceId, final Entity instance)\n
     '''
 def deleteInstance():
-    '''public void deleteInstance(@Context final HttpServletRequest httpServletRequest, @PathParam("instanceId") final String instanceId)
+    '''returns None\n\n
+    deleteInstance(@Context final HttpServletRequest httpServletRequest, @PathParam("instanceId") final String instanceId)\n
     '''

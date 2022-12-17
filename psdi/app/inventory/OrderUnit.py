@@ -1,3 +1,4 @@
-def OrderUnit():
-    '''public OrderUnit(final MboSet ms)
+def ():
+    '''returns OrderUnit\n\n
+    (final MboSet ms)\n
     '''

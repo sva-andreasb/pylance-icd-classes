@@ -1,33 +1,38 @@
 def getLocator():
-    '''public SourceLocator getLocator()
+    '''returns SourceLocator\n\n
+    getLocator()\n
     '''
 def setLocator():
-    '''public void setLocator(final SourceLocator locator)
+    '''returns None\n\n
+    setLocator(final SourceLocator locator)\n
     '''
 def getException():
-    '''public Throwable getException()
+    '''returns Throwable\n\n
+    getException()\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''
-def initCause():
-    '''public synchronized Throwable initCause(final Throwable containedException)
-    '''
-def TransformerException():
-    '''public TransformerException(final String message)
-    public TransformerException(final Throwable containedException)
-    public TransformerException(final String s, final Throwable containedException)
-    public TransformerException(final String message, final SourceLocator locator)
-    public TransformerException(final String message, final SourceLocator locator, final Throwable containedException)
+def ():
+    '''returns TransformerException\n\n
+    (final String message)\n
+    (final Throwable containedException)\n
+    (final String s, final Throwable containedException)\n
+    (final String message, final SourceLocator locator)\n
+    (final String message, final SourceLocator locator, final Throwable containedException)\n
     '''
 def getMessageAndLocation():
-    '''public String getMessageAndLocation()
+    '''returns String\n\n
+    getMessageAndLocation()\n
     '''
 def getLocationAsString():
-    '''public String getLocationAsString()
+    '''returns String\n\n
+    getLocationAsString()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream out)
-    public void printStackTrace(PrintWriter printWriter)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream out)\n
+    printStackTrace(PrintWriter printWriter)\n
     '''

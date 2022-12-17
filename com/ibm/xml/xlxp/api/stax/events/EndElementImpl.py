@@ -1,14 +1,18 @@
-def EndElementImpl():
-    '''public EndElementImpl(final QName qName, final Location location)
-    public EndElementImpl(final QName qName, final Iterator iterator, final Location location)
-    public EndElementImpl(final QName fName, final List list, final Location location)
+def ():
+    '''returns EndElementImpl\n\n
+    (final QName qName, final Location location)\n
+    (final QName qName, final Iterator iterator, final Location location)\n
+    (final QName fName, final List list, final Location location)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getNamespaces():
-    '''public Iterator getNamespaces()
+    '''returns Iterator\n\n
+    getNamespaces()\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final Writer writer)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final Writer writer)\n
     '''

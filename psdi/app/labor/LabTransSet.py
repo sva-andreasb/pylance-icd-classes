@@ -1,120 +1,159 @@
-def LabTransSet():
-    '''public LabTransSet(final MboServerInterface ms)
+def ():
+    '''returns LabTransSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote mbo)
+    '''returns None\n\n
+    setOwner(final MboRemote mbo)\n
     '''
 def setWork():
-    '''public void setWork(final boolean workActLab)
+    '''returns None\n\n
+    setWork(final boolean workActLab)\n
     '''
 def getWork():
-    '''public boolean getWork()
+    '''returns boolean\n\n
+    getWork()\n
     '''
 def setNonWork():
-    '''public void setNonWork(final boolean nonWorkActLab)
+    '''returns None\n\n
+    setNonWork(final boolean nonWorkActLab)\n
     '''
 def getNonWork():
-    '''public boolean getNonWork()
+    '''returns boolean\n\n
+    getNonWork()\n
     '''
 def setOTRefused():
-    '''public void setOTRefused(final boolean otRefusedActLab)
+    '''returns None\n\n
+    setOTRefused(final boolean otRefusedActLab)\n
     '''
 def getOTRefused():
-    '''public boolean getOTRefused()
+    '''returns boolean\n\n
+    getOTRefused()\n
     '''
 def setUnapproved():
-    '''public void setUnapproved(final boolean unapprovedActLab)
+    '''returns None\n\n
+    setUnapproved(final boolean unapprovedActLab)\n
     '''
 def getUnapproved():
-    '''public boolean getUnapproved()
+    '''returns boolean\n\n
+    getUnapproved()\n
     '''
 def setAllDates():
-    '''public void setAllDates(final boolean allDatesActLab)
+    '''returns None\n\n
+    setAllDates(final boolean allDatesActLab)\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date startDateActLab)
+    '''returns None\n\n
+    setStartDate(final Date startDateActLab)\n
     '''
 def setEndDate():
-    '''public void setEndDate(final Date endDateActLab)
+    '''returns None\n\n
+    setEndDate(final Date endDateActLab)\n
     '''
 def getAllDates():
-    '''public boolean getAllDates()
+    '''returns boolean\n\n
+    getAllDates()\n
     '''
 def getStartDate():
-    '''public Date getStartDate()
+    '''returns Date\n\n
+    getStartDate()\n
     '''
 def getEndDate():
-    '''public Date getEndDate()
+    '''returns Date\n\n
+    getEndDate()\n
     '''
 def addToUserPrefWhere():
-    '''public String addToUserPrefWhere()
+    '''returns String\n\n
+    addToUserPrefWhere()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def addDates():
-    '''public Date addDates(final Date date, final int days)
+    '''returns Date\n\n
+    addDates(final Date date, final int days)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener l)
+    '''returns None\n\n
+    addListener(final MboSetListener l)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener l)
+    '''returns None\n\n
+    removeListener(final MboSetListener l)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote modifiedMbo)\n
     '''
 def startTimer():
-    '''public MboRemote startTimer()
-    public MboRemote startTimer(final Date targetDateTime)
+    '''returns MboRemote\n\n
+    startTimer()\n
+    startTimer(final Date targetDateTime)\n
     '''
 def stopTimer():
-    '''public MboRemote stopTimer()
-    public MboRemote stopTimer(final Date targetStopDate, final boolean noStopTimerPopup)
-    public MboRemote stopTimer(final Date targetStopDate, final Date startDateTime, final boolean noStopTimerPopup)
+    '''returns MboRemote\n\n
+    stopTimer()\n
+    stopTimer(final Date targetStopDate, final boolean noStopTimerPopup)\n
+    stopTimer(final Date targetStopDate, final Date startDateTime, final boolean noStopTimerPopup)\n
     '''
 def setLaborSet():
-    '''public void setLaborSet(final LaborSetRemote assignLaborSet)
+    '''returns None\n\n
+    setLaborSet(final LaborSetRemote assignLaborSet)\n
     '''
 def getLaborSet():
-    '''public LaborSetRemote getLaborSet()
+    '''returns LaborSetRemote\n\n
+    getLaborSet()\n
     '''
 def setCraftSet():
-    '''public void setCraftSet(final LaborSet assignCraftSet)
+    '''returns None\n\n
+    setCraftSet(final LaborSet assignCraftSet)\n
     '''
 def getCraftSet():
-    '''public LaborSet getCraftSet()
+    '''returns LaborSet\n\n
+    getCraftSet()\n
     '''
 def copyPlannedLaborToLabTransSet():
-    '''public void copyPlannedLaborToLabTransSet(final MboSetRemote wmassignmentsSet)
+    '''returns None\n\n
+    copyPlannedLaborToLabTransSet(final MboSetRemote wmassignmentsSet)\n
     '''
 def copyLaborToLabTransSet():
-    '''public void copyLaborToLabTransSet(final MboSetRemote laborSet)
+    '''returns None\n\n
+    copyLaborToLabTransSet(final MboSetRemote laborSet)\n
     '''
 def fromCopyLaborToLabTransSet():
-    '''public boolean fromCopyLaborToLabTransSet()
+    '''returns boolean\n\n
+    fromCopyLaborToLabTransSet()\n
     '''
 def addDeltaHours():
-    '''public void addDeltaHours(final String laborcode, final String orgid, final double reghrs, final double othrs)
+    '''returns None\n\n
+    addDeltaHours(final String laborcode, final String orgid, final double reghrs, final double othrs)\n
     '''
 def transCommitted():
-    '''public void transCommitted()
+    '''returns None\n\n
+    transCommitted()\n
     '''
 def crewLabTrans():
-    '''public MboRemote crewLabTrans(final String laborCode, final String laborOrg, final Date targetDateTime)
+    '''returns MboRemote\n\n
+    crewLabTrans(final String laborCode, final String laborOrg, final Date targetDateTime)\n
     '''
 def activeTimer():
-    '''public boolean activeTimer()
+    '''returns boolean\n\n
+    activeTimer()\n
     '''
 def forceDBSort():
-    '''public boolean forceDBSort(final String attrName)
+    '''returns boolean\n\n
+    forceDBSort(final String attrName)\n
     '''

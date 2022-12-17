@@ -1,16 +1,21 @@
-def WoSafetyPlanSet():
-    '''public WoSafetyPlanSet(final MboServerInterface ms)
+def ():
+    '''returns WoSafetyPlanSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copySafetyPlan():
-    '''public void copySafetyPlan(final String planID)
+    '''returns None\n\n
+    copySafetyPlan(final String planID)\n
     '''
 def clearSafetyPlan():
-    '''public void clearSafetyPlan()
-    public void clearSafetyPlan(final long accessModifier)
+    '''returns None\n\n
+    clearSafetyPlan()\n
+    clearSafetyPlan(final long accessModifier)\n
     '''
 def canClearSafetyPlan():
-    '''public void canClearSafetyPlan()
+    '''returns None\n\n
+    canClearSafetyPlan()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

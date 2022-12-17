@@ -1,26 +1,33 @@
-def HttpConnection():
-    '''public HttpConnection(final String host, final int httpPort, final long n)
-    public HttpConnection(final int n, final long n2)
-    public HttpConnection(final URL hostUrl, final long n)
-    public HttpConnection(final String host, final int httpPort, final long n, final String proxyHost, final int proxyPort)
-    public HttpConnection(final int n, final long n2, final String s, final int n3)
-    public HttpConnection(final URL hostUrl, final long n, final String proxyHost, final int proxyPort)
+def ():
+    '''returns HttpConnection\n\n
+    (final String host, final int httpPort, final long n)\n
+    (final int n, final long n2)\n
+    (final URL hostUrl, final long n)\n
+    (final String host, final int httpPort, final long n, final String proxyHost, final int proxyPort)\n
+    (final int n, final long n2, final String s, final int n3)\n
+    (final URL hostUrl, final long n, final String proxyHost, final int proxyPort)\n
     '''
 def getHostUrl():
-    '''public URL getHostUrl()
+    '''returns URL\n\n
+    getHostUrl()\n
     '''
 def getHttpPort():
-    '''public int getHttpPort()
+    '''returns int\n\n
+    getHttpPort()\n
     '''
 def getProxyServer():
-    '''public String getProxyServer()
+    '''returns String\n\n
+    getProxyServer()\n
     '''
 def getProxyPort():
-    '''public int getProxyPort()
+    '''returns int\n\n
+    getProxyPort()\n
     '''
 def isOurOwnConnection():
-    '''public boolean isOurOwnConnection()
+    '''returns boolean\n\n
+    isOurOwnConnection()\n
     '''
 def getConnectionInfo():
-    '''public ConnectionInfo getConnectionInfo()
+    '''returns ConnectionInfo\n\n
+    getConnectionInfo()\n
     '''

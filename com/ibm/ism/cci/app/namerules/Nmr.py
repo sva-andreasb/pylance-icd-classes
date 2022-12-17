@@ -1,13 +1,17 @@
 REL_GET_ATTRIBUTES_FOR_A_NAMINGRULE = "String  \"NMRATTR\""
-def Nmr():
-    '''public Nmr(final MboSet ms)
+def ():
+    '''returns Nmr\n\n
+    (final MboSet ms)\n
     '''
 def getNMRAttributes():
-    '''public MboSetRemote getNMRAttributes()
+    '''returns MboSetRemote\n\n
+    getNMRAttributes()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

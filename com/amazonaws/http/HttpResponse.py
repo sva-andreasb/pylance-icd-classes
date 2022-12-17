@@ -1,30 +1,36 @@
-def HttpResponse():
-    '''public HttpResponse(final Request<?> request, final HttpRequestBase httpRequest)
+def ():
+    '''returns HttpResponse\n\n
+    (final Request<?> request, final HttpRequestBase httpRequest)\n
     '''
 def getHttpRequest():
-    '''public HttpRequestBase getHttpRequest()
-    '''
-def getHeaders():
-    '''public Map<String, String> getHeaders()
+    '''returns HttpRequestBase\n\n
+    getHttpRequest()\n
     '''
 def addHeader():
-    '''public void addHeader(final String name, final String value)
+    '''returns None\n\n
+    addHeader(final String name, final String value)\n
     '''
 def setContent():
-    '''public void setContent(final InputStream content)
+    '''returns None\n\n
+    setContent(final InputStream content)\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def setStatusText():
-    '''public void setStatusText(final String statusText)
+    '''returns None\n\n
+    setStatusText(final String statusText)\n
     '''
 def getStatusText():
-    '''public String getStatusText()
+    '''returns String\n\n
+    getStatusText()\n
     '''
 def setStatusCode():
-    '''public void setStatusCode(final int statusCode)
+    '''returns None\n\n
+    setStatusCode(final int statusCode)\n
     '''
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''

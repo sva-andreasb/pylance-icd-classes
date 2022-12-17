@@ -1,73 +1,97 @@
 def createXPath():
-    '''public XPathExpr createXPath(final Expr rootExpr)
+    '''returns XPathExpr\n\n
+    createXPath(final Expr rootExpr)\n
     '''
 def createPathExpr():
-    '''public PathExpr createPathExpr(final FilterExpr filterExpr, final LocationPath locationPath)
+    '''returns PathExpr\n\n
+    createPathExpr(final FilterExpr filterExpr, final LocationPath locationPath)\n
     '''
 def createRelativeLocationPath():
-    '''public LocationPath createRelativeLocationPath()
+    '''returns LocationPath\n\n
+    createRelativeLocationPath()\n
     '''
 def createAbsoluteLocationPath():
-    '''public LocationPath createAbsoluteLocationPath()
+    '''returns LocationPath\n\n
+    createAbsoluteLocationPath()\n
     '''
 def createOrExpr():
-    '''public BinaryExpr createOrExpr(final Expr lhs, final Expr rhs)
+    '''returns BinaryExpr\n\n
+    createOrExpr(final Expr lhs, final Expr rhs)\n
     '''
 def createAndExpr():
-    '''public BinaryExpr createAndExpr(final Expr lhs, final Expr rhs)
+    '''returns BinaryExpr\n\n
+    createAndExpr(final Expr lhs, final Expr rhs)\n
     '''
 def createEqualityExpr():
-    '''public BinaryExpr createEqualityExpr(final Expr lhs, final Expr rhs, final int equalityOperator)
+    '''returns BinaryExpr\n\n
+    createEqualityExpr(final Expr lhs, final Expr rhs, final int equalityOperator)\n
     '''
 def createRelationalExpr():
-    '''public BinaryExpr createRelationalExpr(final Expr lhs, final Expr rhs, final int relationalOperator)
+    '''returns BinaryExpr\n\n
+    createRelationalExpr(final Expr lhs, final Expr rhs, final int relationalOperator)\n
     '''
 def createAdditiveExpr():
-    '''public BinaryExpr createAdditiveExpr(final Expr lhs, final Expr rhs, final int additiveOperator)
+    '''returns BinaryExpr\n\n
+    createAdditiveExpr(final Expr lhs, final Expr rhs, final int additiveOperator)\n
     '''
 def createMultiplicativeExpr():
-    '''public BinaryExpr createMultiplicativeExpr(final Expr lhs, final Expr rhs, final int multiplicativeOperator)
+    '''returns BinaryExpr\n\n
+    createMultiplicativeExpr(final Expr lhs, final Expr rhs, final int multiplicativeOperator)\n
     '''
 def createUnaryExpr():
-    '''public Expr createUnaryExpr(final Expr expr, final int unaryOperator)
+    '''returns Expr\n\n
+    createUnaryExpr(final Expr expr, final int unaryOperator)\n
     '''
 def createUnionExpr():
-    '''public UnionExpr createUnionExpr(final Expr lhs, final Expr rhs)
+    '''returns UnionExpr\n\n
+    createUnionExpr(final Expr lhs, final Expr rhs)\n
     '''
 def createFilterExpr():
-    '''public FilterExpr createFilterExpr(final Expr expr)
+    '''returns FilterExpr\n\n
+    createFilterExpr(final Expr expr)\n
     '''
 def createFunctionCallExpr():
-    '''public FunctionCallExpr createFunctionCallExpr(final String prefix, final String functionName)
+    '''returns FunctionCallExpr\n\n
+    createFunctionCallExpr(final String prefix, final String functionName)\n
     '''
 def createNumberExpr():
-    '''public NumberExpr createNumberExpr(final int number)
-    public NumberExpr createNumberExpr(final double number)
+    '''returns NumberExpr\n\n
+    createNumberExpr(final int number)\n
+    createNumberExpr(final double number)\n
     '''
 def createLiteralExpr():
-    '''public LiteralExpr createLiteralExpr(final String literal)
+    '''returns LiteralExpr\n\n
+    createLiteralExpr(final String literal)\n
     '''
 def createVariableReferenceExpr():
-    '''public VariableReferenceExpr createVariableReferenceExpr(final String prefix, final String variable)
+    '''returns VariableReferenceExpr\n\n
+    createVariableReferenceExpr(final String prefix, final String variable)\n
     '''
 def createNameStep():
-    '''public Step createNameStep(final int axis, final String prefix, final String localName)
+    '''returns Step\n\n
+    createNameStep(final int axis, final String prefix, final String localName)\n
     '''
 def createTextNodeStep():
-    '''public Step createTextNodeStep(final int axis)
+    '''returns Step\n\n
+    createTextNodeStep(final int axis)\n
     '''
 def createCommentNodeStep():
-    '''public Step createCommentNodeStep(final int axis)
+    '''returns Step\n\n
+    createCommentNodeStep(final int axis)\n
     '''
 def createAllNodeStep():
-    '''public Step createAllNodeStep(final int axis)
+    '''returns Step\n\n
+    createAllNodeStep(final int axis)\n
     '''
 def createProcessingInstructionNodeStep():
-    '''public Step createProcessingInstructionNodeStep(final int axis, final String piName)
+    '''returns Step\n\n
+    createProcessingInstructionNodeStep(final int axis, final String piName)\n
     '''
 def createPredicate():
-    '''public Predicate createPredicate(final Expr predicateExpr)
+    '''returns Predicate\n\n
+    createPredicate(final Expr predicateExpr)\n
     '''
 def createPredicateSet():
-    '''public PredicateSet createPredicateSet()
+    '''returns PredicateSet\n\n
+    createPredicateSet()\n
     '''

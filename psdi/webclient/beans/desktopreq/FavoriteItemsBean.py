@@ -1,9 +1,12 @@
 def instantdelete():
-    '''public int instantdelete()
+    '''returns int\n\n
+    instantdelete()\n
     '''
 def itemavail():
-    '''public int itemavail()
+    '''returns int\n\n
+    itemavail()\n
     '''
 def addfromfav():
-    '''public int addfromfav()
+    '''returns int\n\n
+    addfromfav()\n
     '''

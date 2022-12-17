@@ -1,6 +1,8 @@
-def FldPersonGroup():
-    '''public FldPersonGroup(final MboValue mbv)
+def ():
+    '''returns FldPersonGroup\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

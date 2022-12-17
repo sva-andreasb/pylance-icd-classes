@@ -1,4 +1,5 @@
-def IlvAxisTransformerException():
-    '''public IlvAxisTransformerException()
-    public IlvAxisTransformerException(final String message)
+def ():
+    '''returns IlvAxisTransformerException\n\n
+    ()\n
+    (final String message)\n
     '''

@@ -1,15 +1,20 @@
 def getAttributes():
-    '''public Hashtable getAttributes()
+    '''returns Hashtable\n\n
+    getAttributes()\n
     '''
 def getStatus():
-    '''public STUserStatus getStatus()
+    '''returns STUserStatus\n\n
+    getStatus()\n
     '''
 def getGroup():
-    '''public STGroup getGroup()
+    '''returns STGroup\n\n
+    getGroup()\n
     '''
 def getIconUrl():
-    '''public String getIconUrl()
+    '''returns String\n\n
+    getIconUrl()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

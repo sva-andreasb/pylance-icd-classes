@@ -1,6 +1,8 @@
-def PmChgFldWOAssetNum():
-    '''public PmChgFldWOAssetNum(final MboValue mbv)
+def ():
+    '''returns PmChgFldWOAssetNum\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

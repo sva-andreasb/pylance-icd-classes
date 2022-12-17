@@ -1,3 +1,4 @@
-def CCIClassUseWithSet():
-    '''public CCIClassUseWithSet(final MboServerInterface ms)
+def ():
+    '''returns CCIClassUseWithSet\n\n
+    (final MboServerInterface ms)\n
     '''

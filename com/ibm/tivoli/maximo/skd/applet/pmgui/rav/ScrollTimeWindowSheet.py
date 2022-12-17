@@ -1,102 +1,133 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def ScrollTimeWindowSheet():
-    '''public ScrollTimeWindowSheet()
-    public ScrollTimeWindowSheet(final JLabel title)
-    public ScrollTimeWindowSheet(final JLabel title, final IlvTimeScale scale)
-    public ScrollTimeWindowSheet(final IlvTimeScale scale, final IlvTimeScrollBar scroll)
-    public ScrollTimeWindowSheet(final boolean noTimeScrollBar, final boolean timeScaleAtBottom)
+def ():
+    '''returns ScrollTimeWindowSheet\n\n
+    ()\n
+    (final JLabel title)\n
+    (final JLabel title, final IlvTimeScale scale)\n
+    (final IlvTimeScale scale, final IlvTimeScrollBar scroll)\n
+    (final boolean noTimeScrollBar, final boolean timeScaleAtBottom)\n
     '''
 def addTimeScrollListener():
-    '''public void addTimeScrollListener(final TimeScrollListener l)
+    '''returns None\n\n
+    addTimeScrollListener(final TimeScrollListener l)\n
     '''
 def getMaxVisibleTime():
-    '''public Date getMaxVisibleTime()
+    '''returns Date\n\n
+    getMaxVisibleTime()\n
     '''
 def getMinVisibleDuration():
-    '''public IlvDuration getMinVisibleDuration()
+    '''returns IlvDuration\n\n
+    getMinVisibleDuration()\n
     '''
 def getTitle():
-    '''public JLabel getTitle()
+    '''returns JLabel\n\n
+    getTitle()\n
     '''
 def getTimeScale():
-    '''public IlvTimeScale getTimeScale()
+    '''returns IlvTimeScale\n\n
+    getTimeScale()\n
     '''
 def getTimeScrollBar():
-    '''public IlvTimeScrollBar getTimeScrollBar()
+    '''returns IlvTimeScrollBar\n\n
+    getTimeScrollBar()\n
     '''
 def getTimeWindowSheet():
-    '''public TimeWindowSheet getTimeWindowSheet()
+    '''returns TimeWindowSheet\n\n
+    getTimeWindowSheet()\n
     '''
 def getMinVisibleTime():
-    '''public Date getMinVisibleTime()
+    '''returns Date\n\n
+    getMinVisibleTime()\n
     '''
 def getVisibleDuration():
-    '''public IlvDuration getVisibleDuration()
+    '''returns IlvDuration\n\n
+    getVisibleDuration()\n
     '''
 def getVisibleInterval():
-    '''public IlvTimeInterval getVisibleInterval()
+    '''returns IlvTimeInterval\n\n
+    getVisibleInterval()\n
     '''
 def getVisibleTime():
-    '''public Date getVisibleTime()
+    '''returns Date\n\n
+    getVisibleTime()\n
     '''
 def removeTimeScrollListener():
-    '''public void removeTimeScrollListener(final TimeScrollListener l)
+    '''returns None\n\n
+    removeTimeScrollListener(final TimeScrollListener l)\n
     '''
 def setMaxVisibleTime():
-    '''public void setMaxVisibleTime(final Date arg0)
+    '''returns None\n\n
+    setMaxVisibleTime(final Date arg0)\n
     '''
 def setMinVisibleDuration():
-    '''public void setMinVisibleDuration(final IlvDuration arg0)
+    '''returns None\n\n
+    setMinVisibleDuration(final IlvDuration arg0)\n
     '''
 def setMinVisibleTime():
-    '''public void setMinVisibleTime(final Date arg0)
+    '''returns None\n\n
+    setMinVisibleTime(final Date arg0)\n
     '''
 def setVisibleDuration():
-    '''public void setVisibleDuration(final IlvDuration arg0)
+    '''returns None\n\n
+    setVisibleDuration(final IlvDuration arg0)\n
     '''
 def setVisibleInterval():
-    '''public void setVisibleInterval(final Date arg0, final IlvDuration arg1)
+    '''returns None\n\n
+    setVisibleInterval(final Date arg0, final IlvDuration arg1)\n
     '''
 def setVisibleTime():
-    '''public void setVisibleTime(final Date arg0)
+    '''returns None\n\n
+    setVisibleTime(final Date arg0)\n
     '''
 def addVerticalScrollListener():
-    '''public void addVerticalScrollListener(final VerticalScrollListener l)
+    '''returns None\n\n
+    addVerticalScrollListener(final VerticalScrollListener l)\n
     '''
 def getMaxVerticalPosition():
-    '''public int getMaxVerticalPosition()
+    '''returns int\n\n
+    getMaxVerticalPosition()\n
     '''
 def getVerticalExtent():
-    '''public int getVerticalExtent()
+    '''returns int\n\n
+    getVerticalExtent()\n
     '''
 def getVerticalPosition():
-    '''public int getVerticalPosition()
+    '''returns int\n\n
+    getVerticalPosition()\n
     '''
 def removeVerticalScrollListener():
-    '''public void removeVerticalScrollListener(final VerticalScrollListener l)
+    '''returns None\n\n
+    removeVerticalScrollListener(final VerticalScrollListener l)\n
     '''
 def setMaxVerticalPosition():
-    '''public void setMaxVerticalPosition(final int arg0)
+    '''returns None\n\n
+    setMaxVerticalPosition(final int arg0)\n
     '''
 def setVerticalExtent():
-    '''public void setVerticalExtent(final int arg0)
+    '''returns None\n\n
+    setVerticalExtent(final int arg0)\n
     '''
 def setVerticalPosition():
-    '''public void setVerticalPosition(final int arg0)
+    '''returns None\n\n
+    setVerticalPosition(final int arg0)\n
     '''
 def maxVisibleTimeChanged():
-    '''public void maxVisibleTimeChanged(final TimeChangedEvent arg0)
-    public void maxVisibleTimeChanged(final TimeChangedEvent arg0)
+    '''returns None\n\n
+    maxVisibleTimeChanged(final TimeChangedEvent arg0)\n
+    maxVisibleTimeChanged(final TimeChangedEvent arg0)\n
     '''
 def minVisibleTimeChanged():
-    '''public void minVisibleTimeChanged(final TimeChangedEvent arg0)
-    public void minVisibleTimeChanged(final TimeChangedEvent arg0)
+    '''returns None\n\n
+    minVisibleTimeChanged(final TimeChangedEvent arg0)\n
+    minVisibleTimeChanged(final TimeChangedEvent arg0)\n
     '''
 def visibleDurationChanged():
-    '''public void visibleDurationChanged(final VisibleDurationChangedEvent arg0)
-    public void visibleDurationChanged(final VisibleDurationChangedEvent arg0)
+    '''returns None\n\n
+    visibleDurationChanged(final VisibleDurationChangedEvent arg0)\n
+    visibleDurationChanged(final VisibleDurationChangedEvent arg0)\n
     '''
 def visibleTimeChanged():
-    '''public void visibleTimeChanged(final VisibleTimeChangedEvent arg0)
-    public void visibleTimeChanged(final VisibleTimeChangedEvent arg0)
+    '''returns None\n\n
+    visibleTimeChanged(final VisibleTimeChangedEvent arg0)\n
+    visibleTimeChanged(final VisibleTimeChangedEvent arg0)\n
     '''

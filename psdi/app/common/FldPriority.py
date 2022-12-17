@@ -1,7 +1,9 @@
 MAXPRIORITY = "int  999"
-def FldPriority():
-    '''public FldPriority(final MboValue mbv)
+def ():
+    '''returns FldPriority\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

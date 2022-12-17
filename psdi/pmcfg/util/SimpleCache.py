@@ -1,14 +1,18 @@
 NO_MAX_TIME = "long  -1L"
-def SimpleCache():
-    '''public SimpleCache()
-    public SimpleCache(final boolean loadOnMiss, final long maxTime)
+def ():
+    '''returns SimpleCache\n\n
+    ()\n
+    (final boolean loadOnMiss, final long maxTime)\n
     '''
 def checkCache():
-    '''public boolean checkCache(final Map<K, V> map, final K key)
+    '''returns boolean\n\n
+    checkCache(final Map<K, V> map, final K key)\n
     '''
 def loadCache():
-    '''public void loadCache(final Map<K, V> map, final K key)
+    '''returns None\n\n
+    loadCache(final Map<K, V> map, final K key)\n
     '''
 def writeThrough():
-    '''public void writeThrough(final K key, final V value)
+    '''returns None\n\n
+    writeThrough(final K key, final V value)\n
     '''

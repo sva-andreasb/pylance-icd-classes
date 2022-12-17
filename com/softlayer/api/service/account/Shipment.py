@@ -1,283 +1,372 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getCourier():
-    '''public Courier getCourier()
+    '''returns Courier\n\n
+    getCourier()\n
     '''
 def setCourier():
-    '''public void setCourier(final Courier courier)
+    '''returns None\n\n
+    setCourier(final Courier courier)\n
     '''
 def getCreateEmployee():
-    '''public Employee getCreateEmployee()
+    '''returns Employee\n\n
+    getCreateEmployee()\n
     '''
 def setCreateEmployee():
-    '''public void setCreateEmployee(final Employee createEmployee)
+    '''returns None\n\n
+    setCreateEmployee(final Employee createEmployee)\n
     '''
 def getCreateUser():
-    '''public Customer getCreateUser()
+    '''returns Customer\n\n
+    getCreateUser()\n
     '''
 def setCreateUser():
-    '''public void setCreateUser(final Customer createUser)
+    '''returns None\n\n
+    setCreateUser(final Customer createUser)\n
     '''
 def getDestinationAddress():
-    '''public Address getDestinationAddress()
+    '''returns Address\n\n
+    getDestinationAddress()\n
     '''
 def setDestinationAddress():
-    '''public void setDestinationAddress(final Address destinationAddress)
+    '''returns None\n\n
+    setDestinationAddress(final Address destinationAddress)\n
     '''
 def getModifyEmployee():
-    '''public Employee getModifyEmployee()
+    '''returns Employee\n\n
+    getModifyEmployee()\n
     '''
 def setModifyEmployee():
-    '''public void setModifyEmployee(final Employee modifyEmployee)
+    '''returns None\n\n
+    setModifyEmployee(final Employee modifyEmployee)\n
     '''
 def getModifyUser():
-    '''public Customer getModifyUser()
+    '''returns Customer\n\n
+    getModifyUser()\n
     '''
 def setModifyUser():
-    '''public void setModifyUser(final Customer modifyUser)
+    '''returns None\n\n
+    setModifyUser(final Customer modifyUser)\n
     '''
 def getOriginationAddress():
-    '''public Address getOriginationAddress()
+    '''returns Address\n\n
+    getOriginationAddress()\n
     '''
 def setOriginationAddress():
-    '''public void setOriginationAddress(final Address originationAddress)
+    '''returns None\n\n
+    setOriginationAddress(final Address originationAddress)\n
     '''
 def getShipmentItems():
-    '''public List<Item> getShipmentItems()
+    '''returns List<Item>\n\n
+    getShipmentItems()\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final Status status)
+    '''returns None\n\n
+    setStatus(final Status status)\n
     '''
 def getTrackingData():
-    '''public List<Data> getTrackingData()
+    '''returns List<Data>\n\n
+    getTrackingData()\n
     '''
 def setType():
-    '''public void setType(final com.softlayer.api.service.account.shipment.Type type)
+    '''returns None\n\n
+    setType(final com.softlayer.api.service.account.shipment.Type type)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getCourierId():
-    '''public Long getCourierId()
+    '''returns Long\n\n
+    getCourierId()\n
     '''
 def setCourierId():
-    '''public void setCourierId(final Long courierId)
+    '''returns None\n\n
+    setCourierId(final Long courierId)\n
     '''
 def isCourierIdSpecified():
-    '''public boolean isCourierIdSpecified()
+    '''returns boolean\n\n
+    isCourierIdSpecified()\n
     '''
 def unsetCourierId():
-    '''public void unsetCourierId()
+    '''returns None\n\n
+    unsetCourierId()\n
     '''
 def getCourierName():
-    '''public String getCourierName()
+    '''returns String\n\n
+    getCourierName()\n
     '''
 def setCourierName():
-    '''public void setCourierName(final String courierName)
+    '''returns None\n\n
+    setCourierName(final String courierName)\n
     '''
 def isCourierNameSpecified():
-    '''public boolean isCourierNameSpecified()
+    '''returns boolean\n\n
+    isCourierNameSpecified()\n
     '''
 def unsetCourierName():
-    '''public void unsetCourierName()
+    '''returns None\n\n
+    unsetCourierName()\n
     '''
 def getCreateUserId():
-    '''public Long getCreateUserId()
+    '''returns Long\n\n
+    getCreateUserId()\n
     '''
 def setCreateUserId():
-    '''public void setCreateUserId(final Long createUserId)
+    '''returns None\n\n
+    setCreateUserId(final Long createUserId)\n
     '''
 def isCreateUserIdSpecified():
-    '''public boolean isCreateUserIdSpecified()
+    '''returns boolean\n\n
+    isCreateUserIdSpecified()\n
     '''
 def unsetCreateUserId():
-    '''public void unsetCreateUserId()
+    '''returns None\n\n
+    unsetCreateUserId()\n
     '''
 def getDestinationAddressId():
-    '''public Long getDestinationAddressId()
+    '''returns Long\n\n
+    getDestinationAddressId()\n
     '''
 def setDestinationAddressId():
-    '''public void setDestinationAddressId(final Long destinationAddressId)
+    '''returns None\n\n
+    setDestinationAddressId(final Long destinationAddressId)\n
     '''
 def isDestinationAddressIdSpecified():
-    '''public boolean isDestinationAddressIdSpecified()
+    '''returns boolean\n\n
+    isDestinationAddressIdSpecified()\n
     '''
 def unsetDestinationAddressId():
-    '''public void unsetDestinationAddressId()
+    '''returns None\n\n
+    unsetDestinationAddressId()\n
     '''
 def getDestinationDate():
-    '''public GregorianCalendar getDestinationDate()
+    '''returns GregorianCalendar\n\n
+    getDestinationDate()\n
     '''
 def setDestinationDate():
-    '''public void setDestinationDate(final GregorianCalendar destinationDate)
+    '''returns None\n\n
+    setDestinationDate(final GregorianCalendar destinationDate)\n
     '''
 def isDestinationDateSpecified():
-    '''public boolean isDestinationDateSpecified()
+    '''returns boolean\n\n
+    isDestinationDateSpecified()\n
     '''
 def unsetDestinationDate():
-    '''public void unsetDestinationDate()
+    '''returns None\n\n
+    unsetDestinationDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyUserId():
-    '''public Long getModifyUserId()
+    '''returns Long\n\n
+    getModifyUserId()\n
     '''
 def setModifyUserId():
-    '''public void setModifyUserId(final Long modifyUserId)
+    '''returns None\n\n
+    setModifyUserId(final Long modifyUserId)\n
     '''
 def isModifyUserIdSpecified():
-    '''public boolean isModifyUserIdSpecified()
+    '''returns boolean\n\n
+    isModifyUserIdSpecified()\n
     '''
 def unsetModifyUserId():
-    '''public void unsetModifyUserId()
+    '''returns None\n\n
+    unsetModifyUserId()\n
     '''
 def getNote():
-    '''public String getNote()
+    '''returns String\n\n
+    getNote()\n
     '''
 def setNote():
-    '''public void setNote(final String note)
+    '''returns None\n\n
+    setNote(final String note)\n
     '''
 def isNoteSpecified():
-    '''public boolean isNoteSpecified()
+    '''returns boolean\n\n
+    isNoteSpecified()\n
     '''
 def unsetNote():
-    '''public void unsetNote()
+    '''returns None\n\n
+    unsetNote()\n
     '''
 def getOriginationAddressId():
-    '''public Long getOriginationAddressId()
+    '''returns Long\n\n
+    getOriginationAddressId()\n
     '''
 def setOriginationAddressId():
-    '''public void setOriginationAddressId(final Long originationAddressId)
+    '''returns None\n\n
+    setOriginationAddressId(final Long originationAddressId)\n
     '''
 def isOriginationAddressIdSpecified():
-    '''public boolean isOriginationAddressIdSpecified()
+    '''returns boolean\n\n
+    isOriginationAddressIdSpecified()\n
     '''
 def unsetOriginationAddressId():
-    '''public void unsetOriginationAddressId()
+    '''returns None\n\n
+    unsetOriginationAddressId()\n
     '''
 def getOriginationDate():
-    '''public GregorianCalendar getOriginationDate()
+    '''returns GregorianCalendar\n\n
+    getOriginationDate()\n
     '''
 def setOriginationDate():
-    '''public void setOriginationDate(final GregorianCalendar originationDate)
+    '''returns None\n\n
+    setOriginationDate(final GregorianCalendar originationDate)\n
     '''
 def isOriginationDateSpecified():
-    '''public boolean isOriginationDateSpecified()
+    '''returns boolean\n\n
+    isOriginationDateSpecified()\n
     '''
 def unsetOriginationDate():
-    '''public void unsetOriginationDate()
+    '''returns None\n\n
+    unsetOriginationDate()\n
     '''
 def getStatusId():
-    '''public Long getStatusId()
+    '''returns Long\n\n
+    getStatusId()\n
     '''
 def setStatusId():
-    '''public void setStatusId(final Long statusId)
+    '''returns None\n\n
+    setStatusId(final Long statusId)\n
     '''
 def isStatusIdSpecified():
-    '''public boolean isStatusIdSpecified()
+    '''returns boolean\n\n
+    isStatusIdSpecified()\n
     '''
 def unsetStatusId():
-    '''public void unsetStatusId()
+    '''returns None\n\n
+    unsetStatusId()\n
     '''
 def getTypeId():
-    '''public Long getTypeId()
+    '''returns Long\n\n
+    getTypeId()\n
     '''
 def setTypeId():
-    '''public void setTypeId(final Long typeId)
+    '''returns None\n\n
+    setTypeId(final Long typeId)\n
     '''
 def isTypeIdSpecified():
-    '''public boolean isTypeIdSpecified()
+    '''returns boolean\n\n
+    isTypeIdSpecified()\n
     '''
 def unsetTypeId():
-    '''public void unsetTypeId()
+    '''returns None\n\n
+    unsetTypeId()\n
     '''
 def getShipmentItemCount():
-    '''public Long getShipmentItemCount()
+    '''returns Long\n\n
+    getShipmentItemCount()\n
     '''
 def setShipmentItemCount():
-    '''public void setShipmentItemCount(final Long shipmentItemCount)
+    '''returns None\n\n
+    setShipmentItemCount(final Long shipmentItemCount)\n
     '''
 def getTrackingDataCount():
-    '''public Long getTrackingDataCount()
+    '''returns Long\n\n
+    getTrackingDataCount()\n
     '''
 def setTrackingDataCount():
-    '''public void setTrackingDataCount(final Long trackingDataCount)
+    '''returns None\n\n
+    setTrackingDataCount(final Long trackingDataCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def courierId():
-    '''public Mask courierId()
+    '''returns Mask\n\n
+    courierId()\n
     '''
 def courierName():
-    '''public Mask courierName()
+    '''returns Mask\n\n
+    courierName()\n
     '''
 def createUserId():
-    '''public Mask createUserId()
+    '''returns Mask\n\n
+    createUserId()\n
     '''
 def destinationAddressId():
-    '''public Mask destinationAddressId()
+    '''returns Mask\n\n
+    destinationAddressId()\n
     '''
 def destinationDate():
-    '''public Mask destinationDate()
+    '''returns Mask\n\n
+    destinationDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyUserId():
-    '''public Mask modifyUserId()
+    '''returns Mask\n\n
+    modifyUserId()\n
     '''
 def note():
-    '''public Mask note()
+    '''returns Mask\n\n
+    note()\n
     '''
 def originationAddressId():
-    '''public Mask originationAddressId()
+    '''returns Mask\n\n
+    originationAddressId()\n
     '''
 def originationDate():
-    '''public Mask originationDate()
+    '''returns Mask\n\n
+    originationDate()\n
     '''
 def statusId():
-    '''public Mask statusId()
+    '''returns Mask\n\n
+    statusId()\n
     '''
 def typeId():
-    '''public Mask typeId()
+    '''returns Mask\n\n
+    typeId()\n
     '''
 def shipmentItemCount():
-    '''public Mask shipmentItemCount()
+    '''returns Mask\n\n
+    shipmentItemCount()\n
     '''
 def trackingDataCount():
-    '''public Mask trackingDataCount()
+    '''returns Mask\n\n
+    trackingDataCount()\n
     '''

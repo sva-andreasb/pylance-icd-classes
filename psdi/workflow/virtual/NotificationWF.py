@@ -1,6 +1,8 @@
-def NotificationWF():
-    '''public NotificationWF(final MboSet ms)
+def ():
+    '''returns NotificationWF\n\n
+    (final MboSet ms)\n
     '''
 def sendNotification():
-    '''public void sendNotification(final WFAssignmentRemote reassignment)
+    '''returns None\n\n
+    sendNotification(final WFAssignmentRemote reassignment)\n
     '''

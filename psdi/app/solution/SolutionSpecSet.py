@@ -1,6 +1,8 @@
-def SolutionSpecSet():
-    '''public SolutionSpecSet(final MboServerInterface ms)
+def ():
+    '''returns SolutionSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def whereClauseOnAttrAndValues():
-    '''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
+    '''returns String\n\n
+    whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)\n
     '''

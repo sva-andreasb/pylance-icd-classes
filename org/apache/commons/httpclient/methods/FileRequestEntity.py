@@ -1,15 +1,20 @@
-def FileRequestEntity():
-    '''public FileRequestEntity(final File file, final String contentType)
+def ():
+    '''returns FileRequestEntity\n\n
+    (final File file, final String contentType)\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def writeRequest():
-    '''public void writeRequest(final OutputStream out)
+    '''returns None\n\n
+    writeRequest(final OutputStream out)\n
     '''

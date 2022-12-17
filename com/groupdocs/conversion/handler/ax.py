@@ -1,15 +1,20 @@
-def ax():
-    '''public ax(final String aSm)
+def ():
+    '''returns ax\n\n
+    (final String aSm)\n
     '''
 def getResourceStreams():
-    '''public ArrayList<ByteArrayOutputStream> getResourceStreams()
+    '''returns ArrayList<ByteArrayOutputStream>\n\n
+    getResourceStreams()\n
     '''
 def getResourcePaths():
-    '''public ArrayList<String> getResourcePaths()
+    '''returns ArrayList<String>\n\n
+    getResourcePaths()\n
     '''
 def dO():
-    '''public String dO()
+    '''returns String\n\n
+    dO()\n
     '''
 def dM():
-    '''public void dM(final String aSm)
+    '''returns None\n\n
+    dM(final String aSm)\n
     '''

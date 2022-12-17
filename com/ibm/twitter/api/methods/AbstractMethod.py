@@ -1,18 +1,20 @@
-def AbstractMethod():
-    '''public AbstractMethod(final String surl, final String method)
+def ():
+    '''returns AbstractMethod\n\n
+    (final String surl, final String method)\n
     '''
 def setRequestProperty():
-    '''public void setRequestProperty(final String s, final String s2)
+    '''returns None\n\n
+    setRequestProperty(final String s, final String s2)\n
     '''
 def getResultError():
-    '''public String getResultError()
+    '''returns String\n\n
+    getResultError()\n
     '''
 def execute():
-    '''public void execute(final String value)
-    '''
-def percentEncode():
-    '''public static String percentEncode(final String s)
+    '''returns None\n\n
+    execute(final String value)\n
     '''
 def readLine():
-    '''public String readLine(final BufferedReader bufferedReader)
+    '''returns String\n\n
+    readLine(final BufferedReader bufferedReader)\n
     '''

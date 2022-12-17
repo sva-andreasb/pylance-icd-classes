@@ -1,39 +1,52 @@
-def LaborView():
-    '''public LaborView(final MboSet ms)
+def ():
+    '''returns LaborView\n\n
+    (final MboSet ms)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def applyPriceAdjustment():
-    '''public void applyPriceAdjustment(final MboSetRemote craftRateSetRemote)
+    '''returns None\n\n
+    applyPriceAdjustment(final MboSetRemote craftRateSetRemote)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def nullVendor():
-    '''public void nullVendor()
+    '''returns None\n\n
+    nullVendor()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def copyCraftSkillToCraftRate():
-    '''public void copyCraftSkillToCraftRate(final MboSetRemote ms)
+    '''returns None\n\n
+    copyCraftSkillToCraftRate(final MboSetRemote ms)\n
     '''
 def copyLaborToLaborCraftRate():
-    '''public void copyLaborToLaborCraftRate(final MboSetRemote ms)
+    '''returns None\n\n
+    copyLaborToLaborCraftRate(final MboSetRemote ms)\n
     '''
 def applyPriceToLines():
-    '''public void applyPriceToLines()
+    '''returns None\n\n
+    applyPriceToLines()\n
     '''

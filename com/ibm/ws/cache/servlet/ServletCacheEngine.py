@@ -1,18 +1,16 @@
-def initialize():
-    '''public synchronized void initialize()
-    '''
 def getProxiedServlet():
-    '''public Servlet getProxiedServlet(final Servlet s)
+    '''returns Servlet\n\n
+    getProxiedServlet(final Servlet s)\n
     '''
 def handleServlet():
-    '''public void handleServlet(final Servlet s, final HttpServletRequest req, final HttpServletResponse res)
+    '''returns None\n\n
+    handleServlet(final Servlet s, final HttpServletRequest req, final HttpServletResponse res)\n
     '''
 def getSingleThreadModelWrapper():
-    '''public Servlet getSingleThreadModelWrapper(Servlet s)
-    '''
-def addStaticContentPolicy():
-    '''public static void addStaticContentPolicy(final String uri)
+    '''returns Servlet\n\n
+    getSingleThreadModelWrapper(Servlet s)\n
     '''
 def getAppsWithStaticCaching():
-    '''public List getAppsWithStaticCaching()
+    '''returns List\n\n
+    getAppsWithStaticCaching()\n
     '''

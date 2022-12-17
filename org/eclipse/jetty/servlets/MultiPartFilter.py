@@ -1,41 +1,48 @@
 CONTENT_TYPE_SUFFIX = "String  \".org.eclipse.jetty.servlet.contentType\""
-def MultiPartFilter():
-    '''public MultiPartFilter()
+def ():
+    '''returns Base64InputStream\n\n
+    ()\n
+    (final HttpServletRequest request, final MultiMap map)\n
+    (final InputStream in)\n
     '''
 def init():
-    '''public void init(final FilterConfig filterConfig)
+    '''returns None\n\n
+    init(final FilterConfig filterConfig)\n
     '''
 def doFilter():
-    '''public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)
+    '''returns None\n\n
+    doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)\n
     '''
 def read():
-    '''public int read()
-    public int read()
+    '''returns int\n\n
+    read()\n
+    read()\n
     '''
 def destroy():
-    '''public void destroy()
-    '''
-def Wrapper():
-    '''public Wrapper(final HttpServletRequest request, final MultiMap map)
+    '''returns None\n\n
+    destroy()\n
     '''
 def getContentLength():
-    '''public int getContentLength()
+    '''returns int\n\n
+    getContentLength()\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def getParameterMap():
-    '''public Map getParameterMap()
+    '''returns Map\n\n
+    getParameterMap()\n
     '''
 def getParameterNames():
-    '''public Enumeration getParameterNames()
+    '''returns Enumeration\n\n
+    getParameterNames()\n
     '''
 def getParameterValues():
-    '''public String[] getParameterValues(final String name)
+    '''returns String[]\n\n
+    getParameterValues(final String name)\n
     '''
 def setCharacterEncoding():
-    '''public void setCharacterEncoding(final String enc)
-    '''
-def Base64InputStream():
-    '''public Base64InputStream(final InputStream in)
+    '''returns None\n\n
+    setCharacterEncoding(final String enc)\n
     '''

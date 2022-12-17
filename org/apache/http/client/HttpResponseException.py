@@ -1,6 +1,8 @@
-def HttpResponseException():
-    '''public HttpResponseException(final int statusCode, final String s)
+def ():
+    '''returns HttpResponseException\n\n
+    (final int statusCode, final String s)\n
     '''
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''

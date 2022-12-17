@@ -1,6 +1,8 @@
-def PrevChangeAction():
-    '''public PrevChangeAction(final HasPrevious previous)
+def ():
+    '''returns PrevChangeAction\n\n
+    (final HasPrevious previous)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

@@ -1,15 +1,20 @@
-def RecordsSend():
-    '''public RecordsSend(final String destination, final Records records)
+def ():
+    '''returns RecordsSend\n\n
+    (final String destination, final Records records)\n
     '''
 def destination():
-    '''public String destination()
+    '''returns String\n\n
+    destination()\n
     '''
 def completed():
-    '''public boolean completed()
+    '''returns boolean\n\n
+    completed()\n
     '''
 def writeTo():
-    '''public long writeTo(final GatheringByteChannel channel)
+    '''returns long\n\n
+    writeTo(final GatheringByteChannel channel)\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''

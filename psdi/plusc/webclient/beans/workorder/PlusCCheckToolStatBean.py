@@ -1,3 +1,4 @@
 def searchts():
-    '''public int searchts()
+    '''returns int\n\n
+    searchts()\n
     '''

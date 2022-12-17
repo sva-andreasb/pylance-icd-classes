@@ -1,12 +1,16 @@
-def EDML3FilterTest():
-    '''public EDML3FilterTest(final String testName)
+def ():
+    '''returns EDML3FilterTest\n\n
+    (final String testName)\n
     '''
 def testFilterTest0():
-    '''public void testFilterTest0()
+    '''returns None\n\n
+    testFilterTest0()\n
     '''
 def testFilterTest1():
-    '''public void testFilterTest1()
+    '''returns None\n\n
+    testFilterTest1()\n
     '''
 def testFilterTest4():
-    '''public void testFilterTest4()
+    '''returns None\n\n
+    testFilterTest4()\n
     '''

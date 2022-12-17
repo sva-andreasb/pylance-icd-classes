@@ -1,75 +1,87 @@
-def EventTopicTree():
-    '''public EventTopicTree()
-    public EventTopicTree(final EventTopicTree gEventTopicTree)
+def ():
+    '''returns EventTopicTree\n\n
+    ()\n
+    (final EventTopicTree gEventTopicTree)\n
     '''
 def setOwnerTree():
-    '''public void setOwnerTree(final EventTopicTree tree)
+    '''returns None\n\n
+    setOwnerTree(final EventTopicTree tree)\n
     '''
 def getOwnerTree():
-    '''public EventTopicTree getOwnerTree()
+    '''returns EventTopicTree\n\n
+    getOwnerTree()\n
     '''
 def setActive():
-    '''public void setActive(final boolean value)
+    '''returns None\n\n
+    setActive(final boolean value)\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def getEventTopics():
-    '''public Hashtable getEventTopics()
+    '''returns Hashtable\n\n
+    getEventTopics()\n
     '''
 def findEventTopic():
-    '''public EventTopic findEventTopic(final String subject)
-    public EventTopic findEventTopic(String subject, final boolean isTenant)
-    '''
-def getEventTopic():
-    '''public synchronized EventTopic getEventTopic(final String subject)
-    public synchronized EventTopic getEventTopic(final String subject, final boolean isTenant)
-    '''
-def dumpEventTopicTree():
-    '''public Map<String, Object> dumpEventTopicTree(boolean isTenant)
+    '''returns EventTopic\n\n
+    findEventTopic(final String subject)\n
+    findEventTopic(String subject, final boolean isTenant)\n
     '''
 def printEventTopicTree():
-    '''public String printEventTopicTree(boolean isTenant)
+    '''returns String\n\n
+    printEventTopicTree(boolean isTenant)\n
     '''
 def eventValidate():
-    '''public void eventValidate(final String subject, final EventMessage msg, final EventTopic topic)
-    public void eventValidate(final String subject, final EventMessage msg)
+    '''returns None\n\n
+    eventValidate(final String subject, final EventMessage msg, final EventTopic topic)\n
+    eventValidate(final String subject, final EventMessage msg)\n
     '''
 def eventAction():
-    '''public void eventAction(final String subject, final EventMessage msg, final EventTopic topic)
-    public void eventAction(final String subject, final EventMessage msg)
+    '''returns None\n\n
+    eventAction(final String subject, final EventMessage msg, final EventTopic topic)\n
+    eventAction(final String subject, final EventMessage msg)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final String subject, final EventMessage msg, final EventTopic et)
-    public void preSaveEventAction(final String subject, final EventMessage msg)
+    '''returns None\n\n
+    preSaveEventAction(final String subject, final EventMessage msg, final EventTopic et)\n
+    preSaveEventAction(final String subject, final EventMessage msg)\n
     '''
 def preSaveInternalEventAction():
-    '''public void preSaveInternalEventAction(final String subject, final EventMessage msg, final EventTopic et)
-    public void preSaveInternalEventAction(final String subject, final EventMessage msg)
+    '''returns None\n\n
+    preSaveInternalEventAction(final String subject, final EventMessage msg, final EventTopic et)\n
+    preSaveInternalEventAction(final String subject, final EventMessage msg)\n
     '''
 def postSaveInternalEventAction():
-    '''public void postSaveInternalEventAction(final String subject, final EventMessage msg, final EventTopic et)
-    public void postSaveInternalEventAction(final String subject, final EventMessage msg)
+    '''returns None\n\n
+    postSaveInternalEventAction(final String subject, final EventMessage msg, final EventTopic et)\n
+    postSaveInternalEventAction(final String subject, final EventMessage msg)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final String subject, final EventMessage msg)
-    public void postCommitEventAction(final String subject, final EventMessage msg, final EventTopic et)
+    '''returns None\n\n
+    postCommitEventAction(final String subject, final EventMessage msg)\n
+    postCommitEventAction(final String subject, final EventMessage msg, final EventTopic et)\n
     '''
 def register():
-    '''public int register(final String topic, final EventListener evt)
-    public int register(final String topic, final EventListener evt, boolean isTenant)
+    '''returns int\n\n
+    register(final String topic, final EventListener evt)\n
+    register(final String topic, final EventListener evt, boolean isTenant)\n
     '''
 def unregister():
-    '''public void unregister(final String topic, final int id)
-    public void unregister(final String topic, final int id, boolean isTenant)
+    '''returns None\n\n
+    unregister(final String topic, final int id)\n
+    unregister(final String topic, final int id, boolean isTenant)\n
     '''
 def registerExtendsTopic():
-    '''public void registerExtendsTopic(final String topic, final EventTopic et, final EventListener evt, final int parentId)
+    '''returns None\n\n
+    registerExtendsTopic(final String topic, final EventTopic et, final EventListener evt, final int parentId)\n
     '''
 def getEventTopicId():
-    '''public int getEventTopicId(final String topic, final EventListener evt)
-    public int getEventTopicId(final String topic, final EventListener evt, final boolean isTenant)
+    '''returns int\n\n
+    getEventTopicId(final String topic, final EventListener evt)\n
+    getEventTopicId(final String topic, final EventListener evt, final boolean isTenant)\n
     '''
 def setTenantList():
-    '''public void setTenantList(final List<Integer> tenantList)
+    '''returns None\n\n
+    setTenantList(final List<Integer> tenantList)\n
     '''

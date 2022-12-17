@@ -1,9 +1,11 @@
 STOP = "long  -1L"
 def reset():
-    '''public void reset()
-    public void reset()
+    '''returns None\n\n
+    reset()\n
+    reset()\n
     '''
 def nextBackOffMillis():
-    '''public long nextBackOffMillis()
-    public long nextBackOffMillis()
+    '''returns long\n\n
+    nextBackOffMillis()\n
+    nextBackOffMillis()\n
     '''

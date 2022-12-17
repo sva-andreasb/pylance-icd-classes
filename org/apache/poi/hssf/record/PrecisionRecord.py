@@ -1,20 +1,26 @@
 sid = "short  14"
-def PrecisionRecord():
-    '''public PrecisionRecord()
-    public PrecisionRecord(final RecordInputStream in)
+def ():
+    '''returns PrecisionRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setFullPrecision():
-    '''public void setFullPrecision(final boolean fullprecision)
+    '''returns None\n\n
+    setFullPrecision(final boolean fullprecision)\n
     '''
 def getFullPrecision():
-    '''public boolean getFullPrecision()
+    '''returns boolean\n\n
+    getFullPrecision()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

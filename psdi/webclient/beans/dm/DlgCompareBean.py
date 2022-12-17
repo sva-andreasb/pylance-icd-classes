@@ -1,21 +1,24 @@
 def startcomparison():
-    '''public int startcomparison()
+    '''returns int\n\n
+    startcomparison()\n
     '''
 def startjob():
-    '''public int startjob()
+    '''returns int\n\n
+    startjob()\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''
 def refreshcomparisontable():
-    '''public int refreshcomparisontable()
+    '''returns int\n\n
+    refreshcomparisontable()\n
     '''
 def addtocollection():
-    '''public int addtocollection()
+    '''returns int\n\n
+    addtocollection()\n
     '''
 def addresulttocollection():
-    '''public int addresulttocollection()
-    '''
-def getList():
-    '''public synchronized MboSetRemote getList(final int nRow, final String attribute)
+    '''returns int\n\n
+    addresulttocollection()\n
     '''

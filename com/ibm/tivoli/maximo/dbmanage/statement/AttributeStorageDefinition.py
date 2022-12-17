@@ -1,43 +1,45 @@
-def AttributeStorageDefinition():
-    '''public AttributeStorageDefinition(final String[] names, AttributeClass[] storage)
-    public AttributeStorageDefinition(final String... names)
+def ():
+    '''returns AttributeStorageDefinition\n\n
+    (final String[] names, AttributeClass[] storage)\n
+    (final String... names)\n
     '''
 def getStorageClass():
-    '''public AttributeClass getStorageClass(final String attrName)
+    '''returns AttributeClass\n\n
+    getStorageClass(final String attrName)\n
     '''
 def hasAttribute():
-    '''public boolean hasAttribute(final String attrName)
+    '''returns boolean\n\n
+    hasAttribute(final String attrName)\n
     '''
 def getNameIterator():
-    '''public Iterator<String> getNameIterator()
+    '''returns Iterator<String>\n\n
+    getNameIterator()\n
     '''
 def getNames():
-    '''public String[] getNames()
+    '''returns String[]\n\n
+    getNames()\n
     '''
 def getClasses():
-    '''public AttributeClass[] getClasses()
+    '''returns AttributeClass[]\n\n
+    getClasses()\n
     '''
 def addDefinition():
-    '''public void addDefinition(final String name, final AttributeClass storage)
+    '''returns None\n\n
+    addDefinition(final String name, final AttributeClass storage)\n
     '''
 def getSelectColumns():
-    '''public String getSelectColumns()
+    '''returns String\n\n
+    getSelectColumns()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def expand():
-    '''public static AttributeStorageDefinition expand(final AttributeStorageDefinition asd, final String addCol, final AttributeClass addClass)
-    '''
-def reduce():
-    '''public static AttributeStorageDefinition reduce(final AttributeStorageDefinition asd, final String... removeAttrs)
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    '''
-def getTableASD():
-    '''public static AttributeStorageDefinition getTableASD(final Connection con, final String tablename)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def createTableSubsetDefinition():
-    '''public AttributeStorageDefinition createTableSubsetDefinition(final List<String> wantedColumns)
+    '''returns AttributeStorageDefinition\n\n
+    createTableSubsetDefinition(final List<String> wantedColumns)\n
     '''

@@ -1,10 +1,13 @@
-def SizeFileComparator():
-    '''public SizeFileComparator()
-    public SizeFileComparator(final boolean sumDirectoryContents)
+def ():
+    '''returns SizeFileComparator\n\n
+    ()\n
+    (final boolean sumDirectoryContents)\n
     '''
 def compare():
-    '''public int compare(final File file1, final File file2)
+    '''returns int\n\n
+    compare(final File file1, final File file2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,21 +1,28 @@
 def getTypeIdentifier():
-    '''public String getTypeIdentifier()
+    '''returns String\n\n
+    getTypeIdentifier()\n
     '''
-def EmailAddressGrantee():
-    '''public EmailAddressGrantee(final String emailAddress)
+def ():
+    '''returns EmailAddressGrantee\n\n
+    (final String emailAddress)\n
     '''
 def setIdentifier():
-    '''public void setIdentifier(final String emailAddress)
+    '''returns None\n\n
+    setIdentifier(final String emailAddress)\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

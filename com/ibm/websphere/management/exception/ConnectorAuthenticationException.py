@@ -1,6 +1,7 @@
-def ConnectorAuthenticationException():
-    '''public ConnectorAuthenticationException()
-    public ConnectorAuthenticationException(final String mesg)
-    public ConnectorAuthenticationException(final String msg, final Throwable th)
-    public ConnectorAuthenticationException(final Throwable th)
+def ():
+    '''returns ConnectorAuthenticationException\n\n
+    ()\n
+    (final String mesg)\n
+    (final String msg, final Throwable th)\n
+    (final Throwable th)\n
     '''

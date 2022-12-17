@@ -1,16 +1,21 @@
 LENGTH = "int  16"
 def bitsPerElement():
-    '''public int bitsPerElement()
+    '''returns int\n\n
+    bitsPerElement()\n
     '''
 def lengthInBits():
-    '''public int lengthInBits(final String key)
+    '''returns int\n\n
+    lengthInBits(final String key)\n
     '''
 def bitIndex():
-    '''public int bitIndex(final String key, final int offsetInBits, final int lengthInBits, final String other, final int otherOffsetInBits, final int otherLengthInBits)
+    '''returns int\n\n
+    bitIndex(final String key, final int offsetInBits, final int lengthInBits, final String other, final int otherOffsetInBits, final int otherLengthInBits)\n
     '''
 def isBitSet():
-    '''public boolean isBitSet(final String key, final int bitIndex, final int lengthInBits)
+    '''returns boolean\n\n
+    isBitSet(final String key, final int bitIndex, final int lengthInBits)\n
     '''
 def isPrefix():
-    '''public boolean isPrefix(final String prefix, final int offsetInBits, final int lengthInBits, final String key)
+    '''returns boolean\n\n
+    isPrefix(final String prefix, final int offsetInBits, final int lengthInBits, final String key)\n
     '''

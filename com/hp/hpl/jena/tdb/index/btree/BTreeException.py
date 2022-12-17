@@ -1,4 +1,5 @@
-def BTreeException():
-    '''public BTreeException()
-    public BTreeException(final String msg)
+def ():
+    '''returns BTreeException\n\n
+    ()\n
+    (final String msg)\n
     '''

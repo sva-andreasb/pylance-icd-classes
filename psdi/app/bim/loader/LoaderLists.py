@@ -1,6 +1,8 @@
-def LoaderLists():
-    '''public LoaderLists(final LoaderBase<?, ModelProcessType> loader)
+def ():
+    '''returns LoaderLists\n\n
+    (final LoaderBase<?, ModelProcessType> loader)\n
     '''
 def addAndUpdateList():
-    '''public void addAndUpdateList(final ItemBase parentItem, final Enumeration<MemberType> members)
+    '''returns None\n\n
+    addAndUpdateList(final ItemBase parentItem, final Enumeration<MemberType> members)\n
     '''

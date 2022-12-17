@@ -1,9 +1,12 @@
-def PlusPItem():
-    '''public PlusPItem(final MboSet arg0)
+def ():
+    '''returns PlusPItem\n\n
+    (final MboSet arg0)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

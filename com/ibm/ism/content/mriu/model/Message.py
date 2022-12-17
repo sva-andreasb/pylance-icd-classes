@@ -2,39 +2,35 @@ TYPE_ERROR = "int  0"
 TYPE_WARNING = "int  1"
 TYPE_ALERT = "int  2"
 TYPE_REPLACEMENT_REQUIRED = "int  3"
-def Message():
-    '''public Message(final int type, final String msgId, final Object[] msgArgs)
+def ():
+    '''returns Message\n\n
+    (final int type, final String msgId, final Object[] msgArgs)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getMsgId():
-    '''public String getMsgId()
+    '''returns String\n\n
+    getMsgId()\n
     '''
 def getMsgArgs():
-    '''public Object[] getMsgArgs()
-    '''
-def newError():
-    '''public static Message newError(final String msgId, final Object[] msgArgs)
-    '''
-def newWarning():
-    '''public static Message newWarning(final String msgId, final Object[] msgArgs)
-    '''
-def newAlert():
-    '''public static Message newAlert(final String msgId, final Object[] msgArgs)
-    '''
-def newReplacementRequired():
-    '''public static Message newReplacementRequired(final String msgId, final Object[] msgArgs)
+    '''returns Object[]\n\n
+    getMsgArgs()\n
     '''
 def isError():
-    '''public boolean isError()
+    '''returns boolean\n\n
+    isError()\n
     '''
 def isWarning():
-    '''public boolean isWarning()
+    '''returns boolean\n\n
+    isWarning()\n
     '''
 def isAlert():
-    '''public boolean isAlert()
+    '''returns boolean\n\n
+    isAlert()\n
     '''
 def isReplacementRequired():
-    '''public boolean isReplacementRequired()
+    '''returns boolean\n\n
+    isReplacementRequired()\n
     '''

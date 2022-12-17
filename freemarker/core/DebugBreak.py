@@ -1,3 +1,4 @@
-def DebugBreak():
-    '''public DebugBreak(final TemplateElement nestedBlock)
+def ():
+    '''returns DebugBreak\n\n
+    (final TemplateElement nestedBlock)\n
     '''

@@ -1,6 +1,8 @@
-def MaxLookupMap():
-    '''public MaxLookupMap(final MboSet ms)
+def ():
+    '''returns MaxLookupMap\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

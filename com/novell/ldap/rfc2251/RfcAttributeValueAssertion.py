@@ -1,9 +1,12 @@
-def RfcAttributeValueAssertion():
-    '''public RfcAttributeValueAssertion(final RfcAttributeDescription rfcAttributeDescription, final RfcAssertionValue rfcAssertionValue)
+def ():
+    '''returns RfcAttributeValueAssertion\n\n
+    (final RfcAttributeDescription rfcAttributeDescription, final RfcAssertionValue rfcAssertionValue)\n
     '''
 def getAttributeDescription():
-    '''public String getAttributeDescription()
+    '''returns String\n\n
+    getAttributeDescription()\n
     '''
 def getAssertionValue():
-    '''public byte[] getAssertionValue()
+    '''returns byte[]\n\n
+    getAssertionValue()\n
     '''

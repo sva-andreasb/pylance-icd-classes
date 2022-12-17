@@ -1,18 +1,24 @@
 def getFamily():
-    '''public String getFamily()
+    '''returns String\n\n
+    getFamily()\n
     '''
 def kg():
-    '''public String kg()
+    '''returns String\n\n
+    kg()\n
     '''
 def getProduct():
-    '''public String getProduct()
+    '''returns String\n\n
+    getProduct()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def kh():
-    '''public String kh()
+    '''returns String\n\n
+    kh()\n
     '''
 def ki():
-    '''public String ki()
+    '''returns String\n\n
+    ki()\n
     '''

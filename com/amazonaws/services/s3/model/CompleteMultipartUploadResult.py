@@ -1,48 +1,64 @@
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final String location)
+    '''returns None\n\n
+    setLocation(final String location)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def setETag():
-    '''public void setETag(final String etag)
+    '''returns None\n\n
+    setETag(final String etag)\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
     '''
 def getExpirationTime():
-    '''public Date getExpirationTime()
+    '''returns Date\n\n
+    getExpirationTime()\n
     '''
 def setExpirationTime():
-    '''public void setExpirationTime(final Date expirationTime)
+    '''returns None\n\n
+    setExpirationTime(final Date expirationTime)\n
     '''
 def getExpirationTimeRuleId():
-    '''public String getExpirationTimeRuleId()
+    '''returns String\n\n
+    getExpirationTimeRuleId()\n
     '''
 def setExpirationTimeRuleId():
-    '''public void setExpirationTimeRuleId(final String expirationTimeRuleId)
+    '''returns None\n\n
+    setExpirationTimeRuleId(final String expirationTimeRuleId)\n
     '''
 def isRequesterCharged():
-    '''public boolean isRequesterCharged()
+    '''returns boolean\n\n
+    isRequesterCharged()\n
     '''
 def setRequesterCharged():
-    '''public void setRequesterCharged(final boolean isRequesterCharged)
+    '''returns None\n\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
     '''

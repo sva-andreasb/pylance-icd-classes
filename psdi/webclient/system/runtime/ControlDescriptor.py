@@ -1,27 +1,32 @@
-def ControlDescriptor():
-    '''public ControlDescriptor()
+def ():
+    '''returns ControlDescriptor\n\n
+    ()\n
     '''
 def getInstance():
-    '''public ControlInstance getInstance(final WebClientSession wcs, final Element presentationElement)
+    '''returns ControlInstance\n\n
+    getInstance(final WebClientSession wcs, final Element presentationElement)\n
     '''
 def getBindList():
-    '''public List<BindingDefinition> getBindList()
+    '''returns List<BindingDefinition>\n\n
+    getBindList()\n
     '''
 def getComponents():
-    '''public List<ComponentDescriptor> getComponents()
-    '''
-def addComponent():
-    '''public synchronized void addComponent(final ComponentDescriptor component)
+    '''returns List<ComponentDescriptor>\n\n
+    getComponents()\n
     '''
 def indicatesChildError():
-    '''public boolean indicatesChildError()
+    '''returns boolean\n\n
+    indicatesChildError()\n
     '''
 def getTemplate():
-    '''public Element getTemplate()
+    '''returns Element\n\n
+    getTemplate()\n
     '''
 def canCreateControl():
-    '''public boolean canCreateControl(final PageInstance page, final ControlInstance parentControl, final Element element)
+    '''returns boolean\n\n
+    canCreateControl(final PageInstance page, final ControlInstance parentControl, final Element element)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

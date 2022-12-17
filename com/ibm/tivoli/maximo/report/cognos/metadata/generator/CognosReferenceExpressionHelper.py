@@ -1,3 +1,4 @@
-def CognosReferenceExpressionHelper():
-    '''public CognosReferenceExpressionHelper()
+def ():
+    '''returns CognosReferenceExpressionHelper\n\n
+    ()\n
     '''

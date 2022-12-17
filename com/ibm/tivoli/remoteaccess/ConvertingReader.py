@@ -1,17 +1,16 @@
-def ready():
-    '''public synchronized boolean ready()
-    '''
-def ConvertingReader():
-    '''public ConvertingReader(final Reader rdr, final String to_lineSeparator_str)
+def ():
+    '''returns ConvertingReader\n\n
+    (final Reader rdr, final String to_lineSeparator_str)\n
     '''
 def read():
-    '''public int read()
-    public synchronized int read(final char[] buff)
-    public synchronized int read(final char[] cbuf, int off, final int len)
+    '''returns int\n\n
+    read()\n
     '''
 def getLineSeparator():
-    '''public String getLineSeparator()
+    '''returns String\n\n
+    getLineSeparator()\n
     '''
 def getReader():
-    '''public Reader getReader()
+    '''returns Reader\n\n
+    getReader()\n
     '''

@@ -1,46 +1,53 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def updateClassstructure():
-    '''public void updateClassstructure(final String classStructureId, final String hierarchypath, final String attributeName)
+    '''returns None\n\n
+    updateClassstructure(final String classStructureId, final String hierarchypath, final String attributeName)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
-    '''
-def getQbe():
-    '''public synchronized String getQbe(final String attribute)
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def defaultExec():
-    '''public int defaultExec()
-    '''
-def setQbeAttributes():
-    '''public synchronized void setQbeAttributes(final Hashtable newQbeAttributes)
+    '''returns int\n\n
+    defaultExec()\n
     '''
 def clearqryandfld():
-    '''public int clearqryandfld()
+    '''returns int\n\n
+    clearqryandfld()\n
     '''
 def clearqryandfldExec():
-    '''public int clearqryandfldExec()
+    '''returns int\n\n
+    clearqryandfldExec()\n
     '''
 def clearfield():
-    '''public int clearfield()
+    '''returns int\n\n
+    clearfield()\n
     '''
 def clearfieldExec():
-    '''public int clearfieldExec()
+    '''returns int\n\n
+    clearfieldExec()\n
     '''
 def restoredefaultqry():
-    '''public int restoredefaultqry()
+    '''returns int\n\n
+    restoredefaultqry()\n
     '''
 def restoredefaultqryExec():
-    '''public int restoredefaultqryExec()
+    '''returns int\n\n
+    restoredefaultqryExec()\n
     '''
 def qbeclear():
-    '''public int qbeclear()
+    '''returns int\n\n
+    qbeclear()\n
     '''
 def qbeclearExec():
-    '''public int qbeclearExec()
+    '''returns int\n\n
+    qbeclearExec()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def qbecancel():
-    '''public int qbecancel()
+    '''returns int\n\n
+    qbecancel()\n
     '''

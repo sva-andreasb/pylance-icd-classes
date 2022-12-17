@@ -1,27 +1,36 @@
 def isInheritedProperty():
-    '''public boolean isInheritedProperty()
+    '''returns boolean\n\n
+    isInheritedProperty()\n
     '''
 def isAnimatableProperty():
-    '''public boolean isAnimatableProperty()
+    '''returns boolean\n\n
+    isAnimatableProperty()\n
     '''
 def isAdditiveProperty():
-    '''public boolean isAdditiveProperty()
+    '''returns boolean\n\n
+    isAdditiveProperty()\n
     '''
 def getPropertyType():
-    '''public int getPropertyType()
+    '''returns int\n\n
+    getPropertyType()\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getDefaultValue():
-    '''public Value getDefaultValue()
+    '''returns Value\n\n
+    getDefaultValue()\n
     '''
 def createValue():
-    '''public Value createValue(final LexicalUnit lu, final CSSEngine engine)
+    '''returns Value\n\n
+    createValue(final LexicalUnit lu, final CSSEngine engine)\n
     '''
 def createStringValue():
-    '''public Value createStringValue(final short type, final String value, final CSSEngine engine)
+    '''returns Value\n\n
+    createStringValue(final short type, final String value, final CSSEngine engine)\n
     '''
 def createFloatValue():
-    '''public Value createFloatValue(final short type, final float floatValue)
+    '''returns Value\n\n
+    createFloatValue(final short type, final float floatValue)\n
     '''

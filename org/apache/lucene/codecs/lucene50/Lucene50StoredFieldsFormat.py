@@ -1,10 +1,13 @@
-def Lucene50StoredFieldsFormat():
-    '''public Lucene50StoredFieldsFormat()
-    public Lucene50StoredFieldsFormat(final Mode mode)
+def ():
+    '''returns Lucene50StoredFieldsFormat\n\n
+    ()\n
+    (final Mode mode)\n
     '''
 def fieldsReader():
-    '''public StoredFieldsReader fieldsReader(final Directory directory, final SegmentInfo si, final FieldInfos fn, final IOContext context)
+    '''returns StoredFieldsReader\n\n
+    fieldsReader(final Directory directory, final SegmentInfo si, final FieldInfos fn, final IOContext context)\n
     '''
 def fieldsWriter():
-    '''public StoredFieldsWriter fieldsWriter(final Directory directory, final SegmentInfo si, final IOContext context)
+    '''returns StoredFieldsWriter\n\n
+    fieldsWriter(final Directory directory, final SegmentInfo si, final IOContext context)\n
     '''

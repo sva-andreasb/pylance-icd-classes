@@ -1,7 +1,9 @@
-def FldJpnum():
-    '''public FldJpnum(final MboValue mbv)
-    public FldJpnum(final MboValue mbv, String criteriaName)
+def ():
+    '''returns FldJpnum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, String criteriaName)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String sourceObj, final String value, final boolean exact)\n
     '''

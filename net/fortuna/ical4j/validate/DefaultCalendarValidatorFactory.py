@@ -1,3 +1,4 @@
 def newInstance():
-    '''public Validator<Calendar> newInstance()
+    '''returns Validator<Calendar>\n\n
+    newInstance()\n
     '''

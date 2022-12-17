@@ -1,74 +1,98 @@
 def getServantToken():
-    '''public String getServantToken()
+    '''returns String\n\n
+    getServantToken()\n
     '''
 def getUniqueId():
-    '''public String getUniqueId()
-    public String getUniqueId(final String uuid)
+    '''returns String\n\n
+    getUniqueId()\n
+    getUniqueId(final String uuid)\n
     '''
 def getSystemName():
-    '''public String getSystemName()
+    '''returns String\n\n
+    getSystemName()\n
     '''
 def getGlobalORB():
-    '''public ORB getGlobalORB()
+    '''returns ORB\n\n
+    getGlobalORB()\n
     '''
 def register_initial_reference():
-    '''public void register_initial_reference(final String serviceName, final Object corbaObj)
+    '''returns None\n\n
+    register_initial_reference(final String serviceName, final Object corbaObj)\n
     '''
 def isZOS():
-    '''public boolean isZOS()
+    '''returns boolean\n\n
+    isZOS()\n
     '''
 def isServantJvm():
-    '''public boolean isServantJvm()
+    '''returns boolean\n\n
+    isServantJvm()\n
     '''
 def isClientJvm():
-    '''public boolean isClientJvm()
+    '''returns boolean\n\n
+    isClientJvm()\n
     '''
 def isControlJvm():
-    '''public boolean isControlJvm()
+    '''returns boolean\n\n
+    isControlJvm()\n
     '''
 def isCRAJvm():
-    '''public boolean isCRAJvm()
+    '''returns boolean\n\n
+    isCRAJvm()\n
     '''
 def isBaseServantJvm():
-    '''public boolean isBaseServantJvm()
+    '''returns boolean\n\n
+    isBaseServantJvm()\n
     '''
 def isOS400():
-    '''public boolean isOS400()
+    '''returns boolean\n\n
+    isOS400()\n
     '''
 def runningWhereConfigured():
-    '''public boolean runningWhereConfigured()
+    '''returns boolean\n\n
+    runningWhereConfigured()\n
     '''
 def getStoken():
-    '''public byte[] getStoken()
+    '''returns byte[]\n\n
+    getStoken()\n
     '''
 def getSysplexName():
-    '''public String getSysplexName()
+    '''returns String\n\n
+    getSysplexName()\n
     '''
 def doECAService():
-    '''public int doECAService(final byte[] bytes)
+    '''returns int\n\n
+    doECAService(final byte[] bytes)\n
     '''
 def registerListener():
-    '''public void registerListener(final JVMListenerInterface listener)
-    public void registerListener(final ServantInitializationListener listener)
+    '''returns None\n\n
+    registerListener(final JVMListenerInterface listener)\n
+    registerListener(final ServantInitializationListener listener)\n
     '''
 def getCRAId():
-    '''public String getCRAId()
+    '''returns String\n\n
+    getCRAId()\n
     '''
 def setCRAId():
-    '''public void setCRAId(final String s)
+    '''returns None\n\n
+    setCRAId(final String s)\n
     '''
 def setRestartFlag():
-    '''public void setRestartFlag()
+    '''returns None\n\n
+    setRestartFlag()\n
     '''
 def isServerShuttingDown():
-    '''public boolean isServerShuttingDown()
+    '''returns boolean\n\n
+    isServerShuttingDown()\n
     '''
 def isServantActive():
-    '''public boolean isServantActive(final byte[] sToken)
+    '''returns boolean\n\n
+    isServantActive(final byte[] sToken)\n
     '''
 def isServerPaused():
-    '''public boolean isServerPaused()
+    '''returns boolean\n\n
+    isServerPaused()\n
     '''
 def getCPUTimes():
-    '''public long[] getCPUTimes()
+    '''returns long[]\n\n
+    getCPUTimes()\n
     '''

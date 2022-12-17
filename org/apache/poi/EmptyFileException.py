@@ -1,3 +1,4 @@
-def EmptyFileException():
-    '''public EmptyFileException()
+def ():
+    '''returns EmptyFileException\n\n
+    ()\n
     '''

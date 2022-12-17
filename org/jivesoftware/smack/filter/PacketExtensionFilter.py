@@ -1,7 +1,9 @@
-def PacketExtensionFilter():
-    '''public PacketExtensionFilter(final String elementName, final String namespace)
-    public PacketExtensionFilter(final String namespace)
+def ():
+    '''returns PacketExtensionFilter\n\n
+    (final String elementName, final String namespace)\n
+    (final String namespace)\n
     '''
 def accept():
-    '''public boolean accept(final Packet packet)
+    '''returns boolean\n\n
+    accept(final Packet packet)\n
     '''

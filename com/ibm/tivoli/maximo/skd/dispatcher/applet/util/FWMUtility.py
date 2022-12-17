@@ -1,68 +1,50 @@
 RENDERED_COLOR = "String  \"ACTIVITY_RENDER_COLOR\""
 FONT_COLOR = "String  \"ACTIVITY_FONT_COLOR\""
-def getUtility():
-    '''public static synchronized FWMUtility getUtility()
-    '''
 def getColormap():
-    '''public Color[] getColormap()
+    '''returns Color[]\n\n
+    getColormap()\n
     '''
 def getFontcolormap():
-    '''public Color[] getFontcolormap()
+    '''returns Color[]\n\n
+    getFontcolormap()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def getDispatchControlId():
-    '''public String getDispatchControlId()
+    '''returns String\n\n
+    getDispatchControlId()\n
     '''
 def getConstraintForToActivity():
-    '''public MXTravelTimeConstraint getConstraintForToActivity(final IlvActivity activity)
-    '''
-def setApplet():
-    '''public static void setApplet(final DispatcherViewerApplet applet)
+    '''returns MXTravelTimeConstraint\n\n
+    getConstraintForToActivity(final IlvActivity activity)\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final ISKDUIInfo skdUIInfo)
+    '''returns None\n\n
+    setUserInfo(final ISKDUIInfo skdUIInfo)\n
     '''
 def getSKDUserLocaleData():
-    '''public SKDUserLocaleData getSKDUserLocaleData()
+    '''returns SKDUserLocaleData\n\n
+    getSKDUserLocaleData()\n
     '''
 def getDispatcherApplet():
-    '''public DispatcherViewerApplet getDispatcherApplet()
-    '''
-def isNull():
-    '''public static boolean isNull(final String val)
-    '''
-def getResourceForActivity():
-    '''public static MXResource getResourceForActivity(final MXActivity activity)
-    '''
-def getMXToolTipText():
-    '''public static String getMXToolTipText(final IlvActivityGraphic ag)
-    '''
-def getTableRowToolTipText():
-    '''public static String getTableRowToolTipText(final IlvJTable table, final MouseEvent event, final IlvHierarchyNode row, final String value, final int rowIndex, final int columnIndex)
+    '''returns DispatcherViewerApplet\n\n
+    getDispatcherApplet()\n
     '''
 def getTooltipCloseIcon():
-    '''public ImageIcon getTooltipCloseIcon()
+    '''returns ImageIcon\n\n
+    getTooltipCloseIcon()\n
     '''
 def getTooltipOverIcon():
-    '''public ImageIcon getTooltipOverIcon()
+    '''returns ImageIcon\n\n
+    getTooltipOverIcon()\n
     '''
 def setDefaultToolTipIcons():
-    '''public void setDefaultToolTipIcons()
-    '''
-def isLaborOrCrew():
-    '''public static boolean isLaborOrCrew(final MXResource mxresource)
-    '''
-def isCraftOrCrewType():
-    '''public static boolean isCraftOrCrewType(final MXResource mxresource)
-    '''
-def isHierarchyStub():
-    '''public static boolean isHierarchyStub(final MXResource mxresource)
-    '''
-def isAssignmentOverlapping():
-    '''public static boolean isAssignmentOverlapping(final MXActivity activity)
+    '''returns None\n\n
+    setDefaultToolTipIcons()\n
     '''
 def enableHttpOnlyWorkaroundIfNeeded():
-    '''public void enableHttpOnlyWorkaroundIfNeeded(final JApplet applet)
+    '''returns None\n\n
+    enableHttpOnlyWorkaroundIfNeeded(final JApplet applet)\n
     '''

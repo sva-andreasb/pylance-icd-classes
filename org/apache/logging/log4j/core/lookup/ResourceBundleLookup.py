@@ -1,3 +1,4 @@
 def lookup():
-    '''public String lookup(final LogEvent event, final String key)
+    '''returns String\n\n
+    lookup(final LogEvent event, final String key)\n
     '''

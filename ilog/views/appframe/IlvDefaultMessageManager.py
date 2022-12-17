@@ -1,12 +1,16 @@
-def IlvDefaultMessageManager():
-    '''public IlvDefaultMessageManager()
+def ():
+    '''returns IlvDefaultMessageManager\n\n
+    ()\n
     '''
 def addMessageListener():
-    '''public void addMessageListener(final MessageListener messageListener, final String s)
+    '''returns None\n\n
+    addMessageListener(final MessageListener messageListener, final String s)\n
     '''
 def removeMessageListener():
-    '''public void removeMessageListener(final MessageListener messageListener)
+    '''returns None\n\n
+    removeMessageListener(final MessageListener messageListener)\n
     '''
 def sendMessage():
-    '''public void sendMessage(final String s, final MessageEvent messageEvent)
+    '''returns None\n\n
+    sendMessage(final String s, final MessageEvent messageEvent)\n
     '''

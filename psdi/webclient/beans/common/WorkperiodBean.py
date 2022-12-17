@@ -1,9 +1,12 @@
 def DodifyDays():
-    '''public int DodifyDays()
+    '''returns int\n\n
+    DodifyDays()\n
     '''
 def ModifySelectedDays():
-    '''public int ModifySelectedDays()
+    '''returns int\n\n
+    ModifySelectedDays()\n
     '''
 def ModifySelectedDaysCrew():
-    '''public int ModifySelectedDaysCrew()
+    '''returns int\n\n
+    ModifySelectedDaysCrew()\n
     '''

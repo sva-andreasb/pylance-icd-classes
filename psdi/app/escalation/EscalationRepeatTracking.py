@@ -1,3 +1,4 @@
-def EscalationRepeatTracking():
-    '''public EscalationRepeatTracking(final MboSet ms)
+def ():
+    '''returns EscalationRepeatTracking\n\n
+    (final MboSet ms)\n
     '''

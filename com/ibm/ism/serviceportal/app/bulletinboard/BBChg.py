@@ -1,6 +1,8 @@
-def BBChg():
-    '''public BBChg(final MboSet ms)
+def ():
+    '''returns BBChg\n\n
+    (final MboSet ms)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''

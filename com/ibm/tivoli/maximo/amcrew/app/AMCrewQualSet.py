@@ -1,27 +1,36 @@
-def AMCrewQualSet():
-    '''public AMCrewQualSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewQualSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def updateQualStatus():
-    '''public void updateQualStatus()
+    '''returns None\n\n
+    updateQualStatus()\n
     '''
 def findByAttributeWithToolDeleted():
-    '''public MboRemote findByAttributeWithToolDeleted(final String attrName, final String attrValue)
+    '''returns MboRemote\n\n
+    findByAttributeWithToolDeleted(final String attrName, final String attrValue)\n
     '''
 def findByAttributeWithToolNotDeleted():
-    '''public MboRemote findByAttributeWithToolNotDeleted(final String attrName, final String attrValue)
+    '''returns MboRemote\n\n
+    findByAttributeWithToolNotDeleted(final String attrName, final String attrValue)\n
     '''
 def adjustCraftQuantities():
-    '''public void adjustCraftQuantities(final int quantity)
+    '''returns None\n\n
+    adjustCraftQuantities(final int quantity)\n
     '''
 def findByPosition():
-    '''public MboRemote findByPosition(final String position)
+    '''returns MboRemote\n\n
+    findByPosition(final String position)\n
     '''
 def findByQuantity():
-    '''public MboRemote findByQuantity(final int quantity)
+    '''returns MboRemote\n\n
+    findByQuantity(final int quantity)\n
     '''
 def findByAttribute():
-    '''public MboRemote findByAttribute(final String attrName, final String attrValue)
+    '''returns MboRemote\n\n
+    findByAttribute(final String attrName, final String attrValue)\n
     '''
 def adjustQualQuantities():
-    '''public void adjustQualQuantities(final int quantity)
+    '''returns None\n\n
+    adjustQualQuantities(final int quantity)\n
     '''

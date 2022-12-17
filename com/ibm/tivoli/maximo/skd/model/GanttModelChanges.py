@@ -1,39 +1,52 @@
-def GanttModelChanges():
-    '''public GanttModelChanges()
+def ():
+    '''returns GanttModelChanges\n\n
+    ()\n
     '''
 def addActivityChange():
-    '''public void addActivityChange(final ActivityChange activityChange)
+    '''returns None\n\n
+    addActivityChange(final ActivityChange activityChange)\n
     '''
 def getActivityChange():
-    '''public ActivityChange getActivityChange(final String id)
+    '''returns ActivityChange\n\n
+    getActivityChange(final String id)\n
     '''
 def getActivitiesChanged():
-    '''public Iterator getActivitiesChanged()
+    '''returns Iterator\n\n
+    getActivitiesChanged()\n
     '''
 def getActivitiesChangedSize():
-    '''public int getActivitiesChangedSize()
+    '''returns int\n\n
+    getActivitiesChangedSize()\n
     '''
 def addReservationChange():
-    '''public void addReservationChange(final ReservationChange reservChange)
+    '''returns None\n\n
+    addReservationChange(final ReservationChange reservChange)\n
     '''
 def getReservationsChanged():
-    '''public Iterator getReservationsChanged()
+    '''returns Iterator\n\n
+    getReservationsChanged()\n
     '''
 def getReservationsChangedSize():
-    '''public int getReservationsChangedSize()
+    '''returns int\n\n
+    getReservationsChangedSize()\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String projectId)
+    '''returns None\n\n
+    setProjectId(final String projectId)\n
     '''
 def addConstraintChange():
-    '''public void addConstraintChange(final ConstraintChange constraintChange)
+    '''returns None\n\n
+    addConstraintChange(final ConstraintChange constraintChange)\n
     '''
 def getConstraintsChanged():
-    '''public Iterator getConstraintsChanged()
+    '''returns Iterator\n\n
+    getConstraintsChanged()\n
     '''
 def getConstraintsChangedSize():
-    '''public int getConstraintsChangedSize()
+    '''returns int\n\n
+    getConstraintsChangedSize()\n
     '''

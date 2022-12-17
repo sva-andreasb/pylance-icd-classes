@@ -1,9 +1,12 @@
-def CaseInsensitiveKey():
-    '''public CaseInsensitiveKey(final String key)
+def ():
+    '''returns CaseInsensitiveKey\n\n
+    (final String key)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

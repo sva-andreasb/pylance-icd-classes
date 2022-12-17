@@ -1,6 +1,8 @@
-def FldFCMServiceAcctJsonNP():
-    '''public FldFCMServiceAcctJsonNP(final MboValue mbv)
+def ():
+    '''returns FldFCMServiceAcctJsonNP\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

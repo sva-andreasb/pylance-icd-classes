@@ -1,22 +1,29 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def PmScCRActionsBean():
-    '''public PmScCRActionsBean()
+def ():
+    '''returns PmScCRActionsBean\n\n
+    ()\n
     '''
 def instantdelete():
-    '''public int instantdelete()
+    '''returns int\n\n
+    instantdelete()\n
     '''
 def createtmplt():
-    '''public int createtmplt()
+    '''returns int\n\n
+    createtmplt()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def showattributes():
-    '''public int showattributes()
+    '''returns int\n\n
+    showattributes()\n
     '''
 def servicelog2():
-    '''public int servicelog2()
+    '''returns int\n\n
+    servicelog2()\n
     '''
 def checkMandatoryFields():
-    '''public String checkMandatoryFields(final PmScCRRemote cart, final ArrayList<?> newSRs, final boolean findAll, final boolean addingToCart)
+    '''returns String\n\n
+    checkMandatoryFields(final PmScCRRemote cart, final ArrayList<?> newSRs, final boolean findAll, final boolean addingToCart)\n
     '''

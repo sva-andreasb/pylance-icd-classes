@@ -1,6 +1,8 @@
 def getLaborSet():
-    '''public MboSetRemote getLaborSet(final MboRemote woMbo)
+    '''returns MboSetRemote\n\n
+    getLaborSet(final MboRemote woMbo)\n
     '''
 def copyLaborToWpLaborSet():
-    '''public void copyLaborToWpLaborSet()
+    '''returns None\n\n
+    copyLaborToWpLaborSet()\n
     '''

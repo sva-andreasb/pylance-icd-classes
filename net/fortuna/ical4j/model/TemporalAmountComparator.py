@@ -1,3 +1,4 @@
 def compare():
-    '''public int compare(final TemporalAmount o1, final TemporalAmount o2)
+    '''returns int\n\n
+    compare(final TemporalAmount o1, final TemporalAmount o2)\n
     '''

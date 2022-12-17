@@ -1,12 +1,15 @@
-def Pk():
-    '''public Pk(final InputStream inputStream, final OutputStream outputStream)
-    public Pk(final InputStream inputStream, final OutputStream branch, final boolean dz)
+def ():
+    '''returns Pk\n\n
+    (final InputStream inputStream, final OutputStream outputStream)\n
+    (final InputStream inputStream, final OutputStream branch, final boolean dz)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] bts, final int st, final int end)
-    public int read(final byte[] bts)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] bts, final int st, final int end)\n
+    read(final byte[] bts)\n
     '''

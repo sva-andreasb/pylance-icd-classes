@@ -1,26 +1,34 @@
-def CharacterReader():
-    '''public CharacterReader(final Reader input, final int sz)
-    public CharacterReader(final Reader input)
-    public CharacterReader(final String input)
+def ():
+    '''returns CharacterReader\n\n
+    (final Reader input, final int sz)\n
+    (final Reader input)\n
+    (final String input)\n
     '''
 def pos():
-    '''public int pos()
+    '''returns int\n\n
+    pos()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def current():
-    '''public char current()
+    '''returns char\n\n
+    current()\n
     '''
 def advance():
-    '''public void advance()
+    '''returns None\n\n
+    advance()\n
     '''
 def consumeTo():
-    '''public String consumeTo(final char c)
+    '''returns String\n\n
+    consumeTo(final char c)\n
     '''
 def consumeToAny():
-    '''public String consumeToAny(final char... chars)
+    '''returns String\n\n
+    consumeToAny(final char... chars)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

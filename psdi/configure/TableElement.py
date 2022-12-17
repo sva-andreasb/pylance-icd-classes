@@ -1,77 +1,101 @@
-def TableElement():
-    '''public TableElement(final String name, final Namespace namespace, final String dir)
-    public TableElement(final String name, final String dir)
-    public TableElement(final String name, final String uri, final String dir)
-    public TableElement(final String name, final String prefix, final String uri, final String dir)
-    public TableElement(final String tbname, final HashMap newTable, final HashMap oldTable)
+def ():
+    '''returns TableElement\n\n
+    (final String name, final Namespace namespace, final String dir)\n
+    (final String name, final String dir)\n
+    (final String name, final String uri, final String dir)\n
+    (final String name, final String prefix, final String uri, final String dir)\n
+    (final String tbname, final HashMap newTable, final HashMap oldTable)\n
     '''
 def isView():
-    '''public boolean isView(final HashMap objMap)
-    public boolean isView()
+    '''returns boolean\n\n
+    isView(final HashMap objMap)\n
+    isView()\n
     '''
 def addView():
-    '''public boolean addView()
+    '''returns boolean\n\n
+    addView()\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setTableName():
-    '''public void setTableName(final String tableName)
+    '''returns None\n\n
+    setTableName(final String tableName)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def getNewChanged():
-    '''public String getNewChanged()
+    '''returns String\n\n
+    getNewChanged()\n
     '''
 def setNewChanged():
-    '''public void setNewChanged(final String value)
+    '''returns None\n\n
+    setNewChanged(final String value)\n
     '''
 def forceDrop():
-    '''public boolean forceDrop()
+    '''returns boolean\n\n
+    forceDrop()\n
     '''
 def forceRebuild():
-    '''public boolean forceRebuild()
+    '''returns boolean\n\n
+    forceRebuild()\n
     '''
 def getColumnsFromTable():
-    '''public TreeMap getColumnsFromTable(final HashMap table)
+    '''returns TreeMap\n\n
+    getColumnsFromTable(final HashMap table)\n
     '''
 def getTableAttributes():
-    '''public List getTableAttributes()
+    '''returns List\n\n
+    getTableAttributes()\n
     '''
 def getTableAttribute():
-    '''public Element getTableAttribute(final String attrName)
+    '''returns Element\n\n
+    getTableAttribute(final String attrName)\n
     '''
 def getColumns():
-    '''public List getColumns()
+    '''returns List\n\n
+    getColumns()\n
     '''
 def getColumn():
-    '''public ColumnElement getColumn(final String colName)
+    '''returns ColumnElement\n\n
+    getColumn(final String colName)\n
     '''
 def getAddSql():
-    '''public ArrayList getAddSql(final String tbname, final Connection con, final Util util, final HashMap oldTable)
+    '''returns ArrayList\n\n
+    getAddSql(final String tbname, final Connection con, final Util util, final HashMap oldTable)\n
     '''
 def getUpdateSql():
-    '''public ArrayList getUpdateSql(final String tbname, final Connection con, final Util util, final HashMap oldTable)
+    '''returns ArrayList\n\n
+    getUpdateSql(final String tbname, final Connection con, final Util util, final HashMap oldTable)\n
     '''
 def getPreDropSql():
-    '''public ArrayList getPreDropSql()
+    '''returns ArrayList\n\n
+    getPreDropSql()\n
     '''
 def getDropIndexesSql():
-    '''public String getDropIndexesSql(final String tableName)
+    '''returns String\n\n
+    getDropIndexesSql(final String tableName)\n
     '''
 def getNewHashmap():
-    '''public HashMap getNewHashmap(HashMap oldMap, final boolean rebuild)
+    '''returns HashMap\n\n
+    getNewHashmap(HashMap oldMap, final boolean rebuild)\n
     '''
 def toHashmap():
-    '''public HashMap toHashmap(final HashMap oldMap)
+    '''returns HashMap\n\n
+    toHashmap(final HashMap oldMap)\n
     '''
 def getNextVal():
-    '''public int getNextVal(final String tableName, final String columnName)
+    '''returns int\n\n
+    getNextVal(final String tableName, final String columnName)\n
     '''
 def adjustView():
-    '''public ArrayList adjustView(final HashMap baseTable, final Util util)
+    '''returns ArrayList\n\n
+    adjustView(final HashMap baseTable, final Util util)\n
     '''
 def getUpdateCount():
-    '''public int getUpdateCount()
+    '''returns int\n\n
+    getUpdateCount()\n
     '''

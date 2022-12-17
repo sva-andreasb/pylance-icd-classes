@@ -1,3 +1,4 @@
-def BIMDesignSpecLocSet():
-    '''public BIMDesignSpecLocSet(final MboServerInterface ms)
+def ():
+    '''returns BIMDesignSpecLocSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,98 +1,127 @@
-def Partial():
-    '''public Partial()
-    public Partial(final Chronology chronology)
-    public Partial(final DateTimeFieldType dateTimeFieldType, final int n)
-    public Partial(final DateTimeFieldType dateTimeFieldType, final int n, Chronology withUTC)
-    public Partial(final DateTimeFieldType[] array, final int[] array2)
-    public Partial(final DateTimeFieldType[] iTypes, final int[] iValues, Chronology withUTC)
-    public Partial(final ReadablePartial readablePartial)
+def ():
+    '''returns Partial\n\n
+    ()\n
+    (final Chronology chronology)\n
+    (final DateTimeFieldType dateTimeFieldType, final int n)\n
+    (final DateTimeFieldType dateTimeFieldType, final int n, Chronology withUTC)\n
+    (final DateTimeFieldType[] array, final int[] array2)\n
+    (final DateTimeFieldType[] iTypes, final int[] iValues, Chronology withUTC)\n
+    (final ReadablePartial readablePartial)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getChronology():
-    '''public Chronology getChronology()
+    '''returns Chronology\n\n
+    getChronology()\n
     '''
 def getFieldType():
-    '''public DateTimeFieldType getFieldType(final int n)
+    '''returns DateTimeFieldType\n\n
+    getFieldType(final int n)\n
     '''
 def getFieldTypes():
-    '''public DateTimeFieldType[] getFieldTypes()
+    '''returns DateTimeFieldType[]\n\n
+    getFieldTypes()\n
     '''
 def getValue():
-    '''public int getValue(final int n)
+    '''returns int\n\n
+    getValue(final int n)\n
     '''
 def getValues():
-    '''public int[] getValues()
+    '''returns int[]\n\n
+    getValues()\n
     '''
 def withChronologyRetainFields():
-    '''public Partial withChronologyRetainFields(Chronology chronology)
+    '''returns Partial\n\n
+    withChronologyRetainFields(Chronology chronology)\n
     '''
 def with():
-    '''public Partial with(final DateTimeFieldType dateTimeFieldType, final int n)
+    '''returns Partial\n\n
+    with(final DateTimeFieldType dateTimeFieldType, final int n)\n
     '''
 def without():
-    '''public Partial without(final DateTimeFieldType dateTimeFieldType)
+    '''returns Partial\n\n
+    without(final DateTimeFieldType dateTimeFieldType)\n
     '''
 def withField():
-    '''public Partial withField(final DateTimeFieldType dateTimeFieldType, final int n)
+    '''returns Partial\n\n
+    withField(final DateTimeFieldType dateTimeFieldType, final int n)\n
     '''
 def withFieldAdded():
-    '''public Partial withFieldAdded(final DurationFieldType durationFieldType, final int n)
+    '''returns Partial\n\n
+    withFieldAdded(final DurationFieldType durationFieldType, final int n)\n
     '''
 def withFieldAddWrapped():
-    '''public Partial withFieldAddWrapped(final DurationFieldType durationFieldType, final int n)
+    '''returns Partial\n\n
+    withFieldAddWrapped(final DurationFieldType durationFieldType, final int n)\n
     '''
 def withPeriodAdded():
-    '''public Partial withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''returns Partial\n\n
+    withPeriodAdded(final ReadablePeriod readablePeriod, final int n)\n
     '''
 def plus():
-    '''public Partial plus(final ReadablePeriod readablePeriod)
+    '''returns Partial\n\n
+    plus(final ReadablePeriod readablePeriod)\n
     '''
 def minus():
-    '''public Partial minus(final ReadablePeriod readablePeriod)
+    '''returns Partial\n\n
+    minus(final ReadablePeriod readablePeriod)\n
     '''
 def property():
-    '''public Property property(final DateTimeFieldType dateTimeFieldType)
+    '''returns Property\n\n
+    property(final DateTimeFieldType dateTimeFieldType)\n
     '''
 def isMatch():
-    '''public boolean isMatch(final ReadableInstant readableInstant)
-    public boolean isMatch(final ReadablePartial readablePartial)
+    '''returns boolean\n\n
+    isMatch(final ReadableInstant readableInstant)\n
+    isMatch(final ReadablePartial readablePartial)\n
     '''
 def getFormatter():
-    '''public DateTimeFormatter getFormatter()
+    '''returns DateTimeFormatter\n\n
+    getFormatter()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String s)
-    public String toString(final String s, final Locale locale)
+    '''returns String\n\n
+    toString()\n
+    toString(final String s)\n
+    toString(final String s, final Locale locale)\n
     '''
 def toStringList():
-    '''public String toStringList()
+    '''returns String\n\n
+    toStringList()\n
     '''
 def getField():
-    '''public DateTimeField getField()
+    '''returns DateTimeField\n\n
+    getField()\n
     '''
 def getPartial():
-    '''public Partial getPartial()
+    '''returns Partial\n\n
+    getPartial()\n
     '''
 def get():
-    '''public int get()
+    '''returns int\n\n
+    get()\n
     '''
 def addToCopy():
-    '''public Partial addToCopy(final int n)
+    '''returns Partial\n\n
+    addToCopy(final int n)\n
     '''
 def addWrapFieldToCopy():
-    '''public Partial addWrapFieldToCopy(final int n)
+    '''returns Partial\n\n
+    addWrapFieldToCopy(final int n)\n
     '''
 def setCopy():
-    '''public Partial setCopy(final int n)
-    public Partial setCopy(final String s, final Locale locale)
-    public Partial setCopy(final String s)
+    '''returns Partial\n\n
+    setCopy(final int n)\n
+    setCopy(final String s, final Locale locale)\n
+    setCopy(final String s)\n
     '''
 def withMaximumValue():
-    '''public Partial withMaximumValue()
+    '''returns Partial\n\n
+    withMaximumValue()\n
     '''
 def withMinimumValue():
-    '''public Partial withMinimumValue()
+    '''returns Partial\n\n
+    withMinimumValue()\n
     '''

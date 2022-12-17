@@ -1,6 +1,8 @@
-def FldMaxVarInputGLQuestion():
-    '''public FldMaxVarInputGLQuestion(final MboValue mbv)
+def ():
+    '''returns FldMaxVarInputGLQuestion\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

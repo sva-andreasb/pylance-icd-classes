@@ -1,27 +1,36 @@
-def LabTransEnterBy():
-    '''public LabTransEnterBy(final MboSet ms)
+def ():
+    '''returns LabTransEnterBy\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def fillTemporaryMbos():
-    '''public void fillTemporaryMbos(final WORemote wo)
+    '''returns None\n\n
+    fillTemporaryMbos(final WORemote wo)\n
     '''
 def existLabTransRecord():
-    '''public boolean existLabTransRecord(final WMAssignmentRemote wmassign)
+    '''returns boolean\n\n
+    existLabTransRecord(final WMAssignmentRemote wmassign)\n
     '''
 def existToolTransRecord():
-    '''public boolean existToolTransRecord(final WMAssignmentRemote wmassign)
+    '''returns boolean\n\n
+    existToolTransRecord(final WMAssignmentRemote wmassign)\n
     '''
 def cleanMainRecord():
-    '''public void cleanMainRecord(final String excludedField)
+    '''returns None\n\n
+    cleanMainRecord(final String excludedField)\n
     '''
 def rangeWorkDate():
-    '''public Date rangeWorkDate(final boolean up)
+    '''returns Date\n\n
+    rangeWorkDate(final boolean up)\n
     '''
 def getCurrentShiftStartDate():
-    '''public Date getCurrentShiftStartDate(final Date workdate)
+    '''returns Date\n\n
+    getCurrentShiftStartDate(final Date workdate)\n
     '''
 def getCurrentShiftEndate():
-    '''public Date getCurrentShiftEndate(final Date workdate)
+    '''returns Date\n\n
+    getCurrentShiftEndate(final Date workdate)\n
     '''

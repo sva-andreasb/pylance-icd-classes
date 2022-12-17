@@ -1,8 +1,10 @@
-def SimpleAdminCommand():
-    '''public SimpleAdminCommand(final CommandMetadata metadata)
-    public SimpleAdminCommand(final CommandData commandData)
+def ():
+    '''returns SimpleAdminCommand\n\n
+    (final CommandMetadata metadata)\n
+    (final CommandData commandData)\n
     '''
 def execute():
-    '''public void execute()
-    public void execute(final CommandHistory cmdHistory)
+    '''returns None\n\n
+    execute()\n
+    execute(final CommandHistory cmdHistory)\n
     '''

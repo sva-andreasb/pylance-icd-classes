@@ -1,13 +1,17 @@
-def SimpleDirectoryPersistentCache():
-    '''public SimpleDirectoryPersistentCache(final File cacheDir)
-    public SimpleDirectoryPersistentCache(final File cacheDir, final StringEncoder filenameEncoder)
+def ():
+    '''returns SimpleDirectoryPersistentCache\n\n
+    (final File cacheDir)\n
+    (final File cacheDir, final StringEncoder filenameEncoder)\n
     '''
 def addDiscoverInfoByNodePersistent():
-    '''public void addDiscoverInfoByNodePersistent(final String nodeVer, final DiscoverInfo info)
+    '''returns None\n\n
+    addDiscoverInfoByNodePersistent(final String nodeVer, final DiscoverInfo info)\n
     '''
 def lookup():
-    '''public DiscoverInfo lookup(final String nodeVer)
+    '''returns DiscoverInfo\n\n
+    lookup(final String nodeVer)\n
     '''
 def emptyCache():
-    '''public void emptyCache()
+    '''returns None\n\n
+    emptyCache()\n
     '''

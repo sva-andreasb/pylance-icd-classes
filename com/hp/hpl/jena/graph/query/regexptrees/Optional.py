@@ -1,12 +1,16 @@
-def Optional():
-    '''public Optional(final RegexpTree operand)
+def ():
+    '''returns Optional\n\n
+    (final RegexpTree operand)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object x)
+    '''returns boolean\n\n
+    equals(final Object x)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,6 +1,8 @@
-def FldWoTagOutTagOutId():
-    '''public FldWoTagOutTagOutId(final MboValue mbv)
+def ():
+    '''returns FldWoTagOutTagOutId\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

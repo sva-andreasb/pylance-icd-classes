@@ -1,23 +1,30 @@
-def BasicPoolEntry():
-    '''public BasicPoolEntry(final ClientConnectionOperator op, final HttpRoute route, final ReferenceQueue<Object> queue)
-    public BasicPoolEntry(final ClientConnectionOperator op, final HttpRoute route)
-    public BasicPoolEntry(final ClientConnectionOperator op, final HttpRoute route, final long connTTL, final TimeUnit timeunit)
+def ():
+    '''returns BasicPoolEntry\n\n
+    (final ClientConnectionOperator op, final HttpRoute route, final ReferenceQueue<Object> queue)\n
+    (final ClientConnectionOperator op, final HttpRoute route)\n
+    (final ClientConnectionOperator op, final HttpRoute route, final long connTTL, final TimeUnit timeunit)\n
     '''
 def getCreated():
-    '''public long getCreated()
+    '''returns long\n\n
+    getCreated()\n
     '''
 def getUpdated():
-    '''public long getUpdated()
+    '''returns long\n\n
+    getUpdated()\n
     '''
 def getExpiry():
-    '''public long getExpiry()
+    '''returns long\n\n
+    getExpiry()\n
     '''
 def getValidUntil():
-    '''public long getValidUntil()
+    '''returns long\n\n
+    getValidUntil()\n
     '''
 def updateExpiry():
-    '''public void updateExpiry(final long time, final TimeUnit timeunit)
+    '''returns None\n\n
+    updateExpiry(final long time, final TimeUnit timeunit)\n
     '''
 def isExpired():
-    '''public boolean isExpired(final long now)
+    '''returns boolean\n\n
+    isExpired(final long now)\n
     '''

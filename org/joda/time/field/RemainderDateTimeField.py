@@ -1,49 +1,64 @@
-def RemainderDateTimeField():
-    '''public RemainderDateTimeField(final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType, final int iDivisor)
-    public RemainderDateTimeField(final DateTimeField dateTimeField, final DurationField iRangeField, final DateTimeFieldType dateTimeFieldType, final int iDivisor)
-    public RemainderDateTimeField(final DividedDateTimeField dividedDateTimeField)
-    public RemainderDateTimeField(final DividedDateTimeField dividedDateTimeField, final DateTimeFieldType dateTimeFieldType)
-    public RemainderDateTimeField(final DividedDateTimeField dividedDateTimeField, final DurationField iDurationField, final DateTimeFieldType dateTimeFieldType)
+def ():
+    '''returns RemainderDateTimeField\n\n
+    (final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType, final int iDivisor)\n
+    (final DateTimeField dateTimeField, final DurationField iRangeField, final DateTimeFieldType dateTimeFieldType, final int iDivisor)\n
+    (final DividedDateTimeField dividedDateTimeField)\n
+    (final DividedDateTimeField dividedDateTimeField, final DateTimeFieldType dateTimeFieldType)\n
+    (final DividedDateTimeField dividedDateTimeField, final DurationField iDurationField, final DateTimeFieldType dateTimeFieldType)\n
     '''
 def get():
-    '''public int get(final long n)
+    '''returns int\n\n
+    get(final long n)\n
     '''
 def addWrapField():
-    '''public long addWrapField(final long n, final int n2)
+    '''returns long\n\n
+    addWrapField(final long n, final int n2)\n
     '''
 def set():
-    '''public long set(final long n, final int n2)
+    '''returns long\n\n
+    set(final long n, final int n2)\n
     '''
 def getDurationField():
-    '''public DurationField getDurationField()
+    '''returns DurationField\n\n
+    getDurationField()\n
     '''
 def getRangeDurationField():
-    '''public DurationField getRangeDurationField()
+    '''returns DurationField\n\n
+    getRangeDurationField()\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue()
+    '''returns int\n\n
+    getMinimumValue()\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue()
+    '''returns int\n\n
+    getMaximumValue()\n
     '''
 def roundFloor():
-    '''public long roundFloor(final long n)
+    '''returns long\n\n
+    roundFloor(final long n)\n
     '''
 def roundCeiling():
-    '''public long roundCeiling(final long n)
+    '''returns long\n\n
+    roundCeiling(final long n)\n
     '''
 def roundHalfFloor():
-    '''public long roundHalfFloor(final long n)
+    '''returns long\n\n
+    roundHalfFloor(final long n)\n
     '''
 def roundHalfCeiling():
-    '''public long roundHalfCeiling(final long n)
+    '''returns long\n\n
+    roundHalfCeiling(final long n)\n
     '''
 def roundHalfEven():
-    '''public long roundHalfEven(final long n)
+    '''returns long\n\n
+    roundHalfEven(final long n)\n
     '''
 def remainder():
-    '''public long remainder(final long n)
+    '''returns long\n\n
+    remainder(final long n)\n
     '''
 def getDivisor():
-    '''public int getDivisor()
+    '''returns int\n\n
+    getDivisor()\n
     '''

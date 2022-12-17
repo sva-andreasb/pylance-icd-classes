@@ -1,49 +1,65 @@
-def CreationFactory():
-    '''public CreationFactory()
-    public CreationFactory(final String title, final URI creation)
+def ():
+    '''returns CreationFactory\n\n
+    ()\n
+    (final String title, final URI creation)\n
     '''
 def addResourceShape():
-    '''public void addResourceShape(final URI resourceShape)
+    '''returns None\n\n
+    addResourceShape(final URI resourceShape)\n
     '''
 def addResourceType():
-    '''public void addResourceType(final URI resourceType)
+    '''returns None\n\n
+    addResourceType(final URI resourceType)\n
     '''
 def addUsage():
-    '''public void addUsage(final URI usage)
+    '''returns None\n\n
+    addUsage(final URI usage)\n
     '''
 def getCreation():
-    '''public URI getCreation()
+    '''returns URI\n\n
+    getCreation()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getResourceShapes():
-    '''public URI[] getResourceShapes()
+    '''returns URI[]\n\n
+    getResourceShapes()\n
     '''
 def getResourceTypes():
-    '''public URI[] getResourceTypes()
+    '''returns URI[]\n\n
+    getResourceTypes()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getUsages():
-    '''public URI[] getUsages()
+    '''returns URI[]\n\n
+    getUsages()\n
     '''
 def setCreation():
-    '''public void setCreation(final URI creation)
+    '''returns None\n\n
+    setCreation(final URI creation)\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setResourceShapes():
-    '''public void setResourceShapes(final URI[] resourceShapes)
+    '''returns None\n\n
+    setResourceShapes(final URI[] resourceShapes)\n
     '''
 def setResourceTypes():
-    '''public void setResourceTypes(final URI[] resourceTypes)
+    '''returns None\n\n
+    setResourceTypes(final URI[] resourceTypes)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setUsages():
-    '''public void setUsages(final URI[] usages)
+    '''returns None\n\n
+    setUsages(final URI[] usages)\n
     '''

@@ -1,19 +1,25 @@
-def Comment():
-    '''public Comment(final String data)
-    public Comment(final String data, final String baseUri)
+def ():
+    '''returns Comment\n\n
+    (final String data)\n
+    (final String data, final String baseUri)\n
     '''
 def nodeName():
-    '''public String nodeName()
+    '''returns String\n\n
+    nodeName()\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isXmlDeclaration():
-    '''public boolean isXmlDeclaration()
+    '''returns boolean\n\n
+    isXmlDeclaration()\n
     '''
 def asXmlDeclaration():
-    '''public XmlDeclaration asXmlDeclaration()
+    '''returns XmlDeclaration\n\n
+    asXmlDeclaration()\n
     '''

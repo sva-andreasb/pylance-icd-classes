@@ -1,36 +1,40 @@
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getRegionLength():
-    '''public int getRegionLength()
+    '''returns int\n\n
+    getRegionLength()\n
     '''
-def createAppender():
-    '''public static <B extends Builder<B>> MemoryMappedFileAppender createAppender(final String fileName, final String append, final String name, final String immediateFlush, final String regionLengthStr, final String ignore, final Layout<? extends Serializable> layout, final Filter filter, final String advertise, final String advertiseURI, final Configuration config)
-    '''
-def newBuilder():
-    '''public static <B extends Builder<B>> B newBuilder()
-    '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def build():
-    '''public MemoryMappedFileAppender build()
+    '''returns MemoryMappedFileAppender\n\n
+    build()\n
     '''
 def setFileName():
-    '''public B setFileName(final String fileName)
+    '''returns B\n\n
+    setFileName(final String fileName)\n
     '''
 def setAppend():
-    '''public B setAppend(final boolean append)
+    '''returns B\n\n
+    setAppend(final boolean append)\n
     '''
 def setRegionLength():
-    '''public B setRegionLength(final int regionLength)
+    '''returns B\n\n
+    setRegionLength(final int regionLength)\n
     '''
 def setAdvertise():
-    '''public B setAdvertise(final boolean advertise)
+    '''returns B\n\n
+    setAdvertise(final boolean advertise)\n
     '''
 def setAdvertiseURI():
-    '''public B setAdvertiseURI(final String advertiseURI)
+    '''returns B\n\n
+    setAdvertiseURI(final String advertiseURI)\n
     '''

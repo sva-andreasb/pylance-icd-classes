@@ -1,91 +1,120 @@
 def setCloudURI():
-    '''public void setCloudURI(final URI uri)
+    '''returns None\n\n
+    setCloudURI(final URI uri)\n
     '''
 def getCloudURI():
-    '''public URI getCloudURI()
+    '''returns URI\n\n
+    getCloudURI()\n
     '''
 def getNativeIdentifier():
-    '''public String getNativeIdentifier()
+    '''returns String\n\n
+    getNativeIdentifier()\n
     '''
 def setNativeIdentifier():
-    '''public void setNativeIdentifier(final String nativeIdentifier)
+    '''returns None\n\n
+    setNativeIdentifier(final String nativeIdentifier)\n
     '''
 def getNativeReference():
-    '''public URI getNativeReference()
+    '''returns URI\n\n
+    getNativeReference()\n
     '''
 def setNativeReference():
-    '''public void setNativeReference(final URI reference)
-    public void setNativeReference(final String reference)
+    '''returns None\n\n
+    setNativeReference(final URI reference)\n
+    setNativeReference(final String reference)\n
     '''
 def getNativeType():
-    '''public String getNativeType()
+    '''returns String\n\n
+    getNativeType()\n
     '''
 def setNativeType():
-    '''public void setNativeType(final String nativeType)
+    '''returns None\n\n
+    setNativeType(final String nativeType)\n
     '''
 def setAbout():
-    '''public void setAbout(final String uri)
+    '''returns None\n\n
+    setAbout(final String uri)\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def setIdentifier():
-    '''public void setIdentifier(final String identifier)
+    '''returns None\n\n
+    setIdentifier(final String identifier)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getContributors():
-    '''public List<URI> getContributors()
+    '''returns List<URI>\n\n
+    getContributors()\n
     '''
 def setContributors():
-    '''public void setContributors(final List<URI> contributors)
+    '''returns None\n\n
+    setContributors(final List<URI> contributors)\n
     '''
 def setContributor():
-    '''public void setContributor(final String contributor)
+    '''returns None\n\n
+    setContributor(final String contributor)\n
     '''
 def getCreator():
-    '''public URI getCreator()
+    '''returns URI\n\n
+    getCreator()\n
     '''
 def setCreator():
-    '''public void setCreator(final URI creator)
-    public void setCreator(final String creator)
+    '''returns None\n\n
+    setCreator(final URI creator)\n
+    setCreator(final String creator)\n
     '''
 def getCreated():
-    '''public Date getCreated()
+    '''returns Date\n\n
+    getCreated()\n
     '''
 def setCreated():
-    '''public void setCreated(final Date created)
+    '''returns None\n\n
+    setCreated(final Date created)\n
     '''
 def getModified():
-    '''public Date getModified()
+    '''returns Date\n\n
+    getModified()\n
     '''
 def setModified():
-    '''public void setModified(final Date modified)
+    '''returns None\n\n
+    setModified(final Date modified)\n
     '''
 def getServiceProvider():
-    '''public URI getServiceProvider()
+    '''returns URI\n\n
+    getServiceProvider()\n
     '''
 def setServiceProvider():
-    '''public void setServiceProvider(final URI serviceProvider)
-    public void setServiceProvider(final String serviceProvider)
+    '''returns None\n\n
+    setServiceProvider(final URI serviceProvider)\n
+    setServiceProvider(final String serviceProvider)\n
     '''
 def getInstanceShape():
-    '''public URI getInstanceShape()
+    '''returns URI\n\n
+    getInstanceShape()\n
     '''
 def setInstanceShape():
-    '''public void setInstanceShape(final URI instanceShape)
-    public void setInstanceShape(final String instanceShape)
+    '''returns None\n\n
+    setInstanceShape(final URI instanceShape)\n
+    setInstanceShape(final String instanceShape)\n
     '''
 def removeType():
-    '''public void removeType(final URI type)
+    '''returns None\n\n
+    removeType(final URI type)\n
     '''

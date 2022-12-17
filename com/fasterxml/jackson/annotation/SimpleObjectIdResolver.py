@@ -1,12 +1,16 @@
 def bindItem():
-    '''public void bindItem(final ObjectIdGenerator.IdKey id, final Object ob)
+    '''returns None\n\n
+    bindItem(final ObjectIdGenerator.IdKey id, final Object ob)\n
     '''
 def resolveId():
-    '''public Object resolveId(final ObjectIdGenerator.IdKey id)
+    '''returns Object\n\n
+    resolveId(final ObjectIdGenerator.IdKey id)\n
     '''
 def canUseFor():
-    '''public boolean canUseFor(final ObjectIdResolver resolverType)
+    '''returns boolean\n\n
+    canUseFor(final ObjectIdResolver resolverType)\n
     '''
 def newForDeserialization():
-    '''public ObjectIdResolver newForDeserialization(final Object context)
+    '''returns ObjectIdResolver\n\n
+    newForDeserialization(final Object context)\n
     '''

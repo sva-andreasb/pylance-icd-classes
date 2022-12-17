@@ -1,6 +1,8 @@
-def IEMEndpointMbo():
-    '''public IEMEndpointMbo(final MboSet ms)
+def ():
+    '''returns IEMEndpointMbo\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

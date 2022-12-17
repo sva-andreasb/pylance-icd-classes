@@ -1,7 +1,9 @@
-def CCIFldSyncRelatedCIs():
-    '''public CCIFldSyncRelatedCIs()
-    public CCIFldSyncRelatedCIs(final MboValue mbv)
+def ():
+    '''returns CCIFldSyncRelatedCIs\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

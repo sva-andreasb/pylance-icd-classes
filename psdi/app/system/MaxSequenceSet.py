@@ -1,3 +1,4 @@
-def MaxSequenceSet():
-    '''public MaxSequenceSet(final MboServerInterface ms)
+def ():
+    '''returns MaxSequenceSet\n\n
+    (final MboServerInterface ms)\n
     '''

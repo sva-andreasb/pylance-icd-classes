@@ -1,9 +1,12 @@
-def Tokenizer():
-    '''public Tokenizer(Reader reader)
+def ():
+    '''returns Tokenizer\n\n
+    (Reader reader)\n
     '''
 def next():
-    '''public Token next()
+    '''returns Token\n\n
+    next()\n
     '''
 def onLineCol():
-    '''public String onLineCol()
+    '''returns String\n\n
+    onLineCol()\n
     '''

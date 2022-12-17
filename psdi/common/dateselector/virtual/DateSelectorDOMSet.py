@@ -1,6 +1,8 @@
-def DateSelectorDOMSet():
-    '''public DateSelectorDOMSet(final MboServerInterface ms)
+def ():
+    '''returns DateSelectorDOMSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getDatesForMonth():
-    '''public MboSetRemote getDatesForMonth()
+    '''returns MboSetRemote\n\n
+    getDatesForMonth()\n
     '''

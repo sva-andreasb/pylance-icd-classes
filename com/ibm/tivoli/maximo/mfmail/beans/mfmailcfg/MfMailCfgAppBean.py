@@ -1,37 +1,49 @@
-def MfMailCfgAppBean():
-    '''public MfMailCfgAppBean()
+def ():
+    '''returns MfMailCfgAppBean\n\n
+    ()\n
     '''
 def ACTIVATE():
-    '''public int ACTIVATE()
+    '''returns int\n\n
+    ACTIVATE()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''
 def INSERT():
-    '''public int INSERT()
+    '''returns int\n\n
+    INSERT()\n
     '''
 def VALIDATE():
-    '''public int VALIDATE()
+    '''returns int\n\n
+    VALIDATE()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def find():
-    '''public int find()
+    '''returns int\n\n
+    find()\n
     '''
 def getResultsBean():
-    '''public ResultsBean getResultsBean()
+    '''returns ResultsBean\n\n
+    getResultsBean()\n
     '''
 def switchComponentsVisible():
-    '''public void switchComponentsVisible()
-    public void switchComponentsVisible(MfMailCfgRemote mbo)
+    '''returns None\n\n
+    switchComponentsVisible()\n
+    switchComponentsVisible(MfMailCfgRemote mbo)\n
     '''
 def renderSections():
-    '''public boolean renderSections(final boolean isSCRender, final boolean isWFRender)
+    '''returns boolean\n\n
+    renderSections(final boolean isSCRender, final boolean isWFRender)\n
     '''
 def switchVisibility():
-    '''public boolean switchVisibility(final String controlId, final boolean visible)
+    '''returns boolean\n\n
+    switchVisibility(final String controlId, final boolean visible)\n
     '''

@@ -1,102 +1,136 @@
-def Layout():
-    '''public Layout()
+def ():
+    '''returns Layout\n\n
+    ()\n
     '''
 def isHasVirtualSystems():
-    '''public boolean isHasVirtualSystems()
+    '''returns boolean\n\n
+    isHasVirtualSystems()\n
     '''
 def setHasVirtualSystems():
-    '''public void setHasVirtualSystems(final boolean hasVirtualSystems)
+    '''returns None\n\n
+    setHasVirtualSystems(final boolean hasVirtualSystems)\n
     '''
 def isHasLPARs():
-    '''public boolean isHasLPARs()
+    '''returns boolean\n\n
+    isHasLPARs()\n
     '''
 def setHasLPARs():
-    '''public void setHasLPARs(final boolean hasLPARs)
+    '''returns None\n\n
+    setHasLPARs(final boolean hasLPARs)\n
     '''
 def isHasDSDs():
-    '''public boolean isHasDSDs()
+    '''returns boolean\n\n
+    isHasDSDs()\n
     '''
 def setHasDSDs():
-    '''public void setHasDSDs(final boolean hasDSDs)
+    '''returns None\n\n
+    setHasDSDs(final boolean hasDSDs)\n
     '''
 def isHasHMCs():
-    '''public boolean isHasHMCs()
+    '''returns boolean\n\n
+    isHasHMCs()\n
     '''
 def setHasHMCs():
-    '''public void setHasHMCs(final boolean hasHMCs)
+    '''returns None\n\n
+    setHasHMCs(final boolean hasHMCs)\n
     '''
 def isHasSCs():
-    '''public boolean isHasSCs()
+    '''returns boolean\n\n
+    isHasSCs()\n
     '''
 def setHasSCs():
-    '''public void setHasSCs(final boolean hasSCs)
+    '''returns None\n\n
+    setHasSCs(final boolean hasSCs)\n
     '''
 def isHasBoards():
-    '''public boolean isHasBoards()
+    '''returns boolean\n\n
+    isHasBoards()\n
     '''
 def setHasBoards():
-    '''public void setHasBoards(final boolean hasBoards)
+    '''returns None\n\n
+    setHasBoards(final boolean hasBoards)\n
     '''
 def isHasBoardsGeneral():
-    '''public boolean isHasBoardsGeneral()
+    '''returns boolean\n\n
+    isHasBoardsGeneral()\n
     '''
 def setHasBoardsGeneral():
-    '''public void setHasBoardsGeneral(final boolean hasBoardsGeneral)
+    '''returns None\n\n
+    setHasBoardsGeneral(final boolean hasBoardsGeneral)\n
     '''
 def isHasExtAttrs():
-    '''public boolean isHasExtAttrs()
+    '''returns boolean\n\n
+    isHasExtAttrs()\n
     '''
 def setHasExtAttrs():
-    '''public void setHasExtAttrs(final boolean hasExtAttrs)
+    '''returns None\n\n
+    setHasExtAttrs(final boolean hasExtAttrs)\n
     '''
 def isHasMssInfo():
-    '''public boolean isHasMssInfo()
+    '''returns boolean\n\n
+    isHasMssInfo()\n
     '''
 def setHasMssInfo():
-    '''public void setHasMssInfo(final boolean hasMssInfo)
+    '''returns None\n\n
+    setHasMssInfo(final boolean hasMssInfo)\n
     '''
 def isHasArtifactInfo():
-    '''public boolean isHasArtifactInfo()
+    '''returns boolean\n\n
+    isHasArtifactInfo()\n
     '''
 def setHasArtifactInfo():
-    '''public void setHasArtifactInfo(final boolean hasArtifactInfo)
+    '''returns None\n\n
+    setHasArtifactInfo(final boolean hasArtifactInfo)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final String displayName)
+    '''returns None\n\n
+    setDisplayName(final String displayName)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getTab():
-    '''public Tab getTab(final String tabName)
+    '''returns Tab\n\n
+    getTab(final String tabName)\n
     '''
 def isHasAdminInfo():
-    '''public boolean isHasAdminInfo()
+    '''returns boolean\n\n
+    isHasAdminInfo()\n
     '''
 def setHasAdminInfo():
-    '''public void setHasAdminInfo(final boolean v)
+    '''returns None\n\n
+    setHasAdminInfo(final boolean v)\n
     '''
 def addTab():
-    '''public void addTab(final Tab tab)
+    '''returns None\n\n
+    addTab(final Tab tab)\n
     '''
 def getTabList():
-    '''public List getTabList()
+    '''returns List\n\n
+    getTabList()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setSubName():
-    '''public void setSubName(final String subname)
+    '''returns None\n\n
+    setSubName(final String subname)\n
     '''
 def getSubName():
-    '''public String getSubName()
+    '''returns String\n\n
+    getSubName()\n
     '''

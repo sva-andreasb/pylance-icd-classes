@@ -1,24 +1,24 @@
-def InvUseLineSelectReservedItems():
-    '''public InvUseLineSelectReservedItems()
-    '''
-def execute():
-    '''public synchronized int execute()
-    '''
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+def ():
+    '''returns InvUseLineSelectReservedItems\n\n
+    ()\n
     '''
 def setShowReservation():
-    '''public void setShowReservation(final int row)
+    '''returns None\n\n
+    setShowReservation(final int row)\n
     '''
 def filterrows():
-    '''public int filterrows()
+    '''returns int\n\n
+    filterrows()\n
     '''
 def scrollnext():
-    '''public int scrollnext()
+    '''returns int\n\n
+    scrollnext()\n
     '''
 def scrollprev():
-    '''public int scrollprev()
+    '''returns int\n\n
+    scrollprev()\n
     '''
 def highlightrow():
-    '''public int highlightrow(final int row)
+    '''returns int\n\n
+    highlightrow(final int row)\n
     '''

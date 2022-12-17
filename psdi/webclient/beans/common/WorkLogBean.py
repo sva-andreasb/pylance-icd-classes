@@ -1,12 +1,12 @@
 def servicelog():
-    '''public int servicelog()
+    '''returns int\n\n
+    servicelog()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def selectlog():
-    '''public int selectlog()
-    '''
-def dataChangedEvent():
-    '''public synchronized void dataChangedEvent(final DataBean speaker)
+    '''returns int\n\n
+    selectlog()\n
     '''

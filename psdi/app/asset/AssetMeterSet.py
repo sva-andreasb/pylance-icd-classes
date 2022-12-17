@@ -1,6 +1,8 @@
-def AssetMeterSet():
-    '''public AssetMeterSet(final MboServerInterface ms)
+def ():
+    '''returns AssetMeterSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

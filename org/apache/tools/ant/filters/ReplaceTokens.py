@@ -1,34 +1,29 @@
-def ReplaceTokens():
-    '''public ReplaceTokens()
-    public ReplaceTokens(final Reader in)
+def ():
+    '''returns ReplaceTokens\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def setBeginToken():
-    '''public void setBeginToken(final char beginToken)
+    '''returns None\n\n
+    setBeginToken(final char beginToken)\n
     '''
 def setEndToken():
-    '''public void setEndToken(final char endToken)
+    '''returns None\n\n
+    setEndToken(final char endToken)\n
     '''
 def setPropertiesResource():
-    '''public void setPropertiesResource(final Resource r)
+    '''returns None\n\n
+    setPropertiesResource(final Resource r)\n
     '''
 def addConfiguredToken():
-    '''public void addConfiguredToken(final Token token)
+    '''returns None\n\n
+    addConfiguredToken(final Token token)\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
-    '''
-def setKey():
-    '''public final void setKey(final String key)
-    '''
-def setValue():
-    '''public final void setValue(final String value)
-    '''
-def getKey():
-    '''public final String getKey()
-    '''
-def getValue():
-    '''public final String getValue()
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''

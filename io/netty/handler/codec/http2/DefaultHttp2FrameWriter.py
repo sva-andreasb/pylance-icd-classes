@@ -1,53 +1,69 @@
-def DefaultHttp2FrameWriter():
-    '''public DefaultHttp2FrameWriter()
-    public DefaultHttp2FrameWriter(final Http2HeadersEncoder.SensitivityDetector headersSensitivityDetector)
-    public DefaultHttp2FrameWriter(final Http2HeadersEncoder.SensitivityDetector headersSensitivityDetector, final boolean ignoreMaxHeaderListSize)
-    public DefaultHttp2FrameWriter(final Http2HeadersEncoder headersEncoder)
+def ():
+    '''returns DefaultHttp2FrameWriter\n\n
+    ()\n
+    (final Http2HeadersEncoder.SensitivityDetector headersSensitivityDetector)\n
+    (final Http2HeadersEncoder.SensitivityDetector headersSensitivityDetector, final boolean ignoreMaxHeaderListSize)\n
+    (final Http2HeadersEncoder headersEncoder)\n
     '''
 def configuration():
-    '''public Configuration configuration()
+    '''returns Configuration\n\n
+    configuration()\n
     '''
 def frameSizePolicy():
-    '''public Http2FrameSizePolicy frameSizePolicy()
+    '''returns Http2FrameSizePolicy\n\n
+    frameSizePolicy()\n
     '''
 def maxFrameSize():
-    '''public void maxFrameSize(final int max)
-    public int maxFrameSize()
+    '''returns int\n\n
+    maxFrameSize(final int max)\n
+    maxFrameSize()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def writeData():
-    '''public ChannelFuture writeData(final ChannelHandlerContext ctx, final int streamId, ByteBuf data, int padding, final boolean endStream, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writeData(final ChannelHandlerContext ctx, final int streamId, ByteBuf data, int padding, final boolean endStream, final ChannelPromise promise)\n
     '''
 def writeHeaders():
-    '''public ChannelFuture writeHeaders(final ChannelHandlerContext ctx, final int streamId, final Http2Headers headers, final int padding, final boolean endStream, final ChannelPromise promise)
-    public ChannelFuture writeHeaders(final ChannelHandlerContext ctx, final int streamId, final Http2Headers headers, final int streamDependency, final short weight, final boolean exclusive, final int padding, final boolean endStream, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writeHeaders(final ChannelHandlerContext ctx, final int streamId, final Http2Headers headers, final int padding, final boolean endStream, final ChannelPromise promise)\n
+    writeHeaders(final ChannelHandlerContext ctx, final int streamId, final Http2Headers headers, final int streamDependency, final short weight, final boolean exclusive, final int padding, final boolean endStream, final ChannelPromise promise)\n
     '''
 def writePriority():
-    '''public ChannelFuture writePriority(final ChannelHandlerContext ctx, final int streamId, final int streamDependency, final short weight, final boolean exclusive, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writePriority(final ChannelHandlerContext ctx, final int streamId, final int streamDependency, final short weight, final boolean exclusive, final ChannelPromise promise)\n
     '''
 def writeRstStream():
-    '''public ChannelFuture writeRstStream(final ChannelHandlerContext ctx, final int streamId, final long errorCode, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writeRstStream(final ChannelHandlerContext ctx, final int streamId, final long errorCode, final ChannelPromise promise)\n
     '''
 def writeSettings():
-    '''public ChannelFuture writeSettings(final ChannelHandlerContext ctx, final Http2Settings settings, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writeSettings(final ChannelHandlerContext ctx, final Http2Settings settings, final ChannelPromise promise)\n
     '''
 def writeSettingsAck():
-    '''public ChannelFuture writeSettingsAck(final ChannelHandlerContext ctx, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writeSettingsAck(final ChannelHandlerContext ctx, final ChannelPromise promise)\n
     '''
 def writePing():
-    '''public ChannelFuture writePing(final ChannelHandlerContext ctx, final boolean ack, final long data, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writePing(final ChannelHandlerContext ctx, final boolean ack, final long data, final ChannelPromise promise)\n
     '''
 def writePushPromise():
-    '''public ChannelFuture writePushPromise(final ChannelHandlerContext ctx, final int streamId, final int promisedStreamId, final Http2Headers headers, final int padding, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writePushPromise(final ChannelHandlerContext ctx, final int streamId, final int promisedStreamId, final Http2Headers headers, final int padding, final ChannelPromise promise)\n
     '''
 def writeGoAway():
-    '''public ChannelFuture writeGoAway(final ChannelHandlerContext ctx, final int lastStreamId, final long errorCode, final ByteBuf debugData, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writeGoAway(final ChannelHandlerContext ctx, final int lastStreamId, final long errorCode, final ByteBuf debugData, final ChannelPromise promise)\n
     '''
 def writeWindowUpdate():
-    '''public ChannelFuture writeWindowUpdate(final ChannelHandlerContext ctx, final int streamId, final int windowSizeIncrement, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writeWindowUpdate(final ChannelHandlerContext ctx, final int streamId, final int windowSizeIncrement, final ChannelPromise promise)\n
     '''
 def writeFrame():
-    '''public ChannelFuture writeFrame(final ChannelHandlerContext ctx, final byte frameType, final int streamId, final Http2Flags flags, final ByteBuf payload, final ChannelPromise promise)
+    '''returns ChannelFuture\n\n
+    writeFrame(final ChannelHandlerContext ctx, final byte frameType, final int streamId, final Http2Flags flags, final ByteBuf payload, final ChannelPromise promise)\n
     '''

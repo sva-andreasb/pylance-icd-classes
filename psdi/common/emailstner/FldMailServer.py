@@ -1,6 +1,8 @@
-def FldMailServer():
-    '''public FldMailServer(final MboValue mbv)
+def ():
+    '''returns FldMailServer\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

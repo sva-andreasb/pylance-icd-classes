@@ -1,7 +1,9 @@
-def ResponseInfoArray():
-    '''public ResponseInfoArray(final T[] array, final Map<String, Object> properties, final int totalCount, final String nextPage)
-    public ResponseInfoArray(final T[] array, final Map<String, Object> properties, final int totalCount, final URI nextPage)
+def ():
+    '''returns ResponseInfoArray\n\n
+    (final T[] array, final Map<String, Object> properties, final int totalCount, final String nextPage)\n
+    (final T[] array, final Map<String, Object> properties, final int totalCount, final URI nextPage)\n
     '''
 def array():
-    '''public T[] array()
+    '''returns T[]\n\n
+    array()\n
     '''

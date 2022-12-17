@@ -1,9 +1,12 @@
-def MultiUserChatLowLevelIntegrationTest():
-    '''public MultiUserChatLowLevelIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns MultiUserChatLowLevelIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def connectionCallback():
-    '''public void connectionCallback(final XMPPTCPConnection connection)
+    '''returns None\n\n
+    connectionCallback(final XMPPTCPConnection connection)\n
     '''
 def testMucBookmarksAutojoin():
-    '''public void testMucBookmarksAutojoin(final XMPPTCPConnection connection)
+    '''returns None\n\n
+    testMucBookmarksAutojoin(final XMPPTCPConnection connection)\n
     '''

@@ -1,6 +1,4 @@
 def dolink():
-    '''public int dolink()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    dolink()\n
     '''

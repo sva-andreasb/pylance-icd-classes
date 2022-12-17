@@ -1,3 +1,4 @@
 def compute():
-    '''public double compute(final double[] a, final double[] b)
+    '''returns double\n\n
+    compute(final double[] a, final double[] b)\n
     '''

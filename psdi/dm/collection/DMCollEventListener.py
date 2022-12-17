@@ -1,33 +1,40 @@
-def getListener():
-    '''public static DMCollEventListener getListener()
-    '''
 def eventAction():
-    '''public void eventAction(final EventMessage em)
+    '''returns None\n\n
+    eventAction(final EventMessage em)\n
     '''
 def handleAddUpdateEvent():
-    '''public void handleAddUpdateEvent(final Vector eventInfoVector, final MboRemote mbo, final String eventType)
+    '''returns None\n\n
+    handleAddUpdateEvent(final Vector eventInfoVector, final MboRemote mbo, final String eventType)\n
     '''
 def addUpdateMboToCollection():
-    '''public void addUpdateMboToCollection(final MboRemote mbo, final long dmCollectionId, final String eventType)
+    '''returns None\n\n
+    addUpdateMboToCollection(final MboRemote mbo, final long dmCollectionId, final String eventType)\n
     '''
 def handleDeleteEvent():
-    '''public void handleDeleteEvent(final Vector eventInfoVector, final MboRemote mbo)
+    '''returns None\n\n
+    handleDeleteEvent(final Vector eventInfoVector, final MboRemote mbo)\n
     '''
 def deleteFromCollection():
-    '''public void deleteFromCollection(final MboRemote mbo, final long dmCollectionId)
+    '''returns None\n\n
+    deleteFromCollection(final MboRemote mbo, final long dmCollectionId)\n
     '''
 def eventValidate():
-    '''public boolean eventValidate(final EventMessage em)
+    '''returns boolean\n\n
+    eventValidate(final EventMessage em)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final EventMessage em)
+    '''returns None\n\n
+    postCommitEventAction(final EventMessage em)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveEventAction(final EventMessage em)\n
     '''
 def preSaveInternalEventAction():
-    '''public void preSaveInternalEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveInternalEventAction(final EventMessage em)\n
     '''
 def postSaveInternalEventAction():
-    '''public void postSaveInternalEventAction(final EventMessage em)
+    '''returns None\n\n
+    postSaveInternalEventAction(final EventMessage em)\n
     '''

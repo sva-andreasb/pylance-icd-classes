@@ -1,18 +1,24 @@
-def AnnotationsBase():
-    '''public AnnotationsBase()
+def ():
+    '''returns AnnotationsBase\n\n
+    ()\n
     '''
 def getNotes():
-    '''public List<String> getNotes()
+    '''returns List<String>\n\n
+    getNotes()\n
     '''
 def hasNotes():
-    '''public boolean hasNotes()
+    '''returns boolean\n\n
+    hasNotes()\n
     '''
 def hasOneNote():
-    '''public boolean hasOneNote()
+    '''returns boolean\n\n
+    hasOneNote()\n
     '''
 def addNote():
-    '''public void addNote(final String s)
+    '''returns None\n\n
+    addNote(final String s)\n
     '''
 def addNotes():
-    '''public void addNotes(final List<String> annotations)
+    '''returns None\n\n
+    addNotes(final List<String> annotations)\n
     '''

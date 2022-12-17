@@ -1,18 +1,24 @@
-def SKDResGanttPropSet():
-    '''public SKDResGanttPropSet(final MboServerInterface ms)
+def ():
+    '''returns SKDResGanttPropSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def createSKDResGanttUserPropInput():
-    '''public void createSKDResGanttUserPropInput(final MboSetRemote skdUserPropSet)
+    '''returns None\n\n
+    createSKDResGanttUserPropInput(final MboSetRemote skdUserPropSet)\n
     '''
 def createSKDResGanttPropInput():
-    '''public void createSKDResGanttPropInput(final MboSetRemote skdPropSet)
+    '''returns None\n\n
+    createSKDResGanttPropInput(final MboSetRemote skdPropSet)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def newSKDUserProp():
-    '''public void newSKDUserProp()
+    '''returns None\n\n
+    newSKDUserProp()\n
     '''

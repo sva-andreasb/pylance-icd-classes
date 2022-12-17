@@ -1,3 +1,4 @@
 def evaluateToEmail():
-    '''public String[] evaluateToEmail(final MaxRole roleMbo, final MboRemote mbo)
+    '''returns String[]\n\n
+    evaluateToEmail(final MaxRole roleMbo, final MboRemote mbo)\n
     '''

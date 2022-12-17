@@ -1,60 +1,76 @@
-def Organization():
-    '''public Organization(final MboSet ms)
+def ():
+    '''returns Organization\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def addWpEditSettingRows():
-    '''public void addWpEditSettingRows(final MboSetRemote wpEditSettingSet)
+    '''returns None\n\n
+    addWpEditSettingRows(final MboSetRemote wpEditSettingSet)\n
     '''
 def addTaxTypeRows():
-    '''public void addTaxTypeRows(final MboSetRemote taxTypeSet)
+    '''returns None\n\n
+    addTaxTypeRows(final MboSetRemote taxTypeSet)\n
     '''
 def addTaxOrderRows():
-    '''public void addTaxOrderRows(final MboSetRemote taxOrderSet)
+    '''returns None\n\n
+    addTaxOrderRows(final MboSetRemote taxOrderSet)\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def addAccountDefaultsRows():
-    '''public void addAccountDefaultsRows(final MboSetRemote accountDefaultsSet)
+    '''returns None\n\n
+    addAccountDefaultsRows(final MboSetRemote accountDefaultsSet)\n
     '''
 def addWorkTypeRows():
-    '''public void addWorkTypeRows(final MboSetRemote workTypeSet)
+    '''returns None\n\n
+    addWorkTypeRows(final MboSetRemote workTypeSet)\n
     '''
 def addCraftRows():
-    '''public void addCraftRows(final MboSetRemote craftSet)
+    '''returns None\n\n
+    addCraftRows(final MboSetRemote craftSet)\n
     '''
 def addContractTypeRows():
-    '''public void addContractTypeRows(final MboSetRemote contractTypeSet)
+    '''returns None\n\n
+    addContractTypeRows(final MboSetRemote contractTypeSet)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def addItemGroupInfoRows():
-    '''public void addItemGroupInfoRows()
+    '''returns None\n\n
+    addItemGroupInfoRows()\n
     '''
 def isCalibrationInstalled():
-    '''public boolean isCalibrationInstalled()
-    '''
-def isValidChar():
-    '''public static boolean isValidChar(final String checkString)
+    '''returns boolean\n\n
+    isCalibrationInstalled()\n
     '''

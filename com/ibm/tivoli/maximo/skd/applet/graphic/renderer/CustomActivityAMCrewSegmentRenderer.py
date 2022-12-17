@@ -1,30 +1,40 @@
-def CustomActivityAMCrewSegmentRenderer():
-    '''public CustomActivityAMCrewSegmentRenderer()
+def ():
+    '''returns CustomActivityAMCrewSegmentRenderer\n\n
+    ()\n
     '''
 def isAssigned():
-    '''public boolean isAssigned()
+    '''returns boolean\n\n
+    isAssigned()\n
     '''
 def setAssigned():
-    '''public void setAssigned(final boolean bool)
+    '''returns None\n\n
+    setAssigned(final boolean bool)\n
     '''
 def draw():
-    '''public void draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns None\n\n
+    draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''
 def getSequenceNum():
-    '''public int getSequenceNum()
+    '''returns int\n\n
+    getSequenceNum()\n
     '''
 def setSequenceNum():
-    '''public void setSequenceNum(final int sequenceNum)
+    '''returns None\n\n
+    setSequenceNum(final int sequenceNum)\n
     '''
 def isFirstSegment():
-    '''public boolean isFirstSegment()
+    '''returns boolean\n\n
+    isFirstSegment()\n
     '''
 def setFirstSegment():
-    '''public void setFirstSegment(final boolean isFirstSegment)
+    '''returns None\n\n
+    setFirstSegment(final boolean isFirstSegment)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''

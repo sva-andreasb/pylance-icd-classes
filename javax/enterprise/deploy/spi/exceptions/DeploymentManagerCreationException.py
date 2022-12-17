@@ -1,3 +1,4 @@
-def DeploymentManagerCreationException():
-    '''public DeploymentManagerCreationException(final String s)
+def ():
+    '''returns DeploymentManagerCreationException\n\n
+    (final String s)\n
     '''

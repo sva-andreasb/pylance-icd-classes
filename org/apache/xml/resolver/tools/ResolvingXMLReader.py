@@ -1,4 +1,5 @@
-def ResolvingXMLReader():
-    '''public ResolvingXMLReader()
-    public ResolvingXMLReader(final CatalogManager manager)
+def ():
+    '''returns ResolvingXMLReader\n\n
+    ()\n
+    (final CatalogManager manager)\n
     '''

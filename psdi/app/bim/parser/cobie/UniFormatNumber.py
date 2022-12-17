@@ -2,24 +2,30 @@ FORMAT_DOT = "int  1"
 FORMAT_DASH_SPACE = "int  2"
 ALL_LEVELS = "int  Integer.MAX_VALUE"
 ASTM_Z_NOT_SUPPORTED = "String  \"Z\""
-def UniFormatNumber():
-    '''public UniFormatNumber(String value, final int level)
-    public UniFormatNumber(final int level, final HashMap<Integer, String> wbs)
+def ():
+    '''returns UniFormatNumber\n\n
+    (String value, final int level)\n
+    (final int level, final HashMap<Integer, String> wbs)\n
     '''
 def getLevel():
-    '''public int getLevel()
+    '''returns int\n\n
+    getLevel()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def format():
-    '''public String format()
-    public String format(final int format, final boolean zeroPad)
-    public String format(final int format, final boolean zeroPad, final int numberOfLevels)
+    '''returns String\n\n
+    format()\n
+    format(final int format, final boolean zeroPad)\n
+    format(final int format, final boolean zeroPad, final int numberOfLevels)\n
     '''

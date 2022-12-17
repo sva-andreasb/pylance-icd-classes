@@ -1,81 +1,108 @@
-def ColumnData():
-    '''public ColumnData(final String tableName, final String colName)
+def ():
+    '''returns ColumnData\n\n
+    (final String tableName, final String colName)\n
     '''
 def hasDatabaseDef():
-    '''public boolean hasDatabaseDef()
+    '''returns boolean\n\n
+    hasDatabaseDef()\n
     '''
 def hasMaximoDef():
-    '''public boolean hasMaximoDef()
+    '''returns boolean\n\n
+    hasMaximoDef()\n
     '''
 def getRequired():
-    '''public Boolean getRequired()
+    '''returns Boolean\n\n
+    getRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final Boolean required)
+    '''returns None\n\n
+    setRequired(final Boolean required)\n
     '''
 def getColumnName():
-    '''public String getColumnName()
+    '''returns String\n\n
+    getColumnName()\n
     '''
 def getMaxType():
-    '''public String getMaxType()
+    '''returns String\n\n
+    getMaxType()\n
     '''
 def getMaxLength():
-    '''public Integer getMaxLength()
+    '''returns Integer\n\n
+    getMaxLength()\n
     '''
 def getMaxScale():
-    '''public Integer getMaxScale()
+    '''returns Integer\n\n
+    getMaxScale()\n
     '''
 def getMaxOrdering():
-    '''public Integer getMaxOrdering()
+    '''returns Integer\n\n
+    getMaxOrdering()\n
     '''
 def setMaxType():
-    '''public void setMaxType(final String maxType)
+    '''returns None\n\n
+    setMaxType(final String maxType)\n
     '''
 def setMaxLength():
-    '''public void setMaxLength(final Integer length)
+    '''returns None\n\n
+    setMaxLength(final Integer length)\n
     '''
 def setMaxScale():
-    '''public void setMaxScale(final Integer scale)
+    '''returns None\n\n
+    setMaxScale(final Integer scale)\n
     '''
 def setMaxRequired():
-    '''public void setMaxRequired(final Boolean required)
+    '''returns None\n\n
+    setMaxRequired(final Boolean required)\n
     '''
 def setMaxOrdering():
-    '''public void setMaxOrdering(final Integer attrNum)
+    '''returns None\n\n
+    setMaxOrdering(final Integer attrNum)\n
     '''
 def setDbOrdering():
-    '''public void setDbOrdering(final Integer dbOrdering)
+    '''returns None\n\n
+    setDbOrdering(final Integer dbOrdering)\n
     '''
 def getDbOrdering():
-    '''public Integer getDbOrdering()
+    '''returns Integer\n\n
+    getDbOrdering()\n
     '''
 def getDbType():
-    '''public String getDbType()
+    '''returns String\n\n
+    getDbType()\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setDbType():
-    '''public void setDbType(final String typeName)
+    '''returns None\n\n
+    setDbType(final String typeName)\n
     '''
 def setDbLength():
-    '''public void setDbLength(final Integer length)
+    '''returns None\n\n
+    setDbLength(final Integer length)\n
     '''
 def setDbScale():
-    '''public void setDbScale(final Integer scale)
+    '''returns None\n\n
+    setDbScale(final Integer scale)\n
     '''
 def getDbScale():
-    '''public Integer getDbScale()
+    '''returns Integer\n\n
+    getDbScale()\n
     '''
 def getDbLength():
-    '''public Integer getDbLength()
+    '''returns Integer\n\n
+    getDbLength()\n
     '''
 def getDbDefinition():
-    '''public String getDbDefinition()
+    '''returns String\n\n
+    getDbDefinition()\n
     '''
 def setDbDefinition():
-    '''public void setDbDefinition(final String dbDefinition)
+    '''returns None\n\n
+    setDbDefinition(final String dbDefinition)\n
     '''
 def getKey():
-    '''public DoubleUcaseKey getKey()
+    '''returns DoubleUcaseKey\n\n
+    getKey()\n
     '''

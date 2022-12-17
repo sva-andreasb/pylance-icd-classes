@@ -1,3 +1,4 @@
-def FldAutokeySeed():
-    '''public FldAutokeySeed(final MboValue mbv)
+def ():
+    '''returns FldAutokeySeed\n\n
+    (final MboValue mbv)\n
     '''

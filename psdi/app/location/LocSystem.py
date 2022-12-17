@@ -1,42 +1,56 @@
-def LocSystem():
-    '''public LocSystem(final MboSet ms)
+def ():
+    '''returns LocSystem\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getNumberOfSystemsForSite():
-    '''public int getNumberOfSystemsForSite(final String siteid)
+    '''returns int\n\n
+    getNumberOfSystemsForSite(final String siteid)\n
     '''
 def isNetwork():
-    '''public boolean isNetwork()
+    '''returns boolean\n\n
+    isNetwork()\n
     '''
 def makeHierarchyANetwork():
-    '''public void makeHierarchyANetwork()
+    '''returns None\n\n
+    makeHierarchyANetwork()\n
     '''
 def makeNetworkAHierarchy():
-    '''public void makeNetworkAHierarchy()
+    '''returns None\n\n
+    makeNetworkAHierarchy()\n
     '''
 def isPrimarySystem():
-    '''public boolean isPrimarySystem()
+    '''returns boolean\n\n
+    isPrimarySystem()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def isLocAncestorAlreadyMarkedForDeletion():
-    '''public boolean isLocAncestorAlreadyMarkedForDeletion(final String locancestorid)
+    '''returns boolean\n\n
+    isLocAncestorAlreadyMarkedForDeletion(final String locancestorid)\n
     '''
 def recordLocHierarchyDeletedLocAncestors():
-    '''public void recordLocHierarchyDeletedLocAncestors(final Vector<String> deletedLocAncestors)
+    '''returns None\n\n
+    recordLocHierarchyDeletedLocAncestors(final Vector<String> deletedLocAncestors)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def setCurrentPrimaryInMemory():
-    '''public void setCurrentPrimaryInMemory(final MboRemote currentPrimary)
+    '''returns None\n\n
+    setCurrentPrimaryInMemory(final MboRemote currentPrimary)\n
     '''

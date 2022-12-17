@@ -1,87 +1,106 @@
-def LDAPAttribute():
-    '''public LDAPAttribute()
-    public LDAPAttribute(final LDAPAttribute ldapAttribute)
-    public LDAPAttribute(final String name)
-    public LDAPAttribute(final String s, final byte[] array)
-    public LDAPAttribute(final String s, final String s2)
-    public LDAPAttribute(final String s, final String[] array)
+def ():
+    '''returns LDAPAttribute\n\n
+    ()\n
+    (final LDAPAttribute ldapAttribute)\n
+    (final String name)\n
+    (final String s, final byte[] array)\n
+    (final String s, final String s2)\n
+    (final String s, final String[] array)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def addValue():
-    '''public void addValue(final String s)
-    public void addValue(final byte[] array)
+    '''returns None\n\n
+    addValue(final String s)\n
+    addValue(final byte[] array)\n
     '''
 def addBase64Value():
-    '''public void addBase64Value(final String s)
-    public void addBase64Value(final StringBuffer sb, final int n, final int n2)
-    public void addBase64Value(final char[] array)
+    '''returns None\n\n
+    addBase64Value(final String s)\n
+    addBase64Value(final StringBuffer sb, final int n, final int n2)\n
+    addBase64Value(final char[] array)\n
     '''
 def addURLValue():
-    '''public void addURLValue(final String spec)
-    public void addURLValue(final URL url)
+    '''returns None\n\n
+    addURLValue(final String spec)\n
+    addURLValue(final URL url)\n
     '''
 def getByteValues():
-    '''public Enumeration getByteValues()
+    '''returns Enumeration\n\n
+    getByteValues()\n
     '''
 def getStringValues():
-    '''public Enumeration getStringValues()
+    '''returns Enumeration\n\n
+    getStringValues()\n
     '''
 def getByteValueArray():
-    '''public byte[][] getByteValueArray()
+    '''returns byte[][]\n\n
+    getByteValueArray()\n
     '''
 def getStringValueArray():
-    '''public String[] getStringValueArray()
+    '''returns String[]\n\n
+    getStringValueArray()\n
     '''
 def getStringValue():
-    '''public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
     '''
 def getByteValue():
-    '''public byte[] getByteValue()
+    '''returns byte[]\n\n
+    getByteValue()\n
     '''
 def getLangSubtype():
-    '''public String getLangSubtype()
+    '''returns String\n\n
+    getLangSubtype()\n
     '''
 def getBaseName():
-    '''public String getBaseName()
-    public static String getBaseName(final String s)
+    '''returns String\n\n
+    getBaseName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSubtypes():
-    '''public String[] getSubtypes()
-    public static String[] getSubtypes(final String str)
+    '''returns String[]\n\n
+    getSubtypes()\n
     '''
 def hasSubtype():
-    '''public boolean hasSubtype(final String anotherString)
+    '''returns boolean\n\n
+    hasSubtype(final String anotherString)\n
     '''
 def hasSubtypes():
-    '''public boolean hasSubtypes(final String[] array)
+    '''returns boolean\n\n
+    hasSubtypes(final String[] array)\n
     '''
 def removeValue():
-    '''public void removeValue(final String s)
-    public void removeValue(final byte[] array)
+    '''returns None\n\n
+    removeValue(final String s)\n
+    removeValue(final byte[] array)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def writeDSML():
-    '''public void writeDSML(final OutputStream out)
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns None\n\n
+    writeDSML(final OutputStream out)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput objectOutput)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput objectOutput)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput objectInput)
+    '''returns None\n\n
+    readExternal(final ObjectInput objectInput)\n
     '''

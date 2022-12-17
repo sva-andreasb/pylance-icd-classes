@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloInterPhasePublisher():
-    '''public IloInterPhasePublisher(final IloSolvingInterrupter interrupter, final IloConcertController source)
+def ():
+    '''returns IloInterPhasePublisher\n\n
+    (final IloSolvingInterrupter interrupter, final IloConcertController source)\n
     '''
 def onSearchFeasibleSolution():
-    '''public boolean onSearchFeasibleSolution(final String model, final IloPriority maxRelaxablePriorityLevel, final Collection<?> relaxblesRanges, final boolean isHighestRelaxablePriority)
+    '''returns boolean\n\n
+    onSearchFeasibleSolution(final String model, final IloPriority maxRelaxablePriorityLevel, final Collection<?> relaxblesRanges, final boolean isHighestRelaxablePriority)\n
     '''
 def onSearchOptimalSolution():
-    '''public boolean onSearchOptimalSolution(final String model, final IloPriority maxRelaxablePriorityLevel)
+    '''returns boolean\n\n
+    onSearchOptimalSolution(final String model, final IloPriority maxRelaxablePriorityLevel)\n
     '''
 def onBuildModel():
-    '''public boolean onBuildModel(final String modelingType, final String model, final String label)
+    '''returns boolean\n\n
+    onBuildModel(final String modelingType, final String model, final String label)\n
     '''
 def onPublishSolution():
-    '''public boolean onPublishSolution(final String publicationType, final String model, final String label)
+    '''returns boolean\n\n
+    onPublishSolution(final String publicationType, final String model, final String label)\n
     '''

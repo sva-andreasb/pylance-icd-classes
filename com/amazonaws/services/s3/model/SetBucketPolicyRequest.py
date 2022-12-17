@@ -1,21 +1,28 @@
-def SetBucketPolicyRequest():
-    '''public SetBucketPolicyRequest(final String bucketName, final String policyText)
+def ():
+    '''returns SetBucketPolicyRequest\n\n
+    (final String bucketName, final String policyText)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public SetBucketPolicyRequest withBucketName(final String bucketName)
+    '''returns SetBucketPolicyRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getPolicyText():
-    '''public String getPolicyText()
+    '''returns String\n\n
+    getPolicyText()\n
     '''
 def setPolicyText():
-    '''public void setPolicyText(final String policyText)
+    '''returns None\n\n
+    setPolicyText(final String policyText)\n
     '''
 def withPolicyText():
-    '''public SetBucketPolicyRequest withPolicyText(final String policyText)
+    '''returns SetBucketPolicyRequest\n\n
+    withPolicyText(final String policyText)\n
     '''

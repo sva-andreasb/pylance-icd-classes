@@ -1,3 +1,4 @@
 def setserviceitemunitprice():
-    '''public void setserviceitemunitprice()
+    '''returns None\n\n
+    setserviceitemunitprice()\n
     '''

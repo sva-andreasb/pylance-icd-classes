@@ -1,3 +1,4 @@
 def buildTree():
-    '''public Activity buildTree(final String idField, final String parentIdField, final JSONArray ungrouped)
+    '''returns Activity\n\n
+    buildTree(final String idField, final String parentIdField, final JSONArray ungrouped)\n
     '''

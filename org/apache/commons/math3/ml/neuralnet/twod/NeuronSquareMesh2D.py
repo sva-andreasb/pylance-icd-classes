@@ -1,22 +1,25 @@
-def NeuronSquareMesh2D():
-    '''public NeuronSquareMesh2D(final int numRows, final boolean wrapRowDim, final int numCols, final boolean wrapColDim, final SquareNeighbourhood neighbourhoodType, final FeatureInitializer[] featureInit)
-    '''
-def copy():
-    '''public synchronized NeuronSquareMesh2D copy()
+def ():
+    '''returns NeuronSquareMesh2D\n\n
+    (final int numRows, final boolean wrapRowDim, final int numCols, final boolean wrapColDim, final SquareNeighbourhood neighbourhoodType, final FeatureInitializer[] featureInit)\n
     '''
 def iterator():
-    '''public Iterator<Neuron> iterator()
+    '''returns Iterator<Neuron>\n\n
+    iterator()\n
     '''
 def getNetwork():
-    '''public Network getNetwork()
+    '''returns Network\n\n
+    getNetwork()\n
     '''
 def getNumberOfRows():
-    '''public int getNumberOfRows()
+    '''returns int\n\n
+    getNumberOfRows()\n
     '''
 def getNumberOfColumns():
-    '''public int getNumberOfColumns()
+    '''returns int\n\n
+    getNumberOfColumns()\n
     '''
 def getNeuron():
-    '''public Neuron getNeuron(final int i, final int j)
-    public Neuron getNeuron(final int row, final int col, final HorizontalDirection alongRowDir, final VerticalDirection alongColDir)
+    '''returns Neuron\n\n
+    getNeuron(final int i, final int j)\n
+    getNeuron(final int row, final int col, final HorizontalDirection alongRowDir, final VerticalDirection alongColDir)\n
     '''

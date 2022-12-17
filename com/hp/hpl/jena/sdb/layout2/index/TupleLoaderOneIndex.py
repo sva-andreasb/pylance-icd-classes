@@ -1,11 +1,14 @@
-def TupleLoaderOneIndex():
-    '''public TupleLoaderOneIndex(final SDBConnection connection)
-    public TupleLoaderOneIndex(final SDBConnection connection, final TableDesc tableDesc)
-    public TupleLoaderOneIndex(final Store store, final TableDesc tableDesc)
+def ():
+    '''returns TupleLoaderOneIndex\n\n
+    (final SDBConnection connection)\n
+    (final SDBConnection connection, final TableDesc tableDesc)\n
+    (final Store store, final TableDesc tableDesc)\n
     '''
 def getRefForNode():
-    '''public SqlConstant getRefForNode(final Node node)
+    '''returns SqlConstant\n\n
+    getRefForNode(final Node node)\n
     '''
 def insertNode():
-    '''public SqlConstant insertNode(final Node node)
+    '''returns SqlConstant\n\n
+    insertNode(final Node node)\n
     '''

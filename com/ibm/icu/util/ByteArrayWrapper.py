@@ -1,29 +1,26 @@
-def ByteArrayWrapper():
-    '''public ByteArrayWrapper()
-    public ByteArrayWrapper(final byte[] bytesToAdopt, final int size)
-    public ByteArrayWrapper(final ByteBuffer source)
+def ():
+    '''returns ByteArrayWrapper\n\n
+    ()\n
+    (final byte[] bytesToAdopt, final int size)\n
+    (final ByteBuffer source)\n
     '''
 def ensureCapacity():
-    '''public ByteArrayWrapper ensureCapacity(final int capacity)
-    '''
-def set():
-    '''public final ByteArrayWrapper set(final byte[] src, final int start, final int limit)
-    '''
-def append():
-    '''public final ByteArrayWrapper append(final byte[] src, final int start, final int limit)
-    '''
-def releaseBytes():
-    '''public final byte[] releaseBytes()
+    '''returns ByteArrayWrapper\n\n
+    ensureCapacity(final int capacity)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final ByteArrayWrapper other)
+    '''returns int\n\n
+    compareTo(final ByteArrayWrapper other)\n
     '''

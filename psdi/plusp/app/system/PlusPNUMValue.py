@@ -1,6 +1,8 @@
-def PlusPNUMValue():
-    '''public PlusPNUMValue(final MboSet arg0)
+def ():
+    '''returns PlusPNUMValue\n\n
+    (final MboSet arg0)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

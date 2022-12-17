@@ -1,19 +1,21 @@
-def OslcResourceTypeCacheImpl():
-    '''public OslcResourceTypeCacheImpl()
+def ():
+    '''returns OslcResourceTypeCacheImpl\n\n
+    ()\n
     '''
 def getResourceTypeInfo():
-    '''public OslcResourceTypeInfo getResourceTypeInfo(final String resourceTypeName)
+    '''returns OslcResourceTypeInfo\n\n
+    getResourceTypeInfo(final String resourceTypeName)\n
     '''
 def init():
-    '''public void init()
-    '''
-def getAllResourceTypes():
-    '''public Map<String, OslcResourceTypeInfo> getAllResourceTypes()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

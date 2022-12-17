@@ -1,9 +1,12 @@
-def MaxApiKeyProcess():
-    '''public MaxApiKeyProcess()
+def ():
+    '''returns MaxApiKeyProcess\n\n
+    ()\n
     '''
 def encApiKey():
-    '''public String encApiKey(final String apikey)
+    '''returns String\n\n
+    encApiKey(final String apikey)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules()
+    '''returns int\n\n
+    checkBusinessRules()\n
     '''

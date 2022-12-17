@@ -1,6 +1,8 @@
 def getContents():
-    '''public List<MessageContentsNode> getContents()
+    '''returns List<MessageContentsNode>\n\n
+    getContents()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

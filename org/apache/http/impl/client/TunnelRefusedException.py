@@ -1,6 +1,8 @@
-def TunnelRefusedException():
-    '''public TunnelRefusedException(final String message, final HttpResponse response)
+def ():
+    '''returns TunnelRefusedException\n\n
+    (final String message, final HttpResponse response)\n
     '''
 def getResponse():
-    '''public HttpResponse getResponse()
+    '''returns HttpResponse\n\n
+    getResponse()\n
     '''

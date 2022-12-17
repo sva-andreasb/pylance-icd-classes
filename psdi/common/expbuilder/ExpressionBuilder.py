@@ -1,187 +1,249 @@
-def ExpressionBuilder():
-    '''public ExpressionBuilder(final MboSet ms)
+def ():
+    '''returns ExpressionBuilder\n\n
+    (final MboSet ms)\n
     '''
 def setWorkFlowParser():
-    '''public void setWorkFlowParser(final boolean flag)
+    '''returns None\n\n
+    setWorkFlowParser(final boolean flag)\n
     '''
 def isWorkFlowParserOn():
-    '''public boolean isWorkFlowParserOn()
+    '''returns boolean\n\n
+    isWorkFlowParserOn()\n
     '''
 def setColonize():
-    '''public void setColonize(final boolean flag)
+    '''returns None\n\n
+    setColonize(final boolean flag)\n
     '''
 def getColonize():
-    '''public boolean getColonize()
+    '''returns boolean\n\n
+    getColonize()\n
     '''
 def setValueAND():
-    '''public void setValueAND()
+    '''returns None\n\n
+    setValueAND()\n
     '''
 def setValueOR():
-    '''public void setValueOR()
+    '''returns None\n\n
+    setValueOR()\n
     '''
 def setValueNOT():
-    '''public void setValueNOT()
+    '''returns None\n\n
+    setValueNOT()\n
     '''
 def setValueLIKE():
-    '''public void setValueLIKE()
+    '''returns None\n\n
+    setValueLIKE()\n
     '''
 def setValueIN():
-    '''public void setValueIN()
+    '''returns None\n\n
+    setValueIN()\n
     '''
 def setValueOPENPAREN():
-    '''public void setValueOPENPAREN()
+    '''returns None\n\n
+    setValueOPENPAREN()\n
     '''
 def setValueCLOSEPAREN():
-    '''public void setValueCLOSEPAREN()
+    '''returns None\n\n
+    setValueCLOSEPAREN()\n
     '''
 def setValueNULL():
-    '''public void setValueNULL()
+    '''returns None\n\n
+    setValueNULL()\n
     '''
 def setValueNOTNULL():
-    '''public void setValueNOTNULL()
+    '''returns None\n\n
+    setValueNOTNULL()\n
     '''
 def setValueBETWEEN():
-    '''public void setValueBETWEEN()
+    '''returns None\n\n
+    setValueBETWEEN()\n
     '''
 def setValueEQUALTO():
-    '''public void setValueEQUALTO()
+    '''returns None\n\n
+    setValueEQUALTO()\n
     '''
 def setValueNOTEQUALTO():
-    '''public void setValueNOTEQUALTO()
+    '''returns None\n\n
+    setValueNOTEQUALTO()\n
     '''
 def setValueLESSERTHAN():
-    '''public void setValueLESSERTHAN()
+    '''returns None\n\n
+    setValueLESSERTHAN()\n
     '''
 def setValueGREATERTHAN():
-    '''public void setValueGREATERTHAN()
+    '''returns None\n\n
+    setValueGREATERTHAN()\n
     '''
 def setValueLESSEREQUAL():
-    '''public void setValueLESSEREQUAL()
+    '''returns None\n\n
+    setValueLESSEREQUAL()\n
     '''
 def setValueGREATEREQUAL():
-    '''public void setValueGREATEREQUAL()
+    '''returns None\n\n
+    setValueGREATEREQUAL()\n
     '''
 def setValueMIN():
-    '''public void setValueMIN()
+    '''returns None\n\n
+    setValueMIN()\n
     '''
 def setValueMAX():
-    '''public void setValueMAX()
+    '''returns None\n\n
+    setValueMAX()\n
     '''
 def setValueAVG():
-    '''public void setValueAVG()
+    '''returns None\n\n
+    setValueAVG()\n
     '''
 def setValuePERIOD():
-    '''public void setValuePERIOD()
+    '''returns None\n\n
+    setValuePERIOD()\n
     '''
 def setValuePLUS():
-    '''public void setValuePLUS()
+    '''returns None\n\n
+    setValuePLUS()\n
     '''
 def setValueMINUS():
-    '''public void setValueMINUS()
+    '''returns None\n\n
+    setValueMINUS()\n
     '''
 def setValueDIVIDE():
-    '''public void setValueDIVIDE()
+    '''returns None\n\n
+    setValueDIVIDE()\n
     '''
 def setValueMULTIPLY():
-    '''public void setValueMULTIPLY()
+    '''returns None\n\n
+    setValueMULTIPLY()\n
     '''
 def setValueSQRT():
-    '''public void setValueSQRT()
+    '''returns None\n\n
+    setValueSQRT()\n
     '''
 def setValueEXPONENT():
-    '''public void setValueEXPONENT()
+    '''returns None\n\n
+    setValueEXPONENT()\n
     '''
 def setValueSTDDEV():
-    '''public void setValueSTDDEV()
+    '''returns None\n\n
+    setValueSTDDEV()\n
     '''
 def setValueDATE():
-    '''public void setValueDATE()
+    '''returns None\n\n
+    setValueDATE()\n
     '''
 def setValueDATETIME():
-    '''public void setValueDATETIME()
+    '''returns None\n\n
+    setValueDATETIME()\n
     '''
 def setPopUpDate():
-    '''public void setPopUpDate(final Date selectedDate)
+    '''returns None\n\n
+    setPopUpDate(final Date selectedDate)\n
     '''
 def setValueYES():
-    '''public void setValueYES()
+    '''returns None\n\n
+    setValueYES()\n
     '''
 def setValueNO():
-    '''public void setValueNO()
+    '''returns None\n\n
+    setValueNO()\n
     '''
 def setValueUSER():
-    '''public void setValueUSER()
+    '''returns None\n\n
+    setValueUSER()\n
     '''
 def setValuePERSON():
-    '''public void setValuePERSON()
+    '''returns None\n\n
+    setValuePERSON()\n
     '''
 def setValueOWNER():
-    '''public void setValueOWNER()
+    '''returns None\n\n
+    setValueOWNER()\n
     '''
 def setValueOWNERNAME():
-    '''public void setValueOWNERNAME()
+    '''returns None\n\n
+    setValueOWNERNAME()\n
     '''
 def setValueAPPNAME():
-    '''public void setValueAPPNAME()
+    '''returns None\n\n
+    setValueAPPNAME()\n
     '''
 def setValueHOSTNAME():
-    '''public void setValueHOSTNAME()
+    '''returns None\n\n
+    setValueHOSTNAME()\n
     '''
 def setValueSEQUENCE():
-    '''public void setValueSEQUENCE()
+    '''returns None\n\n
+    setValueSEQUENCE()\n
     '''
 def setValueUNIQUEID():
-    '''public void setValueUNIQUEID()
+    '''returns None\n\n
+    setValueUNIQUEID()\n
     '''
 def setValueMBONAME():
-    '''public void setValueMBONAME()
+    '''returns None\n\n
+    setValueMBONAME()\n
     '''
 def setClassification():
-    '''public void setClassification()
+    '''returns None\n\n
+    setClassification()\n
     '''
 def validateWithWFParser():
-    '''public void validateWithWFParser()
+    '''returns None\n\n
+    validateWithWFParser()\n
     '''
 def validateExpression():
-    '''public void validateExpression()
+    '''returns None\n\n
+    validateExpression()\n
     '''
 def validateWithExpBldFormatter():
-    '''public void validateWithExpBldFormatter()
+    '''returns None\n\n
+    validateWithExpBldFormatter()\n
     '''
 def validateCustomClass():
-    '''public void validateCustomClass(final String customClass)
+    '''returns None\n\n
+    validateCustomClass(final String customClass)\n
     '''
 def getOwnerMbo():
-    '''public MboRemote getOwnerMbo()
+    '''returns MboRemote\n\n
+    getOwnerMbo()\n
     '''
 def getOwnerMboName():
-    '''public String getOwnerMboName()
+    '''returns String\n\n
+    getOwnerMboName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getTreeObjectName():
-    '''public String getTreeObjectName()
+    '''returns String\n\n
+    getTreeObjectName()\n
     '''
 def loadRelationshipTree():
-    '''public void loadRelationshipTree()
+    '''returns None\n\n
+    loadRelationshipTree()\n
     '''
 def setSubSelectNodeValue():
-    '''public void setSubSelectNodeValue(final String attr)
+    '''returns None\n\n
+    setSubSelectNodeValue(final String attr)\n
     '''
 def setNodeValue():
-    '''public void setNodeValue(final long uniqueId, final String dotnotation)
-    public void setNodeValue(final long uniqueId)
+    '''returns None\n\n
+    setNodeValue(final long uniqueId, final String dotnotation)\n
+    setNodeValue(final long uniqueId)\n
     '''
 def getRelationshipTree():
-    '''public HashMap getRelationshipTree()
+    '''returns HashMap\n\n
+    getRelationshipTree()\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''

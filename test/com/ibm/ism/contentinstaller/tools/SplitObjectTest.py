@@ -1,3 +1,4 @@
 def testSplitFile():
-    '''public void testSplitFile()
+    '''returns None\n\n
+    testSplitFile()\n
     '''

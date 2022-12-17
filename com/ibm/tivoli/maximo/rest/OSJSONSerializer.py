@@ -1,3 +1,4 @@
-def OSJSONSerializer():
-    '''public OSJSONSerializer()
+def ():
+    '''returns OSJSONSerializer\n\n
+    ()\n
     '''

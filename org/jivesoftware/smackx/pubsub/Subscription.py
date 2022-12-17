@@ -1,22 +1,28 @@
-def Subscription():
-    '''public Subscription(final Jid subscriptionJid)
-    public Subscription(final Jid subscriptionJid, final String nodeId)
-    public Subscription(final Jid subscriptionJid, final State state)
-    public Subscription(final Jid jid, final String nodeId, final String subscriptionId, final State state)
-    public Subscription(final Jid jid, final String nodeId, final String subscriptionId, final State state, final boolean configRequired)
+def ():
+    '''returns Subscription\n\n
+    (final Jid subscriptionJid)\n
+    (final Jid subscriptionJid, final String nodeId)\n
+    (final Jid subscriptionJid, final State state)\n
+    (final Jid jid, final String nodeId, final String subscriptionId, final State state)\n
+    (final Jid jid, final String nodeId, final String subscriptionId, final State state, final boolean configRequired)\n
     '''
 def getJid():
-    '''public Jid getJid()
+    '''returns Jid\n\n
+    getJid()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getState():
-    '''public State getState()
+    '''returns State\n\n
+    getState()\n
     '''
 def isConfigRequired():
-    '''public boolean isConfigRequired()
+    '''returns boolean\n\n
+    isConfigRequired()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

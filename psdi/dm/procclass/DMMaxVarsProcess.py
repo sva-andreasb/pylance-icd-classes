@@ -1,12 +1,16 @@
-def DMMaxVarsProcess():
-    '''public DMMaxVarsProcess()
+def ():
+    '''returns DMMaxVarsProcess\n\n
+    ()\n
     '''
 def checkAdditionalRules():
-    '''public void checkAdditionalRules()
+    '''returns None\n\n
+    checkAdditionalRules()\n
     '''
 def afterProcess():
-    '''public void afterProcess()
+    '''returns None\n\n
+    afterProcess()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''

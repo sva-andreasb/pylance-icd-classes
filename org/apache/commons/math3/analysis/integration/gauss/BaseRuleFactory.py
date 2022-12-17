@@ -1,6 +1,4 @@
-def BaseRuleFactory():
-    '''public BaseRuleFactory()
-    '''
-def getRule():
-    '''public Pair<double[], double[]> getRule(final int numberOfPoints)
+def ():
+    '''returns BaseRuleFactory\n\n
+    ()\n
     '''

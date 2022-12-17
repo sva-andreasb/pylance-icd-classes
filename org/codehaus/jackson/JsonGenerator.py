@@ -1,90 +1,82 @@
 def setSchema():
-    '''public void setSchema(final FormatSchema schema)
+    '''returns None\n\n
+    setSchema(final FormatSchema schema)\n
     '''
 def canUseSchema():
-    '''public boolean canUseSchema(final FormatSchema schema)
+    '''returns boolean\n\n
+    canUseSchema(final FormatSchema schema)\n
     '''
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def getOutputTarget():
-    '''public Object getOutputTarget()
+    '''returns Object\n\n
+    getOutputTarget()\n
     '''
 def configure():
-    '''public JsonGenerator configure(final Feature f, final boolean state)
+    '''returns JsonGenerator\n\n
+    configure(final Feature f, final boolean state)\n
     '''
 def enableFeature():
-    '''public void enableFeature(final Feature f)
+    '''returns None\n\n
+    enableFeature(final Feature f)\n
     '''
 def disableFeature():
-    '''public void disableFeature(final Feature f)
+    '''returns None\n\n
+    disableFeature(final Feature f)\n
     '''
 def setFeature():
-    '''public void setFeature(final Feature f, final boolean state)
+    '''returns None\n\n
+    setFeature(final Feature f, final boolean state)\n
     '''
 def isFeatureEnabled():
-    '''public boolean isFeatureEnabled(final Feature f)
+    '''returns boolean\n\n
+    isFeatureEnabled(final Feature f)\n
     '''
 def setPrettyPrinter():
-    '''public JsonGenerator setPrettyPrinter(final PrettyPrinter pp)
+    '''returns JsonGenerator\n\n
+    setPrettyPrinter(final PrettyPrinter pp)\n
     '''
 def setHighestNonEscapedChar():
-    '''public JsonGenerator setHighestNonEscapedChar(final int charCode)
+    '''returns JsonGenerator\n\n
+    setHighestNonEscapedChar(final int charCode)\n
     '''
 def getHighestEscapedChar():
-    '''public int getHighestEscapedChar()
+    '''returns int\n\n
+    getHighestEscapedChar()\n
     '''
 def getCharacterEscapes():
-    '''public CharacterEscapes getCharacterEscapes()
+    '''returns CharacterEscapes\n\n
+    getCharacterEscapes()\n
     '''
 def setCharacterEscapes():
-    '''public JsonGenerator setCharacterEscapes(final CharacterEscapes esc)
+    '''returns JsonGenerator\n\n
+    setCharacterEscapes(final CharacterEscapes esc)\n
     '''
 def writeFieldName():
-    '''public void writeFieldName(final SerializedString name)
-    public void writeFieldName(final SerializableString name)
+    '''returns None\n\n
+    writeFieldName(final SerializedString name)\n
+    writeFieldName(final SerializableString name)\n
     '''
 def writeString():
-    '''public void writeString(final SerializableString text)
+    '''returns None\n\n
+    writeString(final SerializableString text)\n
     '''
 def writeBinary():
-    '''public void writeBinary(final byte[] data, final int offset, final int len)
-    public void writeBinary(final byte[] data)
+    '''returns None\n\n
+    writeBinary(final byte[] data, final int offset, final int len)\n
+    writeBinary(final byte[] data)\n
     '''
 def writeStringField():
-    '''public void writeStringField(final String fieldName, final String value)
-    '''
-def writeBooleanField():
-    '''public final void writeBooleanField(final String fieldName, final boolean value)
-    '''
-def writeNullField():
-    '''public final void writeNullField(final String fieldName)
-    '''
-def writeNumberField():
-    '''public final void writeNumberField(final String fieldName, final int value)
-    public final void writeNumberField(final String fieldName, final long value)
-    public final void writeNumberField(final String fieldName, final double value)
-    public final void writeNumberField(final String fieldName, final float value)
-    public final void writeNumberField(final String fieldName, final BigDecimal value)
-    '''
-def writeBinaryField():
-    '''public final void writeBinaryField(final String fieldName, final byte[] data)
-    '''
-def writeArrayFieldStart():
-    '''public final void writeArrayFieldStart(final String fieldName)
-    '''
-def writeObjectFieldStart():
-    '''public final void writeObjectFieldStart(final String fieldName)
-    '''
-def writeObjectField():
-    '''public final void writeObjectField(final String fieldName, final Object pojo)
-    '''
-def collectDefaults():
-    '''public static int collectDefaults()
+    '''returns None\n\n
+    writeStringField(final String fieldName, final String value)\n
     '''
 def enabledByDefault():
-    '''public boolean enabledByDefault()
+    '''returns boolean\n\n
+    enabledByDefault()\n
     '''
 def getMask():
-    '''public int getMask()
+    '''returns int\n\n
+    getMask()\n
     '''

@@ -1,3 +1,4 @@
-def PPACronParamSet():
-    '''public PPACronParamSet(final MboServerInterface ms)
+def ():
+    '''returns PPACronParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

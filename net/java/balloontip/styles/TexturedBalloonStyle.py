@@ -1,15 +1,20 @@
-def TexturedBalloonStyle():
-    '''public TexturedBalloonStyle(final int arcWidth, final int arcHeight, final URL background, final Color borderColor)
+def ():
+    '''returns TexturedBalloonStyle\n\n
+    (final int arcWidth, final int arcHeight, final URL background, final Color borderColor)\n
     '''
 def getBorderInsets():
-    '''public Insets getBorderInsets(final Component c)
+    '''returns Insets\n\n
+    getBorderInsets(final Component c)\n
     '''
 def isBorderOpaque():
-    '''public boolean isBorderOpaque()
+    '''returns boolean\n\n
+    isBorderOpaque()\n
     '''
 def paintBorder():
-    '''public void paintBorder(final Component c, final Graphics g, final int x, final int y, int width, int height)
+    '''returns None\n\n
+    paintBorder(final Component c, final Graphics g, final int x, final int y, int width, int height)\n
     '''
 def getMinimalHorizontalOffset():
-    '''public int getMinimalHorizontalOffset()
+    '''returns int\n\n
+    getMinimalHorizontalOffset()\n
     '''

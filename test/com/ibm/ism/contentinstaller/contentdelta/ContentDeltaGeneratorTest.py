@@ -1,3 +1,4 @@
 def testGenerate():
-    '''public void testGenerate()
+    '''returns None\n\n
+    testGenerate()\n
     '''

@@ -1,9 +1,12 @@
-def LayoutWrapper():
-    '''public LayoutWrapper(final org.apache.logging.log4j.core.Layout<?> layout)
+def ():
+    '''returns LayoutWrapper\n\n
+    (final org.apache.logging.log4j.core.Layout<?> layout)\n
     '''
 def format():
-    '''public String format(final LoggingEvent event)
+    '''returns String\n\n
+    format(final LoggingEvent event)\n
     '''
 def ignoresThrowable():
-    '''public boolean ignoresThrowable()
+    '''returns boolean\n\n
+    ignoresThrowable()\n
     '''

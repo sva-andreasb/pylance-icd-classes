@@ -1,36 +1,48 @@
-def PlusPCondition():
-    '''public PlusPCondition(final MboSet arg0)
+def ():
+    '''returns PlusPCondition\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String s, final String s2)
+    '''returns None\n\n
+    propagateKeyValue(final String s, final String s2)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def mustRecreateSecurityRestrictions():
-    '''public boolean mustRecreateSecurityRestrictions()
+    '''returns boolean\n\n
+    mustRecreateSecurityRestrictions()\n
     '''
 def recreateSecurityRestrictions():
-    '''public void recreateSecurityRestrictions()
+    '''returns None\n\n
+    recreateSecurityRestrictions()\n
     '''
 def isBypassSaveCondition():
-    '''public boolean isBypassSaveCondition()
+    '''returns boolean\n\n
+    isBypassSaveCondition()\n
     '''
 def setBypassSaveCondition():
-    '''public void setBypassSaveCondition(final boolean bypassSaveCondition)
+    '''returns None\n\n
+    setBypassSaveCondition(final boolean bypassSaveCondition)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

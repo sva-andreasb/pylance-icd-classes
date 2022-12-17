@@ -1,6 +1,8 @@
-def ASN1OutputStream():
-    '''public ASN1OutputStream(final OutputStream os)
+def ():
+    '''returns ASN1OutputStream\n\n
+    (final OutputStream os)\n
     '''
 def writeObject():
-    '''public void writeObject(final Object obj)
+    '''returns None\n\n
+    writeObject(final Object obj)\n
     '''

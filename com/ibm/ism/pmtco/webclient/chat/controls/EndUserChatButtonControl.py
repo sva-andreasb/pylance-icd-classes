@@ -1,6 +1,8 @@
 def launchChat():
-    '''public int launchChat()
+    '''returns int\n\n
+    launchChat()\n
     '''
 def resetChat():
-    '''public int resetChat()
+    '''returns int\n\n
+    resetChat()\n
     '''

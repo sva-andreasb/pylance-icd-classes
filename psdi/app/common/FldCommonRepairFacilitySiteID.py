@@ -1,3 +1,4 @@
-def FldCommonRepairFacilitySiteID():
-    '''public FldCommonRepairFacilitySiteID(final MboValue mbv)
+def ():
+    '''returns FldCommonRepairFacilitySiteID\n\n
+    (final MboValue mbv)\n
     '''

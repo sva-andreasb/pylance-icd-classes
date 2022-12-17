@@ -1,6 +1,8 @@
-def FldConversionUnitsOfMeasure():
-    '''public FldConversionUnitsOfMeasure(final MboValue mbv)
+def ():
+    '''returns FldConversionUnitsOfMeasure\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

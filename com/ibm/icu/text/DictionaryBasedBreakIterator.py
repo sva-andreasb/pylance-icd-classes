@@ -1,28 +1,37 @@
-def DictionaryBasedBreakIterator():
-    '''public DictionaryBasedBreakIterator(final String rules, final InputStream dictionaryStream)
-    public DictionaryBasedBreakIterator(final InputStream compiledRules, final InputStream dictionaryStream)
+def ():
+    '''returns DictionaryBasedBreakIterator\n\n
+    (final String rules, final InputStream dictionaryStream)\n
+    (final InputStream compiledRules, final InputStream dictionaryStream)\n
     '''
 def setText():
-    '''public void setText(final CharacterIterator newText)
+    '''returns None\n\n
+    setText(final CharacterIterator newText)\n
     '''
 def first():
-    '''public int first()
+    '''returns int\n\n
+    first()\n
     '''
 def last():
-    '''public int last()
+    '''returns int\n\n
+    last()\n
     '''
 def previous():
-    '''public int previous()
+    '''returns int\n\n
+    previous()\n
     '''
 def preceding():
-    '''public int preceding(final int offset)
+    '''returns int\n\n
+    preceding(final int offset)\n
     '''
 def following():
-    '''public int following(final int offset)
+    '''returns int\n\n
+    following(final int offset)\n
     '''
 def getRuleStatus():
-    '''public int getRuleStatus()
+    '''returns int\n\n
+    getRuleStatus()\n
     '''
 def getRuleStatusVec():
-    '''public int getRuleStatusVec(final int[] fillInArray)
+    '''returns int\n\n
+    getRuleStatusVec(final int[] fillInArray)\n
     '''

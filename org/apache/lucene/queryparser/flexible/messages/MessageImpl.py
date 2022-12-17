@@ -1,17 +1,22 @@
-def MessageImpl():
-    '''public MessageImpl(final String key)
-    public MessageImpl(final String key, final Object... args)
+def ():
+    '''returns MessageImpl\n\n
+    (final String key)\n
+    (final String key, final Object... args)\n
     '''
 def getArguments():
-    '''public Object[] getArguments()
+    '''returns Object[]\n\n
+    getArguments()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
-    public String getLocalizedMessage(final Locale locale)
+    '''returns String\n\n
+    getLocalizedMessage()\n
+    getLocalizedMessage(final Locale locale)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

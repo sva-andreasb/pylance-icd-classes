@@ -5,57 +5,75 @@ VPCONFIG_STORAGE_ONSET = "short  7"
 ST_OTM_STORAGE_SUBSCRIBE = "short  -32767"
 ST_OTM_STORAGE_UNSUBSCRIBE = "short  -32766"
 ST_OTM_STORAGE_CHANGED = "short  -32765"
-def StorageImpl():
-    '''public StorageImpl(final STSession stSession)
+def ():
+    '''returns StorageImpl\n\n
+    (final STSession stSession)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def componentLoaded():
-    '''public void componentLoaded(final STCompApi stCompApi)
+    '''returns None\n\n
+    componentLoaded(final STCompApi stCompApi)\n
     '''
 def channelOpened():
-    '''public void channelOpened(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpened(final ChannelEvent channelEvent)\n
     '''
 def channelMsgReceived():
-    '''public void channelMsgReceived(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelMsgReceived(final ChannelEvent channelEvent)\n
     '''
 def channelClosed():
-    '''public void channelClosed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelClosed(final ChannelEvent channelEvent)\n
     '''
 def channelOpenFailed():
-    '''public void channelOpenFailed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpenFailed(final ChannelEvent channelEvent)\n
     '''
 def loggedOut():
-    '''public void loggedOut(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedOut(final LoginEvent loginEvent)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def checkTimeout():
-    '''public void checkTimeout(final int n)
+    '''returns None\n\n
+    checkTimeout(final int n)\n
     '''
 def set():
-    '''public void set(final Integer n, final Vector vector, final STUser stUser)
+    '''returns None\n\n
+    set(final Integer n, final Vector vector, final STUser stUser)\n
     '''
 def get():
-    '''public void get(final Integer n, final Vector vector, final STUser stUser)
+    '''returns None\n\n
+    get(final Integer n, final Vector vector, final STUser stUser)\n
     '''
 def processSTEvent():
-    '''public void processSTEvent(final STEvent stEvent)
+    '''returns None\n\n
+    processSTEvent(final STEvent stEvent)\n
     '''
 def serviceAvailable():
-    '''public void serviceAvailable(final ServiceEvent serviceEvent)
+    '''returns None\n\n
+    serviceAvailable(final ServiceEvent serviceEvent)\n
     '''
 def loggedIn():
-    '''public void loggedIn(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedIn(final LoginEvent loginEvent)\n
     '''
 def otmRecieved():
-    '''public void otmRecieved(final OTMEvent otmEvent)
+    '''returns None\n\n
+    otmRecieved(final OTMEvent otmEvent)\n
     '''
 def sendOTMDenied():
-    '''public void sendOTMDenied(final OTMEvent otmEvent)
+    '''returns None\n\n
+    sendOTMDenied(final OTMEvent otmEvent)\n
     '''

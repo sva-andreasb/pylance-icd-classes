@@ -1,6 +1,8 @@
-def SurveyRequestBean():
-    '''public SurveyRequestBean()
+def ():
+    '''returns SurveyRequestBean\n\n
+    ()\n
     '''
 def showsurvey():
-    '''public int showsurvey()
+    '''returns int\n\n
+    showsurvey()\n
     '''

@@ -1,86 +1,81 @@
-def GraphTDBBase():
-    '''public GraphTDBBase(final DatasetGraphTDB dataset, final Node graphName)
-    '''
-def getReorderTransform():
-    '''public final ReorderTransformation getReorderTransform()
-    '''
-def getLocation():
-    '''public final Location getLocation()
-    '''
-def getGraphNode():
-    '''public final Node getGraphNode()
-    '''
-def getDataset():
-    '''public final DatasetGraphTDB getDataset()
+def ():
+    '''returns GraphTDBBase\n\n
+    (final DatasetGraphTDB dataset, final Node graphName)\n
     '''
 def getLock():
-    '''public Lock getLock()
-    '''
-def performAdd():
-    '''public final void performAdd(final Triple triple)
-    '''
-def performDelete():
-    '''public final void performDelete(final Triple triple)
+    '''returns Lock\n\n
+    getLock()\n
     '''
 def sync():
-    '''public void sync()
+    '''returns None\n\n
+    sync()\n
     '''
 def finishRead():
-    '''public void finishRead()
+    '''returns None\n\n
+    finishRead()\n
     '''
 def startRead():
-    '''public void startRead()
-    '''
-def startUpdate():
-    '''public final void startUpdate()
-    '''
-def finishUpdate():
-    '''public final void finishUpdate()
+    '''returns None\n\n
+    startRead()\n
     '''
 def getBulkUpdateHandler():
-    '''public BulkUpdateHandler getBulkUpdateHandler()
+    '''returns BulkUpdateHandler\n\n
+    getBulkUpdateHandler()\n
     '''
 def getCapabilities():
-    '''public Capabilities getCapabilities()
+    '''returns Capabilities\n\n
+    getCapabilities()\n
     '''
 def sizeAccurate():
-    '''public boolean sizeAccurate()
+    '''returns boolean\n\n
+    sizeAccurate()\n
     '''
 def addAllowed():
-    '''public boolean addAllowed()
-    public boolean addAllowed(final boolean every)
+    '''returns boolean\n\n
+    addAllowed()\n
+    addAllowed(final boolean every)\n
     '''
 def deleteAllowed():
-    '''public boolean deleteAllowed()
-    public boolean deleteAllowed(final boolean every)
+    '''returns boolean\n\n
+    deleteAllowed()\n
+    deleteAllowed(final boolean every)\n
     '''
 def canBeEmpty():
-    '''public boolean canBeEmpty()
+    '''returns boolean\n\n
+    canBeEmpty()\n
     '''
 def iteratorRemoveAllowed():
-    '''public boolean iteratorRemoveAllowed()
+    '''returns boolean\n\n
+    iteratorRemoveAllowed()\n
     '''
 def findContractSafe():
-    '''public boolean findContractSafe()
+    '''returns boolean\n\n
+    findContractSafe()\n
     '''
 def handlesLiteralTyping():
-    '''public boolean handlesLiteralTyping()
+    '''returns boolean\n\n
+    handlesLiteralTyping()\n
     '''
 def queryHandler():
-    '''public QueryHandler queryHandler()
+    '''returns QueryHandler\n\n
+    queryHandler()\n
     '''
 def getTransactionHandler():
-    '''public TransactionHandler getTransactionHandler()
+    '''returns TransactionHandler\n\n
+    getTransactionHandler()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public Triple next()
-    public Triple next()
+    '''returns Triple\n\n
+    next()\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove()\n
+    remove()\n
     '''

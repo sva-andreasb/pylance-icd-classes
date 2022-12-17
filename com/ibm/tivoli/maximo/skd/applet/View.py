@@ -1,54 +1,64 @@
-def View():
-    '''public View(final Viewer viewer, final String iD, final String name)
+def ():
+    '''returns View\n\n
+    (final Viewer viewer, final String iD, final String name)\n
     '''
 def getViewer():
-    '''public Viewer getViewer()
+    '''returns Viewer\n\n
+    getViewer()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMainComponent():
-    '''public JComponent getMainComponent()
+    '''returns JComponent\n\n
+    getMainComponent()\n
     '''
 def getSecondaryComponent():
-    '''public JComponent getSecondaryComponent()
-    '''
-def setSelected():
-    '''public final void setSelected(final Object obj, final boolean selected)
-    '''
-def deSelectAll():
-    '''public final void deSelectAll()
+    '''returns JComponent\n\n
+    getSecondaryComponent()\n
     '''
 def getDefaultTransformer():
-    '''public IlvTransformer getDefaultTransformer()
+    '''returns IlvTransformer\n\n
+    getDefaultTransformer()\n
     '''
 def registerAction():
-    '''public void registerAction(final ViewerAbstractAction action)
+    '''returns None\n\n
+    registerAction(final ViewerAbstractAction action)\n
     '''
 def unregisterAction():
-    '''public void unregisterAction(final ViewerAbstractAction action)
+    '''returns None\n\n
+    unregisterAction(final ViewerAbstractAction action)\n
     '''
 def isRegisteredAction():
-    '''public boolean isRegisteredAction(final ViewerAbstractAction action)
+    '''returns boolean\n\n
+    isRegisteredAction(final ViewerAbstractAction action)\n
     '''
 def getContextualAction():
-    '''public IlvAction getContextualAction(final ViewerAbstractAction action)
+    '''returns IlvAction\n\n
+    getContextualAction(final ViewerAbstractAction action)\n
     '''
 def performAction():
-    '''public void performAction(final ViewerAbstractAction action, final ActionEvent event)
+    '''returns None\n\n
+    performAction(final ViewerAbstractAction action, final ActionEvent event)\n
     '''
 def isStylable():
-    '''public boolean isStylable()
+    '''returns boolean\n\n
+    isStylable()\n
     '''
 def applyStyle():
-    '''public void applyStyle(final String arg)
+    '''returns None\n\n
+    applyStyle(final String arg)\n
     '''
 def setAsCurrentView():
-    '''public void setAsCurrentView()
+    '''returns None\n\n
+    setAsCurrentView()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''

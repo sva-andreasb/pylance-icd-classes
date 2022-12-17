@@ -1,25 +1,33 @@
-def SDBRequest():
-    '''public SDBRequest(final Store store, final Query query, Context context)
-    public SDBRequest(final Store store, final Query query)
+def ():
+    '''returns SDBRequest\n\n
+    (final Store store, final Query query, Context context)\n
+    (final Store store, final Query query)\n
     '''
 def getContext():
-    '''public Context getContext()
+    '''returns Context\n\n
+    getContext()\n
     '''
 def getPrefixMapping():
-    '''public PrefixMapping getPrefixMapping()
+    '''returns PrefixMapping\n\n
+    getPrefixMapping()\n
     '''
 def getQuery():
-    '''public Query getQuery()
+    '''returns Query\n\n
+    getQuery()\n
     '''
 def getStore():
-    '''public Store getStore()
+    '''returns Store\n\n
+    getStore()\n
     '''
 def generator():
-    '''public Generator generator(final String base)
+    '''returns Generator\n\n
+    generator(final String base)\n
     '''
 def genId():
-    '''public String genId(final String base)
+    '''returns String\n\n
+    genId(final String base)\n
     '''
 def genVar():
-    '''public Var genVar()
+    '''returns Var\n\n
+    genVar()\n
     '''

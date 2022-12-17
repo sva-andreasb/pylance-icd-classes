@@ -1,10 +1,13 @@
-def XMLDocumentContainer():
-    '''public XMLDocumentContainer(final URL xmlURL)
-    public XMLDocumentContainer(final Source source)
+def ():
+    '''returns XMLDocumentContainer\n\n
+    (final URL xmlURL)\n
+    (final Source source)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''

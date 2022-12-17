@@ -17,30 +17,39 @@ FIELD_PARENTLOC = "String  \"PARENTLOC\""
 FIELD_PREFIXSEQ = "String  \"PREFIXSEQ\""
 FIELD_PRIMARYSYSTEM = "String  \"PRIMARYSYSTEM\""
 FIELD_SITEID = "String  \"SITEID\""
-def BIMProject():
-    '''public BIMProject(final MboSet ms)
+def ():
+    '''returns BIMProject\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def hasValidImport():
-    '''public boolean hasValidImport()
+    '''returns boolean\n\n
+    hasValidImport()\n
     '''
 def getDocumentDirectory():
-    '''public String getDocumentDirectory()
+    '''returns String\n\n
+    getDocumentDirectory()\n
     '''
 def getFrequencyUnits():
-    '''public String getFrequencyUnits(String units)
+    '''returns String\n\n
+    getFrequencyUnits(String units)\n
     '''
 def cleanDocumentDir():
-    '''public void cleanDocumentDir()
+    '''returns None\n\n
+    cleanDocumentDir()\n
     '''

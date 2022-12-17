@@ -1,3 +1,4 @@
 def getTimeZoneNames():
-    '''public TimeZoneNames getTimeZoneNames(final ULocale locale)
+    '''returns TimeZoneNames\n\n
+    getTimeZoneNames(final ULocale locale)\n
     '''

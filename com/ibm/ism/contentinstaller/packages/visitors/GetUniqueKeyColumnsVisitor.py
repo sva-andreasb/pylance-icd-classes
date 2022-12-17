@@ -1,9 +1,12 @@
-def GetUniqueKeyColumnsVisitor():
-    '''public GetUniqueKeyColumnsVisitor(final MaximoResolver maximoResolver)
+def ():
+    '''returns GetUniqueKeyColumnsVisitor\n\n
+    (final MaximoResolver maximoResolver)\n
     '''
 def visit():
-    '''public void visit(final BaseTag baseTag)
+    '''returns None\n\n
+    visit(final BaseTag baseTag)\n
     '''
 def getUniqueKeyColumns():
-    '''public List<KeyColumn> getUniqueKeyColumns()
+    '''returns List<KeyColumn>\n\n
+    getUniqueKeyColumns()\n
     '''

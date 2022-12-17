@@ -1,15 +1,20 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def generate():
-    '''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(final Hashtable hashtable, final PrintWriter printWriter)\n
     '''
 def generator():
-    '''public Generator generator()
+    '''returns Generator\n\n
+    generator()\n
     '''
 def getInterfaceType():
-    '''public int getInterfaceType()
+    '''returns int\n\n
+    getInterfaceType()\n
     '''
 def setInterfaceType():
-    '''public void setInterfaceType(final int type)
+    '''returns None\n\n
+    setInterfaceType(final int type)\n
     '''

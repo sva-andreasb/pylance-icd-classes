@@ -1,6 +1,8 @@
-def ScriptVar():
-    '''public ScriptVar(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns ScriptVar\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def eval():
-    '''public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval(final List<BigDecimal> parameters)\n
     '''

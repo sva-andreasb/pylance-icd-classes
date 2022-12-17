@@ -1,21 +1,28 @@
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def getPublicKeyFile():
-    '''public PublicKeyFile getPublicKeyFile()
+    '''returns PublicKeyFile\n\n
+    getPublicKeyFile()\n
     '''
 def isPublicKeyCopied():
-    '''public boolean isPublicKeyCopied()
+    '''returns boolean\n\n
+    isPublicKeyCopied()\n
     '''
 def isAuthenticated():
-    '''public boolean isAuthenticated()
+    '''returns boolean\n\n
+    isAuthenticated()\n
     '''
 def isPartialSuccess():
-    '''public boolean isPartialSuccess()
+    '''returns boolean\n\n
+    isPartialSuccess()\n
     '''
 def getAuthentications():
-    '''public String[] getAuthentications()
+    '''returns String[]\n\n
+    getAuthentications()\n
     '''
 def getBannerMessage():
-    '''public String getBannerMessage()
+    '''returns String\n\n
+    getBannerMessage()\n
     '''

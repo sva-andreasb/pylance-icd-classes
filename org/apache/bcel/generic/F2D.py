@@ -1,6 +1,8 @@
-def F2D():
-    '''public F2D()
+def ():
+    '''returns F2D\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

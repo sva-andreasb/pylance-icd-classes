@@ -1,9 +1,8 @@
-def SystemsNewBean():
-    '''public SystemsNewBean()
+def ():
+    '''returns SystemsNewBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    initialize()\n
     '''

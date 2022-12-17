@@ -1,12 +1,16 @@
-def PlusPCustomerObjectBean():
-    '''public PlusPCustomerObjectBean()
+def ():
+    '''returns PlusPCustomerObjectBean\n\n
+    ()\n
     '''
 def CREATCON():
-    '''public int CREATCON()
+    '''returns int\n\n
+    CREATCON()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def promptKeepNewCustObj():
-    '''public boolean promptKeepNewCustObj()
+    '''returns boolean\n\n
+    promptKeepNewCustObj()\n
     '''

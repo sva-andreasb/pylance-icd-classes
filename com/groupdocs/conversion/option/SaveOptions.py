@@ -1,45 +1,60 @@
-def SaveOptions():
-    '''public SaveOptions()
+def ():
+    '''returns SaveOptions\n\n
+    ()\n
     '''
 def getSaveFileType():
-    '''public FileType getSaveFileType()
+    '''returns FileType\n\n
+    getSaveFileType()\n
     '''
 def setSaveFileType():
-    '''public void setSaveFileType(final FileType saveFileType)
+    '''returns None\n\n
+    setSaveFileType(final FileType saveFileType)\n
     '''
 def getSavePath():
-    '''public String getSavePath()
+    '''returns String\n\n
+    getSavePath()\n
     '''
 def setSavePath():
-    '''public void setSavePath(final String savePath)
+    '''returns None\n\n
+    setSavePath(final String savePath)\n
     '''
 def getSaveName():
-    '''public String getSaveName()
+    '''returns String\n\n
+    getSaveName()\n
     '''
 def setSaveName():
-    '''public void setSaveName(final String saveName)
+    '''returns None\n\n
+    setSaveName(final String saveName)\n
     '''
 def getPage():
-    '''public Integer getPage()
+    '''returns Integer\n\n
+    getPage()\n
     '''
 def setPage():
-    '''public void setPage(final Integer page)
+    '''returns None\n\n
+    setPage(final Integer page)\n
     '''
 def getWorksheetIndex():
-    '''public Integer getWorksheetIndex()
+    '''returns Integer\n\n
+    getWorksheetIndex()\n
     '''
 def setWorksheetIndex():
-    '''public void setWorksheetIndex(final Integer worksheetIndex)
+    '''returns None\n\n
+    setWorksheetIndex(final Integer worksheetIndex)\n
     '''
 def isSplitWorksheetIntoPages():
-    '''public boolean isSplitWorksheetIntoPages()
+    '''returns boolean\n\n
+    isSplitWorksheetIntoPages()\n
     '''
 def setSplitWorksheetIntoPages():
-    '''public void setSplitWorksheetIntoPages(final boolean splitWorksheetIntoPages)
+    '''returns None\n\n
+    setSplitWorksheetIntoPages(final boolean splitWorksheetIntoPages)\n
     '''
 def isAsListItems():
-    '''public boolean isAsListItems()
+    '''returns boolean\n\n
+    isAsListItems()\n
     '''
 def setAsListItems():
-    '''public void setAsListItems(final boolean asListItems)
+    '''returns None\n\n
+    setAsListItems(final boolean asListItems)\n
     '''

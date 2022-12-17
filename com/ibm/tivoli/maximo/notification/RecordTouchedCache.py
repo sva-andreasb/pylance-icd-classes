@@ -1,12 +1,12 @@
-def getInstance():
-    '''public static final RecordTouchedCache getInstance()
-    '''
 def isRecordTouched():
-    '''public boolean isRecordTouched(final String osName, final Long objectid, final String personId)
+    '''returns boolean\n\n
+    isRecordTouched(final String osName, final Long objectid, final String personId)\n
     '''
 def isRecordInTouchLog():
-    '''public boolean isRecordInTouchLog(final String osName, final Long objectid)
+    '''returns boolean\n\n
+    isRecordInTouchLog(final String osName, final Long objectid)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

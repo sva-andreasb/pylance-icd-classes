@@ -1,13 +1,17 @@
 NAME = "String  \"ANONYMOUS\""
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def newInstance():
-    '''public SASLAnonymous newInstance()
+    '''returns SASLAnonymous\n\n
+    newInstance()\n
     '''
 def checkIfSuccessfulOrThrow():
-    '''public void checkIfSuccessfulOrThrow()
+    '''returns None\n\n
+    checkIfSuccessfulOrThrow()\n
     '''

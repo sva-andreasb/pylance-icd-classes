@@ -1,12 +1,16 @@
-def GroupDocsConfig():
-    '''public GroupDocsConfig(final String licensePathParam, final String inputPathParam, final String outputPathParam)
+def ():
+    '''returns GroupDocsConfig\n\n
+    (final String licensePathParam, final String inputPathParam, final String outputPathParam)\n
     '''
 def getLicensePath():
-    '''public String getLicensePath()
+    '''returns String\n\n
+    getLicensePath()\n
     '''
 def getStoragePath():
-    '''public String getStoragePath()
+    '''returns String\n\n
+    getStoragePath()\n
     '''
 def getFileSavePath():
-    '''public String getFileSavePath()
+    '''returns String\n\n
+    getFileSavePath()\n
     '''

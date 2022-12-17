@@ -1,9 +1,12 @@
-def ReportDepend():
-    '''public ReportDepend(final MboSet ms)
+def ():
+    '''returns ReportDepend\n\n
+    (final MboSet ms)\n
     '''
 def sigopGranted():
-    '''public boolean sigopGranted(final String optionname)
+    '''returns boolean\n\n
+    sigopGranted(final String optionname)\n
     '''
 def checkSiteOrgAccessForSave():
-    '''public void checkSiteOrgAccessForSave()
+    '''returns None\n\n
+    checkSiteOrgAccessForSave()\n
     '''

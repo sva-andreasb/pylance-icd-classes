@@ -1,117 +1,156 @@
-def HTMLInputElement():
-    '''public HTMLInputElement(final DOMObject domObject, final HTMLDocument htmlDocument, final HTMLFormElement htmlFormElement)
+def ():
+    '''returns HTMLInputElement\n\n
+    (final DOMObject domObject, final HTMLDocument htmlDocument, final HTMLFormElement htmlFormElement)\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String s)
+    '''returns None\n\n
+    setDefaultValue(final String s)\n
     '''
 def getDefaultChecked():
-    '''public boolean getDefaultChecked()
+    '''returns boolean\n\n
+    getDefaultChecked()\n
     '''
 def setDefaultChecked():
-    '''public void setDefaultChecked(final boolean b)
+    '''returns None\n\n
+    setDefaultChecked(final boolean b)\n
     '''
 def getForm():
-    '''public HTMLFormElement getForm()
+    '''returns HTMLFormElement\n\n
+    getForm()\n
     '''
 def getAccept():
-    '''public String getAccept()
+    '''returns String\n\n
+    getAccept()\n
     '''
 def setAccept():
-    '''public void setAccept(final String s)
+    '''returns None\n\n
+    setAccept(final String s)\n
     '''
 def getAccessKey():
-    '''public String getAccessKey()
+    '''returns String\n\n
+    getAccessKey()\n
     '''
 def setAccessKey():
-    '''public void setAccessKey(final String s)
+    '''returns None\n\n
+    setAccessKey(final String s)\n
     '''
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getAlt():
-    '''public String getAlt()
+    '''returns String\n\n
+    getAlt()\n
     '''
 def setAlt():
-    '''public void setAlt(final String s)
+    '''returns None\n\n
+    setAlt(final String s)\n
     '''
 def getChecked():
-    '''public boolean getChecked()
+    '''returns boolean\n\n
+    getChecked()\n
     '''
 def setChecked():
-    '''public void setChecked(final boolean b)
+    '''returns None\n\n
+    setChecked(final boolean b)\n
     '''
 def getDisabled():
-    '''public boolean getDisabled()
+    '''returns boolean\n\n
+    getDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean b)
+    '''returns None\n\n
+    setDisabled(final boolean b)\n
     '''
 def getMaxLength():
-    '''public int getMaxLength()
+    '''returns int\n\n
+    getMaxLength()\n
     '''
 def setMaxLength():
-    '''public void setMaxLength(final int n)
+    '''returns None\n\n
+    setMaxLength(final int n)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getReadOnly():
-    '''public boolean getReadOnly()
+    '''returns boolean\n\n
+    getReadOnly()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean b)
+    '''returns None\n\n
+    setReadOnly(final boolean b)\n
     '''
 def getSize():
-    '''public String getSize()
+    '''returns String\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final String s)
+    '''returns None\n\n
+    setSize(final String s)\n
     '''
 def getSrc():
-    '''public String getSrc()
+    '''returns String\n\n
+    getSrc()\n
     '''
 def setSrc():
-    '''public void setSrc(final String s)
+    '''returns None\n\n
+    setSrc(final String s)\n
     '''
 def getTabIndex():
-    '''public int getTabIndex()
+    '''returns int\n\n
+    getTabIndex()\n
     '''
 def setTabIndex():
-    '''public void setTabIndex(final int n)
+    '''returns None\n\n
+    setTabIndex(final int n)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getUseMap():
-    '''public String getUseMap()
+    '''returns String\n\n
+    getUseMap()\n
     '''
 def setUseMap():
-    '''public void setUseMap(final String s)
+    '''returns None\n\n
+    setUseMap(final String s)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String s)
+    '''returns None\n\n
+    setValue(final String s)\n
     '''
 def blur():
-    '''public void blur()
+    '''returns None\n\n
+    blur()\n
     '''
 def focus():
-    '''public void focus()
+    '''returns None\n\n
+    focus()\n
     '''
 def select():
-    '''public void select()
+    '''returns None\n\n
+    select()\n
     '''
 def click():
-    '''public void click()
+    '''returns None\n\n
+    click()\n
     '''

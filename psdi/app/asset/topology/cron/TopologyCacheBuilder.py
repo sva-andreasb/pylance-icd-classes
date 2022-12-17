@@ -1,7 +1,9 @@
-def TopologyCacheBuilder():
-    '''public TopologyCacheBuilder()
-    public TopologyCacheBuilder(final MXLogger logger, final MXLogger sqlLogger, final UserInfo userInfo)
+def ():
+    '''returns TopologyCacheBuilder\n\n
+    ()\n
+    (final MXLogger logger, final MXLogger sqlLogger, final UserInfo userInfo)\n
     '''
 def performTask():
-    '''public void performTask()
+    '''returns None\n\n
+    performTask()\n
     '''

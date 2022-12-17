@@ -1,19 +1,13 @@
-def StemCutPasteGloss():
-    '''public StemCutPasteGloss()
-    public StemCutPasteGloss(final String s, final String s2)
-    '''
-def equals():
-    '''public final boolean equals(final Object o)
+def ():
+    '''returns StemCutPasteGloss\n\n
+    ()\n
+    (final String s, final String s2)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def getType():
-    '''public final int getType()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns int\n\n
+    hashCode()\n
     '''

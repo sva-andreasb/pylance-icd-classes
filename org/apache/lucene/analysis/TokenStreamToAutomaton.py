@@ -1,20 +1,26 @@
 POS_SEP = "int  31"
 HOLE = "int  30"
-def TokenStreamToAutomaton():
-    '''public TokenStreamToAutomaton()
+def ():
+    '''returns TokenStreamToAutomaton\n\n
+    ()\n
     '''
 def setPreservePositionIncrements():
-    '''public void setPreservePositionIncrements(final boolean enablePositionIncrements)
+    '''returns None\n\n
+    setPreservePositionIncrements(final boolean enablePositionIncrements)\n
     '''
 def setFinalOffsetGapAsHole():
-    '''public void setFinalOffsetGapAsHole(final boolean finalOffsetGapAsHole)
+    '''returns None\n\n
+    setFinalOffsetGapAsHole(final boolean finalOffsetGapAsHole)\n
     '''
 def setUnicodeArcs():
-    '''public void setUnicodeArcs(final boolean unicodeArcs)
+    '''returns None\n\n
+    setUnicodeArcs(final boolean unicodeArcs)\n
     '''
 def toAutomaton():
-    '''public Automaton toAutomaton(final TokenStream in)
+    '''returns Automaton\n\n
+    toAutomaton(final TokenStream in)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

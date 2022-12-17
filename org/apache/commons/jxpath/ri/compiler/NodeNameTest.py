@@ -1,9 +1,12 @@
-def NodeNameTest():
-    '''public NodeNameTest(final QName qname)
+def ():
+    '''returns NodeNameTest\n\n
+    (final QName qname)\n
     '''
 def getNodeName():
-    '''public QName getNodeName()
+    '''returns QName\n\n
+    getNodeName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

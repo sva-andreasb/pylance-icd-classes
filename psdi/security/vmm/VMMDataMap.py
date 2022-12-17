@@ -4,81 +4,106 @@ LOWER = "int  3"
 INTEGER = "int  4"
 YORN = "int  5"
 CRYPTO = "int  6"
-def VMMDataMap():
-    '''public VMMDataMap()
+def ():
+    '''returns VMMDataMap\n\n
+    ()\n
     '''
 def addDataMap():
-    '''public void addDataMap(final String tableId, String table, String column, final String attribute, final boolean keyColumn, final boolean required, final boolean allowRecDelete, final String type)
+    '''returns None\n\n
+    addDataMap(final String tableId, String table, String column, final String attribute, final boolean keyColumn, final boolean required, final boolean allowRecDelete, final String type)\n
     '''
 def getTableName():
-    '''public String getTableName(final String tableId)
+    '''returns String\n\n
+    getTableName(final String tableId)\n
     '''
 def getTableId():
-    '''public String getTableId(final String objectName)
+    '''returns String\n\n
+    getTableId(final String objectName)\n
     '''
 def getObjectName():
-    '''public String getObjectName(final String tableId, final Connection con)
+    '''returns String\n\n
+    getObjectName(final String tableId, final Connection con)\n
     '''
 def allowRecDelete():
-    '''public boolean allowRecDelete(final String tableId)
+    '''returns boolean\n\n
+    allowRecDelete(final String tableId)\n
     '''
 def getTableIds():
-    '''public Iterator getTableIds()
+    '''returns Iterator\n\n
+    getTableIds()\n
     '''
 def isUniqueIdColumn():
-    '''public boolean isUniqueIdColumn(final String tableId, String column)
+    '''returns boolean\n\n
+    isUniqueIdColumn(final String tableId, String column)\n
     '''
 def isSysDateColumn():
-    '''public boolean isSysDateColumn(final String tableId, String column)
+    '''returns boolean\n\n
+    isSysDateColumn(final String tableId, String column)\n
     '''
 def getColumnNames():
-    '''public Iterator getColumnNames(final String tableId)
+    '''returns Iterator\n\n
+    getColumnNames(final String tableId)\n
     '''
 def getKeyColumnNames():
-    '''public Iterator getKeyColumnNames(final String tableId)
+    '''returns Iterator\n\n
+    getKeyColumnNames(final String tableId)\n
     '''
 def getColumnNameForAttribute():
-    '''public String getColumnNameForAttribute(final String tableId, final String attributeName)
+    '''returns String\n\n
+    getColumnNameForAttribute(final String tableId, final String attributeName)\n
     '''
 def isMappedToVMMAttribute():
-    '''public boolean isMappedToVMMAttribute(final String tableId, final String column)
+    '''returns boolean\n\n
+    isMappedToVMMAttribute(final String tableId, final String column)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final String tableId, String column)
+    '''returns String\n\n
+    getAttribute(final String tableId, String column)\n
     '''
 def isRequired():
-    '''public boolean isRequired(final String tableId, String column)
-    public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired(final String tableId, String column)\n
+    isRequired()\n
     '''
 def getType():
-    '''public String getType(final String tableId, String column)
-    public String getType()
+    '''returns String\n\n
+    getType(final String tableId, String column)\n
+    getType()\n
     '''
 def getTypeAsInt():
-    '''public int getTypeAsInt(final String tableId, String column)
-    public int getTypeAsInt()
+    '''returns int\n\n
+    getTypeAsInt(final String tableId, String column)\n
+    getTypeAsInt()\n
     '''
 def getVMMAttributes():
-    '''public String[] getVMMAttributes()
+    '''returns String[]\n\n
+    getVMMAttributes()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def setAttributeName():
-    '''public void setAttributeName(final String name)
+    '''returns None\n\n
+    setAttributeName(final String name)\n
     '''
 def getColumnName():
-    '''public String getColumnName()
+    '''returns String\n\n
+    getColumnName()\n
     '''
 def setColumnName():
-    '''public void setColumnName(final String name)
+    '''returns None\n\n
+    setColumnName(final String name)\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean req)
+    '''returns None\n\n
+    setRequired(final boolean req)\n
     '''
 def setType():
-    '''public void setType(final String t)
+    '''returns None\n\n
+    setType(final String t)\n
     '''

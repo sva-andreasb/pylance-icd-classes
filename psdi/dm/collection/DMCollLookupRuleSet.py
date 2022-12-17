@@ -1,3 +1,4 @@
-def DMCollLookupRuleSet():
-    '''public DMCollLookupRuleSet(final MboServerInterface ms)
+def ():
+    '''returns DMCollLookupRuleSet\n\n
+    (final MboServerInterface ms)\n
     '''

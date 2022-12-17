@@ -1,22 +1,25 @@
-def InvokeChannelCacheImpl():
-    '''public InvokeChannelCacheImpl()
-    '''
-def getInvokeChannelMap():
-    '''public Map<String, InvokeChannel> getInvokeChannelMap()
+def ():
+    '''returns InvokeChannelCacheImpl\n\n
+    ()\n
     '''
 def getInvokeInfo():
-    '''public InvokeInfo getInvokeInfo(final String invkChannelName)
+    '''returns InvokeInfo\n\n
+    getInvokeInfo(final String invkChannelName)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInvokeChannel():
-    '''public InvokeChannel getInvokeChannel(final String invkChannelName)
+    '''returns InvokeChannel\n\n
+    getInvokeChannel(final String invkChannelName)\n
     '''

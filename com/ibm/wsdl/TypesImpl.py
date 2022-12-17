@@ -1,19 +1,25 @@
 serialVersionUID = "long  1L"
-def TypesImpl():
-    '''public TypesImpl()
+def ():
+    '''returns TypesImpl\n\n
+    ()\n
     '''
 def setDocumentationElement():
-    '''public void setDocumentationElement(final Element docEl)
+    '''returns None\n\n
+    setDocumentationElement(final Element docEl)\n
     '''
 def getDocumentationElement():
-    '''public Element getDocumentationElement()
+    '''returns Element\n\n
+    getDocumentationElement()\n
     '''
 def addExtensibilityElement():
-    '''public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''returns None\n\n
+    addExtensibilityElement(final ExtensibilityElement extensibilityElement)\n
     '''
 def getExtensibilityElements():
-    '''public List getExtensibilityElements()
+    '''returns List\n\n
+    getExtensibilityElements()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,6 +1,8 @@
-def AsianFontMapper():
-    '''public AsianFontMapper(final String font, final String encoding)
+def ():
+    '''returns AsianFontMapper\n\n
+    (final String font, final String encoding)\n
     '''
 def awtToPdf():
-    '''public BaseFont awtToPdf(final Font font)
+    '''returns BaseFont\n\n
+    awtToPdf(final Font font)\n
     '''

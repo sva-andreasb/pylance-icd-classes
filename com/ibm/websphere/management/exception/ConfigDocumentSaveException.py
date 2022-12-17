@@ -1,9 +1,12 @@
-def ConfigDocumentSaveException():
-    '''public ConfigDocumentSaveException(final String docUri, final Exception ex)
+def ():
+    '''returns ConfigDocumentSaveException\n\n
+    (final String docUri, final Exception ex)\n
     '''
 def getDocumentUri():
-    '''public String getDocumentUri()
+    '''returns String\n\n
+    getDocumentUri()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

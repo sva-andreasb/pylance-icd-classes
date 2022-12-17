@@ -1,18 +1,24 @@
 def getRootMbo():
-    '''public MboRemote getRootMbo()
+    '''returns MboRemote\n\n
+    getRootMbo()\n
     '''
 def prepareMboSet():
-    '''public void prepareMboSet(final MboSetRemote toPrepare)
+    '''returns None\n\n
+    prepareMboSet(final MboSetRemote toPrepare)\n
     '''
 def onCopyMbo():
-    '''public void onCopyMbo(final MboRemote mbo)
+    '''returns None\n\n
+    onCopyMbo(final MboRemote mbo)\n
     '''
 def onPaste():
-    '''public void onPaste(final MboRemote targetParentMbo)
+    '''returns None\n\n
+    onPaste(final MboRemote targetParentMbo)\n
     '''
 def onSelect():
-    '''public void onSelect(final MboRemote selectedMbo, final String eventValue)
+    '''returns None\n\n
+    onSelect(final MboRemote selectedMbo, final String eventValue)\n
     '''
 def onCheck():
-    '''public void onCheck(final MboRemote mbo, final boolean state)
+    '''returns None\n\n
+    onCheck(final MboRemote mbo, final boolean state)\n
     '''

@@ -1,9 +1,12 @@
-def FldSCDisplay():
-    '''public FldSCDisplay(final MboValue mbv)
+def ():
+    '''returns FldSCDisplay\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

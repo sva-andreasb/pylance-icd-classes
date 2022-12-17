@@ -1,3 +1,4 @@
-def FixedLengthFrameDecoder():
-    '''public FixedLengthFrameDecoder(final int frameLength)
+def ():
+    '''returns FixedLengthFrameDecoder\n\n
+    (final int frameLength)\n
     '''

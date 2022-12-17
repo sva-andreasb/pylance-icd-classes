@@ -1,15 +1,20 @@
-def IdProperty():
-    '''public IdProperty(final String id, final String property)
+def ():
+    '''returns IdProperty\n\n
+    (final String id, final String property)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getProperty():
-    '''public String getProperty()
+    '''returns String\n\n
+    getProperty()\n
     '''

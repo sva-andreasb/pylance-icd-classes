@@ -1,18 +1,24 @@
-def POIOLE2TextExtractor():
-    '''public POIOLE2TextExtractor(final POIDocument document)
+def ():
+    '''returns POIOLE2TextExtractor\n\n
+    (final POIDocument document)\n
     '''
 def getDocSummaryInformation():
-    '''public DocumentSummaryInformation getDocSummaryInformation()
+    '''returns DocumentSummaryInformation\n\n
+    getDocSummaryInformation()\n
     '''
 def getSummaryInformation():
-    '''public SummaryInformation getSummaryInformation()
+    '''returns SummaryInformation\n\n
+    getSummaryInformation()\n
     '''
 def getMetadataTextExtractor():
-    '''public POITextExtractor getMetadataTextExtractor()
+    '''returns POITextExtractor\n\n
+    getMetadataTextExtractor()\n
     '''
 def getRoot():
-    '''public DirectoryEntry getRoot()
+    '''returns DirectoryEntry\n\n
+    getRoot()\n
     '''
 def getDocument():
-    '''public POIDocument getDocument()
+    '''returns POIDocument\n\n
+    getDocument()\n
     '''

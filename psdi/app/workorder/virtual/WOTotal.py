@@ -1,6 +1,8 @@
-def WOTotal():
-    '''public WOTotal(final MboSet ms)
+def ():
+    '''returns WOTotal\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

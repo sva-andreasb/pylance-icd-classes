@@ -1,3 +1,4 @@
 def parse():
-    '''public MamQueryIQ parse(final XmlPullParser parser, final int initialDepth)
+    '''returns MamQueryIQ\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

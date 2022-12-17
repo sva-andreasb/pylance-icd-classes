@@ -1,12 +1,16 @@
-def ChatOpsBotEngine():
-    '''public ChatOpsBotEngine(final ChatOpsRequest request)
+def ():
+    '''returns ChatOpsBotEngine\n\n
+    (final ChatOpsRequest request)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initializeEventExe():
-    '''public void initializeEventExe(final String ticketId)
+    '''returns None\n\n
+    initializeEventExe(final String ticketId)\n
     '''
 def saveChannelHistory():
-    '''public JSONObject saveChannelHistory(final String channelId, final String teamId, final String chatTxt, final String chatops_userid)
+    '''returns JSONObject\n\n
+    saveChannelHistory(final String channelId, final String teamId, final String chatTxt, final String chatops_userid)\n
     '''

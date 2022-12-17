@@ -1,15 +1,20 @@
-def ChildNode():
-    '''public ChildNode()
+def ():
+    '''returns ChildNode\n\n
+    ()\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
 def getParentNode():
-    '''public Node getParentNode()
+    '''returns Node\n\n
+    getParentNode()\n
     '''
 def getNextSibling():
-    '''public Node getNextSibling()
+    '''returns Node\n\n
+    getNextSibling()\n
     '''
 def getPreviousSibling():
-    '''public Node getPreviousSibling()
+    '''returns Node\n\n
+    getPreviousSibling()\n
     '''

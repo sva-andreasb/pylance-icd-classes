@@ -1,4 +1,5 @@
-def InvalidAttachmentNameException():
-    '''public InvalidAttachmentNameException(final Object[] params, final OperationException e)
-    public InvalidAttachmentNameException(final String name, final int maxNameLength, final String reservedCharacters)
+def ():
+    '''returns InvalidAttachmentNameException\n\n
+    (final Object[] params, final OperationException e)\n
+    (final String name, final int maxNameLength, final String reservedCharacters)\n
     '''

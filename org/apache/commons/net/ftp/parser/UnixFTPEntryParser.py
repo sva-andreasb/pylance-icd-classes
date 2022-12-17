@@ -1,7 +1,9 @@
-def UnixFTPEntryParser():
-    '''public UnixFTPEntryParser()
-    public UnixFTPEntryParser(final FTPClientConfig config)
+def ():
+    '''returns UnixFTPEntryParser\n\n
+    ()\n
+    (final FTPClientConfig config)\n
     '''
 def parseFTPEntry():
-    '''public FTPFile parseFTPEntry(final String entry)
+    '''returns FTPFile\n\n
+    parseFTPEntry(final String entry)\n
     '''

@@ -1,3 +1,4 @@
-def SourceOrTargetAssetTicketBean():
-    '''public SourceOrTargetAssetTicketBean()
+def ():
+    '''returns SourceOrTargetAssetTicketBean\n\n
+    ()\n
     '''

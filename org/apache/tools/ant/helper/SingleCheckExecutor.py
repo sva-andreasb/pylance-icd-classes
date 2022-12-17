@@ -1,6 +1,8 @@
 def executeTargets():
-    '''public void executeTargets(final Project project, final String[] targetNames)
+    '''returns None\n\n
+    executeTargets(final Project project, final String[] targetNames)\n
     '''
 def getSubProjectExecutor():
-    '''public Executor getSubProjectExecutor()
+    '''returns Executor\n\n
+    getSubProjectExecutor()\n
     '''

@@ -1,23 +1,28 @@
 def getDefaultEncoding():
-    '''public String getDefaultEncoding()
+    '''returns String\n\n
+    getDefaultEncoding()\n
     '''
-def Pl():
-    '''public Pl(final File file)
-    public Pl(final InputStream inputStream)
-    public Pl(final InputStream inputStream, final boolean b)
-    public Pl(final InputStream in, final boolean b, final String bmd)
-    public Pl(final URL url)
-    public Pl(final URLConnection urlConnection, final String bmd)
-    public Pl(final InputStream inputStream, final String s)
-    public Pl(final InputStream in, final String s, final boolean b, final String bmd)
-    public Pl(final InputStream inputStream, final String s, final boolean b)
+def ():
+    '''returns Pl\n\n
+    (final File file)\n
+    (final InputStream inputStream)\n
+    (final InputStream inputStream, final boolean b)\n
+    (final InputStream in, final boolean b, final String bmd)\n
+    (final URL url)\n
+    (final URLConnection urlConnection, final String bmd)\n
+    (final InputStream inputStream, final String s)\n
+    (final InputStream in, final String s, final boolean b, final String bmd)\n
+    (final InputStream inputStream, final String s, final boolean b)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def read():
-    '''public int read(final char[] buf, final int offset, final int len)
+    '''returns int\n\n
+    read(final char[] buf, final int offset, final int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

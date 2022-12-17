@@ -1,7 +1,9 @@
-def ProgressEvent():
-    '''public ProgressEvent(final int bytesTransferred)
-    public ProgressEvent(final ProgressEventType eventType)
+def ():
+    '''returns ProgressEvent\n\n
+    (final int bytesTransferred)\n
+    (final ProgressEventType eventType)\n
     '''
 def getBytesTransfered():
-    '''public int getBytesTransfered()
+    '''returns int\n\n
+    getBytesTransfered()\n
     '''

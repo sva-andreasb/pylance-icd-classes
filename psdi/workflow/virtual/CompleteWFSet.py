@@ -1,6 +1,8 @@
-def CompleteWFSet():
-    '''public CompleteWFSet(final MboServerInterface ms)
+def ():
+    '''returns CompleteWFSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

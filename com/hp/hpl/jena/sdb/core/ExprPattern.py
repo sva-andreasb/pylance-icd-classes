@@ -1,6 +1,8 @@
-def ExprPattern():
-    '''public ExprPattern(final String pattern, final Var[] vars, final ActionMatch[] actions)
+def ():
+    '''returns ExprPattern\n\n
+    (final String pattern, final Var[] vars, final ActionMatch[] actions)\n
     '''
 def match():
-    '''public MapResult match(final Expr expression)
+    '''returns MapResult\n\n
+    match(final Expr expression)\n
     '''

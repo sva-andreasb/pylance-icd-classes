@@ -1,17 +1,22 @@
-def EditScript():
-    '''public EditScript()
+def ():
+    '''returns EditScript\n\n
+    ()\n
     '''
 def append():
-    '''public void append(final KeepCommand<T> command)
-    public void append(final InsertCommand<T> command)
-    public void append(final DeleteCommand<T> command)
+    '''returns None\n\n
+    append(final KeepCommand<T> command)\n
+    append(final InsertCommand<T> command)\n
+    append(final DeleteCommand<T> command)\n
     '''
 def visit():
-    '''public void visit(final CommandVisitor<T> visitor)
+    '''returns None\n\n
+    visit(final CommandVisitor<T> visitor)\n
     '''
 def getLCSLength():
-    '''public int getLCSLength()
+    '''returns int\n\n
+    getLCSLength()\n
     '''
 def getModifications():
-    '''public int getModifications()
+    '''returns int\n\n
+    getModifications()\n
     '''

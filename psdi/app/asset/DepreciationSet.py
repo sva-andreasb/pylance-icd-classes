@@ -1,3 +1,4 @@
-def DepreciationSet():
-    '''public DepreciationSet(final MboServerInterface ms)
+def ():
+    '''returns DepreciationSet\n\n
+    (final MboServerInterface ms)\n
     '''

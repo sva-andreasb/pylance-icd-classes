@@ -1,12 +1,16 @@
-def CalendarBreakSet():
-    '''public CalendarBreakSet(final MboServerInterface ms)
+def ():
+    '''returns CalendarBreakSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def clearCalendarYear():
-    '''public Date clearCalendarYear(Date date)
+    '''returns Date\n\n
+    clearCalendarYear(Date date)\n
     '''

@@ -1,6 +1,8 @@
-def BetweenNode():
-    '''public BetweenNode(final TreeNode operand, final TreeNode bound1, final TreeNode bound2)
+def ():
+    '''returns BetweenNode\n\n
+    (final TreeNode operand, final TreeNode bound1, final TreeNode bound2)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final MboRemote mbo)\n
     '''

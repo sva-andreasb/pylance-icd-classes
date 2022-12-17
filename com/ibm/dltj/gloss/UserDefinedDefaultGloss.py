@@ -1,20 +1,26 @@
-def UserDefinedDefaultGloss():
-    '''public UserDefinedDefaultGloss()
-    public UserDefinedDefaultGloss(final byte[] array)
-    public UserDefinedDefaultGloss(final int type, final byte[] array)
+def ():
+    '''returns UserDefinedDefaultGloss\n\n
+    ()\n
+    (final byte[] array)\n
+    (final int type, final byte[] array)\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

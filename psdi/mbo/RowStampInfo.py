@@ -1,47 +1,62 @@
-def RowStampInfo():
-    '''public RowStampInfo()
+def ():
+    '''returns RowStampInfo\n\n
+    ()\n
     '''
 def addRowStamp():
-    '''public void addRowStamp(final String tableName, final String entityColumnName)
+    '''returns None\n\n
+    addRowStamp(final String tableName, final String entityColumnName)\n
     '''
 def getFetchColumnNames():
-    '''public Iterator getFetchColumnNames()
+    '''returns Iterator\n\n
+    getFetchColumnNames()\n
     '''
 def getRowStampNumber():
-    '''public int getRowStampNumber(final String tableName)
-    public int getRowStampNumber()
+    '''returns int\n\n
+    getRowStampNumber(final String tableName)\n
+    getRowStampNumber()\n
     '''
 def getRowStampTableName():
-    '''public String getRowStampTableName(final int rowStampNumber)
-    public String getRowStampTableName(final String fetchColumnName)
+    '''returns String\n\n
+    getRowStampTableName(final int rowStampNumber)\n
+    getRowStampTableName(final String fetchColumnName)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getFetchColumnName():
-    '''public String getFetchColumnName()
+    '''returns String\n\n
+    getFetchColumnName()\n
     '''
 def setFetchColumnName():
-    '''public void setFetchColumnName(final String columnName)
+    '''returns None\n\n
+    setFetchColumnName(final String columnName)\n
     '''
 def setRowStampNumber():
-    '''public void setRowStampNumber(final int rowStampNumber)
+    '''returns None\n\n
+    setRowStampNumber(final int rowStampNumber)\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setTableName():
-    '''public void setTableName(final String tableName)
+    '''returns None\n\n
+    setTableName(final String tableName)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

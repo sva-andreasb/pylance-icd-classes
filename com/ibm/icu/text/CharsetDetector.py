@@ -1,37 +1,37 @@
-def CharsetDetector():
-    '''public CharsetDetector()
+def ():
+    '''returns CharsetDetector\n\n
+    ()\n
     '''
 def setDeclaredEncoding():
-    '''public CharsetDetector setDeclaredEncoding(final String encoding)
+    '''returns CharsetDetector\n\n
+    setDeclaredEncoding(final String encoding)\n
     '''
 def setText():
-    '''public CharsetDetector setText(final byte[] in)
-    public CharsetDetector setText(final InputStream in)
+    '''returns CharsetDetector\n\n
+    setText(final byte[] in)\n
+    setText(final InputStream in)\n
     '''
 def detect():
-    '''public CharsetMatch detect()
+    '''returns CharsetMatch\n\n
+    detect()\n
     '''
 def detectAll():
-    '''public CharsetMatch[] detectAll()
+    '''returns CharsetMatch[]\n\n
+    detectAll()\n
     '''
 def getReader():
-    '''public Reader getReader(final InputStream in, final String declaredEncoding)
+    '''returns Reader\n\n
+    getReader(final InputStream in, final String declaredEncoding)\n
     '''
 def getString():
-    '''public String getString(final byte[] in, final String declaredEncoding)
-    '''
-def getAllDetectableCharsets():
-    '''public static String[] getAllDetectableCharsets()
+    '''returns String\n\n
+    getString(final byte[] in, final String declaredEncoding)\n
     '''
 def inputFilterEnabled():
-    '''public boolean inputFilterEnabled()
+    '''returns boolean\n\n
+    inputFilterEnabled()\n
     '''
 def enableInputFilter():
-    '''public boolean enableInputFilter(final boolean filter)
-    '''
-def getDetectableCharsets():
-    '''public String[] getDetectableCharsets()
-    '''
-def setDetectableCharset():
-    '''public CharsetDetector setDetectableCharset(final String encoding, final boolean enabled)
+    '''returns boolean\n\n
+    enableInputFilter(final boolean filter)\n
     '''

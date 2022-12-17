@@ -1,6 +1,8 @@
-def SystemConnectionKey():
-    '''public SystemConnectionKey()
+def ():
+    '''returns SystemConnectionKey\n\n
+    ()\n
     '''
 def getLoginUserName():
-    '''public String getLoginUserName()
+    '''returns String\n\n
+    getLoginUserName()\n
     '''

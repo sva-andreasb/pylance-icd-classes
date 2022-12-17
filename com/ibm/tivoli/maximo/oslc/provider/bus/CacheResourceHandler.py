@@ -1,12 +1,16 @@
-def CacheResourceHandler():
-    '''public CacheResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns CacheResourceHandler\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def getCacheInfo():
-    '''public BusResource getCacheInfo(final String cacheName, final BusRequest request)
+    '''returns BusResource\n\n
+    getCacheInfo(final String cacheName, final BusRequest request)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''
 def createURI():
-    '''public String createURI(final List<String> resPath)
+    '''returns String\n\n
+    createURI(final List<String> resPath)\n
     '''

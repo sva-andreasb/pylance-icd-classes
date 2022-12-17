@@ -1,24 +1,20 @@
-def TransferProgress():
-    '''public TransferProgress()
+def ():
+    '''returns TransferProgress\n\n
+    ()\n
     '''
 def getBytesTransfered():
-    '''public long getBytesTransfered()
+    '''returns long\n\n
+    getBytesTransfered()\n
     '''
 def getBytesTransferred():
-    '''public long getBytesTransferred()
+    '''returns long\n\n
+    getBytesTransferred()\n
     '''
 def getTotalBytesToTransfer():
-    '''public long getTotalBytesToTransfer()
-    '''
-def getPercentTransfered():
-    '''public synchronized double getPercentTransfered()
-    '''
-def getPercentTransferred():
-    '''public synchronized double getPercentTransferred()
-    '''
-def updateProgress():
-    '''public synchronized void updateProgress(final long bytes)
+    '''returns long\n\n
+    getTotalBytesToTransfer()\n
     '''
 def setTotalBytesToTransfer():
-    '''public void setTotalBytesToTransfer(final long totalBytesToTransfer)
+    '''returns None\n\n
+    setTotalBytesToTransfer(final long totalBytesToTransfer)\n
     '''

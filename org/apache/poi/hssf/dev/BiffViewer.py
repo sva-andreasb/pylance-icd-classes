@@ -1,52 +1,51 @@
-def createRecords():
-    '''public static Record[] createRecords(final InputStream is, final PrintWriter ps, final BiffRecordListener recListener, final boolean dumpInterpretedRecords)
-    '''
-def main():
-    '''public static void main(final String[] args)
-    '''
-def parse():
-    '''public static CommandArgs parse(final String[] args)
-    '''
 def shouldDumpBiffHex():
-    '''public boolean shouldDumpBiffHex()
+    '''returns boolean\n\n
+    shouldDumpBiffHex()\n
     '''
 def shouldDumpRecordInterpretations():
-    '''public boolean shouldDumpRecordInterpretations()
+    '''returns boolean\n\n
+    shouldDumpRecordInterpretations()\n
     '''
 def shouldOutputToFile():
-    '''public boolean shouldOutputToFile()
+    '''returns boolean\n\n
+    shouldOutputToFile()\n
     '''
 def shouldOutputRawHexOnly():
-    '''public boolean shouldOutputRawHexOnly()
+    '''returns boolean\n\n
+    shouldOutputRawHexOnly()\n
     '''
 def suppressHeader():
-    '''public boolean suppressHeader()
+    '''returns boolean\n\n
+    suppressHeader()\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
-def CommandParseException():
-    '''public CommandParseException(final String msg)
-    '''
-def BiffRecordListener():
-    '''public BiffRecordListener(final Writer hexDumpWriter, final boolean zeroAlignEachRecord, final boolean noHeader)
+def ():
+    '''returns BiffDumpingStream\n\n
+    (final String msg)\n
+    (final Writer hexDumpWriter, final boolean zeroAlignEachRecord, final boolean noHeader)\n
+    (final InputStream is, final IBiffRecordListener listener)\n
     '''
 def processRecord():
-    '''public void processRecord(final int globalOffset, final int recordCounter, final int sid, final int dataSize, final byte[] data)
+    '''returns None\n\n
+    processRecord(final int globalOffset, final int recordCounter, final int sid, final int dataSize, final byte[] data)\n
     '''
 def getRecentHeaders():
-    '''public List<String> getRecentHeaders()
-    '''
-def BiffDumpingStream():
-    '''public BiffDumpingStream(final InputStream is, final IBiffRecordListener listener)
+    '''returns List<String>\n\n
+    getRecentHeaders()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,9 +1,12 @@
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def doFilter():
-    '''public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)
+    '''returns None\n\n
+    doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)\n
     '''
 def init():
-    '''public void init(final FilterConfig arg0)
+    '''returns None\n\n
+    init(final FilterConfig arg0)\n
     '''

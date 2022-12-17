@@ -1,57 +1,72 @@
-def BusResourceInfo():
-    '''public BusResourceInfo()
+def ():
+    '''returns BusResourceInfo\n\n
+    ()\n
     '''
 def getOptionName():
-    '''public String getOptionName()
+    '''returns String\n\n
+    getOptionName()\n
     '''
 def setOptionName():
-    '''public void setOptionName(final String optionName)
+    '''returns None\n\n
+    setOptionName(final String optionName)\n
     '''
 def addLinkedResource():
-    '''public void addLinkedResource(final BusResourceInfo busResInfo)
+    '''returns None\n\n
+    addLinkedResource(final BusResourceInfo busResInfo)\n
     '''
 def getScriptName():
-    '''public String getScriptName()
-    '''
-def getLinkedResources():
-    '''public Map<String, BusResourceInfo> getLinkedResources()
+    '''returns String\n\n
+    getScriptName()\n
     '''
 def getResourceHandler():
-    '''public ResourceHandler getResourceHandler(final String contextURI)
+    '''returns ResourceHandler\n\n
+    getResourceHandler(final String contextURI)\n
     '''
 def getParent():
-    '''public BusResourceInfo getParent()
+    '''returns BusResourceInfo\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final BusResourceInfo parent)
+    '''returns None\n\n
+    setParent(final BusResourceInfo parent)\n
     '''
 def getContext():
-    '''public String getContext()
+    '''returns String\n\n
+    getContext()\n
     '''
 def setContext():
-    '''public void setContext(final String context)
+    '''returns None\n\n
+    setContext(final String context)\n
     '''
 def getParentContext():
-    '''public String getParentContext()
+    '''returns String\n\n
+    getParentContext()\n
     '''
 def setParentContext():
-    '''public void setParentContext(final String parentContext)
+    '''returns None\n\n
+    setParentContext(final String parentContext)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def setCollection():
-    '''public void setCollection(final boolean collection)
+    '''returns None\n\n
+    setCollection(final boolean collection)\n
     '''
 def setPropertyName():
-    '''public void setPropertyName(final String propertyName)
+    '''returns None\n\n
+    setPropertyName(final String propertyName)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''

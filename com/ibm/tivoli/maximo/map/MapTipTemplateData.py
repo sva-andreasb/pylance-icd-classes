@@ -1,12 +1,16 @@
-def MapTipTemplateData():
-    '''public MapTipTemplateData(final MapTipRemote maptip, final UserInfo userInfo)
+def ():
+    '''returns MapTipTemplateData\n\n
+    (final MapTipRemote maptip, final UserInfo userInfo)\n
     '''
 def setMapTipData():
-    '''public void setMapTipData(final MapTipRemote maptip, final UserInfo userInfo)
+    '''returns None\n\n
+    setMapTipData(final MapTipRemote maptip, final UserInfo userInfo)\n
     '''
 def hasAccess():
-    '''public boolean hasAccess()
+    '''returns boolean\n\n
+    hasAccess()\n
     '''
 def getTemplate():
-    '''public String getTemplate(final String templateField)
+    '''returns String\n\n
+    getTemplate(final String templateField)\n
     '''

@@ -1,16 +1,13 @@
-def ByteRangeCapturingInputStream():
-    '''public ByteRangeCapturingInputStream(final InputStream in, final long startingPosition, final long endingPosition)
+def ():
+    '''returns ByteRangeCapturingInputStream\n\n
+    (final InputStream in, final long startingPosition, final long endingPosition)\n
     '''
 def getBlock():
-    '''public byte[] getBlock()
+    '''returns byte[]\n\n
+    getBlock()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''

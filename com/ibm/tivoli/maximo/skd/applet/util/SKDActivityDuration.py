@@ -1,39 +1,40 @@
-def SKDActivityDuration():
-    '''public SKDActivityDuration()
-    '''
-def getSKDActivityDuration():
-    '''public static synchronized SKDActivityDuration getSKDActivityDuration()
+def ():
+    '''returns SKDActivityDuration\n\n
+    ()\n
     '''
 def getActivityDuration():
-    '''public Object[] getActivityDuration(final Date startDate, Date endDate, final boolean isInterruptable)
+    '''returns Object[]\n\n
+    getActivityDuration(final Date startDate, Date endDate, final boolean isInterruptable)\n
     '''
 def durationBetweenTwoDates():
-    '''public double durationBetweenTwoDates(final Date startDate, final Date endDate, final SKDFormat skdf, final Locale l)
+    '''returns double\n\n
+    durationBetweenTwoDates(final Date startDate, final Date endDate, final SKDFormat skdf, final Locale l)\n
     '''
 def getWorkingHoursBetweenStartAndEndDates():
-    '''public double getWorkingHoursBetweenStartAndEndDates(final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getWorkingHoursBetweenStartAndEndDates(final Date startDate, final Date endDate)\n
     '''
 def getNonWorkingHoursBetweenStartAndEndDates():
-    '''public double getNonWorkingHoursBetweenStartAndEndDates(final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getNonWorkingHoursBetweenStartAndEndDates(final Date startDate, final Date endDate)\n
     '''
 def getNWDateListBetweenDates():
-    '''public LinkedHashSet<TreeSet<Date>> getNWDateListBetweenDates(final Date startDate, final Date endDate)
+    '''returns LinkedHashSet<TreeSet<Date>>\n\n
+    getNWDateListBetweenDates(final Date startDate, final Date endDate)\n
     '''
 def getActivityStartAndEndDates():
-    '''public IlvTimeInterval getActivityStartAndEndDates(Date startDate, Date endDate, double duration, final boolean isInterruptable)
+    '''returns IlvTimeInterval\n\n
+    getActivityStartAndEndDates(Date startDate, Date endDate, double duration, final boolean isInterruptable)\n
     '''
 def getActivityLatestStartAndFinishDates():
-    '''public IlvTimeInterval getActivityLatestStartAndFinishDates(Date startDate, Date endDate, double duration, final boolean isInterruptable)
-    '''
-def getStartEndMap():
-    '''public static TreeMap<Date, Date> getStartEndMap(final Locale l, final TimeZone tz, final ArrayList<Date> mergedNonWorkPeriods)
-    '''
-def convertDateToUserTZ():
-    '''public static Date convertDateToUserTZ(final Date d, final Locale userLocale, final TimeZone userTimeZone)
+    '''returns IlvTimeInterval\n\n
+    getActivityLatestStartAndFinishDates(Date startDate, Date endDate, double duration, final boolean isInterruptable)\n
     '''
 def isWorkingDate():
-    '''public boolean isWorkingDate(final Date scheduleDate, final boolean isStartTime)
+    '''returns boolean\n\n
+    isWorkingDate(final Date scheduleDate, final boolean isStartTime)\n
     '''
 def getFirstAvailableWorkingDate():
-    '''public Date getFirstAvailableWorkingDate(final Date scheduleDate)
+    '''returns Date\n\n
+    getFirstAvailableWorkingDate(final Date scheduleDate)\n
     '''

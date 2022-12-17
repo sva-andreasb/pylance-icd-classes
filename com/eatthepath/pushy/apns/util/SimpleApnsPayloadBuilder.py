@@ -1,6 +1,8 @@
 def build():
-    '''public String build()
+    '''returns String\n\n
+    build()\n
     '''
 def buildMdmPayload():
-    '''public String buildMdmPayload(final String pushMagicValue)
+    '''returns String\n\n
+    buildMdmPayload(final String pushMagicValue)\n
     '''

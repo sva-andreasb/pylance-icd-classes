@@ -1,3 +1,4 @@
-def FldTargetAssetSite():
-    '''public FldTargetAssetSite(final MboValue mbv)
+def ():
+    '''returns FldTargetAssetSite\n\n
+    (final MboValue mbv)\n
     '''

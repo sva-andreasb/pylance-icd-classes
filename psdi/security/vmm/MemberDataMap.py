@@ -3,100 +3,132 @@ UPPER = "int  2"
 LOWER = "int  3"
 INTEGER = "int  4"
 YORN = "int  5"
-def MemberDataMap():
-    '''public MemberDataMap()
+def ():
+    '''returns MemberDataMap\n\n
+    ()\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setTableName():
-    '''public void setTableName(final String table)
+    '''returns None\n\n
+    setTableName(final String table)\n
     '''
 def getMemberColumn():
-    '''public String getMemberColumn()
+    '''returns String\n\n
+    getMemberColumn()\n
     '''
 def setMemberColumn():
-    '''public void setMemberColumn(final String column)
+    '''returns None\n\n
+    setMemberColumn(final String column)\n
     '''
 def getMemberAttribute():
-    '''public String getMemberAttribute()
+    '''returns String\n\n
+    getMemberAttribute()\n
     '''
 def setMemberAttribute():
-    '''public void setMemberAttribute(final String attribute)
+    '''returns None\n\n
+    setMemberAttribute(final String attribute)\n
     '''
 def getMemberUserAttribute():
-    '''public String getMemberUserAttribute()
+    '''returns String\n\n
+    getMemberUserAttribute()\n
     '''
 def setMemberUserAttribute():
-    '''public void setMemberUserAttribute(final String attribute)
+    '''returns None\n\n
+    setMemberUserAttribute(final String attribute)\n
     '''
 def getMemberGroupAttribute():
-    '''public String getMemberGroupAttribute()
+    '''returns String\n\n
+    getMemberGroupAttribute()\n
     '''
 def setMemberGroupAttribute():
-    '''public void setMemberGroupAttribute(final String attribute)
+    '''returns None\n\n
+    setMemberGroupAttribute(final String attribute)\n
     '''
 def getMemberColumnType():
-    '''public String getMemberColumnType()
+    '''returns String\n\n
+    getMemberColumnType()\n
     '''
 def getMemberColumnTypeAsInt():
-    '''public int getMemberColumnTypeAsInt()
+    '''returns int\n\n
+    getMemberColumnTypeAsInt()\n
     '''
 def setMemberColumnType():
-    '''public void setMemberColumnType(final String type)
+    '''returns None\n\n
+    setMemberColumnType(final String type)\n
     '''
 def addKeyColumnName():
-    '''public void addKeyColumnName(final String column, final String attribute, final String type)
+    '''returns None\n\n
+    addKeyColumnName(final String column, final String attribute, final String type)\n
     '''
 def getKeyColumnNames():
-    '''public Iterator getKeyColumnNames()
+    '''returns Iterator\n\n
+    getKeyColumnNames()\n
     '''
 def addColumnName():
-    '''public void addColumnName(final String column, final String attribute, final String type)
+    '''returns None\n\n
+    addColumnName(final String column, final String attribute, final String type)\n
     '''
 def getColumnNames():
-    '''public Iterator getColumnNames()
+    '''returns Iterator\n\n
+    getColumnNames()\n
     '''
 def getKeyAttribute():
-    '''public String getKeyAttribute(String column)
+    '''returns String\n\n
+    getKeyAttribute(String column)\n
     '''
 def getAttribute():
-    '''public String getAttribute(String column)
+    '''returns String\n\n
+    getAttribute(String column)\n
     '''
 def isUniqueIdColumn():
-    '''public boolean isUniqueIdColumn(String column)
+    '''returns boolean\n\n
+    isUniqueIdColumn(String column)\n
     '''
 def isSysDateColumn():
-    '''public boolean isSysDateColumn(String column)
+    '''returns boolean\n\n
+    isSysDateColumn(String column)\n
     '''
 def getTypeAsInt():
-    '''public int getTypeAsInt(String column)
-    public int getTypeAsInt()
+    '''returns int\n\n
+    getTypeAsInt(String column)\n
+    getTypeAsInt()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def setAttributeName():
-    '''public void setAttributeName(final String name)
+    '''returns None\n\n
+    setAttributeName(final String name)\n
     '''
 def getColumnName():
-    '''public String getColumnName()
+    '''returns String\n\n
+    getColumnName()\n
     '''
 def setColumnName():
-    '''public void setColumnName(final String name)
+    '''returns None\n\n
+    setColumnName(final String name)\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean req)
+    '''returns None\n\n
+    setRequired(final boolean req)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String t)
+    '''returns None\n\n
+    setType(final String t)\n
     '''

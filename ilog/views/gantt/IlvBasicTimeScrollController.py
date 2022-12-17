@@ -1,54 +1,72 @@
-def IlvBasicTimeScrollController():
-    '''public IlvBasicTimeScrollController()
+def ():
+    '''returns IlvBasicTimeScrollController\n\n
+    ()\n
     '''
 def setMinVisibleTime():
-    '''public void setMinVisibleTime(final Date date)
+    '''returns None\n\n
+    setMinVisibleTime(final Date date)\n
     '''
 def setMaxVisibleTime():
-    '''public void setMaxVisibleTime(final Date date)
+    '''returns None\n\n
+    setMaxVisibleTime(final Date date)\n
     '''
 def setMinVisibleDuration():
-    '''public void setMinVisibleDuration(final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setMinVisibleDuration(final IlvDuration ilvDuration)\n
     '''
 def setVisibleTime():
-    '''public void setVisibleTime(final Date date)
+    '''returns None\n\n
+    setVisibleTime(final Date date)\n
     '''
 def setVisibleDuration():
-    '''public void setVisibleDuration(final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setVisibleDuration(final IlvDuration ilvDuration)\n
     '''
 def setVisibleInterval():
-    '''public void setVisibleInterval(final Date date, final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setVisibleInterval(final Date date, final IlvDuration ilvDuration)\n
     '''
 def addTimeScrollListener():
-    '''public void addTimeScrollListener(final TimeScrollListener timeScrollListener)
+    '''returns None\n\n
+    addTimeScrollListener(final TimeScrollListener timeScrollListener)\n
     '''
 def removeTimeScrollListener():
-    '''public void removeTimeScrollListener(final TimeScrollListener timeScrollListener)
+    '''returns None\n\n
+    removeTimeScrollListener(final TimeScrollListener timeScrollListener)\n
     '''
 def addTimeScrollable():
-    '''public void addTimeScrollable(final IlvTimeScrollable ilvTimeScrollable)
+    '''returns None\n\n
+    addTimeScrollable(final IlvTimeScrollable ilvTimeScrollable)\n
     '''
 def removeTimeScrollable():
-    '''public void removeTimeScrollable(final IlvTimeScrollable ilvTimeScrollable)
+    '''returns None\n\n
+    removeTimeScrollable(final IlvTimeScrollable ilvTimeScrollable)\n
     '''
 def getOwner():
-    '''public IlvTimeScrollable getOwner()
+    '''returns IlvTimeScrollable\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final IlvTimeScrollable f)
+    '''returns None\n\n
+    setOwner(final IlvTimeScrollable f)\n
     '''
 def visibleTimeChanged():
-    '''public void visibleTimeChanged(final VisibleTimeChangedEvent a)
+    '''returns None\n\n
+    visibleTimeChanged(final VisibleTimeChangedEvent a)\n
     '''
 def visibleDurationChanged():
-    '''public void visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''returns None\n\n
+    visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)\n
     '''
 def minVisibleTimeChanged():
-    '''public void minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''returns None\n\n
+    minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)\n
     '''
 def maxVisibleTimeChanged():
-    '''public void maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''returns None\n\n
+    maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)\n
     '''
 def minVisibleDurationChanged():
-    '''public void minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''returns None\n\n
+    minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)\n
     '''

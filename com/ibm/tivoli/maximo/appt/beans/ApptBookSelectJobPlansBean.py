@@ -1,3 +1,4 @@
 def getJobPlanSet():
-    '''public MboSetRemote getJobPlanSet(final MboRemote mbo)
+    '''returns MboSetRemote\n\n
+    getJobPlanSet(final MboRemote mbo)\n
     '''

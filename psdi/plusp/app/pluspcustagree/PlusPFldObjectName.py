@@ -1,6 +1,8 @@
-def PlusPFldObjectName():
-    '''public PlusPFldObjectName(final MboValue mv)
+def ():
+    '''returns PlusPFldObjectName\n\n
+    (final MboValue mv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

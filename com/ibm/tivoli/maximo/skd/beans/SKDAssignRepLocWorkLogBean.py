@@ -1,6 +1,8 @@
-def SKDAssignRepLocWorkLogBean():
-    '''public SKDAssignRepLocWorkLogBean()
+def ():
+    '''returns SKDAssignRepLocWorkLogBean\n\n
+    ()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

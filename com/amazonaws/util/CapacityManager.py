@@ -1,17 +1,22 @@
-def CapacityManager():
-    '''public CapacityManager(final int maxCapacity)
+def ():
+    '''returns CapacityManager\n\n
+    (final int maxCapacity)\n
     '''
 def acquire():
-    '''public boolean acquire()
-    public boolean acquire(final int capacity)
+    '''returns boolean\n\n
+    acquire()\n
+    acquire(final int capacity)\n
     '''
 def release():
-    '''public void release()
-    public void release(final int capacity)
+    '''returns None\n\n
+    release()\n
+    release(final int capacity)\n
     '''
 def consumedCapacity():
-    '''public int consumedCapacity()
+    '''returns int\n\n
+    consumedCapacity()\n
     '''
 def availableCapacity():
-    '''public int availableCapacity()
+    '''returns int\n\n
+    availableCapacity()\n
     '''

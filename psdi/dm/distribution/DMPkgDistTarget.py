@@ -1,18 +1,24 @@
-def DMPkgDistTarget():
-    '''public DMPkgDistTarget(final MboSet ms)
+def ():
+    '''returns DMPkgDistTarget\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setFieldFlags():
-    '''public void setFieldFlags()
+    '''returns None\n\n
+    setFieldFlags()\n
     '''
 def getList():
-    '''public MboSetRemote getList(final String attribute)
+    '''returns MboSetRemote\n\n
+    getList(final String attribute)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

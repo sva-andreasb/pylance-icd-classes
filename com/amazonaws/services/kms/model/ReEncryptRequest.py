@@ -1,70 +1,85 @@
 def setCiphertextBlob():
-    '''public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''returns None\n\n
+    setCiphertextBlob(final ByteBuffer ciphertextBlob)\n
     '''
 def getCiphertextBlob():
-    '''public ByteBuffer getCiphertextBlob()
+    '''returns ByteBuffer\n\n
+    getCiphertextBlob()\n
     '''
 def withCiphertextBlob():
-    '''public ReEncryptRequest withCiphertextBlob(final ByteBuffer ciphertextBlob)
-    '''
-def getSourceEncryptionContext():
-    '''public Map<String, String> getSourceEncryptionContext()
+    '''returns ReEncryptRequest\n\n
+    withCiphertextBlob(final ByteBuffer ciphertextBlob)\n
     '''
 def setSourceEncryptionContext():
-    '''public void setSourceEncryptionContext(final Map<String, String> sourceEncryptionContext)
+    '''returns None\n\n
+    setSourceEncryptionContext(final Map<String, String> sourceEncryptionContext)\n
     '''
 def withSourceEncryptionContext():
-    '''public ReEncryptRequest withSourceEncryptionContext(final Map<String, String> sourceEncryptionContext)
+    '''returns ReEncryptRequest\n\n
+    withSourceEncryptionContext(final Map<String, String> sourceEncryptionContext)\n
     '''
 def addSourceEncryptionContextEntry():
-    '''public ReEncryptRequest addSourceEncryptionContextEntry(final String key, final String value)
+    '''returns ReEncryptRequest\n\n
+    addSourceEncryptionContextEntry(final String key, final String value)\n
     '''
 def clearSourceEncryptionContextEntries():
-    '''public ReEncryptRequest clearSourceEncryptionContextEntries()
+    '''returns ReEncryptRequest\n\n
+    clearSourceEncryptionContextEntries()\n
     '''
 def setDestinationKeyId():
-    '''public void setDestinationKeyId(final String destinationKeyId)
+    '''returns None\n\n
+    setDestinationKeyId(final String destinationKeyId)\n
     '''
 def getDestinationKeyId():
-    '''public String getDestinationKeyId()
+    '''returns String\n\n
+    getDestinationKeyId()\n
     '''
 def withDestinationKeyId():
-    '''public ReEncryptRequest withDestinationKeyId(final String destinationKeyId)
-    '''
-def getDestinationEncryptionContext():
-    '''public Map<String, String> getDestinationEncryptionContext()
+    '''returns ReEncryptRequest\n\n
+    withDestinationKeyId(final String destinationKeyId)\n
     '''
 def setDestinationEncryptionContext():
-    '''public void setDestinationEncryptionContext(final Map<String, String> destinationEncryptionContext)
+    '''returns None\n\n
+    setDestinationEncryptionContext(final Map<String, String> destinationEncryptionContext)\n
     '''
 def withDestinationEncryptionContext():
-    '''public ReEncryptRequest withDestinationEncryptionContext(final Map<String, String> destinationEncryptionContext)
+    '''returns ReEncryptRequest\n\n
+    withDestinationEncryptionContext(final Map<String, String> destinationEncryptionContext)\n
     '''
 def addDestinationEncryptionContextEntry():
-    '''public ReEncryptRequest addDestinationEncryptionContextEntry(final String key, final String value)
+    '''returns ReEncryptRequest\n\n
+    addDestinationEncryptionContextEntry(final String key, final String value)\n
     '''
 def clearDestinationEncryptionContextEntries():
-    '''public ReEncryptRequest clearDestinationEncryptionContextEntries()
+    '''returns ReEncryptRequest\n\n
+    clearDestinationEncryptionContextEntries()\n
     '''
 def getGrantTokens():
-    '''public List<String> getGrantTokens()
+    '''returns List<String>\n\n
+    getGrantTokens()\n
     '''
 def setGrantTokens():
-    '''public void setGrantTokens(final Collection<String> grantTokens)
+    '''returns None\n\n
+    setGrantTokens(final Collection<String> grantTokens)\n
     '''
 def withGrantTokens():
-    '''public ReEncryptRequest withGrantTokens(final String... grantTokens)
-    public ReEncryptRequest withGrantTokens(final Collection<String> grantTokens)
+    '''returns ReEncryptRequest\n\n
+    withGrantTokens(final String... grantTokens)\n
+    withGrantTokens(final Collection<String> grantTokens)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public ReEncryptRequest clone()
+    '''returns ReEncryptRequest\n\n
+    clone()\n
     '''

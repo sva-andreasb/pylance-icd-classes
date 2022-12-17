@@ -1,6 +1,8 @@
 def set():
-    '''public PrefixIterator set(final Iterator baseIterator, final String prefix)
+    '''returns PrefixIterator\n\n
+    set(final Iterator baseIterator, final String prefix)\n
     '''
 def isIncluded():
-    '''public boolean isIncluded(final Object item)
+    '''returns boolean\n\n
+    isIncluded(final Object item)\n
     '''

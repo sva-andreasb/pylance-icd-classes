@@ -1,6 +1,8 @@
-def PropertiesConfiguration():
-    '''public PropertiesConfiguration(final LoggerContext loggerContext, final ConfigurationSource source, final Component root)
+def ():
+    '''returns PropertiesConfiguration\n\n
+    (final LoggerContext loggerContext, final ConfigurationSource source, final Component root)\n
     '''
 def reconfigure():
-    '''public Configuration reconfigure()
+    '''returns Configuration\n\n
+    reconfigure()\n
     '''

@@ -1,27 +1,31 @@
-def DispatchImpl():
-    '''public DispatchImpl(final Object targetObj, final int handle)
+def ():
+    '''returns DispatchImpl\n\n
+    (final Object targetObj, final int handle)\n
     '''
 def invoke():
-    '''public Object invoke(final int n, final int n2, final Object[] array)
+    '''returns Object\n\n
+    invoke(final int n, final int n2, final Object[] array)\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
-    public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def invokeImpl():
-    '''public Object invokeImpl(final int n, final int n2, final Object[] array)
+    '''returns Object\n\n
+    invokeImpl(final int n, final int n2, final Object[] array)\n
     '''
 def getWrappedObject():
-    '''public Object getWrappedObject()
+    '''returns Object\n\n
+    getWrappedObject()\n
     '''
 def getIdForName():
-    '''public int getIdForName(final String s)
-    '''
-def getJSProtectionDomain():
-    '''public static ProtectionDomain getJSProtectionDomain(final URL url)
+    '''returns int\n\n
+    getIdForName(final String s)\n
     '''
 def getWindowHandle():
-    '''public int getWindowHandle()
+    '''returns int\n\n
+    getWindowHandle()\n
     '''

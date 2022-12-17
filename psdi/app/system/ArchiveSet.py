@@ -1,3 +1,4 @@
-def ArchiveSet():
-    '''public ArchiveSet(final MboServerInterface ms)
+def ():
+    '''returns ArchiveSet\n\n
+    (final MboServerInterface ms)\n
     '''

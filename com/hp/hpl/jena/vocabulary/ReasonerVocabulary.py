@@ -1,0 +1,6 @@
+JenaReasonerNS = "String  \"http://jena.hpl.hp.com/2003/JenaReasoner#\""
+PropURI = "String  \"http://jena.hpl.hp.com/2003/RuleReasoner\""
+RDFS_DEFAULT = "String  \"default\""
+RDFS_FULL = "String  \"full\""
+RDFS_SIMPLE = "String  \"simple\""
+RBNamespace = "String  \"urn:x-hp-jena:rubrik/\""

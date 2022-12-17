@@ -1,3 +1,4 @@
 def evaluate():
-    '''public boolean evaluate(final IlvHierarchyChart chart, final IlvHierarchyNode in)
+    '''returns boolean\n\n
+    evaluate(final IlvHierarchyChart chart, final IlvHierarchyNode in)\n
     '''

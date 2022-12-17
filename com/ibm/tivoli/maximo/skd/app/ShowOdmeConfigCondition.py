@@ -1,9 +1,12 @@
 def evaluateCondition():
-    '''public boolean evaluateCondition(final MboRemote mbo, final Object param)
+    '''returns boolean\n\n
+    evaluateCondition(final MboRemote mbo, final Object param)\n
     '''
 def getOptimizationService():
-    '''public String getOptimizationService(final UserInfo userInfo)
+    '''returns String\n\n
+    getOptimizationService(final UserInfo userInfo)\n
     '''
 def toWhereClause():
-    '''public String toWhereClause(final Object param, final MboSetRemote msr)
+    '''returns String\n\n
+    toWhereClause(final Object param, final MboSetRemote msr)\n
     '''

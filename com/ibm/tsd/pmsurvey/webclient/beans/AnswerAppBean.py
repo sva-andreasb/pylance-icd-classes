@@ -1,6 +1,8 @@
-def AnswerAppBean():
-    '''public AnswerAppBean()
+def ():
+    '''returns AnswerAppBean\n\n
+    ()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

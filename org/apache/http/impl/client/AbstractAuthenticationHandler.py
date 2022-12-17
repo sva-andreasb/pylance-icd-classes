@@ -1,6 +1,8 @@
-def AbstractAuthenticationHandler():
-    '''public AbstractAuthenticationHandler()
+def ():
+    '''returns AbstractAuthenticationHandler\n\n
+    ()\n
     '''
 def selectScheme():
-    '''public AuthScheme selectScheme(final Map<String, Header> challenges, final HttpResponse response, final HttpContext context)
+    '''returns AuthScheme\n\n
+    selectScheme(final Map<String, Header> challenges, final HttpResponse response, final HttpContext context)\n
     '''

@@ -1,33 +1,44 @@
-def ApptActionInfo():
-    '''public ApptActionInfo()
+def ():
+    '''returns ApptActionInfo\n\n
+    ()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def getDialogName():
-    '''public String getDialogName()
+    '''returns String\n\n
+    getDialogName()\n
     '''
 def setDialogName():
-    '''public void setDialogName(final String name)
+    '''returns None\n\n
+    setDialogName(final String name)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getActionName():
-    '''public String getActionName()
+    '''returns String\n\n
+    getActionName()\n
     '''
 def setActionName():
-    '''public void setActionName(final String name)
+    '''returns None\n\n
+    setActionName(final String name)\n
     '''
 def getUid():
-    '''public long getUid()
+    '''returns long\n\n
+    getUid()\n
     '''
 def setUid():
-    '''public void setUid(final long id)
+    '''returns None\n\n
+    setUid(final long id)\n
     '''

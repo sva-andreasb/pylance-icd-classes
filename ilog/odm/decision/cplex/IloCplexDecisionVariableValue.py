@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCplexDecisionVariableValue():
-    '''public IloCplexDecisionVariableValue(final String name, final Object explanation, final IloPropertiesDef props)
+def ():
+    '''returns IloCplexDecisionVariableValue\n\n
+    (final String name, final Object explanation, final IloPropertiesDef props)\n
     '''
 def needEngineUpdate():
-    '''public boolean needEngineUpdate(final int propIndex)
+    '''returns boolean\n\n
+    needEngineUpdate(final int propIndex)\n
     '''
 def getParent():
-    '''public IloBreakdownVariable getParent()
+    '''returns IloBreakdownVariable\n\n
+    getParent()\n
     '''

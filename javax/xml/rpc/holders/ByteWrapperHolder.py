@@ -1,4 +1,5 @@
-def ByteWrapperHolder():
-    '''public ByteWrapperHolder()
-    public ByteWrapperHolder(final Byte value)
+def ():
+    '''returns ByteWrapperHolder\n\n
+    ()\n
+    (final Byte mybyte)\n
     '''

@@ -1,82 +1,109 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def DesktopReqAppBean():
-    '''public DesktopReqAppBean()
+def ():
+    '''returns DesktopReqAppBean\n\n
+    ()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def newrecord():
-    '''public int newrecord()
+    '''returns int\n\n
+    newrecord()\n
     '''
 def editdr():
-    '''public void editdr()
+    '''returns None\n\n
+    editdr()\n
     '''
 def editdrfromlist():
-    '''public void editdrfromlist()
+    '''returns None\n\n
+    editdrfromlist()\n
     '''
 def editdraft():
-    '''public int editdraft(final long uid)
+    '''returns int\n\n
+    editdraft(final long uid)\n
     '''
 def createdrfromtmpl():
-    '''public void createdrfromtmpl()
+    '''returns None\n\n
+    createdrfromtmpl()\n
     '''
 def createdrfromtmpllist():
-    '''public void createdrfromtmpllist()
+    '''returns None\n\n
+    createdrfromtmpllist()\n
     '''
 def createdrfromtemplate():
-    '''public int createdrfromtemplate(final PmScCRRemote cr)
+    '''returns int\n\n
+    createdrfromtemplate(final PmScCRRemote cr)\n
     '''
 def viewreqdrftdetails():
-    '''public int viewreqdrftdetails()
+    '''returns int\n\n
+    viewreqdrftdetails()\n
     '''
 def viewreqdetails():
-    '''public int viewreqdetails()
+    '''returns int\n\n
+    viewreqdetails()\n
     '''
 def gotoshoppingexp():
-    '''public int gotoshoppingexp()
+    '''returns int\n\n
+    gotoshoppingexp()\n
     '''
 def gototicketapp():
-    '''public int gototicketapp()
+    '''returns int\n\n
+    gototicketapp()\n
     '''
 def viewallcarts():
-    '''public int viewallcarts()
+    '''returns int\n\n
+    viewallcarts()\n
     '''
 def viewdraftdetails():
-    '''public int viewdraftdetails()
+    '''returns int\n\n
+    viewdraftdetails()\n
     '''
 def submitQuickOrder():
-    '''public void submitQuickOrder()
+    '''returns None\n\n
+    submitQuickOrder()\n
     '''
 def submit():
-    '''public void submit()
+    '''returns None\n\n
+    submit()\n
     '''
 def checkSRs():
-    '''public void checkSRs(final PmScCRRemote cr)
+    '''returns None\n\n
+    checkSRs(final PmScCRRemote cr)\n
     '''
 def submit0():
-    '''public void submit0(PmScCRRemote cr)
+    '''returns None\n\n
+    submit0(PmScCRRemote cr)\n
     '''
 def fakesave():
-    '''public void fakesave()
+    '''returns None\n\n
+    fakesave()\n
     '''
 def saveCRChanges():
-    '''public void saveCRChanges()
+    '''returns None\n\n
+    saveCRChanges()\n
     '''
 def nexttabvalidate():
-    '''public int nexttabvalidate()
+    '''returns int\n\n
+    nexttabvalidate()\n
     '''
 def newtemplate():
-    '''public int newtemplate()
+    '''returns int\n\n
+    newtemplate()\n
     '''
 def updtemplate():
-    '''public int updtemplate()
+    '''returns int\n\n
+    updtemplate()\n
     '''
 def createtemplate():
-    '''public int createtemplate()
+    '''returns int\n\n
+    createtemplate()\n
     '''
 def emptyCart():
-    '''public void emptyCart()
+    '''returns None\n\n
+    emptyCart()\n
     '''

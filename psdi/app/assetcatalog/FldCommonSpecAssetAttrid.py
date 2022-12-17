@@ -1,18 +1,24 @@
-def FldCommonSpecAssetAttrid():
-    '''public FldCommonSpecAssetAttrid(final MboValue mbv)
+def ():
+    '''returns FldCommonSpecAssetAttrid\n\n
+    (final MboValue mbv)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def applyDateFilter():
-    '''public void applyDateFilter(final MboSetRemote valSet)
+    '''returns None\n\n
+    applyDateFilter(final MboSetRemote valSet)\n
     '''

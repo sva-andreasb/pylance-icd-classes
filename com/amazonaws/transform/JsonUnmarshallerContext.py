@@ -1,52 +1,61 @@
 def getHeader():
-    '''public String getHeader(final String header)
+    '''returns String\n\n
+    getHeader(final String header)\n
     '''
 def getHttpResponse():
-    '''public HttpResponse getHttpResponse()
+    '''returns HttpResponse\n\n
+    getHttpResponse()\n
     '''
 def getCurrentDepth():
-    '''public int getCurrentDepth()
+    '''returns int\n\n
+    getCurrentDepth()\n
     '''
 def readText():
-    '''public String readText()
+    '''returns String\n\n
+    readText()\n
     '''
 def isStartOfDocument():
-    '''public boolean isStartOfDocument()
+    '''returns boolean\n\n
+    isStartOfDocument()\n
     '''
 def testExpression():
-    '''public boolean testExpression(final String expression)
-    public boolean testExpression(final String expression, final int stackDepth)
+    '''returns boolean\n\n
+    testExpression(final String expression)\n
+    testExpression(final String expression, final int stackDepth)\n
     '''
 def getCurrentParentElement():
-    '''public String getCurrentParentElement()
+    '''returns String\n\n
+    getCurrentParentElement()\n
     '''
 def nextToken():
-    '''public JsonToken nextToken()
+    '''returns JsonToken\n\n
+    nextToken()\n
     '''
 def peek():
-    '''public JsonToken peek()
+    '''returns JsonToken\n\n
+    peek()\n
     '''
 def getJsonParser():
-    '''public JsonParser getJsonParser()
-    '''
-def getMetadata():
-    '''public Map<String, String> getMetadata()
+    '''returns JsonParser\n\n
+    getJsonParser()\n
     '''
 def registerMetadataExpression():
-    '''public void registerMetadataExpression(final String expression, final int targetDepth, final String storageKey)
+    '''returns None\n\n
+    registerMetadataExpression(final String expression, final int targetDepth, final String storageKey)\n
     '''
 def setCurrentHeader():
-    '''public void setCurrentHeader(final String currentHeader)
+    '''returns None\n\n
+    setCurrentHeader(final String currentHeader)\n
     '''
 def getCurrentToken():
-    '''public JsonToken getCurrentToken()
+    '''returns JsonToken\n\n
+    getCurrentToken()\n
     '''
 def getLastParsedParentElement():
-    '''public String getLastParsedParentElement()
+    '''returns String\n\n
+    getLastParsedParentElement()\n
     '''
 def isInsideResponseHeader():
-    '''public boolean isInsideResponseHeader()
-    '''
-def getUnmarshaller():
-    '''public <T> Unmarshaller<T, JsonUnmarshallerContext> getUnmarshaller(final Class<T> type)
+    '''returns boolean\n\n
+    isInsideResponseHeader()\n
     '''

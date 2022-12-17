@@ -1,40 +1,45 @@
-def getInstance():
-    '''public static WSRegistryCache getInstance()
-    '''
 def getCache():
-    '''public MaximoCache getCache()
+    '''returns MaximoCache\n\n
+    getCache()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def loadDeployedServices():
-    '''public void loadDeployedServices(final ServletConfig config)
+    '''returns None\n\n
+    loadDeployedServices(final ServletConfig config)\n
     '''
 def getServerDeployer():
-    '''public ServerDeployer getServerDeployer()
+    '''returns ServerDeployer\n\n
+    getServerDeployer()\n
     '''
 def resetServerDeployer():
-    '''public void resetServerDeployer()
-    '''
-def getWSRegistryMap():
-    '''public Map<String, WSRegistryInfo> getWSRegistryMap()
+    '''returns None\n\n
+    resetServerDeployer()\n
     '''
 def getWSRegistryInfo():
-    '''public WSRegistryInfo getWSRegistryInfo(final String name)
+    '''returns WSRegistryInfo\n\n
+    getWSRegistryInfo(final String name)\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getLoadedTenants():
-    '''public Set<Integer> getLoadedTenants()
+    '''returns Set<Integer>\n\n
+    getLoadedTenants()\n
     '''
 def unloadTenant():
-    '''public void unloadTenant()
+    '''returns None\n\n
+    unloadTenant()\n
     '''

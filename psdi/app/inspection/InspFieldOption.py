@@ -1,6 +1,8 @@
-def InspFieldOption():
-    '''public InspFieldOption(final MboSet ms)
+def ():
+    '''returns InspFieldOption\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

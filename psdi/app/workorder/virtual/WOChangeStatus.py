@@ -1,6 +1,8 @@
-def WOChangeStatus():
-    '''public WOChangeStatus(final MboSet ms)
+def ():
+    '''returns WOChangeStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

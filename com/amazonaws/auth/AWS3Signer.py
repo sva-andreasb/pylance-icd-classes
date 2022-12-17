@@ -1,3 +1,4 @@
 def sign():
-    '''public void sign(final SignableRequest<?> request, final AWSCredentials credentials)
+    '''returns None\n\n
+    sign(final SignableRequest<?> request, final AWSCredentials credentials)\n
     '''

@@ -1,15 +1,20 @@
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def filterworkorder():
-    '''public int filterworkorder()
+    '''returns int\n\n
+    filterworkorder()\n
     '''
 def refreshassignhistory():
-    '''public int refreshassignhistory()
+    '''returns int\n\n
+    refreshassignhistory()\n
     '''
 def refreshactualshistory():
-    '''public int refreshactualshistory()
+    '''returns int\n\n
+    refreshactualshistory()\n
     '''
 def refreshhistory():
-    '''public int refreshhistory()
+    '''returns int\n\n
+    refreshhistory()\n
     '''

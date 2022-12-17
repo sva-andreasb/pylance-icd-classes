@@ -1,15 +1,16 @@
-def construct():
-    '''public static MergingSettableBeanProperty construct(final SettableBeanProperty delegate, final AnnotatedMember accessor)
-    '''
 def deserializeAndSet():
-    '''public void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''returns None\n\n
+    deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)\n
     '''
 def deserializeSetAndReturn():
-    '''public Object deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''returns Object\n\n
+    deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)\n
     '''
 def set():
-    '''public void set(final Object instance, final Object value)
+    '''returns None\n\n
+    set(final Object instance, final Object value)\n
     '''
 def setAndReturn():
-    '''public Object setAndReturn(final Object instance, final Object value)
+    '''returns Object\n\n
+    setAndReturn(final Object instance, final Object value)\n
     '''

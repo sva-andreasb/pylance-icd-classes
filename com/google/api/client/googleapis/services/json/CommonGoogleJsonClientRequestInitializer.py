@@ -1,8 +1,6 @@
-def CommonGoogleJsonClientRequestInitializer():
-    '''public CommonGoogleJsonClientRequestInitializer()
-    public CommonGoogleJsonClientRequestInitializer(final String key)
-    public CommonGoogleJsonClientRequestInitializer(final String key, final String userIp)
-    '''
-def initialize():
-    '''public final void initialize(final AbstractGoogleClientRequest<?> request)
+def ():
+    '''returns CommonGoogleJsonClientRequestInitializer\n\n
+    ()\n
+    (final String key)\n
+    (final String key, final String userIp)\n
     '''

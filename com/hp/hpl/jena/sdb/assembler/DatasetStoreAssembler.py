@@ -1,6 +1,8 @@
 def open():
-    '''public Dataset open(final Assembler a, final Resource root, final Mode mode)
+    '''returns Dataset\n\n
+    open(final Assembler a, final Resource root, final Mode mode)\n
     '''
 def openStore():
-    '''public StoreDesc openStore(final Assembler a, final Resource root, final Mode mode)
+    '''returns StoreDesc\n\n
+    openStore(final Assembler a, final Resource root, final Mode mode)\n
     '''

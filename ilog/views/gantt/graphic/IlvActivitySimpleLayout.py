@@ -1,21 +1,27 @@
 DEFAULT_VERTICAL_MARGIN = "float  2.0f"
-def IlvActivitySimpleLayout():
-    '''public IlvActivitySimpleLayout(final float topMargin, final float bottomMargin)
-    public IlvActivitySimpleLayout()
+def ():
+    '''returns IlvActivitySimpleLayout\n\n
+    (final float topMargin, final float bottomMargin)\n
+    ()\n
     '''
 def arrange():
-    '''public void arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic[] array)
-    public void arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic ilvActivityGraphic)
+    '''returns None\n\n
+    arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic[] array)\n
+    arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def getTopMargin():
-    '''public float getTopMargin()
+    '''returns float\n\n
+    getTopMargin()\n
     '''
 def setTopMargin():
-    '''public void setTopMargin(final float a)
+    '''returns None\n\n
+    setTopMargin(final float a)\n
     '''
 def getBottomMargin():
-    '''public float getBottomMargin()
+    '''returns float\n\n
+    getBottomMargin()\n
     '''
 def setBottomMargin():
-    '''public void setBottomMargin(final float b)
+    '''returns None\n\n
+    setBottomMargin(final float b)\n
     '''

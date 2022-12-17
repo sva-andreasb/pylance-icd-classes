@@ -1,3 +1,4 @@
-def DPAComputer():
-    '''public DPAComputer(final MboSet ms)
+def ():
+    '''returns DPAComputer\n\n
+    (final MboSet ms)\n
     '''

@@ -1,78 +1,80 @@
-def IlvFormReaderContext():
-    '''public IlvFormReaderContext(final IlvFormReader b, final IlvServicesProvider i, final IlvFormDevice a)
+def ():
+    '''returns IlvFormReaderContext\n\n
+    (final IlvFormReader b, final IlvServicesProvider i, final IlvFormDevice a)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def getFormURL():
-    '''public URL getFormURL()
-    '''
-def getFormDevice():
-    '''public final IlvFormDevice getFormDevice()
-    '''
-def getFormReader():
-    '''public final IlvFormReader getFormReader()
-    '''
-def setFormReader():
-    '''public final void setFormReader(final IlvFormReader ilvFormReader)
+    '''returns URL\n\n
+    getFormURL()\n
     '''
 def getServicesProvider():
-    '''public IlvServicesProvider getServicesProvider()
+    '''returns IlvServicesProvider\n\n
+    getServicesProvider()\n
     '''
 def setServicesProvider():
-    '''public void setServicesProvider(final IlvServicesProvider i)
-    '''
-def getForm():
-    '''public final IlvForm getForm()
-    '''
-def getFormURLResolver():
-    '''public final IlvDocumentBaseResolver getFormURLResolver()
+    '''returns None\n\n
+    setServicesProvider(final IlvServicesProvider i)\n
     '''
 def setForm():
-    '''public void setForm(final IlvForm c)
+    '''returns None\n\n
+    setForm(final IlvForm c)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''
 def setProperty():
-    '''public void setProperty(final String key, final Object value)
+    '''returns None\n\n
+    setProperty(final String key, final Object value)\n
     '''
 def setObjectProperty():
-    '''public void setObjectProperty(final Object o, final String key, final Object value)
+    '''returns None\n\n
+    setObjectProperty(final Object o, final String key, final Object value)\n
     '''
 def getObjectProperty():
-    '''public Object getObjectProperty(final Object key, final String key2)
-    '''
-def getParentObject():
-    '''public final Object getParentObject()
+    '''returns Object\n\n
+    getObjectProperty(final Object key, final String key2)\n
     '''
 def setParentObject():
-    '''public void setParentObject(final Object f)
+    '''returns None\n\n
+    setParentObject(final Object f)\n
     '''
 def getString():
-    '''public String getString(final String s)
+    '''returns String\n\n
+    getString(final String s)\n
     '''
 def getIcon():
-    '''public Icon getIcon(String string)
+    '''returns Icon\n\n
+    getIcon(String string)\n
     '''
 def resolveFormURL():
-    '''public URL resolveFormURL(final String s)
+    '''returns URL\n\n
+    resolveFormURL(final String s)\n
     '''
 def loadClass():
-    '''public Class loadClass(final String s)
+    '''returns Class\n\n
+    loadClass(final String s)\n
     '''
 def newInstance():
-    '''public Object newInstance(final String s)
+    '''returns Object\n\n
+    newInstance(final String s)\n
     '''
 def getFormClassLoader():
-    '''public ClassLoader getFormClassLoader()
+    '''returns ClassLoader\n\n
+    getFormClassLoader()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getElement():
-    '''public Element getElement()
+    '''returns Element\n\n
+    getElement()\n
     '''
 def setElement():
-    '''public void setElement(final Element l)
+    '''returns None\n\n
+    setElement(final Element l)\n
     '''

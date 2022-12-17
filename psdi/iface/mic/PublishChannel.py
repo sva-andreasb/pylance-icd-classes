@@ -1,16 +1,20 @@
 def getPublishInfo():
-    '''public PublishInfo getPublishInfo()
+    '''returns PublishInfo\n\n
+    getPublishInfo()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def publish():
-    '''public void publish(MboRemote mbo, final boolean event)
-    public void publish(final MboSetRemote mboSet)
-    public void publish(final MboSetRemote mboSet, final int start, final int count)
+    '''returns None\n\n
+    publish(MboRemote mbo, final boolean event)\n
+    publish(final MboSetRemote mboSet)\n
+    publish(final MboSetRemote mboSet, final int start, final int count)\n
     '''
 def publishTo():
-    '''public void publishTo(final MboSetRemote mboSet, final String extSystem)
-    public boolean publishTo(final MboSetRemote mboSet, final int start, final int count, final String extSystem)
-    public boolean publishTo(final MboSetRemote mboSet, final int pageSize, final String extSystem)
+    '''returns boolean\n\n
+    publishTo(final MboSetRemote mboSet, final String extSystem)\n
+    publishTo(final MboSetRemote mboSet, final int start, final int count, final String extSystem)\n
+    publishTo(final MboSetRemote mboSet, final int pageSize, final String extSystem)\n
     '''

@@ -1,75 +1,76 @@
-def unmodifiableTrie():
-    '''public static <K, V> Trie<K, V> unmodifiableTrie(final Trie<K, ? extends V> trie)
-    '''
-def UnmodifiableTrie():
-    '''public UnmodifiableTrie(final Trie<K, ? extends V> trie)
+def ():
+    '''returns UnmodifiableTrie\n\n
+    (final Trie<K, ? extends V> trie)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> m)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> m)\n
     '''
 def remove():
-    '''public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def firstKey():
-    '''public K firstKey()
-    '''
-def headMap():
-    '''public SortedMap<K, V> headMap(final K toKey)
+    '''returns K\n\n
+    firstKey()\n
     '''
 def lastKey():
-    '''public K lastKey()
-    '''
-def subMap():
-    '''public SortedMap<K, V> subMap(final K fromKey, final K toKey)
-    '''
-def tailMap():
-    '''public SortedMap<K, V> tailMap(final K fromKey)
-    '''
-def prefixMap():
-    '''public SortedMap<K, V> prefixMap(final K key)
-    '''
-def mapIterator():
-    '''public OrderedMapIterator<K, V> mapIterator()
+    '''returns K\n\n
+    lastKey()\n
     '''
 def nextKey():
-    '''public K nextKey(final K key)
+    '''returns K\n\n
+    nextKey(final K key)\n
     '''
 def previousKey():
-    '''public K previousKey(final K key)
+    '''returns K\n\n
+    previousKey(final K key)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

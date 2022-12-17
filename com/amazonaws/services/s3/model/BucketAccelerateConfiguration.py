@@ -1,18 +1,23 @@
-def BucketAccelerateConfiguration():
-    '''public BucketAccelerateConfiguration(final String status)
-    public BucketAccelerateConfiguration(final BucketAccelerateStatus status)
+def ():
+    '''returns BucketAccelerateConfiguration\n\n
+    (final String status)\n
+    (final BucketAccelerateStatus status)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
-    public void setStatus(final BucketAccelerateStatus status)
+    '''returns None\n\n
+    setStatus(final String status)\n
+    setStatus(final BucketAccelerateStatus status)\n
     '''
 def withStatus():
-    '''public BucketAccelerateConfiguration withStatus(final String status)
-    public BucketAccelerateConfiguration withStatus(final BucketAccelerateStatus status)
+    '''returns BucketAccelerateConfiguration\n\n
+    withStatus(final String status)\n
+    withStatus(final BucketAccelerateStatus status)\n
     '''
 def isAccelerateEnabled():
-    '''public boolean isAccelerateEnabled()
+    '''returns boolean\n\n
+    isAccelerateEnabled()\n
     '''

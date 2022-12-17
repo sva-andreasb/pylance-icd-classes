@@ -1,54 +1,64 @@
-def HTMLElementImpl():
-    '''public HTMLElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getLang():
-    '''public String getLang()
+    '''returns String\n\n
+    getLang()\n
     '''
 def setLang():
-    '''public void setLang(final String s)
+    '''returns None\n\n
+    setLang(final String s)\n
     '''
 def getDir():
-    '''public String getDir()
+    '''returns String\n\n
+    getDir()\n
     '''
 def setDir():
-    '''public void setDir(final String s)
+    '''returns None\n\n
+    setDir(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getAttributeNode():
-    '''public Attr getAttributeNode(final String s)
+    '''returns Attr\n\n
+    getAttributeNode(final String s)\n
     '''
 def getAttributeNodeNS():
-    '''public Attr getAttributeNodeNS(final String s, final String s2)
+    '''returns Attr\n\n
+    getAttributeNodeNS(final String s, final String s2)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final String s)
+    '''returns String\n\n
+    getAttribute(final String s)\n
     '''
 def getAttributeNS():
-    '''public String getAttributeNS(final String s, final String s2)
-    '''
-def getElementsByTagName():
-    '''public final NodeList getElementsByTagName(final String s)
-    '''
-def getElementsByTagNameNS():
-    '''public final NodeList getElementsByTagNameNS(final String s, final String s2)
+    '''returns String\n\n
+    getAttributeNS(final String s, final String s2)\n
     '''
 def getForm():
-    '''public HTMLFormElement getForm()
+    '''returns HTMLFormElement\n\n
+    getForm()\n
     '''

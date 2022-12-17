@@ -1,3 +1,4 @@
-def FldCrewDay2():
-    '''public FldCrewDay2(final MboValue mbv)
+def ():
+    '''returns FldCrewDay2\n\n
+    (final MboValue mbv)\n
     '''

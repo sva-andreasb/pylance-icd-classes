@@ -1,15 +1,20 @@
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''
 def getCharacterOffset():
-    '''public int getCharacterOffset()
+    '''returns int\n\n
+    getCharacterOffset()\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''

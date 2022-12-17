@@ -1,8 +1,10 @@
 FUNCTION_NAME = "String  \"label\""
-def LabelFunction():
-    '''public LabelFunction()
-    public LabelFunction(final String group)
+def ():
+    '''returns LabelFunction\n\n
+    ()\n
+    (final String group)\n
     '''
 def apply():
-    '''public String apply(final String fName, final String fValue, final GanttTextResolver<?> textResolver)
+    '''returns String\n\n
+    apply(final String fName, final String fValue, final GanttTextResolver<?> textResolver)\n
     '''

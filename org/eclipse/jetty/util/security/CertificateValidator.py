@@ -1,36 +1,47 @@
-def CertificateValidator():
-    '''public CertificateValidator(final KeyStore trustStore, final Collection<? extends CRL> crls)
+def ():
+    '''returns CertificateValidator\n\n
+    (final KeyStore trustStore, final Collection<? extends CRL> crls)\n
     '''
 def validate():
-    '''public void validate(final KeyStore keyStore)
-    public String validate(final KeyStore keyStore, final String keyAlias)
-    public void validate(final KeyStore keyStore, final Certificate cert)
-    public void validate(final Certificate[] certChain)
+    '''returns None\n\n
+    validate(final KeyStore keyStore)\n
+    validate(final KeyStore keyStore, final String keyAlias)\n
+    validate(final KeyStore keyStore, final Certificate cert)\n
+    validate(final Certificate[] certChain)\n
     '''
 def getTrustStore():
-    '''public KeyStore getTrustStore()
+    '''returns KeyStore\n\n
+    getTrustStore()\n
     '''
 def getMaxCertPathLength():
-    '''public int getMaxCertPathLength()
+    '''returns int\n\n
+    getMaxCertPathLength()\n
     '''
 def setMaxCertPathLength():
-    '''public void setMaxCertPathLength(final int maxCertPathLength)
+    '''returns None\n\n
+    setMaxCertPathLength(final int maxCertPathLength)\n
     '''
 def isEnableCRLDP():
-    '''public boolean isEnableCRLDP()
+    '''returns boolean\n\n
+    isEnableCRLDP()\n
     '''
 def setEnableCRLDP():
-    '''public void setEnableCRLDP(final boolean enableCRLDP)
+    '''returns None\n\n
+    setEnableCRLDP(final boolean enableCRLDP)\n
     '''
 def isEnableOCSP():
-    '''public boolean isEnableOCSP()
+    '''returns boolean\n\n
+    isEnableOCSP()\n
     '''
 def setEnableOCSP():
-    '''public void setEnableOCSP(final boolean enableOCSP)
+    '''returns None\n\n
+    setEnableOCSP(final boolean enableOCSP)\n
     '''
 def getOcspResponderURL():
-    '''public String getOcspResponderURL()
+    '''returns String\n\n
+    getOcspResponderURL()\n
     '''
 def setOcspResponderURL():
-    '''public void setOcspResponderURL(final String ocspResponderURL)
+    '''returns None\n\n
+    setOcspResponderURL(final String ocspResponderURL)\n
     '''

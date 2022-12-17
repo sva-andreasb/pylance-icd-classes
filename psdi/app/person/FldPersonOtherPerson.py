@@ -1,6 +1,8 @@
-def FldPersonOtherPerson():
-    '''public FldPersonOtherPerson(final MboValue mbv)
+def ():
+    '''returns FldPersonOtherPerson\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,73 +1,77 @@
-def AsynchDetailIndexData():
-    '''public AsynchDetailIndexData()
-    public AsynchDetailIndexData(final Calendar creationTime, final MultilingualString[] displayName, final ClassEnum documentClass, final Guid externalGUID, final String[] locales, final Calendar modificationTime, final XmlEncodedXML sourceDocument, final IndexTerm[] terms, final String url)
+def ():
+    '''returns AsynchDetailIndexData\n\n
+    ()\n
+    (final Calendar creationTime, final MultilingualString[] displayName, final ClassEnum documentClass, final Guid externalGUID, final String[] locales, final Calendar modificationTime, final XmlEncodedXML sourceDocument, final IndexTerm[] terms, final String url)\n
     '''
 def getCreationTime():
-    '''public Calendar getCreationTime()
+    '''returns Calendar\n\n
+    getCreationTime()\n
     '''
 def setCreationTime():
-    '''public void setCreationTime(final Calendar creationTime)
+    '''returns None\n\n
+    setCreationTime(final Calendar creationTime)\n
     '''
 def getDisplayName():
-    '''public MultilingualString[] getDisplayName()
+    '''returns MultilingualString[]\n\n
+    getDisplayName()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final MultilingualString[] displayName)
+    '''returns None\n\n
+    setDisplayName(final MultilingualString[] displayName)\n
     '''
 def getDocumentClass():
-    '''public ClassEnum getDocumentClass()
+    '''returns ClassEnum\n\n
+    getDocumentClass()\n
     '''
 def setDocumentClass():
-    '''public void setDocumentClass(final ClassEnum documentClass)
+    '''returns None\n\n
+    setDocumentClass(final ClassEnum documentClass)\n
     '''
 def getExternalGUID():
-    '''public Guid getExternalGUID()
+    '''returns Guid\n\n
+    getExternalGUID()\n
     '''
 def setExternalGUID():
-    '''public void setExternalGUID(final Guid externalGUID)
+    '''returns None\n\n
+    setExternalGUID(final Guid externalGUID)\n
     '''
 def getLocales():
-    '''public String[] getLocales()
+    '''returns String[]\n\n
+    getLocales()\n
     '''
 def setLocales():
-    '''public void setLocales(final String[] locales)
+    '''returns None\n\n
+    setLocales(final String[] locales)\n
     '''
 def getModificationTime():
-    '''public Calendar getModificationTime()
+    '''returns Calendar\n\n
+    getModificationTime()\n
     '''
 def setModificationTime():
-    '''public void setModificationTime(final Calendar modificationTime)
+    '''returns None\n\n
+    setModificationTime(final Calendar modificationTime)\n
     '''
 def getSourceDocument():
-    '''public XmlEncodedXML getSourceDocument()
+    '''returns XmlEncodedXML\n\n
+    getSourceDocument()\n
     '''
 def setSourceDocument():
-    '''public void setSourceDocument(final XmlEncodedXML sourceDocument)
+    '''returns None\n\n
+    setSourceDocument(final XmlEncodedXML sourceDocument)\n
     '''
 def getTerms():
-    '''public IndexTerm[] getTerms()
+    '''returns IndexTerm[]\n\n
+    getTerms()\n
     '''
 def setTerms():
-    '''public void setTerms(final IndexTerm[] terms)
+    '''returns None\n\n
+    setTerms(final IndexTerm[] terms)\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def setUrl():
-    '''public void setUrl(final String url)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setUrl(final String url)\n
     '''

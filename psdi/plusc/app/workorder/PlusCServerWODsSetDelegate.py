@@ -1,3 +1,4 @@
-def PlusCServerWODsSetDelegate():
-    '''public PlusCServerWODsSetDelegate(final MboSetAdapter thisMboSet)
+def ():
+    '''returns PlusCServerWODsSetDelegate\n\n
+    (final MboSetAdapter thisMboSet)\n
     '''

@@ -1,4 +1,5 @@
-def QueueClosedException():
-    '''public QueueClosedException()
-    public QueueClosedException(final String msg)
+def ():
+    '''returns QueueClosedException\n\n
+    ()\n
+    (final String msg)\n
     '''

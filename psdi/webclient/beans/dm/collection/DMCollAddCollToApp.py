@@ -1,3 +1,4 @@
 def addcolltoapp():
-    '''public int addcolltoapp()
+    '''returns int\n\n
+    addcolltoapp()\n
     '''

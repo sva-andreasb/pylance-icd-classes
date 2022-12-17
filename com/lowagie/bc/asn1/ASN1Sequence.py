@@ -1,22 +1,24 @@
-def ASN1Sequence():
-    '''public ASN1Sequence()
-    '''
-def getInstance():
-    '''public static ASN1Sequence getInstance(final Object obj)
-    public static ASN1Sequence getInstance(final ASN1TaggedObject obj, final boolean explicit)
+def ():
+    '''returns ASN1Sequence\n\n
+    ()\n
     '''
 def getObjects():
-    '''public Enumeration getObjects()
+    '''returns Enumeration\n\n
+    getObjects()\n
     '''
 def getObjectAt():
-    '''public DEREncodable getObjectAt(final int index)
+    '''returns DEREncodable\n\n
+    getObjectAt(final int index)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

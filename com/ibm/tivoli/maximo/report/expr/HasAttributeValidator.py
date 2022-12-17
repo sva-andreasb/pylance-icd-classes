@@ -1,9 +1,12 @@
-def HasAttributeValidator():
-    '''public HasAttributeValidator(final String objectname, final Set<String> validAttributes)
+def ():
+    '''returns HasAttributeValidator\n\n
+    (final String objectname, final Set<String> validAttributes)\n
     '''
 def accept():
-    '''public boolean accept(final Node n)
+    '''returns boolean\n\n
+    accept(final Node n)\n
     '''
 def getValidAttributeSet():
-    '''public Set<String> getValidAttributeSet()
+    '''returns Set<String>\n\n
+    getValidAttributeSet()\n
     '''

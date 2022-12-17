@@ -1,18 +1,24 @@
-def RecordBufferPageMgr():
-    '''public RecordBufferPageMgr(final RecordFactory factory, final BlockMgr blockMgr)
+def ():
+    '''returns RecordBufferPageMgr\n\n
+    (final RecordFactory factory, final BlockMgr blockMgr)\n
     '''
 def create():
-    '''public RecordBufferPage create(final int x)
+    '''returns RecordBufferPage\n\n
+    create(final int x)\n
     '''
 def get():
-    '''public RecordBufferPage get(final int id)
+    '''returns RecordBufferPage\n\n
+    get(final int id)\n
     '''
 def createFromByteBuffer():
-    '''public RecordBufferPage createFromByteBuffer(final ByteBuffer bb, final BlockType blkType)
+    '''returns RecordBufferPage\n\n
+    createFromByteBuffer(final ByteBuffer bb, final BlockType blkType)\n
     '''
 def fromByteBuffer():
-    '''public RecordBufferPage fromByteBuffer(final ByteBuffer byteBuffer)
+    '''returns RecordBufferPage\n\n
+    fromByteBuffer(final ByteBuffer byteBuffer)\n
     '''
 def toByteBuffer():
-    '''public ByteBuffer toByteBuffer(final RecordBufferPage rbp)
+    '''returns ByteBuffer\n\n
+    toByteBuffer(final RecordBufferPage rbp)\n
     '''

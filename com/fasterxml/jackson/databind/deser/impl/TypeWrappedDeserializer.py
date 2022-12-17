@@ -1,22 +1,29 @@
-def TypeWrappedDeserializer():
-    '''public TypeWrappedDeserializer(final TypeDeserializer typeDeser, final JsonDeserializer<?> deser)
+def ():
+    '''returns TypeWrappedDeserializer\n\n
+    (final TypeDeserializer typeDeser, final JsonDeserializer<?> deser)\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''
 def getKnownPropertyNames():
-    '''public Collection<Object> getKnownPropertyNames()
+    '''returns Collection<Object>\n\n
+    getKnownPropertyNames()\n
     '''
 def getNullValue():
-    '''public Object getNullValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getNullValue(final DeserializationContext ctxt)\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
     '''
 def deserialize():
-    '''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public Object deserialize(final JsonParser p, final DeserializationContext ctxt, final Object intoValue)
+    '''returns Object\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final Object intoValue)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''

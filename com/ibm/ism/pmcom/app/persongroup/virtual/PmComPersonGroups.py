@@ -1,3 +1,4 @@
-def PmComPersonGroups():
-    '''public PmComPersonGroups(final MboSet ms)
+def ():
+    '''returns PmComPersonGroups\n\n
+    (final MboSet ms)\n
     '''

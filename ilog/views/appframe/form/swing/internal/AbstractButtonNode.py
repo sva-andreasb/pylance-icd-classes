@@ -1,36 +1,48 @@
 def getControl():
-    '''public Object getControl()
+    '''returns Object\n\n
+    getControl()\n
     '''
 def setControl():
-    '''public void setControl(final Object control)
+    '''returns None\n\n
+    setControl(final Object control)\n
     '''
 def putProperty():
-    '''public void putProperty(final String s, final Object o, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    putProperty(final String s, final Object o, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def putPropertyAsText():
-    '''public void putPropertyAsText(final String s, final String s2, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    putPropertyAsText(final String s, final String s2, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def isLocaleDependentProperty():
-    '''public boolean isLocaleDependentProperty(final String s)
+    '''returns boolean\n\n
+    isLocaleDependentProperty(final String s)\n
     '''
 def localeChanged():
-    '''public void localeChanged(final Locale locale)
+    '''returns None\n\n
+    localeChanged(final Locale locale)\n
     '''
 def createControl():
-    '''public Object createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)
+    '''returns Object\n\n
+    createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)\n
     '''
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def getButtonText():
-    '''public String getButtonText()
+    '''returns String\n\n
+    getButtonText()\n
     '''
 def setButtonText():
-    '''public void setButtonText(final String text)
+    '''returns None\n\n
+    setButtonText(final String text)\n
     '''
 def getButtonState():
-    '''public int getButtonState()
+    '''returns int\n\n
+    getButtonState()\n
     '''
 def setButtonState():
-    '''public void setButtonState(final int n)
+    '''returns None\n\n
+    setButtonState(final int n)\n
     '''

@@ -1,23 +1,30 @@
-def HtmlResult():
-    '''public HtmlResult(final InputStream mainStream)
-    public HtmlResult()
-    public HtmlResult(final InputStream mainStream, final ArrayList<InputStream> resourceStreams, final ArrayList<String> resourcePaths)
+def ():
+    '''returns HtmlResult\n\n
+    (final InputStream mainStream)\n
+    ()\n
+    (final InputStream mainStream, final ArrayList<InputStream> resourceStreams, final ArrayList<String> resourcePaths)\n
     '''
 def getMainStream():
-    '''public InputStream getMainStream()
+    '''returns InputStream\n\n
+    getMainStream()\n
     '''
 def setMainStream():
-    '''public void setMainStream(final InputStream mainStream)
+    '''returns None\n\n
+    setMainStream(final InputStream mainStream)\n
     '''
 def getResourceStreams():
-    '''public ArrayList<InputStream> getResourceStreams()
+    '''returns ArrayList<InputStream>\n\n
+    getResourceStreams()\n
     '''
 def setResourceStreams():
-    '''public void setResourceStreams(final ArrayList<InputStream> resourceStreams)
+    '''returns None\n\n
+    setResourceStreams(final ArrayList<InputStream> resourceStreams)\n
     '''
 def getResourcePaths():
-    '''public ArrayList<String> getResourcePaths()
+    '''returns ArrayList<String>\n\n
+    getResourcePaths()\n
     '''
 def setResourcePaths():
-    '''public void setResourcePaths(final ArrayList<String> resourcePaths)
+    '''returns None\n\n
+    setResourcePaths(final ArrayList<String> resourcePaths)\n
     '''

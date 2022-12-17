@@ -1,23 +1,29 @@
-def ExecutorThreadPool():
-    '''public ExecutorThreadPool(final ExecutorService executor)
-    public ExecutorThreadPool()
-    public ExecutorThreadPool(final int queueSize)
-    public ExecutorThreadPool(final int corePoolSize, final int maximumPoolSize, final long keepAliveTime)
-    public ExecutorThreadPool(final int corePoolSize, final int maximumPoolSize, final long keepAliveTime, final TimeUnit unit)
-    public ExecutorThreadPool(final int corePoolSize, final int maximumPoolSize, final long keepAliveTime, final TimeUnit unit, final BlockingQueue<Runnable> workQueue)
+def ():
+    '''returns ExecutorThreadPool\n\n
+    (final ExecutorService executor)\n
+    ()\n
+    (final int queueSize)\n
+    (final int corePoolSize, final int maximumPoolSize, final long keepAliveTime)\n
+    (final int corePoolSize, final int maximumPoolSize, final long keepAliveTime, final TimeUnit unit)\n
+    (final int corePoolSize, final int maximumPoolSize, final long keepAliveTime, final TimeUnit unit, final BlockingQueue<Runnable> workQueue)\n
     '''
 def dispatch():
-    '''public boolean dispatch(final Runnable job)
+    '''returns boolean\n\n
+    dispatch(final Runnable job)\n
     '''
 def getIdleThreads():
-    '''public int getIdleThreads()
+    '''returns int\n\n
+    getIdleThreads()\n
     '''
 def getThreads():
-    '''public int getThreads()
+    '''returns int\n\n
+    getThreads()\n
     '''
 def isLowOnThreads():
-    '''public boolean isLowOnThreads()
+    '''returns boolean\n\n
+    isLowOnThreads()\n
     '''
 def join():
-    '''public void join()
+    '''returns None\n\n
+    join()\n
     '''

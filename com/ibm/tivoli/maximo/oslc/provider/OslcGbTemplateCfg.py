@@ -1,3 +1,4 @@
-def OslcGbTemplateCfg():
-    '''public OslcGbTemplateCfg(final MboSet ms)
+def ():
+    '''returns OslcGbTemplateCfg\n\n
+    (final MboSet ms)\n
     '''

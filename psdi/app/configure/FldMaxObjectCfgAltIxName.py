@@ -1,3 +1,4 @@
-def FldMaxObjectCfgAltIxName():
-    '''public FldMaxObjectCfgAltIxName(final MboValue mbv)
+def ():
+    '''returns FldMaxObjectCfgAltIxName\n\n
+    (final MboValue mbv)\n
     '''

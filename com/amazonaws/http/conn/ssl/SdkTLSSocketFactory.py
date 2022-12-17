@@ -1,6 +1,8 @@
-def SdkTLSSocketFactory():
-    '''public SdkTLSSocketFactory(final SSLContext sslContext, final HostnameVerifier hostnameVerifier)
+def ():
+    '''returns SdkTLSSocketFactory\n\n
+    (final SSLContext sslContext, final HostnameVerifier hostnameVerifier)\n
     '''
 def connectSocket():
-    '''public Socket connectSocket(final int connectTimeout, final Socket socket, final HttpHost host, final InetSocketAddress remoteAddress, final InetSocketAddress localAddress, final HttpContext context)
+    '''returns Socket\n\n
+    connectSocket(final int connectTimeout, final Socket socket, final HttpHost host, final InetSocketAddress remoteAddress, final InetSocketAddress localAddress, final HttpContext context)\n
     '''

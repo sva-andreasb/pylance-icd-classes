@@ -1,30 +1,28 @@
-def UpdateClusterCommand():
-    '''public UpdateClusterCommand(final TaskCommandMetadata metadata)
-    public UpdateClusterCommand(final CommandData inCommandData)
+def ():
+    '''returns BoundingNodeGroupStep\n\n
+    (final TaskCommandMetadata metadata)\n
+    (final CommandData inCommandData)\n
+    (final AbstractTaskCommand parent, final CommandStepMetadata metadata)\n
+    (final AbstractTaskCommand parent, final CommandStepData cmdData)\n
+    (final AbstractTaskCommand parent, final CommandStepMetadata metadata)\n
+    (final AbstractTaskCommand parent, final CommandStepData cmdData)\n
+    (final AbstractTaskCommand parent, final CommandStepMetadata metadata)\n
+    (final AbstractTaskCommand parent, final CommandStepData cmdData)\n
     '''
 def validate():
-    '''public void validate()
-    public void validate()
-    public void validate()
-    public void validate()
+    '''returns None\n\n
+    validate()\n
+    validate()\n
+    validate()\n
+    validate()\n
     '''
 def afterStepsExecuted():
-    '''public void afterStepsExecuted()
-    '''
-def PreferLocalStep():
-    '''public PreferLocalStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-    public PreferLocalStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
+    '''returns None\n\n
+    afterStepsExecuted()\n
     '''
 def stepModified():
-    '''public void stepModified(final String stepName)
-    public void stepModified(final String stepName)
-    public void stepModified(final String stepName)
-    '''
-def TransactionLogRecoveryStep():
-    '''public TransactionLogRecoveryStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-    public TransactionLogRecoveryStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
-    '''
-def BoundingNodeGroupStep():
-    '''public BoundingNodeGroupStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-    public BoundingNodeGroupStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
+    '''returns None\n\n
+    stepModified(final String stepName)\n
+    stepModified(final String stepName)\n
+    stepModified(final String stepName)\n
     '''

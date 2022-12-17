@@ -1,33 +1,40 @@
-def IndirectSubjectToPostMap():
-    '''public IndirectSubjectToPostMap()
+def ():
+    '''returns IndirectSubjectToPostMap\n\n
+    ()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def get():
-    '''public Map get(final SubjectInfoImpl subject)
+    '''returns Map\n\n
+    get(final SubjectInfoImpl subject)\n
     '''
 def put():
-    '''public Map put(final SubjectInfoImpl subject, final BulletinBoardPost post)
+    '''returns Map\n\n
+    put(final SubjectInfoImpl subject, final BulletinBoardPost post)\n
     '''
 def replace():
-    '''public Map replace(final SubjectInfoImpl subject, final Map posts)
+    '''returns Map\n\n
+    replace(final SubjectInfoImpl subject, final Map posts)\n
     '''
 def remove():
-    '''public Map remove(final SubjectInfoImpl subject)
+    '''returns Map\n\n
+    remove(final SubjectInfoImpl subject)\n
     '''
 def clearPost():
-    '''public void clearPost(final SubjectInfoImpl subject, final String originalServer)
-    '''
-def clear():
-    '''public synchronized void clear()
+    '''returns None\n\n
+    clearPost(final SubjectInfoImpl subject, final String originalServer)\n
     '''
 def keySet():
-    '''public Set keySet()
+    '''returns Set\n\n
+    keySet()\n
     '''
 def entrySet():
-    '''public Set entrySet()
+    '''returns Set\n\n
+    entrySet()\n
     '''
 def getValuesIterator():
-    '''public Iterator getValuesIterator()
+    '''returns Iterator\n\n
+    getValuesIterator()\n
     '''

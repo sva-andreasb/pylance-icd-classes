@@ -1,20 +1,26 @@
-def XmlWriter():
-    '''public XmlWriter()
+def ():
+    '''returns XmlWriter\n\n
+    ()\n
     '''
 def start():
-    '''public XmlWriter start(final String name)
-    public XmlWriter start(final String name, final String attr, final String value)
-    public XmlWriter start(final String name, final String[] attrs, final String[] values)
+    '''returns XmlWriter\n\n
+    start(final String name)\n
+    start(final String name, final String attr, final String value)\n
+    start(final String name, final String[] attrs, final String[] values)\n
     '''
 def end():
-    '''public XmlWriter end()
+    '''returns XmlWriter\n\n
+    end()\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def value():
-    '''public XmlWriter value(final String value)
+    '''returns XmlWriter\n\n
+    value(final String value)\n
     '''

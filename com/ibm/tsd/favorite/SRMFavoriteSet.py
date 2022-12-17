@@ -1,3 +1,4 @@
-def SRMFavoriteSet():
-    '''public SRMFavoriteSet(final MboServerInterface ms)
+def ():
+    '''returns SRMFavoriteSet\n\n
+    (final MboServerInterface ms)\n
     '''

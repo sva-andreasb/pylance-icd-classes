@@ -1,18 +1,20 @@
-def FocusController():
-    '''public FocusController()
+def ():
+    '''returns FocusController\n\n
+    ()\n
     '''
 def focusGained():
-    '''public void focusGained(final FocusEvent focusEvent)
-    '''
-def setAutoFocusing():
-    '''public final void setAutoFocusing(final boolean autoFocusing)
+    '''returns None\n\n
+    focusGained(final FocusEvent focusEvent)\n
     '''
 def addComponent():
-    '''public void addComponent(final Component component)
+    '''returns None\n\n
+    addComponent(final Component component)\n
     '''
 def removeComponent():
-    '''public void removeComponent(final Component component)
+    '''returns None\n\n
+    removeComponent(final Component component)\n
     '''
 def setFocusComponent():
-    '''public void setFocusComponent(final Component component)
+    '''returns None\n\n
+    setFocusComponent(final Component component)\n
     '''

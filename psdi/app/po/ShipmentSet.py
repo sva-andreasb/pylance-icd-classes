@@ -1,12 +1,16 @@
-def ShipmentSet():
-    '''public ShipmentSet(final MboServerInterface ms)
+def ():
+    '''returns ShipmentSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def matchShipmentLinesToPOLines():
-    '''public void matchShipmentLinesToPOLines()
+    '''returns None\n\n
+    matchShipmentLinesToPOLines()\n
     '''
 def createReceipts():
-    '''public void createReceipts()
+    '''returns None\n\n
+    createReceipts()\n
     '''
 def clearToBeSaved():
-    '''public void clearToBeSaved()
+    '''returns None\n\n
+    clearToBeSaved()\n
     '''

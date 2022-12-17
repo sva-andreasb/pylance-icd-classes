@@ -1,85 +1,113 @@
-def ReconInfo():
-    '''public ReconInfo()
-    public ReconInfo(final String dataSet1Name, final String dataSet2Name)
+def ():
+    '''returns ReconInfo\n\n
+    ()\n
+    (final String dataSet1Name, final String dataSet2Name)\n
     '''
 def getDataSet1():
-    '''public DataSet getDataSet1()
+    '''returns DataSet\n\n
+    getDataSet1()\n
     '''
 def getDataSet2():
-    '''public DataSet getDataSet2()
+    '''returns DataSet\n\n
+    getDataSet2()\n
     '''
 def setDataSet1Name():
-    '''public void setDataSet1Name(final String dataSet1Name)
+    '''returns None\n\n
+    setDataSet1Name(final String dataSet1Name)\n
     '''
 def setDataSet2Name():
-    '''public void setDataSet2Name(final String dataSet2Name)
+    '''returns None\n\n
+    setDataSet2Name(final String dataSet2Name)\n
     '''
 def isCaseSensitive():
-    '''public boolean isCaseSensitive()
+    '''returns boolean\n\n
+    isCaseSensitive()\n
     '''
 def setCaseSensitive():
-    '''public void setCaseSensitive(final boolean isCaseSensitive)
+    '''returns None\n\n
+    setCaseSensitive(final boolean isCaseSensitive)\n
     '''
 def isDataSet1Leading():
-    '''public boolean isDataSet1Leading()
+    '''returns boolean\n\n
+    isDataSet1Leading()\n
     '''
 def setDataSet1Leading():
-    '''public void setDataSet1Leading(final boolean isDataSet1Leading)
+    '''returns None\n\n
+    setDataSet1Leading(final boolean isDataSet1Leading)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def setLogger():
-    '''public void setLogger(final MXLogger logger)
+    '''returns None\n\n
+    setLogger(final MXLogger logger)\n
     '''
 def getSqlLogger():
-    '''public MXLogger getSqlLogger()
+    '''returns MXLogger\n\n
+    getSqlLogger()\n
     '''
 def setSqlLogger():
-    '''public void setSqlLogger(final MXLogger sqlLogger)
+    '''returns None\n\n
+    setSqlLogger(final MXLogger sqlLogger)\n
     '''
 def getLeadingDataSet():
-    '''public DataSet getLeadingDataSet()
+    '''returns DataSet\n\n
+    getLeadingDataSet()\n
     '''
 def getSecondaryDataSet():
-    '''public DataSet getSecondaryDataSet()
+    '''returns DataSet\n\n
+    getSecondaryDataSet()\n
     '''
 def getResultTimestampStr():
-    '''public String getResultTimestampStr()
+    '''returns String\n\n
+    getResultTimestampStr()\n
     '''
 def getResultTimestamp():
-    '''public Date getResultTimestamp()
+    '''returns Date\n\n
+    getResultTimestamp()\n
     '''
 def setResultTimestamp():
-    '''public void setResultTimestamp(final Date resultTimestamp)
+    '''returns None\n\n
+    setResultTimestamp(final Date resultTimestamp)\n
     '''
 def getCronName():
-    '''public String getCronName()
+    '''returns String\n\n
+    getCronName()\n
     '''
 def setCronName():
-    '''public void setCronName(final String cronName)
+    '''returns None\n\n
+    setCronName(final String cronName)\n
     '''
 def getInstanceName():
-    '''public String getInstanceName()
+    '''returns String\n\n
+    getInstanceName()\n
     '''
 def setInstanceName():
-    '''public void setInstanceName(final String instanceName)
+    '''returns None\n\n
+    setInstanceName(final String instanceName)\n
     '''
 def getTaskMbo():
-    '''public MboRemote getTaskMbo()
+    '''returns MboRemote\n\n
+    getTaskMbo()\n
     '''
 def setTaskMbo():
-    '''public void setTaskMbo(final MboRemote taskMbo)
+    '''returns None\n\n
+    setTaskMbo(final MboRemote taskMbo)\n
     '''
 def getTaskName():
-    '''public String getTaskName()
+    '''returns String\n\n
+    getTaskName()\n
     '''
 def setTaskName():
-    '''public void setTaskName(final String taskName)
+    '''returns None\n\n
+    setTaskName(final String taskName)\n
     '''

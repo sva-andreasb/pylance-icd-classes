@@ -1,6 +1,8 @@
-def SchemaBookmark():
-    '''public SchemaBookmark(final Object value)
+def ():
+    '''returns SchemaBookmark\n\n
+    (final Object value)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''

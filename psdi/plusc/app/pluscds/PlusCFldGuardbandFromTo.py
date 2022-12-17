@@ -1,7 +1,9 @@
-def PlusCFldGuardbandFromTo():
-    '''public PlusCFldGuardbandFromTo()
-    public PlusCFldGuardbandFromTo(final MboValue mbv)
+def ():
+    '''returns PlusCFldGuardbandFromTo\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

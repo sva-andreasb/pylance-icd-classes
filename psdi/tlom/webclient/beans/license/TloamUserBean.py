@@ -1,3 +1,4 @@
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''

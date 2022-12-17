@@ -1,15 +1,19 @@
-def Base64EncoderStream():
-    '''public Base64EncoderStream(final OutputStream out)
-    public Base64EncoderStream(final OutputStream out, final boolean closeOutOnClose)
+def ():
+    '''returns Base64EncoderStream\n\n
+    (final OutputStream out)\n
+    (final OutputStream out, final boolean closeOutOnClose)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] data)
-    public void write(final byte[] data, final int off, final int len)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] data)\n
+    write(final byte[] data, final int off, final int len)\n
     '''

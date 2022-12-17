@@ -5,42 +5,42 @@ STATUS_OK_AFTER_SPACE = "int  3"
 STATUS_EXPECT_VALUE = "int  4"
 STATUS_EXPECT_NAME = "int  5"
 def withDupDetector():
-    '''public JsonWriteContext withDupDetector(final DupDetector dups)
+    '''returns JsonWriteContext\n\n
+    withDupDetector(final DupDetector dups)\n
     '''
 def getCurrentValue():
-    '''public Object getCurrentValue()
+    '''returns Object\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final Object v)
-    '''
-def createRootContext():
-    '''public static JsonWriteContext createRootContext()
-    public static JsonWriteContext createRootContext(final DupDetector dd)
+    '''returns None\n\n
+    setCurrentValue(final Object v)\n
     '''
 def createChildArrayContext():
-    '''public JsonWriteContext createChildArrayContext()
+    '''returns JsonWriteContext\n\n
+    createChildArrayContext()\n
     '''
 def createChildObjectContext():
-    '''public JsonWriteContext createChildObjectContext()
-    '''
-def getParent():
-    '''public final JsonWriteContext getParent()
-    '''
-def getCurrentName():
-    '''public final String getCurrentName()
+    '''returns JsonWriteContext\n\n
+    createChildObjectContext()\n
     '''
 def hasCurrentName():
-    '''public boolean hasCurrentName()
+    '''returns boolean\n\n
+    hasCurrentName()\n
     '''
 def clearAndGetParent():
-    '''public JsonWriteContext clearAndGetParent()
+    '''returns JsonWriteContext\n\n
+    clearAndGetParent()\n
     '''
 def getDupDetector():
-    '''public DupDetector getDupDetector()
+    '''returns DupDetector\n\n
+    getDupDetector()\n
     '''
 def writeFieldName():
-    '''public int writeFieldName(final String name)
+    '''returns int\n\n
+    writeFieldName(final String name)\n
     '''
 def writeValue():
-    '''public int writeValue()
+    '''returns int\n\n
+    writeValue()\n
     '''

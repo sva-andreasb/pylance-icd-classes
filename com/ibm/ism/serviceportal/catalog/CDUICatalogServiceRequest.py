@@ -1,45 +1,52 @@
-def CDUICatalogServiceRequest():
-    '''public CDUICatalogServiceRequest(final MboRemote sr)
+def ():
+    '''returns CDUICatalogServiceRequest\n\n
+    (final MboRemote sr)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final List<CDUICatalogAttribute> attributes, final boolean modifyFlags)
+    '''returns None\n\n
+    setAttributes(final List<CDUICatalogAttribute> attributes, final boolean modifyFlags)\n
     '''
 def getAllSpecAttributesName():
-    '''public Set<String> getAllSpecAttributesName()
+    '''returns Set<String>\n\n
+    getAllSpecAttributesName()\n
     '''
 def addSpecAttribute():
-    '''public void addSpecAttribute(final String attribute, final String specAttribute)
+    '''returns None\n\n
+    addSpecAttribute(final String attribute, final String specAttribute)\n
     '''
 def getAttributeData():
-    '''public JSONObject getAttributeData(final CDUICatalogAttribute ca, final boolean paging, final int pageSize, final int pageNum, final String searchValueInTable, final boolean loadDomain)
+    '''returns JSONObject\n\n
+    getAttributeData(final CDUICatalogAttribute ca, final boolean paging, final int pageSize, final int pageNum, final String searchValueInTable, final boolean loadDomain)\n
     '''
 def getAllAttributeData():
-    '''public JSONArray getAllAttributeData(final List<CDUICatalogAttribute> attributes)
+    '''returns JSONArray\n\n
+    getAllAttributeData(final List<CDUICatalogAttribute> attributes)\n
     '''
 def getTableAttributeData():
-    '''public JSONArray getTableAttributeData(final List<CDUICatalogTableAttribute> attributes)
-    '''
-def saveAttributes():
-    '''public Map<String, String> saveAttributes(final List<CDUICatalogAttribute> attributesToBeSaved, final List<CDUICatalogTableAttribute> tableAttributesToBeSaved)
-    '''
-def submitAttributes():
-    '''public Map<String, String> submitAttributes(final List<CDUICatalogAttribute> attributesToBeSaved, final List<CDUICatalogTableAttribute> tableAttributesToBeSaved)
+    '''returns JSONArray\n\n
+    getTableAttributeData(final List<CDUICatalogTableAttribute> attributes)\n
     '''
 def getSpecAttribute():
-    '''public String getSpecAttribute(final String attributeName)
+    '''returns String\n\n
+    getSpecAttribute(final String attributeName)\n
     '''
 def getSR():
-    '''public MboRemote getSR()
+    '''returns MboRemote\n\n
+    getSR()\n
     '''
 def getSpec():
-    '''public PmScCRSpecRemote getSpec()
+    '''returns PmScCRSpecRemote\n\n
+    getSpec()\n
     '''
 def getCR():
-    '''public PmScCRRemote getCR()
+    '''returns PmScCRRemote\n\n
+    getCR()\n
     '''
 def initialize():
-    '''public void initialize(final MboRemote sr)
+    '''returns None\n\n
+    initialize(final MboRemote sr)\n
     '''
 def getRelativeMboSet():
-    '''public MboSetRemote getRelativeMboSet(final String attribute)
+    '''returns MboSetRemote\n\n
+    getRelativeMboSet(final String attribute)\n
     '''

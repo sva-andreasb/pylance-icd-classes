@@ -1,10 +1,13 @@
-def ConstraintBuilder():
-    '''public ConstraintBuilder(final MXServer mxServer)
+def ():
+    '''returns ConstraintBuilder\n\n
+    (final MXServer mxServer)\n
     '''
 def build():
-    '''public Constraint build(final Schedule schedule, final Activity from, final Activity to, final IlvConstraintType type)
-    public Constraint build(final Schedule schedule, final MboRemote projectMbo, final ResultSet resultSet, final Map<String, Activity> activitiesMap)
+    '''returns Constraint\n\n
+    build(final Schedule schedule, final Activity from, final Activity to, final IlvConstraintType type)\n
+    build(final Schedule schedule, final MboRemote projectMbo, final ResultSet resultSet, final Map<String, Activity> activitiesMap)\n
     '''
 def saveInitializedConstraintChanges():
-    '''public void saveInitializedConstraintChanges(final UserInfo userInfo, final MboRemote project)
+    '''returns None\n\n
+    saveInitializedConstraintChanges(final UserInfo userInfo, final MboRemote project)\n
     '''

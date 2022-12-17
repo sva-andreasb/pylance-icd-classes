@@ -1,11 +1,12 @@
 def convertToXmlByteArray():
-    '''public byte[] convertToXmlByteArray(final BucketVersioningConfiguration versioningConfiguration)
-    public byte[] convertToXmlByteArray(final BucketAccelerateConfiguration accelerateConfiguration)
-    public byte[] convertToXmlByteArray(final BucketLoggingConfiguration loggingConfiguration)
-    public byte[] convertToXmlByteArray(final BucketNotificationConfiguration notificationConfiguration)
-    public byte[] convertToXmlByteArray(final BucketReplicationConfiguration replicationConfiguration)
-    public byte[] convertToXmlByteArray(final BucketWebsiteConfiguration websiteConfiguration)
-    public byte[] convertToXmlByteArray(final BucketLifecycleConfiguration config)
-    public byte[] convertToXmlByteArray(final BucketCrossOriginConfiguration config)
-    public byte[] convertToXmlByteArray(final BucketTaggingConfiguration config)
+    '''returns byte[]\n\n
+    convertToXmlByteArray(final BucketVersioningConfiguration versioningConfiguration)\n
+    convertToXmlByteArray(final BucketAccelerateConfiguration accelerateConfiguration)\n
+    convertToXmlByteArray(final BucketLoggingConfiguration loggingConfiguration)\n
+    convertToXmlByteArray(final BucketNotificationConfiguration notificationConfiguration)\n
+    convertToXmlByteArray(final BucketReplicationConfiguration replicationConfiguration)\n
+    convertToXmlByteArray(final BucketWebsiteConfiguration websiteConfiguration)\n
+    convertToXmlByteArray(final BucketLifecycleConfiguration config)\n
+    convertToXmlByteArray(final BucketCrossOriginConfiguration config)\n
+    convertToXmlByteArray(final BucketTaggingConfiguration config)\n
     '''

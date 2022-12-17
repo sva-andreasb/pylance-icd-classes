@@ -1,3 +1,4 @@
-def ApiKeyTokenSet():
-    '''public ApiKeyTokenSet(final MboServerInterface ms)
+def ():
+    '''returns ApiKeyTokenSet\n\n
+    (final MboServerInterface ms)\n
     '''

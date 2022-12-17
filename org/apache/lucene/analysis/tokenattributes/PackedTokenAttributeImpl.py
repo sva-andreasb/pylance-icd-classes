@@ -1,57 +1,52 @@
-def PackedTokenAttributeImpl():
-    '''public PackedTokenAttributeImpl()
+def ():
+    '''returns PackedTokenAttributeImpl\n\n
+    ()\n
     '''
 def setPositionIncrement():
-    '''public void setPositionIncrement(final int positionIncrement)
+    '''returns None\n\n
+    setPositionIncrement(final int positionIncrement)\n
     '''
 def getPositionIncrement():
-    '''public int getPositionIncrement()
+    '''returns int\n\n
+    getPositionIncrement()\n
     '''
 def setPositionLength():
-    '''public void setPositionLength(final int positionLength)
+    '''returns None\n\n
+    setPositionLength(final int positionLength)\n
     '''
 def getPositionLength():
-    '''public int getPositionLength()
-    '''
-def startOffset():
-    '''public final int startOffset()
-    '''
-def endOffset():
-    '''public final int endOffset()
+    '''returns int\n\n
+    getPositionLength()\n
     '''
 def setOffset():
-    '''public void setOffset(final int startOffset, final int endOffset)
-    '''
-def type():
-    '''public final String type()
-    '''
-def setType():
-    '''public final void setType(final String type)
-    '''
-def setTermFrequency():
-    '''public final void setTermFrequency(final int termFrequency)
-    '''
-def getTermFrequency():
-    '''public final int getTermFrequency()
+    '''returns None\n\n
+    setOffset(final int startOffset, final int endOffset)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def clone():
-    '''public PackedTokenAttributeImpl clone()
+    '''returns PackedTokenAttributeImpl\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def copyTo():
-    '''public void copyTo(final AttributeImpl target)
+    '''returns None\n\n
+    copyTo(final AttributeImpl target)\n
     '''
 def reflectWith():
-    '''public void reflectWith(final AttributeReflector reflector)
+    '''returns None\n\n
+    reflectWith(final AttributeReflector reflector)\n
     '''

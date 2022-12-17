@@ -1,3 +1,4 @@
 def getBookMarks():
-    '''public OslcResourceResponse getBookMarks(final String osName, final OslcRequest request)
+    '''returns OslcResourceResponse\n\n
+    getBookMarks(final String osName, final OslcRequest request)\n
     '''

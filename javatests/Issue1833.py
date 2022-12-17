@@ -1,3 +1,4 @@
 def setValue():
-    '''public void setValue(final PyObject value)
+    '''returns None\n\n
+    setValue(final PyObject value)\n
     '''

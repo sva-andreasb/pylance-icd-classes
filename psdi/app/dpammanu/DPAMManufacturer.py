@@ -1,24 +1,32 @@
-def DPAMManufacturer():
-    '''public DPAMManufacturer(final MboSet ms)
+def ():
+    '''returns DPAMManufacturer\n\n
+    (final MboSet ms)\n
     '''
 def getTargetFieldName():
-    '''public String getTargetFieldName()
+    '''returns String\n\n
+    getTargetFieldName()\n
     '''
 def getVariantFieldName():
-    '''public String getVariantFieldName()
+    '''returns String\n\n
+    getVariantFieldName()\n
     '''
 def getVariantSetName():
-    '''public String getVariantSetName()
+    '''returns String\n\n
+    getVariantSetName()\n
     '''
 def getReferencedRelationshipList():
-    '''public String[] getReferencedRelationshipList()
+    '''returns String[]\n\n
+    getReferencedRelationshipList()\n
     '''
 def getExceptionParams():
-    '''public Object[] getExceptionParams()
+    '''returns Object[]\n\n
+    getExceptionParams()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

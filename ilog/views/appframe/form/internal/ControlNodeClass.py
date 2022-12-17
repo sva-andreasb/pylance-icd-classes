@@ -1,14 +1,18 @@
 CONTROL_NODE_CLASS_DEVICE_PROPERTY = "String  \"JAppFrame:ControlNodeClassDevice\""
-def ControlNodeClass():
-    '''public ControlNodeClass()
+def ():
+    '''returns ControlNodeClass\n\n
+    ()\n
     '''
 def createControlNode():
-    '''public AbstractControlNode createControlNode(final IlvForm ilvForm, final String className, Class clazz)
+    '''returns AbstractControlNode\n\n
+    createControlNode(final IlvForm ilvForm, final String className, Class clazz)\n
     '''
 def registerControlType():
-    '''public void registerControlType(final String s, final Class clazz)
-    public void registerControlType(final String s, final Class clazz, final ControlNodeFactory controlNodeFactory)
+    '''returns None\n\n
+    registerControlType(final String s, final Class clazz)\n
+    registerControlType(final String s, final Class clazz, final ControlNodeFactory controlNodeFactory)\n
     '''
 def findClosestControlType():
-    '''public String findClosestControlType(Class superclass)
+    '''returns String\n\n
+    findClosestControlType(Class superclass)\n
     '''

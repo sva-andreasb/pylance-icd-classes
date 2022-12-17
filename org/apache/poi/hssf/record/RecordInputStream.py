@@ -1,88 +1,110 @@
 MAX_RECORD_DATA_SIZE = "short  8224"
-def RecordInputStream():
-    '''public RecordInputStream(final InputStream in)
-    public RecordInputStream(final InputStream in, final EncryptionInfo key, final int initialOffset)
+def ():
+    '''returns SimpleHeaderInput\n\n
+    (final InputStream in)\n
+    (final InputStream in, final EncryptionInfo key, final int initialOffset)\n
+    (final int sid, final int remainingByteCount)\n
+    (final InputStream in)\n
     '''
 def available():
-    '''public int available()
-    public int available()
+    '''returns int\n\n
+    available()\n
+    available()\n
     '''
 def read():
-    '''public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def hasNextRecord():
-    '''public boolean hasNextRecord()
+    '''returns boolean\n\n
+    hasNextRecord()\n
     '''
 def nextRecord():
-    '''public void nextRecord()
+    '''returns None\n\n
+    nextRecord()\n
     '''
 def readByte():
-    '''public byte readByte()
+    '''returns byte\n\n
+    readByte()\n
     '''
 def readShort():
-    '''public short readShort()
+    '''returns short\n\n
+    readShort()\n
     '''
 def readInt():
-    '''public int readInt()
+    '''returns int\n\n
+    readInt()\n
     '''
 def readLong():
-    '''public long readLong()
+    '''returns long\n\n
+    readLong()\n
     '''
 def readUByte():
-    '''public int readUByte()
+    '''returns int\n\n
+    readUByte()\n
     '''
 def readUShort():
-    '''public int readUShort()
+    '''returns int\n\n
+    readUShort()\n
     '''
 def readDouble():
-    '''public double readDouble()
+    '''returns double\n\n
+    readDouble()\n
     '''
 def readPlain():
-    '''public void readPlain(final byte[] buf, final int off, final int len)
+    '''returns None\n\n
+    readPlain(final byte[] buf, final int off, final int len)\n
     '''
 def readFully():
-    '''public void readFully(final byte[] buf)
-    public void readFully(final byte[] buf, final int off, final int len)
+    '''returns None\n\n
+    readFully(final byte[] buf)\n
+    readFully(final byte[] buf, final int off, final int len)\n
     '''
 def readString():
-    '''public String readString()
+    '''returns String\n\n
+    readString()\n
     '''
 def readUnicodeLEString():
-    '''public String readUnicodeLEString(final int requestedLength)
+    '''returns String\n\n
+    readUnicodeLEString(final int requestedLength)\n
     '''
 def readCompressedUnicode():
-    '''public String readCompressedUnicode(final int requestedLength)
+    '''returns String\n\n
+    readCompressedUnicode(final int requestedLength)\n
     '''
 def readRemainder():
-    '''public byte[] readRemainder()
+    '''returns byte[]\n\n
+    readRemainder()\n
     '''
 def readAllContinuedRemainder():
-    '''public byte[] readAllContinuedRemainder()
+    '''returns byte[]\n\n
+    readAllContinuedRemainder()\n
     '''
 def remaining():
-    '''public int remaining()
+    '''returns int\n\n
+    remaining()\n
     '''
 def getNextSid():
-    '''public int getNextSid()
+    '''returns int\n\n
+    getNextSid()\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def reset():
-    '''public void reset()
-    '''
-def LeftoverDataException():
-    '''public LeftoverDataException(final int sid, final int remainingByteCount)
-    '''
-def SimpleHeaderInput():
-    '''public SimpleHeaderInput(final InputStream in)
+    '''returns None\n\n
+    reset()\n
     '''
 def readDataSize():
-    '''public int readDataSize()
+    '''returns int\n\n
+    readDataSize()\n
     '''
 def readRecordSID():
-    '''public int readRecordSID()
+    '''returns int\n\n
+    readRecordSID()\n
     '''

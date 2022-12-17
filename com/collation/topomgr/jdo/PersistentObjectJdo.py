@@ -1,134 +1,173 @@
-def PersistentObjectJdo():
-    '''public PersistentObjectJdo()
-    public PersistentObjectJdo(final Guid guid, final String className)
+def ():
+    '''returns PersistentObjectJdo\n\n
+    ()\n
+    (final Guid guid, final String className)\n
     '''
 def getGuid():
-    '''public Guid getGuid()
+    '''returns Guid\n\n
+    getGuid()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getHwType():
-    '''public String getHwType()
+    '''returns String\n\n
+    getHwType()\n
     '''
 def setHwType():
-    '''public void setHwType(final String type)
+    '''returns None\n\n
+    setHwType(final String type)\n
     '''
 def getVersioned():
-    '''public boolean getVersioned()
+    '''returns boolean\n\n
+    getVersioned()\n
     '''
 def setVersioned():
-    '''public void setVersioned(final boolean versioned)
+    '''returns None\n\n
+    setVersioned(final boolean versioned)\n
     '''
 def getArchived():
-    '''public boolean getArchived()
+    '''returns boolean\n\n
+    getArchived()\n
     '''
 def setArchived():
-    '''public void setArchived(final boolean archived)
+    '''returns None\n\n
+    setArchived(final boolean archived)\n
     '''
 def getDeleted():
-    '''public boolean getDeleted()
+    '''returns boolean\n\n
+    getDeleted()\n
     '''
 def setDeleted():
-    '''public void setDeleted(final boolean deleted)
+    '''returns None\n\n
+    setDeleted(final boolean deleted)\n
     '''
 def getCmdbSource():
-    '''public Guid getCmdbSource()
+    '''returns Guid\n\n
+    getCmdbSource()\n
     '''
 def setCmdbSource():
-    '''public void setCmdbSource(final Guid cmdbSource)
+    '''returns None\n\n
+    setCmdbSource(final Guid cmdbSource)\n
     '''
 def getRunId():
-    '''public long getRunId()
+    '''returns long\n\n
+    getRunId()\n
     '''
 def setRunId():
-    '''public void setRunId(final long runId)
+    '''returns None\n\n
+    setRunId(final long runId)\n
     '''
 def getLastModifiedTime():
-    '''public long getLastModifiedTime()
+    '''returns long\n\n
+    getLastModifiedTime()\n
     '''
 def setLastModifiedTime():
-    '''public void setLastModifiedTime(final long lastModifiedTime)
+    '''returns None\n\n
+    setLastModifiedTime(final long lastModifiedTime)\n
     '''
 def jdoNewInstance():
-    '''public PersistenceCapable jdoNewInstance(final StateManager jdoStateManager, final Object o)
-    public PersistenceCapable jdoNewInstance(final StateManager jdoStateManager)
+    '''returns PersistenceCapable\n\n
+    jdoNewInstance(final StateManager jdoStateManager, final Object o)\n
+    jdoNewInstance(final StateManager jdoStateManager)\n
     '''
 def jdoReplaceField():
-    '''public void jdoReplaceField(final int n)
+    '''returns None\n\n
+    jdoReplaceField(final int n)\n
     '''
 def jdoReplaceFields():
-    '''public void jdoReplaceFields(final int[] array)
+    '''returns None\n\n
+    jdoReplaceFields(final int[] array)\n
     '''
 def jdoProvideField():
-    '''public void jdoProvideField(final int n)
+    '''returns None\n\n
+    jdoProvideField(final int n)\n
     '''
 def jdoProvideFields():
-    '''public void jdoProvideFields(final int[] array)
+    '''returns None\n\n
+    jdoProvideFields(final int[] array)\n
     '''
 def jdoCopyFields():
-    '''public void jdoCopyFields(final Object o, final int[] array)
+    '''returns None\n\n
+    jdoCopyFields(final Object o, final int[] array)\n
     '''
 def jdoGetPersistenceManager():
-    '''public PersistenceManager jdoGetPersistenceManager()
+    '''returns PersistenceManager\n\n
+    jdoGetPersistenceManager()\n
     '''
 def jdoGetObjectId():
-    '''public Object jdoGetObjectId()
+    '''returns Object\n\n
+    jdoGetObjectId()\n
     '''
 def jdoGetTransactionalObjectId():
-    '''public Object jdoGetTransactionalObjectId()
+    '''returns Object\n\n
+    jdoGetTransactionalObjectId()\n
     '''
 def jdoIsDeleted():
-    '''public boolean jdoIsDeleted()
+    '''returns boolean\n\n
+    jdoIsDeleted()\n
     '''
 def jdoIsDirty():
-    '''public boolean jdoIsDirty()
+    '''returns boolean\n\n
+    jdoIsDirty()\n
     '''
 def jdoIsNew():
-    '''public boolean jdoIsNew()
+    '''returns boolean\n\n
+    jdoIsNew()\n
     '''
 def jdoIsPersistent():
-    '''public boolean jdoIsPersistent()
+    '''returns boolean\n\n
+    jdoIsPersistent()\n
     '''
 def jdoIsTransactional():
-    '''public boolean jdoIsTransactional()
+    '''returns boolean\n\n
+    jdoIsTransactional()\n
     '''
 def jdoPreSerialize():
-    '''public void jdoPreSerialize()
+    '''returns None\n\n
+    jdoPreSerialize()\n
     '''
 def jdoMakeDirty():
-    '''public void jdoMakeDirty(final String s)
+    '''returns None\n\n
+    jdoMakeDirty(final String s)\n
     '''
 def jdoReplaceFlags():
-    '''public void jdoReplaceFlags()
-    '''
-def jdoReplaceStateManager():
-    '''public synchronized void jdoReplaceStateManager(final StateManager jdoStateManager)
+    '''returns None\n\n
+    jdoReplaceFlags()\n
     '''
 def jdoCopyKeyFieldsToObjectId():
-    '''public void jdoCopyKeyFieldsToObjectId(final PersistenceCapable$ObjectIdFieldSupplier persistenceCapable$ObjectIdFieldSupplier, final Object o)
-    public void jdoCopyKeyFieldsToObjectId(final Object o)
+    '''returns None\n\n
+    jdoCopyKeyFieldsToObjectId(final PersistenceCapable$ObjectIdFieldSupplier persistenceCapable$ObjectIdFieldSupplier, final Object o)\n
+    jdoCopyKeyFieldsToObjectId(final Object o)\n
     '''
 def jdoCopyKeyFieldsFromObjectId():
-    '''public void jdoCopyKeyFieldsFromObjectId(final PersistenceCapable$ObjectIdFieldConsumer persistenceCapable$ObjectIdFieldConsumer, final Object o)
-    public void jdoCopyKeyFieldsFromObjectId(final Object o)
+    '''returns None\n\n
+    jdoCopyKeyFieldsFromObjectId(final PersistenceCapable$ObjectIdFieldConsumer persistenceCapable$ObjectIdFieldConsumer, final Object o)\n
+    jdoCopyKeyFieldsFromObjectId(final Object o)\n
     '''
 def jdoNewObjectIdInstance():
-    '''public Object jdoNewObjectIdInstance(final String guid)
-    public Object jdoNewObjectIdInstance()
+    '''returns Object\n\n
+    jdoNewObjectIdInstance(final String guid)\n
+    jdoNewObjectIdInstance()\n
     '''

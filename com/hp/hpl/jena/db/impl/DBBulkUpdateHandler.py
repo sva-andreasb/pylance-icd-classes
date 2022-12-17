@@ -1,23 +1,28 @@
-def DBBulkUpdateHandler():
-    '''public DBBulkUpdateHandler(final GraphRDB graph)
+def ():
+    '''returns DBBulkUpdateHandler\n\n
+    (final GraphRDB graph)\n
     '''
 def add():
-    '''public void add(final Triple[] triples)
-    public void add(final List<Triple> triples)
-    public void add(final Iterator<Triple> it)
-    public void add(final Graph g)
-    public void add(final Graph g, final boolean withReifications)
+    '''returns None\n\n
+    add(final Triple[] triples)\n
+    add(final List<Triple> triples)\n
+    add(final Iterator<Triple> it)\n
+    add(final Graph g)\n
+    add(final Graph g, final boolean withReifications)\n
     '''
 def delete():
-    '''public void delete(final Triple[] triples)
-    public void delete(final List<Triple> triples)
-    public void delete(final Iterator<Triple> it)
-    public void delete(final Graph g)
-    public void delete(final Graph g, final boolean withReifications)
+    '''returns None\n\n
+    delete(final Triple[] triples)\n
+    delete(final List<Triple> triples)\n
+    delete(final Iterator<Triple> it)\n
+    delete(final Graph g)\n
+    delete(final Graph g, final boolean withReifications)\n
     '''
 def removeAll():
-    '''public void removeAll()
+    '''returns None\n\n
+    removeAll()\n
     '''
 def remove():
-    '''public void remove(final Node s, final Node p, final Node o)
+    '''returns None\n\n
+    remove(final Node s, final Node p, final Node o)\n
     '''

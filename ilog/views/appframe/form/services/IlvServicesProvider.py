@@ -3,30 +3,39 @@ URL_SERVICES = "String  \"URLServices\""
 ACTION_SERVICES = "String  \"ActionServices\""
 PROPERTY_SERVICES = "String  \"PropertyServices\""
 CLASS_SERVICES = "String  \"ClassServices\""
-def IlvServicesProvider():
-    '''public IlvServicesProvider()
+def ():
+    '''returns IlvServicesProvider\n\n
+    ()\n
     '''
 def getLocalizationServices():
-    '''public IlvLocalizationServices getLocalizationServices()
+    '''returns IlvLocalizationServices\n\n
+    getLocalizationServices()\n
     '''
 def getURLServices():
-    '''public IlvURLServices getURLServices()
+    '''returns IlvURLServices\n\n
+    getURLServices()\n
     '''
 def getActionServices():
-    '''public IlvActionServices getActionServices()
+    '''returns IlvActionServices\n\n
+    getActionServices()\n
     '''
 def getPropertyServices():
-    '''public IlvPropertyServices getPropertyServices()
+    '''returns IlvPropertyServices\n\n
+    getPropertyServices()\n
     '''
 def getClassServices():
-    '''public IlvClassServices getClassServices()
+    '''returns IlvClassServices\n\n
+    getClassServices()\n
     '''
 def getServices():
-    '''public IlvServices getServices(final String s)
+    '''returns IlvServices\n\n
+    getServices(final String s)\n
     '''
 def addServices():
-    '''public void addServices(final String s, final IlvServices servicesDelegate)
+    '''returns None\n\n
+    addServices(final String s, final IlvServices servicesDelegate)\n
     '''
 def removeServices():
-    '''public boolean removeServices(final String s, final IlvServices ilvServices)
+    '''returns boolean\n\n
+    removeServices(final String s, final IlvServices ilvServices)\n
     '''

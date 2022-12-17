@@ -1,3 +1,4 @@
 def defaultExec():
-    '''public int defaultExec()
+    '''returns int\n\n
+    defaultExec()\n
     '''

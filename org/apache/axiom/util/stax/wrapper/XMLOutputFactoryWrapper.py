@@ -1,24 +1,30 @@
-def XMLOutputFactoryWrapper():
-    '''public XMLOutputFactoryWrapper(final XMLOutputFactory parent)
+def ():
+    '''returns XMLOutputFactoryWrapper\n\n
+    (final XMLOutputFactory parent)\n
     '''
 def createXMLEventWriter():
-    '''public XMLEventWriter createXMLEventWriter(final OutputStream stream, final String encoding)
-    public XMLEventWriter createXMLEventWriter(final OutputStream stream)
-    public XMLEventWriter createXMLEventWriter(final Result result)
-    public XMLEventWriter createXMLEventWriter(final Writer stream)
+    '''returns XMLEventWriter\n\n
+    createXMLEventWriter(final OutputStream stream, final String encoding)\n
+    createXMLEventWriter(final OutputStream stream)\n
+    createXMLEventWriter(final Result result)\n
+    createXMLEventWriter(final Writer stream)\n
     '''
 def createXMLStreamWriter():
-    '''public XMLStreamWriter createXMLStreamWriter(final OutputStream stream, final String encoding)
-    public XMLStreamWriter createXMLStreamWriter(final OutputStream stream)
-    public XMLStreamWriter createXMLStreamWriter(final Result result)
-    public XMLStreamWriter createXMLStreamWriter(final Writer stream)
+    '''returns XMLStreamWriter\n\n
+    createXMLStreamWriter(final OutputStream stream, final String encoding)\n
+    createXMLStreamWriter(final OutputStream stream)\n
+    createXMLStreamWriter(final Result result)\n
+    createXMLStreamWriter(final Writer stream)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def isPropertySupported():
-    '''public boolean isPropertySupported(final String name)
+    '''returns boolean\n\n
+    isPropertySupported(final String name)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''

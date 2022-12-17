@@ -6,142 +6,112 @@ BACK_WALL = "int  16"
 ORTHOGRAPHIC = "int  0"
 OBLIQUE = "int  1"
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener listener)
-    public void addPropertyChangeListener(final String propertyName, final PropertyChangeListener listener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener listener)\n
+    addPropertyChangeListener(final String propertyName, final PropertyChangeListener listener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener listener)
-    public void removePropertyChangeListener(final String propertyName, final PropertyChangeListener listener)
-    '''
-def getScene():
-    '''public final IlvChart3DScene getScene()
-    '''
-def getChart():
-    '''public final IlvChart getChart()
-    '''
-def draw():
-    '''public synchronized void draw(final Graphics graphics)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener listener)\n
+    removePropertyChangeListener(final String propertyName, final PropertyChangeListener listener)\n
     '''
 def getFrontDepth():
-    '''public double getFrontDepth()
+    '''returns double\n\n
+    getFrontDepth()\n
     '''
 def getBackDepth():
-    '''public double getBackDepth()
-    '''
-def getZAnnotationRenderer():
-    '''public final IlvLabelRenderer getZAnnotationRenderer()
+    '''returns double\n\n
+    getBackDepth()\n
     '''
 def setZAnnotationRenderer():
-    '''public void setZAnnotationRenderer(final IlvLabelRenderer ilvLabelRenderer)
-    '''
-def isZAnnotationColorVarying():
-    '''public final boolean isZAnnotationColorVarying()
+    '''returns None\n\n
+    setZAnnotationRenderer(final IlvLabelRenderer ilvLabelRenderer)\n
     '''
 def setZAnnotationColorVarying():
-    '''public void setZAnnotationColorVarying(final boolean b)
-    '''
-def isZAnnotationVisible():
-    '''public final boolean isZAnnotationVisible()
+    '''returns None\n\n
+    setZAnnotationColorVarying(final boolean b)\n
     '''
 def setZAnnotationVisible():
-    '''public void setZAnnotationVisible(final boolean b)
-    '''
-def isZGridVisible():
-    '''public final boolean isZGridVisible()
+    '''returns None\n\n
+    setZAnnotationVisible(final boolean b)\n
     '''
 def setZGridVisible():
-    '''public void setZGridVisible(final boolean b)
-    '''
-def getZGridStroke():
-    '''public final Stroke getZGridStroke()
+    '''returns None\n\n
+    setZGridVisible(final boolean b)\n
     '''
 def setZGridStroke():
-    '''public void setZGridStroke(final Stroke zGridStroke)
-    '''
-def getZGridPaint():
-    '''public final Paint getZGridPaint()
+    '''returns None\n\n
+    setZGridStroke(final Stroke zGridStroke)\n
     '''
 def setZGridPaint():
-    '''public void setZGridPaint(final Paint zGridPaint)
-    '''
-def getLightLatitude():
-    '''public final double getLightLatitude()
+    '''returns None\n\n
+    setZGridPaint(final Paint zGridPaint)\n
     '''
 def setLightLatitude():
-    '''public void setLightLatitude(final double lightLatitude)
-    '''
-def getLightLongitude():
-    '''public final double getLightLongitude()
+    '''returns None\n\n
+    setLightLatitude(final double lightLatitude)\n
     '''
 def setLightLongitude():
-    '''public void setLightLongitude(final double lightLongitude)
-    '''
-def getAmbientLight():
-    '''public final float getAmbientLight()
+    '''returns None\n\n
+    setLightLongitude(final double lightLongitude)\n
     '''
 def setAmbientLight():
-    '''public void setAmbientLight(final float ambientLight)
-    '''
-def getProjectionType():
-    '''public final int getProjectionType()
+    '''returns None\n\n
+    setAmbientLight(final float ambientLight)\n
     '''
 def setProjectionType():
-    '''public void setProjectionType(final int projectionType)
-    '''
-def getElevation():
-    '''public final double getElevation()
+    '''returns None\n\n
+    setProjectionType(final int projectionType)\n
     '''
 def setElevation():
-    '''public void setElevation(double clamp)
-    '''
-def getRotation():
-    '''public final double getRotation()
+    '''returns None\n\n
+    setElevation(double clamp)\n
     '''
 def setRotation():
-    '''public void setRotation(final double i)
+    '''returns None\n\n
+    setRotation(final double i)\n
     '''
 def setViewAngles():
-    '''public void setViewAngles(final double rotation, final double elevation)
-    '''
-def getDepth():
-    '''public final int getDepth()
+    '''returns None\n\n
+    setViewAngles(final double rotation, final double elevation)\n
     '''
 def setDepth():
-    '''public void setDepth(int clamp)
-    '''
-def getDepthGap():
-    '''public final int getDepthGap()
+    '''returns None\n\n
+    setDepth(int clamp)\n
     '''
 def setDepthGap():
-    '''public void setDepthGap(int clamp)
-    '''
-def getZoom():
-    '''public final double getZoom()
+    '''returns None\n\n
+    setDepthGap(int clamp)\n
     '''
 def setZoom():
-    '''public void setZoom(double clamp)
-    '''
-def isAutoScaling():
-    '''public final boolean isAutoScaling()
+    '''returns None\n\n
+    setZoom(double clamp)\n
     '''
 def setAutoScaling():
-    '''public void setAutoScaling(final boolean f)
+    '''returns None\n\n
+    setAutoScaling(final boolean f)\n
     '''
 def setWallStyle():
-    '''public void setWallStyle(final int n, final IlvStyle style)
+    '''returns None\n\n
+    setWallStyle(final int n, final IlvStyle style)\n
     '''
 def toDisplay():
-    '''public IlvDoublePoints toDisplay(final IlvDoublePoints ilvDoublePoints, final int n, final double n2)
+    '''returns IlvDoublePoints\n\n
+    toDisplay(final IlvDoublePoints ilvDoublePoints, final int n, final double n2)\n
     '''
 def getZLayers():
-    '''public List<ZLayer> getZLayers()
+    '''returns List<ZLayer>\n\n
+    getZLayers()\n
     '''
 def getZMin():
-    '''public double getZMin()
+    '''returns double\n\n
+    getZMin()\n
     '''
 def getZMax():
-    '''public double getZMax()
+    '''returns double\n\n
+    getZMax()\n
     '''
 def getRenderers():
-    '''public List<IlvSingleChartRenderer> getRenderers()
+    '''returns List<IlvSingleChartRenderer>\n\n
+    getRenderers()\n
     '''

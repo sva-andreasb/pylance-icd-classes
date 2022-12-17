@@ -1,3 +1,4 @@
-def RedisArrayAggregator():
-    '''public RedisArrayAggregator()
+def ():
+    '''returns RedisArrayAggregator\n\n
+    ()\n
     '''

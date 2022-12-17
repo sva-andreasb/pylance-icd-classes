@@ -1,3 +1,4 @@
-def EvaluationException():
-    '''public EvaluationException(final String message)
+def ():
+    '''returns EvaluationException\n\n
+    (final String message)\n
     '''

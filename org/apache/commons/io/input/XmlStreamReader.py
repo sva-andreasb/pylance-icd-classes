@@ -1,23 +1,28 @@
 def getDefaultEncoding():
-    '''public String getDefaultEncoding()
+    '''returns String\n\n
+    getDefaultEncoding()\n
     '''
-def XmlStreamReader():
-    '''public XmlStreamReader(final File file)
-    public XmlStreamReader(final InputStream is)
-    public XmlStreamReader(final InputStream is, final boolean lenient)
-    public XmlStreamReader(final InputStream is, final boolean lenient, final String defaultEncoding)
-    public XmlStreamReader(final URL url)
-    public XmlStreamReader(final URLConnection conn, final String defaultEncoding)
-    public XmlStreamReader(final InputStream is, final String httpContentType)
-    public XmlStreamReader(final InputStream is, final String httpContentType, final boolean lenient, final String defaultEncoding)
-    public XmlStreamReader(final InputStream is, final String httpContentType, final boolean lenient)
+def ():
+    '''returns XmlStreamReader\n\n
+    (final File file)\n
+    (final InputStream is)\n
+    (final InputStream is, final boolean lenient)\n
+    (final InputStream is, final boolean lenient, final String defaultEncoding)\n
+    (final URL url)\n
+    (final URLConnection conn, final String defaultEncoding)\n
+    (final InputStream is, final String httpContentType)\n
+    (final InputStream is, final String httpContentType, final boolean lenient, final String defaultEncoding)\n
+    (final InputStream is, final String httpContentType, final boolean lenient)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def read():
-    '''public int read(final char[] buf, final int offset, final int len)
+    '''returns int\n\n
+    read(final char[] buf, final int offset, final int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

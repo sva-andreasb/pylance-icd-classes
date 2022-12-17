@@ -1,30 +1,40 @@
-def WorkItem():
-    '''public WorkItem()
+def ():
+    '''returns WorkItem\n\n
+    ()\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo info)
+    '''returns None\n\n
+    setUserInfo(final UserInfo info)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def clearWorkItem():
-    '''public void clearWorkItem()
+    '''returns None\n\n
+    clearWorkItem()\n
     '''
 def hasWork():
-    '''public boolean hasWork()
+    '''returns boolean\n\n
+    hasWork()\n
     '''
 def setWorkItem():
-    '''public void setWorkItem(final Object traversableItemsParm, final TraversalManager.Controller controller)
+    '''returns None\n\n
+    setWorkItem(final Object traversableItemsParm, final TraversalManager.Controller controller)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def setWorker():
-    '''public void setWorker(final TraversalManager.Worker worker)
+    '''returns None\n\n
+    setWorker(final TraversalManager.Worker worker)\n
     '''
 def removeWorker():
-    '''public void removeWorker(final TraversalManager.Worker worker)
+    '''returns None\n\n
+    removeWorker(final TraversalManager.Worker worker)\n
     '''

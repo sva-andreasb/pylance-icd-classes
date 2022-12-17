@@ -1,3 +1,4 @@
-def PlusPReconTaskSet():
-    '''public PlusPReconTaskSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPReconTaskSet\n\n
+    (final MboServerInterface arg0)\n
     '''

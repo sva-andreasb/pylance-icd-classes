@@ -1,122 +1,148 @@
-def readFrom():
-    '''public static DateTimeZone readFrom(final InputStream in, final String s)
-    public static DateTimeZone readFrom(final DataInput dataInput, final String s)
-    '''
-def DateTimeZoneBuilder():
-    '''public DateTimeZoneBuilder()
+def ():
+    '''returns DateTimeZoneBuilder\n\n
+    ()\n
     '''
 def addCutover():
-    '''public DateTimeZoneBuilder addCutover(final int n, final char c, final int n2, final int n3, final int n4, final boolean b, final int n5)
+    '''returns DateTimeZoneBuilder\n\n
+    addCutover(final int n, final char c, final int n2, final int n3, final int n4, final boolean b, final int n5)\n
     '''
 def setStandardOffset():
-    '''public DateTimeZoneBuilder setStandardOffset(final int standardOffset)
-    public void setStandardOffset(final int iStandardOffset)
+    '''returns None\n\n
+    setStandardOffset(final int standardOffset)\n
+    setStandardOffset(final int iStandardOffset)\n
     '''
 def setFixedSavings():
-    '''public DateTimeZoneBuilder setFixedSavings(final String s, final int n)
-    public void setFixedSavings(final String iInitialNameKey, final int iInitialSaveMillis)
+    '''returns None\n\n
+    setFixedSavings(final String s, final int n)\n
+    setFixedSavings(final String iInitialNameKey, final int iInitialSaveMillis)\n
     '''
 def addRecurringSavings():
-    '''public DateTimeZoneBuilder addRecurringSavings(final String s, final int n, final int n2, final int n3, final char c, final int n4, final int n5, final int n6, final boolean b, final int n7)
+    '''returns DateTimeZoneBuilder\n\n
+    addRecurringSavings(final String s, final int n, final int n2, final int n3, final char c, final int n4, final int n5, final int n6, final boolean b, final int n7)\n
     '''
 def toDateTimeZone():
-    '''public DateTimeZone toDateTimeZone(final String s, final boolean b)
+    '''returns DateTimeZone\n\n
+    toDateTimeZone(final String s, final boolean b)\n
     '''
 def writeTo():
-    '''public void writeTo(final String s, final OutputStream out)
-    public void writeTo(final String s, final DataOutput dataOutput)
-    public void writeTo(final DataOutput dataOutput)
-    public void writeTo(final DataOutput dataOutput)
-    public void writeTo(final DataOutput dataOutput)
-    public void writeTo(final DataOutput dataOutput)
+    '''returns None\n\n
+    writeTo(final String s, final OutputStream out)\n
+    writeTo(final String s, final DataOutput dataOutput)\n
+    writeTo(final DataOutput dataOutput)\n
+    writeTo(final DataOutput dataOutput)\n
+    writeTo(final DataOutput dataOutput)\n
+    writeTo(final DataOutput dataOutput)\n
     '''
 def setInstant():
-    '''public long setInstant(final int n, final int n2, final int n3)
+    '''returns long\n\n
+    setInstant(final int n, final int n2, final int n3)\n
     '''
 def next():
-    '''public long next(long n, final int n2, final int n3)
-    public long next(final long n, final int n2, final int n3)
-    public long next(final long n, final int n2, final int n3)
+    '''returns long\n\n
+    next(long n, final int n2, final int n3)\n
+    next(final long n, final int n2, final int n3)\n
+    next(final long n, final int n2, final int n3)\n
     '''
 def previous():
-    '''public long previous(long n, final int n2, final int n3)
-    public long previous(final long n, final int n2, final int n3)
+    '''returns long\n\n
+    previous(long n, final int n2, final int n3)\n
+    previous(final long n, final int n2, final int n3)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    public boolean equals(final Object o)
-    public boolean equals(final Object o)
-    public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
+    equals(final Object o)\n
+    equals(final Object o)\n
+    equals(final Object o)\n
     '''
 def getOfYear():
-    '''public OfYear getOfYear()
-    public OfYear getOfYear()
+    '''returns OfYear\n\n
+    getOfYear()\n
+    getOfYear()\n
     '''
 def getNameKey():
-    '''public String getNameKey()
-    public String getNameKey()
-    public String getNameKey()
-    public String getNameKey(final long n)
-    public String getNameKey(final long key)
+    '''returns String\n\n
+    getNameKey()\n
+    getNameKey()\n
+    getNameKey()\n
+    getNameKey(final long n)\n
+    getNameKey(final long key)\n
     '''
 def getSaveMillis():
-    '''public int getSaveMillis()
-    public int getSaveMillis()
-    public int getSaveMillis()
+    '''returns int\n\n
+    getSaveMillis()\n
+    getSaveMillis()\n
+    getSaveMillis()\n
     '''
 def getFromYear():
-    '''public int getFromYear()
+    '''returns int\n\n
+    getFromYear()\n
     '''
 def getToYear():
-    '''public int getToYear()
+    '''returns int\n\n
+    getToYear()\n
     '''
 def getMillis():
-    '''public long getMillis()
+    '''returns long\n\n
+    getMillis()\n
     '''
 def getWallOffset():
-    '''public int getWallOffset()
+    '''returns int\n\n
+    getWallOffset()\n
     '''
 def getStandardOffset():
-    '''public int getStandardOffset()
-    public int getStandardOffset()
-    public int getStandardOffset(final long n)
-    public int getStandardOffset(final long key)
+    '''returns int\n\n
+    getStandardOffset()\n
+    getStandardOffset()\n
+    getStandardOffset(final long n)\n
+    getStandardOffset(final long key)\n
     '''
 def isTransitionFrom():
-    '''public boolean isTransitionFrom(final Transition transition)
+    '''returns boolean\n\n
+    isTransitionFrom(final Transition transition)\n
     '''
 def addRule():
-    '''public void addRule(final Rule rule)
+    '''returns None\n\n
+    addRule(final Rule rule)\n
     '''
 def setUpperLimit():
-    '''public void setUpperLimit(final int iUpperYear, final OfYear iUpperOfYear)
+    '''returns None\n\n
+    setUpperLimit(final int iUpperYear, final OfYear iUpperOfYear)\n
     '''
 def firstTransition():
-    '''public Transition firstTransition(final long n)
+    '''returns Transition\n\n
+    firstTransition(final long n)\n
     '''
 def nextTransition():
-    '''public Transition nextTransition(final long n, final int n2)
-    public long nextTransition(final long n)
-    public long nextTransition(long key)
+    '''returns long\n\n
+    nextTransition(final long n, final int n2)\n
+    nextTransition(final long n)\n
+    nextTransition(long key)\n
     '''
 def getUpperLimit():
-    '''public long getUpperLimit(final int n)
+    '''returns long\n\n
+    getUpperLimit(final int n)\n
     '''
 def buildTailZone():
-    '''public DSTZone buildTailZone(final String s)
+    '''returns DSTZone\n\n
+    buildTailZone(final String s)\n
     '''
 def getOffset():
-    '''public int getOffset(final long n)
-    public int getOffset(final long key)
+    '''returns int\n\n
+    getOffset(final long n)\n
+    getOffset(final long key)\n
     '''
 def isFixed():
-    '''public boolean isFixed()
-    public boolean isFixed()
+    '''returns boolean\n\n
+    isFixed()\n
+    isFixed()\n
     '''
 def previousTransition():
-    '''public long previousTransition(long n)
-    public long previousTransition(final long key)
+    '''returns long\n\n
+    previousTransition(long n)\n
+    previousTransition(final long key)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''

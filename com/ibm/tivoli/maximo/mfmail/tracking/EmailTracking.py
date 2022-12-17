@@ -1,3 +1,4 @@
-def EmailTracking():
-    '''public EmailTracking(final MboSet ms)
+def ():
+    '''returns EmailTracking\n\n
+    (final MboSet ms)\n
     '''

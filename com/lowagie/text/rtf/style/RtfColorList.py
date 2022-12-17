@@ -1,9 +1,12 @@
-def RtfColorList():
-    '''public RtfColorList(final RtfDocument doc)
+def ():
+    '''returns RtfColorList\n\n
+    (final RtfDocument doc)\n
     '''
 def getColorNumber():
-    '''public int getColorNumber(final RtfColor color)
+    '''returns int\n\n
+    getColorNumber(final RtfColor color)\n
     '''
 def writeDefinition():
-    '''public byte[] writeDefinition()
+    '''returns byte[]\n\n
+    writeDefinition()\n
     '''

@@ -1,29 +1,38 @@
-def QName():
-    '''public QName()
-    public QName(final String namespaceURI, final String localPart)
-    public QName(final Node node)
+def ():
+    '''returns QName\n\n
+    ()\n
+    (final String namespaceURI, final String localPart)\n
+    (final Node node)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getLocalPart():
-    '''public String getLocalPart()
+    '''returns String\n\n
+    getLocalPart()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def matches():
-    '''public boolean matches(final Node node)
+    '''returns boolean\n\n
+    matches(final Node node)\n
     '''
 def setLocalPart():
-    '''public void setLocalPart(final String s)
+    '''returns None\n\n
+    setLocalPart(final String s)\n
     '''
 def setNamespaceURI():
-    '''public void setNamespaceURI(final String s)
+    '''returns None\n\n
+    setNamespaceURI(final String s)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

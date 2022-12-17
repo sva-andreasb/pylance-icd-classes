@@ -1,113 +1,149 @@
-def PagingManager():
-    '''public PagingManager()
-    public PagingManager(final Schedule schedule, final ActivityMaxDataManager manager, final ConstraintMaxDataManager constraintDataManager, final DataSpec dataSpec)
+def ():
+    '''returns PagingManager\n\n
+    ()\n
+    (final Schedule schedule, final ActivityMaxDataManager manager, final ConstraintMaxDataManager constraintDataManager, final DataSpec dataSpec)\n
     '''
 def dataSpecChanged():
-    '''public void dataSpecChanged(final DataSpec spec)
+    '''returns None\n\n
+    dataSpecChanged(final DataSpec spec)\n
     '''
 def invalidate():
-    '''public void invalidate()
+    '''returns None\n\n
+    invalidate()\n
     '''
 def clearCachedData():
-    '''public void clearCachedData()
+    '''returns None\n\n
+    clearCachedData()\n
     '''
 def getPageCount():
-    '''public int getPageCount()
+    '''returns int\n\n
+    getPageCount()\n
     '''
 def getComparePageCount():
-    '''public int getComparePageCount(final Schedule leftModel, final long rightModelId)
+    '''returns int\n\n
+    getComparePageCount(final Schedule leftModel, final long rightModelId)\n
     '''
 def getCompareRowCount():
-    '''public int getCompareRowCount(final Schedule leftModel, final long rightModelId)
+    '''returns int\n\n
+    getCompareRowCount(final Schedule leftModel, final long rightModelId)\n
     '''
 def setCompareRowCount():
-    '''public void setCompareRowCount(final int compareRowCount)
+    '''returns None\n\n
+    setCompareRowCount(final int compareRowCount)\n
     '''
 def setComparePageCount():
-    '''public void setComparePageCount(final int comparePageCount)
+    '''returns None\n\n
+    setComparePageCount(final int comparePageCount)\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def getChildrenRowCount():
-    '''public int getChildrenRowCount()
+    '''returns int\n\n
+    getChildrenRowCount()\n
     '''
 def setPage():
-    '''public void setPage(final int page)
+    '''returns None\n\n
+    setPage(final int page)\n
     '''
 def getPage():
-    '''public Page getPage()
-    public Page getPage(final int page)
-    public Page getPage(final List<String> activityIDs)
+    '''returns Page\n\n
+    getPage()\n
+    getPage(final int page)\n
+    getPage(final List<String> activityIDs)\n
     '''
 def getNextPage():
-    '''public Page getNextPage()
+    '''returns Page\n\n
+    getNextPage()\n
     '''
 def getPreviousPage():
-    '''public Page getPreviousPage()
+    '''returns Page\n\n
+    getPreviousPage()\n
     '''
 def getFlatPage():
-    '''public Page getFlatPage(final int page, final long otherProjectID)
+    '''returns Page\n\n
+    getFlatPage(final int page, final long otherProjectID)\n
     '''
 def loadDataObjects():
-    '''public JSONArray loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final long offsetRecord)
-    public JSONArray loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final List<String> activityIDs)
+    '''returns JSONArray\n\n
+    loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final long offsetRecord)\n
+    loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final List<String> activityIDs)\n
     '''
 def bulkLoadDataObjects():
-    '''public JSONArray bulkLoadDataObjects(final Schedule schedule, final DataSpec dataSpec, final long offsetRecord)
+    '''returns JSONArray\n\n
+    bulkLoadDataObjects(final Schedule schedule, final DataSpec dataSpec, final long offsetRecord)\n
     '''
 def loadMissingDataObjects():
-    '''public JSONArray loadMissingDataObjects(final Schedule leftModel, final long rightModelId)
+    '''returns JSONArray\n\n
+    loadMissingDataObjects(final Schedule leftModel, final long rightModelId)\n
     '''
 def initializeDataObjects():
-    '''public JSONArray initializeDataObjects(final long offsetRecord)
+    '''returns JSONArray\n\n
+    initializeDataObjects(final long offsetRecord)\n
     '''
 def getItemById():
-    '''public JSONObject getItemById(final String id)
+    '''returns JSONObject\n\n
+    getItemById(final String id)\n
     '''
 def getChildren():
-    '''public JSONArray getChildren(final Activity parentActivity, final boolean applyFilters)
-    public JSONArray getChildren(final Activity parentActivity, final boolean applyFilters, final Integer level)
+    '''returns JSONArray\n\n
+    getChildren(final Activity parentActivity, final boolean applyFilters)\n
+    getChildren(final Activity parentActivity, final boolean applyFilters, final Integer level)\n
     '''
 def fetchChildren():
-    '''public JSONArray fetchChildren(final Schedule schedule2, final DataSpec dataSpec2, final String internalID, final Long offset, final Integer level)
+    '''returns JSONArray\n\n
+    fetchChildren(final Schedule schedule2, final DataSpec dataSpec2, final String internalID, final Long offset, final Integer level)\n
     '''
 def addToCache():
-    '''public void addToCache(final Activity activity)
+    '''returns None\n\n
+    addToCache(final Activity activity)\n
     '''
 def applyConfigurationChanges():
-    '''public void applyConfigurationChanges(final JSONObject changes)
+    '''returns None\n\n
+    applyConfigurationChanges(final JSONObject changes)\n
     '''
 def getDataManager():
-    '''public ActivityMaxDataManager getDataManager()
+    '''returns ActivityMaxDataManager\n\n
+    getDataManager()\n
     '''
 def setDataManager():
-    '''public void setDataManager(final ActivityMaxDataManager dataManager)
+    '''returns None\n\n
+    setDataManager(final ActivityMaxDataManager dataManager)\n
     '''
 def getConstraintDataManager():
-    '''public ConstraintMaxDataManager getConstraintDataManager()
+    '''returns ConstraintMaxDataManager\n\n
+    getConstraintDataManager()\n
     '''
 def setConstraintDataManager():
-    '''public void setConstraintDataManager(final ConstraintMaxDataManager constraintDataManager)
+    '''returns None\n\n
+    setConstraintDataManager(final ConstraintMaxDataManager constraintDataManager)\n
     '''
 def getDataSpec():
-    '''public DataSpec getDataSpec()
+    '''returns DataSpec\n\n
+    getDataSpec()\n
     '''
 def setDataSpec():
-    '''public void setDataSpec(final DataSpec dataSpec)
+    '''returns None\n\n
+    setDataSpec(final DataSpec dataSpec)\n
     '''
 def getCurrentPage():
-    '''public int getCurrentPage()
+    '''returns int\n\n
+    getCurrentPage()\n
     '''
 def setCurrentPage():
-    '''public void setCurrentPage(final int currentPage)
+    '''returns None\n\n
+    setCurrentPage(final int currentPage)\n
     '''
 def rootChildenActivityIterator():
-    '''public Iterator<IMXActivity> rootChildenActivityIterator()
+    '''returns Iterator<IMXActivity>\n\n
+    rootChildenActivityIterator()\n
     '''
 def isContraintsEnabled():
-    '''public boolean isContraintsEnabled()
+    '''returns boolean\n\n
+    isContraintsEnabled()\n
     '''
 def setContraintsEnabled():
-    '''public void setContraintsEnabled(final boolean contraintsEnabled)
+    '''returns None\n\n
+    setContraintsEnabled(final boolean contraintsEnabled)\n
     '''

@@ -1,41 +1,34 @@
-def XMPPError():
-    '''public XMPPError(final Condition condition)
-    public XMPPError(final Condition condition, final String messageText)
-    public XMPPError(final int code)
-    public XMPPError(final int code, final String message)
-    public XMPPError(final int code, final Type type, final String condition, final String message, final List<PacketExtension> extension)
+def ():
+    '''returns Condition\n\n
+    (final Condition condition)\n
+    (final Condition condition, final String messageText)\n
+    (final int code)\n
+    (final int code, final String message)\n
+    (final int code, final Type type, final String condition, final String message, final List<PacketExtension> extension)\n
+    (final String value)\n
     '''
 def getCondition():
-    '''public String getCondition()
+    '''returns String\n\n
+    getCondition()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getCode():
-    '''public int getCode()
+    '''returns int\n\n
+    getCode()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def toXML():
-    '''public String toXML()
+    '''returns String\n\n
+    toXML()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def getExtensions():
-    '''public synchronized List<PacketExtension> getExtensions()
-    '''
-def getExtension():
-    '''public synchronized PacketExtension getExtension(final String elementName, final String namespace)
-    '''
-def addExtension():
-    '''public synchronized void addExtension(final PacketExtension extension)
-    '''
-def setExtension():
-    '''public synchronized void setExtension(final List<PacketExtension> extension)
-    '''
-def Condition():
-    '''public Condition(final String value)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

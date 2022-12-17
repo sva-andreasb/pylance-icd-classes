@@ -19,61 +19,80 @@ RETRY_HANDLER = "String  \"http.method.retry-handler\""
 BUFFER_WARN_TRIGGER_LIMIT = "String  \"http.method.response.buffer.warnlimit\""
 VIRTUAL_HOST = "String  \"http.virtual-host\""
 MULTIPART_BOUNDARY = "String  \"http.method.multipart.boundary\""
-def HttpMethodParams():
-    '''public HttpMethodParams()
-    public HttpMethodParams(final HttpParams defaults)
+def ():
+    '''returns HttpMethodParams\n\n
+    ()\n
+    (final HttpParams defaults)\n
     '''
 def getHttpElementCharset():
-    '''public String getHttpElementCharset()
+    '''returns String\n\n
+    getHttpElementCharset()\n
     '''
 def setHttpElementCharset():
-    '''public void setHttpElementCharset(final String charset)
+    '''returns None\n\n
+    setHttpElementCharset(final String charset)\n
     '''
 def getContentCharset():
-    '''public String getContentCharset()
+    '''returns String\n\n
+    getContentCharset()\n
     '''
 def setUriCharset():
-    '''public void setUriCharset(final String charset)
+    '''returns None\n\n
+    setUriCharset(final String charset)\n
     '''
 def getUriCharset():
-    '''public String getUriCharset()
+    '''returns String\n\n
+    getUriCharset()\n
     '''
 def setContentCharset():
-    '''public void setContentCharset(final String charset)
+    '''returns None\n\n
+    setContentCharset(final String charset)\n
     '''
 def getCredentialCharset():
-    '''public String getCredentialCharset()
+    '''returns String\n\n
+    getCredentialCharset()\n
     '''
 def setCredentialCharset():
-    '''public void setCredentialCharset(final String charset)
+    '''returns None\n\n
+    setCredentialCharset(final String charset)\n
     '''
 def getVersion():
-    '''public HttpVersion getVersion()
+    '''returns HttpVersion\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final HttpVersion version)
+    '''returns None\n\n
+    setVersion(final HttpVersion version)\n
     '''
 def getCookiePolicy():
-    '''public String getCookiePolicy()
+    '''returns String\n\n
+    getCookiePolicy()\n
     '''
 def setCookiePolicy():
-    '''public void setCookiePolicy(final String policy)
+    '''returns None\n\n
+    setCookiePolicy(final String policy)\n
     '''
 def getSoTimeout():
-    '''public int getSoTimeout()
+    '''returns int\n\n
+    getSoTimeout()\n
     '''
 def setSoTimeout():
-    '''public void setSoTimeout(final int timeout)
+    '''returns None\n\n
+    setSoTimeout(final int timeout)\n
     '''
 def setVirtualHost():
-    '''public void setVirtualHost(final String hostname)
+    '''returns None\n\n
+    setVirtualHost(final String hostname)\n
     '''
 def getVirtualHost():
-    '''public String getVirtualHost()
+    '''returns String\n\n
+    getVirtualHost()\n
     '''
 def makeStrict():
-    '''public void makeStrict()
+    '''returns None\n\n
+    makeStrict()\n
     '''
 def makeLenient():
-    '''public void makeLenient()
+    '''returns None\n\n
+    makeLenient()\n
     '''

@@ -1,9 +1,12 @@
-def Dummy_TableSet():
-    '''public Dummy_TableSet(final MboServerInterface ms)
+def ():
+    '''returns Dummy_TableSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

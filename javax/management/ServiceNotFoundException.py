@@ -1,4 +1,5 @@
-def ServiceNotFoundException():
-    '''public ServiceNotFoundException()
-    public ServiceNotFoundException(final String s)
+def ():
+    '''returns ServiceNotFoundException\n\n
+    ()\n
+    (final String s)\n
     '''

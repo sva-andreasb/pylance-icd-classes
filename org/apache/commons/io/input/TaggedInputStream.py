@@ -1,9 +1,12 @@
-def TaggedInputStream():
-    '''public TaggedInputStream(final InputStream proxy)
+def ():
+    '''returns TaggedInputStream\n\n
+    (final InputStream proxy)\n
     '''
 def isCauseOf():
-    '''public boolean isCauseOf(final Throwable exception)
+    '''returns boolean\n\n
+    isCauseOf(final Throwable exception)\n
     '''
 def throwIfCauseOf():
-    '''public void throwIfCauseOf(final Throwable throwable)
+    '''returns None\n\n
+    throwIfCauseOf(final Throwable throwable)\n
     '''

@@ -1,13 +1,17 @@
-def MessageLayout():
-    '''public MessageLayout()
-    public MessageLayout(final Configuration configuration, final byte[] header, final byte[] footer)
+def ():
+    '''returns MessageLayout\n\n
+    ()\n
+    (final Configuration configuration, final byte[] header, final byte[] footer)\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray(final LogEvent event)
+    '''returns byte[]\n\n
+    toByteArray(final LogEvent event)\n
     '''
 def toSerializable():
-    '''public Message toSerializable(final LogEvent event)
+    '''returns Message\n\n
+    toSerializable(final LogEvent event)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''

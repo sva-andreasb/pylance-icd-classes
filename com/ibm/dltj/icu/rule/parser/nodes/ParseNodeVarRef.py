@@ -1,15 +1,16 @@
-def getCopyright():
-    '''public static String getCopyright()
-    '''
 def setAssignment():
-    '''public void setAssignment(final boolean assignment)
+    '''returns None\n\n
+    setAssignment(final boolean assignment)\n
     '''
 def getStatementName():
-    '''public String getStatementName()
+    '''returns String\n\n
+    getStatementName()\n
     '''
 def flatten():
-    '''public void flatten(final StringBuffer sb)
+    '''returns None\n\n
+    flatten(final StringBuffer sb)\n
     '''
 def isType():
-    '''public boolean isType(final int n)
+    '''returns boolean\n\n
+    isType(final int n)\n
     '''

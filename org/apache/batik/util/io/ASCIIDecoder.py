@@ -1,6 +1,8 @@
-def ASCIIDecoder():
-    '''public ASCIIDecoder(final InputStream is)
+def ():
+    '''returns ASCIIDecoder\n\n
+    (final InputStream is)\n
     '''
 def readChar():
-    '''public int readChar()
+    '''returns int\n\n
+    readChar()\n
     '''

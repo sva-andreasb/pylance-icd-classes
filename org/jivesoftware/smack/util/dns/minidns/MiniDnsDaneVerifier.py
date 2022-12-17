@@ -1,6 +1,8 @@
 def init():
-    '''public void init(final SSLContext context, final KeyManager[] km, final X509TrustManager tm, final SecureRandom random)
+    '''returns None\n\n
+    init(final SSLContext context, final KeyManager[] km, final X509TrustManager tm, final SecureRandom random)\n
     '''
 def finish():
-    '''public void finish(final SSLSocket sslSocket)
+    '''returns None\n\n
+    finish(final SSLSocket sslSocket)\n
     '''

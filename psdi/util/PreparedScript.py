@@ -1,33 +1,36 @@
-def PreparedScript():
-    '''public PreparedScript(final String script)
+def ():
+    '''returns PreparedScript\n\n
+    (final String script)\n
     '''
 def eval():
-    '''public T eval()
+    '''returns T\n\n
+    eval()\n
     '''
 def setParameterValue():
-    '''public void setParameterValue(final String parameter, final Object value)
+    '''returns None\n\n
+    setParameterValue(final String parameter, final Object value)\n
     '''
 def getParametersName():
-    '''public Set<String> getParametersName()
+    '''returns Set<String>\n\n
+    getParametersName()\n
     '''
 def getParameter():
-    '''public Object getParameter(final String key)
-    '''
-def getStartDelimiter():
-    '''public static char getStartDelimiter()
-    '''
-def getEndDelimiter():
-    '''public static char getEndDelimiter()
+    '''returns Object\n\n
+    getParameter(final String key)\n
     '''
 def clearParameterValues():
-    '''public void clearParameterValues()
+    '''returns None\n\n
+    clearParameterValues()\n
     '''
 def paramIsFeature():
-    '''public boolean paramIsFeature(final String paramName)
+    '''returns boolean\n\n
+    paramIsFeature(final String paramName)\n
     '''
 def getFeaturesNames():
-    '''public Set<String> getFeaturesNames()
+    '''returns Set<String>\n\n
+    getFeaturesNames()\n
     '''
 def getFeatureParamNames():
-    '''public Set<String> getFeatureParamNames(final String featureName)
+    '''returns Set<String>\n\n
+    getFeatureParamNames(final String featureName)\n
     '''

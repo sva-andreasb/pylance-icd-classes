@@ -1,24 +1,28 @@
 def getFileDecriptorInfo():
-    '''public long[] getFileDecriptorInfo()
+    '''returns long[]\n\n
+    getFileDecriptorInfo()\n
     '''
 def getThreadCount():
-    '''public int getThreadCount()
+    '''returns int\n\n
+    getThreadCount()\n
     '''
 def getDaemonThreadCount():
-    '''public int getDaemonThreadCount()
+    '''returns int\n\n
+    getDaemonThreadCount()\n
     '''
 def getPeakThreadCount():
-    '''public int getPeakThreadCount()
+    '''returns int\n\n
+    getPeakThreadCount()\n
     '''
 def getTotalStartedThreadCount():
-    '''public long getTotalStartedThreadCount()
+    '''returns long\n\n
+    getTotalStartedThreadCount()\n
     '''
 def findDeadlockedThreads():
-    '''public long[] findDeadlockedThreads()
+    '''returns long[]\n\n
+    findDeadlockedThreads()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
-    '''
-def getJmxInfoProvider():
-    '''public static JmxInfoProvider getJmxInfoProvider()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''

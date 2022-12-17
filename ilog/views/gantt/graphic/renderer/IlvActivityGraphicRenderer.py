@@ -1,158 +1,196 @@
-def IlvActivityGraphicRenderer():
-    '''public IlvActivityGraphicRenderer(final IlvGraphic graphic)
+def ():
+    '''returns IlvActivityGraphicRenderer\n\n
+    (final IlvGraphic graphic)\n
     '''
 def getGraphic():
-    '''public IlvGraphic getGraphic()
+    '''returns IlvGraphic\n\n
+    getGraphic()\n
     '''
 def setGraphic():
-    '''public void setGraphic(final IlvGraphic ilvGraphic)
-    '''
-def getVisibilityProperty():
-    '''public final String getVisibilityProperty()
+    '''returns None\n\n
+    setGraphic(final IlvGraphic ilvGraphic)\n
     '''
 def setVisibilityProperty():
-    '''public void setVisibilityProperty(final String e)
-    '''
-def getStartTimeProperty():
-    '''public final String getStartTimeProperty()
+    '''returns None\n\n
+    setVisibilityProperty(final String e)\n
     '''
 def setStartTimeProperty():
-    '''public void setStartTimeProperty(final String f)
-    '''
-def getEndTimeProperty():
-    '''public final String getEndTimeProperty()
+    '''returns None\n\n
+    setStartTimeProperty(final String f)\n
     '''
 def setEndTimeProperty():
-    '''public void setEndTimeProperty(final String g)
+    '''returns None\n\n
+    setEndTimeProperty(final String g)\n
     '''
 def setForeground():
-    '''public void setForeground(final Color foreground)
+    '''returns None\n\n
+    setForeground(final Color foreground)\n
     '''
 def setBackground():
-    '''public void setBackground(final Color background)
+    '''returns None\n\n
+    setBackground(final Color background)\n
     '''
 def getTopMargin():
-    '''public float getTopMargin()
+    '''returns float\n\n
+    getTopMargin()\n
     '''
 def setTopMargin():
-    '''public void setTopMargin(final float h)
+    '''returns None\n\n
+    setTopMargin(final float h)\n
     '''
 def getBottomMargin():
-    '''public float getBottomMargin()
+    '''returns float\n\n
+    getBottomMargin()\n
     '''
 def setBottomMargin():
-    '''public void setBottomMargin(final float i)
-    '''
-def getBaseTextDirection():
-    '''public final int getBaseTextDirection()
-    public int getBaseTextDirection()
+    '''returns None\n\n
+    setBottomMargin(final float i)\n
     '''
 def setBaseTextDirection():
-    '''public void setBaseTextDirection(final int j)
-    public void setBaseTextDirection(final int n)
+    '''returns None\n\n
+    setBaseTextDirection(final int j)\n
+    setBaseTextDirection(final int n)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText()
-    public String getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns String\n\n
+    getToolTipText()\n
+    getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''
 def setToolTipText():
-    '''public void setToolTipText(final String k)
+    '''returns None\n\n
+    setToolTipText(final String k)\n
     '''
 def getStartTime():
-    '''public Date getStartTime(final IlvActivityGraphic ilvActivityGraphic)
+    '''returns Date\n\n
+    getStartTime(final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def getEndTime():
-    '''public Date getEndTime(final IlvActivityGraphic ilvActivityGraphic)
+    '''returns Date\n\n
+    getEndTime(final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def getDefinitionRect():
-    '''public IlvRect getDefinitionRect(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    getDefinitionRect(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''
 def getBounds():
-    '''public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''
 def contains():
-    '''public boolean contains(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    contains(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''
 def isRelayoutNeeded():
-    '''public boolean isRelayoutNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)
+    '''returns boolean\n\n
+    isRelayoutNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)\n
     '''
 def isRedrawNeeded():
-    '''public boolean isRedrawNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)
-    public boolean isRedrawNeeded(final ActivityEvent activityEvent)
+    '''returns boolean\n\n
+    isRedrawNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)\n
+    isRedrawNeeded(final ActivityEvent activityEvent)\n
     '''
 def isPropertyEditable():
-    '''public boolean isPropertyEditable(final String s)
+    '''returns boolean\n\n
+    isPropertyEditable(final String s)\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection(final IlvActivityGraphic ilvActivityGraphic)
+    '''returns IlvSelection\n\n
+    makeSelection(final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def createSelection():
-    '''public IlvSelection createSelection(final IlvActivityGraphic ilvActivityGraphic, final String[] array)
+    '''returns IlvSelection\n\n
+    createSelection(final IlvActivityGraphic ilvActivityGraphic, final String[] array)\n
     '''
 def setPopupMenu():
-    '''public void setPopupMenu(final JPopupMenu popupMenu)
+    '''returns None\n\n
+    setPopupMenu(final JPopupMenu popupMenu)\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)
+    '''returns JPopupMenu\n\n
+    getPopupMenu(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)\n
     '''
 def setPopupMenuName():
-    '''public void setPopupMenuName(final String l)
+    '''returns None\n\n
+    setPopupMenuName(final String l)\n
     '''
 def getPopupMenuName():
-    '''public String getPopupMenuName()
+    '''returns String\n\n
+    getPopupMenuName()\n
     '''
 def addObject():
-    '''public void addObject(final IlvGraphic ilvGraphic, final boolean b)
+    '''returns None\n\n
+    addObject(final IlvGraphic ilvGraphic, final boolean b)\n
     '''
 def removeObject():
-    '''public void removeObject(final IlvGraphic obj, final boolean b)
+    '''returns None\n\n
+    removeObject(final IlvGraphic obj, final boolean b)\n
     '''
 def getObjects():
-    '''public IlvGraphicEnumeration getObjects()
+    '''returns IlvGraphicEnumeration\n\n
+    getObjects()\n
     '''
 def reDrawObj():
-    '''public void reDrawObj(final IlvGraphic obj)
+    '''returns None\n\n
+    reDrawObj(final IlvGraphic obj)\n
     '''
 def reDrawRegion():
-    '''public void reDrawRegion(final IlvRegion ilvRegion)
+    '''returns None\n\n
+    reDrawRegion(final IlvRegion ilvRegion)\n
     '''
 def reshapeObject():
-    '''public void reshapeObject(final IlvGraphic ilvGraphic, final IlvRect ilvRect, final boolean b)
+    '''returns None\n\n
+    reshapeObject(final IlvGraphic ilvGraphic, final IlvRect ilvRect, final boolean b)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''
 def moveObject():
-    '''public void moveObject(final IlvGraphic ilvGraphic, final float n, final float n2, final boolean b)
+    '''returns None\n\n
+    moveObject(final IlvGraphic ilvGraphic, final float n, final float n2, final boolean b)\n
     '''
 def applyToObject():
-    '''public void applyToObject(final IlvGraphic ilvGraphic, final IlvApplyObject ilvApplyObject, final Object o, final boolean b)
+    '''returns None\n\n
+    applyToObject(final IlvGraphic ilvGraphic, final IlvApplyObject ilvApplyObject, final Object o, final boolean b)\n
     '''
 def setObjectName():
-    '''public boolean setObjectName(final IlvGraphic ilvGraphic, final String s)
+    '''returns boolean\n\n
+    setObjectName(final IlvGraphic ilvGraphic, final String s)\n
     '''
 def getObject():
-    '''public IlvGraphic getObject(final String s)
+    '''returns IlvGraphic\n\n
+    getObject(final String s)\n
     '''
 def getGraphicBag():
-    '''public IlvGraphicBag getGraphicBag()
+    '''returns IlvGraphicBag\n\n
+    getGraphicBag()\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def setULocale():
-    '''public void setULocale(final ULocale uLocale)
+    '''returns None\n\n
+    setULocale(final ULocale uLocale)\n
     '''
 def getComponentOrientation():
-    '''public ComponentOrientation getComponentOrientation()
+    '''returns ComponentOrientation\n\n
+    getComponentOrientation()\n
     '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
+    '''
+def getBaseTextDirection():
+    '''returns int\n\n
+    getBaseTextDirection()\n
     '''
 def getResolvedBaseTextDirection():
-    '''public int getResolvedBaseTextDirection()
+    '''returns int\n\n
+    getResolvedBaseTextDirection()\n
     '''

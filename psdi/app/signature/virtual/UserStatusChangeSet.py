@@ -1,6 +1,8 @@
-def UserStatusChangeSet():
-    '''public UserStatusChangeSet(final MboServerInterface ms)
+def ():
+    '''returns UserStatusChangeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

@@ -1,3 +1,4 @@
 def filter():
-    '''public BufferedImage filter(final BufferedImage src, BufferedImage dst)
+    '''returns BufferedImage\n\n
+    filter(final BufferedImage src, BufferedImage dst)\n
     '''

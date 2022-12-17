@@ -1,6 +1,8 @@
-def FldFlowActionAssist():
-    '''public FldFlowActionAssist(final MboValue mbv)
+def ():
+    '''returns FldFlowActionAssist\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

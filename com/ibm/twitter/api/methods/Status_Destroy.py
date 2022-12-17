@@ -1,6 +1,8 @@
-def Status_Destroy():
-    '''public Status_Destroy(final int i)
+def ():
+    '''returns Status_Destroy\n\n
+    (final int i)\n
     '''
 def getResult():
-    '''public Status getResult()
+    '''returns Status\n\n
+    getResult()\n
     '''

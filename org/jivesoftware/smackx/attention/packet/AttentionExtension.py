@@ -1,14 +1,18 @@
 ELEMENT_NAME = "String  \"attention\""
 NAMESPACE = "String  \"urn:xmpp:attention:0\""
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def parse():
-    '''public AttentionExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''returns AttentionExtension\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

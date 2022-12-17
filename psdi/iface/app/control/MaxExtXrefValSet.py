@@ -1,3 +1,4 @@
-def MaxExtXrefValSet():
-    '''public MaxExtXrefValSet(final MboServerInterface ms)
+def ():
+    '''returns MaxExtXrefValSet\n\n
+    (final MboServerInterface ms)\n
     '''

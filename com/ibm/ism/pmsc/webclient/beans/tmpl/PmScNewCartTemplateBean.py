@@ -1,12 +1,16 @@
-def PmScNewCartTemplateBean():
-    '''public PmScNewCartTemplateBean()
+def ():
+    '''returns PmScNewCartTemplateBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def createtemplate():
-    '''public int createtemplate()
+    '''returns int\n\n
+    createtemplate()\n
     '''
 def updatetemplate():
-    '''public int updatetemplate()
+    '''returns int\n\n
+    updatetemplate()\n
     '''

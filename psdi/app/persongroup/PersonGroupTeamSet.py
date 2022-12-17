@@ -1,6 +1,8 @@
-def PersonGroupTeamSet():
-    '''public PersonGroupTeamSet(final MboServerInterface ms)
+def ():
+    '''returns PersonGroupTeamSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setDBPersonGroupTeamSet():
-    '''public MboSetRemote setDBPersonGroupTeamSet(final MboRemote thisPersonGroupTeam)
+    '''returns MboSetRemote\n\n
+    setDBPersonGroupTeamSet(final MboRemote thisPersonGroupTeam)\n
     '''

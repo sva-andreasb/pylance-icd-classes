@@ -1,6 +1,8 @@
-def MaxExtSystemSet():
-    '''public MaxExtSystemSet(final MboServerInterface ms)
+def ():
+    '''returns MaxExtSystemSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

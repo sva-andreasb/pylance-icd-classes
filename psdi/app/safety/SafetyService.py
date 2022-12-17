@@ -1,19 +1,25 @@
-def SafetyService():
-    '''public SafetyService()
-    public SafetyService(final MXServer mxServer)
+def ():
+    '''returns SafetyService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def associateHazardToAsset():
-    '''public MboSetRemote associateHazardToAsset(final MboRemote assetMbo, MboSetRemote lexSet, final String hazardid)
+    '''returns MboSetRemote\n\n
+    associateHazardToAsset(final MboRemote assetMbo, MboSetRemote lexSet, final String hazardid)\n
     '''
 def removeHazardFromAsset():
-    '''public MboSetRemote removeHazardFromAsset(final MboRemote assetMbo, MboSetRemote lexSet, final String hazardid)
+    '''returns MboSetRemote\n\n
+    removeHazardFromAsset(final MboRemote assetMbo, MboSetRemote lexSet, final String hazardid)\n
     '''
 def associateTagOutToAsset():
-    '''public MboSetRemote associateTagOutToAsset(final MboRemote assetMbo, MboSetRemote lexSet, final String hazardid, final String tagoutid)
+    '''returns MboSetRemote\n\n
+    associateTagOutToAsset(final MboRemote assetMbo, MboSetRemote lexSet, final String hazardid, final String tagoutid)\n
     '''
 def removeTagOutFromAsset():
-    '''public MboSetRemote removeTagOutFromAsset(final MboRemote assetMbo, MboSetRemote lexSet, final String hazardid, final String tagoutid)
+    '''returns MboSetRemote\n\n
+    removeTagOutFromAsset(final MboRemote assetMbo, MboSetRemote lexSet, final String hazardid, final String tagoutid)\n
     '''
 def tagoutsMustBelongToHazards():
-    '''public boolean tagoutsMustBelongToHazards()
+    '''returns boolean\n\n
+    tagoutsMustBelongToHazards()\n
     '''

@@ -1,30 +1,40 @@
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String projectId)
+    '''returns None\n\n
+    setProjectId(final String projectId)\n
     '''
 def isProjectIdSpecified():
-    '''public boolean isProjectIdSpecified()
+    '''returns boolean\n\n
+    isProjectIdSpecified()\n
     '''
 def unsetProjectId():
-    '''public void unsetProjectId()
+    '''returns None\n\n
+    unsetProjectId()\n
     '''
 def getProjectName():
-    '''public String getProjectName()
+    '''returns String\n\n
+    getProjectName()\n
     '''
 def setProjectName():
-    '''public void setProjectName(final String projectName)
+    '''returns None\n\n
+    setProjectName(final String projectName)\n
     '''
 def isProjectNameSpecified():
-    '''public boolean isProjectNameSpecified()
+    '''returns boolean\n\n
+    isProjectNameSpecified()\n
     '''
 def unsetProjectName():
-    '''public void unsetProjectName()
+    '''returns None\n\n
+    unsetProjectName()\n
     '''
 def projectId():
-    '''public Mask projectId()
+    '''returns Mask\n\n
+    projectId()\n
     '''
 def projectName():
-    '''public Mask projectName()
+    '''returns Mask\n\n
+    projectName()\n
     '''

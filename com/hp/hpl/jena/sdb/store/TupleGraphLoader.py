@@ -1,33 +1,44 @@
-def TupleGraphLoader():
-    '''public TupleGraphLoader(final TupleLoader loader)
+def ():
+    '''returns TupleGraphLoader\n\n
+    (final TupleLoader loader)\n
     '''
 def addTriple():
-    '''public void addTriple(final Triple triple)
+    '''returns None\n\n
+    addTriple(final Triple triple)\n
     '''
 def deleteTriple():
-    '''public void deleteTriple(final Triple triple)
+    '''returns None\n\n
+    deleteTriple(final Triple triple)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def startBulkUpdate():
-    '''public void startBulkUpdate()
+    '''returns None\n\n
+    startBulkUpdate()\n
     '''
 def finishBulkUpdate():
-    '''public void finishBulkUpdate()
+    '''returns None\n\n
+    finishBulkUpdate()\n
     '''
 def getChunkSize():
-    '''public int getChunkSize()
+    '''returns int\n\n
+    getChunkSize()\n
     '''
 def setChunkSize():
-    '''public void setChunkSize(final int chunks)
+    '''returns None\n\n
+    setChunkSize(final int chunks)\n
     '''
 def getUseThreading():
-    '''public boolean getUseThreading()
+    '''returns boolean\n\n
+    getUseThreading()\n
     '''
 def setUseThreading():
-    '''public void setUseThreading(final boolean useThreading)
+    '''returns None\n\n
+    setUseThreading(final boolean useThreading)\n
     '''
 def deleteAll():
-    '''public void deleteAll()
+    '''returns None\n\n
+    deleteAll()\n
     '''

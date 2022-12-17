@@ -1,15 +1,16 @@
-def getInstance():
-    '''public static DiscoveryProtocolVersion getInstance(final int n)
-    '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

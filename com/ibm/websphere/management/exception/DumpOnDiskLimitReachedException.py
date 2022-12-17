@@ -1,3 +1,4 @@
-def DumpOnDiskLimitReachedException():
-    '''public DumpOnDiskLimitReachedException(final String s)
+def ():
+    '''returns DumpOnDiskLimitReachedException\n\n
+    (final String s)\n
     '''

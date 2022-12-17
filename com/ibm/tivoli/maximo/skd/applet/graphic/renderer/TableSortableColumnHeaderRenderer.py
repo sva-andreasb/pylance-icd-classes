@@ -1,9 +1,12 @@
-def TableSortableColumnHeaderRenderer():
-    '''public TableSortableColumnHeaderRenderer(final TableCellRenderer defaultRenderer)
+def ():
+    '''returns TableSortableColumnHeaderRenderer\n\n
+    (final TableCellRenderer defaultRenderer)\n
     '''
 def setSort():
-    '''public void setSort(final Object identifier)
+    '''returns None\n\n
+    setSort(final Object identifier)\n
     '''
 def getSort():
-    '''public Object getSort()
+    '''returns Object\n\n
+    getSort()\n
     '''

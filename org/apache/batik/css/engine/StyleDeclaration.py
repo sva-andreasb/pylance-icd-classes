@@ -1,27 +1,36 @@
-def StyleDeclaration():
-    '''public StyleDeclaration()
+def ():
+    '''returns StyleDeclaration\n\n
+    ()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getValue():
-    '''public Value getValue(final int idx)
+    '''returns Value\n\n
+    getValue(final int idx)\n
     '''
 def getIndex():
-    '''public int getIndex(final int idx)
+    '''returns int\n\n
+    getIndex(final int idx)\n
     '''
 def getPriority():
-    '''public boolean getPriority(final int idx)
+    '''returns boolean\n\n
+    getPriority(final int idx)\n
     '''
 def remove():
-    '''public void remove(final int idx)
+    '''returns None\n\n
+    remove(final int idx)\n
     '''
 def put():
-    '''public void put(final int idx, final Value v, final int i, final boolean prio)
+    '''returns None\n\n
+    put(final int idx, final Value v, final int i, final boolean prio)\n
     '''
 def append():
-    '''public void append(final Value v, final int idx, final boolean prio)
+    '''returns None\n\n
+    append(final Value v, final int idx, final boolean prio)\n
     '''
 def toString():
-    '''public String toString(final CSSEngine eng)
+    '''returns String\n\n
+    toString(final CSSEngine eng)\n
     '''

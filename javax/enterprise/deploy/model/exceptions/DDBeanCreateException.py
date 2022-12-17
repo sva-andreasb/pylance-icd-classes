@@ -1,4 +1,5 @@
-def DDBeanCreateException():
-    '''public DDBeanCreateException()
-    public DDBeanCreateException(final String msg)
+def ():
+    '''returns DDBeanCreateException\n\n
+    ()\n
+    (final String msg)\n
     '''

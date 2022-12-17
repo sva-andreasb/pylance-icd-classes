@@ -1,3 +1,4 @@
-def ReschedAssignSet():
-    '''public ReschedAssignSet(final MboServerInterface ms)
+def ():
+    '''returns ReschedAssignSet\n\n
+    (final MboServerInterface ms)\n
     '''

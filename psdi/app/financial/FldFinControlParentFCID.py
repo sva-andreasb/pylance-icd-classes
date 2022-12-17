@@ -1,6 +1,8 @@
-def FldFinControlParentFCID():
-    '''public FldFinControlParentFCID(final MboValue mbv)
+def ():
+    '''returns FldFinControlParentFCID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

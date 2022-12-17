@@ -1,4 +1,5 @@
-def InvalidConfigurationException():
-    '''public InvalidConfigurationException(final String message)
-    public InvalidConfigurationException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidConfigurationException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

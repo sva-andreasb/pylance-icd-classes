@@ -1,131 +1,171 @@
-def Elements():
-    '''public Elements()
-    public Elements(final int initialCapacity)
-    public Elements(final Collection<Element> elements)
-    public Elements(final List<Element> elements)
-    public Elements(final Element... elements)
+def ():
+    '''returns Elements\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final Collection<Element> elements)\n
+    (final List<Element> elements)\n
+    (final Element... elements)\n
     '''
 def clone():
-    '''public Elements clone()
+    '''returns Elements\n\n
+    clone()\n
     '''
 def attr():
-    '''public String attr(final String attributeKey)
-    public Elements attr(final String attributeKey, final String attributeValue)
+    '''returns Elements\n\n
+    attr(final String attributeKey)\n
+    attr(final String attributeKey, final String attributeValue)\n
     '''
 def hasAttr():
-    '''public boolean hasAttr(final String attributeKey)
+    '''returns boolean\n\n
+    hasAttr(final String attributeKey)\n
     '''
 def eachAttr():
-    '''public List<String> eachAttr(final String attributeKey)
+    '''returns List<String>\n\n
+    eachAttr(final String attributeKey)\n
     '''
 def removeAttr():
-    '''public Elements removeAttr(final String attributeKey)
+    '''returns Elements\n\n
+    removeAttr(final String attributeKey)\n
     '''
 def addClass():
-    '''public Elements addClass(final String className)
+    '''returns Elements\n\n
+    addClass(final String className)\n
     '''
 def removeClass():
-    '''public Elements removeClass(final String className)
+    '''returns Elements\n\n
+    removeClass(final String className)\n
     '''
 def toggleClass():
-    '''public Elements toggleClass(final String className)
+    '''returns Elements\n\n
+    toggleClass(final String className)\n
     '''
 def hasClass():
-    '''public boolean hasClass(final String className)
+    '''returns boolean\n\n
+    hasClass(final String className)\n
     '''
 def val():
-    '''public String val()
-    public Elements val(final String value)
+    '''returns Elements\n\n
+    val()\n
+    val(final String value)\n
     '''
 def text():
-    '''public String text()
+    '''returns String\n\n
+    text()\n
     '''
 def hasText():
-    '''public boolean hasText()
+    '''returns boolean\n\n
+    hasText()\n
     '''
 def eachText():
-    '''public List<String> eachText()
+    '''returns List<String>\n\n
+    eachText()\n
     '''
 def html():
-    '''public String html()
-    public Elements html(final String html)
+    '''returns Elements\n\n
+    html()\n
+    html(final String html)\n
     '''
 def outerHtml():
-    '''public String outerHtml()
+    '''returns String\n\n
+    outerHtml()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def tagName():
-    '''public Elements tagName(final String tagName)
+    '''returns Elements\n\n
+    tagName(final String tagName)\n
     '''
 def prepend():
-    '''public Elements prepend(final String html)
+    '''returns Elements\n\n
+    prepend(final String html)\n
     '''
 def append():
-    '''public Elements append(final String html)
+    '''returns Elements\n\n
+    append(final String html)\n
     '''
 def before():
-    '''public Elements before(final String html)
+    '''returns Elements\n\n
+    before(final String html)\n
     '''
 def after():
-    '''public Elements after(final String html)
+    '''returns Elements\n\n
+    after(final String html)\n
     '''
 def wrap():
-    '''public Elements wrap(final String html)
+    '''returns Elements\n\n
+    wrap(final String html)\n
     '''
 def unwrap():
-    '''public Elements unwrap()
+    '''returns Elements\n\n
+    unwrap()\n
     '''
 def empty():
-    '''public Elements empty()
+    '''returns Elements\n\n
+    empty()\n
     '''
 def remove():
-    '''public Elements remove()
+    '''returns Elements\n\n
+    remove()\n
     '''
 def select():
-    '''public Elements select(final String query)
+    '''returns Elements\n\n
+    select(final String query)\n
     '''
 def not():
-    '''public Elements not(final String query)
+    '''returns Elements\n\n
+    not(final String query)\n
     '''
 def eq():
-    '''public Elements eq(final int index)
+    '''returns Elements\n\n
+    eq(final int index)\n
     '''
 def is():
-    '''public boolean is(final String query)
+    '''returns boolean\n\n
+    is(final String query)\n
     '''
 def next():
-    '''public Elements next()
-    public Elements next(final String query)
+    '''returns Elements\n\n
+    next()\n
+    next(final String query)\n
     '''
 def nextAll():
-    '''public Elements nextAll()
-    public Elements nextAll(final String query)
+    '''returns Elements\n\n
+    nextAll()\n
+    nextAll(final String query)\n
     '''
 def prev():
-    '''public Elements prev()
-    public Elements prev(final String query)
+    '''returns Elements\n\n
+    prev()\n
+    prev(final String query)\n
     '''
 def prevAll():
-    '''public Elements prevAll()
-    public Elements prevAll(final String query)
+    '''returns Elements\n\n
+    prevAll()\n
+    prevAll(final String query)\n
     '''
 def parents():
-    '''public Elements parents()
+    '''returns Elements\n\n
+    parents()\n
     '''
 def first():
-    '''public Element first()
+    '''returns Element\n\n
+    first()\n
     '''
 def last():
-    '''public Element last()
+    '''returns Element\n\n
+    last()\n
     '''
 def traverse():
-    '''public Elements traverse(final NodeVisitor nodeVisitor)
+    '''returns Elements\n\n
+    traverse(final NodeVisitor nodeVisitor)\n
     '''
 def filter():
-    '''public Elements filter(final NodeFilter nodeFilter)
+    '''returns Elements\n\n
+    filter(final NodeFilter nodeFilter)\n
     '''
 def forms():
-    '''public List<FormElement> forms()
+    '''returns List<FormElement>\n\n
+    forms()\n
     '''

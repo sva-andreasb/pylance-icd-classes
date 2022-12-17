@@ -1,3 +1,4 @@
-def PlusPCustPayerSet():
-    '''public PlusPCustPayerSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustPayerSet\n\n
+    (final MboServerInterface ms)\n
     '''

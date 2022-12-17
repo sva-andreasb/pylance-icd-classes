@@ -1,9 +1,12 @@
-def IndexedPropertyList():
-    '''public IndexedPropertyList(final PropertyList<Property> list, final String parameterName)
+def ():
+    '''returns IndexedPropertyList\n\n
+    (final PropertyList<Property> list, final String parameterName)\n
     '''
 def getProperties():
-    '''public PropertyList<Property> getProperties(final String paramValue)
+    '''returns PropertyList<Property>\n\n
+    getProperties(final String paramValue)\n
     '''
 def getProperty():
-    '''public Property getProperty(final String paramValue)
+    '''returns Property\n\n
+    getProperty(final String paramValue)\n
     '''

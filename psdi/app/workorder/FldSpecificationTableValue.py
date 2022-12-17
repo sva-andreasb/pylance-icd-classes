@@ -1,3 +1,4 @@
-def FldSpecificationTableValue():
-    '''public FldSpecificationTableValue(final MboValue mbv)
+def ():
+    '''returns FldSpecificationTableValue\n\n
+    (final MboValue mbv)\n
     '''

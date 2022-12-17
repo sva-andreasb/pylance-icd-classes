@@ -1,33 +1,44 @@
-def VMMContextSettings():
-    '''public VMMContextSettings()
+def ():
+    '''returns VMMContextSettings\n\n
+    ()\n
     '''
 def getPrincipal():
-    '''public String getPrincipal()
+    '''returns String\n\n
+    getPrincipal()\n
     '''
 def setPrincipal():
-    '''public void setPrincipal(final String string)
+    '''returns None\n\n
+    setPrincipal(final String string)\n
     '''
 def getCredential():
-    '''public String getCredential()
+    '''returns String\n\n
+    getCredential()\n
     '''
 def setCredential():
-    '''public void setCredential(final String string)
+    '''returns None\n\n
+    setCredential(final String string)\n
     '''
 def getRealm():
-    '''public String getRealm()
+    '''returns String\n\n
+    getRealm()\n
     '''
 def setRealm():
-    '''public void setRealm(final String value)
+    '''returns None\n\n
+    setRealm(final String value)\n
     '''
 def getUserSearchAttribute():
-    '''public String getUserSearchAttribute()
+    '''returns String\n\n
+    getUserSearchAttribute()\n
     '''
 def setUserSearchAttribute():
-    '''public void setUserSearchAttribute(final String string)
+    '''returns None\n\n
+    setUserSearchAttribute(final String string)\n
     '''
 def getGroupSearchAttribute():
-    '''public String getGroupSearchAttribute()
+    '''returns String\n\n
+    getGroupSearchAttribute()\n
     '''
 def setGroupSearchAttribute():
-    '''public void setGroupSearchAttribute(final String string)
+    '''returns None\n\n
+    setGroupSearchAttribute(final String string)\n
     '''

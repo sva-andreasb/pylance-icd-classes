@@ -1,23 +1,21 @@
-def getInternalDebugLogger():
-    '''public static InternalDebugLogger getInternalDebugLogger(final String className)
-    '''
-def setDebugLogger():
-    '''public static void setDebugLogger(final DebugLogger debugLogger)
-    '''
 def debug():
-    '''public void debug(final String methodSignature, final String message)
-    public void debug(final String message)
+    '''returns None\n\n
+    debug(final String methodSignature, final String message)\n
+    debug(final String message)\n
     '''
 def info():
-    '''public void info(final String methodSignature, final String message)
-    public void info(final String message)
+    '''returns None\n\n
+    info(final String methodSignature, final String message)\n
+    info(final String message)\n
     '''
 def warn():
-    '''public void warn(final String methodSignature, final String message)
-    public void warn(final String message)
+    '''returns None\n\n
+    warn(final String methodSignature, final String message)\n
+    warn(final String message)\n
     '''
 def error():
-    '''public void error(final String methodSignature, final String message)
-    public void error(final String methodSignature, final String message, final Throwable exception)
-    public void error(final String message)
+    '''returns None\n\n
+    error(final String methodSignature, final String message)\n
+    error(final String methodSignature, final String message, final Throwable exception)\n
+    error(final String message)\n
     '''

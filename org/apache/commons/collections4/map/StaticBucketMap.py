@@ -1,81 +1,103 @@
-def StaticBucketMap():
-    '''public StaticBucketMap()
-    public StaticBucketMap(final int numBuckets)
+def ():
+    '''returns StaticBucketMap\n\n
+    ()\n
+    (final int numBuckets)\n
     '''
 def size():
-    '''public int size()
-    public int size()
-    public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
+    size()\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def remove():
-    '''public V remove(final Object key)
-    public void remove()
-    public boolean remove(final Object obj)
-    public boolean remove(final Object obj)
+    '''returns boolean\n\n
+    remove(final Object key)\n
+    remove()\n
+    remove(final Object obj)\n
+    remove(final Object obj)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> map)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> map)\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
-    public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
+    clear()\n
+    clear()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def atomic():
-    '''public void atomic(final Runnable r)
+    '''returns None\n\n
+    atomic(final Runnable r)\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V obj)
+    '''returns V\n\n
+    setValue(final V obj)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public V next()
-    public K next()
+    '''returns K\n\n
+    next()\n
+    next()\n
     '''
 def contains():
-    '''public boolean contains(final Object obj)
-    public boolean contains(final Object obj)
+    '''returns boolean\n\n
+    contains(final Object obj)\n
+    contains(final Object obj)\n
     '''
 def iterator():
-    '''public Iterator<K> iterator()
-    public Iterator<V> iterator()
+    '''returns Iterator<V>\n\n
+    iterator()\n
+    iterator()\n
     '''

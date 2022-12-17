@@ -1,42 +1,52 @@
-def createSession():
-    '''public static MediaSession createSession(final String localhost, final int localPort, final String remoteHost, final int remotePort, final MediaSessionListener eventHandler, final int quality, final boolean secure, final boolean micOn)
-    '''
-def AudioMediaSession():
-    '''public AudioMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final String locator, final JingleSession jingleSession)
+def ():
+    '''returns AudioMediaSession\n\n
+    (final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final String locator, final JingleSession jingleSession)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def startTrasmit():
-    '''public void startTrasmit()
+    '''returns None\n\n
+    startTrasmit()\n
     '''
 def startTransmit():
-    '''public void startTransmit()
+    '''returns None\n\n
+    startTransmit()\n
     '''
 def setTrasmit():
-    '''public void setTrasmit(final boolean active)
+    '''returns None\n\n
+    setTrasmit(final boolean active)\n
     '''
 def setTransmit():
-    '''public void setTransmit(final boolean active)
+    '''returns None\n\n
+    setTransmit(final boolean active)\n
     '''
 def startReceive():
-    '''public void startReceive()
+    '''returns None\n\n
+    startReceive()\n
     '''
 def stopTrasmit():
-    '''public void stopTrasmit()
+    '''returns None\n\n
+    stopTrasmit()\n
     '''
 def stopTransmit():
-    '''public void stopTransmit()
+    '''returns None\n\n
+    stopTransmit()\n
     '''
 def stopReceive():
-    '''public void stopReceive()
+    '''returns None\n\n
+    stopReceive()\n
     '''
 def newStreamIdentified():
-    '''public void newStreamIdentified(final StreamPlayer streamPlayer)
+    '''returns None\n\n
+    newStreamIdentified(final StreamPlayer streamPlayer)\n
     '''
 def senderReportReceived():
-    '''public void senderReportReceived(final SenderReport report)
+    '''returns None\n\n
+    senderReportReceived(final SenderReport report)\n
     '''
 def streamClosed():
-    '''public void streamClosed(final StreamPlayer stream, final boolean timeout)
+    '''returns None\n\n
+    streamClosed(final StreamPlayer stream, final boolean timeout)\n
     '''

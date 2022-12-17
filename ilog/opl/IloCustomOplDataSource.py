@@ -1,9 +1,12 @@
-def IloCustomOplDataSource():
-    '''public IloCustomOplDataSource(final IloOplFactory oplEnv)
+def ():
+    '''returns IloCustomOplDataSource\n\n
+    (final IloOplFactory oplEnv)\n
     '''
 def getDataHandler():
-    '''public IloOplDataHandler getDataHandler()
+    '''returns IloOplDataHandler\n\n
+    getDataHandler()\n
     '''
 def read():
-    '''public void read()
+    '''returns None\n\n
+    read()\n
     '''

@@ -1,42 +1,56 @@
-def RowExpandedEvent():
-    '''public RowExpandedEvent(final IlvGanttConfiguration source, final IlvHierarchyNode[] a, final IlvHierarchyNode[] b, final int c)
+def ():
+    '''returns RowExpandedEvent\n\n
+    (final IlvGanttConfiguration source, final IlvHierarchyNode[] a, final IlvHierarchyNode[] b, final int c)\n
     '''
 def getGanttConfiguration():
-    '''public IlvGanttConfiguration getGanttConfiguration()
+    '''returns IlvGanttConfiguration\n\n
+    getGanttConfiguration()\n
     '''
 def getGanttModel():
-    '''public IlvGanttModel getGanttModel()
+    '''returns IlvGanttModel\n\n
+    getGanttModel()\n
     '''
 def getExpandedNodes():
-    '''public IlvHierarchyNode[] getExpandedNodes()
+    '''returns IlvHierarchyNode[]\n\n
+    getExpandedNodes()\n
     '''
 def getExpandedNodeCount():
-    '''public int getExpandedNodeCount()
+    '''returns int\n\n
+    getExpandedNodeCount()\n
     '''
 def getFirstExpandedNode():
-    '''public IlvHierarchyNode getFirstExpandedNode()
+    '''returns IlvHierarchyNode\n\n
+    getFirstExpandedNode()\n
     '''
 def getLastExpandedNode():
-    '''public IlvHierarchyNode getLastExpandedNode()
+    '''returns IlvHierarchyNode\n\n
+    getLastExpandedNode()\n
     '''
 def getVisibleNodes():
-    '''public IlvHierarchyNode[] getVisibleNodes()
+    '''returns IlvHierarchyNode[]\n\n
+    getVisibleNodes()\n
     '''
 def getVisibleNodeCount():
-    '''public int getVisibleNodeCount()
+    '''returns int\n\n
+    getVisibleNodeCount()\n
     '''
 def getFirstVisibleNode():
-    '''public IlvHierarchyNode getFirstVisibleNode()
+    '''returns IlvHierarchyNode\n\n
+    getFirstVisibleNode()\n
     '''
 def getLastVisibleNode():
-    '''public IlvHierarchyNode getLastVisibleNode()
+    '''returns IlvHierarchyNode\n\n
+    getLastVisibleNode()\n
     '''
 def getVisibleRowCount():
-    '''public int getVisibleRowCount()
+    '''returns int\n\n
+    getVisibleRowCount()\n
     '''
 def getFirstVisibleRow():
-    '''public int getFirstVisibleRow()
+    '''returns int\n\n
+    getFirstVisibleRow()\n
     '''
 def getLastVisibleRow():
-    '''public int getLastVisibleRow()
+    '''returns int\n\n
+    getLastVisibleRow()\n
     '''

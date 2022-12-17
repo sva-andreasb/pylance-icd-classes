@@ -1,11 +1,14 @@
 READ = "int  1"
 WRITE = "int  2"
-def StreamCopyException():
-    '''public StreamCopyException(final int operation, final IOException cause)
+def ():
+    '''returns StreamCopyException\n\n
+    (final int operation, final IOException cause)\n
     '''
 def getOperation():
-    '''public int getOperation()
+    '''returns int\n\n
+    getOperation()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

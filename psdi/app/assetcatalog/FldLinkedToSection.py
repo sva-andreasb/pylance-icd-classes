@@ -1,6 +1,8 @@
-def FldLinkedToSection():
-    '''public FldLinkedToSection(final MboValue mbv)
+def ():
+    '''returns FldLinkedToSection\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

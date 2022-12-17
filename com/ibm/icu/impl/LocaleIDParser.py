@@ -1,49 +1,61 @@
-def LocaleIDParser():
-    '''public LocaleIDParser(final String localeID)
-    public LocaleIDParser(final String localeID, final boolean canonicalize)
+def ():
+    '''returns LocaleIDParser\n\n
+    (final String localeID)\n
+    (final String localeID, final boolean canonicalize)\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def getScript():
-    '''public String getScript()
+    '''returns String\n\n
+    getScript()\n
     '''
 def getCountry():
-    '''public String getCountry()
+    '''returns String\n\n
+    getCountry()\n
     '''
 def getVariant():
-    '''public String getVariant()
+    '''returns String\n\n
+    getVariant()\n
     '''
 def getLanguageScriptCountryVariant():
-    '''public String[] getLanguageScriptCountryVariant()
+    '''returns String[]\n\n
+    getLanguageScriptCountryVariant()\n
     '''
 def setBaseName():
-    '''public void setBaseName(final String baseName)
+    '''returns None\n\n
+    setBaseName(final String baseName)\n
     '''
 def parseBaseName():
-    '''public void parseBaseName()
+    '''returns None\n\n
+    parseBaseName()\n
     '''
 def getBaseName():
-    '''public String getBaseName()
+    '''returns String\n\n
+    getBaseName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def compare():
-    '''public int compare(final String lhs, final String rhs)
-    '''
-def getKeywordMap():
-    '''public Map<String, String> getKeywordMap()
+    '''returns int\n\n
+    compare(final String lhs, final String rhs)\n
     '''
 def getKeywords():
-    '''public Iterator<String> getKeywords()
+    '''returns Iterator<String>\n\n
+    getKeywords()\n
     '''
 def getKeywordValue():
-    '''public String getKeywordValue(final String keywordName)
+    '''returns String\n\n
+    getKeywordValue(final String keywordName)\n
     '''
 def defaultKeywordValue():
-    '''public void defaultKeywordValue(final String keywordName, final String value)
+    '''returns None\n\n
+    defaultKeywordValue(final String keywordName, final String value)\n
     '''
 def setKeywordValue():
-    '''public void setKeywordValue(final String keywordName, final String value)
+    '''returns None\n\n
+    setKeywordValue(final String keywordName, final String value)\n
     '''

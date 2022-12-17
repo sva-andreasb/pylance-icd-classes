@@ -1,9 +1,12 @@
-def PlusPFldCalcShift():
-    '''public PlusPFldCalcShift(final MboValue arg0)
+def ():
+    '''returns PlusPFldCalcShift\n\n
+    (final MboValue arg0)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,142 +1,184 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getBlockDeviceTemplateGroups():
-    '''public List<Group> getBlockDeviceTemplateGroups()
+    '''returns List<Group>\n\n
+    getBlockDeviceTemplateGroups()\n
     '''
 def getSoftwarePasswords():
-    '''public List<Password> getSoftwarePasswords()
+    '''returns List<Password>\n\n
+    getSoftwarePasswords()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getFingerprint():
-    '''public String getFingerprint()
+    '''returns String\n\n
+    getFingerprint()\n
     '''
 def setFingerprint():
-    '''public void setFingerprint(final String fingerprint)
+    '''returns None\n\n
+    setFingerprint(final String fingerprint)\n
     '''
 def isFingerprintSpecified():
-    '''public boolean isFingerprintSpecified()
+    '''returns boolean\n\n
+    isFingerprintSpecified()\n
     '''
 def unsetFingerprint():
-    '''public void unsetFingerprint()
+    '''returns None\n\n
+    unsetFingerprint()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def isKeySpecified():
-    '''public boolean isKeySpecified()
+    '''returns boolean\n\n
+    isKeySpecified()\n
     '''
 def unsetKey():
-    '''public void unsetKey()
+    '''returns None\n\n
+    unsetKey()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def isLabelSpecified():
-    '''public boolean isLabelSpecified()
+    '''returns boolean\n\n
+    isLabelSpecified()\n
     '''
 def unsetLabel():
-    '''public void unsetLabel()
+    '''returns None\n\n
+    unsetLabel()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getBlockDeviceTemplateGroupCount():
-    '''public Long getBlockDeviceTemplateGroupCount()
+    '''returns Long\n\n
+    getBlockDeviceTemplateGroupCount()\n
     '''
 def setBlockDeviceTemplateGroupCount():
-    '''public void setBlockDeviceTemplateGroupCount(final Long blockDeviceTemplateGroupCount)
+    '''returns None\n\n
+    setBlockDeviceTemplateGroupCount(final Long blockDeviceTemplateGroupCount)\n
     '''
 def getSoftwarePasswordCount():
-    '''public Long getSoftwarePasswordCount()
+    '''returns Long\n\n
+    getSoftwarePasswordCount()\n
     '''
 def setSoftwarePasswordCount():
-    '''public void setSoftwarePasswordCount(final Long softwarePasswordCount)
+    '''returns None\n\n
+    setSoftwarePasswordCount(final Long softwarePasswordCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def fingerprint():
-    '''public Mask fingerprint()
+    '''returns Mask\n\n
+    fingerprint()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def key():
-    '''public Mask key()
+    '''returns Mask\n\n
+    key()\n
     '''
 def label():
-    '''public Mask label()
+    '''returns Mask\n\n
+    label()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def blockDeviceTemplateGroupCount():
-    '''public Mask blockDeviceTemplateGroupCount()
+    '''returns Mask\n\n
+    blockDeviceTemplateGroupCount()\n
     '''
 def softwarePasswordCount():
-    '''public Mask softwarePasswordCount()
+    '''returns Mask\n\n
+    softwarePasswordCount()\n
     '''

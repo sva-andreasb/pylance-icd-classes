@@ -1,3 +1,4 @@
-def SDAOrgProp():
-    '''public SDAOrgProp(final MboSet ms)
+def ():
+    '''returns SDAOrgProp\n\n
+    (final MboSet ms)\n
     '''

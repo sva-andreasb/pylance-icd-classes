@@ -1,4 +1,5 @@
-def ApiConnectionFailureException():
-    '''public ApiConnectionFailureException()
-    public ApiConnectionFailureException(final Throwable cause)
+def ():
+    '''returns ApiConnectionFailureException\n\n
+    ()\n
+    (final Throwable cause)\n
     '''

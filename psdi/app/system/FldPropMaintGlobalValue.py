@@ -1,15 +1,20 @@
-def FldPropMaintGlobalValue():
-    '''public FldPropMaintGlobalValue(final MboValue mbv)
+def ():
+    '''returns FldPropMaintGlobalValue\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def setEditRules():
-    '''public void setEditRules()
+    '''returns None\n\n
+    setEditRules()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

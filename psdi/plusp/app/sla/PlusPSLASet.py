@@ -1,23 +1,30 @@
 def getTranslatedActiveStatus():
-    '''public String getTranslatedActiveStatus(final MboRemote mboRemote)
+    '''returns String\n\n
+    getTranslatedActiveStatus(final MboRemote mboRemote)\n
     '''
-def PlusPSLASet():
-    '''public PlusPSLASet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPSLASet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def getMatchSet():
-    '''public MboSetRemote getMatchSet(final MboRemote mboRemote)
+    '''returns MboSetRemote\n\n
+    getMatchSet(final MboRemote mboRemote)\n
     '''
 def apply():
-    '''public String[] apply(final MboRemote mboRemote)
-    public String[] apply(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''returns String[]\n\n
+    apply(final MboRemote mboRemote)\n
+    apply(final MboRemote mboRemote, final MboRemote mboRemote2)\n
     '''
 def getActiveStatus():
-    '''public String getActiveStatus()
+    '''returns String\n\n
+    getActiveStatus()\n
     '''
 def getWhereClause():
-    '''public String getWhereClause(final MboRemote mboRemote)
-    public String getWhereClause(final MboRemote mboRemote, final boolean b)
+    '''returns String\n\n
+    getWhereClause(final MboRemote mboRemote)\n
+    getWhereClause(final MboRemote mboRemote, final boolean b)\n
     '''
 def canAddMoreThanOneSLA():
-    '''public boolean canAddMoreThanOneSLA()
+    '''returns boolean\n\n
+    canAddMoreThanOneSLA()\n
     '''

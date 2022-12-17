@@ -1,18 +1,16 @@
-def formatProtocolVersion():
-    '''public static String formatProtocolVersion(final ProtocolVersion version, final LineFormatter formatter)
-    '''
 def appendProtocolVersion():
-    '''public CharArrayBuffer appendProtocolVersion(final CharArrayBuffer buffer, final ProtocolVersion version)
+    '''returns CharArrayBuffer\n\n
+    appendProtocolVersion(final CharArrayBuffer buffer, final ProtocolVersion version)\n
     '''
 def formatRequestLine():
-    '''public static String formatRequestLine(final RequestLine reqline, final LineFormatter formatter)
-    public CharArrayBuffer formatRequestLine(final CharArrayBuffer buffer, final RequestLine reqline)
+    '''returns CharArrayBuffer\n\n
+    formatRequestLine(final CharArrayBuffer buffer, final RequestLine reqline)\n
     '''
 def formatStatusLine():
-    '''public static String formatStatusLine(final StatusLine statline, final LineFormatter formatter)
-    public CharArrayBuffer formatStatusLine(final CharArrayBuffer buffer, final StatusLine statline)
+    '''returns CharArrayBuffer\n\n
+    formatStatusLine(final CharArrayBuffer buffer, final StatusLine statline)\n
     '''
 def formatHeader():
-    '''public static String formatHeader(final Header header, final LineFormatter formatter)
-    public CharArrayBuffer formatHeader(final CharArrayBuffer buffer, final Header header)
+    '''returns CharArrayBuffer\n\n
+    formatHeader(final CharArrayBuffer buffer, final Header header)\n
     '''

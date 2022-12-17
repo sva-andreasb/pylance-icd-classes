@@ -1,10 +1,13 @@
-def SKDResourceScheduleLogisticLayout():
-    '''public SKDResourceScheduleLogisticLayout(final int layoutMode)
+def ():
+    '''returns SKDResourceScheduleLogisticLayout\n\n
+    (final int layoutMode)\n
     '''
 def arrange():
-    '''public void arrange(final IlvGanttRow row, final IlvActivityGraphic[] graphics)
-    public void arrange(final IlvGanttRow row, final IlvActivityGraphic graphic)
+    '''returns None\n\n
+    arrange(final IlvGanttRow row, final IlvActivityGraphic[] graphics)\n
+    arrange(final IlvGanttRow row, final IlvActivityGraphic graphic)\n
     '''
 def compare():
-    '''public int compare(final IlvActivityGraphic ag1, final IlvActivityGraphic ag2)
+    '''returns int\n\n
+    compare(final IlvActivityGraphic ag1, final IlvActivityGraphic ag2)\n
     '''

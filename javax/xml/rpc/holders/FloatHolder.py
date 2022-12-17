@@ -1,4 +1,5 @@
-def FloatHolder():
-    '''public FloatHolder()
-    public FloatHolder(final float value)
+def ():
+    '''returns FloatHolder\n\n
+    ()\n
+    (final float myfloat)\n
     '''

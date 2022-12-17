@@ -1,3 +1,4 @@
-def ApplyNonWorkTime():
-    '''public ApplyNonWorkTime(final MboSet ms)
+def ():
+    '''returns ApplyNonWorkTime\n\n
+    (final MboSet ms)\n
     '''

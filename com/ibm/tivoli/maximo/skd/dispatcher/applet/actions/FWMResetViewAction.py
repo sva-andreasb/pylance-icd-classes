@@ -1,15 +1,19 @@
 def getShortDescription():
-    '''public String getShortDescription()
+    '''returns String\n\n
+    getShortDescription()\n
     '''
 def getLongDescription():
-    '''public String getLongDescription()
+    '''returns String\n\n
+    getLongDescription()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
-def FWMResetViewAction():
-    '''public FWMResetViewAction(final String arg0, final Icon arg1, final KeyStroke arg2, final String arg3, final String arg4)
-    public FWMResetViewAction(final String arg0, final Icon arg1, final KeyStroke arg2)
-    public FWMResetViewAction(final String arg0, final Icon arg1)
-    public FWMResetViewAction(final String arg0)
+def ():
+    '''returns FWMResetViewAction\n\n
+    (final String arg0, final Icon arg1, final KeyStroke arg2, final String arg3, final String arg4)\n
+    (final String arg0, final Icon arg1, final KeyStroke arg2)\n
+    (final String arg0, final Icon arg1)\n
+    (final String arg0)\n
     '''

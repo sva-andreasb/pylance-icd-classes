@@ -1,15 +1,12 @@
-def PmPriCatDialogBean():
-    '''public PmPriCatDialogBean()
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo()
+def ():
+    '''returns PmPriCatDialogBean\n\n
+    ()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

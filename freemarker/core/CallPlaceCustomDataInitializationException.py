@@ -1,3 +1,4 @@
-def CallPlaceCustomDataInitializationException():
-    '''public CallPlaceCustomDataInitializationException(final String message, final Throwable cause)
+def ():
+    '''returns CallPlaceCustomDataInitializationException\n\n
+    (final String message, final Throwable cause)\n
     '''

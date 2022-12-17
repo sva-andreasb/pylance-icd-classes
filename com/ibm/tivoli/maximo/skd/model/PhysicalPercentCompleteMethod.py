@@ -1,6 +1,8 @@
-def PhysicalPercentCompleteMethod():
-    '''public PhysicalPercentCompleteMethod(final UserInfo userInfo)
+def ():
+    '''returns PhysicalPercentCompleteMethod\n\n
+    (final UserInfo userInfo)\n
     '''
 def updatePercentCompleteItem():
-    '''public boolean updatePercentCompleteItem(final IMXActivity item)
+    '''returns boolean\n\n
+    updatePercentCompleteItem(final IMXActivity item)\n
     '''

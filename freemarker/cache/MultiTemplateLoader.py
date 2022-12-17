@@ -1,28 +1,37 @@
-def MultiTemplateLoader():
-    '''public MultiTemplateLoader(final TemplateLoader[] loaders)
+def ():
+    '''returns MultiTemplateLoader\n\n
+    (final TemplateLoader[] loaders)\n
     '''
 def findTemplateSource():
-    '''public Object findTemplateSource(final String name)
+    '''returns Object\n\n
+    findTemplateSource(final String name)\n
     '''
 def getLastModified():
-    '''public long getLastModified(final Object templateSource)
+    '''returns long\n\n
+    getLastModified(final Object templateSource)\n
     '''
 def getReader():
-    '''public Reader getReader(final Object templateSource, final String encoding)
+    '''returns Reader\n\n
+    getReader(final Object templateSource, final String encoding)\n
     '''
 def closeTemplateSource():
-    '''public void closeTemplateSource(final Object templateSource)
+    '''returns None\n\n
+    closeTemplateSource(final Object templateSource)\n
     '''
 def resetState():
-    '''public void resetState()
+    '''returns None\n\n
+    resetState()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

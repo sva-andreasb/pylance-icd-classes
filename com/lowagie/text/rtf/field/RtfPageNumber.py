@@ -1,6 +1,7 @@
-def RtfPageNumber():
-    '''public RtfPageNumber()
-    public RtfPageNumber(final Font font)
-    public RtfPageNumber(final RtfDocument doc)
-    public RtfPageNumber(final RtfDocument doc, final Font font)
+def ():
+    '''returns RtfPageNumber\n\n
+    ()\n
+    (final Font font)\n
+    (final RtfDocument doc)\n
+    (final RtfDocument doc, final Font font)\n
     '''

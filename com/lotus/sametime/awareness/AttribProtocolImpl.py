@@ -1,19 +1,25 @@
-def AttribProtocolImpl():
-    '''public AttribProtocolImpl(final AwarenessImpl wioImpl)
+def ():
+    '''returns AttribProtocolImpl\n\n
+    (final AwarenessImpl wioImpl)\n
     '''
 def processSTEvent():
-    '''public void processSTEvent(final STEvent stEvent)
+    '''returns None\n\n
+    processSTEvent(final STEvent stEvent)\n
     '''
 def handleMsg():
-    '''public void handleMsg(final short n, final byte[] array, final boolean b)
+    '''returns None\n\n
+    handleMsg(final short n, final byte[] array, final boolean b)\n
     '''
 def setFilter():
-    '''public void setFilter()
+    '''returns None\n\n
+    setFilter()\n
     '''
 def sendAttributesSnapshot():
-    '''public void sendAttributesSnapshot(final STWatchedObject stWatchedObject, final Integer n)
-    public void sendAttributesSnapshot(final Vector vector)
+    '''returns None\n\n
+    sendAttributesSnapshot(final STWatchedObject stWatchedObject, final Integer n)\n
+    sendAttributesSnapshot(final Vector vector)\n
     '''
 def resendAttributes():
-    '''public void resendAttributes()
+    '''returns None\n\n
+    resendAttributes()\n
     '''

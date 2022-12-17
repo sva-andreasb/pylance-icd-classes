@@ -1,266 +1,335 @@
 def setEndpoint():
-    '''public void setEndpoint(final String endpoint)
+    '''returns None\n\n
+    setEndpoint(final String endpoint)\n
     '''
 def setRegion():
-    '''public void setRegion(final Region region)
+    '''returns None\n\n
+    setRegion(final Region region)\n
     '''
 def setS3ClientOptions():
-    '''public void setS3ClientOptions(final S3ClientOptions clientOptions)
+    '''returns None\n\n
+    setS3ClientOptions(final S3ClientOptions clientOptions)\n
     '''
 def changeObjectStorageClass():
-    '''public void changeObjectStorageClass(final String bucketName, final String key, final StorageClass newStorageClass)
+    '''returns None\n\n
+    changeObjectStorageClass(final String bucketName, final String key, final StorageClass newStorageClass)\n
     '''
 def setObjectRedirectLocation():
-    '''public void setObjectRedirectLocation(final String bucketName, final String key, final String newRedirectLocation)
+    '''returns None\n\n
+    setObjectRedirectLocation(final String bucketName, final String key, final String newRedirectLocation)\n
     '''
 def listObjects():
-    '''public ObjectListing listObjects(final String bucketName)
-    public ObjectListing listObjects(final String bucketName, final String prefix)
-    public ObjectListing listObjects(final ListObjectsRequest listObjectsRequest)
+    '''returns ObjectListing\n\n
+    listObjects(final String bucketName)\n
+    listObjects(final String bucketName, final String prefix)\n
+    listObjects(final ListObjectsRequest listObjectsRequest)\n
     '''
 def listObjectsV2():
-    '''public ListObjectsV2Result listObjectsV2(final String bucketName)
-    public ListObjectsV2Result listObjectsV2(final String bucketName, final String prefix)
-    public ListObjectsV2Result listObjectsV2(final ListObjectsV2Request listObjectsV2Request)
+    '''returns ListObjectsV2Result\n\n
+    listObjectsV2(final String bucketName)\n
+    listObjectsV2(final String bucketName, final String prefix)\n
+    listObjectsV2(final ListObjectsV2Request listObjectsV2Request)\n
     '''
 def listNextBatchOfObjects():
-    '''public ObjectListing listNextBatchOfObjects(final ObjectListing previousObjectListing)
-    public ObjectListing listNextBatchOfObjects(final ListNextBatchOfObjectsRequest listNextBatchOfObjectsRequest)
+    '''returns ObjectListing\n\n
+    listNextBatchOfObjects(final ObjectListing previousObjectListing)\n
+    listNextBatchOfObjects(final ListNextBatchOfObjectsRequest listNextBatchOfObjectsRequest)\n
     '''
 def listVersions():
-    '''public VersionListing listVersions(final String bucketName, final String prefix)
-    public VersionListing listVersions(final String bucketName, final String prefix, final String keyMarker, final String versionIdMarker, final String delimiter, final Integer maxResults)
-    public VersionListing listVersions(final ListVersionsRequest listVersionsRequest)
+    '''returns VersionListing\n\n
+    listVersions(final String bucketName, final String prefix)\n
+    listVersions(final String bucketName, final String prefix, final String keyMarker, final String versionIdMarker, final String delimiter, final Integer maxResults)\n
+    listVersions(final ListVersionsRequest listVersionsRequest)\n
     '''
 def listNextBatchOfVersions():
-    '''public VersionListing listNextBatchOfVersions(final VersionListing previousVersionListing)
-    public VersionListing listNextBatchOfVersions(final ListNextBatchOfVersionsRequest listNextBatchOfVersionsRequest)
+    '''returns VersionListing\n\n
+    listNextBatchOfVersions(final VersionListing previousVersionListing)\n
+    listNextBatchOfVersions(final ListNextBatchOfVersionsRequest listNextBatchOfVersionsRequest)\n
     '''
 def getS3AccountOwner():
-    '''public Owner getS3AccountOwner()
-    public Owner getS3AccountOwner(final GetS3AccountOwnerRequest getS3AccountOwnerRequest)
+    '''returns Owner\n\n
+    getS3AccountOwner()\n
+    getS3AccountOwner(final GetS3AccountOwnerRequest getS3AccountOwnerRequest)\n
     '''
 def doesBucketExist():
-    '''public boolean doesBucketExist(final String bucketName)
+    '''returns boolean\n\n
+    doesBucketExist(final String bucketName)\n
     '''
 def headBucket():
-    '''public HeadBucketResult headBucket(final HeadBucketRequest headBucketRequest)
+    '''returns HeadBucketResult\n\n
+    headBucket(final HeadBucketRequest headBucketRequest)\n
     '''
 def listBuckets():
-    '''public List<Bucket> listBuckets()
-    public List<Bucket> listBuckets(final ListBucketsRequest listBucketsRequest)
+    '''returns List<Bucket>\n\n
+    listBuckets()\n
+    listBuckets(final ListBucketsRequest listBucketsRequest)\n
     '''
 def getBucketLocation():
-    '''public String getBucketLocation(final String bucketName)
-    public String getBucketLocation(final GetBucketLocationRequest getBucketLocationRequest)
+    '''returns String\n\n
+    getBucketLocation(final String bucketName)\n
+    getBucketLocation(final GetBucketLocationRequest getBucketLocationRequest)\n
     '''
 def createBucket():
-    '''public Bucket createBucket(final CreateBucketRequest createBucketRequest)
-    public Bucket createBucket(final String bucketName)
-    public Bucket createBucket(final String bucketName, final com.amazonaws.services.s3.model.Region region)
-    public Bucket createBucket(final String bucketName, final String region)
+    '''returns Bucket\n\n
+    createBucket(final CreateBucketRequest createBucketRequest)\n
+    createBucket(final String bucketName)\n
+    createBucket(final String bucketName, final com.amazonaws.services.s3.model.Region region)\n
+    createBucket(final String bucketName, final String region)\n
     '''
 def getObjectAcl():
-    '''public AccessControlList getObjectAcl(final String bucketName, final String key)
-    public AccessControlList getObjectAcl(final String bucketName, final String key, final String versionId)
-    public AccessControlList getObjectAcl(final GetObjectAclRequest getObjectAclRequest)
+    '''returns AccessControlList\n\n
+    getObjectAcl(final String bucketName, final String key)\n
+    getObjectAcl(final String bucketName, final String key, final String versionId)\n
+    getObjectAcl(final GetObjectAclRequest getObjectAclRequest)\n
     '''
 def setObjectAcl():
-    '''public void setObjectAcl(final String bucketName, final String key, final AccessControlList acl)
-    public void setObjectAcl(final String bucketName, final String key, final CannedAccessControlList acl)
-    public void setObjectAcl(final String bucketName, final String key, final String versionId, final AccessControlList acl)
-    public void setObjectAcl(final String bucketName, final String key, final String versionId, final CannedAccessControlList acl)
-    public void setObjectAcl(final SetObjectAclRequest setObjectAclRequest)
+    '''returns None\n\n
+    setObjectAcl(final String bucketName, final String key, final AccessControlList acl)\n
+    setObjectAcl(final String bucketName, final String key, final CannedAccessControlList acl)\n
+    setObjectAcl(final String bucketName, final String key, final String versionId, final AccessControlList acl)\n
+    setObjectAcl(final String bucketName, final String key, final String versionId, final CannedAccessControlList acl)\n
+    setObjectAcl(final SetObjectAclRequest setObjectAclRequest)\n
     '''
 def getBucketAcl():
-    '''public AccessControlList getBucketAcl(final String bucketName)
-    public AccessControlList getBucketAcl(final GetBucketAclRequest getBucketAclRequest)
+    '''returns AccessControlList\n\n
+    getBucketAcl(final String bucketName)\n
+    getBucketAcl(final GetBucketAclRequest getBucketAclRequest)\n
     '''
 def setBucketAcl():
-    '''public void setBucketAcl(final String bucketName, final AccessControlList acl)
-    public void setBucketAcl(final String bucketName, final CannedAccessControlList cannedAcl)
-    public void setBucketAcl(final SetBucketAclRequest setBucketAclRequest)
+    '''returns None\n\n
+    setBucketAcl(final String bucketName, final AccessControlList acl)\n
+    setBucketAcl(final String bucketName, final CannedAccessControlList cannedAcl)\n
+    setBucketAcl(final SetBucketAclRequest setBucketAclRequest)\n
     '''
 def getObjectMetadata():
-    '''public ObjectMetadata getObjectMetadata(final String bucketName, final String key)
-    public ObjectMetadata getObjectMetadata(final GetObjectMetadataRequest getObjectMetadataRequest)
+    '''returns ObjectMetadata\n\n
+    getObjectMetadata(final String bucketName, final String key)\n
+    getObjectMetadata(final GetObjectMetadataRequest getObjectMetadataRequest)\n
     '''
 def getObject():
-    '''public S3Object getObject(final String bucketName, final String key)
-    public S3Object getObject(final GetObjectRequest getObjectRequest)
-    public ObjectMetadata getObject(final GetObjectRequest getObjectRequest, final File destinationFile)
+    '''returns ObjectMetadata\n\n
+    getObject(final String bucketName, final String key)\n
+    getObject(final GetObjectRequest getObjectRequest)\n
+    getObject(final GetObjectRequest getObjectRequest, final File destinationFile)\n
     '''
 def deleteBucket():
-    '''public void deleteBucket(final String bucketName)
-    public void deleteBucket(final DeleteBucketRequest deleteBucketRequest)
+    '''returns None\n\n
+    deleteBucket(final String bucketName)\n
+    deleteBucket(final DeleteBucketRequest deleteBucketRequest)\n
     '''
 def putObject():
-    '''public PutObjectResult putObject(final String bucketName, final String key, final File file)
-    public PutObjectResult putObject(final String bucketName, final String key, final InputStream input, final ObjectMetadata metadata)
-    public PutObjectResult putObject(final PutObjectRequest putObjectRequest)
+    '''returns PutObjectResult\n\n
+    putObject(final String bucketName, final String key, final File file)\n
+    putObject(final String bucketName, final String key, final InputStream input, final ObjectMetadata metadata)\n
+    putObject(final PutObjectRequest putObjectRequest)\n
     '''
 def copyObject():
-    '''public CopyObjectResult copyObject(final String sourceBucketName, final String sourceKey, final String destinationBucketName, final String destinationKey)
-    public CopyObjectResult copyObject(final CopyObjectRequest copyObjectRequest)
+    '''returns CopyObjectResult\n\n
+    copyObject(final String sourceBucketName, final String sourceKey, final String destinationBucketName, final String destinationKey)\n
+    copyObject(final CopyObjectRequest copyObjectRequest)\n
     '''
 def copyPart():
-    '''public CopyPartResult copyPart(final CopyPartRequest copyPartRequest)
+    '''returns CopyPartResult\n\n
+    copyPart(final CopyPartRequest copyPartRequest)\n
     '''
 def deleteObject():
-    '''public void deleteObject(final String bucketName, final String key)
-    public void deleteObject(final DeleteObjectRequest deleteObjectRequest)
+    '''returns None\n\n
+    deleteObject(final String bucketName, final String key)\n
+    deleteObject(final DeleteObjectRequest deleteObjectRequest)\n
     '''
 def deleteObjects():
-    '''public DeleteObjectsResult deleteObjects(final DeleteObjectsRequest deleteObjectsRequest)
+    '''returns DeleteObjectsResult\n\n
+    deleteObjects(final DeleteObjectsRequest deleteObjectsRequest)\n
     '''
 def deleteVersion():
-    '''public void deleteVersion(final String bucketName, final String key, final String versionId)
-    public void deleteVersion(final DeleteVersionRequest deleteVersionRequest)
+    '''returns None\n\n
+    deleteVersion(final String bucketName, final String key, final String versionId)\n
+    deleteVersion(final DeleteVersionRequest deleteVersionRequest)\n
     '''
 def getBucketLoggingConfiguration():
-    '''public BucketLoggingConfiguration getBucketLoggingConfiguration(final String bucketName)
-    public BucketLoggingConfiguration getBucketLoggingConfiguration(final GetBucketLoggingConfigurationRequest getBucketLoggingConfigurationRequest)
+    '''returns BucketLoggingConfiguration\n\n
+    getBucketLoggingConfiguration(final String bucketName)\n
+    getBucketLoggingConfiguration(final GetBucketLoggingConfigurationRequest getBucketLoggingConfigurationRequest)\n
     '''
 def setBucketLoggingConfiguration():
-    '''public void setBucketLoggingConfiguration(final SetBucketLoggingConfigurationRequest setBucketLoggingConfigurationRequest)
+    '''returns None\n\n
+    setBucketLoggingConfiguration(final SetBucketLoggingConfigurationRequest setBucketLoggingConfigurationRequest)\n
     '''
 def getBucketVersioningConfiguration():
-    '''public BucketVersioningConfiguration getBucketVersioningConfiguration(final String bucketName)
-    public BucketVersioningConfiguration getBucketVersioningConfiguration(final GetBucketVersioningConfigurationRequest getBucketVersioningConfigurationRequest)
+    '''returns BucketVersioningConfiguration\n\n
+    getBucketVersioningConfiguration(final String bucketName)\n
+    getBucketVersioningConfiguration(final GetBucketVersioningConfigurationRequest getBucketVersioningConfigurationRequest)\n
     '''
 def setBucketVersioningConfiguration():
-    '''public void setBucketVersioningConfiguration(final SetBucketVersioningConfigurationRequest setBucketVersioningConfigurationRequest)
+    '''returns None\n\n
+    setBucketVersioningConfiguration(final SetBucketVersioningConfigurationRequest setBucketVersioningConfigurationRequest)\n
     '''
 def getBucketLifecycleConfiguration():
-    '''public BucketLifecycleConfiguration getBucketLifecycleConfiguration(final String bucketName)
-    public BucketLifecycleConfiguration getBucketLifecycleConfiguration(final GetBucketLifecycleConfigurationRequest getBucketLifecycleConfigurationRequest)
+    '''returns BucketLifecycleConfiguration\n\n
+    getBucketLifecycleConfiguration(final String bucketName)\n
+    getBucketLifecycleConfiguration(final GetBucketLifecycleConfigurationRequest getBucketLifecycleConfigurationRequest)\n
     '''
 def setBucketLifecycleConfiguration():
-    '''public void setBucketLifecycleConfiguration(final String bucketName, final BucketLifecycleConfiguration bucketLifecycleConfiguration)
-    public void setBucketLifecycleConfiguration(final SetBucketLifecycleConfigurationRequest setBucketLifecycleConfigurationRequest)
+    '''returns None\n\n
+    setBucketLifecycleConfiguration(final String bucketName, final BucketLifecycleConfiguration bucketLifecycleConfiguration)\n
+    setBucketLifecycleConfiguration(final SetBucketLifecycleConfigurationRequest setBucketLifecycleConfigurationRequest)\n
     '''
 def deleteBucketLifecycleConfiguration():
-    '''public void deleteBucketLifecycleConfiguration(final String bucketName)
-    public void deleteBucketLifecycleConfiguration(final DeleteBucketLifecycleConfigurationRequest deleteBucketLifecycleConfigurationRequest)
+    '''returns None\n\n
+    deleteBucketLifecycleConfiguration(final String bucketName)\n
+    deleteBucketLifecycleConfiguration(final DeleteBucketLifecycleConfigurationRequest deleteBucketLifecycleConfigurationRequest)\n
     '''
 def getBucketCrossOriginConfiguration():
-    '''public BucketCrossOriginConfiguration getBucketCrossOriginConfiguration(final String bucketName)
-    public BucketCrossOriginConfiguration getBucketCrossOriginConfiguration(final GetBucketCrossOriginConfigurationRequest getBucketCrossOriginConfigurationRequest)
+    '''returns BucketCrossOriginConfiguration\n\n
+    getBucketCrossOriginConfiguration(final String bucketName)\n
+    getBucketCrossOriginConfiguration(final GetBucketCrossOriginConfigurationRequest getBucketCrossOriginConfigurationRequest)\n
     '''
 def setBucketCrossOriginConfiguration():
-    '''public void setBucketCrossOriginConfiguration(final String bucketName, final BucketCrossOriginConfiguration bucketCrossOriginConfiguration)
-    public void setBucketCrossOriginConfiguration(final SetBucketCrossOriginConfigurationRequest setBucketCrossOriginConfigurationRequest)
+    '''returns None\n\n
+    setBucketCrossOriginConfiguration(final String bucketName, final BucketCrossOriginConfiguration bucketCrossOriginConfiguration)\n
+    setBucketCrossOriginConfiguration(final SetBucketCrossOriginConfigurationRequest setBucketCrossOriginConfigurationRequest)\n
     '''
 def deleteBucketCrossOriginConfiguration():
-    '''public void deleteBucketCrossOriginConfiguration(final String bucketName)
-    public void deleteBucketCrossOriginConfiguration(final DeleteBucketCrossOriginConfigurationRequest deleteBucketCrossOriginConfigurationRequest)
+    '''returns None\n\n
+    deleteBucketCrossOriginConfiguration(final String bucketName)\n
+    deleteBucketCrossOriginConfiguration(final DeleteBucketCrossOriginConfigurationRequest deleteBucketCrossOriginConfigurationRequest)\n
     '''
 def getBucketTaggingConfiguration():
-    '''public BucketTaggingConfiguration getBucketTaggingConfiguration(final String bucketName)
-    public BucketTaggingConfiguration getBucketTaggingConfiguration(final GetBucketTaggingConfigurationRequest getBucketTaggingConfigurationRequest)
+    '''returns BucketTaggingConfiguration\n\n
+    getBucketTaggingConfiguration(final String bucketName)\n
+    getBucketTaggingConfiguration(final GetBucketTaggingConfigurationRequest getBucketTaggingConfigurationRequest)\n
     '''
 def setBucketTaggingConfiguration():
-    '''public void setBucketTaggingConfiguration(final String bucketName, final BucketTaggingConfiguration bucketTaggingConfiguration)
-    public void setBucketTaggingConfiguration(final SetBucketTaggingConfigurationRequest setBucketTaggingConfigurationRequest)
+    '''returns None\n\n
+    setBucketTaggingConfiguration(final String bucketName, final BucketTaggingConfiguration bucketTaggingConfiguration)\n
+    setBucketTaggingConfiguration(final SetBucketTaggingConfigurationRequest setBucketTaggingConfigurationRequest)\n
     '''
 def deleteBucketTaggingConfiguration():
-    '''public void deleteBucketTaggingConfiguration(final String bucketName)
-    public void deleteBucketTaggingConfiguration(final DeleteBucketTaggingConfigurationRequest deleteBucketTaggingConfigurationRequest)
+    '''returns None\n\n
+    deleteBucketTaggingConfiguration(final String bucketName)\n
+    deleteBucketTaggingConfiguration(final DeleteBucketTaggingConfigurationRequest deleteBucketTaggingConfigurationRequest)\n
     '''
 def getBucketNotificationConfiguration():
-    '''public BucketNotificationConfiguration getBucketNotificationConfiguration(final String bucketName)
-    public BucketNotificationConfiguration getBucketNotificationConfiguration(final GetBucketNotificationConfigurationRequest getBucketNotificationConfigurationRequest)
+    '''returns BucketNotificationConfiguration\n\n
+    getBucketNotificationConfiguration(final String bucketName)\n
+    getBucketNotificationConfiguration(final GetBucketNotificationConfigurationRequest getBucketNotificationConfigurationRequest)\n
     '''
 def setBucketNotificationConfiguration():
-    '''public void setBucketNotificationConfiguration(final String bucketName, final BucketNotificationConfiguration bucketNotificationConfiguration)
-    public void setBucketNotificationConfiguration(final SetBucketNotificationConfigurationRequest setBucketNotificationConfigurationRequest)
+    '''returns None\n\n
+    setBucketNotificationConfiguration(final String bucketName, final BucketNotificationConfiguration bucketNotificationConfiguration)\n
+    setBucketNotificationConfiguration(final SetBucketNotificationConfigurationRequest setBucketNotificationConfigurationRequest)\n
     '''
 def getBucketWebsiteConfiguration():
-    '''public BucketWebsiteConfiguration getBucketWebsiteConfiguration(final String bucketName)
-    public BucketWebsiteConfiguration getBucketWebsiteConfiguration(final GetBucketWebsiteConfigurationRequest getBucketWebsiteConfigurationRequest)
+    '''returns BucketWebsiteConfiguration\n\n
+    getBucketWebsiteConfiguration(final String bucketName)\n
+    getBucketWebsiteConfiguration(final GetBucketWebsiteConfigurationRequest getBucketWebsiteConfigurationRequest)\n
     '''
 def setBucketWebsiteConfiguration():
-    '''public void setBucketWebsiteConfiguration(final String bucketName, final BucketWebsiteConfiguration configuration)
-    public void setBucketWebsiteConfiguration(final SetBucketWebsiteConfigurationRequest setBucketWebsiteConfigurationRequest)
+    '''returns None\n\n
+    setBucketWebsiteConfiguration(final String bucketName, final BucketWebsiteConfiguration configuration)\n
+    setBucketWebsiteConfiguration(final SetBucketWebsiteConfigurationRequest setBucketWebsiteConfigurationRequest)\n
     '''
 def deleteBucketWebsiteConfiguration():
-    '''public void deleteBucketWebsiteConfiguration(final String bucketName)
-    public void deleteBucketWebsiteConfiguration(final DeleteBucketWebsiteConfigurationRequest deleteBucketWebsiteConfigurationRequest)
+    '''returns None\n\n
+    deleteBucketWebsiteConfiguration(final String bucketName)\n
+    deleteBucketWebsiteConfiguration(final DeleteBucketWebsiteConfigurationRequest deleteBucketWebsiteConfigurationRequest)\n
     '''
 def getBucketPolicy():
-    '''public BucketPolicy getBucketPolicy(final String bucketName)
-    public BucketPolicy getBucketPolicy(final GetBucketPolicyRequest getBucketPolicyRequest)
+    '''returns BucketPolicy\n\n
+    getBucketPolicy(final String bucketName)\n
+    getBucketPolicy(final GetBucketPolicyRequest getBucketPolicyRequest)\n
     '''
 def setBucketPolicy():
-    '''public void setBucketPolicy(final String bucketName, final String policyText)
-    public void setBucketPolicy(final SetBucketPolicyRequest setBucketPolicyRequest)
+    '''returns None\n\n
+    setBucketPolicy(final String bucketName, final String policyText)\n
+    setBucketPolicy(final SetBucketPolicyRequest setBucketPolicyRequest)\n
     '''
 def deleteBucketPolicy():
-    '''public void deleteBucketPolicy(final String bucketName)
-    public void deleteBucketPolicy(final DeleteBucketPolicyRequest deleteBucketPolicyRequest)
+    '''returns None\n\n
+    deleteBucketPolicy(final String bucketName)\n
+    deleteBucketPolicy(final DeleteBucketPolicyRequest deleteBucketPolicyRequest)\n
     '''
 def generatePresignedUrl():
-    '''public URL generatePresignedUrl(final String bucketName, final String key, final Date expiration)
-    public URL generatePresignedUrl(final String bucketName, final String key, final Date expiration, final HttpMethod method)
-    public URL generatePresignedUrl(final GeneratePresignedUrlRequest generatePresignedUrlRequest)
+    '''returns URL\n\n
+    generatePresignedUrl(final String bucketName, final String key, final Date expiration)\n
+    generatePresignedUrl(final String bucketName, final String key, final Date expiration, final HttpMethod method)\n
+    generatePresignedUrl(final GeneratePresignedUrlRequest generatePresignedUrlRequest)\n
     '''
 def initiateMultipartUpload():
-    '''public InitiateMultipartUploadResult initiateMultipartUpload(final InitiateMultipartUploadRequest request)
+    '''returns InitiateMultipartUploadResult\n\n
+    initiateMultipartUpload(final InitiateMultipartUploadRequest request)\n
     '''
 def uploadPart():
-    '''public UploadPartResult uploadPart(final UploadPartRequest request)
+    '''returns UploadPartResult\n\n
+    uploadPart(final UploadPartRequest request)\n
     '''
 def listParts():
-    '''public PartListing listParts(final ListPartsRequest request)
+    '''returns PartListing\n\n
+    listParts(final ListPartsRequest request)\n
     '''
 def abortMultipartUpload():
-    '''public void abortMultipartUpload(final AbortMultipartUploadRequest request)
+    '''returns None\n\n
+    abortMultipartUpload(final AbortMultipartUploadRequest request)\n
     '''
 def completeMultipartUpload():
-    '''public CompleteMultipartUploadResult completeMultipartUpload(final CompleteMultipartUploadRequest request)
+    '''returns CompleteMultipartUploadResult\n\n
+    completeMultipartUpload(final CompleteMultipartUploadRequest request)\n
     '''
 def listMultipartUploads():
-    '''public MultipartUploadListing listMultipartUploads(final ListMultipartUploadsRequest request)
+    '''returns MultipartUploadListing\n\n
+    listMultipartUploads(final ListMultipartUploadsRequest request)\n
     '''
 def getCachedResponseMetadata():
-    '''public S3ResponseMetadata getCachedResponseMetadata(final AmazonWebServiceRequest request)
+    '''returns S3ResponseMetadata\n\n
+    getCachedResponseMetadata(final AmazonWebServiceRequest request)\n
     '''
 def restoreObject():
-    '''public void restoreObject(final String bucketName, final String key, final int expirationInDays)
-    public void restoreObject(final RestoreObjectRequest request)
+    '''returns None\n\n
+    restoreObject(final String bucketName, final String key, final int expirationInDays)\n
+    restoreObject(final RestoreObjectRequest request)\n
     '''
 def enableRequesterPays():
-    '''public void enableRequesterPays(final String bucketName)
+    '''returns None\n\n
+    enableRequesterPays(final String bucketName)\n
     '''
 def disableRequesterPays():
-    '''public void disableRequesterPays(final String bucketName)
+    '''returns None\n\n
+    disableRequesterPays(final String bucketName)\n
     '''
 def isRequesterPaysEnabled():
-    '''public boolean isRequesterPaysEnabled(final String bucketName)
+    '''returns boolean\n\n
+    isRequesterPaysEnabled(final String bucketName)\n
     '''
 def setBucketReplicationConfiguration():
-    '''public void setBucketReplicationConfiguration(final String bucketName, final BucketReplicationConfiguration configuration)
-    public void setBucketReplicationConfiguration(final SetBucketReplicationConfigurationRequest setBucketReplicationConfigurationRequest)
+    '''returns None\n\n
+    setBucketReplicationConfiguration(final String bucketName, final BucketReplicationConfiguration configuration)\n
+    setBucketReplicationConfiguration(final SetBucketReplicationConfigurationRequest setBucketReplicationConfigurationRequest)\n
     '''
 def getBucketReplicationConfiguration():
-    '''public BucketReplicationConfiguration getBucketReplicationConfiguration(final String bucketName)
-    public BucketReplicationConfiguration getBucketReplicationConfiguration(final GetBucketReplicationConfigurationRequest getBucketReplicationConfigurationRequest)
+    '''returns BucketReplicationConfiguration\n\n
+    getBucketReplicationConfiguration(final String bucketName)\n
+    getBucketReplicationConfiguration(final GetBucketReplicationConfigurationRequest getBucketReplicationConfigurationRequest)\n
     '''
 def deleteBucketReplicationConfiguration():
-    '''public void deleteBucketReplicationConfiguration(final String bucketName)
-    public void deleteBucketReplicationConfiguration(final DeleteBucketReplicationConfigurationRequest request)
+    '''returns None\n\n
+    deleteBucketReplicationConfiguration(final String bucketName)\n
+    deleteBucketReplicationConfiguration(final DeleteBucketReplicationConfigurationRequest request)\n
     '''
 def doesObjectExist():
-    '''public boolean doesObjectExist(final String bucketName, final String objectName)
+    '''returns boolean\n\n
+    doesObjectExist(final String bucketName, final String objectName)\n
     '''
 def getBucketAccelerateConfiguration():
-    '''public BucketAccelerateConfiguration getBucketAccelerateConfiguration(final String bucketName)
-    public BucketAccelerateConfiguration getBucketAccelerateConfiguration(final GetBucketAccelerateConfigurationRequest getBucketAccelerateConfigurationRequest)
+    '''returns BucketAccelerateConfiguration\n\n
+    getBucketAccelerateConfiguration(final String bucketName)\n
+    getBucketAccelerateConfiguration(final GetBucketAccelerateConfigurationRequest getBucketAccelerateConfigurationRequest)\n
     '''
 def setBucketAccelerateConfiguration():
-    '''public void setBucketAccelerateConfiguration(final String bucketName, final BucketAccelerateConfiguration accelerateConfiguration)
-    public void setBucketAccelerateConfiguration(final SetBucketAccelerateConfigurationRequest setBucketAccelerateConfigurationRequest)
+    '''returns None\n\n
+    setBucketAccelerateConfiguration(final String bucketName, final BucketAccelerateConfiguration accelerateConfiguration)\n
+    setBucketAccelerateConfiguration(final SetBucketAccelerateConfigurationRequest setBucketAccelerateConfigurationRequest)\n
     '''
 def getUrl():
-    '''public URL getUrl(final String bucketName, final String key)
+    '''returns URL\n\n
+    getUrl(final String bucketName, final String key)\n
     '''

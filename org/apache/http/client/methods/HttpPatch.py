@@ -1,9 +1,11 @@
 METHOD_NAME = "String  \"PATCH\""
-def HttpPatch():
-    '''public HttpPatch()
-    public HttpPatch(final URI uri)
-    public HttpPatch(final String uri)
+def ():
+    '''returns HttpPatch\n\n
+    ()\n
+    (final URI uri)\n
+    (final String uri)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''

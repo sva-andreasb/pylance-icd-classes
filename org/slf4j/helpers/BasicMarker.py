@@ -1,31 +1,25 @@
 def getName():
-    '''public String getName()
-    '''
-def add():
-    '''public synchronized void add(final Marker reference)
-    '''
-def hasReferences():
-    '''public synchronized boolean hasReferences()
+    '''returns String\n\n
+    getName()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
-    '''
-def iterator():
-    '''public synchronized Iterator iterator()
-    '''
-def remove():
-    '''public synchronized boolean remove(final Marker referenceToRemove)
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def contains():
-    '''public boolean contains(final Marker other)
-    public boolean contains(final String name)
+    '''returns boolean\n\n
+    contains(final Marker other)\n
+    contains(final String name)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

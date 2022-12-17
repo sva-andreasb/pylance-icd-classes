@@ -1,9 +1,12 @@
-def SOAPFaultEvent():
-    '''public SOAPFaultEvent(final Fault fault, final SOAPException soapException)
+def ():
+    '''returns SOAPFaultEvent\n\n
+    (final Fault fault, final SOAPException soapException)\n
     '''
 def getFault():
-    '''public Fault getFault()
+    '''returns Fault\n\n
+    getFault()\n
     '''
 def getSOAPException():
-    '''public SOAPException getSOAPException()
+    '''returns SOAPException\n\n
+    getSOAPException()\n
     '''

@@ -1,3 +1,4 @@
-def OldFileFormatException():
-    '''public OldFileFormatException(final String s)
+def ():
+    '''returns OldFileFormatException\n\n
+    (final String s)\n
     '''

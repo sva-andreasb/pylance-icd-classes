@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final RoleCache getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getRoleInfo():
-    '''public RoleInfo getRoleInfo(final String roleName)
+    '''returns RoleInfo\n\n
+    getRoleInfo(final String roleName)\n
     '''

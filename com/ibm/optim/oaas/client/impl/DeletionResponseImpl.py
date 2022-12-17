@@ -1,10 +1,13 @@
-def DeletionResponseImpl():
-    '''public DeletionResponseImpl()
-    public DeletionResponseImpl(final DeletionStatus status)
+def ():
+    '''returns DeletionResponseImpl\n\n
+    ()\n
+    (final DeletionStatus status)\n
     '''
 def getStatus():
-    '''public DeletionStatus getStatus()
+    '''returns DeletionStatus\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final DeletionStatus status)
+    '''returns None\n\n
+    setStatus(final DeletionStatus status)\n
     '''

@@ -1,12 +1,16 @@
-def ReplacementMarkerVisitor():
-    '''public ReplacementMarkerVisitor(final String idNotColumn, final String value)
+def ():
+    '''returns ReplacementMarkerVisitor\n\n
+    (final String idNotColumn, final String value)\n
     '''
 def markForReplacement():
-    '''public void markForReplacement()
+    '''returns None\n\n
+    markForReplacement()\n
     '''
 def unmarkReplacement():
-    '''public void unmarkReplacement()
+    '''returns None\n\n
+    unmarkReplacement()\n
     '''
 def visit():
-    '''public void visit(final BaseTag baseTag)
+    '''returns None\n\n
+    visit(final BaseTag baseTag)\n
     '''

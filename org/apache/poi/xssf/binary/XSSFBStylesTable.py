@@ -1,6 +1,8 @@
-def XSSFBStylesTable():
-    '''public XSSFBStylesTable(final InputStream is)
+def ():
+    '''returns XSSFBStylesTable\n\n
+    (final InputStream is)\n
     '''
 def handleRecord():
-    '''public void handleRecord(final int recordType, final byte[] data)
+    '''returns None\n\n
+    handleRecord(final int recordType, final byte[] data)\n
     '''

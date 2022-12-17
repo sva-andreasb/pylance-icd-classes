@@ -1,27 +1,36 @@
-def SimpleTerm():
-    '''public SimpleTerm(final boolean q)
+def ():
+    '''returns SimpleTerm\n\n
+    (final boolean q)\n
     '''
 def getQuote():
-    '''public String getQuote()
+    '''returns String\n\n
+    getQuote()\n
     '''
 def getFieldOperator():
-    '''public String getFieldOperator()
+    '''returns String\n\n
+    getFieldOperator()\n
     '''
 def compareTo():
-    '''public int compareTo(final SimpleTerm ost)
+    '''returns int\n\n
+    compareTo(final SimpleTerm ost)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def distanceSubQueryNotAllowed():
-    '''public String distanceSubQueryNotAllowed()
+    '''returns String\n\n
+    distanceSubQueryNotAllowed()\n
     '''
 def addSpanQueries():
-    '''public void addSpanQueries(final SpanNearClauseFactory sncf)
+    '''returns None\n\n
+    addSpanQueries(final SpanNearClauseFactory sncf)\n
     '''
 def visitMatchingTerm():
-    '''public void visitMatchingTerm(final Term term)
+    '''returns None\n\n
+    visitMatchingTerm(final Term term)\n
     '''
 def makeLuceneQueryFieldNoBoost():
-    '''public Query makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)
+    '''returns Query\n\n
+    makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)\n
     '''

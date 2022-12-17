@@ -1,39 +1,52 @@
 def kicked():
-    '''public void kicked(final Jid actor, final String reason)
+    '''returns None\n\n
+    kicked(final Jid actor, final String reason)\n
     '''
 def voiceGranted():
-    '''public void voiceGranted()
+    '''returns None\n\n
+    voiceGranted()\n
     '''
 def voiceRevoked():
-    '''public void voiceRevoked()
+    '''returns None\n\n
+    voiceRevoked()\n
     '''
 def banned():
-    '''public void banned(final Jid actor, final String reason)
+    '''returns None\n\n
+    banned(final Jid actor, final String reason)\n
     '''
 def membershipGranted():
-    '''public void membershipGranted()
+    '''returns None\n\n
+    membershipGranted()\n
     '''
 def membershipRevoked():
-    '''public void membershipRevoked()
+    '''returns None\n\n
+    membershipRevoked()\n
     '''
 def moderatorGranted():
-    '''public void moderatorGranted()
+    '''returns None\n\n
+    moderatorGranted()\n
     '''
 def moderatorRevoked():
-    '''public void moderatorRevoked()
+    '''returns None\n\n
+    moderatorRevoked()\n
     '''
 def ownershipGranted():
-    '''public void ownershipGranted()
+    '''returns None\n\n
+    ownershipGranted()\n
     '''
 def ownershipRevoked():
-    '''public void ownershipRevoked()
+    '''returns None\n\n
+    ownershipRevoked()\n
     '''
 def adminGranted():
-    '''public void adminGranted()
+    '''returns None\n\n
+    adminGranted()\n
     '''
 def adminRevoked():
-    '''public void adminRevoked()
+    '''returns None\n\n
+    adminRevoked()\n
     '''
 def roomDestroyed():
-    '''public void roomDestroyed(final MultiUserChat alternateMUC, final String reason)
+    '''returns None\n\n
+    roomDestroyed(final MultiUserChat alternateMUC, final String reason)\n
     '''

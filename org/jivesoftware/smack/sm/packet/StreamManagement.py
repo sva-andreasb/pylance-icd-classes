@@ -1,72 +1,70 @@
 NAMESPACE = "String  \"urn:xmpp:sm:3\""
 ELEMENT = "String  \"r\""
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    public final String getNamespace()
-    public String getNamespace()
-    public final String getNamespace()
-    public String getNamespace()
-    public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
+    getNamespace()\n
+    getNamespace()\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public final XmlStringBuilder toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def isResumeSet():
-    '''public boolean isResumeSet()
+    '''returns boolean\n\n
+    isResumeSet()\n
     '''
 def getMaxResumptionTime():
-    '''public int getMaxResumptionTime()
+    '''returns int\n\n
+    getMaxResumptionTime()\n
     '''
-def Enable():
-    '''public Enable(final boolean resume)
-    public Enable(final boolean resume, final int max)
-    '''
-def Enabled():
-    '''public Enabled(final String id, final boolean resume)
-    public Enabled(final String id, final boolean resume, final String location, final int max)
+def ():
+    '''returns AckAnswer\n\n
+    (final boolean resume)\n
+    (final boolean resume, final int max)\n
+    (final String id, final boolean resume)\n
+    (final String id, final boolean resume, final String location, final int max)\n
+    ()\n
+    (final StanzaError.Condition condition, final List<StanzaErrorTextElement> textElements)\n
+    (final long handledCount, final String previd)\n
+    (final long handledCount, final String previd)\n
+    (final long handledCount)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getLocation():
-    '''public String getLocation()
-    '''
-def Failed():
-    '''public Failed()
-    public Failed(final StanzaError.Condition condition, final List<StanzaErrorTextElement> textElements)
+    '''returns String\n\n
+    getLocation()\n
     '''
 def getTextElements():
-    '''public List<StanzaErrorTextElement> getTextElements()
+    '''returns List<StanzaErrorTextElement>\n\n
+    getTextElements()\n
     '''
 def getHandledCount():
-    '''public long getHandledCount()
-    public long getHandledCount()
+    '''returns long\n\n
+    getHandledCount()\n
+    getHandledCount()\n
     '''
 def getPrevId():
-    '''public String getPrevId()
-    '''
-def Resume():
-    '''public Resume(final long handledCount, final String previd)
-    '''
-def Resumed():
-    '''public Resumed(final long handledCount, final String previd)
-    '''
-def AckAnswer():
-    '''public AckAnswer(final long handledCount)
+    '''returns String\n\n
+    getPrevId()\n
     '''

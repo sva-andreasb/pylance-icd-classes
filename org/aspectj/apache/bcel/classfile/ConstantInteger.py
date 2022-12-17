@@ -1,21 +1,20 @@
-def ConstantInteger():
-    '''public ConstantInteger(final int intValue)
+def ():
+    '''returns ConstantInteger\n\n
+    (final int intValue)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''
 def getValue():
-    '''public Integer getValue()
+    '''returns Integer\n\n
+    getValue()\n
     '''
 def getIntValue():
-    '''public int getIntValue()
+    '''returns int\n\n
+    getIntValue()\n
     '''
 def getStringValue():
-    '''public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
     '''

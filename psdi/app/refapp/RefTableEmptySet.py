@@ -1,3 +1,4 @@
-def RefTableEmptySet():
-    '''public RefTableEmptySet(final MboServerInterface ms)
+def ():
+    '''returns RefTableEmptySet\n\n
+    (final MboServerInterface ms)\n
     '''

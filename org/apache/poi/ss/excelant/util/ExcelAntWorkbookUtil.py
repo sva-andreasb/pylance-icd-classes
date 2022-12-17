@@ -1,33 +1,44 @@
 def addFunction():
-    '''public void addFunction(final String name, final String clazzName)
+    '''returns None\n\n
+    addFunction(final String name, final String clazzName)\n
     '''
 def getWorkbook():
-    '''public Workbook getWorkbook()
+    '''returns Workbook\n\n
+    getWorkbook()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getSheets():
-    '''public List<String> getSheets()
+    '''returns List<String>\n\n
+    getSheets()\n
     '''
 def setDoubleValue():
-    '''public void setDoubleValue(final String cellName, final double value)
+    '''returns None\n\n
+    setDoubleValue(final String cellName, final double value)\n
     '''
 def setStringValue():
-    '''public void setStringValue(final String cellName, final String value)
+    '''returns None\n\n
+    setStringValue(final String cellName, final String value)\n
     '''
 def setFormulaValue():
-    '''public void setFormulaValue(final String cellName, final String formula)
+    '''returns None\n\n
+    setFormulaValue(final String cellName, final String formula)\n
     '''
 def setDateValue():
-    '''public void setDateValue(final String cellName, final Date date)
+    '''returns None\n\n
+    setDateValue(final String cellName, final Date date)\n
     '''
 def evaluateCell():
-    '''public ExcelAntEvaluationResult evaluateCell(final String cellName, final double expectedValue, final double precision)
+    '''returns ExcelAntEvaluationResult\n\n
+    evaluateCell(final String cellName, final double expectedValue, final double precision)\n
     '''
 def getCellAsString():
-    '''public String getCellAsString(final String cellName)
+    '''returns String\n\n
+    getCellAsString(final String cellName)\n
     '''
 def getCellAsDouble():
-    '''public double getCellAsDouble(final String cellName)
+    '''returns double\n\n
+    getCellAsDouble(final String cellName)\n
     '''

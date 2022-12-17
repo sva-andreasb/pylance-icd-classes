@@ -1,7 +1,9 @@
-def FldCompany():
-    '''public FldCompany(final MboValue mbv, final String orgAttr)
-    public FldCompany(final MboValue mbv)
+def ():
+    '''returns FldCompany\n\n
+    (final MboValue mbv, final String orgAttr)\n
+    (final MboValue mbv)\n
     '''
 def onlyEnabled():
-    '''public boolean onlyEnabled()
+    '''returns boolean\n\n
+    onlyEnabled()\n
     '''

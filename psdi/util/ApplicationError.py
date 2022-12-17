@@ -1,12 +1,16 @@
-def ApplicationError():
-    '''public ApplicationError(final MXException exception)
+def ():
+    '''returns ApplicationError\n\n
+    (final MXException exception)\n
     '''
 def getException():
-    '''public MXException getException()
+    '''returns MXException\n\n
+    getException()\n
     '''
 def getErrorId():
-    '''public long getErrorId()
+    '''returns long\n\n
+    getErrorId()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

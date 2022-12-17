@@ -1,14 +1,18 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def StatusIndicator():
-    '''public StatusIndicator(final String label, final Color color)
-    public StatusIndicator(final String label)
+def ():
+    '''returns StatusIndicator\n\n
+    (final String label, final Color color)\n
+    (final String label)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getColor():
-    '''public Color getColor()
+    '''returns Color\n\n
+    getColor()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

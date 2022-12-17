@@ -1,32 +1,42 @@
 def getNames():
-    '''public String[] getNames()
+    '''returns String[]\n\n
+    getNames()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getQualifier():
-    '''public String[] getQualifier(final String key)
+    '''returns String[]\n\n
+    getQualifier(final String key)\n
     '''
 def getQualifierNames():
-    '''public Enumeration getQualifierNames()
+    '''returns Enumeration\n\n
+    getQualifierNames()\n
     '''
 def isObsolete():
-    '''public boolean isObsolete()
+    '''returns boolean\n\n
+    isObsolete()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setQualifier():
-    '''public void setQualifier(final String key, final String[] array)
+    '''returns None\n\n
+    setQualifier(final String key, final String[] array)\n
     '''
 def addValue():
-    '''public void addValue(final String s)
-    public void addValue(final Byte[] array)
+    '''returns None\n\n
+    addValue(final String s)\n
+    addValue(final Byte[] array)\n
     '''
 def removeValue():
-    '''public void removeValue(final String s)
-    public void removeValue(final Byte[] array)
+    '''returns None\n\n
+    removeValue(final String s)\n
+    removeValue(final Byte[] array)\n
     '''

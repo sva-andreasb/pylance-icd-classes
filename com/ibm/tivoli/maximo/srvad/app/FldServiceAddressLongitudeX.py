@@ -1,6 +1,8 @@
-def FldServiceAddressLongitudeX():
-    '''public FldServiceAddressLongitudeX(final MboValue mbv)
+def ():
+    '''returns FldServiceAddressLongitudeX\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

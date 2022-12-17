@@ -1,30 +1,39 @@
-def NamespaceImpl():
-    '''public NamespaceImpl(final String s)
-    public NamespaceImpl(final String s, final Location location)
-    public NamespaceImpl(final String s, final String s2)
-    public NamespaceImpl(final String s, final String fNamespaceURI, final Location location)
+def ():
+    '''returns NamespaceImpl\n\n
+    (final String s)\n
+    (final String s, final Location location)\n
+    (final String s, final String s2)\n
+    (final String s, final String fNamespaceURI, final Location location)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def isDefaultNamespaceDeclaration():
-    '''public boolean isDefaultNamespaceDeclaration()
+    '''returns boolean\n\n
+    isDefaultNamespaceDeclaration()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getDTDType():
-    '''public String getDTDType()
+    '''returns String\n\n
+    getDTDType()\n
     '''
 def isSpecified():
-    '''public boolean isSpecified()
+    '''returns boolean\n\n
+    isSpecified()\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final Writer writer)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final Writer writer)\n
     '''

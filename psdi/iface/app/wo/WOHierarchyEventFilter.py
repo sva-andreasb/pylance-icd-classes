@@ -1,3 +1,4 @@
-def WOHierarchyEventFilter():
-    '''public WOHierarchyEventFilter(final PublishInfo pubInfo)
+def ():
+    '''returns WOHierarchyEventFilter\n\n
+    (final PublishInfo pubInfo)\n
     '''

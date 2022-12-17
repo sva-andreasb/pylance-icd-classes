@@ -1,48 +1,56 @@
-def TkOwnerCumulativeTimeSet():
-    '''public TkOwnerCumulativeTimeSet(final MboServerInterface ms)
+def ():
+    '''returns TkOwnerCumulativeTimeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def compare():
-    '''public int compare(final OwnershipInformationHolder o1, final OwnershipInformationHolder o2)
-    '''
-def fromStatusHistory():
-    '''public static OwnershipInformationHolder fromStatusHistory(final PmTKStatusRemote statusHistory)
-    '''
-def fromAssingedOwnerGroupTicketStatus():
-    '''public static OwnershipInformationHolder fromAssingedOwnerGroupTicketStatus(final PmTKStatusRemote statusHistory)
+    '''returns int\n\n
+    compare(final OwnershipInformationHolder o1, final OwnershipInformationHolder o2)\n
     '''
 def getCumulativeTime():
-    '''public Long getCumulativeTime()
+    '''returns Long\n\n
+    getCumulativeTime()\n
     '''
 def addCumulativeTime():
-    '''public void addCumulativeTime(final Long cumulativeTime)
+    '''returns None\n\n
+    addCumulativeTime(final Long cumulativeTime)\n
     '''
 def getOwner():
-    '''public String getOwner()
+    '''returns String\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final String owner)
+    '''returns None\n\n
+    setOwner(final String owner)\n
     '''
 def getOwnergroup():
-    '''public String getOwnergroup()
+    '''returns String\n\n
+    getOwnergroup()\n
     '''
 def setOwnergroup():
-    '''public void setOwnergroup(final String ownergroup)
+    '''returns None\n\n
+    setOwnergroup(final String ownergroup)\n
     '''
 def getAssignedOwnerGroup():
-    '''public String getAssignedOwnerGroup()
+    '''returns String\n\n
+    getAssignedOwnerGroup()\n
     '''
 def SetAssignedOwnerGroup():
-    '''public void SetAssignedOwnerGroup(final String aOwnerGroup)
+    '''returns None\n\n
+    SetAssignedOwnerGroup(final String aOwnerGroup)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

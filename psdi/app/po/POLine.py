@@ -1,137 +1,174 @@
-def POLine():
-    '''public POLine(final MboSet ms)
+def ():
+    '''returns POLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def isInspectionRequired():
-    '''public boolean isInspectionRequired()
+    '''returns boolean\n\n
+    isInspectionRequired()\n
     '''
 def updatePOPOLine():
-    '''public void updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po, double conversion)
-    public void updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po)
-    public void updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po, final double conversion, final boolean fromMeaUsingUpdateReceipt)
+    '''returns None\n\n
+    updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po, double conversion)\n
+    updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po)\n
+    updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po, final double conversion, final boolean fromMeaUsingUpdateReceipt)\n
     '''
 def receiptComplete():
-    '''public void receiptComplete()
+    '''returns None\n\n
+    receiptComplete()\n
     '''
 def updateWOAssetOnReceipt():
-    '''public void updateWOAssetOnReceipt(final double cost)
+    '''returns None\n\n
+    updateWOAssetOnReceipt(final double cost)\n
     '''
 def delete():
-    '''public void delete(final long accessmodifier)
+    '''returns None\n\n
+    delete(final long accessmodifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def checkPOCostValidity():
-    '''public void checkPOCostValidity()
+    '''returns None\n\n
+    checkPOCostValidity()\n
     '''
 def isServicePOLineByCost():
-    '''public boolean isServicePOLineByCost()
+    '''returns boolean\n\n
+    isServicePOLineByCost()\n
     '''
 def doPOLineReceiptsExist():
-    '''public boolean doPOLineReceiptsExist()
+    '''returns boolean\n\n
+    doPOLineReceiptsExist()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def updateCost1s():
-    '''public void updateCost1s()
+    '''returns None\n\n
+    updateCost1s()\n
     '''
 def updateInvVendor():
-    '''public MboRemote updateInvVendor()
+    '''returns MboRemote\n\n
+    updateInvVendor()\n
     '''
 def generateWO():
-    '''public void generateWO()
-    '''
-def loadSkipFieldCopyHashSet():
-    '''public static void loadSkipFieldCopyHashSet()
-    '''
-def getHashSet():
-    '''public static HashSet getHashSet()
+    '''returns None\n\n
+    generateWO()\n
     '''
 def afterAdd():
-    '''public void afterAdd()
+    '''returns None\n\n
+    afterAdd()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def canDistribute():
-    '''public void canDistribute()
+    '''returns None\n\n
+    canDistribute()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def calculateUnInvoicedQtyCost():
-    '''public double[] calculateUnInvoicedQtyCost()
+    '''returns double[]\n\n
+    calculateUnInvoicedQtyCost()\n
     '''
 def setVendorItem():
-    '''public void setVendorItem(final boolean value)
+    '''returns None\n\n
+    setVendorItem(final boolean value)\n
     '''
 def getVendorItem():
-    '''public boolean getVendorItem()
+    '''returns boolean\n\n
+    getVendorItem()\n
     '''
 def getInternalLineType():
-    '''public String getInternalLineType()
+    '''returns String\n\n
+    getInternalLineType()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def isServiceType():
-    '''public boolean isServiceType()
+    '''returns boolean\n\n
+    isServiceType()\n
     '''
 def canCancelIfScheduleInvoice():
-    '''public void canCancelIfScheduleInvoice()
+    '''returns None\n\n
+    canCancelIfScheduleInvoice()\n
     '''
 def cancelScheduleInvoice():
-    '''public void cancelScheduleInvoice()
+    '''returns None\n\n
+    cancelScheduleInvoice()\n
     '''
 def deleteReservation():
-    '''public void deleteReservation()
+    '''returns None\n\n
+    deleteReservation()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def getInternalRevStatus():
-    '''public String getInternalRevStatus()
+    '''returns String\n\n
+    getInternalRevStatus()\n
     '''
 def checkInvUseStatus():
-    '''public void checkInvUseStatus()
+    '''returns None\n\n
+    checkInvUseStatus()\n
     '''
 def setConsignmentFlags():
-    '''public void setConsignmentFlags()
+    '''returns None\n\n
+    setConsignmentFlags()\n
     '''
 def setReceiptQtyAndCostInfo():
-    '''public void setReceiptQtyAndCostInfo(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po)
+    '''returns None\n\n
+    setReceiptQtyAndCostInfo(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po)\n
     '''
 def getQtyAndCostsFromReceipt():
-    '''public double[] getQtyAndCostsFromReceipt()
+    '''returns double[]\n\n
+    getQtyAndCostsFromReceipt()\n
     '''
 def getPOFromReceipt():
-    '''public MboRemote getPOFromReceipt()
+    '''returns MboRemote\n\n
+    getPOFromReceipt()\n
     '''
 def isPOLineReceived():
-    '''public boolean isPOLineReceived()
+    '''returns boolean\n\n
+    isPOLineReceived()\n
     '''
 def checkPOLineReceipts():
-    '''public void checkPOLineReceipts(final int source)
+    '''returns None\n\n
+    checkPOLineReceipts(final int source)\n
     '''

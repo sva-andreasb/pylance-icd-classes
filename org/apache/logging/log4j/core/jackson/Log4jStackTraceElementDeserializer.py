@@ -1,6 +1,8 @@
-def Log4jStackTraceElementDeserializer():
-    '''public Log4jStackTraceElementDeserializer()
+def ():
+    '''returns Log4jStackTraceElementDeserializer\n\n
+    ()\n
     '''
 def deserialize():
-    '''public StackTraceElement deserialize(final JsonParser jp, final DeserializationContext ctxt)
+    '''returns StackTraceElement\n\n
+    deserialize(final JsonParser jp, final DeserializationContext ctxt)\n
     '''

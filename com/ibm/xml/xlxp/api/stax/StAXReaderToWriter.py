@@ -1,7 +1,9 @@
-def StAXReaderToWriter():
-    '''public StAXReaderToWriter()
+def ():
+    '''returns StAXReaderToWriter\n\n
+    ()\n
     '''
 def toInputSource():
-    '''public InputSource toInputSource(final XMLStreamReader xmlStreamReader)
-    public InputSource toInputSource(final XMLEventReader xmlEventReader)
+    '''returns InputSource\n\n
+    toInputSource(final XMLStreamReader xmlStreamReader)\n
+    toInputSource(final XMLEventReader xmlEventReader)\n
     '''

@@ -1,26 +1,33 @@
-def CalendarData():
-    '''public CalendarData(final ULocale loc, final String type)
-    public CalendarData(final ICUResourceBundle b, final String type)
+def ():
+    '''returns CalendarData\n\n
+    (final ULocale loc, final String type)\n
+    (final ICUResourceBundle b, final String type)\n
     '''
 def get():
-    '''public ICUResourceBundle get(final String key)
-    public ICUResourceBundle get(final String key, final String subKey)
-    public ICUResourceBundle get(final String key, final String contextKey, final String subKey)
+    '''returns ICUResourceBundle\n\n
+    get(final String key)\n
+    get(final String key, final String subKey)\n
+    get(final String key, final String contextKey, final String subKey)\n
     '''
 def getStringArray():
-    '''public String[] getStringArray(final String key)
-    public String[] getStringArray(final String key, final String subKey)
-    public String[] getStringArray(final String key, final String contextKey, final String subKey)
+    '''returns String[]\n\n
+    getStringArray(final String key)\n
+    getStringArray(final String key, final String subKey)\n
+    getStringArray(final String key, final String contextKey, final String subKey)\n
     '''
 def getEras():
-    '''public String[] getEras(final String subkey)
+    '''returns String[]\n\n
+    getEras(final String subkey)\n
     '''
 def getDateTimePatterns():
-    '''public String[] getDateTimePatterns()
+    '''returns String[]\n\n
+    getDateTimePatterns()\n
     '''
 def getOverrides():
-    '''public String[] getOverrides()
+    '''returns String[]\n\n
+    getOverrides()\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''

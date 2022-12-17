@@ -1,87 +1,115 @@
-def BeanDeserializerBase():
-    '''public BeanDeserializerBase(final BeanDeserializerBase src, final ObjectIdReader oir)
-    public BeanDeserializerBase(final BeanDeserializerBase src, final Set<String> ignorableProps)
+def ():
+    '''returns BeanDeserializerBase\n\n
+    (final BeanDeserializerBase src, final ObjectIdReader oir)\n
+    (final BeanDeserializerBase src, final Set<String> ignorableProps)\n
     '''
 def withBeanProperties():
-    '''public BeanDeserializerBase withBeanProperties(final BeanPropertyMap props)
+    '''returns BeanDeserializerBase\n\n
+    withBeanProperties(final BeanPropertyMap props)\n
     '''
 def resolve():
-    '''public void resolve(final DeserializationContext ctxt)
+    '''returns None\n\n
+    resolve(final DeserializationContext ctxt)\n
     '''
 def getNullAccessPattern():
-    '''public AccessPattern getNullAccessPattern()
+    '''returns AccessPattern\n\n
+    getNullAccessPattern()\n
     '''
 def getEmptyAccessPattern():
-    '''public AccessPattern getEmptyAccessPattern()
+    '''returns AccessPattern\n\n
+    getEmptyAccessPattern()\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''
 def getObjectIdReader():
-    '''public ObjectIdReader getObjectIdReader()
+    '''returns ObjectIdReader\n\n
+    getObjectIdReader()\n
     '''
 def hasProperty():
-    '''public boolean hasProperty(final String propertyName)
+    '''returns boolean\n\n
+    hasProperty(final String propertyName)\n
     '''
 def hasViews():
-    '''public boolean hasViews()
+    '''returns boolean\n\n
+    hasViews()\n
     '''
 def getPropertyCount():
-    '''public int getPropertyCount()
+    '''returns int\n\n
+    getPropertyCount()\n
     '''
 def getKnownPropertyNames():
-    '''public Collection<Object> getKnownPropertyNames()
+    '''returns Collection<Object>\n\n
+    getKnownPropertyNames()\n
     '''
 def getValueType():
-    '''public JavaType getValueType()
+    '''returns JavaType\n\n
+    getValueType()\n
     '''
 def properties():
-    '''public Iterator<SettableBeanProperty> properties()
+    '''returns Iterator<SettableBeanProperty>\n\n
+    properties()\n
     '''
 def creatorProperties():
-    '''public Iterator<SettableBeanProperty> creatorProperties()
+    '''returns Iterator<SettableBeanProperty>\n\n
+    creatorProperties()\n
     '''
 def findProperty():
-    '''public SettableBeanProperty findProperty(final PropertyName propertyName)
-    public SettableBeanProperty findProperty(final String propertyName)
-    public SettableBeanProperty findProperty(final int propertyIndex)
+    '''returns SettableBeanProperty\n\n
+    findProperty(final PropertyName propertyName)\n
+    findProperty(final String propertyName)\n
+    findProperty(final int propertyIndex)\n
     '''
 def findBackReference():
-    '''public SettableBeanProperty findBackReference(final String logicalName)
+    '''returns SettableBeanProperty\n\n
+    findBackReference(final String logicalName)\n
     '''
 def getValueInstantiator():
-    '''public ValueInstantiator getValueInstantiator()
+    '''returns ValueInstantiator\n\n
+    getValueInstantiator()\n
     '''
 def replaceProperty():
-    '''public void replaceProperty(final SettableBeanProperty original, final SettableBeanProperty replacement)
+    '''returns None\n\n
+    replaceProperty(final SettableBeanProperty original, final SettableBeanProperty replacement)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''
 def deserializeFromNumber():
-    '''public Object deserializeFromNumber(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserializeFromNumber(final JsonParser p, final DeserializationContext ctxt)\n
     '''
 def deserializeFromString():
-    '''public Object deserializeFromString(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserializeFromString(final JsonParser p, final DeserializationContext ctxt)\n
     '''
 def deserializeFromDouble():
-    '''public Object deserializeFromDouble(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserializeFromDouble(final JsonParser p, final DeserializationContext ctxt)\n
     '''
 def deserializeFromBoolean():
-    '''public Object deserializeFromBoolean(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserializeFromBoolean(final JsonParser p, final DeserializationContext ctxt)\n
     '''
 def deserializeFromArray():
-    '''public Object deserializeFromArray(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserializeFromArray(final JsonParser p, final DeserializationContext ctxt)\n
     '''
 def deserializeFromEmbedded():
-    '''public Object deserializeFromEmbedded(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserializeFromEmbedded(final JsonParser p, final DeserializationContext ctxt)\n
     '''
 def wrapAndThrow():
-    '''public void wrapAndThrow(final Throwable t, final Object bean, final String fieldName, final DeserializationContext ctxt)
+    '''returns None\n\n
+    wrapAndThrow(final Throwable t, final Object bean, final String fieldName, final DeserializationContext ctxt)\n
     '''

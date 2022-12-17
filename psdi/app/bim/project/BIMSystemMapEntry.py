@@ -8,12 +8,15 @@ FIELD_NETWORK = "String  \"NETWORK\""
 FIELD_LOCATION = "String  \"LOCATION\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 RELATIOINSHIP_BIMSYSTEMMAPENTRY = "String  \"BIMSYSTEMMAPENTRY\""
-def BIMSystemMapEntry():
-    '''public BIMSystemMapEntry(final MboSet ms)
+def ():
+    '''returns BIMSystemMapEntry\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

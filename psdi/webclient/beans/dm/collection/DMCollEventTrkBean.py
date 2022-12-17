@@ -1,3 +1,4 @@
 def saveEvents():
-    '''public int saveEvents()
+    '''returns int\n\n
+    saveEvents()\n
     '''

@@ -10,29 +10,27 @@ RAMADAN = "int  8"
 SHAWWAL = "int  9"
 DHU_AL_QIDAH = "int  10"
 DHU_AL_HIJJAH = "int  11"
-def IslamicCalendar():
-    '''public IslamicCalendar()
-    public IslamicCalendar(final TimeZone zone)
-    public IslamicCalendar(final Locale aLocale)
-    public IslamicCalendar(final ULocale locale)
-    public IslamicCalendar(final TimeZone zone, final Locale aLocale)
-    public IslamicCalendar(final TimeZone zone, final ULocale locale)
-    public IslamicCalendar(final Date date)
-    public IslamicCalendar(final int year, final int month, final int date)
-    public IslamicCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
+def ():
+    '''returns IslamicCalendar\n\n
+    ()\n
+    (final TimeZone zone)\n
+    (final Locale aLocale)\n
+    (final ULocale locale)\n
+    (final TimeZone zone, final Locale aLocale)\n
+    (final TimeZone zone, final ULocale locale)\n
+    (final Date date)\n
+    (final int year, final int month, final int date)\n
+    (final int year, final int month, final int date, final int hour, final int minute, final int second)\n
     '''
 def setCivil():
-    '''public void setCivil(final boolean beCivil)
+    '''returns None\n\n
+    setCivil(final boolean beCivil)\n
     '''
 def isCivil():
-    '''public boolean isCivil()
-    '''
-def setCalculationType():
-    '''public void setCalculationType(final CalculationType type)
-    '''
-def getCalculationType():
-    '''public CalculationType getCalculationType()
+    '''returns boolean\n\n
+    isCivil()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''

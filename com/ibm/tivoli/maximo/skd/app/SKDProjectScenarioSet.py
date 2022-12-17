@@ -1,3 +1,4 @@
-def SKDProjectScenarioSet():
-    '''public SKDProjectScenarioSet(final MboServerInterface ms)
+def ():
+    '''returns SKDProjectScenarioSet\n\n
+    (final MboServerInterface ms)\n
     '''

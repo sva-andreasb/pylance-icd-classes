@@ -1,3 +1,4 @@
-def PlusCCalHistoryFilter():
-    '''public PlusCCalHistoryFilter(final MboSet ms)
+def ():
+    '''returns PlusCCalHistoryFilter\n\n
+    (final MboSet ms)\n
     '''

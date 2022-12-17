@@ -1,25 +1,33 @@
-def FldActionValue():
-    '''public FldActionValue(final MboValue mbv)
+def ():
+    '''returns FldActionValue\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
-    public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
+    smartFind(final String sourceObj, final String value, final boolean exact)\n
     '''

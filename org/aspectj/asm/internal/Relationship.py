@@ -1,27 +1,36 @@
-def Relationship():
-    '''public Relationship(final String name, final Kind kind, final String sourceHandle, final List<String> targets, final boolean runtimeTest)
+def ():
+    '''returns Relationship\n\n
+    (final String name, final Kind kind, final String sourceHandle, final List<String> targets, final boolean runtimeTest)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getKind():
-    '''public Kind getKind()
+    '''returns Kind\n\n
+    getKind()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getSourceHandle():
-    '''public String getSourceHandle()
+    '''returns String\n\n
+    getSourceHandle()\n
     '''
 def getTargets():
-    '''public List<String> getTargets()
+    '''returns List<String>\n\n
+    getTargets()\n
     '''
 def addTarget():
-    '''public void addTarget(final String handle)
+    '''returns None\n\n
+    addTarget(final String handle)\n
     '''
 def hasRuntimeTest():
-    '''public boolean hasRuntimeTest()
+    '''returns boolean\n\n
+    hasRuntimeTest()\n
     '''
 def isAffects():
-    '''public boolean isAffects()
+    '''returns boolean\n\n
+    isAffects()\n
     '''

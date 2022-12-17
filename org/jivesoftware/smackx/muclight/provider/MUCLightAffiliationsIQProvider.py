@@ -1,3 +1,4 @@
 def parse():
-    '''public MUCLightAffiliationsIQ parse(final XmlPullParser parser, final int initialDepth)
+    '''returns MUCLightAffiliationsIQ\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

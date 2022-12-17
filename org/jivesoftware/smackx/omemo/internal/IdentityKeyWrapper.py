@@ -1,6 +1,8 @@
-def IdentityKeyWrapper():
-    '''public IdentityKeyWrapper(final Object wrapped)
+def ():
+    '''returns IdentityKeyWrapper\n\n
+    (final Object wrapped)\n
     '''
 def getIdentityKey():
-    '''public Object getIdentityKey()
+    '''returns Object\n\n
+    getIdentityKey()\n
     '''

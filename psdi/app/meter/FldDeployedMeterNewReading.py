@@ -1,21 +1,28 @@
-def FldDeployedMeterNewReading():
-    '''public FldDeployedMeterNewReading(final MboValue mbv)
+def ():
+    '''returns FldDeployedMeterNewReading\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFill(final String value, final boolean exact)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setDomainId():
-    '''public void setDomainId(final String dom)
+    '''returns None\n\n
+    setDomainId(final String dom)\n
     '''
 def chooseActualDomainValues():
-    '''public void chooseActualDomainValues()
+    '''returns None\n\n
+    chooseActualDomainValues()\n
     '''

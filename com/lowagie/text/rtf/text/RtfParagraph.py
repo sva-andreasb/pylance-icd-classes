@@ -1,9 +1,12 @@
-def RtfParagraph():
-    '''public RtfParagraph(final RtfDocument doc, final Paragraph paragraph)
+def ():
+    '''returns RtfParagraph\n\n
+    (final RtfDocument doc, final Paragraph paragraph)\n
     '''
 def setKeepTogetherWithNext():
-    '''public void setKeepTogetherWithNext(final boolean keepTogetherWithNext)
+    '''returns None\n\n
+    setKeepTogetherWithNext(final boolean keepTogetherWithNext)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

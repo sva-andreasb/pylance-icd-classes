@@ -1,30 +1,40 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public ScheduleKeyDeletionRequest withKeyId(final String keyId)
+    '''returns ScheduleKeyDeletionRequest\n\n
+    withKeyId(final String keyId)\n
     '''
 def setPendingWindowInDays():
-    '''public void setPendingWindowInDays(final Integer pendingWindowInDays)
+    '''returns None\n\n
+    setPendingWindowInDays(final Integer pendingWindowInDays)\n
     '''
 def getPendingWindowInDays():
-    '''public Integer getPendingWindowInDays()
+    '''returns Integer\n\n
+    getPendingWindowInDays()\n
     '''
 def withPendingWindowInDays():
-    '''public ScheduleKeyDeletionRequest withPendingWindowInDays(final Integer pendingWindowInDays)
+    '''returns ScheduleKeyDeletionRequest\n\n
+    withPendingWindowInDays(final Integer pendingWindowInDays)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public ScheduleKeyDeletionRequest clone()
+    '''returns ScheduleKeyDeletionRequest\n\n
+    clone()\n
     '''

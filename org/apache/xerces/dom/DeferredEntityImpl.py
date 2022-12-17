@@ -1,3 +1,4 @@
 def getNodeIndex():
-    '''public int getNodeIndex()
+    '''returns int\n\n
+    getNodeIndex()\n
     '''

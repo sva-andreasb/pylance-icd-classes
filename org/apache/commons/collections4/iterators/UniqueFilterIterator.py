@@ -1,3 +1,4 @@
-def UniqueFilterIterator():
-    '''public UniqueFilterIterator(final Iterator<? extends E> iterator)
+def ():
+    '''returns UniqueFilterIterator\n\n
+    (final Iterator<? extends E> iterator)\n
     '''

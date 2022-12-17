@@ -1,124 +1,164 @@
-def Delete():
-    '''public Delete()
+def ():
+    '''returns Delete\n\n
+    ()\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def setDir():
-    '''public void setDir(final File dir)
+    '''returns None\n\n
+    setDir(final File dir)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean verbose)
+    '''returns None\n\n
+    setVerbose(final boolean verbose)\n
     '''
 def setQuiet():
-    '''public void setQuiet(final boolean quiet)
+    '''returns None\n\n
+    setQuiet(final boolean quiet)\n
     '''
 def setFailOnError():
-    '''public void setFailOnError(final boolean failonerror)
+    '''returns None\n\n
+    setFailOnError(final boolean failonerror)\n
     '''
 def setDeleteOnExit():
-    '''public void setDeleteOnExit(final boolean deleteOnExit)
+    '''returns None\n\n
+    setDeleteOnExit(final boolean deleteOnExit)\n
     '''
 def setIncludeEmptyDirs():
-    '''public void setIncludeEmptyDirs(final boolean includeEmpty)
+    '''returns None\n\n
+    setIncludeEmptyDirs(final boolean includeEmpty)\n
     '''
 def addFileset():
-    '''public void addFileset(final FileSet set)
+    '''returns None\n\n
+    addFileset(final FileSet set)\n
     '''
 def add():
-    '''public void add(final ResourceCollection rc)
-    public void add(final FileSelector selector)
+    '''returns None\n\n
+    add(final ResourceCollection rc)\n
+    add(final FileSelector selector)\n
     '''
 def createPatternSet():
-    '''public PatternSet createPatternSet()
+    '''returns PatternSet\n\n
+    createPatternSet()\n
     '''
 def setIncludes():
-    '''public void setIncludes(final String includes)
+    '''returns None\n\n
+    setIncludes(final String includes)\n
     '''
 def setExcludes():
-    '''public void setExcludes(final String excludes)
+    '''returns None\n\n
+    setExcludes(final String excludes)\n
     '''
 def setDefaultexcludes():
-    '''public void setDefaultexcludes(final boolean useDefaultExcludes)
+    '''returns None\n\n
+    setDefaultexcludes(final boolean useDefaultExcludes)\n
     '''
 def setIncludesfile():
-    '''public void setIncludesfile(final File includesfile)
+    '''returns None\n\n
+    setIncludesfile(final File includesfile)\n
     '''
 def setExcludesfile():
-    '''public void setExcludesfile(final File excludesfile)
+    '''returns None\n\n
+    setExcludesfile(final File excludesfile)\n
     '''
 def setCaseSensitive():
-    '''public void setCaseSensitive(final boolean isCaseSensitive)
+    '''returns None\n\n
+    setCaseSensitive(final boolean isCaseSensitive)\n
     '''
 def setFollowSymlinks():
-    '''public void setFollowSymlinks(final boolean followSymlinks)
+    '''returns None\n\n
+    setFollowSymlinks(final boolean followSymlinks)\n
     '''
 def setRemoveNotFollowedSymlinks():
-    '''public void setRemoveNotFollowedSymlinks(final boolean b)
+    '''returns None\n\n
+    setRemoveNotFollowedSymlinks(final boolean b)\n
     '''
 def addSelector():
-    '''public void addSelector(final SelectSelector selector)
+    '''returns None\n\n
+    addSelector(final SelectSelector selector)\n
     '''
 def addAnd():
-    '''public void addAnd(final AndSelector selector)
+    '''returns None\n\n
+    addAnd(final AndSelector selector)\n
     '''
 def addOr():
-    '''public void addOr(final OrSelector selector)
+    '''returns None\n\n
+    addOr(final OrSelector selector)\n
     '''
 def addNot():
-    '''public void addNot(final NotSelector selector)
+    '''returns None\n\n
+    addNot(final NotSelector selector)\n
     '''
 def addNone():
-    '''public void addNone(final NoneSelector selector)
+    '''returns None\n\n
+    addNone(final NoneSelector selector)\n
     '''
 def addMajority():
-    '''public void addMajority(final MajoritySelector selector)
+    '''returns None\n\n
+    addMajority(final MajoritySelector selector)\n
     '''
 def addDate():
-    '''public void addDate(final DateSelector selector)
+    '''returns None\n\n
+    addDate(final DateSelector selector)\n
     '''
 def addSize():
-    '''public void addSize(final SizeSelector selector)
+    '''returns None\n\n
+    addSize(final SizeSelector selector)\n
     '''
 def addFilename():
-    '''public void addFilename(final FilenameSelector selector)
+    '''returns None\n\n
+    addFilename(final FilenameSelector selector)\n
     '''
 def addCustom():
-    '''public void addCustom(final ExtendSelector selector)
+    '''returns None\n\n
+    addCustom(final ExtendSelector selector)\n
     '''
 def addContains():
-    '''public void addContains(final ContainsSelector selector)
+    '''returns None\n\n
+    addContains(final ContainsSelector selector)\n
     '''
 def addPresent():
-    '''public void addPresent(final PresentSelector selector)
+    '''returns None\n\n
+    addPresent(final PresentSelector selector)\n
     '''
 def addDepth():
-    '''public void addDepth(final DepthSelector selector)
+    '''returns None\n\n
+    addDepth(final DepthSelector selector)\n
     '''
 def addDepend():
-    '''public void addDepend(final DependSelector selector)
+    '''returns None\n\n
+    addDepend(final DependSelector selector)\n
     '''
 def addContainsRegexp():
-    '''public void addContainsRegexp(final ContainsRegexpSelector selector)
+    '''returns None\n\n
+    addContainsRegexp(final ContainsRegexpSelector selector)\n
     '''
 def addModified():
-    '''public void addModified(final ModifiedSelector selector)
+    '''returns None\n\n
+    addModified(final ModifiedSelector selector)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def isFilesystemOnly():
-    '''public boolean isFilesystemOnly()
-    public boolean isFilesystemOnly()
+    '''returns boolean\n\n
+    isFilesystemOnly()\n
+    isFilesystemOnly()\n
     '''
 def size():
-    '''public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
     '''
 def iterator():
-    '''public Iterator iterator()
-    public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
+    iterator()\n
     '''
 def compare():
-    '''public int compare(final Object foo, final Object bar)
+    '''returns int\n\n
+    compare(final Object foo, final Object bar)\n
     '''

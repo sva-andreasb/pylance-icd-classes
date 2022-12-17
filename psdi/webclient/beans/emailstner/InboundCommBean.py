@@ -1,9 +1,8 @@
 def inbstatus():
-    '''public int inbstatus()
+    '''returns int\n\n
+    inbstatus()\n
     '''
 def inbchangestatus():
-    '''public int inbchangestatus()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns int\n\n
+    inbchangestatus()\n
     '''

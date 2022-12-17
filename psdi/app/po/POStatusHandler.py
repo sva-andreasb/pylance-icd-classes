@@ -1,60 +1,76 @@
-def POStatusHandler():
-    '''public POStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns POStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredExternalStatus)
-    '''
-def getOptionName():
-    '''public static String getOptionName(final String status)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredExternalStatus)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)\n
     '''
 def approve():
-    '''public void approve(final Date date)
+    '''returns None\n\n
+    approve(final Date date)\n
     '''
 def updateMboForStatus():
-    '''public void updateMboForStatus(final String status)
+    '''returns None\n\n
+    updateMboForStatus(final String status)\n
     '''
 def revise():
-    '''public void revise()
+    '''returns None\n\n
+    revise()\n
     '''
 def hold():
-    '''public void hold()
+    '''returns None\n\n
+    hold()\n
     '''
 def pndrev():
-    '''public void pndrev()
+    '''returns None\n\n
+    pndrev()\n
     '''
 def canPndRev():
-    '''public void canPndRev(final String currentMaxStatus)
+    '''returns None\n\n
+    canPndRev(final String currentMaxStatus)\n
     '''
 def canRevise():
-    '''public void canRevise(final String currentMaxStatus)
+    '''returns None\n\n
+    canRevise(final String currentMaxStatus)\n
     '''
 def canHold():
-    '''public void canHold(final String currentMaxStatus)
+    '''returns None\n\n
+    canHold(final String currentMaxStatus)\n
     '''
 def isPOFromPR():
-    '''public boolean isPOFromPR()
+    '''returns boolean\n\n
+    isPOFromPR()\n
     '''
 def isPOFromRFQ():
-    '''public boolean isPOFromRFQ()
+    '''returns boolean\n\n
+    isPOFromRFQ()\n
     '''
 def updatePRPRLine():
-    '''public void updatePRPRLine()
+    '''returns None\n\n
+    updatePRPRLine()\n
     '''
 def updateRFQRFQLine():
-    '''public void updateRFQRFQLine()
+    '''returns None\n\n
+    updateRFQRFQLine()\n
     '''
 def checkPndRevLines():
-    '''public void checkPndRevLines(final MboRemote poRemote, final MboSetRemote poLines)
+    '''returns None\n\n
+    checkPndRevLines(final MboRemote poRemote, final MboSetRemote poLines)\n
     '''
 def updatePndRevLines():
-    '''public void updatePndRevLines(final MboRemote poRemote, final MboSetRemote poLines)
+    '''returns None\n\n
+    updatePndRevLines(final MboRemote poRemote, final MboSetRemote poLines)\n
     '''
 def samePOlineOnTwoVersions():
-    '''public boolean samePOlineOnTwoVersions(final MboRemote prLineRemote)
+    '''returns boolean\n\n
+    samePOlineOnTwoVersions(final MboRemote prLineRemote)\n
     '''

@@ -1,6 +1,8 @@
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''
 def setPageStartIndex():
-    '''public boolean setPageStartIndex(final int nRow)
+    '''returns boolean\n\n
+    setPageStartIndex(final int nRow)\n
     '''

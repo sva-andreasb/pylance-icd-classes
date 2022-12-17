@@ -1,3 +1,4 @@
 def resolve():
-    '''public int resolve(final HttpHost host)
+    '''returns int\n\n
+    resolve(final HttpHost host)\n
     '''

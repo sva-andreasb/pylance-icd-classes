@@ -1,23 +1,27 @@
-def BufferPipe():
-    '''public BufferPipe()
+def ():
+    '''returns Finished\n\n
+    ()\n
+    ()\n
+    (final Exception e)\n
     '''
 def put():
-    '''public void put(final Domain d)
+    '''returns None\n\n
+    put(final Domain d)\n
     '''
 def close():
-    '''public void close()
-    public void close(final Exception e)
+    '''returns None\n\n
+    close()\n
+    close(final Exception e)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def get():
-    '''public Domain get()
-    '''
-def Finished():
-    '''public Finished()
-    public Finished(final Exception e)
+    '''returns Domain\n\n
+    get()\n
     '''
 def getCause():
-    '''public RuntimeException getCause()
+    '''returns RuntimeException\n\n
+    getCause()\n
     '''

@@ -1,12 +1,12 @@
-def LogTimeable():
-    '''public LogTimeable(final String msg)
+def ():
+    '''returns LogTimeable\n\n
+    (final String msg)\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def tick():
-    '''public void tick(final String msg)
-    '''
-def start():
-    '''public static LogTimeable start(final String msg)
+    '''returns None\n\n
+    tick(final String msg)\n
     '''

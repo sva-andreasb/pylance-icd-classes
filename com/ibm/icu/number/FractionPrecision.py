@@ -1,6 +1,8 @@
 def withMinDigits():
-    '''public Precision withMinDigits(final int minSignificantDigits)
+    '''returns Precision\n\n
+    withMinDigits(final int minSignificantDigits)\n
     '''
 def withMaxDigits():
-    '''public Precision withMaxDigits(final int maxSignificantDigits)
+    '''returns Precision\n\n
+    withMaxDigits(final int maxSignificantDigits)\n
     '''

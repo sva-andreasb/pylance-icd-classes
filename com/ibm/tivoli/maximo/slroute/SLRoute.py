@@ -1,33 +1,44 @@
-def SLRoute():
-    '''public SLRoute(final MboSet ms)
+def ():
+    '''returns SLRoute\n\n
+    (final MboSet ms)\n
     '''
 def setSelectedResources():
-    '''public void setSelectedResources(final Collection<? extends MboRemote> resources)
+    '''returns None\n\n
+    setSelectedResources(final Collection<? extends MboRemote> resources)\n
     '''
 def getSelectedCrews():
-    '''public List<AMCrewRemote> getSelectedCrews()
+    '''returns List<AMCrewRemote>\n\n
+    getSelectedCrews()\n
     '''
 def getSelectedLabors():
-    '''public List<LaborRemote> getSelectedLabors()
+    '''returns List<LaborRemote>\n\n
+    getSelectedLabors()\n
     '''
 def setResourceSelection():
-    '''public void setResourceSelection(final String attrKey, final Map<Integer, String> selectedKeys)
+    '''returns None\n\n
+    setResourceSelection(final String attrKey, final Map<Integer, String> selectedKeys)\n
     '''
 def getResourceSelection():
-    '''public Vector<Integer> getResourceSelection(final String attrKey)
+    '''returns Vector<Integer>\n\n
+    getResourceSelection(final String attrKey)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def setSLRouteSelection():
-    '''public void setSLRouteSelection(final Map<Integer, String> selectedKeys)
+    '''returns None\n\n
+    setSLRouteSelection(final Map<Integer, String> selectedKeys)\n
     '''
 def getSLRouteSelection():
-    '''public Vector<Integer> getSLRouteSelection()
+    '''returns Vector<Integer>\n\n
+    getSLRouteSelection()\n
     '''
 def setSelectedSLRoutes():
-    '''public void setSelectedSLRoutes(final Collection<? extends MboRemote> resources)
+    '''returns None\n\n
+    setSelectedSLRoutes(final Collection<? extends MboRemote> resources)\n
     '''
 def getSelectedSLRoutes():
-    '''public List<SLRouteRemote> getSelectedSLRoutes()
+    '''returns List<SLRouteRemote>\n\n
+    getSelectedSLRoutes()\n
     '''

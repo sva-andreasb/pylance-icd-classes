@@ -1,40 +1,53 @@
-def GetObjectAclRequest():
-    '''public GetObjectAclRequest(final String bucketName, final String key)
-    public GetObjectAclRequest(final String bucketName, final String key, final String versionId)
+def ():
+    '''returns GetObjectAclRequest\n\n
+    (final String bucketName, final String key)\n
+    (final String bucketName, final String key, final String versionId)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucket():
-    '''public GetObjectAclRequest withBucket(final String bucketName)
+    '''returns GetObjectAclRequest\n\n
+    withBucket(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public GetObjectAclRequest withKey(final String key)
+    '''returns GetObjectAclRequest\n\n
+    withKey(final String key)\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
     '''
 def withVersionId():
-    '''public GetObjectAclRequest withVersionId(final String versionId)
+    '''returns GetObjectAclRequest\n\n
+    withVersionId(final String versionId)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public GetObjectAclRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns GetObjectAclRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

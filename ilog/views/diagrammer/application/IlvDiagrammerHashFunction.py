@@ -1,3 +1,4 @@
 def hashCode():
-    '''public Object hashCode(final IlvDiagrammer ilvDiagrammer, final Object o)
+    '''returns Object\n\n
+    hashCode(final IlvDiagrammer ilvDiagrammer, final Object o)\n
     '''

@@ -2,27 +2,35 @@ DEVICE_GRAY_COLOR_FUNCTION = "String  \"device-gray\""
 DEVICE_RGB_COLOR_FUNCTION = "String  \"device-rgb\""
 DEVICE_CMYK_COLOR_FUNCTION = "String  \"device-cmyk\""
 DEVICE_NCHANNEL_COLOR_FUNCTION = "String  \"device-nchannel\""
-def DeviceColor():
-    '''public DeviceColor(final boolean nChannel)
+def ():
+    '''returns DeviceColor\n\n
+    (final boolean nChannel)\n
     '''
 def getCssValueType():
-    '''public short getCssValueType()
+    '''returns short\n\n
+    getCssValueType()\n
     '''
 def isNChannel():
-    '''public boolean isNChannel()
+    '''returns boolean\n\n
+    isNChannel()\n
     '''
 def getNumberOfColors():
-    '''public int getNumberOfColors()
+    '''returns int\n\n
+    getNumberOfColors()\n
     '''
 def getColor():
-    '''public float getColor(final int i)
+    '''returns float\n\n
+    getColor(final int i)\n
     '''
 def getCssText():
-    '''public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
     '''
 def append():
-    '''public void append(final float c)
+    '''returns None\n\n
+    append(final float c)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,51 +1,56 @@
-def DefaultClientConnection():
-    '''public DefaultClientConnection()
+def ():
+    '''returns DefaultClientConnection\n\n
+    ()\n
     '''
 def getId():
-    '''public String getId()
-    '''
-def getTargetHost():
-    '''public final HttpHost getTargetHost()
-    '''
-def isSecure():
-    '''public final boolean isSecure()
-    '''
-def getSocket():
-    '''public final Socket getSocket()
+    '''returns String\n\n
+    getId()\n
     '''
 def getSSLSession():
-    '''public SSLSession getSSLSession()
+    '''returns SSLSession\n\n
+    getSSLSession()\n
     '''
 def opening():
-    '''public void opening(final Socket sock, final HttpHost target)
+    '''returns None\n\n
+    opening(final Socket sock, final HttpHost target)\n
     '''
 def openCompleted():
-    '''public void openCompleted(final boolean secure, final HttpParams params)
+    '''returns None\n\n
+    openCompleted(final boolean secure, final HttpParams params)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def bind():
-    '''public void bind(final Socket socket)
+    '''returns None\n\n
+    bind(final Socket socket)\n
     '''
 def update():
-    '''public void update(final Socket sock, final HttpHost target, final boolean secure, final HttpParams params)
+    '''returns None\n\n
+    update(final Socket sock, final HttpHost target, final boolean secure, final HttpParams params)\n
     '''
 def receiveResponseHeader():
-    '''public HttpResponse receiveResponseHeader()
+    '''returns HttpResponse\n\n
+    receiveResponseHeader()\n
     '''
 def sendRequestHeader():
-    '''public void sendRequestHeader(final HttpRequest request)
+    '''returns None\n\n
+    sendRequestHeader(final HttpRequest request)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String id)
+    '''returns Object\n\n
+    getAttribute(final String id)\n
     '''
 def removeAttribute():
-    '''public Object removeAttribute(final String id)
+    '''returns Object\n\n
+    removeAttribute(final String id)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String id, final Object obj)
+    '''returns None\n\n
+    setAttribute(final String id, final Object obj)\n
     '''

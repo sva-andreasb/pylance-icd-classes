@@ -1,3 +1,4 @@
 def getMember():
-    '''public Object getMember(final String s)
+    '''returns Object\n\n
+    getMember(final String s)\n
     '''

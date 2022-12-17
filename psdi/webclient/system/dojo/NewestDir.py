@@ -1,12 +1,16 @@
 def setDir():
-    '''public void setDir(final File dir)
+    '''returns None\n\n
+    setDir(final File dir)\n
     '''
 def setProperty():
-    '''public void setProperty(final String property)
+    '''returns None\n\n
+    setProperty(final String property)\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

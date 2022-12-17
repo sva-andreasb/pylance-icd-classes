@@ -1,16 +1,21 @@
 def verifyPassword():
-    '''public boolean verifyPassword(final String password)
-    public boolean verifyPassword(final KeyPair keyPair, final X509Certificate x509)
+    '''returns boolean\n\n
+    verifyPassword(final String password)\n
+    verifyPassword(final KeyPair keyPair, final X509Certificate x509)\n
     '''
 def getDataStream():
-    '''public InputStream getDataStream(final DirectoryNode dir)
+    '''returns InputStream\n\n
+    getDataStream(final DirectoryNode dir)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def clone():
-    '''public AgileDecryptor clone()
+    '''returns AgileDecryptor\n\n
+    clone()\n
     '''
-def AgileCipherInputStream():
-    '''public AgileCipherInputStream(final DocumentInputStream stream, final long size)
+def ():
+    '''returns AgileCipherInputStream\n\n
+    (final DocumentInputStream stream, final long size)\n
     '''

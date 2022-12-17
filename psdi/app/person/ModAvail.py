@@ -1,9 +1,12 @@
-def ModAvail():
-    '''public ModAvail(final MboSet ms)
+def ():
+    '''returns ModAvail\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

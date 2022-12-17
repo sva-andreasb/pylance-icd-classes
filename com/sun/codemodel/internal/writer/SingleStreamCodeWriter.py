@@ -1,10 +1,13 @@
-def SingleStreamCodeWriter():
-    '''public SingleStreamCodeWriter(final OutputStream os)
+def ():
+    '''returns SingleStreamCodeWriter\n\n
+    (final OutputStream os)\n
     '''
 def openBinary():
-    '''public OutputStream openBinary(final JPackage pkg, final String fileName)
+    '''returns OutputStream\n\n
+    openBinary(final JPackage pkg, final String fileName)\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''

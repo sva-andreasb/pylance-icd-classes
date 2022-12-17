@@ -3,42 +3,44 @@ HTTP_REQUEST = "String  \"http.request\""
 HTTP_RESPONSE = "String  \"http.response\""
 HTTP_TARGET_HOST = "String  \"http.target_host\""
 HTTP_REQ_SENT = "String  \"http.request_sent\""
-def create():
-    '''public static HttpCoreContext create()
-    '''
-def adapt():
-    '''public static HttpCoreContext adapt(final HttpContext context)
-    '''
-def HttpCoreContext():
-    '''public HttpCoreContext(final HttpContext context)
-    public HttpCoreContext()
+def ():
+    '''returns HttpCoreContext\n\n
+    (final HttpContext context)\n
+    ()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String id)
-    public <T> T getAttribute(final String attribname, final Class<T> clazz)
+    '''returns Object\n\n
+    getAttribute(final String id)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String id, final Object obj)
+    '''returns None\n\n
+    setAttribute(final String id, final Object obj)\n
     '''
 def removeAttribute():
-    '''public Object removeAttribute(final String id)
+    '''returns Object\n\n
+    removeAttribute(final String id)\n
     '''
 def getConnection():
-    '''public <T extends HttpConnection> T getConnection(final Class<T> clazz)
-    public HttpConnection getConnection()
+    '''returns HttpConnection\n\n
+    getConnection()\n
     '''
 def getRequest():
-    '''public HttpRequest getRequest()
+    '''returns HttpRequest\n\n
+    getRequest()\n
     '''
 def isRequestSent():
-    '''public boolean isRequestSent()
+    '''returns boolean\n\n
+    isRequestSent()\n
     '''
 def getResponse():
-    '''public HttpResponse getResponse()
+    '''returns HttpResponse\n\n
+    getResponse()\n
     '''
 def setTargetHost():
-    '''public void setTargetHost(final HttpHost host)
+    '''returns None\n\n
+    setTargetHost(final HttpHost host)\n
     '''
 def getTargetHost():
-    '''public HttpHost getTargetHost()
+    '''returns HttpHost\n\n
+    getTargetHost()\n
     '''

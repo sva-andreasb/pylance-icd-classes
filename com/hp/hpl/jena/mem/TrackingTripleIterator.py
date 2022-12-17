@@ -1,6 +1,8 @@
-def TrackingTripleIterator():
-    '''public TrackingTripleIterator(final Iterator<Triple> it)
+def ():
+    '''returns TrackingTripleIterator\n\n
+    (final Iterator<Triple> it)\n
     '''
 def next():
-    '''public Triple next()
+    '''returns Triple\n\n
+    next()\n
     '''

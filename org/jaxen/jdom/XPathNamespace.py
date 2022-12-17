@@ -1,16 +1,21 @@
-def XPathNamespace():
-    '''public XPathNamespace(final Namespace jdomNamespace)
-    public XPathNamespace(final Element jdomElement, final Namespace jdomNamespace)
+def ():
+    '''returns XPathNamespace\n\n
+    (final Namespace jdomNamespace)\n
+    (final Element jdomElement, final Namespace jdomNamespace)\n
     '''
 def getJDOMElement():
-    '''public Element getJDOMElement()
+    '''returns Element\n\n
+    getJDOMElement()\n
     '''
 def setJDOMElement():
-    '''public void setJDOMElement(final Element jdomElement)
+    '''returns None\n\n
+    setJDOMElement(final Element jdomElement)\n
     '''
 def getJDOMNamespace():
-    '''public Namespace getJDOMNamespace()
+    '''returns Namespace\n\n
+    getJDOMNamespace()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

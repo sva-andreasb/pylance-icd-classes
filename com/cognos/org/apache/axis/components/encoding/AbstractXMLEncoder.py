@@ -1,3 +1,4 @@
 def encode():
-    '''public String encode(final String xmlString)
+    '''returns String\n\n
+    encode(final String xmlString)\n
     '''

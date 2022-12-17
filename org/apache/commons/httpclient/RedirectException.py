@@ -1,5 +1,6 @@
-def RedirectException():
-    '''public RedirectException()
-    public RedirectException(final String message)
-    public RedirectException(final String message, final Throwable cause)
+def ():
+    '''returns RedirectException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

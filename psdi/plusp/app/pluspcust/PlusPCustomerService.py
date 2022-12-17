@@ -1,7 +1,9 @@
-def PlusPCustomerService():
-    '''public PlusPCustomerService()
-    public PlusPCustomerService(final MXServer mxServer)
+def ():
+    '''returns PlusPCustomerService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getExtraNotPrimaryCustomerAssociationObjects():
-    '''public ArrayList<String> getExtraNotPrimaryCustomerAssociationObjects()
+    '''returns ArrayList<String>\n\n
+    getExtraNotPrimaryCustomerAssociationObjects()\n
     '''

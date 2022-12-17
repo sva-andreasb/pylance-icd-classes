@@ -1,6 +1,8 @@
-def HttpRequest():
-    '''public HttpRequest(final OutputStream outputStream_)
+def ():
+    '''returns HttpRequest\n\n
+    (final OutputStream outputStream_)\n
     '''
 def flushMessage():
-    '''public int flushMessage(final Message message, final byte b)
+    '''returns int\n\n
+    flushMessage(final Message message, final byte b)\n
     '''

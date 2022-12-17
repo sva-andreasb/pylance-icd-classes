@@ -1,165 +1,205 @@
-def PeriodFormatterBuilder():
-    '''public PeriodFormatterBuilder()
+def ():
+    '''returns PeriodFormatterBuilder\n\n
+    ()\n
     '''
 def toFormatter():
-    '''public PeriodFormatter toFormatter()
+    '''returns PeriodFormatter\n\n
+    toFormatter()\n
     '''
 def toPrinter():
-    '''public PeriodPrinter toPrinter()
+    '''returns PeriodPrinter\n\n
+    toPrinter()\n
     '''
 def toParser():
-    '''public PeriodParser toParser()
+    '''returns PeriodParser\n\n
+    toParser()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def append():
-    '''public PeriodFormatterBuilder append(final PeriodFormatter periodFormatter)
-    public PeriodFormatterBuilder append(final PeriodPrinter periodPrinter, final PeriodParser periodParser)
+    '''returns PeriodFormatterBuilder\n\n
+    append(final PeriodFormatter periodFormatter)\n
+    append(final PeriodPrinter periodPrinter, final PeriodParser periodParser)\n
     '''
 def appendLiteral():
-    '''public PeriodFormatterBuilder appendLiteral(final String s)
+    '''returns PeriodFormatterBuilder\n\n
+    appendLiteral(final String s)\n
     '''
 def minimumPrintedDigits():
-    '''public PeriodFormatterBuilder minimumPrintedDigits(final int iMinPrintedDigits)
+    '''returns PeriodFormatterBuilder\n\n
+    minimumPrintedDigits(final int iMinPrintedDigits)\n
     '''
 def maximumParsedDigits():
-    '''public PeriodFormatterBuilder maximumParsedDigits(final int iMaxParsedDigits)
+    '''returns PeriodFormatterBuilder\n\n
+    maximumParsedDigits(final int iMaxParsedDigits)\n
     '''
 def rejectSignedValues():
-    '''public PeriodFormatterBuilder rejectSignedValues(final boolean iRejectSignedValues)
+    '''returns PeriodFormatterBuilder\n\n
+    rejectSignedValues(final boolean iRejectSignedValues)\n
     '''
 def printZeroRarelyLast():
-    '''public PeriodFormatterBuilder printZeroRarelyLast()
+    '''returns PeriodFormatterBuilder\n\n
+    printZeroRarelyLast()\n
     '''
 def printZeroRarelyFirst():
-    '''public PeriodFormatterBuilder printZeroRarelyFirst()
+    '''returns PeriodFormatterBuilder\n\n
+    printZeroRarelyFirst()\n
     '''
 def printZeroIfSupported():
-    '''public PeriodFormatterBuilder printZeroIfSupported()
+    '''returns PeriodFormatterBuilder\n\n
+    printZeroIfSupported()\n
     '''
 def printZeroAlways():
-    '''public PeriodFormatterBuilder printZeroAlways()
+    '''returns PeriodFormatterBuilder\n\n
+    printZeroAlways()\n
     '''
 def printZeroNever():
-    '''public PeriodFormatterBuilder printZeroNever()
+    '''returns PeriodFormatterBuilder\n\n
+    printZeroNever()\n
     '''
 def appendPrefix():
-    '''public PeriodFormatterBuilder appendPrefix(final String s)
-    public PeriodFormatterBuilder appendPrefix(final String s, final String s2)
-    public PeriodFormatterBuilder appendPrefix(final String[] array, final String[] array2)
+    '''returns PeriodFormatterBuilder\n\n
+    appendPrefix(final String s)\n
+    appendPrefix(final String s, final String s2)\n
+    appendPrefix(final String[] array, final String[] array2)\n
     '''
 def appendYears():
-    '''public PeriodFormatterBuilder appendYears()
+    '''returns PeriodFormatterBuilder\n\n
+    appendYears()\n
     '''
 def appendMonths():
-    '''public PeriodFormatterBuilder appendMonths()
+    '''returns PeriodFormatterBuilder\n\n
+    appendMonths()\n
     '''
 def appendWeeks():
-    '''public PeriodFormatterBuilder appendWeeks()
+    '''returns PeriodFormatterBuilder\n\n
+    appendWeeks()\n
     '''
 def appendDays():
-    '''public PeriodFormatterBuilder appendDays()
+    '''returns PeriodFormatterBuilder\n\n
+    appendDays()\n
     '''
 def appendHours():
-    '''public PeriodFormatterBuilder appendHours()
+    '''returns PeriodFormatterBuilder\n\n
+    appendHours()\n
     '''
 def appendMinutes():
-    '''public PeriodFormatterBuilder appendMinutes()
+    '''returns PeriodFormatterBuilder\n\n
+    appendMinutes()\n
     '''
 def appendSeconds():
-    '''public PeriodFormatterBuilder appendSeconds()
+    '''returns PeriodFormatterBuilder\n\n
+    appendSeconds()\n
     '''
 def appendSecondsWithMillis():
-    '''public PeriodFormatterBuilder appendSecondsWithMillis()
+    '''returns PeriodFormatterBuilder\n\n
+    appendSecondsWithMillis()\n
     '''
 def appendSecondsWithOptionalMillis():
-    '''public PeriodFormatterBuilder appendSecondsWithOptionalMillis()
+    '''returns PeriodFormatterBuilder\n\n
+    appendSecondsWithOptionalMillis()\n
     '''
 def appendMillis():
-    '''public PeriodFormatterBuilder appendMillis()
+    '''returns PeriodFormatterBuilder\n\n
+    appendMillis()\n
     '''
 def appendMillis3Digit():
-    '''public PeriodFormatterBuilder appendMillis3Digit()
+    '''returns PeriodFormatterBuilder\n\n
+    appendMillis3Digit()\n
     '''
 def appendSuffix():
-    '''public PeriodFormatterBuilder appendSuffix(final String s)
-    public PeriodFormatterBuilder appendSuffix(final String s, final String s2)
-    public PeriodFormatterBuilder appendSuffix(final String[] array, final String[] array2)
+    '''returns PeriodFormatterBuilder\n\n
+    appendSuffix(final String s)\n
+    appendSuffix(final String s, final String s2)\n
+    appendSuffix(final String[] array, final String[] array2)\n
     '''
 def appendSeparator():
-    '''public PeriodFormatterBuilder appendSeparator(final String s)
-    public PeriodFormatterBuilder appendSeparator(final String s, final String s2)
-    public PeriodFormatterBuilder appendSeparator(final String s, final String s2, final String[] array)
+    '''returns PeriodFormatterBuilder\n\n
+    appendSeparator(final String s)\n
+    appendSeparator(final String s, final String s2)\n
+    appendSeparator(final String s, final String s2, final String[] array)\n
     '''
 def appendSeparatorIfFieldsAfter():
-    '''public PeriodFormatterBuilder appendSeparatorIfFieldsAfter(final String s)
+    '''returns PeriodFormatterBuilder\n\n
+    appendSeparatorIfFieldsAfter(final String s)\n
     '''
 def appendSeparatorIfFieldsBefore():
-    '''public PeriodFormatterBuilder appendSeparatorIfFieldsBefore(final String s)
+    '''returns PeriodFormatterBuilder\n\n
+    appendSeparatorIfFieldsBefore(final String s)\n
     '''
 def finish():
-    '''public void finish(final Set<PeriodFieldAffix> set)
-    public void finish(final FieldFormatter[] array)
+    '''returns None\n\n
+    finish(final Set<PeriodFieldAffix> set)\n
+    finish(final FieldFormatter[] array)\n
     '''
 def calculatePrintedLength():
-    '''public int calculatePrintedLength(final int n)
-    public int calculatePrintedLength(final int n)
-    public int calculatePrintedLength(final int n)
-    public int calculatePrintedLength(final int n)
-    public int calculatePrintedLength(final ReadablePeriod readablePeriod, final Locale locale)
-    public int calculatePrintedLength(final ReadablePeriod readablePeriod, final Locale locale)
-    public int calculatePrintedLength(final ReadablePeriod readablePeriod, final Locale locale)
-    public int calculatePrintedLength(final ReadablePeriod readablePeriod, final Locale locale)
+    '''returns int\n\n
+    calculatePrintedLength(final int n)\n
+    calculatePrintedLength(final int n)\n
+    calculatePrintedLength(final int n)\n
+    calculatePrintedLength(final int n)\n
+    calculatePrintedLength(final ReadablePeriod readablePeriod, final Locale locale)\n
+    calculatePrintedLength(final ReadablePeriod readablePeriod, final Locale locale)\n
+    calculatePrintedLength(final ReadablePeriod readablePeriod, final Locale locale)\n
+    calculatePrintedLength(final ReadablePeriod readablePeriod, final Locale locale)\n
     '''
 def printTo():
-    '''public void printTo(final StringBuffer sb, final int n)
-    public void printTo(final Writer writer, final int n)
-    public void printTo(final StringBuffer sb, final int n)
-    public void printTo(final Writer writer, final int n)
-    public void printTo(final StringBuffer sb, final int n)
-    public void printTo(final Writer writer, final int n)
-    public void printTo(final StringBuffer sb, final int n)
-    public void printTo(final Writer writer, final int n)
-    public void printTo(final StringBuffer sb, final ReadablePeriod readablePeriod, final Locale locale)
-    public void printTo(final Writer writer, final ReadablePeriod readablePeriod, final Locale locale)
-    public void printTo(final StringBuffer sb, final ReadablePeriod readablePeriod, final Locale locale)
-    public void printTo(final Writer writer, final ReadablePeriod readablePeriod, final Locale locale)
-    public void printTo(final StringBuffer sb, final ReadablePeriod readablePeriod, final Locale locale)
-    public void printTo(final Writer writer, final ReadablePeriod readablePeriod, final Locale locale)
-    public void printTo(final StringBuffer sb, final ReadablePeriod readablePeriod, final Locale locale)
-    public void printTo(final Writer writer, final ReadablePeriod readablePeriod, final Locale locale)
+    '''returns None\n\n
+    printTo(final StringBuffer sb, final int n)\n
+    printTo(final Writer writer, final int n)\n
+    printTo(final StringBuffer sb, final int n)\n
+    printTo(final Writer writer, final int n)\n
+    printTo(final StringBuffer sb, final int n)\n
+    printTo(final Writer writer, final int n)\n
+    printTo(final StringBuffer sb, final int n)\n
+    printTo(final Writer writer, final int n)\n
+    printTo(final StringBuffer sb, final ReadablePeriod readablePeriod, final Locale locale)\n
+    printTo(final Writer writer, final ReadablePeriod readablePeriod, final Locale locale)\n
+    printTo(final StringBuffer sb, final ReadablePeriod readablePeriod, final Locale locale)\n
+    printTo(final Writer writer, final ReadablePeriod readablePeriod, final Locale locale)\n
+    printTo(final StringBuffer sb, final ReadablePeriod readablePeriod, final Locale locale)\n
+    printTo(final Writer writer, final ReadablePeriod readablePeriod, final Locale locale)\n
+    printTo(final StringBuffer sb, final ReadablePeriod readablePeriod, final Locale locale)\n
+    printTo(final Writer writer, final ReadablePeriod readablePeriod, final Locale locale)\n
     '''
 def parse():
-    '''public int parse(final String s, final int toffset)
-    public int parse(final String s, final int n)
-    public int parse(final String s, final int toffset)
-    public int parse(final String s, final int n)
+    '''returns int\n\n
+    parse(final String s, final int toffset)\n
+    parse(final String s, final int n)\n
+    parse(final String s, final int toffset)\n
+    parse(final String s, final int n)\n
     '''
 def scan():
-    '''public int scan(final String s, final int n)
-    public int scan(final String s, final int n)
-    public int scan(final String s, final int n)
-    public int scan(final String s, final int n)
+    '''returns int\n\n
+    scan(final String s, final int n)\n
+    scan(final String s, final int n)\n
+    scan(final String s, final int n)\n
+    scan(final String s, final int n)\n
     '''
 def getAffixes():
-    '''public String[] getAffixes()
-    public String[] getAffixes()
-    public String[] getAffixes()
-    public String[] getAffixes()
+    '''returns String[]\n\n
+    getAffixes()\n
+    getAffixes()\n
+    getAffixes()\n
+    getAffixes()\n
     '''
 def compare():
-    '''public int compare(final String s, final String s2)
+    '''returns int\n\n
+    compare(final String s, final String s2)\n
     '''
 def countFieldsToPrint():
-    '''public int countFieldsToPrint(final ReadablePeriod readablePeriod, final int n, final Locale locale)
-    public int countFieldsToPrint(final ReadablePeriod readablePeriod, final int n, final Locale locale)
-    public int countFieldsToPrint(final ReadablePeriod readablePeriod, final int n, final Locale locale)
-    public int countFieldsToPrint(final ReadablePeriod readablePeriod, final int n, final Locale locale)
+    '''returns int\n\n
+    countFieldsToPrint(final ReadablePeriod readablePeriod, final int n, final Locale locale)\n
+    countFieldsToPrint(final ReadablePeriod readablePeriod, final int n, final Locale locale)\n
+    countFieldsToPrint(final ReadablePeriod readablePeriod, final int n, final Locale locale)\n
+    countFieldsToPrint(final ReadablePeriod readablePeriod, final int n, final Locale locale)\n
     '''
 def parseInto():
-    '''public int parseInto(final ReadWritablePeriod readWritablePeriod, final String s, int n, final Locale locale)
-    public int parseInto(final ReadWritablePeriod readWritablePeriod, final String s, final int toffset, final Locale locale)
-    public int parseInto(final ReadWritablePeriod readWritablePeriod, final String s, int toffset, final Locale locale)
-    public int parseInto(final ReadWritablePeriod readWritablePeriod, final String s, int into, final Locale locale)
+    '''returns int\n\n
+    parseInto(final ReadWritablePeriod readWritablePeriod, final String s, int n, final Locale locale)\n
+    parseInto(final ReadWritablePeriod readWritablePeriod, final String s, final int toffset, final Locale locale)\n
+    parseInto(final ReadWritablePeriod readWritablePeriod, final String s, int toffset, final Locale locale)\n
+    parseInto(final ReadWritablePeriod readWritablePeriod, final String s, int into, final Locale locale)\n
     '''

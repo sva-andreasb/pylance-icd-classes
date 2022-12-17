@@ -1,118 +1,149 @@
-def BIMProjectParser():
-    '''public BIMProjectParser(final long flags)
-    public BIMProjectParser(final IdFactory idFactory, final MessageLogger logger, final Locale locale, final long flags)
+def ():
+    '''returns BIMProjectParser\n\n
+    (final long flags)\n
+    (final IdFactory idFactory, final MessageLogger logger, final Locale locale, final long flags)\n
     '''
 def addConvertedField():
-    '''public void addConvertedField(final String tableName, final String fieldName, final String attributeName)
+    '''returns None\n\n
+    addConvertedField(final String tableName, final String fieldName, final String attributeName)\n
     '''
 def getConvertedField():
-    '''public String getConvertedField(final String tableName, final String fieldName)
+    '''returns String\n\n
+    getConvertedField(final String tableName, final String fieldName)\n
     '''
 def addFile():
-    '''public void addFile(final InputFile cobieFile)
+    '''returns None\n\n
+    addFile(final InputFile cobieFile)\n
     '''
 def addSkippedSpace():
-    '''public void addSkippedSpace(final String spaceName)
+    '''returns None\n\n
+    addSkippedSpace(final String spaceName)\n
     '''
 def isSpaceSkipped():
-    '''public boolean isSpaceSkipped(final String spaceName)
+    '''returns boolean\n\n
+    isSpaceSkipped(final String spaceName)\n
     '''
 def addFilter():
-    '''public void addFilter(final Filter filter)
+    '''returns None\n\n
+    addFilter(final Filter filter)\n
     '''
 def filters():
-    '''public Iterator<Filter> filters()
+    '''returns Iterator<Filter>\n\n
+    filters()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def deleteFiles():
-    '''public void deleteFiles(final String workingDirRoot)
+    '''returns None\n\n
+    deleteFiles(final String workingDirRoot)\n
     '''
 def addPage():
-    '''public void addPage(final Page page)
+    '''returns None\n\n
+    addPage(final Page page)\n
     '''
 def clenup():
-    '''public void clenup()
+    '''returns None\n\n
+    clenup()\n
     '''
 def resolveReferences():
-    '''public void resolveReferences()
+    '''returns None\n\n
+    resolveReferences()\n
     '''
 def categoryFromAttribute():
-    '''public void categoryFromAttribute(String omniClassAttribute)
+    '''returns None\n\n
+    categoryFromAttribute(String omniClassAttribute)\n
     '''
 def spacesFromAttribute():
-    '''public void spacesFromAttribute(final String spaceAttrib)
+    '''returns None\n\n
+    spacesFromAttribute(final String spaceAttrib)\n
     '''
 def levelsFromAttribute():
-    '''public void levelsFromAttribute(final String levelAttrib)
+    '''returns None\n\n
+    levelsFromAttribute(final String levelAttrib)\n
     '''
 def areaFromAttribute():
-    '''public void areaFromAttribute(final String areaAttribute)
+    '''returns None\n\n
+    areaFromAttribute(final String areaAttribute)\n
     '''
 def perimeterFromAttribute():
-    '''public void perimeterFromAttribute(final String perimeterAttribute)
+    '''returns None\n\n
+    perimeterFromAttribute(final String perimeterAttribute)\n
     '''
 def systemsFromAttribute():
-    '''public void systemsFromAttribute(String systemNameAttrib)
+    '''returns None\n\n
+    systemsFromAttribute(String systemNameAttrib)\n
     '''
 def associateCategoriesWithAttributeTypes():
-    '''public void associateCategoriesWithAttributeTypes(final String[] pageList)
+    '''returns None\n\n
+    associateCategoriesWithAttributeTypes(final String[] pageList)\n
     '''
 def getValueList():
-    '''public ItemValueList getValueList(final HashSet<String> valueSet)
+    '''returns ItemValueList\n\n
+    getValueList(final HashSet<String> valueSet)\n
     '''
 def caculateItemCount():
-    '''public void caculateItemCount()
+    '''returns None\n\n
+    caculateItemCount()\n
     '''
 def getPage():
-    '''public Page getPage(final String pageName)
+    '''returns Page\n\n
+    getPage(final String pageName)\n
     '''
 def getItem():
-    '''public Item getItem(final String pageName, final String key)
+    '''returns Item\n\n
+    getItem(final String pageName, final String key)\n
     '''
 def getAttributeType():
-    '''public ItemAttributeType getAttributeType(final String typeName)
+    '''returns ItemAttributeType\n\n
+    getAttributeType(final String typeName)\n
     '''
 def getCompanyFromContact():
-    '''public ItemCONTACT getCompanyFromContact(final String companyName)
+    '''returns ItemCONTACT\n\n
+    getCompanyFromContact(final String companyName)\n
     '''
 def convertCase():
-    '''public String convertCase(final String s)
+    '''returns String\n\n
+    convertCase(final String s)\n
     '''
 def getCategoryMap():
-    '''public AttributeTypeMap getCategoryMap()
+    '''returns AttributeTypeMap\n\n
+    getCategoryMap()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getItemCount():
-    '''public int getItemCount()
+    '''returns int\n\n
+    getItemCount()\n
     '''
 def getVendorAttribute():
-    '''public String getVendorAttribute()
+    '''returns String\n\n
+    getVendorAttribute()\n
     '''
 def printPage():
-    '''public void printPage(final Page page)
+    '''returns None\n\n
+    printPage(final Page page)\n
     '''
 def printAll():
-    '''public void printAll()
+    '''returns None\n\n
+    printAll()\n
     '''
 def getLogger():
-    '''public MessageLogger getLogger()
+    '''returns MessageLogger\n\n
+    getLogger()\n
     '''
 def setLogger():
-    '''public void setLogger(final MessageLogger logger)
+    '''returns None\n\n
+    setLogger(final MessageLogger logger)\n
     '''
 def setVendorAttribute():
-    '''public void setVendorAttribute(final String vendorAttribute)
+    '''returns None\n\n
+    setVendorAttribute(final String vendorAttribute)\n
     '''
 def export():
-    '''public void export(final String fileName, final String[] pageList, final InputStream templateStream, final ExportProgressTracker tracker, final Exporter.ExportFormat fileFormat)
-    '''
-def messageFromException():
-    '''public static String messageFromException(final Throwable t)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    export(final String fileName, final String[] pageList, final InputStream templateStream, final ExportProgressTracker tracker, final Exporter.ExportFormat fileFormat)\n
     '''

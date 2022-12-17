@@ -1,13 +1,17 @@
-def RtfBorderGroup():
-    '''public RtfBorderGroup()
-    public RtfBorderGroup(final int bordersToAdd, final int borderStyle, final float borderWidth, final Color borderColor)
+def ():
+    '''returns RtfBorderGroup\n\n
+    ()\n
+    (final int bordersToAdd, final int borderStyle, final float borderWidth, final Color borderColor)\n
     '''
 def addBorder():
-    '''public void addBorder(final int bordersToAdd, final int borderStyle, final float borderWidth, final Color borderColor)
+    '''returns None\n\n
+    addBorder(final int bordersToAdd, final int borderStyle, final float borderWidth, final Color borderColor)\n
     '''
 def removeBorder():
-    '''public void removeBorder(final int bordersToRemove)
+    '''returns None\n\n
+    removeBorder(final int bordersToRemove)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

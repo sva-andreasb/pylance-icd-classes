@@ -1,27 +1,36 @@
-def StartCenterLoader():
-    '''public StartCenterLoader(final UserInfo ui)
+def ():
+    '''returns StartCenterLoader\n\n
+    (final UserInfo ui)\n
     '''
 def loadStartCenterForUser():
-    '''public void loadStartCenterForUser(final String groupName)
+    '''returns None\n\n
+    loadStartCenterForUser(final String groupName)\n
     '''
 def loadStartCenterFromTemplate():
-    '''public long loadStartCenterFromTemplate(final String templateId, final String groupName, final boolean modifyTemplate)
+    '''returns long\n\n
+    loadStartCenterFromTemplate(final String templateId, final String groupName, final boolean modifyTemplate)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final String currentSaveContentUID, final String[] attributes, final MboRemote mbo, final Element element, final String parentTagName)
+    '''returns None\n\n
+    setAttributes(final String currentSaveContentUID, final String[] attributes, final MboRemote mbo, final Element element, final String parentTagName)\n
     '''
 def saveStartCenterXML():
-    '''public void saveStartCenterXML(final String startCenterId)
+    '''returns None\n\n
+    saveStartCenterXML(final String startCenterId)\n
     '''
 def spaceAndNewLine():
-    '''public Text spaceAndNewLine(final Document doc, final int spaces)
+    '''returns Text\n\n
+    spaceAndNewLine(final Document doc, final int spaces)\n
     '''
 def addChild():
-    '''public void addChild(final Element parentElement, final Element childElement, final int spaces)
+    '''returns None\n\n
+    addChild(final Element parentElement, final Element childElement, final int spaces)\n
     '''
 def addChildren():
-    '''public void addChildren(final String id, final MboSetRemote portletDataSet, final Element rootElement, final Element portletElement, final String tagName, final String[] attributes)
+    '''returns None\n\n
+    addChildren(final String id, final MboSetRemote portletDataSet, final Element rootElement, final Element portletElement, final String tagName, final String[] attributes)\n
     '''
 def getWebClientProperty():
-    '''public String getWebClientProperty(final String prop, final String defaultValue)
+    '''returns String\n\n
+    getWebClientProperty(final String prop, final String defaultValue)\n
     '''

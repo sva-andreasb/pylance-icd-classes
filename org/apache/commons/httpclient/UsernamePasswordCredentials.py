@@ -1,26 +1,34 @@
-def UsernamePasswordCredentials():
-    '''public UsernamePasswordCredentials()
-    public UsernamePasswordCredentials(final String usernamePassword)
-    public UsernamePasswordCredentials(final String userName, final String password)
+def ():
+    '''returns UsernamePasswordCredentials\n\n
+    ()\n
+    (final String usernamePassword)\n
+    (final String userName, final String password)\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

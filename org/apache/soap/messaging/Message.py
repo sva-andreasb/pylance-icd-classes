@@ -1,39 +1,52 @@
-def Message():
-    '''public Message()
+def ():
+    '''returns Message\n\n
+    ()\n
     '''
 def addBodyPart():
-    '''public void addBodyPart(final MimeBodyPart mimeBodyPart)
+    '''returns None\n\n
+    addBodyPart(final MimeBodyPart mimeBodyPart)\n
     '''
 def findBodyPart():
-    '''public MimeBodyPart findBodyPart(final String s)
+    '''returns MimeBodyPart\n\n
+    findBodyPart(final String s)\n
     '''
 def getBodyPart():
-    '''public MimeBodyPart getBodyPart(final int n)
+    '''returns MimeBodyPart\n\n
+    getBodyPart(final int n)\n
     '''
 def getPartCount():
-    '''public int getPartCount()
+    '''returns int\n\n
+    getPartCount()\n
     '''
 def getRequestSOAPContext():
-    '''public SOAPContext getRequestSOAPContext()
+    '''returns SOAPContext\n\n
+    getRequestSOAPContext()\n
     '''
 def getResponseSOAPContext():
-    '''public SOAPContext getResponseSOAPContext()
+    '''returns SOAPContext\n\n
+    getResponseSOAPContext()\n
     '''
 def getRootPart():
-    '''public MimeBodyPart getRootPart()
+    '''returns MimeBodyPart\n\n
+    getRootPart()\n
     '''
 def getSOAPTransport():
-    '''public SOAPTransport getSOAPTransport()
+    '''returns SOAPTransport\n\n
+    getSOAPTransport()\n
     '''
 def receive():
-    '''public DataHandler receive()
+    '''returns DataHandler\n\n
+    receive()\n
     '''
 def receiveEnvelope():
-    '''public Envelope receiveEnvelope()
+    '''returns Envelope\n\n
+    receiveEnvelope()\n
     '''
 def send():
-    '''public void send(final URL url, final String s, final Envelope envelope)
+    '''returns None\n\n
+    send(final URL url, final String s, final Envelope envelope)\n
     '''
 def setSOAPTransport():
-    '''public void setSOAPTransport(final SOAPTransport st)
+    '''returns None\n\n
+    setSOAPTransport(final SOAPTransport st)\n
     '''

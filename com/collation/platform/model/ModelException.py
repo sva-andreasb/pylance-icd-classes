@@ -1,4 +1,5 @@
-def ModelException():
-    '''public ModelException()
-    public ModelException(final String msg)
+def ():
+    '''returns ModelException\n\n
+    ()\n
+    (final String msg)\n
     '''

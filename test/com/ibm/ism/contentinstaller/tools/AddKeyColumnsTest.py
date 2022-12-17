@@ -1,3 +1,4 @@
 def testGetKeyColumns():
-    '''public void testGetKeyColumns()
+    '''returns None\n\n
+    testGetKeyColumns()\n
     '''

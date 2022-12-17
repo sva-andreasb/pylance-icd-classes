@@ -1,134 +1,177 @@
-def GetObjectRequest():
-    '''public GetObjectRequest(final String bucketName, final String key)
-    public GetObjectRequest(final String bucketName, final String key, final String versionId)
-    public GetObjectRequest(final S3ObjectId s3ObjectId)
-    public GetObjectRequest(final String bucketName, final String key, final boolean isRequesterPays)
+def ():
+    '''returns GetObjectRequest\n\n
+    (final String bucketName, final String key)\n
+    (final String bucketName, final String key, final String versionId)\n
+    (final S3ObjectId s3ObjectId)\n
+    (final String bucketName, final String key, final boolean isRequesterPays)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public GetObjectRequest withBucketName(final String bucketName)
+    '''returns GetObjectRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public GetObjectRequest withKey(final String key)
+    '''returns GetObjectRequest\n\n
+    withKey(final String key)\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
     '''
 def withVersionId():
-    '''public GetObjectRequest withVersionId(final String versionId)
+    '''returns GetObjectRequest\n\n
+    withVersionId(final String versionId)\n
     '''
 def getRange():
-    '''public long[] getRange()
+    '''returns long[]\n\n
+    getRange()\n
     '''
 def setRange():
-    '''public void setRange(final long start, final long end)
-    public void setRange(final long start)
+    '''returns None\n\n
+    setRange(final long start, final long end)\n
+    setRange(final long start)\n
     '''
 def withRange():
-    '''public GetObjectRequest withRange(final long start, final long end)
-    public GetObjectRequest withRange(final long start)
+    '''returns GetObjectRequest\n\n
+    withRange(final long start, final long end)\n
+    withRange(final long start)\n
     '''
 def getMatchingETagConstraints():
-    '''public List<String> getMatchingETagConstraints()
+    '''returns List<String>\n\n
+    getMatchingETagConstraints()\n
     '''
 def setMatchingETagConstraints():
-    '''public void setMatchingETagConstraints(final List<String> eTagList)
+    '''returns None\n\n
+    setMatchingETagConstraints(final List<String> eTagList)\n
     '''
 def withMatchingETagConstraint():
-    '''public GetObjectRequest withMatchingETagConstraint(final String eTag)
+    '''returns GetObjectRequest\n\n
+    withMatchingETagConstraint(final String eTag)\n
     '''
 def getNonmatchingETagConstraints():
-    '''public List<String> getNonmatchingETagConstraints()
+    '''returns List<String>\n\n
+    getNonmatchingETagConstraints()\n
     '''
 def setNonmatchingETagConstraints():
-    '''public void setNonmatchingETagConstraints(final List<String> eTagList)
+    '''returns None\n\n
+    setNonmatchingETagConstraints(final List<String> eTagList)\n
     '''
 def withNonmatchingETagConstraint():
-    '''public GetObjectRequest withNonmatchingETagConstraint(final String eTag)
+    '''returns GetObjectRequest\n\n
+    withNonmatchingETagConstraint(final String eTag)\n
     '''
 def getUnmodifiedSinceConstraint():
-    '''public Date getUnmodifiedSinceConstraint()
+    '''returns Date\n\n
+    getUnmodifiedSinceConstraint()\n
     '''
 def setUnmodifiedSinceConstraint():
-    '''public void setUnmodifiedSinceConstraint(final Date date)
+    '''returns None\n\n
+    setUnmodifiedSinceConstraint(final Date date)\n
     '''
 def withUnmodifiedSinceConstraint():
-    '''public GetObjectRequest withUnmodifiedSinceConstraint(final Date date)
+    '''returns GetObjectRequest\n\n
+    withUnmodifiedSinceConstraint(final Date date)\n
     '''
 def getModifiedSinceConstraint():
-    '''public Date getModifiedSinceConstraint()
+    '''returns Date\n\n
+    getModifiedSinceConstraint()\n
     '''
 def setModifiedSinceConstraint():
-    '''public void setModifiedSinceConstraint(final Date date)
+    '''returns None\n\n
+    setModifiedSinceConstraint(final Date date)\n
     '''
 def withModifiedSinceConstraint():
-    '''public GetObjectRequest withModifiedSinceConstraint(final Date date)
+    '''returns GetObjectRequest\n\n
+    withModifiedSinceConstraint(final Date date)\n
     '''
 def getResponseHeaders():
-    '''public ResponseHeaderOverrides getResponseHeaders()
+    '''returns ResponseHeaderOverrides\n\n
+    getResponseHeaders()\n
     '''
 def setResponseHeaders():
-    '''public void setResponseHeaders(final ResponseHeaderOverrides responseHeaders)
+    '''returns None\n\n
+    setResponseHeaders(final ResponseHeaderOverrides responseHeaders)\n
     '''
 def withResponseHeaders():
-    '''public GetObjectRequest withResponseHeaders(final ResponseHeaderOverrides responseHeaders)
+    '''returns GetObjectRequest\n\n
+    withResponseHeaders(final ResponseHeaderOverrides responseHeaders)\n
     '''
 def setProgressListener():
-    '''public void setProgressListener(final ProgressListener progressListener)
+    '''returns None\n\n
+    setProgressListener(final ProgressListener progressListener)\n
     '''
 def getProgressListener():
-    '''public ProgressListener getProgressListener()
+    '''returns ProgressListener\n\n
+    getProgressListener()\n
     '''
 def withProgressListener():
-    '''public GetObjectRequest withProgressListener(final ProgressListener progressListener)
+    '''returns GetObjectRequest\n\n
+    withProgressListener(final ProgressListener progressListener)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public GetObjectRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns GetObjectRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''
 def getSSECustomerKey():
-    '''public SSECustomerKey getSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getSSECustomerKey()\n
     '''
 def setSSECustomerKey():
-    '''public void setSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns None\n\n
+    setSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def withSSECustomerKey():
-    '''public GetObjectRequest withSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns GetObjectRequest\n\n
+    withSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def getPartNumber():
-    '''public Integer getPartNumber()
+    '''returns Integer\n\n
+    getPartNumber()\n
     '''
 def setPartNumber():
-    '''public void setPartNumber(final Integer partNumber)
+    '''returns None\n\n
+    setPartNumber(final Integer partNumber)\n
     '''
 def withPartNumber():
-    '''public GetObjectRequest withPartNumber(final Integer partNumber)
+    '''returns GetObjectRequest\n\n
+    withPartNumber(final Integer partNumber)\n
     '''
 def getS3ObjectId():
-    '''public S3ObjectId getS3ObjectId()
+    '''returns S3ObjectId\n\n
+    getS3ObjectId()\n
     '''
 def setS3ObjectId():
-    '''public void setS3ObjectId(final S3ObjectId s3ObjectId)
+    '''returns None\n\n
+    setS3ObjectId(final S3ObjectId s3ObjectId)\n
     '''
 def withS3ObjectId():
-    '''public GetObjectRequest withS3ObjectId(final S3ObjectId s3ObjectId)
+    '''returns GetObjectRequest\n\n
+    withS3ObjectId(final S3ObjectId s3ObjectId)\n
     '''

@@ -1,3 +1,4 @@
-def ReconAssetResultSet():
-    '''public ReconAssetResultSet(final MboServerInterface ms)
+def ():
+    '''returns ReconAssetResultSet\n\n
+    (final MboServerInterface ms)\n
     '''

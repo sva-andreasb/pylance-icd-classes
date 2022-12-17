@@ -1,63 +1,80 @@
-def newBuilder():
-    '''public static <B extends Builder<B>> B newBuilder()
-    '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def append():
-    '''public void append(final LogEvent event)
+    '''returns None\n\n
+    append(final LogEvent event)\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def build():
-    '''public HttpAppender build()
+    '''returns HttpAppender\n\n
+    build()\n
     '''
 def getUrl():
-    '''public URL getUrl()
+    '''returns URL\n\n
+    getUrl()\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def getConnectTimeoutMillis():
-    '''public int getConnectTimeoutMillis()
+    '''returns int\n\n
+    getConnectTimeoutMillis()\n
     '''
 def getReadTimeoutMillis():
-    '''public int getReadTimeoutMillis()
+    '''returns int\n\n
+    getReadTimeoutMillis()\n
     '''
 def getHeaders():
-    '''public Property[] getHeaders()
+    '''returns Property[]\n\n
+    getHeaders()\n
     '''
 def getSslConfiguration():
-    '''public SslConfiguration getSslConfiguration()
+    '''returns SslConfiguration\n\n
+    getSslConfiguration()\n
     '''
 def isVerifyHostname():
-    '''public boolean isVerifyHostname()
+    '''returns boolean\n\n
+    isVerifyHostname()\n
     '''
 def setUrl():
-    '''public B setUrl(final URL url)
+    '''returns B\n\n
+    setUrl(final URL url)\n
     '''
 def setMethod():
-    '''public B setMethod(final String method)
+    '''returns B\n\n
+    setMethod(final String method)\n
     '''
 def setConnectTimeoutMillis():
-    '''public B setConnectTimeoutMillis(final int connectTimeoutMillis)
+    '''returns B\n\n
+    setConnectTimeoutMillis(final int connectTimeoutMillis)\n
     '''
 def setReadTimeoutMillis():
-    '''public B setReadTimeoutMillis(final int readTimeoutMillis)
+    '''returns B\n\n
+    setReadTimeoutMillis(final int readTimeoutMillis)\n
     '''
 def setHeaders():
-    '''public B setHeaders(final Property[] headers)
+    '''returns B\n\n
+    setHeaders(final Property[] headers)\n
     '''
 def setSslConfiguration():
-    '''public B setSslConfiguration(final SslConfiguration sslConfiguration)
+    '''returns B\n\n
+    setSslConfiguration(final SslConfiguration sslConfiguration)\n
     '''
 def setVerifyHostname():
-    '''public B setVerifyHostname(final boolean verifyHostname)
+    '''returns B\n\n
+    setVerifyHostname(final boolean verifyHostname)\n
     '''

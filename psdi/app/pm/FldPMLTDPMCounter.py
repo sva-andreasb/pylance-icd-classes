@@ -1,3 +1,4 @@
-def FldPMLTDPMCounter():
-    '''public FldPMLTDPMCounter(final MboValue mbv)
+def ():
+    '''returns FldPMLTDPMCounter\n\n
+    (final MboValue mbv)\n
     '''

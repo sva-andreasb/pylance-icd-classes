@@ -1,9 +1,12 @@
 def CREATIONDIALOG():
-    '''public void CREATIONDIALOG()
+    '''returns None\n\n
+    CREATIONDIALOG()\n
     '''
 def SELECTIONDIALOG():
-    '''public void SELECTIONDIALOG()
+    '''returns None\n\n
+    SELECTIONDIALOG()\n
     '''
 def PREVIEWDIALOG():
-    '''public void PREVIEWDIALOG()
+    '''returns None\n\n
+    PREVIEWDIALOG()\n
     '''

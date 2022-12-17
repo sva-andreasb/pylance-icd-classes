@@ -1,15 +1,20 @@
 def states():
-    '''public int[] states()
+    '''returns int[]\n\n
+    states()\n
     '''
 def weights():
-    '''public int[] weights()
+    '''returns int[]\n\n
+    weights()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

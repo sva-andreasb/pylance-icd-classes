@@ -1,9 +1,12 @@
-def AdvancedSigOption():
-    '''public AdvancedSigOption(final MboSet ms)
+def ():
+    '''returns AdvancedSigOption\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''

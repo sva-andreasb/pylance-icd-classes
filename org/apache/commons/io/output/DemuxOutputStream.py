@@ -1,15 +1,20 @@
-def DemuxOutputStream():
-    '''public DemuxOutputStream()
+def ():
+    '''returns DemuxOutputStream\n\n
+    ()\n
     '''
 def bindStream():
-    '''public OutputStream bindStream(final OutputStream output)
+    '''returns OutputStream\n\n
+    bindStream(final OutputStream output)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final int ch)
+    '''returns None\n\n
+    write(final int ch)\n
     '''

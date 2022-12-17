@@ -1,6 +1,8 @@
-def URLEndpoint():
-    '''public URLEndpoint(final String url)
+def ():
+    '''returns URLEndpoint\n\n
+    (final String url)\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''

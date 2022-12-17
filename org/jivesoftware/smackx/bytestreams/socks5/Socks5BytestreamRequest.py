@@ -1,30 +1,32 @@
-def getConnectFailureThreshold():
-    '''public static int getConnectFailureThreshold()
-    '''
-def setConnectFailureThreshold():
-    '''public static void setConnectFailureThreshold(final int connectFailureThreshold)
-    '''
 def getTotalConnectTimeout():
-    '''public int getTotalConnectTimeout()
+    '''returns int\n\n
+    getTotalConnectTimeout()\n
     '''
 def setTotalConnectTimeout():
-    '''public void setTotalConnectTimeout(final int totalConnectTimeout)
+    '''returns None\n\n
+    setTotalConnectTimeout(final int totalConnectTimeout)\n
     '''
 def getMinimumConnectTimeout():
-    '''public int getMinimumConnectTimeout()
+    '''returns int\n\n
+    getMinimumConnectTimeout()\n
     '''
 def setMinimumConnectTimeout():
-    '''public void setMinimumConnectTimeout(final int minimumConnectTimeout)
+    '''returns None\n\n
+    setMinimumConnectTimeout(final int minimumConnectTimeout)\n
     '''
 def getFrom():
-    '''public Jid getFrom()
+    '''returns Jid\n\n
+    getFrom()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def accept():
-    '''public Socks5BytestreamSession accept()
+    '''returns Socks5BytestreamSession\n\n
+    accept()\n
     '''
 def reject():
-    '''public void reject()
+    '''returns None\n\n
+    reject()\n
     '''

@@ -1,21 +1,28 @@
-def FldCraftRateSkillLevel():
-    '''public FldCraftRateSkillLevel(final MboValue mbv)
+def ():
+    '''returns FldCraftRateSkillLevel\n\n
+    (final MboValue mbv)\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFill(final String value, final boolean exact)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

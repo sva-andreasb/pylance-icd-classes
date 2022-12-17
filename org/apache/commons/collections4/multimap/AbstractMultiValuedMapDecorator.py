@@ -1,59 +1,70 @@
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def containsMapping():
-    '''public boolean containsMapping(final Object key, final Object value)
+    '''returns boolean\n\n
+    containsMapping(final Object key, final Object value)\n
     '''
 def get():
-    '''public Collection<V> get(final K key)
+    '''returns Collection<V>\n\n
+    get(final K key)\n
     '''
 def remove():
-    '''public Collection<V> remove(final Object key)
+    '''returns Collection<V>\n\n
+    remove(final Object key)\n
     '''
 def removeMapping():
-    '''public boolean removeMapping(final Object key, final Object item)
+    '''returns boolean\n\n
+    removeMapping(final Object key, final Object item)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def put():
-    '''public boolean put(final K key, final V value)
+    '''returns boolean\n\n
+    put(final K key, final V value)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def keys():
-    '''public MultiSet<K> keys()
+    '''returns MultiSet<K>\n\n
+    keys()\n
     '''
 def values():
-    '''public Collection<V> values()
-    '''
-def asMap():
-    '''public Map<K, Collection<V>> asMap()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def putAll():
-    '''public boolean putAll(final K key, final Iterable<? extends V> values)
-    public boolean putAll(final Map<? extends K, ? extends V> map)
-    public boolean putAll(final MultiValuedMap<? extends K, ? extends V> map)
-    '''
-def mapIterator():
-    '''public MapIterator<K, V> mapIterator()
+    '''returns boolean\n\n
+    putAll(final K key, final Iterable<? extends V> values)\n
+    putAll(final Map<? extends K, ? extends V> map)\n
+    putAll(final MultiValuedMap<? extends K, ? extends V> map)\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

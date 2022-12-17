@@ -1,3 +1,4 @@
-def AltItemSet():
-    '''public AltItemSet(final MboServerInterface ms)
+def ():
+    '''returns AltItemSet\n\n
+    (final MboServerInterface ms)\n
     '''

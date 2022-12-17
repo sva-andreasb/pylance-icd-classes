@@ -1,0 +1,2 @@
+REPLACE_FIRST = "int  1"
+REPLACE_ALL = "int  16"

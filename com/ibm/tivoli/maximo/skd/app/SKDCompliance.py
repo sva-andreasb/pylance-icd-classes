@@ -1,6 +1,8 @@
-def SKDCompliance():
-    '''public SKDCompliance(final MboSet ms)
+def ():
+    '''returns SKDCompliance\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

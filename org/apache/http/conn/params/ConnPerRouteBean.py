@@ -1,26 +1,34 @@
 DEFAULT_MAX_CONNECTIONS_PER_ROUTE = "int  2"
-def ConnPerRouteBean():
-    '''public ConnPerRouteBean(final int defaultMax)
-    public ConnPerRouteBean()
+def ():
+    '''returns ConnPerRouteBean\n\n
+    (final int defaultMax)\n
+    ()\n
     '''
 def getDefaultMax():
-    '''public int getDefaultMax()
+    '''returns int\n\n
+    getDefaultMax()\n
     '''
 def getDefaultMaxPerRoute():
-    '''public int getDefaultMaxPerRoute()
+    '''returns int\n\n
+    getDefaultMaxPerRoute()\n
     '''
 def setDefaultMaxPerRoute():
-    '''public void setDefaultMaxPerRoute(final int max)
+    '''returns None\n\n
+    setDefaultMaxPerRoute(final int max)\n
     '''
 def setMaxForRoute():
-    '''public void setMaxForRoute(final HttpRoute route, final int max)
+    '''returns None\n\n
+    setMaxForRoute(final HttpRoute route, final int max)\n
     '''
 def getMaxForRoute():
-    '''public int getMaxForRoute(final HttpRoute route)
+    '''returns int\n\n
+    getMaxForRoute(final HttpRoute route)\n
     '''
 def setMaxForRoutes():
-    '''public void setMaxForRoutes(final Map<HttpRoute, Integer> map)
+    '''returns None\n\n
+    setMaxForRoutes(final Map<HttpRoute, Integer> map)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

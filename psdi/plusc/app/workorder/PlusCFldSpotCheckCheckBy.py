@@ -1,6 +1,8 @@
-def PlusCFldSpotCheckCheckBy():
-    '''public PlusCFldSpotCheckCheckBy(final MboValue mbv)
+def ():
+    '''returns PlusCFldSpotCheckCheckBy\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

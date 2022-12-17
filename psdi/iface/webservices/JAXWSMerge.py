@@ -1,16 +1,17 @@
 DEPLOYMENT_MODULE_BACKUP = "String  \"deplmodule_backup.dar\""
 def merge():
-    '''public void merge(final String depModuleDir, final String targetDir)
+    '''returns None\n\n
+    merge(final String depModuleDir, final String targetDir)\n
     '''
 def writeBytesToXMLFile():
-    '''public void writeBytesToXMLFile(final byte[] in, final String filepath)
+    '''returns None\n\n
+    writeBytesToXMLFile(final byte[] in, final String filepath)\n
     '''
 def writeStreamToXMLFile():
-    '''public void writeStreamToXMLFile(final InputStream inputStream, final String filepath)
-    '''
-def writeDocumentToXMLFile():
-    '''public static void writeDocumentToXMLFile(final Document doc, final String filepath)
+    '''returns None\n\n
+    writeStreamToXMLFile(final InputStream inputStream, final String filepath)\n
     '''
 def readXMLFile():
-    '''public byte[] readXMLFile(final String filepath)
+    '''returns byte[]\n\n
+    readXMLFile(final String filepath)\n
     '''

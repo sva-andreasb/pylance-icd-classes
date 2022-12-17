@@ -1,15 +1,20 @@
-def XMLGregorianCalendarSerializer():
-    '''public XMLGregorianCalendarSerializer()
+def ():
+    '''returns XMLGregorianCalendarSerializer\n\n
+    ()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty(final SerializerProvider provider, final XMLGregorianCalendar value)
+    '''returns boolean\n\n
+    isEmpty(final SerializerProvider provider, final XMLGregorianCalendar value)\n
     '''
 def serialize():
-    '''public void serialize(final XMLGregorianCalendar value, final JsonGenerator gen, final SerializerProvider provider)
+    '''returns None\n\n
+    serialize(final XMLGregorianCalendar value, final JsonGenerator gen, final SerializerProvider provider)\n
     '''
 def serializeWithType():
-    '''public void serializeWithType(final XMLGregorianCalendar value, final JsonGenerator gen, final SerializerProvider provider, final TypeSerializer typeSer)
+    '''returns None\n\n
+    serializeWithType(final XMLGregorianCalendar value, final JsonGenerator gen, final SerializerProvider provider, final TypeSerializer typeSer)\n
     '''
 def acceptJsonFormatVisitor():
-    '''public void acceptJsonFormatVisitor(final JsonFormatVisitorWrapper visitor, final JavaType typeHint)
+    '''returns None\n\n
+    acceptJsonFormatVisitor(final JsonFormatVisitorWrapper visitor, final JavaType typeHint)\n
     '''

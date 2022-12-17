@@ -1,9 +1,12 @@
-def FormulaDriverMboValueAdapter():
-    '''public FormulaDriverMboValueAdapter(final MboValue mboValue)
+def ():
+    '''returns FormulaDriverMboValueAdapter\n\n
+    (final MboValue mboValue)\n
     '''
 def addDriverFor():
-    '''public void addDriverFor(final String object, final String attr, final String[] relPath)
+    '''returns None\n\n
+    addDriverFor(final String object, final String attr, final String[] relPath)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

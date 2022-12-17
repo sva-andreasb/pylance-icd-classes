@@ -1,3 +1,4 @@
 def isReferenceType():
-    '''public boolean isReferenceType()
+    '''returns boolean\n\n
+    isReferenceType()\n
     '''

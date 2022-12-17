@@ -1,3 +1,4 @@
-def FldAuthCIClass():
-    '''public FldAuthCIClass(final MboValue mbv)
+def ():
+    '''returns FldAuthCIClass\n\n
+    (final MboValue mbv)\n
     '''

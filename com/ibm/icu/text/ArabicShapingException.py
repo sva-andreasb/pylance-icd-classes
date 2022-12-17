@@ -1,3 +1,4 @@
-def ArabicShapingException():
-    '''public ArabicShapingException(final String message)
+def ():
+    '''returns ArabicShapingException\n\n
+    (final String message)\n
     '''

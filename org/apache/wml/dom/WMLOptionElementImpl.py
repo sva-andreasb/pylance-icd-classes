@@ -1,39 +1,52 @@
-def WMLOptionElementImpl():
-    '''public WMLOptionElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+def ():
+    '''returns WMLOptionElementImpl\n\n
+    (final WMLDocumentImpl wmlDocumentImpl, final String s)\n
     '''
 def setValue():
-    '''public void setValue(final String s)
+    '''returns None\n\n
+    setValue(final String s)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setXmlLang():
-    '''public void setXmlLang(final String s)
+    '''returns None\n\n
+    setXmlLang(final String s)\n
     '''
 def getXmlLang():
-    '''public String getXmlLang()
+    '''returns String\n\n
+    getXmlLang()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setOnPick():
-    '''public void setOnPick(final String s)
+    '''returns None\n\n
+    setOnPick(final String s)\n
     '''
 def getOnPick():
-    '''public String getOnPick()
+    '''returns String\n\n
+    getOnPick()\n
     '''

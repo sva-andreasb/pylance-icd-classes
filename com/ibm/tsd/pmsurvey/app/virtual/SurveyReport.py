@@ -1,3 +1,4 @@
-def SurveyReport():
-    '''public SurveyReport(final MboSet ms)
+def ():
+    '''returns SurveyReport\n\n
+    (final MboSet ms)\n
     '''

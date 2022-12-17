@@ -1,7 +1,9 @@
-def PlusPBSFldTotalPrice():
-    '''public PlusPBSFldTotalPrice()
-    public PlusPBSFldTotalPrice(final MboValue mbv)
+def ():
+    '''returns PlusPBSFldTotalPrice\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -8,160 +8,207 @@ EXCEPTION_INFO = "int  5"
 NO_PROMPT_WITH_WARNING = "int  0"
 PROMPT_WHEN_WARNING_EXIST = "int  1"
 FORCE_WARNING_HANDLING = "int  2"
-def BaseInstance():
-    '''public BaseInstance()
+def ():
+    '''returns BaseInstance\n\n
+    ()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getSafeId():
-    '''public String getSafeId()
+    '''returns String\n\n
+    getSafeId()\n
     '''
 def setRenderId():
-    '''public void setRenderId(final String id)
+    '''returns None\n\n
+    setRenderId(final String id)\n
     '''
 def getRenderId():
-    '''public String getRenderId()
+    '''returns String\n\n
+    getRenderId()\n
     '''
 def setWebClientSession():
-    '''public void setWebClientSession(final WebClientSession wcs)
+    '''returns None\n\n
+    setWebClientSession(final WebClientSession wcs)\n
     '''
 def getWebClientSession():
-    '''public WebClientSession getWebClientSession()
+    '''returns WebClientSession\n\n
+    getWebClientSession()\n
     '''
 def addChild():
-    '''public void addChild(final BaseInstance child)
-    public void addChild(final BaseInstance child, final int index)
+    '''returns None\n\n
+    addChild(final BaseInstance child)\n
+    addChild(final BaseInstance child, final int index)\n
     '''
 def getChildren():
-    '''public List<BaseInstance> getChildren()
+    '''returns List<BaseInstance>\n\n
+    getChildren()\n
     '''
 def clearChildren():
-    '''public void clearChildren()
+    '''returns None\n\n
+    clearChildren()\n
     '''
 def getParentInstance():
-    '''public BaseInstance getParentInstance()
+    '''returns BaseInstance\n\n
+    getParentInstance()\n
     '''
 def setParent():
-    '''public void setParent(final BaseInstance parent)
+    '''returns None\n\n
+    setParent(final BaseInstance parent)\n
     '''
 def hasLocalProperty():
-    '''public boolean hasLocalProperty(final String key)
+    '''returns boolean\n\n
+    hasLocalProperty(final String key)\n
     '''
 def isOnTableRow():
-    '''public boolean isOnTableRow()
+    '''returns boolean\n\n
+    isOnTableRow()\n
     '''
 def getRowNum():
-    '''public String getRowNum()
-    '''
-def getPropertyNames():
-    '''public final String[] getPropertyNames()
+    '''returns String\n\n
+    getRowNum()\n
     '''
 def getProperty():
-    '''public String getProperty(final String key)
+    '''returns String\n\n
+    getProperty(final String key)\n
     '''
 def initProperty():
-    '''public void initProperty()
+    '''returns None\n\n
+    initProperty()\n
     '''
 def setProperty():
-    '''public boolean setProperty(final String key, final String value, final boolean systemCheck, final boolean showWarnings)
-    public void setProperty(final String key, final String value)
+    '''returns None\n\n
+    setProperty(final String key, final String value, final boolean systemCheck, final boolean showWarnings)\n
+    setProperty(final String key, final String value)\n
     '''
 def removeProperty():
-    '''public void removeProperty(final String key)
+    '''returns None\n\n
+    removeProperty(final String key)\n
     '''
 def getString():
-    '''public String getString(final String key)
+    '''returns String\n\n
+    getString(final String key)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String property)
+    '''returns boolean\n\n
+    getBoolean(final String property)\n
     '''
 def getInt():
-    '''public int getInt(final String property, final int defaultValue)
+    '''returns int\n\n
+    getInt(final String property, final int defaultValue)\n
     '''
 def getParent():
-    '''public ControlHandler getParent()
+    '''returns ControlHandler\n\n
+    getParent()\n
     '''
 def handleEvent():
-    '''public int handleEvent(final WebClientEvent event)
-    public int handleEvent(final String methodName, final WebClientEvent event)
+    '''returns int\n\n
+    handleEvent(final WebClientEvent event)\n
+    handleEvent(final String methodName, final WebClientEvent event)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getDescriptor():
-    '''public BaseDescriptor getDescriptor()
+    '''returns BaseDescriptor\n\n
+    getDescriptor()\n
     '''
 def setDescriptor():
-    '''public void setDescriptor(final BaseDescriptor descriptor)
+    '''returns None\n\n
+    setDescriptor(final BaseDescriptor descriptor)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getLocalizedType():
-    '''public String getLocalizedType()
+    '''returns String\n\n
+    getLocalizedType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''
 def setConsiderInDesigner():
-    '''public void setConsiderInDesigner(final boolean flag)
+    '''returns None\n\n
+    setConsiderInDesigner(final boolean flag)\n
     '''
 def getConsiderInDesigner():
-    '''public boolean getConsiderInDesigner()
+    '''returns boolean\n\n
+    getConsiderInDesigner()\n
     '''
 def clearProperties():
-    '''public void clearProperties()
+    '''returns None\n\n
+    clearProperties()\n
     '''
 def clone():
-    '''public Object clone(final String newId)
-    public Object clone(final String newId, final String childIdAppend)
+    '''returns Object\n\n
+    clone(final String newId)\n
+    clone(final String newId, final String childIdAppend)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def hasPropertyChanged():
-    '''public boolean hasPropertyChanged(final String property)
+    '''returns boolean\n\n
+    hasPropertyChanged(final String property)\n
     '''
 def hasAnyPropertyChanged():
-    '''public boolean hasAnyPropertyChanged()
+    '''returns boolean\n\n
+    hasAnyPropertyChanged()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def getPage():
-    '''public PageInstance getPage()
+    '''returns PageInstance\n\n
+    getPage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def addRefreshListener():
-    '''public void addRefreshListener(final String componentId)
+    '''returns None\n\n
+    addRefreshListener(final String componentId)\n
     '''
 def isDynamicContainer():
-    '''public boolean isDynamicContainer()
+    '''returns boolean\n\n
+    isDynamicContainer()\n
     '''
 def getRefreshListeners():
-    '''public String getRefreshListeners()
+    '''returns String\n\n
+    getRefreshListeners()\n
     '''
 def setDynamicContainer():
-    '''public void setDynamicContainer(final boolean isDynamic)
+    '''returns None\n\n
+    setDynamicContainer(final boolean isDynamic)\n
     '''
 def maintainControlId():
-    '''public boolean maintainControlId()
+    '''returns boolean\n\n
+    maintainControlId()\n
     '''
 def getChildIndex():
-    '''public int getChildIndex()
+    '''returns int\n\n
+    getChildIndex()\n
     '''
 def getIdExtension():
-    '''public String getIdExtension()
+    '''returns String\n\n
+    getIdExtension()\n
     '''
 def setOnTable():
-    '''public void setOnTable(final boolean isOnTable)
+    '''returns None\n\n
+    setOnTable(final boolean isOnTable)\n
     '''
 def isOnTable():
-    '''public boolean isOnTable()
+    '''returns boolean\n\n
+    isOnTable()\n
     '''

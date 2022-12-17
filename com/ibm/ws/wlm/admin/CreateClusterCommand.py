@@ -1,25 +1,22 @@
-def CreateClusterCommand():
-    '''public CreateClusterCommand(final TaskCommandMetadata metadata)
-    public CreateClusterCommand(final CommandData inCommandData)
+def ():
+    '''returns ConvertServerStep\n\n
+    (final TaskCommandMetadata metadata)\n
+    (final CommandData inCommandData)\n
+    (final AbstractTaskCommand parent, final CommandStepMetadata metadata)\n
+    (final AbstractTaskCommand parent, final CommandStepData cmdData)\n
+    (final AbstractTaskCommand parent, final CommandStepMetadata metadata)\n
+    (final AbstractTaskCommand parent, final CommandStepData cmdData)\n
+    (final AbstractTaskCommand parent, final CommandStepMetadata metadata)\n
+    (final AbstractTaskCommand parent, final CommandStepData cmdData)\n
     '''
 def beforeStepsExecuted():
-    '''public void beforeStepsExecuted()
+    '''returns None\n\n
+    beforeStepsExecuted()\n
     '''
 def validate():
-    '''public void validate()
-    public void validate()
-    public void validate()
-    public void validate()
-    '''
-def ClusterConfigStep():
-    '''public ClusterConfigStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-    public ClusterConfigStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
-    '''
-def ReplicationDomainStep():
-    '''public ReplicationDomainStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-    public ReplicationDomainStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
-    '''
-def ConvertServerStep():
-    '''public ConvertServerStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-    public ConvertServerStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
+    '''returns None\n\n
+    validate()\n
+    validate()\n
+    validate()\n
+    validate()\n
     '''

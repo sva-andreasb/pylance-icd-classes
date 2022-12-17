@@ -1,3 +1,4 @@
-def ResourceLoadAndAvailResult():
-    '''public ResourceLoadAndAvailResult()
+def ():
+    '''returns ResourceLoadAndAvailResult\n\n
+    ()\n
     '''

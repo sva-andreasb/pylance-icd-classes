@@ -1,12 +1,15 @@
 TABLE_NAME = "String  \"BIMOMNICLASSUSEWITH\""
 FIELD_CLASSUSEWITH = "String  \"CLASSUSEWITH\""
 DOMAIN_CLASSUSEWITH = "String  \"CLASSUSEWITH\""
-def BIMOmniClssUseWith():
-    '''public BIMOmniClssUseWith(final MboSet ms)
+def ():
+    '''returns BIMOmniClssUseWith\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getTranslatedUseWithClass():
-    '''public String getTranslatedUseWithClass()
+    '''returns String\n\n
+    getTranslatedUseWithClass()\n
     '''

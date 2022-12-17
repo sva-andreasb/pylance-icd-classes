@@ -1,14 +1,18 @@
 def getAxis():
-    '''public IlvAxis getAxis()
+    '''returns IlvAxis\n\n
+    getAxis()\n
     '''
 def apply():
-    '''public double[] apply(final double[] array, final int n)
-    public IlvDataInterval apply(final IlvDataInterval ilvDataInterval)
+    '''returns IlvDataInterval\n\n
+    apply(final double[] array, final int n)\n
+    apply(final IlvDataInterval ilvDataInterval)\n
     '''
 def inverse():
-    '''public double[] inverse(final double[] array, final int n)
-    public IlvDataInterval inverse(final IlvDataInterval ilvDataInterval)
+    '''returns IlvDataInterval\n\n
+    inverse(final double[] array, final int n)\n
+    inverse(final IlvDataInterval ilvDataInterval)\n
     '''
 def validateInterval():
-    '''public boolean validateInterval(final IlvDataInterval ilvDataInterval)
+    '''returns boolean\n\n
+    validateInterval(final IlvDataInterval ilvDataInterval)\n
     '''

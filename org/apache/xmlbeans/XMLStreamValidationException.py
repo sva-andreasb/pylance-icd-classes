@@ -1,6 +1,8 @@
-def XMLStreamValidationException():
-    '''public XMLStreamValidationException(final XmlError xmlError)
+def ():
+    '''returns XMLStreamValidationException\n\n
+    (final XmlError xmlError)\n
     '''
 def getXmlError():
-    '''public XmlError getXmlError()
+    '''returns XmlError\n\n
+    getXmlError()\n
     '''

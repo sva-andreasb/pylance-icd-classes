@@ -1,22 +1,29 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def getFromCI():
-    '''public CINode getFromCI()
+    '''returns CINode\n\n
+    getFromCI()\n
     '''
 def setFromCI():
-    '''public void setFromCI(final CINode fromCI)
+    '''returns None\n\n
+    setFromCI(final CINode fromCI)\n
     '''
 def getToCI():
-    '''public CINode getToCI()
+    '''returns CINode\n\n
+    getToCI()\n
     '''
 def setToCI():
-    '''public void setToCI(final CINode toCI)
+    '''returns None\n\n
+    setToCI(final CINode toCI)\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def setPath():
-    '''public void setPath(final String path)
+    '''returns None\n\n
+    setPath(final String path)\n
     '''
-def CILink():
-    '''public CILink(final CINode fromCI, final CINode toCI, final String path)
+def ():
+    '''returns CILink\n\n
+    (final CINode fromCI, final CINode toCI, final String path)\n
     '''

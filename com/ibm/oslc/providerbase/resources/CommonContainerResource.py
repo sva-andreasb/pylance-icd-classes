@@ -1,6 +1,8 @@
 def getContainers():
-    '''public List<Container> getContainers(@Context final HttpServletRequest httpServletRequest)
+    '''returns List<Container>\n\n
+    getContainers(@Context final HttpServletRequest httpServletRequest)\n
     '''
 def getContainer():
-    '''public Container getContainer(@Context final HttpServletRequest httpServletRequest, @PathParam("containerId") final String containerId)
+    '''returns Container\n\n
+    getContainer(@Context final HttpServletRequest httpServletRequest, @PathParam("containerId") final String containerId)\n
     '''

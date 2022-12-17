@@ -1,12 +1,8 @@
-def UploadPartRequestFactory():
-    '''public UploadPartRequestFactory(final PutObjectRequest origReq, final String uploadId, final long optimalPartSize)
-    '''
-def hasMoreRequests():
-    '''public synchronized boolean hasMoreRequests()
-    '''
-def getNextUploadPartRequest():
-    '''public synchronized UploadPartRequest getNextUploadPartRequest()
+def ():
+    '''returns UploadPartRequestFactory\n\n
+    (final PutObjectRequest origReq, final String uploadId, final long optimalPartSize)\n
     '''
 def getTotalNumberOfParts():
-    '''public int getTotalNumberOfParts()
+    '''returns int\n\n
+    getTotalNumberOfParts()\n
     '''

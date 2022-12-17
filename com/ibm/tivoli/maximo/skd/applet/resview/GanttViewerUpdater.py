@@ -1,3 +1,4 @@
-def GanttViewerUpdater():
-    '''public GanttViewerUpdater(final String sourceName)
+def ():
+    '''returns GanttViewerUpdater\n\n
+    (final String sourceName)\n
     '''

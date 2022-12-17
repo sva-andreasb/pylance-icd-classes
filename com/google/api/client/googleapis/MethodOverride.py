@@ -1,19 +1,25 @@
 HEADER = "String  \"X-HTTP-Method-Override\""
-def MethodOverride():
-    '''public MethodOverride()
+def ():
+    '''returns MethodOverride\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize(final HttpRequest request)
+    '''returns None\n\n
+    initialize(final HttpRequest request)\n
     '''
 def intercept():
-    '''public void intercept(final HttpRequest request)
+    '''returns None\n\n
+    intercept(final HttpRequest request)\n
     '''
 def build():
-    '''public MethodOverride build()
+    '''returns MethodOverride\n\n
+    build()\n
     '''
 def getOverrideAllMethods():
-    '''public boolean getOverrideAllMethods()
+    '''returns boolean\n\n
+    getOverrideAllMethods()\n
     '''
 def setOverrideAllMethods():
-    '''public Builder setOverrideAllMethods(final boolean overrideAllMethods)
+    '''returns Builder\n\n
+    setOverrideAllMethods(final boolean overrideAllMethods)\n
     '''

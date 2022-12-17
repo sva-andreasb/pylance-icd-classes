@@ -1,6 +1,8 @@
-def MaxWSOperationSet():
-    '''public MaxWSOperationSet(final MboServerInterface ms)
+def ():
+    '''returns MaxWSOperationSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

@@ -1,3 +1,4 @@
-def FldMatUseTransIssueTo():
-    '''public FldMatUseTransIssueTo(final MboValue mbv)
+def ():
+    '''returns FldMatUseTransIssueTo\n\n
+    (final MboValue mbv)\n
     '''

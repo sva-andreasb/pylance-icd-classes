@@ -1,18 +1,24 @@
 def getUserJID():
-    '''public Jid getUserJID()
+    '''returns Jid\n\n
+    getUserJID()\n
     '''
 def getUserID():
-    '''public Jid getUserID()
+    '''returns Jid\n\n
+    getUserID()\n
     '''
 def getWorkgroupName():
-    '''public Jid getWorkgroupName()
+    '''returns Jid\n\n
+    getWorkgroupName()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def getTimestamp():
-    '''public Date getTimestamp()
+    '''returns Date\n\n
+    getTimestamp()\n
     '''

@@ -1,6 +1,8 @@
 def getQueueConnectionFactory():
-    '''public QueueConnectionFactory getQueueConnectionFactory(final HashMap cfConfig)
+    '''returns QueueConnectionFactory\n\n
+    getQueueConnectionFactory(final HashMap cfConfig)\n
     '''
 def getTopicConnectionFactory():
-    '''public TopicConnectionFactory getTopicConnectionFactory(final HashMap cfConfig)
+    '''returns TopicConnectionFactory\n\n
+    getTopicConnectionFactory(final HashMap cfConfig)\n
     '''

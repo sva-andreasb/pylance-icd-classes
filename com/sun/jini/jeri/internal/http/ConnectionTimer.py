@@ -1,9 +1,12 @@
-def ConnectionTimer():
-    '''public ConnectionTimer(final long n)
+def ():
+    '''returns ConnectionTimer\n\n
+    (final long n)\n
     '''
 def scheduleTimeout():
-    '''public void scheduleTimeout(final TimedConnection timedConnection, final boolean value)
+    '''returns None\n\n
+    scheduleTimeout(final TimedConnection timedConnection, final boolean value)\n
     '''
 def cancelTimeout():
-    '''public boolean cancelTimeout(final TimedConnection timedConnection)
+    '''returns boolean\n\n
+    cancelTimeout(final TimedConnection timedConnection)\n
     '''

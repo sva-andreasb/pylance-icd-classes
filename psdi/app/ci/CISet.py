@@ -1,3 +1,4 @@
-def CISet():
-    '''public CISet(final MboServerInterface ms)
+def ():
+    '''returns CISet\n\n
+    (final MboServerInterface ms)\n
     '''

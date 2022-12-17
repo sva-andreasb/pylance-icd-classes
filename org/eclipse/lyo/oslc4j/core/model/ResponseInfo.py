@@ -1,10 +1,13 @@
-def ResponseInfo():
-    '''public ResponseInfo(final T resource, final Map<String, Object> properties, final int totalCount, final String nextPage)
-    public ResponseInfo(final T resource, final Map<String, Object> properties, final int totalCount, final URI nextPage)
+def ():
+    '''returns ResponseInfo\n\n
+    (final T resource, final Map<String, Object> properties, final int totalCount, final String nextPage)\n
+    (final T resource, final Map<String, Object> properties, final int totalCount, final URI nextPage)\n
     '''
 def totalCount():
-    '''public int totalCount()
+    '''returns int\n\n
+    totalCount()\n
     '''
 def nextPage():
-    '''public String nextPage()
+    '''returns String\n\n
+    nextPage()\n
     '''

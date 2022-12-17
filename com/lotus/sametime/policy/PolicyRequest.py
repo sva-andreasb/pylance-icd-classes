@@ -1,13 +1,17 @@
-def PolicyRequest():
-    '''public PolicyRequest()
-    public PolicyRequest(final String[] array)
+def ():
+    '''returns PolicyRequest\n\n
+    ()\n
+    (final String[] array)\n
     '''
 def getPvIdArrayList():
-    '''public ArrayList getPvIdArrayList()
+    '''returns ArrayList\n\n
+    getPvIdArrayList()\n
     '''
 def getPvIdStringArray():
-    '''public String[] getPvIdStringArray()
+    '''returns String[]\n\n
+    getPvIdStringArray()\n
     '''
 def getRequestId():
-    '''public int getRequestId()
+    '''returns int\n\n
+    getRequestId()\n
     '''

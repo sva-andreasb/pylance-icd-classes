@@ -1,6 +1,8 @@
 def append():
-    '''public JCommentPart append(final Object o)
+    '''returns JCommentPart\n\n
+    append(final Object o)\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''

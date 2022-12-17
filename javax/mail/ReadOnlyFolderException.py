@@ -1,7 +1,9 @@
 def getFolder():
-    '''public Folder getFolder()
+    '''returns Folder\n\n
+    getFolder()\n
     '''
-def ReadOnlyFolderException():
-    '''public ReadOnlyFolderException(final Folder folder)
-    public ReadOnlyFolderException(final Folder folder, final String message)
+def ():
+    '''returns ReadOnlyFolderException\n\n
+    (final Folder folder)\n
+    (final Folder folder, final String message)\n
     '''

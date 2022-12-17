@@ -1,26 +1,18 @@
-def inputStreamForRequest():
-    '''public static InputStream inputStreamForRequest(final InputStream is, final AmazonWebServiceRequest req)
-    '''
-def inputStreamForResponse():
-    '''public static InputStream inputStreamForResponse(final InputStream is, final AmazonWebServiceRequest req)
-    '''
-def ProgressInputStream():
-    '''public ProgressInputStream(final InputStream is, final ProgressListener listener)
-    public ProgressInputStream(final InputStream is, final ProgressListener listener, final int notifyThresHold)
+def ():
+    '''returns ProgressInputStream\n\n
+    (final InputStream is, final ProgressListener listener)\n
+    (final InputStream is, final ProgressListener listener, final int notifyThresHold)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def reset():
-    '''public void reset()
-    '''
-def getWrappedInputStream():
-    '''public final InputStream getWrappedInputStream()
+    '''returns None\n\n
+    reset()\n
     '''
 def close():
-    '''public void close()
-    '''
-def getListener():
-    '''public final ProgressListener getListener()
+    '''returns None\n\n
+    close()\n
     '''

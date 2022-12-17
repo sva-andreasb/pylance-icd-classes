@@ -1,9 +1,11 @@
-def IlvMissingApplyToObjectException():
-    '''public IlvMissingApplyToObjectException(final IlvGraphic ilvGraphic)
-    public IlvMissingApplyToObjectException(final IlvGraphic ilvGraphic, final String s)
-    public IlvMissingApplyToObjectException(final IlvGraphic obj, final Throwable t)
-    public IlvMissingApplyToObjectException(final IlvGraphic a, final String message, final Throwable cause)
+def ():
+    '''returns IlvMissingApplyToObjectException\n\n
+    (final IlvGraphic ilvGraphic)\n
+    (final IlvGraphic ilvGraphic, final String s)\n
+    (final IlvGraphic obj, final Throwable t)\n
+    (final IlvGraphic a, final String message, final Throwable cause)\n
     '''
 def getGraphic():
-    '''public IlvGraphic getGraphic()
+    '''returns IlvGraphic\n\n
+    getGraphic()\n
     '''

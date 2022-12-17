@@ -1,29 +1,30 @@
 NAME = "String  \"MAXEXTIFACEOUT\""
-def MaxExtIfaceOutImpl():
-    '''public MaxExtIfaceOutImpl()
+def ():
+    '''returns MaxExtIfaceOutImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getInterfacesOut():
-    '''public Map<String, MaxExtIfaceOutInfo> getInterfacesOut(final String systemName)
+    '''returns String\n\n
+    getName()\n
     '''
 def getSystemsForChannel():
-    '''public List<String> getSystemsForChannel(final String channelName)
+    '''returns List<String>\n\n
+    getSystemsForChannel(final String channelName)\n
     '''
 def isInterfaceOutEnabled():
-    '''public boolean isInterfaceOutEnabled(final String extSysName, final String ifaceName)
+    '''returns boolean\n\n
+    isInterfaceOutEnabled(final String extSysName, final String ifaceName)\n
     '''
 def getExtIfaceOutInfo():
-    '''public MaxExtIfaceOutInfo getExtIfaceOutInfo(final String extsystem, final String ifaceName)
-    '''
-def refresh():
-    '''public synchronized void refresh()
+    '''returns MaxExtIfaceOutInfo\n\n
+    getExtIfaceOutInfo(final String extsystem, final String ifaceName)\n
     '''

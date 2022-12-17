@@ -1,24 +1,32 @@
-def CloudantMbo():
-    '''public CloudantMbo(final MboSet ms)
+def ():
+    '''returns CloudantMbo\n\n
+    (final MboSet ms)\n
     '''
 def createDocument():
-    '''public void createDocument()
+    '''returns None\n\n
+    createDocument()\n
     '''
 def updateDocument():
-    '''public void updateDocument()
+    '''returns None\n\n
+    updateDocument()\n
     '''
 def deleteDocument():
-    '''public void deleteDocument()
+    '''returns None\n\n
+    deleteDocument()\n
     '''
 def getDocumentIDValue():
-    '''public String getDocumentIDValue()
+    '''returns String\n\n
+    getDocumentIDValue()\n
     '''
 def getDocumentRevValue():
-    '''public String getDocumentRevValue()
+    '''returns String\n\n
+    getDocumentRevValue()\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def toJSON():
-    '''public JSONObject toJSON()
+    '''returns JSONObject\n\n
+    toJSON()\n
     '''

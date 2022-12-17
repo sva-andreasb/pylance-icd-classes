@@ -1,6 +1,8 @@
-def PlusPALNValue():
-    '''public PlusPALNValue(final MboSet arg0)
+def ():
+    '''returns PlusPALNValue\n\n
+    (final MboSet arg0)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

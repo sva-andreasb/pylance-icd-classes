@@ -1,32 +1,38 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def getNextVersionForBaseline():
-    '''public static synchronized int getNextVersionForBaseline(final String baselineNum, final UserInfo userInfo)
-    '''
 def getServiceInfo():
-    '''public String getServiceInfo()
+    '''returns String\n\n
+    getServiceInfo()\n
     '''
-def CCIBaselineService():
-    '''public CCIBaselineService()
-    public CCIBaselineService(final MXServer mxServer)
+def ():
+    '''returns CCIBaselineService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def compareBaselineToActual():
-    '''public long compareBaselineToActual(@WSMboKey("CCIBASELINE") final CCIBaselineRemote aSourceBaseline)
+    '''returns long\n\n
+    compareBaselineToActual(@WSMboKey("CCIBASELINE") final CCIBaselineRemote aSourceBaseline)\n
     '''
 def performBaselineComparison():
-    '''public long performBaselineComparison(final CCIBaselineRemote aSourceBaseline, final ICCIBaselineComparisonHandler aComparisonHandler)
+    '''returns long\n\n
+    performBaselineComparison(final CCIBaselineRemote aSourceBaseline, final ICCIBaselineComparisonHandler aComparisonHandler)\n
     '''
 def postTraverseAction():
-    '''public void postTraverseAction(final UserInfo userInfo)
+    '''returns None\n\n
+    postTraverseAction(final UserInfo userInfo)\n
     '''
 def processState():
-    '''public void processState(final TraversalState state, final UserInfo userInfo)
+    '''returns None\n\n
+    processState(final TraversalState state, final UserInfo userInfo)\n
     '''
 def getWhereclauseForBaselineTraversal():
-    '''public String getWhereclauseForBaselineTraversal(final MboRemote toplevelMemberCi, final UserInfo userInfo)
+    '''returns String\n\n
+    getWhereclauseForBaselineTraversal(final MboRemote toplevelMemberCi, final UserInfo userInfo)\n
     '''
 def getActualCIComparisonKeepDays():
-    '''public long getActualCIComparisonKeepDays()
+    '''returns long\n\n
+    getActualCIComparisonKeepDays()\n
     '''
 def deleteExpiredActualCIComparisonResults():
-    '''public void deleteExpiredActualCIComparisonResults(final UserInfo userInfo)
+    '''returns None\n\n
+    deleteExpiredActualCIComparisonResults(final UserInfo userInfo)\n
     '''

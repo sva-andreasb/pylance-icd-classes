@@ -1,17 +1,22 @@
-def OslcActionProcessor():
-    '''public OslcActionProcessor(final String osName, final MboRemote mbo, final MaximoAuthenticator maxAuthenticator)
-    public OslcActionProcessor(final String osName, final MboSetRemote mboSet, final MaximoAuthenticator maxAuthenticator)
-    public OslcActionProcessor(final AppService service)
+def ():
+    '''returns OslcActionProcessor\n\n
+    (final String osName, final MboRemote mbo, final MaximoAuthenticator maxAuthenticator)\n
+    (final String osName, final MboSetRemote mboSet, final MaximoAuthenticator maxAuthenticator)\n
+    (final AppService service)\n
     '''
 def setNumberQbe():
-    '''public void setNumberQbe(final String col, final JSONObject jo, final MboSetRemote mboSet)
+    '''returns None\n\n
+    setNumberQbe(final String col, final JSONObject jo, final MboSetRemote mboSet)\n
     '''
 def setDateQbe():
-    '''public void setDateQbe(final Date dt, final MboValueInfo mboValueInfo, final MboSetRemote msr)
+    '''returns None\n\n
+    setDateQbe(final Date dt, final MboValueInfo mboValueInfo, final MboSetRemote msr)\n
     '''
 def invoke():
-    '''public OslcResourceResponse invoke(final OslcRequest request, byte[] actionData)
+    '''returns OslcResourceResponse\n\n
+    invoke(final OslcRequest request, byte[] actionData)\n
     '''
 def setMXTransaction():
-    '''public void setMXTransaction(final MXTransaction mxTrans)
+    '''returns None\n\n
+    setMXTransaction(final MXTransaction mxTrans)\n
     '''

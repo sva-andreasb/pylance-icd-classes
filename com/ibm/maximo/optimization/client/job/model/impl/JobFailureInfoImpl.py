@@ -1,15 +1,20 @@
 def getType():
-    '''public JobFailureType getType()
+    '''returns JobFailureType\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final JobFailureType type)
+    '''returns None\n\n
+    setType(final JobFailureType type)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

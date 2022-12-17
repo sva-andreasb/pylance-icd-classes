@@ -1,21 +1,25 @@
-def RecordFactoryInputStream():
-    '''public RecordFactoryInputStream(final InputStream in, final boolean shouldIncludeContinueRecords)
+def ():
+    '''returns StreamEncryptionInfo\n\n
+    (final InputStream in, final boolean shouldIncludeContinueRecords)\n
+    (final RecordInputStream rs, final List<Record> outputRecs)\n
     '''
 def nextRecord():
-    '''public Record nextRecord()
-    '''
-def StreamEncryptionInfo():
-    '''public StreamEncryptionInfo(final RecordInputStream rs, final List<Record> outputRecs)
+    '''returns Record\n\n
+    nextRecord()\n
     '''
 def createDecryptingStream():
-    '''public RecordInputStream createDecryptingStream(final InputStream original)
+    '''returns RecordInputStream\n\n
+    createDecryptingStream(final InputStream original)\n
     '''
 def hasEncryption():
-    '''public boolean hasEncryption()
+    '''returns boolean\n\n
+    hasEncryption()\n
     '''
 def getLastRecord():
-    '''public Record getLastRecord()
+    '''returns Record\n\n
+    getLastRecord()\n
     '''
 def hasBOFRecord():
-    '''public boolean hasBOFRecord()
+    '''returns boolean\n\n
+    hasBOFRecord()\n
     '''

@@ -1,3 +1,4 @@
-def OSLCCommonDataBean():
-    '''public OSLCCommonDataBean()
+def ():
+    '''returns OSLCCommonDataBean\n\n
+    ()\n
     '''

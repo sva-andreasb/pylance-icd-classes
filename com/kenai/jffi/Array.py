@@ -1,18 +1,12 @@
-def newArray():
-    '''public static Array newArray(final Type elementType, final int length)
-    '''
-def Array():
-    '''public Array(final Type elementType, final int length)
-    '''
-def getElementType():
-    '''public final Type getElementType()
-    '''
-def length():
-    '''public final int length()
+def ():
+    '''returns Array\n\n
+    (final Type elementType, final int length)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

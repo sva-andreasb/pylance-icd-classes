@@ -1,6 +1,4 @@
-def IlvPieRendererLegendItem():
-    '''public IlvPieRendererLegendItem(final int a, final IlvSinglePieRenderer ilvSinglePieRenderer)
-    '''
-def getDataIndex():
-    '''public final int getDataIndex()
+def ():
+    '''returns IlvPieRendererLegendItem\n\n
+    (final int a, final IlvSinglePieRenderer ilvSinglePieRenderer)\n
     '''

@@ -1,3 +1,4 @@
-def FldReconTaskCompRuleName():
-    '''public FldReconTaskCompRuleName(final MboValue mbv)
+def ():
+    '''returns FldReconTaskCompRuleName\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,4 +1,5 @@
-def InvalidApplicationException():
-    '''public InvalidApplicationException(final Object[] params, final OperationException e)
-    public InvalidApplicationException(final String jobtype)
+def ():
+    '''returns InvalidApplicationException\n\n
+    (final Object[] params, final OperationException e)\n
+    (final String jobtype)\n
     '''

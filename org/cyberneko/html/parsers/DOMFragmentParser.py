@@ -1,86 +1,114 @@
-def DOMFragmentParser():
-    '''public DOMFragmentParser()
+def ():
+    '''returns DOMFragmentParser\n\n
+    ()\n
     '''
 def parse():
-    '''public void parse(final String systemId, final DocumentFragment fragment)
-    public void parse(final InputSource source, final DocumentFragment fragment)
+    '''returns None\n\n
+    parse(final String systemId, final DocumentFragment fragment)\n
+    parse(final InputSource source, final DocumentFragment fragment)\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler errorHandler)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler errorHandler)\n
     '''
 def getErrorHandler():
-    '''public ErrorHandler getErrorHandler()
+    '''returns ErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def setFeature():
-    '''public void setFeature(final String featureId, final boolean state)
+    '''returns None\n\n
+    setFeature(final String featureId, final boolean state)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String featureId)
+    '''returns boolean\n\n
+    getFeature(final String featureId)\n
     '''
 def setProperty():
-    '''public void setProperty(final String propertyId, final Object value)
+    '''returns None\n\n
+    setProperty(final String propertyId, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String propertyId)
+    '''returns Object\n\n
+    getProperty(final String propertyId)\n
     '''
 def setDocumentSource():
-    '''public void setDocumentSource(final XMLDocumentSource source)
+    '''returns None\n\n
+    setDocumentSource(final XMLDocumentSource source)\n
     '''
 def getDocumentSource():
-    '''public XMLDocumentSource getDocumentSource()
+    '''returns XMLDocumentSource\n\n
+    getDocumentSource()\n
     '''
 def startDocument():
-    '''public void startDocument(final XMLLocator locator, final String encoding, final Augmentations augs)
-    public void startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)
+    '''returns None\n\n
+    startDocument(final XMLLocator locator, final String encoding, final Augmentations augs)\n
+    startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)\n
     '''
 def xmlDecl():
-    '''public void xmlDecl(final String version, final String encoding, final String standalone, final Augmentations augs)
+    '''returns None\n\n
+    xmlDecl(final String version, final String encoding, final String standalone, final Augmentations augs)\n
     '''
 def doctypeDecl():
-    '''public void doctypeDecl(final String root, final String pubid, final String sysid, final Augmentations augs)
+    '''returns None\n\n
+    doctypeDecl(final String root, final String pubid, final String sysid, final Augmentations augs)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final XMLString data, final Augmentations augs)
+    '''returns None\n\n
+    processingInstruction(final String target, final XMLString data, final Augmentations augs)\n
     '''
 def comment():
-    '''public void comment(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    comment(final XMLString text, final Augmentations augs)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri, final Augmentations augs)
+    '''returns None\n\n
+    startPrefixMapping(final String prefix, final String uri, final Augmentations augs)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix, final Augmentations augs)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix, final Augmentations augs)\n
     '''
 def startElement():
-    '''public void startElement(final QName element, final XMLAttributes attrs, final Augmentations augs)
+    '''returns None\n\n
+    startElement(final QName element, final XMLAttributes attrs, final Augmentations augs)\n
     '''
 def emptyElement():
-    '''public void emptyElement(final QName element, final XMLAttributes attrs, final Augmentations augs)
+    '''returns None\n\n
+    emptyElement(final QName element, final XMLAttributes attrs, final Augmentations augs)\n
     '''
 def characters():
-    '''public void characters(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    characters(final XMLString text, final Augmentations augs)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    ignorableWhitespace(final XMLString text, final Augmentations augs)\n
     '''
 def startGeneralEntity():
-    '''public void startGeneralEntity(final String name, final XMLResourceIdentifier id, final String encoding, final Augmentations augs)
+    '''returns None\n\n
+    startGeneralEntity(final String name, final XMLResourceIdentifier id, final String encoding, final Augmentations augs)\n
     '''
 def textDecl():
-    '''public void textDecl(final String version, final String encoding, final Augmentations augs)
+    '''returns None\n\n
+    textDecl(final String version, final String encoding, final Augmentations augs)\n
     '''
 def endGeneralEntity():
-    '''public void endGeneralEntity(final String name, final Augmentations augs)
+    '''returns None\n\n
+    endGeneralEntity(final String name, final Augmentations augs)\n
     '''
 def startCDATA():
-    '''public void startCDATA(final Augmentations augs)
+    '''returns None\n\n
+    startCDATA(final Augmentations augs)\n
     '''
 def endCDATA():
-    '''public void endCDATA(final Augmentations augs)
+    '''returns None\n\n
+    endCDATA(final Augmentations augs)\n
     '''
 def endElement():
-    '''public void endElement(final QName element, final Augmentations augs)
+    '''returns None\n\n
+    endElement(final QName element, final Augmentations augs)\n
     '''
 def endDocument():
-    '''public void endDocument(final Augmentations augs)
+    '''returns None\n\n
+    endDocument(final Augmentations augs)\n
     '''

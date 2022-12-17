@@ -1,15 +1,20 @@
-def DMPkgStaging():
-    '''public DMPkgStaging(final MboSet ms)
+def ():
+    '''returns DMPkgStaging\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def fillRecord():
-    '''public void fillRecord(final String type, final int cfgDataOrder, final byte[] content, final String cmpSrcFileName, final String cfgObject, final int cfgObjectCount)
+    '''returns None\n\n
+    fillRecord(final String type, final int cfgDataOrder, final byte[] content, final String cmpSrcFileName, final String cfgObject, final int cfgObjectCount)\n
     '''
 def fillRecordFromPkgEntry():
-    '''public void fillRecordFromPkgEntry(final String pkgDefName, final String source, final String pkg, final String type, final int cfgDataOrder, final byte[] content, final String cmpSrcFileName)
+    '''returns None\n\n
+    fillRecordFromPkgEntry(final String pkgDefName, final String source, final String pkg, final String type, final int cfgDataOrder, final byte[] content, final String cmpSrcFileName)\n
     '''

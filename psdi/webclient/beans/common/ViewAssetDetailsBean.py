@@ -1,9 +1,12 @@
 def checkDPAAppsAccess():
-    '''public void checkDPAAppsAccess()
+    '''returns None\n\n
+    checkDPAAppsAccess()\n
     '''
 def viewdetails():
-    '''public int viewdetails()
+    '''returns int\n\n
+    viewdetails()\n
     '''
 def openMaximoDiscovery():
-    '''public int openMaximoDiscovery()
+    '''returns int\n\n
+    openMaximoDiscovery()\n
     '''

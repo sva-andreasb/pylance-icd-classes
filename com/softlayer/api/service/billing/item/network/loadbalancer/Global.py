@@ -1,6 +1,8 @@
 def getResource():
-    '''public Account getResource()
+    '''returns Account\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final Account resource)
+    '''returns None\n\n
+    setResource(final Account resource)\n
     '''

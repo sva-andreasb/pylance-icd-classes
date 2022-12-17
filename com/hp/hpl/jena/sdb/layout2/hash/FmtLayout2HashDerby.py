@@ -1,3 +1,4 @@
-def FmtLayout2HashDerby():
-    '''public FmtLayout2HashDerby(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2HashDerby\n\n
+    (final SDBConnection connection)\n
     '''

@@ -1,15 +1,20 @@
-def PropertyIterator():
-    '''public PropertyIterator(final PropertyOwnerPointer pointer, final String name, final boolean reverse, NodePointer startWith)
+def ():
+    '''returns PropertyIterator\n\n
+    (final PropertyOwnerPointer pointer, final String name, final boolean reverse, NodePointer startWith)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getNodePointer():
-    '''public NodePointer getNodePointer()
+    '''returns NodePointer\n\n
+    getNodePointer()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def setPosition():
-    '''public boolean setPosition(final int position)
+    '''returns boolean\n\n
+    setPosition(final int position)\n
     '''

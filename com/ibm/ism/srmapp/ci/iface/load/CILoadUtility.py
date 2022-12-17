@@ -11,24 +11,3 @@ DISCOVERY_SCOPE_PARAM_DEFAULT = "String  \"\""
 DISCOVERY_SERVICENAME_PARAM_DEFAULT = "String  \"MXCIImport\""
 DISCOVERY_SYSTEMNAME_PARAM_DEFAULT = "String  \"SRM_SaaS_ES\""
 ID_SIMPLE_FORMAT = "String  \"SIMPLECI\""
-def retrieveMboInfo():
-    '''public static List<String>[] retrieveMboInfo(final String ifaceName, final boolean parent)
-    '''
-def retrieveMBOList():
-    '''public static Map<String, String> retrieveMBOList(final String obj, final String columnName, final String attribute, final String value, final String where, final String secondColumn)
-    '''
-def loadStaticLists():
-    '''public static void loadStaticLists(final String ciClassificationId)
-    '''
-def parseScope():
-    '''public static String[] parseScope(final String providedScope)
-    '''
-def releaseStaticListsResources():
-    '''public static void releaseStaticListsResources()
-    '''
-def deleteOldCSNowResolved():
-    '''public static void deleteOldCSNowResolved(final Map<Object, String> discoveredSys)
-    '''
-def deleteOldIPRelationships():
-    '''public static void deleteOldIPRelationships(final Map<Object, String> discoveredSys)
-    '''

@@ -1,18 +1,24 @@
-def DataCleanserParser():
-    '''public DataCleanserParser()
+def ():
+    '''returns DataCleanserParser\n\n
+    ()\n
     '''
 def getDataFromFile():
-    '''public ArrayList getDataFromFile(final String filename)
+    '''returns ArrayList\n\n
+    getDataFromFile(final String filename)\n
     '''
 def getXMLVersion():
-    '''public String getXMLVersion()
+    '''returns String\n\n
+    getXMLVersion()\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''

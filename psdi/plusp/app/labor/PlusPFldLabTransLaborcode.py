@@ -1,9 +1,8 @@
-def PlusPFldLabTransLaborcode():
-    '''public PlusPFldLabTransLaborcode(final MboValue arg0)
+def ():
+    '''returns PlusPFldLabTransLaborcode\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
-    '''
-def showMismatchVendorCustomerWarning():
-    '''public static void showMismatchVendorCustomerWarning(final MboValue mboValue)
+    '''returns None\n\n
+    action()\n
     '''

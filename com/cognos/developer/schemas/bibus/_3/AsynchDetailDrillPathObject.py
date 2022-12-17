@@ -1,31 +1,21 @@
-def AsynchDetailDrillPathObject():
-    '''public AsynchDetailDrillPathObject()
-    public AsynchDetailDrillPathObject(final DrillPath drillPath, final boolean upgraded)
+def ():
+    '''returns AsynchDetailDrillPathObject\n\n
+    ()\n
+    (final DrillPath drillPath, final boolean upgraded)\n
     '''
 def getDrillPath():
-    '''public DrillPath getDrillPath()
+    '''returns DrillPath\n\n
+    getDrillPath()\n
     '''
 def setDrillPath():
-    '''public void setDrillPath(final DrillPath drillPath)
+    '''returns None\n\n
+    setDrillPath(final DrillPath drillPath)\n
     '''
 def isUpgraded():
-    '''public boolean isUpgraded()
+    '''returns boolean\n\n
+    isUpgraded()\n
     '''
 def setUpgraded():
-    '''public void setUpgraded(final boolean upgraded)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setUpgraded(final boolean upgraded)\n
     '''

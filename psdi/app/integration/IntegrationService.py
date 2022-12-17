@@ -1,31 +1,41 @@
-def IntegrationService():
-    '''public IntegrationService()
-    public IntegrationService(final MXServer mxServer)
+def ():
+    '''returns IntegrationService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def useIntegrationRules():
-    '''public boolean useIntegrationRules(String owner1sysid, String owner2sysid, String pcid, final UserInfo userInfo)
+    '''returns boolean\n\n
+    useIntegrationRules(String owner1sysid, String owner2sysid, String pcid, final UserInfo userInfo)\n
     '''
 def put():
-    '''public Object put(String owner1sysid, String owner2sysid, String pcid, final boolean newvalue)
+    '''returns Object\n\n
+    put(String owner1sysid, String owner2sysid, String pcid, final boolean newvalue)\n
     '''
 def remove():
-    '''public Object remove(String owner1sysid, String owner2sysid, String pcid)
+    '''returns Object\n\n
+    remove(String owner1sysid, String owner2sysid, String pcid)\n
     '''
 def copySystem():
-    '''public MboSetRemote copySystem(final String fromSysID, final String toSysID, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    copySystem(final String fromSysID, final String toSysID, final UserInfo userInfo)\n
     '''
 def deleteSystem():
-    '''public MboSetRemote deleteSystem(final String sysID, final String indicator, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    deleteSystem(final String sysID, final String indicator, final UserInfo userInfo)\n
     '''
 def getMxSysID():
-    '''public String getMxSysID(final UserInfo userInfo)
+    '''returns String\n\n
+    getMxSysID(final UserInfo userInfo)\n
     '''
 def isPCIDValid():
-    '''public boolean isPCIDValid(final String pcid, final UserInfo userInfo)
+    '''returns boolean\n\n
+    isPCIDValid(final String pcid, final UserInfo userInfo)\n
     '''
 def getDefaultPCValue():
-    '''public boolean getDefaultPCValue(String owner1sysid, String owner2sysid, String pcid, final UserInfo userInfo)
+    '''returns boolean\n\n
+    getDefaultPCValue(String owner1sysid, String owner2sysid, String pcid, final UserInfo userInfo)\n
     '''

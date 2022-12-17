@@ -1,9 +1,12 @@
-def FldPMMeterFreq():
-    '''public FldPMMeterFreq(final MboValue mbv)
+def ():
+    '''returns FldPMMeterFreq\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

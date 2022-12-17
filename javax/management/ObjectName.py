@@ -1,59 +1,62 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isDomainPattern():
-    '''public boolean isDomainPattern()
+    '''returns boolean\n\n
+    isDomainPattern()\n
     '''
 def isPattern():
-    '''public boolean isPattern()
+    '''returns boolean\n\n
+    isPattern()\n
     '''
 def isPropertyPattern():
-    '''public boolean isPropertyPattern()
+    '''returns boolean\n\n
+    isPropertyPattern()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getCanonicalKeyPropertyListString():
-    '''public String getCanonicalKeyPropertyListString()
+    '''returns String\n\n
+    getCanonicalKeyPropertyListString()\n
     '''
 def getCanonicalName():
-    '''public String getCanonicalName()
+    '''returns String\n\n
+    getCanonicalName()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def getKeyPropertyListString():
-    '''public String getKeyPropertyListString()
+    '''returns String\n\n
+    getKeyPropertyListString()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def ObjectName():
-    '''public ObjectName(final String s)
-    public ObjectName(final String s, final Hashtable hashtable)
-    public ObjectName(final String s, final String key, final String value)
+def ():
+    '''returns ObjectName\n\n
+    (final String s)\n
+    (final String s, final Hashtable hashtable)\n
+    (final String s, final String key, final String value)\n
     '''
 def getKeyPropertyList():
-    '''public Hashtable getKeyPropertyList()
+    '''returns Hashtable\n\n
+    getKeyPropertyList()\n
     '''
 def setMBeanServer():
-    '''public void setMBeanServer(final MBeanServer mBeanServer)
+    '''returns None\n\n
+    setMBeanServer(final MBeanServer mBeanServer)\n
     '''
 def apply():
-    '''public boolean apply(final ObjectName objectName)
+    '''returns boolean\n\n
+    apply(final ObjectName objectName)\n
     '''
 def getKeyProperty():
-    '''public String getKeyProperty(final String key)
-    '''
-def quote():
-    '''public static String quote(final String s)
-    '''
-def unquote():
-    '''public static String unquote(final String s)
-    '''
-def getInstance():
-    '''public static ObjectName getInstance(final String s)
-    public static ObjectName getInstance(final ObjectName objectName)
-    public static ObjectName getInstance(final String s, final Hashtable hashtable)
-    public static ObjectName getInstance(final String s, final String s2, final String s3)
+    '''returns String\n\n
+    getKeyProperty(final String key)\n
     '''

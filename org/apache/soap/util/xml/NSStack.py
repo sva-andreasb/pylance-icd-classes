@@ -1,23 +1,24 @@
-def NSStack():
-    '''public NSStack()
-    '''
-def addNSDeclaration():
-    '''public synchronized String addNSDeclaration(final String s)
-    public synchronized void addNSDeclaration(final String s, final String s2)
+def ():
+    '''returns NSStack\n\n
+    ()\n
     '''
 def getPrefixFromURI():
-    '''public String getPrefixFromURI(final String anObject)
-    public synchronized String getPrefixFromURI(final String str, final Writer writer)
+    '''returns String\n\n
+    getPrefixFromURI(final String anObject)\n
     '''
 def getURIFromPrefix():
-    '''public String getURIFromPrefix(final String anObject)
+    '''returns String\n\n
+    getURIFromPrefix(final String anObject)\n
     '''
 def popScope():
-    '''public void popScope()
+    '''returns None\n\n
+    popScope()\n
     '''
 def pushScope():
-    '''public void pushScope()
+    '''returns None\n\n
+    pushScope()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

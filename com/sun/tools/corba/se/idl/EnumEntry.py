@@ -1,15 +1,20 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def generate():
-    '''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(final Hashtable hashtable, final PrintWriter printWriter)\n
     '''
 def generator():
-    '''public Generator generator()
+    '''returns Generator\n\n
+    generator()\n
     '''
 def addElement():
-    '''public void addElement(final String obj)
+    '''returns None\n\n
+    addElement(final String obj)\n
     '''
 def elements():
-    '''public Vector elements()
+    '''returns Vector\n\n
+    elements()\n
     '''

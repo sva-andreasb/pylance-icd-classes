@@ -1,12 +1,16 @@
-def LicenseStatusHandler():
-    '''public LicenseStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns LicenseStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredExternalStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredExternalStatus)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)\n
     '''
 def updateMboForStatus():
-    '''public void updateMboForStatus(final String status)
+    '''returns None\n\n
+    updateMboForStatus(final String status)\n
     '''

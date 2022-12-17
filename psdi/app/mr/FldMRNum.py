@@ -1,6 +1,8 @@
-def FldMRNum():
-    '''public FldMRNum(final MboValue mbv)
+def ():
+    '''returns FldMRNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

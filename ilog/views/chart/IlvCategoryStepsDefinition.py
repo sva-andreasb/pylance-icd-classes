@@ -1,44 +1,46 @@
-def IlvCategoryStepsDefinition():
-    '''public IlvCategoryStepsDefinition(final boolean b)
-    public IlvCategoryStepsDefinition(final boolean c, final IlvDataSet a)
-    public IlvCategoryStepsDefinition(final boolean c, final int b)
-    '''
-def getLabelDataSetIndex():
-    '''public final int getLabelDataSetIndex()
+def ():
+    '''returns IlvCategoryStepsDefinition\n\n
+    (final boolean b)\n
+    (final boolean c, final IlvDataSet a)\n
+    (final boolean c, final int b)\n
     '''
 def setLabelDataSetIndex():
-    '''public void setLabelDataSetIndex(final int b)
-    '''
-def isStepBetweenCategory():
-    '''public final boolean isStepBetweenCategory()
+    '''returns None\n\n
+    setLabelDataSetIndex(final int b)\n
     '''
 def setStepBetweenCategory():
-    '''public void setStepBetweenCategory(final boolean c)
-    '''
-def isLabelBetweenCategory():
-    '''public final boolean isLabelBetweenCategory()
+    '''returns None\n\n
+    setStepBetweenCategory(final boolean c)\n
     '''
 def setLabelBetweenCategory():
-    '''public void setLabelBetweenCategory(final boolean d)
+    '''returns None\n\n
+    setLabelBetweenCategory(final boolean d)\n
     '''
 def hasSubStep():
-    '''public boolean hasSubStep()
+    '''returns boolean\n\n
+    hasSubStep()\n
     '''
 def previousStep():
-    '''public double previousStep(final double a)
+    '''returns double\n\n
+    previousStep(final double a)\n
     '''
 def incrementStep():
-    '''public double incrementStep(final double n)
+    '''returns double\n\n
+    incrementStep(final double n)\n
     '''
 def previousSubStep():
-    '''public double previousSubStep(final double a)
+    '''returns double\n\n
+    previousSubStep(final double a)\n
     '''
 def incrementSubStep():
-    '''public double incrementSubStep(final double n)
+    '''returns double\n\n
+    incrementSubStep(final double n)\n
     '''
 def getLabelDataSet():
-    '''public IlvDataSet getLabelDataSet()
+    '''returns IlvDataSet\n\n
+    getLabelDataSet()\n
     '''
 def computeLabel():
-    '''public String computeLabel(double d)
+    '''returns String\n\n
+    computeLabel(double d)\n
     '''

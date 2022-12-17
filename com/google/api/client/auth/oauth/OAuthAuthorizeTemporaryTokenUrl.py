@@ -1,3 +1,4 @@
-def OAuthAuthorizeTemporaryTokenUrl():
-    '''public OAuthAuthorizeTemporaryTokenUrl(final String encodedUserAuthorizationUrl)
+def ():
+    '''returns OAuthAuthorizeTemporaryTokenUrl\n\n
+    (final String encodedUserAuthorizationUrl)\n
     '''

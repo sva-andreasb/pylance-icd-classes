@@ -1,21 +1,28 @@
-def ParameterFactoryWrapper():
-    '''public ParameterFactoryWrapper(final Class paramClass, final ParameterFactory factory)
+def ():
+    '''returns ParameterFactoryWrapper\n\n
+    (final Class paramClass, final ParameterFactory factory)\n
     '''
 def newInstance():
-    '''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''returns Object\n\n
+    newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getParameterClass():
-    '''public Class getParameterClass()
+    '''returns Class\n\n
+    getParameterClass()\n
     '''
 def setParameterClass():
-    '''public void setParameterClass(final Class parameterClass)
+    '''returns None\n\n
+    setParameterClass(final Class parameterClass)\n
     '''
 def getFactory():
-    '''public ParameterFactory getFactory()
+    '''returns ParameterFactory\n\n
+    getFactory()\n
     '''
 def setFactory():
-    '''public void setFactory(final ParameterFactory factory)
+    '''returns None\n\n
+    setFactory(final ParameterFactory factory)\n
     '''

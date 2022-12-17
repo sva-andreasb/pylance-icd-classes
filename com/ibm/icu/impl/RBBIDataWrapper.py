@@ -22,31 +22,27 @@ RESERVED = "int  3"
 NEXTSTATES = "int  4"
 RBBI_LOOKAHEAD_HARD_BREAK = "int  1"
 RBBI_BOF_REQUIRED = "int  2"
-def equals():
-    '''public static boolean equals(final RBBIStateTable left, final RBBIStateTable right)
-    public boolean equals(final Object other)
-    '''
 def getRowIndex():
-    '''public int getRowIndex(final int state)
-    '''
-def get():
-    '''public static RBBIDataWrapper get(final ByteBuffer bytes)
+    '''returns int\n\n
+    getRowIndex(final int state)\n
     '''
 def dump():
-    '''public void dump(final PrintStream out)
-    '''
-def intToString():
-    '''public static String intToString(final int n, final int width)
-    '''
-def intToHexString():
-    '''public static String intToHexString(final int n, final int width)
+    '''returns None\n\n
+    dump(final PrintStream out)\n
     '''
 def put():
-    '''public int put(final DataOutputStream bytes)
+    '''returns int\n\n
+    put(final DataOutputStream bytes)\n
+    '''
+def equals():
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def isDataVersionAcceptable():
-    '''public boolean isDataVersionAcceptable(final byte[] version)
+    '''returns boolean\n\n
+    isDataVersionAcceptable(final byte[] version)\n
     '''
-def RBBIDataHeader():
-    '''public RBBIDataHeader()
+def ():
+    '''returns RBBIDataHeader\n\n
+    ()\n
     '''

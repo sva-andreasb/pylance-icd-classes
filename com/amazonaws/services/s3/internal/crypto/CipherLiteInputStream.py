@@ -1,28 +1,36 @@
-def CipherLiteInputStream():
-    '''public CipherLiteInputStream(final InputStream is, final CipherLite cipherLite)
-    public CipherLiteInputStream(final InputStream is, final CipherLite c, final int buffsize)
-    public CipherLiteInputStream(final InputStream is, final CipherLite c, final int buffsize, final boolean multipart, final boolean lastMultiPart)
+def ():
+    '''returns CipherLiteInputStream\n\n
+    (final InputStream is, final CipherLite cipherLite)\n
+    (final InputStream is, final CipherLite c, final int buffsize)\n
+    (final InputStream is, final CipherLite c, final int buffsize, final boolean multipart, final boolean lastMultiPart)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b)
-    public int read(final byte[] buf, final int off, final int target_len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b)\n
+    read(final byte[] buf, final int off, final int target_len)\n
     '''
 def skip():
-    '''public long skip(long n)
+    '''returns long\n\n
+    skip(long n)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

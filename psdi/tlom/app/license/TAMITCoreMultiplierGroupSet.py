@@ -1,3 +1,4 @@
-def TAMITCoreMultiplierGroupSet():
-    '''public TAMITCoreMultiplierGroupSet(final MboServerInterface ms)
+def ():
+    '''returns TAMITCoreMultiplierGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -6,84 +6,98 @@ MAIN_ATTRIBUTE_NAME = "String  \"_Attribute Name\""
 MAIN_ATTRIBUTE_VALUE = "String  \"_Attribute Value\""
 MAIN_ATTRIBUTE_DATETIME_VALUE = "String  \"_Attribute Datetime Value\""
 MAIN_ATTRIBUTE_MEASURE_UNIT = "String  \"_Attribute Measure Unit\""
-def ReconCompResult():
-    '''public ReconCompResult(final ReconInfo reconInfo, final String dataSet1ObjectName, final String dataSet2ObjectName)
-    public ReconCompResult(final ReconInfo reconInfo, final String dataSet1ObjectName, final String dataSet2ObjectName, final int resultType)
-    public ReconCompResult(final ReconInfo reconInfo, final String objectName, final int resultType)
+def ():
+    '''returns ReconCompResult\n\n
+    (final ReconInfo reconInfo, final String dataSet1ObjectName, final String dataSet2ObjectName)\n
+    (final ReconInfo reconInfo, final String dataSet1ObjectName, final String dataSet2ObjectName, final int resultType)\n
+    (final ReconInfo reconInfo, final String objectName, final int resultType)\n
     '''
 def getResultType():
-    '''public int getResultType()
+    '''returns int\n\n
+    getResultType()\n
     '''
 def getCode():
-    '''public String getCode()
+    '''returns String\n\n
+    getCode()\n
     '''
 def setCode():
-    '''public void setCode(final String code)
+    '''returns None\n\n
+    setCode(final String code)\n
     '''
 def getRuleName():
-    '''public String getRuleName()
+    '''returns String\n\n
+    getRuleName()\n
     '''
 def setRuleName():
-    '''public void setRuleName(final String ruleName)
+    '''returns None\n\n
+    setRuleName(final String ruleName)\n
     '''
 def isSuccessful():
-    '''public boolean isSuccessful()
+    '''returns boolean\n\n
+    isSuccessful()\n
     '''
 def setSuccessful():
-    '''public void setSuccessful(final boolean successful)
+    '''returns None\n\n
+    setSuccessful(final boolean successful)\n
     '''
 def addDataSet1Attribute():
-    '''public void addDataSet1Attribute(final String attributeName, final Object attributeValue)
+    '''returns None\n\n
+    addDataSet1Attribute(final String attributeName, final Object attributeValue)\n
     '''
 def getDataSet1Attribute():
-    '''public Object getDataSet1Attribute(final String attributeName)
+    '''returns Object\n\n
+    getDataSet1Attribute(final String attributeName)\n
     '''
 def addDataSet2Attribute():
-    '''public void addDataSet2Attribute(final String attributeName, final Object attributeValue)
+    '''returns None\n\n
+    addDataSet2Attribute(final String attributeName, final Object attributeValue)\n
     '''
 def getDataSet2Attribute():
-    '''public Object getDataSet2Attribute(final String attributeName)
-    '''
-def joinUsingAnd():
-    '''public static ReconCompResult joinUsingAnd(final ReconCompResult r1, final ReconCompResult r2)
-    '''
-def joinUsingOr():
-    '''public static ReconCompResult joinUsingOr(final ReconCompResult r1, final ReconCompResult r2)
-    '''
-def resolveItem():
-    '''public static Object resolveItem(final Object item1, final Object item2)
+    '''returns Object\n\n
+    getDataSet2Attribute(final String attributeName)\n
     '''
 def prepare():
-    '''public void prepare(final Map linkValue1, final Map linkValue2)
+    '''returns None\n\n
+    prepare(final Map linkValue1, final Map linkValue2)\n
     '''
 def setIDAndKeys():
-    '''public void setIDAndKeys(final Map idKey1, final Map idKey2, final boolean isRoot)
-    public void setIDAndKeys(final ResultTableAttributes attributes, final Map idKey, final boolean isRoot, final boolean isDataSet1)
+    '''returns None\n\n
+    setIDAndKeys(final Map idKey1, final Map idKey2, final boolean isRoot)\n
+    setIDAndKeys(final ResultTableAttributes attributes, final Map idKey, final boolean isRoot, final boolean isDataSet1)\n
     '''
 def setVoid():
-    '''public void setVoid(final boolean isVoid)
+    '''returns None\n\n
+    setVoid(final boolean isVoid)\n
     '''
 def isVoid():
-    '''public boolean isVoid()
+    '''returns boolean\n\n
+    isVoid()\n
     '''
 def getRootValue1():
-    '''public Map getRootValue1()
+    '''returns Map\n\n
+    getRootValue1()\n
     '''
 def setRootValue1():
-    '''public void setRootValue1(final Map rootValue1)
+    '''returns None\n\n
+    setRootValue1(final Map rootValue1)\n
     '''
 def getRootValue2():
-    '''public Map getRootValue2()
+    '''returns Map\n\n
+    getRootValue2()\n
     '''
 def setRootValue2():
-    '''public void setRootValue2(final Map rootValue2)
+    '''returns None\n\n
+    setRootValue2(final Map rootValue2)\n
     '''
 def isSameAs():
-    '''public boolean isSameAs(final ReconCompResult anotherResult)
+    '''returns boolean\n\n
+    isSameAs(final ReconCompResult anotherResult)\n
     '''
 def sameValue():
-    '''public boolean sameValue(final Object o1, final Object o2)
+    '''returns boolean\n\n
+    sameValue(final Object o1, final Object o2)\n
     '''
 def isSupersede():
-    '''public boolean isSupersede(final ReconCompResult anotherResult)
+    '''returns boolean\n\n
+    isSupersede(final ReconCompResult anotherResult)\n
     '''

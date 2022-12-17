@@ -1,6 +1,8 @@
-def DomainMetaSet():
-    '''public DomainMetaSet(final MboServerInterface ms)
+def ():
+    '''returns DomainMetaSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

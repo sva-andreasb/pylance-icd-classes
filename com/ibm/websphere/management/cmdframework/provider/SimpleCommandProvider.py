@@ -1,9 +1,12 @@
 def createCommand():
-    '''public AbstractAdminCommand createCommand(final CommandMetadata metadata)
+    '''returns AbstractAdminCommand\n\n
+    createCommand(final CommandMetadata metadata)\n
     '''
 def loadCommand():
-    '''public AbstractAdminCommand loadCommand(final CommandData cmdData)
+    '''returns AbstractAdminCommand\n\n
+    loadCommand(final CommandData cmdData)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

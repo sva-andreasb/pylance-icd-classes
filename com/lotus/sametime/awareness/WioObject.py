@@ -1,35 +1,45 @@
-def WioObject():
-    '''public WioObject(final STWatchedObject watchedObject, final short type)
-    public WioObject(final STWatchedObject watchedObject, final STGroup stGroup)
+def ():
+    '''returns WioObject\n\n
+    (final STWatchedObject watchedObject, final short type)\n
+    (final STWatchedObject watchedObject, final STGroup stGroup)\n
     '''
 def setStatus():
-    '''public void setStatus(final short n, final String s)
+    '''returns None\n\n
+    setStatus(final short n, final String s)\n
     '''
 def addWatch():
-    '''public void addWatch(final Integer n)
-    public void addWatch(final STGroup stGroup)
+    '''returns None\n\n
+    addWatch(final Integer n)\n
+    addWatch(final STGroup stGroup)\n
     '''
 def removeWatch():
-    '''public void removeWatch(final Integer key)
-    public void removeWatch(final STGroup key)
+    '''returns None\n\n
+    removeWatch(final Integer key)\n
+    removeWatch(final STGroup key)\n
     '''
 def isWatched():
-    '''public boolean isWatched(final Integer key)
-    public boolean isWatched(final Object key)
-    public boolean isWatched()
+    '''returns boolean\n\n
+    isWatched(final Integer key)\n
+    isWatched(final Object key)\n
+    isWatched()\n
     '''
 def getWatchingSessions():
-    '''public Enumeration getWatchingSessions()
+    '''returns Enumeration\n\n
+    getWatchingSessions()\n
     '''
 def getWatchingGroups():
-    '''public Enumeration getWatchingGroups()
+    '''returns Enumeration\n\n
+    getWatchingGroups()\n
     '''
 def dumpToStream():
-    '''public void dumpToStream(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dumpToStream(final NdrOutputStream ndrOutputStream)\n
     '''
 def isWatchedBySession():
-    '''public boolean isWatchedBySession()
+    '''returns boolean\n\n
+    isWatchedBySession()\n
     '''
 def getWatchedObject():
-    '''public STWatchedObject getWatchedObject()
+    '''returns STWatchedObject\n\n
+    getWatchedObject()\n
     '''

@@ -1,18 +1,24 @@
-def ActCI():
-    '''public ActCI(final MboSet ms)
+def ():
+    '''returns ActCI\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def isTopLevel():
-    '''public boolean isTopLevel()
+    '''returns boolean\n\n
+    isTopLevel()\n
     '''
 def isLinkedToCI():
-    '''public boolean isLinkedToCI()
+    '''returns boolean\n\n
+    isLinkedToCI()\n
     '''
 def createAuthorizedCI():
-    '''public MboRemote createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes)
+    '''returns MboRemote\n\n
+    createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes)\n
     '''

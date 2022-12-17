@@ -1,52 +1,52 @@
 CLUSTER_MEMBER_ATTR = "String  \"memberName\""
 CLUSTER_NODE_ATTR = "String  \"nodeName\""
-def addToScopeResultTable():
-    '''public static void addToScopeResultTable(final String type, final EObject refO, final Hashtable result)
-    '''
-def buildTargetString():
-    '''public static String buildTargetString(final List scopes)
-    '''
-def getMatchingColIndex():
-    '''public static int getMatchingColIndex(final AppDeploymentTask task, final String matchingColName)
-    '''
-def getExpandedTaskData():
-    '''public static String[][] getExpandedTaskData(final AppDeploymentTask task)
-    '''
-def ResourceValidationHelper():
-    '''public ResourceValidationHelper(final String earFile, final String sessionId, final Hashtable prefs, final String operation, final boolean init)
-    public ResourceValidationHelper(final AppDeploymentController controller, final String sessionId, final String operation, final boolean init)
+def ():
+    '''returns ResourceValidationHelper\n\n
+    (final String earFile, final String sessionId, final Hashtable prefs, final String operation, final boolean init)\n
+    (final AppDeploymentController controller, final String sessionId, final String operation, final boolean init)\n
     '''
 def init():
-    '''public void init()
-    public void init(final String operation)
+    '''returns None\n\n
+    init()\n
+    init(final String operation)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getResourceJNDINames():
-    '''public List getResourceJNDINames(final String resType)
+    '''returns List\n\n
+    getResourceJNDINames(final String resType)\n
     '''
 def getResourceObjectsWithRefKeys():
-    '''public Hashtable getResourceObjectsWithRefKeys(final String moduleUri, final String resType)
+    '''returns Hashtable\n\n
+    getResourceObjectsWithRefKeys(final String moduleUri, final String resType)\n
     '''
 def taskResourceValidation():
-    '''public Hashtable taskResourceValidation(final String taskName)
+    '''returns Hashtable\n\n
+    taskResourceValidation(final String taskName)\n
     '''
 def appResourceValidation():
-    '''public Vector appResourceValidation()
+    '''returns Vector\n\n
+    appResourceValidation()\n
     '''
 def getAppResourceObjects():
-    '''public Hashtable getAppResourceObjects()
+    '''returns Hashtable\n\n
+    getAppResourceObjects()\n
     '''
 def _getInAppRefObjects():
-    '''public Hashtable _getInAppRefObjects(final String uri)
+    '''returns Hashtable\n\n
+    _getInAppRefObjects(final String uri)\n
     '''
 def printValueTable():
-    '''public void printValueTable()
+    '''returns None\n\n
+    printValueTable()\n
     '''
 def printScopeTable():
-    '''public void printScopeTable()
+    '''returns None\n\n
+    printScopeTable()\n
     '''
 def printAppTable():
-    '''public void printAppTable()
+    '''returns None\n\n
+    printAppTable()\n
     '''

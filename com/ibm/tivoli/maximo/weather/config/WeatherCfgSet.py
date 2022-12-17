@@ -1,3 +1,4 @@
-def WeatherCfgSet():
-    '''public WeatherCfgSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherCfgSet\n\n
+    (final MboServerInterface ms)\n
     '''

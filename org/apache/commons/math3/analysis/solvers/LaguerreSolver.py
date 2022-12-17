@@ -1,29 +1,37 @@
-def LaguerreSolver():
-    '''public LaguerreSolver()
-    public LaguerreSolver(final double absoluteAccuracy)
-    public LaguerreSolver(final double relativeAccuracy, final double absoluteAccuracy)
-    public LaguerreSolver(final double relativeAccuracy, final double absoluteAccuracy, final double functionValueAccuracy)
+def ():
+    '''returns LaguerreSolver\n\n
+    ()\n
+    (final double absoluteAccuracy)\n
+    (final double relativeAccuracy, final double absoluteAccuracy)\n
+    (final double relativeAccuracy, final double absoluteAccuracy, final double functionValueAccuracy)\n
     '''
 def doSolve():
-    '''public double doSolve()
+    '''returns double\n\n
+    doSolve()\n
     '''
 def laguerre():
-    '''public double laguerre(final double lo, final double hi, final double fLo, final double fHi)
+    '''returns double\n\n
+    laguerre(final double lo, final double hi, final double fLo, final double fHi)\n
     '''
 def solveAllComplex():
-    '''public Complex[] solveAllComplex(final double[] coefficients, final double initial)
-    public Complex[] solveAllComplex(final double[] coefficients, final double initial, final int maxEval)
+    '''returns Complex[]\n\n
+    solveAllComplex(final double[] coefficients, final double initial)\n
+    solveAllComplex(final double[] coefficients, final double initial, final int maxEval)\n
     '''
 def solveComplex():
-    '''public Complex solveComplex(final double[] coefficients, final double initial)
-    public Complex solveComplex(final double[] coefficients, final double initial, final int maxEval)
+    '''returns Complex\n\n
+    solveComplex(final double[] coefficients, final double initial)\n
+    solveComplex(final double[] coefficients, final double initial, final int maxEval)\n
     '''
 def isRoot():
-    '''public boolean isRoot(final double min, final double max, final Complex z)
+    '''returns boolean\n\n
+    isRoot(final double min, final double max, final Complex z)\n
     '''
 def solveAll():
-    '''public Complex[] solveAll(final Complex[] coefficients, final Complex initial)
+    '''returns Complex[]\n\n
+    solveAll(final Complex[] coefficients, final Complex initial)\n
     '''
 def solve():
-    '''public Complex solve(final Complex[] coefficients, final Complex initial)
+    '''returns Complex\n\n
+    solve(final Complex[] coefficients, final Complex initial)\n
     '''

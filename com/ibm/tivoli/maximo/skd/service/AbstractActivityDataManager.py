@@ -1,53 +1,69 @@
 def applyActivityChange():
-    '''public void applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)
-    public void applyActivityChange(final MboRemote activityMboRemote, final String ids, final MXTransaction txn)
+    '''returns None\n\n
+    applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)\n
+    applyActivityChange(final MboRemote activityMboRemote, final String ids, final MXTransaction txn)\n
     '''
 def applyScenarioChange():
-    '''public void applyScenarioChange(final MboRemote activityMboRemote, final MboRemote ParentActMboRemote, final MXTransaction txn)
-    public void applyScenarioChange(final MboRemote activityMboRemote, final MboRemote ParentActMboRemote, final String ids, final MXTransaction txn)
+    '''returns None\n\n
+    applyScenarioChange(final MboRemote activityMboRemote, final MboRemote ParentActMboRemote, final MXTransaction txn)\n
+    applyScenarioChange(final MboRemote activityMboRemote, final MboRemote ParentActMboRemote, final String ids, final MXTransaction txn)\n
     '''
 def initializeActivity():
-    '''public void initializeActivity(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)
-    public void initializeActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    initializeActivity(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)\n
+    initializeActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)\n
     '''
 def initializeActivityChildren():
-    '''public void initializeActivityChildren(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)
+    '''returns None\n\n
+    initializeActivityChildren(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)\n
     '''
 def loadActivity():
-    '''public void loadActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)
-    public void loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)
+    '''returns None\n\n
+    loadActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)\n
+    loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)\n
     '''
 def populateActivities():
-    '''public void populateActivities(final HashMap<String, ArrayList<String>> queriesMap)
+    '''returns None\n\n
+    populateActivities(final HashMap<String, ArrayList<String>> queriesMap)\n
     '''
 def populateActivityPropertyDetails():
-    '''public void populateActivityPropertyDetails()
+    '''returns None\n\n
+    populateActivityPropertyDetails()\n
     '''
 def sortActivityChildren():
-    '''public List<IlvActivity> sortActivityChildren(final IlvActivity activity, final String objectName, final MXGanttModel model)
+    '''returns List<IlvActivity>\n\n
+    sortActivityChildren(final IlvActivity activity, final String objectName, final MXGanttModel model)\n
     '''
 def activityRecordCount():
-    '''public int activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns int\n\n
+    activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def saveActivities():
-    '''public void saveActivities(final IlvGeneralActivity activity)
-    public void saveActivities(final IlvGeneralActivity activity, final MXTransaction txn)
+    '''returns None\n\n
+    saveActivities(final IlvGeneralActivity activity)\n
+    saveActivities(final IlvGeneralActivity activity, final MXTransaction txn)\n
     '''
 def duplicateProjectData():
-    '''public void duplicateProjectData(final String originalProjectId)
+    '''returns None\n\n
+    duplicateProjectData(final String originalProjectId)\n
     '''
 def deleteProjectData():
-    '''public void deleteProjectData()
+    '''returns None\n\n
+    deleteProjectData()\n
     '''
 def getAsyncCount():
-    '''public int getAsyncCount()
+    '''returns int\n\n
+    getAsyncCount()\n
     '''
 def loadAdditionalActivities():
-    '''public void loadAdditionalActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)
+    '''returns None\n\n
+    loadAdditionalActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)\n
     '''
 def linkChildDummyNode():
-    '''public List<IlvActivity> linkChildDummyNode(final MXActivity activity, final MXGanttModel mxganttmodel, final SKDAppService.ActivityData activityData)
+    '''returns List<IlvActivity>\n\n
+    linkChildDummyNode(final MXActivity activity, final MXGanttModel mxganttmodel, final SKDAppService.ActivityData activityData)\n
     '''
 def getModifiedActivityChildren():
-    '''public List<IlvActivity> getModifiedActivityChildren(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)
+    '''returns List<IlvActivity>\n\n
+    getModifiedActivityChildren(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)\n
     '''

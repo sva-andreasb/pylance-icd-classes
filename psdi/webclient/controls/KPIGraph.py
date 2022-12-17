@@ -1,39 +1,52 @@
-def KPIGraph():
-    '''public KPIGraph()
+def ():
+    '''returns KPIGraph\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getKPIData():
-    '''public Vector getKPIData()
+    '''returns Vector\n\n
+    getKPIData()\n
     '''
 def getLabels():
-    '''public String[] getLabels()
+    '''returns String[]\n\n
+    getLabels()\n
     '''
 def updatekpis():
-    '''public void updatekpis()
+    '''returns None\n\n
+    updatekpis()\n
     '''
 def setGraphInfo():
-    '''public String setGraphInfo(final String graphType)
+    '''returns String\n\n
+    setGraphInfo(final String graphType)\n
     '''
 def refreshChart():
-    '''public void refreshChart()
+    '''returns None\n\n
+    refreshChart()\n
     '''
 def formatNumber():
-    '''public String formatNumber(final Object variance)
+    '''returns String\n\n
+    formatNumber(final Object variance)\n
     '''
 def isNewKPI():
-    '''public boolean isNewKPI()
+    '''returns boolean\n\n
+    isNewKPI()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def refreshchart():
-    '''public int refreshchart()
+    '''returns int\n\n
+    refreshchart()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''

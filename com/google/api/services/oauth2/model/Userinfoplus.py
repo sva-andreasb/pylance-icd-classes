@@ -1,75 +1,100 @@
 def getEmail():
-    '''public String getEmail()
+    '''returns String\n\n
+    getEmail()\n
     '''
 def setEmail():
-    '''public Userinfoplus setEmail(final String email)
+    '''returns Userinfoplus\n\n
+    setEmail(final String email)\n
     '''
 def getFamilyName():
-    '''public String getFamilyName()
+    '''returns String\n\n
+    getFamilyName()\n
     '''
 def setFamilyName():
-    '''public Userinfoplus setFamilyName(final String familyName)
+    '''returns Userinfoplus\n\n
+    setFamilyName(final String familyName)\n
     '''
 def getGender():
-    '''public String getGender()
+    '''returns String\n\n
+    getGender()\n
     '''
 def setGender():
-    '''public Userinfoplus setGender(final String gender)
+    '''returns Userinfoplus\n\n
+    setGender(final String gender)\n
     '''
 def getGivenName():
-    '''public String getGivenName()
+    '''returns String\n\n
+    getGivenName()\n
     '''
 def setGivenName():
-    '''public Userinfoplus setGivenName(final String givenName)
+    '''returns Userinfoplus\n\n
+    setGivenName(final String givenName)\n
     '''
 def getHd():
-    '''public String getHd()
+    '''returns String\n\n
+    getHd()\n
     '''
 def setHd():
-    '''public Userinfoplus setHd(final String hd)
+    '''returns Userinfoplus\n\n
+    setHd(final String hd)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public Userinfoplus setId(final String id)
+    '''returns Userinfoplus\n\n
+    setId(final String id)\n
     '''
 def getLink():
-    '''public String getLink()
+    '''returns String\n\n
+    getLink()\n
     '''
 def setLink():
-    '''public Userinfoplus setLink(final String link)
+    '''returns Userinfoplus\n\n
+    setLink(final String link)\n
     '''
 def getLocale():
-    '''public String getLocale()
+    '''returns String\n\n
+    getLocale()\n
     '''
 def setLocale():
-    '''public Userinfoplus setLocale(final String locale)
+    '''returns Userinfoplus\n\n
+    setLocale(final String locale)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public Userinfoplus setName(final String name)
+    '''returns Userinfoplus\n\n
+    setName(final String name)\n
     '''
 def getPicture():
-    '''public String getPicture()
+    '''returns String\n\n
+    getPicture()\n
     '''
 def setPicture():
-    '''public Userinfoplus setPicture(final String picture)
+    '''returns Userinfoplus\n\n
+    setPicture(final String picture)\n
     '''
 def getVerifiedEmail():
-    '''public Boolean getVerifiedEmail()
+    '''returns Boolean\n\n
+    getVerifiedEmail()\n
     '''
 def setVerifiedEmail():
-    '''public Userinfoplus setVerifiedEmail(final Boolean verifiedEmail)
+    '''returns Userinfoplus\n\n
+    setVerifiedEmail(final Boolean verifiedEmail)\n
     '''
 def isVerifiedEmail():
-    '''public boolean isVerifiedEmail()
+    '''returns boolean\n\n
+    isVerifiedEmail()\n
     '''
 def set():
-    '''public Userinfoplus set(final String s, final Object o)
+    '''returns Userinfoplus\n\n
+    set(final String s, final Object o)\n
     '''
 def clone():
-    '''public Userinfoplus clone()
+    '''returns Userinfoplus\n\n
+    clone()\n
     '''

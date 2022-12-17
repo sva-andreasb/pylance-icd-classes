@@ -1,87 +1,105 @@
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def add():
-    '''public void add(final int index, final Object o)
-    public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final int index, final Object o)\n
+    add(final Object o)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection collection)
+    '''returns boolean\n\n
+    addAll(final Collection collection)\n
     '''
 def addSection():
-    '''public Section addSection(final float indentation, final Paragraph title, final int numberDepth)
-    public Section addSection(final float indentation, final Paragraph title)
-    public Section addSection(final Paragraph title, final int numberDepth)
-    public Section addSection(final Paragraph title)
-    public Section addSection(final float indentation, final String title, final int numberDepth)
-    public Section addSection(final String title, final int numberDepth)
-    public Section addSection(final float indentation, final String title)
-    public Section addSection(final String title)
-    public Section addSection(final Properties attributes)
+    '''returns Section\n\n
+    addSection(final float indentation, final Paragraph title, final int numberDepth)\n
+    addSection(final float indentation, final Paragraph title)\n
+    addSection(final Paragraph title, final int numberDepth)\n
+    addSection(final Paragraph title)\n
+    addSection(final float indentation, final String title, final int numberDepth)\n
+    addSection(final String title, final int numberDepth)\n
+    addSection(final float indentation, final String title)\n
+    addSection(final String title)\n
+    addSection(final Properties attributes)\n
     '''
 def set():
-    '''public void set(final Properties attributes)
+    '''returns None\n\n
+    set(final Properties attributes)\n
     '''
 def setTitle():
-    '''public void setTitle(final Paragraph title)
+    '''returns None\n\n
+    setTitle(final Paragraph title)\n
     '''
 def setNumberDepth():
-    '''public void setNumberDepth(final int numberDepth)
+    '''returns None\n\n
+    setNumberDepth(final int numberDepth)\n
     '''
 def setIndentationLeft():
-    '''public void setIndentationLeft(final float indentation)
+    '''returns None\n\n
+    setIndentationLeft(final float indentation)\n
     '''
 def setIndentationRight():
-    '''public void setIndentationRight(final float indentation)
+    '''returns None\n\n
+    setIndentationRight(final float indentation)\n
     '''
 def setIndentation():
-    '''public void setIndentation(final float indentation)
+    '''returns None\n\n
+    setIndentation(final float indentation)\n
     '''
 def isChapter():
-    '''public boolean isChapter()
+    '''returns boolean\n\n
+    isChapter()\n
     '''
 def isSection():
-    '''public boolean isSection()
+    '''returns boolean\n\n
+    isSection()\n
     '''
 def numberDepth():
-    '''public int numberDepth()
+    '''returns int\n\n
+    numberDepth()\n
     '''
 def indentationLeft():
-    '''public float indentationLeft()
+    '''returns float\n\n
+    indentationLeft()\n
     '''
 def indentationRight():
-    '''public float indentationRight()
+    '''returns float\n\n
+    indentationRight()\n
     '''
 def indentation():
-    '''public float indentation()
+    '''returns float\n\n
+    indentation()\n
     '''
 def depth():
-    '''public int depth()
+    '''returns int\n\n
+    depth()\n
     '''
 def title():
-    '''public Paragraph title()
-    '''
-def isTitle():
-    '''public static boolean isTitle(final String tag)
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns Paragraph\n\n
+    title()\n
     '''
 def isBookmarkOpen():
-    '''public boolean isBookmarkOpen()
+    '''returns boolean\n\n
+    isBookmarkOpen()\n
     '''
 def setBookmarkOpen():
-    '''public void setBookmarkOpen(final boolean bookmarkOpen)
+    '''returns None\n\n
+    setBookmarkOpen(final boolean bookmarkOpen)\n
     '''
 def getBookmarkTitle():
-    '''public Paragraph getBookmarkTitle()
+    '''returns Paragraph\n\n
+    getBookmarkTitle()\n
     '''
 def setBookmarkTitle():
-    '''public void setBookmarkTitle(final String bookmarkTitle)
+    '''returns None\n\n
+    setBookmarkTitle(final String bookmarkTitle)\n
     '''

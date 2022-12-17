@@ -1,281 +1,362 @@
 PREFIX_CACHE_SIZE = "int  50"
-def DriverRDB():
-    '''public DriverRDB()
+def ():
+    '''returns DriverRDB\n\n
+    ()\n
     '''
 def getConnection():
-    '''public IDBConnection getConnection()
+    '''returns IDBConnection\n\n
+    getConnection()\n
     '''
 def getSystemSpecializedGraph():
-    '''public SpecializedGraph getSystemSpecializedGraph(final boolean doInit)
+    '''returns SpecializedGraph\n\n
+    getSystemSpecializedGraph(final boolean doInit)\n
     '''
 def createSpecializedGraphs():
-    '''public List<SpecializedGraph> createSpecializedGraphs(final String graphName, final Graph requestedProperties)
+    '''returns List<SpecializedGraph>\n\n
+    createSpecializedGraphs(final String graphName, final Graph requestedProperties)\n
     '''
 def recreateSpecializedGraphs():
-    '''public List<SpecializedGraph> recreateSpecializedGraphs(final DBPropGraph graphProperties)
+    '''returns List<SpecializedGraph>\n\n
+    recreateSpecializedGraphs(final DBPropGraph graphProperties)\n
     '''
 def removeSpecializedGraphs():
-    '''public void removeSpecializedGraphs(final DBPropGraph graphProperties, final List<SpecializedGraph> specializedGraphs)
+    '''returns None\n\n
+    removeSpecializedGraphs(final DBPropGraph graphProperties, final List<SpecializedGraph> specializedGraphs)\n
     '''
 def setDatabaseProperties():
-    '''public void setDatabaseProperties(final Graph databaseProperties)
+    '''returns None\n\n
+    setDatabaseProperties(final Graph databaseProperties)\n
     '''
 def getDefaultModelProperties():
-    '''public DBPropGraph getDefaultModelProperties()
+    '''returns DBPropGraph\n\n
+    getDefaultModelProperties()\n
     '''
 def isDBFormatOK():
-    '''public boolean isDBFormatOK()
+    '''returns boolean\n\n
+    isDBFormatOK()\n
     '''
 def stringToDBname():
-    '''public String stringToDBname(final String aName)
+    '''returns String\n\n
+    stringToDBname(final String aName)\n
     '''
 def tryLockDB():
-    '''public boolean tryLockDB()
+    '''returns boolean\n\n
+    tryLockDB()\n
     '''
 def lockDB():
-    '''public void lockDB()
+    '''returns None\n\n
+    lockDB()\n
     '''
 def unlockDB():
-    '''public void unlockDB()
+    '''returns None\n\n
+    unlockDB()\n
     '''
 def DBisLocked():
-    '''public boolean DBisLocked()
+    '''returns boolean\n\n
+    DBisLocked()\n
     '''
 def cleanDB():
-    '''public void cleanDB()
+    '''returns None\n\n
+    cleanDB()\n
     '''
 def clearSequences():
-    '''public void clearSequences()
+    '''returns None\n\n
+    clearSequences()\n
     '''
 def removeSequence():
-    '''public void removeSequence(final String seqName)
+    '''returns None\n\n
+    removeSequence(final String seqName)\n
     '''
 def sequenceExists():
-    '''public boolean sequenceExists(final String seqName)
+    '''returns boolean\n\n
+    sequenceExists(final String seqName)\n
     '''
 def getSequences():
-    '''public List<String> getSequences()
+    '''returns List<String>\n\n
+    getSequences()\n
     '''
 def createTable():
-    '''public String createTable(final int graphId, final boolean isReif)
+    '''returns String\n\n
+    createTable(final int graphId, final boolean isReif)\n
     '''
 def deleteTable():
-    '''public void deleteTable(final String tableName)
-    '''
-def begin():
-    '''public synchronized void begin()
+    '''returns None\n\n
+    deleteTable(final String tableName)\n
     '''
 def commit():
-    '''public void commit()
-    '''
-def abort():
-    '''public synchronized void abort()
+    '''returns None\n\n
+    commit()\n
     '''
 def getDatabaseType():
-    '''public String getDatabaseType()
+    '''returns String\n\n
+    getDatabaseType()\n
     '''
 def transactionsSupported():
-    '''public boolean transactionsSupported()
+    '''returns boolean\n\n
+    transactionsSupported()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def nodeToRDBString():
-    '''public String nodeToRDBString(final Node node, final boolean addIfLong)
+    '''returns String\n\n
+    nodeToRDBString(final Node node, final boolean addIfLong)\n
     '''
 def RDBStringToNode():
-    '''public Node RDBStringToNode(final String RDBString)
-    '''
-def dbSplitNamespace():
-    '''public static int dbSplitNamespace(final String uri)
+    '''returns Node\n\n
+    RDBStringToNode(final String RDBString)\n
     '''
 def litLangTypeToRDBString():
-    '''public String litLangTypeToRDBString(final String lang, final String dtype)
+    '''returns String\n\n
+    litLangTypeToRDBString(final String lang, final String dtype)\n
     '''
 def getBlankID():
-    '''public DBIDInt getBlankID(final String bstr, final boolean add)
+    '''returns DBIDInt\n\n
+    getBlankID(final String bstr, final boolean add)\n
     '''
 def getURIID():
-    '''public DBIDInt getURIID(final String qname, final boolean add)
+    '''returns DBIDInt\n\n
+    getURIID(final String qname, final boolean add)\n
     '''
 def getLiteralID():
-    '''public DBIDInt getLiteralID(final Node_Literal lnode, final boolean add)
+    '''returns DBIDInt\n\n
+    getLiteralID(final Node_Literal lnode, final boolean add)\n
     '''
 def getLongObjectID():
-    '''public DBIDInt getLongObjectID(final RDBLongObject lobj, final String table, final boolean add)
+    '''returns DBIDInt\n\n
+    getLongObjectID(final RDBLongObject lobj, final String table, final boolean add)\n
     '''
 def addRDBLongObject():
-    '''public DBIDInt addRDBLongObject(final RDBLongObject lobj, final String table)
+    '''returns DBIDInt\n\n
+    addRDBLongObject(final RDBLongObject lobj, final String table)\n
     '''
 def getInsertID():
-    '''public int getInsertID(final String tableName)
+    '''returns int\n\n
+    getInsertID(final String tableName)\n
     '''
 def wrapDBID():
-    '''public DBIDInt wrapDBID(final Object id)
+    '''returns DBIDInt\n\n
+    wrapDBID(final Object id)\n
     '''
 def genSQLReifQualStmt():
-    '''public String genSQLReifQualStmt()
+    '''returns String\n\n
+    genSQLReifQualStmt()\n
     '''
 def genSQLReifQualAnyObj():
-    '''public String genSQLReifQualAnyObj(final boolean objIsStmt)
+    '''returns String\n\n
+    genSQLReifQualAnyObj(final boolean objIsStmt)\n
     '''
 def genSQLReifQualObj():
-    '''public String genSQLReifQualObj(final char reifProp, final boolean hasObj)
+    '''returns String\n\n
+    genSQLReifQualObj(final char reifProp, final boolean hasObj)\n
     '''
 def genSQLQualConst():
-    '''public String genSQLQualConst(final int alias, final char pred, final Node lit)
+    '''returns String\n\n
+    genSQLQualConst(final int alias, final char pred, final Node lit)\n
     '''
 def genSQLReifQualConst():
-    '''public String genSQLReifQualConst(final int alias, final char pred, final Node lit)
+    '''returns String\n\n
+    genSQLReifQualConst(final int alias, final char pred, final Node lit)\n
     '''
 def genSQLQualParam():
-    '''public String genSQLQualParam(final int alias, final char pred)
+    '''returns String\n\n
+    genSQLQualParam(final int alias, final char pred)\n
     '''
 def genSQLQualGraphId():
-    '''public String genSQLQualGraphId(final int alias, final int graphId)
+    '''returns String\n\n
+    genSQLQualGraphId(final int alias, final int graphId)\n
     '''
 def genSQLJoin():
-    '''public String genSQLJoin(final int lhsAlias, final char lhsCol, final int rhsAlias, final char rhsCol)
+    '''returns String\n\n
+    genSQLJoin(final int lhsAlias, final char lhsCol, final int rhsAlias, final char rhsCol)\n
     '''
 def genSQLStringMatch():
-    '''public String genSQLStringMatch(final int alias, final char col, final String fun, final String stringToMatch)
+    '''returns String\n\n
+    genSQLStringMatch(final int alias, final char col, final String fun, final String stringToMatch)\n
     '''
 def genSQLStringMatchLHS():
-    '''public String genSQLStringMatchLHS(final boolean ignCase, final String var)
+    '''returns String\n\n
+    genSQLStringMatchLHS(final boolean ignCase, final String var)\n
     '''
 def genSQLStringMatchLong():
-    '''public String genSQLStringMatchLong()
+    '''returns String\n\n
+    genSQLStringMatchLong()\n
     '''
 def genSQLStringMatchOp():
-    '''public String genSQLStringMatchOp(final boolean ignCase, final String fun)
-    public String genSQLStringMatchOp(final String fun)
+    '''returns String\n\n
+    genSQLStringMatchOp(final boolean ignCase, final String fun)\n
+    genSQLStringMatchOp(final String fun)\n
     '''
 def stringMatchAllChar():
-    '''public String stringMatchAllChar()
+    '''returns String\n\n
+    stringMatchAllChar()\n
     '''
 def stringMatchAnyChar():
-    '''public String stringMatchAnyChar()
+    '''returns String\n\n
+    stringMatchAnyChar()\n
     '''
 def stringMatchEscapeChar():
-    '''public String stringMatchEscapeChar()
+    '''returns String\n\n
+    stringMatchEscapeChar()\n
     '''
 def stringMatchLongObj():
-    '''public String stringMatchLongObj()
+    '''returns String\n\n
+    stringMatchLongObj()\n
     '''
 def stringMatchShortObj():
-    '''public String stringMatchShortObj()
+    '''returns String\n\n
+    stringMatchShortObj()\n
     '''
 def genSQLStringMatchRHS():
-    '''public String genSQLStringMatchRHS(final boolean ignCase, final boolean pfxMatch, String strToMatch)
+    '''returns String\n\n
+    genSQLStringMatchRHS(final boolean ignCase, final boolean pfxMatch, String strToMatch)\n
     '''
 def genSQLStringMatchLHS_IC():
-    '''public String genSQLStringMatchLHS_IC(final String var)
+    '''returns String\n\n
+    genSQLStringMatchLHS_IC(final String var)\n
     '''
 def genSQLStringMatchRHS_IC():
-    '''public String genSQLStringMatchRHS_IC(final String strToMatch)
+    '''returns String\n\n
+    genSQLStringMatchRHS_IC(final String strToMatch)\n
     '''
 def genSQLStringMatchOp_IC():
-    '''public String genSQLStringMatchOp_IC(final String fun)
+    '''returns String\n\n
+    genSQLStringMatchOp_IC(final String fun)\n
     '''
 def stringMatchNeedsEscape():
-    '''public boolean stringMatchNeedsEscape(final String strToMatch)
+    '''returns boolean\n\n
+    stringMatchNeedsEscape(final String strToMatch)\n
     '''
 def addEscape():
-    '''public String addEscape(final String strToMatch)
+    '''returns String\n\n
+    addEscape(final String strToMatch)\n
     '''
 def genSQLStringMatchEscape():
-    '''public String genSQLStringMatchEscape()
+    '''returns String\n\n
+    genSQLStringMatchEscape()\n
     '''
 def genSQLResList():
-    '''public String genSQLResList(final int[] resIndex, final VarDesc[] binding)
+    '''returns String\n\n
+    genSQLResList(final int[] resIndex, final VarDesc[] binding)\n
     '''
 def genSQLFromList():
-    '''public String genSQLFromList(final int aliasCnt, final String table)
+    '''returns String\n\n
+    genSQLFromList(final int aliasCnt, final String table)\n
     '''
 def genSQLLikeKW():
-    '''public String genSQLLikeKW()
+    '''returns String\n\n
+    genSQLLikeKW()\n
     '''
 def genSQLEscapeKW():
-    '''public String genSQLEscapeKW()
+    '''returns String\n\n
+    genSQLEscapeKW()\n
     '''
 def genSQLSelectKW():
-    '''public String genSQLSelectKW()
+    '''returns String\n\n
+    genSQLSelectKW()\n
     '''
 def genSQLFromKW():
-    '''public String genSQLFromKW()
+    '''returns String\n\n
+    genSQLFromKW()\n
     '''
 def genSQLWhereKW():
-    '''public String genSQLWhereKW()
+    '''returns String\n\n
+    genSQLWhereKW()\n
     '''
 def genSQLOrKW():
-    '''public String genSQLOrKW()
+    '''returns String\n\n
+    genSQLOrKW()\n
     '''
 def genSQLSelectStmt():
-    '''public String genSQLSelectStmt(final String res, final String from, final String qual)
+    '''returns String\n\n
+    genSQLSelectStmt(final String res, final String from, final String qual)\n
     '''
 def getLongObjectLengthMax():
-    '''public int getLongObjectLengthMax()
+    '''returns int\n\n
+    getLongObjectLengthMax()\n
     '''
 def getLongObjectLength():
-    '''public int getLongObjectLength()
+    '''returns int\n\n
+    getLongObjectLength()\n
     '''
 def setLongObjectLength():
-    '''public void setLongObjectLength(final int len)
+    '''returns None\n\n
+    setLongObjectLength(final int len)\n
     '''
 def getIndexKeyLengthMax():
-    '''public int getIndexKeyLengthMax()
+    '''returns int\n\n
+    getIndexKeyLengthMax()\n
     '''
 def getIndexKeyLength():
-    '''public int getIndexKeyLength()
+    '''returns int\n\n
+    getIndexKeyLength()\n
     '''
 def setIndexKeyLength():
-    '''public void setIndexKeyLength(final int len)
+    '''returns None\n\n
+    setIndexKeyLength(final int len)\n
     '''
 def getIsTransactionDb():
-    '''public boolean getIsTransactionDb()
+    '''returns boolean\n\n
+    getIsTransactionDb()\n
     '''
 def setIsTransactionDb():
-    '''public void setIsTransactionDb(final boolean bool)
+    '''returns None\n\n
+    setIsTransactionDb(final boolean bool)\n
     '''
 def getDoCompressURI():
-    '''public boolean getDoCompressURI()
+    '''returns boolean\n\n
+    getDoCompressURI()\n
     '''
 def setDoCompressURI():
-    '''public void setDoCompressURI(final boolean bool)
+    '''returns None\n\n
+    setDoCompressURI(final boolean bool)\n
     '''
 def getCompressURILength():
-    '''public int getCompressURILength()
+    '''returns int\n\n
+    getCompressURILength()\n
     '''
 def setCompressURILength():
-    '''public void setCompressURILength(final int len)
+    '''returns None\n\n
+    setCompressURILength(final int len)\n
     '''
 def getDoDuplicateCheck():
-    '''public boolean getDoDuplicateCheck()
+    '''returns boolean\n\n
+    getDoDuplicateCheck()\n
     '''
 def setDoDuplicateCheck():
-    '''public void setDoDuplicateCheck(final boolean bool)
+    '''returns None\n\n
+    setDoDuplicateCheck(final boolean bool)\n
     '''
 def getTableNamePrefix():
-    '''public String getTableNamePrefix()
+    '''returns String\n\n
+    getTableNamePrefix()\n
     '''
 def setTableNamePrefix():
-    '''public void setTableNamePrefix(final String prefix)
+    '''returns None\n\n
+    setTableNamePrefix(final String prefix)\n
     '''
 def getSystemTableCount():
-    '''public int getSystemTableCount()
+    '''returns int\n\n
+    getSystemTableCount()\n
     '''
 def getSystemTableName():
-    '''public String getSystemTableName(final int i)
+    '''returns String\n\n
+    getSystemTableName(final int i)\n
     '''
 def getStoreWithModel():
-    '''public String getStoreWithModel()
+    '''returns String\n\n
+    getStoreWithModel()\n
     '''
 def setStoreWithModel():
-    '''public void setStoreWithModel(final String modelName)
+    '''returns None\n\n
+    setStoreWithModel(final String modelName)\n
     '''
 def getCompressCacheSize():
-    '''public int getCompressCacheSize()
+    '''returns int\n\n
+    getCompressCacheSize()\n
     '''
 def setCompressCacheSize():
-    '''public void setCompressCacheSize(final int count)
+    '''returns None\n\n
+    setCompressCacheSize(final int count)\n
     '''

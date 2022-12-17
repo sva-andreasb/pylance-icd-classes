@@ -1,9 +1,12 @@
-def MaxPropInstance():
-    '''public MaxPropInstance(final MboSet ms)
+def ():
+    '''returns MaxPropInstance\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

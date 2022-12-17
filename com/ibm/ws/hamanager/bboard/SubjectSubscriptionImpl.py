@@ -1,6 +1,8 @@
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getSubject():
-    '''public SubjectInfo getSubject()
+    '''returns SubjectInfo\n\n
+    getSubject()\n
     '''

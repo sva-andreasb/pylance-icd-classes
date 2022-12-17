@@ -1,15 +1,20 @@
-def CSSPseudoElementSelector():
-    '''public CSSPseudoElementSelector(final String uri, final String name)
+def ():
+    '''returns CSSPseudoElementSelector\n\n
+    (final String uri, final String name)\n
     '''
 def getSelectorType():
-    '''public short getSelectorType()
+    '''returns short\n\n
+    getSelectorType()\n
     '''
 def match():
-    '''public boolean match(final Element e, final String pseudoE)
+    '''returns boolean\n\n
+    match(final Element e, final String pseudoE)\n
     '''
 def getSpecificity():
-    '''public int getSpecificity()
+    '''returns int\n\n
+    getSpecificity()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,77 +1,102 @@
 def number():
-    '''public Object number(final String value)
+    '''returns Object\n\n
+    number(final String value)\n
     '''
 def literal():
-    '''public Object literal(final String value)
+    '''returns Object\n\n
+    literal(final String value)\n
     '''
 def qname():
-    '''public Object qname(final String prefix, final String name)
+    '''returns Object\n\n
+    qname(final String prefix, final String name)\n
     '''
 def sum():
-    '''public Object sum(final Object[] arguments)
+    '''returns Object\n\n
+    sum(final Object[] arguments)\n
     '''
 def minus():
-    '''public Object minus(final Object left, final Object right)
-    public Object minus(final Object argument)
+    '''returns Object\n\n
+    minus(final Object left, final Object right)\n
+    minus(final Object argument)\n
     '''
 def multiply():
-    '''public Object multiply(final Object left, final Object right)
+    '''returns Object\n\n
+    multiply(final Object left, final Object right)\n
     '''
 def divide():
-    '''public Object divide(final Object left, final Object right)
+    '''returns Object\n\n
+    divide(final Object left, final Object right)\n
     '''
 def mod():
-    '''public Object mod(final Object left, final Object right)
+    '''returns Object\n\n
+    mod(final Object left, final Object right)\n
     '''
 def lessThan():
-    '''public Object lessThan(final Object left, final Object right)
+    '''returns Object\n\n
+    lessThan(final Object left, final Object right)\n
     '''
 def lessThanOrEqual():
-    '''public Object lessThanOrEqual(final Object left, final Object right)
+    '''returns Object\n\n
+    lessThanOrEqual(final Object left, final Object right)\n
     '''
 def greaterThan():
-    '''public Object greaterThan(final Object left, final Object right)
+    '''returns Object\n\n
+    greaterThan(final Object left, final Object right)\n
     '''
 def greaterThanOrEqual():
-    '''public Object greaterThanOrEqual(final Object left, final Object right)
+    '''returns Object\n\n
+    greaterThanOrEqual(final Object left, final Object right)\n
     '''
 def equal():
-    '''public Object equal(final Object left, final Object right)
+    '''returns Object\n\n
+    equal(final Object left, final Object right)\n
     '''
 def notEqual():
-    '''public Object notEqual(final Object left, final Object right)
+    '''returns Object\n\n
+    notEqual(final Object left, final Object right)\n
     '''
 def variableReference():
-    '''public Object variableReference(final Object qName)
+    '''returns Object\n\n
+    variableReference(final Object qName)\n
     '''
 def function():
-    '''public Object function(final int code, final Object[] args)
-    public Object function(final Object name, final Object[] args)
+    '''returns Object\n\n
+    function(final int code, final Object[] args)\n
+    function(final Object name, final Object[] args)\n
     '''
 def and():
-    '''public Object and(final Object[] arguments)
+    '''returns Object\n\n
+    and(final Object[] arguments)\n
     '''
 def or():
-    '''public Object or(final Object[] arguments)
+    '''returns Object\n\n
+    or(final Object[] arguments)\n
     '''
 def union():
-    '''public Object union(final Object[] arguments)
+    '''returns Object\n\n
+    union(final Object[] arguments)\n
     '''
 def locationPath():
-    '''public Object locationPath(final boolean absolute, final Object[] steps)
+    '''returns Object\n\n
+    locationPath(final boolean absolute, final Object[] steps)\n
     '''
 def expressionPath():
-    '''public Object expressionPath(final Object expression, final Object[] predicates, final Object[] steps)
+    '''returns Object\n\n
+    expressionPath(final Object expression, final Object[] predicates, final Object[] steps)\n
     '''
 def nodeNameTest():
-    '''public Object nodeNameTest(final Object qname)
+    '''returns Object\n\n
+    nodeNameTest(final Object qname)\n
     '''
 def nodeTypeTest():
-    '''public Object nodeTypeTest(final int nodeType)
+    '''returns Object\n\n
+    nodeTypeTest(final int nodeType)\n
     '''
 def processingInstructionTest():
-    '''public Object processingInstructionTest(final String instruction)
+    '''returns Object\n\n
+    processingInstructionTest(final String instruction)\n
     '''
 def step():
-    '''public Object step(final int axis, final Object nodeTest, final Object[] predicates)
+    '''returns Object\n\n
+    step(final int axis, final Object nodeTest, final Object[] predicates)\n
     '''

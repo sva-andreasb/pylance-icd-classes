@@ -1,15 +1,20 @@
-def VerifyMaximoTables():
-    '''public VerifyMaximoTables(final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)
+def ():
+    '''returns VerifyMaximoTables\n\n
+    (final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)\n
     '''
 def check():
-    '''public void check()
+    '''returns None\n\n
+    check()\n
     '''
 def getTitle():
-    '''public MXException getTitle()
+    '''returns MXException\n\n
+    getTitle()\n
     '''
 def conditionsCheck():
-    '''public boolean conditionsCheck()
+    '''returns boolean\n\n
+    conditionsCheck()\n
     '''
 def prerequisitesCheck():
-    '''public boolean prerequisitesCheck()
+    '''returns boolean\n\n
+    prerequisitesCheck()\n
     '''

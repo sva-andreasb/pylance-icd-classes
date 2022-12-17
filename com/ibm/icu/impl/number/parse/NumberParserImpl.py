@@ -1,37 +1,29 @@
-def createSimpleParser():
-    '''public static NumberParserImpl createSimpleParser(final ULocale locale, final String pattern, final int parseFlags)
-    '''
-def parseStatic():
-    '''public static Number parseStatic(final String input, final ParsePosition ppos, final DecimalFormatProperties properties, final DecimalFormatSymbols symbols)
-    '''
-def parseStaticCurrency():
-    '''public static CurrencyAmount parseStaticCurrency(final String input, final ParsePosition ppos, final DecimalFormatProperties properties, final DecimalFormatSymbols symbols)
-    '''
-def createDefaultParserForLocale():
-    '''public static NumberParserImpl createDefaultParserForLocale(final ULocale loc)
-    '''
-def createParserFromProperties():
-    '''public static NumberParserImpl createParserFromProperties(final DecimalFormatProperties properties, final DecimalFormatSymbols symbols, final boolean parseCurrency)
-    '''
-def NumberParserImpl():
-    '''public NumberParserImpl(final int parseFlags)
+def ():
+    '''returns NumberParserImpl\n\n
+    (final int parseFlags)\n
     '''
 def addMatcher():
-    '''public void addMatcher(final NumberParseMatcher matcher)
+    '''returns None\n\n
+    addMatcher(final NumberParseMatcher matcher)\n
     '''
 def addMatchers():
-    '''public void addMatchers(final Collection<? extends NumberParseMatcher> matchers)
+    '''returns None\n\n
+    addMatchers(final Collection<? extends NumberParseMatcher> matchers)\n
     '''
 def freeze():
-    '''public void freeze()
+    '''returns None\n\n
+    freeze()\n
     '''
 def getParseFlags():
-    '''public int getParseFlags()
+    '''returns int\n\n
+    getParseFlags()\n
     '''
 def parse():
-    '''public void parse(final String input, final boolean greedy, final ParsedNumber result)
-    public void parse(final String input, final int start, final boolean greedy, final ParsedNumber result)
+    '''returns None\n\n
+    parse(final String input, final boolean greedy, final ParsedNumber result)\n
+    parse(final String input, final int start, final boolean greedy, final ParsedNumber result)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

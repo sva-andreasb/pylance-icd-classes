@@ -1,28 +1,37 @@
-def al():
-    '''public al(final BufferedImage image, final an a)
+def ():
+    '''returns al\n\n
+    (final BufferedImage image, final an a)\n
     '''
 def a():
-    '''public an a()
-    public void a(final an a)
+    '''returns None\n\n
+    a()\n
+    a(final an a)\n
     '''
 def getImage():
-    '''public BufferedImage getImage()
+    '''returns BufferedImage\n\n
+    getImage()\n
     '''
 def setImage():
-    '''public void setImage(final BufferedImage image)
+    '''returns None\n\n
+    setImage(final BufferedImage image)\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def getHeight():
-    '''public int getHeight()
+    '''returns int\n\n
+    getHeight()\n
     '''
 def ai():
-    '''public int ai()
+    '''returns int\n\n
+    ai()\n
     '''
 def aq():
-    '''public int aq()
+    '''returns int\n\n
+    aq()\n
     '''
 def ap():
-    '''public boolean ap()
+    '''returns boolean\n\n
+    ap()\n
     '''

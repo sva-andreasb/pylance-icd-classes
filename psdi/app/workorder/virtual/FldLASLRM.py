@@ -1,3 +1,4 @@
-def FldLASLRM():
-    '''public FldLASLRM(final MboValue mbv)
+def ():
+    '''returns FldLASLRM\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,6 +1,8 @@
-def DefaultXMLEncoder():
-    '''public DefaultXMLEncoder(final String encoding)
+def ():
+    '''returns DefaultXMLEncoder\n\n
+    (final String encoding)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''

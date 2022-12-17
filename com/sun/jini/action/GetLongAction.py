@@ -1,7 +1,9 @@
-def GetLongAction():
-    '''public GetLongAction(final String theProp)
-    public GetLongAction(final String theProp, final long defaultVal)
+def ():
+    '''returns GetLongAction\n\n
+    (final String theProp)\n
+    (final String theProp, final long defaultVal)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

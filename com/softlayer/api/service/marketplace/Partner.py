@@ -1,322 +1,424 @@
 def getAttachments():
-    '''public List<Attachment> getAttachments()
+    '''returns List<Attachment>\n\n
+    getAttachments()\n
     '''
 def getLogoMedium():
-    '''public Attachment getLogoMedium()
+    '''returns Attachment\n\n
+    getLogoMedium()\n
     '''
 def setLogoMedium():
-    '''public void setLogoMedium(final Attachment logoMedium)
+    '''returns None\n\n
+    setLogoMedium(final Attachment logoMedium)\n
     '''
 def getLogoMediumTemp():
-    '''public Attachment getLogoMediumTemp()
+    '''returns Attachment\n\n
+    getLogoMediumTemp()\n
     '''
 def setLogoMediumTemp():
-    '''public void setLogoMediumTemp(final Attachment logoMediumTemp)
+    '''returns None\n\n
+    setLogoMediumTemp(final Attachment logoMediumTemp)\n
     '''
 def getLogoSmall():
-    '''public Attachment getLogoSmall()
+    '''returns Attachment\n\n
+    getLogoSmall()\n
     '''
 def setLogoSmall():
-    '''public void setLogoSmall(final Attachment logoSmall)
+    '''returns None\n\n
+    setLogoSmall(final Attachment logoSmall)\n
     '''
 def getLogoSmallTemp():
-    '''public Attachment getLogoSmallTemp()
+    '''returns Attachment\n\n
+    getLogoSmallTemp()\n
     '''
 def setLogoSmallTemp():
-    '''public void setLogoSmallTemp(final Attachment logoSmallTemp)
+    '''returns None\n\n
+    setLogoSmallTemp(final Attachment logoSmallTemp)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getAttachedFiles():
-    '''public List<Attachment> getAttachedFiles()
+    '''returns List<Attachment>\n\n
+    getAttachedFiles()\n
     '''
 def isAttachedFilesSpecified():
-    '''public boolean isAttachedFilesSpecified()
+    '''returns boolean\n\n
+    isAttachedFilesSpecified()\n
     '''
 def unsetAttachedFiles():
-    '''public void unsetAttachedFiles()
+    '''returns None\n\n
+    unsetAttachedFiles()\n
     '''
 def getCompanyDescription():
-    '''public String getCompanyDescription()
+    '''returns String\n\n
+    getCompanyDescription()\n
     '''
 def setCompanyDescription():
-    '''public void setCompanyDescription(final String companyDescription)
+    '''returns None\n\n
+    setCompanyDescription(final String companyDescription)\n
     '''
 def isCompanyDescriptionSpecified():
-    '''public boolean isCompanyDescriptionSpecified()
+    '''returns boolean\n\n
+    isCompanyDescriptionSpecified()\n
     '''
 def unsetCompanyDescription():
-    '''public void unsetCompanyDescription()
+    '''returns None\n\n
+    unsetCompanyDescription()\n
     '''
 def getCompanyName():
-    '''public String getCompanyName()
+    '''returns String\n\n
+    getCompanyName()\n
     '''
 def setCompanyName():
-    '''public void setCompanyName(final String companyName)
+    '''returns None\n\n
+    setCompanyName(final String companyName)\n
     '''
 def isCompanyNameSpecified():
-    '''public boolean isCompanyNameSpecified()
+    '''returns boolean\n\n
+    isCompanyNameSpecified()\n
     '''
 def unsetCompanyName():
-    '''public void unsetCompanyName()
+    '''returns None\n\n
+    unsetCompanyName()\n
     '''
 def getHeadlineDescription():
-    '''public String getHeadlineDescription()
+    '''returns String\n\n
+    getHeadlineDescription()\n
     '''
 def setHeadlineDescription():
-    '''public void setHeadlineDescription(final String headlineDescription)
+    '''returns None\n\n
+    setHeadlineDescription(final String headlineDescription)\n
     '''
 def isHeadlineDescriptionSpecified():
-    '''public boolean isHeadlineDescriptionSpecified()
+    '''returns boolean\n\n
+    isHeadlineDescriptionSpecified()\n
     '''
 def unsetHeadlineDescription():
-    '''public void unsetHeadlineDescription()
+    '''returns None\n\n
+    unsetHeadlineDescription()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getLinkFreeTrial():
-    '''public String getLinkFreeTrial()
+    '''returns String\n\n
+    getLinkFreeTrial()\n
     '''
 def setLinkFreeTrial():
-    '''public void setLinkFreeTrial(final String linkFreeTrial)
+    '''returns None\n\n
+    setLinkFreeTrial(final String linkFreeTrial)\n
     '''
 def isLinkFreeTrialSpecified():
-    '''public boolean isLinkFreeTrialSpecified()
+    '''returns boolean\n\n
+    isLinkFreeTrialSpecified()\n
     '''
 def unsetLinkFreeTrial():
-    '''public void unsetLinkFreeTrial()
+    '''returns None\n\n
+    unsetLinkFreeTrial()\n
     '''
 def getLinkOrderPage():
-    '''public String getLinkOrderPage()
+    '''returns String\n\n
+    getLinkOrderPage()\n
     '''
 def setLinkOrderPage():
-    '''public void setLinkOrderPage(final String linkOrderPage)
+    '''returns None\n\n
+    setLinkOrderPage(final String linkOrderPage)\n
     '''
 def isLinkOrderPageSpecified():
-    '''public boolean isLinkOrderPageSpecified()
+    '''returns boolean\n\n
+    isLinkOrderPageSpecified()\n
     '''
 def unsetLinkOrderPage():
-    '''public void unsetLinkOrderPage()
+    '''returns None\n\n
+    unsetLinkOrderPage()\n
     '''
 def getLinkWebsite():
-    '''public String getLinkWebsite()
+    '''returns String\n\n
+    getLinkWebsite()\n
     '''
 def setLinkWebsite():
-    '''public void setLinkWebsite(final String linkWebsite)
+    '''returns None\n\n
+    setLinkWebsite(final String linkWebsite)\n
     '''
 def isLinkWebsiteSpecified():
-    '''public boolean isLinkWebsiteSpecified()
+    '''returns boolean\n\n
+    isLinkWebsiteSpecified()\n
     '''
 def unsetLinkWebsite():
-    '''public void unsetLinkWebsite()
+    '''returns None\n\n
+    unsetLinkWebsite()\n
     '''
 def getMetaDescription():
-    '''public String getMetaDescription()
+    '''returns String\n\n
+    getMetaDescription()\n
     '''
 def setMetaDescription():
-    '''public void setMetaDescription(final String metaDescription)
+    '''returns None\n\n
+    setMetaDescription(final String metaDescription)\n
     '''
 def isMetaDescriptionSpecified():
-    '''public boolean isMetaDescriptionSpecified()
+    '''returns boolean\n\n
+    isMetaDescriptionSpecified()\n
     '''
 def unsetMetaDescription():
-    '''public void unsetMetaDescription()
+    '''returns None\n\n
+    unsetMetaDescription()\n
     '''
 def getMetaKeywords():
-    '''public String getMetaKeywords()
+    '''returns String\n\n
+    getMetaKeywords()\n
     '''
 def setMetaKeywords():
-    '''public void setMetaKeywords(final String metaKeywords)
+    '''returns None\n\n
+    setMetaKeywords(final String metaKeywords)\n
     '''
 def isMetaKeywordsSpecified():
-    '''public boolean isMetaKeywordsSpecified()
+    '''returns boolean\n\n
+    isMetaKeywordsSpecified()\n
     '''
 def unsetMetaKeywords():
-    '''public void unsetMetaKeywords()
+    '''returns None\n\n
+    unsetMetaKeywords()\n
     '''
 def getProductBenefits():
-    '''public String getProductBenefits()
+    '''returns String\n\n
+    getProductBenefits()\n
     '''
 def setProductBenefits():
-    '''public void setProductBenefits(final String productBenefits)
+    '''returns None\n\n
+    setProductBenefits(final String productBenefits)\n
     '''
 def isProductBenefitsSpecified():
-    '''public boolean isProductBenefitsSpecified()
+    '''returns boolean\n\n
+    isProductBenefitsSpecified()\n
     '''
 def unsetProductBenefits():
-    '''public void unsetProductBenefits()
+    '''returns None\n\n
+    unsetProductBenefits()\n
     '''
 def getProductCategoryId():
-    '''public Long getProductCategoryId()
+    '''returns Long\n\n
+    getProductCategoryId()\n
     '''
 def setProductCategoryId():
-    '''public void setProductCategoryId(final Long productCategoryId)
+    '''returns None\n\n
+    setProductCategoryId(final Long productCategoryId)\n
     '''
 def isProductCategoryIdSpecified():
-    '''public boolean isProductCategoryIdSpecified()
+    '''returns boolean\n\n
+    isProductCategoryIdSpecified()\n
     '''
 def unsetProductCategoryId():
-    '''public void unsetProductCategoryId()
+    '''returns None\n\n
+    unsetProductCategoryId()\n
     '''
 def getProductDescriptionLong():
-    '''public String getProductDescriptionLong()
+    '''returns String\n\n
+    getProductDescriptionLong()\n
     '''
 def setProductDescriptionLong():
-    '''public void setProductDescriptionLong(final String productDescriptionLong)
+    '''returns None\n\n
+    setProductDescriptionLong(final String productDescriptionLong)\n
     '''
 def isProductDescriptionLongSpecified():
-    '''public boolean isProductDescriptionLongSpecified()
+    '''returns boolean\n\n
+    isProductDescriptionLongSpecified()\n
     '''
 def unsetProductDescriptionLong():
-    '''public void unsetProductDescriptionLong()
+    '''returns None\n\n
+    unsetProductDescriptionLong()\n
     '''
 def getProductDescriptionShort():
-    '''public String getProductDescriptionShort()
+    '''returns String\n\n
+    getProductDescriptionShort()\n
     '''
 def setProductDescriptionShort():
-    '''public void setProductDescriptionShort(final String productDescriptionShort)
+    '''returns None\n\n
+    setProductDescriptionShort(final String productDescriptionShort)\n
     '''
 def isProductDescriptionShortSpecified():
-    '''public boolean isProductDescriptionShortSpecified()
+    '''returns boolean\n\n
+    isProductDescriptionShortSpecified()\n
     '''
 def unsetProductDescriptionShort():
-    '''public void unsetProductDescriptionShort()
+    '''returns None\n\n
+    unsetProductDescriptionShort()\n
     '''
 def getProductFeatures():
-    '''public String getProductFeatures()
+    '''returns String\n\n
+    getProductFeatures()\n
     '''
 def setProductFeatures():
-    '''public void setProductFeatures(final String productFeatures)
+    '''returns None\n\n
+    setProductFeatures(final String productFeatures)\n
     '''
 def isProductFeaturesSpecified():
-    '''public boolean isProductFeaturesSpecified()
+    '''returns boolean\n\n
+    isProductFeaturesSpecified()\n
     '''
 def unsetProductFeatures():
-    '''public void unsetProductFeatures()
+    '''returns None\n\n
+    unsetProductFeatures()\n
     '''
 def getProductName():
-    '''public String getProductName()
+    '''returns String\n\n
+    getProductName()\n
     '''
 def setProductName():
-    '''public void setProductName(final String productName)
+    '''returns None\n\n
+    setProductName(final String productName)\n
     '''
 def isProductNameSpecified():
-    '''public boolean isProductNameSpecified()
+    '''returns boolean\n\n
+    isProductNameSpecified()\n
     '''
 def unsetProductName():
-    '''public void unsetProductName()
+    '''returns None\n\n
+    unsetProductName()\n
     '''
 def getProductTitle():
-    '''public String getProductTitle()
+    '''returns String\n\n
+    getProductTitle()\n
     '''
 def setProductTitle():
-    '''public void setProductTitle(final String productTitle)
+    '''returns None\n\n
+    setProductTitle(final String productTitle)\n
     '''
 def isProductTitleSpecified():
-    '''public boolean isProductTitleSpecified()
+    '''returns boolean\n\n
+    isProductTitleSpecified()\n
     '''
 def unsetProductTitle():
-    '''public void unsetProductTitle()
+    '''returns None\n\n
+    unsetProductTitle()\n
     '''
 def getUrlIdentifier():
-    '''public String getUrlIdentifier()
+    '''returns String\n\n
+    getUrlIdentifier()\n
     '''
 def setUrlIdentifier():
-    '''public void setUrlIdentifier(final String urlIdentifier)
+    '''returns None\n\n
+    setUrlIdentifier(final String urlIdentifier)\n
     '''
 def isUrlIdentifierSpecified():
-    '''public boolean isUrlIdentifierSpecified()
+    '''returns boolean\n\n
+    isUrlIdentifierSpecified()\n
     '''
 def unsetUrlIdentifier():
-    '''public void unsetUrlIdentifier()
+    '''returns None\n\n
+    unsetUrlIdentifier()\n
     '''
 def getAttachmentCount():
-    '''public Long getAttachmentCount()
+    '''returns Long\n\n
+    getAttachmentCount()\n
     '''
 def setAttachmentCount():
-    '''public void setAttachmentCount(final Long attachmentCount)
+    '''returns None\n\n
+    setAttachmentCount(final Long attachmentCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def companyDescription():
-    '''public Mask companyDescription()
+    '''returns Mask\n\n
+    companyDescription()\n
     '''
 def companyName():
-    '''public Mask companyName()
+    '''returns Mask\n\n
+    companyName()\n
     '''
 def headlineDescription():
-    '''public Mask headlineDescription()
+    '''returns Mask\n\n
+    headlineDescription()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def linkFreeTrial():
-    '''public Mask linkFreeTrial()
+    '''returns Mask\n\n
+    linkFreeTrial()\n
     '''
 def linkOrderPage():
-    '''public Mask linkOrderPage()
+    '''returns Mask\n\n
+    linkOrderPage()\n
     '''
 def linkWebsite():
-    '''public Mask linkWebsite()
+    '''returns Mask\n\n
+    linkWebsite()\n
     '''
 def metaDescription():
-    '''public Mask metaDescription()
+    '''returns Mask\n\n
+    metaDescription()\n
     '''
 def metaKeywords():
-    '''public Mask metaKeywords()
+    '''returns Mask\n\n
+    metaKeywords()\n
     '''
 def productBenefits():
-    '''public Mask productBenefits()
+    '''returns Mask\n\n
+    productBenefits()\n
     '''
 def productCategoryId():
-    '''public Mask productCategoryId()
+    '''returns Mask\n\n
+    productCategoryId()\n
     '''
 def productDescriptionLong():
-    '''public Mask productDescriptionLong()
+    '''returns Mask\n\n
+    productDescriptionLong()\n
     '''
 def productDescriptionShort():
-    '''public Mask productDescriptionShort()
+    '''returns Mask\n\n
+    productDescriptionShort()\n
     '''
 def productFeatures():
-    '''public Mask productFeatures()
+    '''returns Mask\n\n
+    productFeatures()\n
     '''
 def productName():
-    '''public Mask productName()
+    '''returns Mask\n\n
+    productName()\n
     '''
 def productTitle():
-    '''public Mask productTitle()
+    '''returns Mask\n\n
+    productTitle()\n
     '''
 def urlIdentifier():
-    '''public Mask urlIdentifier()
+    '''returns Mask\n\n
+    urlIdentifier()\n
     '''
 def attachmentCount():
-    '''public Mask attachmentCount()
+    '''returns Mask\n\n
+    attachmentCount()\n
     '''

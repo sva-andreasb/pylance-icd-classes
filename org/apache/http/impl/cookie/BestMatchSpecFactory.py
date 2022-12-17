@@ -1,10 +1,13 @@
-def BestMatchSpecFactory():
-    '''public BestMatchSpecFactory(final String[] datepatterns, final boolean oneHeader)
-    public BestMatchSpecFactory()
+def ():
+    '''returns BestMatchSpecFactory\n\n
+    (final String[] datepatterns, final boolean oneHeader)\n
+    ()\n
     '''
 def newInstance():
-    '''public CookieSpec newInstance(final HttpParams params)
+    '''returns CookieSpec\n\n
+    newInstance(final HttpParams params)\n
     '''
 def create():
-    '''public CookieSpec create(final HttpContext context)
+    '''returns CookieSpec\n\n
+    create(final HttpContext context)\n
     '''

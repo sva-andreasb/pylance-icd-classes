@@ -1,3 +1,4 @@
-def MXGenericException():
-    '''public MXGenericException(final String eg, final String ek)
+def ():
+    '''returns MXGenericException\n\n
+    (final String eg, final String ek)\n
     '''

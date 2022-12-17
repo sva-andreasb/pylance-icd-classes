@@ -1,6 +1,8 @@
-def FldWPLicenseTloamSoftwareID():
-    '''public FldWPLicenseTloamSoftwareID(final MboValue mbv)
+def ():
+    '''returns FldWPLicenseTloamSoftwareID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

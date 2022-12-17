@@ -1,12 +1,16 @@
-def MappingSet():
-    '''public MappingSet()
+def ():
+    '''returns MappingSet\n\n
+    ()\n
     '''
 def addMapping():
-    '''public void addMapping(final NamespaceMapping mapping)
+    '''returns None\n\n
+    addMapping(final NamespaceMapping mapping)\n
     '''
 def addMappingSet():
-    '''public void addMappingSet(final MappingSet mappingset)
+    '''returns None\n\n
+    addMappingSet(final MappingSet mappingset)\n
     '''
 def execute():
-    '''public void execute(final ProjectComponent owner, final HashMap map, final boolean packageIsKey)
+    '''returns None\n\n
+    execute(final ProjectComponent owner, final HashMap map, final boolean packageIsKey)\n
     '''

@@ -1,30 +1,40 @@
 def action():
-    '''public byte[] action(final byte[] actionData, final String maxServiceName)
+    '''returns byte[]\n\n
+    action(final byte[] actionData, final String maxServiceName)\n
     '''
 def wsAction():
-    '''public byte[] wsAction(final byte[] actionData, final String wsName)
+    '''returns byte[]\n\n
+    wsAction(final byte[] actionData, final String wsName)\n
     '''
 def maxSecureAction():
-    '''public byte[] maxSecureAction(final String loginid, final String password, final byte[] actionData, final String maxServiceName)
+    '''returns byte[]\n\n
+    maxSecureAction(final String loginid, final String password, final byte[] actionData, final String maxServiceName)\n
     '''
 def maxAPIKeySecureAction():
-    '''public byte[] maxAPIKeySecureAction(final String apikey, final byte[] actionData, final String maxServiceName)
+    '''returns byte[]\n\n
+    maxAPIKeySecureAction(final String apikey, final byte[] actionData, final String maxServiceName)\n
     '''
 def wsMaxAPIKeySecureAction():
-    '''public byte[] wsMaxAPIKeySecureAction(final String apikey, final byte[] actionData, final String wsName)
+    '''returns byte[]\n\n
+    wsMaxAPIKeySecureAction(final String apikey, final byte[] actionData, final String wsName)\n
     '''
 def wsMaxSecureAction():
-    '''public byte[] wsMaxSecureAction(final String loginid, final String password, final byte[] actionData, final String wsName)
+    '''returns byte[]\n\n
+    wsMaxSecureAction(final String loginid, final String password, final byte[] actionData, final String wsName)\n
     '''
 def secureAction():
-    '''public byte[] secureAction(final byte[] actionData, final String maxServiceName, final Principal principal)
+    '''returns byte[]\n\n
+    secureAction(final byte[] actionData, final String maxServiceName, final Principal principal)\n
     '''
 def wsSecureAction():
-    '''public byte[] wsSecureAction(final byte[] actionData, final String wsName, final Principal principal)
+    '''returns byte[]\n\n
+    wsSecureAction(final byte[] actionData, final String wsName, final Principal principal)\n
     '''
 def getDBConnection():
-    '''public Connection getDBConnection(final ConnectionKey conKey)
+    '''returns Connection\n\n
+    getDBConnection(final ConnectionKey conKey)\n
     '''
 def freeDBConnection():
-    '''public void freeDBConnection(final ConnectionKey conKey)
+    '''returns None\n\n
+    freeDBConnection(final ConnectionKey conKey)\n
     '''

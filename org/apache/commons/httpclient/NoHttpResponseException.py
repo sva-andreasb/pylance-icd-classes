@@ -1,5 +1,6 @@
-def NoHttpResponseException():
-    '''public NoHttpResponseException()
-    public NoHttpResponseException(final String message)
-    public NoHttpResponseException(final String message, final Throwable cause)
+def ():
+    '''returns NoHttpResponseException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

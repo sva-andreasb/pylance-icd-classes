@@ -1,16 +1,21 @@
 MSG_SNAP_ENABLED = "String  \"ganttview.snap-enabled\""
-def SnapToGridActivityListener():
-    '''public SnapToGridActivityListener(final ActivityListener parent)
+def ():
+    '''returns SnapToGridActivityListener\n\n
+    (final ActivityListener parent)\n
     '''
 def activityChanged():
-    '''public void activityChanged(final ActivityEvent event)
+    '''returns None\n\n
+    activityChanged(final ActivityEvent event)\n
     '''
 def handleMessage():
-    '''public void handleMessage(final String msgId, final Object... args)
+    '''returns None\n\n
+    handleMessage(final String msgId, final Object... args)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
     '''

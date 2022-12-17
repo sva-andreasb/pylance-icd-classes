@@ -1,3 +1,4 @@
-def SubmitDetailsSet():
-    '''public SubmitDetailsSet(final MboServerInterface ms)
+def ():
+    '''returns SubmitDetailsSet\n\n
+    (final MboServerInterface ms)\n
     '''

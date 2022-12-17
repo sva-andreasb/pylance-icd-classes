@@ -1,3 +1,4 @@
-def UnionBranch():
-    '''public UnionBranch()
+def ():
+    '''returns UnionBranch\n\n
+    ()\n
     '''

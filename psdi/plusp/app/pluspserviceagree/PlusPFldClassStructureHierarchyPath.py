@@ -1,15 +1,20 @@
-def PlusPFldClassStructureHierarchyPath():
-    '''public PlusPFldClassStructureHierarchyPath(final MboValue arg0)
+def ():
+    '''returns PlusPFldClassStructureHierarchyPath\n\n
+    (final MboValue arg0)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote valueFromLookup)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote valueFromLookup)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String s, final boolean b)
+    '''returns MboSetRemote\n\n
+    smartFind(final String s, final boolean b)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

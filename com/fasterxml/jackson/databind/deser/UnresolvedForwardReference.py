@@ -1,21 +1,27 @@
-def UnresolvedForwardReference():
-    '''public UnresolvedForwardReference(final JsonParser p, final String msg, final JsonLocation loc, final ReadableObjectId roid)
-    public UnresolvedForwardReference(final JsonParser p, final String msg)
-    public UnresolvedForwardReference(final String msg, final JsonLocation loc, final ReadableObjectId roid)
-    public UnresolvedForwardReference(final String msg)
+def ():
+    '''returns UnresolvedForwardReference\n\n
+    (final JsonParser p, final String msg, final JsonLocation loc, final ReadableObjectId roid)\n
+    (final JsonParser p, final String msg)\n
+    (final String msg, final JsonLocation loc, final ReadableObjectId roid)\n
+    (final String msg)\n
     '''
 def getRoid():
-    '''public ReadableObjectId getRoid()
+    '''returns ReadableObjectId\n\n
+    getRoid()\n
     '''
 def getUnresolvedId():
-    '''public Object getUnresolvedId()
+    '''returns Object\n\n
+    getUnresolvedId()\n
     '''
 def addUnresolvedId():
-    '''public void addUnresolvedId(final Object id, final Class<?> type, final JsonLocation where)
+    '''returns None\n\n
+    addUnresolvedId(final Object id, final Class<?> type, final JsonLocation where)\n
     '''
 def getUnresolvedIds():
-    '''public List<UnresolvedId> getUnresolvedIds()
+    '''returns List<UnresolvedId>\n\n
+    getUnresolvedIds()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

@@ -1,25 +1,17 @@
-def isValidObject():
-    '''public static boolean isValidObject(final Object o)
-    '''
-def isValidType():
-    '''public static boolean isValidType(final Class clazz)
-    '''
-def parse():
-    '''public static JSONObject parse(final Reader reader)
-    public static JSONObject parse(final String s)
-    public static JSONObject parse(final InputStream inputStream)
-    '''
 def serialize():
-    '''public void serialize(final OutputStream outputStream)
-    public void serialize(final OutputStream out, final boolean b)
-    public void serialize(final Writer writer)
-    public void serialize(Writer out, final boolean b)
-    public String serialize(final boolean b)
-    public String serialize()
+    '''returns String\n\n
+    serialize(final OutputStream outputStream)\n
+    serialize(final OutputStream out, final boolean b)\n
+    serialize(final Writer writer)\n
+    serialize(Writer out, final boolean b)\n
+    serialize(final boolean b)\n
+    serialize()\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

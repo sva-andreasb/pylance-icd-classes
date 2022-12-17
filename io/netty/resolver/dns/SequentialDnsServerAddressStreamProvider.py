@@ -1,4 +1,5 @@
-def SequentialDnsServerAddressStreamProvider():
-    '''public SequentialDnsServerAddressStreamProvider(final InetSocketAddress... addresses)
-    public SequentialDnsServerAddressStreamProvider(final Iterable<? extends InetSocketAddress> addresses)
+def ():
+    '''returns SequentialDnsServerAddressStreamProvider\n\n
+    (final InetSocketAddress... addresses)\n
+    (final Iterable<? extends InetSocketAddress> addresses)\n
     '''

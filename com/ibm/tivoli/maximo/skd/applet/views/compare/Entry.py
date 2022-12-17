@@ -1,3 +1,4 @@
-def Entry():
-    '''public Entry(final IlvHierarchyChart chart2, final IlvHierarchyNode node2)
+def ():
+    '''returns Entry\n\n
+    (final IlvHierarchyChart chart2, final IlvHierarchyNode node2)\n
     '''

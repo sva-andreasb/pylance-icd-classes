@@ -1,3 +1,4 @@
-def FileNotSupportedException():
-    '''public FileNotSupportedException(final FileType fileType)
+def ():
+    '''returns FileNotSupportedException\n\n
+    (final FileType fileType)\n
     '''

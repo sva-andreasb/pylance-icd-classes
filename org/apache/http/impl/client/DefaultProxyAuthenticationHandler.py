@@ -1,6 +1,4 @@
 def isAuthenticationRequested():
-    '''public boolean isAuthenticationRequested(final HttpResponse response, final HttpContext context)
-    '''
-def getChallenges():
-    '''public Map<String, Header> getChallenges(final HttpResponse response, final HttpContext context)
+    '''returns boolean\n\n
+    isAuthenticationRequested(final HttpResponse response, final HttpContext context)\n
     '''

@@ -1,9 +1,12 @@
-def SocketInputBuffer():
-    '''public SocketInputBuffer(final Socket socket, final int buffersize, final HttpParams params)
+def ():
+    '''returns SocketInputBuffer\n\n
+    (final Socket socket, final int buffersize, final HttpParams params)\n
     '''
 def isDataAvailable():
-    '''public boolean isDataAvailable(final int timeout)
+    '''returns boolean\n\n
+    isDataAvailable(final int timeout)\n
     '''
 def isEof():
-    '''public boolean isEof()
+    '''returns boolean\n\n
+    isEof()\n
     '''

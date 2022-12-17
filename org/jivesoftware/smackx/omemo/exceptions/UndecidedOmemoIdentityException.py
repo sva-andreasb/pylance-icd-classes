@@ -1,9 +1,12 @@
-def UndecidedOmemoIdentityException():
-    '''public UndecidedOmemoIdentityException(final OmemoDevice contact)
+def ():
+    '''returns UndecidedOmemoIdentityException\n\n
+    (final OmemoDevice contact)\n
     '''
 def getUndecidedDevices():
-    '''public HashSet<OmemoDevice> getUndecidedDevices()
+    '''returns HashSet<OmemoDevice>\n\n
+    getUndecidedDevices()\n
     '''
 def join():
-    '''public void join(final UndecidedOmemoIdentityException other)
+    '''returns None\n\n
+    join(final UndecidedOmemoIdentityException other)\n
     '''

@@ -1,16 +1,20 @@
-def IlvRotateSelectionAccelerator():
-    '''public IlvRotateSelectionAccelerator(final int n, final int n2, final char c, final int n3, final boolean b)
-    public IlvRotateSelectionAccelerator(final int n, final int n2, final int n3, final boolean b)
-    public IlvRotateSelectionAccelerator(final int n, final int n2, final int n3)
+def ():
+    '''returns IlvRotateSelectionAccelerator\n\n
+    (final int n, final int n2, final char c, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''
 def setRotationAngle():
-    '''public void setRotationAngle(final float a)
+    '''returns None\n\n
+    setRotationAngle(final float a)\n
     '''
 def getRotationAngle():
-    '''public float getRotationAngle()
+    '''returns float\n\n
+    getRotationAngle()\n
     '''

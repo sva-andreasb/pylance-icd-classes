@@ -1,14 +1,8 @@
-def getInstanceUTC():
-    '''public static GregorianChronology getInstanceUTC()
-    '''
-def getInstance():
-    '''public static GregorianChronology getInstance()
-    public static GregorianChronology getInstance(final DateTimeZone dateTimeZone)
-    public static GregorianChronology getInstance(DateTimeZone default1, final int i)
-    '''
 def withUTC():
-    '''public Chronology withUTC()
+    '''returns Chronology\n\n
+    withUTC()\n
     '''
 def withZone():
-    '''public Chronology withZone(DateTimeZone default1)
+    '''returns Chronology\n\n
+    withZone(DateTimeZone default1)\n
     '''

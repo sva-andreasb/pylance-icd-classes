@@ -1,12 +1,15 @@
-def JXPathException():
-    '''public JXPathException()
-    public JXPathException(final String msg)
-    public JXPathException(final Throwable e)
-    public JXPathException(final String msg, final Throwable e)
+def ():
+    '''returns JXPathException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable e)\n
+    (final String msg, final Throwable e)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getException():
-    '''public Throwable getException()
+    '''returns Throwable\n\n
+    getException()\n
     '''

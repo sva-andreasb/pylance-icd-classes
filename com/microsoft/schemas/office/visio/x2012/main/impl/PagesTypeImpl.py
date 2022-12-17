@@ -1,26 +1,34 @@
-def PagesTypeImpl():
-    '''public PagesTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns PagesTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getPageList():
-    '''public List<PageType> getPageList()
+    '''returns List<PageType>\n\n
+    getPageList()\n
     '''
 def getPageArray():
-    '''public PageType[] getPageArray()
-    public PageType getPageArray(final int n)
+    '''returns PageType\n\n
+    getPageArray()\n
+    getPageArray(final int n)\n
     '''
 def sizeOfPageArray():
-    '''public int sizeOfPageArray()
+    '''returns int\n\n
+    sizeOfPageArray()\n
     '''
 def setPageArray():
-    '''public void setPageArray(final PageType[] array)
-    public void setPageArray(final int n, final PageType pageType)
+    '''returns None\n\n
+    setPageArray(final PageType[] array)\n
+    setPageArray(final int n, final PageType pageType)\n
     '''
 def insertNewPage():
-    '''public PageType insertNewPage(final int n)
+    '''returns PageType\n\n
+    insertNewPage(final int n)\n
     '''
 def addNewPage():
-    '''public PageType addNewPage()
+    '''returns PageType\n\n
+    addNewPage()\n
     '''
 def removePage():
-    '''public void removePage(final int n)
+    '''returns None\n\n
+    removePage(final int n)\n
     '''

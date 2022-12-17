@@ -1,9 +1,12 @@
 def folderCreated():
-    '''public void folderCreated(final FolderEvent e)
+    '''returns None\n\n
+    folderCreated(final FolderEvent e)\n
     '''
 def folderDeleted():
-    '''public void folderDeleted(final FolderEvent e)
+    '''returns None\n\n
+    folderDeleted(final FolderEvent e)\n
     '''
 def folderRenamed():
-    '''public void folderRenamed(final FolderEvent e)
+    '''returns None\n\n
+    folderRenamed(final FolderEvent e)\n
     '''

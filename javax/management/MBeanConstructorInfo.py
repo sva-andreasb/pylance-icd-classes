@@ -1,16 +1,21 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getSignature():
-    '''public MBeanParameterInfo[] getSignature()
+    '''returns MBeanParameterInfo[]\n\n
+    getSignature()\n
     '''
-def MBeanConstructorInfo():
-    '''public MBeanConstructorInfo(final String s, final Constructor constructor)
-    public MBeanConstructorInfo(final String s, final String s2, MBeanParameterInfo[] no_PARAMS)
+def ():
+    '''returns MBeanConstructorInfo\n\n
+    (final String s, final Constructor constructor)\n
+    (final String s, final String s2, MBeanParameterInfo[] no_PARAMS)\n
     '''

@@ -1,6 +1,8 @@
-def FldSLACommitmentsUOM():
-    '''public FldSLACommitmentsUOM(final MboValue mbv)
+def ():
+    '''returns FldSLACommitmentsUOM\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

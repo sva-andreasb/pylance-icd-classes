@@ -1,27 +1,36 @@
-def DefaultNameStep():
-    '''public DefaultNameStep(final IterableAxis axis, final String prefix, final String localName, final PredicateSet predicateSet)
+def ():
+    '''returns DefaultNameStep\n\n
+    (final IterableAxis axis, final String prefix, final String localName, final PredicateSet predicateSet)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def isMatchesAnyName():
-    '''public boolean isMatchesAnyName()
+    '''returns boolean\n\n
+    isMatchesAnyName()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def evaluate():
-    '''public List evaluate(final Context context)
+    '''returns List\n\n
+    evaluate(final Context context)\n
     '''
 def matches():
-    '''public boolean matches(final Object node, final ContextSupport contextSupport)
+    '''returns boolean\n\n
+    matches(final Object node, final ContextSupport contextSupport)\n
     '''
 def accept():
-    '''public void accept(final Visitor visitor)
+    '''returns None\n\n
+    accept(final Visitor visitor)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

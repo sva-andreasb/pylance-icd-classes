@@ -1,90 +1,120 @@
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def getUploadId():
-    '''public String getUploadId()
+    '''returns String\n\n
+    getUploadId()\n
     '''
 def setUploadId():
-    '''public void setUploadId(final String uploadId)
+    '''returns None\n\n
+    setUploadId(final String uploadId)\n
     '''
 def getOwner():
-    '''public Owner getOwner()
+    '''returns Owner\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final Owner owner)
+    '''returns None\n\n
+    setOwner(final Owner owner)\n
     '''
 def getInitiator():
-    '''public Owner getInitiator()
+    '''returns Owner\n\n
+    getInitiator()\n
     '''
 def setInitiator():
-    '''public void setInitiator(final Owner initiator)
+    '''returns None\n\n
+    setInitiator(final Owner initiator)\n
     '''
 def getStorageClass():
-    '''public String getStorageClass()
+    '''returns String\n\n
+    getStorageClass()\n
     '''
 def setStorageClass():
-    '''public void setStorageClass(final String storageClass)
+    '''returns None\n\n
+    setStorageClass(final String storageClass)\n
     '''
 def getPartNumberMarker():
-    '''public Integer getPartNumberMarker()
+    '''returns Integer\n\n
+    getPartNumberMarker()\n
     '''
 def setPartNumberMarker():
-    '''public void setPartNumberMarker(final int partNumberMarker)
+    '''returns None\n\n
+    setPartNumberMarker(final int partNumberMarker)\n
     '''
 def getNextPartNumberMarker():
-    '''public Integer getNextPartNumberMarker()
+    '''returns Integer\n\n
+    getNextPartNumberMarker()\n
     '''
 def setNextPartNumberMarker():
-    '''public void setNextPartNumberMarker(final int nextPartNumberMarker)
+    '''returns None\n\n
+    setNextPartNumberMarker(final int nextPartNumberMarker)\n
     '''
 def getMaxParts():
-    '''public Integer getMaxParts()
+    '''returns Integer\n\n
+    getMaxParts()\n
     '''
 def setMaxParts():
-    '''public void setMaxParts(final int maxParts)
+    '''returns None\n\n
+    setMaxParts(final int maxParts)\n
     '''
 def getEncodingType():
-    '''public String getEncodingType()
+    '''returns String\n\n
+    getEncodingType()\n
     '''
 def setEncodingType():
-    '''public void setEncodingType(final String encodingType)
+    '''returns None\n\n
+    setEncodingType(final String encodingType)\n
     '''
 def isTruncated():
-    '''public boolean isTruncated()
+    '''returns boolean\n\n
+    isTruncated()\n
     '''
 def setTruncated():
-    '''public void setTruncated(final boolean isTruncated)
+    '''returns None\n\n
+    setTruncated(final boolean isTruncated)\n
     '''
 def getParts():
-    '''public List<PartSummary> getParts()
+    '''returns List<PartSummary>\n\n
+    getParts()\n
     '''
 def setParts():
-    '''public void setParts(final List<PartSummary> parts)
+    '''returns None\n\n
+    setParts(final List<PartSummary> parts)\n
     '''
 def getAbortDate():
-    '''public Date getAbortDate()
+    '''returns Date\n\n
+    getAbortDate()\n
     '''
 def setAbortDate():
-    '''public void setAbortDate(final Date abortDate)
+    '''returns None\n\n
+    setAbortDate(final Date abortDate)\n
     '''
 def getAbortRuleId():
-    '''public String getAbortRuleId()
+    '''returns String\n\n
+    getAbortRuleId()\n
     '''
 def setAbortRuleId():
-    '''public void setAbortRuleId(final String abortRuleId)
+    '''returns None\n\n
+    setAbortRuleId(final String abortRuleId)\n
     '''
 def isRequesterCharged():
-    '''public boolean isRequesterCharged()
+    '''returns boolean\n\n
+    isRequesterCharged()\n
     '''
 def setRequesterCharged():
-    '''public void setRequesterCharged(final boolean isRequesterCharged)
+    '''returns None\n\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
     '''

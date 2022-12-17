@@ -1,9 +1,12 @@
-def CoreOperationNegate():
-    '''public CoreOperationNegate(final Expression arg)
+def ():
+    '''returns CoreOperationNegate\n\n
+    (final Expression arg)\n
     '''
 def computeValue():
-    '''public Object computeValue(final EvalContext context)
+    '''returns Object\n\n
+    computeValue(final EvalContext context)\n
     '''
 def getSymbol():
-    '''public String getSymbol()
+    '''returns String\n\n
+    getSymbol()\n
     '''

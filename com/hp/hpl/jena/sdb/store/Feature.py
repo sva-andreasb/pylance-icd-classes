@@ -1,32 +1,39 @@
-def Feature():
-    '''public Feature(final Name name, final String value)
-    public Feature(final Name name, final long value)
+def ():
+    '''returns Name\n\n
+    (final Name name, final String value)\n
+    (final Name name, final long value)\n
+    (final Symbol other)\n
+    (final String nameStr)\n
     '''
 def getAsObject():
-    '''public Object getAsObject()
+    '''returns Object\n\n
+    getAsObject()\n
     '''
 def getAsString():
-    '''public String getAsString()
+    '''returns String\n\n
+    getAsString()\n
     '''
 def getAsInteger():
-    '''public long getAsInteger()
+    '''returns long\n\n
+    getAsInteger()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def Name():
-    '''public Name(final Symbol other)
-    public Name(final String nameStr)
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,30 +1,40 @@
-def PersonAvail():
-    '''public PersonAvail(final MboSet ms)
+def ():
+    '''returns PersonAvail\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setAvailPeriodMbo():
-    '''public void setAvailPeriodMbo(final MboRemote availPeriodMbo)
+    '''returns None\n\n
+    setAvailPeriodMbo(final MboRemote availPeriodMbo)\n
     '''
 def getAvailPeriodMbo():
-    '''public MboRemote getAvailPeriodMbo()
+    '''returns MboRemote\n\n
+    getAvailPeriodMbo()\n
     '''
 def modifiedAvailability():
-    '''public boolean modifiedAvailability()
+    '''returns boolean\n\n
+    modifiedAvailability()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def setupFields():
-    '''public void setupFields(final GregorianCalendar startCal, final MboRemote person, final String orgid, final AvailCalc availCalc)
+    '''returns None\n\n
+    setupFields(final GregorianCalendar startCal, final MboRemote person, final String orgid, final AvailCalc availCalc)\n
     '''
 def saveModifiedAvailability():
-    '''public void saveModifiedAvailability()
+    '''returns None\n\n
+    saveModifiedAvailability()\n
     '''

@@ -1,4 +1,5 @@
-def OslcCoreApplicationException():
-    '''public OslcCoreApplicationException(final String messageKey, final Object[] args)
-    public OslcCoreApplicationException(final String messageKey, final Object[] args, final Throwable t)
+def ():
+    '''returns OslcCoreApplicationException\n\n
+    (final String messageKey, final Object[] args)\n
+    (final String messageKey, final Object[] args, final Throwable t)\n
     '''

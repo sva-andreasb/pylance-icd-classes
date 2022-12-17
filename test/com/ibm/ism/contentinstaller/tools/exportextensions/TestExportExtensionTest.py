@@ -1,3 +1,4 @@
 def testProcessObject():
-    '''public void testProcessObject()
+    '''returns None\n\n
+    testProcessObject()\n
     '''

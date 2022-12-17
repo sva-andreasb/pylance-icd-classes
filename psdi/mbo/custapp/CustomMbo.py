@@ -1,6 +1,8 @@
-def CustomMbo():
-    '''public CustomMbo(final MboSet ms)
+def ():
+    '''returns CustomMbo\n\n
+    (final MboSet ms)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

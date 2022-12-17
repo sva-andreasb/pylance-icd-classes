@@ -1,3 +1,4 @@
-def DMMapDef():
-    '''public DMMapDef(final MboSet ms)
+def ():
+    '''returns DMMapDef\n\n
+    (final MboSet ms)\n
     '''

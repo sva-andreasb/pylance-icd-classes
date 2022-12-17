@@ -1,15 +1,20 @@
-def PlusPSLARecordsSet():
-    '''public PlusPSLARecordsSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPSLARecordsSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def modifySLA():
-    '''public void modifySLA()
+    '''returns None\n\n
+    modifySLA()\n
     '''
 def clearTargetDates():
-    '''public void clearTargetDates()
+    '''returns None\n\n
+    clearTargetDates()\n
     '''
 def getSLAsToSelect():
-    '''public MboSetRemote getSLAsToSelect(final boolean b)
+    '''returns MboSetRemote\n\n
+    getSLAsToSelect(final boolean b)\n
     '''
 def applySLA():
-    '''public void applySLA()
+    '''returns None\n\n
+    applySLA()\n
     '''

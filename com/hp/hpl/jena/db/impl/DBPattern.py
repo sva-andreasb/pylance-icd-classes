@@ -1,27 +1,36 @@
-def DBPattern():
-    '''public DBPattern(final Triple pat, final Mapping varMap)
+def ():
+    '''returns DBPattern\n\n
+    (final Triple pat, final Mapping varMap)\n
     '''
 def setBusy():
-    '''public void setBusy()
+    '''returns None\n\n
+    setBusy()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def sourceAdd():
-    '''public void sourceAdd(final SpecializedGraph sg, final char sub)
+    '''returns None\n\n
+    sourceAdd(final SpecializedGraph sg, final char sub)\n
     '''
 def hasSource():
-    '''public boolean hasSource()
+    '''returns boolean\n\n
+    hasSource()\n
     '''
 def isSingleSource():
-    '''public boolean isSingleSource()
+    '''returns boolean\n\n
+    isSingleSource()\n
     '''
 def singleSource():
-    '''public SpecializedGraph singleSource()
+    '''returns SpecializedGraph\n\n
+    singleSource()\n
     '''
 def joinsWith():
-    '''public boolean joinsWith(final DBPattern other, final List<VarDesc> varList, final boolean onlyStmt, final boolean onlyReif, final boolean implicitJoin)
+    '''returns boolean\n\n
+    joinsWith(final DBPattern other, final List<VarDesc> varList, final boolean onlyStmt, final boolean onlyReif, final boolean implicitJoin)\n
     '''
 def cost():
-    '''public int cost(final Mapping varMap)
+    '''returns int\n\n
+    cost(final Mapping varMap)\n
     '''

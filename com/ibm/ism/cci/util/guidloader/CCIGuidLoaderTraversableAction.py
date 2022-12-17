@@ -1,9 +1,12 @@
-def CCIGuidLoaderTraversableAction():
-    '''public CCIGuidLoaderTraversableAction(final CCIGuidLoaderScoreboard scoreboard, final long nbrMillisecondsToRun, final long startTime, final CCIGuidLoaderObjectEnum objectTypeToProcess, final String nrsGuidAttribute, final DISService disService)
+def ():
+    '''returns CCIGuidLoaderTraversableAction\n\n
+    (final CCIGuidLoaderScoreboard scoreboard, final long nbrMillisecondsToRun, final long startTime, final CCIGuidLoaderObjectEnum objectTypeToProcess, final String nrsGuidAttribute, final DISService disService)\n
     '''
 def processState():
-    '''public void processState(final TraversalState state, final UserInfo userInfo)
+    '''returns None\n\n
+    processState(final TraversalState state, final UserInfo userInfo)\n
     '''
 def postTraverseAction():
-    '''public void postTraverseAction(final UserInfo userInfo)
+    '''returns None\n\n
+    postTraverseAction(final UserInfo userInfo)\n
     '''

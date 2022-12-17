@@ -1,36 +1,48 @@
-def IlvAbstractActivity():
-    '''public IlvAbstractActivity()
+def ():
+    '''returns IlvAbstractActivity\n\n
+    ()\n
     '''
 def setGanttModelImpl():
-    '''public void setGanttModelImpl(final IlvGanttModel a)
+    '''returns None\n\n
+    setGanttModelImpl(final IlvGanttModel a)\n
     '''
 def getChildEventFilter():
-    '''public IlvUnaryPredicate<ActivityEvent> getChildEventFilter()
+    '''returns IlvUnaryPredicate<ActivityEvent>\n\n
+    getChildEventFilter()\n
     '''
 def processChildEvent():
-    '''public void processChildEvent(final ActivityEvent activityEvent)
+    '''returns None\n\n
+    processChildEvent(final ActivityEvent activityEvent)\n
     '''
 def getStartTime():
-    '''public Date getStartTime()
+    '''returns Date\n\n
+    getStartTime()\n
     '''
 def setStartTime():
-    '''public void setStartTime(final Date date)
+    '''returns None\n\n
+    setStartTime(final Date date)\n
     '''
 def getEndTime():
-    '''public Date getEndTime()
+    '''returns Date\n\n
+    getEndTime()\n
     '''
 def setEndTime():
-    '''public void setEndTime(final Date date)
+    '''returns None\n\n
+    setEndTime(final Date date)\n
     '''
 def getDuration():
-    '''public IlvDuration getDuration()
+    '''returns IlvDuration\n\n
+    getDuration()\n
     '''
 def setDuration():
-    '''public void setDuration(final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setDuration(final IlvDuration ilvDuration)\n
     '''
 def setTimeInterval():
-    '''public void setTimeInterval(final Date date, final Date date2)
+    '''returns None\n\n
+    setTimeInterval(final Date date, final Date date2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

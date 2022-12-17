@@ -1,30 +1,35 @@
 def handleConnectionAdded():
-    '''public void handleConnectionAdded()
-    public void handleConnectionAdded(final ApnsClient apnsClient)
+    '''returns None\n\n
+    handleConnectionAdded()\n
+    handleConnectionAdded(final ApnsClient apnsClient)\n
     '''
 def handleConnectionRemoved():
-    '''public void handleConnectionRemoved()
-    public void handleConnectionRemoved(final ApnsClient apnsClient)
+    '''returns None\n\n
+    handleConnectionRemoved()\n
+    handleConnectionRemoved(final ApnsClient apnsClient)\n
     '''
 def handleConnectionCreationFailed():
-    '''public void handleConnectionCreationFailed()
-    public void handleConnectionCreationFailed(final ApnsClient apnsClient)
-    '''
-def sendNotification():
-    '''public <T extends ApnsPushNotification> PushNotificationFuture<T, PushNotificationResponse<T>> sendNotification(final T notification)
+    '''returns None\n\n
+    handleConnectionCreationFailed()\n
+    handleConnectionCreationFailed(final ApnsClient apnsClient)\n
     '''
 def close():
-    '''public CompletableFuture<Void> close()
+    '''returns CompletableFuture<Void>\n\n
+    close()\n
     '''
 def handleWriteFailure():
-    '''public void handleWriteFailure(final ApnsClient apnsClient, final long notificationId)
+    '''returns None\n\n
+    handleWriteFailure(final ApnsClient apnsClient, final long notificationId)\n
     '''
 def handleNotificationSent():
-    '''public void handleNotificationSent(final ApnsClient apnsClient, final long notificationId)
+    '''returns None\n\n
+    handleNotificationSent(final ApnsClient apnsClient, final long notificationId)\n
     '''
 def handleNotificationAccepted():
-    '''public void handleNotificationAccepted(final ApnsClient apnsClient, final long notificationId)
+    '''returns None\n\n
+    handleNotificationAccepted(final ApnsClient apnsClient, final long notificationId)\n
     '''
 def handleNotificationRejected():
-    '''public void handleNotificationRejected(final ApnsClient apnsClient, final long notificationId)
+    '''returns None\n\n
+    handleNotificationRejected(final ApnsClient apnsClient, final long notificationId)\n
     '''

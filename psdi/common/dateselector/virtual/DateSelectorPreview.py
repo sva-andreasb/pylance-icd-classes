@@ -1,6 +1,8 @@
-def DateSelectorPreview():
-    '''public DateSelectorPreview(final MboSet ms)
+def ():
+    '''returns DateSelectorPreview\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

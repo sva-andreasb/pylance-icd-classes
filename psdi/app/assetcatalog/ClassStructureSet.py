@@ -1,105 +1,136 @@
-def ClassStructureSet():
-    '''public ClassStructureSet(final MboServerInterface ms)
+def ():
+    '''returns SortableClassstructure\n\n
+    (final MboServerInterface ms)\n
+    (final Integer id, final String parent, final Integer sortOrder)\n
     '''
 def concatAll():
-    '''public String concatAll(final String[] sa)
+    '''returns String\n\n
+    concatAll(final String[] sa)\n
     '''
 def setAnyLevel():
-    '''public void setAnyLevel(final boolean anyLevelValue)
+    '''returns None\n\n
+    setAnyLevel(final boolean anyLevelValue)\n
     '''
 def getAnyLevel():
-    '''public boolean getAnyLevel()
+    '''returns boolean\n\n
+    getAnyLevel()\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
-    public String getParent()
+    '''returns String\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
+    getParent()\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def reSetForNewUniqueId():
-    '''public void reSetForNewUniqueId(final String key)
+    '''returns None\n\n
+    reSetForNewUniqueId(final String key)\n
     '''
 def setOriginatingObjectAndAttribute():
-    '''public void setOriginatingObjectAndAttribute(String origObjectName, String origAttribute, final MboRemote origMbo)
+    '''returns None\n\n
+    setOriginatingObjectAndAttribute(String origObjectName, String origAttribute, final MboRemote origMbo)\n
     '''
 def setOriginatingObject():
-    '''public void setOriginatingObject(final MboRemote origObject, final boolean inClassify)
-    public void setOriginatingObject(final String actualObjectForUseWith)
-    public void setOriginatingObject(final MboRemote origObject)
+    '''returns None\n\n
+    setOriginatingObject(final MboRemote origObject, final boolean inClassify)\n
+    setOriginatingObject(final String actualObjectForUseWith)\n
+    setOriginatingObject(final MboRemote origObject)\n
     '''
 def getMboValueDataForNoTreeNodes():
-    '''public MboValueData[][] getMboValueDataForNoTreeNodes(final String[] attribute, final String reason)
+    '''returns MboValueData[][]\n\n
+    getMboValueDataForNoTreeNodes(final String[] attribute, final String reason)\n
     '''
 def getUseWithSql():
-    '''public String getUseWithSql()
+    '''returns String\n\n
+    getUseWithSql()\n
     '''
 def hasAFakeTreeNode():
-    '''public boolean hasAFakeTreeNode()
+    '''returns boolean\n\n
+    hasAFakeTreeNode()\n
     '''
 def setIsLookup():
-    '''public void setIsLookup(final boolean is)
+    '''returns None\n\n
+    setIsLookup(final boolean is)\n
     '''
 def isLookup():
-    '''public boolean isLookup()
+    '''returns boolean\n\n
+    isLookup()\n
     '''
 def getbjectNameForUseWith():
-    '''public String getbjectNameForUseWith()
+    '''returns String\n\n
+    getbjectNameForUseWith()\n
     '''
 def getoriginatingOrgId():
-    '''public String getoriginatingOrgId()
+    '''returns String\n\n
+    getoriginatingOrgId()\n
     '''
 def originatingSiteId():
-    '''public String originatingSiteId()
+    '''returns String\n\n
+    originatingSiteId()\n
     '''
 def setCheckIfClassUsedByObject():
-    '''public void setCheckIfClassUsedByObject(final boolean toSet)
+    '''returns None\n\n
+    setCheckIfClassUsedByObject(final boolean toSet)\n
     '''
 def getMaxAppsWhere():
-    '''public String getMaxAppsWhere()
+    '''returns String\n\n
+    getMaxAppsWhere()\n
     '''
 def qbeStartRemoved():
-    '''public String qbeStartRemoved(final String qbeStr)
+    '''returns String\n\n
+    qbeStartRemoved(final String qbeStr)\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def reprocessSortOrder():
-    '''public void reprocessSortOrder()
-    '''
-def SortableClassstructure():
-    '''public SortableClassstructure(final Integer id, final String parent, final Integer sortOrder)
+    '''returns None\n\n
+    reprocessSortOrder()\n
     '''
 def getId():
-    '''public Integer getId()
+    '''returns Integer\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Integer id)
+    '''returns None\n\n
+    setId(final Integer id)\n
     '''
 def setParent():
-    '''public void setParent(final String parent)
+    '''returns None\n\n
+    setParent(final String parent)\n
     '''
 def getSortOrder():
-    '''public Integer getSortOrder()
+    '''returns Integer\n\n
+    getSortOrder()\n
     '''
 def setSortOrder():
-    '''public void setSortOrder(final Integer sortOrder)
+    '''returns None\n\n
+    setSortOrder(final Integer sortOrder)\n
     '''
 def compareTo():
-    '''public int compareTo(final SortableClassstructure o)
+    '''returns int\n\n
+    compareTo(final SortableClassstructure o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

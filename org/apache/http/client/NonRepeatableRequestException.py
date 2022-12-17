@@ -1,5 +1,6 @@
-def NonRepeatableRequestException():
-    '''public NonRepeatableRequestException()
-    public NonRepeatableRequestException(final String message)
-    public NonRepeatableRequestException(final String message, final Throwable cause)
+def ():
+    '''returns NonRepeatableRequestException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

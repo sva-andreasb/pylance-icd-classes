@@ -1,3 +1,4 @@
 def alarm():
-    '''public void alarm(final Object alarmContext)
+    '''returns None\n\n
+    alarm(final Object alarmContext)\n
     '''

@@ -1,6 +1,8 @@
-def ContLeaseEndAsst():
-    '''public ContLeaseEndAsst(final MboSet ms)
+def ():
+    '''returns ContLeaseEndAsst\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

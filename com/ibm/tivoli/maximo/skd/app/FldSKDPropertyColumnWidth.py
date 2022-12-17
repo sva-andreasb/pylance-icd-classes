@@ -1,6 +1,8 @@
-def FldSKDPropertyColumnWidth():
-    '''public FldSKDPropertyColumnWidth(final MboValue mbv)
+def ():
+    '''returns FldSKDPropertyColumnWidth\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

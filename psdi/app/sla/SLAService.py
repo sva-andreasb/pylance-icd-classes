@@ -1,4 +1,5 @@
-def SLAService():
-    '''public SLAService()
-    public SLAService(final MXServer mxServer)
+def ():
+    '''returns SLAService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

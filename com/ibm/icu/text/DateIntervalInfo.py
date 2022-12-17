@@ -1,76 +1,64 @@
-def DateIntervalInfo():
-    '''public DateIntervalInfo()
-    public DateIntervalInfo(final ULocale locale)
-    public DateIntervalInfo(final Locale locale)
+def ():
+    '''returns PatternInfo\n\n
+    ()\n
+    (final ULocale locale)\n
+    (final String firstPart, final String secondPart, final boolean firstDateInPtnIsLaterDate)\n
     '''
 def setIntervalPattern():
-    '''public void setIntervalPattern(final String skeleton, final int lrgDiffCalUnit, final String intervalPattern)
-    '''
-def genPatternInfo():
-    '''public static PatternInfo genPatternInfo(final String intervalPattern, final boolean laterDateFirst)
+    '''returns None\n\n
+    setIntervalPattern(final String skeleton, final int lrgDiffCalUnit, final String intervalPattern)\n
     '''
 def getIntervalPattern():
-    '''public PatternInfo getIntervalPattern(final String skeleton, final int field)
+    '''returns PatternInfo\n\n
+    getIntervalPattern(final String skeleton, final int field)\n
     '''
 def getFallbackIntervalPattern():
-    '''public String getFallbackIntervalPattern()
+    '''returns String\n\n
+    getFallbackIntervalPattern()\n
     '''
 def setFallbackIntervalPattern():
-    '''public void setFallbackIntervalPattern(final String fallbackPattern)
+    '''returns None\n\n
+    setFallbackIntervalPattern(final String fallbackPattern)\n
     '''
 def getDefaultOrder():
-    '''public boolean getDefaultOrder()
+    '''returns boolean\n\n
+    getDefaultOrder()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
     '''
 def freeze():
-    '''public DateIntervalInfo freeze()
+    '''returns DateIntervalInfo\n\n
+    freeze()\n
     '''
 def cloneAsThawed():
-    '''public DateIntervalInfo cloneAsThawed()
+    '''returns DateIntervalInfo\n\n
+    cloneAsThawed()\n
     '''
 def equals():
-    '''public boolean equals(final Object a)
-    public boolean equals(final Object a)
+    '''returns boolean\n\n
+    equals(final Object a)\n
+    equals(final Object a)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    '''
-def getPatterns():
-    '''public Map<String, Set<String>> getPatterns()
-    '''
-def getRawPatterns():
-    '''public Map<String, Map<String, PatternInfo>> getRawPatterns()
-    '''
-def PatternInfo():
-    '''public PatternInfo(final String firstPart, final String secondPart, final boolean firstDateInPtnIsLaterDate)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def getFirstPart():
-    '''public String getFirstPart()
+    '''returns String\n\n
+    getFirstPart()\n
     '''
 def getSecondPart():
-    '''public String getSecondPart()
+    '''returns String\n\n
+    getSecondPart()\n
     '''
 def firstDateInPtnIsLaterDate():
-    '''public boolean firstDateInPtnIsLaterDate()
-    '''
-def toString():
-    '''public String toString()
-    '''
-def DateIntervalSink():
-    '''public DateIntervalSink(final DateIntervalInfo dateIntervalInfo)
-    '''
-def put():
-    '''public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
-    '''
-def processSkeletonTable():
-    '''public void processSkeletonTable(final UResource.Key key, final UResource.Value value)
-    '''
-def getAndResetNextCalendarType():
-    '''public String getAndResetNextCalendarType()
+    '''returns boolean\n\n
+    firstDateInPtnIsLaterDate()\n
     '''

@@ -1,56 +1,58 @@
 INCLUDE_MARKER = "String  \"INCLUDE-\""
-def AppDescriptor():
-    '''public AppDescriptor(final String appName, final Element el)
-    public AppDescriptor(final String appName)
-    '''
-def setPresentationElement():
-    '''public synchronized void setPresentationElement(final Element el)
-    '''
-def initialize():
-    '''public synchronized void initialize(final String appName, final WebClientSession wcs)
+def ():
+    '''returns AppDescriptor\n\n
+    (final String appName, final Element el)\n
+    (final String appName)\n
     '''
 def loadDialogEntity():
-    '''public void loadDialogEntity(final Element el, final String appName, final WebClientSession wcs)
+    '''returns None\n\n
+    loadDialogEntity(final Element el, final String appName, final WebClientSession wcs)\n
     '''
 def initializeControls():
-    '''public void initializeControls(final Element element)
+    '''returns None\n\n
+    initializeControls(final Element element)\n
     '''
 def getMainPage():
-    '''public Element getMainPage()
-    '''
-def getPageIndex():
-    '''public HashMap<String, Node> getPageIndex()
+    '''returns Element\n\n
+    getMainPage()\n
     '''
 def getRecHover():
-    '''public Element getRecHover(final String recHoverId, final WebClientSession wcs)
+    '''returns Element\n\n
+    getRecHover(final String recHoverId, final WebClientSession wcs)\n
     '''
 def getDialog():
-    '''public Element getDialog(final String dialogId, final WebClientSession wcs)
+    '''returns Element\n\n
+    getDialog(final String dialogId, final WebClientSession wcs)\n
     '''
 def bindAttribute():
-    '''public void bindAttribute(final String dataSrc, final String componentId)
+    '''returns None\n\n
+    bindAttribute(final String dataSrc, final String componentId)\n
     '''
 def getDataSrcBindList():
-    '''public List<String> getDataSrcBindList(final String dataSrc)
-    '''
-def getPresentationElement():
-    '''public synchronized Element getPresentationElement()
+    '''returns List<String>\n\n
+    getDataSrcBindList(final String dataSrc)\n
     '''
 def getMainPageOnDemand():
-    '''public Element getMainPageOnDemand()
+    '''returns Element\n\n
+    getMainPageOnDemand()\n
     '''
 def getTabElement():
-    '''public Element getTabElement(final String name)
+    '''returns Element\n\n
+    getTabElement(final String name)\n
     '''
 def getDefaultTab():
-    '''public String getDefaultTab()
+    '''returns String\n\n
+    getDefaultTab()\n
     '''
 def getAppType():
-    '''public String getAppType()
+    '''returns String\n\n
+    getAppType()\n
     '''
 def getEntityRelationshipModel():
-    '''public EntityRelationshipModel getEntityRelationshipModel()
+    '''returns EntityRelationshipModel\n\n
+    getEntityRelationshipModel()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

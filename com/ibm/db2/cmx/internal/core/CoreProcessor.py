@@ -1,35 +1,42 @@
 version_ = "int  1"
 def processRequest():
-    '''public Message processRequest(final Message message, final CMXConnection cmxConnection)
-    public Message processRequest(final Message message, final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse, final LogLookupInfo logLookupInfo)
+    '''returns Message\n\n
+    processRequest(final Message message, final CMXConnection cmxConnection)\n
+    processRequest(final Message message, final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse, final LogLookupInfo logLookupInfo)\n
     '''
 def processAsynchronousMessage():
-    '''public void processAsynchronousMessage(final Message message, final CMXConnection cmxConnection)
+    '''returns None\n\n
+    processAsynchronousMessage(final Message message, final CMXConnection cmxConnection)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getProcessorName():
-    '''public String getProcessorName()
+    '''returns String\n\n
+    getProcessorName()\n
     '''
 def checkForError():
-    '''public void checkForError(final Message message)
+    '''returns None\n\n
+    checkForError(final Message message)\n
     '''
 def createConnectToProcessorRequest():
-    '''public Message createConnectToProcessorRequest(final Processor processor)
-    '''
-def createErrorReply():
-    '''public static Message createErrorReply(final String s, final int i)
+    '''returns Message\n\n
+    createConnectToProcessorRequest(final Processor processor)\n
     '''
 def parseConnectReply():
-    '''public int parseConnectReply(final Message message)
+    '''returns int\n\n
+    parseConnectReply(final Message message)\n
     '''
 def getNegotiatedVersion():
-    '''public int getNegotiatedVersion(final int a)
+    '''returns int\n\n
+    getNegotiatedVersion(final int a)\n
     '''
 def processMessage():
-    '''public void processMessage(final Message message, final HttpServletRequest httpServletRequest)
+    '''returns None\n\n
+    processMessage(final Message message, final HttpServletRequest httpServletRequest)\n
     '''
 def invokeLogLookup():
-    '''public void invokeLogLookup(final LogLookupInfo logLookupInfo)
+    '''returns None\n\n
+    invokeLogLookup(final LogLookupInfo logLookupInfo)\n
     '''

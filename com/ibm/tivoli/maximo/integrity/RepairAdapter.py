@@ -1,3 +1,4 @@
-def RepairAdapter():
-    '''public RepairAdapter(final DatabaseInformation mdi)
+def ():
+    '''returns RepairAdapter\n\n
+    (final DatabaseInformation mdi)\n
     '''

@@ -1,25 +1,13 @@
-def BasePowerPlay8ReportActionEnumProp():
-    '''public BasePowerPlay8ReportActionEnumProp()
-    public BasePowerPlay8ReportActionEnumProp(final SchemaInfo schemaInfo, final BasePowerPlay8ReportActionEnum value)
+def ():
+    '''returns BasePowerPlay8ReportActionEnumProp\n\n
+    ()\n
+    (final SchemaInfo schemaInfo, final BasePowerPlay8ReportActionEnum value)\n
     '''
 def getValue():
-    '''public BasePowerPlay8ReportActionEnum getValue()
+    '''returns BasePowerPlay8ReportActionEnum\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final BasePowerPlay8ReportActionEnum value)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setValue(final BasePowerPlay8ReportActionEnum value)\n
     '''

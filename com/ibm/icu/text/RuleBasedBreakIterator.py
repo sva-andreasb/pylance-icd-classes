@@ -1,62 +1,84 @@
-def getInstanceFromCompiledRules():
-    '''public static RuleBasedBreakIterator getInstanceFromCompiledRules(final InputStream is)
-    public static RuleBasedBreakIterator getInstanceFromCompiledRules(final ByteBuffer bytes)
-    '''
-def RuleBasedBreakIterator():
-    '''public RuleBasedBreakIterator(final String rules)
+WORD_NONE = "int  0"
+WORD_NONE_LIMIT = "int  100"
+WORD_NUMBER = "int  100"
+WORD_NUMBER_LIMIT = "int  200"
+WORD_LETTER = "int  200"
+WORD_LETTER_LIMIT = "int  300"
+WORD_KANA = "int  300"
+WORD_KANA_LIMIT = "int  400"
+WORD_IDEO = "int  400"
+WORD_IDEO_LIMIT = "int  500"
+def ():
+    '''returns RuleBasedBreakIterator\n\n
+    ()\n
+    (final String rules)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object that)
+    '''returns boolean\n\n
+    equals(final Object that)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def dump():
-    '''public void dump(PrintStream out)
-    '''
-def compileRules():
-    '''public static void compileRules(final String rules, final OutputStream ruleBinary)
+    '''returns None\n\n
+    dump()\n
     '''
 def first():
-    '''public int first()
+    '''returns int\n\n
+    first()\n
     '''
 def last():
-    '''public int last()
+    '''returns int\n\n
+    last()\n
     '''
 def next():
-    '''public int next(int n)
-    public int next()
+    '''returns int\n\n
+    next(int n)\n
+    next()\n
     '''
 def previous():
-    '''public int previous()
+    '''returns int\n\n
+    previous()\n
     '''
 def following():
-    '''public int following(int startPos)
+    '''returns int\n\n
+    following(final int offset)\n
     '''
 def preceding():
-    '''public int preceding(final int offset)
+    '''returns int\n\n
+    preceding(final int offset)\n
     '''
 def isBoundary():
-    '''public boolean isBoundary(final int offset)
+    '''returns boolean\n\n
+    isBoundary(final int offset)\n
     '''
 def current():
-    '''public int current()
+    '''returns int\n\n
+    current()\n
     '''
 def getRuleStatus():
-    '''public int getRuleStatus()
+    '''returns int\n\n
+    getRuleStatus()\n
     '''
 def getRuleStatusVec():
-    '''public int getRuleStatusVec(final int[] fillInArray)
+    '''returns int\n\n
+    getRuleStatusVec(final int[] fillInArray)\n
     '''
 def getText():
-    '''public CharacterIterator getText()
+    '''returns CharacterIterator\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final CharacterIterator newText)
+    '''returns None\n\n
+    setText(final CharacterIterator newText)\n
     '''

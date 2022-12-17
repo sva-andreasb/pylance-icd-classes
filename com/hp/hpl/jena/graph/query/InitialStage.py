@@ -1,9 +1,12 @@
-def InitialStage():
-    '''public InitialStage(final int count)
+def ():
+    '''returns InitialStage\n\n
+    (final int count)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def deliver():
-    '''public Pipe deliver(final Pipe result)
+    '''returns Pipe\n\n
+    deliver(final Pipe result)\n
     '''

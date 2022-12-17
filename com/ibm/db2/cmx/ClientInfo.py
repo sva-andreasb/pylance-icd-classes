@@ -1,34 +1,45 @@
-def ClientInfo():
-    '''public ClientInfo(final String user_, final String workstation_, final String application_, final String accounting_, final String correlationToken_)
-    public ClientInfo(final String user_, final String workstation_, final String application_, final String accounting_)
+def ():
+    '''returns ClientInfo\n\n
+    (final String user_, final String workstation_, final String application_, final String accounting_, final String correlationToken_)\n
+    (final String user_, final String workstation_, final String application_, final String accounting_)\n
     '''
 def getNumFields():
-    '''public int getNumFields()
+    '''returns int\n\n
+    getNumFields()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def getWorkstation():
-    '''public String getWorkstation()
+    '''returns String\n\n
+    getWorkstation()\n
     '''
 def getApplication():
-    '''public String getApplication()
+    '''returns String\n\n
+    getApplication()\n
     '''
 def getAccounting():
-    '''public String getAccounting()
+    '''returns String\n\n
+    getAccounting()\n
     '''
 def getCorrelationToken():
-    '''public String getCorrelationToken()
+    '''returns String\n\n
+    getCorrelationToken()\n
     '''
 def getInfoString():
-    '''public String getInfoString(final int n)
+    '''returns String\n\n
+    getInfoString(final int n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

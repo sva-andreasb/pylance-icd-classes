@@ -1,66 +1,80 @@
-def getOption():
-    '''public <T> T getOption(final ChannelOption<T> option)
-    '''
-def setOption():
-    '''public <T> boolean setOption(final ChannelOption<T> option, final T value)
-    '''
 def isReuseAddress():
-    '''public boolean isReuseAddress()
+    '''returns boolean\n\n
+    isReuseAddress()\n
     '''
 def setReuseAddress():
-    '''public EpollServerChannelConfig setReuseAddress(final boolean reuseAddress)
+    '''returns EpollServerChannelConfig\n\n
+    setReuseAddress(final boolean reuseAddress)\n
     '''
 def getReceiveBufferSize():
-    '''public int getReceiveBufferSize()
+    '''returns int\n\n
+    getReceiveBufferSize()\n
     '''
 def setReceiveBufferSize():
-    '''public EpollServerChannelConfig setReceiveBufferSize(final int receiveBufferSize)
+    '''returns EpollServerChannelConfig\n\n
+    setReceiveBufferSize(final int receiveBufferSize)\n
     '''
 def getBacklog():
-    '''public int getBacklog()
+    '''returns int\n\n
+    getBacklog()\n
     '''
 def setBacklog():
-    '''public EpollServerChannelConfig setBacklog(final int backlog)
+    '''returns EpollServerChannelConfig\n\n
+    setBacklog(final int backlog)\n
     '''
 def getTcpFastopen():
-    '''public int getTcpFastopen()
+    '''returns int\n\n
+    getTcpFastopen()\n
     '''
 def setTcpFastopen():
-    '''public EpollServerChannelConfig setTcpFastopen(final int pendingFastOpenRequestsThreshold)
+    '''returns EpollServerChannelConfig\n\n
+    setTcpFastopen(final int pendingFastOpenRequestsThreshold)\n
     '''
 def setPerformancePreferences():
-    '''public EpollServerChannelConfig setPerformancePreferences(final int connectionTime, final int latency, final int bandwidth)
+    '''returns EpollServerChannelConfig\n\n
+    setPerformancePreferences(final int connectionTime, final int latency, final int bandwidth)\n
     '''
 def setConnectTimeoutMillis():
-    '''public EpollServerChannelConfig setConnectTimeoutMillis(final int connectTimeoutMillis)
+    '''returns EpollServerChannelConfig\n\n
+    setConnectTimeoutMillis(final int connectTimeoutMillis)\n
     '''
 def setMaxMessagesPerRead():
-    '''public EpollServerChannelConfig setMaxMessagesPerRead(final int maxMessagesPerRead)
+    '''returns EpollServerChannelConfig\n\n
+    setMaxMessagesPerRead(final int maxMessagesPerRead)\n
     '''
 def setWriteSpinCount():
-    '''public EpollServerChannelConfig setWriteSpinCount(final int writeSpinCount)
+    '''returns EpollServerChannelConfig\n\n
+    setWriteSpinCount(final int writeSpinCount)\n
     '''
 def setAllocator():
-    '''public EpollServerChannelConfig setAllocator(final ByteBufAllocator allocator)
+    '''returns EpollServerChannelConfig\n\n
+    setAllocator(final ByteBufAllocator allocator)\n
     '''
 def setRecvByteBufAllocator():
-    '''public EpollServerChannelConfig setRecvByteBufAllocator(final RecvByteBufAllocator allocator)
+    '''returns EpollServerChannelConfig\n\n
+    setRecvByteBufAllocator(final RecvByteBufAllocator allocator)\n
     '''
 def setAutoRead():
-    '''public EpollServerChannelConfig setAutoRead(final boolean autoRead)
+    '''returns EpollServerChannelConfig\n\n
+    setAutoRead(final boolean autoRead)\n
     '''
 def setWriteBufferHighWaterMark():
-    '''public EpollServerChannelConfig setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)
+    '''returns EpollServerChannelConfig\n\n
+    setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)\n
     '''
 def setWriteBufferLowWaterMark():
-    '''public EpollServerChannelConfig setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)
+    '''returns EpollServerChannelConfig\n\n
+    setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)\n
     '''
 def setWriteBufferWaterMark():
-    '''public EpollServerChannelConfig setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)
+    '''returns EpollServerChannelConfig\n\n
+    setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)\n
     '''
 def setMessageSizeEstimator():
-    '''public EpollServerChannelConfig setMessageSizeEstimator(final MessageSizeEstimator estimator)
+    '''returns EpollServerChannelConfig\n\n
+    setMessageSizeEstimator(final MessageSizeEstimator estimator)\n
     '''
 def setEpollMode():
-    '''public EpollServerChannelConfig setEpollMode(final EpollMode mode)
+    '''returns EpollServerChannelConfig\n\n
+    setEpollMode(final EpollMode mode)\n
     '''

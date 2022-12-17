@@ -20,351 +20,457 @@ PARAM_SCREENREADER = "String  \"screenreader\""
 PARAM_VERTICALLABEL = "String  \"verticallabel\""
 PARAM_LIGHTNING = "String  \"lightningportalmode\""
 RERENDER_PROPERTY = "String  \"rerenderenabled\""
-def ControlInstance():
-    '''public ControlInstance()
+def ():
+    '''returns ControlInstance\n\n
+    ()\n
     '''
 def getAdaptorInstance():
-    '''public ControlHandler getAdaptorInstance()
+    '''returns ControlHandler\n\n
+    getAdaptorInstance()\n
     '''
 def getElement():
-    '''public Element getElement()
+    '''returns Element\n\n
+    getElement()\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def parseParamvalues():
-    '''public Map<String, String> parseParamvalues()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setElement():
-    '''public void setElement(final Element element)
+    '''returns None\n\n
+    setElement(final Element element)\n
     '''
 def getProperty():
-    '''public String getProperty(final String key, final String defaultValue)
-    public String getProperty(final String key)
+    '''returns String\n\n
+    getProperty(final String key, final String defaultValue)\n
+    getProperty(final String key)\n
     '''
 def getPropertyIgnoreFlags():
-    '''public String getPropertyIgnoreFlags(final String key)
+    '''returns String\n\n
+    getPropertyIgnoreFlags(final String key)\n
     '''
 def getOriginalProperty():
-    '''public String getOriginalProperty(final String key)
+    '''returns String\n\n
+    getOriginalProperty(final String key)\n
     '''
 def findProperty():
-    '''public String findProperty(final String key)
+    '''returns String\n\n
+    findProperty(final String key)\n
     '''
 def setPropertyUncle():
-    '''public ControlInstance setPropertyUncle(final ControlInstance newUncle)
+    '''returns ControlInstance\n\n
+    setPropertyUncle(final ControlInstance newUncle)\n
     '''
 def registerDesignerEditedProperty():
-    '''public void registerDesignerEditedProperty(final String propName)
+    '''returns None\n\n
+    registerDesignerEditedProperty(final String propName)\n
     '''
 def isDesignerEditedProperty():
-    '''public boolean isDesignerEditedProperty(final String propName)
+    '''returns boolean\n\n
+    isDesignerEditedProperty(final String propName)\n
     '''
 def isPersistentProperty():
-    '''public boolean isPersistentProperty(final String propName)
+    '''returns boolean\n\n
+    isPersistentProperty(final String propName)\n
     '''
 def errorLevelChanged():
-    '''public boolean errorLevelChanged()
+    '''returns boolean\n\n
+    errorLevelChanged()\n
     '''
 def hasChanged():
-    '''public boolean hasChanged()
+    '''returns boolean\n\n
+    hasChanged()\n
     '''
 def setChangedFlag():
-    '''public void setChangedFlag()
-    public void setChangedFlag(final boolean flag)
+    '''returns None\n\n
+    setChangedFlag()\n
+    setChangedFlag(final boolean flag)\n
     '''
 def getComponents():
-    '''public List<ComponentInstance> getComponents()
+    '''returns List<ComponentInstance>\n\n
+    getComponents()\n
     '''
 def addComponent():
-    '''public void addComponent(final ComponentInstance component)
+    '''returns None\n\n
+    addComponent(final ComponentInstance component)\n
     '''
 def reInitialize():
-    '''public void reInitialize()
+    '''returns None\n\n
+    reInitialize()\n
     '''
 def preRender():
-    '''public boolean preRender()
+    '''returns boolean\n\n
+    preRender()\n
     '''
 def preRenderChecks():
-    '''public void preRenderChecks()
+    '''returns None\n\n
+    preRenderChecks()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def eventCheck():
-    '''public void eventCheck()
+    '''returns None\n\n
+    eventCheck()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean disabled)
+    '''returns None\n\n
+    setDisabled(final boolean disabled)\n
     '''
 def hasChildElements():
-    '''public boolean hasChildElements()
+    '''returns boolean\n\n
+    hasChildElements()\n
     '''
 def handleEvent():
-    '''public int handleEvent(final WebClientEvent event)
+    '''returns int\n\n
+    handleEvent(final WebClientEvent event)\n
     '''
 def broadcastEvent():
-    '''public int broadcastEvent(final WebClientEvent event)
+    '''returns int\n\n
+    broadcastEvent(final WebClientEvent event)\n
     '''
 def getComponent():
-    '''public ComponentInstance getComponent(final String id)
+    '''returns ComponentInstance\n\n
+    getComponent(final String id)\n
     '''
 def renderChildren():
-    '''public void renderChildren()
+    '''returns None\n\n
+    renderChildren()\n
     '''
 def setNeedsRender():
-    '''public void setNeedsRender(final boolean needsRender)
+    '''returns None\n\n
+    setNeedsRender(final boolean needsRender)\n
     '''
 def needsRender():
-    '''public boolean needsRender()
+    '''returns boolean\n\n
+    needsRender()\n
     '''
 def setFocus():
-    '''public void setFocus()
-    public void setFocus(final String id)
+    '''returns None\n\n
+    setFocus()\n
+    setFocus(final String id)\n
     '''
 def setFocusTable():
-    '''public void setFocusTable()
+    '''returns None\n\n
+    setFocusTable()\n
     '''
 def clearComponent():
-    '''public void clearComponent()
+    '''returns None\n\n
+    clearComponent()\n
     '''
 def copy():
-    '''public Object copy(final String newId)
+    '''returns Object\n\n
+    copy(final String newId)\n
     '''
 def getDesignerProperty():
-    '''public String getDesignerProperty(final String key, final Element el)
+    '''returns String\n\n
+    getDesignerProperty(final String key, final Element el)\n
     '''
 def findDesignerProperty():
-    '''public String findDesignerProperty(final String key, final Element el)
+    '''returns String\n\n
+    findDesignerProperty(final String key, final Element el)\n
     '''
 def setTableControl():
-    '''public void setTableControl(final Table table)
+    '''returns None\n\n
+    setTableControl(final Table table)\n
     '''
 def getTableControl():
-    '''public Table getTableControl()
+    '''returns Table\n\n
+    getTableControl()\n
     '''
 def setOnTableRow():
-    '''public void setOnTableRow()
+    '''returns None\n\n
+    setOnTableRow()\n
     '''
 def setOnTableFilterRow():
-    '''public void setOnTableFilterRow()
+    '''returns None\n\n
+    setOnTableFilterRow()\n
     '''
 def isOnTableFilterRow():
-    '''public boolean isOnTableFilterRow()
+    '''returns boolean\n\n
+    isOnTableFilterRow()\n
     '''
 def setOnTableTitleRow():
-    '''public void setOnTableTitleRow()
+    '''returns None\n\n
+    setOnTableTitleRow()\n
     '''
 def isOnTableTitleRow():
-    '''public boolean isOnTableTitleRow()
+    '''returns boolean\n\n
+    isOnTableTitleRow()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def isSelected():
-    '''public boolean isSelected()
+    '''returns boolean\n\n
+    isSelected()\n
     '''
 def setSelected():
-    '''public void setSelected(final boolean selected)
+    '''returns None\n\n
+    setSelected(final boolean selected)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def hasVisibleChildren():
-    '''public boolean hasVisibleChildren()
+    '''returns boolean\n\n
+    hasVisibleChildren()\n
     '''
 def isFirstChildVisible():
-    '''public boolean isFirstChildVisible()
+    '''returns boolean\n\n
+    isFirstChildVisible()\n
     '''
 def launchexternal():
-    '''public int launchexternal()
+    '''returns int\n\n
+    launchexternal()\n
     '''
 def isMasked():
-    '''public boolean isMasked()
+    '''returns boolean\n\n
+    isMasked()\n
     '''
 def isDisabled():
-    '''public boolean isDisabled()
+    '''returns boolean\n\n
+    isDisabled()\n
     '''
 def setVisibility():
-    '''public void setVisibility(final boolean visible)
+    '''returns None\n\n
+    setVisibility(final boolean visible)\n
     '''
 def hasMaskedChanged():
-    '''public boolean hasMaskedChanged()
+    '''returns boolean\n\n
+    hasMaskedChanged()\n
     '''
 def setGeneratedControl():
-    '''public void setGeneratedControl(final ControlInstance generated)
+    '''returns None\n\n
+    setGeneratedControl(final ControlInstance generated)\n
     '''
 def getGeneratedControl():
-    '''public ControlInstance getGeneratedControl()
+    '''returns ControlInstance\n\n
+    getGeneratedControl()\n
     '''
 def setOriginalControl():
-    '''public void setOriginalControl(final ControlInstance original)
+    '''returns None\n\n
+    setOriginalControl(final ControlInstance original)\n
     '''
 def getOriginalControl():
-    '''public ControlInstance getOriginalControl()
+    '''returns ControlInstance\n\n
+    getOriginalControl()\n
     '''
 def setDesignerSelected():
-    '''public ControlInstance setDesignerSelected(final boolean selected)
+    '''returns ControlInstance\n\n
+    setDesignerSelected(final boolean selected)\n
     '''
 def getDesignerSelected():
-    '''public boolean getDesignerSelected()
+    '''returns boolean\n\n
+    getDesignerSelected()\n
     '''
 def getDesignerSelectedControl():
-    '''public ControlInstance getDesignerSelectedControl()
+    '''returns ControlInstance\n\n
+    getDesignerSelectedControl()\n
     '''
 def canInsert():
-    '''public boolean canInsert(final ControlInstance newControl)
-    public boolean canInsert()
+    '''returns boolean\n\n
+    canInsert(final ControlInstance newControl)\n
+    canInsert()\n
     '''
 def canRemove():
-    '''public boolean canRemove()
+    '''returns boolean\n\n
+    canRemove()\n
     '''
 def getDescriptorControl():
-    '''public ControlInstance getDescriptorControl()
+    '''returns ControlInstance\n\n
+    getDescriptorControl()\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def isReInitialize():
-    '''public boolean isReInitialize()
+    '''returns boolean\n\n
+    isReInitialize()\n
     '''
 def setReInitialize():
-    '''public void setReInitialize(final boolean reInitialize)
+    '''returns None\n\n
+    setReInitialize(final boolean reInitialize)\n
     '''
 def removeChild():
-    '''public void removeChild(final ControlInstance child)
+    '''returns None\n\n
+    removeChild(final ControlInstance child)\n
     '''
 def moveChild():
-    '''public void moveChild(final ControlInstance child, int index)
+    '''returns None\n\n
+    moveChild(final ControlInstance child, int index)\n
     '''
 def isGenerated():
-    '''public boolean isGenerated()
+    '''returns boolean\n\n
+    isGenerated()\n
     '''
 def setGenerated():
-    '''public void setGenerated(final boolean generated)
+    '''returns None\n\n
+    setGenerated(final boolean generated)\n
     '''
 def addChild():
-    '''public void addChild(final ControlInstance child, final int index)
+    '''returns None\n\n
+    addChild(final ControlInstance child, final int index)\n
     '''
 def getSkipPreRender():
-    '''public boolean getSkipPreRender()
+    '''returns boolean\n\n
+    getSkipPreRender()\n
     '''
 def setSkipPreRender():
-    '''public void setSkipPreRender(final boolean skip)
+    '''returns None\n\n
+    setSkipPreRender(final boolean skip)\n
     '''
 def resolveParams():
-    '''public String resolveParams(String value)
+    '''returns String\n\n
+    resolveParams(String value)\n
     '''
 def resolveParam():
-    '''public String resolveParam(String param)
+    '''returns String\n\n
+    resolveParam(String param)\n
     '''
 def walkForId():
-    '''public String walkForId(final String baseType)
-    public String walkForId(final String baseType, final String prop, final String proValue)
+    '''returns String\n\n
+    walkForId(final String baseType)\n
+    walkForId(final String baseType, final String prop, final String proValue)\n
     '''
 def quickinsert():
-    '''public int quickinsert()
+    '''returns int\n\n
+    quickinsert()\n
     '''
 def isToBeDisplayedOnCurrentTab():
-    '''public boolean isToBeDisplayedOnCurrentTab(final String tabDisplay)
-    '''
-def isToBeDisplayedOnTab():
-    '''public static boolean isToBeDisplayedOnTab(final String tabToCheck, String tabDisplay)
+    '''returns boolean\n\n
+    isToBeDisplayedOnCurrentTab(final String tabDisplay)\n
     '''
 def setBoundComponent():
-    '''public void setBoundComponent(final BoundComponentInstance boundComponent)
+    '''returns None\n\n
+    setBoundComponent(final BoundComponentInstance boundComponent)\n
     '''
 def getBoundComponent():
-    '''public BoundComponentInstance getBoundComponent()
+    '''returns BoundComponentInstance\n\n
+    getBoundComponent()\n
     '''
 def setReRenderFlags():
-    '''public void setReRenderFlags()
+    '''returns None\n\n
+    setReRenderFlags()\n
     '''
 def getProperties():
-    '''public ControlProperties getProperties()
+    '''returns ControlProperties\n\n
+    getProperties()\n
     '''
 def getDataSource():
-    '''public String getDataSource()
+    '''returns String\n\n
+    getDataSource()\n
     '''
 def resetDataSource():
-    '''public void resetDataSource(final String value)
+    '''returns None\n\n
+    resetDataSource(final String value)\n
     '''
 def getDataBean():
-    '''public DataBean getDataBean()
+    '''returns DataBean\n\n
+    getDataBean()\n
     '''
 def setIncluded():
-    '''public void setIncluded()
-    public void setIncluded(final boolean included)
+    '''returns None\n\n
+    setIncluded()\n
+    setIncluded(final boolean included)\n
     '''
 def isIncluded():
-    '''public boolean isIncluded()
+    '''returns boolean\n\n
+    isIncluded()\n
     '''
 def getPropertyUncle():
-    '''public ControlInstance getPropertyUncle()
+    '''returns ControlInstance\n\n
+    getPropertyUncle()\n
     '''
 def isHiddenByLicense():
-    '''public boolean isHiddenByLicense()
+    '''returns boolean\n\n
+    isHiddenByLicense()\n
     '''
 def isLastChild():
-    '''public boolean isLastChild(final ControlInstance child)
+    '''returns boolean\n\n
+    isLastChild(final ControlInstance child)\n
     '''
 def setAttributeError():
-    '''public void setAttributeError(final UIERMBoundControl boundControl, final ERMAttributeError error)
+    '''returns None\n\n
+    setAttributeError(final UIERMBoundControl boundControl, final ERMAttributeError error)\n
     '''
 def childHasError():
-    '''public void childHasError(final BoundComponentInstance childWIthError, final SetValueError newError)
+    '''returns None\n\n
+    childHasError(final BoundComponentInstance childWIthError, final SetValueError newError)\n
     '''
 def getErrorLevel():
-    '''public int getErrorLevel()
+    '''returns int\n\n
+    getErrorLevel()\n
     '''
 def clearErrors():
-    '''public void clearErrors()
+    '''returns None\n\n
+    clearErrors()\n
     '''
 def childHasErrorFocus():
-    '''public void childHasErrorFocus()
+    '''returns None\n\n
+    childHasErrorFocus()\n
     '''
 def setErrorFocusOnControl():
-    '''public void setErrorFocusOnControl(final UIERMBoundControl ermControl, final int mboIndex)
+    '''returns None\n\n
+    setErrorFocusOnControl(final UIERMBoundControl ermControl, final int mboIndex)\n
     '''
 def hasChangedConditionally():
-    '''public boolean hasChangedConditionally(final String property)
+    '''returns boolean\n\n
+    hasChangedConditionally(final String property)\n
     '''
 def stopRender():
-    '''public boolean stopRender()
+    '''returns boolean\n\n
+    stopRender()\n
     '''
 def setPropertyOriginator():
-    '''public void setPropertyOriginator(final ControlInstance control)
+    '''returns None\n\n
+    setPropertyOriginator(final ControlInstance control)\n
     '''
 def getPropertyOriginator():
-    '''public ControlInstance getPropertyOriginator()
+    '''returns ControlInstance\n\n
+    getPropertyOriginator()\n
     '''
 def getTakesValueComponent():
-    '''public BoundComponentInstance getTakesValueComponent(final String attribute)
+    '''returns BoundComponentInstance\n\n
+    getTakesValueComponent(final String attribute)\n
     '''
 def findComponentByDescriptorId():
-    '''public ComponentInstance findComponentByDescriptorId(final String componentId)
+    '''returns ComponentInstance\n\n
+    findComponentByDescriptorId(final String componentId)\n
     '''
 def findUseForLablledByComponent():
-    '''public ComponentInstance findUseForLablledByComponent()
+    '''returns ComponentInstance\n\n
+    findUseForLablledByComponent()\n
     '''
 def getRecordHover():
-    '''public Element getRecordHover()
+    '''returns Element\n\n
+    getRecordHover()\n
     '''
 def hasRecordHover():
-    '''public boolean hasRecordHover(final ComponentInstance component)
+    '''returns boolean\n\n
+    hasRecordHover(final ComponentInstance component)\n
     '''
 def isMainrecActionMenu():
-    '''public boolean isMainrecActionMenu()
+    '''returns boolean\n\n
+    isMainrecActionMenu()\n
     '''
 def createRenderId():
-    '''public String createRenderId(final String id, final PageInstance page)
+    '''returns String\n\n
+    createRenderId(final String id, final PageInstance page)\n
     '''
 def isFocusable():
-    '''public boolean isFocusable()
+    '''returns boolean\n\n
+    isFocusable()\n
     '''
 def setFocusable():
-    '''public void setFocusable(final boolean focusable)
+    '''returns None\n\n
+    setFocusable(final boolean focusable)\n
     '''
 def getConditonallyChanged():
-    '''public ArrayList<String> getConditonallyChanged()
+    '''returns ArrayList<String>\n\n
+    getConditonallyChanged()\n
     '''

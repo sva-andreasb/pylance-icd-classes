@@ -1,3 +1,4 @@
-def IlvFacesGanttSheetSelectionSupport():
-    '''public IlvFacesGanttSheetSelectionSupport(final IlvGanttServletSupport ilvGanttServletSupport)
+def ():
+    '''returns IlvFacesGanttSheetSelectionSupport\n\n
+    (final IlvGanttServletSupport ilvGanttServletSupport)\n
     '''

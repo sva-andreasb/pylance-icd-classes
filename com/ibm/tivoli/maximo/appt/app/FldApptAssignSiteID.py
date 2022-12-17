@@ -1,3 +1,4 @@
-def FldApptAssignSiteID():
-    '''public FldApptAssignSiteID(final MboValue mbv)
+def ():
+    '''returns FldApptAssignSiteID\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,6 +1,8 @@
-def FldAssetSwapNewReplaceAssetNum():
-    '''public FldAssetSwapNewReplaceAssetNum(final MboValue mbv)
+def ():
+    '''returns FldAssetSwapNewReplaceAssetNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

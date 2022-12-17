@@ -1,81 +1,88 @@
 def isAPICall():
-    '''public boolean isAPICall()
+    '''returns boolean\n\n
+    isAPICall()\n
     '''
 def isMonitorTokenAPICall():
-    '''public boolean isMonitorTokenAPICall()
+    '''returns boolean\n\n
+    isMonitorTokenAPICall()\n
     '''
 def getAPICsrfToken():
-    '''public String getAPICsrfToken()
+    '''returns String\n\n
+    getAPICsrfToken()\n
     '''
 def setAPICsrfToken():
-    '''public void setAPICsrfToken(final String csrfToken)
+    '''returns None\n\n
+    setAPICsrfToken(final String csrfToken)\n
     '''
 def setupBranchFilter():
-    '''public void setupBranchFilter(final String name, final Long id)
-    '''
-def getBranchFilter():
-    '''public Map<String, Set<Long>> getBranchFilter()
+    '''returns None\n\n
+    setupBranchFilter(final String name, final Long id)\n
     '''
 def setAPICall():
-    '''public void setAPICall()
-    '''
-def getProperties():
-    '''public Map<String, Object> getProperties()
+    '''returns None\n\n
+    setAPICall()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String propName)
+    '''returns Object\n\n
+    getProperty(final String propName)\n
     '''
 def getStringProperty():
-    '''public String getStringProperty(final String propName)
+    '''returns String\n\n
+    getStringProperty(final String propName)\n
     '''
 def getIntegerProperty():
-    '''public Integer getIntegerProperty(final String propName)
+    '''returns Integer\n\n
+    getIntegerProperty(final String propName)\n
     '''
 def getBooleanProperty():
-    '''public boolean getBooleanProperty(final String propName, final boolean dflt)
+    '''returns boolean\n\n
+    getBooleanProperty(final String propName, final boolean dflt)\n
     '''
 def getLongProperty():
-    '''public Long getLongProperty(final String propName)
+    '''returns Long\n\n
+    getLongProperty(final String propName)\n
     '''
 def setLongProperty():
-    '''public void setLongProperty(final String propName, final long val)
+    '''returns None\n\n
+    setLongProperty(final String propName, final long val)\n
     '''
 def setIntegerProperty():
-    '''public void setIntegerProperty(final String propName, final int val)
+    '''returns None\n\n
+    setIntegerProperty(final String propName, final int val)\n
     '''
 def setDoubleProperty():
-    '''public void setDoubleProperty(final String propName, final double val)
+    '''returns None\n\n
+    setDoubleProperty(final String propName, final double val)\n
     '''
 def getDoubleProperty():
-    '''public Double getDoubleProperty(final String propName)
+    '''returns Double\n\n
+    getDoubleProperty(final String propName)\n
     '''
 def getDateProperty():
-    '''public Date getDateProperty(final String propName)
+    '''returns Date\n\n
+    getDateProperty(final String propName)\n
     '''
 def setProperty():
-    '''public void setProperty(final String propName, final Object value)
+    '''returns None\n\n
+    setProperty(final String propName, final Object value)\n
     '''
 def removeProperty():
-    '''public void removeProperty(final String propName)
+    '''returns None\n\n
+    removeProperty(final String propName)\n
     '''
 def setProperties():
-    '''public void setProperties(final Map<String, Object> data)
-    '''
-def getCurrentContext():
-    '''public static IntegrationContext getCurrentContext()
-    '''
-def createCurrentContext():
-    '''public static IntegrationContext createCurrentContext()
-    '''
-def destroyCurrentContext():
-    '''public static void destroyCurrentContext()
+    '''returns None\n\n
+    setProperties(final Map<String, Object> data)\n
     '''
 def softClearContext():
-    '''public void softClearContext()
+    '''returns None\n\n
+    softClearContext()\n
     '''
 def setInteractive():
-    '''public void setInteractive(final boolean b)
+    '''returns None\n\n
+    setInteractive(final boolean b)\n
     '''
 def isInteractive():
-    '''public boolean isInteractive()
+    '''returns boolean\n\n
+    isInteractive()\n
     '''

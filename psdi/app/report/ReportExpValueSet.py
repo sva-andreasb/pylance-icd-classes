@@ -1,6 +1,8 @@
-def ReportExpValueSet():
-    '''public ReportExpValueSet(final MboServerInterface ms)
+def ():
+    '''returns ReportExpValueSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def save():
-    '''public void save(final long flags)
+    '''returns None\n\n
+    save(final long flags)\n
     '''

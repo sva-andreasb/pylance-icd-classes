@@ -1,3 +1,4 @@
 def build():
-    '''public Query build(final QueryNode queryNode)
+    '''returns Query\n\n
+    build(final QueryNode queryNode)\n
     '''

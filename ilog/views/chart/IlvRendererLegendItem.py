@@ -1,9 +1,8 @@
-def IlvRendererLegendItem():
-    '''public IlvRendererLegendItem(final IlvChartRenderer a)
-    '''
-def getRenderer():
-    '''public final IlvChartRenderer getRenderer()
+def ():
+    '''returns IlvRendererLegendItem\n\n
+    (final IlvChartRenderer a)\n
     '''
 def drawSymbol():
-    '''public void drawSymbol(final Graphics graphics, final Rectangle rectangle)
+    '''returns None\n\n
+    drawSymbol(final Graphics graphics, final Rectangle rectangle)\n
     '''

@@ -5,136 +5,173 @@ EXT_OORT_SECRET_FIELD = "String  \"oortSecret\""
 EXT_COMET_URL_FIELD = "String  \"cometURL\""
 EXT_OORT_ALIAS_URL_FIELD = "String  \"oortAliasURL\""
 OORT_CLOUD_CHANNEL = "String  \"/oort/cloud\""
-def Oort():
-    '''public Oort(final BayeuxServer bayeux, final String url)
+def ():
+    '''returns Event\n\n
+    (final BayeuxServer bayeux, final String url)\n
+    (final String cometURL, final String remoteOortId)\n
+    (final Oort source, final String cometURL)\n
     '''
 def configureChannel():
-    '''public void configureChannel(final ConfigurableServerChannel channel)
+    '''returns None\n\n
+    configureChannel(final ConfigurableServerChannel channel)\n
     '''
 def getBayeuxServer():
-    '''public BayeuxServer getBayeuxServer()
+    '''returns BayeuxServer\n\n
+    getBayeuxServer()\n
     '''
 def getURL():
-    '''public String getURL()
-    public String getURL()
+    '''returns String\n\n
+    getURL()\n
+    getURL()\n
     '''
 def getId():
-    '''public String getId()
-    public String getId()
+    '''returns String\n\n
+    getId()\n
+    getId()\n
     '''
 def getSecret():
-    '''public String getSecret()
+    '''returns String\n\n
+    getSecret()\n
     '''
 def setSecret():
-    '''public void setSecret(final String secret)
+    '''returns None\n\n
+    setSecret(final String secret)\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def setDebugEnabled():
-    '''public void setDebugEnabled(final boolean debug)
+    '''returns None\n\n
+    setDebugEnabled(final boolean debug)\n
     '''
 def isClientDebugEnabled():
-    '''public boolean isClientDebugEnabled()
+    '''returns boolean\n\n
+    isClientDebugEnabled()\n
     '''
 def setClientDebugEnabled():
-    '''public void setClientDebugEnabled(final boolean clientDebugEnabled)
+    '''returns None\n\n
+    setClientDebugEnabled(final boolean clientDebugEnabled)\n
     '''
 def observeComet():
-    '''public OortComet observeComet(final String cometURL)
+    '''returns OortComet\n\n
+    observeComet(final String cometURL)\n
     '''
 def deobserveComet():
-    '''public OortComet deobserveComet(final String cometURL)
+    '''returns OortComet\n\n
+    deobserveComet(final String cometURL)\n
     '''
 def getKnownComets():
-    '''public Set<String> getKnownComets()
+    '''returns Set<String>\n\n
+    getKnownComets()\n
     '''
 def getComet():
-    '''public OortComet getComet(final String cometURL)
+    '''returns OortComet\n\n
+    getComet(final String cometURL)\n
     '''
 def observeChannel():
-    '''public void observeChannel(final String channelName)
+    '''returns None\n\n
+    observeChannel(final String channelName)\n
     '''
 def deobserveChannel():
-    '''public void deobserveChannel(final String channelId)
+    '''returns None\n\n
+    deobserveChannel(final String channelId)\n
     '''
 def isOort():
-    '''public boolean isOort(final ServerSession session)
+    '''returns boolean\n\n
+    isOort(final ServerSession session)\n
     '''
 def isOortHandshake():
-    '''public boolean isOortHandshake(final Message handshake)
+    '''returns boolean\n\n
+    isOortHandshake(final Message handshake)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def addCometListener():
-    '''public void addCometListener(final CometListener listener)
+    '''returns None\n\n
+    addCometListener(final CometListener listener)\n
     '''
 def removeCometListener():
-    '''public void removeCometListener(final CometListener listener)
+    '''returns None\n\n
+    removeCometListener(final CometListener listener)\n
     '''
 def setThreadPool():
-    '''public void setThreadPool(final ThreadPool threadPool)
+    '''returns None\n\n
+    setThreadPool(final ThreadPool threadPool)\n
     '''
 def getThreadPool():
-    '''public ThreadPool getThreadPool()
+    '''returns ThreadPool\n\n
+    getThreadPool()\n
     '''
 def getWebSocketClientFactory():
-    '''public WebSocketClientFactory getWebSocketClientFactory()
+    '''returns WebSocketClientFactory\n\n
+    getWebSocketClientFactory()\n
     '''
 def setWebSocketClientFactory():
-    '''public void setWebSocketClientFactory(final WebSocketClientFactory wsFactory)
+    '''returns None\n\n
+    setWebSocketClientFactory(final WebSocketClientFactory wsFactory)\n
     '''
 def getHttpClient():
-    '''public HttpClient getHttpClient()
+    '''returns HttpClient\n\n
+    getHttpClient()\n
     '''
 def setHttpClient():
-    '''public void setHttpClient(final HttpClient httpClient)
+    '''returns None\n\n
+    setHttpClient(final HttpClient httpClient)\n
     '''
 def getObservedChannels():
-    '''public Set<String> getObservedChannels()
+    '''returns Set<String>\n\n
+    getObservedChannels()\n
     '''
 def getOortSession():
-    '''public LocalSession getOortSession()
+    '''returns LocalSession\n\n
+    getOortSession()\n
     '''
 def rcv():
-    '''public boolean rcv(final ServerSession from, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    rcv(final ServerSession from, final ServerMessage.Mutable message)\n
     '''
 def rcvMeta():
-    '''public boolean rcvMeta(final ServerSession from, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    rcvMeta(final ServerSession from, final ServerMessage.Mutable message)\n
     '''
 def send():
-    '''public boolean send(final ServerSession from, final ServerSession to, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    send(final ServerSession from, final ServerSession to, final ServerMessage.Mutable message)\n
     '''
 def sendMeta():
-    '''public boolean sendMeta(final ServerSession to, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    sendMeta(final ServerSession to, final ServerMessage.Mutable message)\n
     '''
 def onMessage():
-    '''public boolean onMessage(final ServerSession from, final ServerChannel channel, final ServerMessage.Mutable message)
-    public boolean onMessage(final ServerSession to, final ServerSession from, final ServerMessage message)
-    public void onMessage(final ClientSessionChannel channel, final Message message)
-    '''
-def OortCometDisconnectListener():
-    '''public OortCometDisconnectListener(final String cometURL, final String remoteOortId)
+    '''returns None\n\n
+    onMessage(final ServerSession from, final ServerChannel channel, final ServerMessage.Mutable message)\n
+    onMessage(final ServerSession to, final ServerSession from, final ServerMessage message)\n
+    onMessage(final ClientSessionChannel channel, final Message message)\n
     '''
 def removed():
-    '''public void removed(final ServerSession session, final boolean timeout)
+    '''returns None\n\n
+    removed(final ServerSession session, final boolean timeout)\n
     '''
 def getServerSession():
-    '''public ServerSession getServerSession()
+    '''returns ServerSession\n\n
+    getServerSession()\n
     '''
 def getOortComet():
-    '''public OortComet getOortComet()
+    '''returns OortComet\n\n
+    getOortComet()\n
     '''
 def addAliasURL():
-    '''public void addAliasURL(final String url)
+    '''returns None\n\n
+    addAliasURL(final String url)\n
     '''
 def matchesURL():
-    '''public boolean matchesURL(final String url)
-    '''
-def Event():
-    '''public Event(final Oort source, final String cometURL)
+    '''returns boolean\n\n
+    matchesURL(final String url)\n
     '''
 def getCometURL():
-    '''public String getCometURL()
+    '''returns String\n\n
+    getCometURL()\n
     '''

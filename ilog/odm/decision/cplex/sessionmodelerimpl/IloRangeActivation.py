@@ -1,14 +1,18 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloRangeActivation():
-    '''public IloRangeActivation()
-    public IloRangeActivation(final IloCplex cplex)
+def ():
+    '''returns IloRangeActivation\n\n
+    ()\n
+    (final IloCplex cplex)\n
     '''
 def setSharedScope():
-    '''public void setSharedScope(final IloRangeActivation sharedScope)
+    '''returns None\n\n
+    setSharedScope(final IloRangeActivation sharedScope)\n
     '''
 def deactivateRange():
-    '''public void deactivateRange(final IloConstraint range)
+    '''returns None\n\n
+    deactivateRange(final IloConstraint range)\n
     '''
 def reactivateRange():
-    '''public void reactivateRange(final IloConstraint range)
+    '''returns None\n\n
+    reactivateRange(final IloConstraint range)\n
     '''

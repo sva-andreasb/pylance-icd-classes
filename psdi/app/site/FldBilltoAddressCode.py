@@ -1,12 +1,16 @@
-def FldBilltoAddressCode():
-    '''public FldBilltoAddressCode(final MboValue mbv)
+def ():
+    '''returns FldBilltoAddressCode\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

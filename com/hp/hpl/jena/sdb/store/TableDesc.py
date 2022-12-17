@@ -1,23 +1,30 @@
-def TableDesc():
-    '''public TableDesc(final String tableName)
-    public TableDesc(final String tableName, final String... colNames)
-    public TableDesc(final String tableName, final List<String> colNames)
+def ():
+    '''returns TableDesc\n\n
+    (final String tableName)\n
+    (final String tableName, final String... colNames)\n
+    (final String tableName, final List<String> colNames)\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def hasColumn():
-    '''public boolean hasColumn(final String colName)
+    '''returns boolean\n\n
+    hasColumn(final String colName)\n
     '''
 def getColNames():
-    '''public List<String> getColNames()
+    '''returns List<String>\n\n
+    getColNames()\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def colNames():
-    '''public Iterator<String> colNames()
+    '''returns Iterator<String>\n\n
+    colNames()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

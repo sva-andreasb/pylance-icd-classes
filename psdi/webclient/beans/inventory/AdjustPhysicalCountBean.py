@@ -1,9 +1,12 @@
-def AdjustPhysicalCountBean():
-    '''public AdjustPhysicalCountBean()
+def ():
+    '''returns AdjustPhysicalCountBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def refreshcountdate():
-    '''public int refreshcountdate()
+    '''returns int\n\n
+    refreshcountdate()\n
     '''

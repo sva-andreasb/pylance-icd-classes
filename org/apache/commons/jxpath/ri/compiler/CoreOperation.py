@@ -1,9 +1,12 @@
-def CoreOperation():
-    '''public CoreOperation(final Expression[] args)
+def ():
+    '''returns CoreOperation\n\n
+    (final Expression[] args)\n
     '''
 def compute():
-    '''public Object compute(final EvalContext context)
+    '''returns Object\n\n
+    compute(final EvalContext context)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

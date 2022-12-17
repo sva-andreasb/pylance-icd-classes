@@ -1,6 +1,8 @@
-def FldSKDActGanttPropShowTable():
-    '''public FldSKDActGanttPropShowTable(final MboValue mbv)
+def ():
+    '''returns FldSKDActGanttPropShowTable\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

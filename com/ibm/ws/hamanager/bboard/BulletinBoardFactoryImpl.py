@@ -1,6 +1,8 @@
-def BulletinBoardFactoryImpl():
-    '''public BulletinBoardFactoryImpl(final LocalBulletinBoardStateManager bboardManager)
+def ():
+    '''returns BulletinBoardFactoryImpl\n\n
+    (final LocalBulletinBoardStateManager bboardManager)\n
     '''
 def findBulletinBoard():
-    '''public BulletinBoard findBulletinBoard(final String name)
+    '''returns BulletinBoard\n\n
+    findBulletinBoard(final String name)\n
     '''

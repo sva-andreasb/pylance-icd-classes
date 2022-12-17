@@ -1,6 +1,8 @@
-def SqlFormatRelationship():
-    '''public SqlFormatRelationship(final MboRemote mainmbo, final MboSetRemote msRemote, final String notatedRelationship)
+def ():
+    '''returns SqlFormatRelationship\n\n
+    (final MboRemote mainmbo, final MboSetRemote msRemote, final String notatedRelationship)\n
     '''
 def getSubSelect():
-    '''public String getSubSelect(final String relationship)
+    '''returns String\n\n
+    getSubSelect(final String relationship)\n
     '''

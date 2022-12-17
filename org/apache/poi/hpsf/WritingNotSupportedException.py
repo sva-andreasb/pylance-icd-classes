@@ -1,3 +1,4 @@
-def WritingNotSupportedException():
-    '''public WritingNotSupportedException(final long variantType, final Object value)
+def ():
+    '''returns WritingNotSupportedException\n\n
+    (final long variantType, final Object value)\n
     '''

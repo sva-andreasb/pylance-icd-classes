@@ -1,19 +1,25 @@
-def TwitterIMBotDriver():
-    '''public TwitterIMBotDriver(final MXServer mxServer)
-    public TwitterIMBotDriver()
+def ():
+    '''returns TwitterIMBotDriver\n\n
+    (final MXServer mxServer)\n
+    ()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final Object o, String percentEncode)
+    '''returns None\n\n
+    sendMessage(final Object o, String percentEncode)\n
     '''
 def createSession():
-    '''public void createSession()
+    '''returns None\n\n
+    createSession()\n
     '''
 def endSession():
-    '''public void endSession()
+    '''returns None\n\n
+    endSession()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def getOAuth():
-    '''public OAuth getOAuth()
+    '''returns OAuth\n\n
+    getOAuth()\n
     '''

@@ -1,30 +1,36 @@
-def XmlContentObject():
-    '''public XmlContentObject(final String objectType, final String objectKey, final Map<String, String> attributeValues, final String fileName, final Element xmlElement)
+def ():
+    '''returns XmlContentObject\n\n
+    (final String objectType, final String objectKey, final Map<String, String> attributeValues, final String fileName, final Element xmlElement)\n
     '''
 def getObjectKey():
-    '''public String getObjectKey()
+    '''returns String\n\n
+    getObjectKey()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getObjectType():
-    '''public String getObjectType()
+    '''returns String\n\n
+    getObjectType()\n
     '''
 def isNewOrChanged():
-    '''public boolean isNewOrChanged()
+    '''returns boolean\n\n
+    isNewOrChanged()\n
     '''
 def setNewOrChanged():
-    '''public void setNewOrChanged()
-    '''
-def getAttributeValues():
-    '''public Map<String, String> getAttributeValues()
+    '''returns None\n\n
+    setNewOrChanged()\n
     '''
 def getXmlElement():
-    '''public Element getXmlElement()
+    '''returns Element\n\n
+    getXmlElement()\n
     '''
 def setParentObject():
-    '''public void setParentObject(final XmlContentObject parentObject)
+    '''returns None\n\n
+    setParentObject(final XmlContentObject parentObject)\n
     '''
 def getParentObject():
-    '''public XmlContentObject getParentObject()
+    '''returns XmlContentObject\n\n
+    getParentObject()\n
     '''

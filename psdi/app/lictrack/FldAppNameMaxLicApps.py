@@ -1,3 +1,4 @@
-def FldAppNameMaxLicApps():
-    '''public FldAppNameMaxLicApps(final MboValue mbv)
+def ():
+    '''returns FldAppNameMaxLicApps\n\n
+    (final MboValue mbv)\n
     '''

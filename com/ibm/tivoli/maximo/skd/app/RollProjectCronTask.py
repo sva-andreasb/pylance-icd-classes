@@ -1,12 +1,16 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def rollProject():
-    '''public int rollProject(final SKDProject skdProject)
+    '''returns int\n\n
+    rollProject(final SKDProject skdProject)\n
     '''
 def sendODMEEmail():
-    '''public void sendODMEEmail(final SKDProject project, final Date startDate, final Date endDate, final boolean success)
+    '''returns None\n\n
+    sendODMEEmail(final SKDProject project, final Date startDate, final Date endDate, final boolean success)\n
     '''

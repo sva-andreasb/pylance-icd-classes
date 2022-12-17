@@ -1,6 +1,8 @@
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def beforeRemoval():
-    '''public void beforeRemoval()
+    '''returns None\n\n
+    beforeRemoval()\n
     '''

@@ -1,3 +1,4 @@
-def SKDActionSet():
-    '''public SKDActionSet(final MboServerInterface ms)
+def ():
+    '''returns SKDActionSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,44 +1,50 @@
-def getCount():
-    '''public final int getCount()
-    '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''
 def getByteBuffer():
-    '''public ByteBuffer getByteBuffer()
+    '''returns ByteBuffer\n\n
+    getByteBuffer()\n
     '''
 def search():
-    '''public Record search(final Record rec)
+    '''returns Record\n\n
+    search(final Record rec)\n
     '''
 def insert():
-    '''public Record insert(final Record record)
+    '''returns Record\n\n
+    insert(final Record record)\n
     '''
 def delete():
-    '''public Record delete(final Record rec)
+    '''returns Record\n\n
+    delete(final Record rec)\n
     '''
 def maxRecord():
-    '''public Record maxRecord()
+    '''returns Record\n\n
+    maxRecord()\n
     '''
 def minRecord():
-    '''public Record minRecord()
+    '''returns Record\n\n
+    minRecord()\n
     '''
 def sizeByCounting():
-    '''public long sizeByCounting()
+    '''returns long\n\n
+    sizeByCounting()\n
     '''
 def iterator():
-    '''public Iterator<Record> iterator(final Record fromRec, final Record toRec)
-    public Iterator<Record> iterator()
+    '''returns Iterator<Record>\n\n
+    iterator(final Record fromRec, final Record toRec)\n
+    iterator()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def dump():
-    '''public void dump()
-    public void dump(final PrintStream out, int level)
+    '''returns None\n\n
+    dump()\n
+    dump(final PrintStream out, int level)\n
     '''
 def dumpToString():
-    '''public String dumpToString()
-    '''
-def checkNodeDeep():
-    '''public final void checkNodeDeep()
+    '''returns String\n\n
+    dumpToString()\n
     '''

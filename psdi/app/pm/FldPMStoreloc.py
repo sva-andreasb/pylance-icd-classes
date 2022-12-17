@@ -1,6 +1,8 @@
-def FldPMStoreloc():
-    '''public FldPMStoreloc(final MboValue mbv)
+def ():
+    '''returns FldPMStoreloc\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

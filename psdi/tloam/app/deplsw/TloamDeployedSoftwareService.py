@@ -1,3 +1,4 @@
-def TloamDeployedSoftwareService():
-    '''public TloamDeployedSoftwareService(final MXServer mxServer)
+def ():
+    '''returns TloamDeployedSoftwareService\n\n
+    (final MXServer mxServer)\n
     '''

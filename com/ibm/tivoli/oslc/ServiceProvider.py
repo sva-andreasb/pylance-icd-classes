@@ -1,52 +1,60 @@
-def ServiceProvider():
-    '''public ServiceProvider(final String uri)
-    public ServiceProvider(final String uri, final boolean member)
+def ():
+    '''returns Publisher\n\n
+    (final String uri)\n
+    (final String uri, final boolean member)\n
+    (final String domURI)\n
+    (final String uri, final Set<String> resourceTypes, final Set<String> usage, final String title, final Set<String> resourceShapes)\n
+    (final String name, final String title, final String uri)\n
     '''
 def addPrefixDefinition():
-    '''public void addPrefixDefinition(final String prefix, final String uri)
+    '''returns None\n\n
+    addPrefixDefinition(final String prefix, final String uri)\n
     '''
 def setPrefixDefinitions():
-    '''public void setPrefixDefinitions(final Map<String, String> prefixNsMap)
+    '''returns None\n\n
+    setPrefixDefinitions(final Map<String, String> prefixNsMap)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setPublisher():
-    '''public void setPublisher(final Publisher publisher)
+    '''returns None\n\n
+    setPublisher(final Publisher publisher)\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def addService():
-    '''public void addService(final Service service)
+    '''returns None\n\n
+    addService(final Service service)\n
     '''
 def setServices():
-    '''public void setServices(final List<Service> serviceList)
+    '''returns None\n\n
+    setServices(final List<Service> serviceList)\n
     '''
 def asRDFModel():
-    '''public Model asRDFModel()
+    '''returns Model\n\n
+    asRDFModel()\n
     '''
 def addAsCollectionMember():
-    '''public void addAsCollectionMember(final Resource collection)
-    '''
-def Service():
-    '''public Service(final String domURI)
+    '''returns None\n\n
+    addAsCollectionMember(final Resource collection)\n
     '''
 def addCreationDialog():
-    '''public void addCreationDialog(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)
+    '''returns None\n\n
+    addCreationDialog(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)\n
     '''
 def addSelectionDialog():
-    '''public void addSelectionDialog(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)
+    '''returns None\n\n
+    addSelectionDialog(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)\n
     '''
 def addCreationFactory():
-    '''public void addCreationFactory(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)
+    '''returns None\n\n
+    addCreationFactory(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)\n
     '''
 def addQueryCapability():
-    '''public void addQueryCapability(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)
-    '''
-def API():
-    '''public API(final String uri, final Set<String> resourceTypes, final Set<String> usage, final String title, final Set<String> resourceShapes)
-    '''
-def Publisher():
-    '''public Publisher(final String name, final String title, final String uri)
+    '''returns None\n\n
+    addQueryCapability(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)\n
     '''

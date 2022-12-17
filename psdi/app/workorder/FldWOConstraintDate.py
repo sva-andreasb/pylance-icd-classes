@@ -1,6 +1,8 @@
-def FldWOConstraintDate():
-    '''public FldWOConstraintDate(final MboValue mbv)
+def ():
+    '''returns FldWOConstraintDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

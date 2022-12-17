@@ -1,3 +1,4 @@
-def WMAssignTmpSet():
-    '''public WMAssignTmpSet(final MboServerInterface ms)
+def ():
+    '''returns WMAssignTmpSet\n\n
+    (final MboServerInterface ms)\n
     '''

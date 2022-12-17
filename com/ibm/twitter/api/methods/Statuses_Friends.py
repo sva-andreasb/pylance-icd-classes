@@ -1,6 +1,8 @@
-def Statuses_Friends():
-    '''public Statuses_Friends()
+def ():
+    '''returns Statuses_Friends\n\n
+    ()\n
     '''
 def getResult():
-    '''public List<Status> getResult()
+    '''returns List<Status>\n\n
+    getResult()\n
     '''

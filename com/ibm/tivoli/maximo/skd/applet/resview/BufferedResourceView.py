@@ -1,54 +1,72 @@
-def BufferedResourceView():
-    '''public BufferedResourceView(final Container stubView)
+def ():
+    '''returns BufferedResourceView\n\n
+    (final Container stubView)\n
     '''
 def initializeView():
-    '''public Component initializeView()
+    '''returns Component\n\n
+    initializeView()\n
     '''
 def attachModel():
-    '''public void attachModel(final AppletGanttModel model)
+    '''returns None\n\n
+    attachModel(final AppletGanttModel model)\n
     '''
 def setResourceViewContext():
-    '''public void setResourceViewContext(final ResourceViewContext context)
+    '''returns None\n\n
+    setResourceViewContext(final ResourceViewContext context)\n
     '''
 def setDividerLocation():
-    '''public void setDividerLocation(final int location)
+    '''returns None\n\n
+    setDividerLocation(final int location)\n
     '''
 def print():
-    '''public void print()
+    '''returns None\n\n
+    print()\n
     '''
 def printPreview():
-    '''public void printPreview()
+    '''returns None\n\n
+    printPreview()\n
     '''
 def printSetup():
-    '''public void printSetup()
+    '''returns None\n\n
+    printSetup()\n
     '''
 def attachGanttModelToViewComponents():
-    '''public void attachGanttModelToViewComponents()
+    '''returns None\n\n
+    attachGanttModelToViewComponents()\n
     '''
 def detachGanttModelFromViewComponents():
-    '''public void detachGanttModelFromViewComponents()
+    '''returns None\n\n
+    detachGanttModelFromViewComponents()\n
     '''
 def activate():
-    '''public void activate()
+    '''returns None\n\n
+    activate()\n
     '''
 def deactivate():
-    '''public void deactivate()
+    '''returns None\n\n
+    deactivate()\n
     '''
 def applyActivityQbeFilter():
-    '''public void applyActivityQbeFilter(final Map<String, String> map)
+    '''returns None\n\n
+    applyActivityQbeFilter(final Map<String, String> map)\n
     '''
 def applyActivityFilter():
-    '''public void applyActivityFilter(final String s)
+    '''returns None\n\n
+    applyActivityFilter(final String s)\n
     '''
 def setViewId():
-    '''public void setViewId(final String id)
+    '''returns None\n\n
+    setViewId(final String id)\n
     '''
 def getViewId():
-    '''public String getViewId()
+    '''returns String\n\n
+    getViewId()\n
     '''
 def getResourceViewContext():
-    '''public ResourceViewContext getResourceViewContext()
+    '''returns ResourceViewContext\n\n
+    getResourceViewContext()\n
     '''
 def getModel():
-    '''public AppletGanttModel getModel()
+    '''returns AppletGanttModel\n\n
+    getModel()\n
     '''

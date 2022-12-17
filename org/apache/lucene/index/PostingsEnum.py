@@ -1,0 +1,6 @@
+NONE = "short  0"
+FREQS = "short  8"
+POSITIONS = "short  24"
+OFFSETS = "short  56"
+PAYLOADS = "short  88"
+ALL = "short  120"

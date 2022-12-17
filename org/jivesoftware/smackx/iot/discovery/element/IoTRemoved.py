@@ -1,15 +1,19 @@
 ELEMENT = "String  \"removed\""
 NAMESPACE = "String  \"urn:xmpp:iot:discovery\""
-def IoTRemoved():
-    '''public IoTRemoved()
-    public IoTRemoved(final NodeInfo nodeInfo)
+def ():
+    '''returns IoTRemoved\n\n
+    ()\n
+    (final NodeInfo nodeInfo)\n
     '''
 def getNodeId():
-    '''public String getNodeId()
+    '''returns String\n\n
+    getNodeId()\n
     '''
 def getSourceId():
-    '''public String getSourceId()
+    '''returns String\n\n
+    getSourceId()\n
     '''
 def getNodeInfo():
-    '''public NodeInfo getNodeInfo()
+    '''returns NodeInfo\n\n
+    getNodeInfo()\n
     '''

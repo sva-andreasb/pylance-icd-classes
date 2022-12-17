@@ -1,12 +1,16 @@
-def IterableAxis():
-    '''public IterableAxis(final int axisValue)
+def ():
+    '''returns IterableAxis\n\n
+    (final int axisValue)\n
     '''
 def value():
-    '''public int value()
+    '''returns int\n\n
+    value()\n
     '''
 def namedAccessIterator():
-    '''public Iterator namedAccessIterator(final Object contextNode, final ContextSupport support, final String localName, final String namespacePrefix, final String namespaceURI)
+    '''returns Iterator\n\n
+    namedAccessIterator(final Object contextNode, final ContextSupport support, final String localName, final String namespacePrefix, final String namespaceURI)\n
     '''
 def supportsNamedAccess():
-    '''public boolean supportsNamedAccess(final ContextSupport support)
+    '''returns boolean\n\n
+    supportsNamedAccess(final ContextSupport support)\n
     '''

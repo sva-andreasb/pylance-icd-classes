@@ -1,45 +1,57 @@
-def KnownList():
-    '''public KnownList()
+def ():
+    '''returns myIt\n\n
+    ()\n
+    (final Iterator<Map.Entry<String, KnownEntry>> _it)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getEntry():
-    '''public KnownEntry getEntry(final String id)
+    '''returns KnownEntry\n\n
+    getEntry(final String id)\n
     '''
 def write():
-    '''public void write(final String myId, final long myFileOffset, final String myClassType, final String srcTok)
+    '''returns None\n\n
+    write(final String myId, final long myFileOffset, final String myClassType, final String srcTok)\n
     '''
 def writeAbstract():
-    '''public KnownEntry writeAbstract(final String myId, final long myFileOffset, final String myClassType, final HashMap parsedMO, final String srcTok)
+    '''returns KnownEntry\n\n
+    writeAbstract(final String myId, final long myFileOffset, final String myClassType, final HashMap parsedMO, final String srcTok)\n
     '''
 def isInList():
-    '''public KnownEntry isInList(final String id)
+    '''returns KnownEntry\n\n
+    isInList(final String id)\n
     '''
 def incrementWritten():
-    '''public void incrementWritten()
+    '''returns None\n\n
+    incrementWritten()\n
     '''
 def getNumWritten():
-    '''public int getNumWritten()
+    '''returns int\n\n
+    getNumWritten()\n
     '''
 def bottomOffsetAdjust():
-    '''public void bottomOffsetAdjust(final long currentFilepos)
+    '''returns None\n\n
+    bottomOffsetAdjust(final long currentFilepos)\n
     '''
 def iterator():
-    '''public Iterator<KnownEntry> iterator()
+    '''returns Iterator<KnownEntry>\n\n
+    iterator()\n
     '''
 def compare():
-    '''public int compare(final KnownEntry o1, final KnownEntry o2)
-    '''
-def myIt():
-    '''public myIt(final Iterator<Map.Entry<String, KnownEntry>> _it)
+    '''returns int\n\n
+    compare(final KnownEntry o1, final KnownEntry o2)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public KnownEntry next()
+    '''returns KnownEntry\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

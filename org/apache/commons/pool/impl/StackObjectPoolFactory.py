@@ -1,11 +1,13 @@
-def StackObjectPoolFactory():
-    '''public StackObjectPoolFactory()
-    public StackObjectPoolFactory(final int maxIdle)
-    public StackObjectPoolFactory(final int maxIdle, final int initIdleCapacity)
-    public StackObjectPoolFactory(final PoolableObjectFactory factory)
-    public StackObjectPoolFactory(final PoolableObjectFactory factory, final int maxIdle)
-    public StackObjectPoolFactory(final PoolableObjectFactory factory, final int maxIdle, final int initIdleCapacity)
+def ():
+    '''returns StackObjectPoolFactory\n\n
+    ()\n
+    (final int maxIdle)\n
+    (final int maxIdle, final int initIdleCapacity)\n
+    (final PoolableObjectFactory factory)\n
+    (final PoolableObjectFactory factory, final int maxIdle)\n
+    (final PoolableObjectFactory factory, final int maxIdle, final int initIdleCapacity)\n
     '''
 def createPool():
-    '''public ObjectPool createPool()
+    '''returns ObjectPool\n\n
+    createPool()\n
     '''

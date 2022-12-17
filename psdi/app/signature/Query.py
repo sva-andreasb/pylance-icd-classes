@@ -1,24 +1,32 @@
-def Query():
-    '''public Query(final MboSet ms)
+def ():
+    '''returns Query\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def isUnique():
-    '''public boolean isUnique()
+    '''returns boolean\n\n
+    isUnique()\n
     '''
 def getDefaultQuerySet():
-    '''public MboSetRemote getDefaultQuerySet()
+    '''returns MboSetRemote\n\n
+    getDefaultQuerySet()\n
     '''

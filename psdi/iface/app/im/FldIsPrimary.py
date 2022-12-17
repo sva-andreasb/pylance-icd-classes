@@ -1,6 +1,8 @@
-def FldIsPrimary():
-    '''public FldIsPrimary(final MboValue mbv)
+def ():
+    '''returns FldIsPrimary\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

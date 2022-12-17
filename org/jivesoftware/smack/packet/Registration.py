@@ -1,18 +1,20 @@
-def Registration():
-    '''public Registration()
+def ():
+    '''returns Registration\n\n
+    ()\n
     '''
 def getInstructions():
-    '''public String getInstructions()
+    '''returns String\n\n
+    getInstructions()\n
     '''
 def setInstructions():
-    '''public void setInstructions(final String instructions)
-    '''
-def getAttributes():
-    '''public Map<String, String> getAttributes()
+    '''returns None\n\n
+    setInstructions(final String instructions)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final Map<String, String> attributes)
+    '''returns None\n\n
+    setAttributes(final Map<String, String> attributes)\n
     '''
 def getChildElementXML():
-    '''public String getChildElementXML()
+    '''returns String\n\n
+    getChildElementXML()\n
     '''

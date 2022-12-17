@@ -1,48 +1,64 @@
-def ToolTransSet():
-    '''public ToolTransSet(final MboServerInterface ms)
+def ():
+    '''returns ToolTransSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote mbo)
+    '''returns None\n\n
+    setOwner(final MboRemote mbo)\n
     '''
 def setAllDates():
-    '''public void setAllDates(final boolean allDatesActLab)
+    '''returns None\n\n
+    setAllDates(final boolean allDatesActLab)\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date startDateActLab)
+    '''returns None\n\n
+    setStartDate(final Date startDateActLab)\n
     '''
 def setEndDate():
-    '''public void setEndDate(final Date endDateActLab)
+    '''returns None\n\n
+    setEndDate(final Date endDateActLab)\n
     '''
 def getAllDates():
-    '''public boolean getAllDates()
+    '''returns boolean\n\n
+    getAllDates()\n
     '''
 def getStartDate():
-    '''public Date getStartDate()
+    '''returns Date\n\n
+    getStartDate()\n
     '''
 def getEndDate():
-    '''public Date getEndDate()
+    '''returns Date\n\n
+    getEndDate()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def addDates():
-    '''public Date addDates(final Date date, final int days)
+    '''returns Date\n\n
+    addDates(final Date date, final int days)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener l)
+    '''returns None\n\n
+    addListener(final MboSetListener l)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener l)
+    '''returns None\n\n
+    removeListener(final MboSetListener l)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote modifiedMbo)\n
     '''

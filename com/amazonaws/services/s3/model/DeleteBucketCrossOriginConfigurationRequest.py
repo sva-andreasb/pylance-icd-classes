@@ -1,3 +1,4 @@
-def DeleteBucketCrossOriginConfigurationRequest():
-    '''public DeleteBucketCrossOriginConfigurationRequest(final String bucketName)
+def ():
+    '''returns DeleteBucketCrossOriginConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

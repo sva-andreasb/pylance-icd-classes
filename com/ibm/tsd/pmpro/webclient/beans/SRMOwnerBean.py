@@ -1,9 +1,12 @@
-def SRMOwnerBean():
-    '''public SRMOwnerBean()
+def ():
+    '''returns SRMOwnerBean\n\n
+    ()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

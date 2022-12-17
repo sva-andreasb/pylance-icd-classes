@@ -1,6 +1,8 @@
-def ApptBookChangeStatus():
-    '''public ApptBookChangeStatus(final MboSet ms)
+def ():
+    '''returns ApptBookChangeStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

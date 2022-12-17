@@ -84,17 +84,14 @@ LATIN_FRAKTUR = "int  80"
 LATIN_GAELIC = "int  81"
 LEPCHA = "int  82"
 LINEAR_A = "int  83"
-MANDAIC = "int  84"
 MANDAEAN = "int  84"
 MAYAN_HIEROGLYPHS = "int  85"
-MEROITIC_HIEROGLYPHS = "int  86"
 MEROITIC = "int  86"
 NKO = "int  87"
 ORKHON = "int  88"
 OLD_PERMIC = "int  89"
 PHAGS_PA = "int  90"
 PHOENICIAN = "int  91"
-MIAO = "int  92"
 PHONETIC_POLLARD = "int  92"
 RONGORONGO = "int  93"
 SARATI = "int  94"
@@ -137,103 +134,4 @@ BAMUM = "int  130"
 LISU = "int  131"
 NAKHI_GEBA = "int  132"
 OLD_SOUTH_ARABIAN = "int  133"
-BASSA_VAH = "int  134"
-DUPLOYAN = "int  135"
-DUPLOYAN_SHORTAND = "int  135"
-ELBASAN = "int  136"
-GRANTHA = "int  137"
-KPELLE = "int  138"
-LOMA = "int  139"
-MENDE = "int  140"
-MEROITIC_CURSIVE = "int  141"
-OLD_NORTH_ARABIAN = "int  142"
-NABATAEAN = "int  143"
-PALMYRENE = "int  144"
-KHUDAWADI = "int  145"
-SINDHI = "int  145"
-WARANG_CITI = "int  146"
-AFAKA = "int  147"
-JURCHEN = "int  148"
-MRO = "int  149"
-NUSHU = "int  150"
-SHARADA = "int  151"
-SORA_SOMPENG = "int  152"
-TAKRI = "int  153"
-TANGUT = "int  154"
-WOLEAI = "int  155"
-ANATOLIAN_HIEROGLYPHS = "int  156"
-KHOJKI = "int  157"
-TIRHUTA = "int  158"
-CAUCASIAN_ALBANIAN = "int  159"
-MAHAJANI = "int  160"
-AHOM = "int  161"
-HATRAN = "int  162"
-MODI = "int  163"
-MULTANI = "int  164"
-PAU_CIN_HAU = "int  165"
-SIDDHAM = "int  166"
-ADLAM = "int  167"
-BHAIKSUKI = "int  168"
-MARCHEN = "int  169"
-NEWA = "int  170"
-OSAGE = "int  171"
-HAN_WITH_BOPOMOFO = "int  172"
-JAMO = "int  173"
-SYMBOLS_EMOJI = "int  174"
-MASARAM_GONDI = "int  175"
-SOYOMBO = "int  176"
-ZANABAZAR_SQUARE = "int  177"
-DOGRA = "int  178"
-GUNJALA_GONDI = "int  179"
-MAKASAR = "int  180"
-MEDEFAIDRIN = "int  181"
-HANIFI_ROHINGYA = "int  182"
-SOGDIAN = "int  183"
-OLD_SOGDIAN = "int  184"
-ELYMAIC = "int  185"
-NYIAKENG_PUACHUE_HMONG = "int  186"
-NANDINAGARI = "int  187"
-WANCHO = "int  188"
-CHORASMIAN = "int  189"
-DIVES_AKURU = "int  190"
-KHITAN_SMALL_SCRIPT = "int  191"
-YEZIDI = "int  192"
-CODE_LIMIT = "int  193"
-def getCode():
-    '''public static final int[] getCode(final Locale locale)
-    public static final int[] getCode(final ULocale locale)
-    public static final int[] getCode(final String nameOrAbbrOrLocale)
-    '''
-def getCodeFromName():
-    '''public static final int getCodeFromName(final String nameOrAbbr)
-    '''
-def getScript():
-    '''public static final int getScript(final int codepoint)
-    '''
-def hasScript():
-    '''public static final boolean hasScript(final int c, final int sc)
-    '''
-def getScriptExtensions():
-    '''public static final int getScriptExtensions(final int c, final BitSet set)
-    '''
-def getName():
-    '''public static final String getName(final int scriptCode)
-    '''
-def getShortName():
-    '''public static final String getShortName(final int scriptCode)
-    '''
-def getSampleString():
-    '''public static final String getSampleString(final int script)
-    '''
-def getUsage():
-    '''public static final ScriptUsage getUsage(final int script)
-    '''
-def isRightToLeft():
-    '''public static final boolean isRightToLeft(final int script)
-    '''
-def breaksBetweenLetters():
-    '''public static final boolean breaksBetweenLetters(final int script)
-    '''
-def isCased():
-    '''public static final boolean isCased(final int script)
-    '''
+CODE_LIMIT = "int  134"

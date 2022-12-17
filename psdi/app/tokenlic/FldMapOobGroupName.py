@@ -1,3 +1,4 @@
-def FldMapOobGroupName():
-    '''public FldMapOobGroupName(final MboValue mbv)
+def ():
+    '''returns FldMapOobGroupName\n\n
+    (final MboValue mbv)\n
     '''

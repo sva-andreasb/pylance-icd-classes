@@ -1,9 +1,12 @@
 def getChronology():
-    '''public Chronology getChronology()
+    '''returns Chronology\n\n
+    getChronology()\n
     '''
 def getStartMillis():
-    '''public long getStartMillis()
+    '''returns long\n\n
+    getStartMillis()\n
     '''
 def getEndMillis():
-    '''public long getEndMillis()
+    '''returns long\n\n
+    getEndMillis()\n
     '''

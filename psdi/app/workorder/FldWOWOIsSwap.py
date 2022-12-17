@@ -1,12 +1,16 @@
-def FldWOWOIsSwap():
-    '''public FldWOWOIsSwap(final MboValue mbv)
+def ():
+    '''returns FldWOWOIsSwap\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def moveToSwap():
-    '''public void moveToSwap()
+    '''returns None\n\n
+    moveToSwap()\n
     '''
 def swapToMove():
-    '''public void swapToMove()
+    '''returns None\n\n
+    swapToMove()\n
     '''

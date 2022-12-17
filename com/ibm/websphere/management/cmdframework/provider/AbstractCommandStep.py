@@ -1,63 +1,58 @@
-def AbstractCommandStep():
-    '''public AbstractCommandStep(final AbstractTaskCommand parent, final CommandMetadata metadata)
-    public AbstractCommandStep(final AbstractTaskCommand parent, final CommandData commandData)
-    '''
-def getCommandMetadata():
-    '''public static CommandMetadata getCommandMetadata(final String cmdName)
+def ():
+    '''returns AbstractCommandStep\n\n
+    (final AbstractTaskCommand parent, final CommandMetadata metadata)\n
+    (final AbstractTaskCommand parent, final CommandData commandData)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
-    '''
-def hashcode():
-    '''public final int hashcode()
-    '''
-def equals():
-    '''public final boolean equals(final Object obj)
-    '''
-def getCommandStepData():
-    '''public final CommandStepData getCommandStepData()
-    '''
-def resetCommandData():
-    '''public final void resetCommandData(final CommandData stepData)
-    '''
-def execute():
-    '''public final void execute(final CommandHistory cmdHistory)
-    public final void execute()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def listSetParams():
-    '''public Collection listSetParams(final int rowIndex)
+    '''returns Collection\n\n
+    listSetParams(final int rowIndex)\n
     '''
 def getParameter():
-    '''public Object getParameter(final String parameterName, final int rowIndex)
+    '''returns Object\n\n
+    getParameter(final String parameterName, final int rowIndex)\n
     '''
 def setParameter():
-    '''public void setParameter(final String paramName, final Object value, final int rowIndex)
+    '''returns None\n\n
+    setParameter(final String paramName, final Object value, final int rowIndex)\n
     '''
 def getNumberOfRows():
-    '''public int getNumberOfRows()
+    '''returns int\n\n
+    getNumberOfRows()\n
     '''
 def addRow():
-    '''public void addRow(final AttributeList rowData, final int rowIndex)
+    '''returns None\n\n
+    addRow(final AttributeList rowData, final int rowIndex)\n
     '''
 def deleteRow():
-    '''public void deleteRow(final int rowIndex)
+    '''returns None\n\n
+    deleteRow(final int rowIndex)\n
     '''
 def stepModified():
-    '''public void stepModified(final String stepName)
+    '''returns None\n\n
+    stepModified(final String stepName)\n
     '''
 def commandParamModified():
-    '''public void commandParamModified()
+    '''returns None\n\n
+    commandParamModified()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
-    public boolean isRequired(final int rowIndex)
+    '''returns boolean\n\n
+    isRequired()\n
+    isRequired(final int rowIndex)\n
     '''
 def getConfigSession():
-    '''public Session getConfigSession()
+    '''returns Session\n\n
+    getConfigSession()\n
     '''
 def getChoices():
-    '''public Object[] getChoices(final String paramName, final int rowIndex)
+    '''returns Object[]\n\n
+    getChoices(final String paramName, final int rowIndex)\n
     '''

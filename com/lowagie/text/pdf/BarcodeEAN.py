@@ -1,33 +1,16 @@
-def BarcodeEAN():
-    '''public BarcodeEAN()
-    '''
-def calculateEANParity():
-    '''public static int calculateEANParity(final String code)
-    '''
-def convertUPCAtoUPCE():
-    '''public static String convertUPCAtoUPCE(final String text)
-    '''
-def getBarsEAN13():
-    '''public static byte[] getBarsEAN13(final String _code)
-    '''
-def getBarsEAN8():
-    '''public static byte[] getBarsEAN8(final String _code)
-    '''
-def getBarsUPCE():
-    '''public static byte[] getBarsUPCE(final String _code)
-    '''
-def getBarsSupplemental2():
-    '''public static byte[] getBarsSupplemental2(final String _code)
-    '''
-def getBarsSupplemental5():
-    '''public static byte[] getBarsSupplemental5(final String _code)
+def ():
+    '''returns BarcodeEAN\n\n
+    ()\n
     '''
 def getBarcodeSize():
-    '''public Rectangle getBarcodeSize()
+    '''returns Rectangle\n\n
+    getBarcodeSize()\n
     '''
 def placeBarcode():
-    '''public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
+    '''returns Rectangle\n\n
+    placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)\n
     '''
 def createAwtImage():
-    '''public Image createAwtImage(final Color foreground, final Color background)
+    '''returns Image\n\n
+    createAwtImage(final Color foreground, final Color background)\n
     '''

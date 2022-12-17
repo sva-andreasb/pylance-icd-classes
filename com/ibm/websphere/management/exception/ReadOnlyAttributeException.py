@@ -1,12 +1,15 @@
-def ReadOnlyAttributeException():
-    '''public ReadOnlyAttributeException(final String[] attributePath)
-    public ReadOnlyAttributeException(final String[] attributePath, final Exception cause)
-    public ReadOnlyAttributeException(final String attributeName)
-    public ReadOnlyAttributeException(final String attributeName, final Exception cause)
+def ():
+    '''returns ReadOnlyAttributeException\n\n
+    (final String[] attributePath)\n
+    (final String[] attributePath, final Exception cause)\n
+    (final String attributeName)\n
+    (final String attributeName, final Exception cause)\n
     '''
 def getAttributePath():
-    '''public String[] getAttributePath()
+    '''returns String[]\n\n
+    getAttributePath()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

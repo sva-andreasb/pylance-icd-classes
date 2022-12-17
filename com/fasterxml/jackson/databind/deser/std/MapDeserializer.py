@@ -1,44 +1,46 @@
-def MapDeserializer():
-    '''public MapDeserializer(final JavaType mapType, final ValueInstantiator valueInstantiator, final KeyDeserializer keyDeser, final JsonDeserializer<Object> valueDeser, final TypeDeserializer valueTypeDeser)
+def ():
+    '''returns MapReferringAccumulator\n\n
+    (final JavaType mapType, final ValueInstantiator valueInstantiator, final KeyDeserializer keyDeser, final JsonDeserializer<Object> valueDeser, final TypeDeserializer valueTypeDeser)\n
+    (final Class<?> valueType, final Map<Object, Object> result)\n
     '''
 def setIgnorableProperties():
-    '''public void setIgnorableProperties(final String[] ignorable)
-    public void setIgnorableProperties(final Set<String> ignorable)
+    '''returns None\n\n
+    setIgnorableProperties(final String[] ignorable)\n
+    setIgnorableProperties(final Set<String> ignorable)\n
     '''
 def resolve():
-    '''public void resolve(final DeserializationContext ctxt)
+    '''returns None\n\n
+    resolve(final DeserializationContext ctxt)\n
     '''
 def getContentDeserializer():
-    '''public JsonDeserializer<Object> getContentDeserializer()
+    '''returns JsonDeserializer<Object>\n\n
+    getContentDeserializer()\n
     '''
 def getValueInstantiator():
-    '''public ValueInstantiator getValueInstantiator()
+    '''returns ValueInstantiator\n\n
+    getValueInstantiator()\n
     '''
 def isCachable():
-    '''public boolean isCachable()
-    '''
-def deserialize():
-    '''public Map<Object, Object> deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public Map<Object, Object> deserialize(final JsonParser p, final DeserializationContext ctxt, final Map<Object, Object> result)
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''
 def getValueType():
-    '''public JavaType getValueType()
-    '''
-def _deserializeUsingCreator():
-    '''public Map<Object, Object> _deserializeUsingCreator(final JsonParser p, final DeserializationContext ctxt)
-    '''
-def MapReferringAccumulator():
-    '''public MapReferringAccumulator(final Class<?> valueType, final Map<Object, Object> result)
+    '''returns JavaType\n\n
+    getValueType()\n
     '''
 def put():
-    '''public void put(final Object key, final Object value)
+    '''returns None\n\n
+    put(final Object key, final Object value)\n
     '''
 def resolveForwardReference():
-    '''public void resolveForwardReference(final Object id, final Object value)
+    '''returns None\n\n
+    resolveForwardReference(final Object id, final Object value)\n
     '''
 def handleResolvedForwardReference():
-    '''public void handleResolvedForwardReference(final Object id, final Object value)
+    '''returns None\n\n
+    handleResolvedForwardReference(final Object id, final Object value)\n
     '''

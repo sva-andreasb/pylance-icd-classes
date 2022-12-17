@@ -1,9 +1,12 @@
 def selectitemsagreepsmatpricitems():
-    '''public int selectitemsagreepsmatpricitems()
+    '''returns int\n\n
+    selectitemsagreepsmatpricitems()\n
     '''
 def selectitemsagreepsmatpricassets():
-    '''public int selectitemsagreepsmatpricassets()
+    '''returns int\n\n
+    selectitemsagreepsmatpricassets()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

@@ -1,30 +1,40 @@
-def POSet():
-    '''public POSet(final MboServerInterface ms)
+def ():
+    '''returns POSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setPreTaxTotalInit():
-    '''public void setPreTaxTotalInit(final boolean flag)
+    '''returns None\n\n
+    setPreTaxTotalInit(final boolean flag)\n
     '''
 def getPreTaxTotalInit():
-    '''public boolean getPreTaxTotalInit()
+    '''returns boolean\n\n
+    getPreTaxTotalInit()\n
     '''
 def findECommProcessPO():
-    '''public void findECommProcessPO()
+    '''returns None\n\n
+    findECommProcessPO()\n
     '''
 def findECommCancelPO():
-    '''public void findECommCancelPO()
+    '''returns None\n\n
+    findECommCancelPO()\n
     '''
 def setHistory():
-    '''public void setHistory(final boolean historyPOs)
+    '''returns None\n\n
+    setHistory(final boolean historyPOs)\n
     '''
 def setCurrent():
-    '''public void setCurrent(final boolean currentPOs)
+    '''returns None\n\n
+    setCurrent(final boolean currentPOs)\n
     '''
 def setSupervisor():
-    '''public void setSupervisor(final String laborcode)
+    '''returns None\n\n
+    setSupervisor(final String laborcode)\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def clearToBeSaved():
-    '''public void clearToBeSaved()
+    '''returns None\n\n
+    clearToBeSaved()\n
     '''

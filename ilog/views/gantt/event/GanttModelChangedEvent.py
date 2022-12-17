@@ -1,15 +1,20 @@
-def GanttModelChangedEvent():
-    '''public GanttModelChangedEvent(final Object o, final IlvGanttModel ilvGanttModel, final IlvGanttModel ilvGanttModel2, final boolean b)
+def ():
+    '''returns GanttModelChangedEvent\n\n
+    (final Object o, final IlvGanttModel ilvGanttModel, final IlvGanttModel ilvGanttModel2, final boolean b)\n
     '''
 def getGanttConfiguration():
-    '''public IlvGanttConfiguration getGanttConfiguration()
+    '''returns IlvGanttConfiguration\n\n
+    getGanttConfiguration()\n
     '''
 def getOldGanttModel():
-    '''public IlvGanttModel getOldGanttModel()
+    '''returns IlvGanttModel\n\n
+    getOldGanttModel()\n
     '''
 def getNewGanttModel():
-    '''public IlvGanttModel getNewGanttModel()
+    '''returns IlvGanttModel\n\n
+    getNewGanttModel()\n
     '''
 def setNewGanttModel():
-    '''public void setNewGanttModel(final IlvGanttModel newValue)
+    '''returns None\n\n
+    setNewGanttModel(final IlvGanttModel newValue)\n
     '''

@@ -1,3 +1,4 @@
-def ServiceProviderSet():
-    '''public ServiceProviderSet(final MboServerInterface ms)
+def ():
+    '''returns ServiceProviderSet\n\n
+    (final MboServerInterface ms)\n
     '''

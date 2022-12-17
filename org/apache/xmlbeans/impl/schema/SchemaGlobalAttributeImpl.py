@@ -1,30 +1,40 @@
-def SchemaGlobalAttributeImpl():
-    '''public SchemaGlobalAttributeImpl(final SchemaContainer container)
+def ():
+    '''returns SchemaGlobalAttributeImpl\n\n
+    (final SchemaContainer container)\n
     '''
 def getTypeSystem():
-    '''public SchemaTypeSystem getTypeSystem()
+    '''returns SchemaTypeSystem\n\n
+    getTypeSystem()\n
     '''
 def getComponentType():
-    '''public int getComponentType()
+    '''returns int\n\n
+    getComponentType()\n
     '''
 def getSourceName():
-    '''public String getSourceName()
+    '''returns String\n\n
+    getSourceName()\n
     '''
 def setFilename():
-    '''public void setFilename(final String filename)
+    '''returns None\n\n
+    setFilename(final String filename)\n
     '''
 def setParseContext():
-    '''public void setParseContext(final XmlObject parseObject, final String targetNamespace, final boolean chameleon)
+    '''returns None\n\n
+    setParseContext(final XmlObject parseObject, final String targetNamespace, final boolean chameleon)\n
     '''
 def getParseObject():
-    '''public XmlObject getParseObject()
+    '''returns XmlObject\n\n
+    getParseObject()\n
     '''
 def getTargetNamespace():
-    '''public String getTargetNamespace()
+    '''returns String\n\n
+    getTargetNamespace()\n
     '''
 def getChameleonNamespace():
-    '''public String getChameleonNamespace()
+    '''returns String\n\n
+    getChameleonNamespace()\n
     '''
 def getRef():
-    '''public Ref getRef()
+    '''returns Ref\n\n
+    getRef()\n
     '''

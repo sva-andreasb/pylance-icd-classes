@@ -1,3 +1,4 @@
-def ReconTaskLinkSet():
-    '''public ReconTaskLinkSet(final MboServerInterface ms)
+def ():
+    '''returns ReconTaskLinkSet\n\n
+    (final MboServerInterface ms)\n
     '''

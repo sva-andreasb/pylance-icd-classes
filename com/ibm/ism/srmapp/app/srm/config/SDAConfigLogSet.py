@@ -1,3 +1,4 @@
-def SDAConfigLogSet():
-    '''public SDAConfigLogSet(final MboServerInterface ms)
+def ():
+    '''returns SDAConfigLogSet\n\n
+    (final MboServerInterface ms)\n
     '''

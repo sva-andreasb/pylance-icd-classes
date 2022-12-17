@@ -1,66 +1,88 @@
-def PortletStateImpl():
-    '''public PortletStateImpl(final long loadStatus)
+def ():
+    '''returns PortletStateImpl\n\n
+    (final long loadStatus)\n
     '''
 def isPortletLoaded():
-    '''public boolean isPortletLoaded()
+    '''returns boolean\n\n
+    isPortletLoaded()\n
     '''
 def wasPortletLoadCalled():
-    '''public boolean wasPortletLoadCalled()
+    '''returns boolean\n\n
+    wasPortletLoadCalled()\n
     '''
 def isPortletNotLoaded():
-    '''public boolean isPortletNotLoaded(final ComponentInstance component)
+    '''returns boolean\n\n
+    isPortletNotLoaded(final ComponentInstance component)\n
     '''
 def hasData():
-    '''public boolean hasData()
+    '''returns boolean\n\n
+    hasData()\n
     '''
 def setHasData():
-    '''public void setHasData(final boolean newFlag)
+    '''returns None\n\n
+    setHasData(final boolean newFlag)\n
     '''
 def getLoadState():
-    '''public long getLoadState()
+    '''returns long\n\n
+    getLoadState()\n
     '''
 def setLoadState():
-    '''public void setLoadState(final long status)
+    '''returns None\n\n
+    setLoadState(final long status)\n
     '''
 def setStateLoaded():
-    '''public void setStateLoaded()
+    '''returns None\n\n
+    setStateLoaded()\n
     '''
 def setStateLoadCalled():
-    '''public void setStateLoadCalled()
+    '''returns None\n\n
+    setStateLoadCalled()\n
     '''
 def isPortletUpdated():
-    '''public boolean isPortletUpdated()
+    '''returns boolean\n\n
+    isPortletUpdated()\n
     '''
 def setPortletUpdated():
-    '''public void setPortletUpdated(final boolean portletUpdated)
+    '''returns None\n\n
+    setPortletUpdated(final boolean portletUpdated)\n
     '''
 def isPortletStateChanged():
-    '''public boolean isPortletStateChanged()
+    '''returns boolean\n\n
+    isPortletStateChanged()\n
     '''
 def setPortletStateChanged():
-    '''public void setPortletStateChanged(final boolean newPortletState)
+    '''returns None\n\n
+    setPortletStateChanged(final boolean newPortletState)\n
     '''
 def isFiltered():
-    '''public boolean isFiltered()
+    '''returns boolean\n\n
+    isFiltered()\n
     '''
 def setFiltered():
-    '''public void setFiltered(final boolean newFlag)
+    '''returns None\n\n
+    setFiltered(final boolean newFlag)\n
     '''
 def isFilterToggled():
-    '''public boolean isFilterToggled()
+    '''returns boolean\n\n
+    isFilterToggled()\n
     '''
 def setFilterToggled():
-    '''public void setFilterToggled(final boolean flag)
+    '''returns None\n\n
+    setFilterToggled(final boolean flag)\n
     '''
 def isMaximised():
-    '''public boolean isMaximised()
+    '''returns boolean\n\n
+    isMaximised()\n
     '''
 def setMaximised():
-    '''public void setMaximised(final boolean newFlag)
+    '''returns None\n\n
+    setMaximised(final boolean newFlag)\n
     '''
 def isFilterOpen():
-    '''public boolean isFilterOpen()
+    '''returns boolean\n\n
+    isFilterOpen()\n
     '''
 def setFilterOpen():
-    '''public void setFilterOpen(final boolean newFlag)
+    '''returns None\n\n
+    setFilterOpen(final boolean newFlag)\n
     '''

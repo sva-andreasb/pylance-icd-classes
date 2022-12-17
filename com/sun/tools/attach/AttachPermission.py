@@ -1,4 +1,5 @@
-def AttachPermission():
-    '''public AttachPermission(final String s)
-    public AttachPermission(final String s, final String str)
+def ():
+    '''returns AttachPermission\n\n
+    (final String s)\n
+    (final String s, final String str)\n
     '''

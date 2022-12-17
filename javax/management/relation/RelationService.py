@@ -1,123 +1,164 @@
 def isActive():
-    '''public void isActive()
+    '''returns None\n\n
+    isActive()\n
     '''
 def postDeregister():
-    '''public void postDeregister()
+    '''returns None\n\n
+    postDeregister()\n
     '''
 def preDeregister():
-    '''public void preDeregister()
+    '''returns None\n\n
+    preDeregister()\n
     '''
 def purgeRelations():
-    '''public void purgeRelations()
+    '''returns None\n\n
+    purgeRelations()\n
     '''
 def getPurgeFlag():
-    '''public boolean getPurgeFlag()
+    '''returns boolean\n\n
+    getPurgeFlag()\n
     '''
-def RelationService():
-    '''public RelationService(final boolean purgeFlag)
+def ():
+    '''returns RelationService\n\n
+    (final boolean purgeFlag)\n
     '''
 def setPurgeFlag():
-    '''public void setPurgeFlag(final boolean myPurgeFlg)
+    '''returns None\n\n
+    setPurgeFlag(final boolean myPurgeFlg)\n
     '''
 def postRegister():
-    '''public void postRegister(final Boolean b)
+    '''returns None\n\n
+    postRegister(final Boolean b)\n
     '''
 def removeRelation():
-    '''public void removeRelation(final String s)
+    '''returns None\n\n
+    removeRelation(final String s)\n
     '''
 def removeRelationType():
-    '''public void removeRelationType(final String key)
+    '''returns None\n\n
+    removeRelationType(final String key)\n
     '''
 def sendRelationCreationNotification():
-    '''public void sendRelationCreationNotification(final String str)
+    '''returns None\n\n
+    sendRelationCreationNotification(final String str)\n
     '''
 def getAllRelationIds():
-    '''public List getAllRelationIds()
+    '''returns List\n\n
+    getAllRelationIds()\n
     '''
 def getAllRelationTypeNames():
-    '''public List getAllRelationTypeNames()
+    '''returns List\n\n
+    getAllRelationTypeNames()\n
     '''
 def getNotificationInfo():
-    '''public MBeanNotificationInfo[] getNotificationInfo()
+    '''returns MBeanNotificationInfo[]\n\n
+    getNotificationInfo()\n
     '''
 def addRelation():
-    '''public void addRelation(final ObjectName objectName)
+    '''returns None\n\n
+    addRelation(final ObjectName objectName)\n
     '''
 def addRelationType():
-    '''public void addRelationType(final RelationType relationType)
+    '''returns None\n\n
+    addRelationType(final RelationType relationType)\n
     '''
 def hasRelation():
-    '''public Boolean hasRelation(final String s)
+    '''returns Boolean\n\n
+    hasRelation(final String s)\n
     '''
 def handleNotification():
-    '''public void handleNotification(final Notification e, final Object o)
+    '''returns None\n\n
+    handleNotification(final Notification e, final Object o)\n
     '''
 def getRelationTypeName():
-    '''public String getRelationTypeName(final String s)
+    '''returns String\n\n
+    getRelationTypeName(final String s)\n
     '''
 def isRelation():
-    '''public String isRelation(final ObjectName key)
+    '''returns String\n\n
+    isRelation(final ObjectName key)\n
     '''
 def findRelationsOfType():
-    '''public List findRelationsOfType(final String key)
+    '''returns List\n\n
+    findRelationsOfType(final String key)\n
     '''
 def getRoleInfos():
-    '''public List getRoleInfos(final String s)
+    '''returns List\n\n
+    getRoleInfos(final String s)\n
     '''
 def sendRelationRemovalNotification():
-    '''public void sendRelationRemovalNotification(final String s, final List list)
+    '''returns None\n\n
+    sendRelationRemovalNotification(final String s, final List list)\n
     '''
 def getReferencedMBeans():
-    '''public Map getReferencedMBeans(final String s)
+    '''returns Map\n\n
+    getReferencedMBeans(final String s)\n
     '''
 def isRelationMBean():
-    '''public ObjectName isRelationMBean(final String s)
+    '''returns ObjectName\n\n
+    isRelationMBean(final String s)\n
     '''
 def setRole():
-    '''public void setRole(final String str, final Role role)
+    '''returns None\n\n
+    setRole(final String str, final Role role)\n
     '''
 def createRelationType():
-    '''public void createRelationType(final String s, final RoleInfo[] array)
+    '''returns None\n\n
+    createRelationType(final String s, final RoleInfo[] array)\n
     '''
 def getAllRoles():
-    '''public RoleResult getAllRoles(final String s)
+    '''returns RoleResult\n\n
+    getAllRoles(final String s)\n
     '''
 def checkRoleReading():
-    '''public Integer checkRoleReading(final String str, final String str2)
+    '''returns Integer\n\n
+    checkRoleReading(final String str, final String str2)\n
     '''
 def getRoleCardinality():
-    '''public Integer getRoleCardinality(final String str, final String str2)
+    '''returns Integer\n\n
+    getRoleCardinality(final String str, final String str2)\n
     '''
 def getRole():
-    '''public List getRole(final String str, final String str2)
+    '''returns List\n\n
+    getRole(final String str, final String str2)\n
     '''
 def sendRoleUpdateNotification():
-    '''public void sendRoleUpdateNotification(final String str, final Role role, List c)
+    '''returns None\n\n
+    sendRoleUpdateNotification(final String str, final Role role, List c)\n
     '''
 def updateRoleMap():
-    '''public void updateRoleMap(final String str, final Role role, final List c)
+    '''returns None\n\n
+    updateRoleMap(final String str, final Role role, final List c)\n
     '''
 def preRegister():
-    '''public ObjectName preRegister(final MBeanServer myMBeanServer, final ObjectName myObjName)
+    '''returns ObjectName\n\n
+    preRegister(final MBeanServer myMBeanServer, final ObjectName myObjName)\n
     '''
 def getRoleInfo():
-    '''public RoleInfo getRoleInfo(final String str, final String str2)
+    '''returns RoleInfo\n\n
+    getRoleInfo(final String str, final String str2)\n
     '''
 def createRelation():
-    '''public void createRelation(final String str, final String str2, final RoleList list)
+    '''returns None\n\n
+    createRelation(final String str, final String str2, final RoleList list)\n
     '''
 def getRoles():
-    '''public RoleResult getRoles(final String s, final String[] array)
+    '''returns RoleResult\n\n
+    getRoles(final String s, final String[] array)\n
     '''
 def setRoles():
-    '''public RoleResult setRoles(final String str, final RoleList list)
+    '''returns RoleResult\n\n
+    setRoles(final String str, final RoleList list)\n
     '''
 def checkRoleWriting():
-    '''public Integer checkRoleWriting(final Role role, final String str, final Boolean obj)
+    '''returns Integer\n\n
+    checkRoleWriting(final Role role, final String str, final Boolean obj)\n
     '''
 def findAssociatedMBeans():
-    '''public Map findAssociatedMBeans(final ObjectName objectName, final String str, final String str2)
+    '''returns Map\n\n
+    findAssociatedMBeans(final ObjectName objectName, final String str, final String str2)\n
     '''
 def findReferencingRelations():
-    '''public Map findReferencingRelations(final ObjectName key, final String s, final String e)
+    '''returns Map\n\n
+    findReferencingRelations(final ObjectName key, final String s, final String e)\n
     '''

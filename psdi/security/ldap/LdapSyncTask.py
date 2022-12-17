@@ -1,55 +1,73 @@
-def LdapSyncTask():
-    '''public LdapSyncTask()
-    public LdapSyncTask(final String task, final String instance)
+def ():
+    '''returns LdapSyncTask\n\n
+    ()\n
+    (final String task, final String instance)\n
     '''
 def setFullSync():
-    '''public void setFullSync(final boolean fullSync)
+    '''returns None\n\n
+    setFullSync(final boolean fullSync)\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def setLogger():
-    '''public void setLogger(final MXLogger logger)
+    '''returns None\n\n
+    setLogger(final MXLogger logger)\n
     '''
 def getSqlLogger():
-    '''public MXLogger getSqlLogger()
+    '''returns MXLogger\n\n
+    getSqlLogger()\n
     '''
 def setSqlLogger():
-    '''public void setSqlLogger(final MXLogger logger)
+    '''returns None\n\n
+    setSqlLogger(final MXLogger logger)\n
     '''
 def init():
-    '''public void init(final LoadSyncSettings ldapSyncSettings)
+    '''returns None\n\n
+    init(final LoadSyncSettings ldapSyncSettings)\n
     '''
 def setConnection():
-    '''public void setConnection(final Connection connection)
+    '''returns None\n\n
+    setConnection(final Connection connection)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def performTask():
-    '''public void performTask()
+    '''returns None\n\n
+    performTask()\n
     '''
 def setCronTaskHistoryMsg():
-    '''public void setCronTaskHistoryMsg(final String val)
+    '''returns None\n\n
+    setCronTaskHistoryMsg(final String val)\n
     '''
 def getCronTaskHistoryMsg():
-    '''public String getCronTaskHistoryMsg()
+    '''returns String\n\n
+    getCronTaskHistoryMsg()\n
     '''
 def getTaskInstanceName():
-    '''public String getTaskInstanceName()
+    '''returns String\n\n
+    getTaskInstanceName()\n
     '''
 def setTaskInstanceName():
-    '''public void setTaskInstanceName(final String taskInstanceName)
+    '''returns None\n\n
+    setTaskInstanceName(final String taskInstanceName)\n
     '''
 def getTaskName():
-    '''public String getTaskName()
+    '''returns String\n\n
+    getTaskName()\n
     '''
 def setTaskName():
-    '''public void setTaskName(final String taskName)
+    '''returns None\n\n
+    setTaskName(final String taskName)\n
     '''

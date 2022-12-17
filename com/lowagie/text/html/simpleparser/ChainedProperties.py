@@ -1,15 +1,20 @@
-def ChainedProperties():
-    '''public ChainedProperties()
+def ():
+    '''returns ChainedProperties\n\n
+    ()\n
     '''
 def getProperty():
-    '''public String getProperty(final String key)
+    '''returns String\n\n
+    getProperty(final String key)\n
     '''
 def hasProperty():
-    '''public boolean hasProperty(final String key)
+    '''returns boolean\n\n
+    hasProperty(final String key)\n
     '''
 def addToChain():
-    '''public void addToChain(final String key, final HashMap prop)
+    '''returns None\n\n
+    addToChain(final String key, final HashMap prop)\n
     '''
 def removeChain():
-    '''public void removeChain(final String key)
+    '''returns None\n\n
+    removeChain(final String key)\n
     '''

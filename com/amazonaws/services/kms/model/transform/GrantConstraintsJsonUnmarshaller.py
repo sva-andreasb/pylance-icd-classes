@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public GrantConstraints unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static GrantConstraintsJsonUnmarshaller getInstance()
+    '''returns GrantConstraints\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

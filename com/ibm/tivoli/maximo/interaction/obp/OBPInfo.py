@@ -1,49 +1,61 @@
-def OBPInfo():
-    '''public OBPInfo(final String serviceName, final String portName, final String wsdlOperation, final String doc, final WSIO request, final WSIO response, final Map<String, String> nsContext)
-    public OBPInfo(final String wsdlOperation)
+def ():
+    '''returns OBPInfo\n\n
+    (final String serviceName, final String portName, final String wsdlOperation, final String doc, final WSIO request, final WSIO response, final Map<String, String> nsContext)\n
+    (final String wsdlOperation)\n
     '''
 def getDoc():
-    '''public String getDoc()
+    '''returns String\n\n
+    getDoc()\n
     '''
 def setDoc():
-    '''public void setDoc(final String doc)
+    '''returns None\n\n
+    setDoc(final String doc)\n
     '''
 def getWsdlOperationName():
-    '''public String getWsdlOperationName()
+    '''returns String\n\n
+    getWsdlOperationName()\n
     '''
 def getRequest():
-    '''public WSIO getRequest()
+    '''returns WSIO\n\n
+    getRequest()\n
     '''
 def setRequest():
-    '''public void setRequest(final WSIO request)
+    '''returns None\n\n
+    setRequest(final WSIO request)\n
     '''
 def getResponse():
-    '''public WSIO getResponse()
+    '''returns WSIO\n\n
+    getResponse()\n
     '''
 def setResponse():
-    '''public void setResponse(final WSIO response)
-    '''
-def getNsContext():
-    '''public Map<String, String> getNsContext()
+    '''returns None\n\n
+    setResponse(final WSIO response)\n
     '''
 def setNsContext():
-    '''public void setNsContext(final Map<String, String> nsContext)
+    '''returns None\n\n
+    setNsContext(final Map<String, String> nsContext)\n
     '''
 def isRequestMultiple():
-    '''public boolean isRequestMultiple()
+    '''returns boolean\n\n
+    isRequestMultiple()\n
     '''
 def isResponseMultiple():
-    '''public boolean isResponseMultiple()
+    '''returns boolean\n\n
+    isResponseMultiple()\n
     '''
 def getWsdlOperation():
-    '''public String getWsdlOperation()
+    '''returns String\n\n
+    getWsdlOperation()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getPortName():
-    '''public String getPortName()
+    '''returns String\n\n
+    getPortName()\n
     '''
 def createNewInstance():
-    '''public OBPInfo createNewInstance(final WSIO request, final WSIO response)
+    '''returns OBPInfo\n\n
+    createNewInstance(final WSIO request, final WSIO response)\n
     '''

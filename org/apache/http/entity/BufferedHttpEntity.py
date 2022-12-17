@@ -1,21 +1,28 @@
-def BufferedHttpEntity():
-    '''public BufferedHttpEntity(final HttpEntity entity)
+def ():
+    '''returns BufferedHttpEntity\n\n
+    (final HttpEntity entity)\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def isChunked():
-    '''public boolean isChunked()
+    '''returns boolean\n\n
+    isChunked()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''
 def isStreaming():
-    '''public boolean isStreaming()
+    '''returns boolean\n\n
+    isStreaming()\n
     '''

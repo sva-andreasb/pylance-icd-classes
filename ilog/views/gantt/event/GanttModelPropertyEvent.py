@@ -1,12 +1,12 @@
-def GanttModelPropertyEvent():
-    '''public GanttModelPropertyEvent(final IlvGanttModel ilvGanttModel, final String a, final Object o, final Object o2)
+def ():
+    '''returns GanttModelPropertyEvent\n\n
+    (final IlvGanttModel ilvGanttModel, final String a, final Object o, final Object o2)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
-    '''
-def getOldValue():
-    '''public final Object getOldValue()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getNewValue():
-    '''public Object getNewValue()
+    '''returns Object\n\n
+    getNewValue()\n
     '''

@@ -1,3 +1,4 @@
-def FldAssetSpecLRM():
-    '''public FldAssetSpecLRM(final MboValue mbv)
+def ():
+    '''returns FldAssetSpecLRM\n\n
+    (final MboValue mbv)\n
     '''

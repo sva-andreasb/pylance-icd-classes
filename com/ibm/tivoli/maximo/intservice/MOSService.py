@@ -1,24 +1,32 @@
 def processMOS():
-    '''public byte[] processMOS(final byte[] reqMosData, final String mosName)
+    '''returns byte[]\n\n
+    processMOS(final byte[] reqMosData, final String mosName)\n
     '''
 def wsProcessMOS():
-    '''public byte[] wsProcessMOS(final byte[] reqMosData, final String wsName)
+    '''returns byte[]\n\n
+    wsProcessMOS(final byte[] reqMosData, final String wsName)\n
     '''
 def secureProcessMOS():
-    '''public byte[] secureProcessMOS(final byte[] reqMosData, final String mosName, final Principal principal)
+    '''returns byte[]\n\n
+    secureProcessMOS(final byte[] reqMosData, final String mosName, final Principal principal)\n
     '''
 def wsSecureProcessMOS():
-    '''public byte[] wsSecureProcessMOS(final byte[] reqMosData, final String wsName, final Principal principal)
+    '''returns byte[]\n\n
+    wsSecureProcessMOS(final byte[] reqMosData, final String wsName, final Principal principal)\n
     '''
 def maxSecureProcessMOS():
-    '''public byte[] maxSecureProcessMOS(final String loginid, final String password, final byte[] reqMosData, final String mosName)
+    '''returns byte[]\n\n
+    maxSecureProcessMOS(final String loginid, final String password, final byte[] reqMosData, final String mosName)\n
     '''
 def maxAPIKeySecureProcessMOS():
-    '''public byte[] maxAPIKeySecureProcessMOS(final String apikey, final byte[] reqMosData, final String mosName)
+    '''returns byte[]\n\n
+    maxAPIKeySecureProcessMOS(final String apikey, final byte[] reqMosData, final String mosName)\n
     '''
 def wsMaxAPIKeySecureProcessMOS():
-    '''public byte[] wsMaxAPIKeySecureProcessMOS(final String apikey, final byte[] reqMosData, final String wsName)
+    '''returns byte[]\n\n
+    wsMaxAPIKeySecureProcessMOS(final String apikey, final byte[] reqMosData, final String wsName)\n
     '''
 def wsMaxSecureProcessMOS():
-    '''public byte[] wsMaxSecureProcessMOS(final String loginid, final String password, final byte[] reqMosData, final String wsName)
+    '''returns byte[]\n\n
+    wsMaxSecureProcessMOS(final String loginid, final String password, final byte[] reqMosData, final String wsName)\n
     '''

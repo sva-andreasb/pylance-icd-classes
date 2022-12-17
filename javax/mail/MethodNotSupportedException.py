@@ -1,4 +1,5 @@
-def MethodNotSupportedException():
-    '''public MethodNotSupportedException()
-    public MethodNotSupportedException(final String s)
+def ():
+    '''returns MethodNotSupportedException\n\n
+    ()\n
+    (final String s)\n
     '''

@@ -1,3 +1,4 @@
-def MaxExtCtlValSet():
-    '''public MaxExtCtlValSet(final MboServerInterface ms)
+def ():
+    '''returns MaxExtCtlValSet\n\n
+    (final MboServerInterface ms)\n
     '''

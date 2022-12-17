@@ -1,18 +1,24 @@
-def PooledDateFormatFactory():
-    '''public PooledDateFormatFactory(final String pattern)
+def ():
+    '''returns PooledDateFormatFactory\n\n
+    (final String pattern)\n
     '''
 def activateObject():
-    '''public void activateObject(final Object object)
+    '''returns None\n\n
+    activateObject(final Object object)\n
     '''
 def destroyObject():
-    '''public void destroyObject(Object object)
+    '''returns None\n\n
+    destroyObject(Object object)\n
     '''
 def makeObject():
-    '''public Object makeObject()
+    '''returns Object\n\n
+    makeObject()\n
     '''
 def passivateObject():
-    '''public void passivateObject(final Object object)
+    '''returns None\n\n
+    passivateObject(final Object object)\n
     '''
 def validateObject():
-    '''public boolean validateObject(final Object object)
+    '''returns boolean\n\n
+    validateObject(final Object object)\n
     '''

@@ -1,36 +1,47 @@
-def JsonObject():
-    '''public JsonObject()
+def ():
+    '''returns JsonObject\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final String property, JsonElement value)
+    '''returns None\n\n
+    add(final String property, JsonElement value)\n
     '''
 def remove():
-    '''public JsonElement remove(final String property)
+    '''returns JsonElement\n\n
+    remove(final String property)\n
     '''
 def addProperty():
-    '''public void addProperty(final String property, final String value)
-    public void addProperty(final String property, final Number value)
-    public void addProperty(final String property, final Boolean value)
-    public void addProperty(final String property, final Character value)
+    '''returns None\n\n
+    addProperty(final String property, final String value)\n
+    addProperty(final String property, final Number value)\n
+    addProperty(final String property, final Boolean value)\n
+    addProperty(final String property, final Character value)\n
     '''
 def has():
-    '''public boolean has(final String memberName)
+    '''returns boolean\n\n
+    has(final String memberName)\n
     '''
 def get():
-    '''public JsonElement get(final String memberName)
+    '''returns JsonElement\n\n
+    get(final String memberName)\n
     '''
 def getAsJsonPrimitive():
-    '''public JsonPrimitive getAsJsonPrimitive(final String memberName)
+    '''returns JsonPrimitive\n\n
+    getAsJsonPrimitive(final String memberName)\n
     '''
 def getAsJsonArray():
-    '''public JsonArray getAsJsonArray(final String memberName)
+    '''returns JsonArray\n\n
+    getAsJsonArray(final String memberName)\n
     '''
 def getAsJsonObject():
-    '''public JsonObject getAsJsonObject(final String memberName)
+    '''returns JsonObject\n\n
+    getAsJsonObject(final String memberName)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

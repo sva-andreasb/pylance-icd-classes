@@ -1,6 +1,8 @@
-def FldSearchDRVendor():
-    '''public FldSearchDRVendor(final MboValue mbv)
+def ():
+    '''returns FldSearchDRVendor\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

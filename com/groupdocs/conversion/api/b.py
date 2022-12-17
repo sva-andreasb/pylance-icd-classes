@@ -1,9 +1,11 @@
-def b():
-    '''public b(final ILoader<hU, FromCellsOptions> loader, final ToHtmlOptions toHtmlOptions)
-    public b(final ILoader<hU, FromCellsOptions> loader)
+def ():
+    '''returns b\n\n
+    (final ILoader<hU, FromCellsOptions> loader, final ToHtmlOptions toHtmlOptions)\n
+    (final ILoader<hU, FromCellsOptions> loader)\n
     '''
 def toHtml():
-    '''public void toHtml(final OutputStream outputStream, final IResourceCallback resourceCallback)
-    public void toHtml(final String savePath, final IResourceCallback resourceCallback)
-    public void toHtml(final IHtmlStreamCallback<Y> dataCallback)
+    '''returns None\n\n
+    toHtml(final OutputStream outputStream, final IResourceCallback resourceCallback)\n
+    toHtml(final String savePath, final IResourceCallback resourceCallback)\n
+    toHtml(final IHtmlStreamCallback<Y> dataCallback)\n
     '''

@@ -1,16 +1,17 @@
-def VNCMaximoCache():
-    '''public VNCMaximoCache()
+def ():
+    '''returns VNCMaximoCache\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String s)
-    '''
-def getMapValue():
-    '''public synchronized RemoteControllerData getMapValue(final String s, final String origin, final String s2, final String s3, final String s4, final String s5, final boolean b, final boolean b2, final String s6, final String s7)
+    '''returns None\n\n
+    reload()\n
+    reload(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

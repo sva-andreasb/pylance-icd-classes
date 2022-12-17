@@ -1,7 +1,9 @@
-def ActionsCfgService():
-    '''public ActionsCfgService()
-    public ActionsCfgService(final MXServer mxServer)
+def ():
+    '''returns ActionsCfgService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getAllowedActions():
-    '''public MboSetRemote getAllowedActions(final MboSetRemote sigoptions, final UserInfo ui)
+    '''returns MboSetRemote\n\n
+    getAllowedActions(final MboSetRemote sigoptions, final UserInfo ui)\n
     '''

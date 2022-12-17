@@ -1,6 +1,8 @@
-def OAuthGetTemporaryToken():
-    '''public OAuthGetTemporaryToken(final String authorizationServerUrl)
+def ():
+    '''returns OAuthGetTemporaryToken\n\n
+    (final String authorizationServerUrl)\n
     '''
 def createParameters():
-    '''public OAuthParameters createParameters()
+    '''returns OAuthParameters\n\n
+    createParameters()\n
     '''

@@ -1,3 +1,4 @@
-def WOAssetsToMoveSet():
-    '''public WOAssetsToMoveSet(final MboServerInterface ms)
+def ():
+    '''returns WOAssetsToMoveSet\n\n
+    (final MboServerInterface ms)\n
     '''

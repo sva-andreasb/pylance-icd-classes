@@ -1,30 +1,40 @@
-def STCtrlValueCfg():
-    '''public STCtrlValueCfg(final MboSet ms)
+def ():
+    '''returns STCtrlValueCfg\n\n
+    (final MboSet ms)\n
     '''
 def activate():
-    '''public void activate(final boolean isActive)
+    '''returns None\n\n
+    activate(final boolean isActive)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def setRequiredToReplyTemplate():
-    '''public void setRequiredToReplyTemplate()
+    '''returns None\n\n
+    setRequiredToReplyTemplate()\n
     '''
 def undeleteWithValidate():
-    '''public void undeleteWithValidate()
+    '''returns None\n\n
+    undeleteWithValidate()\n
     '''

@@ -1,26 +1,26 @@
-def PostComp():
-    '''public PostComp(final STSession stSession)
-    '''
-def addPostServiceListener():
-    '''public synchronized void addPostServiceListener(final PostServiceListener obj)
-    '''
-def removePostServiceListener():
-    '''public synchronized void removePostServiceListener(final PostServiceListener obj)
+def ():
+    '''returns PostComp\n\n
+    (final STSession stSession)\n
     '''
 def createPost():
-    '''public Post createPost(final int n)
-    public Post createPost(final int n, final String s, final String s2, final int n2, final byte[] array, final STUser[] array2, final boolean b)
-    public Post createPost(final int n, final String s, final String s2, final int n2, final byte[] array, final STUser[] array2)
+    '''returns Post\n\n
+    createPost(final int n)\n
+    createPost(final int n, final String s, final String s2, final int n2, final byte[] array, final STUser[] array2, final boolean b)\n
+    createPost(final int n, final String s, final String s2, final int n2, final byte[] array, final STUser[] array2)\n
     '''
 def registerPostType():
-    '''public int registerPostType(final int n)
+    '''returns int\n\n
+    registerPostType(final int n)\n
     '''
 def unregisterPostType():
-    '''public int unregisterPostType(final int value)
+    '''returns int\n\n
+    unregisterPostType(final int value)\n
     '''
 def imReceived():
-    '''public void imReceived(final ImEvent imEvent)
+    '''returns None\n\n
+    imReceived(final ImEvent imEvent)\n
     '''
 def dataReceived():
-    '''public void dataReceived(final ImEvent imEvent)
+    '''returns None\n\n
+    dataReceived(final ImEvent imEvent)\n
     '''

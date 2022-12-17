@@ -1,25 +1,33 @@
-def NamePartsMap():
-    '''public NamePartsMap()
+def ():
+    '''returns NamePartsMap\n\n
+    ()\n
     '''
 def addNextEntry():
-    '''public void addNextEntry(final Guid supGuid)
-    public void addNextEntry(final Guid[] oderedSupGuid)
+    '''returns None\n\n
+    addNextEntry(final Guid supGuid)\n
+    addNextEntry(final Guid[] oderedSupGuid)\n
     '''
 def addEntryAfter():
-    '''public boolean addEntryAfter(final Guid parentGuid, final Guid supGuid)
+    '''returns boolean\n\n
+    addEntryAfter(final Guid parentGuid, final Guid supGuid)\n
     '''
 def addNames():
-    '''public boolean addNames(final Guid inputGuid, final List<String> names)
+    '''returns boolean\n\n
+    addNames(final Guid inputGuid, final List<String> names)\n
     '''
 def addName():
-    '''public boolean addName(final Guid inputGuid, final String name)
+    '''returns boolean\n\n
+    addName(final Guid inputGuid, final String name)\n
     '''
 def getNames():
-    '''public List<String> getNames(final Guid guid)
+    '''returns List<String>\n\n
+    getNames(final Guid guid)\n
     '''
 def asList():
-    '''public List<List<String>> asList()
+    '''returns List<List<String>>\n\n
+    asList()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

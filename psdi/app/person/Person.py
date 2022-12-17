@@ -1,108 +1,142 @@
-def Person():
-    '''public Person(final MboSet ms)
+def ():
+    '''returns Person\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def getDefaultDisplayName():
-    '''public String getDefaultDisplayName()
+    '''returns String\n\n
+    getDefaultDisplayName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def isDelegateLoopCreated():
-    '''public void isDelegateLoopCreated()
+    '''returns None\n\n
+    isDelegateLoopCreated()\n
     '''
 def getSupervisees():
-    '''public String getSupervisees()
+    '''returns String\n\n
+    getSupervisees()\n
     '''
 def setPrimaryPhone():
-    '''public void setPrimaryPhone(final MboRemote inPhone)
+    '''returns None\n\n
+    setPrimaryPhone(final MboRemote inPhone)\n
     '''
 def setPrimaryEmail():
-    '''public void setPrimaryEmail(final MboRemote inEmail)
+    '''returns None\n\n
+    setPrimaryEmail(final MboRemote inEmail)\n
     '''
 def getPrimaryPhone():
-    '''public MboRemote getPrimaryPhone()
+    '''returns MboRemote\n\n
+    getPrimaryPhone()\n
     '''
 def getPrimaryEmail():
-    '''public MboRemote getPrimaryEmail()
+    '''returns MboRemote\n\n
+    getPrimaryEmail()\n
     '''
 def getEndDateFromCalendar():
-    '''public Date getEndDateFromCalendar(Date startDate, final String duration, final String orgid)
+    '''returns Date\n\n
+    getEndDateFromCalendar(Date startDate, final String duration, final String orgid)\n
     '''
 def getTodaysHours():
-    '''public double getTodaysHours(final Date startDate, final String orgid)
+    '''returns double\n\n
+    getTodaysHours(final Date startDate, final String orgid)\n
     '''
 def getAvailableHours():
-    '''public double getAvailableHours(final Date startDate, final String orgid)
-    public double getAvailableHours(final Date startDate, final String orgid, final AvailCalc availCalc)
-    public double getAvailableHours(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)
+    '''returns double\n\n
+    getAvailableHours(final Date startDate, final String orgid)\n
+    getAvailableHours(final Date startDate, final String orgid, final AvailCalc availCalc)\n
+    getAvailableHours(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)\n
     '''
 def getAvailableMbo():
-    '''public MboRemote getAvailableMbo(final Date startDate, final String orgid)
-    public MboRemote getAvailableMbo(final Date startDate, final String orgid, final AvailCalc availCalc)
-    public MboRemote getAvailableMbo(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)
+    '''returns MboRemote\n\n
+    getAvailableMbo(final Date startDate, final String orgid)\n
+    getAvailableMbo(final Date startDate, final String orgid, final AvailCalc availCalc)\n
+    getAvailableMbo(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)\n
     '''
 def getAvailableMboList():
-    '''public List<MboRemote> getAvailableMboList(final Date startDate, final String orgid)
-    public List<MboRemote> getAvailableMboList(final Date startDate, final String orgid, final AvailCalc availCalc)
-    public List<MboRemote> getAvailableMboList(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)
+    '''returns List<MboRemote>\n\n
+    getAvailableMboList(final Date startDate, final String orgid)\n
+    getAvailableMboList(final Date startDate, final String orgid, final AvailCalc availCalc)\n
+    getAvailableMboList(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo)\n
     '''
 def getDelegate():
-    '''public PersonRemote getDelegate(final Date asof)
+    '''returns PersonRemote\n\n
+    getDelegate(final Date asof)\n
     '''
 def getLastDelegate():
-    '''public PersonRemote getLastDelegate(final PersonRemote person, final Date asof)
+    '''returns PersonRemote\n\n
+    getLastDelegate(final PersonRemote person, final Date asof)\n
     '''
 def getCalType():
-    '''public String getCalType()
+    '''returns String\n\n
+    getCalType()\n
     '''
 def getLocaleStr():
-    '''public String getLocaleStr()
+    '''returns String\n\n
+    getLocaleStr()\n
     '''
 def getTimezoneStr():
-    '''public String getTimezoneStr()
+    '''returns String\n\n
+    getTimezoneStr()\n
     '''
 def updatePrimaryCalendar():
-    '''public void updatePrimaryCalendar()
+    '''returns None\n\n
+    updatePrimaryCalendar()\n
     '''
 def deletePrimaryCalendar():
-    '''public void deletePrimaryCalendar()
+    '''returns None\n\n
+    deletePrimaryCalendar()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def getStartApp():
-    '''public String getStartApp()
+    '''returns String\n\n
+    getStartApp()\n
     '''
 def toChangeStatusAfterInactive():
-    '''public boolean toChangeStatusAfterInactive()
+    '''returns boolean\n\n
+    toChangeStatusAfterInactive()\n
     '''
 def setDateTo():
-    '''public void setDateTo(final Date dateTo)
+    '''returns None\n\n
+    setDateTo(final Date dateTo)\n
     '''
 def getDateTo():
-    '''public Date getDateTo()
+    '''returns Date\n\n
+    getDateTo()\n
     '''
 def deletePersonData():
-    '''public void deletePersonData()
+    '''returns None\n\n
+    deletePersonData()\n
     '''

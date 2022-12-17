@@ -1,25 +1,25 @@
-def WeatherAssetCacheImpl():
-    '''public WeatherAssetCacheImpl()
+def ():
+    '''returns WeatherAssetCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
-    '''
-def loadRegistryInfo():
-    '''public Map<String, WeatherOrgInfo> loadRegistryInfo()
+    '''returns None\n\n
+    init()\n
     '''
 def loadLatLong():
-    '''public void loadLatLong()
+    '''returns None\n\n
+    loadLatLong()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def exists():
-    '''public boolean exists(final String productCode, final String osName, final long objectId, final String personId)
-    '''
-def getAllSubscriptions():
-    '''public Map<String, Map<String, Set<String>>> getAllSubscriptions()
+    '''returns boolean\n\n
+    exists(final String productCode, final String osName, final long objectId, final String personId)\n
     '''

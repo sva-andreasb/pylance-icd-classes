@@ -1,48 +1,64 @@
-def LocHierarchySet():
-    '''public LocHierarchySet(final MboServerInterface ms)
+def ():
+    '''returns LocHierarchySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def isChildOfThisLocHierarchyProcessedForDeletion():
-    '''public boolean isChildOfThisLocHierarchyProcessedForDeletion(final String lochierarchyid)
+    '''returns boolean\n\n
+    isChildOfThisLocHierarchyProcessedForDeletion(final String lochierarchyid)\n
     '''
 def isLocAncestorAlreadyMarkedForDeletion():
-    '''public boolean isLocAncestorAlreadyMarkedForDeletion(final String locancestorid)
+    '''returns boolean\n\n
+    isLocAncestorAlreadyMarkedForDeletion(final String locancestorid)\n
     '''
 def getDeletionsProcessed():
-    '''public Vector<String> getDeletionsProcessed()
+    '''returns Vector<String>\n\n
+    getDeletionsProcessed()\n
     '''
 def getDeletedLocAncestors():
-    '''public Vector<String> getDeletedLocAncestors()
+    '''returns Vector<String>\n\n
+    getDeletedLocAncestors()\n
     '''
 def setDeletionsProcessed():
-    '''public void setDeletionsProcessed(final Vector<String> deletionsProcessed)
+    '''returns None\n\n
+    setDeletionsProcessed(final Vector<String> deletionsProcessed)\n
     '''
 def setDeletedLocAncestors():
-    '''public void setDeletedLocAncestors(final Vector<String> deletedLocAncestors)
+    '''returns None\n\n
+    setDeletedLocAncestors(final Vector<String> deletedLocAncestors)\n
     '''
 def recordChildrenOfThisLocHierarchyProcessedForDeletion():
-    '''public void recordChildrenOfThisLocHierarchyProcessedForDeletion(final String lochierarchyid)
+    '''returns None\n\n
+    recordChildrenOfThisLocHierarchyProcessedForDeletion(final String lochierarchyid)\n
     '''
 def recordLocAncestorAsMarkedForDeletion():
-    '''public void recordLocAncestorAsMarkedForDeletion(final String locancestorid)
+    '''returns None\n\n
+    recordLocAncestorAsMarkedForDeletion(final String locancestorid)\n
     '''
 def recordNewTopLevelLocHierForNetworkedLocHier():
-    '''public void recordNewTopLevelLocHierForNetworkedLocHier(final String newTopLevelLocHier)
+    '''returns None\n\n
+    recordNewTopLevelLocHierForNetworkedLocHier(final String newTopLevelLocHier)\n
     '''
 def isTopLevelForNetworkedLocHierAdded():
-    '''public boolean isTopLevelForNetworkedLocHierAdded(final String newTopLevelLocHier)
+    '''returns boolean\n\n
+    isTopLevelForNetworkedLocHierAdded(final String newTopLevelLocHier)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def isLocLocAncCreated():
-    '''public boolean isLocLocAncCreated()
+    '''returns boolean\n\n
+    isLocLocAncCreated()\n
     '''
 def setLocLocAncCreated():
-    '''public void setLocLocAncCreated(final boolean locLocAncCreated)
+    '''returns None\n\n
+    setLocLocAncCreated(final boolean locLocAncCreated)\n
     '''
 def save():
-    '''public void save(final long flags)
+    '''returns None\n\n
+    save(final long flags)\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''

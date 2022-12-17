@@ -1,207 +1,222 @@
-def IloCplex__GoalI():
-    '''public IloCplex__GoalI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__GoalI obj)
+def ():
+    '''returns BranchType\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getEnv():
-    '''public IloEnv getEnv()
+    '''returns IloEnv\n\n
+    getEnv()\n
     '''
 def execute():
-    '''public IloCplex__Goal execute()
+    '''returns IloCplex__Goal\n\n
+    execute()\n
     '''
 def duplicateGoal():
-    '''public IloCplex__Goal duplicateGoal()
+    '''returns IloCplex__Goal\n\n
+    duplicateGoal()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def getModel():
-    '''public IloModel getModel()
+    '''returns IloModel\n\n
+    getModel()\n
     '''
 def getNcols():
-    '''public int getNcols()
+    '''returns int\n\n
+    getNcols()\n
     '''
 def getNrows():
-    '''public int getNrows()
+    '''returns int\n\n
+    getNrows()\n
     '''
 def getBestObjValue():
-    '''public double getBestObjValue()
+    '''returns double\n\n
+    getBestObjValue()\n
     '''
 def getMIPRelativeGap():
-    '''public double getMIPRelativeGap()
+    '''returns double\n\n
+    getMIPRelativeGap()\n
     '''
 def getCutoff():
-    '''public double getCutoff()
+    '''returns double\n\n
+    getCutoff()\n
     '''
 def getDirection():
-    '''public SWIGTYPE_p_IloCplex__BranchDirection getDirection(final IloNumVar var)
-    public SWIGTYPE_p_IloCplex__BranchDirection getDirection(final IloIntVar var)
+    '''returns SWIGTYPE_p_IloCplex__BranchDirection\n\n
+    getDirection(final IloNumVar var)\n
+    getDirection(final IloIntVar var)\n
     '''
 def getIncumbentObjValue():
-    '''public double getIncumbentObjValue()
+    '''returns double\n\n
+    getIncumbentObjValue()\n
     '''
 def getIncumbentValue():
-    '''public double getIncumbentValue(final IloNumVar var)
-    public double getIncumbentValue(final IloIntVar var)
-    public double getIncumbentValue(final SWIGTYPE_p_IloExprArg expr)
+    '''returns double\n\n
+    getIncumbentValue(final IloNumVar var)\n
+    getIncumbentValue(final IloIntVar var)\n
+    getIncumbentValue(final SWIGTYPE_p_IloExprArg expr)\n
     '''
 def getIncumbentValues():
-    '''public void getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)
-    public void getIncumbentValues(final IloNumArray val, final IloIntVarArray vars)
+    '''returns None\n\n
+    getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)\n
+    getIncumbentValues(final IloNumArray val, final IloIntVarArray vars)\n
     '''
 def getMyThreadNum():
-    '''public int getMyThreadNum()
+    '''returns int\n\n
+    getMyThreadNum()\n
     '''
 def getUserThreads():
-    '''public int getUserThreads()
+    '''returns int\n\n
+    getUserThreads()\n
     '''
 def getNcuts():
-    '''public int getNcuts(final SWIGTYPE_p_IloCplex__CutType which)
+    '''returns int\n\n
+    getNcuts(final SWIGTYPE_p_IloCplex__CutType which)\n
     '''
 def getNiterations64():
-    '''public long getNiterations64()
+    '''returns long\n\n
+    getNiterations64()\n
     '''
 def getNiterations():
-    '''public int getNiterations()
+    '''returns int\n\n
+    getNiterations()\n
     '''
 def getNnodes64():
-    '''public long getNnodes64()
+    '''returns long\n\n
+    getNnodes64()\n
     '''
 def getNnodes():
-    '''public int getNnodes()
+    '''returns int\n\n
+    getNnodes()\n
     '''
 def getNremainingNodes64():
-    '''public long getNremainingNodes64()
+    '''returns long\n\n
+    getNremainingNodes64()\n
     '''
 def getNremainingNodes():
-    '''public int getNremainingNodes()
+    '''returns int\n\n
+    getNremainingNodes()\n
     '''
 def getPriority():
-    '''public double getPriority(final IloNumVar var)
-    public double getPriority(final IloIntVar var)
+    '''returns double\n\n
+    getPriority(final IloNumVar var)\n
+    getPriority(final IloIntVar var)\n
     '''
 def isIntegerFeasible():
-    '''public boolean isIntegerFeasible()
+    '''returns boolean\n\n
+    isIntegerFeasible()\n
     '''
 def hasIncumbent():
-    '''public boolean hasIncumbent()
+    '''returns boolean\n\n
+    hasIncumbent()\n
     '''
 def getBranch():
-    '''public double getBranch(final IloNumVarArray vars, final IloNumArray bounds, final IloCplex__BranchDirectionArray dirs, final int i)
+    '''returns double\n\n
+    getBranch(final IloNumVarArray vars, final IloNumArray bounds, final IloCplex__BranchDirectionArray dirs, final int i)\n
     '''
 def getBranchType():
-    '''public BranchType getBranchType()
+    '''returns BranchType\n\n
+    getBranchType()\n
     '''
 def getNbranches():
-    '''public int getNbranches()
+    '''returns int\n\n
+    getNbranches()\n
     '''
 def getDownPseudoCost():
-    '''public double getDownPseudoCost(final IloNumVar var)
-    public double getDownPseudoCost(final IloIntVar var)
+    '''returns double\n\n
+    getDownPseudoCost(final IloNumVar var)\n
+    getDownPseudoCost(final IloIntVar var)\n
     '''
 def getFeasibility():
-    '''public IntegerFeasibility getFeasibility(final IloNumVar var)
-    public IntegerFeasibility getFeasibility(final IloIntVar var)
-    public IntegerFeasibility getFeasibility(final IloSOS1 sos)
-    public IntegerFeasibility getFeasibility(final IloSOS2 sos)
+    '''returns IntegerFeasibility\n\n
+    getFeasibility(final IloNumVar var)\n
+    getFeasibility(final IloIntVar var)\n
+    getFeasibility(final IloSOS1 sos)\n
+    getFeasibility(final IloSOS2 sos)\n
     '''
 def getFeasibilities():
-    '''public void getFeasibilities(final IloCplex__GoalI__IntegerFeasibilityArray stats, final IloNumVarArray vars)
-    public void getFeasibilities(final IloCplex__GoalI__IntegerFeasibilityArray stats, final IloIntVarArray vars)
+    '''returns None\n\n
+    getFeasibilities(final IloCplex__GoalI__IntegerFeasibilityArray stats, final IloNumVarArray vars)\n
+    getFeasibilities(final IloCplex__GoalI__IntegerFeasibilityArray stats, final IloIntVarArray vars)\n
     '''
 def getLB():
-    '''public double getLB(final IloNumVar var)
-    public double getLB(final IloIntVar var)
+    '''returns double\n\n
+    getLB(final IloNumVar var)\n
+    getLB(final IloIntVar var)\n
     '''
 def getLBs():
-    '''public void getLBs(final IloNumArray vals, final IloNumVarArray vars)
-    public void getLBs(final IloNumArray vals, final IloIntVarArray vars)
+    '''returns None\n\n
+    getLBs(final IloNumArray vals, final IloNumVarArray vars)\n
+    getLBs(final IloNumArray vals, final IloIntVarArray vars)\n
     '''
 def getObjCoef():
-    '''public double getObjCoef(final IloNumVar var)
-    public double getObjCoef(final IloIntVar var)
+    '''returns double\n\n
+    getObjCoef(final IloNumVar var)\n
+    getObjCoef(final IloIntVar var)\n
     '''
 def getObjCoefs():
-    '''public void getObjCoefs(final IloNumArray vals, final IloNumVarArray vars)
-    public void getObjCoefs(final IloNumArray vals, final IloIntVarArray vars)
+    '''returns None\n\n
+    getObjCoefs(final IloNumArray vals, final IloNumVarArray vars)\n
+    getObjCoefs(final IloNumArray vals, final IloIntVarArray vars)\n
     '''
 def getObjValue():
-    '''public double getObjValue()
+    '''returns double\n\n
+    getObjValue()\n
     '''
 def getSlack():
-    '''public double getSlack(final IloRange rng)
+    '''returns double\n\n
+    getSlack(final IloRange rng)\n
     '''
 def getSlacks():
-    '''public void getSlacks(final IloNumArray vals, final IloRangeArray rngs)
+    '''returns None\n\n
+    getSlacks(final IloNumArray vals, final IloRangeArray rngs)\n
     '''
 def getUB():
-    '''public double getUB(final IloNumVar var)
-    public double getUB(final IloIntVar var)
+    '''returns double\n\n
+    getUB(final IloNumVar var)\n
+    getUB(final IloIntVar var)\n
     '''
 def getUBs():
-    '''public void getUBs(final IloNumArray vals, final IloNumVarArray vars)
-    public void getUBs(final IloNumArray vals, final IloIntVarArray vars)
+    '''returns None\n\n
+    getUBs(final IloNumArray vals, final IloNumVarArray vars)\n
+    getUBs(final IloNumArray vals, final IloIntVarArray vars)\n
     '''
 def getUpPseudoCost():
-    '''public double getUpPseudoCost(final IloNumVar var)
-    public double getUpPseudoCost(final IloIntVar var)
+    '''returns double\n\n
+    getUpPseudoCost(final IloNumVar var)\n
+    getUpPseudoCost(final IloIntVar var)\n
     '''
 def getValue():
-    '''public double getValue(final SWIGTYPE_p_IloExprArg expr)
-    public double getValue(final IloNumVar var)
-    public double getValue(final IloIntVar var)
-    public double getValue(final IloNumExpr expr)
+    '''returns double\n\n
+    getValue(final SWIGTYPE_p_IloExprArg expr)\n
+    getValue(final IloNumVar var)\n
+    getValue(final IloIntVar var)\n
+    getValue(final IloNumExpr expr)\n
     '''
 def getValues():
-    '''public void getValues(final IloNumArray vals, final IloNumVarArray vars)
-    public void getValues(final IloNumArray vals, final IloIntVarArray vars)
+    '''returns None\n\n
+    getValues(final IloNumArray vals, final IloNumVarArray vars)\n
+    getValues(final IloNumArray vals, final IloIntVarArray vars)\n
     '''
 def isSOSFeasible():
-    '''public boolean isSOSFeasible(final IloSOS1 sos1)
-    public boolean isSOSFeasible(final IloSOS2 sos2)
-    '''
-def BranchAsCplexGoal():
-    '''public static IloCplex__Goal BranchAsCplexGoal(final IloEnv env)
-    '''
-def OrGoal():
-    '''public static IloCplex__Goal OrGoal(final IloCplex__Goal goal1, final IloCplex__Goal goal2)
-    '''
-def AndGoal():
-    '''public static IloCplex__Goal AndGoal(final IloCplex__Goal goal1, final IloCplex__Goal goal2)
-    '''
-def FailGoal():
-    '''public static IloCplex__Goal FailGoal(final IloEnv env)
-    '''
-def GlobalCutGoal():
-    '''public static IloCplex__Goal GlobalCutGoal(final IloConstraint con)
-    public static IloCplex__Goal GlobalCutGoal(final IloConstraintArray con)
-    '''
-def SolutionGoal():
-    '''public static IloCplex__Goal SolutionGoal(final IloNumVarArray vars, final IloNumArray vals)
+    '''returns boolean\n\n
+    isSOSFeasible(final IloSOS1 sos1)\n
+    isSOSFeasible(final IloSOS2 sos2)\n
     '''
 def mySwigValue():
-    '''public int mySwigValue()
-    public int mySwigValue()
-    '''
-def swigValue():
-    '''public final int swigValue()
-    public final int swigValue()
+    '''returns int\n\n
+    mySwigValue()\n
+    mySwigValue()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def swigToEnum():
-    '''public static IntegerFeasibility swigToEnum(final int swigValue)
-    public static BranchType swigToEnum(final int swigValue)
-    '''
-def IntegerFeasibility():
-    '''public IntegerFeasibility(final String swigName, final int swigValue)
-    '''
-def BranchType():
-    '''public BranchType(final String swigName, final int swigValue)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

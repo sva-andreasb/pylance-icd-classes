@@ -1,12 +1,16 @@
-def ModelVersion():
-    '''public ModelVersion(final String modelVersion)
+def ():
+    '''returns ModelVersion\n\n
+    (final String modelVersion)\n
     '''
 def compareTo():
-    '''public int compareTo(final ModelVersion other)
+    '''returns int\n\n
+    compareTo(final ModelVersion other)\n
     '''
 def equals():
-    '''public boolean equals(final ModelVersion other)
+    '''returns boolean\n\n
+    equals(final ModelVersion other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

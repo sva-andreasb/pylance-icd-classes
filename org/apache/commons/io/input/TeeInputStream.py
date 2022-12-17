@@ -1,12 +1,15 @@
-def TeeInputStream():
-    '''public TeeInputStream(final InputStream input, final OutputStream branch)
-    public TeeInputStream(final InputStream input, final OutputStream branch, final boolean closeBranch)
+def ():
+    '''returns TeeInputStream\n\n
+    (final InputStream input, final OutputStream branch)\n
+    (final InputStream input, final OutputStream branch, final boolean closeBranch)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] bts, final int st, final int end)
-    public int read(final byte[] bts)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] bts, final int st, final int end)\n
+    read(final byte[] bts)\n
     '''

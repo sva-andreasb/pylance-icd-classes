@@ -1,10 +1,13 @@
-def DefaultClassHolder():
-    '''public DefaultClassHolder(final Class defaultClass)
-    public DefaultClassHolder(final String defaultName)
+def ():
+    '''returns DefaultClassHolder\n\n
+    (final Class defaultClass)\n
+    (final String defaultName)\n
     '''
 def getDefaultClass():
-    '''public Class getDefaultClass(final SPInterface spi, final ClassLoaders loaders)
+    '''returns Class\n\n
+    getDefaultClass(final SPInterface spi, final ClassLoaders loaders)\n
     '''
 def getDefaultName():
-    '''public String getDefaultName()
+    '''returns String\n\n
+    getDefaultName()\n
     '''

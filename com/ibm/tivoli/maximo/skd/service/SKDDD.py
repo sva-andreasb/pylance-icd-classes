@@ -1,50 +1,35 @@
 SKDACTIONINFOMAP_SEPARATOR = "String  \"\u00ef¿½\""
-def SKDDD():
-    '''public SKDDD()
+def ():
+    '''returns SKDDD\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
-    public void init(final MXServer mxs)
+    '''returns None\n\n
+    init()\n
+    init(final MXServer mxs)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getAppFromMaxApps():
-    '''public List<String> getAppFromMaxApps(final String objectName, final UserInfo userInfo)
+    '''returns List<String>\n\n
+    getAppFromMaxApps(final String objectName, final UserInfo userInfo)\n
     '''
 def getPropertyInfo():
-    '''public SKDPropertyInfo getPropertyInfo(final String skdObjectName, final String objectName, final String propertyName)
-    '''
-def getPropertyInfoMap():
-    '''public HashMap<String, SKDPropertyInfo> getPropertyInfoMap(final String skdObjectName, final String objectName)
-    public LinkedHashMap<String, SKDPropertyInfo> getPropertyInfoMap(final String skdObjectName)
-    '''
-def getPropertyInfoMapByObjectName():
-    '''public HashMap<String, LinkedHashMap<String, SKDPropertyInfo>> getPropertyInfoMapByObjectName(final String objectName)
-    '''
-def getPropertyInfoMapBySKDObjectName():
-    '''public HashMap<String, LinkedHashMap<String, SKDPropertyInfo>> getPropertyInfoMapBySKDObjectName(final String skdObjectName)
+    '''returns SKDPropertyInfo\n\n
+    getPropertyInfo(final String skdObjectName, final String objectName, final String propertyName)\n
     '''
 def getObjectInfoListBySKDObjectName():
-    '''public ArrayList<SKDObjectInfo> getObjectInfoListBySKDObjectName(final String skdObjectName)
-    '''
-def getObjectInfoMapBySKDObjectName():
-    '''public HashMap<String, SKDObjectInfo> getObjectInfoMapBySKDObjectName(final String skdObjectName)
+    '''returns ArrayList<SKDObjectInfo>\n\n
+    getObjectInfoListBySKDObjectName(final String skdObjectName)\n
     '''
 def getAllSameAsObjectNames():
-    '''public Set<String> getAllSameAsObjectNames(final String skdObjectName, final String objectName)
-    '''
-def getDataGroupInfoList():
-    '''public HashMap<String, SKDDataGroupInfo> getDataGroupInfoList(final String skdObjectName)
-    '''
-def getActionInfo():
-    '''public HashMap<String, HashMap<String, SKDActionInfo>> getActionInfo()
-    public HashMap<String, HashMap<String, SKDActionInfo>> getActionInfo(final String useWith)
-    '''
-def getUidActionInfo():
-    '''public HashMap<Long, SKDActionInfo> getUidActionInfo()
+    '''returns Set<String>\n\n
+    getAllSameAsObjectNames(final String skdObjectName, final String objectName)\n
     '''

@@ -1,6 +1,8 @@
-def FldFeatureType():
-    '''public FldFeatureType(final MboValue mbv)
+def ():
+    '''returns FldFeatureType\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,32 +1,42 @@
-def AmazonS3URI():
-    '''public AmazonS3URI(final String str)
-    public AmazonS3URI(final String str, final boolean urlEncode)
-    public AmazonS3URI(final URI uri)
+def ():
+    '''returns AmazonS3URI\n\n
+    (final String str)\n
+    (final String str, final boolean urlEncode)\n
+    (final URI uri)\n
     '''
 def getURI():
-    '''public URI getURI()
+    '''returns URI\n\n
+    getURI()\n
     '''
 def isPathStyle():
-    '''public boolean isPathStyle()
+    '''returns boolean\n\n
+    isPathStyle()\n
     '''
 def getBucket():
-    '''public String getBucket()
+    '''returns String\n\n
+    getBucket()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def getRegion():
-    '''public String getRegion()
+    '''returns String\n\n
+    getRegion()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

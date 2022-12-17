@@ -1,9 +1,12 @@
-def WeatherOrganization():
-    '''public WeatherOrganization(final MboSet ms)
+def ():
+    '''returns WeatherOrganization\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

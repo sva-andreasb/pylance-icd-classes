@@ -1,23 +1,30 @@
 DEFAULT = "String  \"DefaultAccessCollection\""
-def Resource():
-    '''public Resource(final String name, final String guid)
-    public Resource(final Resource resource)
+def ():
+    '''returns Resource\n\n
+    (final String name, final String guid)\n
+    (final Resource resource)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setGuid():
-    '''public void setGuid(final String guid)
+    '''returns None\n\n
+    setGuid(final String guid)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getGuid():
-    '''public String getGuid()
+    '''returns String\n\n
+    getGuid()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

@@ -1,68 +1,86 @@
-def BidiLine():
-    '''public BidiLine()
-    public BidiLine(final BidiLine org)
+def ():
+    '''returns BidiLine\n\n
+    ()\n
+    (final BidiLine org)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clearChunks():
-    '''public void clearChunks()
+    '''returns None\n\n
+    clearChunks()\n
     '''
 def getParagraph():
-    '''public boolean getParagraph(final int runDirection)
+    '''returns boolean\n\n
+    getParagraph(final int runDirection)\n
     '''
 def addChunk():
-    '''public void addChunk(final PdfChunk chunk)
+    '''returns None\n\n
+    addChunk(final PdfChunk chunk)\n
     '''
 def addChunks():
-    '''public void addChunks(final ArrayList chunks)
+    '''returns None\n\n
+    addChunks(final ArrayList chunks)\n
     '''
 def addPiece():
-    '''public void addPiece(final char c, final PdfChunk chunk)
+    '''returns None\n\n
+    addPiece(final char c, final PdfChunk chunk)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def restore():
-    '''public void restore()
+    '''returns None\n\n
+    restore()\n
     '''
 def mirrorGlyphs():
-    '''public void mirrorGlyphs()
+    '''returns None\n\n
+    mirrorGlyphs()\n
     '''
 def doArabicShapping():
-    '''public void doArabicShapping()
+    '''returns None\n\n
+    doArabicShapping()\n
     '''
 def processLine():
-    '''public PdfLine processLine(float width, final int alignment, final int runDirection, final int arabicOptions)
+    '''returns PdfLine\n\n
+    processLine(float width, final int alignment, final int runDirection, final int arabicOptions)\n
     '''
 def getWidth():
-    '''public float getWidth(int startIdx, final int lastIdx)
+    '''returns float\n\n
+    getWidth(int startIdx, final int lastIdx)\n
     '''
 def createArrayOfPdfChunks():
-    '''public ArrayList createArrayOfPdfChunks(final int startIdx, final int endIdx)
-    public ArrayList createArrayOfPdfChunks(int startIdx, final int endIdx, final PdfChunk extraPdfChunk)
+    '''returns ArrayList\n\n
+    createArrayOfPdfChunks(final int startIdx, final int endIdx)\n
+    createArrayOfPdfChunks(int startIdx, final int endIdx, final PdfChunk extraPdfChunk)\n
     '''
 def getWord():
-    '''public int[] getWord(final int startIdx, final int idx)
+    '''returns int[]\n\n
+    getWord(final int startIdx, final int idx)\n
     '''
 def trimRight():
-    '''public int trimRight(final int startIdx, final int endIdx)
+    '''returns int\n\n
+    trimRight(final int startIdx, final int endIdx)\n
     '''
 def trimLeft():
-    '''public int trimLeft(final int startIdx, final int endIdx)
+    '''returns int\n\n
+    trimLeft(final int startIdx, final int endIdx)\n
     '''
 def trimRightEx():
-    '''public int trimRightEx(final int startIdx, final int endIdx)
+    '''returns int\n\n
+    trimRightEx(final int startIdx, final int endIdx)\n
     '''
 def trimLeftEx():
-    '''public int trimLeftEx(final int startIdx, final int endIdx)
+    '''returns int\n\n
+    trimLeftEx(final int startIdx, final int endIdx)\n
     '''
 def reorder():
-    '''public void reorder(final int start, final int end)
+    '''returns None\n\n
+    reorder(final int start, final int end)\n
     '''
 def flip():
-    '''public void flip(int start, int end)
-    '''
-def isWS():
-    '''public static boolean isWS(final char c)
+    '''returns None\n\n
+    flip(int start, int end)\n
     '''

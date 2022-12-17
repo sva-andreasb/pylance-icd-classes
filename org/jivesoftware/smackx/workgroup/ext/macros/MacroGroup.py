@@ -1,48 +1,64 @@
-def MacroGroup():
-    '''public MacroGroup()
+def ():
+    '''returns MacroGroup\n\n
+    ()\n
     '''
 def addMacro():
-    '''public void addMacro(final Macro macro)
+    '''returns None\n\n
+    addMacro(final Macro macro)\n
     '''
 def removeMacro():
-    '''public void removeMacro(final Macro macro)
+    '''returns None\n\n
+    removeMacro(final Macro macro)\n
     '''
 def getMacroByTitle():
-    '''public Macro getMacroByTitle(final String title)
+    '''returns Macro\n\n
+    getMacroByTitle(final String title)\n
     '''
 def addMacroGroup():
-    '''public void addMacroGroup(final MacroGroup group)
+    '''returns None\n\n
+    addMacroGroup(final MacroGroup group)\n
     '''
 def removeMacroGroup():
-    '''public void removeMacroGroup(final MacroGroup group)
+    '''returns None\n\n
+    removeMacroGroup(final MacroGroup group)\n
     '''
 def getMacro():
-    '''public Macro getMacro(final int location)
+    '''returns Macro\n\n
+    getMacro(final int location)\n
     '''
 def getMacroGroupByTitle():
-    '''public MacroGroup getMacroGroupByTitle(final String title)
+    '''returns MacroGroup\n\n
+    getMacroGroupByTitle(final String title)\n
     '''
 def getMacroGroup():
-    '''public MacroGroup getMacroGroup(final int location)
+    '''returns MacroGroup\n\n
+    getMacroGroup(final int location)\n
     '''
 def getMacros():
-    '''public List<Macro> getMacros()
+    '''returns List<Macro>\n\n
+    getMacros()\n
     '''
 def setMacros():
-    '''public void setMacros(final List<Macro> macros)
+    '''returns None\n\n
+    setMacros(final List<Macro> macros)\n
     '''
 def getMacroGroups():
-    '''public List<MacroGroup> getMacroGroups()
+    '''returns List<MacroGroup>\n\n
+    getMacroGroups()\n
     '''
 def setMacroGroups():
-    '''public void setMacroGroups(final List<MacroGroup> macroGroups)
+    '''returns None\n\n
+    setMacroGroups(final List<MacroGroup> macroGroups)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def toXML():
-    '''public String toXML()
+    '''returns String\n\n
+    toXML()\n
     '''

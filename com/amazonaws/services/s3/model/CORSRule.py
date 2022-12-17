@@ -1,64 +1,80 @@
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def withId():
-    '''public CORSRule withId(final String id)
+    '''returns CORSRule\n\n
+    withId(final String id)\n
     '''
 def setAllowedMethods():
-    '''public void setAllowedMethods(final List<AllowedMethods> allowedMethods)
-    public void setAllowedMethods(final AllowedMethods... allowedMethods)
+    '''returns None\n\n
+    setAllowedMethods(final List<AllowedMethods> allowedMethods)\n
+    setAllowedMethods(final AllowedMethods... allowedMethods)\n
     '''
 def getAllowedMethods():
-    '''public List<AllowedMethods> getAllowedMethods()
+    '''returns List<AllowedMethods>\n\n
+    getAllowedMethods()\n
     '''
 def withAllowedMethods():
-    '''public CORSRule withAllowedMethods(final List<AllowedMethods> allowedMethods)
+    '''returns CORSRule\n\n
+    withAllowedMethods(final List<AllowedMethods> allowedMethods)\n
     '''
 def setAllowedOrigins():
-    '''public void setAllowedOrigins(final List<String> allowedOrigins)
-    public void setAllowedOrigins(final String... allowedOrigins)
+    '''returns None\n\n
+    setAllowedOrigins(final List<String> allowedOrigins)\n
+    setAllowedOrigins(final String... allowedOrigins)\n
     '''
 def getAllowedOrigins():
-    '''public List<String> getAllowedOrigins()
+    '''returns List<String>\n\n
+    getAllowedOrigins()\n
     '''
 def withAllowedOrigins():
-    '''public CORSRule withAllowedOrigins(final List<String> allowedOrigins)
+    '''returns CORSRule\n\n
+    withAllowedOrigins(final List<String> allowedOrigins)\n
     '''
 def setMaxAgeSeconds():
-    '''public void setMaxAgeSeconds(final int maxAgeSeconds)
+    '''returns None\n\n
+    setMaxAgeSeconds(final int maxAgeSeconds)\n
     '''
 def getMaxAgeSeconds():
-    '''public int getMaxAgeSeconds()
+    '''returns int\n\n
+    getMaxAgeSeconds()\n
     '''
 def withMaxAgeSeconds():
-    '''public CORSRule withMaxAgeSeconds(final int maxAgeSeconds)
+    '''returns CORSRule\n\n
+    withMaxAgeSeconds(final int maxAgeSeconds)\n
     '''
 def setExposedHeaders():
-    '''public void setExposedHeaders(final List<String> exposedHeaders)
-    public void setExposedHeaders(final String... exposedHeaders)
+    '''returns None\n\n
+    setExposedHeaders(final List<String> exposedHeaders)\n
+    setExposedHeaders(final String... exposedHeaders)\n
     '''
 def getExposedHeaders():
-    '''public List<String> getExposedHeaders()
+    '''returns List<String>\n\n
+    getExposedHeaders()\n
     '''
 def withExposedHeaders():
-    '''public CORSRule withExposedHeaders(final List<String> exposedHeaders)
+    '''returns CORSRule\n\n
+    withExposedHeaders(final List<String> exposedHeaders)\n
     '''
 def setAllowedHeaders():
-    '''public void setAllowedHeaders(final List<String> allowedHeaders)
-    public void setAllowedHeaders(final String... allowedHeaders)
+    '''returns None\n\n
+    setAllowedHeaders(final List<String> allowedHeaders)\n
+    setAllowedHeaders(final String... allowedHeaders)\n
     '''
 def getAllowedHeaders():
-    '''public List<String> getAllowedHeaders()
+    '''returns List<String>\n\n
+    getAllowedHeaders()\n
     '''
 def withAllowedHeaders():
-    '''public CORSRule withAllowedHeaders(final List<String> allowedHeaders)
+    '''returns CORSRule\n\n
+    withAllowedHeaders(final List<String> allowedHeaders)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def fromValue():
-    '''public static AllowedMethods fromValue(final String allowedMethod)
+    '''returns String\n\n
+    toString()\n
     '''

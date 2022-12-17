@@ -1,9 +1,12 @@
-def TokenLicSet():
-    '''public TokenLicSet(final MboServerInterface ms)
+def ():
+    '''returns TokenLicSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

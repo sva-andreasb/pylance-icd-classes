@@ -1,14 +1,18 @@
-def MboSetData():
-    '''public MboSetData(final MboSet set)
-    public MboSetData(final BitFlag setFlags)
+def ():
+    '''returns MboSetData\n\n
+    (final MboSet set)\n
+    (final BitFlag setFlags)\n
     '''
 def isFlagSet():
-    '''public boolean isFlagSet(final long flag)
+    '''returns boolean\n\n
+    isFlagSet(final long flag)\n
     '''
 def getMboDataCount():
-    '''public int getMboDataCount()
+    '''returns int\n\n
+    getMboDataCount()\n
     '''
 def getMboData():
-    '''public MboData getMboData(final int row)
-    public MboData[] getMboData()
+    '''returns MboData[]\n\n
+    getMboData(final int row)\n
+    getMboData()\n
     '''

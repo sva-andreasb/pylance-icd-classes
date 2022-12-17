@@ -1,12 +1,16 @@
-def AddItemsBeanBulk():
-    '''public AddItemsBeanBulk()
+def ():
+    '''returns AddItemsBeanBulk\n\n
+    ()\n
     '''
 def BEFORE_EX():
-    '''public void BEFORE_EX()
+    '''returns None\n\n
+    BEFORE_EX()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def addtoInventory():
-    '''public void addtoInventory(final MboSetRemote invSetRemote)
+    '''returns None\n\n
+    addtoInventory(final MboSetRemote invSetRemote)\n
     '''

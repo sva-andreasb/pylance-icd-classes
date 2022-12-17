@@ -1,48 +1,63 @@
 DLTAID_MAX_STRLEN = "int  127"
 def equals():
-    '''public boolean equals(final CharacterBuffer characterBuffer)
+    '''returns boolean\n\n
+    equals(final CharacterBuffer characterBuffer)\n
     '''
-def CharacterBuffer():
-    '''public CharacterBuffer()
-    public CharacterBuffer(final String str)
-    public CharacterBuffer(final int n)
+def ():
+    '''returns CharacterBuffer\n\n
+    ()\n
+    (final String str)\n
+    (final int n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def addAll():
-    '''public void addAll(final Buffer buffer)
+    '''returns None\n\n
+    addAll(final Buffer buffer)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def decLength():
-    '''public void decLength()
+    '''returns None\n\n
+    decLength()\n
     '''
 def grow():
-    '''public int grow()
+    '''returns int\n\n
+    grow()\n
     '''
 def limit():
-    '''public int limit()
+    '''returns int\n\n
+    limit()\n
     '''
 def add():
-    '''public void add(final char c)
+    '''returns None\n\n
+    add(final char c)\n
     '''
 def position():
-    '''public int position()
+    '''returns int\n\n
+    position()\n
     '''
 def remaining():
-    '''public int remaining()
+    '''returns int\n\n
+    remaining()\n
     '''
 def reg4pool():
-    '''public void reg4pool(final int id, final Pool pool)
+    '''returns None\n\n
+    reg4pool(final int id, final Pool pool)\n
     '''
 def indexOf():
-    '''public int indexOf(final CharacterBuffer characterBuffer)
+    '''returns int\n\n
+    indexOf(final CharacterBuffer characterBuffer)\n
     '''
 def toFirstTitleCase():
-    '''public CharacterBuffer toFirstTitleCase()
+    '''returns CharacterBuffer\n\n
+    toFirstTitleCase()\n
     '''
 def toUpperCase():
-    '''public CharacterBuffer toUpperCase()
+    '''returns CharacterBuffer\n\n
+    toUpperCase()\n
     '''

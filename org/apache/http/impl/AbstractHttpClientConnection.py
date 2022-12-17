@@ -1,27 +1,36 @@
-def AbstractHttpClientConnection():
-    '''public AbstractHttpClientConnection()
+def ():
+    '''returns AbstractHttpClientConnection\n\n
+    ()\n
     '''
 def isResponseAvailable():
-    '''public boolean isResponseAvailable(final int timeout)
+    '''returns boolean\n\n
+    isResponseAvailable(final int timeout)\n
     '''
 def sendRequestHeader():
-    '''public void sendRequestHeader(final HttpRequest request)
+    '''returns None\n\n
+    sendRequestHeader(final HttpRequest request)\n
     '''
 def sendRequestEntity():
-    '''public void sendRequestEntity(final HttpEntityEnclosingRequest request)
+    '''returns None\n\n
+    sendRequestEntity(final HttpEntityEnclosingRequest request)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def receiveResponseHeader():
-    '''public HttpResponse receiveResponseHeader()
+    '''returns HttpResponse\n\n
+    receiveResponseHeader()\n
     '''
 def receiveResponseEntity():
-    '''public void receiveResponseEntity(final HttpResponse response)
+    '''returns None\n\n
+    receiveResponseEntity(final HttpResponse response)\n
     '''
 def isStale():
-    '''public boolean isStale()
+    '''returns boolean\n\n
+    isStale()\n
     '''
 def getMetrics():
-    '''public HttpConnectionMetrics getMetrics()
+    '''returns HttpConnectionMetrics\n\n
+    getMetrics()\n
     '''

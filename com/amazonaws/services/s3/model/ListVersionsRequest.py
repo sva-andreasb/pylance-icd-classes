@@ -1,67 +1,89 @@
-def ListVersionsRequest():
-    '''public ListVersionsRequest()
-    public ListVersionsRequest(final String bucketName, final String prefix, final String keyMarker, final String versionIdMarker, final String delimiter, final Integer maxResults)
+def ():
+    '''returns ListVersionsRequest\n\n
+    ()\n
+    (final String bucketName, final String prefix, final String keyMarker, final String versionIdMarker, final String delimiter, final Integer maxResults)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public ListVersionsRequest withBucketName(final String bucketName)
+    '''returns ListVersionsRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def withPrefix():
-    '''public ListVersionsRequest withPrefix(final String prefix)
+    '''returns ListVersionsRequest\n\n
+    withPrefix(final String prefix)\n
     '''
 def getKeyMarker():
-    '''public String getKeyMarker()
+    '''returns String\n\n
+    getKeyMarker()\n
     '''
 def setKeyMarker():
-    '''public void setKeyMarker(final String keyMarker)
+    '''returns None\n\n
+    setKeyMarker(final String keyMarker)\n
     '''
 def withKeyMarker():
-    '''public ListVersionsRequest withKeyMarker(final String keyMarker)
+    '''returns ListVersionsRequest\n\n
+    withKeyMarker(final String keyMarker)\n
     '''
 def getVersionIdMarker():
-    '''public String getVersionIdMarker()
+    '''returns String\n\n
+    getVersionIdMarker()\n
     '''
 def setVersionIdMarker():
-    '''public void setVersionIdMarker(final String versionIdMarker)
+    '''returns None\n\n
+    setVersionIdMarker(final String versionIdMarker)\n
     '''
 def withVersionIdMarker():
-    '''public ListVersionsRequest withVersionIdMarker(final String versionIdMarker)
+    '''returns ListVersionsRequest\n\n
+    withVersionIdMarker(final String versionIdMarker)\n
     '''
 def getDelimiter():
-    '''public String getDelimiter()
+    '''returns String\n\n
+    getDelimiter()\n
     '''
 def setDelimiter():
-    '''public void setDelimiter(final String delimiter)
+    '''returns None\n\n
+    setDelimiter(final String delimiter)\n
     '''
 def withDelimiter():
-    '''public ListVersionsRequest withDelimiter(final String delimiter)
+    '''returns ListVersionsRequest\n\n
+    withDelimiter(final String delimiter)\n
     '''
 def getMaxResults():
-    '''public Integer getMaxResults()
+    '''returns Integer\n\n
+    getMaxResults()\n
     '''
 def setMaxResults():
-    '''public void setMaxResults(final Integer maxResults)
+    '''returns None\n\n
+    setMaxResults(final Integer maxResults)\n
     '''
 def withMaxResults():
-    '''public ListVersionsRequest withMaxResults(final Integer maxResults)
+    '''returns ListVersionsRequest\n\n
+    withMaxResults(final Integer maxResults)\n
     '''
 def getEncodingType():
-    '''public String getEncodingType()
+    '''returns String\n\n
+    getEncodingType()\n
     '''
 def setEncodingType():
-    '''public void setEncodingType(final String encodingType)
+    '''returns None\n\n
+    setEncodingType(final String encodingType)\n
     '''
 def withEncodingType():
-    '''public ListVersionsRequest withEncodingType(final String encodingType)
+    '''returns ListVersionsRequest\n\n
+    withEncodingType(final String encodingType)\n
     '''

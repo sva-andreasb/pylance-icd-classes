@@ -1,3 +1,4 @@
 def getRunningReportCount():
-    '''public int getRunningReportCount()
+    '''returns int\n\n
+    getRunningReportCount()\n
     '''

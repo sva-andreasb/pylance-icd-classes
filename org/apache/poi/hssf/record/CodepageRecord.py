@@ -1,21 +1,27 @@
 sid = "short  66"
 CODEPAGE = "short  1200"
-def CodepageRecord():
-    '''public CodepageRecord()
-    public CodepageRecord(final RecordInputStream in)
+def ():
+    '''returns CodepageRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setCodepage():
-    '''public void setCodepage(final short cp)
+    '''returns None\n\n
+    setCodepage(final short cp)\n
     '''
 def getCodepage():
-    '''public short getCodepage()
+    '''returns short\n\n
+    getCodepage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

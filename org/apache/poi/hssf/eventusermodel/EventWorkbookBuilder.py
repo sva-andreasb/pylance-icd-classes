@@ -1,28 +1,32 @@
-def createStubWorkbook():
-    '''public static InternalWorkbook createStubWorkbook(final ExternSheetRecord[] externs, final BoundSheetRecord[] bounds, final SSTRecord sst)
-    public static InternalWorkbook createStubWorkbook(final ExternSheetRecord[] externs, final BoundSheetRecord[] bounds)
-    '''
-def SheetRecordCollectingListener():
-    '''public SheetRecordCollectingListener(final HSSFListener childListener)
+def ():
+    '''returns SheetRecordCollectingListener\n\n
+    (final HSSFListener childListener)\n
     '''
 def getBoundSheetRecords():
-    '''public BoundSheetRecord[] getBoundSheetRecords()
+    '''returns BoundSheetRecord[]\n\n
+    getBoundSheetRecords()\n
     '''
 def getExternSheetRecords():
-    '''public ExternSheetRecord[] getExternSheetRecords()
+    '''returns ExternSheetRecord[]\n\n
+    getExternSheetRecords()\n
     '''
 def getSSTRecord():
-    '''public SSTRecord getSSTRecord()
+    '''returns SSTRecord\n\n
+    getSSTRecord()\n
     '''
 def getStubHSSFWorkbook():
-    '''public HSSFWorkbook getStubHSSFWorkbook()
+    '''returns HSSFWorkbook\n\n
+    getStubHSSFWorkbook()\n
     '''
 def getStubWorkbook():
-    '''public InternalWorkbook getStubWorkbook()
+    '''returns InternalWorkbook\n\n
+    getStubWorkbook()\n
     '''
 def processRecord():
-    '''public void processRecord(final Record record)
+    '''returns None\n\n
+    processRecord(final Record record)\n
     '''
 def processRecordInternally():
-    '''public void processRecordInternally(final Record record)
+    '''returns None\n\n
+    processRecordInternally(final Record record)\n
     '''

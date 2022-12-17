@@ -1,19 +1,17 @@
-def OOXMLLister():
-    '''public OOXMLLister(final OPCPackage container)
-    public OOXMLLister(final OPCPackage container, final PrintStream disp)
-    '''
-def getSize():
-    '''public static long getSize(final PackagePart part)
+def ():
+    '''returns OOXMLLister\n\n
+    (final OPCPackage container)\n
+    (final OPCPackage container, final PrintStream disp)\n
     '''
 def displayParts():
-    '''public void displayParts()
+    '''returns None\n\n
+    displayParts()\n
     '''
 def displayRelations():
-    '''public void displayRelations()
+    '''returns None\n\n
+    displayRelations()\n
     '''
 def close():
-    '''public void close()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    close()\n
     '''

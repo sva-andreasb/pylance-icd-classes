@@ -1,40 +1,46 @@
-def UpdateClusterMemberWeightsCommand():
-    '''public UpdateClusterMemberWeightsCommand(final TaskCommandMetadata metadata)
-    public UpdateClusterMemberWeightsCommand(final CommandData inCommandData)
+def ():
+    '''returns ClusterMember\n\n
+    (final TaskCommandMetadata metadata)\n
+    (final CommandData inCommandData)\n
+    (final AbstractTaskCommand parent, final CommandStepMetadata metadata)\n
+    (final AbstractTaskCommand parent, final CommandStepData cmdData)\n
+    (final String node, final String name, final Integer memberWeight)\n
+    (final String node, final String name, final ObjectName objName)\n
     '''
 def validate():
-    '''public void validate()
-    public void validate()
+    '''returns None\n\n
+    validate()\n
+    validate()\n
     '''
 def afterStepsExecuted():
-    '''public void afterStepsExecuted()
-    '''
-def MembersStep():
-    '''public MembersStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-    public MembersStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
+    '''returns None\n\n
+    afterStepsExecuted()\n
     '''
 def stepModified():
-    '''public void stepModified(final String stepName)
-    '''
-def ClusterMember():
-    '''public ClusterMember(final String node, final String name, final Integer memberWeight)
-    public ClusterMember(final String node, final String name, final ObjectName objName)
+    '''returns None\n\n
+    stepModified(final String stepName)\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getMemberName():
-    '''public String getMemberName()
+    '''returns String\n\n
+    getMemberName()\n
     '''
 def getWeight():
-    '''public Integer getWeight()
+    '''returns Integer\n\n
+    getWeight()\n
     '''
 def getObjectName():
-    '''public ObjectName getObjectName()
+    '''returns ObjectName\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final ObjectName objName)
+    '''returns None\n\n
+    setObjectName(final ObjectName objName)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

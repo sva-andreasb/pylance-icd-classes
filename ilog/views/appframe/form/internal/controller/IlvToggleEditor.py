@@ -1,15 +1,20 @@
 def connectUI():
-    '''public void connectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def disconnectUI():
-    '''public void disconnectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def getToggleText():
-    '''public String getToggleText()
+    '''returns String\n\n
+    getToggleText()\n
     '''
 def setToggleText():
-    '''public void setToggleText(final String buttonText)
+    '''returns None\n\n
+    setToggleText(final String buttonText)\n
     '''
 def controlActivated():
-    '''public void controlActivated(final ActivationEvent activationEvent)
+    '''returns None\n\n
+    controlActivated(final ActivationEvent activationEvent)\n
     '''

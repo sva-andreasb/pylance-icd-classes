@@ -1,6 +1,8 @@
-def RecordLimitResolver():
-    '''public RecordLimitResolver(final ReportSecurityLimits limits)
+def ():
+    '''returns RecordLimitResolver\n\n
+    (final ReportSecurityLimits limits)\n
     '''
 def resolve():
-    '''public String resolve(final String in)
+    '''returns String\n\n
+    resolve(final String in)\n
     '''

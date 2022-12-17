@@ -25,25 +25,32 @@ STATUS_COMPLETE = "int  6"
 STATUS_FAILED = "int  7"
 STATUS_UPDATING = "int  8"
 STATUS_MERGING = "int  9"
-def ImportBase():
-    '''public ImportBase(final MboSet ms)
+def ():
+    '''returns ImportBase\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getLogLevel():
-    '''public long getLogLevel()
+    '''returns long\n\n
+    getLogLevel()\n
     '''
 def isStatusCompelete():
-    '''public boolean isStatusCompelete()
+    '''returns boolean\n\n
+    isStatusCompelete()\n
     '''
 def isStatusNew():
-    '''public boolean isStatusNew()
-    public boolean isStatusNew(final String value)
+    '''returns boolean\n\n
+    isStatusNew()\n
+    isStatusNew(final String value)\n
     '''
 def setOptionsReadOnly():
-    '''public void setOptionsReadOnly()
+    '''returns None\n\n
+    setOptionsReadOnly()\n
     '''
 def setStatus():
-    '''public void setStatus(final int status)
+    '''returns None\n\n
+    setStatus(final int status)\n
     '''

@@ -1,49 +1,61 @@
-def IloCplex__ParameterSet():
-    '''public IloCplex__ParameterSet(final long cPtr, final boolean cMemoryOwn)
-    public IloCplex__ParameterSet(final IloEnv env)
+def ():
+    '''returns IloCplex__ParameterSet\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final IloEnv env)\n
     '''
 def setOwn():
-    '''public void setOwn(final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__ParameterSet obj)
+    '''returns None\n\n
+    setOwn(final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def setIntParam():
-    '''public void setIntParam(final IloCplex.IntParam which, final int val)
+    '''returns None\n\n
+    setIntParam(final IloCplex.IntParam which, final int val)\n
     '''
 def setLongParam():
-    '''public void setLongParam(final IloCplex.LongParam which, final long val)
+    '''returns None\n\n
+    setLongParam(final IloCplex.LongParam which, final long val)\n
     '''
 def setStringParam():
-    '''public void setStringParam(final IloCplex.StringParam which, final String val)
+    '''returns None\n\n
+    setStringParam(final IloCplex.StringParam which, final String val)\n
     '''
 def setBoolParam():
-    '''public void setBoolParam(final IloCplex.BoolParam which, final boolean val)
+    '''returns None\n\n
+    setBoolParam(final IloCplex.BoolParam which, final boolean val)\n
     '''
 def setNumParam():
-    '''public void setNumParam(final IloCplex.NumParam which, final double val)
+    '''returns None\n\n
+    setNumParam(final IloCplex.NumParam which, final double val)\n
     '''
 def getIntParam():
-    '''public int getIntParam(final IloCplex.IntParam which)
+    '''returns int\n\n
+    getIntParam(final IloCplex.IntParam which)\n
     '''
 def getLongParam():
-    '''public long getLongParam(final IloCplex.LongParam which)
+    '''returns long\n\n
+    getLongParam(final IloCplex.LongParam which)\n
     '''
 def getStringParam():
-    '''public String getStringParam(final IloCplex.StringParam which)
+    '''returns String\n\n
+    getStringParam(final IloCplex.StringParam which)\n
     '''
 def getBoolParam():
-    '''public boolean getBoolParam(final IloCplex.BoolParam which)
+    '''returns boolean\n\n
+    getBoolParam(final IloCplex.BoolParam which)\n
     '''
 def getNumParam():
-    '''public double getNumParam(final IloCplex.NumParam which)
+    '''returns double\n\n
+    getNumParam(final IloCplex.NumParam which)\n
     '''

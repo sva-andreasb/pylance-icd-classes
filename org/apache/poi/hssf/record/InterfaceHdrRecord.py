@@ -1,15 +1,19 @@
 sid = "short  225"
 CODEPAGE = "int  1200"
-def InterfaceHdrRecord():
-    '''public InterfaceHdrRecord(final int codePage)
-    public InterfaceHdrRecord(final RecordInputStream in)
+def ():
+    '''returns InterfaceHdrRecord\n\n
+    (final int codePage)\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

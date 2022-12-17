@@ -1,6 +1,8 @@
 def initDetailObject():
-    '''public Detail initDetailObject()
+    '''returns Detail\n\n
+    initDetailObject()\n
     '''
-def Detail():
-    '''public Detail()
+def ():
+    '''returns Detail\n\n
+    ()\n
     '''

@@ -1,74 +1,59 @@
-def PeriodList():
-    '''public PeriodList()
-    public PeriodList(final boolean utc)
-    public PeriodList(final boolean utc, final boolean unmodifiable)
-    public PeriodList(final String aValue)
-    '''
-def toString():
-    '''public final String toString()
-    '''
-def add():
-    '''public final boolean add(final Period period)
-    public final PeriodList add(final PeriodList periods)
-    '''
-def remove():
-    '''public final boolean remove(final Object period)
-    '''
-def normalise():
-    '''public final PeriodList normalise()
-    '''
-def subtract():
-    '''public final PeriodList subtract(final PeriodList subtractions)
-    '''
-def isUtc():
-    '''public final boolean isUtc()
+def ():
+    '''returns PeriodList\n\n
+    ()\n
+    (final boolean utc)\n
+    (final boolean utc, final boolean unmodifiable)\n
+    (final String aValue)\n
     '''
 def isUnmodifiable():
-    '''public boolean isUnmodifiable()
-    '''
-def setUtc():
-    '''public final void setUtc(final boolean utc)
-    '''
-def setTimeZone():
-    '''public final void setTimeZone(final TimeZone timeZone)
-    '''
-def getTimeZone():
-    '''public final TimeZone getTimeZone()
+    '''returns boolean\n\n
+    isUnmodifiable()\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends Period> arg0)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends Period> arg0)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> arg0)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> arg0)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def iterator():
-    '''public Iterator<Period> iterator()
+    '''returns Iterator<Period>\n\n
+    iterator()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> arg0)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> arg0)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> arg0)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> arg0)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] arg0)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

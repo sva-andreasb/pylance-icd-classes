@@ -1,24 +1,32 @@
-def PmChgWOActivity():
-    '''public PmChgWOActivity(final MboSet ms)
+def ():
+    '''returns PmChgWOActivity\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def addmultiassetlocci():
-    '''public void addmultiassetlocci()
+    '''returns None\n\n
+    addmultiassetlocci()\n
     '''
 def copyWOFieldsToMultiAsset():
-    '''public void copyWOFieldsToMultiAsset(final MultiAssetLocCIRemote multiAssetMbo)
+    '''returns None\n\n
+    copyWOFieldsToMultiAsset(final MultiAssetLocCIRemote multiAssetMbo)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long access)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long access)\n
     '''
 def detectConflicts():
-    '''public boolean detectConflicts()
+    '''returns boolean\n\n
+    detectConflicts()\n
     '''

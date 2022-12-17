@@ -1,15 +1,20 @@
-def TKServiceAddress():
-    '''public TKServiceAddress(final MboSet ms)
+def ():
+    '''returns TKServiceAddress\n\n
+    (final MboSet ms)\n
     '''
 def copyDataFromServiceAddress():
-    '''public void copyDataFromServiceAddress(final MboRemote sa)
+    '''returns None\n\n
+    copyDataFromServiceAddress(final MboRemote sa)\n
     '''
 def getOrgSiteForMaxvar():
-    '''public String getOrgSiteForMaxvar(final String maxvarName)
+    '''returns String\n\n
+    getOrgSiteForMaxvar(final String maxvarName)\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def isAllFieldsBlank():
-    '''public boolean isAllFieldsBlank()
+    '''returns boolean\n\n
+    isAllFieldsBlank()\n
     '''

@@ -1,10 +1,13 @@
-def DataSourceImpl():
-    '''public DataSourceImpl(final DataSourceConnectionPool dsConnectionPool)
+def ():
+    '''returns DataSourceImpl\n\n
+    (final DataSourceConnectionPool dsConnectionPool)\n
     '''
 def getNewConnection():
-    '''public DataSourceConnection getNewConnection()
-    public DataSourceConnection getNewConnection(final String dbUserName)
+    '''returns DataSourceConnection\n\n
+    getNewConnection()\n
+    getNewConnection(final String dbUserName)\n
     '''
 def freeConnection():
-    '''public void freeConnection(final DataSourceConnection connection)
+    '''returns None\n\n
+    freeConnection(final DataSourceConnection connection)\n
     '''

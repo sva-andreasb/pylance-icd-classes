@@ -1,9 +1,12 @@
-def Partitions():
-    '''public Partitions(@JsonProperty("version") final String version, @JsonProperty("partitions") final List<Partition> partitions)
+def ():
+    '''returns Partitions\n\n
+    (@JsonProperty("version") final String version, @JsonProperty("partitions") final List<Partition> partitions)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def getPartitions():
-    '''public List<Partition> getPartitions()
+    '''returns List<Partition>\n\n
+    getPartitions()\n
     '''

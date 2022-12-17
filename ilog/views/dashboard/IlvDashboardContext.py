@@ -1,41 +1,54 @@
 VERSION = "String  \"8.1\""
-def IlvDashboardContext():
-    '''public IlvDashboardContext()
-    public IlvDashboardContext(ResourceBundle bundle)
+def ():
+    '''returns IlvDashboardContext\n\n
+    ()\n
+    (ResourceBundle bundle)\n
     '''
 def getResourceBundle():
-    '''public ResourceBundle getResourceBundle()
+    '''returns ResourceBundle\n\n
+    getResourceBundle()\n
     '''
 def getDialogParent():
-    '''public Component getDialogParent()
+    '''returns Component\n\n
+    getDialogParent()\n
     '''
 def setDialogParent():
-    '''public void setDialogParent(final Component b)
+    '''returns None\n\n
+    setDialogParent(final Component b)\n
     '''
 def getStyleSheetURL():
-    '''public URL getStyleSheetURL()
+    '''returns URL\n\n
+    getStyleSheetURL()\n
     '''
 def setStyleSheetURL():
-    '''public void setStyleSheetURL(final URL c)
+    '''returns None\n\n
+    setStyleSheetURL(final URL c)\n
     '''
 def getPaletteManager():
-    '''public IlvPaletteManager getPaletteManager()
+    '''returns IlvPaletteManager\n\n
+    getPaletteManager()\n
     '''
 def loadPalette():
-    '''public IlvPalette loadPalette(final String str)
+    '''returns IlvPalette\n\n
+    loadPalette(final String str)\n
     '''
 def loadPalettes():
-    '''public IlvPalette[] loadPalettes(final URL url)
+    '''returns IlvPalette[]\n\n
+    loadPalettes(final URL url)\n
     '''
 def isDefaultMappingEnabled():
-    '''public boolean isDefaultMappingEnabled()
+    '''returns boolean\n\n
+    isDefaultMappingEnabled()\n
     '''
 def setDefaultMappingEnabled():
-    '''public void setDefaultMappingEnabled(final boolean e)
+    '''returns None\n\n
+    setDefaultMappingEnabled(final boolean e)\n
     '''
 def getLogger():
-    '''public Logger getLogger()
+    '''returns Logger\n\n
+    getLogger()\n
     '''
 def logMessage():
-    '''public void logMessage(final Level level, final String msg)
+    '''returns None\n\n
+    logMessage(final Level level, final String msg)\n
     '''

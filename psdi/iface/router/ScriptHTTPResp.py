@@ -1,25 +1,33 @@
-def ScriptHTTPResp():
-    '''public ScriptHTTPResp(final int responseCode, final String responseMsg, final byte[] msgBodyData, final String endPointName)
-    public ScriptHTTPResp(final int responseCode, final String responseMsg, final byte[] msgBodyData, final String endPointName, final Map metaData)
+def ():
+    '''returns ScriptHTTPResp\n\n
+    (final int responseCode, final String responseMsg, final byte[] msgBodyData, final String endPointName)\n
+    (final int responseCode, final String responseMsg, final byte[] msgBodyData, final String endPointName, final Map metaData)\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getMetaData():
-    '''public Map getMetaData()
+    '''returns Map\n\n
+    getMetaData()\n
     '''
 def geResponseMsg():
-    '''public String geResponseMsg()
+    '''returns String\n\n
+    geResponseMsg()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def getResponseCode():
-    '''public int getResponseCode()
+    '''returns int\n\n
+    getResponseCode()\n
     '''
 def setError():
-    '''public void setError(final Exception e)
+    '''returns None\n\n
+    setError(final Exception e)\n
     '''
 def getError():
-    '''public Exception getError()
+    '''returns Exception\n\n
+    getError()\n
     '''

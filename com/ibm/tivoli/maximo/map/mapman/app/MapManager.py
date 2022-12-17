@@ -1,111 +1,104 @@
-def MapManager():
-    '''public MapManager(final MboSet ms)
+def ():
+    '''returns MapManager\n\n
+    (final MboSet ms)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def isAttributeModified():
-    '''public boolean isAttributeModified(final String attributeName)
+    '''returns boolean\n\n
+    isAttributeModified(final String attributeName)\n
     '''
 def getOrgSiteForMaxvar():
-    '''public String getOrgSiteForMaxvar(final String maxvarName)
+    '''returns String\n\n
+    getOrgSiteForMaxvar(final String maxvarName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setAppDefaultValue():
-    '''public void setAppDefaultValue()
+    '''returns None\n\n
+    setAppDefaultValue()\n
     '''
 def copyOpLayers():
-    '''public void copyOpLayers(final MboSetRemote opLayers)
-    '''
-def isSpatialInstalled():
-    '''public static Boolean isSpatialInstalled()
-    '''
-def isAnywhereInstalled():
-    '''public static Boolean isAnywhereInstalled()
+    '''returns None\n\n
+    copyOpLayers(final MboSetRemote opLayers)\n
     '''
 def getGMapsLicense():
-    '''public String getGMapsLicense()
+    '''returns String\n\n
+    getGMapsLicense()\n
     '''
 def getGMapsSignature():
-    '''public String getGMapsSignature()
+    '''returns String\n\n
+    getGMapsSignature()\n
     '''
 def getGMapsAuthenticationMethod():
-    '''public String getGMapsAuthenticationMethod()
+    '''returns String\n\n
+    getGMapsAuthenticationMethod()\n
     '''
 def getDistanceMatrixURL():
-    '''public String getDistanceMatrixURL()
+    '''returns String\n\n
+    getDistanceMatrixURL()\n
     '''
 def getGMapsApiKey():
-    '''public String getGMapsApiKey()
+    '''returns String\n\n
+    getGMapsApiKey()\n
     '''
 def getMapProvider():
-    '''public String getMapProvider()
+    '''returns String\n\n
+    getMapProvider()\n
     '''
 def isCarbonMap():
-    '''public Boolean isCarbonMap()
+    '''returns Boolean\n\n
+    isCarbonMap()\n
     '''
 def getMapTipMboSet():
-    '''public MapTipSetRemote getMapTipMboSet()
-    '''
-def getMapManager():
-    '''public static MapManagerRemote getMapManager(final UserInfo user)
-    public static MapManagerRemote getMapManager(final UserInfo user, final boolean isMobileMapManager)
-    '''
-def getMapManagerByNameAndSite():
-    '''public static MapManagerRemote getMapManagerByNameAndSite(final UserInfo userInfo, final String mapName, final String siteId)
-    '''
-def getMapManagerByName():
-    '''public static MapManagerRemote getMapManagerByName(final String mapName, final UserInfo userInfo)
-    '''
-def getCarbonMapManager():
-    '''public static MapManagerRemote getCarbonMapManager(final UserInfo user)
-    public static MapManagerRemote getCarbonMapManager(final UserInfo user, final boolean isMobileMapManager)
-    '''
-def getCarbonMapManagerByNameAndSite():
-    '''public static MapManagerRemote getCarbonMapManagerByNameAndSite(final UserInfo userInfo, final String mapName, final String siteId)
-    '''
-def retrieveCommonSymbologyConfig():
-    '''public Map<String, String> retrieveCommonSymbologyConfig()
-    '''
-def retrieveParsedSymbologyConfig():
-    '''public Map<String, String> retrieveParsedSymbologyConfig()
-    '''
-def retrieveSymbologyForMaximoObject():
-    '''public Map<String, String> retrieveSymbologyForMaximoObject(final String mboName)
-    public Map<String, String> retrieveSymbologyForMaximoObject(final MboRemote maximoObjectMbo)
+    '''returns MapTipSetRemote\n\n
+    getMapTipMboSet()\n
     '''
 def retrieveMboVisibilityConfiguration():
-    '''public JSONObject retrieveMboVisibilityConfiguration()
+    '''returns JSONObject\n\n
+    retrieveMboVisibilityConfiguration()\n
     '''
 def retrieveMboClusterConfiguration():
-    '''public JSONObject retrieveMboClusterConfiguration()
+    '''returns JSONObject\n\n
+    retrieveMboClusterConfiguration()\n
     '''
 def retrieveMboConfiguration():
-    '''public JSONObject retrieveMboConfiguration(final String attribute)
+    '''returns JSONObject\n\n
+    retrieveMboConfiguration(final String attribute)\n
     '''
 def retrieveMapConfigurationObject():
-    '''public MapConfiguration retrieveMapConfigurationObject(final UserInfo userInfo)
+    '''returns MapConfiguration\n\n
+    retrieveMapConfigurationObject(final UserInfo userInfo)\n
     '''
 def generateAndUpdateMapConfigurationObject():
-    '''public MapConfiguration generateAndUpdateMapConfigurationObject()
+    '''returns MapConfiguration\n\n
+    generateAndUpdateMapConfigurationObject()\n
     '''
 def getOpenMapProvider():
-    '''public String getOpenMapProvider()
+    '''returns String\n\n
+    getOpenMapProvider()\n
     '''
 def getOpenMapURL():
-    '''public String getOpenMapURL()
+    '''returns String\n\n
+    getOpenMapURL()\n
     '''
 def getPreloadBboxList():
-    '''public List<PreloadBbox> getPreloadBboxList(final MboSetRemote preloadMboSet)
+    '''returns List<PreloadBbox>\n\n
+    getPreloadBboxList(final MboSetRemote preloadMboSet)\n
     '''

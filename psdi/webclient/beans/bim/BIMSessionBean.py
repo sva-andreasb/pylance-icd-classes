@@ -1,18 +1,20 @@
-def BIMSessionBean():
-    '''public BIMSessionBean()
-    '''
-def delete():
-    '''public synchronized void delete(final int nRow)
+def ():
+    '''returns BIMSessionBean\n\n
+    ()\n
     '''
 def addNewRow():
-    '''public int addNewRow()
+    '''returns int\n\n
+    addNewRow()\n
     '''
 def uploadCOBieCVSFiles():
-    '''public int uploadCOBieCVSFiles()
+    '''returns int\n\n
+    uploadCOBieCVSFiles()\n
     '''
 def getSessionId():
-    '''public long getSessionId()
+    '''returns long\n\n
+    getSessionId()\n
     '''
 def setSessionId():
-    '''public void setSessionId(final long sessionId)
+    '''returns None\n\n
+    setSessionId(final long sessionId)\n
     '''

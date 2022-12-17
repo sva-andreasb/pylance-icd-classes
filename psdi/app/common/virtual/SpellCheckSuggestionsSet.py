@@ -1,3 +1,4 @@
-def SpellCheckSuggestionsSet():
-    '''public SpellCheckSuggestionsSet(final MboServerInterface ms)
+def ():
+    '''returns SpellCheckSuggestionsSet\n\n
+    (final MboServerInterface ms)\n
     '''

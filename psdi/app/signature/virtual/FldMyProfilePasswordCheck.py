@@ -1,6 +1,8 @@
-def FldMyProfilePasswordCheck():
-    '''public FldMyProfilePasswordCheck(final MboValue mbv)
+def ():
+    '''returns FldMyProfilePasswordCheck\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

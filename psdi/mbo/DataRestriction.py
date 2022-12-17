@@ -1,27 +1,36 @@
-def DataRestriction():
-    '''public DataRestriction(final String iD, final String internalTypeStr, final String internalLevelStr, final String condition, final boolean reEval, final int tenantId, final long uniqueId)
+def ():
+    '''returns DataRestriction\n\n
+    (final String iD, final String internalTypeStr, final String internalLevelStr, final String condition, final boolean reEval, final int tenantId, final long uniqueId)\n
     '''
 def hasCondition():
-    '''public boolean hasCondition()
+    '''returns boolean\n\n
+    hasCondition()\n
     '''
 def getCondition():
-    '''public MaxCondition getCondition()
+    '''returns MaxCondition\n\n
+    getCondition()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getConditionNum():
-    '''public String getConditionNum()
+    '''returns String\n\n
+    getConditionNum()\n
     '''
 def reEvaluate():
-    '''public boolean reEvaluate()
+    '''returns boolean\n\n
+    reEvaluate()\n
     '''
 def isUnconditional():
-    '''public boolean isUnconditional()
+    '''returns boolean\n\n
+    isUnconditional()\n
     '''
 def getTypedReference():
-    '''public DataRestrictionBase getTypedReference()
+    '''returns DataRestrictionBase\n\n
+    getTypedReference()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

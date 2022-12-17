@@ -1,6 +1,8 @@
-def FldWOAreasAffectedLongDescription():
-    '''public FldWOAreasAffectedLongDescription(final MboValue mbv)
+def ():
+    '''returns FldWOAreasAffectedLongDescription\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

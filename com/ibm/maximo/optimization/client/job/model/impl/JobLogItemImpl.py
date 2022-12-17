@@ -1,35 +1,46 @@
 MISSING_TIMEOUT = "long  10000L"
 TYPE = "String  \"log\""
-def JobLogItemImpl():
-    '''public JobLogItemImpl()
+def ():
+    '''returns JobLogItemImpl\n\n
+    ()\n
     '''
 def getSeqid():
-    '''public long getSeqid()
+    '''returns long\n\n
+    getSeqid()\n
     '''
 def setSeqid():
-    '''public void setSeqid(final long seqid)
+    '''returns None\n\n
+    setSeqid(final long seqid)\n
     '''
 def getEngineLogRecords():
-    '''public List<JobLogRecord> getEngineLogRecords()
+    '''returns List<JobLogRecord>\n\n
+    getEngineLogRecords()\n
     '''
 def setEngineLogRecords():
-    '''public void setEngineLogRecords(final List<JobLogRecord> engineLogRecords)
+    '''returns None\n\n
+    setEngineLogRecords(final List<JobLogRecord> engineLogRecords)\n
     '''
 def addRecord():
-    '''public void addRecord(final Date date, final String level, final String message)
+    '''returns None\n\n
+    addRecord(final Date date, final String level, final String message)\n
     '''
 def missing():
-    '''public boolean missing()
+    '''returns boolean\n\n
+    missing()\n
     '''
 def setMising():
-    '''public void setMising(final boolean missing)
+    '''returns None\n\n
+    setMising(final boolean missing)\n
     '''
 def getDate():
-    '''public Date getDate()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def stop():
-    '''public boolean stop()
+    '''returns boolean\n\n
+    stop()\n
     '''
 def setStop():
-    '''public void setStop(final boolean stop)
+    '''returns None\n\n
+    setStop(final boolean stop)\n
     '''

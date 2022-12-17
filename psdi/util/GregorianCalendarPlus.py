@@ -1,12 +1,14 @@
-def GregorianCalendarPlus():
-    '''public GregorianCalendarPlus()
-    public GregorianCalendarPlus(final TimeZone zone)
-    public GregorianCalendarPlus(final Locale aLocale)
-    public GregorianCalendarPlus(final TimeZone zone, final Locale aLocale)
-    public GregorianCalendarPlus(final int year, final int month, final int dayOfMonth)
-    public GregorianCalendarPlus(final int year, final int month, final int dayOfMonth, final int hourOfDay, final int minute)
-    public GregorianCalendarPlus(final int year, final int month, final int dayOfMonth, final int hourOfDay, final int minute, final int second)
+def ():
+    '''returns GregorianCalendarPlus\n\n
+    ()\n
+    (final TimeZone zone)\n
+    (final Locale aLocale)\n
+    (final TimeZone zone, final Locale aLocale)\n
+    (final int year, final int month, final int dayOfMonth)\n
+    (final int year, final int month, final int dayOfMonth, final int hourOfDay, final int minute)\n
+    (final int year, final int month, final int dayOfMonth, final int hourOfDay, final int minute, final int second)\n
     '''
 def add():
-    '''public void add(final int field, final double amount)
+    '''returns None\n\n
+    add(final int field, final double amount)\n
     '''

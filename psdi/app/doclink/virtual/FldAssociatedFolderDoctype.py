@@ -1,3 +1,4 @@
-def FldAssociatedFolderDoctype():
-    '''public FldAssociatedFolderDoctype(final MboValue mbv)
+def ():
+    '''returns FldAssociatedFolderDoctype\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,36 +1,47 @@
 UNSET = "int  0"
 ALN = "int  1"
 NUMERIC = "int  2"
-def ItemAttributeType():
-    '''public ItemAttributeType(final Parser parser, final ItemATTRIBUTE attrib, final ItemValueList valueList, final Locale local)
+def ():
+    '''returns ItemAttributeType\n\n
+    (final Parser parser, final ItemATTRIBUTE attrib, final ItemValueList valueList, final Locale local)\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def compareAndUpdate():
-    '''public boolean compareAndUpdate(final Parser project, final ItemATTRIBUTE attrib)
+    '''returns boolean\n\n
+    compareAndUpdate(final Parser project, final ItemATTRIBUTE attrib)\n
     '''
 def addCategory():
-    '''public void addCategory(final String category)
+    '''returns None\n\n
+    addCategory(final String category)\n
     '''
 def getDataType():
-    '''public int getDataType()
+    '''returns int\n\n
+    getDataType()\n
     '''
 def setDataType():
-    '''public void setDataType(final int dataType)
+    '''returns None\n\n
+    setDataType(final int dataType)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getUnitOfMeasure():
-    '''public String getUnitOfMeasure()
+    '''returns String\n\n
+    getUnitOfMeasure()\n
     '''
 def setUnitOfMeasure():
-    '''public void setUnitOfMeasure(final String unitOfMeasure)
+    '''returns None\n\n
+    setUnitOfMeasure(final String unitOfMeasure)\n
     '''
 def useWithSheets():
-    '''public Iterator<String> useWithSheets()
+    '''returns Iterator<String>\n\n
+    useWithSheets()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,24 +1,32 @@
-def OtherResourcesMaxView():
-    '''public OtherResourcesMaxView()
+def ():
+    '''returns OtherResourcesMaxView\n\n
+    ()\n
     '''
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''
 def addGotoToolbarOptions():
-    '''public void addGotoToolbarOptions(final UIOptions opts)
+    '''returns None\n\n
+    addGotoToolbarOptions(final UIOptions opts)\n
     '''
 def addZoomToToolbarOptions():
-    '''public void addZoomToToolbarOptions(final UIOptions opts)
+    '''returns None\n\n
+    addZoomToToolbarOptions(final UIOptions opts)\n
     '''
 def loadSKDUIInfo():
-    '''public SKDUIInfo loadSKDUIInfo()
+    '''returns SKDUIInfo\n\n
+    loadSKDUIInfo()\n
     '''
 def loadSchedulerProject():
-    '''public JSONObject loadSchedulerProject(final WebClientSession sess, @MXEventParam("wouniqueid") final long woUniqueId, @MXEventParam("startdate") final long startDate, @MXEventParam("enddate") final long endDate)
+    '''returns JSONObject\n\n
+    loadSchedulerProject(final WebClientSession sess, @MXEventParam("wouniqueid") final long woUniqueId, @MXEventParam("startdate") final long startDate, @MXEventParam("enddate") final long endDate)\n
     '''
 def setColors():
-    '''public void setColors()
+    '''returns None\n\n
+    setColors()\n
     '''
 def getHexString():
-    '''public String getHexString(final Color color)
+    '''returns String\n\n
+    getHexString(final Color color)\n
     '''

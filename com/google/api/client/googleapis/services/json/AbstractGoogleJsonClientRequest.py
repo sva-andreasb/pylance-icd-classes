@@ -1,18 +1,20 @@
 def getAbstractGoogleClient():
-    '''public AbstractGoogleJsonClient getAbstractGoogleClient()
+    '''returns AbstractGoogleJsonClient\n\n
+    getAbstractGoogleClient()\n
     '''
 def setDisableGZipContent():
-    '''public AbstractGoogleJsonClientRequest<T> setDisableGZipContent(final boolean disableGZipContent)
+    '''returns AbstractGoogleJsonClientRequest<T>\n\n
+    setDisableGZipContent(final boolean disableGZipContent)\n
     '''
 def setRequestHeaders():
-    '''public AbstractGoogleJsonClientRequest<T> setRequestHeaders(final HttpHeaders headers)
-    '''
-def queue():
-    '''public final void queue(final BatchRequest batchRequest, final JsonBatchCallback<T> callback)
+    '''returns AbstractGoogleJsonClientRequest<T>\n\n
+    setRequestHeaders(final HttpHeaders headers)\n
     '''
 def getJsonContent():
-    '''public Object getJsonContent()
+    '''returns Object\n\n
+    getJsonContent()\n
     '''
 def set():
-    '''public AbstractGoogleJsonClientRequest<T> set(final String fieldName, final Object value)
+    '''returns AbstractGoogleJsonClientRequest<T>\n\n
+    set(final String fieldName, final Object value)\n
     '''

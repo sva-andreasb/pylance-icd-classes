@@ -1,16 +1,21 @@
-def DeleteObjectsResponse():
-    '''public DeleteObjectsResponse()
-    public DeleteObjectsResponse(final List<DeleteObjectsResult.DeletedObject> deletedObjects, final List<MultiObjectDeleteException.DeleteError> errors)
+def ():
+    '''returns DeleteObjectsResponse\n\n
+    ()\n
+    (final List<DeleteObjectsResult.DeletedObject> deletedObjects, final List<MultiObjectDeleteException.DeleteError> errors)\n
     '''
 def setDeletedObjects():
-    '''public void setDeletedObjects(final List<DeleteObjectsResult.DeletedObject> deletedObjects)
+    '''returns None\n\n
+    setDeletedObjects(final List<DeleteObjectsResult.DeletedObject> deletedObjects)\n
     '''
 def setErrors():
-    '''public void setErrors(final List<MultiObjectDeleteException.DeleteError> errors)
+    '''returns None\n\n
+    setErrors(final List<MultiObjectDeleteException.DeleteError> errors)\n
     '''
 def isRequesterCharged():
-    '''public boolean isRequesterCharged()
+    '''returns boolean\n\n
+    isRequesterCharged()\n
     '''
 def setRequesterCharged():
-    '''public void setRequesterCharged(final boolean isRequesterCharged)
+    '''returns None\n\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
     '''

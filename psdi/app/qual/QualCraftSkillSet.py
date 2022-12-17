@@ -1,3 +1,4 @@
-def QualCraftSkillSet():
-    '''public QualCraftSkillSet(final MboServerInterface ms)
+def ():
+    '''returns QualCraftSkillSet\n\n
+    (final MboServerInterface ms)\n
     '''

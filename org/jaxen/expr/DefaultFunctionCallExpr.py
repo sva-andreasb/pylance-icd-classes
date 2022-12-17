@@ -1,33 +1,44 @@
-def DefaultFunctionCallExpr():
-    '''public DefaultFunctionCallExpr(final String prefix, final String functionName)
+def ():
+    '''returns DefaultFunctionCallExpr\n\n
+    (final String prefix, final String functionName)\n
     '''
 def addParameter():
-    '''public void addParameter(final Expr parameter)
+    '''returns None\n\n
+    addParameter(final Expr parameter)\n
     '''
 def getParameters():
-    '''public List getParameters()
+    '''returns List\n\n
+    getParameters()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getFunctionName():
-    '''public String getFunctionName()
+    '''returns String\n\n
+    getFunctionName()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def simplify():
-    '''public Expr simplify()
+    '''returns Expr\n\n
+    simplify()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def evaluate():
-    '''public Object evaluate(final Context context)
+    '''returns Object\n\n
+    evaluate(final Context context)\n
     '''
 def evaluateParams():
-    '''public List evaluateParams(final Context context)
+    '''returns List\n\n
+    evaluateParams(final Context context)\n
     '''
 def accept():
-    '''public void accept(final Visitor visitor)
+    '''returns None\n\n
+    accept(final Visitor visitor)\n
     '''

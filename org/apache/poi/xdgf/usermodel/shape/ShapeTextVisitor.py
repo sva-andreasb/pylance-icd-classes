@@ -1,12 +1,16 @@
-def ShapeTextVisitor():
-    '''public ShapeTextVisitor()
+def ():
+    '''returns ShapeTextVisitor\n\n
+    ()\n
     '''
 def visit():
-    '''public void visit(final XDGFShape shape, final AffineTransform globalTransform, final int level)
+    '''returns None\n\n
+    visit(final XDGFShape shape, final AffineTransform globalTransform, final int level)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def accept():
-    '''public boolean accept(final XDGFShape shape)
+    '''returns boolean\n\n
+    accept(final XDGFShape shape)\n
     '''

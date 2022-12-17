@@ -7,142 +7,180 @@ MT_LANDLORDONLY_TABLE = "int  4"
 MT_TEMPLATE2_TABLE = "int  6"
 MT_DELTA2_TABLE = "int  5"
 def getEAuditTableName():
-    '''public String getEAuditTableName()
+    '''returns String\n\n
+    getEAuditTableName()\n
     '''
 def isUsedForAuditing():
-    '''public boolean isUsedForAuditing()
+    '''returns boolean\n\n
+    isUsedForAuditing()\n
     '''
 def isUsedForMLang():
-    '''public boolean isUsedForMLang()
+    '''returns boolean\n\n
+    isUsedForMLang()\n
     '''
 def isRowStampColumnExists():
-    '''public boolean isRowStampColumnExists()
+    '''returns boolean\n\n
+    isRowStampColumnExists()\n
     '''
 def getTableName():
-    '''public String getTableName()
-    public String getTableName(final String entityColumnName)
+    '''returns String\n\n
+    getTableName()\n
+    getTableName(final String entityColumnName)\n
     '''
 def getExtTableName():
-    '''public String getExtTableName()
+    '''returns String\n\n
+    getExtTableName()\n
     '''
 def isTextSearchEnabled():
-    '''public boolean isTextSearchEnabled()
+    '''returns boolean\n\n
+    isTextSearchEnabled()\n
     '''
 def getTables():
-    '''public Iterator getTables()
+    '''returns Iterator\n\n
+    getTables()\n
     '''
 def getTableCount():
-    '''public int getTableCount()
+    '''returns int\n\n
+    getTableCount()\n
     '''
 def getTablesInHierarchyOrder():
-    '''public Iterator getTablesInHierarchyOrder()
+    '''returns Iterator\n\n
+    getTablesInHierarchyOrder()\n
     '''
 def getTablesInReverseHierarchyOrder():
-    '''public Iterator getTablesInReverseHierarchyOrder()
+    '''returns Iterator\n\n
+    getTablesInReverseHierarchyOrder()\n
     '''
 def getColumnName():
-    '''public String getColumnName(final String entityColumnName)
-    public String getColumnName(final String entityColumnName, final String tableName)
+    '''returns String\n\n
+    getColumnName(final String entityColumnName)\n
+    getColumnName(final String entityColumnName, final String tableName)\n
     '''
 def getEntityColumnName():
-    '''public String getEntityColumnName(final String tableColumnName, final String tableName)
+    '''returns String\n\n
+    getEntityColumnName(final String tableColumnName, final String tableName)\n
     '''
 def getRowStampInfo():
-    '''public RowStampInfo getRowStampInfo()
+    '''returns RowStampInfo\n\n
+    getRowStampInfo()\n
     '''
 def getTenantIdInfo():
-    '''public TenantIdInfo getTenantIdInfo()
+    '''returns TenantIdInfo\n\n
+    getTenantIdInfo()\n
     '''
 def hasRowStamp():
-    '''public boolean hasRowStamp()
+    '''returns boolean\n\n
+    hasRowStamp()\n
     '''
 def getAuditTable():
-    '''public String getAuditTable(final String tableName)
+    '''returns String\n\n
+    getAuditTable(final String tableName)\n
     '''
 def getLangTBName():
-    '''public String getLangTBName()
+    '''returns String\n\n
+    getLangTBName()\n
     '''
 def addMLInUseColumn():
-    '''public void addMLInUseColumn()
+    '''returns None\n\n
+    addMLInUseColumn()\n
     '''
 def removeMLInUseColumn():
-    '''public void removeMLInUseColumn()
+    '''returns None\n\n
+    removeMLInUseColumn()\n
     '''
 def isMLInUse():
-    '''public boolean isMLInUse()
+    '''returns boolean\n\n
+    isMLInUse()\n
     '''
 def getUniqueColumnName():
-    '''public String getUniqueColumnName()
+    '''returns String\n\n
+    getUniqueColumnName()\n
     '''
 def getContentAttrName():
-    '''public String getContentAttrName()
+    '''returns String\n\n
+    getContentAttrName()\n
     '''
 def getAltIxName():
-    '''public String getAltIxName()
+    '''returns String\n\n
+    getAltIxName()\n
     '''
 def getLangColumnName():
-    '''public String getLangColumnName()
-    public String getLangColumnName(final String tableName)
+    '''returns String\n\n
+    getLangColumnName()\n
+    getLangColumnName(final String tableName)\n
     '''
 def getStorageType():
-    '''public int getStorageType()
+    '''returns int\n\n
+    getStorageType()\n
     '''
 def getMLParent():
-    '''public String getMLParent()
+    '''returns String\n\n
+    getMLParent()\n
     '''
 def hasImplicitTenantId():
-    '''public boolean hasImplicitTenantId(final String tableName)
-    public boolean hasImplicitTenantId()
+    '''returns boolean\n\n
+    hasImplicitTenantId(final String tableName)\n
+    hasImplicitTenantId()\n
     '''
 def addColumnInfo():
-    '''public void addColumnInfo(final TableColumnInfo columnInfo)
+    '''returns None\n\n
+    addColumnInfo(final TableColumnInfo columnInfo)\n
     '''
 def getColumnInfo():
-    '''public TableColumnInfo getColumnInfo(final String columnName)
+    '''returns TableColumnInfo\n\n
+    getColumnInfo(final String columnName)\n
     '''
 def getKeyColumns():
-    '''public Iterator getKeyColumns()
-    public Iterator getKeyColumns(final String tableName)
+    '''returns Iterator\n\n
+    getKeyColumns()\n
+    getKeyColumns(final String tableName)\n
     '''
 def getColumns():
-    '''public Iterator getColumns()
-    public Iterator getColumns(final String tableName)
+    '''returns Iterator\n\n
+    getColumns()\n
+    getColumns(final String tableName)\n
     '''
 def getEntityColumns():
-    '''public Iterator getEntityColumns()
+    '''returns Iterator\n\n
+    getEntityColumns()\n
     '''
 def getTypedReference():
-    '''public TableInfoBase getTypedReference()
+    '''returns TableInfoBase\n\n
+    getTypedReference()\n
     '''
 def getTypedReferenceForSet():
-    '''public TableInfoBase getTypedReferenceForSet()
+    '''returns TableInfoBase\n\n
+    getTypedReferenceForSet()\n
     '''
 def isTenantOwned():
-    '''public boolean isTenantOwned()
+    '''returns boolean\n\n
+    isTenantOwned()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''
-def TableIterator():
-    '''public TableIterator(final Iterator iterator)
+def ():
+    '''returns KeyColumnIterator\n\n
+    (final Iterator iterator)\n
+    (final Iterator iterator)\n
+    (final Iterator iterator)\n
     '''
 def remove():
-    '''public void remove()
-    public void remove()
-    public void remove()
-    '''
-def ColumnIterator():
-    '''public ColumnIterator(final Iterator iterator)
-    '''
-def KeyColumnIterator():
-    '''public KeyColumnIterator(final Iterator iterator)
+    '''returns None\n\n
+    remove()\n
+    remove()\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

@@ -1,24 +1,28 @@
-def STCompPart():
-    '''public STCompPart(final String name, final STSession session)
+def ():
+    '''returns STCompPart\n\n
+    (final String name, final STSession session)\n
     '''
 def processSTEvent():
-    '''public void processSTEvent(final STEvent stEvent)
+    '''returns None\n\n
+    processSTEvent(final STEvent stEvent)\n
     '''
 def componentLoaded():
-    '''public void componentLoaded(final STCompApi stCompApi)
+    '''returns None\n\n
+    componentLoaded(final STCompApi stCompApi)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getSession():
-    '''public STSession getSession()
+    '''returns STSession\n\n
+    getSession()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isActive():
-    '''public boolean isActive()
-    '''
-def getUniqueId():
-    '''public static synchronized Integer getUniqueId()
+    '''returns boolean\n\n
+    isActive()\n
     '''

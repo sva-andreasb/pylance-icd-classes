@@ -2,33 +2,43 @@ COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 SELECTED_PROPS = "Selector  new Selector()"
 STORED_PROPS = "Selector  new Selector()"
 INDEX_ERROR = "int  -1"
-def Property():
-    '''public Property(final String name, final Class<?> type, final boolean isMandatory, final boolean isStored, final boolean isExported, final Getter getter, final Setter setter)
+def ():
+    '''returns Property\n\n
+    (final String name, final Class<?> type, final boolean isMandatory, final boolean isStored, final boolean isExported, final Getter getter, final Setter setter)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isMandatory():
-    '''public boolean isMandatory()
+    '''returns boolean\n\n
+    isMandatory()\n
     '''
 def storedInElt():
-    '''public boolean storedInElt()
+    '''returns boolean\n\n
+    storedInElt()\n
     '''
 def isSelected():
-    '''public boolean isSelected()
+    '''returns boolean\n\n
+    isSelected()\n
     '''
 def select():
-    '''public void select()
+    '''returns None\n\n
+    select()\n
     '''
 def isExported():
-    '''public boolean isExported()
+    '''returns boolean\n\n
+    isExported()\n
     '''
 def getter():
-    '''public Getter getter()
+    '''returns Getter\n\n
+    getter()\n
     '''
 def setter():
-    '''public Setter setter()
+    '''returns Setter\n\n
+    setter()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

@@ -1,18 +1,24 @@
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def WSDEPLOY():
-    '''public int WSDEPLOY()
+    '''returns int\n\n
+    WSDEPLOY()\n
     '''
 def WSUNDEPLOY():
-    '''public int WSUNDEPLOY()
+    '''returns int\n\n
+    WSUNDEPLOY()\n
     '''
 def WSGENDEP():
-    '''public int WSGENDEP()
+    '''returns int\n\n
+    WSGENDEP()\n
     '''
 def WSGENUNDEP():
-    '''public int WSGENUNDEP()
+    '''returns int\n\n
+    WSGENUNDEP()\n
     '''
 def WSCONVERT():
-    '''public int WSCONVERT()
+    '''returns int\n\n
+    WSCONVERT()\n
     '''

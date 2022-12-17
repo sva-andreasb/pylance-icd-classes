@@ -1,3 +1,4 @@
-def DocumentSerializerFactory():
-    '''public DocumentSerializerFactory()
+def ():
+    '''returns DocumentSerializerFactory\n\n
+    ()\n
     '''

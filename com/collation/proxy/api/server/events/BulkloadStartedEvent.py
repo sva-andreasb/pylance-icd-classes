@@ -1,6 +1,8 @@
-def BulkloadStartedEvent():
-    '''public BulkloadStartedEvent(final long bulkloadId)
+def ():
+    '''returns BulkloadStartedEvent\n\n
+    (final long bulkloadId)\n
     '''
 def getBulkloadId():
-    '''public long getBulkloadId()
+    '''returns long\n\n
+    getBulkloadId()\n
     '''

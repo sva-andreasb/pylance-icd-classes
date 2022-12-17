@@ -1,39 +1,35 @@
-def SASLMechanism():
-    '''public SASLMechanism(final SASLAuthentication saslAuthentication)
+def ():
+    '''returns Failure\n\n
+    (final SASLAuthentication saslAuthentication)\n
+    (final String name, final String authenticationText)\n
+    (final String data)\n
+    ()\n
+    (final String authenticationText)\n
+    (final String data)\n
+    (final String condition)\n
     '''
 def authenticate():
-    '''public void authenticate(final String username, final String host, final String password)
-    public void authenticate(final String username, final String host, final CallbackHandler cbh)
+    '''returns None\n\n
+    authenticate(final String username, final String host, final String password)\n
+    authenticate(final String username, final String host, final CallbackHandler cbh)\n
     '''
 def challengeReceived():
-    '''public void challengeReceived(final String challenge)
+    '''returns None\n\n
+    challengeReceived(final String challenge)\n
     '''
 def handle():
-    '''public void handle(final Callback[] callbacks)
-    '''
-def AuthMechanism():
-    '''public AuthMechanism(final String name, final String authenticationText)
+    '''returns None\n\n
+    handle(final Callback[] callbacks)\n
     '''
 def toXML():
-    '''public String toXML()
-    public String toXML()
-    public String toXML()
-    public String toXML()
-    public String toXML()
-    '''
-def Challenge():
-    '''public Challenge(final String data)
-    '''
-def Response():
-    '''public Response()
-    public Response(final String authenticationText)
-    '''
-def Success():
-    '''public Success(final String data)
-    '''
-def Failure():
-    '''public Failure(final String condition)
+    '''returns String\n\n
+    toXML()\n
+    toXML()\n
+    toXML()\n
+    toXML()\n
+    toXML()\n
     '''
 def getCondition():
-    '''public String getCondition()
+    '''returns String\n\n
+    getCondition()\n
     '''

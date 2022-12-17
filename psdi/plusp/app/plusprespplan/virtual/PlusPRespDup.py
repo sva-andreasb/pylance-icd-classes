@@ -1,6 +1,8 @@
-def PlusPRespDup():
-    '''public PlusPRespDup(final MboSet ms)
+def ():
+    '''returns PlusPRespDup\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

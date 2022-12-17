@@ -1,21 +1,28 @@
 def hasText():
-    '''public boolean hasText()
+    '''returns boolean\n\n
+    hasText()\n
     '''
 def nextTag():
-    '''public int nextTag()
+    '''returns int\n\n
+    nextTag()\n
     '''
 def isStartElement():
-    '''public boolean isStartElement()
+    '''returns boolean\n\n
+    isStartElement()\n
     '''
 def isEndElement():
-    '''public boolean isEndElement()
+    '''returns boolean\n\n
+    isEndElement()\n
     '''
 def isCharacters():
-    '''public boolean isCharacters()
+    '''returns boolean\n\n
+    isCharacters()\n
     '''
 def hasName():
-    '''public boolean hasName()
+    '''returns boolean\n\n
+    hasName()\n
     '''
 def require():
-    '''public void require(final int type, final String uri, final String localName)
+    '''returns None\n\n
+    require(final int type, final String uri, final String localName)\n
     '''

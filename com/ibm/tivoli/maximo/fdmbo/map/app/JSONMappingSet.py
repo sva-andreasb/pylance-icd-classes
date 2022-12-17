@@ -1,6 +1,8 @@
-def JSONMappingSet():
-    '''public JSONMappingSet(final MboServerInterface ms)
+def ():
+    '''returns JSONMappingSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

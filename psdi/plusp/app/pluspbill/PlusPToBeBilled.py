@@ -1,3 +1,4 @@
-def PlusPToBeBilled():
-    '''public PlusPToBeBilled(final MboSet ms)
+def ():
+    '''returns PlusPToBeBilled\n\n
+    (final MboSet ms)\n
     '''

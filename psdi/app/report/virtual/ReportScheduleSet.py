@@ -1,3 +1,4 @@
-def ReportScheduleSet():
-    '''public ReportScheduleSet(final MboServerInterface ms)
+def ():
+    '''returns ReportScheduleSet\n\n
+    (final MboServerInterface ms)\n
     '''

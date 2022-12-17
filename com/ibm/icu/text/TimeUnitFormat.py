@@ -1,28 +1,27 @@
 FULL_NAME = "int  0"
 ABBREVIATED_NAME = "int  1"
-def TimeUnitFormat():
-    '''public TimeUnitFormat()
-    public TimeUnitFormat(final ULocale locale)
-    public TimeUnitFormat(final Locale locale)
-    public TimeUnitFormat(final ULocale locale, final int style)
-    public TimeUnitFormat(final Locale locale, final int style)
+def ():
+    '''returns TimeUnitFormat\n\n
+    ()\n
+    (final ULocale locale)\n
+    (final Locale locale)\n
+    (final ULocale locale, final int style)\n
+    (final Locale locale, final int style)\n
     '''
 def setLocale():
-    '''public TimeUnitFormat setLocale(final ULocale locale)
-    public TimeUnitFormat setLocale(final Locale locale)
+    '''returns TimeUnitFormat\n\n
+    setLocale(final ULocale locale)\n
+    setLocale(final Locale locale)\n
     '''
 def setNumberFormat():
-    '''public TimeUnitFormat setNumberFormat(final NumberFormat format)
+    '''returns TimeUnitFormat\n\n
+    setNumberFormat(final NumberFormat format)\n
     '''
-def getNumberFormat():
-    '''public NumberFormat getNumberFormat()
+def format():
+    '''returns StringBuffer\n\n
+    format(final Object obj, final StringBuffer toAppendTo, final FieldPosition pos)\n
     '''
 def parseObject():
-    '''public TimeUnitAmount parseObject(final String source, final ParsePosition pos)
-    '''
-def clone():
-    '''public Object clone()
-    '''
-def put():
-    '''public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
+    '''returns Object\n\n
+    parseObject(final String source, final ParsePosition pos)\n
     '''

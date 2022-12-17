@@ -1,3 +1,4 @@
-def RejectedNotificationException():
-    '''public RejectedNotificationException(final RejectionReason rejectionReason)
+def ():
+    '''returns RejectedNotificationException\n\n
+    (final RejectionReason rejectionReason)\n
     '''

@@ -1,25 +1,33 @@
-def WSDDJAXRPCHandlerInfoChain():
-    '''public WSDDJAXRPCHandlerInfoChain()
-    public WSDDJAXRPCHandlerInfoChain(final Element e)
+def ():
+    '''returns WSDDJAXRPCHandlerInfoChain\n\n
+    ()\n
+    (final Element e)\n
     '''
 def getHandlerChainFactory():
-    '''public HandlerInfoChainFactory getHandlerChainFactory()
+    '''returns HandlerInfoChainFactory\n\n
+    getHandlerChainFactory()\n
     '''
 def setHandlerChainFactory():
-    '''public void setHandlerChainFactory(final HandlerInfoChainFactory handlerInfoChainFactory)
+    '''returns None\n\n
+    setHandlerChainFactory(final HandlerInfoChainFactory handlerInfoChainFactory)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def getHandlerInfoList():
-    '''public ArrayList getHandlerInfoList()
+    '''returns ArrayList\n\n
+    getHandlerInfoList()\n
     '''
 def setHandlerInfoList():
-    '''public void setHandlerInfoList(final ArrayList hiList)
+    '''returns None\n\n
+    setHandlerInfoList(final ArrayList hiList)\n
     '''
 def getRoles():
-    '''public String[] getRoles()
+    '''returns String[]\n\n
+    getRoles()\n
     '''
 def setRoles():
-    '''public void setRoles(final String[] roles)
+    '''returns None\n\n
+    setRoles(final String[] roles)\n
     '''

@@ -1,36 +1,47 @@
-def SpecializedGraph_TripleStore():
-    '''public SpecializedGraph_TripleStore(final IPSet pSet, final Integer dbGraphID)
+def ():
+    '''returns SpecializedGraph_TripleStore\n\n
+    (final IPSet pSet, final Integer dbGraphID)\n
     '''
 def add():
-    '''public void add(final Graph g, final SpecializedGraph.CompletionFlag complete)
-    public void add(final Triple t, final SpecializedGraph.CompletionFlag complete)
-    public void add(final List<Triple> triples, final SpecializedGraph.CompletionFlag complete)
+    '''returns None\n\n
+    add(final Graph g, final SpecializedGraph.CompletionFlag complete)\n
+    add(final Triple t, final SpecializedGraph.CompletionFlag complete)\n
+    add(final List<Triple> triples, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def delete():
-    '''public void delete(final Triple t, final SpecializedGraph.CompletionFlag complete)
-    public void delete(final List<Triple> triples, final SpecializedGraph.CompletionFlag complete)
+    '''returns None\n\n
+    delete(final Triple t, final SpecializedGraph.CompletionFlag complete)\n
+    delete(final List<Triple> triples, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def tripleCount():
-    '''public int tripleCount()
+    '''returns int\n\n
+    tripleCount()\n
     '''
 def contains():
-    '''public boolean contains(final Triple t, final SpecializedGraph.CompletionFlag complete)
+    '''returns boolean\n\n
+    contains(final Triple t, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final TripleMatch t, final SpecializedGraph.CompletionFlag complete)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final TripleMatch t, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getGraphId():
-    '''public int getGraphId()
+    '''returns int\n\n
+    getGraphId()\n
     '''
 def getPSet():
-    '''public IPSet getPSet()
+    '''returns IPSet\n\n
+    getPSet()\n
     '''
 def getDBPropLSet():
-    '''public DBPropLSet getDBPropLSet()
+    '''returns DBPropLSet\n\n
+    getDBPropLSet()\n
     '''

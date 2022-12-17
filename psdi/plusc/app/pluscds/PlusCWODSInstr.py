@@ -1,45 +1,60 @@
-def PlusCWODSInstr():
-    '''public PlusCWODSInstr(final MboSet ms)
+def ():
+    '''returns PlusCWODSInstr\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getOwner():
-    '''public MboRemote getOwner()
+    '''returns MboRemote\n\n
+    getOwner()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def checkPointsErrors():
-    '''public void checkPointsErrors()
+    '''returns None\n\n
+    checkPointsErrors()\n
     '''
 def isValidPoint():
-    '''public boolean isValidPoint(final MboRemote instrMbo, final MboRemote pointMbo)
+    '''returns boolean\n\n
+    isValidPoint(final MboRemote instrMbo, final MboRemote pointMbo)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def setReadOnlyFields():
-    '''public void setReadOnlyFields()
+    '''returns None\n\n
+    setReadOnlyFields()\n
     '''
 def getPointsMboSet():
-    '''public MboSetRemote getPointsMboSet(final int calPointType)
+    '''returns MboSetRemote\n\n
+    getPointsMboSet(final int calPointType)\n
     '''
 def childHasChanged():
-    '''public void childHasChanged()
+    '''returns None\n\n
+    childHasChanged()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

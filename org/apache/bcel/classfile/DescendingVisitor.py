@@ -1,109 +1,145 @@
 def predecessor():
-    '''public Object predecessor()
-    public Object predecessor(final int level)
+    '''returns Object\n\n
+    predecessor()\n
+    predecessor(final int level)\n
     '''
 def current():
-    '''public Object current()
+    '''returns Object\n\n
+    current()\n
     '''
-def DescendingVisitor():
-    '''public DescendingVisitor(final JavaClass clazz, final Visitor visitor)
+def ():
+    '''returns DescendingVisitor\n\n
+    (final JavaClass clazz, final Visitor visitor)\n
     '''
 def visit():
-    '''public void visit()
+    '''returns None\n\n
+    visit()\n
     '''
 def visitJavaClass():
-    '''public void visitJavaClass(final JavaClass _clazz)
+    '''returns None\n\n
+    visitJavaClass(final JavaClass _clazz)\n
     '''
 def visitField():
-    '''public void visitField(final Field field)
+    '''returns None\n\n
+    visitField(final Field field)\n
     '''
 def visitConstantValue():
-    '''public void visitConstantValue(final ConstantValue cv)
+    '''returns None\n\n
+    visitConstantValue(final ConstantValue cv)\n
     '''
 def visitMethod():
-    '''public void visitMethod(final Method method)
+    '''returns None\n\n
+    visitMethod(final Method method)\n
     '''
 def visitExceptionTable():
-    '''public void visitExceptionTable(final ExceptionTable table)
+    '''returns None\n\n
+    visitExceptionTable(final ExceptionTable table)\n
     '''
 def visitCode():
-    '''public void visitCode(final Code code)
+    '''returns None\n\n
+    visitCode(final Code code)\n
     '''
 def visitCodeException():
-    '''public void visitCodeException(final CodeException ce)
+    '''returns None\n\n
+    visitCodeException(final CodeException ce)\n
     '''
 def visitLineNumberTable():
-    '''public void visitLineNumberTable(final LineNumberTable table)
+    '''returns None\n\n
+    visitLineNumberTable(final LineNumberTable table)\n
     '''
 def visitLineNumber():
-    '''public void visitLineNumber(final LineNumber number)
+    '''returns None\n\n
+    visitLineNumber(final LineNumber number)\n
     '''
 def visitLocalVariableTable():
-    '''public void visitLocalVariableTable(final LocalVariableTable table)
+    '''returns None\n\n
+    visitLocalVariableTable(final LocalVariableTable table)\n
     '''
 def visitStackMap():
-    '''public void visitStackMap(final StackMap table)
+    '''returns None\n\n
+    visitStackMap(final StackMap table)\n
     '''
 def visitStackMapEntry():
-    '''public void visitStackMapEntry(final StackMapEntry var)
+    '''returns None\n\n
+    visitStackMapEntry(final StackMapEntry var)\n
     '''
 def visitLocalVariable():
-    '''public void visitLocalVariable(final LocalVariable var)
+    '''returns None\n\n
+    visitLocalVariable(final LocalVariable var)\n
     '''
 def visitConstantPool():
-    '''public void visitConstantPool(final ConstantPool cp)
+    '''returns None\n\n
+    visitConstantPool(final ConstantPool cp)\n
     '''
 def visitConstantClass():
-    '''public void visitConstantClass(final ConstantClass constant)
+    '''returns None\n\n
+    visitConstantClass(final ConstantClass constant)\n
     '''
 def visitConstantDouble():
-    '''public void visitConstantDouble(final ConstantDouble constant)
+    '''returns None\n\n
+    visitConstantDouble(final ConstantDouble constant)\n
     '''
 def visitConstantFieldref():
-    '''public void visitConstantFieldref(final ConstantFieldref constant)
+    '''returns None\n\n
+    visitConstantFieldref(final ConstantFieldref constant)\n
     '''
 def visitConstantFloat():
-    '''public void visitConstantFloat(final ConstantFloat constant)
+    '''returns None\n\n
+    visitConstantFloat(final ConstantFloat constant)\n
     '''
 def visitConstantInteger():
-    '''public void visitConstantInteger(final ConstantInteger constant)
+    '''returns None\n\n
+    visitConstantInteger(final ConstantInteger constant)\n
     '''
 def visitConstantInterfaceMethodref():
-    '''public void visitConstantInterfaceMethodref(final ConstantInterfaceMethodref constant)
+    '''returns None\n\n
+    visitConstantInterfaceMethodref(final ConstantInterfaceMethodref constant)\n
     '''
 def visitConstantLong():
-    '''public void visitConstantLong(final ConstantLong constant)
+    '''returns None\n\n
+    visitConstantLong(final ConstantLong constant)\n
     '''
 def visitConstantMethodref():
-    '''public void visitConstantMethodref(final ConstantMethodref constant)
+    '''returns None\n\n
+    visitConstantMethodref(final ConstantMethodref constant)\n
     '''
 def visitConstantNameAndType():
-    '''public void visitConstantNameAndType(final ConstantNameAndType constant)
+    '''returns None\n\n
+    visitConstantNameAndType(final ConstantNameAndType constant)\n
     '''
 def visitConstantString():
-    '''public void visitConstantString(final ConstantString constant)
+    '''returns None\n\n
+    visitConstantString(final ConstantString constant)\n
     '''
 def visitConstantUtf8():
-    '''public void visitConstantUtf8(final ConstantUtf8 constant)
+    '''returns None\n\n
+    visitConstantUtf8(final ConstantUtf8 constant)\n
     '''
 def visitInnerClasses():
-    '''public void visitInnerClasses(final InnerClasses ic)
+    '''returns None\n\n
+    visitInnerClasses(final InnerClasses ic)\n
     '''
 def visitInnerClass():
-    '''public void visitInnerClass(final InnerClass inner)
+    '''returns None\n\n
+    visitInnerClass(final InnerClass inner)\n
     '''
 def visitDeprecated():
-    '''public void visitDeprecated(final Deprecated attribute)
+    '''returns None\n\n
+    visitDeprecated(final Deprecated attribute)\n
     '''
 def visitSignature():
-    '''public void visitSignature(final Signature attribute)
+    '''returns None\n\n
+    visitSignature(final Signature attribute)\n
     '''
 def visitSourceFile():
-    '''public void visitSourceFile(final SourceFile attribute)
+    '''returns None\n\n
+    visitSourceFile(final SourceFile attribute)\n
     '''
 def visitSynthetic():
-    '''public void visitSynthetic(final Synthetic attribute)
+    '''returns None\n\n
+    visitSynthetic(final Synthetic attribute)\n
     '''
 def visitUnknown():
-    '''public void visitUnknown(final Unknown attribute)
+    '''returns None\n\n
+    visitUnknown(final Unknown attribute)\n
     '''

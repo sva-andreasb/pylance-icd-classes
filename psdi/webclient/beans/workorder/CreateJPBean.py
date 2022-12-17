@@ -1,3 +1,4 @@
 def autonumber():
-    '''public int autonumber()
+    '''returns int\n\n
+    autonumber()\n
     '''

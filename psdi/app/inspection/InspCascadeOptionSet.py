@@ -1,3 +1,4 @@
-def InspCascadeOptionSet():
-    '''public InspCascadeOptionSet(final MboServerInterface ms)
+def ():
+    '''returns InspCascadeOptionSet\n\n
+    (final MboServerInterface ms)\n
     '''

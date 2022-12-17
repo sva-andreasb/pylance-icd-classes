@@ -1,36 +1,27 @@
 ENCODED_SIZE = "int  6"
-def PageBreakRecord():
-    '''public PageBreakRecord(final RecordInputStream in)
+def ():
+    '''returns Break\n\n
+    (final RecordInputStream in)\n
+    (final int main, final int subFrom, final int subTo)\n
+    (final RecordInputStream in)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
-    '''
-def serialize():
-    '''public final void serialize(final LittleEndianOutput out)
-    public void serialize(final LittleEndianOutput out)
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getNumBreaks():
-    '''public int getNumBreaks()
-    '''
-def getBreaksIterator():
-    '''public final Iterator<Break> getBreaksIterator()
+    '''returns int\n\n
+    getNumBreaks()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def addBreak():
-    '''public void addBreak(final int main, final int subFrom, final int subTo)
+    '''returns None\n\n
+    addBreak(final int main, final int subFrom, final int subTo)\n
     '''
-def removeBreak():
-    '''public final void removeBreak(final int main)
-    '''
-def getBreak():
-    '''public final Break getBreak(final int main)
-    '''
-def getBreaks():
-    '''public final int[] getBreaks()
-    '''
-def Break():
-    '''public Break(final int main, final int subFrom, final int subTo)
-    public Break(final RecordInputStream in)
+def serialize():
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''

@@ -1,15 +1,20 @@
-def DomainValueMbo():
-    '''public DomainValueMbo(final MboSet ms)
+def ():
+    '''returns DomainValueMbo\n\n
+    (final MboSet ms)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''

@@ -1,45 +1,60 @@
-def TreeWalkerImpl():
-    '''public TreeWalkerImpl(final Node node, final int fWhatToShow, final NodeFilter fNodeFilter, final boolean fEntityReferenceExpansion)
+def ():
+    '''returns TreeWalkerImpl\n\n
+    (final Node node, final int fWhatToShow, final NodeFilter fNodeFilter, final boolean fEntityReferenceExpansion)\n
     '''
 def getRoot():
-    '''public Node getRoot()
+    '''returns Node\n\n
+    getRoot()\n
     '''
 def getWhatToShow():
-    '''public int getWhatToShow()
+    '''returns int\n\n
+    getWhatToShow()\n
     '''
 def setWhatShow():
-    '''public void setWhatShow(final int fWhatToShow)
+    '''returns None\n\n
+    setWhatShow(final int fWhatToShow)\n
     '''
 def getFilter():
-    '''public NodeFilter getFilter()
+    '''returns NodeFilter\n\n
+    getFilter()\n
     '''
 def getExpandEntityReferences():
-    '''public boolean getExpandEntityReferences()
+    '''returns boolean\n\n
+    getExpandEntityReferences()\n
     '''
 def getCurrentNode():
-    '''public Node getCurrentNode()
+    '''returns Node\n\n
+    getCurrentNode()\n
     '''
 def setCurrentNode():
-    '''public void setCurrentNode(final Node fCurrentNode)
+    '''returns None\n\n
+    setCurrentNode(final Node fCurrentNode)\n
     '''
 def parentNode():
-    '''public Node parentNode()
+    '''returns Node\n\n
+    parentNode()\n
     '''
 def firstChild():
-    '''public Node firstChild()
+    '''returns Node\n\n
+    firstChild()\n
     '''
 def lastChild():
-    '''public Node lastChild()
+    '''returns Node\n\n
+    lastChild()\n
     '''
 def previousSibling():
-    '''public Node previousSibling()
+    '''returns Node\n\n
+    previousSibling()\n
     '''
 def nextSibling():
-    '''public Node nextSibling()
+    '''returns Node\n\n
+    nextSibling()\n
     '''
 def previousNode():
-    '''public Node previousNode()
+    '''returns Node\n\n
+    previousNode()\n
     '''
 def nextNode():
-    '''public Node nextNode()
+    '''returns Node\n\n
+    nextNode()\n
     '''

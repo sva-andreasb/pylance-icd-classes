@@ -1,19 +1,21 @@
 ELEMENT = "String  \"resp\""
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''
 def getStatusMessage():
-    '''public String getStatusMessage()
-    '''
-def builder():
-    '''public static Builder builder()
+    '''returns String\n\n
+    getStatusMessage()\n
     '''
 def setStatusCode():
-    '''public Builder setStatusCode(final int statusCode)
+    '''returns Builder\n\n
+    setStatusCode(final int statusCode)\n
     '''
 def setStatusMessage():
-    '''public Builder setStatusMessage(final String statusMessage)
+    '''returns Builder\n\n
+    setStatusMessage(final String statusMessage)\n
     '''
 def build():
-    '''public HttpOverXmppResp build()
+    '''returns HttpOverXmppResp\n\n
+    build()\n
     '''

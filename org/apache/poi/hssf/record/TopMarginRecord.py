@@ -1,23 +1,30 @@
 sid = "short  40"
-def TopMarginRecord():
-    '''public TopMarginRecord()
-    public TopMarginRecord(final RecordInputStream in)
+def ():
+    '''returns TopMarginRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getMargin():
-    '''public double getMargin()
+    '''returns double\n\n
+    getMargin()\n
     '''
 def setMargin():
-    '''public void setMargin(final double field_1_margin)
+    '''returns None\n\n
+    setMargin(final double field_1_margin)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

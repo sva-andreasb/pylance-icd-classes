@@ -1,9 +1,12 @@
-def ReconResult():
-    '''public ReconResult(final MboSet ms)
+def ():
+    '''returns ReconResult\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''

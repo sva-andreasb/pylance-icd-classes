@@ -1,3 +1,4 @@
-def LocationMntSKDSet():
-    '''public LocationMntSKDSet(final MboServerInterface ms)
+def ():
+    '''returns LocationMntSKDSet\n\n
+    (final MboServerInterface ms)\n
     '''

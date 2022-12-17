@@ -1,3 +1,4 @@
 def savedialog():
-    '''public int savedialog()
+    '''returns int\n\n
+    savedialog()\n
     '''

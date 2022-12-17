@@ -1,176 +1,187 @@
-def newBuilder():
-    '''public static Builder newBuilder()
-    '''
-def Log4jLogEvent():
-    '''public Log4jLogEvent()
-    public Log4jLogEvent(final long timestamp)
-    public Log4jLogEvent(final String loggerName, final Marker marker, final String loggerFQCN, final Level level, final Message message, final Throwable t)
-    public Log4jLogEvent(final String loggerName, final Marker marker, final String loggerFQCN, final Level level, final Message message, final List<Property> properties, final Throwable t)
-    public Log4jLogEvent(final String loggerName, final Marker marker, final String loggerFQCN, final StackTraceElement source, final Level level, final Message message, final List<Property> properties, final Throwable t)
-    public Log4jLogEvent(final String loggerName, final Marker marker, final String loggerFQCN, final Level level, final Message message, final Throwable t, final Map<String, String> mdc, final ThreadContext.ContextStack ndc, final String threadName, final StackTraceElement location, final long timestampMillis)
-    '''
-def createEvent():
-    '''public static Log4jLogEvent createEvent(final String loggerName, final Marker marker, final String loggerFQCN, final Level level, final Message message, final Throwable thrown, final ThrowableProxy thrownProxy, final Map<String, String> mdc, final ThreadContext.ContextStack ndc, final String threadName, final StackTraceElement location, final long timestamp)
-    '''
-def getNanoClock():
-    '''public static NanoClock getNanoClock()
-    '''
-def setNanoClock():
-    '''public static void setNanoClock(final NanoClock nanoClock)
+def ():
+    '''returns LogEventProxy\n\n
+    ()\n
+    (final long timestamp)\n
+    (final String loggerName, final Marker marker, final String loggerFQCN, final Level level, final Message message, final Throwable t)\n
+    (final String loggerName, final Marker marker, final String loggerFQCN, final Level level, final Message message, final List<Property> properties, final Throwable t)\n
+    (final String loggerName, final Marker marker, final String loggerFQCN, final StackTraceElement source, final Level level, final Message message, final List<Property> properties, final Throwable t)\n
+    (final String loggerName, final Marker marker, final String loggerFQCN, final Level level, final Message message, final Throwable t, final Map<String, String> mdc, final ThreadContext.ContextStack ndc, final String threadName, final StackTraceElement location, final long timestampMillis)\n
+    ()\n
+    (final LogEvent other)\n
+    (final Log4jLogEvent event, final boolean includeLocation)\n
+    (final LogEvent event, final boolean includeLocation)\n
     '''
 def asBuilder():
-    '''public Builder asBuilder()
+    '''returns Builder\n\n
+    asBuilder()\n
     '''
 def toImmutable():
-    '''public Log4jLogEvent toImmutable()
+    '''returns Log4jLogEvent\n\n
+    toImmutable()\n
     '''
 def getLevel():
-    '''public Level getLevel()
+    '''returns Level\n\n
+    getLevel()\n
     '''
 def getLoggerName():
-    '''public String getLoggerName()
+    '''returns String\n\n
+    getLoggerName()\n
     '''
 def getMessage():
-    '''public Message getMessage()
+    '''returns Message\n\n
+    getMessage()\n
     '''
 def makeMessageImmutable():
-    '''public void makeMessageImmutable()
+    '''returns None\n\n
+    makeMessageImmutable()\n
     '''
 def getThreadId():
-    '''public long getThreadId()
+    '''returns long\n\n
+    getThreadId()\n
     '''
 def getThreadName():
-    '''public String getThreadName()
+    '''returns String\n\n
+    getThreadName()\n
     '''
 def getThreadPriority():
-    '''public int getThreadPriority()
+    '''returns int\n\n
+    getThreadPriority()\n
     '''
 def getTimeMillis():
-    '''public long getTimeMillis()
+    '''returns long\n\n
+    getTimeMillis()\n
     '''
 def getInstant():
-    '''public Instant getInstant()
+    '''returns Instant\n\n
+    getInstant()\n
     '''
 def getThrown():
-    '''public Throwable getThrown()
+    '''returns Throwable\n\n
+    getThrown()\n
     '''
 def getThrownProxy():
-    '''public ThrowableProxy getThrownProxy()
+    '''returns ThrowableProxy\n\n
+    getThrownProxy()\n
     '''
 def getMarker():
-    '''public Marker getMarker()
+    '''returns Marker\n\n
+    getMarker()\n
     '''
 def getLoggerFqcn():
-    '''public String getLoggerFqcn()
+    '''returns String\n\n
+    getLoggerFqcn()\n
     '''
 def getContextData():
-    '''public ReadOnlyStringMap getContextData()
-    '''
-def getContextMap():
-    '''public Map<String, String> getContextMap()
+    '''returns ReadOnlyStringMap\n\n
+    getContextData()\n
     '''
 def getSource():
-    '''public StackTraceElement getSource()
+    '''returns StackTraceElement\n\n
+    getSource()\n
     '''
 def isIncludeLocation():
-    '''public boolean isIncludeLocation()
+    '''returns boolean\n\n
+    isIncludeLocation()\n
     '''
 def setIncludeLocation():
-    '''public void setIncludeLocation(final boolean includeLocation)
-    public Builder setIncludeLocation(final boolean includeLocation)
+    '''returns Builder\n\n
+    setIncludeLocation(final boolean includeLocation)\n
+    setIncludeLocation(final boolean includeLocation)\n
     '''
 def isEndOfBatch():
-    '''public boolean isEndOfBatch()
+    '''returns boolean\n\n
+    isEndOfBatch()\n
     '''
 def setEndOfBatch():
-    '''public void setEndOfBatch(final boolean endOfBatch)
-    public Builder setEndOfBatch(final boolean endOfBatch)
+    '''returns Builder\n\n
+    setEndOfBatch(final boolean endOfBatch)\n
+    setEndOfBatch(final boolean endOfBatch)\n
     '''
 def getNanoTime():
-    '''public long getNanoTime()
-    '''
-def serialize():
-    '''public static Serializable serialize(final LogEvent event, final boolean includeLocation)
-    public static Serializable serialize(final Log4jLogEvent event, final boolean includeLocation)
-    '''
-def canDeserialize():
-    '''public static boolean canDeserialize(final Serializable event)
-    '''
-def deserialize():
-    '''public static Log4jLogEvent deserialize(final Serializable event)
-    '''
-def createMemento():
-    '''public static LogEvent createMemento(final LogEvent logEvent)
-    public static Log4jLogEvent createMemento(final LogEvent event, final boolean includeLocation)
+    '''returns long\n\n
+    getNanoTime()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def Builder():
-    '''public Builder()
-    public Builder(final LogEvent other)
+    '''returns int\n\n
+    hashCode()\n
     '''
 def setLevel():
-    '''public Builder setLevel(final Level level)
+    '''returns Builder\n\n
+    setLevel(final Level level)\n
     '''
 def setLoggerFqcn():
-    '''public Builder setLoggerFqcn(final String loggerFqcn)
+    '''returns Builder\n\n
+    setLoggerFqcn(final String loggerFqcn)\n
     '''
 def setLoggerName():
-    '''public Builder setLoggerName(final String loggerName)
+    '''returns Builder\n\n
+    setLoggerName(final String loggerName)\n
     '''
 def setMarker():
-    '''public Builder setMarker(final Marker marker)
+    '''returns Builder\n\n
+    setMarker(final Marker marker)\n
     '''
 def setMessage():
-    '''public Builder setMessage(final Message message)
+    '''returns Builder\n\n
+    setMessage(final Message message)\n
     '''
 def setThrown():
-    '''public Builder setThrown(final Throwable thrown)
+    '''returns Builder\n\n
+    setThrown(final Throwable thrown)\n
     '''
 def setTimeMillis():
-    '''public Builder setTimeMillis(final long timeMillis)
+    '''returns Builder\n\n
+    setTimeMillis(final long timeMillis)\n
     '''
 def setInstant():
-    '''public Builder setInstant(final Instant instant)
+    '''returns Builder\n\n
+    setInstant(final Instant instant)\n
     '''
 def setThrownProxy():
-    '''public Builder setThrownProxy(final ThrowableProxy thrownProxy)
+    '''returns Builder\n\n
+    setThrownProxy(final ThrowableProxy thrownProxy)\n
     '''
 def setContextMap():
-    '''public Builder setContextMap(final Map<String, String> contextMap)
+    '''returns Builder\n\n
+    setContextMap(final Map<String, String> contextMap)\n
     '''
 def setContextData():
-    '''public Builder setContextData(final StringMap contextData)
+    '''returns Builder\n\n
+    setContextData(final StringMap contextData)\n
     '''
 def setContextStack():
-    '''public Builder setContextStack(final ThreadContext.ContextStack contextStack)
+    '''returns Builder\n\n
+    setContextStack(final ThreadContext.ContextStack contextStack)\n
     '''
 def setThreadId():
-    '''public Builder setThreadId(final long threadId)
+    '''returns Builder\n\n
+    setThreadId(final long threadId)\n
     '''
 def setThreadName():
-    '''public Builder setThreadName(final String threadName)
+    '''returns Builder\n\n
+    setThreadName(final String threadName)\n
     '''
 def setThreadPriority():
-    '''public Builder setThreadPriority(final int threadPriority)
+    '''returns Builder\n\n
+    setThreadPriority(final int threadPriority)\n
     '''
 def setSource():
-    '''public Builder setSource(final StackTraceElement source)
+    '''returns Builder\n\n
+    setSource(final StackTraceElement source)\n
     '''
 def setNanoTime():
-    '''public Builder setNanoTime(final long nanoTime)
+    '''returns Builder\n\n
+    setNanoTime(final long nanoTime)\n
     '''
 def build():
-    '''public Log4jLogEvent build()
-    '''
-def LogEventProxy():
-    '''public LogEventProxy(final Log4jLogEvent event, final boolean includeLocation)
-    public LogEventProxy(final LogEvent event, final boolean includeLocation)
+    '''returns Log4jLogEvent\n\n
+    build()\n
     '''

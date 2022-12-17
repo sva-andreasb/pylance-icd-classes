@@ -1,15 +1,20 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getHeaderName():
-    '''public String getHeaderName()
+    '''returns String\n\n
+    getHeaderName()\n
     '''
 def match():
-    '''public boolean match(final Message msg)
+    '''returns boolean\n\n
+    match(final Message msg)\n
     '''
-def HeaderTerm():
-    '''public HeaderTerm(final String headerName, final String pattern)
+def ():
+    '''returns HeaderTerm\n\n
+    (final String headerName, final String pattern)\n
     '''

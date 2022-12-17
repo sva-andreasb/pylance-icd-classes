@@ -1,6 +1,8 @@
-def PlusPFldSANum():
-    '''public PlusPFldSANum(final MboValue arg0)
+def ():
+    '''returns PlusPFldSANum\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

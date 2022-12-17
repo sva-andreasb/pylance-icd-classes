@@ -6,102 +6,135 @@ REASSIGNWF = "String  \"reassignwf\""
 NEWOROLDWF = "String  \"neworoldwf\""
 STOPWF = "String  \"stopwf\""
 ACTIVEWF = "String  \"activewf\""
-def WorkflowDirector():
-    '''public WorkflowDirector(final MXSession s)
+def ():
+    '''returns WorkflowDirector\n\n
+    (final MXSession s)\n
     '''
 def isInteractionDoublePlay():
-    '''public boolean isInteractionDoublePlay()
+    '''returns boolean\n\n
+    isInteractionDoublePlay()\n
     '''
 def getInstance():
-    '''public WFInstanceRemote getInstance()
+    '''returns WFInstanceRemote\n\n
+    getInstance()\n
     '''
 def getAssignment():
-    '''public WFAssignmentRemote getAssignment()
+    '''returns WFAssignmentRemote\n\n
+    getAssignment()\n
     '''
 def getNextApp():
-    '''public String getNextApp()
+    '''returns String\n\n
+    getNextApp()\n
     '''
 def getNextAction():
-    '''public String getNextAction()
+    '''returns String\n\n
+    getNextAction()\n
     '''
 def getWfSet():
-    '''public MboSetRemote getWfSet()
+    '''returns MboSetRemote\n\n
+    getWfSet()\n
     '''
 def setAssignment():
-    '''public void setAssignment(final WFAssignmentRemote remote)
+    '''returns None\n\n
+    setAssignment(final WFAssignmentRemote remote)\n
     '''
 def setInstance():
-    '''public void setInstance(final WFInstanceRemote remote)
+    '''returns None\n\n
+    setInstance(final WFInstanceRemote remote)\n
     '''
 def getNextDirectionBody():
-    '''public String getNextDirectionBody()
+    '''returns String\n\n
+    getNextDirectionBody()\n
     '''
 def getNextDirectionTitle():
-    '''public String getNextDirectionTitle()
+    '''returns String\n\n
+    getNextDirectionTitle()\n
     '''
 def clearDirections():
-    '''public void clearDirections()
+    '''returns None\n\n
+    clearDirections()\n
     '''
 def input():
-    '''public void input(final DirectorInput message)
+    '''returns None\n\n
+    input(final DirectorInput message)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def resetNonUI():
-    '''public void resetNonUI()
+    '''returns None\n\n
+    resetNonUI()\n
     '''
 def getControlled():
-    '''public MboRemote getControlled()
+    '''returns MboRemote\n\n
+    getControlled()\n
     '''
 def setControlled():
-    '''public void setControlled(final MboRemote remote)
+    '''returns None\n\n
+    setControlled(final MboRemote remote)\n
     '''
 def getControlledUniqueKey():
-    '''public long getControlledUniqueKey()
+    '''returns long\n\n
+    getControlledUniqueKey()\n
     '''
 def startInput():
-    '''public void startInput(final String app, final MboRemote target, final DirectorInput message)
+    '''returns None\n\n
+    startInput(final String app, final MboRemote target, final DirectorInput message)\n
     '''
 def getNextUniqueId():
-    '''public long getNextUniqueId()
+    '''returns long\n\n
+    getNextUniqueId()\n
     '''
 def getWorkflowWarnings():
-    '''public MXException[] getWorkflowWarnings()
+    '''returns MXException[]\n\n
+    getWorkflowWarnings()\n
     '''
 def addWorkflowWarning():
-    '''public void addWorkflowWarning(final MXException exception)
+    '''returns None\n\n
+    addWorkflowWarning(final MXException exception)\n
     '''
 def isAtInteraction():
-    '''public boolean isAtInteraction()
+    '''returns boolean\n\n
+    isAtInteraction()\n
     '''
 def getNextTab():
-    '''public String getNextTab()
+    '''returns String\n\n
+    getNextTab()\n
     '''
 def setNextTab():
-    '''public void setNextTab(final String nextTab)
+    '''returns None\n\n
+    setNextTab(final String nextTab)\n
     '''
 def getLaunchProcess():
-    '''public String getLaunchProcess()
+    '''returns String\n\n
+    getLaunchProcess()\n
     '''
 def setLaunchProcess():
-    '''public void setLaunchProcess(final String launchProcess)
+    '''returns None\n\n
+    setLaunchProcess(final String launchProcess)\n
     '''
 def setAssignID():
-    '''public void setAssignID(final int assignID)
+    '''returns None\n\n
+    setAssignID(final int assignID)\n
     '''
 def setProcessName():
-    '''public void setProcessName(final String valueString)
+    '''returns None\n\n
+    setProcessName(final String valueString)\n
     '''
 def doAutoInit():
-    '''public boolean doAutoInit(final MboRemote targetMbo)
+    '''returns boolean\n\n
+    doAutoInit(final MboRemote targetMbo)\n
     '''
 def preventAutoInit():
-    '''public void preventAutoInit()
+    '''returns None\n\n
+    preventAutoInit()\n
     '''
 def allowAutoInit():
-    '''public void allowAutoInit()
+    '''returns None\n\n
+    allowAutoInit()\n
     '''
 def clearInteraction():
-    '''public void clearInteraction()
+    '''returns None\n\n
+    clearInteraction()\n
     '''

@@ -1,73 +1,95 @@
 GENERATING_WORK = "String  \"MEASUREPOINT.GeneratingWork\""
-def MeasurePoint():
-    '''public MeasurePoint(final MboSet ms)
+def ():
+    '''returns MeasurePoint\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getJobPlanOrPMToGenWO():
-    '''public Object getJobPlanOrPMToGenWO()
+    '''returns Object\n\n
+    getJobPlanOrPMToGenWO()\n
     '''
 def getJobPlanOrPMToGenWOForGaugeMeter():
-    '''public Object getJobPlanOrPMToGenWOForGaugeMeter()
+    '''returns Object\n\n
+    getJobPlanOrPMToGenWOForGaugeMeter()\n
     '''
 def getJobPlanOrPMToGenWOForCharacteristicMeter():
-    '''public Object getJobPlanOrPMToGenWOForCharacteristicMeter()
-    public Object getJobPlanOrPMToGenWOForCharacteristicMeter(final MboRemote measurement)
+    '''returns Object\n\n
+    getJobPlanOrPMToGenWOForCharacteristicMeter()\n
+    getJobPlanOrPMToGenWOForCharacteristicMeter(final MboRemote measurement)\n
     '''
 def generateWorkOrder():
-    '''public void generateWorkOrder(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)
-    public void generateWorkOrder(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)
+    '''returns None\n\n
+    generateWorkOrder(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)\n
+    generateWorkOrder(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)\n
     '''
 def generateWorkOrderForCharacteristicMeter():
-    '''public void generateWorkOrderForCharacteristicMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)
-    public void generateWorkOrderForCharacteristicMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)
+    '''returns None\n\n
+    generateWorkOrderForCharacteristicMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)\n
+    generateWorkOrderForCharacteristicMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)\n
     '''
 def generateWorkOrderForGaugeMeter():
-    '''public void generateWorkOrderForGaugeMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)
-    public void generateWorkOrderForGaugeMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)
+    '''returns None\n\n
+    generateWorkOrderForGaugeMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)\n
+    generateWorkOrderForGaugeMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)\n
     '''
 def genWOAndPointWOFromPM():
-    '''public void genWOAndPointWOFromPM(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String pmnum, final int priority)
-    public void genWOAndPointWOFromPM(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String pmnum, int priority, final MboRemote measurement)
+    '''returns None\n\n
+    genWOAndPointWOFromPM(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String pmnum, final int priority)\n
+    genWOAndPointWOFromPM(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String pmnum, int priority, final MboRemote measurement)\n
     '''
 def genWOAndPointWOFromJobPlan():
-    '''public void genWOAndPointWOFromJobPlan(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String jpnum, final int priority)
-    public void genWOAndPointWOFromJobPlan(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String jpnum, int priority, final MboRemote measurement)
+    '''returns None\n\n
+    genWOAndPointWOFromJobPlan(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String jpnum, final int priority)\n
+    genWOAndPointWOFromJobPlan(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String jpnum, int priority, final MboRemote measurement)\n
     '''
 def getDeployedMeter():
-    '''public MboRemote getDeployedMeter()
+    '''returns MboRemote\n\n
+    getDeployedMeter()\n
     '''
 def getDeployedMeterForUpdate():
-    '''public MboRemote getDeployedMeterForUpdate()
+    '''returns MboRemote\n\n
+    getDeployedMeterForUpdate()\n
     '''
 def updateMeterOnMeasureDeletion():
-    '''public void updateMeterOnMeasureDeletion()
+    '''returns None\n\n
+    updateMeterOnMeasureDeletion()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def setMoveAssetFlag():
-    '''public void setMoveAssetFlag(final boolean flag)
+    '''returns None\n\n
+    setMoveAssetFlag(final boolean flag)\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''

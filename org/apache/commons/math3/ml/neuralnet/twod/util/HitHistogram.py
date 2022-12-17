@@ -1,6 +1,8 @@
-def HitHistogram():
-    '''public HitHistogram(final boolean normalizeCount, final DistanceMeasure distance)
+def ():
+    '''returns HitHistogram\n\n
+    (final boolean normalizeCount, final DistanceMeasure distance)\n
     '''
 def computeImage():
-    '''public double[][] computeImage(final NeuronSquareMesh2D map, final Iterable<double[]> data)
+    '''returns double[][]\n\n
+    computeImage(final NeuronSquareMesh2D map, final Iterable<double[]> data)\n
     '''

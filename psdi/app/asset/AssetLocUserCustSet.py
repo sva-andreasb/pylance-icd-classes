@@ -1,3 +1,4 @@
-def AssetLocUserCustSet():
-    '''public AssetLocUserCustSet(final MboServerInterface ms)
+def ():
+    '''returns AssetLocUserCustSet\n\n
+    (final MboServerInterface ms)\n
     '''

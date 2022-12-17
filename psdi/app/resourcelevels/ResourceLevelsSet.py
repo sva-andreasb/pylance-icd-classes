@@ -1,3 +1,4 @@
-def ResourceLevelsSet():
-    '''public ResourceLevelsSet(final MboServerInterface ms)
+def ():
+    '''returns ResourceLevelsSet\n\n
+    (final MboServerInterface ms)\n
     '''

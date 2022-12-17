@@ -1,3 +1,4 @@
-def RefTable4ValuesSet():
-    '''public RefTable4ValuesSet(final MboServerInterface ms)
+def ():
+    '''returns RefTable4ValuesSet\n\n
+    (final MboServerInterface ms)\n
     '''

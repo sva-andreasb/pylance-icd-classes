@@ -1,30 +1,40 @@
-def SpdyFrameEncoder():
-    '''public SpdyFrameEncoder(final SpdyVersion spdyVersion)
+def ():
+    '''returns SpdyFrameEncoder\n\n
+    (final SpdyVersion spdyVersion)\n
     '''
 def encodeDataFrame():
-    '''public ByteBuf encodeDataFrame(final ByteBufAllocator allocator, final int streamId, final boolean last, final ByteBuf data)
+    '''returns ByteBuf\n\n
+    encodeDataFrame(final ByteBufAllocator allocator, final int streamId, final boolean last, final ByteBuf data)\n
     '''
 def encodeSynStreamFrame():
-    '''public ByteBuf encodeSynStreamFrame(final ByteBufAllocator allocator, final int streamId, final int associatedToStreamId, final byte priority, final boolean last, final boolean unidirectional, final ByteBuf headerBlock)
+    '''returns ByteBuf\n\n
+    encodeSynStreamFrame(final ByteBufAllocator allocator, final int streamId, final int associatedToStreamId, final byte priority, final boolean last, final boolean unidirectional, final ByteBuf headerBlock)\n
     '''
 def encodeSynReplyFrame():
-    '''public ByteBuf encodeSynReplyFrame(final ByteBufAllocator allocator, final int streamId, final boolean last, final ByteBuf headerBlock)
+    '''returns ByteBuf\n\n
+    encodeSynReplyFrame(final ByteBufAllocator allocator, final int streamId, final boolean last, final ByteBuf headerBlock)\n
     '''
 def encodeRstStreamFrame():
-    '''public ByteBuf encodeRstStreamFrame(final ByteBufAllocator allocator, final int streamId, final int statusCode)
+    '''returns ByteBuf\n\n
+    encodeRstStreamFrame(final ByteBufAllocator allocator, final int streamId, final int statusCode)\n
     '''
 def encodeSettingsFrame():
-    '''public ByteBuf encodeSettingsFrame(final ByteBufAllocator allocator, final SpdySettingsFrame spdySettingsFrame)
+    '''returns ByteBuf\n\n
+    encodeSettingsFrame(final ByteBufAllocator allocator, final SpdySettingsFrame spdySettingsFrame)\n
     '''
 def encodePingFrame():
-    '''public ByteBuf encodePingFrame(final ByteBufAllocator allocator, final int id)
+    '''returns ByteBuf\n\n
+    encodePingFrame(final ByteBufAllocator allocator, final int id)\n
     '''
 def encodeGoAwayFrame():
-    '''public ByteBuf encodeGoAwayFrame(final ByteBufAllocator allocator, final int lastGoodStreamId, final int statusCode)
+    '''returns ByteBuf\n\n
+    encodeGoAwayFrame(final ByteBufAllocator allocator, final int lastGoodStreamId, final int statusCode)\n
     '''
 def encodeHeadersFrame():
-    '''public ByteBuf encodeHeadersFrame(final ByteBufAllocator allocator, final int streamId, final boolean last, final ByteBuf headerBlock)
+    '''returns ByteBuf\n\n
+    encodeHeadersFrame(final ByteBufAllocator allocator, final int streamId, final boolean last, final ByteBuf headerBlock)\n
     '''
 def encodeWindowUpdateFrame():
-    '''public ByteBuf encodeWindowUpdateFrame(final ByteBufAllocator allocator, final int streamId, final int deltaWindowSize)
+    '''returns ByteBuf\n\n
+    encodeWindowUpdateFrame(final ByteBufAllocator allocator, final int streamId, final int deltaWindowSize)\n
     '''

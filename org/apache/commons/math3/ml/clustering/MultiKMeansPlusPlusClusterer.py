@@ -1,16 +1,21 @@
-def MultiKMeansPlusPlusClusterer():
-    '''public MultiKMeansPlusPlusClusterer(final KMeansPlusPlusClusterer<T> clusterer, final int numTrials)
-    public MultiKMeansPlusPlusClusterer(final KMeansPlusPlusClusterer<T> clusterer, final int numTrials, final ClusterEvaluator<T> evaluator)
+def ():
+    '''returns MultiKMeansPlusPlusClusterer\n\n
+    (final KMeansPlusPlusClusterer<T> clusterer, final int numTrials)\n
+    (final KMeansPlusPlusClusterer<T> clusterer, final int numTrials, final ClusterEvaluator<T> evaluator)\n
     '''
 def getClusterer():
-    '''public KMeansPlusPlusClusterer<T> getClusterer()
+    '''returns KMeansPlusPlusClusterer<T>\n\n
+    getClusterer()\n
     '''
 def getNumTrials():
-    '''public int getNumTrials()
+    '''returns int\n\n
+    getNumTrials()\n
     '''
 def getClusterEvaluator():
-    '''public ClusterEvaluator<T> getClusterEvaluator()
+    '''returns ClusterEvaluator<T>\n\n
+    getClusterEvaluator()\n
     '''
 def cluster():
-    '''public List<CentroidCluster<T>> cluster(final Collection<T> points)
+    '''returns List<CentroidCluster<T>>\n\n
+    cluster(final Collection<T> points)\n
     '''

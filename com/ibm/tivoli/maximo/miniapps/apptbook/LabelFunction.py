@@ -1,7 +1,9 @@
 FUNCTION_NAME = "String  \"label\""
-def LabelFunction():
-    '''public LabelFunction(final String group, final UserInfo userInfo)
+def ():
+    '''returns LabelFunction\n\n
+    (final String group, final UserInfo userInfo)\n
     '''
 def resolve():
-    '''public String resolve(final MapResolver resolver, final String fName, final String[] args)
+    '''returns String\n\n
+    resolve(final MapResolver resolver, final String fName, final String[] args)\n
     '''

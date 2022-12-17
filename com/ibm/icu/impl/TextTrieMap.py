@@ -1,38 +1,43 @@
-def TextTrieMap():
-    '''public TextTrieMap(final boolean ignoreCase)
-    '''
-def put():
-    '''public synchronized void put(final String text, final V o)
+def ():
+    '''returns CharacterNode\n\n
+    (final boolean ignoreCase)\n
+    (final int ch)\n
     '''
 def get():
-    '''public Iterator<V> get(final String text)
-    public Iterator<V> get(final String text, final int start)
+    '''returns Iterator<V>\n\n
+    get(final String text)\n
+    get(final String text, final int start)\n
     '''
 def find():
-    '''public void find(final String text, final ResultHandler<V> handler)
-    public void find(final String text, final int start, final ResultHandler<V> handler)
-    '''
-def CharacterNode():
-    '''public CharacterNode(final int ch)
+    '''returns None\n\n
+    find(final String text, final ResultHandler<V> handler)\n
+    find(final String text, final int start, final ResultHandler<V> handler)\n
     '''
 def getCharacter():
-    '''public int getCharacter()
+    '''returns int\n\n
+    getCharacter()\n
     '''
 def addObject():
-    '''public void addObject(final V obj)
+    '''returns None\n\n
+    addObject(final V obj)\n
     '''
 def iterator():
-    '''public Iterator<V> iterator()
+    '''returns Iterator<V>\n\n
+    iterator()\n
     '''
 def addChildNode():
-    '''public CharacterNode addChildNode(final int ch)
+    '''returns CharacterNode\n\n
+    addChildNode(final int ch)\n
     '''
 def getChildNodes():
-    '''public List<CharacterNode> getChildNodes()
+    '''returns List<CharacterNode>\n\n
+    getChildNodes()\n
     '''
 def handlePrefixMatch():
-    '''public boolean handlePrefixMatch(final int matchLength, final Iterator<V> values)
+    '''returns boolean\n\n
+    handlePrefixMatch(final int matchLength, final Iterator<V> values)\n
     '''
 def getMatches():
-    '''public Iterator<V> getMatches()
+    '''returns Iterator<V>\n\n
+    getMatches()\n
     '''

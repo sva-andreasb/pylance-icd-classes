@@ -1,9 +1,12 @@
-def CertificatePanel():
-    '''public CertificatePanel(final ConfigurationInfo configurationInfo)
+def ():
+    '''returns CertificatePanel\n\n
+    (final ConfigurationInfo configurationInfo)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

@@ -1,16 +1,17 @@
-def JsonStringEncoder():
-    '''public JsonStringEncoder()
-    '''
-def getInstance():
-    '''public static JsonStringEncoder getInstance()
+def ():
+    '''returns JsonStringEncoder\n\n
+    ()\n
     '''
 def quoteAsString():
-    '''public char[] quoteAsString(final String input)
-    public void quoteAsString(final CharSequence input, final StringBuilder output)
+    '''returns None\n\n
+    quoteAsString(final String input)\n
+    quoteAsString(final CharSequence input, final StringBuilder output)\n
     '''
 def quoteAsUTF8():
-    '''public byte[] quoteAsUTF8(final String text)
+    '''returns byte[]\n\n
+    quoteAsUTF8(final String text)\n
     '''
 def encodeAsUTF8():
-    '''public byte[] encodeAsUTF8(final String text)
+    '''returns byte[]\n\n
+    encodeAsUTF8(final String text)\n
     '''

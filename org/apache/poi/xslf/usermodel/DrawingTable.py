@@ -1,6 +1,8 @@
-def DrawingTable():
-    '''public DrawingTable(final CTTable table)
+def ():
+    '''returns DrawingTable\n\n
+    (final CTTable table)\n
     '''
 def getRows():
-    '''public DrawingTableRow[] getRows()
+    '''returns DrawingTableRow[]\n\n
+    getRows()\n
     '''

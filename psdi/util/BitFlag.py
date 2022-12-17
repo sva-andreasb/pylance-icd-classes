@@ -1,22 +1,29 @@
-def BitFlag():
-    '''public BitFlag()
-    public BitFlag(final long flags)
+def ():
+    '''returns BitFlag\n\n
+    ()\n
+    (final long flags)\n
     '''
 def setFlags():
-    '''public void setFlags(final long flag)
+    '''returns None\n\n
+    setFlags(final long flag)\n
     '''
 def getFlags():
-    '''public long getFlags()
+    '''returns long\n\n
+    getFlags()\n
     '''
 def setFlag():
-    '''public void setFlag(long flag, final boolean state)
+    '''returns None\n\n
+    setFlag(long flag, final boolean state)\n
     '''
 def isFlagSet():
-    '''public boolean isFlagSet(final long flag)
+    '''returns boolean\n\n
+    isFlagSet(final long flag)\n
     '''
 def or():
-    '''public BitFlag or(final BitFlag second)
+    '''returns BitFlag\n\n
+    or(final BitFlag second)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

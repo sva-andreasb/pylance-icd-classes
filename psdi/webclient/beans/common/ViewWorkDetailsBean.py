@@ -1,12 +1,16 @@
-def ViewWorkDetailsBean():
-    '''public ViewWorkDetailsBean()
+def ():
+    '''returns ViewWorkDetailsBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setSiteValue():
-    '''public void setSiteValue()
+    '''returns None\n\n
+    setSiteValue()\n
     '''
 def doRefresh():
-    '''public void doRefresh()
+    '''returns None\n\n
+    doRefresh()\n
     '''

@@ -1,13 +1,17 @@
-def BBService():
-    '''public BBService()
-    public BBService(final MXServer mx)
+def ():
+    '''returns BBService\n\n
+    ()\n
+    (final MXServer mx)\n
     '''
 def getBulletinBoardCache():
-    '''public BulletinBoardCache getBulletinBoardCache()
+    '''returns BulletinBoardCache\n\n
+    getBulletinBoardCache()\n
     '''
 def refreshBulletinBoardCache():
-    '''public void refreshBulletinBoardCache()
+    '''returns None\n\n
+    refreshBulletinBoardCache()\n
     '''
 def getValidMessages():
-    '''public MboSetRemote getValidMessages(final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getValidMessages(final UserInfo userInfo)\n
     '''

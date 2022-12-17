@@ -1,3 +1,4 @@
 def getBrowserProxyInfo():
-    '''public BrowserProxyInfo getBrowserProxyInfo()
+    '''returns BrowserProxyInfo\n\n
+    getBrowserProxyInfo()\n
     '''

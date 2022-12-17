@@ -1,3 +1,4 @@
-def FldServiceAddressLatitudeY():
-    '''public FldServiceAddressLatitudeY(final MboValue mbv)
+def ():
+    '''returns FldServiceAddressLatitudeY\n\n
+    (final MboValue mbv)\n
     '''

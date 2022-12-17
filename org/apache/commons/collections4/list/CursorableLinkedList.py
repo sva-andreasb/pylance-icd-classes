@@ -1,36 +1,46 @@
-def CursorableLinkedList():
-    '''public CursorableLinkedList()
-    public CursorableLinkedList(final Collection<? extends E> coll)
+def ():
+    '''returns CursorableLinkedList\n\n
+    ()\n
+    (final Collection<? extends E> coll)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def listIterator():
-    '''public ListIterator<E> listIterator()
-    public ListIterator<E> listIterator(final int fromIndex)
+    '''returns ListIterator<E>\n\n
+    listIterator()\n
+    listIterator(final int fromIndex)\n
     '''
 def cursor():
-    '''public Cursor<E> cursor()
-    public Cursor<E> cursor(final int fromIndex)
+    '''returns Cursor<E>\n\n
+    cursor()\n
+    cursor(final int fromIndex)\n
     '''
 def remove():
-    '''public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove()\n
+    remove()\n
     '''
 def add():
-    '''public void add(final E obj)
-    public void add(final E obj)
+    '''returns None\n\n
+    add(final E obj)\n
+    add(final E obj)\n
     '''
 def nextIndex():
-    '''public int nextIndex()
-    public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
+    nextIndex()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''

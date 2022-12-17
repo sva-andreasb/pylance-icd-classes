@@ -1,48 +1,48 @@
 def getHeader():
-    '''public byte[] getHeader()
+    '''returns byte[]\n\n
+    getHeader()\n
     '''
 def getFooter():
-    '''public byte[] getFooter()
-    '''
-def getContentFormat():
-    '''public Map<String, String> getContentFormat()
+    '''returns byte[]\n\n
+    getFooter()\n
     '''
 def getContentType():
-    '''public String getContentType()
-    '''
-def createLayout():
-    '''public static JsonLayout createLayout(final Configuration config, final boolean locationInfo, final boolean properties, final boolean propertiesAsList, final boolean complete, final boolean compact, final boolean eventEol, final String headerPattern, final String footerPattern, final Charset charset, final boolean includeStacktrace)
-    '''
-def newBuilder():
-    '''public static <B extends Builder<B>> B newBuilder()
-    '''
-def createDefaultLayout():
-    '''public static JsonLayout createDefaultLayout()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def toSerializable():
-    '''public void toSerializable(final LogEvent event, final Writer writer)
+    '''returns None\n\n
+    toSerializable(final LogEvent event, final Writer writer)\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def build():
-    '''public JsonLayout build()
+    '''returns JsonLayout\n\n
+    build()\n
     '''
 def isPropertiesAsList():
-    '''public boolean isPropertiesAsList()
+    '''returns boolean\n\n
+    isPropertiesAsList()\n
     '''
 def setPropertiesAsList():
-    '''public B setPropertiesAsList(final boolean propertiesAsList)
+    '''returns B\n\n
+    setPropertiesAsList(final boolean propertiesAsList)\n
     '''
 def getObjectMessageAsJsonObject():
-    '''public boolean getObjectMessageAsJsonObject()
+    '''returns boolean\n\n
+    getObjectMessageAsJsonObject()\n
     '''
 def setObjectMessageAsJsonObject():
-    '''public B setObjectMessageAsJsonObject(final boolean objectMessageAsJsonObject)
+    '''returns B\n\n
+    setObjectMessageAsJsonObject(final boolean objectMessageAsJsonObject)\n
     '''
 def getAdditionalFields():
-    '''public KeyValuePair[] getAdditionalFields()
+    '''returns KeyValuePair[]\n\n
+    getAdditionalFields()\n
     '''
 def setAdditionalFields():
-    '''public B setAdditionalFields(final KeyValuePair[] additionalFields)
+    '''returns B\n\n
+    setAdditionalFields(final KeyValuePair[] additionalFields)\n
     '''

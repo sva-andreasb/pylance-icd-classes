@@ -1,9 +1,12 @@
-def PlusPFldBSActUseUsageMeter():
-    '''public PlusPFldBSActUseUsageMeter(final MboValue mbv)
+def ():
+    '''returns PlusPFldBSActUseUsageMeter\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,3 +1,4 @@
 def VIEWQUEUERES():
-    '''public int VIEWQUEUERES()
+    '''returns int\n\n
+    VIEWQUEUERES()\n
     '''

@@ -1,3 +1,4 @@
-def LBSCrewViewSet():
-    '''public LBSCrewViewSet(final MboServerInterface ms)
+def ():
+    '''returns LBSCrewViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

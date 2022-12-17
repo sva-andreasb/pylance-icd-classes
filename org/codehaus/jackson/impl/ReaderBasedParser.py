@@ -1,48 +1,60 @@
-def ReaderBasedParser():
-    '''public ReaderBasedParser(final IOContext ctxt, final int features, final Reader r, final ObjectCodec codec, final CharsToNameCanonicalizer st)
+def ():
+    '''returns ReaderBasedParser\n\n
+    (final IOContext ctxt, final int features, final Reader r, final ObjectCodec codec, final CharsToNameCanonicalizer st)\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
     '''
 def setCodec():
-    '''public void setCodec(final ObjectCodec c)
+    '''returns None\n\n
+    setCodec(final ObjectCodec c)\n
     '''
 def releaseBuffered():
-    '''public int releaseBuffered(final Writer w)
+    '''returns int\n\n
+    releaseBuffered(final Writer w)\n
     '''
 def getInputSource():
-    '''public Object getInputSource()
-    '''
-def getText():
-    '''public final String getText()
+    '''returns Object\n\n
+    getInputSource()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
+    '''returns char[]\n\n
+    getTextCharacters()\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getTextOffset():
-    '''public int getTextOffset()
+    '''returns int\n\n
+    getTextOffset()\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue(final Base64Variant b64variant)
+    '''returns byte[]\n\n
+    getBinaryValue(final Base64Variant b64variant)\n
     '''
 def nextToken():
-    '''public JsonToken nextToken()
+    '''returns JsonToken\n\n
+    nextToken()\n
     '''
 def nextTextValue():
-    '''public String nextTextValue()
+    '''returns String\n\n
+    nextTextValue()\n
     '''
 def nextIntValue():
-    '''public int nextIntValue(final int defaultValue)
+    '''returns int\n\n
+    nextIntValue(final int defaultValue)\n
     '''
 def nextLongValue():
-    '''public long nextLongValue(final long defaultValue)
+    '''returns long\n\n
+    nextLongValue(final long defaultValue)\n
     '''
 def nextBooleanValue():
-    '''public Boolean nextBooleanValue()
+    '''returns Boolean\n\n
+    nextBooleanValue()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

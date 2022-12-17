@@ -1,42 +1,55 @@
-def Container():
-    '''public Container()
+def ():
+    '''returns Container\n\n
+    ()\n
     '''
 def addEventListener():
-    '''public void addEventListener(final Listener listener)
+    '''returns None\n\n
+    addEventListener(final Listener listener)\n
     '''
 def removeEventListener():
-    '''public void removeEventListener(final Listener listener)
+    '''returns None\n\n
+    removeEventListener(final Listener listener)\n
     '''
 def update():
-    '''public void update(final Object parent, final Object oldChild, final Object child, final String relationship)
-    public void update(final Object parent, final Object oldChild, final Object child, final String relationship, final boolean addRemove)
-    public void update(final Object parent, final Object[] oldChildren, final Object[] children, final String relationship)
-    public void update(final Object parent, final Object[] oldChildren, final Object[] children, final String relationship, final boolean addRemove)
+    '''returns None\n\n
+    update(final Object parent, final Object oldChild, final Object child, final String relationship)\n
+    update(final Object parent, final Object oldChild, final Object child, final String relationship, final boolean addRemove)\n
+    update(final Object parent, final Object[] oldChildren, final Object[] children, final String relationship)\n
+    update(final Object parent, final Object[] oldChildren, final Object[] children, final String relationship, final boolean addRemove)\n
     '''
 def addBean():
-    '''public void addBean(final Object obj)
+    '''returns None\n\n
+    addBean(final Object obj)\n
     '''
 def removeBean():
-    '''public void removeBean(final Object obj)
+    '''returns None\n\n
+    removeBean(final Object obj)\n
     '''
 def getContainer():
-    '''public Container getContainer()
+    '''returns Container\n\n
+    getContainer()\n
     '''
 def getChild():
-    '''public Object getChild()
+    '''returns Object\n\n
+    getChild()\n
     '''
 def getParent():
-    '''public Object getParent()
+    '''returns Object\n\n
+    getParent()\n
     '''
 def getRelationship():
-    '''public String getRelationship()
+    '''returns String\n\n
+    getRelationship()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

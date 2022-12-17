@@ -1,15 +1,17 @@
-def MicSetOut():
-    '''public MicSetOut()
+def ():
+    '''returns MboId\n\n
+    ()\n
+    (final String name, final long id)\n
     '''
 def isEvent():
-    '''public boolean isEvent()
+    '''returns boolean\n\n
+    isEvent()\n
     '''
 def getPublishChannelName():
-    '''public String getPublishChannelName()
+    '''returns String\n\n
+    getPublishChannelName()\n
     '''
 def postSerializationRules():
-    '''public void postSerializationRules(final MboRemote mbo, final MosDetailInfo mosDetInfo)
-    '''
-def MboId():
-    '''public MboId(final String name, final long id)
+    '''returns None\n\n
+    postSerializationRules(final MboRemote mbo, final MosDetailInfo mosDetInfo)\n
     '''

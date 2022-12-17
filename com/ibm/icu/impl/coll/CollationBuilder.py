@@ -1,15 +1,20 @@
-def CollationBuilder():
-    '''public CollationBuilder(final CollationTailoring b)
+def ():
+    '''returns CollationBuilder\n\n
+    (final CollationTailoring b)\n
     '''
 def parseAndBuild():
-    '''public CollationTailoring parseAndBuild(final String ruleString)
+    '''returns CollationTailoring\n\n
+    parseAndBuild(final String ruleString)\n
     '''
 def getRules():
-    '''public String getRules(final String localeID, final String collationType)
+    '''returns String\n\n
+    getRules(final String localeID, final String collationType)\n
     '''
 def modifyCE32():
-    '''public long modifyCE32(final int ce32)
+    '''returns long\n\n
+    modifyCE32(final int ce32)\n
     '''
 def modifyCE():
-    '''public long modifyCE(final long ce)
+    '''returns long\n\n
+    modifyCE(final long ce)\n
     '''

@@ -1,3 +1,4 @@
-def ReportSecAttKey():
-    '''public ReportSecAttKey(final MboSet ms)
+def ():
+    '''returns ReportSecAttKey\n\n
+    (final MboSet ms)\n
     '''

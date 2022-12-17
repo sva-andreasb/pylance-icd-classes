@@ -1,9 +1,12 @@
-def KohonenUpdateAction():
-    '''public KohonenUpdateAction(final DistanceMeasure distance, final LearningFactorFunction learningFactor, final NeighbourhoodSizeFunction neighbourhoodSize)
+def ():
+    '''returns KohonenUpdateAction\n\n
+    (final DistanceMeasure distance, final LearningFactorFunction learningFactor, final NeighbourhoodSizeFunction neighbourhoodSize)\n
     '''
 def update():
-    '''public void update(final Network net, final double[] features)
+    '''returns None\n\n
+    update(final Network net, final double[] features)\n
     '''
 def getNumberOfCalls():
-    '''public long getNumberOfCalls()
+    '''returns long\n\n
+    getNumberOfCalls()\n
     '''

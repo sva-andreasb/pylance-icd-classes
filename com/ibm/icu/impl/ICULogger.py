@@ -1,13 +1,12 @@
-def getICULogger():
-    '''public static ICULogger getICULogger(final String name)
-    public static ICULogger getICULogger(final String name, final String resourceBundleName)
-    '''
 def isLoggingOn():
-    '''public boolean isLoggingOn()
+    '''returns boolean\n\n
+    isLoggingOn()\n
     '''
 def turnOnLogging():
-    '''public void turnOnLogging()
+    '''returns None\n\n
+    turnOnLogging()\n
     '''
 def turnOffLogging():
-    '''public void turnOffLogging()
+    '''returns None\n\n
+    turnOffLogging()\n
     '''

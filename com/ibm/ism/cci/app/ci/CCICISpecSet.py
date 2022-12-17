@@ -1,3 +1,4 @@
-def CCICISpecSet():
-    '''public CCICISpecSet(final MboServerInterface ms)
+def ():
+    '''returns CCICISpecSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,12 +1,16 @@
-def PlusPPSAssetMgt():
-    '''public PlusPPSAssetMgt(final MboSet set)
+def ():
+    '''returns PlusPPSAssetMgt\n\n
+    (final MboSet set)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

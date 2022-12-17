@@ -1,10 +1,13 @@
-def SKDConstraintGraphic():
-    '''public SKDConstraintGraphic(final IlvActivityGraphic from, final IlvActivityGraphic to, final IlvConstraint constraint)
+def ():
+    '''returns SKDConstraintGraphic\n\n
+    (final IlvActivityGraphic from, final IlvActivityGraphic to, final IlvConstraint constraint)\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu(final IlvPoint p, final IlvTransformer t, final IlvManagerView view, final IlvPopupMenuManager popupManager)
+    '''returns JPopupMenu\n\n
+    getPopupMenu(final IlvPoint p, final IlvTransformer t, final IlvManagerView view, final IlvPopupMenuManager popupManager)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''

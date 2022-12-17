@@ -6,16 +6,20 @@ REQUESTTOKENURL = "String  \"REQUESTTOKENURL\""
 ACCESSTOKENURL = "String  \"ACCESSTOKENURL\""
 HEADERS = "String  \"HEADERS\""
 COOKIES = "String  \"COOKIES\""
-def OAuthHandler():
-    '''public OAuthHandler(final MaxEndPointInfo endPointInfo)
-    public OAuthHandler()
+def ():
+    '''returns OAuthHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''
 def loadDocFromStream():
-    '''public byte[] loadDocFromStream(final InputStream in)
+    '''returns byte[]\n\n
+    loadDocFromStream(final InputStream in)\n
     '''

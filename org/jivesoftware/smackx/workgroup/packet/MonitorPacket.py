@@ -1,20 +1,26 @@
 ELEMENT_NAME = "String  \"monitor\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def isMonitor():
-    '''public boolean isMonitor()
+    '''returns boolean\n\n
+    isMonitor()\n
     '''
 def setMonitor():
-    '''public void setMonitor(final boolean monitor)
+    '''returns None\n\n
+    setMonitor(final boolean monitor)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def setSessionID():
-    '''public void setSessionID(final String sessionID)
+    '''returns None\n\n
+    setSessionID(final String sessionID)\n
     '''
-def MonitorPacket():
-    '''public MonitorPacket()
+def ():
+    '''returns MonitorPacket\n\n
+    ()\n
     '''
 def parse():
-    '''public MonitorPacket parse(final XmlPullParser parser, final int initialDepth)
+    '''returns MonitorPacket\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

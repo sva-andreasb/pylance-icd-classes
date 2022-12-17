@@ -1,3 +1,4 @@
-def PlusPFldWpMatVendor():
-    '''public PlusPFldWpMatVendor(final MboValue arg0)
+def ():
+    '''returns PlusPFldWpMatVendor\n\n
+    (final MboValue arg0)\n
     '''

@@ -1,9 +1,12 @@
-def ConstantInterfaceMethodref():
-    '''public ConstantInterfaceMethodref(final int classIndex, final int nameAndTypeIndex)
+def ():
+    '''returns ConstantInterfaceMethodref\n\n
+    (final int classIndex, final int nameAndTypeIndex)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

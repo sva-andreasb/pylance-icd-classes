@@ -1,3 +1,4 @@
-def ExchangeSet():
-    '''public ExchangeSet(final MboServerInterface ms)
+def ():
+    '''returns ExchangeSet\n\n
+    (final MboServerInterface ms)\n
     '''

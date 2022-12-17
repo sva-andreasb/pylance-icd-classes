@@ -1,18 +1,24 @@
-def Hash():
-    '''public Hash(final int len)
+def ():
+    '''returns Hash\n\n
+    (final int len)\n
     '''
 def getLen():
-    '''public int getLen()
+    '''returns int\n\n
+    getLen()\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

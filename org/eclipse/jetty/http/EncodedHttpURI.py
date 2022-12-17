@@ -1,49 +1,65 @@
-def EncodedHttpURI():
-    '''public EncodedHttpURI(final String encoding)
+def ():
+    '''returns EncodedHttpURI\n\n
+    (final String encoding)\n
     '''
 def getScheme():
-    '''public String getScheme()
+    '''returns String\n\n
+    getScheme()\n
     '''
 def getAuthority():
-    '''public String getAuthority()
+    '''returns String\n\n
+    getAuthority()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def getDecodedPath():
-    '''public String getDecodedPath()
+    '''returns String\n\n
+    getDecodedPath()\n
     '''
 def getPathAndParam():
-    '''public String getPathAndParam()
+    '''returns String\n\n
+    getPathAndParam()\n
     '''
 def getCompletePath():
-    '''public String getCompletePath()
+    '''returns String\n\n
+    getCompletePath()\n
     '''
 def getParam():
-    '''public String getParam()
+    '''returns String\n\n
+    getParam()\n
     '''
 def getQuery():
-    '''public String getQuery()
+    '''returns String\n\n
+    getQuery()\n
     '''
 def hasQuery():
-    '''public boolean hasQuery()
+    '''returns boolean\n\n
+    hasQuery()\n
     '''
 def getFragment():
-    '''public String getFragment()
+    '''returns String\n\n
+    getFragment()\n
     '''
 def decodeQueryTo():
-    '''public void decodeQueryTo(final MultiMap parameters)
-    public void decodeQueryTo(final MultiMap parameters, String encoding)
+    '''returns None\n\n
+    decodeQueryTo(final MultiMap parameters)\n
+    decodeQueryTo(final MultiMap parameters, String encoding)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def writeTo():
-    '''public void writeTo(final Utf8StringBuffer buf)
+    '''returns None\n\n
+    writeTo(final Utf8StringBuffer buf)\n
     '''

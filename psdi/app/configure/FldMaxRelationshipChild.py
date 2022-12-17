@@ -1,3 +1,4 @@
-def FldMaxRelationshipChild():
-    '''public FldMaxRelationshipChild(final MboValue mbv)
+def ():
+    '''returns FldMaxRelationshipChild\n\n
+    (final MboValue mbv)\n
     '''

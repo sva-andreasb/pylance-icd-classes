@@ -1,4 +1,5 @@
-def GuidFormatException():
-    '''public GuidFormatException()
-    public GuidFormatException(final String message)
+def ():
+    '''returns GuidFormatException\n\n
+    ()\n
+    (final String message)\n
     '''

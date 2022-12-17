@@ -1,6 +1,4 @@
-def getInstance():
-    '''public static ConstraintCodeMapFactory getInstance()
-    '''
 def createConstraintMap():
-    '''public Map createConstraintMap(final String s)
+    '''returns Map\n\n
+    createConstraintMap(final String s)\n
     '''

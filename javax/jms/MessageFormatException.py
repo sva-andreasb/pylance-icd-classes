@@ -1,4 +1,5 @@
-def MessageFormatException():
-    '''public MessageFormatException(final String reason)
-    public MessageFormatException(final String reason, final String errorCode)
+def ():
+    '''returns MessageFormatException\n\n
+    (final String reason)\n
+    (final String reason, final String errorCode)\n
     '''

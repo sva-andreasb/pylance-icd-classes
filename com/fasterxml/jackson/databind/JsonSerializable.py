@@ -1,3 +1,4 @@
 def isEmpty():
-    '''public boolean isEmpty(final SerializerProvider serializers)
+    '''returns boolean\n\n
+    isEmpty(final SerializerProvider serializers)\n
     '''

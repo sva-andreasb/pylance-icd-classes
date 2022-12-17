@@ -1,22 +1,28 @@
-def Bzip2Encoder():
-    '''public Bzip2Encoder()
-    public Bzip2Encoder(final int blockSizeMultiplier)
+def ():
+    '''returns Bzip2Encoder\n\n
+    ()\n
+    (final int blockSizeMultiplier)\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def close():
-    '''public ChannelFuture close()
-    public ChannelFuture close(final ChannelPromise promise)
-    public void close(final ChannelHandlerContext ctx, final ChannelPromise promise)
+    '''returns None\n\n
+    close()\n
+    close(final ChannelPromise promise)\n
+    close(final ChannelHandlerContext ctx, final ChannelPromise promise)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def operationComplete():
-    '''public void operationComplete(final ChannelFuture f)
+    '''returns None\n\n
+    operationComplete(final ChannelFuture f)\n
     '''
 def handlerAdded():
-    '''public void handlerAdded(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerAdded(final ChannelHandlerContext ctx)\n
     '''

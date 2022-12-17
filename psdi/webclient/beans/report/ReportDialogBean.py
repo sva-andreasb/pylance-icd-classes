@@ -1,104 +1,129 @@
-def ReportDialogBean():
-    '''public ReportDialogBean()
+def ():
+    '''returns ReportDialogBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setValue():
-    '''public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-    public synchronized void setValue(final String attribute, final MboRemote mboRemote)
+    '''returns None\n\n
+    setValue(final int nRow, final String attribute, final String value, final long accessModifier)\n
     '''
 def runrequestpage():
-    '''public int runrequestpage()
+    '''returns int\n\n
+    runrequestpage()\n
     '''
 def displayRequestDialog():
-    '''public int displayRequestDialog(final String pageName)
+    '''returns int\n\n
+    displayRequestDialog(final String pageName)\n
     '''
 def isLookupMultiSelect():
-    '''public boolean isLookupMultiSelect(final BoundComponentInstance component, final boolean isQueryInput)
+    '''returns boolean\n\n
+    isLookupMultiSelect(final BoundComponentInstance component, final boolean isQueryInput)\n
     '''
 def requestreportrun():
-    '''public int requestreportrun()
+    '''returns int\n\n
+    requestreportrun()\n
     '''
 def editadhocreport():
-    '''public int editadhocreport()
+    '''returns int\n\n
+    editadhocreport()\n
     '''
 def createScheduleRecord():
-    '''public void createScheduleRecord(final Hashtable reportParams, final DataBean rptParmBean, final MboRemote thisRpt)
+    '''returns None\n\n
+    createScheduleRecord(final Hashtable reportParams, final DataBean rptParmBean, final MboRemote thisRpt)\n
     '''
 def validateSchedFields():
-    '''public boolean validateSchedFields(final DataBean rptParmBean, final Hashtable reportParams)
+    '''returns boolean\n\n
+    validateSchedFields(final DataBean rptParmBean, final Hashtable reportParams)\n
     '''
 def getEmailSchedParams():
-    '''public Hashtable getEmailSchedParams(final Hashtable reportParams, final DataBean rptParmBean, final String reportType)
+    '''returns Hashtable\n\n
+    getEmailSchedParams(final Hashtable reportParams, final DataBean rptParmBean, final String reportType)\n
     '''
 def setRedirect():
-    '''public Hashtable setRedirect(final Hashtable reportParams, final String reportType, final String overridePath, final String quickPrintType)
+    '''returns Hashtable\n\n
+    setRedirect(final Hashtable reportParams, final String reportType, final String overridePath, final String quickPrintType)\n
     '''
 def getWhereParams():
-    '''public Hashtable getWhereParams(final Hashtable reportParams, final MXSession mxsession, final DataBean rptParmBean, final String reportNum, final boolean useWhere)
-    public Hashtable getWhereParams(Hashtable reportParams, final MXSession mxsession, final DataBean rptParmBean, final String reportNum, final boolean useWhere, final boolean isdetail)
+    '''returns Hashtable\n\n
+    getWhereParams(final Hashtable reportParams, final MXSession mxsession, final DataBean rptParmBean, final String reportNum, final boolean useWhere)\n
+    getWhereParams(Hashtable reportParams, final MXSession mxsession, final DataBean rptParmBean, final String reportNum, final boolean useWhere, final boolean isdetail)\n
     '''
 def getStdParams():
-    '''public Hashtable getStdParams(final Hashtable reportParams, final MXSession mxsession)
+    '''returns Hashtable\n\n
+    getStdParams(final Hashtable reportParams, final MXSession mxsession)\n
     '''
 def getRptRecordParams():
-    '''public Hashtable getRptRecordParams(final Hashtable reportParams, final MXSession mxsession, final MboSetRemote reportData)
+    '''returns Hashtable\n\n
+    getRptRecordParams(final Hashtable reportParams, final MXSession mxsession, final MboSetRemote reportData)\n
     '''
 def getMaxPropRptParams():
-    '''public Hashtable getMaxPropRptParams(final Hashtable reportParams, final MXSession mxsession)
+    '''returns Hashtable\n\n
+    getMaxPropRptParams(final Hashtable reportParams, final MXSession mxsession)\n
     '''
 def fetchProperty():
-    '''public String fetchProperty(final Properties maxProps, final String propName)
+    '''returns String\n\n
+    fetchProperty(final Properties maxProps, final String propName)\n
     '''
 def getCustomReportProps():
-    '''public void getCustomReportProps(final Properties maxProps, final Hashtable reportParams)
+    '''returns None\n\n
+    getCustomReportProps(final Properties maxProps, final Hashtable reportParams)\n
     '''
 def noDef():
-    '''public String noDef(final String val)
+    '''returns String\n\n
+    noDef(final String val)\n
     '''
 def spcDef():
-    '''public String spcDef(final String val)
+    '''returns String\n\n
+    spcDef(final String val)\n
     '''
 def nsDef():
-    '''public String nsDef(final String val)
+    '''returns String\n\n
+    nsDef(final String val)\n
     '''
 def getMaxProps():
-    '''public Properties getMaxProps()
+    '''returns Properties\n\n
+    getMaxProps()\n
     '''
 def qualifyWhere():
-    '''public String qualifyWhere(final MXSession mxsession, final String where, final String baseTable)
+    '''returns String\n\n
+    qualifyWhere(final MXSession mxsession, final String where, final String baseTable)\n
     '''
 def getFileDesc():
-    '''public String getFileDesc(final String appName, final String filename)
+    '''returns String\n\n
+    getFileDesc(final String appName, final String filename)\n
     '''
 def linkFileDesc():
-    '''public MboRemote linkFileDesc(String destfoldername, String filename, final String ext)
+    '''returns MboRemote\n\n
+    linkFileDesc(String destfoldername, String filename, final String ext)\n
     '''
 def sortDate():
-    '''public Integer[] sortDate(final Hashtable fileList)
+    '''returns Integer[]\n\n
+    sortDate(final Hashtable fileList)\n
     '''
 def setReportMaxRows():
-    '''public void setReportMaxRows(final int maxrows)
+    '''returns None\n\n
+    setReportMaxRows(final int maxrows)\n
     '''
 def getSelectionWhere():
-    '''public String getSelectionWhere(final DataBean resultsBean)
-    '''
-def setQbe():
-    '''public synchronized void setQbe(final String attribute, String expression)
+    '''returns String\n\n
+    getSelectionWhere(final DataBean resultsBean)\n
     '''
 def setvalue():
-    '''public int setvalue()
-    '''
-def setDate():
-    '''public synchronized void setDate(final String controlId, final String attribute, final Date value)
+    '''returns int\n\n
+    setvalue()\n
     '''
 def handleQuickReporting():
-    '''public int handleQuickReporting(final String reportType, final WebClientEvent event, final Hashtable reportParams, final String reportNum, final boolean attachdoc, final String rptParmKey, final String brosDPUrl)
+    '''returns int\n\n
+    handleQuickReporting(final String reportType, final WebClientEvent event, final Hashtable reportParams, final String reportNum, final boolean attachdoc, final String rptParmKey, final String brosDPUrl)\n
     '''
 def submitWOChangePrintJob():
-    '''public int submitWOChangePrintJob(final String repKey)
+    '''returns int\n\n
+    submitWOChangePrintJob(final String repKey)\n
     '''
 def getSearchFolder():
-    '''public String getSearchFolder()
+    '''returns String\n\n
+    getSearchFolder()\n
     '''

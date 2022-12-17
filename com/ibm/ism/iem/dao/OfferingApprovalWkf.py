@@ -1,39 +1,52 @@
-def OfferingApprovalWkf():
-    '''public OfferingApprovalWkf(final boolean applm, final boolean appfm, final boolean defaultlmwf, final boolean defaultfmwf, final String srApprProcess, final String mgrApprProcess)
+def ():
+    '''returns OfferingApprovalWkf\n\n
+    (final boolean applm, final boolean appfm, final boolean defaultlmwf, final boolean defaultfmwf, final String srApprProcess, final String mgrApprProcess)\n
     '''
 def isApplm():
-    '''public boolean isApplm()
+    '''returns boolean\n\n
+    isApplm()\n
     '''
 def setApplm():
-    '''public void setApplm(final boolean applm)
+    '''returns None\n\n
+    setApplm(final boolean applm)\n
     '''
 def isAppfm():
-    '''public boolean isAppfm()
+    '''returns boolean\n\n
+    isAppfm()\n
     '''
 def setAppfm():
-    '''public void setAppfm(final boolean appfm)
+    '''returns None\n\n
+    setAppfm(final boolean appfm)\n
     '''
 def getSrApprProcess():
-    '''public String getSrApprProcess()
+    '''returns String\n\n
+    getSrApprProcess()\n
     '''
 def setSrApprProcess():
-    '''public void setSrApprProcess(final String srApprProcess)
+    '''returns None\n\n
+    setSrApprProcess(final String srApprProcess)\n
     '''
 def getMgrApprProcess():
-    '''public String getMgrApprProcess()
+    '''returns String\n\n
+    getMgrApprProcess()\n
     '''
 def setMgrApprProcess():
-    '''public void setMgrApprProcess(final String mgrApprProcess)
+    '''returns None\n\n
+    setMgrApprProcess(final String mgrApprProcess)\n
     '''
 def setDefaultlmwf():
-    '''public void setDefaultlmwf(final boolean defaultlmwf)
+    '''returns None\n\n
+    setDefaultlmwf(final boolean defaultlmwf)\n
     '''
 def isDefaultlmwf():
-    '''public boolean isDefaultlmwf()
+    '''returns boolean\n\n
+    isDefaultlmwf()\n
     '''
 def setDefaultfmwf():
-    '''public void setDefaultfmwf(final boolean defaultfmwf)
+    '''returns None\n\n
+    setDefaultfmwf(final boolean defaultfmwf)\n
     '''
 def isDefaultfmwf():
-    '''public boolean isDefaultfmwf()
+    '''returns boolean\n\n
+    isDefaultfmwf()\n
     '''

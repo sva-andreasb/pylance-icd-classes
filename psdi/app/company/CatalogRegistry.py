@@ -1,15 +1,20 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getBuyer():
-    '''public String getBuyer()
+    '''returns String\n\n
+    getBuyer()\n
     '''
 def getVendor():
-    '''public String getVendor()
+    '''returns String\n\n
+    getVendor()\n
     '''
 def getReplyUrl():
-    '''public String getReplyUrl()
+    '''returns String\n\n
+    getReplyUrl()\n
     '''
 def getRedirectUrl():
-    '''public String getRedirectUrl()
+    '''returns String\n\n
+    getRedirectUrl()\n
     '''

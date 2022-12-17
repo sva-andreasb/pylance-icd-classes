@@ -1,6 +1,8 @@
 def action():
-    '''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
+    '''returns OslcResourceResponse\n\n
+    action(final OslcRequest request, final byte[] actionData)\n
     '''
 def isGET():
-    '''public boolean isGET()
+    '''returns boolean\n\n
+    isGET()\n
     '''

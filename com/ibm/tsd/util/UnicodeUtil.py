@@ -1,25 +1,25 @@
 BOM_SIZE = "int  4"
-def convert():
-    '''public static byte[] convert(final byte[] bytes, final String encout)
-    '''
-def getBOM():
-    '''public static String getBOM(final String enc)
-    '''
-def UnicodeInputStream():
-    '''public UnicodeInputStream(final InputStream in, final String defaultEnc)
+def ():
+    '''returns UnicodeInputStream\n\n
+    (final InputStream in, final String defaultEnc)\n
     '''
 def getDefaultEncoding():
-    '''public String getDefaultEncoding()
+    '''returns String\n\n
+    getDefaultEncoding()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def getBOMOffset():
-    '''public int getBOMOffset()
+    '''returns int\n\n
+    getBOMOffset()\n
     '''

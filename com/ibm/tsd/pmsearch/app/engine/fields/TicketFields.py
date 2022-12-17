@@ -1,6 +1,8 @@
-def TicketFields():
-    '''public TicketFields()
+def ():
+    '''returns TicketFields\n\n
+    ()\n
     '''
 def isRTE():
-    '''public boolean isRTE(final String field)
+    '''returns boolean\n\n
+    isRTE(final String field)\n
     '''

@@ -1,6 +1,8 @@
-def OMChildrenLocalNameIterator():
-    '''public OMChildrenLocalNameIterator(final OMNode currentChild, final String localName)
+def ():
+    '''returns OMChildrenLocalNameIterator\n\n
+    (final OMNode currentChild, final String localName)\n
     '''
 def isEqual():
-    '''public boolean isEqual(final QName searchQName, final QName currentQName)
+    '''returns boolean\n\n
+    isEqual(final QName searchQName, final QName currentQName)\n
     '''

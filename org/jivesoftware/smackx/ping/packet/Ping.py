@@ -1,9 +1,11 @@
 ELEMENT = "String  \"ping\""
 NAMESPACE = "String  \"urn:xmpp:ping\""
-def Ping():
-    '''public Ping()
-    public Ping(final Jid to)
+def ():
+    '''returns Ping\n\n
+    ()\n
+    (final Jid to)\n
     '''
 def getPong():
-    '''public IQ getPong()
+    '''returns IQ\n\n
+    getPong()\n
     '''

@@ -1,0 +1,3 @@
+WEB_CONTAINER = "int  1"
+EJB_CONTAINER = "int  2"
+ASYNCHBEANS = "int  3"

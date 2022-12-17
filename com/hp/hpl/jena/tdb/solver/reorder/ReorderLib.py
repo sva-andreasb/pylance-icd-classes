@@ -1,22 +1,13 @@
-def identityProc():
-    '''public static ReorderProc identityProc()
-    '''
-def identity():
-    '''public static ReorderTransformation identity()
-    '''
-def fixed():
-    '''public static ReorderTransformation fixed()
-    '''
-def weighted():
-    '''public static ReorderTransformation weighted(final String filename)
-    '''
 def reorder():
-    '''public BasicPattern reorder(final BasicPattern pattern)
-    public BasicPattern reorder(final BasicPattern pattern)
+    '''returns BasicPattern\n\n
+    reorder(final BasicPattern pattern)\n
+    reorder(final BasicPattern pattern)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def reorderIndexes():
-    '''public ReorderProc reorderIndexes(final BasicPattern pattern)
+    '''returns ReorderProc\n\n
+    reorderIndexes(final BasicPattern pattern)\n
     '''

@@ -5,69 +5,68 @@ PDF = "String  \"\u202c\""
 LRM = "String  \"\u200e\""
 RLM = "String  \"\u200f\""
 CHAR_ENCODING = "String  \"UTF-8\""
-def ILogApplet():
-    '''public ILogApplet()
-    '''
-def init():
-    '''public final void init()
+def ():
+    '''returns ILogApplet\n\n
+    ()\n
     '''
 def run():
-    '''public void run()
-    public Object run()
-    public void run()
-    public void run()
-    public void run()
-    '''
-def loadData():
-    '''public final void loadData()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def showWarnings():
-    '''public void showWarnings()
-    '''
-def createImageIcon():
-    '''public static ImageIcon createImageIcon(final String name)
+    '''returns None\n\n
+    showWarnings()\n
     '''
 def createImageIconFromServer():
-    '''public ImageIcon createImageIconFromServer(final String name)
+    '''returns ImageIcon\n\n
+    createImageIconFromServer(final String name)\n
     '''
 def getControlServletURL():
-    '''public URL getControlServletURL(final String[] argNames, final String[] argValues)
-    public URL getControlServletURL(final Hashtable<String, String[]> args)
-    '''
-def arrayToString():
-    '''public static String arrayToString(final String[] a, final String separator)
+    '''returns URL\n\n
+    getControlServletURL(final String[] argNames, final String[] argValues)\n
+    getControlServletURL(final Hashtable<String, String[]> args)\n
     '''
 def loadDataOnInit():
-    '''public boolean loadDataOnInit()
+    '''returns boolean\n\n
+    loadDataOnInit()\n
     '''
 def isDebugOn():
-    '''public boolean isDebugOn()
+    '''returns boolean\n\n
+    isDebugOn()\n
     '''
 def sendEvent():
-    '''public void sendEvent(final String event)
-    public void sendEvent(final String event, final Hashtable values)
-    public void sendEvent(final String event, final String target)
-    public void sendEvent(final String event, final String target, final Hashtable values)
-    public void sendEvent(final String event, final String target, final String eventValue, final Hashtable values)
+    '''returns None\n\n
+    sendEvent(final String event)\n
+    sendEvent(final String event, final Hashtable values)\n
+    sendEvent(final String event, final String target)\n
+    sendEvent(final String event, final String target, final Hashtable values)\n
+    sendEvent(final String event, final String target, final String eventValue, final Hashtable values)\n
     '''
 def getSkinName():
-    '''public String getSkinName()
-    '''
-def removeMarkers():
-    '''public static String removeMarkers(final String str)
+    '''returns String\n\n
+    getSkinName()\n
     '''
 def newInputStreamResolver():
-    '''public PmInputStreamResolver newInputStreamResolver()
+    '''returns PmInputStreamResolver\n\n
+    newInputStreamResolver()\n
     '''
 def nextJavascriptCommunicationId():
-    '''public int nextJavascriptCommunicationId()
+    '''returns int\n\n
+    nextJavascriptCommunicationId()\n
     '''
 def setJavascriptHandler():
-    '''public void setJavascriptHandler(final int id, final JavascriptHandler handler, final String domId)
+    '''returns None\n\n
+    setJavascriptHandler(final int id, final JavascriptHandler handler, final String domId)\n
     '''
 def onJavascriptResponse():
-    '''public void onJavascriptResponse(final String id, final String data, final boolean encoded)
+    '''returns None\n\n
+    onJavascriptResponse(final String id, final String data, final boolean encoded)\n
     '''
 def log():
-    '''public void log(final String string)
+    '''returns None\n\n
+    log(final String string)\n
     '''

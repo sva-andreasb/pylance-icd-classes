@@ -1,3 +1,4 @@
-def PmAssetSet():
-    '''public PmAssetSet(final MboServerInterface ms)
+def ():
+    '''returns PmAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''

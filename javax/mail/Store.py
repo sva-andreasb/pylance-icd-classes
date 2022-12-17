@@ -1,21 +1,12 @@
 def getPersonalNamespaces():
-    '''public Folder[] getPersonalNamespaces()
+    '''returns Folder[]\n\n
+    getPersonalNamespaces()\n
     '''
 def getSharedNamespaces():
-    '''public Folder[] getSharedNamespaces()
-    '''
-def addFolderListener():
-    '''public synchronized void addFolderListener(final FolderListener l)
-    '''
-def removeFolderListener():
-    '''public synchronized void removeFolderListener(final FolderListener l)
-    '''
-def addStoreListener():
-    '''public synchronized void addStoreListener(final StoreListener l)
-    '''
-def removeStoreListener():
-    '''public synchronized void removeStoreListener(final StoreListener l)
+    '''returns Folder[]\n\n
+    getSharedNamespaces()\n
     '''
 def getUserNamespaces():
-    '''public Folder[] getUserNamespaces(final String user)
+    '''returns Folder[]\n\n
+    getUserNamespaces(final String user)\n
     '''

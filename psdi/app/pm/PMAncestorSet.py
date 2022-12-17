@@ -1,3 +1,4 @@
-def PMAncestorSet():
-    '''public PMAncestorSet(final MboServerInterface ms)
+def ():
+    '''returns PMAncestorSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,0 +1,5 @@
+HEADER_COMMENT = "int  0"
+DSC_COMMENT = "int  1"
+COMMENT = "int  2"
+LINE = "int  3"
+EOF = "int  4"

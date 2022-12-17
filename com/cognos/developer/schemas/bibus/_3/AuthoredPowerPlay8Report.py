@@ -1,43 +1,37 @@
-def AuthoredPowerPlay8Report():
-    '''public AuthoredPowerPlay8Report()
-    public AuthoredPowerPlay8Report(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final BaseClassArrayProp contact, final StringProp contactEMail, final PowerPlay8OutputFormatEnumArrayProp defaultOutputFormat, final BasePowerPlay8ReportActionEnumProp defaultPortalAction, final OptionArrayProp options, final ParameterValueArrayProp parameters, final RetentionRuleArrayProp retentions, final StringProp routingServerGroup, final StringProp routingServerGroupEdition, final BaseClassArrayProp metadataModel, final BaseClassArrayProp metadataModelPackage, final XmlEncodedXMLProp powerPlay8Configuration, final PowerPlayServiceSpecificationProp specification)
+def ():
+    '''returns AuthoredPowerPlay8Report\n\n
+    ()\n
+    (final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final BaseClassArrayProp contact, final StringProp contactEMail, final PowerPlay8OutputFormatEnumArrayProp defaultOutputFormat, final BasePowerPlay8ReportActionEnumProp defaultPortalAction, final OptionArrayProp options, final ParameterValueArrayProp parameters, final RetentionRuleArrayProp retentions, final StringProp routingServerGroup, final StringProp routingServerGroupEdition, final BaseClassArrayProp metadataModel, final BaseClassArrayProp metadataModelPackage, final XmlEncodedXMLProp powerPlay8Configuration, final PowerPlayServiceSpecificationProp specification)\n
     '''
 def getMetadataModel():
-    '''public BaseClassArrayProp getMetadataModel()
+    '''returns BaseClassArrayProp\n\n
+    getMetadataModel()\n
     '''
 def setMetadataModel():
-    '''public void setMetadataModel(final BaseClassArrayProp metadataModel)
+    '''returns None\n\n
+    setMetadataModel(final BaseClassArrayProp metadataModel)\n
     '''
 def getMetadataModelPackage():
-    '''public BaseClassArrayProp getMetadataModelPackage()
+    '''returns BaseClassArrayProp\n\n
+    getMetadataModelPackage()\n
     '''
 def setMetadataModelPackage():
-    '''public void setMetadataModelPackage(final BaseClassArrayProp metadataModelPackage)
+    '''returns None\n\n
+    setMetadataModelPackage(final BaseClassArrayProp metadataModelPackage)\n
     '''
 def getPowerPlay8Configuration():
-    '''public XmlEncodedXMLProp getPowerPlay8Configuration()
+    '''returns XmlEncodedXMLProp\n\n
+    getPowerPlay8Configuration()\n
     '''
 def setPowerPlay8Configuration():
-    '''public void setPowerPlay8Configuration(final XmlEncodedXMLProp powerPlay8Configuration)
+    '''returns None\n\n
+    setPowerPlay8Configuration(final XmlEncodedXMLProp powerPlay8Configuration)\n
     '''
 def getSpecification():
-    '''public PowerPlayServiceSpecificationProp getSpecification()
+    '''returns PowerPlayServiceSpecificationProp\n\n
+    getSpecification()\n
     '''
 def setSpecification():
-    '''public void setSpecification(final PowerPlayServiceSpecificationProp specification)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setSpecification(final PowerPlayServiceSpecificationProp specification)\n
     '''

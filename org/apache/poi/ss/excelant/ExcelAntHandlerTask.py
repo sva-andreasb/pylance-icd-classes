@@ -1,6 +1,8 @@
 def setClassName():
-    '''public void setClassName(final String cName)
+    '''returns None\n\n
+    setClassName(final String cName)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

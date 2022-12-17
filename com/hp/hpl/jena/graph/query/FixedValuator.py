@@ -1,9 +1,12 @@
-def FixedValuator():
-    '''public FixedValuator(final Object value)
+def ():
+    '''returns FixedValuator\n\n
+    (final Object value)\n
     '''
 def evalBool():
-    '''public boolean evalBool(final IndexValues iv)
+    '''returns boolean\n\n
+    evalBool(final IndexValues iv)\n
     '''
 def evalObject():
-    '''public Object evalObject(final IndexValues iv)
+    '''returns Object\n\n
+    evalObject(final IndexValues iv)\n
     '''

@@ -1,66 +1,88 @@
-def ImmediateReportUsageLogNotifier():
-    '''public ImmediateReportUsageLogNotifier()
+def ():
+    '''returns ImmediateReportUsageLogNotifier\n\n
+    ()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status, final String msg)
+    '''returns None\n\n
+    setStatus(final String status, final String msg)\n
     '''
 def setMXServerRemote():
-    '''public void setMXServerRemote(final MXServerRemote mxServerRemote)
+    '''returns None\n\n
+    setMXServerRemote(final MXServerRemote mxServerRemote)\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''
 def setReportLogger():
-    '''public void setReportLogger(final ReportLogger reportLogger)
+    '''returns None\n\n
+    setReportLogger(final ReportLogger reportLogger)\n
     '''
 def getBirtAdminService():
-    '''public ReportAdminServiceRemote getBirtAdminService()
+    '''returns ReportAdminServiceRemote\n\n
+    getBirtAdminService()\n
     '''
 def setBirtAdminService():
-    '''public void setBirtAdminService(final ReportAdminServiceRemote birtAdminService)
+    '''returns None\n\n
+    setBirtAdminService(final ReportAdminServiceRemote birtAdminService)\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''
 def setReportName():
-    '''public void setReportName(final String reportName)
+    '''returns None\n\n
+    setReportName(final String reportName)\n
     '''
 def setEnterDate():
-    '''public void setEnterDate(final Date enterDate)
+    '''returns None\n\n
+    setEnterDate(final Date enterDate)\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date startDate)
+    '''returns None\n\n
+    setStartDate(final Date startDate)\n
     '''
 def setEndDate():
-    '''public void setEndDate(final Date endDate)
+    '''returns None\n\n
+    setEndDate(final Date endDate)\n
     '''
 def setRuntime():
-    '''public void setRuntime(final long runtime)
+    '''returns None\n\n
+    setRuntime(final long runtime)\n
     '''
 def setSuccess():
-    '''public void setSuccess(final boolean success)
+    '''returns None\n\n
+    setSuccess(final boolean success)\n
     '''
 def setReportFailed():
-    '''public void setReportFailed()
+    '''returns None\n\n
+    setReportFailed()\n
     '''
 def setUserId():
-    '''public void setUserId(final String userId)
+    '''returns None\n\n
+    setUserId(final String userId)\n
     '''
 def setHostName():
-    '''public void setHostName(final String hostName)
+    '''returns None\n\n
+    setHostName(final String hostName)\n
     '''
 def setServerName():
-    '''public void setServerName(final String serverName)
+    '''returns None\n\n
+    setServerName(final String serverName)\n
     '''
 def setTransientReport():
-    '''public void setTransientReport(final boolean isTransientReport)
+    '''returns None\n\n
+    setTransientReport(final boolean isTransientReport)\n
     '''
 def setReportExecuted():
-    '''public void setReportExecuted()
+    '''returns None\n\n
+    setReportExecuted()\n
     '''
 def createUsageLog():
-    '''public void createUsageLog()
+    '''returns None\n\n
+    createUsageLog()\n
     '''
 def setReportCancelled():
-    '''public void setReportCancelled()
+    '''returns None\n\n
+    setReportCancelled()\n
     '''

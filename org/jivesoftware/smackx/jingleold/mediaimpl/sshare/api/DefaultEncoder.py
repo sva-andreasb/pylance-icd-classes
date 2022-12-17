@@ -1,3 +1,4 @@
 def encode():
-    '''public ByteArrayOutputStream encode(final BufferedImage bufferedImage)
+    '''returns ByteArrayOutputStream\n\n
+    encode(final BufferedImage bufferedImage)\n
     '''

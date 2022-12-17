@@ -1,3 +1,4 @@
-def RangeExceptionImpl():
-    '''public RangeExceptionImpl(final short code, final String message)
+def ():
+    '''returns RangeExceptionImpl\n\n
+    (final short code, final String message)\n
     '''

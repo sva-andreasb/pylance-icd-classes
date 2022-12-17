@@ -3,41 +3,41 @@ PROPERTY_NAMINGATTR = "String  \"naming-attribute\""
 PROPERTY_SUBVAR = "String  \"substitution-variable\""
 PROPERTY_CMSERVICE = "String  \"ContextMenuService\""
 PROPERTY_LAUNCHINGAPP = "String  \"launchingApp\""
-def CmsMenuDescriptor():
-    '''public CmsMenuDescriptor()
-    public CmsMenuDescriptor(final Element el)
+def ():
+    '''returns CmsMenuDescriptor\n\n
+    ()\n
+    (final Element el)\n
     '''
 def addContextFilter():
-    '''public void addContextFilter(final String name, final String value)
-    '''
-def getContextFilters():
-    '''public Map<String, String> getContextFilters()
+    '''returns None\n\n
+    addContextFilter(final String name, final String value)\n
     '''
 def addNamingAttribute():
-    '''public void addNamingAttribute(final String name, final String value)
-    '''
-def getNamingAttributes():
-    '''public Map<String, String> getNamingAttributes()
+    '''returns None\n\n
+    addNamingAttribute(final String name, final String value)\n
     '''
 def addSubstitutionVariable():
-    '''public void addSubstitutionVariable(final String name, final String value)
-    public void addSubstitutionVariable(final String ic)
-    '''
-def getSubstitutionVariables():
-    '''public Map<String, String> getSubstitutionVariables()
+    '''returns None\n\n
+    addSubstitutionVariable(final String name, final String value)\n
+    addSubstitutionVariable(final String ic)\n
     '''
 def getInstanceClass():
-    '''public String getInstanceClass()
+    '''returns String\n\n
+    getInstanceClass()\n
     '''
 def loadDynamicValues():
-    '''public void loadDynamicValues(final String menuId, final DataBean bean)
+    '''returns None\n\n
+    loadDynamicValues(final String menuId, final DataBean bean)\n
     '''
 def loadXMLValues():
-    '''public void loadXMLValues(final Element el)
+    '''returns None\n\n
+    loadXMLValues(final Element el)\n
     '''
 def initialize():
-    '''public void initialize(final Element el)
+    '''returns None\n\n
+    initialize(final Element el)\n
     '''
 def getValuesAsObject():
-    '''public JSONObject getValuesAsObject(final DataBean bean)
+    '''returns JSONObject\n\n
+    getValuesAsObject(final DataBean bean)\n
     '''

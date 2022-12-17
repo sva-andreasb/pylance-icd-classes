@@ -1,87 +1,100 @@
 NAMESPACE = "String  \"jabber:x:data\""
 ELEMENT = "String  \"item\""
-def DataForm():
-    '''public DataForm(final Type type)
+def ():
+    '''returns Item\n\n
+    (final Type type)\n
+    (final List<FormField> fields)\n
+    (final List<FormField> fields)\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getInstructions():
-    '''public List<String> getInstructions()
+    '''returns List<String>\n\n
+    getInstructions()\n
     '''
 def getReportedData():
-    '''public ReportedData getReportedData()
+    '''returns ReportedData\n\n
+    getReportedData()\n
     '''
 def getItems():
-    '''public List<Item> getItems()
+    '''returns List<Item>\n\n
+    getItems()\n
     '''
 def getFields():
-    '''public List<FormField> getFields()
-    public List<FormField> getFields()
-    public List<FormField> getFields()
+    '''returns List<FormField>\n\n
+    getFields()\n
+    getFields()\n
+    getFields()\n
     '''
 def getField():
-    '''public FormField getField(final String variableName)
+    '''returns FormField\n\n
+    getField(final String variableName)\n
     '''
 def hasField():
-    '''public boolean hasField(final String variableName)
+    '''returns boolean\n\n
+    hasField(final String variableName)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setInstructions():
-    '''public void setInstructions(final List<String> instructions)
+    '''returns None\n\n
+    setInstructions(final List<String> instructions)\n
     '''
 def setReportedData():
-    '''public void setReportedData(final ReportedData reportedData)
+    '''returns None\n\n
+    setReportedData(final ReportedData reportedData)\n
     '''
 def addField():
-    '''public void addField(final FormField field)
+    '''returns None\n\n
+    addField(final FormField field)\n
     '''
 def addFields():
-    '''public boolean addFields(final Collection<FormField> fieldsToAdd)
+    '''returns boolean\n\n
+    addFields(final Collection<FormField> fieldsToAdd)\n
     '''
 def addInstruction():
-    '''public void addInstruction(final String instruction)
+    '''returns None\n\n
+    addInstruction(final String instruction)\n
     '''
 def addItem():
-    '''public void addItem(final Item item)
+    '''returns None\n\n
+    addItem(final Item item)\n
     '''
 def addExtensionElement():
-    '''public void addExtensionElement(final Element element)
+    '''returns None\n\n
+    addExtensionElement(final Element element)\n
     '''
 def getExtensionElements():
-    '''public List<Element> getExtensionElements()
+    '''returns List<Element>\n\n
+    getExtensionElements()\n
     '''
 def getHiddenFormTypeField():
-    '''public FormField getHiddenFormTypeField()
+    '''returns FormField\n\n
+    getHiddenFormTypeField()\n
     '''
 def hasHiddenFormTypeField():
-    '''public boolean hasHiddenFormTypeField()
+    '''returns boolean\n\n
+    hasHiddenFormTypeField()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public CharSequence toXML()
-    public CharSequence toXML()
-    '''
-def from():
-    '''public static DataForm from(final Stanza packet)
-    '''
-def fromString():
-    '''public static Type fromString(final String string)
-    '''
-def ReportedData():
-    '''public ReportedData(final List<FormField> fields)
-    '''
-def Item():
-    '''public Item(final List<FormField> fields)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML()\n
+    toXML()\n
     '''

@@ -1,34 +1,44 @@
-def HttpCookie():
-    '''public HttpCookie(final String name, final String value)
-    public HttpCookie(final String name, final String value, final String domain, final String path)
-    public HttpCookie(final String name, final String value, final int maxAge)
-    public HttpCookie(final String name, final String value, final String domain, final String path, final int maxAge, final boolean httpOnly, final boolean secure)
-    public HttpCookie(final String name, final String value, final String domain, final String path, final int maxAge, final boolean httpOnly, final boolean secure, final String comment, final int version)
+def ():
+    '''returns HttpCookie\n\n
+    (final String name, final String value)\n
+    (final String name, final String value, final String domain, final String path)\n
+    (final String name, final String value, final int maxAge)\n
+    (final String name, final String value, final String domain, final String path, final int maxAge, final boolean httpOnly, final boolean secure)\n
+    (final String name, final String value, final String domain, final String path, final int maxAge, final boolean httpOnly, final boolean secure, final String comment, final int version)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getComment():
-    '''public String getComment()
+    '''returns String\n\n
+    getComment()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def getMaxAge():
-    '''public int getMaxAge()
+    '''returns int\n\n
+    getMaxAge()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def isHttpOnly():
-    '''public boolean isHttpOnly()
+    '''returns boolean\n\n
+    isHttpOnly()\n
     '''

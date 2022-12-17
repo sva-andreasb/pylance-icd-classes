@@ -1,24 +1,28 @@
-def MutableCodePointTrie():
-    '''public MutableCodePointTrie(final int initialValue, final int errorValue)
+def ():
+    '''returns MutableCodePointTrie\n\n
+    (final int initialValue, final int errorValue)\n
     '''
 def clone():
-    '''public MutableCodePointTrie clone()
-    '''
-def fromCodePointMap():
-    '''public static MutableCodePointTrie fromCodePointMap(final CodePointMap map)
+    '''returns MutableCodePointTrie\n\n
+    clone()\n
     '''
 def get():
-    '''public int get(final int c)
+    '''returns int\n\n
+    get(final int c)\n
     '''
 def getRange():
-    '''public boolean getRange(final int start, final ValueFilter filter, final Range range)
+    '''returns boolean\n\n
+    getRange(final int start, final ValueFilter filter, final Range range)\n
     '''
 def set():
-    '''public void set(final int c, final int value)
+    '''returns None\n\n
+    set(final int c, final int value)\n
     '''
 def setRange():
-    '''public void setRange(int start, final int end, final int value)
+    '''returns None\n\n
+    setRange(int start, final int end, final int value)\n
     '''
 def buildImmutable():
-    '''public CodePointTrie buildImmutable(final CodePointTrie.Type type, final CodePointTrie.ValueWidth valueWidth)
+    '''returns CodePointTrie\n\n
+    buildImmutable(final CodePointTrie.Type type, final CodePointTrie.ValueWidth valueWidth)\n
     '''

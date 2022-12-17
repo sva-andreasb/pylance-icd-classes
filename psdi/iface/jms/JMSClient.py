@@ -4,29 +4,38 @@ QUEUE = "String  \"javax.jms.Queue\""
 TOPIC = "String  \"javax.jms.Topic\""
 JMS_LOGGER = "String  \"maximo.jms\""
 def getProviderUserName():
-    '''public String getProviderUserName()
+    '''returns String\n\n
+    getProviderUserName()\n
     '''
 def getProviderPassword():
-    '''public String getProviderPassword()
+    '''returns String\n\n
+    getProviderPassword()\n
     '''
 def getSession():
-    '''public Session getSession()
+    '''returns Session\n\n
+    getSession()\n
     '''
 def getEnvironment():
-    '''public Properties getEnvironment()
+    '''returns Properties\n\n
+    getEnvironment()\n
     '''
 def getDestinationName():
-    '''public String getDestinationName()
+    '''returns String\n\n
+    getDestinationName()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def rollbackTx():
-    '''public void rollbackTx()
+    '''returns None\n\n
+    rollbackTx()\n
     '''
 def commitTx():
-    '''public void commitTx()
+    '''returns None\n\n
+    commitTx()\n
     '''

@@ -1,21 +1,28 @@
 def ASSIGNWF():
-    '''public int ASSIGNWF()
+    '''returns int\n\n
+    ASSIGNWF()\n
     '''
 def STOPWF():
-    '''public int STOPWF()
+    '''returns int\n\n
+    STOPWF()\n
     '''
 def useAllRecsQuery():
-    '''public int useAllRecsQuery()
+    '''returns int\n\n
+    useAllRecsQuery()\n
     '''
 def useAllBookmarksQuery():
-    '''public int useAllBookmarksQuery()
+    '''returns int\n\n
+    useAllBookmarksQuery()\n
     '''
 def usequery():
-    '''public int usequery()
+    '''returns int\n\n
+    usequery()\n
     '''
 def find():
-    '''public int find()
+    '''returns int\n\n
+    find()\n
     '''
 def resetClassificationTree():
-    '''public void resetClassificationTree()
+    '''returns None\n\n
+    resetClassificationTree()\n
     '''

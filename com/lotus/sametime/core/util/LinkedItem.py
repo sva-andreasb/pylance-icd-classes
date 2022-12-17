@@ -1,15 +1,20 @@
-def LinkedItem():
-    '''public LinkedItem(final Object value, final LinkedItem nextItem)
+def ():
+    '''returns LinkedItem\n\n
+    (final Object value, final LinkedItem nextItem)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def getNext():
-    '''public LinkedItem getNext()
+    '''returns LinkedItem\n\n
+    getNext()\n
     '''
 def setNext():
-    '''public void setNext(final LinkedItem nextItem)
+    '''returns None\n\n
+    setNext(final LinkedItem nextItem)\n
     '''

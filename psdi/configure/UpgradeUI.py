@@ -1,108 +1,106 @@
 maximoPropertiesFileName = "String  \"maximo.properties\""
-def UpgradeUI():
-    '''public UpgradeUI(final String title, final boolean integrityOnly)
+def ():
+    '''returns UpgradePanel\n\n
+    (final String title, final boolean integrityOnly)\n
+    (final String title)\n
+    (final boolean isDoubleBuffered)\n
+    (final boolean isDoubleBuffered)\n
+    (final boolean isDoubleBuffered)\n
+    (final boolean isDoubleBuffered)\n
     '''
 def init():
-    '''public void init()
-    public void init(final UpgradeUI masterFrame)
-    public void init(final UpgradeUI masterFrame)
-    public void init(final UpgradeUI masterFrame)
-    public void init(final UpgradeUI masterFrame)
+    '''returns None\n\n
+    init()\n
+    init(final UpgradeUI masterFrame)\n
+    init(final UpgradeUI masterFrame)\n
+    init(final UpgradeUI masterFrame)\n
+    init(final UpgradeUI masterFrame)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def getScrollPane():
-    '''public JScrollPane getScrollPane()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns JScrollPane\n\n
+    getScrollPane()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stopThread():
-    '''public void stopThread()
-    public void stopThread()
+    '''returns None\n\n
+    stopThread()\n
+    stopThread()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    '''
-def UpgLabel():
-    '''public UpgLabel(final String title)
-    '''
-def LoginPanel():
-    '''public LoginPanel(final boolean isDoubleBuffered)
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def focusLost():
-    '''public void focusLost(final FocusEvent focusEvent)
+    '''returns None\n\n
+    focusLost(final FocusEvent focusEvent)\n
     '''
 def focusGained():
-    '''public void focusGained(final FocusEvent e)
+    '''returns None\n\n
+    focusGained(final FocusEvent e)\n
     '''
 def haveGoodConnection():
-    '''public boolean haveGoodConnection()
-    '''
-def getLoginParams():
-    '''public HashMap<String, String> getLoginParams()
+    '''returns boolean\n\n
+    haveGoodConnection()\n
     '''
 def getCurrentVersion():
-    '''public String getCurrentVersion()
+    '''returns String\n\n
+    getCurrentVersion()\n
     '''
 def accept():
-    '''public boolean accept(final File f)
+    '''returns boolean\n\n
+    accept(final File f)\n
     '''
 def getDescription():
-    '''public String getDescription()
-    '''
-def IntegrityPanel():
-    '''public IntegrityPanel(final boolean isDoubleBuffered)
-    '''
-def getIntegrityParams():
-    '''public HashMap<String, String> getIntegrityParams()
-    '''
-def ValidatePanel():
-    '''public ValidatePanel(final boolean isDoubleBuffered)
-    '''
-def getValidateParams():
-    '''public HashMap<String, String> getValidateParams()
-    '''
-def UpgradePanel():
-    '''public UpgradePanel(final boolean isDoubleBuffered)
+    '''returns String\n\n
+    getDescription()\n
     '''
 def rebuildUpgPromptPanel():
-    '''public void rebuildUpgPromptPanel()
+    '''returns None\n\n
+    rebuildUpgPromptPanel()\n
     '''
 def loadVariablePrompts():
-    '''public void loadVariablePrompts(final JPanel thisPanel)
+    '''returns None\n\n
+    loadVariablePrompts(final JPanel thisPanel)\n
     '''
 def loadVariablePromptsOneDir():
-    '''public void loadVariablePromptsOneDir(final String vDir, final JPanel thisPanel)
+    '''returns None\n\n
+    loadVariablePromptsOneDir(final String vDir, final JPanel thisPanel)\n
     '''
 def loadVariablePromptsOneFile():
-    '''public HashMap loadVariablePromptsOneFile(final JPanel thisPanel, final ResourceBundle variableBundle, final HashMap<String, String> answers, final HashMap dirMap)
+    '''returns HashMap\n\n
+    loadVariablePromptsOneFile(final JPanel thisPanel, final ResourceBundle variableBundle, final HashMap<String, String> answers, final HashMap dirMap)\n
     '''
 def nullVariableAnswersExistOnScreen():
-    '''public boolean nullVariableAnswersExistOnScreen()
+    '''returns boolean\n\n
+    nullVariableAnswersExistOnScreen()\n
     '''
 def saveVariableAnswers():
-    '''public void saveVariableAnswers()
+    '''returns None\n\n
+    saveVariableAnswers()\n
     '''
 def saveVariableAnswersOneDir():
-    '''public void saveVariableAnswersOneDir(final HashMap fieldMap, final File answerFile, final boolean dirMatches)
+    '''returns None\n\n
+    saveVariableAnswersOneDir(final HashMap fieldMap, final File answerFile, final boolean dirMatches)\n
     '''
 def changedUpdate():
-    '''public void changedUpdate(final DocumentEvent e)
+    '''returns None\n\n
+    changedUpdate(final DocumentEvent e)\n
     '''
 def insertUpdate():
-    '''public void insertUpdate(final DocumentEvent e)
+    '''returns None\n\n
+    insertUpdate(final DocumentEvent e)\n
     '''
 def removeUpdate():
-    '''public void removeUpdate(final DocumentEvent e)
-    '''
-def getUpgradeParams():
-    '''public HashMap<String, String> getUpgradeParams()
+    '''returns None\n\n
+    removeUpdate(final DocumentEvent e)\n
     '''

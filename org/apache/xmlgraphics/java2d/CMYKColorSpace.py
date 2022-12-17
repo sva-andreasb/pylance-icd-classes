@@ -1,15 +1,16 @@
-def getInstance():
-    '''public static CMYKColorSpace getInstance()
-    '''
 def toRGB():
-    '''public float[] toRGB(final float[] colorvalue)
+    '''returns float[]\n\n
+    toRGB(final float[] colorvalue)\n
     '''
 def fromRGB():
-    '''public float[] fromRGB(final float[] rgbvalue)
+    '''returns float[]\n\n
+    fromRGB(final float[] rgbvalue)\n
     '''
 def toCIEXYZ():
-    '''public float[] toCIEXYZ(final float[] colorvalue)
+    '''returns float[]\n\n
+    toCIEXYZ(final float[] colorvalue)\n
     '''
 def fromCIEXYZ():
-    '''public float[] fromCIEXYZ(final float[] colorvalue)
+    '''returns float[]\n\n
+    fromCIEXYZ(final float[] colorvalue)\n
     '''

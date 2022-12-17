@@ -10,20 +10,21 @@ LABEL_TOO_LONG_ERROR = "int  8"
 BUFFER_OVERFLOW_ERROR = "int  9"
 ZERO_LENGTH_LABEL = "int  10"
 DOMAIN_NAME_TOO_LONG_ERROR = "int  11"
-def StringPrepParseException():
-    '''public StringPrepParseException(final String message, final int error)
-    public StringPrepParseException(final String message, final int error, final String rules, final int pos)
-    public StringPrepParseException(final String message, final int error, final String rules, final int pos, final int lineNumber)
+def ():
+    '''returns StringPrepParseException\n\n
+    (final String message, final int error)\n
+    (final String message, final int error, final String rules, final int pos)\n
+    (final String message, final int error, final String rules, final int pos, final int lineNumber)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    '''
-def hashCode():
-    '''public int hashCode()
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getError():
-    '''public int getError()
+    '''returns int\n\n
+    getError()\n
     '''

@@ -1,9 +1,12 @@
-def BoardTableGenerator():
-    '''public BoardTableGenerator(final Guid guid, final long version, final TableContent content, final SessionContext session)
+def ():
+    '''returns BoardTableGenerator\n\n
+    (final Guid guid, final long version, final TableContent content, final SessionContext session)\n
     '''
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''
 def getModelGeneral():
-    '''public DetailTableModel getModelGeneral()
+    '''returns DetailTableModel\n\n
+    getModelGeneral()\n
     '''

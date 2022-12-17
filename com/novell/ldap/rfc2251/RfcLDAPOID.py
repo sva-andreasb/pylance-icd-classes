@@ -1,4 +1,5 @@
-def RfcLDAPOID():
-    '''public RfcLDAPOID(final String s)
-    public RfcLDAPOID(final byte[] array)
+def ():
+    '''returns RfcLDAPOID\n\n
+    (final String s)\n
+    (final byte[] array)\n
     '''

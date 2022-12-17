@@ -1,18 +1,24 @@
-def ConfigEpoch():
-    '''public ConfigEpoch()
+def ():
+    '''returns ConfigEpoch\n\n
+    ()\n
     '''
 def update():
-    '''public void update()
+    '''returns None\n\n
+    update()\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
+    '''returns int\n\n
+    compareTo(final Object obj)\n
     '''

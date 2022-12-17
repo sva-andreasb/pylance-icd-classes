@@ -6,472 +6,603 @@ HH_GRAYSCALE = "int  3"
 HH_SHARPEN = "int  4"
 HH_INVERT_COLORS = "int  5"
 HH_CUSTOM = "int  6"
-def IlvGanttSheet():
-    '''public IlvGanttSheet()
+def ():
+    '''returns FitWidthCalculator\n\n
+    ()\n
+    (final IlvManagerView.FitAreaCalculator a)\n
     '''
 def layerChanged():
-    '''public void layerChanged(final ManagerLayerEvent managerLayerEvent)
+    '''returns None\n\n
+    layerChanged(final ManagerLayerEvent managerLayerEvent)\n
     '''
 def layerInserted():
-    '''public void layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)
+    '''returns None\n\n
+    layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)\n
     '''
 def layerMoved():
-    '''public void layerMoved(final ManagerLayerMovedEvent managerLayerMovedEvent)
+    '''returns None\n\n
+    layerMoved(final ManagerLayerMovedEvent managerLayerMovedEvent)\n
     '''
 def layerRemoved():
-    '''public void layerRemoved(final ManagerLayerRemovedEvent managerLayerRemovedEvent)
+    '''returns None\n\n
+    layerRemoved(final ManagerLayerRemovedEvent managerLayerRemovedEvent)\n
     '''
 def getDefaultTimeIndicatorReshapeFeedback():
-    '''public IlvTimeIndicatorReshapeFeedback getDefaultTimeIndicatorReshapeFeedback()
-    '''
-def getGanttConfiguration():
-    '''public final IlvGanttConfiguration getGanttConfiguration()
-    '''
-def getGanttModel():
-    '''public final IlvGanttModel getGanttModel()
+    '''returns IlvTimeIndicatorReshapeFeedback\n\n
+    getDefaultTimeIndicatorReshapeFeedback()\n
     '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    '''
-def getBaseTextDirection():
-    '''public final int getBaseTextDirection()
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
     '''
 def setBaseTextDirection():
-    '''public void setBaseTextDirection(final int e)
-    '''
-def getParentBaseTextDirection():
-    '''public final int getParentBaseTextDirection()
+    '''returns None\n\n
+    setBaseTextDirection(final int e)\n
     '''
 def setParentBaseTextDirection():
-    '''public void setParentBaseTextDirection(final int f)
+    '''returns None\n\n
+    setParentBaseTextDirection(final int f)\n
     '''
 def getResolvedBaseTextDirection():
-    '''public int getResolvedBaseTextDirection()
+    '''returns int\n\n
+    getResolvedBaseTextDirection()\n
     '''
 def getActivityRendererFactory():
-    '''public IlvActivityRendererFactory getActivityRendererFactory()
+    '''returns IlvActivityRendererFactory\n\n
+    getActivityRendererFactory()\n
     '''
 def setActivityRendererFactory():
-    '''public void setActivityRendererFactory(final IlvActivityRendererFactory u)
+    '''returns None\n\n
+    setActivityRendererFactory(final IlvActivityRendererFactory u)\n
     '''
 def getConstraintGraphicFactory():
-    '''public IlvConstraintGraphicFactory getConstraintGraphicFactory()
+    '''returns IlvConstraintGraphicFactory\n\n
+    getConstraintGraphicFactory()\n
     '''
 def setConstraintGraphicFactory():
-    '''public void setConstraintGraphicFactory(final IlvConstraintGraphicFactory v)
+    '''returns None\n\n
+    setConstraintGraphicFactory(final IlvConstraintGraphicFactory v)\n
     '''
 def getConstraintFactory():
-    '''public IlvConstraintFactory getConstraintFactory()
+    '''returns IlvConstraintFactory\n\n
+    getConstraintFactory()\n
     '''
 def setConstraintFactory():
-    '''public void setConstraintFactory(final IlvConstraintFactory q)
+    '''returns None\n\n
+    setConstraintFactory(final IlvConstraintFactory q)\n
     '''
 def getActivityFactory():
-    '''public IlvActivityFactory getActivityFactory()
+    '''returns IlvActivityFactory\n\n
+    getActivityFactory()\n
     '''
 def setActivityFactory():
-    '''public void setActivityFactory(final IlvActivityFactory r)
+    '''returns None\n\n
+    setActivityFactory(final IlvActivityFactory r)\n
     '''
 def getReservationFactory():
-    '''public IlvReservationFactory getReservationFactory()
+    '''returns IlvReservationFactory\n\n
+    getReservationFactory()\n
     '''
 def setReservationFactory():
-    '''public void setReservationFactory(final IlvReservationFactory s)
+    '''returns None\n\n
+    setReservationFactory(final IlvReservationFactory s)\n
     '''
 def getResourceFactory():
-    '''public IlvResourceFactory getResourceFactory()
+    '''returns IlvResourceFactory\n\n
+    getResourceFactory()\n
     '''
 def setResourceFactory():
-    '''public void setResourceFactory(final IlvResourceFactory t)
+    '''returns None\n\n
+    setResourceFactory(final IlvResourceFactory t)\n
     '''
 def getHorizontalGridLayerIndex():
-    '''public int getHorizontalGridLayerIndex()
+    '''returns int\n\n
+    getHorizontalGridLayerIndex()\n
     '''
 def getVerticalGridLayerIndex():
-    '''public int getVerticalGridLayerIndex()
+    '''returns int\n\n
+    getVerticalGridLayerIndex()\n
     '''
 def getActivityGraphicLayerIndex():
-    '''public int getActivityGraphicLayerIndex()
+    '''returns int\n\n
+    getActivityGraphicLayerIndex()\n
     '''
 def getConstraintGraphicLayerIndex():
-    '''public int getConstraintGraphicLayerIndex()
+    '''returns int\n\n
+    getConstraintGraphicLayerIndex()\n
     '''
 def getDefaultConstraintGraphicLayerIndex():
-    '''public int getDefaultConstraintGraphicLayerIndex()
+    '''returns int\n\n
+    getDefaultConstraintGraphicLayerIndex()\n
     '''
 def getConstraintGraphicLayerPolicy():
-    '''public IlvConstraintGraphicLayerPolicy getConstraintGraphicLayerPolicy()
+    '''returns IlvConstraintGraphicLayerPolicy\n\n
+    getConstraintGraphicLayerPolicy()\n
     '''
 def setConstraintGraphicLayerPolicy():
-    '''public void setConstraintGraphicLayerPolicy(final IlvConstraintGraphicLayerPolicy ilvConstraintGraphicLayerPolicy)
+    '''returns None\n\n
+    setConstraintGraphicLayerPolicy(final IlvConstraintGraphicLayerPolicy ilvConstraintGraphicLayerPolicy)\n
     '''
 def getTimeIndicatorLayerIndex():
-    '''public int getTimeIndicatorLayerIndex()
+    '''returns int\n\n
+    getTimeIndicatorLayerIndex()\n
     '''
 def swapLayers():
-    '''public void swapLayers(final int n, final int n2)
+    '''returns None\n\n
+    swapLayers(final int n, final int n2)\n
     '''
 def isDisplayingConstraints():
-    '''public boolean isDisplayingConstraints()
+    '''returns boolean\n\n
+    isDisplayingConstraints()\n
     '''
 def setDisplayingConstraints():
-    '''public void setDisplayingConstraints(final boolean b)
+    '''returns None\n\n
+    setDisplayingConstraints(final boolean b)\n
     '''
 def isConstraintLayerVisible():
-    '''public boolean isConstraintLayerVisible()
+    '''returns boolean\n\n
+    isConstraintLayerVisible()\n
     '''
 def isDefaultConstraintLayerVisible():
-    '''public boolean isDefaultConstraintLayerVisible()
+    '''returns boolean\n\n
+    isDefaultConstraintLayerVisible()\n
     '''
 def setConstraintLayerVisible():
-    '''public void setConstraintLayerVisible(final boolean b)
+    '''returns None\n\n
+    setConstraintLayerVisible(final boolean b)\n
     '''
 def setDefaultConstraintLayerVisible():
-    '''public void setDefaultConstraintLayerVisible(final boolean b)
+    '''returns None\n\n
+    setDefaultConstraintLayerVisible(final boolean b)\n
     '''
 def isTimeIndicatorLayerVisible():
-    '''public boolean isTimeIndicatorLayerVisible()
+    '''returns boolean\n\n
+    isTimeIndicatorLayerVisible()\n
     '''
 def setTimeIndicatorLayerVisible():
-    '''public void setTimeIndicatorLayerVisible(final boolean b)
+    '''returns None\n\n
+    setTimeIndicatorLayerVisible(final boolean b)\n
     '''
 def setExpandableGanttConfigurationImpl():
-    '''public void setExpandableGanttConfigurationImpl(final IlvGanttConfiguration d)
+    '''returns None\n\n
+    setExpandableGanttConfigurationImpl(final IlvGanttConfiguration d)\n
     '''
 def ganttModelChanged():
-    '''public void ganttModelChanged(final GanttModelChangedEvent ganttModelChangedEvent)
-    public void ganttModelChanged(final GanttModelChangedEvent ganttModelChangedEvent)
+    '''returns None\n\n
+    ganttModelChanged(final GanttModelChangedEvent ganttModelChangedEvent)\n
+    ganttModelChanged(final GanttModelChangedEvent ganttModelChangedEvent)\n
     '''
 def validateRowHeights():
-    '''public void validateRowHeights()
+    '''returns None\n\n
+    validateRowHeights()\n
     '''
 def rowsInserted():
-    '''public void rowsInserted(final RowsInsertedEvent rowsInsertedEvent)
+    '''returns None\n\n
+    rowsInserted(final RowsInsertedEvent rowsInsertedEvent)\n
     '''
 def rowsRemoved():
-    '''public void rowsRemoved(final RowsRemovedEvent rowsRemovedEvent)
+    '''returns None\n\n
+    rowsRemoved(final RowsRemovedEvent rowsRemovedEvent)\n
     '''
 def rowMoved():
-    '''public void rowMoved(final RowMovedEvent rowMovedEvent)
+    '''returns None\n\n
+    rowMoved(final RowMovedEvent rowMovedEvent)\n
     '''
 def rowExpanded():
-    '''public void rowExpanded(final RowExpandedEvent rowExpandedEvent)
+    '''returns None\n\n
+    rowExpanded(final RowExpandedEvent rowExpandedEvent)\n
     '''
 def rowCollapsed():
-    '''public void rowCollapsed(final RowCollapsedEvent rowCollapsedEvent)
+    '''returns None\n\n
+    rowCollapsed(final RowCollapsedEvent rowCollapsedEvent)\n
     '''
 def rowHeightChanged():
-    '''public void rowHeightChanged(final RowHeightChangedEvent rowHeightChangedEvent)
+    '''returns None\n\n
+    rowHeightChanged(final RowHeightChangedEvent rowHeightChangedEvent)\n
     '''
 def rootRowVisibilityChanged():
-    '''public void rootRowVisibilityChanged(final RootRowVisibilityChangedEvent rootRowVisibilityChangedEvent)
+    '''returns None\n\n
+    rootRowVisibilityChanged(final RootRowVisibilityChangedEvent rootRowVisibilityChangedEvent)\n
     '''
 def getGanttRowCount():
-    '''public int getGanttRowCount()
+    '''returns int\n\n
+    getGanttRowCount()\n
     '''
 def ganttRowIterator():
-    '''public Iterator<IlvGanttRow> ganttRowIterator()
+    '''returns Iterator<IlvGanttRow>\n\n
+    ganttRowIterator()\n
     '''
 def getVisibleGanttRowCount():
-    '''public int getVisibleGanttRowCount()
+    '''returns int\n\n
+    getVisibleGanttRowCount()\n
     '''
 def getVisibleGanttRowAt():
-    '''public IlvGanttRow getVisibleGanttRowAt(final int n)
+    '''returns IlvGanttRow\n\n
+    getVisibleGanttRowAt(final int n)\n
     '''
 def getVisibleGanttRowIndex():
-    '''public int getVisibleGanttRowIndex(final IlvGanttRow ilvGanttRow)
+    '''returns int\n\n
+    getVisibleGanttRowIndex(final IlvGanttRow ilvGanttRow)\n
     '''
 def getGanttRowByIdentifier():
-    '''public IlvGanttRow getGanttRowByIdentifier(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns IlvGanttRow\n\n
+    getGanttRowByIdentifier(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def ganttRowFromPosition():
-    '''public IlvGanttRow ganttRowFromPosition(final int n)
+    '''returns IlvGanttRow\n\n
+    ganttRowFromPosition(final int n)\n
     '''
 def getTime():
-    '''public Date getTime(final int n)
+    '''returns Date\n\n
+    getTime(final int n)\n
     '''
 def getPosition():
-    '''public long getPosition(final Date date)
+    '''returns long\n\n
+    getPosition(final Date date)\n
     '''
 def getGraphic():
-    '''public IlvGraphic getGraphic(final Point2D point2D)
+    '''returns IlvGraphic\n\n
+    getGraphic(final Point2D point2D)\n
     '''
 def getGraphicsInside():
-    '''public Collection<IlvGraphic> getGraphicsInside(final Rectangle2D rectangle2D)
+    '''returns Collection<IlvGraphic>\n\n
+    getGraphicsInside(final Rectangle2D rectangle2D)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''
 def getGraphicsIntersects():
-    '''public Collection<IlvGraphic> getGraphicsIntersects(final Rectangle2D rectangle2D)
+    '''returns Collection<IlvGraphic>\n\n
+    getGraphicsIntersects(final Rectangle2D rectangle2D)\n
     '''
 def activityGraphicsIterator():
-    '''public Iterator<IlvActivityGraphic> activityGraphicsIterator()
-    public Iterator<IlvActivityGraphic> activityGraphicsIterator(final IlvActivity ilvActivity)
+    '''returns Iterator<IlvActivityGraphic>\n\n
+    activityGraphicsIterator()\n
+    activityGraphicsIterator(final IlvActivity ilvActivity)\n
     '''
 def getActivityGraphics():
-    '''public Collection<IlvActivityGraphic> getActivityGraphics()
+    '''returns Collection<IlvActivityGraphic>\n\n
+    getActivityGraphics()\n
     '''
 def getActivityGraphic():
-    '''public IlvActivityGraphic getActivityGraphic(final IlvActivity ilvActivity)
+    '''returns IlvActivityGraphic\n\n
+    getActivityGraphic(final IlvActivity ilvActivity)\n
     '''
 def setActivityRenderer():
-    '''public void setActivityRenderer(final IlvActivity ilvActivity, final IlvActivityRenderer activityRenderer)
+    '''returns None\n\n
+    setActivityRenderer(final IlvActivity ilvActivity, final IlvActivityRenderer activityRenderer)\n
     '''
 def getReservationGraphic():
-    '''public IlvReservationGraphic getReservationGraphic(final IlvReservation ilvReservation)
+    '''returns IlvReservationGraphic\n\n
+    getReservationGraphic(final IlvReservation ilvReservation)\n
     '''
 def setReservationRenderer():
-    '''public void setReservationRenderer(final IlvReservation ilvReservation, final IlvActivityRenderer activityRenderer)
+    '''returns None\n\n
+    setReservationRenderer(final IlvReservation ilvReservation, final IlvActivityRenderer activityRenderer)\n
     '''
 def isMultipleRowActivityGraphicsEnabled():
-    '''public boolean isMultipleRowActivityGraphicsEnabled()
+    '''returns boolean\n\n
+    isMultipleRowActivityGraphicsEnabled()\n
     '''
 def setMultipleRowActivityGraphicsEnabled():
-    '''public void setMultipleRowActivityGraphicsEnabled(final boolean b)
+    '''returns None\n\n
+    setMultipleRowActivityGraphicsEnabled(final boolean b)\n
     '''
 def constraintGraphicsIterator():
-    '''public Iterator<IlvConstraintGraphic> constraintGraphicsIterator()
+    '''returns Iterator<IlvConstraintGraphic>\n\n
+    constraintGraphicsIterator()\n
     '''
 def getConstraintGraphics():
-    '''public Collection<IlvConstraintGraphic> getConstraintGraphics()
+    '''returns Collection<IlvConstraintGraphic>\n\n
+    getConstraintGraphics()\n
     '''
 def getConstraintGraphic():
-    '''public IlvConstraintGraphic getConstraintGraphic(final IlvConstraint ilvConstraint)
+    '''returns IlvConstraintGraphic\n\n
+    getConstraintGraphic(final IlvConstraint ilvConstraint)\n
     '''
 def replaceConstraintGraphic():
-    '''public void replaceConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic, final IlvConstraintGraphic ilvConstraintGraphic2, final boolean b)
+    '''returns None\n\n
+    replaceConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic, final IlvConstraintGraphic ilvConstraintGraphic2, final boolean b)\n
     '''
 def getTimeConverter():
-    '''public IlvTimeConverter getTimeConverter()
+    '''returns IlvTimeConverter\n\n
+    getTimeConverter()\n
     '''
 def setTimeConverter():
-    '''public void setTimeConverter(final IlvTimeConverter ilvTimeConverter)
+    '''returns None\n\n
+    setTimeConverter(final IlvTimeConverter ilvTimeConverter)\n
     '''
 def getActivityLayout():
-    '''public IlvActivityLayout getActivityLayout()
+    '''returns IlvActivityLayout\n\n
+    getActivityLayout()\n
     '''
 def setActivityLayout():
-    '''public void setActivityLayout(final IlvActivityLayout activityLayout)
+    '''returns None\n\n
+    setActivityLayout(final IlvActivityLayout activityLayout)\n
     '''
 def getHorizontalGrid():
-    '''public IlvGanttGridRenderer getHorizontalGrid()
+    '''returns IlvGanttGridRenderer\n\n
+    getHorizontalGrid()\n
     '''
 def setHorizontalGrid():
-    '''public void setHorizontalGrid(final IlvGanttGridRenderer grid)
+    '''returns None\n\n
+    setHorizontalGrid(final IlvGanttGridRenderer grid)\n
     '''
 def getVerticalGrid():
-    '''public IlvGanttGridRenderer getVerticalGrid()
+    '''returns IlvGanttGridRenderer\n\n
+    getVerticalGrid()\n
     '''
 def setVerticalGrid():
-    '''public void setVerticalGrid(final IlvGanttGridRenderer grid)
+    '''returns None\n\n
+    setVerticalGrid(final IlvGanttGridRenderer grid)\n
     '''
 def getRowHeight():
-    '''public int getRowHeight()
+    '''returns int\n\n
+    getRowHeight()\n
     '''
 def setRowHeight():
-    '''public void setRowHeight(final int rowHeight)
+    '''returns None\n\n
+    setRowHeight(final int rowHeight)\n
     '''
 def addTimeIndicator():
-    '''public void addTimeIndicator(final IlvTimeIndicator ilvTimeIndicator)
+    '''returns None\n\n
+    addTimeIndicator(final IlvTimeIndicator ilvTimeIndicator)\n
     '''
 def removeTimeIndicator():
-    '''public void removeTimeIndicator(final IlvTimeIndicator ilvTimeIndicator)
+    '''returns None\n\n
+    removeTimeIndicator(final IlvTimeIndicator ilvTimeIndicator)\n
     '''
 def timeIndicatorsIterator():
-    '''public Iterator<IlvTimeIndicator> timeIndicatorsIterator()
+    '''returns Iterator<IlvTimeIndicator>\n\n
+    timeIndicatorsIterator()\n
     '''
 def getTimeIndicators():
-    '''public Collection<IlvTimeIndicator> getTimeIndicators()
+    '''returns Collection<IlvTimeIndicator>\n\n
+    getTimeIndicators()\n
     '''
 def getTimeIndicator():
-    '''public IlvTimeIndicator getTimeIndicator(final Date date)
+    '''returns IlvTimeIndicator\n\n
+    getTimeIndicator(final Date date)\n
     '''
 def replaceTimeIndicator():
-    '''public void replaceTimeIndicator(final IlvTimeIndicator ilvTimeIndicator, final IlvTimeIndicator ilvTimeIndicator2, final boolean b)
+    '''returns None\n\n
+    replaceTimeIndicator(final IlvTimeIndicator ilvTimeIndicator, final IlvTimeIndicator ilvTimeIndicator2, final boolean b)\n
     '''
 def getMinVisibleTime():
-    '''public Date getMinVisibleTime()
+    '''returns Date\n\n
+    getMinVisibleTime()\n
     '''
 def setMinVisibleTime():
-    '''public void setMinVisibleTime(final Date date)
+    '''returns None\n\n
+    setMinVisibleTime(final Date date)\n
     '''
 def getMaxVisibleTime():
-    '''public Date getMaxVisibleTime()
+    '''returns Date\n\n
+    getMaxVisibleTime()\n
     '''
 def setMaxVisibleTime():
-    '''public void setMaxVisibleTime(final Date date)
+    '''returns None\n\n
+    setMaxVisibleTime(final Date date)\n
     '''
 def getMinVisibleDuration():
-    '''public IlvDuration getMinVisibleDuration()
+    '''returns IlvDuration\n\n
+    getMinVisibleDuration()\n
     '''
 def setMinVisibleDuration():
-    '''public void setMinVisibleDuration(final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setMinVisibleDuration(final IlvDuration ilvDuration)\n
     '''
 def getVisibleTime():
-    '''public Date getVisibleTime()
+    '''returns Date\n\n
+    getVisibleTime()\n
     '''
 def setVisibleTime():
-    '''public void setVisibleTime(final Date param1)
+    '''returns None\n\n
+    setVisibleTime(final Date param1)\n
     '''
 def getVisibleDuration():
-    '''public IlvDuration getVisibleDuration()
+    '''returns IlvDuration\n\n
+    getVisibleDuration()\n
     '''
 def setVisibleDuration():
-    '''public void setVisibleDuration(final IlvDuration param1)
+    '''returns None\n\n
+    setVisibleDuration(final IlvDuration param1)\n
     '''
 def getVisibleInterval():
-    '''public IlvTimeInterval getVisibleInterval()
+    '''returns IlvTimeInterval\n\n
+    getVisibleInterval()\n
     '''
 def setVisibleInterval():
-    '''public void setVisibleInterval(final Date date, final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setVisibleInterval(final Date date, final IlvDuration ilvDuration)\n
     '''
 def addTimeScrollListener():
-    '''public void addTimeScrollListener(final TimeScrollListener timeScrollListener)
+    '''returns None\n\n
+    addTimeScrollListener(final TimeScrollListener timeScrollListener)\n
     '''
 def removeTimeScrollListener():
-    '''public void removeTimeScrollListener(final TimeScrollListener timeScrollListener)
+    '''returns None\n\n
+    removeTimeScrollListener(final TimeScrollListener timeScrollListener)\n
     '''
 def beginRedrawSession():
-    '''public void beginRedrawSession(final boolean b)
+    '''returns None\n\n
+    beginRedrawSession(final boolean b)\n
     '''
 def endRedrawSession():
-    '''public void endRedrawSession()
+    '''returns None\n\n
+    endRedrawSession()\n
     '''
 def paint():
-    '''public void paint(final Graphics graphics)
+    '''returns None\n\n
+    paint(final Graphics graphics)\n
     '''
 def print():
-    '''public void print(final Graphics graphics, final IlvRect ilvRect, final IlvTransformer ilvTransformer)
-    public void print(final Graphics graphics, final Rectangle rectangle, final IlvTransformer ilvTransformer)
-    public void print(final Graphics graphics, final Rectangle rectangle, final IlvTransformer ilvTransformer, final boolean b)
+    '''returns None\n\n
+    print(final Graphics graphics, final IlvRect ilvRect, final IlvTransformer ilvTransformer)\n
+    print(final Graphics graphics, final Rectangle rectangle, final IlvTransformer ilvTransformer)\n
+    print(final Graphics graphics, final Rectangle rectangle, final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def isConstantZoomFactorOnWidthChange():
-    '''public boolean isConstantZoomFactorOnWidthChange()
+    '''returns boolean\n\n
+    isConstantZoomFactorOnWidthChange()\n
     '''
 def setConstantZoomFactorOnWidthChange():
-    '''public void setConstantZoomFactorOnWidthChange(final boolean ag)
+    '''returns None\n\n
+    setConstantZoomFactorOnWidthChange(final boolean ag)\n
     '''
 def verifyTransformer():
-    '''public void verifyTransformer()
+    '''returns None\n\n
+    verifyTransformer()\n
     '''
 def translate():
-    '''public void translate(final float n, final float n2, final boolean b)
+    '''returns None\n\n
+    translate(final float n, final float n2, final boolean b)\n
     '''
 def ensureVisible():
-    '''public void ensureVisible(final IlvGraphic ilvGraphic, final int n)
+    '''returns None\n\n
+    ensureVisible(final IlvGraphic ilvGraphic, final int n)\n
     '''
 def addAccelerator():
-    '''public void addAccelerator(final IlvAccelerator ilvAccelerator)
+    '''returns None\n\n
+    addAccelerator(final IlvAccelerator ilvAccelerator)\n
     '''
 def removeAccelerator():
-    '''public void removeAccelerator(final IlvAccelerator ilvAccelerator)
+    '''returns None\n\n
+    removeAccelerator(final IlvAccelerator ilvAccelerator)\n
     '''
 def isPopupMenusEnabled():
-    '''public boolean isPopupMenusEnabled()
+    '''returns boolean\n\n
+    isPopupMenusEnabled()\n
     '''
 def setPopupMenusEnabled():
-    '''public void setPopupMenusEnabled(final boolean ae)
+    '''returns None\n\n
+    setPopupMenusEnabled(final boolean ae)\n
     '''
 def getHoverHighlightingImageOperation():
-    '''public IlvHoverHighlightingImageOperation getHoverHighlightingImageOperation()
+    '''returns IlvHoverHighlightingImageOperation\n\n
+    getHoverHighlightingImageOperation()\n
     '''
 def setHoverHighlightingImageOperation():
-    '''public void setHoverHighlightingImageOperation(final IlvHoverHighlightingImageOperation hoverHighlightingImageOperation)
+    '''returns None\n\n
+    setHoverHighlightingImageOperation(final IlvHoverHighlightingImageOperation hoverHighlightingImageOperation)\n
     '''
 def getHoverHighlightingMode():
-    '''public int getHoverHighlightingMode()
+    '''returns int\n\n
+    getHoverHighlightingMode()\n
     '''
 def setHoverHighlightingMode():
-    '''public void setHoverHighlightingMode(final int hoverHighlightingMode)
+    '''returns None\n\n
+    setHoverHighlightingMode(final int hoverHighlightingMode)\n
     '''
 def isToolTipsEnabled():
-    '''public boolean isToolTipsEnabled()
+    '''returns boolean\n\n
+    isToolTipsEnabled()\n
     '''
 def setToolTipsEnabled():
-    '''public void setToolTipsEnabled(final boolean af)
+    '''returns None\n\n
+    setToolTipsEnabled(final boolean af)\n
     '''
 def isParentActivityMovable():
-    '''public boolean isParentActivityMovable()
+    '''returns boolean\n\n
+    isParentActivityMovable()\n
     '''
 def setParentActivityMovable():
-    '''public void setParentActivityMovable(final boolean ac)
+    '''returns None\n\n
+    setParentActivityMovable(final boolean ac)\n
     '''
 def isParentActivityEditable():
-    '''public boolean isParentActivityEditable()
+    '''returns boolean\n\n
+    isParentActivityEditable()\n
     '''
 def setParentActivityEditable():
-    '''public void setParentActivityEditable(final boolean ad)
+    '''returns None\n\n
+    setParentActivityEditable(final boolean ad)\n
     '''
 def isMilestoneConversionAllowed():
-    '''public boolean isMilestoneConversionAllowed()
+    '''returns boolean\n\n
+    isMilestoneConversionAllowed()\n
     '''
 def setMilestoneConversionAllowed():
-    '''public void setMilestoneConversionAllowed(final boolean at)
+    '''returns None\n\n
+    setMilestoneConversionAllowed(final boolean at)\n
     '''
 def isRefreshParentActivityRenderer():
-    '''public boolean isRefreshParentActivityRenderer()
+    '''returns boolean\n\n
+    isRefreshParentActivityRenderer()\n
     '''
 def setRefreshParentActivityRenderer():
-    '''public void setRefreshParentActivityRenderer(final boolean au)
+    '''returns None\n\n
+    setRefreshParentActivityRenderer(final boolean au)\n
     '''
 def isRefreshMilestoneRenderer():
-    '''public boolean isRefreshMilestoneRenderer()
+    '''returns boolean\n\n
+    isRefreshMilestoneRenderer()\n
     '''
 def setRefreshMilestoneRenderer():
-    '''public void setRefreshMilestoneRenderer(final boolean ab)
+    '''returns None\n\n
+    setRefreshMilestoneRenderer(final boolean ab)\n
     '''
 def createTimeIndicatorContext():
-    '''public IlvTimeIndicatorContext createTimeIndicatorContext()
+    '''returns IlvTimeIndicatorContext\n\n
+    createTimeIndicatorContext()\n
     '''
 def createGridContext():
-    '''public IlvGanttGridContext createGridContext()
+    '''returns IlvGanttGridContext\n\n
+    createGridContext()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def activityChanged():
-    '''public void activityChanged(final ActivityEvent activityEvent)
-    '''
-def FitWidthCalculator():
-    '''public FitWidthCalculator(final IlvManagerView.FitAreaCalculator a)
+    '''returns None\n\n
+    activityChanged(final ActivityEvent activityEvent)\n
     '''
 def getAreaToFit():
-    '''public IlvRect getAreaToFit(final IlvManagerView ilvManagerView)
+    '''returns IlvRect\n\n
+    getAreaToFit(final IlvManagerView ilvManagerView)\n
     '''
 def activitiesInserted():
-    '''public void activitiesInserted(final ActivitiesInsertedEvent activitiesInsertedEvent)
+    '''returns None\n\n
+    activitiesInserted(final ActivitiesInsertedEvent activitiesInsertedEvent)\n
     '''
 def activitiesRemoved():
-    '''public void activitiesRemoved(final ActivitiesRemovedEvent activitiesRemovedEvent)
+    '''returns None\n\n
+    activitiesRemoved(final ActivitiesRemovedEvent activitiesRemovedEvent)\n
     '''
 def activityMoved():
-    '''public void activityMoved(final ActivityMovedEvent activityMovedEvent)
+    '''returns None\n\n
+    activityMoved(final ActivityMovedEvent activityMovedEvent)\n
     '''
 def propertyChanged():
-    '''public void propertyChanged(final GanttModelPropertyEvent ganttModelPropertyEvent)
-    '''
-def getGanttSheet():
-    '''public final IlvGanttSheet getGanttSheet()
+    '''returns None\n\n
+    propertyChanged(final GanttModelPropertyEvent ganttModelPropertyEvent)\n
     '''
 def removeLayer():
-    '''public void removeLayer(final int i, final boolean b)
+    '''returns None\n\n
+    removeLayer(final int i, final boolean b)\n
     '''
 def initReDraws():
-    '''public void initReDraws()
-    public void initReDraws(final boolean b)
+    '''returns None\n\n
+    initReDraws()\n
+    initReDraws(final boolean b)\n
     '''
 def reDrawViews():
-    '''public void reDrawViews()
+    '''returns None\n\n
+    reDrawViews()\n
     '''
 def blinkingReDraw():
-    '''public void blinkingReDraw()
+    '''returns None\n\n
+    blinkingReDraw()\n
     '''
 def abortReDraws():
-    '''public void abortReDraws()
+    '''returns None\n\n
+    abortReDraws()\n
     '''
 def invalidateRegion():
-    '''public void invalidateRegion(final IlvGraphic ilvGraphic)
-    public void invalidateRegion(final IlvRect ilvRect)
+    '''returns None\n\n
+    invalidateRegion(final IlvGraphic ilvGraphic)\n
+    invalidateRegion(final IlvRect ilvRect)\n
     '''

@@ -1,36 +1,39 @@
-def OQ():
-    '''public OQ(final InputStream in, final long fw)
-    public OQ(final InputStream inputStream)
+def ():
+    '''returns OQ\n\n
+    (final InputStream in, final long fw)\n
+    (final InputStream inputStream)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b)
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b)\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def close():
-    '''public void close()
-    '''
-def reset():
-    '''public synchronized void reset()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def isPropagateClose():
-    '''public boolean isPropagateClose()
+    '''returns boolean\n\n
+    isPropagateClose()\n
     '''
 def setPropagateClose():
-    '''public void setPropagateClose(final boolean propagateClose)
+    '''returns None\n\n
+    setPropagateClose(final boolean propagateClose)\n
     '''

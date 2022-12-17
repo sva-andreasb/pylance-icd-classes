@@ -1,3 +1,4 @@
-def POP3SSLStore():
-    '''public POP3SSLStore(final Session session, final URLName urlName)
+def ():
+    '''returns POP3SSLStore\n\n
+    (final Session session, final URLName urlName)\n
     '''

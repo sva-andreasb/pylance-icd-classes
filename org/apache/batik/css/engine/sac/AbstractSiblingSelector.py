@@ -1,15 +1,20 @@
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getSpecificity():
-    '''public int getSpecificity()
+    '''returns int\n\n
+    getSpecificity()\n
     '''
 def getSelector():
-    '''public Selector getSelector()
+    '''returns Selector\n\n
+    getSelector()\n
     '''
 def getSiblingSelector():
-    '''public SimpleSelector getSiblingSelector()
+    '''returns SimpleSelector\n\n
+    getSiblingSelector()\n
     '''

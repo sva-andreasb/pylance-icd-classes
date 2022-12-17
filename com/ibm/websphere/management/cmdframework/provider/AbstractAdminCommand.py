@@ -1,132 +1,170 @@
 ASYNC_CUSTOM_TAG = "String  \"async\""
 DYNAMIC_CUSTOM_TAG = "String  \"dynamicStep\""
 PRIVATE_CUSTOM_TAG = "String  \"private\""
-def AbstractAdminCommand():
-    '''public AbstractAdminCommand(final CommandMetadata metadata)
-    public AbstractAdminCommand(final CommandData inCommandData)
-    '''
-def getCommandMetadata():
-    '''public static CommandMetadata getCommandMetadata(final String cmdName)
-    public CommandMetadata getCommandMetadata()
+def ():
+    '''returns CmdNotificationListener\n\n
+    (final CommandMetadata metadata)\n
+    (final CommandData inCommandData)\n
+    ()\n
+    (final long cmdSession)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
+    '''
+def getCommandMetadata():
+    '''returns CommandMetadata\n\n
+    getCommandMetadata()\n
     '''
 def getTargetObject():
-    '''public Object getTargetObject()
+    '''returns Object\n\n
+    getTargetObject()\n
     '''
 def setTargetObject():
-    '''public void setTargetObject(final Object obj)
+    '''returns None\n\n
+    setTargetObject(final Object obj)\n
     '''
 def listSetParams():
-    '''public Collection listSetParams()
+    '''returns Collection\n\n
+    listSetParams()\n
     '''
 def getParameter():
-    '''public Object getParameter(final String parameterName)
+    '''returns Object\n\n
+    getParameter(final String parameterName)\n
     '''
 def isAsyncCommand():
-    '''public boolean isAsyncCommand()
+    '''returns boolean\n\n
+    isAsyncCommand()\n
     '''
 def isDynamicStepCommand():
-    '''public boolean isDynamicStepCommand()
+    '''returns boolean\n\n
+    isDynamicStepCommand()\n
     '''
 def isPrivateParameter():
-    '''public boolean isPrivateParameter(final String paramName)
+    '''returns boolean\n\n
+    isPrivateParameter(final String paramName)\n
     '''
 def listAllParameterName():
-    '''public List listAllParameterName()
+    '''returns List\n\n
+    listAllParameterName()\n
     '''
 def listParameterName():
-    '''public List listParameterName()
+    '''returns List\n\n
+    listParameterName()\n
     '''
 def setParameter():
-    '''public void setParameter(final String paramName, final Object value)
+    '''returns None\n\n
+    setParameter(final String paramName, final Object value)\n
     '''
 def setOrigParameterValue():
-    '''public void setOrigParameterValue(final String paramName, final Object value)
+    '''returns None\n\n
+    setOrigParameterValue(final String paramName, final Object value)\n
     '''
 def getOrigParameterValue():
-    '''public Object getOrigParameterValue(final String paramName)
+    '''returns Object\n\n
+    getOrigParameterValue(final String paramName)\n
     '''
 def getChoices():
-    '''public Object[] getChoices(final String paramName)
+    '''returns Object[]\n\n
+    getChoices(final String paramName)\n
     '''
 def getTargetObjectChoices():
-    '''public Object[] getTargetObjectChoices()
+    '''returns Object[]\n\n
+    getTargetObjectChoices()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def setConfigSession():
-    '''public void setConfigSession(final Session session)
+    '''returns None\n\n
+    setConfigSession(final Session session)\n
     '''
 def getConfigSession():
-    '''public Session getConfigSession()
+    '''returns Session\n\n
+    getConfigSession()\n
     '''
 def getCommandResult():
-    '''public CommandResult getCommandResult()
+    '''returns CommandResult\n\n
+    getCommandResult()\n
     '''
 def save():
-    '''public void save(final OutputStream outputStream)
+    '''returns None\n\n
+    save(final OutputStream outputStream)\n
     '''
 def execute():
-    '''public void execute(final CommandHistory cmdHistory)
+    '''returns None\n\n
+    execute(final CommandHistory cmdHistory)\n
     '''
 def setCommandSession():
-    '''public void setCommandSession(final TaskCommandSession session)
+    '''returns None\n\n
+    setCommandSession(final TaskCommandSession session)\n
     '''
 def getCommandSession():
-    '''public TaskCommandSession getCommandSession()
+    '''returns TaskCommandSession\n\n
+    getCommandSession()\n
     '''
 def setCmdHandler():
-    '''public void setCmdHandler(final CmdNotificationHandler handler)
+    '''returns None\n\n
+    setCmdHandler(final CmdNotificationHandler handler)\n
     '''
 def getResult():
-    '''public Collection getResult()
+    '''returns Collection\n\n
+    getResult()\n
     '''
 def sendNotification():
-    '''public void sendNotification(final CommandNotification cmdNotification)
+    '''returns None\n\n
+    sendNotification(final CommandNotification cmdNotification)\n
     '''
 def redo():
-    '''public void redo()
+    '''returns None\n\n
+    redo()\n
     '''
 def cleanupUploadedFiles():
-    '''public void cleanupUploadedFiles()
+    '''returns None\n\n
+    cleanupUploadedFiles()\n
     '''
 def resetCommandData():
-    '''public void resetCommandData(final CommandData cmdData)
+    '''returns None\n\n
+    resetCommandData(final CommandData cmdData)\n
     '''
 def generateScript():
-    '''public String generateScript(final String lang)
+    '''returns String\n\n
+    generateScript(final String lang)\n
     '''
 def setCmdMgrType():
-    '''public void setCmdMgrType(final Integer cmdMgrType)
+    '''returns None\n\n
+    setCmdMgrType(final Integer cmdMgrType)\n
     '''
 def getCmdMgrType():
-    '''public Integer getCmdMgrType()
+    '''returns Integer\n\n
+    getCmdMgrType()\n
     '''
 def createParameterMetadata():
-    '''public ParameterMetadata createParameterMetadata(final String pmName, final Hashtable featureList)
-    '''
-def CmdNotificationListener():
-    '''public CmdNotificationListener()
-    public CmdNotificationListener(final long cmdSession)
+    '''returns ParameterMetadata\n\n
+    createParameterMetadata(final String pmName, final Hashtable featureList)\n
     '''
 def handleNotification():
-    '''public void handleNotification(final Notification notf, final Object handback)
+    '''returns None\n\n
+    handleNotification(final Notification notf, final Object handback)\n
     '''
 def removeListener():
-    '''public void removeListener()
+    '''returns None\n\n
+    removeListener()\n
     '''
 def isSuccess():
-    '''public boolean isSuccess()
+    '''returns boolean\n\n
+    isSuccess()\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''

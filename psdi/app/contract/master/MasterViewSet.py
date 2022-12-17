@@ -1,3 +1,4 @@
-def MasterViewSet():
-    '''public MasterViewSet(final MboServerInterface ms)
+def ():
+    '''returns MasterViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

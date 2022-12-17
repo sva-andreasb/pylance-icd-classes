@@ -1,3 +1,4 @@
-def UserNotificationPoint():
-    '''public UserNotificationPoint(final MboSet ms)
+def ():
+    '''returns UserNotificationPoint\n\n
+    (final MboSet ms)\n
     '''

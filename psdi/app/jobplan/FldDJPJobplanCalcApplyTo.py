@@ -1,6 +1,8 @@
-def FldDJPJobplanCalcApplyTo():
-    '''public FldDJPJobplanCalcApplyTo(final MboValue mv)
+def ():
+    '''returns FldDJPJobplanCalcApplyTo\n\n
+    (final MboValue mv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

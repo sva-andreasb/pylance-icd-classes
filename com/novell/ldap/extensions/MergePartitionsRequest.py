@@ -1,3 +1,4 @@
-def MergePartitionsRequest():
-    '''public MergePartitionsRequest(final String s, final int n)
+def ():
+    '''returns MergePartitionsRequest\n\n
+    (final String s, final int n)\n
     '''

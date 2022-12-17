@@ -1,58 +1,77 @@
 serialVersionUID = "long  1L"
-def OperationImpl():
-    '''public OperationImpl()
+def ():
+    '''returns OperationImpl\n\n
+    ()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setInput():
-    '''public void setInput(final Input input)
+    '''returns None\n\n
+    setInput(final Input input)\n
     '''
 def getInput():
-    '''public Input getInput()
+    '''returns Input\n\n
+    getInput()\n
     '''
 def setOutput():
-    '''public void setOutput(final Output output)
+    '''returns None\n\n
+    setOutput(final Output output)\n
     '''
 def getOutput():
-    '''public Output getOutput()
+    '''returns Output\n\n
+    getOutput()\n
     '''
 def addFault():
-    '''public void addFault(final Fault fault)
+    '''returns None\n\n
+    addFault(final Fault fault)\n
     '''
 def getFault():
-    '''public Fault getFault(final String s)
+    '''returns Fault\n\n
+    getFault(final String s)\n
     '''
 def getFaults():
-    '''public Map getFaults()
+    '''returns Map\n\n
+    getFaults()\n
     '''
 def setStyle():
-    '''public void setStyle(final OperationType style)
+    '''returns None\n\n
+    setStyle(final OperationType style)\n
     '''
 def getStyle():
-    '''public OperationType getStyle()
+    '''returns OperationType\n\n
+    getStyle()\n
     '''
 def setParameterOrdering():
-    '''public void setParameterOrdering(final List parameterOrder)
+    '''returns None\n\n
+    setParameterOrdering(final List parameterOrder)\n
     '''
 def getParameterOrdering():
-    '''public List getParameterOrdering()
+    '''returns List\n\n
+    getParameterOrdering()\n
     '''
 def setDocumentationElement():
-    '''public void setDocumentationElement(final Element docEl)
+    '''returns None\n\n
+    setDocumentationElement(final Element docEl)\n
     '''
 def getDocumentationElement():
-    '''public Element getDocumentationElement()
+    '''returns Element\n\n
+    getDocumentationElement()\n
     '''
 def setUndefined():
-    '''public void setUndefined(final boolean isUndefined)
+    '''returns None\n\n
+    setUndefined(final boolean isUndefined)\n
     '''
 def isUndefined():
-    '''public boolean isUndefined()
+    '''returns boolean\n\n
+    isUndefined()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

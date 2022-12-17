@@ -1,3 +1,4 @@
-def AppFieldDefaults():
-    '''public AppFieldDefaults(final MboSet ms)
+def ():
+    '''returns AppFieldDefaults\n\n
+    (final MboSet ms)\n
     '''

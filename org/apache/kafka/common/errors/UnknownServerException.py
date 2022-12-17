@@ -1,6 +1,7 @@
-def UnknownServerException():
-    '''public UnknownServerException()
-    public UnknownServerException(final String message)
-    public UnknownServerException(final Throwable cause)
-    public UnknownServerException(final String message, final Throwable cause)
+def ():
+    '''returns UnknownServerException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

@@ -1,9 +1,12 @@
-def FldWODupFlag():
-    '''public FldWODupFlag(final MboValue mbv)
+def ():
+    '''returns FldWODupFlag\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

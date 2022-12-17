@@ -1,12 +1,16 @@
-def OslcAction():
-    '''public OslcAction(final MboSet ms)
+def ():
+    '''returns OslcAction\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

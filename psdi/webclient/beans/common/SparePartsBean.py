@@ -1,18 +1,20 @@
-def SparePartsBean():
-    '''public SparePartsBean()
+def ():
+    '''returns SparePartsBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def doRefresh():
-    '''public int doRefresh()
+    '''returns int\n\n
+    doRefresh()\n
     '''
 def rtnipcspares():
-    '''public int rtnipcspares()
-    '''
-def setQbe():
-    '''public synchronized void setQbe(final String attribute, final MboSetRemote expression)
+    '''returns int\n\n
+    rtnipcspares()\n
     '''
 def getRemoteForLookup():
-    '''public MboSetRemote getRemoteForLookup()
+    '''returns MboSetRemote\n\n
+    getRemoteForLookup()\n
     '''

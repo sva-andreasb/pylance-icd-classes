@@ -1,119 +1,147 @@
 def setFinder():
-    '''public void setFinder(final Dependency.Finder finder)
+    '''returns None\n\n
+    setFinder(final Dependency.Finder finder)\n
     '''
 def setFilter():
-    '''public void setFilter(final Dependency.Filter filter)
+    '''returns None\n\n
+    setFilter(final Dependency.Filter filter)\n
     '''
 def findAllDependencies():
-    '''public Set<Dependency> findAllDependencies(final ClassFileReader classFileReader, final Set<String> set, final boolean b)
-    public void findAllDependencies(final ClassFileReader classFileReader, final Set<String> c, final boolean b, final Recorder recorder)
+    '''returns None\n\n
+    findAllDependencies(final ClassFileReader classFileReader, final Set<String> set, final boolean b)\n
+    findAllDependencies(final ClassFileReader classFileReader, final Set<String> c, final boolean b, final Recorder recorder)\n
     '''
 def addDependency():
-    '''public void addDependency(final Dependency dependency)
+    '''returns None\n\n
+    addDependency(final Dependency dependency)\n
     '''
-def ClassFileNotFoundException():
-    '''public ClassFileNotFoundException(final String s)
-    public ClassFileNotFoundException(final String s, final Throwable cause)
-    '''
-def ClassFileError():
-    '''public ClassFileError(final Throwable cause)
-    '''
-def SimpleLocation():
-    '''public SimpleLocation(final String name)
+def ():
+    '''returns SimpleDependency\n\n
+    (final String s)\n
+    (final String s, final Throwable cause)\n
+    (final Throwable cause)\n
+    (final String name)\n
+    (final Location origin, final Location target)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getPackageName():
-    '''public String getPackageName()
+    '''returns String\n\n
+    getPackageName()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def SimpleDependency():
-    '''public SimpleDependency(final Location origin, final Location target)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getOrigin():
-    '''public Location getOrigin()
+    '''returns Location\n\n
+    getOrigin()\n
     '''
 def getTarget():
-    '''public Location getTarget()
+    '''returns Location\n\n
+    getTarget()\n
     '''
 def accepts():
-    '''public boolean accepts(final Dependency dependency)
-    public boolean accepts(final Dependency dependency)
-    public boolean accepts(final Dependency dependency)
+    '''returns boolean\n\n
+    accepts(final Dependency dependency)\n
+    accepts(final Dependency dependency)\n
+    accepts(final Dependency dependency)\n
     '''
 def visitClass():
-    '''public Void visitClass(final ConstantPool.CONSTANT_Class_info constant_Class_info, final Void void1)
+    '''returns Void\n\n
+    visitClass(final ConstantPool.CONSTANT_Class_info constant_Class_info, final Void void1)\n
     '''
 def visitDouble():
-    '''public Void visitDouble(final ConstantPool.CONSTANT_Double_info constant_Double_info, final Void void1)
+    '''returns Void\n\n
+    visitDouble(final ConstantPool.CONSTANT_Double_info constant_Double_info, final Void void1)\n
     '''
 def visitFieldref():
-    '''public Void visitFieldref(final ConstantPool.CONSTANT_Fieldref_info constant_Fieldref_info, final Void void1)
+    '''returns Void\n\n
+    visitFieldref(final ConstantPool.CONSTANT_Fieldref_info constant_Fieldref_info, final Void void1)\n
     '''
 def visitFloat():
-    '''public Void visitFloat(final ConstantPool.CONSTANT_Float_info constant_Float_info, final Void void1)
+    '''returns Void\n\n
+    visitFloat(final ConstantPool.CONSTANT_Float_info constant_Float_info, final Void void1)\n
     '''
 def visitInteger():
-    '''public Void visitInteger(final ConstantPool.CONSTANT_Integer_info constant_Integer_info, final Void void1)
+    '''returns Void\n\n
+    visitInteger(final ConstantPool.CONSTANT_Integer_info constant_Integer_info, final Void void1)\n
     '''
 def visitInterfaceMethodref():
-    '''public Void visitInterfaceMethodref(final ConstantPool.CONSTANT_InterfaceMethodref_info constant_InterfaceMethodref_info, final Void void1)
+    '''returns Void\n\n
+    visitInterfaceMethodref(final ConstantPool.CONSTANT_InterfaceMethodref_info constant_InterfaceMethodref_info, final Void void1)\n
     '''
 def visitInvokeDynamic():
-    '''public Void visitInvokeDynamic(final ConstantPool.CONSTANT_InvokeDynamic_info constant_InvokeDynamic_info, final Void void1)
+    '''returns Void\n\n
+    visitInvokeDynamic(final ConstantPool.CONSTANT_InvokeDynamic_info constant_InvokeDynamic_info, final Void void1)\n
     '''
 def visitLong():
-    '''public Void visitLong(final ConstantPool.CONSTANT_Long_info constant_Long_info, final Void void1)
+    '''returns Void\n\n
+    visitLong(final ConstantPool.CONSTANT_Long_info constant_Long_info, final Void void1)\n
     '''
 def visitMethodHandle():
-    '''public Void visitMethodHandle(final ConstantPool.CONSTANT_MethodHandle_info constant_MethodHandle_info, final Void void1)
+    '''returns Void\n\n
+    visitMethodHandle(final ConstantPool.CONSTANT_MethodHandle_info constant_MethodHandle_info, final Void void1)\n
     '''
 def visitMethodType():
-    '''public Void visitMethodType(final ConstantPool.CONSTANT_MethodType_info constant_MethodType_info, final Void void1)
-    public Void visitMethodType(final Type.MethodType methodType, final Void void1)
+    '''returns Void\n\n
+    visitMethodType(final ConstantPool.CONSTANT_MethodType_info constant_MethodType_info, final Void void1)\n
+    visitMethodType(final Type.MethodType methodType, final Void void1)\n
     '''
 def visitMethodref():
-    '''public Void visitMethodref(final ConstantPool.CONSTANT_Methodref_info constant_Methodref_info, final Void void1)
+    '''returns Void\n\n
+    visitMethodref(final ConstantPool.CONSTANT_Methodref_info constant_Methodref_info, final Void void1)\n
     '''
 def visitNameAndType():
-    '''public Void visitNameAndType(final ConstantPool.CONSTANT_NameAndType_info constant_NameAndType_info, final Void void1)
+    '''returns Void\n\n
+    visitNameAndType(final ConstantPool.CONSTANT_NameAndType_info constant_NameAndType_info, final Void void1)\n
     '''
 def visitString():
-    '''public Void visitString(final ConstantPool.CONSTANT_String_info constant_String_info, final Void void1)
+    '''returns Void\n\n
+    visitString(final ConstantPool.CONSTANT_String_info constant_String_info, final Void void1)\n
     '''
 def visitUtf8():
-    '''public Void visitUtf8(final ConstantPool.CONSTANT_Utf8_info constant_Utf8_info, final Void void1)
+    '''returns Void\n\n
+    visitUtf8(final ConstantPool.CONSTANT_Utf8_info constant_Utf8_info, final Void void1)\n
     '''
 def visitSimpleType():
-    '''public Void visitSimpleType(final Type.SimpleType simpleType, final Void void1)
+    '''returns Void\n\n
+    visitSimpleType(final Type.SimpleType simpleType, final Void void1)\n
     '''
 def visitArrayType():
-    '''public Void visitArrayType(final Type.ArrayType arrayType, final Void void1)
+    '''returns Void\n\n
+    visitArrayType(final Type.ArrayType arrayType, final Void void1)\n
     '''
 def visitClassSigType():
-    '''public Void visitClassSigType(final Type.ClassSigType classSigType, final Void void1)
+    '''returns Void\n\n
+    visitClassSigType(final Type.ClassSigType classSigType, final Void void1)\n
     '''
 def visitClassType():
-    '''public Void visitClassType(final Type.ClassType classType, final Void void1)
+    '''returns Void\n\n
+    visitClassType(final Type.ClassType classType, final Void void1)\n
     '''
 def visitTypeParamType():
-    '''public Void visitTypeParamType(final Type.TypeParamType typeParamType, final Void void1)
+    '''returns Void\n\n
+    visitTypeParamType(final Type.TypeParamType typeParamType, final Void void1)\n
     '''
 def visitWildcardType():
-    '''public Void visitWildcardType(final Type.WildcardType wildcardType, final Void void1)
+    '''returns Void\n\n
+    visitWildcardType(final Type.WildcardType wildcardType, final Void void1)\n
     '''

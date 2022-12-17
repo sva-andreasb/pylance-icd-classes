@@ -1,32 +1,34 @@
-def DetachableInputStream():
-    '''public DetachableInputStream(final InputStream in)
+def ():
+    '''returns DetachableInputStream\n\n
+    (final InputStream in)\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''
 def detach():
-    '''public void detach()
+    '''returns None\n\n
+    detach()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
-    public int read(final byte[] b)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
+    read(final byte[] b)\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''

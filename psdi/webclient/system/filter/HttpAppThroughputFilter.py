@@ -1,15 +1,20 @@
-def HttpAppThroughputFilter():
-    '''public HttpAppThroughputFilter()
+def ():
+    '''returns HttpAppThroughputFilter\n\n
+    ()\n
     '''
 def doFilter():
-    '''public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)
+    '''returns None\n\n
+    doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)\n
     '''
 def init():
-    '''public void init(final FilterConfig filterConfig)
+    '''returns None\n\n
+    init(final FilterConfig filterConfig)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getCurrentApp():
-    '''public String getCurrentApp(final HttpServletRequest request)
+    '''returns String\n\n
+    getCurrentApp(final HttpServletRequest request)\n
     '''

@@ -1,39 +1,52 @@
-def SPWorkAsset():
-    '''public SPWorkAsset(final MboSet ms)
+def ():
+    '''returns SPWorkAsset\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def associateHazardToSafetyPlan():
-    '''public MboSetRemote associateHazardToSafetyPlan(final String hazardid, final String relatedassetnum, final String relatedlocation)
+    '''returns MboSetRemote\n\n
+    associateHazardToSafetyPlan(final String hazardid, final String relatedassetnum, final String relatedlocation)\n
     '''
 def removeHazardFromSafetyPlan():
-    '''public void removeHazardFromSafetyPlan(final String hazardid, final String relatedassetnum, final String relatedlocation)
+    '''returns None\n\n
+    removeHazardFromSafetyPlan(final String hazardid, final String relatedassetnum, final String relatedlocation)\n
     '''
 def associateTagOutToSafetyPlan():
-    '''public MboSetRemote associateTagOutToSafetyPlan(final String hazardid, final String tagoutid, final String relatedassetnum, final String relatedlocation)
+    '''returns MboSetRemote\n\n
+    associateTagOutToSafetyPlan(final String hazardid, final String tagoutid, final String relatedassetnum, final String relatedlocation)\n
     '''
 def removeTagOutFromSafetyPlan():
-    '''public MboSetRemote removeTagOutFromSafetyPlan(final String hazardid, final String tagoutid, final String relatedassetnum, final String relatedlocation)
+    '''returns MboSetRemote\n\n
+    removeTagOutFromSafetyPlan(final String hazardid, final String tagoutid, final String relatedassetnum, final String relatedlocation)\n
     '''
 def removeAllLinks():
-    '''public MboSetRemote removeAllLinks()
+    '''returns MboSetRemote\n\n
+    removeAllLinks()\n
     '''

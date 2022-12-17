@@ -1,12 +1,15 @@
-def RtfFont():
-    '''public RtfFont(final String familyName)
-    public RtfFont(final String familyName, final float size)
-    public RtfFont(final String familyName, final float size, final int style)
-    public RtfFont(final String familyName, final float size, final int style, final Color color)
+def ():
+    '''returns RtfFont\n\n
+    (final String familyName)\n
+    (final String familyName, final float size)\n
+    (final String familyName, final float size, final int style)\n
+    (final String familyName, final float size, final int style, final Color color)\n
     '''
 def getFamilyname():
-    '''public String getFamilyname()
+    '''returns String\n\n
+    getFamilyname()\n
     '''
 def difference():
-    '''public Font difference(final Font font)
+    '''returns Font\n\n
+    difference(final Font font)\n
     '''

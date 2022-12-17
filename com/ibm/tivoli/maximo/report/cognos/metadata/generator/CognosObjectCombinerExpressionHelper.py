@@ -1,3 +1,4 @@
-def CognosObjectCombinerExpressionHelper():
-    '''public CognosObjectCombinerExpressionHelper()
+def ():
+    '''returns CognosObjectCombinerExpressionHelper\n\n
+    ()\n
     '''

@@ -1,3 +1,4 @@
-def FldPathAssetNum():
-    '''public FldPathAssetNum(final MboValue mbv)
+def ():
+    '''returns FldPathAssetNum\n\n
+    (final MboValue mbv)\n
     '''

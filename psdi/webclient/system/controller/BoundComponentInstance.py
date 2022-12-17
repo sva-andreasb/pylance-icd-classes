@@ -35,222 +35,295 @@ SYNCHRONOUS = "String  \"synchronous\""
 PRIORITY_DATATYPE = "int  0"
 PRIORITY_VALIDATION = "int  1"
 PRIORITY_FLUSH = "int  2"
-def BoundComponentInstance():
-    '''public BoundComponentInstance()
+def ():
+    '''returns BoundComponentInstance\n\n
+    ()\n
     '''
 def updateCachedDataValue():
-    '''public void updateCachedDataValue(final String value)
+    '''returns None\n\n
+    updateCachedDataValue(final String value)\n
     '''
 def hasChanged():
-    '''public boolean hasChanged()
+    '''returns boolean\n\n
+    hasChanged()\n
     '''
 def hasDataChanged():
-    '''public boolean hasDataChanged()
+    '''returns boolean\n\n
+    hasDataChanged()\n
     '''
 def hasLongDescChanged():
-    '''public boolean hasLongDescChanged()
+    '''returns boolean\n\n
+    hasLongDescChanged()\n
     '''
 def hasReadonlyChanged():
-    '''public boolean hasReadonlyChanged()
+    '''returns boolean\n\n
+    hasReadonlyChanged()\n
     '''
 def hasRequiredChanged():
-    '''public boolean hasRequiredChanged()
+    '''returns boolean\n\n
+    hasRequiredChanged()\n
     '''
 def setDataValid():
-    '''public void setDataValid(final boolean isDataValid)
+    '''returns None\n\n
+    setDataValid(final boolean isDataValid)\n
     '''
 def isDataValid():
-    '''public boolean isDataValid()
+    '''returns boolean\n\n
+    isDataValid()\n
     '''
 def getInputMode():
-    '''public String getInputMode()
+    '''returns String\n\n
+    getInputMode()\n
     '''
 def getInputModeWithoutPasswordPrefix():
-    '''public String getInputModeWithoutPasswordPrefix()
+    '''returns String\n\n
+    getInputModeWithoutPasswordPrefix()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def getBoolean():
-    '''public boolean getBoolean()
+    '''returns boolean\n\n
+    getBoolean()\n
     '''
 def readOnlyCheck():
-    '''public void readOnlyCheck()
+    '''returns None\n\n
+    readOnlyCheck()\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def getLongDescription():
-    '''public String getLongDescription()
+    '''returns String\n\n
+    getLongDescription()\n
     '''
 def hasLongDescription():
-    '''public boolean hasLongDescription()
+    '''returns boolean\n\n
+    hasLongDescription()\n
     '''
 def applink():
-    '''public int applink()
+    '''returns int\n\n
+    applink()\n
     '''
 def selectvalue():
-    '''public int selectvalue()
+    '''returns int\n\n
+    selectvalue()\n
     '''
 def isOnCurrentRow():
-    '''public boolean isOnCurrentRow()
+    '''returns boolean\n\n
+    isOnCurrentRow()\n
     '''
 def isRowDeleted():
-    '''public boolean isRowDeleted()
+    '''returns boolean\n\n
+    isRowDeleted()\n
     '''
 def getQbeNameWithPrepend():
-    '''public String getQbeNameWithPrepend()
+    '''returns String\n\n
+    getQbeNameWithPrepend()\n
     '''
 def processProfile():
-    '''public int processProfile(final String profileName)
+    '''returns int\n\n
+    processProfile(final String profileName)\n
     '''
 def getDataBean():
-    '''public DataBean getDataBean()
+    '''returns DataBean\n\n
+    getDataBean()\n
     '''
 def exceptionhandled():
-    '''public int exceptionhandled()
+    '''returns int\n\n
+    exceptionhandled()\n
     '''
 def datelookup():
-    '''public int datelookup()
+    '''returns int\n\n
+    datelookup()\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''
 def getApplink():
-    '''public String getApplink()
+    '''returns String\n\n
+    getApplink()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def isQuery():
-    '''public boolean isQuery()
+    '''returns boolean\n\n
+    isQuery()\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def getDataType():
-    '''public int getDataType()
+    '''returns int\n\n
+    getDataType()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def isMasked():
-    '''public boolean isMasked()
+    '''returns boolean\n\n
+    isMasked()\n
     '''
 def createChangedPropList():
-    '''public void createChangedPropList()
+    '''returns None\n\n
+    createChangedPropList()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getDataValueInError():
-    '''public String getDataValueInError()
+    '''returns String\n\n
+    getDataValueInError()\n
     '''
 def setDataValueInError():
-    '''public void setDataValueInError(final String s)
+    '''returns None\n\n
+    setDataValueInError(final String s)\n
     '''
 def getLinkBack():
-    '''public ComponentInstance getLinkBack()
+    '''returns ComponentInstance\n\n
+    getLinkBack()\n
     '''
 def dataRestrictionCheck():
-    '''public boolean dataRestrictionCheck()
+    '''returns boolean\n\n
+    dataRestrictionCheck()\n
     '''
 def increment():
-    '''public int increment()
+    '''returns int\n\n
+    increment()\n
     '''
 def decrement():
-    '''public int decrement()
+    '''returns int\n\n
+    decrement()\n
     '''
 def setcurrentdate():
-    '''public int setcurrentdate()
+    '''returns int\n\n
+    setcurrentdate()\n
     '''
 def setBoundAsRequired():
-    '''public void setBoundAsRequired()
+    '''returns None\n\n
+    setBoundAsRequired()\n
     '''
 def popexception():
-    '''public int popexception()
+    '''returns int\n\n
+    popexception()\n
     '''
 def getExceptionType():
-    '''public int getExceptionType()
+    '''returns int\n\n
+    getExceptionType()\n
     '''
 def removeCurrentError():
-    '''public void removeCurrentError()
+    '''returns None\n\n
+    removeCurrentError()\n
     '''
 def getWarningMessages():
-    '''public String getWarningMessages()
+    '''returns String\n\n
+    getWarningMessages()\n
     '''
 def processAsyncYesNoCancel():
-    '''public int processAsyncYesNoCancel()
+    '''returns int\n\n
+    processAsyncYesNoCancel()\n
     '''
 def processRevert():
-    '''public int processRevert()
+    '''returns int\n\n
+    processRevert()\n
     '''
 def processIgnoreWarning():
-    '''public int processIgnoreWarning()
+    '''returns int\n\n
+    processIgnoreWarning()\n
     '''
 def processEdit():
-    '''public int processEdit()
+    '''returns int\n\n
+    processEdit()\n
     '''
 def isRevert():
-    '''public boolean isRevert()
+    '''returns boolean\n\n
+    isRevert()\n
     '''
 def resetIsRevert():
-    '''public void resetIsRevert()
+    '''returns None\n\n
+    resetIsRevert()\n
     '''
 def hasWarnings():
-    '''public boolean hasWarnings()
+    '''returns boolean\n\n
+    hasWarnings()\n
     '''
 def getCurrentError():
-    '''public SetValueError getCurrentError()
+    '''returns SetValueError\n\n
+    getCurrentError()\n
     '''
 def addAttributeError():
-    '''public void addAttributeError(final ERMAttributeError attributeError)
+    '''returns None\n\n
+    addAttributeError(final ERMAttributeError attributeError)\n
     '''
 def addSetValueError():
-    '''public void addSetValueError(final SetValueError error)
+    '''returns None\n\n
+    addSetValueError(final SetValueError error)\n
     '''
 def getWarningList():
-    '''public List<MXException> getWarningList()
+    '''returns List<MXException>\n\n
+    getWarningList()\n
     '''
 def getHighestErrorLevel():
-    '''public int getHighestErrorLevel()
+    '''returns int\n\n
+    getHighestErrorLevel()\n
     '''
 def clearErrors():
-    '''public void clearErrors()
+    '''returns None\n\n
+    clearErrors()\n
     '''
 def getExcDialogIcon():
-    '''public String getExcDialogIcon(final int exceptionType)
+    '''returns String\n\n
+    getExcDialogIcon(final int exceptionType)\n
     '''
 def isPasswordField():
-    '''public boolean isPasswordField()
+    '''returns boolean\n\n
+    isPasswordField()\n
     '''
 def retryErrorValues():
-    '''public boolean retryErrorValues()
+    '''returns boolean\n\n
+    retryErrorValues()\n
     '''
 def getErrorForRow():
-    '''public SetValueError getErrorForRow(final int row)
+    '''returns SetValueError\n\n
+    getErrorForRow(final int row)\n
     '''
 def isSmartFillEnabled():
-    '''public boolean isSmartFillEnabled(final MboValueData mvd)
+    '''returns boolean\n\n
+    isSmartFillEnabled(final MboValueData mvd)\n
     '''
 def getFieldInfo():
-    '''public JSONObject getFieldInfo()
+    '''returns JSONObject\n\n
+    getFieldInfo()\n
     '''
 def useMaxLength():
-    '''public boolean useMaxLength()
+    '''returns boolean\n\n
+    useMaxLength()\n
     '''
 def getRenderIdForAutoFill():
-    '''public String getRenderIdForAutoFill()
+    '''returns String\n\n
+    getRenderIdForAutoFill()\n
     '''
 def clearClassification():
-    '''public int clearClassification()
+    '''returns int\n\n
+    clearClassification()\n
     '''
 def getReadonlyStateMap():
-    '''public HashMap getReadonlyStateMap()
+    '''returns HashMap\n\n
+    getReadonlyStateMap()\n
     '''

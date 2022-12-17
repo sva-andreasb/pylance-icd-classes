@@ -1,27 +1,24 @@
-def ResourceData():
-    '''public ResourceData()
-    '''
-def getObjectNames():
-    '''public HashMap<String, TreeSet<String>> getObjectNames()
+def ():
+    '''returns ResourceData\n\n
+    ()\n
     '''
 def getAllObjectNames():
-    '''public Set<String> getAllObjectNames()
+    '''returns Set<String>\n\n
+    getAllObjectNames()\n
     '''
 def setObjectNames():
-    '''public void setObjectNames(final HashMap<String, TreeSet<String>> objectNames)
-    '''
-def getResourceMap():
-    '''public HashMap<String, MXResource> getResourceMap()
+    '''returns None\n\n
+    setObjectNames(final HashMap<String, TreeSet<String>> objectNames)\n
     '''
 def setResourceMap():
-    '''public void setResourceMap(final HashMap<String, MXResource> resourceMap)
+    '''returns None\n\n
+    setResourceMap(final HashMap<String, MXResource> resourceMap)\n
     '''
 def isInitializationNeeded():
-    '''public boolean isInitializationNeeded()
+    '''returns boolean\n\n
+    isInitializationNeeded()\n
     '''
 def setInitializationNeeded():
-    '''public void setInitializationNeeded(final boolean initializationNeeded)
-    '''
-def getResources():
-    '''public HashMap<Long, MXResource> getResources(final String resObjectName)
+    '''returns None\n\n
+    setInitializationNeeded(final boolean initializationNeeded)\n
     '''

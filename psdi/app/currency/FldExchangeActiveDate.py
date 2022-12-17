@@ -1,6 +1,8 @@
-def FldExchangeActiveDate():
-    '''public FldExchangeActiveDate(final MboValue mbv)
+def ():
+    '''returns FldExchangeActiveDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

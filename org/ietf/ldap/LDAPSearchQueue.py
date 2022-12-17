@@ -1,17 +1,22 @@
 def getMessageIDs():
-    '''public int[] getMessageIDs()
+    '''returns int[]\n\n
+    getMessageIDs()\n
     '''
 def isResponseReceived():
-    '''public boolean isResponseReceived()
-    public boolean isResponseReceived(final int n)
+    '''returns boolean\n\n
+    isResponseReceived()\n
+    isResponseReceived(final int n)\n
     '''
 def merge():
-    '''public void merge(final LDAPMessageQueue ldapMessageQueue)
+    '''returns None\n\n
+    merge(final LDAPMessageQueue ldapMessageQueue)\n
     '''
 def isComplete():
-    '''public boolean isComplete(final int n)
+    '''returns boolean\n\n
+    isComplete(final int n)\n
     '''
 def getResponse():
-    '''public LDAPMessage getResponse()
-    public LDAPMessage getResponse(final int n)
+    '''returns LDAPMessage\n\n
+    getResponse()\n
+    getResponse(final int n)\n
     '''

@@ -1,22 +1,24 @@
-def create():
-    '''public static FormBodyPartBuilder create(final String name, final ContentBody body)
-    public static FormBodyPartBuilder create()
-    '''
 def setName():
-    '''public FormBodyPartBuilder setName(final String name)
+    '''returns FormBodyPartBuilder\n\n
+    setName(final String name)\n
     '''
 def setBody():
-    '''public FormBodyPartBuilder setBody(final ContentBody body)
+    '''returns FormBodyPartBuilder\n\n
+    setBody(final ContentBody body)\n
     '''
 def addField():
-    '''public FormBodyPartBuilder addField(final String name, final String value)
+    '''returns FormBodyPartBuilder\n\n
+    addField(final String name, final String value)\n
     '''
 def setField():
-    '''public FormBodyPartBuilder setField(final String name, final String value)
+    '''returns FormBodyPartBuilder\n\n
+    setField(final String name, final String value)\n
     '''
 def removeFields():
-    '''public FormBodyPartBuilder removeFields(final String name)
+    '''returns FormBodyPartBuilder\n\n
+    removeFields(final String name)\n
     '''
 def build():
-    '''public FormBodyPart build()
+    '''returns FormBodyPart\n\n
+    build()\n
     '''

@@ -1,18 +1,18 @@
 COMMAND_NODE = "String  \"http://jabber.org/protocol/admin\""
-def getInstanceFor():
-    '''public static synchronized ServiceAdministrationManager getInstanceFor(final XMPPConnection connection)
-    '''
-def ServiceAdministrationManager():
-    '''public ServiceAdministrationManager(final XMPPConnection connection)
+def ():
+    '''returns ServiceAdministrationManager\n\n
+    (final XMPPConnection connection)\n
     '''
 def addUser():
-    '''public RemoteCommand addUser()
-    public RemoteCommand addUser(final Jid service)
-    public void addUser(final EntityBareJid userJid, final String password)
+    '''returns None\n\n
+    addUser()\n
+    addUser(final Jid service)\n
+    addUser(final EntityBareJid userJid, final String password)\n
     '''
 def deleteUser():
-    '''public RemoteCommand deleteUser()
-    public RemoteCommand deleteUser(final Jid service)
-    public void deleteUser(final EntityBareJid userJidToDelete)
-    public void deleteUser(final Set<EntityBareJid> jidsToDelete)
+    '''returns None\n\n
+    deleteUser()\n
+    deleteUser(final Jid service)\n
+    deleteUser(final EntityBareJid userJidToDelete)\n
+    deleteUser(final Set<EntityBareJid> jidsToDelete)\n
     '''

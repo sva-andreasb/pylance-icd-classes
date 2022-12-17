@@ -1,6 +1,7 @@
-def TDBException():
-    '''public TDBException()
-    public TDBException(final String msg)
-    public TDBException(final Throwable th)
-    public TDBException(final String msg, final Throwable th)
+def ():
+    '''returns TDBException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th)\n
+    (final String msg, final Throwable th)\n
     '''

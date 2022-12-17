@@ -1,61 +1,81 @@
 PRIORITY_NOT_SET = "int  -1"
-def NamingRule():
-    '''public NamingRule()
+def ():
+    '''returns NamingRule\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getGuid():
-    '''public byte[] getGuid()
+    '''returns byte[]\n\n
+    getGuid()\n
     '''
 def setGuid():
-    '''public void setGuid(final byte[] guid)
+    '''returns None\n\n
+    setGuid(final byte[] guid)\n
     '''
 def getClassType():
-    '''public String getClassType()
+    '''returns String\n\n
+    getClassType()\n
     '''
 def setClassType():
-    '''public void setClassType(final String classType)
+    '''returns None\n\n
+    setClassType(final String classType)\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def setPriority():
-    '''public void setPriority(final int priority)
+    '''returns None\n\n
+    setPriority(final int priority)\n
     '''
 def getIdentifiers():
-    '''public List<NamingRuleIdentifier> getIdentifiers()
+    '''returns List<NamingRuleIdentifier>\n\n
+    getIdentifiers()\n
     '''
 def getIdentifiersNames():
-    '''public List<String> getIdentifiersNames()
+    '''returns List<String>\n\n
+    getIdentifiersNames()\n
     '''
 def requiresSuperior():
-    '''public boolean requiresSuperior()
+    '''returns boolean\n\n
+    requiresSuperior()\n
     '''
 def getSuperiorClassTypes():
-    '''public List<NamingRuleIdentifier> getSuperiorClassTypes()
+    '''returns List<NamingRuleIdentifier>\n\n
+    getSuperiorClassTypes()\n
     '''
 def addIdentifier():
-    '''public void addIdentifier(final NamingRuleIdentifier identifier)
+    '''returns None\n\n
+    addIdentifier(final NamingRuleIdentifier identifier)\n
     '''
 def addOmittedIdentifier():
-    '''public void addOmittedIdentifier(final NamingRuleIdentifier identifier)
+    '''returns None\n\n
+    addOmittedIdentifier(final NamingRuleIdentifier identifier)\n
     '''
 def hasMultipleNamingContexts():
-    '''public boolean hasMultipleNamingContexts()
+    '''returns boolean\n\n
+    hasMultipleNamingContexts()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getOmittedIdentifiers():
-    '''public List<String> getOmittedIdentifiers()
+    '''returns List<String>\n\n
+    getOmittedIdentifiers()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

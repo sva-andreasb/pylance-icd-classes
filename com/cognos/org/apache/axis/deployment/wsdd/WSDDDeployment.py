@@ -1,109 +1,145 @@
 def deployHandler():
-    '''public void deployHandler(final WSDDHandler handler)
+    '''returns None\n\n
+    deployHandler(final WSDDHandler handler)\n
     '''
 def deployTransport():
-    '''public void deployTransport(final WSDDTransport transport)
+    '''returns None\n\n
+    deployTransport(final WSDDTransport transport)\n
     '''
 def deployService():
-    '''public void deployService(final WSDDService service)
+    '''returns None\n\n
+    deployService(final WSDDService service)\n
     '''
 def undeployHandler():
-    '''public void undeployHandler(final QName qname)
+    '''returns None\n\n
+    undeployHandler(final QName qname)\n
     '''
 def undeployService():
-    '''public void undeployService(final QName qname)
+    '''returns None\n\n
+    undeployService(final QName qname)\n
     '''
 def undeployTransport():
-    '''public void undeployTransport(final QName qname)
+    '''returns None\n\n
+    undeployTransport(final QName qname)\n
     '''
 def deployTypeMapping():
-    '''public void deployTypeMapping(final WSDDTypeMapping typeMapping)
+    '''returns None\n\n
+    deployTypeMapping(final WSDDTypeMapping typeMapping)\n
     '''
-def WSDDDeployment():
-    '''public WSDDDeployment()
-    public WSDDDeployment(final Element e)
+def ():
+    '''returns WSDDDeployment\n\n
+    ()\n
+    (final Element e)\n
     '''
 def deployToRegistry():
-    '''public void deployToRegistry(final WSDDDeployment target)
+    '''returns None\n\n
+    deployToRegistry(final WSDDDeployment target)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def getGlobalConfiguration():
-    '''public WSDDGlobalConfiguration getGlobalConfiguration()
+    '''returns WSDDGlobalConfiguration\n\n
+    getGlobalConfiguration()\n
     '''
 def setGlobalConfiguration():
-    '''public void setGlobalConfiguration(final WSDDGlobalConfiguration globalConfig)
+    '''returns None\n\n
+    setGlobalConfiguration(final WSDDGlobalConfiguration globalConfig)\n
     '''
 def getTypeMappings():
-    '''public WSDDTypeMapping[] getTypeMappings()
+    '''returns WSDDTypeMapping[]\n\n
+    getTypeMappings()\n
     '''
 def getServices():
-    '''public WSDDService[] getServices()
+    '''returns WSDDService[]\n\n
+    getServices()\n
     '''
 def getWSDDService():
-    '''public WSDDService getWSDDService(final QName qname)
+    '''returns WSDDService\n\n
+    getWSDDService(final QName qname)\n
     '''
 def getHandler():
-    '''public Handler getHandler(final QName name)
+    '''returns Handler\n\n
+    getHandler(final QName name)\n
     '''
 def getTransport():
-    '''public Handler getTransport(final QName name)
+    '''returns Handler\n\n
+    getTransport(final QName name)\n
     '''
 def getService():
-    '''public SOAPService getService(final QName name)
+    '''returns SOAPService\n\n
+    getService(final QName name)\n
     '''
 def getServiceByNamespaceURI():
-    '''public SOAPService getServiceByNamespaceURI(final String namespace)
+    '''returns SOAPService\n\n
+    getServiceByNamespaceURI(final String namespace)\n
     '''
 def configureEngine():
-    '''public void configureEngine(final AxisEngine engine)
+    '''returns None\n\n
+    configureEngine(final AxisEngine engine)\n
     '''
 def writeEngineConfig():
-    '''public void writeEngineConfig(final AxisEngine engine)
+    '''returns None\n\n
+    writeEngineConfig(final AxisEngine engine)\n
     '''
 def getTypeMapping():
-    '''public TypeMapping getTypeMapping(final String encodingStyle)
+    '''returns TypeMapping\n\n
+    getTypeMapping(final String encodingStyle)\n
     '''
 def getTypeMappingRegistry():
-    '''public TypeMappingRegistry getTypeMappingRegistry()
+    '''returns TypeMappingRegistry\n\n
+    getTypeMappingRegistry()\n
     '''
 def getGlobalRequest():
-    '''public Handler getGlobalRequest()
+    '''returns Handler\n\n
+    getGlobalRequest()\n
     '''
 def getGlobalResponse():
-    '''public Handler getGlobalResponse()
+    '''returns Handler\n\n
+    getGlobalResponse()\n
     '''
 def getGlobalOptions():
-    '''public Hashtable getGlobalOptions()
+    '''returns Hashtable\n\n
+    getGlobalOptions()\n
     '''
 def getRoles():
-    '''public List getRoles()
+    '''returns List\n\n
+    getRoles()\n
     '''
 def getDeployedServices():
-    '''public Iterator getDeployedServices()
+    '''returns Iterator\n\n
+    getDeployedServices()\n
     '''
 def registerNamespaceForService():
-    '''public void registerNamespaceForService(final String namespace, final WSDDService service)
+    '''returns None\n\n
+    registerNamespaceForService(final String namespace, final WSDDService service)\n
     '''
 def removeNamespaceMapping():
-    '''public void removeNamespaceMapping(final String namespace)
+    '''returns None\n\n
+    removeNamespaceMapping(final String namespace)\n
     '''
 def getEngine():
-    '''public AxisEngine getEngine()
+    '''returns AxisEngine\n\n
+    getEngine()\n
     '''
 def getDeployment():
-    '''public WSDDDeployment getDeployment()
+    '''returns WSDDDeployment\n\n
+    getDeployment()\n
     '''
 def getHandlers():
-    '''public WSDDHandler[] getHandlers()
+    '''returns WSDDHandler[]\n\n
+    getHandlers()\n
     '''
 def getWSDDHandler():
-    '''public WSDDHandler getWSDDHandler(final QName qname)
+    '''returns WSDDHandler\n\n
+    getWSDDHandler(final QName qname)\n
     '''
 def getTransports():
-    '''public WSDDTransport[] getTransports()
+    '''returns WSDDTransport[]\n\n
+    getTransports()\n
     '''
 def getWSDDTransport():
-    '''public WSDDTransport getWSDDTransport(final QName qname)
+    '''returns WSDDTransport\n\n
+    getWSDDTransport(final QName qname)\n
     '''

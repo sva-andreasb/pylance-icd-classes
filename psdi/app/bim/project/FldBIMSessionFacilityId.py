@@ -1,9 +1,12 @@
-def FldBIMSessionFacilityId():
-    '''public FldBIMSessionFacilityId(final MboValue mbv)
+def ():
+    '''returns FldBIMSessionFacilityId\n\n
+    (final MboValue mbv)\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

@@ -1,6 +1,8 @@
-def MaxWSOperation():
-    '''public MaxWSOperation(final MboSet ms)
+def ():
+    '''returns MaxWSOperation\n\n
+    (final MboSet ms)\n
     '''
 def createXML():
-    '''public void createXML()
+    '''returns None\n\n
+    createXML()\n
     '''

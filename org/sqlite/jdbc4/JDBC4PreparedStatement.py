@@ -1,41 +1,52 @@
-def JDBC4PreparedStatement():
-    '''public JDBC4PreparedStatement(final SQLiteConnection conn, final String sql)
+def ():
+    '''returns JDBC4PreparedStatement\n\n
+    (final SQLiteConnection conn, final String sql)\n
     '''
 def setRowId():
-    '''public void setRowId(final int parameterIndex, final RowId x)
+    '''returns None\n\n
+    setRowId(final int parameterIndex, final RowId x)\n
     '''
 def setNString():
-    '''public void setNString(final int parameterIndex, final String value)
+    '''returns None\n\n
+    setNString(final int parameterIndex, final String value)\n
     '''
 def setNCharacterStream():
-    '''public void setNCharacterStream(final int parameterIndex, final Reader value, final long length)
-    public void setNCharacterStream(final int parameterIndex, final Reader value)
+    '''returns None\n\n
+    setNCharacterStream(final int parameterIndex, final Reader value, final long length)\n
+    setNCharacterStream(final int parameterIndex, final Reader value)\n
     '''
 def setNClob():
-    '''public void setNClob(final int parameterIndex, final NClob value)
-    public void setNClob(final int parameterIndex, final Reader reader, final long length)
-    public void setNClob(final int parameterIndex, final Reader reader)
+    '''returns None\n\n
+    setNClob(final int parameterIndex, final NClob value)\n
+    setNClob(final int parameterIndex, final Reader reader, final long length)\n
+    setNClob(final int parameterIndex, final Reader reader)\n
     '''
 def setClob():
-    '''public void setClob(final int parameterIndex, final Reader reader, final long length)
-    public void setClob(final int parameterIndex, final Reader reader)
+    '''returns None\n\n
+    setClob(final int parameterIndex, final Reader reader, final long length)\n
+    setClob(final int parameterIndex, final Reader reader)\n
     '''
 def setBlob():
-    '''public void setBlob(final int parameterIndex, final InputStream inputStream, final long length)
-    public void setBlob(final int parameterIndex, final InputStream inputStream)
+    '''returns None\n\n
+    setBlob(final int parameterIndex, final InputStream inputStream, final long length)\n
+    setBlob(final int parameterIndex, final InputStream inputStream)\n
     '''
 def setSQLXML():
-    '''public void setSQLXML(final int parameterIndex, final SQLXML xmlObject)
+    '''returns None\n\n
+    setSQLXML(final int parameterIndex, final SQLXML xmlObject)\n
     '''
 def setAsciiStream():
-    '''public void setAsciiStream(final int parameterIndex, final InputStream x, final long length)
-    public void setAsciiStream(final int parameterIndex, final InputStream x)
+    '''returns None\n\n
+    setAsciiStream(final int parameterIndex, final InputStream x, final long length)\n
+    setAsciiStream(final int parameterIndex, final InputStream x)\n
     '''
 def setBinaryStream():
-    '''public void setBinaryStream(final int parameterIndex, final InputStream x, final long length)
-    public void setBinaryStream(final int parameterIndex, final InputStream x)
+    '''returns None\n\n
+    setBinaryStream(final int parameterIndex, final InputStream x, final long length)\n
+    setBinaryStream(final int parameterIndex, final InputStream x)\n
     '''
 def setCharacterStream():
-    '''public void setCharacterStream(final int parameterIndex, final Reader reader, final long length)
-    public void setCharacterStream(final int parameterIndex, final Reader reader)
+    '''returns None\n\n
+    setCharacterStream(final int parameterIndex, final Reader reader, final long length)\n
+    setCharacterStream(final int parameterIndex, final Reader reader)\n
     '''

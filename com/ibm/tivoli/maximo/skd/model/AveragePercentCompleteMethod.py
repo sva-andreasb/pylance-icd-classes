@@ -1,6 +1,8 @@
-def AveragePercentCompleteMethod():
-    '''public AveragePercentCompleteMethod(final String col)
+def ():
+    '''returns AveragePercentCompleteMethod\n\n
+    (final String col)\n
     '''
 def updatePercentCompleteSummary():
-    '''public boolean updatePercentCompleteSummary(final IMXActivity mxa, final List<IMXActivity> children)
+    '''returns boolean\n\n
+    updatePercentCompleteSummary(final IMXActivity mxa, final List<IMXActivity> children)\n
     '''

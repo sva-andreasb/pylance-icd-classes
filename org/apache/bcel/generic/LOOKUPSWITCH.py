@@ -1,9 +1,12 @@
-def LOOKUPSWITCH():
-    '''public LOOKUPSWITCH(final int[] match, final InstructionHandle[] targets, final InstructionHandle defaultTarget)
+def ():
+    '''returns LOOKUPSWITCH\n\n
+    (final int[] match, final InstructionHandle[] targets, final InstructionHandle defaultTarget)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

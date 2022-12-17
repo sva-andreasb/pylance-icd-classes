@@ -1,22 +1,29 @@
-def IlvComponentVisibilityActionHandler():
-    '''public IlvComponentVisibilityActionHandler(final String s, final Component a)
-    public IlvComponentVisibilityActionHandler(final String s, final IlvViewContainer b)
+def ():
+    '''returns IlvComponentVisibilityActionHandler\n\n
+    (final String s, final Component a)\n
+    (final String s, final IlvViewContainer b)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''
 def componentMoved():
-    '''public void componentMoved(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentMoved(final ComponentEvent componentEvent)\n
     '''
 def componentShown():
-    '''public void componentShown(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentShown(final ComponentEvent componentEvent)\n
     '''
 def componentHidden():
-    '''public void componentHidden(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentHidden(final ComponentEvent componentEvent)\n
     '''

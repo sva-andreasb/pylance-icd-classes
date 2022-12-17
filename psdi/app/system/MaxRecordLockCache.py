@@ -1,25 +1,29 @@
 SCRIPT_LOGGER = "String  \"maximo.script\""
-def getInstance():
-    '''public static final MaxRecordLockCache getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isRecordLocked():
-    '''public boolean isRecordLocked(final long ownerID, final String ownerTable)
+    '''returns boolean\n\n
+    isRecordLocked(final long ownerID, final String ownerTable)\n
     '''
 def getRecordLockedByUserId():
-    '''public String getRecordLockedByUserId(final long ownerID, final String ownerTable)
+    '''returns String\n\n
+    getRecordLockedByUserId(final long ownerID, final String ownerTable)\n
     '''
 def getRecordLockedByDisplayName():
-    '''public String getRecordLockedByDisplayName(final long ownerID, final String ownerTable)
+    '''returns String\n\n
+    getRecordLockedByDisplayName(final long ownerID, final String ownerTable)\n
     '''
 def isRecordLockedByMe():
-    '''public boolean isRecordLockedByMe(final long lockedSessionID, final long ownerID, final String ownerTable)
+    '''returns boolean\n\n
+    isRecordLockedByMe(final long lockedSessionID, final long ownerID, final String ownerTable)\n
     '''
 def getLockedRecordsSet():
-    '''public MboSetRemote getLockedRecordsSet()
+    '''returns MboSetRemote\n\n
+    getLockedRecordsSet()\n
     '''
 def isLockingAllowed():
-    '''public boolean isLockingAllowed()
+    '''returns boolean\n\n
+    isLockingAllowed()\n
     '''

@@ -1,3 +1,4 @@
-def InternalException():
-    '''public InternalException(final Exception e)
+def ():
+    '''returns InternalException\n\n
+    (final Exception e)\n
     '''

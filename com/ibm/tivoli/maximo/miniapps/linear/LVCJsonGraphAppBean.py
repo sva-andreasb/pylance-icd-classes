@@ -1,15 +1,20 @@
 def getDataListener():
-    '''public DataBeanListener getDataListener()
+    '''returns DataBeanListener\n\n
+    getDataListener()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def loadResource():
-    '''public String loadResource(final String path)
+    '''returns String\n\n
+    loadResource(final String path)\n
     '''
 def filterCss():
-    '''public String filterCss(final String css, final MiniAppControl miniAppControl)
+    '''returns String\n\n
+    filterCss(final String css, final MiniAppControl miniAppControl)\n
     '''
 def getSymbologyConfig():
-    '''public JSONObject getSymbologyConfig(final WebClientSession sess)
+    '''returns JSONObject\n\n
+    getSymbologyConfig(final WebClientSession sess)\n
     '''

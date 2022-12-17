@@ -1,3 +1,4 @@
-def PmSrvReqSet():
-    '''public PmSrvReqSet(final MboServerInterface ms)
+def ():
+    '''returns PmSrvReqSet\n\n
+    (final MboServerInterface ms)\n
     '''

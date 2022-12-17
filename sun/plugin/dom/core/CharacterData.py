@@ -1,39 +1,52 @@
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def setData():
-    '''public void setData(final String s)
+    '''returns None\n\n
+    setData(final String s)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def substringData():
-    '''public String substringData(final int value, final int value2)
+    '''returns String\n\n
+    substringData(final int value, final int value2)\n
     '''
 def appendData():
-    '''public void appendData(final String s)
+    '''returns None\n\n
+    appendData(final String s)\n
     '''
 def insertData():
-    '''public void insertData(final int value, final String s)
+    '''returns None\n\n
+    insertData(final int value, final String s)\n
     '''
 def deleteData():
-    '''public void deleteData(final int value, final int value2)
+    '''returns None\n\n
+    deleteData(final int value, final int value2)\n
     '''
 def replaceData():
-    '''public void replaceData(final int value, final int value2, final String s)
+    '''returns None\n\n
+    replaceData(final int value, final int value2, final String s)\n
     '''
 def getOwnerDocument():
-    '''public Document getOwnerDocument()
+    '''returns Document\n\n
+    getOwnerDocument()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getNodeValue():
-    '''public String getNodeValue()
+    '''returns String\n\n
+    getNodeValue()\n
     '''
 def setNodeValue():
-    '''public void setNodeValue(final String data)
+    '''returns None\n\n
+    setNodeValue(final String data)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''

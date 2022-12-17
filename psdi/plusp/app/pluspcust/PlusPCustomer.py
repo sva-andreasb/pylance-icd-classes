@@ -1,49 +1,65 @@
 CUSTOMER_STATUS_LIST = "String  \"PLUSPCUSTSTATUS\""
-def PlusPCustomer():
-    '''public PlusPCustomer(final MboSet ms)
+def ():
+    '''returns PlusPCustomer\n\n
+    (final MboSet ms)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def custHasAnyAssociatedCustInStatusACTIVE():
-    '''public boolean custHasAnyAssociatedCustInStatusACTIVE()
+    '''returns boolean\n\n
+    custHasAnyAssociatedCustInStatusACTIVE()\n
     '''
 def customerIsAssociatedWithACustomerAgreementStatusAPPR():
-    '''public boolean customerIsAssociatedWithACustomerAgreementStatusAPPR()
+    '''returns boolean\n\n
+    customerIsAssociatedWithACustomerAgreementStatusAPPR()\n
     '''
 def customerHasAParentThatIsInStatusINACTIVE():
-    '''public boolean customerHasAParentThatIsInStatusINACTIVE()
+    '''returns boolean\n\n
+    customerHasAParentThatIsInStatusINACTIVE()\n
     '''
 def customerParent():
-    '''public MboRemote customerParent()
+    '''returns MboRemote\n\n
+    customerParent()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def toExternalCustomerStatus():
-    '''public String toExternalCustomerStatus(final String value)
+    '''returns String\n\n
+    toExternalCustomerStatus(final String value)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def copyRPToCustRP():
-    '''public void copyRPToCustRP(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyRPToCustRP(final MboSetRemote mboSetRemote)\n
     '''
 def copySLA():
-    '''public void copySLA(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copySLA(final MboSetRemote mboSetRemote)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def customerIsAssociatedWithALocation():
-    '''public boolean customerIsAssociatedWithALocation(final MboSetRemote mboSetRemote)
+    '''returns boolean\n\n
+    customerIsAssociatedWithALocation(final MboSetRemote mboSetRemote)\n
     '''
 def getValidStatusList():
-    '''public MboSetRemote getValidStatusList()
+    '''returns MboSetRemote\n\n
+    getValidStatusList()\n
     '''

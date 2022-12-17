@@ -1,3 +1,4 @@
-def SynonymQueryNode():
-    '''public SynonymQueryNode(final List<QueryNode> clauses)
+def ():
+    '''returns SynonymQueryNode\n\n
+    (final List<QueryNode> clauses)\n
     '''

@@ -1,18 +1,23 @@
 STARTED = "int  0"
 UPDATED = "int  1"
 FINISHED = "int  2"
-def ActivityGraphicInteractorEvent():
-    '''public ActivityGraphicInteractorEvent(final IlvGanttSheet source, final IlvActivityGraphic b, final int n, final EventObject c)
+def ():
+    '''returns ActivityGraphicInteractorEvent\n\n
+    (final IlvGanttSheet source, final IlvActivityGraphic b, final int n, final EventObject c)\n
     '''
 def getGanttSheet():
-    '''public IlvGanttSheet getGanttSheet()
+    '''returns IlvGanttSheet\n\n
+    getGanttSheet()\n
     '''
 def getActivityGraphic():
-    '''public IlvActivityGraphic getActivityGraphic()
+    '''returns IlvActivityGraphic\n\n
+    getActivityGraphic()\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''
 def getTriggeringEvent():
-    '''public EventObject getTriggeringEvent()
+    '''returns EventObject\n\n
+    getTriggeringEvent()\n
     '''

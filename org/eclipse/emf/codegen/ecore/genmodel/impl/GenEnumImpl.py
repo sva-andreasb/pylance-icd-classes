@@ -1,79 +1,105 @@
 def getEcoreEnum():
-    '''public EEnum getEcoreEnum()
+    '''returns EEnum\n\n
+    getEcoreEnum()\n
     '''
 def basicGetEcoreEnum():
-    '''public EEnum basicGetEcoreEnum()
+    '''returns EEnum\n\n
+    basicGetEcoreEnum()\n
     '''
 def setEcoreEnum():
-    '''public void setEcoreEnum(final EEnum newEcoreEnum)
+    '''returns None\n\n
+    setEcoreEnum(final EEnum newEcoreEnum)\n
     '''
 def getGenEnumLiterals():
-    '''public EList getGenEnumLiterals()
+    '''returns EList\n\n
+    getGenEnumLiterals()\n
     '''
 def eInverseAdd():
-    '''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def getEcoreClassifier():
-    '''public EClassifier getEcoreClassifier()
+    '''returns EClassifier\n\n
+    getEcoreClassifier()\n
     '''
 def getEcoreDataType():
-    '''public EDataType getEcoreDataType()
+    '''returns EDataType\n\n
+    getEcoreDataType()\n
     '''
 def getImportedMetaType():
-    '''public String getImportedMetaType()
+    '''returns String\n\n
+    getImportedMetaType()\n
     '''
 def getQualifiedName():
-    '''public String getQualifiedName()
+    '''returns String\n\n
+    getQualifiedName()\n
     '''
 def getImportedName():
-    '''public String getImportedName()
+    '''returns String\n\n
+    getImportedName()\n
     '''
 def getEnumLiteralID():
-    '''public String getEnumLiteralID(final GenEnumLiteral genEnumLiteral)
+    '''returns String\n\n
+    getEnumLiteralID(final GenEnumLiteral genEnumLiteral)\n
     '''
 def getEnumLiteralValue():
-    '''public int getEnumLiteralValue(final GenEnumLiteral genEnumLiteral)
+    '''returns int\n\n
+    getEnumLiteralValue(final GenEnumLiteral genEnumLiteral)\n
     '''
 def getGenEnumLiteral():
-    '''public GenEnumLiteral getGenEnumLiteral(final String literalName)
+    '''returns GenEnumLiteral\n\n
+    getGenEnumLiteral(final String literalName)\n
     '''
 def getUniqueValuedGenEnumLiterals():
-    '''public List getUniqueValuedGenEnumLiterals()
+    '''returns List\n\n
+    getUniqueValuedGenEnumLiterals()\n
     '''
 def isSerializable():
-    '''public boolean isSerializable()
+    '''returns boolean\n\n
+    isSerializable()\n
     '''
 def initialize():
-    '''public void initialize(final EEnum eEnum)
+    '''returns None\n\n
+    initialize(final EEnum eEnum)\n
     '''
 def generate():
-    '''public void generate(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generate(final IProgressMonitor progressMonitor)\n
     '''
 def canGenerateEdit():
-    '''public boolean canGenerateEdit()
+    '''returns boolean\n\n
+    canGenerateEdit()\n
     '''
 def canGenerateEditor():
-    '''public boolean canGenerateEditor()
+    '''returns boolean\n\n
+    canGenerateEditor()\n
     '''
 def reconcile():
-    '''public boolean reconcile(final GenEnum oldGenEnumVersion)
-    public boolean reconcile()
+    '''returns boolean\n\n
+    reconcile(final GenEnum oldGenEnumVersion)\n
+    reconcile()\n
     '''
 def getStaticValue():
-    '''public String getStaticValue(final String literal)
+    '''returns String\n\n
+    getStaticValue(final String literal)\n
     '''

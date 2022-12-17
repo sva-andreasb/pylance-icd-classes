@@ -1,21 +1,28 @@
-def PreciseDateTimeField():
-    '''public PreciseDateTimeField(final DateTimeFieldType dateTimeFieldType, final DurationField durationField, final DurationField iRangeField)
+def ():
+    '''returns PreciseDateTimeField\n\n
+    (final DateTimeFieldType dateTimeFieldType, final DurationField durationField, final DurationField iRangeField)\n
     '''
 def get():
-    '''public int get(final long n)
+    '''returns int\n\n
+    get(final long n)\n
     '''
 def addWrapField():
-    '''public long addWrapField(final long n, final int n2)
+    '''returns long\n\n
+    addWrapField(final long n, final int n2)\n
     '''
 def set():
-    '''public long set(final long n, final int n2)
+    '''returns long\n\n
+    set(final long n, final int n2)\n
     '''
 def getRangeDurationField():
-    '''public DurationField getRangeDurationField()
+    '''returns DurationField\n\n
+    getRangeDurationField()\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue()
+    '''returns int\n\n
+    getMaximumValue()\n
     '''
 def getRange():
-    '''public int getRange()
+    '''returns int\n\n
+    getRange()\n
     '''

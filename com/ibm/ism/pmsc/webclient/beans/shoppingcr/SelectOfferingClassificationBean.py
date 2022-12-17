@@ -1,25 +1,29 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def SelectOfferingClassificationBean():
-    '''public SelectOfferingClassificationBean()
+def ():
+    '''returns SelectOfferingClassificationBean\n\n
+    ()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def tenderService():
-    '''public int tenderService()
+    '''returns int\n\n
+    tenderService()\n
     '''
 def applyToServDeskTkt():
-    '''public int applyToServDeskTkt()
+    '''returns int\n\n
+    applyToServDeskTkt()\n
     '''
 def getClassstructureIdFilter():
-    '''public ArrayList<String> getClassstructureIdFilter()
+    '''returns ArrayList<String>\n\n
+    getClassstructureIdFilter()\n
     '''
 def getIdFilter():
-    '''public List<String> getIdFilter()
+    '''returns List<String>\n\n
+    getIdFilter()\n
     '''
 def setCatalogValue():
-    '''public void setCatalogValue(final String cv)
-    '''
-def count():
-    '''public synchronized int count()
+    '''returns None\n\n
+    setCatalogValue(final String cv)\n
     '''

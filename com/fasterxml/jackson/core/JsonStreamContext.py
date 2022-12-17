@@ -1,46 +1,37 @@
-def inArray():
-    '''public final boolean inArray()
-    '''
-def inRoot():
-    '''public final boolean inRoot()
-    '''
-def inObject():
-    '''public final boolean inObject()
-    '''
-def getTypeDesc():
-    '''public final String getTypeDesc()
-    '''
 def typeDesc():
-    '''public String typeDesc()
-    '''
-def getEntryCount():
-    '''public final int getEntryCount()
-    '''
-def getCurrentIndex():
-    '''public final int getCurrentIndex()
+    '''returns String\n\n
+    typeDesc()\n
     '''
 def hasCurrentIndex():
-    '''public boolean hasCurrentIndex()
+    '''returns boolean\n\n
+    hasCurrentIndex()\n
     '''
 def hasPathSegment():
-    '''public boolean hasPathSegment()
+    '''returns boolean\n\n
+    hasPathSegment()\n
     '''
 def hasCurrentName():
-    '''public boolean hasCurrentName()
+    '''returns boolean\n\n
+    hasCurrentName()\n
     '''
 def getCurrentValue():
-    '''public Object getCurrentValue()
+    '''returns Object\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final Object v)
+    '''returns None\n\n
+    setCurrentValue(final Object v)\n
     '''
 def pathAsPointer():
-    '''public JsonPointer pathAsPointer()
-    public JsonPointer pathAsPointer(final boolean includeRoot)
+    '''returns JsonPointer\n\n
+    pathAsPointer()\n
+    pathAsPointer(final boolean includeRoot)\n
     '''
 def getStartLocation():
-    '''public JsonLocation getStartLocation(final Object srcRef)
+    '''returns JsonLocation\n\n
+    getStartLocation(final Object srcRef)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

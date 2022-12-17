@@ -1,43 +1,56 @@
-def ByteArrayBuffer():
-    '''public ByteArrayBuffer(final int capacity)
+def ():
+    '''returns ByteArrayBuffer\n\n
+    (final int capacity)\n
     '''
 def append():
-    '''public void append(final byte[] b, final int off, final int len)
-    public void append(final int b)
-    public void append(final char[] b, final int off, final int len)
-    public void append(final CharArrayBuffer b, final int off, final int len)
+    '''returns None\n\n
+    append(final byte[] b, final int off, final int len)\n
+    append(final int b)\n
+    append(final char[] b, final int off, final int len)\n
+    append(final CharArrayBuffer b, final int off, final int len)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray()
+    '''returns byte[]\n\n
+    toByteArray()\n
     '''
 def byteAt():
-    '''public int byteAt(final int i)
+    '''returns int\n\n
+    byteAt(final int i)\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def ensureCapacity():
-    '''public void ensureCapacity(final int required)
+    '''returns None\n\n
+    ensureCapacity(final int required)\n
     '''
 def buffer():
-    '''public byte[] buffer()
+    '''returns byte[]\n\n
+    buffer()\n
     '''
 def setLength():
-    '''public void setLength(final int len)
+    '''returns None\n\n
+    setLength(final int len)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def indexOf():
-    '''public int indexOf(final byte b, final int from, final int to)
-    public int indexOf(final byte b)
+    '''returns int\n\n
+    indexOf(final byte b, final int from, final int to)\n
+    indexOf(final byte b)\n
     '''

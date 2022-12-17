@@ -1,3 +1,4 @@
-def EmailTrackingSet():
-    '''public EmailTrackingSet(final MboServerInterface ms)
+def ():
+    '''returns EmailTrackingSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,12 +1,16 @@
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getSpecificity():
-    '''public int getSpecificity()
+    '''returns int\n\n
+    getSpecificity()\n
     '''
 def getAncestorSelector():
-    '''public Selector getAncestorSelector()
+    '''returns Selector\n\n
+    getAncestorSelector()\n
     '''
 def getSimpleSelector():
-    '''public SimpleSelector getSimpleSelector()
+    '''returns SimpleSelector\n\n
+    getSimpleSelector()\n
     '''

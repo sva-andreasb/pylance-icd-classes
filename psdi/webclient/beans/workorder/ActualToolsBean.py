@@ -1,9 +1,12 @@
 def selecttoolsonactuals():
-    '''public int selecttoolsonactuals()
+    '''returns int\n\n
+    selecttoolsonactuals()\n
     '''
 def actools():
-    '''public int actools()
+    '''returns int\n\n
+    actools()\n
     '''
 def selectissuetoolsonactuals():
-    '''public int selectissuetoolsonactuals()
+    '''returns int\n\n
+    selectissuetoolsonactuals()\n
     '''

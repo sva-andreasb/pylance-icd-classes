@@ -1,12 +1,12 @@
-def execute():
-    '''public synchronized int execute()
-    '''
 def addToken():
-    '''public int addToken()
+    '''returns int\n\n
+    addToken()\n
     '''
 def dynexpbuilder_validate():
-    '''public int dynexpbuilder_validate()
+    '''returns int\n\n
+    dynexpbuilder_validate()\n
     '''
 def dynexpbuilder_simulate():
-    '''public int dynexpbuilder_simulate()
+    '''returns int\n\n
+    dynexpbuilder_simulate()\n
     '''

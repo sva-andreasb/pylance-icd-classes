@@ -1,3 +1,4 @@
-def CCILinkCISet():
-    '''public CCILinkCISet(final MboServerInterface ms)
+def ():
+    '''returns CCILinkCISet\n\n
+    (final MboServerInterface ms)\n
     '''

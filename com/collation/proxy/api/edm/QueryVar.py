@@ -1,31 +1,41 @@
-def QueryVar():
-    '''public QueryVar(final String[] domains, final String className, final String var)
-    public QueryVar(final String[] domains, final String className, final String var, final Class memberCls)
+def ():
+    '''returns QueryVar\n\n
+    (final String[] domains, final String className, final String var)\n
+    (final String[] domains, final String className, final String var, final Class memberCls)\n
     '''
 def getVar():
-    '''public String getVar()
+    '''returns String\n\n
+    getVar()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getMemberClass():
-    '''public Class getMemberClass()
+    '''returns Class\n\n
+    getMemberClass()\n
     '''
 def getDomains():
-    '''public String[] getDomains()
+    '''returns String[]\n\n
+    getDomains()\n
     '''
 def getLeft():
-    '''public QueryFilter getLeft()
+    '''returns QueryFilter\n\n
+    getLeft()\n
     '''
 def getOp():
-    '''public QueryOp getOp()
+    '''returns QueryOp\n\n
+    getOp()\n
     '''
 def getRight():
-    '''public QueryFilter getRight()
+    '''returns QueryFilter\n\n
+    getRight()\n
     '''
 def genString():
-    '''public String genString(final QueryContext qc, final DataView view)
+    '''returns String\n\n
+    genString(final QueryContext qc, final DataView view)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

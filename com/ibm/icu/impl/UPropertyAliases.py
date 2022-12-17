@@ -1,34 +1,41 @@
 def getPropertyName():
-    '''public String getPropertyName(final int property, final int nameChoice)
+    '''returns String\n\n
+    getPropertyName(final int property, final int nameChoice)\n
     '''
 def getPropertyEnum():
-    '''public int getPropertyEnum(final String propertyAlias)
+    '''returns int\n\n
+    getPropertyEnum(final String propertyAlias)\n
     '''
 def getPropertyValueName():
-    '''public String getPropertyValueName(final int property, final int value, final int nameChoice)
+    '''returns String\n\n
+    getPropertyValueName(final int property, final int value, final int nameChoice)\n
     '''
 def getPropertyValueEnum():
-    '''public int getPropertyValueEnum(final int property, final String valueAlias)
-    '''
-def compare():
-    '''public static int compare(final String stra, final String strb)
+    '''returns int\n\n
+    getPropertyValueEnum(final int property, final String valueAlias)\n
     '''
 def isDataVersionAcceptable():
-    '''public boolean isDataVersionAcceptable(final byte[] version)
+    '''returns boolean\n\n
+    isDataVersionAcceptable(final byte[] version)\n
     '''
 def getShort():
-    '''public short getShort(final int enumProbe)
-    public short getShort(final int enumProbe)
+    '''returns short\n\n
+    getShort(final int enumProbe)\n
+    getShort(final int enumProbe)\n
     '''
-def Builder():
-    '''public Builder(final byte[] raw)
+def ():
+    '''returns Builder\n\n
+    (final byte[] raw)\n
     '''
 def setupValueMap_map():
-    '''public void setupValueMap_map(final short offset, final short count)
+    '''returns None\n\n
+    setupValueMap_map(final short offset, final short count)\n
     '''
 def readStringPool():
-    '''public String[] readStringPool(final short offset, final short count)
+    '''returns String[]\n\n
+    readStringPool(final short offset, final short count)\n
     '''
 def readNameGroupPool():
-    '''public short[] readNameGroupPool(final short offset, final short count)
+    '''returns short[]\n\n
+    readNameGroupPool(final short offset, final short count)\n
     '''

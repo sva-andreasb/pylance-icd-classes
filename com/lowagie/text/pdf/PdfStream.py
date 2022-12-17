@@ -1,13 +1,17 @@
-def PdfStream():
-    '''public PdfStream(final byte[] bytes)
-    public PdfStream(final InputStream inputStream, final PdfWriter writer)
+def ():
+    '''returns PdfStream\n\n
+    (final byte[] bytes)\n
+    (final InputStream inputStream, final PdfWriter writer)\n
     '''
 def writeLength():
-    '''public void writeLength()
+    '''returns None\n\n
+    writeLength()\n
     '''
 def flateCompress():
-    '''public void flateCompress()
+    '''returns None\n\n
+    flateCompress()\n
     '''
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''

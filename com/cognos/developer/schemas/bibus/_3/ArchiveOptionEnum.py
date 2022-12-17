@@ -4,32 +4,22 @@ _descriptor = "String  \"descriptor\""
 _filenameExtension = "String  \"filenameExtension\""
 _filenameStub = "String  \"filenameStub\""
 def getValue():
-    '''public String getValue()
-    '''
-def fromValue():
-    '''public static ArchiveOptionEnum fromValue(final String value)
-    '''
-def fromString():
-    '''public static ArchiveOptionEnum fromString(final String value)
+    '''returns String\n\n
+    getValue()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def readResolve():
-    '''public Object readResolve()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
+    '''returns Object\n\n
+    readResolve()\n
     '''

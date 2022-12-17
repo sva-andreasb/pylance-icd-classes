@@ -1,31 +1,41 @@
-def SoftwareIdentity():
-    '''public SoftwareIdentity()
-    public SoftwareIdentity(final String persistentId, final String name, final InstanceDetails instance)
+def ():
+    '''returns SoftwareIdentity\n\n
+    ()\n
+    (final String persistentId, final String name, final InstanceDetails instance)\n
     '''
 def getPersistentId():
-    '''public String getPersistentId()
+    '''returns String\n\n
+    getPersistentId()\n
     '''
 def setPersistentId():
-    '''public void setPersistentId(final String persistentId)
+    '''returns None\n\n
+    setPersistentId(final String persistentId)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getInstance():
-    '''public InstanceDetails getInstance()
+    '''returns InstanceDetails\n\n
+    getInstance()\n
     '''
 def getSlmtagFileBaseName():
-    '''public String getSlmtagFileBaseName()
+    '''returns String\n\n
+    getSlmtagFileBaseName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

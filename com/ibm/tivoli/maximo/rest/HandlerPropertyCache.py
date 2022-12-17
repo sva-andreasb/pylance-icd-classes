@@ -1,15 +1,16 @@
-def HandlerPropertyCache():
-    '''public HandlerPropertyCache()
-    '''
-def getInstance():
-    '''public static HandlerPropertyCache getInstance()
+def ():
+    '''returns HandlerPropertyCache\n\n
+    ()\n
     '''
 def addHandlerCache():
-    '''public void addHandlerCache(final String handlerName, final Object handlerCache)
+    '''returns None\n\n
+    addHandlerCache(final String handlerName, final Object handlerCache)\n
     '''
 def hasHandlerCache():
-    '''public boolean hasHandlerCache(final String handlerName)
+    '''returns boolean\n\n
+    hasHandlerCache(final String handlerName)\n
     '''
 def getHandlerCache():
-    '''public Object getHandlerCache(final String handlerName)
+    '''returns Object\n\n
+    getHandlerCache(final String handlerName)\n
     '''

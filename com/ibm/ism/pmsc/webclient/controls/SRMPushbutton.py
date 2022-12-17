@@ -5,15 +5,19 @@ DEFAULT_VIEWSR_DIALOG_ID = "String  \"srmssviewsr\""
 PROPERTY_HIDE_APP = "String  \"srmhideappid\""
 PROPERTY_HIDE_DIALOG_IN_STACK = "String  \"srmhidewhendialoginstack\""
 PROPERTY_HIDE_DIALOG_NOT_IN_STACK = "String  \"srmhidewhendialognotinstack\""
-def SRMPushbutton():
-    '''public SRMPushbutton()
+def ():
+    '''returns SRMPushbutton\n\n
+    ()\n
     '''
 def preRenderChecks():
-    '''public void preRenderChecks()
+    '''returns None\n\n
+    preRenderChecks()\n
     '''
 def isParent():
-    '''public boolean isParent(final String dialog)
+    '''returns boolean\n\n
+    isParent(final String dialog)\n
     '''
 def isInAppPageControlInstanceIndex():
-    '''public boolean isInAppPageControlInstanceIndex(final String dialogId)
+    '''returns boolean\n\n
+    isInAppPageControlInstanceIndex(final String dialogId)\n
     '''

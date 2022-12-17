@@ -1,9 +1,12 @@
-def PlusPFldPSFirstBillDate():
-    '''public PlusPFldPSFirstBillDate(final MboValue mbv)
+def ():
+    '''returns PlusPFldPSFirstBillDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

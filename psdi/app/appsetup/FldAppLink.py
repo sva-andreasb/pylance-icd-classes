@@ -1,3 +1,4 @@
-def FldAppLink():
-    '''public FldAppLink(final MboValue mbv)
+def ():
+    '''returns FldAppLink\n\n
+    (final MboValue mbv)\n
     '''

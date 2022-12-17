@@ -6,6 +6,3 @@ MAX_KEYS_CONDITION_KEY = "String  \"s3:max-keys\""
 COPY_SOURCE_CONDITION_KEY = "String  \"s3:x-amz-copy-source\""
 METADATA_DIRECTIVE_CONDITION_KEY = "String  \"s3:x-amz-metadata-directive\""
 VERSION_ID_CONDITION_KEY = "String  \"s3:VersionId\""
-def newCannedACLCondition():
-    '''public static Condition newCannedACLCondition(final CannedAccessControlList cannedAcl)
-    '''

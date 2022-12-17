@@ -1,21 +1,28 @@
-def ApptBookWindowAvailability():
-    '''public ApptBookWindowAvailability(final MboSet ms)
+def ():
+    '''returns ApptBookWindowAvailability\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def applyWindow():
-    '''public void applyWindow(final ApptBookWindow apptwindow, final Date workDate, final String sPatternseq, Integer existingAppts)
+    '''returns None\n\n
+    applyWindow(final ApptBookWindow apptwindow, final Date workDate, final String sPatternseq, Integer existingAppts)\n
     '''
 def setTotalAppointments():
-    '''public void setTotalAppointments(final String totalAppointments, final Integer previousTotalAppts)
+    '''returns None\n\n
+    setTotalAppointments(final String totalAppointments, final Integer previousTotalAppts)\n
     '''
 def lockRecord():
-    '''public void lockRecord()
+    '''returns None\n\n
+    lockRecord()\n
     '''
 def unlockRecord():
-    '''public void unlockRecord()
+    '''returns None\n\n
+    unlockRecord()\n
     '''

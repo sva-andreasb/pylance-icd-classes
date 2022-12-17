@@ -1,90 +1,98 @@
-def MapMessage():
-    '''public MapMessage()
-    public MapMessage(final int initialCapacity)
-    public MapMessage(final Map<String, V> map)
+def ():
+    '''returns MapMessage\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final Map<String, V> map)\n
     '''
 def getFormats():
-    '''public String[] getFormats()
+    '''returns String[]\n\n
+    getFormats()\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def getFormat():
-    '''public String getFormat()
-    '''
-def getData():
-    '''public Map<String, V> getData()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getIndexedReadOnlyStringMap():
-    '''public IndexedReadOnlyStringMap getIndexedReadOnlyStringMap()
+    '''returns IndexedReadOnlyStringMap\n\n
+    getIndexedReadOnlyStringMap()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String key)
+    '''returns boolean\n\n
+    containsKey(final String key)\n
     '''
 def put():
-    '''public void put(final String candidateKey, final String value)
+    '''returns None\n\n
+    put(final String candidateKey, final String value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<String, String> map)
+    '''returns None\n\n
+    putAll(final Map<String, String> map)\n
     '''
 def get():
-    '''public String get(final String key)
+    '''returns String\n\n
+    get(final String key)\n
     '''
 def remove():
-    '''public String remove(final String key)
+    '''returns String\n\n
+    remove(final String key)\n
     '''
 def asString():
-    '''public String asString()
-    public String asString(final String format)
-    '''
-def forEach():
-    '''public <CV> void forEach(final BiConsumer<String, ? super CV> action)
-    public <CV, S> void forEach(final TriConsumer<String, ? super CV, S> action, final S state)
+    '''returns String\n\n
+    asString()\n
+    asString(final String format)\n
     '''
 def asXml():
-    '''public void asXml(final StringBuilder sb)
+    '''returns None\n\n
+    asXml(final StringBuilder sb)\n
     '''
 def getFormattedMessage():
-    '''public String getFormattedMessage()
-    public String getFormattedMessage(final String[] formats)
+    '''returns String\n\n
+    getFormattedMessage()\n
+    getFormattedMessage(final String[] formats)\n
     '''
 def newInstance():
-    '''public M newInstance(final Map<String, V> map)
+    '''returns M\n\n
+    newInstance(final Map<String, V> map)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def formatTo():
-    '''public void formatTo(final StringBuilder buffer)
-    public void formatTo(final String[] formats, final StringBuilder buffer)
+    '''returns None\n\n
+    formatTo(final StringBuilder buffer)\n
+    formatTo(final String[] formats, final StringBuilder buffer)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''
 def with():
-    '''public M with(final String candidateKey, final boolean value)
-    public M with(final String candidateKey, final byte value)
-    public M with(final String candidateKey, final char value)
-    public M with(final String candidateKey, final double value)
-    public M with(final String candidateKey, final float value)
-    public M with(final String candidateKey, final int value)
-    public M with(final String candidateKey, final long value)
-    public M with(final String candidateKey, final Object value)
-    public M with(final String candidateKey, final short value)
-    public M with(final String candidateKey, final String value)
-    '''
-def lookupIgnoreCase():
-    '''public static MapFormat lookupIgnoreCase(final String format)
-    '''
-def names():
-    '''public static String[] names()
+    '''returns M\n\n
+    with(final String candidateKey, final boolean value)\n
+    with(final String candidateKey, final byte value)\n
+    with(final String candidateKey, final char value)\n
+    with(final String candidateKey, final double value)\n
+    with(final String candidateKey, final float value)\n
+    with(final String candidateKey, final int value)\n
+    with(final String candidateKey, final long value)\n
+    with(final String candidateKey, final Object value)\n
+    with(final String candidateKey, final short value)\n
+    with(final String candidateKey, final String value)\n
     '''

@@ -1,121 +1,161 @@
-def Labor():
-    '''public Labor(final MboSet ms)
+def ():
+    '''returns Labor\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def zeroYTD():
-    '''public void zeroYTD(final boolean bReported, final boolean bOvertime, final boolean bOTRefused)
+    '''returns None\n\n
+    zeroYTD(final boolean bReported, final boolean bOvertime, final boolean bOTRefused)\n
     '''
 def associateLoc():
-    '''public void associateLoc(final String loc)
+    '''returns None\n\n
+    associateLoc(final String loc)\n
     '''
 def getSiteUserForLabor():
-    '''public SiteAuth getSiteUserForLabor()
+    '''returns SiteAuth\n\n
+    getSiteUserForLabor()\n
     '''
 def getUserNameForLabor():
-    '''public String getUserNameForLabor()
+    '''returns String\n\n
+    getUserNameForLabor()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String newStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String newStatus, final Date date, final String memo)\n
     '''
 def getServerDateColumn():
-    '''public Date[] getServerDateColumn()
+    '''returns Date[]\n\n
+    getServerDateColumn()\n
     '''
 def setServerDateColumn():
-    '''public void setServerDateColumn(final Date[] newServerDateColumn)
+    '''returns None\n\n
+    setServerDateColumn(final Date[] newServerDateColumn)\n
     '''
 def setWorkHrs():
-    '''public void setWorkHrs(final Date DayOneClientDate)
-    public void setWorkHrs(final Date DayOneClientDate, final boolean isCreateAMGrid)
+    '''returns None\n\n
+    setWorkHrs(final Date DayOneClientDate)\n
+    setWorkHrs(final Date DayOneClientDate, final boolean isCreateAMGrid)\n
     '''
 def getServerDTFromClientDT():
-    '''public Date getServerDTFromClientDT(final Date clientDateTime, final GregorianCalendar scratchCal)
+    '''returns Date\n\n
+    getServerDTFromClientDT(final Date clientDateTime, final GregorianCalendar scratchCal)\n
     '''
 def getClientDTFromServerDT():
-    '''public Date getClientDTFromServerDT(final Date serverDateTime, final GregorianCalendar scratchCal)
+    '''returns Date\n\n
+    getClientDTFromServerDT(final Date serverDateTime, final GregorianCalendar scratchCal)\n
     '''
 def getWPEndDateTime():
-    '''public Date getWPEndDateTime(final MboRemote WorkTimeMbo, final Date wpStartDateTime, final GregorianCalendar scratchCal, final AvailCalc availCalc)
+    '''returns Date\n\n
+    getWPEndDateTime(final MboRemote WorkTimeMbo, final Date wpStartDateTime, final GregorianCalendar scratchCal, final AvailCalc availCalc)\n
     '''
 def getDayNAssignmentSet():
-    '''public MboSetRemote getDayNAssignmentSet(final MboRemote theLaborMbo, final Date wpStartDateTime, final Date wpEndDateTime)
+    '''returns MboSetRemote\n\n
+    getDayNAssignmentSet(final MboRemote theLaborMbo, final Date wpStartDateTime, final Date wpEndDateTime)\n
     '''
 def getAssignedHours():
-    '''public double getAssignedHours(final boolean insideCurrentDateWorkingTime, final Date rangeStartDateTime, final Date rangeFinishDateTime, final MboSetRemote dayNAssignmentSet)
+    '''returns double\n\n
+    getAssignedHours(final boolean insideCurrentDateWorkingTime, final Date rangeStartDateTime, final Date rangeFinishDateTime, final MboSetRemote dayNAssignmentSet)\n
     '''
 def getEarliestUnassignedDateTime():
-    '''public Date getEarliestUnassignedDateTime(final MboSetRemote dayNAssignmentSet, final Date rangeStartDateTime, final Date rangeFinishDateTime)
+    '''returns Date\n\n
+    getEarliestUnassignedDateTime(final MboSetRemote dayNAssignmentSet, final Date rangeStartDateTime, final Date rangeFinishDateTime)\n
     '''
 def checkCalendarAndShift():
-    '''public void checkCalendarAndShift()
+    '''returns None\n\n
+    checkCalendarAndShift()\n
     '''
 def updateCalendar():
-    '''public void updateCalendar()
+    '''returns None\n\n
+    updateCalendar()\n
     '''
 def calculateAvailabilityData():
-    '''public void calculateAvailabilityData()
+    '''returns None\n\n
+    calculateAvailabilityData()\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def getLocationAccuracy():
-    '''public Double getLocationAccuracy()
+    '''returns Double\n\n
+    getLocationAccuracy()\n
     '''
 def getAltitude():
-    '''public Double getAltitude()
+    '''returns Double\n\n
+    getAltitude()\n
     '''
 def getAltitudeAccuracy():
-    '''public Double getAltitudeAccuracy()
+    '''returns Double\n\n
+    getAltitudeAccuracy()\n
     '''
 def getHeading():
-    '''public Double getHeading()
+    '''returns Double\n\n
+    getHeading()\n
     '''
 def getLastUpdate():
-    '''public Date getLastUpdate()
+    '''returns Date\n\n
+    getLastUpdate()\n
     '''
 def getSpeed():
-    '''public Double getSpeed()
+    '''returns Double\n\n
+    getSpeed()\n
     '''
 def saveLBSData():
-    '''public void saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)
+    '''returns None\n\n
+    saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)\n
     '''
 def getEligibleHours():
-    '''public double[] getEligibleHours()
+    '''returns double[]\n\n
+    getEligibleHours()\n
     '''

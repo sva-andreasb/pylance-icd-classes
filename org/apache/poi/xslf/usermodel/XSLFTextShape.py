@@ -1,107 +1,140 @@
 def iterator():
-    '''public Iterator<XSLFTextParagraph> iterator()
+    '''returns Iterator<XSLFTextParagraph>\n\n
+    iterator()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def clearText():
-    '''public void clearText()
+    '''returns None\n\n
+    clearText()\n
     '''
 def setText():
-    '''public XSLFTextRun setText(final String text)
+    '''returns XSLFTextRun\n\n
+    setText(final String text)\n
     '''
 def appendText():
-    '''public XSLFTextRun appendText(final String text, final boolean newParagraph)
+    '''returns XSLFTextRun\n\n
+    appendText(final String text, final boolean newParagraph)\n
     '''
 def getTextParagraphs():
-    '''public List<XSLFTextParagraph> getTextParagraphs()
+    '''returns List<XSLFTextParagraph>\n\n
+    getTextParagraphs()\n
     '''
 def addNewTextParagraph():
-    '''public XSLFTextParagraph addNewTextParagraph()
+    '''returns XSLFTextParagraph\n\n
+    addNewTextParagraph()\n
     '''
 def setVerticalAlignment():
-    '''public void setVerticalAlignment(final VerticalAlignment anchor)
+    '''returns None\n\n
+    setVerticalAlignment(final VerticalAlignment anchor)\n
     '''
 def getVerticalAlignment():
-    '''public VerticalAlignment getVerticalAlignment()
+    '''returns VerticalAlignment\n\n
+    getVerticalAlignment()\n
     '''
 def fetch():
-    '''public boolean fetch(final CTTextBodyProperties props)
-    public boolean fetch(final CTTextBodyProperties props)
-    public boolean fetch(final CTTextBodyProperties props)
-    public boolean fetch(final CTTextBodyProperties props)
-    public boolean fetch(final CTTextBodyProperties props)
-    public boolean fetch(final CTTextBodyProperties props)
-    public boolean fetch(final CTTextBodyProperties props)
+    '''returns boolean\n\n
+    fetch(final CTTextBodyProperties props)\n
+    fetch(final CTTextBodyProperties props)\n
+    fetch(final CTTextBodyProperties props)\n
+    fetch(final CTTextBodyProperties props)\n
+    fetch(final CTTextBodyProperties props)\n
+    fetch(final CTTextBodyProperties props)\n
+    fetch(final CTTextBodyProperties props)\n
     '''
 def setHorizontalCentered():
-    '''public void setHorizontalCentered(final Boolean isCentered)
+    '''returns None\n\n
+    setHorizontalCentered(final Boolean isCentered)\n
     '''
 def isHorizontalCentered():
-    '''public boolean isHorizontalCentered()
+    '''returns boolean\n\n
+    isHorizontalCentered()\n
     '''
 def setTextDirection():
-    '''public void setTextDirection(final TextShape.TextDirection orientation)
+    '''returns None\n\n
+    setTextDirection(final TextShape.TextDirection orientation)\n
     '''
 def getTextRotation():
-    '''public Double getTextRotation()
+    '''returns Double\n\n
+    getTextRotation()\n
     '''
 def setTextRotation():
-    '''public void setTextRotation(final Double rotation)
+    '''returns None\n\n
+    setTextRotation(final Double rotation)\n
     '''
 def getBottomInset():
-    '''public double getBottomInset()
+    '''returns double\n\n
+    getBottomInset()\n
     '''
 def getLeftInset():
-    '''public double getLeftInset()
+    '''returns double\n\n
+    getLeftInset()\n
     '''
 def getRightInset():
-    '''public double getRightInset()
+    '''returns double\n\n
+    getRightInset()\n
     '''
 def getTopInset():
-    '''public double getTopInset()
+    '''returns double\n\n
+    getTopInset()\n
     '''
 def setBottomInset():
-    '''public void setBottomInset(final double margin)
+    '''returns None\n\n
+    setBottomInset(final double margin)\n
     '''
 def setLeftInset():
-    '''public void setLeftInset(final double margin)
+    '''returns None\n\n
+    setLeftInset(final double margin)\n
     '''
 def setRightInset():
-    '''public void setRightInset(final double margin)
+    '''returns None\n\n
+    setRightInset(final double margin)\n
     '''
 def setTopInset():
-    '''public void setTopInset(final double margin)
+    '''returns None\n\n
+    setTopInset(final double margin)\n
     '''
 def getInsets():
-    '''public Insets2D getInsets()
+    '''returns Insets2D\n\n
+    getInsets()\n
     '''
 def setInsets():
-    '''public void setInsets(final Insets2D insets)
+    '''returns None\n\n
+    setInsets(final Insets2D insets)\n
     '''
 def getWordWrap():
-    '''public boolean getWordWrap()
+    '''returns boolean\n\n
+    getWordWrap()\n
     '''
 def setWordWrap():
-    '''public void setWordWrap(final boolean wrap)
+    '''returns None\n\n
+    setWordWrap(final boolean wrap)\n
     '''
 def setTextAutofit():
-    '''public void setTextAutofit(final TextShape.TextAutofit value)
+    '''returns None\n\n
+    setTextAutofit(final TextShape.TextAutofit value)\n
     '''
 def setPlaceholder():
-    '''public void setPlaceholder(final Placeholder placeholder)
+    '''returns None\n\n
+    setPlaceholder(final Placeholder placeholder)\n
     '''
 def getTextType():
-    '''public Placeholder getTextType()
+    '''returns Placeholder\n\n
+    getTextType()\n
     '''
 def getTextHeight():
-    '''public double getTextHeight()
-    public double getTextHeight(final Graphics2D graphics)
+    '''returns double\n\n
+    getTextHeight()\n
+    getTextHeight(final Graphics2D graphics)\n
     '''
 def resizeToFitText():
-    '''public Rectangle2D resizeToFitText()
-    public Rectangle2D resizeToFitText(final Graphics2D graphics)
+    '''returns Rectangle2D\n\n
+    resizeToFitText()\n
+    resizeToFitText(final Graphics2D graphics)\n
     '''
 def setTextPlaceholder():
-    '''public void setTextPlaceholder(final TextShape.TextPlaceholder placeholder)
+    '''returns None\n\n
+    setTextPlaceholder(final TextShape.TextPlaceholder placeholder)\n
     '''

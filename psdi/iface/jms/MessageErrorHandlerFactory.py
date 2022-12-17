@@ -1,12 +1,12 @@
-def getInstance():
-    '''public static MessageErrorHandlerFactory getInstance()
-    '''
 def getMsgErrHandler():
-    '''public MessageErrorHandler getMsgErrHandler(final String queue)
+    '''returns MessageErrorHandler\n\n
+    getMsgErrHandler(final String queue)\n
     '''
 def refreshErrorHandlers():
-    '''public void refreshErrorHandlers()
+    '''returns None\n\n
+    refreshErrorHandlers()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

@@ -1,24 +1,32 @@
-def IoTCloudantProcessor():
-    '''public IoTCloudantProcessor()
+def ():
+    '''returns IoTCloudantProcessor\n\n
+    ()\n
     '''
 def syncMeterReadings():
-    '''public void syncMeterReadings(String iotOrg, final String deviceType, final String instanceName, final Date lastRun)
+    '''returns None\n\n
+    syncMeterReadings(String iotOrg, final String deviceType, final String instanceName, final Date lastRun)\n
     '''
 def processHistorianData():
-    '''public void processHistorianData(final IoTFDeviceMappingInfo mappingInfo, String histURL, final URLFormatter uf, final String endPointName, final String iotOrg, final String deviceType, final Date lastRun)
+    '''returns None\n\n
+    processHistorianData(final IoTFDeviceMappingInfo mappingInfo, String histURL, final URLFormatter uf, final String endPointName, final String iotOrg, final String deviceType, final Date lastRun)\n
     '''
 def processResource():
-    '''public JSONArtifact processResource(final JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)
+    '''returns JSONArtifact\n\n
+    processResource(final JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)\n
     '''
 def mapReadings():
-    '''public void mapReadings(final JSONArray readings, final JSONObject jo, final IoTFDeviceMappingInfo mapInfo)
+    '''returns None\n\n
+    mapReadings(final JSONArray readings, final JSONObject jo, final IoTFDeviceMappingInfo mapInfo)\n
     '''
 def getReadings():
-    '''public Object getReadings(final JSONObject jo, final IoTFDeviceMappingInfo mapInfo)
+    '''returns Object\n\n
+    getReadings(final JSONObject jo, final IoTFDeviceMappingInfo mapInfo)\n
     '''
 def evaluateExpression():
-    '''public JSONObject evaluateExpression(final JSONObject jsonData, final String path)
+    '''returns JSONObject\n\n
+    evaluateExpression(final JSONObject jsonData, final String path)\n
     '''
 def pingHistorian():
-    '''public boolean pingHistorian(final IoTFService srv)
+    '''returns boolean\n\n
+    pingHistorian(final IoTFService srv)\n
     '''

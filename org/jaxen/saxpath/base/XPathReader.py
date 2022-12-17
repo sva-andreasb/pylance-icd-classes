@@ -1,12 +1,16 @@
-def XPathReader():
-    '''public XPathReader()
+def ():
+    '''returns XPathReader\n\n
+    ()\n
     '''
 def setXPathHandler():
-    '''public void setXPathHandler(final XPathHandler handler)
+    '''returns None\n\n
+    setXPathHandler(final XPathHandler handler)\n
     '''
 def getXPathHandler():
-    '''public XPathHandler getXPathHandler()
+    '''returns XPathHandler\n\n
+    getXPathHandler()\n
     '''
 def parse():
-    '''public void parse(final String xpath)
+    '''returns None\n\n
+    parse(final String xpath)\n
     '''

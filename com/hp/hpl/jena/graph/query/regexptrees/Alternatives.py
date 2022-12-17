@@ -1,15 +1,16 @@
-def Alternatives():
-    '''public Alternatives(final RegexpTree[] operands)
-    '''
-def create():
-    '''public static RegexpTree create(final List<? extends RegexpTree> operands)
+def ():
+    '''returns Alternatives\n\n
+    (final RegexpTree[] operands)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -14,27 +14,35 @@ FIELD_ORGID = "String  \"ORGID\""
 FIELD_PARENT = "String  \"PARENT\""
 FIELD_SITEID = "String  \"SITEID\""
 FIELD_SYSTEMID = "String  \"SYSTEMID\""
-def BIMWorkOrderTree():
-    '''public BIMWorkOrderTree(final MboSet ms)
+def ():
+    '''returns BIMWorkOrderTree\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getUniqueIDName():
-    '''public String getUniqueIDName()
+    '''returns String\n\n
+    getUniqueIDName()\n
     '''
 def getUniqueIDValue():
-    '''public long getUniqueIDValue()
+    '''returns long\n\n
+    getUniqueIDValue()\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''
 def translateImportDomainValue():
-    '''public String translateImportDomainValue(final String value)
+    '''returns String\n\n
+    translateImportDomainValue(final String value)\n
     '''

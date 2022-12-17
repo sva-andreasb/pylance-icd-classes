@@ -1,31 +1,41 @@
-def InstanceDetails():
-    '''public InstanceDetails(final String path)
-    public InstanceDetails(final String host, final String path, final String name)
+def ():
+    '''returns InstanceDetails\n\n
+    (final String path)\n
+    (final String host, final String path, final String name)\n
     '''
 def setHost():
-    '''public void setHost(final String host)
+    '''returns None\n\n
+    setHost(final String host)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInstanceId():
-    '''public String getInstanceId()
+    '''returns String\n\n
+    getInstanceId()\n
     '''
 def isPathAbolute():
-    '''public boolean isPathAbolute()
+    '''returns boolean\n\n
+    isPathAbolute()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

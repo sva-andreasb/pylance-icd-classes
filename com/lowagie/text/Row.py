@@ -2,50 +2,62 @@ NULL = "int  0"
 CELL = "int  1"
 TABLE = "int  2"
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def setHorizontalAlignment():
-    '''public void setHorizontalAlignment(final int value)
+    '''returns None\n\n
+    setHorizontalAlignment(final int value)\n
     '''
 def setVerticalAlignment():
-    '''public void setVerticalAlignment(final int value)
+    '''returns None\n\n
+    setVerticalAlignment(final int value)\n
     '''
 def getCell():
-    '''public Object getCell(final int column)
+    '''returns Object\n\n
+    getCell(final int column)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def columns():
-    '''public int columns()
+    '''returns int\n\n
+    columns()\n
     '''
 def horizontalAlignment():
-    '''public int horizontalAlignment()
+    '''returns int\n\n
+    horizontalAlignment()\n
     '''
 def verticalAlignment():
-    '''public int verticalAlignment()
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns int\n\n
+    verticalAlignment()\n
     '''
 def setMarkupAttribute():
-    '''public void setMarkupAttribute(final String name, final String value)
+    '''returns None\n\n
+    setMarkupAttribute(final String name, final String value)\n
     '''
 def setMarkupAttributes():
-    '''public void setMarkupAttributes(final Properties markupAttributes)
+    '''returns None\n\n
+    setMarkupAttributes(final Properties markupAttributes)\n
     '''
 def getMarkupAttribute():
-    '''public String getMarkupAttribute(final String name)
+    '''returns String\n\n
+    getMarkupAttribute(final String name)\n
     '''
 def getMarkupAttributeNames():
-    '''public Set getMarkupAttributeNames()
+    '''returns Set\n\n
+    getMarkupAttributeNames()\n
     '''
 def getMarkupAttributes():
-    '''public Properties getMarkupAttributes()
+    '''returns Properties\n\n
+    getMarkupAttributes()\n
     '''

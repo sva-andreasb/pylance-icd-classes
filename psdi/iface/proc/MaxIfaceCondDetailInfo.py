@@ -1,75 +1,100 @@
 def getCondName():
-    '''public String getCondName()
+    '''returns String\n\n
+    getCondName()\n
     '''
 def setCondName():
-    '''public void setCondName(final String c)
+    '''returns None\n\n
+    setCondName(final String c)\n
     '''
 def getColumn():
-    '''public String getColumn()
+    '''returns String\n\n
+    getColumn()\n
     '''
 def setColumn():
-    '''public void setColumn(final String c)
+    '''returns None\n\n
+    setColumn(final String c)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String v)
+    '''returns None\n\n
+    setValue(final String v)\n
     '''
 def getEvalType():
-    '''public String getEvalType()
+    '''returns String\n\n
+    getEvalType()\n
     '''
 def setEvalType():
-    '''public void setEvalType(final String e)
+    '''returns None\n\n
+    setEvalType(final String e)\n
     '''
 def setGLOrder():
-    '''public void setGLOrder(final int o)
+    '''returns None\n\n
+    setGLOrder(final int o)\n
     '''
 def setHasGLOrder():
-    '''public void setHasGLOrder(final boolean ord)
+    '''returns None\n\n
+    setHasGLOrder(final boolean ord)\n
     '''
 def getCompareType():
-    '''public String getCompareType()
+    '''returns String\n\n
+    getCompareType()\n
     '''
 def setCompareType():
-    '''public void setCompareType(final String e)
+    '''returns None\n\n
+    setCompareType(final String e)\n
     '''
 def getCondType():
-    '''public String getCondType()
+    '''returns String\n\n
+    getCondType()\n
     '''
 def setCondType():
-    '''public void setCondType(final String c)
+    '''returns None\n\n
+    setCondType(final String c)\n
     '''
 def setChangeType():
-    '''public void setChangeType(final String c)
+    '''returns None\n\n
+    setChangeType(final String c)\n
     '''
 def getChangeType():
-    '''public String getChangeType()
+    '''returns String\n\n
+    getChangeType()\n
     '''
 def getGLOrder():
-    '''public int getGLOrder()
+    '''returns int\n\n
+    getGLOrder()\n
     '''
 def hasGLOrder():
-    '''public boolean hasGLOrder()
+    '''returns boolean\n\n
+    hasGLOrder()\n
     '''
 def getMboTbName():
-    '''public String getMboTbName()
+    '''returns String\n\n
+    getMboTbName()\n
     '''
 def setMboTbName():
-    '''public void setMboTbName(final String n)
+    '''returns None\n\n
+    setMboTbName(final String n)\n
     '''
 def getMboColumnName():
-    '''public String getMboColumnName()
+    '''returns String\n\n
+    getMboColumnName()\n
     '''
 def setMboColumnName():
-    '''public void setMboColumnName(final String n)
+    '''returns None\n\n
+    setMboColumnName(final String n)\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def setRelation():
-    '''public void setRelation(final String n)
+    '''returns None\n\n
+    setRelation(final String n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

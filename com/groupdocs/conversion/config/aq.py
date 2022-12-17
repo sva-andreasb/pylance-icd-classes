@@ -1,31 +1,43 @@
-def aq():
-    '''public aq(final BufferedImage bufferedImage, final an an, final ar a)
-    public boolean aq()
-    public int aq()
+def ():
+    '''returns aq\n\n
+    (final BufferedImage bufferedImage, final an an, final ar a)\n
     '''
 def a():
-    '''public ar a()
-    public void a(final ar a)
-    public an a()
+    '''returns an\n\n
+    a()\n
+    a(final ar a)\n
+    a()\n
+    '''
+def aq():
+    '''returns int\n\n
+    aq()\n
+    aq()\n
     '''
 def o():
-    '''public void o(final boolean ay)
+    '''returns None\n\n
+    o(final boolean ay)\n
     '''
 def au():
-    '''public int au()
+    '''returns int\n\n
+    au()\n
     '''
 def D():
-    '''public void D(final int ze)
+    '''returns None\n\n
+    D(final int ze)\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def getHeight():
-    '''public int getHeight()
+    '''returns int\n\n
+    getHeight()\n
     '''
 def ai():
-    '''public int ai()
+    '''returns int\n\n
+    ai()\n
     '''
 def ap():
-    '''public boolean ap()
+    '''returns boolean\n\n
+    ap()\n
     '''

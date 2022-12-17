@@ -1,39 +1,52 @@
-def AccessControlList():
-    '''public AccessControlList()
+def ():
+    '''returns AccessControlList\n\n
+    ()\n
     '''
 def getOwner():
-    '''public Owner getOwner()
+    '''returns Owner\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final Owner owner)
+    '''returns None\n\n
+    setOwner(final Owner owner)\n
     '''
 def grantPermission():
-    '''public void grantPermission(final Grantee grantee, final Permission permission)
+    '''returns None\n\n
+    grantPermission(final Grantee grantee, final Permission permission)\n
     '''
 def grantAllPermissions():
-    '''public void grantAllPermissions(final Grant... grantsVarArg)
+    '''returns None\n\n
+    grantAllPermissions(final Grant... grantsVarArg)\n
     '''
 def revokeAllPermissions():
-    '''public void revokeAllPermissions(final Grantee grantee)
+    '''returns None\n\n
+    revokeAllPermissions(final Grantee grantee)\n
     '''
 def getGrants():
-    '''public Set<Grant> getGrants()
+    '''returns Set<Grant>\n\n
+    getGrants()\n
     '''
 def getGrantsAsList():
-    '''public List<Grant> getGrantsAsList()
+    '''returns List<Grant>\n\n
+    getGrantsAsList()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isRequesterCharged():
-    '''public boolean isRequesterCharged()
+    '''returns boolean\n\n
+    isRequesterCharged()\n
     '''
 def setRequesterCharged():
-    '''public void setRequesterCharged(final boolean isRequesterCharged)
+    '''returns None\n\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
     '''

@@ -1,9 +1,12 @@
 def convert():
-    '''public Image convert(final Image src, final Map hints)
+    '''returns Image\n\n
+    convert(final Image src, final Map hints)\n
     '''
 def getSourceFlavor():
-    '''public ImageFlavor getSourceFlavor()
+    '''returns ImageFlavor\n\n
+    getSourceFlavor()\n
     '''
 def getTargetFlavor():
-    '''public ImageFlavor getTargetFlavor()
+    '''returns ImageFlavor\n\n
+    getTargetFlavor()\n
     '''

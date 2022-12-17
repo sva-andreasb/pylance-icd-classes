@@ -1,27 +1,25 @@
-def DescribeDelegationTokenRequest():
-    '''public DescribeDelegationTokenRequest(final Struct struct, final short versionId)
-    '''
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short versionId)\n
+    (final List<KafkaPrincipal> owners)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def owners():
-    '''public List<KafkaPrincipal> owners()
+    '''returns List<KafkaPrincipal>\n\n
+    owners()\n
     '''
 def ownersListEmpty():
-    '''public boolean ownersListEmpty()
-    '''
-def parse():
-    '''public static DescribeDelegationTokenRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final List<KafkaPrincipal> owners)
+    '''returns boolean\n\n
+    ownersListEmpty()\n
     '''
 def build():
-    '''public DescribeDelegationTokenRequest build(final short version)
+    '''returns DescribeDelegationTokenRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

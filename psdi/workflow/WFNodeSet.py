@@ -1,27 +1,36 @@
-def WFNodeSet():
-    '''public WFNodeSet(final MboServerInterface ms)
+def ():
+    '''returns WFNodeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getStartNode():
-    '''public WFNode getStartNode()
+    '''returns WFNode\n\n
+    getStartNode()\n
     '''
 def getNode():
-    '''public WFNode getNode(final int nodeid)
+    '''returns WFNode\n\n
+    getNode(final int nodeid)\n
     '''
 def buildSubProcessList():
-    '''public void buildSubProcessList(final Hashtable<String, String> h, final String processName, final String processrev)
+    '''returns None\n\n
+    buildSubProcessList(final Hashtable<String, String> h, final String processName, final String processrev)\n
     '''
 def wfValidate():
-    '''public void wfValidate(final Vector<MXException> v, final Hashtable<String, String> hinfo)
+    '''returns None\n\n
+    wfValidate(final Vector<MXException> v, final Hashtable<String, String> hinfo)\n
     '''
 def hasPositiveStop():
-    '''public boolean hasPositiveStop(final String processName, final String processrev)
+    '''returns boolean\n\n
+    hasPositiveStop(final String processName, final String processrev)\n
     '''
 def hasNegativeStop():
-    '''public boolean hasNegativeStop(final String processName, final String processrev)
+    '''returns boolean\n\n
+    hasNegativeStop(final String processName, final String processrev)\n
     '''
 def getNextNodeNum():
-    '''public int getNextNodeNum()
+    '''returns int\n\n
+    getNextNodeNum()\n
     '''
 def duplicateNodes():
-    '''public void duplicateNodes(final WFNodeSet originalNodes)
+    '''returns None\n\n
+    duplicateNodes(final WFNodeSet originalNodes)\n
     '''

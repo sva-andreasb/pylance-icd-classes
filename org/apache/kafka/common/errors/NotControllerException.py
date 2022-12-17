@@ -1,4 +1,5 @@
-def NotControllerException():
-    '''public NotControllerException(final String message)
-    public NotControllerException(final String message, final Throwable cause)
+def ():
+    '''returns NotControllerException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

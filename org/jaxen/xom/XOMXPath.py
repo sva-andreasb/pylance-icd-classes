@@ -1,3 +1,4 @@
-def XOMXPath():
-    '''public XOMXPath(final String xpathExpr)
+def ():
+    '''returns XOMXPath\n\n
+    (final String xpathExpr)\n
     '''

@@ -1,88 +1,117 @@
-def OslcQueryTemplateInfo():
-    '''public OslcQueryTemplateInfo(final String templatename, final String pagesize, final String description, final boolean ispublic, final String role, final String owner, final String searchattributes, final String tlattribute, final String objectname)
+def ():
+    '''returns OslcQueryTemplateInfo\n\n
+    (final String templatename, final String pagesize, final String description, final boolean ispublic, final String role, final String owner, final String searchattributes, final String tlattribute, final String objectname)\n
     '''
 def getTemplatename():
-    '''public String getTemplatename()
+    '''returns String\n\n
+    getTemplatename()\n
     '''
 def getOwner():
-    '''public String getOwner()
+    '''returns String\n\n
+    getOwner()\n
     '''
 def getPagesize():
-    '''public String getPagesize()
+    '''returns String\n\n
+    getPagesize()\n
     '''
 def isPublic():
-    '''public boolean isPublic()
+    '''returns boolean\n\n
+    isPublic()\n
     '''
 def getRole():
-    '''public String getRole()
+    '''returns String\n\n
+    getRole()\n
     '''
 def getSearchAttributes():
-    '''public String getSearchAttributes()
+    '''returns String\n\n
+    getSearchAttributes()\n
     '''
 def getTlattribute():
-    '''public String getTlattribute()
+    '''returns String\n\n
+    getTlattribute()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def hasPermission():
-    '''public boolean hasPermission(final String personid)
+    '''returns boolean\n\n
+    hasPermission(final String personid)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def setSelectAttrList():
-    '''public void setSelectAttrList(final OslcQueryTemplateAttrInfo selectAttr)
+    '''returns None\n\n
+    setSelectAttrList(final OslcQueryTemplateAttrInfo selectAttr)\n
     '''
 def setOrderByAttrList():
-    '''public void setOrderByAttrList(final String selectAttr)
+    '''returns None\n\n
+    setOrderByAttrList(final String selectAttr)\n
     '''
 def setSearchAttrList():
-    '''public void setSearchAttrList(final String selectAttr)
+    '''returns None\n\n
+    setSearchAttrList(final String selectAttr)\n
     '''
 def setVisibleList():
-    '''public void setVisibleList(final String visibleAttr)
+    '''returns None\n\n
+    setVisibleList(final String visibleAttr)\n
     '''
 def getSelectClause():
-    '''public String getSelectClause()
+    '''returns String\n\n
+    getSelectClause()\n
     '''
 def getOrderbyClause():
-    '''public String getOrderbyClause()
+    '''returns String\n\n
+    getOrderbyClause()\n
     '''
 def getSearchAttr():
-    '''public String getSearchAttr()
+    '''returns String\n\n
+    getSearchAttr()\n
     '''
 def getVisibleList():
-    '''public List<String> getVisibleList()
+    '''returns List<String>\n\n
+    getVisibleList()\n
     '''
 def getSelectAttrList():
-    '''public List<OslcQueryTemplateAttrInfo> getSelectAttrList()
+    '''returns List<OslcQueryTemplateAttrInfo>\n\n
+    getSelectAttrList()\n
     '''
 def getSelectAttrArray():
-    '''public List<String> getSelectAttrArray()
+    '''returns List<String>\n\n
+    getSelectAttrArray()\n
     '''
 def getOrderbyAttrList():
-    '''public List<String> getOrderbyAttrList()
+    '''returns List<String>\n\n
+    getOrderbyAttrList()\n
     '''
 def getSearchAttrList():
-    '''public List<String> getSearchAttrList()
+    '''returns List<String>\n\n
+    getSearchAttrList()\n
     '''
 def calculateClausefromInfo():
-    '''public String calculateClausefromInfo(final List<OslcQueryTemplateAttrInfo> attrInfoList)
+    '''returns String\n\n
+    calculateClausefromInfo(final List<OslcQueryTemplateAttrInfo> attrInfoList)\n
     '''
 def calculateClausefromInfoAsJSON():
-    '''public OrderedJSONObject calculateClausefromInfoAsJSON()
-    public OrderedJSONObject calculateClausefromInfoAsJSON(final List<OslcQueryTemplateAttrInfo> attrInfoList)
+    '''returns OrderedJSONObject\n\n
+    calculateClausefromInfoAsJSON()\n
+    calculateClausefromInfoAsJSON(final List<OslcQueryTemplateAttrInfo> attrInfoList)\n
     '''
 def calculateClause():
-    '''public String calculateClause(final List<String> attrList)
+    '''returns String\n\n
+    calculateClause(final List<String> attrList)\n
     '''
 def addAttributes():
-    '''public void addAttributes(final String xattr, String curxattr, final OrderedJSONObject oobj)
+    '''returns None\n\n
+    addAttributes(final String xattr, String curxattr, final OrderedJSONObject oobj)\n
     '''
 def getAttributesClause():
-    '''public String getAttributesClause(final OrderedJSONObject oobj, final boolean initSelect, final boolean forSelect)
+    '''returns String\n\n
+    getAttributesClause(final OrderedJSONObject oobj, final boolean initSelect, final boolean forSelect)\n
     '''

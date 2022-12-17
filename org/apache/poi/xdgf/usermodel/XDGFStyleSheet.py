@@ -1,6 +1,8 @@
-def XDGFStyleSheet():
-    '''public XDGFStyleSheet(final StyleSheetType styleSheet, final XDGFDocument document)
+def ():
+    '''returns XDGFStyleSheet\n\n
+    (final StyleSheetType styleSheet, final XDGFDocument document)\n
     '''
 def getXmlObject():
-    '''public StyleSheetType getXmlObject()
+    '''returns StyleSheetType\n\n
+    getXmlObject()\n
     '''

@@ -1,30 +1,36 @@
-def main():
-    '''public static void main(final String[] array)
-    '''
-def Version():
-    '''public Version()
+def ():
+    '''returns Version\n\n
+    ()\n
     '''
 def getBuildDate():
-    '''public String getBuildDate()
+    '''returns String\n\n
+    getBuildDate()\n
     '''
 def getSpecificationVersion():
-    '''public String getSpecificationVersion()
+    '''returns String\n\n
+    getSpecificationVersion()\n
     '''
 def getSpecificationTitle():
-    '''public String getSpecificationTitle()
+    '''returns String\n\n
+    getSpecificationTitle()\n
     '''
 def getSpecificationVendor():
-    '''public String getSpecificationVendor()
+    '''returns String\n\n
+    getSpecificationVendor()\n
     '''
 def getImplementationVersion():
-    '''public String getImplementationVersion()
+    '''returns String\n\n
+    getImplementationVersion()\n
     '''
 def getImplementationTitle():
-    '''public String getImplementationTitle()
+    '''returns String\n\n
+    getImplementationTitle()\n
     '''
 def getImplementationVendor():
-    '''public String getImplementationVendor()
+    '''returns String\n\n
+    getImplementationVendor()\n
     '''
 def getFile():
-    '''public String getFile()
+    '''returns String\n\n
+    getFile()\n
     '''

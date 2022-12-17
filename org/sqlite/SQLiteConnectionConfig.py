@@ -1,42 +1,52 @@
-def fromPragmaTable():
-    '''public static SQLiteConnectionConfig fromPragmaTable(final Properties pragmaTable)
-    '''
-def SQLiteConnectionConfig():
-    '''public SQLiteConnectionConfig(final SQLiteConfig.DateClass dateClass, final SQLiteConfig.DatePrecision datePrecision, final String dateStringFormat, final int transactionIsolation, final SQLiteConfig.TransactionMode transactionMode, final boolean autoCommit)
+def ():
+    '''returns SQLiteConnectionConfig\n\n
+    (final SQLiteConfig.DateClass dateClass, final SQLiteConfig.DatePrecision datePrecision, final String dateStringFormat, final int transactionIsolation, final SQLiteConfig.TransactionMode transactionMode, final boolean autoCommit)\n
     '''
 def copyConfig():
-    '''public SQLiteConnectionConfig copyConfig()
+    '''returns SQLiteConnectionConfig\n\n
+    copyConfig()\n
     '''
 def getDateMultiplier():
-    '''public long getDateMultiplier()
+    '''returns long\n\n
+    getDateMultiplier()\n
     '''
 def setDateClass():
-    '''public void setDateClass(final SQLiteConfig.DateClass dateClass)
+    '''returns None\n\n
+    setDateClass(final SQLiteConfig.DateClass dateClass)\n
     '''
 def setDatePrecision():
-    '''public void setDatePrecision(final SQLiteConfig.DatePrecision datePrecision)
+    '''returns None\n\n
+    setDatePrecision(final SQLiteConfig.DatePrecision datePrecision)\n
     '''
 def getDateStringFormat():
-    '''public String getDateStringFormat()
+    '''returns String\n\n
+    getDateStringFormat()\n
     '''
 def setDateStringFormat():
-    '''public void setDateStringFormat(final String dateStringFormat)
+    '''returns None\n\n
+    setDateStringFormat(final String dateStringFormat)\n
     '''
 def getDateFormat():
-    '''public FastDateFormat getDateFormat()
+    '''returns FastDateFormat\n\n
+    getDateFormat()\n
     '''
 def isAutoCommit():
-    '''public boolean isAutoCommit()
+    '''returns boolean\n\n
+    isAutoCommit()\n
     '''
 def setAutoCommit():
-    '''public void setAutoCommit(final boolean autoCommit)
+    '''returns None\n\n
+    setAutoCommit(final boolean autoCommit)\n
     '''
 def getTransactionIsolation():
-    '''public int getTransactionIsolation()
+    '''returns int\n\n
+    getTransactionIsolation()\n
     '''
 def setTransactionIsolation():
-    '''public void setTransactionIsolation(final int transactionIsolation)
+    '''returns None\n\n
+    setTransactionIsolation(final int transactionIsolation)\n
     '''
 def setTransactionMode():
-    '''public void setTransactionMode(SQLiteConfig.TransactionMode transactionMode)
+    '''returns None\n\n
+    setTransactionMode(SQLiteConfig.TransactionMode transactionMode)\n
     '''

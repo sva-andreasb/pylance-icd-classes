@@ -1,49 +1,62 @@
-def RdfXmlAbbreviatedWriter():
-    '''public RdfXmlAbbreviatedWriter()
+def ():
+    '''returns XMLWriter\n\n
+    ()\n
+    (final Writer writer, final Model model, final int indent, final int tab)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String propName, final Object propValue)
+    '''returns Object\n\n
+    setProperty(final String propName, final Object propValue)\n
     '''
 def setErrorHandler():
-    '''public RDFErrorHandler setErrorHandler(final RDFErrorHandler errorHandler)
+    '''returns RDFErrorHandler\n\n
+    setErrorHandler(final RDFErrorHandler errorHandler)\n
     '''
 def write():
-    '''public void write(final Model model, final OutputStream out, final String base)
-    public void write(final Model model, final Writer writer, final String base)
+    '''returns None\n\n
+    write(final Model model, final OutputStream out, final String base)\n
+    write(final Model model, final Writer writer, final String base)\n
     '''
 def accept():
-    '''public boolean accept(final Statement statement)
-    '''
-def XMLWriter():
-    '''public XMLWriter(final Writer writer, final Model model, final int indent, final int tab)
+    '''returns boolean\n\n
+    accept(final Statement statement)\n
     '''
 def xmlDeclaration():
-    '''public void xmlDeclaration(final String encoding)
+    '''returns None\n\n
+    xmlDeclaration(final String encoding)\n
     '''
 def rootStartTag():
-    '''public void rootStartTag(final String namespaceUri, final String localName)
+    '''returns None\n\n
+    rootStartTag(final String namespaceUri, final String localName)\n
     '''
 def startTag():
-    '''public void startTag(final String namespaceUri, final String localName, final boolean isChildStartTag)
+    '''returns None\n\n
+    startTag(final String namespaceUri, final String localName, final boolean isChildStartTag)\n
     '''
 def attribute():
-    '''public void attribute(final String namespaceUri, final String localName, final String value)
+    '''returns None\n\n
+    attribute(final String namespaceUri, final String localName, final String value)\n
     '''
 def closeEmptyStartTag():
-    '''public void closeEmptyStartTag()
+    '''returns None\n\n
+    closeEmptyStartTag()\n
     '''
 def closeStartTag():
-    '''public void closeStartTag(final boolean isParent)
+    '''returns None\n\n
+    closeStartTag(final boolean isParent)\n
     '''
 def literal():
-    '''public void literal(final String literal)
+    '''returns None\n\n
+    literal(final String literal)\n
     '''
 def endTag():
-    '''public void endTag(final String namespaceUri, final String localName, final boolean isParent)
+    '''returns None\n\n
+    endTag(final String namespaceUri, final String localName, final boolean isParent)\n
     '''
 def rootEndTag():
-    '''public void rootEndTag(final String namespaceUri, final String localName, final boolean isParent)
+    '''returns None\n\n
+    rootEndTag(final String namespaceUri, final String localName, final boolean isParent)\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

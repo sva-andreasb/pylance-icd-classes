@@ -1,3 +1,4 @@
-def FragmentComposerPool():
-    '''public FragmentComposerPool(final int size)
+def ():
+    '''returns FragmentComposerPool\n\n
+    (final int size)\n
     '''

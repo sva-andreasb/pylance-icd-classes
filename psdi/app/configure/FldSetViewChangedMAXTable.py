@@ -1,6 +1,8 @@
-def FldSetViewChangedMAXTable():
-    '''public FldSetViewChangedMAXTable(final MboValue mbv)
+def ():
+    '''returns FldSetViewChangedMAXTable\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

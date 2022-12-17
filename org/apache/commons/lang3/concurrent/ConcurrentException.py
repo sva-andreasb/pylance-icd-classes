@@ -1,4 +1,5 @@
-def ConcurrentException():
-    '''public ConcurrentException(final Throwable cause)
-    public ConcurrentException(final String msg, final Throwable cause)
+def ():
+    '''returns ConcurrentException\n\n
+    (final Throwable cause)\n
+    (final String msg, final Throwable cause)\n
     '''

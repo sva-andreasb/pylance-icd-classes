@@ -1,46 +1,60 @@
-def DividedDateTimeField():
-    '''public DividedDateTimeField(final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType, final int n)
-    public DividedDateTimeField(final DateTimeField dateTimeField, final DurationField iRangeDurationField, final DateTimeFieldType dateTimeFieldType, final int iDivisor)
-    public DividedDateTimeField(final RemainderDateTimeField remainderDateTimeField, final DateTimeFieldType dateTimeFieldType)
-    public DividedDateTimeField(final RemainderDateTimeField remainderDateTimeField, final DurationField iRangeDurationField, final DateTimeFieldType dateTimeFieldType)
+def ():
+    '''returns DividedDateTimeField\n\n
+    (final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType, final int n)\n
+    (final DateTimeField dateTimeField, final DurationField iRangeDurationField, final DateTimeFieldType dateTimeFieldType, final int iDivisor)\n
+    (final RemainderDateTimeField remainderDateTimeField, final DateTimeFieldType dateTimeFieldType)\n
+    (final RemainderDateTimeField remainderDateTimeField, final DurationField iRangeDurationField, final DateTimeFieldType dateTimeFieldType)\n
     '''
 def getRangeDurationField():
-    '''public DurationField getRangeDurationField()
+    '''returns DurationField\n\n
+    getRangeDurationField()\n
     '''
 def get():
-    '''public int get(final long n)
+    '''returns int\n\n
+    get(final long n)\n
     '''
 def add():
-    '''public long add(final long n, final int n2)
-    public long add(final long n, final long n2)
+    '''returns long\n\n
+    add(final long n, final int n2)\n
+    add(final long n, final long n2)\n
     '''
 def addWrapField():
-    '''public long addWrapField(final long n, final int n2)
+    '''returns long\n\n
+    addWrapField(final long n, final int n2)\n
     '''
 def getDifference():
-    '''public int getDifference(final long n, final long n2)
+    '''returns int\n\n
+    getDifference(final long n, final long n2)\n
     '''
 def getDifferenceAsLong():
-    '''public long getDifferenceAsLong(final long n, final long n2)
+    '''returns long\n\n
+    getDifferenceAsLong(final long n, final long n2)\n
     '''
 def set():
-    '''public long set(final long n, final int n2)
+    '''returns long\n\n
+    set(final long n, final int n2)\n
     '''
 def getDurationField():
-    '''public DurationField getDurationField()
+    '''returns DurationField\n\n
+    getDurationField()\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue()
+    '''returns int\n\n
+    getMinimumValue()\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue()
+    '''returns int\n\n
+    getMaximumValue()\n
     '''
 def roundFloor():
-    '''public long roundFloor(final long n)
+    '''returns long\n\n
+    roundFloor(final long n)\n
     '''
 def remainder():
-    '''public long remainder(final long n)
+    '''returns long\n\n
+    remainder(final long n)\n
     '''
 def getDivisor():
-    '''public int getDivisor()
+    '''returns int\n\n
+    getDivisor()\n
     '''

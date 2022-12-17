@@ -1,9 +1,12 @@
 def compare():
-    '''public int compare(final E obj1, final E obj2)
+    '''returns int\n\n
+    compare(final E obj1, final E obj2)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''

@@ -1,12 +1,12 @@
 def GENERATEASSETSPREVIEW():
-    '''public int GENERATEASSETSPREVIEW()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    GENERATEASSETSPREVIEW()\n
     '''
 def CLEARFIELDS():
-    '''public int CLEARFIELDS()
+    '''returns int\n\n
+    CLEARFIELDS()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''

@@ -1,21 +1,28 @@
 def getLabelText():
-    '''public String getLabelText()
+    '''returns String\n\n
+    getLabelText()\n
     '''
 def setLabelText():
-    '''public void setLabelText(final String text)
+    '''returns None\n\n
+    setLabelText(final String text)\n
     '''
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def getLabelForControl():
-    '''public Object getLabelForControl()
+    '''returns Object\n\n
+    getLabelForControl()\n
     '''
 def setLabelForControl():
-    '''public void setLabelForControl(final Object o)
+    '''returns None\n\n
+    setLabelForControl(final Object o)\n
     '''
 def putProperty():
-    '''public void putProperty(final String anObject, final Object o, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    putProperty(final String anObject, final Object o, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def isLocaleDependentProperty():
-    '''public boolean isLocaleDependentProperty(final String anObject)
+    '''returns boolean\n\n
+    isLocaleDependentProperty(final String anObject)\n
     '''

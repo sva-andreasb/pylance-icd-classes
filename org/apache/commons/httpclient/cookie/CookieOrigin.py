@@ -1,15 +1,20 @@
-def CookieOrigin():
-    '''public CookieOrigin(final String host, final int port, final String path, final boolean secure)
+def ():
+    '''returns CookieOrigin\n\n
+    (final String host, final int port, final String path, final boolean secure)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''

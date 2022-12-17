@@ -1,9 +1,12 @@
-def CompanySet():
-    '''public CompanySet(final MboServerInterface ms)
+def ():
+    '''returns CompanySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def addCompanyCreationWarning():
-    '''public void addCompanyCreationWarning(final String company, final Vector addedOrgs, final Vector skippedOrgs)
+    '''returns None\n\n
+    addCompanyCreationWarning(final String company, final Vector addedOrgs, final Vector skippedOrgs)\n
     '''

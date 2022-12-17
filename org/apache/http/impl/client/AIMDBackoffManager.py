@@ -1,18 +1,24 @@
-def AIMDBackoffManager():
-    '''public AIMDBackoffManager(final ConnPoolControl<HttpRoute> connPerRoute)
+def ():
+    '''returns AIMDBackoffManager\n\n
+    (final ConnPoolControl<HttpRoute> connPerRoute)\n
     '''
 def backOff():
-    '''public void backOff(final HttpRoute route)
+    '''returns None\n\n
+    backOff(final HttpRoute route)\n
     '''
 def probe():
-    '''public void probe(final HttpRoute route)
+    '''returns None\n\n
+    probe(final HttpRoute route)\n
     '''
 def setBackoffFactor():
-    '''public void setBackoffFactor(final double d)
+    '''returns None\n\n
+    setBackoffFactor(final double d)\n
     '''
 def setCooldownMillis():
-    '''public void setCooldownMillis(final long l)
+    '''returns None\n\n
+    setCooldownMillis(final long l)\n
     '''
 def setPerHostConnectionCap():
-    '''public void setPerHostConnectionCap(final int cap)
+    '''returns None\n\n
+    setPerHostConnectionCap(final int cap)\n
     '''

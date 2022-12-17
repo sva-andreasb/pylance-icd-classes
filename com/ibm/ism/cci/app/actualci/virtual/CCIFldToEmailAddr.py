@@ -1,7 +1,9 @@
-def CCIFldToEmailAddr():
-    '''public CCIFldToEmailAddr()
-    public CCIFldToEmailAddr(final MboValue mbv)
+def ():
+    '''returns CCIFldToEmailAddr\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

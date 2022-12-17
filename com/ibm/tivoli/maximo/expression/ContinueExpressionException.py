@@ -1,9 +1,11 @@
-def ContinueExpressionException():
-    '''public ContinueExpressionException(final String message)
-    public ContinueExpressionException()
-    public ContinueExpressionException(final Exception e)
-    public ContinueExpressionException(final Exception e, final boolean throwException)
+def ():
+    '''returns ContinueExpressionException\n\n
+    (final String message)\n
+    ()\n
+    (final Exception e)\n
+    (final Exception e, final boolean throwException)\n
     '''
 def isThrowException():
-    '''public boolean isThrowException()
+    '''returns boolean\n\n
+    isThrowException()\n
     '''

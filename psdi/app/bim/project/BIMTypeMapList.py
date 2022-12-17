@@ -6,9 +6,11 @@ FIELD_SITEID = "String  \"SITEID\""
 FIELD_ORGID = "String  \"ORGID\""
 FIELD_BIMPROJECTID = "String  \"BIMPROJECTID\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
-def BIMTypeMapList():
-    '''public BIMTypeMapList(final MboSet ms)
+def ():
+    '''returns BIMTypeMapList\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

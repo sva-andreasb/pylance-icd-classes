@@ -1,147 +1,196 @@
-def ConfigurationInfo():
-    '''public ConfigurationInfo()
+def ():
+    '''returns ConfigurationInfo\n\n
+    ()\n
     '''
 def setConsoleEnabled():
-    '''public void setConsoleEnabled(final String showConsole)
+    '''returns None\n\n
+    setConsoleEnabled(final String showConsole)\n
     '''
 def isConsoleEnabled():
-    '''public String isConsoleEnabled()
+    '''returns String\n\n
+    isConsoleEnabled()\n
     '''
 def setShowException():
-    '''public void setShowException(final boolean showException)
+    '''returns None\n\n
+    setShowException(final boolean showException)\n
     '''
 def setShowSysTray():
-    '''public void setShowSysTray(final boolean showSysTray)
+    '''returns None\n\n
+    setShowSysTray(final boolean showSysTray)\n
     '''
 def isShowExceptionEnabled():
-    '''public boolean isShowExceptionEnabled()
+    '''returns boolean\n\n
+    isShowExceptionEnabled()\n
     '''
 def isSysTrayEnabled():
-    '''public boolean isSysTrayEnabled()
+    '''returns boolean\n\n
+    isSysTrayEnabled()\n
     '''
 def setInstalledJREList():
-    '''public void setInstalledJREList(final Vector vector)
+    '''returns None\n\n
+    setInstalledJREList(final Vector vector)\n
     '''
 def getInstalledJREList():
-    '''public String[][] getInstalledJREList()
+    '''returns String[][]\n\n
+    getInstalledJREList()\n
     '''
 def setInstalledJDKList():
-    '''public void setInstalledJDKList(final Vector vector)
+    '''returns None\n\n
+    setInstalledJDKList(final Vector vector)\n
     '''
 def getInstalledJDKList():
-    '''public String[][] getInstalledJDKList()
+    '''returns String[][]\n\n
+    getInstalledJDKList()\n
     '''
 def setJavaRuntimeVersion():
-    '''public void setJavaRuntimeVersion(final String javaVersion)
+    '''returns None\n\n
+    setJavaRuntimeVersion(final String javaVersion)\n
     '''
 def getJavaRuntimeVersion():
-    '''public String getJavaRuntimeVersion()
+    '''returns String\n\n
+    getJavaRuntimeVersion()\n
     '''
 def setJavaRuntimeType():
-    '''public void setJavaRuntimeType(final String javaRuntimePath)
+    '''returns None\n\n
+    setJavaRuntimeType(final String javaRuntimePath)\n
     '''
 def getJavaRuntimeType():
-    '''public String getJavaRuntimeType()
+    '''returns String\n\n
+    getJavaRuntimeType()\n
     '''
 def isIExplorerDefault():
-    '''public boolean isIExplorerDefault()
+    '''returns boolean\n\n
+    isIExplorerDefault()\n
     '''
 def setIExplorerDefault():
-    '''public void setIExplorerDefault(final boolean iexplorerDefault)
+    '''returns None\n\n
+    setIExplorerDefault(final boolean iexplorerDefault)\n
     '''
 def isNetscape6Default():
-    '''public boolean isNetscape6Default()
+    '''returns boolean\n\n
+    isNetscape6Default()\n
     '''
 def setNetscape6Default():
-    '''public void setNetscape6Default(final boolean netscape6Default)
+    '''returns None\n\n
+    setNetscape6Default(final boolean netscape6Default)\n
     '''
 def useDefaultProxy():
-    '''public boolean useDefaultProxy()
+    '''returns boolean\n\n
+    useDefaultProxy()\n
     '''
 def setDefaultProxySettings():
-    '''public void setDefaultProxySettings(final boolean useDefaultProxy)
+    '''returns None\n\n
+    setDefaultProxySettings(final boolean useDefaultProxy)\n
     '''
 def setProxySettingsString():
-    '''public void setProxySettingsString(final String proxySettings)
+    '''returns None\n\n
+    setProxySettingsString(final String proxySettings)\n
     '''
 def getProxyByPass():
-    '''public String getProxyByPass()
+    '''returns String\n\n
+    getProxyByPass()\n
     '''
 def setProxyByPass():
-    '''public void setProxyByPass(final String proxyByPass)
+    '''returns None\n\n
+    setProxyByPass(final String proxyByPass)\n
     '''
 def getAutoProxyURL():
-    '''public String getAutoProxyURL()
+    '''returns String\n\n
+    getAutoProxyURL()\n
     '''
 def setAutoProxyURL():
-    '''public void setAutoProxyURL(final String autoProxyURL)
+    '''returns None\n\n
+    setAutoProxyURL(final String autoProxyURL)\n
     '''
 def getProxySettingsString():
-    '''public String getProxySettingsString()
+    '''returns String\n\n
+    getProxySettingsString()\n
     '''
 def setJavaParms():
-    '''public void setJavaParms(final String javaParms)
+    '''returns None\n\n
+    setJavaParms(final String javaParms)\n
     '''
 def getJavaParms():
-    '''public String getJavaParms()
+    '''returns String\n\n
+    getJavaParms()\n
     '''
 def getCertificateAliases():
-    '''public Collection getCertificateAliases()
+    '''returns Collection\n\n
+    getCertificateAliases()\n
     '''
 def getHttpsCertificateAliases():
-    '''public Collection getHttpsCertificateAliases()
+    '''returns Collection\n\n
+    getHttpsCertificateAliases()\n
     '''
 def getRootCACertificateAliases():
-    '''public Collection getRootCACertificateAliases()
+    '''returns Collection\n\n
+    getRootCACertificateAliases()\n
     '''
 def getHttpsRootCACertAliases():
-    '''public Collection getHttpsRootCACertAliases()
+    '''returns Collection\n\n
+    getHttpsRootCACertAliases()\n
     '''
 def getCertificate():
-    '''public Certificate getCertificate(final String anObject)
+    '''returns Certificate\n\n
+    getCertificate(final String anObject)\n
     '''
 def getHttpsCertificate():
-    '''public Certificate getHttpsCertificate(final String anObject)
+    '''returns Certificate\n\n
+    getHttpsCertificate(final String anObject)\n
     '''
 def getRootCACertificate():
-    '''public Certificate getRootCACertificate(final String anObject)
+    '''returns Certificate\n\n
+    getRootCACertificate(final String anObject)\n
     '''
 def getHttpsRootCACertificate():
-    '''public Certificate getHttpsRootCACertificate(final String anObject)
+    '''returns Certificate\n\n
+    getHttpsRootCACertificate(final String anObject)\n
     '''
 def deactivateCertificate():
-    '''public void deactivateCertificate(final String s)
+    '''returns None\n\n
+    deactivateCertificate(final String s)\n
     '''
 def deactivateImpCertificate():
-    '''public void deactivateImpCertificate(final X509Certificate x509Certificate)
+    '''returns None\n\n
+    deactivateImpCertificate(final X509Certificate x509Certificate)\n
     '''
 def getImpCertificate():
-    '''public X509Certificate getImpCertificate(final String key)
+    '''returns X509Certificate\n\n
+    getImpCertificate(final String key)\n
     '''
 def deactivateHttpsCertificate():
-    '''public void deactivateHttpsCertificate(final String s)
+    '''returns None\n\n
+    deactivateHttpsCertificate(final String s)\n
     '''
 def deactivateImpHttpsCertificate():
-    '''public void deactivateImpHttpsCertificate(final X509Certificate x509Certificate)
+    '''returns None\n\n
+    deactivateImpHttpsCertificate(final X509Certificate x509Certificate)\n
     '''
 def getImpHttpsCertificate():
-    '''public X509Certificate getImpHttpsCertificate(final String key)
+    '''returns X509Certificate\n\n
+    getImpHttpsCertificate(final String key)\n
     '''
 def applyChanges():
-    '''public void applyChanges()
+    '''returns None\n\n
+    applyChanges()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def setShowBrowserPanel():
-    '''public void setShowBrowserPanel(final boolean showBrowserPanel)
+    '''returns None\n\n
+    setShowBrowserPanel(final boolean showBrowserPanel)\n
     '''
 def isShowBrowserPanel():
-    '''public boolean isShowBrowserPanel()
+    '''returns boolean\n\n
+    isShowBrowserPanel()\n
     '''

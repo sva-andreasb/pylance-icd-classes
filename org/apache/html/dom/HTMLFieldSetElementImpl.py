@@ -1,3 +1,4 @@
-def HTMLFieldSetElementImpl():
-    '''public HTMLFieldSetElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLFieldSetElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

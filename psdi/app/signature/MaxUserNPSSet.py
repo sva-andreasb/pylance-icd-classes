@@ -1,3 +1,4 @@
-def MaxUserNPSSet():
-    '''public MaxUserNPSSet(final MboServerInterface ms)
+def ():
+    '''returns MaxUserNPSSet\n\n
+    (final MboServerInterface ms)\n
     '''

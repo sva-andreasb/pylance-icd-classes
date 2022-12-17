@@ -1,3 +1,4 @@
-def FldShipmentShipTo():
-    '''public FldShipmentShipTo(final MboValue mbv)
+def ():
+    '''returns FldShipmentShipTo\n\n
+    (final MboValue mbv)\n
     '''

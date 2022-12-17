@@ -1,3 +1,4 @@
-def CmdSub():
-    '''public CmdSub(final String... argv)
+def ():
+    '''returns CmdSub\n\n
+    (final String... argv)\n
     '''

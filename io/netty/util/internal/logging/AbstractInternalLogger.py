@@ -1,32 +1,41 @@
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final InternalLogLevel level)
+    '''returns boolean\n\n
+    isEnabled(final InternalLogLevel level)\n
     '''
 def trace():
-    '''public void trace(final Throwable t)
+    '''returns None\n\n
+    trace(final Throwable t)\n
     '''
 def debug():
-    '''public void debug(final Throwable t)
+    '''returns None\n\n
+    debug(final Throwable t)\n
     '''
 def info():
-    '''public void info(final Throwable t)
+    '''returns None\n\n
+    info(final Throwable t)\n
     '''
 def warn():
-    '''public void warn(final Throwable t)
+    '''returns None\n\n
+    warn(final Throwable t)\n
     '''
 def error():
-    '''public void error(final Throwable t)
+    '''returns None\n\n
+    error(final Throwable t)\n
     '''
 def log():
-    '''public void log(final InternalLogLevel level, final String msg, final Throwable cause)
-    public void log(final InternalLogLevel level, final Throwable cause)
-    public void log(final InternalLogLevel level, final String msg)
-    public void log(final InternalLogLevel level, final String format, final Object arg)
-    public void log(final InternalLogLevel level, final String format, final Object argA, final Object argB)
-    public void log(final InternalLogLevel level, final String format, final Object... arguments)
+    '''returns None\n\n
+    log(final InternalLogLevel level, final String msg, final Throwable cause)\n
+    log(final InternalLogLevel level, final Throwable cause)\n
+    log(final InternalLogLevel level, final String msg)\n
+    log(final InternalLogLevel level, final String format, final Object arg)\n
+    log(final InternalLogLevel level, final String format, final Object argA, final Object argB)\n
+    log(final InternalLogLevel level, final String format, final Object... arguments)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

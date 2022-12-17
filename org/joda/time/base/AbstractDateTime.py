@@ -1,68 +1,90 @@
 def get():
-    '''public int get(final DateTimeFieldType dateTimeFieldType)
+    '''returns int\n\n
+    get(final DateTimeFieldType dateTimeFieldType)\n
     '''
 def getEra():
-    '''public int getEra()
+    '''returns int\n\n
+    getEra()\n
     '''
 def getCenturyOfEra():
-    '''public int getCenturyOfEra()
+    '''returns int\n\n
+    getCenturyOfEra()\n
     '''
 def getYearOfEra():
-    '''public int getYearOfEra()
+    '''returns int\n\n
+    getYearOfEra()\n
     '''
 def getYearOfCentury():
-    '''public int getYearOfCentury()
+    '''returns int\n\n
+    getYearOfCentury()\n
     '''
 def getYear():
-    '''public int getYear()
+    '''returns int\n\n
+    getYear()\n
     '''
 def getWeekyear():
-    '''public int getWeekyear()
+    '''returns int\n\n
+    getWeekyear()\n
     '''
 def getMonthOfYear():
-    '''public int getMonthOfYear()
+    '''returns int\n\n
+    getMonthOfYear()\n
     '''
 def getWeekOfWeekyear():
-    '''public int getWeekOfWeekyear()
+    '''returns int\n\n
+    getWeekOfWeekyear()\n
     '''
 def getDayOfYear():
-    '''public int getDayOfYear()
+    '''returns int\n\n
+    getDayOfYear()\n
     '''
 def getDayOfMonth():
-    '''public int getDayOfMonth()
+    '''returns int\n\n
+    getDayOfMonth()\n
     '''
 def getDayOfWeek():
-    '''public int getDayOfWeek()
+    '''returns int\n\n
+    getDayOfWeek()\n
     '''
 def getHourOfDay():
-    '''public int getHourOfDay()
+    '''returns int\n\n
+    getHourOfDay()\n
     '''
 def getMinuteOfDay():
-    '''public int getMinuteOfDay()
+    '''returns int\n\n
+    getMinuteOfDay()\n
     '''
 def getMinuteOfHour():
-    '''public int getMinuteOfHour()
+    '''returns int\n\n
+    getMinuteOfHour()\n
     '''
 def getSecondOfDay():
-    '''public int getSecondOfDay()
+    '''returns int\n\n
+    getSecondOfDay()\n
     '''
 def getSecondOfMinute():
-    '''public int getSecondOfMinute()
+    '''returns int\n\n
+    getSecondOfMinute()\n
     '''
 def getMillisOfDay():
-    '''public int getMillisOfDay()
+    '''returns int\n\n
+    getMillisOfDay()\n
     '''
 def getMillisOfSecond():
-    '''public int getMillisOfSecond()
+    '''returns int\n\n
+    getMillisOfSecond()\n
     '''
 def toCalendar():
-    '''public Calendar toCalendar(Locale default1)
+    '''returns Calendar\n\n
+    toCalendar(Locale default1)\n
     '''
 def toGregorianCalendar():
-    '''public GregorianCalendar toGregorianCalendar()
+    '''returns GregorianCalendar\n\n
+    toGregorianCalendar()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String s)
-    public String toString(final String s, final Locale locale)
+    '''returns String\n\n
+    toString()\n
+    toString(final String s)\n
+    toString(final String s, final Locale locale)\n
     '''

@@ -1,0 +1,1 @@
+OOXML_DEGREE = "double  60000.0"

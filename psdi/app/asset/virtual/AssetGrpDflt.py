@@ -1,3 +1,4 @@
-def AssetGrpDflt():
-    '''public AssetGrpDflt(final MboSet ms)
+def ():
+    '''returns AssetGrpDflt\n\n
+    (final MboSet ms)\n
     '''

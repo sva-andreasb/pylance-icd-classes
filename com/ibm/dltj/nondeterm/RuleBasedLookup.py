@@ -1,19 +1,21 @@
-def RuleBasedLookup():
-    '''public RuleBasedLookup(final CharacterBufferPool characterBufferPool, final Pool pool, final Pool pool2)
-    public RuleBasedLookup(final CharacterBufferPool characterBufferPool)
-    '''
-def getInstance():
-    '''public static RuleBasedLookup getInstance()
+def ():
+    '''returns RuleBasedLookup\n\n
+    (final CharacterBufferPool characterBufferPool, final Pool pool, final Pool pool2)\n
+    (final CharacterBufferPool characterBufferPool)\n
     '''
 def assignIncrements():
-    '''public void assignIncrements()
+    '''returns None\n\n
+    assignIncrements()\n
     '''
 def assignOperations():
-    '''public void assignOperations(final AppmWalkerOptions appmWalkerOptions)
+    '''returns None\n\n
+    assignOperations(final AppmWalkerOptions appmWalkerOptions)\n
     '''
 def getTolerance():
-    '''public int getTolerance(final int n)
+    '''returns int\n\n
+    getTolerance(final int n)\n
     '''
 def lookup():
-    '''public LookupResult lookup(final String s, final Dictionary[] array, final Dictionary dictionary)
+    '''returns LookupResult\n\n
+    lookup(final String s, final Dictionary[] array, final Dictionary dictionary)\n
     '''

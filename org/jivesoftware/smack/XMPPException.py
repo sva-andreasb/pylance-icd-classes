@@ -1,30 +1,37 @@
-def XMPPException():
-    '''public XMPPException()
-    public XMPPException(final String message)
-    public XMPPException(final Throwable wrappedThrowable)
-    public XMPPException(final StreamError streamError)
-    public XMPPException(final XMPPError error)
-    public XMPPException(final String message, final Throwable wrappedThrowable)
-    public XMPPException(final String message, final XMPPError error, final Throwable wrappedThrowable)
-    public XMPPException(final String message, final XMPPError error)
+def ():
+    '''returns XMPPException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable wrappedThrowable)\n
+    (final StreamError streamError)\n
+    (final XMPPError error)\n
+    (final String message, final Throwable wrappedThrowable)\n
+    (final String message, final XMPPError error, final Throwable wrappedThrowable)\n
+    (final String message, final XMPPError error)\n
     '''
 def getXMPPError():
-    '''public XMPPError getXMPPError()
+    '''returns XMPPError\n\n
+    getXMPPError()\n
     '''
 def getStreamError():
-    '''public StreamError getStreamError()
+    '''returns StreamError\n\n
+    getStreamError()\n
     '''
 def getWrappedThrowable():
-    '''public Throwable getWrappedThrowable()
+    '''returns Throwable\n\n
+    getWrappedThrowable()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream out)
-    public void printStackTrace(final PrintWriter out)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream out)\n
+    printStackTrace(final PrintWriter out)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

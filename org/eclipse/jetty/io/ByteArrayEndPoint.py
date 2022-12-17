@@ -1,99 +1,131 @@
-def ByteArrayEndPoint():
-    '''public ByteArrayEndPoint()
-    public ByteArrayEndPoint(final byte[] input, final int outputSize)
+def ():
+    '''returns ByteArrayEndPoint\n\n
+    ()\n
+    (final byte[] input, final int outputSize)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def setConnection():
-    '''public void setConnection(final Connection connection)
+    '''returns None\n\n
+    setConnection(final Connection connection)\n
     '''
 def isNonBlocking():
-    '''public boolean isNonBlocking()
+    '''returns boolean\n\n
+    isNonBlocking()\n
     '''
 def setNonBlocking():
-    '''public void setNonBlocking(final boolean nonBlocking)
+    '''returns None\n\n
+    setNonBlocking(final boolean nonBlocking)\n
     '''
 def getIn():
-    '''public ByteArrayBuffer getIn()
+    '''returns ByteArrayBuffer\n\n
+    getIn()\n
     '''
 def setIn():
-    '''public void setIn(final ByteArrayBuffer in)
+    '''returns None\n\n
+    setIn(final ByteArrayBuffer in)\n
     '''
 def getOut():
-    '''public ByteArrayBuffer getOut()
+    '''returns ByteArrayBuffer\n\n
+    getOut()\n
     '''
 def setOut():
-    '''public void setOut(final ByteArrayBuffer out)
+    '''returns None\n\n
+    setOut(final ByteArrayBuffer out)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def isInputShutdown():
-    '''public boolean isInputShutdown()
+    '''returns boolean\n\n
+    isInputShutdown()\n
     '''
 def isOutputShutdown():
-    '''public boolean isOutputShutdown()
+    '''returns boolean\n\n
+    isOutputShutdown()\n
     '''
 def isBlocking():
-    '''public boolean isBlocking()
+    '''returns boolean\n\n
+    isBlocking()\n
     '''
 def blockReadable():
-    '''public boolean blockReadable(final long millisecs)
+    '''returns boolean\n\n
+    blockReadable(final long millisecs)\n
     '''
 def blockWritable():
-    '''public boolean blockWritable(final long millisecs)
+    '''returns boolean\n\n
+    blockWritable(final long millisecs)\n
     '''
 def shutdownOutput():
-    '''public void shutdownOutput()
+    '''returns None\n\n
+    shutdownOutput()\n
     '''
 def shutdownInput():
-    '''public void shutdownInput()
+    '''returns None\n\n
+    shutdownInput()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def fill():
-    '''public int fill(final Buffer buffer)
+    '''returns int\n\n
+    fill(final Buffer buffer)\n
     '''
 def flush():
-    '''public int flush(final Buffer buffer)
-    public int flush(final Buffer header, final Buffer buffer, final Buffer trailer)
-    public void flush()
+    '''returns None\n\n
+    flush(final Buffer buffer)\n
+    flush(final Buffer header, final Buffer buffer, final Buffer trailer)\n
+    flush()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getLocalAddr():
-    '''public String getLocalAddr()
+    '''returns String\n\n
+    getLocalAddr()\n
     '''
 def getLocalHost():
-    '''public String getLocalHost()
+    '''returns String\n\n
+    getLocalHost()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getRemoteAddr():
-    '''public String getRemoteAddr()
+    '''returns String\n\n
+    getRemoteAddr()\n
     '''
 def getRemoteHost():
-    '''public String getRemoteHost()
+    '''returns String\n\n
+    getRemoteHost()\n
     '''
 def getRemotePort():
-    '''public int getRemotePort()
+    '''returns int\n\n
+    getRemotePort()\n
     '''
 def getTransport():
-    '''public Object getTransport()
+    '''returns Object\n\n
+    getTransport()\n
     '''
 def isGrowOutput():
-    '''public boolean isGrowOutput()
+    '''returns boolean\n\n
+    isGrowOutput()\n
     '''
 def setGrowOutput():
-    '''public void setGrowOutput(final boolean growOutput)
+    '''returns None\n\n
+    setGrowOutput(final boolean growOutput)\n
     '''
 def getMaxIdleTime():
-    '''public int getMaxIdleTime()
+    '''returns int\n\n
+    getMaxIdleTime()\n
     '''
 def setMaxIdleTime():
-    '''public void setMaxIdleTime(final int timeMs)
+    '''returns None\n\n
+    setMaxIdleTime(final int timeMs)\n
     '''

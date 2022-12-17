@@ -1,3 +1,4 @@
-def FldTkTemplateOrgID():
-    '''public FldTkTemplateOrgID(final MboValue mbv)
+def ():
+    '''returns FldTkTemplateOrgID\n\n
+    (final MboValue mbv)\n
     '''

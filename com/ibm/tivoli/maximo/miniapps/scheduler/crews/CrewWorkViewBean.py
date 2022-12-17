@@ -1,15 +1,20 @@
 def _toggleview():
-    '''public JSONObject _toggleview(final WebClientSession sess, final String ids, final String values)
+    '''returns JSONObject\n\n
+    _toggleview(final WebClientSession sess, final String ids, final String values)\n
     '''
 def _pre3wks():
-    '''public JSONObject _pre3wks(final WebClientSession sess, final String ids, final String values)
+    '''returns JSONObject\n\n
+    _pre3wks(final WebClientSession sess, final String ids, final String values)\n
     '''
 def _next3wks():
-    '''public JSONObject _next3wks(final WebClientSession sess, final String ids, final String values)
+    '''returns JSONObject\n\n
+    _next3wks(final WebClientSession sess, final String ids, final String values)\n
     '''
 def loadSchedulerProject():
-    '''public void loadSchedulerProject(final WebClientSession sess)
+    '''returns None\n\n
+    loadSchedulerProject(final WebClientSession sess)\n
     '''
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''

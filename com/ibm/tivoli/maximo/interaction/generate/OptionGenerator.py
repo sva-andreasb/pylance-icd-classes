@@ -1,39 +1,50 @@
-def OptionGenerator():
-    '''public OptionGenerator()
+def ():
+    '''returns OptionGenerator\n\n
+    ()\n
     '''
 def addOption():
-    '''public String addOption(final String appName, final String interaction, final String description, final UserInfo userInfo, final boolean createMenu, final MXTransaction trans, final Vector selected, final boolean isSilent)
-    public String addOption(final String appName, final String interaction, final String mapOption, final MXTransaction trans, final UserInfo userInfo, final Vector selected)
+    '''returns String\n\n
+    addOption(final String appName, final String interaction, final String description, final UserInfo userInfo, final boolean createMenu, final MXTransaction trans, final Vector selected, final boolean isSilent)\n
+    addOption(final String appName, final String interaction, final String mapOption, final MXTransaction trans, final UserInfo userInfo, final Vector selected)\n
     '''
 def deleteOption():
-    '''public void deleteOption(final String appName, final String optionName, final UserInfo userInfo, final MXTransaction trans)
+    '''returns None\n\n
+    deleteOption(final String appName, final String optionName, final UserInfo userInfo, final MXTransaction trans)\n
     '''
 def includeSigOption():
-    '''public String includeSigOption(final String interaction, final String appName, final String sigName, final String sigDesc, final boolean isSilent, final Document appDocument, final UserInfo userInfo, final MXTransaction trans, int start)
+    '''returns String\n\n
+    includeSigOption(final String interaction, final String appName, final String sigName, final String sigDesc, final boolean isSilent, final Document appDocument, final UserInfo userInfo, final MXTransaction trans, int start)\n
     '''
 def addSigOption():
-    '''public String addSigOption(final String appName, final String sigName, final String sigDesc, final UserInfo userInfo, final MXTransaction trans)
-    public String addSigOption(final String appName, final String sigName, final String sigDesc, final String alsoGrants, final String alsoRevokes, final String prerequisite, final UserInfo userInfo, final MXTransaction trans)
+    '''returns String\n\n
+    addSigOption(final String appName, final String sigName, final String sigDesc, final UserInfo userInfo, final MXTransaction trans)\n
+    addSigOption(final String appName, final String sigName, final String sigDesc, final String alsoGrants, final String alsoRevokes, final String prerequisite, final UserInfo userInfo, final MXTransaction trans)\n
     '''
 def includeAppAuth():
-    '''public void includeAppAuth(final String appName, final String sigName, final UserInfo userInfo, final MXTransaction trans, final Vector selected)
-    public void includeAppAuth(final String appName, final String sigName, final String conditionNum, final UserInfo userInfo, final MXTransaction trans, final Vector selected)
-    public void includeAppAuth(final String appName, final String sigName, final String conditionNum, final UserInfo userInfo, final MXTransaction trans, final Set<String> groupNames)
+    '''returns None\n\n
+    includeAppAuth(final String appName, final String sigName, final UserInfo userInfo, final MXTransaction trans, final Vector selected)\n
+    includeAppAuth(final String appName, final String sigName, final String conditionNum, final UserInfo userInfo, final MXTransaction trans, final Vector selected)\n
+    includeAppAuth(final String appName, final String sigName, final String conditionNum, final UserInfo userInfo, final MXTransaction trans, final Set<String> groupNames)\n
     '''
 def addAllAppAuth():
-    '''public void addAllAppAuth(final String appName, final String sigName, final String prerequisite, final UserInfo userInfo, final MXTransaction trans)
-    public void addAllAppAuth(final String appName, final String sigName, String prerequisite, final String conditionNum, final UserInfo userInfo, final MXTransaction trans)
+    '''returns None\n\n
+    addAllAppAuth(final String appName, final String sigName, final String prerequisite, final UserInfo userInfo, final MXTransaction trans)\n
+    addAllAppAuth(final String appName, final String sigName, String prerequisite, final String conditionNum, final UserInfo userInfo, final MXTransaction trans)\n
     '''
 def addAppToolOption():
-    '''public int addAppToolOption(final String appName, final String sigName, final String imageSource, int preferredSpot, final UserInfo userInfo, final MXTransaction trans)
+    '''returns int\n\n
+    addAppToolOption(final String appName, final String sigName, final String imageSource, int preferredSpot, final UserInfo userInfo, final MXTransaction trans)\n
     '''
 def addMenuOption():
-    '''public void addMenuOption(final String appName, final String sigName, final String menuType, final int preferredSpot, final int preferredSubSpot, final String tabDisplay, final String imageSource, final UserInfo userInfo, final MXTransaction trans)
-    public void addMenuOption(final String appName, final String sigName, final String menuType, final int preferredSpot, final int preferredSubSpot, final String tabDisplay, final String imageSource, final String accessKey, final UserInfo userInfo, final MXTransaction trans)
+    '''returns None\n\n
+    addMenuOption(final String appName, final String sigName, final String menuType, final int preferredSpot, final int preferredSubSpot, final String tabDisplay, final String imageSource, final UserInfo userInfo, final MXTransaction trans)\n
+    addMenuOption(final String appName, final String sigName, final String menuType, final int preferredSpot, final int preferredSubSpot, final String tabDisplay, final String imageSource, final String accessKey, final UserInfo userInfo, final MXTransaction trans)\n
     '''
 def checkSigOption():
-    '''public MboSetRemote checkSigOption(final String appName, final String sigName, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    checkSigOption(final String appName, final String sigName, final UserInfo userInfo)\n
     '''
 def checkMenuOption():
-    '''public MboSetRemote checkMenuOption(final String appName, final String sigName, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    checkMenuOption(final String appName, final String sigName, final UserInfo userInfo)\n
     '''

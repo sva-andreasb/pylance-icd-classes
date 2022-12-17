@@ -1,12 +1,16 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def execute():
-    '''public int execute(final MboSetRemote mboset)
+    '''returns int\n\n
+    execute(final MboSetRemote mboset)\n
     '''
 def doRefresh():
-    '''public int doRefresh()
+    '''returns int\n\n
+    doRefresh()\n
     '''
 def findrecords():
-    '''public void findrecords()
+    '''returns None\n\n
+    findrecords()\n
     '''

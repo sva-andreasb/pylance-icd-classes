@@ -1,63 +1,84 @@
-def CTShapeLayoutImpl():
-    '''public CTShapeLayoutImpl(final SchemaType schemaType)
+def ():
+    '''returns CTShapeLayoutImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getIdmap():
-    '''public CTIdMap getIdmap()
+    '''returns CTIdMap\n\n
+    getIdmap()\n
     '''
 def isSetIdmap():
-    '''public boolean isSetIdmap()
+    '''returns boolean\n\n
+    isSetIdmap()\n
     '''
 def setIdmap():
-    '''public void setIdmap(final CTIdMap ctIdMap)
+    '''returns None\n\n
+    setIdmap(final CTIdMap ctIdMap)\n
     '''
 def addNewIdmap():
-    '''public CTIdMap addNewIdmap()
+    '''returns CTIdMap\n\n
+    addNewIdmap()\n
     '''
 def unsetIdmap():
-    '''public void unsetIdmap()
+    '''returns None\n\n
+    unsetIdmap()\n
     '''
 def getRegrouptable():
-    '''public CTRegroupTable getRegrouptable()
+    '''returns CTRegroupTable\n\n
+    getRegrouptable()\n
     '''
 def isSetRegrouptable():
-    '''public boolean isSetRegrouptable()
+    '''returns boolean\n\n
+    isSetRegrouptable()\n
     '''
 def setRegrouptable():
-    '''public void setRegrouptable(final CTRegroupTable ctRegroupTable)
+    '''returns None\n\n
+    setRegrouptable(final CTRegroupTable ctRegroupTable)\n
     '''
 def addNewRegrouptable():
-    '''public CTRegroupTable addNewRegrouptable()
+    '''returns CTRegroupTable\n\n
+    addNewRegrouptable()\n
     '''
 def unsetRegrouptable():
-    '''public void unsetRegrouptable()
+    '''returns None\n\n
+    unsetRegrouptable()\n
     '''
 def getRules():
-    '''public CTRules getRules()
+    '''returns CTRules\n\n
+    getRules()\n
     '''
 def isSetRules():
-    '''public boolean isSetRules()
+    '''returns boolean\n\n
+    isSetRules()\n
     '''
 def setRules():
-    '''public void setRules(final CTRules ctRules)
+    '''returns None\n\n
+    setRules(final CTRules ctRules)\n
     '''
 def addNewRules():
-    '''public CTRules addNewRules()
+    '''returns CTRules\n\n
+    addNewRules()\n
     '''
 def unsetRules():
-    '''public void unsetRules()
+    '''returns None\n\n
+    unsetRules()\n
     '''
 def xgetExt():
-    '''public STExt xgetExt()
+    '''returns STExt\n\n
+    xgetExt()\n
     '''
 def isSetExt():
-    '''public boolean isSetExt()
+    '''returns boolean\n\n
+    isSetExt()\n
     '''
 def setExt():
-    '''public void setExt(final STExt.Enum enumValue)
+    '''returns None\n\n
+    setExt(final STExt.Enum enumValue)\n
     '''
 def xsetExt():
-    '''public void xsetExt(final STExt stExt)
+    '''returns None\n\n
+    xsetExt(final STExt stExt)\n
     '''
 def unsetExt():
-    '''public void unsetExt()
+    '''returns None\n\n
+    unsetExt()\n
     '''

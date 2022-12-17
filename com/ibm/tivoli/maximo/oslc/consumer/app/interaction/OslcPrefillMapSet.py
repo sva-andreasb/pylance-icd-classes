@@ -1,3 +1,4 @@
-def OslcPrefillMapSet():
-    '''public OslcPrefillMapSet(final MboServerInterface ms)
+def ():
+    '''returns OslcPrefillMapSet\n\n
+    (final MboServerInterface ms)\n
     '''

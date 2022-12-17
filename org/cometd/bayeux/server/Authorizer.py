@@ -1,16 +1,9 @@
-def deny():
-    '''public static Result deny(final String reason)
-    '''
-def grant():
-    '''public static Result grant()
-    '''
-def ignore():
-    '''public static Result ignore()
-    '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''

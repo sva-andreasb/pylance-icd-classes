@@ -1,16 +1,21 @@
-def GaussIntegrator():
-    '''public GaussIntegrator(final double[] points, final double[] weights)
-    public GaussIntegrator(final Pair<double[], double[]> pointsAndWeights)
+def ():
+    '''returns GaussIntegrator\n\n
+    (final double[] points, final double[] weights)\n
+    (final Pair<double[], double[]> pointsAndWeights)\n
     '''
 def integrate():
-    '''public double integrate(final UnivariateFunction f)
+    '''returns double\n\n
+    integrate(final UnivariateFunction f)\n
     '''
 def getNumberOfPoints():
-    '''public int getNumberOfPoints()
+    '''returns int\n\n
+    getNumberOfPoints()\n
     '''
 def getPoint():
-    '''public double getPoint(final int index)
+    '''returns double\n\n
+    getPoint(final int index)\n
     '''
 def getWeight():
-    '''public double getWeight(final int index)
+    '''returns double\n\n
+    getWeight(final int index)\n
     '''

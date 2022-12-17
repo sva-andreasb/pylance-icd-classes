@@ -1,6 +1,8 @@
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setHasBeenFoundForNode():
-    '''public void setHasBeenFoundForNode(final boolean hasBeenFoundForNode, final int softwareID)
+    '''returns None\n\n
+    setHasBeenFoundForNode(final boolean hasBeenFoundForNode, final int softwareID)\n
     '''

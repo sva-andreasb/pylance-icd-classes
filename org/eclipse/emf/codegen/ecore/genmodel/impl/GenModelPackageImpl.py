@@ -1,321 +1,424 @@
-def init():
-    '''public static GenModelPackage init()
-    '''
 def getGenModel():
-    '''public EClass getGenModel()
+    '''returns EClass\n\n
+    getGenModel()\n
     '''
 def getGenModel_CopyrightText():
-    '''public EAttribute getGenModel_CopyrightText()
+    '''returns EAttribute\n\n
+    getGenModel_CopyrightText()\n
     '''
 def getGenModel_ModelDirectory():
-    '''public EAttribute getGenModel_ModelDirectory()
+    '''returns EAttribute\n\n
+    getGenModel_ModelDirectory()\n
     '''
 def getGenModel_CreationCommands():
-    '''public EAttribute getGenModel_CreationCommands()
+    '''returns EAttribute\n\n
+    getGenModel_CreationCommands()\n
     '''
 def getGenModel_CreationIcons():
-    '''public EAttribute getGenModel_CreationIcons()
+    '''returns EAttribute\n\n
+    getGenModel_CreationIcons()\n
     '''
 def getGenModel_EditDirectory():
-    '''public EAttribute getGenModel_EditDirectory()
+    '''returns EAttribute\n\n
+    getGenModel_EditDirectory()\n
     '''
 def getGenModel_EditorDirectory():
-    '''public EAttribute getGenModel_EditorDirectory()
+    '''returns EAttribute\n\n
+    getGenModel_EditorDirectory()\n
     '''
 def getGenModel_ModelPluginID():
-    '''public EAttribute getGenModel_ModelPluginID()
+    '''returns EAttribute\n\n
+    getGenModel_ModelPluginID()\n
     '''
 def getGenModel_TemplateDirectory():
-    '''public EAttribute getGenModel_TemplateDirectory()
+    '''returns EAttribute\n\n
+    getGenModel_TemplateDirectory()\n
     '''
 def getGenModel_RuntimeJar():
-    '''public EAttribute getGenModel_RuntimeJar()
+    '''returns EAttribute\n\n
+    getGenModel_RuntimeJar()\n
     '''
 def getGenModel_ForeignModel():
-    '''public EAttribute getGenModel_ForeignModel()
+    '''returns EAttribute\n\n
+    getGenModel_ForeignModel()\n
     '''
 def getGenModel_DynamicTemplates():
-    '''public EAttribute getGenModel_DynamicTemplates()
+    '''returns EAttribute\n\n
+    getGenModel_DynamicTemplates()\n
     '''
 def getGenModel_Redirection():
-    '''public EAttribute getGenModel_Redirection()
+    '''returns EAttribute\n\n
+    getGenModel_Redirection()\n
     '''
 def getGenModel_ForceOverwrite():
-    '''public EAttribute getGenModel_ForceOverwrite()
+    '''returns EAttribute\n\n
+    getGenModel_ForceOverwrite()\n
     '''
 def getGenModel_NonExternalizedStringTag():
-    '''public EAttribute getGenModel_NonExternalizedStringTag()
+    '''returns EAttribute\n\n
+    getGenModel_NonExternalizedStringTag()\n
     '''
 def getGenModel_ModelName():
-    '''public EAttribute getGenModel_ModelName()
+    '''returns EAttribute\n\n
+    getGenModel_ModelName()\n
     '''
 def getGenModel_ModelPluginClass():
-    '''public EAttribute getGenModel_ModelPluginClass()
+    '''returns EAttribute\n\n
+    getGenModel_ModelPluginClass()\n
     '''
 def getGenModel_EditPluginClass():
-    '''public EAttribute getGenModel_EditPluginClass()
+    '''returns EAttribute\n\n
+    getGenModel_EditPluginClass()\n
     '''
 def getGenModel_EditorPluginClass():
-    '''public EAttribute getGenModel_EditorPluginClass()
+    '''returns EAttribute\n\n
+    getGenModel_EditorPluginClass()\n
     '''
 def getGenModel_UpdateClasspath():
-    '''public EAttribute getGenModel_UpdateClasspath()
+    '''returns EAttribute\n\n
+    getGenModel_UpdateClasspath()\n
     '''
 def getGenModel_GenerateSchema():
-    '''public EAttribute getGenModel_GenerateSchema()
+    '''returns EAttribute\n\n
+    getGenModel_GenerateSchema()\n
     '''
 def getGenModel_NonNLSMarkers():
-    '''public EAttribute getGenModel_NonNLSMarkers()
+    '''returns EAttribute\n\n
+    getGenModel_NonNLSMarkers()\n
     '''
 def getGenModel_StaticPackages():
-    '''public EAttribute getGenModel_StaticPackages()
+    '''returns EAttribute\n\n
+    getGenModel_StaticPackages()\n
     '''
 def getGenModel_ModelPluginVariables():
-    '''public EAttribute getGenModel_ModelPluginVariables()
+    '''returns EAttribute\n\n
+    getGenModel_ModelPluginVariables()\n
     '''
 def getGenModel_RootExtendsInterface():
-    '''public EAttribute getGenModel_RootExtendsInterface()
+    '''returns EAttribute\n\n
+    getGenModel_RootExtendsInterface()\n
     '''
 def getGenModel_RootExtendsClass():
-    '''public EAttribute getGenModel_RootExtendsClass()
+    '''returns EAttribute\n\n
+    getGenModel_RootExtendsClass()\n
     '''
 def getGenModel_RootImplementsInterface():
-    '''public EAttribute getGenModel_RootImplementsInterface()
+    '''returns EAttribute\n\n
+    getGenModel_RootImplementsInterface()\n
     '''
 def getGenModel_SuppressEMFTypes():
-    '''public EAttribute getGenModel_SuppressEMFTypes()
+    '''returns EAttribute\n\n
+    getGenModel_SuppressEMFTypes()\n
     '''
 def getGenModel_FeatureMapWrapperInterface():
-    '''public EAttribute getGenModel_FeatureMapWrapperInterface()
+    '''returns EAttribute\n\n
+    getGenModel_FeatureMapWrapperInterface()\n
     '''
 def getGenModel_FeatureMapWrapperInternalInterface():
-    '''public EAttribute getGenModel_FeatureMapWrapperInternalInterface()
+    '''returns EAttribute\n\n
+    getGenModel_FeatureMapWrapperInternalInterface()\n
     '''
 def getGenModel_FeatureMapWrapperClass():
-    '''public EAttribute getGenModel_FeatureMapWrapperClass()
+    '''returns EAttribute\n\n
+    getGenModel_FeatureMapWrapperClass()\n
     '''
 def getGenModel_RuntimeCompatibility():
-    '''public EAttribute getGenModel_RuntimeCompatibility()
+    '''returns EAttribute\n\n
+    getGenModel_RuntimeCompatibility()\n
     '''
 def getGenModel_RichClientPlatform():
-    '''public EAttribute getGenModel_RichClientPlatform()
+    '''returns EAttribute\n\n
+    getGenModel_RichClientPlatform()\n
     '''
 def getGenModel_ReflectiveDelegation():
-    '''public EAttribute getGenModel_ReflectiveDelegation()
+    '''returns EAttribute\n\n
+    getGenModel_ReflectiveDelegation()\n
     '''
 def getGenModel_CodeFormatting():
-    '''public EAttribute getGenModel_CodeFormatting()
+    '''returns EAttribute\n\n
+    getGenModel_CodeFormatting()\n
     '''
 def getGenModel_TestsDirectory():
-    '''public EAttribute getGenModel_TestsDirectory()
+    '''returns EAttribute\n\n
+    getGenModel_TestsDirectory()\n
     '''
 def getGenModel_TestSuiteClass():
-    '''public EAttribute getGenModel_TestSuiteClass()
+    '''returns EAttribute\n\n
+    getGenModel_TestSuiteClass()\n
     '''
 def getGenModel_BooleanFlagsField():
-    '''public EAttribute getGenModel_BooleanFlagsField()
+    '''returns EAttribute\n\n
+    getGenModel_BooleanFlagsField()\n
     '''
 def getGenModel_BooleanFlagsReservedBits():
-    '''public EAttribute getGenModel_BooleanFlagsReservedBits()
+    '''returns EAttribute\n\n
+    getGenModel_BooleanFlagsReservedBits()\n
     '''
 def getGenModel_ImporterID():
-    '''public EAttribute getGenModel_ImporterID()
+    '''returns EAttribute\n\n
+    getGenModel_ImporterID()\n
     '''
 def getGenModel_BundleManifest():
-    '''public EAttribute getGenModel_BundleManifest()
+    '''returns EAttribute\n\n
+    getGenModel_BundleManifest()\n
     '''
 def getGenModel_GenPackages():
-    '''public EReference getGenModel_GenPackages()
+    '''returns EReference\n\n
+    getGenModel_GenPackages()\n
     '''
 def getGenModel_UsedGenPackages():
-    '''public EReference getGenModel_UsedGenPackages()
+    '''returns EReference\n\n
+    getGenModel_UsedGenPackages()\n
     '''
 def getGenPackage():
-    '''public EClass getGenPackage()
+    '''returns EClass\n\n
+    getGenPackage()\n
     '''
 def getGenPackage_Prefix():
-    '''public EAttribute getGenPackage_Prefix()
+    '''returns EAttribute\n\n
+    getGenPackage_Prefix()\n
     '''
 def getGenPackage_BasePackage():
-    '''public EAttribute getGenPackage_BasePackage()
+    '''returns EAttribute\n\n
+    getGenPackage_BasePackage()\n
     '''
 def getGenPackage_Resource():
-    '''public EAttribute getGenPackage_Resource()
+    '''returns EAttribute\n\n
+    getGenPackage_Resource()\n
     '''
 def getGenPackage_DisposableProviderFactory():
-    '''public EAttribute getGenPackage_DisposableProviderFactory()
+    '''returns EAttribute\n\n
+    getGenPackage_DisposableProviderFactory()\n
     '''
 def getGenPackage_AdapterFactory():
-    '''public EAttribute getGenPackage_AdapterFactory()
+    '''returns EAttribute\n\n
+    getGenPackage_AdapterFactory()\n
     '''
 def getGenPackage_LoadInitialization():
-    '''public EAttribute getGenPackage_LoadInitialization()
+    '''returns EAttribute\n\n
+    getGenPackage_LoadInitialization()\n
     '''
 def getGenPackage_InterfacePackageSuffix():
-    '''public EAttribute getGenPackage_InterfacePackageSuffix()
+    '''returns EAttribute\n\n
+    getGenPackage_InterfacePackageSuffix()\n
     '''
 def getGenPackage_ClassPackageSuffix():
-    '''public EAttribute getGenPackage_ClassPackageSuffix()
+    '''returns EAttribute\n\n
+    getGenPackage_ClassPackageSuffix()\n
     '''
 def getGenPackage_UtilityPackageSuffix():
-    '''public EAttribute getGenPackage_UtilityPackageSuffix()
+    '''returns EAttribute\n\n
+    getGenPackage_UtilityPackageSuffix()\n
     '''
 def getGenPackage_ProviderPackageSuffix():
-    '''public EAttribute getGenPackage_ProviderPackageSuffix()
+    '''returns EAttribute\n\n
+    getGenPackage_ProviderPackageSuffix()\n
     '''
 def getGenPackage_PresentationPackageSuffix():
-    '''public EAttribute getGenPackage_PresentationPackageSuffix()
+    '''returns EAttribute\n\n
+    getGenPackage_PresentationPackageSuffix()\n
     '''
 def getGenPackage_TestsPackageSuffix():
-    '''public EAttribute getGenPackage_TestsPackageSuffix()
+    '''returns EAttribute\n\n
+    getGenPackage_TestsPackageSuffix()\n
     '''
 def getGenPackage_GenerateExampleClass():
-    '''public EAttribute getGenPackage_GenerateExampleClass()
+    '''returns EAttribute\n\n
+    getGenPackage_GenerateExampleClass()\n
     '''
 def getGenPackage_EcorePackage():
-    '''public EReference getGenPackage_EcorePackage()
+    '''returns EReference\n\n
+    getGenPackage_EcorePackage()\n
     '''
 def getGenPackage_GenModel():
-    '''public EReference getGenPackage_GenModel()
+    '''returns EReference\n\n
+    getGenPackage_GenModel()\n
     '''
 def getGenPackage_GenEnums():
-    '''public EReference getGenPackage_GenEnums()
+    '''returns EReference\n\n
+    getGenPackage_GenEnums()\n
     '''
 def getGenPackage_GenDataTypes():
-    '''public EReference getGenPackage_GenDataTypes()
+    '''returns EReference\n\n
+    getGenPackage_GenDataTypes()\n
     '''
 def getGenPackage_GenClasses():
-    '''public EReference getGenPackage_GenClasses()
+    '''returns EReference\n\n
+    getGenPackage_GenClasses()\n
     '''
 def getGenPackage_NestedGenPackages():
-    '''public EReference getGenPackage_NestedGenPackages()
+    '''returns EReference\n\n
+    getGenPackage_NestedGenPackages()\n
     '''
 def getGenPackage_GenClassifiers():
-    '''public EReference getGenPackage_GenClassifiers()
+    '''returns EReference\n\n
+    getGenPackage_GenClassifiers()\n
     '''
 def getGenClass():
-    '''public EClass getGenClass()
+    '''returns EClass\n\n
+    getGenClass()\n
     '''
 def getGenClass_Provider():
-    '''public EAttribute getGenClass_Provider()
+    '''returns EAttribute\n\n
+    getGenClass_Provider()\n
     '''
 def getGenClass_Image():
-    '''public EAttribute getGenClass_Image()
+    '''returns EAttribute\n\n
+    getGenClass_Image()\n
     '''
 def getGenClass_EcoreClass():
-    '''public EReference getGenClass_EcoreClass()
+    '''returns EReference\n\n
+    getGenClass_EcoreClass()\n
     '''
 def getGenClass_GenFeatures():
-    '''public EReference getGenClass_GenFeatures()
+    '''returns EReference\n\n
+    getGenClass_GenFeatures()\n
     '''
 def getGenClass_GenOperations():
-    '''public EReference getGenClass_GenOperations()
+    '''returns EReference\n\n
+    getGenClass_GenOperations()\n
     '''
 def getGenClass_LabelFeature():
-    '''public EReference getGenClass_LabelFeature()
+    '''returns EReference\n\n
+    getGenClass_LabelFeature()\n
     '''
 def getGenFeature():
-    '''public EClass getGenFeature()
+    '''returns EClass\n\n
+    getGenFeature()\n
     '''
 def getGenFeature_Property():
-    '''public EAttribute getGenFeature_Property()
+    '''returns EAttribute\n\n
+    getGenFeature_Property()\n
     '''
 def getGenFeature_Notify():
-    '''public EAttribute getGenFeature_Notify()
+    '''returns EAttribute\n\n
+    getGenFeature_Notify()\n
     '''
 def getGenFeature_Children():
-    '''public EAttribute getGenFeature_Children()
+    '''returns EAttribute\n\n
+    getGenFeature_Children()\n
     '''
 def getGenFeature_CreateChild():
-    '''public EAttribute getGenFeature_CreateChild()
+    '''returns EAttribute\n\n
+    getGenFeature_CreateChild()\n
     '''
 def getGenFeature_PropertyCategory():
-    '''public EAttribute getGenFeature_PropertyCategory()
+    '''returns EAttribute\n\n
+    getGenFeature_PropertyCategory()\n
     '''
 def getGenFeature_PropertyFilterFlags():
-    '''public EAttribute getGenFeature_PropertyFilterFlags()
+    '''returns EAttribute\n\n
+    getGenFeature_PropertyFilterFlags()\n
     '''
 def getGenFeature_PropertyDescription():
-    '''public EAttribute getGenFeature_PropertyDescription()
+    '''returns EAttribute\n\n
+    getGenFeature_PropertyDescription()\n
     '''
 def getGenFeature_GenClass():
-    '''public EReference getGenFeature_GenClass()
+    '''returns EReference\n\n
+    getGenFeature_GenClass()\n
     '''
 def getGenFeature_EcoreFeature():
-    '''public EReference getGenFeature_EcoreFeature()
+    '''returns EReference\n\n
+    getGenFeature_EcoreFeature()\n
     '''
 def getGenBase():
-    '''public EClass getGenBase()
+    '''returns EClass\n\n
+    getGenBase()\n
     '''
 def getGenEnum():
-    '''public EClass getGenEnum()
+    '''returns EClass\n\n
+    getGenEnum()\n
     '''
 def getGenEnum_EcoreEnum():
-    '''public EReference getGenEnum_EcoreEnum()
+    '''returns EReference\n\n
+    getGenEnum_EcoreEnum()\n
     '''
 def getGenEnum_GenEnumLiterals():
-    '''public EReference getGenEnum_GenEnumLiterals()
+    '''returns EReference\n\n
+    getGenEnum_GenEnumLiterals()\n
     '''
 def getGenEnumLiteral():
-    '''public EClass getGenEnumLiteral()
+    '''returns EClass\n\n
+    getGenEnumLiteral()\n
     '''
 def getGenEnumLiteral_GenEnum():
-    '''public EReference getGenEnumLiteral_GenEnum()
+    '''returns EReference\n\n
+    getGenEnumLiteral_GenEnum()\n
     '''
 def getGenEnumLiteral_EcoreEnumLiteral():
-    '''public EReference getGenEnumLiteral_EcoreEnumLiteral()
+    '''returns EReference\n\n
+    getGenEnumLiteral_EcoreEnumLiteral()\n
     '''
 def getGenClassifier():
-    '''public EClass getGenClassifier()
+    '''returns EClass\n\n
+    getGenClassifier()\n
     '''
 def getGenClassifier_GenPackage():
-    '''public EReference getGenClassifier_GenPackage()
+    '''returns EReference\n\n
+    getGenClassifier_GenPackage()\n
     '''
 def getGenDataType():
-    '''public EClass getGenDataType()
+    '''returns EClass\n\n
+    getGenDataType()\n
     '''
 def getGenDataType_EcoreDataType():
-    '''public EReference getGenDataType_EcoreDataType()
+    '''returns EReference\n\n
+    getGenDataType_EcoreDataType()\n
     '''
 def getGenOperation():
-    '''public EClass getGenOperation()
+    '''returns EClass\n\n
+    getGenOperation()\n
     '''
 def getGenOperation_GenClass():
-    '''public EReference getGenOperation_GenClass()
+    '''returns EReference\n\n
+    getGenOperation_GenClass()\n
     '''
 def getGenOperation_EcoreOperation():
-    '''public EReference getGenOperation_EcoreOperation()
+    '''returns EReference\n\n
+    getGenOperation_EcoreOperation()\n
     '''
 def getGenOperation_GenParameters():
-    '''public EReference getGenOperation_GenParameters()
+    '''returns EReference\n\n
+    getGenOperation_GenParameters()\n
     '''
 def getGenParameter():
-    '''public EClass getGenParameter()
+    '''returns EClass\n\n
+    getGenParameter()\n
     '''
 def getGenParameter_GenOperation():
-    '''public EReference getGenParameter_GenOperation()
+    '''returns EReference\n\n
+    getGenParameter_GenOperation()\n
     '''
 def getGenParameter_EcoreParameter():
-    '''public EReference getGenParameter_EcoreParameter()
+    '''returns EReference\n\n
+    getGenParameter_EcoreParameter()\n
     '''
 def getGenTypedElement():
-    '''public EClass getGenTypedElement()
+    '''returns EClass\n\n
+    getGenTypedElement()\n
     '''
 def getGenProviderKind():
-    '''public EEnum getGenProviderKind()
+    '''returns EEnum\n\n
+    getGenProviderKind()\n
     '''
 def getGenPropertyKind():
-    '''public EEnum getGenPropertyKind()
+    '''returns EEnum\n\n
+    getGenPropertyKind()\n
     '''
 def getGenResourceKind():
-    '''public EEnum getGenResourceKind()
+    '''returns EEnum\n\n
+    getGenResourceKind()\n
     '''
 def getGenModelFactory():
-    '''public GenModelFactory getGenModelFactory()
+    '''returns GenModelFactory\n\n
+    getGenModelFactory()\n
     '''
 def createPackageContents():
-    '''public void createPackageContents()
+    '''returns None\n\n
+    createPackageContents()\n
     '''
 def initializePackageContents():
-    '''public void initializePackageContents()
+    '''returns None\n\n
+    initializePackageContents()\n
     '''

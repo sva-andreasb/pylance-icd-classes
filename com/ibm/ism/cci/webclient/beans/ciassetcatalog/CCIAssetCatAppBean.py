@@ -1,12 +1,12 @@
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def CIHIERAR():
-    '''public int CIHIERAR()
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''returns int\n\n
+    CIHIERAR()\n
     '''

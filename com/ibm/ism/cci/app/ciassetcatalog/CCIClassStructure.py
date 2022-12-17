@@ -1,27 +1,36 @@
-def CCIClassStructure():
-    '''public CCIClassStructure(final MboSet ms)
+def ():
+    '''returns CCIClassStructure\n\n
+    (final MboSet ms)\n
     '''
 def toCopyValue():
-    '''public void toCopyValue(final boolean toCopy)
+    '''returns None\n\n
+    toCopyValue(final boolean toCopy)\n
     '''
 def getCopyValue():
-    '''public boolean getCopyValue()
+    '''returns boolean\n\n
+    getCopyValue()\n
     '''
 def setRunInBackground():
-    '''public void setRunInBackground(final boolean val)
+    '''returns None\n\n
+    setRunInBackground(final boolean val)\n
     '''
 def getRunInBackground():
-    '''public boolean getRunInBackground()
+    '''returns boolean\n\n
+    getRunInBackground()\n
     '''
 def setAlreadyPrompted():
-    '''public void setAlreadyPrompted(final boolean val)
+    '''returns None\n\n
+    setAlreadyPrompted(final boolean val)\n
     '''
 def getAlreadyPrompted():
-    '''public boolean getAlreadyPrompted()
+    '''returns boolean\n\n
+    getAlreadyPrompted()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def applyDownHierarchy():
-    '''public void applyDownHierarchy(final MboRemote classSpec)
+    '''returns None\n\n
+    applyDownHierarchy(final MboRemote classSpec)\n
     '''

@@ -1,9 +1,12 @@
-def AssertDialog():
-    '''public AssertDialog(final String text)
+def ():
+    '''returns AssertDialog\n\n
+    (final String text)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def waitForDismissal():
-    '''public void waitForDismissal()
+    '''returns None\n\n
+    waitForDismissal()\n
     '''

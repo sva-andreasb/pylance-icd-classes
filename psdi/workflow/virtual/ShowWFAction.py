@@ -1,6 +1,8 @@
-def ShowWFAction():
-    '''public ShowWFAction(final MboSet ms)
+def ():
+    '''returns ShowWFAction\n\n
+    (final MboSet ms)\n
     '''
 def getUniqueIDValue():
-    '''public long getUniqueIDValue()
+    '''returns long\n\n
+    getUniqueIDValue()\n
     '''

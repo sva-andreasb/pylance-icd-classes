@@ -1,3 +1,4 @@
-def FldPurchViewLineStatus():
-    '''public FldPurchViewLineStatus(final MboValue mbv)
+def ():
+    '''returns FldPurchViewLineStatus\n\n
+    (final MboValue mbv)\n
     '''

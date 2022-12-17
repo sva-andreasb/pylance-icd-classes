@@ -1,43 +1,54 @@
-def Subroutines():
-    '''public Subroutines(final MethodGen mg)
+def ():
+    '''returns SubroutineImpl\n\n
+    (final MethodGen mg)\n
+    ()\n
     '''
 def getSubroutine():
-    '''public Subroutine getSubroutine(final InstructionHandle leader)
+    '''returns Subroutine\n\n
+    getSubroutine(final InstructionHandle leader)\n
     '''
 def subroutineOf():
-    '''public Subroutine subroutineOf(final InstructionHandle any)
+    '''returns Subroutine\n\n
+    subroutineOf(final InstructionHandle any)\n
     '''
 def getTopLevel():
-    '''public Subroutine getTopLevel()
+    '''returns Subroutine\n\n
+    getTopLevel()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def contains():
-    '''public boolean contains(final InstructionHandle inst)
+    '''returns boolean\n\n
+    contains(final InstructionHandle inst)\n
     '''
 def getEnteringJsrInstructions():
-    '''public InstructionHandle[] getEnteringJsrInstructions()
+    '''returns InstructionHandle[]\n\n
+    getEnteringJsrInstructions()\n
     '''
 def addEnteringJsrInstruction():
-    '''public void addEnteringJsrInstruction(final InstructionHandle jsrInst)
+    '''returns None\n\n
+    addEnteringJsrInstruction(final InstructionHandle jsrInst)\n
     '''
 def getLeavingRET():
-    '''public InstructionHandle getLeavingRET()
+    '''returns InstructionHandle\n\n
+    getLeavingRET()\n
     '''
 def getInstructions():
-    '''public InstructionHandle[] getInstructions()
+    '''returns InstructionHandle[]\n\n
+    getInstructions()\n
     '''
 def getRecursivelyAccessedLocalsIndices():
-    '''public int[] getRecursivelyAccessedLocalsIndices()
+    '''returns int[]\n\n
+    getRecursivelyAccessedLocalsIndices()\n
     '''
 def getAccessedLocalsIndices():
-    '''public int[] getAccessedLocalsIndices()
+    '''returns int[]\n\n
+    getAccessedLocalsIndices()\n
     '''
 def subSubs():
-    '''public Subroutine[] subSubs()
-    '''
-def SubroutineImpl():
-    '''public SubroutineImpl()
+    '''returns Subroutine[]\n\n
+    subSubs()\n
     '''

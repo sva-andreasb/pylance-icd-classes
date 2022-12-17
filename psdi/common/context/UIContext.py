@@ -1,36 +1,36 @@
 def getHeader():
-    '''public Enumeration<String> getHeader(final String headerName)
+    '''returns Enumeration<String>\n\n
+    getHeader(final String headerName)\n
     '''
 def getCookies():
-    '''public Cookie[] getCookies()
-    '''
-def getCurrentContext():
-    '''public static UIContext getCurrentContext()
+    '''returns Cookie[]\n\n
+    getCookies()\n
     '''
 def setFromListTab():
-    '''public void setFromListTab()
+    '''returns None\n\n
+    setFromListTab()\n
     '''
 def setWebClientSession():
-    '''public void setWebClientSession(final Object wcs)
+    '''returns None\n\n
+    setWebClientSession(final Object wcs)\n
     '''
 def getWebClientSession():
-    '''public Object getWebClientSession()
+    '''returns Object\n\n
+    getWebClientSession()\n
     '''
 def setCurrentApp():
-    '''public void setCurrentApp(final String app)
+    '''returns None\n\n
+    setCurrentApp(final String app)\n
     '''
 def getCurrentApp():
-    '''public String getCurrentApp()
+    '''returns String\n\n
+    getCurrentApp()\n
     '''
 def reSetFromListTab():
-    '''public void reSetFromListTab()
+    '''returns None\n\n
+    reSetFromListTab()\n
     '''
 def isFromListTab():
-    '''public boolean isFromListTab()
-    '''
-def createCurrentContext():
-    '''public static UIContext createCurrentContext(final HttpServletRequest req)
-    '''
-def destroyCurrentContext():
-    '''public static void destroyCurrentContext()
+    '''returns boolean\n\n
+    isFromListTab()\n
     '''

@@ -1,6 +1,8 @@
 def startElement():
-    '''public void startElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    startElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def onStartChild():
-    '''public SOAPHandler onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns SOAPHandler\n\n
+    onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''

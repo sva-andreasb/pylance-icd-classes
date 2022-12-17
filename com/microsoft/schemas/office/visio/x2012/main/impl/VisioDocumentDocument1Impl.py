@@ -1,12 +1,16 @@
-def VisioDocumentDocument1Impl():
-    '''public VisioDocumentDocument1Impl(final SchemaType schemaType)
+def ():
+    '''returns VisioDocumentDocument1Impl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getVisioDocument():
-    '''public VisioDocumentType getVisioDocument()
+    '''returns VisioDocumentType\n\n
+    getVisioDocument()\n
     '''
 def setVisioDocument():
-    '''public void setVisioDocument(final VisioDocumentType visioDocumentType)
+    '''returns None\n\n
+    setVisioDocument(final VisioDocumentType visioDocumentType)\n
     '''
 def addNewVisioDocument():
-    '''public VisioDocumentType addNewVisioDocument()
+    '''returns VisioDocumentType\n\n
+    addNewVisioDocument()\n
     '''

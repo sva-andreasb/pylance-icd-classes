@@ -1,12 +1,16 @@
-def QuotedFieldQueryNode():
-    '''public QuotedFieldQueryNode(final CharSequence field, final CharSequence text, final int begin, final int end)
+def ():
+    '''returns QuotedFieldQueryNode\n\n
+    (final CharSequence field, final CharSequence text, final int begin, final int end)\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escaper)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escaper)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def cloneTree():
-    '''public QuotedFieldQueryNode cloneTree()
+    '''returns QuotedFieldQueryNode\n\n
+    cloneTree()\n
     '''

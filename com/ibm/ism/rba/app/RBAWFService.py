@@ -1,19 +1,25 @@
-def RBAWFService():
-    '''public RBAWFService()
-    public RBAWFService(final MXServer mxServer)
+def ():
+    '''returns RBAWFService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def WFLaunchOnDemand():
-    '''public long WFLaunchOnDemand(final String userid, final String password, final String processName)
+    '''returns long\n\n
+    WFLaunchOnDemand(final String userid, final String password, final String processName)\n
     '''
 def WFRouteToWorkflow():
-    '''public long WFRouteToWorkflow(final String userid, final String password, final String processName, final String objectName, final long objectId)
+    '''returns long\n\n
+    WFRouteToWorkflow(final String userid, final String password, final String processName, final String objectName, final long objectId)\n
     '''
 def WFRouteToNextNode():
-    '''public long WFRouteToNextNode(final String userid, final String password, final long wfid, final boolean accepted)
+    '''returns long\n\n
+    WFRouteToNextNode(final String userid, final String password, final long wfid, final boolean accepted)\n
     '''
 def getDefaultAppForObject():
-    '''public String getDefaultAppForObject(final UserInfo ui, final String objectName)
+    '''returns String\n\n
+    getDefaultAppForObject(final UserInfo ui, final String objectName)\n
     '''

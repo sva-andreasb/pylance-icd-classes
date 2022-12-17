@@ -1,3 +1,4 @@
 def prepareForCacheAccess():
-    '''public CacheableCommand prepareForCacheAccess(final Serializable inputObject, final DCache cache, final EntryInfo ei)
+    '''returns CacheableCommand\n\n
+    prepareForCacheAccess(final Serializable inputObject, final DCache cache, final EntryInfo ei)\n
     '''

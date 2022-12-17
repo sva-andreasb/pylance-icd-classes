@@ -18,814 +18,1040 @@ SAVEMODE_ONUNLOAD = "String  \"ONUNLOAD\""
 SAVEMODE_ONLOADUNLOAD = "String  \"ONLOADUNLOAD\""
 REQUESTTYPE = "String  \"requesttype\""
 TEMP_TOKEN_PARAM = "String  \"_tt\""
-def WebClientSession():
-    '''public WebClientSession(final HttpSession httpSession)
+def ():
+    '''returns Alignment\n\n
+    (final HttpSession httpSession)\n
+    (final String langcode)\n
     '''
 def isPostTivoli09Skin():
-    '''public boolean isPostTivoli09Skin()
+    '''returns boolean\n\n
+    isPostTivoli09Skin()\n
     '''
 def getSkin():
-    '''public String getSkin()
+    '''returns String\n\n
+    getSkin()\n
     '''
 def getSkinName():
-    '''public String getSkinName()
+    '''returns String\n\n
+    getSkinName()\n
     '''
 def getAdaptorInstance():
-    '''public SessionContext getAdaptorInstance()
+    '''returns SessionContext\n\n
+    getAdaptorInstance()\n
     '''
 def getMxSessionConnected():
-    '''public boolean getMxSessionConnected()
+    '''returns boolean\n\n
+    getMxSessionConnected()\n
     '''
 def setMxSessionConnected():
-    '''public void setMxSessionConnected(final boolean flag)
+    '''returns None\n\n
+    setMxSessionConnected(final boolean flag)\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def applySkin():
-    '''public void applySkin()
+    '''returns None\n\n
+    applySkin()\n
     '''
 def isMobileUserAgent():
-    '''public boolean isMobileUserAgent()
+    '''returns boolean\n\n
+    isMobileUserAgent()\n
     '''
 def getUserAgentName():
-    '''public String getUserAgentName()
+    '''returns String\n\n
+    getUserAgentName()\n
     '''
 def getUserAgentReplacement():
-    '''public String getUserAgentReplacement()
+    '''returns String\n\n
+    getUserAgentReplacement()\n
     '''
 def getUserAgent():
-    '''public int getUserAgent()
-    '''
-def handleRequest():
-    '''public synchronized void handleRequest(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns int\n\n
+    getUserAgent()\n
     '''
 def fixRowForTableDetails():
-    '''public String fixRowForTableDetails(final String compId)
+    '''returns String\n\n
+    fixRowForTableDetails(final String compId)\n
     '''
 def getProxyRequestContextURL():
-    '''public String getProxyRequestContextURL()
+    '''returns String\n\n
+    getProxyRequestContextURL()\n
     '''
 def getProxyBaseURL():
-    '''public String getProxyBaseURL()
+    '''returns String\n\n
+    getProxyBaseURL()\n
     '''
 def getPortalMsg():
-    '''public String getPortalMsg()
+    '''returns String\n\n
+    getPortalMsg()\n
     '''
 def setPortalMsg():
-    '''public void setPortalMsg(final String aMsg)
+    '''returns None\n\n
+    setPortalMsg(final String aMsg)\n
     '''
 def getContextChanged():
-    '''public boolean getContextChanged()
+    '''returns boolean\n\n
+    getContextChanged()\n
     '''
 def setContextChanged():
-    '''public void setContextChanged(final boolean aBool)
+    '''returns None\n\n
+    setContextChanged(final boolean aBool)\n
     '''
 def showwfinfo():
-    '''public int showwfinfo()
+    '''returns int\n\n
+    showwfinfo()\n
     '''
 def setErrorFieldFocus():
-    '''public void setErrorFieldFocus(final String currentFocusId, final boolean forceRow)
+    '''returns None\n\n
+    setErrorFieldFocus(final String currentFocusId, final boolean forceRow)\n
     '''
 def printDebugMessage():
-    '''public void printDebugMessage(final int level, final String message)
+    '''returns None\n\n
+    printDebugMessage(final int level, final String message)\n
     '''
 def handleEvent():
-    '''public int handleEvent(final WebClientEvent event)
+    '''returns int\n\n
+    handleEvent(final WebClientEvent event)\n
     '''
 def hasWorkflowInfo():
-    '''public boolean hasWorkflowInfo()
+    '''returns boolean\n\n
+    hasWorkflowInfo()\n
     '''
 def getEventQueue():
-    '''public EventQueue getEventQueue()
+    '''returns EventQueue\n\n
+    getEventQueue()\n
     '''
 def queueEvent():
-    '''public void queueEvent(final WebClientEvent event)
+    '''returns None\n\n
+    queueEvent(final WebClientEvent event)\n
     '''
 def getCurrentPageId():
-    '''public String getCurrentPageId()
+    '''returns String\n\n
+    getCurrentPageId()\n
     '''
 def getCurrentPage():
-    '''public PageInstance getCurrentPage()
+    '''returns PageInstance\n\n
+    getCurrentPage()\n
     '''
 def getDataBean():
-    '''public DataBean getDataBean(final String beanId)
+    '''returns DataBean\n\n
+    getDataBean(final String beanId)\n
     '''
 def checkForDialogAccess():
-    '''public boolean checkForDialogAccess(final String dialogId, final Element dialog)
+    '''returns boolean\n\n
+    checkForDialogAccess(final String dialogId, final Element dialog)\n
     '''
 def findDialog():
-    '''public PageInstance findDialog(final String dialogId)
+    '''returns PageInstance\n\n
+    findDialog(final String dialogId)\n
     '''
 def getUniqueId():
-    '''public String getUniqueId()
+    '''returns String\n\n
+    getUniqueId()\n
     '''
 def findDialogInDesignerApps():
-    '''public ControlInstance findDialogInDesignerApps(final String dialogId)
+    '''returns ControlInstance\n\n
+    findDialogInDesignerApps(final String dialogId)\n
     '''
 def setLongOpComponent():
-    '''public void setLongOpComponent(final ComponentInstance longOp)
+    '''returns None\n\n
+    setLongOpComponent(final ComponentInstance longOp)\n
     '''
 def getLongOpComponent():
-    '''public ComponentInstance getLongOpComponent()
+    '''returns ComponentInstance\n\n
+    getLongOpComponent()\n
     '''
 def loadDialog():
-    '''public int loadDialog(String dialogId)
-    public int loadDialog(final String dialogId, final boolean showmessages, final String longOpMessage)
+    '''returns int\n\n
+    loadDialog(String dialogId)\n
+    loadDialog(final String dialogId, final boolean showmessages, final String longOpMessage)\n
     '''
 def loadDialogInDesignerApps():
-    '''public int loadDialogInDesignerApps(final String dialogId)
+    '''returns int\n\n
+    loadDialogInDesignerApps(final String dialogId)\n
     '''
 def getControlInstance():
-    '''public ControlInstance getControlInstance(final String id)
-    public ControlInstance getControlInstance(final String id, final boolean tableDownload)
+    '''returns ControlInstance\n\n
+    getControlInstance(final String id)\n
+    getControlInstance(final String id, final boolean tableDownload)\n
     '''
 def getCurrentApp():
-    '''public AppInstance getCurrentApp()
+    '''returns AppInstance\n\n
+    getCurrentApp()\n
     '''
 def getCurrentAppId():
-    '''public String getCurrentAppId()
+    '''returns String\n\n
+    getCurrentAppId()\n
     '''
 def getPreviousApp():
-    '''public AppInstance getPreviousApp()
+    '''returns AppInstance\n\n
+    getPreviousApp()\n
     '''
 def getMXSession():
-    '''public MXSession getMXSession()
+    '''returns MXSession\n\n
+    getMXSession()\n
     '''
 def getHttpSession():
-    '''public HttpSession getHttpSession()
+    '''returns HttpSession\n\n
+    getHttpSession()\n
     '''
 def setHttpSession():
-    '''public void setHttpSession(final HttpSession https)
+    '''returns None\n\n
+    setHttpSession(final HttpSession https)\n
     '''
 def pushApp():
-    '''public void pushApp(final AppInstance ai)
+    '''returns None\n\n
+    pushApp(final AppInstance ai)\n
     '''
 def popApp():
-    '''public AppInstance popApp()
+    '''returns AppInstance\n\n
+    popApp()\n
     '''
 def clearStack():
-    '''public void clearStack()
+    '''returns None\n\n
+    clearStack()\n
     '''
 def getAppStack():
-    '''public Stack<AppInstance> getAppStack()
+    '''returns Stack<AppInstance>\n\n
+    getAppStack()\n
     '''
 def setCurrentEvent():
-    '''public void setCurrentEvent(final WebClientEvent event)
+    '''returns None\n\n
+    setCurrentEvent(final WebClientEvent event)\n
     '''
 def getCurrentEvent():
-    '''public WebClientEvent getCurrentEvent()
+    '''returns WebClientEvent\n\n
+    getCurrentEvent()\n
     '''
 def getFirstHandledEvent():
-    '''public WebClientEvent getFirstHandledEvent()
+    '''returns WebClientEvent\n\n
+    getFirstHandledEvent()\n
     '''
 def getOriginalEvent():
-    '''public WebClientEvent getOriginalEvent()
+    '''returns WebClientEvent\n\n
+    getOriginalEvent()\n
     '''
 def setEventState():
-    '''public void setEventState(final int state)
+    '''returns None\n\n
+    setEventState(final int state)\n
     '''
 def getEventState():
-    '''public int getEventState()
+    '''returns int\n\n
+    getEventState()\n
     '''
 def getCurrentEventHandler():
-    '''public ControlInstance getCurrentEventHandler()
+    '''returns ControlInstance\n\n
+    getCurrentEventHandler()\n
     '''
 def setCurrentEventHandler():
-    '''public void setCurrentEventHandler(final ControlInstance eventHandler)
+    '''returns None\n\n
+    setCurrentEventHandler(final ControlInstance eventHandler)\n
     '''
 def setPerfStat():
-    '''public void setPerfStat(final String flag)
+    '''returns None\n\n
+    setPerfStat(final String flag)\n
     '''
 def getPerfStat():
-    '''public boolean getPerfStat()
+    '''returns boolean\n\n
+    getPerfStat()\n
     '''
 def getRequest():
-    '''public HttpServletRequest getRequest()
+    '''returns HttpServletRequest\n\n
+    getRequest()\n
     '''
 def getRequestType():
-    '''public RequestType getRequestType()
-    public static RequestType getRequestType(final HttpServletRequest request)
+    '''returns RequestType\n\n
+    getRequestType()\n
     '''
 def setRequest():
-    '''public void setRequest(final HttpServletRequest request)
+    '''returns None\n\n
+    setRequest(final HttpServletRequest request)\n
     '''
 def getResponse():
-    '''public HttpServletResponse getResponse()
+    '''returns HttpServletResponse\n\n
+    getResponse()\n
     '''
 def setResponse():
-    '''public void setResponse(final HttpServletResponse response)
+    '''returns None\n\n
+    setResponse(final HttpServletResponse response)\n
     '''
 def createMXSession():
-    '''public MXSession createMXSession()
+    '''returns MXSession\n\n
+    createMXSession()\n
     '''
 def hasWarnings():
-    '''public boolean hasWarnings()
+    '''returns boolean\n\n
+    hasWarnings()\n
     '''
 def getWarnings():
-    '''public ArrayList<MXException> getWarnings()
+    '''returns ArrayList<MXException>\n\n
+    getWarnings()\n
     '''
 def addWarning():
-    '''public void addWarning(final MXException e)
+    '''returns None\n\n
+    addWarning(final MXException e)\n
     '''
 def removeWarnings():
-    '''public List<MXException> removeWarnings()
+    '''returns List<MXException>\n\n
+    removeWarnings()\n
     '''
 def addWarnings():
-    '''public void addWarnings(final List<MXException> warningList)
+    '''returns None\n\n
+    addWarnings(final List<MXException> warningList)\n
     '''
 def getLoginEvent():
-    '''public WebClientEvent getLoginEvent()
+    '''returns WebClientEvent\n\n
+    getLoginEvent()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getAlignment():
-    '''public Alignment getAlignment()
+    '''returns Alignment\n\n
+    getAlignment()\n
     '''
 def getHelpLangCode():
-    '''public String getHelpLangCode()
+    '''returns String\n\n
+    getHelpLangCode()\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final String strTimeZone)
+    '''returns None\n\n
+    setTimeZone(final String strTimeZone)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getUserLanguageCode():
-    '''public String getUserLanguageCode()
+    '''returns String\n\n
+    getUserLanguageCode()\n
     '''
 def getMaxMessageMboSetRemote():
-    '''public MboSetRemote getMaxMessageMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMaxMessageMboSetRemote()\n
     '''
 def setMaxMessageMboSetRemote():
-    '''public void setMaxMessageMboSetRemote(final MboSetRemote setmboSet)
+    '''returns None\n\n
+    setMaxMessageMboSetRemote(final MboSetRemote setmboSet)\n
     '''
 def getUserApps():
-    '''public Set<String> getUserApps()
+    '''returns Set<String>\n\n
+    getUserApps()\n
     '''
 def getOriginalApp():
-    '''public String getOriginalApp(final String currentApp)
+    '''returns String\n\n
+    getOriginalApp(final String currentApp)\n
     '''
 def getAppDesc():
-    '''public String getAppDesc(String appId)
+    '''returns String\n\n
+    getAppDesc(String appId)\n
     '''
 def getClonedApps():
-    '''public Set<String> getClonedApps(final String originalApp)
+    '''returns Set<String>\n\n
+    getClonedApps(final String originalApp)\n
     '''
 def getOriginalApps():
-    '''public Set<String> getOriginalApps(String currentApp)
+    '''returns Set<String>\n\n
+    getOriginalApps(String currentApp)\n
     '''
 def getAppMainTable():
-    '''public String getAppMainTable(final String currentApp)
+    '''returns String\n\n
+    getAppMainTable(final String currentApp)\n
     '''
 def getSpellSessionAdapter():
-    '''public SpellingSessionAdapter getSpellSessionAdapter()
+    '''returns SpellingSessionAdapter\n\n
+    getSpellSessionAdapter()\n
     '''
 def setSpellSessionAdapter():
-    '''public void setSpellSessionAdapter(final SpellingSessionAdapter spellSessionAdapter)
+    '''returns None\n\n
+    setSpellSessionAdapter(final SpellingSessionAdapter spellSessionAdapter)\n
     '''
 def pauseQueue():
-    '''public void pauseQueue()
+    '''returns None\n\n
+    pauseQueue()\n
     '''
 def isQueuePaused():
-    '''public boolean isQueuePaused()
+    '''returns boolean\n\n
+    isQueuePaused()\n
     '''
 def unPauseQueue():
-    '''public void unPauseQueue()
+    '''returns None\n\n
+    unPauseQueue()\n
     '''
 def runLongOp():
-    '''public boolean runLongOp(final DataBean dataSrc, final WebClientEvent event)
-    public boolean runLongOp(final DataBean dataSrc, final WebClientEvent event, boolean showMessages, final String longOpMessage)
-    public boolean runLongOp(final DataBean dataSrc, final String method)
-    public boolean runLongOp(final DataBean dataSrc, final String method, boolean showMessages, final String longOpMessage)
+    '''returns boolean\n\n
+    runLongOp(final DataBean dataSrc, final WebClientEvent event)\n
+    runLongOp(final DataBean dataSrc, final WebClientEvent event, boolean showMessages, final String longOpMessage)\n
+    runLongOp(final DataBean dataSrc, final String method)\n
+    runLongOp(final DataBean dataSrc, final String method, boolean showMessages, final String longOpMessage)\n
     '''
 def runLongOpQuery():
-    '''public boolean runLongOpQuery(final DataBean dataSrc, final String method, boolean showMessages, final String longOpMessage)
+    '''returns boolean\n\n
+    runLongOpQuery(final DataBean dataSrc, final String method, boolean showMessages, final String longOpMessage)\n
     '''
 def stopLongOpQuery():
-    '''public void stopLongOpQuery()
+    '''returns None\n\n
+    stopLongOpQuery()\n
     '''
 def getLongOpStatus():
-    '''public int getLongOpStatus()
+    '''returns int\n\n
+    getLongOpStatus()\n
     '''
 def hasLongOpStarted():
-    '''public boolean hasLongOpStarted()
+    '''returns boolean\n\n
+    hasLongOpStarted()\n
     '''
 def setLongOpChecked():
-    '''public void setLongOpChecked(final boolean longopChecked)
+    '''returns None\n\n
+    setLongOpChecked(final boolean longopChecked)\n
     '''
 def hasLongOpCompleted():
-    '''public boolean hasLongOpCompleted()
+    '''returns boolean\n\n
+    hasLongOpCompleted()\n
     '''
 def hasQueryLongOpCompleted():
-    '''public boolean hasQueryLongOpCompleted()
+    '''returns boolean\n\n
+    hasQueryLongOpCompleted()\n
     '''
 def getLongOpEvent():
-    '''public WebClientEvent getLongOpEvent()
+    '''returns WebClientEvent\n\n
+    getLongOpEvent()\n
     '''
 def getLongOpMethod():
-    '''public String getLongOpMethod()
+    '''returns String\n\n
+    getLongOpMethod()\n
     '''
 def finishLongOpEvent():
-    '''public void finishLongOpEvent()
+    '''returns None\n\n
+    finishLongOpEvent()\n
     '''
 def longOpCleanup():
-    '''public void longOpCleanup()
+    '''returns None\n\n
+    longOpCleanup()\n
     '''
 def longOpQueryCleanup():
-    '''public void longOpQueryCleanup()
+    '''returns None\n\n
+    longOpQueryCleanup()\n
     '''
 def getWorkflowDirector():
-    '''public WorkflowDirector getWorkflowDirector()
+    '''returns WorkflowDirector\n\n
+    getWorkflowDirector()\n
     '''
 def getSettingsProperty():
-    '''public String getSettingsProperty(final String prop)
-    public String getSettingsProperty(final String prop, final String[] params)
+    '''returns String\n\n
+    getSettingsProperty(final String prop)\n
+    getSettingsProperty(final String prop, final String[] params)\n
     '''
 def getMaxMessage():
-    '''public MaxMessage getMaxMessage(final MXException mxe)
-    public MaxMessage getMaxMessage(final RemoteException e)
-    public MaxMessage getMaxMessage(final String group, final String key)
+    '''returns MaxMessage\n\n
+    getMaxMessage(final MXException mxe)\n
+    getMaxMessage(final RemoteException e)\n
+    getMaxMessage(final String group, final String key)\n
     '''
 def getMessage():
-    '''public String getMessage(final MXException mxe)
-    public String getMessage(final String group, final String key)
-    public String getMessage(final String group, final String key, final String[] params)
+    '''returns String\n\n
+    getMessage(final MXException mxe)\n
+    getMessage(final String group, final String key)\n
+    getMessage(final String group, final String key, final String[] params)\n
     '''
 def getMessages():
-    '''public String[] getMessages(final String group, final String[] key)
+    '''returns String[]\n\n
+    getMessages(final String group, final String[] key)\n
     '''
 def getClientSideMessage():
-    '''public String getClientSideMessage(final String group, final String key)
+    '''returns String\n\n
+    getClientSideMessage(final String group, final String key)\n
     '''
 def showMessageBox():
-    '''public void showMessageBox(final WebClientEvent srcEvent, final String title, final String warnings, final int flags)
-    public void showMessageBox(final WebClientEvent srcEvent, final String messageFile, final String key, final String[] params)
-    public void showMessageBox(final WebClientEvent srcEvent, final String messageFile, final String key, final Object[] params)
-    public void showMessageBox(final String messageFile, final String key, final String[] params)
-    public void showMessageBox(final WebClientEvent srcEvent, final MXException mxe)
-    public void showMessageBox(final WebClientEvent srcEvent, final RemoteException re)
-    public void showMessageBox(final MXException mxe)
+    '''returns None\n\n
+    showMessageBox(final WebClientEvent srcEvent, final String title, final String warnings, final int flags)\n
+    showMessageBox(final WebClientEvent srcEvent, final String messageFile, final String key, final String[] params)\n
+    showMessageBox(final WebClientEvent srcEvent, final String messageFile, final String key, final Object[] params)\n
+    showMessageBox(final String messageFile, final String key, final String[] params)\n
+    showMessageBox(final WebClientEvent srcEvent, final MXException mxe)\n
+    showMessageBox(final WebClientEvent srcEvent, final RemoteException re)\n
+    showMessageBox(final MXException mxe)\n
     '''
 def generateMessageBoxForTable():
-    '''public void generateMessageBoxForTable(final Hashtable<String, String> messageInfo)
-    '''
-def getMessageInfoForTable():
-    '''public Hashtable<String, String> getMessageInfoForTable(final MaxMessage message, final MXException mxe)
-    public Hashtable<String, String> getMessageInfoForTable(final MaxMessage message, final Object[] params)
+    '''returns None\n\n
+    generateMessageBoxForTable(final Hashtable<String, String> messageInfo)\n
     '''
 def showEsigLoginDialog():
-    '''public void showEsigLoginDialog(final ESigLoginException srcExcept)
+    '''returns None\n\n
+    showEsigLoginDialog(final ESigLoginException srcExcept)\n
     '''
 def addMXWarnings():
-    '''public boolean addMXWarnings(final MXException[] warnings)
+    '''returns boolean\n\n
+    addMXWarnings(final MXException[] warnings)\n
     '''
 def handleMXWarnings():
-    '''public boolean handleMXWarnings()
-    public boolean handleMXWarnings(final boolean showMultipleWarningsSeparately)
+    '''returns boolean\n\n
+    handleMXWarnings()\n
+    handleMXWarnings(final boolean showMultipleWarningsSeparately)\n
     '''
 def setUserInput():
-    '''public void setUserInput(final MXException mxe, final int msgReturn)
+    '''returns None\n\n
+    setUserInput(final MXException mxe, final int msgReturn)\n
     '''
 def clearUserInput():
-    '''public void clearUserInput()
+    '''returns None\n\n
+    clearUserInput()\n
     '''
 def showLongopDialog():
-    '''public void showLongopDialog(final String datasrc)
+    '''returns None\n\n
+    showLongopDialog(final String datasrc)\n
     '''
 def gotoApplink():
-    '''public void gotoApplink(String url)
+    '''returns None\n\n
+    gotoApplink(String url)\n
     '''
 def handleDialogOK():
-    '''public boolean handleDialogOK(final boolean advancedLongOp)
-    public boolean handleDialogOK(final boolean advancedLongOp, final String longOpMessage)
+    '''returns boolean\n\n
+    handleDialogOK(final boolean advancedLongOp)\n
+    handleDialogOK(final boolean advancedLongOp, final String longOpMessage)\n
     '''
 def findControl():
-    '''public ControlInstance findControl(final String controlId)
+    '''returns ControlInstance\n\n
+    findControl(final String controlId)\n
     '''
 def processProfiles():
-    '''public int processProfiles(final String profileName)
-    '''
-def getSystemOptionMap():
-    '''public Map<Integer, Map<String, String>> getSystemOptionMap()
+    '''returns int\n\n
+    processProfiles(final String profileName)\n
     '''
 def clearModuleMap():
-    '''public void clearModuleMap()
-    '''
-def getModuleMap():
-    '''public Map<Integer, Hashtable<String, String>> getModuleMap()
-    '''
-def getReportsMap():
-    '''public Map<Integer, Map<String, String>> getReportsMap()
+    '''returns None\n\n
+    clearModuleMap()\n
     '''
 def getSystemProperty():
-    '''public String[] getSystemProperty(final String propertyName)
+    '''returns String[]\n\n
+    getSystemProperty(final String propertyName)\n
     '''
 def isPermanentLicense():
-    '''public boolean isPermanentLicense()
+    '''returns boolean\n\n
+    isPermanentLicense()\n
     '''
 def getEvalDaysRemaining():
-    '''public String getEvalDaysRemaining()
+    '''returns String\n\n
+    getEvalDaysRemaining()\n
     '''
 def invalidate():
-    '''public void invalidate()
+    '''returns None\n\n
+    invalidate()\n
     '''
 def useLeftContextInterval():
-    '''public void useLeftContextInterval(final boolean use)
+    '''returns None\n\n
+    useLeftContextInterval(final boolean use)\n
     '''
 def usingContextInterval():
-    '''public boolean usingContextInterval()
+    '''returns boolean\n\n
+    usingContextInterval()\n
     '''
 def hasTimedOut():
-    '''public boolean hasTimedOut()
+    '''returns boolean\n\n
+    hasTimedOut()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def getRequestParameter():
-    '''public String getRequestParameter(final String key)
+    '''returns String\n\n
+    getRequestParameter(final String key)\n
     '''
 def setLightningPortalMode():
-    '''public void setLightningPortalMode(final boolean portalmode)
+    '''returns None\n\n
+    setLightningPortalMode(final boolean portalmode)\n
     '''
 def setPortalMode():
-    '''public void setPortalMode(final boolean portalmode)
+    '''returns None\n\n
+    setPortalMode(final boolean portalmode)\n
     '''
 def getLightningPortalMode():
-    '''public boolean getLightningPortalMode()
+    '''returns boolean\n\n
+    getLightningPortalMode()\n
     '''
 def getPortalMode():
-    '''public boolean getPortalMode()
+    '''returns boolean\n\n
+    getPortalMode()\n
     '''
 def setTipPortalMode():
-    '''public void setTipPortalMode(final boolean tipportalmode)
+    '''returns None\n\n
+    setTipPortalMode(final boolean tipportalmode)\n
     '''
 def getTipPortalMode():
-    '''public boolean getTipPortalMode()
+    '''returns boolean\n\n
+    getTipPortalMode()\n
     '''
 def getDesignModeWebClientSession():
-    '''public WebClientSession getDesignModeWebClientSession()
+    '''returns WebClientSession\n\n
+    getDesignModeWebClientSession()\n
     '''
 def hasDesignModeWebClientSession():
-    '''public boolean hasDesignModeWebClientSession()
+    '''returns boolean\n\n
+    hasDesignModeWebClientSession()\n
     '''
 def setDesignModeWebClientSession():
-    '''public void setDesignModeWebClientSession(final WebClientSession wcs)
+    '''returns None\n\n
+    setDesignModeWebClientSession(final WebClientSession wcs)\n
     '''
 def setOriginalSession():
-    '''public void setOriginalSession(final WebClientSession wcs)
+    '''returns None\n\n
+    setOriginalSession(final WebClientSession wcs)\n
     '''
 def getOriginalSession():
-    '''public WebClientSession getOriginalSession()
+    '''returns WebClientSession\n\n
+    getOriginalSession()\n
     '''
 def getContextPath():
-    '''public String getContextPath()
+    '''returns String\n\n
+    getContextPath()\n
     '''
 def setDesignmode():
-    '''public void setDesignmode(final boolean flag)
+    '''returns None\n\n
+    setDesignmode(final boolean flag)\n
     '''
 def getDesignmode():
-    '''public boolean getDesignmode()
+    '''returns boolean\n\n
+    getDesignmode()\n
     '''
 def getMobile():
-    '''public boolean getMobile()
+    '''returns boolean\n\n
+    getMobile()\n
     '''
 def setMobile():
-    '''public void setMobile(final boolean setValue)
+    '''returns None\n\n
+    setMobile(final boolean setValue)\n
     '''
 def setLockMboOnEntry():
-    '''public void setLockMboOnEntry(final boolean checkrecordlock)
+    '''returns None\n\n
+    setLockMboOnEntry(final boolean checkrecordlock)\n
     '''
 def lockMboOnEntry():
-    '''public boolean lockMboOnEntry()
+    '''returns boolean\n\n
+    lockMboOnEntry()\n
     '''
 def setPerformanceDataHASH():
-    '''public void setPerformanceDataHASH(final String keyName, final String value)
-    public void setPerformanceDataHASH(final String keyName, long sInputValue)
+    '''returns None\n\n
+    setPerformanceDataHASH(final String keyName, final String value)\n
+    setPerformanceDataHASH(final String keyName, long sInputValue)\n
     '''
 def clearPerformanceDataHASH():
-    '''public void clearPerformanceDataHASH(final String appname)
+    '''returns None\n\n
+    clearPerformanceDataHASH(final String appname)\n
     '''
 def clearAllTracking():
-    '''public void clearAllTracking()
+    '''returns None\n\n
+    clearAllTracking()\n
     '''
 def getUISessionID():
-    '''public String getUISessionID()
+    '''returns String\n\n
+    getUISessionID()\n
     '''
 def getUISessionUrlParameter():
-    '''public String getUISessionUrlParameter()
+    '''returns String\n\n
+    getUISessionUrlParameter()\n
     '''
 def setUISessionID():
-    '''public void setUISessionID(final String uiSessionID)
+    '''returns None\n\n
+    setUISessionID(final String uiSessionID)\n
     '''
 def setSessionFound():
-    '''public void setSessionFound(final boolean flag)
+    '''returns None\n\n
+    setSessionFound(final boolean flag)\n
     '''
 def isSessionFound():
-    '''public boolean isSessionFound()
+    '''returns boolean\n\n
+    isSessionFound()\n
     '''
 def valueBound():
-    '''public void valueBound(final HttpSessionBindingEvent arg0)
+    '''returns None\n\n
+    valueBound(final HttpSessionBindingEvent arg0)\n
     '''
 def valueUnbound():
-    '''public void valueUnbound(final HttpSessionBindingEvent arg0)
+    '''returns None\n\n
+    valueUnbound(final HttpSessionBindingEvent arg0)\n
     '''
 def isWebReplayEnabled():
-    '''public boolean isWebReplayEnabled()
+    '''returns boolean\n\n
+    isWebReplayEnabled()\n
     '''
 def setShowWebReplay():
-    '''public void setShowWebReplay(final boolean show)
+    '''returns None\n\n
+    setShowWebReplay(final boolean show)\n
     '''
 def getShowWebReplay():
-    '''public boolean getShowWebReplay()
+    '''returns boolean\n\n
+    getShowWebReplay()\n
     '''
 def showWebReplay():
-    '''public boolean showWebReplay(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns boolean\n\n
+    showWebReplay(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def hideWebReplay():
-    '''public void hideWebReplay(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    hideWebReplay(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def getDebug():
-    '''public boolean getDebug()
+    '''returns boolean\n\n
+    getDebug()\n
     '''
 def getDebugLevel():
-    '''public int getDebugLevel()
+    '''returns int\n\n
+    getDebugLevel()\n
     '''
 def getEventLog():
-    '''public String getEventLog()
+    '''returns String\n\n
+    getEventLog()\n
     '''
 def setDebugDock():
-    '''public void setDebugDock(final String left, final String top)
+    '''returns None\n\n
+    setDebugDock(final String left, final String top)\n
     '''
 def setAccessibilityMode():
-    '''public void setAccessibilityMode(final boolean mode)
+    '''returns None\n\n
+    setAccessibilityMode(final boolean mode)\n
     '''
 def getAccessibilityMode():
-    '''public boolean getAccessibilityMode()
+    '''returns boolean\n\n
+    getAccessibilityMode()\n
     '''
 def getSystemEventHandler():
-    '''public EventHandlerInterface getSystemEventHandler()
+    '''returns EventHandlerInterface\n\n
+    getSystemEventHandler()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def getImagePath():
-    '''public String getImagePath()
+    '''returns String\n\n
+    getImagePath()\n
     '''
 def getCssPath():
-    '''public String getCssPath()
+    '''returns String\n\n
+    getCssPath()\n
     '''
 def getWebClientURL():
-    '''public String getWebClientURL()
+    '''returns String\n\n
+    getWebClientURL()\n
     '''
 def getImageURL():
-    '''public String getImageURL()
+    '''returns String\n\n
+    getImageURL()\n
     '''
 def getCssURL():
-    '''public String getCssURL()
+    '''returns String\n\n
+    getCssURL()\n
     '''
 def setImagePath():
-    '''public void setImagePath(final String path)
+    '''returns None\n\n
+    setImagePath(final String path)\n
     '''
 def setCssPath():
-    '''public void setCssPath(final String path)
+    '''returns None\n\n
+    setCssPath(final String path)\n
     '''
 def isCombinedSetValue():
-    '''public boolean isCombinedSetValue()
+    '''returns boolean\n\n
+    isCombinedSetValue()\n
     '''
 def subFrameAllowed():
-    '''public boolean subFrameAllowed()
+    '''returns boolean\n\n
+    subFrameAllowed()\n
     '''
 def forceMessagesToMainPage():
-    '''public void forceMessagesToMainPage(final boolean forceMain)
+    '''returns None\n\n
+    forceMessagesToMainPage(final boolean forceMain)\n
     '''
 def getForceMessagesToMainPage():
-    '''public boolean getForceMessagesToMainPage()
+    '''returns boolean\n\n
+    getForceMessagesToMainPage()\n
     '''
 def setAdvancedLongOp():
-    '''public void setAdvancedLongOp(final boolean advanced)
+    '''returns None\n\n
+    setAdvancedLongOp(final boolean advanced)\n
     '''
 def isAutomationOn():
-    '''public boolean isAutomationOn()
+    '''returns boolean\n\n
+    isAutomationOn()\n
     '''
 def turnAutomationOn():
-    '''public void turnAutomationOn()
-    '''
-def checkResults():
-    '''public static void checkResults(final DataBean results, final WebClientSession clientSession, final AppInstance app)
+    '''returns None\n\n
+    turnAutomationOn()\n
     '''
 def replaceQbeclearButton():
-    '''public Element replaceQbeclearButton(final Element dialogElement)
+    '''returns Element\n\n
+    replaceQbeclearButton(final Element dialogElement)\n
     '''
 def addMoreinfoButton():
-    '''public Element addMoreinfoButton(final Element dialogElement, final String value)
+    '''returns Element\n\n
+    addMoreinfoButton(final Element dialogElement, final String value)\n
     '''
 def isMaximoOrTivoliBrand():
-    '''public boolean isMaximoOrTivoliBrand()
+    '''returns boolean\n\n
+    isMaximoOrTivoliBrand()\n
     '''
 def killPopup():
-    '''public void killPopup(final boolean killIt)
-    public void killPopup(final WebClientEvent event)
+    '''returns None\n\n
+    killPopup(final boolean killIt)\n
+    killPopup(final WebClientEvent event)\n
     '''
 def wasPopupKilled():
-    '''public boolean wasPopupKilled()
+    '''returns boolean\n\n
+    wasPopupKilled()\n
     '''
 def getMaximoRequestURI():
-    '''public String getMaximoRequestURI()
+    '''returns String\n\n
+    getMaximoRequestURI()\n
     '''
 def getMaximoRequestURL():
-    '''public String getMaximoRequestURL()
+    '''returns String\n\n
+    getMaximoRequestURL()\n
     '''
 def getMaximoRequestContextURL():
-    '''public String getMaximoRequestContextURL()
+    '''returns String\n\n
+    getMaximoRequestContextURL()\n
     '''
 def getMaximoBaseURL():
-    '''public String getMaximoBaseURL()
+    '''returns String\n\n
+    getMaximoBaseURL()\n
     '''
 def getDefautlFormat():
-    '''public String getDefautlFormat()
+    '''returns String\n\n
+    getDefautlFormat()\n
     '''
 def setDefautlFormat():
-    '''public void setDefautlFormat(final String defaultFormat)
+    '''returns None\n\n
+    setDefautlFormat(final String defaultFormat)\n
     '''
 def wereImagesPreLoaded():
-    '''public boolean wereImagesPreLoaded()
+    '''returns boolean\n\n
+    wereImagesPreLoaded()\n
     '''
 def setImagesPreLoaded():
-    '''public void setImagesPreLoaded(final boolean pre)
+    '''returns None\n\n
+    setImagesPreLoaded(final boolean pre)\n
     '''
 def lastAccessed():
-    '''public Date lastAccessed()
+    '''returns Date\n\n
+    lastAccessed()\n
     '''
 def stamp():
-    '''public void stamp()
+    '''returns None\n\n
+    stamp()\n
     '''
 def getFactoryId():
-    '''public String getFactoryId()
+    '''returns String\n\n
+    getFactoryId()\n
     '''
 def getStartCenterCache():
-    '''public Object getStartCenterCache(final String key)
+    '''returns Object\n\n
+    getStartCenterCache(final String key)\n
     '''
 def setStartCenterCache():
-    '''public void setStartCenterCache(final String key, final Object obj)
+    '''returns None\n\n
+    setStartCenterCache(final String key, final Object obj)\n
     '''
 def resetStartCenterCache():
-    '''public void resetStartCenterCache()
+    '''returns None\n\n
+    resetStartCenterCache()\n
     '''
 def resetPortletCaches():
-    '''public void resetPortletCaches()
+    '''returns None\n\n
+    resetPortletCaches()\n
     '''
 def clearPortletCacheSelectively():
-    '''public void clearPortletCacheSelectively(final String prefix)
+    '''returns None\n\n
+    clearPortletCacheSelectively(final String prefix)\n
     '''
 def clearPortletCacheOnKPIChange():
-    '''public void clearPortletCacheOnKPIChange(final String kpiName)
+    '''returns None\n\n
+    clearPortletCacheOnKPIChange(final String kpiName)\n
     '''
 def clearPortletCacheOnReportChange():
-    '''public void clearPortletCacheOnReportChange(final String reportId)
+    '''returns None\n\n
+    clearPortletCacheOnReportChange(final String reportId)\n
     '''
 def clearStartCenterCache():
-    '''public void clearStartCenterCache(final String key)
+    '''returns None\n\n
+    clearStartCenterCache(final String key)\n
     '''
 def hasStartCenterCache():
-    '''public boolean hasStartCenterCache(final String key)
+    '''returns boolean\n\n
+    hasStartCenterCache(final String key)\n
     '''
 def isAsyncEnabled():
-    '''public boolean isAsyncEnabled()
+    '''returns boolean\n\n
+    isAsyncEnabled()\n
     '''
 def getAsyncRequestManager():
-    '''public AsyncRequestManager getAsyncRequestManager()
+    '''returns AsyncRequestManager\n\n
+    getAsyncRequestManager()\n
     '''
 def performApplink():
-    '''public void performApplink(final boolean canApplink)
+    '''returns None\n\n
+    performApplink(final boolean canApplink)\n
     '''
 def canPerformApplink():
-    '''public boolean canPerformApplink()
+    '''returns boolean\n\n
+    canPerformApplink()\n
     '''
 def processRender():
-    '''public void processRender()
+    '''returns None\n\n
+    processRender()\n
     '''
 def getDebugDockLeft():
-    '''public int getDebugDockLeft()
+    '''returns int\n\n
+    getDebugDockLeft()\n
     '''
 def getDebugDockTop():
-    '''public int getDebugDockTop()
+    '''returns int\n\n
+    getDebugDockTop()\n
     '''
 def getIEVersion():
-    '''public double getIEVersion()
+    '''returns double\n\n
+    getIEVersion()\n
     '''
 def setInFrameset():
-    '''public void setInFrameset(final boolean isInFrameset)
+    '''returns None\n\n
+    setInFrameset(final boolean isInFrameset)\n
     '''
 def isInFrameset():
-    '''public boolean isInFrameset()
+    '''returns boolean\n\n
+    isInFrameset()\n
     '''
 def canUseStaticIds():
-    '''public boolean canUseStaticIds()
+    '''returns boolean\n\n
+    canUseStaticIds()\n
     '''
 def getImageSourcePath():
-    '''public String getImageSourcePath()
+    '''returns String\n\n
+    getImageSourcePath()\n
     '''
 def getDialogIcon():
-    '''public String getDialogIcon(final String suffix)
+    '''returns String\n\n
+    getDialogIcon(final String suffix)\n
     '''
 def getWarningInfo():
-    '''public ContainerErrorInfo getWarningInfo()
+    '''returns ContainerErrorInfo\n\n
+    getWarningInfo()\n
     '''
 def getSmartFillExceptionInfo():
-    '''public ContainerErrorInfo getSmartFillExceptionInfo()
+    '''returns ContainerErrorInfo\n\n
+    getSmartFillExceptionInfo()\n
     '''
 def getExceptionInfo():
-    '''public ContainerErrorInfo getExceptionInfo()
+    '''returns ContainerErrorInfo\n\n
+    getExceptionInfo()\n
     '''
 def getQuestionInfo():
-    '''public ContainerErrorInfo getQuestionInfo()
+    '''returns ContainerErrorInfo\n\n
+    getQuestionInfo()\n
     '''
 def getContainerErrorIconJSON():
-    '''public JSONObject getContainerErrorIconJSON()
+    '''returns JSONObject\n\n
+    getContainerErrorIconJSON()\n
     '''
 def getConditionalUIHelper():
-    '''public ConditionalUIHelper getConditionalUIHelper()
+    '''returns ConditionalUIHelper\n\n
+    getConditionalUIHelper()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDefaultStartApp():
-    '''public String getDefaultStartApp()
+    '''returns String\n\n
+    getDefaultStartApp()\n
     '''
 def getRegexPattern():
-    '''public String getRegexPattern(final int dataType)
+    '''returns String\n\n
+    getRegexPattern(final int dataType)\n
     '''
 def setMenusCached():
-    '''public void setMenusCached(final boolean cached)
+    '''returns None\n\n
+    setMenusCached(final boolean cached)\n
     '''
 def getMenusCached():
-    '''public boolean getMenusCached()
+    '''returns boolean\n\n
+    getMenusCached()\n
     '''
 def hasPausedEvents():
-    '''public boolean hasPausedEvents()
+    '''returns boolean\n\n
+    hasPausedEvents()\n
     '''
 def getDesignerAsyncRequestManager():
-    '''public AsyncRequestManager getDesignerAsyncRequestManager()
+    '''returns AsyncRequestManager\n\n
+    getDesignerAsyncRequestManager()\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String attributeName, final Object value)
+    '''returns None\n\n
+    setAttribute(final String attributeName, final Object value)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String attributeName)
+    '''returns Object\n\n
+    getAttribute(final String attributeName)\n
     '''
 def attachUOM():
-    '''public String attachUOM(String size)
+    '''returns String\n\n
+    attachUOM(String size)\n
     '''
 def removeUOM():
-    '''public String removeUOM(String size)
+    '''returns String\n\n
+    removeUOM(String size)\n
     '''
 def useVerticalLabels():
-    '''public boolean useVerticalLabels()
+    '''returns boolean\n\n
+    useVerticalLabels()\n
     '''
 def generateOneTimeCSRFTokenParameter():
-    '''public String generateOneTimeCSRFTokenParameter()
+    '''returns String\n\n
+    generateOneTimeCSRFTokenParameter()\n
     '''
 def generateRetryCSRFTokenParameter():
-    '''public String generateRetryCSRFTokenParameter()
+    '''returns String\n\n
+    generateRetryCSRFTokenParameter()\n
     '''
 def isTempTokenValid():
-    '''public boolean isTempTokenValid(final String oneTimeToken)
+    '''returns boolean\n\n
+    isTempTokenValid(final String oneTimeToken)\n
     '''
 def getCSRFToken():
-    '''public String getCSRFToken()
+    '''returns String\n\n
+    getCSRFToken()\n
     '''
 def getCSRFTokenParameter():
-    '''public String getCSRFTokenParameter()
+    '''returns String\n\n
+    getCSRFTokenParameter()\n
     '''
 def showSystemNavBar():
-    '''public boolean showSystemNavBar(final PageInstance page)
-    '''
-def getMessageBoxQueue():
-    '''public Queue<Map<String, String>> getMessageBoxQueue()
+    '''returns boolean\n\n
+    showSystemNavBar(final PageInstance page)\n
     '''
 def getFeaturePack():
-    '''public String getFeaturePack()
+    '''returns String\n\n
+    getFeaturePack()\n
     '''
 def supportsLocalStorage():
-    '''public boolean supportsLocalStorage()
+    '''returns boolean\n\n
+    supportsLocalStorage()\n
     '''
 def setLeftNavWidth():
-    '''public void setLeftNavWidth(final String width)
+    '''returns None\n\n
+    setLeftNavWidth(final String width)\n
     '''
 def getLeftNavWidth():
-    '''public String getLeftNavWidth(final PageInstance page)
-    '''
-def valueFor():
-    '''public static RequestType valueFor(final String type)
-    '''
-def Alignment():
-    '''public Alignment(final String langcode)
+    '''returns String\n\n
+    getLeftNavWidth(final PageInstance page)\n
     '''
 def reverse():
-    '''public String reverse(final String align)
+    '''returns String\n\n
+    reverse(final String align)\n
     '''

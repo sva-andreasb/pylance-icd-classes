@@ -1,15 +1,20 @@
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def setTarget():
-    '''public void setTarget(final InstructionHandle ih)
+    '''returns None\n\n
+    setTarget(final InstructionHandle ih)\n
     '''
 def updateTarget():
-    '''public void updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)
+    '''returns None\n\n
+    updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)\n
     '''
 def getTarget():
-    '''public InstructionHandle getTarget()
+    '''returns InstructionHandle\n\n
+    getTarget()\n
     '''
 def setInstruction():
-    '''public void setInstruction(final Instruction i)
+    '''returns None\n\n
+    setInstruction(final Instruction i)\n
     '''

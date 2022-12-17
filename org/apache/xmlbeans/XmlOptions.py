@@ -56,191 +56,243 @@ SCHEMA_CODE_PRINTER = "String  \"SCHEMA_CODE_PRINTER\""
 GENERATE_JAVA_VERSION = "String  \"GENERATE_JAVA_VERSION\""
 COPY_USE_NEW_SYNC_DOMAIN = "String  \"COPY_USE_NEW_LOCALE\""
 LOAD_ENTITY_BYTES_LIMIT = "String  \"LOAD_ENTITY_BYTES_LIMIT\""
-def XmlOptions():
-    '''public XmlOptions()
-    public XmlOptions(final XmlOptions other)
+def ():
+    '''returns XmlOptions\n\n
+    ()\n
+    (final XmlOptions other)\n
     '''
 def setSaveNamespacesFirst():
-    '''public XmlOptions setSaveNamespacesFirst()
+    '''returns XmlOptions\n\n
+    setSaveNamespacesFirst()\n
     '''
 def setSavePrettyPrint():
-    '''public XmlOptions setSavePrettyPrint()
+    '''returns XmlOptions\n\n
+    setSavePrettyPrint()\n
     '''
 def setSavePrettyPrintIndent():
-    '''public XmlOptions setSavePrettyPrintIndent(final int indent)
+    '''returns XmlOptions\n\n
+    setSavePrettyPrintIndent(final int indent)\n
     '''
 def setSavePrettyPrintOffset():
-    '''public XmlOptions setSavePrettyPrintOffset(final int offset)
+    '''returns XmlOptions\n\n
+    setSavePrettyPrintOffset(final int offset)\n
     '''
 def setCharacterEncoding():
-    '''public XmlOptions setCharacterEncoding(final String encoding)
+    '''returns XmlOptions\n\n
+    setCharacterEncoding(final String encoding)\n
     '''
 def setDocumentType():
-    '''public XmlOptions setDocumentType(final SchemaType type)
+    '''returns XmlOptions\n\n
+    setDocumentType(final SchemaType type)\n
     '''
 def setErrorListener():
-    '''public XmlOptions setErrorListener(final Collection c)
+    '''returns XmlOptions\n\n
+    setErrorListener(final Collection c)\n
     '''
 def setSaveAggressiveNamespaces():
-    '''public XmlOptions setSaveAggressiveNamespaces()
+    '''returns XmlOptions\n\n
+    setSaveAggressiveNamespaces()\n
     '''
 def setSaveAggresiveNamespaces():
-    '''public XmlOptions setSaveAggresiveNamespaces()
+    '''returns XmlOptions\n\n
+    setSaveAggresiveNamespaces()\n
     '''
 def setSaveSyntheticDocumentElement():
-    '''public XmlOptions setSaveSyntheticDocumentElement(final QName name)
+    '''returns XmlOptions\n\n
+    setSaveSyntheticDocumentElement(final QName name)\n
     '''
 def setUseDefaultNamespace():
-    '''public XmlOptions setUseDefaultNamespace()
+    '''returns XmlOptions\n\n
+    setUseDefaultNamespace()\n
     '''
 def setSaveImplicitNamespaces():
-    '''public XmlOptions setSaveImplicitNamespaces(final Map implicitNamespaces)
+    '''returns XmlOptions\n\n
+    setSaveImplicitNamespaces(final Map implicitNamespaces)\n
     '''
 def setSaveSuggestedPrefixes():
-    '''public XmlOptions setSaveSuggestedPrefixes(final Map suggestedPrefixes)
+    '''returns XmlOptions\n\n
+    setSaveSuggestedPrefixes(final Map suggestedPrefixes)\n
     '''
 def setSaveFilterProcinst():
-    '''public XmlOptions setSaveFilterProcinst(final String filterProcinst)
+    '''returns XmlOptions\n\n
+    setSaveFilterProcinst(final String filterProcinst)\n
     '''
 def setSaveSubstituteCharacters():
-    '''public XmlOptions setSaveSubstituteCharacters(final XmlOptionCharEscapeMap characterReplacementMap)
+    '''returns XmlOptions\n\n
+    setSaveSubstituteCharacters(final XmlOptionCharEscapeMap characterReplacementMap)\n
     '''
 def setSaveUseOpenFrag():
-    '''public XmlOptions setSaveUseOpenFrag()
+    '''returns XmlOptions\n\n
+    setSaveUseOpenFrag()\n
     '''
 def setSaveOuter():
-    '''public XmlOptions setSaveOuter()
+    '''returns XmlOptions\n\n
+    setSaveOuter()\n
     '''
 def setSaveInner():
-    '''public XmlOptions setSaveInner()
+    '''returns XmlOptions\n\n
+    setSaveInner()\n
     '''
 def setSaveNoXmlDecl():
-    '''public XmlOptions setSaveNoXmlDecl()
+    '''returns XmlOptions\n\n
+    setSaveNoXmlDecl()\n
     '''
 def setSaveCDataLengthThreshold():
-    '''public XmlOptions setSaveCDataLengthThreshold(final int cdataLengthThreshold)
+    '''returns XmlOptions\n\n
+    setSaveCDataLengthThreshold(final int cdataLengthThreshold)\n
     '''
 def setSaveCDataEntityCountThreshold():
-    '''public XmlOptions setSaveCDataEntityCountThreshold(final int cdataEntityCountThreshold)
+    '''returns XmlOptions\n\n
+    setSaveCDataEntityCountThreshold(final int cdataEntityCountThreshold)\n
     '''
 def setUseCDataBookmarks():
-    '''public XmlOptions setUseCDataBookmarks()
+    '''returns XmlOptions\n\n
+    setUseCDataBookmarks()\n
     '''
 def setSaveSaxNoNSDeclsInAttributes():
-    '''public XmlOptions setSaveSaxNoNSDeclsInAttributes()
+    '''returns XmlOptions\n\n
+    setSaveSaxNoNSDeclsInAttributes()\n
     '''
 def setLoadReplaceDocumentElement():
-    '''public XmlOptions setLoadReplaceDocumentElement(final QName replacement)
+    '''returns XmlOptions\n\n
+    setLoadReplaceDocumentElement(final QName replacement)\n
     '''
 def setLoadStripWhitespace():
-    '''public XmlOptions setLoadStripWhitespace()
+    '''returns XmlOptions\n\n
+    setLoadStripWhitespace()\n
     '''
 def setLoadStripComments():
-    '''public XmlOptions setLoadStripComments()
+    '''returns XmlOptions\n\n
+    setLoadStripComments()\n
     '''
 def setLoadStripProcinsts():
-    '''public XmlOptions setLoadStripProcinsts()
+    '''returns XmlOptions\n\n
+    setLoadStripProcinsts()\n
     '''
 def setLoadLineNumbers():
-    '''public XmlOptions setLoadLineNumbers()
-    public XmlOptions setLoadLineNumbers(final String option)
+    '''returns XmlOptions\n\n
+    setLoadLineNumbers()\n
+    setLoadLineNumbers(final String option)\n
     '''
 def setLoadSubstituteNamespaces():
-    '''public XmlOptions setLoadSubstituteNamespaces(final Map substNamespaces)
+    '''returns XmlOptions\n\n
+    setLoadSubstituteNamespaces(final Map substNamespaces)\n
     '''
 def setLoadTrimTextBuffer():
-    '''public XmlOptions setLoadTrimTextBuffer()
+    '''returns XmlOptions\n\n
+    setLoadTrimTextBuffer()\n
     '''
 def setLoadAdditionalNamespaces():
-    '''public XmlOptions setLoadAdditionalNamespaces(final Map nses)
+    '''returns XmlOptions\n\n
+    setLoadAdditionalNamespaces(final Map nses)\n
     '''
 def setLoadMessageDigest():
-    '''public XmlOptions setLoadMessageDigest()
+    '''returns XmlOptions\n\n
+    setLoadMessageDigest()\n
     '''
 def setLoadUseDefaultResolver():
-    '''public XmlOptions setLoadUseDefaultResolver()
+    '''returns XmlOptions\n\n
+    setLoadUseDefaultResolver()\n
     '''
 def setLoadUseXMLReader():
-    '''public XmlOptions setLoadUseXMLReader(final XMLReader xmlReader)
+    '''returns XmlOptions\n\n
+    setLoadUseXMLReader(final XMLReader xmlReader)\n
     '''
 def setXqueryCurrentNodeVar():
-    '''public XmlOptions setXqueryCurrentNodeVar(final String varName)
+    '''returns XmlOptions\n\n
+    setXqueryCurrentNodeVar(final String varName)\n
     '''
 def setXqueryVariables():
-    '''public XmlOptions setXqueryVariables(final Map varMap)
+    '''returns XmlOptions\n\n
+    setXqueryVariables(final Map varMap)\n
     '''
 def setDocumentSourceName():
-    '''public XmlOptions setDocumentSourceName(final String documentSourceName)
+    '''returns XmlOptions\n\n
+    setDocumentSourceName(final String documentSourceName)\n
     '''
 def setCompileSubstituteNames():
-    '''public XmlOptions setCompileSubstituteNames(final Map nameMap)
+    '''returns XmlOptions\n\n
+    setCompileSubstituteNames(final Map nameMap)\n
     '''
 def setCompileNoValidation():
-    '''public XmlOptions setCompileNoValidation()
+    '''returns XmlOptions\n\n
+    setCompileNoValidation()\n
     '''
 def setCompileNoUpaRule():
-    '''public XmlOptions setCompileNoUpaRule()
+    '''returns XmlOptions\n\n
+    setCompileNoUpaRule()\n
     '''
 def setCompileNoPvrRule():
-    '''public XmlOptions setCompileNoPvrRule()
+    '''returns XmlOptions\n\n
+    setCompileNoPvrRule()\n
     '''
 def setCompileNoAnnotations():
-    '''public XmlOptions setCompileNoAnnotations()
+    '''returns XmlOptions\n\n
+    setCompileNoAnnotations()\n
     '''
 def setCompileDownloadUrls():
-    '''public XmlOptions setCompileDownloadUrls()
+    '''returns XmlOptions\n\n
+    setCompileDownloadUrls()\n
     '''
 def setCompileMdefNamespaces():
-    '''public XmlOptions setCompileMdefNamespaces(final Set mdefNamespaces)
+    '''returns XmlOptions\n\n
+    setCompileMdefNamespaces(final Set mdefNamespaces)\n
     '''
 def setValidateOnSet():
-    '''public XmlOptions setValidateOnSet()
+    '''returns XmlOptions\n\n
+    setValidateOnSet()\n
     '''
 def setValidateTreatLaxAsSkip():
-    '''public XmlOptions setValidateTreatLaxAsSkip()
+    '''returns XmlOptions\n\n
+    setValidateTreatLaxAsSkip()\n
     '''
 def setValidateStrict():
-    '''public XmlOptions setValidateStrict()
+    '''returns XmlOptions\n\n
+    setValidateStrict()\n
     '''
 def setUnsynchronized():
-    '''public XmlOptions setUnsynchronized()
+    '''returns XmlOptions\n\n
+    setUnsynchronized()\n
     '''
 def setEntityResolver():
-    '''public XmlOptions setEntityResolver(final EntityResolver resolver)
+    '''returns XmlOptions\n\n
+    setEntityResolver(final EntityResolver resolver)\n
     '''
 def setBaseURI():
-    '''public XmlOptions setBaseURI(final URI baseURI)
+    '''returns XmlOptions\n\n
+    setBaseURI(final URI baseURI)\n
     '''
 def setSchemaCodePrinter():
-    '''public XmlOptions setSchemaCodePrinter(final SchemaCodePrinter printer)
+    '''returns XmlOptions\n\n
+    setSchemaCodePrinter(final SchemaCodePrinter printer)\n
     '''
 def setGenerateJavaVersion():
-    '''public XmlOptions setGenerateJavaVersion(final String source)
+    '''returns XmlOptions\n\n
+    setGenerateJavaVersion(final String source)\n
     '''
 def setCopyUseNewSynchronizationDomain():
-    '''public XmlOptions setCopyUseNewSynchronizationDomain(final boolean useNewSyncDomain)
+    '''returns XmlOptions\n\n
+    setCopyUseNewSynchronizationDomain(final boolean useNewSyncDomain)\n
     '''
 def setLoadEntityBytesLimit():
-    '''public XmlOptions setLoadEntityBytesLimit(final int entityBytesLimit)
-    '''
-def maskNull():
-    '''public static XmlOptions maskNull(final XmlOptions o)
+    '''returns XmlOptions\n\n
+    setLoadEntityBytesLimit(final int entityBytesLimit)\n
     '''
 def put():
-    '''public void put(final Object option)
-    public void put(final Object option, final Object value)
-    public void put(final Object option, final int value)
+    '''returns None\n\n
+    put(final Object option)\n
+    put(final Object option, final Object value)\n
+    put(final Object option, final int value)\n
     '''
 def hasOption():
-    '''public boolean hasOption(final Object option)
-    public static boolean hasOption(final XmlOptions options, final Object option)
+    '''returns boolean\n\n
+    hasOption(final Object option)\n
     '''
 def get():
-    '''public Object get(final Object option)
+    '''returns Object\n\n
+    get(final Object option)\n
     '''
 def remove():
-    '''public void remove(final Object option)
-    '''
-def safeGet():
-    '''public static Object safeGet(final XmlOptions o, final Object option)
+    '''returns None\n\n
+    remove(final Object option)\n
     '''

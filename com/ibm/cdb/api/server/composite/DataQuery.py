@@ -1,15 +1,8 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
 def findByObjectName():
-    '''public ModelObject[] findByObjectName(final String objectName)
+    '''returns ModelObject[]\n\n
+    findByObjectName(final String objectName)\n
     '''
 def query():
-    '''public ModelObject[] query(final String objectName, final String query)
-    '''
-def findByGuid():
-    '''public static ModelObject findByGuid(final String objectName, final String ciType, final String guid)
-    '''
-def init():
-    '''public static void init(final TopologyManagerFactory tmf)
+    '''returns ModelObject[]\n\n
+    query(final String objectName, final String query)\n
     '''

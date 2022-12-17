@@ -1,18 +1,24 @@
-def BasicHeader():
-    '''public BasicHeader(final String name, final String value)
+def ():
+    '''returns BasicHeader\n\n
+    (final String name, final String value)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getElements():
-    '''public HeaderElement[] getElements()
+    '''returns HeaderElement[]\n\n
+    getElements()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

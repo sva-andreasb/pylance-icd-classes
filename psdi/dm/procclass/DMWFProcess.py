@@ -1,16 +1,21 @@
-def DMWFProcess():
-    '''public DMWFProcess()
+def ():
+    '''returns DMWFProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules()
-    public int checkBusinessRules(final MboSetRemote mboSet, final String processTable)
+    '''returns int\n\n
+    checkBusinessRules()\n
+    checkBusinessRules(final MboSetRemote mboSet, final String processTable)\n
     '''
 def deleteAll():
-    '''public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
+    '''returns None\n\n
+    deleteAll(final MboRemote owner, final MboSetRemote mboSet)\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String objectName)\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''

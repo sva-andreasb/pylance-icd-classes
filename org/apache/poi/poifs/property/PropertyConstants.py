@@ -1,0 +1,4 @@
+PROPERTY_TYPE_OFFSET = "int  66"
+DIRECTORY_TYPE = "byte  1"
+DOCUMENT_TYPE = "byte  2"
+ROOT_TYPE = "byte  5"

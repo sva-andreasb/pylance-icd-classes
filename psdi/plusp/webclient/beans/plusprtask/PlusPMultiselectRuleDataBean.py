@@ -1,6 +1,8 @@
 def addlinkrules():
-    '''public int addlinkrules()
+    '''returns int\n\n
+    addlinkrules()\n
     '''
 def addcomprules():
-    '''public int addcomprules()
+    '''returns int\n\n
+    addcomprules()\n
     '''

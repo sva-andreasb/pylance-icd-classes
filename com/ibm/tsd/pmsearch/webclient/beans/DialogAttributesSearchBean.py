@@ -1,3 +1,4 @@
-def DialogAttributesSearchBean():
-    '''public DialogAttributesSearchBean()
+def ():
+    '''returns DialogAttributesSearchBean\n\n
+    ()\n
     '''

@@ -1,18 +1,24 @@
-def IlvDiagrammerMenuBar():
-    '''public IlvDiagrammerMenuBar()
+def ():
+    '''returns IlvDiagrammerMenuBar\n\n
+    ()\n
     '''
 def getFileMenu():
-    '''public IlvDiagrammerMenu getFileMenu()
+    '''returns IlvDiagrammerMenu\n\n
+    getFileMenu()\n
     '''
 def getEditMenu():
-    '''public IlvDiagrammerMenu getEditMenu()
+    '''returns IlvDiagrammerMenu\n\n
+    getEditMenu()\n
     '''
 def getViewMenu():
-    '''public IlvDiagrammerMenu getViewMenu()
+    '''returns IlvDiagrammerMenu\n\n
+    getViewMenu()\n
     '''
 def getOptionsMenu():
-    '''public IlvDiagrammerMenu getOptionsMenu()
+    '''returns IlvDiagrammerMenu\n\n
+    getOptionsMenu()\n
     '''
 def getDiagrammerHelpMenu():
-    '''public IlvDiagrammerMenu getDiagrammerHelpMenu()
+    '''returns IlvDiagrammerMenu\n\n
+    getDiagrammerHelpMenu()\n
     '''

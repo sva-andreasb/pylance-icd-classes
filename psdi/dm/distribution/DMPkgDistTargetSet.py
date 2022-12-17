@@ -1,3 +1,4 @@
-def DMPkgDistTargetSet():
-    '''public DMPkgDistTargetSet(final MboServerInterface ms)
+def ():
+    '''returns DMPkgDistTargetSet\n\n
+    (final MboServerInterface ms)\n
     '''

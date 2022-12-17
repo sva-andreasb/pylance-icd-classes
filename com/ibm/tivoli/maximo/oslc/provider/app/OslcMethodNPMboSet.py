@@ -1,12 +1,16 @@
-def OslcMethodNPMboSet():
-    '''public OslcMethodNPMboSet(final MboServerInterface ms)
+def ():
+    '''returns OslcMethodNPMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def fillData():
-    '''public void fillData(final String osName, final MboSetRemote sigOptionSet)
+    '''returns None\n\n
+    fillData(final String osName, final MboSetRemote sigOptionSet)\n
     '''
 def fillParent():
-    '''public void fillParent(final MboSetRemote parent)
+    '''returns None\n\n
+    fillParent(final MboSetRemote parent)\n
     '''

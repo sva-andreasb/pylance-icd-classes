@@ -1,12 +1,16 @@
 def PURGE():
-    '''public int PURGE()
+    '''returns int\n\n
+    PURGE()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def ACTIVATE():
-    '''public int ACTIVATE()
+    '''returns int\n\n
+    ACTIVATE()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''

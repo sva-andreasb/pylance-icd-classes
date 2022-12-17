@@ -1,3 +1,4 @@
-def RelationRulesExtSet():
-    '''public RelationRulesExtSet(final MboServerInterface ms)
+def ():
+    '''returns RelationRulesExtSet\n\n
+    (final MboServerInterface ms)\n
     '''

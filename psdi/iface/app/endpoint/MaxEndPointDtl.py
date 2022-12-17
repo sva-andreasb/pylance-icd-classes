@@ -1,18 +1,24 @@
-def MaxEndPointDtl():
-    '''public MaxEndPointDtl(final MboSet ms)
+def ():
+    '''returns MaxEndPointDtl\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''

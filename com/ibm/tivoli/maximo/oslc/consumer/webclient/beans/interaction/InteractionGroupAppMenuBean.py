@@ -1,9 +1,12 @@
 def instantdelete():
-    '''public int instantdelete()
+    '''returns int\n\n
+    instantdelete()\n
     '''
 def deleteInteractionGroupAppMenu():
-    '''public void deleteInteractionGroupAppMenu(final MboRemote mbo)
+    '''returns None\n\n
+    deleteInteractionGroupAppMenu(final MboRemote mbo)\n
     '''
 def selectmenu():
-    '''public int selectmenu()
+    '''returns int\n\n
+    selectmenu()\n
     '''

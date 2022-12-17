@@ -26,143 +26,68 @@ ACTION_UNCHECKED_ICON = "String  \"uncheckedIcon\""
 ACTION_DEPENDING_ACTIONS = "String  \"dependingActions\""
 ACTION_ACCELERATOR_LIST = "String  \"accelerators\""
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def readSettings():
-    '''public void readSettings(final IlvSettingsElement ilvSettingsElement, final IlvApplication newValue)
-    '''
-def HasCategory():
-    '''public static boolean HasCategory(final Action action, final String anObject)
-    '''
-def GetCategories():
-    '''public static String[] GetCategories(final Action action)
-    '''
-def SetSelectionIndex():
-    '''public static void SetSelectionIndex(final Action action, final int value)
-    '''
-def SetSelectedItem():
-    '''public static void SetSelectedItem(final Action action, final Object o)
-    '''
-def GetSelectionIndex():
-    '''public static int GetSelectionIndex(final Action action)
-    '''
-def GetSelectedItem():
-    '''public static Object GetSelectedItem(final Action action)
-    '''
-def GetListItems():
-    '''public static Object[] GetListItems(final Action action)
-    '''
-def SetListItems():
-    '''public static void SetListItems(final Action action, final Object[] array)
-    '''
-def IsListMenuNumbering():
-    '''public static boolean IsListMenuNumbering(final Action action)
-    '''
-def IsAutomatic():
-    '''public static boolean IsAutomatic(final Action action)
-    '''
-def SetAutomatic():
-    '''public static boolean SetAutomatic(final Action action, final boolean b)
-    '''
-def IsActionList():
-    '''public static boolean IsActionList(final Action action)
+    '''returns None\n\n
+    readSettings(final IlvSettingsElement ilvSettingsElement, final IlvApplication newValue)\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
-    '''
-def SetAction():
-    '''public static void SetAction(final Component component, final Action action, final IlvApplication ilvApplication)
-    public static void SetAction(final AbstractButton abstractButton, final Action action, final IlvApplication ilvApplication, final int value)
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent mouseEvent)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent mouseEvent)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseExited(final MouseEvent mouseEvent)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mousePressed(final MouseEvent mouseEvent)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent mouseEvent)\n
     '''
-def UpdateButtonProperties():
-    '''public static void UpdateButtonProperties(final AbstractButton abstractButton, final IlvApplication ilvApplication)
-    '''
-def SetChecked():
-    '''public static void SetChecked(final Action action, final boolean b)
-    public static void SetChecked(final Component component, final Action action, final boolean b)
-    '''
-def IsChecked():
-    '''public static boolean IsChecked(final Action action)
-    '''
-def ActionProcessTerminated():
-    '''public static void ActionProcessTerminated(final Action action)
-    '''
-def GetGroup():
-    '''public static String GetGroup(final Action action)
-    '''
-def GetSelectedGroupAction():
-    '''public static Action GetSelectedGroupAction(final IlvApplication ilvApplication, final String s)
-    '''
-def LockAction():
-    '''public static void LockAction(final Action action)
-    '''
-def UnlockAction():
-    '''public static void UnlockAction(final Action action)
-    '''
-def IsActionLocked():
-    '''public static boolean IsActionLocked(final Action action)
-    '''
-def RegisterActionInGroup():
-    '''public static void RegisterActionInGroup(final Action action, final Component component)
-    '''
-def UnregisterActionInGroup():
-    '''public static void UnregisterActionInGroup(final Component component)
-    '''
-def GetMnemonic():
-    '''public static char GetMnemonic(final Action action, final IlvApplication ilvApplication)
-    '''
-def AcceleratorFromString():
-    '''public static KeyStroke AcceleratorFromString(final String s)
-    '''
-def AcceleratorToString():
-    '''public static String AcceleratorToString(final KeyStroke keyStroke)
-    '''
-def DynActionPopupListener():
-    '''public DynActionPopupListener(final Action a, final IlvApplication b, final JPopupMenu c)
+def ():
+    '''returns ActionListListener\n\n
+    (final Action a, final IlvApplication b, final JPopupMenu c)\n
+    (final Component a, final Action b)\n
+    (final Component a, final Action c, final IlvApplication b)\n
     '''
 def popupMenuWillBecomeVisible():
-    '''public void popupMenuWillBecomeVisible(final PopupMenuEvent popupMenuEvent)
+    '''returns None\n\n
+    popupMenuWillBecomeVisible(final PopupMenuEvent popupMenuEvent)\n
     '''
 def popupMenuWillBecomeInvisible():
-    '''public void popupMenuWillBecomeInvisible(final PopupMenuEvent popupMenuEvent)
+    '''returns None\n\n
+    popupMenuWillBecomeInvisible(final PopupMenuEvent popupMenuEvent)\n
     '''
 def popupMenuCanceled():
-    '''public void popupMenuCanceled(final PopupMenuEvent popupMenuEvent)
-    '''
-def ActionCheckListener():
-    '''public ActionCheckListener(final Component a, final Action b)
-    '''
-def ActionListListener():
-    '''public ActionListListener(final Component a, final Action c, final IlvApplication b)
+    '''returns None\n\n
+    popupMenuCanceled(final PopupMenuEvent popupMenuEvent)\n
     '''
 def fill():
-    '''public void fill(final Object[] array, final Object[] array2)
-    '''
-def GetComponentIndex():
-    '''public static int GetComponentIndex(final Container container, final Component component)
+    '''returns None\n\n
+    fill(final Object[] array, final Object[] array2)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent listSelectionEvent)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent listSelectionEvent)\n
     '''

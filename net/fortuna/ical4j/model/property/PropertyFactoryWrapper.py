@@ -1,21 +1,28 @@
-def PropertyFactoryWrapper():
-    '''public PropertyFactoryWrapper(final Class propClass, final PropertyFactory factory)
+def ():
+    '''returns PropertyFactoryWrapper\n\n
+    (final Class propClass, final PropertyFactory factory)\n
     '''
 def newInstance():
-    '''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''returns Object\n\n
+    newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)\n
     '''
 def setChild():
-    '''public void setChild(final FactoryBuilderSupport build, final Object parent, final Object child)
+    '''returns None\n\n
+    setChild(final FactoryBuilderSupport build, final Object parent, final Object child)\n
     '''
 def getPropertyClass():
-    '''public Class getPropertyClass()
+    '''returns Class\n\n
+    getPropertyClass()\n
     '''
 def setPropertyClass():
-    '''public void setPropertyClass(final Class propertyClass)
+    '''returns None\n\n
+    setPropertyClass(final Class propertyClass)\n
     '''
 def getFactory():
-    '''public PropertyFactory getFactory()
+    '''returns PropertyFactory\n\n
+    getFactory()\n
     '''
 def setFactory():
-    '''public void setFactory(final PropertyFactory factory)
+    '''returns None\n\n
+    setFactory(final PropertyFactory factory)\n
     '''

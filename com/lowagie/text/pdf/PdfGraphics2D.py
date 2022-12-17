@@ -1,193 +1,249 @@
 def draw():
-    '''public void draw(final Shape s)
+    '''returns None\n\n
+    draw(final Shape s)\n
     '''
 def drawImage():
-    '''public boolean drawImage(final Image img, final AffineTransform xform, final ImageObserver obs)
-    public void drawImage(final BufferedImage img, final BufferedImageOp op, final int x, final int y)
-    public boolean drawImage(final Image img, final int x, final int y, final ImageObserver observer)
-    public boolean drawImage(final Image img, final int x, final int y, final int width, final int height, final ImageObserver observer)
-    public boolean drawImage(final Image img, final int x, final int y, final Color bgcolor, final ImageObserver observer)
-    public boolean drawImage(final Image img, final int x, final int y, final int width, final int height, final Color bgcolor, final ImageObserver observer)
-    public boolean drawImage(final Image img, final int dx1, final int dy1, final int dx2, final int dy2, final int sx1, final int sy1, final int sx2, final int sy2, final ImageObserver observer)
-    public boolean drawImage(final Image img, final int dx1, final int dy1, final int dx2, final int dy2, final int sx1, final int sy1, final int sx2, final int sy2, final Color bgcolor, final ImageObserver observer)
+    '''returns boolean\n\n
+    drawImage(final Image img, final AffineTransform xform, final ImageObserver obs)\n
+    drawImage(final BufferedImage img, final BufferedImageOp op, final int x, final int y)\n
+    drawImage(final Image img, final int x, final int y, final ImageObserver observer)\n
+    drawImage(final Image img, final int x, final int y, final int width, final int height, final ImageObserver observer)\n
+    drawImage(final Image img, final int x, final int y, final Color bgcolor, final ImageObserver observer)\n
+    drawImage(final Image img, final int x, final int y, final int width, final int height, final Color bgcolor, final ImageObserver observer)\n
+    drawImage(final Image img, final int dx1, final int dy1, final int dx2, final int dy2, final int sx1, final int sy1, final int sx2, final int sy2, final ImageObserver observer)\n
+    drawImage(final Image img, final int dx1, final int dy1, final int dx2, final int dy2, final int sx1, final int sy1, final int sx2, final int sy2, final Color bgcolor, final ImageObserver observer)\n
     '''
 def drawRenderedImage():
-    '''public void drawRenderedImage(final RenderedImage img, final AffineTransform xform)
+    '''returns None\n\n
+    drawRenderedImage(final RenderedImage img, final AffineTransform xform)\n
     '''
 def drawRenderableImage():
-    '''public void drawRenderableImage(final RenderableImage img, final AffineTransform xform)
+    '''returns None\n\n
+    drawRenderableImage(final RenderableImage img, final AffineTransform xform)\n
     '''
 def drawString():
-    '''public void drawString(final String s, final int x, final int y)
-    public void drawString(final String s, final float x, float y)
-    public void drawString(final AttributedCharacterIterator iterator, final int x, final int y)
-    public void drawString(final AttributedCharacterIterator iter, float x, final float y)
-    '''
-def asPoints():
-    '''public static double asPoints(final double d, final int i)
+    '''returns None\n\n
+    drawString(final String s, final int x, final int y)\n
+    drawString(final String s, final float x, float y)\n
+    drawString(final AttributedCharacterIterator iterator, final int x, final int y)\n
+    drawString(final AttributedCharacterIterator iter, float x, final float y)\n
     '''
 def drawGlyphVector():
-    '''public void drawGlyphVector(final GlyphVector g, final float x, final float y)
+    '''returns None\n\n
+    drawGlyphVector(final GlyphVector g, final float x, final float y)\n
     '''
 def fill():
-    '''public void fill(final Shape s)
+    '''returns None\n\n
+    fill(final Shape s)\n
     '''
 def hit():
-    '''public boolean hit(final Rectangle rect, Shape s, final boolean onStroke)
+    '''returns boolean\n\n
+    hit(final Rectangle rect, Shape s, final boolean onStroke)\n
     '''
 def getDeviceConfiguration():
-    '''public GraphicsConfiguration getDeviceConfiguration()
+    '''returns GraphicsConfiguration\n\n
+    getDeviceConfiguration()\n
     '''
 def setComposite():
-    '''public void setComposite(final Composite comp)
+    '''returns None\n\n
+    setComposite(final Composite comp)\n
     '''
 def setPaint():
-    '''public void setPaint(final Paint paint)
+    '''returns None\n\n
+    setPaint(final Paint paint)\n
     '''
 def setStroke():
-    '''public void setStroke(final Stroke s)
+    '''returns None\n\n
+    setStroke(final Stroke s)\n
     '''
 def setRenderingHint():
-    '''public void setRenderingHint(final RenderingHints.Key arg0, final Object arg1)
+    '''returns None\n\n
+    setRenderingHint(final RenderingHints.Key arg0, final Object arg1)\n
     '''
 def getRenderingHint():
-    '''public Object getRenderingHint(final RenderingHints.Key arg0)
+    '''returns Object\n\n
+    getRenderingHint(final RenderingHints.Key arg0)\n
     '''
 def setRenderingHints():
-    '''public void setRenderingHints(final Map hints)
+    '''returns None\n\n
+    setRenderingHints(final Map hints)\n
     '''
 def addRenderingHints():
-    '''public void addRenderingHints(final Map hints)
+    '''returns None\n\n
+    addRenderingHints(final Map hints)\n
     '''
 def getRenderingHints():
-    '''public RenderingHints getRenderingHints()
+    '''returns RenderingHints\n\n
+    getRenderingHints()\n
     '''
 def translate():
-    '''public void translate(final int x, final int y)
-    public void translate(final double tx, final double ty)
+    '''returns None\n\n
+    translate(final int x, final int y)\n
+    translate(final double tx, final double ty)\n
     '''
 def rotate():
-    '''public void rotate(final double theta)
-    public void rotate(final double theta, final double x, final double y)
+    '''returns None\n\n
+    rotate(final double theta)\n
+    rotate(final double theta, final double x, final double y)\n
     '''
 def scale():
-    '''public void scale(final double sx, final double sy)
+    '''returns None\n\n
+    scale(final double sx, final double sy)\n
     '''
 def shear():
-    '''public void shear(final double shx, final double shy)
+    '''returns None\n\n
+    shear(final double shx, final double shy)\n
     '''
 def transform():
-    '''public void transform(final AffineTransform tx)
+    '''returns None\n\n
+    transform(final AffineTransform tx)\n
     '''
 def setTransform():
-    '''public void setTransform(final AffineTransform t)
+    '''returns None\n\n
+    setTransform(final AffineTransform t)\n
     '''
 def getTransform():
-    '''public AffineTransform getTransform()
+    '''returns AffineTransform\n\n
+    getTransform()\n
     '''
 def getPaint():
-    '''public Paint getPaint()
+    '''returns Paint\n\n
+    getPaint()\n
     '''
 def getComposite():
-    '''public Composite getComposite()
+    '''returns Composite\n\n
+    getComposite()\n
     '''
 def setBackground():
-    '''public void setBackground(final Color color)
+    '''returns None\n\n
+    setBackground(final Color color)\n
     '''
 def getBackground():
-    '''public Color getBackground()
+    '''returns Color\n\n
+    getBackground()\n
     '''
 def getStroke():
-    '''public Stroke getStroke()
+    '''returns Stroke\n\n
+    getStroke()\n
     '''
 def getFontRenderContext():
-    '''public FontRenderContext getFontRenderContext()
+    '''returns FontRenderContext\n\n
+    getFontRenderContext()\n
     '''
 def create():
-    '''public Graphics create()
+    '''returns Graphics\n\n
+    create()\n
     '''
 def getContent():
-    '''public PdfContentByte getContent()
+    '''returns PdfContentByte\n\n
+    getContent()\n
     '''
 def getColor():
-    '''public Color getColor()
+    '''returns Color\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final Color color)
+    '''returns None\n\n
+    setColor(final Color color)\n
     '''
 def setPaintMode():
-    '''public void setPaintMode()
+    '''returns None\n\n
+    setPaintMode()\n
     '''
 def setXORMode():
-    '''public void setXORMode(final Color c1)
+    '''returns None\n\n
+    setXORMode(final Color c1)\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Font f)
+    '''returns None\n\n
+    setFont(final Font f)\n
     '''
 def getFontMetrics():
-    '''public FontMetrics getFontMetrics(final Font f)
+    '''returns FontMetrics\n\n
+    getFontMetrics(final Font f)\n
     '''
 def getClipBounds():
-    '''public Rectangle getClipBounds()
+    '''returns Rectangle\n\n
+    getClipBounds()\n
     '''
 def clipRect():
-    '''public void clipRect(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    clipRect(final int x, final int y, final int width, final int height)\n
     '''
 def setClip():
-    '''public void setClip(final int x, final int y, final int width, final int height)
-    public void setClip(Shape s)
+    '''returns None\n\n
+    setClip(final int x, final int y, final int width, final int height)\n
+    setClip(Shape s)\n
     '''
 def clip():
-    '''public void clip(Shape s)
+    '''returns None\n\n
+    clip(Shape s)\n
     '''
 def getClip():
-    '''public Shape getClip()
+    '''returns Shape\n\n
+    getClip()\n
     '''
 def copyArea():
-    '''public void copyArea(final int x, final int y, final int width, final int height, final int dx, final int dy)
+    '''returns None\n\n
+    copyArea(final int x, final int y, final int width, final int height, final int dx, final int dy)\n
     '''
 def drawLine():
-    '''public void drawLine(final int x1, final int y1, final int x2, final int y2)
+    '''returns None\n\n
+    drawLine(final int x1, final int y1, final int x2, final int y2)\n
     '''
 def drawRect():
-    '''public void drawRect(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    drawRect(final int x, final int y, final int width, final int height)\n
     '''
 def fillRect():
-    '''public void fillRect(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    fillRect(final int x, final int y, final int width, final int height)\n
     '''
 def clearRect():
-    '''public void clearRect(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    clearRect(final int x, final int y, final int width, final int height)\n
     '''
 def drawRoundRect():
-    '''public void drawRoundRect(final int x, final int y, final int width, final int height, final int arcWidth, final int arcHeight)
+    '''returns None\n\n
+    drawRoundRect(final int x, final int y, final int width, final int height, final int arcWidth, final int arcHeight)\n
     '''
 def fillRoundRect():
-    '''public void fillRoundRect(final int x, final int y, final int width, final int height, final int arcWidth, final int arcHeight)
+    '''returns None\n\n
+    fillRoundRect(final int x, final int y, final int width, final int height, final int arcWidth, final int arcHeight)\n
     '''
 def drawOval():
-    '''public void drawOval(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    drawOval(final int x, final int y, final int width, final int height)\n
     '''
 def fillOval():
-    '''public void fillOval(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    fillOval(final int x, final int y, final int width, final int height)\n
     '''
 def drawArc():
-    '''public void drawArc(final int x, final int y, final int width, final int height, final int startAngle, final int arcAngle)
+    '''returns None\n\n
+    drawArc(final int x, final int y, final int width, final int height, final int startAngle, final int arcAngle)\n
     '''
 def fillArc():
-    '''public void fillArc(final int x, final int y, final int width, final int height, final int startAngle, final int arcAngle)
+    '''returns None\n\n
+    fillArc(final int x, final int y, final int width, final int height, final int startAngle, final int arcAngle)\n
     '''
 def drawPolyline():
-    '''public void drawPolyline(final int[] x, final int[] y, final int nPoints)
+    '''returns None\n\n
+    drawPolyline(final int[] x, final int[] y, final int nPoints)\n
     '''
 def drawPolygon():
-    '''public void drawPolygon(final int[] xPoints, final int[] yPoints, final int nPoints)
+    '''returns None\n\n
+    drawPolygon(final int[] xPoints, final int[] yPoints, final int nPoints)\n
     '''
 def fillPolygon():
-    '''public void fillPolygon(final int[] xPoints, final int[] yPoints, final int nPoints)
+    '''returns None\n\n
+    fillPolygon(final int[] xPoints, final int[] yPoints, final int nPoints)\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''

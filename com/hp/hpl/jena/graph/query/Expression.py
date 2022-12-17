@@ -1,80 +1,68 @@
 TRUE = "Expression  new BoolConstant(true)"
 FALSE = "Expression  new BoolConstant(false)"
 def isVariable():
-    '''public boolean isVariable()
-    public boolean isVariable()
+    '''returns boolean\n\n
+    isVariable()\n
+    isVariable()\n
     '''
 def isApply():
-    '''public boolean isApply()
-    public boolean isApply()
+    '''returns boolean\n\n
+    isApply()\n
+    isApply()\n
     '''
 def isConstant():
-    '''public boolean isConstant()
-    public boolean isConstant()
-    public boolean isConstant()
+    '''returns boolean\n\n
+    isConstant()\n
+    isConstant()\n
+    isConstant()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public Object getValue()
-    public Object getValue()
-    public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
+    getValue()\n
+    getValue()\n
     '''
 def argCount():
-    '''public int argCount()
+    '''returns int\n\n
+    argCount()\n
     '''
 def getFun():
-    '''public String getFun()
+    '''returns String\n\n
+    getFun()\n
     '''
 def getArg():
-    '''public Expression getArg(final int i)
+    '''returns Expression\n\n
+    getArg(final int i)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    public static boolean equals(final Expression L, final Expression R)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
-def Fixed():
-    '''public Fixed(final Object value)
+def ():
+    '''returns BoolConstant\n\n
+    (final Object value)\n
+    (final VariableIndexes map)\n
+    (final boolean value)\n
     '''
 def prepare():
-    '''public Valuator prepare(final VariableIndexes vi)
-    public Valuator prepare(final VariableIndexes vi)
+    '''returns Valuator\n\n
+    prepare(final VariableIndexes vi)\n
+    prepare(final VariableIndexes vi)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def variablesOf():
-    '''public static Set<String> variablesOf(final Expression e)
-    '''
-def addVariablesOf():
-    '''public static Set<String> addVariablesOf(final Set<String> s, final Expression e)
-    '''
-def containsAllVariablesOf():
-    '''public static boolean containsAllVariablesOf(final Set<String> variables, final Expression e)
-    '''
-def sameApply():
-    '''public static boolean sameApply(final Expression L, final Expression R)
-    '''
-def sameArgs():
-    '''public static boolean sameArgs(final Expression L, final Expression R)
-    '''
-def Valof():
-    '''public Valof(final VariableIndexes map)
-    '''
-def get():
-    '''public final Object get(final String name)
-    '''
-def setDomain():
-    '''public final Valof setDomain(final IndexValues d)
-    '''
-def BoolConstant():
-    '''public BoolConstant(final boolean value)
+    '''returns String\n\n
+    toString()\n
     '''
 def evalBool():
-    '''public boolean evalBool(final VariableValues vv)
-    public boolean evalBool(final IndexValues vv)
+    '''returns boolean\n\n
+    evalBool(final VariableValues vv)\n
+    evalBool(final IndexValues vv)\n
     '''
 def evalObject():
-    '''public Object evalObject(final IndexValues iv)
+    '''returns Object\n\n
+    evalObject(final IndexValues iv)\n
     '''

@@ -1,57 +1,68 @@
-def getLegend():
-    '''public final IlvLegend getLegend()
-    '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
     '''
 def getResolvedBaseTextDirection():
-    '''public int getResolvedBaseTextDirection()
-    '''
-def getLabel():
-    '''public final String getLabel()
+    '''returns int\n\n
+    getResolvedBaseTextDirection()\n
     '''
 def setLabel():
-    '''public void setLabel(final String s)
+    '''returns None\n\n
+    setLabel(final String s)\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def setForeground():
-    '''public void setForeground(final Color color)
+    '''returns None\n\n
+    setForeground(final Color color)\n
     '''
 def getTextBorder():
-    '''public Border getTextBorder()
+    '''returns Border\n\n
+    getTextBorder()\n
     '''
 def setTextBorder():
-    '''public void setTextBorder(final Border border)
+    '''returns None\n\n
+    setTextBorder(final Border border)\n
     '''
 def isOpaqueText():
-    '''public boolean isOpaqueText()
+    '''returns boolean\n\n
+    isOpaqueText()\n
     '''
 def setOpaqueText():
-    '''public void setOpaqueText(final boolean opaque)
+    '''returns None\n\n
+    setOpaqueText(final boolean opaque)\n
     '''
 def drawSymbol():
-    '''public void drawSymbol(final Graphics graphics, final Rectangle rectangle)
+    '''returns None\n\n
+    drawSymbol(final Graphics graphics, final Rectangle rectangle)\n
     '''
 def drawLabel():
-    '''public void drawLabel(final Graphics graphics, final Point2D point2D)
+    '''returns None\n\n
+    drawLabel(final Graphics graphics, final Point2D point2D)\n
     '''
 def getLabelDimension():
-    '''public Dimension getLabelDimension()
+    '''returns Dimension\n\n
+    getLabelDimension()\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize()
+    '''returns Dimension\n\n
+    getMaximumSize()\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize()
+    '''returns Dimension\n\n
+    getMinimumSize()\n
     '''
 def getMapArea():
-    '''public IlvIMapArea getMapArea(final IlvIMapDefinition ilvIMapDefinition, final IlvIMapAttributes ilvIMapAttributes)
+    '''returns IlvIMapArea\n\n
+    getMapArea(final IlvIMapDefinition ilvIMapDefinition, final IlvIMapAttributes ilvIMapAttributes)\n
     '''
-def IlvLegendItem():
-    '''public IlvLegendItem(final String label)
+def ():
+    '''returns IlvLegendItem\n\n
+    (final String label)\n
     '''

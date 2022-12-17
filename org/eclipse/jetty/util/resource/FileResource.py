@@ -1,60 +1,72 @@
-def setCheckAliases():
-    '''public static void setCheckAliases(final boolean checkAliases)
-    '''
-def getCheckAliases():
-    '''public static boolean getCheckAliases()
-    '''
-def FileResource():
-    '''public FileResource(final URL url)
+def ():
+    '''returns FileResource\n\n
+    (final URL url)\n
     '''
 def addPath():
-    '''public Resource addPath(String path)
+    '''returns Resource\n\n
+    addPath(String path)\n
     '''
 def getAlias():
-    '''public URL getAlias()
+    '''returns URL\n\n
+    getAlias()\n
     '''
 def exists():
-    '''public boolean exists()
+    '''returns boolean\n\n
+    exists()\n
     '''
 def lastModified():
-    '''public long lastModified()
+    '''returns long\n\n
+    lastModified()\n
     '''
 def isDirectory():
-    '''public boolean isDirectory()
+    '''returns boolean\n\n
+    isDirectory()\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def delete():
-    '''public boolean delete()
+    '''returns boolean\n\n
+    delete()\n
     '''
 def renameTo():
-    '''public boolean renameTo(final Resource dest)
+    '''returns boolean\n\n
+    renameTo(final Resource dest)\n
     '''
 def list():
-    '''public String[] list()
+    '''returns String[]\n\n
+    list()\n
     '''
 def encode():
-    '''public String encode(final String uri)
+    '''returns String\n\n
+    encode(final String uri)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def copyTo():
-    '''public void copyTo(final File destination)
+    '''returns None\n\n
+    copyTo(final File destination)\n
     '''

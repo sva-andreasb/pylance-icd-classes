@@ -1,7 +1,9 @@
-def PlusCFldDSSetPointAdj():
-    '''public PlusCFldDSSetPointAdj()
-    public PlusCFldDSSetPointAdj(final MboValue mbv)
+def ():
+    '''returns PlusCFldDSSetPointAdj\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,21 +1,27 @@
-def Shift():
-    '''public Shift(final MboSet ms)
+def ():
+    '''returns Shift\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def startDayToInt():
-    '''public int startDayToInt()
+    '''returns int\n\n
+    startDayToInt()\n
     '''
 def getPatternDays():
-    '''public int getPatternDays()
+    '''returns int\n\n
+    getPatternDays()\n
     '''
 def setPatternDays():
-    '''public void setPatternDays()
-    public ShiftPatternDaySetRemote setPatternDays(final int numberOfDays)
-    public ShiftPatternDaySetRemote setPatternDays(final ShiftPatternDay workDay)
-    public ShiftPatternDaySetRemote setPatternDays(final ShiftPatternDaySetRemote days, final int startRow)
+    '''returns ShiftPatternDaySetRemote\n\n
+    setPatternDays()\n
+    setPatternDays(final int numberOfDays)\n
+    setPatternDays(final ShiftPatternDay workDay)\n
+    setPatternDays(final ShiftPatternDaySetRemote days, final int startRow)\n
     '''

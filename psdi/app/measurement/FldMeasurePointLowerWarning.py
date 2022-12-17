@@ -1,6 +1,8 @@
-def FldMeasurePointLowerWarning():
-    '''public FldMeasurePointLowerWarning(final MboValue mbv)
+def ():
+    '''returns FldMeasurePointLowerWarning\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,3 +1,4 @@
-def OsOslcMapSet():
-    '''public OsOslcMapSet(final MboServerInterface ms)
+def ():
+    '''returns OsOslcMapSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,6 +1,4 @@
-def getInstance():
-    '''public static JingleSessionState getInstance()
-    '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

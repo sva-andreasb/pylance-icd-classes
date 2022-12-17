@@ -1,3 +1,4 @@
-def FldQualCraftSkillSkillLevel():
-    '''public FldQualCraftSkillSkillLevel(final MboValue mbv)
+def ():
+    '''returns FldQualCraftSkillSkillLevel\n\n
+    (final MboValue mbv)\n
     '''

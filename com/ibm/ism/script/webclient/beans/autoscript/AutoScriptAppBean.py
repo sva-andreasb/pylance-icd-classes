@@ -1,42 +1,52 @@
 def EXECUTE():
-    '''public int EXECUTE()
+    '''returns int\n\n
+    EXECUTE()\n
     '''
 def executeScript():
-    '''public void executeScript()
+    '''returns None\n\n
+    executeScript()\n
     '''
 def CREATEACT():
-    '''public int CREATEACT()
+    '''returns int\n\n
+    CREATEACT()\n
     '''
 def createAction():
-    '''public void createAction()
+    '''returns None\n\n
+    createAction()\n
     '''
 def properties():
-    '''public int properties()
+    '''returns int\n\n
+    properties()\n
     '''
 def addobjectlaunchevent():
-    '''public int addobjectlaunchevent()
+    '''returns int\n\n
+    addobjectlaunchevent()\n
     '''
 def addattributelaunchevent():
-    '''public int addattributelaunchevent()
+    '''returns int\n\n
+    addattributelaunchevent()\n
     '''
 def addactionlaunchevent():
-    '''public int addactionlaunchevent()
+    '''returns int\n\n
+    addactionlaunchevent()\n
     '''
 def addcustomconditionlaunchevent():
-    '''public int addcustomconditionlaunchevent()
+    '''returns int\n\n
+    addcustomconditionlaunchevent()\n
     '''
 def addscriptevent():
-    '''public int addscriptevent(final String intDomType)
+    '''returns int\n\n
+    addscriptevent(final String intDomType)\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
-    '''
-def insert():
-    '''public synchronized void insert()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def complete():
-    '''public int complete()
+    '''returns int\n\n
+    complete()\n
     '''

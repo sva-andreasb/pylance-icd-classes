@@ -1,36 +1,40 @@
-def SKDViewerAppletExtensionManager():
-    '''public SKDViewerAppletExtensionManager()
-    '''
-def getSKDViewerAppletExtensionManager():
-    '''public static SKDViewerAppletExtensionManager getSKDViewerAppletExtensionManager()
+def ():
+    '''returns SKDViewerAppletExtensionManager\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize(final Set<SKDViewerAppletExtensionInfo> appletExtInfoSet)
+    '''returns None\n\n
+    initialize(final Set<SKDViewerAppletExtensionInfo> appletExtInfoSet)\n
     '''
 def invokeInit():
-    '''public void invokeInit()
+    '''returns None\n\n
+    invokeInit()\n
     '''
 def invokeCreateToolBarButtons():
-    '''public void invokeCreateToolBarButtons(final JToolBar toolBar)
-    '''
-def getValidCPMExtensions():
-    '''public HashMap<String, SKDCPMExtension> getValidCPMExtensions()
+    '''returns None\n\n
+    invokeCreateToolBarButtons(final JToolBar toolBar)\n
     '''
 def invokeCPMInitialize():
-    '''public void invokeCPMInitialize(final IlvGanttModel model, final IlvActivity[] selectedActivities)
+    '''returns None\n\n
+    invokeCPMInitialize(final IlvGanttModel model, final IlvActivity[] selectedActivities)\n
     '''
 def invokeCPMRelease():
-    '''public void invokeCPMRelease(final IlvGanttModel model, final IlvActivity[] selectedActivities, final boolean success)
+    '''returns None\n\n
+    invokeCPMRelease(final IlvGanttModel model, final IlvActivity[] selectedActivities, final boolean success)\n
     '''
 def invokeCPMComputeEarlyStartAndFinish():
-    '''public SKDCPMAdjustedActivityData invokeCPMComputeEarlyStartAndFinish(final IlvGanttModel model, final IlvActivity activity, final Date parentEarlyStart, final Date activityEarlyStart, final Date activityEarlyFinish)
+    '''returns SKDCPMAdjustedActivityData\n\n
+    invokeCPMComputeEarlyStartAndFinish(final IlvGanttModel model, final IlvActivity activity, final Date parentEarlyStart, final Date activityEarlyStart, final Date activityEarlyFinish)\n
     '''
 def invokeCPMComputeLateStartAndFinish():
-    '''public SKDCPMAdjustedActivityData invokeCPMComputeLateStartAndFinish(final IlvGanttModel model, final IlvActivity activity, final Date parentLatestFinish, final Date activityLateStart, final Date activityLatefinish)
+    '''returns SKDCPMAdjustedActivityData\n\n
+    invokeCPMComputeLateStartAndFinish(final IlvGanttModel model, final IlvActivity activity, final Date parentLatestFinish, final Date activityLateStart, final Date activityLatefinish)\n
     '''
 def getActivityBarRenderers():
-    '''public Iterator<SKDActivityBar> getActivityBarRenderers()
+    '''returns Iterator<SKDActivityBar>\n\n
+    getActivityBarRenderers()\n
     '''
 def getActivityMilestoneRenderers():
-    '''public Iterator<SKDActivityMilestone> getActivityMilestoneRenderers()
+    '''returns Iterator<SKDActivityMilestone>\n\n
+    getActivityMilestoneRenderers()\n
     '''

@@ -1,9 +1,12 @@
-def FldAssetSwapReplaceAssetSite():
-    '''public FldAssetSwapReplaceAssetSite(final MboValue mbv)
+def ():
+    '''returns FldAssetSwapReplaceAssetSite\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

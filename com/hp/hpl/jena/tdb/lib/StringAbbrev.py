@@ -1,12 +1,16 @@
-def StringAbbrev():
-    '''public StringAbbrev()
+def ():
+    '''returns StringAbbrev\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final String prefix, final String string)
+    '''returns None\n\n
+    add(final String prefix, final String string)\n
     '''
 def abbreviate():
-    '''public String abbreviate(String s)
+    '''returns String\n\n
+    abbreviate(String s)\n
     '''
 def expand():
-    '''public String expand(final String s)
+    '''returns String\n\n
+    expand(final String s)\n
     '''

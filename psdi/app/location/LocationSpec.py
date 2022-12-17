@@ -1,21 +1,28 @@
-def LocationSpec():
-    '''public LocationSpec(final MboSet ms)
+def ():
+    '''returns LocationSpec\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def addDetailInfor():
-    '''public void addDetailInfor(final MboRemote location, final MboRemote mbo)
+    '''returns None\n\n
+    addDetailInfor(final MboRemote location, final MboRemote mbo)\n
     '''
 def setCopyValueChanged():
-    '''public void setCopyValueChanged(final boolean changed)
+    '''returns None\n\n
+    setCopyValueChanged(final boolean changed)\n
     '''
 def canGenerateDesc():
-    '''public MboRemote canGenerateDesc()
+    '''returns MboRemote\n\n
+    canGenerateDesc()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

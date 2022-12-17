@@ -1,6 +1,8 @@
 def selectSoftwarePackage():
-    '''public void selectSoftwarePackage()
+    '''returns None\n\n
+    selectSoftwarePackage()\n
     '''
 def refreshList():
-    '''public void refreshList(final String filter)
+    '''returns None\n\n
+    refreshList(final String filter)\n
     '''

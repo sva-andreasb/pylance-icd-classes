@@ -1,37 +1,49 @@
-def PMMeter():
-    '''public PMMeter(final MboSet ms)
+def ():
+    '''returns PMMeter\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def getUnitsToGoReading():
-    '''public double getUnitsToGoReading()
-    public double getUnitsToGoReading(final MboRemote assetLocMeterMbo)
+    '''returns double\n\n
+    getUnitsToGoReading()\n
+    getUnitsToGoReading(final MboRemote assetLocMeterMbo)\n
     '''
 def getReadingAtNextWO():
-    '''public double getReadingAtNextWO()
+    '''returns double\n\n
+    getReadingAtNextWO()\n
     '''
 def checkForUseTargetStartAndOpenWo():
-    '''public boolean checkForUseTargetStartAndOpenWo()
+    '''returns boolean\n\n
+    checkForUseTargetStartAndOpenWo()\n
     '''
 def setRollOverAndAverage():
-    '''public void setRollOverAndAverage()
+    '''returns None\n\n
+    setRollOverAndAverage()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

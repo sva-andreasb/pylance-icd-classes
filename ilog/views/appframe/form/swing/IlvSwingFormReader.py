@@ -1,34 +1,45 @@
-def IlvSwingFormReader():
-    '''public IlvSwingFormReader()
+def ():
+    '''returns IlvSwingFormReader\n\n
+    ()\n
     '''
 def createForm():
-    '''public IlvForm createForm()
+    '''returns IlvForm\n\n
+    createForm()\n
     '''
 def readForm():
-    '''public IlvSwingForm readForm(final Container container, final Element element, final IlvServicesProvider ilvServicesProvider)
-    public IlvSwingForm readForm(final Container container, final URL url, final IlvServicesProvider ilvServicesProvider)
+    '''returns IlvSwingForm\n\n
+    readForm(final Container container, final Element element, final IlvServicesProvider ilvServicesProvider)\n
+    readForm(final Container container, final URL url, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def readComponent():
-    '''public Component readComponent(final Element element, final IlvServicesProvider ilvServicesProvider)
+    '''returns Component\n\n
+    readComponent(final Element element, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def readComponentContent():
-    '''public IlvSwingForm readComponentContent(final Component component, final Element element, final IlvServicesProvider ilvServicesProvider)
+    '''returns IlvSwingForm\n\n
+    readComponentContent(final Component component, final Element element, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getString():
-    '''public String getString(final String s)
+    '''returns String\n\n
+    getString(final String s)\n
     '''
 def getIcon():
-    '''public Icon getIcon(final String s)
+    '''returns Icon\n\n
+    getIcon(final String s)\n
     '''
 def getOrientation():
-    '''public ComponentOrientation getOrientation()
+    '''returns ComponentOrientation\n\n
+    getOrientation()\n
     '''
 def setServicesDelegate():
-    '''public void setServicesDelegate(final IlvServices ilvServices)
+    '''returns None\n\n
+    setServicesDelegate(final IlvServices ilvServices)\n
     '''
 def getServicesDelegate():
-    '''public IlvServices getServicesDelegate()
+    '''returns IlvServices\n\n
+    getServicesDelegate()\n
     '''

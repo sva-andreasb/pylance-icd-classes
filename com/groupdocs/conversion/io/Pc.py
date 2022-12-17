@@ -1,27 +1,27 @@
-def Pc():
-    '''public Pc(final Reader in)
+def ():
+    '''returns Pc\n\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
-    public int read(final char[] chr)
-    public int read(final char[] chr, final int st, final int len)
-    public int read(final CharBuffer target)
+    '''returns int\n\n
+    read()\n
+    read(final char[] chr)\n
+    read(final char[] chr, final int st, final int len)\n
+    read(final CharBuffer target)\n
     '''
 def skip():
-    '''public long skip(final long ln)
+    '''returns long\n\n
+    skip(final long ln)\n
     '''
 def ready():
-    '''public boolean ready()
+    '''returns boolean\n\n
+    ready()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int idx)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

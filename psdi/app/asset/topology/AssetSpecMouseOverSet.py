@@ -1,3 +1,4 @@
-def AssetSpecMouseOverSet():
-    '''public AssetSpecMouseOverSet(final MboServerInterface ms)
+def ():
+    '''returns AssetSpecMouseOverSet\n\n
+    (final MboServerInterface ms)\n
     '''

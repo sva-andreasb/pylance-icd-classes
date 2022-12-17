@@ -1,42 +1,56 @@
-def InboxPortlet():
-    '''public InboxPortlet()
+def ():
+    '''returns InboxPortlet\n\n
+    ()\n
     '''
 def getAssignments():
-    '''public MboValueData[][] getAssignments()
+    '''returns MboValueData[][]\n\n
+    getAssignments()\n
     '''
 def getSetsInfo():
-    '''public MboSetInfo[] getSetsInfo()
+    '''returns MboSetInfo[]\n\n
+    getSetsInfo()\n
     '''
 def getNoOfAssignments():
-    '''public int getNoOfAssignments()
+    '''returns int\n\n
+    getNoOfAssignments()\n
     '''
 def getKeyAttributeData():
-    '''public MboValueData[][] getKeyAttributeData()
+    '''returns MboValueData[][]\n\n
+    getKeyAttributeData()\n
     '''
 def getInboxColumns():
-    '''public Vector getInboxColumns()
+    '''returns Vector\n\n
+    getInboxColumns()\n
     '''
 def getSortAttribute():
-    '''public String getSortAttribute(final String sortIndex)
+    '''returns String\n\n
+    getSortAttribute(final String sortIndex)\n
     '''
 def getNonPersistentColumns():
-    '''public ArrayList getNonPersistentColumns()
+    '''returns ArrayList\n\n
+    getNonPersistentColumns()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def getLatestDate():
-    '''public String getLatestDate()
+    '''returns String\n\n
+    getLatestDate()\n
     '''
 def getDescTitle():
-    '''public String getDescTitle()
+    '''returns String\n\n
+    getDescTitle()\n
     '''
 def getLabels():
-    '''public String[] getLabels()
+    '''returns String[]\n\n
+    getLabels()\n
     '''
 def openassignment():
-    '''public int openassignment()
+    '''returns int\n\n
+    openassignment()\n
     '''
 def routeassignment():
-    '''public int routeassignment()
+    '''returns int\n\n
+    routeassignment()\n
     '''

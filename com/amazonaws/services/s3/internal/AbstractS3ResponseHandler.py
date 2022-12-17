@@ -1,3 +1,4 @@
 def needsConnectionLeftOpen():
-    '''public boolean needsConnectionLeftOpen()
+    '''returns boolean\n\n
+    needsConnectionLeftOpen()\n
     '''

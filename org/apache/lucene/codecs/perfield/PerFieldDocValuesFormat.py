@@ -1,69 +1,77 @@
 PER_FIELD_NAME = "String  \"PerFieldDV40\""
-def PerFieldDocValuesFormat():
-    '''public PerFieldDocValuesFormat()
-    '''
-def fieldsConsumer():
-    '''public final DocValuesConsumer fieldsConsumer(final SegmentWriteState state)
-    '''
-def fieldsProducer():
-    '''public final DocValuesProducer fieldsProducer(final SegmentReadState state)
+def ():
+    '''returns FieldsReader\n\n
+    ()\n
+    (final SegmentWriteState state)\n
+    (final SegmentReadState readState)\n
     '''
 def close():
-    '''public void close()
-    public void close()
-    public void close()
-    '''
-def FieldsWriter():
-    '''public FieldsWriter(final SegmentWriteState state)
+    '''returns None\n\n
+    close()\n
+    close()\n
+    close()\n
     '''
 def addNumericField():
-    '''public void addNumericField(final FieldInfo field, final DocValuesProducer valuesProducer)
+    '''returns None\n\n
+    addNumericField(final FieldInfo field, final DocValuesProducer valuesProducer)\n
     '''
 def addBinaryField():
-    '''public void addBinaryField(final FieldInfo field, final DocValuesProducer valuesProducer)
+    '''returns None\n\n
+    addBinaryField(final FieldInfo field, final DocValuesProducer valuesProducer)\n
     '''
 def addSortedField():
-    '''public void addSortedField(final FieldInfo field, final DocValuesProducer valuesProducer)
+    '''returns None\n\n
+    addSortedField(final FieldInfo field, final DocValuesProducer valuesProducer)\n
     '''
 def addSortedNumericField():
-    '''public void addSortedNumericField(final FieldInfo field, final DocValuesProducer valuesProducer)
+    '''returns None\n\n
+    addSortedNumericField(final FieldInfo field, final DocValuesProducer valuesProducer)\n
     '''
 def addSortedSetField():
-    '''public void addSortedSetField(final FieldInfo field, final DocValuesProducer valuesProducer)
+    '''returns None\n\n
+    addSortedSetField(final FieldInfo field, final DocValuesProducer valuesProducer)\n
     '''
 def merge():
-    '''public void merge(final MergeState mergeState)
-    '''
-def FieldsReader():
-    '''public FieldsReader(final SegmentReadState readState)
+    '''returns None\n\n
+    merge(final MergeState mergeState)\n
     '''
 def getNumeric():
-    '''public NumericDocValues getNumeric(final FieldInfo field)
+    '''returns NumericDocValues\n\n
+    getNumeric(final FieldInfo field)\n
     '''
 def getBinary():
-    '''public BinaryDocValues getBinary(final FieldInfo field)
+    '''returns BinaryDocValues\n\n
+    getBinary(final FieldInfo field)\n
     '''
 def getSorted():
-    '''public SortedDocValues getSorted(final FieldInfo field)
+    '''returns SortedDocValues\n\n
+    getSorted(final FieldInfo field)\n
     '''
 def getSortedNumeric():
-    '''public SortedNumericDocValues getSortedNumeric(final FieldInfo field)
+    '''returns SortedNumericDocValues\n\n
+    getSortedNumeric(final FieldInfo field)\n
     '''
 def getSortedSet():
-    '''public SortedSetDocValues getSortedSet(final FieldInfo field)
+    '''returns SortedSetDocValues\n\n
+    getSortedSet(final FieldInfo field)\n
     '''
 def ramBytesUsed():
-    '''public long ramBytesUsed()
+    '''returns long\n\n
+    ramBytesUsed()\n
     '''
 def getChildResources():
-    '''public Collection<Accountable> getChildResources()
+    '''returns Collection<Accountable>\n\n
+    getChildResources()\n
     '''
 def checkIntegrity():
-    '''public void checkIntegrity()
+    '''returns None\n\n
+    checkIntegrity()\n
     '''
 def getMergeInstance():
-    '''public DocValuesProducer getMergeInstance()
+    '''returns DocValuesProducer\n\n
+    getMergeInstance()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

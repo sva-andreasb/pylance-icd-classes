@@ -1,21 +1,28 @@
-def DoubleUcaseKey():
-    '''public DoubleUcaseKey(final String tbname, final String name)
+def ():
+    '''returns DoubleUcaseKey\n\n
+    (final String tbname, final String name)\n
     '''
 def getFirstKey():
-    '''public String getFirstKey()
+    '''returns String\n\n
+    getFirstKey()\n
     '''
 def getSecondKey():
-    '''public String getSecondKey()
+    '''returns String\n\n
+    getSecondKey()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final DoubleUcaseKey o)
+    '''returns int\n\n
+    compareTo(final DoubleUcaseKey o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

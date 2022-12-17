@@ -1,54 +1,70 @@
-def DOMReader():
-    '''public DOMReader(final Document document)
-    public DOMReader(final Element root)
+def ():
+    '''returns DOMReader\n\n
+    (final Document document)\n
+    (final Element root)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def isRequest():
-    '''public boolean isRequest()
+    '''returns boolean\n\n
+    isRequest()\n
     '''
 def readMessage():
-    '''public LDAPMessage readMessage()
+    '''returns LDAPMessage\n\n
+    readMessage()\n
     '''
 def getBatchRequestID():
-    '''public String getBatchRequestID()
+    '''returns String\n\n
+    getBatchRequestID()\n
     '''
 def isParallelProcessing():
-    '''public boolean isParallelProcessing()
+    '''returns boolean\n\n
+    isParallelProcessing()\n
     '''
 def isResponseUnordered():
-    '''public boolean isResponseUnordered()
+    '''returns boolean\n\n
+    isResponseUnordered()\n
     '''
 def isResumeOnError():
-    '''public boolean isResumeOnError()
+    '''returns boolean\n\n
+    isResumeOnError()\n
     '''
 def setAttrs():
-    '''public void setAttrs(final NamedNodeMap nnm)
+    '''returns None\n\n
+    setAttrs(final NamedNodeMap nnm)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getURI():
-    '''public String getURI(final int n)
+    '''returns String\n\n
+    getURI(final int n)\n
     '''
 def getLocalName():
-    '''public String getLocalName(final int n)
+    '''returns String\n\n
+    getLocalName(final int n)\n
     '''
 def getQName():
-    '''public String getQName(final int n)
+    '''returns String\n\n
+    getQName(final int n)\n
     '''
 def getType():
-    '''public String getType(final int n)
-    public String getType(final String s, final String s2)
-    public String getType(final String s)
+    '''returns String\n\n
+    getType(final int n)\n
+    getType(final String s, final String s2)\n
+    getType(final String s)\n
     '''
 def getValue():
-    '''public String getValue(final int n)
-    public String getValue(final String s, final String s2)
-    public String getValue(final String s)
+    '''returns String\n\n
+    getValue(final int n)\n
+    getValue(final String s, final String s2)\n
+    getValue(final String s)\n
     '''
 def getIndex():
-    '''public int getIndex(final String s, final String s2)
-    public int getIndex(final String s)
+    '''returns int\n\n
+    getIndex(final String s, final String s2)\n
+    getIndex(final String s)\n
     '''

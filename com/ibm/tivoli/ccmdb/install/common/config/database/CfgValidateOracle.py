@@ -1,33 +1,44 @@
 def canConnectWithUser():
-    '''public boolean canConnectWithUser(final String jdbcUrl, final String dbuser, final String dbPassword)
+    '''returns boolean\n\n
+    canConnectWithUser(final String jdbcUrl, final String dbuser, final String dbPassword)\n
     '''
 def instanceExists():
-    '''public boolean instanceExists(String dbname)
+    '''returns boolean\n\n
+    instanceExists(String dbname)\n
     '''
 def hasDbaAuthority():
-    '''public boolean hasDbaAuthority(final String jdbcurl, String dbuser, final String dbpassword)
+    '''returns boolean\n\n
+    hasDbaAuthority(final String jdbcurl, String dbuser, final String dbpassword)\n
     '''
 def tablespaceExists():
-    '''public boolean tablespaceExists(final String dbtsname)
+    '''returns boolean\n\n
+    tablespaceExists(final String dbtsname)\n
     '''
 def tableSpaceSize():
-    '''public boolean tableSpaceSize(final String dbtsname, final String dbtssize)
+    '''returns boolean\n\n
+    tableSpaceSize(final String dbtsname, final String dbtssize)\n
     '''
 def canCreateTablespace():
-    '''public boolean canCreateTablespace(final String dbTsLocation)
+    '''returns boolean\n\n
+    canCreateTablespace(final String dbTsLocation)\n
     '''
 def spaceAvailableForTablespace():
-    '''public boolean spaceAvailableForTablespace(final String dbTsLocation, final int spaceRequired, final String adminUser, final String adminPassword)
+    '''returns boolean\n\n
+    spaceAvailableForTablespace(final String dbTsLocation, final int spaceRequired, final String adminUser, final String adminPassword)\n
     '''
 def canCreateDatabase():
-    '''public boolean canCreateDatabase(final String dbLocation, final String adminUser, final String adminPassword)
+    '''returns boolean\n\n
+    canCreateDatabase(final String dbLocation, final String adminUser, final String adminPassword)\n
     '''
 def isInstanceRunning():
-    '''public boolean isInstanceRunning(final String instanceName)
+    '''returns boolean\n\n
+    isInstanceRunning(final String instanceName)\n
     '''
 def isValidOracleHome():
-    '''public boolean isValidOracleHome(final String oracleHome)
+    '''returns boolean\n\n
+    isValidOracleHome(final String oracleHome)\n
     '''
 def setOracleHomeDirectory():
-    '''public void setOracleHomeDirectory(final String oracleHome)
+    '''returns None\n\n
+    setOracleHomeDirectory(final String oracleHome)\n
     '''

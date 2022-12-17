@@ -1,42 +1,56 @@
 def getReportFolderName():
-    '''public String getReportFolderName()
+    '''returns String\n\n
+    getReportFolderName()\n
     '''
 def setReportFolderName():
-    '''public void setReportFolderName(final String reportFolderName)
+    '''returns None\n\n
+    setReportFolderName(final String reportFolderName)\n
     '''
 def getReportName():
-    '''public String getReportName()
+    '''returns String\n\n
+    getReportName()\n
     '''
 def setReportName():
-    '''public void setReportName(final String reportName)
+    '''returns None\n\n
+    setReportName(final String reportName)\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''
 def getReportOutputFolderName():
-    '''public String getReportOutputFolderName()
+    '''returns String\n\n
+    getReportOutputFolderName()\n
     '''
 def setReportOutputFolderName():
-    '''public void setReportOutputFolderName(final String reportOutputFolderName)
+    '''returns None\n\n
+    setReportOutputFolderName(final String reportOutputFolderName)\n
     '''
 def getTempRunFolder():
-    '''public String getTempRunFolder()
+    '''returns String\n\n
+    getTempRunFolder()\n
     '''
 def setTempRunFolder():
-    '''public void setTempRunFolder(final String tempFolder)
+    '''returns None\n\n
+    setTempRunFolder(final String tempFolder)\n
     '''
 def getReportRelativePath():
-    '''public String getReportRelativePath()
+    '''returns String\n\n
+    getReportRelativePath()\n
     '''
 def setReportRelativePath():
-    '''public void setReportRelativePath(final String reportRelativePath)
+    '''returns None\n\n
+    setReportRelativePath(final String reportRelativePath)\n
     '''
 def getReportParameterInfo():
-    '''public ReportParameterInfo[] getReportParameterInfo()
+    '''returns ReportParameterInfo[]\n\n
+    getReportParameterInfo()\n
     '''
 def setReportParameterInfo():
-    '''public void setReportParameterInfo(final ReportParameterInfo[] paramInfo)
+    '''returns None\n\n
+    setReportParameterInfo(final ReportParameterInfo[] paramInfo)\n
     '''

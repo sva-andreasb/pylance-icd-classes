@@ -1,34 +1,45 @@
-def MaxVarInputSet():
-    '''public MaxVarInputSet(final MboServerInterface ms)
+def ():
+    '''returns MaxVarInputSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup(final boolean forSites)
+    '''returns MboRemote\n\n
+    setup(final boolean forSites)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setupDetail():
-    '''public MboRemote setupDetail()
+    '''returns MboRemote\n\n
+    setupDetail()\n
     '''
 def callInit():
-    '''public void callInit()
+    '''returns None\n\n
+    callInit()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def getMaxVarMbos():
-    '''public MboSetRemote getMaxVarMbos(final String[] varNames, final String orgid, final String siteid)
+    '''returns MboSetRemote\n\n
+    getMaxVarMbos(final String[] varNames, final String orgid, final String siteid)\n
     '''
 def getMboSetData():
-    '''public MboSetData getMboSetData(final String[] attributes)
-    public MboSetData getMboSetData(final int row, final int count, final String[] attributes)
+    '''returns MboSetData\n\n
+    getMboSetData(final String[] attributes)\n
+    getMboSetData(final int row, final int count, final String[] attributes)\n
     '''
 def getMaxVarsInScope():
-    '''public void getMaxVarsInScope(final String[] attributes)
+    '''returns None\n\n
+    getMaxVarsInScope(final String[] attributes)\n
     '''
 def setObjClassPath():
-    '''public void setObjClassPath(final String objPath)
+    '''returns None\n\n
+    setObjClassPath(final String objPath)\n
     '''
 def getMaxVarType():
-    '''public String getMaxVarType(final String varName)
+    '''returns String\n\n
+    getMaxVarType(final String varName)\n
     '''

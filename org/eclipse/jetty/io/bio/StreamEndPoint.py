@@ -1,80 +1,102 @@
-def StreamEndPoint():
-    '''public StreamEndPoint(final InputStream in, final OutputStream out)
+def ():
+    '''returns StreamEndPoint\n\n
+    (final InputStream in, final OutputStream out)\n
     '''
 def isBlocking():
-    '''public boolean isBlocking()
+    '''returns boolean\n\n
+    isBlocking()\n
     '''
 def blockReadable():
-    '''public boolean blockReadable(final long millisecs)
+    '''returns boolean\n\n
+    blockReadable(final long millisecs)\n
     '''
 def blockWritable():
-    '''public boolean blockWritable(final long millisecs)
+    '''returns boolean\n\n
+    blockWritable(final long millisecs)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
-    '''
-def isClosed():
-    '''public final boolean isClosed()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def shutdownOutput():
-    '''public void shutdownOutput()
+    '''returns None\n\n
+    shutdownOutput()\n
     '''
 def isInputShutdown():
-    '''public boolean isInputShutdown()
+    '''returns boolean\n\n
+    isInputShutdown()\n
     '''
 def shutdownInput():
-    '''public void shutdownInput()
+    '''returns None\n\n
+    shutdownInput()\n
     '''
 def isOutputShutdown():
-    '''public boolean isOutputShutdown()
+    '''returns boolean\n\n
+    isOutputShutdown()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def fill():
-    '''public int fill(final Buffer buffer)
+    '''returns int\n\n
+    fill(final Buffer buffer)\n
     '''
 def flush():
-    '''public int flush(final Buffer buffer)
-    public int flush(final Buffer header, final Buffer buffer, final Buffer trailer)
-    public void flush()
+    '''returns None\n\n
+    flush(final Buffer buffer)\n
+    flush(final Buffer header, final Buffer buffer, final Buffer trailer)\n
+    flush()\n
     '''
 def getLocalAddr():
-    '''public String getLocalAddr()
+    '''returns String\n\n
+    getLocalAddr()\n
     '''
 def getLocalHost():
-    '''public String getLocalHost()
+    '''returns String\n\n
+    getLocalHost()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getRemoteAddr():
-    '''public String getRemoteAddr()
+    '''returns String\n\n
+    getRemoteAddr()\n
     '''
 def getRemoteHost():
-    '''public String getRemoteHost()
+    '''returns String\n\n
+    getRemoteHost()\n
     '''
 def getRemotePort():
-    '''public int getRemotePort()
+    '''returns int\n\n
+    getRemotePort()\n
     '''
 def getTransport():
-    '''public Object getTransport()
+    '''returns Object\n\n
+    getTransport()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def setInputStream():
-    '''public void setInputStream(final InputStream in)
+    '''returns None\n\n
+    setInputStream(final InputStream in)\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def setOutputStream():
-    '''public void setOutputStream(final OutputStream out)
+    '''returns None\n\n
+    setOutputStream(final OutputStream out)\n
     '''
 def getMaxIdleTime():
-    '''public int getMaxIdleTime()
+    '''returns int\n\n
+    getMaxIdleTime()\n
     '''
 def setMaxIdleTime():
-    '''public void setMaxIdleTime(final int timeMs)
+    '''returns None\n\n
+    setMaxIdleTime(final int timeMs)\n
     '''

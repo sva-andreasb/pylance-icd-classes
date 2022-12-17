@@ -1,3 +1,4 @@
-def FSNSchemaSet():
-    '''public FSNSchemaSet(final MboServerInterface ms)
+def ():
+    '''returns FSNSchemaSet\n\n
+    (final MboServerInterface ms)\n
     '''

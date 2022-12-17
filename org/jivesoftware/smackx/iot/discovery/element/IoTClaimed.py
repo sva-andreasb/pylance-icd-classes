@@ -1,18 +1,23 @@
 ELEMENT = "String  \"claimed\""
 NAMESPACE = "String  \"urn:xmpp:iot:discovery\""
-def IoTClaimed():
-    '''public IoTClaimed(final Jid jid)
-    public IoTClaimed(final Jid jid, final NodeInfo nodeInfo)
+def ():
+    '''returns IoTClaimed\n\n
+    (final Jid jid)\n
+    (final Jid jid, final NodeInfo nodeInfo)\n
     '''
 def getJid():
-    '''public Jid getJid()
+    '''returns Jid\n\n
+    getJid()\n
     '''
 def getNodeId():
-    '''public String getNodeId()
+    '''returns String\n\n
+    getNodeId()\n
     '''
 def getSourceId():
-    '''public String getSourceId()
+    '''returns String\n\n
+    getSourceId()\n
     '''
 def getNodeInfo():
-    '''public NodeInfo getNodeInfo()
+    '''returns NodeInfo\n\n
+    getNodeInfo()\n
     '''

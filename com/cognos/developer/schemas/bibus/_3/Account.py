@@ -1,181 +1,221 @@
-def Account():
-    '''public Account()
-    public Account(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final StringProp businessPhone, final LanguageProp contentLocale, final StringProp email, final StringProp faxPhone, final NmtokenProp format, final StringProp givenName, final StringProp homePhone, final IntProp horizontalElementsRenderingLimit, final StringProp mobileDeviceID, final StringProp mobilePhone, final AddressSMTPProp notificationEMail, final OptionArrayProp options, final BaseClassArrayProp page, final NmtokenProp pageOrientation, final StringProp pagerPhone, final ParameterValueArrayProp parameters, final AnyTypeProp portalPage, final BaseClassArrayProp portalPages, final StringProp postalAddress, final LanguageProp productLocale, final RepositoryRuleArrayProp repositoryRules, final StringArrayProp routingHints, final StringProp surname, final StringProp timeZoneID, final BooleanProp useAccessibilityFeatures, final StringProp userName, final IntProp verticalElementsRenderingLimit)
+def ():
+    '''returns Account\n\n
+    ()\n
+    (final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final StringProp businessPhone, final LanguageProp contentLocale, final StringProp email, final StringProp faxPhone, final NmtokenProp format, final StringProp givenName, final StringProp homePhone, final IntProp horizontalElementsRenderingLimit, final StringProp mobileDeviceID, final StringProp mobilePhone, final AddressSMTPProp notificationEMail, final OptionArrayProp options, final BaseClassArrayProp page, final NmtokenProp pageOrientation, final StringProp pagerPhone, final ParameterValueArrayProp parameters, final AnyTypeProp portalPage, final BaseClassArrayProp portalPages, final StringProp postalAddress, final LanguageProp productLocale, final RepositoryRuleArrayProp repositoryRules, final StringArrayProp routingHints, final StringProp surname, final StringProp timeZoneID, final BooleanProp useAccessibilityFeatures, final StringProp userName, final IntProp verticalElementsRenderingLimit)\n
     '''
 def getBusinessPhone():
-    '''public StringProp getBusinessPhone()
+    '''returns StringProp\n\n
+    getBusinessPhone()\n
     '''
 def setBusinessPhone():
-    '''public void setBusinessPhone(final StringProp businessPhone)
+    '''returns None\n\n
+    setBusinessPhone(final StringProp businessPhone)\n
     '''
 def getContentLocale():
-    '''public LanguageProp getContentLocale()
+    '''returns LanguageProp\n\n
+    getContentLocale()\n
     '''
 def setContentLocale():
-    '''public void setContentLocale(final LanguageProp contentLocale)
+    '''returns None\n\n
+    setContentLocale(final LanguageProp contentLocale)\n
     '''
 def getEmail():
-    '''public StringProp getEmail()
+    '''returns StringProp\n\n
+    getEmail()\n
     '''
 def setEmail():
-    '''public void setEmail(final StringProp email)
+    '''returns None\n\n
+    setEmail(final StringProp email)\n
     '''
 def getFaxPhone():
-    '''public StringProp getFaxPhone()
+    '''returns StringProp\n\n
+    getFaxPhone()\n
     '''
 def setFaxPhone():
-    '''public void setFaxPhone(final StringProp faxPhone)
+    '''returns None\n\n
+    setFaxPhone(final StringProp faxPhone)\n
     '''
 def getFormat():
-    '''public NmtokenProp getFormat()
+    '''returns NmtokenProp\n\n
+    getFormat()\n
     '''
 def setFormat():
-    '''public void setFormat(final NmtokenProp format)
+    '''returns None\n\n
+    setFormat(final NmtokenProp format)\n
     '''
 def getGivenName():
-    '''public StringProp getGivenName()
+    '''returns StringProp\n\n
+    getGivenName()\n
     '''
 def setGivenName():
-    '''public void setGivenName(final StringProp givenName)
+    '''returns None\n\n
+    setGivenName(final StringProp givenName)\n
     '''
 def getHomePhone():
-    '''public StringProp getHomePhone()
+    '''returns StringProp\n\n
+    getHomePhone()\n
     '''
 def setHomePhone():
-    '''public void setHomePhone(final StringProp homePhone)
+    '''returns None\n\n
+    setHomePhone(final StringProp homePhone)\n
     '''
 def getHorizontalElementsRenderingLimit():
-    '''public IntProp getHorizontalElementsRenderingLimit()
+    '''returns IntProp\n\n
+    getHorizontalElementsRenderingLimit()\n
     '''
 def setHorizontalElementsRenderingLimit():
-    '''public void setHorizontalElementsRenderingLimit(final IntProp horizontalElementsRenderingLimit)
+    '''returns None\n\n
+    setHorizontalElementsRenderingLimit(final IntProp horizontalElementsRenderingLimit)\n
     '''
 def getMobileDeviceID():
-    '''public StringProp getMobileDeviceID()
+    '''returns StringProp\n\n
+    getMobileDeviceID()\n
     '''
 def setMobileDeviceID():
-    '''public void setMobileDeviceID(final StringProp mobileDeviceID)
+    '''returns None\n\n
+    setMobileDeviceID(final StringProp mobileDeviceID)\n
     '''
 def getMobilePhone():
-    '''public StringProp getMobilePhone()
+    '''returns StringProp\n\n
+    getMobilePhone()\n
     '''
 def setMobilePhone():
-    '''public void setMobilePhone(final StringProp mobilePhone)
+    '''returns None\n\n
+    setMobilePhone(final StringProp mobilePhone)\n
     '''
 def getNotificationEMail():
-    '''public AddressSMTPProp getNotificationEMail()
+    '''returns AddressSMTPProp\n\n
+    getNotificationEMail()\n
     '''
 def setNotificationEMail():
-    '''public void setNotificationEMail(final AddressSMTPProp notificationEMail)
+    '''returns None\n\n
+    setNotificationEMail(final AddressSMTPProp notificationEMail)\n
     '''
 def getOptions():
-    '''public OptionArrayProp getOptions()
+    '''returns OptionArrayProp\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final OptionArrayProp options)
+    '''returns None\n\n
+    setOptions(final OptionArrayProp options)\n
     '''
 def getPage():
-    '''public BaseClassArrayProp getPage()
+    '''returns BaseClassArrayProp\n\n
+    getPage()\n
     '''
 def setPage():
-    '''public void setPage(final BaseClassArrayProp page)
+    '''returns None\n\n
+    setPage(final BaseClassArrayProp page)\n
     '''
 def getPageOrientation():
-    '''public NmtokenProp getPageOrientation()
+    '''returns NmtokenProp\n\n
+    getPageOrientation()\n
     '''
 def setPageOrientation():
-    '''public void setPageOrientation(final NmtokenProp pageOrientation)
+    '''returns None\n\n
+    setPageOrientation(final NmtokenProp pageOrientation)\n
     '''
 def getPagerPhone():
-    '''public StringProp getPagerPhone()
+    '''returns StringProp\n\n
+    getPagerPhone()\n
     '''
 def setPagerPhone():
-    '''public void setPagerPhone(final StringProp pagerPhone)
+    '''returns None\n\n
+    setPagerPhone(final StringProp pagerPhone)\n
     '''
 def getParameters():
-    '''public ParameterValueArrayProp getParameters()
+    '''returns ParameterValueArrayProp\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ParameterValueArrayProp parameters)
+    '''returns None\n\n
+    setParameters(final ParameterValueArrayProp parameters)\n
     '''
 def getPortalPage():
-    '''public AnyTypeProp getPortalPage()
+    '''returns AnyTypeProp\n\n
+    getPortalPage()\n
     '''
 def setPortalPage():
-    '''public void setPortalPage(final AnyTypeProp portalPage)
+    '''returns None\n\n
+    setPortalPage(final AnyTypeProp portalPage)\n
     '''
 def getPortalPages():
-    '''public BaseClassArrayProp getPortalPages()
+    '''returns BaseClassArrayProp\n\n
+    getPortalPages()\n
     '''
 def setPortalPages():
-    '''public void setPortalPages(final BaseClassArrayProp portalPages)
+    '''returns None\n\n
+    setPortalPages(final BaseClassArrayProp portalPages)\n
     '''
 def getPostalAddress():
-    '''public StringProp getPostalAddress()
+    '''returns StringProp\n\n
+    getPostalAddress()\n
     '''
 def setPostalAddress():
-    '''public void setPostalAddress(final StringProp postalAddress)
+    '''returns None\n\n
+    setPostalAddress(final StringProp postalAddress)\n
     '''
 def getProductLocale():
-    '''public LanguageProp getProductLocale()
+    '''returns LanguageProp\n\n
+    getProductLocale()\n
     '''
 def setProductLocale():
-    '''public void setProductLocale(final LanguageProp productLocale)
+    '''returns None\n\n
+    setProductLocale(final LanguageProp productLocale)\n
     '''
 def getRepositoryRules():
-    '''public RepositoryRuleArrayProp getRepositoryRules()
+    '''returns RepositoryRuleArrayProp\n\n
+    getRepositoryRules()\n
     '''
 def setRepositoryRules():
-    '''public void setRepositoryRules(final RepositoryRuleArrayProp repositoryRules)
+    '''returns None\n\n
+    setRepositoryRules(final RepositoryRuleArrayProp repositoryRules)\n
     '''
 def getRoutingHints():
-    '''public StringArrayProp getRoutingHints()
+    '''returns StringArrayProp\n\n
+    getRoutingHints()\n
     '''
 def setRoutingHints():
-    '''public void setRoutingHints(final StringArrayProp routingHints)
+    '''returns None\n\n
+    setRoutingHints(final StringArrayProp routingHints)\n
     '''
 def getSurname():
-    '''public StringProp getSurname()
+    '''returns StringProp\n\n
+    getSurname()\n
     '''
 def setSurname():
-    '''public void setSurname(final StringProp surname)
+    '''returns None\n\n
+    setSurname(final StringProp surname)\n
     '''
 def getTimeZoneID():
-    '''public StringProp getTimeZoneID()
+    '''returns StringProp\n\n
+    getTimeZoneID()\n
     '''
 def setTimeZoneID():
-    '''public void setTimeZoneID(final StringProp timeZoneID)
+    '''returns None\n\n
+    setTimeZoneID(final StringProp timeZoneID)\n
     '''
 def getUseAccessibilityFeatures():
-    '''public BooleanProp getUseAccessibilityFeatures()
+    '''returns BooleanProp\n\n
+    getUseAccessibilityFeatures()\n
     '''
 def setUseAccessibilityFeatures():
-    '''public void setUseAccessibilityFeatures(final BooleanProp useAccessibilityFeatures)
+    '''returns None\n\n
+    setUseAccessibilityFeatures(final BooleanProp useAccessibilityFeatures)\n
     '''
 def getUserName():
-    '''public StringProp getUserName()
+    '''returns StringProp\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final StringProp userName)
+    '''returns None\n\n
+    setUserName(final StringProp userName)\n
     '''
 def getVerticalElementsRenderingLimit():
-    '''public IntProp getVerticalElementsRenderingLimit()
+    '''returns IntProp\n\n
+    getVerticalElementsRenderingLimit()\n
     '''
 def setVerticalElementsRenderingLimit():
-    '''public void setVerticalElementsRenderingLimit(final IntProp verticalElementsRenderingLimit)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setVerticalElementsRenderingLimit(final IntProp verticalElementsRenderingLimit)\n
     '''

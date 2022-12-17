@@ -1,3 +1,4 @@
-def ICURegionDataTables():
-    '''public ICURegionDataTables()
+def ():
+    '''returns ICURegionDataTables\n\n
+    ()\n
     '''

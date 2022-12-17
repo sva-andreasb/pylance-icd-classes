@@ -1,6 +1,8 @@
-def TAMITLicenseTemplate():
-    '''public TAMITLicenseTemplate(final MboSet ms)
+def ():
+    '''returns TAMITLicenseTemplate\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

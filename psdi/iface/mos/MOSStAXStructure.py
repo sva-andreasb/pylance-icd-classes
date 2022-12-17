@@ -2,54 +2,69 @@ WRITE_ALL = "int  0"
 WRITE_SKIP = "int  1"
 WRITE_KEYS = "int  2"
 def setProcessAsSelfRefRelName():
-    '''public void setProcessAsSelfRefRelName(final String relName, final boolean allowSelfRefDup)
+    '''returns None\n\n
+    setProcessAsSelfRefRelName(final String relName, final boolean allowSelfRefDup)\n
     '''
-def MOSStAXStructure():
-    '''public MOSStAXStructure(final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final String operationName, final boolean response, final boolean updatesOnly)
-    public MOSStAXStructure(final String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final String operationName, final boolean response, final boolean updatesOnly)
-    public MOSStAXStructure(final String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final boolean ignoreActions, final String operationName, final boolean response, final boolean updatesOnly)
-    public MOSStAXStructure(final String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final boolean ignoreActions, final String operationName, final boolean response, final boolean updatesOnly, final String inputAction)
-    public MOSStAXStructure(String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final boolean ignoreActions, final String operationName, final boolean response, final boolean updatesOnly, final String inputAction, final boolean dropNullCols)
-    public MOSStAXStructure(final Map<String, ?> defnMetaData, final String mosName, final boolean retainMbos, final boolean updatesOnly)
-    public MOSStAXStructure(final String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final String operationName, final boolean response)
-    public MOSStAXStructure(final Map<String, ?> defnMetaData, final String mosName, final boolean event, final String operationName, final boolean response)
+def ():
+    '''returns MOSStAXStructure\n\n
+    (final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final String operationName, final boolean response, final boolean updatesOnly)\n
+    (final String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final String operationName, final boolean response, final boolean updatesOnly)\n
+    (final String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final boolean ignoreActions, final String operationName, final boolean response, final boolean updatesOnly)\n
+    (final String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final boolean ignoreActions, final String operationName, final boolean response, final boolean updatesOnly, final String inputAction)\n
+    (String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final boolean retainMbos, final boolean ignoreActions, final String operationName, final boolean response, final boolean updatesOnly, final String inputAction, final boolean dropNullCols)\n
+    (final Map<String, ?> defnMetaData, final String mosName, final boolean retainMbos, final boolean updatesOnly)\n
+    (final String defClassName, final Map<String, ?> defnMetaData, final String mosName, final boolean event, final String operationName, final boolean response)\n
+    (final Map<String, ?> defnMetaData, final String mosName, final boolean event, final String operationName, final boolean response)\n
     '''
 def setResourceProperties():
-    '''public void setResourceProperties(final Map<String, OslcResourceProperty> resourceProperties)
+    '''returns None\n\n
+    setResourceProperties(final Map<String, OslcResourceProperty> resourceProperties)\n
     '''
 def setAllowEmptyXML():
-    '''public void setAllowEmptyXML(final boolean emptyXML)
+    '''returns None\n\n
+    setAllowEmptyXML(final boolean emptyXML)\n
     '''
 def setEvaluateMboXmlType():
-    '''public void setEvaluateMboXmlType(final boolean evaluateXMLType)
+    '''returns None\n\n
+    setEvaluateMboXmlType(final boolean evaluateXMLType)\n
     '''
 def evaluateMboXmlType():
-    '''public boolean evaluateMboXmlType()
+    '''returns boolean\n\n
+    evaluateMboXmlType()\n
     '''
 def setAllowSkipRows():
-    '''public void setAllowSkipRows(final boolean allowSkipRows)
+    '''returns None\n\n
+    setAllowSkipRows(final boolean allowSkipRows)\n
     '''
 def isAllowSkipRows():
-    '''public boolean isAllowSkipRows()
+    '''returns boolean\n\n
+    isAllowSkipRows()\n
     '''
 def getMosDefinitionImpl():
-    '''public MosDefinitionImpl getMosDefinitionImpl()
+    '''returns MosDefinitionImpl\n\n
+    getMosDefinitionImpl()\n
     '''
 def getUsedMboList():
-    '''public List<MboRemote> getUsedMboList()
+    '''returns List<MboRemote>\n\n
+    getUsedMboList()\n
     '''
 def getSerializedMboCount():
-    '''public int getSerializedMboCount()
+    '''returns int\n\n
+    getSerializedMboCount()\n
     '''
 def setTotalCount():
-    '''public void setTotalCount(final Integer totCount)
+    '''returns None\n\n
+    setTotalCount(final Integer totCount)\n
     '''
 def setResolvedTotalCount():
-    '''public void setResolvedTotalCount(final int resolvedTotalCount)
+    '''returns None\n\n
+    setResolvedTotalCount(final int resolvedTotalCount)\n
     '''
 def setInitialResolvedCount():
-    '''public void setInitialResolvedCount(final int initialResolvedCount)
+    '''returns None\n\n
+    setInitialResolvedCount(final int initialResolvedCount)\n
     '''
 def setResolvedStartCount():
-    '''public void setResolvedStartCount(final int resolvedStartCount)
+    '''returns None\n\n
+    setResolvedStartCount(final int resolvedStartCount)\n
     '''

@@ -1,3 +1,4 @@
-def DescendantOrSelfAxisIterator():
-    '''public DescendantOrSelfAxisIterator(final Object contextNode, final Navigator navigator)
+def ():
+    '''returns DescendantOrSelfAxisIterator\n\n
+    (final Object contextNode, final Navigator navigator)\n
     '''

@@ -1,3 +1,4 @@
-def ShowWFTask():
-    '''public ShowWFTask(final MboSet ms)
+def ():
+    '''returns ShowWFTask\n\n
+    (final MboSet ms)\n
     '''

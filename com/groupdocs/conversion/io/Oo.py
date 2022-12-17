@@ -1,10 +1,13 @@
-def Oo():
-    '''public Oo()
-    public Oo(final boolean dm)
+def ():
+    '''returns Oo\n\n
+    ()\n
+    (final boolean dm)\n
     '''
 def compare():
-    '''public int compare(final File file1, final File file2)
+    '''returns int\n\n
+    compare(final File file1, final File file2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

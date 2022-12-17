@@ -1,3 +1,4 @@
-def ImageInfo():
-    '''public ImageInfo()
+def ():
+    '''returns ImageInfo\n\n
+    ()\n
     '''

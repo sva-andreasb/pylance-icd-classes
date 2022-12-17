@@ -1,55 +1,65 @@
 def getColumnName():
-    '''public String getColumnName(final String entityColumnName, final String tableName)
+    '''returns String\n\n
+    getColumnName(final String entityColumnName, final String tableName)\n
     '''
 def getEntityColumnName():
-    '''public String getEntityColumnName(final String tableColumnName, final String tableName)
+    '''returns String\n\n
+    getEntityColumnName(final String tableColumnName, final String tableName)\n
     '''
 def getViewName():
-    '''public String getViewName()
+    '''returns String\n\n
+    getViewName()\n
     '''
 def setViewName():
-    '''public void setViewName(final String viewName)
+    '''returns None\n\n
+    setViewName(final String viewName)\n
     '''
 def getAutoSelect():
-    '''public boolean getAutoSelect()
+    '''returns boolean\n\n
+    getAutoSelect()\n
     '''
 def setAutoSelect():
-    '''public void setAutoSelect(final boolean autoselect)
+    '''returns None\n\n
+    setAutoSelect(final boolean autoselect)\n
     '''
 def getViewSelect():
-    '''public String getViewSelect()
+    '''returns String\n\n
+    getViewSelect()\n
     '''
 def setViewSelect():
-    '''public void setViewSelect(final String viewselect)
+    '''returns None\n\n
+    setViewSelect(final String viewselect)\n
     '''
 def setTablesInHierarchyOrder():
-    '''public void setTablesInHierarchyOrder(final ArrayList<String> tableNames)
+    '''returns None\n\n
+    setTablesInHierarchyOrder(final ArrayList<String> tableNames)\n
     '''
 def getTablesInHierarchyOrder():
-    '''public Iterator getTablesInHierarchyOrder()
+    '''returns Iterator\n\n
+    getTablesInHierarchyOrder()\n
     '''
 def getTablesInReverseHierarchyOrder():
-    '''public Iterator getTablesInReverseHierarchyOrder()
+    '''returns Iterator\n\n
+    getTablesInReverseHierarchyOrder()\n
     '''
 def getRowStampInfo():
-    '''public RowStampInfo getRowStampInfo()
+    '''returns RowStampInfo\n\n
+    getRowStampInfo()\n
     '''
 def getTenantIdInfo():
-    '''public TenantIdInfo getTenantIdInfo()
-    '''
-def setTenantIdInfo():
-    '''public synchronized void setTenantIdInfo(final TenantIdInfo tenantIdInfo)
-    '''
-def setRowStampInfo():
-    '''public synchronized void setRowStampInfo(final RowStampInfo rowStampInfo)
+    '''returns TenantIdInfo\n\n
+    getTenantIdInfo()\n
     '''
 def hasRowStamp():
-    '''public boolean hasRowStamp()
+    '''returns boolean\n\n
+    hasRowStamp()\n
     '''
 def hasImplicitTenantId():
-    '''public boolean hasImplicitTenantId(final String tableName)
-    public boolean hasImplicitTenantId()
+    '''returns boolean\n\n
+    hasImplicitTenantId(final String tableName)\n
+    hasImplicitTenantId()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

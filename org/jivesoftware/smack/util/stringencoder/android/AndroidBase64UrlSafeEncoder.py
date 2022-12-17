@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static AndroidBase64UrlSafeEncoder getInstance()
-    '''
 def encode():
-    '''public String encode(final String string)
+    '''returns String\n\n
+    encode(final String string)\n
     '''
 def decode():
-    '''public String decode(final String string)
+    '''returns String\n\n
+    decode(final String string)\n
     '''

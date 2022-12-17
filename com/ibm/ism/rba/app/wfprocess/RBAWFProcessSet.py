@@ -1,15 +1,20 @@
-def RBAWFProcessSet():
-    '''public RBAWFProcessSet(final MboServerInterface ms)
+def ():
+    '''returns RBAWFProcessSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def filterByClassificationId():
-    '''public void filterByClassificationId(final ArrayList<String> classstructureIds)
+    '''returns None\n\n
+    filterByClassificationId(final ArrayList<String> classstructureIds)\n
     '''
 def filterByClassStructureUIDs():
-    '''public String filterByClassStructureUIDs(final ArrayList<String> classstructureIds)
+    '''returns String\n\n
+    filterByClassStructureUIDs(final ArrayList<String> classstructureIds)\n
     '''
 def filterByUnclassifiedUIDs():
-    '''public String filterByUnclassifiedUIDs()
+    '''returns String\n\n
+    filterByUnclassifiedUIDs()\n
     '''
 def filterByAllClassifiedUIDs():
-    '''public String filterByAllClassifiedUIDs()
+    '''returns String\n\n
+    filterByAllClassifiedUIDs()\n
     '''

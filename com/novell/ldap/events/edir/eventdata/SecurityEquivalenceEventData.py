@@ -1,21 +1,28 @@
-def SecurityEquivalenceEventData():
-    '''public SecurityEquivalenceEventData(final ASN1Object asn1Object)
+def ():
+    '''returns SecurityEquivalenceEventData\n\n
+    (final ASN1Object asn1Object)\n
     '''
 def getEntryDN():
-    '''public String getEntryDN()
+    '''returns String\n\n
+    getEntryDN()\n
     '''
 def getReferralCount():
-    '''public int getReferralCount()
+    '''returns int\n\n
+    getReferralCount()\n
     '''
 def getReferralList():
-    '''public List getReferralList()
+    '''returns List\n\n
+    getReferralList()\n
     '''
 def getRetryCount():
-    '''public int getRetryCount()
+    '''returns int\n\n
+    getRetryCount()\n
     '''
 def getValueDN():
-    '''public String getValueDN()
+    '''returns String\n\n
+    getValueDN()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

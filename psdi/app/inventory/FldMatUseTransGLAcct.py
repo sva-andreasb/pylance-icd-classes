@@ -1,3 +1,4 @@
-def FldMatUseTransGLAcct():
-    '''public FldMatUseTransGLAcct(final MboValue mbv)
+def ():
+    '''returns FldMatUseTransGLAcct\n\n
+    (final MboValue mbv)\n
     '''

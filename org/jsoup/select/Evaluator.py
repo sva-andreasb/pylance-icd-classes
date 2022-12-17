@@ -1,152 +1,99 @@
-def Tag():
-    '''public Tag(final String tagName)
+def ():
+    '''returns MatchesOwn\n\n
+    (final String tagName)\n
+    (final String tagName)\n
+    (final String id)\n
+    (final String className)\n
+    (final String key)\n
+    (final String keyPrefix)\n
+    (final String key, final String value)\n
+    (final String key, final String value)\n
+    (final String key, final String value)\n
+    (final String key, final String value)\n
+    (final String key, final String value)\n
+    (final String key, final Pattern pattern)\n
+    (final String key, String value)\n
+    (final int index)\n
+    (final int index)\n
+    (final int index)\n
+    ()\n
+    ()\n
+    (final int a, final int b)\n
+    (final int b)\n
+    (final int a, final int b)\n
+    (final int a, final int b)\n
+    (final int a, final int b)\n
+    (final int a, final int b)\n
+    (final int index)\n
+    (final String searchText)\n
+    (final String searchText)\n
+    (final String searchText)\n
+    (final Pattern pattern)\n
+    (final Pattern pattern)\n
     '''
 def matches():
-    '''public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
-    public boolean matches(final Element root, final Element element)
+    '''returns boolean\n\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
+    matches(final Element root, final Element element)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    '''
-def TagEndsWith():
-    '''public TagEndsWith(final String tagName)
-    '''
-def Id():
-    '''public Id(final String id)
-    '''
-def Class():
-    '''public Class(final String className)
-    '''
-def Attribute():
-    '''public Attribute(final String key)
-    '''
-def AttributeStarting():
-    '''public AttributeStarting(final String keyPrefix)
-    '''
-def AttributeWithValue():
-    '''public AttributeWithValue(final String key, final String value)
-    '''
-def AttributeWithValueNot():
-    '''public AttributeWithValueNot(final String key, final String value)
-    '''
-def AttributeWithValueStarting():
-    '''public AttributeWithValueStarting(final String key, final String value)
-    '''
-def AttributeWithValueEnding():
-    '''public AttributeWithValueEnding(final String key, final String value)
-    '''
-def AttributeWithValueContaining():
-    '''public AttributeWithValueContaining(final String key, final String value)
-    '''
-def AttributeWithValueMatching():
-    '''public AttributeWithValueMatching(final String key, final Pattern pattern)
-    '''
-def AttributeKeyPair():
-    '''public AttributeKeyPair(final String key, String value)
-    '''
-def IndexLessThan():
-    '''public IndexLessThan(final int index)
-    '''
-def IndexGreaterThan():
-    '''public IndexGreaterThan(final int index)
-    '''
-def IndexEquals():
-    '''public IndexEquals(final int index)
-    '''
-def IsFirstOfType():
-    '''public IsFirstOfType()
-    '''
-def IsLastOfType():
-    '''public IsLastOfType()
-    '''
-def CssNthEvaluator():
-    '''public CssNthEvaluator(final int a, final int b)
-    public CssNthEvaluator(final int b)
-    '''
-def IsNthChild():
-    '''public IsNthChild(final int a, final int b)
-    '''
-def IsNthLastChild():
-    '''public IsNthLastChild(final int a, final int b)
-    '''
-def IsNthOfType():
-    '''public IsNthOfType(final int a, final int b)
-    '''
-def IsNthLastOfType():
-    '''public IsNthLastOfType(final int a, final int b)
-    '''
-def IndexEvaluator():
-    '''public IndexEvaluator(final int index)
-    '''
-def ContainsText():
-    '''public ContainsText(final String searchText)
-    '''
-def ContainsData():
-    '''public ContainsData(final String searchText)
-    '''
-def ContainsOwnText():
-    '''public ContainsOwnText(final String searchText)
-    '''
-def Matches():
-    '''public Matches(final Pattern pattern)
-    '''
-def MatchesOwn():
-    '''public MatchesOwn(final Pattern pattern)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

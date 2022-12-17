@@ -1,9 +1,12 @@
-def JTextFile():
-    '''public JTextFile(final String name)
+def ():
+    '''returns JTextFile\n\n
+    (final String name)\n
     '''
 def setContents():
-    '''public void setContents(final String _contents)
+    '''returns None\n\n
+    setContents(final String _contents)\n
     '''
 def build():
-    '''public void build(final OutputStream out)
+    '''returns None\n\n
+    build(final OutputStream out)\n
     '''

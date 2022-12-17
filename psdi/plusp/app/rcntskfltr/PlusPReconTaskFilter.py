@@ -1,6 +1,8 @@
-def PlusPReconTaskFilter():
-    '''public PlusPReconTaskFilter(final MboSet arg0)
+def ():
+    '''returns PlusPReconTaskFilter\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

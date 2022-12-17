@@ -1,24 +1,32 @@
-def at():
-    '''public at(final InputStream in)
+def ():
+    '''returns at\n\n
+    (final InputStream in)\n
     '''
 def readShortLE():
-    '''public short readShortLE()
+    '''returns short\n\n
+    readShortLE()\n
     '''
 def readIntLE():
-    '''public int readIntLE()
+    '''returns int\n\n
+    readIntLE()\n
     '''
 def readFloatLE():
-    '''public float readFloatLE()
+    '''returns float\n\n
+    readFloatLE()\n
     '''
 def readLongLE():
-    '''public long readLongLE()
+    '''returns long\n\n
+    readLongLE()\n
     '''
 def readDoubleLE():
-    '''public double readDoubleLE()
+    '''returns double\n\n
+    readDoubleLE()\n
     '''
 def readUnsignedInt():
-    '''public long readUnsignedInt()
+    '''returns long\n\n
+    readUnsignedInt()\n
     '''
 def readUnsignedIntLE():
-    '''public long readUnsignedIntLE()
+    '''returns long\n\n
+    readUnsignedIntLE()\n
     '''

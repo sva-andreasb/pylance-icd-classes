@@ -1,3 +1,4 @@
-def ActivateGLAccount():
-    '''public ActivateGLAccount(final MboSet ms)
+def ():
+    '''returns ActivateGLAccount\n\n
+    (final MboSet ms)\n
     '''

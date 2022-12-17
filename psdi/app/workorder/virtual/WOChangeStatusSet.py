@@ -1,40 +1,50 @@
-def WOChangeStatusSet():
-    '''public WOChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns AsyncProcess\n\n
+    (final MboServerInterface ms)\n
+    (final Enumeration enums, final UserInfo ui, final Mbo param, final String notifyEmail)\n
+    (final MboSetRemote mboset, final Mbo param, final String notifyEmail)\n
     '''
 def execute():
-    '''public void execute(final MboRemote mbo)
+    '''returns None\n\n
+    execute(final MboRemote mbo)\n
     '''
 def createCompletionOrder():
-    '''public Vector<String> createCompletionOrder(Vector<String> completionorder, final String nextWO, final Hashtable htChildren, final Hashtable htTasks)
+    '''returns Vector<String>\n\n
+    createCompletionOrder(Vector<String> completionorder, final String nextWO, final Hashtable htChildren, final Hashtable htTasks)\n
     '''
 def setLatestPMDueDate():
-    '''public void setLatestPMDueDate(final String pmnum, final String siteid, final Date dueDate)
+    '''returns None\n\n
+    setLatestPMDueDate(final String pmnum, final String siteid, final Date dueDate)\n
     '''
 def getLatestPMDueDate():
-    '''public Date getLatestPMDueDate(final String pmnum, final String siteid)
+    '''returns Date\n\n
+    getLatestPMDueDate(final String pmnum, final String siteid)\n
     '''
 def setPMWOCancelUserListResponse():
-    '''public void setPMWOCancelUserListResponse(final boolean response)
+    '''returns None\n\n
+    setPMWOCancelUserListResponse(final boolean response)\n
     '''
 def setReportParameterData():
-    '''public void setReportParameterData(final ReportParameterData data)
+    '''returns None\n\n
+    setReportParameterData(final ReportParameterData data)\n
     '''
 def createFileFromStream():
-    '''public void createFileFromStream(final File file, final InputStream inputStream)
+    '''returns None\n\n
+    createFileFromStream(final File file, final InputStream inputStream)\n
     '''
 def setFailedWOChangeStatusRecord():
-    '''public void setFailedWOChangeStatusRecord(final long workorderid)
+    '''returns None\n\n
+    setFailedWOChangeStatusRecord(final long workorderid)\n
     '''
 def getFailedWOChangeStatusRecord():
-    '''public ArrayList<Long> getFailedWOChangeStatusRecord()
+    '''returns ArrayList<Long>\n\n
+    getFailedWOChangeStatusRecord()\n
     '''
 def clearFailedWOChangeStatusRecord():
-    '''public void clearFailedWOChangeStatusRecord()
-    '''
-def AsyncProcess():
-    '''public AsyncProcess(final Enumeration enums, final UserInfo ui, final Mbo param, final String notifyEmail)
-    public AsyncProcess(final MboSetRemote mboset, final Mbo param, final String notifyEmail)
+    '''returns None\n\n
+    clearFailedWOChangeStatusRecord()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

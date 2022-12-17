@@ -1,57 +1,67 @@
-def BasicHttpProcessor():
-    '''public BasicHttpProcessor()
+def ():
+    '''returns BasicHttpProcessor\n\n
+    ()\n
     '''
 def addRequestInterceptor():
-    '''public void addRequestInterceptor(final HttpRequestInterceptor itcp)
-    public void addRequestInterceptor(final HttpRequestInterceptor itcp, final int index)
+    '''returns None\n\n
+    addRequestInterceptor(final HttpRequestInterceptor itcp)\n
+    addRequestInterceptor(final HttpRequestInterceptor itcp, final int index)\n
     '''
 def addResponseInterceptor():
-    '''public void addResponseInterceptor(final HttpResponseInterceptor itcp, final int index)
-    public void addResponseInterceptor(final HttpResponseInterceptor itcp)
+    '''returns None\n\n
+    addResponseInterceptor(final HttpResponseInterceptor itcp, final int index)\n
+    addResponseInterceptor(final HttpResponseInterceptor itcp)\n
     '''
 def removeRequestInterceptorByClass():
-    '''public void removeRequestInterceptorByClass(final Class<? extends HttpRequestInterceptor> clazz)
+    '''returns None\n\n
+    removeRequestInterceptorByClass(final Class<? extends HttpRequestInterceptor> clazz)\n
     '''
 def removeResponseInterceptorByClass():
-    '''public void removeResponseInterceptorByClass(final Class<? extends HttpResponseInterceptor> clazz)
-    '''
-def addInterceptor():
-    '''public final void addInterceptor(final HttpRequestInterceptor interceptor)
-    public final void addInterceptor(final HttpRequestInterceptor interceptor, final int index)
-    public final void addInterceptor(final HttpResponseInterceptor interceptor)
-    public final void addInterceptor(final HttpResponseInterceptor interceptor, final int index)
+    '''returns None\n\n
+    removeResponseInterceptorByClass(final Class<? extends HttpResponseInterceptor> clazz)\n
     '''
 def getRequestInterceptorCount():
-    '''public int getRequestInterceptorCount()
+    '''returns int\n\n
+    getRequestInterceptorCount()\n
     '''
 def getRequestInterceptor():
-    '''public HttpRequestInterceptor getRequestInterceptor(final int index)
+    '''returns HttpRequestInterceptor\n\n
+    getRequestInterceptor(final int index)\n
     '''
 def clearRequestInterceptors():
-    '''public void clearRequestInterceptors()
+    '''returns None\n\n
+    clearRequestInterceptors()\n
     '''
 def getResponseInterceptorCount():
-    '''public int getResponseInterceptorCount()
+    '''returns int\n\n
+    getResponseInterceptorCount()\n
     '''
 def getResponseInterceptor():
-    '''public HttpResponseInterceptor getResponseInterceptor(final int index)
+    '''returns HttpResponseInterceptor\n\n
+    getResponseInterceptor(final int index)\n
     '''
 def clearResponseInterceptors():
-    '''public void clearResponseInterceptors()
+    '''returns None\n\n
+    clearResponseInterceptors()\n
     '''
 def setInterceptors():
-    '''public void setInterceptors(final List<?> list)
+    '''returns None\n\n
+    setInterceptors(final List<?> list)\n
     '''
 def clearInterceptors():
-    '''public void clearInterceptors()
+    '''returns None\n\n
+    clearInterceptors()\n
     '''
 def process():
-    '''public void process(final HttpRequest request, final HttpContext context)
-    public void process(final HttpResponse response, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpRequest request, final HttpContext context)\n
+    process(final HttpResponse response, final HttpContext context)\n
     '''
 def copy():
-    '''public BasicHttpProcessor copy()
+    '''returns BasicHttpProcessor\n\n
+    copy()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

@@ -1,60 +1,77 @@
-def CompositeCollection():
-    '''public CompositeCollection()
-    public CompositeCollection(final Collection<E> compositeCollection)
-    public CompositeCollection(final Collection<E> compositeCollection1, final Collection<E> compositeCollection2)
-    public CompositeCollection(final Collection<E>... compositeCollections)
+def ():
+    '''returns CompositeCollection\n\n
+    ()\n
+    (final Collection<E> compositeCollection)\n
+    (final Collection<E> compositeCollection1, final Collection<E> compositeCollection2)\n
+    (final Collection<E>... compositeCollections)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def contains():
-    '''public boolean contains(final Object obj)
+    '''returns boolean\n\n
+    contains(final Object obj)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] array)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def add():
-    '''public boolean add(final E obj)
+    '''returns boolean\n\n
+    add(final E obj)\n
     '''
 def remove():
-    '''public boolean remove(final Object obj)
+    '''returns boolean\n\n
+    remove(final Object obj)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def setMutator():
-    '''public void setMutator(final CollectionMutator<E> mutator)
+    '''returns None\n\n
+    setMutator(final CollectionMutator<E> mutator)\n
     '''
 def addComposited():
-    '''public void addComposited(final Collection<E> compositeCollection)
-    public void addComposited(final Collection<E> compositeCollection1, final Collection<E> compositeCollection2)
-    public void addComposited(final Collection<E>... compositeCollections)
+    '''returns None\n\n
+    addComposited(final Collection<E> compositeCollection)\n
+    addComposited(final Collection<E> compositeCollection1, final Collection<E> compositeCollection2)\n
+    addComposited(final Collection<E>... compositeCollections)\n
     '''
 def removeComposited():
-    '''public void removeComposited(final Collection<E> coll)
+    '''returns None\n\n
+    removeComposited(final Collection<E> coll)\n
     '''
 def toCollection():
-    '''public Collection<E> toCollection()
+    '''returns Collection<E>\n\n
+    toCollection()\n
     '''
 def getCollections():
-    '''public List<Collection<E>> getCollections()
+    '''returns List<Collection<E>>\n\n
+    getCollections()\n
     '''

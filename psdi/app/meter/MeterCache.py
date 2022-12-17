@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final MeterCache getInstance()
-    '''
 def getMeterInfo():
-    '''public MeterInfo getMeterInfo(final Integer hcmeter)
+    '''returns MeterInfo\n\n
+    getMeterInfo(final Integer hcmeter)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

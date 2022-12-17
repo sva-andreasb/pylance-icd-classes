@@ -1,9 +1,8 @@
 def setupBean():
-    '''public void setupBean(final SessionContext sc)
+    '''returns None\n\n
+    setupBean(final SessionContext sc)\n
     '''
 def updateClassstructure():
-    '''public void updateClassstructure(final String hierarchypath)
-    '''
-def getQbe():
-    '''public synchronized String getQbe(final String attribute)
+    '''returns None\n\n
+    updateClassstructure(final String hierarchypath)\n
     '''

@@ -1,46 +1,61 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloMultipleForAllRangesRequirement():
-    '''public IloMultipleForAllRangesRequirement(final String id, final IloForAllRange[] ranges, final Object explanation, final IloCplexReqPropsDef props)
+def ():
+    '''returns IloMultipleForAllRangesRequirement\n\n
+    (final String id, final IloForAllRange[] ranges, final Object explanation, final IloCplexReqPropsDef props)\n
     '''
 def onSetController():
-    '''public void onSetController(final IloEngineController ctl)
+    '''returns None\n\n
+    onSetController(final IloEngineController ctl)\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getParent():
-    '''public IloRequirementNode getParent()
+    '''returns IloRequirementNode\n\n
+    getParent()\n
     '''
 def postToCplex():
-    '''public void postToCplex(final IloCplexController ctl, final boolean propagate)
+    '''returns None\n\n
+    postToCplex(final IloCplexController ctl, final boolean propagate)\n
     '''
 def removeFromCplex():
-    '''public void removeFromCplex(final IloCplexController ctl, final boolean propagate)
+    '''returns None\n\n
+    removeFromCplex(final IloCplexController ctl, final boolean propagate)\n
     '''
 def changeRangesPriority():
-    '''public void changeRangesPriority(final IloCplexController ctl)
+    '''returns None\n\n
+    changeRangesPriority(final IloCplexController ctl)\n
     '''
 def addRange():
-    '''public void addRange(final IloForAllRange range)
+    '''returns None\n\n
+    addRange(final IloForAllRange range)\n
     '''
 def addRangeInList():
-    '''public void addRangeInList(final ArrayList<IloForAllRange> list)
+    '''returns None\n\n
+    addRangeInList(final ArrayList<IloForAllRange> list)\n
     '''
 def forallRangeIterator():
-    '''public Iterator<IloForAllRange> forallRangeIterator()
+    '''returns Iterator<IloForAllRange>\n\n
+    forallRangeIterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public IloForAllRange next()
+    '''returns IloForAllRange\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def isComposite():
-    '''public boolean isComposite()
+    '''returns boolean\n\n
+    isComposite()\n
     '''

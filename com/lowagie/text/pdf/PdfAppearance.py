@@ -1,6 +1,8 @@
 def setFontAndSize():
-    '''public void setFontAndSize(final BaseFont bf, final float size)
+    '''returns None\n\n
+    setFontAndSize(final BaseFont bf, final float size)\n
     '''
 def getDuplicate():
-    '''public PdfContentByte getDuplicate()
+    '''returns PdfContentByte\n\n
+    getDuplicate()\n
     '''

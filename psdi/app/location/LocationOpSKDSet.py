@@ -1,3 +1,4 @@
-def LocationOpSKDSet():
-    '''public LocationOpSKDSet(final MboServerInterface ms)
+def ():
+    '''returns LocationOpSKDSet\n\n
+    (final MboServerInterface ms)\n
     '''

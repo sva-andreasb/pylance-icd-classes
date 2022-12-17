@@ -1,21 +1,28 @@
-def OslcPrefillInfo():
-    '''public OslcPrefillInfo(final String interactionName, final String providerName, final String resPropName, final String resPropNs, final String mapExpression, final boolean resourceRef)
+def ():
+    '''returns OslcPrefillInfo\n\n
+    (final String interactionName, final String providerName, final String resPropName, final String resPropNs, final String mapExpression, final boolean resourceRef)\n
     '''
 def getInteractionName():
-    '''public String getInteractionName()
+    '''returns String\n\n
+    getInteractionName()\n
     '''
 def getProviderName():
-    '''public String getProviderName()
+    '''returns String\n\n
+    getProviderName()\n
     '''
 def getResPropName():
-    '''public String getResPropName()
+    '''returns String\n\n
+    getResPropName()\n
     '''
 def getResPropNs():
-    '''public String getResPropNs()
+    '''returns String\n\n
+    getResPropNs()\n
     '''
 def getMapExpression():
-    '''public String getMapExpression()
+    '''returns String\n\n
+    getMapExpression()\n
     '''
 def isResourceRef():
-    '''public boolean isResourceRef()
+    '''returns boolean\n\n
+    isResourceRef()\n
     '''

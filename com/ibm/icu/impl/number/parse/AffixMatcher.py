@@ -1,24 +1,28 @@
-def createMatchers():
-    '''public static void createMatchers(final AffixPatternProvider patternInfo, final NumberParserImpl output, final AffixTokenMatcherFactory factory, final IgnorablesMatcher ignorables, final int parseFlags)
-    '''
 def match():
-    '''public boolean match(final StringSegment segment, final ParsedNumber result)
+    '''returns boolean\n\n
+    match(final StringSegment segment, final ParsedNumber result)\n
     '''
 def smokeTest():
-    '''public boolean smokeTest(final StringSegment segment)
+    '''returns boolean\n\n
+    smokeTest(final StringSegment segment)\n
     '''
 def postProcess():
-    '''public void postProcess(final ParsedNumber result)
+    '''returns None\n\n
+    postProcess(final ParsedNumber result)\n
     '''
 def equals():
-    '''public boolean equals(final Object _other)
+    '''returns boolean\n\n
+    equals(final Object _other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compare():
-    '''public int compare(final AffixMatcher lhs, final AffixMatcher rhs)
+    '''returns int\n\n
+    compare(final AffixMatcher lhs, final AffixMatcher rhs)\n
     '''

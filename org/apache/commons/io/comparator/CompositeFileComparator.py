@@ -1,10 +1,13 @@
-def CompositeFileComparator():
-    '''public CompositeFileComparator(final Comparator<File>... delegates)
-    public CompositeFileComparator(final Iterable<Comparator<File>> delegates)
+def ():
+    '''returns CompositeFileComparator\n\n
+    (final Comparator<File>... delegates)\n
+    (final Iterable<Comparator<File>> delegates)\n
     '''
 def compare():
-    '''public int compare(final File file1, final File file2)
+    '''returns int\n\n
+    compare(final File file1, final File file2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

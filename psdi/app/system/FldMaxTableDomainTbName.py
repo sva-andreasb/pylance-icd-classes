@@ -1,3 +1,4 @@
-def FldMaxTableDomainTbName():
-    '''public FldMaxTableDomainTbName(final MboValue mbv)
+def ():
+    '''returns FldMaxTableDomainTbName\n\n
+    (final MboValue mbv)\n
     '''

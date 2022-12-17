@@ -1,6 +1,8 @@
-def JobPlanSpecSet():
-    '''public JobPlanSpecSet(final MboServerInterface ms)
+def ():
+    '''returns JobPlanSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def whereClauseOnAttrAndValues():
-    '''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
+    '''returns String\n\n
+    whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)\n
     '''

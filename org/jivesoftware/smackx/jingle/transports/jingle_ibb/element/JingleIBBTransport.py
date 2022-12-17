@@ -2,24 +2,30 @@ NAMESPACE_V1 = "String  \"urn:xmpp:jingle:transports:ibb:1\""
 ATTR_BLOCK_SIZE = "String  \"block-size\""
 ATTR_SID = "String  \"sid\""
 DEFAULT_BLOCK_SIZE = "short  4096"
-def JingleIBBTransport():
-    '''public JingleIBBTransport()
-    public JingleIBBTransport(final String sid)
-    public JingleIBBTransport(final short blockSize)
-    public JingleIBBTransport(final short blockSize, final String sid)
+def ():
+    '''returns JingleIBBTransport\n\n
+    ()\n
+    (final String sid)\n
+    (final short blockSize)\n
+    (final short blockSize, final String sid)\n
     '''
 def getSessionId():
-    '''public String getSessionId()
+    '''returns String\n\n
+    getSessionId()\n
     '''
 def getBlockSize():
-    '''public short getBlockSize()
+    '''returns short\n\n
+    getBlockSize()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

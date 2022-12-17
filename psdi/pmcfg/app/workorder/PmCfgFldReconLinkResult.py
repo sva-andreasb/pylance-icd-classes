@@ -1,3 +1,4 @@
-def PmCfgFldReconLinkResult():
-    '''public PmCfgFldReconLinkResult(final MboValue mbv)
+def ():
+    '''returns PmCfgFldReconLinkResult\n\n
+    (final MboValue mbv)\n
     '''

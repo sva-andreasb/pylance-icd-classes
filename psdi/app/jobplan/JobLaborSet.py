@@ -1,18 +1,24 @@
-def JobLaborSet():
-    '''public JobLaborSet(final MboServerInterface ms)
+def ():
+    '''returns JobLaborSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote mbo)
+    '''returns None\n\n
+    setOwner(final MboRemote mbo)\n
     '''
 def initDataDictionary():
-    '''public void initDataDictionary()
+    '''returns None\n\n
+    initDataDictionary()\n
     '''
 def addToUserPrefWhere():
-    '''public String addToUserPrefWhere()
+    '''returns String\n\n
+    addToUserPrefWhere()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

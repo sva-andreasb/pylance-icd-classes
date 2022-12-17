@@ -1,6 +1,8 @@
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def recHasChanged():
-    '''public void recHasChanged(final int oper)
+    '''returns None\n\n
+    recHasChanged(final int oper)\n
     '''

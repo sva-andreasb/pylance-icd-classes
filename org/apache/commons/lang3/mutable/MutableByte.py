@@ -1,57 +1,74 @@
-def MutableByte():
-    '''public MutableByte()
-    public MutableByte(final byte value)
-    public MutableByte(final Number value)
-    public MutableByte(final String value)
+def ():
+    '''returns MutableByte\n\n
+    ()\n
+    (final byte value)\n
+    (final Number value)\n
+    (final String value)\n
     '''
 def getValue():
-    '''public Byte getValue()
+    '''returns Byte\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final byte value)
-    public void setValue(final Number value)
+    '''returns None\n\n
+    setValue(final byte value)\n
+    setValue(final Number value)\n
     '''
 def increment():
-    '''public void increment()
+    '''returns None\n\n
+    increment()\n
     '''
 def decrement():
-    '''public void decrement()
+    '''returns None\n\n
+    decrement()\n
     '''
 def add():
-    '''public void add(final byte operand)
-    public void add(final Number operand)
+    '''returns None\n\n
+    add(final byte operand)\n
+    add(final Number operand)\n
     '''
 def subtract():
-    '''public void subtract(final byte operand)
-    public void subtract(final Number operand)
+    '''returns None\n\n
+    subtract(final byte operand)\n
+    subtract(final Number operand)\n
     '''
 def byteValue():
-    '''public byte byteValue()
+    '''returns byte\n\n
+    byteValue()\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def toByte():
-    '''public Byte toByte()
+    '''returns Byte\n\n
+    toByte()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final MutableByte other)
+    '''returns int\n\n
+    compareTo(final MutableByte other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

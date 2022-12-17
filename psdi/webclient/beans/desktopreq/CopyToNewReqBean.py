@@ -1,6 +1,8 @@
 def submit():
-    '''public void submit()
+    '''returns None\n\n
+    submit()\n
     '''
 def savedraft():
-    '''public void savedraft()
+    '''returns None\n\n
+    savedraft()\n
     '''

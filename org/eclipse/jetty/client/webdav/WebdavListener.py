@@ -1,12 +1,16 @@
-def WebdavListener():
-    '''public WebdavListener(final HttpDestination destination, final HttpExchange ex)
+def ():
+    '''returns WebdavListener\n\n
+    (final HttpDestination destination, final HttpExchange ex)\n
     '''
 def onResponseStatus():
-    '''public void onResponseStatus(final Buffer version, final int status, final Buffer reason)
+    '''returns None\n\n
+    onResponseStatus(final Buffer version, final int status, final Buffer reason)\n
     '''
 def onResponseComplete():
-    '''public void onResponseComplete()
+    '''returns None\n\n
+    onResponseComplete()\n
     '''
 def onRequestComplete():
-    '''public void onRequestComplete()
+    '''returns None\n\n
+    onRequestComplete()\n
     '''

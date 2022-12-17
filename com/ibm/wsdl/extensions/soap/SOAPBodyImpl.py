@@ -1,43 +1,57 @@
 serialVersionUID = "long  1L"
-def SOAPBodyImpl():
-    '''public SOAPBodyImpl()
+def ():
+    '''returns SOAPBodyImpl\n\n
+    ()\n
     '''
 def setElementType():
-    '''public void setElementType(final QName elementType)
+    '''returns None\n\n
+    setElementType(final QName elementType)\n
     '''
 def getElementType():
-    '''public QName getElementType()
+    '''returns QName\n\n
+    getElementType()\n
     '''
 def setRequired():
-    '''public void setRequired(final Boolean required)
+    '''returns None\n\n
+    setRequired(final Boolean required)\n
     '''
 def getRequired():
-    '''public Boolean getRequired()
+    '''returns Boolean\n\n
+    getRequired()\n
     '''
 def setParts():
-    '''public void setParts(final List parts)
+    '''returns None\n\n
+    setParts(final List parts)\n
     '''
 def getParts():
-    '''public List getParts()
+    '''returns List\n\n
+    getParts()\n
     '''
 def setUse():
-    '''public void setUse(final String use)
+    '''returns None\n\n
+    setUse(final String use)\n
     '''
 def getUse():
-    '''public String getUse()
+    '''returns String\n\n
+    getUse()\n
     '''
 def setEncodingStyles():
-    '''public void setEncodingStyles(final List encodingStyles)
+    '''returns None\n\n
+    setEncodingStyles(final List encodingStyles)\n
     '''
 def getEncodingStyles():
-    '''public List getEncodingStyles()
+    '''returns List\n\n
+    getEncodingStyles()\n
     '''
 def setNamespaceURI():
-    '''public void setNamespaceURI(final String namespaceURI)
+    '''returns None\n\n
+    setNamespaceURI(final String namespaceURI)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

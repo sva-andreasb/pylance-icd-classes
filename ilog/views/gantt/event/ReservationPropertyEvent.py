@@ -1,6 +1,8 @@
-def ReservationPropertyEvent():
-    '''public ReservationPropertyEvent(final IlvReservation ilvReservation, final Object o, final Object o2, final boolean b)
+def ():
+    '''returns ReservationPropertyEvent\n\n
+    (final IlvReservation ilvReservation, final Object o, final Object o2, final boolean b)\n
     '''
 def getReservation():
-    '''public IlvReservation getReservation()
+    '''returns IlvReservation\n\n
+    getReservation()\n
     '''

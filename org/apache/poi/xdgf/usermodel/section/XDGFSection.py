@@ -1,12 +1,12 @@
-def load():
-    '''public static XDGFSection load(final SectionType section, final XDGFSheet containingSheet)
-    '''
-def XDGFSection():
-    '''public XDGFSection(final SectionType section, final XDGFSheet containingSheet)
+def ():
+    '''returns XDGFSection\n\n
+    (final SectionType section, final XDGFSheet containingSheet)\n
     '''
 def getXmlObject():
-    '''public SectionType getXmlObject()
+    '''returns SectionType\n\n
+    getXmlObject()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

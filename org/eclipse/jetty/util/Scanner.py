@@ -1,99 +1,93 @@
-def Scanner():
-    '''public Scanner()
+def ():
+    '''returns TimeNSize\n\n
+    ()\n
+    (final long lastModified, final long size)\n
     '''
 def getScanInterval():
-    '''public int getScanInterval()
-    '''
-def setScanInterval():
-    '''public synchronized void setScanInterval(final int scanInterval)
+    '''returns int\n\n
+    getScanInterval()\n
     '''
 def setScanDir():
-    '''public void setScanDir(final File dir)
+    '''returns None\n\n
+    setScanDir(final File dir)\n
     '''
 def getScanDir():
-    '''public File getScanDir()
+    '''returns File\n\n
+    getScanDir()\n
     '''
 def setScanDirs():
-    '''public void setScanDirs(final List<File> dirs)
-    '''
-def addScanDir():
-    '''public synchronized void addScanDir(final File dir)
+    '''returns None\n\n
+    setScanDirs(final List<File> dirs)\n
     '''
 def getScanDirs():
-    '''public List<File> getScanDirs()
+    '''returns List<File>\n\n
+    getScanDirs()\n
     '''
 def setRecursive():
-    '''public void setRecursive(final boolean recursive)
+    '''returns None\n\n
+    setRecursive(final boolean recursive)\n
     '''
 def getRecursive():
-    '''public boolean getRecursive()
+    '''returns boolean\n\n
+    getRecursive()\n
     '''
 def getScanDepth():
-    '''public int getScanDepth()
+    '''returns int\n\n
+    getScanDepth()\n
     '''
 def setScanDepth():
-    '''public void setScanDepth(final int scanDepth)
+    '''returns None\n\n
+    setScanDepth(final int scanDepth)\n
     '''
 def setFilenameFilter():
-    '''public void setFilenameFilter(final FilenameFilter filter)
+    '''returns None\n\n
+    setFilenameFilter(final FilenameFilter filter)\n
     '''
 def getFilenameFilter():
-    '''public FilenameFilter getFilenameFilter()
+    '''returns FilenameFilter\n\n
+    getFilenameFilter()\n
     '''
 def setReportExistingFilesOnStartup():
-    '''public void setReportExistingFilesOnStartup(final boolean reportExisting)
+    '''returns None\n\n
+    setReportExistingFilesOnStartup(final boolean reportExisting)\n
     '''
 def getReportExistingFilesOnStartup():
-    '''public boolean getReportExistingFilesOnStartup()
+    '''returns boolean\n\n
+    getReportExistingFilesOnStartup()\n
     '''
 def setReportDirs():
-    '''public void setReportDirs(final boolean dirs)
+    '''returns None\n\n
+    setReportDirs(final boolean dirs)\n
     '''
 def getReportDirs():
-    '''public boolean getReportDirs()
-    '''
-def addListener():
-    '''public synchronized void addListener(final Listener listener)
-    '''
-def removeListener():
-    '''public synchronized void removeListener(final Listener listener)
-    '''
-def doStart():
-    '''public synchronized void doStart()
+    '''returns boolean\n\n
+    getReportDirs()\n
     '''
 def newTimerTask():
-    '''public TimerTask newTimerTask()
+    '''returns TimerTask\n\n
+    newTimerTask()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def newTimer():
-    '''public Timer newTimer()
+    '''returns Timer\n\n
+    newTimer()\n
     '''
 def schedule():
-    '''public void schedule()
-    '''
-def doStop():
-    '''public synchronized void doStop()
-    '''
-def scan():
-    '''public synchronized void scan()
-    '''
-def scanFiles():
-    '''public synchronized void scanFiles()
-    '''
-def reportDifferences():
-    '''public synchronized void reportDifferences(final Map<String, TimeNSize> currentScan, final Map<String, TimeNSize> oldScan)
-    '''
-def TimeNSize():
-    '''public TimeNSize(final long lastModified, final long size)
+    '''returns None\n\n
+    schedule()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

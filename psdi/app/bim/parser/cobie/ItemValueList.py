@@ -1,12 +1,16 @@
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def values():
-    '''public Iterator<String> values()
+    '''returns Iterator<String>\n\n
+    values()\n
     '''
 def match():
-    '''public boolean match(final HashSet<String> valueSet)
+    '''returns boolean\n\n
+    match(final HashSet<String> valueSet)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

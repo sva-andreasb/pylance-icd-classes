@@ -1,6 +1,8 @@
-def CCIClassStructureSet():
-    '''public CCIClassStructureSet(final MboServerInterface ms)
+def ():
+    '''returns CCIClassStructureSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getExceptionsToCustomerFilter():
-    '''public ArrayList<String> getExceptionsToCustomerFilter()
+    '''returns ArrayList<String>\n\n
+    getExceptionsToCustomerFilter()\n
     '''

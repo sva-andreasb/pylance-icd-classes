@@ -1,61 +1,72 @@
-def doSubstitutions():
-    '''public static String doSubstitutions(final String wasHome, final String value)
-    public static String doSubstitutions(final String wasHome, final String profileHome, String value)
-    '''
-def getScriptingLauncherHelper():
-    '''public static ScriptingLauncherHelper getScriptingLauncherHelper(final String wasHome, final String profileHome)
-    '''
 def getWSExtDirs():
-    '''public String[] getWSExtDirs()
+    '''returns String[]\n\n
+    getWSExtDirs()\n
     '''
 def getJavaLibraryPath():
-    '''public String getJavaLibraryPath()
+    '''returns String\n\n
+    getJavaLibraryPath()\n
     '''
 def getMainClassName():
-    '''public String getMainClassName()
+    '''returns String\n\n
+    getMainClassName()\n
     '''
 def getProgramArguments():
-    '''public String[] getProgramArguments()
+    '''returns String[]\n\n
+    getProgramArguments()\n
     '''
 def getOthers():
-    '''public String[] getOthers()
+    '''returns String[]\n\n
+    getOthers()\n
     '''
 def getJythonPath():
-    '''public String getJythonPath()
+    '''returns String\n\n
+    getJythonPath()\n
     '''
 def getClasspath():
-    '''public String[] getClasspath()
+    '''returns String[]\n\n
+    getClasspath()\n
     '''
 def getWasInstallRoot():
-    '''public String getWasInstallRoot()
+    '''returns String\n\n
+    getWasInstallRoot()\n
     '''
 def getUserInstallRoot():
-    '''public String getUserInstallRoot()
+    '''returns String\n\n
+    getUserInstallRoot()\n
     '''
 def getWasRepositoryRoot():
-    '''public String getWasRepositoryRoot()
+    '''returns String\n\n
+    getWasRepositoryRoot()\n
     '''
 def getOSGIInstall():
-    '''public String getOSGIInstall()
+    '''returns String\n\n
+    getOSGIInstall()\n
     '''
 def getOSGIConfig():
-    '''public String getOSGIConfig()
+    '''returns String\n\n
+    getOSGIConfig()\n
     '''
 def getIbmItpLocation():
-    '''public String getIbmItpLocation()
+    '''returns String\n\n
+    getIbmItpLocation()\n
     '''
 def getClientSOAPPath():
-    '''public String getClientSOAPPath()
+    '''returns String\n\n
+    getClientSOAPPath()\n
     '''
 def getClientSASPath():
-    '''public String getClientSASPath()
+    '''returns String\n\n
+    getClientSASPath()\n
     '''
 def getJythonLibPath():
-    '''public String getJythonLibPath()
+    '''returns String\n\n
+    getJythonLibPath()\n
     '''
 def getScriptLibraryList():
-    '''public String getScriptLibraryList()
+    '''returns String\n\n
+    getScriptLibraryList()\n
     '''
 def getScriptLibraryPath():
-    '''public String getScriptLibraryPath()
+    '''returns String\n\n
+    getScriptLibraryPath()\n
     '''

@@ -1,3 +1,4 @@
-def MapBasedNamespaceContext():
-    '''public MapBasedNamespaceContext(final Map map)
+def ():
+    '''returns MapBasedNamespaceContext\n\n
+    (final Map map)\n
     '''

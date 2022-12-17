@@ -1,3 +1,4 @@
 def write():
-    '''public void write(final int b)
+    '''returns None\n\n
+    write(final int b)\n
     '''

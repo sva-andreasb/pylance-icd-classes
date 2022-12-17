@@ -1,6 +1,8 @@
-def ReplyTransformer():
-    '''public ReplyTransformer(final UidGenerator uidGenerator)
+def ():
+    '''returns ReplyTransformer\n\n
+    (final UidGenerator uidGenerator)\n
     '''
 def transform():
-    '''public Calendar transform(final Calendar object)
+    '''returns Calendar\n\n
+    transform(final Calendar object)\n
     '''

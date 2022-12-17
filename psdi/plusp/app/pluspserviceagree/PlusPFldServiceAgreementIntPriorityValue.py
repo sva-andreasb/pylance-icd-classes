@@ -1,21 +1,28 @@
-def PlusPFldServiceAgreementIntPriorityValue():
-    '''public PlusPFldServiceAgreementIntPriorityValue(final MboValue mboValue)
+def ():
+    '''returns PlusPFldServiceAgreementIntPriorityValue\n\n
+    (final MboValue mboValue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFill(final String value, final boolean exact)\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote mboRemote)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote mboRemote)\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''

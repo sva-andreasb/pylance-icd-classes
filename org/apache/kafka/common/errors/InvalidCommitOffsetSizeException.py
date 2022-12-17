@@ -1,4 +1,5 @@
-def InvalidCommitOffsetSizeException():
-    '''public InvalidCommitOffsetSizeException(final String message, final Throwable cause)
-    public InvalidCommitOffsetSizeException(final String message)
+def ():
+    '''returns InvalidCommitOffsetSizeException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
     '''

@@ -1,3 +1,4 @@
-def NonCachedSourceOrTargetAssetBean():
-    '''public NonCachedSourceOrTargetAssetBean()
+def ():
+    '''returns NonCachedSourceOrTargetAssetBean\n\n
+    ()\n
     '''

@@ -1,15 +1,20 @@
-def DefaultSSHExit():
-    '''public DefaultSSHExit()
+def ():
+    '''returns DefaultSSHExit\n\n
+    ()\n
     '''
 def createResponse():
-    '''public byte[] createResponse(final ProgramOutput output)
+    '''returns byte[]\n\n
+    createResponse(final ProgramOutput output)\n
     '''
 def getServiceInvokeCmd():
-    '''public String getServiceInvokeCmd(final byte[] data)
+    '''returns String\n\n
+    getServiceInvokeCmd(final byte[] data)\n
     '''
 def getEnvSetupCmd():
-    '''public String getEnvSetupCmd(final byte[] data)
+    '''returns String\n\n
+    getEnvSetupCmd(final byte[] data)\n
     '''
 def getWorkingDir():
-    '''public String getWorkingDir(final byte[] data)
+    '''returns String\n\n
+    getWorkingDir(final byte[] data)\n
     '''

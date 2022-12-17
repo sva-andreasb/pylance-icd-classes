@@ -1,6 +1,8 @@
-def FldLaborOTScale():
-    '''public FldLaborOTScale(final MboValue mbv)
+def ():
+    '''returns FldLaborOTScale\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

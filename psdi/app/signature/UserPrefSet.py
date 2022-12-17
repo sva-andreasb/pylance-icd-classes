@@ -1,3 +1,4 @@
-def UserPrefSet():
-    '''public UserPrefSet(final MboServerInterface ms)
+def ():
+    '''returns UserPrefSet\n\n
+    (final MboServerInterface ms)\n
     '''

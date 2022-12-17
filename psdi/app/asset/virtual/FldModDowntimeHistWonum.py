@@ -1,3 +1,4 @@
-def FldModDowntimeHistWonum():
-    '''public FldModDowntimeHistWonum(final MboValue mbv)
+def ():
+    '''returns FldModDowntimeHistWonum\n\n
+    (final MboValue mbv)\n
     '''

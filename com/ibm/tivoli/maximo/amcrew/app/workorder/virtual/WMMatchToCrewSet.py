@@ -1,6 +1,8 @@
-def WMMatchToCrewSet():
-    '''public WMMatchToCrewSet(final MboServerInterface ms)
+def ():
+    '''returns WMMatchToCrewSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addMatchMbos():
-    '''public void addMatchMbos(final Vector selectedMbos)
+    '''returns None\n\n
+    addMatchMbos(final Vector selectedMbos)\n
     '''

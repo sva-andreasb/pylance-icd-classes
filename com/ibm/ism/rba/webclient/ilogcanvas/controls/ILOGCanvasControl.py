@@ -1,15 +1,20 @@
-def ILOGCanvasControl():
-    '''public ILOGCanvasControl()
+def ():
+    '''returns ILOGCanvasControl\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def handleServletRequest():
-    '''public boolean handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)
+    '''returns boolean\n\n
+    handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def handleMoveNodes():
-    '''public boolean handleMoveNodes(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns boolean\n\n
+    handleMoveNodes(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def bidiPrepareForWrap():
-    '''public String bidiPrepareForWrap(final String str)
+    '''returns String\n\n
+    bidiPrepareForWrap(final String str)\n
     '''

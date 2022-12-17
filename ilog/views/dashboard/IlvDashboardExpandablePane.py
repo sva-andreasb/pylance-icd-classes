@@ -1,42 +1,53 @@
-def IlvDashboardExpandablePane():
-    '''public IlvDashboardExpandablePane(final String s, final Icon icon, final JComponent component)
+def ():
+    '''returns TitleButton\n\n
+    (final String s, final Icon icon, final JComponent component)\n
+    (final String text, final Icon icon)\n
     '''
 def expand():
-    '''public void expand()
+    '''returns None\n\n
+    expand()\n
     '''
 def collapse():
-    '''public void collapse()
+    '''returns None\n\n
+    collapse()\n
     '''
 def isExpanded():
-    '''public boolean isExpanded()
+    '''returns boolean\n\n
+    isExpanded()\n
     '''
 def getClient():
-    '''public JComponent getClient()
+    '''returns JComponent\n\n
+    getClient()\n
     '''
 def getTitleComponent():
-    '''public JComponent getTitleComponent()
+    '''returns JComponent\n\n
+    getTitleComponent()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String text)
+    '''returns None\n\n
+    setTitle(final String text)\n
     '''
 def getIcon():
-    '''public Icon getIcon()
+    '''returns Icon\n\n
+    getIcon()\n
     '''
 def setIcon():
-    '''public void setIcon(final Icon icon)
-    '''
-def TitleButton():
-    '''public TitleButton(final String text, final Icon icon)
+    '''returns None\n\n
+    setIcon(final Icon icon)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def isFocusTraversable():
-    '''public boolean isFocusTraversable()
+    '''returns boolean\n\n
+    isFocusTraversable()\n
     '''
 def requestFocus():
-    '''public void requestFocus()
+    '''returns None\n\n
+    requestFocus()\n
     '''

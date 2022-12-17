@@ -1,81 +1,106 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TimeWindowModelCache():
-    '''public TimeWindowModelCache()
+def ():
+    '''returns TimeWindowModelCache\n\n
+    ()\n
     '''
 def canProcessActivity():
-    '''public boolean canProcessActivity(final IlvGeneralActivity activity, final IlvGanttModel ganttModel)
+    '''returns boolean\n\n
+    canProcessActivity(final IlvGeneralActivity activity, final IlvGanttModel ganttModel)\n
     '''
 def isDisabled():
-    '''public boolean isDisabled()
+    '''returns boolean\n\n
+    isDisabled()\n
     '''
 def getDisabledMsg():
-    '''public String getDisabledMsg()
+    '''returns String\n\n
+    getDisabledMsg()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getCachedModel():
-    '''public TimeWindowModel getCachedModel(final IlvGeneralActivity activity)
+    '''returns TimeWindowModel\n\n
+    getCachedModel(final IlvGeneralActivity activity)\n
     '''
 def preloadCache():
-    '''public void preloadCache(final IlvGanttModel ganttModel)
+    '''returns None\n\n
+    preloadCache(final IlvGanttModel ganttModel)\n
     '''
 def getModel():
-    '''public TimeWindowModel getModel(final IlvGeneralActivity activity, final IlvGanttModel ganttModel)
+    '''returns TimeWindowModel\n\n
+    getModel(final IlvGeneralActivity activity, final IlvGanttModel ganttModel)\n
     '''
 def getEmptyModel():
-    '''public TimeWindowModel getEmptyModel()
+    '''returns TimeWindowModel\n\n
+    getEmptyModel()\n
     '''
 def updateCacheFromGanttModel():
-    '''public int updateCacheFromGanttModel(final IlvGanttModel ganttModel)
+    '''returns int\n\n
+    updateCacheFromGanttModel(final IlvGanttModel ganttModel)\n
     '''
 def updateCacheFromActivityList():
-    '''public int updateCacheFromActivityList(final IlvActivity[] list)
+    '''returns int\n\n
+    updateCacheFromActivityList(final IlvActivity[] list)\n
     '''
 def updateCacheFromActivity():
-    '''public int updateCacheFromActivity(final IlvGeneralActivity activity)
+    '''returns int\n\n
+    updateCacheFromActivity(final IlvGeneralActivity activity)\n
     '''
 def updateModelFromGanttModel():
-    '''public int updateModelFromGanttModel(final TimeWindowModel twModel, final IlvGanttModel ganttModel)
+    '''returns int\n\n
+    updateModelFromGanttModel(final TimeWindowModel twModel, final IlvGanttModel ganttModel)\n
     '''
 def updateModelFromActivityList():
-    '''public int updateModelFromActivityList(final TimeWindowModel twModel, final IlvActivity[] list)
+    '''returns int\n\n
+    updateModelFromActivityList(final TimeWindowModel twModel, final IlvActivity[] list)\n
     '''
 def updateModelFromActivity():
-    '''public int updateModelFromActivity(final TimeWindowModel twModel, final IlvGeneralActivity activity)
-    public int updateModelFromActivity(final TimeWindowModel twModel, final IlvGeneralActivity activity, final Date startTime, final Date endTime)
+    '''returns int\n\n
+    updateModelFromActivity(final TimeWindowModel twModel, final IlvGeneralActivity activity)\n
+    updateModelFromActivity(final TimeWindowModel twModel, final IlvGeneralActivity activity, final Date startTime, final Date endTime)\n
     '''
 def clearAllModelsFromActivity():
-    '''public int clearAllModelsFromActivity(final IlvGeneralActivity activity)
+    '''returns int\n\n
+    clearAllModelsFromActivity(final IlvGeneralActivity activity)\n
     '''
 def clearModelFromActivity():
-    '''public int clearModelFromActivity(final TimeWindowModel twModel, final IlvGeneralActivity activity)
+    '''returns int\n\n
+    clearModelFromActivity(final TimeWindowModel twModel, final IlvGeneralActivity activity)\n
     '''
 def saveState():
-    '''public void saveState()
+    '''returns None\n\n
+    saveState()\n
     '''
 def getState():
-    '''public TimeWindowState getState()
+    '''returns TimeWindowState\n\n
+    getState()\n
     '''
 def markAsDirty():
-    '''public void markAsDirty(final TimeWindowModel excludeModel)
-    public void markAsDirty()
+    '''returns None\n\n
+    markAsDirty(final TimeWindowModel excludeModel)\n
+    markAsDirty()\n
     '''
 def isConstraintViolated():
-    '''public boolean isConstraintViolated(final IlvGeneralActivity activity)
+    '''returns boolean\n\n
+    isConstraintViolated(final IlvGeneralActivity activity)\n
     '''
 def setConstraintViolated():
-    '''public void setConstraintViolated(final IlvGeneralActivity activity)
+    '''returns None\n\n
+    setConstraintViolated(final IlvGeneralActivity activity)\n
     '''
 def clearConstraintViolated():
-    '''public void clearConstraintViolated(final IlvGeneralActivity activity)
+    '''returns None\n\n
+    clearConstraintViolated(final IlvGeneralActivity activity)\n
     '''
 def determineConstraintVolation():
-    '''public void determineConstraintVolation(final IlvGeneralActivity activity, final TimeWindowModel twModel)
-    public void determineConstraintVolation(final IlvGeneralActivity activity, final IlvGanttModel ganttModel)
-    public void determineConstraintVolation(final IlvActivity[] activityList, final IlvGanttModel ganttModel)
-    public void determineConstraintVolation(final IlvGanttModel ganttModel)
+    '''returns None\n\n
+    determineConstraintVolation(final IlvGeneralActivity activity, final TimeWindowModel twModel)\n
+    determineConstraintVolation(final IlvGeneralActivity activity, final IlvGanttModel ganttModel)\n
+    determineConstraintVolation(final IlvActivity[] activityList, final IlvGanttModel ganttModel)\n
+    determineConstraintVolation(final IlvGanttModel ganttModel)\n
     '''
 def isDebugOn():
-    '''public boolean isDebugOn()
+    '''returns boolean\n\n
+    isDebugOn()\n
     '''

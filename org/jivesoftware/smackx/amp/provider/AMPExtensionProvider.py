@@ -1,3 +1,4 @@
 def parse():
-    '''public AMPExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''returns AMPExtension\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

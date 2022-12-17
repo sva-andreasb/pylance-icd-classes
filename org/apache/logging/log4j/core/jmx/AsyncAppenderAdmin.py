@@ -1,39 +1,52 @@
-def AsyncAppenderAdmin():
-    '''public AsyncAppenderAdmin(final String contextName, final AsyncAppender appender)
+def ():
+    '''returns AsyncAppenderAdmin\n\n
+    (final String contextName, final AsyncAppender appender)\n
     '''
 def getObjectName():
-    '''public ObjectName getObjectName()
+    '''returns ObjectName\n\n
+    getObjectName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getLayout():
-    '''public String getLayout()
+    '''returns String\n\n
+    getLayout()\n
     '''
 def isIgnoreExceptions():
-    '''public boolean isIgnoreExceptions()
+    '''returns boolean\n\n
+    isIgnoreExceptions()\n
     '''
 def getErrorHandler():
-    '''public String getErrorHandler()
+    '''returns String\n\n
+    getErrorHandler()\n
     '''
 def getFilter():
-    '''public String getFilter()
+    '''returns String\n\n
+    getFilter()\n
     '''
 def getAppenderRefs():
-    '''public String[] getAppenderRefs()
+    '''returns String[]\n\n
+    getAppenderRefs()\n
     '''
 def isIncludeLocation():
-    '''public boolean isIncludeLocation()
+    '''returns boolean\n\n
+    isIncludeLocation()\n
     '''
 def isBlocking():
-    '''public boolean isBlocking()
+    '''returns boolean\n\n
+    isBlocking()\n
     '''
 def getErrorRef():
-    '''public String getErrorRef()
+    '''returns String\n\n
+    getErrorRef()\n
     '''
 def getQueueCapacity():
-    '''public int getQueueCapacity()
+    '''returns int\n\n
+    getQueueCapacity()\n
     '''
 def getQueueRemainingCapacity():
-    '''public int getQueueRemainingCapacity()
+    '''returns int\n\n
+    getQueueRemainingCapacity()\n
     '''

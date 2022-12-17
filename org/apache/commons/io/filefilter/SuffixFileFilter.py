@@ -1,15 +1,18 @@
-def SuffixFileFilter():
-    '''public SuffixFileFilter(final String suffix)
-    public SuffixFileFilter(final String suffix, final IOCase caseSensitivity)
-    public SuffixFileFilter(final String[] suffixes)
-    public SuffixFileFilter(final String[] suffixes, final IOCase caseSensitivity)
-    public SuffixFileFilter(final List<String> suffixes)
-    public SuffixFileFilter(final List<String> suffixes, final IOCase caseSensitivity)
+def ():
+    '''returns SuffixFileFilter\n\n
+    (final String suffix)\n
+    (final String suffix, final IOCase caseSensitivity)\n
+    (final String[] suffixes)\n
+    (final String[] suffixes, final IOCase caseSensitivity)\n
+    (final List<String> suffixes)\n
+    (final List<String> suffixes, final IOCase caseSensitivity)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File file, final String name)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File file, final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,31 +1,21 @@
-def AsynchDetailDrillThroughTargetURI():
-    '''public AsynchDetailDrillThroughTargetURI()
-    public AsynchDetailDrillThroughTargetURI(final String drillPathName, final String targetURI)
+def ():
+    '''returns AsynchDetailDrillThroughTargetURI\n\n
+    ()\n
+    (final String drillPathName, final String targetURI)\n
     '''
 def getDrillPathName():
-    '''public String getDrillPathName()
+    '''returns String\n\n
+    getDrillPathName()\n
     '''
 def setDrillPathName():
-    '''public void setDrillPathName(final String drillPathName)
+    '''returns None\n\n
+    setDrillPathName(final String drillPathName)\n
     '''
 def getTargetURI():
-    '''public String getTargetURI()
+    '''returns String\n\n
+    getTargetURI()\n
     '''
 def setTargetURI():
-    '''public void setTargetURI(final String targetURI)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setTargetURI(final String targetURI)\n
     '''

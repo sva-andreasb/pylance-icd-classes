@@ -1,40 +1,53 @@
-def PlusCWODsInstrDelegate():
-    '''public PlusCWODsInstrDelegate(final MboAdapter mbo)
+def ():
+    '''returns PlusCWODsInstrDelegate\n\n
+    (final MboAdapter mbo)\n
     '''
 def getDsDelegate():
-    '''public PlusCWODsDelegate getDsDelegate()
+    '''returns PlusCWODsDelegate\n\n
+    getDsDelegate()\n
     '''
 def getThisMbo():
-    '''public MboAdapter getThisMbo()
+    '''returns MboAdapter\n\n
+    getThisMbo()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def isAllEntered():
-    '''public boolean isAllEntered()
-    public boolean isAllEntered(final String prefix)
+    '''returns boolean\n\n
+    isAllEntered()\n
+    isAllEntered(final String prefix)\n
     '''
 def isAllClear():
-    '''public boolean isAllClear()
+    '''returns boolean\n\n
+    isAllClear()\n
     '''
 def hasEnteredFunctionChecks():
-    '''public boolean hasEnteredFunctionChecks()
+    '''returns boolean\n\n
+    hasEnteredFunctionChecks()\n
     '''
 def hasCalPoints():
-    '''public boolean hasCalPoints()
+    '''returns boolean\n\n
+    hasCalPoints()\n
     '''
 def hasFunctionChecks():
-    '''public boolean hasFunctionChecks()
+    '''returns boolean\n\n
+    hasFunctionChecks()\n
     '''
 def hasDynamicChecks():
-    '''public boolean hasDynamicChecks()
+    '''returns boolean\n\n
+    hasDynamicChecks()\n
     '''
 def meetsNoAdjustmentConditions():
-    '''public boolean meetsNoAdjustmentConditions()
+    '''returns boolean\n\n
+    meetsNoAdjustmentConditions()\n
     '''
 def getNoAdjChoice():
-    '''public String getNoAdjChoice()
+    '''returns String\n\n
+    getNoAdjChoice()\n
     '''

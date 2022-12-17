@@ -4,75 +4,77 @@ PDF = "String  \"\u202c\""
 LRM = "String  \"\u200e\""
 RLM = "String  \"\u200f\""
 CHAR_ENCODING = "String  \"UTF-8\""
-def ILogApplet():
-    '''public ILogApplet()
-    '''
-def init():
-    '''public final void init()
-    '''
-def loadData():
-    '''public final void loadData(final String initialLoadRequired)
+def ():
+    '''returns ILogApplet\n\n
+    ()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def showWarnings():
-    '''public void showWarnings()
-    '''
-def createImageIcon():
-    '''public static ImageIcon createImageIcon(final String name)
+    '''returns None\n\n
+    showWarnings()\n
     '''
 def getControlServletURL():
-    '''public URL getControlServletURL(final String[] argNames, final String[] argValues)
-    public URL getControlServletURL(final Hashtable<String, String[]> args)
-    '''
-def arrayToString():
-    '''public static String arrayToString(final String[] a, final String separator)
+    '''returns URL\n\n
+    getControlServletURL(final String[] argNames, final String[] argValues)\n
+    getControlServletURL(final Hashtable<String, String[]> args)\n
     '''
 def loadDataOnInit():
-    '''public boolean loadDataOnInit()
+    '''returns boolean\n\n
+    loadDataOnInit()\n
     '''
 def sendEvent():
-    '''public void sendEvent(final String event)
-    public void sendEvent(final String event, final Hashtable values)
-    public void sendEvent(final String event, final String target)
-    public void sendEvent(final String event, final String target, final Hashtable values)
+    '''returns None\n\n
+    sendEvent(final String event)\n
+    sendEvent(final String event, final Hashtable values)\n
+    sendEvent(final String event, final String target)\n
+    sendEvent(final String event, final String target, final Hashtable values)\n
     '''
 def getSkinName():
-    '''public String getSkinName()
-    '''
-def removeMarkers():
-    '''public static String removeMarkers(final String str)
+    '''returns String\n\n
+    getSkinName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def newInputStreamResolver():
-    '''public InputStreamResolver newInputStreamResolver()
+    '''returns InputStreamResolver\n\n
+    newInputStreamResolver()\n
     '''
 def isHttpUsingJavascript():
-    '''public boolean isHttpUsingJavascript()
+    '''returns boolean\n\n
+    isHttpUsingJavascript()\n
     '''
 def isFirefoxGreaterThan10():
-    '''public boolean isFirefoxGreaterThan10()
+    '''returns boolean\n\n
+    isFirefoxGreaterThan10()\n
     '''
 def isChromeGreaterThan30():
-    '''public boolean isChromeGreaterThan30()
+    '''returns boolean\n\n
+    isChromeGreaterThan30()\n
     '''
 def evalJSResult():
-    '''public Object evalJSResult(final String cmdString)
+    '''returns Object\n\n
+    evalJSResult(final String cmdString)\n
     '''
 def setJavascriptHandler():
-    '''public void setJavascriptHandler(final int id, final JavascriptHandler handler)
+    '''returns None\n\n
+    setJavascriptHandler(final int id, final JavascriptHandler handler)\n
     '''
 def onJavascriptResponse():
-    '''public void onJavascriptResponse(final int id, final String data, final boolean encoded)
+    '''returns None\n\n
+    onJavascriptResponse(final int id, final String data, final boolean encoded)\n
     '''
 def nextJavascriptCommunicationId():
-    '''public int nextJavascriptCommunicationId()
+    '''returns int\n\n
+    nextJavascriptCommunicationId()\n
     '''
 def log():
-    '''public void log(final String string)
+    '''returns None\n\n
+    log(final String string)\n
     '''

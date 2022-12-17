@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def addCplexControllCallback():
-    '''public void addCplexControllCallback(final IloCplexControlCallback solvingCb)
+    '''returns None\n\n
+    addCplexControllCallback(final IloCplexControlCallback solvingCb)\n
     '''
 def actionHappened():
-    '''public void actionHappened()
+    '''returns None\n\n
+    actionHappened()\n
     '''
 def enginePhaseChanged():
-    '''public void enginePhaseChanged(final IloEnginePhase phase)
+    '''returns None\n\n
+    enginePhaseChanged(final IloEnginePhase phase)\n
     '''

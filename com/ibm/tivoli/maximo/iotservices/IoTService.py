@@ -1,18 +1,24 @@
-def IoTService():
-    '''public IoTService(final MboSet ms)
+def ():
+    '''returns IoTService\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def resetEndPoint():
-    '''public void resetEndPoint()
+    '''returns None\n\n
+    resetEndPoint()\n
     '''

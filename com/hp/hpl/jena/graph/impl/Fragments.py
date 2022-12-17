@@ -1,28 +1,37 @@
-def Fragments():
-    '''public Fragments(final Node n)
-    public Fragments(final Node n, final Triple t)
+def ():
+    '''returns Fragments\n\n
+    (final Node n)\n
+    (final Node n, final Triple t)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def remove():
-    '''public void remove(final SimpleReifierFragmentHandler w, final Node n)
+    '''returns None\n\n
+    remove(final SimpleReifierFragmentHandler w, final Node n)\n
     '''
 def add():
-    '''public void add(final SimpleReifierFragmentHandler w, final Node n)
+    '''returns None\n\n
+    add(final SimpleReifierFragmentHandler w, final Node n)\n
     '''
 def includeInto():
-    '''public void includeInto(final GraphAdd g)
+    '''returns None\n\n
+    includeInto(final GraphAdd g)\n
     '''
 def addTriple():
-    '''public Fragments addTriple(final Triple t)
+    '''returns Fragments\n\n
+    addTriple(final Triple t)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

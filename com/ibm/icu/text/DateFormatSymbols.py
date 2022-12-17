@@ -1,146 +1,115 @@
 FORMAT = "int  0"
 STANDALONE = "int  1"
-NUMERIC = "int  2"
-DT_CONTEXT_COUNT = "int  3"
+DT_CONTEXT_COUNT = "int  2"
 ABBREVIATED = "int  0"
 WIDE = "int  1"
 NARROW = "int  2"
-SHORT = "int  3"
-DT_WIDTH_COUNT = "int  4"
-def DateFormatSymbols():
-    '''public DateFormatSymbols()
-    public DateFormatSymbols(final Locale locale)
-    public DateFormatSymbols(final ULocale locale)
-    public DateFormatSymbols(final Calendar cal, final Locale locale)
-    public DateFormatSymbols(final Calendar cal, final ULocale locale)
-    public DateFormatSymbols(final Class<? extends Calendar> calendarClass, final Locale locale)
-    public DateFormatSymbols(final Class<? extends Calendar> calendarClass, final ULocale locale)
-    public DateFormatSymbols(final ResourceBundle bundle, final Locale locale)
-    public DateFormatSymbols(final ResourceBundle bundle, final ULocale locale)
-    '''
-def getInstance():
-    '''public static DateFormatSymbols getInstance()
-    public static DateFormatSymbols getInstance(final Locale locale)
-    public static DateFormatSymbols getInstance(final ULocale locale)
-    '''
-def getAvailableLocales():
-    '''public static Locale[] getAvailableLocales()
-    '''
-def getAvailableULocales():
-    '''public static ULocale[] getAvailableULocales()
+DT_WIDTH_COUNT = "int  3"
+def ():
+    '''returns DateFormatSymbols\n\n
+    ()\n
+    (final Locale locale)\n
+    (final ULocale locale)\n
+    (final Calendar cal, final Locale locale)\n
+    (final Calendar cal, final ULocale locale)\n
+    (final Class<? extends Calendar> calendarClass, final Locale locale)\n
+    (final Class<? extends Calendar> calendarClass, final ULocale locale)\n
+    (final ResourceBundle bundle, final Locale locale)\n
+    (final ResourceBundle bundle, final ULocale locale)\n
     '''
 def getEras():
-    '''public String[] getEras()
+    '''returns String[]\n\n
+    getEras()\n
     '''
 def setEras():
-    '''public void setEras(final String[] newEras)
+    '''returns None\n\n
+    setEras(final String[] newEras)\n
     '''
 def getEraNames():
-    '''public String[] getEraNames()
+    '''returns String[]\n\n
+    getEraNames()\n
     '''
 def setEraNames():
-    '''public void setEraNames(final String[] newEraNames)
-    '''
-def getNarrowEras():
-    '''public String[] getNarrowEras()
-    '''
-def setNarrowEras():
-    '''public void setNarrowEras(final String[] newNarrowEras)
+    '''returns None\n\n
+    setEraNames(final String[] newEraNames)\n
     '''
 def getMonths():
-    '''public String[] getMonths()
-    public String[] getMonths(final int context, final int width)
+    '''returns String[]\n\n
+    getMonths()\n
+    getMonths(final int context, final int width)\n
     '''
 def setMonths():
-    '''public void setMonths(final String[] newMonths)
-    public void setMonths(final String[] newMonths, final int context, final int width)
+    '''returns None\n\n
+    setMonths(final String[] newMonths)\n
+    setMonths(final String[] newMonths, final int context, final int width)\n
     '''
 def getShortMonths():
-    '''public String[] getShortMonths()
+    '''returns String[]\n\n
+    getShortMonths()\n
     '''
 def setShortMonths():
-    '''public void setShortMonths(final String[] newShortMonths)
+    '''returns None\n\n
+    setShortMonths(final String[] newShortMonths)\n
     '''
 def getWeekdays():
-    '''public String[] getWeekdays()
-    public String[] getWeekdays(final int context, final int width)
+    '''returns String[]\n\n
+    getWeekdays()\n
+    getWeekdays(final int context, final int width)\n
     '''
 def setWeekdays():
-    '''public void setWeekdays(final String[] newWeekdays, final int context, final int width)
-    public void setWeekdays(final String[] newWeekdays)
+    '''returns None\n\n
+    setWeekdays(final String[] newWeekdays, final int context, final int width)\n
+    setWeekdays(final String[] newWeekdays)\n
     '''
 def getShortWeekdays():
-    '''public String[] getShortWeekdays()
+    '''returns String[]\n\n
+    getShortWeekdays()\n
     '''
 def setShortWeekdays():
-    '''public void setShortWeekdays(final String[] newAbbrevWeekdays)
+    '''returns None\n\n
+    setShortWeekdays(final String[] newShortWeekdays)\n
     '''
 def getQuarters():
-    '''public String[] getQuarters(final int context, final int width)
+    '''returns String[]\n\n
+    getQuarters(final int context, final int width)\n
     '''
 def setQuarters():
-    '''public void setQuarters(final String[] newQuarters, final int context, final int width)
-    '''
-def getYearNames():
-    '''public String[] getYearNames(final int context, final int width)
-    '''
-def setYearNames():
-    '''public void setYearNames(final String[] yearNames, final int context, final int width)
-    '''
-def getZodiacNames():
-    '''public String[] getZodiacNames(final int context, final int width)
-    '''
-def setZodiacNames():
-    '''public void setZodiacNames(final String[] zodiacNames, final int context, final int width)
-    '''
-def getLeapMonthPattern():
-    '''public String getLeapMonthPattern(final int context, final int width)
-    '''
-def setLeapMonthPattern():
-    '''public void setLeapMonthPattern(final String leapMonthPattern, final int context, final int width)
+    '''returns None\n\n
+    setQuarters(final String[] newQuarters, final int context, final int width)\n
     '''
 def getAmPmStrings():
-    '''public String[] getAmPmStrings()
+    '''returns String[]\n\n
+    getAmPmStrings()\n
     '''
 def setAmPmStrings():
-    '''public void setAmPmStrings(final String[] newAmpms)
-    '''
-def getTimeSeparatorString():
-    '''public String getTimeSeparatorString()
-    '''
-def setTimeSeparatorString():
-    '''public void setTimeSeparatorString(final String newTimeSeparator)
+    '''returns None\n\n
+    setAmPmStrings(final String[] newAmpms)\n
     '''
 def getZoneStrings():
-    '''public String[][] getZoneStrings()
+    '''returns String[][]\n\n
+    getZoneStrings()\n
     '''
 def setZoneStrings():
-    '''public void setZoneStrings(final String[][] newZoneStrings)
+    '''returns None\n\n
+    setZoneStrings(final String[][] newZoneStrings)\n
     '''
 def getLocalPatternChars():
-    '''public String getLocalPatternChars()
+    '''returns String\n\n
+    getLocalPatternChars()\n
     '''
 def setLocalPatternChars():
-    '''public void setLocalPatternChars(final String newLocalPatternChars)
+    '''returns None\n\n
+    setLocalPatternChars(final String newLocalPatternChars)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    '''
-def getDateFormatBundle():
-    '''public static ResourceBundle getDateFormatBundle(final Class<? extends Calendar> calendarClass, final Locale locale)
-    public static ResourceBundle getDateFormatBundle(final Class<? extends Calendar> calendarClass, final ULocale locale)
-    public static ResourceBundle getDateFormatBundle(final Calendar cal, final Locale locale)
-    public static ResourceBundle getDateFormatBundle(final Calendar cal, final ULocale locale)
-    '''
-def getLocale():
-    '''public final ULocale getLocale(final ULocale.Type type)
-    '''
-def put():
-    '''public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

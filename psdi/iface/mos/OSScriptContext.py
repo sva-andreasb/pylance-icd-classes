@@ -1,15 +1,20 @@
 def getMosDetailInfo():
-    '''public MosDetailInfo getMosDetailInfo()
+    '''returns MosDetailInfo\n\n
+    getMosDetailInfo()\n
     '''
 def skipMbo():
-    '''public void skipMbo()
+    '''returns None\n\n
+    skipMbo()\n
     '''
 def skipTxn():
-    '''public void skipTxn()
+    '''returns None\n\n
+    skipTxn()\n
     '''
 def complete():
-    '''public void complete()
+    '''returns None\n\n
+    complete()\n
     '''
 def process():
-    '''public void process()
+    '''returns None\n\n
+    process()\n
     '''

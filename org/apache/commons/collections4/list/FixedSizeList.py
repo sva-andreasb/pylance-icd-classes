@@ -1,54 +1,66 @@
-def fixedSizeList():
-    '''public static <E> FixedSizeList<E> fixedSizeList(final List<E> list)
-    '''
 def add():
-    '''public boolean add(final E object)
-    public void add(final int index, final E object)
-    public void add(final Object object)
+    '''returns None\n\n
+    add(final E object)\n
+    add(final int index, final E object)\n
+    add(final Object object)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
-    public boolean addAll(final int index, final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
+    addAll(final int index, final Collection<? extends E> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def get():
-    '''public E get(final int index)
+    '''returns E\n\n
+    get(final int index)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object object)
+    '''returns int\n\n
+    indexOf(final Object object)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object object)
+    '''returns int\n\n
+    lastIndexOf(final Object object)\n
     '''
 def listIterator():
-    '''public ListIterator<E> listIterator()
-    public ListIterator<E> listIterator(final int index)
+    '''returns ListIterator<E>\n\n
+    listIterator()\n
+    listIterator(final int index)\n
     '''
 def remove():
-    '''public E remove(final int index)
-    public boolean remove(final Object object)
-    public void remove()
+    '''returns None\n\n
+    remove(final int index)\n
+    remove(final Object object)\n
+    remove()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def set():
-    '''public E set(final int index, final E object)
+    '''returns E\n\n
+    set(final int index, final E object)\n
     '''
 def subList():
-    '''public List<E> subList(final int fromIndex, final int toIndex)
+    '''returns List<E>\n\n
+    subList(final int fromIndex, final int toIndex)\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def maxSize():
-    '''public int maxSize()
+    '''returns int\n\n
+    maxSize()\n
     '''

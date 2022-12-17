@@ -1,40 +1,53 @@
-def InternalLocaleBuilder():
-    '''public InternalLocaleBuilder()
-    public InternalLocaleBuilder(final boolean lenientVariant)
+def ():
+    '''returns InternalLocaleBuilder\n\n
+    ()\n
+    (final boolean lenientVariant)\n
     '''
 def isLenientVariant():
-    '''public boolean isLenientVariant()
+    '''returns boolean\n\n
+    isLenientVariant()\n
     '''
 def setLanguage():
-    '''public InternalLocaleBuilder setLanguage(final String language)
+    '''returns InternalLocaleBuilder\n\n
+    setLanguage(final String language)\n
     '''
 def setScript():
-    '''public InternalLocaleBuilder setScript(final String script)
+    '''returns InternalLocaleBuilder\n\n
+    setScript(final String script)\n
     '''
 def setRegion():
-    '''public InternalLocaleBuilder setRegion(final String region)
+    '''returns InternalLocaleBuilder\n\n
+    setRegion(final String region)\n
     '''
 def setVariant():
-    '''public InternalLocaleBuilder setVariant(final String variant)
+    '''returns InternalLocaleBuilder\n\n
+    setVariant(final String variant)\n
     '''
 def setUnicodeLocaleExtension():
-    '''public InternalLocaleBuilder setUnicodeLocaleExtension(String key, final String type)
+    '''returns InternalLocaleBuilder\n\n
+    setUnicodeLocaleExtension(String key, final String type)\n
     '''
 def setExtension():
-    '''public InternalLocaleBuilder setExtension(final char singleton, final String value)
+    '''returns InternalLocaleBuilder\n\n
+    setExtension(final char singleton, final String value)\n
     '''
 def setLocale():
-    '''public InternalLocaleBuilder setLocale(final BaseLocale base, final LocaleExtensions extensions)
+    '''returns InternalLocaleBuilder\n\n
+    setLocale(final BaseLocale base, final LocaleExtensions extensions)\n
     '''
 def clear():
-    '''public InternalLocaleBuilder clear()
+    '''returns InternalLocaleBuilder\n\n
+    clear()\n
     '''
 def removeLocaleExtensions():
-    '''public InternalLocaleBuilder removeLocaleExtensions()
+    '''returns InternalLocaleBuilder\n\n
+    removeLocaleExtensions()\n
     '''
 def getBaseLocale():
-    '''public BaseLocale getBaseLocale()
+    '''returns BaseLocale\n\n
+    getBaseLocale()\n
     '''
 def getLocaleExtensions():
-    '''public LocaleExtensions getLocaleExtensions()
+    '''returns LocaleExtensions\n\n
+    getLocaleExtensions()\n
     '''

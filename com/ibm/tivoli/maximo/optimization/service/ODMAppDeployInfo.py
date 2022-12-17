@@ -1,21 +1,28 @@
-def ODMAppDeployInfo():
-    '''public ODMAppDeployInfo()
+def ():
+    '''returns ODMAppDeployInfo\n\n
+    ()\n
     '''
 def getApplicationId():
-    '''public String getApplicationId()
+    '''returns String\n\n
+    getApplicationId()\n
     '''
 def setApplicationId():
-    '''public void setApplicationId(final String applicationId)
+    '''returns None\n\n
+    setApplicationId(final String applicationId)\n
     '''
 def getOptimizationServerURL():
-    '''public String getOptimizationServerURL()
+    '''returns String\n\n
+    getOptimizationServerURL()\n
     '''
 def setOptimizationServerURL():
-    '''public void setOptimizationServerURL(final String optimizationServerURL)
+    '''returns None\n\n
+    setOptimizationServerURL(final String optimizationServerURL)\n
     '''
 def getScenarioRepositoryInfo():
-    '''public ODMScenarioRepositoryInfo getScenarioRepositoryInfo()
+    '''returns ODMScenarioRepositoryInfo\n\n
+    getScenarioRepositoryInfo()\n
     '''
 def setScenarioRepositoryInfo():
-    '''public void setScenarioRepositoryInfo(final ODMScenarioRepositoryInfo scenarioRepositoryInfo)
+    '''returns None\n\n
+    setScenarioRepositoryInfo(final ODMScenarioRepositoryInfo scenarioRepositoryInfo)\n
     '''

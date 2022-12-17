@@ -1,6 +1,8 @@
-def FldMasterPMSeasonStrDay():
-    '''public FldMasterPMSeasonStrDay(final MboValue mbv)
+def ():
+    '''returns FldMasterPMSeasonStrDay\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

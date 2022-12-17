@@ -1,6 +1,8 @@
-def ApacheHttpClientFactory():
-    '''public ApacheHttpClientFactory()
+def ():
+    '''returns ApacheHttpClientFactory\n\n
+    ()\n
     '''
 def create():
-    '''public ConnectionManagerAwareHttpClient create(final HttpClientSettings settings)
+    '''returns ConnectionManagerAwareHttpClient\n\n
+    create(final HttpClientSettings settings)\n
     '''

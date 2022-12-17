@@ -1,422 +1,526 @@
-def OslcRequest():
-    '''public OslcRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost, final List<String> resPath, final String requestURL)
-    public OslcRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost, final List<String> resPath, final String requestURL, final UserInfo userInfo)
-    public OslcRequest(final HttpServletRequest request)
+def ():
+    '''returns OslcRequest\n\n
+    (final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost, final List<String> resPath, final String requestURL)\n
+    (final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost, final List<String> resPath, final String requestURL, final UserInfo userInfo)\n
+    (final HttpServletRequest request)\n
     '''
 def setProcessUserInfo():
-    '''public void setProcessUserInfo(final UserInfo processUserInfo)
+    '''returns None\n\n
+    setProcessUserInfo(final UserInfo processUserInfo)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def setParts():
-    '''public void setParts(final Map<String, MPPartInfo> parts)
+    '''returns None\n\n
+    setParts(final Map<String, MPPartInfo> parts)\n
     '''
 def isBranchFilterOn():
-    '''public boolean isBranchFilterOn()
+    '''returns boolean\n\n
+    isBranchFilterOn()\n
     '''
 def isIgnoreRowstamp():
-    '''public boolean isIgnoreRowstamp()
+    '''returns boolean\n\n
+    isIgnoreRowstamp()\n
     '''
 def isIgnoreKeyref():
-    '''public boolean isIgnoreKeyref()
+    '''returns boolean\n\n
+    isIgnoreKeyref()\n
     '''
 def getPart():
-    '''public MPPartInfo getPart(final String partKey)
+    '''returns MPPartInfo\n\n
+    getPart(final String partKey)\n
     '''
 def isAddSchema():
-    '''public boolean isAddSchema()
+    '''returns boolean\n\n
+    isAddSchema()\n
     '''
 def isAddAction():
-    '''public boolean isAddAction()
+    '''returns boolean\n\n
+    isAddAction()\n
     '''
 def isEnableSession():
-    '''public boolean isEnableSession()
+    '''returns boolean\n\n
+    isEnableSession()\n
     '''
 def isNewSession():
-    '''public boolean isNewSession()
+    '''returns boolean\n\n
+    isNewSession()\n
     '''
 def isAddLocalizedRep():
-    '''public boolean isAddLocalizedRep()
+    '''returns boolean\n\n
+    isAddLocalizedRep()\n
     '''
 def getUseView():
-    '''public String getUseView()
+    '''returns String\n\n
+    getUseView()\n
     '''
 def getApiKey():
-    '''public String getApiKey()
+    '''returns String\n\n
+    getApiKey()\n
     '''
 def getApps():
-    '''public String getApps()
+    '''returns String\n\n
+    getApps()\n
     '''
 def isApiCall():
-    '''public boolean isApiCall()
+    '''returns boolean\n\n
+    isApiCall()\n
     '''
 def isClientCertMode():
-    '''public boolean isClientCertMode()
+    '''returns boolean\n\n
+    isClientCertMode()\n
     '''
 def isBatchError():
-    '''public boolean isBatchError()
+    '''returns boolean\n\n
+    isBatchError()\n
     '''
 def verifyCsrfToken():
-    '''public boolean verifyCsrfToken()
+    '''returns boolean\n\n
+    verifyCsrfToken()\n
     '''
 def getCsrfTokenFromRequest():
-    '''public String getCsrfTokenFromRequest()
+    '''returns String\n\n
+    getCsrfTokenFromRequest()\n
     '''
 def getCsrfToken():
-    '''public String getCsrfToken()
+    '''returns String\n\n
+    getCsrfToken()\n
     '''
 def getGuestId():
-    '''public String getGuestId()
+    '''returns String\n\n
+    getGuestId()\n
     '''
 def isQueryLocalized():
-    '''public boolean isQueryLocalized()
+    '''returns boolean\n\n
+    isQueryLocalized()\n
     '''
 def isCsrfSession():
-    '''public boolean isCsrfSession()
+    '''returns boolean\n\n
+    isCsrfSession()\n
     '''
 def isProcessAsSelfReferencing():
-    '''public boolean isProcessAsSelfReferencing()
+    '''returns boolean\n\n
+    isProcessAsSelfReferencing()\n
     '''
 def isAllowSelfRefDup():
-    '''public boolean isAllowSelfRefDup()
+    '''returns boolean\n\n
+    isAllowSelfRefDup()\n
     '''
 def getProcessAsSelfRefRelName():
-    '''public String getProcessAsSelfRefRelName()
+    '''returns String\n\n
+    getProcessAsSelfRefRelName()\n
     '''
 def isLocalizedDate():
-    '''public boolean isLocalizedDate()
-    '''
-def getResponseCookiesToSet():
-    '''public Map<String, String> getResponseCookiesToSet()
+    '''returns boolean\n\n
+    isLocalizedDate()\n
     '''
 def serializeToBytes():
-    '''public byte[] serializeToBytes()
+    '''returns byte[]\n\n
+    serializeToBytes()\n
     '''
 def getTransactionId():
-    '''public String getTransactionId()
-    '''
-def resurrectRequest():
-    '''public static OslcRequest resurrectRequest(final byte[] reqBytes)
+    '''returns String\n\n
+    getTransactionId()\n
     '''
 def getHttpServletRequest():
-    '''public HttpServletRequest getHttpServletRequest()
+    '''returns HttpServletRequest\n\n
+    getHttpServletRequest()\n
     '''
 def setInteractiveRequest():
-    '''public void setInteractiveRequest()
+    '''returns None\n\n
+    setInteractiveRequest()\n
     '''
 def isFileLoad():
-    '''public boolean isFileLoad()
+    '''returns boolean\n\n
+    isFileLoad()\n
     '''
 def isAsyncRequest():
-    '''public boolean isAsyncRequest()
+    '''returns boolean\n\n
+    isAsyncRequest()\n
     '''
 def isInteractiveRequest():
-    '''public boolean isInteractiveRequest()
+    '''returns boolean\n\n
+    isInteractiveRequest()\n
     '''
 def isCheckEsig():
-    '''public boolean isCheckEsig()
+    '''returns boolean\n\n
+    isCheckEsig()\n
     '''
 def isIgnoreCollectionRef():
-    '''public boolean isIgnoreCollectionRef()
+    '''returns boolean\n\n
+    isIgnoreCollectionRef()\n
     '''
 def isInlineDoc():
-    '''public boolean isInlineDoc()
+    '''returns boolean\n\n
+    isInlineDoc()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def readRequestBody():
-    '''public byte[] readRequestBody()
+    '''returns byte[]\n\n
+    readRequestBody()\n
     '''
 def setHttpServletResponse():
-    '''public void setHttpServletResponse(final HttpServletResponse response)
+    '''returns None\n\n
+    setHttpServletResponse(final HttpServletResponse response)\n
     '''
 def getHttpServletResponse():
-    '''public HttpServletResponse getHttpServletResponse()
+    '''returns HttpServletResponse\n\n
+    getHttpServletResponse()\n
     '''
 def setInMemorySort():
-    '''public void setInMemorySort(final boolean inmemsort)
+    '''returns None\n\n
+    setInMemorySort(final boolean inmemsort)\n
     '''
 def isInMemorySort():
-    '''public boolean isInMemorySort()
+    '''returns boolean\n\n
+    isInMemorySort()\n
     '''
 def invlaidateSession():
-    '''public void invlaidateSession()
+    '''returns None\n\n
+    invlaidateSession()\n
     '''
 def bindMboToSession():
-    '''public String bindMboToSession(final String osName, final MboRemote mbo)
+    '''returns String\n\n
+    bindMboToSession(final String osName, final MboRemote mbo)\n
     '''
 def unbindMboFromSession():
-    '''public MboRemote unbindMboFromSession(final MboRemote mbo)
+    '''returns MboRemote\n\n
+    unbindMboFromSession(final MboRemote mbo)\n
     '''
 def getHeader():
-    '''public String getHeader(final String headerName)
+    '''returns String\n\n
+    getHeader(final String headerName)\n
     '''
 def copy():
-    '''public OslcRequest copy(final Map<String, List<String>> bulkHeaders, final Map<String, String[]> bulkQueryParams)
+    '''returns OslcRequest\n\n
+    copy(final Map<String, List<String>> bulkHeaders, final Map<String, String[]> bulkQueryParams)\n
     '''
 def isRelatedRef():
-    '''public boolean isRelatedRef()
+    '''returns boolean\n\n
+    isRelatedRef()\n
     '''
 def isLocalRef():
-    '''public boolean isLocalRef()
+    '''returns boolean\n\n
+    isLocalRef()\n
     '''
 def getAbsoluteURI():
-    '''public String getAbsoluteURI()
+    '''returns String\n\n
+    getAbsoluteURI()\n
     '''
 def getDistinctClause():
-    '''public String getDistinctClause()
+    '''returns String\n\n
+    getDistinctClause()\n
     '''
 def isDistinct():
-    '''public boolean isDistinct()
+    '''returns boolean\n\n
+    isDistinct()\n
     '''
 def isAction():
-    '''public boolean isAction()
+    '''returns boolean\n\n
+    isAction()\n
     '''
 def isMaxSSO():
-    '''public boolean isMaxSSO()
+    '''returns boolean\n\n
+    isMaxSSO()\n
     '''
 def isCollectionCount():
-    '''public boolean isCollectionCount()
+    '''returns boolean\n\n
+    isCollectionCount()\n
     '''
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''
 def getTemplate():
-    '''public String getTemplate()
+    '''returns String\n\n
+    getTemplate()\n
     '''
 def isBulkOperation():
-    '''public boolean isBulkOperation()
+    '''returns boolean\n\n
+    isBulkOperation()\n
     '''
 def setResourcePath():
-    '''public void setResourcePath(final List<String> resPath)
+    '''returns None\n\n
+    setResourcePath(final List<String> resPath)\n
     '''
 def addIDToURI():
-    '''public void addIDToURI(final String id)
+    '''returns None\n\n
+    addIDToURI(final String id)\n
     '''
 def replaceIDToURI():
-    '''public void replaceIDToURI(final String id)
+    '''returns None\n\n
+    replaceIDToURI(final String id)\n
     '''
 def getAbsolutePath():
-    '''public List<String> getAbsolutePath()
+    '''returns List<String>\n\n
+    getAbsolutePath()\n
     '''
 def truncateAbsolutePath():
-    '''public void truncateAbsolutePath(final int num)
+    '''returns None\n\n
+    truncateAbsolutePath(final int num)\n
     '''
 def getRequestPublicURI():
-    '''public String getRequestPublicURI()
+    '''returns String\n\n
+    getRequestPublicURI()\n
     '''
 def isAllowEvents():
-    '''public boolean isAllowEvents()
+    '''returns boolean\n\n
+    isAllowEvents()\n
     '''
 def isListTemplate():
-    '''public boolean isListTemplate()
+    '''returns boolean\n\n
+    isListTemplate()\n
     '''
 def isChangePasswordSession():
-    '''public boolean isChangePasswordSession()
+    '''returns boolean\n\n
+    isChangePasswordSession()\n
     '''
 def isRegUserSession():
-    '''public boolean isRegUserSession()
+    '''returns boolean\n\n
+    isRegUserSession()\n
     '''
 def getResourcePath():
-    '''public List<String> getResourcePath()
+    '''returns List<String>\n\n
+    getResourcePath()\n
     '''
 def getRequestURL():
-    '''public String getRequestURL()
+    '''returns String\n\n
+    getRequestURL()\n
     '''
 def isLeanJSON():
-    '''public boolean isLeanJSON()
+    '''returns boolean\n\n
+    isLeanJSON()\n
     '''
 def getAttachmentDocType():
-    '''public String[] getAttachmentDocType()
+    '''returns String[]\n\n
+    getAttachmentDocType()\n
     '''
 def getLinkHeader():
-    '''public String getLinkHeader()
+    '''returns String\n\n
+    getLinkHeader()\n
     '''
 def getContentLocationHeader():
-    '''public String getContentLocationHeader()
+    '''returns String\n\n
+    getContentLocationHeader()\n
     '''
 def getAttachmentDescription():
-    '''public String getAttachmentDescription()
+    '''returns String\n\n
+    getAttachmentDescription()\n
     '''
 def getAttachmentEncDescription():
-    '''public String getAttachmentEncDescription()
+    '''returns String\n\n
+    getAttachmentEncDescription()\n
     '''
 def getAttachmentExternalID():
-    '''public String getAttachmentExternalID()
+    '''returns String\n\n
+    getAttachmentExternalID()\n
     '''
 def isEditMode():
-    '''public boolean isEditMode()
+    '''returns boolean\n\n
+    isEditMode()\n
     '''
 def isSetValueMode():
-    '''public boolean isSetValueMode()
+    '''returns boolean\n\n
+    isSetValueMode()\n
     '''
 def getSelfRef():
-    '''public String getSelfRef()
+    '''returns String\n\n
+    getSelfRef()\n
     '''
 def isShowHidden():
-    '''public boolean isShowHidden()
+    '''returns boolean\n\n
+    isShowHidden()\n
     '''
 def isDropNulls():
-    '''public boolean isDropNulls()
-    '''
-def getSavedQueryParams():
-    '''public Map<String, String> getSavedQueryParams()
+    '''returns boolean\n\n
+    isDropNulls()\n
     '''
 def isSubmitSession():
-    '''public boolean isSubmitSession()
+    '''returns boolean\n\n
+    isSubmitSession()\n
     '''
 def isInitiateStablePaging():
-    '''public boolean isInitiateStablePaging()
+    '''returns boolean\n\n
+    isInitiateStablePaging()\n
     '''
 def isCount():
-    '''public boolean isCount()
+    '''returns boolean\n\n
+    isCount()\n
     '''
 def isAllowedActions():
-    '''public boolean isAllowedActions()
+    '''returns boolean\n\n
+    isAllowedActions()\n
     '''
 def getSavedQuery():
-    '''public String getSavedQuery()
+    '''returns String\n\n
+    getSavedQuery()\n
     '''
 def getOslcResourceURI():
-    '''public String getOslcResourceURI()
+    '''returns String\n\n
+    getOslcResourceURI()\n
     '''
 def getOslcRequestURI():
-    '''public String getOslcRequestURI()
+    '''returns String\n\n
+    getOslcRequestURI()\n
     '''
 def getOslcQuery():
-    '''public OslcQuery getOslcQuery()
-    '''
-def getResourceQBE():
-    '''public Map<String, String> getResourceQBE()
+    '''returns OslcQuery\n\n
+    getOslcQuery()\n
     '''
 def isGETByPOST():
-    '''public boolean isGETByPOST()
-    '''
-def getResponseFormatMimeTypeMap():
-    '''public Map<String, String> getResponseFormatMimeTypeMap()
-    '''
-def getRequestFormatMimeTypeMap():
-    '''public Map<String, String> getRequestFormatMimeTypeMap()
+    '''returns boolean\n\n
+    isGETByPOST()\n
     '''
 def getDefaultFormat():
-    '''public String getDefaultFormat()
+    '''returns String\n\n
+    getDefaultFormat()\n
     '''
 def getStableResourceId():
-    '''public String getStableResourceId()
+    '''returns String\n\n
+    getStableResourceId()\n
     '''
 def useFetchLimit():
-    '''public boolean useFetchLimit()
+    '''returns boolean\n\n
+    useFetchLimit()\n
     '''
 def getGBFilter():
-    '''public String getGBFilter()
+    '''returns String\n\n
+    getGBFilter()\n
     '''
 def getGroupByAttributes():
-    '''public String getGroupByAttributes()
+    '''returns String\n\n
+    getGroupByAttributes()\n
     '''
 def getGroupBySortOrder():
-    '''public String getGroupBySortOrder()
+    '''returns String\n\n
+    getGroupBySortOrder()\n
     '''
 def getGroupByRelations():
-    '''public String getGroupByRelations()
+    '''returns String\n\n
+    getGroupByRelations()\n
     '''
 def getGroupByRelationProperties():
-    '''public String getGroupByRelationProperties()
+    '''returns String\n\n
+    getGroupByRelationProperties()\n
     '''
 def getGroupByTemplate():
-    '''public String getGroupByTemplate()
+    '''returns String\n\n
+    getGroupByTemplate()\n
     '''
 def getGroupByRange():
-    '''public String getGroupByRange()
+    '''returns String\n\n
+    getGroupByRange()\n
     '''
 def getQueryTemplate():
-    '''public String getQueryTemplate()
+    '''returns String\n\n
+    getQueryTemplate()\n
     '''
 def getSchemaSearchTerm():
-    '''public String getSchemaSearchTerm()
+    '''returns String\n\n
+    getSchemaSearchTerm()\n
     '''
 def getSchemaOrderBy():
-    '''public String getSchemaOrderBy()
+    '''returns String\n\n
+    getSchemaOrderBy()\n
     '''
 def isGroupBy():
-    '''public boolean isGroupBy()
+    '''returns boolean\n\n
+    isGroupBy()\n
     '''
 def isQueryTemplate():
-    '''public boolean isQueryTemplate()
+    '''returns boolean\n\n
+    isQueryTemplate()\n
     '''
 def internalValues():
-    '''public boolean internalValues()
-    '''
-def getDependentSubSelects():
-    '''public Map<String, String> getDependentSubSelects()
-    '''
-def getSubSelectRefs():
-    '''public Map<String, String[]> getSubSelectRefs()
+    '''returns boolean\n\n
+    internalValues()\n
     '''
 def invalidateSession():
-    '''public void invalidateSession()
+    '''returns None\n\n
+    invalidateSession()\n
     '''
 def getQueryString():
-    '''public Object getQueryString()
+    '''returns Object\n\n
+    getQueryString()\n
     '''
 def getTimeLineAttribute():
-    '''public String getTimeLineAttribute()
+    '''returns String\n\n
+    getTimeLineAttribute()\n
     '''
 def getTimeLineRange():
-    '''public String getTimeLineRange()
+    '''returns String\n\n
+    getTimeLineRange()\n
     '''
 def isSetLocalizedRep():
-    '''public boolean isSetLocalizedRep()
+    '''returns boolean\n\n
+    isSetLocalizedRep()\n
     '''
 def getUserWhere():
-    '''public String getUserWhere()
+    '''returns String\n\n
+    getUserWhere()\n
     '''
 def getMaxRowStamp():
-    '''public Long getMaxRowStamp()
+    '''returns Long\n\n
+    getMaxRowStamp()\n
     '''
 def isFetchModeDelta():
-    '''public boolean isFetchModeDelta()
+    '''returns boolean\n\n
+    isFetchModeDelta()\n
     '''
 def isAddQueryMeta():
-    '''public boolean isAddQueryMeta()
+    '''returns boolean\n\n
+    isAddQueryMeta()\n
     '''
 def getNpFilter():
-    '''public String getNpFilter()
+    '''returns String\n\n
+    getNpFilter()\n
     '''
 def isAddID():
-    '''public boolean isAddID()
+    '''returns boolean\n\n
+    isAddID()\n
     '''
 def getTimeLineFilter():
-    '''public String getTimeLineFilter()
+    '''returns String\n\n
+    getTimeLineFilter()\n
     '''
 def isResourceMeta():
-    '''public boolean isResourceMeta()
+    '''returns boolean\n\n
+    isResourceMeta()\n
     '''
 def isContentLocalized():
-    '''public boolean isContentLocalized()
+    '''returns boolean\n\n
+    isContentLocalized()\n
     '''
 def getQbeFilter():
-    '''public String getQbeFilter()
+    '''returns String\n\n
+    getQbeFilter()\n
     '''
 def isAddDomainMeta():
-    '''public boolean isAddDomainMeta()
+    '''returns boolean\n\n
+    isAddDomainMeta()\n
     '''
 def getCanChangeExternalStatus():
-    '''public String[] getCanChangeExternalStatus(final String objectName)
+    '''returns String[]\n\n
+    getCanChangeExternalStatus(final String objectName)\n
     '''
 def getCanChangeMaxStatus():
-    '''public String[] getCanChangeMaxStatus(final String objectName)
+    '''returns String[]\n\n
+    getCanChangeMaxStatus(final String objectName)\n
     '''
 def isWhoAmIApi():
-    '''public boolean isWhoAmIApi()
-    '''
-def getSetValueEvalChild():
-    '''public Map<String, Set<String>> getSetValueEvalChild()
+    '''returns boolean\n\n
+    isWhoAmIApi()\n
     '''
 def isTlModeDate():
-    '''public boolean isTlModeDate()
+    '''returns boolean\n\n
+    isTlModeDate()\n
     '''
 def isStrictSchema():
-    '''public boolean isStrictSchema()
+    '''returns boolean\n\n
+    isStrictSchema()\n
     '''

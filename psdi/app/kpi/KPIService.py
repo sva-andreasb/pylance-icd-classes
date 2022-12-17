@@ -1,16 +1,21 @@
-def KPIService():
-    '''public KPIService()
-    public KPIService(final MXServer mxServer)
+def ():
+    '''returns KPIService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def createKPIQueryFromVariables():
-    '''public String createKPIQueryFromVariables(String query, final KPIVariableResolver resolver)
+    '''returns String\n\n
+    createKPIQueryFromVariables(String query, final KPIVariableResolver resolver)\n
     '''
 def resolve():
-    '''public String resolve(final String in)
+    '''returns String\n\n
+    resolve(final String in)\n
     '''
 def validateExtraUnusedVariables():
-    '''public void validateExtraUnusedVariables(final String query, final int count)
+    '''returns None\n\n
+    validateExtraUnusedVariables(final String query, final int count)\n
     '''
 def updateTrend():
-    '''public void updateTrend(@WSMboKey("KPI") final KPIRemote kpi)
+    '''returns None\n\n
+    updateTrend(@WSMboKey("KPI") final KPIRemote kpi)\n
     '''

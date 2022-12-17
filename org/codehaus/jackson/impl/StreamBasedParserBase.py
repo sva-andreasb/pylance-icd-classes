@@ -1,6 +1,8 @@
 def releaseBuffered():
-    '''public int releaseBuffered(final OutputStream out)
+    '''returns int\n\n
+    releaseBuffered(final OutputStream out)\n
     '''
 def getInputSource():
-    '''public Object getInputSource()
+    '''returns Object\n\n
+    getInputSource()\n
     '''

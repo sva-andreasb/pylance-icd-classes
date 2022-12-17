@@ -1,15 +1,20 @@
-def TaskStatistic():
-    '''public TaskStatistic(final File processingFile)
+def ():
+    '''returns TaskStatistic\n\n
+    (final File processingFile)\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''
 def getProcessObjectsCount():
-    '''public int getProcessObjectsCount()
+    '''returns int\n\n
+    getProcessObjectsCount()\n
     '''
 def processedObject():
-    '''public void processedObject()
+    '''returns None\n\n
+    processedObject()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

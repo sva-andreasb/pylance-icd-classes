@@ -3,71 +3,89 @@ SURR1_LAST = "int  56319"
 SURR2_FIRST = "int  56320"
 SURR2_LAST = "int  57343"
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def getCurrentValue():
-    '''public Object getCurrentValue()
+    '''returns Object\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final Object v)
-    '''
-def isEnabled():
-    '''public final boolean isEnabled(final Feature f)
+    '''returns None\n\n
+    setCurrentValue(final Object v)\n
     '''
 def getFeatureMask():
-    '''public int getFeatureMask()
+    '''returns int\n\n
+    getFeatureMask()\n
     '''
 def enable():
-    '''public JsonGenerator enable(final Feature f)
+    '''returns JsonGenerator\n\n
+    enable(final Feature f)\n
     '''
 def disable():
-    '''public JsonGenerator disable(final Feature f)
+    '''returns JsonGenerator\n\n
+    disable(final Feature f)\n
     '''
 def setFeatureMask():
-    '''public JsonGenerator setFeatureMask(final int newMask)
+    '''returns JsonGenerator\n\n
+    setFeatureMask(final int newMask)\n
     '''
 def overrideStdFeatures():
-    '''public JsonGenerator overrideStdFeatures(final int values, final int mask)
+    '''returns JsonGenerator\n\n
+    overrideStdFeatures(final int values, final int mask)\n
     '''
 def useDefaultPrettyPrinter():
-    '''public JsonGenerator useDefaultPrettyPrinter()
+    '''returns JsonGenerator\n\n
+    useDefaultPrettyPrinter()\n
     '''
 def setCodec():
-    '''public JsonGenerator setCodec(final ObjectCodec oc)
+    '''returns JsonGenerator\n\n
+    setCodec(final ObjectCodec oc)\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
     '''
 def getOutputContext():
-    '''public JsonStreamContext getOutputContext()
+    '''returns JsonStreamContext\n\n
+    getOutputContext()\n
     '''
 def writeStartObject():
-    '''public void writeStartObject(final Object forValue)
+    '''returns None\n\n
+    writeStartObject(final Object forValue)\n
     '''
 def writeFieldName():
-    '''public void writeFieldName(final SerializableString name)
+    '''returns None\n\n
+    writeFieldName(final SerializableString name)\n
     '''
 def writeString():
-    '''public void writeString(final SerializableString text)
+    '''returns None\n\n
+    writeString(final SerializableString text)\n
     '''
 def writeRawValue():
-    '''public void writeRawValue(final String text)
-    public void writeRawValue(final String text, final int offset, final int len)
-    public void writeRawValue(final char[] text, final int offset, final int len)
-    public void writeRawValue(final SerializableString text)
+    '''returns None\n\n
+    writeRawValue(final String text)\n
+    writeRawValue(final String text, final int offset, final int len)\n
+    writeRawValue(final char[] text, final int offset, final int len)\n
+    writeRawValue(final SerializableString text)\n
     '''
 def writeBinary():
-    '''public int writeBinary(final Base64Variant b64variant, final InputStream data, final int dataLength)
+    '''returns int\n\n
+    writeBinary(final Base64Variant b64variant, final InputStream data, final int dataLength)\n
     '''
 def writeObject():
-    '''public void writeObject(final Object value)
+    '''returns None\n\n
+    writeObject(final Object value)\n
     '''
 def writeTree():
-    '''public void writeTree(final TreeNode rootNode)
+    '''returns None\n\n
+    writeTree(final TreeNode rootNode)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''

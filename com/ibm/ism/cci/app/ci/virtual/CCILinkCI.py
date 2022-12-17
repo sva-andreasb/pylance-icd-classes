@@ -1,6 +1,8 @@
-def CCILinkCI():
-    '''public CCILinkCI(final MboSet ms)
+def ():
+    '''returns CCILinkCI\n\n
+    (final MboSet ms)\n
     '''
 def getLinkOptions():
-    '''public long getLinkOptions()
+    '''returns long\n\n
+    getLinkOptions()\n
     '''

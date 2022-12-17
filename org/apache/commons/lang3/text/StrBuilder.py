@@ -1,298 +1,366 @@
-def StrBuilder():
-    '''public StrBuilder()
-    public StrBuilder(int initialCapacity)
-    public StrBuilder(final String str)
+def ():
+    '''returns StrBuilder\n\n
+    ()\n
+    (int initialCapacity)\n
+    (final String str)\n
     '''
 def getNewLineText():
-    '''public String getNewLineText()
+    '''returns String\n\n
+    getNewLineText()\n
     '''
 def setNewLineText():
-    '''public StrBuilder setNewLineText(final String newLine)
+    '''returns StrBuilder\n\n
+    setNewLineText(final String newLine)\n
     '''
 def getNullText():
-    '''public String getNullText()
+    '''returns String\n\n
+    getNullText()\n
     '''
 def setNullText():
-    '''public StrBuilder setNullText(String nullText)
+    '''returns StrBuilder\n\n
+    setNullText(String nullText)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def setLength():
-    '''public StrBuilder setLength(final int length)
+    '''returns StrBuilder\n\n
+    setLength(final int length)\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def ensureCapacity():
-    '''public StrBuilder ensureCapacity(final int capacity)
+    '''returns StrBuilder\n\n
+    ensureCapacity(final int capacity)\n
     '''
 def minimizeCapacity():
-    '''public StrBuilder minimizeCapacity()
+    '''returns StrBuilder\n\n
+    minimizeCapacity()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clear():
-    '''public StrBuilder clear()
+    '''returns StrBuilder\n\n
+    clear()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def setCharAt():
-    '''public StrBuilder setCharAt(final int index, final char ch)
+    '''returns StrBuilder\n\n
+    setCharAt(final int index, final char ch)\n
     '''
 def deleteCharAt():
-    '''public StrBuilder deleteCharAt(final int index)
+    '''returns StrBuilder\n\n
+    deleteCharAt(final int index)\n
     '''
 def toCharArray():
-    '''public char[] toCharArray()
-    public char[] toCharArray(final int startIndex, int endIndex)
+    '''returns char[]\n\n
+    toCharArray()\n
+    toCharArray(final int startIndex, int endIndex)\n
     '''
 def getChars():
-    '''public char[] getChars(char[] destination)
-    public void getChars(final int startIndex, final int endIndex, final char[] destination, final int destinationIndex)
+    '''returns None\n\n
+    getChars(char[] destination)\n
+    getChars(final int startIndex, final int endIndex, final char[] destination, final int destinationIndex)\n
     '''
 def readFrom():
-    '''public int readFrom(final Readable readable)
+    '''returns int\n\n
+    readFrom(final Readable readable)\n
     '''
 def appendNewLine():
-    '''public StrBuilder appendNewLine()
+    '''returns StrBuilder\n\n
+    appendNewLine()\n
     '''
 def appendNull():
-    '''public StrBuilder appendNull()
+    '''returns StrBuilder\n\n
+    appendNull()\n
     '''
 def append():
-    '''public StrBuilder append(final Object obj)
-    public StrBuilder append(final CharSequence seq)
-    public StrBuilder append(final CharSequence seq, final int startIndex, final int length)
-    public StrBuilder append(final String str)
-    public StrBuilder append(final String str, final int startIndex, final int length)
-    public StrBuilder append(final String format, final Object... objs)
-    public StrBuilder append(final CharBuffer buf)
-    public StrBuilder append(final CharBuffer buf, final int startIndex, final int length)
-    public StrBuilder append(final StringBuffer str)
-    public StrBuilder append(final StringBuffer str, final int startIndex, final int length)
-    public StrBuilder append(final StringBuilder str)
-    public StrBuilder append(final StringBuilder str, final int startIndex, final int length)
-    public StrBuilder append(final StrBuilder str)
-    public StrBuilder append(final StrBuilder str, final int startIndex, final int length)
-    public StrBuilder append(final char[] chars)
-    public StrBuilder append(final char[] chars, final int startIndex, final int length)
-    public StrBuilder append(final boolean value)
-    public StrBuilder append(final char ch)
-    public StrBuilder append(final int value)
-    public StrBuilder append(final long value)
-    public StrBuilder append(final float value)
-    public StrBuilder append(final double value)
+    '''returns StrBuilder\n\n
+    append(final Object obj)\n
+    append(final CharSequence seq)\n
+    append(final CharSequence seq, final int startIndex, final int length)\n
+    append(final String str)\n
+    append(final String str, final int startIndex, final int length)\n
+    append(final String format, final Object... objs)\n
+    append(final CharBuffer buf)\n
+    append(final CharBuffer buf, final int startIndex, final int length)\n
+    append(final StringBuffer str)\n
+    append(final StringBuffer str, final int startIndex, final int length)\n
+    append(final StringBuilder str)\n
+    append(final StringBuilder str, final int startIndex, final int length)\n
+    append(final StrBuilder str)\n
+    append(final StrBuilder str, final int startIndex, final int length)\n
+    append(final char[] chars)\n
+    append(final char[] chars, final int startIndex, final int length)\n
+    append(final boolean value)\n
+    append(final char ch)\n
+    append(final int value)\n
+    append(final long value)\n
+    append(final float value)\n
+    append(final double value)\n
     '''
 def appendln():
-    '''public StrBuilder appendln(final Object obj)
-    public StrBuilder appendln(final String str)
-    public StrBuilder appendln(final String str, final int startIndex, final int length)
-    public StrBuilder appendln(final String format, final Object... objs)
-    public StrBuilder appendln(final StringBuffer str)
-    public StrBuilder appendln(final StringBuilder str)
-    public StrBuilder appendln(final StringBuilder str, final int startIndex, final int length)
-    public StrBuilder appendln(final StringBuffer str, final int startIndex, final int length)
-    public StrBuilder appendln(final StrBuilder str)
-    public StrBuilder appendln(final StrBuilder str, final int startIndex, final int length)
-    public StrBuilder appendln(final char[] chars)
-    public StrBuilder appendln(final char[] chars, final int startIndex, final int length)
-    public StrBuilder appendln(final boolean value)
-    public StrBuilder appendln(final char ch)
-    public StrBuilder appendln(final int value)
-    public StrBuilder appendln(final long value)
-    public StrBuilder appendln(final float value)
-    public StrBuilder appendln(final double value)
+    '''returns StrBuilder\n\n
+    appendln(final Object obj)\n
+    appendln(final String str)\n
+    appendln(final String str, final int startIndex, final int length)\n
+    appendln(final String format, final Object... objs)\n
+    appendln(final StringBuffer str)\n
+    appendln(final StringBuilder str)\n
+    appendln(final StringBuilder str, final int startIndex, final int length)\n
+    appendln(final StringBuffer str, final int startIndex, final int length)\n
+    appendln(final StrBuilder str)\n
+    appendln(final StrBuilder str, final int startIndex, final int length)\n
+    appendln(final char[] chars)\n
+    appendln(final char[] chars, final int startIndex, final int length)\n
+    appendln(final boolean value)\n
+    appendln(final char ch)\n
+    appendln(final int value)\n
+    appendln(final long value)\n
+    appendln(final float value)\n
+    appendln(final double value)\n
     '''
 def appendAll():
-    '''public <T> StrBuilder appendAll(final T... array)
-    public StrBuilder appendAll(final Iterable<?> iterable)
-    public StrBuilder appendAll(final Iterator<?> it)
+    '''returns StrBuilder\n\n
+    appendAll(final Iterable<?> iterable)\n
+    appendAll(final Iterator<?> it)\n
     '''
 def appendWithSeparators():
-    '''public StrBuilder appendWithSeparators(final Object[] array, final String separator)
-    public StrBuilder appendWithSeparators(final Iterable<?> iterable, final String separator)
-    public StrBuilder appendWithSeparators(final Iterator<?> it, final String separator)
+    '''returns StrBuilder\n\n
+    appendWithSeparators(final Object[] array, final String separator)\n
+    appendWithSeparators(final Iterable<?> iterable, final String separator)\n
+    appendWithSeparators(final Iterator<?> it, final String separator)\n
     '''
 def appendSeparator():
-    '''public StrBuilder appendSeparator(final String separator)
-    public StrBuilder appendSeparator(final String standard, final String defaultIfEmpty)
-    public StrBuilder appendSeparator(final char separator)
-    public StrBuilder appendSeparator(final char standard, final char defaultIfEmpty)
-    public StrBuilder appendSeparator(final String separator, final int loopIndex)
-    public StrBuilder appendSeparator(final char separator, final int loopIndex)
+    '''returns StrBuilder\n\n
+    appendSeparator(final String separator)\n
+    appendSeparator(final String standard, final String defaultIfEmpty)\n
+    appendSeparator(final char separator)\n
+    appendSeparator(final char standard, final char defaultIfEmpty)\n
+    appendSeparator(final String separator, final int loopIndex)\n
+    appendSeparator(final char separator, final int loopIndex)\n
     '''
 def appendPadding():
-    '''public StrBuilder appendPadding(final int length, final char padChar)
+    '''returns StrBuilder\n\n
+    appendPadding(final int length, final char padChar)\n
     '''
 def appendFixedWidthPadLeft():
-    '''public StrBuilder appendFixedWidthPadLeft(final Object obj, final int width, final char padChar)
-    public StrBuilder appendFixedWidthPadLeft(final int value, final int width, final char padChar)
+    '''returns StrBuilder\n\n
+    appendFixedWidthPadLeft(final Object obj, final int width, final char padChar)\n
+    appendFixedWidthPadLeft(final int value, final int width, final char padChar)\n
     '''
 def appendFixedWidthPadRight():
-    '''public StrBuilder appendFixedWidthPadRight(final Object obj, final int width, final char padChar)
-    public StrBuilder appendFixedWidthPadRight(final int value, final int width, final char padChar)
+    '''returns StrBuilder\n\n
+    appendFixedWidthPadRight(final Object obj, final int width, final char padChar)\n
+    appendFixedWidthPadRight(final int value, final int width, final char padChar)\n
     '''
 def insert():
-    '''public StrBuilder insert(final int index, final Object obj)
-    public StrBuilder insert(final int index, String str)
-    public StrBuilder insert(final int index, final char[] chars)
-    public StrBuilder insert(final int index, final char[] chars, final int offset, final int length)
-    public StrBuilder insert(int index, final boolean value)
-    public StrBuilder insert(final int index, final char value)
-    public StrBuilder insert(final int index, final int value)
-    public StrBuilder insert(final int index, final long value)
-    public StrBuilder insert(final int index, final float value)
-    public StrBuilder insert(final int index, final double value)
+    '''returns StrBuilder\n\n
+    insert(final int index, final Object obj)\n
+    insert(final int index, String str)\n
+    insert(final int index, final char[] chars)\n
+    insert(final int index, final char[] chars, final int offset, final int length)\n
+    insert(int index, final boolean value)\n
+    insert(final int index, final char value)\n
+    insert(final int index, final int value)\n
+    insert(final int index, final long value)\n
+    insert(final int index, final float value)\n
+    insert(final int index, final double value)\n
     '''
 def delete():
-    '''public StrBuilder delete(final int startIndex, int endIndex)
+    '''returns StrBuilder\n\n
+    delete(final int startIndex, int endIndex)\n
     '''
 def deleteAll():
-    '''public StrBuilder deleteAll(final char ch)
-    public StrBuilder deleteAll(final String str)
-    public StrBuilder deleteAll(final StrMatcher matcher)
+    '''returns StrBuilder\n\n
+    deleteAll(final char ch)\n
+    deleteAll(final String str)\n
+    deleteAll(final StrMatcher matcher)\n
     '''
 def deleteFirst():
-    '''public StrBuilder deleteFirst(final char ch)
-    public StrBuilder deleteFirst(final String str)
-    public StrBuilder deleteFirst(final StrMatcher matcher)
+    '''returns StrBuilder\n\n
+    deleteFirst(final char ch)\n
+    deleteFirst(final String str)\n
+    deleteFirst(final StrMatcher matcher)\n
     '''
 def replace():
-    '''public StrBuilder replace(final int startIndex, int endIndex, final String replaceStr)
-    public StrBuilder replace(final StrMatcher matcher, final String replaceStr, final int startIndex, int endIndex, final int replaceCount)
+    '''returns StrBuilder\n\n
+    replace(final int startIndex, int endIndex, final String replaceStr)\n
+    replace(final StrMatcher matcher, final String replaceStr, final int startIndex, int endIndex, final int replaceCount)\n
     '''
 def replaceAll():
-    '''public StrBuilder replaceAll(final char search, final char replace)
-    public StrBuilder replaceAll(final String searchStr, final String replaceStr)
-    public StrBuilder replaceAll(final StrMatcher matcher, final String replaceStr)
+    '''returns StrBuilder\n\n
+    replaceAll(final char search, final char replace)\n
+    replaceAll(final String searchStr, final String replaceStr)\n
+    replaceAll(final StrMatcher matcher, final String replaceStr)\n
     '''
 def replaceFirst():
-    '''public StrBuilder replaceFirst(final char search, final char replace)
-    public StrBuilder replaceFirst(final String searchStr, final String replaceStr)
-    public StrBuilder replaceFirst(final StrMatcher matcher, final String replaceStr)
+    '''returns StrBuilder\n\n
+    replaceFirst(final char search, final char replace)\n
+    replaceFirst(final String searchStr, final String replaceStr)\n
+    replaceFirst(final StrMatcher matcher, final String replaceStr)\n
     '''
 def reverse():
-    '''public StrBuilder reverse()
+    '''returns StrBuilder\n\n
+    reverse()\n
     '''
 def trim():
-    '''public StrBuilder trim()
+    '''returns StrBuilder\n\n
+    trim()\n
     '''
 def startsWith():
-    '''public boolean startsWith(final String str)
+    '''returns boolean\n\n
+    startsWith(final String str)\n
     '''
 def endsWith():
-    '''public boolean endsWith(final String str)
+    '''returns boolean\n\n
+    endsWith(final String str)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int startIndex, final int endIndex)
+    '''returns CharSequence\n\n
+    subSequence(final int startIndex, final int endIndex)\n
     '''
 def substring():
-    '''public String substring(final int start)
-    public String substring(final int startIndex, int endIndex)
+    '''returns String\n\n
+    substring(final int start)\n
+    substring(final int startIndex, int endIndex)\n
     '''
 def leftString():
-    '''public String leftString(final int length)
+    '''returns String\n\n
+    leftString(final int length)\n
     '''
 def rightString():
-    '''public String rightString(final int length)
+    '''returns String\n\n
+    rightString(final int length)\n
     '''
 def midString():
-    '''public String midString(int index, final int length)
+    '''returns String\n\n
+    midString(int index, final int length)\n
     '''
 def contains():
-    '''public boolean contains(final char ch)
-    public boolean contains(final String str)
-    public boolean contains(final StrMatcher matcher)
+    '''returns boolean\n\n
+    contains(final char ch)\n
+    contains(final String str)\n
+    contains(final StrMatcher matcher)\n
     '''
 def indexOf():
-    '''public int indexOf(final char ch)
-    public int indexOf(final char ch, int startIndex)
-    public int indexOf(final String str)
-    public int indexOf(final String str, int startIndex)
-    public int indexOf(final StrMatcher matcher)
-    public int indexOf(final StrMatcher matcher, int startIndex)
+    '''returns int\n\n
+    indexOf(final char ch)\n
+    indexOf(final char ch, int startIndex)\n
+    indexOf(final String str)\n
+    indexOf(final String str, int startIndex)\n
+    indexOf(final StrMatcher matcher)\n
+    indexOf(final StrMatcher matcher, int startIndex)\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final char ch)
-    public int lastIndexOf(final char ch, int startIndex)
-    public int lastIndexOf(final String str)
-    public int lastIndexOf(final String str, int startIndex)
-    public int lastIndexOf(final StrMatcher matcher)
-    public int lastIndexOf(final StrMatcher matcher, int startIndex)
+    '''returns int\n\n
+    lastIndexOf(final char ch)\n
+    lastIndexOf(final char ch, int startIndex)\n
+    lastIndexOf(final String str)\n
+    lastIndexOf(final String str, int startIndex)\n
+    lastIndexOf(final StrMatcher matcher)\n
+    lastIndexOf(final StrMatcher matcher, int startIndex)\n
     '''
 def asTokenizer():
-    '''public StrTokenizer asTokenizer()
+    '''returns StrTokenizer\n\n
+    asTokenizer()\n
     '''
 def asReader():
-    '''public Reader asReader()
+    '''returns Reader\n\n
+    asReader()\n
     '''
 def asWriter():
-    '''public Writer asWriter()
+    '''returns Writer\n\n
+    asWriter()\n
     '''
 def appendTo():
-    '''public void appendTo(final Appendable appendable)
+    '''returns None\n\n
+    appendTo(final Appendable appendable)\n
     '''
 def equalsIgnoreCase():
-    '''public boolean equalsIgnoreCase(final StrBuilder other)
+    '''returns boolean\n\n
+    equalsIgnoreCase(final StrBuilder other)\n
     '''
 def equals():
-    '''public boolean equals(final StrBuilder other)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final StrBuilder other)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toStringBuffer():
-    '''public StringBuffer toStringBuffer()
+    '''returns StringBuffer\n\n
+    toStringBuffer()\n
     '''
 def toStringBuilder():
-    '''public StringBuilder toStringBuilder()
+    '''returns StringBuilder\n\n
+    toStringBuilder()\n
     '''
 def build():
-    '''public String build()
+    '''returns String\n\n
+    build()\n
     '''
 def getContent():
-    '''public String getContent()
+    '''returns String\n\n
+    getContent()\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def read():
-    '''public int read()
-    public int read(final char[] b, final int off, int len)
+    '''returns int\n\n
+    read()\n
+    read(final char[] b, final int off, int len)\n
     '''
 def skip():
-    '''public long skip(long n)
+    '''returns long\n\n
+    skip(long n)\n
     '''
 def ready():
-    '''public boolean ready()
+    '''returns boolean\n\n
+    ready()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def mark():
-    '''public void mark(final int readAheadLimit)
+    '''returns None\n\n
+    mark(final int readAheadLimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final int c)
-    public void write(final char[] cbuf)
-    public void write(final char[] cbuf, final int off, final int len)
-    public void write(final String str)
-    public void write(final String str, final int off, final int len)
+    '''returns None\n\n
+    write(final int c)\n
+    write(final char[] cbuf)\n
+    write(final char[] cbuf, final int off, final int len)\n
+    write(final String str)\n
+    write(final String str, final int off, final int len)\n
     '''

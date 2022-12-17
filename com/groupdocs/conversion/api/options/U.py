@@ -1,8 +1,10 @@
-def U():
-    '''public U(final ILoader<ar, FromWordsOptions> loader, final ToPdfOptions toPdfOptions)
+def ():
+    '''returns U\n\n
+    (final ILoader<ar, FromWordsOptions> loader, final ToPdfOptions toPdfOptions)\n
     '''
 def toPdf():
-    '''public void toPdf(final OutputStream outputStream)
-    public void toPdf(final String savePath)
-    public void toPdf(final IStreamCallback<InputStream> dataCallback)
+    '''returns None\n\n
+    toPdf(final OutputStream outputStream)\n
+    toPdf(final String savePath)\n
+    toPdf(final IStreamCallback<InputStream> dataCallback)\n
     '''

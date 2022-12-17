@@ -1,10 +1,13 @@
-def RequestPayload():
-    '''public RequestPayload(final byte[] bytes, final String charset)
-    public RequestPayload(final CharSequence str)
+def ():
+    '''returns RequestPayload\n\n
+    (final byte[] bytes, final String charset)\n
+    (final CharSequence str)\n
     '''
 def getRawPayload():
-    '''public Object getRawPayload()
+    '''returns Object\n\n
+    getRawPayload()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

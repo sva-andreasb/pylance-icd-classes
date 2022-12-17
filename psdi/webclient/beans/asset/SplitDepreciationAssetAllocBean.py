@@ -1,15 +1,12 @@
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    '''
-def ADDCHILDASSETS_ACTION():
-    '''public synchronized int ADDCHILDASSETS_ACTION()
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def addrow():
-    '''public int addrow()
-    '''
-def setCurrentRow():
-    '''public synchronized boolean setCurrentRow(final int nRow)
+    '''returns int\n\n
+    addrow()\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''

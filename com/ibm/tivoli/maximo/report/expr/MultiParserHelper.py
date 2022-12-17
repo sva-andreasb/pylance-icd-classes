@@ -1,6 +1,8 @@
-def MultiParserHelper():
-    '''public MultiParserHelper(final ExprParser.ParserHelper... helpers)
+def ():
+    '''returns MultiParserHelper\n\n
+    (final ExprParser.ParserHelper... helpers)\n
     '''
 def evaluateNode():
-    '''public Node evaluateNode(final Node parent, final Node current)
+    '''returns Node\n\n
+    evaluateNode(final Node parent, final Node current)\n
     '''

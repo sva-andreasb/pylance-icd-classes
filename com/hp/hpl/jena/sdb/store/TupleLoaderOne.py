@@ -1,16 +1,21 @@
-def TupleLoaderOne():
-    '''public TupleLoaderOne(final SDBConnection connection)
-    public TupleLoaderOne(final SDBConnection connection, final TableDesc tableDesc)
+def ():
+    '''returns TupleLoaderOne\n\n
+    (final SDBConnection connection)\n
+    (final SDBConnection connection, final TableDesc tableDesc)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def load():
-    '''public void load(final Node... row)
+    '''returns None\n\n
+    load(final Node... row)\n
     '''
 def unload():
-    '''public void unload(final Node... row)
+    '''returns None\n\n
+    unload(final Node... row)\n
     '''

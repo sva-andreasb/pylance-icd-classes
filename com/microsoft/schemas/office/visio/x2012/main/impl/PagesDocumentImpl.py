@@ -1,12 +1,16 @@
-def PagesDocumentImpl():
-    '''public PagesDocumentImpl(final SchemaType schemaType)
+def ():
+    '''returns PagesDocumentImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getPages():
-    '''public PagesType getPages()
+    '''returns PagesType\n\n
+    getPages()\n
     '''
 def setPages():
-    '''public void setPages(final PagesType pagesType)
+    '''returns None\n\n
+    setPages(final PagesType pagesType)\n
     '''
 def addNewPages():
-    '''public PagesType addNewPages()
+    '''returns PagesType\n\n
+    addNewPages()\n
     '''

@@ -1,30 +1,40 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public ScheduleKeyDeletionResult withKeyId(final String keyId)
+    '''returns ScheduleKeyDeletionResult\n\n
+    withKeyId(final String keyId)\n
     '''
 def setDeletionDate():
-    '''public void setDeletionDate(final Date deletionDate)
+    '''returns None\n\n
+    setDeletionDate(final Date deletionDate)\n
     '''
 def getDeletionDate():
-    '''public Date getDeletionDate()
+    '''returns Date\n\n
+    getDeletionDate()\n
     '''
 def withDeletionDate():
-    '''public ScheduleKeyDeletionResult withDeletionDate(final Date deletionDate)
+    '''returns ScheduleKeyDeletionResult\n\n
+    withDeletionDate(final Date deletionDate)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public ScheduleKeyDeletionResult clone()
+    '''returns ScheduleKeyDeletionResult\n\n
+    clone()\n
     '''

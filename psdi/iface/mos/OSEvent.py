@@ -1,30 +1,40 @@
-def OSEvent():
-    '''public OSEvent(final String osName, final String modifiedObjectName, final String modfiedObjectPath, final MboRemote osRootMbo, final MboRemote modifiedMbo)
+def ():
+    '''returns OSEvent\n\n
+    (final String osName, final String modifiedObjectName, final String modfiedObjectPath, final MboRemote osRootMbo, final MboRemote modifiedMbo)\n
     '''
 def getOsName():
-    '''public String getOsName()
+    '''returns String\n\n
+    getOsName()\n
     '''
 def getModifiedObject():
-    '''public String getModifiedObject()
+    '''returns String\n\n
+    getModifiedObject()\n
     '''
 def getModfiedObjectPath():
-    '''public String getModfiedObjectPath()
+    '''returns String\n\n
+    getModfiedObjectPath()\n
     '''
 def getOsRootMbo():
-    '''public MboRemote getOsRootMbo()
+    '''returns MboRemote\n\n
+    getOsRootMbo()\n
     '''
 def getModifiedMbo():
-    '''public MboRemote getModifiedMbo()
+    '''returns MboRemote\n\n
+    getModifiedMbo()\n
     '''
 def isRootEvent():
-    '''public boolean isRootEvent()
+    '''returns boolean\n\n
+    isRootEvent()\n
     '''
 def isOSAddEvent():
-    '''public boolean isOSAddEvent()
+    '''returns boolean\n\n
+    isOSAddEvent()\n
     '''
 def isOSUpdateEvent():
-    '''public boolean isOSUpdateEvent()
+    '''returns boolean\n\n
+    isOSUpdateEvent()\n
     '''
 def isOSDeleteEvent():
-    '''public boolean isOSDeleteEvent()
+    '''returns boolean\n\n
+    isOSDeleteEvent()\n
     '''

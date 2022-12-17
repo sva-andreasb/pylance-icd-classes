@@ -1,79 +1,96 @@
 def generateOmemoIdentityKeyPair():
-    '''public IdentityKeyPair generateOmemoIdentityKeyPair()
-    '''
-def generateOmemoPreKeys():
-    '''public HashMap<Integer, PreKeyRecord> generateOmemoPreKeys(final int currentPreKeyId, final int count)
+    '''returns IdentityKeyPair\n\n
+    generateOmemoIdentityKeyPair()\n
     '''
 def generateOmemoSignedPreKey():
-    '''public SignedPreKeyRecord generateOmemoSignedPreKey(final IdentityKeyPair identityKeyPair, final int currentPreKeyId)
+    '''returns SignedPreKeyRecord\n\n
+    generateOmemoSignedPreKey(final IdentityKeyPair identityKeyPair, final int currentPreKeyId)\n
     '''
 def signedPreKeyFromBytes():
-    '''public SignedPreKeyRecord signedPreKeyFromBytes(final byte[] data)
+    '''returns SignedPreKeyRecord\n\n
+    signedPreKeyFromBytes(final byte[] data)\n
     '''
 def signedPreKeyToBytes():
-    '''public byte[] signedPreKeyToBytes(final SignedPreKeyRecord signedPreKeyRecord)
-    '''
-def createOmemoSession():
-    '''public OmemoSession<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> createOmemoSession(final OmemoManager omemoManager, final OmemoStore<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> omemoStore, final OmemoDevice contact, final IdentityKey identityKey)
-    public OmemoSession<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> createOmemoSession(final OmemoManager omemoManager, final OmemoStore<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> omemoStore, final OmemoDevice from)
+    '''returns byte[]\n\n
+    signedPreKeyToBytes(final SignedPreKeyRecord signedPreKeyRecord)\n
     '''
 def rawSessionFromBytes():
-    '''public SessionRecord rawSessionFromBytes(final byte[] data)
+    '''returns SessionRecord\n\n
+    rawSessionFromBytes(final byte[] data)\n
     '''
 def rawSessionToBytes():
-    '''public byte[] rawSessionToBytes(final SessionRecord session)
+    '''returns byte[]\n\n
+    rawSessionToBytes(final SessionRecord session)\n
     '''
 def identityKeyPairFromBytes():
-    '''public IdentityKeyPair identityKeyPairFromBytes(final byte[] data)
+    '''returns IdentityKeyPair\n\n
+    identityKeyPairFromBytes(final byte[] data)\n
     '''
 def identityKeyFromBytes():
-    '''public IdentityKey identityKeyFromBytes(final byte[] data)
+    '''returns IdentityKey\n\n
+    identityKeyFromBytes(final byte[] data)\n
     '''
 def ellipticCurvePublicKeyFromBytes():
-    '''public ECPublicKey ellipticCurvePublicKeyFromBytes(final byte[] data)
+    '''returns ECPublicKey\n\n
+    ellipticCurvePublicKeyFromBytes(final byte[] data)\n
     '''
 def preKeyToBytes():
-    '''public byte[] preKeyToBytes(final PreKeyRecord preKeyRecord)
+    '''returns byte[]\n\n
+    preKeyToBytes(final PreKeyRecord preKeyRecord)\n
     '''
 def preKeyFromBytes():
-    '''public PreKeyRecord preKeyFromBytes(final byte[] bytes)
+    '''returns PreKeyRecord\n\n
+    preKeyFromBytes(final byte[] bytes)\n
     '''
 def bundleFromOmemoBundle():
-    '''public PreKeyBundle bundleFromOmemoBundle(final OmemoBundleVAxolotlElement bundle, final OmemoDevice contact, final int preKeyId)
+    '''returns PreKeyBundle\n\n
+    bundleFromOmemoBundle(final OmemoBundleVAxolotlElement bundle, final OmemoDevice contact, final int preKeyId)\n
     '''
 def signedPreKeySignatureFromKey():
-    '''public byte[] signedPreKeySignatureFromKey(final SignedPreKeyRecord signedPreKey)
+    '''returns byte[]\n\n
+    signedPreKeySignatureFromKey(final SignedPreKeyRecord signedPreKey)\n
     '''
 def signedPreKeyIdFromKey():
-    '''public int signedPreKeyIdFromKey(final SignedPreKeyRecord signedPreKey)
+    '''returns int\n\n
+    signedPreKeyIdFromKey(final SignedPreKeyRecord signedPreKey)\n
     '''
 def identityKeyPairToBytes():
-    '''public byte[] identityKeyPairToBytes(final IdentityKeyPair identityKeyPair)
+    '''returns byte[]\n\n
+    identityKeyPairToBytes(final IdentityKeyPair identityKeyPair)\n
     '''
 def identityKeyFromPair():
-    '''public IdentityKey identityKeyFromPair(final IdentityKeyPair identityKeyPair)
+    '''returns IdentityKey\n\n
+    identityKeyFromPair(final IdentityKeyPair identityKeyPair)\n
     '''
 def identityKeyForBundle():
-    '''public byte[] identityKeyForBundle(final IdentityKey identityKey)
+    '''returns byte[]\n\n
+    identityKeyForBundle(final IdentityKey identityKey)\n
     '''
 def identityKeyToBytes():
-    '''public byte[] identityKeyToBytes(final IdentityKey identityKey)
+    '''returns byte[]\n\n
+    identityKeyToBytes(final IdentityKey identityKey)\n
     '''
 def preKeyPublicKeyForBundle():
-    '''public byte[] preKeyPublicKeyForBundle(final ECPublicKey preKey)
+    '''returns byte[]\n\n
+    preKeyPublicKeyForBundle(final ECPublicKey preKey)\n
     '''
 def preKeyForBundle():
-    '''public byte[] preKeyForBundle(final PreKeyRecord preKeyRecord)
+    '''returns byte[]\n\n
+    preKeyForBundle(final PreKeyRecord preKeyRecord)\n
     '''
 def signedPreKeyPublicForBundle():
-    '''public byte[] signedPreKeyPublicForBundle(final SignedPreKeyRecord signedPreKey)
+    '''returns byte[]\n\n
+    signedPreKeyPublicForBundle(final SignedPreKeyRecord signedPreKey)\n
     '''
 def getFingerprint():
-    '''public OmemoFingerprint getFingerprint(final IdentityKey identityKey)
+    '''returns OmemoFingerprint\n\n
+    getFingerprint(final IdentityKey identityKey)\n
     '''
 def omemoDeviceAsAddress():
-    '''public SignalProtocolAddress omemoDeviceAsAddress(final OmemoDevice contact)
+    '''returns SignalProtocolAddress\n\n
+    omemoDeviceAsAddress(final OmemoDevice contact)\n
     '''
 def addressAsOmemoDevice():
-    '''public OmemoDevice addressAsOmemoDevice(final SignalProtocolAddress address)
+    '''returns OmemoDevice\n\n
+    addressAsOmemoDevice(final SignalProtocolAddress address)\n
     '''

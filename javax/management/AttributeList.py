@@ -1,16 +1,20 @@
-def AttributeList():
-    '''public AttributeList()
-    public AttributeList(final int initialCapacity)
-    public AttributeList(final AttributeList c)
+def ():
+    '''returns AttributeList\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final AttributeList c)\n
     '''
 def add():
-    '''public void add(final int index, final Attribute element)
-    public void add(final Attribute e)
+    '''returns None\n\n
+    add(final int index, final Attribute element)\n
+    add(final Attribute e)\n
     '''
 def set():
-    '''public void set(final int index, final Attribute element)
+    '''returns None\n\n
+    set(final int index, final Attribute element)\n
     '''
 def addAll():
-    '''public boolean addAll(final int index, final AttributeList c)
-    public boolean addAll(final AttributeList c)
+    '''returns boolean\n\n
+    addAll(final int index, final AttributeList c)\n
+    addAll(final AttributeList c)\n
     '''

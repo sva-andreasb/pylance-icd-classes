@@ -1,4 +1,5 @@
 ELEMENT = "String  \"error\""
-def ErrorIQ():
-    '''public ErrorIQ(final StanzaError.Builder xmppErrorBuilder)
+def ():
+    '''returns ErrorIQ\n\n
+    (final StanzaError.Builder xmppErrorBuilder)\n
     '''

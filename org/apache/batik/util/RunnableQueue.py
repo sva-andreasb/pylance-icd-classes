@@ -1,91 +1,98 @@
-def RunnableQueue():
-    '''public RunnableQueue()
-    '''
-def createRunnableQueue():
-    '''public static RunnableQueue createRunnableQueue()
+def ():
+    '''returns LockableLink\n\n
+    ()\n
+    (final Runnable r)\n
+    (final Runnable r)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def getThread():
-    '''public HaltingThread getThread()
+    '''returns HaltingThread\n\n
+    getThread()\n
     '''
 def invokeLater():
-    '''public void invokeLater(final Runnable r)
+    '''returns None\n\n
+    invokeLater(final Runnable r)\n
     '''
 def invokeAndWait():
-    '''public void invokeAndWait(final Runnable r)
+    '''returns None\n\n
+    invokeAndWait(final Runnable r)\n
     '''
 def preemptLater():
-    '''public void preemptLater(final Runnable r)
+    '''returns None\n\n
+    preemptLater(final Runnable r)\n
     '''
 def preemptAndWait():
-    '''public void preemptAndWait(final Runnable r)
+    '''returns None\n\n
+    preemptAndWait(final Runnable r)\n
     '''
 def getQueueState():
-    '''public RunnableQueueState getQueueState()
+    '''returns RunnableQueueState\n\n
+    getQueueState()\n
     '''
 def suspendExecution():
-    '''public void suspendExecution(final boolean waitTillSuspended)
+    '''returns None\n\n
+    suspendExecution(final boolean waitTillSuspended)\n
     '''
 def resumeExecution():
-    '''public void resumeExecution()
+    '''returns None\n\n
+    resumeExecution()\n
     '''
 def getIteratorLock():
-    '''public Object getIteratorLock()
+    '''returns Object\n\n
+    getIteratorLock()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
-    '''
-def setRunHandler():
-    '''public synchronized void setRunHandler(final RunHandler rh)
-    '''
-def getRunHandler():
-    '''public synchronized RunHandler getRunHandler()
+    '''returns None\n\n
+    remove()\n
     '''
 def setIdleRunnable():
-    '''public void setIdleRunnable(final IdleRunnable r)
+    '''returns None\n\n
+    setIdleRunnable(final IdleRunnable r)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def runnableStart():
-    '''public void runnableStart(final RunnableQueue rq, final Runnable r)
+    '''returns None\n\n
+    runnableStart(final RunnableQueue rq, final Runnable r)\n
     '''
 def runnableInvoked():
-    '''public void runnableInvoked(final RunnableQueue rq, final Runnable r)
+    '''returns None\n\n
+    runnableInvoked(final RunnableQueue rq, final Runnable r)\n
     '''
 def executionSuspended():
-    '''public void executionSuspended(final RunnableQueue rq)
+    '''returns None\n\n
+    executionSuspended(final RunnableQueue rq)\n
     '''
 def executionResumed():
-    '''public void executionResumed(final RunnableQueue rq)
-    '''
-def Link():
-    '''public Link(final Runnable r)
+    '''returns None\n\n
+    executionResumed(final RunnableQueue rq)\n
     '''
 def unlock():
-    '''public void unlock()
-    public synchronized void unlock()
-    '''
-def LockableLink():
-    '''public LockableLink(final Runnable r)
+    '''returns None\n\n
+    unlock()\n
     '''
 def isLocked():
-    '''public boolean isLocked()
-    '''
-def lock():
-    '''public synchronized void lock()
+    '''returns boolean\n\n
+    isLocked()\n
     '''

@@ -1,25 +1,33 @@
-def PMWoGenCronTask():
-    '''public PMWoGenCronTask()
+def ():
+    '''returns PMWoGenCronTask\n\n
+    ()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def readConfig():
-    '''public void readConfig()
+    '''returns None\n\n
+    readConfig()\n
     '''
 def getSites():
-    '''public List<String> getSites(final boolean includeDisabled)
+    '''returns List<String>\n\n
+    getSites(final boolean includeDisabled)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def cronAction():
-    '''public void cronAction()
-    public void cronAction(final String filter)
+    '''returns None\n\n
+    cronAction()\n
+    cronAction(final String filter)\n
     '''
 def getLogFilePath():
-    '''public String getLogFilePath()
+    '''returns String\n\n
+    getLogFilePath()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''

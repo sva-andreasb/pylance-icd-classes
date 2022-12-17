@@ -1,3 +1,4 @@
 def progressChanged():
-    '''public void progressChanged(final ProgressEvent progressEvent)
+    '''returns None\n\n
+    progressChanged(final ProgressEvent progressEvent)\n
     '''

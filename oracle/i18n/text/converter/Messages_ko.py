@@ -1,6 +1,8 @@
-def Messages_ko():
-    '''public Messages_ko()
+def ():
+    '''returns Messages_ko\n\n
+    ()\n
     '''
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

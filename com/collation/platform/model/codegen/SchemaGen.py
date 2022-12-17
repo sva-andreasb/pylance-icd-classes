@@ -1,9 +1,8 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
-def SchemaGen():
-    '''public SchemaGen(final String[] args)
+def ():
+    '''returns SchemaGen\n\n
+    (final String[] args)\n
     '''
 def generate():
-    '''public void generate(final XJavaDoc xjd, final String genDir, final XClass cls, final Class real)
+    '''returns None\n\n
+    generate(final XJavaDoc xjd, final String genDir, final XClass cls, final Class real)\n
     '''

@@ -1,22 +1,17 @@
-def CalScale():
-    '''public CalScale()
-    public CalScale(final String aValue)
-    public CalScale(final ParameterList aList, final String aValue)
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final String aValue)\n
+    (final ParameterList aList, final String aValue)\n
+    ()\n
     '''
 def setValue():
-    '''public void setValue(final String aValue)
-    public void setValue(final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
-    '''
-def validate():
-    '''public final void validate()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns None\n\n
+    setValue(final String aValue)\n
+    setValue(final String aValue)\n
     '''
 def createProperty():
-    '''public CalScale createProperty(final ParameterList parameters, final String value)
-    public CalScale createProperty()
+    '''returns CalScale\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

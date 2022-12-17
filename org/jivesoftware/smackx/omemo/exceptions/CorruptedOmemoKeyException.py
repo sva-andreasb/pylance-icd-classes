@@ -1,3 +1,4 @@
-def CorruptedOmemoKeyException():
-    '''public CorruptedOmemoKeyException(final String message)
+def ():
+    '''returns CorruptedOmemoKeyException\n\n
+    (final String message)\n
     '''

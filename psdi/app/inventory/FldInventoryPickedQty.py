@@ -1,6 +1,8 @@
-def FldInventoryPickedQty():
-    '''public FldInventoryPickedQty(final MboValue mbv)
+def ():
+    '''returns FldInventoryPickedQty\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

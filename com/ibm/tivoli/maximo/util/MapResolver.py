@@ -1,13 +1,17 @@
-def MapResolver():
-    '''public MapResolver()
-    public MapResolver(final Map<String, Object> data)
+def ():
+    '''returns MapResolver\n\n
+    ()\n
+    (final Map<String, Object> data)\n
     '''
 def resolve():
-    '''public String resolve(final String in)
+    '''returns String\n\n
+    resolve(final String in)\n
     '''
 def put():
-    '''public void put(final String key, final Object value)
+    '''returns None\n\n
+    put(final String key, final Object value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<Object, Object> data)
+    '''returns None\n\n
+    putAll(final Map<Object, Object> data)\n
     '''

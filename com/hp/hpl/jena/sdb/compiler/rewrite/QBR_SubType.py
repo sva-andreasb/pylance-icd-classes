@@ -1,3 +1,4 @@
 def rewrite():
-    '''public QuadBlock rewrite(final SDBRequest request, QuadBlock quadBlock)
+    '''returns QuadBlock\n\n
+    rewrite(final SDBRequest request, QuadBlock quadBlock)\n
     '''

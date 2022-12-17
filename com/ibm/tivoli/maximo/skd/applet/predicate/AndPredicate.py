@@ -1,6 +1,8 @@
-def AndPredicate():
-    '''public AndPredicate(final HierarchyChartPredicate<T>... preds)
+def ():
+    '''returns AndPredicate\n\n
+    (final HierarchyChartPredicate<T>... preds)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final IlvHierarchyChart chart, final T in)
+    '''returns boolean\n\n
+    evaluate(final IlvHierarchyChart chart, final T in)\n
     '''

@@ -1,48 +1,46 @@
-def years():
-    '''public static Years years(final int n)
-    '''
-def yearsBetween():
-    '''public static Years yearsBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public static Years yearsBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
-    '''
-def yearsIn():
-    '''public static Years yearsIn(final ReadableInterval readableInterval)
-    '''
-def parseYears():
-    '''public static Years parseYears(final String s)
-    '''
 def getFieldType():
-    '''public DurationFieldType getFieldType()
+    '''returns DurationFieldType\n\n
+    getFieldType()\n
     '''
 def getPeriodType():
-    '''public PeriodType getPeriodType()
+    '''returns PeriodType\n\n
+    getPeriodType()\n
     '''
 def getYears():
-    '''public int getYears()
+    '''returns int\n\n
+    getYears()\n
     '''
 def plus():
-    '''public Years plus(final int n)
-    public Years plus(final Years years)
+    '''returns Years\n\n
+    plus(final int n)\n
+    plus(final Years years)\n
     '''
 def minus():
-    '''public Years minus(final int n)
-    public Years minus(final Years years)
+    '''returns Years\n\n
+    minus(final int n)\n
+    minus(final Years years)\n
     '''
 def multipliedBy():
-    '''public Years multipliedBy(final int n)
+    '''returns Years\n\n
+    multipliedBy(final int n)\n
     '''
 def dividedBy():
-    '''public Years dividedBy(final int n)
+    '''returns Years\n\n
+    dividedBy(final int n)\n
     '''
 def negated():
-    '''public Years negated()
+    '''returns Years\n\n
+    negated()\n
     '''
 def isGreaterThan():
-    '''public boolean isGreaterThan(final Years years)
+    '''returns boolean\n\n
+    isGreaterThan(final Years years)\n
     '''
 def isLessThan():
-    '''public boolean isLessThan(final Years years)
+    '''returns boolean\n\n
+    isLessThan(final Years years)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

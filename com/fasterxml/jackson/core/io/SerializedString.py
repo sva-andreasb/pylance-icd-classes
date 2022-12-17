@@ -1,51 +1,36 @@
-def SerializedString():
-    '''public SerializedString(final String v)
-    '''
-def getValue():
-    '''public final String getValue()
-    '''
-def charLength():
-    '''public final int charLength()
-    '''
-def asQuotedChars():
-    '''public final char[] asQuotedChars()
-    '''
-def asUnquotedUTF8():
-    '''public final byte[] asUnquotedUTF8()
-    '''
-def asQuotedUTF8():
-    '''public final byte[] asQuotedUTF8()
+def ():
+    '''returns SerializedString\n\n
+    (final String v)\n
     '''
 def appendQuotedUTF8():
-    '''public int appendQuotedUTF8(final byte[] buffer, final int offset)
+    '''returns int\n\n
+    appendQuotedUTF8(final byte[] buffer, final int offset)\n
     '''
 def appendQuoted():
-    '''public int appendQuoted(final char[] buffer, final int offset)
+    '''returns int\n\n
+    appendQuoted(final char[] buffer, final int offset)\n
     '''
 def appendUnquotedUTF8():
-    '''public int appendUnquotedUTF8(final byte[] buffer, final int offset)
+    '''returns int\n\n
+    appendUnquotedUTF8(final byte[] buffer, final int offset)\n
     '''
 def appendUnquoted():
-    '''public int appendUnquoted(final char[] buffer, final int offset)
+    '''returns int\n\n
+    appendUnquoted(final char[] buffer, final int offset)\n
     '''
 def writeQuotedUTF8():
-    '''public int writeQuotedUTF8(final OutputStream out)
+    '''returns int\n\n
+    writeQuotedUTF8(final OutputStream out)\n
     '''
 def writeUnquotedUTF8():
-    '''public int writeUnquotedUTF8(final OutputStream out)
+    '''returns int\n\n
+    writeUnquotedUTF8(final OutputStream out)\n
     '''
 def putQuotedUTF8():
-    '''public int putQuotedUTF8(final ByteBuffer buffer)
+    '''returns int\n\n
+    putQuotedUTF8(final ByteBuffer buffer)\n
     '''
 def putUnquotedUTF8():
-    '''public int putUnquotedUTF8(final ByteBuffer buffer)
-    '''
-def toString():
-    '''public final String toString()
-    '''
-def hashCode():
-    '''public final int hashCode()
-    '''
-def equals():
-    '''public final boolean equals(final Object o)
+    '''returns int\n\n
+    putUnquotedUTF8(final ByteBuffer buffer)\n
     '''

@@ -1,3 +1,4 @@
-def ResponseMbo():
-    '''public ResponseMbo(final MboSet ms)
+def ():
+    '''returns ResponseMbo\n\n
+    (final MboSet ms)\n
     '''

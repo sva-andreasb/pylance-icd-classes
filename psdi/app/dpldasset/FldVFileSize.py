@@ -1,6 +1,8 @@
-def FldVFileSize():
-    '''public FldVFileSize(final MboValue mbv)
+def ():
+    '''returns FldVFileSize\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

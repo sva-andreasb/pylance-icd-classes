@@ -1,30 +1,40 @@
-def Lucene84PostingsWriter():
-    '''public Lucene84PostingsWriter(final SegmentWriteState state)
+def ():
+    '''returns Lucene84PostingsWriter\n\n
+    (final SegmentWriteState state)\n
     '''
 def init():
-    '''public void init(final IndexOutput termsOut, final SegmentWriteState state)
+    '''returns None\n\n
+    init(final IndexOutput termsOut, final SegmentWriteState state)\n
     '''
 def setField():
-    '''public void setField(final FieldInfo fieldInfo)
+    '''returns None\n\n
+    setField(final FieldInfo fieldInfo)\n
     '''
 def startTerm():
-    '''public void startTerm(final NumericDocValues norms)
+    '''returns None\n\n
+    startTerm(final NumericDocValues norms)\n
     '''
 def startDoc():
-    '''public void startDoc(final int docID, final int termDocFreq)
+    '''returns None\n\n
+    startDoc(final int docID, final int termDocFreq)\n
     '''
 def addPosition():
-    '''public void addPosition(final int position, final BytesRef payload, final int startOffset, final int endOffset)
+    '''returns None\n\n
+    addPosition(final int position, final BytesRef payload, final int startOffset, final int endOffset)\n
     '''
 def finishDoc():
-    '''public void finishDoc()
+    '''returns None\n\n
+    finishDoc()\n
     '''
 def finishTerm():
-    '''public void finishTerm(final BlockTermState _state)
+    '''returns None\n\n
+    finishTerm(final BlockTermState _state)\n
     '''
 def encodeTerm():
-    '''public void encodeTerm(final DataOutput out, final FieldInfo fieldInfo, final BlockTermState _state, final boolean absolute)
+    '''returns None\n\n
+    encodeTerm(final DataOutput out, final FieldInfo fieldInfo, final BlockTermState _state, final boolean absolute)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

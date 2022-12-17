@@ -4,153 +4,189 @@ fetchStopLimitEnabled = "String  \"mxe.db.fetchStopLimitEnabled\""
 fetchStopExclusion = "String  \"mxe.db.fetchStopExclusion\""
 lookupMaxRowProperty = "String  \"mxe.db.lookupMaxRow\""
 MT_OFFSET = "long  11111L"
-def MaximoDD():
-    '''public MaximoDD()
+def ():
+    '''returns MaximoDD\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getDBPlatform():
-    '''public int getDBPlatform()
+    '''returns int\n\n
+    getDBPlatform()\n
     '''
 def getOraVersion():
-    '''public double getOraVersion()
+    '''returns double\n\n
+    getOraVersion()\n
     '''
 def getDB2Version():
-    '''public double getDB2Version()
-    '''
-def getAppFieldDefaults():
-    '''public HashMap<String, String> getAppFieldDefaults(final String appName, final String objectName, final String siteid, final String userName, final HashSet groupNames)
+    '''returns double\n\n
+    getDB2Version()\n
     '''
 def getSequenceName():
-    '''public String getSequenceName(final String tbName, final String colName)
-    '''
-def getRelationships():
-    '''public HashMap<String, RelationInfo> getRelationships(final String objectName)
+    '''returns String\n\n
+    getSequenceName(final String tbName, final String colName)\n
     '''
 def updateMboValueInfoWithDomainInfo():
-    '''public void updateMboValueInfoWithDomainInfo()
-    public void updateMboValueInfoWithDomainInfo(final String domainId)
+    '''returns None\n\n
+    updateMboValueInfoWithDomainInfo()\n
+    updateMboValueInfoWithDomainInfo(final String domainId)\n
     '''
 def isLongDescriptionSearchable():
-    '''public boolean isLongDescriptionSearchable()
+    '''returns boolean\n\n
+    isLongDescriptionSearchable()\n
     '''
 def getDomainFactoryName():
-    '''public String getDomainFactoryName(final String domainType)
+    '''returns String\n\n
+    getDomainFactoryName(final String domainType)\n
     '''
 def getOrgId():
-    '''public String getOrgId(String siteId)
+    '''returns String\n\n
+    getOrgId(String siteId)\n
     '''
 def isValidSite():
-    '''public boolean isValidSite(final String siteId)
+    '''returns boolean\n\n
+    isValidSite(final String siteId)\n
     '''
 def isValidOrganization():
-    '''public boolean isValidOrganization(final String orgId)
+    '''returns boolean\n\n
+    isValidOrganization(final String orgId)\n
     '''
 def isSiteInOrganization():
-    '''public boolean isSiteInOrganization(final String siteId, final String orgId)
-    '''
-def getGLConfigure():
-    '''public TreeMap<Integer, HashMap<String, Object>> getGLConfigure()
-    public TreeMap<Integer, HashMap<String, Object>> getGLConfigure(final String orgid)
+    '''returns boolean\n\n
+    isSiteInOrganization(final String siteId, final String orgId)\n
     '''
 def isESigEnabled():
-    '''public boolean isESigEnabled(final String applicationName, final String optionName)
+    '''returns boolean\n\n
+    isESigEnabled(final String applicationName, final String optionName)\n
     '''
 def getBaseCurrency():
-    '''public String getBaseCurrency(String orgId)
+    '''returns String\n\n
+    getBaseCurrency(String orgId)\n
     '''
 def getTranslator():
-    '''public Translate getTranslator()
+    '''returns Translate\n\n
+    getTranslator()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getServiceInfo():
-    '''public ServiceInfo getServiceInfo(final String service)
+    '''returns ServiceInfo\n\n
+    getServiceInfo(final String service)\n
     '''
 def getServicesInfo():
-    '''public Iterator getServicesInfo()
+    '''returns Iterator\n\n
+    getServicesInfo()\n
     '''
 def getIndexInfo():
-    '''public String[] getIndexInfo(String ixname)
+    '''returns String[]\n\n
+    getIndexInfo(String ixname)\n
     '''
 def getMboSetInfo():
-    '''public MboSetInfo getMboSetInfo(final String ms)
+    '''returns MboSetInfo\n\n
+    getMboSetInfo(final String ms)\n
     '''
 def getMboSetsInfo():
-    '''public Iterator getMboSetsInfo()
+    '''returns Iterator\n\n
+    getMboSetsInfo()\n
     '''
 def getRelationInfo():
-    '''public RelationInfo getRelationInfo(final String n)
+    '''returns RelationInfo\n\n
+    getRelationInfo(final String n)\n
     '''
 def getRelationsInfo():
-    '''public Iterator getRelationsInfo()
+    '''returns Iterator\n\n
+    getRelationsInfo()\n
     '''
 def getDomainsInfo():
-    '''public Iterator getDomainsInfo()
+    '''returns Iterator\n\n
+    getDomainsInfo()\n
     '''
 def getDomainInfo():
-    '''public DomainInfo getDomainInfo(final String name)
+    '''returns DomainInfo\n\n
+    getDomainInfo(final String name)\n
     '''
 def storeClobAsClob():
-    '''public boolean storeClobAsClob()
+    '''returns boolean\n\n
+    storeClobAsClob()\n
     '''
 def storeLongalnAsClob():
-    '''public boolean storeLongalnAsClob()
+    '''returns boolean\n\n
+    storeLongalnAsClob()\n
     '''
 def storeBlobAsBlob():
-    '''public boolean storeBlobAsBlob()
+    '''returns boolean\n\n
+    storeBlobAsBlob()\n
     '''
 def getLangTableName():
-    '''public String getLangTableName(final String table)
+    '''returns String\n\n
+    getLangTableName(final String table)\n
     '''
 def getUniqueIdColumn():
-    '''public String getUniqueIdColumn(final String table)
+    '''returns String\n\n
+    getUniqueIdColumn(final String table)\n
     '''
 def getContentAttrName():
-    '''public String getContentAttrName(final String table)
+    '''returns String\n\n
+    getContentAttrName(final String table)\n
     '''
 def getLangCodeColumn():
-    '''public String getLangCodeColumn(final String table)
+    '''returns String\n\n
+    getLangCodeColumn(final String table)\n
     '''
 def isMLInUse():
-    '''public boolean isMLInUse(final String table)
+    '''returns boolean\n\n
+    isMLInUse(final String table)\n
     '''
 def getAltIxName():
-    '''public String getAltIxName(final String table)
+    '''returns String\n\n
+    getAltIxName(final String table)\n
     '''
 def getStorageType():
-    '''public int getStorageType(String table)
+    '''returns int\n\n
+    getStorageType(String table)\n
     '''
 def isDeltaStorageObject():
-    '''public boolean isDeltaStorageObject(final String objectName)
+    '''returns boolean\n\n
+    isDeltaStorageObject(final String objectName)\n
     '''
 def getExtTableName():
-    '''public String getExtTableName(final String table)
+    '''returns String\n\n
+    getExtTableName(final String table)\n
     '''
 def isExtTable():
-    '''public boolean isExtTable(final String tableName)
+    '''returns boolean\n\n
+    isExtTable(final String tableName)\n
     '''
 def getBaseObjectName():
-    '''public String getBaseObjectName(final String tableName)
+    '''returns String\n\n
+    getBaseObjectName(final String tableName)\n
     '''
 def eventValidate():
-    '''public boolean eventValidate(final EventMessage em)
+    '''returns boolean\n\n
+    eventValidate(final EventMessage em)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveEventAction(final EventMessage em)\n
     '''
 def eventAction():
-    '''public void eventAction(final EventMessage em)
+    '''returns None\n\n
+    eventAction(final EventMessage em)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final EventMessage em)
+    '''returns None\n\n
+    postCommitEventAction(final EventMessage em)\n
     '''

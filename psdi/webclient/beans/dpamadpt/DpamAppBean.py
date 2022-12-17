@@ -1,3 +1,4 @@
 def getKeyAttribute():
-    '''public String getKeyAttribute()
+    '''returns String\n\n
+    getKeyAttribute()\n
     '''

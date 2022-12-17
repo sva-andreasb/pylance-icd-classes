@@ -1,31 +1,39 @@
-def FormattedMessage():
-    '''public FormattedMessage(final Locale locale, final String messagePattern, final Object arg)
-    public FormattedMessage(final Locale locale, final String messagePattern, final Object arg1, final Object arg2)
-    public FormattedMessage(final Locale locale, final String messagePattern, final Object... arguments)
-    public FormattedMessage(final Locale locale, final String messagePattern, final Object[] arguments, final Throwable throwable)
-    public FormattedMessage(final String messagePattern, final Object arg)
-    public FormattedMessage(final String messagePattern, final Object arg1, final Object arg2)
-    public FormattedMessage(final String messagePattern, final Object... arguments)
-    public FormattedMessage(final String messagePattern, final Object[] arguments, final Throwable throwable)
+def ():
+    '''returns FormattedMessage\n\n
+    (final Locale locale, final String messagePattern, final Object arg)\n
+    (final Locale locale, final String messagePattern, final Object arg1, final Object arg2)\n
+    (final Locale locale, final String messagePattern, final Object... arguments)\n
+    (final Locale locale, final String messagePattern, final Object[] arguments, final Throwable throwable)\n
+    (final String messagePattern, final Object arg)\n
+    (final String messagePattern, final Object arg1, final Object arg2)\n
+    (final String messagePattern, final Object... arguments)\n
+    (final String messagePattern, final Object[] arguments, final Throwable throwable)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getFormattedMessage():
-    '''public String getFormattedMessage()
+    '''returns String\n\n
+    getFormattedMessage()\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

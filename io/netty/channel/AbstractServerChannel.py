@@ -1,9 +1,12 @@
 def metadata():
-    '''public ChannelMetadata metadata()
+    '''returns ChannelMetadata\n\n
+    metadata()\n
     '''
 def remoteAddress():
-    '''public SocketAddress remoteAddress()
+    '''returns SocketAddress\n\n
+    remoteAddress()\n
     '''
 def connect():
-    '''public void connect(final SocketAddress remoteAddress, final SocketAddress localAddress, final ChannelPromise promise)
+    '''returns None\n\n
+    connect(final SocketAddress remoteAddress, final SocketAddress localAddress, final ChannelPromise promise)\n
     '''

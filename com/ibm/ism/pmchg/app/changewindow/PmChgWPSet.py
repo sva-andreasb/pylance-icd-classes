@@ -1,3 +1,4 @@
-def PmChgWPSet():
-    '''public PmChgWPSet(final MboServerInterface ms)
+def ():
+    '''returns PmChgWPSet\n\n
+    (final MboServerInterface ms)\n
     '''

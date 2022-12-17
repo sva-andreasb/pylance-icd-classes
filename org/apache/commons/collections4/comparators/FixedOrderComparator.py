@@ -1,29 +1,38 @@
-def FixedOrderComparator():
-    '''public FixedOrderComparator()
-    public FixedOrderComparator(final T... items)
-    public FixedOrderComparator(final List<T> items)
+def ():
+    '''returns FixedOrderComparator\n\n
+    ()\n
+    (final T... items)\n
+    (final List<T> items)\n
     '''
 def isLocked():
-    '''public boolean isLocked()
+    '''returns boolean\n\n
+    isLocked()\n
     '''
 def getUnknownObjectBehavior():
-    '''public UnknownObjectBehavior getUnknownObjectBehavior()
+    '''returns UnknownObjectBehavior\n\n
+    getUnknownObjectBehavior()\n
     '''
 def setUnknownObjectBehavior():
-    '''public void setUnknownObjectBehavior(final UnknownObjectBehavior unknownObjectBehavior)
+    '''returns None\n\n
+    setUnknownObjectBehavior(final UnknownObjectBehavior unknownObjectBehavior)\n
     '''
 def add():
-    '''public boolean add(final T obj)
+    '''returns boolean\n\n
+    add(final T obj)\n
     '''
 def addAsEqual():
-    '''public boolean addAsEqual(final T existingObj, final T newObj)
+    '''returns boolean\n\n
+    addAsEqual(final T existingObj, final T newObj)\n
     '''
 def compare():
-    '''public int compare(final T obj1, final T obj2)
+    '''returns int\n\n
+    compare(final T obj1, final T obj2)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''

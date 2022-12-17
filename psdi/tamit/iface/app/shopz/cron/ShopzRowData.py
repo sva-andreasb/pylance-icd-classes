@@ -1,18 +1,24 @@
-def ShopzRowData():
-    '''public ShopzRowData(final UserInfo userInfo, final String orgid, final String company, final String status, final Map<String, String> rowData)
+def ():
+    '''returns ShopzRowData\n\n
+    (final UserInfo userInfo, final String orgid, final String company, final String status, final Map<String, String> rowData)\n
     '''
 def getColumnValue():
-    '''public String getColumnValue(final String columnName)
+    '''returns String\n\n
+    getColumnValue(final String columnName)\n
     '''
 def setColumnValue():
-    '''public void setColumnValue(final String columnName, final String columnValue)
+    '''returns None\n\n
+    setColumnValue(final String columnName, final String columnValue)\n
     '''
 def removeColumn():
-    '''public void removeColumn(final String columnName)
+    '''returns None\n\n
+    removeColumn(final String columnName)\n
     '''
 def toXMLString():
-    '''public String toXMLString()
+    '''returns String\n\n
+    toXMLString()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,6 +1,8 @@
-def ResourceViewCompareItem():
-    '''public ResourceViewCompareItem(final Viewer viewer, final String id, final String name, final IlvTimeScrollController timeController)
+def ():
+    '''returns ResourceViewCompareItem\n\n
+    (final Viewer viewer, final String id, final String name, final IlvTimeScrollController timeController)\n
     '''
 def createChart():
-    '''public IlvScheduleChart createChart(final IlvGanttModel model, final IlvTimeScrollController controller)
+    '''returns IlvScheduleChart\n\n
+    createChart(final IlvGanttModel model, final IlvTimeScrollController controller)\n
     '''

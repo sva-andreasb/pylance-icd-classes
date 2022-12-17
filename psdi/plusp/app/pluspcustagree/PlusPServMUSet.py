@@ -1,6 +1,8 @@
-def PlusPServMUSet():
-    '''public PlusPServMUSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPServMUSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

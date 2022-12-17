@@ -1,12 +1,16 @@
-def PMForecastJP():
-    '''public PMForecastJP(final MboSet ms)
+def ():
+    '''returns PMForecastJP\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''

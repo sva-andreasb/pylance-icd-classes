@@ -1,3 +1,4 @@
-def SKDLaborModParamSet():
-    '''public SKDLaborModParamSet(final MboServerInterface ms)
+def ():
+    '''returns SKDLaborModParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

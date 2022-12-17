@@ -1,42 +1,56 @@
-def DiagramWorkflowRelationship():
-    '''public DiagramWorkflowRelationship(final WorkflowRelationship workflowRelationship)
+def ():
+    '''returns DiagramWorkflowRelationship\n\n
+    (final WorkflowRelationship workflowRelationship)\n
     '''
 def getWorkflowRelationship():
-    '''public WorkflowRelationship getWorkflowRelationship()
+    '''returns WorkflowRelationship\n\n
+    getWorkflowRelationship()\n
     '''
 def setIsStraight():
-    '''public void setIsStraight(final boolean isStraight)
+    '''returns None\n\n
+    setIsStraight(final boolean isStraight)\n
     '''
 def isStraight():
-    '''public boolean isStraight()
+    '''returns boolean\n\n
+    isStraight()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final int type, final DiagramWorkflowRelationship rel)
+    '''returns int\n\n
+    compareTo(final int type, final DiagramWorkflowRelationship rel)\n
     '''
 def getPositionIndex():
-    '''public int getPositionIndex(final int type)
+    '''returns int\n\n
+    getPositionIndex(final int type)\n
     '''
 def setPositionIndex():
-    '''public void setPositionIndex(final int type, final int positionIndex)
+    '''returns None\n\n
+    setPositionIndex(final int type, final int positionIndex)\n
     '''
 def getHorizontalRelationship():
-    '''public int getHorizontalRelationship()
+    '''returns int\n\n
+    getHorizontalRelationship()\n
     '''
 def getVerticalRelationship():
-    '''public int getVerticalRelationship()
+    '''returns int\n\n
+    getVerticalRelationship()\n
     '''
 def getPredecessorNode():
-    '''public WorkflowNode getPredecessorNode()
+    '''returns WorkflowNode\n\n
+    getPredecessorNode()\n
     '''
 def getSuccessorNode():
-    '''public WorkflowNode getSuccessorNode()
+    '''returns WorkflowNode\n\n
+    getSuccessorNode()\n
     '''
 def isNegative():
-    '''public boolean isNegative()
+    '''returns boolean\n\n
+    isNegative()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

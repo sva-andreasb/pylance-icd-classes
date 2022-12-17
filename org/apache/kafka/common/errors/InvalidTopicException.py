@@ -1,6 +1,7 @@
-def InvalidTopicException():
-    '''public InvalidTopicException()
-    public InvalidTopicException(final String message, final Throwable cause)
-    public InvalidTopicException(final String message)
-    public InvalidTopicException(final Throwable cause)
+def ():
+    '''returns InvalidTopicException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

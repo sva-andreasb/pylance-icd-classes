@@ -1,3 +1,4 @@
-def TokenLicenseSet():
-    '''public TokenLicenseSet(final MboServerInterface ms)
+def ():
+    '''returns TokenLicenseSet\n\n
+    (final MboServerInterface ms)\n
     '''

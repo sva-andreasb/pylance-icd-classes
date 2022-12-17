@@ -1,6 +1,8 @@
-def FldInvUseReturnPref():
-    '''public FldInvUseReturnPref(final MboValue mbv)
+def ():
+    '''returns FldInvUseReturnPref\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

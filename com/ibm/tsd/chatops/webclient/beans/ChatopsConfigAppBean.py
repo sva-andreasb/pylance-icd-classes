@@ -1,9 +1,8 @@
 def initializeApp():
-    '''public void initializeApp()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def ADDTOSLACK():
-    '''public int ADDTOSLACK()
+    '''returns int\n\n
+    ADDTOSLACK()\n
     '''

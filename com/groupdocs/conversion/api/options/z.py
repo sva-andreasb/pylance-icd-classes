@@ -1,16 +1,21 @@
-def z():
-    '''public z(final ToImageOptions a)
+def ():
+    '''returns z\n\n
+    (final ToImageOptions a)\n
     '''
 def a():
-    '''public void a(final ay a)
-    public void a(final OutputStream outputStream, final int n)
+    '''returns None\n\n
+    a(final ay a)\n
+    a(final OutputStream outputStream, final int n)\n
     '''
 def c():
-    '''public void c(final OutputStream outputStream)
+    '''returns None\n\n
+    c(final OutputStream outputStream)\n
     '''
 def b():
-    '''public void b(final OutputStream outputStream, final int n)
+    '''returns None\n\n
+    b(final OutputStream outputStream, final int n)\n
     '''
 def an():
-    '''public boolean an()
+    '''returns boolean\n\n
+    an()\n
     '''

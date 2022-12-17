@@ -1,176 +1,212 @@
 PROPERTY_VIEWERURL = "String  \"mxe.report.birt.viewerurl\""
-def ReportAdminService():
-    '''public ReportAdminService(final MXServer mxServer)
+def ():
+    '''returns PropertiesFileFilter\n\n
+    (final MXServer mxServer)\n
+    ()\n
+    (final String propertiesName)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def startBatchAllReportsImport():
-    '''public void startBatchAllReportsImport(final UserInfo userInfo, final boolean isSynchronous)
+    '''returns None\n\n
+    startBatchAllReportsImport(final UserInfo userInfo, final boolean isSynchronous)\n
     '''
 def startBatchReportImport():
-    '''public void startBatchReportImport()
-    public void startBatchReportImport(final boolean allTenants)
+    '''returns None\n\n
+    startBatchReportImport()\n
+    startBatchReportImport(final boolean allTenants)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def updateReportDesign():
-    '''public byte[] updateReportDesign(final UserInfo userInfo, final String reportName, final String appName, final boolean saveChanges)
-    public byte[] updateReportDesign(final UserInfo userInfo, final String reportName, final String appName, final boolean saveChanges, final String updateType)
+    '''returns byte[]\n\n
+    updateReportDesign(final UserInfo userInfo, final String reportName, final String appName, final boolean saveChanges)\n
+    updateReportDesign(final UserInfo userInfo, final String reportName, final String appName, final boolean saveChanges, final String updateType)\n
     '''
 def importReport():
-    '''public void importReport(final UserInfo userInfo, final ReportImportInfo reportImportInfo, final boolean fromUI)
+    '''returns None\n\n
+    importReport(final UserInfo userInfo, final ReportImportInfo reportImportInfo, final boolean fromUI)\n
     '''
 def importReportLibrary():
-    '''public void importReportLibrary(final UserInfo userInfo, final ReportImportInfo reportImportInfo)
+    '''returns None\n\n
+    importReportLibrary(final UserInfo userInfo, final ReportImportInfo reportImportInfo)\n
     '''
 def prepareReportForRun():
-    '''public ReportRunInfo prepareReportForRun(final UserInfo userInfo, final String reportName, final String appName)
+    '''returns ReportRunInfo\n\n
+    prepareReportForRun(final UserInfo userInfo, final String reportName, final String appName)\n
     '''
 def cleanupReportResources():
-    '''public void cleanupReportResources(final ReportRunInfo reportRunInfo)
+    '''returns None\n\n
+    cleanupReportResources(final ReportRunInfo reportRunInfo)\n
     '''
 def prepareReportLibraryForExport():
-    '''public ReportRunInfo prepareReportLibraryForExport(final UserInfo userInfo, final String reportName)
+    '''returns ReportRunInfo\n\n
+    prepareReportLibraryForExport(final UserInfo userInfo, final String reportName)\n
     '''
 def prepareReportDesignForRun():
-    '''public ReportRunInfo prepareReportDesignForRun(final UserInfo userInfo, final String reportName, final boolean extractAll)
-    public ReportRunInfo prepareReportDesignForRun(final UserInfo userInfo, final String reportName, final boolean extractAll, final boolean forExport)
-    '''
-def createUniqueTempFolder():
-    '''public static String createUniqueTempFolder(final String parentFolderName)
+    '''returns ReportRunInfo\n\n
+    prepareReportDesignForRun(final UserInfo userInfo, final String reportName, final boolean extractAll)\n
+    prepareReportDesignForRun(final UserInfo userInfo, final String reportName, final boolean extractAll, final boolean forExport)\n
     '''
 def extractResourcesFromByteArray():
-    '''public void extractResourcesFromByteArray(final ByteArrayInputStream resources, final String outputFolder)
+    '''returns None\n\n
+    extractResourcesFromByteArray(final ByteArrayInputStream resources, final String outputFolder)\n
     '''
 def exportReport():
-    '''public byte[] exportReport(final UserInfo userInfo, final String reportName, final String appName)
+    '''returns byte[]\n\n
+    exportReport(final UserInfo userInfo, final String reportName, final String appName)\n
     '''
 def getExportReportFolder():
-    '''public String getExportReportFolder(final UserInfo userInfo, final String reportName, final String appName)
+    '''returns String\n\n
+    getExportReportFolder(final UserInfo userInfo, final String reportName, final String appName)\n
     '''
 def exportReportLibrary():
-    '''public byte[] exportReportLibrary(final UserInfo userInfo, final String reportName)
+    '''returns byte[]\n\n
+    exportReportLibrary(final UserInfo userInfo, final String reportName)\n
     '''
 def getReportLibraryNameList():
-    '''public ArrayList<String> getReportLibraryNameList(final UserInfo userInfo)
-    '''
-def getReportNameList():
-    '''public TreeMap<String, List> getReportNameList(final UserInfo userInfo)
-    public TreeMap<String, List> getReportNameList(final UserInfo userInfo, final int reportType)
+    '''returns ArrayList<String>\n\n
+    getReportLibraryNameList(final UserInfo userInfo)\n
     '''
 def getDateFormat():
-    '''public String getDateFormat(final UserInfo userInfo)
+    '''returns String\n\n
+    getDateFormat(final UserInfo userInfo)\n
     '''
 def getTimeFormat():
-    '''public String getTimeFormat(final UserInfo userInfo)
+    '''returns String\n\n
+    getTimeFormat(final UserInfo userInfo)\n
     '''
 def getDateTimeFormat():
-    '''public String getDateTimeFormat(final UserInfo userInfo)
-    public String getDateTimeFormat(final UserInfo userInfo, final String objectName, final String attributeName)
+    '''returns String\n\n
+    getDateTimeFormat(final UserInfo userInfo)\n
+    getDateTimeFormat(final UserInfo userInfo, final String objectName, final String attributeName)\n
     '''
 def getNumberFormat():
-    '''public String getNumberFormat(final UserInfo userInfo)
-    public String getNumberFormat(final UserInfo userInfo, final String objectName, final String attributeName)
+    '''returns String\n\n
+    getNumberFormat(final UserInfo userInfo)\n
+    getNumberFormat(final UserInfo userInfo, final String objectName, final String attributeName)\n
     '''
 def getDecimalFormat():
-    '''public String getDecimalFormat(final UserInfo userInfo, final int fractionDigits)
+    '''returns String\n\n
+    getDecimalFormat(final UserInfo userInfo, final int fractionDigits)\n
     '''
 def runReportWithAttachments():
-    '''public String runReportWithAttachments(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat)
-    public String runReportWithAttachments(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat, final boolean withAttachment, final Map<String, Object> additionalInfoMap)
+    '''returns String\n\n
+    runReportWithAttachments(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat)\n
+    runReportWithAttachments(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat, final boolean withAttachment, final Map<String, Object> additionalInfoMap)\n
     '''
 def runReportInImmediateMode():
-    '''public byte[] runReportInImmediateMode(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat)
-    public byte[] runReportInImmediateMode(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat, final Map<String, Object> additionalInfoMap)
+    '''returns byte[]\n\n
+    runReportInImmediateMode(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat)\n
+    runReportInImmediateMode(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat, final Map<String, Object> additionalInfoMap)\n
     '''
 def runReport():
-    '''public byte[] runReport(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat)
-    public byte[] runReport(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat, final Map<String, Object> additionalInfoMap)
-    public byte[] runReport(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat, final Map<String, Object> additionalInfoMap, final boolean scheduled)
+    '''returns byte[]\n\n
+    runReport(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat)\n
+    runReport(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat, final Map<String, Object> additionalInfoMap)\n
+    runReport(final UserInfo userInfo, final String reportName, final String appName, final ReportParameterData parameterData, final String outputFileName, final String outputFormat, final Map<String, Object> additionalInfoMap, final boolean scheduled)\n
     '''
 def createReportUsageLog():
-    '''public void createReportUsageLog(final UserInfo userInfo, final ReportUsageLogInfo usageLogInfo)
+    '''returns None\n\n
+    createReportUsageLog(final UserInfo userInfo, final ReportUsageLogInfo usageLogInfo)\n
     '''
 def isOverloaded():
-    '''public boolean isOverloaded()
+    '''returns boolean\n\n
+    isOverloaded()\n
     '''
 def getReportEngineState():
-    '''public int getReportEngineState()
+    '''returns int\n\n
+    getReportEngineState()\n
     '''
 def addActiveThread():
-    '''public Long addActiveThread(final String threadName, final String reportName, final String appName, final String userName, final boolean scheduledJob)
+    '''returns Long\n\n
+    addActiveThread(final String threadName, final String reportName, final String appName, final String userName, final boolean scheduledJob)\n
     '''
 def removeActiveThread():
-    '''public void removeActiveThread(final String threadName)
+    '''returns None\n\n
+    removeActiveThread(final String threadName)\n
     '''
 def renewActiveThread():
-    '''public void renewActiveThread(final String threadName)
+    '''returns None\n\n
+    renewActiveThread(final String threadName)\n
     '''
 def setActiveThreadsFromScriptContext():
-    '''public void setActiveThreadsFromScriptContext(final String contextThreadName, final HashSet listOfActiveThreads)
+    '''returns None\n\n
+    setActiveThreadsFromScriptContext(final String contextThreadName, final HashSet listOfActiveThreads)\n
     '''
 def exportReportImportInputInfo():
-    '''public String exportReportImportInputInfo(final UserInfo userInfo, final String reportName, final String appName)
+    '''returns String\n\n
+    exportReportImportInputInfo(final UserInfo userInfo, final String reportName, final String appName)\n
     '''
 def exportLibraryImportInputInfo():
-    '''public String exportLibraryImportInputInfo(final UserInfo userInfo, final String reportName)
+    '''returns String\n\n
+    exportLibraryImportInputInfo(final UserInfo userInfo, final String reportName)\n
     '''
 def createReportDesign():
-    '''public void createReportDesign(final UserInfo userInfo, final CreateReportInputInfo reportInputInfo)
+    '''returns None\n\n
+    createReportDesign(final UserInfo userInfo, final CreateReportInputInfo reportInputInfo)\n
     '''
 def getFileContent():
-    '''public byte[] getFileContent(final String fileName)
+    '''returns byte[]\n\n
+    getFileContent(final String fileName)\n
     '''
 def createResourcesZip():
-    '''public byte[] createResourcesZip(final File[] files)
+    '''returns byte[]\n\n
+    createResourcesZip(final File[] files)\n
     '''
 def isAuthorizedToRunReport():
-    '''public boolean isAuthorizedToRunReport(final UserInfo userInfo, final String reportName, final String appName)
+    '''returns boolean\n\n
+    isAuthorizedToRunReport(final UserInfo userInfo, final String reportName, final String appName)\n
     '''
 def getReportViewerURL():
-    '''public String getReportViewerURL()
+    '''returns String\n\n
+    getReportViewerURL()\n
     '''
 def cancelReportJob():
-    '''public void cancelReportJob(final long reportJobId)
+    '''returns None\n\n
+    cancelReportJob(final long reportJobId)\n
     '''
 def cancelReportJobOnThisServer():
-    '''public void cancelReportJobOnThisServer(final long reportJobId)
+    '''returns None\n\n
+    cancelReportJobOnThisServer(final long reportJobId)\n
     '''
 def isReportJobCancelled():
-    '''public boolean isReportJobCancelled(final long reportJobId)
+    '''returns boolean\n\n
+    isReportJobCancelled(final long reportJobId)\n
     '''
 def exportTransientQBRContent():
-    '''public void exportTransientQBRContent(final String brosId, final MXSession session)
+    '''returns None\n\n
+    exportTransientQBRContent(final String brosId, final MXSession session)\n
     '''
 def getTransientQBRParamsMboSet():
-    '''public MboSetRemote getTransientQBRParamsMboSet(final String brosId, final MXSession session)
+    '''returns MboSetRemote\n\n
+    getTransientQBRParamsMboSet(final String brosId, final MXSession session)\n
     '''
 def removeBROSReport():
-    '''public void removeBROSReport(final String brosId)
-    '''
-def createBROSUniqueTempFolder():
-    '''public static String createBROSUniqueTempFolder(final String parentFolderName)
+    '''returns None\n\n
+    removeBROSReport(final String brosId)\n
     '''
 def sendEmail():
-    '''public void sendEmail(MXLogger logger, UserInfo userInfo, final String templateID, final String[] to, final String from, final MboRemote report, final TextReplacement replacer)
+    '''returns None\n\n
+    sendEmail(MXLogger logger, UserInfo userInfo, final String templateID, final String[] to, final String from, final MboRemote report, final TextReplacement replacer)\n
     '''
 def getReport():
-    '''public MboRemote getReport(final UserInfo userInfo, final String reportName, final String appName)
+    '''returns MboRemote\n\n
+    getReport(final UserInfo userInfo, final String reportName, final String appName)\n
     '''
 def deleteNeededFileFromAttachmentTempDirectory():
-    '''public void deleteNeededFileFromAttachmentTempDirectory(final String outputFolder, final Vector<PathAndReportFlag> listOfFilesVector, final MXLogger logger)
-    '''
-def ReportJobCleanupTask():
-    '''public ReportJobCleanupTask()
+    '''returns None\n\n
+    deleteNeededFileFromAttachmentTempDirectory(final String outputFolder, final Vector<PathAndReportFlag> listOfFilesVector, final MXLogger logger)\n
     '''
 def run():
-    '''public void run()
-    '''
-def PropertiesFileFilter():
-    '''public PropertiesFileFilter(final String propertiesName)
+    '''returns None\n\n
+    run()\n
     '''
 def accept():
-    '''public boolean accept(final File pathname)
+    '''returns boolean\n\n
+    accept(final File pathname)\n
     '''

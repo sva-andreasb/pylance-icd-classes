@@ -1,163 +1,162 @@
 def size():
-    '''public int size()
-    '''
-def isValueNode():
-    '''public final boolean isValueNode()
-    '''
-def isContainerNode():
-    '''public final boolean isContainerNode()
+    '''returns int\n\n
+    size()\n
     '''
 def isMissingNode():
-    '''public boolean isMissingNode()
+    '''returns boolean\n\n
+    isMissingNode()\n
     '''
 def isArray():
-    '''public boolean isArray()
+    '''returns boolean\n\n
+    isArray()\n
     '''
 def isObject():
-    '''public boolean isObject()
+    '''returns boolean\n\n
+    isObject()\n
     '''
 def get():
-    '''public JsonNode get(final String fieldName)
+    '''returns JsonNode\n\n
+    get(final String fieldName)\n
     '''
 def fieldNames():
-    '''public Iterator<String> fieldNames()
-    '''
-def at():
-    '''public final JsonNode at(final JsonPointer ptr)
-    public final JsonNode at(final String jsonPtrExpr)
-    '''
-def isPojo():
-    '''public final boolean isPojo()
-    '''
-def isNumber():
-    '''public final boolean isNumber()
+    '''returns Iterator<String>\n\n
+    fieldNames()\n
     '''
 def isIntegralNumber():
-    '''public boolean isIntegralNumber()
+    '''returns boolean\n\n
+    isIntegralNumber()\n
     '''
 def isFloatingPointNumber():
-    '''public boolean isFloatingPointNumber()
+    '''returns boolean\n\n
+    isFloatingPointNumber()\n
     '''
 def isShort():
-    '''public boolean isShort()
+    '''returns boolean\n\n
+    isShort()\n
     '''
 def isInt():
-    '''public boolean isInt()
+    '''returns boolean\n\n
+    isInt()\n
     '''
 def isLong():
-    '''public boolean isLong()
+    '''returns boolean\n\n
+    isLong()\n
     '''
 def isFloat():
-    '''public boolean isFloat()
+    '''returns boolean\n\n
+    isFloat()\n
     '''
 def isDouble():
-    '''public boolean isDouble()
+    '''returns boolean\n\n
+    isDouble()\n
     '''
 def isBigDecimal():
-    '''public boolean isBigDecimal()
+    '''returns boolean\n\n
+    isBigDecimal()\n
     '''
 def isBigInteger():
-    '''public boolean isBigInteger()
-    '''
-def isTextual():
-    '''public final boolean isTextual()
-    '''
-def isBoolean():
-    '''public final boolean isBoolean()
-    '''
-def isNull():
-    '''public final boolean isNull()
-    '''
-def isBinary():
-    '''public final boolean isBinary()
+    '''returns boolean\n\n
+    isBigInteger()\n
     '''
 def canConvertToInt():
-    '''public boolean canConvertToInt()
+    '''returns boolean\n\n
+    canConvertToInt()\n
     '''
 def canConvertToLong():
-    '''public boolean canConvertToLong()
+    '''returns boolean\n\n
+    canConvertToLong()\n
     '''
 def textValue():
-    '''public String textValue()
+    '''returns String\n\n
+    textValue()\n
     '''
 def binaryValue():
-    '''public byte[] binaryValue()
+    '''returns byte[]\n\n
+    binaryValue()\n
     '''
 def booleanValue():
-    '''public boolean booleanValue()
+    '''returns boolean\n\n
+    booleanValue()\n
     '''
 def numberValue():
-    '''public Number numberValue()
+    '''returns Number\n\n
+    numberValue()\n
     '''
 def shortValue():
-    '''public short shortValue()
+    '''returns short\n\n
+    shortValue()\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def decimalValue():
-    '''public BigDecimal decimalValue()
+    '''returns BigDecimal\n\n
+    decimalValue()\n
     '''
 def bigIntegerValue():
-    '''public BigInteger bigIntegerValue()
+    '''returns BigInteger\n\n
+    bigIntegerValue()\n
     '''
 def asText():
-    '''public String asText(final String defaultValue)
+    '''returns String\n\n
+    asText(final String defaultValue)\n
     '''
 def asInt():
-    '''public int asInt()
-    public int asInt(final int defaultValue)
+    '''returns int\n\n
+    asInt()\n
+    asInt(final int defaultValue)\n
     '''
 def asLong():
-    '''public long asLong()
-    public long asLong(final long defaultValue)
+    '''returns long\n\n
+    asLong()\n
+    asLong(final long defaultValue)\n
     '''
 def asDouble():
-    '''public double asDouble()
-    public double asDouble(final double defaultValue)
+    '''returns double\n\n
+    asDouble()\n
+    asDouble(final double defaultValue)\n
     '''
 def asBoolean():
-    '''public boolean asBoolean()
-    public boolean asBoolean(final boolean defaultValue)
+    '''returns boolean\n\n
+    asBoolean()\n
+    asBoolean(final boolean defaultValue)\n
     '''
 def has():
-    '''public boolean has(final String fieldName)
-    public boolean has(final int index)
+    '''returns boolean\n\n
+    has(final String fieldName)\n
+    has(final int index)\n
     '''
 def hasNonNull():
-    '''public boolean hasNonNull(final String fieldName)
-    public boolean hasNonNull(final int index)
-    '''
-def iterator():
-    '''public final Iterator<JsonNode> iterator()
+    '''returns boolean\n\n
+    hasNonNull(final String fieldName)\n
+    hasNonNull(final int index)\n
     '''
 def elements():
-    '''public Iterator<JsonNode> elements()
-    '''
-def findValues():
-    '''public final List<JsonNode> findValues(final String fieldName)
-    '''
-def findValuesAsText():
-    '''public final List<String> findValuesAsText(final String fieldName)
-    '''
-def findParents():
-    '''public final List<JsonNode> findParents(final String fieldName)
+    '''returns Iterator<JsonNode>\n\n
+    elements()\n
     '''
 def with():
-    '''public JsonNode with(final String propertyName)
+    '''returns JsonNode\n\n
+    with(final String propertyName)\n
     '''
 def withArray():
-    '''public JsonNode withArray(final String propertyName)
+    '''returns JsonNode\n\n
+    withArray(final String propertyName)\n
     '''
 def equals():
-    '''public boolean equals(final Comparator<JsonNode> comparator, final JsonNode other)
+    '''returns boolean\n\n
+    equals(final Comparator<JsonNode> comparator, final JsonNode other)\n
     '''

@@ -1,3 +1,4 @@
-def FeatureSet():
-    '''public FeatureSet(final MboServerInterface ms)
+def ():
+    '''returns FeatureSet\n\n
+    (final MboServerInterface ms)\n
     '''

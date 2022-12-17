@@ -1,22 +1,25 @@
-def MessageHubProviderCacheImpl():
-    '''public MessageHubProviderCacheImpl()
+def ():
+    '''returns MessageHubProviderCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getProviderFactory():
-    '''public MessageHubProviderFactory getProviderFactory(final String provider)
+    '''returns MessageHubProviderFactory\n\n
+    getProviderFactory(final String provider)\n
     '''
 def getDefaultProviderFactory():
-    '''public MessageHubProviderFactory getDefaultProviderFactory()
-    '''
-def getPrviderConfig():
-    '''public Map<String, String> getPrviderConfig(final String provider)
+    '''returns MessageHubProviderFactory\n\n
+    getDefaultProviderFactory()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

@@ -1,53 +1,69 @@
-def DefaultPriorityQueue():
-    '''public DefaultPriorityQueue(final Comparator<T> comparator, final int initialSize)
+def ():
+    '''returns DefaultPriorityQueue\n\n
+    (final Comparator<T> comparator, final int initialSize)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def containsTyped():
-    '''public boolean containsTyped(final T node)
+    '''returns boolean\n\n
+    containsTyped(final T node)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def clearIgnoringIndexes():
-    '''public void clearIgnoringIndexes()
+    '''returns None\n\n
+    clearIgnoringIndexes()\n
     '''
 def offer():
-    '''public boolean offer(final T e)
+    '''returns boolean\n\n
+    offer(final T e)\n
     '''
 def poll():
-    '''public T poll()
+    '''returns T\n\n
+    poll()\n
     '''
 def peek():
-    '''public T peek()
+    '''returns T\n\n
+    peek()\n
     '''
 def remove():
-    '''public boolean remove(final Object o)
-    public void remove()
+    '''returns None\n\n
+    remove(final Object o)\n
+    remove()\n
     '''
 def removeTyped():
-    '''public boolean removeTyped(final T node)
+    '''returns boolean\n\n
+    removeTyped(final T node)\n
     '''
 def priorityChanged():
-    '''public void priorityChanged(final T node)
+    '''returns None\n\n
+    priorityChanged(final T node)\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <X> X[] toArray(final X[] a)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def iterator():
-    '''public Iterator<T> iterator()
+    '''returns Iterator<T>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public T next()
+    '''returns T\n\n
+    next()\n
     '''

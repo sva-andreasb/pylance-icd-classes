@@ -1,27 +1,36 @@
-def ButtonAutoClick():
-    '''public ButtonAutoClick()
+def ():
+    '''returns ButtonAutoClick\n\n
+    ()\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getClickInterval():
-    '''public int getClickInterval()
+    '''returns int\n\n
+    getClickInterval()\n
     '''
 def isAutoClickEnabled():
-    '''public boolean isAutoClickEnabled()
+    '''returns boolean\n\n
+    isAutoClickEnabled()\n
     '''
 def getAutoClickButtonRenderId():
-    '''public String getAutoClickButtonRenderId()
+    '''returns String\n\n
+    getAutoClickButtonRenderId()\n
     '''
 def getValues():
-    '''public String getValues()
+    '''returns String\n\n
+    getValues()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''

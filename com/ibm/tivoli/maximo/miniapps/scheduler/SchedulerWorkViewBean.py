@@ -1,39 +1,52 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def async_set_compliance():
-    '''public boolean async_set_compliance(@MXEventParam("projectid") final String id, @MXEventParam("state") final boolean state)
+    '''returns boolean\n\n
+    async_set_compliance(@MXEventParam("projectid") final String id, @MXEventParam("state") final boolean state)\n
     '''
 def async_reforecast_pm():
-    '''public boolean async_reforecast_pm(@MXEventParam("projectid") final String currentProjectId)
+    '''returns boolean\n\n
+    async_reforecast_pm(@MXEventParam("projectid") final String currentProjectId)\n
     '''
 def _cpmcreatelinks():
-    '''public JSONObject _cpmcreatelinks(final WebClientSession sess, @MXEventParam("ids") final String ids, final String values)
+    '''returns JSONObject\n\n
+    _cpmcreatelinks(final WebClientSession sess, @MXEventParam("ids") final String ids, final String values)\n
     '''
 def _cpmall():
-    '''public JSONObject _cpmall(final WebClientSession sess)
+    '''returns JSONObject\n\n
+    _cpmall(final WebClientSession sess)\n
     '''
 def _cpmselected():
-    '''public JSONObject _cpmselected(final WebClientSession sess, @MXEventParam("ids") final String ids, final String values)
+    '''returns JSONObject\n\n
+    _cpmselected(final WebClientSession sess, @MXEventParam("ids") final String ids, final String values)\n
     '''
 def _cpmfilter():
-    '''public JSONObject _cpmfilter(final WebClientSession sess, @MXEventParam("filteredByCriticalPath") final boolean filteredByCriticalPath)
+    '''returns JSONObject\n\n
+    _cpmfilter(final WebClientSession sess, @MXEventParam("filteredByCriticalPath") final boolean filteredByCriticalPath)\n
     '''
 def REFORECAST():
-    '''public JSONObject REFORECAST(final WebClientSession sess, final String actionid, final String params)
+    '''returns JSONObject\n\n
+    REFORECAST(final WebClientSession sess, final String actionid, final String params)\n
     '''
 def validatePMsegment():
-    '''public void validatePMsegment(final WebClientSession sess, final JSONObject change, final ReplyBuilder reply, final MXGanttModel model, final MXActivity currentActivity)
+    '''returns None\n\n
+    validatePMsegment(final WebClientSession sess, final JSONObject change, final ReplyBuilder reply, final MXGanttModel model, final MXActivity currentActivity)\n
     '''
 def isRepairFacilityEnabled():
-    '''public boolean isRepairFacilityEnabled()
+    '''returns boolean\n\n
+    isRepairFacilityEnabled()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def _refreshSelected():
-    '''public JSONObject _refreshSelected(final WebClientSession sess, @MXEventParam("ids") final String ids)
+    '''returns JSONObject\n\n
+    _refreshSelected(final WebClientSession sess, @MXEventParam("ids") final String ids)\n
     '''
 def _discardRefreshSelected():
-    '''public JSONObject _discardRefreshSelected(final WebClientSession sess, @MXEventParam("ids") final String ids)
+    '''returns JSONObject\n\n
+    _discardRefreshSelected(final WebClientSession sess, @MXEventParam("ids") final String ids)\n
     '''

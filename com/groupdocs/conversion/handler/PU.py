@@ -1,4 +1,5 @@
-def PU():
-    '''public PU(final String message)
-    public PU()
+def ():
+    '''returns PU\n\n
+    (final String message)\n
+    ()\n
     '''

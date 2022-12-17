@@ -1,12 +1,16 @@
-def PlusPPricesStatusHandler():
-    '''public PlusPPricesStatusHandler(final StatefulMbo statefulMbo)
+def ():
+    '''returns PlusPPricesStatusHandler\n\n
+    (final StatefulMbo statefulMbo)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String s)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String s)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String s, final String val, final Date val2, final String s2)
+    '''returns None\n\n
+    changeStatus(final String s, final String val, final Date val2, final String s2)\n
     '''
 def postStatusChange():
-    '''public void postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)\n
     '''

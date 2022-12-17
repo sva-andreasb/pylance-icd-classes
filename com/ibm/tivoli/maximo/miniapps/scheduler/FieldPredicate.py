@@ -1,6 +1,8 @@
-def FieldPredicate():
-    '''public FieldPredicate(final String fld, final Object value)
+def ():
+    '''returns FieldPredicate\n\n
+    (final String fld, final Object value)\n
     '''
 def test():
-    '''public boolean test(final IMXActivity in)
+    '''returns boolean\n\n
+    test(final IMXActivity in)\n
     '''

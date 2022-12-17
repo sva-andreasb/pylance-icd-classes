@@ -1,29 +1,37 @@
-def CollatingIterator():
-    '''public CollatingIterator()
-    public CollatingIterator(final Comparator<? super E> comp)
-    public CollatingIterator(final Comparator<? super E> comp, final int initIterCapacity)
-    public CollatingIterator(final Comparator<? super E> comp, final Iterator<? extends E> a, final Iterator<? extends E> b)
-    public CollatingIterator(final Comparator<? super E> comp, final Iterator<? extends E>[] iterators)
-    public CollatingIterator(final Comparator<? super E> comp, final Collection<Iterator<? extends E>> iterators)
+def ():
+    '''returns CollatingIterator\n\n
+    ()\n
+    (final Comparator<? super E> comp)\n
+    (final Comparator<? super E> comp, final int initIterCapacity)\n
+    (final Comparator<? super E> comp, final Iterator<? extends E> a, final Iterator<? extends E> b)\n
+    (final Comparator<? super E> comp, final Iterator<? extends E>[] iterators)\n
+    (final Comparator<? super E> comp, final Collection<Iterator<? extends E>> iterators)\n
     '''
 def addIterator():
-    '''public void addIterator(final Iterator<? extends E> iterator)
+    '''returns None\n\n
+    addIterator(final Iterator<? extends E> iterator)\n
     '''
 def setIterator():
-    '''public void setIterator(final int index, final Iterator<? extends E> iterator)
+    '''returns None\n\n
+    setIterator(final int index, final Iterator<? extends E> iterator)\n
     '''
 def setComparator():
-    '''public void setComparator(final Comparator<? super E> comp)
+    '''returns None\n\n
+    setComparator(final Comparator<? super E> comp)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getIteratorIndex():
-    '''public int getIteratorIndex()
+    '''returns int\n\n
+    getIteratorIndex()\n
     '''

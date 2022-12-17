@@ -3,35 +3,46 @@ PROP_HOLDER_ID = "String  \"holderid\""
 PROP_REPLACEMENT_METHOD = "String  \"replacemethod\""
 HOLDER_ID_SUFFIX = "String  \"_holder\""
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def spellcheck():
-    '''public int spellcheck()
+    '''returns int\n\n
+    spellcheck()\n
     '''
 def getCurrentValue():
-    '''public String getCurrentValue()
+    '''returns String\n\n
+    getCurrentValue()\n
     '''
 def spellcheckreturn():
-    '''public int spellcheckreturn()
+    '''returns int\n\n
+    spellcheckreturn()\n
     '''
 def getDataAttribute():
-    '''public String getDataAttribute()
+    '''returns String\n\n
+    getDataAttribute()\n
     '''
 def getControlBean():
-    '''public DataBean getControlBean()
+    '''returns DataBean\n\n
+    getControlBean()\n
     '''
 def isRichTextSupported():
-    '''public boolean isRichTextSupported()
+    '''returns boolean\n\n
+    isRichTextSupported()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def getChildComponent():
-    '''public BaseInstance getChildComponent(final BaseInstance component, final String componentType)
+    '''returns BaseInstance\n\n
+    getChildComponent(final BaseInstance component, final String componentType)\n
     '''

@@ -1,16 +1,21 @@
 CONTENT_TYPE = "String  \"multipart/mixed\""
-def MimeMultipartDataSource():
-    '''public MimeMultipartDataSource(final String name, final MimeMultipart data)
+def ():
+    '''returns MimeMultipartDataSource\n\n
+    (final String name, final MimeMultipart data)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''

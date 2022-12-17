@@ -1,6 +1,8 @@
 def createDocumentPart():
-    '''public POIXMLDocumentPart createDocumentPart(final POIXMLDocumentPart parent, final PackagePart part)
+    '''returns POIXMLDocumentPart\n\n
+    createDocumentPart(final POIXMLDocumentPart parent, final PackagePart part)\n
     '''
 def newDocumentPart():
-    '''public POIXMLDocumentPart newDocumentPart(final POIXMLRelation descriptor)
+    '''returns POIXMLDocumentPart\n\n
+    newDocumentPart(final POIXMLRelation descriptor)\n
     '''

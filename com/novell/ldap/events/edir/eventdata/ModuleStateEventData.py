@@ -1,21 +1,28 @@
-def ModuleStateEventData():
-    '''public ModuleStateEventData(final ASN1Object asn1Object)
+def ():
+    '''returns ModuleStateEventData\n\n
+    (final ASN1Object asn1Object)\n
     '''
 def getConnectionDN():
-    '''public String getConnectionDN()
+    '''returns String\n\n
+    getConnectionDN()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getFlags():
-    '''public int getFlags()
+    '''returns int\n\n
+    getFlags()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSource():
-    '''public String getSource()
+    '''returns String\n\n
+    getSource()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

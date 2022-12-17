@@ -1,14 +1,17 @@
 UNCOMPRESSED = "String  \"http.client.response.uncompressed\""
-def ResponseContentEncoding():
-    '''public ResponseContentEncoding(final Lookup<InputStreamFactory> decoderRegistry, final boolean ignoreUnknown)
-    public ResponseContentEncoding(final boolean ignoreUnknown)
-    public ResponseContentEncoding(final Lookup<InputStreamFactory> decoderRegistry)
-    public ResponseContentEncoding()
+def ():
+    '''returns ResponseContentEncoding\n\n
+    (final Lookup<InputStreamFactory> decoderRegistry, final boolean ignoreUnknown)\n
+    (final boolean ignoreUnknown)\n
+    (final Lookup<InputStreamFactory> decoderRegistry)\n
+    ()\n
     '''
 def process():
-    '''public void process(final HttpResponse response, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpResponse response, final HttpContext context)\n
     '''
 def create():
-    '''public InputStream create(final InputStream instream)
-    public InputStream create(final InputStream instream)
+    '''returns InputStream\n\n
+    create(final InputStream instream)\n
+    create(final InputStream instream)\n
     '''

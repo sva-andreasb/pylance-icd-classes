@@ -1,9 +1,12 @@
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''
 def loadCompareData():
-    '''public void loadCompareData(final WebClientSession sess, @MXEventParam("compare") final JSONObject compareJsonData)
+    '''returns None\n\n
+    loadCompareData(final WebClientSession sess, @MXEventParam("compare") final JSONObject compareJsonData)\n
     '''
 def getTooltipForDate():
-    '''public DynamicTooltip getTooltipForDate(final WebClientSession sess, @MXEventParam("projectid") String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)
+    '''returns DynamicTooltip\n\n
+    getTooltipForDate(final WebClientSession sess, @MXEventParam("projectid") String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)\n
     '''

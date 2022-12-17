@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute(final MboSetRemote docs)
+    '''returns int\n\n
+    execute(final MboSetRemote docs)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

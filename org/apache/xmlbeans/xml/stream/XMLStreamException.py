@@ -1,30 +1,38 @@
-def XMLStreamException():
-    '''public XMLStreamException()
-    public XMLStreamException(final String msg)
-    public XMLStreamException(final Throwable th)
-    public XMLStreamException(final String msg, final Throwable th)
+def ():
+    '''returns XMLStreamException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th)\n
+    (final String msg, final Throwable th)\n
     '''
 def getNestedException():
-    '''public Throwable getNestedException()
+    '''returns Throwable\n\n
+    getNestedException()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getNested():
-    '''public Throwable getNested()
+    '''returns Throwable\n\n
+    getNested()\n
     '''
 def superToString():
-    '''public String superToString()
+    '''returns String\n\n
+    superToString()\n
     '''
 def superPrintStackTrace():
-    '''public void superPrintStackTrace(final PrintStream ps)
-    public void superPrintStackTrace(final PrintWriter pw)
+    '''returns None\n\n
+    superPrintStackTrace(final PrintStream ps)\n
+    superPrintStackTrace(final PrintWriter pw)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace(final PrintStream s)
-    public void printStackTrace(final PrintWriter w)
-    public void printStackTrace()
+    '''returns None\n\n
+    printStackTrace(final PrintStream s)\n
+    printStackTrace(final PrintWriter w)\n
+    printStackTrace()\n
     '''

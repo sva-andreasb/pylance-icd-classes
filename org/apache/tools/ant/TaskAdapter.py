@@ -1,19 +1,21 @@
-def TaskAdapter():
-    '''public TaskAdapter()
-    public TaskAdapter(final Object proxy)
-    '''
-def checkTaskClass():
-    '''public static void checkTaskClass(final Class taskClass, final Project project)
+def ():
+    '''returns TaskAdapter\n\n
+    ()\n
+    (final Object proxy)\n
     '''
 def checkProxyClass():
-    '''public void checkProxyClass(final Class proxyClass)
+    '''returns None\n\n
+    checkProxyClass(final Class proxyClass)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setProxy():
-    '''public void setProxy(final Object o)
+    '''returns None\n\n
+    setProxy(final Object o)\n
     '''
 def getProxy():
-    '''public Object getProxy()
+    '''returns Object\n\n
+    getProxy()\n
     '''

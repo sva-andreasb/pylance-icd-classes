@@ -1,43 +1,40 @@
-def PlusPAdvancedSearchWorkOrderBean():
-    '''public PlusPAdvancedSearchWorkOrderBean()
-    '''
-def getQbeUnbilledTrans():
-    '''public synchronized String getQbeUnbilledTrans(final String s)
-    '''
-def getQbeBillingState():
-    '''public synchronized String getQbeBillingState(final String s)
-    '''
-def getQbe():
-    '''public synchronized String getQbe(final String attribute)
+def ():
+    '''returns PlusPAdvancedSearchWorkOrderBean\n\n
+    ()\n
     '''
 def setQbe():
-    '''public synchronized void setQbe(final String attribute, final MboSetRemote expression)
-    public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def defaultExec():
-    '''public int defaultExec()
+    '''returns int\n\n
+    defaultExec()\n
     '''
 def clearqryandfld():
-    '''public int clearqryandfld()
+    '''returns int\n\n
+    clearqryandfld()\n
     '''
 def clearfield():
-    '''public int clearfield()
+    '''returns int\n\n
+    clearfield()\n
     '''
 def restoredefaultqry():
-    '''public int restoredefaultqry()
+    '''returns int\n\n
+    restoredefaultqry()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def qbecancel():
-    '''public int qbecancel()
+    '''returns int\n\n
+    qbecancel()\n
     '''
 def getUsageToRecordBillStateQbe():
-    '''public String getUsageToRecordBillStateQbe(final String s)
+    '''returns String\n\n
+    getUsageToRecordBillStateQbe(final String s)\n
     '''
 def getUsageToRecordUnBilledTransQbe():
-    '''public String getUsageToRecordUnBilledTransQbe(final String s)
-    '''
-def getUsageToRecordUnBilledTransClause():
-    '''public static String getUsageToRecordUnBilledTransClause()
+    '''returns String\n\n
+    getUsageToRecordUnBilledTransQbe(final String s)\n
     '''

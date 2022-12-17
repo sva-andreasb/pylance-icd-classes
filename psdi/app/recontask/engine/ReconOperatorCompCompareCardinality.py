@@ -1,9 +1,12 @@
-def ReconOperatorCompCompareCardinality():
-    '''public ReconOperatorCompCompareCardinality(final ReconInfo reconInfo, final String operator, final int precedence)
+def ():
+    '''returns ReconOperatorCompCompareCardinality\n\n
+    (final ReconInfo reconInfo, final String operator, final int precedence)\n
     '''
 def getInstance():
-    '''public ReconOperator getInstance()
+    '''returns ReconOperator\n\n
+    getInstance()\n
     '''
 def evaluateOperator():
-    '''public ReconCompResult evaluateOperator(final String qualifiedName1, final String qualifiedName2, final ComparisonQueryHelper qh)
+    '''returns ReconCompResult\n\n
+    evaluateOperator(final String qualifiedName1, final String qualifiedName2, final ComparisonQueryHelper qh)\n
     '''

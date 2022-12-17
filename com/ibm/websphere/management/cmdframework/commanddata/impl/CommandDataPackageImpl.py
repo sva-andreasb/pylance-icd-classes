@@ -1,72 +1,92 @@
-def init():
-    '''public static CommandDataPackage init()
-    '''
 def getCommandData():
-    '''public EClass getCommandData()
+    '''returns EClass\n\n
+    getCommandData()\n
     '''
 def getCommandData_Name():
-    '''public EAttribute getCommandData_Name()
+    '''returns EAttribute\n\n
+    getCommandData_Name()\n
     '''
 def getCommandData_TargetObject():
-    '''public EReference getCommandData_TargetObject()
+    '''returns EReference\n\n
+    getCommandData_TargetObject()\n
     '''
 def getCommandData_Version():
-    '''public EAttribute getCommandData_Version()
+    '''returns EAttribute\n\n
+    getCommandData_Version()\n
     '''
 def getCommandData_CmdParams():
-    '''public EReference getCommandData_CmdParams()
+    '''returns EReference\n\n
+    getCommandData_CmdParams()\n
     '''
 def getCommandData_UserData():
-    '''public EReference getCommandData_UserData()
+    '''returns EReference\n\n
+    getCommandData_UserData()\n
     '''
 def getCommandStepData():
-    '''public EClass getCommandStepData()
+    '''returns EClass\n\n
+    getCommandStepData()\n
     '''
 def getCommandStepData_Enabled():
-    '''public EAttribute getCommandStepData_Enabled()
+    '''returns EAttribute\n\n
+    getCommandStepData_Enabled()\n
     '''
 def getCommandStepData_Required():
-    '''public EAttribute getCommandStepData_Required()
+    '''returns EAttribute\n\n
+    getCommandStepData_Required()\n
     '''
 def getTaskCommandData():
-    '''public EClass getTaskCommandData()
+    '''returns EClass\n\n
+    getTaskCommandData()\n
     '''
 def getTaskCommandData_Steps():
-    '''public EReference getTaskCommandData_Steps()
+    '''returns EReference\n\n
+    getTaskCommandData_Steps()\n
     '''
 def getUserData():
-    '''public EClass getUserData()
+    '''returns EClass\n\n
+    getUserData()\n
     '''
 def getUserData_UserName():
-    '''public EAttribute getUserData_UserName()
+    '''returns EAttribute\n\n
+    getUserData_UserName()\n
     '''
 def getUserData_WorkspaceId():
-    '''public EAttribute getUserData_WorkspaceId()
+    '''returns EAttribute\n\n
+    getUserData_WorkspaceId()\n
     '''
 def getUserData_Locale():
-    '''public EAttribute getUserData_Locale()
+    '''returns EAttribute\n\n
+    getUserData_Locale()\n
     '''
 def getObjectValue():
-    '''public EClass getObjectValue()
+    '''returns EClass\n\n
+    getObjectValue()\n
     '''
 def getGenericObjectValue():
-    '''public EClass getGenericObjectValue()
+    '''returns EClass\n\n
+    getGenericObjectValue()\n
     '''
 def getGenericObjectValue_SerializedValue():
-    '''public EAttribute getGenericObjectValue_SerializedValue()
+    '''returns EAttribute\n\n
+    getGenericObjectValue_SerializedValue()\n
     '''
 def getCommandResults():
-    '''public EClass getCommandResults()
+    '''returns EClass\n\n
+    getCommandResults()\n
     '''
 def getCommandResults_Results():
-    '''public EReference getCommandResults_Results()
+    '''returns EReference\n\n
+    getCommandResults_Results()\n
     '''
 def getCommandDataFactory():
-    '''public CommandDataFactory getCommandDataFactory()
+    '''returns CommandDataFactory\n\n
+    getCommandDataFactory()\n
     '''
 def createPackageContents():
-    '''public void createPackageContents()
+    '''returns None\n\n
+    createPackageContents()\n
     '''
 def initializePackageContents():
-    '''public void initializePackageContents()
+    '''returns None\n\n
+    initializePackageContents()\n
     '''

@@ -1,24 +1,28 @@
-def ShowAllPlanMboSet():
-    '''public ShowAllPlanMboSet(final MboRemote owner, final String name, final String relationship)
+def ():
+    '''returns ShowAllPlanMboSet\n\n
+    (final MboRemote owner, final String name, final String relationship)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def setOwner():
-    '''public final void setOwner(final MboRemote mbo)
+    '''returns String\n\n
+    getName()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def fetchMbos():
-    '''public void fetchMbos(final int toPosition)
+    '''returns None\n\n
+    fetchMbos(final int toPosition)\n
     '''
 def getZombie():
-    '''public MboRemote getZombie()
+    '''returns MboRemote\n\n
+    getZombie()\n
     '''
 def setOrderBy():
-    '''public void setOrderBy(final String orderByClause)
+    '''returns None\n\n
+    setOrderBy(final String orderByClause)\n
     '''
 def getOrderBy():
-    '''public String getOrderBy()
+    '''returns String\n\n
+    getOrderBy()\n
     '''

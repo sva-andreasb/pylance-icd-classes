@@ -1,61 +1,64 @@
-def construct():
-    '''public static PropertyMetadata construct(final Boolean req, final String desc, final Integer index, final String defaultValue)
-    public static PropertyMetadata construct(final boolean req, final String desc, final Integer index, final String defaultValue)
-    '''
 def withDescription():
-    '''public PropertyMetadata withDescription(final String desc)
+    '''returns PropertyMetadata\n\n
+    withDescription(final String desc)\n
     '''
 def withMergeInfo():
-    '''public PropertyMetadata withMergeInfo(final MergeInfo mergeInfo)
+    '''returns PropertyMetadata\n\n
+    withMergeInfo(final MergeInfo mergeInfo)\n
     '''
 def withNulls():
-    '''public PropertyMetadata withNulls(final Nulls valueNulls, final Nulls contentNulls)
+    '''returns PropertyMetadata\n\n
+    withNulls(final Nulls valueNulls, final Nulls contentNulls)\n
     '''
 def withDefaultValue():
-    '''public PropertyMetadata withDefaultValue(String def)
+    '''returns PropertyMetadata\n\n
+    withDefaultValue(String def)\n
     '''
 def withIndex():
-    '''public PropertyMetadata withIndex(final Integer index)
+    '''returns PropertyMetadata\n\n
+    withIndex(final Integer index)\n
     '''
 def withRequired():
-    '''public PropertyMetadata withRequired(final Boolean b)
+    '''returns PropertyMetadata\n\n
+    withRequired(final Boolean b)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def hasDefaultValue():
-    '''public boolean hasDefaultValue()
+    '''returns boolean\n\n
+    hasDefaultValue()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def getRequired():
-    '''public Boolean getRequired()
+    '''returns Boolean\n\n
+    getRequired()\n
     '''
 def getIndex():
-    '''public Integer getIndex()
+    '''returns Integer\n\n
+    getIndex()\n
     '''
 def hasIndex():
-    '''public boolean hasIndex()
+    '''returns boolean\n\n
+    hasIndex()\n
     '''
 def getMergeInfo():
-    '''public MergeInfo getMergeInfo()
+    '''returns MergeInfo\n\n
+    getMergeInfo()\n
     '''
 def getValueNulls():
-    '''public Nulls getValueNulls()
+    '''returns Nulls\n\n
+    getValueNulls()\n
     '''
 def getContentNulls():
-    '''public Nulls getContentNulls()
-    '''
-def createForDefaults():
-    '''public static MergeInfo createForDefaults(final AnnotatedMember getter)
-    '''
-def createForTypeOverride():
-    '''public static MergeInfo createForTypeOverride(final AnnotatedMember getter)
-    '''
-def createForPropertyOverride():
-    '''public static MergeInfo createForPropertyOverride(final AnnotatedMember getter)
+    '''returns Nulls\n\n
+    getContentNulls()\n
     '''

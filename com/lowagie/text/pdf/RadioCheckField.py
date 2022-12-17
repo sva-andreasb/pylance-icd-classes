@@ -4,39 +4,51 @@ TYPE_CROSS = "int  3"
 TYPE_DIAMOND = "int  4"
 TYPE_SQUARE = "int  5"
 TYPE_STAR = "int  6"
-def RadioCheckField():
-    '''public RadioCheckField(final PdfWriter writer, final Rectangle box, final String fieldName, final String onValue)
+def ():
+    '''returns RadioCheckField\n\n
+    (final PdfWriter writer, final Rectangle box, final String fieldName, final String onValue)\n
     '''
 def getCheckType():
-    '''public int getCheckType()
+    '''returns int\n\n
+    getCheckType()\n
     '''
 def setCheckType():
-    '''public void setCheckType(int checkType)
+    '''returns None\n\n
+    setCheckType(int checkType)\n
     '''
 def getOnValue():
-    '''public String getOnValue()
+    '''returns String\n\n
+    getOnValue()\n
     '''
 def setOnValue():
-    '''public void setOnValue(final String onValue)
+    '''returns None\n\n
+    setOnValue(final String onValue)\n
     '''
 def isChecked():
-    '''public boolean isChecked()
+    '''returns boolean\n\n
+    isChecked()\n
     '''
 def setChecked():
-    '''public void setChecked(final boolean checked)
+    '''returns None\n\n
+    setChecked(final boolean checked)\n
     '''
 def getAppearance():
-    '''public PdfAppearance getAppearance(final boolean isRadio, final boolean on)
+    '''returns PdfAppearance\n\n
+    getAppearance(final boolean isRadio, final boolean on)\n
     '''
 def getAppearanceRadioCircle():
-    '''public PdfAppearance getAppearanceRadioCircle(final boolean on)
+    '''returns PdfAppearance\n\n
+    getAppearanceRadioCircle(final boolean on)\n
     '''
 def getRadioGroup():
-    '''public PdfFormField getRadioGroup(final boolean noToggleToOff, final boolean radiosInUnison)
+    '''returns PdfFormField\n\n
+    getRadioGroup(final boolean noToggleToOff, final boolean radiosInUnison)\n
     '''
 def getRadioField():
-    '''public PdfFormField getRadioField()
+    '''returns PdfFormField\n\n
+    getRadioField()\n
     '''
 def getCheckField():
-    '''public PdfFormField getCheckField()
+    '''returns PdfFormField\n\n
+    getCheckField()\n
     '''

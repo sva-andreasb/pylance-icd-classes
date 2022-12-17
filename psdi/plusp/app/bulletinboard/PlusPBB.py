@@ -1,15 +1,20 @@
-def PlusPBB():
-    '''public PlusPBB(final MboSet arg0)
+def ():
+    '''returns PlusPBB\n\n
+    (final MboSet arg0)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def copyAndReplaceUId():
-    '''public void copyAndReplaceUId(final MboSetRemote mboSetRemote, final MboSetRemote mboSetRemote2, final String s)
+    '''returns None\n\n
+    copyAndReplaceUId(final MboSetRemote mboSetRemote, final MboSetRemote mboSetRemote2, final String s)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

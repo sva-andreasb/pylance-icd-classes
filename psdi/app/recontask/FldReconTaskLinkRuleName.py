@@ -1,3 +1,4 @@
-def FldReconTaskLinkRuleName():
-    '''public FldReconTaskLinkRuleName(final MboValue mbv)
+def ():
+    '''returns FldReconTaskLinkRuleName\n\n
+    (final MboValue mbv)\n
     '''

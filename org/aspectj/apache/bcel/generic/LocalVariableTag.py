@@ -1,34 +1,45 @@
-def LocalVariableTag():
-    '''public LocalVariableTag(final String signature, final String name, final int slot, final int startPosition)
-    public LocalVariableTag(final Type type, final String signature, final String name, final int slot, final int startPosition)
+def ():
+    '''returns LocalVariableTag\n\n
+    (final String signature, final String name, final int slot, final int startPosition)\n
+    (final Type type, final String signature, final String name, final int slot, final int startPosition)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSlot():
-    '''public int getSlot()
+    '''returns int\n\n
+    getSlot()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getRealType():
-    '''public Type getRealType()
+    '''returns Type\n\n
+    getRealType()\n
     '''
 def updateSlot():
-    '''public void updateSlot(final int newSlot)
+    '''returns None\n\n
+    updateSlot(final int newSlot)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isRemapped():
-    '''public boolean isRemapped()
+    '''returns boolean\n\n
+    isRemapped()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

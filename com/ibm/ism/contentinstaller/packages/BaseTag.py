@@ -1,83 +1,102 @@
-def BaseTag():
-    '''public BaseTag(final BaseTag parent, final String name)
-    '''
-def visit():
-    '''public static void visit(final List<BaseTag> tags, final BaseTagVisitor visitor)
+def ():
+    '''returns BaseTag\n\n
+    (final BaseTag parent, final String name)\n
     '''
 def getRootTag():
-    '''public RootTag getRootTag()
+    '''returns RootTag\n\n
+    getRootTag()\n
     '''
 def isRootTag():
-    '''public boolean isRootTag()
+    '''returns boolean\n\n
+    isRootTag()\n
     '''
 def isGroupTag():
-    '''public boolean isGroupTag()
+    '''returns boolean\n\n
+    isGroupTag()\n
     '''
 def isFileTag():
-    '''public boolean isFileTag()
+    '''returns boolean\n\n
+    isFileTag()\n
     '''
 def isExportFileTag():
-    '''public boolean isExportFileTag()
+    '''returns boolean\n\n
+    isExportFileTag()\n
     '''
 def isImportFileTag():
-    '''public boolean isImportFileTag()
+    '''returns boolean\n\n
+    isImportFileTag()\n
     '''
 def getParent():
-    '''public BaseTag getParent()
+    '''returns BaseTag\n\n
+    getParent()\n
     '''
 def getChildren():
-    '''public List<BaseTag> getChildren()
+    '''returns List<BaseTag>\n\n
+    getChildren()\n
     '''
 def addChild():
-    '''public void addChild(final BaseTag child)
-    '''
-def getOptions():
-    '''public Map<String, Option> getOptions()
+    '''returns None\n\n
+    addChild(final BaseTag child)\n
     '''
 def addOption():
-    '''public void addOption(final Option option)
+    '''returns None\n\n
+    addOption(final Option option)\n
     '''
 def getReplacementsInfo():
-    '''public ReplacementsInfo getReplacementsInfo()
+    '''returns ReplacementsInfo\n\n
+    getReplacementsInfo()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getSummary():
-    '''public String getSummary()
+    '''returns String\n\n
+    getSummary()\n
     '''
 def setSummary():
-    '''public void setSummary(final String summary)
+    '''returns None\n\n
+    setSummary(final String summary)\n
     '''
 def getIsSelected():
-    '''public boolean getIsSelected()
+    '''returns boolean\n\n
+    getIsSelected()\n
     '''
 def setIsSelected():
-    '''public void setIsSelected()
-    public void setIsSelected(final boolean isSelected)
+    '''returns None\n\n
+    setIsSelected()\n
+    setIsSelected(final boolean isSelected)\n
     '''
 def setNotSelected():
-    '''public void setNotSelected()
+    '''returns None\n\n
+    setNotSelected()\n
     '''
 def getHasError():
-    '''public boolean getHasError()
+    '''returns boolean\n\n
+    getHasError()\n
     '''
 def setHasError():
-    '''public void setHasError(final boolean hasError)
+    '''returns None\n\n
+    setHasError(final boolean hasError)\n
     '''
 def getMessages():
-    '''public List<Message> getMessages()
+    '''returns List<Message>\n\n
+    getMessages()\n
     '''
 def addMessage():
-    '''public void addMessage(final Message mesg)
+    '''returns None\n\n
+    addMessage(final Message mesg)\n
     '''
 def accept():
-    '''public void accept(final BaseTagVisitor visitor)
-    public void accept(final BaseTagVisitor visitor, final boolean recurse)
+    '''returns None\n\n
+    accept(final BaseTagVisitor visitor)\n
+    accept(final BaseTagVisitor visitor, final boolean recurse)\n
     '''
 def acceptReverse():
-    '''public void acceptReverse(final BaseTagVisitor visitor)
+    '''returns None\n\n
+    acceptReverse(final BaseTagVisitor visitor)\n
     '''

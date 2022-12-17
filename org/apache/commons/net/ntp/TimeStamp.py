@@ -1,51 +1,52 @@
 NTP_DATE_FORMAT = "String  \"EEE, MMM dd yyyy HH:mm:ss.SSS\""
-def TimeStamp():
-    '''public TimeStamp(final long ntpTime)
-    public TimeStamp(final String s)
-    public TimeStamp(final Date d)
+def ():
+    '''returns TimeStamp\n\n
+    (final long ntpTime)\n
+    (final String s)\n
+    (final Date d)\n
     '''
 def ntpValue():
-    '''public long ntpValue()
+    '''returns long\n\n
+    ntpValue()\n
     '''
 def getSeconds():
-    '''public long getSeconds()
+    '''returns long\n\n
+    getSeconds()\n
     '''
 def getFraction():
-    '''public long getFraction()
+    '''returns long\n\n
+    getFraction()\n
     '''
 def getTime():
-    '''public long getTime()
-    public static long getTime(final long ntpTimeValue)
+    '''returns long\n\n
+    getTime()\n
     '''
 def getDate():
-    '''public Date getDate()
-    '''
-def getNtpTime():
-    '''public static TimeStamp getNtpTime(final long date)
-    '''
-def getCurrentTime():
-    '''public static TimeStamp getCurrentTime()
-    '''
-def parseNtpString():
-    '''public static TimeStamp parseNtpString(final String s)
+    '''returns Date\n\n
+    getDate()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
-    public static String toString(final long ntpTime)
+    '''returns String\n\n
+    toString()\n
     '''
 def toDateString():
-    '''public String toDateString()
+    '''returns String\n\n
+    toDateString()\n
     '''
 def toUTCString():
-    '''public String toUTCString()
+    '''returns String\n\n
+    toUTCString()\n
     '''
 def compareTo():
-    '''public int compareTo(final TimeStamp anotherTimeStamp)
-    public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final TimeStamp anotherTimeStamp)\n
+    compareTo(final Object o)\n
     '''

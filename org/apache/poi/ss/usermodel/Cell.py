@@ -1,0 +1,6 @@
+CELL_TYPE_NUMERIC = "int  0"
+CELL_TYPE_STRING = "int  1"
+CELL_TYPE_FORMULA = "int  2"
+CELL_TYPE_BLANK = "int  3"
+CELL_TYPE_BOOLEAN = "int  4"
+CELL_TYPE_ERROR = "int  5"

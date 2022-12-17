@@ -1,21 +1,28 @@
-def DesiredWeightFeedback():
-    '''public DesiredWeightFeedback()
+def ():
+    '''returns DesiredWeightFeedback\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final Identity cluster, final SelectionAlgorithm algorithm)
+    '''returns None\n\n
+    init(final Identity cluster, final SelectionAlgorithm algorithm)\n
     '''
 def applyStructuralUpdate():
-    '''public void applyStructuralUpdate(final Identity[] memberArray)
+    '''returns None\n\n
+    applyStructuralUpdate(final Identity[] memberArray)\n
     '''
 def applyWorkloadUpdate():
-    '''public void applyWorkloadUpdate(final Identity member, final int weight)
+    '''returns None\n\n
+    applyWorkloadUpdate(final Identity member, final int weight)\n
     '''
 def applyExceptionUpdate():
-    '''public void applyExceptionUpdate(final Identity member, final int exceptionIncrement)
+    '''returns None\n\n
+    applyExceptionUpdate(final Identity member, final int exceptionIncrement)\n
     '''
 def notify():
-    '''public void notify(final Identity identity, final String type, final Object info)
+    '''returns None\n\n
+    notify(final Identity identity, final String type, final Object info)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

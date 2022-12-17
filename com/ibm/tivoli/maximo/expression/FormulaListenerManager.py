@@ -1,16 +1,21 @@
-def FormulaListenerManager():
-    '''public FormulaListenerManager()
+def ():
+    '''returns FormulaListenerManager\n\n
+    ()\n
     '''
 def registerFormulaListener():
-    '''public void registerFormulaListener(final String objectName, final String mboAttributeName, final AttrFormulaInfo attrFormulaInfo)
+    '''returns None\n\n
+    registerFormulaListener(final String objectName, final String mboAttributeName, final AttrFormulaInfo attrFormulaInfo)\n
     '''
 def registerFormulaDriverListener():
-    '''public void registerFormulaDriverListener(final String objectName, final String attributeName, final AttrFormulaInfo afi)
+    '''returns None\n\n
+    registerFormulaDriverListener(final String objectName, final String attributeName, final AttrFormulaInfo afi)\n
     '''
 def unregisterAllListeners():
-    '''public void unregisterAllListeners()
+    '''returns None\n\n
+    unregisterAllListeners()\n
     '''
 def unregisterListeners():
-    '''public void unregisterListeners(final String scriptName, final boolean remove)
-    public void unregisterListeners(final String scriptName, final Map<String, Map<String, Map<String, Integer>>> eventMap, final boolean remove)
+    '''returns None\n\n
+    unregisterListeners(final String scriptName, final boolean remove)\n
+    unregisterListeners(final String scriptName, final Map<String, Map<String, Map<String, Integer>>> eventMap, final boolean remove)\n
     '''

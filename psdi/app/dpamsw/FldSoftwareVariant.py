@@ -1,6 +1,8 @@
-def FldSoftwareVariant():
-    '''public FldSoftwareVariant(final MboValue mbv)
+def ():
+    '''returns FldSoftwareVariant\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

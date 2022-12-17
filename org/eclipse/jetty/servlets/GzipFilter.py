@@ -1,18 +1,24 @@
-def GzipFilter():
-    '''public GzipFilter()
+def ():
+    '''returns GzipFilter\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final FilterConfig filterConfig)
+    '''returns None\n\n
+    init(final FilterConfig filterConfig)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def doFilter():
-    '''public void doFilter(final ServletRequest req, final ServletResponse res, final FilterChain chain)
+    '''returns None\n\n
+    doFilter(final ServletRequest req, final ServletResponse res, final FilterChain chain)\n
     '''
 def onComplete():
-    '''public void onComplete(final Continuation continuation)
+    '''returns None\n\n
+    onComplete(final Continuation continuation)\n
     '''
 def onTimeout():
-    '''public void onTimeout(final Continuation continuation)
+    '''returns None\n\n
+    onTimeout(final Continuation continuation)\n
     '''

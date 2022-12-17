@@ -1,169 +1,225 @@
 PLUSCASSETSTATUS = "String  \"PLUSCASSETSTATUS\""
-def AssetSet():
-    '''public AssetSet(final MboServerInterface ms)
+def ():
+    '''returns AssetSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def moveAsset():
-    '''public void moveAsset()
+    '''returns None\n\n
+    moveAsset()\n
     '''
 def moveSingleAsset():
-    '''public void moveSingleAsset(Asset asset)
+    '''returns None\n\n
+    moveSingleAsset(Asset asset)\n
     '''
 def findTopLevel():
-    '''public void findTopLevel()
+    '''returns None\n\n
+    findTopLevel()\n
     '''
 def findAssetsAtLocation():
-    '''public void findAssetsAtLocation(final String location)
+    '''returns None\n\n
+    findAssetsAtLocation(final String location)\n
     '''
 def findAsset():
-    '''public void findAsset(final String asset)
+    '''returns None\n\n
+    findAsset(final String asset)\n
     '''
 def findSelectedAssets():
-    '''public void findSelectedAssets(final String where)
+    '''returns None\n\n
+    findSelectedAssets(final String where)\n
     '''
 def findNotDecommissionedAssets():
-    '''public void findNotDecommissionedAssets()
+    '''returns None\n\n
+    findNotDecommissionedAssets()\n
     '''
 def findNotMovedAssets():
-    '''public void findNotMovedAssets()
+    '''returns None\n\n
+    findNotMovedAssets()\n
     '''
 def setLocsystem():
-    '''public void setLocsystem(final String locationSystem)
+    '''returns None\n\n
+    setLocsystem(final String locationSystem)\n
     '''
 def setLocgroup():
-    '''public void setLocgroup(final Vector locationGroup)
+    '''returns None\n\n
+    setLocgroup(final Vector locationGroup)\n
     '''
 def getLocsystem():
-    '''public String getLocsystem()
+    '''returns String\n\n
+    getLocsystem()\n
     '''
 def getLocgroup():
-    '''public String getLocgroup()
+    '''returns String\n\n
+    getLocgroup()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def findAssetAtLocation():
-    '''public void findAssetAtLocation(final String location)
+    '''returns None\n\n
+    findAssetAtLocation(final String location)\n
     '''
 def setMoveAssetPageFlag():
-    '''public void setMoveAssetPageFlag(final boolean flag)
+    '''returns None\n\n
+    setMoveAssetPageFlag(final boolean flag)\n
     '''
 def getMoveAssetPageFlag():
-    '''public boolean getMoveAssetPageFlag()
+    '''returns boolean\n\n
+    getMoveAssetPageFlag()\n
     '''
 def setSwapAssetPageFlag():
-    '''public void setSwapAssetPageFlag(final boolean flag)
+    '''returns None\n\n
+    setSwapAssetPageFlag(final boolean flag)\n
     '''
 def getSwapAssetPageFlag():
-    '''public boolean getSwapAssetPageFlag()
+    '''returns boolean\n\n
+    getSwapAssetPageFlag()\n
     '''
 def setWoNumAssetSetMv():
-    '''public void setWoNumAssetSetMv(final String setWonum)
+    '''returns None\n\n
+    setWoNumAssetSetMv(final String setWonum)\n
     '''
 def setPoNumAssetSetMv():
-    '''public void setPoNumAssetSetMv(final String setPoNum)
+    '''returns None\n\n
+    setPoNumAssetSetMv(final String setPoNum)\n
     '''
 def setPoSiteIdAssetSetMv():
-    '''public void setPoSiteIdAssetSetMv(final String setPoSiteId)
+    '''returns None\n\n
+    setPoSiteIdAssetSetMv(final String setPoSiteId)\n
     '''
 def applyAssetMoveDefaults():
-    '''public void applyAssetMoveDefaults(final AssetMoveDfltSetRemote assetMoveDfltSet, final String applytype)
+    '''returns None\n\n
+    applyAssetMoveDefaults(final AssetMoveDfltSetRemote assetMoveDfltSet, final String applytype)\n
     '''
 def applyAssetUserCustDefaults():
-    '''public void applyAssetUserCustDefaults(final AssetUserCusDfltSetRemote assetUserCusDfltSet)
+    '''returns None\n\n
+    applyAssetUserCustDefaults(final AssetUserCusDfltSetRemote assetUserCusDfltSet)\n
     '''
 def applyAssetModifyDefaults():
-    '''public void applyAssetModifyDefaults(final AssetModifyDfltSetRemote assetModifyDfltSet)
+    '''returns None\n\n
+    applyAssetModifyDefaults(final AssetModifyDfltSetRemote assetModifyDfltSet)\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getUniqueIDValue():
-    '''public MboValueData getUniqueIDValue(final String object, final String[] attributes, final String[] values)
+    '''returns MboValueData\n\n
+    getUniqueIDValue(final String object, final String[] attributes, final String[] values)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def zeroCosts():
-    '''public void zeroCosts(final boolean ytd, final boolean total)
+    '''returns None\n\n
+    zeroCosts(final boolean ytd, final boolean total)\n
     '''
 def addAssetsToCollectDetails():
-    '''public void addAssetsToCollectDetails(final String collectionNum)
+    '''returns None\n\n
+    addAssetsToCollectDetails(final String collectionNum)\n
     '''
 def setItemMbo():
-    '''public void setItemMbo(final MboRemote item)
+    '''returns None\n\n
+    setItemMbo(final MboRemote item)\n
     '''
 def setItemOrgInfo():
-    '''public void setItemOrgInfo(final MboRemote itemOrgInfo)
+    '''returns None\n\n
+    setItemOrgInfo(final MboRemote itemOrgInfo)\n
     '''
 def getItemMbo():
-    '''public MboRemote getItemMbo()
+    '''returns MboRemote\n\n
+    getItemMbo()\n
     '''
 def getItemOrgInfo():
-    '''public MboRemote getItemOrgInfo()
+    '''returns MboRemote\n\n
+    getItemOrgInfo()\n
     '''
 def inventoryLocationHasChecked():
-    '''public void inventoryLocationHasChecked(final String location, final String siteid)
+    '''returns None\n\n
+    inventoryLocationHasChecked(final String location, final String siteid)\n
     '''
 def toCheckInventoryLocation():
-    '''public boolean toCheckInventoryLocation()
+    '''returns boolean\n\n
+    toCheckInventoryLocation()\n
     '''
 def setAssetForSpecifications():
-    '''public void setAssetForSpecifications(final MboRemote asseet)
+    '''returns None\n\n
+    setAssetForSpecifications(final MboRemote asseet)\n
     '''
 def getAssetForSpecifications():
-    '''public MboRemote getAssetForSpecifications()
+    '''returns MboRemote\n\n
+    getAssetForSpecifications()\n
     '''
 def storeAssetsInMultiAssetLocCISet():
-    '''public void storeAssetsInMultiAssetLocCISet(final MboSetRemote malcSet)
+    '''returns None\n\n
+    storeAssetsInMultiAssetLocCISet(final MboSetRemote malcSet)\n
     '''
 def isInMassMoveLocation():
-    '''public boolean isInMassMoveLocation()
+    '''returns boolean\n\n
+    isInMassMoveLocation()\n
     '''
 def inMassMoveNewLocationMbo():
-    '''public MboRemote inMassMoveNewLocationMbo()
+    '''returns MboRemote\n\n
+    inMassMoveNewLocationMbo()\n
     '''
 def filterByLinearAsset():
-    '''public void filterByLinearAsset(final MboSetRemote fltrSet)
+    '''returns None\n\n
+    filterByLinearAsset(final MboSetRemote fltrSet)\n
     '''
 def getSqlForFiltering():
-    '''public String getSqlForFiltering(final MboSetRemote fltrSet)
+    '''returns String\n\n
+    getSqlForFiltering(final MboSetRemote fltrSet)\n
     '''
 def getOriginalAssetQbe():
-    '''public Hashtable getOriginalAssetQbe()
+    '''returns Hashtable\n\n
+    getOriginalAssetQbe()\n
     '''
 def getOriginalAssetUserWhere():
-    '''public String getOriginalAssetUserWhere()
+    '''returns String\n\n
+    getOriginalAssetUserWhere()\n
     '''
 def setOriginalAssetUserWhere():
-    '''public void setOriginalAssetUserWhere(final String inWhere)
+    '''returns None\n\n
+    setOriginalAssetUserWhere(final String inWhere)\n
     '''
 def setOriginalAssetQbe():
-    '''public void setOriginalAssetQbe(final Hashtable inQbe)
+    '''returns None\n\n
+    setOriginalAssetQbe(final Hashtable inQbe)\n
     '''
 def applyAssetPersonGroupDefaults():
-    '''public void applyAssetPersonGroupDefaults(final AssetGrpDfltSetRemote personGroupDefaults)
+    '''returns None\n\n
+    applyAssetPersonGroupDefaults(final AssetGrpDfltSetRemote personGroupDefaults)\n
     '''
 def addAssetOpSKD():
-    '''public void addAssetOpSKD(final MboSetRemote npAssetOpSKDSet)
+    '''returns None\n\n
+    addAssetOpSKD(final MboSetRemote npAssetOpSKDSet)\n
     '''
 def addAssetMntSKD():
-    '''public void addAssetMntSKD(final MboSetRemote npAssetOpSKDSet)
+    '''returns None\n\n
+    addAssetMntSKD(final MboSetRemote npAssetOpSKDSet)\n
     '''
 def addWorkZones():
-    '''public void addWorkZones(final String workzone, final String type, final String orgid)
+    '''returns None\n\n
+    addWorkZones(final String workzone, final String type, final String orgid)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus)
+    '''returns None\n\n
+    changeStatus(final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus)\n
     '''
 def getMaxAppsWhere():
-    '''public String getMaxAppsWhere()
+    '''returns String\n\n
+    getMaxAppsWhere()\n
     '''

@@ -4,57 +4,71 @@ DG_CONTAINER = "short  -4094"
 SPGR_CONTAINER = "short  -4093"
 SP_CONTAINER = "short  -4092"
 SOLVER_CONTAINER = "short  -4091"
-def EscherContainerRecord():
-    '''public EscherContainerRecord()
+def ():
+    '''returns EscherContainerRecord\n\n
+    ()\n
     '''
 def fillFields():
-    '''public int fillFields(final byte[] data, final int pOffset, final EscherRecordFactory recordFactory)
+    '''returns int\n\n
+    fillFields(final byte[] data, final int pOffset, final EscherRecordFactory recordFactory)\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data, final EscherSerializationListener listener)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def hasChildOfType():
-    '''public boolean hasChildOfType(final short recordId)
+    '''returns boolean\n\n
+    hasChildOfType(final short recordId)\n
     '''
 def getChild():
-    '''public EscherRecord getChild(final int index)
+    '''returns EscherRecord\n\n
+    getChild(final int index)\n
     '''
 def getChildRecords():
-    '''public List<EscherRecord> getChildRecords()
+    '''returns List<EscherRecord>\n\n
+    getChildRecords()\n
     '''
 def getChildIterator():
-    '''public Iterator<EscherRecord> getChildIterator()
+    '''returns Iterator<EscherRecord>\n\n
+    getChildIterator()\n
     '''
 def iterator():
-    '''public Iterator<EscherRecord> iterator()
+    '''returns Iterator<EscherRecord>\n\n
+    iterator()\n
     '''
 def setChildRecords():
-    '''public void setChildRecords(final List<EscherRecord> childRecords)
+    '''returns None\n\n
+    setChildRecords(final List<EscherRecord> childRecords)\n
     '''
 def removeChildRecord():
-    '''public boolean removeChildRecord(final EscherRecord toBeRemoved)
+    '''returns boolean\n\n
+    removeChildRecord(final EscherRecord toBeRemoved)\n
     '''
 def getChildContainers():
-    '''public List<EscherContainerRecord> getChildContainers()
+    '''returns List<EscherContainerRecord>\n\n
+    getChildContainers()\n
     '''
 def getRecordName():
-    '''public String getRecordName()
+    '''returns String\n\n
+    getRecordName()\n
     '''
 def display():
-    '''public void display(final PrintWriter w, final int indent)
+    '''returns None\n\n
+    display(final PrintWriter w, final int indent)\n
     '''
 def addChildRecord():
-    '''public void addChildRecord(final EscherRecord record)
+    '''returns None\n\n
+    addChildRecord(final EscherRecord record)\n
     '''
 def addChildBefore():
-    '''public void addChildBefore(final EscherRecord record, final int insertBeforeRecordId)
-    '''
-def getChildById():
-    '''public <T extends EscherRecord> T getChildById(final short recordId)
+    '''returns None\n\n
+    addChildBefore(final EscherRecord record, final int insertBeforeRecordId)\n
     '''
 def getRecordsById():
-    '''public void getRecordsById(final short recordId, final List<EscherRecord> out)
+    '''returns None\n\n
+    getRecordsById(final short recordId, final List<EscherRecord> out)\n
     '''

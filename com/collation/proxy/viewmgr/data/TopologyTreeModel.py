@@ -1,18 +1,24 @@
-def TopologyTreeModel():
-    '''public TopologyTreeModel(final DefaultMutableTreeNode root)
+def ():
+    '''returns TopologyTreeModel\n\n
+    (final DefaultMutableTreeNode root)\n
     '''
 def getContainedObjects():
-    '''public Set getContainedObjects()
+    '''returns Set\n\n
+    getContainedObjects()\n
     '''
 def setContainedObjects():
-    '''public void setContainedObjects(final Set co)
+    '''returns None\n\n
+    setContainedObjects(final Set co)\n
     '''
 def getIsEnableCache():
-    '''public boolean getIsEnableCache()
+    '''returns boolean\n\n
+    getIsEnableCache()\n
     '''
 def setIsEnableCache():
-    '''public void setIsEnableCache(final boolean cache)
+    '''returns None\n\n
+    setIsEnableCache(final boolean cache)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

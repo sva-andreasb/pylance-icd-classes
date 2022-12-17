@@ -6,58 +6,68 @@ STAT_PKG = "String  \"SYSSTAT\""
 METADATA_PACKAGE = "int  0"
 METADATA_CONTOKEN = "int  1"
 METADATA_SECTION = "int  2"
-def DataBeanStatementExecution():
-    '''public DataBeanStatementExecution(final MonitorAgent monitorAgent, final int maxBytesUsedforHash_)
-    public DataBeanStatementExecution(final DataBeanStatementExecution dataBeanStatementExecution)
+def ():
+    '''returns DataBeanStatementExecution\n\n
+    (final MonitorAgent monitorAgent, final int maxBytesUsedforHash_)\n
+    (final DataBeanStatementExecution dataBeanStatementExecution)\n
     '''
 def setDriverData():
-    '''public void setDriverData(final Object[] a)
+    '''returns None\n\n
+    setDriverData(final Object[] a)\n
     '''
 def getServerKeyType():
-    '''public int getServerKeyType()
+    '''returns int\n\n
+    getServerKeyType()\n
     '''
 def getServerKey():
-    '''public String getServerKey()
+    '''returns String\n\n
+    getServerKey()\n
     '''
 def statementTimerStarted():
-    '''public boolean statementTimerStarted()
+    '''returns boolean\n\n
+    statementTimerStarted()\n
     '''
 def toJSON_DSM():
-    '''public JSONArray toJSON_DSM()
+    '''returns JSONArray\n\n
+    toJSON_DSM()\n
     '''
 def toJSONv1():
-    '''public JSONArray toJSONv1()
+    '''returns JSONArray\n\n
+    toJSONv1()\n
     '''
 def toJSONv2():
-    '''public JSONArray toJSONv2()
+    '''returns JSONArray\n\n
+    toJSONv2()\n
     '''
 def toJSONv3():
-    '''public JSONArray toJSONv3()
+    '''returns JSONArray\n\n
+    toJSONv3()\n
     '''
 def toJSONv7():
-    '''public JSONArray toJSONv7()
+    '''returns JSONArray\n\n
+    toJSONv7()\n
     '''
 def toJSON():
-    '''public JSONArray toJSON(final int n)
+    '''returns JSONArray\n\n
+    toJSON(final int n)\n
     '''
 def getKey():
-    '''public String getKey(final int n)
-    '''
-def getMetadataCorrelatorString():
-    '''public static String getMetadataCorrelatorString(final String str, final String str2, final String str3)
-    '''
-def setMetadataCorrelatorForLayerTransport():
-    '''public static void setMetadataCorrelatorForLayerTransport(final StatementDescriptorImpl value)
+    '''returns String\n\n
+    getKey(final int n)\n
     '''
 def setMetadataCorrelatorString():
-    '''public void setMetadataCorrelatorString(final String metadataCorrelator_)
+    '''returns None\n\n
+    setMetadataCorrelatorString(final String metadataCorrelator_)\n
     '''
 def getMetadataCorrelator():
-    '''public String getMetadataCorrelator()
+    '''returns String\n\n
+    getMetadataCorrelator()\n
     '''
 def prepareForAggregation():
-    '''public void prepareForAggregation()
+    '''returns None\n\n
+    prepareForAggregation()\n
     '''
 def aggregate():
-    '''public void aggregate(final DataBeanStatementExecution dataBeanStatementExecution)
+    '''returns None\n\n
+    aggregate(final DataBeanStatementExecution dataBeanStatementExecution)\n
     '''

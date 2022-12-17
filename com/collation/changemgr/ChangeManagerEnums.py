@@ -11,6 +11,3 @@ TRANSACTION_BEGAN = "int  16"
 TRANSACTION_DONE = "int  17"
 TRANSACTION_FAILED = "int  18"
 NONE = "String  \"{none}\""
-def isEcmdb():
-    '''public static boolean isEcmdb()
-    '''

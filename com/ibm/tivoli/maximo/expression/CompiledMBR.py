@@ -1,15 +1,20 @@
-def CompiledMBR():
-    '''public CompiledMBR()
+def ():
+    '''returns CompiledMBR\n\n
+    ()\n
     '''
 def addScriptSrcLine():
-    '''public void addScriptSrcLine(final String line)
+    '''returns None\n\n
+    addScriptSrcLine(final String line)\n
     '''
 def getScriptSrc():
-    '''public List<String> getScriptSrc()
+    '''returns List<String>\n\n
+    getScriptSrc()\n
     '''
 def addScriptSrcMethod():
-    '''public void addScriptSrcMethod(final String methodName, final Integer lineNum)
+    '''returns None\n\n
+    addScriptSrcMethod(final String methodName, final Integer lineNum)\n
     '''
 def getScriptMethodLine():
-    '''public Integer getScriptMethodLine(final String methodName)
+    '''returns Integer\n\n
+    getScriptMethodLine(final String methodName)\n
     '''

@@ -1,13 +1,17 @@
-def DefaultClientConnectionOperator():
-    '''public DefaultClientConnectionOperator(final SchemeRegistry schemes)
-    public DefaultClientConnectionOperator(final SchemeRegistry schemes, final DnsResolver dnsResolver)
+def ():
+    '''returns DefaultClientConnectionOperator\n\n
+    (final SchemeRegistry schemes)\n
+    (final SchemeRegistry schemes, final DnsResolver dnsResolver)\n
     '''
 def createConnection():
-    '''public OperatedClientConnection createConnection()
+    '''returns OperatedClientConnection\n\n
+    createConnection()\n
     '''
 def openConnection():
-    '''public void openConnection(final OperatedClientConnection conn, final HttpHost target, final InetAddress local, final HttpContext context, final HttpParams params)
+    '''returns None\n\n
+    openConnection(final OperatedClientConnection conn, final HttpHost target, final InetAddress local, final HttpContext context, final HttpParams params)\n
     '''
 def updateSecureConnection():
-    '''public void updateSecureConnection(final OperatedClientConnection conn, final HttpHost target, final HttpContext context, final HttpParams params)
+    '''returns None\n\n
+    updateSecureConnection(final OperatedClientConnection conn, final HttpHost target, final HttpContext context, final HttpParams params)\n
     '''

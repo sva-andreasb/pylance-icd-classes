@@ -1,23 +1,30 @@
 RECORD_ID = "short  -4079"
 RECORD_DESCRIPTION = "String  \"MsofbtClientData\""
 def fillFields():
-    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''returns int\n\n
+    fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data, final EscherSerializationListener listener)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def getRecordId():
-    '''public short getRecordId()
+    '''returns short\n\n
+    getRecordId()\n
     '''
 def getRecordName():
-    '''public String getRecordName()
+    '''returns String\n\n
+    getRecordName()\n
     '''
 def getRemainingData():
-    '''public byte[] getRemainingData()
+    '''returns byte[]\n\n
+    getRemainingData()\n
     '''
 def setRemainingData():
-    '''public void setRemainingData(final byte[] remainingData)
+    '''returns None\n\n
+    setRemainingData(final byte[] remainingData)\n
     '''

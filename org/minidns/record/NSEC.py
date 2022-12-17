@@ -1,13 +1,13 @@
-def parse():
-    '''public static NSEC parse(final DataInputStream dis, final byte[] data, final int length)
-    '''
-def NSEC():
-    '''public NSEC(final String next, final Record.TYPE[] types)
-    public NSEC(final DnsName next, final Record.TYPE[] types)
+def ():
+    '''returns NSEC\n\n
+    (final String next, final Record.TYPE[] types)\n
+    (final DnsName next, final Record.TYPE[] types)\n
     '''
 def serialize():
-    '''public void serialize(final DataOutputStream dos)
+    '''returns None\n\n
+    serialize(final DataOutputStream dos)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

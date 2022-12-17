@@ -67,12 +67,15 @@ DURATION_MONTH = "int  4"
 DURATION_QUARTER = "int  5"
 DURATION_WEEK = "int  6"
 DURATION_YEAR = "int  7"
-def BIMProduct():
-    '''public BIMProduct(final MboSet ms)
+def ():
+    '''returns BIMProduct\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

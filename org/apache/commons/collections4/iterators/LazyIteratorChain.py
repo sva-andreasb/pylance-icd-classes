@@ -1,12 +1,16 @@
-def LazyIteratorChain():
-    '''public LazyIteratorChain()
+def ():
+    '''returns LazyIteratorChain\n\n
+    ()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

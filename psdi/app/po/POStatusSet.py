@@ -1,3 +1,4 @@
-def POStatusSet():
-    '''public POStatusSet(final MboServerInterface ms)
+def ():
+    '''returns POStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

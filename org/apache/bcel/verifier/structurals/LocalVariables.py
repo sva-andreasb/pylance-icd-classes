@@ -1,30 +1,40 @@
-def LocalVariables():
-    '''public LocalVariables(final int maxLocals)
+def ():
+    '''returns LocalVariables\n\n
+    (final int maxLocals)\n
     '''
 def get():
-    '''public Type get(final int i)
+    '''returns Type\n\n
+    get(final int i)\n
     '''
 def getClone():
-    '''public LocalVariables getClone()
+    '''returns LocalVariables\n\n
+    getClone()\n
     '''
 def maxLocals():
-    '''public int maxLocals()
+    '''returns int\n\n
+    maxLocals()\n
     '''
 def set():
-    '''public void set(final int i, final Type type)
+    '''returns None\n\n
+    set(final int i, final Type type)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def merge():
-    '''public void merge(final LocalVariables lv)
+    '''returns None\n\n
+    merge(final LocalVariables lv)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def initializeObject():
-    '''public void initializeObject(final UninitializedObjectType u)
+    '''returns None\n\n
+    initializeObject(final UninitializedObjectType u)\n
     '''

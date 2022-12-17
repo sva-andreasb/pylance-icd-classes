@@ -1,54 +1,68 @@
-def TimeZoneGenericNames():
-    '''public TimeZoneGenericNames(final ULocale locale, final TimeZoneNames tznames)
-    '''
-def getInstance():
-    '''public static TimeZoneGenericNames getInstance(final ULocale locale)
+def ():
+    '''returns TimeZoneGenericNames\n\n
+    (final ULocale locale, final TimeZoneNames tznames)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName(final TimeZone tz, final GenericNameType type, final long date)
+    '''returns String\n\n
+    getDisplayName(final TimeZone tz, final GenericNameType type, final long date)\n
     '''
 def getGenericLocationName():
-    '''public String getGenericLocationName(String canonicalTzID)
+    '''returns String\n\n
+    getGenericLocationName(String canonicalTzID)\n
     '''
 def setFormatPattern():
-    '''public TimeZoneGenericNames setFormatPattern(final Pattern patType, final String patStr)
+    '''returns TimeZoneGenericNames\n\n
+    setFormatPattern(final Pattern patType, final String patStr)\n
     '''
 def findBestMatch():
-    '''public GenericMatchInfo findBestMatch(final String text, final int start, final EnumSet<GenericNameType> genericTypes)
+    '''returns GenericMatchInfo\n\n
+    findBestMatch(final String text, final int start, final EnumSet<GenericNameType> genericTypes)\n
     '''
 def find():
-    '''public Collection<GenericMatchInfo> find(final String text, final int start, final EnumSet<GenericNameType> genericTypes)
+    '''returns Collection<GenericMatchInfo>\n\n
+    find(final String text, final int start, final EnumSet<GenericNameType> genericTypes)\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
     '''
 def freeze():
-    '''public TimeZoneGenericNames freeze()
+    '''returns TimeZoneGenericNames\n\n
+    freeze()\n
     '''
 def cloneAsThawed():
-    '''public TimeZoneGenericNames cloneAsThawed()
+    '''returns TimeZoneGenericNames\n\n
+    cloneAsThawed()\n
     '''
 def isFallbackTypeOf():
-    '''public boolean isFallbackTypeOf(final GenericNameType type)
+    '''returns boolean\n\n
+    isFallbackTypeOf(final GenericNameType type)\n
     '''
 def nameType():
-    '''public GenericNameType nameType()
+    '''returns GenericNameType\n\n
+    nameType()\n
     '''
 def tzID():
-    '''public String tzID()
+    '''returns String\n\n
+    tzID()\n
     '''
 def matchLength():
-    '''public int matchLength()
+    '''returns int\n\n
+    matchLength()\n
     '''
 def handlePrefixMatch():
-    '''public boolean handlePrefixMatch(final int matchLength, final Iterator<NameInfo> values)
+    '''returns boolean\n\n
+    handlePrefixMatch(final int matchLength, final Iterator<NameInfo> values)\n
     '''
 def getMatches():
-    '''public Collection<GenericMatchInfo> getMatches()
+    '''returns Collection<GenericMatchInfo>\n\n
+    getMatches()\n
     '''
 def getMaxMatchLen():
-    '''public int getMaxMatchLen()
+    '''returns int\n\n
+    getMaxMatchLen()\n
     '''
 def resetResults():
-    '''public void resetResults()
+    '''returns None\n\n
+    resetResults()\n
     '''

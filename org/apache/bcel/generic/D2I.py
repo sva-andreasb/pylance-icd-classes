@@ -1,6 +1,8 @@
-def D2I():
-    '''public D2I()
+def ():
+    '''returns D2I\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

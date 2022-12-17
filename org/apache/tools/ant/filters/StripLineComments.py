@@ -1,22 +1,21 @@
-def StripLineComments():
-    '''public StripLineComments()
-    public StripLineComments(final Reader in)
+def ():
+    '''returns StripLineComments\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def addConfiguredComment():
-    '''public void addConfiguredComment(final Comment comment)
+    '''returns None\n\n
+    addConfiguredComment(final Comment comment)\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
-    '''
-def setValue():
-    '''public final void setValue(final String comment)
-    '''
-def getValue():
-    '''public final String getValue()
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''
 def addText():
-    '''public void addText(final String comment)
+    '''returns None\n\n
+    addText(final String comment)\n
     '''

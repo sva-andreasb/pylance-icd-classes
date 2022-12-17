@@ -1,6 +1,8 @@
-def FldInvVendorNoOfCompletePOs():
-    '''public FldInvVendorNoOfCompletePOs(final MboValue mbv)
+def ():
+    '''returns FldInvVendorNoOfCompletePOs\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

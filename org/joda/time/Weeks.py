@@ -1,66 +1,66 @@
-def weeks():
-    '''public static Weeks weeks(final int n)
-    '''
-def weeksBetween():
-    '''public static Weeks weeksBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public static Weeks weeksBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
-    '''
-def weeksIn():
-    '''public static Weeks weeksIn(final ReadableInterval readableInterval)
-    '''
-def standardWeeksIn():
-    '''public static Weeks standardWeeksIn(final ReadablePeriod readablePeriod)
-    '''
-def parseWeeks():
-    '''public static Weeks parseWeeks(final String s)
-    '''
 def getFieldType():
-    '''public DurationFieldType getFieldType()
+    '''returns DurationFieldType\n\n
+    getFieldType()\n
     '''
 def getPeriodType():
-    '''public PeriodType getPeriodType()
+    '''returns PeriodType\n\n
+    getPeriodType()\n
     '''
 def toStandardDays():
-    '''public Days toStandardDays()
+    '''returns Days\n\n
+    toStandardDays()\n
     '''
 def toStandardHours():
-    '''public Hours toStandardHours()
+    '''returns Hours\n\n
+    toStandardHours()\n
     '''
 def toStandardMinutes():
-    '''public Minutes toStandardMinutes()
+    '''returns Minutes\n\n
+    toStandardMinutes()\n
     '''
 def toStandardSeconds():
-    '''public Seconds toStandardSeconds()
+    '''returns Seconds\n\n
+    toStandardSeconds()\n
     '''
 def toStandardDuration():
-    '''public Duration toStandardDuration()
+    '''returns Duration\n\n
+    toStandardDuration()\n
     '''
 def getWeeks():
-    '''public int getWeeks()
+    '''returns int\n\n
+    getWeeks()\n
     '''
 def plus():
-    '''public Weeks plus(final int n)
-    public Weeks plus(final Weeks weeks)
+    '''returns Weeks\n\n
+    plus(final int n)\n
+    plus(final Weeks weeks)\n
     '''
 def minus():
-    '''public Weeks minus(final int n)
-    public Weeks minus(final Weeks weeks)
+    '''returns Weeks\n\n
+    minus(final int n)\n
+    minus(final Weeks weeks)\n
     '''
 def multipliedBy():
-    '''public Weeks multipliedBy(final int n)
+    '''returns Weeks\n\n
+    multipliedBy(final int n)\n
     '''
 def dividedBy():
-    '''public Weeks dividedBy(final int n)
+    '''returns Weeks\n\n
+    dividedBy(final int n)\n
     '''
 def negated():
-    '''public Weeks negated()
+    '''returns Weeks\n\n
+    negated()\n
     '''
 def isGreaterThan():
-    '''public boolean isGreaterThan(final Weeks weeks)
+    '''returns boolean\n\n
+    isGreaterThan(final Weeks weeks)\n
     '''
 def isLessThan():
-    '''public boolean isLessThan(final Weeks weeks)
+    '''returns boolean\n\n
+    isLessThan(final Weeks weeks)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

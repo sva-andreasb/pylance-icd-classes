@@ -1,14 +1,18 @@
-def SimpleCache():
-    '''public SimpleCache()
-    public SimpleCache(final int cacheType)
-    public SimpleCache(final int cacheType, final int initialCapacity)
+def ():
+    '''returns SimpleCache\n\n
+    ()\n
+    (final int cacheType)\n
+    (final int cacheType, final int initialCapacity)\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public void put(final K key, final V value)
+    '''returns None\n\n
+    put(final K key, final V value)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

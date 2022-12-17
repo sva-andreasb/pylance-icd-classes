@@ -1,126 +1,167 @@
-def CacheProxyResponse():
-    '''public CacheProxyResponse(final HttpServletResponse proxiedResponse)
+def ():
+    '''returns CacheProxyResponse\n\n
+    (final HttpServletResponse proxiedResponse)\n
     '''
 def finished():
-    '''public void finished()
+    '''returns None\n\n
+    finished()\n
     '''
 def getHeaderTable():
-    '''public Vector[] getHeaderTable()
+    '''returns Vector[]\n\n
+    getHeaderTable()\n
     '''
 def setFragmentComposer():
-    '''public void setFragmentComposer(final FragmentComposer fragmentComposer)
+    '''returns None\n\n
+    setFragmentComposer(final FragmentComposer fragmentComposer)\n
     '''
 def getFragmentComposer():
-    '''public FragmentComposer getFragmentComposer()
+    '''returns FragmentComposer\n\n
+    getFragmentComposer()\n
     '''
 def setComposerActive():
-    '''public void setComposerActive(final boolean active)
+    '''returns None\n\n
+    setComposerActive(final boolean active)\n
     '''
 def getComposerActive():
-    '''public boolean getComposerActive()
+    '''returns boolean\n\n
+    getComposerActive()\n
     '''
 def flushBuffer():
-    '''public void flushBuffer()
-    public void flushBuffer(final boolean flushToWire)
+    '''returns None\n\n
+    flushBuffer()\n
+    flushBuffer(final boolean flushToWire)\n
     '''
 def isCommitted():
-    '''public boolean isCommitted()
+    '''returns boolean\n\n
+    isCommitted()\n
     '''
 def getOutputStream():
-    '''public ServletOutputStream getOutputStream()
+    '''returns ServletOutputStream\n\n
+    getOutputStream()\n
     '''
 def getWriter():
-    '''public PrintWriter getWriter()
+    '''returns PrintWriter\n\n
+    getWriter()\n
     '''
 def getBufferedOutputStream():
-    '''public ServletOutputStream getBufferedOutputStream()
+    '''returns ServletOutputStream\n\n
+    getBufferedOutputStream()\n
     '''
 def getBufferedWriter():
-    '''public PrintWriter getBufferedWriter()
+    '''returns PrintWriter\n\n
+    getBufferedWriter()\n
     '''
 def resetBuffer():
-    '''public void resetBuffer()
+    '''returns None\n\n
+    resetBuffer()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getContainsESIContent():
-    '''public boolean getContainsESIContent()
+    '''returns boolean\n\n
+    getContainsESIContent()\n
     '''
 def setContainsESIContent():
-    '''public void setContainsESIContent(final boolean b)
+    '''returns None\n\n
+    setContainsESIContent(final boolean b)\n
     '''
 def setBufferSize():
-    '''public void setBufferSize(final int size)
+    '''returns None\n\n
+    setBufferSize(final int size)\n
     '''
 def getBufferSize():
-    '''public int getBufferSize()
+    '''returns int\n\n
+    getBufferSize()\n
     '''
 def _include():
-    '''public void _include(final String template, final HttpServletRequest request)
+    '''returns None\n\n
+    _include(final String template, final HttpServletRequest request)\n
     '''
 def _forward():
-    '''public void _forward(final String template, final HttpServletRequest request)
+    '''returns None\n\n
+    _forward(final String template, final HttpServletRequest request)\n
     '''
 def callPage():
-    '''public void callPage(final String fileName, final HttpServletRequest hreq)
+    '''returns None\n\n
+    callPage(final String fileName, final HttpServletRequest hreq)\n
     '''
 def setHeader():
-    '''public void setHeader(final String key, final String value)
+    '''returns None\n\n
+    setHeader(final String key, final String value)\n
     '''
 def addHeader():
-    '''public void addHeader(final String key, final String value)
+    '''returns None\n\n
+    addHeader(final String key, final String value)\n
     '''
 def addCookie():
-    '''public void addCookie(final Cookie cookie)
+    '''returns None\n\n
+    addCookie(final Cookie cookie)\n
     '''
 def addDynamicContentProvider():
-    '''public void addDynamicContentProvider(final DynamicContentProvider dynamicContentProvider)
+    '''returns None\n\n
+    addDynamicContentProvider(final DynamicContentProvider dynamicContentProvider)\n
     '''
 def setDateHeader():
-    '''public void setDateHeader(final String name, final long value)
+    '''returns None\n\n
+    setDateHeader(final String name, final long value)\n
     '''
 def addDateHeader():
-    '''public void addDateHeader(final String name, final long value)
+    '''returns None\n\n
+    addDateHeader(final String name, final long value)\n
     '''
 def setIntHeader():
-    '''public void setIntHeader(final String name, final int value)
+    '''returns None\n\n
+    setIntHeader(final String name, final int value)\n
     '''
 def addIntHeader():
-    '''public void addIntHeader(final String name, final int value)
+    '''returns None\n\n
+    addIntHeader(final String name, final int value)\n
     '''
 def setStatus():
-    '''public void setStatus(final int statusCode)
-    public void setStatus(final int statusCode, final String comment)
+    '''returns None\n\n
+    setStatus(final int statusCode)\n
+    setStatus(final int statusCode, final String comment)\n
     '''
 def sendError():
-    '''public void sendError(final int statusCode)
-    public void sendError(final int statusCode, final String comment)
+    '''returns None\n\n
+    sendError(final int statusCode)\n
+    sendError(final int statusCode, final String comment)\n
     '''
 def setContentLength():
-    '''public void setContentLength(final int contentLength)
+    '''returns None\n\n
+    setContentLength(final int contentLength)\n
     '''
 def setCharacterEncoding():
-    '''public void setCharacterEncoding(final String charEnc)
+    '''returns None\n\n
+    setCharacterEncoding(final String charEnc)\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def sendRedirect():
-    '''public void sendRedirect(final String location)
+    '''returns None\n\n
+    sendRedirect(final String location)\n
     '''
 def setDoNotConsume():
-    '''public void setDoNotConsume(final boolean doNotConsume)
+    '''returns None\n\n
+    setDoNotConsume(final boolean doNotConsume)\n
     '''
 def writerObtained():
-    '''public boolean writerObtained()
+    '''returns boolean\n\n
+    writerObtained()\n
     '''
 def outputStreamObtained():
-    '''public boolean outputStreamObtained()
+    '''returns boolean\n\n
+    outputStreamObtained()\n
     '''
 def setArd():
-    '''public void setArd(final boolean a)
+    '''returns None\n\n
+    setArd(final boolean a)\n
     '''

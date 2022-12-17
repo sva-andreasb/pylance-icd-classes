@@ -1,24 +1,31 @@
 sid = "short  85"
 DEFAULT_COLUMN_WIDTH = "int  8"
-def DefaultColWidthRecord():
-    '''public DefaultColWidthRecord()
-    public DefaultColWidthRecord(final RecordInputStream in)
+def ():
+    '''returns DefaultColWidthRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setColWidth():
-    '''public void setColWidth(final int width)
+    '''returns None\n\n
+    setColWidth(final int width)\n
     '''
 def getColWidth():
-    '''public int getColWidth()
+    '''returns int\n\n
+    getColWidth()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public DefaultColWidthRecord clone()
+    '''returns DefaultColWidthRecord\n\n
+    clone()\n
     '''

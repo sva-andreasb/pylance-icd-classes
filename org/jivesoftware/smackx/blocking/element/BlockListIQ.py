@@ -1,12 +1,15 @@
 ELEMENT = "String  \"blocklist\""
 NAMESPACE = "String  \"urn:xmpp:blocking\""
-def BlockListIQ():
-    '''public BlockListIQ(final List<Jid> jids)
-    public BlockListIQ()
+def ():
+    '''returns BlockListIQ\n\n
+    (final List<Jid> jids)\n
+    ()\n
     '''
 def getBlockedJids():
-    '''public List<Jid> getBlockedJids()
+    '''returns List<Jid>\n\n
+    getBlockedJids()\n
     '''
 def getBlockedJidsCopy():
-    '''public List<Jid> getBlockedJidsCopy()
+    '''returns List<Jid>\n\n
+    getBlockedJidsCopy()\n
     '''

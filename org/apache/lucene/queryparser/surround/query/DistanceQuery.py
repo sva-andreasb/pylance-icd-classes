@@ -1,21 +1,28 @@
-def DistanceQuery():
-    '''public DistanceQuery(final List<SrndQuery> queries, final boolean infix, final int opDistance, final String opName, final boolean ordered)
+def ():
+    '''returns DistanceQuery\n\n
+    (final List<SrndQuery> queries, final boolean infix, final int opDistance, final String opName, final boolean ordered)\n
     '''
 def getOpDistance():
-    '''public int getOpDistance()
+    '''returns int\n\n
+    getOpDistance()\n
     '''
 def subQueriesOrdered():
-    '''public boolean subQueriesOrdered()
+    '''returns boolean\n\n
+    subQueriesOrdered()\n
     '''
 def distanceSubQueryNotAllowed():
-    '''public String distanceSubQueryNotAllowed()
+    '''returns String\n\n
+    distanceSubQueryNotAllowed()\n
     '''
 def addSpanQueries():
-    '''public void addSpanQueries(final SpanNearClauseFactory sncf)
+    '''returns None\n\n
+    addSpanQueries(final SpanNearClauseFactory sncf)\n
     '''
 def getSpanNearQuery():
-    '''public Query getSpanNearQuery(final IndexReader reader, final String fieldName, final BasicQueryFactory qf)
+    '''returns Query\n\n
+    getSpanNearQuery(final IndexReader reader, final String fieldName, final BasicQueryFactory qf)\n
     '''
 def makeLuceneQueryFieldNoBoost():
-    '''public Query makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)
+    '''returns Query\n\n
+    makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)\n
     '''

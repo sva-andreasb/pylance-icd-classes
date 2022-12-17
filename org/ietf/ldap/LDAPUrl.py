@@ -1,41 +1,46 @@
-def LDAPUrl():
-    '''public LDAPUrl(final String s)
-    public LDAPUrl(final String s, final int n, final String s2)
-    public LDAPUrl(final String s, final int n, final String s2, final String[] array, final int n2, final String s3, final String[] array2)
+def ():
+    '''returns LDAPUrl\n\n
+    (final String s)\n
+    (final String s, final int n, final String s2)\n
+    (final String s, final int n, final String s2, final String[] array, final int n2, final String s3, final String[] array2)\n
     '''
 def clone():
-    '''public Object clone()
-    '''
-def decode():
-    '''public static String decode(final String s)
-    '''
-def encode():
-    '''public static String encode(final String s)
+    '''returns Object\n\n
+    clone()\n
     '''
 def getAttributeArray():
-    '''public String[] getAttributeArray()
+    '''returns String[]\n\n
+    getAttributeArray()\n
     '''
 def getAttributes():
-    '''public Enumeration getAttributes()
+    '''returns Enumeration\n\n
+    getAttributes()\n
     '''
 def getDN():
-    '''public String getDN()
+    '''returns String\n\n
+    getDN()\n
     '''
 def getExtensions():
-    '''public String[] getExtensions()
+    '''returns String[]\n\n
+    getExtensions()\n
     '''
 def getFilter():
-    '''public String getFilter()
+    '''returns String\n\n
+    getFilter()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getScope():
-    '''public int getScope()
+    '''returns int\n\n
+    getScope()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

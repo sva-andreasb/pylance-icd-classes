@@ -1,33 +1,24 @@
-def addAttrListener():
-    '''public synchronized void addAttrListener(final AttributeListener obj)
-    '''
-def removeAttrListener():
-    '''public synchronized void removeAttrListener(final AttributeListener obj)
-    '''
-def addStatusListener():
-    '''public synchronized void addStatusListener(final StatusListener obj)
-    '''
-def removeStatusListener():
-    '''public synchronized void removeStatusListener(final StatusListener obj)
-    '''
 def addItems():
-    '''public void addItems(final STObject[] array)
+    '''returns None\n\n
+    addItems(final STObject[] array)\n
     '''
 def addItem():
-    '''public void addItem(final STObject stObject)
+    '''returns None\n\n
+    addItem(final STObject stObject)\n
     '''
 def removeItem():
-    '''public void removeItem(final STObject stObject)
+    '''returns None\n\n
+    removeItem(final STObject stObject)\n
     '''
 def removeItems():
-    '''public void removeItems(final STObject[] array)
+    '''returns None\n\n
+    removeItems(final STObject[] array)\n
     '''
 def reset():
-    '''public void reset()
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns None\n\n
+    reset()\n
     '''
 def queryAttributeContent():
-    '''public void queryAttributeContent(final STObject stObject, final int n)
+    '''returns None\n\n
+    queryAttributeContent(final STObject stObject, final int n)\n
     '''

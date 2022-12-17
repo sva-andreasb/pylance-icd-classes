@@ -1,6 +1,8 @@
-def DropUserFromMaximo():
-    '''public DropUserFromMaximo(final List<String> user, final DatabaseInformation di, final Connection dc)
+def ():
+    '''returns DropUserFromMaximo\n\n
+    (final List<String> user, final DatabaseInformation di, final Connection dc)\n
     '''
 def doRepair():
-    '''public void doRepair()
+    '''returns None\n\n
+    doRepair()\n
     '''

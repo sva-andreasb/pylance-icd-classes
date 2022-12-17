@@ -1,24 +1,32 @@
-def PlusPAgreeStatusHandler():
-    '''public PlusPAgreeStatusHandler(final PluspAgreeStateful parent, final boolean isRevision)
+def ():
+    '''returns PlusPAgreeStatusHandler\n\n
+    (final PluspAgreeStateful parent, final boolean isRevision)\n
     '''
 def convertStatusToInt():
-    '''public int convertStatusToInt(final String value)
+    '''returns int\n\n
+    convertStatusToInt(final String value)\n
     '''
 def possibleStatusChange():
-    '''public void possibleStatusChange(final String s, final String s2)
+    '''returns None\n\n
+    possibleStatusChange(final String s, final String s2)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String s, final String s2, final Date date, final String s3)
+    '''returns None\n\n
+    changeStatus(final String s, final String s2, final Date date, final String s3)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String value)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String value)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long n)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long n)\n
     '''
 def updateMboForStatus():
-    '''public void updateMboForStatus(final String s)
+    '''returns None\n\n
+    updateMboForStatus(final String s)\n
     '''
 def postStatusChange():
-    '''public void postStatusChange(final String s, final String s2, final Date date, final String s3)
+    '''returns None\n\n
+    postStatusChange(final String s, final String s2, final Date date, final String s3)\n
     '''

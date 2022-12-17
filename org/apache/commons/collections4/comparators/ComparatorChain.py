@@ -1,36 +1,46 @@
-def ComparatorChain():
-    '''public ComparatorChain()
-    public ComparatorChain(final Comparator<E> comparator)
-    public ComparatorChain(final Comparator<E> comparator, final boolean reverse)
-    public ComparatorChain(final List<Comparator<E>> list)
-    public ComparatorChain(final List<Comparator<E>> list, final BitSet bits)
+def ():
+    '''returns ComparatorChain\n\n
+    ()\n
+    (final Comparator<E> comparator)\n
+    (final Comparator<E> comparator, final boolean reverse)\n
+    (final List<Comparator<E>> list)\n
+    (final List<Comparator<E>> list, final BitSet bits)\n
     '''
 def addComparator():
-    '''public void addComparator(final Comparator<E> comparator)
-    public void addComparator(final Comparator<E> comparator, final boolean reverse)
+    '''returns None\n\n
+    addComparator(final Comparator<E> comparator)\n
+    addComparator(final Comparator<E> comparator, final boolean reverse)\n
     '''
 def setComparator():
-    '''public void setComparator(final int index, final Comparator<E> comparator)
-    public void setComparator(final int index, final Comparator<E> comparator, final boolean reverse)
+    '''returns None\n\n
+    setComparator(final int index, final Comparator<E> comparator)\n
+    setComparator(final int index, final Comparator<E> comparator, final boolean reverse)\n
     '''
 def setForwardSort():
-    '''public void setForwardSort(final int index)
+    '''returns None\n\n
+    setForwardSort(final int index)\n
     '''
 def setReverseSort():
-    '''public void setReverseSort(final int index)
+    '''returns None\n\n
+    setReverseSort(final int index)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isLocked():
-    '''public boolean isLocked()
+    '''returns boolean\n\n
+    isLocked()\n
     '''
 def compare():
-    '''public int compare(final E o1, final E o2)
+    '''returns int\n\n
+    compare(final E o1, final E o2)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''

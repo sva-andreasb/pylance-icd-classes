@@ -1,6 +1,8 @@
-def WeatherAsset():
-    '''public WeatherAsset(final MboSet ms)
+def ():
+    '''returns WeatherAsset\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

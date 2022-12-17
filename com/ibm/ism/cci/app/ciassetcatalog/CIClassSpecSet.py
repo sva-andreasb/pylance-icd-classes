@@ -1,3 +1,4 @@
-def CIClassSpecSet():
-    '''public CIClassSpecSet(final MboServerInterface ms)
+def ():
+    '''returns CIClassSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''

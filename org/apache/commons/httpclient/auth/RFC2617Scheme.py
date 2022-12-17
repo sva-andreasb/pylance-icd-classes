@@ -1,16 +1,21 @@
-def RFC2617Scheme():
-    '''public RFC2617Scheme()
-    public RFC2617Scheme(final String challenge)
+def ():
+    '''returns RFC2617Scheme\n\n
+    ()\n
+    (final String challenge)\n
     '''
 def processChallenge():
-    '''public void processChallenge(final String challenge)
+    '''returns None\n\n
+    processChallenge(final String challenge)\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def getRealm():
-    '''public String getRealm()
+    '''returns String\n\n
+    getRealm()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''

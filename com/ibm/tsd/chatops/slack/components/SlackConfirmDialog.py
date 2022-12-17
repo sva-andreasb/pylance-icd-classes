@@ -1,27 +1,36 @@
-def SlackConfirmDialog():
-    '''public SlackConfirmDialog(final String title, final String text, final String confirm, final String deny)
+def ():
+    '''returns SlackConfirmDialog\n\n
+    (final String title, final String text, final String confirm, final String deny)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def setConfirm():
-    '''public void setConfirm(final String confirm)
+    '''returns None\n\n
+    setConfirm(final String confirm)\n
     '''
 def setDeny():
-    '''public void setDeny(final String deny)
+    '''returns None\n\n
+    setDeny(final String deny)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getConfirm():
-    '''public String getConfirm()
+    '''returns String\n\n
+    getConfirm()\n
     '''
 def getDeny():
-    '''public String getDeny()
+    '''returns String\n\n
+    getDeny()\n
     '''

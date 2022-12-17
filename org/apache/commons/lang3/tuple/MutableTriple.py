@@ -1,25 +1,29 @@
-def of():
-    '''public static <L, M, R> MutableTriple<L, M, R> of(final L left, final M middle, final R right)
-    '''
-def MutableTriple():
-    '''public MutableTriple()
-    public MutableTriple(final L left, final M middle, final R right)
+def ():
+    '''returns MutableTriple\n\n
+    ()\n
+    (final L left, final M middle, final R right)\n
     '''
 def getLeft():
-    '''public L getLeft()
+    '''returns L\n\n
+    getLeft()\n
     '''
 def setLeft():
-    '''public void setLeft(final L left)
+    '''returns None\n\n
+    setLeft(final L left)\n
     '''
 def getMiddle():
-    '''public M getMiddle()
+    '''returns M\n\n
+    getMiddle()\n
     '''
 def setMiddle():
-    '''public void setMiddle(final M middle)
+    '''returns None\n\n
+    setMiddle(final M middle)\n
     '''
 def getRight():
-    '''public R getRight()
+    '''returns R\n\n
+    getRight()\n
     '''
 def setRight():
-    '''public void setRight(final R right)
+    '''returns None\n\n
+    setRight(final R right)\n
     '''

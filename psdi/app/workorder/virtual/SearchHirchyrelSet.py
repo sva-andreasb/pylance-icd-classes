@@ -1,3 +1,4 @@
-def SearchHirchyrelSet():
-    '''public SearchHirchyrelSet(final MboServerInterface ms)
+def ():
+    '''returns SearchHirchyrelSet\n\n
+    (final MboServerInterface ms)\n
     '''

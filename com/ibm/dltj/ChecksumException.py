@@ -1,6 +1,4 @@
-def getCopyright():
-    '''public static String getCopyright()
-    '''
-def ChecksumException():
-    '''public ChecksumException()
+def ():
+    '''returns ChecksumException\n\n
+    ()\n
     '''

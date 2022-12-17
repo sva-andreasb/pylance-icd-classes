@@ -1,3 +1,4 @@
 def selectRecord():
-    '''public int selectRecord(final MboRemote crewAssign)
+    '''returns int\n\n
+    selectRecord(final MboRemote crewAssign)\n
     '''

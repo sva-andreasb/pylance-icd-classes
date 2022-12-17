@@ -1,17 +1,14 @@
 EMPTY_STRING = "String  \"&nbsp;\""
 BLANK_KEY = "String  \"blank_\""
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
-    '''
-def getMenuOptions():
-    '''public Map<String, Map<String, String>> getMenuOptions()
-    '''
-def getDisplayValues():
-    '''public Map<String, String> getDisplayValues()
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def comboboxcontrolsetvalue():
-    '''public int comboboxcontrolsetvalue()
+    '''returns int\n\n
+    comboboxcontrolsetvalue()\n
     '''

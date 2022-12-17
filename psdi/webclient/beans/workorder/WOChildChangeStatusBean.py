@@ -1,12 +1,16 @@
 def beforedolongop():
-    '''public int beforedolongop()
+    '''returns int\n\n
+    beforedolongop()\n
     '''
 def beforedialogok():
-    '''public int beforedialogok()
+    '''returns int\n\n
+    beforedialogok()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

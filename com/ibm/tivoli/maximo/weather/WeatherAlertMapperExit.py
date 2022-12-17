@@ -1,9 +1,12 @@
-def WeatherAlertMapperExit():
-    '''public WeatherAlertMapperExit()
+def ():
+    '''returns WeatherAlertMapperExit\n\n
+    ()\n
     '''
 def setDataIn():
-    '''public StructureData setDataIn(final StructureData erData)
+    '''returns StructureData\n\n
+    setDataIn(final StructureData erData)\n
     '''
 def checkForValidProduct():
-    '''public boolean checkForValidProduct(final String refId, final String productCode)
+    '''returns boolean\n\n
+    checkForValidProduct(final String refId, final String productCode)\n
     '''

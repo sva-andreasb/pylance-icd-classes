@@ -1,9 +1,12 @@
-def ViewWOByCIBean():
-    '''public ViewWOByCIBean()
+def ():
+    '''returns ViewWOByCIBean\n\n
+    ()\n
     '''
 def setRefreshHistoryTaskValue():
-    '''public int setRefreshHistoryTaskValue(final String[] historyAndTaskFromViewWOPMs)
+    '''returns int\n\n
+    setRefreshHistoryTaskValue(final String[] historyAndTaskFromViewWOPMs)\n
     '''
 def doRefresh():
-    '''public int doRefresh()
+    '''returns int\n\n
+    doRefresh()\n
     '''

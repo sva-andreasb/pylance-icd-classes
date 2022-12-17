@@ -1,30 +1,39 @@
 ERROR_NO_DESTDIR = "String  \"No destDir specified\""
 ERROR_NO_PATH = "String  \"No path specified\""
 ERROR_NO_MAPPER = "String  \"No mapper specified\""
-def CopyPath():
-    '''public CopyPath()
+def ():
+    '''returns CopyPath\n\n
+    ()\n
     '''
 def setDestDir():
-    '''public void setDestDir(final File destDir)
+    '''returns None\n\n
+    setDestDir(final File destDir)\n
     '''
 def add():
-    '''public void add(final FileNameMapper newmapper)
+    '''returns None\n\n
+    add(final FileNameMapper newmapper)\n
     '''
 def setPath():
-    '''public void setPath(final Path s)
+    '''returns None\n\n
+    setPath(final Path s)\n
     '''
 def setPathRef():
-    '''public void setPathRef(final Reference r)
+    '''returns None\n\n
+    setPathRef(final Reference r)\n
     '''
 def createPath():
-    '''public Path createPath()
+    '''returns Path\n\n
+    createPath()\n
     '''
 def setGranularity():
-    '''public void setGranularity(final long granularity)
+    '''returns None\n\n
+    setGranularity(final long granularity)\n
     '''
 def setPreserveLastModified():
-    '''public void setPreserveLastModified(final boolean preserveLastModified)
+    '''returns None\n\n
+    setPreserveLastModified(final boolean preserveLastModified)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

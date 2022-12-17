@@ -1,9 +1,8 @@
-def FldTkOwner():
-    '''public FldTkOwner(final MboValue mbv)
+def ():
+    '''returns FldTkOwner\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
-    '''
-def isSRfromCatalog():
-    '''public static boolean isSRfromCatalog(final TicketRemote ticket)
+    '''returns None\n\n
+    action()\n
     '''

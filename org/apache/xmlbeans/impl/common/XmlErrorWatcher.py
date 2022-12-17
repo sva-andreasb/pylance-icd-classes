@@ -1,18 +1,24 @@
-def XmlErrorWatcher():
-    '''public XmlErrorWatcher(final Collection underlying)
+def ():
+    '''returns XmlErrorWatcher\n\n
+    (final Collection underlying)\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def hasError():
-    '''public boolean hasError()
+    '''returns boolean\n\n
+    hasError()\n
     '''
 def firstError():
-    '''public XmlError firstError()
+    '''returns XmlError\n\n
+    firstError()\n
     '''

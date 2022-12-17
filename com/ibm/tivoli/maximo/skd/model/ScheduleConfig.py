@@ -1,9 +1,12 @@
-def ScheduleConfig():
-    '''public ScheduleConfig()
+def ():
+    '''returns ScheduleConfig\n\n
+    ()\n
     '''
 def isUndoEnabled():
-    '''public boolean isUndoEnabled()
+    '''returns boolean\n\n
+    isUndoEnabled()\n
     '''
 def setUndoEnabled():
-    '''public void setUndoEnabled(final boolean undoEnabled)
+    '''returns None\n\n
+    setUndoEnabled(final boolean undoEnabled)\n
     '''

@@ -1,3 +1,4 @@
-def Base64EncodingStringBufferOutputStream():
-    '''public Base64EncodingStringBufferOutputStream(final StringBuffer buffer)
+def ():
+    '''returns Base64EncodingStringBufferOutputStream\n\n
+    (final StringBuffer buffer)\n
     '''

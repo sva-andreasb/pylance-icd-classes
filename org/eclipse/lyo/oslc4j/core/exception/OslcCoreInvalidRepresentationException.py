@@ -1,9 +1,12 @@
-def OslcCoreInvalidRepresentationException():
-    '''public OslcCoreInvalidRepresentationException(final Class<?> resourceClass, final Method method, final Representation representation)
+def ():
+    '''returns OslcCoreInvalidRepresentationException\n\n
+    (final Class<?> resourceClass, final Method method, final Representation representation)\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
     '''
 def getRepresentation():
-    '''public Representation getRepresentation()
+    '''returns Representation\n\n
+    getRepresentation()\n
     '''

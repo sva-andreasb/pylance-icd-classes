@@ -1,3 +1,4 @@
-def FldDataAttribute():
-    '''public FldDataAttribute(final MboValue mbv)
+def ():
+    '''returns FldDataAttribute\n\n
+    (final MboValue mbv)\n
     '''

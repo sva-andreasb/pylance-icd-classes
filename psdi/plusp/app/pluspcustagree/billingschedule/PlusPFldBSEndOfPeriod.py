@@ -1,6 +1,8 @@
-def PlusPFldBSEndOfPeriod():
-    '''public PlusPFldBSEndOfPeriod(final MboValue mbv)
+def ():
+    '''returns PlusPFldBSEndOfPeriod\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,49 +1,61 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TopologyControl():
-    '''public TopologyControl()
+def ():
+    '''returns TopologyControl\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def handleServletRequest():
-    '''public boolean handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)
+    '''returns boolean\n\n
+    handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def handlBusinessViewRequest():
-    '''public ArrayList<Object> handlBusinessViewRequest(final AppInstance appInst, final String parmDetailView, final int depth, final boolean showImpacted, final String cinumValue)
+    '''returns ArrayList<Object>\n\n
+    handlBusinessViewRequest(final AppInstance appInst, final String parmDetailView, final int depth, final boolean showImpacted, final String cinumValue)\n
     '''
 def loadTaskTargetsAndImpacts():
-    '''public ArrayList<ImplTaskTargetHelper> loadTaskTargetsAndImpacts(final AppInstance appInst)
+    '''returns ArrayList<ImplTaskTargetHelper>\n\n
+    loadTaskTargetsAndImpacts(final AppInstance appInst)\n
     '''
 def hasImplementationTask():
-    '''public boolean hasImplementationTask(final AppInstance appInst)
+    '''returns boolean\n\n
+    hasImplementationTask(final AppInstance appInst)\n
     '''
 def getTopologyMaxNodes():
-    '''public int getTopologyMaxNodes()
+    '''returns int\n\n
+    getTopologyMaxNodes()\n
     '''
 def setTopologyMaxNodes():
-    '''public void setTopologyMaxNodes(final int topologyMaxNodes)
+    '''returns None\n\n
+    setTopologyMaxNodes(final int topologyMaxNodes)\n
     '''
 def getTopologyDepth():
-    '''public String getTopologyDepth()
+    '''returns String\n\n
+    getTopologyDepth()\n
     '''
 def setTopologyDepth():
-    '''public void setTopologyDepth(final String topologyDepth)
+    '''returns None\n\n
+    setTopologyDepth(final String topologyDepth)\n
     '''
 def getTopologyInitDepth():
-    '''public String getTopologyInitDepth()
+    '''returns String\n\n
+    getTopologyInitDepth()\n
     '''
 def setTopologyInitDepth():
-    '''public void setTopologyInitDepth(final String topologyInitDepth)
+    '''returns None\n\n
+    setTopologyInitDepth(final String topologyInitDepth)\n
     '''
 def isDetailView():
-    '''public boolean isDetailView()
+    '''returns boolean\n\n
+    isDetailView()\n
     '''
 def setDetailView():
-    '''public void setDetailView(final String detailView)
-    '''
-def getImpactedCI():
-    '''public Hashtable<String, Boolean> getImpactedCI()
+    '''returns None\n\n
+    setDetailView(final String detailView)\n
     '''
 def setImpactedCI():
-    '''public void setImpactedCI(final Hashtable<String, Boolean> impactedCI)
+    '''returns None\n\n
+    setImpactedCI(final Hashtable<String, Boolean> impactedCI)\n
     '''

@@ -1,3 +1,4 @@
-def AutoScriptVarsSet():
-    '''public AutoScriptVarsSet(final MboServerInterface ms)
+def ():
+    '''returns AutoScriptVarsSet\n\n
+    (final MboServerInterface ms)\n
     '''

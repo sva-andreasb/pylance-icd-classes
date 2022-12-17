@@ -1,3 +1,4 @@
-def ReportDSParamSet():
-    '''public ReportDSParamSet(final MboServerInterface ms)
+def ():
+    '''returns ReportDSParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

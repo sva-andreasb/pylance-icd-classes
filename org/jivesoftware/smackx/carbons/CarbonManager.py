@@ -1,52 +1,60 @@
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def connectionClosed():
-    '''public void connectionClosed()
+    '''returns None\n\n
+    connectionClosed()\n
     '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
-    '''
-def getInstanceFor():
-    '''public static synchronized CarbonManager getInstanceFor(final XMPPConnection connection)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def addCarbonCopyReceivedListener():
-    '''public boolean addCarbonCopyReceivedListener(final CarbonCopyReceivedListener listener)
+    '''returns boolean\n\n
+    addCarbonCopyReceivedListener(final CarbonCopyReceivedListener listener)\n
     '''
 def removeCarbonCopyReceivedListener():
-    '''public boolean removeCarbonCopyReceivedListener(final CarbonCopyReceivedListener listener)
+    '''returns boolean\n\n
+    removeCarbonCopyReceivedListener(final CarbonCopyReceivedListener listener)\n
     '''
 def isSupportedByServer():
-    '''public boolean isSupportedByServer()
+    '''returns boolean\n\n
+    isSupportedByServer()\n
     '''
 def sendCarbonsEnabled():
-    '''public void sendCarbonsEnabled(final boolean new_state)
+    '''returns None\n\n
+    sendCarbonsEnabled(final boolean new_state)\n
     '''
 def enableCarbonsAsync():
-    '''public void enableCarbonsAsync(final ExceptionCallback<Exception> exceptionCallback)
+    '''returns None\n\n
+    enableCarbonsAsync(final ExceptionCallback<Exception> exceptionCallback)\n
     '''
 def disableCarbonsAsync():
-    '''public void disableCarbonsAsync(final ExceptionCallback<Exception> exceptionCallback)
+    '''returns None\n\n
+    disableCarbonsAsync(final ExceptionCallback<Exception> exceptionCallback)\n
     '''
 def onSuccess():
-    '''public void onSuccess(final IQ result)
-    '''
-def setCarbonsEnabled():
-    '''public synchronized void setCarbonsEnabled(final boolean new_state)
+    '''returns None\n\n
+    onSuccess(final IQ result)\n
     '''
 def enableCarbons():
-    '''public void enableCarbons()
+    '''returns None\n\n
+    enableCarbons()\n
     '''
 def disableCarbons():
-    '''public void disableCarbons()
-    public static void disableCarbons(final Message msg)
+    '''returns None\n\n
+    disableCarbons()\n
     '''
 def getCarbonsEnabled():
-    '''public boolean getCarbonsEnabled()
+    '''returns boolean\n\n
+    getCarbonsEnabled()\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

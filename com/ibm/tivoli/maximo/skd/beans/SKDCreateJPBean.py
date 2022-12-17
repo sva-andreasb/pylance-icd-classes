@@ -1,9 +1,8 @@
 def autonumber():
-    '''public int autonumber()
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(final String option)
+    '''returns int\n\n
+    autonumber()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''

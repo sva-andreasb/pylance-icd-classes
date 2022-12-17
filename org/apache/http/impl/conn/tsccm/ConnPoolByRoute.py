@@ -1,39 +1,51 @@
-def ConnPoolByRoute():
-    '''public ConnPoolByRoute(final ClientConnectionOperator operator, final ConnPerRoute connPerRoute, final int maxTotalConnections)
-    public ConnPoolByRoute(final ClientConnectionOperator operator, final ConnPerRoute connPerRoute, final int maxTotalConnections, final long connTTL, final TimeUnit connTTLTimeUnit)
-    public ConnPoolByRoute(final ClientConnectionOperator operator, final HttpParams params)
+def ():
+    '''returns ConnPoolByRoute\n\n
+    (final ClientConnectionOperator operator, final ConnPerRoute connPerRoute, final int maxTotalConnections)\n
+    (final ClientConnectionOperator operator, final ConnPerRoute connPerRoute, final int maxTotalConnections, final long connTTL, final TimeUnit connTTLTimeUnit)\n
+    (final ClientConnectionOperator operator, final HttpParams params)\n
     '''
 def getConnectionsInPool():
-    '''public int getConnectionsInPool(final HttpRoute route)
-    public int getConnectionsInPool()
+    '''returns int\n\n
+    getConnectionsInPool(final HttpRoute route)\n
+    getConnectionsInPool()\n
     '''
 def requestPoolEntry():
-    '''public PoolEntryRequest requestPoolEntry(final HttpRoute route, final Object state)
+    '''returns PoolEntryRequest\n\n
+    requestPoolEntry(final HttpRoute route, final Object state)\n
     '''
 def abortRequest():
-    '''public void abortRequest()
+    '''returns None\n\n
+    abortRequest()\n
     '''
 def getPoolEntry():
-    '''public BasicPoolEntry getPoolEntry(final long timeout, final TimeUnit tunit)
+    '''returns BasicPoolEntry\n\n
+    getPoolEntry(final long timeout, final TimeUnit tunit)\n
     '''
 def freeEntry():
-    '''public void freeEntry(final BasicPoolEntry entry, final boolean reusable, final long validDuration, final TimeUnit timeUnit)
+    '''returns None\n\n
+    freeEntry(final BasicPoolEntry entry, final boolean reusable, final long validDuration, final TimeUnit timeUnit)\n
     '''
 def deleteClosedConnections():
-    '''public void deleteClosedConnections()
+    '''returns None\n\n
+    deleteClosedConnections()\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idletime, final TimeUnit tunit)
+    '''returns None\n\n
+    closeIdleConnections(final long idletime, final TimeUnit tunit)\n
     '''
 def closeExpiredConnections():
-    '''public void closeExpiredConnections()
+    '''returns None\n\n
+    closeExpiredConnections()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def setMaxTotalConnections():
-    '''public void setMaxTotalConnections(final int max)
+    '''returns None\n\n
+    setMaxTotalConnections(final int max)\n
     '''
 def getMaxTotalConnections():
-    '''public int getMaxTotalConnections()
+    '''returns int\n\n
+    getMaxTotalConnections()\n
     '''

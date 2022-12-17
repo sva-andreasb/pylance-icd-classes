@@ -1,15 +1,20 @@
-def MaxEndPointPropInfo():
-    '''public MaxEndPointPropInfo(final String propertyName, final String value, final int over)
+def ():
+    '''returns MaxEndPointPropInfo\n\n
+    (final String propertyName, final String value, final int over)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getBooleanValue():
-    '''public boolean getBooleanValue()
+    '''returns boolean\n\n
+    getBooleanValue()\n
     '''
 def allowOveride():
-    '''public boolean allowOveride()
+    '''returns boolean\n\n
+    allowOveride()\n
     '''

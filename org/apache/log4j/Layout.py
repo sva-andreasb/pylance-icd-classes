@@ -1,9 +1,12 @@
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getHeader():
-    '''public String getHeader()
+    '''returns String\n\n
+    getHeader()\n
     '''
 def getFooter():
-    '''public String getFooter()
+    '''returns String\n\n
+    getFooter()\n
     '''

@@ -1,3 +1,4 @@
 def setValue():
-    '''public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''returns None\n\n
+    setValue(final int nRow, final String attribute, final String value, final long accessModifier)\n
     '''

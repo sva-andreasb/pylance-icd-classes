@@ -1,3 +1,4 @@
-def PersonChangeStatusSet():
-    '''public PersonChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PersonChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

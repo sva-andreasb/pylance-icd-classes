@@ -1,28 +1,37 @@
-def Pass3bVerifier():
-    '''public Pass3bVerifier(final Verifier owner, final int method_no)
+def ():
+    '''returns Pass3bVerifier\n\n
+    (final Verifier owner, final int method_no)\n
     '''
 def do_verify():
-    '''public VerificationResult do_verify()
+    '''returns VerificationResult\n\n
+    do_verify()\n
     '''
 def getMethodNo():
-    '''public int getMethodNo()
+    '''returns int\n\n
+    getMethodNo()\n
     '''
 def add():
-    '''public void add(final InstructionContext ic, final ArrayList executionChain)
+    '''returns None\n\n
+    add(final InstructionContext ic, final ArrayList executionChain)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def remove():
-    '''public void remove()
-    public void remove(final int i)
+    '''returns None\n\n
+    remove()\n
+    remove(final int i)\n
     '''
 def getIC():
-    '''public InstructionContext getIC(final int i)
+    '''returns InstructionContext\n\n
+    getIC(final int i)\n
     '''
 def getEC():
-    '''public ArrayList getEC(final int i)
+    '''returns ArrayList\n\n
+    getEC(final int i)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

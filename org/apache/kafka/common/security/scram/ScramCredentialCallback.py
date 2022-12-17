@@ -1,4 +1,5 @@
 def scramCredential():
-    '''public ScramCredential scramCredential()
-    public void scramCredential(final ScramCredential scramCredential)
+    '''returns None\n\n
+    scramCredential()\n
+    scramCredential(final ScramCredential scramCredential)\n
     '''

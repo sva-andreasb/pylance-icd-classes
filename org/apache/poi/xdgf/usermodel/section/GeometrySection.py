@@ -1,12 +1,16 @@
-def GeometrySection():
-    '''public GeometrySection(final SectionType section, final XDGFSheet containingSheet)
+def ():
+    '''returns GeometrySection\n\n
+    (final SectionType section, final XDGFSheet containingSheet)\n
     '''
 def setupMaster():
-    '''public void setupMaster(final XDGFSection master)
+    '''returns None\n\n
+    setupMaster(final XDGFSection master)\n
     '''
 def getNoShow():
-    '''public Boolean getNoShow()
+    '''returns Boolean\n\n
+    getNoShow()\n
     '''
 def getCombinedRows():
-    '''public Iterable<GeometryRow> getCombinedRows()
+    '''returns Iterable<GeometryRow>\n\n
+    getCombinedRows()\n
     '''

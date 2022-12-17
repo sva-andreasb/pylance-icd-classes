@@ -1,30 +1,40 @@
-def ItemSpaces():
-    '''public ItemSpaces()
+def ():
+    '''returns ItemSpaces\n\n
+    ()\n
     '''
 def areaFromAttribute():
-    '''public boolean areaFromAttribute(final Parser project, final String name)
+    '''returns boolean\n\n
+    areaFromAttribute(final Parser project, final String name)\n
     '''
 def getGrossArea():
-    '''public String getGrossArea()
+    '''returns String\n\n
+    getGrossArea()\n
     '''
 def getNetArea():
-    '''public String getNetArea()
+    '''returns String\n\n
+    getNetArea()\n
     '''
 def getPerimeter():
-    '''public String getPerimeter()
+    '''returns String\n\n
+    getPerimeter()\n
     '''
 def setGrossArea():
-    '''public void setGrossArea(final String grossArea)
+    '''returns None\n\n
+    setGrossArea(final String grossArea)\n
     '''
 def setNetArea():
-    '''public void setNetArea(final String netArea)
+    '''returns None\n\n
+    setNetArea(final String netArea)\n
     '''
 def setPerimeter():
-    '''public void setPerimeter(final String perimeter)
+    '''returns None\n\n
+    setPerimeter(final String perimeter)\n
     '''
 def perimeterFromAttribute():
-    '''public boolean perimeterFromAttribute(final Parser project, final String name)
+    '''returns boolean\n\n
+    perimeterFromAttribute(final Parser project, final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

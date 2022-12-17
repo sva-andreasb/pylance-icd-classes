@@ -1,6 +1,8 @@
-def OSEventSet():
-    '''public OSEventSet(final MboServerInterface ms)
+def ():
+    '''returns OSEventSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

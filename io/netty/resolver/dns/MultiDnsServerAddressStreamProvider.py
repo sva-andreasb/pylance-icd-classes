@@ -1,7 +1,9 @@
-def MultiDnsServerAddressStreamProvider():
-    '''public MultiDnsServerAddressStreamProvider(final List<DnsServerAddressStreamProvider> providers)
-    public MultiDnsServerAddressStreamProvider(final DnsServerAddressStreamProvider... providers)
+def ():
+    '''returns MultiDnsServerAddressStreamProvider\n\n
+    (final List<DnsServerAddressStreamProvider> providers)\n
+    (final DnsServerAddressStreamProvider... providers)\n
     '''
 def nameServerAddressStream():
-    '''public DnsServerAddressStream nameServerAddressStream(final String hostname)
+    '''returns DnsServerAddressStream\n\n
+    nameServerAddressStream(final String hostname)\n
     '''

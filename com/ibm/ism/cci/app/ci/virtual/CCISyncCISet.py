@@ -1,3 +1,4 @@
-def CCISyncCISet():
-    '''public CCISyncCISet(final MboServerInterface ms)
+def ():
+    '''returns CCISyncCISet\n\n
+    (final MboServerInterface ms)\n
     '''

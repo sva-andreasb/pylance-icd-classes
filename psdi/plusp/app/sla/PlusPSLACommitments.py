@@ -1,9 +1,12 @@
-def PlusPSLACommitments():
-    '''public PlusPSLACommitments(final MboSet arg0)
+def ():
+    '''returns PlusPSLACommitments\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def enableFields():
-    '''public void enableFields()
+    '''returns None\n\n
+    enableFields()\n
     '''

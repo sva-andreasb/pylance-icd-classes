@@ -1,27 +1,36 @@
-def Messagebox():
-    '''public Messagebox()
+def ():
+    '''returns Messagebox\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def dialogok():
-    '''public int dialogok()
+    '''returns int\n\n
+    dialogok()\n
     '''
 def dialogcancel():
-    '''public int dialogcancel()
+    '''returns int\n\n
+    dialogcancel()\n
     '''
 def dialogyes():
-    '''public int dialogyes()
+    '''returns int\n\n
+    dialogyes()\n
     '''
 def dialogno():
-    '''public int dialogno()
+    '''returns int\n\n
+    dialogno()\n
     '''
 def dialogclose():
-    '''public int dialogclose()
+    '''returns int\n\n
+    dialogclose()\n
     '''
 def dialogcloseOnly():
-    '''public boolean dialogcloseOnly()
+    '''returns boolean\n\n
+    dialogcloseOnly()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''

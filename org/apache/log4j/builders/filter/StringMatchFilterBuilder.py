@@ -1,4 +1,5 @@
 def parseFilter():
-    '''public Filter parseFilter(final Element filterElement, final XmlConfiguration config)
-    public Filter parseFilter(final PropertiesConfiguration config)
+    '''returns Filter\n\n
+    parseFilter(final Element filterElement, final XmlConfiguration config)\n
+    parseFilter(final PropertiesConfiguration config)\n
     '''

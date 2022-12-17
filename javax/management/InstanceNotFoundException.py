@@ -1,4 +1,5 @@
-def InstanceNotFoundException():
-    '''public InstanceNotFoundException()
-    public InstanceNotFoundException(final String s)
+def ():
+    '''returns InstanceNotFoundException\n\n
+    ()\n
+    (final String s)\n
     '''

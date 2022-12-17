@@ -1,3 +1,4 @@
-def ExternalCacheEntry():
-    '''public ExternalCacheEntry()
+def ():
+    '''returns ExternalCacheEntry\n\n
+    ()\n
     '''

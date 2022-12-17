@@ -1,3 +1,4 @@
-def PmtcoSelectAssetBean():
-    '''public PmtcoSelectAssetBean()
+def ():
+    '''returns PmtcoSelectAssetBean\n\n
+    ()\n
     '''

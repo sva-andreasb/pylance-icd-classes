@@ -1,39 +1,47 @@
-def Network():
-    '''public Network(final long initialIdentifier, final int featureSize)
-    '''
-def copy():
-    '''public synchronized Network copy()
+def ():
+    '''returns Network\n\n
+    (final long initialIdentifier, final int featureSize)\n
     '''
 def iterator():
-    '''public Iterator<Neuron> iterator()
+    '''returns Iterator<Neuron>\n\n
+    iterator()\n
     '''
 def getNeurons():
-    '''public Collection<Neuron> getNeurons(final Comparator<Neuron> comparator)
+    '''returns Collection<Neuron>\n\n
+    getNeurons(final Comparator<Neuron> comparator)\n
     '''
 def createNeuron():
-    '''public long createNeuron(final double[] features)
+    '''returns long\n\n
+    createNeuron(final double[] features)\n
     '''
 def deleteNeuron():
-    '''public void deleteNeuron(final Neuron neuron)
+    '''returns None\n\n
+    deleteNeuron(final Neuron neuron)\n
     '''
 def getFeaturesSize():
-    '''public int getFeaturesSize()
+    '''returns int\n\n
+    getFeaturesSize()\n
     '''
 def addLink():
-    '''public void addLink(final Neuron a, final Neuron b)
+    '''returns None\n\n
+    addLink(final Neuron a, final Neuron b)\n
     '''
 def deleteLink():
-    '''public void deleteLink(final Neuron a, final Neuron b)
+    '''returns None\n\n
+    deleteLink(final Neuron a, final Neuron b)\n
     '''
 def getNeuron():
-    '''public Neuron getNeuron(final long id)
+    '''returns Neuron\n\n
+    getNeuron(final long id)\n
     '''
 def getNeighbours():
-    '''public Collection<Neuron> getNeighbours(final Iterable<Neuron> neurons)
-    public Collection<Neuron> getNeighbours(final Iterable<Neuron> neurons, final Iterable<Neuron> exclude)
-    public Collection<Neuron> getNeighbours(final Neuron neuron)
-    public Collection<Neuron> getNeighbours(final Neuron neuron, final Iterable<Neuron> exclude)
+    '''returns Collection<Neuron>\n\n
+    getNeighbours(final Iterable<Neuron> neurons)\n
+    getNeighbours(final Iterable<Neuron> neurons, final Iterable<Neuron> exclude)\n
+    getNeighbours(final Neuron neuron)\n
+    getNeighbours(final Neuron neuron, final Iterable<Neuron> exclude)\n
     '''
 def compare():
-    '''public int compare(final Neuron a, final Neuron b)
+    '''returns int\n\n
+    compare(final Neuron a, final Neuron b)\n
     '''

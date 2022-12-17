@@ -1,3 +1,4 @@
-def ApptBookChangeStatusSet():
-    '''public ApptBookChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns ApptBookChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

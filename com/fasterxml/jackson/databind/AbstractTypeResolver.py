@@ -1,7 +1,9 @@
 def findTypeMapping():
-    '''public JavaType findTypeMapping(final DeserializationConfig config, final JavaType type)
+    '''returns JavaType\n\n
+    findTypeMapping(final DeserializationConfig config, final JavaType type)\n
     '''
 def resolveAbstractType():
-    '''public JavaType resolveAbstractType(final DeserializationConfig config, final JavaType type)
-    public JavaType resolveAbstractType(final DeserializationConfig config, final BeanDescription typeDesc)
+    '''returns JavaType\n\n
+    resolveAbstractType(final DeserializationConfig config, final JavaType type)\n
+    resolveAbstractType(final DeserializationConfig config, final BeanDescription typeDesc)\n
     '''

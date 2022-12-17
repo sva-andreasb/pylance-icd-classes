@@ -1,3 +1,4 @@
-def OslcGenerator():
-    '''public OslcGenerator(final MboSet ms)
+def ():
+    '''returns OslcGenerator\n\n
+    (final MboSet ms)\n
     '''

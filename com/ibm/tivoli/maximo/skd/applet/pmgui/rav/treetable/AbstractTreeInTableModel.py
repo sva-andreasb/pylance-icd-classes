@@ -1,22 +1,29 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def AbstractTreeInTableModel():
-    '''public AbstractTreeInTableModel(final Object root)
+def ():
+    '''returns AbstractTreeInTableModel\n\n
+    (final Object root)\n
     '''
 def getIndexOfChild():
-    '''public int getIndexOfChild(final Object parent, final Object child)
+    '''returns int\n\n
+    getIndexOfChild(final Object parent, final Object child)\n
     '''
 def getRoot():
-    '''public Object getRoot()
+    '''returns Object\n\n
+    getRoot()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf(final Object arg0)
+    '''returns boolean\n\n
+    isLeaf(final Object arg0)\n
     '''
 def addTreeModelListener():
-    '''public void addTreeModelListener(final TreeModelListener l)
+    '''returns None\n\n
+    addTreeModelListener(final TreeModelListener l)\n
     '''
 def removeTreeModelListener():
-    '''public void removeTreeModelListener(final TreeModelListener l)
+    '''returns None\n\n
+    removeTreeModelListener(final TreeModelListener l)\n
     '''
 def valueForPathChanged():
-    '''public void valueForPathChanged(final TreePath arg0, final Object arg1)
+    '''returns None\n\n
+    valueForPathChanged(final TreePath arg0, final Object arg1)\n
     '''

@@ -1,28 +1,25 @@
-def OslcQueryTemplateCacheImpl():
-    '''public OslcQueryTemplateCacheImpl()
+def ():
+    '''returns OslcQueryTemplateCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getAllTemplates():
-    '''public Map<String, Map<String, OslcQueryTemplateInfo>> getAllTemplates()
-    '''
-def getTemplatesByOsName():
-    '''public Map<String, OslcQueryTemplateInfo> getTemplatesByOsName(final String personid, final String osname)
+    '''returns String\n\n
+    getName()\n
     '''
 def getTemplateByOsAndTemplateName():
-    '''public OslcQueryTemplateInfo getTemplateByOsAndTemplateName(final String personid, final String osname, final String templatename)
-    '''
-def getTemplatesByObjectName():
-    '''public Map<String, OslcQueryTemplateInfo> getTemplatesByObjectName(final String personid, final String objectName)
+    '''returns OslcQueryTemplateInfo\n\n
+    getTemplateByOsAndTemplateName(final String personid, final String osname, final String templatename)\n
     '''
 def getTemplateByObjectNameAndTemplateName():
-    '''public OslcQueryTemplateInfo getTemplateByObjectNameAndTemplateName(final String personid, final String objectName, final String templatename)
+    '''returns OslcQueryTemplateInfo\n\n
+    getTemplateByObjectNameAndTemplateName(final String personid, final String objectName, final String templatename)\n
     '''

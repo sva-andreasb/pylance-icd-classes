@@ -3,41 +3,53 @@ SYNC_USER = "int  200"
 SYNC_GROUP = "int  300"
 SYNC_GROUPMEMBERS = "int  500"
 SYNC_ENDED = "int  600"
-def LdapSyncEvent():
-    '''public LdapSyncEvent(final int eventId, final Connection con, final MXLogger logger, final MXLogger sqlLogger, final UserInfo userInfo)
-    public LdapSyncEvent(final int eventId, final DataMap dataMap, final SyncData syncData)
-    public LdapSyncEvent(final int eventId, final MemberDataMap memberDataMap, final SyncData syncData, final Set members)
+def ():
+    '''returns LdapSyncEvent\n\n
+    (final int eventId, final Connection con, final MXLogger logger, final MXLogger sqlLogger, final UserInfo userInfo)\n
+    (final int eventId, final DataMap dataMap, final SyncData syncData)\n
+    (final int eventId, final MemberDataMap memberDataMap, final SyncData syncData, final Set members)\n
     '''
 def getEventType():
-    '''public int getEventType()
+    '''returns int\n\n
+    getEventType()\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def getSqlLogger():
-    '''public MXLogger getSqlLogger()
+    '''returns MXLogger\n\n
+    getSqlLogger()\n
     '''
 def getUserSyncData():
-    '''public SyncData getUserSyncData()
+    '''returns SyncData\n\n
+    getUserSyncData()\n
     '''
 def getUserDataMap():
-    '''public DataMap getUserDataMap()
+    '''returns DataMap\n\n
+    getUserDataMap()\n
     '''
 def getGroupSyncData():
-    '''public SyncData getGroupSyncData()
+    '''returns SyncData\n\n
+    getGroupSyncData()\n
     '''
 def getGroupDataMap():
-    '''public DataMap getGroupDataMap()
+    '''returns DataMap\n\n
+    getGroupDataMap()\n
     '''
 def getGroupMemberDataMap():
-    '''public MemberDataMap getGroupMemberDataMap()
+    '''returns MemberDataMap\n\n
+    getGroupMemberDataMap()\n
     '''
 def getGroupMembers():
-    '''public Set getGroupMembers()
+    '''returns Set\n\n
+    getGroupMembers()\n
     '''

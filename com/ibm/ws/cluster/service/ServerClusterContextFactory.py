@@ -1,6 +1,4 @@
-def getServerClusterContextFactory():
-    '''public static ServerClusterContextFactory getServerClusterContextFactory()
-    '''
 def createServerClusterContext():
-    '''public ServerClusterContext createServerClusterContext()
+    '''returns ServerClusterContext\n\n
+    createServerClusterContext()\n
     '''

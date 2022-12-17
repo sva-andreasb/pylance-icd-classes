@@ -1,58 +1,77 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmChgChangeAppBean():
-    '''public PmChgChangeAppBean()
+def ():
+    '''returns PmChgChangeAppBean\n\n
+    ()\n
     '''
 def detectConflicts():
-    '''public int detectConflicts()
+    '''returns int\n\n
+    detectConflicts()\n
     '''
 def PMCHGADDR():
-    '''public int PMCHGADDR()
+    '''returns int\n\n
+    PMCHGADDR()\n
     '''
 def PMCHGADDA():
-    '''public int PMCHGADDA()
+    '''returns int\n\n
+    PMCHGADDA()\n
     '''
 def PMCHGSCHTK():
-    '''public int PMCHGSCHTK()
+    '''returns int\n\n
+    PMCHGSCHTK()\n
     '''
 def PMCHGSCHAC():
-    '''public int PMCHGSCHAC()
+    '''returns int\n\n
+    PMCHGSCHAC()\n
     '''
 def PMCHGREMR():
-    '''public int PMCHGREMR()
+    '''returns int\n\n
+    PMCHGREMR()\n
     '''
 def PMCHGASSIM():
-    '''public int PMCHGASSIM()
+    '''returns int\n\n
+    PMCHGASSIM()\n
     '''
 def PMCHGCANR():
-    '''public int PMCHGCANR()
+    '''returns int\n\n
+    PMCHGCANR()\n
     '''
 def PMCHGCRWF():
-    '''public int PMCHGCRWF()
+    '''returns int\n\n
+    PMCHGCRWF()\n
     '''
 def PMCHGCALIM():
-    '''public int PMCHGCALIM()
+    '''returns int\n\n
+    PMCHGCALIM()\n
     '''
 def PMCHGHISIM():
-    '''public int PMCHGHISIM()
+    '''returns int\n\n
+    PMCHGHISIM()\n
     '''
 def INSERT():
-    '''public int INSERT()
+    '''returns int\n\n
+    INSERT()\n
     '''
 def pmchgSaveSimpleChange():
-    '''public int pmchgSaveSimpleChange()
+    '''returns int\n\n
+    pmchgSaveSimpleChange()\n
     '''
 def pmchgCancelSimpleChange():
-    '''public int pmchgCancelSimpleChange()
+    '''returns int\n\n
+    pmchgCancelSimpleChange()\n
     '''
 def returnLookupValue():
-    '''public int returnLookupValue(final MboRemote lookupMbo)
+    '''returns int\n\n
+    returnLookupValue(final MboRemote lookupMbo)\n
     '''
 def returnFromSchedulerNoValue():
-    '''public void returnFromSchedulerNoValue()
+    '''returns None\n\n
+    returnFromSchedulerNoValue()\n
     '''
 def ticketmeterread():
-    '''public int ticketmeterread()
+    '''returns int\n\n
+    ticketmeterread()\n
     '''
 def ticketrepdown():
-    '''public int ticketrepdown()
+    '''returns int\n\n
+    ticketrepdown()\n
     '''

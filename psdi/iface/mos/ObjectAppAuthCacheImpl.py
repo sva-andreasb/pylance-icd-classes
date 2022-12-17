@@ -1,13 +1,17 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getAuthApp():
-    '''public String getAuthApp(final String context, final String objectName)
+    '''returns String\n\n
+    getAuthApp(final String context, final String objectName)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

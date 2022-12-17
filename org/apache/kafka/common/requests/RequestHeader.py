@@ -1,34 +1,41 @@
-def RequestHeader():
-    '''public RequestHeader(final Struct struct)
-    public RequestHeader(final ApiKeys apiKey, final short version, final String clientId, final int correlation)
+def ():
+    '''returns RequestHeader\n\n
+    (final Struct struct)\n
+    (final ApiKeys apiKey, final short version, final String clientId, final int correlation)\n
     '''
 def toStruct():
-    '''public Struct toStruct()
+    '''returns Struct\n\n
+    toStruct()\n
     '''
 def apiKey():
-    '''public ApiKeys apiKey()
+    '''returns ApiKeys\n\n
+    apiKey()\n
     '''
 def apiVersion():
-    '''public short apiVersion()
+    '''returns short\n\n
+    apiVersion()\n
     '''
 def clientId():
-    '''public String clientId()
+    '''returns String\n\n
+    clientId()\n
     '''
 def correlationId():
-    '''public int correlationId()
+    '''returns int\n\n
+    correlationId()\n
     '''
 def toResponseHeader():
-    '''public ResponseHeader toResponseHeader()
-    '''
-def parse():
-    '''public static RequestHeader parse(final ByteBuffer buffer)
+    '''returns ResponseHeader\n\n
+    toResponseHeader()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

@@ -1,33 +1,44 @@
-def Free():
-    '''public Free(final Node n)
+def ():
+    '''returns Free\n\n
+    (final Node n)\n
     '''
 def getListing():
-    '''public int getListing()
+    '''returns int\n\n
+    getListing()\n
     '''
 def setListing():
-    '''public void setListing(final int ix)
+    '''returns None\n\n
+    setListing(final int ix)\n
     '''
 def setIsArg():
-    '''public void setIsArg(final int ix)
+    '''returns None\n\n
+    setIsArg(final int ix)\n
     '''
 def isArg():
-    '''public boolean isArg()
+    '''returns boolean\n\n
+    isArg()\n
     '''
 def getMapping():
-    '''public int getMapping()
+    '''returns int\n\n
+    getMapping()\n
     '''
 def isListed():
-    '''public boolean isListed()
+    '''returns boolean\n\n
+    isListed()\n
     '''
 def var():
-    '''public Node_Variable var()
+    '''returns Node_Variable\n\n
+    var()\n
     '''
 def match():
-    '''public boolean match(final Domain d, final Node x)
+    '''returns boolean\n\n
+    match(final Domain d, final Node x)\n
     '''
 def asNodeMatch():
-    '''public Node asNodeMatch(final Domain d)
+    '''returns Node\n\n
+    asNodeMatch(final Domain d)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

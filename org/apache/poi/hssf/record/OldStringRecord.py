@@ -1,20 +1,26 @@
 biff2_sid = "short  7"
 biff345_sid = "short  519"
-def OldStringRecord():
-    '''public OldStringRecord(final RecordInputStream in)
+def ():
+    '''returns OldStringRecord\n\n
+    (final RecordInputStream in)\n
     '''
 def isBiff2():
-    '''public boolean isBiff2()
+    '''returns boolean\n\n
+    isBiff2()\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def setCodePage():
-    '''public void setCodePage(final CodepageRecord codepage)
+    '''returns None\n\n
+    setCodePage(final CodepageRecord codepage)\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

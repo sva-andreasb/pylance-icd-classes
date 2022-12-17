@@ -1,29 +1,37 @@
-def FileTemplateLoader():
-    '''public FileTemplateLoader()
-    public FileTemplateLoader(final File baseDir)
-    public FileTemplateLoader(final File baseDir, final boolean allowLinking)
+def ():
+    '''returns FileTemplateLoader\n\n
+    ()\n
+    (final File baseDir)\n
+    (final File baseDir, final boolean allowLinking)\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
-    public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def findTemplateSource():
-    '''public Object findTemplateSource(final String name)
+    '''returns Object\n\n
+    findTemplateSource(final String name)\n
     '''
 def getLastModified():
-    '''public long getLastModified(final Object templateSource)
+    '''returns long\n\n
+    getLastModified(final Object templateSource)\n
     '''
 def getReader():
-    '''public Reader getReader(final Object templateSource, final String encoding)
+    '''returns Reader\n\n
+    getReader(final Object templateSource, final String encoding)\n
     '''
 def closeTemplateSource():
-    '''public void closeTemplateSource(final Object templateSource)
+    '''returns None\n\n
+    closeTemplateSource(final Object templateSource)\n
     '''
 def getBaseDirectory():
-    '''public File getBaseDirectory()
+    '''returns File\n\n
+    getBaseDirectory()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

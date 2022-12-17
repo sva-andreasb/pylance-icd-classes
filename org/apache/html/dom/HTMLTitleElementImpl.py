@@ -1,9 +1,12 @@
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final String s)
+    '''returns None\n\n
+    setText(final String s)\n
     '''
-def HTMLTitleElementImpl():
-    '''public HTMLTitleElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLTitleElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

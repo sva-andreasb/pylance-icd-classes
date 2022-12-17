@@ -1,175 +1,228 @@
-def CSSOMSVGColor():
-    '''public CSSOMSVGColor(final ValueProvider vp)
+def ():
+    '''returns ColorNumber\n\n
+    (final ValueProvider vp)\n
+    (final float f)\n
     '''
 def setModificationHandler():
-    '''public void setModificationHandler(final ModificationHandler h)
+    '''returns None\n\n
+    setModificationHandler(final ModificationHandler h)\n
     '''
 def getCssText():
-    '''public String getCssText()
-    public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
+    getCssText()\n
     '''
 def setCssText():
-    '''public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
+    '''returns None\n\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
     '''
 def getCssValueType():
-    '''public short getCssValueType()
-    public short getCssValueType()
+    '''returns short\n\n
+    getCssValueType()\n
+    getCssValueType()\n
     '''
 def getColorType():
-    '''public short getColorType()
+    '''returns short\n\n
+    getColorType()\n
     '''
 def getRGBColor():
-    '''public RGBColor getRGBColor()
+    '''returns RGBColor\n\n
+    getRGBColor()\n
     '''
 def getRgbColor():
-    '''public RGBColor getRgbColor()
+    '''returns RGBColor\n\n
+    getRgbColor()\n
     '''
 def setRGBColor():
-    '''public void setRGBColor(final String color)
+    '''returns None\n\n
+    setRGBColor(final String color)\n
     '''
 def getICCColor():
-    '''public SVGICCColor getICCColor()
+    '''returns SVGICCColor\n\n
+    getICCColor()\n
     '''
 def getIccColor():
-    '''public SVGICCColor getIccColor()
+    '''returns SVGICCColor\n\n
+    getIccColor()\n
     '''
 def setRGBColorICCColor():
-    '''public void setRGBColorICCColor(final String rgb, final String icc)
+    '''returns None\n\n
+    setRGBColorICCColor(final String rgb, final String icc)\n
     '''
 def setColor():
-    '''public void setColor(final short type, final String rgb, final String icc)
+    '''returns None\n\n
+    setColor(final short type, final String rgb, final String icc)\n
     '''
 def getRed():
-    '''public CSSPrimitiveValue getRed()
+    '''returns CSSPrimitiveValue\n\n
+    getRed()\n
     '''
 def getGreen():
-    '''public CSSPrimitiveValue getGreen()
+    '''returns CSSPrimitiveValue\n\n
+    getGreen()\n
     '''
 def getBlue():
-    '''public CSSPrimitiveValue getBlue()
+    '''returns CSSPrimitiveValue\n\n
+    getBlue()\n
     '''
 def getColorProfile():
-    '''public String getColorProfile()
+    '''returns String\n\n
+    getColorProfile()\n
     '''
 def setColorProfile():
-    '''public void setColorProfile(final String colorProfile)
+    '''returns None\n\n
+    setColorProfile(final String colorProfile)\n
     '''
 def getColors():
-    '''public SVGNumberList getColors()
+    '''returns SVGNumberList\n\n
+    getColors()\n
     '''
 def getNumberOfItems():
-    '''public int getNumberOfItems()
+    '''returns int\n\n
+    getNumberOfItems()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def initialize():
-    '''public SVGNumber initialize(final SVGNumber newItem)
+    '''returns SVGNumber\n\n
+    initialize(final SVGNumber newItem)\n
     '''
 def getItem():
-    '''public SVGNumber getItem(final int index)
+    '''returns SVGNumber\n\n
+    getItem(final int index)\n
     '''
 def insertItemBefore():
-    '''public SVGNumber insertItemBefore(final SVGNumber newItem, final int index)
+    '''returns SVGNumber\n\n
+    insertItemBefore(final SVGNumber newItem, final int index)\n
     '''
 def replaceItem():
-    '''public SVGNumber replaceItem(final SVGNumber newItem, final int index)
+    '''returns SVGNumber\n\n
+    replaceItem(final SVGNumber newItem, final int index)\n
     '''
 def removeItem():
-    '''public SVGNumber removeItem(final int index)
+    '''returns SVGNumber\n\n
+    removeItem(final int index)\n
     '''
 def appendItem():
-    '''public SVGNumber appendItem(final SVGNumber newItem)
-    '''
-def ColorNumber():
-    '''public ColorNumber(final float f)
+    '''returns SVGNumber\n\n
+    appendItem(final SVGNumber newItem)\n
     '''
 def getValue():
-    '''public float getValue()
+    '''returns float\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final float f)
+    '''returns None\n\n
+    setValue(final float f)\n
     '''
 def redTextChanged():
-    '''public void redTextChanged(final String text)
+    '''returns None\n\n
+    redTextChanged(final String text)\n
     '''
 def redFloatValueChanged():
-    '''public void redFloatValueChanged(final short unit, final float fValue)
+    '''returns None\n\n
+    redFloatValueChanged(final short unit, final float fValue)\n
     '''
 def greenTextChanged():
-    '''public void greenTextChanged(final String text)
+    '''returns None\n\n
+    greenTextChanged(final String text)\n
     '''
 def greenFloatValueChanged():
-    '''public void greenFloatValueChanged(final short unit, final float fValue)
+    '''returns None\n\n
+    greenFloatValueChanged(final short unit, final float fValue)\n
     '''
 def blueTextChanged():
-    '''public void blueTextChanged(final String text)
+    '''returns None\n\n
+    blueTextChanged(final String text)\n
     '''
 def blueFloatValueChanged():
-    '''public void blueFloatValueChanged(final short unit, final float fValue)
+    '''returns None\n\n
+    blueFloatValueChanged(final short unit, final float fValue)\n
     '''
 def rgbColorChanged():
-    '''public void rgbColorChanged(String text)
+    '''returns None\n\n
+    rgbColorChanged(String text)\n
     '''
 def rgbColorICCColorChanged():
-    '''public void rgbColorICCColorChanged(final String rgb, final String icc)
+    '''returns None\n\n
+    rgbColorICCColorChanged(final String rgb, final String icc)\n
     '''
 def colorChanged():
-    '''public void colorChanged(final short type, final String rgb, final String icc)
+    '''returns None\n\n
+    colorChanged(final short type, final String rgb, final String icc)\n
     '''
 def colorProfileChanged():
-    '''public void colorProfileChanged(final String cp)
+    '''returns None\n\n
+    colorProfileChanged(final String cp)\n
     '''
 def colorsCleared():
-    '''public void colorsCleared()
+    '''returns None\n\n
+    colorsCleared()\n
     '''
 def colorsInitialized():
-    '''public void colorsInitialized(final float f)
+    '''returns None\n\n
+    colorsInitialized(final float f)\n
     '''
 def colorInsertedBefore():
-    '''public void colorInsertedBefore(final float f, final int idx)
+    '''returns None\n\n
+    colorInsertedBefore(final float f, final int idx)\n
     '''
 def colorReplaced():
-    '''public void colorReplaced(final float f, final int idx)
+    '''returns None\n\n
+    colorReplaced(final float f, final int idx)\n
     '''
 def colorRemoved():
-    '''public void colorRemoved(final int idx)
+    '''returns None\n\n
+    colorRemoved(final int idx)\n
     '''
 def colorAppend():
-    '''public void colorAppend(final float f)
+    '''returns None\n\n
+    colorAppend(final float f)\n
     '''
 def getPrimitiveType():
-    '''public short getPrimitiveType()
+    '''returns short\n\n
+    getPrimitiveType()\n
     '''
 def getFloatValue():
-    '''public float getFloatValue(final short unitType)
+    '''returns float\n\n
+    getFloatValue(final short unitType)\n
     '''
 def getStringValue():
-    '''public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
     '''
 def getCounterValue():
-    '''public Counter getCounterValue()
+    '''returns Counter\n\n
+    getCounterValue()\n
     '''
 def getRectValue():
-    '''public Rect getRectValue()
+    '''returns Rect\n\n
+    getRectValue()\n
     '''
 def getRGBColorValue():
-    '''public RGBColor getRGBColorValue()
+    '''returns RGBColor\n\n
+    getRGBColorValue()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public CSSValue item(final int index)
+    '''returns CSSValue\n\n
+    item(final int index)\n
     '''
 def setStringValue():
-    '''public void setStringValue(final short stringType, final String stringValue)
+    '''returns None\n\n
+    setStringValue(final short stringType, final String stringValue)\n
     '''
 def setFloatValue():
-    '''public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
+    '''returns None\n\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
     '''

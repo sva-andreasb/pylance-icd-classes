@@ -1,50 +1,49 @@
 PLAINTEXT_FIELD_NAME = "String  \"_plain\""
-def QueryNodeImpl():
-    '''public QueryNodeImpl()
-    '''
-def add():
-    '''public final void add(final QueryNode child)
-    public final void add(final List<QueryNode> children)
+def ():
+    '''returns QueryNodeImpl\n\n
+    ()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
-    '''
-def set():
-    '''public final void set(final List<QueryNode> children)
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def cloneTree():
-    '''public QueryNode cloneTree()
+    '''returns QueryNode\n\n
+    cloneTree()\n
     '''
 def clone():
-    '''public QueryNode clone()
-    '''
-def getChildren():
-    '''public final List<QueryNode> getChildren()
+    '''returns QueryNode\n\n
+    clone()\n
     '''
 def setTag():
-    '''public void setTag(final String tagName, final Object value)
+    '''returns None\n\n
+    setTag(final String tagName, final Object value)\n
     '''
 def unsetTag():
-    '''public void unsetTag(final String tagName)
+    '''returns None\n\n
+    unsetTag(final String tagName)\n
     '''
 def containsTag():
-    '''public boolean containsTag(final String tagName)
+    '''returns boolean\n\n
+    containsTag(final String tagName)\n
     '''
 def getTag():
-    '''public Object getTag(final String tagName)
+    '''returns Object\n\n
+    getTag(final String tagName)\n
     '''
 def getParent():
-    '''public QueryNode getParent()
+    '''returns QueryNode\n\n
+    getParent()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def getTagMap():
-    '''public Map<String, Object> getTagMap()
+    '''returns String\n\n
+    toString()\n
     '''
 def removeChildren():
-    '''public void removeChildren(final QueryNode childNode)
+    '''returns None\n\n
+    removeChildren(final QueryNode childNode)\n
     '''
 def removeFromParent():
-    '''public void removeFromParent()
+    '''returns None\n\n
+    removeFromParent()\n
     '''

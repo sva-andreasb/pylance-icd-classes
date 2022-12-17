@@ -1,15 +1,20 @@
-def AttributeRule():
-    '''public AttributeRule(final Set attributeSet)
+def ():
+    '''returns AttributeRule\n\n
+    (final Set attributeSet)\n
     '''
 def subset():
-    '''public void subset(final List identities, final StringBuffer reason)
+    '''returns None\n\n
+    subset(final List identities, final StringBuffer reason)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

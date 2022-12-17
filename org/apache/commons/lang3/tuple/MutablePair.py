@@ -1,22 +1,25 @@
-def of():
-    '''public static <L, R> MutablePair<L, R> of(final L left, final R right)
-    '''
-def MutablePair():
-    '''public MutablePair()
-    public MutablePair(final L left, final R right)
+def ():
+    '''returns MutablePair\n\n
+    ()\n
+    (final L left, final R right)\n
     '''
 def getLeft():
-    '''public L getLeft()
+    '''returns L\n\n
+    getLeft()\n
     '''
 def setLeft():
-    '''public void setLeft(final L left)
+    '''returns None\n\n
+    setLeft(final L left)\n
     '''
 def getRight():
-    '''public R getRight()
+    '''returns R\n\n
+    getRight()\n
     '''
 def setRight():
-    '''public void setRight(final R right)
+    '''returns None\n\n
+    setRight(final R right)\n
     '''
 def setValue():
-    '''public R setValue(final R value)
+    '''returns R\n\n
+    setValue(final R value)\n
     '''

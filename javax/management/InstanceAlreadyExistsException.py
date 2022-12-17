@@ -1,4 +1,5 @@
-def InstanceAlreadyExistsException():
-    '''public InstanceAlreadyExistsException()
-    public InstanceAlreadyExistsException(final String s)
+def ():
+    '''returns InstanceAlreadyExistsException\n\n
+    ()\n
+    (final String s)\n
     '''

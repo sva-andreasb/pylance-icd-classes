@@ -1,3 +1,4 @@
-def WorkCenterTemplateAuthSet():
-    '''public WorkCenterTemplateAuthSet(final MboServerInterface ms)
+def ():
+    '''returns WorkCenterTemplateAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,4 +1,5 @@
-def CompanyService():
-    '''public CompanyService()
-    public CompanyService(final MXServer mxServer)
+def ():
+    '''returns CompanyService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

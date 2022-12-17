@@ -1,6 +1,4 @@
-def main():
-    '''public static void main(final String... argv)
-    '''
-def tdbquery():
-    '''public tdbquery(final String[] argv)
+def ():
+    '''returns tdbquery\n\n
+    (final String[] argv)\n
     '''

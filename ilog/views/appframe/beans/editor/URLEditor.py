@@ -1,85 +1,113 @@
-def URLEditor():
-    '''public URLEditor()
+def ():
+    '''returns URLEditor\n\n
+    ()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def focusLost():
-    '''public void focusLost(final FocusEvent focusEvent)
+    '''returns None\n\n
+    focusLost(final FocusEvent focusEvent)\n
     '''
 def selectURL():
-    '''public boolean selectURL(final String s, final String directory, final String file)
-    public boolean selectURL()
+    '''returns boolean\n\n
+    selectURL(final String s, final String directory, final String file)\n
+    selectURL()\n
     '''
 def setValue():
-    '''public void setValue(final Object o)
+    '''returns None\n\n
+    setValue(final Object o)\n
     '''
 def setURL():
-    '''public void setURL(final URL currentValue)
+    '''returns None\n\n
+    setURL(final URL currentValue)\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def isPaintable():
-    '''public boolean isPaintable()
+    '''returns boolean\n\n
+    isPaintable()\n
     '''
 def paintValue():
-    '''public void paintValue(final Graphics graphics, final Rectangle rectangle)
+    '''returns None\n\n
+    paintValue(final Graphics graphics, final Rectangle rectangle)\n
     '''
 def getJavaInitializationString():
-    '''public String getJavaInitializationString()
+    '''returns String\n\n
+    getJavaInitializationString()\n
     '''
 def getAsText():
-    '''public String getAsText()
+    '''returns String\n\n
+    getAsText()\n
     '''
 def setAsText():
-    '''public void setAsText(final String spec)
+    '''returns None\n\n
+    setAsText(final String spec)\n
     '''
 def getTags():
-    '''public String[] getTags()
+    '''returns String[]\n\n
+    getTags()\n
     '''
 def firePropertyChange():
-    '''public void firePropertyChange(final URL oldValue, final URL newValue)
+    '''returns None\n\n
+    firePropertyChange(final URL oldValue, final URL newValue)\n
     '''
 def getCustomEditor():
-    '''public Component getCustomEditor()
+    '''returns Component\n\n
+    getCustomEditor()\n
     '''
 def supportsCustomEditor():
-    '''public boolean supportsCustomEditor()
+    '''returns boolean\n\n
+    supportsCustomEditor()\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def setApplication():
-    '''public void setApplication(final IlvApplication application)
+    '''returns None\n\n
+    setApplication(final IlvApplication application)\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String text)
+    '''returns None\n\n
+    setLabel(final String text)\n
     '''
 def getFileDialogButton():
-    '''public JButton getFileDialogButton()
+    '''returns JButton\n\n
+    getFileDialogButton()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean b)
+    '''returns None\n\n
+    setEnabled(final boolean b)\n
     '''
 def getTextField():
-    '''public JTextField getTextField()
+    '''returns JTextField\n\n
+    getTextField()\n
     '''
 def setURLResolver():
-    '''public void setURLResolver(final IlvURLResolver urlResolver)
+    '''returns None\n\n
+    setURLResolver(final IlvURLResolver urlResolver)\n
     '''
 def getURLResolver():
-    '''public IlvURLResolver getURLResolver()
+    '''returns IlvURLResolver\n\n
+    getURLResolver()\n
     '''

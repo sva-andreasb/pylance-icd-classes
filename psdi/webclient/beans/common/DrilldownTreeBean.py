@@ -1,24 +1,32 @@
-def DrilldownTreeBean():
-    '''public DrilldownTreeBean()
+def ():
+    '''returns DrilldownTreeBean\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def syncUniqueIdWithParent():
-    '''public void syncUniqueIdWithParent()
+    '''returns None\n\n
+    syncUniqueIdWithParent()\n
     '''
 def getTop():
-    '''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getTop(final String[] dataattributes, final int maxchildren)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String objectname, final String uniqueid, final String hierarchy)\n
     '''
 def showAllSystems():
-    '''public int showAllSystems()
+    '''returns int\n\n
+    showAllSystems()\n
     '''
 def getPathToTop():
-    '''public Object[][] getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)\n
     '''

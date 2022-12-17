@@ -1,3 +1,4 @@
-def FldCIShiftNum():
-    '''public FldCIShiftNum(final MboValue mbv)
+def ():
+    '''returns FldCIShiftNum\n\n
+    (final MboValue mbv)\n
     '''

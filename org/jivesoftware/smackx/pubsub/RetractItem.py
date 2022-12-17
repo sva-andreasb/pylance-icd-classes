@@ -1,15 +1,20 @@
-def RetractItem():
-    '''public RetractItem(final String itemId)
+def ():
+    '''returns RetractItem\n\n
+    (final String itemId)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''

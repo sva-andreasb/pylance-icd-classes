@@ -1,3 +1,4 @@
-def DTData():
-    '''public DTData(final MboSet ms)
+def ():
+    '''returns DTData\n\n
+    (final MboSet ms)\n
     '''

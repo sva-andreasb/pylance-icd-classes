@@ -1,3 +1,4 @@
-def SKDConstraintSet():
-    '''public SKDConstraintSet(final MboServerInterface ms)
+def ():
+    '''returns SKDConstraintSet\n\n
+    (final MboServerInterface ms)\n
     '''

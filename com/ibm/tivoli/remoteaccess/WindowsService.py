@@ -1,12 +1,16 @@
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getStateAsString():
-    '''public String getStateAsString()
+    '''returns String\n\n
+    getStateAsString()\n
     '''
 def getState():
-    '''public WindowsServiceState getState()
+    '''returns WindowsServiceState\n\n
+    getState()\n
     '''

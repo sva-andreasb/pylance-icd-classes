@@ -1,27 +1,28 @@
-def JUnitHelper():
-    '''public JUnitHelper()
-    '''
-def getResultFromDatabase():
-    '''public static Object getResultFromDatabase(final String sql, final String columnName)
+def ():
+    '''returns JUnitHelper\n\n
+    ()\n
     '''
 def getValueFromXml():
-    '''public String getValueFromXml(final String fileName, final String keyParam)
+    '''returns String\n\n
+    getValueFromXml(final String fileName, final String keyParam)\n
     '''
 def getAttributeFromXml():
-    '''public String getAttributeFromXml(final String fileName, final String keyParam)
+    '''returns String\n\n
+    getAttributeFromXml(final String fileName, final String keyParam)\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def characters():
-    '''public void characters(final char[] chars, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] chars, final int start, final int length)\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURL, final String localName, final String qName, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String namespaceURL, final String localName, final String qName, final Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURL, final String localName, final String qName)
-    '''
-def outputMessages():
-    '''public static void outputMessages(final IProgressMonitor monitor, final RootTag rootTag)
+    '''returns None\n\n
+    endElement(final String namespaceURL, final String localName, final String qName)\n
     '''

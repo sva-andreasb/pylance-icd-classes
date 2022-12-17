@@ -1,4 +1,5 @@
-def ClassGenException():
-    '''public ClassGenException()
-    public ClassGenException(final String s)
+def ():
+    '''returns ClassGenException\n\n
+    ()\n
+    (final String s)\n
     '''

@@ -1,3 +1,4 @@
 def ADMINMODE():
-    '''public int ADMINMODE()
+    '''returns int\n\n
+    ADMINMODE()\n
     '''

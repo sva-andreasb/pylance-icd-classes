@@ -1,9 +1,12 @@
-def ResourceTableListSelectionListener():
-    '''public ResourceTableListSelectionListener(final IlvScheduleChart chart)
+def ():
+    '''returns ResourceTableListSelectionListener\n\n
+    (final IlvScheduleChart chart)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent e)\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean b)
+    '''returns None\n\n
+    setEnabled(final boolean b)\n
     '''

@@ -1,3 +1,4 @@
 def getReferrals():
-    '''public String[] getReferrals()
+    '''returns String[]\n\n
+    getReferrals()\n
     '''

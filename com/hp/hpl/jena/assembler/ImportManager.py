@@ -1,10 +1,13 @@
-def ImportManager():
-    '''public ImportManager()
+def ():
+    '''returns ImportManager\n\n
+    ()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def withImports():
-    '''public Model withImports(final Model model)
-    public Model withImports(final FileManager fm, final Model model)
+    '''returns Model\n\n
+    withImports(final Model model)\n
+    withImports(final FileManager fm, final Model model)\n
     '''

@@ -1,22 +1,29 @@
-def LRUMap():
-    '''public LRUMap()
-    public LRUMap(final int i)
+def ():
+    '''returns LRUMap\n\n
+    ()\n
+    (final int i)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def getMaximumSize():
-    '''public int getMaximumSize()
+    '''returns int\n\n
+    getMaximumSize()\n
     '''
 def setMaximumSize():
-    '''public void setMaximumSize(final int maximumSize)
+    '''returns None\n\n
+    setMaximumSize(final int maximumSize)\n
     '''

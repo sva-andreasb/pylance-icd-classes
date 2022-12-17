@@ -1,6 +1,8 @@
-def FldLocAncestorLocation():
-    '''public FldLocAncestorLocation(final MboValue mbv)
+def ():
+    '''returns FldLocAncestorLocation\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,21 +1,27 @@
-def MaxTypeDATETIME():
-    '''public MaxTypeDATETIME(final Locale locale, final TimeZone tz)
+def ():
+    '''returns MaxTypeDATETIME\n\n
+    (final Locale locale, final TimeZone tz)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
-    public void setValue(final Date value)
-    public void setValue(final MaxType value)
+    '''returns None\n\n
+    setValue(final String value)\n
+    setValue(final Date value)\n
+    setValue(final MaxType value)\n
     '''
 def asLocaleString():
-    '''public String asLocaleString(final Locale l, final TimeZone tz)
-    public String asLocaleString()
+    '''returns String\n\n
+    asLocaleString(final Locale l, final TimeZone tz)\n
+    asLocaleString()\n
     '''
 def asDate():
-    '''public Date asDate()
+    '''returns Date\n\n
+    asDate()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

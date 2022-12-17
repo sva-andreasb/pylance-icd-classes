@@ -1,16 +1,21 @@
 ELEMENT = "String  \"bcode\""
-def CodeBlockElement():
-    '''public CodeBlockElement(final int start, final int end)
+def ():
+    '''returns CodeBlockElement\n\n
+    (final int start, final int end)\n
     '''
 def getStart():
-    '''public int getStart()
+    '''returns int\n\n
+    getStart()\n
     '''
 def getEnd():
-    '''public int getEnd()
+    '''returns int\n\n
+    getEnd()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

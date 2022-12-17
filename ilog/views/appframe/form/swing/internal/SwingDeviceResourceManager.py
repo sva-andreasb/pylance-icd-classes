@@ -1,22 +1,29 @@
 def getRed():
-    '''public int getRed(final Object o)
+    '''returns int\n\n
+    getRed(final Object o)\n
     '''
 def getGreen():
-    '''public int getGreen(final Object o)
+    '''returns int\n\n
+    getGreen(final Object o)\n
     '''
 def getBlue():
-    '''public int getBlue(final Object o)
+    '''returns int\n\n
+    getBlue(final Object o)\n
     '''
 def getAlpha():
-    '''public int getAlpha(final Object o)
+    '''returns int\n\n
+    getAlpha(final Object o)\n
     '''
 def createColor():
-    '''public Object createColor(final int rgba, final boolean hasalpha)
-    public Object createColor(final String nm)
+    '''returns Object\n\n
+    createColor(final int rgba, final boolean hasalpha)\n
+    createColor(final String nm)\n
     '''
 def encodeFont():
-    '''public String encodeFont(final Object o)
+    '''returns String\n\n
+    encodeFont(final Object o)\n
     '''
 def createFont():
-    '''public Object createFont(final String name, final int size, final boolean b, final boolean b2)
+    '''returns Object\n\n
+    createFont(final String name, final int size, final boolean b, final boolean b2)\n
     '''

@@ -1,8 +1,10 @@
 PARTITIONS_RESOURCE_PATH = "String  \"com/amazonaws/partitions/endpoints.json\""
 PARTITIONS_OVERRIDE_RESOURCE_PATH = "String  \"com/amazonaws/partitions/override/endpoints.json\""
-def PartitionsLoader():
-    '''public PartitionsLoader()
+def ():
+    '''returns PartitionsLoader\n\n
+    ()\n
     '''
 def build():
-    '''public PartitionMetadataProvider build()
+    '''returns PartitionMetadataProvider\n\n
+    build()\n
     '''

@@ -1,18 +1,24 @@
-def WorkPeriod():
-    '''public WorkPeriod(final MboSet ms)
+def ():
+    '''returns WorkPeriod\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def applyShiftPatternDay():
-    '''public void applyShiftPatternDay(final ShiftPatternDay patternDay, final Date workDate, final String calNum)
+    '''returns None\n\n
+    applyShiftPatternDay(final ShiftPatternDay patternDay, final Date workDate, final String calNum)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

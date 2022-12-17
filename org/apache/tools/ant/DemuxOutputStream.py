@@ -1,13 +1,17 @@
-def DemuxOutputStream():
-    '''public DemuxOutputStream(final Project project, final boolean isErrorStream)
+def ():
+    '''returns DemuxOutputStream\n\n
+    (final Project project, final boolean isErrorStream)\n
     '''
 def write():
-    '''public void write(final int cc)
-    public void write(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    write(final int cc)\n
+    write(final byte[] b, final int off, final int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

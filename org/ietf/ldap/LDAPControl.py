@@ -1,6 +1,8 @@
-def LDAPControl():
-    '''public LDAPControl(final String s, final boolean b, final byte[] array)
+def ():
+    '''returns LDAPControl\n\n
+    (final String s, final boolean b, final byte[] array)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

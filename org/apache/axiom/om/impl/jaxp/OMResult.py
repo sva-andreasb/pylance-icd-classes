@@ -1,10 +1,13 @@
-def OMResult():
-    '''public OMResult(final OMFactory omFactory)
-    public OMResult()
+def ():
+    '''returns OMResult\n\n
+    (final OMFactory omFactory)\n
+    ()\n
     '''
 def getDocument():
-    '''public OMDocument getDocument()
+    '''returns OMDocument\n\n
+    getDocument()\n
     '''
 def getRootElement():
-    '''public OMElement getRootElement()
+    '''returns OMElement\n\n
+    getRootElement()\n
     '''

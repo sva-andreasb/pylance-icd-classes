@@ -1,9 +1,12 @@
-def ReadingSet():
-    '''public ReadingSet(final MboServerInterface ms)
+def ():
+    '''returns ReadingSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getPreviousReading():
-    '''public MboRemote getPreviousReading()
+    '''returns MboRemote\n\n
+    getPreviousReading()\n
     '''

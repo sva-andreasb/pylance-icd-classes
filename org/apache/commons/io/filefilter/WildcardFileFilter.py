@@ -1,15 +1,18 @@
-def WildcardFileFilter():
-    '''public WildcardFileFilter(final String wildcard)
-    public WildcardFileFilter(final String wildcard, final IOCase caseSensitivity)
-    public WildcardFileFilter(final String[] wildcards)
-    public WildcardFileFilter(final String[] wildcards, final IOCase caseSensitivity)
-    public WildcardFileFilter(final List<String> wildcards)
-    public WildcardFileFilter(final List<String> wildcards, final IOCase caseSensitivity)
+def ():
+    '''returns WildcardFileFilter\n\n
+    (final String wildcard)\n
+    (final String wildcard, final IOCase caseSensitivity)\n
+    (final String[] wildcards)\n
+    (final String[] wildcards, final IOCase caseSensitivity)\n
+    (final List<String> wildcards)\n
+    (final List<String> wildcards, final IOCase caseSensitivity)\n
     '''
 def accept():
-    '''public boolean accept(final File dir, final String name)
-    public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File dir, final String name)\n
+    accept(final File file)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

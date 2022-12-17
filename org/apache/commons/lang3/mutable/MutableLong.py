@@ -1,54 +1,70 @@
-def MutableLong():
-    '''public MutableLong()
-    public MutableLong(final long value)
-    public MutableLong(final Number value)
-    public MutableLong(final String value)
+def ():
+    '''returns MutableLong\n\n
+    ()\n
+    (final long value)\n
+    (final Number value)\n
+    (final String value)\n
     '''
 def getValue():
-    '''public Long getValue()
+    '''returns Long\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final long value)
-    public void setValue(final Number value)
+    '''returns None\n\n
+    setValue(final long value)\n
+    setValue(final Number value)\n
     '''
 def increment():
-    '''public void increment()
+    '''returns None\n\n
+    increment()\n
     '''
 def decrement():
-    '''public void decrement()
+    '''returns None\n\n
+    decrement()\n
     '''
 def add():
-    '''public void add(final long operand)
-    public void add(final Number operand)
+    '''returns None\n\n
+    add(final long operand)\n
+    add(final Number operand)\n
     '''
 def subtract():
-    '''public void subtract(final long operand)
-    public void subtract(final Number operand)
+    '''returns None\n\n
+    subtract(final long operand)\n
+    subtract(final Number operand)\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def toLong():
-    '''public Long toLong()
+    '''returns Long\n\n
+    toLong()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final MutableLong other)
+    '''returns int\n\n
+    compareTo(final MutableLong other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,99 +1,126 @@
-def ReadOnlyHttpHeaders():
-    '''public ReadOnlyHttpHeaders(final boolean validateHeaders, final CharSequence... nameValuePairs)
+def ():
+    '''returns ReadOnlyHttpHeaders\n\n
+    (final boolean validateHeaders, final CharSequence... nameValuePairs)\n
     '''
 def get():
-    '''public String get(final String name)
+    '''returns String\n\n
+    get(final String name)\n
     '''
 def getInt():
-    '''public Integer getInt(final CharSequence name)
-    public int getInt(final CharSequence name, final int defaultValue)
+    '''returns int\n\n
+    getInt(final CharSequence name)\n
+    getInt(final CharSequence name, final int defaultValue)\n
     '''
 def getShort():
-    '''public Short getShort(final CharSequence name)
-    public short getShort(final CharSequence name, final short defaultValue)
+    '''returns short\n\n
+    getShort(final CharSequence name)\n
+    getShort(final CharSequence name, final short defaultValue)\n
     '''
 def getTimeMillis():
-    '''public Long getTimeMillis(final CharSequence name)
-    public long getTimeMillis(final CharSequence name, final long defaultValue)
+    '''returns long\n\n
+    getTimeMillis(final CharSequence name)\n
+    getTimeMillis(final CharSequence name, final long defaultValue)\n
     '''
 def getAll():
-    '''public List<String> getAll(final String name)
+    '''returns List<String>\n\n
+    getAll(final String name)\n
     '''
 def contains():
-    '''public boolean contains(final String name)
-    public boolean contains(final String name, final String value, final boolean ignoreCase)
+    '''returns boolean\n\n
+    contains(final String name)\n
+    contains(final String name, final String value, final boolean ignoreCase)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final CharSequence name, final CharSequence value, final boolean ignoreCase)
+    '''returns boolean\n\n
+    containsValue(final CharSequence name, final CharSequence value, final boolean ignoreCase)\n
     '''
 def valueStringIterator():
-    '''public Iterator<String> valueStringIterator(final CharSequence name)
+    '''returns Iterator<String>\n\n
+    valueStringIterator(final CharSequence name)\n
     '''
 def valueCharSequenceIterator():
-    '''public Iterator<CharSequence> valueCharSequenceIterator(final CharSequence name)
+    '''returns Iterator<CharSequence>\n\n
+    valueCharSequenceIterator(final CharSequence name)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def names():
-    '''public Set<String> names()
+    '''returns Set<String>\n\n
+    names()\n
     '''
 def add():
-    '''public HttpHeaders add(final String name, final Object value)
-    public HttpHeaders add(final String name, final Iterable<?> values)
+    '''returns HttpHeaders\n\n
+    add(final String name, final Object value)\n
+    add(final String name, final Iterable<?> values)\n
     '''
 def addInt():
-    '''public HttpHeaders addInt(final CharSequence name, final int value)
+    '''returns HttpHeaders\n\n
+    addInt(final CharSequence name, final int value)\n
     '''
 def addShort():
-    '''public HttpHeaders addShort(final CharSequence name, final short value)
+    '''returns HttpHeaders\n\n
+    addShort(final CharSequence name, final short value)\n
     '''
 def set():
-    '''public HttpHeaders set(final String name, final Object value)
-    public HttpHeaders set(final String name, final Iterable<?> values)
+    '''returns HttpHeaders\n\n
+    set(final String name, final Object value)\n
+    set(final String name, final Iterable<?> values)\n
     '''
 def setInt():
-    '''public HttpHeaders setInt(final CharSequence name, final int value)
+    '''returns HttpHeaders\n\n
+    setInt(final CharSequence name, final int value)\n
     '''
 def setShort():
-    '''public HttpHeaders setShort(final CharSequence name, final short value)
+    '''returns HttpHeaders\n\n
+    setShort(final CharSequence name, final short value)\n
     '''
 def remove():
-    '''public HttpHeaders remove(final String name)
-    public void remove()
-    public void remove()
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final String name)\n
+    remove()\n
+    remove()\n
+    remove()\n
+    remove()\n
     '''
 def clear():
-    '''public HttpHeaders clear()
+    '''returns HttpHeaders\n\n
+    clear()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
-    public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
+    hasNext()\n
+    hasNext()\n
     '''
 def getKey():
-    '''public CharSequence getKey()
-    public String getKey()
+    '''returns String\n\n
+    getKey()\n
+    getKey()\n
     '''
 def getValue():
-    '''public CharSequence getValue()
-    public String getValue()
+    '''returns String\n\n
+    getValue()\n
+    getValue()\n
     '''
 def setValue():
-    '''public CharSequence setValue(final CharSequence value)
-    public String setValue(final String value)
+    '''returns String\n\n
+    setValue(final CharSequence value)\n
+    setValue(final String value)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def next():
-    '''public String next()
-    public CharSequence next()
+    '''returns CharSequence\n\n
+    next()\n
+    next()\n
     '''

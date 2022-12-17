@@ -1,3 +1,4 @@
-def DeploymentException():
-    '''public DeploymentException(final String msg, final Throwable t)
+def ():
+    '''returns DeploymentException\n\n
+    (final String msg, final Throwable t)\n
     '''

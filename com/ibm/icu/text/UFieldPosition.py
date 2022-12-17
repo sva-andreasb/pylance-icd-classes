@@ -1,15 +1,19 @@
-def UFieldPosition():
-    '''public UFieldPosition()
-    public UFieldPosition(final int field)
-    public UFieldPosition(final Format.Field attribute, final int fieldID)
-    public UFieldPosition(final Format.Field attribute)
+def ():
+    '''returns UFieldPosition\n\n
+    ()\n
+    (final int field)\n
+    (final Format.Field attribute, final int fieldID)\n
+    (final Format.Field attribute)\n
     '''
 def setFractionDigits():
-    '''public void setFractionDigits(final int countVisibleFractionDigits, final long fractionDigits)
+    '''returns None\n\n
+    setFractionDigits(final int countVisibleFractionDigits, final long fractionDigits)\n
     '''
 def getCountVisibleFractionDigits():
-    '''public int getCountVisibleFractionDigits()
+    '''returns int\n\n
+    getCountVisibleFractionDigits()\n
     '''
 def getFractionDigits():
-    '''public long getFractionDigits()
+    '''returns long\n\n
+    getFractionDigits()\n
     '''

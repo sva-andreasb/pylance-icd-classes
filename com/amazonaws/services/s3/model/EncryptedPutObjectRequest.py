@@ -1,17 +1,18 @@
-def EncryptedPutObjectRequest():
-    '''public EncryptedPutObjectRequest(final String bucketName, final String key, final File file)
-    public EncryptedPutObjectRequest(final String bucketName, final String key, final String redirectLocation)
-    public EncryptedPutObjectRequest(final String bucketName, final String key, final InputStream input, final ObjectMetadata metadata)
-    '''
-def getMaterialsDescription():
-    '''public Map<String, String> getMaterialsDescription()
+def ():
+    '''returns EncryptedPutObjectRequest\n\n
+    (final String bucketName, final String key, final File file)\n
+    (final String bucketName, final String key, final String redirectLocation)\n
+    (final String bucketName, final String key, final InputStream input, final ObjectMetadata metadata)\n
     '''
 def setMaterialsDescription():
-    '''public void setMaterialsDescription(final Map<String, String> materialsDescription)
+    '''returns None\n\n
+    setMaterialsDescription(final Map<String, String> materialsDescription)\n
     '''
 def withMaterialsDescription():
-    '''public EncryptedPutObjectRequest withMaterialsDescription(final Map<String, String> materialsDescription)
+    '''returns EncryptedPutObjectRequest\n\n
+    withMaterialsDescription(final Map<String, String> materialsDescription)\n
     '''
 def clone():
-    '''public EncryptedPutObjectRequest clone()
+    '''returns EncryptedPutObjectRequest\n\n
+    clone()\n
     '''

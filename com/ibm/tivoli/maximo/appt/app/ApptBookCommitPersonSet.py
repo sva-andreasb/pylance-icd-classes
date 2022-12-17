@@ -1,3 +1,4 @@
-def ApptBookCommitPersonSet():
-    '''public ApptBookCommitPersonSet(final MboServerInterface ms)
+def ():
+    '''returns ApptBookCommitPersonSet\n\n
+    (final MboServerInterface ms)\n
     '''

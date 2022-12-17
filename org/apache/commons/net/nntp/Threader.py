@@ -1,6 +1,8 @@
-def Threader():
-    '''public Threader()
+def ():
+    '''returns Threader\n\n
+    ()\n
     '''
 def thread():
-    '''public Threadable thread(final Threadable[] messages)
+    '''returns Threadable\n\n
+    thread(final Threadable[] messages)\n
     '''

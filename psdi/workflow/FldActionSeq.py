@@ -1,9 +1,12 @@
-def FldActionSeq():
-    '''public FldActionSeq(final MboValue mbv)
+def ():
+    '''returns FldActionSeq\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

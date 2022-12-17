@@ -1,12 +1,16 @@
-def Collector():
-    '''public Collector(final Mode mode)
+def ():
+    '''returns Collector\n\n
+    (final Mode mode)\n
     '''
 def getNodes():
-    '''public List<Node> getNodes()
+    '''returns List<Node>\n\n
+    getNodes()\n
     '''
 def visit():
-    '''public Status visit(final Node n, final State state)
+    '''returns Status\n\n
+    visit(final Node n, final State state)\n
     '''
 def first():
-    '''public Node first()
+    '''returns Node\n\n
+    first()\n
     '''

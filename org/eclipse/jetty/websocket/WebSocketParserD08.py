@@ -1,27 +1,36 @@
-def WebSocketParserD08():
-    '''public WebSocketParserD08(final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler, final boolean shouldBeMasked)
+def ():
+    '''returns WebSocketParserD08\n\n
+    (final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler, final boolean shouldBeMasked)\n
     '''
 def isFakeFragments():
-    '''public boolean isFakeFragments()
+    '''returns boolean\n\n
+    isFakeFragments()\n
     '''
 def setFakeFragments():
-    '''public void setFakeFragments(final boolean fakeFragments)
+    '''returns None\n\n
+    setFakeFragments(final boolean fakeFragments)\n
     '''
 def isBufferEmpty():
-    '''public boolean isBufferEmpty()
+    '''returns boolean\n\n
+    isBufferEmpty()\n
     '''
 def getBuffer():
-    '''public Buffer getBuffer()
+    '''returns Buffer\n\n
+    getBuffer()\n
     '''
 def parseNext():
-    '''public int parseNext()
+    '''returns int\n\n
+    parseNext()\n
     '''
 def fill():
-    '''public void fill(final Buffer buffer)
+    '''returns None\n\n
+    fill(final Buffer buffer)\n
     '''
 def returnBuffer():
-    '''public void returnBuffer()
+    '''returns None\n\n
+    returnBuffer()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

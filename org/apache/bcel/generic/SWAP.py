@@ -1,6 +1,8 @@
-def SWAP():
-    '''public SWAP()
+def ():
+    '''returns SWAP\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

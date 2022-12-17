@@ -1,3 +1,4 @@
-def EscalationCommLogSet():
-    '''public EscalationCommLogSet(final MboServerInterface ms)
+def ():
+    '''returns EscalationCommLogSet\n\n
+    (final MboServerInterface ms)\n
     '''

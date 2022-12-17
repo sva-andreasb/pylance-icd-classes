@@ -1,9 +1,4 @@
-def ArrayEnumeration():
-    '''public ArrayEnumeration(final Object[] eArray)
-    '''
-def hasMoreElements():
-    '''public final boolean hasMoreElements()
-    '''
-def nextElement():
-    '''public final Object nextElement()
+def ():
+    '''returns ArrayEnumeration\n\n
+    (final Object[] eArray)\n
     '''

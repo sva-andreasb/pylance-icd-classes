@@ -1,7 +1,9 @@
 aSf = "String  \"style{0}.css\""
-def E():
-    '''public E(final IResourceCallback a)
+def ():
+    '''returns E\n\n
+    (final IResourceCallback a)\n
     '''
 def a():
-    '''public String a(final bF.d d)
+    '''returns String\n\n
+    a(final bF.d d)\n
     '''

@@ -1,12 +1,16 @@
-def CircularDependenciesSerializationHelper():
-    '''public CircularDependenciesSerializationHelper(final BaseLargeGanttView bean)
+def ():
+    '''returns CircularDependenciesSerializationHelper\n\n
+    (final BaseLargeGanttView bean)\n
     '''
 def getBaseUIJson():
-    '''public JSONObject getBaseUIJson()
+    '''returns JSONObject\n\n
+    getBaseUIJson()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String prop)
+    '''returns Object\n\n
+    getProperty(final String prop)\n
     '''
 def getBean():
-    '''public BaseLargeGanttView getBean()
+    '''returns BaseLargeGanttView\n\n
+    getBean()\n
     '''

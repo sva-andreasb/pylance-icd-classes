@@ -1,6 +1,8 @@
-def ObjectCompareResults():
-    '''public ObjectCompareResults(final Object left, final Object right)
+def ():
+    '''returns ObjectCompareResults\n\n
+    (final Object left, final Object right)\n
     '''
 def getObjectClass():
-    '''public Class getObjectClass()
+    '''returns Class\n\n
+    getObjectClass()\n
     '''

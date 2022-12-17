@@ -1,15 +1,20 @@
 def getSize():
-    '''public long getSize(final Object[] objects, final Class<?> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType)
+    '''returns long\n\n
+    getSize(final Object[] objects, final Class<?> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType)\n
     '''
 def isWriteable():
-    '''public boolean isWriteable(final Class<?> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType)
+    '''returns boolean\n\n
+    isWriteable(final Class<?> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType)\n
     '''
 def writeTo():
-    '''public void writeTo(final Object[] objects, final Class<?> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType, final MultivaluedMap<String, Object> map, final OutputStream outputStream)
+    '''returns None\n\n
+    writeTo(final Object[] objects, final Class<?> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType, final MultivaluedMap<String, Object> map, final OutputStream outputStream)\n
     '''
 def isReadable():
-    '''public boolean isReadable(final Class<?> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType)
+    '''returns boolean\n\n
+    isReadable(final Class<?> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType)\n
     '''
 def readFrom():
-    '''public Object[] readFrom(final Class<Object[]> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType, final MultivaluedMap<String, String> map, final InputStream inputStream)
+    '''returns Object[]\n\n
+    readFrom(final Class<Object[]> type, final Type genericType, final Annotation[] annotations, final MediaType mediaType, final MultivaluedMap<String, String> map, final InputStream inputStream)\n
     '''

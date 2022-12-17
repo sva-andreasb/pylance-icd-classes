@@ -1,25 +1,33 @@
-def AbstractMaximoMTEnabledCache():
-    '''public AbstractMaximoMTEnabledCache()
+def ():
+    '''returns AbstractMaximoMTEnabledCache\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getCache():
-    '''public MaximoCache getCache()
+    '''returns MaximoCache\n\n
+    getCache()\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''
 def getLoadedTenants():
-    '''public Set<Integer> getLoadedTenants()
+    '''returns Set<Integer>\n\n
+    getLoadedTenants()\n
     '''
 def unloadTenant():
-    '''public void unloadTenant()
+    '''returns None\n\n
+    unloadTenant()\n
     '''
 def unloadInactiveCaches():
-    '''public void unloadInactiveCaches(final long interval)
+    '''returns None\n\n
+    unloadInactiveCaches(final long interval)\n
     '''

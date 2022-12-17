@@ -1,3 +1,4 @@
-def PlusPRPRecordsSet():
-    '''public PlusPRPRecordsSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPRPRecordsSet\n\n
+    (final MboServerInterface ms)\n
     '''

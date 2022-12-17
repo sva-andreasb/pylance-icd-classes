@@ -1,113 +1,142 @@
-def IlvTransformer():
-    '''public IlvTransformer()
-    public IlvTransformer(final IlvTransformer ilvTransformer)
-    public IlvTransformer(final double a, final double b, final double c, final double d, final double e, final double f)
-    public IlvTransformer(final AffineTransform affineTransform)
-    public IlvTransformer(final IlvPoint ilvPoint, double degreesToRadians)
-    public IlvTransformer(final double n, final double n2, final IlvPoint ilvPoint)
-    public IlvTransformer(final IlvPoint ilvPoint)
+def ():
+    '''returns IlvTransformer\n\n
+    ()\n
+    (final IlvTransformer ilvTransformer)\n
+    (final double a, final double b, final double c, final double d, final double e, final double f)\n
+    (final AffineTransform affineTransform)\n
+    (final IlvPoint ilvPoint, double degreesToRadians)\n
+    (final double n, final double n2, final IlvPoint ilvPoint)\n
+    (final IlvPoint ilvPoint)\n
     '''
 def setValues():
-    '''public final void setValues(final double e, final double f)
-    public void setValues(final double a, final double b, final double c, final double d)
-    public void setValues(final double a, final double b, final double c, final double d, final double e, final double f)
+    '''returns None\n\n
+    setValues(final double a, final double b, final double c, final double d)\n
+    setValues(final double a, final double b, final double c, final double d, final double e, final double f)\n
     '''
 def setAffineTransform():
-    '''public void setAffineTransform(final AffineTransform affineTransform)
+    '''returns None\n\n
+    setAffineTransform(final AffineTransform affineTransform)\n
     '''
 def getAffineTransform():
-    '''public AffineTransform getAffineTransform(final AffineTransform affineTransform)
+    '''returns AffineTransform\n\n
+    getAffineTransform(final AffineTransform affineTransform)\n
     '''
 def getx0():
-    '''public double getx0()
+    '''returns double\n\n
+    getx0()\n
     '''
 def gety0():
-    '''public double gety0()
+    '''returns double\n\n
+    gety0()\n
     '''
 def getx11():
-    '''public double getx11()
+    '''returns double\n\n
+    getx11()\n
     '''
 def getx12():
-    '''public double getx12()
+    '''returns double\n\n
+    getx12()\n
     '''
 def getx21():
-    '''public double getx21()
+    '''returns double\n\n
+    getx21()\n
     '''
 def getx22():
-    '''public double getx22()
+    '''returns double\n\n
+    getx22()\n
     '''
 def isIdentity():
-    '''public boolean isIdentity()
+    '''returns boolean\n\n
+    isIdentity()\n
     '''
 def isTranslation():
-    '''public boolean isTranslation()
+    '''returns boolean\n\n
+    isTranslation()\n
     '''
 def isScale():
-    '''public boolean isScale()
+    '''returns boolean\n\n
+    isScale()\n
     '''
 def isBad():
-    '''public boolean isBad()
+    '''returns boolean\n\n
+    isBad()\n
     '''
 def getDeterminant():
-    '''public double getDeterminant()
+    '''returns double\n\n
+    getDeterminant()\n
     '''
 def apply():
-    '''public void apply(final IlvPoint ilvPoint)
-    public void apply(final IlvRect ilvRect)
+    '''returns None\n\n
+    apply(final IlvPoint ilvPoint)\n
+    apply(final IlvRect ilvRect)\n
     '''
 def applyFloor():
-    '''public void applyFloor(final IlvPoint ilvPoint)
-    public void applyFloor(final IlvRect ilvRect)
+    '''returns None\n\n
+    applyFloor(final IlvPoint ilvPoint)\n
+    applyFloor(final IlvRect ilvRect)\n
     '''
 def boundingBox():
-    '''public void boundingBox(final IlvRect ilvRect, final boolean b)
+    '''returns None\n\n
+    boundingBox(final IlvRect ilvRect, final boolean b)\n
     '''
 def deltaApply():
-    '''public void deltaApply(final IlvPoint ilvPoint)
+    '''returns None\n\n
+    deltaApply(final IlvPoint ilvPoint)\n
     '''
 def inverse():
-    '''public boolean inverse(final IlvPoint ilvPoint)
-    public boolean inverse(final IlvRect ilvRect)
+    '''returns boolean\n\n
+    inverse(final IlvPoint ilvPoint)\n
+    inverse(final IlvRect ilvRect)\n
     '''
 def compose():
-    '''public void compose(final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    compose(final IlvTransformer ilvTransformer)\n
     '''
 def postCompose():
-    '''public void postCompose(final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    postCompose(final IlvTransformer ilvTransformer)\n
     '''
 def computeInverse():
-    '''public boolean computeInverse(final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    computeInverse(final IlvTransformer ilvTransformer)\n
     '''
 def translate():
-    '''public void translate(final double n, final double n2)
+    '''returns None\n\n
+    translate(final double n, final double n2)\n
     '''
 def scale():
-    '''public void scale(final double n, final double n2, final double n3, final double n4)
+    '''returns None\n\n
+    scale(final double n, final double n2, final double n3, final double n4)\n
     '''
 def rotate():
-    '''public void rotate(final double n, final double n2, double degreesToRadians)
-    '''
-def computeTransformer():
-    '''public static IlvTransformer computeTransformer(final IlvRect ilvRect, final IlvRect ilvRect2, IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    rotate(final double n, final double n2, double degreesToRadians)\n
     '''
 def zoomFactor():
-    '''public double zoomFactor()
+    '''returns double\n\n
+    zoomFactor()\n
     '''
 def zoomXFactor():
-    '''public double zoomXFactor()
+    '''returns double\n\n
+    zoomXFactor()\n
     '''
 def zoomYFactor():
-    '''public double zoomYFactor()
+    '''returns double\n\n
+    zoomYFactor()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

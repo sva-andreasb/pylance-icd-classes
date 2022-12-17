@@ -1,21 +1,28 @@
-def AMCrewWoLab():
-    '''public AMCrewWoLab(final MboSet ms)
+def ():
+    '''returns AMCrewWoLab\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setAllReadOny():
-    '''public void setAllReadOny()
+    '''returns None\n\n
+    setAllReadOny()\n
     '''
 def hasActiveLabor():
-    '''public boolean hasActiveLabor()
+    '''returns boolean\n\n
+    hasActiveLabor()\n
     '''
 def exceedsActDuration():
-    '''public boolean exceedsActDuration(final double totalacthrs, final double totalreghrs, final double totalprempayhrs)
+    '''returns boolean\n\n
+    exceedsActDuration(final double totalacthrs, final double totalreghrs, final double totalprempayhrs)\n
     '''
 def actDurationExceeds():
-    '''public boolean actDurationExceeds(final double totalacthrs, final double totalreghrs, final double totalprempayhrs)
+    '''returns boolean\n\n
+    actDurationExceeds(final double totalacthrs, final double totalreghrs, final double totalprempayhrs)\n
     '''

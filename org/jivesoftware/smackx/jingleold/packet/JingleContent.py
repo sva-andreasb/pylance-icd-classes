@@ -1,42 +1,55 @@
 NODENAME = "String  \"content\""
 CREATOR = "String  \"creator\""
 NAME = "String  \"name\""
-def JingleContent():
-    '''public JingleContent(final String creator, final String name)
+def ():
+    '''returns JingleContent\n\n
+    (final String creator, final String name)\n
     '''
 def getCreator():
-    '''public String getCreator()
+    '''returns String\n\n
+    getCreator()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def setDescription():
-    '''public void setDescription(final JingleDescription description)
+    '''returns None\n\n
+    setDescription(final JingleDescription description)\n
     '''
 def getDescription():
-    '''public JingleDescription getDescription()
+    '''returns JingleDescription\n\n
+    getDescription()\n
     '''
 def addJingleTransport():
-    '''public void addJingleTransport(final JingleTransport transport)
+    '''returns None\n\n
+    addJingleTransport(final JingleTransport transport)\n
     '''
 def addTransports():
-    '''public void addTransports(final List<JingleTransport> transports)
+    '''returns None\n\n
+    addTransports(final List<JingleTransport> transports)\n
     '''
 def getJingleTransports():
-    '''public Iterator<JingleTransport> getJingleTransports()
+    '''returns Iterator<JingleTransport>\n\n
+    getJingleTransports()\n
     '''
 def getJingleTransportsList():
-    '''public List<JingleTransport> getJingleTransportsList()
+    '''returns List<JingleTransport>\n\n
+    getJingleTransportsList()\n
     '''
 def getJingleTransportsCount():
-    '''public int getJingleTransportsCount()
+    '''returns int\n\n
+    getJingleTransportsCount()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''

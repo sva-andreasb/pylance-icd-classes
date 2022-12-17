@@ -1,47 +1,50 @@
 ELEMENT = "String  \"text\""
 NAMESPACE = "String  \"http://jabber.org/protocol/xdata-layout\""
-def DataLayout():
-    '''public DataLayout(final String label)
+def ():
+    '''returns Text\n\n
+    (final String label)\n
+    (final String var)\n
+    (final String label)\n
+    (final String text)\n
     '''
 def getPageLayout():
-    '''public List<DataFormLayoutElement> getPageLayout()
+    '''returns List<DataFormLayoutElement>\n\n
+    getPageLayout()\n
     '''
 def getLabel():
-    '''public String getLabel()
-    public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
+    getLabel()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def Fieldref():
-    '''public Fieldref(final String var)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getVar():
-    '''public String getVar()
-    '''
-def Section():
-    '''public Section(final String label)
+    '''returns String\n\n
+    getVar()\n
     '''
 def getSectionLayout():
-    '''public List<DataFormLayoutElement> getSectionLayout()
-    '''
-def Text():
-    '''public Text(final String text)
+    '''returns List<DataFormLayoutElement>\n\n
+    getSectionLayout()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''

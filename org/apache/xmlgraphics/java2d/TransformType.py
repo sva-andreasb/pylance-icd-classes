@@ -9,11 +9,14 @@ SCALE_STRING = "String  \"scale\""
 SHEAR_STRING = "String  \"shear\""
 GENERAL_STRING = "String  \"general\""
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toInt():
-    '''public int toInt()
+    '''returns int\n\n
+    toInt()\n
     '''
 def readResolve():
-    '''public Object readResolve()
+    '''returns Object\n\n
+    readResolve()\n
     '''

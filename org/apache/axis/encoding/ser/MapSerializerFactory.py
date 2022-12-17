@@ -1,3 +1,4 @@
-def MapSerializerFactory():
-    '''public MapSerializerFactory(final Class javaType, final QName xmlType)
+def ():
+    '''returns MapSerializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

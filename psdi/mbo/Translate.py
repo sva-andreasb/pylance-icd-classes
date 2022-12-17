@@ -1,47 +1,59 @@
-def Translate():
-    '''public Translate()
+def ():
+    '''returns Translate\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def toInternalString():
-    '''public String toInternalString(final String listName, final String value)
-    public String toInternalString(final String listName, final String value, final MboRemote mbo)
-    public String toInternalString(final String listName, final String value, final String siteId, final String orgId)
+    '''returns String\n\n
+    toInternalString(final String listName, final String value)\n
+    toInternalString(final String listName, final String value, final MboRemote mbo)\n
+    toInternalString(final String listName, final String value, final String siteId, final String orgId)\n
     '''
 def toInternalStringNoException():
-    '''public String toInternalStringNoException(final String listName, final String value, final MboRemote mbo)
+    '''returns String\n\n
+    toInternalStringNoException(final String listName, final String value, final MboRemote mbo)\n
     '''
 def getValuesVector():
-    '''public Vector getValuesVector(final String listName, final String siteId, final String orgId)
+    '''returns Vector\n\n
+    getValuesVector(final String listName, final String siteId, final String orgId)\n
     '''
 def toExternalList():
-    '''public String toExternalList(final String listName, final String value)
-    public String toExternalList(final String listName, final String value, final MboRemote mbo)
-    public String toExternalList(final String listName, final String value, final String siteId, final String orgId)
-    public String toExternalList(final String listName, final String[] value)
-    public String toExternalList(final String listName, final String[] value, final MboRemote mbo)
-    public String toExternalList(final String listName, final String[] value, final String siteId, final String orgId)
+    '''returns String\n\n
+    toExternalList(final String listName, final String value)\n
+    toExternalList(final String listName, final String value, final MboRemote mbo)\n
+    toExternalList(final String listName, final String value, final String siteId, final String orgId)\n
+    toExternalList(final String listName, final String[] value)\n
+    toExternalList(final String listName, final String[] value, final MboRemote mbo)\n
+    toExternalList(final String listName, final String[] value, final String siteId, final String orgId)\n
     '''
 def getExternalValues():
-    '''public String[] getExternalValues(final String listName, final String internalValue, final String siteId, final String orgId)
-    public String[] getExternalValues(final String listName, final String internalValue, final MboRemote mbo)
+    '''returns String[]\n\n
+    getExternalValues(final String listName, final String internalValue, final String siteId, final String orgId)\n
+    getExternalValues(final String listName, final String internalValue, final MboRemote mbo)\n
     '''
 def toExternalDefaultValue():
-    '''public String toExternalDefaultValue(final String listName, final String value)
-    public String toExternalDefaultValue(final String listName, final String value, final MboRemote mbo)
-    public String toExternalDefaultValue(final String listName, final String value, final String siteId, final String orgId)
+    '''returns String\n\n
+    toExternalDefaultValue(final String listName, final String value)\n
+    toExternalDefaultValue(final String listName, final String value, final MboRemote mbo)\n
+    toExternalDefaultValue(final String listName, final String value, final String siteId, final String orgId)\n
     '''
 def remove():
-    '''public void remove(String listName)
+    '''returns None\n\n
+    remove(String listName)\n
     '''
 def getSiteOrg():
-    '''public String[] getSiteOrg(final MboRemote mbo)
+    '''returns String[]\n\n
+    getSiteOrg(final MboRemote mbo)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''

@@ -1,6 +1,4 @@
-def CCIMultiCICollectionBean():
-    '''public CCIMultiCICollectionBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns CCIMultiCICollectionBean\n\n
+    ()\n
     '''

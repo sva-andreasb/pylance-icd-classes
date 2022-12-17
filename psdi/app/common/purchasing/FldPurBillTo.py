@@ -1,6 +1,8 @@
-def FldPurBillTo():
-    '''public FldPurBillTo(final MboValue mbv)
+def ():
+    '''returns FldPurBillTo\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

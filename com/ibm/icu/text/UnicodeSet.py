@@ -4,270 +4,259 @@ IGNORE_SPACE = "int  1"
 CASE = "int  2"
 CASE_INSENSITIVE = "int  2"
 ADD_CASE_MAPPINGS = "int  4"
-def UnicodeSet():
-    '''public UnicodeSet()
-    public UnicodeSet(final UnicodeSet other)
-    public UnicodeSet(final int start, final int end)
-    public UnicodeSet(final int... pairs)
-    public UnicodeSet(final String pattern)
-    public UnicodeSet(final String pattern, final boolean ignoreWhitespace)
-    public UnicodeSet(final String pattern, final int options)
-    public UnicodeSet(final String pattern, final ParsePosition pos, final SymbolTable symbols)
-    public UnicodeSet(final String pattern, final ParsePosition pos, final SymbolTable symbols, final int options)
+def ():
+    '''returns UnicodeSet\n\n
+    ()\n
+    (final UnicodeSet other)\n
+    (final int start, final int end)\n
+    (final int... pairs)\n
+    (final String pattern)\n
+    (final String pattern, final boolean ignoreWhitespace)\n
+    (final String pattern, final int options)\n
+    (final String pattern, final ParsePosition pos, final SymbolTable symbols)\n
+    (final String pattern, final ParsePosition pos, final SymbolTable symbols, final int options)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def set():
-    '''public UnicodeSet set(final int start, final int end)
-    public UnicodeSet set(final UnicodeSet other)
+    '''returns UnicodeSet\n\n
+    set(final int start, final int end)\n
+    set(final UnicodeSet other)\n
     '''
 def applyPattern():
-    '''public final UnicodeSet applyPattern(final String pattern)
-    public UnicodeSet applyPattern(final String pattern, final boolean ignoreWhitespace)
-    public UnicodeSet applyPattern(final String pattern, final int options)
-    public UnicodeSet applyPattern(final String pattern, ParsePosition pos, final SymbolTable symbols, final int options)
-    '''
-def resemblesPattern():
-    '''public static boolean resemblesPattern(final String pattern, final int pos)
+    '''returns UnicodeSet\n\n
+    applyPattern(final String pattern, final boolean ignoreWhitespace)\n
+    applyPattern(final String pattern, final int options)\n
+    applyPattern(final String pattern, ParsePosition pos, final SymbolTable symbols, final int options)\n
     '''
 def toPattern():
-    '''public String toPattern(final boolean escapeUnprintable)
+    '''returns String\n\n
+    toPattern(final boolean escapeUnprintable)\n
     '''
 def _generatePattern():
-    '''public StringBuffer _generatePattern(final StringBuffer result, final boolean escapeUnprintable)
-    public StringBuffer _generatePattern(final StringBuffer result, final boolean escapeUnprintable, final boolean includeStrings)
+    '''returns StringBuffer\n\n
+    _generatePattern(final StringBuffer result, final boolean escapeUnprintable)\n
+    _generatePattern(final StringBuffer result, final boolean escapeUnprintable, final boolean includeStrings)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def matchesIndexValue():
-    '''public boolean matchesIndexValue(final int v)
+    '''returns boolean\n\n
+    matchesIndexValue(final int v)\n
     '''
 def matches():
-    '''public int matches(final Replaceable text, final int[] offset, final int limit, final boolean incremental)
+    '''returns int\n\n
+    matches(final Replaceable text, final int[] offset, final int limit, final boolean incremental)\n
     '''
 def matchesAt():
-    '''public int matchesAt(final CharSequence text, final int offset)
+    '''returns int\n\n
+    matchesAt(final CharSequence text, final int offset)\n
     '''
 def addMatchSetTo():
-    '''public void addMatchSetTo(final UnicodeSet toUnionTo)
+    '''returns None\n\n
+    addMatchSetTo(final UnicodeSet toUnionTo)\n
     '''
 def indexOf():
-    '''public int indexOf(final int c)
+    '''returns int\n\n
+    indexOf(final int c)\n
     '''
 def charAt():
-    '''public int charAt(int index)
+    '''returns int\n\n
+    charAt(int index)\n
     '''
 def add():
-    '''public UnicodeSet add(final int start, final int end)
-    public final UnicodeSet add(final int c)
-    public final UnicodeSet add(final CharSequence s)
-    public UnicodeSet add(final Iterable<?> source)
+    '''returns UnicodeSet\n\n
+    add(final int start, final int end)\n
+    add(final Collection<?> source)\n
     '''
 def addAll():
-    '''public UnicodeSet addAll(final int start, final int end)
-    public final UnicodeSet addAll(final CharSequence s)
-    public UnicodeSet addAll(final UnicodeSet c)
-    public UnicodeSet addAll(final Iterable<?> source)
-    public <T extends CharSequence> UnicodeSet addAll(final T... collection)
-    '''
-def retainAll():
-    '''public final UnicodeSet retainAll(final CharSequence s)
-    public UnicodeSet retainAll(final UnicodeSet c)
-    public <T extends CharSequence> UnicodeSet retainAll(final Iterable<T> collection)
-    '''
-def complementAll():
-    '''public final UnicodeSet complementAll(final CharSequence s)
-    public UnicodeSet complementAll(final UnicodeSet c)
-    '''
-def removeAll():
-    '''public final UnicodeSet removeAll(final CharSequence s)
-    public UnicodeSet removeAll(final UnicodeSet c)
-    public <T extends CharSequence> UnicodeSet removeAll(final Iterable<T> collection)
-    '''
-def removeAllStrings():
-    '''public final UnicodeSet removeAllStrings()
-    '''
-def from():
-    '''public static UnicodeSet from(final CharSequence s)
-    '''
-def fromAll():
-    '''public static UnicodeSet fromAll(final CharSequence s)
+    '''returns UnicodeSet\n\n
+    addAll(final int start, final int end)\n
+    addAll(final UnicodeSet c)\n
+    addAll(final Collection<?> source)\n
+    addAll(final String... collection)\n
     '''
 def retain():
-    '''public UnicodeSet retain(final int start, final int end)
-    public final UnicodeSet retain(final int c)
-    public final UnicodeSet retain(final CharSequence cs)
+    '''returns UnicodeSet\n\n
+    retain(final int start, final int end)\n
     '''
 def remove():
-    '''public UnicodeSet remove(final int start, final int end)
-    public final UnicodeSet remove(final int c)
-    public final UnicodeSet remove(final CharSequence s)
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final int start, final int end)\n
+    remove()\n
     '''
 def complement():
-    '''public UnicodeSet complement(final int start, final int end)
-    public final UnicodeSet complement(final int c)
-    public UnicodeSet complement()
-    public final UnicodeSet complement(final CharSequence s)
+    '''returns UnicodeSet\n\n
+    complement(final int start, final int end)\n
+    complement()\n
     '''
 def contains():
-    '''public boolean contains(final int c)
-    public boolean contains(final int start, final int end)
-    public final boolean contains(final CharSequence s)
-    public boolean contains(final int ch)
-    public boolean contains(final int ch)
-    public boolean contains(final int ch)
-    public boolean contains(final int c)
-    public boolean contains(final int ch)
+    '''returns boolean\n\n
+    contains(final int c)\n
+    contains(final int start, final int end)\n
+    contains(final int ch)\n
+    contains(final int ch)\n
+    contains(final int ch)\n
+    contains(final int ch)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final UnicodeSet b)
-    public boolean containsAll(final String s)
-    public <T extends CharSequence> boolean containsAll(final Iterable<T> collection)
+    '''returns boolean\n\n
+    containsAll(final UnicodeSet b)\n
+    containsAll(final String s)\n
+    containsAll(final Collection<String> collection)\n
     '''
 def getRegexEquivalent():
-    '''public String getRegexEquivalent()
+    '''returns String\n\n
+    getRegexEquivalent()\n
     '''
 def containsNone():
-    '''public boolean containsNone(final int start, final int end)
-    public boolean containsNone(final UnicodeSet b)
-    public boolean containsNone(final CharSequence s)
-    public <T extends CharSequence> boolean containsNone(final Iterable<T> collection)
+    '''returns boolean\n\n
+    containsNone(final int start, final int end)\n
+    containsNone(final UnicodeSet b)\n
+    containsNone(final String s)\n
+    containsNone(final Collection<String> collection)\n
     '''
-def containsSome():
-    '''public final boolean containsSome(final int start, final int end)
-    public final boolean containsSome(final UnicodeSet s)
-    public final boolean containsSome(final CharSequence s)
-    public final <T extends CharSequence> boolean containsSome(final Iterable<T> collection)
+def retainAll():
+    '''returns UnicodeSet\n\n
+    retainAll(final UnicodeSet c)\n
+    retainAll(final Collection<String> collection)\n
+    '''
+def removeAll():
+    '''returns UnicodeSet\n\n
+    removeAll(final UnicodeSet c)\n
+    removeAll(final Collection<String> collection)\n
+    '''
+def complementAll():
+    '''returns UnicodeSet\n\n
+    complementAll(final UnicodeSet c)\n
     '''
 def clear():
-    '''public UnicodeSet clear()
+    '''returns UnicodeSet\n\n
+    clear()\n
     '''
 def getRangeCount():
-    '''public int getRangeCount()
+    '''returns int\n\n
+    getRangeCount()\n
     '''
 def getRangeStart():
-    '''public int getRangeStart(final int index)
+    '''returns int\n\n
+    getRangeStart(final int index)\n
     '''
 def getRangeEnd():
-    '''public int getRangeEnd(final int index)
+    '''returns int\n\n
+    getRangeEnd(final int index)\n
     '''
 def compact():
-    '''public UnicodeSet compact()
+    '''returns UnicodeSet\n\n
+    compact()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def addAllTo():
-    '''public <T extends Collection<String>> T addAllTo(final T target)
-    public String[] addAllTo(final String[] target)
-    public static <T, U extends Collection<T>> U addAllTo(final Iterable<T> source, final U target)
-    public static <T> T[] addAllTo(final Iterable<T> source, final T[] target)
-    '''
-def toArray():
-    '''public static String[] toArray(final UnicodeSet set)
+    '''returns String[]\n\n
+    addAllTo(final String[] target)\n
     '''
 def applyIntPropertyValue():
-    '''public UnicodeSet applyIntPropertyValue(final int prop, final int value)
+    '''returns UnicodeSet\n\n
+    applyIntPropertyValue(final int prop, final int value)\n
     '''
 def applyPropertyAlias():
-    '''public UnicodeSet applyPropertyAlias(final String propertyAlias, final String valueAlias)
-    public UnicodeSet applyPropertyAlias(final String propertyAlias, final String valueAlias, final SymbolTable symbols)
-    public boolean applyPropertyAlias(final String propertyName, final String propertyValue, final UnicodeSet result)
+    '''returns boolean\n\n
+    applyPropertyAlias(final String propertyAlias, final String valueAlias)\n
+    applyPropertyAlias(final String propertyAlias, final String valueAlias, final SymbolTable symbols)\n
+    applyPropertyAlias(final String propertyName, final String propertyValue, final UnicodeSet result)\n
     '''
 def closeOver():
-    '''public UnicodeSet closeOver(final int attribute)
+    '''returns UnicodeSet\n\n
+    closeOver(final int attribute)\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
     '''
 def freeze():
-    '''public UnicodeSet freeze()
+    '''returns UnicodeSet\n\n
+    freeze()\n
     '''
 def span():
-    '''public int span(final CharSequence s, final SpanCondition spanCondition)
-    public int span(final CharSequence s, int start, final SpanCondition spanCondition)
-    '''
-def spanAndCount():
-    '''public int spanAndCount(final CharSequence s, int start, final SpanCondition spanCondition, final OutputInt outCount)
+    '''returns int\n\n
+    span(final CharSequence s, final SpanCondition spanCondition)\n
+    span(final CharSequence s, int start, final SpanCondition spanCondition)\n
     '''
 def spanBack():
-    '''public int spanBack(final CharSequence s, final SpanCondition spanCondition)
-    public int spanBack(final CharSequence s, int fromIndex, final SpanCondition spanCondition)
+    '''returns int\n\n
+    spanBack(final CharSequence s, final SpanCondition spanCondition)\n
+    spanBack(final CharSequence s, int fromIndex, final SpanCondition spanCondition)\n
     '''
 def cloneAsThawed():
-    '''public UnicodeSet cloneAsThawed()
-    '''
-def ranges():
-    '''public Iterable<EntryRange> ranges()
+    '''returns UnicodeSet\n\n
+    cloneAsThawed()\n
     '''
 def iterator():
-    '''public Iterator<String> iterator()
-    public Iterator<EntryRange> iterator()
+    '''returns Iterator<String>\n\n
+    iterator()\n
     '''
 def compareTo():
-    '''public int compareTo(final UnicodeSet o)
-    public int compareTo(final UnicodeSet o, final ComparisonStyle style)
-    public int compareTo(final Iterable<String> other)
-    '''
-def compare():
-    '''public static int compare(final CharSequence string, final int codePoint)
-    public static int compare(final int codePoint, final CharSequence string)
-    public static <T extends Comparable<T>> int compare(final Iterable<T> collection1, final Iterable<T> collection2)
-    public static <T extends Comparable<T>> int compare(final Iterator<T> first, final Iterator<T> other)
-    public static <T extends Comparable<T>> int compare(final Collection<T> collection1, final Collection<T> collection2, final ComparisonStyle style)
+    '''returns int\n\n
+    compareTo(final UnicodeSet o)\n
+    compareTo(final UnicodeSet o, final ComparisonStyle style)\n
+    compareTo(final Iterable<String> other)\n
     '''
 def strings():
-    '''public Collection<String> strings()
-    '''
-def getSingleCodePoint():
-    '''public static int getSingleCodePoint(final CharSequence s)
+    '''returns Iterable<String>\n\n
+    strings()\n
     '''
 def addBridges():
-    '''public UnicodeSet addBridges(final UnicodeSet dontCare)
+    '''returns UnicodeSet\n\n
+    addBridges(final UnicodeSet dontCare)\n
     '''
 def findIn():
-    '''public int findIn(final CharSequence value, int fromIndex, final boolean findNot)
+    '''returns int\n\n
+    findIn(final CharSequence value, int fromIndex, final boolean findNot)\n
     '''
 def findLastIn():
-    '''public int findLastIn(final CharSequence value, int fromIndex, final boolean findNot)
+    '''returns int\n\n
+    findLastIn(final CharSequence value, int fromIndex, final boolean findNot)\n
     '''
 def stripFrom():
-    '''public String stripFrom(final CharSequence source, final boolean matches)
-    '''
-def getDefaultXSymbolTable():
-    '''public static XSymbolTable getDefaultXSymbolTable()
-    '''
-def setDefaultXSymbolTable():
-    '''public static void setDefaultXSymbolTable(final XSymbolTable xSymbolTable)
+    '''returns String\n\n
+    stripFrom(final CharSequence source, final boolean matches)\n
     '''
 def lookupMatcher():
-    '''public UnicodeMatcher lookupMatcher(final int i)
+    '''returns UnicodeMatcher\n\n
+    lookupMatcher(final int i)\n
     '''
 def lookup():
-    '''public char[] lookup(final String s)
+    '''returns char[]\n\n
+    lookup(final String s)\n
     '''
 def parseReference():
-    '''public String parseReference(final String text, final ParsePosition pos, final int limit)
+    '''returns String\n\n
+    parseReference(final String text, final ParsePosition pos, final int limit)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public EntryRange next()
-    public String next()
+    '''returns String\n\n
+    next()\n
     '''

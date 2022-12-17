@@ -1,3 +1,4 @@
-def TKServiceAddressSet():
-    '''public TKServiceAddressSet(final MboServerInterface ms)
+def ():
+    '''returns TKServiceAddressSet\n\n
+    (final MboServerInterface ms)\n
     '''

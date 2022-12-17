@@ -1,28 +1,29 @@
-def IoTFCacheImpl():
-    '''public IoTFCacheImpl()
+def ():
+    '''returns IoTFCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getIoTFInfo():
-    '''public IoTFInfo getIoTFInfo(final String org)
+    '''returns IoTFInfo\n\n
+    getIoTFInfo(final String org)\n
     '''
 def getIoTFHistorianInfo():
-    '''public IoTFHistorianInfo getIoTFHistorianInfo(final String hist)
+    '''returns IoTFHistorianInfo\n\n
+    getIoTFHistorianInfo(final String hist)\n
     '''
 def getDefaultHistorian():
-    '''public String getDefaultHistorian()
+    '''returns String\n\n
+    getDefaultHistorian()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getIoTFs():
-    '''public Map<String, IoTFInfo> getIoTFs()
-    '''
-def getAllHistorians():
-    '''public Map<String, IoTFHistorianInfo> getAllHistorians()
+    '''returns String\n\n
+    getName()\n
     '''

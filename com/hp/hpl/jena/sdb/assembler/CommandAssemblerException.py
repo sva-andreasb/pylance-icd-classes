@@ -1,3 +1,4 @@
-def CommandAssemblerException():
-    '''public CommandAssemblerException(final Resource cmd, final String string)
+def ():
+    '''returns CommandAssemblerException\n\n
+    (final Resource cmd, final String string)\n
     '''

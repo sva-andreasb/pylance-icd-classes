@@ -1,49 +1,65 @@
 def ramBytesUsed():
-    '''public long ramBytesUsed()
+    '''returns long\n\n
+    ramBytesUsed()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getValues():
-    '''public PointValues getValues(final String fieldName)
+    '''returns PointValues\n\n
+    getValues(final String fieldName)\n
     '''
 def intersect():
-    '''public void intersect(final IntersectVisitor mergedVisitor)
+    '''returns None\n\n
+    intersect(final IntersectVisitor mergedVisitor)\n
     '''
 def visit():
-    '''public void visit(final int docID)
-    public void visit(final int docID, final byte[] packedValue)
+    '''returns None\n\n
+    visit(final int docID)\n
+    visit(final int docID, final byte[] packedValue)\n
     '''
 def compare():
-    '''public Relation compare(final byte[] minPackedValue, final byte[] maxPackedValue)
+    '''returns Relation\n\n
+    compare(final byte[] minPackedValue, final byte[] maxPackedValue)\n
     '''
 def estimatePointCount():
-    '''public long estimatePointCount(final IntersectVisitor visitor)
+    '''returns long\n\n
+    estimatePointCount(final IntersectVisitor visitor)\n
     '''
 def getMinPackedValue():
-    '''public byte[] getMinPackedValue()
+    '''returns byte[]\n\n
+    getMinPackedValue()\n
     '''
 def getMaxPackedValue():
-    '''public byte[] getMaxPackedValue()
+    '''returns byte[]\n\n
+    getMaxPackedValue()\n
     '''
 def getNumDimensions():
-    '''public int getNumDimensions()
+    '''returns int\n\n
+    getNumDimensions()\n
     '''
 def getNumIndexDimensions():
-    '''public int getNumIndexDimensions()
+    '''returns int\n\n
+    getNumIndexDimensions()\n
     '''
 def getBytesPerDimension():
-    '''public int getBytesPerDimension()
+    '''returns int\n\n
+    getBytesPerDimension()\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def getDocCount():
-    '''public int getDocCount()
+    '''returns int\n\n
+    getDocCount()\n
     '''
 def checkIntegrity():
-    '''public void checkIntegrity()
+    '''returns None\n\n
+    checkIntegrity()\n
     '''
 def merge():
-    '''public void merge(final MergeState mergeState)
+    '''returns None\n\n
+    merge(final MergeState mergeState)\n
     '''

@@ -1,7 +1,5 @@
-def SwitchBuilder():
-    '''public SwitchBuilder(final int[] match, final InstructionHandle[] targets, final InstructionHandle target, final int max_gap)
-    public SwitchBuilder(final int[] match, final InstructionHandle[] targets, final InstructionHandle target)
-    '''
-def getInstruction():
-    '''public final InstructionSelect getInstruction()
+def ():
+    '''returns SwitchBuilder\n\n
+    (final int[] match, final InstructionHandle[] targets, final InstructionHandle target, final int max_gap)\n
+    (final int[] match, final InstructionHandle[] targets, final InstructionHandle target)\n
     '''

@@ -1,70 +1,93 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TimeWindowState():
-    '''public TimeWindowState()
+def ():
+    '''returns TimeWindowState\n\n
+    ()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def isDebugMode():
-    '''public boolean isDebugMode()
+    '''returns boolean\n\n
+    isDebugMode()\n
     '''
 def setDebugMode():
-    '''public void setDebugMode(final boolean debug)
+    '''returns None\n\n
+    setDebugMode(final boolean debug)\n
     '''
 def isNodeExpanded():
-    '''public boolean isNodeExpanded(final String pathId)
+    '''returns boolean\n\n
+    isNodeExpanded(final String pathId)\n
     '''
 def clearExpandedNodes():
-    '''public void clearExpandedNodes()
+    '''returns None\n\n
+    clearExpandedNodes()\n
     '''
 def addExpandedNode():
-    '''public void addExpandedNode(final String pathId)
+    '''returns None\n\n
+    addExpandedNode(final String pathId)\n
     '''
 def removeExpandedNode():
-    '''public void removeExpandedNode(final String pathId)
+    '''returns None\n\n
+    removeExpandedNode(final String pathId)\n
     '''
 def getExpandedNodes():
-    '''public Iterator<String> getExpandedNodes()
+    '''returns Iterator<String>\n\n
+    getExpandedNodes()\n
     '''
 def isNodeDisabled():
-    '''public boolean isNodeDisabled(final String pathId)
+    '''returns boolean\n\n
+    isNodeDisabled(final String pathId)\n
     '''
 def clearDisabledNodes():
-    '''public void clearDisabledNodes()
+    '''returns None\n\n
+    clearDisabledNodes()\n
     '''
 def addDisabledNode():
-    '''public void addDisabledNode(final String pathId)
+    '''returns None\n\n
+    addDisabledNode(final String pathId)\n
     '''
 def removeDisabledNode():
-    '''public void removeDisabledNode(final String pathId)
+    '''returns None\n\n
+    removeDisabledNode(final String pathId)\n
     '''
 def getDisabledNodes():
-    '''public Iterator<String> getDisabledNodes()
+    '''returns Iterator<String>\n\n
+    getDisabledNodes()\n
     '''
 def clearTableColumnWidths():
-    '''public void clearTableColumnWidths()
+    '''returns None\n\n
+    clearTableColumnWidths()\n
     '''
 def setNameTableColumnWidth():
-    '''public void setNameTableColumnWidth(final int width)
+    '''returns None\n\n
+    setNameTableColumnWidth(final int width)\n
     '''
 def setDescriptionTableColumnWidth():
-    '''public void setDescriptionTableColumnWidth(final int width)
+    '''returns None\n\n
+    setDescriptionTableColumnWidth(final int width)\n
     '''
 def setEnforceTableColumnWidth():
-    '''public void setEnforceTableColumnWidth(final int width)
+    '''returns None\n\n
+    setEnforceTableColumnWidth(final int width)\n
     '''
 def setStatusTableColumnWidth():
-    '''public void setStatusTableColumnWidth(final int width)
+    '''returns None\n\n
+    setStatusTableColumnWidth(final int width)\n
     '''
 def getNameTableColumnWidth():
-    '''public int getNameTableColumnWidth()
+    '''returns int\n\n
+    getNameTableColumnWidth()\n
     '''
 def getDescriptionTableColumnWidth():
-    '''public int getDescriptionTableColumnWidth()
+    '''returns int\n\n
+    getDescriptionTableColumnWidth()\n
     '''
 def getEnforceTableColumnWidth():
-    '''public int getEnforceTableColumnWidth()
+    '''returns int\n\n
+    getEnforceTableColumnWidth()\n
     '''
 def getStatusTableColumnWidth():
-    '''public int getStatusTableColumnWidth()
+    '''returns int\n\n
+    getStatusTableColumnWidth()\n
     '''

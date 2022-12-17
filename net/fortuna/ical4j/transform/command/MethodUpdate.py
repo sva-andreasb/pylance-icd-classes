@@ -1,6 +1,8 @@
-def MethodUpdate():
-    '''public MethodUpdate(final Method method)
+def ():
+    '''returns MethodUpdate\n\n
+    (final Method method)\n
     '''
 def transform():
-    '''public Calendar transform(final Calendar object)
+    '''returns Calendar\n\n
+    transform(final Calendar object)\n
     '''

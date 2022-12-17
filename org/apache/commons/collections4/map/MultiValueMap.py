@@ -1,70 +1,79 @@
-def multiValueMap():
-    '''public static <K, V> MultiValueMap<K, V> multiValueMap(final Map<K, ? super Collection<V>> map)
-    public static <K, V, C extends Collection<V>> MultiValueMap<K, V> multiValueMap(final Map<K, ? super C> map, final Class<C> collectionClass)
-    public static <K, V, C extends Collection<V>> MultiValueMap<K, V> multiValueMap(final Map<K, ? super C> map, final Factory<C> collectionFactory)
-    '''
-def MultiValueMap():
-    '''public MultiValueMap()
+def ():
+    '''returns ReflectionFactory\n\n
+    ()\n
+    (final Object key)\n
+    (final Class<T> clazz)\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
     '''
 def removeMapping():
-    '''public boolean removeMapping(final Object key, final Object value)
+    '''returns boolean\n\n
+    removeMapping(final Object key, final Object value)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
-    public boolean containsValue(final Object key, final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
+    containsValue(final Object key, final Object value)\n
     '''
 def put():
-    '''public Object put(final K key, final Object value)
+    '''returns Object\n\n
+    put(final K key, final Object value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ?> map)
-    public boolean putAll(final K key, final Collection<V> values)
+    '''returns boolean\n\n
+    putAll(final Map<? extends K, ?> map)\n
+    putAll(final K key, final Collection<V> values)\n
     '''
 def values():
-    '''public Collection<Object> values()
+    '''returns Collection<Object>\n\n
+    values()\n
     '''
 def getCollection():
-    '''public Collection<V> getCollection(final Object key)
+    '''returns Collection<V>\n\n
+    getCollection(final Object key)\n
     '''
 def size():
-    '''public int size(final Object key)
-    public int size()
+    '''returns int\n\n
+    size(final Object key)\n
+    size()\n
     '''
 def iterator():
-    '''public Iterator<V> iterator(final Object key)
-    public Iterator<V> iterator()
+    '''returns Iterator<V>\n\n
+    iterator(final Object key)\n
+    iterator()\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def totalSize():
-    '''public int totalSize()
-    '''
-def ValuesIterator():
-    '''public ValuesIterator(final Object key)
+    '''returns int\n\n
+    totalSize()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public V next()
-    '''
-def ReflectionFactory():
-    '''public ReflectionFactory(final Class<T> clazz)
+    '''returns V\n\n
+    next()\n
     '''
 def create():
-    '''public T create()
+    '''returns T\n\n
+    create()\n
     '''

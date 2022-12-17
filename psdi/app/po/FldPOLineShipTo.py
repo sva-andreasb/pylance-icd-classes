@@ -1,6 +1,8 @@
-def FldPOLineShipTo():
-    '''public FldPOLineShipTo(final MboValue mbv)
+def ():
+    '''returns FldPOLineShipTo\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

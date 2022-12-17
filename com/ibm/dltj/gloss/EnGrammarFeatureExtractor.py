@@ -1,3 +1,4 @@
-def EnGrammarFeatureExtractor():
-    '''public EnGrammarFeatureExtractor()
+def ():
+    '''returns EnGrammarFeatureExtractor\n\n
+    ()\n
     '''

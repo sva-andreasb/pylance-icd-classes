@@ -1,4 +1,5 @@
-def IlvDashboardTree():
-    '''public IlvDashboardTree()
-    public IlvDashboardTree(final ResourceBundle resourceBundle)
+def ():
+    '''returns IlvDashboardTree\n\n
+    ()\n
+    (final ResourceBundle resourceBundle)\n
     '''

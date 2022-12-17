@@ -1,3 +1,4 @@
-def QueryRecordStateSet():
-    '''public QueryRecordStateSet(final MboServerInterface ms)
+def ():
+    '''returns QueryRecordStateSet\n\n
+    (final MboServerInterface ms)\n
     '''

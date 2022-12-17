@@ -1,55 +1,69 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public EncryptRequest withKeyId(final String keyId)
+    '''returns EncryptRequest\n\n
+    withKeyId(final String keyId)\n
     '''
 def setPlaintext():
-    '''public void setPlaintext(final ByteBuffer plaintext)
+    '''returns None\n\n
+    setPlaintext(final ByteBuffer plaintext)\n
     '''
 def getPlaintext():
-    '''public ByteBuffer getPlaintext()
+    '''returns ByteBuffer\n\n
+    getPlaintext()\n
     '''
 def withPlaintext():
-    '''public EncryptRequest withPlaintext(final ByteBuffer plaintext)
-    '''
-def getEncryptionContext():
-    '''public Map<String, String> getEncryptionContext()
+    '''returns EncryptRequest\n\n
+    withPlaintext(final ByteBuffer plaintext)\n
     '''
 def setEncryptionContext():
-    '''public void setEncryptionContext(final Map<String, String> encryptionContext)
+    '''returns None\n\n
+    setEncryptionContext(final Map<String, String> encryptionContext)\n
     '''
 def withEncryptionContext():
-    '''public EncryptRequest withEncryptionContext(final Map<String, String> encryptionContext)
+    '''returns EncryptRequest\n\n
+    withEncryptionContext(final Map<String, String> encryptionContext)\n
     '''
 def addEncryptionContextEntry():
-    '''public EncryptRequest addEncryptionContextEntry(final String key, final String value)
+    '''returns EncryptRequest\n\n
+    addEncryptionContextEntry(final String key, final String value)\n
     '''
 def clearEncryptionContextEntries():
-    '''public EncryptRequest clearEncryptionContextEntries()
+    '''returns EncryptRequest\n\n
+    clearEncryptionContextEntries()\n
     '''
 def getGrantTokens():
-    '''public List<String> getGrantTokens()
+    '''returns List<String>\n\n
+    getGrantTokens()\n
     '''
 def setGrantTokens():
-    '''public void setGrantTokens(final Collection<String> grantTokens)
+    '''returns None\n\n
+    setGrantTokens(final Collection<String> grantTokens)\n
     '''
 def withGrantTokens():
-    '''public EncryptRequest withGrantTokens(final String... grantTokens)
-    public EncryptRequest withGrantTokens(final Collection<String> grantTokens)
+    '''returns EncryptRequest\n\n
+    withGrantTokens(final String... grantTokens)\n
+    withGrantTokens(final Collection<String> grantTokens)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public EncryptRequest clone()
+    '''returns EncryptRequest\n\n
+    clone()\n
     '''

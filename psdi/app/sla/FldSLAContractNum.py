@@ -1,9 +1,12 @@
-def FldSLAContractNum():
-    '''public FldSLAContractNum(final MboValue mbv)
+def ():
+    '''returns FldSLAContractNum\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''

@@ -1,24 +1,32 @@
-def TLOAMPromoteNode():
-    '''public TLOAMPromoteNode(final MboSet ms)
+def ():
+    '''returns TLOAMPromoteNode\n\n
+    (final MboSet ms)\n
     '''
 def setLinkedAsset():
-    '''public void setLinkedAsset(final TLOAMAssetRemote assetMbo)
+    '''returns None\n\n
+    setLinkedAsset(final TLOAMAssetRemote assetMbo)\n
     '''
 def setDefaults():
-    '''public int setDefaults(final PromoteValuesRemote defaults, final boolean fromApplyDefaultsButton)
+    '''returns int\n\n
+    setDefaults(final PromoteValuesRemote defaults, final boolean fromApplyDefaultsButton)\n
     '''
 def getWouldBeCustomer():
-    '''public String getWouldBeCustomer()
+    '''returns String\n\n
+    getWouldBeCustomer()\n
     '''
 def setAttributeFlags():
-    '''public void setAttributeFlags()
+    '''returns None\n\n
+    setAttributeFlags()\n
     '''
 def assetLinkedSetReadOnlyAttr():
-    '''public void assetLinkedSetReadOnlyAttr()
+    '''returns None\n\n
+    assetLinkedSetReadOnlyAttr()\n
     '''
 def getLinkedAsset():
-    '''public AssetRemote getLinkedAsset()
+    '''returns AssetRemote\n\n
+    getLinkedAsset()\n
     '''
 def promote():
-    '''public int promote(final PromoteValuesRemote defaults, final boolean topLevelSelection, final boolean promotedByParent)
+    '''returns int\n\n
+    promote(final PromoteValuesRemote defaults, final boolean topLevelSelection, final boolean promotedByParent)\n
     '''

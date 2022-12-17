@@ -1,12 +1,15 @@
-def DefaultCookieSpecProvider():
-    '''public DefaultCookieSpecProvider(final CompatibilityLevel compatibilityLevel, final PublicSuffixMatcher publicSuffixMatcher, final String[] datepatterns, final boolean oneHeader)
-    public DefaultCookieSpecProvider(final CompatibilityLevel compatibilityLevel, final PublicSuffixMatcher publicSuffixMatcher)
-    public DefaultCookieSpecProvider(final PublicSuffixMatcher publicSuffixMatcher)
-    public DefaultCookieSpecProvider()
+def ():
+    '''returns DefaultCookieSpecProvider\n\n
+    (final CompatibilityLevel compatibilityLevel, final PublicSuffixMatcher publicSuffixMatcher, final String[] datepatterns, final boolean oneHeader)\n
+    (final CompatibilityLevel compatibilityLevel, final PublicSuffixMatcher publicSuffixMatcher)\n
+    (final PublicSuffixMatcher publicSuffixMatcher)\n
+    ()\n
     '''
 def create():
-    '''public CookieSpec create(final HttpContext context)
+    '''returns CookieSpec\n\n
+    create(final HttpContext context)\n
     '''
 def validate():
-    '''public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''returns None\n\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
     '''

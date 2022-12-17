@@ -1,30 +1,40 @@
-def FldWOAssetnum():
-    '''public FldWOAssetnum(final MboValue mbv)
+def ():
+    '''returns FldWOAssetnum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setCIForAsset():
-    '''public void setCIForAsset()
+    '''returns None\n\n
+    setCIForAsset()\n
     '''
 def determineLocationAction():
-    '''public void determineLocationAction()
+    '''returns None\n\n
+    determineLocationAction()\n
     '''
 def determineSafetyPlanAction():
-    '''public void determineSafetyPlanAction()
+    '''returns None\n\n
+    determineSafetyPlanAction()\n
     '''
 def addConditionalListWhere():
-    '''public void addConditionalListWhere(final String attribute, final String condition, final String where)
+    '''returns None\n\n
+    addConditionalListWhere(final String attribute, final String condition, final String where)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def copyPhyLocValueFromLocation():
-    '''public void copyPhyLocValueFromLocation()
+    '''returns None\n\n
+    copyPhyLocValueFromLocation()\n
     '''
 def compare():
-    '''public int compare(final String[] object1, final String[] object2)
+    '''returns int\n\n
+    compare(final String[] object1, final String[] object2)\n
     '''

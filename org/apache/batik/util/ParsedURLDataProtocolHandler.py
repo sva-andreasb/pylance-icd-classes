@@ -1,25 +1,29 @@
-def ParsedURLDataProtocolHandler():
-    '''public ParsedURLDataProtocolHandler()
+def ():
+    '''returns ParsedURLDataProtocolHandler\n\n
+    ()\n
     '''
 def parseURL():
-    '''public ParsedURLData parseURL(final ParsedURL baseURL, final String urlStr)
-    public ParsedURLData parseURL(String urlStr)
+    '''returns ParsedURLData\n\n
+    parseURL(final ParsedURL baseURL, final String urlStr)\n
+    parseURL(String urlStr)\n
     '''
 def complete():
-    '''public boolean complete()
+    '''returns boolean\n\n
+    complete()\n
     '''
 def getPortStr():
-    '''public String getPortStr()
+    '''returns String\n\n
+    getPortStr()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getContentType():
-    '''public String getContentType(final String userAgent)
+    '''returns String\n\n
+    getContentType(final String userAgent)\n
     '''
 def getContentEncoding():
-    '''public String getContentEncoding(final String userAgent)
-    '''
-def decode():
-    '''public static InputStream decode(final String s)
+    '''returns String\n\n
+    getContentEncoding(final String userAgent)\n
     '''

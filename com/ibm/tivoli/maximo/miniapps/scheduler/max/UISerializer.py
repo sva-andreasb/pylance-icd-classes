@@ -1,9 +1,12 @@
-def UISerializer():
-    '''public UISerializer(final Supplier<UIOptions> optionsSupplier, final Supplier<AbstractTreeGridMiniAppBean> beanSupplier)
+def ():
+    '''returns UISerializer\n\n
+    (final Supplier<UIOptions> optionsSupplier, final Supplier<AbstractTreeGridMiniAppBean> beanSupplier)\n
     '''
 def buildUI():
-    '''public JSONObject buildUI(final Schedule schedule, final UISerializationHelper helper)
+    '''returns JSONObject\n\n
+    buildUI(final Schedule schedule, final UISerializationHelper helper)\n
     '''
 def addColumn():
-    '''public void addColumn(final Schedule schedule, final JSONArray Cols, final Column pi, final JSONObject Header)
+    '''returns None\n\n
+    addColumn(final Schedule schedule, final JSONArray Cols, final Column pi, final JSONObject Header)\n
     '''

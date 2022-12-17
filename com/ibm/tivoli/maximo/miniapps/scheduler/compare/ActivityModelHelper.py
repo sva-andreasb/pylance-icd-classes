@@ -1,24 +1,20 @@
 def getIDComparator():
-    '''public Comparator<IlvHierarchyNode> getIDComparator()
+    '''returns Comparator<IlvHierarchyNode>\n\n
+    getIDComparator()\n
     '''
 def isModified():
-    '''public boolean isModified(final IlvGanttModel leftModel, final IlvHierarchyNode leftNode, final IlvGanttModel rightModel, final IlvHierarchyNode rightNode)
-    '''
-def isActivityDateModified():
-    '''public static boolean isActivityDateModified(final IlvHierarchyNode o1, final IlvHierarchyNode o2)
-    '''
-def isActivityResourceModified():
-    '''public static boolean isActivityResourceModified(final MXGanttModel leftModel, final IlvHierarchyNode leftNode, final MXGanttModel rightModel, final IlvHierarchyNode rightNode)
-    '''
-def isActivityStatusModified():
-    '''public static boolean isActivityStatusModified(final IlvHierarchyNode leftNode, final IlvHierarchyNode rightNode)
+    '''returns boolean\n\n
+    isModified(final IlvGanttModel leftModel, final IlvHierarchyNode leftNode, final IlvGanttModel rightModel, final IlvHierarchyNode rightNode)\n
     '''
 def getRootNode():
-    '''public IlvHierarchyNode getRootNode(final IlvGanttModel model)
+    '''returns IlvHierarchyNode\n\n
+    getRootNode(final IlvGanttModel model)\n
     '''
 def getChildNodes():
-    '''public List<IlvHierarchyNode> getChildNodes(final IlvGanttModel model, final IlvHierarchyNode parent)
+    '''returns List<IlvHierarchyNode>\n\n
+    getChildNodes(final IlvGanttModel model, final IlvHierarchyNode parent)\n
     '''
 def compare():
-    '''public int compare(final IlvHierarchyNode o1, final IlvHierarchyNode o2)
+    '''returns int\n\n
+    compare(final IlvHierarchyNode o1, final IlvHierarchyNode o2)\n
     '''

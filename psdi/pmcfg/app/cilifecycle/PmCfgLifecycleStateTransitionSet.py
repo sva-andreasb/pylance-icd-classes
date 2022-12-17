@@ -1,12 +1,16 @@
-def PmCfgLifecycleStateTransitionSet():
-    '''public PmCfgLifecycleStateTransitionSet(final MboServerInterface ms)
+def ():
+    '''returns PmCfgLifecycleStateTransitionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getList():
-    '''public MboSetRemote getList(final int row, final String attributeName)
+    '''returns MboSetRemote\n\n
+    getList(final int row, final String attributeName)\n
     '''
 def setTransition():
-    '''public void setTransition(final PmCfgLifecycleStateRemote origin, final PmCfgLifecycleStateRemote target)
+    '''returns None\n\n
+    setTransition(final PmCfgLifecycleStateRemote origin, final PmCfgLifecycleStateRemote target)\n
     '''
 def unsetTransition():
-    '''public void unsetTransition(final PmCfgLifecycleStateRemote origin, final PmCfgLifecycleStateRemote target)
+    '''returns None\n\n
+    unsetTransition(final PmCfgLifecycleStateRemote origin, final PmCfgLifecycleStateRemote target)\n
     '''

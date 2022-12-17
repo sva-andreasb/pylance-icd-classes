@@ -1,6 +1,8 @@
 def parse():
-    '''public JingleDescription parse(final XmlPullParser parser, final int initialDepth)
+    '''returns JingleDescription\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''
 def parsePayload():
-    '''public PayloadType parsePayload(final XmlPullParser parser)
+    '''returns PayloadType\n\n
+    parsePayload(final XmlPullParser parser)\n
     '''

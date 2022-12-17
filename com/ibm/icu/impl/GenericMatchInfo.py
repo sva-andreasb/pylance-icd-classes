@@ -1,9 +1,12 @@
 def nameType():
-    '''public GenericNameType nameType()
+    '''returns GenericNameType\n\n
+    nameType()\n
     '''
 def tzID():
-    '''public String tzID()
+    '''returns String\n\n
+    tzID()\n
     '''
 def matchLength():
-    '''public int matchLength()
+    '''returns int\n\n
+    matchLength()\n
     '''

@@ -1,9 +1,12 @@
-def FontSelector():
-    '''public FontSelector()
+def ():
+    '''returns FontSelector\n\n
+    ()\n
     '''
 def addFont():
-    '''public void addFont(final Font font)
+    '''returns None\n\n
+    addFont(final Font font)\n
     '''
 def process():
-    '''public Phrase process(final String text)
+    '''returns Phrase\n\n
+    process(final String text)\n
     '''

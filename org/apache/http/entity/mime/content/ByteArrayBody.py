@@ -1,19 +1,25 @@
-def ByteArrayBody():
-    '''public ByteArrayBody(final byte[] data, final String mimeType, final String filename)
-    public ByteArrayBody(final byte[] data, final String filename)
+def ():
+    '''returns ByteArrayBody\n\n
+    (final byte[] data, final String mimeType, final String filename)\n
+    (final byte[] data, final String filename)\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def getCharset():
-    '''public String getCharset()
+    '''returns String\n\n
+    getCharset()\n
     '''
 def getTransferEncoding():
-    '''public String getTransferEncoding()
+    '''returns String\n\n
+    getTransferEncoding()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''

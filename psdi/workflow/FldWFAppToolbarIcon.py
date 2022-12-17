@@ -1,3 +1,4 @@
-def FldWFAppToolbarIcon():
-    '''public FldWFAppToolbarIcon(final MboValue mbv)
+def ():
+    '''returns FldWFAppToolbarIcon\n\n
+    (final MboValue mbv)\n
     '''

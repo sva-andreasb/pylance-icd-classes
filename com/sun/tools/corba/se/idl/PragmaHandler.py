@@ -1,3 +1,4 @@
-def PragmaHandler():
-    '''public PragmaHandler()
+def ():
+    '''returns PragmaHandler\n\n
+    ()\n
     '''

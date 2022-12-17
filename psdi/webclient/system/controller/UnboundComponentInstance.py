@@ -1,9 +1,12 @@
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''

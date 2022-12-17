@@ -1,28 +1,30 @@
-def create():
-    '''public static StringBody create(final String text, final String mimeType, final Charset charset)
-    public static StringBody create(final String text, final Charset charset)
-    public static StringBody create(final String text)
-    '''
-def StringBody():
-    '''public StringBody(final String text, final String mimeType, Charset charset)
-    public StringBody(final String text, final Charset charset)
-    public StringBody(final String text)
+def ():
+    '''returns StringBody\n\n
+    (final String text, final String mimeType, Charset charset)\n
+    (final String text, final Charset charset)\n
+    (final String text)\n
     '''
 def getReader():
-    '''public Reader getReader()
+    '''returns Reader\n\n
+    getReader()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def getTransferEncoding():
-    '''public String getTransferEncoding()
+    '''returns String\n\n
+    getTransferEncoding()\n
     '''
 def getCharset():
-    '''public String getCharset()
+    '''returns String\n\n
+    getCharset()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''

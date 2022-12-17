@@ -1,27 +1,35 @@
-def AuthKeyInteractive():
-    '''public AuthKeyInteractive(final String username)
-    public AuthKeyInteractive(final String username, final PublicKeyFile publicKeyFile)
-    public AuthKeyInteractive(final String username, final char[] password)
-    public AuthKeyInteractive(final String username, final char[] password, final PublicKeyFile publicKeyFile)
+def ():
+    '''returns AuthKeyInteractive\n\n
+    (final String username)\n
+    (final String username, final PublicKeyFile publicKeyFile)\n
+    (final String username, final char[] password)\n
+    (final String username, final char[] password, final PublicKeyFile publicKeyFile)\n
     '''
 def getMethodName():
-    '''public String getMethodName()
+    '''returns String\n\n
+    getMethodName()\n
     '''
 def getPassword():
-    '''public char[] getPassword()
+    '''returns char[]\n\n
+    getPassword()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInstruction():
-    '''public String getInstruction()
+    '''returns String\n\n
+    getInstruction()\n
     '''
 def getPrompts():
-    '''public String[] getPrompts()
+    '''returns String[]\n\n
+    getPrompts()\n
     '''
 def getEchoes():
-    '''public boolean[] getEchoes()
+    '''returns boolean[]\n\n
+    getEchoes()\n
     '''
 def setInfoResponse():
-    '''public void setInfoResponse(final String[] responses)
+    '''returns None\n\n
+    setInfoResponse(final String[] responses)\n
     '''

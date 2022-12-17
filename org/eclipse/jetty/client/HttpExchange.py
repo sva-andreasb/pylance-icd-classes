@@ -10,168 +10,214 @@ STATUS_EXPIRED = "int  8"
 STATUS_EXCEPTED = "int  9"
 STATUS_CANCELLING = "int  10"
 STATUS_CANCELLED = "int  11"
-def HttpExchange():
-    '''public HttpExchange()
+def ():
+    '''returns CachedExchange\n\n
+    ()\n
+    (final boolean cacheFields)\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''
 def waitForStatus():
-    '''public void waitForStatus(final int status)
+    '''returns None\n\n
+    waitForStatus(final int status)\n
     '''
 def waitForDone():
-    '''public int waitForDone()
+    '''returns int\n\n
+    waitForDone()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def isDone():
-    '''public boolean isDone()
-    public boolean isDone(final int status)
+    '''returns boolean\n\n
+    isDone()\n
+    isDone(final int status)\n
     '''
 def getEventListener():
-    '''public HttpEventListener getEventListener()
+    '''returns HttpEventListener\n\n
+    getEventListener()\n
     '''
 def setEventListener():
-    '''public void setEventListener(final HttpEventListener listener)
+    '''returns None\n\n
+    setEventListener(final HttpEventListener listener)\n
     '''
 def setTimeout():
-    '''public void setTimeout(final long timeout)
+    '''returns None\n\n
+    setTimeout(final long timeout)\n
     '''
 def getTimeout():
-    '''public long getTimeout()
+    '''returns long\n\n
+    getTimeout()\n
     '''
 def setURL():
-    '''public void setURL(final String url)
+    '''returns None\n\n
+    setURL(final String url)\n
     '''
 def setAddress():
-    '''public void setAddress(final Address address)
+    '''returns None\n\n
+    setAddress(final Address address)\n
     '''
 def getAddress():
-    '''public Address getAddress()
+    '''returns Address\n\n
+    getAddress()\n
     '''
 def getLocalAddress():
-    '''public Address getLocalAddress()
+    '''returns Address\n\n
+    getLocalAddress()\n
     '''
 def setScheme():
-    '''public void setScheme(final Buffer scheme)
-    public void setScheme(final String scheme)
+    '''returns None\n\n
+    setScheme(final Buffer scheme)\n
+    setScheme(final String scheme)\n
     '''
 def getScheme():
-    '''public Buffer getScheme()
+    '''returns Buffer\n\n
+    getScheme()\n
     '''
 def setVersion():
-    '''public void setVersion(final int version)
-    public void setVersion(final String version)
+    '''returns None\n\n
+    setVersion(final int version)\n
+    setVersion(final String version)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def setMethod():
-    '''public void setMethod(final String method)
+    '''returns None\n\n
+    setMethod(final String method)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def getRequestURI():
-    '''public String getRequestURI()
+    '''returns String\n\n
+    getRequestURI()\n
     '''
 def setURI():
-    '''public void setURI(final String uri)
-    public void setURI(final URI uri)
+    '''returns None\n\n
+    setURI(final String uri)\n
+    setURI(final URI uri)\n
     '''
 def setRequestURI():
-    '''public void setRequestURI(final String uri)
+    '''returns None\n\n
+    setRequestURI(final String uri)\n
     '''
 def addRequestHeader():
-    '''public void addRequestHeader(final String name, final String value)
-    public void addRequestHeader(final Buffer name, final Buffer value)
+    '''returns None\n\n
+    addRequestHeader(final String name, final String value)\n
+    addRequestHeader(final Buffer name, final Buffer value)\n
     '''
 def setRequestHeader():
-    '''public void setRequestHeader(final String name, final String value)
-    public void setRequestHeader(final Buffer name, final Buffer value)
+    '''returns None\n\n
+    setRequestHeader(final String name, final String value)\n
+    setRequestHeader(final Buffer name, final Buffer value)\n
     '''
 def setRequestContentType():
-    '''public void setRequestContentType(final String value)
+    '''returns None\n\n
+    setRequestContentType(final String value)\n
     '''
 def getRequestFields():
-    '''public HttpFields getRequestFields()
+    '''returns HttpFields\n\n
+    getRequestFields()\n
     '''
 def setRequestContent():
-    '''public void setRequestContent(final Buffer requestContent)
+    '''returns None\n\n
+    setRequestContent(final Buffer requestContent)\n
     '''
 def setRequestContentSource():
-    '''public void setRequestContentSource(final InputStream stream)
+    '''returns None\n\n
+    setRequestContentSource(final InputStream stream)\n
     '''
 def getRequestContentSource():
-    '''public InputStream getRequestContentSource()
+    '''returns InputStream\n\n
+    getRequestContentSource()\n
     '''
 def getRequestContentChunk():
-    '''public Buffer getRequestContentChunk(Buffer buffer)
+    '''returns Buffer\n\n
+    getRequestContentChunk(Buffer buffer)\n
     '''
 def getRequestContent():
-    '''public Buffer getRequestContent()
+    '''returns Buffer\n\n
+    getRequestContent()\n
     '''
 def getRetryStatus():
-    '''public boolean getRetryStatus()
+    '''returns boolean\n\n
+    getRetryStatus()\n
     '''
 def setRetryStatus():
-    '''public void setRetryStatus(final boolean retryStatus)
+    '''returns None\n\n
+    setRetryStatus(final boolean retryStatus)\n
     '''
 def cancel():
-    '''public void cancel()
-    '''
-def toState():
-    '''public static String toState(final int s)
+    '''returns None\n\n
+    cancel()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def configureListeners():
-    '''public boolean configureListeners()
+    '''returns boolean\n\n
+    configureListeners()\n
     '''
 def setConfigureListeners():
-    '''public void setConfigureListeners(final boolean autoConfigure)
+    '''returns None\n\n
+    setConfigureListeners(final boolean autoConfigure)\n
     '''
 def expired():
-    '''public void expired()
+    '''returns None\n\n
+    expired()\n
     '''
 def onConnectionFailed():
-    '''public void onConnectionFailed(final Throwable ex)
+    '''returns None\n\n
+    onConnectionFailed(final Throwable ex)\n
     '''
 def onException():
-    '''public void onException(final Throwable ex)
+    '''returns None\n\n
+    onException(final Throwable ex)\n
     '''
 def onExpire():
-    '''public void onExpire()
+    '''returns None\n\n
+    onExpire()\n
     '''
 def onRequestCommitted():
-    '''public void onRequestCommitted()
+    '''returns None\n\n
+    onRequestCommitted()\n
     '''
 def onRequestComplete():
-    '''public void onRequestComplete()
+    '''returns None\n\n
+    onRequestComplete()\n
     '''
 def onResponseComplete():
-    '''public void onResponseComplete()
+    '''returns None\n\n
+    onResponseComplete()\n
     '''
 def onResponseContent():
-    '''public void onResponseContent(final Buffer content)
+    '''returns None\n\n
+    onResponseContent(final Buffer content)\n
     '''
 def onResponseHeader():
-    '''public void onResponseHeader(final Buffer name, final Buffer value)
+    '''returns None\n\n
+    onResponseHeader(final Buffer name, final Buffer value)\n
     '''
 def onResponseHeaderComplete():
-    '''public void onResponseHeaderComplete()
+    '''returns None\n\n
+    onResponseHeaderComplete()\n
     '''
 def onResponseStatus():
-    '''public void onResponseStatus(final Buffer version, final int status, final Buffer reason)
+    '''returns None\n\n
+    onResponseStatus(final Buffer version, final int status, final Buffer reason)\n
     '''
 def onRetry():
-    '''public void onRetry()
-    '''
-def CachedExchange():
-    '''public CachedExchange(final boolean cacheFields)
+    '''returns None\n\n
+    onRetry()\n
     '''

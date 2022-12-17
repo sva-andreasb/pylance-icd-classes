@@ -1,9 +1,12 @@
-def ETagOSListener():
-    '''public ETagOSListener(final String colName)
+def ():
+    '''returns ETagOSListener\n\n
+    (final String colName)\n
     '''
 def structureChanged():
-    '''public void structureChanged(final OSEvent osEvent)
+    '''returns None\n\n
+    structureChanged(final OSEvent osEvent)\n
     '''
 def setValue():
-    '''public void setValue(final int type, final Mbo mbo, final PreparedStatement ps)
+    '''returns None\n\n
+    setValue(final int type, final Mbo mbo, final PreparedStatement ps)\n
     '''

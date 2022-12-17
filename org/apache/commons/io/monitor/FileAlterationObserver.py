@@ -1,35 +1,45 @@
-def FileAlterationObserver():
-    '''public FileAlterationObserver(final String directoryName)
-    public FileAlterationObserver(final String directoryName, final FileFilter fileFilter)
-    public FileAlterationObserver(final String directoryName, final FileFilter fileFilter, final IOCase caseSensitivity)
-    public FileAlterationObserver(final File directory)
-    public FileAlterationObserver(final File directory, final FileFilter fileFilter)
-    public FileAlterationObserver(final File directory, final FileFilter fileFilter, final IOCase caseSensitivity)
+def ():
+    '''returns FileAlterationObserver\n\n
+    (final String directoryName)\n
+    (final String directoryName, final FileFilter fileFilter)\n
+    (final String directoryName, final FileFilter fileFilter, final IOCase caseSensitivity)\n
+    (final File directory)\n
+    (final File directory, final FileFilter fileFilter)\n
+    (final File directory, final FileFilter fileFilter, final IOCase caseSensitivity)\n
     '''
 def getDirectory():
-    '''public File getDirectory()
+    '''returns File\n\n
+    getDirectory()\n
     '''
 def getFileFilter():
-    '''public FileFilter getFileFilter()
+    '''returns FileFilter\n\n
+    getFileFilter()\n
     '''
 def addListener():
-    '''public void addListener(final FileAlterationListener listener)
+    '''returns None\n\n
+    addListener(final FileAlterationListener listener)\n
     '''
 def removeListener():
-    '''public void removeListener(final FileAlterationListener listener)
+    '''returns None\n\n
+    removeListener(final FileAlterationListener listener)\n
     '''
 def getListeners():
-    '''public Iterable<FileAlterationListener> getListeners()
+    '''returns Iterable<FileAlterationListener>\n\n
+    getListeners()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def checkAndNotify():
-    '''public void checkAndNotify()
+    '''returns None\n\n
+    checkAndNotify()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

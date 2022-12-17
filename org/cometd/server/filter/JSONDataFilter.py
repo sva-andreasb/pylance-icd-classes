@@ -1,6 +1,8 @@
 def init():
-    '''public void init(final Object init)
+    '''returns None\n\n
+    init(final Object init)\n
     '''
 def filter():
-    '''public Object filter(final ServerSession from, final ServerChannel to, final Object data)
+    '''returns Object\n\n
+    filter(final ServerSession from, final ServerChannel to, final Object data)\n
     '''

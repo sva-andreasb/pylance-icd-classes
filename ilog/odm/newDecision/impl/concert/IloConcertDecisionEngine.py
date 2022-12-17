@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def updateOneGoal():
-    '''public void updateOneGoal(final String goalId, final double newWeight, final boolean newActive)
+    '''returns None\n\n
+    updateOneGoal(final String goalId, final double newWeight, final boolean newActive)\n
     '''
 def getOrCreateObjectiveModel():
-    '''public IloObjectiveModel getOrCreateObjectiveModel()
+    '''returns IloObjectiveModel\n\n
+    getOrCreateObjectiveModel()\n
     '''
 def setupObjective():
-    '''public void setupObjective()
+    '''returns None\n\n
+    setupObjective()\n
     '''

@@ -1,3 +1,4 @@
-def LicensePurchInput():
-    '''public LicensePurchInput(final MboSet ms)
+def ():
+    '''returns LicensePurchInput\n\n
+    (final MboSet ms)\n
     '''

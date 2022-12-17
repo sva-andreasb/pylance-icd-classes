@@ -1,3 +1,4 @@
 def evaluateNode():
-    '''public Node evaluateNode(final Node parent, final Node current)
+    '''returns Node\n\n
+    evaluateNode(final Node parent, final Node current)\n
     '''

@@ -1,10 +1,9 @@
-def DBBlob():
-    '''public DBBlob(final Object ablob, final String dbType)
-    public DBBlob()
-    '''
-def getDBBlob():
-    '''public static IDBBlob getDBBlob(final Object ablob, final String dbType)
+def ():
+    '''returns DBBlob\n\n
+    (final Object ablob, final String dbType)\n
+    ()\n
     '''
 def getBlob():
-    '''public Blob getBlob()
+    '''returns Blob\n\n
+    getBlob()\n
     '''

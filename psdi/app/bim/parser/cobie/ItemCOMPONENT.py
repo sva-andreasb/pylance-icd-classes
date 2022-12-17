@@ -1,90 +1,120 @@
-def ItemCOMPONENT():
-    '''public ItemCOMPONENT()
+def ():
+    '''returns ItemCOMPONENT\n\n
+    ()\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def spaceFromAttribute():
-    '''public boolean spaceFromAttribute(final Parser project, final String name)
+    '''returns boolean\n\n
+    spaceFromAttribute(final Parser project, final String name)\n
     '''
 def levelFromAttribute():
-    '''public boolean levelFromAttribute(final Parser project, final String name)
+    '''returns boolean\n\n
+    levelFromAttribute(final Parser project, final String name)\n
     '''
 def skip():
-    '''public boolean skip(final Parser parser, final long flags)
+    '''returns boolean\n\n
+    skip(final Parser parser, final long flags)\n
     '''
 def getAssetIdentifier():
-    '''public String getAssetIdentifier()
+    '''returns String\n\n
+    getAssetIdentifier()\n
     '''
 def getBarCode():
-    '''public String getBarCode()
+    '''returns String\n\n
+    getBarCode()\n
     '''
 def getFloorReference():
-    '''public ItemFLOOR getFloorReference()
+    '''returns ItemFLOOR\n\n
+    getFloorReference()\n
     '''
 def getInstallationDate():
-    '''public String getInstallationDate()
+    '''returns String\n\n
+    getInstallationDate()\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def getSerialNumber():
-    '''public String getSerialNumber()
+    '''returns String\n\n
+    getSerialNumber()\n
     '''
 def getSpace():
-    '''public String getSpace()
+    '''returns String\n\n
+    getSpace()\n
     '''
 def getSpaceReference():
-    '''public ItemSPACE getSpaceReference()
+    '''returns ItemSPACE\n\n
+    getSpaceReference()\n
     '''
 def getTypeReference():
-    '''public ItemTYPE getTypeReference()
+    '''returns ItemTYPE\n\n
+    getTypeReference()\n
     '''
 def getTagNumber():
-    '''public String getTagNumber()
+    '''returns String\n\n
+    getTagNumber()\n
     '''
 def getTypeName():
-    '''public String getTypeName()
+    '''returns String\n\n
+    getTypeName()\n
     '''
 def getUniqueIdLoc():
-    '''public String getUniqueIdLoc()
+    '''returns String\n\n
+    getUniqueIdLoc()\n
     '''
 def getVendorReference():
-    '''public ItemCONTACT getVendorReference()
+    '''returns ItemCONTACT\n\n
+    getVendorReference()\n
     '''
 def getWarrantyStartDate():
-    '''public String getWarrantyStartDate()
+    '''returns String\n\n
+    getWarrantyStartDate()\n
     '''
 def setAssetIdentifier():
-    '''public void setAssetIdentifier(final String assetIdentifier)
+    '''returns None\n\n
+    setAssetIdentifier(final String assetIdentifier)\n
     '''
 def setBarCode():
-    '''public void setBarCode(final String barCode)
+    '''returns None\n\n
+    setBarCode(final String barCode)\n
     '''
 def setInstallationDate():
-    '''public void setInstallationDate(final String installationDate)
+    '''returns None\n\n
+    setInstallationDate(final String installationDate)\n
     '''
 def setSerialNumber():
-    '''public void setSerialNumber(final String serialNumber)
+    '''returns None\n\n
+    setSerialNumber(final String serialNumber)\n
     '''
 def setSpace():
-    '''public void setSpace(final String space)
+    '''returns None\n\n
+    setSpace(final String space)\n
     '''
 def setSpaceNames():
-    '''public void setSpaceNames(final String space)
+    '''returns None\n\n
+    setSpaceNames(final String space)\n
     '''
 def setTagNumber():
-    '''public void setTagNumber(final String tagNumber)
+    '''returns None\n\n
+    setTagNumber(final String tagNumber)\n
     '''
 def setTypeName():
-    '''public void setTypeName(final String typeName)
+    '''returns None\n\n
+    setTypeName(final String typeName)\n
     '''
 def setUniqueIdLoc():
-    '''public void setUniqueIdLoc(final String uniqueId)
+    '''returns None\n\n
+    setUniqueIdLoc(final String uniqueId)\n
     '''
 def setWarrantyStartDate():
-    '''public void setWarrantyStartDate(final String warrantyStartDate)
+    '''returns None\n\n
+    setWarrantyStartDate(final String warrantyStartDate)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

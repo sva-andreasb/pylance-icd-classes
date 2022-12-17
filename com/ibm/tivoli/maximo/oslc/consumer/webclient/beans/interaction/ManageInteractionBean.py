@@ -1,6 +1,8 @@
 def instantdelete():
-    '''public int instantdelete()
+    '''returns int\n\n
+    instantdelete()\n
     '''
 def deleteInteraction():
-    '''public void deleteInteraction(final MboRemote mbo)
+    '''returns None\n\n
+    deleteInteraction(final MboRemote mbo)\n
     '''

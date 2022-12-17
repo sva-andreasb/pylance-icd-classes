@@ -1,28 +1,33 @@
-def QueryParamInfo():
-    '''public QueryParamInfo(final String paramName, final String valueExpression, final String operation, final boolean literal)
-    public QueryParamInfo(final String paramName, final String valueExpression, final String operation, final boolean literal, final String paramType, final String paramMetaData)
+def ():
+    '''returns QueryParamInfo\n\n
+    (final String paramName, final String valueExpression, final String operation, final boolean literal)\n
+    (final String paramName, final String valueExpression, final String operation, final boolean literal, final String paramType, final String paramMetaData)\n
     '''
 def getParamType():
-    '''public String getParamType()
+    '''returns String\n\n
+    getParamType()\n
     '''
 def getParamMetaData():
-    '''public String getParamMetaData()
-    '''
-def getParamMetaDataAsSet():
-    '''public Map<String, String> getParamMetaDataAsSet()
+    '''returns String\n\n
+    getParamMetaData()\n
     '''
 def setParamMetaDataAsSet():
-    '''public void setParamMetaDataAsSet()
+    '''returns None\n\n
+    setParamMetaDataAsSet()\n
     '''
 def getParamName():
-    '''public String getParamName()
+    '''returns String\n\n
+    getParamName()\n
     '''
 def getValueExpression():
-    '''public String getValueExpression()
+    '''returns String\n\n
+    getValueExpression()\n
     '''
 def getOperation():
-    '''public String getOperation()
+    '''returns String\n\n
+    getOperation()\n
     '''
 def isLiteral():
-    '''public boolean isLiteral()
+    '''returns boolean\n\n
+    isLiteral()\n
     '''

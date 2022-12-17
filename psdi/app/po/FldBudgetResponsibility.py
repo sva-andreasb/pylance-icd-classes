@@ -1,3 +1,4 @@
-def FldBudgetResponsibility():
-    '''public FldBudgetResponsibility(final MboValue mbv)
+def ():
+    '''returns FldBudgetResponsibility\n\n
+    (final MboValue mbv)\n
     '''

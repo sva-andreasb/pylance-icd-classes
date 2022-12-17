@@ -1,9 +1,12 @@
-def CustomPMActivityRenderer():
-    '''public CustomPMActivityRenderer(final IlvActivity activity)
+def ():
+    '''returns CustomPMActivityRenderer\n\n
+    (final IlvActivity activity)\n
     '''
 def createSelection():
-    '''public IlvSelection createSelection(final IlvActivityGraphic g, final String[] properties)
+    '''returns IlvSelection\n\n
+    createSelection(final IlvActivityGraphic g, final String[] properties)\n
     '''
 def draw():
-    '''public void draw(final Graphics arg0, final IlvActivityGraphic arg1, final IlvTransformer arg2)
+    '''returns None\n\n
+    draw(final Graphics arg0, final IlvActivityGraphic arg1, final IlvTransformer arg2)\n
     '''

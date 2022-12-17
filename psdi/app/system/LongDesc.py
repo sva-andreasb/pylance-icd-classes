@@ -1,15 +1,20 @@
-def LongDesc():
-    '''public LongDesc(final MboSet ms)
+def ():
+    '''returns LongDesc\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def setUndeleteAllowed():
-    '''public void setUndeleteAllowed(final boolean undeleteAllowed)
+    '''returns None\n\n
+    setUndeleteAllowed(final boolean undeleteAllowed)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

@@ -1,7 +1,9 @@
-def TopicAuthorizationException():
-    '''public TopicAuthorizationException(final Set<String> unauthorizedTopics)
-    public TopicAuthorizationException(final String unauthorizedTopic)
+def ():
+    '''returns TopicAuthorizationException\n\n
+    (final Set<String> unauthorizedTopics)\n
+    (final String unauthorizedTopic)\n
     '''
 def unauthorizedTopics():
-    '''public Set<String> unauthorizedTopics()
+    '''returns Set<String>\n\n
+    unauthorizedTopics()\n
     '''

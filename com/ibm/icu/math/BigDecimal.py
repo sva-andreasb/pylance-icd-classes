@@ -6,138 +6,168 @@ ROUND_HALF_EVEN = "int  6"
 ROUND_HALF_UP = "int  4"
 ROUND_UNNECESSARY = "int  7"
 ROUND_UP = "int  0"
-def BigDecimal():
-    '''public BigDecimal(final java.math.BigDecimal bd)
-    public BigDecimal(final BigInteger bi)
-    public BigDecimal(final BigInteger bi, final int scale)
-    public BigDecimal(final char[] inchars)
-    public BigDecimal(final char[] inchars, int offset, int length)
-    public BigDecimal(final double num)
-    public BigDecimal(int num)
-    public BigDecimal(long num)
-    public BigDecimal(final String string)
+def ():
+    '''returns BigDecimal\n\n
+    (final java.math.BigDecimal bd)\n
+    (final BigInteger bi)\n
+    (final BigInteger bi, final int scale)\n
+    (final char[] inchars)\n
+    (final char[] inchars, int offset, int length)\n
+    (final double num)\n
+    (int num)\n
+    (long num)\n
+    (final String string)\n
     '''
 def abs():
-    '''public BigDecimal abs()
-    public BigDecimal abs(final MathContext set)
+    '''returns BigDecimal\n\n
+    abs()\n
+    abs(final MathContext set)\n
     '''
 def add():
-    '''public BigDecimal add(final BigDecimal rhs)
-    public BigDecimal add(BigDecimal rhs, final MathContext set)
+    '''returns BigDecimal\n\n
+    add(final BigDecimal rhs)\n
+    add(BigDecimal rhs, final MathContext set)\n
     '''
 def compareTo():
-    '''public int compareTo(final BigDecimal rhs)
-    public int compareTo(final BigDecimal rhs, final MathContext set)
+    '''returns int\n\n
+    compareTo(final BigDecimal rhs)\n
+    compareTo(final BigDecimal rhs, final MathContext set)\n
     '''
 def divide():
-    '''public BigDecimal divide(final BigDecimal rhs)
-    public BigDecimal divide(final BigDecimal rhs, final int round)
-    public BigDecimal divide(final BigDecimal rhs, final int scale, final int round)
-    public BigDecimal divide(final BigDecimal rhs, final MathContext set)
+    '''returns BigDecimal\n\n
+    divide(final BigDecimal rhs)\n
+    divide(final BigDecimal rhs, final int round)\n
+    divide(final BigDecimal rhs, final int scale, final int round)\n
+    divide(final BigDecimal rhs, final MathContext set)\n
     '''
 def divideInteger():
-    '''public BigDecimal divideInteger(final BigDecimal rhs)
-    public BigDecimal divideInteger(final BigDecimal rhs, final MathContext set)
+    '''returns BigDecimal\n\n
+    divideInteger(final BigDecimal rhs)\n
+    divideInteger(final BigDecimal rhs, final MathContext set)\n
     '''
 def max():
-    '''public BigDecimal max(final BigDecimal rhs)
-    public BigDecimal max(final BigDecimal rhs, final MathContext set)
+    '''returns BigDecimal\n\n
+    max(final BigDecimal rhs)\n
+    max(final BigDecimal rhs, final MathContext set)\n
     '''
 def min():
-    '''public BigDecimal min(final BigDecimal rhs)
-    public BigDecimal min(final BigDecimal rhs, final MathContext set)
+    '''returns BigDecimal\n\n
+    min(final BigDecimal rhs)\n
+    min(final BigDecimal rhs, final MathContext set)\n
     '''
 def multiply():
-    '''public BigDecimal multiply(final BigDecimal rhs)
-    public BigDecimal multiply(BigDecimal rhs, final MathContext set)
+    '''returns BigDecimal\n\n
+    multiply(final BigDecimal rhs)\n
+    multiply(BigDecimal rhs, final MathContext set)\n
     '''
 def negate():
-    '''public BigDecimal negate()
-    public BigDecimal negate(final MathContext set)
+    '''returns BigDecimal\n\n
+    negate()\n
+    negate(final MathContext set)\n
     '''
 def plus():
-    '''public BigDecimal plus()
-    public BigDecimal plus(final MathContext set)
+    '''returns BigDecimal\n\n
+    plus()\n
+    plus(final MathContext set)\n
     '''
 def pow():
-    '''public BigDecimal pow(final BigDecimal rhs)
-    public BigDecimal pow(final BigDecimal rhs, final MathContext set)
+    '''returns BigDecimal\n\n
+    pow(final BigDecimal rhs)\n
+    pow(final BigDecimal rhs, final MathContext set)\n
     '''
 def remainder():
-    '''public BigDecimal remainder(final BigDecimal rhs)
-    public BigDecimal remainder(final BigDecimal rhs, final MathContext set)
+    '''returns BigDecimal\n\n
+    remainder(final BigDecimal rhs)\n
+    remainder(final BigDecimal rhs, final MathContext set)\n
     '''
 def subtract():
-    '''public BigDecimal subtract(final BigDecimal rhs)
-    public BigDecimal subtract(final BigDecimal rhs, final MathContext set)
+    '''returns BigDecimal\n\n
+    subtract(final BigDecimal rhs)\n
+    subtract(final BigDecimal rhs, final MathContext set)\n
     '''
 def byteValueExact():
-    '''public byte byteValueExact()
+    '''returns byte\n\n
+    byteValueExact()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def format():
-    '''public String format(final int before, final int after)
-    public String format(final int before, final int after, final int explaces, final int exdigits, int exformint, int exround)
+    '''returns String\n\n
+    format(final int before, final int after)\n
+    format(final int before, final int after, final int explaces, final int exdigits, int exformint, int exround)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def intValueExact():
-    '''public int intValueExact()
+    '''returns int\n\n
+    intValueExact()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def longValueExact():
-    '''public long longValueExact()
+    '''returns long\n\n
+    longValueExact()\n
     '''
 def movePointLeft():
-    '''public BigDecimal movePointLeft(final int n)
+    '''returns BigDecimal\n\n
+    movePointLeft(final int n)\n
     '''
 def movePointRight():
-    '''public BigDecimal movePointRight(final int n)
+    '''returns BigDecimal\n\n
+    movePointRight(final int n)\n
     '''
 def scale():
-    '''public int scale()
+    '''returns int\n\n
+    scale()\n
     '''
 def setScale():
-    '''public BigDecimal setScale(final int scale)
-    public BigDecimal setScale(final int scale, final int round)
+    '''returns BigDecimal\n\n
+    setScale(final int scale)\n
+    setScale(final int scale, final int round)\n
     '''
 def shortValueExact():
-    '''public short shortValueExact()
+    '''returns short\n\n
+    shortValueExact()\n
     '''
 def signum():
-    '''public int signum()
+    '''returns int\n\n
+    signum()\n
     '''
 def toBigInteger():
-    '''public BigInteger toBigInteger()
+    '''returns BigInteger\n\n
+    toBigInteger()\n
     '''
 def toBigIntegerExact():
-    '''public BigInteger toBigIntegerExact()
+    '''returns BigInteger\n\n
+    toBigIntegerExact()\n
     '''
 def toCharArray():
-    '''public char[] toCharArray()
+    '''returns char[]\n\n
+    toCharArray()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def unscaledValue():
-    '''public BigInteger unscaledValue()
-    '''
-def valueOf():
-    '''public static BigDecimal valueOf(final double dub)
-    public static BigDecimal valueOf(final long lint)
-    public static BigDecimal valueOf(final long lint, final int scale)
+    '''returns BigInteger\n\n
+    unscaledValue()\n
     '''

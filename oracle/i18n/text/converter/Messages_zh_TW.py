@@ -1,6 +1,8 @@
-def Messages_zh_TW():
-    '''public Messages_zh_TW()
+def ():
+    '''returns Messages_zh_TW\n\n
+    ()\n
     '''
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

@@ -1,15 +1,16 @@
-def ScriptRef():
-    '''public ScriptRef(final String name, final ScriptManager scriptManager)
+def ():
+    '''returns ScriptRef\n\n
+    (final String name, final ScriptManager scriptManager)\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def getScriptText():
-    '''public String getScriptText()
-    '''
-def createReference():
-    '''public static ScriptRef createReference(@PluginAttribute("ref") final String name, @PluginConfiguration final Configuration configuration)
+    '''returns String\n\n
+    getScriptText()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

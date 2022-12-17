@@ -1,9 +1,12 @@
-def ComponentPatternParser():
-    '''public ComponentPatternParser(final String p)
+def ():
+    '''returns ComponentPatternParser\n\n
+    (final String p)\n
     '''
 def get():
-    '''public Pattern get()
+    '''returns Pattern\n\n
+    get()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

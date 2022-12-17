@@ -1,30 +1,40 @@
-def CoreFunction():
-    '''public CoreFunction(final int functionCode, final Expression[] args)
+def ():
+    '''returns CoreFunction\n\n
+    (final int functionCode, final Expression[] args)\n
     '''
 def getFunctionCode():
-    '''public int getFunctionCode()
+    '''returns int\n\n
+    getFunctionCode()\n
     '''
 def getArg1():
-    '''public Expression getArg1()
+    '''returns Expression\n\n
+    getArg1()\n
     '''
 def getArg2():
-    '''public Expression getArg2()
+    '''returns Expression\n\n
+    getArg2()\n
     '''
 def getArg3():
-    '''public Expression getArg3()
+    '''returns Expression\n\n
+    getArg3()\n
     '''
 def getArgumentCount():
-    '''public int getArgumentCount()
+    '''returns int\n\n
+    getArgumentCount()\n
     '''
 def computeContextDependent():
-    '''public boolean computeContextDependent()
+    '''returns boolean\n\n
+    computeContextDependent()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compute():
-    '''public Object compute(final EvalContext context)
+    '''returns Object\n\n
+    compute(final EvalContext context)\n
     '''
 def computeValue():
-    '''public Object computeValue(final EvalContext context)
+    '''returns Object\n\n
+    computeValue(final EvalContext context)\n
     '''

@@ -1,3 +1,4 @@
-def Nsid():
-    '''public Nsid(final byte[] payload)
+def ():
+    '''returns Nsid\n\n
+    (final byte[] payload)\n
     '''

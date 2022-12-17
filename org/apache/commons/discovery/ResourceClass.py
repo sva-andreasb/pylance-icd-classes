@@ -1,16 +1,17 @@
-def setLog():
-    '''public static void setLog(final Log _log)
-    '''
-def ResourceClass():
-    '''public ResourceClass(final Class resourceClass, final URL resource)
-    public ResourceClass(final String resourceName, final URL resource, final ClassLoader loader)
+def ():
+    '''returns ResourceClass\n\n
+    (final Class resourceClass, final URL resource)\n
+    (final String resourceName, final URL resource, final ClassLoader loader)\n
     '''
 def loadClass():
-    '''public Class loadClass()
+    '''returns Class\n\n
+    loadClass()\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

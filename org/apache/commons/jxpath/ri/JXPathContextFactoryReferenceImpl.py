@@ -1,3 +1,4 @@
 def newContext():
-    '''public JXPathContext newContext(final JXPathContext parentContext, final Object contextBean)
+    '''returns JXPathContext\n\n
+    newContext(final JXPathContext parentContext, final Object contextBean)\n
     '''

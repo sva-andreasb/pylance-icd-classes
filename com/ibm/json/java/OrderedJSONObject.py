@@ -1,23 +1,24 @@
-def OrderedJSONObject():
-    '''public OrderedJSONObject()
-    '''
-def parse():
-    '''public static JSONObject parse(final Reader in)
-    public static JSONObject parse(final String s)
-    public static JSONObject parse(final InputStream inputStream)
+def ():
+    '''returns OrderedJSONObject\n\n
+    ()\n
     '''
 def put():
-    '''public Object put(final Object o, final Object o2)
+    '''returns Object\n\n
+    put(final Object o, final Object o2)\n
     '''
 def remove():
-    '''public Object remove(final Object obj)
+    '''returns Object\n\n
+    remove(final Object obj)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getOrder():
-    '''public Iterator getOrder()
+    '''returns Iterator\n\n
+    getOrder()\n
     '''

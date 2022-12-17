@@ -1,21 +1,28 @@
 def call():
-    '''public Object call(final String str, final Object[] array)
+    '''returns Object\n\n
+    call(final String str, final Object[] array)\n
     '''
 def eval():
-    '''public Object eval(final String str)
+    '''returns Object\n\n
+    eval(final String str)\n
     '''
 def getMember():
-    '''public Object getMember(final String str)
+    '''returns Object\n\n
+    getMember(final String str)\n
     '''
 def setMember():
-    '''public void setMember(final String str, final Object o)
+    '''returns None\n\n
+    setMember(final String str, final Object o)\n
     '''
 def removeMember():
-    '''public void removeMember(final String str)
+    '''returns None\n\n
+    removeMember(final String str)\n
     '''
 def getSlot():
-    '''public Object getSlot(final int i)
+    '''returns Object\n\n
+    getSlot(final int i)\n
     '''
 def setSlot():
-    '''public void setSlot(final int i, final Object o)
+    '''returns None\n\n
+    setSlot(final int i, final Object o)\n
     '''

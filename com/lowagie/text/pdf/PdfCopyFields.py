@@ -1,34 +1,44 @@
-def PdfCopyFields():
-    '''public PdfCopyFields(final OutputStream os)
-    public PdfCopyFields(final OutputStream os, final char pdfVersion)
+def ():
+    '''returns PdfCopyFields\n\n
+    (final OutputStream os)\n
+    (final OutputStream os, final char pdfVersion)\n
     '''
 def addDocument():
-    '''public void addDocument(final PdfReader reader)
-    public void addDocument(final PdfReader reader, final List pagesToKeep)
-    public void addDocument(final PdfReader reader, final String ranges)
+    '''returns None\n\n
+    addDocument(final PdfReader reader)\n
+    addDocument(final PdfReader reader, final List pagesToKeep)\n
+    addDocument(final PdfReader reader, final String ranges)\n
     '''
 def setEncryption():
-    '''public void setEncryption(final byte[] userPassword, final byte[] ownerPassword, final int permissions, final boolean strength128Bits)
-    public void setEncryption(final boolean strength, final String userPassword, final String ownerPassword, final int permissions)
+    '''returns None\n\n
+    setEncryption(final byte[] userPassword, final byte[] ownerPassword, final int permissions, final boolean strength128Bits)\n
+    setEncryption(final boolean strength, final String userPassword, final String ownerPassword, final int permissions)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def addJavaScript():
-    '''public void addJavaScript(final String js)
+    '''returns None\n\n
+    addJavaScript(final String js)\n
     '''
 def setOutlines():
-    '''public void setOutlines(final List outlines)
+    '''returns None\n\n
+    setOutlines(final List outlines)\n
     '''
 def getWriter():
-    '''public PdfWriter getWriter()
+    '''returns PdfWriter\n\n
+    getWriter()\n
     '''
 def isFullCompression():
-    '''public boolean isFullCompression()
+    '''returns boolean\n\n
+    isFullCompression()\n
     '''
 def setFullCompression():
-    '''public void setFullCompression()
+    '''returns None\n\n
+    setFullCompression()\n
     '''

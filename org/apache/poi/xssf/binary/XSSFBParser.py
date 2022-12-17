@@ -1,6 +1,8 @@
-def XSSFBParser():
-    '''public XSSFBParser(final InputStream is)
+def ():
+    '''returns XSSFBParser\n\n
+    (final InputStream is)\n
     '''
 def parse():
-    '''public void parse()
+    '''returns None\n\n
+    parse()\n
     '''

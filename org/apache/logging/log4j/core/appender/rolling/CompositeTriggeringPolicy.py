@@ -1,18 +1,20 @@
 def getTriggeringPolicies():
-    '''public TriggeringPolicy[] getTriggeringPolicies()
+    '''returns TriggeringPolicy[]\n\n
+    getTriggeringPolicies()\n
     '''
 def initialize():
-    '''public void initialize(final RollingFileManager manager)
+    '''returns None\n\n
+    initialize(final RollingFileManager manager)\n
     '''
 def isTriggeringEvent():
-    '''public boolean isTriggeringEvent(final LogEvent event)
-    '''
-def createPolicy():
-    '''public static CompositeTriggeringPolicy createPolicy(@PluginElement("Policies") final TriggeringPolicy... triggeringPolicy)
+    '''returns boolean\n\n
+    isTriggeringEvent(final LogEvent event)\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

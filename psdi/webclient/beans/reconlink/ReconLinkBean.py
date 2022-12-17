@@ -1,6 +1,8 @@
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def RESOLVED():
-    '''public int RESOLVED()
+    '''returns int\n\n
+    RESOLVED()\n
     '''

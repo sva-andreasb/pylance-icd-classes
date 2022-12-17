@@ -1,3 +1,4 @@
-def FldSigOptFlagValue():
-    '''public FldSigOptFlagValue(final MboValue mbv)
+def ():
+    '''returns FldSigOptFlagValue\n\n
+    (final MboValue mbv)\n
     '''

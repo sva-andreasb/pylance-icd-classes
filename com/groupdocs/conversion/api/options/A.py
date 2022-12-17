@@ -1,9 +1,12 @@
-def A():
-    '''public A(final ToImageOptions toImageOptions)
+def ():
+    '''returns A\n\n
+    (final ToImageOptions toImageOptions)\n
     '''
 def a():
-    '''public void a(final OutputStream outputStream, final int n)
+    '''returns None\n\n
+    a(final OutputStream outputStream, final int n)\n
     '''
 def c():
-    '''public void c(final OutputStream outputStream)
+    '''returns None\n\n
+    c(final OutputStream outputStream)\n
     '''

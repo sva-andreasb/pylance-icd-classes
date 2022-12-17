@@ -1,75 +1,99 @@
 VERSION_HIGHEST = "int  999999"
-def AppDeploymentTask():
-    '''public AppDeploymentTask(final AppDeploymentController controller)
+def ():
+    '''returns AppDeploymentTask\n\n
+    (final AppDeploymentController controller)\n
     '''
 def getAppDeploymentController():
-    '''public AppDeploymentController getAppDeploymentController()
+    '''returns AppDeploymentController\n\n
+    getAppDeploymentController()\n
     '''
 def setAppDeploymentController():
-    '''public void setAppDeploymentController(final AppDeploymentController controller)
+    '''returns None\n\n
+    setAppDeploymentController(final AppDeploymentController controller)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getColumnNames():
-    '''public String[] getColumnNames()
+    '''returns String[]\n\n
+    getColumnNames()\n
     '''
 def isTaskEmpty():
-    '''public boolean isTaskEmpty()
+    '''returns boolean\n\n
+    isTaskEmpty()\n
     '''
 def isTaskDisabled():
-    '''public boolean isTaskDisabled()
+    '''returns boolean\n\n
+    isTaskDisabled()\n
     '''
 def setIsTaskDisabled():
-    '''public void setIsTaskDisabled(final boolean taskDisabled)
+    '''returns None\n\n
+    setIsTaskDisabled(final boolean taskDisabled)\n
     '''
 def isSufficientlyDone():
-    '''public boolean isSufficientlyDone()
+    '''returns boolean\n\n
+    isSufficientlyDone()\n
     '''
 def setIsSufficientlyDone():
-    '''public void setIsSufficientlyDone(final boolean sufficientlyDone)
+    '''returns None\n\n
+    setIsSufficientlyDone(final boolean sufficientlyDone)\n
     '''
 def getMutableColumns():
-    '''public boolean[] getMutableColumns()
-    public boolean getMutableColumns(final int index)
+    '''returns boolean\n\n
+    getMutableColumns()\n
+    getMutableColumns(final int index)\n
     '''
 def isMutableColumn():
-    '''public boolean isMutableColumn(final int index)
+    '''returns boolean\n\n
+    isMutableColumn(final int index)\n
     '''
 def getRequiredColumns():
-    '''public boolean[] getRequiredColumns()
-    public boolean getRequiredColumns(final int index)
+    '''returns boolean\n\n
+    getRequiredColumns()\n
+    getRequiredColumns(final int index)\n
     '''
 def isRequiredColumn():
-    '''public boolean isRequiredColumn(final int index)
+    '''returns boolean\n\n
+    isRequiredColumn(final int index)\n
     '''
 def isHiddenColumn():
-    '''public boolean isHiddenColumn(final int index)
+    '''returns boolean\n\n
+    isHiddenColumn(final int index)\n
     '''
 def isValidationEnabled():
-    '''public boolean isValidationEnabled()
+    '''returns boolean\n\n
+    isValidationEnabled()\n
     '''
 def setValidationEnabled():
-    '''public void setValidationEnabled(final boolean status)
+    '''returns None\n\n
+    setValidationEnabled(final boolean status)\n
     '''
 def getTaskData():
-    '''public String[][] getTaskData()
+    '''returns String[][]\n\n
+    getTaskData()\n
     '''
 def setTaskData():
-    '''public void setTaskData(final String[][] data)
+    '''returns None\n\n
+    setTaskData(final String[][] data)\n
     '''
 def validate():
-    '''public String[] validate()
+    '''returns String[]\n\n
+    validate()\n
     '''
 def getTaskMessages():
-    '''public AppDeploymentMessages getTaskMessages()
+    '''returns AppDeploymentMessages\n\n
+    getTaskMessages()\n
     '''
 def getCallerVersion():
-    '''public String getCallerVersion()
+    '''returns String\n\n
+    getCallerVersion()\n
     '''
 def getClientMajorVersion():
-    '''public int getClientMajorVersion()
+    '''returns int\n\n
+    getClientMajorVersion()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

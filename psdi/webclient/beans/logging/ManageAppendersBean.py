@@ -1,3 +1,4 @@
 def addAppenders():
-    '''public int addAppenders()
+    '''returns int\n\n
+    addAppenders()\n
     '''

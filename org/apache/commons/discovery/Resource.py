@@ -1,21 +1,24 @@
-def Resource():
-    '''public Resource(final String resourceName, final URL resource, final ClassLoader loader)
+def ():
+    '''returns Resource\n\n
+    (final String resourceName, final URL resource, final ClassLoader loader)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getResource():
-    '''public URL getResource()
+    '''returns URL\n\n
+    getResource()\n
     '''
 def getResourceAsStream():
-    '''public InputStream getResourceAsStream()
+    '''returns InputStream\n\n
+    getResourceAsStream()\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def toArray():
-    '''public static Resource[] toArray(final ResourceIterator iterator)
+    '''returns String\n\n
+    toString()\n
     '''

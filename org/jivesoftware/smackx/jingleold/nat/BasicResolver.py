@@ -1,9 +1,8 @@
-def resolve():
-    '''public synchronized void resolve(final JingleSession session)
-    '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''

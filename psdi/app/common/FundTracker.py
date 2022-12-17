@@ -1,9 +1,12 @@
-def FundTracker():
-    '''public FundTracker(final boolean history)
+def ():
+    '''returns FundTracker\n\n
+    (final boolean history)\n
     '''
 def getTotalUsed():
-    '''public double getTotalUsed(final String ponum)
+    '''returns double\n\n
+    getTotalUsed(final String ponum)\n
     '''
 def putFunds():
-    '''public void putFunds(final String ponum, final double value, final Mbo mbo)
+    '''returns None\n\n
+    putFunds(final String ponum, final double value, final Mbo mbo)\n
     '''

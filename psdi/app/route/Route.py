@@ -1,30 +1,40 @@
-def Route():
-    '''public Route(final MboSet ms)
+def ():
+    '''returns Route\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getIsDuplicate():
-    '''public boolean getIsDuplicate()
+    '''returns boolean\n\n
+    getIsDuplicate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def copyAssets():
-    '''public void copyAssets(final MboSetRemote assetset)
+    '''returns None\n\n
+    copyAssets(final MboSetRemote assetset)\n
     '''
 def copyLinearAssets():
-    '''public void copyLinearAssets(final MboSetRemote assetset)
+    '''returns None\n\n
+    copyLinearAssets(final MboSetRemote assetset)\n
     '''
 def copyLocations():
-    '''public void copyLocations(final MboSetRemote locationset)
+    '''returns None\n\n
+    copyLocations(final MboSetRemote locationset)\n
     '''

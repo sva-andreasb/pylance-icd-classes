@@ -1,22 +1,24 @@
-def updateAncestorRecords():
-    '''public static void updateAncestorRecords(final AncMbo pivot, final AncMbo parent)
-    public static void updateAncestorRecords(final AncMbo pivot)
-    '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def recorded():
-    '''public boolean recorded()
+    '''returns boolean\n\n
+    recorded()\n
     '''
-def HierarchyLevel():
-    '''public HierarchyLevel(final String key, final int level)
+def ():
+    '''returns HierarchyLevel\n\n
+    (final String key, final int level)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getLevel():
-    '''public int getLevel()
+    '''returns int\n\n
+    getLevel()\n
     '''

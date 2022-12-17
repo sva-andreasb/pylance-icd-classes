@@ -1,8 +1,10 @@
 ELEMENT = "String  \"close\""
 NAMESPACE = "String  \"http://jabber.org/protocol/ibb\""
-def Close():
-    '''public Close(final String sessionID)
+def ():
+    '''returns Close\n\n
+    (final String sessionID)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''

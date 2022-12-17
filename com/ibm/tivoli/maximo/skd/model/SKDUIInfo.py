@@ -1,51 +1,68 @@
-def SKDUIInfo():
-    '''public SKDUIInfo()
+def ():
+    '''returns SKDUIInfo\n\n
+    ()\n
     '''
 def getSKDUserLocaleData():
-    '''public SKDUserLocaleData getSKDUserLocaleData()
+    '''returns SKDUserLocaleData\n\n
+    getSKDUserLocaleData()\n
     '''
 def setSKDUserLocaleData():
-    '''public void setSKDUserLocaleData(final SKDUserLocaleData skdUserLocaleData)
+    '''returns None\n\n
+    setSKDUserLocaleData(final SKDUserLocaleData skdUserLocaleData)\n
     '''
 def getSKDResourceViewInfoSet():
-    '''public Set<ISKDResourceViewInfo> getSKDResourceViewInfoSet()
+    '''returns Set<ISKDResourceViewInfo>\n\n
+    getSKDResourceViewInfoSet()\n
     '''
 def setSKDResourceViewInfoMap():
-    '''public void setSKDResourceViewInfoMap(final Set<ISKDResourceViewInfo> skdResourceViewInfoSet)
+    '''returns None\n\n
+    setSKDResourceViewInfoMap(final Set<ISKDResourceViewInfo> skdResourceViewInfoSet)\n
     '''
 def getSKDAppletExtensionInfoSet():
-    '''public Set<SKDViewerAppletExtensionInfo> getSKDAppletExtensionInfoSet()
+    '''returns Set<SKDViewerAppletExtensionInfo>\n\n
+    getSKDAppletExtensionInfoSet()\n
     '''
 def setSKDDataGroupInfoSet():
-    '''public void setSKDDataGroupInfoSet(final Set<SKDDataGroupInfoSet> skdDataGroupInfoSet)
+    '''returns None\n\n
+    setSKDDataGroupInfoSet(final Set<SKDDataGroupInfoSet> skdDataGroupInfoSet)\n
     '''
 def getSKDDataGroupInfoSet():
-    '''public Set<SKDDataGroupInfoSet> getSKDDataGroupInfoSet()
+    '''returns Set<SKDDataGroupInfoSet>\n\n
+    getSKDDataGroupInfoSet()\n
     '''
 def setSKDAppletExtensionInfoSet():
-    '''public void setSKDAppletExtensionInfoSet(final Set<SKDViewerAppletExtensionInfo> skdAppletExtensionInfoSet)
+    '''returns None\n\n
+    setSKDAppletExtensionInfoSet(final Set<SKDViewerAppletExtensionInfo> skdAppletExtensionInfoSet)\n
     '''
 def isEAMSchedulerLicensePresent():
-    '''public boolean isEAMSchedulerLicensePresent()
+    '''returns boolean\n\n
+    isEAMSchedulerLicensePresent()\n
     '''
 def setEAMSchedulerLicensePresen():
-    '''public void setEAMSchedulerLicensePresen(final boolean eamSchedulerLicensePresent)
+    '''returns None\n\n
+    setEAMSchedulerLicensePresen(final boolean eamSchedulerLicensePresent)\n
     '''
 def isScheduler7510LicensePresent():
-    '''public boolean isScheduler7510LicensePresent()
+    '''returns boolean\n\n
+    isScheduler7510LicensePresent()\n
     '''
 def setScheduler7510LicensePresen():
-    '''public void setScheduler7510LicensePresen(final boolean scheduler7510LicensePresent)
+    '''returns None\n\n
+    setScheduler7510LicensePresen(final boolean scheduler7510LicensePresent)\n
     '''
 def isScheduler7520LicensePresent():
-    '''public boolean isScheduler7520LicensePresent()
+    '''returns boolean\n\n
+    isScheduler7520LicensePresent()\n
     '''
 def setScheduler7520LicensePresen():
-    '''public void setScheduler7520LicensePresen(final boolean scheduler7520LicensePresent)
+    '''returns None\n\n
+    setScheduler7520LicensePresen(final boolean scheduler7520LicensePresent)\n
     '''
 def getSkdAppInfo():
-    '''public SKDApplicationInfo getSkdAppInfo()
+    '''returns SKDApplicationInfo\n\n
+    getSkdAppInfo()\n
     '''
 def setSKDAppInfo():
-    '''public void setSKDAppInfo(final SKDApplicationInfo skdAppInfo)
+    '''returns None\n\n
+    setSKDAppInfo(final SKDApplicationInfo skdAppInfo)\n
     '''

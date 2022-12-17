@@ -1,13 +1,17 @@
-def SuffixLines():
-    '''public SuffixLines()
-    public SuffixLines(final Reader in)
+def ():
+    '''returns SuffixLines\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def setSuffix():
-    '''public void setSuffix(final String suffix)
+    '''returns None\n\n
+    setSuffix(final String suffix)\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''

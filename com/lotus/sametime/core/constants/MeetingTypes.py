@@ -1,15 +1,20 @@
-def MeetingTypes():
-    '''public MeetingTypes(final NdrInputStream ndrInputStream)
+def ():
+    '''returns MeetingTypes\n\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def equals():
-    '''public boolean equals(final MeetingTypes meetingTypes)
+    '''returns boolean\n\n
+    equals(final MeetingTypes meetingTypes)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''

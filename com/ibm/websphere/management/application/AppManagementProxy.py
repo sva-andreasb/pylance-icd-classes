@@ -1,148 +1,183 @@
-def getLocalProxy():
-    '''public static AppManagement getLocalProxy()
-    '''
-def getJMXProxyForClient():
-    '''public static AppManagement getJMXProxyForClient(final AdminClient adminClient)
-    '''
-def getJMXProxyForServer():
-    '''public static AppManagement getJMXProxyForServer()
-    '''
 def sendJMXEvent():
-    '''public void sendJMXEvent(final Object arg0)
-    public void sendJMXEvent(final String s, final Object arg0)
+    '''returns None\n\n
+    sendJMXEvent(final Object arg0)\n
+    sendJMXEvent(final String s, final Object arg0)\n
     '''
 def getGlobalSettings():
-    '''public Hashtable getGlobalSettings()
+    '''returns Hashtable\n\n
+    getGlobalSettings()\n
     '''
 def clusterMemberAdded():
-    '''public void clusterMemberAdded(final ObjectName arg0, final ObjectName arg1, final Hashtable arg2, final String arg3)
+    '''returns None\n\n
+    clusterMemberAdded(final ObjectName arg0, final ObjectName arg1, final Hashtable arg2, final String arg3)\n
     '''
 def changeServerToCluster():
-    '''public void changeServerToCluster(final ObjectName arg0, final ObjectName arg1, final Hashtable arg2, final String arg3)
+    '''returns None\n\n
+    changeServerToCluster(final ObjectName arg0, final ObjectName arg1, final Hashtable arg2, final String arg3)\n
     '''
 def removeAllAppsFromCluster():
-    '''public void removeAllAppsFromCluster(final ObjectName arg0, final Hashtable arg1, final String arg2)
+    '''returns None\n\n
+    removeAllAppsFromCluster(final ObjectName arg0, final Hashtable arg1, final String arg2)\n
     '''
 def removeAllAppsFromServer():
-    '''public void removeAllAppsFromServer(final ObjectName arg0, final Hashtable arg1, final String arg2)
+    '''returns None\n\n
+    removeAllAppsFromServer(final ObjectName arg0, final Hashtable arg1, final String arg2)\n
     '''
 def removeAllAppsFromNode():
-    '''public void removeAllAppsFromNode(final String arg0, final String arg1, final Hashtable arg2, final String arg3)
+    '''returns None\n\n
+    removeAllAppsFromNode(final String arg0, final String arg1, final Hashtable arg2, final String arg3)\n
     '''
 def checkIfAppExists():
-    '''public boolean checkIfAppExists(final String arg0, final Hashtable arg1, final String arg2)
+    '''returns boolean\n\n
+    checkIfAppExists(final String arg0, final Hashtable arg1, final String arg2)\n
     '''
 def installStandaloneRAR():
-    '''public void installStandaloneRAR(final String arg0, final Hashtable arg1, final String arg2)
+    '''returns None\n\n
+    installStandaloneRAR(final String arg0, final Hashtable arg1, final String arg2)\n
     '''
 def compareSecurityPolicy():
-    '''public Vector compareSecurityPolicy(final String arg0, final Hashtable arg1, final String arg2)
+    '''returns Vector\n\n
+    compareSecurityPolicy(final String arg0, final Hashtable arg1, final String arg2)\n
     '''
 def listModules():
-    '''public Object listModules(final String arg0, final Hashtable arg1, final String arg2)
+    '''returns Object\n\n
+    listModules(final String arg0, final Hashtable arg1, final String arg2)\n
     '''
 def listApplications():
-    '''public Vector listApplications(final Hashtable arg0, final String arg1)
-    public Vector listApplications(final String targetScope, final Hashtable props, final String sessionID)
+    '''returns Vector\n\n
+    listApplications(final Hashtable arg0, final String arg1)\n
+    listApplications(final String targetScope, final Hashtable props, final String sessionID)\n
     '''
 def extractDDL():
-    '''public void extractDDL(final String arg0, final String arg1, final String arg2, final Hashtable arg3, final String arg4)
+    '''returns None\n\n
+    extractDDL(final String arg0, final String arg1, final String arg2, final Hashtable arg3, final String arg4)\n
     '''
 def exportApplication():
-    '''public void exportApplication(final String arg0, final String arg1, final Hashtable arg2, final String arg3)
+    '''returns None\n\n
+    exportApplication(final String arg0, final String arg1, final Hashtable arg2, final String arg3)\n
     '''
 def moveModule():
-    '''public void moveModule(final String arg0, final Hashtable arg1, final String arg2, final ObjectName arg3, final String arg4)
+    '''returns None\n\n
+    moveModule(final String arg0, final Hashtable arg1, final String arg2, final ObjectName arg3, final String arg4)\n
     '''
 def setModuleInfo():
-    '''public void setModuleInfo(final String arg0, final Hashtable arg1, final String arg2, final String arg3, final Vector arg4)
+    '''returns None\n\n
+    setModuleInfo(final String arg0, final Hashtable arg1, final String arg2, final String arg3, final Vector arg4)\n
     '''
 def setApplicationInfo():
-    '''public void setApplicationInfo(final String arg0, final Hashtable arg1, final String arg2, final Vector arg3)
+    '''returns None\n\n
+    setApplicationInfo(final String arg0, final Hashtable arg1, final String arg2, final Vector arg3)\n
     '''
 def getModuleInfo():
-    '''public Vector getModuleInfo(final String arg0, final Hashtable arg1, final String arg2, final String arg3)
+    '''returns Vector\n\n
+    getModuleInfo(final String arg0, final Hashtable arg1, final String arg2, final String arg3)\n
     '''
 def getApplicationInfo():
-    '''public Vector getApplicationInfo(final String arg0, final Hashtable arg1, final String arg2)
+    '''returns Vector\n\n
+    getApplicationInfo(final String arg0, final Hashtable arg1, final String arg2)\n
     '''
 def redeployApplication():
-    '''public void redeployApplication(final String localEarPath, final String arg1, final Hashtable properties, final String arg3)
+    '''returns None\n\n
+    redeployApplication(final String localEarPath, final String arg1, final Hashtable properties, final String arg3)\n
     '''
 def redeployApplicationLocal():
-    '''public void redeployApplicationLocal(final String arg0, final String arg1, final Hashtable arg2, final AppNotification.Listener arg3, final String arg4)
+    '''returns None\n\n
+    redeployApplicationLocal(final String arg0, final String arg1, final Hashtable arg2, final AppNotification.Listener arg3, final String arg4)\n
     '''
 def uninstallApplication():
-    '''public void uninstallApplication(final String arg0, final Hashtable arg1, final String arg2)
+    '''returns None\n\n
+    uninstallApplication(final String arg0, final Hashtable arg1, final String arg2)\n
     '''
 def uninstallApplicationLocal():
-    '''public void uninstallApplicationLocal(final String arg0, final Hashtable arg1, final AppNotification.Listener arg2, final String arg3)
-    public void uninstallApplicationLocal(final String arg0, final Hashtable arg1, final AppNotification.Listener arg2)
+    '''returns None\n\n
+    uninstallApplicationLocal(final String arg0, final Hashtable arg1, final AppNotification.Listener arg2, final String arg3)\n
+    uninstallApplicationLocal(final String arg0, final Hashtable arg1, final AppNotification.Listener arg2)\n
     '''
 def installApplicationLocal():
-    '''public void installApplicationLocal(final String arg0, final String arg1, final Hashtable arg2, final AppNotification.Listener arg3, final String arg4)
-    public void installApplicationLocal(final String arg0, final String arg1, final Hashtable arg2, final AppNotification.Listener arg3)
+    '''returns None\n\n
+    installApplicationLocal(final String arg0, final String arg1, final Hashtable arg2, final AppNotification.Listener arg3, final String arg4)\n
+    installApplicationLocal(final String arg0, final String arg1, final Hashtable arg2, final AppNotification.Listener arg3)\n
     '''
 def installApplication():
-    '''public void installApplication(final String localEarPath, final String appName, final Hashtable properties, final String workspaceID)
-    public void installApplication(final String localEarPath, final Hashtable properties, final String workspaceID)
+    '''returns None\n\n
+    installApplication(final String localEarPath, final String appName, final Hashtable properties, final String workspaceID)\n
+    installApplication(final String localEarPath, final Hashtable properties, final String workspaceID)\n
     '''
 def updateAccessIDs():
-    '''public void updateAccessIDs(final String appName, final Boolean bAll, final Hashtable prefs, final String wID)
+    '''returns None\n\n
+    updateAccessIDs(final String appName, final Boolean bAll, final Hashtable prefs, final String wID)\n
     '''
 def deleteUserAndGroupEntries():
-    '''public void deleteUserAndGroupEntries(final String appName, final Hashtable prefs, final String wID)
+    '''returns None\n\n
+    deleteUserAndGroupEntries(final String appName, final Hashtable prefs, final String wID)\n
     '''
 def startApplication():
-    '''public String startApplication(final String appName, final Hashtable prefs, final String wID)
-    public String startApplication(final String appName, final String target, final Hashtable prefs, final String wID)
+    '''returns String\n\n
+    startApplication(final String appName, final Hashtable prefs, final String wID)\n
+    startApplication(final String appName, final String target, final Hashtable prefs, final String wID)\n
     '''
 def stopApplication():
-    '''public String stopApplication(final String appName, final Hashtable prefs, final String wID)
-    public String stopApplication(final String appName, final String target, final Hashtable prefs, final String wID)
+    '''returns String\n\n
+    stopApplication(final String appName, final Hashtable prefs, final String wID)\n
+    stopApplication(final String appName, final String target, final Hashtable prefs, final String wID)\n
     '''
 def publishWSDL():
-    '''public void publishWSDL(final String arg0, final String arg1, final Hashtable arg2, final String arg3)
+    '''returns None\n\n
+    publishWSDL(final String arg0, final String arg1, final Hashtable arg2, final String arg3)\n
     '''
 def searchJNDIReferences():
-    '''public Hashtable searchJNDIReferences(final List sList, final String nodes, final Hashtable prefs, final String wID)
+    '''returns Hashtable\n\n
+    searchJNDIReferences(final List sList, final String nodes, final Hashtable prefs, final String wID)\n
     '''
 def updateApplication():
-    '''public void updateApplication(final String appName, final String contentURI, final String pathToContents, final String operation, final Hashtable properties, final String sessionID)
+    '''returns None\n\n
+    updateApplication(final String appName, final String contentURI, final String pathToContents, final String operation, final Hashtable properties, final String sessionID)\n
     '''
 def updateApplicationLocal():
-    '''public void updateApplicationLocal(final String appName, final String contentURI, final String pathToContents, final String operation, final Hashtable properties, final AppNotification.Listener notf, final String sessionID)
+    '''returns None\n\n
+    updateApplicationLocal(final String appName, final String contentURI, final String pathToContents, final String operation, final Hashtable properties, final AppNotification.Listener notf, final String sessionID)\n
     '''
 def listURIs():
-    '''public List listURIs(final String appName, final String moduleURI, final Hashtable prefs, final String sessionID)
+    '''returns List\n\n
+    listURIs(final String appName, final String moduleURI, final Hashtable prefs, final String sessionID)\n
     '''
 def updateCluster():
-    '''public void updateCluster(final String[] arg0, final Integer arg1, final Hashtable arg2, final String arg3)
+    '''returns None\n\n
+    updateCluster(final String[] arg0, final Integer arg1, final Hashtable arg2, final String arg3)\n
     '''
 def updateClusterLocal():
-    '''public void updateClusterLocal(final String[] arg0, final Integer arg1, final Hashtable arg2, final String arg3, final AppNotification.Listener arg4)
+    '''returns None\n\n
+    updateClusterLocal(final String[] arg0, final Integer arg1, final Hashtable arg2, final String arg3, final AppNotification.Listener arg4)\n
     '''
 def searchResources():
-    '''public List searchResources(final String appName, final Hashtable prefs, final String wID)
+    '''returns List\n\n
+    searchResources(final String appName, final Hashtable prefs, final String wID)\n
     '''
 def convertRefToConfigID():
-    '''public List convertRefToConfigID(final String appName, final List resources, final Hashtable prefs, final String wID)
+    '''returns List\n\n
+    convertRefToConfigID(final String appName, final List resources, final Hashtable prefs, final String wID)\n
     '''
 def getApplicationContents():
-    '''public byte[] getApplicationContents(final String appName, final String uri, final Hashtable prefs, final String wID)
+    '''returns byte[]\n\n
+    getApplicationContents(final String appName, final String uri, final Hashtable prefs, final String wID)\n
     '''
 def getDistributionStatus():
-    '''public void getDistributionStatus(final String appName, final Hashtable prefs, final String wID)
+    '''returns None\n\n
+    getDistributionStatus(final String appName, final Hashtable prefs, final String wID)\n
     '''
 def getAppAssociation():
-    '''public String[] getAppAssociation(final String scope, final String retVal, final Hashtable prefs, final String wID)
+    '''returns String[]\n\n
+    getAppAssociation(final String scope, final String retVal, final Hashtable prefs, final String wID)\n
     '''
 def getEditionInfo():
-    '''public EditionInfo[] getEditionInfo(final String appName, final String edition, final Hashtable prefs, final String wID)
+    '''returns EditionInfo[]\n\n
+    getEditionInfo(final String appName, final String edition, final Hashtable prefs, final String wID)\n
     '''
 def setEditionInfo():
-    '''public void setEditionInfo(final EditionInfo[] info, final Hashtable prefs, final String wID)
+    '''returns None\n\n
+    setEditionInfo(final EditionInfo[] info, final Hashtable prefs, final String wID)\n
     '''
 def listSystemApplications():
-    '''public Vector listSystemApplications(final Hashtable prefs, final String sessionID)
+    '''returns Vector\n\n
+    listSystemApplications(final Hashtable prefs, final String sessionID)\n
     '''

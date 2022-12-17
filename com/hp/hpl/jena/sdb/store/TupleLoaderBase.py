@@ -1,18 +1,24 @@
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def getTableDesc():
-    '''public TableDesc getTableDesc()
+    '''returns TableDesc\n\n
+    getTableDesc()\n
     '''
 def setTableDesc():
-    '''public void setTableDesc(final TableDesc tDesc)
+    '''returns None\n\n
+    setTableDesc(final TableDesc tDesc)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

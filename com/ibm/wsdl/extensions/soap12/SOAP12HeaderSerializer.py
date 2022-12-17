@@ -1,7 +1,9 @@
 serialVersionUID = "long  1L"
 def marshall():
-    '''public void marshall(final Class clazz, final QName qName, final ExtensibilityElement extensibilityElement, final PrintWriter printWriter, final Definition definition, final ExtensionRegistry extensionRegistry)
+    '''returns None\n\n
+    marshall(final Class clazz, final QName qName, final ExtensibilityElement extensibilityElement, final PrintWriter printWriter, final Definition definition, final ExtensionRegistry extensionRegistry)\n
     '''
 def unmarshall():
-    '''public ExtensibilityElement unmarshall(final Class clazz, final QName qName, final Element element, final Definition definition, final ExtensionRegistry extensionRegistry)
+    '''returns ExtensibilityElement\n\n
+    unmarshall(final Class clazz, final QName qName, final Element element, final Definition definition, final ExtensionRegistry extensionRegistry)\n
     '''

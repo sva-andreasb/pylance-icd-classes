@@ -1,30 +1,35 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TimeWindowTableTreeModel():
-    '''public TimeWindowTableTreeModel()
-    public TimeWindowTableTreeModel(final TimeWindowJTable jTable)
-    public TimeWindowTableTreeModel(final TimeWindowJTable jTable, final TimeWindowModel model)
+def ():
+    '''returns TimeWindowTableTreeModel\n\n
+    ()\n
+    (final TimeWindowJTable jTable)\n
+    (final TimeWindowJTable jTable, final TimeWindowModel model)\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int column)
+    '''returns String\n\n
+    getColumnName(final int column)\n
     '''
 def getValueAt():
-    '''public Object getValueAt(final Object node, final int column)
+    '''returns Object\n\n
+    getValueAt(final Object node, final int column)\n
     '''
 def getChild():
-    '''public Object getChild(final Object parent, final int index)
+    '''returns Object\n\n
+    getChild(final Object parent, final int index)\n
     '''
 def getChildCount():
-    '''public int getChildCount(final Object parent)
+    '''returns int\n\n
+    getChildCount(final Object parent)\n
     '''
 def isCellEditable():
-    '''public boolean isCellEditable(final Object node, final int column)
+    '''returns boolean\n\n
+    isCellEditable(final Object node, final int column)\n
     '''
 def setValueAt():
-    '''public void setValueAt(final Object aValue, final Object node, final int column)
-    '''
-def getEnforceColumnIndex():
-    '''public static int getEnforceColumnIndex()
+    '''returns None\n\n
+    setValueAt(final Object aValue, final Object node, final int column)\n
     '''

@@ -1,3 +1,4 @@
-def InspFormScriptSet():
-    '''public InspFormScriptSet(final MboServerInterface ms)
+def ():
+    '''returns InspFormScriptSet\n\n
+    (final MboServerInterface ms)\n
     '''

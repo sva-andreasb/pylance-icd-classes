@@ -1,10 +1,13 @@
-def DeepNodeListImpl():
-    '''public DeepNodeListImpl(final NodeImpl rootNode, final String tagName)
-    public DeepNodeListImpl(final NodeImpl nodeImpl, final String s, final String s2)
+def ():
+    '''returns DeepNodeListImpl\n\n
+    (final NodeImpl rootNode, final String tagName)\n
+    (final NodeImpl nodeImpl, final String s, final String s2)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public Node item(final int index)
+    '''returns Node\n\n
+    item(final int index)\n
     '''

@@ -1,16 +1,21 @@
-def LogSQL():
-    '''public LogSQL(final PrintStream outFile)
-    public LogSQL(final PrintStream logStream, final boolean includeQueries)
+def ():
+    '''returns LogSQL\n\n
+    (final PrintStream outFile)\n
+    (final PrintStream logStream, final boolean includeQueries)\n
     '''
 def isIncludingQueries():
-    '''public boolean isIncludingQueries()
+    '''returns boolean\n\n
+    isIncludingQueries()\n
     '''
 def setIncludingQueries():
-    '''public void setIncludingQueries(final boolean includingQueries)
+    '''returns None\n\n
+    setIncludingQueries(final boolean includingQueries)\n
     '''
 def doAppend():
-    '''public boolean doAppend(final LoggingEvent event)
+    '''returns boolean\n\n
+    doAppend(final LoggingEvent event)\n
     '''
 def info():
-    '''public boolean info(final String loggerName, final Object msg)
+    '''returns boolean\n\n
+    info(final String loggerName, final Object msg)\n
     '''

@@ -1,33 +1,40 @@
-def EllipticalArcTo():
-    '''public EllipticalArcTo(final RowType row)
+def ():
+    '''returns EllipticalArcTo\n\n
+    (final RowType row)\n
     '''
 def getDel():
-    '''public boolean getDel()
+    '''returns boolean\n\n
+    getDel()\n
     '''
 def getX():
-    '''public Double getX()
+    '''returns Double\n\n
+    getX()\n
     '''
 def getY():
-    '''public Double getY()
+    '''returns Double\n\n
+    getY()\n
     '''
 def getA():
-    '''public Double getA()
+    '''returns Double\n\n
+    getA()\n
     '''
 def getB():
-    '''public Double getB()
+    '''returns Double\n\n
+    getB()\n
     '''
 def getC():
-    '''public Double getC()
+    '''returns Double\n\n
+    getC()\n
     '''
 def getD():
-    '''public Double getD()
+    '''returns Double\n\n
+    getD()\n
     '''
 def setupMaster():
-    '''public void setupMaster(final GeometryRow row)
+    '''returns None\n\n
+    setupMaster(final GeometryRow row)\n
     '''
 def addToPath():
-    '''public void addToPath(final Path2D.Double path, final XDGFShape parent)
-    '''
-def createEllipticalArc():
-    '''public static void createEllipticalArc(double x, double y, double a, double b, final double c, final double d, final Path2D.Double path)
+    '''returns None\n\n
+    addToPath(final Path2D.Double path, final XDGFShape parent)\n
     '''

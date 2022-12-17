@@ -1,6 +1,8 @@
-def CharacterConverterMSOLISO2022JPHW():
-    '''public CharacterConverterMSOLISO2022JPHW()
+def ():
+    '''returns CharacterConverterMSOLISO2022JPHW\n\n
+    ()\n
     '''
 def toISO2022JPStringMain():
-    '''public byte[] toISO2022JPStringMain(final char[] array, final int n, final byte[] array2, final int n2, final int[] array3, final CharacterConverterBehavior characterConverterBehavior)
+    '''returns byte[]\n\n
+    toISO2022JPStringMain(final char[] array, final int n, final byte[] array2, final int n2, final int[] array3, final CharacterConverterBehavior characterConverterBehavior)\n
     '''

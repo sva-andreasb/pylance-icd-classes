@@ -1,3 +1,4 @@
 def throw_error():
-    '''public void throw_error(final int i)
+    '''returns None\n\n
+    throw_error(final int i)\n
     '''

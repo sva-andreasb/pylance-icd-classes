@@ -1,34 +1,44 @@
-def EncryptedGetObjectRequest():
-    '''public EncryptedGetObjectRequest(final String bucketName, final String key)
-    public EncryptedGetObjectRequest(final String bucketName, final String key, final String versionId)
-    public EncryptedGetObjectRequest(final S3ObjectId s3ObjectId)
-    public EncryptedGetObjectRequest(final String bucketName, final String key, final boolean isRequesterPays)
+def ():
+    '''returns EncryptedGetObjectRequest\n\n
+    (final String bucketName, final String key)\n
+    (final String bucketName, final String key, final String versionId)\n
+    (final S3ObjectId s3ObjectId)\n
+    (final String bucketName, final String key, final boolean isRequesterPays)\n
     '''
 def getExtraMaterialDescription():
-    '''public ExtraMaterialsDescription getExtraMaterialDescription()
+    '''returns ExtraMaterialsDescription\n\n
+    getExtraMaterialDescription()\n
     '''
 def setExtraMaterialDescription():
-    '''public void setExtraMaterialDescription(final ExtraMaterialsDescription supplemental)
+    '''returns None\n\n
+    setExtraMaterialDescription(final ExtraMaterialsDescription supplemental)\n
     '''
 def withExtraMaterialsDescription():
-    '''public EncryptedGetObjectRequest withExtraMaterialsDescription(final ExtraMaterialsDescription supplemental)
-    public EncryptedGetObjectRequest withExtraMaterialsDescription(final Map<String, String> supplemental)
+    '''returns EncryptedGetObjectRequest\n\n
+    withExtraMaterialsDescription(final ExtraMaterialsDescription supplemental)\n
+    withExtraMaterialsDescription(final Map<String, String> supplemental)\n
     '''
 def getInstructionFileSuffix():
-    '''public String getInstructionFileSuffix()
+    '''returns String\n\n
+    getInstructionFileSuffix()\n
     '''
 def setInstructionFileSuffix():
-    '''public void setInstructionFileSuffix(final String instructionFileSuffix)
+    '''returns None\n\n
+    setInstructionFileSuffix(final String instructionFileSuffix)\n
     '''
 def withInstructionFileSuffix():
-    '''public EncryptedGetObjectRequest withInstructionFileSuffix(final String instructionFileSuffix)
+    '''returns EncryptedGetObjectRequest\n\n
+    withInstructionFileSuffix(final String instructionFileSuffix)\n
     '''
 def isKeyWrapExpected():
-    '''public boolean isKeyWrapExpected()
+    '''returns boolean\n\n
+    isKeyWrapExpected()\n
     '''
 def setKeyWrapExpected():
-    '''public void setKeyWrapExpected(final boolean keyWrapExpected)
+    '''returns None\n\n
+    setKeyWrapExpected(final boolean keyWrapExpected)\n
     '''
 def withKeyWrapExpected():
-    '''public EncryptedGetObjectRequest withKeyWrapExpected(final boolean keyWrapExpected)
+    '''returns EncryptedGetObjectRequest\n\n
+    withKeyWrapExpected(final boolean keyWrapExpected)\n
     '''

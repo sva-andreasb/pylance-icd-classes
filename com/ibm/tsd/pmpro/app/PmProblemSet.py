@@ -1,3 +1,4 @@
-def PmProblemSet():
-    '''public PmProblemSet(final MboServerInterface ms)
+def ():
+    '''returns PmProblemSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def FldWOWorkLocation():
-    '''public FldWOWorkLocation(final MboValue mbv)
+def ():
+    '''returns FldWOWorkLocation\n\n
+    (final MboValue mbv)\n
     '''

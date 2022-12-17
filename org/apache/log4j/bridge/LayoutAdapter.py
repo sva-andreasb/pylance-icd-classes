@@ -1,24 +1,28 @@
-def LayoutAdapter():
-    '''public LayoutAdapter(final org.apache.log4j.Layout layout)
+def ():
+    '''returns LayoutAdapter\n\n
+    (final org.apache.log4j.Layout layout)\n
     '''
 def getFooter():
-    '''public byte[] getFooter()
+    '''returns byte[]\n\n
+    getFooter()\n
     '''
 def getHeader():
-    '''public byte[] getHeader()
+    '''returns byte[]\n\n
+    getHeader()\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray(final LogEvent event)
+    '''returns byte[]\n\n
+    toByteArray(final LogEvent event)\n
     '''
 def toSerializable():
-    '''public String toSerializable(final LogEvent event)
+    '''returns String\n\n
+    toSerializable(final LogEvent event)\n
     '''
 def getContentType():
-    '''public String getContentType()
-    '''
-def getContentFormat():
-    '''public Map<String, String> getContentFormat()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def encode():
-    '''public void encode(final LogEvent event, final ByteBufferDestination destination)
+    '''returns None\n\n
+    encode(final LogEvent event, final ByteBufferDestination destination)\n
     '''

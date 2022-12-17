@@ -1,3 +1,4 @@
-def PlusPCompanySet():
-    '''public PlusPCompanySet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPCompanySet\n\n
+    (final MboServerInterface arg0)\n
     '''

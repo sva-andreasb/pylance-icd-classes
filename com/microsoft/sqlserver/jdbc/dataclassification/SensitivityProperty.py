@@ -1,9 +1,12 @@
-def SensitivityProperty():
-    '''public SensitivityProperty(final Label label, final InformationType informationType)
+def ():
+    '''returns SensitivityProperty\n\n
+    (final Label label, final InformationType informationType)\n
     '''
 def getLabel():
-    '''public Label getLabel()
+    '''returns Label\n\n
+    getLabel()\n
     '''
 def getInformationType():
-    '''public InformationType getInformationType()
+    '''returns InformationType\n\n
+    getInformationType()\n
     '''

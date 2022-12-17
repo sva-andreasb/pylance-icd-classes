@@ -1,42 +1,48 @@
-def uniqueIndexedCollection():
-    '''public static <K, C> IndexedCollection<K, C> uniqueIndexedCollection(final Collection<C> coll, final Transformer<C, K> keyTransformer)
-    '''
-def nonUniqueIndexedCollection():
-    '''public static <K, C> IndexedCollection<K, C> nonUniqueIndexedCollection(final Collection<C> coll, final Transformer<C, K> keyTransformer)
-    '''
-def IndexedCollection():
-    '''public IndexedCollection(final Collection<C> coll, final Transformer<C, K> keyTransformer, final MultiMap<K, C> map, final boolean uniqueIndex)
+def ():
+    '''returns IndexedCollection\n\n
+    (final Collection<C> coll, final Transformer<C, K> keyTransformer, final MultiMap<K, C> map, final boolean uniqueIndex)\n
     '''
 def add():
-    '''public boolean add(final C object)
+    '''returns boolean\n\n
+    add(final C object)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends C> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends C> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final Object object)
+    '''returns boolean\n\n
+    contains(final Object object)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def get():
-    '''public C get(final K key)
+    '''returns C\n\n
+    get(final K key)\n
     '''
 def values():
-    '''public Collection<C> values(final K key)
+    '''returns Collection<C>\n\n
+    values(final K key)\n
     '''
 def reindex():
-    '''public void reindex()
+    '''returns None\n\n
+    reindex()\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
+    '''returns boolean\n\n
+    remove(final Object object)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''

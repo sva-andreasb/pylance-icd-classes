@@ -1,39 +1,47 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 RC_OK = "int  0"
-def IloOdmProjectCmdDeployer():
-    '''public IloOdmProjectCmdDeployer()
+def ():
+    '''returns IloOdmProjectCmdDeployer\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute(final String... args)
-    public int execute(final List<String> args)
+    '''returns int\n\n
+    execute(final String... args)\n
+    execute(final List<String> args)\n
     '''
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''
 def checkServerTrusted():
-    '''public void checkServerTrusted(final X509Certificate[] chain, final String algo)
+    '''returns None\n\n
+    checkServerTrusted(final X509Certificate[] chain, final String algo)\n
     '''
 def checkClientTrusted():
-    '''public void checkClientTrusted(final X509Certificate[] arg0, final String arg1)
+    '''returns None\n\n
+    checkClientTrusted(final X509Certificate[] arg0, final String arg1)\n
     '''
 def taskSubmitted():
-    '''public void taskSubmitted(final IloTaskEvent evt)
+    '''returns None\n\n
+    taskSubmitted(final IloTaskEvent evt)\n
     '''
 def taskStarted():
-    '''public void taskStarted(final IloTaskEvent evt)
+    '''returns None\n\n
+    taskStarted(final IloTaskEvent evt)\n
     '''
 def completionChanged():
-    '''public void completionChanged(final IloTaskCompletionEvent evt)
+    '''returns None\n\n
+    completionChanged(final IloTaskCompletionEvent evt)\n
     '''
 def taskCompleted():
-    '''public void taskCompleted(final IloTaskEvent evt)
+    '''returns None\n\n
+    taskCompleted(final IloTaskEvent evt)\n
     '''
 def taskCancelled():
-    '''public void taskCancelled(final IloTaskEvent evt)
+    '''returns None\n\n
+    taskCancelled(final IloTaskEvent evt)\n
     '''
 def taskCancelledbyOtherUser():
-    '''public void taskCancelledbyOtherUser(final IloTaskEvent evt)
-    '''
-def setOplFactoryDebugMode():
-    '''public static void setOplFactoryDebugMode(final boolean debugMode)
+    '''returns None\n\n
+    taskCancelledbyOtherUser(final IloTaskEvent evt)\n
     '''

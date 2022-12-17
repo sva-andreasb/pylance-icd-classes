@@ -1,3 +1,4 @@
-def SKDLaborHrs():
-    '''public SKDLaborHrs(final MboSet ms)
+def ():
+    '''returns SKDLaborHrs\n\n
+    (final MboSet ms)\n
     '''

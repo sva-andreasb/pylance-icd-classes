@@ -1,9 +1,8 @@
-def HttpServer():
-    '''public HttpServer(final int port)
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns HttpServer\n\n
+    (final int port)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

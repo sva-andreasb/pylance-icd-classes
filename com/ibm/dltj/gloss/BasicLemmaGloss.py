@@ -1,29 +1,38 @@
-def BasicLemmaGloss():
-    '''public BasicLemmaGloss()
-    public BasicLemmaGloss(final String s)
+def ():
+    '''returns BasicLemmaGloss\n\n
+    ()\n
+    (final String s)\n
     '''
 def getLemma():
-    '''public void getLemma(final CharacterIterator characterIterator, final int index, final int n, final StringBuffer sb)
-    public String getLemma(final CharacterIterator characterIterator, final int n, final int n2)
+    '''returns String\n\n
+    getLemma(final CharacterIterator characterIterator, final int index, final int n, final StringBuffer sb)\n
+    getLemma(final CharacterIterator characterIterator, final int n, final int n2)\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final BasicLemmaGloss basicLemmaGloss)
+    '''returns int\n\n
+    compareTo(final BasicLemmaGloss basicLemmaGloss)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getMinSourceLength():
-    '''public int getMinSourceLength()
+    '''returns int\n\n
+    getMinSourceLength()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

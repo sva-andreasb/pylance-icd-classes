@@ -1,14 +1,9 @@
-def ImageWriterRegistry():
-    '''public ImageWriterRegistry()
-    public ImageWriterRegistry(final Properties preferredOrder)
-    '''
-def getInstance():
-    '''public static ImageWriterRegistry getInstance()
+def ():
+    '''returns ImageWriterRegistry\n\n
+    ()\n
+    (final Properties preferredOrder)\n
     '''
 def register():
-    '''public void register(final ImageWriter writer, final int priority)
-    public synchronized void register(final ImageWriter writer)
-    '''
-def getWriterFor():
-    '''public synchronized ImageWriter getWriterFor(final String mime)
+    '''returns None\n\n
+    register(final ImageWriter writer, final int priority)\n
     '''

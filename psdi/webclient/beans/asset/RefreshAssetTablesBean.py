@@ -1,9 +1,8 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def filterrows():
-    '''public int filterrows()
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns int\n\n
+    filterrows()\n
     '''

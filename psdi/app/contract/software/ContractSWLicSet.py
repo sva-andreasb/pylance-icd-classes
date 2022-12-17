@@ -1,3 +1,4 @@
-def ContractSWLicSet():
-    '''public ContractSWLicSet(final MboServerInterface ms)
+def ():
+    '''returns ContractSWLicSet\n\n
+    (final MboServerInterface ms)\n
     '''

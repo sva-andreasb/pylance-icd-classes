@@ -1,34 +1,45 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloDefaultControllerFactory():
-    '''public IloDefaultControllerFactory()
+def ():
+    '''returns IloDefaultControllerFactory\n\n
+    ()\n
     '''
 def makeController():
-    '''public IloCplexController makeController()
+    '''returns IloCplexController\n\n
+    makeController()\n
     '''
 def enableRelaxationEpsilon():
-    '''public void enableRelaxationEpsilon()
+    '''returns None\n\n
+    enableRelaxationEpsilon()\n
     '''
 def disableRelaxationEpsilon():
-    '''public void disableRelaxationEpsilon()
+    '''returns None\n\n
+    disableRelaxationEpsilon()\n
     '''
 def enableRelaxationMessage():
-    '''public void enableRelaxationMessage()
+    '''returns None\n\n
+    enableRelaxationMessage()\n
     '''
 def disableRelaxationMessage():
-    '''public void disableRelaxationMessage()
+    '''returns None\n\n
+    disableRelaxationMessage()\n
     '''
 def enableRelaxationPreference():
-    '''public void enableRelaxationPreference()
+    '''returns None\n\n
+    enableRelaxationPreference()\n
     '''
 def disableRelaxationPreference():
-    '''public void disableRelaxationPreference()
+    '''returns None\n\n
+    disableRelaxationPreference()\n
     '''
 def enableExplanationPriority():
-    '''public void enableExplanationPriority()
+    '''returns None\n\n
+    enableExplanationPriority()\n
     '''
 def disableExplanationPriority():
-    '''public void disableExplanationPriority()
+    '''returns None\n\n
+    disableExplanationPriority()\n
     '''
 def disableXMLRequirementDescription():
-    '''public void disableXMLRequirementDescription()
+    '''returns None\n\n
+    disableXMLRequirementDescription()\n
     '''

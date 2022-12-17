@@ -1,8 +1,6 @@
-def IllegalIcuArgumentException():
-    '''public IllegalIcuArgumentException(final String errorMessage)
-    public IllegalIcuArgumentException(final Throwable cause)
-    public IllegalIcuArgumentException(final String errorMessage, final Throwable cause)
-    '''
-def initCause():
-    '''public synchronized IllegalIcuArgumentException initCause(final Throwable cause)
+def ():
+    '''returns IllegalIcuArgumentException\n\n
+    (final String errorMessage)\n
+    (final Throwable cause)\n
+    (final String errorMessage, final Throwable cause)\n
     '''

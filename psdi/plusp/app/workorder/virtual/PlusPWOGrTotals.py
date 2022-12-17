@@ -1,3 +1,4 @@
-def PlusPWOGrTotals():
-    '''public PlusPWOGrTotals(final MboSet ms)
+def ():
+    '''returns PlusPWOGrTotals\n\n
+    (final MboSet ms)\n
     '''

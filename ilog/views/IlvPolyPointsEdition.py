@@ -1,52 +1,46 @@
-def IlvPolyPointsEdition():
-    '''public IlvPolyPointsEdition()
+def ():
+    '''returns IlvPolyPointsEdition\n\n
+    ()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getCursor():
-    '''public Cursor getCursor()
+    '''returns Cursor\n\n
+    getCursor()\n
     '''
 def setCursor():
-    '''public void setCursor(final Cursor j)
-    '''
-def allowPointAddition():
-    '''public final boolean allowPointAddition()
-    public final void allowPointAddition(final boolean k)
-    '''
-def allowPointRemoval():
-    '''public final boolean allowPointRemoval()
-    public final void allowPointRemoval(final boolean l)
+    '''returns None\n\n
+    setCursor(final Cursor j)\n
     '''
 def setOpaqueMode():
-    '''public void setOpaqueMode(final boolean m)
+    '''returns None\n\n
+    setOpaqueMode(final boolean m)\n
     '''
 def isOpaqueMode():
-    '''public boolean isOpaqueMode()
-    '''
-def setAddRemovePointModifier():
-    '''public static void setAddRemovePointModifier(final int g)
-    '''
-def getAddRemovePointModifier():
-    '''public static int getAddRemovePointModifier()
-    '''
-def getAddRemovePointModifierEx():
-    '''public static int getAddRemovePointModifierEx()
+    '''returns boolean\n\n
+    isOpaqueMode()\n
     '''
 def processEvent():
-    '''public boolean processEvent(final IlvGraphic ilvGraphic, final AWTEvent awtEvent, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns boolean\n\n
+    processEvent(final IlvGraphic ilvGraphic, final AWTEvent awtEvent, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def handleExpose():
-    '''public void handleExpose(final IlvGraphic ilvGraphic, final Graphics graphics, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    handleExpose(final IlvGraphic ilvGraphic, final Graphics graphics, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def onEnter():
-    '''public void onEnter(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    onEnter(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def onExit():
-    '''public void onExit(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    onExit(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''

@@ -1,34 +1,45 @@
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
-def OSLCProviderHandler():
-    '''public OSLCProviderHandler()
-    public OSLCProviderHandler(final MaxEndPointInfo endPointInfo)
+def ():
+    '''returns OSLCProviderHandler\n\n
+    ()\n
+    (final MaxEndPointInfo endPointInfo)\n
     '''
 def getPropertyValue():
-    '''public String getPropertyValue(final String properties)
+    '''returns String\n\n
+    getPropertyValue(final String properties)\n
     '''
 def getDefaultCreationDialog():
-    '''public String getDefaultCreationDialog(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultCreationDialog(final String artifactContainer)\n
     '''
 def getDefaultCreationDialogWidth():
-    '''public String getDefaultCreationDialogWidth(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultCreationDialogWidth(final String artifactContainer)\n
     '''
 def getDefaultCreationDialogHeight():
-    '''public String getDefaultCreationDialogHeight(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultCreationDialogHeight(final String artifactContainer)\n
     '''
 def getDefaultSelectionDialog():
-    '''public String getDefaultSelectionDialog(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultSelectionDialog(final String artifactContainer)\n
     '''
 def getDefaultSelectionDialogWidth():
-    '''public String getDefaultSelectionDialogWidth(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultSelectionDialogWidth(final String artifactContainer)\n
     '''
 def getDefaultSelectionDialogHeight():
-    '''public String getDefaultSelectionDialogHeight(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultSelectionDialogHeight(final String artifactContainer)\n
     '''
 def getArtifactContainers():
-    '''public List<String> getArtifactContainers()
+    '''returns List<String>\n\n
+    getArtifactContainers()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData, final byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData, final byte[] data)\n
     '''

@@ -1,102 +1,124 @@
-def MXTransactionImpl():
-    '''public MXTransactionImpl(final Object id)
+def ():
+    '''returns TransactableInfo\n\n
+    (final Object id)\n
+    (final Object t)\n
+    (final Object t, final long s)\n
     '''
 def getID():
-    '''public Object getID()
+    '''returns Object\n\n
+    getID()\n
     '''
 def add():
-    '''public void add(final Transactable txn)
-    public void add(final Transactable txn, final long status)
+    '''returns None\n\n
+    add(final Transactable txn)\n
+    add(final Transactable txn, final long status)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def rollback():
-    '''public void rollback()
+    '''returns None\n\n
+    rollback()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def commitTransaction():
-    '''public void commitTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    commitTransaction(final MXTransaction txn)\n
     '''
 def rollbackTransaction():
-    '''public void rollbackTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    rollbackTransaction(final MXTransaction txn)\n
     '''
 def undoTransaction():
-    '''public void undoTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    undoTransaction(final MXTransaction txn)\n
     '''
 def validateTransaction():
-    '''public boolean validateTransaction(final MXTransaction txn)
+    '''returns boolean\n\n
+    validateTransaction(final MXTransaction txn)\n
     '''
 def fireEventsBeforeDB():
-    '''public void fireEventsBeforeDB(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsBeforeDB(final MXTransaction txn)\n
     '''
 def fireEventsAfterDB():
-    '''public void fireEventsAfterDB(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDB(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def put():
-    '''public void put(final String keyString, final boolean value)
-    public void put(final String keyString, final String value)
+    '''returns None\n\n
+    put(final String keyString, final boolean value)\n
+    put(final String keyString, final String value)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String keyString)
+    '''returns boolean\n\n
+    getBoolean(final String keyString)\n
     '''
 def getInt():
-    '''public int getInt(final String keyString)
+    '''returns int\n\n
+    getInt(final String keyString)\n
     '''
 def getString():
-    '''public String getString(final String keyString)
+    '''returns String\n\n
+    getString(final String keyString)\n
     '''
 def remove():
-    '''public boolean remove(final Transactable t)
+    '''returns boolean\n\n
+    remove(final Transactable t)\n
     '''
 def getTransactionStatus():
-    '''public long getTransactionStatus(final Transactable t)
+    '''returns long\n\n
+    getTransactionStatus(final Transactable t)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def indexOf():
-    '''public int indexOf(final Transactable t)
+    '''returns int\n\n
+    indexOf(final Transactable t)\n
     '''
 def setIndexOf():
-    '''public void setIndexOf(final Transactable tsb, final int order)
+    '''returns None\n\n
+    setIndexOf(final Transactable tsb, final int order)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def setEventFired():
-    '''public void setEventFired(final boolean flag)
-    '''
-def getTxnPropertyMap():
-    '''public Map<Object, Object> getTxnPropertyMap(final Transactable t)
+    '''returns None\n\n
+    setEventFired(final boolean flag)\n
     '''
 def setTxnPropertyMap():
-    '''public void setTxnPropertyMap(final Transactable t, final Map<Object, Object> map)
+    '''returns None\n\n
+    setTxnPropertyMap(final Transactable t, final Map<Object, Object> map)\n
     '''
 def clearTxnPropertyMap():
-    '''public void clearTxnPropertyMap()
-    '''
-def TransactableInfo():
-    '''public TransactableInfo(final Object t)
-    public TransactableInfo(final Object t, final long s)
-    '''
-def getPropertyMap():
-    '''public Map<Object, Object> getPropertyMap()
+    '''returns None\n\n
+    clearTxnPropertyMap()\n
     '''
 def setPropertyMap():
-    '''public void setPropertyMap(final Map<Object, Object> map)
+    '''returns None\n\n
+    setPropertyMap(final Map<Object, Object> map)\n
     '''
 def clearPropertyMap():
-    '''public void clearPropertyMap()
+    '''returns None\n\n
+    clearPropertyMap()\n
     '''

@@ -1,3 +1,4 @@
 def handleCall():
-    '''public StoredProcedureResult handleCall(final CallableStatement callableStatement)
+    '''returns StoredProcedureResult\n\n
+    handleCall(final CallableStatement callableStatement)\n
     '''

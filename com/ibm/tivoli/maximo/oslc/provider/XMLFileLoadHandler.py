@@ -1,6 +1,8 @@
-def XMLFileLoadHandler():
-    '''public XMLFileLoadHandler(final String osName)
+def ():
+    '''returns XMLFileLoadHandler\n\n
+    (final String osName)\n
     '''
 def loadData():
-    '''public JSONArray loadData(final byte[] data, final OslcRequest oslcRequest)
+    '''returns JSONArray\n\n
+    loadData(final byte[] data, final OslcRequest oslcRequest)\n
     '''

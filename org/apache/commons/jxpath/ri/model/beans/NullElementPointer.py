@@ -1,49 +1,65 @@
-def NullElementPointer():
-    '''public NullElementPointer(final NodePointer parent, final int index)
+def ():
+    '''returns NullElementPointer\n\n
+    (final NodePointer parent, final int index)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def getPropertyPointer():
-    '''public PropertyPointer getPropertyPointer()
+    '''returns PropertyPointer\n\n
+    getPropertyPointer()\n
     '''
 def getValuePointer():
-    '''public NodePointer getValuePointer()
+    '''returns NodePointer\n\n
+    getValuePointer()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def isActual():
-    '''public boolean isActual()
+    '''returns boolean\n\n
+    isActual()\n
     '''
 def isContainer():
-    '''public boolean isContainer()
+    '''returns boolean\n\n
+    isContainer()\n
     '''
 def createPath():
-    '''public NodePointer createPath(final JXPathContext context)
-    public NodePointer createPath(final JXPathContext context, final Object value)
+    '''returns NodePointer\n\n
+    createPath(final JXPathContext context)\n
+    createPath(final JXPathContext context, final Object value)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''

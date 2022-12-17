@@ -1,9 +1,12 @@
-def EscalationNotificationSet():
-    '''public EscalationNotificationSet(final MboServerInterface ms)
+def ():
+    '''returns EscalationNotificationSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

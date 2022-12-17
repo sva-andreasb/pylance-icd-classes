@@ -1,9 +1,12 @@
 def getPropertyNames():
-    '''public String[] getPropertyNames(final Object object)
+    '''returns String[]\n\n
+    getPropertyNames(final Object object)\n
     '''
 def getProperty():
-    '''public Object getProperty(final Object object, final String propertyName)
+    '''returns Object\n\n
+    getProperty(final Object object, final String propertyName)\n
     '''
 def setProperty():
-    '''public void setProperty(final Object object, final String propertyName, final Object value)
+    '''returns None\n\n
+    setProperty(final Object object, final String propertyName, final Object value)\n
     '''

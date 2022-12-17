@@ -1,38 +1,46 @@
-def AttributesMap():
-    '''public AttributesMap()
-    public AttributesMap(final Map<String, Object> map)
-    public AttributesMap(final AttributesMap map)
+def ():
+    '''returns AttributesMap\n\n
+    ()\n
+    (final Map<String, Object> map)\n
+    (final AttributesMap map)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String name)
+    '''returns None\n\n
+    removeAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final Object attribute)
+    '''returns None\n\n
+    setAttribute(final String name, final Object attribute)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def getAttributeNames():
-    '''public Enumeration<String> getAttributeNames()
+    '''returns Enumeration<String>\n\n
+    getAttributeNames()\n
     '''
 def getAttributeNameSet():
-    '''public Set<String> getAttributeNameSet()
-    '''
-def getAttributeNamesCopy():
-    '''public static Enumeration<String> getAttributeNamesCopy(final Attributes attrs)
+    '''returns Set<String>\n\n
+    getAttributeNameSet()\n
     '''
 def clearAttributes():
-    '''public void clearAttributes()
+    '''returns None\n\n
+    clearAttributes()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def keySet():
-    '''public Set<String> keySet()
+    '''returns Set<String>\n\n
+    keySet()\n
     '''
 def addAll():
-    '''public void addAll(final Attributes attributes)
+    '''returns None\n\n
+    addAll(final Attributes attributes)\n
     '''

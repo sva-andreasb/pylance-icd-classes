@@ -1,6 +1,8 @@
-def FldPasswordLength():
-    '''public FldPasswordLength(final MboValue mbv)
+def ():
+    '''returns FldPasswordLength\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

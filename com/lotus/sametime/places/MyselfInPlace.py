@@ -1,18 +1,8 @@
-def addMyMsgListener():
-    '''public synchronized void addMyMsgListener(final MyMsgListener obj)
-    '''
-def removeMyMsgListener():
-    '''public synchronized void removeMyMsgListener(final MyMsgListener obj)
-    '''
-def addMySectionListener():
-    '''public synchronized void addMySectionListener(final MySectionListener obj)
-    '''
-def removeMySectionListener():
-    '''public synchronized void removeMySectionListener(final MySectionListener obj)
-    '''
 def changeSection():
-    '''public void changeSection(final Section section)
+    '''returns None\n\n
+    changeSection(final Section section)\n
     '''
 def processPlacesEvent():
-    '''public void processPlacesEvent(final PlacesEvent placesEvent)
+    '''returns None\n\n
+    processPlacesEvent(final PlacesEvent placesEvent)\n
     '''

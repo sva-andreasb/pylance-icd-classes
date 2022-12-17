@@ -1,12 +1,8 @@
 def run():
-    '''public void run()
-    '''
-def waitTillCompletion():
-    '''public static void waitTillCompletion()
-    '''
-def shutdown():
-    '''public static void shutdown(final boolean now)
+    '''returns None\n\n
+    run()\n
     '''
 def newThread():
-    '''public Thread newThread(final Runnable r)
+    '''returns Thread\n\n
+    newThread(final Runnable r)\n
     '''

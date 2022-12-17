@@ -1,3 +1,4 @@
-def ObjectSearchSpecBean():
-    '''public ObjectSearchSpecBean()
+def ():
+    '''returns ObjectSearchSpecBean\n\n
+    ()\n
     '''

@@ -1,7 +1,9 @@
-def UserInputQueryBuilder():
-    '''public UserInputQueryBuilder(final QueryParser parser)
-    public UserInputQueryBuilder(final String defaultField, final Analyzer analyzer)
+def ():
+    '''returns UserInputQueryBuilder\n\n
+    (final QueryParser parser)\n
+    (final String defaultField, final Analyzer analyzer)\n
     '''
 def getQuery():
-    '''public Query getQuery(final Element e)
+    '''returns Query\n\n
+    getQuery(final Element e)\n
     '''

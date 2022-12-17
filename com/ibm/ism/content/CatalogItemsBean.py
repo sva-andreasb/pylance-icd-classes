@@ -1,18 +1,20 @@
-def CatalogItemsBean():
-    '''public CatalogItemsBean()
-    '''
-def save():
-    '''public synchronized void save()
+def ():
+    '''returns CatalogItemsBean\n\n
+    ()\n
     '''
 def INSTALL():
-    '''public void INSTALL()
+    '''returns None\n\n
+    INSTALL()\n
     '''
 def INSTALLPKG():
-    '''public void INSTALLPKG()
+    '''returns None\n\n
+    INSTALLPKG()\n
     '''
 def DOWNLOADPKG():
-    '''public void DOWNLOADPKG()
+    '''returns None\n\n
+    DOWNLOADPKG()\n
     '''
 def INSTALLCOMPLETE():
-    '''public void INSTALLCOMPLETE()
+    '''returns None\n\n
+    INSTALLCOMPLETE()\n
     '''

@@ -1,22 +1,29 @@
 def escapeStr():
-    '''public String escapeStr(final String s)
+    '''returns String\n\n
+    escapeStr(final String s)\n
     '''
 def unescapeStr():
-    '''public String unescapeStr(final String s)
+    '''returns String\n\n
+    unescapeStr(final String s)\n
     '''
 def quoteStr():
-    '''public String quoteStr(String s)
+    '''returns String\n\n
+    quoteStr(String s)\n
     '''
 def unquoteStr():
-    '''public String unquoteStr(String s)
+    '''returns String\n\n
+    unquoteStr(String s)\n
     '''
 def quoteIdentifier():
-    '''public String quoteIdentifier(String name)
+    '''returns String\n\n
+    quoteIdentifier(String name)\n
     '''
 def getSQLmark():
-    '''public String getSQLmark()
+    '''returns String\n\n
+    getSQLmark()\n
     '''
 def gen():
-    '''public String gen(final String first, final String last)
-    public String gen(final String first)
+    '''returns String\n\n
+    gen(final String first, final String last)\n
+    gen(final String first)\n
     '''

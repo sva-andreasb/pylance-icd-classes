@@ -3,65 +3,40 @@ DEFAULT_RANDOMIZATION_FACTOR = "double  0.5"
 DEFAULT_MULTIPLIER = "double  1.5"
 DEFAULT_MAX_INTERVAL_MILLIS = "int  60000"
 DEFAULT_MAX_ELAPSED_TIME_MILLIS = "int  900000"
-def ExponentialBackOff():
-    '''public ExponentialBackOff()
-    '''
-def reset():
-    '''public final void reset()
+def ():
+    '''returns Builder\n\n
+    ()\n
+    ()\n
     '''
 def nextBackOffMillis():
-    '''public long nextBackOffMillis()
-    '''
-def getInitialIntervalMillis():
-    '''public final int getInitialIntervalMillis()
-    public final int getInitialIntervalMillis()
-    '''
-def getRandomizationFactor():
-    '''public final double getRandomizationFactor()
-    public final double getRandomizationFactor()
-    '''
-def getCurrentIntervalMillis():
-    '''public final int getCurrentIntervalMillis()
-    '''
-def getMultiplier():
-    '''public final double getMultiplier()
-    public final double getMultiplier()
-    '''
-def getMaxIntervalMillis():
-    '''public final int getMaxIntervalMillis()
-    public final int getMaxIntervalMillis()
-    '''
-def getMaxElapsedTimeMillis():
-    '''public final int getMaxElapsedTimeMillis()
-    public final int getMaxElapsedTimeMillis()
-    '''
-def getElapsedTimeMillis():
-    '''public final long getElapsedTimeMillis()
-    '''
-def Builder():
-    '''public Builder()
+    '''returns long\n\n
+    nextBackOffMillis()\n
     '''
 def build():
-    '''public ExponentialBackOff build()
+    '''returns ExponentialBackOff\n\n
+    build()\n
     '''
 def setInitialIntervalMillis():
-    '''public Builder setInitialIntervalMillis(final int initialIntervalMillis)
+    '''returns Builder\n\n
+    setInitialIntervalMillis(final int initialIntervalMillis)\n
     '''
 def setRandomizationFactor():
-    '''public Builder setRandomizationFactor(final double randomizationFactor)
+    '''returns Builder\n\n
+    setRandomizationFactor(final double randomizationFactor)\n
     '''
 def setMultiplier():
-    '''public Builder setMultiplier(final double multiplier)
+    '''returns Builder\n\n
+    setMultiplier(final double multiplier)\n
     '''
 def setMaxIntervalMillis():
-    '''public Builder setMaxIntervalMillis(final int maxIntervalMillis)
+    '''returns Builder\n\n
+    setMaxIntervalMillis(final int maxIntervalMillis)\n
     '''
 def setMaxElapsedTimeMillis():
-    '''public Builder setMaxElapsedTimeMillis(final int maxElapsedTimeMillis)
-    '''
-def getNanoClock():
-    '''public final NanoClock getNanoClock()
+    '''returns Builder\n\n
+    setMaxElapsedTimeMillis(final int maxElapsedTimeMillis)\n
     '''
 def setNanoClock():
-    '''public Builder setNanoClock(final NanoClock nanoClock)
+    '''returns Builder\n\n
+    setNanoClock(final NanoClock nanoClock)\n
     '''

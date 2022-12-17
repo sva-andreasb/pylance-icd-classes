@@ -1,3 +1,4 @@
-def MaxVarTypeSet():
-    '''public MaxVarTypeSet(final MboServerInterface ms)
+def ():
+    '''returns MaxVarTypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

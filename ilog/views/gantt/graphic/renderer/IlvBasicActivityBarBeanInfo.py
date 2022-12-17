@@ -1,6 +1,8 @@
 def getPropertyDescriptors():
-    '''public PropertyDescriptor[] getPropertyDescriptors()
+    '''returns PropertyDescriptor[]\n\n
+    getPropertyDescriptors()\n
     '''
 def getAdditionalBeanInfo():
-    '''public BeanInfo[] getAdditionalBeanInfo()
+    '''returns BeanInfo[]\n\n
+    getAdditionalBeanInfo()\n
     '''

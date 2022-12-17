@@ -1,14 +1,18 @@
-def JobPlanService():
-    '''public JobPlanService()
-    public JobPlanService(final MXServer mxServer)
+def ():
+    '''returns JobPlanService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getValidJobPlansForOrgAndSite():
-    '''public MboSetRemote getValidJobPlansForOrgAndSite(final UserInfo userInfo, final String orgid, final String siteid)
+    '''returns MboSetRemote\n\n
+    getValidJobPlansForOrgAndSite(final UserInfo userInfo, final String orgid, final String siteid)\n
     '''
 def getMultiSiteJobPlan():
-    '''public MboSetRemote getMultiSiteJobPlan(final UserInfo userInfo, final String jpnum, final String orgid, final String siteid)
-    public MboSetRemote getMultiSiteJobPlan(final UserInfo userInfo, final String jpnum, final String revisionNum, final String orgid, final String siteid)
+    '''returns MboSetRemote\n\n
+    getMultiSiteJobPlan(final UserInfo userInfo, final String jpnum, final String orgid, final String siteid)\n
+    getMultiSiteJobPlan(final UserInfo userInfo, final String jpnum, final String revisionNum, final String orgid, final String siteid)\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("JOBPLAN") final JobPlanRemote jobplan, final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("JOBPLAN") final JobPlanRemote jobplan, final String status, final Date date, final String memo)\n
     '''

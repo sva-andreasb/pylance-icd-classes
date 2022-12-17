@@ -1,3 +1,4 @@
-def ShowWFNode():
-    '''public ShowWFNode(final MboSet ms)
+def ():
+    '''returns ShowWFNode\n\n
+    (final MboSet ms)\n
     '''

@@ -1,3 +1,4 @@
 def refreshds():
-    '''public int refreshds()
+    '''returns int\n\n
+    refreshds()\n
     '''

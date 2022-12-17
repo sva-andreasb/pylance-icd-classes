@@ -1,6 +1,4 @@
-def getInstance():
-    '''public static DurationFormat getInstance(final ULocale locale)
-    '''
 def parseObject():
-    '''public Object parseObject(final String source, final ParsePosition pos)
+    '''returns Object\n\n
+    parseObject(final String source, final ParsePosition pos)\n
     '''

@@ -1,13 +1,17 @@
 def arg():
-    '''public JInvocation arg(final JExpression arg)
-    public JInvocation arg(final String v)
+    '''returns JInvocation\n\n
+    arg(final JExpression arg)\n
+    arg(final String v)\n
     '''
 def listArgs():
-    '''public JExpression[] listArgs()
+    '''returns JExpression[]\n\n
+    listArgs()\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''
 def state():
-    '''public void state(final JFormatter f)
+    '''returns None\n\n
+    state(final JFormatter f)\n
     '''

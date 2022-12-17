@@ -1,6 +1,8 @@
-def FldPOEndDate():
-    '''public FldPOEndDate(final MboValue mbv)
+def ():
+    '''returns FldPOEndDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,3 +1,4 @@
-def SurveyManagementSet():
-    '''public SurveyManagementSet(final MboServerInterface ms)
+def ():
+    '''returns SurveyManagementSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,12 +1,16 @@
 def getJobId():
-    '''public String getJobId()
+    '''returns String\n\n
+    getJobId()\n
     '''
 def setJobId():
-    '''public void setJobId(final String jobid)
+    '''returns None\n\n
+    setJobId(final String jobid)\n
     '''
 def getSubscription():
-    '''public JobSubscriptionImpl getSubscription()
+    '''returns JobSubscriptionImpl\n\n
+    getSubscription()\n
     '''
 def setSubscription():
-    '''public void setSubscription(final JobSubscriptionImpl subscription)
+    '''returns None\n\n
+    setSubscription(final JobSubscriptionImpl subscription)\n
     '''

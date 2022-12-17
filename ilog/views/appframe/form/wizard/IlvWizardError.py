@@ -2,25 +2,32 @@ WARNING = "int  1"
 FATAL = "int  2"
 PROMPT = "short  1"
 STATUS = "short  2"
-def IlvWizardError():
-    '''public IlvWizardError(final IlvWizardPage a, final String b, final Object d, final int e)
-    public IlvWizardError(final IlvWizardPage a, final IlvValidationError ilvValidationError)
+def ():
+    '''returns IlvWizardError\n\n
+    (final IlvWizardPage a, final String b, final Object d, final int e)\n
+    (final IlvWizardPage a, final IlvValidationError ilvValidationError)\n
     '''
 def getPage():
-    '''public IlvWizardPage getPage()
+    '''returns IlvWizardPage\n\n
+    getPage()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
+    '''returns String\n\n
+    getLocalizedMessage()\n
     '''
 def getMessageType():
-    '''public short getMessageType()
+    '''returns short\n\n
+    getMessageType()\n
     '''
 def getControl():
-    '''public Object getControl()
+    '''returns Object\n\n
+    getControl()\n
     '''
 def getSeverity():
-    '''public int getSeverity()
+    '''returns int\n\n
+    getSeverity()\n
     '''

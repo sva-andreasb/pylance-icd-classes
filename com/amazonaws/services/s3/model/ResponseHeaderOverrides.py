@@ -5,56 +5,74 @@ RESPONSE_HEADER_CACHE_CONTROL = "String  \"response-cache-control\""
 RESPONSE_HEADER_CONTENT_DISPOSITION = "String  \"response-content-disposition\""
 RESPONSE_HEADER_CONTENT_ENCODING = "String  \"response-content-encoding\""
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def withContentType():
-    '''public ResponseHeaderOverrides withContentType(final String contentType)
+    '''returns ResponseHeaderOverrides\n\n
+    withContentType(final String contentType)\n
     '''
 def getContentLanguage():
-    '''public String getContentLanguage()
+    '''returns String\n\n
+    getContentLanguage()\n
     '''
 def setContentLanguage():
-    '''public void setContentLanguage(final String contentLanguage)
+    '''returns None\n\n
+    setContentLanguage(final String contentLanguage)\n
     '''
 def withContentLanguage():
-    '''public ResponseHeaderOverrides withContentLanguage(final String contentLanguage)
+    '''returns ResponseHeaderOverrides\n\n
+    withContentLanguage(final String contentLanguage)\n
     '''
 def getExpires():
-    '''public String getExpires()
+    '''returns String\n\n
+    getExpires()\n
     '''
 def setExpires():
-    '''public void setExpires(final String expires)
+    '''returns None\n\n
+    setExpires(final String expires)\n
     '''
 def withExpires():
-    '''public ResponseHeaderOverrides withExpires(final String expires)
+    '''returns ResponseHeaderOverrides\n\n
+    withExpires(final String expires)\n
     '''
 def getCacheControl():
-    '''public String getCacheControl()
+    '''returns String\n\n
+    getCacheControl()\n
     '''
 def setCacheControl():
-    '''public void setCacheControl(final String cacheControl)
+    '''returns None\n\n
+    setCacheControl(final String cacheControl)\n
     '''
 def withCacheControl():
-    '''public ResponseHeaderOverrides withCacheControl(final String cacheControl)
+    '''returns ResponseHeaderOverrides\n\n
+    withCacheControl(final String cacheControl)\n
     '''
 def getContentDisposition():
-    '''public String getContentDisposition()
+    '''returns String\n\n
+    getContentDisposition()\n
     '''
 def setContentDisposition():
-    '''public void setContentDisposition(final String contentDisposition)
+    '''returns None\n\n
+    setContentDisposition(final String contentDisposition)\n
     '''
 def withContentDisposition():
-    '''public ResponseHeaderOverrides withContentDisposition(final String contentDisposition)
+    '''returns ResponseHeaderOverrides\n\n
+    withContentDisposition(final String contentDisposition)\n
     '''
 def getContentEncoding():
-    '''public String getContentEncoding()
+    '''returns String\n\n
+    getContentEncoding()\n
     '''
 def setContentEncoding():
-    '''public void setContentEncoding(final String contentEncoding)
+    '''returns None\n\n
+    setContentEncoding(final String contentEncoding)\n
     '''
 def withContentEncoding():
-    '''public ResponseHeaderOverrides withContentEncoding(final String contentEncoding)
+    '''returns ResponseHeaderOverrides\n\n
+    withContentEncoding(final String contentEncoding)\n
     '''

@@ -1,27 +1,32 @@
-def ScriptSOAPReq():
-    '''public ScriptSOAPReq(final byte[] data, final String endPointName, final Map metaData)
+def ():
+    '''returns ScriptSOAPReq\n\n
+    (final byte[] data, final String endPointName, final Map metaData)\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getMetaData():
-    '''public Map getMetaData()
+    '''returns Map\n\n
+    getMetaData()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def setURL():
-    '''public void setURL(final String url)
+    '''returns None\n\n
+    setURL(final String url)\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def fetchResponseHeaders():
-    '''public void fetchResponseHeaders()
+    '''returns None\n\n
+    fetchResponseHeaders()\n
     '''
 def addHeader():
-    '''public void addHeader(final String ns, final String name, final String value)
-    '''
-def getHeaderProps():
-    '''public Map<QName, List<String>> getHeaderProps()
+    '''returns None\n\n
+    addHeader(final String ns, final String name, final String value)\n
     '''

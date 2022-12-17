@@ -1,144 +1,192 @@
-def WOSet():
-    '''public WOSet(final MboServerInterface ms)
+def ():
+    '''returns WOSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def workordersForLaborOrCraft():
-    '''public void workordersForLaborOrCraft(final String labor, final String craft)
+    '''returns None\n\n
+    workordersForLaborOrCraft(final String labor, final String craft)\n
     '''
 def onlyTopLevels():
-    '''public void onlyTopLevels()
+    '''returns None\n\n
+    onlyTopLevels()\n
     '''
 def findAllOpenWOsReportedBy():
-    '''public void findAllOpenWOsReportedBy(final String user)
+    '''returns None\n\n
+    findAllOpenWOsReportedBy(final String user)\n
     '''
 def setHistory():
-    '''public void setHistory(final boolean historyWOs)
+    '''returns None\n\n
+    setHistory(final boolean historyWOs)\n
     '''
 def setCurrent():
-    '''public void setCurrent(final boolean currentWOs)
+    '''returns None\n\n
+    setCurrent(final boolean currentWOs)\n
     '''
 def setLocsystem():
-    '''public void setLocsystem(final String locationSystem)
+    '''returns None\n\n
+    setLocsystem(final String locationSystem)\n
     '''
 def setLocgroup():
-    '''public void setLocgroup(final String locationGroup)
+    '''returns None\n\n
+    setLocgroup(final String locationGroup)\n
     '''
 def setNoCancelled():
-    '''public void setNoCancelled(final boolean turnOn)
+    '''returns None\n\n
+    setNoCancelled(final boolean turnOn)\n
     '''
 def getHistory():
-    '''public boolean getHistory()
+    '''returns boolean\n\n
+    getHistory()\n
     '''
 def getCurrent():
-    '''public boolean getCurrent()
+    '''returns boolean\n\n
+    getCurrent()\n
     '''
 def getLocsystem():
-    '''public String getLocsystem()
+    '''returns String\n\n
+    getLocsystem()\n
     '''
 def getLocgroup():
-    '''public String getLocgroup()
+    '''returns String\n\n
+    getLocgroup()\n
     '''
 def getNoCancelled():
-    '''public boolean getNoCancelled()
+    '''returns boolean\n\n
+    getNoCancelled()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def deleteAll():
-    '''public void deleteAll()
+    '''returns None\n\n
+    deleteAll()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''
 def changeWorkOrderParent():
-    '''public void changeWorkOrderParent(final MboRemote woparent)
+    '''returns None\n\n
+    changeWorkOrderParent(final MboRemote woparent)\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener l)
+    '''returns None\n\n
+    addListener(final MboSetListener l)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener l)
+    '''returns None\n\n
+    removeListener(final MboSetListener l)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote modifiedMbo)\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''
 def getUserWhere():
-    '''public String getUserWhere(final String alias)
+    '''returns String\n\n
+    getUserWhere(final String alias)\n
     '''
 def getExternalList():
-    '''public String getExternalList(final String listName, final String internalValue, final String siteID, final String orgID)
+    '''returns String\n\n
+    getExternalList(final String listName, final String internalValue, final String siteID, final String orgID)\n
     '''
 def getExternalValues():
-    '''public String getExternalValues(final String listName, final String internalValue, final String siteID, final String orgID)
+    '''returns String\n\n
+    getExternalValues(final String listName, final String internalValue, final String siteID, final String orgID)\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def clearMoveAssetFieldsDefault():
-    '''public void clearMoveAssetFieldsDefault()
+    '''returns None\n\n
+    clearMoveAssetFieldsDefault()\n
     '''
 def filterByLinearAsset():
-    '''public void filterByLinearAsset(final MboSetRemote fltrSet)
+    '''returns None\n\n
+    filterByLinearAsset(final MboSetRemote fltrSet)\n
     '''
 def getOriginalWOQbe():
-    '''public Hashtable getOriginalWOQbe()
+    '''returns Hashtable\n\n
+    getOriginalWOQbe()\n
     '''
 def getOriginalWOUserWhere():
-    '''public String getOriginalWOUserWhere()
+    '''returns String\n\n
+    getOriginalWOUserWhere()\n
     '''
 def setOriginalWOUserWhere():
-    '''public void setOriginalWOUserWhere(final String inWhere)
+    '''returns None\n\n
+    setOriginalWOUserWhere(final String inWhere)\n
     '''
 def setOriginalWOQbe():
-    '''public void setOriginalWOQbe(final Hashtable inQbe)
+    '''returns None\n\n
+    setOriginalWOQbe(final Hashtable inQbe)\n
     '''
 def getListFromAllSites():
-    '''public MboSetRemote getListFromAllSites(final int row, final String attribute)
+    '''returns MboSetRemote\n\n
+    getListFromAllSites(final int row, final String attribute)\n
     '''
 def setSkipRepairFacilityOnNewWOs():
-    '''public void setSkipRepairFacilityOnNewWOs(final boolean skipRepairFacilityOnNewWOs)
+    '''returns None\n\n
+    setSkipRepairFacilityOnNewWOs(final boolean skipRepairFacilityOnNewWOs)\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''
 def getUncommittedAncestorVector():
-    '''public Vector getUncommittedAncestorVector()
+    '''returns Vector\n\n
+    getUncommittedAncestorVector()\n
     '''
 def storeUncommittedAncestorVector():
-    '''public void storeUncommittedAncestorVector(final MXTransaction uncommitted)
+    '''returns None\n\n
+    storeUncommittedAncestorVector(final MXTransaction uncommitted)\n
     '''
 def setSourceWODuplicatedBy():
-    '''public void setSourceWODuplicatedBy(final MboRemote wo)
+    '''returns None\n\n
+    setSourceWODuplicatedBy(final MboRemote wo)\n
     '''
 def getSourceWODuplicatedBy():
-    '''public MboRemote getSourceWODuplicatedBy()
+    '''returns MboRemote\n\n
+    getSourceWODuplicatedBy()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def getMaxAppsWhere():
-    '''public String getMaxAppsWhere()
+    '''returns String\n\n
+    getMaxAppsWhere()\n
     '''

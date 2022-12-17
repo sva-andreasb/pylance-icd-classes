@@ -1,51 +1,64 @@
-def XMLInputFactoryWrapper():
-    '''public XMLInputFactoryWrapper(final XMLInputFactory parent)
+def ():
+    '''returns XMLInputFactoryWrapper\n\n
+    (final XMLInputFactory parent)\n
     '''
 def createFilteredReader():
-    '''public XMLEventReader createFilteredReader(final XMLEventReader reader, final EventFilter filter)
-    public XMLStreamReader createFilteredReader(final XMLStreamReader reader, final StreamFilter filter)
+    '''returns XMLStreamReader\n\n
+    createFilteredReader(final XMLEventReader reader, final EventFilter filter)\n
+    createFilteredReader(final XMLStreamReader reader, final StreamFilter filter)\n
     '''
 def createXMLEventReader():
-    '''public XMLEventReader createXMLEventReader(final InputStream stream, final String encoding)
-    public XMLEventReader createXMLEventReader(final InputStream stream)
-    public XMLEventReader createXMLEventReader(final Reader reader)
-    public XMLEventReader createXMLEventReader(final Source source)
-    public XMLEventReader createXMLEventReader(final String systemId, final InputStream stream)
-    public XMLEventReader createXMLEventReader(final String systemId, final Reader reader)
-    public XMLEventReader createXMLEventReader(final XMLStreamReader reader)
+    '''returns XMLEventReader\n\n
+    createXMLEventReader(final InputStream stream, final String encoding)\n
+    createXMLEventReader(final InputStream stream)\n
+    createXMLEventReader(final Reader reader)\n
+    createXMLEventReader(final Source source)\n
+    createXMLEventReader(final String systemId, final InputStream stream)\n
+    createXMLEventReader(final String systemId, final Reader reader)\n
+    createXMLEventReader(final XMLStreamReader reader)\n
     '''
 def createXMLStreamReader():
-    '''public XMLStreamReader createXMLStreamReader(final InputStream stream, final String encoding)
-    public XMLStreamReader createXMLStreamReader(final InputStream stream)
-    public XMLStreamReader createXMLStreamReader(final Reader reader)
-    public XMLStreamReader createXMLStreamReader(final Source source)
-    public XMLStreamReader createXMLStreamReader(final String systemId, final InputStream stream)
-    public XMLStreamReader createXMLStreamReader(final String systemId, final Reader reader)
+    '''returns XMLStreamReader\n\n
+    createXMLStreamReader(final InputStream stream, final String encoding)\n
+    createXMLStreamReader(final InputStream stream)\n
+    createXMLStreamReader(final Reader reader)\n
+    createXMLStreamReader(final Source source)\n
+    createXMLStreamReader(final String systemId, final InputStream stream)\n
+    createXMLStreamReader(final String systemId, final Reader reader)\n
     '''
 def getEventAllocator():
-    '''public XMLEventAllocator getEventAllocator()
+    '''returns XMLEventAllocator\n\n
+    getEventAllocator()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def getXMLReporter():
-    '''public XMLReporter getXMLReporter()
+    '''returns XMLReporter\n\n
+    getXMLReporter()\n
     '''
 def getXMLResolver():
-    '''public XMLResolver getXMLResolver()
+    '''returns XMLResolver\n\n
+    getXMLResolver()\n
     '''
 def isPropertySupported():
-    '''public boolean isPropertySupported(final String name)
+    '''returns boolean\n\n
+    isPropertySupported(final String name)\n
     '''
 def setEventAllocator():
-    '''public void setEventAllocator(final XMLEventAllocator allocator)
+    '''returns None\n\n
+    setEventAllocator(final XMLEventAllocator allocator)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''
 def setXMLReporter():
-    '''public void setXMLReporter(final XMLReporter reporter)
+    '''returns None\n\n
+    setXMLReporter(final XMLReporter reporter)\n
     '''
 def setXMLResolver():
-    '''public void setXMLResolver(final XMLResolver resolver)
+    '''returns None\n\n
+    setXMLResolver(final XMLResolver resolver)\n
     '''

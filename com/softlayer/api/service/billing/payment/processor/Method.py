@@ -1,39 +1,52 @@
 def getPaymentProcessor():
-    '''public Processor getPaymentProcessor()
+    '''returns Processor\n\n
+    getPaymentProcessor()\n
     '''
 def setPaymentProcessor():
-    '''public void setPaymentProcessor(final Processor paymentProcessor)
+    '''returns None\n\n
+    setPaymentProcessor(final Processor paymentProcessor)\n
     '''
 def setPaymentType():
-    '''public void setPaymentType(final com.softlayer.api.service.billing.payment.Type paymentType)
+    '''returns None\n\n
+    setPaymentType(final com.softlayer.api.service.billing.payment.Type paymentType)\n
     '''
 def getMethodKey():
-    '''public String getMethodKey()
+    '''returns String\n\n
+    getMethodKey()\n
     '''
 def setMethodKey():
-    '''public void setMethodKey(final String methodKey)
+    '''returns None\n\n
+    setMethodKey(final String methodKey)\n
     '''
 def isMethodKeySpecified():
-    '''public boolean isMethodKeySpecified()
+    '''returns boolean\n\n
+    isMethodKeySpecified()\n
     '''
 def unsetMethodKey():
-    '''public void unsetMethodKey()
+    '''returns None\n\n
+    unsetMethodKey()\n
     '''
 def getMultipleCurrencyFlag():
-    '''public Boolean getMultipleCurrencyFlag()
+    '''returns Boolean\n\n
+    getMultipleCurrencyFlag()\n
     '''
 def setMultipleCurrencyFlag():
-    '''public void setMultipleCurrencyFlag(final Boolean multipleCurrencyFlag)
+    '''returns None\n\n
+    setMultipleCurrencyFlag(final Boolean multipleCurrencyFlag)\n
     '''
 def isMultipleCurrencyFlagSpecified():
-    '''public boolean isMultipleCurrencyFlagSpecified()
+    '''returns boolean\n\n
+    isMultipleCurrencyFlagSpecified()\n
     '''
 def unsetMultipleCurrencyFlag():
-    '''public void unsetMultipleCurrencyFlag()
+    '''returns None\n\n
+    unsetMultipleCurrencyFlag()\n
     '''
 def methodKey():
-    '''public Mask methodKey()
+    '''returns Mask\n\n
+    methodKey()\n
     '''
 def multipleCurrencyFlag():
-    '''public Mask multipleCurrencyFlag()
+    '''returns Mask\n\n
+    multipleCurrencyFlag()\n
     '''

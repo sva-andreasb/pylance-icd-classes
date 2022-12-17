@@ -1,3 +1,4 @@
-def SFWViewStatusHandler():
-    '''public SFWViewStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns SFWViewStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''

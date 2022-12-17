@@ -1,6 +1,8 @@
 def getComponentType():
-    '''public String getComponentType()
+    '''returns String\n\n
+    getComponentType()\n
     '''
 def getRendererType():
-    '''public String getRendererType()
+    '''returns String\n\n
+    getRendererType()\n
     '''

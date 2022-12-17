@@ -1,3 +1,4 @@
-def CDUITimeActionHandler():
-    '''public CDUITimeActionHandler()
+def ():
+    '''returns CDUITimeActionHandler\n\n
+    ()\n
     '''

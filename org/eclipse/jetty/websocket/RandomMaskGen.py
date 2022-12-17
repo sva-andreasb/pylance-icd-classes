@@ -1,7 +1,9 @@
-def RandomMaskGen():
-    '''public RandomMaskGen()
-    public RandomMaskGen(final Random random)
+def ():
+    '''returns RandomMaskGen\n\n
+    ()\n
+    (final Random random)\n
     '''
 def genMask():
-    '''public void genMask(final byte[] mask)
+    '''returns None\n\n
+    genMask(final byte[] mask)\n
     '''

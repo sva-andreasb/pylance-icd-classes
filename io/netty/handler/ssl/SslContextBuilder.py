@@ -1,73 +1,72 @@
-def forClient():
-    '''public static SslContextBuilder forClient()
-    '''
-def forServer():
-    '''public static SslContextBuilder forServer(final File keyCertChainFile, final File keyFile)
-    public static SslContextBuilder forServer(final InputStream keyCertChainInputStream, final InputStream keyInputStream)
-    public static SslContextBuilder forServer(final PrivateKey key, final X509Certificate... keyCertChain)
-    public static SslContextBuilder forServer(final PrivateKey key, final Iterable<? extends X509Certificate> keyCertChain)
-    public static SslContextBuilder forServer(final File keyCertChainFile, final File keyFile, final String keyPassword)
-    public static SslContextBuilder forServer(final InputStream keyCertChainInputStream, final InputStream keyInputStream, final String keyPassword)
-    public static SslContextBuilder forServer(final PrivateKey key, final String keyPassword, final X509Certificate... keyCertChain)
-    public static SslContextBuilder forServer(final PrivateKey key, final String keyPassword, final Iterable<? extends X509Certificate> keyCertChain)
-    public static SslContextBuilder forServer(final KeyManagerFactory keyManagerFactory)
-    public static SslContextBuilder forServer(final KeyManager keyManager)
-    '''
 def sslProvider():
-    '''public SslContextBuilder sslProvider(final SslProvider provider)
+    '''returns SslContextBuilder\n\n
+    sslProvider(final SslProvider provider)\n
     '''
 def keyStoreType():
-    '''public SslContextBuilder keyStoreType(final String keyStoreType)
+    '''returns SslContextBuilder\n\n
+    keyStoreType(final String keyStoreType)\n
     '''
 def sslContextProvider():
-    '''public SslContextBuilder sslContextProvider(final Provider sslContextProvider)
+    '''returns SslContextBuilder\n\n
+    sslContextProvider(final Provider sslContextProvider)\n
     '''
 def trustManager():
-    '''public SslContextBuilder trustManager(final File trustCertCollectionFile)
-    public SslContextBuilder trustManager(final InputStream trustCertCollectionInputStream)
-    public SslContextBuilder trustManager(final X509Certificate... trustCertCollection)
-    public SslContextBuilder trustManager(final Iterable<? extends X509Certificate> trustCertCollection)
-    public SslContextBuilder trustManager(final TrustManagerFactory trustManagerFactory)
-    public SslContextBuilder trustManager(final TrustManager trustManager)
+    '''returns SslContextBuilder\n\n
+    trustManager(final File trustCertCollectionFile)\n
+    trustManager(final InputStream trustCertCollectionInputStream)\n
+    trustManager(final X509Certificate... trustCertCollection)\n
+    trustManager(final Iterable<? extends X509Certificate> trustCertCollection)\n
+    trustManager(final TrustManagerFactory trustManagerFactory)\n
+    trustManager(final TrustManager trustManager)\n
     '''
 def keyManager():
-    '''public SslContextBuilder keyManager(final File keyCertChainFile, final File keyFile)
-    public SslContextBuilder keyManager(final InputStream keyCertChainInputStream, final InputStream keyInputStream)
-    public SslContextBuilder keyManager(final PrivateKey key, final X509Certificate... keyCertChain)
-    public SslContextBuilder keyManager(final PrivateKey key, final Iterable<? extends X509Certificate> keyCertChain)
-    public SslContextBuilder keyManager(final File keyCertChainFile, final File keyFile, final String keyPassword)
-    public SslContextBuilder keyManager(final InputStream keyCertChainInputStream, final InputStream keyInputStream, final String keyPassword)
-    public SslContextBuilder keyManager(final PrivateKey key, final String keyPassword, final X509Certificate... keyCertChain)
-    public SslContextBuilder keyManager(final PrivateKey key, final String keyPassword, final Iterable<? extends X509Certificate> keyCertChain)
-    public SslContextBuilder keyManager(final KeyManagerFactory keyManagerFactory)
-    public SslContextBuilder keyManager(final KeyManager keyManager)
+    '''returns SslContextBuilder\n\n
+    keyManager(final File keyCertChainFile, final File keyFile)\n
+    keyManager(final InputStream keyCertChainInputStream, final InputStream keyInputStream)\n
+    keyManager(final PrivateKey key, final X509Certificate... keyCertChain)\n
+    keyManager(final PrivateKey key, final Iterable<? extends X509Certificate> keyCertChain)\n
+    keyManager(final File keyCertChainFile, final File keyFile, final String keyPassword)\n
+    keyManager(final InputStream keyCertChainInputStream, final InputStream keyInputStream, final String keyPassword)\n
+    keyManager(final PrivateKey key, final String keyPassword, final X509Certificate... keyCertChain)\n
+    keyManager(final PrivateKey key, final String keyPassword, final Iterable<? extends X509Certificate> keyCertChain)\n
+    keyManager(final KeyManagerFactory keyManagerFactory)\n
+    keyManager(final KeyManager keyManager)\n
     '''
 def ciphers():
-    '''public SslContextBuilder ciphers(final Iterable<String> ciphers)
-    public SslContextBuilder ciphers(final Iterable<String> ciphers, final CipherSuiteFilter cipherFilter)
+    '''returns SslContextBuilder\n\n
+    ciphers(final Iterable<String> ciphers)\n
+    ciphers(final Iterable<String> ciphers, final CipherSuiteFilter cipherFilter)\n
     '''
 def applicationProtocolConfig():
-    '''public SslContextBuilder applicationProtocolConfig(final ApplicationProtocolConfig apn)
+    '''returns SslContextBuilder\n\n
+    applicationProtocolConfig(final ApplicationProtocolConfig apn)\n
     '''
 def sessionCacheSize():
-    '''public SslContextBuilder sessionCacheSize(final long sessionCacheSize)
+    '''returns SslContextBuilder\n\n
+    sessionCacheSize(final long sessionCacheSize)\n
     '''
 def sessionTimeout():
-    '''public SslContextBuilder sessionTimeout(final long sessionTimeout)
+    '''returns SslContextBuilder\n\n
+    sessionTimeout(final long sessionTimeout)\n
     '''
 def clientAuth():
-    '''public SslContextBuilder clientAuth(final ClientAuth clientAuth)
+    '''returns SslContextBuilder\n\n
+    clientAuth(final ClientAuth clientAuth)\n
     '''
 def protocols():
-    '''public SslContextBuilder protocols(final String... protocols)
-    public SslContextBuilder protocols(final Iterable<String> protocols)
+    '''returns SslContextBuilder\n\n
+    protocols(final String... protocols)\n
+    protocols(final Iterable<String> protocols)\n
     '''
 def startTls():
-    '''public SslContextBuilder startTls(final boolean startTls)
+    '''returns SslContextBuilder\n\n
+    startTls(final boolean startTls)\n
     '''
 def enableOcsp():
-    '''public SslContextBuilder enableOcsp(final boolean enableOcsp)
+    '''returns SslContextBuilder\n\n
+    enableOcsp(final boolean enableOcsp)\n
     '''
 def build():
-    '''public SslContext build()
+    '''returns SslContext\n\n
+    build()\n
     '''

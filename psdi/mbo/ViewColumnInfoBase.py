@@ -1,37 +1,49 @@
 CACHE_NAME = "String  \"BMX.MAXIMODD.VCI\""
 def getTypedReference():
-    '''public ViewColumnInfoBase getTypedReference()
+    '''returns ViewColumnInfoBase\n\n
+    getTypedReference()\n
     '''
 def getSameStorageAs():
-    '''public String getSameStorageAs()
+    '''returns String\n\n
+    getSameStorageAs()\n
     '''
 def setSameStorageAs():
-    '''public void setSameStorageAs(final String sameStorageAs)
+    '''returns None\n\n
+    setSameStorageAs(final String sameStorageAs)\n
     '''
 def getTableColumnName():
-    '''public String getTableColumnName()
+    '''returns String\n\n
+    getTableColumnName()\n
     '''
 def setTableColumnName():
-    '''public void setTableColumnName(final String tableColumnName)
+    '''returns None\n\n
+    setTableColumnName(final String tableColumnName)\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setTableName():
-    '''public void setTableName(final String tableName)
+    '''returns None\n\n
+    setTableName(final String tableName)\n
     '''
 def getViewColumnName():
-    '''public String getViewColumnName()
+    '''returns String\n\n
+    getViewColumnName()\n
     '''
 def setViewColumnName():
-    '''public void setViewColumnName(final String viewColumnName)
+    '''returns None\n\n
+    setViewColumnName(final String viewColumnName)\n
     '''
 def getViewName():
-    '''public String getViewName()
+    '''returns String\n\n
+    getViewName()\n
     '''
 def setViewName():
-    '''public void setViewName(final String viewName)
+    '''returns None\n\n
+    setViewName(final String viewName)\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

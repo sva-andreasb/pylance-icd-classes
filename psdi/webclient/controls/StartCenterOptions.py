@@ -1,15 +1,20 @@
-def StartCenterOptions():
-    '''public StartCenterOptions()
+def ():
+    '''returns StartCenterOptions\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getCurrentStartCenterId():
-    '''public String getCurrentStartCenterId()
+    '''returns String\n\n
+    getCurrentStartCenterId()\n
     '''
 def getAppBean():
-    '''public StartCenterAppBean getAppBean()
+    '''returns StartCenterAppBean\n\n
+    getAppBean()\n
     '''
 def setStartCenters():
-    '''public void setStartCenters(final ArrayList sc)
+    '''returns None\n\n
+    setStartCenters(final ArrayList sc)\n
     '''

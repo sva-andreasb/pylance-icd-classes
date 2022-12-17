@@ -1,87 +1,112 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloScenarioProcessor():
-    '''public IloScenarioProcessor(final IloCplexController controller)
+def ():
+    '''returns GapAndOptimalityInfo\n\n
+    (final IloCplexController controller)\n
+    (final double gap, final boolean hasGap, final boolean isOptimal)\n
     '''
 def getController():
-    '''public IloCplexController getController()
+    '''returns IloCplexController\n\n
+    getController()\n
     '''
 def publishOptimResultStatus():
-    '''public void publishOptimResultStatus(final IloOptimResultStatus report)
+    '''returns None\n\n
+    publishOptimResultStatus(final IloOptimResultStatus report)\n
     '''
 def updateOptimResultStatus():
-    '''public void updateOptimResultStatus(final IloOptimResultStatus report)
+    '''returns None\n\n
+    updateOptimResultStatus(final IloOptimResultStatus report)\n
     '''
 def changeRequirementPriorities():
-    '''public IloRequirementId[] changeRequirementPriorities(final IloTable requirementPropertyInput)
+    '''returns IloRequirementId[]\n\n
+    changeRequirementPriorities(final IloTable requirementPropertyInput)\n
     '''
 def executeEngine():
-    '''public boolean executeEngine(final IloEngineRequest request)
+    '''returns boolean\n\n
+    executeEngine(final IloEngineRequest request)\n
     '''
 def makeExplanationTable():
-    '''public IloOrderedTableImpl makeExplanationTable()
-    public IloOrderedTableImpl makeExplanationTable(final IloExplanation explanation, final IloSolutionReport solutionReport)
+    '''returns IloOrderedTableImpl\n\n
+    makeExplanationTable()\n
+    makeExplanationTable(final IloExplanation explanation, final IloSolutionReport solutionReport)\n
     '''
 def getScenarioInput():
-    '''public IloScenarioInput getScenarioInput()
+    '''returns IloScenarioInput\n\n
+    getScenarioInput()\n
     '''
 def getErrorReport():
-    '''public IloErrorReport getErrorReport()
+    '''returns IloErrorReport\n\n
+    getErrorReport()\n
     '''
 def setErrorReporter():
-    '''public void setErrorReporter(final IloErrorReporter reporter)
+    '''returns None\n\n
+    setErrorReporter(final IloErrorReporter reporter)\n
     '''
 def setScenarioInput():
-    '''public void setScenarioInput(final IloScenarioInput input)
+    '''returns None\n\n
+    setScenarioInput(final IloScenarioInput input)\n
     '''
 def setEngineRequest():
-    '''public void setEngineRequest(final IloEngineRequest request)
+    '''returns None\n\n
+    setEngineRequest(final IloEngineRequest request)\n
     '''
 def getEngineRequest():
-    '''public IloEngineRequest getEngineRequest()
+    '''returns IloEngineRequest\n\n
+    getEngineRequest()\n
     '''
 def setScenarioInfo():
-    '''public void setScenarioInfo(final IloScenarioInfo info)
+    '''returns None\n\n
+    setScenarioInfo(final IloScenarioInfo info)\n
     '''
 def addDecisonVariablesConstraints():
-    '''public IloCompositeId[] addDecisonVariablesConstraints(final IloDecisionVariableConstraints constraints)
+    '''returns IloCompositeId[]\n\n
+    addDecisonVariablesConstraints(final IloDecisionVariableConstraints constraints)\n
     '''
 def findGoalBound():
-    '''public IloGoalBoundsReport findGoalBound(final IloGoalBoundsRequest request, final IloGoalBoundsReport goalReport, final IloSolvingInterrupter interrupter)
+    '''returns IloGoalBoundsReport\n\n
+    findGoalBound(final IloGoalBoundsRequest request, final IloGoalBoundsReport goalReport, final IloSolvingInterrupter interrupter)\n
     '''
 def publishGoalBoundResults():
-    '''public void publishGoalBoundResults(final IloGoalBoundsReport goalReport, final IloCplexController controller, final String objName, final String sPriority, final boolean isBest)
+    '''returns None\n\n
+    publishGoalBoundResults(final IloGoalBoundsReport goalReport, final IloCplexController controller, final String objName, final String sPriority, final boolean isBest)\n
     '''
 def publishGoalReports():
-    '''public boolean publishGoalReports()
-    public boolean publishGoalReports(final IloPersistentGoalReport target, final boolean isMonitoring)
+    '''returns boolean\n\n
+    publishGoalReports()\n
+    publishGoalReports(final IloPersistentGoalReport target, final boolean isMonitoring)\n
     '''
 def makeGoalReportTable():
-    '''public boolean makeGoalReportTable(final IloOrderedTableImpl result, final boolean isMonitoring)
+    '''returns boolean\n\n
+    makeGoalReportTable(final IloOrderedTableImpl result, final boolean isMonitoring)\n
     '''
 def publishDecisionVariableReports():
-    '''public void publishDecisionVariableReports()
+    '''returns None\n\n
+    publishDecisionVariableReports()\n
     '''
 def makeDecisionVariablesTable():
-    '''public IloOrderedTableImpl makeDecisionVariablesTable(final IloSchemaImpl schema)
+    '''returns IloOrderedTableImpl\n\n
+    makeDecisionVariablesTable(final IloSchemaImpl schema)\n
     '''
 def publishExplanation():
-    '''public void publishExplanation()
+    '''returns None\n\n
+    publishExplanation()\n
     '''
 def getDefaultPriorityManager():
-    '''public IloDefaultPriorityManager getDefaultPriorityManager()
+    '''returns IloDefaultPriorityManager\n\n
+    getDefaultPriorityManager()\n
     '''
 def getScenarioInfo():
-    '''public IloScenarioInfo getScenarioInfo()
-    '''
-def GapAndOptimalityInfo():
-    '''public GapAndOptimalityInfo(final double gap, final boolean hasGap, final boolean isOptimal)
+    '''returns IloScenarioInfo\n\n
+    getScenarioInfo()\n
     '''
 def getGap():
-    '''public double getGap()
+    '''returns double\n\n
+    getGap()\n
     '''
 def hasGap():
-    '''public boolean hasGap()
+    '''returns boolean\n\n
+    hasGap()\n
     '''
 def isOptimal():
-    '''public boolean isOptimal()
+    '''returns boolean\n\n
+    isOptimal()\n
     '''

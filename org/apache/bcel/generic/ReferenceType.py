@@ -1,12 +1,16 @@
 def isCastableTo():
-    '''public boolean isCastableTo(final Type t)
+    '''returns boolean\n\n
+    isCastableTo(final Type t)\n
     '''
 def isAssignmentCompatibleWith():
-    '''public boolean isAssignmentCompatibleWith(final Type t)
+    '''returns boolean\n\n
+    isAssignmentCompatibleWith(final Type t)\n
     '''
 def getFirstCommonSuperclass():
-    '''public ReferenceType getFirstCommonSuperclass(final ReferenceType t)
+    '''returns ReferenceType\n\n
+    getFirstCommonSuperclass(final ReferenceType t)\n
     '''
 def firstCommonSuperclass():
-    '''public ReferenceType firstCommonSuperclass(final ReferenceType t)
+    '''returns ReferenceType\n\n
+    firstCommonSuperclass(final ReferenceType t)\n
     '''

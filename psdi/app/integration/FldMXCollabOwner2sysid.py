@@ -1,9 +1,12 @@
-def FldMXCollabOwner2sysid():
-    '''public FldMXCollabOwner2sysid(final MboValue mbv)
+def ():
+    '''returns FldMXCollabOwner2sysid\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

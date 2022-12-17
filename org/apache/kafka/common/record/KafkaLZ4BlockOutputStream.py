@@ -6,57 +6,61 @@ BLOCKSIZE_64KB = "int  4"
 BLOCKSIZE_256KB = "int  5"
 BLOCKSIZE_1MB = "int  6"
 BLOCKSIZE_4MB = "int  7"
-def KafkaLZ4BlockOutputStream():
-    '''public KafkaLZ4BlockOutputStream(final OutputStream out, final int blockSize, final boolean blockChecksum, final boolean useBrokenFlagDescriptorChecksum)
-    public KafkaLZ4BlockOutputStream(final OutputStream out, final int blockSize, final boolean blockChecksum)
-    public KafkaLZ4BlockOutputStream(final OutputStream out, final int blockSize)
-    public KafkaLZ4BlockOutputStream(final OutputStream out)
-    public KafkaLZ4BlockOutputStream(final OutputStream out, final boolean useBrokenHC)
+def ():
+    '''returns BD\n\n
+    (final OutputStream out, final int blockSize, final boolean blockChecksum, final boolean useBrokenFlagDescriptorChecksum)\n
+    (final OutputStream out, final int blockSize, final boolean blockChecksum)\n
+    (final OutputStream out, final int blockSize)\n
+    (final OutputStream out)\n
+    (final OutputStream out, final boolean useBrokenHC)\n
+    ()\n
+    (final boolean blockChecksum)\n
+    ()\n
+    (final int blockSizeValue)\n
     '''
 def useBrokenFlagDescriptorChecksum():
-    '''public boolean useBrokenFlagDescriptorChecksum()
+    '''returns boolean\n\n
+    useBrokenFlagDescriptorChecksum()\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b, int off, int len)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b, int off, int len)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
-    '''
-def FLG():
-    '''public FLG()
-    public FLG(final boolean blockChecksum)
-    '''
-def fromByte():
-    '''public static FLG fromByte(final byte flg)
-    public static BD fromByte(final byte bd)
+    '''returns None\n\n
+    close()\n
     '''
 def toByte():
-    '''public byte toByte()
-    public byte toByte()
+    '''returns byte\n\n
+    toByte()\n
+    toByte()\n
     '''
 def isContentChecksumSet():
-    '''public boolean isContentChecksumSet()
+    '''returns boolean\n\n
+    isContentChecksumSet()\n
     '''
 def isContentSizeSet():
-    '''public boolean isContentSizeSet()
+    '''returns boolean\n\n
+    isContentSizeSet()\n
     '''
 def isBlockChecksumSet():
-    '''public boolean isBlockChecksumSet()
+    '''returns boolean\n\n
+    isBlockChecksumSet()\n
     '''
 def isBlockIndependenceSet():
-    '''public boolean isBlockIndependenceSet()
+    '''returns boolean\n\n
+    isBlockIndependenceSet()\n
     '''
 def getVersion():
-    '''public int getVersion()
-    '''
-def BD():
-    '''public BD()
-    public BD(final int blockSizeValue)
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getBlockMaximumSize():
-    '''public int getBlockMaximumSize()
+    '''returns int\n\n
+    getBlockMaximumSize()\n
     '''

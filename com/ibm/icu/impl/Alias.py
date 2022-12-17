@@ -1,3 +1,4 @@
-def Alias():
-    '''public Alias(final String path)
+def ():
+    '''returns Alias\n\n
+    (final String path)\n
     '''

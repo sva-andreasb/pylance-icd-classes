@@ -1,35 +1,46 @@
 START = "String  \"<html><font color='blue'><u>\""
 END = "String  \"</u></font></html>\""
-def ChecksumRenderer():
-    '''public ChecksumRenderer()
+def ():
+    '''returns ChecksumRenderer\n\n
+    ()\n
     '''
 def setValuesForCompare():
-    '''public void setValuesForCompare(final Object obj, final BlobCompareResults compareResults, final int column, final long version, final String fieldName)
+    '''returns None\n\n
+    setValuesForCompare(final Object obj, final BlobCompareResults compareResults, final int column, final long version, final String fieldName)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getObj():
-    '''public Object getObj()
+    '''returns Object\n\n
+    getObj()\n
     '''
 def getCompareResults():
-    '''public BlobCompareResults getCompareResults()
+    '''returns BlobCompareResults\n\n
+    getCompareResults()\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def getFirstDisplayName():
-    '''public String getFirstDisplayName()
+    '''returns String\n\n
+    getFirstDisplayName()\n
     '''
 def getSecondDisplayName():
-    '''public String getSecondDisplayName()
+    '''returns String\n\n
+    getSecondDisplayName()\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''

@@ -1,9 +1,9 @@
-def CurrencyAmount():
-    '''public CurrencyAmount(final Number number, final Currency currency)
-    public CurrencyAmount(final double number, final Currency currency)
-    public CurrencyAmount(final Number number, final java.util.Currency currency)
-    public CurrencyAmount(final double number, final java.util.Currency currency)
+def ():
+    '''returns CurrencyAmount\n\n
+    (final Number number, final Currency currency)\n
+    (final double number, final Currency currency)\n
     '''
 def getCurrency():
-    '''public Currency getCurrency()
+    '''returns Currency\n\n
+    getCurrency()\n
     '''

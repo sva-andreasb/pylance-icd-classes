@@ -1,16 +1,21 @@
-def GetPathIdResponse():
-    '''public GetPathIdResponse(final int pathId, final String ip)
-    public GetPathIdResponse(final NdrInputStream ndrInputStream)
+def ():
+    '''returns GetPathIdResponse\n\n
+    (final int pathId, final String ip)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def getMessageType():
-    '''public short getMessageType()
+    '''returns short\n\n
+    getMessageType()\n
     '''
 def getPathId():
-    '''public int getPathId()
+    '''returns int\n\n
+    getPathId()\n
     '''
 def getIpAddress():
-    '''public String getIpAddress()
+    '''returns String\n\n
+    getIpAddress()\n
     '''

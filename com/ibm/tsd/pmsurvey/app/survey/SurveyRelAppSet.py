@@ -1,3 +1,4 @@
-def SurveyRelAppSet():
-    '''public SurveyRelAppSet(final MboServerInterface ms)
+def ():
+    '''returns SurveyRelAppSet\n\n
+    (final MboServerInterface ms)\n
     '''

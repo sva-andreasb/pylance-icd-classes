@@ -1,57 +1,76 @@
-def UnknownElement():
-    '''public UnknownElement(final String elementName)
+def ():
+    '''returns UnknownElement\n\n
+    (final String elementName)\n
     '''
 def getChildren():
-    '''public List getChildren()
+    '''returns List\n\n
+    getChildren()\n
     '''
 def getTag():
-    '''public String getTag()
+    '''returns String\n\n
+    getTag()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def setNamespace():
-    '''public void setNamespace(String namespace)
+    '''returns None\n\n
+    setNamespace(String namespace)\n
     '''
 def getQName():
-    '''public String getQName()
+    '''returns String\n\n
+    getQName()\n
     '''
 def setQName():
-    '''public void setQName(final String qname)
+    '''returns None\n\n
+    setQName(final String qname)\n
     '''
 def getWrapper():
-    '''public RuntimeConfigurable getWrapper()
+    '''returns RuntimeConfigurable\n\n
+    getWrapper()\n
     '''
 def maybeConfigure():
-    '''public void maybeConfigure()
+    '''returns None\n\n
+    maybeConfigure()\n
     '''
 def configure():
-    '''public void configure(final Object realObject)
+    '''returns None\n\n
+    configure(final Object realObject)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def addChild():
-    '''public void addChild(final UnknownElement child)
+    '''returns None\n\n
+    addChild(final UnknownElement child)\n
     '''
 def applyPreSet():
-    '''public void applyPreSet(final UnknownElement u)
+    '''returns None\n\n
+    applyPreSet(final UnknownElement u)\n
     '''
 def getTaskName():
-    '''public String getTaskName()
+    '''returns String\n\n
+    getTaskName()\n
     '''
 def getTask():
-    '''public Task getTask()
+    '''returns Task\n\n
+    getTask()\n
     '''
 def getRealThing():
-    '''public Object getRealThing()
+    '''returns Object\n\n
+    getRealThing()\n
     '''
 def setRealThing():
-    '''public void setRealThing(final Object realThing)
+    '''returns None\n\n
+    setRealThing(final Object realThing)\n
     '''
 def similar():
-    '''public boolean similar(final Object obj)
+    '''returns boolean\n\n
+    similar(final Object obj)\n
     '''
 def copy():
-    '''public UnknownElement copy(final Project newProject)
+    '''returns UnknownElement\n\n
+    copy(final Project newProject)\n
     '''

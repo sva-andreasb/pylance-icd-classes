@@ -2,13 +2,16 @@ APIURL = "String  \"URL\""
 CLIENTID = "String  \"CLIENTID\""
 CLIENTSECRET = "String  \"CLIENTSECRET\""
 SIGNINGSECRET = "String  \"SIGNINGSECRET\""
-def ICDOAuthHandler():
-    '''public ICDOAuthHandler(final MaxEndPointInfo endPointInfo)
-    public ICDOAuthHandler()
+def ():
+    '''returns ICDOAuthHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData, final byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData, final byte[] data)\n
     '''

@@ -1,4 +1,5 @@
-def SDBExceptionSQL():
-    '''public SDBExceptionSQL(final SQLException cause)
-    public SDBExceptionSQL(final String msg, final SQLException cause)
+def ():
+    '''returns SDBExceptionSQL\n\n
+    (final SQLException cause)\n
+    (final String msg, final SQLException cause)\n
     '''

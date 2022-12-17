@@ -2,33 +2,31 @@ RC2_128_KEY_LENGTH = "int  16"
 RC2_40_KEY_LENGTH = "int  5"
 ENCRYPT_MODE = "int  0"
 DECRYPT_MODE = "int  1"
-def getInstance():
-    '''public static RC2Cipher getInstance(final String s)
-    '''
-def RC2Cipher():
-    '''public RC2Cipher()
+def ():
+    '''returns RC2Cipher\n\n
+    ()\n
     '''
 def getBlockSize():
-    '''public int getBlockSize()
+    '''returns int\n\n
+    getBlockSize()\n
     '''
 def getOutputSize():
-    '''public int getOutputSize(final int n)
+    '''returns int\n\n
+    getOutputSize(final int n)\n
     '''
 def init():
-    '''public void init(final int cipher_Mode, final byte[] array)
+    '''returns None\n\n
+    init(final int cipher_Mode, final byte[] array)\n
     '''
 def setIV():
-    '''public void setIV(final byte[] array)
+    '''returns None\n\n
+    setIV(final byte[] array)\n
     '''
 def getIV():
-    '''public byte[] getIV()
+    '''returns byte[]\n\n
+    getIV()\n
     '''
 def doFinal():
-    '''public byte[] doFinal(final byte[] array)
-    '''
-def encryptOT():
-    '''public static byte[] encryptOT(final byte[] array, final byte[] array2, final int n)
-    '''
-def decryptOT():
-    '''public static byte[] decryptOT(final byte[] array, final byte[] array2, final int n)
+    '''returns byte[]\n\n
+    doFinal(final byte[] array)\n
     '''

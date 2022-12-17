@@ -1,6 +1,8 @@
-def FldAsynchronous():
-    '''public FldAsynchronous(final MboValue mbv)
+def ():
+    '''returns FldAsynchronous\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

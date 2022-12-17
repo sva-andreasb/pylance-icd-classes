@@ -1,27 +1,32 @@
-def ItemSet():
-    '''public ItemSet(final MboServerInterface ms)
+def ():
+    '''returns ItemSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findSelectedItems():
-    '''public void findSelectedItems(final String where)
+    '''returns None\n\n
+    findSelectedItems(final String where)\n
     '''
 def addItemsWarning():
-    '''public void addItemsWarning()
+    '''returns None\n\n
+    addItemsWarning()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
-    '''
-def getJoinToItemOrgSize():
-    '''public static int getJoinToItemOrgSize()
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def getMultiSiteWhere():
-    '''public String getMultiSiteWhere()
+    '''returns String\n\n
+    getMultiSiteWhere()\n
     '''
 def setIsLookup():
-    '''public void setIsLookup(final boolean is)
+    '''returns None\n\n
+    setIsLookup(final boolean is)\n
     '''
 def isLookup():
-    '''public boolean isLookup()
+    '''returns boolean\n\n
+    isLookup()\n
     '''
 def isViewItemAvail():
-    '''public boolean isViewItemAvail()
+    '''returns boolean\n\n
+    isViewItemAvail()\n
     '''

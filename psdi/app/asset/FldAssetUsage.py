@@ -1,3 +1,4 @@
-def FldAssetUsage():
-    '''public FldAssetUsage(final MboValue mbv)
+def ():
+    '''returns FldAssetUsage\n\n
+    (final MboValue mbv)\n
     '''

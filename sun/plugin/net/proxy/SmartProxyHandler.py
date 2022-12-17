@@ -1,34 +1,42 @@
-def SmartProxyHandler():
-    '''public SmartProxyHandler(final ProxyHandler realHandler)
+def ():
+    '''returns ProxyRecord\n\n
+    (final ProxyHandler realHandler)\n
+    (final boolean isAlive, final long timeStamp)\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
     '''
 def isSupported():
-    '''public boolean isSupported(final int n)
+    '''returns boolean\n\n
+    isSupported(final int n)\n
     '''
 def isProxyCacheSupported():
-    '''public boolean isProxyCacheSupported()
+    '''returns boolean\n\n
+    isProxyCacheSupported()\n
     '''
 def init():
-    '''public void init(final BrowserProxyInfo browserProxyInfo)
+    '''returns None\n\n
+    init(final BrowserProxyInfo browserProxyInfo)\n
     '''
 def getProxyInfo():
-    '''public ProxyInfo[] getProxyInfo(final URL url)
-    '''
-def ProxyRecord():
-    '''public ProxyRecord(final boolean isAlive, final long timeStamp)
+    '''returns ProxyInfo[]\n\n
+    getProxyInfo(final URL url)\n
     '''
 def getStatus():
-    '''public boolean getStatus()
+    '''returns boolean\n\n
+    getStatus()\n
     '''
 def getTimeStamp():
-    '''public long getTimeStamp()
+    '''returns long\n\n
+    getTimeStamp()\n
     '''
 def setStatus():
-    '''public void setStatus(final boolean isAlive)
+    '''returns None\n\n
+    setStatus(final boolean isAlive)\n
     '''
 def setTimeStamp():
-    '''public void setTimeStamp(final long timeStamp)
+    '''returns None\n\n
+    setTimeStamp(final long timeStamp)\n
     '''

@@ -1,61 +1,80 @@
-def IOContext():
-    '''public IOContext(final BufferRecycler br, final Object sourceRef, final boolean managedResource)
+def ():
+    '''returns IOContext\n\n
+    (final BufferRecycler br, final Object sourceRef, final boolean managedResource)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final JsonEncoding enc)
+    '''returns None\n\n
+    setEncoding(final JsonEncoding enc)\n
     '''
 def withEncoding():
-    '''public IOContext withEncoding(final JsonEncoding enc)
+    '''returns IOContext\n\n
+    withEncoding(final JsonEncoding enc)\n
     '''
 def getSourceReference():
-    '''public Object getSourceReference()
+    '''returns Object\n\n
+    getSourceReference()\n
     '''
 def getEncoding():
-    '''public JsonEncoding getEncoding()
+    '''returns JsonEncoding\n\n
+    getEncoding()\n
     '''
 def isResourceManaged():
-    '''public boolean isResourceManaged()
+    '''returns boolean\n\n
+    isResourceManaged()\n
     '''
 def constructTextBuffer():
-    '''public TextBuffer constructTextBuffer()
+    '''returns TextBuffer\n\n
+    constructTextBuffer()\n
     '''
 def allocReadIOBuffer():
-    '''public byte[] allocReadIOBuffer()
-    public byte[] allocReadIOBuffer(final int minSize)
+    '''returns byte[]\n\n
+    allocReadIOBuffer()\n
+    allocReadIOBuffer(final int minSize)\n
     '''
 def allocWriteEncodingBuffer():
-    '''public byte[] allocWriteEncodingBuffer()
-    public byte[] allocWriteEncodingBuffer(final int minSize)
+    '''returns byte[]\n\n
+    allocWriteEncodingBuffer()\n
+    allocWriteEncodingBuffer(final int minSize)\n
     '''
 def allocBase64Buffer():
-    '''public byte[] allocBase64Buffer()
-    public byte[] allocBase64Buffer(final int minSize)
+    '''returns byte[]\n\n
+    allocBase64Buffer()\n
+    allocBase64Buffer(final int minSize)\n
     '''
 def allocTokenBuffer():
-    '''public char[] allocTokenBuffer()
-    public char[] allocTokenBuffer(final int minSize)
+    '''returns char[]\n\n
+    allocTokenBuffer()\n
+    allocTokenBuffer(final int minSize)\n
     '''
 def allocConcatBuffer():
-    '''public char[] allocConcatBuffer()
+    '''returns char[]\n\n
+    allocConcatBuffer()\n
     '''
 def allocNameCopyBuffer():
-    '''public char[] allocNameCopyBuffer(final int minSize)
+    '''returns char[]\n\n
+    allocNameCopyBuffer(final int minSize)\n
     '''
 def releaseReadIOBuffer():
-    '''public void releaseReadIOBuffer(final byte[] buf)
+    '''returns None\n\n
+    releaseReadIOBuffer(final byte[] buf)\n
     '''
 def releaseWriteEncodingBuffer():
-    '''public void releaseWriteEncodingBuffer(final byte[] buf)
+    '''returns None\n\n
+    releaseWriteEncodingBuffer(final byte[] buf)\n
     '''
 def releaseBase64Buffer():
-    '''public void releaseBase64Buffer(final byte[] buf)
+    '''returns None\n\n
+    releaseBase64Buffer(final byte[] buf)\n
     '''
 def releaseTokenBuffer():
-    '''public void releaseTokenBuffer(final char[] buf)
+    '''returns None\n\n
+    releaseTokenBuffer(final char[] buf)\n
     '''
 def releaseConcatBuffer():
-    '''public void releaseConcatBuffer(final char[] buf)
+    '''returns None\n\n
+    releaseConcatBuffer(final char[] buf)\n
     '''
 def releaseNameCopyBuffer():
-    '''public void releaseNameCopyBuffer(final char[] buf)
+    '''returns None\n\n
+    releaseNameCopyBuffer(final char[] buf)\n
     '''

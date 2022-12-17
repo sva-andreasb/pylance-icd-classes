@@ -1,3 +1,4 @@
-def WarrViewChgStatSet():
-    '''public WarrViewChgStatSet(final MboServerInterface ms)
+def ():
+    '''returns WarrViewChgStatSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,267 +1,307 @@
 SAMESYSTEMCONNECTIONKEYPERTHREAD = "String  \"SameSystemConnectionKeyPerThread\""
 TENANTDBUSERNAMETOKEN = "String  \"TENANTDBUSERNAME\""
 LANDLORDTENANTID = "int  2"
-def SecurityService():
-    '''public SecurityService(final MXServer mxServer)
-    public SecurityService(final String url)
-    public SecurityService(final String url, final MXServer mxServer)
+def ():
+    '''returns LtpaTokenMonitor\n\n
+    (final MXServer mxServer)\n
+    (final String url)\n
+    (final String url, final MXServer mxServer)\n
+    (final UserInfo ui)\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def configure():
-    '''public void configure(final Properties configData)
+    '''returns None\n\n
+    configure(final Properties configData)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initLandlordUserInfo():
-    '''public void initLandlordUserInfo()
+    '''returns None\n\n
+    initLandlordUserInfo()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def authenticateUser():
-    '''public UserInfo authenticateUser(final String user, final String password, final String clientHostAddr)
-    public UserInfo authenticateUser(final String user, final String password, final Locale locale, final TimeZone timeZone, final String clientHostAddr)
-    public UserInfo authenticateUser(final String user, final Object cert, final String password, final Locale locale, final TimeZone timeZone, final String clientHostAddr)
-    public UserInfo authenticateUser(final String loginID, final Object cert, final String password, final Locale locale, final TimeZone timeZone, final String siteId, final String clientHostAddr)
-    public UserInfo authenticateUser(final String loginID, final String password, final Locale locale, final TimeZone timeZone, final String siteId, final String clientHostAddr)
-    public UserInfo authenticateUser(final String userIdentity)
-    public UserInfo authenticateUser(final String userIdentity, final boolean silentLogin)
+    '''returns UserInfo\n\n
+    authenticateUser(final String user, final String password, final String clientHostAddr)\n
+    authenticateUser(final String user, final String password, final Locale locale, final TimeZone timeZone, final String clientHostAddr)\n
+    authenticateUser(final String user, final Object cert, final String password, final Locale locale, final TimeZone timeZone, final String clientHostAddr)\n
+    authenticateUser(final String loginID, final Object cert, final String password, final Locale locale, final TimeZone timeZone, final String siteId, final String clientHostAddr)\n
+    authenticateUser(final String loginID, final String password, final Locale locale, final TimeZone timeZone, final String siteId, final String clientHostAddr)\n
+    authenticateUser(final String userIdentity)\n
+    authenticateUser(final String userIdentity, final boolean silentLogin)\n
     '''
 def authenticateUserM():
-    '''public UserInfo authenticateUserM(final String[] user, final String password, final String clientHostAddr)
-    public UserInfo authenticateUserM(final String[] user, final String password, final Locale locale, final TimeZone timeZone, final String clientHostAddr)
-    public UserInfo authenticateUserM(final String[] user, final Object cert, final String password, final Locale locale, final TimeZone timeZone, final String clientHostAddr)
-    public UserInfo authenticateUserM(final String[] loginID, final Object cert, final String password, final Locale locale, final TimeZone timeZone, final String siteId, final String clientHostAddr)
-    public UserInfo authenticateUserM(final String[] loginID, final String password, final Locale locale, final TimeZone timeZone, final String siteId, final String clientHostAddr)
-    public UserInfo authenticateUserM(final String[] userIdentity, final boolean silentLogin)
+    '''returns UserInfo\n\n
+    authenticateUserM(final String[] user, final String password, final String clientHostAddr)\n
+    authenticateUserM(final String[] user, final String password, final Locale locale, final TimeZone timeZone, final String clientHostAddr)\n
+    authenticateUserM(final String[] user, final Object cert, final String password, final Locale locale, final TimeZone timeZone, final String clientHostAddr)\n
+    authenticateUserM(final String[] loginID, final Object cert, final String password, final Locale locale, final TimeZone timeZone, final String siteId, final String clientHostAddr)\n
+    authenticateUserM(final String[] loginID, final String password, final Locale locale, final TimeZone timeZone, final String siteId, final String clientHostAddr)\n
+    authenticateUserM(final String[] userIdentity, final boolean silentLogin)\n
     '''
 def authenticateToken():
-    '''public UserInfo authenticateToken()
+    '''returns UserInfo\n\n
+    authenticateToken()\n
     '''
 def authenticateApiKey():
-    '''public UserInfo authenticateApiKey()
-    public UserInfo authenticateApiKey(final String tenantCode)
-    public UserInfo authenticateApiKey(final int tenantId)
-    public UserInfo authenticateApiKey(final String tenantCode, final String userId)
+    '''returns UserInfo\n\n
+    authenticateApiKey()\n
+    authenticateApiKey(final String tenantCode)\n
+    authenticateApiKey(final int tenantId)\n
+    authenticateApiKey(final String tenantCode, final String userId)\n
     '''
 def authenticateThisApiKey():
-    '''public UserInfo authenticateThisApiKey(final String apiKey)
+    '''returns UserInfo\n\n
+    authenticateThisApiKey(final String apiKey)\n
     '''
 def generateSessionToken():
-    '''public String generateSessionToken(final UserInfo userInfo, final String sessionId)
+    '''returns String\n\n
+    generateSessionToken(final UserInfo userInfo, final String sessionId)\n
     '''
 def authenticateSessionToken():
-    '''public UserInfo authenticateSessionToken(final String userId, final String sessionToken)
+    '''returns UserInfo\n\n
+    authenticateSessionToken(final String userId, final String sessionToken)\n
     '''
 def authenticateSessionTokenM():
-    '''public UserInfo authenticateSessionTokenM(final String[] userAndTenant, final String sessionToken)
+    '''returns UserInfo\n\n
+    authenticateSessionTokenM(final String[] userAndTenant, final String sessionToken)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo(final AuthenticatedAccessToken session, final Object cert, final Locale locale, final TimeZone timeZone)
-    public UserInfo getUserInfo(final AuthenticatedAccessToken session, final Object cert, final Locale locale, final TimeZone timeZone, final String clientHost, final String clientAddr)
-    public UserInfo getUserInfo(final AuthenticatedAccessToken session, final Locale locale, final TimeZone timeZone)
-    public UserInfo getUserInfo(final AuthenticatedAccessToken session, final Locale locale, final TimeZone timeZone, String clientHost, String clientAddr)
-    public UserInfo getUserInfo(String userIdentity)
-    public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo(final AuthenticatedAccessToken session, final Object cert, final Locale locale, final TimeZone timeZone)\n
+    getUserInfo(final AuthenticatedAccessToken session, final Object cert, final Locale locale, final TimeZone timeZone, final String clientHost, final String clientAddr)\n
+    getUserInfo(final AuthenticatedAccessToken session, final Locale locale, final TimeZone timeZone)\n
+    getUserInfo(final AuthenticatedAccessToken session, final Locale locale, final TimeZone timeZone, String clientHost, String clientAddr)\n
+    getUserInfo(String userIdentity)\n
+    getUserInfo()\n
     '''
 def authenticateUserForLoginID():
-    '''public UserInfo authenticateUserForLoginID(final String loginID, final boolean silentLogin)
-    public UserInfo authenticateUserForLoginID(final String[] loginID, final boolean silentLogin)
+    '''returns UserInfo\n\n
+    authenticateUserForLoginID(final String loginID, final boolean silentLogin)\n
+    authenticateUserForLoginID(final String[] loginID, final boolean silentLogin)\n
     '''
 def authenticateUserForLoginIDAndTenantID():
-    '''public UserInfo authenticateUserForLoginIDAndTenantID(final String[] loginID, final boolean silentLogin)
+    '''returns UserInfo\n\n
+    authenticateUserForLoginIDAndTenantID(final String[] loginID, final boolean silentLogin)\n
     '''
 def authenticateUserMTenantID():
-    '''public UserInfo authenticateUserMTenantID(final String[] userIdentity, final boolean silentLogin)
+    '''returns UserInfo\n\n
+    authenticateUserMTenantID(final String[] userIdentity, final boolean silentLogin)\n
     '''
 def isUser():
-    '''public boolean isUser(final UserInfo userinfo, final String loginCheck, final String passCheck)
+    '''returns boolean\n\n
+    isUser(final UserInfo userinfo, final String loginCheck, final String passCheck)\n
     '''
 def checkConcurrentUser():
-    '''public void checkConcurrentUser(final String userId, String loginID)
+    '''returns None\n\n
+    checkConcurrentUser(final String userId, String loginID)\n
     '''
 def getSystemUserInfo():
-    '''public UserInfo getSystemUserInfo()
+    '''returns UserInfo\n\n
+    getSystemUserInfo()\n
     '''
 def isSystemUserInfo():
-    '''public boolean isSystemUserInfo(final UserInfo ui)
+    '''returns boolean\n\n
+    isSystemUserInfo(final UserInfo ui)\n
     '''
 def setSystemCredential():
-    '''public void setSystemCredential(final UserInfo uiObject)
+    '''returns None\n\n
+    setSystemCredential(final UserInfo uiObject)\n
     '''
 def getProfile():
-    '''public ProfileRemote getProfile(final UserInfo userInfo)
-    public ProfileRemote getProfile(String userID)
-    public Profile getProfile()
-    public Profile getProfile(final boolean instanciateNew)
+    '''returns Profile\n\n
+    getProfile(final UserInfo userInfo)\n
+    getProfile(String userID)\n
+    getProfile()\n
+    getProfile(final boolean instanciateNew)\n
     '''
 def refreshProfile():
-    '''public void refreshProfile(final UserInfo userInfo, final Profile profile)
-    public void refreshProfile(final String userID, final Profile profile)
-    public void refreshProfile(final Profile newProfile)
+    '''returns None\n\n
+    refreshProfile(final UserInfo userInfo, final Profile profile)\n
+    refreshProfile(final String userID, final Profile profile)\n
+    refreshProfile(final Profile newProfile)\n
     '''
 def refreshSecurityInfo():
-    '''public void refreshSecurityInfo(final String userID, final MboRemote userMbo, final MboRemote personMbo)
+    '''returns None\n\n
+    refreshSecurityInfo(final String userID, final MboRemote userMbo, final MboRemote personMbo)\n
     '''
 def getDBUrl():
-    '''public String getDBUrl()
+    '''returns String\n\n
+    getDBUrl()\n
     '''
 def disconnectUser():
-    '''public void disconnectUser(final UserInfo userInfo)
-    public void disconnectUser(final UserInfo userInfo, final int disconnectType)
-    public void disconnectUser(final String userid, final long maxsessionid, final int disconnectType, final String adminUserID)
+    '''returns None\n\n
+    disconnectUser(final UserInfo userInfo)\n
+    disconnectUser(final UserInfo userInfo, final int disconnectType)\n
+    disconnectUser(final String userid, final long maxsessionid, final int disconnectType, final String adminUserID)\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def setURL():
-    '''public void setURL(final String url)
+    '''returns None\n\n
+    setURL(final String url)\n
     '''
 def isAppService():
-    '''public boolean isAppService()
+    '''returns boolean\n\n
+    isAppService()\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def isSingletonService():
-    '''public boolean isSingletonService()
+    '''returns boolean\n\n
+    isSingletonService()\n
     '''
 def getSessionCounter():
-    '''public int getSessionCounter()
-    public int getSessionCounter()
+    '''returns int\n\n
+    getSessionCounter()\n
+    getSessionCounter()\n
     '''
 def isValidTenant():
-    '''public boolean isValidTenant(final String tenantCode)
+    '''returns boolean\n\n
+    isValidTenant(final String tenantCode)\n
     '''
 def getTenantCode():
-    '''public String getTenantCode(final UserInfo ui)
-    '''
-def isLandlord():
-    '''public static boolean isLandlord(final int tenantID)
+    '''returns String\n\n
+    getTenantCode(final UserInfo ui)\n
     '''
 def reloadTenantReg():
-    '''public void reloadTenantReg(final String tenantCode)
+    '''returns None\n\n
+    reloadTenantReg(final String tenantCode)\n
     '''
 def getTempUserInfoForTenant():
-    '''public UserInfo getTempUserInfoForTenant(final UserInfo landlordUserInfo, final int tenantID, final String tenantUserName, final String tenantLoginID, final String dbUserName, final Locale l, final String langCode)
+    '''returns UserInfo\n\n
+    getTempUserInfoForTenant(final UserInfo landlordUserInfo, final int tenantID, final String tenantUserName, final String tenantLoginID, final String dbUserName, final Locale l, final String langCode)\n
     '''
 def createDb2TenantDbUserId():
-    '''public boolean createDb2TenantDbUserId(final UserInfo landlordUi, final String tenantDbUserId)
+    '''returns boolean\n\n
+    createDb2TenantDbUserId(final UserInfo landlordUi, final String tenantDbUserId)\n
     '''
 def isValidDBUserForMT():
-    '''public boolean isValidDBUserForMT(final UserInfo landlordUI, final String dbUserName)
+    '''returns boolean\n\n
+    isValidDBUserForMT(final UserInfo landlordUI, final String dbUserName)\n
     '''
 def getDBUserNameForTenant():
-    '''public String getDBUserNameForTenant(final UserInfo landlordUserInfo)
-    '''
-def getMasterModifiedObjects():
-    '''public Map<String, String> getMasterModifiedObjects()
+    '''returns String\n\n
+    getDBUserNameForTenant(final UserInfo landlordUserInfo)\n
     '''
 def getMasterMboValueInfo():
-    '''public MboValueInfo getMasterMboValueInfo(final MboRemote tenantMbo)
-    '''
-def createExtensionView():
-    '''public Map<String, String> createExtensionView(final Map<String, Map<String, Map<String, String>>> tableNames, final Set<String> deleteTables)
+    '''returns MboValueInfo\n\n
+    getMasterMboValueInfo(final MboRemote tenantMbo)\n
     '''
 def getMasterConfigLevel():
-    '''public int getMasterConfigLevel()
+    '''returns int\n\n
+    getMasterConfigLevel()\n
     '''
 def resetSystemUserInfo():
-    '''public void resetSystemUserInfo()
+    '''returns None\n\n
+    resetSystemUserInfo()\n
     '''
 def getRealmName():
-    '''public String getRealmName()
+    '''returns String\n\n
+    getRealmName()\n
     '''
 def allowNewSessions():
-    '''public boolean allowNewSessions()
-    public boolean allowNewSessions()
+    '''returns boolean\n\n
+    allowNewSessions()\n
+    allowNewSessions()\n
     '''
 def getAllowNewSessions():
-    '''public AllowNewSessions getAllowNewSessions()
+    '''returns AllowNewSessions\n\n
+    getAllowNewSessions()\n
     '''
 def processVMMParameters():
-    '''public void processVMMParameters(final LoadVMMSyncSettings settings)
+    '''returns None\n\n
+    processVMMParameters(final LoadVMMSyncSettings settings)\n
     '''
 def checkUniqueLoginID():
-    '''public void checkUniqueLoginID(String loginID)
+    '''returns None\n\n
+    checkUniqueLoginID(String loginID)\n
     '''
 def associateTenantsToConsultant():
-    '''public void associateTenantsToConsultant(final String loginID, final List<ConsultantInfo> alltenants)
+    '''returns None\n\n
+    associateTenantsToConsultant(final String loginID, final List<ConsultantInfo> alltenants)\n
     '''
 def populateConsultantFields():
-    '''public void populateConsultantFields(final String origLoginID, final String newLoginID, final MboRemote landlordMbo)
-    public void populateConsultantFields(final MboRemote landlordMbo, final MboRemote tenantMbo)
-    '''
-def loadCopyFieldsInfo():
-    '''public Map<String, List<List<String>>> loadCopyFieldsInfo()
+    '''returns None\n\n
+    populateConsultantFields(final String origLoginID, final String newLoginID, final MboRemote landlordMbo)\n
+    populateConsultantFields(final MboRemote landlordMbo, final MboRemote tenantMbo)\n
     '''
 def processConsultant():
-    '''public void processConsultant(final MboRemote consultMbo, final boolean isConsultant, final boolean validate)
+    '''returns None\n\n
+    processConsultant(final MboRemote consultMbo, final boolean isConsultant, final boolean validate)\n
     '''
 def checkIfUserLoaded():
-    '''public boolean checkIfUserLoaded(String loginID, final int intendedTenancy)
+    '''returns boolean\n\n
+    checkIfUserLoaded(String loginID, final int intendedTenancy)\n
     '''
 def changeToAdminUser():
-    '''public Connection changeToAdminUser(final UserInfo lndlordInfo)
+    '''returns Connection\n\n
+    changeToAdminUser(final UserInfo lndlordInfo)\n
     '''
 def isValidDBUser():
-    '''public boolean isValidDBUser(final UserInfo lndlordInfo, final String tenantDbUserId)
+    '''returns boolean\n\n
+    isValidDBUser(final UserInfo lndlordInfo, final String tenantDbUserId)\n
     '''
 def registerConsultantUserListener():
-    '''public void registerConsultantUserListener()
+    '''returns None\n\n
+    registerConsultantUserListener()\n
     '''
 def isConsultantFieldModified():
-    '''public boolean isConsultantFieldModified(final MboRemote landlordMbo)
+    '''returns boolean\n\n
+    isConsultantFieldModified(final MboRemote landlordMbo)\n
     '''
 def blockConsultantUser():
-    '''public void blockConsultantUser(final MboRemote landlordUser)
+    '''returns None\n\n
+    blockConsultantUser(final MboRemote landlordUser)\n
     '''
 def getLtpaToken():
-    '''public String getLtpaToken(final HttpServletRequest request)
-    '''
-def killLtpaToken():
-    '''public static boolean killLtpaToken()
+    '''returns String\n\n
+    getLtpaToken(final HttpServletRequest request)\n
     '''
 def validateLtpaToken():
-    '''public void validateLtpaToken(final HttpServletRequest request)
+    '''returns None\n\n
+    validateLtpaToken(final HttpServletRequest request)\n
     '''
 def invalidateLtpaToken():
-    '''public void invalidateLtpaToken(final HttpServletRequest request)
-    '''
-def SecurityInfo():
-    '''public SecurityInfo(final UserInfo ui)
+    '''returns None\n\n
+    invalidateLtpaToken(final HttpServletRequest request)\n
     '''
 def setLastUsed():
-    '''public void setLastUsed(final Date date)
-    public void setLastUsed(final Date date, final long maxsessionid)
+    '''returns None\n\n
+    setLastUsed(final Date date)\n
+    setLastUsed(final Date date, final long maxsessionid)\n
     '''
 def getLastUsed():
-    '''public Date getLastUsed()
-    public Date getLastUsed(final long maxsessionid)
-    '''
-def getSessions():
-    '''public Map<Long, Date> getSessions()
+    '''returns Date\n\n
+    getLastUsed()\n
+    getLastUsed(final long maxsessionid)\n
     '''
 def removeSession():
-    '''public void removeSession(final long maxsessionid)
+    '''returns None\n\n
+    removeSession(final long maxsessionid)\n
     '''
 def refreshUserInfo():
-    '''public void refreshUserInfo(final UserInfo newUserInfo)
-    '''
-def UserMonitor():
-    '''public UserMonitor()
+    '''returns None\n\n
+    refreshUserInfo(final UserInfo newUserInfo)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    '''
-def SessionCounter():
-    '''public SessionCounter()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def masterAllowNewSessions():
-    '''public boolean masterAllowNewSessions()
-    '''
-def LtpaTokenMonitor():
-    '''public LtpaTokenMonitor()
+    '''returns boolean\n\n
+    masterAllowNewSessions()\n
     '''

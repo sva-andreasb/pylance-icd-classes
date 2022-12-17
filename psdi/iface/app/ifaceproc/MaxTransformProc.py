@@ -1,18 +1,24 @@
-def MaxTransformProc():
-    '''public MaxTransformProc(final MboSet ms)
+def ():
+    '''returns MaxTransformProc\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def checkCombineType():
-    '''public void checkCombineType(final String type)
+    '''returns None\n\n
+    checkCombineType(final String type)\n
     '''

@@ -1,3 +1,4 @@
-def PmIncLSNRBPCreateIncAction():
-    '''public PmIncLSNRBPCreateIncAction()
+def ():
+    '''returns PmIncLSNRBPCreateIncAction\n\n
+    ()\n
     '''

@@ -1,6 +1,8 @@
-def ReportFileExportSet():
-    '''public ReportFileExportSet(final MboServerInterface ms)
+def ():
+    '''returns ReportFileExportSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getOldDefault():
-    '''public MboRemote getOldDefault(final Mbo currentSelection)
+    '''returns MboRemote\n\n
+    getOldDefault(final Mbo currentSelection)\n
     '''

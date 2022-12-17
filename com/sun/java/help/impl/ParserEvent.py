@@ -1,27 +1,35 @@
-def ParserEvent():
-    '''public ParserEvent(final Object source, final Tag tag)
-    public ParserEvent(final Object source, final String text)
-    public ParserEvent(final Object source, final String target, final String data)
-    public ParserEvent(final Object source, final String root, final String publicId, final String systemId)
+def ():
+    '''returns ParserEvent\n\n
+    (final Object source, final Tag tag)\n
+    (final Object source, final String text)\n
+    (final Object source, final String target, final String data)\n
+    (final Object source, final String root, final String publicId, final String systemId)\n
     '''
 def getTag():
-    '''public Tag getTag()
+    '''returns Tag\n\n
+    getTag()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def getRoot():
-    '''public String getRoot()
+    '''returns String\n\n
+    getRoot()\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''

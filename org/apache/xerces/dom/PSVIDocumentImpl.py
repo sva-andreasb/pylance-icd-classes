@@ -1,21 +1,27 @@
-def PSVIDocumentImpl():
-    '''public PSVIDocumentImpl()
-    public PSVIDocumentImpl(final DocumentType documentType)
+def ():
+    '''returns PSVIDocumentImpl\n\n
+    ()\n
+    (final DocumentType documentType)\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
 def getImplementation():
-    '''public DOMImplementation getImplementation()
+    '''returns DOMImplementation\n\n
+    getImplementation()\n
     '''
 def createElementNS():
-    '''public Element createElementNS(final String s, final String s2)
-    public Element createElementNS(final String s, final String s2, final String s3)
+    '''returns Element\n\n
+    createElementNS(final String s, final String s2)\n
+    createElementNS(final String s, final String s2, final String s3)\n
     '''
 def createAttributeNS():
-    '''public Attr createAttributeNS(final String s, final String s2)
-    public Attr createAttributeNS(final String s, final String s2, final String s3)
+    '''returns Attr\n\n
+    createAttributeNS(final String s, final String s2)\n
+    createAttributeNS(final String s, final String s2, final String s3)\n
     '''
 def getDomConfig():
-    '''public DOMConfiguration getDomConfig()
+    '''returns DOMConfiguration\n\n
+    getDomConfig()\n
     '''

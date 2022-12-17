@@ -1,20 +1,22 @@
-def Profile():
-    '''public Profile(final String profileName, final AWSCredentials awsCredentials)
-    public Profile(final String profileName, final String sourceProfile, final AWSCredentialsProvider awsCredentials, final RoleInfo roleInfo)
+def ():
+    '''returns Profile\n\n
+    (final String profileName, final AWSCredentials awsCredentials)\n
+    (final String profileName, final String sourceProfile, final AWSCredentialsProvider awsCredentials, final RoleInfo roleInfo)\n
     '''
 def getCredentials():
-    '''public AWSCredentials getCredentials()
-    public AWSCredentials getCredentials()
+    '''returns AWSCredentials\n\n
+    getCredentials()\n
+    getCredentials()\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def getProfileName():
-    '''public String getProfileName()
-    '''
-def getProperties():
-    '''public Map<String, String> getProperties()
+    '''returns String\n\n
+    getProfileName()\n
     '''
 def getPropertyValue():
-    '''public String getPropertyValue(final String propertyName)
+    '''returns String\n\n
+    getPropertyValue(final String propertyName)\n
     '''

@@ -1,3 +1,4 @@
 def getCellNum():
-    '''public int getCellNum()
+    '''returns int\n\n
+    getCellNum()\n
     '''

@@ -1,22 +1,29 @@
-def VirtualMachineDescriptor():
-    '''public VirtualMachineDescriptor(final AttachProvider provider, final String id, final String displayName)
-    public VirtualMachineDescriptor(final AttachProvider attachProvider, final String s)
+def ():
+    '''returns VirtualMachineDescriptor\n\n
+    (final AttachProvider provider, final String id, final String displayName)\n
+    (final AttachProvider attachProvider, final String s)\n
     '''
 def provider():
-    '''public AttachProvider provider()
+    '''returns AttachProvider\n\n
+    provider()\n
     '''
 def id():
-    '''public String id()
+    '''returns String\n\n
+    id()\n
     '''
 def displayName():
-    '''public String displayName()
+    '''returns String\n\n
+    displayName()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

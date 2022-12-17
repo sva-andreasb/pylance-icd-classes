@@ -1,5 +1,6 @@
-def ConnectionPoolTimeoutException():
-    '''public ConnectionPoolTimeoutException()
-    public ConnectionPoolTimeoutException(final String message)
-    public ConnectionPoolTimeoutException(final String message, final Throwable cause)
+def ():
+    '''returns ConnectionPoolTimeoutException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

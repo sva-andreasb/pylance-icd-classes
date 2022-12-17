@@ -1,26 +1,34 @@
-def ReferenceTypeDeserializer():
-    '''public ReferenceTypeDeserializer(final JavaType fullType, final ValueInstantiator vi, final TypeDeserializer typeDeser, final JsonDeserializer<?> deser)
-    public ReferenceTypeDeserializer(final JavaType fullType, final TypeDeserializer typeDeser, final JsonDeserializer<?> deser)
+def ():
+    '''returns ReferenceTypeDeserializer\n\n
+    (final JavaType fullType, final ValueInstantiator vi, final TypeDeserializer typeDeser, final JsonDeserializer<?> deser)\n
+    (final JavaType fullType, final TypeDeserializer typeDeser, final JsonDeserializer<?> deser)\n
     '''
 def getNullAccessPattern():
-    '''public AccessPattern getNullAccessPattern()
+    '''returns AccessPattern\n\n
+    getNullAccessPattern()\n
     '''
 def getEmptyAccessPattern():
-    '''public AccessPattern getEmptyAccessPattern()
+    '''returns AccessPattern\n\n
+    getEmptyAccessPattern()\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
     '''
 def getValueType():
-    '''public JavaType getValueType()
+    '''returns JavaType\n\n
+    getValueType()\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''
 def deserialize():
-    '''public T deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public T deserialize(final JsonParser p, final DeserializationContext ctxt, final T reference)
+    '''returns T\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final T reference)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''

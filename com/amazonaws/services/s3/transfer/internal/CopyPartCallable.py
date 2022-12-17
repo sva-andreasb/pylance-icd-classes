@@ -1,6 +1,8 @@
-def CopyPartCallable():
-    '''public CopyPartCallable(final AmazonS3 s3, final CopyPartRequest request)
+def ():
+    '''returns CopyPartCallable\n\n
+    (final AmazonS3 s3, final CopyPartRequest request)\n
     '''
 def call():
-    '''public PartETag call()
+    '''returns PartETag\n\n
+    call()\n
     '''

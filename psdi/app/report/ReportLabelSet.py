@@ -1,3 +1,4 @@
-def ReportLabelSet():
-    '''public ReportLabelSet(final MboServerInterface ms)
+def ():
+    '''returns ReportLabelSet\n\n
+    (final MboServerInterface ms)\n
     '''

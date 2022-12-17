@@ -1,3 +1,4 @@
-def PmGUIDownloadSet():
-    '''public PmGUIDownloadSet(final MboServerInterface ms)
+def ():
+    '''returns PmGUIDownloadSet\n\n
+    (final MboServerInterface ms)\n
     '''

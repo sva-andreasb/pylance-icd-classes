@@ -1,40 +1,53 @@
-def PlusPClassSpec():
-    '''public PlusPClassSpec(final MboSet arg0)
+def ():
+    '''returns PlusPClassSpec\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def adjustCustomerReadOnly():
-    '''public void adjustCustomerReadOnly()
+    '''returns None\n\n
+    adjustCustomerReadOnly()\n
     '''
 def canAddCustomer():
-    '''public void canAddCustomer(final String anObject)
-    public void canAddCustomer()
+    '''returns None\n\n
+    canAddCustomer(final String anObject)\n
+    canAddCustomer()\n
     '''
 def postAddCustomer():
-    '''public void postAddCustomer(final MboRemote mboRemote)
+    '''returns None\n\n
+    postAddCustomer(final MboRemote mboRemote)\n
     '''
 def postRemoveCustomer():
-    '''public void postRemoveCustomer(final MboRemote mboRemote)
+    '''returns None\n\n
+    postRemoveCustomer(final MboRemote mboRemote)\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote newClassSpecSet, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote newClassSpecSet, final long mboAddFlags)\n
     '''
 def cancelAddModifyCustDialog():
-    '''public void cancelAddModifyCustDialog(final boolean b)
+    '''returns None\n\n
+    cancelAddModifyCustDialog(final boolean b)\n
     '''
 def getCustomerListToRestrictCommonLookups():
-    '''public String getCustomerListToRestrictCommonLookups()
+    '''returns String\n\n
+    getCustomerListToRestrictCommonLookups()\n
     '''
 def addOtherSpecs():
-    '''public void addOtherSpecs(final MboSetRemote mboSet)
+    '''returns None\n\n
+    addOtherSpecs(final MboSetRemote mboSet)\n
     '''

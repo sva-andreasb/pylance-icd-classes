@@ -1,37 +1,49 @@
-def ReportResponseWrapper():
-    '''public ReportResponseWrapper(final HttpServletResponse response)
+def ():
+    '''returns ReportResponseWrapper\n\n
+    (final HttpServletResponse response)\n
     '''
 def sendError():
-    '''public void sendError(final int sc)
-    public void sendError(final int sc, final String msg)
+    '''returns None\n\n
+    sendError(final int sc)\n
+    sendError(final int sc, final String msg)\n
     '''
 def setStatus():
-    '''public void setStatus(final int sc)
+    '''returns None\n\n
+    setStatus(final int sc)\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''
 def getOriginalOutputStream():
-    '''public ServletOutputStream getOriginalOutputStream()
+    '''returns ServletOutputStream\n\n
+    getOriginalOutputStream()\n
     '''
 def getOutputStream():
-    '''public ServletOutputStream getOutputStream()
+    '''returns ServletOutputStream\n\n
+    getOutputStream()\n
     '''
 def flushBuffer():
-    '''public void flushBuffer()
+    '''returns None\n\n
+    flushBuffer()\n
     '''
 def getOriginalWriter():
-    '''public PrintWriter getOriginalWriter()
+    '''returns PrintWriter\n\n
+    getOriginalWriter()\n
     '''
 def getWriter():
-    '''public PrintWriter getWriter()
+    '''returns PrintWriter\n\n
+    getWriter()\n
     '''
 def getOutput():
-    '''public byte[] getOutput()
+    '''returns byte[]\n\n
+    getOutput()\n
     '''
 def getOutputStreamCalled():
-    '''public boolean getOutputStreamCalled()
+    '''returns boolean\n\n
+    getOutputStreamCalled()\n
     '''
 def getWriterCalled():
-    '''public boolean getWriterCalled()
+    '''returns boolean\n\n
+    getWriterCalled()\n
     '''

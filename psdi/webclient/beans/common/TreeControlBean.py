@@ -1,81 +1,108 @@
-def TreeControlBean():
-    '''public TreeControlBean()
+def ():
+    '''returns TreeControlBean\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def setcurrentnode():
-    '''public void setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)
+    '''returns None\n\n
+    setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)\n
     '''
 def getTop():
-    '''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getTop(final String[] dataattributes, final int maxchildren)\n
     '''
 def getChildren():
-    '''public Object[][] getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)\n
     '''
 def getPathToTop():
-    '''public Object[][] getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)\n
     '''
 def getMboValueData():
-    '''public Object[] getMboValueData(final String[] dataattributes)
+    '''returns Object[]\n\n
+    getMboValueData(final String[] dataattributes)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String objectname, final String uniqueid, final String hierarchy)\n
     '''
 def getobjectname():
-    '''public String getobjectname()
+    '''returns String\n\n
+    getobjectname()\n
     '''
 def setobjectname():
-    '''public void setobjectname(final String newobjectname)
+    '''returns None\n\n
+    setobjectname(final String newobjectname)\n
     '''
 def getuniqueidname():
-    '''public String getuniqueidname()
+    '''returns String\n\n
+    getuniqueidname()\n
     '''
 def setuniqueidname():
-    '''public void setuniqueidname(final String newuniqueidname)
+    '''returns None\n\n
+    setuniqueidname(final String newuniqueidname)\n
     '''
 def getuniqueidvalue():
-    '''public String getuniqueidvalue()
+    '''returns String\n\n
+    getuniqueidvalue()\n
     '''
 def setuniqueidvalue():
-    '''public void setuniqueidvalue(final String newuniqueidvalue)
+    '''returns None\n\n
+    setuniqueidvalue(final String newuniqueidvalue)\n
     '''
 def setRefreshTree():
-    '''public void setRefreshTree(final boolean flag)
+    '''returns None\n\n
+    setRefreshTree(final boolean flag)\n
     '''
 def getRefreshTree():
-    '''public boolean getRefreshTree()
+    '''returns boolean\n\n
+    getRefreshTree()\n
     '''
 def getSourceAttributeValue():
-    '''public String getSourceAttributeValue()
+    '''returns String\n\n
+    getSourceAttributeValue()\n
     '''
 def setSourceAttributeValue():
-    '''public void setSourceAttributeValue(final String sourceAttributevalue)
+    '''returns None\n\n
+    setSourceAttributeValue(final String sourceAttributevalue)\n
     '''
 def getSourceDataAttribute():
-    '''public String getSourceDataAttribute()
+    '''returns String\n\n
+    getSourceDataAttribute()\n
     '''
 def setSourceDataAttribute():
-    '''public void setSourceDataAttribute(final String sourceDataattribute)
+    '''returns None\n\n
+    setSourceDataAttribute(final String sourceDataattribute)\n
     '''
 def getBreadcrumbs():
-    '''public ArrayList getBreadcrumbs()
+    '''returns ArrayList\n\n
+    getBreadcrumbs()\n
     '''
 def clearbreadcrumbs():
-    '''public int clearbreadcrumbs()
+    '''returns int\n\n
+    clearbreadcrumbs()\n
     '''
 def getBoundTree():
-    '''public Tree getBoundTree()
+    '''returns Tree\n\n
+    getBoundTree()\n
     '''
 def markTreesForRefresh():
-    '''public void markTreesForRefresh(final String dontRefreshMe)
+    '''returns None\n\n
+    markTreesForRefresh(final String dontRefreshMe)\n
     '''
 def setIgnoreTreeRefresh():
-    '''public void setIgnoreTreeRefresh(final boolean ignoreTreeRefresh)
+    '''returns None\n\n
+    setIgnoreTreeRefresh(final boolean ignoreTreeRefresh)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''

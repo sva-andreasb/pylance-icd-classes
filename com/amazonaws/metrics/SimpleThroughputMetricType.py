@@ -1,6 +1,8 @@
-def SimpleThroughputMetricType():
-    '''public SimpleThroughputMetricType(final String name, final String serviceName, final String byteCountMetricName)
+def ():
+    '''returns SimpleThroughputMetricType\n\n
+    (final String name, final String serviceName, final String byteCountMetricName)\n
     '''
 def getByteCountMetricType():
-    '''public ServiceMetricType getByteCountMetricType()
+    '''returns ServiceMetricType\n\n
+    getByteCountMetricType()\n
     '''

@@ -1,8 +1,10 @@
-def UnmodifiableMapEntry():
-    '''public UnmodifiableMapEntry(final K key, final V value)
-    public UnmodifiableMapEntry(final KeyValue<? extends K, ? extends V> pair)
-    public UnmodifiableMapEntry(final Map.Entry<? extends K, ? extends V> entry)
+def ():
+    '''returns UnmodifiableMapEntry\n\n
+    (final K key, final V value)\n
+    (final KeyValue<? extends K, ? extends V> pair)\n
+    (final Map.Entry<? extends K, ? extends V> entry)\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''

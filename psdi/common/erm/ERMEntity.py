@@ -1,36 +1,48 @@
-def ERMEntity():
-    '''public ERMEntity()
+def ():
+    '''returns ERMEntity\n\n
+    ()\n
     '''
 def getAttributes():
-    '''public Collection<ERMAttribute> getAttributes()
+    '''returns Collection<ERMAttribute>\n\n
+    getAttributes()\n
     '''
 def getAttribute():
-    '''public ERMAttribute getAttribute(final String attributeName)
+    '''returns ERMAttribute\n\n
+    getAttribute(final String attributeName)\n
     '''
 def addAttribute():
-    '''public ERMAttribute addAttribute(final ERMAttribute attribute)
+    '''returns ERMAttribute\n\n
+    addAttribute(final ERMAttribute attribute)\n
     '''
 def getChildEntities():
-    '''public Collection<ERMEntity> getChildEntities()
+    '''returns Collection<ERMEntity>\n\n
+    getChildEntities()\n
     '''
 def addChildEntity():
-    '''public void addChildEntity(final String name, final ERMEntity entity)
+    '''returns None\n\n
+    addChildEntity(final String name, final ERMEntity entity)\n
     '''
 def getChildEntity():
-    '''public ERMEntity getChildEntity(final String name)
+    '''returns ERMEntity\n\n
+    getChildEntity(final String name)\n
     '''
 def getRelatedEntity():
-    '''public ERMEntity getRelatedEntity(final String relationship)
+    '''returns ERMEntity\n\n
+    getRelatedEntity(final String relationship)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getParentEntity():
-    '''public ERMEntity getParentEntity()
+    '''returns ERMEntity\n\n
+    getParentEntity()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

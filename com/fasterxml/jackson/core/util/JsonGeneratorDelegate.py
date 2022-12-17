@@ -1,203 +1,263 @@
-def JsonGeneratorDelegate():
-    '''public JsonGeneratorDelegate(final JsonGenerator d)
-    public JsonGeneratorDelegate(final JsonGenerator d, final boolean delegateCopyMethods)
+def ():
+    '''returns JsonGeneratorDelegate\n\n
+    (final JsonGenerator d)\n
+    (final JsonGenerator d, final boolean delegateCopyMethods)\n
     '''
 def getCurrentValue():
-    '''public Object getCurrentValue()
+    '''returns Object\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final Object v)
+    '''returns None\n\n
+    setCurrentValue(final Object v)\n
     '''
 def getDelegate():
-    '''public JsonGenerator getDelegate()
+    '''returns JsonGenerator\n\n
+    getDelegate()\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
     '''
 def setCodec():
-    '''public JsonGenerator setCodec(final ObjectCodec oc)
+    '''returns JsonGenerator\n\n
+    setCodec(final ObjectCodec oc)\n
     '''
 def setSchema():
-    '''public void setSchema(final FormatSchema schema)
+    '''returns None\n\n
+    setSchema(final FormatSchema schema)\n
     '''
 def getSchema():
-    '''public FormatSchema getSchema()
+    '''returns FormatSchema\n\n
+    getSchema()\n
     '''
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def getOutputTarget():
-    '''public Object getOutputTarget()
+    '''returns Object\n\n
+    getOutputTarget()\n
     '''
 def getOutputBuffered():
-    '''public int getOutputBuffered()
+    '''returns int\n\n
+    getOutputBuffered()\n
     '''
 def canUseSchema():
-    '''public boolean canUseSchema(final FormatSchema schema)
+    '''returns boolean\n\n
+    canUseSchema(final FormatSchema schema)\n
     '''
 def canWriteTypeId():
-    '''public boolean canWriteTypeId()
+    '''returns boolean\n\n
+    canWriteTypeId()\n
     '''
 def canWriteObjectId():
-    '''public boolean canWriteObjectId()
+    '''returns boolean\n\n
+    canWriteObjectId()\n
     '''
 def canWriteBinaryNatively():
-    '''public boolean canWriteBinaryNatively()
+    '''returns boolean\n\n
+    canWriteBinaryNatively()\n
     '''
 def canOmitFields():
-    '''public boolean canOmitFields()
+    '''returns boolean\n\n
+    canOmitFields()\n
     '''
 def enable():
-    '''public JsonGenerator enable(final Feature f)
+    '''returns JsonGenerator\n\n
+    enable(final Feature f)\n
     '''
 def disable():
-    '''public JsonGenerator disable(final Feature f)
+    '''returns JsonGenerator\n\n
+    disable(final Feature f)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Feature f)
+    '''returns boolean\n\n
+    isEnabled(final Feature f)\n
     '''
 def getFeatureMask():
-    '''public int getFeatureMask()
+    '''returns int\n\n
+    getFeatureMask()\n
     '''
 def setFeatureMask():
-    '''public JsonGenerator setFeatureMask(final int mask)
+    '''returns JsonGenerator\n\n
+    setFeatureMask(final int mask)\n
     '''
 def overrideStdFeatures():
-    '''public JsonGenerator overrideStdFeatures(final int values, final int mask)
+    '''returns JsonGenerator\n\n
+    overrideStdFeatures(final int values, final int mask)\n
     '''
 def overrideFormatFeatures():
-    '''public JsonGenerator overrideFormatFeatures(final int values, final int mask)
+    '''returns JsonGenerator\n\n
+    overrideFormatFeatures(final int values, final int mask)\n
     '''
 def setPrettyPrinter():
-    '''public JsonGenerator setPrettyPrinter(final PrettyPrinter pp)
+    '''returns JsonGenerator\n\n
+    setPrettyPrinter(final PrettyPrinter pp)\n
     '''
 def getPrettyPrinter():
-    '''public PrettyPrinter getPrettyPrinter()
+    '''returns PrettyPrinter\n\n
+    getPrettyPrinter()\n
     '''
 def useDefaultPrettyPrinter():
-    '''public JsonGenerator useDefaultPrettyPrinter()
+    '''returns JsonGenerator\n\n
+    useDefaultPrettyPrinter()\n
     '''
 def setHighestNonEscapedChar():
-    '''public JsonGenerator setHighestNonEscapedChar(final int charCode)
+    '''returns JsonGenerator\n\n
+    setHighestNonEscapedChar(final int charCode)\n
     '''
 def getHighestEscapedChar():
-    '''public int getHighestEscapedChar()
+    '''returns int\n\n
+    getHighestEscapedChar()\n
     '''
 def getCharacterEscapes():
-    '''public CharacterEscapes getCharacterEscapes()
+    '''returns CharacterEscapes\n\n
+    getCharacterEscapes()\n
     '''
 def setCharacterEscapes():
-    '''public JsonGenerator setCharacterEscapes(final CharacterEscapes esc)
+    '''returns JsonGenerator\n\n
+    setCharacterEscapes(final CharacterEscapes esc)\n
     '''
 def setRootValueSeparator():
-    '''public JsonGenerator setRootValueSeparator(final SerializableString sep)
+    '''returns JsonGenerator\n\n
+    setRootValueSeparator(final SerializableString sep)\n
     '''
 def writeStartArray():
-    '''public void writeStartArray()
-    public void writeStartArray(final int size)
+    '''returns None\n\n
+    writeStartArray()\n
+    writeStartArray(final int size)\n
     '''
 def writeEndArray():
-    '''public void writeEndArray()
+    '''returns None\n\n
+    writeEndArray()\n
     '''
 def writeStartObject():
-    '''public void writeStartObject()
-    public void writeStartObject(final Object forValue)
+    '''returns None\n\n
+    writeStartObject()\n
+    writeStartObject(final Object forValue)\n
     '''
 def writeEndObject():
-    '''public void writeEndObject()
+    '''returns None\n\n
+    writeEndObject()\n
     '''
 def writeFieldName():
-    '''public void writeFieldName(final String name)
-    public void writeFieldName(final SerializableString name)
+    '''returns None\n\n
+    writeFieldName(final String name)\n
+    writeFieldName(final SerializableString name)\n
     '''
 def writeFieldId():
-    '''public void writeFieldId(final long id)
+    '''returns None\n\n
+    writeFieldId(final long id)\n
     '''
 def writeArray():
-    '''public void writeArray(final int[] array, final int offset, final int length)
-    public void writeArray(final long[] array, final int offset, final int length)
-    public void writeArray(final double[] array, final int offset, final int length)
+    '''returns None\n\n
+    writeArray(final int[] array, final int offset, final int length)\n
+    writeArray(final long[] array, final int offset, final int length)\n
+    writeArray(final double[] array, final int offset, final int length)\n
     '''
 def writeString():
-    '''public void writeString(final String text)
-    public void writeString(final Reader reader, final int len)
-    public void writeString(final char[] text, final int offset, final int len)
-    public void writeString(final SerializableString text)
+    '''returns None\n\n
+    writeString(final String text)\n
+    writeString(final Reader reader, final int len)\n
+    writeString(final char[] text, final int offset, final int len)\n
+    writeString(final SerializableString text)\n
     '''
 def writeRawUTF8String():
-    '''public void writeRawUTF8String(final byte[] text, final int offset, final int length)
+    '''returns None\n\n
+    writeRawUTF8String(final byte[] text, final int offset, final int length)\n
     '''
 def writeUTF8String():
-    '''public void writeUTF8String(final byte[] text, final int offset, final int length)
+    '''returns None\n\n
+    writeUTF8String(final byte[] text, final int offset, final int length)\n
     '''
 def writeRaw():
-    '''public void writeRaw(final String text)
-    public void writeRaw(final String text, final int offset, final int len)
-    public void writeRaw(final SerializableString raw)
-    public void writeRaw(final char[] text, final int offset, final int len)
-    public void writeRaw(final char c)
+    '''returns None\n\n
+    writeRaw(final String text)\n
+    writeRaw(final String text, final int offset, final int len)\n
+    writeRaw(final SerializableString raw)\n
+    writeRaw(final char[] text, final int offset, final int len)\n
+    writeRaw(final char c)\n
     '''
 def writeRawValue():
-    '''public void writeRawValue(final String text)
-    public void writeRawValue(final String text, final int offset, final int len)
-    public void writeRawValue(final char[] text, final int offset, final int len)
+    '''returns None\n\n
+    writeRawValue(final String text)\n
+    writeRawValue(final String text, final int offset, final int len)\n
+    writeRawValue(final char[] text, final int offset, final int len)\n
     '''
 def writeBinary():
-    '''public void writeBinary(final Base64Variant b64variant, final byte[] data, final int offset, final int len)
-    public int writeBinary(final Base64Variant b64variant, final InputStream data, final int dataLength)
+    '''returns int\n\n
+    writeBinary(final Base64Variant b64variant, final byte[] data, final int offset, final int len)\n
+    writeBinary(final Base64Variant b64variant, final InputStream data, final int dataLength)\n
     '''
 def writeNumber():
-    '''public void writeNumber(final short v)
-    public void writeNumber(final int v)
-    public void writeNumber(final long v)
-    public void writeNumber(final BigInteger v)
-    public void writeNumber(final double v)
-    public void writeNumber(final float v)
-    public void writeNumber(final BigDecimal v)
-    public void writeNumber(final String encodedValue)
+    '''returns None\n\n
+    writeNumber(final short v)\n
+    writeNumber(final int v)\n
+    writeNumber(final long v)\n
+    writeNumber(final BigInteger v)\n
+    writeNumber(final double v)\n
+    writeNumber(final float v)\n
+    writeNumber(final BigDecimal v)\n
+    writeNumber(final String encodedValue)\n
     '''
 def writeBoolean():
-    '''public void writeBoolean(final boolean state)
+    '''returns None\n\n
+    writeBoolean(final boolean state)\n
     '''
 def writeNull():
-    '''public void writeNull()
+    '''returns None\n\n
+    writeNull()\n
     '''
 def writeOmittedField():
-    '''public void writeOmittedField(final String fieldName)
+    '''returns None\n\n
+    writeOmittedField(final String fieldName)\n
     '''
 def writeObjectId():
-    '''public void writeObjectId(final Object id)
+    '''returns None\n\n
+    writeObjectId(final Object id)\n
     '''
 def writeObjectRef():
-    '''public void writeObjectRef(final Object id)
+    '''returns None\n\n
+    writeObjectRef(final Object id)\n
     '''
 def writeTypeId():
-    '''public void writeTypeId(final Object id)
+    '''returns None\n\n
+    writeTypeId(final Object id)\n
     '''
 def writeEmbeddedObject():
-    '''public void writeEmbeddedObject(final Object object)
+    '''returns None\n\n
+    writeEmbeddedObject(final Object object)\n
     '''
 def writeObject():
-    '''public void writeObject(final Object pojo)
+    '''returns None\n\n
+    writeObject(final Object pojo)\n
     '''
 def writeTree():
-    '''public void writeTree(final TreeNode tree)
+    '''returns None\n\n
+    writeTree(final TreeNode tree)\n
     '''
 def copyCurrentEvent():
-    '''public void copyCurrentEvent(final JsonParser p)
+    '''returns None\n\n
+    copyCurrentEvent(final JsonParser p)\n
     '''
 def copyCurrentStructure():
-    '''public void copyCurrentStructure(final JsonParser p)
+    '''returns None\n\n
+    copyCurrentStructure(final JsonParser p)\n
     '''
 def getOutputContext():
-    '''public JsonStreamContext getOutputContext()
+    '''returns JsonStreamContext\n\n
+    getOutputContext()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''

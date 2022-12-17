@@ -1,3 +1,4 @@
-def AssetGrpSet():
-    '''public AssetGrpSet(final MboServerInterface ms)
+def ():
+    '''returns AssetGrpSet\n\n
+    (final MboServerInterface ms)\n
     '''

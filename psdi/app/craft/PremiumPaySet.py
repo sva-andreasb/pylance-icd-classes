@@ -1,3 +1,4 @@
-def PremiumPaySet():
-    '''public PremiumPaySet(final MboServerInterface ms)
+def ():
+    '''returns PremiumPaySet\n\n
+    (final MboServerInterface ms)\n
     '''

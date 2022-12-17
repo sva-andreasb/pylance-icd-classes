@@ -1,3 +1,4 @@
-def WebSocketTransport():
-    '''public WebSocketTransport(final BayeuxServerImpl bayeux)
+def ():
+    '''returns WebSocketTransport\n\n
+    (final BayeuxServerImpl bayeux)\n
     '''

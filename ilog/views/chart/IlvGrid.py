@@ -1,89 +1,50 @@
-def IlvGrid():
-    '''public IlvGrid()
-    public IlvGrid(final Paint paint)
-    public IlvGrid(final Paint majorPaint, final Paint minorPaint)
-    '''
-def getDrawOrder():
-    '''public final int getDrawOrder()
+def ():
+    '''returns IlvGrid\n\n
+    ()\n
+    (final Paint paint)\n
+    (final Paint majorPaint, final Paint minorPaint)\n
     '''
 def setDrawOrder():
-    '''public void setDrawOrder(final int h)
+    '''returns None\n\n
+    setDrawOrder(final int h)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
-    '''
-def setVisible():
-    '''public final void setVisible(final boolean b)
-    '''
-def isMajorLineVisible():
-    '''public final boolean isMajorLineVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def setMajorLineVisible():
-    '''public void setMajorLineVisible(final boolean d)
-    '''
-def isMinorLineVisible():
-    '''public final boolean isMinorLineVisible()
+    '''returns None\n\n
+    setMajorLineVisible(final boolean d)\n
     '''
 def setMinorLineVisible():
-    '''public void setMinorLineVisible(final boolean e)
-    '''
-def getMajorStyle():
-    '''public final IlvStyle getMajorStyle()
-    '''
-def getMajorStroke():
-    '''public final Stroke getMajorStroke()
+    '''returns None\n\n
+    setMinorLineVisible(final boolean e)\n
     '''
 def setMajorStroke():
-    '''public void setMajorStroke(final Stroke stroke)
-    '''
-def getMajorPaint():
-    '''public final Paint getMajorPaint()
+    '''returns None\n\n
+    setMajorStroke(final Stroke stroke)\n
     '''
 def setMajorPaint():
-    '''public void setMajorPaint(final Paint strokePaint)
-    '''
-def getMinorStyle():
-    '''public final IlvStyle getMinorStyle()
-    '''
-def getMinorStroke():
-    '''public final Stroke getMinorStroke()
+    '''returns None\n\n
+    setMajorPaint(final Paint strokePaint)\n
     '''
 def setMinorStroke():
-    '''public void setMinorStroke(final Stroke stroke)
-    '''
-def getMinorPaint():
-    '''public final Paint getMinorPaint()
+    '''returns None\n\n
+    setMinorStroke(final Stroke stroke)\n
     '''
 def setMinorPaint():
-    '''public void setMinorPaint(final Paint strokePaint)
-    '''
-def getChart():
-    '''public final IlvChart getChart()
-    '''
-def getAxis():
-    '''public final IlvAxis getAxis()
-    '''
-def getCoordinateSystem():
-    '''public final IlvCoordinateSystem getCoordinateSystem()
+    '''returns None\n\n
+    setMinorPaint(final Paint strokePaint)\n
     '''
 def has3DSupport():
-    '''public boolean has3DSupport()
+    '''returns boolean\n\n
+    has3DSupport()\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics)
+    '''returns None\n\n
+    draw(final Graphics graphics)\n
     '''
 def getBounds():
-    '''public Rectangle2D getBounds(Rectangle2D rectangle2D)
-    '''
-def getGridShapes():
-    '''public final Shape[] getGridShapes(final IlvDoubleArray ilvDoubleArray)
-    '''
-def setDefaultGridColor():
-    '''public static void setDefaultGridColor(final Color b)
-    '''
-def getDefaultGridColor():
-    '''public static Color getDefaultGridColor()
-    '''
-def getAxisIndex():
-    '''public static int getAxisIndex(final IlvGrid ilvGrid)
+    '''returns Rectangle2D\n\n
+    getBounds(Rectangle2D rectangle2D)\n
     '''

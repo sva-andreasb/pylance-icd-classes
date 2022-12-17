@@ -1,9 +1,12 @@
-def PointWO():
-    '''public PointWO(final MboSet ms)
+def ():
+    '''returns PointWO\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

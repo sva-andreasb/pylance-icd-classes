@@ -1,17 +1,11 @@
-def getAbbreviator():
-    '''public static NameAbbreviator getAbbreviator(final String pattern)
-    '''
-def getDefaultAbbreviator():
-    '''public static NameAbbreviator getDefaultAbbreviator()
-    '''
-def NOPAbbreviator():
-    '''public NOPAbbreviator()
+def ():
+    '''returns MaxElementAbbreviator\n\n
+    ()\n
+    (final int count, final Strategy strategy)\n
     '''
 def abbreviate():
-    '''public void abbreviate(final String original, final StringBuilder destination)
-    public void abbreviate(final String original, final StringBuilder destination)
-    public void abbreviate(final String original, final StringBuilder destination)
-    '''
-def MaxElementAbbreviator():
-    '''public MaxElementAbbreviator(final int count, final Strategy strategy)
+    '''returns None\n\n
+    abbreviate(final String original, final StringBuilder destination)\n
+    abbreviate(final String original, final StringBuilder destination)\n
+    abbreviate(final String original, final StringBuilder destination)\n
     '''

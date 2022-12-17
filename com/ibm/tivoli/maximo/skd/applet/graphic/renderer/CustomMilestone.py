@@ -1,9 +1,12 @@
-def CustomMilestone():
-    '''public CustomMilestone()
+def ():
+    '''returns CustomMilestone\n\n
+    ()\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def draw():
-    '''public void draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns None\n\n
+    draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''

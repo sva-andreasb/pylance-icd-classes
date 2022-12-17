@@ -1,61 +1,70 @@
-def SymtabEntry():
-    '''public SymtabEntry()
+def ():
+    '''returns SymtabEntry\n\n
+    ()\n
     '''
 def clone():
-    '''public Object clone()
-    '''
-def fullName():
-    '''public final String fullName()
+    '''returns Object\n\n
+    clone()\n
     '''
 def module():
-    '''public String module()
-    public void module(final String module)
+    '''returns None\n\n
+    module()\n
+    module(final String module)\n
     '''
 def name():
-    '''public String name()
-    public void name(final String name)
+    '''returns None\n\n
+    name()\n
+    name(final String name)\n
     '''
 def typeName():
-    '''public String typeName()
+    '''returns String\n\n
+    typeName()\n
     '''
 def type():
-    '''public SymtabEntry type()
-    public void type(final SymtabEntry type)
+    '''returns None\n\n
+    type()\n
+    type(final SymtabEntry type)\n
     '''
 def sourceFile():
-    '''public IncludeEntry sourceFile()
-    public void sourceFile(final IncludeEntry sourceFile)
+    '''returns None\n\n
+    sourceFile()\n
+    sourceFile(final IncludeEntry sourceFile)\n
     '''
 def container():
-    '''public SymtabEntry container()
-    public void container(final SymtabEntry container)
+    '''returns None\n\n
+    container()\n
+    container(final SymtabEntry container)\n
     '''
 def repositoryID():
-    '''public RepositoryID repositoryID()
-    public void repositoryID(final RepositoryID repID)
+    '''returns None\n\n
+    repositoryID()\n
+    repositoryID(final RepositoryID repID)\n
     '''
 def emit():
-    '''public boolean emit()
-    public void emit(final boolean emit)
+    '''returns None\n\n
+    emit()\n
+    emit(final boolean emit)\n
     '''
 def comment():
-    '''public Comment comment()
-    public void comment(final Comment comment)
+    '''returns None\n\n
+    comment()\n
+    comment(final Comment comment)\n
     '''
 def isReferencable():
-    '''public boolean isReferencable()
-    public void isReferencable(final boolean isReferencable)
-    '''
-def getVariableKey():
-    '''public static int getVariableKey()
+    '''returns None\n\n
+    isReferencable()\n
+    isReferencable(final boolean isReferencable)\n
     '''
 def dynamicVariable():
-    '''public void dynamicVariable(final int n, final Object obj)
-    public Object dynamicVariable(final int n)
+    '''returns Object\n\n
+    dynamicVariable(final int n, final Object obj)\n
+    dynamicVariable(final int n)\n
     '''
 def generate():
-    '''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(final Hashtable hashtable, final PrintWriter printWriter)\n
     '''
 def generator():
-    '''public Generator generator()
+    '''returns Generator\n\n
+    generator()\n
     '''

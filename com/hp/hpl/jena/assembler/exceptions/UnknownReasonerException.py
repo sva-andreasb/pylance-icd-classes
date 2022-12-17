@@ -1,6 +1,8 @@
-def UnknownReasonerException():
-    '''public UnknownReasonerException(final Resource root, final Resource url)
+def ():
+    '''returns UnknownReasonerException\n\n
+    (final Resource root, final Resource url)\n
     '''
 def getURL():
-    '''public Resource getURL()
+    '''returns Resource\n\n
+    getURL()\n
     '''

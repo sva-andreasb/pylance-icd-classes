@@ -1,3 +1,4 @@
-def ImageIOJPEGImageWriter():
-    '''public ImageIOJPEGImageWriter()
+def ():
+    '''returns ImageIOJPEGImageWriter\n\n
+    ()\n
     '''

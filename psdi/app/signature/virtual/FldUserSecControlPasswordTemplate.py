@@ -1,3 +1,4 @@
-def FldUserSecControlPasswordTemplate():
-    '''public FldUserSecControlPasswordTemplate(final MboValue mbv)
+def ():
+    '''returns FldUserSecControlPasswordTemplate\n\n
+    (final MboValue mbv)\n
     '''

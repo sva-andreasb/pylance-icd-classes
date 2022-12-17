@@ -1,111 +1,148 @@
-def ReceiptMbo():
-    '''public ReceiptMbo(final MboSet ms)
+def ():
+    '''returns ReceiptMbo\n\n
+    (final MboSet ms)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getPO():
-    '''public PORemote getPO()
+    '''returns PORemote\n\n
+    getPO()\n
     '''
 def refetchPOLine():
-    '''public POLineRemote refetchPOLine()
+    '''returns POLineRemote\n\n
+    refetchPOLine()\n
     '''
 def getPOLine():
-    '''public POLineRemote getPOLine()
+    '''returns POLineRemote\n\n
+    getPOLine()\n
     '''
 def receiptDetails():
-    '''public void receiptDetails()
+    '''returns None\n\n
+    receiptDetails()\n
     '''
 def getRemainingShipmentQty():
-    '''public double getRemainingShipmentQty(final MboRemote mbo)
+    '''returns double\n\n
+    getRemainingShipmentQty(final MboRemote mbo)\n
     '''
 def getRemainingQty():
-    '''public double getRemainingQty()
+    '''returns double\n\n
+    getRemainingQty()\n
     '''
 def getRemainingCurrencyLineCost():
-    '''public double getRemainingCurrencyLineCost()
+    '''returns double\n\n
+    getRemainingCurrencyLineCost()\n
     '''
 def getRemainingInvoiceQty():
-    '''public double getRemainingInvoiceQty()
+    '''returns double\n\n
+    getRemainingInvoiceQty()\n
     '''
 def getRemainingInvoiceCurrencyLineCost():
-    '''public double getRemainingInvoiceCurrencyLineCost()
+    '''returns double\n\n
+    getRemainingInvoiceCurrencyLineCost()\n
     '''
 def payOnReceipt():
-    '''public void payOnReceipt()
+    '''returns None\n\n
+    payOnReceipt()\n
     '''
 def approveInvoices():
-    '''public void approveInvoices()
+    '''returns None\n\n
+    approveInvoices()\n
     '''
 def updateMR():
-    '''public void updateMR(final MboRemote poline)
+    '''returns None\n\n
+    updateMR(final MboRemote poline)\n
     '''
 def doChargeStore():
-    '''public void doChargeStore()
+    '''returns None\n\n
+    doChargeStore()\n
     '''
 def approve():
-    '''public void approve(final Date approveDate)
+    '''returns None\n\n
+    approve(final Date approveDate)\n
     '''
 def setPOMbo():
-    '''public void setPOMbo(final PORemote po)
+    '''returns None\n\n
+    setPOMbo(final PORemote po)\n
     '''
 def setPOLineMbo():
-    '''public void setPOLineMbo(final POLineRemote poLine)
+    '''returns None\n\n
+    setPOLineMbo(final POLineRemote poLine)\n
     '''
 def setMRMbo():
-    '''public void setMRMbo(final MRRemote mr)
+    '''returns None\n\n
+    setMRMbo(final MRRemote mr)\n
     '''
 def setPOLineSet():
-    '''public void setPOLineSet(final POLineSetRemote poLineSet)
+    '''returns None\n\n
+    setPOLineSet(final POLineSetRemote poLineSet)\n
     '''
 def isLastReceipt():
-    '''public boolean isLastReceipt()
+    '''returns boolean\n\n
+    isLastReceipt()\n
     '''
 def useIntegration():
-    '''public boolean useIntegration(final MboRemote mbo, final String code)
+    '''returns boolean\n\n
+    useIntegration(final MboRemote mbo, final String code)\n
     '''
 def createChildMatServLines():
-    '''public void createChildMatServLines()
+    '''returns None\n\n
+    createChildMatServLines()\n
     '''
 def deleteChildReceipts():
-    '''public void deleteChildReceipts()
+    '''returns None\n\n
+    deleteChildReceipts()\n
     '''
 def getWOReference():
-    '''public MboRemote getWOReference()
+    '''returns MboRemote\n\n
+    getWOReference()\n
     '''
 def setWOReference():
-    '''public void setWOReference(final MboRemote woRemote)
+    '''returns None\n\n
+    setWOReference(final MboRemote woRemote)\n
     '''
 def createInvoicesForSchedule():
-    '''public void createInvoicesForSchedule()
+    '''returns None\n\n
+    createInvoicesForSchedule()\n
     '''
 def getPOReference():
-    '''public PORemote getPOReference()
+    '''returns PORemote\n\n
+    getPOReference()\n
     '''
 def setPOReference():
-    '''public void setPOReference(final PORemote poRef)
+    '''returns None\n\n
+    setPOReference(final PORemote poRef)\n
     '''
 def setPOCostReference():
-    '''public void setPOCostReference(final MboRemote poCost)
+    '''returns None\n\n
+    setPOCostReference(final MboRemote poCost)\n
     '''
 def getPOCostReference():
-    '''public MboRemote getPOCostReference()
+    '''returns MboRemote\n\n
+    getPOCostReference()\n
     '''
 def getRemainingQtyTransInTransit():
-    '''public double getRemainingQtyTransInTransit()
+    '''returns double\n\n
+    getRemainingQtyTransInTransit()\n
     '''
 def delete():
-    '''public void delete(final long accessmodifier)
+    '''returns None\n\n
+    delete(final long accessmodifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def useLineOrLoadedCost():
-    '''public String useLineOrLoadedCost()
+    '''returns String\n\n
+    useLineOrLoadedCost()\n
     '''
 def getQtyStillInTransitForTransOut():
-    '''public double getQtyStillInTransitForTransOut()
+    '''returns double\n\n
+    getQtyStillInTransitForTransOut()\n
     '''
 def getFirstCourierTransOut():
-    '''public MboRemote getFirstCourierTransOut()
+    '''returns MboRemote\n\n
+    getFirstCourierTransOut()\n
     '''

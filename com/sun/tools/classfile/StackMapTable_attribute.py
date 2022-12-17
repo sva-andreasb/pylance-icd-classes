@@ -7,38 +7,31 @@ ITEM_Null = "int  5"
 ITEM_UninitializedThis = "int  6"
 ITEM_Object = "int  7"
 ITEM_Uninitialized = "int  8"
-def StackMapTable_attribute():
-    '''public StackMapTable_attribute(final ConstantPool constantPool, final stack_map_frame[] array)
-    public StackMapTable_attribute(final int n, final stack_map_frame[] entries)
-    '''
-def accept():
-    '''public <R, D> R accept(final Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
+def ():
+    '''returns StackMapTable_attribute\n\n
+    (final ConstantPool constantPool, final stack_map_frame[] array)\n
+    (final int n, final stack_map_frame[] entries)\n
     '''
 def length():
-    '''public int length()
-    public int length()
-    public int length()
-    public int length()
-    public int length()
-    public int length()
-    public int length()
-    public int length()
-    public int length()
-    public int length()
+    '''returns int\n\n
+    length()\n
+    length()\n
+    length()\n
+    length()\n
+    length()\n
+    length()\n
+    length()\n
+    length()\n
+    length()\n
+    length()\n
     '''
 def getOffsetDelta():
-    '''public int getOffsetDelta()
-    public int getOffsetDelta()
-    public int getOffsetDelta()
-    public int getOffsetDelta()
-    public int getOffsetDelta()
-    public int getOffsetDelta()
-    public int getOffsetDelta()
+    '''returns int\n\n
+    getOffsetDelta()\n
+    getOffsetDelta()\n
+    getOffsetDelta()\n
+    getOffsetDelta()\n
+    getOffsetDelta()\n
+    getOffsetDelta()\n
+    getOffsetDelta()\n
     '''

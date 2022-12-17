@@ -1,4 +1,5 @@
-def InvalidOpenTypeException():
-    '''public InvalidOpenTypeException()
-    public InvalidOpenTypeException(final String s)
+def ():
+    '''returns InvalidOpenTypeException\n\n
+    ()\n
+    (final String s)\n
     '''

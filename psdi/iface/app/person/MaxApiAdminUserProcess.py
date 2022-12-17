@@ -1,6 +1,8 @@
-def MaxApiAdminUserProcess():
-    '''public MaxApiAdminUserProcess()
+def ():
+    '''returns MaxApiAdminUserProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''

@@ -1,7 +1,9 @@
-def IndexFactoryExtHash():
-    '''public IndexFactoryExtHash()
-    public IndexFactoryExtHash(final int blockSize)
+def ():
+    '''returns IndexFactoryExtHash\n\n
+    ()\n
+    (final int blockSize)\n
     '''
 def createIndex():
-    '''public Index createIndex(final FileSet fileset, final RecordFactory recordFactory)
+    '''returns Index\n\n
+    createIndex(final FileSet fileset, final RecordFactory recordFactory)\n
     '''

@@ -1,13 +1,17 @@
-def UpgDefaultsTemplate():
-    '''public UpgDefaultsTemplate(final String tbname, final Connection con, final Util util)
+def ():
+    '''returns UpgDefaultsTemplate\n\n
+    (final String tbname, final Connection con, final Util util)\n
     '''
 def getDefaultSql():
-    '''public ArrayList getDefaultSql(final String name)
+    '''returns ArrayList\n\n
+    getDefaultSql(final String name)\n
     '''
 def getRenameSql():
-    '''public String getRenameSql(final String tbname, final String oldColumn, final String newColumn, final boolean onlyIfNull)
-    public String getRenameSql(final String tbname, final String oldColumn, final String newColumn)
+    '''returns String\n\n
+    getRenameSql(final String tbname, final String oldColumn, final String newColumn, final boolean onlyIfNull)\n
+    getRenameSql(final String tbname, final String oldColumn, final String newColumn)\n
     '''
 def columnHasDefault():
-    '''public boolean columnHasDefault(final String name)
+    '''returns boolean\n\n
+    columnHasDefault(final String name)\n
     '''

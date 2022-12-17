@@ -2,33 +2,43 @@ REQUEST_COUNT = "String  \"http.request-count\""
 RESPONSE_COUNT = "String  \"http.response-count\""
 SENT_BYTES_COUNT = "String  \"http.sent-bytes-count\""
 RECEIVED_BYTES_COUNT = "String  \"http.received-bytes-count\""
-def HttpConnectionMetricsImpl():
-    '''public HttpConnectionMetricsImpl(final HttpTransportMetrics inTransportMetric, final HttpTransportMetrics outTransportMetric)
+def ():
+    '''returns HttpConnectionMetricsImpl\n\n
+    (final HttpTransportMetrics inTransportMetric, final HttpTransportMetrics outTransportMetric)\n
     '''
 def getReceivedBytesCount():
-    '''public long getReceivedBytesCount()
+    '''returns long\n\n
+    getReceivedBytesCount()\n
     '''
 def getSentBytesCount():
-    '''public long getSentBytesCount()
+    '''returns long\n\n
+    getSentBytesCount()\n
     '''
 def getRequestCount():
-    '''public long getRequestCount()
+    '''returns long\n\n
+    getRequestCount()\n
     '''
 def incrementRequestCount():
-    '''public void incrementRequestCount()
+    '''returns None\n\n
+    incrementRequestCount()\n
     '''
 def getResponseCount():
-    '''public long getResponseCount()
+    '''returns long\n\n
+    getResponseCount()\n
     '''
 def incrementResponseCount():
-    '''public void incrementResponseCount()
+    '''returns None\n\n
+    incrementResponseCount()\n
     '''
 def getMetric():
-    '''public Object getMetric(final String metricName)
+    '''returns Object\n\n
+    getMetric(final String metricName)\n
     '''
 def setMetric():
-    '''public void setMetric(final String metricName, final Object obj)
+    '''returns None\n\n
+    setMetric(final String metricName, final Object obj)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

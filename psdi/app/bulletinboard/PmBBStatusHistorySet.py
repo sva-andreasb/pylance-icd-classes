@@ -1,3 +1,4 @@
-def PmBBStatusHistorySet():
-    '''public PmBBStatusHistorySet(final MboServerInterface ms)
+def ():
+    '''returns PmBBStatusHistorySet\n\n
+    (final MboServerInterface ms)\n
     '''

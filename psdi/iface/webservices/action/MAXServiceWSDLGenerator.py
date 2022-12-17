@@ -1,12 +1,15 @@
-def MAXServiceWSDLGenerator():
-    '''public MAXServiceWSDLGenerator(final String serviceName, final String maxServiceName, final String methodName)
-    public MAXServiceWSDLGenerator(final String serviceName, final String maxServiceName, final String methodName, final String serviceDesc, final String serviceLongDesc)
-    public MAXServiceWSDLGenerator(final String serviceName, final String maxServiceName, final String methodName, final String serviceDesc, final String serviceLongDesc, final String soapVersion)
-    public MAXServiceWSDLGenerator(final WSRegistryInfo wsRegInfo)
+def ():
+    '''returns MAXServiceWSDLGenerator\n\n
+    (final String serviceName, final String maxServiceName, final String methodName)\n
+    (final String serviceName, final String maxServiceName, final String methodName, final String serviceDesc, final String serviceLongDesc)\n
+    (final String serviceName, final String maxServiceName, final String methodName, final String serviceDesc, final String serviceLongDesc, final String soapVersion)\n
+    (final WSRegistryInfo wsRegInfo)\n
     '''
 def generateWsdl():
-    '''public void generateWsdl()
+    '''returns None\n\n
+    generateWsdl()\n
     '''
 def getWsdlFileName():
-    '''public String getWsdlFileName()
+    '''returns String\n\n
+    getWsdlFileName()\n
     '''

@@ -1,6 +1,8 @@
-def FldOwnerTable():
-    '''public FldOwnerTable(final MboValue mbv)
+def ():
+    '''returns FldOwnerTable\n\n
+    (final MboValue mbv)\n
     '''
 def setAppLinkObjectName():
-    '''public String setAppLinkObjectName()
+    '''returns String\n\n
+    setAppLinkObjectName()\n
     '''

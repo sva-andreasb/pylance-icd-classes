@@ -1,9 +1,12 @@
 def getTableRow():
-    '''public TableRow getTableRow()
+    '''returns TableRow\n\n
+    getTableRow()\n
     '''
 def areRowDetailsExpanded():
-    '''public String areRowDetailsExpanded()
+    '''returns String\n\n
+    areRowDetailsExpanded()\n
     '''
 def toggledetailstate():
-    '''public void toggledetailstate()
+    '''returns None\n\n
+    toggledetailstate()\n
     '''

@@ -1,64 +1,81 @@
-def PersonGroup():
-    '''public PersonGroup(final MboSet ms)
+def ():
+    '''returns MatchResult\n\n
+    (final MboSet ms)\n
+    (final String inRespParty, final String inRespPartyGroup)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def validateLevels():
-    '''public void validateLevels()
+    '''returns None\n\n
+    validateLevels()\n
     '''
 def validGroupDefault():
-    '''public MboRemote validGroupDefault()
+    '''returns MboRemote\n\n
+    validGroupDefault()\n
     '''
 def duplicateCheck():
-    '''public void duplicateCheck()
+    '''returns None\n\n
+    duplicateCheck()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getResponsibleParty():
-    '''public PersonGroupTeamSetRemote getResponsibleParty()
+    '''returns PersonGroupTeamSetRemote\n\n
+    getResponsibleParty()\n
     '''
 def getAvailablePersonforBroadcast():
-    '''public PersonSetRemote getAvailablePersonforBroadcast(final String orgID, final String siteID)
+    '''returns PersonSetRemote\n\n
+    getAvailablePersonforBroadcast(final String orgID, final String siteID)\n
     '''
 def getCurrentFirstAvailablePerson():
-    '''public PersonRemote getCurrentFirstAvailablePerson(final Date date, final String orgID, final String siteID)
-    public PersonRemote getCurrentFirstAvailablePerson(final Date date, final String orgID, final String siteID, final boolean treatNoCalAsAvailable)
+    '''returns PersonRemote\n\n
+    getCurrentFirstAvailablePerson(final Date date, final String orgID, final String siteID)\n
+    getCurrentFirstAvailablePerson(final Date date, final String orgID, final String siteID, final boolean treatNoCalAsAvailable)\n
     '''
 def getCurrentResponsiblePerson():
-    '''public PersonRemote getCurrentResponsiblePerson(final Date date)
-    public PersonRemote getCurrentResponsiblePerson(final Date date, final String orgID, final String siteID)
-    public PersonRemote getCurrentResponsiblePerson(final Date date, final String orgID, final String siteID, final boolean treatNoCalAsAvailable)
+    '''returns PersonRemote\n\n
+    getCurrentResponsiblePerson(final Date date)\n
+    getCurrentResponsiblePerson(final Date date, final String orgID, final String siteID)\n
+    getCurrentResponsiblePerson(final Date date, final String orgID, final String siteID, final boolean treatNoCalAsAvailable)\n
     '''
 def getResponsiblePeople():
-    '''public PersonSetRemote getResponsiblePeople()
+    '''returns PersonSetRemote\n\n
+    getResponsiblePeople()\n
     '''
 def getNextAvailablePerson():
-    '''public PersonRemote getNextAvailablePerson(final Date date, final String skipPersonId)
-    public PersonRemote getNextAvailablePerson(final Date date, String orgID, String siteID, String skipPersonId)
-    '''
-def MatchResult():
-    '''public MatchResult(final String inRespParty, final String inRespPartyGroup)
+    '''returns PersonRemote\n\n
+    getNextAvailablePerson(final Date date, final String skipPersonId)\n
+    getNextAvailablePerson(final Date date, String orgID, String siteID, String skipPersonId)\n
     '''
 def getRespParty():
-    '''public String getRespParty()
+    '''returns String\n\n
+    getRespParty()\n
     '''
 def setRespParty():
-    '''public void setRespParty(final String inRespParty)
+    '''returns None\n\n
+    setRespParty(final String inRespParty)\n
     '''
 def getRespPartyGroup():
-    '''public String getRespPartyGroup()
+    '''returns String\n\n
+    getRespPartyGroup()\n
     '''
 def setRespPartyGroup():
-    '''public void setRespPartyGroup(final String inRespPartyGroup)
+    '''returns None\n\n
+    setRespPartyGroup(final String inRespPartyGroup)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

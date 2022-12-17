@@ -1,6 +1,8 @@
-def FldSCIsDefault():
-    '''public FldSCIsDefault(final MboValue mbv)
+def ():
+    '''returns FldSCIsDefault\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

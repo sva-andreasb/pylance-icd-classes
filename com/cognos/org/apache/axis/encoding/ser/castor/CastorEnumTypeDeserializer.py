@@ -1,6 +1,8 @@
-def CastorEnumTypeDeserializer():
-    '''public CastorEnumTypeDeserializer(final Class javaType, final QName xmlType)
+def ():
+    '''returns CastorEnumTypeDeserializer\n\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def onEndElement():
-    '''public void onEndElement(final String namespace, final String localName, final DeserializationContext context)
+    '''returns None\n\n
+    onEndElement(final String namespace, final String localName, final DeserializationContext context)\n
     '''

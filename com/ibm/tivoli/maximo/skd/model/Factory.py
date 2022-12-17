@@ -1,3 +1,4 @@
 def createActivity():
-    '''public MXActivity createActivity(final IlvTimeInterval interval)
+    '''returns MXActivity\n\n
+    createActivity(final IlvTimeInterval interval)\n
     '''

@@ -8,45 +8,59 @@ ATTRIBUTE_EQUALITY_STATEMENT = "int  3"
 ATTRIBUTE_EQUALITY_STATEMENT_DATASET1 = "int  31"
 ATTRIBUTE_EQUALITY_STATEMENT_DATASET2 = "int  32"
 STATEMENT_MAIN = "int  4"
-def ComparisonQueryHelper():
-    '''public ComparisonQueryHelper(final ReconInfo reconInfo)
+def ():
+    '''returns ComparisonQueryHelper\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def registerAttribute():
-    '''public ComparisonStatementHelper registerAttribute(final DataSet dS, final String fullyQualifiedName, final String unit, final int type)
+    '''returns ComparisonStatementHelper\n\n
+    registerAttribute(final DataSet dS, final String fullyQualifiedName, final String unit, final int type)\n
     '''
 def registerObjectForCount():
-    '''public ComparisonStatementHelper registerObjectForCount(final DataSet dS, final String fullyQualifiedName, final int type)
+    '''returns ComparisonStatementHelper\n\n
+    registerObjectForCount(final DataSet dS, final String fullyQualifiedName, final int type)\n
     '''
 def getStatement():
-    '''public ComparisonStatementHelper getStatement(final String objectName)
+    '''returns ComparisonStatementHelper\n\n
+    getStatement(final String objectName)\n
     '''
 def hasStatementsOfType():
-    '''public boolean hasStatementsOfType(final int type)
+    '''returns boolean\n\n
+    hasStatementsOfType(final int type)\n
     '''
 def getStatementsOfType():
-    '''public List getStatementsOfType(final int type)
+    '''returns List\n\n
+    getStatementsOfType(final int type)\n
     '''
 def getAttributeMatchLeadingSideObjects():
-    '''public List getAttributeMatchLeadingSideObjects()
+    '''returns List\n\n
+    getAttributeMatchLeadingSideObjects()\n
     '''
 def reattachFilterResults():
-    '''public void reattachFilterResults(final ReconCompFilterReturn filterReturn1, final ReconCompFilterReturn filterReturn2)
+    '''returns None\n\n
+    reattachFilterResults(final ReconCompFilterReturn filterReturn1, final ReconCompFilterReturn filterReturn2)\n
     '''
 def detachResults():
-    '''public List detachResults(final String objectName)
+    '''returns List\n\n
+    detachResults(final String objectName)\n
     '''
 def attachOneResult():
-    '''public void attachOneResult(final String objectName, final ReconValue value)
+    '''returns None\n\n
+    attachOneResult(final String objectName, final ReconValue value)\n
     '''
 def getMainStatement1():
-    '''public ComparisonStatementHelper getMainStatement1()
+    '''returns ComparisonStatementHelper\n\n
+    getMainStatement1()\n
     '''
 def getMainStatement2():
-    '''public ComparisonStatementHelper getMainStatement2()
+    '''returns ComparisonStatementHelper\n\n
+    getMainStatement2()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setLinkValues():
-    '''public void setLinkValues(final Map linkValue1, final Map linkValue2)
+    '''returns None\n\n
+    setLinkValues(final Map linkValue1, final Map linkValue2)\n
     '''

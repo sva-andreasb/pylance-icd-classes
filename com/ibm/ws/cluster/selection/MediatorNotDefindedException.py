@@ -1,14 +1,14 @@
-def MediatorNotDefindedException():
-    '''public MediatorNotDefindedException()
+def ():
+    '''returns MediatorNotDefindedException\n\n
+    ()\n
     '''
 def getCause():
-    '''public Throwable getCause()
-    '''
-def initCause():
-    '''public synchronized Throwable initCause(final Throwable arg0)
+    '''returns Throwable\n\n
+    getCause()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream arg0)
-    public void printStackTrace(final PrintWriter arg0)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream arg0)\n
+    printStackTrace(final PrintWriter arg0)\n
     '''

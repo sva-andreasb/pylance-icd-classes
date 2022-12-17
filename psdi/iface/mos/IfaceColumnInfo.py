@@ -1,67 +1,89 @@
-def IfaceColumnInfo():
-    '''public IfaceColumnInfo()
-    public IfaceColumnInfo(final String name)
+def ():
+    '''returns IfaceColumnInfo\n\n
+    ()\n
+    (final String name)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def isIdColumn():
-    '''public boolean isIdColumn()
+    '''returns boolean\n\n
+    isIdColumn()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isRestricted():
-    '''public boolean isRestricted()
+    '''returns boolean\n\n
+    isRestricted()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getIfaceTbColName():
-    '''public String getIfaceTbColName()
+    '''returns String\n\n
+    getIfaceTbColName()\n
     '''
 def setIfaceTbColName():
-    '''public boolean setIfaceTbColName(final String ifaceTbColumn)
+    '''returns boolean\n\n
+    setIfaceTbColName(final String ifaceTbColumn)\n
     '''
 def getMboValueInfo():
-    '''public MboValueInfo getMboValueInfo()
+    '''returns MboValueInfo\n\n
+    getMboValueInfo()\n
     '''
 def setMboValueInfo():
-    '''public void setMboValueInfo(final MboValueInfo mboValueInfo)
+    '''returns None\n\n
+    setMboValueInfo(final MboValueInfo mboValueInfo)\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setTableName():
-    '''public void setTableName(final String tbName)
+    '''returns None\n\n
+    setTableName(final String tbName)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
+    '''returns int\n\n
+    compareTo(final Object obj)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isExclude():
-    '''public boolean isExclude()
+    '''returns boolean\n\n
+    isExclude()\n
     '''
 def isKey():
-    '''public boolean isKey()
+    '''returns boolean\n\n
+    isKey()\n
     '''
 def isNonPersistent():
-    '''public boolean isNonPersistent()
+    '''returns boolean\n\n
+    isNonPersistent()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def isXmlSchemaNillable():
-    '''public boolean isXmlSchemaNillable()
+    '''returns boolean\n\n
+    isXmlSchemaNillable()\n
     '''
 def setXmlSchemaNillable():
-    '''public void setXmlSchemaNillable(final boolean xmlSchemaNillable)
+    '''returns None\n\n
+    setXmlSchemaNillable(final boolean xmlSchemaNillable)\n
     '''

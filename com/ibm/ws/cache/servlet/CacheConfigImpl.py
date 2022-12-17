@@ -1,57 +1,76 @@
-def CacheConfigImpl():
-    '''public CacheConfigImpl()
+def ():
+    '''returns CacheConfigImpl\n\n
+    ()\n
     '''
 def copy():
-    '''public CacheConfigImpl copy()
+    '''returns CacheConfigImpl\n\n
+    copy()\n
     '''
 def getIdGenerator():
-    '''public Class getIdGenerator()
+    '''returns Class\n\n
+    getIdGenerator()\n
     '''
 def getURIs():
-    '''public String[] getURIs()
+    '''returns String[]\n\n
+    getURIs()\n
     '''
 def getRequestParameters():
-    '''public ConfigElement[] getRequestParameters()
+    '''returns ConfigElement[]\n\n
+    getRequestParameters()\n
     '''
 def getRequestAttributes():
-    '''public ConfigElement[] getRequestAttributes()
+    '''returns ConfigElement[]\n\n
+    getRequestAttributes()\n
     '''
 def getSessionParameters():
-    '''public ConfigElement[] getSessionParameters()
+    '''returns ConfigElement[]\n\n
+    getSessionParameters()\n
     '''
 def getCookies():
-    '''public ConfigElement[] getCookies()
+    '''returns ConfigElement[]\n\n
+    getCookies()\n
     '''
 def getInvalidateonly():
-    '''public boolean getInvalidateonly()
+    '''returns boolean\n\n
+    getInvalidateonly()\n
     '''
 def getMetaDataGenerator():
-    '''public Class getMetaDataGenerator()
+    '''returns Class\n\n
+    getMetaDataGenerator()\n
     '''
 def getSharingPolicy():
-    '''public int getSharingPolicy()
+    '''returns int\n\n
+    getSharingPolicy()\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def getExternalCache():
-    '''public String getExternalCache()
+    '''returns String\n\n
+    getExternalCache()\n
     '''
 def getTimeout():
-    '''public int getTimeout()
+    '''returns int\n\n
+    getTimeout()\n
     '''
 def getInactivity():
-    '''public int getInactivity()
+    '''returns int\n\n
+    getInactivity()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getConsumeSubfragments():
-    '''public boolean getConsumeSubfragments()
+    '''returns boolean\n\n
+    getConsumeSubfragments()\n
     '''
 def getDoNotConsume():
-    '''public boolean getDoNotConsume()
+    '''returns boolean\n\n
+    getDoNotConsume()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

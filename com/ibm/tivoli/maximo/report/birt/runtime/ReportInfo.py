@@ -1,39 +1,52 @@
-def ReportInfo():
-    '''public ReportInfo()
+def ():
+    '''returns ReportInfo\n\n
+    ()\n
     '''
 def getProperties():
-    '''public HashMap getProperties()
+    '''returns HashMap\n\n
+    getProperties()\n
     '''
 def setProperties():
-    '''public void setProperties(final HashMap properties)
+    '''returns None\n\n
+    setProperties(final HashMap properties)\n
     '''
 def getPropertiesFileName():
-    '''public String getPropertiesFileName()
+    '''returns String\n\n
+    getPropertiesFileName()\n
     '''
 def setPropertiesFileName():
-    '''public void setPropertiesFileName(final String propertiesFileName)
+    '''returns None\n\n
+    setPropertiesFileName(final String propertiesFileName)\n
     '''
 def getReportDesign():
-    '''public String getReportDesign()
+    '''returns String\n\n
+    getReportDesign()\n
     '''
 def setReportDesign():
-    '''public void setReportDesign(final String reportDesign)
+    '''returns None\n\n
+    setReportDesign(final String reportDesign)\n
     '''
 def getReportName():
-    '''public String getReportName()
+    '''returns String\n\n
+    getReportName()\n
     '''
 def setReportName():
-    '''public void setReportName(final String reportName)
+    '''returns None\n\n
+    setReportName(final String reportName)\n
     '''
 def getReportResources():
-    '''public byte[] getReportResources()
+    '''returns byte[]\n\n
+    getReportResources()\n
     '''
 def setReportResources():
-    '''public void setReportResources(final byte[] reportResources)
+    '''returns None\n\n
+    setReportResources(final byte[] reportResources)\n
     '''
 def addLibraryInfo():
-    '''public void addLibraryInfo(final ReportInfo libraryInfo)
+    '''returns None\n\n
+    addLibraryInfo(final ReportInfo libraryInfo)\n
     '''
 def getLibraries():
-    '''public Iterator getLibraries()
+    '''returns Iterator\n\n
+    getLibraries()\n
     '''

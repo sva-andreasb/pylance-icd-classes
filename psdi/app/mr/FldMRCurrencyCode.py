@@ -1,6 +1,8 @@
-def FldMRCurrencyCode():
-    '''public FldMRCurrencyCode(final MboValue mbv)
+def ():
+    '''returns FldMRCurrencyCode\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

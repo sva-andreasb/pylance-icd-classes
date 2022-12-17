@@ -1,16 +1,21 @@
 def getShape():
-    '''public Shape getShape()
+    '''returns Shape\n\n
+    getShape()\n
     '''
 def setShape():
-    '''public void setShape(final Shape a)
+    '''returns None\n\n
+    setShape(final Shape a)\n
     '''
-def IlvDisplayArea():
-    '''public IlvDisplayArea()
-    public IlvDisplayArea(final IlvChartRenderer ilvChartRenderer, final IlvDataSet set, final int n)
+def ():
+    '''returns IlvDisplayArea\n\n
+    ()\n
+    (final IlvChartRenderer ilvChartRenderer, final IlvDataSet set, final int n)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

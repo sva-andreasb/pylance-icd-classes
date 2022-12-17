@@ -1,3 +1,4 @@
-def FldMaxAppsModule():
-    '''public FldMaxAppsModule(final MboValue mbv)
+def ():
+    '''returns FldMaxAppsModule\n\n
+    (final MboValue mbv)\n
     '''

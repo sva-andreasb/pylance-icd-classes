@@ -1,12 +1,16 @@
-def OY():
-    '''public OY()
+def ():
+    '''returns OY\n\n
+    ()\n
     '''
 def bindStream():
-    '''public InputStream bindStream(final InputStream input)
+    '''returns InputStream\n\n
+    bindStream(final InputStream input)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''

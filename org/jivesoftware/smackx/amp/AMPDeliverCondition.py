@@ -1,13 +1,13 @@
 NAME = "String  \"deliver\""
-def isSupported():
-    '''public static boolean isSupported(final XMPPConnection connection)
-    '''
-def AMPDeliverCondition():
-    '''public AMPDeliverCondition(final Value value)
+def ():
+    '''returns AMPDeliverCondition\n\n
+    (final Value value)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

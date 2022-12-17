@@ -1,3 +1,4 @@
-def FldAMCrewVendor():
-    '''public FldAMCrewVendor(final MboValue mbv)
+def ():
+    '''returns FldAMCrewVendor\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,48 +1,64 @@
-def StoreBase():
-    '''public StoreBase(final SDBConnection connection, final StoreDesc desc, final StoreFormatter formatter, final StoreLoader loader, final QueryCompilerFactory compilerF, final SQLBridgeFactory sqlBridgeF, SQLGenerator sqlGenerator, final TableDescTriples tripleTableDesc, final TableDescQuads quadTableDesc, final TableDescNodes nodeTableDesc)
+def ():
+    '''returns StoreBase\n\n
+    (final SDBConnection connection, final StoreDesc desc, final StoreFormatter formatter, final StoreLoader loader, final QueryCompilerFactory compilerF, final SQLBridgeFactory sqlBridgeF, SQLGenerator sqlGenerator, final TableDescTriples tripleTableDesc, final TableDescQuads quadTableDesc, final TableDescNodes nodeTableDesc)\n
     '''
 def getConnection():
-    '''public SDBConnection getConnection()
+    '''returns SDBConnection\n\n
+    getConnection()\n
     '''
 def getQueryCompilerFactory():
-    '''public QueryCompilerFactory getQueryCompilerFactory()
+    '''returns QueryCompilerFactory\n\n
+    getQueryCompilerFactory()\n
     '''
 def getSQLBridgeFactory():
-    '''public SQLBridgeFactory getSQLBridgeFactory()
+    '''returns SQLBridgeFactory\n\n
+    getSQLBridgeFactory()\n
     '''
 def getSQLGenerator():
-    '''public SQLGenerator getSQLGenerator()
+    '''returns SQLGenerator\n\n
+    getSQLGenerator()\n
     '''
 def getTableFormatter():
-    '''public StoreFormatter getTableFormatter()
+    '''returns StoreFormatter\n\n
+    getTableFormatter()\n
     '''
 def getLoader():
-    '''public StoreLoader getLoader()
+    '''returns StoreLoader\n\n
+    getLoader()\n
     '''
 def getConfiguration():
-    '''public StoreConfig getConfiguration()
+    '''returns StoreConfig\n\n
+    getConfiguration()\n
     '''
 def getDatabaseType():
-    '''public DatabaseType getDatabaseType()
+    '''returns DatabaseType\n\n
+    getDatabaseType()\n
     '''
 def getLayoutType():
-    '''public LayoutType getLayoutType()
+    '''returns LayoutType\n\n
+    getLayoutType()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def getNodeTableDesc():
-    '''public TableDescNodes getNodeTableDesc()
+    '''returns TableDescNodes\n\n
+    getNodeTableDesc()\n
     '''
 def getTripleTableDesc():
-    '''public TableDescTriples getTripleTableDesc()
+    '''returns TableDescTriples\n\n
+    getTripleTableDesc()\n
     '''
 def getQuadTableDesc():
-    '''public TableDescQuads getQuadTableDesc()
+    '''returns TableDescQuads\n\n
+    getQuadTableDesc()\n
     '''

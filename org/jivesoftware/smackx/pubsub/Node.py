@@ -1,84 +1,103 @@
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getNodeConfiguration():
-    '''public ConfigureForm getNodeConfiguration()
+    '''returns ConfigureForm\n\n
+    getNodeConfiguration()\n
     '''
 def sendConfigurationForm():
-    '''public void sendConfigurationForm(final Form submitForm)
+    '''returns None\n\n
+    sendConfigurationForm(final Form submitForm)\n
     '''
 def discoverInfo():
-    '''public DiscoverInfo discoverInfo()
+    '''returns DiscoverInfo\n\n
+    discoverInfo()\n
     '''
 def getSubscriptions():
-    '''public List<Subscription> getSubscriptions()
-    public List<Subscription> getSubscriptions(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
+    '''returns List<Subscription>\n\n
+    getSubscriptions()\n
+    getSubscriptions(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)\n
     '''
 def getSubscriptionsAsOwner():
-    '''public List<Subscription> getSubscriptionsAsOwner()
-    public List<Subscription> getSubscriptionsAsOwner(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
+    '''returns List<Subscription>\n\n
+    getSubscriptionsAsOwner()\n
+    getSubscriptionsAsOwner(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)\n
     '''
 def modifySubscriptionsAsOwner():
-    '''public PubSub modifySubscriptionsAsOwner(final List<Subscription> changedSubs)
+    '''returns PubSub\n\n
+    modifySubscriptionsAsOwner(final List<Subscription> changedSubs)\n
     '''
 def getAffiliations():
-    '''public List<Affiliation> getAffiliations()
-    public List<Affiliation> getAffiliations(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
+    '''returns List<Affiliation>\n\n
+    getAffiliations()\n
+    getAffiliations(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)\n
     '''
 def getAffiliationsAsOwner():
-    '''public List<Affiliation> getAffiliationsAsOwner()
-    public List<Affiliation> getAffiliationsAsOwner(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
+    '''returns List<Affiliation>\n\n
+    getAffiliationsAsOwner()\n
+    getAffiliationsAsOwner(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)\n
     '''
 def modifyAffiliationAsOwner():
-    '''public PubSub modifyAffiliationAsOwner(final List<Affiliation> affiliations)
+    '''returns PubSub\n\n
+    modifyAffiliationAsOwner(final List<Affiliation> affiliations)\n
     '''
 def subscribe():
-    '''public Subscription subscribe(final String jid)
-    public Subscription subscribe(final String jid, final SubscribeForm subForm)
+    '''returns Subscription\n\n
+    subscribe(final String jid)\n
+    subscribe(final String jid, final SubscribeForm subForm)\n
     '''
 def unsubscribe():
-    '''public void unsubscribe(final String jid)
-    public void unsubscribe(final String jid, final String subscriptionId)
+    '''returns None\n\n
+    unsubscribe(final String jid)\n
+    unsubscribe(final String jid, final String subscriptionId)\n
     '''
 def getSubscriptionOptions():
-    '''public SubscribeForm getSubscriptionOptions(final String jid)
-    public SubscribeForm getSubscriptionOptions(final String jid, final String subscriptionId)
+    '''returns SubscribeForm\n\n
+    getSubscriptionOptions(final String jid)\n
+    getSubscriptionOptions(final String jid, final String subscriptionId)\n
     '''
 def addItemEventListener():
-    '''public void addItemEventListener(final ItemEventListener listener)
+    '''returns None\n\n
+    addItemEventListener(final ItemEventListener listener)\n
     '''
 def removeItemEventListener():
-    '''public void removeItemEventListener(final ItemEventListener listener)
+    '''returns None\n\n
+    removeItemEventListener(final ItemEventListener listener)\n
     '''
 def addConfigurationListener():
-    '''public void addConfigurationListener(final NodeConfigListener listener)
+    '''returns None\n\n
+    addConfigurationListener(final NodeConfigListener listener)\n
     '''
 def removeConfigurationListener():
-    '''public void removeConfigurationListener(final NodeConfigListener listener)
+    '''returns None\n\n
+    removeConfigurationListener(final NodeConfigListener listener)\n
     '''
 def addItemDeleteListener():
-    '''public void addItemDeleteListener(final ItemDeleteListener listener)
+    '''returns None\n\n
+    addItemDeleteListener(final ItemDeleteListener listener)\n
     '''
 def removeItemDeleteListener():
-    '''public void removeItemDeleteListener(final ItemDeleteListener listener)
+    '''returns None\n\n
+    removeItemDeleteListener(final ItemDeleteListener listener)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def ItemEventTranslator():
-    '''public ItemEventTranslator(final ItemEventListener eventListener)
+def ():
+    '''returns NodeConfigTranslator\n\n
+    (final ItemEventListener eventListener)\n
+    (final ItemDeleteListener eventListener)\n
+    (final NodeConfigListener eventListener)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    '''
-def ItemDeleteTranslator():
-    '''public ItemDeleteTranslator(final ItemDeleteListener eventListener)
-    '''
-def NodeConfigTranslator():
-    '''public NodeConfigTranslator(final NodeConfigListener eventListener)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
     '''
 def acceptSpecific():
-    '''public boolean acceptSpecific(final Message message)
+    '''returns boolean\n\n
+    acceptSpecific(final Message message)\n
     '''

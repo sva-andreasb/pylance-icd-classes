@@ -1,36 +1,40 @@
-def DependSet():
-    '''public DependSet()
-    '''
-def createSources():
-    '''public synchronized Union createSources()
+def ():
+    '''returns DependSet\n\n
+    ()\n
     '''
 def addSrcfileset():
-    '''public void addSrcfileset(final FileSet fs)
+    '''returns None\n\n
+    addSrcfileset(final FileSet fs)\n
     '''
 def addSrcfilelist():
-    '''public void addSrcfilelist(final FileList fl)
-    '''
-def createTargets():
-    '''public synchronized Path createTargets()
+    '''returns None\n\n
+    addSrcfilelist(final FileList fl)\n
     '''
 def addTargetfileset():
-    '''public void addTargetfileset(final FileSet fs)
+    '''returns None\n\n
+    addTargetfileset(final FileSet fs)\n
     '''
 def addTargetfilelist():
-    '''public void addTargetfilelist(final FileList fl)
+    '''returns None\n\n
+    addTargetfilelist(final FileList fl)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean b)
+    '''returns None\n\n
+    setVerbose(final boolean b)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isFilesystemOnly():
-    '''public boolean isFilesystemOnly()
+    '''returns boolean\n\n
+    isFilesystemOnly()\n
     '''

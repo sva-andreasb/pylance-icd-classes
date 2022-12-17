@@ -1,22 +1,29 @@
-def LoginAttribute():
-    '''public LoginAttribute(final STLoginId loginId, final byte[] value)
-    public LoginAttribute(final NdrInputStream ndrInputStream)
+def ():
+    '''returns LoginAttribute\n\n
+    (final STLoginId loginId, final byte[] value)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def getLoginId():
-    '''public STLoginId getLoginId()
+    '''returns STLoginId\n\n
+    getLoginId()\n
     '''
 def getValue():
-    '''public byte[] getValue()
+    '''returns byte[]\n\n
+    getValue()\n
     '''
 def setNumEntries():
-    '''public void setNumEntries(final STLoginId loginId)
+    '''returns None\n\n
+    setNumEntries(final STLoginId loginId)\n
     '''
 def setValue():
-    '''public void setValue(final byte[] value)
+    '''returns None\n\n
+    setValue(final byte[] value)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''

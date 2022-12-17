@@ -1,9 +1,12 @@
-def PlusPBillPaySet():
-    '''public PlusPBillPaySet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBillPaySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def saveMbos():
-    '''public void saveMbos()
+    '''returns None\n\n
+    saveMbos()\n
     '''
 def checkMethodAccess():
-    '''public void checkMethodAccess(final String methodName, final long n)
+    '''returns None\n\n
+    checkMethodAccess(final String methodName, final long n)\n
     '''

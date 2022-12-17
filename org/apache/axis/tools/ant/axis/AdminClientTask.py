@@ -1,45 +1,60 @@
-def AdminClientTask():
-    '''public AdminClientTask()
+def ():
+    '''returns AdminClientTask\n\n
+    ()\n
     '''
 def setDebug():
-    '''public void setDebug(final boolean debug)
+    '''returns None\n\n
+    setDebug(final boolean debug)\n
     '''
 def setNewPassword():
-    '''public void setNewPassword(final String newPassword)
+    '''returns None\n\n
+    setNewPassword(final String newPassword)\n
     '''
 def setUrl():
-    '''public void setUrl(final String url)
+    '''returns None\n\n
+    setUrl(final String url)\n
     '''
 def setFileProtocol():
-    '''public void setFileProtocol(final String fileProtocol)
+    '''returns None\n\n
+    setFileProtocol(final String fileProtocol)\n
     '''
 def setHostname():
-    '''public void setHostname(final String hostname)
+    '''returns None\n\n
+    setHostname(final String hostname)\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def setPort():
-    '''public void setPort(final int port)
+    '''returns None\n\n
+    setPort(final int port)\n
     '''
 def setServletPath():
-    '''public void setServletPath(final String servletPath)
+    '''returns None\n\n
+    setServletPath(final String servletPath)\n
     '''
 def setXmlFile():
-    '''public void setXmlFile(final File xmlFile)
+    '''returns None\n\n
+    setXmlFile(final File xmlFile)\n
     '''
 def setTransportChain():
-    '''public void setTransportChain(final String transportChain)
+    '''returns None\n\n
+    setTransportChain(final String transportChain)\n
     '''
 def setUsername():
-    '''public void setUsername(final String username)
+    '''returns None\n\n
+    setUsername(final String username)\n
     '''
 def setFailOnError():
-    '''public void setFailOnError(final boolean fail)
+    '''returns None\n\n
+    setFailOnError(final boolean fail)\n
     '''
 def traceParams():
-    '''public void traceParams(final int logLevel)
+    '''returns None\n\n
+    traceParams(final int logLevel)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

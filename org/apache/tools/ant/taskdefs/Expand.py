@@ -1,51 +1,67 @@
 NATIVE_ENCODING = "String  \"native-encoding\""
 ERROR_MULTIPLE_MAPPERS = "String  \"Cannot define more than one mapper\""
-def Expand():
-    '''public Expand()
+def ():
+    '''returns Expand\n\n
+    ()\n
     '''
 def setFailOnEmptyArchive():
-    '''public void setFailOnEmptyArchive(final boolean b)
+    '''returns None\n\n
+    setFailOnEmptyArchive(final boolean b)\n
     '''
 def getFailOnEmptyArchive():
-    '''public boolean getFailOnEmptyArchive()
+    '''returns boolean\n\n
+    getFailOnEmptyArchive()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setDest():
-    '''public void setDest(final File d)
+    '''returns None\n\n
+    setDest(final File d)\n
     '''
 def setSrc():
-    '''public void setSrc(final File s)
+    '''returns None\n\n
+    setSrc(final File s)\n
     '''
 def setOverwrite():
-    '''public void setOverwrite(final boolean b)
+    '''returns None\n\n
+    setOverwrite(final boolean b)\n
     '''
 def addPatternset():
-    '''public void addPatternset(final PatternSet set)
+    '''returns None\n\n
+    addPatternset(final PatternSet set)\n
     '''
 def addFileset():
-    '''public void addFileset(final FileSet set)
+    '''returns None\n\n
+    addFileset(final FileSet set)\n
     '''
 def add():
-    '''public void add(final ResourceCollection rc)
-    public void add(final FileNameMapper fileNameMapper)
+    '''returns None\n\n
+    add(final ResourceCollection rc)\n
+    add(final FileNameMapper fileNameMapper)\n
     '''
 def createMapper():
-    '''public Mapper createMapper()
+    '''returns Mapper\n\n
+    createMapper()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setStripAbsolutePathSpec():
-    '''public void setStripAbsolutePathSpec(final boolean b)
+    '''returns None\n\n
+    setStripAbsolutePathSpec(final boolean b)\n
     '''
 def setScanForUnicodeExtraFields():
-    '''public void setScanForUnicodeExtraFields(final boolean b)
+    '''returns None\n\n
+    setScanForUnicodeExtraFields(final boolean b)\n
     '''
 def getScanForUnicodeExtraFields():
-    '''public boolean getScanForUnicodeExtraFields()
+    '''returns boolean\n\n
+    getScanForUnicodeExtraFields()\n
     '''

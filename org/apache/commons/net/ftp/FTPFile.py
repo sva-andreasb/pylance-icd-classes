@@ -8,81 +8,107 @@ WORLD_ACCESS = "int  2"
 READ_PERMISSION = "int  0"
 WRITE_PERMISSION = "int  1"
 EXECUTE_PERMISSION = "int  2"
-def FTPFile():
-    '''public FTPFile()
+def ():
+    '''returns FTPFile\n\n
+    ()\n
     '''
 def setRawListing():
-    '''public void setRawListing(final String rawListing)
+    '''returns None\n\n
+    setRawListing(final String rawListing)\n
     '''
 def getRawListing():
-    '''public String getRawListing()
+    '''returns String\n\n
+    getRawListing()\n
     '''
 def isDirectory():
-    '''public boolean isDirectory()
+    '''returns boolean\n\n
+    isDirectory()\n
     '''
 def isFile():
-    '''public boolean isFile()
+    '''returns boolean\n\n
+    isFile()\n
     '''
 def isSymbolicLink():
-    '''public boolean isSymbolicLink()
+    '''returns boolean\n\n
+    isSymbolicLink()\n
     '''
 def isUnknown():
-    '''public boolean isUnknown()
+    '''returns boolean\n\n
+    isUnknown()\n
     '''
 def setType():
-    '''public void setType(final int type)
+    '''returns None\n\n
+    setType(final int type)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setSize():
-    '''public void setSize(final long size)
+    '''returns None\n\n
+    setSize(final long size)\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def setHardLinkCount():
-    '''public void setHardLinkCount(final int links)
+    '''returns None\n\n
+    setHardLinkCount(final int links)\n
     '''
 def getHardLinkCount():
-    '''public int getHardLinkCount()
+    '''returns int\n\n
+    getHardLinkCount()\n
     '''
 def setGroup():
-    '''public void setGroup(final String group)
+    '''returns None\n\n
+    setGroup(final String group)\n
     '''
 def getGroup():
-    '''public String getGroup()
+    '''returns String\n\n
+    getGroup()\n
     '''
 def setUser():
-    '''public void setUser(final String user)
+    '''returns None\n\n
+    setUser(final String user)\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def setLink():
-    '''public void setLink(final String link)
+    '''returns None\n\n
+    setLink(final String link)\n
     '''
 def getLink():
-    '''public String getLink()
+    '''returns String\n\n
+    getLink()\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final Calendar date)
+    '''returns None\n\n
+    setTimestamp(final Calendar date)\n
     '''
 def getTimestamp():
-    '''public Calendar getTimestamp()
+    '''returns Calendar\n\n
+    getTimestamp()\n
     '''
 def setPermission():
-    '''public void setPermission(final int access, final int permission, final boolean value)
+    '''returns None\n\n
+    setPermission(final int access, final int permission, final boolean value)\n
     '''
 def hasPermission():
-    '''public boolean hasPermission(final int access, final int permission)
+    '''returns boolean\n\n
+    hasPermission(final int access, final int permission)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

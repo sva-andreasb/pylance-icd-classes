@@ -1,6 +1,8 @@
-def FWMBalloonTip():
-    '''public FWMBalloonTip(final JComponent attachedComponent, final String text, final int x, final int y, final MouseListener parentListener)
+def ():
+    '''returns FWMBalloonTip\n\n
+    (final JComponent attachedComponent, final String text, final int x, final int y, final MouseListener parentListener)\n
     '''
 def getAttachedRectangle():
-    '''public Rectangle getAttachedRectangle()
+    '''returns Rectangle\n\n
+    getAttachedRectangle()\n
     '''

@@ -1,24 +1,24 @@
-def addAwarenessPermissionListener():
-    '''public synchronized void addAwarenessPermissionListener(final AwarenessPermissionListener obj)
-    '''
-def removeAwarenessPermissionListener():
-    '''public synchronized void removeAwarenessPermissionListener(final AwarenessPermissionListener obj)
-    '''
 def requestAwarenessPermission():
-    '''public void requestAwarenessPermission(final STUser[] array)
+    '''returns None\n\n
+    requestAwarenessPermission(final STUser[] array)\n
     '''
 def cancelAwarenessPermissionRequest():
-    '''public void cancelAwarenessPermissionRequest(final STUser[] array)
+    '''returns None\n\n
+    cancelAwarenessPermissionRequest(final STUser[] array)\n
     '''
 def acceptAwarenessPermissionRequest():
-    '''public void acceptAwarenessPermissionRequest(final STUser stUser)
+    '''returns None\n\n
+    acceptAwarenessPermissionRequest(final STUser stUser)\n
     '''
 def declineAwarenessPermissionRequest():
-    '''public void declineAwarenessPermissionRequest(final STUser stUser)
+    '''returns None\n\n
+    declineAwarenessPermissionRequest(final STUser stUser)\n
     '''
 def changeMyPrivacyDenied():
-    '''public void changeMyPrivacyDenied(final MyPrivacyEvent myPrivacyEvent)
+    '''returns None\n\n
+    changeMyPrivacyDenied(final MyPrivacyEvent myPrivacyEvent)\n
     '''
 def myPrivacyChanged():
-    '''public void myPrivacyChanged(final MyPrivacyEvent myPrivacyEvent)
+    '''returns None\n\n
+    myPrivacyChanged(final MyPrivacyEvent myPrivacyEvent)\n
     '''

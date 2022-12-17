@@ -1,23 +1,30 @@
-def ChunkedStream():
-    '''public ChunkedStream(final InputStream in)
-    public ChunkedStream(final InputStream in, final int chunkSize)
+def ():
+    '''returns ChunkedStream\n\n
+    (final InputStream in)\n
+    (final InputStream in, final int chunkSize)\n
     '''
 def transferredBytes():
-    '''public long transferredBytes()
+    '''returns long\n\n
+    transferredBytes()\n
     '''
 def isEndOfInput():
-    '''public boolean isEndOfInput()
+    '''returns boolean\n\n
+    isEndOfInput()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def readChunk():
-    '''public ByteBuf readChunk(final ChannelHandlerContext ctx)
-    public ByteBuf readChunk(final ByteBufAllocator allocator)
+    '''returns ByteBuf\n\n
+    readChunk(final ChannelHandlerContext ctx)\n
+    readChunk(final ByteBufAllocator allocator)\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''
 def progress():
-    '''public long progress()
+    '''returns long\n\n
+    progress()\n
     '''

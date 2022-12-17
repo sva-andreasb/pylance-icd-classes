@@ -1,22 +1,29 @@
-def LZWDecoder():
-    '''public LZWDecoder()
+def ():
+    '''returns LZWDecoder\n\n
+    ()\n
     '''
 def decode():
-    '''public void decode(final byte[] data, final OutputStream uncompData)
+    '''returns None\n\n
+    decode(final byte[] data, final OutputStream uncompData)\n
     '''
 def initializeStringTable():
-    '''public void initializeStringTable()
+    '''returns None\n\n
+    initializeStringTable()\n
     '''
 def writeString():
-    '''public void writeString(final byte[] string)
+    '''returns None\n\n
+    writeString(final byte[] string)\n
     '''
 def addStringToTable():
-    '''public void addStringToTable(final byte[] oldString, final byte newString)
-    public void addStringToTable(final byte[] string)
+    '''returns None\n\n
+    addStringToTable(final byte[] oldString, final byte newString)\n
+    addStringToTable(final byte[] string)\n
     '''
 def composeString():
-    '''public byte[] composeString(final byte[] oldString, final byte newString)
+    '''returns byte[]\n\n
+    composeString(final byte[] oldString, final byte newString)\n
     '''
 def getNextCode():
-    '''public int getNextCode()
+    '''returns int\n\n
+    getNextCode()\n
     '''

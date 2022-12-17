@@ -1,31 +1,41 @@
 def getDoc():
-    '''public int getDoc()
+    '''returns int\n\n
+    getDoc()\n
     '''
 def skipTo():
-    '''public int skipTo(final int target)
+    '''returns int\n\n
+    skipTo(final int target)\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def init():
-    '''public void init(final long skipPointer, final int df)
+    '''returns None\n\n
+    init(final long skipPointer, final int df)\n
     '''
 def getFilePointer():
-    '''public long getFilePointer()
+    '''returns long\n\n
+    getFilePointer()\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''
 def readByte():
-    '''public byte readByte()
+    '''returns byte\n\n
+    readByte()\n
     '''
 def readBytes():
-    '''public void readBytes(final byte[] b, final int offset, final int len)
+    '''returns None\n\n
+    readBytes(final byte[] b, final int offset, final int len)\n
     '''
 def seek():
-    '''public void seek(final long pos)
+    '''returns None\n\n
+    seek(final long pos)\n
     '''
 def slice():
-    '''public IndexInput slice(final String sliceDescription, final long offset, final long length)
+    '''returns IndexInput\n\n
+    slice(final String sliceDescription, final long offset, final long length)\n
     '''

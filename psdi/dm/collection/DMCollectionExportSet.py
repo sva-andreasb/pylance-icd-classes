@@ -1,3 +1,4 @@
-def DMCollectionExportSet():
-    '''public DMCollectionExportSet(final MboServerInterface ms)
+def ():
+    '''returns DMCollectionExportSet\n\n
+    (final MboServerInterface ms)\n
     '''

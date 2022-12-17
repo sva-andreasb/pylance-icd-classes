@@ -1,6 +1,8 @@
-def AssignmentMgr():
-    '''public AssignmentMgr(final String extsysName, final String ifaceName, final String mosName, final StructureData data, final String tagName, final String control)
+def ():
+    '''returns AssignmentMgr\n\n
+    (final String extsysName, final String ifaceName, final String mosName, final StructureData data, final String tagName, final String control)\n
     '''
 def mutliply():
-    '''public void mutliply()
+    '''returns None\n\n
+    mutliply()\n
     '''

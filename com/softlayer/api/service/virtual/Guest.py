@@ -1,1133 +1,1504 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getAccountOwnedPoolFlag():
-    '''public Boolean getAccountOwnedPoolFlag()
+    '''returns Boolean\n\n
+    getAccountOwnedPoolFlag()\n
     '''
 def setAccountOwnedPoolFlag():
-    '''public void setAccountOwnedPoolFlag(final Boolean accountOwnedPoolFlag)
+    '''returns None\n\n
+    setAccountOwnedPoolFlag(final Boolean accountOwnedPoolFlag)\n
     '''
 def getActiveNetworkMonitorIncident():
-    '''public List<Incident> getActiveNetworkMonitorIncident()
+    '''returns List<Incident>\n\n
+    getActiveNetworkMonitorIncident()\n
     '''
 def getActiveTickets():
-    '''public List<Ticket> getActiveTickets()
+    '''returns List<Ticket>\n\n
+    getActiveTickets()\n
     '''
 def getActiveTransaction():
-    '''public Transaction getActiveTransaction()
+    '''returns Transaction\n\n
+    getActiveTransaction()\n
     '''
 def setActiveTransaction():
-    '''public void setActiveTransaction(final Transaction activeTransaction)
+    '''returns None\n\n
+    setActiveTransaction(final Transaction activeTransaction)\n
     '''
 def getActiveTransactions():
-    '''public List<Transaction> getActiveTransactions()
+    '''returns List<Transaction>\n\n
+    getActiveTransactions()\n
     '''
 def getAllowedHost():
-    '''public Host getAllowedHost()
+    '''returns Host\n\n
+    getAllowedHost()\n
     '''
 def setAllowedHost():
-    '''public void setAllowedHost(final Host allowedHost)
+    '''returns None\n\n
+    setAllowedHost(final Host allowedHost)\n
     '''
 def getAllowedNetworkStorage():
-    '''public List<Storage> getAllowedNetworkStorage()
+    '''returns List<Storage>\n\n
+    getAllowedNetworkStorage()\n
     '''
 def getAllowedNetworkStorageReplicas():
-    '''public List<Storage> getAllowedNetworkStorageReplicas()
+    '''returns List<Storage>\n\n
+    getAllowedNetworkStorageReplicas()\n
     '''
 def getAntivirusSpywareSoftwareComponent():
-    '''public Component getAntivirusSpywareSoftwareComponent()
+    '''returns Component\n\n
+    getAntivirusSpywareSoftwareComponent()\n
     '''
 def setAntivirusSpywareSoftwareComponent():
-    '''public void setAntivirusSpywareSoftwareComponent(final Component antivirusSpywareSoftwareComponent)
+    '''returns None\n\n
+    setAntivirusSpywareSoftwareComponent(final Component antivirusSpywareSoftwareComponent)\n
     '''
 def getApplicationDeliveryController():
-    '''public Controller getApplicationDeliveryController()
+    '''returns Controller\n\n
+    getApplicationDeliveryController()\n
     '''
 def setApplicationDeliveryController():
-    '''public void setApplicationDeliveryController(final Controller applicationDeliveryController)
+    '''returns None\n\n
+    setApplicationDeliveryController(final Controller applicationDeliveryController)\n
     '''
 def getAttributes():
-    '''public List<Attribute> getAttributes()
+    '''returns List<Attribute>\n\n
+    getAttributes()\n
     '''
 def getAvailableMonitoring():
-    '''public List<Stratum> getAvailableMonitoring()
+    '''returns List<Stratum>\n\n
+    getAvailableMonitoring()\n
     '''
 def getAverageDailyPrivateBandwidthUsage():
-    '''public BigDecimal getAverageDailyPrivateBandwidthUsage()
+    '''returns BigDecimal\n\n
+    getAverageDailyPrivateBandwidthUsage()\n
     '''
 def setAverageDailyPrivateBandwidthUsage():
-    '''public void setAverageDailyPrivateBandwidthUsage(final BigDecimal averageDailyPrivateBandwidthUsage)
+    '''returns None\n\n
+    setAverageDailyPrivateBandwidthUsage(final BigDecimal averageDailyPrivateBandwidthUsage)\n
     '''
 def getAverageDailyPublicBandwidthUsage():
-    '''public BigDecimal getAverageDailyPublicBandwidthUsage()
+    '''returns BigDecimal\n\n
+    getAverageDailyPublicBandwidthUsage()\n
     '''
 def setAverageDailyPublicBandwidthUsage():
-    '''public void setAverageDailyPublicBandwidthUsage(final BigDecimal averageDailyPublicBandwidthUsage)
+    '''returns None\n\n
+    setAverageDailyPublicBandwidthUsage(final BigDecimal averageDailyPublicBandwidthUsage)\n
     '''
 def getBackendRouters():
-    '''public List<Hardware> getBackendRouters()
+    '''returns List<Hardware>\n\n
+    getBackendRouters()\n
     '''
 def getBandwidthAllocation():
-    '''public BigDecimal getBandwidthAllocation()
+    '''returns BigDecimal\n\n
+    getBandwidthAllocation()\n
     '''
 def setBandwidthAllocation():
-    '''public void setBandwidthAllocation(final BigDecimal bandwidthAllocation)
+    '''returns None\n\n
+    setBandwidthAllocation(final BigDecimal bandwidthAllocation)\n
     '''
 def getBandwidthAllotmentDetail():
-    '''public Detail getBandwidthAllotmentDetail()
+    '''returns Detail\n\n
+    getBandwidthAllotmentDetail()\n
     '''
 def setBandwidthAllotmentDetail():
-    '''public void setBandwidthAllotmentDetail(final Detail bandwidthAllotmentDetail)
+    '''returns None\n\n
+    setBandwidthAllotmentDetail(final Detail bandwidthAllotmentDetail)\n
     '''
 def getBillingCycleBandwidthUsage():
-    '''public List<Usage> getBillingCycleBandwidthUsage()
+    '''returns List<Usage>\n\n
+    getBillingCycleBandwidthUsage()\n
     '''
 def getBillingCyclePrivateBandwidthUsage():
-    '''public Usage getBillingCyclePrivateBandwidthUsage()
+    '''returns Usage\n\n
+    getBillingCyclePrivateBandwidthUsage()\n
     '''
 def setBillingCyclePrivateBandwidthUsage():
-    '''public void setBillingCyclePrivateBandwidthUsage(final Usage billingCyclePrivateBandwidthUsage)
+    '''returns None\n\n
+    setBillingCyclePrivateBandwidthUsage(final Usage billingCyclePrivateBandwidthUsage)\n
     '''
 def getBillingCyclePublicBandwidthUsage():
-    '''public Usage getBillingCyclePublicBandwidthUsage()
+    '''returns Usage\n\n
+    getBillingCyclePublicBandwidthUsage()\n
     '''
 def setBillingCyclePublicBandwidthUsage():
-    '''public void setBillingCyclePublicBandwidthUsage(final Usage billingCyclePublicBandwidthUsage)
+    '''returns None\n\n
+    setBillingCyclePublicBandwidthUsage(final Usage billingCyclePublicBandwidthUsage)\n
     '''
 def setBillingItem():
-    '''public void setBillingItem(final com.softlayer.api.service.billing.item.virtual.Guest billingItem)
+    '''returns None\n\n
+    setBillingItem(final com.softlayer.api.service.billing.item.virtual.Guest billingItem)\n
     '''
 def getBlockCancelBecauseDisconnectedFlag():
-    '''public Boolean getBlockCancelBecauseDisconnectedFlag()
+    '''returns Boolean\n\n
+    getBlockCancelBecauseDisconnectedFlag()\n
     '''
 def setBlockCancelBecauseDisconnectedFlag():
-    '''public void setBlockCancelBecauseDisconnectedFlag(final Boolean blockCancelBecauseDisconnectedFlag)
+    '''returns None\n\n
+    setBlockCancelBecauseDisconnectedFlag(final Boolean blockCancelBecauseDisconnectedFlag)\n
     '''
 def getBlockDeviceTemplateGroup():
-    '''public Group getBlockDeviceTemplateGroup()
+    '''returns Group\n\n
+    getBlockDeviceTemplateGroup()\n
     '''
 def setBlockDeviceTemplateGroup():
-    '''public void setBlockDeviceTemplateGroup(final Group blockDeviceTemplateGroup)
+    '''returns None\n\n
+    setBlockDeviceTemplateGroup(final Group blockDeviceTemplateGroup)\n
     '''
 def getBlockDevices():
-    '''public List<Device> getBlockDevices()
+    '''returns List<Device>\n\n
+    getBlockDevices()\n
     '''
 def getConsoleIpAddressFlag():
-    '''public Boolean getConsoleIpAddressFlag()
+    '''returns Boolean\n\n
+    getConsoleIpAddressFlag()\n
     '''
 def setConsoleIpAddressFlag():
-    '''public void setConsoleIpAddressFlag(final Boolean consoleIpAddressFlag)
+    '''returns None\n\n
+    setConsoleIpAddressFlag(final Boolean consoleIpAddressFlag)\n
     '''
 def getConsoleIpAddressRecord():
-    '''public IpAddress getConsoleIpAddressRecord()
+    '''returns IpAddress\n\n
+    getConsoleIpAddressRecord()\n
     '''
 def setConsoleIpAddressRecord():
-    '''public void setConsoleIpAddressRecord(final IpAddress consoleIpAddressRecord)
+    '''returns None\n\n
+    setConsoleIpAddressRecord(final IpAddress consoleIpAddressRecord)\n
     '''
 def getContinuousDataProtectionSoftwareComponent():
-    '''public Component getContinuousDataProtectionSoftwareComponent()
+    '''returns Component\n\n
+    getContinuousDataProtectionSoftwareComponent()\n
     '''
 def setContinuousDataProtectionSoftwareComponent():
-    '''public void setContinuousDataProtectionSoftwareComponent(final Component continuousDataProtectionSoftwareComponent)
+    '''returns None\n\n
+    setContinuousDataProtectionSoftwareComponent(final Component continuousDataProtectionSoftwareComponent)\n
     '''
 def getControlPanel():
-    '''public Component getControlPanel()
+    '''returns Component\n\n
+    getControlPanel()\n
     '''
 def setControlPanel():
-    '''public void setControlPanel(final Component controlPanel)
+    '''returns None\n\n
+    setControlPanel(final Component controlPanel)\n
     '''
 def getCurrentBandwidthSummary():
-    '''public Summary getCurrentBandwidthSummary()
+    '''returns Summary\n\n
+    getCurrentBandwidthSummary()\n
     '''
 def setCurrentBandwidthSummary():
-    '''public void setCurrentBandwidthSummary(final Summary currentBandwidthSummary)
+    '''returns None\n\n
+    setCurrentBandwidthSummary(final Summary currentBandwidthSummary)\n
     '''
 def getDatacenter():
-    '''public Location getDatacenter()
+    '''returns Location\n\n
+    getDatacenter()\n
     '''
 def setDatacenter():
-    '''public void setDatacenter(final Location datacenter)
+    '''returns None\n\n
+    setDatacenter(final Location datacenter)\n
     '''
 def getEvaultNetworkStorage():
-    '''public List<Storage> getEvaultNetworkStorage()
+    '''returns List<Storage>\n\n
+    getEvaultNetworkStorage()\n
     '''
 def getFirewallServiceComponent():
-    '''public Firewall getFirewallServiceComponent()
+    '''returns Firewall\n\n
+    getFirewallServiceComponent()\n
     '''
 def setFirewallServiceComponent():
-    '''public void setFirewallServiceComponent(final Firewall firewallServiceComponent)
+    '''returns None\n\n
+    setFirewallServiceComponent(final Firewall firewallServiceComponent)\n
     '''
 def getFrontendRouters():
-    '''public Hardware getFrontendRouters()
+    '''returns Hardware\n\n
+    getFrontendRouters()\n
     '''
 def setFrontendRouters():
-    '''public void setFrontendRouters(final Hardware frontendRouters)
+    '''returns None\n\n
+    setFrontendRouters(final Hardware frontendRouters)\n
     '''
 def getGlobalIdentifier():
-    '''public String getGlobalIdentifier()
+    '''returns String\n\n
+    getGlobalIdentifier()\n
     '''
 def setGlobalIdentifier():
-    '''public void setGlobalIdentifier(final String globalIdentifier)
+    '''returns None\n\n
+    setGlobalIdentifier(final String globalIdentifier)\n
     '''
 def getGuestBootParameter():
-    '''public Parameter getGuestBootParameter()
+    '''returns Parameter\n\n
+    getGuestBootParameter()\n
     '''
 def setGuestBootParameter():
-    '''public void setGuestBootParameter(final Parameter guestBootParameter)
+    '''returns None\n\n
+    setGuestBootParameter(final Parameter guestBootParameter)\n
     '''
 def setHost():
-    '''public void setHost(final com.softlayer.api.service.virtual.Host host)
+    '''returns None\n\n
+    setHost(final com.softlayer.api.service.virtual.Host host)\n
     '''
 def getHostIpsSoftwareComponent():
-    '''public Component getHostIpsSoftwareComponent()
+    '''returns Component\n\n
+    getHostIpsSoftwareComponent()\n
     '''
 def setHostIpsSoftwareComponent():
-    '''public void setHostIpsSoftwareComponent(final Component hostIpsSoftwareComponent)
+    '''returns None\n\n
+    setHostIpsSoftwareComponent(final Component hostIpsSoftwareComponent)\n
     '''
 def getHourlyBillingFlag():
-    '''public Boolean getHourlyBillingFlag()
+    '''returns Boolean\n\n
+    getHourlyBillingFlag()\n
     '''
 def setHourlyBillingFlag():
-    '''public void setHourlyBillingFlag(final Boolean hourlyBillingFlag)
+    '''returns None\n\n
+    setHourlyBillingFlag(final Boolean hourlyBillingFlag)\n
     '''
 def getInboundPrivateBandwidthUsage():
-    '''public BigDecimal getInboundPrivateBandwidthUsage()
+    '''returns BigDecimal\n\n
+    getInboundPrivateBandwidthUsage()\n
     '''
 def setInboundPrivateBandwidthUsage():
-    '''public void setInboundPrivateBandwidthUsage(final BigDecimal inboundPrivateBandwidthUsage)
+    '''returns None\n\n
+    setInboundPrivateBandwidthUsage(final BigDecimal inboundPrivateBandwidthUsage)\n
     '''
 def getInboundPublicBandwidthUsage():
-    '''public BigDecimal getInboundPublicBandwidthUsage()
+    '''returns BigDecimal\n\n
+    getInboundPublicBandwidthUsage()\n
     '''
 def setInboundPublicBandwidthUsage():
-    '''public void setInboundPublicBandwidthUsage(final BigDecimal inboundPublicBandwidthUsage)
+    '''returns None\n\n
+    setInboundPublicBandwidthUsage(final BigDecimal inboundPublicBandwidthUsage)\n
     '''
 def getInternalTagReferences():
-    '''public List<Reference> getInternalTagReferences()
+    '''returns List<Reference>\n\n
+    getInternalTagReferences()\n
     '''
 def getLastKnownPowerState():
-    '''public State getLastKnownPowerState()
+    '''returns State\n\n
+    getLastKnownPowerState()\n
     '''
 def setLastKnownPowerState():
-    '''public void setLastKnownPowerState(final State lastKnownPowerState)
+    '''returns None\n\n
+    setLastKnownPowerState(final State lastKnownPowerState)\n
     '''
 def getLastOperatingSystemReload():
-    '''public Transaction getLastOperatingSystemReload()
+    '''returns Transaction\n\n
+    getLastOperatingSystemReload()\n
     '''
 def setLastOperatingSystemReload():
-    '''public void setLastOperatingSystemReload(final Transaction lastOperatingSystemReload)
+    '''returns None\n\n
+    setLastOperatingSystemReload(final Transaction lastOperatingSystemReload)\n
     '''
 def getLastTransaction():
-    '''public Transaction getLastTransaction()
+    '''returns Transaction\n\n
+    getLastTransaction()\n
     '''
 def setLastTransaction():
-    '''public void setLastTransaction(final Transaction lastTransaction)
+    '''returns None\n\n
+    setLastTransaction(final Transaction lastTransaction)\n
     '''
 def getLatestNetworkMonitorIncident():
-    '''public Incident getLatestNetworkMonitorIncident()
+    '''returns Incident\n\n
+    getLatestNetworkMonitorIncident()\n
     '''
 def setLatestNetworkMonitorIncident():
-    '''public void setLatestNetworkMonitorIncident(final Incident latestNetworkMonitorIncident)
+    '''returns None\n\n
+    setLatestNetworkMonitorIncident(final Incident latestNetworkMonitorIncident)\n
     '''
 def getLocalDiskFlag():
-    '''public Boolean getLocalDiskFlag()
+    '''returns Boolean\n\n
+    getLocalDiskFlag()\n
     '''
 def setLocalDiskFlag():
-    '''public void setLocalDiskFlag(final Boolean localDiskFlag)
+    '''returns None\n\n
+    setLocalDiskFlag(final Boolean localDiskFlag)\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final Location location)
+    '''returns None\n\n
+    setLocation(final Location location)\n
     '''
 def getManagedResourceFlag():
-    '''public Boolean getManagedResourceFlag()
+    '''returns Boolean\n\n
+    getManagedResourceFlag()\n
     '''
 def setManagedResourceFlag():
-    '''public void setManagedResourceFlag(final Boolean managedResourceFlag)
+    '''returns None\n\n
+    setManagedResourceFlag(final Boolean managedResourceFlag)\n
     '''
 def setMetricTrackingObject():
-    '''public void setMetricTrackingObject(final com.softlayer.api.service.metric.tracking.Object metricTrackingObject)
+    '''returns None\n\n
+    setMetricTrackingObject(final com.softlayer.api.service.metric.tracking.Object metricTrackingObject)\n
     '''
 def getMetricTrackingObjectId():
-    '''public Long getMetricTrackingObjectId()
+    '''returns Long\n\n
+    getMetricTrackingObjectId()\n
     '''
 def setMetricTrackingObjectId():
-    '''public void setMetricTrackingObjectId(final Long metricTrackingObjectId)
+    '''returns None\n\n
+    setMetricTrackingObjectId(final Long metricTrackingObjectId)\n
     '''
 def getMonitoringAgents():
-    '''public List<Agent> getMonitoringAgents()
+    '''returns List<Agent>\n\n
+    getMonitoringAgents()\n
     '''
 def getMonitoringRobot():
-    '''public Robot getMonitoringRobot()
+    '''returns Robot\n\n
+    getMonitoringRobot()\n
     '''
 def setMonitoringRobot():
-    '''public void setMonitoringRobot(final Robot monitoringRobot)
+    '''returns None\n\n
+    setMonitoringRobot(final Robot monitoringRobot)\n
     '''
 def getMonitoringServiceComponent():
-    '''public Stratum getMonitoringServiceComponent()
+    '''returns Stratum\n\n
+    getMonitoringServiceComponent()\n
     '''
 def setMonitoringServiceComponent():
-    '''public void setMonitoringServiceComponent(final Stratum monitoringServiceComponent)
+    '''returns None\n\n
+    setMonitoringServiceComponent(final Stratum monitoringServiceComponent)\n
     '''
 def getMonitoringServiceEligibilityFlag():
-    '''public Boolean getMonitoringServiceEligibilityFlag()
+    '''returns Boolean\n\n
+    getMonitoringServiceEligibilityFlag()\n
     '''
 def setMonitoringServiceEligibilityFlag():
-    '''public void setMonitoringServiceEligibilityFlag(final Boolean monitoringServiceEligibilityFlag)
+    '''returns None\n\n
+    setMonitoringServiceEligibilityFlag(final Boolean monitoringServiceEligibilityFlag)\n
     '''
 def getMonitoringServiceFlag():
-    '''public Boolean getMonitoringServiceFlag()
+    '''returns Boolean\n\n
+    getMonitoringServiceFlag()\n
     '''
 def setMonitoringServiceFlag():
-    '''public void setMonitoringServiceFlag(final Boolean monitoringServiceFlag)
+    '''returns None\n\n
+    setMonitoringServiceFlag(final Boolean monitoringServiceFlag)\n
     '''
 def getNetworkMonitorIncidents():
-    '''public List<Incident> getNetworkMonitorIncidents()
+    '''returns List<Incident>\n\n
+    getNetworkMonitorIncidents()\n
     '''
 def getNetworkStorage():
-    '''public List<Storage> getNetworkStorage()
+    '''returns List<Storage>\n\n
+    getNetworkStorage()\n
     '''
 def getNetworkVlans():
-    '''public List<Vlan> getNetworkVlans()
+    '''returns List<Vlan>\n\n
+    getNetworkVlans()\n
     '''
 def getOpenCancellationTicket():
-    '''public Ticket getOpenCancellationTicket()
+    '''returns Ticket\n\n
+    getOpenCancellationTicket()\n
     '''
 def setOpenCancellationTicket():
-    '''public void setOpenCancellationTicket(final Ticket openCancellationTicket)
+    '''returns None\n\n
+    setOpenCancellationTicket(final Ticket openCancellationTicket)\n
     '''
 def getOperatingSystem():
-    '''public OperatingSystem getOperatingSystem()
+    '''returns OperatingSystem\n\n
+    getOperatingSystem()\n
     '''
 def setOperatingSystem():
-    '''public void setOperatingSystem(final OperatingSystem operatingSystem)
+    '''returns None\n\n
+    setOperatingSystem(final OperatingSystem operatingSystem)\n
     '''
 def getOperatingSystemReferenceCode():
-    '''public String getOperatingSystemReferenceCode()
+    '''returns String\n\n
+    getOperatingSystemReferenceCode()\n
     '''
 def setOperatingSystemReferenceCode():
-    '''public void setOperatingSystemReferenceCode(final String operatingSystemReferenceCode)
+    '''returns None\n\n
+    setOperatingSystemReferenceCode(final String operatingSystemReferenceCode)\n
     '''
 def getOrderedPackageId():
-    '''public String getOrderedPackageId()
+    '''returns String\n\n
+    getOrderedPackageId()\n
     '''
 def setOrderedPackageId():
-    '''public void setOrderedPackageId(final String orderedPackageId)
+    '''returns None\n\n
+    setOrderedPackageId(final String orderedPackageId)\n
     '''
 def getOutboundPrivateBandwidthUsage():
-    '''public BigDecimal getOutboundPrivateBandwidthUsage()
+    '''returns BigDecimal\n\n
+    getOutboundPrivateBandwidthUsage()\n
     '''
 def setOutboundPrivateBandwidthUsage():
-    '''public void setOutboundPrivateBandwidthUsage(final BigDecimal outboundPrivateBandwidthUsage)
+    '''returns None\n\n
+    setOutboundPrivateBandwidthUsage(final BigDecimal outboundPrivateBandwidthUsage)\n
     '''
 def getOutboundPublicBandwidthUsage():
-    '''public BigDecimal getOutboundPublicBandwidthUsage()
+    '''returns BigDecimal\n\n
+    getOutboundPublicBandwidthUsage()\n
     '''
 def setOutboundPublicBandwidthUsage():
-    '''public void setOutboundPublicBandwidthUsage(final BigDecimal outboundPublicBandwidthUsage)
+    '''returns None\n\n
+    setOutboundPublicBandwidthUsage(final BigDecimal outboundPublicBandwidthUsage)\n
     '''
 def getOverBandwidthAllocationFlag():
-    '''public Long getOverBandwidthAllocationFlag()
+    '''returns Long\n\n
+    getOverBandwidthAllocationFlag()\n
     '''
 def setOverBandwidthAllocationFlag():
-    '''public void setOverBandwidthAllocationFlag(final Long overBandwidthAllocationFlag)
+    '''returns None\n\n
+    setOverBandwidthAllocationFlag(final Long overBandwidthAllocationFlag)\n
     '''
 def getPendingMigrationFlag():
-    '''public Boolean getPendingMigrationFlag()
+    '''returns Boolean\n\n
+    getPendingMigrationFlag()\n
     '''
 def setPendingMigrationFlag():
-    '''public void setPendingMigrationFlag(final Boolean pendingMigrationFlag)
+    '''returns None\n\n
+    setPendingMigrationFlag(final Boolean pendingMigrationFlag)\n
     '''
 def getPowerState():
-    '''public State getPowerState()
+    '''returns State\n\n
+    getPowerState()\n
     '''
 def setPowerState():
-    '''public void setPowerState(final State powerState)
+    '''returns None\n\n
+    setPowerState(final State powerState)\n
     '''
 def getPrimaryBackendIpAddress():
-    '''public String getPrimaryBackendIpAddress()
+    '''returns String\n\n
+    getPrimaryBackendIpAddress()\n
     '''
 def setPrimaryBackendIpAddress():
-    '''public void setPrimaryBackendIpAddress(final String primaryBackendIpAddress)
+    '''returns None\n\n
+    setPrimaryBackendIpAddress(final String primaryBackendIpAddress)\n
     '''
 def setPrimaryBackendNetworkComponent():
-    '''public void setPrimaryBackendNetworkComponent(final com.softlayer.api.service.virtual.guest.network.Component primaryBackendNetworkComponent)
+    '''returns None\n\n
+    setPrimaryBackendNetworkComponent(final com.softlayer.api.service.virtual.guest.network.Component primaryBackendNetworkComponent)\n
     '''
 def getPrimaryIpAddress():
-    '''public String getPrimaryIpAddress()
+    '''returns String\n\n
+    getPrimaryIpAddress()\n
     '''
 def setPrimaryIpAddress():
-    '''public void setPrimaryIpAddress(final String primaryIpAddress)
+    '''returns None\n\n
+    setPrimaryIpAddress(final String primaryIpAddress)\n
     '''
 def setPrimaryNetworkComponent():
-    '''public void setPrimaryNetworkComponent(final com.softlayer.api.service.virtual.guest.network.Component primaryNetworkComponent)
+    '''returns None\n\n
+    setPrimaryNetworkComponent(final com.softlayer.api.service.virtual.guest.network.Component primaryNetworkComponent)\n
     '''
 def getPrivateNetworkOnlyFlag():
-    '''public Boolean getPrivateNetworkOnlyFlag()
+    '''returns Boolean\n\n
+    getPrivateNetworkOnlyFlag()\n
     '''
 def setPrivateNetworkOnlyFlag():
-    '''public void setPrivateNetworkOnlyFlag(final Boolean privateNetworkOnlyFlag)
+    '''returns None\n\n
+    setPrivateNetworkOnlyFlag(final Boolean privateNetworkOnlyFlag)\n
     '''
 def getProjectedOverBandwidthAllocationFlag():
-    '''public Long getProjectedOverBandwidthAllocationFlag()
+    '''returns Long\n\n
+    getProjectedOverBandwidthAllocationFlag()\n
     '''
 def setProjectedOverBandwidthAllocationFlag():
-    '''public void setProjectedOverBandwidthAllocationFlag(final Long projectedOverBandwidthAllocationFlag)
+    '''returns None\n\n
+    setProjectedOverBandwidthAllocationFlag(final Long projectedOverBandwidthAllocationFlag)\n
     '''
 def getProjectedPublicBandwidthUsage():
-    '''public BigDecimal getProjectedPublicBandwidthUsage()
+    '''returns BigDecimal\n\n
+    getProjectedPublicBandwidthUsage()\n
     '''
 def setProjectedPublicBandwidthUsage():
-    '''public void setProjectedPublicBandwidthUsage(final BigDecimal projectedPublicBandwidthUsage)
+    '''returns None\n\n
+    setProjectedPublicBandwidthUsage(final BigDecimal projectedPublicBandwidthUsage)\n
     '''
 def getRecentEvents():
-    '''public List<Event> getRecentEvents()
+    '''returns List<Event>\n\n
+    getRecentEvents()\n
     '''
 def getRegionalGroup():
-    '''public Regional getRegionalGroup()
+    '''returns Regional\n\n
+    getRegionalGroup()\n
     '''
 def setRegionalGroup():
-    '''public void setRegionalGroup(final Regional regionalGroup)
+    '''returns None\n\n
+    setRegionalGroup(final Regional regionalGroup)\n
     '''
 def getRegionalInternetRegistry():
-    '''public Registry getRegionalInternetRegistry()
+    '''returns Registry\n\n
+    getRegionalInternetRegistry()\n
     '''
 def setRegionalInternetRegistry():
-    '''public void setRegionalInternetRegistry(final Registry regionalInternetRegistry)
+    '''returns None\n\n
+    setRegionalInternetRegistry(final Registry regionalInternetRegistry)\n
     '''
 def getScaleAssets():
-    '''public List<Asset> getScaleAssets()
+    '''returns List<Asset>\n\n
+    getScaleAssets()\n
     '''
 def setScaleMember():
-    '''public void setScaleMember(final com.softlayer.api.service.scale.member.virtual.Guest scaleMember)
+    '''returns None\n\n
+    setScaleMember(final com.softlayer.api.service.scale.member.virtual.Guest scaleMember)\n
     '''
 def getScaledFlag():
-    '''public Boolean getScaledFlag()
+    '''returns Boolean\n\n
+    getScaledFlag()\n
     '''
 def setScaledFlag():
-    '''public void setScaledFlag(final Boolean scaledFlag)
+    '''returns None\n\n
+    setScaledFlag(final Boolean scaledFlag)\n
     '''
 def getSecurityScanRequests():
-    '''public List<Request> getSecurityScanRequests()
+    '''returns List<Request>\n\n
+    getSecurityScanRequests()\n
     '''
 def getServerRoom():
-    '''public Location getServerRoom()
+    '''returns Location\n\n
+    getServerRoom()\n
     '''
 def setServerRoom():
-    '''public void setServerRoom(final Location serverRoom)
+    '''returns None\n\n
+    setServerRoom(final Location serverRoom)\n
     '''
 def getSoftwareComponents():
-    '''public List<Component> getSoftwareComponents()
+    '''returns List<Component>\n\n
+    getSoftwareComponents()\n
     '''
 def getSshKeys():
-    '''public List<Key> getSshKeys()
+    '''returns List<Key>\n\n
+    getSshKeys()\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final Status status)
+    '''returns None\n\n
+    setStatus(final Status status)\n
     '''
 def getTagReferences():
-    '''public List<Reference> getTagReferences()
+    '''returns List<Reference>\n\n
+    getTagReferences()\n
     '''
 def setUpgradeRequest():
-    '''public void setUpgradeRequest(final com.softlayer.api.service.product.upgrade.Request upgradeRequest)
+    '''returns None\n\n
+    setUpgradeRequest(final com.softlayer.api.service.product.upgrade.Request upgradeRequest)\n
     '''
 def getUserData():
-    '''public List<Attribute> getUserData()
+    '''returns List<Attribute>\n\n
+    getUserData()\n
     '''
 def getUsers():
-    '''public List<Customer> getUsers()
+    '''returns List<Customer>\n\n
+    getUsers()\n
     '''
 def getVirtualRack():
-    '''public Allotment getVirtualRack()
+    '''returns Allotment\n\n
+    getVirtualRack()\n
     '''
 def setVirtualRack():
-    '''public void setVirtualRack(final Allotment virtualRack)
+    '''returns None\n\n
+    setVirtualRack(final Allotment virtualRack)\n
     '''
 def getVirtualRackId():
-    '''public Long getVirtualRackId()
+    '''returns Long\n\n
+    getVirtualRackId()\n
     '''
 def setVirtualRackId():
-    '''public void setVirtualRackId(final Long virtualRackId)
+    '''returns None\n\n
+    setVirtualRackId(final Long virtualRackId)\n
     '''
 def getVirtualRackName():
-    '''public String getVirtualRackName()
+    '''returns String\n\n
+    getVirtualRackName()\n
     '''
 def setVirtualRackName():
-    '''public void setVirtualRackName(final String virtualRackName)
+    '''returns None\n\n
+    setVirtualRackName(final String virtualRackName)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getDedicatedAccountHostOnlyFlag():
-    '''public Boolean getDedicatedAccountHostOnlyFlag()
+    '''returns Boolean\n\n
+    getDedicatedAccountHostOnlyFlag()\n
     '''
 def setDedicatedAccountHostOnlyFlag():
-    '''public void setDedicatedAccountHostOnlyFlag(final Boolean dedicatedAccountHostOnlyFlag)
+    '''returns None\n\n
+    setDedicatedAccountHostOnlyFlag(final Boolean dedicatedAccountHostOnlyFlag)\n
     '''
 def isDedicatedAccountHostOnlyFlagSpecified():
-    '''public boolean isDedicatedAccountHostOnlyFlagSpecified()
+    '''returns boolean\n\n
+    isDedicatedAccountHostOnlyFlagSpecified()\n
     '''
 def unsetDedicatedAccountHostOnlyFlag():
-    '''public void unsetDedicatedAccountHostOnlyFlag()
+    '''returns None\n\n
+    unsetDedicatedAccountHostOnlyFlag()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def setDomain():
-    '''public void setDomain(final String domain)
+    '''returns None\n\n
+    setDomain(final String domain)\n
     '''
 def isDomainSpecified():
-    '''public boolean isDomainSpecified()
+    '''returns boolean\n\n
+    isDomainSpecified()\n
     '''
 def unsetDomain():
-    '''public void unsetDomain()
+    '''returns None\n\n
+    unsetDomain()\n
     '''
 def getFullyQualifiedDomainName():
-    '''public String getFullyQualifiedDomainName()
+    '''returns String\n\n
+    getFullyQualifiedDomainName()\n
     '''
 def setFullyQualifiedDomainName():
-    '''public void setFullyQualifiedDomainName(final String fullyQualifiedDomainName)
+    '''returns None\n\n
+    setFullyQualifiedDomainName(final String fullyQualifiedDomainName)\n
     '''
 def isFullyQualifiedDomainNameSpecified():
-    '''public boolean isFullyQualifiedDomainNameSpecified()
+    '''returns boolean\n\n
+    isFullyQualifiedDomainNameSpecified()\n
     '''
 def unsetFullyQualifiedDomainName():
-    '''public void unsetFullyQualifiedDomainName()
+    '''returns None\n\n
+    unsetFullyQualifiedDomainName()\n
     '''
 def getHostname():
-    '''public String getHostname()
+    '''returns String\n\n
+    getHostname()\n
     '''
 def setHostname():
-    '''public void setHostname(final String hostname)
+    '''returns None\n\n
+    setHostname(final String hostname)\n
     '''
 def isHostnameSpecified():
-    '''public boolean isHostnameSpecified()
+    '''returns boolean\n\n
+    isHostnameSpecified()\n
     '''
 def unsetHostname():
-    '''public void unsetHostname()
+    '''returns None\n\n
+    unsetHostname()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getLastPowerStateId():
-    '''public Long getLastPowerStateId()
+    '''returns Long\n\n
+    getLastPowerStateId()\n
     '''
 def setLastPowerStateId():
-    '''public void setLastPowerStateId(final Long lastPowerStateId)
+    '''returns None\n\n
+    setLastPowerStateId(final Long lastPowerStateId)\n
     '''
 def isLastPowerStateIdSpecified():
-    '''public boolean isLastPowerStateIdSpecified()
+    '''returns boolean\n\n
+    isLastPowerStateIdSpecified()\n
     '''
 def unsetLastPowerStateId():
-    '''public void unsetLastPowerStateId()
+    '''returns None\n\n
+    unsetLastPowerStateId()\n
     '''
 def getLastVerifiedDate():
-    '''public GregorianCalendar getLastVerifiedDate()
+    '''returns GregorianCalendar\n\n
+    getLastVerifiedDate()\n
     '''
 def setLastVerifiedDate():
-    '''public void setLastVerifiedDate(final GregorianCalendar lastVerifiedDate)
+    '''returns None\n\n
+    setLastVerifiedDate(final GregorianCalendar lastVerifiedDate)\n
     '''
 def isLastVerifiedDateSpecified():
-    '''public boolean isLastVerifiedDateSpecified()
+    '''returns boolean\n\n
+    isLastVerifiedDateSpecified()\n
     '''
 def unsetLastVerifiedDate():
-    '''public void unsetLastVerifiedDate()
+    '''returns None\n\n
+    unsetLastVerifiedDate()\n
     '''
 def getMaxCpu():
-    '''public Long getMaxCpu()
+    '''returns Long\n\n
+    getMaxCpu()\n
     '''
 def setMaxCpu():
-    '''public void setMaxCpu(final Long maxCpu)
+    '''returns None\n\n
+    setMaxCpu(final Long maxCpu)\n
     '''
 def isMaxCpuSpecified():
-    '''public boolean isMaxCpuSpecified()
+    '''returns boolean\n\n
+    isMaxCpuSpecified()\n
     '''
 def unsetMaxCpu():
-    '''public void unsetMaxCpu()
+    '''returns None\n\n
+    unsetMaxCpu()\n
     '''
 def getMaxCpuUnits():
-    '''public String getMaxCpuUnits()
+    '''returns String\n\n
+    getMaxCpuUnits()\n
     '''
 def setMaxCpuUnits():
-    '''public void setMaxCpuUnits(final String maxCpuUnits)
+    '''returns None\n\n
+    setMaxCpuUnits(final String maxCpuUnits)\n
     '''
 def isMaxCpuUnitsSpecified():
-    '''public boolean isMaxCpuUnitsSpecified()
+    '''returns boolean\n\n
+    isMaxCpuUnitsSpecified()\n
     '''
 def unsetMaxCpuUnits():
-    '''public void unsetMaxCpuUnits()
+    '''returns None\n\n
+    unsetMaxCpuUnits()\n
     '''
 def getMaxMemory():
-    '''public Long getMaxMemory()
+    '''returns Long\n\n
+    getMaxMemory()\n
     '''
 def setMaxMemory():
-    '''public void setMaxMemory(final Long maxMemory)
+    '''returns None\n\n
+    setMaxMemory(final Long maxMemory)\n
     '''
 def isMaxMemorySpecified():
-    '''public boolean isMaxMemorySpecified()
+    '''returns boolean\n\n
+    isMaxMemorySpecified()\n
     '''
 def unsetMaxMemory():
-    '''public void unsetMaxMemory()
+    '''returns None\n\n
+    unsetMaxMemory()\n
     '''
 def getMetricPollDate():
-    '''public GregorianCalendar getMetricPollDate()
+    '''returns GregorianCalendar\n\n
+    getMetricPollDate()\n
     '''
 def setMetricPollDate():
-    '''public void setMetricPollDate(final GregorianCalendar metricPollDate)
+    '''returns None\n\n
+    setMetricPollDate(final GregorianCalendar metricPollDate)\n
     '''
 def isMetricPollDateSpecified():
-    '''public boolean isMetricPollDateSpecified()
+    '''returns boolean\n\n
+    isMetricPollDateSpecified()\n
     '''
 def unsetMetricPollDate():
-    '''public void unsetMetricPollDate()
+    '''returns None\n\n
+    unsetMetricPollDate()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getPostInstallScriptUri():
-    '''public String getPostInstallScriptUri()
+    '''returns String\n\n
+    getPostInstallScriptUri()\n
     '''
 def setPostInstallScriptUri():
-    '''public void setPostInstallScriptUri(final String postInstallScriptUri)
+    '''returns None\n\n
+    setPostInstallScriptUri(final String postInstallScriptUri)\n
     '''
 def isPostInstallScriptUriSpecified():
-    '''public boolean isPostInstallScriptUriSpecified()
+    '''returns boolean\n\n
+    isPostInstallScriptUriSpecified()\n
     '''
 def unsetPostInstallScriptUri():
-    '''public void unsetPostInstallScriptUri()
+    '''returns None\n\n
+    unsetPostInstallScriptUri()\n
     '''
 def getProvisionDate():
-    '''public GregorianCalendar getProvisionDate()
+    '''returns GregorianCalendar\n\n
+    getProvisionDate()\n
     '''
 def setProvisionDate():
-    '''public void setProvisionDate(final GregorianCalendar provisionDate)
+    '''returns None\n\n
+    setProvisionDate(final GregorianCalendar provisionDate)\n
     '''
 def isProvisionDateSpecified():
-    '''public boolean isProvisionDateSpecified()
+    '''returns boolean\n\n
+    isProvisionDateSpecified()\n
     '''
 def unsetProvisionDate():
-    '''public void unsetProvisionDate()
+    '''returns None\n\n
+    unsetProvisionDate()\n
     '''
 def getStartCpus():
-    '''public Long getStartCpus()
+    '''returns Long\n\n
+    getStartCpus()\n
     '''
 def setStartCpus():
-    '''public void setStartCpus(final Long startCpus)
+    '''returns None\n\n
+    setStartCpus(final Long startCpus)\n
     '''
 def isStartCpusSpecified():
-    '''public boolean isStartCpusSpecified()
+    '''returns boolean\n\n
+    isStartCpusSpecified()\n
     '''
 def unsetStartCpus():
-    '''public void unsetStartCpus()
+    '''returns None\n\n
+    unsetStartCpus()\n
     '''
 def getStatusId():
-    '''public Long getStatusId()
+    '''returns Long\n\n
+    getStatusId()\n
     '''
 def setStatusId():
-    '''public void setStatusId(final Long statusId)
+    '''returns None\n\n
+    setStatusId(final Long statusId)\n
     '''
 def isStatusIdSpecified():
-    '''public boolean isStatusIdSpecified()
+    '''returns boolean\n\n
+    isStatusIdSpecified()\n
     '''
 def unsetStatusId():
-    '''public void unsetStatusId()
+    '''returns None\n\n
+    unsetStatusId()\n
     '''
 def getSupplementalCreateObjectOptions():
-    '''public SupplementalCreateObjectOptions getSupplementalCreateObjectOptions()
+    '''returns SupplementalCreateObjectOptions\n\n
+    getSupplementalCreateObjectOptions()\n
     '''
 def setSupplementalCreateObjectOptions():
-    '''public void setSupplementalCreateObjectOptions(final SupplementalCreateObjectOptions supplementalCreateObjectOptions)
+    '''returns None\n\n
+    setSupplementalCreateObjectOptions(final SupplementalCreateObjectOptions supplementalCreateObjectOptions)\n
     '''
 def isSupplementalCreateObjectOptionsSpecified():
-    '''public boolean isSupplementalCreateObjectOptionsSpecified()
+    '''returns boolean\n\n
+    isSupplementalCreateObjectOptionsSpecified()\n
     '''
 def unsetSupplementalCreateObjectOptions():
-    '''public void unsetSupplementalCreateObjectOptions()
+    '''returns None\n\n
+    unsetSupplementalCreateObjectOptions()\n
     '''
 def getUuid():
-    '''public String getUuid()
+    '''returns String\n\n
+    getUuid()\n
     '''
 def setUuid():
-    '''public void setUuid(final String uuid)
+    '''returns None\n\n
+    setUuid(final String uuid)\n
     '''
 def isUuidSpecified():
-    '''public boolean isUuidSpecified()
+    '''returns boolean\n\n
+    isUuidSpecified()\n
     '''
 def unsetUuid():
-    '''public void unsetUuid()
+    '''returns None\n\n
+    unsetUuid()\n
     '''
 def getActiveNetworkMonitorIncidentCount():
-    '''public Long getActiveNetworkMonitorIncidentCount()
+    '''returns Long\n\n
+    getActiveNetworkMonitorIncidentCount()\n
     '''
 def setActiveNetworkMonitorIncidentCount():
-    '''public void setActiveNetworkMonitorIncidentCount(final Long activeNetworkMonitorIncidentCount)
+    '''returns None\n\n
+    setActiveNetworkMonitorIncidentCount(final Long activeNetworkMonitorIncidentCount)\n
     '''
 def getActiveTicketCount():
-    '''public Long getActiveTicketCount()
+    '''returns Long\n\n
+    getActiveTicketCount()\n
     '''
 def setActiveTicketCount():
-    '''public void setActiveTicketCount(final Long activeTicketCount)
+    '''returns None\n\n
+    setActiveTicketCount(final Long activeTicketCount)\n
     '''
 def getActiveTransactionCount():
-    '''public Long getActiveTransactionCount()
+    '''returns Long\n\n
+    getActiveTransactionCount()\n
     '''
 def setActiveTransactionCount():
-    '''public void setActiveTransactionCount(final Long activeTransactionCount)
+    '''returns None\n\n
+    setActiveTransactionCount(final Long activeTransactionCount)\n
     '''
 def getAllowedNetworkStorageCount():
-    '''public Long getAllowedNetworkStorageCount()
+    '''returns Long\n\n
+    getAllowedNetworkStorageCount()\n
     '''
 def setAllowedNetworkStorageCount():
-    '''public void setAllowedNetworkStorageCount(final Long allowedNetworkStorageCount)
+    '''returns None\n\n
+    setAllowedNetworkStorageCount(final Long allowedNetworkStorageCount)\n
     '''
 def getAllowedNetworkStorageReplicaCount():
-    '''public Long getAllowedNetworkStorageReplicaCount()
+    '''returns Long\n\n
+    getAllowedNetworkStorageReplicaCount()\n
     '''
 def setAllowedNetworkStorageReplicaCount():
-    '''public void setAllowedNetworkStorageReplicaCount(final Long allowedNetworkStorageReplicaCount)
+    '''returns None\n\n
+    setAllowedNetworkStorageReplicaCount(final Long allowedNetworkStorageReplicaCount)\n
     '''
 def getAttributeCount():
-    '''public Long getAttributeCount()
+    '''returns Long\n\n
+    getAttributeCount()\n
     '''
 def setAttributeCount():
-    '''public void setAttributeCount(final Long attributeCount)
+    '''returns None\n\n
+    setAttributeCount(final Long attributeCount)\n
     '''
 def getAvailableMonitoringCount():
-    '''public Long getAvailableMonitoringCount()
+    '''returns Long\n\n
+    getAvailableMonitoringCount()\n
     '''
 def setAvailableMonitoringCount():
-    '''public void setAvailableMonitoringCount(final Long availableMonitoringCount)
+    '''returns None\n\n
+    setAvailableMonitoringCount(final Long availableMonitoringCount)\n
     '''
 def getBackendNetworkComponentCount():
-    '''public Long getBackendNetworkComponentCount()
+    '''returns Long\n\n
+    getBackendNetworkComponentCount()\n
     '''
 def setBackendNetworkComponentCount():
-    '''public void setBackendNetworkComponentCount(final Long backendNetworkComponentCount)
+    '''returns None\n\n
+    setBackendNetworkComponentCount(final Long backendNetworkComponentCount)\n
     '''
 def getBackendRouterCount():
-    '''public Long getBackendRouterCount()
+    '''returns Long\n\n
+    getBackendRouterCount()\n
     '''
 def setBackendRouterCount():
-    '''public void setBackendRouterCount(final Long backendRouterCount)
+    '''returns None\n\n
+    setBackendRouterCount(final Long backendRouterCount)\n
     '''
 def getBillingCycleBandwidthUsageCount():
-    '''public Long getBillingCycleBandwidthUsageCount()
+    '''returns Long\n\n
+    getBillingCycleBandwidthUsageCount()\n
     '''
 def setBillingCycleBandwidthUsageCount():
-    '''public void setBillingCycleBandwidthUsageCount(final Long billingCycleBandwidthUsageCount)
+    '''returns None\n\n
+    setBillingCycleBandwidthUsageCount(final Long billingCycleBandwidthUsageCount)\n
     '''
 def getBlockDeviceCount():
-    '''public Long getBlockDeviceCount()
+    '''returns Long\n\n
+    getBlockDeviceCount()\n
     '''
 def setBlockDeviceCount():
-    '''public void setBlockDeviceCount(final Long blockDeviceCount)
+    '''returns None\n\n
+    setBlockDeviceCount(final Long blockDeviceCount)\n
     '''
 def getEvaultNetworkStorageCount():
-    '''public Long getEvaultNetworkStorageCount()
+    '''returns Long\n\n
+    getEvaultNetworkStorageCount()\n
     '''
 def setEvaultNetworkStorageCount():
-    '''public void setEvaultNetworkStorageCount(final Long evaultNetworkStorageCount)
+    '''returns None\n\n
+    setEvaultNetworkStorageCount(final Long evaultNetworkStorageCount)\n
     '''
 def getFrontendNetworkComponentCount():
-    '''public Long getFrontendNetworkComponentCount()
+    '''returns Long\n\n
+    getFrontendNetworkComponentCount()\n
     '''
 def setFrontendNetworkComponentCount():
-    '''public void setFrontendNetworkComponentCount(final Long frontendNetworkComponentCount)
+    '''returns None\n\n
+    setFrontendNetworkComponentCount(final Long frontendNetworkComponentCount)\n
     '''
 def getInternalTagReferenceCount():
-    '''public Long getInternalTagReferenceCount()
+    '''returns Long\n\n
+    getInternalTagReferenceCount()\n
     '''
 def setInternalTagReferenceCount():
-    '''public void setInternalTagReferenceCount(final Long internalTagReferenceCount)
+    '''returns None\n\n
+    setInternalTagReferenceCount(final Long internalTagReferenceCount)\n
     '''
 def getMonitoringAgentCount():
-    '''public Long getMonitoringAgentCount()
+    '''returns Long\n\n
+    getMonitoringAgentCount()\n
     '''
 def setMonitoringAgentCount():
-    '''public void setMonitoringAgentCount(final Long monitoringAgentCount)
+    '''returns None\n\n
+    setMonitoringAgentCount(final Long monitoringAgentCount)\n
     '''
 def getMonitoringUserNotificationCount():
-    '''public Long getMonitoringUserNotificationCount()
+    '''returns Long\n\n
+    getMonitoringUserNotificationCount()\n
     '''
 def setMonitoringUserNotificationCount():
-    '''public void setMonitoringUserNotificationCount(final Long monitoringUserNotificationCount)
+    '''returns None\n\n
+    setMonitoringUserNotificationCount(final Long monitoringUserNotificationCount)\n
     '''
 def getNetworkComponentCount():
-    '''public Long getNetworkComponentCount()
+    '''returns Long\n\n
+    getNetworkComponentCount()\n
     '''
 def setNetworkComponentCount():
-    '''public void setNetworkComponentCount(final Long networkComponentCount)
+    '''returns None\n\n
+    setNetworkComponentCount(final Long networkComponentCount)\n
     '''
 def getNetworkMonitorCount():
-    '''public Long getNetworkMonitorCount()
+    '''returns Long\n\n
+    getNetworkMonitorCount()\n
     '''
 def setNetworkMonitorCount():
-    '''public void setNetworkMonitorCount(final Long networkMonitorCount)
+    '''returns None\n\n
+    setNetworkMonitorCount(final Long networkMonitorCount)\n
     '''
 def getNetworkMonitorIncidentCount():
-    '''public Long getNetworkMonitorIncidentCount()
+    '''returns Long\n\n
+    getNetworkMonitorIncidentCount()\n
     '''
 def setNetworkMonitorIncidentCount():
-    '''public void setNetworkMonitorIncidentCount(final Long networkMonitorIncidentCount)
+    '''returns None\n\n
+    setNetworkMonitorIncidentCount(final Long networkMonitorIncidentCount)\n
     '''
 def getNetworkStorageCount():
-    '''public Long getNetworkStorageCount()
+    '''returns Long\n\n
+    getNetworkStorageCount()\n
     '''
 def setNetworkStorageCount():
-    '''public void setNetworkStorageCount(final Long networkStorageCount)
+    '''returns None\n\n
+    setNetworkStorageCount(final Long networkStorageCount)\n
     '''
 def getNetworkVlanCount():
-    '''public Long getNetworkVlanCount()
+    '''returns Long\n\n
+    getNetworkVlanCount()\n
     '''
 def setNetworkVlanCount():
-    '''public void setNetworkVlanCount(final Long networkVlanCount)
+    '''returns None\n\n
+    setNetworkVlanCount(final Long networkVlanCount)\n
     '''
 def getRecentEventCount():
-    '''public Long getRecentEventCount()
+    '''returns Long\n\n
+    getRecentEventCount()\n
     '''
 def setRecentEventCount():
-    '''public void setRecentEventCount(final Long recentEventCount)
+    '''returns None\n\n
+    setRecentEventCount(final Long recentEventCount)\n
     '''
 def getScaleAssetCount():
-    '''public Long getScaleAssetCount()
+    '''returns Long\n\n
+    getScaleAssetCount()\n
     '''
 def setScaleAssetCount():
-    '''public void setScaleAssetCount(final Long scaleAssetCount)
+    '''returns None\n\n
+    setScaleAssetCount(final Long scaleAssetCount)\n
     '''
 def getSecurityScanRequestCount():
-    '''public Long getSecurityScanRequestCount()
+    '''returns Long\n\n
+    getSecurityScanRequestCount()\n
     '''
 def setSecurityScanRequestCount():
-    '''public void setSecurityScanRequestCount(final Long securityScanRequestCount)
+    '''returns None\n\n
+    setSecurityScanRequestCount(final Long securityScanRequestCount)\n
     '''
 def getSoftwareComponentCount():
-    '''public Long getSoftwareComponentCount()
+    '''returns Long\n\n
+    getSoftwareComponentCount()\n
     '''
 def setSoftwareComponentCount():
-    '''public void setSoftwareComponentCount(final Long softwareComponentCount)
+    '''returns None\n\n
+    setSoftwareComponentCount(final Long softwareComponentCount)\n
     '''
 def getSshKeyCount():
-    '''public Long getSshKeyCount()
+    '''returns Long\n\n
+    getSshKeyCount()\n
     '''
 def setSshKeyCount():
-    '''public void setSshKeyCount(final Long sshKeyCount)
+    '''returns None\n\n
+    setSshKeyCount(final Long sshKeyCount)\n
     '''
 def getTagReferenceCount():
-    '''public Long getTagReferenceCount()
+    '''returns Long\n\n
+    getTagReferenceCount()\n
     '''
 def setTagReferenceCount():
-    '''public void setTagReferenceCount(final Long tagReferenceCount)
+    '''returns None\n\n
+    setTagReferenceCount(final Long tagReferenceCount)\n
     '''
 def getUserCount():
-    '''public Long getUserCount()
+    '''returns Long\n\n
+    getUserCount()\n
     '''
 def setUserCount():
-    '''public void setUserCount(final Long userCount)
+    '''returns None\n\n
+    setUserCount(final Long userCount)\n
     '''
 def getUserDataCount():
-    '''public Long getUserDataCount()
+    '''returns Long\n\n
+    getUserDataCount()\n
     '''
 def setUserDataCount():
-    '''public void setUserDataCount(final Long userDataCount)
+    '''returns None\n\n
+    setUserDataCount(final Long userDataCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
-    public static Service service(final ApiClient client, final String globalIdentifier)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountOwnedPoolFlag():
-    '''public Mask accountOwnedPoolFlag()
+    '''returns Mask\n\n
+    accountOwnedPoolFlag()\n
     '''
 def averageDailyPrivateBandwidthUsage():
-    '''public Mask averageDailyPrivateBandwidthUsage()
+    '''returns Mask\n\n
+    averageDailyPrivateBandwidthUsage()\n
     '''
 def averageDailyPublicBandwidthUsage():
-    '''public Mask averageDailyPublicBandwidthUsage()
+    '''returns Mask\n\n
+    averageDailyPublicBandwidthUsage()\n
     '''
 def bandwidthAllocation():
-    '''public Mask bandwidthAllocation()
+    '''returns Mask\n\n
+    bandwidthAllocation()\n
     '''
 def blockCancelBecauseDisconnectedFlag():
-    '''public Mask blockCancelBecauseDisconnectedFlag()
+    '''returns Mask\n\n
+    blockCancelBecauseDisconnectedFlag()\n
     '''
 def consoleIpAddressFlag():
-    '''public Mask consoleIpAddressFlag()
+    '''returns Mask\n\n
+    consoleIpAddressFlag()\n
     '''
 def globalIdentifier():
-    '''public Mask globalIdentifier()
+    '''returns Mask\n\n
+    globalIdentifier()\n
     '''
 def hourlyBillingFlag():
-    '''public Mask hourlyBillingFlag()
+    '''returns Mask\n\n
+    hourlyBillingFlag()\n
     '''
 def inboundPrivateBandwidthUsage():
-    '''public Mask inboundPrivateBandwidthUsage()
+    '''returns Mask\n\n
+    inboundPrivateBandwidthUsage()\n
     '''
 def inboundPublicBandwidthUsage():
-    '''public Mask inboundPublicBandwidthUsage()
+    '''returns Mask\n\n
+    inboundPublicBandwidthUsage()\n
     '''
 def localDiskFlag():
-    '''public Mask localDiskFlag()
+    '''returns Mask\n\n
+    localDiskFlag()\n
     '''
 def managedResourceFlag():
-    '''public Mask managedResourceFlag()
+    '''returns Mask\n\n
+    managedResourceFlag()\n
     '''
 def metricTrackingObjectId():
-    '''public Mask metricTrackingObjectId()
+    '''returns Mask\n\n
+    metricTrackingObjectId()\n
     '''
 def monitoringServiceEligibilityFlag():
-    '''public Mask monitoringServiceEligibilityFlag()
+    '''returns Mask\n\n
+    monitoringServiceEligibilityFlag()\n
     '''
 def monitoringServiceFlag():
-    '''public Mask monitoringServiceFlag()
+    '''returns Mask\n\n
+    monitoringServiceFlag()\n
     '''
 def operatingSystemReferenceCode():
-    '''public Mask operatingSystemReferenceCode()
+    '''returns Mask\n\n
+    operatingSystemReferenceCode()\n
     '''
 def orderedPackageId():
-    '''public Mask orderedPackageId()
+    '''returns Mask\n\n
+    orderedPackageId()\n
     '''
 def outboundPrivateBandwidthUsage():
-    '''public Mask outboundPrivateBandwidthUsage()
+    '''returns Mask\n\n
+    outboundPrivateBandwidthUsage()\n
     '''
 def outboundPublicBandwidthUsage():
-    '''public Mask outboundPublicBandwidthUsage()
+    '''returns Mask\n\n
+    outboundPublicBandwidthUsage()\n
     '''
 def overBandwidthAllocationFlag():
-    '''public Mask overBandwidthAllocationFlag()
+    '''returns Mask\n\n
+    overBandwidthAllocationFlag()\n
     '''
 def pendingMigrationFlag():
-    '''public Mask pendingMigrationFlag()
+    '''returns Mask\n\n
+    pendingMigrationFlag()\n
     '''
 def primaryBackendIpAddress():
-    '''public Mask primaryBackendIpAddress()
+    '''returns Mask\n\n
+    primaryBackendIpAddress()\n
     '''
 def primaryIpAddress():
-    '''public Mask primaryIpAddress()
+    '''returns Mask\n\n
+    primaryIpAddress()\n
     '''
 def privateNetworkOnlyFlag():
-    '''public Mask privateNetworkOnlyFlag()
+    '''returns Mask\n\n
+    privateNetworkOnlyFlag()\n
     '''
 def projectedOverBandwidthAllocationFlag():
-    '''public Mask projectedOverBandwidthAllocationFlag()
+    '''returns Mask\n\n
+    projectedOverBandwidthAllocationFlag()\n
     '''
 def projectedPublicBandwidthUsage():
-    '''public Mask projectedPublicBandwidthUsage()
+    '''returns Mask\n\n
+    projectedPublicBandwidthUsage()\n
     '''
 def scaledFlag():
-    '''public Mask scaledFlag()
+    '''returns Mask\n\n
+    scaledFlag()\n
     '''
 def virtualRackId():
-    '''public Mask virtualRackId()
+    '''returns Mask\n\n
+    virtualRackId()\n
     '''
 def virtualRackName():
-    '''public Mask virtualRackName()
+    '''returns Mask\n\n
+    virtualRackName()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def dedicatedAccountHostOnlyFlag():
-    '''public Mask dedicatedAccountHostOnlyFlag()
+    '''returns Mask\n\n
+    dedicatedAccountHostOnlyFlag()\n
     '''
 def domain():
-    '''public Mask domain()
+    '''returns Mask\n\n
+    domain()\n
     '''
 def fullyQualifiedDomainName():
-    '''public Mask fullyQualifiedDomainName()
+    '''returns Mask\n\n
+    fullyQualifiedDomainName()\n
     '''
 def hostname():
-    '''public Mask hostname()
+    '''returns Mask\n\n
+    hostname()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def lastPowerStateId():
-    '''public Mask lastPowerStateId()
+    '''returns Mask\n\n
+    lastPowerStateId()\n
     '''
 def lastVerifiedDate():
-    '''public Mask lastVerifiedDate()
+    '''returns Mask\n\n
+    lastVerifiedDate()\n
     '''
 def maxCpu():
-    '''public Mask maxCpu()
+    '''returns Mask\n\n
+    maxCpu()\n
     '''
 def maxCpuUnits():
-    '''public Mask maxCpuUnits()
+    '''returns Mask\n\n
+    maxCpuUnits()\n
     '''
 def maxMemory():
-    '''public Mask maxMemory()
+    '''returns Mask\n\n
+    maxMemory()\n
     '''
 def metricPollDate():
-    '''public Mask metricPollDate()
+    '''returns Mask\n\n
+    metricPollDate()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def postInstallScriptUri():
-    '''public Mask postInstallScriptUri()
+    '''returns Mask\n\n
+    postInstallScriptUri()\n
     '''
 def provisionDate():
-    '''public Mask provisionDate()
+    '''returns Mask\n\n
+    provisionDate()\n
     '''
 def startCpus():
-    '''public Mask startCpus()
+    '''returns Mask\n\n
+    startCpus()\n
     '''
 def statusId():
-    '''public Mask statusId()
+    '''returns Mask\n\n
+    statusId()\n
     '''
 def uuid():
-    '''public Mask uuid()
+    '''returns Mask\n\n
+    uuid()\n
     '''
 def activeNetworkMonitorIncidentCount():
-    '''public Mask activeNetworkMonitorIncidentCount()
+    '''returns Mask\n\n
+    activeNetworkMonitorIncidentCount()\n
     '''
 def activeTicketCount():
-    '''public Mask activeTicketCount()
+    '''returns Mask\n\n
+    activeTicketCount()\n
     '''
 def activeTransactionCount():
-    '''public Mask activeTransactionCount()
+    '''returns Mask\n\n
+    activeTransactionCount()\n
     '''
 def allowedNetworkStorageCount():
-    '''public Mask allowedNetworkStorageCount()
+    '''returns Mask\n\n
+    allowedNetworkStorageCount()\n
     '''
 def allowedNetworkStorageReplicaCount():
-    '''public Mask allowedNetworkStorageReplicaCount()
+    '''returns Mask\n\n
+    allowedNetworkStorageReplicaCount()\n
     '''
 def attributeCount():
-    '''public Mask attributeCount()
+    '''returns Mask\n\n
+    attributeCount()\n
     '''
 def availableMonitoringCount():
-    '''public Mask availableMonitoringCount()
+    '''returns Mask\n\n
+    availableMonitoringCount()\n
     '''
 def backendNetworkComponentCount():
-    '''public Mask backendNetworkComponentCount()
+    '''returns Mask\n\n
+    backendNetworkComponentCount()\n
     '''
 def backendRouterCount():
-    '''public Mask backendRouterCount()
+    '''returns Mask\n\n
+    backendRouterCount()\n
     '''
 def billingCycleBandwidthUsageCount():
-    '''public Mask billingCycleBandwidthUsageCount()
+    '''returns Mask\n\n
+    billingCycleBandwidthUsageCount()\n
     '''
 def blockDeviceCount():
-    '''public Mask blockDeviceCount()
+    '''returns Mask\n\n
+    blockDeviceCount()\n
     '''
 def evaultNetworkStorageCount():
-    '''public Mask evaultNetworkStorageCount()
+    '''returns Mask\n\n
+    evaultNetworkStorageCount()\n
     '''
 def frontendNetworkComponentCount():
-    '''public Mask frontendNetworkComponentCount()
+    '''returns Mask\n\n
+    frontendNetworkComponentCount()\n
     '''
 def internalTagReferenceCount():
-    '''public Mask internalTagReferenceCount()
+    '''returns Mask\n\n
+    internalTagReferenceCount()\n
     '''
 def monitoringAgentCount():
-    '''public Mask monitoringAgentCount()
+    '''returns Mask\n\n
+    monitoringAgentCount()\n
     '''
 def monitoringUserNotificationCount():
-    '''public Mask monitoringUserNotificationCount()
+    '''returns Mask\n\n
+    monitoringUserNotificationCount()\n
     '''
 def networkComponentCount():
-    '''public Mask networkComponentCount()
+    '''returns Mask\n\n
+    networkComponentCount()\n
     '''
 def networkMonitorCount():
-    '''public Mask networkMonitorCount()
+    '''returns Mask\n\n
+    networkMonitorCount()\n
     '''
 def networkMonitorIncidentCount():
-    '''public Mask networkMonitorIncidentCount()
+    '''returns Mask\n\n
+    networkMonitorIncidentCount()\n
     '''
 def networkStorageCount():
-    '''public Mask networkStorageCount()
+    '''returns Mask\n\n
+    networkStorageCount()\n
     '''
 def networkVlanCount():
-    '''public Mask networkVlanCount()
+    '''returns Mask\n\n
+    networkVlanCount()\n
     '''
 def recentEventCount():
-    '''public Mask recentEventCount()
+    '''returns Mask\n\n
+    recentEventCount()\n
     '''
 def scaleAssetCount():
-    '''public Mask scaleAssetCount()
+    '''returns Mask\n\n
+    scaleAssetCount()\n
     '''
 def securityScanRequestCount():
-    '''public Mask securityScanRequestCount()
+    '''returns Mask\n\n
+    securityScanRequestCount()\n
     '''
 def softwareComponentCount():
-    '''public Mask softwareComponentCount()
+    '''returns Mask\n\n
+    softwareComponentCount()\n
     '''
 def sshKeyCount():
-    '''public Mask sshKeyCount()
+    '''returns Mask\n\n
+    sshKeyCount()\n
     '''
 def tagReferenceCount():
-    '''public Mask tagReferenceCount()
+    '''returns Mask\n\n
+    tagReferenceCount()\n
     '''
 def userCount():
-    '''public Mask userCount()
+    '''returns Mask\n\n
+    userCount()\n
     '''
 def userDataCount():
-    '''public Mask userDataCount()
+    '''returns Mask\n\n
+    userDataCount()\n
     '''

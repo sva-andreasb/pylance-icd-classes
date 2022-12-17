@@ -3,24 +3,31 @@ ACTION = "int  1"
 ACTION_INFO = "int  2"
 UNKNOWN = "int  3"
 def getImpact():
-    '''public int getImpact()
+    '''returns int\n\n
+    getImpact()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getReturnType():
-    '''public String getReturnType()
+    '''returns String\n\n
+    getReturnType()\n
     '''
 def getSignature():
-    '''public MBeanParameterInfo[] getSignature()
+    '''returns MBeanParameterInfo[]\n\n
+    getSignature()\n
     '''
-def MBeanOperationInfo():
-    '''public MBeanOperationInfo(final String s, final Method method)
-    public MBeanOperationInfo(final String s, final String s2, MBeanParameterInfo[] no_PARAMS, final String type, final int impact)
+def ():
+    '''returns MBeanOperationInfo\n\n
+    (final String s, final Method method)\n
+    (final String s, final String s2, MBeanParameterInfo[] no_PARAMS, final String type, final int impact)\n
     '''

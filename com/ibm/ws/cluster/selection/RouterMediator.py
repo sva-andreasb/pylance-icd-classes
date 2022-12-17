@@ -1,42 +1,52 @@
-def RouterMediator():
-    '''public RouterMediator()
+def ():
+    '''returns RouterMediator\n\n
+    ()\n
     '''
 def setObservedWeight():
-    '''public void setObservedWeight(final Identity cluster, final Identity member, final int weight)
+    '''returns None\n\n
+    setObservedWeight(final Identity cluster, final Identity member, final int weight)\n
     '''
 def getObservedWeight():
-    '''public int getObservedWeight(final Identity cluster, final Identity member)
+    '''returns int\n\n
+    getObservedWeight(final Identity cluster, final Identity member)\n
     '''
 def setErrorWeight():
-    '''public void setErrorWeight(final Identity cluster, final Identity member, final int error)
+    '''returns None\n\n
+    setErrorWeight(final Identity cluster, final Identity member, final int error)\n
     '''
 def getErrorWeight():
-    '''public int getErrorWeight(final Identity cluster, final Identity member)
+    '''returns int\n\n
+    getErrorWeight(final Identity cluster, final Identity member)\n
     '''
 def tareErrorWeights():
-    '''public void tareErrorWeights(final Identity cluster)
+    '''returns None\n\n
+    tareErrorWeights(final Identity cluster)\n
     '''
 def setAvailable():
-    '''public void setAvailable(final Identity member)
+    '''returns None\n\n
+    setAvailable(final Identity member)\n
     '''
 def setUnavailable():
-    '''public void setUnavailable(final Identity member)
+    '''returns None\n\n
+    setUnavailable(final Identity member)\n
     '''
 def isAvailable():
-    '''public boolean isAvailable(final Identity member)
+    '''returns boolean\n\n
+    isAvailable(final Identity member)\n
     '''
 def tareObservedWeights():
-    '''public void tareObservedWeights(final Identity cluster)
+    '''returns None\n\n
+    tareObservedWeights(final Identity cluster)\n
     '''
 def registerMembershipAdvisor():
-    '''public void registerMembershipAdvisor(final MembershipAdvisor advisor)
+    '''returns None\n\n
+    registerMembershipAdvisor(final MembershipAdvisor advisor)\n
     '''
 def deregisterMembershipAdvisor():
-    '''public void deregisterMembershipAdvisor(final MembershipAdvisor advisor)
+    '''returns None\n\n
+    deregisterMembershipAdvisor(final MembershipAdvisor advisor)\n
     '''
 def registerFeedback():
-    '''public void registerFeedback(final WeightBasedFeedback feedback, final Identity cluster)
-    '''
-def setForceFeedback():
-    '''public static void setForceFeedback(final boolean bool)
+    '''returns None\n\n
+    registerFeedback(final WeightBasedFeedback feedback, final Identity cluster)\n
     '''

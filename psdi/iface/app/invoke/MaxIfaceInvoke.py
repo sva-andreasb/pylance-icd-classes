@@ -1,30 +1,40 @@
-def MaxIfaceInvoke():
-    '''public MaxIfaceInvoke(final MboSet ms)
+def ():
+    '''returns MaxIfaceInvoke\n\n
+    (final MboSet ms)\n
     '''
 def getReadOnlyNoProcResp():
-    '''public String[] getReadOnlyNoProcResp()
+    '''returns String[]\n\n
+    getReadOnlyNoProcResp()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def initDuplicate():
-    '''public void initDuplicate()
+    '''returns None\n\n
+    initDuplicate()\n
     '''
 def createRequestXML():
-    '''public void createRequestXML()
+    '''returns None\n\n
+    createRequestXML()\n
     '''

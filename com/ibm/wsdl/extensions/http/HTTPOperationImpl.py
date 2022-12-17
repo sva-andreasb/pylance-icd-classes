@@ -1,25 +1,33 @@
 serialVersionUID = "long  1L"
-def HTTPOperationImpl():
-    '''public HTTPOperationImpl()
+def ():
+    '''returns HTTPOperationImpl\n\n
+    ()\n
     '''
 def setElementType():
-    '''public void setElementType(final QName elementType)
+    '''returns None\n\n
+    setElementType(final QName elementType)\n
     '''
 def getElementType():
-    '''public QName getElementType()
+    '''returns QName\n\n
+    getElementType()\n
     '''
 def setRequired():
-    '''public void setRequired(final Boolean required)
+    '''returns None\n\n
+    setRequired(final Boolean required)\n
     '''
 def getRequired():
-    '''public Boolean getRequired()
+    '''returns Boolean\n\n
+    getRequired()\n
     '''
 def setLocationURI():
-    '''public void setLocationURI(final String locationURI)
+    '''returns None\n\n
+    setLocationURI(final String locationURI)\n
     '''
 def getLocationURI():
-    '''public String getLocationURI()
+    '''returns String\n\n
+    getLocationURI()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

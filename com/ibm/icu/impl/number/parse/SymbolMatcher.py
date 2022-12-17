@@ -1,12 +1,16 @@
 def getSet():
-    '''public UnicodeSet getSet()
+    '''returns UnicodeSet\n\n
+    getSet()\n
     '''
 def match():
-    '''public boolean match(final StringSegment segment, final ParsedNumber result)
+    '''returns boolean\n\n
+    match(final StringSegment segment, final ParsedNumber result)\n
     '''
 def smokeTest():
-    '''public boolean smokeTest(final StringSegment segment)
+    '''returns boolean\n\n
+    smokeTest(final StringSegment segment)\n
     '''
 def postProcess():
-    '''public void postProcess(final ParsedNumber result)
+    '''returns None\n\n
+    postProcess(final ParsedNumber result)\n
     '''

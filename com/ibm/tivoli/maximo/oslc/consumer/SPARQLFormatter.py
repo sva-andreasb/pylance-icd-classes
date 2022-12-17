@@ -8,15 +8,19 @@ OPERATOR_LT = "String  \"LESSTHAN\""
 OPERATOR_SW = "String  \"STARTSWITH\""
 OPERATOR_EW = "String  \"ENDSWITH\""
 OPERATOR_LIKE = "String  \"LIKE\""
-def SPARQLFormatter():
-    '''public SPARQLFormatter(final QueryInfo queryInfo, final MboRemote mbo, final Map<String, String> nsPrefixMap, final OslcInteractionInfo interactionInfo)
+def ():
+    '''returns SPARQLFormatter\n\n
+    (final QueryInfo queryInfo, final MboRemote mbo, final Map<String, String> nsPrefixMap, final OslcInteractionInfo interactionInfo)\n
     '''
 def asDate():
-    '''public String asDate(final String value)
+    '''returns String\n\n
+    asDate(final String value)\n
     '''
 def getResolvedWhere():
-    '''public String getResolvedWhere()
+    '''returns String\n\n
+    getResolvedWhere()\n
     '''
 def canExecute():
-    '''public boolean canExecute()
+    '''returns boolean\n\n
+    canExecute()\n
     '''

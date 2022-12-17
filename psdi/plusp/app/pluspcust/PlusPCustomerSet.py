@@ -1,15 +1,20 @@
-def PlusPCustomerSet():
-    '''public PlusPCustomerSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustomerSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copyCustomersToTarget():
-    '''public void copyCustomersToTarget(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyCustomersToTarget(final MboSetRemote mboSetRemote)\n
     '''
 def isLookup():
-    '''public boolean isLookup()
+    '''returns boolean\n\n
+    isLookup()\n
     '''
 def isSelectMultiCustomersDialog():
-    '''public boolean isSelectMultiCustomersDialog()
+    '''returns boolean\n\n
+    isSelectMultiCustomersDialog()\n
     '''
 def setSelectMultiCustomersDialog():
-    '''public void setSelectMultiCustomersDialog(final boolean selectMultiCustomersDialog)
+    '''returns None\n\n
+    setSelectMultiCustomersDialog(final boolean selectMultiCustomersDialog)\n
     '''

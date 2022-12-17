@@ -1,114 +1,108 @@
-def createNewStructureModel():
-    '''public static AsmManager createNewStructureModel(final Map<File, String> inpathMap)
-    '''
 def getHierarchy():
-    '''public IHierarchy getHierarchy()
+    '''returns IHierarchy\n\n
+    getHierarchy()\n
     '''
 def getRelationshipMap():
-    '''public IRelationshipMap getRelationshipMap()
+    '''returns IRelationshipMap\n\n
+    getRelationshipMap()\n
     '''
 def fireModelUpdated():
-    '''public void fireModelUpdated()
-    '''
-def getInlineAnnotations():
-    '''public HashMap<Integer, List<IProgramElement>> getInlineAnnotations(final String sourceFile, final boolean showSubMember, final boolean showMemberAndType)
+    '''returns None\n\n
+    fireModelUpdated()\n
     '''
 def addListener():
-    '''public void addListener(final IHierarchyListener listener)
+    '''returns None\n\n
+    addListener(final IHierarchyListener listener)\n
     '''
 def removeStructureListener():
-    '''public void removeStructureListener(final IHierarchyListener listener)
+    '''returns None\n\n
+    removeStructureListener(final IHierarchyListener listener)\n
     '''
 def removeAllListeners():
-    '''public void removeAllListeners()
+    '''returns None\n\n
+    removeAllListeners()\n
     '''
 def getHandleProvider():
-    '''public IElementHandleProvider getHandleProvider()
+    '''returns IElementHandleProvider\n\n
+    getHandleProvider()\n
     '''
 def setHandleProvider():
-    '''public void setHandleProvider(final IElementHandleProvider handleProvider)
+    '''returns None\n\n
+    setHandleProvider(final IElementHandleProvider handleProvider)\n
     '''
 def writeStructureModel():
-    '''public void writeStructureModel(final String configFilePath)
+    '''returns None\n\n
+    writeStructureModel(final String configFilePath)\n
     '''
 def readStructureModel():
-    '''public void readStructureModel(final String configFilePath)
+    '''returns None\n\n
+    readStructureModel(final String configFilePath)\n
     '''
 def getCanonicalFilePath():
-    '''public String getCanonicalFilePath(final File f)
+    '''returns String\n\n
+    getCanonicalFilePath(final File f)\n
     '''
 def getCanonicalFilePathMap():
-    '''public CanonicalFilePathMap getCanonicalFilePathMap()
-    '''
-def setReporting():
-    '''public static void setReporting(final String filename, final boolean dModel, final boolean dRels, final boolean dDeltaProcessing, final boolean deletefile)
-    public static void setReporting(final String filename, final boolean dModel, final boolean dRels, final boolean dDeltaProcessing, final boolean deletefile, final IModelFilter aFilter)
-    '''
-def isReporting():
-    '''public static boolean isReporting()
-    '''
-def setDontReport():
-    '''public static void setDontReport()
+    '''returns CanonicalFilePathMap\n\n
+    getCanonicalFilePathMap()\n
     '''
 def reportModelInfo():
-    '''public void reportModelInfo(final String reasonForReport)
-    '''
-def dumptree():
-    '''public static void dumptree(final Writer w, final IProgramElement node, final int indent)
-    public static void dumptree(final IProgramElement node, final int indent)
+    '''returns None\n\n
+    reportModelInfo(final String reasonForReport)\n
     '''
 def dumprels():
-    '''public void dumprels(final Writer w)
+    '''returns None\n\n
+    dumprels(final Writer w)\n
     '''
 def removeStructureModelForFiles():
-    '''public boolean removeStructureModelForFiles(final Writer fw, final Collection<File> files)
+    '''returns boolean\n\n
+    removeStructureModelForFiles(final Writer fw, final Collection<File> files)\n
     '''
 def processDelta():
-    '''public void processDelta(final Collection<File> files_tobecompiled, final Set<File> files_added, final Set<File> files_deleted)
+    '''returns None\n\n
+    processDelta(final Collection<File> files_tobecompiled, final Set<File> files_added, final Set<File> files_deleted)\n
     '''
 def removeRelationshipsTargettingThisType():
-    '''public void removeRelationshipsTargettingThisType(final String typename)
-    '''
-def verifyAssumption():
-    '''public static void verifyAssumption(final boolean b, final String info)
-    public static void verifyAssumption(final boolean b)
+    '''returns None\n\n
+    removeRelationshipsTargettingThisType(final String typename)\n
     '''
 def summarizeModel():
-    '''public ModelInfo summarizeModel()
-    '''
-def setCompletingTypeBindings():
-    '''public static void setCompletingTypeBindings(final boolean b)
-    '''
-def isCompletingTypeBindings():
-    '''public static boolean isCompletingTypeBindings()
+    '''returns ModelInfo\n\n
+    summarizeModel()\n
     '''
 def resetDeltaProcessing():
-    '''public void resetDeltaProcessing()
+    '''returns None\n\n
+    resetDeltaProcessing()\n
     '''
 def getModelChangesOnLastBuild():
-    '''public Set<File> getModelChangesOnLastBuild()
+    '''returns Set<File>\n\n
+    getModelChangesOnLastBuild()\n
     '''
 def getAspectsWeavingFilesOnLastBuild():
-    '''public Set<File> getAspectsWeavingFilesOnLastBuild()
+    '''returns Set<File>\n\n
+    getAspectsWeavingFilesOnLastBuild()\n
     '''
 def addAspectInEffectThisBuild():
-    '''public void addAspectInEffectThisBuild(final File f)
-    '''
-def setLastActiveStructureModel():
-    '''public static void setLastActiveStructureModel(final AsmManager structureModel)
+    '''returns None\n\n
+    addAspectInEffectThisBuild(final File f)\n
     '''
 def getHandleElementForInpath():
-    '''public String getHandleElementForInpath(final String binaryPath)
+    '''returns String\n\n
+    getHandleElementForInpath(final String binaryPath)\n
     '''
 def get():
-    '''public String get(final File f)
+    '''returns String\n\n
+    get(final File f)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getProperties():
-    '''public Properties getProperties()
+    '''returns Properties\n\n
+    getProperties()\n
     '''
 def recordStat():
-    '''public void recordStat(final String string, final String string2)
+    '''returns None\n\n
+    recordStat(final String string, final String string2)\n
     '''

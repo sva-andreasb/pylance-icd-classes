@@ -9,14 +9,18 @@ THRESHOLD_LOW_VALUE_EXCEEDED = "String  \"jmx.monitor.gauge.low\""
 STRING_TO_COMPARE_VALUE_MATCHED = "String  \"jmx.monitor.string.matches\""
 STRING_TO_COMPARE_VALUE_DIFFERED = "String  \"jmx.monitor.string.differs\""
 def getDerivedGauge():
-    '''public Object getDerivedGauge()
+    '''returns Object\n\n
+    getDerivedGauge()\n
     '''
 def getTrigger():
-    '''public Object getTrigger()
+    '''returns Object\n\n
+    getTrigger()\n
     '''
 def getObservedAttribute():
-    '''public String getObservedAttribute()
+    '''returns String\n\n
+    getObservedAttribute()\n
     '''
 def getObservedObject():
-    '''public ObjectName getObservedObject()
+    '''returns ObjectName\n\n
+    getObservedObject()\n
     '''

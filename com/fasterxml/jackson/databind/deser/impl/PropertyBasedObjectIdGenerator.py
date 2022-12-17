@@ -1,12 +1,16 @@
-def PropertyBasedObjectIdGenerator():
-    '''public PropertyBasedObjectIdGenerator(final Class<?> scope)
+def ():
+    '''returns PropertyBasedObjectIdGenerator\n\n
+    (final Class<?> scope)\n
     '''
 def generateId():
-    '''public Object generateId(final Object forPojo)
+    '''returns Object\n\n
+    generateId(final Object forPojo)\n
     '''
 def forScope():
-    '''public ObjectIdGenerator<Object> forScope(final Class<?> scope)
+    '''returns ObjectIdGenerator<Object>\n\n
+    forScope(final Class<?> scope)\n
     '''
 def newForSerialization():
-    '''public ObjectIdGenerator<Object> newForSerialization(final Object context)
+    '''returns ObjectIdGenerator<Object>\n\n
+    newForSerialization(final Object context)\n
     '''

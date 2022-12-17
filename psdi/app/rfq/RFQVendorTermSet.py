@@ -1,3 +1,4 @@
-def RFQVendorTermSet():
-    '''public RFQVendorTermSet(final MboServerInterface ms)
+def ():
+    '''returns RFQVendorTermSet\n\n
+    (final MboServerInterface ms)\n
     '''

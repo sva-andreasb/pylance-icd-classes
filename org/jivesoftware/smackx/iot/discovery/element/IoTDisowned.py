@@ -1,14 +1,18 @@
 ELEMENT = "String  \"disown\""
 NAMESPACE = "String  \"urn:xmpp:iot:discovery\""
-def IoTDisowned():
-    '''public IoTDisowned(final NodeInfo nodeInfo)
+def ():
+    '''returns IoTDisowned\n\n
+    (final NodeInfo nodeInfo)\n
     '''
 def getNodeId():
-    '''public String getNodeId()
+    '''returns String\n\n
+    getNodeId()\n
     '''
 def getSourceId():
-    '''public String getSourceId()
+    '''returns String\n\n
+    getSourceId()\n
     '''
 def getNodeInfo():
-    '''public NodeInfo getNodeInfo()
+    '''returns NodeInfo\n\n
+    getNodeInfo()\n
     '''

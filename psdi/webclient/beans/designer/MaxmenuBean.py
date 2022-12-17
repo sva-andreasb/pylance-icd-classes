@@ -1,6 +1,4 @@
 def addrow():
-    '''public int addrow()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    addrow()\n
     '''

@@ -1,163 +1,212 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getBillingItem():
-    '''public Item getBillingItem()
+    '''returns Item\n\n
+    getBillingItem()\n
     '''
 def setBillingItem():
-    '''public void setBillingItem(final Item billingItem)
+    '''returns None\n\n
+    setBillingItem(final Item billingItem)\n
     '''
 def getHostHardware():
-    '''public Server getHostHardware()
+    '''returns Server\n\n
+    getHostHardware()\n
     '''
 def setHostHardware():
-    '''public void setHostHardware(final Server hostHardware)
+    '''returns None\n\n
+    setHostHardware(final Server hostHardware)\n
     '''
 def getIpAddressRecord():
-    '''public IpAddress getIpAddressRecord()
+    '''returns IpAddress\n\n
+    getIpAddressRecord()\n
     '''
 def setIpAddressRecord():
-    '''public void setIpAddressRecord(final IpAddress ipAddressRecord)
+    '''returns None\n\n
+    setIpAddressRecord(final IpAddress ipAddressRecord)\n
     '''
 def getSoftwareDescription():
-    '''public Description getSoftwareDescription()
+    '''returns Description\n\n
+    getSoftwareDescription()\n
     '''
 def setSoftwareDescription():
-    '''public void setSoftwareDescription(final Description softwareDescription)
+    '''returns None\n\n
+    setSoftwareDescription(final Description softwareDescription)\n
     '''
 def getSubnet():
-    '''public Subnet getSubnet()
+    '''returns Subnet\n\n
+    getSubnet()\n
     '''
 def setSubnet():
-    '''public void setSubnet(final Subnet subnet)
+    '''returns None\n\n
+    setSubnet(final Subnet subnet)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getHostHardwareId():
-    '''public Long getHostHardwareId()
+    '''returns Long\n\n
+    getHostHardwareId()\n
     '''
 def setHostHardwareId():
-    '''public void setHostHardwareId(final Long hostHardwareId)
+    '''returns None\n\n
+    setHostHardwareId(final Long hostHardwareId)\n
     '''
 def isHostHardwareIdSpecified():
-    '''public boolean isHostHardwareIdSpecified()
+    '''returns boolean\n\n
+    isHostHardwareIdSpecified()\n
     '''
 def unsetHostHardwareId():
-    '''public void unsetHostHardwareId()
+    '''returns None\n\n
+    unsetHostHardwareId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getIpAddress():
-    '''public String getIpAddress()
+    '''returns String\n\n
+    getIpAddress()\n
     '''
 def setIpAddress():
-    '''public void setIpAddress(final String ipAddress)
+    '''returns None\n\n
+    setIpAddress(final String ipAddress)\n
     '''
 def isIpAddressSpecified():
-    '''public boolean isIpAddressSpecified()
+    '''returns boolean\n\n
+    isIpAddressSpecified()\n
     '''
 def unsetIpAddress():
-    '''public void unsetIpAddress()
+    '''returns None\n\n
+    unsetIpAddress()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def isKeySpecified():
-    '''public boolean isKeySpecified()
+    '''returns boolean\n\n
+    isKeySpecified()\n
     '''
 def unsetKey():
-    '''public void unsetKey()
+    '''returns None\n\n
+    unsetKey()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getSoftwareDescriptionId():
-    '''public Long getSoftwareDescriptionId()
+    '''returns Long\n\n
+    getSoftwareDescriptionId()\n
     '''
 def setSoftwareDescriptionId():
-    '''public void setSoftwareDescriptionId(final Long softwareDescriptionId)
+    '''returns None\n\n
+    setSoftwareDescriptionId(final Long softwareDescriptionId)\n
     '''
 def isSoftwareDescriptionIdSpecified():
-    '''public boolean isSoftwareDescriptionIdSpecified()
+    '''returns boolean\n\n
+    isSoftwareDescriptionIdSpecified()\n
     '''
 def unsetSoftwareDescriptionId():
-    '''public void unsetSoftwareDescriptionId()
+    '''returns None\n\n
+    unsetSoftwareDescriptionId()\n
     '''
 def getSubnetId():
-    '''public Long getSubnetId()
+    '''returns Long\n\n
+    getSubnetId()\n
     '''
 def setSubnetId():
-    '''public void setSubnetId(final Long subnetId)
+    '''returns None\n\n
+    setSubnetId(final Long subnetId)\n
     '''
 def isSubnetIdSpecified():
-    '''public boolean isSubnetIdSpecified()
+    '''returns boolean\n\n
+    isSubnetIdSpecified()\n
     '''
 def unsetSubnetId():
-    '''public void unsetSubnetId()
+    '''returns None\n\n
+    unsetSubnetId()\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def hostHardwareId():
-    '''public Mask hostHardwareId()
+    '''returns Mask\n\n
+    hostHardwareId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def ipAddress():
-    '''public Mask ipAddress()
+    '''returns Mask\n\n
+    ipAddress()\n
     '''
 def key():
-    '''public Mask key()
+    '''returns Mask\n\n
+    key()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def softwareDescriptionId():
-    '''public Mask softwareDescriptionId()
+    '''returns Mask\n\n
+    softwareDescriptionId()\n
     '''
 def subnetId():
-    '''public Mask subnetId()
+    '''returns Mask\n\n
+    subnetId()\n
     '''

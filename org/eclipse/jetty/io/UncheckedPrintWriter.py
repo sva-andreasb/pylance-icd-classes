@@ -1,45 +1,52 @@
-def UncheckedPrintWriter():
-    '''public UncheckedPrintWriter(final Writer out)
-    public UncheckedPrintWriter(final Writer out, final boolean autoFlush)
-    public UncheckedPrintWriter(final OutputStream out)
-    public UncheckedPrintWriter(final OutputStream out, final boolean autoFlush)
+def ():
+    '''returns UncheckedPrintWriter\n\n
+    (final Writer out)\n
+    (final Writer out, final boolean autoFlush)\n
+    (final OutputStream out)\n
+    (final OutputStream out, final boolean autoFlush)\n
     '''
 def checkError():
-    '''public boolean checkError()
+    '''returns boolean\n\n
+    checkError()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def write():
-    '''public void write(final int c)
-    public void write(final char[] buf, final int off, final int len)
-    public void write(final char[] buf)
-    public void write(final String s, final int off, final int len)
-    public void write(final String s)
+    '''returns None\n\n
+    write(final int c)\n
+    write(final char[] buf, final int off, final int len)\n
+    write(final char[] buf)\n
+    write(final String s, final int off, final int len)\n
+    write(final String s)\n
     '''
 def print():
-    '''public void print(final boolean b)
-    public void print(final char c)
-    public void print(final int i)
-    public void print(final long l)
-    public void print(final float f)
-    public void print(final double d)
-    public void print(final char[] s)
-    public void print(String s)
-    public void print(final Object obj)
+    '''returns None\n\n
+    print(final boolean b)\n
+    print(final char c)\n
+    print(final int i)\n
+    print(final long l)\n
+    print(final float f)\n
+    print(final double d)\n
+    print(final char[] s)\n
+    print(String s)\n
+    print(final Object obj)\n
     '''
 def println():
-    '''public void println()
-    public void println(final boolean x)
-    public void println(final char x)
-    public void println(final int x)
-    public void println(final long x)
-    public void println(final float x)
-    public void println(final double x)
-    public void println(final char[] x)
-    public void println(final String x)
-    public void println(final Object x)
+    '''returns None\n\n
+    println()\n
+    println(final boolean x)\n
+    println(final char x)\n
+    println(final int x)\n
+    println(final long x)\n
+    println(final float x)\n
+    println(final double x)\n
+    println(final char[] x)\n
+    println(final String x)\n
+    println(final Object x)\n
     '''

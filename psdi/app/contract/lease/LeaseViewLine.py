@@ -1,6 +1,8 @@
-def LeaseViewLine():
-    '''public LeaseViewLine(final MboSet ms)
+def ():
+    '''returns LeaseViewLine\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

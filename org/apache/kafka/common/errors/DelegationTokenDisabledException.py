@@ -1,4 +1,5 @@
-def DelegationTokenDisabledException():
-    '''public DelegationTokenDisabledException(final String message)
-    public DelegationTokenDisabledException(final String message, final Throwable cause)
+def ():
+    '''returns DelegationTokenDisabledException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

@@ -1,93 +1,122 @@
-def ServletHelpBroker():
-    '''public ServletHelpBroker()
+def ():
+    '''returns ServletHelpBroker\n\n
+    ()\n
     '''
 def getHelpSet():
-    '''public HelpSet getHelpSet()
+    '''returns HelpSet\n\n
+    getHelpSet()\n
     '''
 def setHelpSet():
-    '''public void setHelpSet(final HelpSet helpset)
+    '''returns None\n\n
+    setHelpSet(final HelpSet helpset)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def setCurrentView():
-    '''public void setCurrentView(final String anObject)
+    '''returns None\n\n
+    setCurrentView(final String anObject)\n
     '''
 def getCurrentView():
-    '''public String getCurrentView()
+    '''returns String\n\n
+    getCurrentView()\n
     '''
 def getCurrentNavigatorView():
-    '''public NavigatorView getCurrentNavigatorView()
+    '''returns NavigatorView\n\n
+    getCurrentNavigatorView()\n
     '''
 def initPresentation():
-    '''public void initPresentation()
+    '''returns None\n\n
+    initPresentation()\n
     '''
 def setDisplayed():
-    '''public void setDisplayed(final boolean b)
+    '''returns None\n\n
+    setDisplayed(final boolean b)\n
     '''
 def isDisplayed():
-    '''public boolean isDisplayed()
+    '''returns boolean\n\n
+    isDisplayed()\n
     '''
 def setLocation():
-    '''public void setLocation(final Point point)
+    '''returns None\n\n
+    setLocation(final Point point)\n
     '''
 def getLocation():
-    '''public Point getLocation()
+    '''returns Point\n\n
+    getLocation()\n
     '''
 def setSize():
-    '''public void setSize(final Dimension dimension)
+    '''returns None\n\n
+    setSize(final Dimension dimension)\n
     '''
 def getSize():
-    '''public Dimension getSize()
+    '''returns Dimension\n\n
+    getSize()\n
     '''
 def setScreen():
-    '''public void setScreen(final int n)
+    '''returns None\n\n
+    setScreen(final int n)\n
     '''
 def getScreen():
-    '''public int getScreen()
+    '''returns int\n\n
+    getScreen()\n
     '''
 def setViewDisplayed():
-    '''public void setViewDisplayed(final boolean viewDisplayed)
+    '''returns None\n\n
+    setViewDisplayed(final boolean viewDisplayed)\n
     '''
 def isViewDisplayed():
-    '''public boolean isViewDisplayed()
+    '''returns boolean\n\n
+    isViewDisplayed()\n
     '''
 def setCurrentID():
-    '''public void setCurrentID(final String s)
-    public void setCurrentID(final Map.ID currentID)
+    '''returns None\n\n
+    setCurrentID(final String s)\n
+    setCurrentID(final Map.ID currentID)\n
     '''
 def setCurrentURL():
-    '''public void setCurrentURL(final URL currentURL)
+    '''returns None\n\n
+    setCurrentURL(final URL currentURL)\n
     '''
 def getCurrentURL():
-    '''public URL getCurrentURL()
+    '''returns URL\n\n
+    getCurrentURL()\n
     '''
 def enableHelpKey():
-    '''public void enableHelpKey(final Component component, final String s, final HelpSet set)
-    public void enableHelpKey(final Component component, final String s, final HelpSet set, final String s2, final String s3)
+    '''returns None\n\n
+    enableHelpKey(final Component component, final String s, final HelpSet set)\n
+    enableHelpKey(final Component component, final String s, final HelpSet set, final String s2, final String s3)\n
     '''
 def enableHelp():
-    '''public void enableHelp(final Component component, final String s, final HelpSet set)
-    public void enableHelp(final MenuItem menuItem, final String s, final HelpSet set)
+    '''returns None\n\n
+    enableHelp(final Component component, final String s, final HelpSet set)\n
+    enableHelp(final MenuItem menuItem, final String s, final HelpSet set)\n
     '''
 def enableHelpOnButton():
-    '''public void enableHelpOnButton(final Component component, final String s, final HelpSet set)
-    public void enableHelpOnButton(final MenuItem menuItem, final String s, final HelpSet set)
-    public void enableHelpOnButton(final Object o, final String s, final HelpSet set, final String s2, final String s3)
+    '''returns None\n\n
+    enableHelpOnButton(final Component component, final String s, final HelpSet set)\n
+    enableHelpOnButton(final MenuItem menuItem, final String s, final HelpSet set)\n
+    enableHelpOnButton(final Object o, final String s, final HelpSet set, final String s2, final String s3)\n
     '''
 def setHelpSetPresentation():
-    '''public void setHelpSetPresentation(final HelpSet.Presentation presentation)
+    '''returns None\n\n
+    setHelpSetPresentation(final HelpSet.Presentation presentation)\n
     '''
 def showID():
-    '''public void showID(final String s, final String s2, final String s3)
-    public void showID(final Map.ID id, final String s, final String s2)
+    '''returns None\n\n
+    showID(final String s, final String s2, final String s3)\n
+    showID(final Map.ID id, final String s, final String s2)\n
     '''

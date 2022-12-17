@@ -1,3 +1,4 @@
-def RevisionInputSet():
-    '''public RevisionInputSet(final MboServerInterface ms)
+def ():
+    '''returns RevisionInputSet\n\n
+    (final MboServerInterface ms)\n
     '''

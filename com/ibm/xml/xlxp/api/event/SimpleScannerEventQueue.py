@@ -1,450 +1,403 @@
-def SimpleScannerEventQueue():
-    '''public SimpleScannerEventQueue()
-    public SimpleScannerEventQueue(final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory)
-    public SimpleScannerEventQueue(final DocumentEntityScanner fDocumentEntityScanner, final DataBufferFactory fBufferFactory, final SymbolTable fSymbolTable)
+def ():
+    '''returns ExtensionEvent\n\n
+    ()\n
+    (final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory)\n
+    (final DocumentEntityScanner fDocumentEntityScanner, final DataBufferFactory fBufferFactory, final SymbolTable fSymbolTable)\n
+    (final int n)\n
+    (final int n)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    (final int n)\n
+    (final int n)\n
+    ()\n
+    ()\n
+    (final int n)\n
+    (final int n)\n
+    (final int n)\n
+    (final int n)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    (final int n)\n
+    (final int n)\n
+    (final int n)\n
+    (final int n)\n
+    ()\n
     '''
 def reset():
-    '''public void reset(final boolean b)
+    '''returns None\n\n
+    reset(final boolean b)\n
     '''
 def setEventConsumer():
-    '''public void setEventConsumer(final ScannerEventConsumer fEventConsumer)
+    '''returns None\n\n
+    setEventConsumer(final ScannerEventConsumer fEventConsumer)\n
     '''
 def setNamespaceAwareness():
-    '''public void setNamespaceAwareness(final boolean fIsNamespaceAware)
+    '''returns None\n\n
+    setNamespaceAwareness(final boolean fIsNamespaceAware)\n
     '''
 def symbolTable():
-    '''public SymbolTable symbolTable()
+    '''returns SymbolTable\n\n
+    symbolTable()\n
     '''
 def namespaceContext():
-    '''public NamespaceContext namespaceContext()
+    '''returns NamespaceContext\n\n
+    namespaceContext()\n
     '''
 def parseDocumentEntity():
-    '''public void parseDocumentEntity(final ParsedEntity documentEntity)
+    '''returns None\n\n
+    parseDocumentEntity(final ParsedEntity documentEntity)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def runConsumers():
-    '''public boolean runConsumers()
+    '''returns boolean\n\n
+    runConsumers()\n
     '''
 def run():
-    '''public void run()
-    '''
-def nextEvent():
-    '''public final ScannerEvent nextEvent(final int n)
+    '''returns None\n\n
+    run()\n
     '''
 def reportWarning():
-    '''public boolean reportWarning(final String s, final int n)
+    '''returns boolean\n\n
+    reportWarning(final String s, final int n)\n
     '''
 def reportRecoverableError():
-    '''public boolean reportRecoverableError(final String s, final int n)
+    '''returns boolean\n\n
+    reportRecoverableError(final String s, final int n)\n
     '''
 def reportFatalError():
-    '''public boolean reportFatalError(final String s, final int n)
+    '''returns boolean\n\n
+    reportFatalError(final String s, final int n)\n
     '''
 def setParameter():
-    '''public void setParameter(final int n, final String s)
-    public void setParameter(final int n, final int n2)
-    public void setParameter(final int n, final QName qName)
-    public void setParameter(final int n, final XMLString values)
+    '''returns None\n\n
+    setParameter(final int n, final String s)\n
+    setParameter(final int n, final int n2)\n
+    setParameter(final int n, final QName qName)\n
+    setParameter(final int n, final XMLString values)\n
     '''
 def setInvalidCharParameter():
-    '''public void setInvalidCharParameter(final int n, final int i)
-    '''
-def produceStartDocumentEvent():
-    '''public final boolean produceStartDocumentEvent()
-    '''
-def produceEndDocumentEvent():
-    '''public final boolean produceEndDocumentEvent()
-    '''
-def versionToProduce():
-    '''public final XMLString versionToProduce()
-    '''
-def encNameToProduce():
-    '''public final XMLString encNameToProduce()
-    '''
-def standaloneToProduce():
-    '''public final XMLString standaloneToProduce()
-    '''
-def produceXMLDeclEvent():
-    '''public final boolean produceXMLDeclEvent()
-    '''
-def produceTextDeclEvent():
-    '''public final boolean produceTextDeclEvent()
-    '''
-def produceEmptyElementEvent():
-    '''public final boolean produceEmptyElementEvent()
-    '''
-def produceStartElementEvent():
-    '''public final boolean produceStartElementEvent()
-    '''
-def produceEndElementEvent():
-    '''public final boolean produceEndElementEvent(final QName values)
-    '''
-def contentToProduce():
-    '''public final XMLString contentToProduce()
-    '''
-def produceCharactersEvent():
-    '''public final boolean produceCharactersEvent()
-    '''
-def produceWhitespaceEvent():
-    '''public final boolean produceWhitespaceEvent()
-    '''
-def entityNameToProduce():
-    '''public final XMLString entityNameToProduce()
-    '''
-def produceCharacterEvent():
-    '''public final boolean produceCharacterEvent(final int n)
-    '''
-def producePredefinedEntityEvent():
-    '''public final boolean producePredefinedEntityEvent(final int n)
-    '''
-def targetToProduce():
-    '''public final XMLString targetToProduce()
-    '''
-def produceProcessingInstructionEvent():
-    '''public final boolean produceProcessingInstructionEvent()
-    '''
-def produceCommentEvent():
-    '''public final boolean produceCommentEvent()
-    '''
-def produceStartCDATASectionEvent():
-    '''public final boolean produceStartCDATASectionEvent()
-    '''
-def produceEndCDATASectionEvent():
-    '''public final boolean produceEndCDATASectionEvent()
-    '''
-def produceWarningEvent():
-    '''public final boolean produceWarningEvent(final String s, final int n)
-    '''
-def produceRecoverableErrorEvent():
-    '''public final boolean produceRecoverableErrorEvent(final String s, final int n)
-    '''
-def produceFatalErrorEvent():
-    '''public final boolean produceFatalErrorEvent(final String s, final int n)
+    '''returns None\n\n
+    setInvalidCharParameter(final int n, final int i)\n
     '''
 def produceExtensionEvent():
-    '''public boolean produceExtensionEvent(final Object o)
+    '''returns boolean\n\n
+    produceExtensionEvent(final Object o)\n
     '''
 def scanQName():
-    '''public int scanQName(final ParsedEntity parsedEntity, final QName qName)
+    '''returns int\n\n
+    scanQName(final ParsedEntity parsedEntity, final QName qName)\n
     '''
 def scanNCName():
-    '''public int scanNCName(final ParsedEntity parsedEntity, final XMLString xmlString)
+    '''returns int\n\n
+    scanNCName(final ParsedEntity parsedEntity, final XMLString xmlString)\n
     '''
 def scanAttrValueBuffered():
-    '''public boolean scanAttrValueBuffered(final ParsedEntity parsedEntity, final XMLString xmlString, final int n)
+    '''returns boolean\n\n
+    scanAttrValueBuffered(final ParsedEntity parsedEntity, final XMLString xmlString, final int n)\n
     '''
 def scanAttrValueUnbuffered():
-    '''public boolean scanAttrValueUnbuffered(final ParsedEntity parsedEntity, final XMLString xmlString, final int n)
+    '''returns boolean\n\n
+    scanAttrValueUnbuffered(final ParsedEntity parsedEntity, final XMLString xmlString, final int n)\n
     '''
 def scanNamespaceURIBuffered():
-    '''public boolean scanNamespaceURIBuffered(final ParsedEntity parsedEntity, final XMLString xmlString, final int n)
+    '''returns boolean\n\n
+    scanNamespaceURIBuffered(final ParsedEntity parsedEntity, final XMLString xmlString, final int n)\n
     '''
 def scanNamespaceURIUnbuffered():
-    '''public boolean scanNamespaceURIUnbuffered(final ParsedEntity parsedEntity, final XMLString xmlString, final int n)
+    '''returns boolean\n\n
+    scanNamespaceURIUnbuffered(final ParsedEntity parsedEntity, final XMLString xmlString, final int n)\n
     '''
 def setupStartElement():
-    '''public QName setupStartElement()
+    '''returns QName\n\n
+    setupStartElement()\n
     '''
 def currentElementType():
-    '''public QName currentElementType()
+    '''returns QName\n\n
+    currentElementType()\n
     '''
 def currentAttributeName():
-    '''public QName currentAttributeName()
+    '''returns QName\n\n
+    currentAttributeName()\n
     '''
 def setupSpecifiedAttribute():
-    '''public XMLString setupSpecifiedAttribute()
+    '''returns XMLString\n\n
+    setupSpecifiedAttribute()\n
     '''
 def addSpecifiedAttribute():
-    '''public boolean addSpecifiedAttribute()
+    '''returns boolean\n\n
+    addSpecifiedAttribute()\n
     '''
 def setAttributeType():
-    '''public void setAttributeType(final int n, final int n2)
-    '''
-def attributeValueCharacters():
-    '''public final void attributeValueCharacters(final XMLString xmlString, final boolean b)
+    '''returns None\n\n
+    setAttributeType(final int n, final int n2)\n
     '''
 def attributeValueCharacter():
-    '''public void attributeValueCharacter(final int n, final boolean b)
+    '''returns None\n\n
+    attributeValueCharacter(final int n, final boolean b)\n
     '''
 def saveSpecifiedAttValue():
-    '''public boolean saveSpecifiedAttValue()
+    '''returns boolean\n\n
+    saveSpecifiedAttValue()\n
     '''
 def saveSpecifiedNamespaceURI():
-    '''public boolean saveSpecifiedNamespaceURI()
+    '''returns boolean\n\n
+    saveSpecifiedNamespaceURI()\n
     '''
 def finishElement():
-    '''public boolean finishElement()
+    '''returns boolean\n\n
+    finishElement()\n
     '''
 def finishEmptyElement():
-    '''public boolean finishEmptyElement()
+    '''returns boolean\n\n
+    finishEmptyElement()\n
     '''
 def finishStartElement():
-    '''public boolean finishStartElement()
+    '''returns boolean\n\n
+    finishStartElement()\n
     '''
 def setNamespaceURI():
-    '''public boolean setNamespaceURI(final QName qName)
+    '''returns boolean\n\n
+    setNamespaceURI(final QName qName)\n
     '''
 def elementDepth():
-    '''public int elementDepth()
+    '''returns int\n\n
+    elementDepth()\n
     '''
 def popElement():
-    '''public QName popElement()
+    '''returns QName\n\n
+    popElement()\n
     '''
 def topElement():
-    '''public QName topElement()
+    '''returns QName\n\n
+    topElement()\n
     '''
 def continueAfterEndOfEntity():
-    '''public boolean continueAfterEndOfEntity()
+    '''returns boolean\n\n
+    continueAfterEndOfEntity()\n
     '''
 def scanStartElementBuffered():
-    '''public boolean scanStartElementBuffered(final ParsedEntity parsedEntity)
+    '''returns boolean\n\n
+    scanStartElementBuffered(final ParsedEntity parsedEntity)\n
     '''
 def scanStartElementUnbuffered():
-    '''public boolean scanStartElementUnbuffered(final ParsedEntity parsedEntity)
+    '''returns boolean\n\n
+    scanStartElementUnbuffered(final ParsedEntity parsedEntity)\n
     '''
 def scanEndElementBuffered():
-    '''public boolean scanEndElementBuffered(final ParsedEntity parsedEntity)
+    '''returns boolean\n\n
+    scanEndElementBuffered(final ParsedEntity parsedEntity)\n
     '''
 def scanEndElementUnbuffered():
-    '''public boolean scanEndElementUnbuffered(final ParsedEntity parsedEntity)
+    '''returns boolean\n\n
+    scanEndElementUnbuffered(final ParsedEntity parsedEntity)\n
     '''
 def setInElementContent():
-    '''public void setInElementContent(final boolean fInElementContent)
+    '''returns None\n\n
+    setInElementContent(final boolean fInElementContent)\n
     '''
 def scanContentBuffered():
-    '''public boolean scanContentBuffered(final ParsedEntity parsedEntity)
+    '''returns boolean\n\n
+    scanContentBuffered(final ParsedEntity parsedEntity)\n
     '''
 def scanContentUnbuffered():
-    '''public boolean scanContentUnbuffered(final ParsedEntity parsedEntity)
-    '''
-def DocumentEvent():
-    '''public DocumentEvent(final int n)
-    '''
-def DocumentProducer():
-    '''public DocumentProducer(final int n)
-    '''
-def XMLDeclEvent():
-    '''public XMLDeclEvent()
+    '''returns boolean\n\n
+    scanContentUnbuffered(final ParsedEntity parsedEntity)\n
     '''
 def version():
-    '''public XMLString version()
-    public XMLString version()
-    public XMLString version()
-    public XMLString version()
+    '''returns XMLString\n\n
+    version()\n
+    version()\n
+    version()\n
+    version()\n
     '''
 def encName():
-    '''public XMLString encName()
-    public XMLString encName()
-    public XMLString encName()
-    public XMLString encName()
+    '''returns XMLString\n\n
+    encName()\n
+    encName()\n
+    encName()\n
+    encName()\n
     '''
 def standalone():
-    '''public XMLString standalone()
-    public XMLString standalone()
-    '''
-def XMLDeclProducer():
-    '''public XMLDeclProducer()
-    '''
-def TextDeclEvent():
-    '''public TextDeclEvent()
-    '''
-def TextDeclProducer():
-    '''public TextDeclProducer()
-    '''
-def StartElementEvent():
-    '''public StartElementEvent(final int n)
+    '''returns XMLString\n\n
+    standalone()\n
+    standalone()\n
     '''
 def nsContext():
-    '''public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
-    public int nsContext()
+    '''returns int\n\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
+    nsContext()\n
     '''
 def elementType():
-    '''public QName elementType()
-    public QName elementType()
-    public QName elementType()
-    public QName elementType()
+    '''returns QName\n\n
+    elementType()\n
+    elementType()\n
+    elementType()\n
+    elementType()\n
     '''
 def nsDecls():
-    '''public NSDeclList nsDecls()
-    public NSDeclList nsDecls()
-    public NSDeclList nsDecls()
-    public NSDeclList nsDecls()
+    '''returns NSDeclList\n\n
+    nsDecls()\n
+    nsDecls()\n
+    nsDecls()\n
+    nsDecls()\n
     '''
 def attributes():
-    '''public AttrList attributes()
-    public AttrList attributes()
+    '''returns AttrList\n\n
+    attributes()\n
+    attributes()\n
     '''
 def elementValue():
-    '''public XMLString elementValue()
-    public XMLString elementValue()
+    '''returns XMLString\n\n
+    elementValue()\n
+    elementValue()\n
     '''
 def nsDeclCount():
-    '''public int nsDeclCount()
-    public int nsDeclCount()
-    public int nsDeclCount()
-    public int nsDeclCount()
+    '''returns int\n\n
+    nsDeclCount()\n
+    nsDeclCount()\n
+    nsDeclCount()\n
+    nsDeclCount()\n
     '''
 def nsDeclPrefix():
-    '''public int nsDeclPrefix(final int n)
-    public int nsDeclPrefix(final int n)
-    public int nsDeclPrefix(final int n)
-    public int nsDeclPrefix(final int n)
+    '''returns int\n\n
+    nsDeclPrefix(final int n)\n
+    nsDeclPrefix(final int n)\n
+    nsDeclPrefix(final int n)\n
+    nsDeclPrefix(final int n)\n
     '''
 def nsDeclURI():
-    '''public int nsDeclURI(final int n)
-    public int nsDeclURI(final int n)
-    public int nsDeclURI(final int n)
-    public int nsDeclURI(final int n)
+    '''returns int\n\n
+    nsDeclURI(final int n)\n
+    nsDeclURI(final int n)\n
+    nsDeclURI(final int n)\n
+    nsDeclURI(final int n)\n
     '''
 def nsDeclQName():
-    '''public int nsDeclQName(final int n)
-    public int nsDeclQName(final int n)
-    public int nsDeclQName(final int n)
-    public int nsDeclQName(final int n)
+    '''returns int\n\n
+    nsDeclQName(final int n)\n
+    nsDeclQName(final int n)\n
+    nsDeclQName(final int n)\n
+    nsDeclQName(final int n)\n
     '''
 def prefixMapping():
-    '''public int prefixMapping(final int n)
-    public int prefixMapping(final int n)
-    public int prefixMapping(final int n)
-    public int prefixMapping(final int n)
+    '''returns int\n\n
+    prefixMapping(final int n)\n
+    prefixMapping(final int n)\n
+    prefixMapping(final int n)\n
+    prefixMapping(final int n)\n
     '''
 def attributeCount():
-    '''public int attributeCount()
-    public int attributeCount()
+    '''returns int\n\n
+    attributeCount()\n
+    attributeCount()\n
     '''
 def attributeName():
-    '''public QName attributeName(final int n)
-    public QName attributeName(final int n)
+    '''returns QName\n\n
+    attributeName(final int n)\n
+    attributeName(final int n)\n
     '''
 def attributeType():
-    '''public int attributeType(final int n)
-    public int attributeType(final int n)
+    '''returns int\n\n
+    attributeType(final int n)\n
+    attributeType(final int n)\n
     '''
 def unnormalizedAttributeValue():
-    '''public XMLString unnormalizedAttributeValue(final int n)
-    public XMLString unnormalizedAttributeValue(final int n)
+    '''returns XMLString\n\n
+    unnormalizedAttributeValue(final int n)\n
+    unnormalizedAttributeValue(final int n)\n
     '''
 def attributeValue():
-    '''public XMLString attributeValue(final int n)
-    public XMLString attributeValue(final int n)
+    '''returns XMLString\n\n
+    attributeValue(final int n)\n
+    attributeValue(final int n)\n
     '''
 def attributeValueNormalized():
-    '''public boolean attributeValueNormalized(final int n)
-    public boolean attributeValueNormalized(final int n)
+    '''returns boolean\n\n
+    attributeValueNormalized(final int n)\n
+    attributeValueNormalized(final int n)\n
     '''
 def attributeSpecified():
-    '''public boolean attributeSpecified(final int n)
-    public boolean attributeSpecified(final int n)
+    '''returns boolean\n\n
+    attributeSpecified(final int n)\n
+    attributeSpecified(final int n)\n
     '''
 def normalizeAttributeValue():
-    '''public void normalizeAttributeValue(final int n)
-    public void normalizeAttributeValue(final int n)
+    '''returns None\n\n
+    normalizeAttributeValue(final int n)\n
+    normalizeAttributeValue(final int n)\n
     '''
 def setAttributeValueNormalized():
-    '''public void setAttributeValueNormalized(final int n, final boolean b)
-    public void setAttributeValueNormalized(final int n, final boolean b)
-    '''
-def StartElementProducer():
-    '''public StartElementProducer(final int n)
-    '''
-def EndElementEvent():
-    '''public EndElementEvent()
-    '''
-def EndElementProducer():
-    '''public EndElementProducer()
-    '''
-def CharactersEvent():
-    '''public CharactersEvent(final int n)
+    '''returns None\n\n
+    setAttributeValueNormalized(final int n, final boolean b)\n
+    setAttributeValueNormalized(final int n, final boolean b)\n
     '''
 def content():
-    '''public XMLString content()
-    public XMLString content()
-    public XMLString content()
-    public XMLString content()
-    public XMLString content()
-    public XMLString content()
-    '''
-def CharactersProducer():
-    '''public CharactersProducer(final int n)
-    '''
-def CharacterEvent():
-    '''public CharacterEvent(final int n)
+    '''returns XMLString\n\n
+    content()\n
+    content()\n
+    content()\n
+    content()\n
+    content()\n
+    content()\n
     '''
 def singleCh():
-    '''public int singleCh()
-    public int singleCh()
-    '''
-def CharacterProducer():
-    '''public CharacterProducer(final int n)
-    '''
-def ProcessingInstructionEvent():
-    '''public ProcessingInstructionEvent()
+    '''returns int\n\n
+    singleCh()\n
+    singleCh()\n
     '''
 def target():
-    '''public XMLString target()
-    public XMLString target()
-    '''
-def ProcessingInstructionProducer():
-    '''public ProcessingInstructionProducer()
-    '''
-def CommentEvent():
-    '''public CommentEvent()
-    '''
-def CommentProducer():
-    '''public CommentProducer()
-    '''
-def CDATASectionEvent():
-    '''public CDATASectionEvent(final int n)
-    '''
-def CDATASectionProducer():
-    '''public CDATASectionProducer(final int n)
-    '''
-def ErrorEvent():
-    '''public ErrorEvent(final int n)
+    '''returns XMLString\n\n
+    target()\n
+    target()\n
     '''
 def errorURI():
-    '''public String errorURI()
-    public String errorURI()
+    '''returns String\n\n
+    errorURI()\n
+    errorURI()\n
     '''
 def errorCode():
-    '''public int errorCode()
-    public int errorCode()
+    '''returns int\n\n
+    errorCode()\n
+    errorCode()\n
     '''
 def errorParamsCount():
-    '''public int errorParamsCount()
-    public int errorParamsCount()
+    '''returns int\n\n
+    errorParamsCount()\n
+    errorParamsCount()\n
     '''
 def errorParam():
-    '''public XMLString errorParam(final int n)
-    public XMLString errorParam(final int n)
+    '''returns XMLString\n\n
+    errorParam(final int n)\n
+    errorParam(final int n)\n
     '''
 def errorOffset():
-    '''public long errorOffset()
-    public long errorOffset()
-    '''
-def ErrorProducer():
-    '''public ErrorProducer(final int n)
-    '''
-def ExtensionEvent():
-    '''public ExtensionEvent()
+    '''returns long\n\n
+    errorOffset()\n
+    errorOffset()\n
     '''
 def extensionState():
-    '''public Object extensionState()
+    '''returns Object\n\n
+    extensionState()\n
     '''

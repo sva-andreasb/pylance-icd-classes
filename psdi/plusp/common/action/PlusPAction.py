@@ -1,9 +1,8 @@
-def PlusPAction():
-    '''public PlusPAction(final MboSet arg0)
+def ():
+    '''returns PlusPAction\n\n
+    (final MboSet arg0)\n
     '''
 def applyPS():
-    '''public void applyPS(final MboRemote mboRemote)
-    '''
-def removePS():
-    '''public static void removePS(final MboRemote mboRemote)
+    '''returns None\n\n
+    applyPS(final MboRemote mboRemote)\n
     '''

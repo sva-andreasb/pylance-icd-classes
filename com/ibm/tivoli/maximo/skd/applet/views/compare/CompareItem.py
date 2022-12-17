@@ -1,138 +1,172 @@
-def CompareItem():
-    '''public CompareItem(final Viewer viewer, final String id, String name, final IlvTimeScrollController timeController)
-    '''
-def getIndexedItems():
-    '''public Map<String, IlvHierarchyNode> getIndexedItems()
+def ():
+    '''returns CompareItem\n\n
+    (final Viewer viewer, final String id, String name, final IlvTimeScrollController timeController)\n
     '''
 def getViewer():
-    '''public Viewer getViewer()
+    '''returns Viewer\n\n
+    getViewer()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getChart():
-    '''public Chart getChart()
+    '''returns Chart\n\n
+    getChart()\n
     '''
 def getModel():
-    '''public AppletGanttModel getModel()
+    '''returns AppletGanttModel\n\n
+    getModel()\n
     '''
 def getTimeScrollController():
-    '''public IlvTimeScrollController getTimeScrollController()
+    '''returns IlvTimeScrollController\n\n
+    getTimeScrollController()\n
     '''
 def getTable():
-    '''public IlvJTable getTable()
+    '''returns IlvJTable\n\n
+    getTable()\n
     '''
 def setDividerLocation():
-    '''public void setDividerLocation(final int loc)
+    '''returns None\n\n
+    setDividerLocation(final int loc)\n
     '''
 def addChartDividerListener():
-    '''public void addChartDividerListener(final ChartDividerListener listener)
+    '''returns None\n\n
+    addChartDividerListener(final ChartDividerListener listener)\n
     '''
 def removeChartDividerListener():
-    '''public void removeChartDividerListener(final ChartDividerListener listener)
+    '''returns None\n\n
+    removeChartDividerListener(final ChartDividerListener listener)\n
     '''
 def attachModel():
-    '''public void attachModel(final AppletGanttModel model)
+    '''returns None\n\n
+    attachModel(final AppletGanttModel model)\n
     '''
 def activityChanged():
-    '''public void activityChanged(final ActivityEvent event)
+    '''returns None\n\n
+    activityChanged(final ActivityEvent event)\n
     '''
 def visit():
-    '''public void visit(final IlvHierarchyNode item, final IlvHierarchyChart chart, final Map<String, IlvHierarchyNode> state)
+    '''returns None\n\n
+    visit(final IlvHierarchyNode item, final IlvHierarchyChart chart, final Map<String, IlvHierarchyNode> state)\n
     '''
 def getChartContainer():
-    '''public Component getChartContainer()
+    '''returns Component\n\n
+    getChartContainer()\n
     '''
 def sync():
-    '''public void sync()
+    '''returns None\n\n
+    sync()\n
     '''
 def getDividerLocation():
-    '''public int getDividerLocation()
+    '''returns int\n\n
+    getDividerLocation()\n
     '''
 def configureSyncTo():
-    '''public void configureSyncTo(final CompareItem<? extends IlvHierarchyChart> chart2)
+    '''returns None\n\n
+    configureSyncTo(final CompareItem<? extends IlvHierarchyChart> chart2)\n
     '''
 def chartDividerLocationChanged():
-    '''public void chartDividerLocationChanged(final ChartDividerEvent event)
+    '''returns None\n\n
+    chartDividerLocationChanged(final ChartDividerEvent event)\n
     '''
 def columnSelectionChanged():
-    '''public void columnSelectionChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    columnSelectionChanged(final ListSelectionEvent e)\n
     '''
 def columnRemoved():
-    '''public void columnRemoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnRemoved(final TableColumnModelEvent e)\n
     '''
 def columnMoved():
-    '''public void columnMoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnMoved(final TableColumnModelEvent e)\n
     '''
 def columnMarginChanged():
-    '''public void columnMarginChanged(final ChangeEvent e)
+    '''returns None\n\n
+    columnMarginChanged(final ChangeEvent e)\n
     '''
 def columnAdded():
-    '''public void columnAdded(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnAdded(final TableColumnModelEvent e)\n
     '''
 def adjustmentValueChanged():
-    '''public void adjustmentValueChanged(final AdjustmentEvent e)
+    '''returns None\n\n
+    adjustmentValueChanged(final AdjustmentEvent e)\n
     '''
 def verticalPositionChanged():
-    '''public void verticalPositionChanged(final VerticalScrollEvent e)
+    '''returns None\n\n
+    verticalPositionChanged(final VerticalScrollEvent e)\n
     '''
 def verticalExtentChanged():
-    '''public void verticalExtentChanged(final VerticalScrollEvent arg0)
+    '''returns None\n\n
+    verticalExtentChanged(final VerticalScrollEvent arg0)\n
     '''
 def maxVerticalPositionChanged():
-    '''public void maxVerticalPositionChanged(final VerticalScrollEvent arg0)
+    '''returns None\n\n
+    maxVerticalPositionChanged(final VerticalScrollEvent arg0)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent arg0)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent arg0)\n
     '''
 def treeExpanded():
-    '''public void treeExpanded(final TreeExpansionEvent event)
+    '''returns None\n\n
+    treeExpanded(final TreeExpansionEvent event)\n
     '''
 def treeCollapsed():
-    '''public void treeCollapsed(final TreeExpansionEvent event)
+    '''returns None\n\n
+    treeCollapsed(final TreeExpansionEvent event)\n
     '''
 def setSyncEnabled():
-    '''public void setSyncEnabled(final boolean b)
+    '''returns None\n\n
+    setSyncEnabled(final boolean b)\n
     '''
 def setVerticalPosition():
-    '''public void setVerticalPosition(final int value)
+    '''returns None\n\n
+    setVerticalPosition(final int value)\n
     '''
 def removeVerticalScrollListener():
-    '''public void removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''returns None\n\n
+    removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)\n
     '''
 def addVerticalScrollListener():
-    '''public void addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''returns None\n\n
+    addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)\n
     '''
 def setHeaderText():
-    '''public void setHeaderText(final String text)
+    '''returns None\n\n
+    setHeaderText(final String text)\n
     '''
 def removeAll():
-    '''public void removeAll()
+    '''returns None\n\n
+    removeAll()\n
     '''
 def setErrorMessage():
-    '''public void setErrorMessage(final String message)
-    '''
-def getParent():
-    '''public static <T> T getParent(final Component c, final Class<T> type)
-    '''
-def findComponent():
-    '''public static <T> T findComponent(final Container container, final Class<T> type)
+    '''returns None\n\n
+    setErrorMessage(final String message)\n
     '''
 def setChartContainer():
-    '''public void setChartContainer(final Component chartContainer)
+    '''returns None\n\n
+    setChartContainer(final Component chartContainer)\n
     '''
 def setFiltering():
-    '''public void setFiltering(final boolean filtering)
+    '''returns None\n\n
+    setFiltering(final boolean filtering)\n
     '''
 def applyRegexFilter():
-    '''public void applyRegexFilter(final String filter)
+    '''returns None\n\n
+    applyRegexFilter(final String filter)\n
     '''
 def unselectAll():
-    '''public void unselectAll()
+    '''returns None\n\n
+    unselectAll()\n
     '''
 def makeVisible():
-    '''public void makeVisible(final IlvHierarchyNode node)
+    '''returns None\n\n
+    makeVisible(final IlvHierarchyNode node)\n
     '''

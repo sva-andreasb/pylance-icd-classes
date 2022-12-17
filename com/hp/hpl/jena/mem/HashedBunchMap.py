@@ -1,15 +1,20 @@
-def HashedBunchMap():
-    '''public HashedBunchMap()
+def ():
+    '''returns HashedBunchMap\n\n
+    ()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def get():
-    '''public TripleBunch get(final Object key)
+    '''returns TripleBunch\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public void put(final Object key, final TripleBunch value)
+    '''returns None\n\n
+    put(final Object key, final TripleBunch value)\n
     '''

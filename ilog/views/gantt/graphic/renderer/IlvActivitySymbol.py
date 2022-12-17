@@ -1,12 +1,16 @@
-def IlvActivitySymbol():
-    '''public IlvActivitySymbol()
+def ():
+    '''returns IlvActivitySymbol\n\n
+    ()\n
     '''
 def getToolTipDateFormat():
-    '''public DateFormat getToolTipDateFormat()
+    '''returns DateFormat\n\n
+    getToolTipDateFormat()\n
     '''
 def setToolTipDateFormat():
-    '''public void setToolTipDateFormat(final DateFormat a)
+    '''returns None\n\n
+    setToolTipDateFormat(final DateFormat a)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''

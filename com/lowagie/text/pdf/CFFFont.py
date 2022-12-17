@@ -1,91 +1,75 @@
 def getString():
-    '''public String getString(final char sid)
+    '''returns String\n\n
+    getString(final char sid)\n
     '''
 def getCID():
-    '''public byte[] getCID(final String fontName)
+    '''returns byte[]\n\n
+    getCID(final String fontName)\n
     '''
 def isCID():
-    '''public boolean isCID(final String fontName)
+    '''returns boolean\n\n
+    isCID(final String fontName)\n
     '''
 def exists():
-    '''public boolean exists(final String fontName)
+    '''returns boolean\n\n
+    exists(final String fontName)\n
     '''
 def getNames():
-    '''public String[] getNames()
+    '''returns String[]\n\n
+    getNames()\n
     '''
-def CFFFont():
-    '''public CFFFont(final RandomAccessFileOrArray inputbuffer)
+def ():
+    '''returns MarkerItem\n\n
+    (final RandomAccessFileOrArray inputbuffer)\n
+    (final RandomAccessFileOrArray buf, final int offset, final int length)\n
+    (final int size, final int value)\n
+    (final int size)\n
+    ()\n
+    (final OffsetItem offItem, final IndexBaseItem indexBase)\n
+    (final OffsetItem offItem, final IndexBaseItem indexBase)\n
+    ()\n
+    (final int value)\n
+    (final int value)\n
+    (final char value)\n
+    (final char value)\n
+    (final String s)\n
+    (final int value)\n
+    (final OffsetItem pointerToMarker)\n
     '''
 def increment():
-    '''public void increment(final int[] currentOffset)
-    public void increment(final int[] currentOffset)
-    public void increment(final int[] currentOffset)
-    public void increment(final int[] currentOffset)
-    public void increment(final int[] currentOffset)
-    public void increment(final int[] currentOffset)
-    public void increment(final int[] currentOffset)
-    public void increment(final int[] currentOffset)
-    public void increment(final int[] currentOffset)
-    public void increment(final int[] currentOffset)
+    '''returns None\n\n
+    increment(final int[] currentOffset)\n
+    increment(final int[] currentOffset)\n
+    increment(final int[] currentOffset)\n
+    increment(final int[] currentOffset)\n
+    increment(final int[] currentOffset)\n
+    increment(final int[] currentOffset)\n
+    increment(final int[] currentOffset)\n
+    increment(final int[] currentOffset)\n
+    increment(final int[] currentOffset)\n
+    increment(final int[] currentOffset)\n
     '''
 def emit():
-    '''public void emit(final byte[] buffer)
-    public void emit(final byte[] buffer)
-    public void emit(final byte[] buffer)
-    public void emit(final byte[] buffer)
-    public void emit(final byte[] buffer)
-    public void emit(final byte[] buffer)
-    public void emit(final byte[] buffer)
-    public void emit(final byte[] buffer)
-    public void emit(final byte[] buffer)
-    public void emit(final byte[] buffer)
+    '''returns None\n\n
+    emit(final byte[] buffer)\n
+    emit(final byte[] buffer)\n
+    emit(final byte[] buffer)\n
+    emit(final byte[] buffer)\n
+    emit(final byte[] buffer)\n
+    emit(final byte[] buffer)\n
+    emit(final byte[] buffer)\n
+    emit(final byte[] buffer)\n
+    emit(final byte[] buffer)\n
+    emit(final byte[] buffer)\n
     '''
 def xref():
-    '''public void xref()
-    public void xref()
-    public void xref()
-    public void xref()
+    '''returns None\n\n
+    xref()\n
+    xref()\n
+    xref()\n
+    xref()\n
     '''
 def set():
-    '''public void set(final int offset)
-    '''
-def RangeItem():
-    '''public RangeItem(final RandomAccessFileOrArray buf, final int offset, final int length)
-    '''
-def IndexOffsetItem():
-    '''public IndexOffsetItem(final int size, final int value)
-    public IndexOffsetItem(final int size)
-    '''
-def IndexBaseItem():
-    '''public IndexBaseItem()
-    '''
-def IndexMarkerItem():
-    '''public IndexMarkerItem(final OffsetItem offItem, final IndexBaseItem indexBase)
-    '''
-def SubrMarkerItem():
-    '''public SubrMarkerItem(final OffsetItem offItem, final IndexBaseItem indexBase)
-    '''
-def DictOffsetItem():
-    '''public DictOffsetItem()
-    '''
-def UInt24Item():
-    '''public UInt24Item(final int value)
-    '''
-def UInt32Item():
-    '''public UInt32Item(final int value)
-    '''
-def UInt16Item():
-    '''public UInt16Item(final char value)
-    '''
-def UInt8Item():
-    '''public UInt8Item(final char value)
-    '''
-def StringItem():
-    '''public StringItem(final String s)
-    '''
-def DictNumberItem():
-    '''public DictNumberItem(final int value)
-    '''
-def MarkerItem():
-    '''public MarkerItem(final OffsetItem pointerToMarker)
+    '''returns None\n\n
+    set(final int offset)\n
     '''

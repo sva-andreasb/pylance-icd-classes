@@ -1,0 +1,1 @@
+DEFAULT_ISOLATION_LEVEL = "int  4"

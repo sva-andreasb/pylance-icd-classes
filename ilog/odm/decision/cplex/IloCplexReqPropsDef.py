@@ -1,95 +1,126 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCplexReqPropsDef():
-    '''public IloCplexReqPropsDef()
+def ():
+    '''returns IloCplexReqPropsDef\n\n
+    ()\n
     '''
 def execute():
-    '''public Object execute(final IloDecisionModel.Element elt, final int index, final Object propValue, final IloEngineController ctl, final boolean inherited)
+    '''returns Object\n\n
+    execute(final IloDecisionModel.Element elt, final int index, final Object propValue, final IloEngineController ctl, final boolean inherited)\n
     '''
 def getWeightedPriorities():
-    '''public IloWeightedPriority[] getWeightedPriorities()
+    '''returns IloWeightedPriority[]\n\n
+    getWeightedPriorities()\n
     '''
 def setWeightedPriorities():
-    '''public void setWeightedPriorities(final IloWeightedPriority[] wps)
+    '''returns None\n\n
+    setWeightedPriorities(final IloWeightedPriority[] wps)\n
     '''
 def getDefautRangePref():
-    '''public double getDefautRangePref()
+    '''returns double\n\n
+    getDefautRangePref()\n
     '''
 def setDefaultRangePref():
-    '''public void setDefaultRangePref(final double v)
+    '''returns None\n\n
+    setDefaultRangePref(final double v)\n
     '''
 def getDefaultPriority():
-    '''public IloPriority getDefaultPriority()
+    '''returns IloPriority\n\n
+    getDefaultPriority()\n
     '''
 def setDefaultPriority():
-    '''public void setDefaultPriority(final IloPriority priority)
+    '''returns None\n\n
+    setDefaultPriority(final IloPriority priority)\n
     '''
 def getDummyContainer():
-    '''public IloRequirementContainer getDummyContainer()
+    '''returns IloRequirementContainer\n\n
+    getDummyContainer()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getModel():
-    '''public IloDecisionModel getModel()
+    '''returns IloDecisionModel\n\n
+    getModel()\n
     '''
 def getRequirement():
-    '''public IloRequirement getRequirement(final String name)
+    '''returns IloRequirement\n\n
+    getRequirement(final String name)\n
     '''
 def getReqPropertiesDef():
-    '''public IloReqPropertiesDef getReqPropertiesDef()
+    '''returns IloReqPropertiesDef\n\n
+    getReqPropertiesDef()\n
     '''
 def registerRequirement():
-    '''public void registerRequirement(final IloRequirement r, final boolean force)
-    public void registerRequirement(final IloRequirement r)
+    '''returns None\n\n
+    registerRequirement(final IloRequirement r, final boolean force)\n
+    registerRequirement(final IloRequirement r)\n
     '''
 def onRenameRequirement():
-    '''public void onRenameRequirement(final IloRequirement r, final String oldName)
+    '''returns None\n\n
+    onRenameRequirement(final IloRequirement r, final String oldName)\n
     '''
 def unregisterRequirement():
-    '''public IloRequirement unregisterRequirement(final String name)
+    '''returns IloRequirement\n\n
+    unregisterRequirement(final String name)\n
     '''
 def internalPutReq():
-    '''public void internalPutReq(final IloRequirement r)
+    '''returns None\n\n
+    internalPutReq(final IloRequirement r)\n
     '''
 def internalRemoveReq():
-    '''public IloRequirement internalRemoveReq(final String name)
+    '''returns IloRequirement\n\n
+    internalRemoveReq(final String name)\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''
 def isComposite():
-    '''public boolean isComposite()
+    '''returns boolean\n\n
+    isComposite()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getParent():
-    '''public IloRequirementNode getParent()
+    '''returns IloRequirementNode\n\n
+    getParent()\n
     '''
 def getDefaultProperty():
-    '''public Object getDefaultProperty(final int index)
+    '''returns Object\n\n
+    getDefaultProperty(final int index)\n
     '''
 def getExplainMsgIndex():
-    '''public int getExplainMsgIndex()
+    '''returns int\n\n
+    getExplainMsgIndex()\n
     '''
 def getRemovedFromEngineIndex():
-    '''public int getRemovedFromEngineIndex()
+    '''returns int\n\n
+    getRemovedFromEngineIndex()\n
     '''
 def getRelaxMsgIndex():
-    '''public int getRelaxMsgIndex()
+    '''returns int\n\n
+    getRelaxMsgIndex()\n
     '''
 def getIsVerifiedIndex():
-    '''public int getIsVerifiedIndex()
+    '''returns int\n\n
+    getIsVerifiedIndex()\n
     '''
 def getRelaxPrefIndex():
-    '''public int getRelaxPrefIndex()
+    '''returns int\n\n
+    getRelaxPrefIndex()\n
     '''
 def getExplainPriorityIndex():
-    '''public int getExplainPriorityIndex()
+    '''returns int\n\n
+    getExplainPriorityIndex()\n
     '''
 def getRelaxEpsilonIndex():
-    '''public int getRelaxEpsilonIndex()
+    '''returns int\n\n
+    getRelaxEpsilonIndex()\n
     '''
 def getRequirementDescriptionIndex():
-    '''public int getRequirementDescriptionIndex()
+    '''returns int\n\n
+    getRequirementDescriptionIndex()\n
     '''

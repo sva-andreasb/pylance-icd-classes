@@ -1,9 +1,12 @@
-def IlvBufferedGraphicEnumeration():
-    '''public IlvBufferedGraphicEnumeration(final IlvGraphicEnumeration ilvGraphicEnumeration)
+def ():
+    '''returns IlvBufferedGraphicEnumeration\n\n
+    (final IlvGraphicEnumeration ilvGraphicEnumeration)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public IlvGraphic nextElement()
+    '''returns IlvGraphic\n\n
+    nextElement()\n
     '''

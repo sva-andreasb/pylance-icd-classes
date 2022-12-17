@@ -1,10 +1,5 @@
-def Ref():
-    '''public Ref(final SchemaModelGroup modelGroup)
-    public Ref(final SchemaTypeSystem system, final String handle)
-    '''
-def getComponentType():
-    '''public final int getComponentType()
-    '''
-def get():
-    '''public final SchemaModelGroup get()
+def ():
+    '''returns Ref\n\n
+    (final SchemaModelGroup modelGroup)\n
+    (final SchemaTypeSystem system, final String handle)\n
     '''

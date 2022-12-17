@@ -1,33 +1,39 @@
-def LDAPEntry():
-    '''public LDAPEntry()
-    public LDAPEntry(final String s)
-    public LDAPEntry(String dn, LDAPAttributeSet attrs)
+def ():
+    '''returns LDAPEntry\n\n
+    ()\n
+    (final String s)\n
+    (String dn, LDAPAttributeSet attrs)\n
     '''
 def getAttribute():
-    '''public LDAPAttribute getAttribute(final String s)
+    '''returns LDAPAttribute\n\n
+    getAttribute(final String s)\n
     '''
 def getAttributeSet():
-    '''public LDAPAttributeSet getAttributeSet()
-    public LDAPAttributeSet getAttributeSet(final String s)
+    '''returns LDAPAttributeSet\n\n
+    getAttributeSet()\n
+    getAttributeSet(final String s)\n
     '''
 def getDN():
-    '''public String getDN()
+    '''returns String\n\n
+    getDN()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def writeDSML():
-    '''public void writeDSML(final OutputStream out)
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns None\n\n
+    writeDSML(final OutputStream out)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput objectOutput)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput objectOutput)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput objectInput)
+    '''returns None\n\n
+    readExternal(final ObjectInput objectInput)\n
     '''

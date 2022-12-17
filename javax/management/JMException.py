@@ -1,4 +1,5 @@
-def JMException():
-    '''public JMException()
-    public JMException(final String message)
+def ():
+    '''returns JMException\n\n
+    ()\n
+    (final String message)\n
     '''

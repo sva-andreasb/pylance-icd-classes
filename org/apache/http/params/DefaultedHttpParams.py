@@ -1,27 +1,36 @@
-def DefaultedHttpParams():
-    '''public DefaultedHttpParams(final HttpParams local, final HttpParams defaults)
+def ():
+    '''returns DefaultedHttpParams\n\n
+    (final HttpParams local, final HttpParams defaults)\n
     '''
 def copy():
-    '''public HttpParams copy()
+    '''returns HttpParams\n\n
+    copy()\n
     '''
 def getParameter():
-    '''public Object getParameter(final String name)
+    '''returns Object\n\n
+    getParameter(final String name)\n
     '''
 def removeParameter():
-    '''public boolean removeParameter(final String name)
+    '''returns boolean\n\n
+    removeParameter(final String name)\n
     '''
 def setParameter():
-    '''public HttpParams setParameter(final String name, final Object value)
+    '''returns HttpParams\n\n
+    setParameter(final String name, final Object value)\n
     '''
 def getDefaults():
-    '''public HttpParams getDefaults()
+    '''returns HttpParams\n\n
+    getDefaults()\n
     '''
 def getNames():
-    '''public Set<String> getNames()
+    '''returns Set<String>\n\n
+    getNames()\n
     '''
 def getDefaultNames():
-    '''public Set<String> getDefaultNames()
+    '''returns Set<String>\n\n
+    getDefaultNames()\n
     '''
 def getLocalNames():
-    '''public Set<String> getLocalNames()
+    '''returns Set<String>\n\n
+    getLocalNames()\n
     '''

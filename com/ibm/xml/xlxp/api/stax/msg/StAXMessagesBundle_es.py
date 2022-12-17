@@ -1,3 +1,4 @@
 def getString():
-    '''public String getString(final int n)
+    '''returns String\n\n
+    getString(final int n)\n
     '''

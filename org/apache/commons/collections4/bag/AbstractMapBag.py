@@ -1,66 +1,85 @@
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getCount():
-    '''public int getCount(final Object object)
+    '''returns int\n\n
+    getCount(final Object object)\n
     '''
 def contains():
-    '''public boolean contains(final Object object)
+    '''returns boolean\n\n
+    contains(final Object object)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def add():
-    '''public boolean add(final E object)
-    public boolean add(final E object, final int nCopies)
+    '''returns boolean\n\n
+    add(final E object)\n
+    add(final E object, final int nCopies)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
-    public boolean remove(final Object object, final int nCopies)
-    public void remove()
+    '''returns None\n\n
+    remove(final Object object)\n
+    remove(final Object object, final int nCopies)\n
+    remove()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(T[] array)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def uniqueSet():
-    '''public Set<E> uniqueSet()
+    '''returns Set<E>\n\n
+    uniqueSet()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object object)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def BagIterator():
-    '''public BagIterator(final AbstractMapBag<E> parent)
+def ():
+    '''returns BagIterator\n\n
+    (final AbstractMapBag<E> parent)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''

@@ -1,3 +1,4 @@
 def getConversionPenalty():
-    '''public int getConversionPenalty()
+    '''returns int\n\n
+    getConversionPenalty()\n
     '''

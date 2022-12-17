@@ -1,52 +1,65 @@
-def PmGrpAvailabilityViewBean():
-    '''public PmGrpAvailabilityViewBean()
+def ():
+    '''returns PmGrpAvailabilityViewBean\n\n
+    ()\n
     '''
 def goToapplink():
-    '''public int goToapplink()
+    '''returns int\n\n
+    goToapplink()\n
     '''
 def createGanttModel():
-    '''public IlvDefaultGanttModel createGanttModel()
-    public IlvDefaultGanttModel createGanttModel(final Date startDate, final Date endDate)
+    '''returns IlvDefaultGanttModel\n\n
+    createGanttModel()\n
+    createGanttModel(final Date startDate, final Date endDate)\n
     '''
 def createGanttModel_for_date():
-    '''public IlvDefaultGanttModel createGanttModel_for_date(final long datefromui)
+    '''returns IlvDefaultGanttModel\n\n
+    createGanttModel_for_date(final long datefromui)\n
     '''
 def convertDate():
-    '''public Date convertDate(final Date date, final TimeZone from, final TimeZone to)
+    '''returns Date\n\n
+    convertDate(final Date date, final TimeZone from, final TimeZone to)\n
     '''
 def ganttNodeCollapsed():
-    '''public void ganttNodeCollapsed(final Long arg0)
+    '''returns None\n\n
+    ganttNodeCollapsed(final Long arg0)\n
     '''
 def ganttNodeExpanded():
-    '''public void ganttNodeExpanded(final Long arg0)
+    '''returns None\n\n
+    ganttNodeExpanded(final Long arg0)\n
     '''
 def ganttViewRange():
-    '''public void ganttViewRange(final Date arg0, final Date arg1)
+    '''returns None\n\n
+    ganttViewRange(final Date arg0, final Date arg1)\n
     '''
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''
 def async_push_client_message():
-    '''public void async_push_client_message()
+    '''returns None\n\n
+    async_push_client_message()\n
     '''
 def sendEventToClient():
-    '''public void sendEventToClient(final String eventId, final String eventArg)
+    '''returns None\n\n
+    sendEventToClient(final String eventId, final String eventArg)\n
     '''
 def getPresentationOptions():
-    '''public JSONObject getPresentationOptions()
+    '''returns JSONObject\n\n
+    getPresentationOptions()\n
     '''
 def filterCss():
-    '''public String filterCss(String css, final MiniAppControl control)
+    '''returns String\n\n
+    filterCss(String css, final MiniAppControl control)\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def getApplicationResource():
-    '''public String getApplicationResource(final String path)
+    '''returns String\n\n
+    getApplicationResource(final String path)\n
     '''
 def getClientSession():
-    '''public WebClientSession getClientSession()
-    '''
-def getMyData():
-    '''public Map<Integer, Map<String, String>> getMyData(@MXEventParam("cmd") final String command)
+    '''returns WebClientSession\n\n
+    getClientSession()\n
     '''

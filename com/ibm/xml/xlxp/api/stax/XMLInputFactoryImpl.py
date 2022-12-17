@@ -1,333 +1,381 @@
-def XMLInputFactoryImpl():
-    '''public XMLInputFactoryImpl()
+def ():
+    '''returns ClosedXMLStreamReader\n\n
+    ()\n
+    ()\n
+    (final Properties properties)\n
+    (final XMLStreamReader fStreamReader)\n
+    (final XMLStreamReader xmlStreamReader)\n
+    ()\n
     '''
 def createXMLStreamReader():
-    '''public XMLStreamReader createXMLStreamReader(final Reader reader)
-    public XMLStreamReader createXMLStreamReader(final Source source)
-    public XMLStreamReader createXMLStreamReader(final InputStream inputStream)
-    public XMLStreamReader createXMLStreamReader(final InputStream inputStream, final String s)
-    public XMLStreamReader createXMLStreamReader(final String s, final InputStream inputStream)
-    public XMLStreamReader createXMLStreamReader(final String s, final Reader reader)
+    '''returns XMLStreamReader\n\n
+    createXMLStreamReader(final Reader reader)\n
+    createXMLStreamReader(final Source source)\n
+    createXMLStreamReader(final InputStream inputStream)\n
+    createXMLStreamReader(final InputStream inputStream, final String s)\n
+    createXMLStreamReader(final String s, final InputStream inputStream)\n
+    createXMLStreamReader(final String s, final Reader reader)\n
     '''
 def createXMLEventReader():
-    '''public XMLEventReader createXMLEventReader(final Reader reader)
-    public XMLEventReader createXMLEventReader(final String s, final Reader reader)
-    public XMLEventReader createXMLEventReader(final XMLStreamReader xmlStreamReader)
-    public XMLEventReader createXMLEventReader(final Source source)
-    public XMLEventReader createXMLEventReader(final InputStream inputStream)
-    public XMLEventReader createXMLEventReader(final InputStream inputStream, final String s)
-    public XMLEventReader createXMLEventReader(final String s, final InputStream inputStream)
+    '''returns XMLEventReader\n\n
+    createXMLEventReader(final Reader reader)\n
+    createXMLEventReader(final String s, final Reader reader)\n
+    createXMLEventReader(final XMLStreamReader xmlStreamReader)\n
+    createXMLEventReader(final Source source)\n
+    createXMLEventReader(final InputStream inputStream)\n
+    createXMLEventReader(final InputStream inputStream, final String s)\n
+    createXMLEventReader(final String s, final InputStream inputStream)\n
     '''
 def createFilteredReader():
-    '''public XMLStreamReader createFilteredReader(final XMLStreamReader xmlStreamReader, final StreamFilter streamFilter)
-    public XMLEventReader createFilteredReader(final XMLEventReader xmlEventReader, final EventFilter eventFilter)
+    '''returns XMLEventReader\n\n
+    createFilteredReader(final XMLStreamReader xmlStreamReader, final StreamFilter streamFilter)\n
+    createFilteredReader(final XMLEventReader xmlEventReader, final EventFilter eventFilter)\n
     '''
 def getXMLResolver():
-    '''public XMLResolver getXMLResolver()
+    '''returns XMLResolver\n\n
+    getXMLResolver()\n
     '''
 def setXMLResolver():
-    '''public void setXMLResolver(final XMLResolver resolver)
+    '''returns None\n\n
+    setXMLResolver(final XMLResolver resolver)\n
     '''
 def getXMLReporter():
-    '''public XMLReporter getXMLReporter()
+    '''returns XMLReporter\n\n
+    getXMLReporter()\n
     '''
 def setXMLReporter():
-    '''public void setXMLReporter(final XMLReporter reporter)
+    '''returns None\n\n
+    setXMLReporter(final XMLReporter reporter)\n
     '''
 def setProperty():
-    '''public void setProperty(final String anObject, final Object o)
+    '''returns None\n\n
+    setProperty(final String anObject, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
-    public Object getProperty(final String s)
-    public Object getProperty(final String s)
-    public Object getProperty(final String s)
-    public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
+    getProperty(final String s)\n
+    getProperty(final String s)\n
+    getProperty(final String s)\n
+    getProperty(final String s)\n
     '''
 def isPropertySupported():
-    '''public boolean isPropertySupported(final String anObject)
+    '''returns boolean\n\n
+    isPropertySupported(final String anObject)\n
     '''
 def setEventAllocator():
-    '''public void setEventAllocator(final XMLEventAllocator allocator)
+    '''returns None\n\n
+    setEventAllocator(final XMLEventAllocator allocator)\n
     '''
 def getEventAllocator():
-    '''public XMLEventAllocator getEventAllocator()
-    '''
-def Properties():
-    '''public Properties()
-    public Properties(final Properties properties)
-    '''
-def XMLStreamReaderProxy():
-    '''public XMLStreamReaderProxy(final XMLStreamReader fStreamReader)
+    '''returns XMLEventAllocator\n\n
+    getEventAllocator()\n
     '''
 def insertFilter():
-    '''public void insertFilter(final XMLStreamReader fStreamReader)
+    '''returns None\n\n
+    insertFilter(final XMLStreamReader fStreamReader)\n
     '''
 def next():
-    '''public int next()
-    public int next()
-    public int next()
-    public int next()
+    '''returns int\n\n
+    next()\n
+    next()\n
+    next()\n
+    next()\n
     '''
 def require():
-    '''public void require(final int n, final String s, final String s2)
-    public void require(final int value, final String s, final String s2)
-    public void require(final int value, final String s, final String s2)
-    public void require(final int n, final String s, final String s2)
+    '''returns None\n\n
+    require(final int n, final String s, final String s2)\n
+    require(final int value, final String s, final String s2)\n
+    require(final int value, final String s, final String s2)\n
+    require(final int n, final String s, final String s2)\n
     '''
 def getElementText():
-    '''public String getElementText()
-    public String getElementText()
-    public String getElementText()
-    public String getElementText()
+    '''returns String\n\n
+    getElementText()\n
+    getElementText()\n
+    getElementText()\n
+    getElementText()\n
     '''
 def nextTag():
-    '''public int nextTag()
-    public int nextTag()
-    public int nextTag()
-    public int nextTag()
+    '''returns int\n\n
+    nextTag()\n
+    nextTag()\n
+    nextTag()\n
+    nextTag()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
-    public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
+    hasNext()\n
+    hasNext()\n
     '''
 def close():
-    '''public void close()
-    public void close()
-    public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
+    close()\n
+    close()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI(final String s)
-    public String getNamespaceURI(final int n)
-    public String getNamespaceURI()
-    public String getNamespaceURI(final String s)
-    public String getNamespaceURI(final int n)
-    public String getNamespaceURI()
-    public String getNamespaceURI(final String s)
-    public String getNamespaceURI(final int n)
-    public String getNamespaceURI()
-    public String getNamespaceURI(final String s)
-    public String getNamespaceURI(final int n)
-    public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI(final String s)\n
+    getNamespaceURI(final int n)\n
+    getNamespaceURI()\n
+    getNamespaceURI(final String s)\n
+    getNamespaceURI(final int n)\n
+    getNamespaceURI()\n
+    getNamespaceURI(final String s)\n
+    getNamespaceURI(final int n)\n
+    getNamespaceURI()\n
+    getNamespaceURI(final String s)\n
+    getNamespaceURI(final int n)\n
+    getNamespaceURI()\n
     '''
 def isStartElement():
-    '''public boolean isStartElement()
-    public boolean isStartElement()
-    public boolean isStartElement()
-    public boolean isStartElement()
+    '''returns boolean\n\n
+    isStartElement()\n
+    isStartElement()\n
+    isStartElement()\n
+    isStartElement()\n
     '''
 def isEndElement():
-    '''public boolean isEndElement()
-    public boolean isEndElement()
-    public boolean isEndElement()
-    public boolean isEndElement()
+    '''returns boolean\n\n
+    isEndElement()\n
+    isEndElement()\n
+    isEndElement()\n
+    isEndElement()\n
     '''
 def isCharacters():
-    '''public boolean isCharacters()
-    public boolean isCharacters()
-    public boolean isCharacters()
-    public boolean isCharacters()
+    '''returns boolean\n\n
+    isCharacters()\n
+    isCharacters()\n
+    isCharacters()\n
+    isCharacters()\n
     '''
 def isWhiteSpace():
-    '''public boolean isWhiteSpace()
-    public boolean isWhiteSpace()
-    public boolean isWhiteSpace()
-    public boolean isWhiteSpace()
+    '''returns boolean\n\n
+    isWhiteSpace()\n
+    isWhiteSpace()\n
+    isWhiteSpace()\n
+    isWhiteSpace()\n
     '''
 def getAttributeValue():
-    '''public String getAttributeValue(final String s, final String s2)
-    public String getAttributeValue(final int n)
-    public String getAttributeValue(final String s, final String s2)
-    public String getAttributeValue(final int n)
-    public String getAttributeValue(final String s, final String s2)
-    public String getAttributeValue(final int n)
-    public String getAttributeValue(final String s, final String s2)
-    public String getAttributeValue(final int n)
+    '''returns String\n\n
+    getAttributeValue(final String s, final String s2)\n
+    getAttributeValue(final int n)\n
+    getAttributeValue(final String s, final String s2)\n
+    getAttributeValue(final int n)\n
+    getAttributeValue(final String s, final String s2)\n
+    getAttributeValue(final int n)\n
+    getAttributeValue(final String s, final String s2)\n
+    getAttributeValue(final int n)\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
-    public int getAttributeCount()
-    public int getAttributeCount()
-    public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
+    getAttributeCount()\n
+    getAttributeCount()\n
+    getAttributeCount()\n
     '''
 def getAttributeName():
-    '''public QName getAttributeName(final int n)
-    public QName getAttributeName(final int n)
-    public QName getAttributeName(final int n)
-    public QName getAttributeName(final int n)
+    '''returns QName\n\n
+    getAttributeName(final int n)\n
+    getAttributeName(final int n)\n
+    getAttributeName(final int n)\n
+    getAttributeName(final int n)\n
     '''
 def getAttributeNamespace():
-    '''public String getAttributeNamespace(final int n)
-    public String getAttributeNamespace(final int n)
-    public String getAttributeNamespace(final int n)
-    public String getAttributeNamespace(final int n)
+    '''returns String\n\n
+    getAttributeNamespace(final int n)\n
+    getAttributeNamespace(final int n)\n
+    getAttributeNamespace(final int n)\n
+    getAttributeNamespace(final int n)\n
     '''
 def getAttributeLocalName():
-    '''public String getAttributeLocalName(final int n)
-    public String getAttributeLocalName(final int n)
-    public String getAttributeLocalName(final int n)
-    public String getAttributeLocalName(final int n)
+    '''returns String\n\n
+    getAttributeLocalName(final int n)\n
+    getAttributeLocalName(final int n)\n
+    getAttributeLocalName(final int n)\n
+    getAttributeLocalName(final int n)\n
     '''
 def getAttributePrefix():
-    '''public String getAttributePrefix(final int n)
-    public String getAttributePrefix(final int n)
-    public String getAttributePrefix(final int n)
-    public String getAttributePrefix(final int n)
+    '''returns String\n\n
+    getAttributePrefix(final int n)\n
+    getAttributePrefix(final int n)\n
+    getAttributePrefix(final int n)\n
+    getAttributePrefix(final int n)\n
     '''
 def getAttributeType():
-    '''public String getAttributeType(final int n)
-    public String getAttributeType(final int n)
-    public String getAttributeType(final int n)
-    public String getAttributeType(final int n)
+    '''returns String\n\n
+    getAttributeType(final int n)\n
+    getAttributeType(final int n)\n
+    getAttributeType(final int n)\n
+    getAttributeType(final int n)\n
     '''
 def isAttributeSpecified():
-    '''public boolean isAttributeSpecified(final int n)
-    public boolean isAttributeSpecified(final int n)
-    public boolean isAttributeSpecified(final int n)
-    public boolean isAttributeSpecified(final int n)
+    '''returns boolean\n\n
+    isAttributeSpecified(final int n)\n
+    isAttributeSpecified(final int n)\n
+    isAttributeSpecified(final int n)\n
+    isAttributeSpecified(final int n)\n
     '''
 def getNamespaceCount():
-    '''public int getNamespaceCount()
-    public int getNamespaceCount()
-    public int getNamespaceCount()
-    public int getNamespaceCount()
+    '''returns int\n\n
+    getNamespaceCount()\n
+    getNamespaceCount()\n
+    getNamespaceCount()\n
+    getNamespaceCount()\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final int n)
-    public String getNamespacePrefix(final int n)
-    public String getNamespacePrefix(final int n)
-    public String getNamespacePrefix(final int n)
+    '''returns String\n\n
+    getNamespacePrefix(final int n)\n
+    getNamespacePrefix(final int n)\n
+    getNamespacePrefix(final int n)\n
+    getNamespacePrefix(final int n)\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
-    public NamespaceContext getNamespaceContext()
-    public NamespaceContext getNamespaceContext()
-    public NamespaceContext getNamespaceContext()
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
+    getNamespaceContext()\n
+    getNamespaceContext()\n
+    getNamespaceContext()\n
     '''
 def getEventType():
-    '''public int getEventType()
-    public int getEventType()
-    public int getEventType()
-    public int getEventType()
+    '''returns int\n\n
+    getEventType()\n
+    getEventType()\n
+    getEventType()\n
+    getEventType()\n
     '''
 def getText():
-    '''public String getText()
-    public String getText()
-    public String getText()
-    public String getText()
+    '''returns String\n\n
+    getText()\n
+    getText()\n
+    getText()\n
+    getText()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
-    public int getTextCharacters(final int n, final char[] array, final int n2, final int n3)
-    public char[] getTextCharacters()
-    public int getTextCharacters(final int n, final char[] array, final int n2, final int n3)
-    public char[] getTextCharacters()
-    public int getTextCharacters(final int value, final char[] array, final int value2, final int value3)
-    public char[] getTextCharacters()
-    public int getTextCharacters(final int n, final char[] array, final int n2, final int n3)
+    '''returns int\n\n
+    getTextCharacters()\n
+    getTextCharacters(final int n, final char[] array, final int n2, final int n3)\n
+    getTextCharacters()\n
+    getTextCharacters(final int n, final char[] array, final int n2, final int n3)\n
+    getTextCharacters()\n
+    getTextCharacters(final int value, final char[] array, final int value2, final int value3)\n
+    getTextCharacters()\n
+    getTextCharacters(final int n, final char[] array, final int n2, final int n3)\n
     '''
 def getTextStart():
-    '''public int getTextStart()
-    public int getTextStart()
-    public int getTextStart()
-    public int getTextStart()
+    '''returns int\n\n
+    getTextStart()\n
+    getTextStart()\n
+    getTextStart()\n
+    getTextStart()\n
     '''
 def getTextLength():
-    '''public int getTextLength()
-    public int getTextLength()
-    public int getTextLength()
-    public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
+    getTextLength()\n
+    getTextLength()\n
+    getTextLength()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
-    public String getEncoding()
-    public String getEncoding()
-    public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
+    getEncoding()\n
+    getEncoding()\n
+    getEncoding()\n
     '''
 def hasText():
-    '''public boolean hasText()
-    public boolean hasText()
-    public boolean hasText()
-    public boolean hasText()
+    '''returns boolean\n\n
+    hasText()\n
+    hasText()\n
+    hasText()\n
+    hasText()\n
     '''
 def getLocation():
-    '''public Location getLocation()
-    public Location getLocation()
-    public Location getLocation()
-    public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
+    getLocation()\n
+    getLocation()\n
+    getLocation()\n
     '''
 def getName():
-    '''public QName getName()
-    public QName getName()
-    public QName getName()
-    public QName getName()
+    '''returns QName\n\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
-    public String getLocalName()
-    public String getLocalName()
-    public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
+    getLocalName()\n
+    getLocalName()\n
+    getLocalName()\n
     '''
 def hasName():
-    '''public boolean hasName()
-    public boolean hasName()
-    public boolean hasName()
-    public boolean hasName()
+    '''returns boolean\n\n
+    hasName()\n
+    hasName()\n
+    hasName()\n
+    hasName()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
-    public String getPrefix()
-    public String getPrefix()
-    public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
+    getPrefix()\n
+    getPrefix()\n
+    getPrefix()\n
     '''
 def getVersion():
-    '''public String getVersion()
-    public String getVersion()
-    public String getVersion()
-    public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
+    getVersion()\n
+    getVersion()\n
+    getVersion()\n
     '''
 def isStandalone():
-    '''public boolean isStandalone()
-    public boolean isStandalone()
-    public boolean isStandalone()
-    public boolean isStandalone()
+    '''returns boolean\n\n
+    isStandalone()\n
+    isStandalone()\n
+    isStandalone()\n
+    isStandalone()\n
     '''
 def standaloneSet():
-    '''public boolean standaloneSet()
-    public boolean standaloneSet()
-    public boolean standaloneSet()
-    public boolean standaloneSet()
+    '''returns boolean\n\n
+    standaloneSet()\n
+    standaloneSet()\n
+    standaloneSet()\n
+    standaloneSet()\n
     '''
 def getCharacterEncodingScheme():
-    '''public String getCharacterEncodingScheme()
-    public String getCharacterEncodingScheme()
-    public String getCharacterEncodingScheme()
-    public String getCharacterEncodingScheme()
+    '''returns String\n\n
+    getCharacterEncodingScheme()\n
+    getCharacterEncodingScheme()\n
+    getCharacterEncodingScheme()\n
+    getCharacterEncodingScheme()\n
     '''
 def getPITarget():
-    '''public String getPITarget()
-    public String getPITarget()
-    public String getPITarget()
-    public String getPITarget()
+    '''returns String\n\n
+    getPITarget()\n
+    getPITarget()\n
+    getPITarget()\n
+    getPITarget()\n
     '''
 def getPIData():
-    '''public String getPIData()
-    public String getPIData()
-    public String getPIData()
-    public String getPIData()
-    '''
-def XMLStreamReaderTracer():
-    '''public XMLStreamReaderTracer(final XMLStreamReader xmlStreamReader)
+    '''returns String\n\n
+    getPIData()\n
+    getPIData()\n
+    getPIData()\n
+    getPIData()\n
     '''
 def writeStAXProfile():
-    '''public void writeStAXProfile(final String s)
+    '''returns None\n\n
+    writeStAXProfile(final String s)\n
     '''
 def writeReadableProfile():
-    '''public void writeReadableProfile(final String s)
-    '''
-def ClosedXMLStreamReader():
-    '''public ClosedXMLStreamReader()
+    '''returns None\n\n
+    writeReadableProfile(final String s)\n
     '''

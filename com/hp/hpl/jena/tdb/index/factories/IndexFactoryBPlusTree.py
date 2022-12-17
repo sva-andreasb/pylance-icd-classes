@@ -1,10 +1,13 @@
-def IndexFactoryBPlusTree():
-    '''public IndexFactoryBPlusTree()
-    public IndexFactoryBPlusTree(final int blockSize)
+def ():
+    '''returns IndexFactoryBPlusTree\n\n
+    ()\n
+    (final int blockSize)\n
     '''
 def createIndex():
-    '''public Index createIndex(final FileSet fileset, final RecordFactory factory)
+    '''returns Index\n\n
+    createIndex(final FileSet fileset, final RecordFactory factory)\n
     '''
 def createRangeIndex():
-    '''public RangeIndex createRangeIndex(final FileSet fileset, final RecordFactory factory)
+    '''returns RangeIndex\n\n
+    createRangeIndex(final FileSet fileset, final RecordFactory factory)\n
     '''

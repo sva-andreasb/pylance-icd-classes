@@ -9,39 +9,51 @@ AT_FIRST_CHUNK = "int  2"
 AT_LAST_CHUNK = "int  4"
 ENTRY_TYPE_USER = "int  0"
 ENTRY_TYPE_GROUP = "int  1"
-def DirectoryImpl():
-    '''public DirectoryImpl(final STSession stSession)
+def ():
+    '''returns DirectoryImpl\n\n
+    (final STSession stSession)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def componentLoaded():
-    '''public void componentLoaded(final STCompApi stCompApi)
+    '''returns None\n\n
+    componentLoaded(final STCompApi stCompApi)\n
     '''
 def processSTEvent():
-    '''public void processSTEvent(final STEvent stEvent)
+    '''returns None\n\n
+    processSTEvent(final STEvent stEvent)\n
     '''
 def channelOpened():
-    '''public void channelOpened(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpened(final ChannelEvent channelEvent)\n
     '''
 def channelOpenFailed():
-    '''public void channelOpenFailed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpenFailed(final ChannelEvent channelEvent)\n
     '''
 def channelClosed():
-    '''public void channelClosed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelClosed(final ChannelEvent channelEvent)\n
     '''
 def channelMsgReceived():
-    '''public void channelMsgReceived(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelMsgReceived(final ChannelEvent channelEvent)\n
     '''
 def serviceAvailable():
-    '''public void serviceAvailable(final ServiceEvent serviceEvent)
+    '''returns None\n\n
+    serviceAvailable(final ServiceEvent serviceEvent)\n
     '''
 def loggedIn():
-    '''public void loggedIn(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedIn(final LoginEvent loginEvent)\n
     '''
 def loggedOut():
-    '''public void loggedOut(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedOut(final LoginEvent loginEvent)\n
     '''

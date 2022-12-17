@@ -1,18 +1,16 @@
-def ConstantDouble():
-    '''public ConstantDouble(final double value)
+def ():
+    '''returns ConstantDouble\n\n
+    (final double value)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''
 def getValue():
-    '''public Double getValue()
+    '''returns Double\n\n
+    getValue()\n
     '''
 def getStringValue():
-    '''public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
     '''

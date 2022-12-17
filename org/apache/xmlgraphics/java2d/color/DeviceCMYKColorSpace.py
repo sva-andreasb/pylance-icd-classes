@@ -1,28 +1,29 @@
 PSEUDO_PROFILE_NAME = "String  \"#CMYK\""
-def DeviceCMYKColorSpace():
-    '''public DeviceCMYKColorSpace()
-    '''
-def getInstance():
-    '''public static DeviceCMYKColorSpace getInstance()
+def ():
+    '''returns DeviceCMYKColorSpace\n\n
+    ()\n
     '''
 def toRGB():
-    '''public float[] toRGB(final float[] colorvalue)
+    '''returns float[]\n\n
+    toRGB(final float[] colorvalue)\n
     '''
 def fromRGB():
-    '''public float[] fromRGB(final float[] rgbvalue)
+    '''returns float[]\n\n
+    fromRGB(final float[] rgbvalue)\n
     '''
 def toCIEXYZ():
-    '''public float[] toCIEXYZ(final float[] colorvalue)
+    '''returns float[]\n\n
+    toCIEXYZ(final float[] colorvalue)\n
     '''
 def fromCIEXYZ():
-    '''public float[] fromCIEXYZ(final float[] colorvalue)
-    '''
-def createCMYKColor():
-    '''public static Color createCMYKColor(final float[] cmykComponents)
+    '''returns float[]\n\n
+    fromCIEXYZ(final float[] colorvalue)\n
     '''
 def getProfileName():
-    '''public String getProfileName()
+    '''returns String\n\n
+    getProfileName()\n
     '''
 def getProfileURI():
-    '''public String getProfileURI()
+    '''returns String\n\n
+    getProfileURI()\n
     '''

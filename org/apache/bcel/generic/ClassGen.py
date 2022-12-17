@@ -1,143 +1,181 @@
-def ClassGen():
-    '''public ClassGen(final String class_name, final String super_class_name, final String file_name, final int access_flags, final String[] interfaces, final ConstantPoolGen cp)
-    public ClassGen(final String class_name, final String super_class_name, final String file_name, final int access_flags, final String[] interfaces)
-    public ClassGen(final JavaClass clazz)
+def ():
+    '''returns ClassGen\n\n
+    (final String class_name, final String super_class_name, final String file_name, final int access_flags, final String[] interfaces, final ConstantPoolGen cp)\n
+    (final String class_name, final String super_class_name, final String file_name, final int access_flags, final String[] interfaces)\n
+    (final JavaClass clazz)\n
     '''
 def getJavaClass():
-    '''public JavaClass getJavaClass()
+    '''returns JavaClass\n\n
+    getJavaClass()\n
     '''
 def addInterface():
-    '''public void addInterface(final String name)
+    '''returns None\n\n
+    addInterface(final String name)\n
     '''
 def removeInterface():
-    '''public void removeInterface(final String name)
+    '''returns None\n\n
+    removeInterface(final String name)\n
     '''
 def getMajor():
-    '''public int getMajor()
+    '''returns int\n\n
+    getMajor()\n
     '''
 def setMajor():
-    '''public void setMajor(final int major)
+    '''returns None\n\n
+    setMajor(final int major)\n
     '''
 def setMinor():
-    '''public void setMinor(final int minor)
+    '''returns None\n\n
+    setMinor(final int minor)\n
     '''
 def getMinor():
-    '''public int getMinor()
+    '''returns int\n\n
+    getMinor()\n
     '''
 def addAttribute():
-    '''public void addAttribute(final Attribute a)
+    '''returns None\n\n
+    addAttribute(final Attribute a)\n
     '''
 def addMethod():
-    '''public void addMethod(final Method m)
+    '''returns None\n\n
+    addMethod(final Method m)\n
     '''
 def addEmptyConstructor():
-    '''public void addEmptyConstructor(final int access_flags)
+    '''returns None\n\n
+    addEmptyConstructor(final int access_flags)\n
     '''
 def addField():
-    '''public void addField(final Field f)
+    '''returns None\n\n
+    addField(final Field f)\n
     '''
 def containsField():
-    '''public boolean containsField(final Field f)
-    public Field containsField(final String name)
+    '''returns Field\n\n
+    containsField(final Field f)\n
+    containsField(final String name)\n
     '''
 def containsMethod():
-    '''public Method containsMethod(final String name, final String signature)
+    '''returns Method\n\n
+    containsMethod(final String name, final String signature)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final Attribute a)
+    '''returns None\n\n
+    removeAttribute(final Attribute a)\n
     '''
 def removeMethod():
-    '''public void removeMethod(final Method m)
+    '''returns None\n\n
+    removeMethod(final Method m)\n
     '''
 def replaceMethod():
-    '''public void replaceMethod(final Method old, final Method new_)
+    '''returns None\n\n
+    replaceMethod(final Method old, final Method new_)\n
     '''
 def replaceField():
-    '''public void replaceField(final Field old, final Field new_)
+    '''returns None\n\n
+    replaceField(final Field old, final Field new_)\n
     '''
 def removeField():
-    '''public void removeField(final Field f)
+    '''returns None\n\n
+    removeField(final Field f)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getSuperclassName():
-    '''public String getSuperclassName()
+    '''returns String\n\n
+    getSuperclassName()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String name)
+    '''returns None\n\n
+    setClassName(final String name)\n
     '''
 def setSuperclassName():
-    '''public void setSuperclassName(final String name)
+    '''returns None\n\n
+    setSuperclassName(final String name)\n
     '''
 def getMethods():
-    '''public Method[] getMethods()
+    '''returns Method[]\n\n
+    getMethods()\n
     '''
 def setMethods():
-    '''public void setMethods(final Method[] methods)
+    '''returns None\n\n
+    setMethods(final Method[] methods)\n
     '''
 def setMethodAt():
-    '''public void setMethodAt(final Method method, final int pos)
+    '''returns None\n\n
+    setMethodAt(final Method method, final int pos)\n
     '''
 def getMethodAt():
-    '''public Method getMethodAt(final int pos)
+    '''returns Method\n\n
+    getMethodAt(final int pos)\n
     '''
 def getInterfaceNames():
-    '''public String[] getInterfaceNames()
+    '''returns String[]\n\n
+    getInterfaceNames()\n
     '''
 def getInterfaces():
-    '''public int[] getInterfaces()
+    '''returns int[]\n\n
+    getInterfaces()\n
     '''
 def getFields():
-    '''public Field[] getFields()
+    '''returns Field[]\n\n
+    getFields()\n
     '''
 def getAttributes():
-    '''public Attribute[] getAttributes()
+    '''returns Attribute[]\n\n
+    getAttributes()\n
     '''
 def getConstantPool():
-    '''public ConstantPoolGen getConstantPool()
+    '''returns ConstantPoolGen\n\n
+    getConstantPool()\n
     '''
 def setConstantPool():
-    '''public void setConstantPool(final ConstantPoolGen constant_pool)
+    '''returns None\n\n
+    setConstantPool(final ConstantPoolGen constant_pool)\n
     '''
 def setClassNameIndex():
-    '''public void setClassNameIndex(final int class_name_index)
+    '''returns None\n\n
+    setClassNameIndex(final int class_name_index)\n
     '''
 def setSuperclassNameIndex():
-    '''public void setSuperclassNameIndex(final int superclass_name_index)
+    '''returns None\n\n
+    setSuperclassNameIndex(final int superclass_name_index)\n
     '''
 def getSuperclassNameIndex():
-    '''public int getSuperclassNameIndex()
+    '''returns int\n\n
+    getSuperclassNameIndex()\n
     '''
 def getClassNameIndex():
-    '''public int getClassNameIndex()
+    '''returns int\n\n
+    getClassNameIndex()\n
     '''
 def addObserver():
-    '''public void addObserver(final ClassObserver o)
+    '''returns None\n\n
+    addObserver(final ClassObserver o)\n
     '''
 def removeObserver():
-    '''public void removeObserver(final ClassObserver o)
+    '''returns None\n\n
+    removeObserver(final ClassObserver o)\n
     '''
 def update():
-    '''public void update()
+    '''returns None\n\n
+    update()\n
     '''
 def clone():
-    '''public Object clone()
-    '''
-def getComparator():
-    '''public static BCELComparator getComparator()
-    '''
-def setComparator():
-    '''public static void setComparator(final BCELComparator comparator)
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object o1, final Object o2)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object o1, final Object o2)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode(final Object o)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode(final Object o)\n
     '''

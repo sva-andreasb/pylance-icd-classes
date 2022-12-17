@@ -1,15 +1,20 @@
-def ActualDateComplianceActivityBar():
-    '''public ActualDateComplianceActivityBar()
+def ():
+    '''returns ActualDateComplianceActivityBar\n\n
+    ()\n
     '''
 def isComplianceEnabled():
-    '''public boolean isComplianceEnabled()
+    '''returns boolean\n\n
+    isComplianceEnabled()\n
     '''
 def getStartTime():
-    '''public Date getStartTime(final IlvActivityGraphic ag)
+    '''returns Date\n\n
+    getStartTime(final IlvActivityGraphic ag)\n
     '''
 def getEndTime():
-    '''public Date getEndTime(final IlvActivityGraphic ag)
+    '''returns Date\n\n
+    getEndTime(final IlvActivityGraphic ag)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''

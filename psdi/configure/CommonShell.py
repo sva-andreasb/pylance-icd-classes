@@ -1,93 +1,110 @@
-def CommonShell():
-    '''public CommonShell()
-    public CommonShell(final MXServer server)
+def ():
+    '''returns CommonShell\n\n
+    ()\n
+    (final MXServer server)\n
     '''
 def doSql():
-    '''public void doSql(final List list)
-    public void doSql(final List list, final Util util)
-    public void doSql(final String sql)
-    public void doSql(final String sql, final Util util)
+    '''returns None\n\n
+    doSql(final List list)\n
+    doSql(final List list, final Util util)\n
+    doSql(final String sql)\n
+    doSql(final String sql, final Util util)\n
     '''
 def doCall():
-    '''public void doCall(final String sql)
+    '''returns None\n\n
+    doCall(final String sql)\n
     '''
 def doDB2TextSearchCall():
-    '''public void doDB2TextSearchCall(final String sql)
+    '''returns None\n\n
+    doDB2TextSearchCall(final String sql)\n
     '''
 def doWait():
-    '''public void doWait(final int milli)
+    '''returns None\n\n
+    doWait(final int milli)\n
     '''
 def getProperty():
-    '''public String getProperty(final String propName)
-    '''
-def reformatForSqlsvr():
-    '''public static String reformatForSqlsvr(final Connection sqlCon, String sql)
-    '''
-def reformatForDB2():
-    '''public static String reformatForDB2(final Connection sqlCon, final String sqlIn)
+    '''returns String\n\n
+    getProperty(final String propName)\n
     '''
 def execRuntime():
-    '''public void execRuntime(final String arg)
+    '''returns None\n\n
+    execRuntime(final String arg)\n
     '''
 def showMXException():
-    '''public void showMXException(final MXApplicationException e, final boolean infoOnly, final boolean hideErrorKey)
-    public void showMXException(final MXApplicationException e)
+    '''returns None\n\n
+    showMXException(final MXApplicationException e, final boolean infoOnly, final boolean hideErrorKey)\n
+    showMXException(final MXApplicationException e)\n
     '''
 def getDisplayMessage():
-    '''public String getDisplayMessage(final String errorkey, final Object[] params)
-    public String getDisplayMessage(final String errorkey)
+    '''returns String\n\n
+    getDisplayMessage(final String errorkey, final Object[] params)\n
+    getDisplayMessage(final String errorkey)\n
     '''
 def showMsg():
-    '''public void showMsg(String str)
-    '''
-def logSql():
-    '''public final void logSql(final String sql)
+    '''returns None\n\n
+    showMsg(String str)\n
     '''
 def setup():
-    '''public void setup(final HashMap params)
+    '''returns None\n\n
+    setup(final HashMap params)\n
     '''
 def getRootDirName():
-    '''public String getRootDirName()
+    '''returns String\n\n
+    getRootDirName()\n
     '''
 def setupInstance():
-    '''public void setupInstance(final HashMap params)
+    '''returns None\n\n
+    setupInstance(final HashMap params)\n
     '''
 def setupFromPropfile():
-    '''public String setupFromPropfile(String propfile, String user, String password, final String tempUrl, final String rootDirName, String propdir)
+    '''returns String\n\n
+    setupFromPropfile(String propfile, String user, String password, final String tempUrl, final String rootDirName, String propdir)\n
     '''
 def setupNested():
-    '''public void setupNested(final Connection con, final Util util, final String schemaOwner, final Driver driver, final String outdir, final boolean logparam, final boolean execparam, final HashMap params, final String nestedUrl)
+    '''returns None\n\n
+    setupNested(final Connection con, final Util util, final String schemaOwner, final Driver driver, final String outdir, final boolean logparam, final boolean execparam, final HashMap params, final String nestedUrl)\n
     '''
 def setupNestedInstance():
-    '''public void setupNestedInstance(final HashMap params)
+    '''returns None\n\n
+    setupNestedInstance(final HashMap params)\n
     '''
 def endSetup():
-    '''public void endSetup(final String outdir, String outfile, final HashMap params)
+    '''returns None\n\n
+    endSetup(final String outdir, String outfile, final HashMap params)\n
     '''
 def createOutfile():
-    '''public void createOutfile(final String outdir, final String outfile)
+    '''returns None\n\n
+    createOutfile(final String outdir, final String outfile)\n
     '''
 def getOutfile():
-    '''public File getOutfile()
+    '''returns File\n\n
+    getOutfile()\n
     '''
 def getOutstream():
-    '''public PrintStream getOutstream()
+    '''returns PrintStream\n\n
+    getOutstream()\n
     '''
 def endSetupInstance():
-    '''public void endSetupInstance(final String outdir, final String outfile, final HashMap params)
+    '''returns None\n\n
+    endSetupInstance(final String outdir, final String outfile, final HashMap params)\n
     '''
 def endProcess():
-    '''public void endProcess(final boolean errors)
+    '''returns None\n\n
+    endProcess(final boolean errors)\n
     '''
 def endProcessInstance():
-    '''public void endProcessInstance()
+    '''returns None\n\n
+    endProcessInstance()\n
     '''
 def setDB2TextOutput():
-    '''public void setDB2TextOutput(final PrintStream out1, final PrintStream out2)
+    '''returns None\n\n
+    setDB2TextOutput(final PrintStream out1, final PrintStream out2)\n
     '''
 def setUserLangCode():
-    '''public void setUserLangCode(final String value)
+    '''returns None\n\n
+    setUserLangCode(final String value)\n
     '''
 def setConnection():
-    '''public void setConnection(final Connection inCon)
+    '''returns None\n\n
+    setConnection(final Connection inCon)\n
     '''

@@ -1,3 +1,4 @@
-def FldWFInteractionTab():
-    '''public FldWFInteractionTab(final MboValue mbv)
+def ():
+    '''returns FldWFInteractionTab\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,72 +1,96 @@
 def getAssociatedBillingItem():
-    '''public Item getAssociatedBillingItem()
+    '''returns Item\n\n
+    getAssociatedBillingItem()\n
     '''
 def setAssociatedBillingItem():
-    '''public void setAssociatedBillingItem(final Item associatedBillingItem)
+    '''returns None\n\n
+    setAssociatedBillingItem(final Item associatedBillingItem)\n
     '''
 def getBillingItem():
-    '''public Item getBillingItem()
+    '''returns Item\n\n
+    getBillingItem()\n
     '''
 def setBillingItem():
-    '''public void setBillingItem(final Item billingItem)
+    '''returns None\n\n
+    setBillingItem(final Item billingItem)\n
     '''
 def getAssociatedBillingItemId():
-    '''public Long getAssociatedBillingItemId()
+    '''returns Long\n\n
+    getAssociatedBillingItemId()\n
     '''
 def setAssociatedBillingItemId():
-    '''public void setAssociatedBillingItemId(final Long associatedBillingItemId)
+    '''returns None\n\n
+    setAssociatedBillingItemId(final Long associatedBillingItemId)\n
     '''
 def isAssociatedBillingItemIdSpecified():
-    '''public boolean isAssociatedBillingItemIdSpecified()
+    '''returns boolean\n\n
+    isAssociatedBillingItemIdSpecified()\n
     '''
 def unsetAssociatedBillingItemId():
-    '''public void unsetAssociatedBillingItemId()
+    '''returns None\n\n
+    unsetAssociatedBillingItemId()\n
     '''
 def getBillingItemId():
-    '''public Long getBillingItemId()
+    '''returns Long\n\n
+    getBillingItemId()\n
     '''
 def setBillingItemId():
-    '''public void setBillingItemId(final Long billingItemId)
+    '''returns None\n\n
+    setBillingItemId(final Long billingItemId)\n
     '''
 def isBillingItemIdSpecified():
-    '''public boolean isBillingItemIdSpecified()
+    '''returns boolean\n\n
+    isBillingItemIdSpecified()\n
     '''
 def unsetBillingItemId():
-    '''public void unsetBillingItemId()
+    '''returns None\n\n
+    unsetBillingItemId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def associatedBillingItemId():
-    '''public Mask associatedBillingItemId()
+    '''returns Mask\n\n
+    associatedBillingItemId()\n
     '''
 def billingItemId():
-    '''public Mask billingItemId()
+    '''returns Mask\n\n
+    billingItemId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''

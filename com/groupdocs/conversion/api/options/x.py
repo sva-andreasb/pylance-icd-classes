@@ -1,9 +1,11 @@
-def x():
-    '''public x(final ILoader<ay, FromPdfsOptions> loader, final ToImageOptions toImageOptions)
-    public x(final v v, final FileType targetFileType)
+def ():
+    '''returns x\n\n
+    (final ILoader<ay, FromPdfsOptions> loader, final ToImageOptions toImageOptions)\n
+    (final v v, final FileType targetFileType)\n
     '''
 def toImage():
-    '''public void toImage(final OutputStream outputStream)
-    public void toImage(final String savePath)
-    public void toImage(final IStreamCallback<InputStream> dataCallback)
+    '''returns None\n\n
+    toImage(final OutputStream outputStream)\n
+    toImage(final String savePath)\n
+    toImage(final IStreamCallback<InputStream> dataCallback)\n
     '''

@@ -1,102 +1,30 @@
 MAX_LEVELS_OF_SYMLINKS = "int  5"
 DOES_NOT_EXIST_POSTFIX = "String  \" does not exist.\""
-def DirectoryScanner():
-    '''public DirectoryScanner()
-    '''
-def match():
-    '''public static boolean match(final String pattern, final String str)
-    '''
-def getDefaultExcludes():
-    '''public static String[] getDefaultExcludes()
-    '''
-def addDefaultExclude():
-    '''public static boolean addDefaultExclude(final String s)
-    '''
-def removeDefaultExclude():
-    '''public static boolean removeDefaultExclude(final String s)
-    '''
-def resetDefaultExcludes():
-    '''public static void resetDefaultExcludes()
+def ():
+    '''returns DirectoryScanner\n\n
+    ()\n
     '''
 def setBasedir():
-    '''public void setBasedir(final String basedir)
-    public synchronized void setBasedir(final File basedir)
-    '''
-def getBasedir():
-    '''public synchronized File getBasedir()
-    '''
-def isCaseSensitive():
-    '''public synchronized boolean isCaseSensitive()
-    '''
-def setCaseSensitive():
-    '''public synchronized void setCaseSensitive(final boolean isCaseSensitive)
+    '''returns None\n\n
+    setBasedir(final String basedir)\n
     '''
 def setErrorOnMissingDir():
-    '''public void setErrorOnMissingDir(final boolean errorOnMissingDir)
-    '''
-def isFollowSymlinks():
-    '''public synchronized boolean isFollowSymlinks()
-    '''
-def setFollowSymlinks():
-    '''public synchronized void setFollowSymlinks(final boolean followSymlinks)
+    '''returns None\n\n
+    setErrorOnMissingDir(final boolean errorOnMissingDir)\n
     '''
 def setMaxLevelsOfSymlinks():
-    '''public void setMaxLevelsOfSymlinks(final int max)
-    '''
-def setIncludes():
-    '''public synchronized void setIncludes(final String[] includes)
-    '''
-def setExcludes():
-    '''public synchronized void setExcludes(final String[] excludes)
-    '''
-def addExcludes():
-    '''public synchronized void addExcludes(final String[] excludes)
-    '''
-def setSelectors():
-    '''public synchronized void setSelectors(final FileSelector[] selectors)
-    '''
-def isEverythingIncluded():
-    '''public synchronized boolean isEverythingIncluded()
+    '''returns None\n\n
+    setMaxLevelsOfSymlinks(final int max)\n
     '''
 def scan():
-    '''public void scan()
+    '''returns None\n\n
+    scan()\n
     '''
 def getIncludedFiles():
-    '''public String[] getIncludedFiles()
-    '''
-def getIncludedFilesCount():
-    '''public synchronized int getIncludedFilesCount()
-    '''
-def getNotIncludedFiles():
-    '''public synchronized String[] getNotIncludedFiles()
-    '''
-def getExcludedFiles():
-    '''public synchronized String[] getExcludedFiles()
-    '''
-def getDeselectedFiles():
-    '''public synchronized String[] getDeselectedFiles()
+    '''returns String[]\n\n
+    getIncludedFiles()\n
     '''
 def getIncludedDirectories():
-    '''public String[] getIncludedDirectories()
-    '''
-def getIncludedDirsCount():
-    '''public synchronized int getIncludedDirsCount()
-    '''
-def getNotIncludedDirectories():
-    '''public synchronized String[] getNotIncludedDirectories()
-    '''
-def getExcludedDirectories():
-    '''public synchronized String[] getExcludedDirectories()
-    '''
-def getDeselectedDirectories():
-    '''public synchronized String[] getDeselectedDirectories()
-    '''
-def getNotFollowedSymlinks():
-    '''public synchronized String[] getNotFollowedSymlinks()
-    '''
-def addDefaultExcludes():
-    '''public synchronized void addDefaultExcludes()
-    '''
-def getResource():
-    '''public synchronized Resource getResource(final String name)
+    '''returns String[]\n\n
+    getIncludedDirectories()\n
     '''

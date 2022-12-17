@@ -1,45 +1,60 @@
-def DisClient():
-    '''public DisClient(final BulkLoaderProperties props)
+def ():
+    '''returns DisClient\n\n
+    (final BulkLoaderProperties props)\n
     '''
 def setConnProps():
-    '''public void setConnProps(final Properties props)
+    '''returns None\n\n
+    setConnProps(final Properties props)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def commitWork():
-    '''public void commitWork()
+    '''returns None\n\n
+    commitWork()\n
     '''
 def rollbackWork():
-    '''public void rollbackWork()
+    '''returns None\n\n
+    rollbackWork()\n
     '''
 def getNamingContext():
-    '''public Map getNamingContext(final String[] classTypes)
+    '''returns Map\n\n
+    getNamingContext(final String[] classTypes)\n
     '''
 def registerMSS():
-    '''public Guid registerMSS(final HashMap mss)
+    '''returns Guid\n\n
+    registerMSS(final HashMap mss)\n
     '''
 def register():
-    '''public Guid[] register(final Guid mssGuid, final HashMap[] attributeMaps)
+    '''returns Guid[]\n\n
+    register(final Guid mssGuid, final HashMap[] attributeMaps)\n
     '''
 def registerAbstractResources():
-    '''public Guid[] registerAbstractResources(final Guid mssGuid, final HashMap[] attributeMaps)
+    '''returns Guid[]\n\n
+    registerAbstractResources(final Guid mssGuid, final HashMap[] attributeMaps)\n
     '''
 def getNames():
-    '''public NrsMasterAliasInfo[] getNames(final Guid[] guids)
+    '''returns NrsMasterAliasInfo[]\n\n
+    getNames(final Guid[] guids)\n
     '''
 def addRelationship():
-    '''public int[] addRelationship(final Guid mssGuid, final HashMap[] attributeMaps)
+    '''returns int[]\n\n
+    addRelationship(final Guid mssGuid, final HashMap[] attributeMaps)\n
     '''
 def removeStale():
-    '''public void removeStale(final Guid mssGuid, final Date date)
+    '''returns None\n\n
+    removeStale(final Guid mssGuid, final Date date)\n
     '''
 def getParentClassTypes():
-    '''public String[] getParentClassTypes(final String className)
+    '''returns String[]\n\n
+    getParentClassTypes(final String className)\n
     '''

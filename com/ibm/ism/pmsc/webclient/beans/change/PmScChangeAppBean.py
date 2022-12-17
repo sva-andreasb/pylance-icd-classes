@@ -1,3 +1,4 @@
 def OFDIALOG():
-    '''public int OFDIALOG()
+    '''returns int\n\n
+    OFDIALOG()\n
     '''

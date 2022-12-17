@@ -1,6 +1,8 @@
-def WorkOrderSpecSet():
-    '''public WorkOrderSpecSet(final MboServerInterface ms)
+def ():
+    '''returns WorkOrderSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def toCheckClassSpecUseWith():
-    '''public boolean toCheckClassSpecUseWith()
+    '''returns boolean\n\n
+    toCheckClassSpecUseWith()\n
     '''

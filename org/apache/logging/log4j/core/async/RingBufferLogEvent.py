@@ -1,123 +1,156 @@
-def RingBufferLogEvent():
-    '''public RingBufferLogEvent()
+def ():
+    '''returns RingBufferLogEvent\n\n
+    ()\n
     '''
 def setValues():
-    '''public void setValues(final AsyncLogger anAsyncLogger, final String aLoggerName, final Marker aMarker, final String theFqcn, final Level aLevel, final Message msg, final Throwable aThrowable, final StringMap mutableContextData, final ThreadContext.ContextStack aContextStack, final long threadId, final String threadName, final int threadPriority, final StackTraceElement aLocation, final Clock clock, final NanoClock nanoClock)
+    '''returns None\n\n
+    setValues(final AsyncLogger anAsyncLogger, final String aLoggerName, final Marker aMarker, final String theFqcn, final Level aLevel, final Message msg, final Throwable aThrowable, final StringMap mutableContextData, final ThreadContext.ContextStack aContextStack, final long threadId, final String threadName, final int threadPriority, final StackTraceElement aLocation, final Clock clock, final NanoClock nanoClock)\n
     '''
 def toImmutable():
-    '''public LogEvent toImmutable()
+    '''returns LogEvent\n\n
+    toImmutable()\n
     '''
 def execute():
-    '''public void execute(final boolean endOfBatch)
+    '''returns None\n\n
+    execute(final boolean endOfBatch)\n
     '''
 def isPopulated():
-    '''public boolean isPopulated()
+    '''returns boolean\n\n
+    isPopulated()\n
     '''
 def isEndOfBatch():
-    '''public boolean isEndOfBatch()
+    '''returns boolean\n\n
+    isEndOfBatch()\n
     '''
 def setEndOfBatch():
-    '''public void setEndOfBatch(final boolean endOfBatch)
+    '''returns None\n\n
+    setEndOfBatch(final boolean endOfBatch)\n
     '''
 def isIncludeLocation():
-    '''public boolean isIncludeLocation()
+    '''returns boolean\n\n
+    isIncludeLocation()\n
     '''
 def setIncludeLocation():
-    '''public void setIncludeLocation(final boolean includeLocation)
+    '''returns None\n\n
+    setIncludeLocation(final boolean includeLocation)\n
     '''
 def getLoggerName():
-    '''public String getLoggerName()
+    '''returns String\n\n
+    getLoggerName()\n
     '''
 def getMarker():
-    '''public Marker getMarker()
+    '''returns Marker\n\n
+    getMarker()\n
     '''
 def getLoggerFqcn():
-    '''public String getLoggerFqcn()
+    '''returns String\n\n
+    getLoggerFqcn()\n
     '''
 def getLevel():
-    '''public Level getLevel()
+    '''returns Level\n\n
+    getLevel()\n
     '''
 def getMessage():
-    '''public Message getMessage()
+    '''returns Message\n\n
+    getMessage()\n
     '''
 def getFormattedMessage():
-    '''public String getFormattedMessage()
+    '''returns String\n\n
+    getFormattedMessage()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''
 def formatTo():
-    '''public void formatTo(final StringBuilder buffer)
+    '''returns None\n\n
+    formatTo(final StringBuilder buffer)\n
     '''
 def swapParameters():
-    '''public Object[] swapParameters(final Object[] emptyReplacement)
+    '''returns Object[]\n\n
+    swapParameters(final Object[] emptyReplacement)\n
     '''
 def getParameterCount():
-    '''public short getParameterCount()
-    '''
-def forEachParameter():
-    '''public <S> void forEachParameter(final ParameterConsumer<S> action, final S state)
+    '''returns short\n\n
+    getParameterCount()\n
     '''
 def memento():
-    '''public Message memento()
+    '''returns Message\n\n
+    memento()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''
 def getThrown():
-    '''public Throwable getThrown()
+    '''returns Throwable\n\n
+    getThrown()\n
     '''
 def getThrownProxy():
-    '''public ThrowableProxy getThrownProxy()
+    '''returns ThrowableProxy\n\n
+    getThrownProxy()\n
     '''
 def getContextData():
-    '''public ReadOnlyStringMap getContextData()
-    '''
-def getContextMap():
-    '''public Map<String, String> getContextMap()
+    '''returns ReadOnlyStringMap\n\n
+    getContextData()\n
     '''
 def getThreadId():
-    '''public long getThreadId()
+    '''returns long\n\n
+    getThreadId()\n
     '''
 def getThreadName():
-    '''public String getThreadName()
+    '''returns String\n\n
+    getThreadName()\n
     '''
 def getThreadPriority():
-    '''public int getThreadPriority()
+    '''returns int\n\n
+    getThreadPriority()\n
     '''
 def getSource():
-    '''public StackTraceElement getSource()
+    '''returns StackTraceElement\n\n
+    getSource()\n
     '''
 def getTimeMillis():
-    '''public long getTimeMillis()
+    '''returns long\n\n
+    getTimeMillis()\n
     '''
 def getInstant():
-    '''public Instant getInstant()
+    '''returns Instant\n\n
+    getInstant()\n
     '''
 def getNanoTime():
-    '''public long getNanoTime()
+    '''returns long\n\n
+    getNanoTime()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def createMemento():
-    '''public LogEvent createMemento()
+    '''returns LogEvent\n\n
+    createMemento()\n
     '''
 def initializeBuilder():
-    '''public void initializeBuilder(final Log4jLogEvent.Builder builder)
+    '''returns None\n\n
+    initializeBuilder(final Log4jLogEvent.Builder builder)\n
     '''
 def newInstance():
-    '''public RingBufferLogEvent newInstance()
+    '''returns RingBufferLogEvent\n\n
+    newInstance()\n
     '''

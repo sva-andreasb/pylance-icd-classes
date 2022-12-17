@@ -1,6 +1,8 @@
 def getType():
-    '''public Type getType(final ConstantPoolGen cp)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cp)\n
     '''
 def physicalSuccessor():
-    '''public InstructionHandle physicalSuccessor()
+    '''returns InstructionHandle\n\n
+    physicalSuccessor()\n
     '''

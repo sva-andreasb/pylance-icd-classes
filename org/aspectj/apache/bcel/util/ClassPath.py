@@ -1,55 +1,61 @@
-def getSystemClassPath():
-    '''public static ClassPath getSystemClassPath()
-    '''
-def ClassPath():
-    '''public ClassPath(final String class_path)
-    public ClassPath()
+def ():
+    '''returns ClassPath\n\n
+    (final String class_path)\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    '''
-def getClassPath():
-    '''public static final String getClassPath()
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def accept():
-    '''public boolean accept(final File dir, String name)
+    '''returns boolean\n\n
+    accept(final File dir, String name)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream(final String name)
-    public InputStream getInputStream(final String name, final String suffix)
-    public InputStream getInputStream()
-    public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream(final String name)\n
+    getInputStream(final String name, final String suffix)\n
+    getInputStream()\n
+    getInputStream()\n
     '''
 def getClassFile():
-    '''public ClassFile getClassFile(final String name, final String suffix)
-    public ClassFile getClassFile(final String name)
+    '''returns ClassFile\n\n
+    getClassFile(final String name, final String suffix)\n
+    getClassFile(final String name)\n
     '''
 def getBytes():
-    '''public byte[] getBytes(final String name, final String suffix)
-    public byte[] getBytes(final String name)
+    '''returns byte[]\n\n
+    getBytes(final String name, final String suffix)\n
+    getBytes(final String name)\n
     '''
 def getPath():
-    '''public String getPath(String name)
-    public String getPath(final String name, final String suffix)
-    public String getPath()
-    public String getPath()
+    '''returns String\n\n
+    getPath(String name)\n
+    getPath(final String name, final String suffix)\n
+    getPath()\n
+    getPath()\n
     '''
 def getTime():
-    '''public long getTime()
-    public long getTime()
+    '''returns long\n\n
+    getTime()\n
+    getTime()\n
     '''
 def getSize():
-    '''public long getSize()
-    public long getSize()
+    '''returns long\n\n
+    getSize()\n
+    getSize()\n
     '''
 def getBase():
-    '''public String getBase()
-    public String getBase()
+    '''returns String\n\n
+    getBase()\n
+    getBase()\n
     '''

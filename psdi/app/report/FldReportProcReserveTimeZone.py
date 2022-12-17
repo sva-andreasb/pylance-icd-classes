@@ -1,6 +1,8 @@
-def FldReportProcReserveTimeZone():
-    '''public FldReportProcReserveTimeZone(final MboValue mbv)
+def ():
+    '''returns FldReportProcReserveTimeZone\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

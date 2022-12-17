@@ -1,67 +1,50 @@
-def ReaderBasedJsonParser():
-    '''public ReaderBasedJsonParser(final IOContext ctxt, final int features, final Reader r, final ObjectCodec codec, final CharsToNameCanonicalizer st, final char[] inputBuffer, final int start, final int end, final boolean bufferRecyclable)
-    public ReaderBasedJsonParser(final IOContext ctxt, final int features, final Reader r, final ObjectCodec codec, final CharsToNameCanonicalizer st)
+def ():
+    '''returns ReaderBasedJsonParser\n\n
+    (final IOContext ctxt, final int features, final Reader r, final ObjectCodec codec, final CharsToNameCanonicalizer st, final char[] inputBuffer, final int start, final int end, final boolean bufferRecyclable)\n
+    (final IOContext ctxt, final int features, final Reader r, final ObjectCodec codec, final CharsToNameCanonicalizer st)\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
     '''
 def setCodec():
-    '''public void setCodec(final ObjectCodec c)
+    '''returns None\n\n
+    setCodec(final ObjectCodec c)\n
     '''
 def releaseBuffered():
-    '''public int releaseBuffered(final Writer w)
+    '''returns int\n\n
+    releaseBuffered(final Writer w)\n
     '''
 def getInputSource():
-    '''public Object getInputSource()
+    '''returns Object\n\n
+    getInputSource()\n
     '''
 def getText():
-    '''public final String getText()
-    public int getText(final Writer writer)
-    '''
-def getValueAsString():
-    '''public final String getValueAsString()
-    public final String getValueAsString(final String defValue)
-    '''
-def getTextCharacters():
-    '''public final char[] getTextCharacters()
-    '''
-def getTextLength():
-    '''public final int getTextLength()
-    '''
-def getTextOffset():
-    '''public final int getTextOffset()
+    '''returns int\n\n
+    getText(final Writer writer)\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue(final Base64Variant b64variant)
+    '''returns byte[]\n\n
+    getBinaryValue(final Base64Variant b64variant)\n
     '''
 def readBinaryValue():
-    '''public int readBinaryValue(final Base64Variant b64variant, final OutputStream out)
-    '''
-def nextToken():
-    '''public final JsonToken nextToken()
+    '''returns int\n\n
+    readBinaryValue(final Base64Variant b64variant, final OutputStream out)\n
     '''
 def finishToken():
-    '''public void finishToken()
+    '''returns None\n\n
+    finishToken()\n
     '''
 def nextFieldName():
-    '''public boolean nextFieldName(final SerializableString sstr)
-    public String nextFieldName()
-    '''
-def nextTextValue():
-    '''public final String nextTextValue()
-    '''
-def nextIntValue():
-    '''public final int nextIntValue(final int defaultValue)
-    '''
-def nextLongValue():
-    '''public final long nextLongValue(final long defaultValue)
-    '''
-def nextBooleanValue():
-    '''public final Boolean nextBooleanValue()
+    '''returns String\n\n
+    nextFieldName(final SerializableString sstr)\n
+    nextFieldName()\n
     '''
 def getTokenLocation():
-    '''public JsonLocation getTokenLocation()
+    '''returns JsonLocation\n\n
+    getTokenLocation()\n
     '''
 def getCurrentLocation():
-    '''public JsonLocation getCurrentLocation()
+    '''returns JsonLocation\n\n
+    getCurrentLocation()\n
     '''

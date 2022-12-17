@@ -1,112 +1,145 @@
-def Concat():
-    '''public Concat()
+def ():
+    '''returns TextElement\n\n
+    ()\n
+    ()\n
     '''
 def getReader():
-    '''public Reader getReader(final Object o)
-    public Reader getReader(final Object o)
+    '''returns Reader\n\n
+    getReader(final Object o)\n
+    getReader(final Object o)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setDestfile():
-    '''public void setDestfile(final File destinationFile)
+    '''returns None\n\n
+    setDestfile(final File destinationFile)\n
     '''
 def setDest():
-    '''public void setDest(final Resource dest)
+    '''returns None\n\n
+    setDest(final Resource dest)\n
     '''
 def setAppend():
-    '''public void setAppend(final boolean append)
+    '''returns None\n\n
+    setAppend(final boolean append)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
-    public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
+    setEncoding(final String encoding)\n
     '''
 def setOutputEncoding():
-    '''public void setOutputEncoding(final String outputEncoding)
+    '''returns None\n\n
+    setOutputEncoding(final String outputEncoding)\n
     '''
 def setForce():
-    '''public void setForce(final boolean force)
+    '''returns None\n\n
+    setForce(final boolean force)\n
     '''
 def setIgnoreEmpty():
-    '''public void setIgnoreEmpty(final boolean ignoreEmpty)
+    '''returns None\n\n
+    setIgnoreEmpty(final boolean ignoreEmpty)\n
     '''
 def createPath():
-    '''public Path createPath()
+    '''returns Path\n\n
+    createPath()\n
     '''
 def addFileset():
-    '''public void addFileset(final FileSet set)
+    '''returns None\n\n
+    addFileset(final FileSet set)\n
     '''
 def addFilelist():
-    '''public void addFilelist(final FileList list)
+    '''returns None\n\n
+    addFilelist(final FileList list)\n
     '''
 def add():
-    '''public void add(final ResourceCollection c)
+    '''returns None\n\n
+    add(final ResourceCollection c)\n
     '''
 def addFilterChain():
-    '''public void addFilterChain(final FilterChain filterChain)
+    '''returns None\n\n
+    addFilterChain(final FilterChain filterChain)\n
     '''
 def addText():
-    '''public void addText(final String text)
-    public void addText(final String value)
+    '''returns None\n\n
+    addText(final String text)\n
+    addText(final String value)\n
     '''
 def addHeader():
-    '''public void addHeader(final TextElement headerToAdd)
+    '''returns None\n\n
+    addHeader(final TextElement headerToAdd)\n
     '''
 def addFooter():
-    '''public void addFooter(final TextElement footerToAdd)
+    '''returns None\n\n
+    addFooter(final TextElement footerToAdd)\n
     '''
 def setFixLastLine():
-    '''public void setFixLastLine(final boolean fixLastLine)
+    '''returns None\n\n
+    setFixLastLine(final boolean fixLastLine)\n
     '''
 def setEol():
-    '''public void setEol(final FixCRLF.CrLf crlf)
+    '''returns None\n\n
+    setEol(final FixCRLF.CrLf crlf)\n
     '''
 def setWriter():
-    '''public void setWriter(final Writer outputWriter)
+    '''returns None\n\n
+    setWriter(final Writer outputWriter)\n
     '''
 def setBinary():
-    '''public void setBinary(final boolean binary)
+    '''returns None\n\n
+    setBinary(final boolean binary)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isFilesystemOnly():
-    '''public boolean isFilesystemOnly()
-    '''
-def TextElement():
-    '''public TextElement()
+    '''returns boolean\n\n
+    isFilesystemOnly()\n
     '''
 def setFiltering():
-    '''public void setFiltering(final boolean filtering)
+    '''returns None\n\n
+    setFiltering(final boolean filtering)\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def setTrimLeading():
-    '''public void setTrimLeading(final boolean strip)
+    '''returns None\n\n
+    setTrimLeading(final boolean strip)\n
     '''
 def setTrim():
-    '''public void setTrim(final boolean trim)
+    '''returns None\n\n
+    setTrim(final boolean trim)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def read():
-    '''public int read()
-    public int read(final char[] cbuf, int off, int len)
+    '''returns int\n\n
+    read()\n
+    read(final char[] cbuf, int off, int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

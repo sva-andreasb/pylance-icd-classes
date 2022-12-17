@@ -1,17 +1,17 @@
-def getInstance():
-    '''public static DERBMPString getInstance(final Object obj)
-    public static DERBMPString getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def DERBMPString():
-    '''public DERBMPString(final byte[] string)
-    public DERBMPString(final String string)
+def ():
+    '''returns DERBMPString\n\n
+    (final byte[] string)\n
+    (final String string)\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

@@ -3,46 +3,48 @@ MODEUSERNAMEPASSWORD = "int  2"
 MODEDN = "int  3"
 MODECERTIFICATE = "int  4"
 ORADBPROXYMODE = "String  \"ORADBPROXYMODE\""
-def OracleProxyDBManager():
-    '''public OracleProxyDBManager()
+def ():
+    '''returns OracleProxyDBManager\n\n
+    ()\n
     '''
 def configure():
-    '''public void configure(final Properties properties)
+    '''returns None\n\n
+    configure(final Properties properties)\n
     '''
 def init():
-    '''public boolean init()
-    '''
-def destroy():
-    '''public synchronized void destroy()
+    '''returns boolean\n\n
+    init()\n
     '''
 def getConnectionDetail():
-    '''public Connection getConnectionDetail(final ConnectionKey conKey)
+    '''returns Connection\n\n
+    getConnectionDetail(final ConnectionKey conKey)\n
     '''
 def freeConnectionDetail():
-    '''public void freeConnectionDetail(final ConnectionKey conKey)
-    '''
-def getSystemConnection():
-    '''public synchronized Connection getSystemConnection()
-    '''
-def getSequenceConnection():
-    '''public synchronized Connection getSequenceConnection()
+    '''returns None\n\n
+    freeConnectionDetail(final ConnectionKey conKey)\n
     '''
 def getNewConnectionPool():
-    '''public OracleOCIConnectionPool getNewConnectionPool(final String url, final String userName, final String password)
+    '''returns OracleOCIConnectionPool\n\n
+    getNewConnectionPool(final String url, final String userName, final String password)\n
     '''
 def getProxyConnection():
-    '''public ConRef getProxyConnection(final OracleOCIConnectionPool pool, final Object certi)
+    '''returns ConRef\n\n
+    getProxyConnection(final OracleOCIConnectionPool pool, final Object certi)\n
     '''
 def getDBAuthenticationType():
-    '''public int getDBAuthenticationType()
+    '''returns int\n\n
+    getDBAuthenticationType()\n
     '''
 def getCredentialHandler():
-    '''public DBCredentialHandler getCredentialHandler()
+    '''returns DBCredentialHandler\n\n
+    getCredentialHandler()\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def getRetryConnectionPool():
-    '''public OracleOCIConnectionPool getRetryConnectionPool()
+    '''returns OracleOCIConnectionPool\n\n
+    getRetryConnectionPool()\n
     '''

@@ -1,110 +1,139 @@
-def MemoryRecordsBuilder():
-    '''public MemoryRecordsBuilder(final ByteBufferOutputStream bufferStream, final byte magic, final CompressionType compressionType, final TimestampType timestampType, final long baseOffset, final long logAppendTime, final long producerId, final short producerEpoch, final int baseSequence, final boolean isTransactional, final boolean isControlBatch, final int partitionLeaderEpoch, final int writeLimit)
-    public MemoryRecordsBuilder(final ByteBuffer buffer, final byte magic, final CompressionType compressionType, final TimestampType timestampType, final long baseOffset, final long logAppendTime, final long producerId, final short producerEpoch, final int baseSequence, final boolean isTransactional, final boolean isControlBatch, final int partitionLeaderEpoch, final int writeLimit)
+def ():
+    '''returns RecordsInfo\n\n
+    (final ByteBufferOutputStream bufferStream, final byte magic, final CompressionType compressionType, final TimestampType timestampType, final long baseOffset, final long logAppendTime, final long producerId, final short producerEpoch, final int baseSequence, final boolean isTransactional, final boolean isControlBatch, final int partitionLeaderEpoch, final int writeLimit)\n
+    (final ByteBuffer buffer, final byte magic, final CompressionType compressionType, final TimestampType timestampType, final long baseOffset, final long logAppendTime, final long producerId, final short producerEpoch, final int baseSequence, final boolean isTransactional, final boolean isControlBatch, final int partitionLeaderEpoch, final int writeLimit)\n
+    (final long maxTimestamp, final long shallowOffsetOfMaxTimestamp)\n
     '''
 def buffer():
-    '''public ByteBuffer buffer()
+    '''returns ByteBuffer\n\n
+    buffer()\n
     '''
 def initialCapacity():
-    '''public int initialCapacity()
+    '''returns int\n\n
+    initialCapacity()\n
     '''
 def compressionRatio():
-    '''public double compressionRatio()
+    '''returns double\n\n
+    compressionRatio()\n
     '''
 def compressionType():
-    '''public CompressionType compressionType()
+    '''returns CompressionType\n\n
+    compressionType()\n
     '''
 def isControlBatch():
-    '''public boolean isControlBatch()
+    '''returns boolean\n\n
+    isControlBatch()\n
     '''
 def isTransactional():
-    '''public boolean isTransactional()
+    '''returns boolean\n\n
+    isTransactional()\n
     '''
 def build():
-    '''public MemoryRecords build()
+    '''returns MemoryRecords\n\n
+    build()\n
     '''
 def info():
-    '''public RecordsInfo info()
+    '''returns RecordsInfo\n\n
+    info()\n
     '''
 def numRecords():
-    '''public int numRecords()
+    '''returns int\n\n
+    numRecords()\n
     '''
 def uncompressedBytesWritten():
-    '''public int uncompressedBytesWritten()
+    '''returns int\n\n
+    uncompressedBytesWritten()\n
     '''
 def setProducerState():
-    '''public void setProducerState(final long producerId, final short producerEpoch, final int baseSequence, final boolean isTransactional)
+    '''returns None\n\n
+    setProducerState(final long producerId, final short producerEpoch, final int baseSequence, final boolean isTransactional)\n
     '''
 def overrideLastOffset():
-    '''public void overrideLastOffset(final long lastOffset)
+    '''returns None\n\n
+    overrideLastOffset(final long lastOffset)\n
     '''
 def closeForRecordAppends():
-    '''public void closeForRecordAppends()
+    '''returns None\n\n
+    closeForRecordAppends()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def reopenAndRewriteProducerState():
-    '''public void reopenAndRewriteProducerState(final long producerId, final short producerEpoch, final int baseSequence, final boolean isTransactional)
+    '''returns None\n\n
+    reopenAndRewriteProducerState(final long producerId, final short producerEpoch, final int baseSequence, final boolean isTransactional)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def appendWithOffset():
-    '''public Long appendWithOffset(final long offset, final long timestamp, final byte[] key, final byte[] value, final Header[] headers)
-    public Long appendWithOffset(final long offset, final long timestamp, final ByteBuffer key, final ByteBuffer value, final Header[] headers)
-    public Long appendWithOffset(final long offset, final long timestamp, final byte[] key, final byte[] value)
-    public Long appendWithOffset(final long offset, final long timestamp, final ByteBuffer key, final ByteBuffer value)
-    public Long appendWithOffset(final long offset, final SimpleRecord record)
-    public void appendWithOffset(final long offset, final Record record)
-    public void appendWithOffset(final long offset, final LegacyRecord record)
+    '''returns None\n\n
+    appendWithOffset(final long offset, final long timestamp, final byte[] key, final byte[] value, final Header[] headers)\n
+    appendWithOffset(final long offset, final long timestamp, final ByteBuffer key, final ByteBuffer value, final Header[] headers)\n
+    appendWithOffset(final long offset, final long timestamp, final byte[] key, final byte[] value)\n
+    appendWithOffset(final long offset, final long timestamp, final ByteBuffer key, final ByteBuffer value)\n
+    appendWithOffset(final long offset, final SimpleRecord record)\n
+    appendWithOffset(final long offset, final Record record)\n
+    appendWithOffset(final long offset, final LegacyRecord record)\n
     '''
 def append():
-    '''public Long append(final long timestamp, final ByteBuffer key, final ByteBuffer value)
-    public Long append(final long timestamp, final ByteBuffer key, final ByteBuffer value, final Header[] headers)
-    public Long append(final long timestamp, final byte[] key, final byte[] value)
-    public Long append(final long timestamp, final byte[] key, final byte[] value, final Header[] headers)
-    public Long append(final SimpleRecord record)
-    public void append(final Record record)
-    public void append(final LegacyRecord record)
+    '''returns None\n\n
+    append(final long timestamp, final ByteBuffer key, final ByteBuffer value)\n
+    append(final long timestamp, final ByteBuffer key, final ByteBuffer value, final Header[] headers)\n
+    append(final long timestamp, final byte[] key, final byte[] value)\n
+    append(final long timestamp, final byte[] key, final byte[] value, final Header[] headers)\n
+    append(final SimpleRecord record)\n
+    append(final Record record)\n
+    append(final LegacyRecord record)\n
     '''
 def appendEndTxnMarker():
-    '''public Long appendEndTxnMarker(final long timestamp, final EndTransactionMarker marker)
+    '''returns Long\n\n
+    appendEndTxnMarker(final long timestamp, final EndTransactionMarker marker)\n
     '''
 def appendUncheckedWithOffset():
-    '''public void appendUncheckedWithOffset(final long offset, final LegacyRecord record)
+    '''returns None\n\n
+    appendUncheckedWithOffset(final long offset, final LegacyRecord record)\n
     '''
 def setEstimatedCompressionRatio():
-    '''public void setEstimatedCompressionRatio(final float estimatedCompressionRatio)
+    '''returns None\n\n
+    setEstimatedCompressionRatio(final float estimatedCompressionRatio)\n
     '''
 def hasRoomFor():
-    '''public boolean hasRoomFor(final long timestamp, final byte[] key, final byte[] value, final Header[] headers)
-    public boolean hasRoomFor(final long timestamp, final ByteBuffer key, final ByteBuffer value, final Header[] headers)
+    '''returns boolean\n\n
+    hasRoomFor(final long timestamp, final byte[] key, final byte[] value, final Header[] headers)\n
+    hasRoomFor(final long timestamp, final ByteBuffer key, final ByteBuffer value, final Header[] headers)\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def estimatedSizeInBytes():
-    '''public int estimatedSizeInBytes()
+    '''returns int\n\n
+    estimatedSizeInBytes()\n
     '''
 def magic():
-    '''public byte magic()
+    '''returns byte\n\n
+    magic()\n
     '''
 def producerId():
-    '''public long producerId()
+    '''returns long\n\n
+    producerId()\n
     '''
 def producerEpoch():
-    '''public short producerEpoch()
+    '''returns short\n\n
+    producerEpoch()\n
     '''
 def baseSequence():
-    '''public int baseSequence()
+    '''returns int\n\n
+    baseSequence()\n
     '''
 def write():
-    '''public void write(final int b)
-    '''
-def RecordsInfo():
-    '''public RecordsInfo(final long maxTimestamp, final long shallowOffsetOfMaxTimestamp)
+    '''returns None\n\n
+    write(final int b)\n
     '''

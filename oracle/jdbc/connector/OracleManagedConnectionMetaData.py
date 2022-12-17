@@ -1,12 +1,16 @@
 def getEISProductName():
-    '''public String getEISProductName()
+    '''returns String\n\n
+    getEISProductName()\n
     '''
 def getEISProductVersion():
-    '''public String getEISProductVersion()
+    '''returns String\n\n
+    getEISProductVersion()\n
     '''
 def getMaxConnections():
-    '''public int getMaxConnections()
+    '''returns int\n\n
+    getMaxConnections()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''

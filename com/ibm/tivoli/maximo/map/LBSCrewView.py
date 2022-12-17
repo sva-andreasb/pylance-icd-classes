@@ -1,42 +1,56 @@
-def LBSCrewView():
-    '''public LBSCrewView(final MboSet ms)
+def ():
+    '''returns LBSCrewView\n\n
+    (final MboSet ms)\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''
 def getAltitude():
-    '''public Double getAltitude()
+    '''returns Double\n\n
+    getAltitude()\n
     '''
 def getAltitudeAccuracy():
-    '''public Double getAltitudeAccuracy()
+    '''returns Double\n\n
+    getAltitudeAccuracy()\n
     '''
 def getHeading():
-    '''public Double getHeading()
+    '''returns Double\n\n
+    getHeading()\n
     '''
 def getLastUpdate():
-    '''public Date getLastUpdate()
+    '''returns Date\n\n
+    getLastUpdate()\n
     '''
 def getLocationAccuracy():
-    '''public Double getLocationAccuracy()
+    '''returns Double\n\n
+    getLocationAccuracy()\n
     '''
 def getSpeed():
-    '''public Double getSpeed()
+    '''returns Double\n\n
+    getSpeed()\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def saveLBSData():
-    '''public void saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)
+    '''returns None\n\n
+    saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)\n
     '''

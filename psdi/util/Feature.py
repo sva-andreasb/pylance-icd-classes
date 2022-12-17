@@ -1,30 +1,25 @@
 GROUP_PREFIX = "String  \"=========\""
-def Feature():
-    '''public Feature(final String internal, final String display, final int group, final int power)
+def ():
+    '''returns Feature\n\n
+    (final String internal, final String display, final int group, final int power)\n
     '''
 def getDisplay():
-    '''public String getDisplay()
+    '''returns String\n\n
+    getDisplay()\n
     '''
 def getInternal():
-    '''public String getInternal()
+    '''returns String\n\n
+    getInternal()\n
     '''
 def getGroup():
-    '''public int getGroup()
-    public static int getGroup(final String internal)
+    '''returns int\n\n
+    getGroup()\n
     '''
 def getIndex():
-    '''public int getIndex()
-    public static int getIndex(final String internal)
-    '''
-def getFirst():
-    '''public static Feature getFirst()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getNext():
-    '''public Feature getNext()
-    '''
-def findMe():
-    '''public static Feature findMe(final String internal)
-    '''
-def populate():
-    '''public static void populate()
+    '''returns Feature\n\n
+    getNext()\n
     '''

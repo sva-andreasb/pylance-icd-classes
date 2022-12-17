@@ -1,7 +1,9 @@
-def RemoveCommentReader():
-    '''public RemoveCommentReader(final Reader in)
+def ():
+    '''returns RemoveCommentReader\n\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read(final char[] array, final int n, final int n2)
-    public int read()
+    '''returns int\n\n
+    read(final char[] array, final int n, final int n2)\n
+    read()\n
     '''

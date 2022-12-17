@@ -1,270 +1,360 @@
 def getInvoiceItem():
-    '''public Item getInvoiceItem()
+    '''returns Item\n\n
+    getInvoiceItem()\n
     '''
 def setInvoiceItem():
-    '''public void setInvoiceItem(final Item invoiceItem)
+    '''returns None\n\n
+    setInvoiceItem(final Item invoiceItem)\n
     '''
 def setInvoiceTaxInfo():
-    '''public void setInvoiceTaxInfo(final com.softlayer.api.service.billing.invoice.tax.Info invoiceTaxInfo)
+    '''returns None\n\n
+    setInvoiceTaxInfo(final com.softlayer.api.service.billing.invoice.tax.Info invoiceTaxInfo)\n
     '''
 def getToCurrency():
-    '''public Currency getToCurrency()
+    '''returns Currency\n\n
+    getToCurrency()\n
     '''
 def setToCurrency():
-    '''public void setToCurrency(final Currency toCurrency)
+    '''returns None\n\n
+    setToCurrency(final Currency toCurrency)\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getEffectiveTaxRate():
-    '''public BigDecimal getEffectiveTaxRate()
+    '''returns BigDecimal\n\n
+    getEffectiveTaxRate()\n
     '''
 def setEffectiveTaxRate():
-    '''public void setEffectiveTaxRate(final BigDecimal effectiveTaxRate)
+    '''returns None\n\n
+    setEffectiveTaxRate(final BigDecimal effectiveTaxRate)\n
     '''
 def isEffectiveTaxRateSpecified():
-    '''public boolean isEffectiveTaxRateSpecified()
+    '''returns boolean\n\n
+    isEffectiveTaxRateSpecified()\n
     '''
 def unsetEffectiveTaxRate():
-    '''public void unsetEffectiveTaxRate()
+    '''returns None\n\n
+    unsetEffectiveTaxRate()\n
     '''
 def getExemptAmount():
-    '''public BigDecimal getExemptAmount()
+    '''returns BigDecimal\n\n
+    getExemptAmount()\n
     '''
 def setExemptAmount():
-    '''public void setExemptAmount(final BigDecimal exemptAmount)
+    '''returns None\n\n
+    setExemptAmount(final BigDecimal exemptAmount)\n
     '''
 def isExemptAmountSpecified():
-    '''public boolean isExemptAmountSpecified()
+    '''returns boolean\n\n
+    isExemptAmountSpecified()\n
     '''
 def unsetExemptAmount():
-    '''public void unsetExemptAmount()
+    '''returns None\n\n
+    unsetExemptAmount()\n
     '''
 def getFeeProperty():
-    '''public String getFeeProperty()
+    '''returns String\n\n
+    getFeeProperty()\n
     '''
 def setFeeProperty():
-    '''public void setFeeProperty(final String feeProperty)
+    '''returns None\n\n
+    setFeeProperty(final String feeProperty)\n
     '''
 def isFeePropertySpecified():
-    '''public boolean isFeePropertySpecified()
+    '''returns boolean\n\n
+    isFeePropertySpecified()\n
     '''
 def unsetFeeProperty():
-    '''public void unsetFeeProperty()
+    '''returns None\n\n
+    unsetFeeProperty()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getInvoiceItemId():
-    '''public Long getInvoiceItemId()
+    '''returns Long\n\n
+    getInvoiceItemId()\n
     '''
 def setInvoiceItemId():
-    '''public void setInvoiceItemId(final Long invoiceItemId)
+    '''returns None\n\n
+    setInvoiceItemId(final Long invoiceItemId)\n
     '''
 def isInvoiceItemIdSpecified():
-    '''public boolean isInvoiceItemIdSpecified()
+    '''returns boolean\n\n
+    isInvoiceItemIdSpecified()\n
     '''
 def unsetInvoiceItemId():
-    '''public void unsetInvoiceItemId()
+    '''returns None\n\n
+    unsetInvoiceItemId()\n
     '''
 def getInvoiceTaxInfoId():
-    '''public Long getInvoiceTaxInfoId()
+    '''returns Long\n\n
+    getInvoiceTaxInfoId()\n
     '''
 def setInvoiceTaxInfoId():
-    '''public void setInvoiceTaxInfoId(final Long invoiceTaxInfoId)
+    '''returns None\n\n
+    setInvoiceTaxInfoId(final Long invoiceTaxInfoId)\n
     '''
 def isInvoiceTaxInfoIdSpecified():
-    '''public boolean isInvoiceTaxInfoIdSpecified()
+    '''returns boolean\n\n
+    isInvoiceTaxInfoIdSpecified()\n
     '''
 def unsetInvoiceTaxInfoId():
-    '''public void unsetInvoiceTaxInfoId()
+    '''returns None\n\n
+    unsetInvoiceTaxInfoId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNonTaxableBasis():
-    '''public BigDecimal getNonTaxableBasis()
+    '''returns BigDecimal\n\n
+    getNonTaxableBasis()\n
     '''
 def setNonTaxableBasis():
-    '''public void setNonTaxableBasis(final BigDecimal nonTaxableBasis)
+    '''returns None\n\n
+    setNonTaxableBasis(final BigDecimal nonTaxableBasis)\n
     '''
 def isNonTaxableBasisSpecified():
-    '''public boolean isNonTaxableBasisSpecified()
+    '''returns boolean\n\n
+    isNonTaxableBasisSpecified()\n
     '''
 def unsetNonTaxableBasis():
-    '''public void unsetNonTaxableBasis()
+    '''returns None\n\n
+    unsetNonTaxableBasis()\n
     '''
 def getReportedFlag():
-    '''public Boolean getReportedFlag()
+    '''returns Boolean\n\n
+    getReportedFlag()\n
     '''
 def setReportedFlag():
-    '''public void setReportedFlag(final Boolean reportedFlag)
+    '''returns None\n\n
+    setReportedFlag(final Boolean reportedFlag)\n
     '''
 def isReportedFlagSpecified():
-    '''public boolean isReportedFlagSpecified()
+    '''returns boolean\n\n
+    isReportedFlagSpecified()\n
     '''
 def unsetReportedFlag():
-    '''public void unsetReportedFlag()
+    '''returns None\n\n
+    unsetReportedFlag()\n
     '''
 def getSellerRegistration():
-    '''public String getSellerRegistration()
+    '''returns String\n\n
+    getSellerRegistration()\n
     '''
 def setSellerRegistration():
-    '''public void setSellerRegistration(final String sellerRegistration)
+    '''returns None\n\n
+    setSellerRegistration(final String sellerRegistration)\n
     '''
 def isSellerRegistrationSpecified():
-    '''public boolean isSellerRegistrationSpecified()
+    '''returns boolean\n\n
+    isSellerRegistrationSpecified()\n
     '''
 def unsetSellerRegistration():
-    '''public void unsetSellerRegistration()
+    '''returns None\n\n
+    unsetSellerRegistration()\n
     '''
 def getTaxAmount():
-    '''public BigDecimal getTaxAmount()
+    '''returns BigDecimal\n\n
+    getTaxAmount()\n
     '''
 def setTaxAmount():
-    '''public void setTaxAmount(final BigDecimal taxAmount)
+    '''returns None\n\n
+    setTaxAmount(final BigDecimal taxAmount)\n
     '''
 def isTaxAmountSpecified():
-    '''public boolean isTaxAmountSpecified()
+    '''returns boolean\n\n
+    isTaxAmountSpecified()\n
     '''
 def unsetTaxAmount():
-    '''public void unsetTaxAmount()
+    '''returns None\n\n
+    unsetTaxAmount()\n
     '''
 def getTaxAmountToCurrency():
-    '''public BigDecimal getTaxAmountToCurrency()
+    '''returns BigDecimal\n\n
+    getTaxAmountToCurrency()\n
     '''
 def setTaxAmountToCurrency():
-    '''public void setTaxAmountToCurrency(final BigDecimal taxAmountToCurrency)
+    '''returns None\n\n
+    setTaxAmountToCurrency(final BigDecimal taxAmountToCurrency)\n
     '''
 def isTaxAmountToCurrencySpecified():
-    '''public boolean isTaxAmountToCurrencySpecified()
+    '''returns boolean\n\n
+    isTaxAmountToCurrencySpecified()\n
     '''
 def unsetTaxAmountToCurrency():
-    '''public void unsetTaxAmountToCurrency()
+    '''returns None\n\n
+    unsetTaxAmountToCurrency()\n
     '''
 def getTaxRate():
-    '''public BigDecimal getTaxRate()
+    '''returns BigDecimal\n\n
+    getTaxRate()\n
     '''
 def setTaxRate():
-    '''public void setTaxRate(final BigDecimal taxRate)
+    '''returns None\n\n
+    setTaxRate(final BigDecimal taxRate)\n
     '''
 def isTaxRateSpecified():
-    '''public boolean isTaxRateSpecified()
+    '''returns boolean\n\n
+    isTaxRateSpecified()\n
     '''
 def unsetTaxRate():
-    '''public void unsetTaxRate()
+    '''returns None\n\n
+    unsetTaxRate()\n
     '''
 def getTaxableBasis():
-    '''public BigDecimal getTaxableBasis()
+    '''returns BigDecimal\n\n
+    getTaxableBasis()\n
     '''
 def setTaxableBasis():
-    '''public void setTaxableBasis(final BigDecimal taxableBasis)
+    '''returns None\n\n
+    setTaxableBasis(final BigDecimal taxableBasis)\n
     '''
 def isTaxableBasisSpecified():
-    '''public boolean isTaxableBasisSpecified()
+    '''returns boolean\n\n
+    isTaxableBasisSpecified()\n
     '''
 def unsetTaxableBasis():
-    '''public void unsetTaxableBasis()
+    '''returns None\n\n
+    unsetTaxableBasis()\n
     '''
 def getToCurrencyId():
-    '''public Long getToCurrencyId()
+    '''returns Long\n\n
+    getToCurrencyId()\n
     '''
 def setToCurrencyId():
-    '''public void setToCurrencyId(final Long toCurrencyId)
+    '''returns None\n\n
+    setToCurrencyId(final Long toCurrencyId)\n
     '''
 def isToCurrencyIdSpecified():
-    '''public boolean isToCurrencyIdSpecified()
+    '''returns boolean\n\n
+    isToCurrencyIdSpecified()\n
     '''
 def unsetToCurrencyId():
-    '''public void unsetToCurrencyId()
+    '''returns None\n\n
+    unsetToCurrencyId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def effectiveTaxRate():
-    '''public Mask effectiveTaxRate()
+    '''returns Mask\n\n
+    effectiveTaxRate()\n
     '''
 def exemptAmount():
-    '''public Mask exemptAmount()
+    '''returns Mask\n\n
+    exemptAmount()\n
     '''
 def feeProperty():
-    '''public Mask feeProperty()
+    '''returns Mask\n\n
+    feeProperty()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def invoiceItemId():
-    '''public Mask invoiceItemId()
+    '''returns Mask\n\n
+    invoiceItemId()\n
     '''
 def invoiceTaxInfoId():
-    '''public Mask invoiceTaxInfoId()
+    '''returns Mask\n\n
+    invoiceTaxInfoId()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def nonTaxableBasis():
-    '''public Mask nonTaxableBasis()
+    '''returns Mask\n\n
+    nonTaxableBasis()\n
     '''
 def reportedFlag():
-    '''public Mask reportedFlag()
+    '''returns Mask\n\n
+    reportedFlag()\n
     '''
 def sellerRegistration():
-    '''public Mask sellerRegistration()
+    '''returns Mask\n\n
+    sellerRegistration()\n
     '''
 def taxAmount():
-    '''public Mask taxAmount()
+    '''returns Mask\n\n
+    taxAmount()\n
     '''
 def taxAmountToCurrency():
-    '''public Mask taxAmountToCurrency()
+    '''returns Mask\n\n
+    taxAmountToCurrency()\n
     '''
 def taxRate():
-    '''public Mask taxRate()
+    '''returns Mask\n\n
+    taxRate()\n
     '''
 def taxableBasis():
-    '''public Mask taxableBasis()
+    '''returns Mask\n\n
+    taxableBasis()\n
     '''
 def toCurrencyId():
-    '''public Mask toCurrencyId()
+    '''returns Mask\n\n
+    toCurrencyId()\n
     '''

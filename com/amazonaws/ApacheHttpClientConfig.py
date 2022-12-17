@@ -1,9 +1,12 @@
 def getSslSocketFactory():
-    '''public ConnectionSocketFactory getSslSocketFactory()
+    '''returns ConnectionSocketFactory\n\n
+    getSslSocketFactory()\n
     '''
 def setSslSocketFactory():
-    '''public void setSslSocketFactory(final ConnectionSocketFactory sslSocketFactory)
+    '''returns None\n\n
+    setSslSocketFactory(final ConnectionSocketFactory sslSocketFactory)\n
     '''
 def withSslSocketFactory():
-    '''public ApacheHttpClientConfig withSslSocketFactory(final ConnectionSocketFactory sslSocketFactory)
+    '''returns ApacheHttpClientConfig\n\n
+    withSslSocketFactory(final ConnectionSocketFactory sslSocketFactory)\n
     '''

@@ -1,12 +1,16 @@
-def SafeDivideValidator():
-    '''public SafeDivideValidator(final String objectname)
+def ():
+    '''returns SafeDivideValidator\n\n
+    (final String objectname)\n
     '''
 def accept():
-    '''public boolean accept(final Node n)
+    '''returns boolean\n\n
+    accept(final Node n)\n
     '''
 def getDenominator():
-    '''public String getDenominator(final Node divOperand)
+    '''returns String\n\n
+    getDenominator(final Node divOperand)\n
     '''
 def getDenominatorNode():
-    '''public Node getDenominatorNode(final Node divOperand)
+    '''returns Node\n\n
+    getDenominatorNode(final Node divOperand)\n
     '''

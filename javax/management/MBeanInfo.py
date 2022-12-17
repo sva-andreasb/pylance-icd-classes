@@ -1,33 +1,44 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getAttributes():
-    '''public MBeanAttributeInfo[] getAttributes()
+    '''returns MBeanAttributeInfo[]\n\n
+    getAttributes()\n
     '''
 def getConstructors():
-    '''public MBeanConstructorInfo[] getConstructors()
+    '''returns MBeanConstructorInfo[]\n\n
+    getConstructors()\n
     '''
 def getNotifications():
-    '''public MBeanNotificationInfo[] getNotifications()
+    '''returns MBeanNotificationInfo[]\n\n
+    getNotifications()\n
     '''
 def getOperations():
-    '''public MBeanOperationInfo[] getOperations()
+    '''returns MBeanOperationInfo[]\n\n
+    getOperations()\n
     '''
-def MBeanInfo():
-    '''public MBeanInfo(final String className, final String description, MBeanAttributeInfo[] no_ATTRIBUTES, MBeanConstructorInfo[] no_CONSTRUCTORS, MBeanOperationInfo[] no_OPERATIONS, MBeanNotificationInfo[] no_NOTIFICATIONS)
+def ():
+    '''returns MBeanInfo\n\n
+    (final String className, final String description, MBeanAttributeInfo[] no_ATTRIBUTES, MBeanConstructorInfo[] no_CONSTRUCTORS, MBeanOperationInfo[] no_OPERATIONS, MBeanNotificationInfo[] no_NOTIFICATIONS)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

@@ -1,18 +1,24 @@
-def TLOAMContSfwLic():
-    '''public TLOAMContSfwLic(final MboSet ms)
+def ():
+    '''returns TLOAMContSfwLic\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getContractLine():
-    '''public TLOAMSFWViewLineRemote getContractLine()
+    '''returns TLOAMSFWViewLineRemote\n\n
+    getContractLine()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

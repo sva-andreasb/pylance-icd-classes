@@ -1,3 +1,4 @@
-def Componentdef():
-    '''public Componentdef()
+def ():
+    '''returns Componentdef\n\n
+    ()\n
     '''

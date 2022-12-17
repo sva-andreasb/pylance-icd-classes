@@ -1,120 +1,160 @@
 def createBES():
-    '''public BES createBES()
+    '''returns BES\n\n
+    createBES()\n
     '''
 def createFixletAction():
-    '''public FixletAction createFixletAction()
+    '''returns FixletAction\n\n
+    createFixletAction()\n
     '''
 def createActionSettingsLocks():
-    '''public ActionSettingsLocks createActionSettingsLocks()
+    '''returns ActionSettingsLocks\n\n
+    createActionSettingsLocks()\n
     '''
 def createFixlet():
-    '''public Fixlet createFixlet()
+    '''returns Fixlet\n\n
+    createFixlet()\n
     '''
 def createActionSettingsType():
-    '''public ActionSettingsType createActionSettingsType()
+    '''returns ActionSettingsType\n\n
+    createActionSettingsType()\n
     '''
 def createBaseline():
-    '''public Baseline createBaseline()
+    '''returns Baseline\n\n
+    createBaseline()\n
     '''
 def createMultipleActionGroup():
-    '''public MultipleActionGroup createMultipleActionGroup()
+    '''returns MultipleActionGroup\n\n
+    createMultipleActionGroup()\n
     '''
 def createAnalysis():
-    '''public Analysis createAnalysis()
+    '''returns Analysis\n\n
+    createAnalysis()\n
     '''
 def createFixletWithActions():
-    '''public FixletWithActions createFixletWithActions()
+    '''returns FixletWithActions\n\n
+    createFixletWithActions()\n
     '''
 def createSingleAction():
-    '''public SingleAction createSingleAction()
+    '''returns SingleAction\n\n
+    createSingleAction()\n
     '''
 def createSourcedFixletAction():
-    '''public SourcedFixletAction createSourcedFixletAction()
+    '''returns SourcedFixletAction\n\n
+    createSourcedFixletAction()\n
     '''
 def createComputerGroup():
-    '''public ComputerGroup createComputerGroup()
+    '''returns ComputerGroup\n\n
+    createComputerGroup()\n
     '''
 def createSite():
-    '''public Site createSite()
+    '''returns Site\n\n
+    createSite()\n
     '''
 def createActionSettings():
-    '''public ActionSettings createActionSettings()
+    '''returns ActionSettings\n\n
+    createActionSettings()\n
     '''
 def createActionScript():
-    '''public ActionScript createActionScript()
+    '''returns ActionScript\n\n
+    createActionScript()\n
     '''
 def createExternalSitePermission():
-    '''public ExternalSitePermission createExternalSitePermission()
+    '''returns ExternalSitePermission\n\n
+    createExternalSitePermission()\n
     '''
 def createBESActionParameter():
-    '''public BESActionParameter createBESActionParameter()
+    '''returns BESActionParameter\n\n
+    createBESActionParameter()\n
     '''
 def createBESActionSourceFixlet():
-    '''public BESActionSourceFixlet createBESActionSourceFixlet()
+    '''returns BESActionSourceFixlet\n\n
+    createBESActionSourceFixlet()\n
     '''
 def createActionSuccessCriteria():
-    '''public ActionSuccessCriteria createActionSuccessCriteria()
+    '''returns ActionSuccessCriteria\n\n
+    createActionSuccessCriteria()\n
     '''
 def createSitePermission():
-    '''public SitePermission createSitePermission()
+    '''returns SitePermission\n\n
+    createSitePermission()\n
     '''
 def createAction():
-    '''public Action createAction()
+    '''returns Action\n\n
+    createAction()\n
     '''
 def createRelevanceString():
-    '''public RelevanceString createRelevanceString()
+    '''returns RelevanceString\n\n
+    createRelevanceString()\n
     '''
 def createBESSourceSiteAndFixlet():
-    '''public BESSourceSiteAndFixlet createBESSourceSiteAndFixlet()
+    '''returns BESSourceSiteAndFixlet\n\n
+    createBESSourceSiteAndFixlet()\n
     '''
 def createProperty():
-    '''public Property createProperty()
+    '''returns Property\n\n
+    createProperty()\n
     '''
 def createBESActionTarget():
-    '''public BESActionTarget createBESActionTarget()
+    '''returns BESActionTarget\n\n
+    createBESActionTarget()\n
     '''
 def createActionSettingsTypeUIGroupConstraintsWin9XGroup():
-    '''public JAXBElement<Object> createActionSettingsTypeUIGroupConstraintsWin9XGroup(final Object value)
+    '''returns JAXBElement<Object>\n\n
+    createActionSettingsTypeUIGroupConstraintsWin9XGroup(final Object value)\n
     '''
 def createActionSettingsTypeUIGroupConstraintsWinNTGroup():
-    '''public JAXBElement<Object> createActionSettingsTypeUIGroupConstraintsWinNTGroup(final Object value)
+    '''returns JAXBElement<Object>\n\n
+    createActionSettingsTypeUIGroupConstraintsWinNTGroup(final Object value)\n
     '''
 def createBESAnalysis():
-    '''public JAXBElement<Analysis> createBESAnalysis(final Analysis value)
+    '''returns JAXBElement<Analysis>\n\n
+    createBESAnalysis(final Analysis value)\n
     '''
 def createBESSingleAction():
-    '''public JAXBElement<SingleAction> createBESSingleAction(final SingleAction value)
+    '''returns JAXBElement<SingleAction>\n\n
+    createBESSingleAction(final SingleAction value)\n
     '''
 def createBESFixlet():
-    '''public JAXBElement<FixletWithActions> createBESFixlet(final FixletWithActions value)
+    '''returns JAXBElement<FixletWithActions>\n\n
+    createBESFixlet(final FixletWithActions value)\n
     '''
 def createBESCustomSite():
-    '''public JAXBElement<Site> createBESCustomSite(final Site value)
+    '''returns JAXBElement<Site>\n\n
+    createBESCustomSite(final Site value)\n
     '''
 def createBESBaseline():
-    '''public JAXBElement<Baseline> createBESBaseline(final Baseline value)
+    '''returns JAXBElement<Baseline>\n\n
+    createBESBaseline(final Baseline value)\n
     '''
 def createBESMultipleActionGroup():
-    '''public JAXBElement<MultipleActionGroup> createBESMultipleActionGroup(final MultipleActionGroup value)
+    '''returns JAXBElement<MultipleActionGroup>\n\n
+    createBESMultipleActionGroup(final MultipleActionGroup value)\n
     '''
 def createBESTask():
-    '''public JAXBElement<FixletWithActions> createBESTask(final FixletWithActions value)
+    '''returns JAXBElement<FixletWithActions>\n\n
+    createBESTask(final FixletWithActions value)\n
     '''
 def createBESComputerGroup():
-    '''public JAXBElement<ComputerGroup> createBESComputerGroup(final ComputerGroup value)
+    '''returns JAXBElement<ComputerGroup>\n\n
+    createBESComputerGroup(final ComputerGroup value)\n
     '''
 def createBESSourcedFixletAction():
-    '''public JAXBElement<SourcedFixletAction> createBESSourcedFixletAction(final SourcedFixletAction value)
+    '''returns JAXBElement<SourcedFixletAction>\n\n
+    createBESSourcedFixletAction(final SourcedFixletAction value)\n
     '''
 def createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentDelay():
-    '''public JAXBElement<Duration> createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentDelay(final Duration value)
+    '''returns JAXBElement<Duration>\n\n
+    createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentDelay(final Duration value)\n
     '''
 def createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentRelevance():
-    '''public JAXBElement<RelevanceString> createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentRelevance(final RelevanceString value)
+    '''returns JAXBElement<RelevanceString>\n\n
+    createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentRelevance(final RelevanceString value)\n
     '''
 def createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentSuccessCriteria():
-    '''public JAXBElement<ActionSuccessCriteria> createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentSuccessCriteria(final ActionSuccessCriteria value)
+    '''returns JAXBElement<ActionSuccessCriteria>\n\n
+    createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentSuccessCriteria(final ActionSuccessCriteria value)\n
     '''
 def createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentActionScript():
-    '''public JAXBElement<ActionScript> createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentActionScript(final ActionScript value)
+    '''returns JAXBElement<ActionScript>\n\n
+    createBaselineBaselineComponentCollectionBaselineComponentGroupBaselineComponentActionScript(final ActionScript value)\n
     '''

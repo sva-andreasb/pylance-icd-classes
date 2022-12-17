@@ -1,6 +1,8 @@
-def InvalidTelnetOptionException():
-    '''public InvalidTelnetOptionException(final String message, final int optcode)
+def ():
+    '''returns InvalidTelnetOptionException\n\n
+    (final String message, final int optcode)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

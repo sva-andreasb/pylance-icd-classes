@@ -1,31 +1,40 @@
-def AutoKey():
-    '''public AutoKey(final Connection conn, final MboValueInfo mvi, final UserInfo user, final MboRemote mbo, final MboSetInfo mbosetinfo)
+def ():
+    '''returns AutoKey\n\n
+    (final Connection conn, final MboValueInfo mvi, final UserInfo user, final MboRemote mbo, final MboSetInfo mbosetinfo)\n
     '''
 def getSiteLevelWhere():
-    '''public String getSiteLevelWhere()
+    '''returns String\n\n
+    getSiteLevelWhere()\n
     '''
 def getOrgLevelWhere():
-    '''public String getOrgLevelWhere()
+    '''returns String\n\n
+    getOrgLevelWhere()\n
     '''
 def getSiteOrgId():
-    '''public String[] getSiteOrgId()
+    '''returns String[]\n\n
+    getSiteOrgId()\n
     '''
 def getSetLevelWhere():
-    '''public String getSetLevelWhere()
+    '''returns String\n\n
+    getSetLevelWhere()\n
     '''
 def getSetLevelWhereForUniqueCheck():
-    '''public String getSetLevelWhereForUniqueCheck()
+    '''returns String\n\n
+    getSetLevelWhereForUniqueCheck()\n
     '''
 def getSetId():
-    '''public String getSetId()
+    '''returns String\n\n
+    getSetId()\n
     '''
 def setToUseMboSiteOrg():
-    '''public void setToUseMboSiteOrg(final MboRemote mbo)
+    '''returns None\n\n
+    setToUseMboSiteOrg(final MboRemote mbo)\n
     '''
 def nextValue():
-    '''public String nextValue()
-    public synchronized String nextValue(int retryAttempt)
+    '''returns String\n\n
+    nextValue()\n
     '''
 def getAutoKeyLevel():
-    '''public int getAutoKeyLevel()
+    '''returns int\n\n
+    getAutoKeyLevel()\n
     '''

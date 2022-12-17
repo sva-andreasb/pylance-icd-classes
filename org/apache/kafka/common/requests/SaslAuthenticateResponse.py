@@ -1,26 +1,22 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def SaslAuthenticateResponse():
-    '''public SaslAuthenticateResponse(final Errors error, final String errorMessage)
-    public SaslAuthenticateResponse(final Errors error, final String errorMessage, final ByteBuffer saslAuthBytes)
-    public SaslAuthenticateResponse(final Struct struct)
+def ():
+    '''returns SaslAuthenticateResponse\n\n
+    (final Errors error, final String errorMessage)\n
+    (final Errors error, final String errorMessage, final ByteBuffer saslAuthBytes)\n
+    (final Struct struct)\n
     '''
 def error():
-    '''public Errors error()
+    '''returns Errors\n\n
+    error()\n
     '''
 def errorMessage():
-    '''public String errorMessage()
+    '''returns String\n\n
+    errorMessage()\n
     '''
 def saslAuthBytes():
-    '''public ByteBuffer saslAuthBytes()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
+    '''returns ByteBuffer\n\n
+    saslAuthBytes()\n
     '''
 def toStruct():
-    '''public Struct toStruct(final short version)
-    '''
-def parse():
-    '''public static SaslAuthenticateResponse parse(final ByteBuffer buffer, final short version)
+    '''returns Struct\n\n
+    toStruct(final short version)\n
     '''

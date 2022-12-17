@@ -1,6 +1,8 @@
-def FldInspectionResultInspFormNum():
-    '''public FldInspectionResultInspFormNum(final MboValue mbv)
+def ():
+    '''returns FldInspectionResultInspFormNum\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

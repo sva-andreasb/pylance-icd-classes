@@ -1,6 +1,8 @@
-def FldXactActionTaken():
-    '''public FldXactActionTaken(final MboValue mbv)
+def ():
+    '''returns FldXactActionTaken\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

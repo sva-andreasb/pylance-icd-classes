@@ -1,15 +1,20 @@
-def DefaultUnionExpr():
-    '''public DefaultUnionExpr(final Expr lhs, final Expr rhs)
+def ():
+    '''returns DefaultUnionExpr\n\n
+    (final Expr lhs, final Expr rhs)\n
     '''
 def getOperator():
-    '''public String getOperator()
+    '''returns String\n\n
+    getOperator()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def evaluate():
-    '''public Object evaluate(final Context context)
+    '''returns Object\n\n
+    evaluate(final Context context)\n
     '''
 def accept():
-    '''public void accept(final Visitor visitor)
+    '''returns None\n\n
+    accept(final Visitor visitor)\n
     '''

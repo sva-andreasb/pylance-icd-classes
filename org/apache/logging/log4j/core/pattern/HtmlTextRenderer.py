@@ -1,7 +1,9 @@
-def HtmlTextRenderer():
-    '''public HtmlTextRenderer(final String[] formats)
+def ():
+    '''returns HtmlTextRenderer\n\n
+    (final String[] formats)\n
     '''
 def render():
-    '''public void render(final String input, final StringBuilder output, final String styleName)
-    public void render(final StringBuilder input, final StringBuilder output)
+    '''returns None\n\n
+    render(final String input, final StringBuilder output, final String styleName)\n
+    render(final StringBuilder input, final StringBuilder output)\n
     '''

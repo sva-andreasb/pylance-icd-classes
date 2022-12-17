@@ -1,9 +1,12 @@
-def IFGE():
-    '''public IFGE(final InstructionHandle target)
+def ():
+    '''returns IFGE\n\n
+    (final InstructionHandle target)\n
     '''
 def negate():
-    '''public IfInstruction negate()
+    '''returns IfInstruction\n\n
+    negate()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

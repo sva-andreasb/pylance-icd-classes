@@ -1,21 +1,28 @@
-def SetBucketWebsiteConfigurationRequest():
-    '''public SetBucketWebsiteConfigurationRequest(final String bucketName, final BucketWebsiteConfiguration configuration)
+def ():
+    '''returns SetBucketWebsiteConfigurationRequest\n\n
+    (final String bucketName, final BucketWebsiteConfiguration configuration)\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def withBucketName():
-    '''public SetBucketWebsiteConfigurationRequest withBucketName(final String bucketName)
+    '''returns SetBucketWebsiteConfigurationRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def setConfiguration():
-    '''public void setConfiguration(final BucketWebsiteConfiguration configuration)
+    '''returns None\n\n
+    setConfiguration(final BucketWebsiteConfiguration configuration)\n
     '''
 def getConfiguration():
-    '''public BucketWebsiteConfiguration getConfiguration()
+    '''returns BucketWebsiteConfiguration\n\n
+    getConfiguration()\n
     '''
 def withConfiguration():
-    '''public SetBucketWebsiteConfigurationRequest withConfiguration(final BucketWebsiteConfiguration configuration)
+    '''returns SetBucketWebsiteConfigurationRequest\n\n
+    withConfiguration(final BucketWebsiteConfiguration configuration)\n
     '''

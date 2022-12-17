@@ -1,9 +1,12 @@
 def getPrivateIndex():
-    '''public char[] getPrivateIndex()
+    '''returns char[]\n\n
+    getPrivateIndex()\n
     '''
 def getPrivateData():
-    '''public char[] getPrivateData()
+    '''returns char[]\n\n
+    getPrivateData()\n
     '''
 def getPrivateInitialValue():
-    '''public int getPrivateInitialValue()
+    '''returns int\n\n
+    getPrivateInitialValue()\n
     '''

@@ -1,24 +1,32 @@
-def DPAMSoftware():
-    '''public DPAMSoftware(final MboSet ms)
+def ():
+    '''returns DPAMSoftware\n\n
+    (final MboSet ms)\n
     '''
 def getTargetFieldName():
-    '''public String getTargetFieldName()
+    '''returns String\n\n
+    getTargetFieldName()\n
     '''
 def getVariantFieldName():
-    '''public String getVariantFieldName()
+    '''returns String\n\n
+    getVariantFieldName()\n
     '''
 def getVariantSetName():
-    '''public String getVariantSetName()
+    '''returns String\n\n
+    getVariantSetName()\n
     '''
 def getReferencedRelationshipList():
-    '''public String[] getReferencedRelationshipList()
+    '''returns String[]\n\n
+    getReferencedRelationshipList()\n
     '''
 def getExceptionParams():
-    '''public Object[] getExceptionParams()
+    '''returns Object[]\n\n
+    getExceptionParams()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

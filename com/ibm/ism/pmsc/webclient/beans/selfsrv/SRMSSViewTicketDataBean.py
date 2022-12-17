@@ -1,18 +1,24 @@
-def SRMSSViewTicketDataBean():
-    '''public SRMSSViewTicketDataBean()
+def ():
+    '''returns SRMSSViewTicketDataBean\n\n
+    ()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def ok():
-    '''public int ok()
+    '''returns int\n\n
+    ok()\n
     '''
 def getExtendedToolTip():
-    '''public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''returns JSONObject\n\n
+    getExtendedToolTip(final JSONObject definition)\n
     '''
 def downloadvnc():
-    '''public int downloadvnc()
+    '''returns int\n\n
+    downloadvnc()\n
     '''
 def OFDIALOG():
-    '''public int OFDIALOG()
+    '''returns int\n\n
+    OFDIALOG()\n
     '''

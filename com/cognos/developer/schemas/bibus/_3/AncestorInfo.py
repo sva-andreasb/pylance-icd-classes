@@ -1,43 +1,37 @@
-def AncestorInfo():
-    '''public AncestorInfo()
-    public AncestorInfo(final ClassEnum objectClass, final String searchPath, final Guid storeID, final String title)
+def ():
+    '''returns AncestorInfo\n\n
+    ()\n
+    (final ClassEnum objectClass, final String searchPath, final Guid storeID, final String title)\n
     '''
 def getObjectClass():
-    '''public ClassEnum getObjectClass()
+    '''returns ClassEnum\n\n
+    getObjectClass()\n
     '''
 def setObjectClass():
-    '''public void setObjectClass(final ClassEnum objectClass)
+    '''returns None\n\n
+    setObjectClass(final ClassEnum objectClass)\n
     '''
 def getSearchPath():
-    '''public String getSearchPath()
+    '''returns String\n\n
+    getSearchPath()\n
     '''
 def setSearchPath():
-    '''public void setSearchPath(final String searchPath)
+    '''returns None\n\n
+    setSearchPath(final String searchPath)\n
     '''
 def getStoreID():
-    '''public Guid getStoreID()
+    '''returns Guid\n\n
+    getStoreID()\n
     '''
 def setStoreID():
-    '''public void setStoreID(final Guid storeID)
+    '''returns None\n\n
+    setStoreID(final Guid storeID)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''

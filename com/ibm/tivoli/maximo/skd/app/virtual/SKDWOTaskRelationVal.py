@@ -1,3 +1,4 @@
-def SKDWOTaskRelationVal():
-    '''public SKDWOTaskRelationVal(final MboSet ms)
+def ():
+    '''returns SKDWOTaskRelationVal\n\n
+    (final MboSet ms)\n
     '''

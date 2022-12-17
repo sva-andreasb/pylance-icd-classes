@@ -1,19 +1,21 @@
-def XSSFBEventBasedExcelExtractor():
-    '''public XSSFBEventBasedExcelExtractor(final String path)
-    public XSSFBEventBasedExcelExtractor(final OPCPackage container)
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns XSSFBEventBasedExcelExtractor\n\n
+    (final String path)\n
+    (final OPCPackage container)\n
     '''
 def setHandleHyperlinksInCells():
-    '''public void setHandleHyperlinksInCells(final boolean handleHyperlinksInCells)
+    '''returns None\n\n
+    setHandleHyperlinksInCells(final boolean handleHyperlinksInCells)\n
     '''
 def setFormulasNotResults():
-    '''public void setFormulasNotResults(final boolean formulasNotResults)
+    '''returns None\n\n
+    setFormulasNotResults(final boolean formulasNotResults)\n
     '''
 def processSheet():
-    '''public void processSheet(final XSSFSheetXMLHandler.SheetContentsHandler sheetContentsExtractor, final XSSFBStylesTable styles, final XSSFBCommentsTable comments, final XSSFBSharedStringsTable strings, final InputStream sheetInputStream)
+    '''returns None\n\n
+    processSheet(final XSSFSheetXMLHandler.SheetContentsHandler sheetContentsExtractor, final XSSFBStylesTable styles, final XSSFBCommentsTable comments, final XSSFBSharedStringsTable strings, final InputStream sheetInputStream)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''

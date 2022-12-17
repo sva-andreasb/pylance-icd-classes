@@ -1,3 +1,4 @@
-def LoginTrackingSet():
-    '''public LoginTrackingSet(final MboServerInterface ms)
+def ():
+    '''returns LoginTrackingSet\n\n
+    (final MboServerInterface ms)\n
     '''

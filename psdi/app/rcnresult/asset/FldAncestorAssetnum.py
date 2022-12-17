@@ -1,3 +1,4 @@
-def FldAncestorAssetnum():
-    '''public FldAncestorAssetnum(final MboValue mbv)
+def ():
+    '''returns FldAncestorAssetnum\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,8 +1,10 @@
-def DMSManager():
-    '''public DMSManager()
-    public DMSManager(final MboRemote dms)
+def ():
+    '''returns DMSManager\n\n
+    ()\n
+    (final MboRemote dms)\n
     '''
 def getDocumentURL():
-    '''public String getDocumentURL(final MboRemote doc, final MboRemote doclinkMbo)
-    public String getDocumentURL()
+    '''returns String\n\n
+    getDocumentURL(final MboRemote doc, final MboRemote doclinkMbo)\n
+    getDocumentURL()\n
     '''

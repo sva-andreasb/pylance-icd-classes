@@ -1,3 +1,4 @@
-def PlusCWOAppBean():
-    '''public PlusCWOAppBean()
+def ():
+    '''returns PlusCWOAppBean\n\n
+    ()\n
     '''

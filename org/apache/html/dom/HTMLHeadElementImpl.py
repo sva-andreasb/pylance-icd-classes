@@ -1,9 +1,12 @@
 def getProfile():
-    '''public String getProfile()
+    '''returns String\n\n
+    getProfile()\n
     '''
 def setProfile():
-    '''public void setProfile(final String s)
+    '''returns None\n\n
+    setProfile(final String s)\n
     '''
-def HTMLHeadElementImpl():
-    '''public HTMLHeadElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLHeadElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

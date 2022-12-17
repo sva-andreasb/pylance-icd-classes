@@ -1,9 +1,12 @@
-def FldScriptIfaceType():
-    '''public FldScriptIfaceType(final MboValue mbv)
+def ():
+    '''returns FldScriptIfaceType\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

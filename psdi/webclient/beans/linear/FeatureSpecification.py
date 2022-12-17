@@ -1,6 +1,8 @@
-def FeatureSpecification():
-    '''public FeatureSpecification(final LinearClientSession session, final MboRemote parentMbo, final DataSetInfo setInfo, final DataSet parent)
+def ():
+    '''returns FeatureSpecification\n\n
+    (final LinearClientSession session, final MboRemote parentMbo, final DataSetInfo setInfo, final DataSet parent)\n
     '''
 def resolveMboSet():
-    '''public void resolveMboSet()
+    '''returns None\n\n
+    resolveMboSet()\n
     '''

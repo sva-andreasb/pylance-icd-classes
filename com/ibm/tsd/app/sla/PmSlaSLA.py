@@ -1,3 +1,4 @@
-def PmSlaSLA():
-    '''public PmSlaSLA(final MboSet ms)
+def ():
+    '''returns PmSlaSLA\n\n
+    (final MboSet ms)\n
     '''

@@ -1,9 +1,8 @@
-def PlusPFldTotalBilledCC():
-    '''public PlusPFldTotalBilledCC(final MboValue mbv)
+def ():
+    '''returns PlusPFldTotalBilledCC\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
-    '''
-def setTotalBilledCC():
-    '''public static void setTotalBilledCC(final MboValue mboValue)
+    '''returns None\n\n
+    initValue()\n
     '''

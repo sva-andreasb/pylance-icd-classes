@@ -1,6 +1,8 @@
-def SingleMatch():
-    '''public SingleMatch(final char matchChar, final Matches nextNode)
+def ():
+    '''returns SingleMatch\n\n
+    (final char matchChar, final Matches nextNode)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

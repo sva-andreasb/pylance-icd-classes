@@ -1,12 +1,12 @@
-def HappyClient():
-    '''public HappyClient(final PrintStream out)
+def ():
+    '''returns HappyClient\n\n
+    (final PrintStream out)\n
     '''
 def getJavaVersionNumber():
-    '''public int getJavaVersionNumber()
+    '''returns int\n\n
+    getJavaVersionNumber()\n
     '''
 def verifyClientIsHappy():
-    '''public boolean verifyClientIsHappy(final boolean warningsAsErrors)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns boolean\n\n
+    verifyClientIsHappy(final boolean warningsAsErrors)\n
     '''

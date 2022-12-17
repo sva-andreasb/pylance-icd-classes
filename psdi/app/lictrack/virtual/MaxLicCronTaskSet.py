@@ -1,9 +1,12 @@
-def MaxLicCronTaskSet():
-    '''public MaxLicCronTaskSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLicCronTaskSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

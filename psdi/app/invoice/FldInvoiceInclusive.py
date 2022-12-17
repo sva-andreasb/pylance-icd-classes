@@ -1,6 +1,8 @@
-def FldInvoiceInclusive():
-    '''public FldInvoiceInclusive(final MboValue mbv)
+def ():
+    '''returns FldInvoiceInclusive\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

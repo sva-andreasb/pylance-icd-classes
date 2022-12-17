@@ -1,12 +1,16 @@
-def ScramServerCallbackHandler():
-    '''public ScramServerCallbackHandler(final CredentialCache.Cache<ScramCredential> credentialCache, final DelegationTokenCache tokenCache)
+def ():
+    '''returns ScramServerCallbackHandler\n\n
+    (final CredentialCache.Cache<ScramCredential> credentialCache, final DelegationTokenCache tokenCache)\n
     '''
 def handle():
-    '''public void handle(final Callback[] callbacks)
+    '''returns None\n\n
+    handle(final Callback[] callbacks)\n
     '''
 def configure():
-    '''public void configure(final Map<String, ?> configs, final Mode mode, final Subject subject, final String saslMechanism)
+    '''returns None\n\n
+    configure(final Map<String, ?> configs, final Mode mode, final Subject subject, final String saslMechanism)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

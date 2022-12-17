@@ -1,65 +1,75 @@
 def getUID():
-    '''public String getUID()
+    '''returns String\n\n
+    getUID()\n
     '''
-def ConnectionImpl():
-    '''public ConnectionImpl(final SocketAddress socketAddress_, final Processor[] array)
-    public ConnectionImpl(final SocketChannel socketChannel_, final Processor[] array, final Logger logger_)
-    '''
-def incrementSharedCount():
-    '''public synchronized void incrementSharedCount()
+def ():
+    '''returns NewThreadAction\n\n
+    (final SocketAddress socketAddress_, final Processor[] array)\n
+    (final SocketChannel socketChannel_, final Processor[] array, final Logger logger_)\n
+    (final Runnable runnable_, final String name_, final boolean daemon_, final int priority_)\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def addConnectionEventListner():
-    '''public void addConnectionEventListner(final CMXConnectionEventListener cmxConnectionEventListener)
+    '''returns None\n\n
+    addConnectionEventListner(final CMXConnectionEventListener cmxConnectionEventListener)\n
     '''
 def removeConnectionEventListner():
-    '''public void removeConnectionEventListner(final CMXConnectionEventListener o)
+    '''returns None\n\n
+    removeConnectionEventListner(final CMXConnectionEventListener o)\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def queueMessage():
-    '''public void queueMessage(final Message e)
-    '''
-def sendRequest():
-    '''public synchronized Message sendRequest(final Message message)
+    '''returns None\n\n
+    queueMessage(final Message e)\n
     '''
 def reconnect():
-    '''public void reconnect()
+    '''returns None\n\n
+    reconnect()\n
     '''
 def isProcessorSupported():
-    '''public boolean isProcessorSupported(final String key)
+    '''returns boolean\n\n
+    isProcessorSupported(final String key)\n
     '''
 def run():
-    '''public void run()
-    public Thread run()
+    '''returns Thread\n\n
+    run()\n
+    run()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final Message message)
+    '''returns None\n\n
+    sendMessage(final Message message)\n
     '''
 def connectToProcessor():
-    '''public int connectToProcessor(final Processor value)
+    '''returns int\n\n
+    connectToProcessor(final Processor value)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getConnectTimestamp():
-    '''public long getConnectTimestamp()
+    '''returns long\n\n
+    getConnectTimestamp()\n
     '''
 def getNegotiatedProcessorVersion():
-    '''public int getNegotiatedProcessorVersion(final String key)
+    '''returns int\n\n
+    getNegotiatedProcessorVersion(final String key)\n
     '''
 def getHostAdress():
-    '''public String getHostAdress()
+    '''returns String\n\n
+    getHostAdress()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getRemotePort():
-    '''public int getRemotePort()
-    '''
-def NewThreadAction():
-    '''public NewThreadAction(final Runnable runnable_, final String name_, final boolean daemon_, final int priority_)
+    '''returns int\n\n
+    getRemotePort()\n
     '''

@@ -1,3 +1,4 @@
-def IdentityExtension():
-    '''public IdentityExtension()
+def ():
+    '''returns IdentityExtension\n\n
+    ()\n
     '''

@@ -1,129 +1,154 @@
-def getCSVInstance():
-    '''public static StrTokenizer getCSVInstance()
-    public static StrTokenizer getCSVInstance(final String input)
-    public static StrTokenizer getCSVInstance(final char[] input)
-    '''
-def getTSVInstance():
-    '''public static StrTokenizer getTSVInstance()
-    public static StrTokenizer getTSVInstance(final String input)
-    public static StrTokenizer getTSVInstance(final char[] input)
-    '''
-def StrTokenizer():
-    '''public StrTokenizer()
-    public StrTokenizer(final String input)
-    public StrTokenizer(final String input, final char delim)
-    public StrTokenizer(final String input, final String delim)
-    public StrTokenizer(final String input, final StrMatcher delim)
-    public StrTokenizer(final String input, final char delim, final char quote)
-    public StrTokenizer(final String input, final StrMatcher delim, final StrMatcher quote)
-    public StrTokenizer(final char[] input)
-    public StrTokenizer(final char[] input, final char delim)
-    public StrTokenizer(final char[] input, final String delim)
-    public StrTokenizer(final char[] input, final StrMatcher delim)
-    public StrTokenizer(final char[] input, final char delim, final char quote)
-    public StrTokenizer(final char[] input, final StrMatcher delim, final StrMatcher quote)
+def ():
+    '''returns StrTokenizer\n\n
+    ()\n
+    (final String input)\n
+    (final String input, final char delim)\n
+    (final String input, final String delim)\n
+    (final String input, final StrMatcher delim)\n
+    (final String input, final char delim, final char quote)\n
+    (final String input, final StrMatcher delim, final StrMatcher quote)\n
+    (final char[] input)\n
+    (final char[] input, final char delim)\n
+    (final char[] input, final String delim)\n
+    (final char[] input, final StrMatcher delim)\n
+    (final char[] input, final char delim, final char quote)\n
+    (final char[] input, final StrMatcher delim, final StrMatcher quote)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def nextToken():
-    '''public String nextToken()
+    '''returns String\n\n
+    nextToken()\n
     '''
 def previousToken():
-    '''public String previousToken()
+    '''returns String\n\n
+    previousToken()\n
     '''
 def getTokenArray():
-    '''public String[] getTokenArray()
+    '''returns String[]\n\n
+    getTokenArray()\n
     '''
 def getTokenList():
-    '''public List<String> getTokenList()
+    '''returns List<String>\n\n
+    getTokenList()\n
     '''
 def reset():
-    '''public StrTokenizer reset()
-    public StrTokenizer reset(final String input)
-    public StrTokenizer reset(final char[] input)
+    '''returns StrTokenizer\n\n
+    reset()\n
+    reset(final String input)\n
+    reset(final char[] input)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public String next()
+    '''returns String\n\n
+    next()\n
     '''
 def nextIndex():
-    '''public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public String previous()
+    '''returns String\n\n
+    previous()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def set():
-    '''public void set(final String obj)
+    '''returns None\n\n
+    set(final String obj)\n
     '''
 def add():
-    '''public void add(final String obj)
+    '''returns None\n\n
+    add(final String obj)\n
     '''
 def getDelimiterMatcher():
-    '''public StrMatcher getDelimiterMatcher()
+    '''returns StrMatcher\n\n
+    getDelimiterMatcher()\n
     '''
 def setDelimiterMatcher():
-    '''public StrTokenizer setDelimiterMatcher(final StrMatcher delim)
+    '''returns StrTokenizer\n\n
+    setDelimiterMatcher(final StrMatcher delim)\n
     '''
 def setDelimiterChar():
-    '''public StrTokenizer setDelimiterChar(final char delim)
+    '''returns StrTokenizer\n\n
+    setDelimiterChar(final char delim)\n
     '''
 def setDelimiterString():
-    '''public StrTokenizer setDelimiterString(final String delim)
+    '''returns StrTokenizer\n\n
+    setDelimiterString(final String delim)\n
     '''
 def getQuoteMatcher():
-    '''public StrMatcher getQuoteMatcher()
+    '''returns StrMatcher\n\n
+    getQuoteMatcher()\n
     '''
 def setQuoteMatcher():
-    '''public StrTokenizer setQuoteMatcher(final StrMatcher quote)
+    '''returns StrTokenizer\n\n
+    setQuoteMatcher(final StrMatcher quote)\n
     '''
 def setQuoteChar():
-    '''public StrTokenizer setQuoteChar(final char quote)
+    '''returns StrTokenizer\n\n
+    setQuoteChar(final char quote)\n
     '''
 def getIgnoredMatcher():
-    '''public StrMatcher getIgnoredMatcher()
+    '''returns StrMatcher\n\n
+    getIgnoredMatcher()\n
     '''
 def setIgnoredMatcher():
-    '''public StrTokenizer setIgnoredMatcher(final StrMatcher ignored)
+    '''returns StrTokenizer\n\n
+    setIgnoredMatcher(final StrMatcher ignored)\n
     '''
 def setIgnoredChar():
-    '''public StrTokenizer setIgnoredChar(final char ignored)
+    '''returns StrTokenizer\n\n
+    setIgnoredChar(final char ignored)\n
     '''
 def getTrimmerMatcher():
-    '''public StrMatcher getTrimmerMatcher()
+    '''returns StrMatcher\n\n
+    getTrimmerMatcher()\n
     '''
 def setTrimmerMatcher():
-    '''public StrTokenizer setTrimmerMatcher(final StrMatcher trimmer)
+    '''returns StrTokenizer\n\n
+    setTrimmerMatcher(final StrMatcher trimmer)\n
     '''
 def isEmptyTokenAsNull():
-    '''public boolean isEmptyTokenAsNull()
+    '''returns boolean\n\n
+    isEmptyTokenAsNull()\n
     '''
 def setEmptyTokenAsNull():
-    '''public StrTokenizer setEmptyTokenAsNull(final boolean emptyAsNull)
+    '''returns StrTokenizer\n\n
+    setEmptyTokenAsNull(final boolean emptyAsNull)\n
     '''
 def isIgnoreEmptyTokens():
-    '''public boolean isIgnoreEmptyTokens()
+    '''returns boolean\n\n
+    isIgnoreEmptyTokens()\n
     '''
 def setIgnoreEmptyTokens():
-    '''public StrTokenizer setIgnoreEmptyTokens(final boolean ignoreEmptyTokens)
+    '''returns StrTokenizer\n\n
+    setIgnoreEmptyTokens(final boolean ignoreEmptyTokens)\n
     '''
 def getContent():
-    '''public String getContent()
+    '''returns String\n\n
+    getContent()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

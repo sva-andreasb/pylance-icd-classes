@@ -1,9 +1,12 @@
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def putPropertyAsText():
-    '''public void putPropertyAsText(final String anObject, final String s, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    putPropertyAsText(final String anObject, final String s, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def addChild():
-    '''public void addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)
+    '''returns None\n\n
+    addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)\n
     '''

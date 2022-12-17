@@ -1,78 +1,90 @@
-def GoogleAuthorizationCodeFlow():
-    '''public GoogleAuthorizationCodeFlow(final HttpTransport transport, final JsonFactory jsonFactory, final String clientId, final String clientSecret, final Collection<String> scopes)
+def ():
+    '''returns Builder\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final String clientId, final String clientSecret, final Collection<String> scopes)\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final String clientId, final String clientSecret, final Collection<String> scopes)\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final GoogleClientSecrets clientSecrets, final Collection<String> scopes)\n
     '''
 def newTokenRequest():
-    '''public GoogleAuthorizationCodeTokenRequest newTokenRequest(final String authorizationCode)
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    newTokenRequest(final String authorizationCode)\n
     '''
 def newAuthorizationUrl():
-    '''public GoogleAuthorizationCodeRequestUrl newAuthorizationUrl()
-    '''
-def getApprovalPrompt():
-    '''public final String getApprovalPrompt()
-    public final String getApprovalPrompt()
-    '''
-def getAccessType():
-    '''public final String getAccessType()
-    public final String getAccessType()
-    '''
-def Builder():
-    '''public Builder(final HttpTransport transport, final JsonFactory jsonFactory, final String clientId, final String clientSecret, final Collection<String> scopes)
-    public Builder(final HttpTransport transport, final JsonFactory jsonFactory, final GoogleClientSecrets clientSecrets, final Collection<String> scopes)
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    newAuthorizationUrl()\n
     '''
 def build():
-    '''public GoogleAuthorizationCodeFlow build()
+    '''returns GoogleAuthorizationCodeFlow\n\n
+    build()\n
     '''
 def setDataStoreFactory():
-    '''public Builder setDataStoreFactory(final DataStoreFactory dataStore)
+    '''returns Builder\n\n
+    setDataStoreFactory(final DataStoreFactory dataStore)\n
     '''
 def setCredentialDataStore():
-    '''public Builder setCredentialDataStore(final DataStore<StoredCredential> typedDataStore)
+    '''returns Builder\n\n
+    setCredentialDataStore(final DataStore<StoredCredential> typedDataStore)\n
     '''
 def setCredentialCreatedListener():
-    '''public Builder setCredentialCreatedListener(final AuthorizationCodeFlow.CredentialCreatedListener credentialCreatedListener)
+    '''returns Builder\n\n
+    setCredentialCreatedListener(final AuthorizationCodeFlow.CredentialCreatedListener credentialCreatedListener)\n
     '''
 def setCredentialStore():
-    '''public Builder setCredentialStore(final CredentialStore credentialStore)
+    '''returns Builder\n\n
+    setCredentialStore(final CredentialStore credentialStore)\n
     '''
 def setRequestInitializer():
-    '''public Builder setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''returns Builder\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def setScopes():
-    '''public Builder setScopes(final Collection<String> scopes)
+    '''returns Builder\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setMethod():
-    '''public Builder setMethod(final Credential.AccessMethod method)
+    '''returns Builder\n\n
+    setMethod(final Credential.AccessMethod method)\n
     '''
 def setTransport():
-    '''public Builder setTransport(final HttpTransport transport)
+    '''returns Builder\n\n
+    setTransport(final HttpTransport transport)\n
     '''
 def setJsonFactory():
-    '''public Builder setJsonFactory(final JsonFactory jsonFactory)
+    '''returns Builder\n\n
+    setJsonFactory(final JsonFactory jsonFactory)\n
     '''
 def setTokenServerUrl():
-    '''public Builder setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''returns Builder\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setClientAuthentication():
-    '''public Builder setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''returns Builder\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def setClientId():
-    '''public Builder setClientId(final String clientId)
+    '''returns Builder\n\n
+    setClientId(final String clientId)\n
     '''
 def setAuthorizationServerEncodedUrl():
-    '''public Builder setAuthorizationServerEncodedUrl(final String authorizationServerEncodedUrl)
+    '''returns Builder\n\n
+    setAuthorizationServerEncodedUrl(final String authorizationServerEncodedUrl)\n
     '''
 def setClock():
-    '''public Builder setClock(final Clock clock)
+    '''returns Builder\n\n
+    setClock(final Clock clock)\n
     '''
 def addRefreshListener():
-    '''public Builder addRefreshListener(final CredentialRefreshListener refreshListener)
+    '''returns Builder\n\n
+    addRefreshListener(final CredentialRefreshListener refreshListener)\n
     '''
 def setRefreshListeners():
-    '''public Builder setRefreshListeners(final Collection<CredentialRefreshListener> refreshListeners)
+    '''returns Builder\n\n
+    setRefreshListeners(final Collection<CredentialRefreshListener> refreshListeners)\n
     '''
 def setApprovalPrompt():
-    '''public Builder setApprovalPrompt(final String approvalPrompt)
+    '''returns Builder\n\n
+    setApprovalPrompt(final String approvalPrompt)\n
     '''
 def setAccessType():
-    '''public Builder setAccessType(final String accessType)
+    '''returns Builder\n\n
+    setAccessType(final String accessType)\n
     '''

@@ -1,9 +1,12 @@
-def LanguageMbo():
-    '''public LanguageMbo(final MboSet ms)
+def ():
+    '''returns LanguageMbo\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def populate():
-    '''public boolean populate(final Mbo mbo, final String baseTableName, final String langTableName)
+    '''returns boolean\n\n
+    populate(final Mbo mbo, final String baseTableName, final String langTableName)\n
     '''

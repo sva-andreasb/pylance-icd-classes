@@ -1,21 +1,24 @@
-def EndTransactionMarker():
-    '''public EndTransactionMarker(final ControlRecordType type, final int coordinatorEpoch)
+def ():
+    '''returns EndTransactionMarker\n\n
+    (final ControlRecordType type, final int coordinatorEpoch)\n
     '''
 def coordinatorEpoch():
-    '''public int coordinatorEpoch()
+    '''returns int\n\n
+    coordinatorEpoch()\n
     '''
 def controlType():
-    '''public ControlRecordType controlType()
+    '''returns ControlRecordType\n\n
+    controlType()\n
     '''
 def serializeValue():
-    '''public ByteBuffer serializeValue()
+    '''returns ByteBuffer\n\n
+    serializeValue()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def deserialize():
-    '''public static EndTransactionMarker deserialize(final Record record)
+    '''returns int\n\n
+    hashCode()\n
     '''

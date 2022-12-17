@@ -1,36 +1,45 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
-def Flags():
-    '''public Flags()
-    public Flags(final String flag)
-    public Flags(final Flags flags)
-    public Flags(final Flag flag)
+def ():
+    '''returns Flags\n\n
+    ()\n
+    (final String flag)\n
+    (final Flags flags)\n
+    (final Flag flag)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getUserFlags():
-    '''public String[] getUserFlags()
+    '''returns String[]\n\n
+    getUserFlags()\n
     '''
 def add():
-    '''public void add(final String flag)
-    public void add(final Flags f)
-    public void add(final Flag flag)
+    '''returns None\n\n
+    add(final String flag)\n
+    add(final Flags f)\n
+    add(final Flag flag)\n
     '''
 def remove():
-    '''public void remove(final String flag)
-    public void remove(final Flags f)
-    public void remove(final Flag flag)
+    '''returns None\n\n
+    remove(final String flag)\n
+    remove(final Flags f)\n
+    remove(final Flag flag)\n
     '''
 def contains():
-    '''public boolean contains(final String flag)
-    public boolean contains(final Flags f)
-    public boolean contains(final Flag flag)
+    '''returns boolean\n\n
+    contains(final String flag)\n
+    contains(final Flags f)\n
+    contains(final Flag flag)\n
     '''
 def getSystemFlags():
-    '''public Flag[] getSystemFlags()
+    '''returns Flag[]\n\n
+    getSystemFlags()\n
     '''

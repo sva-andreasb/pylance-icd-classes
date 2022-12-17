@@ -1,3 +1,4 @@
-def DBConnectionStat():
-    '''public DBConnectionStat(final MboSet ms)
+def ():
+    '''returns DBConnectionStat\n\n
+    (final MboSet ms)\n
     '''

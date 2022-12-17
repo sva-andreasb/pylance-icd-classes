@@ -1,4 +1,5 @@
-def WSDDRequestFlow():
-    '''public WSDDRequestFlow()
-    public WSDDRequestFlow(final Element e)
+def ():
+    '''returns WSDDRequestFlow\n\n
+    ()\n
+    (final Element e)\n
     '''

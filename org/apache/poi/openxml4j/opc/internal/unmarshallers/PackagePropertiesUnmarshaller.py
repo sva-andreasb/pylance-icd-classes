@@ -1,6 +1,8 @@
 def unmarshall():
-    '''public PackagePart unmarshall(final UnmarshallContext context, InputStream in)
+    '''returns PackagePart\n\n
+    unmarshall(final UnmarshallContext context, InputStream in)\n
     '''
 def checkElementForOPCCompliance():
-    '''public void checkElementForOPCCompliance(final Element el)
+    '''returns None\n\n
+    checkElementForOPCCompliance(final Element el)\n
     '''

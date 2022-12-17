@@ -1,27 +1,32 @@
-def JDBC4Statement():
-    '''public JDBC4Statement(final SQLiteConnection conn)
-    '''
-def unwrap():
-    '''public <T> T unwrap(final Class<T> iface)
+def ():
+    '''returns JDBC4Statement\n\n
+    (final SQLiteConnection conn)\n
     '''
 def isWrapperFor():
-    '''public boolean isWrapperFor(final Class<?> iface)
+    '''returns boolean\n\n
+    isWrapperFor(final Class<?> iface)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def closeOnCompletion():
-    '''public void closeOnCompletion()
+    '''returns None\n\n
+    closeOnCompletion()\n
     '''
 def isCloseOnCompletion():
-    '''public boolean isCloseOnCompletion()
+    '''returns boolean\n\n
+    isCloseOnCompletion()\n
     '''
 def setPoolable():
-    '''public void setPoolable(final boolean poolable)
+    '''returns None\n\n
+    setPoolable(final boolean poolable)\n
     '''
 def isPoolable():
-    '''public boolean isPoolable()
+    '''returns boolean\n\n
+    isPoolable()\n
     '''

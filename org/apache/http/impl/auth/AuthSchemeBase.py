@@ -1,19 +1,25 @@
-def AuthSchemeBase():
-    '''public AuthSchemeBase(final ChallengeState challengeState)
-    public AuthSchemeBase()
+def ():
+    '''returns AuthSchemeBase\n\n
+    (final ChallengeState challengeState)\n
+    ()\n
     '''
 def processChallenge():
-    '''public void processChallenge(final Header header)
+    '''returns None\n\n
+    processChallenge(final Header header)\n
     '''
 def authenticate():
-    '''public Header authenticate(final Credentials credentials, final HttpRequest request, final HttpContext context)
+    '''returns Header\n\n
+    authenticate(final Credentials credentials, final HttpRequest request, final HttpContext context)\n
     '''
 def isProxy():
-    '''public boolean isProxy()
+    '''returns boolean\n\n
+    isProxy()\n
     '''
 def getChallengeState():
-    '''public ChallengeState getChallengeState()
+    '''returns ChallengeState\n\n
+    getChallengeState()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

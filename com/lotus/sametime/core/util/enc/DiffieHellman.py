@@ -1,12 +1,16 @@
-def DiffieHellman():
-    '''public DiffieHellman(final BigInteger modulus, final BigInteger base)
+def ():
+    '''returns DiffieHellman\n\n
+    (final BigInteger modulus, final BigInteger base)\n
     '''
 def generatePrivateKey():
-    '''public byte[] generatePrivateKey(final Random rnd)
+    '''returns byte[]\n\n
+    generatePrivateKey(final Random rnd)\n
     '''
 def generatePublicKey():
-    '''public byte[] generatePublicKey(final byte[] magnitude)
+    '''returns byte[]\n\n
+    generatePublicKey(final byte[] magnitude)\n
     '''
 def generateAgreedValue():
-    '''public byte[] generateAgreedValue(final byte[] magnitude, final byte[] magnitude2)
+    '''returns byte[]\n\n
+    generateAgreedValue(final byte[] magnitude, final byte[] magnitude2)\n
     '''

@@ -1,3 +1,4 @@
 def a():
-    '''public boolean a(final String license, final PN pn)
+    '''returns boolean\n\n
+    a(final String license, final PN pn)\n
     '''

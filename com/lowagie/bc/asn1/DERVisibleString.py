@@ -1,17 +1,17 @@
-def getInstance():
-    '''public static DERVisibleString getInstance(final Object obj)
-    public static DERVisibleString getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def DERVisibleString():
-    '''public DERVisibleString(final byte[] string)
-    public DERVisibleString(final String string)
+def ():
+    '''returns DERVisibleString\n\n
+    (final byte[] string)\n
+    (final String string)\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def getOctets():
-    '''public byte[] getOctets()
+    '''returns byte[]\n\n
+    getOctets()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

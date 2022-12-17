@@ -1,7 +1,9 @@
-def CompositeNameResolver():
-    '''public CompositeNameResolver(final EventExecutor executor, final NameResolver<T>... resolvers)
+def ():
+    '''returns CompositeNameResolver\n\n
+    (final EventExecutor executor, final NameResolver<T>... resolvers)\n
     '''
 def operationComplete():
-    '''public void operationComplete(final Future<T> future)
-    public void operationComplete(final Future<List<T>> future)
+    '''returns None\n\n
+    operationComplete(final Future<T> future)\n
+    operationComplete(final Future<List<T>> future)\n
     '''

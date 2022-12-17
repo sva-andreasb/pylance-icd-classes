@@ -1,3 +1,4 @@
-def PlusCJPRevisionInputSet():
-    '''public PlusCJPRevisionInputSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCJPRevisionInputSet\n\n
+    (final MboServerInterface ms)\n
     '''

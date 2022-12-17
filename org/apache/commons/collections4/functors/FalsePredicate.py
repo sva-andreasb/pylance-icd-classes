@@ -1,6 +1,4 @@
-def falsePredicate():
-    '''public static <T> Predicate<T> falsePredicate()
-    '''
 def evaluate():
-    '''public boolean evaluate(final T object)
+    '''returns boolean\n\n
+    evaluate(final T object)\n
     '''

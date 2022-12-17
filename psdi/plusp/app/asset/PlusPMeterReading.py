@@ -1,6 +1,8 @@
-def PlusPMeterReading():
-    '''public PlusPMeterReading(final MboSet arg0)
+def ():
+    '''returns PlusPMeterReading\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

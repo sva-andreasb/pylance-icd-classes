@@ -1,145 +1,193 @@
 def getEcoreDataType():
-    '''public EDataType getEcoreDataType()
+    '''returns EDataType\n\n
+    getEcoreDataType()\n
     '''
 def basicGetEcoreDataType():
-    '''public EDataType basicGetEcoreDataType()
+    '''returns EDataType\n\n
+    basicGetEcoreDataType()\n
     '''
 def setEcoreDataType():
-    '''public void setEcoreDataType(final EDataType newEcoreDataType)
+    '''returns None\n\n
+    setEcoreDataType(final EDataType newEcoreDataType)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def getEcoreClassifier():
-    '''public EClassifier getEcoreClassifier()
+    '''returns EClassifier\n\n
+    getEcoreClassifier()\n
     '''
 def getImportedMetaType():
-    '''public String getImportedMetaType()
+    '''returns String\n\n
+    getImportedMetaType()\n
     '''
 def getQualifiedInstanceClassName():
-    '''public String getQualifiedInstanceClassName()
+    '''returns String\n\n
+    getQualifiedInstanceClassName()\n
     '''
 def getRawQualifiedInstanceClassName():
-    '''public String getRawQualifiedInstanceClassName()
+    '''returns String\n\n
+    getRawQualifiedInstanceClassName()\n
     '''
 def getImportedInstanceClassName():
-    '''public String getImportedInstanceClassName()
+    '''returns String\n\n
+    getImportedInstanceClassName()\n
     '''
 def getObjectInstanceClassName():
-    '''public String getObjectInstanceClassName()
+    '''returns String\n\n
+    getObjectInstanceClassName()\n
     '''
 def isSerializable():
-    '''public boolean isSerializable()
+    '''returns boolean\n\n
+    isSerializable()\n
     '''
 def getSerializableFlag():
-    '''public String getSerializableFlag()
+    '''returns String\n\n
+    getSerializableFlag()\n
     '''
 def getGeneratedInstanceClassFlag():
-    '''public String getGeneratedInstanceClassFlag()
+    '''returns String\n\n
+    getGeneratedInstanceClassFlag()\n
     '''
 def isPrimitiveType():
-    '''public boolean isPrimitiveType()
+    '''returns boolean\n\n
+    isPrimitiveType()\n
     '''
 def isArrayType():
-    '''public boolean isArrayType()
+    '''returns boolean\n\n
+    isArrayType()\n
     '''
 def isObjectType():
-    '''public boolean isObjectType()
+    '''returns boolean\n\n
+    isObjectType()\n
     '''
 def getPrimitiveValueFunction():
-    '''public String getPrimitiveValueFunction()
+    '''returns String\n\n
+    getPrimitiveValueFunction()\n
     '''
 def getModelInfo():
-    '''public String getModelInfo()
+    '''returns String\n\n
+    getModelInfo()\n
     '''
 def getBaseType():
-    '''public GenDataType getBaseType()
+    '''returns GenDataType\n\n
+    getBaseType()\n
     '''
 def getItemType():
-    '''public GenDataType getItemType()
+    '''returns GenDataType\n\n
+    getItemType()\n
     '''
 def getEffectiveItemType():
-    '''public GenDataType getEffectiveItemType()
+    '''returns GenDataType\n\n
+    getEffectiveItemType()\n
     '''
 def getMemberTypes():
-    '''public List getMemberTypes()
+    '''returns List\n\n
+    getMemberTypes()\n
     '''
 def getEffectiveMemberTypes():
-    '''public List getEffectiveMemberTypes()
+    '''returns List\n\n
+    getEffectiveMemberTypes()\n
     '''
 def getMinLiteral():
-    '''public String getMinLiteral()
+    '''returns String\n\n
+    getMinLiteral()\n
     '''
 def isMinInclusive():
-    '''public boolean isMinInclusive()
+    '''returns boolean\n\n
+    isMinInclusive()\n
     '''
 def getMaxLiteral():
-    '''public String getMaxLiteral()
+    '''returns String\n\n
+    getMaxLiteral()\n
     '''
 def isMaxInclusive():
-    '''public boolean isMaxInclusive()
+    '''returns boolean\n\n
+    isMaxInclusive()\n
     '''
 def getLengthAccessorFunction():
-    '''public String getLengthAccessorFunction()
+    '''returns String\n\n
+    getLengthAccessorFunction()\n
     '''
 def getMinLength():
-    '''public int getMinLength()
+    '''returns int\n\n
+    getMinLength()\n
     '''
 def getMaxLength():
-    '''public int getMaxLength()
+    '''returns int\n\n
+    getMaxLength()\n
     '''
 def getTotalDigits():
-    '''public int getTotalDigits()
+    '''returns int\n\n
+    getTotalDigits()\n
     '''
 def getFractionDigits():
-    '''public int getFractionDigits()
+    '''returns int\n\n
+    getFractionDigits()\n
     '''
 def getEnumerationLiterals():
-    '''public List getEnumerationLiterals()
+    '''returns List\n\n
+    getEnumerationLiterals()\n
     '''
 def getWhiteSpace():
-    '''public String getWhiteSpace()
+    '''returns String\n\n
+    getWhiteSpace()\n
     '''
 def isXMLCalendar():
-    '''public boolean isXMLCalendar()
+    '''returns boolean\n\n
+    isXMLCalendar()\n
     '''
 def isXMLDuration():
-    '''public boolean isXMLDuration()
+    '''returns boolean\n\n
+    isXMLDuration()\n
     '''
 def isXMLBoolean():
-    '''public boolean isXMLBoolean()
+    '''returns boolean\n\n
+    isXMLBoolean()\n
     '''
 def getPatterns():
-    '''public List getPatterns()
+    '''returns List\n\n
+    getPatterns()\n
     '''
 def initialize():
-    '''public void initialize(final EDataType eDataType)
+    '''returns None\n\n
+    initialize(final EDataType eDataType)\n
     '''
 def reconcile():
-    '''public boolean reconcile(final GenDataType oldGenDataTypeVersion)
-    public boolean reconcile()
+    '''returns boolean\n\n
+    reconcile(final GenDataType oldGenDataTypeVersion)\n
+    reconcile()\n
     '''
 def getGenConstraints():
-    '''public List getGenConstraints()
+    '''returns List\n\n
+    getGenConstraints()\n
     '''
 def getAllGenConstraints():
-    '''public List getAllGenConstraints()
+    '''returns List\n\n
+    getAllGenConstraints()\n
     '''
 def getConstraintImplementor():
-    '''public GenClassifier getConstraintImplementor(final String constraint)
+    '''returns GenClassifier\n\n
+    getConstraintImplementor(final String constraint)\n
     '''
 def getConstraintDelegate():
-    '''public GenClassifier getConstraintDelegate(final String constraint)
+    '''returns GenClassifier\n\n
+    getConstraintDelegate(final String constraint)\n
     '''
 def getStaticValue():
-    '''public String getStaticValue(final String literal)
+    '''returns String\n\n
+    getStaticValue(final String literal)\n
     '''

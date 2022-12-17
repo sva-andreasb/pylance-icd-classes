@@ -1,6 +1,7 @@
-def NoFormatIDException():
-    '''public NoFormatIDException()
-    public NoFormatIDException(final String msg)
-    public NoFormatIDException(final Throwable reason)
-    public NoFormatIDException(final String msg, final Throwable reason)
+def ():
+    '''returns NoFormatIDException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable reason)\n
+    (final String msg, final Throwable reason)\n
     '''

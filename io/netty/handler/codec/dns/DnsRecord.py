@@ -1,0 +1,6 @@
+CLASS_IN = "int  1"
+CLASS_CSNET = "int  2"
+CLASS_CHAOS = "int  3"
+CLASS_HESIOD = "int  4"
+CLASS_NONE = "int  254"
+CLASS_ANY = "int  255"

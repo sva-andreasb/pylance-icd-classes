@@ -1,6 +1,8 @@
-def S3V4AuthErrorRetryStrategy():
-    '''public S3V4AuthErrorRetryStrategy(final S3RequestEndpointResolver endpointResolver)
+def ():
+    '''returns S3V4AuthErrorRetryStrategy\n\n
+    (final S3RequestEndpointResolver endpointResolver)\n
     '''
 def shouldRetryWithAuthParam():
-    '''public AuthRetryParameters shouldRetryWithAuthParam(final Request<?> request, final HttpResponse response, final AmazonServiceException ase)
+    '''returns AuthRetryParameters\n\n
+    shouldRetryWithAuthParam(final Request<?> request, final HttpResponse response, final AmazonServiceException ase)\n
     '''

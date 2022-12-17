@@ -1,3 +1,4 @@
-def PmtcoCISet():
-    '''public PmtcoCISet(final MboServerInterface ms)
+def ():
+    '''returns PmtcoCISet\n\n
+    (final MboServerInterface ms)\n
     '''

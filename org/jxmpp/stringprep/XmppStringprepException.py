@@ -1,7 +1,9 @@
-def XmppStringprepException():
-    '''public XmppStringprepException(final String causingString, final Exception exception)
-    public XmppStringprepException(final String causingString, final String message)
+def ():
+    '''returns XmppStringprepException\n\n
+    (final String causingString, final Exception exception)\n
+    (final String causingString, final String message)\n
     '''
 def getCausingString():
-    '''public String getCausingString()
+    '''returns String\n\n
+    getCausingString()\n
     '''

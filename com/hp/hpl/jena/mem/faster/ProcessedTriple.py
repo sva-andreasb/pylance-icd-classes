@@ -1,15 +1,20 @@
-def ProcessedTriple():
-    '''public ProcessedTriple(final QueryNode S, final QueryNode P, final QueryNode O)
+def ():
+    '''returns ProcessedTriple\n\n
+    (final QueryNode S, final QueryNode P, final QueryNode O)\n
     '''
 def createApplyer():
-    '''public Applyer createApplyer(final Graph g)
+    '''returns Applyer\n\n
+    createApplyer(final Graph g)\n
     '''
 def hasNoVariables():
-    '''public boolean hasNoVariables()
+    '''returns boolean\n\n
+    hasNoVariables()\n
     '''
 def createTriple():
-    '''public QueryTriple createTriple(final QueryNode S, final QueryNode P, final QueryNode O)
+    '''returns QueryTriple\n\n
+    createTriple(final QueryNode S, final QueryNode P, final QueryNode O)\n
     '''
 def createArray():
-    '''public QueryTriple[] createArray(final int size)
+    '''returns QueryTriple[]\n\n
+    createArray(final int size)\n
     '''

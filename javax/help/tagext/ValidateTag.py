@@ -1,21 +1,28 @@
-def ValidateTag():
-    '''public ValidateTag()
+def ():
+    '''returns ValidateTag\n\n
+    ()\n
     '''
 def setHelpBroker():
-    '''public void setHelpBroker(final HelpBroker helpBroker)
+    '''returns None\n\n
+    setHelpBroker(final HelpBroker helpBroker)\n
     '''
 def setInvalidURL():
-    '''public void setInvalidURL(final String invalidURLPath)
+    '''returns None\n\n
+    setInvalidURL(final String invalidURLPath)\n
     '''
 def setHelpSetName():
-    '''public void setHelpSetName(final String hsName)
+    '''returns None\n\n
+    setHelpSetName(final String hsName)\n
     '''
 def setCurrentID():
-    '''public void setCurrentID(final String id)
+    '''returns None\n\n
+    setCurrentID(final String id)\n
     '''
 def setMerge():
-    '''public void setMerge(final boolean merge)
+    '''returns None\n\n
+    setMerge(final boolean merge)\n
     '''
 def doStartTag():
-    '''public int doStartTag()
+    '''returns int\n\n
+    doStartTag()\n
     '''

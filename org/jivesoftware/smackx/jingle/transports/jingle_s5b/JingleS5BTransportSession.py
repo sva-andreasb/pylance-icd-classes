@@ -1,40 +1,53 @@
-def JingleS5BTransportSession():
-    '''public JingleS5BTransportSession(final JingleSession jingleSession)
+def ():
+    '''returns JingleS5BTransportSession\n\n
+    (final JingleSession jingleSession)\n
     '''
 def createTransport():
-    '''public JingleS5BTransport createTransport()
-    public JingleS5BTransport createTransport(final String sid, final Bytestream.Mode mode)
+    '''returns JingleS5BTransport\n\n
+    createTransport()\n
+    createTransport(final String sid, final Bytestream.Mode mode)\n
     '''
 def setTheirProposal():
-    '''public void setTheirProposal(final JingleContentTransport transport)
+    '''returns None\n\n
+    setTheirProposal(final JingleContentTransport transport)\n
     '''
 def setTheirTransport():
-    '''public void setTheirTransport(final JingleContentTransport transport)
+    '''returns None\n\n
+    setTheirTransport(final JingleContentTransport transport)\n
     '''
 def initiateOutgoingSession():
-    '''public void initiateOutgoingSession(final JingleTransportInitiationCallback callback)
+    '''returns None\n\n
+    initiateOutgoingSession(final JingleTransportInitiationCallback callback)\n
     '''
 def initiateIncomingSession():
-    '''public void initiateIncomingSession(final JingleTransportInitiationCallback callback)
+    '''returns None\n\n
+    initiateIncomingSession(final JingleTransportInitiationCallback callback)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def handleTransportInfo():
-    '''public IQ handleTransportInfo(final Jingle transportInfo)
+    '''returns IQ\n\n
+    handleTransportInfo(final Jingle transportInfo)\n
     '''
 def handleCandidateUsed():
-    '''public IQ handleCandidateUsed(final Jingle jingle)
+    '''returns IQ\n\n
+    handleCandidateUsed(final Jingle jingle)\n
     '''
 def handleCandidateActivate():
-    '''public IQ handleCandidateActivate(final Jingle jingle)
+    '''returns IQ\n\n
+    handleCandidateActivate(final Jingle jingle)\n
     '''
 def handleCandidateError():
-    '''public IQ handleCandidateError(final Jingle jingle)
+    '''returns IQ\n\n
+    handleCandidateError(final Jingle jingle)\n
     '''
 def handleProxyError():
-    '''public IQ handleProxyError(final Jingle jingle)
+    '''returns IQ\n\n
+    handleProxyError(final Jingle jingle)\n
     '''
 def transportManager():
-    '''public JingleS5BTransportManager transportManager()
+    '''returns JingleS5BTransportManager\n\n
+    transportManager()\n
     '''

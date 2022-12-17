@@ -1,10 +1,13 @@
-def ICUResourceBundleFactory():
-    '''public ICUResourceBundleFactory()
-    public ICUResourceBundleFactory(final String bundleName)
+def ():
+    '''returns ICUResourceBundleFactory\n\n
+    ()\n
+    (final String bundleName)\n
     '''
 def updateVisibleIDs():
-    '''public void updateVisibleIDs(final Map<String, Factory> result)
+    '''returns None\n\n
+    updateVisibleIDs(final Map<String, Factory> result)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

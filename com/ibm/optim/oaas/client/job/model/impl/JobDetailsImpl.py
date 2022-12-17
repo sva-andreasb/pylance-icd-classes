@@ -1,26 +1,22 @@
 MISSING_TIMEOUT = "long  10000L"
 TYPE = "String  \"details\""
-def JobDetailsImpl():
-    '''public JobDetailsImpl()
-    '''
-def getIdFromJob():
-    '''public static String getIdFromJob(final String jobid, final long seq)
+def ():
+    '''returns JobDetailsImpl\n\n
+    ()\n
     '''
 def getDate():
-    '''public Date getDate()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def setDate():
-    '''public void setDate(final Date date)
-    '''
-def getDetails():
-    '''public Map<String, String> getDetails()
+    '''returns None\n\n
+    setDate(final Date date)\n
     '''
 def setDetails():
-    '''public void setDetails(final Map<String, String> details)
-    '''
-def getSystemDetails():
-    '''public Map<String, String> getSystemDetails()
+    '''returns None\n\n
+    setDetails(final Map<String, String> details)\n
     '''
 def setSystemDetails():
-    '''public void setSystemDetails(final Map<String, String> systemDetails)
+    '''returns None\n\n
+    setSystemDetails(final Map<String, String> systemDetails)\n
     '''

@@ -6,213 +6,277 @@ UNPLANNEDWORK = "String  \"UNPLANNEDWORK\""
 CREWWORKGROUP = "String  \"CREWWORKGROUP\""
 PERSONGROUP = "String  \"PERSONGROUP\""
 WORKDAY = "String  \"_WorkDay\""
-def Activity():
-    '''public Activity()
-    public Activity(final String id)
+def ():
+    '''returns Activity\n\n
+    ()\n
+    (final String id)\n
     '''
 def setParent():
-    '''public void setParent(final Resource res)
+    '''returns None\n\n
+    setParent(final Resource res)\n
     '''
 def getParent():
-    '''public Resource getParent()
+    '''returns Resource\n\n
+    getParent()\n
     '''
 def setWorkOrderId():
-    '''public void setWorkOrderId(final Long workOrderId)
+    '''returns None\n\n
+    setWorkOrderId(final Long workOrderId)\n
     '''
 def getWorkOrderId():
-    '''public Long getWorkOrderId()
+    '''returns Long\n\n
+    getWorkOrderId()\n
     '''
 def setAssignmentId():
-    '''public void setAssignmentId(final Long assignmentId)
+    '''returns None\n\n
+    setAssignmentId(final Long assignmentId)\n
     '''
 def getAssignmentId():
-    '''public Long getAssignmentId()
+    '''returns Long\n\n
+    getAssignmentId()\n
     '''
 def setParentAssignmentId():
-    '''public void setParentAssignmentId(final Long parentassignId)
+    '''returns None\n\n
+    setParentAssignmentId(final Long parentassignId)\n
     '''
 def getParentAssignmentId():
-    '''public Long getParentAssignmentId()
+    '''returns Long\n\n
+    getParentAssignmentId()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def getDuration():
-    '''public Double getDuration()
+    '''returns Double\n\n
+    getDuration()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def setRefObjectName():
-    '''public void setRefObjectName(final String refObjectName)
+    '''returns None\n\n
+    setRefObjectName(final String refObjectName)\n
     '''
 def setObjectID():
-    '''public void setObjectID(final Long objectID)
+    '''returns None\n\n
+    setObjectID(final Long objectID)\n
     '''
 def getStartTime():
-    '''public Date getStartTime()
+    '''returns Date\n\n
+    getStartTime()\n
     '''
 def getEndTime():
-    '''public Date getEndTime()
+    '''returns Date\n\n
+    getEndTime()\n
     '''
 def getModifiedProperties():
-    '''public Iterator getModifiedProperties()
+    '''returns Iterator\n\n
+    getModifiedProperties()\n
     '''
 def getTimeInterval():
-    '''public DateRange getTimeInterval()
+    '''returns DateRange\n\n
+    getTimeInterval()\n
     '''
 def setID():
-    '''public void setID(final String id)
+    '''returns None\n\n
+    setID(final String id)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setParentID():
-    '''public void setParentID(final String parentId)
+    '''returns None\n\n
+    setParentID(final String parentId)\n
     '''
 def setStartTime():
-    '''public void setStartTime(final Date startTime)
+    '''returns None\n\n
+    setStartTime(final Date startTime)\n
     '''
 def setEndTime():
-    '''public void setEndTime(final Date endTime)
+    '''returns None\n\n
+    setEndTime(final Date endTime)\n
     '''
 def setDuration():
-    '''public void setDuration(final Double duration)
+    '''returns None\n\n
+    setDuration(final Double duration)\n
     '''
 def setModified():
-    '''public void setModified(final boolean modified)
+    '''returns None\n\n
+    setModified(final boolean modified)\n
     '''
 def setUncommitted():
-    '''public void setUncommitted(final boolean uncommitted)
+    '''returns None\n\n
+    setUncommitted(final boolean uncommitted)\n
     '''
 def markStartTimeModified():
-    '''public void markStartTimeModified()
+    '''returns None\n\n
+    markStartTimeModified()\n
     '''
 def markEndTimeModified():
-    '''public void markEndTimeModified()
+    '''returns None\n\n
+    markEndTimeModified()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final Boolean readOnly)
+    '''returns None\n\n
+    setReadOnly(final Boolean readOnly)\n
     '''
 def setTimeInterval():
-    '''public void setTimeInterval(final Date activityStart, final Date activityEnd)
+    '''returns None\n\n
+    setTimeInterval(final Date activityStart, final Date activityEnd)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''
 def getInt():
-    '''public int getInt(final String prop)
+    '''returns int\n\n
+    getInt(final String prop)\n
     '''
 def getLong():
-    '''public long getLong(final String prop)
+    '''returns long\n\n
+    getLong(final String prop)\n
     '''
 def getFloat():
-    '''public float getFloat(final String prop)
-    public Double getFloat()
+    '''returns Double\n\n
+    getFloat(final String prop)\n
+    getFloat()\n
     '''
 def getDouble():
-    '''public double getDouble(final String prop)
+    '''returns double\n\n
+    getDouble(final String prop)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String prop)
+    '''returns boolean\n\n
+    getBoolean(final String prop)\n
     '''
 def getString():
-    '''public String getString(final String prop)
-    public String getString(final String prop, final String defValue)
+    '''returns String\n\n
+    getString(final String prop)\n
+    getString(final String prop, final String defValue)\n
     '''
 def getDate():
-    '''public Date getDate(final String prop)
+    '''returns Date\n\n
+    getDate(final String prop)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getObjectId():
-    '''public long getObjectId()
+    '''returns long\n\n
+    getObjectId()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def setProperty():
-    '''public Object setProperty(final String prop, final Object value)
-    public Object setProperty(final String prop, final Object value, final boolean ignoreChangeTracking)
+    '''returns Object\n\n
+    setProperty(final String prop, final Object value)\n
+    setProperty(final String prop, final Object value, final boolean ignoreChangeTracking)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getPropertyNames():
-    '''public Collection<String> getPropertyNames()
+    '''returns Collection<String>\n\n
+    getPropertyNames()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEarlyStart():
-    '''public Date getEarlyStart()
+    '''returns Date\n\n
+    getEarlyStart()\n
     '''
 def getEarlyFinish():
-    '''public Date getEarlyFinish()
+    '''returns Date\n\n
+    getEarlyFinish()\n
     '''
 def getLateStart():
-    '''public Date getLateStart()
+    '''returns Date\n\n
+    getLateStart()\n
     '''
 def getLateFinish():
-    '''public Date getLateFinish()
+    '''returns Date\n\n
+    getLateFinish()\n
     '''
 def isCritical():
-    '''public Boolean isCritical()
+    '''returns Boolean\n\n
+    isCritical()\n
     '''
 def isParentAssign():
-    '''public boolean isParentAssign()
+    '''returns boolean\n\n
+    isParentAssign()\n
     '''
 def setEarlyStart():
-    '''public void setEarlyStart(final Date earlyStart)
+    '''returns None\n\n
+    setEarlyStart(final Date earlyStart)\n
     '''
 def setEarlyFinish():
-    '''public void setEarlyFinish(final Date earlyFinish)
+    '''returns None\n\n
+    setEarlyFinish(final Date earlyFinish)\n
     '''
 def setLateStart():
-    '''public void setLateStart(final Date lateStart)
+    '''returns None\n\n
+    setLateStart(final Date lateStart)\n
     '''
 def setLateFinish():
-    '''public void setLateFinish(final Date lateFinish)
+    '''returns None\n\n
+    setLateFinish(final Date lateFinish)\n
     '''
 def setFloat():
-    '''public void setFloat(final Double floatValue)
+    '''returns None\n\n
+    setFloat(final Double floatValue)\n
     '''
 def setCritical():
-    '''public void setCritical(final Boolean critical)
-    '''
-def getApplinkMap():
-    '''public HashMap<String, HashMap<String, String>> getApplinkMap()
+    '''returns None\n\n
+    setCritical(final Boolean critical)\n
     '''
 def setApplinkMap():
-    '''public void setApplinkMap(final HashMap<String, HashMap<String, String>> applinkMap)
+    '''returns None\n\n
+    setApplinkMap(final HashMap<String, HashMap<String, String>> applinkMap)\n
     '''
 def setDataGroupName():
-    '''public void setDataGroupName(final String dataGroupName)
+    '''returns None\n\n
+    setDataGroupName(final String dataGroupName)\n
     '''
 def setParentAssign():
-    '''public void setParentAssign(final boolean isParentAssign)
+    '''returns None\n\n
+    setParentAssign(final boolean isParentAssign)\n
     '''
 def addLeftIconClass():
-    '''public void addLeftIconClass(final String className)
-    public void addLeftIconClass(final String className, final String tip)
+    '''returns None\n\n
+    addLeftIconClass(final String className)\n
+    addLeftIconClass(final String className, final String tip)\n
     '''
 def addLeftIconClick():
-    '''public void addLeftIconClick(final String eventName)
+    '''returns None\n\n
+    addLeftIconClick(final String eventName)\n
     '''
 def addRightIconClass():
-    '''public void addRightIconClass(final String className)
-    public void addRightIconClass(final String className, final String tip)
+    '''returns None\n\n
+    addRightIconClass(final String className)\n
+    addRightIconClass(final String className, final String tip)\n
     '''
 def addRightIconClick():
-    '''public void addRightIconClick(final String eventName)
+    '''returns None\n\n
+    addRightIconClick(final String eventName)\n
     '''
 def showWorklogIcon():
-    '''public boolean showWorklogIcon()
+    '''returns boolean\n\n
+    showWorklogIcon()\n
     '''

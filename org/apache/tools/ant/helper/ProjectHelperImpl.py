@@ -1,62 +1,54 @@
-def ProjectHelperImpl():
-    '''public ProjectHelperImpl()
+def ():
+    '''returns DataTypeHandler\n\n
+    ()\n
+    (final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler)\n
+    (final ProjectHelperImpl helperImpl)\n
+    (final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler)\n
+    (final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler)\n
+    (final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler)\n
+    (final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler, final TaskContainer container, final RuntimeConfigurable parentWrapper, final Target target)\n
+    (final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler, final Object parent, final RuntimeConfigurable parentWrapper, final Target target)\n
+    (final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler, final Target target)\n
     '''
 def parse():
-    '''public void parse(final Project project, final Object source)
-    '''
-def AbstractHandler():
-    '''public AbstractHandler(final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler)
+    '''returns None\n\n
+    parse(final Project project, final Object source)\n
     '''
 def startElement():
-    '''public void startElement(final String tag, final AttributeList attrs)
-    public void startElement(final String tag, final AttributeList attrs)
-    public void startElement(final String name, final AttributeList attrs)
-    public void startElement(final String name, final AttributeList attrs)
-    public void startElement(final String name, final AttributeList attrs)
-    public void startElement(final String name, final AttributeList attrs)
-    public void startElement(final String name, final AttributeList attrs)
+    '''returns None\n\n
+    startElement(final String tag, final AttributeList attrs)\n
+    startElement(final String tag, final AttributeList attrs)\n
+    startElement(final String name, final AttributeList attrs)\n
+    startElement(final String name, final AttributeList attrs)\n
+    startElement(final String name, final AttributeList attrs)\n
+    startElement(final String name, final AttributeList attrs)\n
+    startElement(final String name, final AttributeList attrs)\n
     '''
 def characters():
-    '''public void characters(final char[] buf, final int start, final int count)
-    public void characters(final char[] buf, final int start, final int count)
-    public void characters(final char[] buf, final int start, final int count)
-    public void characters(final char[] buf, final int start, final int count)
-    public void characters(final char[] buf, final int start, final int count)
+    '''returns None\n\n
+    characters(final char[] buf, final int start, final int count)\n
+    characters(final char[] buf, final int start, final int count)\n
+    characters(final char[] buf, final int start, final int count)\n
+    characters(final char[] buf, final int start, final int count)\n
+    characters(final char[] buf, final int start, final int count)\n
     '''
 def endElement():
-    '''public void endElement(final String name)
-    '''
-def RootHandler():
-    '''public RootHandler(final ProjectHelperImpl helperImpl)
+    '''returns None\n\n
+    endElement(final String name)\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
-    '''
-def ProjectHandler():
-    '''public ProjectHandler(final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''
 def init():
-    '''public void init(final String tag, final AttributeList attrs)
-    public void init(final String tag, final AttributeList attrs)
-    public void init(final String tag, final AttributeList attrs)
-    public void init(final String propType, final AttributeList attrs)
-    public void init(final String propType, final AttributeList attrs)
-    '''
-def TargetHandler():
-    '''public TargetHandler(final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler)
-    '''
-def DescriptionHandler():
-    '''public DescriptionHandler(final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler)
-    '''
-def TaskHandler():
-    '''public TaskHandler(final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler, final TaskContainer container, final RuntimeConfigurable parentWrapper, final Target target)
-    '''
-def NestedElementHandler():
-    '''public NestedElementHandler(final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler, final Object parent, final RuntimeConfigurable parentWrapper, final Target target)
-    '''
-def DataTypeHandler():
-    '''public DataTypeHandler(final ProjectHelperImpl helperImpl, final DocumentHandler parentHandler, final Target target)
+    '''returns None\n\n
+    init(final String tag, final AttributeList attrs)\n
+    init(final String tag, final AttributeList attrs)\n
+    init(final String tag, final AttributeList attrs)\n
+    init(final String propType, final AttributeList attrs)\n
+    init(final String propType, final AttributeList attrs)\n
     '''

@@ -1,47 +1,55 @@
-def Builder():
-    '''public Builder()
-    public Builder(final SpoofChecker src)
+def ():
+    '''returns SPUStringPool\n\n
+    ()\n
+    (final SpoofChecker src)\n
+    ()\n
     '''
 def build():
-    '''public SpoofChecker build()
+    '''returns SpoofChecker\n\n
+    build()\n
     '''
 def setData():
-    '''public Builder setData(final Reader confusables)
-    public Builder setData(final Reader confusables, final Reader confusablesWholeScript)
+    '''returns Builder\n\n
+    setData(final Reader confusables)\n
+    setData(final Reader confusables, final Reader confusablesWholeScript)\n
     '''
 def setChecks():
-    '''public Builder setChecks(final int checks)
+    '''returns Builder\n\n
+    setChecks(final int checks)\n
     '''
 def setAllowedLocales():
-    '''public Builder setAllowedLocales(final Set<ULocale> locales)
+    '''returns Builder\n\n
+    setAllowedLocales(final Set<ULocale> locales)\n
     '''
 def setAllowedJavaLocales():
-    '''public Builder setAllowedJavaLocales(final Set<Locale> locales)
+    '''returns Builder\n\n
+    setAllowedJavaLocales(final Set<Locale> locales)\n
     '''
 def setAllowedChars():
-    '''public Builder setAllowedChars(final UnicodeSet chars)
+    '''returns Builder\n\n
+    setAllowedChars(final UnicodeSet chars)\n
     '''
 def setRestrictionLevel():
-    '''public Builder setRestrictionLevel(final RestrictionLevel restrictionLevel)
-    '''
-def buildConfusableData():
-    '''public static void buildConfusableData(final Reader confusables, final SpoofData dest)
+    '''returns Builder\n\n
+    setRestrictionLevel(final RestrictionLevel restrictionLevel)\n
     '''
 def compare():
-    '''public int compare(final SPUString sL, final SPUString sR)
-    '''
-def SPUStringPool():
-    '''public SPUStringPool()
+    '''returns int\n\n
+    compare(final SPUString sL, final SPUString sR)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getByIndex():
-    '''public SPUString getByIndex(final int index)
+    '''returns SPUString\n\n
+    getByIndex(final int index)\n
     '''
 def addString():
-    '''public SPUString addString(final String src)
+    '''returns SPUString\n\n
+    addString(final String src)\n
     '''
 def sort():
-    '''public void sort()
+    '''returns None\n\n
+    sort()\n
     '''

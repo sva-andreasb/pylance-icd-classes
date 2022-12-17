@@ -1,45 +1,60 @@
-def LangAttributePointer():
-    '''public LangAttributePointer(final NodePointer parent)
+def ():
+    '''returns LangAttributePointer\n\n
+    (final NodePointer parent)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getExpandedName():
-    '''public QName getExpandedName()
+    '''returns QName\n\n
+    getExpandedName()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def testNode():
-    '''public boolean testNode(final NodeTest test)
+    '''returns boolean\n\n
+    testNode(final NodeTest test)\n
     '''
 def compareChildNodePointers():
-    '''public int compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)
+    '''returns int\n\n
+    compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)\n
     '''

@@ -1,9 +1,12 @@
-def FldTableDuplicate():
-    '''public FldTableDuplicate(final MboValue mbv)
+def ():
+    '''returns FldTableDuplicate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def setCheckForDuplicates():
-    '''public void setCheckForDuplicates(final boolean flag)
+    '''returns None\n\n
+    setCheckForDuplicates(final boolean flag)\n
     '''

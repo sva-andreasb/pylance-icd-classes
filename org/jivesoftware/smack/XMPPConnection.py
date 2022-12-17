@@ -1,60 +1,67 @@
-def XMPPConnection():
-    '''public XMPPConnection(final String serviceName, final CallbackHandler callbackHandler)
-    public XMPPConnection(final String serviceName)
-    public XMPPConnection(final ConnectionConfiguration config)
-    public XMPPConnection(final ConnectionConfiguration config, final CallbackHandler callbackHandler)
+def ():
+    '''returns XMPPConnection\n\n
+    (final String serviceName, final CallbackHandler callbackHandler)\n
+    (final String serviceName)\n
+    (final ConnectionConfiguration config)\n
+    (final ConnectionConfiguration config, final CallbackHandler callbackHandler)\n
     '''
 def getConnectionID():
-    '''public String getConnectionID()
+    '''returns String\n\n
+    getConnectionID()\n
     '''
 def getUser():
-    '''public String getUser()
-    '''
-def login():
-    '''public synchronized void login(String username, final String password, final String resource)
-    '''
-def loginAnonymously():
-    '''public synchronized void loginAnonymously()
+    '''returns String\n\n
+    getUser()\n
     '''
 def getRoster():
-    '''public Roster getRoster()
+    '''returns Roster\n\n
+    getRoster()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def isSecureConnection():
-    '''public boolean isSecureConnection()
+    '''returns boolean\n\n
+    isSecureConnection()\n
     '''
 def isAuthenticated():
-    '''public boolean isAuthenticated()
+    '''returns boolean\n\n
+    isAuthenticated()\n
     '''
 def isAnonymous():
-    '''public boolean isAnonymous()
-    '''
-def disconnect():
-    '''public synchronized void disconnect(final Presence unavailablePresence)
+    '''returns boolean\n\n
+    isAnonymous()\n
     '''
 def sendPacket():
-    '''public void sendPacket(final Packet packet)
+    '''returns None\n\n
+    sendPacket(final Packet packet)\n
     '''
 def addPacketWriterInterceptor():
-    '''public void addPacketWriterInterceptor(final PacketInterceptor packetInterceptor, final PacketFilter packetFilter)
+    '''returns None\n\n
+    addPacketWriterInterceptor(final PacketInterceptor packetInterceptor, final PacketFilter packetFilter)\n
     '''
 def removePacketWriterInterceptor():
-    '''public void removePacketWriterInterceptor(final PacketInterceptor packetInterceptor)
+    '''returns None\n\n
+    removePacketWriterInterceptor(final PacketInterceptor packetInterceptor)\n
     '''
 def addPacketWriterListener():
-    '''public void addPacketWriterListener(final PacketListener packetListener, final PacketFilter packetFilter)
+    '''returns None\n\n
+    addPacketWriterListener(final PacketListener packetListener, final PacketFilter packetFilter)\n
     '''
 def removePacketWriterListener():
-    '''public void removePacketWriterListener(final PacketListener packetListener)
+    '''returns None\n\n
+    removePacketWriterListener(final PacketListener packetListener)\n
     '''
 def isUsingTLS():
-    '''public boolean isUsingTLS()
+    '''returns boolean\n\n
+    isUsingTLS()\n
     '''
 def isUsingCompression():
-    '''public boolean isUsingCompression()
+    '''returns boolean\n\n
+    isUsingCompression()\n
     '''
 def connect():
-    '''public void connect()
+    '''returns None\n\n
+    connect()\n
     '''

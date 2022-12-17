@@ -1,21 +1,24 @@
-def getInstance():
-    '''public static ControllerMessageHelper getInstance()
-    '''
 def createLookupReply():
-    '''public Message createLookupReply(final String s, final String s2, final String s3, final String s4, final String s5, final JSONObject jsonObject, final JSONObject jsonObject2, final String s6, final int i, final int n)
+    '''returns Message\n\n
+    createLookupReply(final String s, final String s2, final String s3, final String s4, final String s5, final JSONObject jsonObject, final JSONObject jsonObject2, final String s6, final int i, final int n)\n
     '''
 def createRegisterDriverReply():
-    '''public Message createRegisterDriverReply(final int i, final String s, final Profile.Driver driver, final ClientDescriptor.Driver driver2, final int n)
+    '''returns Message\n\n
+    createRegisterDriverReply(final int i, final String s, final Profile.Driver driver, final ClientDescriptor.Driver driver2, final int n)\n
     '''
 def createLookupDatabaseReply():
-    '''public Message createLookupDatabaseReply(final int i, final Database database, final ClientDescriptor.Driver driver, final int n)
+    '''returns Message\n\n
+    createLookupDatabaseReply(final int i, final Database database, final ClientDescriptor.Driver driver, final int n)\n
     '''
 def createRegisterDataSourceReply():
-    '''public Message createRegisterDataSourceReply(final int i, final String s, final Profile.DataSource dataSource, final ClientDescriptor.DataSource dataSource2, final int n)
+    '''returns Message\n\n
+    createRegisterDataSourceReply(final int i, final String s, final Profile.DataSource dataSource, final ClientDescriptor.DataSource dataSource2, final int n)\n
     '''
 def createLogPushDownErrorsMessage():
-    '''public Message createLogPushDownErrorsMessage(final String s, final String s2, final String s3, final MonitorInterface.ClientRuntime clientRuntime, final ArrayList<PushDownError> list)
+    '''returns Message\n\n
+    createLogPushDownErrorsMessage(final String s, final String s2, final String s3, final MonitorInterface.ClientRuntime clientRuntime, final ArrayList<PushDownError> list)\n
     '''
 def clientInfoSetsListToArray():
-    '''public HashSet<ClientInfo>[] clientInfoSetsListToArray(final ArrayList<HashSet<ClientInfo>> list)
+    '''returns HashSet<ClientInfo>[]\n\n
+    clientInfoSetsListToArray(final ArrayList<HashSet<ClientInfo>> list)\n
     '''

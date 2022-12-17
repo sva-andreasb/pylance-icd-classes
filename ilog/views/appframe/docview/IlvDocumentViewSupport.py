@@ -1,66 +1,88 @@
-def IlvDocumentViewSupport():
-    '''public IlvDocumentViewSupport(final Object b)
+def ():
+    '''returns IlvDocumentViewSupport\n\n
+    (final Object b)\n
     '''
 def initializeView():
-    '''public void initializeView(final IlvDocument ilvDocument)
+    '''returns None\n\n
+    initializeView(final IlvDocument ilvDocument)\n
     '''
 def viewClosing():
-    '''public void viewClosing()
+    '''returns None\n\n
+    viewClosing()\n
     '''
 def viewClosed():
-    '''public void viewClosed()
+    '''returns None\n\n
+    viewClosed()\n
     '''
 def getDocument():
-    '''public IlvDocument getDocument()
+    '''returns IlvDocument\n\n
+    getDocument()\n
     '''
 def setDocument():
-    '''public void setDocument(final IlvDocument ilvDocument)
+    '''returns None\n\n
+    setDocument(final IlvDocument ilvDocument)\n
     '''
 def getViewContainer():
-    '''public IlvViewContainer getViewContainer()
+    '''returns IlvViewContainer\n\n
+    getViewContainer()\n
     '''
 def setViewContainer():
-    '''public void setViewContainer(final IlvViewContainer ilvViewContainer)
+    '''returns None\n\n
+    setViewContainer(final IlvViewContainer ilvViewContainer)\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def setApplication():
-    '''public void setApplication(final IlvApplication ilvApplication)
+    '''returns None\n\n
+    setApplication(final IlvApplication ilvApplication)\n
     '''
 def receiveMessage():
-    '''public void receiveMessage(final MessageEvent messageEvent)
+    '''returns None\n\n
+    receiveMessage(final MessageEvent messageEvent)\n
     '''
 def registerActionMethod():
-    '''public void registerActionMethod(final String s, final String s2)
+    '''returns None\n\n
+    registerActionMethod(final String s, final String s2)\n
     '''
 def registerActionStateMethod():
-    '''public void registerActionStateMethod(final String s, final String s2)
+    '''returns None\n\n
+    registerActionStateMethod(final String s, final String s2)\n
     '''
 def isProcessingAction():
-    '''public boolean isProcessingAction(final String s)
+    '''returns boolean\n\n
+    isProcessingAction(final String s)\n
     '''
 def updateAction():
-    '''public boolean updateAction(final Action action)
+    '''returns boolean\n\n
+    updateAction(final Action action)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def addActionHandler():
-    '''public void addActionHandler(final ActionHandler actionHandler)
+    '''returns None\n\n
+    addActionHandler(final ActionHandler actionHandler)\n
     '''
 def removeActionHandler():
-    '''public boolean removeActionHandler(final ActionHandler actionHandler)
+    '''returns boolean\n\n
+    removeActionHandler(final ActionHandler actionHandler)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String s, final Object value)
+    '''returns Object\n\n
+    setProperty(final String s, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener listener)\n
     '''

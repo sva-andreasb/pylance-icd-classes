@@ -1,22 +1,29 @@
-def Option():
-    '''public Option(final String name, final String value)
+def ():
+    '''returns Option\n\n
+    (final String name, final String value)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean()
+    '''returns boolean\n\n
+    getBoolean()\n
     '''
 def setValue():
-    '''public void setValue(final boolean value)
-    public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final boolean value)\n
+    setValue(final String value)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

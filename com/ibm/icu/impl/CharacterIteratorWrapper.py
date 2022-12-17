@@ -1,36 +1,48 @@
-def CharacterIteratorWrapper():
-    '''public CharacterIteratorWrapper(final CharacterIterator iter)
+def ():
+    '''returns CharacterIteratorWrapper\n\n
+    (final CharacterIterator iter)\n
     '''
 def current():
-    '''public int current()
+    '''returns int\n\n
+    current()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def previous():
-    '''public int previous()
+    '''returns int\n\n
+    previous()\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def setToLimit():
-    '''public void setToLimit()
+    '''returns None\n\n
+    setToLimit()\n
     '''
 def getText():
-    '''public int getText(final char[] fillIn, int offset)
+    '''returns int\n\n
+    getText(final char[] fillIn, int offset)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def moveIndex():
-    '''public int moveIndex(final int delta)
+    '''returns int\n\n
+    moveIndex(final int delta)\n
     '''
 def getCharacterIterator():
-    '''public CharacterIterator getCharacterIterator()
+    '''returns CharacterIterator\n\n
+    getCharacterIterator()\n
     '''

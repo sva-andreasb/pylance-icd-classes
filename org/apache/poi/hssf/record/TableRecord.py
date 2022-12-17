@@ -1,71 +1,94 @@
 sid = "short  566"
-def TableRecord():
-    '''public TableRecord(final RecordInputStream in)
-    public TableRecord(final CellRangeAddress8Bit range)
+def ():
+    '''returns TableRecord\n\n
+    (final RecordInputStream in)\n
+    (final CellRangeAddress8Bit range)\n
     '''
 def getFlags():
-    '''public int getFlags()
+    '''returns int\n\n
+    getFlags()\n
     '''
 def setFlags():
-    '''public void setFlags(final int flags)
+    '''returns None\n\n
+    setFlags(final int flags)\n
     '''
 def getRowInputRow():
-    '''public int getRowInputRow()
+    '''returns int\n\n
+    getRowInputRow()\n
     '''
 def setRowInputRow():
-    '''public void setRowInputRow(final int rowInputRow)
+    '''returns None\n\n
+    setRowInputRow(final int rowInputRow)\n
     '''
 def getColInputRow():
-    '''public int getColInputRow()
+    '''returns int\n\n
+    getColInputRow()\n
     '''
 def setColInputRow():
-    '''public void setColInputRow(final int colInputRow)
+    '''returns None\n\n
+    setColInputRow(final int colInputRow)\n
     '''
 def getRowInputCol():
-    '''public int getRowInputCol()
+    '''returns int\n\n
+    getRowInputCol()\n
     '''
 def setRowInputCol():
-    '''public void setRowInputCol(final int rowInputCol)
+    '''returns None\n\n
+    setRowInputCol(final int rowInputCol)\n
     '''
 def getColInputCol():
-    '''public int getColInputCol()
+    '''returns int\n\n
+    getColInputCol()\n
     '''
 def setColInputCol():
-    '''public void setColInputCol(final int colInputCol)
+    '''returns None\n\n
+    setColInputCol(final int colInputCol)\n
     '''
 def isAlwaysCalc():
-    '''public boolean isAlwaysCalc()
+    '''returns boolean\n\n
+    isAlwaysCalc()\n
     '''
 def setAlwaysCalc():
-    '''public void setAlwaysCalc(final boolean flag)
+    '''returns None\n\n
+    setAlwaysCalc(final boolean flag)\n
     '''
 def isRowOrColInpCell():
-    '''public boolean isRowOrColInpCell()
+    '''returns boolean\n\n
+    isRowOrColInpCell()\n
     '''
 def setRowOrColInpCell():
-    '''public void setRowOrColInpCell(final boolean flag)
+    '''returns None\n\n
+    setRowOrColInpCell(final boolean flag)\n
     '''
 def isOneNotTwoVar():
-    '''public boolean isOneNotTwoVar()
+    '''returns boolean\n\n
+    isOneNotTwoVar()\n
     '''
 def setOneNotTwoVar():
-    '''public void setOneNotTwoVar(final boolean flag)
+    '''returns None\n\n
+    setOneNotTwoVar(final boolean flag)\n
     '''
 def isColDeleted():
-    '''public boolean isColDeleted()
+    '''returns boolean\n\n
+    isColDeleted()\n
     '''
 def setColDeleted():
-    '''public void setColDeleted(final boolean flag)
+    '''returns None\n\n
+    setColDeleted(final boolean flag)\n
     '''
 def isRowDeleted():
-    '''public boolean isRowDeleted()
+    '''returns boolean\n\n
+    isRowDeleted()\n
     '''
 def setRowDeleted():
-    '''public void setRowDeleted(final boolean flag)
+    '''returns None\n\n
+    setRowDeleted(final boolean flag)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

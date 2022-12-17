@@ -1,59 +1,78 @@
-def ResolvingParser():
-    '''public ResolvingParser()
-    public ResolvingParser(final CatalogManager manager)
+def ():
+    '''returns ResolvingParser\n\n
+    ()\n
+    (final CatalogManager manager)\n
     '''
 def getCatalog():
-    '''public Catalog getCatalog()
+    '''returns Catalog\n\n
+    getCatalog()\n
     '''
 def parse():
-    '''public void parse(final InputSource input)
-    public void parse(final String systemId)
+    '''returns None\n\n
+    parse(final InputSource input)\n
+    parse(final String systemId)\n
     '''
 def setDocumentHandler():
-    '''public void setDocumentHandler(final DocumentHandler handler)
+    '''returns None\n\n
+    setDocumentHandler(final DocumentHandler handler)\n
     '''
 def setDTDHandler():
-    '''public void setDTDHandler(final DTDHandler handler)
+    '''returns None\n\n
+    setDTDHandler(final DTDHandler handler)\n
     '''
 def setEntityResolver():
-    '''public void setEntityResolver(final EntityResolver resolver)
+    '''returns None\n\n
+    setEntityResolver(final EntityResolver resolver)\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler handler)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler handler)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def endElement():
-    '''public void endElement(final String name)
+    '''returns None\n\n
+    endElement(final String name)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] ch, final int start, final int length)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String pidata)
+    '''returns None\n\n
+    processingInstruction(final String target, final String pidata)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String name, final AttributeList atts)
+    '''returns None\n\n
+    startElement(final String name, final AttributeList atts)\n
     '''
 def notationDecl():
-    '''public void notationDecl(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    notationDecl(final String name, final String publicId, final String systemId)\n
     '''
 def unparsedEntityDecl():
-    '''public void unparsedEntityDecl(final String name, final String publicId, final String systemId, final String notationName)
+    '''returns None\n\n
+    unparsedEntityDecl(final String name, final String publicId, final String systemId, final String notationName)\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''

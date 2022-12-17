@@ -1,30 +1,34 @@
 delimiter = "char  '|'"
-def ConfigDataId():
-    '''public ConfigDataId(String contextUri, final String href)
-    public ConfigDataId(final String id)
+def ():
+    '''returns ConfigDataId\n\n
+    (String contextUri, final String href)\n
+    (final String id)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isLocal():
-    '''public boolean isLocal()
+    '''returns boolean\n\n
+    isLocal()\n
     '''
 def isResolved():
-    '''public boolean isResolved()
+    '''returns boolean\n\n
+    isResolved()\n
     '''
 def getContextUri():
-    '''public String getContextUri()
+    '''returns String\n\n
+    getContextUri()\n
     '''
 def getHref():
-    '''public String getHref()
+    '''returns String\n\n
+    getHref()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def createLocalId():
-    '''public static synchronized ConfigDataId createLocalId()
-    public static synchronized ConfigDataId createLocalId(final String id)
+    '''returns String\n\n
+    toString()\n
     '''

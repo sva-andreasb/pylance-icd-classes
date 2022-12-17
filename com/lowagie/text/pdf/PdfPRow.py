@@ -1,29 +1,38 @@
 BOTTOM_LIMIT = "float  -1.07374182E9f"
-def PdfPRow():
-    '''public PdfPRow(final PdfPCell[] cells)
-    public PdfPRow(final PdfPRow row)
+def ():
+    '''returns PdfPRow\n\n
+    (final PdfPCell[] cells)\n
+    (final PdfPRow row)\n
     '''
 def setWidths():
-    '''public boolean setWidths(final float[] widths)
+    '''returns boolean\n\n
+    setWidths(final float[] widths)\n
     '''
 def calculateHeights():
-    '''public float calculateHeights()
+    '''returns float\n\n
+    calculateHeights()\n
     '''
 def writeBorderAndBackground():
-    '''public void writeBorderAndBackground(final float xPos, final float yPos, final PdfPCell cell, final PdfContentByte[] canvases)
+    '''returns None\n\n
+    writeBorderAndBackground(final float xPos, final float yPos, final PdfPCell cell, final PdfContentByte[] canvases)\n
     '''
 def writeCells():
-    '''public void writeCells(int colStart, int colEnd, float xPos, final float yPos, final PdfContentByte[] canvases)
+    '''returns None\n\n
+    writeCells(int colStart, int colEnd, float xPos, final float yPos, final PdfContentByte[] canvases)\n
     '''
 def isCalculated():
-    '''public boolean isCalculated()
+    '''returns boolean\n\n
+    isCalculated()\n
     '''
 def getMaxHeights():
-    '''public float getMaxHeights()
+    '''returns float\n\n
+    getMaxHeights()\n
     '''
 def setMaxHeights():
-    '''public void setMaxHeights(final float maxHeight)
+    '''returns None\n\n
+    setMaxHeights(final float maxHeight)\n
     '''
 def splitRow():
-    '''public PdfPRow splitRow(final float newHeight)
+    '''returns PdfPRow\n\n
+    splitRow(final float newHeight)\n
     '''

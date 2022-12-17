@@ -1,28 +1,36 @@
-def LDAPVirtualListControl():
-    '''public LDAPVirtualListControl(final String s, final int n, final int n2)
-    public LDAPVirtualListControl(final String jumpTo, final int beforeCount, final int afterCount, final String context)
-    public LDAPVirtualListControl(final int n, final int n2, final int n3, final int n4)
-    public LDAPVirtualListControl(final int startIndex, final int beforeCount, final int afterCount, final int contentCount, final String context)
+def ():
+    '''returns LDAPVirtualListControl\n\n
+    (final String s, final int n, final int n2)\n
+    (final String jumpTo, final int beforeCount, final int afterCount, final String context)\n
+    (final int n, final int n2, final int n3, final int n4)\n
+    (final int startIndex, final int beforeCount, final int afterCount, final int contentCount, final String context)\n
     '''
 def getAfterCount():
-    '''public int getAfterCount()
+    '''returns int\n\n
+    getAfterCount()\n
     '''
 def getBeforeCount():
-    '''public int getBeforeCount()
+    '''returns int\n\n
+    getBeforeCount()\n
     '''
 def getListSize():
-    '''public int getListSize()
+    '''returns int\n\n
+    getListSize()\n
     '''
 def setListSize():
-    '''public void setListSize(final int contentCount)
+    '''returns None\n\n
+    setListSize(final int contentCount)\n
     '''
 def setRange():
-    '''public void setRange(final int startIndex, final int beforeCount, final int afterCount)
-    public void setRange(final String jumpTo, final int beforeCount, final int afterCount)
+    '''returns None\n\n
+    setRange(final int startIndex, final int beforeCount, final int afterCount)\n
+    setRange(final String jumpTo, final int beforeCount, final int afterCount)\n
     '''
 def getContext():
-    '''public String getContext()
+    '''returns String\n\n
+    getContext()\n
     '''
 def setContext():
-    '''public void setContext(final String context)
+    '''returns None\n\n
+    setContext(final String context)\n
     '''

@@ -1,39 +1,51 @@
-def ContentType():
-    '''public ContentType()
-    public ContentType(final String s)
-    public ContentType(final String primaryType, final String subType, final ParameterList list)
+def ():
+    '''returns ContentType\n\n
+    ()\n
+    (final String s)\n
+    (final String primaryType, final String subType, final ParameterList list)\n
     '''
 def getBaseType():
-    '''public String getBaseType()
+    '''returns String\n\n
+    getBaseType()\n
     '''
 def getPrimaryType():
-    '''public String getPrimaryType()
+    '''returns String\n\n
+    getPrimaryType()\n
     '''
 def getSubType():
-    '''public String getSubType()
+    '''returns String\n\n
+    getSubType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setPrimaryType():
-    '''public void setPrimaryType(final String primaryType)
+    '''returns None\n\n
+    setPrimaryType(final String primaryType)\n
     '''
 def setSubType():
-    '''public void setSubType(final String subType)
+    '''returns None\n\n
+    setSubType(final String subType)\n
     '''
 def match():
-    '''public boolean match(final String s)
-    public boolean match(final ContentType cType)
+    '''returns boolean\n\n
+    match(final String s)\n
+    match(final ContentType cType)\n
     '''
 def getParameterList():
-    '''public ParameterList getParameterList()
+    '''returns ParameterList\n\n
+    getParameterList()\n
     '''
 def setParameterList():
-    '''public void setParameterList(final ParameterList list)
+    '''returns None\n\n
+    setParameterList(final ParameterList list)\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def setParameter():
-    '''public void setParameter(final String name, final String value)
+    '''returns None\n\n
+    setParameter(final String name, final String value)\n
     '''

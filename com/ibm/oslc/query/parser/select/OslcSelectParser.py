@@ -1,45 +1,22 @@
 def setQueryManager():
-    '''public void setQueryManager(final IOslcQueryManager queryManager)
+    '''returns None\n\n
+    setQueryManager(final IOslcQueryManager queryManager)\n
     '''
-def select():
-    '''public final void select()
-    '''
-def properties():
-    '''public final void properties()
-    '''
-def property():
-    '''public final void property()
-    '''
-def nested_prop():
-    '''public final void nested_prop()
-    '''
-def identifierWildcard():
-    '''public final String identifierWildcard()
-    '''
-def OslcSelectParser():
-    '''public OslcSelectParser(final InputStream stream)
-    public OslcSelectParser(final InputStream stream, final String encoding)
-    public OslcSelectParser(final Reader stream)
-    public OslcSelectParser(final OslcSelectParserTokenManager tm)
+def ():
+    '''returns OslcSelectParser\n\n
+    (final InputStream stream)\n
+    (final InputStream stream, final String encoding)\n
+    (final Reader stream)\n
+    (final OslcSelectParserTokenManager tm)\n
     '''
 def ReInit():
-    '''public void ReInit(final InputStream stream)
-    public void ReInit(final InputStream stream, final String encoding)
-    public void ReInit(final Reader stream)
-    public void ReInit(final OslcSelectParserTokenManager tm)
-    '''
-def getNextToken():
-    '''public final Token getNextToken()
-    '''
-def getToken():
-    '''public final Token getToken(final int index)
+    '''returns None\n\n
+    ReInit(final InputStream stream)\n
+    ReInit(final InputStream stream, final String encoding)\n
+    ReInit(final Reader stream)\n
+    ReInit(final OslcSelectParserTokenManager tm)\n
     '''
 def generateParseException():
-    '''public ParseException generateParseException()
-    '''
-def enable_tracing():
-    '''public final void enable_tracing()
-    '''
-def disable_tracing():
-    '''public final void disable_tracing()
+    '''returns ParseException\n\n
+    generateParseException()\n
     '''

@@ -1,3 +1,4 @@
 def map_tip_expression():
-    '''public int map_tip_expression()
+    '''returns int\n\n
+    map_tip_expression()\n
     '''

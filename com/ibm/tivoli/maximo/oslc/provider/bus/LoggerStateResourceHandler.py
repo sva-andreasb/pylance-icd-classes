@@ -1,6 +1,8 @@
-def LoggerStateResourceHandler():
-    '''public LoggerStateResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns LoggerStateResourceHandler\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''

@@ -1,13 +1,17 @@
-def CurrencySpacingInfo():
-    '''public CurrencySpacingInfo()
-    public CurrencySpacingInfo(final String... strings)
+def ():
+    '''returns CurrencySpacingInfo\n\n
+    ()\n
+    (final String... strings)\n
     '''
 def setSymbolIfNull():
-    '''public void setSymbolIfNull(final SpacingType type, final SpacingPattern pattern, final String value)
+    '''returns None\n\n
+    setSymbolIfNull(final SpacingType type, final SpacingPattern pattern, final String value)\n
     '''
 def getBeforeSymbols():
-    '''public String[] getBeforeSymbols()
+    '''returns String[]\n\n
+    getBeforeSymbols()\n
     '''
 def getAfterSymbols():
-    '''public String[] getAfterSymbols()
+    '''returns String[]\n\n
+    getAfterSymbols()\n
     '''

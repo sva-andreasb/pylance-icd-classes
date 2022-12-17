@@ -1,46 +1,60 @@
 DATA_CONTAINER_PROPERTY = "String  \"DataContainer\""
 NODE_DOCUMENTS_ATTACHED_PROPERTY = "String  \"NodeDocumentAttached\""
-def IlvDataContainerDocument():
-    '''public IlvDataContainerDocument()
+def ():
+    '''returns IlvDataContainerDocument\n\n
+    ()\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def initializeDocument():
-    '''public boolean initializeDocument(final Object o)
+    '''returns boolean\n\n
+    initializeDocument(final Object o)\n
     '''
 def getDataContainer():
-    '''public IlvDataContainer getDataContainer()
+    '''returns IlvDataContainer\n\n
+    getDataContainer()\n
     '''
 def setDataContainer():
-    '''public void setDataContainer(final IlvDataContainer ilvDataContainer)
+    '''returns None\n\n
+    setDataContainer(final IlvDataContainer ilvDataContainer)\n
     '''
 def readDocument():
-    '''public boolean readDocument(final URL b, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    readDocument(final URL b, final IlvFileFilter ilvFileFilter)\n
     '''
 def writeDocument():
-    '''public boolean writeDocument(final URL b, final IlvFileFilter ilvFileFilter)
-    public boolean writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    writeDocument(final URL b, final IlvFileFilter ilvFileFilter)\n
+    writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)\n
     '''
 def openDocument():
-    '''public IlvDocument openDocument(final Object key)
+    '''returns IlvDocument\n\n
+    openDocument(final Object key)\n
     '''
 def canOpenDocument():
-    '''public boolean canOpenDocument(final Object o)
+    '''returns boolean\n\n
+    canOpenDocument(final Object o)\n
     '''
 def areNodeDocumentsAttached():
-    '''public boolean areNodeDocumentsAttached()
+    '''returns boolean\n\n
+    areNodeDocumentsAttached()\n
     '''
 def attachNodeDocuments():
-    '''public void attachNodeDocuments(final boolean b)
+    '''returns None\n\n
+    attachNodeDocuments(final boolean b)\n
     '''
 def getOpenDocument():
-    '''public IlvDocument getOpenDocument(final Object key)
+    '''returns IlvDocument\n\n
+    getOpenDocument(final Object key)\n
     '''
 def getNodeTitle():
-    '''public String getNodeTitle(final Object o)
+    '''returns String\n\n
+    getNodeTitle(final Object o)\n
     '''
 def setNodeTitle():
-    '''public void setNodeTitle(final Object o, final String s)
+    '''returns None\n\n
+    setNodeTitle(final Object o, final String s)\n
     '''

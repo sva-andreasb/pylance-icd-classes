@@ -1,3 +1,4 @@
 def getSubscriptions():
-    '''public List<String> getSubscriptions()
+    '''returns List<String>\n\n
+    getSubscriptions()\n
     '''

@@ -1,13 +1,17 @@
-def IlvScrollToTimeIndicatorAction():
-    '''public IlvScrollToTimeIndicatorAction(final IlvGanttSheet ilvGanttSheet, final IlvTimeIndicator ilvTimeIndicator, final String s, final KeyStroke keyStroke, final String s2, final String s3)
-    public IlvScrollToTimeIndicatorAction(final IlvGanttSheet b, final IlvTimeIndicator c, final String s, final Icon icon, final KeyStroke keyStroke, final String s2, final String s3)
+def ():
+    '''returns IlvScrollToTimeIndicatorAction\n\n
+    (final IlvGanttSheet ilvGanttSheet, final IlvTimeIndicator ilvTimeIndicator, final String s, final KeyStroke keyStroke, final String s2, final String s3)\n
+    (final IlvGanttSheet b, final IlvTimeIndicator c, final String s, final Icon icon, final KeyStroke keyStroke, final String s2, final String s3)\n
     '''
 def getTimeIndicator():
-    '''public IlvTimeIndicator getTimeIndicator()
+    '''returns IlvTimeIndicator\n\n
+    getTimeIndicator()\n
     '''
 def setTimeIndicator():
-    '''public void setTimeIndicator(final IlvTimeIndicator c)
+    '''returns None\n\n
+    setTimeIndicator(final IlvTimeIndicator c)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''

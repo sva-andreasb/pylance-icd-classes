@@ -1,54 +1,52 @@
-def none():
-    '''public static Whitelist none()
-    '''
-def simpleText():
-    '''public static Whitelist simpleText()
-    '''
-def basic():
-    '''public static Whitelist basic()
-    '''
-def basicWithImages():
-    '''public static Whitelist basicWithImages()
-    '''
-def relaxed():
-    '''public static Whitelist relaxed()
-    '''
-def Whitelist():
-    '''public Whitelist()
+def ():
+    '''returns Whitelist\n\n
+    ()\n
     '''
 def addTags():
-    '''public Whitelist addTags(final String... tags)
+    '''returns Whitelist\n\n
+    addTags(final String... tags)\n
     '''
 def removeTags():
-    '''public Whitelist removeTags(final String... tags)
+    '''returns Whitelist\n\n
+    removeTags(final String... tags)\n
     '''
 def addAttributes():
-    '''public Whitelist addAttributes(final String tag, final String... attributes)
+    '''returns Whitelist\n\n
+    addAttributes(final String tag, final String... attributes)\n
     '''
 def removeAttributes():
-    '''public Whitelist removeAttributes(final String tag, final String... attributes)
+    '''returns Whitelist\n\n
+    removeAttributes(final String tag, final String... attributes)\n
     '''
 def addEnforcedAttribute():
-    '''public Whitelist addEnforcedAttribute(final String tag, final String attribute, final String value)
+    '''returns Whitelist\n\n
+    addEnforcedAttribute(final String tag, final String attribute, final String value)\n
     '''
 def removeEnforcedAttribute():
-    '''public Whitelist removeEnforcedAttribute(final String tag, final String attribute)
+    '''returns Whitelist\n\n
+    removeEnforcedAttribute(final String tag, final String attribute)\n
     '''
 def preserveRelativeLinks():
-    '''public Whitelist preserveRelativeLinks(final boolean preserve)
+    '''returns Whitelist\n\n
+    preserveRelativeLinks(final boolean preserve)\n
     '''
 def addProtocols():
-    '''public Whitelist addProtocols(final String tag, final String attribute, final String... protocols)
+    '''returns Whitelist\n\n
+    addProtocols(final String tag, final String attribute, final String... protocols)\n
     '''
 def removeProtocols():
-    '''public Whitelist removeProtocols(final String tag, final String attribute, final String... removeProtocols)
+    '''returns Whitelist\n\n
+    removeProtocols(final String tag, final String attribute, final String... removeProtocols)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

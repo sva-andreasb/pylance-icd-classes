@@ -1,60 +1,57 @@
-def addChannelListener():
-    '''public synchronized void addChannelListener(final ChannelListener obj)
-    '''
-def removeChannelListener():
-    '''public synchronized void removeChannelListener(final ChannelListener obj)
-    '''
-def open():
-    '''public synchronized void open()
-    '''
 def accept():
-    '''public void accept(final EncLevel encLevel, final byte[] array)
-    public void accept(final EncLevel encLevel, final byte[] array, final STUserInstance stUserInstance)
-    public synchronized void accept(final EncLevel encLevel, final byte[] array, final byte b)
-    public synchronized void accept(final EncLevel encLevel, final byte[] array, final byte priority, final STUserInstance stUserInstance)
-    '''
-def sendMsg():
-    '''public synchronized void sendMsg(final short n, final byte[] array, final boolean b)
-    '''
-def close():
-    '''public synchronized void close(final int n, final byte[] array)
+    '''returns None\n\n
+    accept(final EncLevel encLevel, final byte[] array)\n
+    accept(final EncLevel encLevel, final byte[] array, final STUserInstance stUserInstance)\n
     '''
 def pend():
-    '''public void pend()
+    '''returns None\n\n
+    pend()\n
     '''
 def getServiceType():
-    '''public int getServiceType()
+    '''returns int\n\n
+    getServiceType()\n
     '''
 def getProtocolType():
-    '''public int getProtocolType()
+    '''returns int\n\n
+    getProtocolType()\n
     '''
 def getProtocolVersion():
-    '''public int getProtocolVersion()
+    '''returns int\n\n
+    getProtocolVersion()\n
     '''
 def setProtocolVersion():
-    '''public void setProtocolVersion(final int prVersion)
+    '''returns None\n\n
+    setProtocolVersion(final int prVersion)\n
     '''
 def getEncLevel():
-    '''public EncLevel getEncLevel()
+    '''returns EncLevel\n\n
+    getEncLevel()\n
     '''
 def getCreateData():
-    '''public byte[] getCreateData()
+    '''returns byte[]\n\n
+    getCreateData()\n
     '''
 def getRemoteInfo():
-    '''public STUserInstance getRemoteInfo()
+    '''returns STUserInstance\n\n
+    getRemoteInfo()\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def isPending():
-    '''public boolean isPending()
+    '''returns boolean\n\n
+    isPending()\n
     '''
 def getPriority():
-    '''public byte getPriority()
+    '''returns byte\n\n
+    getPriority()\n
     '''
 def getToUser():
-    '''public STUser getToUser()
+    '''returns STUser\n\n
+    getToUser()\n
     '''
 def getCreator():
-    '''public STUserInstance getCreator()
+    '''returns STUserInstance\n\n
+    getCreator()\n
     '''

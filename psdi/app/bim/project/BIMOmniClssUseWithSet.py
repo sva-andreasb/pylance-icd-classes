@@ -1,3 +1,4 @@
-def BIMOmniClssUseWithSet():
-    '''public BIMOmniClssUseWithSet(final MboServerInterface ms)
+def ():
+    '''returns BIMOmniClssUseWithSet\n\n
+    (final MboServerInterface ms)\n
     '''

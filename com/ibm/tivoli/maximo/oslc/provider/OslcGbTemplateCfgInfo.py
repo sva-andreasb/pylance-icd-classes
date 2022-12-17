@@ -1,42 +1,56 @@
-def OslcGbTemplateCfgInfo():
-    '''public OslcGbTemplateCfgInfo(final String attributename, final Boolean groupbyon, final String aggregatefunction, final String groupbyorder, final String sortbyorder, final Boolean ascending)
+def ():
+    '''returns OslcGbTemplateCfgInfo\n\n
+    (final String attributename, final Boolean groupbyon, final String aggregatefunction, final String groupbyorder, final String sortbyorder, final Boolean ascending)\n
     '''
 def getAttibuteName():
-    '''public String getAttibuteName()
+    '''returns String\n\n
+    getAttibuteName()\n
     '''
 def setAttibutename():
-    '''public void setAttibutename(final String attibutename)
+    '''returns None\n\n
+    setAttibutename(final String attibutename)\n
     '''
 def getGroupbyon():
-    '''public Boolean getGroupbyon()
+    '''returns Boolean\n\n
+    getGroupbyon()\n
     '''
 def setGroupbyon():
-    '''public void setGroupbyon(final Boolean groupbyon)
+    '''returns None\n\n
+    setGroupbyon(final Boolean groupbyon)\n
     '''
 def getAggregateFunction():
-    '''public String getAggregateFunction()
+    '''returns String\n\n
+    getAggregateFunction()\n
     '''
 def setAggregateFunction():
-    '''public void setAggregateFunction(final String aggregatefunction)
+    '''returns None\n\n
+    setAggregateFunction(final String aggregatefunction)\n
     '''
 def getGroupbyorder():
-    '''public String getGroupbyorder()
+    '''returns String\n\n
+    getGroupbyorder()\n
     '''
 def setGroupbyorder():
-    '''public void setGroupbyorder(final String groupbyorder)
+    '''returns None\n\n
+    setGroupbyorder(final String groupbyorder)\n
     '''
 def getSortbyorder():
-    '''public String getSortbyorder()
+    '''returns String\n\n
+    getSortbyorder()\n
     '''
 def setSortbyorder():
-    '''public void setSortbyorder(final String sortbyorder)
+    '''returns None\n\n
+    setSortbyorder(final String sortbyorder)\n
     '''
 def getAscending():
-    '''public Boolean getAscending()
+    '''returns Boolean\n\n
+    getAscending()\n
     '''
 def setAscending():
-    '''public void setAscending(final Boolean ascending)
+    '''returns None\n\n
+    setAscending(final Boolean ascending)\n
     '''
 def setAttibuteName():
-    '''public void setAttibuteName(final String attibuteName)
+    '''returns None\n\n
+    setAttibuteName(final String attibuteName)\n
     '''

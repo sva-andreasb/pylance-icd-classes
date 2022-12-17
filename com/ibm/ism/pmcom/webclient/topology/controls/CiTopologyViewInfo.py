@@ -1,40 +1,53 @@
-def CiTopologyViewInfo():
-    '''public CiTopologyViewInfo()
+def ():
+    '''returns CiTopologyViewInfo\n\n
+    ()\n
     '''
 def getObjects():
-    '''public List<Object> getObjects()
+    '''returns List<Object>\n\n
+    getObjects()\n
     '''
 def setFrom():
-    '''public void setFrom(final Object link, final Object srcNode)
+    '''returns None\n\n
+    setFrom(final Object link, final Object srcNode)\n
     '''
 def setTo():
-    '''public void setTo(final Object link, final Object dstNode)
+    '''returns None\n\n
+    setTo(final Object link, final Object dstNode)\n
     '''
 def setObjectProperty():
-    '''public void setObjectProperty(final Object node, final String cnum, final String ciNum)
-    public void setObjectProperty(final Object link, final String pro_name, final boolean t)
+    '''returns None\n\n
+    setObjectProperty(final Object node, final String cnum, final String ciNum)\n
+    setObjectProperty(final Object link, final String pro_name, final boolean t)\n
     '''
 def addObject():
-    '''public void addObject(final Object node, final String cnum, final String ciNum)
+    '''returns None\n\n
+    addObject(final Object node, final String cnum, final String ciNum)\n
     '''
 def add_bfs_node():
-    '''public void add_bfs_node(final String ciNum, final String tag)
+    '''returns None\n\n
+    add_bfs_node(final String ciNum, final String tag)\n
     '''
 def add_dest_node():
-    '''public void add_dest_node(final String ciNum)
+    '''returns None\n\n
+    add_dest_node(final String ciNum)\n
     '''
 def add_src_node():
-    '''public void add_src_node(final String ciNum)
+    '''returns None\n\n
+    add_src_node(final String ciNum)\n
     '''
 def setID():
-    '''public void setID(final Object node, final String ID)
+    '''returns None\n\n
+    setID(final Object node, final String ID)\n
     '''
 def createNode():
-    '''public Object createNode(final String Cinum)
+    '''returns Object\n\n
+    createNode(final String Cinum)\n
     '''
 def populate_cidata():
-    '''public void populate_cidata(final Object node, final MboRemote mbo)
+    '''returns None\n\n
+    populate_cidata(final Object node, final MboRemote mbo)\n
     '''
 def createLink():
-    '''public Object createLink(final String tag)
+    '''returns Object\n\n
+    createLink(final String tag)\n
     '''

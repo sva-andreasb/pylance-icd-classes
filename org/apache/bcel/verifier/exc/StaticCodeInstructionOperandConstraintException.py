@@ -1,3 +1,4 @@
-def StaticCodeInstructionOperandConstraintException():
-    '''public StaticCodeInstructionOperandConstraintException(final String message)
+def ():
+    '''returns StaticCodeInstructionOperandConstraintException\n\n
+    (final String message)\n
     '''

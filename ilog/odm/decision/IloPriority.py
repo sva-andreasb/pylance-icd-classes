@@ -11,40 +11,44 @@ VERY_LOW = "Predefined  Predefined.VERY_LOW"
 IGNORED = "Predefined  Predefined.IGNORED"
 PROPERTY_NAME = "String  IloProperties.REQ_PRIORITY"
 def compare():
-    '''public int compare(final IloPriority p0, final IloPriority p1)
+    '''returns int\n\n
+    compare(final IloPriority p0, final IloPriority p1)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getLocalizedName():
-    '''public String getLocalizedName()
-    public String getLocalizedName()
+    '''returns String\n\n
+    getLocalizedName()\n
+    getLocalizedName()\n
     '''
 def isGreaterThan():
-    '''public boolean isGreaterThan(final IloPriority p)
+    '''returns boolean\n\n
+    isGreaterThan(final IloPriority p)\n
     '''
 def isLowerThan():
-    '''public boolean isLowerThan(final IloPriority p)
+    '''returns boolean\n\n
+    isLowerThan(final IloPriority p)\n
     '''
 def equals():
-    '''public boolean equals(final IloPriority p)
-    public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final IloPriority p)\n
+    equals(final Object other)\n
     '''
 def isMandatory():
-    '''public boolean isMandatory()
+    '''returns boolean\n\n
+    isMandatory()\n
     '''
 def isIgnored():
-    '''public boolean isIgnored()
+    '''returns boolean\n\n
+    isIgnored()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getIndex():
-    '''public int getIndex()
-    '''
-def all():
-    '''public static Predefined[] all()
-    '''
-def get():
-    '''public static Predefined get(final String name)
+    '''returns int\n\n
+    getIndex()\n
     '''

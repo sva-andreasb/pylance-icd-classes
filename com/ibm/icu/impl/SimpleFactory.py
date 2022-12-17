@@ -1,16 +1,21 @@
-def SimpleFactory():
-    '''public SimpleFactory(final Object instance, final String id)
-    public SimpleFactory(final Object instance, final String id, final boolean visible)
+def ():
+    '''returns SimpleFactory\n\n
+    (final Object instance, final String id)\n
+    (final Object instance, final String id, final boolean visible)\n
     '''
 def create():
-    '''public Object create(final Key key, final ICUService service)
+    '''returns Object\n\n
+    create(final Key key, final ICUService service)\n
     '''
 def updateVisibleIDs():
-    '''public void updateVisibleIDs(final Map<String, Factory> result)
+    '''returns None\n\n
+    updateVisibleIDs(final Map<String, Factory> result)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName(final String identifier, final ULocale locale)
+    '''returns String\n\n
+    getDisplayName(final String identifier, final ULocale locale)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

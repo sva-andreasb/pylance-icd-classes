@@ -1,12 +1,16 @@
-def AffinityAlgorithm():
-    '''public AffinityAlgorithm(final Identity affinityKey)
+def ():
+    '''returns AffinityAlgorithm\n\n
+    (final Identity affinityKey)\n
     '''
 def select():
-    '''public Identity select()
+    '''returns Identity\n\n
+    select()\n
     '''
 def prepare():
-    '''public void prepare(final Identity[] members, final int[] weights)
+    '''returns None\n\n
+    prepare(final Identity[] members, final int[] weights)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

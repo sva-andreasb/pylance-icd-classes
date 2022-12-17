@@ -5,100 +5,126 @@ MESSAGES_PER_FRAME_OPTION = "String  \"messagesPerFrame\""
 BUFFER_SIZE_OPTION = "String  \"bufferSize\""
 MAX_MESSAGE_SIZE_OPTION = "String  \"maxMessageSize\""
 THREAD_POOL_MAX_SIZE = "String  \"threadPoolMaxSize\""
-def WebSocketTransport():
-    '''public WebSocketTransport(final BayeuxServerImpl bayeux)
+def ():
+    '''returns WebSocketContext\n\n
+    (final BayeuxServerImpl bayeux)\n
+    (final WebSocketContext context, final String userAgent)\n
+    (final HttpServletRequest request)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def accept():
-    '''public boolean accept(final HttpServletRequest request)
+    '''returns boolean\n\n
+    accept(final HttpServletRequest request)\n
     '''
 def handle():
-    '''public void handle(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    handle(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def doWebSocketConnect():
-    '''public WebSocket doWebSocketConnect(final HttpServletRequest request, final String protocol)
+    '''returns WebSocket\n\n
+    doWebSocketConnect(final HttpServletRequest request, final String protocol)\n
     '''
 def checkOrigin():
-    '''public boolean checkOrigin(final HttpServletRequest request, final String origin)
+    '''returns boolean\n\n
+    checkOrigin(final HttpServletRequest request, final String origin)\n
     '''
 def getContext():
-    '''public BayeuxContext getContext()
-    '''
-def WebSocketScheduler():
-    '''public WebSocketScheduler(final WebSocketContext context, final String userAgent)
+    '''returns BayeuxContext\n\n
+    getContext()\n
     '''
 def onOpen():
-    '''public void onOpen(final WebSocket.Connection connection)
+    '''returns None\n\n
+    onOpen(final WebSocket.Connection connection)\n
     '''
 def onClose():
-    '''public void onClose(final int code, final String reason)
+    '''returns None\n\n
+    onClose(final int code, final String reason)\n
     '''
 def onMessage():
-    '''public void onMessage(final String data)
+    '''returns None\n\n
+    onMessage(final String data)\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def schedule():
-    '''public void schedule()
+    '''returns None\n\n
+    schedule()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    '''
-def WebSocketContext():
-    '''public WebSocketContext(final HttpServletRequest request)
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def getUserPrincipal():
-    '''public Principal getUserPrincipal()
+    '''returns Principal\n\n
+    getUserPrincipal()\n
     '''
 def isUserInRole():
-    '''public boolean isUserInRole(final String role)
+    '''returns boolean\n\n
+    isUserInRole(final String role)\n
     '''
 def getRemoteAddress():
-    '''public InetSocketAddress getRemoteAddress()
+    '''returns InetSocketAddress\n\n
+    getRemoteAddress()\n
     '''
 def getLocalAddress():
-    '''public InetSocketAddress getLocalAddress()
+    '''returns InetSocketAddress\n\n
+    getLocalAddress()\n
     '''
 def getHeader():
-    '''public String getHeader(final String name)
+    '''returns String\n\n
+    getHeader(final String name)\n
     '''
 def getHeaderValues():
-    '''public List<String> getHeaderValues(final String name)
+    '''returns List<String>\n\n
+    getHeaderValues(final String name)\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def getParameterValues():
-    '''public List<String> getParameterValues(final String name)
+    '''returns List<String>\n\n
+    getParameterValues(final String name)\n
     '''
 def getCookie():
-    '''public String getCookie(final String name)
+    '''returns String\n\n
+    getCookie(final String name)\n
     '''
 def getHttpSessionId():
-    '''public String getHttpSessionId()
+    '''returns String\n\n
+    getHttpSessionId()\n
     '''
 def getHttpSessionAttribute():
-    '''public Object getHttpSessionAttribute(final String name)
+    '''returns Object\n\n
+    getHttpSessionAttribute(final String name)\n
     '''
 def setHttpSessionAttribute():
-    '''public void setHttpSessionAttribute(final String name, final Object value)
+    '''returns None\n\n
+    setHttpSessionAttribute(final String name, final Object value)\n
     '''
 def invalidateHttpSession():
-    '''public void invalidateHttpSession()
+    '''returns None\n\n
+    invalidateHttpSession()\n
     '''
 def getRequestAttribute():
-    '''public Object getRequestAttribute(final String name)
+    '''returns Object\n\n
+    getRequestAttribute(final String name)\n
     '''
 def getContextAttribute():
-    '''public Object getContextAttribute(final String name)
+    '''returns Object\n\n
+    getContextAttribute(final String name)\n
     '''
 def getContextInitParameter():
-    '''public String getContextInitParameter(final String name)
+    '''returns String\n\n
+    getContextInitParameter(final String name)\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''

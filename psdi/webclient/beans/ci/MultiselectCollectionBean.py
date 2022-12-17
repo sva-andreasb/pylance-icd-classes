@@ -1,6 +1,8 @@
-def MultiselectCollectionBean():
-    '''public MultiselectCollectionBean()
+def ():
+    '''returns MultiselectCollectionBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

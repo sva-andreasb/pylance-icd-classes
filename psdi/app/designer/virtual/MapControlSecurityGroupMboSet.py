@@ -1,3 +1,4 @@
-def MapControlSecurityGroupMboSet():
-    '''public MapControlSecurityGroupMboSet(final MboServerInterface ms)
+def ():
+    '''returns MapControlSecurityGroupMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

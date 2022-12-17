@@ -1,9 +1,12 @@
-def TraceMethod():
-    '''public TraceMethod(final String uri)
+def ():
+    '''returns TraceMethod\n\n
+    (final String uri)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def recycle():
-    '''public void recycle()
+    '''returns None\n\n
+    recycle()\n
     '''

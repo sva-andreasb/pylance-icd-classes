@@ -1,25 +1,33 @@
-def UnassignedWorkView():
-    '''public UnassignedWorkView(final MboSet ms)
+def ():
+    '''returns UnassignedWorkView\n\n
+    (final MboSet ms)\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def getAutoLocateObject():
-    '''public MboRemote getAutoLocateObject(final AutoLocatable nextInChain)
-    public MboRemote getAutoLocateObject()
+    '''returns MboRemote\n\n
+    getAutoLocateObject(final AutoLocatable nextInChain)\n
+    getAutoLocateObject()\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''

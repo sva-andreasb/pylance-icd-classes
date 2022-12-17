@@ -1,30 +1,40 @@
-def InvokeDynamic():
-    '''public InvokeDynamic(final int index, final int zeroes)
+def ():
+    '''returns InvokeDynamic\n\n
+    (final int index, final int zeroes)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def toString():
-    '''public String toString(final ConstantPool cp)
+    '''returns String\n\n
+    toString(final ConstantPool cp)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getReturnType():
-    '''public Type getReturnType(final ConstantPool cp)
+    '''returns Type\n\n
+    getReturnType(final ConstantPool cp)\n
     '''
 def getArgumentTypes():
-    '''public Type[] getArgumentTypes(final ConstantPool cp)
+    '''returns Type[]\n\n
+    getArgumentTypes(final ConstantPool cp)\n
     '''
 def getSignature():
-    '''public String getSignature(final ConstantPool cp)
+    '''returns String\n\n
+    getSignature(final ConstantPool cp)\n
     '''
 def getName():
-    '''public String getName(final ConstantPool cp)
+    '''returns String\n\n
+    getName(final ConstantPool cp)\n
     '''
 def getClassName():
-    '''public String getClassName(final ConstantPool cp)
+    '''returns String\n\n
+    getClassName(final ConstantPool cp)\n
     '''

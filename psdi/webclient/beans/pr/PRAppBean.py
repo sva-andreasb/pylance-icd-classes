@@ -1,18 +1,24 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def DETAILREP():
-    '''public int DETAILREP()
+    '''returns int\n\n
+    DETAILREP()\n
     '''
 def PRINTDOCS():
-    '''public int PRINTDOCS()
+    '''returns int\n\n
+    PRINTDOCS()\n
     '''
 def CREATEPO():
-    '''public int CREATEPO()
+    '''returns int\n\n
+    CREATEPO()\n
     '''
 def CREATECONT():
-    '''public int CREATECONT()
+    '''returns int\n\n
+    CREATECONT()\n
     '''
 def CREATECOMM():
-    '''public int CREATECOMM()
+    '''returns int\n\n
+    CREATECOMM()\n
     '''

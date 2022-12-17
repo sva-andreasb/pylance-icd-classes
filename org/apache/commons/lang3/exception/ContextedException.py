@@ -1,34 +1,40 @@
-def ContextedException():
-    '''public ContextedException()
-    public ContextedException(final String message)
-    public ContextedException(final Throwable cause)
-    public ContextedException(final String message, final Throwable cause)
-    public ContextedException(final String message, final Throwable cause, ExceptionContext context)
+def ():
+    '''returns ContextedException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
+    (final String message, final Throwable cause, ExceptionContext context)\n
     '''
 def addContextValue():
-    '''public ContextedException addContextValue(final String label, final Object value)
+    '''returns ContextedException\n\n
+    addContextValue(final String label, final Object value)\n
     '''
 def setContextValue():
-    '''public ContextedException setContextValue(final String label, final Object value)
+    '''returns ContextedException\n\n
+    setContextValue(final String label, final Object value)\n
     '''
 def getContextValues():
-    '''public List<Object> getContextValues(final String label)
+    '''returns List<Object>\n\n
+    getContextValues(final String label)\n
     '''
 def getFirstContextValue():
-    '''public Object getFirstContextValue(final String label)
-    '''
-def getContextEntries():
-    '''public List<Pair<String, Object>> getContextEntries()
+    '''returns Object\n\n
+    getFirstContextValue(final String label)\n
     '''
 def getContextLabels():
-    '''public Set<String> getContextLabels()
+    '''returns Set<String>\n\n
+    getContextLabels()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getRawMessage():
-    '''public String getRawMessage()
+    '''returns String\n\n
+    getRawMessage()\n
     '''
 def getFormattedExceptionMessage():
-    '''public String getFormattedExceptionMessage(final String baseMessage)
+    '''returns String\n\n
+    getFormattedExceptionMessage(final String baseMessage)\n
     '''

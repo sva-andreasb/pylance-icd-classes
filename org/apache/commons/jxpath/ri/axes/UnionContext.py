@@ -1,18 +1,24 @@
-def UnionContext():
-    '''public UnionContext(final EvalContext parentContext, final EvalContext[] contexts)
+def ():
+    '''returns UnionContext\n\n
+    (final EvalContext parentContext, final EvalContext[] contexts)\n
     '''
 def getDocumentOrder():
-    '''public int getDocumentOrder()
+    '''returns int\n\n
+    getDocumentOrder()\n
     '''
 def getCurrentNodePointer():
-    '''public NodePointer getCurrentNodePointer()
+    '''returns NodePointer\n\n
+    getCurrentNodePointer()\n
     '''
 def setPosition():
-    '''public boolean setPosition(final int position)
+    '''returns boolean\n\n
+    setPosition(final int position)\n
     '''
 def nextSet():
-    '''public boolean nextSet()
+    '''returns boolean\n\n
+    nextSet()\n
     '''
 def nextNode():
-    '''public boolean nextNode()
+    '''returns boolean\n\n
+    nextNode()\n
     '''

@@ -1,63 +1,84 @@
-def JSONMapDetailInfo():
-    '''public JSONMapDetailInfo(final String mapName, final String objectName, final String objectPath, final String relpropPath, final String parentpropPath, final String relpropName, final int objectId, final int parentObjId, final int processOrder, final String condition, final String relation, final boolean isArray, final int relPropIndex)
+def ():
+    '''returns JSONMapDetailInfo\n\n
+    (final String mapName, final String objectName, final String objectPath, final String relpropPath, final String parentpropPath, final String relpropName, final int objectId, final int parentObjId, final int processOrder, final String condition, final String relation, final boolean isArray, final int relPropIndex)\n
     '''
 def getMapName():
-    '''public String getMapName()
+    '''returns String\n\n
+    getMapName()\n
     '''
 def getRelpropPath():
-    '''public String getRelpropPath()
+    '''returns String\n\n
+    getRelpropPath()\n
     '''
 def getRelpropName():
-    '''public String getRelpropName()
+    '''returns String\n\n
+    getRelpropName()\n
     '''
 def getParentPropPath():
-    '''public String getParentPropPath()
+    '''returns String\n\n
+    getParentPropPath()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getChildren():
-    '''public List<JSONMapDetailInfo> getChildren()
+    '''returns List<JSONMapDetailInfo>\n\n
+    getChildren()\n
     '''
 def getSiblingsHier():
-    '''public List<JSONMapDetailInfo> getSiblingsHier()
+    '''returns List<JSONMapDetailInfo>\n\n
+    getSiblingsHier()\n
     '''
 def getParentInfo():
-    '''public JSONMapDetailInfo getParentInfo()
+    '''returns JSONMapDetailInfo\n\n
+    getParentInfo()\n
     '''
 def setParentInfo():
-    '''public void setParentInfo(final JSONMapDetailInfo parent)
+    '''returns None\n\n
+    setParentInfo(final JSONMapDetailInfo parent)\n
     '''
 def getObjectId():
-    '''public int getObjectId()
+    '''returns int\n\n
+    getObjectId()\n
     '''
 def getPropertyIndex():
-    '''public int getPropertyIndex()
+    '''returns int\n\n
+    getPropertyIndex()\n
     '''
 def getParentObjId():
-    '''public int getParentObjId()
+    '''returns int\n\n
+    getParentObjId()\n
     '''
 def getProcessOrder():
-    '''public int getProcessOrder()
+    '''returns int\n\n
+    getProcessOrder()\n
     '''
 def setIsPrimary():
-    '''public void setIsPrimary(final boolean o)
+    '''returns None\n\n
+    setIsPrimary(final boolean o)\n
     '''
 def isPrimary():
-    '''public boolean isPrimary()
+    '''returns boolean\n\n
+    isPrimary()\n
     '''
 def getObjectPath():
-    '''public String getObjectPath()
+    '''returns String\n\n
+    getObjectPath()\n
     '''
 def isArray():
-    '''public boolean isArray()
+    '''returns boolean\n\n
+    isArray()\n
     '''
 def getCondition():
-    '''public String getCondition()
+    '''returns String\n\n
+    getCondition()\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def getProperties():
-    '''public List<JSONMapPropertyInfo> getProperties()
+    '''returns List<JSONMapPropertyInfo>\n\n
+    getProperties()\n
     '''

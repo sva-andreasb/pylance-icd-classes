@@ -1,66 +1,85 @@
-def EvalContext():
-    '''public EvalContext(final EvalContext parentContext)
+def ():
+    '''returns SimpleNodeSet\n\n
+    (final EvalContext parentContext)\n
+    ()\n
     '''
 def getContextNodePointer():
-    '''public Pointer getContextNodePointer()
+    '''returns Pointer\n\n
+    getContextNodePointer()\n
     '''
 def getJXPathContext():
-    '''public JXPathContext getJXPathContext()
+    '''returns JXPathContext\n\n
+    getJXPathContext()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def getDocumentOrder():
-    '''public int getDocumentOrder()
+    '''returns int\n\n
+    getDocumentOrder()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getContextNodeList():
-    '''public List getContextNodeList()
+    '''returns List\n\n
+    getContextNodeList()\n
     '''
 def getNodeSet():
-    '''public NodeSet getNodeSet()
+    '''returns NodeSet\n\n
+    getNodeSet()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getRootContext():
-    '''public RootContext getRootContext()
+    '''returns RootContext\n\n
+    getRootContext()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getCurrentPosition():
-    '''public int getCurrentPosition()
+    '''returns int\n\n
+    getCurrentPosition()\n
     '''
 def getSingleNodePointer():
-    '''public Pointer getSingleNodePointer()
+    '''returns Pointer\n\n
+    getSingleNodePointer()\n
     '''
 def nextSet():
-    '''public boolean nextSet()
+    '''returns boolean\n\n
+    nextSet()\n
     '''
 def setPosition():
-    '''public boolean setPosition(final int position)
+    '''returns boolean\n\n
+    setPosition(final int position)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
-    '''
-def SimpleNodeSet():
-    '''public SimpleNodeSet()
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''
 def getPointers():
-    '''public List getPointers()
+    '''returns List\n\n
+    getPointers()\n
     '''
 def getNodes():
-    '''public List getNodes()
+    '''returns List\n\n
+    getNodes()\n
     '''
 def getValues():
-    '''public List getValues()
+    '''returns List\n\n
+    getValues()\n
     '''

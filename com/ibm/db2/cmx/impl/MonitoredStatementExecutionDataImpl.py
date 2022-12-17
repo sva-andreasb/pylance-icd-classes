@@ -1,57 +1,72 @@
 def getExecutionKey():
-    '''public String getExecutionKey()
+    '''returns String\n\n
+    getExecutionKey()\n
     '''
 def getDatbaseAuthID():
-    '''public String getDatbaseAuthID()
+    '''returns String\n\n
+    getDatbaseAuthID()\n
     '''
 def getClientInfo():
-    '''public String[] getClientInfo()
+    '''returns String[]\n\n
+    getClientInfo()\n
     '''
 def getElapsedCursorHoldTimes():
-    '''public long getElapsedCursorHoldTimes()
+    '''returns long\n\n
+    getElapsedCursorHoldTimes()\n
     '''
 def getElapsedCursorHoldTimes_TimePrecision():
-    '''public TimePrecision getElapsedCursorHoldTimes_TimePrecision()
+    '''returns TimePrecision\n\n
+    getElapsedCursorHoldTimes_TimePrecision()\n
     '''
 def getElapsedDriverTimes():
-    '''public long getElapsedDriverTimes()
+    '''returns long\n\n
+    getElapsedDriverTimes()\n
     '''
 def getElapsedDriverTimes_TimePrecision():
-    '''public TimePrecision getElapsedDriverTimes_TimePrecision()
+    '''returns TimePrecision\n\n
+    getElapsedDriverTimes_TimePrecision()\n
     '''
 def getElapsedNetworkTimes():
-    '''public long getElapsedNetworkTimes()
+    '''returns long\n\n
+    getElapsedNetworkTimes()\n
     '''
 def getElapsedNetworkTimes_TimePrecision():
-    '''public TimePrecision getElapsedNetworkTimes_TimePrecision()
+    '''returns TimePrecision\n\n
+    getElapsedNetworkTimes_TimePrecision()\n
     '''
 def getElapsedServerTimes():
-    '''public long getElapsedServerTimes()
+    '''returns long\n\n
+    getElapsedServerTimes()\n
     '''
 def getElapsedServerTimes_TimePrecision():
-    '''public TimePrecision getElapsedServerTimes_TimePrecision()
+    '''returns TimePrecision\n\n
+    getElapsedServerTimes_TimePrecision()\n
     '''
 def getBytesSent():
-    '''public long getBytesSent()
+    '''returns long\n\n
+    getBytesSent()\n
     '''
 def getBytesReceived():
-    '''public long getBytesReceived()
+    '''returns long\n\n
+    getBytesReceived()\n
     '''
 def getNumberOfRoundTrips():
-    '''public long getNumberOfRoundTrips()
+    '''returns long\n\n
+    getNumberOfRoundTrips()\n
     '''
 def getNumberOfRowsSelected():
-    '''public long getNumberOfRowsSelected()
+    '''returns long\n\n
+    getNumberOfRowsSelected()\n
     '''
 def getNumberOfExecutions():
-    '''public long getNumberOfExecutions()
+    '''returns long\n\n
+    getNumberOfExecutions()\n
     '''
 def getFirstNegativeSQLCode():
-    '''public int getFirstNegativeSQLCode()
+    '''returns int\n\n
+    getFirstNegativeSQLCode()\n
     '''
 def getNumberOfNegativeSQLCodes():
-    '''public int getNumberOfNegativeSQLCodes()
-    '''
-def parseMonitoredStatementExecutionDatas():
-    '''public static ArrayList<MonitoredStatementExecutionData> parseMonitoredStatementExecutionDatas(final JSONArray jsonArray, final JSONArray jsonArray2)
+    '''returns int\n\n
+    getNumberOfNegativeSQLCodes()\n
     '''

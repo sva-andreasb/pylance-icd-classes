@@ -1,33 +1,44 @@
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def isAbstract():
-    '''public boolean isAbstract()
+    '''returns boolean\n\n
+    isAbstract()\n
     '''
 def isNative():
-    '''public boolean isNative()
+    '''returns boolean\n\n
+    isNative()\n
     '''
 def isSynchronized():
-    '''public boolean isSynchronized()
+    '''returns boolean\n\n
+    isSynchronized()\n
     '''
 def setSynchronized():
-    '''public void setSynchronized(final boolean newValue)
+    '''returns None\n\n
+    setSynchronized(final boolean newValue)\n
     '''
 def setPrivate():
-    '''public void setPrivate()
+    '''returns None\n\n
+    setPrivate()\n
     '''
 def setProtected():
-    '''public void setProtected()
+    '''returns None\n\n
+    setProtected()\n
     '''
 def setPublic():
-    '''public void setPublic()
+    '''returns None\n\n
+    setPublic()\n
     '''
 def setFinal():
-    '''public void setFinal(final boolean newValue)
+    '''returns None\n\n
+    setFinal(final boolean newValue)\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

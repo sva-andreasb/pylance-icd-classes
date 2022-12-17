@@ -1,9 +1,12 @@
 def evaluateCustomCondition():
-    '''public boolean evaluateCustomCondition(final MboRemote mbo)
+    '''returns boolean\n\n
+    evaluateCustomCondition(final MboRemote mbo)\n
     '''
 def evaluateCondition():
-    '''public boolean evaluateCondition(final MboRemote mbo, final Object param)
+    '''returns boolean\n\n
+    evaluateCondition(final MboRemote mbo, final Object param)\n
     '''
 def toWhereClause():
-    '''public String toWhereClause(final Object param, final MboSetRemote msr)
+    '''returns String\n\n
+    toWhereClause(final Object param, final MboSetRemote msr)\n
     '''

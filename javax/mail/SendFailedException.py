@@ -1,15 +1,19 @@
-def SendFailedException():
-    '''public SendFailedException()
-    public SendFailedException(final String s)
-    public SendFailedException(final String s, final Exception e)
-    public SendFailedException(final String msg, final Exception ex, final Address[] validSent, final Address[] validUnsent, final Address[] invalid)
+def ():
+    '''returns SendFailedException\n\n
+    ()\n
+    (final String s)\n
+    (final String s, final Exception e)\n
+    (final String msg, final Exception ex, final Address[] validSent, final Address[] validUnsent, final Address[] invalid)\n
     '''
 def getInvalidAddresses():
-    '''public Address[] getInvalidAddresses()
+    '''returns Address[]\n\n
+    getInvalidAddresses()\n
     '''
 def getValidSentAddresses():
-    '''public Address[] getValidSentAddresses()
+    '''returns Address[]\n\n
+    getValidSentAddresses()\n
     '''
 def getValidUnsentAddresses():
-    '''public Address[] getValidUnsentAddresses()
+    '''returns Address[]\n\n
+    getValidUnsentAddresses()\n
     '''

@@ -1,10 +1,13 @@
 def getTargetException():
-    '''public RuntimeException getTargetException()
+    '''returns RuntimeException\n\n
+    getTargetException()\n
     '''
-def RuntimeOperationsException():
-    '''public RuntimeOperationsException(final RuntimeException runtimeException)
-    public RuntimeOperationsException(final RuntimeException runtimeException, final String s)
+def ():
+    '''returns RuntimeOperationsException\n\n
+    (final RuntimeException runtimeException)\n
+    (final RuntimeException runtimeException, final String s)\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''

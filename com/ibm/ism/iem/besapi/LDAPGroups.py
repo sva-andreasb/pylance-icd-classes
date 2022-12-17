@@ -1,21 +1,28 @@
 def getGroup():
-    '''public List<Group> getGroup()
+    '''returns List<Group>\n\n
+    getGroup()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
     '''
 def getDN():
-    '''public String getDN()
+    '''returns String\n\n
+    getDN()\n
     '''
 def setDN():
-    '''public void setDN(final String value)
+    '''returns None\n\n
+    setDN(final String value)\n
     '''
 def getServerID():
-    '''public String getServerID()
+    '''returns String\n\n
+    getServerID()\n
     '''
 def setServerID():
-    '''public void setServerID(final String value)
+    '''returns None\n\n
+    setServerID(final String value)\n
     '''

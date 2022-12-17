@@ -1,9 +1,8 @@
 def handlesThrowable():
-    '''public boolean handlesThrowable()
-    '''
-def newInstance():
-    '''public static EncodingPatternConverter newInstance(final Configuration config, final String[] options)
+    '''returns boolean\n\n
+    handlesThrowable()\n
     '''
 def format():
-    '''public void format(final LogEvent event, final StringBuilder toAppendTo)
+    '''returns None\n\n
+    format(final LogEvent event, final StringBuilder toAppendTo)\n
     '''

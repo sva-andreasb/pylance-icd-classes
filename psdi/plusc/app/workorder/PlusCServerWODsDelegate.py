@@ -1,3 +1,4 @@
-def PlusCServerWODsDelegate():
-    '''public PlusCServerWODsDelegate(final MboAdapter mbo)
+def ():
+    '''returns PlusCServerWODsDelegate\n\n
+    (final MboAdapter mbo)\n
     '''

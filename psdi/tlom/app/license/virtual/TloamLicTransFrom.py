@@ -1,6 +1,8 @@
-def TloamLicTransFrom():
-    '''public TloamLicTransFrom(final MboSet ms)
+def ():
+    '''returns TloamLicTransFrom\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

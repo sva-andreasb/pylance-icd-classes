@@ -1,164 +1,218 @@
 serialVersionUID = "long  1L"
-def DefinitionImpl():
-    '''public DefinitionImpl()
+def ():
+    '''returns DefinitionImpl\n\n
+    ()\n
     '''
 def setDocumentBaseURI():
-    '''public void setDocumentBaseURI(final String documentBaseURI)
+    '''returns None\n\n
+    setDocumentBaseURI(final String documentBaseURI)\n
     '''
 def getDocumentBaseURI():
-    '''public String getDocumentBaseURI()
+    '''returns String\n\n
+    getDocumentBaseURI()\n
     '''
 def setQName():
-    '''public void setQName(final QName name)
+    '''returns None\n\n
+    setQName(final QName name)\n
     '''
 def getQName():
-    '''public QName getQName()
+    '''returns QName\n\n
+    getQName()\n
     '''
 def setTargetNamespace():
-    '''public void setTargetNamespace(final String targetNamespace)
+    '''returns None\n\n
+    setTargetNamespace(final String targetNamespace)\n
     '''
 def getTargetNamespace():
-    '''public String getTargetNamespace()
+    '''returns String\n\n
+    getTargetNamespace()\n
     '''
 def addNamespace():
-    '''public void addNamespace(String s, final String s2)
+    '''returns None\n\n
+    addNamespace(String s, final String s2)\n
     '''
 def getNamespace():
-    '''public String getNamespace(String s)
+    '''returns String\n\n
+    getNamespace(String s)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String s)
+    '''returns String\n\n
+    getPrefix(final String s)\n
     '''
 def getNamespaces():
-    '''public Map getNamespaces()
+    '''returns Map\n\n
+    getNamespaces()\n
     '''
 def setTypes():
-    '''public void setTypes(final Types types)
+    '''returns None\n\n
+    setTypes(final Types types)\n
     '''
 def getTypes():
-    '''public Types getTypes()
+    '''returns Types\n\n
+    getTypes()\n
     '''
 def addImport():
-    '''public void addImport(final Import import1)
+    '''returns None\n\n
+    addImport(final Import import1)\n
     '''
 def getImports():
-    '''public List getImports(final String s)
-    public Map getImports()
+    '''returns Map\n\n
+    getImports(final String s)\n
+    getImports()\n
     '''
 def addMessage():
-    '''public void addMessage(final Message message)
+    '''returns None\n\n
+    addMessage(final Message message)\n
     '''
 def getMessage():
-    '''public Message getMessage(final QName qName)
+    '''returns Message\n\n
+    getMessage(final QName qName)\n
     '''
 def removeMessage():
-    '''public Message removeMessage(final QName qName)
+    '''returns Message\n\n
+    removeMessage(final QName qName)\n
     '''
 def getMessages():
-    '''public Map getMessages()
+    '''returns Map\n\n
+    getMessages()\n
     '''
 def addBinding():
-    '''public void addBinding(final Binding binding)
+    '''returns None\n\n
+    addBinding(final Binding binding)\n
     '''
 def getBinding():
-    '''public Binding getBinding(final QName qName)
+    '''returns Binding\n\n
+    getBinding(final QName qName)\n
     '''
 def removeBinding():
-    '''public Binding removeBinding(final QName qName)
+    '''returns Binding\n\n
+    removeBinding(final QName qName)\n
     '''
 def getBindings():
-    '''public Map getBindings()
+    '''returns Map\n\n
+    getBindings()\n
     '''
 def addPortType():
-    '''public void addPortType(final PortType portType)
+    '''returns None\n\n
+    addPortType(final PortType portType)\n
     '''
 def getPortType():
-    '''public PortType getPortType(final QName qName)
+    '''returns PortType\n\n
+    getPortType(final QName qName)\n
     '''
 def removePortType():
-    '''public PortType removePortType(final QName qName)
+    '''returns PortType\n\n
+    removePortType(final QName qName)\n
     '''
 def getPortTypes():
-    '''public Map getPortTypes()
+    '''returns Map\n\n
+    getPortTypes()\n
     '''
 def addService():
-    '''public void addService(final Service service)
+    '''returns None\n\n
+    addService(final Service service)\n
     '''
 def getService():
-    '''public Service getService(final QName qName)
+    '''returns Service\n\n
+    getService(final QName qName)\n
     '''
 def removeService():
-    '''public Service removeService(final QName qName)
+    '''returns Service\n\n
+    removeService(final QName qName)\n
     '''
 def getServices():
-    '''public Map getServices()
+    '''returns Map\n\n
+    getServices()\n
     '''
 def setDocumentationElement():
-    '''public void setDocumentationElement(final Element docEl)
+    '''returns None\n\n
+    setDocumentationElement(final Element docEl)\n
     '''
 def getDocumentationElement():
-    '''public Element getDocumentationElement()
+    '''returns Element\n\n
+    getDocumentationElement()\n
     '''
 def addExtensibilityElement():
-    '''public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''returns None\n\n
+    addExtensibilityElement(final ExtensibilityElement extensibilityElement)\n
     '''
 def getExtensibilityElements():
-    '''public List getExtensibilityElements()
+    '''returns List\n\n
+    getExtensibilityElements()\n
     '''
 def createBinding():
-    '''public Binding createBinding()
+    '''returns Binding\n\n
+    createBinding()\n
     '''
 def createBindingFault():
-    '''public BindingFault createBindingFault()
+    '''returns BindingFault\n\n
+    createBindingFault()\n
     '''
 def createBindingInput():
-    '''public BindingInput createBindingInput()
+    '''returns BindingInput\n\n
+    createBindingInput()\n
     '''
 def createBindingOperation():
-    '''public BindingOperation createBindingOperation()
+    '''returns BindingOperation\n\n
+    createBindingOperation()\n
     '''
 def createBindingOutput():
-    '''public BindingOutput createBindingOutput()
+    '''returns BindingOutput\n\n
+    createBindingOutput()\n
     '''
 def createFault():
-    '''public Fault createFault()
+    '''returns Fault\n\n
+    createFault()\n
     '''
 def createImport():
-    '''public Import createImport()
+    '''returns Import\n\n
+    createImport()\n
     '''
 def createInput():
-    '''public Input createInput()
+    '''returns Input\n\n
+    createInput()\n
     '''
 def createMessage():
-    '''public Message createMessage()
+    '''returns Message\n\n
+    createMessage()\n
     '''
 def createOperation():
-    '''public Operation createOperation()
+    '''returns Operation\n\n
+    createOperation()\n
     '''
 def createOutput():
-    '''public Output createOutput()
+    '''returns Output\n\n
+    createOutput()\n
     '''
 def createPart():
-    '''public Part createPart()
+    '''returns Part\n\n
+    createPart()\n
     '''
 def createPort():
-    '''public Port createPort()
+    '''returns Port\n\n
+    createPort()\n
     '''
 def createPortType():
-    '''public PortType createPortType()
+    '''returns PortType\n\n
+    createPortType()\n
     '''
 def createService():
-    '''public Service createService()
+    '''returns Service\n\n
+    createService()\n
     '''
 def createTypes():
-    '''public Types createTypes()
+    '''returns Types\n\n
+    createTypes()\n
     '''
 def setExtensionRegistry():
-    '''public void setExtensionRegistry(final ExtensionRegistry extReg)
+    '''returns None\n\n
+    setExtensionRegistry(final ExtensionRegistry extReg)\n
     '''
 def getExtensionRegistry():
-    '''public ExtensionRegistry getExtensionRegistry()
+    '''returns ExtensionRegistry\n\n
+    getExtensionRegistry()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,9 +1,12 @@
-def DefaultRedirectHandler():
-    '''public DefaultRedirectHandler()
+def ():
+    '''returns DefaultRedirectHandler\n\n
+    ()\n
     '''
 def isRedirectRequested():
-    '''public boolean isRedirectRequested(final HttpResponse response, final HttpContext context)
+    '''returns boolean\n\n
+    isRedirectRequested(final HttpResponse response, final HttpContext context)\n
     '''
 def getLocationURI():
-    '''public URI getLocationURI(final HttpResponse response, final HttpContext context)
+    '''returns URI\n\n
+    getLocationURI(final HttpResponse response, final HttpContext context)\n
     '''

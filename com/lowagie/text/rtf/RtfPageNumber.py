@@ -1,9 +1,12 @@
-def RtfPageNumber():
-    '''public RtfPageNumber(final String content, final Font contentFont)
+def ():
+    '''returns RtfPageNumber\n\n
+    (final String content, final Font contentFont)\n
     '''
 def write():
-    '''public void write(final RtfWriter writer, final OutputStream out)
+    '''returns None\n\n
+    write(final RtfWriter writer, final OutputStream out)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

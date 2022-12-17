@@ -2,66 +2,87 @@ CLIENT_USER = "int  0"
 CLIENT_WORKSTATION = "int  1"
 CLIENT_APPLICATION = "int  2"
 CLIENT_ACCOUNTING = "int  3"
-def DataBeanTransactionExecution():
-    '''public DataBeanTransactionExecution()
+def ():
+    '''returns DataBeanTransactionExecution\n\n
+    ()\n
     '''
 def addStatementExecution():
-    '''public void addStatementExecution(final DataBeanStatementExecution dataBeanStatementExecution)
+    '''returns None\n\n
+    addStatementExecution(final DataBeanStatementExecution dataBeanStatementExecution)\n
     '''
 def transactionStarted():
-    '''public boolean transactionStarted()
+    '''returns boolean\n\n
+    transactionStarted()\n
     '''
 def beginTransaction():
-    '''public void beginTransaction()
+    '''returns None\n\n
+    beginTransaction()\n
     '''
 def completeTransaction():
-    '''public void completeTransaction(final boolean isCompleted_)
+    '''returns None\n\n
+    completeTransaction(final boolean isCompleted_)\n
     '''
 def cloneForInflight():
-    '''public DataBeanTransactionExecution cloneForInflight()
+    '''returns DataBeanTransactionExecution\n\n
+    cloneForInflight()\n
     '''
 def prepareForAggregation():
-    '''public void prepareForAggregation()
+    '''returns None\n\n
+    prepareForAggregation()\n
     '''
 def aggregateInflight():
-    '''public void aggregateInflight(final DataBeanTransactionExecution dataBeanTransactionExecution)
+    '''returns None\n\n
+    aggregateInflight(final DataBeanTransactionExecution dataBeanTransactionExecution)\n
     '''
 def aggregate():
-    '''public void aggregate(final DataBeanTransactionExecution dataBeanTransactionExecution)
+    '''returns None\n\n
+    aggregate(final DataBeanTransactionExecution dataBeanTransactionExecution)\n
     '''
 def toJSON_DSM():
-    '''public JSONArray toJSON_DSM()
+    '''returns JSONArray\n\n
+    toJSON_DSM()\n
     '''
 def toJSONv1():
-    '''public JSONArray toJSONv1()
+    '''returns JSONArray\n\n
+    toJSONv1()\n
     '''
 def toJSONv2():
-    '''public JSONArray toJSONv2()
+    '''returns JSONArray\n\n
+    toJSONv2()\n
     '''
 def toJSONv3():
-    '''public JSONArray toJSONv3()
+    '''returns JSONArray\n\n
+    toJSONv3()\n
     '''
 def toJSONv4():
-    '''public JSONArray toJSONv4()
+    '''returns JSONArray\n\n
+    toJSONv4()\n
     '''
 def toJSONv5():
-    '''public JSONArray toJSONv5()
+    '''returns JSONArray\n\n
+    toJSONv5()\n
     '''
 def toJSON():
-    '''public JSONArray toJSON(final int n)
+    '''returns JSONArray\n\n
+    toJSON(final int n)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getClientInfoString():
-    '''public String getClientInfoString()
+    '''returns String\n\n
+    getClientInfoString()\n
     '''
 def getEUOWClientInfoString():
-    '''public String getEUOWClientInfoString()
+    '''returns String\n\n
+    getEUOWClientInfoString()\n
     '''
 def getEUOWSettingsString():
-    '''public String getEUOWSettingsString()
+    '''returns String\n\n
+    getEUOWSettingsString()\n
     '''
 def setDb2PackagePath():
-    '''public void setDb2PackagePath(final String db2PackagePath_)
+    '''returns None\n\n
+    setDb2PackagePath(final String db2PackagePath_)\n
     '''

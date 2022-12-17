@@ -1,47 +1,54 @@
-def ModelObject():
-    '''public ModelObject()
-    public ModelObject(final String className, final String sourceToken, final Map<String, Object> attributes)
-    public ModelObject(final String className, final String sourceToken, final Map<String, Object> attributes, final Map<String, List<IModelObjectRef>> relationshipAttributes)
+def ():
+    '''returns ModelObject\n\n
+    ()\n
+    (final String className, final String sourceToken, final Map<String, Object> attributes)\n
+    (final String className, final String sourceToken, final Map<String, Object> attributes, final Map<String, List<IModelObjectRef>> relationshipAttributes)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getSourceToken():
-    '''public String getSourceToken()
-    '''
-def getAttributes():
-    '''public Map<String, Object> getAttributes()
+    '''returns String\n\n
+    getSourceToken()\n
     '''
 def getAttributeValue():
-    '''public Object getAttributeValue(final String attributeName)
-    '''
-def getRelationshipAttributes():
-    '''public Map<String, List<IModelObjectRef>> getRelationshipAttributes()
+    '''returns Object\n\n
+    getAttributeValue(final String attributeName)\n
     '''
 def getRelationshipAttributeValue():
-    '''public List<IModelObjectRef> getRelationshipAttributeValue(final String attributeName)
+    '''returns List<IModelObjectRef>\n\n
+    getRelationshipAttributeValue(final String attributeName)\n
     '''
 def getObjectIds():
-    '''public List<ObjectId> getObjectIds()
+    '''returns List<ObjectId>\n\n
+    getObjectIds()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def setSourceToken():
-    '''public void setSourceToken(final String sourceToken)
+    '''returns None\n\n
+    setSourceToken(final String sourceToken)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final Map<String, Object> attributes)
+    '''returns None\n\n
+    setAttributes(final Map<String, Object> attributes)\n
     '''
 def setAttributeValue():
-    '''public void setAttributeValue(final String attributeName, final Object value)
+    '''returns None\n\n
+    setAttributeValue(final String attributeName, final Object value)\n
     '''
 def setRelationshipAttributes():
-    '''public void setRelationshipAttributes(final Map<String, List<IModelObjectRef>> relationshipAttributes)
+    '''returns None\n\n
+    setRelationshipAttributes(final Map<String, List<IModelObjectRef>> relationshipAttributes)\n
     '''
 def addRelationshipAttributeValue():
-    '''public void addRelationshipAttributeValue(final String relationshipAttributeName, final IModelObjectRef value)
+    '''returns None\n\n
+    addRelationshipAttributeValue(final String relationshipAttributeName, final IModelObjectRef value)\n
     '''
 def addObjectId():
-    '''public void addObjectId(final ObjectId id)
+    '''returns None\n\n
+    addObjectId(final ObjectId id)\n
     '''

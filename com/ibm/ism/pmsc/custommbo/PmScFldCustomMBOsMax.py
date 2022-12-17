@@ -1,6 +1,8 @@
-def PmScFldCustomMBOsMax():
-    '''public PmScFldCustomMBOsMax(final MboValue mbv)
+def ():
+    '''returns PmScFldCustomMBOsMax\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

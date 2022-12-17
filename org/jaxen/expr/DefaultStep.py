@@ -1,36 +1,48 @@
-def DefaultStep():
-    '''public DefaultStep(final IterableAxis axis, final PredicateSet predicates)
+def ():
+    '''returns DefaultStep\n\n
+    (final IterableAxis axis, final PredicateSet predicates)\n
     '''
 def addPredicate():
-    '''public void addPredicate(final Predicate predicate)
+    '''returns None\n\n
+    addPredicate(final Predicate predicate)\n
     '''
 def getPredicates():
-    '''public List getPredicates()
+    '''returns List\n\n
+    getPredicates()\n
     '''
 def getPredicateSet():
-    '''public PredicateSet getPredicateSet()
+    '''returns PredicateSet\n\n
+    getPredicateSet()\n
     '''
 def getAxis():
-    '''public int getAxis()
+    '''returns int\n\n
+    getAxis()\n
     '''
 def getIterableAxis():
-    '''public IterableAxis getIterableAxis()
+    '''returns IterableAxis\n\n
+    getIterableAxis()\n
     '''
 def getAxisName():
-    '''public String getAxisName()
+    '''returns String\n\n
+    getAxisName()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def simplify():
-    '''public void simplify()
+    '''returns None\n\n
+    simplify()\n
     '''
 def axisIterator():
-    '''public Iterator axisIterator(final Object contextNode, final ContextSupport support)
+    '''returns Iterator\n\n
+    axisIterator(final Object contextNode, final ContextSupport support)\n
     '''
 def evaluate():
-    '''public List evaluate(final Context context)
+    '''returns List\n\n
+    evaluate(final Context context)\n
     '''

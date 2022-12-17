@@ -1,9 +1,8 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    clearClassification()\n
     '''

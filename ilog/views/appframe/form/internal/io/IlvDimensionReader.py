@@ -1,6 +1,8 @@
 def readObjectContent():
-    '''public void readObjectContent(final Object o, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns None\n\n
+    readObjectContent(final Object o, final Element element, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def readObject():
-    '''public Object readObject(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns Object\n\n
+    readObject(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)\n
     '''

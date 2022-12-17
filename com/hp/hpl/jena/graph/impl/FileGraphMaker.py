@@ -1,45 +1,47 @@
-def FileGraphMaker():
-    '''public FileGraphMaker(final String root)
-    public FileGraphMaker(final String root, final ReificationStyle style)
-    public FileGraphMaker(final String root, final ReificationStyle style, final boolean deleteOnClose)
+def ():
+    '''returns FileGraphMaker\n\n
+    (final String root)\n
+    (final String root, final ReificationStyle style)\n
+    (final String root, final ReificationStyle style, final boolean deleteOnClose)\n
     '''
 def getFileBase():
-    '''public String getFileBase()
+    '''returns String\n\n
+    getFileBase()\n
     '''
 def createGraph():
-    '''public Graph createGraph()
-    public Graph createGraph(final String name, final boolean strict)
+    '''returns Graph\n\n
+    createGraph()\n
+    createGraph(final String name, final boolean strict)\n
     '''
 def openGraph():
-    '''public Graph openGraph(final String name, final boolean strict)
+    '''returns Graph\n\n
+    openGraph(final String name, final boolean strict)\n
     '''
 def notifyClosed():
-    '''public void notifyClosed(final File f)
-    '''
-def toFilename():
-    '''public static String toFilename(final String name)
-    '''
-def toGraphname():
-    '''public static String toGraphname(final String fileName)
+    '''returns None\n\n
+    notifyClosed(final File f)\n
     '''
 def removeGraph():
-    '''public void removeGraph(final String name)
+    '''returns None\n\n
+    removeGraph(final String name)\n
     '''
 def hasGraph():
-    '''public boolean hasGraph(final String name)
+    '''returns boolean\n\n
+    hasGraph(final String name)\n
     '''
 def close():
-    '''public void close()
-    '''
-def graphName():
-    '''public static FilenameFilter graphName()
+    '''returns None\n\n
+    close()\n
     '''
 def accept():
-    '''public boolean accept(final File file, final String name)
+    '''returns boolean\n\n
+    accept(final File file, final String name)\n
     '''
 def listGraphs():
-    '''public ExtendedIterator<String> listGraphs()
+    '''returns ExtendedIterator<String>\n\n
+    listGraphs()\n
     '''
 def map1():
-    '''public String map1(final String x)
+    '''returns String\n\n
+    map1(final String x)\n
     '''

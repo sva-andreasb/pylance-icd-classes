@@ -1,23 +1,18 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def SyncGroupResponse():
-    '''public SyncGroupResponse(final Errors error, final ByteBuffer memberState)
-    public SyncGroupResponse(final int throttleTimeMs, final Errors error, final ByteBuffer memberState)
-    public SyncGroupResponse(final Struct struct)
+def ():
+    '''returns SyncGroupResponse\n\n
+    (final Errors error, final ByteBuffer memberState)\n
+    (final int throttleTimeMs, final Errors error, final ByteBuffer memberState)\n
+    (final Struct struct)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
+    '''returns Errors\n\n
+    error()\n
     '''
 def memberAssignment():
-    '''public ByteBuffer memberAssignment()
-    '''
-def parse():
-    '''public static SyncGroupResponse parse(final ByteBuffer buffer, final short version)
+    '''returns ByteBuffer\n\n
+    memberAssignment()\n
     '''

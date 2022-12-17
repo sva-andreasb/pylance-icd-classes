@@ -1,18 +1,24 @@
-def RefMain():
-    '''public RefMain(final MboSet mboSet0)
+def ():
+    '''returns RefMain\n\n
+    (final MboSet mboSet0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def initValues():
-    '''public void initValues()
+    '''returns None\n\n
+    initValues()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

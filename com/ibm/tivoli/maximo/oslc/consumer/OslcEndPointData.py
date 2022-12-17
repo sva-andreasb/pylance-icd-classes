@@ -1,18 +1,20 @@
-def OslcEndPointData():
-    '''public OslcEndPointData(final String oslcProviderName, final String endPointName, final RouterHandler handler, final Map<String, Object> metaData)
+def ():
+    '''returns OslcEndPointData\n\n
+    (final String oslcProviderName, final String endPointName, final RouterHandler handler, final Map<String, Object> metaData)\n
     '''
 def getOSLCProviderName():
-    '''public String getOSLCProviderName()
+    '''returns String\n\n
+    getOSLCProviderName()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def getRouterHandler():
-    '''public RouterHandler getRouterHandler()
-    '''
-def getRouterHandlerMetaData():
-    '''public Map<String, Object> getRouterHandlerMetaData()
+    '''returns RouterHandler\n\n
+    getRouterHandler()\n
     '''
 def isOAuth():
-    '''public boolean isOAuth()
+    '''returns boolean\n\n
+    isOAuth()\n
     '''

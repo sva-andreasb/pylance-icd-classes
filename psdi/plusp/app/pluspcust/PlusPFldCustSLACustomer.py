@@ -1,3 +1,4 @@
-def PlusPFldCustSLACustomer():
-    '''public PlusPFldCustSLACustomer(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCustSLACustomer\n\n
+    (final MboValue mboValue)\n
     '''

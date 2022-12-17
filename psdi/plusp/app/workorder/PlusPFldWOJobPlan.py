@@ -1,9 +1,12 @@
-def PlusPFldWOJobPlan():
-    '''public PlusPFldWOJobPlan(final MboValue arg0)
+def ():
+    '''returns PlusPFldWOJobPlan\n\n
+    (final MboValue arg0)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

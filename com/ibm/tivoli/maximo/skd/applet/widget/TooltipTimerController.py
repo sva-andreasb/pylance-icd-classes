@@ -1,16 +1,21 @@
-def TooltipTimerController():
-    '''public TooltipTimerController(final Supplier factory, final int initialDelay, final int showDelay)
+def ():
+    '''returns TooltipTimerController\n\n
+    (final Supplier factory, final int initialDelay, final int showDelay)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def start():
-    '''public void start(final MouseEvent evt)
+    '''returns None\n\n
+    start(final MouseEvent evt)\n
     '''
 def stop():
-    '''public void stop(final MouseEvent evt)
+    '''returns None\n\n
+    stop(final MouseEvent evt)\n
     '''
 def updateMouseEvent():
-    '''public void updateMouseEvent(final MouseEvent evt)
+    '''returns None\n\n
+    updateMouseEvent(final MouseEvent evt)\n
     '''

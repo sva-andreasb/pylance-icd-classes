@@ -1,24 +1,32 @@
-def ChangeAddressEventData():
-    '''public ChangeAddressEventData(final ASN1Object asn1Object)
+def ():
+    '''returns ChangeAddressEventData\n\n
+    (final ASN1Object asn1Object)\n
     '''
 def getAddress():
-    '''public String getAddress()
+    '''returns String\n\n
+    getAddress()\n
     '''
 def getAddrFamily():
-    '''public int getAddrFamily()
+    '''returns int\n\n
+    getAddrFamily()\n
     '''
 def getFlags():
-    '''public int getFlags()
+    '''returns int\n\n
+    getFlags()\n
     '''
 def getProto():
-    '''public int getProto()
+    '''returns int\n\n
+    getProto()\n
     '''
 def getPstkName():
-    '''public String getPstkName()
+    '''returns String\n\n
+    getPstkName()\n
     '''
 def getSource():
-    '''public String getSource()
+    '''returns String\n\n
+    getSource()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

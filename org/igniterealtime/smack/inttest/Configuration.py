@@ -1,50 +1,58 @@
 def isAccountRegistrationPossible():
-    '''public boolean isAccountRegistrationPossible()
-    '''
-def builder():
-    '''public static Builder builder()
-    '''
-def newConfiguration():
-    '''public static Configuration newConfiguration(final String[] testPackages)
+    '''returns boolean\n\n
+    isAccountRegistrationPossible()\n
     '''
 def setService():
-    '''public Builder setService(final String service)
-    public Builder setService(final DomainBareJid service)
+    '''returns Builder\n\n
+    setService(final String service)\n
+    setService(final DomainBareJid service)\n
     '''
 def addEnabledTest():
-    '''public Builder addEnabledTest(final Class<? extends AbstractSmackIntTest> enabledTest)
+    '''returns Builder\n\n
+    addEnabledTest(final Class<? extends AbstractSmackIntTest> enabledTest)\n
     '''
 def addTestPackage():
-    '''public Builder addTestPackage(final String testPackage)
+    '''returns Builder\n\n
+    addTestPackage(final String testPackage)\n
     '''
 def setAdminAccountUsernameAndPassword():
-    '''public Builder setAdminAccountUsernameAndPassword(final String adminAccountUsername, final String adminAccountPassword)
+    '''returns Builder\n\n
+    setAdminAccountUsernameAndPassword(final String adminAccountUsername, final String adminAccountPassword)\n
     '''
 def setUsernamesAndPassword():
-    '''public Builder setUsernamesAndPassword(final String accountOneUsername, final String accountOnePassword, final String accountTwoUsername, final String accountTwoPassword, final String accountThreeUsername, final String accountThreePassword)
+    '''returns Builder\n\n
+    setUsernamesAndPassword(final String accountOneUsername, final String accountOnePassword, final String accountTwoUsername, final String accountTwoPassword, final String accountThreeUsername, final String accountThreePassword)\n
     '''
 def setServiceTlsPin():
-    '''public Builder setServiceTlsPin(final String tlsPin)
+    '''returns Builder\n\n
+    setServiceTlsPin(final String tlsPin)\n
     '''
 def setSecurityMode():
-    '''public Builder setSecurityMode(final String securityModeString)
+    '''returns Builder\n\n
+    setSecurityMode(final String securityModeString)\n
     '''
 def setReplyTimeout():
-    '''public Builder setReplyTimeout(final String timeout)
+    '''returns Builder\n\n
+    setReplyTimeout(final String timeout)\n
     '''
 def setDebugger():
-    '''public Builder setDebugger(final String debuggerString)
+    '''returns Builder\n\n
+    setDebugger(final String debuggerString)\n
     '''
 def setEnabledTests():
-    '''public Builder setEnabledTests(final String enabledTestsString)
+    '''returns Builder\n\n
+    setEnabledTests(final String enabledTestsString)\n
     '''
 def setDisabledTests():
-    '''public Builder setDisabledTests(final String disabledTestsString)
+    '''returns Builder\n\n
+    setDisabledTests(final String disabledTestsString)\n
     '''
 def addTestPackages():
-    '''public Builder addTestPackages(final String testPackagesString)
-    public Builder addTestPackages(final String[] testPackagesString)
+    '''returns Builder\n\n
+    addTestPackages(final String testPackagesString)\n
+    addTestPackages(final String[] testPackagesString)\n
     '''
 def build():
-    '''public Configuration build()
+    '''returns Configuration\n\n
+    build()\n
     '''

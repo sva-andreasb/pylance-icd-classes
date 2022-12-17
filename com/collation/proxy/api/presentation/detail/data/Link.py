@@ -1,9 +1,12 @@
-def Link():
-    '''public Link()
+def ():
+    '''returns Link\n\n
+    ()\n
     '''
 def addLinkElem():
-    '''public void addLinkElem(final LinkElem linkElem)
+    '''returns None\n\n
+    addLinkElem(final LinkElem linkElem)\n
     '''
 def getLinkElems():
-    '''public List getLinkElems()
+    '''returns List\n\n
+    getLinkElems()\n
     '''

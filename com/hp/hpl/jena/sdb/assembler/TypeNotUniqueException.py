@@ -1,3 +1,4 @@
-def TypeNotUniqueException():
-    '''public TypeNotUniqueException(final Resource type, final String string)
+def ():
+    '''returns TypeNotUniqueException\n\n
+    (final Resource type, final String string)\n
     '''

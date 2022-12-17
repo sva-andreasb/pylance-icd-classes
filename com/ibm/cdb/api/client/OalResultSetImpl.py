@@ -1,77 +1,100 @@
-def OalResultSetImpl():
-    '''public OalResultSetImpl(final String sessionId, final DataServerInterface api, final String query, final Guid mss, final String[] permissions)
+def ():
+    '''returns OalResultSetImpl\n\n
+    (final String sessionId, final DataServerInterface api, final String query, final Guid mss, final String[] permissions)\n
     '''
 def getXML():
-    '''public String getXML(final int depth)
-    public String getXML(final int attributeIndex, final int depth)
-    public String getXML(final String attributeName, final int depth)
+    '''returns String\n\n
+    getXML(final int depth)\n
+    getXML(final int attributeIndex, final int depth)\n
+    getXML(final String attributeName, final int depth)\n
     '''
 def getString():
-    '''public String getString(final int attributeIndex)
-    public String getString(final String attributeName)
+    '''returns String\n\n
+    getString(final int attributeIndex)\n
+    getString(final String attributeName)\n
     '''
 def getLong():
-    '''public long getLong(final int attributeIndex)
-    public long getLong(final String attributeName)
+    '''returns long\n\n
+    getLong(final int attributeIndex)\n
+    getLong(final String attributeName)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final int attributeIndex)
-    public boolean getBoolean(final String attributeName)
+    '''returns boolean\n\n
+    getBoolean(final int attributeIndex)\n
+    getBoolean(final String attributeName)\n
     '''
 def getModelObject():
-    '''public ModelObject getModelObject(final int depth)
-    public ModelObject getModelObject(final int attributeIndex, final int depth)
-    public ModelObject getModelObject(final String attributeName, final int depth)
+    '''returns ModelObject\n\n
+    getModelObject(final int depth)\n
+    getModelObject(final int attributeIndex, final int depth)\n
+    getModelObject(final String attributeName, final int depth)\n
     '''
 def getMetaData():
-    '''public ObjectClass getMetaData()
+    '''returns ObjectClass\n\n
+    getMetaData()\n
     '''
 def hasAttribute():
-    '''public boolean hasAttribute(final int attributeIndex)
-    public boolean hasAttribute(final String attributeName)
+    '''returns boolean\n\n
+    hasAttribute(final int attributeIndex)\n
+    hasAttribute(final String attributeName)\n
     '''
 def getResultMetaData():
-    '''public ResultMetaData getResultMetaData()
+    '''returns ResultMetaData\n\n
+    getResultMetaData()\n
     '''
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def setFetchSize():
-    '''public void setFetchSize(final int rows)
+    '''returns None\n\n
+    setFetchSize(final int rows)\n
     '''
 def getFetchSize():
-    '''public int getFetchSize()
+    '''returns int\n\n
+    getFetchSize()\n
     '''
 def absolute():
-    '''public boolean absolute(final int index)
+    '''returns boolean\n\n
+    absolute(final int index)\n
     '''
 def first():
-    '''public boolean first()
+    '''returns boolean\n\n
+    first()\n
     '''
 def last():
-    '''public boolean last()
+    '''returns boolean\n\n
+    last()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def relative():
-    '''public boolean relative(final int index)
+    '''returns boolean\n\n
+    relative(final int index)\n
     '''
 def previous():
-    '''public boolean previous()
+    '''returns boolean\n\n
+    previous()\n
     '''
 def isFirst():
-    '''public boolean isFirst()
+    '''returns boolean\n\n
+    isFirst()\n
     '''
 def isLast():
-    '''public boolean isLast()
+    '''returns boolean\n\n
+    isLast()\n
     '''
 def isBeforeFirst():
-    '''public boolean isBeforeFirst()
+    '''returns boolean\n\n
+    isBeforeFirst()\n
     '''
 def isAfterLast():
-    '''public boolean isAfterLast()
+    '''returns boolean\n\n
+    isAfterLast()\n
     '''

@@ -1,16 +1,21 @@
-def AuthSealedObject():
-    '''public AuthSealedObject(final Serializable obj)
-    public AuthSealedObject(final SealedObject so, final String salt)
+def ():
+    '''returns AuthSealedObject\n\n
+    (final Serializable obj)\n
+    (final SealedObject so, final String salt)\n
     '''
 def getObject():
-    '''public Object getObject()
+    '''returns Object\n\n
+    getObject()\n
     '''
 def unSeal():
-    '''public Object unSeal(final char[] password)
+    '''returns Object\n\n
+    unSeal(final char[] password)\n
     '''
 def getSalt():
-    '''public String getSalt()
+    '''returns String\n\n
+    getSalt()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

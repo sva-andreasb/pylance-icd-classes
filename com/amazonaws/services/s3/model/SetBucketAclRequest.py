@@ -1,13 +1,17 @@
-def SetBucketAclRequest():
-    '''public SetBucketAclRequest(final String bucketName, final AccessControlList acl)
-    public SetBucketAclRequest(final String bucketName, final CannedAccessControlList acl)
+def ():
+    '''returns SetBucketAclRequest\n\n
+    (final String bucketName, final AccessControlList acl)\n
+    (final String bucketName, final CannedAccessControlList acl)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def getAcl():
-    '''public AccessControlList getAcl()
+    '''returns AccessControlList\n\n
+    getAcl()\n
     '''
 def getCannedAcl():
-    '''public CannedAccessControlList getCannedAcl()
+    '''returns CannedAccessControlList\n\n
+    getCannedAcl()\n
     '''

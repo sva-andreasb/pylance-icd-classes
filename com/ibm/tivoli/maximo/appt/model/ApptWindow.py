@@ -1,54 +1,72 @@
-def ApptWindow():
-    '''public ApptWindow(final String name)
+def ():
+    '''returns ApptWindow\n\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getBucket():
-    '''public ApptBucket getBucket(final Date date, final boolean create)
+    '''returns ApptBucket\n\n
+    getBucket(final Date date, final boolean create)\n
     '''
 def addAppointment():
-    '''public ApptBucket addAppointment(final Appointment appt)
+    '''returns ApptBucket\n\n
+    addAppointment(final Appointment appt)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getStart():
-    '''public Date getStart()
+    '''returns Date\n\n
+    getStart()\n
     '''
 def iterator():
-    '''public Iterator<ApptBucket> iterator()
+    '''returns Iterator<ApptBucket>\n\n
+    iterator()\n
     '''
 def setMemo():
-    '''public void setMemo(final String memo)
+    '''returns None\n\n
+    setMemo(final String memo)\n
     '''
 def setEariestTime():
-    '''public void setEariestTime(final Date date)
+    '''returns None\n\n
+    setEariestTime(final Date date)\n
     '''
 def setLatestTime():
-    '''public void setLatestTime(final Date date)
+    '''returns None\n\n
+    setLatestTime(final Date date)\n
     '''
 def getMemo():
-    '''public String getMemo()
+    '''returns String\n\n
+    getMemo()\n
     '''
 def getEarliestStart():
-    '''public Date getEarliestStart()
+    '''returns Date\n\n
+    getEarliestStart()\n
     '''
 def getLatestFinish():
-    '''public Date getLatestFinish()
+    '''returns Date\n\n
+    getLatestFinish()\n
     '''
 def getBuckets():
-    '''public List<ApptBucket> getBuckets()
+    '''returns List<ApptBucket>\n\n
+    getBuckets()\n
     '''

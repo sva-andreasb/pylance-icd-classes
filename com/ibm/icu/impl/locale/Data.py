@@ -1,12 +1,12 @@
-def Data():
-    '''public Data(final byte[] trie, final byte[] regionToPartitionsIndex, final String[] partitionArrays, final Set<LSR> paradigmLSRs, final int[] distances)
-    '''
-def load():
-    '''public static Data load()
+def ():
+    '''returns Data\n\n
+    (final byte[] trie, final byte[] regionToPartitionsIndex, final String[] partitionArrays, final Set<LSR> paradigmLSRs, final int[] distances)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

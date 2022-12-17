@@ -1,15 +1,19 @@
-def PipelineFactory():
-    '''public PipelineFactory(final ImageManager manager)
+def ():
+    '''returns PipelineFactory\n\n
+    (final ImageManager manager)\n
     '''
 def newImageConverterPipeline():
-    '''public ImageProviderPipeline newImageConverterPipeline(final Image originalImage, final ImageFlavor targetFlavor)
-    public ImageProviderPipeline newImageConverterPipeline(final ImageInfo imageInfo, final ImageFlavor targetFlavor)
+    '''returns ImageProviderPipeline\n\n
+    newImageConverterPipeline(final Image originalImage, final ImageFlavor targetFlavor)\n
+    newImageConverterPipeline(final ImageInfo imageInfo, final ImageFlavor targetFlavor)\n
     '''
 def determineCandidatePipelines():
-    '''public ImageProviderPipeline[] determineCandidatePipelines(final ImageInfo imageInfo, final ImageFlavor targetFlavor)
-    public ImageProviderPipeline[] determineCandidatePipelines(final ImageInfo imageInfo, final ImageFlavor[] flavors)
-    public ImageProviderPipeline[] determineCandidatePipelines(final Image sourceImage, final ImageFlavor[] flavors)
+    '''returns ImageProviderPipeline[]\n\n
+    determineCandidatePipelines(final ImageInfo imageInfo, final ImageFlavor targetFlavor)\n
+    determineCandidatePipelines(final ImageInfo imageInfo, final ImageFlavor[] flavors)\n
+    determineCandidatePipelines(final Image sourceImage, final ImageFlavor[] flavors)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''

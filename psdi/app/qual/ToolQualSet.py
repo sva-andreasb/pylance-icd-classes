@@ -1,3 +1,4 @@
-def ToolQualSet():
-    '''public ToolQualSet(final MboServerInterface ms)
+def ():
+    '''returns ToolQualSet\n\n
+    (final MboServerInterface ms)\n
     '''

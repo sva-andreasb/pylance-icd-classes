@@ -1,13 +1,17 @@
-def OrFilter():
-    '''public OrFilter()
-    public OrFilter(final PacketFilter filter1, final PacketFilter filter2)
+def ():
+    '''returns OrFilter\n\n
+    ()\n
+    (final PacketFilter filter1, final PacketFilter filter2)\n
     '''
 def addFilter():
-    '''public void addFilter(final PacketFilter filter)
+    '''returns None\n\n
+    addFilter(final PacketFilter filter)\n
     '''
 def accept():
-    '''public boolean accept(final Packet packet)
+    '''returns boolean\n\n
+    accept(final Packet packet)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

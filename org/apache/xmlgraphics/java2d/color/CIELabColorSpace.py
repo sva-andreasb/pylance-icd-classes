@@ -1,44 +1,50 @@
-def CIELabColorSpace():
-    '''public CIELabColorSpace()
-    public CIELabColorSpace(final float[] whitePoint)
-    '''
-def getD65WhitePoint():
-    '''public static float[] getD65WhitePoint()
-    '''
-def getD50WhitePoint():
-    '''public static float[] getD50WhitePoint()
+def ():
+    '''returns CIELabColorSpace\n\n
+    ()\n
+    (final float[] whitePoint)\n
     '''
 def getWhitePoint():
-    '''public float[] getWhitePoint()
+    '''returns float[]\n\n
+    getWhitePoint()\n
     '''
 def getMinValue():
-    '''public float getMinValue(final int component)
+    '''returns float\n\n
+    getMinValue(final int component)\n
     '''
 def getMaxValue():
-    '''public float getMaxValue(final int component)
+    '''returns float\n\n
+    getMaxValue(final int component)\n
     '''
 def getName():
-    '''public String getName(final int component)
+    '''returns String\n\n
+    getName(final int component)\n
     '''
 def fromCIEXYZ():
-    '''public float[] fromCIEXYZ(final float[] colorvalue)
+    '''returns float[]\n\n
+    fromCIEXYZ(final float[] colorvalue)\n
     '''
 def fromRGB():
-    '''public float[] fromRGB(final float[] rgbvalue)
+    '''returns float[]\n\n
+    fromRGB(final float[] rgbvalue)\n
     '''
 def toCIEXYZ():
-    '''public float[] toCIEXYZ(final float[] colorvalue)
+    '''returns float[]\n\n
+    toCIEXYZ(final float[] colorvalue)\n
     '''
 def toCIEXYZNative():
-    '''public float[] toCIEXYZNative(final float l, final float a, final float b)
+    '''returns float[]\n\n
+    toCIEXYZNative(final float l, final float a, final float b)\n
     '''
 def toRGB():
-    '''public float[] toRGB(final float[] colorvalue)
+    '''returns float[]\n\n
+    toRGB(final float[] colorvalue)\n
     '''
 def toNativeComponents():
-    '''public float[] toNativeComponents(final float[] comps)
+    '''returns float[]\n\n
+    toNativeComponents(final float[] comps)\n
     '''
 def toColor():
-    '''public Color toColor(final float[] colorvalue, final float alpha)
-    public Color toColor(final float l, final float a, final float b, final float alpha)
+    '''returns Color\n\n
+    toColor(final float[] colorvalue, final float alpha)\n
+    toColor(final float l, final float a, final float b, final float alpha)\n
     '''

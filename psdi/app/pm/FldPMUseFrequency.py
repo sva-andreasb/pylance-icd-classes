@@ -1,9 +1,12 @@
-def FldPMUseFrequency():
-    '''public FldPMUseFrequency(final MboValue mbv)
+def ():
+    '''returns FldPMUseFrequency\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

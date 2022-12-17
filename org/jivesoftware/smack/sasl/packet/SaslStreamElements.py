@@ -1,59 +1,61 @@
 NAMESPACE = "String  \"urn:ietf:params:xml:ns:xmpp-sasl\""
 ELEMENT = "String  \"failure\""
-def AuthMechanism():
-    '''public AuthMechanism(final String mechanism, final String authenticationText)
+def ():
+    '''returns SASLFailure\n\n
+    (final String mechanism, final String authenticationText)\n
+    (final String data)\n
+    ()\n
+    (final String authenticationText)\n
+    (final String data)\n
+    (final String saslError)\n
+    (final String saslError, final Map<String, String> descriptiveTexts)\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getMechanism():
-    '''public String getMechanism()
+    '''returns String\n\n
+    getMechanism()\n
     '''
 def getAuthenticationText():
-    '''public String getAuthenticationText()
-    public String getAuthenticationText()
+    '''returns String\n\n
+    getAuthenticationText()\n
+    getAuthenticationText()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    public String getNamespace()
-    public String getNamespace()
-    public String getNamespace()
-    public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
+    getNamespace()\n
+    getNamespace()\n
+    getNamespace()\n
+    getNamespace()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    '''
-def Challenge():
-    '''public Challenge(final String data)
-    '''
-def Response():
-    '''public Response()
-    public Response(final String authenticationText)
-    '''
-def Success():
-    '''public Success(final String data)
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getData():
-    '''public String getData()
-    '''
-def SASLFailure():
-    '''public SASLFailure(final String saslError)
-    public SASLFailure(final String saslError, final Map<String, String> descriptiveTexts)
+    '''returns String\n\n
+    getData()\n
     '''
 def getSASLError():
-    '''public SASLError getSASLError()
+    '''returns SASLError\n\n
+    getSASLError()\n
     '''
 def getSASLErrorString():
-    '''public String getSASLErrorString()
+    '''returns String\n\n
+    getSASLErrorString()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

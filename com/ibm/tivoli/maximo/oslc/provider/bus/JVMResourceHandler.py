@@ -1,6 +1,8 @@
-def JVMResourceHandler():
-    '''public JVMResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns JVMResourceHandler\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''

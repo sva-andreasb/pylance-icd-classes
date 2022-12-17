@@ -1,3 +1,4 @@
-def FldSoftwarNameCSoftwareName():
-    '''public FldSoftwarNameCSoftwareName(final MboValue mbv)
+def ():
+    '''returns FldSoftwarNameCSoftwareName\n\n
+    (final MboValue mbv)\n
     '''

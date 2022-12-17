@@ -1,6 +1,8 @@
-def DMSourceVersionSet():
-    '''public DMSourceVersionSet(final MboServerInterface ms)
+def ():
+    '''returns DMSourceVersionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

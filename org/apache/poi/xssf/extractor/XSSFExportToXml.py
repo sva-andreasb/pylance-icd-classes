@@ -1,10 +1,13 @@
-def XSSFExportToXml():
-    '''public XSSFExportToXml(final XSSFMap map)
+def ():
+    '''returns XSSFExportToXml\n\n
+    (final XSSFMap map)\n
     '''
 def exportToXML():
-    '''public void exportToXML(final OutputStream os, final boolean validate)
-    public void exportToXML(final OutputStream os, final String encoding, final boolean validate)
+    '''returns None\n\n
+    exportToXML(final OutputStream os, final boolean validate)\n
+    exportToXML(final OutputStream os, final String encoding, final boolean validate)\n
     '''
 def compare():
-    '''public int compare(final String leftXpath, final String rightXpath)
+    '''returns int\n\n
+    compare(final String leftXpath, final String rightXpath)\n
     '''

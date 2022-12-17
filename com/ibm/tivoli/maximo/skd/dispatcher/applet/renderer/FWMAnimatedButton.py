@@ -1,18 +1,24 @@
-def FWMAnimatedButton():
-    '''public FWMAnimatedButton(final Action a, final Icon fixedIcon, final String[] frames)
+def ():
+    '''returns FWMAnimatedButton\n\n
+    (final Action a, final Icon fixedIcon, final String[] frames)\n
     '''
 def startAnimate():
-    '''public void startAnimate()
+    '''returns None\n\n
+    startAnimate()\n
     '''
 def stopAnimate():
-    '''public void stopAnimate()
+    '''returns None\n\n
+    stopAnimate()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def isAnimating():
-    '''public boolean isAnimating()
+    '''returns boolean\n\n
+    isAnimating()\n
     '''
 def setAnimating():
-    '''public void setAnimating(final boolean isAnimating)
+    '''returns None\n\n
+    setAnimating(final boolean isAnimating)\n
     '''

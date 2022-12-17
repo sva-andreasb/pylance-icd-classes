@@ -1,3 +1,4 @@
-def FldDataSet2AttributeDesc():
-    '''public FldDataSet2AttributeDesc(final MboValue mbv)
+def ():
+    '''returns FldDataSet2AttributeDesc\n\n
+    (final MboValue mbv)\n
     '''

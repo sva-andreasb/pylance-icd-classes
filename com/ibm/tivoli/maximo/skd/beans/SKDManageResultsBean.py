@@ -1,6 +1,8 @@
 def submit():
-    '''public int submit()
+    '''returns int\n\n
+    submit()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

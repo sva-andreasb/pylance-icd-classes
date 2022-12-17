@@ -1,36 +1,48 @@
-def TicketSet():
-    '''public TicketSet(final MboServerInterface ms)
+def ():
+    '''returns TicketSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setHistory():
-    '''public void setHistory(final boolean historyTikcets)
+    '''returns None\n\n
+    setHistory(final boolean historyTikcets)\n
     '''
 def setCurrent():
-    '''public void setCurrent(final boolean currentTickets)
+    '''returns None\n\n
+    setCurrent(final boolean currentTickets)\n
     '''
 def getHistory():
-    '''public boolean getHistory()
+    '''returns boolean\n\n
+    getHistory()\n
     '''
 def getCurrent():
-    '''public boolean getCurrent()
+    '''returns boolean\n\n
+    getCurrent()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def filterByLinearAsset():
-    '''public void filterByLinearAsset(final MboSetRemote fltrSet)
+    '''returns None\n\n
+    filterByLinearAsset(final MboSetRemote fltrSet)\n
     '''
 def getOriginalTicketQbe():
-    '''public Hashtable getOriginalTicketQbe()
+    '''returns Hashtable\n\n
+    getOriginalTicketQbe()\n
     '''
 def getOriginalTicketUserWhere():
-    '''public String getOriginalTicketUserWhere()
+    '''returns String\n\n
+    getOriginalTicketUserWhere()\n
     '''
 def setOriginalTicketUserWhere():
-    '''public void setOriginalTicketUserWhere(final String inWhere)
+    '''returns None\n\n
+    setOriginalTicketUserWhere(final String inWhere)\n
     '''
 def setOriginalTicketQbe():
-    '''public void setOriginalTicketQbe(final Hashtable inQbe)
+    '''returns None\n\n
+    setOriginalTicketQbe(final Hashtable inQbe)\n
     '''

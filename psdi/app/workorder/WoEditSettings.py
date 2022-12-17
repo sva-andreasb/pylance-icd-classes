@@ -1,30 +1,40 @@
-def WoEditSettings():
-    '''public WoEditSettings(final boolean editGL, final boolean editAsset, final boolean editLoc, final boolean editWpLab, final boolean editWpMat, final boolean editWpSer, final boolean editWpTool, final boolean editSafety)
+def ():
+    '''returns WoEditSettings\n\n
+    (final boolean editGL, final boolean editAsset, final boolean editLoc, final boolean editWpLab, final boolean editWpMat, final boolean editWpSer, final boolean editWpTool, final boolean editSafety)\n
     '''
 def canEditGL():
-    '''public boolean canEditGL()
+    '''returns boolean\n\n
+    canEditGL()\n
     '''
 def canEditAsset():
-    '''public boolean canEditAsset()
+    '''returns boolean\n\n
+    canEditAsset()\n
     '''
 def canEditLoc():
-    '''public boolean canEditLoc()
+    '''returns boolean\n\n
+    canEditLoc()\n
     '''
 def canEditWpLab():
-    '''public boolean canEditWpLab()
+    '''returns boolean\n\n
+    canEditWpLab()\n
     '''
 def canEditWpMat():
-    '''public boolean canEditWpMat()
+    '''returns boolean\n\n
+    canEditWpMat()\n
     '''
 def canEditWpSer():
-    '''public boolean canEditWpSer()
+    '''returns boolean\n\n
+    canEditWpSer()\n
     '''
 def canEditWpTool():
-    '''public boolean canEditWpTool()
+    '''returns boolean\n\n
+    canEditWpTool()\n
     '''
 def canEditSafety():
-    '''public boolean canEditSafety()
+    '''returns boolean\n\n
+    canEditSafety()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

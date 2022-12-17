@@ -6,47 +6,57 @@ JSCHE_BOOLEAN = "String  \"boolean\""
 JSCHE_ARRAY = "String  \"array\""
 JSCHE_OBJECT = "String  \"object\""
 def setResourceProperties():
-    '''public void setResourceProperties(final Map<String, OslcResourceProperty> resourceProperties)
+    '''returns None\n\n
+    setResourceProperties(final Map<String, OslcResourceProperty> resourceProperties)\n
     '''
 def setZombie():
-    '''public void setZombie(final MboRemote zombie)
+    '''returns None\n\n
+    setZombie(final MboRemote zombie)\n
     '''
-def OslcMboJsonSchemaGenerator():
-    '''public OslcMboJsonSchemaGenerator(final boolean oasSchemaCompliance)
-    public OslcMboJsonSchemaGenerator(final OslcRequest oslcRequest, final String objectName, final boolean oasSchemaCompliance)
-    public OslcMboJsonSchemaGenerator(final OslcRequest oslcRequest, final String objectName, final MboRemote owner, final String relation, final boolean oasSchemaCompliance)
+def ():
+    '''returns OslcMboJsonSchemaGenerator\n\n
+    (final boolean oasSchemaCompliance)\n
+    (final OslcRequest oslcRequest, final String objectName, final boolean oasSchemaCompliance)\n
+    (final OslcRequest oslcRequest, final String objectName, final MboRemote owner, final String relation, final boolean oasSchemaCompliance)\n
     '''
 def createLiteralProperty():
-    '''public void createLiteralProperty(final boolean occurs, final String propName, final JSONSchema js, final String propNs, final String valueType, final MboValueInfo colInfo, final Mbo zombieMbo)
+    '''returns None\n\n
+    createLiteralProperty(final boolean occurs, final String propName, final JSONSchema js, final String propNs, final String valueType, final MboValueInfo colInfo, final Mbo zombieMbo)\n
     '''
 def createRelationLiteralProperty():
-    '''public void createRelationLiteralProperty(final boolean occurs, final String propName, final JSONSchema js, final MboValueInfo mvi, final MboValueInfoStatic mvis, final String overrideTitle)
+    '''returns None\n\n
+    createRelationLiteralProperty(final boolean occurs, final String propName, final JSONSchema js, final MboValueInfo mvi, final MboValueInfoStatic mvis, final String overrideTitle)\n
     '''
 def relationJSONSchema():
-    '''public void relationJSONSchema(final String xattr, String curxattr, final MboSetRemote msr, final Mbo zombieMbo, final JSONSchema jsonSchema)
-    public void relationJSONSchema(final String xattr, String curxattr, final MboSetRemote msr, final Mbo zombieMbo, final JSONSchema jsonSchema, final String alias)
+    '''returns None\n\n
+    relationJSONSchema(final String xattr, String curxattr, final MboSetRemote msr, final Mbo zombieMbo, final JSONSchema jsonSchema)\n
+    relationJSONSchema(final String xattr, String curxattr, final MboSetRemote msr, final Mbo zombieMbo, final JSONSchema jsonSchema, final String alias)\n
     '''
 def relatedJSONSchema():
-    '''public void relatedJSONSchema(final String xattr, final String curxattr, final MboSetRemote msr, final Mbo zombieMbo, final JSONSchema jsonSchema, final Map<String, OslcResourceProperty> resProp)
+    '''returns None\n\n
+    relatedJSONSchema(final String xattr, final String curxattr, final MboSetRemote msr, final Mbo zombieMbo, final JSONSchema jsonSchema, final Map<String, OslcResourceProperty> resProp)\n
     '''
 def generateJSONSchema():
-    '''public JSONSchema generateJSONSchema()
+    '''returns JSONSchema\n\n
+    generateJSONSchema()\n
     '''
 def getRepresentation():
-    '''public OslcResourceResponse getRepresentation()
+    '''returns OslcResourceResponse\n\n
+    getRepresentation()\n
     '''
 def getRepresentationAsJSON():
-    '''public JSONObject getRepresentationAsJSON()
+    '''returns JSONObject\n\n
+    getRepresentationAsJSON()\n
     '''
 def getShape():
-    '''public byte[] getShape()
+    '''returns byte[]\n\n
+    getShape()\n
     '''
 def addPrimaryKeys():
-    '''public void addPrimaryKeys(final JSONSchema jsonSchema, final String objectName)
-    '''
-def getMapDesc():
-    '''public Map<String, String> getMapDesc()
+    '''returns None\n\n
+    addPrimaryKeys(final JSONSchema jsonSchema, final String objectName)\n
     '''
 def setMapDesc():
-    '''public void setMapDesc(final Map<String, String> mapDesc)
+    '''returns None\n\n
+    setMapDesc(final Map<String, String> mapDesc)\n
     '''

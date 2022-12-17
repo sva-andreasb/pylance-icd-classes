@@ -1,10 +1,13 @@
-def MultipartAttachmentStreams():
-    '''public MultipartAttachmentStreams(final BoundaryDelimitedStream delimitedStream)
-    public MultipartAttachmentStreams(final BoundaryDelimitedStream delimitedStream, final Collection priorParts)
+def ():
+    '''returns MultipartAttachmentStreams\n\n
+    (final BoundaryDelimitedStream delimitedStream)\n
+    (final BoundaryDelimitedStream delimitedStream, final Collection priorParts)\n
     '''
 def setAttachmentsPriorToSoapPart():
-    '''public void setAttachmentsPriorToSoapPart(final Iterator iterator)
+    '''returns None\n\n
+    setAttachmentsPriorToSoapPart(final Iterator iterator)\n
     '''
 def getNextStream():
-    '''public IncomingAttachmentInputStream getNextStream()
+    '''returns IncomingAttachmentInputStream\n\n
+    getNextStream()\n
     '''

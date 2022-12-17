@@ -1,21 +1,20 @@
-def getLock():
-    '''public static Object getLock()
-    '''
-def ParserIdFactory():
-    '''public ParserIdFactory(final long projectId, final UserInfo userInfo, final ModelLoaderOptions options)
+def ():
+    '''returns ParserIdFactory\n\n
+    (final long projectId, final UserInfo userInfo, final ModelLoaderOptions options)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getSystenLevelId():
-    '''public String getSystenLevelId(final int length)
+    '''returns String\n\n
+    getSystenLevelId(final int length)\n
     '''
 def getUniqueId():
-    '''public String getUniqueId(final String pageName)
-    '''
-def calcIdLength():
-    '''public static int calcIdLength(final UserInfo userInfo)
+    '''returns String\n\n
+    getUniqueId(final String pageName)\n
     '''

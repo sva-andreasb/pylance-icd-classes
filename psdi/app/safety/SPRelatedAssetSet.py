@@ -1,3 +1,4 @@
-def SPRelatedAssetSet():
-    '''public SPRelatedAssetSet(final MboServerInterface ms)
+def ():
+    '''returns SPRelatedAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''

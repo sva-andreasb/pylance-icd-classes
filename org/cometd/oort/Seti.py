@@ -1,78 +1,98 @@
-def Seti():
-    '''public Seti(final Oort oort)
+def ():
+    '''returns Event\n\n
+    (final Oort oort)\n
+    (final Seti source, final String userId, final String url)\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def setDebugEnabled():
-    '''public void setDebugEnabled(final boolean debug)
+    '''returns None\n\n
+    setDebugEnabled(final boolean debug)\n
     '''
 def getOort():
-    '''public Oort getOort()
+    '''returns Oort\n\n
+    getOort()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def configureChannel():
-    '''public void configureChannel(final ConfigurableServerChannel channel)
-    public void configureChannel(final ConfigurableServerChannel channel)
-    public void configureChannel(final ConfigurableServerChannel channel)
+    '''returns None\n\n
+    configureChannel(final ConfigurableServerChannel channel)\n
+    configureChannel(final ConfigurableServerChannel channel)\n
+    configureChannel(final ConfigurableServerChannel channel)\n
     '''
 def onMessage():
-    '''public void onMessage(final ClientSessionChannel channel, final Message message)
-    public void onMessage(final ClientSessionChannel channel, final Message message)
+    '''returns None\n\n
+    onMessage(final ClientSessionChannel channel, final Message message)\n
+    onMessage(final ClientSessionChannel channel, final Message message)\n
     '''
 def associate():
-    '''public boolean associate(final String userId, final ServerSession session)
+    '''returns boolean\n\n
+    associate(final String userId, final ServerSession session)\n
     '''
 def isAssociated():
-    '''public boolean isAssociated(final String userId)
+    '''returns boolean\n\n
+    isAssociated(final String userId)\n
     '''
 def isPresent():
-    '''public boolean isPresent(final String userId)
+    '''returns boolean\n\n
+    isPresent(final String userId)\n
     '''
 def disassociate():
-    '''public boolean disassociate(final String userId, final ServerSession session)
+    '''returns boolean\n\n
+    disassociate(final String userId, final ServerSession session)\n
     '''
 def sendMessage():
-    '''public void sendMessage(final String toUserId, final String toChannel, final Object data)
-    public void sendMessage(final Collection<String> toUserIds, final String toChannel, final Object data)
+    '''returns None\n\n
+    sendMessage(final String toUserId, final String toChannel, final Object data)\n
+    sendMessage(final Collection<String> toUserIds, final String toChannel, final Object data)\n
     '''
 def addPresenceListener():
-    '''public void addPresenceListener(final PresenceListener listener)
+    '''returns None\n\n
+    addPresenceListener(final PresenceListener listener)\n
     '''
 def removePresenceListener():
-    '''public void removePresenceListener(final PresenceListener listener)
+    '''returns None\n\n
+    removePresenceListener(final PresenceListener listener)\n
     '''
 def send():
-    '''public void send(final String toUser, final String toChannel, final Object data)
-    public void send(final String toUser, final String toChannel, final Object data)
+    '''returns None\n\n
+    send(final String toUser, final String toChannel, final Object data)\n
+    send(final String toUser, final String toChannel, final Object data)\n
     '''
 def receive():
-    '''public void receive(final String toUser, final String toChannel, final Object data)
-    public void receive(final String toUser, final String toChannel, final Object data)
+    '''returns None\n\n
+    receive(final String toUser, final String toChannel, final Object data)\n
+    receive(final String toUser, final String toChannel, final Object data)\n
     '''
 def removed():
-    '''public void removed(final ServerSession session, final boolean timeout)
+    '''returns None\n\n
+    removed(final ServerSession session, final boolean timeout)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def Event():
-    '''public Event(final Seti source, final String userId, final String url)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''

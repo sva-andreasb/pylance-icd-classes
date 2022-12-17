@@ -1,9 +1,12 @@
-def SKDWOTaskSplitBean():
-    '''public SKDWOTaskSplitBean()
+def ():
+    '''returns SKDWOTaskSplitBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def updateAllHours():
-    '''public int updateAllHours()
+    '''returns int\n\n
+    updateAllHours()\n
     '''

@@ -1,7 +1,9 @@
-def CCIFldCopyAttributesForNewCIs():
-    '''public CCIFldCopyAttributesForNewCIs()
-    public CCIFldCopyAttributesForNewCIs(final MboValue mbv)
+def ():
+    '''returns CCIFldCopyAttributesForNewCIs\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,12 +1,15 @@
 DEFAULT_PORT = "int  7"
-def EchoUDPClient():
-    '''public EchoUDPClient()
+def ():
+    '''returns EchoUDPClient\n\n
+    ()\n
     '''
 def send():
-    '''public void send(final byte[] data, final int length, final InetAddress host)
-    public void send(final byte[] data, final InetAddress host)
+    '''returns None\n\n
+    send(final byte[] data, final int length, final InetAddress host)\n
+    send(final byte[] data, final InetAddress host)\n
     '''
 def receive():
-    '''public int receive(final byte[] data, final int length)
-    public int receive(final byte[] data)
+    '''returns int\n\n
+    receive(final byte[] data, final int length)\n
+    receive(final byte[] data)\n
     '''

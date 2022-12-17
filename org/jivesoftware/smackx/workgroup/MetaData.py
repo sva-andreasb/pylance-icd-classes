@@ -1,17 +1,18 @@
 ELEMENT_NAME = "String  \"metadata\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
-def MetaData():
-    '''public MetaData(final Map<String, List<String>> metaData)
-    '''
-def getMetaData():
-    '''public Map<String, List<String>> getMetaData()
+def ():
+    '''returns MetaData\n\n
+    (final Map<String, List<String>> metaData)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''

@@ -1,7 +1,9 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloDexprLevelKeyHandler():
-    '''public IloDexprLevelKeyHandler(final IloDefaultRecursiveHandler previous)
+def ():
+    '''returns IloDexprLevelKeyHandler\n\n
+    (final IloDefaultRecursiveHandler previous)\n
     '''
 def getKeyDesc():
-    '''public IloKeyDesc getKeyDesc()
+    '''returns IloKeyDesc\n\n
+    getKeyDesc()\n
     '''

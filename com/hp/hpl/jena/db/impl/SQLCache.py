@@ -1,66 +1,52 @@
-def SQLCache():
-    '''public SQLCache(final String sqlFile, final Properties defaultOps, final IDBConnection connection, final String idType)
+def ():
+    '''returns SQLCache\n\n
+    (final String sqlFile, final Properties defaultOps, final IDBConnection connection, final String idType)\n
     '''
 def setCachePreparedStatements():
-    '''public void setCachePreparedStatements(final boolean state)
+    '''returns None\n\n
+    setCachePreparedStatements(final boolean state)\n
     '''
 def getCachePreparedStatements():
-    '''public boolean getCachePreparedStatements()
+    '''returns boolean\n\n
+    getCachePreparedStatements()\n
     '''
 def flushPreparedStatementCache():
-    '''public void flushPreparedStatementCache()
+    '''returns None\n\n
+    flushPreparedStatementCache()\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def setConnection():
-    '''public void setConnection(final IDBConnection connection)
+    '''returns None\n\n
+    setConnection(final IDBConnection connection)\n
     '''
 def getSQLStatement():
-    '''public String getSQLStatement(final String opname)
-    public String getSQLStatement(final String opname, final String[] attr)
-    public String getSQLStatement(final String opname, final String attr)
-    public String getSQLStatement(final String opname, final String attrA, final String attrB)
+    '''returns String\n\n
+    getSQLStatement(final String opname)\n
+    getSQLStatement(final String opname, final String[] attr)\n
+    getSQLStatement(final String opname, final String attr)\n
+    getSQLStatement(final String opname, final String attrA, final String attrB)\n
     '''
 def getSQLStatementGroup():
-    '''public Collection<String> getSQLStatementGroup(final String opname)
-    '''
-def getPreparedSQLStatement():
-    '''public synchronized PreparedStatement getPreparedSQLStatement(final String opname, final String[] attr)
-    public synchronized PreparedStatement getPreparedSQLStatement(final String opname)
-    public synchronized PreparedStatement getPreparedSQLStatement(final String opname, final String attr)
-    public synchronized PreparedStatement getPreparedSQLStatement(final String opname, final String attrA, final String attrB)
-    '''
-def prepareSQLStatement():
-    '''public synchronized PreparedStatement prepareSQLStatement(final String sql)
-    '''
-def returnPreparedSQLStatement():
-    '''public synchronized void returnPreparedSQLStatement(final PreparedStatement ps)
+    '''returns Collection<String>\n\n
+    getSQLStatementGroup(final String opname)\n
     '''
 def runSQLUpdate():
-    '''public int runSQLUpdate(final String opname, final Object[] args)
-    public int runSQLUpdate(final String opname, final String attrA, final Object[] args)
-    public int runSQLUpdate(final String opname, final String attrA, final String attrB, final Object[] args)
+    '''returns int\n\n
+    runSQLUpdate(final String opname, final Object[] args)\n
+    runSQLUpdate(final String opname, final String attrA, final Object[] args)\n
+    runSQLUpdate(final String opname, final String attrA, final String attrB, final Object[] args)\n
     '''
 def runSQLGroup():
-    '''public void runSQLGroup(final String opname, final String[] attr)
-    public void runSQLGroup(final String opname)
-    public void runSQLGroup(final String opname, final String attr)
-    public void runSQLGroup(final String opname, final String attrA, final String attrB)
+    '''returns None\n\n
+    runSQLGroup(final String opname, final String[] attr)\n
+    runSQLGroup(final String opname)\n
+    runSQLGroup(final String opname, final String attr)\n
+    runSQLGroup(final String opname, final String attrA, final String attrB)\n
     '''
 def close():
-    '''public void close()
-    '''
-def loadSQLFile():
-    '''public static Properties loadSQLFile(final String sqlFile, final Properties defaultOps, final String idType)
-    '''
-def concatOpName():
-    '''public static String concatOpName(final String opName, final String attr)
-    public static String concatOpName(final String opName, final String attrA, final String attrB)
-    '''
-def substitute():
-    '''public static String substitute(final String line, final String macro, final String subs)
-    '''
-def openResourceFile():
-    '''public static BufferedReader openResourceFile(final String filename)
+    '''returns None\n\n
+    close()\n
     '''

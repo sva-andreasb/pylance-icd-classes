@@ -1,60 +1,77 @@
-def TypeMappingImpl():
-    '''public TypeMappingImpl()
+def ():
+    '''returns Pair\n\n
+    ()\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def getSupportedEncodings():
-    '''public String[] getSupportedEncodings()
+    '''returns String[]\n\n
+    getSupportedEncodings()\n
     '''
 def setSupportedEncodings():
-    '''public void setSupportedEncodings(final String[] namespaceURIs)
+    '''returns None\n\n
+    setSupportedEncodings(final String[] namespaceURIs)\n
     '''
 def isRegistered():
-    '''public boolean isRegistered(final Class javaType, final QName xmlType)
+    '''returns boolean\n\n
+    isRegistered(final Class javaType, final QName xmlType)\n
     '''
 def register():
-    '''public void register(final Class javaType, final QName xmlType, final SerializerFactory sf, final DeserializerFactory dsf)
+    '''returns None\n\n
+    register(final Class javaType, final QName xmlType, final SerializerFactory sf, final DeserializerFactory dsf)\n
     '''
 def getSerializer():
-    '''public SerializerFactory getSerializer(final Class javaType, QName xmlType)
+    '''returns SerializerFactory\n\n
+    getSerializer(final Class javaType, QName xmlType)\n
     '''
 def getXMLType():
-    '''public QName getXMLType(final Class javaType, QName xmlType, final boolean encoded)
+    '''returns QName\n\n
+    getXMLType(final Class javaType, QName xmlType, final boolean encoded)\n
     '''
 def getDeserializer():
-    '''public DeserializerFactory getDeserializer(Class javaType, final QName xmlType, final TypeMappingDelegate start)
+    '''returns DeserializerFactory\n\n
+    getDeserializer(Class javaType, final QName xmlType, final TypeMappingDelegate start)\n
     '''
 def removeSerializer():
-    '''public void removeSerializer(final Class javaType, final QName xmlType)
+    '''returns None\n\n
+    removeSerializer(final Class javaType, final QName xmlType)\n
     '''
 def removeDeserializer():
-    '''public void removeDeserializer(final Class javaType, final QName xmlType)
+    '''returns None\n\n
+    removeDeserializer(final Class javaType, final QName xmlType)\n
     '''
 def getTypeQNameRecursive():
-    '''public QName getTypeQNameRecursive(Class javaType)
+    '''returns QName\n\n
+    getTypeQNameRecursive(Class javaType)\n
     '''
 def getTypeQNameExact():
-    '''public QName getTypeQNameExact(final Class javaType, final TypeMappingDelegate next)
+    '''returns QName\n\n
+    getTypeQNameExact(final Class javaType, final TypeMappingDelegate next)\n
     '''
 def getTypeQName():
-    '''public QName getTypeQName(final Class javaType, final TypeMappingDelegate next)
+    '''returns QName\n\n
+    getTypeQName(final Class javaType, final TypeMappingDelegate next)\n
     '''
 def getClassForQName():
-    '''public Class getClassForQName(final QName xmlType, Class javaType, final TypeMappingDelegate next)
+    '''returns Class\n\n
+    getClassForQName(final QName xmlType, Class javaType, final TypeMappingDelegate next)\n
     '''
 def setDoAutoTypes():
-    '''public void setDoAutoTypes(final boolean doAutoTypes)
+    '''returns None\n\n
+    setDoAutoTypes(final boolean doAutoTypes)\n
     '''
 def shouldDoAutoTypes():
-    '''public boolean shouldDoAutoTypes()
+    '''returns boolean\n\n
+    shouldDoAutoTypes()\n
     '''
 def getAllClasses():
-    '''public Class[] getAllClasses(final TypeMappingDelegate next)
-    '''
-def Pair():
-    '''public Pair(final Class javaType, final QName xmlType)
+    '''returns Class[]\n\n
+    getAllClasses(final TypeMappingDelegate next)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

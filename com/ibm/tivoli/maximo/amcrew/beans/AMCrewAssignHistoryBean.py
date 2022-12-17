@@ -1,3 +1,4 @@
 def filterhistory():
-    '''public int filterhistory()
+    '''returns int\n\n
+    filterhistory()\n
     '''

@@ -1,61 +1,81 @@
-def LoadAndAvailabilityResourceViewCompareItem():
-    '''public LoadAndAvailabilityResourceViewCompareItem(final Viewer viewer, final String id, final String name, final IlvTimeScrollController timeController)
+def ():
+    '''returns LoadAndAvailabilityResourceViewCompareItem\n\n
+    (final Viewer viewer, final String id, final String name, final IlvTimeScrollController timeController)\n
     '''
 def createChart():
-    '''public IlvScheduleChart createChart(final IlvGanttModel model, final IlvTimeScrollController timeController)
+    '''returns IlvScheduleChart\n\n
+    createChart(final IlvGanttModel model, final IlvTimeScrollController timeController)\n
     '''
 def getTimeScrollController():
-    '''public IlvTimeScrollController getTimeScrollController()
+    '''returns IlvTimeScrollController\n\n
+    getTimeScrollController()\n
     '''
 def getTimeScale():
-    '''public IlvTimeScale getTimeScale()
+    '''returns IlvTimeScale\n\n
+    getTimeScale()\n
     '''
 def getNonWorkingHourGrid():
-    '''public SKDNonWorkingHourGrid getNonWorkingHourGrid()
+    '''returns SKDNonWorkingHourGrid\n\n
+    getNonWorkingHourGrid()\n
     '''
 def getGanttChart():
-    '''public IlvGanttChart getGanttChart()
+    '''returns IlvGanttChart\n\n
+    getGanttChart()\n
     '''
 def visibleTimeChanged():
-    '''public void visibleTimeChanged(final VisibleTimeChangedEvent e)
+    '''returns None\n\n
+    visibleTimeChanged(final VisibleTimeChangedEvent e)\n
     '''
 def visibleDurationChanged():
-    '''public void visibleDurationChanged(final VisibleDurationChangedEvent e)
+    '''returns None\n\n
+    visibleDurationChanged(final VisibleDurationChangedEvent e)\n
     '''
 def minVisibleTimeChanged():
-    '''public void minVisibleTimeChanged(final TimeChangedEvent e)
+    '''returns None\n\n
+    minVisibleTimeChanged(final TimeChangedEvent e)\n
     '''
 def maxVisibleTimeChanged():
-    '''public void maxVisibleTimeChanged(final TimeChangedEvent e)
+    '''returns None\n\n
+    maxVisibleTimeChanged(final TimeChangedEvent e)\n
     '''
 def attachAppletModel():
-    '''public void attachAppletModel(final IlvScheduleChart chart, final AppletGanttModel model, final SKDResourceLoadAndAvailabilityChart loadChart)
+    '''returns None\n\n
+    attachAppletModel(final IlvScheduleChart chart, final AppletGanttModel model, final SKDResourceLoadAndAvailabilityChart loadChart)\n
     '''
 def getDividerLocation():
-    '''public int getDividerLocation()
+    '''returns int\n\n
+    getDividerLocation()\n
     '''
 def setDividerLocation():
-    '''public void setDividerLocation(final int loc)
+    '''returns None\n\n
+    setDividerLocation(final int loc)\n
     '''
 def addChartDividerListener():
-    '''public void addChartDividerListener(final ChartDividerListener listener)
+    '''returns None\n\n
+    addChartDividerListener(final ChartDividerListener listener)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent event)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent event)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def getStyle():
-    '''public IlvStyle getStyle(final IlvDataSet set)
+    '''returns IlvStyle\n\n
+    getStyle(final IlvDataSet set)\n
     '''
 def setSyncEnabled():
-    '''public void setSyncEnabled(final boolean b)
+    '''returns None\n\n
+    setSyncEnabled(final boolean b)\n
     '''
 def setFiltering():
-    '''public void setFiltering(final boolean filtering)
+    '''returns None\n\n
+    setFiltering(final boolean filtering)\n
     '''

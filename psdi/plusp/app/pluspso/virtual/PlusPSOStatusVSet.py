@@ -1,3 +1,4 @@
-def PlusPSOStatusVSet():
-    '''public PlusPSOStatusVSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPSOStatusVSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,7 +1,9 @@
-def PlusCFldToolTransExpiryDate():
-    '''public PlusCFldToolTransExpiryDate()
-    public PlusCFldToolTransExpiryDate(final MboValue mbv)
+def ():
+    '''returns PlusCFldToolTransExpiryDate\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,0 +1,7 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STLineEndWidth.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"stlineendwidth16aatype\")"
+SM = "Enum  Enum.forString(\"sm\")"
+MED = "Enum  Enum.forString(\"med\")"
+LG = "Enum  Enum.forString(\"lg\")"
+INT_SM = "int  1"
+INT_MED = "int  2"
+INT_LG = "int  3"

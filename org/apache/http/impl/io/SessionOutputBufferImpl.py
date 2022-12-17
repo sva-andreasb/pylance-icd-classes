@@ -1,34 +1,44 @@
-def SessionOutputBufferImpl():
-    '''public SessionOutputBufferImpl(final HttpTransportMetricsImpl metrics, final int buffersize, final int fragementSizeHint, final CharsetEncoder charencoder)
-    public SessionOutputBufferImpl(final HttpTransportMetricsImpl metrics, final int buffersize)
+def ():
+    '''returns SessionOutputBufferImpl\n\n
+    (final HttpTransportMetricsImpl metrics, final int buffersize, final int fragementSizeHint, final CharsetEncoder charencoder)\n
+    (final HttpTransportMetricsImpl metrics, final int buffersize)\n
     '''
 def bind():
-    '''public void bind(final OutputStream outstream)
+    '''returns None\n\n
+    bind(final OutputStream outstream)\n
     '''
 def isBound():
-    '''public boolean isBound()
+    '''returns boolean\n\n
+    isBound()\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final byte[] b, final int off, final int len)
-    public void write(final byte[] b)
-    public void write(final int b)
+    '''returns None\n\n
+    write(final byte[] b, final int off, final int len)\n
+    write(final byte[] b)\n
+    write(final int b)\n
     '''
 def writeLine():
-    '''public void writeLine(final String s)
-    public void writeLine(final CharArrayBuffer charbuffer)
+    '''returns None\n\n
+    writeLine(final String s)\n
+    writeLine(final CharArrayBuffer charbuffer)\n
     '''
 def getMetrics():
-    '''public HttpTransportMetrics getMetrics()
+    '''returns HttpTransportMetrics\n\n
+    getMetrics()\n
     '''

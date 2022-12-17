@@ -2,15 +2,19 @@ PRIMARY_SENTINEL = "long  4294967040L"
 SEC_TER_DELTA_FLAG = "int  128"
 PRIMARY_STEP_MASK = "int  127"
 IX_FIRST_TERTIARY_INDEX = "int  0"
-def CollationRootElements():
-    '''public CollationRootElements(final long[] rootElements)
+def ():
+    '''returns CollationRootElements\n\n
+    (final long[] rootElements)\n
     '''
 def getTertiaryBoundary():
-    '''public int getTertiaryBoundary()
+    '''returns int\n\n
+    getTertiaryBoundary()\n
     '''
 def getLastCommonSecondary():
-    '''public int getLastCommonSecondary()
+    '''returns int\n\n
+    getLastCommonSecondary()\n
     '''
 def getSecondaryBoundary():
-    '''public int getSecondaryBoundary()
+    '''returns int\n\n
+    getSecondaryBoundary()\n
     '''

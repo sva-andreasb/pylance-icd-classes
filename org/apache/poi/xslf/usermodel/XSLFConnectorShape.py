@@ -1,6 +1,8 @@
 def getShadow():
-    '''public XSLFShadow getShadow()
+    '''returns XSLFShadow\n\n
+    getShadow()\n
     '''
 def setPlaceholder():
-    '''public void setPlaceholder(final Placeholder placeholder)
+    '''returns None\n\n
+    setPlaceholder(final Placeholder placeholder)\n
     '''

@@ -1,35 +1,46 @@
-def DatagramSocketClient():
-    '''public DatagramSocketClient()
+def ():
+    '''returns DatagramSocketClient\n\n
+    ()\n
     '''
 def open():
-    '''public void open()
-    public void open(final int port)
-    public void open(final int port, final InetAddress laddr)
+    '''returns None\n\n
+    open()\n
+    open(final int port)\n
+    open(final int port, final InetAddress laddr)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def setDefaultTimeout():
-    '''public void setDefaultTimeout(final int timeout)
+    '''returns None\n\n
+    setDefaultTimeout(final int timeout)\n
     '''
 def getDefaultTimeout():
-    '''public int getDefaultTimeout()
+    '''returns int\n\n
+    getDefaultTimeout()\n
     '''
 def setSoTimeout():
-    '''public void setSoTimeout(final int timeout)
+    '''returns None\n\n
+    setSoTimeout(final int timeout)\n
     '''
 def getSoTimeout():
-    '''public int getSoTimeout()
+    '''returns int\n\n
+    getSoTimeout()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def setDatagramSocketFactory():
-    '''public void setDatagramSocketFactory(final DatagramSocketFactory factory)
+    '''returns None\n\n
+    setDatagramSocketFactory(final DatagramSocketFactory factory)\n
     '''

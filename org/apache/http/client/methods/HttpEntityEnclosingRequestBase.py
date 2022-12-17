@@ -1,12 +1,16 @@
 def getEntity():
-    '''public HttpEntity getEntity()
+    '''returns HttpEntity\n\n
+    getEntity()\n
     '''
 def setEntity():
-    '''public void setEntity(final HttpEntity entity)
+    '''returns None\n\n
+    setEntity(final HttpEntity entity)\n
     '''
 def expectContinue():
-    '''public boolean expectContinue()
+    '''returns boolean\n\n
+    expectContinue()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

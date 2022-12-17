@@ -1,12 +1,12 @@
-def getInstance():
-    '''public static final ClassstructureCache getInstance()
-    '''
 def getDescForClassstructureId():
-    '''public String getDescForClassstructureId(final String classstructureid, final UserInfo userInfo)
+    '''returns String\n\n
+    getDescForClassstructureId(final String classstructureid, final UserInfo userInfo)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def processAPIRequest():
-    '''public void processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)
+    '''returns None\n\n
+    processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)\n
     '''

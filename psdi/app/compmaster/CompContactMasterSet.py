@@ -1,3 +1,4 @@
-def CompContactMasterSet():
-    '''public CompContactMasterSet(final MboServerInterface ms)
+def ():
+    '''returns CompContactMasterSet\n\n
+    (final MboServerInterface ms)\n
     '''

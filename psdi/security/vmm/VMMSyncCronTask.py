@@ -1,21 +1,28 @@
-def VMMSyncCronTask():
-    '''public VMMSyncCronTask()
+def ():
+    '''returns VMMSyncCronTask\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getParameterValidationMbo():
-    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''returns MboRemote\n\n
+    getParameterValidationMbo(final CrontaskInstanceRemote instance)\n
     '''

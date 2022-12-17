@@ -1,9 +1,12 @@
 def setupBean():
-    '''public void setupBean(final WebClientSession sc)
+    '''returns None\n\n
+    setupBean(final WebClientSession sc)\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

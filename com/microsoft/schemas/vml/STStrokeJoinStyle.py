@@ -1,0 +1,7 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STStrokeJoinStyle.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"ststrokejoinstyle3c13type\")"
+ROUND = "Enum  Enum.forString(\"round\")"
+BEVEL = "Enum  Enum.forString(\"bevel\")"
+MITER = "Enum  Enum.forString(\"miter\")"
+INT_ROUND = "int  1"
+INT_BEVEL = "int  2"
+INT_MITER = "int  3"

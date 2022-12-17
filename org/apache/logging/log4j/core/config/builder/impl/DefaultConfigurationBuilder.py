@@ -1,131 +1,154 @@
-def formatXml():
-    '''public static void formatXml(final Source source, final Result result)
-    '''
-def DefaultConfigurationBuilder():
-    '''public DefaultConfigurationBuilder()
-    public DefaultConfigurationBuilder(final Class<T> clazz)
+def ():
+    '''returns DefaultConfigurationBuilder\n\n
+    ()\n
+    (final Class<T> clazz)\n
     '''
 def add():
-    '''public ConfigurationBuilder<T> add(final AppenderComponentBuilder builder)
-    public ConfigurationBuilder<T> add(final CustomLevelComponentBuilder builder)
-    public ConfigurationBuilder<T> add(final FilterComponentBuilder builder)
-    public ConfigurationBuilder<T> add(final ScriptComponentBuilder builder)
-    public ConfigurationBuilder<T> add(final ScriptFileComponentBuilder builder)
-    public ConfigurationBuilder<T> add(final LoggerComponentBuilder builder)
-    public ConfigurationBuilder<T> add(final RootLoggerComponentBuilder builder)
+    '''returns ConfigurationBuilder<T>\n\n
+    add(final AppenderComponentBuilder builder)\n
+    add(final CustomLevelComponentBuilder builder)\n
+    add(final FilterComponentBuilder builder)\n
+    add(final ScriptComponentBuilder builder)\n
+    add(final ScriptFileComponentBuilder builder)\n
+    add(final LoggerComponentBuilder builder)\n
+    add(final RootLoggerComponentBuilder builder)\n
     '''
 def addProperty():
-    '''public ConfigurationBuilder<T> addProperty(final String key, final String value)
+    '''returns ConfigurationBuilder<T>\n\n
+    addProperty(final String key, final String value)\n
     '''
 def build():
-    '''public T build()
-    public T build(final boolean initialize)
+    '''returns T\n\n
+    build()\n
+    build(final boolean initialize)\n
     '''
 def writeXmlConfiguration():
-    '''public void writeXmlConfiguration(final OutputStream output)
+    '''returns None\n\n
+    writeXmlConfiguration(final OutputStream output)\n
     '''
 def toXmlConfiguration():
-    '''public String toXmlConfiguration()
+    '''returns String\n\n
+    toXmlConfiguration()\n
     '''
 def newScript():
-    '''public ScriptComponentBuilder newScript(final String name, final String language, final String text)
+    '''returns ScriptComponentBuilder\n\n
+    newScript(final String name, final String language, final String text)\n
     '''
 def newScriptFile():
-    '''public ScriptFileComponentBuilder newScriptFile(final String path)
-    public ScriptFileComponentBuilder newScriptFile(final String name, final String path)
+    '''returns ScriptFileComponentBuilder\n\n
+    newScriptFile(final String path)\n
+    newScriptFile(final String name, final String path)\n
     '''
 def newAppender():
-    '''public AppenderComponentBuilder newAppender(final String name, final String type)
+    '''returns AppenderComponentBuilder\n\n
+    newAppender(final String name, final String type)\n
     '''
 def newAppenderRef():
-    '''public AppenderRefComponentBuilder newAppenderRef(final String ref)
+    '''returns AppenderRefComponentBuilder\n\n
+    newAppenderRef(final String ref)\n
     '''
 def newAsyncLogger():
-    '''public LoggerComponentBuilder newAsyncLogger(final String name)
-    public LoggerComponentBuilder newAsyncLogger(final String name, final boolean includeLocation)
-    public LoggerComponentBuilder newAsyncLogger(final String name, final Level level)
-    public LoggerComponentBuilder newAsyncLogger(final String name, final Level level, final boolean includeLocation)
-    public LoggerComponentBuilder newAsyncLogger(final String name, final String level)
-    public LoggerComponentBuilder newAsyncLogger(final String name, final String level, final boolean includeLocation)
+    '''returns LoggerComponentBuilder\n\n
+    newAsyncLogger(final String name)\n
+    newAsyncLogger(final String name, final boolean includeLocation)\n
+    newAsyncLogger(final String name, final Level level)\n
+    newAsyncLogger(final String name, final Level level, final boolean includeLocation)\n
+    newAsyncLogger(final String name, final String level)\n
+    newAsyncLogger(final String name, final String level, final boolean includeLocation)\n
     '''
 def newAsyncRootLogger():
-    '''public RootLoggerComponentBuilder newAsyncRootLogger()
-    public RootLoggerComponentBuilder newAsyncRootLogger(final boolean includeLocation)
-    public RootLoggerComponentBuilder newAsyncRootLogger(final Level level)
-    public RootLoggerComponentBuilder newAsyncRootLogger(final Level level, final boolean includeLocation)
-    public RootLoggerComponentBuilder newAsyncRootLogger(final String level)
-    public RootLoggerComponentBuilder newAsyncRootLogger(final String level, final boolean includeLocation)
-    '''
-def newComponent():
-    '''public <B extends ComponentBuilder<B>> ComponentBuilder<B> newComponent(final String type)
-    public <B extends ComponentBuilder<B>> ComponentBuilder<B> newComponent(final String name, final String type)
-    public <B extends ComponentBuilder<B>> ComponentBuilder<B> newComponent(final String name, final String type, final String value)
+    '''returns RootLoggerComponentBuilder\n\n
+    newAsyncRootLogger()\n
+    newAsyncRootLogger(final boolean includeLocation)\n
+    newAsyncRootLogger(final Level level)\n
+    newAsyncRootLogger(final Level level, final boolean includeLocation)\n
+    newAsyncRootLogger(final String level)\n
+    newAsyncRootLogger(final String level, final boolean includeLocation)\n
     '''
 def newProperty():
-    '''public PropertyComponentBuilder newProperty(final String name, final String value)
+    '''returns PropertyComponentBuilder\n\n
+    newProperty(final String name, final String value)\n
     '''
 def newKeyValuePair():
-    '''public KeyValuePairComponentBuilder newKeyValuePair(final String key, final String value)
+    '''returns KeyValuePairComponentBuilder\n\n
+    newKeyValuePair(final String key, final String value)\n
     '''
 def newCustomLevel():
-    '''public CustomLevelComponentBuilder newCustomLevel(final String name, final int level)
+    '''returns CustomLevelComponentBuilder\n\n
+    newCustomLevel(final String name, final int level)\n
     '''
 def newFilter():
-    '''public FilterComponentBuilder newFilter(final String type, final Filter.Result onMatch, final Filter.Result onMismatch)
-    public FilterComponentBuilder newFilter(final String type, final String onMatch, final String onMismatch)
+    '''returns FilterComponentBuilder\n\n
+    newFilter(final String type, final Filter.Result onMatch, final Filter.Result onMismatch)\n
+    newFilter(final String type, final String onMatch, final String onMismatch)\n
     '''
 def newLayout():
-    '''public LayoutComponentBuilder newLayout(final String type)
+    '''returns LayoutComponentBuilder\n\n
+    newLayout(final String type)\n
     '''
 def newLogger():
-    '''public LoggerComponentBuilder newLogger(final String name)
-    public LoggerComponentBuilder newLogger(final String name, final boolean includeLocation)
-    public LoggerComponentBuilder newLogger(final String name, final Level level)
-    public LoggerComponentBuilder newLogger(final String name, final Level level, final boolean includeLocation)
-    public LoggerComponentBuilder newLogger(final String name, final String level)
-    public LoggerComponentBuilder newLogger(final String name, final String level, final boolean includeLocation)
+    '''returns LoggerComponentBuilder\n\n
+    newLogger(final String name)\n
+    newLogger(final String name, final boolean includeLocation)\n
+    newLogger(final String name, final Level level)\n
+    newLogger(final String name, final Level level, final boolean includeLocation)\n
+    newLogger(final String name, final String level)\n
+    newLogger(final String name, final String level, final boolean includeLocation)\n
     '''
 def newRootLogger():
-    '''public RootLoggerComponentBuilder newRootLogger()
-    public RootLoggerComponentBuilder newRootLogger(final boolean includeLocation)
-    public RootLoggerComponentBuilder newRootLogger(final Level level)
-    public RootLoggerComponentBuilder newRootLogger(final Level level, final boolean includeLocation)
-    public RootLoggerComponentBuilder newRootLogger(final String level)
-    public RootLoggerComponentBuilder newRootLogger(final String level, final boolean includeLocation)
+    '''returns RootLoggerComponentBuilder\n\n
+    newRootLogger()\n
+    newRootLogger(final boolean includeLocation)\n
+    newRootLogger(final Level level)\n
+    newRootLogger(final Level level, final boolean includeLocation)\n
+    newRootLogger(final String level)\n
+    newRootLogger(final String level, final boolean includeLocation)\n
     '''
 def setAdvertiser():
-    '''public ConfigurationBuilder<T> setAdvertiser(final String advertiser)
+    '''returns ConfigurationBuilder<T>\n\n
+    setAdvertiser(final String advertiser)\n
     '''
 def setConfigurationName():
-    '''public ConfigurationBuilder<T> setConfigurationName(final String name)
+    '''returns ConfigurationBuilder<T>\n\n
+    setConfigurationName(final String name)\n
     '''
 def setConfigurationSource():
-    '''public ConfigurationBuilder<T> setConfigurationSource(final ConfigurationSource configurationSource)
+    '''returns ConfigurationBuilder<T>\n\n
+    setConfigurationSource(final ConfigurationSource configurationSource)\n
     '''
 def setMonitorInterval():
-    '''public ConfigurationBuilder<T> setMonitorInterval(final String intervalSeconds)
+    '''returns ConfigurationBuilder<T>\n\n
+    setMonitorInterval(final String intervalSeconds)\n
     '''
 def setPackages():
-    '''public ConfigurationBuilder<T> setPackages(final String packages)
+    '''returns ConfigurationBuilder<T>\n\n
+    setPackages(final String packages)\n
     '''
 def setShutdownHook():
-    '''public ConfigurationBuilder<T> setShutdownHook(final String flag)
+    '''returns ConfigurationBuilder<T>\n\n
+    setShutdownHook(final String flag)\n
     '''
 def setShutdownTimeout():
-    '''public ConfigurationBuilder<T> setShutdownTimeout(final long timeout, final TimeUnit timeUnit)
+    '''returns ConfigurationBuilder<T>\n\n
+    setShutdownTimeout(final long timeout, final TimeUnit timeUnit)\n
     '''
 def setStatusLevel():
-    '''public ConfigurationBuilder<T> setStatusLevel(final Level level)
+    '''returns ConfigurationBuilder<T>\n\n
+    setStatusLevel(final Level level)\n
     '''
 def setVerbosity():
-    '''public ConfigurationBuilder<T> setVerbosity(final String verbosity)
+    '''returns ConfigurationBuilder<T>\n\n
+    setVerbosity(final String verbosity)\n
     '''
 def setDestination():
-    '''public ConfigurationBuilder<T> setDestination(final String destination)
+    '''returns ConfigurationBuilder<T>\n\n
+    setDestination(final String destination)\n
     '''
 def setLoggerContext():
-    '''public void setLoggerContext(final LoggerContext loggerContext)
+    '''returns None\n\n
+    setLoggerContext(final LoggerContext loggerContext)\n
     '''
 def addRootProperty():
-    '''public ConfigurationBuilder<T> addRootProperty(final String key, final String value)
+    '''returns ConfigurationBuilder<T>\n\n
+    addRootProperty(final String key, final String value)\n
     '''

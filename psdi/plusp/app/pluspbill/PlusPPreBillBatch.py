@@ -1,3 +1,4 @@
-def PlusPPreBillBatch():
-    '''public PlusPPreBillBatch(final MboSet set)
+def ():
+    '''returns PlusPPreBillBatch\n\n
+    (final MboSet set)\n
     '''

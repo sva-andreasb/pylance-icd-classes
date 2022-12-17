@@ -1,3 +1,4 @@
-def AssetMntSKDSet():
-    '''public AssetMntSKDSet(final MboServerInterface ms)
+def ():
+    '''returns AssetMntSKDSet\n\n
+    (final MboServerInterface ms)\n
     '''

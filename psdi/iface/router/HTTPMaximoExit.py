@@ -1,18 +1,12 @@
-def HTTPMaximoExit():
-    '''public HTTPMaximoExit()
+def ():
+    '''returns HTTPMaximoExit\n\n
+    ()\n
     '''
 def getURL():
-    '''public String getURL(final Map<String, ?> metaData, final byte[] data, final Map<String, MaxEndPointPropInfo> httpInfo)
-    '''
-def getURLProperties():
-    '''public Map<String, String> getURLProperties(final Map<String, ?> metaData, final byte[] data, final Map<String, MaxEndPointPropInfo> httpInfo)
-    '''
-def getHeaderProperties():
-    '''public Map<String, String> getHeaderProperties(final Map<String, ?> metaData, final byte[] data, final Map<String, MaxEndPointPropInfo> httpInfo)
-    '''
-def transformPayloadToFormData():
-    '''public Map<String, String> transformPayloadToFormData(final Map<String, ?> metaData, final byte[] data, final Map<String, MaxEndPointPropInfo> destinationMap)
+    '''returns String\n\n
+    getURL(final Map<String, ?> metaData, final byte[] data, final Map<String, MaxEndPointPropInfo> httpInfo)\n
     '''
 def processResponseData():
-    '''public byte[] processResponseData(final int responseCode, final String responseMsg, final byte[] msgBodyData)
+    '''returns byte[]\n\n
+    processResponseData(final int responseCode, final String responseMsg, final byte[] msgBodyData)\n
     '''

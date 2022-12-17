@@ -1,47 +1,50 @@
 socksDefaultPort = "int  1080"
-def SocksSocket():
-    '''public SocksSocket(final String host, final int n, final String host2, final int n2)
-    public SocksSocket(final InetAddress inetAddress, final int n, final InetAddress inetAddress2, final int n2)
+def ():
+    '''returns SocksSocket\n\n
+    (final String host, final int n, final String host2, final int n2)\n
+    (final InetAddress inetAddress, final int n, final InetAddress inetAddress2, final int n2)\n
     '''
 def getInetAddress():
-    '''public InetAddress getInetAddress()
+    '''returns InetAddress\n\n
+    getInetAddress()\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def setTcpNoDelay():
-    '''public void setTcpNoDelay(final boolean tcpNoDelay)
+    '''returns None\n\n
+    setTcpNoDelay(final boolean tcpNoDelay)\n
     '''
 def getTcpNoDelay():
-    '''public boolean getTcpNoDelay()
+    '''returns boolean\n\n
+    getTcpNoDelay()\n
     '''
 def setSoLinger():
-    '''public void setSoLinger(final boolean on, final int linger)
+    '''returns None\n\n
+    setSoLinger(final boolean on, final int linger)\n
     '''
 def getSoLinger():
-    '''public int getSoLinger()
-    '''
-def setSoTimeout():
-    '''public synchronized void setSoTimeout(final int soTimeout)
-    '''
-def getSoTimeout():
-    '''public synchronized int getSoTimeout()
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns int\n\n
+    getSoLinger()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

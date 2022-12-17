@@ -1,8 +1,10 @@
-def t():
-    '''public t(final ILoader<bp, FromImagesOptions> loader, final ToPdfOptions toPdfOptions)
+def ():
+    '''returns t\n\n
+    (final ILoader<bp, FromImagesOptions> loader, final ToPdfOptions toPdfOptions)\n
     '''
 def toPdf():
-    '''public void toPdf(final OutputStream outputStream)
-    public void toPdf(final String savePath)
-    public void toPdf(final IStreamCallback<InputStream> dataCallback)
+    '''returns None\n\n
+    toPdf(final OutputStream outputStream)\n
+    toPdf(final String savePath)\n
+    toPdf(final IStreamCallback<InputStream> dataCallback)\n
     '''

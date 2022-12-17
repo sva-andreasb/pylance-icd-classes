@@ -1,12 +1,16 @@
-def OMChildElementIterator():
-    '''public OMChildElementIterator(final OMElement currentChild)
+def ():
+    '''returns OMChildElementIterator\n\n
+    (final OMElement currentChild)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

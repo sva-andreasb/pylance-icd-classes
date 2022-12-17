@@ -1,15 +1,16 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def isValueNeedsLookup():
-    '''public boolean isValueNeedsLookup()
-    '''
-def createProperty():
-    '''public static Property createProperty(@PluginAttribute("name") final String name, @PluginValue("value") final String value)
+    '''returns boolean\n\n
+    isValueNeedsLookup()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,8 +1,10 @@
-def SdkInternalList():
-    '''public SdkInternalList()
-    public SdkInternalList(final Collection<? extends T> c)
-    public SdkInternalList(final int initialCapacity)
+def ():
+    '''returns SdkInternalList\n\n
+    ()\n
+    (final Collection<? extends T> c)\n
+    (final int initialCapacity)\n
     '''
 def isAutoConstruct():
-    '''public boolean isAutoConstruct()
+    '''returns boolean\n\n
+    isAutoConstruct()\n
     '''

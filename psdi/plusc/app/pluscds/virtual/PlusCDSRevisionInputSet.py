@@ -1,3 +1,4 @@
-def PlusCDSRevisionInputSet():
-    '''public PlusCDSRevisionInputSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCDSRevisionInputSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,21 +1,28 @@
-def Site():
-    '''public Site(final MboSet ms)
+def ():
+    '''returns Site\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def validateOrgSite():
-    '''public void validateOrgSite(final String orgId, final String siteId)
+    '''returns None\n\n
+    validateOrgSite(final String orgId, final String siteId)\n
     '''

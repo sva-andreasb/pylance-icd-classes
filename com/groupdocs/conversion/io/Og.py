@@ -1,10 +1,13 @@
-def Og():
-    '''public Og(final Comparator<File>... array)
-    public Og(final Iterable<Comparator<File>> iterable)
+def ():
+    '''returns Og\n\n
+    (final Comparator<File>... array)\n
+    (final Iterable<Comparator<File>> iterable)\n
     '''
 def compare():
-    '''public int compare(final File file1, final File file2)
+    '''returns int\n\n
+    compare(final File file1, final File file2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

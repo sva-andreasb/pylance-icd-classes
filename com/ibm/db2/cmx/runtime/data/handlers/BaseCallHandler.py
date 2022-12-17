@@ -1,6 +1,8 @@
 def handleCall():
-    '''public StoredProcedureResult handleCall(final CallableStatement callableStatement, final Object... array)
+    '''returns StoredProcedureResult\n\n
+    handleCall(final CallableStatement callableStatement, final Object... array)\n
     '''
 def getStoredProcedureResult():
-    '''public StoredProcedureResult getStoredProcedureResult(final CallableStatement callableStatement, final Object... array)
+    '''returns StoredProcedureResult\n\n
+    getStoredProcedureResult(final CallableStatement callableStatement, final Object... array)\n
     '''

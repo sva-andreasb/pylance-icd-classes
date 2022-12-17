@@ -1,3 +1,4 @@
-def NoSpecificTypeException():
-    '''public NoSpecificTypeException(final Resource root)
+def ():
+    '''returns NoSpecificTypeException\n\n
+    (final Resource root)\n
     '''

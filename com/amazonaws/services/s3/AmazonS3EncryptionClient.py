@@ -1,59 +1,71 @@
-def AmazonS3EncryptionClient():
-    '''public AmazonS3EncryptionClient(final EncryptionMaterials encryptionMaterials)
-    public AmazonS3EncryptionClient(final EncryptionMaterialsProvider encryptionMaterialsProvider)
-    public AmazonS3EncryptionClient(final EncryptionMaterials encryptionMaterials, final CryptoConfiguration cryptoConfig)
-    public AmazonS3EncryptionClient(final EncryptionMaterialsProvider encryptionMaterialsProvider, final CryptoConfiguration cryptoConfig)
-    public AmazonS3EncryptionClient(final AWSCredentials credentials, final EncryptionMaterials encryptionMaterials)
-    public AmazonS3EncryptionClient(final AWSCredentials credentials, final EncryptionMaterialsProvider encryptionMaterialsProvider)
-    public AmazonS3EncryptionClient(final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider encryptionMaterialsProvider)
-    public AmazonS3EncryptionClient(final AWSCredentials credentials, final EncryptionMaterials encryptionMaterials, final CryptoConfiguration cryptoConfig)
-    public AmazonS3EncryptionClient(final AWSCredentials credentials, final EncryptionMaterialsProvider encryptionMaterialsProvider, final CryptoConfiguration cryptoConfig)
-    public AmazonS3EncryptionClient(final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider encryptionMaterialsProvider, final CryptoConfiguration cryptoConfig)
-    public AmazonS3EncryptionClient(final AWSCredentials credentials, final EncryptionMaterials encryptionMaterials, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig)
-    public AmazonS3EncryptionClient(final AWSCredentials credentials, final EncryptionMaterialsProvider encryptionMaterialsProvider, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig)
-    public AmazonS3EncryptionClient(final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider kekMaterialsProvider, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig)
-    public AmazonS3EncryptionClient(final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider kekMaterialsProvider, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig, final RequestMetricCollector requestMetricCollector)
-    public AmazonS3EncryptionClient(final AWSKMSClient kms, final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider kekMaterialsProvider, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig, final RequestMetricCollector requestMetricCollector)
+def ():
+    '''returns AmazonS3EncryptionClient\n\n
+    (final EncryptionMaterials encryptionMaterials)\n
+    (final EncryptionMaterialsProvider encryptionMaterialsProvider)\n
+    (final EncryptionMaterials encryptionMaterials, final CryptoConfiguration cryptoConfig)\n
+    (final EncryptionMaterialsProvider encryptionMaterialsProvider, final CryptoConfiguration cryptoConfig)\n
+    (final AWSCredentials credentials, final EncryptionMaterials encryptionMaterials)\n
+    (final AWSCredentials credentials, final EncryptionMaterialsProvider encryptionMaterialsProvider)\n
+    (final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider encryptionMaterialsProvider)\n
+    (final AWSCredentials credentials, final EncryptionMaterials encryptionMaterials, final CryptoConfiguration cryptoConfig)\n
+    (final AWSCredentials credentials, final EncryptionMaterialsProvider encryptionMaterialsProvider, final CryptoConfiguration cryptoConfig)\n
+    (final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider encryptionMaterialsProvider, final CryptoConfiguration cryptoConfig)\n
+    (final AWSCredentials credentials, final EncryptionMaterials encryptionMaterials, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig)\n
+    (final AWSCredentials credentials, final EncryptionMaterialsProvider encryptionMaterialsProvider, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig)\n
+    (final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider kekMaterialsProvider, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig)\n
+    (final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider kekMaterialsProvider, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig, final RequestMetricCollector requestMetricCollector)\n
+    (final AWSKMSClient kms, final AWSCredentialsProvider credentialsProvider, final EncryptionMaterialsProvider kekMaterialsProvider, final ClientConfiguration clientConfig, final CryptoConfiguration cryptoConfig, final RequestMetricCollector requestMetricCollector)\n
     '''
 def putObject():
-    '''public PutObjectResult putObject(final PutObjectRequest req)
-    public PutObjectResult putObject(final PutObjectRequest req)
+    '''returns PutObjectResult\n\n
+    putObject(final PutObjectRequest req)\n
+    putObject(final PutObjectRequest req)\n
     '''
 def getObject():
-    '''public S3Object getObject(final GetObjectRequest req)
-    public ObjectMetadata getObject(final GetObjectRequest req, final File dest)
-    public S3Object getObject(final GetObjectRequest req)
-    public ObjectMetadata getObject(final GetObjectRequest req, final File dest)
+    '''returns ObjectMetadata\n\n
+    getObject(final GetObjectRequest req)\n
+    getObject(final GetObjectRequest req, final File dest)\n
+    getObject(final GetObjectRequest req)\n
+    getObject(final GetObjectRequest req, final File dest)\n
     '''
 def deleteObject():
-    '''public void deleteObject(final DeleteObjectRequest req)
+    '''returns None\n\n
+    deleteObject(final DeleteObjectRequest req)\n
     '''
 def completeMultipartUpload():
-    '''public CompleteMultipartUploadResult completeMultipartUpload(final CompleteMultipartUploadRequest req)
-    public CompleteMultipartUploadResult completeMultipartUpload(final CompleteMultipartUploadRequest req)
+    '''returns CompleteMultipartUploadResult\n\n
+    completeMultipartUpload(final CompleteMultipartUploadRequest req)\n
+    completeMultipartUpload(final CompleteMultipartUploadRequest req)\n
     '''
 def initiateMultipartUpload():
-    '''public InitiateMultipartUploadResult initiateMultipartUpload(final InitiateMultipartUploadRequest req)
-    public InitiateMultipartUploadResult initiateMultipartUpload(final InitiateMultipartUploadRequest req)
+    '''returns InitiateMultipartUploadResult\n\n
+    initiateMultipartUpload(final InitiateMultipartUploadRequest req)\n
+    initiateMultipartUpload(final InitiateMultipartUploadRequest req)\n
     '''
 def uploadPart():
-    '''public UploadPartResult uploadPart(final UploadPartRequest uploadPartRequest)
-    public UploadPartResult uploadPart(final UploadPartRequest req)
+    '''returns UploadPartResult\n\n
+    uploadPart(final UploadPartRequest uploadPartRequest)\n
+    uploadPart(final UploadPartRequest req)\n
     '''
 def copyPart():
-    '''public CopyPartResult copyPart(final CopyPartRequest copyPartRequest)
-    public CopyPartResult copyPart(final CopyPartRequest req)
+    '''returns CopyPartResult\n\n
+    copyPart(final CopyPartRequest copyPartRequest)\n
+    copyPart(final CopyPartRequest req)\n
     '''
 def abortMultipartUpload():
-    '''public void abortMultipartUpload(final AbortMultipartUploadRequest req)
-    public void abortMultipartUpload(final AbortMultipartUploadRequest req)
+    '''returns None\n\n
+    abortMultipartUpload(final AbortMultipartUploadRequest req)\n
+    abortMultipartUpload(final AbortMultipartUploadRequest req)\n
     '''
 def putInstructionFile():
-    '''public PutObjectResult putInstructionFile(final PutInstructionFileRequest req)
+    '''returns PutObjectResult\n\n
+    putInstructionFile(final PutInstructionFileRequest req)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def uploadObject():
-    '''public CompleteMultipartUploadResult uploadObject(final UploadObjectRequest req)
+    '''returns CompleteMultipartUploadResult\n\n
+    uploadObject(final UploadObjectRequest req)\n
     '''

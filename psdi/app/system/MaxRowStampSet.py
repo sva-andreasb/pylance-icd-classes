@@ -1,3 +1,4 @@
-def MaxRowStampSet():
-    '''public MaxRowStampSet(final MboServerInterface ms)
+def ():
+    '''returns MaxRowStampSet\n\n
+    (final MboServerInterface ms)\n
     '''

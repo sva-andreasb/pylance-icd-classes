@@ -1,6 +1,8 @@
-def FldPMMeterLastPmWogenReadDt():
-    '''public FldPMMeterLastPmWogenReadDt(final MboValue mbv)
+def ():
+    '''returns FldPMMeterLastPmWogenReadDt\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

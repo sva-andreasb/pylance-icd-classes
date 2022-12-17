@@ -1,12 +1,16 @@
 def destroyObject():
-    '''public void destroyObject(final Object obj)
+    '''returns None\n\n
+    destroyObject(final Object obj)\n
     '''
 def validateObject():
-    '''public boolean validateObject(final Object obj)
+    '''returns boolean\n\n
+    validateObject(final Object obj)\n
     '''
 def activateObject():
-    '''public void activateObject(final Object obj)
+    '''returns None\n\n
+    activateObject(final Object obj)\n
     '''
 def passivateObject():
-    '''public void passivateObject(final Object obj)
+    '''returns None\n\n
+    passivateObject(final Object obj)\n
     '''

@@ -1,24 +1,32 @@
-def MaxQueue():
-    '''public MaxQueue(final MboSet ms)
+def ():
+    '''returns MaxQueue\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def viewQueue():
-    '''public List<String> viewQueue()
+    '''returns List<String>\n\n
+    viewQueue()\n
     '''
 def deleteQueue():
-    '''public void deleteQueue()
+    '''returns None\n\n
+    deleteQueue()\n
     '''
 def validateMoveQueue():
-    '''public void validateMoveQueue()
+    '''returns None\n\n
+    validateMoveQueue()\n
     '''

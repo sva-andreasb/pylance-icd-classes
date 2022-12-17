@@ -1,57 +1,39 @@
-def GDuration():
-    '''public GDuration()
-    public GDuration(final CharSequence str)
-    public GDuration(final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
-    public GDuration(final GDurationSpecification gDuration)
+def ():
+    '''returns GDuration\n\n
+    ()\n
+    (final CharSequence str)\n
+    (final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)\n
+    (final GDurationSpecification gDuration)\n
     '''
 def clone():
-    '''public Object clone()
-    '''
-def isImmutable():
-    '''public final boolean isImmutable()
-    '''
-def getSign():
-    '''public final int getSign()
-    '''
-def getYear():
-    '''public final int getYear()
-    '''
-def getMonth():
-    '''public final int getMonth()
-    '''
-def getDay():
-    '''public final int getDay()
-    '''
-def getHour():
-    '''public final int getHour()
-    '''
-def getMinute():
-    '''public final int getMinute()
-    '''
-def getSecond():
-    '''public final int getSecond()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getFraction():
-    '''public BigDecimal getFraction()
+    '''returns BigDecimal\n\n
+    getFraction()\n
     '''
 def isValid():
-    '''public boolean isValid()
-    '''
-def compareToGDuration():
-    '''public final int compareToGDuration(final GDurationSpecification duration)
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def add():
-    '''public GDuration add(final GDurationSpecification duration)
+    '''returns GDuration\n\n
+    add(final GDurationSpecification duration)\n
     '''
 def subtract():
-    '''public GDuration subtract(final GDurationSpecification duration)
+    '''returns GDuration\n\n
+    subtract(final GDurationSpecification duration)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

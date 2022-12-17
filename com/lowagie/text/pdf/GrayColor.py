@@ -1,7 +1,9 @@
-def GrayColor():
-    '''public GrayColor(final int intGray)
-    public GrayColor(final float floatGray)
+def ():
+    '''returns GrayColor\n\n
+    (final int intGray)\n
+    (final float floatGray)\n
     '''
 def getGray():
-    '''public float getGray()
+    '''returns float\n\n
+    getGray()\n
     '''

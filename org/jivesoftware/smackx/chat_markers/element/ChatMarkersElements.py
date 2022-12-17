@@ -1,40 +1,35 @@
 NAMESPACE = "String  \"urn:xmpp:chat-markers:0\""
 ELEMENT = "String  \"acknowledged\""
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
-    public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    public String getNamespace()
-    public String getNamespace()
-    public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
+    getNamespace()\n
+    getNamespace()\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
-def from():
-    '''public static MarkableExtension from(final Message message)
-    public static ReceivedExtension from(final Message message)
-    public static DisplayedExtension from(final Message message)
-    public static AcknowledgedExtension from(final Message message)
-    '''
-def ReceivedExtension():
-    '''public ReceivedExtension(final String id)
+def ():
+    '''returns AcknowledgedExtension\n\n
+    (final String id)\n
+    (final String id)\n
+    (final String id)\n
     '''
 def getId():
-    '''public String getId()
-    public String getId()
-    public String getId()
-    '''
-def DisplayedExtension():
-    '''public DisplayedExtension(final String id)
-    '''
-def AcknowledgedExtension():
-    '''public AcknowledgedExtension(final String id)
+    '''returns String\n\n
+    getId()\n
+    getId()\n
+    getId()\n
     '''

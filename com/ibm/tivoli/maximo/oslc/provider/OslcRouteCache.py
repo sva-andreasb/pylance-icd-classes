@@ -1,15 +1,12 @@
-def getInstance():
-    '''public static final OslcRouteCache getInstance()
-    '''
 def getRouteInfo():
-    '''public RouteInfo getRouteInfo(final String route, final String method)
+    '''returns RouteInfo\n\n
+    getRouteInfo(final String route, final String method)\n
     '''
 def getPOSTRouteInfo():
-    '''public RouteInfo getPOSTRouteInfo(final String route)
+    '''returns RouteInfo\n\n
+    getPOSTRouteInfo(final String route)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getRoutes():
-    '''public Map<String, RouteInfo> getRoutes()
+    '''returns String\n\n
+    getName()\n
     '''

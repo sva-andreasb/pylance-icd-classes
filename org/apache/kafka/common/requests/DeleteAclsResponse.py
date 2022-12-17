@@ -1,42 +1,36 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DeleteAclsResponse():
-    '''public DeleteAclsResponse(final int throttleTimeMs, final List<AclFilterResponse> responses)
-    public DeleteAclsResponse(final Struct struct)
+def ():
+    '''returns AclFilterResponse\n\n
+    (final int throttleTimeMs, final List<AclFilterResponse> responses)\n
+    (final Struct struct)\n
+    (final ApiError error, final AclBinding acl)\n
+    (final AclBinding acl)\n
+    (final ApiError error, final Collection<AclDeletionResult> deletions)\n
+    (final Collection<AclDeletionResult> deletions)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def responses():
-    '''public List<AclFilterResponse> responses()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static DeleteAclsResponse parse(final ByteBuffer buffer, final short version)
+    '''returns List<AclFilterResponse>\n\n
+    responses()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    '''
-def AclDeletionResult():
-    '''public AclDeletionResult(final ApiError error, final AclBinding acl)
-    public AclDeletionResult(final AclBinding acl)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def error():
-    '''public ApiError error()
-    public ApiError error()
+    '''returns ApiError\n\n
+    error()\n
+    error()\n
     '''
 def acl():
-    '''public AclBinding acl()
-    '''
-def AclFilterResponse():
-    '''public AclFilterResponse(final ApiError error, final Collection<AclDeletionResult> deletions)
-    public AclFilterResponse(final Collection<AclDeletionResult> deletions)
+    '''returns AclBinding\n\n
+    acl()\n
     '''
 def deletions():
-    '''public Collection<AclDeletionResult> deletions()
+    '''returns Collection<AclDeletionResult>\n\n
+    deletions()\n
     '''

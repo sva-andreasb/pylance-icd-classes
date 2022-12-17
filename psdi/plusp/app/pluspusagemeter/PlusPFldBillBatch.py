@@ -1,3 +1,4 @@
-def PlusPFldBillBatch():
-    '''public PlusPFldBillBatch(final MboValue mbv)
+def ():
+    '''returns PlusPFldBillBatch\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,3 +1,4 @@
-def SRMResourceRequestHandler():
-    '''public SRMResourceRequestHandler()
+def ():
+    '''returns SRMResourceRequestHandler\n\n
+    ()\n
     '''

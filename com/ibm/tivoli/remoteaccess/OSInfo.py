@@ -1,90 +1,119 @@
 doNotCare = "int  -9999"
-def OSInfo():
-    '''public OSInfo()
-    public OSInfo(final int verVersion, final int verRelease, final int verModifier, final int verLevel)
-    public OSInfo(final String versionString)
+def ():
+    '''returns OSInfo\n\n
+    ()\n
+    (final int verVersion, final int verRelease, final int verModifier, final int verLevel)\n
+    (final String versionString)\n
     '''
 def isWindows():
-    '''public boolean isWindows()
+    '''returns boolean\n\n
+    isWindows()\n
     '''
 def isUNIX():
-    '''public boolean isUNIX()
+    '''returns boolean\n\n
+    isUNIX()\n
     '''
 def isAS400():
-    '''public boolean isAS400()
+    '''returns boolean\n\n
+    isAS400()\n
     '''
 def isCYGWIN():
-    '''public boolean isCYGWIN()
+    '''returns boolean\n\n
+    isCYGWIN()\n
     '''
 def isLinux():
-    '''public boolean isLinux()
+    '''returns boolean\n\n
+    isLinux()\n
     '''
 def getLanManagerType():
-    '''public String getLanManagerType()
+    '''returns String\n\n
+    getLanManagerType()\n
     '''
 def getSeparator():
-    '''public char getSeparator()
+    '''returns char\n\n
+    getSeparator()\n
     '''
 def getLineSeparator():
-    '''public String getLineSeparator()
+    '''returns String\n\n
+    getLineSeparator()\n
     '''
 def getPathSeparator():
-    '''public char getPathSeparator()
+    '''returns char\n\n
+    getPathSeparator()\n
     '''
 def getExecutableExtension():
-    '''public String getExecutableExtension()
+    '''returns String\n\n
+    getExecutableExtension()\n
     '''
 def getFreeformOSName():
-    '''public String getFreeformOSName()
+    '''returns String\n\n
+    getFreeformOSName()\n
     '''
 def getServicePackLevel():
-    '''public String getServicePackLevel()
+    '''returns String\n\n
+    getServicePackLevel()\n
     '''
 def getBuild():
-    '''public String getBuild()
+    '''returns String\n\n
+    getBuild()\n
     '''
 def compareVersion():
-    '''public int compareVersion(final OSInfo otherOS)
+    '''returns int\n\n
+    compareVersion(final OSInfo otherOS)\n
     '''
 def getOSResourceType():
-    '''public OSResourceType getOSResourceType()
+    '''returns OSResourceType\n\n
+    getOSResourceType()\n
     '''
 def getVersionString():
-    '''public String getVersionString()
+    '''returns String\n\n
+    getVersionString()\n
     '''
 def getVerLevel():
-    '''public int getVerLevel()
+    '''returns int\n\n
+    getVerLevel()\n
     '''
 def getVerModifier():
-    '''public int getVerModifier()
+    '''returns int\n\n
+    getVerModifier()\n
     '''
 def getVerRelease():
-    '''public int getVerRelease()
+    '''returns int\n\n
+    getVerRelease()\n
     '''
 def getVerVersion():
-    '''public int getVerVersion()
+    '''returns int\n\n
+    getVerVersion()\n
     '''
 def setVerLevel():
-    '''public void setVerLevel(final int verLevel)
+    '''returns None\n\n
+    setVerLevel(final int verLevel)\n
     '''
 def setVerModifier():
-    '''public void setVerModifier(final int verModifier)
+    '''returns None\n\n
+    setVerModifier(final int verModifier)\n
     '''
 def setVerRelease():
-    '''public void setVerRelease(final int verRelease)
+    '''returns None\n\n
+    setVerRelease(final int verRelease)\n
     '''
 def setVerVersion():
-    '''public void setVerVersion(final int verVersion)
+    '''returns None\n\n
+    setVerVersion(final int verVersion)\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def setVersionNumbersByString():
-    '''public void setVersionNumbersByString(final String version)
+    '''returns None\n\n
+    setVersionNumbersByString(final String version)\n
     '''
 def is64Bit():
-    '''public boolean is64Bit()
+    '''returns boolean\n\n
+    is64Bit()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,30 +1,40 @@
-def LoadSyncSettings():
-    '''public LoadSyncSettings()
+def ():
+    '''returns LoadSyncSettings\n\n
+    ()\n
     '''
 def getGroupSettings():
-    '''public GroupSettings getGroupSettings()
+    '''returns GroupSettings\n\n
+    getGroupSettings()\n
     '''
 def setGroupSettings():
-    '''public void setGroupSettings(final GroupSettings settings)
+    '''returns None\n\n
+    setGroupSettings(final GroupSettings settings)\n
     '''
 def getSynchronizerSettings():
-    '''public SynchronizerSettings getSynchronizerSettings()
+    '''returns SynchronizerSettings\n\n
+    getSynchronizerSettings()\n
     '''
 def setSynchronizerSettings():
-    '''public void setSynchronizerSettings(final SynchronizerSettings settings)
+    '''returns None\n\n
+    setSynchronizerSettings(final SynchronizerSettings settings)\n
     '''
 def getUserSettings():
-    '''public UserSettings getUserSettings()
+    '''returns UserSettings\n\n
+    getUserSettings()\n
     '''
 def setUserSettings():
-    '''public void setUserSettings(final UserSettings settings)
+    '''returns None\n\n
+    setUserSettings(final UserSettings settings)\n
     '''
 def getLdapContextSettings():
-    '''public LdapContextSettings getLdapContextSettings()
+    '''returns LdapContextSettings\n\n
+    getLdapContextSettings()\n
     '''
 def setLdapContextSettings():
-    '''public void setLdapContextSettings(final LdapContextSettings ldapContextSettings)
+    '''returns None\n\n
+    setLdapContextSettings(final LdapContextSettings ldapContextSettings)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

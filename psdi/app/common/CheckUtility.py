@@ -1,9 +1,8 @@
-def getCheckUtility():
-    '''public static synchronized CheckUtility getCheckUtility()
-    '''
 def refetch():
-    '''public void refetch()
+    '''returns None\n\n
+    refetch()\n
     '''
 def getVersion():
-    '''public boolean getVersion()
+    '''returns boolean\n\n
+    getVersion()\n
     '''

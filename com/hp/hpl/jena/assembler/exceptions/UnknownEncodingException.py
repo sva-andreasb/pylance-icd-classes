@@ -1,6 +1,8 @@
-def UnknownEncodingException():
-    '''public UnknownEncodingException(final Resource root, final String encoding)
+def ():
+    '''returns UnknownEncodingException\n\n
+    (final Resource root, final String encoding)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''

@@ -1,18 +1,24 @@
-def BasicRequestLine():
-    '''public BasicRequestLine(final String method, final String uri, final ProtocolVersion version)
+def ():
+    '''returns BasicRequestLine\n\n
+    (final String method, final String uri, final ProtocolVersion version)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def getProtocolVersion():
-    '''public ProtocolVersion getProtocolVersion()
+    '''returns ProtocolVersion\n\n
+    getProtocolVersion()\n
     '''
 def getUri():
-    '''public String getUri()
+    '''returns String\n\n
+    getUri()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

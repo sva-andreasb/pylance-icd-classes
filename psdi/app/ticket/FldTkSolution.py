@@ -1,6 +1,8 @@
-def FldTkSolution():
-    '''public FldTkSolution(final MboValue mbv)
+def ():
+    '''returns FldTkSolution\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

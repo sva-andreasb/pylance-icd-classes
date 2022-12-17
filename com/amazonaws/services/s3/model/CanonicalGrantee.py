@@ -1,24 +1,32 @@
 def getTypeIdentifier():
-    '''public String getTypeIdentifier()
+    '''returns String\n\n
+    getTypeIdentifier()\n
     '''
-def CanonicalGrantee():
-    '''public CanonicalGrantee(final String identifier)
+def ():
+    '''returns CanonicalGrantee\n\n
+    (final String identifier)\n
     '''
 def setIdentifier():
-    '''public void setIdentifier(final String id)
+    '''returns None\n\n
+    setIdentifier(final String id)\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final String displayName)
+    '''returns None\n\n
+    setDisplayName(final String displayName)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

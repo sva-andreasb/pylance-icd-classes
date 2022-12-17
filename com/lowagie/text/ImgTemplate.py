@@ -1,3 +1,4 @@
-def ImgTemplate():
-    '''public ImgTemplate(final PdfTemplate template)
+def ():
+    '''returns ImgTemplate\n\n
+    (final PdfTemplate template)\n
     '''

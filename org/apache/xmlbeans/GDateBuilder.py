@@ -1,155 +1,120 @@
-def GDateBuilder():
-    '''public GDateBuilder()
-    public GDateBuilder(final GDateSpecification gdate)
-    public GDateBuilder(final CharSequence string)
-    public GDateBuilder(final Calendar calendar)
-    public GDateBuilder(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
-    public GDateBuilder(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction, final int tzSign, final int tzHour, final int tzMinute)
-    public GDateBuilder(final Date date)
+def ():
+    '''returns GDateBuilder\n\n
+    ()\n
+    (final GDateSpecification gdate)\n
+    (final CharSequence string)\n
+    (final Calendar calendar)\n
+    (final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)\n
+    (final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction, final int tzSign, final int tzHour, final int tzMinute)\n
+    (final Date date)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toGDate():
-    '''public GDate toGDate()
+    '''returns GDate\n\n
+    toGDate()\n
     '''
 def isImmutable():
-    '''public boolean isImmutable()
+    '''returns boolean\n\n
+    isImmutable()\n
     '''
 def getFlags():
-    '''public int getFlags()
-    '''
-def hasTimeZone():
-    '''public final boolean hasTimeZone()
-    '''
-def hasYear():
-    '''public final boolean hasYear()
-    '''
-def hasMonth():
-    '''public final boolean hasMonth()
-    '''
-def hasDay():
-    '''public final boolean hasDay()
-    '''
-def hasTime():
-    '''public final boolean hasTime()
-    '''
-def hasDate():
-    '''public final boolean hasDate()
-    '''
-def getYear():
-    '''public final int getYear()
-    '''
-def getMonth():
-    '''public final int getMonth()
-    '''
-def getDay():
-    '''public final int getDay()
-    '''
-def getHour():
-    '''public final int getHour()
-    '''
-def getMinute():
-    '''public final int getMinute()
-    '''
-def getSecond():
-    '''public final int getSecond()
-    '''
-def getFraction():
-    '''public final BigDecimal getFraction()
-    '''
-def getMillisecond():
-    '''public final int getMillisecond()
-    '''
-def getTimeZoneSign():
-    '''public final int getTimeZoneSign()
-    '''
-def getTimeZoneHour():
-    '''public final int getTimeZoneHour()
-    '''
-def getTimeZoneMinute():
-    '''public final int getTimeZoneMinute()
+    '''returns int\n\n
+    getFlags()\n
     '''
 def setYear():
-    '''public void setYear(final int year)
+    '''returns None\n\n
+    setYear(final int year)\n
     '''
 def setMonth():
-    '''public void setMonth(final int month)
+    '''returns None\n\n
+    setMonth(final int month)\n
     '''
 def setDay():
-    '''public void setDay(final int day)
+    '''returns None\n\n
+    setDay(final int day)\n
     '''
 def setTime():
-    '''public void setTime(final int hour, final int minute, final int second, final BigDecimal fraction)
+    '''returns None\n\n
+    setTime(final int hour, final int minute, final int second, final BigDecimal fraction)\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final int tzSign, final int tzHour, final int tzMinute)
-    public void setTimeZone(int tzTotalMinutes)
+    '''returns None\n\n
+    setTimeZone(final int tzSign, final int tzHour, final int tzMinute)\n
+    setTimeZone(int tzTotalMinutes)\n
     '''
 def clearYear():
-    '''public void clearYear()
+    '''returns None\n\n
+    clearYear()\n
     '''
 def clearMonth():
-    '''public void clearMonth()
+    '''returns None\n\n
+    clearMonth()\n
     '''
 def clearDay():
-    '''public void clearDay()
+    '''returns None\n\n
+    clearDay()\n
     '''
 def clearTime():
-    '''public void clearTime()
+    '''returns None\n\n
+    clearTime()\n
     '''
 def clearTimeZone():
-    '''public void clearTimeZone()
+    '''returns None\n\n
+    clearTimeZone()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def normalize():
-    '''public void normalize()
+    '''returns None\n\n
+    normalize()\n
     '''
 def normalizeToTimeZone():
-    '''public void normalizeToTimeZone(final int tzSign, final int tzHour, final int tzMinute)
-    public void normalizeToTimeZone(int tzTotalMinutes)
+    '''returns None\n\n
+    normalizeToTimeZone(final int tzSign, final int tzHour, final int tzMinute)\n
+    normalizeToTimeZone(int tzTotalMinutes)\n
     '''
 def addGDuration():
-    '''public void addGDuration(final GDurationSpecification duration)
+    '''returns None\n\n
+    addGDuration(final GDurationSpecification duration)\n
     '''
 def subtractGDuration():
-    '''public void subtractGDuration(final GDurationSpecification duration)
+    '''returns None\n\n
+    subtractGDuration(final GDurationSpecification duration)\n
     '''
 def addDuration():
-    '''public void addDuration(final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
-    '''
-def getJulianDate():
-    '''public final int getJulianDate()
+    '''returns None\n\n
+    addDuration(final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)\n
     '''
 def setJulianDate():
-    '''public void setJulianDate(final int julianday)
+    '''returns None\n\n
+    setJulianDate(final int julianday)\n
     '''
 def setDate():
-    '''public void setDate(final Date date)
+    '''returns None\n\n
+    setDate(final Date date)\n
     '''
 def setGDate():
-    '''public void setGDate(final GDateSpecification gdate)
+    '''returns None\n\n
+    setGDate(final GDateSpecification gdate)\n
     '''
 def getCalendar():
-    '''public XmlCalendar getCalendar()
+    '''returns XmlCalendar\n\n
+    getCalendar()\n
     '''
 def getDate():
-    '''public Date getDate()
-    '''
-def compareToGDate():
-    '''public final int compareToGDate(final GDateSpecification datespec)
-    '''
-def getBuiltinTypeCode():
-    '''public final int getBuiltinTypeCode()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def setBuiltinTypeCode():
-    '''public void setBuiltinTypeCode(final int typeCode)
+    '''returns None\n\n
+    setBuiltinTypeCode(final int typeCode)\n
     '''
 def canonicalString():
-    '''public String canonicalString()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns String\n\n
+    canonicalString()\n
     '''

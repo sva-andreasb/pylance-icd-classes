@@ -1,19 +1,25 @@
-def DatasetStoreGraph():
-    '''public DatasetStoreGraph(final Store store, final Context context)
-    public DatasetStoreGraph(final Store store, final GraphSDB graph, final Context context)
+def ():
+    '''returns DatasetStoreGraph\n\n
+    (final Store store, final Context context)\n
+    (final Store store, final GraphSDB graph, final Context context)\n
     '''
 def getStore():
-    '''public Store getStore()
+    '''returns Store\n\n
+    getStore()\n
     '''
 def listGraphNodes():
-    '''public Iterator<Node> listGraphNodes()
+    '''returns Iterator<Node>\n\n
+    listGraphNodes()\n
     '''
 def startRequest():
-    '''public void startRequest()
+    '''returns None\n\n
+    startRequest()\n
     '''
 def finishRequest():
-    '''public void finishRequest()
+    '''returns None\n\n
+    finishRequest()\n
     '''
 def toDataset():
-    '''public Dataset toDataset()
+    '''returns Dataset\n\n
+    toDataset()\n
     '''

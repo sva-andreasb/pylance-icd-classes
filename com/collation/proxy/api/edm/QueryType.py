@@ -1,21 +1,28 @@
-def QueryType():
-    '''public QueryType(final String type)
+def ():
+    '''returns QueryType\n\n
+    (final String type)\n
     '''
 def getLiteral():
-    '''public String getLiteral()
+    '''returns String\n\n
+    getLiteral()\n
     '''
 def getLeft():
-    '''public QueryFilter getLeft()
+    '''returns QueryFilter\n\n
+    getLeft()\n
     '''
 def getOp():
-    '''public QueryOp getOp()
+    '''returns QueryOp\n\n
+    getOp()\n
     '''
 def getRight():
-    '''public QueryFilter getRight()
+    '''returns QueryFilter\n\n
+    getRight()\n
     '''
 def genString():
-    '''public String genString(final QueryContext qc, final DataView view)
+    '''returns String\n\n
+    genString(final QueryContext qc, final DataView view)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

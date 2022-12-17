@@ -1,0 +1,1 @@
+eINSTANCE = "XMLTypeFactory  new XMLTypeFactoryImpl()"

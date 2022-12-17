@@ -1,3 +1,4 @@
-def RelAttribute():
-    '''public RelAttribute(final MboSet ms)
+def ():
+    '''returns RelAttribute\n\n
+    (final MboSet ms)\n
     '''

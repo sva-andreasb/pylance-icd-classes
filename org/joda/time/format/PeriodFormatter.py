@@ -1,43 +1,57 @@
-def PeriodFormatter():
-    '''public PeriodFormatter(final PeriodPrinter iPrinter, final PeriodParser iParser)
+def ():
+    '''returns PeriodFormatter\n\n
+    (final PeriodPrinter iPrinter, final PeriodParser iParser)\n
     '''
 def isPrinter():
-    '''public boolean isPrinter()
+    '''returns boolean\n\n
+    isPrinter()\n
     '''
 def getPrinter():
-    '''public PeriodPrinter getPrinter()
+    '''returns PeriodPrinter\n\n
+    getPrinter()\n
     '''
 def isParser():
-    '''public boolean isParser()
+    '''returns boolean\n\n
+    isParser()\n
     '''
 def getParser():
-    '''public PeriodParser getParser()
+    '''returns PeriodParser\n\n
+    getParser()\n
     '''
 def withLocale():
-    '''public PeriodFormatter withLocale(final Locale locale)
+    '''returns PeriodFormatter\n\n
+    withLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def withParseType():
-    '''public PeriodFormatter withParseType(final PeriodType periodType)
+    '''returns PeriodFormatter\n\n
+    withParseType(final PeriodType periodType)\n
     '''
 def getParseType():
-    '''public PeriodType getParseType()
+    '''returns PeriodType\n\n
+    getParseType()\n
     '''
 def printTo():
-    '''public void printTo(final StringBuffer sb, final ReadablePeriod readablePeriod)
-    public void printTo(final Writer writer, final ReadablePeriod readablePeriod)
+    '''returns None\n\n
+    printTo(final StringBuffer sb, final ReadablePeriod readablePeriod)\n
+    printTo(final Writer writer, final ReadablePeriod readablePeriod)\n
     '''
 def print():
-    '''public String print(final ReadablePeriod readablePeriod)
+    '''returns String\n\n
+    print(final ReadablePeriod readablePeriod)\n
     '''
 def parseInto():
-    '''public int parseInto(final ReadWritablePeriod readWritablePeriod, final String s, final int n)
+    '''returns int\n\n
+    parseInto(final ReadWritablePeriod readWritablePeriod, final String s, final int n)\n
     '''
 def parsePeriod():
-    '''public Period parsePeriod(final String s)
+    '''returns Period\n\n
+    parsePeriod(final String s)\n
     '''
 def parseMutablePeriod():
-    '''public MutablePeriod parseMutablePeriod(final String s)
+    '''returns MutablePeriod\n\n
+    parseMutablePeriod(final String s)\n
     '''

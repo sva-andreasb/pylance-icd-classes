@@ -1,344 +1,452 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getAccountContacts():
-    '''public List<Contact> getAccountContacts()
+    '''returns List<Contact>\n\n
+    getAccountContacts()\n
     '''
 def getAccountReferences():
-    '''public List<Accounts> getAccountReferences()
+    '''returns List<Accounts>\n\n
+    getAccountReferences()\n
     '''
 def getBlockDevices():
-    '''public List<Template> getBlockDevices()
+    '''returns List<Template>\n\n
+    getBlockDevices()\n
     '''
 def getBlockDevicesDiskSpaceTotal():
-    '''public BigDecimal getBlockDevicesDiskSpaceTotal()
+    '''returns BigDecimal\n\n
+    getBlockDevicesDiskSpaceTotal()\n
     '''
 def setBlockDevicesDiskSpaceTotal():
-    '''public void setBlockDevicesDiskSpaceTotal(final BigDecimal blockDevicesDiskSpaceTotal)
+    '''returns None\n\n
+    setBlockDevicesDiskSpaceTotal(final BigDecimal blockDevicesDiskSpaceTotal)\n
     '''
 def getChildren():
-    '''public List<Group> getChildren()
+    '''returns List<Group>\n\n
+    getChildren()\n
     '''
 def getDatacenter():
-    '''public Location getDatacenter()
+    '''returns Location\n\n
+    getDatacenter()\n
     '''
 def setDatacenter():
-    '''public void setDatacenter(final Location datacenter)
+    '''returns None\n\n
+    setDatacenter(final Location datacenter)\n
     '''
 def getDatacenters():
-    '''public List<Location> getDatacenters()
+    '''returns List<Location>\n\n
+    getDatacenters()\n
     '''
 def getFlexImageFlag():
-    '''public Boolean getFlexImageFlag()
+    '''returns Boolean\n\n
+    getFlexImageFlag()\n
     '''
 def setFlexImageFlag():
-    '''public void setFlexImageFlag(final Boolean flexImageFlag)
+    '''returns None\n\n
+    setFlexImageFlag(final Boolean flexImageFlag)\n
     '''
 def getGlobalIdentifier():
-    '''public String getGlobalIdentifier()
+    '''returns String\n\n
+    getGlobalIdentifier()\n
     '''
 def setGlobalIdentifier():
-    '''public void setGlobalIdentifier(final String globalIdentifier)
+    '''returns None\n\n
+    setGlobalIdentifier(final String globalIdentifier)\n
     '''
 def getImageType():
-    '''public String getImageType()
+    '''returns String\n\n
+    getImageType()\n
     '''
 def setImageType():
-    '''public void setImageType(final String imageType)
+    '''returns None\n\n
+    setImageType(final String imageType)\n
     '''
 def getImageTypeKeyName():
-    '''public String getImageTypeKeyName()
+    '''returns String\n\n
+    getImageTypeKeyName()\n
     '''
 def setImageTypeKeyName():
-    '''public void setImageTypeKeyName(final String imageTypeKeyName)
+    '''returns None\n\n
+    setImageTypeKeyName(final String imageTypeKeyName)\n
     '''
 def getParent():
-    '''public Group getParent()
+    '''returns Group\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final Group parent)
+    '''returns None\n\n
+    setParent(final Group parent)\n
     '''
 def getSshKeys():
-    '''public List<Key> getSshKeys()
+    '''returns List<Key>\n\n
+    getSshKeys()\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final Status status)
+    '''returns None\n\n
+    setStatus(final Status status)\n
     '''
 def getStorageRepository():
-    '''public Repository getStorageRepository()
+    '''returns Repository\n\n
+    getStorageRepository()\n
     '''
 def setStorageRepository():
-    '''public void setStorageRepository(final Repository storageRepository)
+    '''returns None\n\n
+    setStorageRepository(final Repository storageRepository)\n
     '''
 def getTagReferences():
-    '''public List<Reference> getTagReferences()
+    '''returns List<Reference>\n\n
+    getTagReferences()\n
     '''
 def getTransaction():
-    '''public Transaction getTransaction()
+    '''returns Transaction\n\n
+    getTransaction()\n
     '''
 def setTransaction():
-    '''public void setTransaction(final Transaction transaction)
+    '''returns None\n\n
+    setTransaction(final Transaction transaction)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isNameSpecified():
-    '''public boolean isNameSpecified()
+    '''returns boolean\n\n
+    isNameSpecified()\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getNote():
-    '''public String getNote()
+    '''returns String\n\n
+    getNote()\n
     '''
 def setNote():
-    '''public void setNote(final String note)
+    '''returns None\n\n
+    setNote(final String note)\n
     '''
 def isNoteSpecified():
-    '''public boolean isNoteSpecified()
+    '''returns boolean\n\n
+    isNoteSpecified()\n
     '''
 def unsetNote():
-    '''public void unsetNote()
+    '''returns None\n\n
+    unsetNote()\n
     '''
 def getParentId():
-    '''public Long getParentId()
+    '''returns Long\n\n
+    getParentId()\n
     '''
 def setParentId():
-    '''public void setParentId(final Long parentId)
+    '''returns None\n\n
+    setParentId(final Long parentId)\n
     '''
 def isParentIdSpecified():
-    '''public boolean isParentIdSpecified()
+    '''returns boolean\n\n
+    isParentIdSpecified()\n
     '''
 def unsetParentId():
-    '''public void unsetParentId()
+    '''returns None\n\n
+    unsetParentId()\n
     '''
 def getPublicFlag():
-    '''public Long getPublicFlag()
+    '''returns Long\n\n
+    getPublicFlag()\n
     '''
 def setPublicFlag():
-    '''public void setPublicFlag(final Long publicFlag)
+    '''returns None\n\n
+    setPublicFlag(final Long publicFlag)\n
     '''
 def isPublicFlagSpecified():
-    '''public boolean isPublicFlagSpecified()
+    '''returns boolean\n\n
+    isPublicFlagSpecified()\n
     '''
 def unsetPublicFlag():
-    '''public void unsetPublicFlag()
+    '''returns None\n\n
+    unsetPublicFlag()\n
     '''
 def getStatusId():
-    '''public Long getStatusId()
+    '''returns Long\n\n
+    getStatusId()\n
     '''
 def setStatusId():
-    '''public void setStatusId(final Long statusId)
+    '''returns None\n\n
+    setStatusId(final Long statusId)\n
     '''
 def isStatusIdSpecified():
-    '''public boolean isStatusIdSpecified()
+    '''returns boolean\n\n
+    isStatusIdSpecified()\n
     '''
 def unsetStatusId():
-    '''public void unsetStatusId()
+    '''returns None\n\n
+    unsetStatusId()\n
     '''
 def getSummary():
-    '''public String getSummary()
+    '''returns String\n\n
+    getSummary()\n
     '''
 def setSummary():
-    '''public void setSummary(final String summary)
+    '''returns None\n\n
+    setSummary(final String summary)\n
     '''
 def isSummarySpecified():
-    '''public boolean isSummarySpecified()
+    '''returns boolean\n\n
+    isSummarySpecified()\n
     '''
 def unsetSummary():
-    '''public void unsetSummary()
+    '''returns None\n\n
+    unsetSummary()\n
     '''
 def getTransactionId():
-    '''public Long getTransactionId()
+    '''returns Long\n\n
+    getTransactionId()\n
     '''
 def setTransactionId():
-    '''public void setTransactionId(final Long transactionId)
+    '''returns None\n\n
+    setTransactionId(final Long transactionId)\n
     '''
 def isTransactionIdSpecified():
-    '''public boolean isTransactionIdSpecified()
+    '''returns boolean\n\n
+    isTransactionIdSpecified()\n
     '''
 def unsetTransactionId():
-    '''public void unsetTransactionId()
+    '''returns None\n\n
+    unsetTransactionId()\n
     '''
 def getUserRecordId():
-    '''public Long getUserRecordId()
+    '''returns Long\n\n
+    getUserRecordId()\n
     '''
 def setUserRecordId():
-    '''public void setUserRecordId(final Long userRecordId)
+    '''returns None\n\n
+    setUserRecordId(final Long userRecordId)\n
     '''
 def isUserRecordIdSpecified():
-    '''public boolean isUserRecordIdSpecified()
+    '''returns boolean\n\n
+    isUserRecordIdSpecified()\n
     '''
 def unsetUserRecordId():
-    '''public void unsetUserRecordId()
+    '''returns None\n\n
+    unsetUserRecordId()\n
     '''
 def getAccountContactCount():
-    '''public Long getAccountContactCount()
+    '''returns Long\n\n
+    getAccountContactCount()\n
     '''
 def setAccountContactCount():
-    '''public void setAccountContactCount(final Long accountContactCount)
+    '''returns None\n\n
+    setAccountContactCount(final Long accountContactCount)\n
     '''
 def getAccountReferenceCount():
-    '''public Long getAccountReferenceCount()
+    '''returns Long\n\n
+    getAccountReferenceCount()\n
     '''
 def setAccountReferenceCount():
-    '''public void setAccountReferenceCount(final Long accountReferenceCount)
+    '''returns None\n\n
+    setAccountReferenceCount(final Long accountReferenceCount)\n
     '''
 def getBlockDeviceCount():
-    '''public Long getBlockDeviceCount()
+    '''returns Long\n\n
+    getBlockDeviceCount()\n
     '''
 def setBlockDeviceCount():
-    '''public void setBlockDeviceCount(final Long blockDeviceCount)
+    '''returns None\n\n
+    setBlockDeviceCount(final Long blockDeviceCount)\n
     '''
 def getChildrenCount():
-    '''public Long getChildrenCount()
+    '''returns Long\n\n
+    getChildrenCount()\n
     '''
 def setChildrenCount():
-    '''public void setChildrenCount(final Long childrenCount)
+    '''returns None\n\n
+    setChildrenCount(final Long childrenCount)\n
     '''
 def getDatacenterCount():
-    '''public Long getDatacenterCount()
+    '''returns Long\n\n
+    getDatacenterCount()\n
     '''
 def setDatacenterCount():
-    '''public void setDatacenterCount(final Long datacenterCount)
+    '''returns None\n\n
+    setDatacenterCount(final Long datacenterCount)\n
     '''
 def getSshKeyCount():
-    '''public Long getSshKeyCount()
+    '''returns Long\n\n
+    getSshKeyCount()\n
     '''
 def setSshKeyCount():
-    '''public void setSshKeyCount(final Long sshKeyCount)
+    '''returns None\n\n
+    setSshKeyCount(final Long sshKeyCount)\n
     '''
 def getTagReferenceCount():
-    '''public Long getTagReferenceCount()
+    '''returns Long\n\n
+    getTagReferenceCount()\n
     '''
 def setTagReferenceCount():
-    '''public void setTagReferenceCount(final Long tagReferenceCount)
+    '''returns None\n\n
+    setTagReferenceCount(final Long tagReferenceCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
-    public static Service service(final ApiClient client, final String globalIdentifier)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def blockDevicesDiskSpaceTotal():
-    '''public Mask blockDevicesDiskSpaceTotal()
+    '''returns Mask\n\n
+    blockDevicesDiskSpaceTotal()\n
     '''
 def children():
-    '''public Mask children()
+    '''returns Mask\n\n
+    children()\n
     '''
 def flexImageFlag():
-    '''public Mask flexImageFlag()
+    '''returns Mask\n\n
+    flexImageFlag()\n
     '''
 def globalIdentifier():
-    '''public Mask globalIdentifier()
+    '''returns Mask\n\n
+    globalIdentifier()\n
     '''
 def imageType():
-    '''public Mask imageType()
+    '''returns Mask\n\n
+    imageType()\n
     '''
 def imageTypeKeyName():
-    '''public Mask imageTypeKeyName()
+    '''returns Mask\n\n
+    imageTypeKeyName()\n
     '''
 def parent():
-    '''public Mask parent()
+    '''returns Mask\n\n
+    parent()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def name():
-    '''public Mask name()
+    '''returns Mask\n\n
+    name()\n
     '''
 def note():
-    '''public Mask note()
+    '''returns Mask\n\n
+    note()\n
     '''
 def parentId():
-    '''public Mask parentId()
+    '''returns Mask\n\n
+    parentId()\n
     '''
 def publicFlag():
-    '''public Mask publicFlag()
+    '''returns Mask\n\n
+    publicFlag()\n
     '''
 def statusId():
-    '''public Mask statusId()
+    '''returns Mask\n\n
+    statusId()\n
     '''
 def summary():
-    '''public Mask summary()
+    '''returns Mask\n\n
+    summary()\n
     '''
 def transactionId():
-    '''public Mask transactionId()
+    '''returns Mask\n\n
+    transactionId()\n
     '''
 def userRecordId():
-    '''public Mask userRecordId()
+    '''returns Mask\n\n
+    userRecordId()\n
     '''
 def accountContactCount():
-    '''public Mask accountContactCount()
+    '''returns Mask\n\n
+    accountContactCount()\n
     '''
 def accountReferenceCount():
-    '''public Mask accountReferenceCount()
+    '''returns Mask\n\n
+    accountReferenceCount()\n
     '''
 def blockDeviceCount():
-    '''public Mask blockDeviceCount()
+    '''returns Mask\n\n
+    blockDeviceCount()\n
     '''
 def childrenCount():
-    '''public Mask childrenCount()
+    '''returns Mask\n\n
+    childrenCount()\n
     '''
 def datacenterCount():
-    '''public Mask datacenterCount()
+    '''returns Mask\n\n
+    datacenterCount()\n
     '''
 def sshKeyCount():
-    '''public Mask sshKeyCount()
+    '''returns Mask\n\n
+    sshKeyCount()\n
     '''
 def tagReferenceCount():
-    '''public Mask tagReferenceCount()
+    '''returns Mask\n\n
+    tagReferenceCount()\n
     '''

@@ -1,76 +1,94 @@
-def Section():
-    '''public Section()
-    public Section(final Section s)
-    public Section(final byte[] src, final int offset)
+def ():
+    '''returns Section\n\n
+    ()\n
+    (final Section s)\n
+    (final byte[] src, final int offset)\n
     '''
 def getFormatID():
-    '''public ClassID getFormatID()
+    '''returns ClassID\n\n
+    getFormatID()\n
     '''
 def setFormatID():
-    '''public void setFormatID(final ClassID formatID)
-    public void setFormatID(final byte[] formatID)
+    '''returns None\n\n
+    setFormatID(final ClassID formatID)\n
+    setFormatID(final byte[] formatID)\n
     '''
 def getOffset():
-    '''public long getOffset()
+    '''returns long\n\n
+    getOffset()\n
     '''
 def getPropertyCount():
-    '''public int getPropertyCount()
+    '''returns int\n\n
+    getPropertyCount()\n
     '''
 def getProperties():
-    '''public Property[] getProperties()
+    '''returns Property[]\n\n
+    getProperties()\n
     '''
 def setProperties():
-    '''public void setProperties(final Property[] properties)
+    '''returns None\n\n
+    setProperties(final Property[] properties)\n
     '''
 def getProperty():
-    '''public Object getProperty(final long id)
+    '''returns Object\n\n
+    getProperty(final long id)\n
     '''
 def setProperty():
-    '''public void setProperty(final int id, final String value)
-    public void setProperty(final int id, final int value)
-    public void setProperty(final int id, final long value)
-    public void setProperty(final int id, final boolean value)
-    public void setProperty(final int id, final long variantType, final Object value)
-    public void setProperty(final Property p)
-    public void setProperty(final int id, final Object value)
+    '''returns None\n\n
+    setProperty(final int id, final String value)\n
+    setProperty(final int id, final int value)\n
+    setProperty(final int id, final long value)\n
+    setProperty(final int id, final boolean value)\n
+    setProperty(final int id, final long variantType, final Object value)\n
+    setProperty(final Property p)\n
+    setProperty(final int id, final Object value)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def wasNull():
-    '''public boolean wasNull()
+    '''returns boolean\n\n
+    wasNull()\n
     '''
 def getPIDString():
-    '''public String getPIDString(final long pid)
+    '''returns String\n\n
+    getPIDString(final long pid)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def removeProperty():
-    '''public void removeProperty(final long id)
+    '''returns None\n\n
+    removeProperty(final long id)\n
     '''
 def write():
-    '''public int write(final OutputStream out)
+    '''returns int\n\n
+    write(final OutputStream out)\n
     '''
 def setDictionary():
-    '''public void setDictionary(final Map<Long, String> dictionary)
+    '''returns None\n\n
+    setDictionary(final Map<Long, String> dictionary)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final PropertyIDMap idMap)
-    '''
-def getDictionary():
-    '''public Map<Long, String> getDictionary()
+    '''returns String\n\n
+    toString()\n
+    toString(final PropertyIDMap idMap)\n
     '''
 def getCodepage():
-    '''public int getCodepage()
+    '''returns int\n\n
+    getCodepage()\n
     '''
 def setCodepage():
-    '''public void setCodepage(final int codepage)
+    '''returns None\n\n
+    setCodepage(final int codepage)\n
     '''

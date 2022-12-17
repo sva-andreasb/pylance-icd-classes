@@ -1,9 +1,12 @@
-def FldMatRecTransFromLot():
-    '''public FldMatRecTransFromLot(final MboValue mbv)
+def ():
+    '''returns FldMatRecTransFromLot\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

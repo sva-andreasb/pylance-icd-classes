@@ -6,31 +6,40 @@ OWNERID = "String  \"OWNERID\""
 DOCINFOID = "String  \"DOCINFOID\""
 DOCTYPE = "String  \"DOCTYPE\""
 DOCUMENT = "String  \"DOCUMENT\""
-def WFProcessInboundProc():
-    '''public WFProcessInboundProc()
+def ():
+    '''returns WFProcessInboundProc\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules()
-    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules()\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def deleteAll():
-    '''public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
+    '''returns None\n\n
+    deleteAll(final MboRemote owner, final MboSetRemote mboSet)\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String objectName)\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''
 def isNull():
-    '''public boolean isNull(final String t)
+    '''returns boolean\n\n
+    isNull(final String t)\n
     '''
 def createMboSet():
-    '''public MboSetRemote createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''returns MboSetRemote\n\n
+    createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)\n
     '''
 def afterReplace():
-    '''public void afterReplace(final MboRemote child)
+    '''returns None\n\n
+    afterReplace(final MboRemote child)\n
     '''
 def delete():
-    '''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''returns None\n\n
+    delete(final MboRemote mbo, final MosDetailInfo mdi)\n
     '''

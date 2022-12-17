@@ -1,3 +1,4 @@
 def CFGLOGMSG():
-    '''public int CFGLOGMSG()
+    '''returns int\n\n
+    CFGLOGMSG()\n
     '''

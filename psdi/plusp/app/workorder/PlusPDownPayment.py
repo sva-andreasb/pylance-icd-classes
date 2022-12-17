@@ -1,9 +1,12 @@
-def PlusPDownPayment():
-    '''public PlusPDownPayment(final MboSet ms)
+def ():
+    '''returns PlusPDownPayment\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def adjustPercentageAndPrices():
-    '''public void adjustPercentageAndPrices(final MboValue mboValue)
+    '''returns None\n\n
+    adjustPercentageAndPrices(final MboValue mboValue)\n
     '''

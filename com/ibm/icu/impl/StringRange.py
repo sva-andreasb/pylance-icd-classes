@@ -1,45 +1,47 @@
-def compact():
-    '''public static void compact(final Set<String> source, final Adder adder, final boolean shorterPairs, final boolean moreCompact)
-    public static void compact(final Set<String> source, final Adder adder, final boolean shorterPairs)
-    '''
-def expand():
-    '''public static Collection<String> expand(final String start, final String end, final boolean requireSameLength, final Collection<String> output)
-    '''
 def compare():
-    '''public int compare(final int[] o1, final int[] o2)
+    '''returns int\n\n
+    compare(final int[] o1, final int[] o2)\n
     '''
-def Range():
-    '''public Range(final int min, final int max)
+def ():
+    '''returns Ranges\n\n
+    (final int min, final int max)\n
+    (final String s)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def compareTo():
-    '''public int compareTo(final Range that)
-    public int compareTo(final Ranges other)
+    '''returns int\n\n
+    compareTo(final Range that)\n
+    compareTo(final Ranges other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def Ranges():
-    '''public Ranges(final String s)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def merge():
-    '''public boolean merge(final int pivot, final Ranges other)
+    '''returns boolean\n\n
+    merge(final int pivot, final Ranges other)\n
     '''
 def start():
-    '''public String start()
+    '''returns String\n\n
+    start()\n
     '''
 def end():
-    '''public String end(final boolean mostCompact)
+    '''returns String\n\n
+    end(final boolean mostCompact)\n
     '''
 def firstDifference():
-    '''public int firstDifference()
+    '''returns int\n\n
+    firstDifference()\n
     '''
 def size():
-    '''public Integer size()
+    '''returns Integer\n\n
+    size()\n
     '''

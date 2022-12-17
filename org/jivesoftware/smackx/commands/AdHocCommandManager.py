@@ -1,44 +1,54 @@
 NAMESPACE = "String  \"http://jabber.org/protocol/commands\""
-def getAddHocCommandsManager():
-    '''public static synchronized AdHocCommandManager getAddHocCommandsManager(final XMPPConnection connection)
-    '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def registerCommand():
-    '''public void registerCommand(final String node, final String name, final Class<? extends LocalCommand> clazz)
-    public void registerCommand(final String node, final String name, final LocalCommandFactory factory)
+    '''returns None\n\n
+    registerCommand(final String node, final String name, final Class<? extends LocalCommand> clazz)\n
+    registerCommand(final String node, final String name, final LocalCommandFactory factory)\n
     '''
 def getInstance():
-    '''public LocalCommand getInstance()
+    '''returns LocalCommand\n\n
+    getInstance()\n
     '''
 def getNodeFeatures():
-    '''public List<String> getNodeFeatures()
+    '''returns List<String>\n\n
+    getNodeFeatures()\n
     '''
 def discoverCommands():
-    '''public DiscoverItems discoverCommands(final Jid jid)
+    '''returns DiscoverItems\n\n
+    discoverCommands(final Jid jid)\n
     '''
 def publishCommands():
-    '''public void publishCommands(final Jid jid)
+    '''returns None\n\n
+    publishCommands(final Jid jid)\n
     '''
 def getRemoteCommand():
-    '''public RemoteCommand getRemoteCommand(final Jid jid, final String node)
+    '''returns RemoteCommand\n\n
+    getRemoteCommand(final Jid jid, final String node)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''
 def getCommandInstance():
-    '''public LocalCommand getCommandInstance()
+    '''returns LocalCommand\n\n
+    getCommandInstance()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''
 def getOwnerJID():
-    '''public Jid getOwnerJID()
+    '''returns Jid\n\n
+    getOwnerJID()\n
     '''

@@ -1,6 +1,8 @@
-def PlusCFldCdsInstrAssetFunction():
-    '''public PlusCFldCdsInstrAssetFunction(final MboValue mbv)
+def ():
+    '''returns PlusCFldCdsInstrAssetFunction\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

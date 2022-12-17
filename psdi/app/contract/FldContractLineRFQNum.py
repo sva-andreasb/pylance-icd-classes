@@ -1,6 +1,8 @@
-def FldContractLineRFQNum():
-    '''public FldContractLineRFQNum(final MboValue mbv)
+def ():
+    '''returns FldContractLineRFQNum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

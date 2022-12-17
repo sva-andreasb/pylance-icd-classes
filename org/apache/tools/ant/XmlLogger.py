@@ -1,39 +1,52 @@
-def XmlLogger():
-    '''public XmlLogger()
+def ():
+    '''returns XmlLogger\n\n
+    ()\n
     '''
 def buildStarted():
-    '''public void buildStarted(final BuildEvent event)
+    '''returns None\n\n
+    buildStarted(final BuildEvent event)\n
     '''
 def buildFinished():
-    '''public void buildFinished(final BuildEvent event)
+    '''returns None\n\n
+    buildFinished(final BuildEvent event)\n
     '''
 def targetStarted():
-    '''public void targetStarted(final BuildEvent event)
+    '''returns None\n\n
+    targetStarted(final BuildEvent event)\n
     '''
 def targetFinished():
-    '''public void targetFinished(final BuildEvent event)
+    '''returns None\n\n
+    targetFinished(final BuildEvent event)\n
     '''
 def taskStarted():
-    '''public void taskStarted(final BuildEvent event)
+    '''returns None\n\n
+    taskStarted(final BuildEvent event)\n
     '''
 def taskFinished():
-    '''public void taskFinished(final BuildEvent event)
+    '''returns None\n\n
+    taskFinished(final BuildEvent event)\n
     '''
 def messageLogged():
-    '''public void messageLogged(final BuildEvent event)
+    '''returns None\n\n
+    messageLogged(final BuildEvent event)\n
     '''
 def setMessageOutputLevel():
-    '''public void setMessageOutputLevel(final int level)
+    '''returns None\n\n
+    setMessageOutputLevel(final int level)\n
     '''
 def setOutputPrintStream():
-    '''public void setOutputPrintStream(final PrintStream output)
+    '''returns None\n\n
+    setOutputPrintStream(final PrintStream output)\n
     '''
 def setEmacsMode():
-    '''public void setEmacsMode(final boolean emacsMode)
+    '''returns None\n\n
+    setEmacsMode(final boolean emacsMode)\n
     '''
 def setErrorPrintStream():
-    '''public void setErrorPrintStream(final PrintStream err)
+    '''returns None\n\n
+    setErrorPrintStream(final PrintStream err)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

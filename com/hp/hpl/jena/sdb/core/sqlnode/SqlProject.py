@@ -1,24 +1,28 @@
-def project():
-    '''public static SqlNode project(final SqlNode sqlNode, final ColAlias col)
-    '''
 def isProject():
-    '''public boolean isProject()
+    '''returns boolean\n\n
+    isProject()\n
     '''
 def asProject():
-    '''public SqlProject asProject()
+    '''returns SqlProject\n\n
+    asProject()\n
     '''
 def usesColumn():
-    '''public boolean usesColumn(final SqlColumn c)
+    '''returns boolean\n\n
+    usesColumn(final SqlColumn c)\n
     '''
 def getCols():
-    '''public List<ColAlias> getCols()
+    '''returns List<ColAlias>\n\n
+    getCols()\n
     '''
 def visit():
-    '''public void visit(final SqlNodeVisitor visitor)
+    '''returns None\n\n
+    visit(final SqlNodeVisitor visitor)\n
     '''
 def apply():
-    '''public SqlNode apply(final SqlTransform transform, final SqlNode subNode)
+    '''returns SqlNode\n\n
+    apply(final SqlTransform transform, final SqlNode subNode)\n
     '''
 def copy():
-    '''public SqlNode copy(final SqlNode subNode)
+    '''returns SqlNode\n\n
+    copy(final SqlNode subNode)\n
     '''

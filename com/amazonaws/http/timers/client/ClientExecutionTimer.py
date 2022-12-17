@@ -1,9 +1,8 @@
 def startTimer():
-    '''public ClientExecutionAbortTrackerTask startTimer(final int clientExecutionTimeoutMillis)
+    '''returns ClientExecutionAbortTrackerTask\n\n
+    startTimer(final int clientExecutionTimeoutMillis)\n
     '''
 def getExecutor():
-    '''public ScheduledThreadPoolExecutor getExecutor()
-    '''
-def shutdown():
-    '''public synchronized void shutdown()
+    '''returns ScheduledThreadPoolExecutor\n\n
+    getExecutor()\n
     '''

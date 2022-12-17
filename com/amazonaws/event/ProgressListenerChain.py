@@ -1,16 +1,13 @@
-def ProgressListenerChain():
-    '''public ProgressListenerChain(final ProgressListener... listeners)
-    public ProgressListenerChain(final ProgressEventFilter progressEventFilter, final ProgressListener... listeners)
-    '''
-def addProgressListener():
-    '''public synchronized void addProgressListener(final ProgressListener listener)
-    '''
-def removeProgressListener():
-    '''public synchronized void removeProgressListener(final ProgressListener listener)
+def ():
+    '''returns ProgressListenerChain\n\n
+    (final ProgressListener... listeners)\n
+    (final ProgressEventFilter progressEventFilter, final ProgressListener... listeners)\n
     '''
 def progressChanged():
-    '''public void progressChanged(final ProgressEvent progressEvent)
+    '''returns None\n\n
+    progressChanged(final ProgressEvent progressEvent)\n
     '''
 def isSyncCallSafe():
-    '''public boolean isSyncCallSafe()
+    '''returns boolean\n\n
+    isSyncCallSafe()\n
     '''

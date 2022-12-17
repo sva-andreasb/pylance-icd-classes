@@ -1,4 +1,5 @@
-def AgentLoadException():
-    '''public AgentLoadException()
-    public AgentLoadException(final String message)
+def ():
+    '''returns AgentLoadException\n\n
+    ()\n
+    (final String message)\n
     '''

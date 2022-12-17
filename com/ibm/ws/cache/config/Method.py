@@ -1,9 +1,12 @@
-def Method():
-    '''public Method()
+def ():
+    '''returns Method\n\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

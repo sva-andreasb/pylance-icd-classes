@@ -1,6 +1,8 @@
-def FldIssueCurrentItemUnitCost():
-    '''public FldIssueCurrentItemUnitCost(final MboValue mbv)
+def ():
+    '''returns FldIssueCurrentItemUnitCost\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

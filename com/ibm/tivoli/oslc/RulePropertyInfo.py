@@ -1,9 +1,8 @@
-def RulePropertyInfo():
-    '''public RulePropertyInfo(final PropertyInfo propInfo)
+def ():
+    '''returns RulePropertyInfo\n\n
+    (final PropertyInfo propInfo)\n
     '''
 def setMetaData():
-    '''public void setMetaData(final Map<String, String> mdMap)
-    '''
-def getMetaData():
-    '''public Map<String, String> getMetaData()
+    '''returns None\n\n
+    setMetaData(final Map<String, String> mdMap)\n
     '''

@@ -1,19 +1,17 @@
-def StemGloss():
-    '''public StemGloss()
-    public StemGloss(final String s)
-    '''
-def getType():
-    '''public final int getType()
-    '''
-def toString():
-    '''public final String toString()
+def ():
+    '''returns StemGloss\n\n
+    ()\n
+    (final String s)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

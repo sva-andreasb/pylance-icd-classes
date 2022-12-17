@@ -1,3 +1,4 @@
 def natpreview():
-    '''public int natpreview()
+    '''returns int\n\n
+    natpreview()\n
     '''

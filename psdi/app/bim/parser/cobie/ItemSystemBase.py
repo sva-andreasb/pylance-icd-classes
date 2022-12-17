@@ -1,21 +1,28 @@
-def ItemSystemBase():
-    '''public ItemSystemBase()
+def ():
+    '''returns ItemSystemBase\n\n
+    ()\n
     '''
 def addMember():
-    '''public void addMember(final ItemType member)
+    '''returns None\n\n
+    addMember(final ItemType member)\n
     '''
 def isDuplicat():
-    '''public boolean isDuplicat(final Parser parser, final Item item)
+    '''returns boolean\n\n
+    isDuplicat(final Parser parser, final Item item)\n
     '''
 def members():
-    '''public Enumeration<ItemType> members()
+    '''returns Enumeration<ItemType>\n\n
+    members()\n
     '''
 def getMemberCount():
-    '''public int getMemberCount()
+    '''returns int\n\n
+    getMemberCount()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def export():
-    '''public void export(final Exporter exporter)
+    '''returns None\n\n
+    export(final Exporter exporter)\n
     '''

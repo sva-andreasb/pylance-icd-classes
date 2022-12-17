@@ -1,16 +1,21 @@
-def InspectionResult():
-    '''public InspectionResult(final MboSet ms)
+def ():
+    '''returns InspectionResult\n\n
+    (final MboSet ms)\n
     '''
 def updateAssetLocMeter():
-    '''public void updateAssetLocMeter(final String referenceobject, final String referenceobjectid, final String asset, final String location, final String siteid, final String orgid, final String inspformnum, final String resultnum)
-    public void updateAssetLocMeter(final MboRemote inspectionresult)
+    '''returns None\n\n
+    updateAssetLocMeter(final String referenceobject, final String referenceobjectid, final String asset, final String location, final String siteid, final String orgid, final String inspformnum, final String resultnum)\n
+    updateAssetLocMeter(final MboRemote inspectionresult)\n
     '''
 def updateMeterReading():
-    '''public void updateMeterReading(final MboSetRemote meterSetRemote, final MboRemote inspFieldResult)
+    '''returns None\n\n
+    updateMeterReading(final MboSetRemote meterSetRemote, final MboRemote inspFieldResult)\n
     '''
 def changeResultStatus():
-    '''public void changeResultStatus(String status)
+    '''returns None\n\n
+    changeResultStatus(String status)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''

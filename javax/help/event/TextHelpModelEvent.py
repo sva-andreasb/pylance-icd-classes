@@ -1,3 +1,4 @@
-def TextHelpModelEvent():
-    '''public TextHelpModelEvent(final Object source)
+def ():
+    '''returns TextHelpModelEvent\n\n
+    (final Object source)\n
     '''

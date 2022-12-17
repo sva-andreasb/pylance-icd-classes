@@ -1,15 +1,12 @@
-def ScriptDesc():
-    '''public ScriptDesc()
-    '''
-def read():
-    '''public static ScriptDesc read(final String filename)
-    '''
-def run():
-    '''public static void run(final String filename)
+def ():
+    '''returns ScriptDesc\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final CmdDesc step)
+    '''returns None\n\n
+    add(final CmdDesc step)\n
     '''
 def getSteps():
-    '''public List<CmdDesc> getSteps()
+    '''returns List<CmdDesc>\n\n
+    getSteps()\n
     '''

@@ -1,12 +1,16 @@
-def SunFakeTrustSocketFactory():
-    '''public SunFakeTrustSocketFactory(final Hashtable attributes)
+def ():
+    '''returns SunFakeTrustSocketFactory\n\n
+    (final Hashtable attributes)\n
     '''
 def isClientTrusted():
-    '''public boolean isClientTrusted(final X509Certificate[] chain)
+    '''returns boolean\n\n
+    isClientTrusted(final X509Certificate[] chain)\n
     '''
 def isServerTrusted():
-    '''public boolean isServerTrusted(final X509Certificate[] chain)
+    '''returns boolean\n\n
+    isServerTrusted(final X509Certificate[] chain)\n
     '''
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''

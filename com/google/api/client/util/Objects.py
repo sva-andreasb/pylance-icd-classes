@@ -1,15 +1,12 @@
-def equal():
-    '''public static boolean equal(final Object a, final Object b)
-    '''
-def toStringHelper():
-    '''public static ToStringHelper toStringHelper(final Object self)
-    '''
 def omitNullValues():
-    '''public ToStringHelper omitNullValues()
+    '''returns ToStringHelper\n\n
+    omitNullValues()\n
     '''
 def add():
-    '''public ToStringHelper add(final String name, final Object value)
+    '''returns ToStringHelper\n\n
+    add(final String name, final Object value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

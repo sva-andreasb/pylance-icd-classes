@@ -1,22 +1,29 @@
-def Availability():
-    '''public Availability()
-    public Availability(final RequestData request, final ISKDItemAvailability itemAvailablity, final ISKDAvailability assetAndLocationAvailablity)
+def ():
+    '''returns Availability\n\n
+    ()\n
+    (final RequestData request, final ISKDItemAvailability itemAvailablity, final ISKDAvailability assetAndLocationAvailablity)\n
     '''
 def setItemAvailablity():
-    '''public void setItemAvailablity(final ISKDItemAvailability itemAvailablity)
+    '''returns None\n\n
+    setItemAvailablity(final ISKDItemAvailability itemAvailablity)\n
     '''
 def getAssetAndLocationAvailablity():
-    '''public ISKDAvailability getAssetAndLocationAvailablity()
+    '''returns ISKDAvailability\n\n
+    getAssetAndLocationAvailablity()\n
     '''
 def setAssetAndLocationAvailablity():
-    '''public void setAssetAndLocationAvailablity(final ISKDAvailability assetAndLocationAvailablity)
+    '''returns None\n\n
+    setAssetAndLocationAvailablity(final ISKDAvailability assetAndLocationAvailablity)\n
     '''
 def getRequest():
-    '''public RequestData getRequest()
+    '''returns RequestData\n\n
+    getRequest()\n
     '''
 def setRequest():
-    '''public void setRequest(final RequestData request)
+    '''returns None\n\n
+    setRequest(final RequestData request)\n
     '''
 def getItemAvailablity():
-    '''public ISKDItemAvailability getItemAvailablity()
+    '''returns ISKDItemAvailability\n\n
+    getItemAvailablity()\n
     '''

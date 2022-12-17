@@ -1,21 +1,23 @@
 LOGGER_NAME = "String  \"SMACK\""
 SENT_TAG = "String  \"SENT\""
 RECEIVED_TAG = "String  \"RECV\""
-def enable():
-    '''public static void enable()
-    '''
 def newConnectionReader():
-    '''public Reader newConnectionReader(final Reader newReader)
+    '''returns Reader\n\n
+    newConnectionReader(final Reader newReader)\n
     '''
 def newConnectionWriter():
-    '''public Writer newConnectionWriter(final Writer newWriter)
+    '''returns Writer\n\n
+    newConnectionWriter(final Writer newWriter)\n
     '''
 def userHasLogged():
-    '''public void userHasLogged(final EntityFullJid user)
+    '''returns None\n\n
+    userHasLogged(final EntityFullJid user)\n
     '''
 def onIncomingStreamElement():
-    '''public void onIncomingStreamElement(final TopLevelStreamElement streamElement)
+    '''returns None\n\n
+    onIncomingStreamElement(final TopLevelStreamElement streamElement)\n
     '''
 def onOutgoingStreamElement():
-    '''public void onOutgoingStreamElement(final TopLevelStreamElement streamElement)
+    '''returns None\n\n
+    onOutgoingStreamElement(final TopLevelStreamElement streamElement)\n
     '''

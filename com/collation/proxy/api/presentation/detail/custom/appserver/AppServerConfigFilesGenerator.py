@@ -1,3 +1,4 @@
-def AppServerConfigFilesGenerator():
-    '''public AppServerConfigFilesGenerator()
+def ():
+    '''returns AppServerConfigFilesGenerator\n\n
+    ()\n
     '''

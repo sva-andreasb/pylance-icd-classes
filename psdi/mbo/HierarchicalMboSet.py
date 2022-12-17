@@ -1,15 +1,20 @@
-def HierarchicalMboSet():
-    '''public HierarchicalMboSet(final MboServerInterface ms)
+def ():
+    '''returns HierarchicalMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getAllHierarchies():
-    '''public MboValueData[][] getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getHierarchy():
-    '''public MboValueData[] getHierarchy(final String object, final String key)
+    '''returns MboValueData[]\n\n
+    getHierarchy(final String object, final String key)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String object, final String key, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String object, final String key, final String hierarchy)\n
     '''
 def getUniqueIDValue():
-    '''public MboValueData getUniqueIDValue(final String object, final String[] attributes, final String[] values)
+    '''returns MboValueData\n\n
+    getUniqueIDValue(final String object, final String[] attributes, final String[] values)\n
     '''

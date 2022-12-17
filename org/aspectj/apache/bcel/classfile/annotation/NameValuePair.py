@@ -1,16 +1,13 @@
-def NameValuePair():
-    '''public NameValuePair(final NameValuePair pair, final ConstantPool cpool, final boolean copyPoolEntries)
-    public NameValuePair(final String name, final ElementValue value, final ConstantPool cpool)
+def ():
+    '''returns NameValuePair\n\n
+    (final NameValuePair pair, final ConstantPool cpool, final boolean copyPoolEntries)\n
+    (final String name, final ElementValue value, final ConstantPool cpool)\n
     '''
 def getNameIndex():
-    '''public int getNameIndex()
-    '''
-def getNameString():
-    '''public final String getNameString()
-    '''
-def getValue():
-    '''public final ElementValue getValue()
+    '''returns int\n\n
+    getNameIndex()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

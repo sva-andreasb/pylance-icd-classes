@@ -1,3 +1,4 @@
-def SKDUserPropSet():
-    '''public SKDUserPropSet(final MboServerInterface ms)
+def ():
+    '''returns SKDUserPropSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,26 +1,30 @@
 ELEMENT = "String  \"list\""
 ELEM_LI = "String  \"li\""
-def ListElement():
-    '''public ListElement(final int start, final int end, final List<ListEntryElement> entries)
+def ():
+    '''returns ListEntryElement\n\n
+    (final int start, final int end, final List<ListEntryElement> entries)\n
+    (final int start)\n
     '''
 def getStart():
-    '''public int getStart()
-    public int getStart()
+    '''returns int\n\n
+    getStart()\n
+    getStart()\n
     '''
 def getEnd():
-    '''public int getEnd()
+    '''returns int\n\n
+    getEnd()\n
     '''
 def getEntries():
-    '''public List<ListEntryElement> getEntries()
+    '''returns List<ListEntryElement>\n\n
+    getEntries()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def ListEntryElement():
-    '''public ListEntryElement(final int start)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''

@@ -1,5 +1,6 @@
-def DERSequence():
-    '''public DERSequence()
-    public DERSequence(final DEREncodable obj)
-    public DERSequence(final DEREncodableVector v)
+def ():
+    '''returns DERSequence\n\n
+    ()\n
+    (final DEREncodable obj)\n
+    (final DEREncodableVector v)\n
     '''

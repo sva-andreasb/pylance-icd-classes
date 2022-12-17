@@ -1,7 +1,9 @@
-def FldCINum():
-    '''public FldCINum(final MboValue mbv)
-    public FldCINum(final MboValue mbv, String criteriaName)
+def ():
+    '''returns FldCINum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, String criteriaName)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

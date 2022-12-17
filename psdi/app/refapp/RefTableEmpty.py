@@ -1,3 +1,4 @@
-def RefTableEmpty():
-    '''public RefTableEmpty(final MboSet mboSet)
+def ():
+    '''returns RefTableEmpty\n\n
+    (final MboSet mboSet)\n
     '''

@@ -1,21 +1,24 @@
-def parse():
-    '''public static TXT parse(final DataInputStream dis, final int length)
-    '''
-def TXT():
-    '''public TXT(final byte[] blob)
+def ():
+    '''returns TXT\n\n
+    (final byte[] blob)\n
     '''
 def getBlob():
-    '''public byte[] getBlob()
+    '''returns byte[]\n\n
+    getBlob()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getExtents():
-    '''public List<byte[]> getExtents()
+    '''returns List<byte[]>\n\n
+    getExtents()\n
     '''
 def serialize():
-    '''public void serialize(final DataOutputStream dos)
+    '''returns None\n\n
+    serialize(final DataOutputStream dos)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

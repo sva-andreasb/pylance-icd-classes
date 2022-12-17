@@ -1,38 +1,42 @@
-def GoogleAuthorizationCodeRequestUrl():
-    '''public GoogleAuthorizationCodeRequestUrl(final String clientId, final String redirectUri, final Collection<String> scopes)
-    public GoogleAuthorizationCodeRequestUrl(final String authorizationServerEncodedUrl, final String clientId, final String redirectUri, final Collection<String> scopes)
-    public GoogleAuthorizationCodeRequestUrl(final GoogleClientSecrets clientSecrets, final String redirectUri, final Collection<String> scopes)
-    '''
-def getApprovalPrompt():
-    '''public final String getApprovalPrompt()
+def ():
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    (final String clientId, final String redirectUri, final Collection<String> scopes)\n
+    (final String authorizationServerEncodedUrl, final String clientId, final String redirectUri, final Collection<String> scopes)\n
+    (final GoogleClientSecrets clientSecrets, final String redirectUri, final Collection<String> scopes)\n
     '''
 def setApprovalPrompt():
-    '''public GoogleAuthorizationCodeRequestUrl setApprovalPrompt(final String approvalPrompt)
-    '''
-def getAccessType():
-    '''public final String getAccessType()
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    setApprovalPrompt(final String approvalPrompt)\n
     '''
 def setAccessType():
-    '''public GoogleAuthorizationCodeRequestUrl setAccessType(final String accessType)
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    setAccessType(final String accessType)\n
     '''
 def setResponseTypes():
-    '''public GoogleAuthorizationCodeRequestUrl setResponseTypes(final Collection<String> responseTypes)
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    setResponseTypes(final Collection<String> responseTypes)\n
     '''
 def setRedirectUri():
-    '''public GoogleAuthorizationCodeRequestUrl setRedirectUri(final String redirectUri)
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    setRedirectUri(final String redirectUri)\n
     '''
 def setScopes():
-    '''public GoogleAuthorizationCodeRequestUrl setScopes(final Collection<String> scopes)
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setClientId():
-    '''public GoogleAuthorizationCodeRequestUrl setClientId(final String clientId)
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    setClientId(final String clientId)\n
     '''
 def setState():
-    '''public GoogleAuthorizationCodeRequestUrl setState(final String state)
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    setState(final String state)\n
     '''
 def set():
-    '''public GoogleAuthorizationCodeRequestUrl set(final String fieldName, final Object value)
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public GoogleAuthorizationCodeRequestUrl clone()
+    '''returns GoogleAuthorizationCodeRequestUrl\n\n
+    clone()\n
     '''

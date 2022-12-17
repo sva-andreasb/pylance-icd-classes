@@ -1,6 +1,8 @@
-def GradientFunction():
-    '''public GradientFunction(final MultivariateDifferentiableFunction f)
+def ():
+    '''returns GradientFunction\n\n
+    (final MultivariateDifferentiableFunction f)\n
     '''
 def value():
-    '''public double[] value(final double[] point)
+    '''returns double[]\n\n
+    value(final double[] point)\n
     '''

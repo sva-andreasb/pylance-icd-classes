@@ -1,31 +1,21 @@
-def AsynchDetailROLAPDataSourceState():
-    '''public AsynchDetailROLAPDataSourceState()
-    public AsynchDetailROLAPDataSourceState(final String dataSourceName, final String state)
+def ():
+    '''returns AsynchDetailROLAPDataSourceState\n\n
+    ()\n
+    (final String dataSourceName, final String state)\n
     '''
 def getDataSourceName():
-    '''public String getDataSourceName()
+    '''returns String\n\n
+    getDataSourceName()\n
     '''
 def setDataSourceName():
-    '''public void setDataSourceName(final String dataSourceName)
+    '''returns None\n\n
+    setDataSourceName(final String dataSourceName)\n
     '''
 def getState():
-    '''public String getState()
+    '''returns String\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final String state)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setState(final String state)\n
     '''

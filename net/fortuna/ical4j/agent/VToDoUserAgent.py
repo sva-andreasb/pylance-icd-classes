@@ -1,30 +1,40 @@
-def VToDoUserAgent():
-    '''public VToDoUserAgent(final ProdId prodId, final Organizer organizer, final UidGenerator uidGenerator)
+def ():
+    '''returns VToDoUserAgent\n\n
+    (final ProdId prodId, final Organizer organizer, final UidGenerator uidGenerator)\n
     '''
 def publish():
-    '''public Calendar publish(final VToDo... component)
+    '''returns Calendar\n\n
+    publish(final VToDo... component)\n
     '''
 def request():
-    '''public Calendar request(final VToDo... component)
+    '''returns Calendar\n\n
+    request(final VToDo... component)\n
     '''
 def delegate():
-    '''public Calendar delegate(final Calendar request)
+    '''returns Calendar\n\n
+    delegate(final Calendar request)\n
     '''
 def reply():
-    '''public Calendar reply(final Calendar request)
+    '''returns Calendar\n\n
+    reply(final Calendar request)\n
     '''
 def add():
-    '''public Calendar add(final VToDo component)
+    '''returns Calendar\n\n
+    add(final VToDo component)\n
     '''
 def cancel():
-    '''public Calendar cancel(final VToDo... component)
+    '''returns Calendar\n\n
+    cancel(final VToDo... component)\n
     '''
 def refresh():
-    '''public Calendar refresh(final VToDo component)
+    '''returns Calendar\n\n
+    refresh(final VToDo component)\n
     '''
 def counter():
-    '''public Calendar counter(final Calendar request)
+    '''returns Calendar\n\n
+    counter(final Calendar request)\n
     '''
 def declineCounter():
-    '''public Calendar declineCounter(final Calendar counter)
+    '''returns Calendar\n\n
+    declineCounter(final Calendar counter)\n
     '''

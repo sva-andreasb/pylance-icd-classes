@@ -1,3 +1,4 @@
-def BIMSpecMapEntrySet():
-    '''public BIMSpecMapEntrySet(final MboServerInterface ms)
+def ():
+    '''returns BIMSpecMapEntrySet\n\n
+    (final MboServerInterface ms)\n
     '''

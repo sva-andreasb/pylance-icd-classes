@@ -1,13 +1,17 @@
-def ConstraintDialog():
-    '''public ConstraintDialog(final Frame owner)
+def ():
+    '''returns ConstraintDialog\n\n
+    (final Frame owner)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent e)
+    '''returns None\n\n
+    componentResized(final ComponentEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent arg0)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent arg0)\n
     '''
 def setup():
-    '''public void setup(final IlvGeneralConstraint constraint)
+    '''returns None\n\n
+    setup(final IlvGeneralConstraint constraint)\n
     '''

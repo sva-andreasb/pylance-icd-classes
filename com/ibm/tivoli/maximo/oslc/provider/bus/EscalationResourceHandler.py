@@ -1,6 +1,8 @@
-def EscalationResourceHandler():
-    '''public EscalationResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns EscalationResourceHandler\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''

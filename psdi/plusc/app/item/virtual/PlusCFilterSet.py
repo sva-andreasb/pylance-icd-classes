@@ -1,3 +1,4 @@
-def PlusCFilterSet():
-    '''public PlusCFilterSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCFilterSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,23 +1,24 @@
-def XSLFPowerPointExtractor():
-    '''public XSLFPowerPointExtractor(final XMLSlideShow slideshow)
-    public XSLFPowerPointExtractor(final XSLFSlideShow slideshow)
-    public XSLFPowerPointExtractor(final OPCPackage container)
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns XSLFPowerPointExtractor\n\n
+    (final XMLSlideShow slideshow)\n
+    (final XSLFSlideShow slideshow)\n
+    (final OPCPackage container)\n
     '''
 def setSlidesByDefault():
-    '''public void setSlidesByDefault(final boolean slidesByDefault)
+    '''returns None\n\n
+    setSlidesByDefault(final boolean slidesByDefault)\n
     '''
 def setNotesByDefault():
-    '''public void setNotesByDefault(final boolean notesByDefault)
+    '''returns None\n\n
+    setNotesByDefault(final boolean notesByDefault)\n
     '''
 def setMasterByDefault():
-    '''public void setMasterByDefault(final boolean masterByDefault)
+    '''returns None\n\n
+    setMasterByDefault(final boolean masterByDefault)\n
     '''
 def getText():
-    '''public String getText()
-    public String getText(final boolean slideText, final boolean notesText)
-    public String getText(final boolean slideText, final boolean notesText, final boolean masterText)
-    public static String getText(final XSLFSlide slide, final boolean slideText, final boolean notesText, final boolean masterText)
+    '''returns String\n\n
+    getText()\n
+    getText(final boolean slideText, final boolean notesText)\n
+    getText(final boolean slideText, final boolean notesText, final boolean masterText)\n
     '''

@@ -1,9 +1,12 @@
-def ReferralAddress():
-    '''public ReferralAddress(final ASN1Sequence asn1Sequence)
+def ():
+    '''returns ReferralAddress\n\n
+    (final ASN1Sequence asn1Sequence)\n
     '''
 def getAddress():
-    '''public String getAddress()
+    '''returns String\n\n
+    getAddress()\n
     '''
 def getAddressType():
-    '''public int getAddressType()
+    '''returns int\n\n
+    getAddressType()\n
     '''

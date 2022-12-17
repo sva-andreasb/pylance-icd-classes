@@ -1,6 +1,8 @@
-def ReplacementsTableBean():
-    '''public ReplacementsTableBean()
+def ():
+    '''returns ReplacementsTableBean\n\n
+    ()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''

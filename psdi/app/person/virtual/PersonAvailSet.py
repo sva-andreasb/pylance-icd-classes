@@ -1,21 +1,28 @@
-def PersonAvailSet():
-    '''public PersonAvailSet(final MboServerInterface ms)
+def ():
+    '''returns PersonAvailSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def setupFields():
-    '''public void setupFields(final Date inDate, final MboRemote person, final String orgid)
+    '''returns None\n\n
+    setupFields(final Date inDate, final MboRemote person, final String orgid)\n
     '''
 def saveModifiedAvailability():
-    '''public void saveModifiedAvailability()
+    '''returns None\n\n
+    saveModifiedAvailability()\n
     '''
 def needsSave():
-    '''public boolean needsSave()
+    '''returns boolean\n\n
+    needsSave()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def getModAvailRows():
-    '''public int getModAvailRows()
+    '''returns int\n\n
+    getModAvailRows()\n
     '''

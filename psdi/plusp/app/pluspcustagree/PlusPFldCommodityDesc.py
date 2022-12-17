@@ -1,10 +1,13 @@
-def PlusPFldCommodityDesc():
-    '''public PlusPFldCommodityDesc(final MboValue mboValue)
-    public PlusPFldCommodityDesc(final MboValue mbv, final String longDesc)
+def ():
+    '''returns PlusPFldCommodityDesc\n\n
+    (final MboValue mboValue)\n
+    (final MboValue mbv, final String longDesc)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

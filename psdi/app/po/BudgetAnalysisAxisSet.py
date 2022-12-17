@@ -1,3 +1,4 @@
-def BudgetAnalysisAxisSet():
-    '''public BudgetAnalysisAxisSet(final MboServerInterface ms)
+def ():
+    '''returns BudgetAnalysisAxisSet\n\n
+    (final MboServerInterface ms)\n
     '''

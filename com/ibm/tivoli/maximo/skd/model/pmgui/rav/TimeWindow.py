@@ -1,39 +1,51 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TimeWindow():
-    '''public TimeWindow(final Date startTime, final Date endTime)
+def ():
+    '''returns TimeWindow\n\n
+    (final Date startTime, final Date endTime)\n
     '''
 def compareTo():
-    '''public int compareTo(final TimeWindow tw)
+    '''returns int\n\n
+    compareTo(final TimeWindow tw)\n
     '''
 def copy():
-    '''public TimeWindow copy()
+    '''returns TimeWindow\n\n
+    copy()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Date startTime, final Date endTime)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Date startTime, final Date endTime)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getDuration():
-    '''public double getDuration()
-    public double getDuration(final boolean roundToNearestMinute)
+    '''returns double\n\n
+    getDuration()\n
+    getDuration(final boolean roundToNearestMinute)\n
     '''
 def getEndTime():
-    '''public Date getEndTime()
+    '''returns Date\n\n
+    getEndTime()\n
     '''
 def getStartTime():
-    '''public Date getStartTime()
+    '''returns Date\n\n
+    getStartTime()\n
     '''
 def isContained():
-    '''public boolean isContained(final Date start, final Date end)
+    '''returns boolean\n\n
+    isContained(final Date start, final Date end)\n
     '''
 def isZeroDuration():
-    '''public boolean isZeroDuration()
+    '''returns boolean\n\n
+    isZeroDuration()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def writeXml():
-    '''public void writeXml(final PrintWriter out)
+    '''returns None\n\n
+    writeXml(final PrintWriter out)\n
     '''

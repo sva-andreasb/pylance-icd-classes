@@ -1,3 +1,4 @@
 def parse():
-    '''public AdHocCommandData parse(final XmlPullParser parser, final int initialDepth)
+    '''returns AdHocCommandData\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

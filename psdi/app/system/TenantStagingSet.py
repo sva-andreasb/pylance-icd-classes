@@ -1,3 +1,4 @@
-def TenantStagingSet():
-    '''public TenantStagingSet(final MboServerInterface ms)
+def ():
+    '''returns TenantStagingSet\n\n
+    (final MboServerInterface ms)\n
     '''

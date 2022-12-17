@@ -1,12 +1,11 @@
 def isInEncoding():
-    '''public boolean isInEncoding(final char ch)
-    public boolean isInEncoding(final char high, final char low)
-    public boolean isInEncoding(final char ch1)
-    public boolean isInEncoding(final char high, final char low)
+    '''returns boolean\n\n
+    isInEncoding(final char ch)\n
+    isInEncoding(final char high, final char low)\n
+    isInEncoding(final char ch1)\n
+    isInEncoding(final char high, final char low)\n
     '''
-def EncodingInfo():
-    '''public EncodingInfo(final String name, final String javaName, final char highChar)
-    '''
-def getHighChar():
-    '''public final char getHighChar()
+def ():
+    '''returns EncodingInfo\n\n
+    (final String name, final String javaName, final char highChar)\n
     '''

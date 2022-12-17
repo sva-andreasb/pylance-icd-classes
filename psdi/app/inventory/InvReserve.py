@@ -1,64 +1,84 @@
-def InvReserve():
-    '''public InvReserve(final MboSet ms)
+def ():
+    '''returns InvReserve\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def incrActualQty():
-    '''public void incrActualQty(final double incrValue)
+    '''returns None\n\n
+    incrActualQty(final double incrValue)\n
     '''
 def copy():
-    '''public MboRemote copy()
-    public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy()\n
+    copy(final MboSetRemote mboset)\n
     '''
 def issue():
-    '''public MboRemote issue(MboSetRemote newIssueSet, final String bin, final String lot, final String rotasset, final double qty)
+    '''returns MboRemote\n\n
+    issue(MboSetRemote newIssueSet, final String bin, final String lot, final String rotasset, final double qty)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def smartFindByObjectName():
-    '''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def deleteInvUseLines():
-    '''public void deleteInvUseLines()
+    '''returns None\n\n
+    deleteInvUseLines()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def isHardReservation():
-    '''public boolean isHardReservation()
+    '''returns boolean\n\n
+    isHardReservation()\n
     '''
 def isBackOrdered():
-    '''public boolean isBackOrdered()
+    '''returns boolean\n\n
+    isBackOrdered()\n
     '''
 def setInvResType():
-    '''public void setInvResType(final String displayResType)
-    public void setInvResType(final String displayResType, final int resbuffer)
-    public void setInvResType(final String displayResType, final boolean disallowNegAvailBal)
-    public void setInvResType(final String displayResType, final int resbuffer, final boolean disallowNegAvailBal)
+    '''returns None\n\n
+    setInvResType(final String displayResType)\n
+    setInvResType(final String displayResType, final int resbuffer)\n
+    setInvResType(final String displayResType, final boolean disallowNegAvailBal)\n
+    setInvResType(final String displayResType, final int resbuffer, final boolean disallowNegAvailBal)\n
     '''
 def checkWMATStatus():
-    '''public boolean checkWMATStatus(final String itemnum, final String location, final String itemsetid, final String siteid)
+    '''returns boolean\n\n
+    checkWMATStatus(final String itemnum, final String location, final String itemsetid, final String siteid)\n
     '''
 def setMRUpdated():
-    '''public void setMRUpdated()
+    '''returns None\n\n
+    setMRUpdated()\n
     '''
 def setInvReserveValQtyFlag():
-    '''public void setInvReserveValQtyFlag()
+    '''returns None\n\n
+    setInvReserveValQtyFlag()\n
     '''
 def getInvReserveValQtyFlag():
-    '''public boolean getInvReserveValQtyFlag()
+    '''returns boolean\n\n
+    getInvReserveValQtyFlag()\n
     '''

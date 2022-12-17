@@ -1,39 +1,52 @@
-def SKDDataGroupInfo():
-    '''public SKDDataGroupInfo()
+def ():
+    '''returns SKDDataGroupInfo\n\n
+    ()\n
     '''
 def getGroupName():
-    '''public String getGroupName()
+    '''returns String\n\n
+    getGroupName()\n
     '''
 def setGroupName():
-    '''public void setGroupName(final String groupName)
+    '''returns None\n\n
+    setGroupName(final String groupName)\n
     '''
 def getSKDObjectName():
-    '''public String getSKDObjectName()
+    '''returns String\n\n
+    getSKDObjectName()\n
     '''
 def setSKDObjectName():
-    '''public void setSKDObjectName(final String skdObjectName)
+    '''returns None\n\n
+    setSKDObjectName(final String skdObjectName)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getSKDObjectClass():
-    '''public Class getSKDObjectClass()
+    '''returns Class\n\n
+    getSKDObjectClass()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getGroupSequence():
-    '''public int getGroupSequence()
+    '''returns int\n\n
+    getGroupSequence()\n
     '''
 def setGroupSequence():
-    '''public void setGroupSequence(final int groupSequence)
+    '''returns None\n\n
+    setGroupSequence(final int groupSequence)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

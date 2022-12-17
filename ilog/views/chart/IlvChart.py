@@ -11,867 +11,909 @@ FIXED_RIGHT_MARGIN = "int  2"
 FIXED_TOP_MARGIN = "int  4"
 FIXED_BOTTOM_MARGIN = "int  8"
 def getBeanDescriptor():
-    '''public BeanDescriptor getBeanDescriptor()
+    '''returns BeanDescriptor\n\n
+    getBeanDescriptor()\n
     '''
 def getAdditionalBeanInfo():
-    '''public BeanInfo[] getAdditionalBeanInfo()
+    '''returns BeanInfo[]\n\n
+    getAdditionalBeanInfo()\n
     '''
 def getPropertyDescriptors():
-    '''public PropertyDescriptor[] getPropertyDescriptors()
+    '''returns PropertyDescriptor[]\n\n
+    getPropertyDescriptors()\n
     '''
 def getIcon():
-    '''public Image getIcon(final int n)
-    '''
-def setNoEventThreadUpdate():
-    '''public static void setNoEventThreadUpdate(final boolean h)
-    '''
-def getNoEventThreadUpdate():
-    '''public static boolean getNoEventThreadUpdate()
+    '''returns Image\n\n
+    getIcon(final int n)\n
     '''
 def setUsingEventThread():
-    '''public void setUsingEventThread(final boolean b)
+    '''returns None\n\n
+    setUsingEventThread(final boolean b)\n
     '''
 def isUsingEventThread():
-    '''public boolean isUsingEventThread()
+    '''returns boolean\n\n
+    isUsingEventThread()\n
     '''
 def getLock():
-    '''public Object getLock()
+    '''returns Object\n\n
+    getLock()\n
     '''
-def IlvChart():
-    '''public IlvChart()
-    public IlvChart(final int n)
-    public IlvChart(final int n, final boolean b)
+def ():
+    '''returns IlvChartAreaPaintAction\n\n
+    ()\n
+    (final int n)\n
+    (final int n, final boolean b)\n
+    (final int width, final int height, final JComponent component)\n
+    (final int width, final int height, final JComponent d)\n
+    (final Container container)\n
+    (final Container container)\n
     '''
 def componentAdded():
-    '''public void componentAdded(final ContainerEvent containerEvent)
-    public void componentAdded(final ContainerEvent containerEvent)
+    '''returns None\n\n
+    componentAdded(final ContainerEvent containerEvent)\n
+    componentAdded(final ContainerEvent containerEvent)\n
     '''
 def componentRemoved():
-    '''public void componentRemoved(final ContainerEvent containerEvent)
-    public void componentRemoved(final ContainerEvent containerEvent)
+    '''returns None\n\n
+    componentRemoved(final ContainerEvent containerEvent)\n
+    componentRemoved(final ContainerEvent containerEvent)\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def setULocale():
-    '''public void setULocale(final ULocale value)
+    '''returns None\n\n
+    setULocale(final ULocale value)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
     '''
 def updateUI():
-    '''public void updateUI()
+    '''returns None\n\n
+    updateUI()\n
     '''
 def setBounds():
-    '''public void setBounds(final int x, final int y, final int width, final int height)
-    public final void setBounds(final Map<Component, Rectangle> e)
-    public void setBounds(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    setBounds(final int x, final int y, final int width, final int height)\n
+    setBounds(final int x, final int y, final int width, final int height)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    '''
-def isAntiAliasing():
-    '''public final boolean isAntiAliasing()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def setAntiAliasing():
-    '''public void setAntiAliasing(final boolean b)
-    '''
-def isAntiAliasingText():
-    '''public final boolean isAntiAliasingText()
+    '''returns None\n\n
+    setAntiAliasing(final boolean b)\n
     '''
 def setAntiAliasingText():
-    '''public void setAntiAliasingText(final boolean b)
-    '''
-def getBaseTextDirection():
-    '''public final int getBaseTextDirection()
+    '''returns None\n\n
+    setAntiAliasingText(final boolean b)\n
     '''
 def setBaseTextDirection():
-    '''public void setBaseTextDirection(final int au)
+    '''returns None\n\n
+    setBaseTextDirection(final int au)\n
     '''
 def getResolvedBaseTextDirection():
-    '''public int getResolvedBaseTextDirection()
+    '''returns int\n\n
+    getResolvedBaseTextDirection()\n
     '''
 def setCursor():
-    '''public void setCursor(final Cursor cursor)
+    '''returns None\n\n
+    setCursor(final Cursor cursor)\n
     '''
 def isCursorSet():
-    '''public boolean isCursorSet()
-    '''
-def isOptimizedRepaint():
-    '''public final boolean isOptimizedRepaint()
+    '''returns boolean\n\n
+    isCursorSet()\n
     '''
 def setOptimizedRepaint():
-    '''public void setOptimizedRepaint(final boolean b)
+    '''returns None\n\n
+    setOptimizedRepaint(final boolean b)\n
     '''
 def isShiftScroll():
-    '''public boolean isShiftScroll()
+    '''returns boolean\n\n
+    isShiftScroll()\n
     '''
 def setShiftScroll():
-    '''public void setShiftScroll(final boolean b)
+    '''returns None\n\n
+    setShiftScroll(final boolean b)\n
     '''
 def getScrollRatio():
-    '''public double getScrollRatio()
+    '''returns double\n\n
+    getScrollRatio()\n
     '''
 def setScrollRatio():
-    '''public void setScrollRatio(final double at)
+    '''returns None\n\n
+    setScrollRatio(final double at)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final int n)
+    '''returns None\n\n
+    setType(final int n)\n
     '''
 def setPolarParameters():
-    '''public void setPolarParameters(final double n, final double n2, final boolean symmetric)
-    '''
-def getStartingAngle():
-    '''public final double getStartingAngle()
+    '''returns None\n\n
+    setPolarParameters(final double n, final double n2, final boolean symmetric)\n
     '''
 def setStartingAngle():
-    '''public void setStartingAngle(final double n)
-    '''
-def getAngleRange():
-    '''public final double getAngleRange()
+    '''returns None\n\n
+    setStartingAngle(final double n)\n
     '''
 def setAngleRange():
-    '''public void setAngleRange(final double n)
+    '''returns None\n\n
+    setAngleRange(final double n)\n
     '''
 def isProjectorReversed():
-    '''public boolean isProjectorReversed()
+    '''returns boolean\n\n
+    isProjectorReversed()\n
     '''
 def setProjectorReversed():
-    '''public void setProjectorReversed(final boolean reversed)
+    '''returns None\n\n
+    setProjectorReversed(final boolean reversed)\n
     '''
 def getDefaultColors():
-    '''public Color[] getDefaultColors()
+    '''returns Color[]\n\n
+    getDefaultColors()\n
     '''
 def setDefaultColors():
-    '''public void setDefaultColors(final Color[] bj)
-    '''
-def getFontManager():
-    '''public final IlvScalableFontManager getFontManager()
+    '''returns None\n\n
+    setDefaultColors(final Color[] bj)\n
     '''
 def isScalingFont():
-    '''public boolean isScalingFont()
+    '''returns boolean\n\n
+    isScalingFont()\n
     '''
 def setScalingFont():
-    '''public void setScalingFont(final boolean enabled)
-    '''
-def getScale():
-    '''public final IlvScale getScale(final IlvAxis ilvAxis)
-    '''
-def isAutoScaleTitleRotation():
-    '''public final boolean isAutoScaleTitleRotation()
+    '''returns None\n\n
+    setScalingFont(final boolean enabled)\n
     '''
 def setAutoScaleTitleRotation():
-    '''public void setAutoScaleTitleRotation(final boolean b)
+    '''returns None\n\n
+    setAutoScaleTitleRotation(final boolean b)\n
     '''
 def getXAxis():
-    '''public IlvAxis getXAxis()
-    '''
-def isXAxisReversed():
-    '''public final boolean isXAxisReversed()
+    '''returns IlvAxis\n\n
+    getXAxis()\n
     '''
 def setXAxisReversed():
-    '''public void setXAxisReversed(final boolean reversed)
-    '''
-def getXScale():
-    '''public final IlvScale getXScale()
+    '''returns None\n\n
+    setXAxisReversed(final boolean reversed)\n
     '''
 def setXScale():
-    '''public void setXScale(final IlvScale ilvScale)
+    '''returns None\n\n
+    setXScale(final IlvScale ilvScale)\n
     '''
 def isXScaleVisible():
-    '''public boolean isXScaleVisible()
+    '''returns boolean\n\n
+    isXScaleVisible()\n
     '''
 def setXScaleVisible():
-    '''public void setXScaleVisible(final boolean visible)
+    '''returns None\n\n
+    setXScaleVisible(final boolean visible)\n
     '''
 def getXScaleTitle():
-    '''public String getXScaleTitle()
+    '''returns String\n\n
+    getXScaleTitle()\n
     '''
 def setXScaleTitle():
-    '''public void setXScaleTitle(final String s)
+    '''returns None\n\n
+    setXScaleTitle(final String s)\n
     '''
 def getXScaleTitleRotation():
-    '''public double getXScaleTitleRotation()
+    '''returns double\n\n
+    getXScaleTitleRotation()\n
     '''
 def setXScaleTitleRotation():
-    '''public void setXScaleTitleRotation(final double rotation)
+    '''returns None\n\n
+    setXScaleTitleRotation(final double rotation)\n
     '''
 def getYAxisCount():
-    '''public int getYAxisCount()
+    '''returns int\n\n
+    getYAxisCount()\n
     '''
 def getYAxis():
-    '''public IlvAxis getYAxis(final int n)
-    '''
-def isYAxisReversed():
-    '''public final boolean isYAxisReversed()
+    '''returns IlvAxis\n\n
+    getYAxis(final int n)\n
     '''
 def setYAxisReversed():
-    '''public void setYAxisReversed(final boolean reversed)
+    '''returns None\n\n
+    setYAxisReversed(final boolean reversed)\n
     '''
 def addYAxis():
-    '''public IlvAxis addYAxis(final boolean b, final boolean b2)
-    '''
-def getYScale():
-    '''public final IlvScale getYScale(final int n)
+    '''returns IlvAxis\n\n
+    addYAxis(final boolean b, final boolean b2)\n
     '''
 def setYScale():
-    '''public void setYScale(final int n, final IlvScale ilvScale)
+    '''returns None\n\n
+    setYScale(final int n, final IlvScale ilvScale)\n
     '''
 def isYScaleVisible():
-    '''public boolean isYScaleVisible()
+    '''returns boolean\n\n
+    isYScaleVisible()\n
     '''
 def setYScaleVisible():
-    '''public void setYScaleVisible(final boolean visible)
+    '''returns None\n\n
+    setYScaleVisible(final boolean visible)\n
     '''
 def getYScaleTitle():
-    '''public String getYScaleTitle()
+    '''returns String\n\n
+    getYScaleTitle()\n
     '''
 def setYScaleTitle():
-    '''public void setYScaleTitle(final String s)
+    '''returns None\n\n
+    setYScaleTitle(final String s)\n
     '''
 def getYScaleTitleRotation():
-    '''public double getYScaleTitleRotation()
+    '''returns double\n\n
+    getYScaleTitleRotation()\n
     '''
 def setYScaleTitleRotation():
-    '''public void setYScaleTitleRotation(final double rotation)
-    '''
-def getXGrid():
-    '''public final IlvGrid getXGrid()
+    '''returns None\n\n
+    setYScaleTitleRotation(final double rotation)\n
     '''
 def setXGrid():
-    '''public void setXGrid(final IlvGrid ilvGrid)
+    '''returns None\n\n
+    setXGrid(final IlvGrid ilvGrid)\n
     '''
 def isXGridVisible():
-    '''public boolean isXGridVisible()
+    '''returns boolean\n\n
+    isXGridVisible()\n
     '''
 def setXGridVisible():
-    '''public void setXGridVisible(final boolean majorLineVisible)
-    '''
-def getYGrid():
-    '''public final IlvGrid getYGrid(final int n)
+    '''returns None\n\n
+    setXGridVisible(final boolean majorLineVisible)\n
     '''
 def setYGrid():
-    '''public void setYGrid(final int n, final IlvGrid ilvGrid)
+    '''returns None\n\n
+    setYGrid(final int n, final IlvGrid ilvGrid)\n
     '''
 def isYGridVisible():
-    '''public boolean isYGridVisible()
+    '''returns boolean\n\n
+    isYGridVisible()\n
     '''
 def setYGridVisible():
-    '''public void setYGridVisible(final boolean majorLineVisible)
-    '''
-def getCoordinateSystem():
-    '''public final IlvCoordinateSystem getCoordinateSystem(final int n)
+    '''returns None\n\n
+    setYGridVisible(final boolean majorLineVisible)\n
     '''
 def formatXValue():
-    '''public String formatXValue(final double n)
+    '''returns String\n\n
+    formatXValue(final double n)\n
     '''
 def formatYValue():
-    '''public String formatYValue(final int n, final double n2)
+    '''returns String\n\n
+    formatYValue(final int n, final double n2)\n
     '''
 def setXValueFormat():
-    '''public void setXValueFormat(final IlvValueFormat ilvValueFormat)
+    '''returns None\n\n
+    setXValueFormat(final IlvValueFormat ilvValueFormat)\n
     '''
 def setYValueFormat():
-    '''public void setYValueFormat(final int n, final IlvValueFormat ilvValueFormat)
+    '''returns None\n\n
+    setYValueFormat(final int n, final IlvValueFormat ilvValueFormat)\n
     '''
 def getDecorations():
-    '''public List<IlvChartDecoration> getDecorations()
+    '''returns List<IlvChartDecoration>\n\n
+    getDecorations()\n
     '''
 def addDecoration():
-    '''public void addDecoration(final IlvChartDecoration ilvChartDecoration)
+    '''returns None\n\n
+    addDecoration(final IlvChartDecoration ilvChartDecoration)\n
     '''
 def removeDecoration():
-    '''public void removeDecoration(final IlvChartDecoration o)
+    '''returns None\n\n
+    removeDecoration(final IlvChartDecoration o)\n
     '''
 def setDecorations():
-    '''public void setDecorations(final List<IlvChartDecoration> list)
-    '''
-def getDrawableIterator():
-    '''public final Iterator<IlvChartDrawable> getDrawableIterator()
-    '''
-def getReversedDrawableIterator():
-    '''public final Iterator<IlvChartDrawable> getReversedDrawableIterator()
+    '''returns None\n\n
+    setDecorations(final List<IlvChartDecoration> list)\n
     '''
 def getRenderers():
-    '''public List<IlvChartRenderer> getRenderers()
+    '''returns List<IlvChartRenderer>\n\n
+    getRenderers()\n
     '''
 def getRendererIterator():
-    '''public Iterator<IlvChartRenderer> getRendererIterator()
+    '''returns Iterator<IlvChartRenderer>\n\n
+    getRendererIterator()\n
     '''
 def getAllRendererIterator():
-    '''public Iterator<IlvChartRenderer> getAllRendererIterator()
+    '''returns Iterator<IlvChartRenderer>\n\n
+    getAllRendererIterator()\n
     '''
 def getRenderer():
-    '''public IlvChartRenderer getRenderer(final int index)
+    '''returns IlvChartRenderer\n\n
+    getRenderer(final int index)\n
     '''
 def setRenderer():
-    '''public void setRenderer(final int index, final IlvChartRenderer ilvChartRenderer)
+    '''returns None\n\n
+    setRenderer(final int index, final IlvChartRenderer ilvChartRenderer)\n
     '''
 def setRendererType():
-    '''public void setRendererType(final int n, final int n2)
+    '''returns None\n\n
+    setRendererType(final int n, final int n2)\n
     '''
 def removeRenderer():
-    '''public void removeRenderer(final IlvChartRenderer ilvChartRenderer)
+    '''returns None\n\n
+    removeRenderer(final IlvChartRenderer ilvChartRenderer)\n
     '''
 def getRendererCount():
-    '''public int getRendererCount()
+    '''returns int\n\n
+    getRendererCount()\n
     '''
 def addRenderer():
-    '''public void addRenderer(final int n, final IlvChartRenderer ilvChartRenderer, final int n2)
-    public final void addRenderer(final IlvChartRenderer ilvChartRenderer, final IlvDataSet set)
-    public final void addRenderer(final IlvChartRenderer ilvChartRenderer)
-    public void addRenderer(final IlvChartRenderer ilvChartRenderer, final int n)
+    '''returns None\n\n
+    addRenderer(final int n, final IlvChartRenderer ilvChartRenderer, final int n2)\n
+    addRenderer(final IlvChartRenderer ilvChartRenderer, final int n)\n
     '''
 def setRendererAxis():
-    '''public void setRendererAxis(final IlvChartRenderer ilvChartRenderer, final int yAxisIdx)
+    '''returns None\n\n
+    setRendererAxis(final IlvChartRenderer ilvChartRenderer, final int yAxisIdx)\n
     '''
 def addData():
-    '''public void addData(final IlvDataSource dataSource, final int n)
-    '''
-def getRenderingType():
-    '''public final int getRenderingType()
-    '''
-def getUnconstrainedRenderingType():
-    '''public final int getUnconstrainedRenderingType()
+    '''returns None\n\n
+    addData(final IlvDataSource dataSource, final int n)\n
     '''
 def setRenderingType():
-    '''public void setRenderingType(final int ax)
+    '''returns None\n\n
+    setRenderingType(final int ax)\n
     '''
 def getDataSetIterator():
-    '''public Iterator<IlvDataSet> getDataSetIterator()
+    '''returns Iterator<IlvDataSet>\n\n
+    getDataSetIterator()\n
     '''
 def next():
-    '''public IlvDataSet next()
+    '''returns IlvDataSet\n\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def setDataSource():
-    '''public void setDataSource(final IlvDataSource dataSource)
+    '''returns None\n\n
+    setDataSource(final IlvDataSource dataSource)\n
     '''
 def getDataSource():
-    '''public IlvDataSource getDataSource()
-    '''
-def addChartListener():
-    '''public final void addChartListener(final ChartListener l)
-    '''
-def removeChartListener():
-    '''public final void removeChartListener(final ChartListener l)
+    '''returns IlvDataSource\n\n
+    getDataSource()\n
     '''
 def getProjectorRect():
-    '''public Rectangle getProjectorRect()
+    '''returns Rectangle\n\n
+    getProjectorRect()\n
     '''
 def toDisplay():
-    '''public void toDisplay(final IlvDoublePoints ilvDoublePoints, final int n)
-    public final void toDisplay(final IlvDoublePoints ilvDoublePoints)
+    '''returns None\n\n
+    toDisplay(final IlvDoublePoints ilvDoublePoints, final int n)\n
     '''
 def toData():
-    '''public void toData(final IlvDoublePoints ilvDoublePoints, final int n)
-    public final void toData(final IlvDoublePoints ilvDoublePoints)
+    '''returns None\n\n
+    toData(final IlvDoublePoints ilvDoublePoints, final int n)\n
     '''
 def getProjector():
-    '''public IlvChartProjector getProjector()
-    '''
-def getProjector2D():
-    '''public final IlvChartProjector getProjector2D()
-    '''
-def getLocalProjector2D():
-    '''public final IlvChartProjector getLocalProjector2D(final Rectangle rectangle, final IlvCoordinateSystem ilvCoordinateSystem)
+    '''returns IlvChartProjector\n\n
+    getProjector()\n
     '''
 def getNearestPoint():
-    '''public IlvDisplayPoint getNearestPoint(final IlvChartDataPicker ilvChartDataPicker)
+    '''returns IlvDisplayPoint\n\n
+    getNearestPoint(final IlvChartDataPicker ilvChartDataPicker)\n
     '''
 def getNearestItem():
-    '''public IlvDisplayPoint getNearestItem(final IlvChartDataPicker ilvChartDataPicker, final double[] array)
+    '''returns IlvDisplayPoint\n\n
+    getNearestItem(final IlvChartDataPicker ilvChartDataPicker, final double[] array)\n
     '''
 def getDisplayItem():
-    '''public IlvDisplayPoint getDisplayItem(final IlvChartDataPicker ilvChartDataPicker)
+    '''returns IlvDisplayPoint\n\n
+    getDisplayItem(final IlvChartDataPicker ilvChartDataPicker)\n
     '''
 def getDisplayItems():
-    '''public List<IlvDisplayPoint> getDisplayItems(final IlvChartDataPicker ilvChartDataPicker)
+    '''returns List<IlvDisplayPoint>\n\n
+    getDisplayItems(final IlvChartDataPicker ilvChartDataPicker)\n
     '''
 def scroll():
-    '''public void scroll(final double n, final double n2, final int n3)
+    '''returns None\n\n
+    scroll(final double n, final double n2, final int n3)\n
     '''
 def zoom():
-    '''public void zoom(final IlvDataWindow ilvDataWindow, final int n)
+    '''returns None\n\n
+    zoom(final IlvDataWindow ilvDataWindow, final int n)\n
     '''
 def invalidateScales():
-    '''public void invalidateScales()
+    '''returns None\n\n
+    invalidateScales()\n
     '''
 def updateScales():
-    '''public void updateScales()
+    '''returns None\n\n
+    updateScales()\n
     '''
 def updateScalesIfNeeded():
-    '''public void updateScalesIfNeeded()
+    '''returns None\n\n
+    updateScalesIfNeeded()\n
     '''
 def dataSetContentsChanged():
-    '''public void dataSetContentsChanged(final DataSetContentsEvent dataSetContentsEvent, final IlvChartRenderer ilvChartRenderer)
+    '''returns None\n\n
+    dataSetContentsChanged(final DataSetContentsEvent dataSetContentsEvent, final IlvChartRenderer ilvChartRenderer)\n
     '''
 def updateDataRange():
-    '''public boolean updateDataRange()
+    '''returns boolean\n\n
+    updateDataRange()\n
     '''
 def updateDataRangeAndRepaint():
-    '''public void updateDataRangeAndRepaint()
+    '''returns None\n\n
+    updateDataRangeAndRepaint()\n
     '''
 def getDataRangePolicy():
-    '''public IlvDataRangePolicy getDataRangePolicy()
+    '''returns IlvDataRangePolicy\n\n
+    getDataRangePolicy()\n
     '''
 def setDataRangePolicy():
-    '''public void setDataRangePolicy(final IlvDataRangePolicy bb)
-    '''
-def getResizingPolicy():
-    '''public final IlvChartResizingPolicy getResizingPolicy()
+    '''returns None\n\n
+    setDataRangePolicy(final IlvDataRangePolicy bb)\n
     '''
 def setResizingPolicy():
-    '''public void setResizingPolicy(final IlvChartResizingPolicy ba)
+    '''returns None\n\n
+    setResizingPolicy(final IlvChartResizingPolicy ba)\n
     '''
 def getStyleSheets():
-    '''public String[] getStyleSheets()
-    public String getStyleSheets(final int n)
+    '''returns String\n\n
+    getStyleSheets()\n
+    getStyleSheets(final int n)\n
     '''
 def setStyleSheets():
-    '''public void setStyleSheets(final String[] styleSheets)
-    public void setStyleSheets(final int n, final String s)
-    '''
-def getStyleSheet():
-    '''public final String getStyleSheet()
-    '''
-def setStyleSheet():
-    '''public final void setStyleSheet(final String s)
+    '''returns None\n\n
+    setStyleSheets(final String[] styleSheets)\n
+    setStyleSheets(final int n, final String s)\n
     '''
 def getStyleSheetDebugMask():
-    '''public int getStyleSheetDebugMask()
+    '''returns int\n\n
+    getStyleSheetDebugMask()\n
     '''
 def setStyleSheetDebugMask():
-    '''public void setStyleSheetDebugMask(final int styleSheetDebugMask)
-    '''
-def isDynamicStyling():
-    '''public final boolean isDynamicStyling()
+    '''returns None\n\n
+    setStyleSheetDebugMask(final int styleSheetDebugMask)\n
     '''
 def setDynamicStyling():
-    '''public void setDynamicStyling(final boolean b)
-    '''
-def doStyle():
-    '''public final void doStyle()
+    '''returns None\n\n
+    setDynamicStyling(final boolean b)\n
     '''
 def getPseudoClasses():
-    '''public String[] getPseudoClasses()
-    public String[] getPseudoClasses(final IlvDataSet key)
-    public String[] getPseudoClasses(final IlvDataSet key, final int n)
-    public String[] getPseudoClasses(final Object key)
+    '''returns String[]\n\n
+    getPseudoClasses()\n
+    getPseudoClasses(final IlvDataSet key)\n
+    getPseudoClasses(final IlvDataSet key, final int n)\n
+    getPseudoClasses(final Object key)\n
     '''
 def setPseudoClasses():
-    '''public void setPseudoClasses(final String[] mainPseudoClasses)
-    public void setPseudoClasses(final IlvDataSet set, final String[] mainPseudoClasses)
-    public void setPseudoClasses(final IlvDataSet set, final int n, final String[] array)
-    public void setPseudoClasses(final Object o, final String[] array)
+    '''returns None\n\n
+    setPseudoClasses(final String[] mainPseudoClasses)\n
+    setPseudoClasses(final IlvDataSet set, final String[] mainPseudoClasses)\n
+    setPseudoClasses(final IlvDataSet set, final int n, final String[] array)\n
+    setPseudoClasses(final Object o, final String[] array)\n
     '''
 def addPseudoClass():
-    '''public void addPseudoClass(final String s)
-    public void addPseudoClass(final IlvDataSet set, final String s)
-    public void addPseudoClass(final IlvDataSet set, final int n, final String s)
-    public void addPseudoClass(final Object o, final String s)
+    '''returns None\n\n
+    addPseudoClass(final String s)\n
+    addPseudoClass(final IlvDataSet set, final String s)\n
+    addPseudoClass(final IlvDataSet set, final int n, final String s)\n
+    addPseudoClass(final Object o, final String s)\n
     '''
 def removePseudoClass():
-    '''public void removePseudoClass(final String s)
-    public void removePseudoClass(final IlvDataSet key, final String s)
-    public void removePseudoClass(final IlvDataSet key, final int n, final String s)
-    public void removePseudoClass(final Object o, final String s)
+    '''returns None\n\n
+    removePseudoClass(final String s)\n
+    removePseudoClass(final IlvDataSet key, final String s)\n
+    removePseudoClass(final IlvDataSet key, final int n, final String s)\n
+    removePseudoClass(final Object o, final String s)\n
     '''
 def clearPseudoClass():
-    '''public void clearPseudoClass(final String s)
+    '''returns None\n\n
+    clearPseudoClass(final String s)\n
     '''
 def clearAllPseudoClasses():
-    '''public void clearAllPseudoClasses()
+    '''returns None\n\n
+    clearAllPseudoClasses()\n
     '''
 def registerFunction():
-    '''public void registerFunction(final IlvCSSFunction ilvCSSFunction)
+    '''returns None\n\n
+    registerFunction(final IlvCSSFunction ilvCSSFunction)\n
     '''
 def get3DView():
-    '''public IlvChart3DView get3DView()
-    '''
-def is3D():
-    '''public final boolean is3D()
+    '''returns IlvChart3DView\n\n
+    get3DView()\n
     '''
 def set3D():
-    '''public void set3D(final boolean b)
+    '''returns None\n\n
+    set3D(final boolean b)\n
     '''
 def getInteractors():
-    '''public IlvChartInteractor[] getInteractors()
+    '''returns IlvChartInteractor[]\n\n
+    getInteractors()\n
     '''
 def setInteractors():
-    '''public void setInteractors(IlvChartInteractor[] ad)
+    '''returns None\n\n
+    setInteractors(IlvChartInteractor[] ad)\n
     '''
 def addInteractor():
-    '''public void addInteractor(final IlvChartInteractor ilvChartInteractor)
-    public void addInteractor(final String s)
+    '''returns None\n\n
+    addInteractor(final IlvChartInteractor ilvChartInteractor)\n
+    addInteractor(final String s)\n
     '''
 def removeInteractor():
-    '''public void removeInteractor(final IlvChartInteractor ilvChartInteractor)
+    '''returns None\n\n
+    removeInteractor(final IlvChartInteractor ilvChartInteractor)\n
     '''
 def getChartArea():
-    '''public Area getChartArea()
+    '''returns Area\n\n
+    getChartArea()\n
     '''
 def getChartAreaBorder():
-    '''public Border getChartAreaBorder()
+    '''returns Border\n\n
+    getChartAreaBorder()\n
     '''
 def setChartAreaBorder():
-    '''public void setChartAreaBorder(final Border border)
+    '''returns None\n\n
+    setChartAreaBorder(final Border border)\n
     '''
 def getPlotAreaBackground():
-    '''public Color getPlotAreaBackground()
+    '''returns Color\n\n
+    getPlotAreaBackground()\n
     '''
 def setPlotAreaBackground():
-    '''public void setPlotAreaBackground(final Color fillPaint)
+    '''returns None\n\n
+    setPlotAreaBackground(final Color fillPaint)\n
     '''
 def getBackground():
-    '''public Color getBackground()
-    public Color getBackground()
-    '''
-def getBackgroundPaint():
-    '''public final Paint getBackgroundPaint()
-    public final Paint getBackgroundPaint()
+    '''returns Color\n\n
+    getBackground()\n
+    getBackground()\n
     '''
 def setBackgroundPaint():
-    '''public void setBackgroundPaint(final Paint bq)
-    public void setBackgroundPaint(final Paint g)
+    '''returns None\n\n
+    setBackgroundPaint(final Paint bq)\n
+    setBackgroundPaint(final Paint g)\n
     '''
 def setBackground():
-    '''public void setBackground(final Color background)
+    '''returns None\n\n
+    setBackground(final Color background)\n
     '''
 def setForeground():
-    '''public void setForeground(final Color foreground)
+    '''returns None\n\n
+    setForeground(final Color foreground)\n
     '''
 def setLayout():
-    '''public void setLayout(final LayoutManager layout)
-    public void setLayout(final LayoutManager layout)
-    '''
-def getHeader():
-    '''public final JComponent getHeader()
+    '''returns None\n\n
+    setLayout(final LayoutManager layout)\n
+    setLayout(final LayoutManager layout)\n
     '''
 def setHeader():
-    '''public void setHeader(final JComponent a6)
+    '''returns None\n\n
+    setHeader(final JComponent a6)\n
     '''
 def getHeaderText():
-    '''public String getHeaderText()
+    '''returns String\n\n
+    getHeaderText()\n
     '''
 def setHeaderText():
-    '''public void setHeaderText(final String text)
-    '''
-def getFooter():
-    '''public final JComponent getFooter()
+    '''returns None\n\n
+    setHeaderText(final String text)\n
     '''
 def setFooter():
-    '''public void setFooter(final JComponent a7)
+    '''returns None\n\n
+    setFooter(final JComponent a7)\n
     '''
 def getFooterText():
-    '''public String getFooterText()
+    '''returns String\n\n
+    getFooterText()\n
     '''
 def setFooterText():
-    '''public void setFooterText(final String text)
-    '''
-def getLegend():
-    '''public final IlvLegend getLegend()
+    '''returns None\n\n
+    setFooterText(final String text)\n
     '''
 def setLegend():
-    '''public void setLegend(final IlvLegend ilvLegend)
+    '''returns None\n\n
+    setLegend(final IlvLegend ilvLegend)\n
     '''
 def addLegend():
-    '''public void addLegend(final IlvLegend ilvLegend, final String s)
-    public void addLegend(final IlvLegend ilvLegend, String a, final boolean b)
+    '''returns None\n\n
+    addLegend(final IlvLegend ilvLegend, final String s)\n
+    addLegend(final IlvLegend ilvLegend, String a, final boolean b)\n
     '''
 def isLegendVisible():
-    '''public boolean isLegendVisible()
+    '''returns boolean\n\n
+    isLegendVisible()\n
     '''
 def setLegendVisible():
-    '''public void setLegendVisible(final boolean b)
+    '''returns None\n\n
+    setLegendVisible(final boolean b)\n
     '''
 def getLegendPosition():
-    '''public String getLegendPosition()
+    '''returns String\n\n
+    getLegendPosition()\n
     '''
 def setLegendPosition():
-    '''public void setLegendPosition(final String s)
-    '''
-def addChartRendererListener():
-    '''public final void addChartRendererListener(final ChartRendererListener l)
-    '''
-def removeChartRendererListener():
-    '''public final void removeChartRendererListener(final ChartRendererListener l)
+    '''returns None\n\n
+    setLegendPosition(final String s)\n
     '''
 def startRendererChanges():
-    '''public void startRendererChanges()
+    '''returns None\n\n
+    startRendererChanges()\n
     '''
 def endRendererChanges():
-    '''public void endRendererChanges()
-    '''
-def addTreemapFocusListener():
-    '''public final void addTreemapFocusListener(final TreemapFocusListener l)
-    '''
-def removeTreemapFocusListener():
-    '''public final void removeTreemapFocusListener(final TreemapFocusListener l)
-    '''
-def addChartDrawListener():
-    '''public final void addChartDrawListener(final ChartDrawListener l)
-    '''
-def removeChartDrawListener():
-    '''public final void removeChartDrawListener(final ChartDrawListener l)
+    '''returns None\n\n
+    endRendererChanges()\n
     '''
 def synchronizeAxis():
-    '''public void synchronizeAxis(final IlvChart ilvChart, final int n, final boolean b)
+    '''returns None\n\n
+    synchronizeAxis(final IlvChart ilvChart, final int n, final boolean b)\n
     '''
 def unSynchronizeAxis():
-    '''public void unSynchronizeAxis(final int n)
+    '''returns None\n\n
+    unSynchronizeAxis(final int n)\n
     '''
 def getXScrollBar():
-    '''public JScrollBar getXScrollBar()
+    '''returns JScrollBar\n\n
+    getXScrollBar()\n
     '''
 def setXScrollBar():
-    '''public void setXScrollBar(final JScrollBar a9)
+    '''returns None\n\n
+    setXScrollBar(final JScrollBar a9)\n
     '''
 def attachBoundedModel():
-    '''public void attachBoundedModel(final BoundedRangeModel boundedRangeModel, final int n, final boolean b)
-    public void attachBoundedModel(final BoundedRangeModel boundedRangeModel, final int n)
+    '''returns None\n\n
+    attachBoundedModel(final BoundedRangeModel boundedRangeModel, final int n, final boolean b)\n
+    attachBoundedModel(final BoundedRangeModel boundedRangeModel, final int n)\n
     '''
 def detachBoundedModel():
-    '''public void detachBoundedModel(final BoundedRangeModel boundedRangeModel)
+    '''returns None\n\n
+    detachBoundedModel(final BoundedRangeModel boundedRangeModel)\n
     '''
 def paint():
-    '''public void paint(final Graphics g)
-    public void paint(final Graphics2D g)
-    public void paint(final Graphics2D graphics2D)
+    '''returns None\n\n
+    paint(final Graphics g)\n
+    paint(final Graphics2D g)\n
+    paint(final Graphics2D graphics2D)\n
     '''
 def revalidate():
-    '''public void revalidate()
-    public void revalidate()
+    '''returns None\n\n
+    revalidate()\n
+    revalidate()\n
     '''
 def repaint():
-    '''public void repaint()
-    public void repaint()
-    public void repaint(final IlvDataWindow ilvDataWindow, final int n)
+    '''returns None\n\n
+    repaint()\n
+    repaint()\n
+    repaint(final IlvDataWindow ilvDataWindow, final int n)\n
     '''
 def toImage():
-    '''public BufferedImage toImage(final BufferedImage bufferedImage, final boolean b)
-    public BufferedImage toImage(final int n, final int n2, final Color color)
-    public BufferedImage toImage(final int n, final int n2, final Color color)
-    public BufferedImage toImage(final BufferedImage bufferedImage, final boolean b)
+    '''returns BufferedImage\n\n
+    toImage(final BufferedImage bufferedImage, final boolean b)\n
+    toImage(final int n, final int n2, final Color color)\n
+    toImage(final int n, final int n2, final Color color)\n
+    toImage(final BufferedImage bufferedImage, final boolean b)\n
     '''
 def toPNG():
-    '''public void toPNG(final OutputStream outputStream, final boolean b)
-    public void toPNG(final OutputStream outputStream)
-    public void toPNG(final OutputStream outputStream, final int n, final int n2, final boolean b)
-    public void toPNG(final OutputStream outputStream, final int n, final int n2)
-    public void toPNG(final OutputStream outputStream, final boolean b)
-    public void toPNG(final OutputStream outputStream)
+    '''returns None\n\n
+    toPNG(final OutputStream outputStream, final boolean b)\n
+    toPNG(final OutputStream outputStream)\n
+    toPNG(final OutputStream outputStream, final int n, final int n2, final boolean b)\n
+    toPNG(final OutputStream outputStream, final int n, final int n2)\n
+    toPNG(final OutputStream outputStream, final boolean b)\n
+    toPNG(final OutputStream outputStream)\n
     '''
 def toJPEG():
-    '''public void toJPEG(final OutputStream outputStream)
-    public void toJPEG(final OutputStream outputStream, final int n, final int n2)
-    public void toJPEG(final OutputStream outputStream)
-    '''
-def getPaintContext():
-    '''public final IlvChartPaintContext getPaintContext()
-    '''
-def startSession():
-    '''public final void startSession(final IlvChartPaintContext bl)
-    '''
-def endSession():
-    '''public final void endSession(final IlvChartPaintContext ilvChartPaintContext)
-    '''
-def isPaintingImage():
-    '''public final boolean isPaintingImage()
+    '''returns None\n\n
+    toJPEG(final OutputStream outputStream)\n
+    toJPEG(final OutputStream outputStream, final int n, final int n2)\n
+    toJPEG(final OutputStream outputStream)\n
     '''
 def paintCurrentThread():
-    '''public void paintCurrentThread(final Graphics2D graphics2D, final Color color)
-    public void paintCurrentThread(final Graphics2D graphics2D, final Color color)
-    '''
-def isPrinting():
-    '''public final boolean isPrinting()
-    '''
-def getPrintContext():
-    '''public final IlvChartPrintContext getPrintContext()
+    '''returns None\n\n
+    paintCurrentThread(final Graphics2D graphics2D, final Color color)\n
+    paintCurrentThread(final Graphics2D graphics2D, final Color color)\n
     '''
 def print():
-    '''public void print(final Graphics graphics, final IlvChartPrintContext ilvChartPrintContext)
+    '''returns None\n\n
+    print(final Graphics graphics, final IlvChartPrintContext ilvChartPrintContext)\n
     '''
 def printCurrentThread():
-    '''public void printCurrentThread(final Graphics graphics, final IlvChartPrintContext ilvChartPrintContext)
+    '''returns None\n\n
+    printCurrentThread(final Graphics graphics, final IlvChartPrintContext ilvChartPrintContext)\n
     '''
 def paintToFO():
-    '''public Element paintToFO(final Document document, final boolean b)
-    public Element paintToFO(final Document document, final boolean b, final Color color)
+    '''returns Element\n\n
+    paintToFO(final Document document, final boolean b)\n
+    paintToFO(final Document document, final boolean b, final Color color)\n
     '''
 def paintToFOCurrentThread():
-    '''public Element paintToFOCurrentThread(final Document document, final boolean b, final Color color)
+    '''returns Element\n\n
+    paintToFOCurrentThread(final Document document, final boolean b, final Color color)\n
     '''
 def dispose():
-    '''public void dispose()
-    public void dispose()
-    public void dispose()
+    '''returns None\n\n
+    dispose()\n
+    dispose()\n
+    dispose()\n
     '''
 def getProject():
-    '''public URL getProject()
+    '''returns URL\n\n
+    getProject()\n
     '''
 def setProject():
-    '''public void setProject(final URL bu)
-    '''
-def IlvChartImagePaintContext():
-    '''public IlvChartImagePaintContext(final int width, final int height, final JComponent component)
+    '''returns None\n\n
+    setProject(final URL bu)\n
     '''
 def getGraphics():
-    '''public Graphics getGraphics()
-    public Graphics getGraphics()
+    '''returns Graphics\n\n
+    getGraphics()\n
+    getGraphics()\n
     '''
 def getImage():
-    '''public BufferedImage getImage()
-    '''
-def IlvChartPaintContext():
-    '''public IlvChartPaintContext(final int width, final int height, final JComponent d)
-    '''
-def getBounds():
-    '''public final Map<Component, Rectangle> getBounds()
-    '''
-def getDrawRect():
-    '''public final Rectangle getDrawRect()
-    public Rectangle getDrawRect()
-    '''
-def IlvChartPaintAction():
-    '''public IlvChartPaintAction(final Container container)
+    '''returns BufferedImage\n\n
+    getImage()\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def getDataPointPseudoClasses():
-    '''public String[] getDataPointPseudoClasses(final int n)
+    '''returns String[]\n\n
+    getDataPointPseudoClasses(final int n)\n
     '''
 def setDataPointPseudoClasses():
-    '''public boolean setDataPointPseudoClasses(final int n, final String[] a2)
+    '''returns boolean\n\n
+    setDataPointPseudoClasses(final int n, final String[] a2)\n
     '''
 def addDataPointPseudoClass():
-    '''public boolean addDataPointPseudoClass(final int n, final String anObject)
+    '''returns boolean\n\n
+    addDataPointPseudoClass(final int n, final String anObject)\n
     '''
 def removeDataPointPseudoClass():
-    '''public boolean removeDataPointPseudoClass(final int n, final String anObject)
+    '''returns boolean\n\n
+    removeDataPointPseudoClass(final int n, final String anObject)\n
     '''
 def getMainPseudoClasses():
-    '''public String[] getMainPseudoClasses()
+    '''returns String[]\n\n
+    getMainPseudoClasses()\n
     '''
 def setMainPseudoClasses():
-    '''public boolean setMainPseudoClasses(final String[] array)
+    '''returns boolean\n\n
+    setMainPseudoClasses(final String[] array)\n
     '''
 def addMainPseudoClass():
-    '''public boolean addMainPseudoClass(final String anObject)
+    '''returns boolean\n\n
+    addMainPseudoClass(final String anObject)\n
     '''
 def removeMainPseudoClass():
-    '''public boolean removeMainPseudoClass(final String anObject)
+    '''returns boolean\n\n
+    removeMainPseudoClass(final String anObject)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def axisRangeChanged():
-    '''public void axisRangeChanged(final AxisRangeEvent axisRangeEvent)
+    '''returns None\n\n
+    axisRangeChanged(final AxisRangeEvent axisRangeEvent)\n
     '''
 def axisChanged():
-    '''public void axisChanged(final AxisChangeEvent axisChangeEvent)
+    '''returns None\n\n
+    axisChanged(final AxisChangeEvent axisChangeEvent)\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def isPlotRectIncludingAnnotations():
-    '''public boolean isPlotRectIncludingAnnotations()
+    '''returns boolean\n\n
+    isPlotRectIncludingAnnotations()\n
     '''
 def setPlotRectIncludingAnnotations():
-    '''public void setPlotRectIncludingAnnotations(final boolean a)
+    '''returns None\n\n
+    setPlotRectIncludingAnnotations(final boolean a)\n
     '''
 def setMargins():
-    '''public void setMargins(final Insets margins)
+    '''returns None\n\n
+    setMargins(final Insets margins)\n
     '''
 def setHorizontalMargins():
-    '''public void setHorizontalMargins(final int n, final int n2)
+    '''returns None\n\n
+    setHorizontalMargins(final int n, final int n2)\n
     '''
 def setVerticalMargins():
-    '''public void setVerticalMargins(final int n, final int n2)
+    '''returns None\n\n
+    setVerticalMargins(final int n, final int n2)\n
     '''
 def setLeftMargin():
-    '''public void setLeftMargin(final int n)
+    '''returns None\n\n
+    setLeftMargin(final int n)\n
     '''
 def setRightMargin():
-    '''public void setRightMargin(final int n)
+    '''returns None\n\n
+    setRightMargin(final int n)\n
     '''
 def setTopMargin():
-    '''public void setTopMargin(final int n)
+    '''returns None\n\n
+    setTopMargin(final int n)\n
     '''
 def setBottomMargin():
-    '''public void setBottomMargin(final int n)
+    '''returns None\n\n
+    setBottomMargin(final int n)\n
     '''
 def getFixedMargins():
-    '''public int getFixedMargins()
+    '''returns int\n\n
+    getFixedMargins()\n
     '''
 def getMargins():
-    '''public Insets getMargins()
-    '''
-def getChart():
-    '''public final IlvChart getChart()
+    '''returns Insets\n\n
+    getMargins()\n
     '''
 def getPlotStyle():
-    '''public IlvStyle getPlotStyle()
+    '''returns IlvStyle\n\n
+    getPlotStyle()\n
     '''
 def setPlotStyle():
-    '''public void setPlotStyle(final IlvStyle c)
+    '''returns None\n\n
+    setPlotStyle(final IlvStyle c)\n
     '''
 def isFilledPlottingArea():
-    '''public boolean isFilledPlottingArea()
+    '''returns boolean\n\n
+    isFilledPlottingArea()\n
     '''
 def setFilledPlottingArea():
-    '''public void setFilledPlottingArea(final boolean fillOn)
-    '''
-def getPlotBackground():
-    '''public final Paint getPlotBackground()
+    '''returns None\n\n
+    setFilledPlottingArea(final boolean fillOn)\n
     '''
 def setPlotBackground():
-    '''public void setPlotBackground(final Paint fillPaint)
-    public void setPlotBackground(final Color[] array, final boolean b)
+    '''returns None\n\n
+    setPlotBackground(final Paint fillPaint)\n
+    setPlotBackground(final Color[] array, final boolean b)\n
     '''
 def isValidateRoot():
-    '''public boolean isValidateRoot()
+    '''returns boolean\n\n
+    isValidateRoot()\n
     '''
 def isDirectRedrawEnabled():
-    '''public boolean isDirectRedrawEnabled()
+    '''returns boolean\n\n
+    isDirectRedrawEnabled()\n
     '''
 def setDirectRedrawEnabled():
-    '''public void setDirectRedrawEnabled(final boolean b)
+    '''returns None\n\n
+    setDirectRedrawEnabled(final boolean b)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
+    '''
+def getDrawRect():
+    '''returns Rectangle\n\n
+    getDrawRect()\n
     '''
 def getPlotRect():
-    '''public Rectangle getPlotRect()
-    '''
-def repaint2D():
-    '''public final void repaint2D(final Rectangle2D rectangle2D)
+    '''returns Rectangle\n\n
+    getPlotRect()\n
     '''
 def revalidateLayout():
-    '''public void revalidateLayout()
-    '''
-def IlvChartAreaPaintAction():
-    '''public IlvChartAreaPaintAction(final Container container)
+    '''returns None\n\n
+    revalidateLayout()\n
     '''

@@ -1,43 +1,57 @@
-def GenericPersistentClient():
-    '''public GenericPersistentClient()
+def ():
+    '''returns GenericPersistentClient\n\n
+    ()\n
     '''
 def getDefaultPort():
-    '''public int getDefaultPort()
+    '''returns int\n\n
+    getDefaultPort()\n
     '''
 def setDefaultPort():
-    '''public void setDefaultPort(final int defaultPort)
+    '''returns None\n\n
+    setDefaultPort(final int defaultPort)\n
     '''
 def getServerhostname():
-    '''public String getServerhostname()
+    '''returns String\n\n
+    getServerhostname()\n
     '''
 def setServerhostname():
-    '''public void setServerhostname(final String serverhostname)
+    '''returns None\n\n
+    setServerhostname(final String serverhostname)\n
     '''
 def getFirstReadTimeout():
-    '''public int getFirstReadTimeout()
+    '''returns int\n\n
+    getFirstReadTimeout()\n
     '''
 def getSecondReadTimeout():
-    '''public int getSecondReadTimeout()
+    '''returns int\n\n
+    getSecondReadTimeout()\n
     '''
 def setFirstReadTimeout():
-    '''public void setFirstReadTimeout(final int i)
+    '''returns None\n\n
+    setFirstReadTimeout(final int i)\n
     '''
 def setSecondReadTimeout():
-    '''public void setSecondReadTimeout(final int i)
+    '''returns None\n\n
+    setSecondReadTimeout(final int i)\n
     '''
 def askServerPersistent():
-    '''public GenericClientResponse askServerPersistent(final InputStream data, final int chunkSize)
-    public GenericClientResponse askServerPersistent(final InputStream data)
+    '''returns GenericClientResponse\n\n
+    askServerPersistent(final InputStream data, final int chunkSize)\n
+    askServerPersistent(final InputStream data)\n
     '''
 def closeServer():
-    '''public void closeServer(Socket aSocket)
+    '''returns None\n\n
+    closeServer(Socket aSocket)\n
     '''
 def setChunkSize():
-    '''public void setChunkSize(final int chunkSize)
+    '''returns None\n\n
+    setChunkSize(final int chunkSize)\n
     '''
 def setAllowCleanedContent():
-    '''public void setAllowCleanedContent()
+    '''returns None\n\n
+    setAllowCleanedContent()\n
     '''
 def setAllow204():
-    '''public void setAllow204()
+    '''returns None\n\n
+    setAllow204()\n
     '''

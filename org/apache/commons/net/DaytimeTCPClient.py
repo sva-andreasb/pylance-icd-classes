@@ -1,7 +1,9 @@
 DEFAULT_PORT = "int  13"
-def DaytimeTCPClient():
-    '''public DaytimeTCPClient()
+def ():
+    '''returns DaytimeTCPClient\n\n
+    ()\n
     '''
 def getTime():
-    '''public String getTime()
+    '''returns String\n\n
+    getTime()\n
     '''

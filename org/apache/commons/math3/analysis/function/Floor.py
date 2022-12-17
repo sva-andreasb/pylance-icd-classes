@@ -1,3 +1,4 @@
 def value():
-    '''public double value(final double x)
+    '''returns double\n\n
+    value(final double x)\n
     '''

@@ -1,16 +1,13 @@
-def isMultipartContent():
-    '''public static final boolean isMultipartContent(final ActionRequest request)
-    '''
-def PortletFileUpload():
-    '''public PortletFileUpload()
-    public PortletFileUpload(final FileItemFactory fileItemFactory)
+def ():
+    '''returns PortletFileUpload\n\n
+    ()\n
+    (final FileItemFactory fileItemFactory)\n
     '''
 def parseRequest():
-    '''public List<FileItem> parseRequest(final ActionRequest request)
-    '''
-def parseParameterMap():
-    '''public Map<String, List<FileItem>> parseParameterMap(final ActionRequest request)
+    '''returns List<FileItem>\n\n
+    parseRequest(final ActionRequest request)\n
     '''
 def getItemIterator():
-    '''public FileItemIterator getItemIterator(final ActionRequest request)
+    '''returns FileItemIterator\n\n
+    getItemIterator(final ActionRequest request)\n
     '''

@@ -1,17 +1,22 @@
-def DOMStringListImpl():
-    '''public DOMStringListImpl()
-    public DOMStringListImpl(final ArrayList fStrings)
-    public DOMStringListImpl(final Vector c)
+def ():
+    '''returns DOMStringListImpl\n\n
+    ()\n
+    (final ArrayList fStrings)\n
+    (final Vector c)\n
     '''
 def item():
-    '''public String item(final int index)
+    '''returns String\n\n
+    item(final int index)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def contains():
-    '''public boolean contains(final String o)
+    '''returns boolean\n\n
+    contains(final String o)\n
     '''
 def add():
-    '''public void add(final String e)
+    '''returns None\n\n
+    add(final String e)\n
     '''

@@ -1,9 +1,8 @@
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

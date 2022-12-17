@@ -1,34 +1,45 @@
-def BasicHeaderElement():
-    '''public BasicHeaderElement(final String name, final String value, final NameValuePair[] parameters)
-    public BasicHeaderElement(final String name, final String value)
+def ():
+    '''returns BasicHeaderElement\n\n
+    (final String name, final String value, final NameValuePair[] parameters)\n
+    (final String name, final String value)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getParameters():
-    '''public NameValuePair[] getParameters()
+    '''returns NameValuePair[]\n\n
+    getParameters()\n
     '''
 def getParameterCount():
-    '''public int getParameterCount()
+    '''returns int\n\n
+    getParameterCount()\n
     '''
 def getParameter():
-    '''public NameValuePair getParameter(final int index)
+    '''returns NameValuePair\n\n
+    getParameter(final int index)\n
     '''
 def getParameterByName():
-    '''public NameValuePair getParameterByName(final String name)
+    '''returns NameValuePair\n\n
+    getParameterByName(final String name)\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

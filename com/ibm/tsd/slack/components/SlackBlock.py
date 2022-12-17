@@ -3,54 +3,71 @@ TYPE_SECTION = "String  \"section\""
 TYPE_DIVIDER = "String  \"divider\""
 TYPE_CONTEXT = "String  \"context\""
 TYPE_ACTIONS = "String  \"actions\""
-def SlackBlock():
-    '''public SlackBlock(final String type)
+def ():
+    '''returns SlackBlock\n\n
+    (final String type)\n
     '''
 def setBlockId():
-    '''public void setBlockId(final String blockId)
+    '''returns None\n\n
+    setBlockId(final String blockId)\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def setElement():
-    '''public void setElement(final SlackElement element)
+    '''returns None\n\n
+    setElement(final SlackElement element)\n
     '''
 def setFields():
-    '''public void setFields(final JSONArray fields)
+    '''returns None\n\n
+    setFields(final JSONArray fields)\n
     '''
 def setAccessory():
-    '''public void setAccessory(final SlackElement accessory)
+    '''returns None\n\n
+    setAccessory(final SlackElement accessory)\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setHint():
-    '''public void setHint(final String text)
+    '''returns None\n\n
+    setHint(final String text)\n
     '''
 def setOptional():
-    '''public void setOptional(final boolean optional)
+    '''returns None\n\n
+    setOptional(final boolean optional)\n
     '''
 def getBlockId():
-    '''public String getBlockId()
+    '''returns String\n\n
+    getBlockId()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getElement():
-    '''public SlackElement getElement()
+    '''returns SlackElement\n\n
+    getElement()\n
     '''
 def getFields():
-    '''public JSONArray getFields()
+    '''returns JSONArray\n\n
+    getFields()\n
     '''
 def getAccessory():
-    '''public SlackElement getAccessory()
+    '''returns SlackElement\n\n
+    getAccessory()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getHint():
-    '''public String getHint()
+    '''returns String\n\n
+    getHint()\n
     '''
 def getOptional():
-    '''public boolean getOptional()
+    '''returns boolean\n\n
+    getOptional()\n
     '''

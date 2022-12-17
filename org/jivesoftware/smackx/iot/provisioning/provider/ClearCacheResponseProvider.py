@@ -1,3 +1,4 @@
 def parse():
-    '''public ClearCacheResponse parse(final XmlPullParser parser, final int initialDepth)
+    '''returns ClearCacheResponse\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

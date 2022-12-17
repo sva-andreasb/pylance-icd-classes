@@ -1,3 +1,4 @@
-def AMCTStatusHistSet():
-    '''public AMCTStatusHistSet(final MboServerInterface ms)
+def ():
+    '''returns AMCTStatusHistSet\n\n
+    (final MboServerInterface ms)\n
     '''

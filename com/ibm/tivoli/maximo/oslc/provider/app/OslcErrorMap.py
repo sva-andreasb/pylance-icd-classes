@@ -1,3 +1,4 @@
-def OslcErrorMap():
-    '''public OslcErrorMap(final MboSet ms)
+def ():
+    '''returns OslcErrorMap\n\n
+    (final MboSet ms)\n
     '''

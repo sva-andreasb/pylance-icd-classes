@@ -1,10 +1,13 @@
-def JobStatusImpl():
-    '''public JobStatusImpl()
-    public JobStatusImpl(final JobExecutionStatus executionStatus)
+def ():
+    '''returns JobStatusImpl\n\n
+    ()\n
+    (final JobExecutionStatus executionStatus)\n
     '''
 def getExecutionStatus():
-    '''public JobExecutionStatus getExecutionStatus()
+    '''returns JobExecutionStatus\n\n
+    getExecutionStatus()\n
     '''
 def setExecutionStatus():
-    '''public void setExecutionStatus(final JobExecutionStatus status)
+    '''returns None\n\n
+    setExecutionStatus(final JobExecutionStatus status)\n
     '''

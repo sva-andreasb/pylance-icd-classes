@@ -1,4 +1,5 @@
-def CorePlusExtensionsParser():
-    '''public CorePlusExtensionsParser(final Analyzer analyzer, final QueryParser parser)
-    public CorePlusExtensionsParser(final String defaultField, final Analyzer analyzer)
+def ():
+    '''returns CorePlusExtensionsParser\n\n
+    (final Analyzer analyzer, final QueryParser parser)\n
+    (final String defaultField, final Analyzer analyzer)\n
     '''

@@ -1,78 +1,100 @@
-def StatefulEJBProvider():
-    '''public StatefulEJBProvider()
+def ():
+    '''returns StatefulEJBProvider\n\n
+    ()\n
     '''
 def deSerialize():
-    '''public EJBObject deSerialize(final String s)
+    '''returns EJBObject\n\n
+    deSerialize(final String s)\n
     '''
 def getCall():
-    '''public Call getCall()
+    '''returns Call\n\n
+    getCall()\n
     '''
 def getContxt():
-    '''public Context getContxt()
+    '''returns Context\n\n
+    getContxt()\n
     '''
 def getDd():
-    '''public DeploymentDescriptor getDd()
+    '''returns DeploymentDescriptor\n\n
+    getDd()\n
     '''
 def getMethodName():
-    '''public String getMethodName()
+    '''returns String\n\n
+    getMethodName()\n
     '''
 def getMethodParameters():
-    '''public Vector getMethodParameters()
+    '''returns Vector\n\n
+    getMethodParameters()\n
     '''
 def getRemoteObjRef():
-    '''public Remote getRemoteObjRef()
+    '''returns Remote\n\n
+    getRemoteObjRef()\n
     '''
 def getRespEncStyle():
-    '''public String getRespEncStyle()
+    '''returns String\n\n
+    getRespEncStyle()\n
     '''
 def getServlet():
-    '''public HttpServlet getServlet()
+    '''returns HttpServlet\n\n
+    getServlet()\n
     '''
 def getSession():
-    '''public HttpSession getSession()
+    '''returns HttpSession\n\n
+    getSession()\n
     '''
 def getTargetObjectURI():
-    '''public String getTargetObjectURI()
-    '''
-def getUniqueId():
-    '''public static String getUniqueId(final String s)
+    '''returns String\n\n
+    getTargetObjectURI()\n
     '''
 def invoke():
-    '''public void invoke(final SOAPContext soapContext, final SOAPContext soapContext2)
+    '''returns None\n\n
+    invoke(final SOAPContext soapContext, final SOAPContext soapContext2)\n
     '''
 def locate():
-    '''public void locate(final DeploymentDescriptor dd, final Envelope envelope, final Call call, final String s, final String s2, final SOAPContext soapContext)
+    '''returns None\n\n
+    locate(final DeploymentDescriptor dd, final Envelope envelope, final Call call, final String s, final String s2, final SOAPContext soapContext)\n
     '''
 def serialize():
-    '''public void serialize()
+    '''returns None\n\n
+    serialize()\n
     '''
 def setCall():
-    '''public void setCall(final Call call)
+    '''returns None\n\n
+    setCall(final Call call)\n
     '''
 def setContxt():
-    '''public void setContxt(final Context contxt)
+    '''returns None\n\n
+    setContxt(final Context contxt)\n
     '''
 def setDd():
-    '''public void setDd(final DeploymentDescriptor dd)
+    '''returns None\n\n
+    setDd(final DeploymentDescriptor dd)\n
     '''
 def setMethodName():
-    '''public void setMethodName(final String methodName)
+    '''returns None\n\n
+    setMethodName(final String methodName)\n
     '''
 def setMethodParameters():
-    '''public void setMethodParameters(final Vector methodParameters)
+    '''returns None\n\n
+    setMethodParameters(final Vector methodParameters)\n
     '''
 def setRemoteObjRef():
-    '''public void setRemoteObjRef(final Remote remoteObjRef)
+    '''returns None\n\n
+    setRemoteObjRef(final Remote remoteObjRef)\n
     '''
 def setRespEncStyle():
-    '''public void setRespEncStyle(final String respEncStyle)
+    '''returns None\n\n
+    setRespEncStyle(final String respEncStyle)\n
     '''
 def setServlet():
-    '''public void setServlet(final HttpServlet servlet)
+    '''returns None\n\n
+    setServlet(final HttpServlet servlet)\n
     '''
 def setSession():
-    '''public void setSession(final HttpSession session)
+    '''returns None\n\n
+    setSession(final HttpSession session)\n
     '''
 def setTargetObjectURI():
-    '''public void setTargetObjectURI(final String targetObjectURI)
+    '''returns None\n\n
+    setTargetObjectURI(final String targetObjectURI)\n
     '''

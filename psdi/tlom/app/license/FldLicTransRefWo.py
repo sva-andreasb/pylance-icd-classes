@@ -1,3 +1,4 @@
-def FldLicTransRefWo():
-    '''public FldLicTransRefWo(final MboValue mbv)
+def ():
+    '''returns FldLicTransRefWo\n\n
+    (final MboValue mbv)\n
     '''

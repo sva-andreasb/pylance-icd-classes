@@ -1,54 +1,65 @@
-def parse():
-    '''public static Interval parse(final String s)
-    '''
-def Interval():
-    '''public Interval(final long n, final long n2)
-    public Interval(final long n, final long n2, final DateTimeZone dateTimeZone)
-    public Interval(final long n, final long n2, final Chronology chronology)
-    public Interval(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public Interval(final ReadableInstant readableInstant, final ReadableDuration readableDuration)
-    public Interval(final ReadableDuration readableDuration, final ReadableInstant readableInstant)
-    public Interval(final ReadableInstant readableInstant, final ReadablePeriod readablePeriod)
-    public Interval(final ReadablePeriod readablePeriod, final ReadableInstant readableInstant)
-    public Interval(final Object o)
-    public Interval(final Object o, final Chronology chronology)
+def ():
+    '''returns Interval\n\n
+    (final long n, final long n2)\n
+    (final long n, final long n2, final DateTimeZone dateTimeZone)\n
+    (final long n, final long n2, final Chronology chronology)\n
+    (final ReadableInstant readableInstant, final ReadableInstant readableInstant2)\n
+    (final ReadableInstant readableInstant, final ReadableDuration readableDuration)\n
+    (final ReadableDuration readableDuration, final ReadableInstant readableInstant)\n
+    (final ReadableInstant readableInstant, final ReadablePeriod readablePeriod)\n
+    (final ReadablePeriod readablePeriod, final ReadableInstant readableInstant)\n
+    (final Object o)\n
+    (final Object o, final Chronology chronology)\n
     '''
 def toInterval():
-    '''public Interval toInterval()
+    '''returns Interval\n\n
+    toInterval()\n
     '''
 def overlap():
-    '''public Interval overlap(ReadableInterval readableInterval)
+    '''returns Interval\n\n
+    overlap(ReadableInterval readableInterval)\n
     '''
 def gap():
-    '''public Interval gap(ReadableInterval readableInterval)
+    '''returns Interval\n\n
+    gap(ReadableInterval readableInterval)\n
     '''
 def abuts():
-    '''public boolean abuts(final ReadableInterval readableInterval)
+    '''returns boolean\n\n
+    abuts(final ReadableInterval readableInterval)\n
     '''
 def withChronology():
-    '''public Interval withChronology(final Chronology chronology)
+    '''returns Interval\n\n
+    withChronology(final Chronology chronology)\n
     '''
 def withStartMillis():
-    '''public Interval withStartMillis(final long n)
+    '''returns Interval\n\n
+    withStartMillis(final long n)\n
     '''
 def withStart():
-    '''public Interval withStart(final ReadableInstant readableInstant)
+    '''returns Interval\n\n
+    withStart(final ReadableInstant readableInstant)\n
     '''
 def withEndMillis():
-    '''public Interval withEndMillis(final long n)
+    '''returns Interval\n\n
+    withEndMillis(final long n)\n
     '''
 def withEnd():
-    '''public Interval withEnd(final ReadableInstant readableInstant)
+    '''returns Interval\n\n
+    withEnd(final ReadableInstant readableInstant)\n
     '''
 def withDurationAfterStart():
-    '''public Interval withDurationAfterStart(final ReadableDuration readableDuration)
+    '''returns Interval\n\n
+    withDurationAfterStart(final ReadableDuration readableDuration)\n
     '''
 def withDurationBeforeEnd():
-    '''public Interval withDurationBeforeEnd(final ReadableDuration readableDuration)
+    '''returns Interval\n\n
+    withDurationBeforeEnd(final ReadableDuration readableDuration)\n
     '''
 def withPeriodAfterStart():
-    '''public Interval withPeriodAfterStart(final ReadablePeriod readablePeriod)
+    '''returns Interval\n\n
+    withPeriodAfterStart(final ReadablePeriod readablePeriod)\n
     '''
 def withPeriodBeforeEnd():
-    '''public Interval withPeriodBeforeEnd(final ReadablePeriod readablePeriod)
+    '''returns Interval\n\n
+    withPeriodBeforeEnd(final ReadablePeriod readablePeriod)\n
     '''

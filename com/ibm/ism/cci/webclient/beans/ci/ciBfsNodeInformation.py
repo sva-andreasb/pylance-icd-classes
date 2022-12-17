@@ -1,27 +1,36 @@
-def ciBfsNodeInformation():
-    '''public ciBfsNodeInformation(final String cCiNumber, final String pCiNumber, final int myLevel, final int plevel)
+def ():
+    '''returns ciBfsNodeInformation\n\n
+    (final String cCiNumber, final String pCiNumber, final int myLevel, final int plevel)\n
     '''
 def getcCiNumber():
-    '''public String getcCiNumber()
+    '''returns String\n\n
+    getcCiNumber()\n
     '''
 def setcCiNumber():
-    '''public void setcCiNumber(final String cCiNumber)
+    '''returns None\n\n
+    setcCiNumber(final String cCiNumber)\n
     '''
 def getpCiNumber():
-    '''public String getpCiNumber()
+    '''returns String\n\n
+    getpCiNumber()\n
     '''
 def setpCiNumber():
-    '''public void setpCiNumber(final String pCiNumber)
+    '''returns None\n\n
+    setpCiNumber(final String pCiNumber)\n
     '''
 def getMyLevel():
-    '''public int getMyLevel()
+    '''returns int\n\n
+    getMyLevel()\n
     '''
 def setMyLevel():
-    '''public void setMyLevel(final int myLevel)
+    '''returns None\n\n
+    setMyLevel(final int myLevel)\n
     '''
 def getPlevel():
-    '''public int getPlevel()
+    '''returns int\n\n
+    getPlevel()\n
     '''
 def setPlevel():
-    '''public void setPlevel(final int plevel)
+    '''returns None\n\n
+    setPlevel(final int plevel)\n
     '''

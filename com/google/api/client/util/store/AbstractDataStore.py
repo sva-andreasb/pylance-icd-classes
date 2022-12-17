@@ -1,18 +1,20 @@
 def getDataStoreFactory():
-    '''public DataStoreFactory getDataStoreFactory()
-    '''
-def getId():
-    '''public final String getId()
+    '''returns DataStoreFactory\n\n
+    getDataStoreFactory()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String key)
+    '''returns boolean\n\n
+    containsKey(final String key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final V value)
+    '''returns boolean\n\n
+    containsValue(final V value)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

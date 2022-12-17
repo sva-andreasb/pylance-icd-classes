@@ -1,9 +1,12 @@
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
-def ReceivedDateTerm():
-    '''public ReceivedDateTerm(final int comparison, final Date date)
+def ():
+    '''returns ReceivedDateTerm\n\n
+    (final int comparison, final Date date)\n
     '''
 def match():
-    '''public boolean match(final Message msg)
+    '''returns boolean\n\n
+    match(final Message msg)\n
     '''

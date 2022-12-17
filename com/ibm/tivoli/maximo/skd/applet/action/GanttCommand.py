@@ -1,24 +1,21 @@
-def removeFromGanttModel():
-    '''public static void removeFromGanttModel(final IlvGanttModel model, final IlvConstraint constraint)
-    '''
-def ExitAction():
-    '''public ExitAction()
+def ():
+    '''returns DeleteSelectedConstraintsAction\n\n
+    ()\n
+    (final IlvHierarchyChart chart)\n
+    (final IlvHierarchyChart chart)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent event)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent event)
-    public void actionPerformed(final ActionEvent event)
-    '''
-def MakeConstraintAction():
-    '''public MakeConstraintAction(final IlvHierarchyChart chart)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent event)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent event)\n
+    actionPerformed(final ActionEvent event)\n
     '''
 def interactorChanged():
-    '''public void interactorChanged(final InteractorChangedEvent event)
-    '''
-def DeleteSelectedConstraintsAction():
-    '''public DeleteSelectedConstraintsAction(final IlvHierarchyChart chart)
+    '''returns None\n\n
+    interactorChanged(final InteractorChangedEvent event)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent event)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent event)\n
     '''

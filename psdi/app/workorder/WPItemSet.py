@@ -1,33 +1,44 @@
-def WPItemSet():
-    '''public WPItemSet(final MboServerInterface ms)
+def ():
+    '''returns WPItemSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def add():
-    '''public boolean add(final String[][] values)
+    '''returns boolean\n\n
+    add(final String[][] values)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener l)
+    '''returns None\n\n
+    addListener(final MboSetListener l)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener l)
+    '''returns None\n\n
+    removeListener(final MboSetListener l)\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote modifiedMbo)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote mbo)
+    '''returns None\n\n
+    setOwner(final MboRemote mbo)\n
     '''
 def getPriceObject():
-    '''public DefaultOrderPrice getPriceObject()
+    '''returns DefaultOrderPrice\n\n
+    getPriceObject()\n
     '''
 def deleteInvReserves():
-    '''public void deleteInvReserves()
+    '''returns None\n\n
+    deleteInvReserves()\n
     '''

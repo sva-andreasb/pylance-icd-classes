@@ -1,48 +1,64 @@
-def SchemaGlobalElementImpl():
-    '''public SchemaGlobalElementImpl(final SchemaContainer container)
+def ():
+    '''returns SchemaGlobalElementImpl\n\n
+    (final SchemaContainer container)\n
     '''
 def getTypeSystem():
-    '''public SchemaTypeSystem getTypeSystem()
+    '''returns SchemaTypeSystem\n\n
+    getTypeSystem()\n
     '''
 def getSourceName():
-    '''public String getSourceName()
+    '''returns String\n\n
+    getSourceName()\n
     '''
 def setFilename():
-    '''public void setFilename(final String filename)
+    '''returns None\n\n
+    setFilename(final String filename)\n
     '''
 def getComponentType():
-    '''public int getComponentType()
+    '''returns int\n\n
+    getComponentType()\n
     '''
 def substitutionGroup():
-    '''public SchemaGlobalElement substitutionGroup()
+    '''returns SchemaGlobalElement\n\n
+    substitutionGroup()\n
     '''
 def setSubstitutionGroup():
-    '''public void setSubstitutionGroup(final Ref sg)
+    '''returns None\n\n
+    setSubstitutionGroup(final Ref sg)\n
     '''
 def substitutionGroupMembers():
-    '''public QName[] substitutionGroupMembers()
+    '''returns QName[]\n\n
+    substitutionGroupMembers()\n
     '''
 def addSubstitutionGroupMember():
-    '''public void addSubstitutionGroupMember(final QName name)
+    '''returns None\n\n
+    addSubstitutionGroupMember(final QName name)\n
     '''
 def finalExtension():
-    '''public boolean finalExtension()
+    '''returns boolean\n\n
+    finalExtension()\n
     '''
 def finalRestriction():
-    '''public boolean finalRestriction()
+    '''returns boolean\n\n
+    finalRestriction()\n
     '''
 def setParseContext():
-    '''public void setParseContext(final XmlObject parseObject, final String targetNamespace, final boolean chameleon)
+    '''returns None\n\n
+    setParseContext(final XmlObject parseObject, final String targetNamespace, final boolean chameleon)\n
     '''
 def getParseObject():
-    '''public XmlObject getParseObject()
+    '''returns XmlObject\n\n
+    getParseObject()\n
     '''
 def getTargetNamespace():
-    '''public String getTargetNamespace()
+    '''returns String\n\n
+    getTargetNamespace()\n
     '''
 def getChameleonNamespace():
-    '''public String getChameleonNamespace()
+    '''returns String\n\n
+    getChameleonNamespace()\n
     '''
 def getRef():
-    '''public Ref getRef()
+    '''returns Ref\n\n
+    getRef()\n
     '''

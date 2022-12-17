@@ -1,9 +1,11 @@
-def WritableTypeId():
-    '''public WritableTypeId()
-    public WritableTypeId(final Object value, final JsonToken valueShape0)
-    public WritableTypeId(final Object value, final Class<?> valueType0, final JsonToken valueShape0)
-    public WritableTypeId(final Object value, final JsonToken valueShape0, final Object id0)
+def ():
+    '''returns WritableTypeId\n\n
+    ()\n
+    (final Object value, final JsonToken valueShape0)\n
+    (final Object value, final Class<?> valueType0, final JsonToken valueShape0)\n
+    (final Object value, final JsonToken valueShape0, final Object id0)\n
     '''
 def requiresObjectContext():
-    '''public boolean requiresObjectContext()
+    '''returns boolean\n\n
+    requiresObjectContext()\n
     '''

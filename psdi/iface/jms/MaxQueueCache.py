@@ -1,18 +1,19 @@
 NAME = "String  \"QUEUE\""
-def getInstance():
-    '''public static MaxQueueCache getInstance()
-    '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getQueueConfig():
-    '''public Map getQueueConfig()
-    public QueueConfig getQueueConfig(final String queueName)
+    '''returns QueueConfig\n\n
+    getQueueConfig()\n
+    getQueueConfig(final String queueName)\n
     '''
 def canCreateConnectionTo():
-    '''public void canCreateConnectionTo(final String queueName)
+    '''returns None\n\n
+    canCreateConnectionTo(final String queueName)\n
     '''

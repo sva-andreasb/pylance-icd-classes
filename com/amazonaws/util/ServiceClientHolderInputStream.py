@@ -1,3 +1,4 @@
-def ServiceClientHolderInputStream():
-    '''public ServiceClientHolderInputStream(final InputStream in, final AmazonWebServiceClient client)
+def ():
+    '''returns ServiceClientHolderInputStream\n\n
+    (final InputStream in, final AmazonWebServiceClient client)\n
     '''

@@ -1,9 +1,12 @@
-def TranscriptSearchManager():
-    '''public TranscriptSearchManager(final XMPPConnection connection)
+def ():
+    '''returns TranscriptSearchManager\n\n
+    (final XMPPConnection connection)\n
     '''
 def getSearchForm():
-    '''public Form getSearchForm(final DomainBareJid serviceJID)
+    '''returns Form\n\n
+    getSearchForm(final DomainBareJid serviceJID)\n
     '''
 def submitSearch():
-    '''public ReportedData submitSearch(final DomainBareJid serviceJID, final Form completedForm)
+    '''returns ReportedData\n\n
+    submitSearch(final DomainBareJid serviceJID, final Form completedForm)\n
     '''

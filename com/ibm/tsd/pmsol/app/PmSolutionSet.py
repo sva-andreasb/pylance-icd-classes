@@ -1,3 +1,4 @@
-def PmSolutionSet():
-    '''public PmSolutionSet(final MboServerInterface ms)
+def ():
+    '''returns PmSolutionSet\n\n
+    (final MboServerInterface ms)\n
     '''

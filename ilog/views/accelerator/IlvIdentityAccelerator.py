@@ -1,5 +1,6 @@
-def IlvIdentityAccelerator():
-    '''public IlvIdentityAccelerator(final int n, final int n2, final char c, final int n3, final boolean b)
-    public IlvIdentityAccelerator(final int n, final int n2, final int n3, final boolean b)
-    public IlvIdentityAccelerator(final int n, final int n2, final int n3)
+def ():
+    '''returns IlvIdentityAccelerator\n\n
+    (final int n, final int n2, final char c, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3)\n
     '''

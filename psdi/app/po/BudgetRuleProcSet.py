@@ -1,3 +1,4 @@
-def BudgetRuleProcSet():
-    '''public BudgetRuleProcSet(final MboServerInterface ms)
+def ():
+    '''returns BudgetRuleProcSet\n\n
+    (final MboServerInterface ms)\n
     '''

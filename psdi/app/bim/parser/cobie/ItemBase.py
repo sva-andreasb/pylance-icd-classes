@@ -1,162 +1,200 @@
-def ItemBase():
-    '''public ItemBase()
+def ():
+    '''returns ItemBase\n\n
+    ()\n
     '''
 def isDuplicat():
-    '''public boolean isDuplicat(final Parser parser, final Item item)
+    '''returns boolean\n\n
+    isDuplicat(final Parser parser, final Item item)\n
     '''
 def update():
-    '''public void update(final Item item)
+    '''returns None\n\n
+    update(final Item item)\n
     '''
 def categoryFromAttribute():
-    '''public boolean categoryFromAttribute(final String omniClassAttribute)
+    '''returns boolean\n\n
+    categoryFromAttribute(final String omniClassAttribute)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final ItemATTRIBUTE attrib)
+    '''returns None\n\n
+    addAttribute(final ItemATTRIBUTE attrib)\n
     '''
 def getAttribute():
-    '''public ItemATTRIBUTE getAttribute(final String name)
+    '''returns ItemATTRIBUTE\n\n
+    getAttribute(final String name)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String name)
+    '''returns None\n\n
+    removeAttribute(final String name)\n
     '''
 def attributes():
-    '''public Enumeration<ItemATTRIBUTE> attributes()
+    '''returns Enumeration<ItemATTRIBUTE>\n\n
+    attributes()\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getCategory():
-    '''public String getCategory()
+    '''returns String\n\n
+    getCategory()\n
     '''
 def setCategory():
-    '''public void setCategory(String category)
+    '''returns None\n\n
+    setCategory(String category)\n
     '''
 def getCreatedBy():
-    '''public String getCreatedBy()
+    '''returns String\n\n
+    getCreatedBy()\n
     '''
 def setCreatedBy():
-    '''public void setCreatedBy(final String createdBy)
+    '''returns None\n\n
+    setCreatedBy(final String createdBy)\n
     '''
 def getCreatedOn():
-    '''public String getCreatedOn()
+    '''returns String\n\n
+    getCreatedOn()\n
     '''
 def setCreatedOn():
-    '''public void setCreatedOn(final String createdOn)
+    '''returns None\n\n
+    setCreatedOn(final String createdOn)\n
     '''
 def setCreatingContact():
-    '''public void setCreatingContact(final ItemCONTACT contact)
+    '''returns None\n\n
+    setCreatingContact(final ItemCONTACT contact)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getDocument():
-    '''public ItemDOCUMENT getDocument(final String name)
+    '''returns ItemDOCUMENT\n\n
+    getDocument(final String name)\n
     '''
 def removeDocument():
-    '''public void removeDocument(final String name)
+    '''returns None\n\n
+    removeDocument(final String name)\n
     '''
 def documents():
-    '''public Enumeration<ItemDOCUMENT> documents()
+    '''returns Enumeration<ItemDOCUMENT>\n\n
+    documents()\n
     '''
 def getExtIdentifier():
-    '''public String getExtIdentifier()
+    '''returns String\n\n
+    getExtIdentifier()\n
     '''
 def getExternalIdentifier():
-    '''public String getExternalIdentifier()
+    '''returns String\n\n
+    getExternalIdentifier()\n
     '''
 def getFacilityReference():
-    '''public ItemFACILITY getFacilityReference()
+    '''returns ItemFACILITY\n\n
+    getFacilityReference()\n
     '''
 def setExtIdentifier():
-    '''public void setExtIdentifier(final String extIdentifier)
+    '''returns None\n\n
+    setExtIdentifier(final String extIdentifier)\n
     '''
 def getExtSystem():
-    '''public String getExtSystem()
+    '''returns String\n\n
+    getExtSystem()\n
     '''
 def getExternalSystem():
-    '''public String getExternalSystem()
+    '''returns String\n\n
+    getExternalSystem()\n
     '''
 def setExtSystem():
-    '''public void setExtSystem(final String extSystem)
+    '''returns None\n\n
+    setExtSystem(final String extSystem)\n
     '''
 def setFacilityReference():
-    '''public void setFacilityReference(final ItemFACILITY facilityRef)
+    '''returns None\n\n
+    setFacilityReference(final ItemFACILITY facilityRef)\n
     '''
 def getExtObject():
-    '''public String getExtObject()
+    '''returns String\n\n
+    getExtObject()\n
     '''
 def getExternalObject():
-    '''public String getExternalObject()
+    '''returns String\n\n
+    getExternalObject()\n
     '''
 def setExtObject():
-    '''public void setExtObject(final String extObject)
+    '''returns None\n\n
+    setExtObject(final String extObject)\n
     '''
 def setGuidConversionFlag():
-    '''public void setGuidConversionFlag(final boolean convert)
+    '''returns None\n\n
+    setGuidConversionFlag(final boolean convert)\n
     '''
 def setUniqueIdConversionFlag():
-    '''public void setUniqueIdConversionFlag(final boolean convert)
+    '''returns None\n\n
+    setUniqueIdConversionFlag(final boolean convert)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def isMatch():
-    '''public boolean isMatch()
+    '''returns boolean\n\n
+    isMatch()\n
     '''
 def setMatch():
-    '''public void setMatch(final boolean match)
+    '''returns None\n\n
+    setMatch(final boolean match)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getParentRef():
-    '''public ItemBase getParentRef()
+    '''returns ItemBase\n\n
+    getParentRef()\n
     '''
 def getSourceFile():
-    '''public String getSourceFile()
+    '''returns String\n\n
+    getSourceFile()\n
     '''
 def getUniqueId():
-    '''public String getUniqueId()
+    '''returns String\n\n
+    getUniqueId()\n
     '''
 def setSourceFile():
-    '''public void setSourceFile(final String sourceFile)
+    '''returns None\n\n
+    setSourceFile(final String sourceFile)\n
     '''
 def setUniqueId():
-    '''public void setUniqueId(final String uniqueId)
+    '''returns None\n\n
+    setUniqueId(final String uniqueId)\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def resolveFacilityRef():
-    '''public ItemFACILITY resolveFacilityRef(final Parser project)
+    '''returns ItemFACILITY\n\n
+    resolveFacilityRef(final Parser project)\n
     '''
 def skip():
-    '''public boolean skip(final Parser parser, final long flags)
+    '''returns boolean\n\n
+    skip(final Parser parser, final long flags)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def valueHasContent():
-    '''public boolean valueHasContent(final String value)
+    '''returns boolean\n\n
+    valueHasContent(final String value)\n
     '''
 def export():
-    '''public void export(final Exporter exporter)
-    '''
-def isStringGUID():
-    '''public static boolean isStringGUID(final String value)
-    '''
-def isStringReviUID():
-    '''public static boolean isStringReviUID(final String value)
-    '''
-def base64toGUID():
-    '''public static String base64toGUID(final String base64)
-    '''
-def reviUIDroExportGUID():
-    '''public static String reviUIDroExportGUID(final String uniqueId)
+    '''returns None\n\n
+    export(final Exporter exporter)\n
     '''

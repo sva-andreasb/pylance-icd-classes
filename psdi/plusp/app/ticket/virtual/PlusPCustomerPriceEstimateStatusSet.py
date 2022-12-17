@@ -1,3 +1,4 @@
-def PlusPCustomerPriceEstimateStatusSet():
-    '''public PlusPCustomerPriceEstimateStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustomerPriceEstimateStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

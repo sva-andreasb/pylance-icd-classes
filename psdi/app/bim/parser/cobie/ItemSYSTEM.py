@@ -1,21 +1,28 @@
-def ItemSYSTEM():
-    '''public ItemSYSTEM()
+def ():
+    '''returns ItemSYSTEM\n\n
+    ()\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def addComponent():
-    '''public void addComponent(final ItemCOMPONENT component)
+    '''returns None\n\n
+    addComponent(final ItemCOMPONENT component)\n
     '''
 def getComponentNames():
-    '''public String getComponentNames()
+    '''returns String\n\n
+    getComponentNames()\n
     '''
 def setComponentNames():
-    '''public void setComponentNames(String componentNames)
+    '''returns None\n\n
+    setComponentNames(String componentNames)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

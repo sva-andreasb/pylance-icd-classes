@@ -1,3 +1,4 @@
-def AncestorAxisIterator():
-    '''public AncestorAxisIterator(final Object contextNode, final Navigator navigator)
+def ():
+    '''returns AncestorAxisIterator\n\n
+    (final Object contextNode, final Navigator navigator)\n
     '''

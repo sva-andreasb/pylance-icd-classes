@@ -3,28 +3,36 @@ DELETE = "int  2"
 MODIFY = "int  4"
 MODDN = "int  8"
 ANY = "int  15"
-def LDAPPersistSearchControl():
-    '''public LDAPPersistSearchControl()
-    public LDAPPersistSearchControl(final int changeTypes, final boolean changesOnly, final boolean returnControls, final boolean b)
+def ():
+    '''returns LDAPPersistSearchControl\n\n
+    ()\n
+    (final int changeTypes, final boolean changesOnly, final boolean returnControls, final boolean b)\n
     '''
 def getChangeTypes():
-    '''public int getChangeTypes()
+    '''returns int\n\n
+    getChangeTypes()\n
     '''
 def setChangeTypes():
-    '''public void setChangeTypes(final int changeTypes)
+    '''returns None\n\n
+    setChangeTypes(final int changeTypes)\n
     '''
 def getReturnControls():
-    '''public boolean getReturnControls()
+    '''returns boolean\n\n
+    getReturnControls()\n
     '''
 def setReturnControls():
-    '''public void setReturnControls(final boolean returnControls)
+    '''returns None\n\n
+    setReturnControls(final boolean returnControls)\n
     '''
 def getChangesOnly():
-    '''public boolean getChangesOnly()
+    '''returns boolean\n\n
+    getChangesOnly()\n
     '''
 def setChangesOnly():
-    '''public void setChangesOnly(final boolean changesOnly)
+    '''returns None\n\n
+    setChangesOnly(final boolean changesOnly)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

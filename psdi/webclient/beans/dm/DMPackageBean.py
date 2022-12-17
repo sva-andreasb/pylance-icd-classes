@@ -1,36 +1,48 @@
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
     '''
 def addpackage():
-    '''public int addpackage()
+    '''returns int\n\n
+    addpackage()\n
     '''
 def completedeploy():
-    '''public int completedeploy()
+    '''returns int\n\n
+    completedeploy()\n
     '''
 def redistributePkg():
-    '''public int redistributePkg()
+    '''returns int\n\n
+    redistributePkg()\n
     '''
 def distributePkg():
-    '''public int distributePkg()
+    '''returns int\n\n
+    distributePkg()\n
     '''
 def closePkg():
-    '''public int closePkg()
+    '''returns int\n\n
+    closePkg()\n
     '''
 def downloadpkg():
-    '''public int downloadpkg()
+    '''returns int\n\n
+    downloadpkg()\n
     '''
 def continueCreatePackage():
-    '''public int continueCreatePackage()
+    '''returns int\n\n
+    continueCreatePackage()\n
     '''
 def contDistributePkg():
-    '''public int contDistributePkg()
+    '''returns int\n\n
+    contDistributePkg()\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''
 def downloadpreview():
-    '''public int downloadpreview()
+    '''returns int\n\n
+    downloadpreview()\n
     '''
 def downloadscript():
-    '''public int downloadscript()
+    '''returns int\n\n
+    downloadscript()\n
     '''

@@ -1,61 +1,73 @@
-def ApiServerWorker():
-    '''public ApiServerWorker(final TopologyManagerFactory topologyManagerFactory, final ApiProps apiProps)
-    public ApiServerWorker(final TopologyManagerFactory topologyManagerFactory, final TopologyBuilderFactory topologyBuilderFactory, final ApiProps props)
-    '''
-def registerLocale():
-    '''public static void registerLocale(final String sessionId, final Locale locale)
-    '''
-def unregisterLocale():
-    '''public static void unregisterLocale(final String sessionId)
+def ():
+    '''returns ApiServerWorker\n\n
+    (final TopologyManagerFactory topologyManagerFactory, final ApiProps apiProps)\n
+    (final TopologyManagerFactory topologyManagerFactory, final TopologyBuilderFactory topologyBuilderFactory, final ApiProps props)\n
     '''
 def login():
-    '''public String login(final ApiServerBean bean, final String user, final String password, final String clientIp, final long version)
+    '''returns String\n\n
+    login(final ApiServerBean bean, final String user, final String password, final String clientIp, final long version)\n
     '''
 def logout():
-    '''public void logout(final ApiServerBean bean, final String sessionId)
+    '''returns None\n\n
+    logout(final ApiServerBean bean, final String sessionId)\n
     '''
 def getTopLevelClasses():
-    '''public ArrayList getTopLevelClasses(final ApiServerBean bean, final String sessionId)
+    '''returns ArrayList\n\n
+    getTopLevelClasses(final ApiServerBean bean, final String sessionId)\n
     '''
 def getClassNames():
-    '''public String[] getClassNames(final String sessionId)
+    '''returns String[]\n\n
+    getClassNames(final String sessionId)\n
     '''
 def isBusinessService():
-    '''public boolean isBusinessService(final ModelObject mo)
+    '''returns boolean\n\n
+    isBusinessService(final ModelObject mo)\n
     '''
 def isApplication():
-    '''public boolean isApplication(final ModelObject mo)
+    '''returns boolean\n\n
+    isApplication(final ModelObject mo)\n
     '''
 def beginTransaction():
-    '''public void beginTransaction(final ApiServerBean bean, final String sessionId, final int timeout)
+    '''returns None\n\n
+    beginTransaction(final ApiServerBean bean, final String sessionId, final int timeout)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def commitTransaction():
-    '''public void commitTransaction(final ApiServerBean bean, final String sessionId)
+    '''returns None\n\n
+    commitTransaction(final ApiServerBean bean, final String sessionId)\n
     '''
 def rollback():
-    '''public void rollback(final ApiServerBean bean, final String sessionId)
+    '''returns None\n\n
+    rollback(final ApiServerBean bean, final String sessionId)\n
     '''
 def getMetaData():
-    '''public ObjectClass getMetaData(final String className, final boolean flatten)
+    '''returns ObjectClass\n\n
+    getMetaData(final String className, final boolean flatten)\n
     '''
 def getInventorySummary():
-    '''public String getInventorySummary(final boolean cached, final String fileName)
+    '''returns String\n\n
+    getInventorySummary(final boolean cached, final String fileName)\n
     '''
 def getAllMeta():
-    '''public ObjectClass[] getAllMeta(final boolean flatten)
+    '''returns ObjectClass[]\n\n
+    getAllMeta(final boolean flatten)\n
     '''
 def getUser():
-    '''public String getUser(final ApiServerBean bean, final String sessionId)
+    '''returns String\n\n
+    getUser(final ApiServerBean bean, final String sessionId)\n
     '''
 def startBulkload():
-    '''public long startBulkload(final long timeout)
+    '''returns long\n\n
+    startBulkload(final long timeout)\n
     '''
 def setBulkloadId():
-    '''public void setBulkloadId(final long bulkloadId)
+    '''returns None\n\n
+    setBulkloadId(final long bulkloadId)\n
     '''
 def endBulkload():
-    '''public void endBulkload(final long transactionId)
+    '''returns None\n\n
+    endBulkload(final long transactionId)\n
     '''

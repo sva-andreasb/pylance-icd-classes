@@ -3,37 +3,44 @@ GAP = "String  \"gap\""
 _LABEL = "String  \"_label\""
 TENSION = "String  \"tension\""
 LABEL_OFFSET = "String  \"labelOffset\""
-def ChartType():
-    '''public ChartType()
+def ():
+    '''returns ChartType\n\n
+    ()\n
     '''
 def setGap():
-    '''public void setGap(final int i)
+    '''returns None\n\n
+    setGap(final int i)\n
     '''
 def getGap():
-    '''public Integer getGap()
+    '''returns Integer\n\n
+    getGap()\n
     '''
 def setType():
-    '''public void setType(final ChartTypes type)
-    public void setType(final String type)
+    '''returns None\n\n
+    setType(final ChartTypes type)\n
+    setType(final String type)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setTension():
-    '''public void setTension(final String ten)
+    '''returns None\n\n
+    setTension(final String ten)\n
     '''
 def setLabelOffset():
-    '''public void setLabelOffset(final int off)
+    '''returns None\n\n
+    setLabelOffset(final int off)\n
     '''
 def getLabelOffset():
-    '''public int getLabelOffset()
-    '''
-def fromString():
-    '''public static ChartTypes fromString(final String chart)
+    '''returns int\n\n
+    getLabelOffset()\n
     '''

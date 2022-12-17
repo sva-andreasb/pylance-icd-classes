@@ -1,4 +1,5 @@
-def VpkMsgMultiSendOnCnls():
-    '''public VpkMsgMultiSendOnCnls(final int[] array, final short v, final byte[] array2)
-    public VpkMsgMultiSendOnCnls(final Vector vector, final byte[] b)
+def ():
+    '''returns VpkMsgMultiSendOnCnls\n\n
+    (final int[] array, final short v, final byte[] array2)\n
+    (final Vector vector, final byte[] b)\n
     '''

@@ -1,6 +1,8 @@
-def MalformedContainmentPathException():
-    '''public MalformedContainmentPathException(final String path, final String problematicSection)
+def ():
+    '''returns MalformedContainmentPathException\n\n
+    (final String path, final String problematicSection)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

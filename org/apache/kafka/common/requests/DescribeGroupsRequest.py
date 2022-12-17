@@ -1,24 +1,21 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DescribeGroupsRequest():
-    '''public DescribeGroupsRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final List<String> groupIds)\n
     '''
 def groupIds():
-    '''public List<String> groupIds()
+    '''returns List<String>\n\n
+    groupIds()\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static DescribeGroupsRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final List<String> groupIds)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def build():
-    '''public DescribeGroupsRequest build(final short version)
+    '''returns DescribeGroupsRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,4 +1,5 @@
-def InvalidClientIdException():
-    '''public InvalidClientIdException(final Object[] params, final OperationException e)
-    public InvalidClientIdException(final String clientId)
+def ():
+    '''returns InvalidClientIdException\n\n
+    (final Object[] params, final OperationException e)\n
+    (final String clientId)\n
     '''

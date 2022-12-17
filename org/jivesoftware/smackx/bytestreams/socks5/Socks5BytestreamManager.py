@@ -1,45 +1,51 @@
-def getBytestreamManager():
-    '''public static synchronized Socks5BytestreamManager getBytestreamManager(final XMPPConnection connection)
-    '''
 def addIncomingBytestreamListener():
-    '''public void addIncomingBytestreamListener(final BytestreamListener listener)
-    public void addIncomingBytestreamListener(final BytestreamListener listener, final Jid initiatorJID)
+    '''returns None\n\n
+    addIncomingBytestreamListener(final BytestreamListener listener)\n
+    addIncomingBytestreamListener(final BytestreamListener listener, final Jid initiatorJID)\n
     '''
 def removeIncomingBytestreamListener():
-    '''public void removeIncomingBytestreamListener(final BytestreamListener listener)
-    public void removeIncomingBytestreamListener(final Jid initiatorJID)
+    '''returns None\n\n
+    removeIncomingBytestreamListener(final BytestreamListener listener)\n
+    removeIncomingBytestreamListener(final Jid initiatorJID)\n
     '''
 def ignoreBytestreamRequestOnce():
-    '''public void ignoreBytestreamRequestOnce(final String sessionID)
-    '''
-def disableService():
-    '''public synchronized void disableService()
+    '''returns None\n\n
+    ignoreBytestreamRequestOnce(final String sessionID)\n
     '''
 def getTargetResponseTimeout():
-    '''public int getTargetResponseTimeout()
+    '''returns int\n\n
+    getTargetResponseTimeout()\n
     '''
 def setTargetResponseTimeout():
-    '''public void setTargetResponseTimeout(final int targetResponseTimeout)
+    '''returns None\n\n
+    setTargetResponseTimeout(final int targetResponseTimeout)\n
     '''
 def getProxyConnectionTimeout():
-    '''public int getProxyConnectionTimeout()
+    '''returns int\n\n
+    getProxyConnectionTimeout()\n
     '''
 def setProxyConnectionTimeout():
-    '''public void setProxyConnectionTimeout(final int proxyConnectionTimeout)
+    '''returns None\n\n
+    setProxyConnectionTimeout(final int proxyConnectionTimeout)\n
     '''
 def isProxyPrioritizationEnabled():
-    '''public boolean isProxyPrioritizationEnabled()
+    '''returns boolean\n\n
+    isProxyPrioritizationEnabled()\n
     '''
 def setProxyPrioritizationEnabled():
-    '''public void setProxyPrioritizationEnabled(final boolean proxyPrioritizationEnabled)
+    '''returns None\n\n
+    setProxyPrioritizationEnabled(final boolean proxyPrioritizationEnabled)\n
     '''
 def establishSession():
-    '''public Socks5BytestreamSession establishSession(final Jid targetJID)
-    public Socks5BytestreamSession establishSession(final Jid targetJID, final String sessionID)
+    '''returns Socks5BytestreamSession\n\n
+    establishSession(final Jid targetJID)\n
+    establishSession(final Jid targetJID, final String sessionID)\n
     '''
 def determineProxies():
-    '''public List<Jid> determineProxies()
+    '''returns List<Jid>\n\n
+    determineProxies()\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

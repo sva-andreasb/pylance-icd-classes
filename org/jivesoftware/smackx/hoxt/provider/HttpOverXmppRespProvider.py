@@ -1,3 +1,4 @@
 def parse():
-    '''public HttpOverXmppResp parse(final XmlPullParser parser, final int initialDepth)
+    '''returns HttpOverXmppResp\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

@@ -1,6 +1,7 @@
-def TSDException():
-    '''public TSDException(final TSDMessage message, final Object[] params, final Throwable cause)
-    public TSDException(final TSDMessage message, final Object[] params)
-    public TSDException(final TSDMessage message, final Throwable cause)
-    public TSDException(final TSDMessage message)
+def ():
+    '''returns TSDException\n\n
+    (final TSDMessage message, final Object[] params, final Throwable cause)\n
+    (final TSDMessage message, final Object[] params)\n
+    (final TSDMessage message, final Throwable cause)\n
+    (final TSDMessage message)\n
     '''

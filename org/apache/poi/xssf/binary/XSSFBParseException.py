@@ -1,3 +1,4 @@
-def XSSFBParseException():
-    '''public XSSFBParseException(final String msg)
+def ():
+    '''returns XSSFBParseException\n\n
+    (final String msg)\n
     '''

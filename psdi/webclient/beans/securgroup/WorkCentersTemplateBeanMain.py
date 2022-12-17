@@ -1,12 +1,12 @@
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-    '''
 def applytemplate():
-    '''public int applytemplate()
+    '''returns int\n\n
+    applytemplate()\n
     '''
 def duplicate():
-    '''public int duplicate()
+    '''returns int\n\n
+    duplicate()\n
     '''
 def cancelduplicate():
-    '''public int cancelduplicate()
+    '''returns int\n\n
+    cancelduplicate()\n
     '''

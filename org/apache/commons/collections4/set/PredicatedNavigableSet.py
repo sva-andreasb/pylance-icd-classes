@@ -1,36 +1,44 @@
-def predicatedNavigableSet():
-    '''public static <E> PredicatedNavigableSet<E> predicatedNavigableSet(final NavigableSet<E> set, final Predicate<? super E> predicate)
-    '''
 def lower():
-    '''public E lower(final E e)
+    '''returns E\n\n
+    lower(final E e)\n
     '''
 def floor():
-    '''public E floor(final E e)
+    '''returns E\n\n
+    floor(final E e)\n
     '''
 def ceiling():
-    '''public E ceiling(final E e)
+    '''returns E\n\n
+    ceiling(final E e)\n
     '''
 def higher():
-    '''public E higher(final E e)
+    '''returns E\n\n
+    higher(final E e)\n
     '''
 def pollFirst():
-    '''public E pollFirst()
+    '''returns E\n\n
+    pollFirst()\n
     '''
 def pollLast():
-    '''public E pollLast()
+    '''returns E\n\n
+    pollLast()\n
     '''
 def descendingSet():
-    '''public NavigableSet<E> descendingSet()
+    '''returns NavigableSet<E>\n\n
+    descendingSet()\n
     '''
 def descendingIterator():
-    '''public Iterator<E> descendingIterator()
+    '''returns Iterator<E>\n\n
+    descendingIterator()\n
     '''
 def subSet():
-    '''public NavigableSet<E> subSet(final E fromElement, final boolean fromInclusive, final E toElement, final boolean toInclusive)
+    '''returns NavigableSet<E>\n\n
+    subSet(final E fromElement, final boolean fromInclusive, final E toElement, final boolean toInclusive)\n
     '''
 def headSet():
-    '''public NavigableSet<E> headSet(final E toElement, final boolean inclusive)
+    '''returns NavigableSet<E>\n\n
+    headSet(final E toElement, final boolean inclusive)\n
     '''
 def tailSet():
-    '''public NavigableSet<E> tailSet(final E fromElement, final boolean inclusive)
+    '''returns NavigableSet<E>\n\n
+    tailSet(final E fromElement, final boolean inclusive)\n
     '''

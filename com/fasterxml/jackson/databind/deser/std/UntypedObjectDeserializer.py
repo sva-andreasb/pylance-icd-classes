@@ -1,31 +1,32 @@
-def UntypedObjectDeserializer():
-    '''public UntypedObjectDeserializer()
-    public UntypedObjectDeserializer(final JavaType listType, final JavaType mapType)
-    public UntypedObjectDeserializer(final UntypedObjectDeserializer base, final JsonDeserializer<?> mapDeser, final JsonDeserializer<?> listDeser, final JsonDeserializer<?> stringDeser, final JsonDeserializer<?> numberDeser)
+def ():
+    '''returns Vanilla\n\n
+    ()\n
+    (final JavaType listType, final JavaType mapType)\n
+    (final UntypedObjectDeserializer base, final JsonDeserializer<?> mapDeser, final JsonDeserializer<?> listDeser, final JsonDeserializer<?> stringDeser, final JsonDeserializer<?> numberDeser)\n
+    ()\n
     '''
 def resolve():
-    '''public void resolve(final DeserializationContext ctxt)
+    '''returns None\n\n
+    resolve(final DeserializationContext ctxt)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
-    public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''
 def deserialize():
-    '''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public Object deserialize(final JsonParser p, final DeserializationContext ctxt, final Object intoValue)
-    public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public Object deserialize(final JsonParser p, final DeserializationContext ctxt, final Object intoValue)
+    '''returns Object\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final Object intoValue)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final Object intoValue)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
-    public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
-    '''
-def Vanilla():
-    '''public Vanilla()
-    '''
-def instance():
-    '''public static Vanilla instance(final boolean nonMerging)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''

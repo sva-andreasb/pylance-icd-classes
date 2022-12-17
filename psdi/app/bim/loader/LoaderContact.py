@@ -1,24 +1,32 @@
-def LoaderContact():
-    '''public LoaderContact(final ModelLoaderBase loader)
+def ():
+    '''returns LoaderContact\n\n
+    (final ModelLoaderBase loader)\n
     '''
 def canProcessItem():
-    '''public boolean canProcessItem(final ItemCONTACT contact)
+    '''returns boolean\n\n
+    canProcessItem(final ItemCONTACT contact)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemCONTACT contact, final MboSetRemote personSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemCONTACT contact, final MboSetRemote personSet)\n
     '''
 def addItem():
-    '''public MboRemote addItem(final ItemCONTACT contact, final MboSetRemote personSet)
+    '''returns MboRemote\n\n
+    addItem(final ItemCONTACT contact, final MboSetRemote personSet)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo, final ItemCONTACT contact)
+    '''returns None\n\n
+    update(final MboRemote mbo, final ItemCONTACT contact)\n
     '''
 def validateItem():
-    '''public void validateItem(final ItemCONTACT contact, final MboSetRemote mboSet)
+    '''returns None\n\n
+    validateItem(final ItemCONTACT contact, final MboSetRemote mboSet)\n
     '''
 def addAttributeValues():
-    '''public int addAttributeValues(final MboRemote mbo, final ItemCONTACT item)
+    '''returns int\n\n
+    addAttributeValues(final MboRemote mbo, final ItemCONTACT item)\n
     '''

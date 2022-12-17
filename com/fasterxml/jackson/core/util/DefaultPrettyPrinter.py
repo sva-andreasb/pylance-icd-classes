@@ -1,73 +1,95 @@
-def DefaultPrettyPrinter():
-    '''public DefaultPrettyPrinter()
-    public DefaultPrettyPrinter(final String rootSeparator)
-    public DefaultPrettyPrinter(final SerializableString rootSeparator)
-    public DefaultPrettyPrinter(final DefaultPrettyPrinter base)
-    public DefaultPrettyPrinter(final DefaultPrettyPrinter base, final SerializableString rootSeparator)
+def ():
+    '''returns DefaultPrettyPrinter\n\n
+    ()\n
+    (final String rootSeparator)\n
+    (final SerializableString rootSeparator)\n
+    (final DefaultPrettyPrinter base)\n
+    (final DefaultPrettyPrinter base, final SerializableString rootSeparator)\n
     '''
 def withRootSeparator():
-    '''public DefaultPrettyPrinter withRootSeparator(final SerializableString rootSeparator)
-    public DefaultPrettyPrinter withRootSeparator(final String rootSeparator)
+    '''returns DefaultPrettyPrinter\n\n
+    withRootSeparator(final SerializableString rootSeparator)\n
+    withRootSeparator(final String rootSeparator)\n
     '''
 def indentArraysWith():
-    '''public void indentArraysWith(final Indenter i)
+    '''returns None\n\n
+    indentArraysWith(final Indenter i)\n
     '''
 def indentObjectsWith():
-    '''public void indentObjectsWith(final Indenter i)
+    '''returns None\n\n
+    indentObjectsWith(final Indenter i)\n
     '''
 def withArrayIndenter():
-    '''public DefaultPrettyPrinter withArrayIndenter(Indenter i)
+    '''returns DefaultPrettyPrinter\n\n
+    withArrayIndenter(Indenter i)\n
     '''
 def withObjectIndenter():
-    '''public DefaultPrettyPrinter withObjectIndenter(Indenter i)
+    '''returns DefaultPrettyPrinter\n\n
+    withObjectIndenter(Indenter i)\n
     '''
 def withSpacesInObjectEntries():
-    '''public DefaultPrettyPrinter withSpacesInObjectEntries()
+    '''returns DefaultPrettyPrinter\n\n
+    withSpacesInObjectEntries()\n
     '''
 def withoutSpacesInObjectEntries():
-    '''public DefaultPrettyPrinter withoutSpacesInObjectEntries()
+    '''returns DefaultPrettyPrinter\n\n
+    withoutSpacesInObjectEntries()\n
     '''
 def withSeparators():
-    '''public DefaultPrettyPrinter withSeparators(final Separators separators)
+    '''returns DefaultPrettyPrinter\n\n
+    withSeparators(final Separators separators)\n
     '''
 def createInstance():
-    '''public DefaultPrettyPrinter createInstance()
+    '''returns DefaultPrettyPrinter\n\n
+    createInstance()\n
     '''
 def writeRootValueSeparator():
-    '''public void writeRootValueSeparator(final JsonGenerator g)
+    '''returns None\n\n
+    writeRootValueSeparator(final JsonGenerator g)\n
     '''
 def writeStartObject():
-    '''public void writeStartObject(final JsonGenerator g)
+    '''returns None\n\n
+    writeStartObject(final JsonGenerator g)\n
     '''
 def beforeObjectEntries():
-    '''public void beforeObjectEntries(final JsonGenerator g)
+    '''returns None\n\n
+    beforeObjectEntries(final JsonGenerator g)\n
     '''
 def writeObjectFieldValueSeparator():
-    '''public void writeObjectFieldValueSeparator(final JsonGenerator g)
+    '''returns None\n\n
+    writeObjectFieldValueSeparator(final JsonGenerator g)\n
     '''
 def writeObjectEntrySeparator():
-    '''public void writeObjectEntrySeparator(final JsonGenerator g)
+    '''returns None\n\n
+    writeObjectEntrySeparator(final JsonGenerator g)\n
     '''
 def writeEndObject():
-    '''public void writeEndObject(final JsonGenerator g, final int nrOfEntries)
+    '''returns None\n\n
+    writeEndObject(final JsonGenerator g, final int nrOfEntries)\n
     '''
 def writeStartArray():
-    '''public void writeStartArray(final JsonGenerator g)
+    '''returns None\n\n
+    writeStartArray(final JsonGenerator g)\n
     '''
 def beforeArrayValues():
-    '''public void beforeArrayValues(final JsonGenerator g)
+    '''returns None\n\n
+    beforeArrayValues(final JsonGenerator g)\n
     '''
 def writeArrayValueSeparator():
-    '''public void writeArrayValueSeparator(final JsonGenerator g)
+    '''returns None\n\n
+    writeArrayValueSeparator(final JsonGenerator g)\n
     '''
 def writeEndArray():
-    '''public void writeEndArray(final JsonGenerator g, final int nrOfValues)
+    '''returns None\n\n
+    writeEndArray(final JsonGenerator g, final int nrOfValues)\n
     '''
 def writeIndentation():
-    '''public void writeIndentation(final JsonGenerator g, final int level)
-    public void writeIndentation(final JsonGenerator g, final int level)
+    '''returns None\n\n
+    writeIndentation(final JsonGenerator g, final int level)\n
+    writeIndentation(final JsonGenerator g, final int level)\n
     '''
 def isInline():
-    '''public boolean isInline()
-    public boolean isInline()
+    '''returns boolean\n\n
+    isInline()\n
+    isInline()\n
     '''

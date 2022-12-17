@@ -1,6 +1,8 @@
-def FldJpAssetSpLinkWOReqWhenPurch():
-    '''public FldJpAssetSpLinkWOReqWhenPurch(final MboValue mbv)
+def ():
+    '''returns FldJpAssetSpLinkWOReqWhenPurch\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

@@ -1,129 +1,172 @@
 def setImmutable():
-    '''public void setImmutable()
+    '''returns None\n\n
+    setImmutable()\n
     '''
 def hasTransitionRules():
-    '''public boolean hasTransitionRules()
+    '''returns boolean\n\n
+    hasTransitionRules()\n
     '''
 def hasTransitionNotes():
-    '''public boolean hasTransitionNotes()
+    '''returns boolean\n\n
+    hasTransitionNotes()\n
     '''
 def setTransitionRules():
-    '''public void setTransitionRules(final QNameSet start, final boolean isSkippable)
+    '''returns None\n\n
+    setTransitionRules(final QNameSet start, final boolean isSkippable)\n
     '''
 def setTransitionNotes():
-    '''public void setTransitionNotes(final QNameSet excludeNext, final boolean isDeterministic)
+    '''returns None\n\n
+    setTransitionNotes(final QNameSet excludeNext, final boolean isDeterministic)\n
     '''
 def canStartWithElement():
-    '''public boolean canStartWithElement(final QName name)
+    '''returns boolean\n\n
+    canStartWithElement(final QName name)\n
     '''
 def acceptedStartNames():
-    '''public QNameSet acceptedStartNames()
+    '''returns QNameSet\n\n
+    acceptedStartNames()\n
     '''
 def getExcludeNextSet():
-    '''public QNameSet getExcludeNextSet()
+    '''returns QNameSet\n\n
+    getExcludeNextSet()\n
     '''
 def isSkippable():
-    '''public boolean isSkippable()
+    '''returns boolean\n\n
+    isSkippable()\n
     '''
 def isDeterministic():
-    '''public boolean isDeterministic()
+    '''returns boolean\n\n
+    isDeterministic()\n
     '''
 def getParticleType():
-    '''public int getParticleType()
+    '''returns int\n\n
+    getParticleType()\n
     '''
 def setParticleType():
-    '''public void setParticleType(final int pType)
+    '''returns None\n\n
+    setParticleType(final int pType)\n
     '''
 def isSingleton():
-    '''public boolean isSingleton()
+    '''returns boolean\n\n
+    isSingleton()\n
     '''
 def getMinOccurs():
-    '''public BigInteger getMinOccurs()
+    '''returns BigInteger\n\n
+    getMinOccurs()\n
     '''
 def setMinOccurs():
-    '''public void setMinOccurs(final BigInteger min)
+    '''returns None\n\n
+    setMinOccurs(final BigInteger min)\n
     '''
 def getIntMinOccurs():
-    '''public int getIntMinOccurs()
+    '''returns int\n\n
+    getIntMinOccurs()\n
     '''
 def getMaxOccurs():
-    '''public BigInteger getMaxOccurs()
+    '''returns BigInteger\n\n
+    getMaxOccurs()\n
     '''
 def getIntMaxOccurs():
-    '''public int getIntMaxOccurs()
+    '''returns int\n\n
+    getIntMaxOccurs()\n
     '''
 def setMaxOccurs():
-    '''public void setMaxOccurs(final BigInteger max)
+    '''returns None\n\n
+    setMaxOccurs(final BigInteger max)\n
     '''
 def getParticleChildren():
-    '''public SchemaParticle[] getParticleChildren()
+    '''returns SchemaParticle[]\n\n
+    getParticleChildren()\n
     '''
 def setParticleChildren():
-    '''public void setParticleChildren(final SchemaParticle[] children)
+    '''returns None\n\n
+    setParticleChildren(final SchemaParticle[] children)\n
     '''
 def getParticleChild():
-    '''public SchemaParticle getParticleChild(final int i)
+    '''returns SchemaParticle\n\n
+    getParticleChild(final int i)\n
     '''
 def countOfParticleChild():
-    '''public int countOfParticleChild()
+    '''returns int\n\n
+    countOfParticleChild()\n
     '''
 def setWildcardSet():
-    '''public void setWildcardSet(final QNameSet set)
+    '''returns None\n\n
+    setWildcardSet(final QNameSet set)\n
     '''
 def getWildcardSet():
-    '''public QNameSet getWildcardSet()
+    '''returns QNameSet\n\n
+    getWildcardSet()\n
     '''
 def setWildcardProcess():
-    '''public void setWildcardProcess(final int process)
+    '''returns None\n\n
+    setWildcardProcess(final int process)\n
     '''
 def getWildcardProcess():
-    '''public int getWildcardProcess()
+    '''returns int\n\n
+    getWildcardProcess()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def setNameAndTypeRef():
-    '''public void setNameAndTypeRef(final QName formname, final SchemaType.Ref typeref)
+    '''returns None\n\n
+    setNameAndTypeRef(final QName formname, final SchemaType.Ref typeref)\n
     '''
 def isTypeResolved():
-    '''public boolean isTypeResolved()
+    '''returns boolean\n\n
+    isTypeResolved()\n
     '''
 def resolveTypeRef():
-    '''public void resolveTypeRef(final SchemaType.Ref typeref)
+    '''returns None\n\n
+    resolveTypeRef(final SchemaType.Ref typeref)\n
     '''
 def isAttribute():
-    '''public boolean isAttribute()
+    '''returns boolean\n\n
+    isAttribute()\n
     '''
 def getType():
-    '''public SchemaType getType()
+    '''returns SchemaType\n\n
+    getType()\n
     '''
 def getDefaultText():
-    '''public String getDefaultText()
+    '''returns String\n\n
+    getDefaultText()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def isFixed():
-    '''public boolean isFixed()
+    '''returns boolean\n\n
+    isFixed()\n
     '''
 def setDefault():
-    '''public void setDefault(final String deftext, final boolean isFixed, final XmlObject parseObject)
+    '''returns None\n\n
+    setDefault(final String deftext, final boolean isFixed, final XmlObject parseObject)\n
     '''
 def isNillable():
-    '''public boolean isNillable()
+    '''returns boolean\n\n
+    isNillable()\n
     '''
 def setNillable():
-    '''public void setNillable(final boolean nillable)
+    '''returns None\n\n
+    setNillable(final boolean nillable)\n
     '''
 def getDefaultValue():
-    '''public XmlAnySimpleType getDefaultValue()
+    '''returns XmlAnySimpleType\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final XmlValueRef defaultRef)
+    '''returns None\n\n
+    setDefaultValue(final XmlValueRef defaultRef)\n
     '''
 def getUserData():
-    '''public Object getUserData()
+    '''returns Object\n\n
+    getUserData()\n
     '''
 def setUserData():
-    '''public void setUserData(final Object data)
+    '''returns None\n\n
+    setUserData(final Object data)\n
     '''

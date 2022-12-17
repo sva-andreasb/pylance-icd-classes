@@ -1,130 +1,172 @@
-def XMLFragmentStreamReader():
-    '''public XMLFragmentStreamReader(final XMLStreamReader parent)
+def ():
+    '''returns XMLFragmentStreamReader\n\n
+    (final XMLStreamReader parent)\n
     '''
 def getEventType():
-    '''public int getEventType()
+    '''returns int\n\n
+    getEventType()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def nextTag():
-    '''public int nextTag()
+    '''returns int\n\n
+    nextTag()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def getCharacterEncodingScheme():
-    '''public String getCharacterEncodingScheme()
+    '''returns String\n\n
+    getCharacterEncodingScheme()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def isStandalone():
-    '''public boolean isStandalone()
+    '''returns boolean\n\n
+    isStandalone()\n
     '''
 def standaloneSet():
-    '''public boolean standaloneSet()
+    '''returns boolean\n\n
+    standaloneSet()\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getAttributeLocalName():
-    '''public String getAttributeLocalName(final int index)
+    '''returns String\n\n
+    getAttributeLocalName(final int index)\n
     '''
 def getAttributeName():
-    '''public QName getAttributeName(final int index)
+    '''returns QName\n\n
+    getAttributeName(final int index)\n
     '''
 def getAttributeNamespace():
-    '''public String getAttributeNamespace(final int index)
+    '''returns String\n\n
+    getAttributeNamespace(final int index)\n
     '''
 def getAttributePrefix():
-    '''public String getAttributePrefix(final int index)
+    '''returns String\n\n
+    getAttributePrefix(final int index)\n
     '''
 def getAttributeType():
-    '''public String getAttributeType(final int index)
+    '''returns String\n\n
+    getAttributeType(final int index)\n
     '''
 def getAttributeValue():
-    '''public String getAttributeValue(final int index)
-    public String getAttributeValue(final String namespaceURI, final String localName)
+    '''returns String\n\n
+    getAttributeValue(final int index)\n
+    getAttributeValue(final String namespaceURI, final String localName)\n
     '''
 def isAttributeSpecified():
-    '''public boolean isAttributeSpecified(final int index)
+    '''returns boolean\n\n
+    isAttributeSpecified(final int index)\n
     '''
 def getElementText():
-    '''public String getElementText()
+    '''returns String\n\n
+    getElementText()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
-    public String getNamespaceURI(final int index)
-    public String getNamespaceURI(final String prefix)
+    '''returns String\n\n
+    getNamespaceURI()\n
+    getNamespaceURI(final int index)\n
+    getNamespaceURI(final String prefix)\n
     '''
 def getNamespaceCount():
-    '''public int getNamespaceCount()
+    '''returns int\n\n
+    getNamespaceCount()\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final int index)
+    '''returns String\n\n
+    getNamespacePrefix(final int index)\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
     '''
 def getPIData():
-    '''public String getPIData()
+    '''returns String\n\n
+    getPIData()\n
     '''
 def getPITarget():
-    '''public String getPITarget()
+    '''returns String\n\n
+    getPITarget()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
-    public int getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)
+    '''returns int\n\n
+    getTextCharacters()\n
+    getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getTextStart():
-    '''public int getTextStart()
+    '''returns int\n\n
+    getTextStart()\n
     '''
 def hasName():
-    '''public boolean hasName()
+    '''returns boolean\n\n
+    hasName()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def hasText():
-    '''public boolean hasText()
+    '''returns boolean\n\n
+    hasText()\n
     '''
 def isCharacters():
-    '''public boolean isCharacters()
+    '''returns boolean\n\n
+    isCharacters()\n
     '''
 def isStartElement():
-    '''public boolean isStartElement()
+    '''returns boolean\n\n
+    isStartElement()\n
     '''
 def isEndElement():
-    '''public boolean isEndElement()
+    '''returns boolean\n\n
+    isEndElement()\n
     '''
 def isWhiteSpace():
-    '''public boolean isWhiteSpace()
+    '''returns boolean\n\n
+    isWhiteSpace()\n
     '''
 def require():
-    '''public void require(final int type, final String namespaceURI, final String localName)
+    '''returns None\n\n
+    require(final int type, final String namespaceURI, final String localName)\n
     '''

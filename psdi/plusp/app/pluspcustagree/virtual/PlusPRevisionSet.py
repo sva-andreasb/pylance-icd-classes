@@ -1,3 +1,4 @@
-def PlusPRevisionSet():
-    '''public PlusPRevisionSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPRevisionSet\n\n
+    (final MboServerInterface ms)\n
     '''

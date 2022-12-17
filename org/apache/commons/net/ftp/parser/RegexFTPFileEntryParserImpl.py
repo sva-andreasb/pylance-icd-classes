@@ -1,15 +1,20 @@
-def RegexFTPFileEntryParserImpl():
-    '''public RegexFTPFileEntryParserImpl(final String regex)
+def ():
+    '''returns RegexFTPFileEntryParserImpl\n\n
+    (final String regex)\n
     '''
 def matches():
-    '''public boolean matches(final String s)
+    '''returns boolean\n\n
+    matches(final String s)\n
     '''
 def getGroupCnt():
-    '''public int getGroupCnt()
+    '''returns int\n\n
+    getGroupCnt()\n
     '''
 def group():
-    '''public String group(final int matchnum)
+    '''returns String\n\n
+    group(final int matchnum)\n
     '''
 def getGroupsAsString():
-    '''public String getGroupsAsString()
+    '''returns String\n\n
+    getGroupsAsString()\n
     '''

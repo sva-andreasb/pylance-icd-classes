@@ -1,3 +1,4 @@
 def createProperties():
-    '''public List<EscherProperty> createProperties(final byte[] data, final int offset, final short numProperties)
+    '''returns List<EscherProperty>\n\n
+    createProperties(final byte[] data, final int offset, final short numProperties)\n
     '''

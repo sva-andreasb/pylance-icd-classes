@@ -1,44 +1,58 @@
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''
 def getMatchingAttr():
-    '''public String getMatchingAttr()
-    public String getMatchingAttr(final String sourceObjectName)
+    '''returns String\n\n
+    getMatchingAttr()\n
+    getMatchingAttr(final String sourceObjectName)\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFill(final String value, final boolean exact)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
-    public MboSetRemote smartFind(final String objectName, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
+    smartFind(final String objectName, final String value, final boolean exact)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final int type)
+    '''returns None\n\n
+    setType(final int type)\n
     '''

@@ -1,71 +1,63 @@
-def TextModel():
-    '''public TextModel()
+def ():
+    '''returns WordAnnotation\n\n
+    ()\n
+    ()\n
+    (final String lemma, final Gloss gloss)\n
     '''
 def createMWU():
-    '''public void createMWU(final int n, final int n2, final int n3, final Gloss gloss)
+    '''returns None\n\n
+    createMWU(final int n, final int n2, final int n3, final Gloss gloss)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def createStd():
-    '''public void createStd(final int n, final int sentenceBegin, final int n2, final GlossCollection collection)
+    '''returns None\n\n
+    createStd(final int n, final int sentenceBegin, final int n2, final GlossCollection collection)\n
     '''
 def createUnknown():
-    '''public void createUnknown(final int n, final int sentenceBegin, final int n2, final int n3)
+    '''returns None\n\n
+    createUnknown(final int n, final int sentenceBegin, final int n2, final int n3)\n
     '''
 def createBreakpoint():
-    '''public void createBreakpoint(final int n, final int n2, final int n3)
+    '''returns None\n\n
+    createBreakpoint(final int n, final int n2, final int n3)\n
     '''
 def createPunctuation():
-    '''public void createPunctuation(final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    createPunctuation(final int n, final int n2, final int n3, final int n4)\n
     '''
 def reset():
-    '''public void reset(final UniLexAnalyzer uniLexAnalyzer)
+    '''returns None\n\n
+    reset(final UniLexAnalyzer uniLexAnalyzer)\n
     '''
 def startGroup():
-    '''public int startGroup(final int n, final int n2, final int n3)
+    '''returns int\n\n
+    startGroup(final int n, final int n2, final int n3)\n
     '''
 def closeGroup():
-    '''public void closeGroup(final int n)
+    '''returns None\n\n
+    closeGroup(final int n)\n
     '''
 def fork():
-    '''public void fork()
+    '''returns None\n\n
+    fork()\n
     '''
 def addToFork():
-    '''public void addToFork()
+    '''returns None\n\n
+    addToFork()\n
     '''
 def mergeRoutes():
-    '''public void mergeRoutes(final int n)
-    '''
-def SentenceAnnotation():
-    '''public SentenceAnnotation()
+    '''returns None\n\n
+    mergeRoutes(final int n)\n
     '''
 def weight():
-    '''public void weight()
+    '''returns None\n\n
+    weight()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
-    public int compareTo(final Object o)
-    '''
-def getBegin():
-    '''public synchronized int getBegin()
-    '''
-def getEnd():
-    '''public synchronized int getEnd()
-    '''
-def getWeight():
-    '''public synchronized float getWeight()
-    public synchronized float getWeight()
-    '''
-def WordAnnotation():
-    '''public WordAnnotation(final String lemma, final Gloss gloss)
-    '''
-def getLemma():
-    '''public synchronized String getLemma()
-    '''
-def getNumRef():
-    '''public synchronized int getNumRef()
-    '''
-def getGloss():
-    '''public synchronized Gloss getGloss()
+    '''returns int\n\n
+    compareTo(final Object o)\n
+    compareTo(final Object o)\n
     '''

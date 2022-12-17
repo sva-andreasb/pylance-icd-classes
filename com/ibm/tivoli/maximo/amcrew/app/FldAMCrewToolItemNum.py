@@ -1,6 +1,8 @@
-def FldAMCrewToolItemNum():
-    '''public FldAMCrewToolItemNum(final MboValue mbv)
+def ():
+    '''returns FldAMCrewToolItemNum\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

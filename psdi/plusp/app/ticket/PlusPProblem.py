@@ -1,51 +1,68 @@
-def PlusPProblem():
-    '''public PlusPProblem(final MboSet arg0)
+def ():
+    '''returns PlusPProblem\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def warnAssociatedWithBillBatch():
-    '''public boolean warnAssociatedWithBillBatch()
+    '''returns boolean\n\n
+    warnAssociatedWithBillBatch()\n
     '''
 def resetAddressUserInput():
-    '''public void resetAddressUserInput()
+    '''returns None\n\n
+    resetAddressUserInput()\n
     '''
 def setStreetAddress():
-    '''public void setStreetAddress()
+    '''returns None\n\n
+    setStreetAddress()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def calculateTotals():
-    '''public void calculateTotals()
+    '''returns None\n\n
+    calculateTotals()\n
     '''
 def removePS():
-    '''public boolean removePS()
+    '''returns boolean\n\n
+    removePS()\n
     '''
 def recalculatePrices():
-    '''public void recalculatePrices(final MboRemote mboRemote)
+    '''returns None\n\n
+    recalculatePrices(final MboRemote mboRemote)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def hasBeenBilled():
-    '''public boolean hasBeenBilled()
+    '''returns boolean\n\n
+    hasBeenBilled()\n
     '''
 def createSolution():
-    '''public MboRemote createSolution()
+    '''returns MboRemote\n\n
+    createSolution()\n
     '''
 def setValue():
-    '''public void setValue(final String s, final String s2, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String s, final String s2, final long accessModifier)\n
     '''

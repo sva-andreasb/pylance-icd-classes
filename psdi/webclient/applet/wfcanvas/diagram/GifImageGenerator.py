@@ -1,3 +1,4 @@
 def makeGifImage():
-    '''public byte[] makeGifImage(final Image image)
+    '''returns byte[]\n\n
+    makeGifImage(final Image image)\n
     '''

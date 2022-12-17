@@ -1,3 +1,4 @@
-def PlusPCustAuthSet():
-    '''public PlusPCustAuthSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,19 +1,17 @@
 def array():
-    '''public byte[] array()
-    '''
-def wrap():
-    '''public static ByteBuffer wrap(final byte[] data)
+    '''returns byte[]\n\n
+    array()\n
     '''
 def limit():
-    '''public int limit()
+    '''returns int\n\n
+    limit()\n
     '''
 def remaining():
-    '''public int remaining()
+    '''returns int\n\n
+    remaining()\n
     '''
 def get():
-    '''public byte get()
-    public void get(final byte[] dst, int offset, final int length)
-    '''
-def allocate():
-    '''public static final ByteBuffer allocate(final int size)
+    '''returns None\n\n
+    get()\n
+    get(final byte[] dst, int offset, final int length)\n
     '''

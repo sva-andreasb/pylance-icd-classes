@@ -1,88 +1,117 @@
 def getProviderName():
-    '''public String getProviderName()
+    '''returns String\n\n
+    getProviderName()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def getPluginVersion():
-    '''public IlvPluginVersion getPluginVersion()
+    '''returns IlvPluginVersion\n\n
+    getPluginVersion()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def setApplication():
-    '''public void setApplication(final IlvApplication n)
+    '''returns None\n\n
+    setApplication(final IlvApplication n)\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def getDirectory():
-    '''public File getDirectory()
+    '''returns File\n\n
+    getDirectory()\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getNameKey():
-    '''public String getNameKey()
+    '''returns String\n\n
+    getNameKey()\n
     '''
 def getClassLoaders():
-    '''public ClassLoader[] getClassLoaders()
+    '''returns ClassLoader[]\n\n
+    getClassLoaders()\n
     '''
 def getURLResolver():
-    '''public IlvURLResolver getURLResolver()
+    '''returns IlvURLResolver\n\n
+    getURLResolver()\n
     '''
 def getResourceBundle():
-    '''public ResourceBundle getResourceBundle()
+    '''returns ResourceBundle\n\n
+    getResourceBundle()\n
     '''
 def getPropertyFileCount():
-    '''public int getPropertyFileCount()
+    '''returns int\n\n
+    getPropertyFileCount()\n
     '''
 def getPropertyFile():
-    '''public String getPropertyFile(final int n)
+    '''returns String\n\n
+    getPropertyFile(final int n)\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''
 def isInstalled():
-    '''public boolean isInstalled()
+    '''returns boolean\n\n
+    isInstalled()\n
     '''
 def getPlugin():
-    '''public IlvPlugin getPlugin(final String s)
-    public IlvPlugin getPlugin(final int n)
+    '''returns IlvPlugin\n\n
+    getPlugin(final String s)\n
+    getPlugin(final int n)\n
     '''
 def getPlugins():
-    '''public IlvPlugin[] getPlugins()
+    '''returns IlvPlugin[]\n\n
+    getPlugins()\n
     '''
 def getPluginCount():
-    '''public int getPluginCount()
+    '''returns int\n\n
+    getPluginCount()\n
     '''
 def getSettingsManager():
-    '''public IlvSettingsManager getSettingsManager()
+    '''returns IlvSettingsManager\n\n
+    getSettingsManager()\n
     '''
 def getParentPlugin():
-    '''public IlvPlugin getParentPlugin()
+    '''returns IlvPlugin\n\n
+    getParentPlugin()\n
     '''
 def getDependentPluginCount():
-    '''public int getDependentPluginCount()
+    '''returns int\n\n
+    getDependentPluginCount()\n
     '''
 def getDependentPlugin():
-    '''public IlvPlugin getDependentPlugin(final int index)
+    '''returns IlvPlugin\n\n
+    getDependentPlugin(final int index)\n
     '''
 def getInstallMode():
-    '''public String getInstallMode()
+    '''returns String\n\n
+    getInstallMode()\n
     '''
 def getInstaller():
-    '''public IlvPluginInstaller getInstaller()
+    '''returns IlvPluginInstaller\n\n
+    getInstaller()\n
     '''
 def getSettingsElement():
-    '''public IlvSettingsElement getSettingsElement()
+    '''returns IlvSettingsElement\n\n
+    getSettingsElement()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getPluginManager():
-    '''public IlvPluginManager getPluginManager()
+    '''returns IlvPluginManager\n\n
+    getPluginManager()\n
     '''

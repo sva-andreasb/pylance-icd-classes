@@ -1,6 +1,8 @@
-def FldMosQueryOnly():
-    '''public FldMosQueryOnly(final MboValue mbv)
+def ():
+    '''returns FldMosQueryOnly\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

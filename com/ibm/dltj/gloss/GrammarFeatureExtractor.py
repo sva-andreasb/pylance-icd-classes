@@ -1,51 +1,68 @@
 def isInfinitive():
-    '''public boolean isInfinitive(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isInfinitive(final GrammarGloss grammarGloss)\n
     '''
 def isSingular():
-    '''public boolean isSingular(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isSingular(final GrammarGloss grammarGloss)\n
     '''
 def isPlural():
-    '''public boolean isPlural(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isPlural(final GrammarGloss grammarGloss)\n
     '''
 def isFirstPerson():
-    '''public boolean isFirstPerson(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isFirstPerson(final GrammarGloss grammarGloss)\n
     '''
 def isSecondPerson():
-    '''public boolean isSecondPerson(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isSecondPerson(final GrammarGloss grammarGloss)\n
     '''
 def isThirdPerson():
-    '''public boolean isThirdPerson(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isThirdPerson(final GrammarGloss grammarGloss)\n
     '''
 def isFeminine():
-    '''public boolean isFeminine(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isFeminine(final GrammarGloss grammarGloss)\n
     '''
 def isMasculine():
-    '''public boolean isMasculine(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isMasculine(final GrammarGloss grammarGloss)\n
     '''
 def isPresent():
-    '''public boolean isPresent(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isPresent(final GrammarGloss grammarGloss)\n
     '''
 def isPast():
-    '''public boolean isPast(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isPast(final GrammarGloss grammarGloss)\n
     '''
 def isPresentParticiple():
-    '''public boolean isPresentParticiple(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isPresentParticiple(final GrammarGloss grammarGloss)\n
     '''
 def isPastParticiple():
-    '''public boolean isPastParticiple(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isPastParticiple(final GrammarGloss grammarGloss)\n
     '''
 def isPositive():
-    '''public boolean isPositive(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isPositive(final GrammarGloss grammarGloss)\n
     '''
 def isComparative():
-    '''public boolean isComparative(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isComparative(final GrammarGloss grammarGloss)\n
     '''
 def isSuperlative():
-    '''public boolean isSuperlative(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isSuperlative(final GrammarGloss grammarGloss)\n
     '''
 def isPossessive():
-    '''public boolean isPossessive(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isPossessive(final GrammarGloss grammarGloss)\n
     '''
 def isProperNoun():
-    '''public boolean isProperNoun(final GrammarGloss grammarGloss)
+    '''returns boolean\n\n
+    isProperNoun(final GrammarGloss grammarGloss)\n
     '''

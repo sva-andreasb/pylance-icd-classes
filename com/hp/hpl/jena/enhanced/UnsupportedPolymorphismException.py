@@ -1,9 +1,12 @@
-def UnsupportedPolymorphismException():
-    '''public UnsupportedPolymorphismException(final EnhNode node, final Class<?> type)
+def ():
+    '''returns UnsupportedPolymorphismException\n\n
+    (final EnhNode node, final Class<?> type)\n
     '''
 def getBadGraph():
-    '''public EnhGraph getBadGraph()
+    '''returns EnhGraph\n\n
+    getBadGraph()\n
     '''
 def getBadNode():
-    '''public Object getBadNode()
+    '''returns Object\n\n
+    getBadNode()\n
     '''

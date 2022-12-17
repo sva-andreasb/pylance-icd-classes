@@ -1,192 +1,253 @@
-def SKDViewerGanttModelWrapper():
-    '''public SKDViewerGanttModelWrapper(final IlvDefaultGanttModel ganttModel)
+def ():
+    '''returns SKDViewerGanttModelWrapper\n\n
+    (final IlvDefaultGanttModel ganttModel)\n
     '''
 def activityPreorderIterator():
-    '''public Iterator activityPreorderIterator(final IlvActivity activity)
+    '''returns Iterator\n\n
+    activityPreorderIterator(final IlvActivity activity)\n
     '''
 def addActivity():
-    '''public void addActivity(final IlvActivity newActivity, final IlvActivity parentActivity)
-    public void addActivity(final IlvActivity newActivity, final IlvActivity parentActivity, final int index)
+    '''returns None\n\n
+    addActivity(final IlvActivity newActivity, final IlvActivity parentActivity)\n
+    addActivity(final IlvActivity newActivity, final IlvActivity parentActivity, final int index)\n
     '''
 def addActivityHierarchyListener():
-    '''public void addActivityHierarchyListener(final ActivityHierarchyListener listener)
+    '''returns None\n\n
+    addActivityHierarchyListener(final ActivityHierarchyListener listener)\n
     '''
 def addActivityListener():
-    '''public void addActivityListener(final ActivityListener listener)
+    '''returns None\n\n
+    addActivityListener(final ActivityListener listener)\n
     '''
 def addConstraint():
-    '''public void addConstraint(final IlvConstraint constraint)
+    '''returns None\n\n
+    addConstraint(final IlvConstraint constraint)\n
     '''
 def addConstraintListener():
-    '''public void addConstraintListener(final ConstraintListener listener)
+    '''returns None\n\n
+    addConstraintListener(final ConstraintListener listener)\n
     '''
 def addGanttModelPropertyListener():
-    '''public void addGanttModelPropertyListener(final GanttModelPropertyListener listener)
+    '''returns None\n\n
+    addGanttModelPropertyListener(final GanttModelPropertyListener listener)\n
     '''
 def addReservation():
-    '''public void addReservation(final IlvReservation reservation)
+    '''returns None\n\n
+    addReservation(final IlvReservation reservation)\n
     '''
 def addReservationListener():
-    '''public void addReservationListener(final ReservationListener listener)
+    '''returns None\n\n
+    addReservationListener(final ReservationListener listener)\n
     '''
 def addResource():
-    '''public void addResource(final IlvResource newResource, final IlvResource parentResource)
-    public void addResource(final IlvResource newResource, final IlvResource parentResource, final int index)
+    '''returns None\n\n
+    addResource(final IlvResource newResource, final IlvResource parentResource)\n
+    addResource(final IlvResource newResource, final IlvResource parentResource, final int index)\n
     '''
 def addResourceHierarchyListener():
-    '''public void addResourceHierarchyListener(final ResourceHierarchyListener listener)
+    '''returns None\n\n
+    addResourceHierarchyListener(final ResourceHierarchyListener listener)\n
     '''
 def addResourceListener():
-    '''public void addResourceListener(final ResourceListener listener)
+    '''returns None\n\n
+    addResourceListener(final ResourceListener listener)\n
     '''
 def childActivityIterator():
-    '''public Iterator childActivityIterator(final IlvActivity parentActivity)
+    '''returns Iterator\n\n
+    childActivityIterator(final IlvActivity parentActivity)\n
     '''
 def childResourceIterator():
-    '''public Iterator childResourceIterator(final IlvResource parentResource)
+    '''returns Iterator\n\n
+    childResourceIterator(final IlvResource parentResource)\n
     '''
 def constraintIterator():
-    '''public Iterator constraintIterator()
+    '''returns Iterator\n\n
+    constraintIterator()\n
     '''
 def constraintIteratorFromActivity():
-    '''public Iterator constraintIteratorFromActivity(final IlvActivity activity)
+    '''returns Iterator\n\n
+    constraintIteratorFromActivity(final IlvActivity activity)\n
     '''
 def constraintIteratorToActivity():
-    '''public Iterator constraintIteratorToActivity(final IlvActivity activity)
+    '''returns Iterator\n\n
+    constraintIteratorToActivity(final IlvActivity activity)\n
     '''
 def contains():
-    '''public boolean contains(final IlvHierarchyNode node)
-    public boolean contains(final IlvConstraint constraint)
-    public boolean contains(final IlvReservation reservation)
+    '''returns boolean\n\n
+    contains(final IlvHierarchyNode node)\n
+    contains(final IlvConstraint constraint)\n
+    contains(final IlvReservation reservation)\n
     '''
 def fireActivityEvent():
-    '''public void fireActivityEvent(final ActivityEvent event)
+    '''returns None\n\n
+    fireActivityEvent(final ActivityEvent event)\n
     '''
 def fireConstraintEvent():
-    '''public void fireConstraintEvent(final ConstraintEvent event)
+    '''returns None\n\n
+    fireConstraintEvent(final ConstraintEvent event)\n
     '''
 def fireReservationEvent():
-    '''public void fireReservationEvent(final ReservationEvent event)
+    '''returns None\n\n
+    fireReservationEvent(final ReservationEvent event)\n
     '''
 def fireResourceEvent():
-    '''public void fireResourceEvent(final ResourceEvent event)
+    '''returns None\n\n
+    fireResourceEvent(final ResourceEvent event)\n
     '''
 def getChild():
-    '''public IlvHierarchyNode getChild(final IlvHierarchyNode parent, final int index)
+    '''returns IlvHierarchyNode\n\n
+    getChild(final IlvHierarchyNode parent, final int index)\n
     '''
 def getChildActivity():
-    '''public IlvActivity getChildActivity(final IlvActivity parentActivity, final int index)
+    '''returns IlvActivity\n\n
+    getChildActivity(final IlvActivity parentActivity, final int index)\n
     '''
 def getChildActivityCount():
-    '''public int getChildActivityCount(final IlvActivity parentActivity)
+    '''returns int\n\n
+    getChildActivityCount(final IlvActivity parentActivity)\n
     '''
 def getChildActivityIndex():
-    '''public int getChildActivityIndex(final IlvActivity parentActivity, final IlvActivity childActivity)
+    '''returns int\n\n
+    getChildActivityIndex(final IlvActivity parentActivity, final IlvActivity childActivity)\n
     '''
 def getChildCount():
-    '''public int getChildCount(final IlvHierarchyNode parent)
+    '''returns int\n\n
+    getChildCount(final IlvHierarchyNode parent)\n
     '''
 def getChildIndex():
-    '''public int getChildIndex(final IlvHierarchyNode parent, final IlvHierarchyNode child)
+    '''returns int\n\n
+    getChildIndex(final IlvHierarchyNode parent, final IlvHierarchyNode child)\n
     '''
 def getChildResource():
-    '''public IlvResource getChildResource(final IlvResource parent, final int index)
+    '''returns IlvResource\n\n
+    getChildResource(final IlvResource parent, final int index)\n
     '''
 def getChildResourceCount():
-    '''public int getChildResourceCount(final IlvResource parent)
+    '''returns int\n\n
+    getChildResourceCount(final IlvResource parent)\n
     '''
 def getChildResourceIndex():
-    '''public int getChildResourceIndex(final IlvResource parent, final IlvResource index)
+    '''returns int\n\n
+    getChildResourceIndex(final IlvResource parent, final IlvResource index)\n
     '''
 def getParent():
-    '''public IlvHierarchyNode getParent(final IlvHierarchyNode node)
+    '''returns IlvHierarchyNode\n\n
+    getParent(final IlvHierarchyNode node)\n
     '''
 def getParentActivity():
-    '''public IlvActivity getParentActivity(final IlvActivity activity)
+    '''returns IlvActivity\n\n
+    getParentActivity(final IlvActivity activity)\n
     '''
 def getParentActivityIndex():
-    '''public int getParentActivityIndex(final IlvActivity activity)
+    '''returns int\n\n
+    getParentActivityIndex(final IlvActivity activity)\n
     '''
 def getParentIndex():
-    '''public int getParentIndex(final IlvHierarchyNode node)
+    '''returns int\n\n
+    getParentIndex(final IlvHierarchyNode node)\n
     '''
 def getParentResource():
-    '''public IlvResource getParentResource(final IlvResource resource)
+    '''returns IlvResource\n\n
+    getParentResource(final IlvResource resource)\n
     '''
 def getParentResourceIndex():
-    '''public int getParentResourceIndex(final IlvResource resource)
+    '''returns int\n\n
+    getParentResourceIndex(final IlvResource resource)\n
     '''
 def getRootActivity():
-    '''public IlvActivity getRootActivity()
+    '''returns IlvActivity\n\n
+    getRootActivity()\n
     '''
 def getRootResource():
-    '''public IlvResource getRootResource()
+    '''returns IlvResource\n\n
+    getRootResource()\n
     '''
 def isAdjusting():
-    '''public boolean isAdjusting()
+    '''returns boolean\n\n
+    isAdjusting()\n
     '''
 def moveActivity():
-    '''public void moveActivity(final IlvActivity activity1, final IlvActivity activity2, final int index)
+    '''returns None\n\n
+    moveActivity(final IlvActivity activity1, final IlvActivity activity2, final int index)\n
     '''
 def moveResource():
-    '''public void moveResource(final IlvResource resource1, final IlvResource resource2, final int index)
+    '''returns None\n\n
+    moveResource(final IlvResource resource1, final IlvResource resource2, final int index)\n
     '''
 def removeActivity():
-    '''public void removeActivity(final IlvActivity activity)
-    public void removeActivity(final IlvActivity activity, final int index)
+    '''returns None\n\n
+    removeActivity(final IlvActivity activity)\n
+    removeActivity(final IlvActivity activity, final int index)\n
     '''
 def removeActivityHierarchyListener():
-    '''public void removeActivityHierarchyListener(final ActivityHierarchyListener listener)
+    '''returns None\n\n
+    removeActivityHierarchyListener(final ActivityHierarchyListener listener)\n
     '''
 def removeActivityListener():
-    '''public void removeActivityListener(final ActivityListener listener)
+    '''returns None\n\n
+    removeActivityListener(final ActivityListener listener)\n
     '''
 def removeConstraint():
-    '''public void removeConstraint(final IlvConstraint constraint)
+    '''returns None\n\n
+    removeConstraint(final IlvConstraint constraint)\n
     '''
 def removeConstraintListener():
-    '''public void removeConstraintListener(final ConstraintListener listener)
+    '''returns None\n\n
+    removeConstraintListener(final ConstraintListener listener)\n
     '''
 def removeGanttModelPropertyListener():
-    '''public void removeGanttModelPropertyListener(final GanttModelPropertyListener listener)
+    '''returns None\n\n
+    removeGanttModelPropertyListener(final GanttModelPropertyListener listener)\n
     '''
 def removeReservation():
-    '''public void removeReservation(final IlvReservation reservation)
+    '''returns None\n\n
+    removeReservation(final IlvReservation reservation)\n
     '''
 def removeReservationListener():
-    '''public void removeReservationListener(final ReservationListener listener)
+    '''returns None\n\n
+    removeReservationListener(final ReservationListener listener)\n
     '''
 def removeResource():
-    '''public void removeResource(final IlvResource resource)
-    public void removeResource(final IlvResource resource, final int index)
+    '''returns None\n\n
+    removeResource(final IlvResource resource)\n
+    removeResource(final IlvResource resource, final int index)\n
     '''
 def removeResourceHierarchyListener():
-    '''public void removeResourceHierarchyListener(final ResourceHierarchyListener listener)
+    '''returns None\n\n
+    removeResourceHierarchyListener(final ResourceHierarchyListener listener)\n
     '''
 def removeResourceListener():
-    '''public void removeResourceListener(final ResourceListener listener)
+    '''returns None\n\n
+    removeResourceListener(final ResourceListener listener)\n
     '''
 def reservationIterator():
-    '''public Iterator reservationIterator()
-    public Iterator reservationIterator(final IlvActivity activity)
-    public Iterator reservationIterator(final IlvResource resource)
-    public Iterator reservationIterator(final IlvResource resource, final IlvTimeInterval timeInterval)
+    '''returns Iterator\n\n
+    reservationIterator()\n
+    reservationIterator(final IlvActivity activity)\n
+    reservationIterator(final IlvResource resource)\n
+    reservationIterator(final IlvResource resource, final IlvTimeInterval timeInterval)\n
     '''
 def resourcePreorderIterator():
-    '''public Iterator resourcePreorderIterator(final IlvResource resource)
+    '''returns Iterator\n\n
+    resourcePreorderIterator(final IlvResource resource)\n
     '''
 def setAdjusting():
-    '''public void setAdjusting(final boolean adjusting)
+    '''returns None\n\n
+    setAdjusting(final boolean adjusting)\n
     '''
 def setRootActivity():
-    '''public void setRootActivity(final IlvActivity activity)
+    '''returns None\n\n
+    setRootActivity(final IlvActivity activity)\n
     '''
 def setRootResource():
-    '''public void setRootResource(final IlvResource resource)
+    '''returns None\n\n
+    setRootResource(final IlvResource resource)\n
     '''
 def isBatching():
-    '''public boolean isBatching()
+    '''returns boolean\n\n
+    isBatching()\n
     '''
 def setBatching():
-    '''public void setBatching(final boolean arg0)
+    '''returns None\n\n
+    setBatching(final boolean arg0)\n
     '''

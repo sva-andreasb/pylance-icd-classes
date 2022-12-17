@@ -1,3 +1,4 @@
-def LoaderPartsList():
-    '''public LoaderPartsList(final LoaderBase<ItemTYPE, ModelLoaderBase> loader, final MboRemote productMbo)
+def ():
+    '''returns LoaderPartsList\n\n
+    (final LoaderBase<ItemTYPE, ModelLoaderBase> loader, final MboRemote productMbo)\n
     '''

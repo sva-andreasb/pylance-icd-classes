@@ -13,15 +13,15 @@ FIELD_OBJECTVALUE = "String  \"OBJECTVALUE\""
 FIELD_OBJECTNAME = "String  \"OBJECTNAME\""
 RELATIONSHIP_CLASSSPEC = "String  \"CLASSSPEC\""
 FIELD_APPLYDOWNHIER = "String  \"APPLYDOWNHIER\""
-def ClassificationBase():
-    '''public ClassificationBase()
-    '''
-def getClassStrctSet():
-    '''public static MboRemote getClassStrctSet(final String classStructId, final UserInfo userInfo)
+def ():
+    '''returns ClassificationBase\n\n
+    ()\n
     '''
 def getObjectValue():
-    '''public String getObjectValue()
+    '''returns String\n\n
+    getObjectValue()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

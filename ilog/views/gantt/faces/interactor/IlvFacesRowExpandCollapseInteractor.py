@@ -1,24 +1,28 @@
-def IlvFacesRowExpandCollapseInteractor():
-    '''public IlvFacesRowExpandCollapseInteractor()
+def ():
+    '''returns IlvFacesRowExpandCollapseInteractor\n\n
+    ()\n
     '''
 def getFamily():
-    '''public String getFamily()
-    '''
-def getComponentType():
-    '''public static String getComponentType()
+    '''returns String\n\n
+    getFamily()\n
     '''
 def getActionName():
-    '''public String getActionName()
+    '''returns String\n\n
+    getActionName()\n
     '''
 def setActionName():
-    '''public void setActionName(final String a)
+    '''returns None\n\n
+    setActionName(final String a)\n
     '''
 def updateModel():
-    '''public void updateModel(final FacesContext facesContext)
+    '''returns None\n\n
+    updateModel(final FacesContext facesContext)\n
     '''
 def saveState():
-    '''public Object saveState(final FacesContext facesContext)
+    '''returns Object\n\n
+    saveState(final FacesContext facesContext)\n
     '''
 def restoreState():
-    '''public void restoreState(final FacesContext facesContext, final Object o)
+    '''returns None\n\n
+    restoreState(final FacesContext facesContext, final Object o)\n
     '''

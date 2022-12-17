@@ -1,9 +1,12 @@
-def ChatopsChannelUsersBean():
-    '''public ChatopsChannelUsersBean()
+def ():
+    '''returns ChatopsChannelUsersBean\n\n
+    ()\n
     '''
 def loadUsers():
-    '''public void loadUsers(final int row)
+    '''returns None\n\n
+    loadUsers(final int row)\n
     '''
 def selectrow():
-    '''public int selectrow()
+    '''returns int\n\n
+    selectrow()\n
     '''

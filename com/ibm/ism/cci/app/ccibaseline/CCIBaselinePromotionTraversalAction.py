@@ -1,13 +1,17 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def CCIBaselinePromotionTraversalAction():
-    '''public CCIBaselinePromotionTraversalAction(final String authTopClassId, final String memberCI, final Set<String> traversedNodes)
+def ():
+    '''returns CCIBaselinePromotionTraversalAction\n\n
+    (final String authTopClassId, final String memberCI, final Set<String> traversedNodes)\n
     '''
 def processState():
-    '''public void processState(final TraversalState state, final UserInfo userInfo)
+    '''returns None\n\n
+    processState(final TraversalState state, final UserInfo userInfo)\n
     '''
 def postTraverseAction():
-    '''public void postTraverseAction(final UserInfo userInfo)
+    '''returns None\n\n
+    postTraverseAction(final UserInfo userInfo)\n
     '''
 def getResultsWhere():
-    '''public String getResultsWhere()
+    '''returns String\n\n
+    getResultsWhere()\n
     '''

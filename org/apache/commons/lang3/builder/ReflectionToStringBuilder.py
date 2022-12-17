@@ -1,42 +1,46 @@
-def toString():
-    '''public static String toString(final Object object)
-    public static String toString(final Object object, final ToStringStyle style)
-    public static String toString(final Object object, final ToStringStyle style, final boolean outputTransients)
-    public static String toString(final Object object, final ToStringStyle style, final boolean outputTransients, final boolean outputStatics)
-    public static <T> String toString(final T object, final ToStringStyle style, final boolean outputTransients, final boolean outputStatics, final Class<? super T> reflectUpToClass)
-    public String toString()
-    '''
-def toStringExclude():
-    '''public static String toStringExclude(final Object object, final Collection<String> excludeFieldNames)
-    public static String toStringExclude(final Object object, final String... excludeFieldNames)
+def ():
+    '''returns ReflectionToStringBuilder\n\n
+    (final Object object)\n
+    (final Object object, final ToStringStyle style)\n
+    (final Object object, final ToStringStyle style, final StringBuffer buffer)\n
     '''
 def ReflectionToStringBuilder():
-    '''public ReflectionToStringBuilder(final Object object)
-    public ReflectionToStringBuilder(final Object object, final ToStringStyle style)
-    public ReflectionToStringBuilder(final Object object, final ToStringStyle style, final StringBuffer buffer)
-    public <T> ReflectionToStringBuilder(final T object, final ToStringStyle style, final StringBuffer buffer, final Class<? super T> reflectUpToClass, final boolean outputTransients, final boolean outputStatics)
+    '''returns <T>\n\n
+    ReflectionToStringBuilder(final T object, final ToStringStyle style, final StringBuffer buffer, final Class<? super T> reflectUpToClass, final boolean outputTransients, final boolean outputStatics)\n
     '''
 def getExcludeFieldNames():
-    '''public String[] getExcludeFieldNames()
+    '''returns String[]\n\n
+    getExcludeFieldNames()\n
     '''
 def isAppendStatics():
-    '''public boolean isAppendStatics()
+    '''returns boolean\n\n
+    isAppendStatics()\n
     '''
 def isAppendTransients():
-    '''public boolean isAppendTransients()
+    '''returns boolean\n\n
+    isAppendTransients()\n
     '''
 def reflectionAppendArray():
-    '''public ReflectionToStringBuilder reflectionAppendArray(final Object array)
+    '''returns ReflectionToStringBuilder\n\n
+    reflectionAppendArray(final Object array)\n
     '''
 def setAppendStatics():
-    '''public void setAppendStatics(final boolean appendStatics)
+    '''returns None\n\n
+    setAppendStatics(final boolean appendStatics)\n
     '''
 def setAppendTransients():
-    '''public void setAppendTransients(final boolean appendTransients)
+    '''returns None\n\n
+    setAppendTransients(final boolean appendTransients)\n
     '''
 def setExcludeFieldNames():
-    '''public ReflectionToStringBuilder setExcludeFieldNames(final String... excludeFieldNamesParam)
+    '''returns ReflectionToStringBuilder\n\n
+    setExcludeFieldNames(final String... excludeFieldNamesParam)\n
     '''
 def setUpToClass():
-    '''public void setUpToClass(final Class<?> clazz)
+    '''returns None\n\n
+    setUpToClass(final Class<?> clazz)\n
+    '''
+def toString():
+    '''returns String\n\n
+    toString()\n
     '''

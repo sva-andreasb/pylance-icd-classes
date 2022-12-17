@@ -1,12 +1,8 @@
-def getError():
-    '''public final GoogleJsonError getError()
-    '''
-def setError():
-    '''public final void setError(final GoogleJsonError error)
-    '''
 def set():
-    '''public GoogleJsonErrorContainer set(final String fieldName, final Object value)
+    '''returns GoogleJsonErrorContainer\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public GoogleJsonErrorContainer clone()
+    '''returns GoogleJsonErrorContainer\n\n
+    clone()\n
     '''

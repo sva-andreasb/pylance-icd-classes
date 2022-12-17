@@ -1,12 +1,16 @@
-def BackMapper():
-    '''public BackMapper(final long n)
+def ():
+    '''returns BackMapper\n\n
+    (final long n)\n
     '''
 def setGloss():
-    '''public void setGloss(final int n, final Gloss gloss)
+    '''returns None\n\n
+    setGloss(final int n, final Gloss gloss)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def process():
-    '''public Object process(final Object o)
+    '''returns Object\n\n
+    process(final Object o)\n
     '''

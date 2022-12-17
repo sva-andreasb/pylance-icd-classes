@@ -1,3 +1,4 @@
-def SKDEmWoAvailResSet():
-    '''public SKDEmWoAvailResSet(final MboServerInterface ms)
+def ():
+    '''returns SKDEmWoAvailResSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def UnsupportedVariantTypeException():
-    '''public UnsupportedVariantTypeException(final long variantType, final Object value)
+def ():
+    '''returns UnsupportedVariantTypeException\n\n
+    (final long variantType, final Object value)\n
     '''

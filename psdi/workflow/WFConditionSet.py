@@ -1,3 +1,4 @@
-def WFConditionSet():
-    '''public WFConditionSet(final MboServerInterface ms)
+def ():
+    '''returns WFConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''

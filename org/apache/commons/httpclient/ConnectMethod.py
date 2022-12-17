@@ -1,18 +1,23 @@
 NAME = "String  \"CONNECT\""
-def ConnectMethod():
-    '''public ConnectMethod()
-    public ConnectMethod(final HttpMethod method)
-    public ConnectMethod(final HostConfiguration targethost)
+def ():
+    '''returns ConnectMethod\n\n
+    ()\n
+    (final HttpMethod method)\n
+    (final HostConfiguration targethost)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def getURI():
-    '''public URI getURI()
+    '''returns URI\n\n
+    getURI()\n
     '''
 def execute():
-    '''public int execute(final HttpState state, final HttpConnection conn)
+    '''returns int\n\n
+    execute(final HttpState state, final HttpConnection conn)\n
     '''

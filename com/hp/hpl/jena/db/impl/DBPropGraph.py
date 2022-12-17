@@ -1,69 +1,87 @@
-def DBPropGraph():
-    '''public DBPropGraph(final SpecializedGraph g, final String symbolicName, final String type)
-    public DBPropGraph(final SpecializedGraph g, final Node n)
-    public DBPropGraph(final SpecializedGraph g, final String newSymbolicName, final Graph oldProperties)
+def ():
+    '''returns DBPropGraph\n\n
+    (final SpecializedGraph g, final String symbolicName, final String type)\n
+    (final SpecializedGraph g, final Node n)\n
+    (final SpecializedGraph g, final String newSymbolicName, final Graph oldProperties)\n
     '''
 def begin():
-    '''public boolean begin()
+    '''returns boolean\n\n
+    begin()\n
     '''
 def conditionalCommit():
-    '''public void conditionalCommit(final boolean commit)
+    '''returns None\n\n
+    conditionalCommit(final boolean commit)\n
     '''
 def addLSet():
-    '''public void addLSet(final DBPropLSet lset)
+    '''returns None\n\n
+    addLSet(final DBPropLSet lset)\n
     '''
 def addPrefix():
-    '''public void addPrefix(final String prefix, final String uri)
+    '''returns None\n\n
+    addPrefix(final String prefix, final String uri)\n
     '''
 def bnodeForPrefix():
-    '''public Node bnodeForPrefix(final Node prefixNode)
+    '''returns Node\n\n
+    bnodeForPrefix(final Node prefixNode)\n
     '''
 def removePrefix():
-    '''public void removePrefix(final String prefix)
+    '''returns None\n\n
+    removePrefix(final String prefix)\n
     '''
 def addGraphId():
-    '''public void addGraphId(final int id)
+    '''returns None\n\n
+    addGraphId(final int id)\n
     '''
 def addStmtTable():
-    '''public void addStmtTable(final String table)
+    '''returns None\n\n
+    addStmtTable(final String table)\n
     '''
 def addReifTable():
-    '''public void addReifTable(final String table)
+    '''returns None\n\n
+    addReifTable(final String table)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getStmtTable():
-    '''public String getStmtTable()
+    '''returns String\n\n
+    getStmtTable()\n
     '''
 def getReifTable():
-    '''public String getReifTable()
+    '''returns String\n\n
+    getReifTable()\n
     '''
 def getGraphId():
-    '''public int getGraphId()
+    '''returns int\n\n
+    getGraphId()\n
     '''
 def getAllLSets():
-    '''public ExtendedIterator<DBPropLSet> getAllLSets()
+    '''returns ExtendedIterator<DBPropLSet>\n\n
+    getAllLSets()\n
     '''
 def getAllPrefixes():
-    '''public ExtendedIterator<DBPropPrefix> getAllPrefixes()
+    '''returns ExtendedIterator<DBPropPrefix>\n\n
+    getAllPrefixes()\n
     '''
 def listTriples():
-    '''public ExtendedIterator<Triple> listTriples()
-    '''
-def findPropGraphByName():
-    '''public static DBPropGraph findPropGraphByName(final SpecializedGraph graph, final String name)
+    '''returns ExtendedIterator<Triple>\n\n
+    listTriples()\n
     '''
 def isDBPropGraphOk():
-    '''public boolean isDBPropGraphOk(final String name)
+    '''returns boolean\n\n
+    isDBPropGraphOk(final String name)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def map1():
-    '''public DBPropLSet map1(final Triple t)
-    public DBPropPrefix map1(final Triple t)
+    '''returns DBPropPrefix\n\n
+    map1(final Triple t)\n
+    map1(final Triple t)\n
     '''

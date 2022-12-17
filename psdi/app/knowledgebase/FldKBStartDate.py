@@ -1,9 +1,12 @@
-def FldKBStartDate():
-    '''public FldKBStartDate(final MboValue mbv)
+def ():
+    '''returns FldKBStartDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,24 +1,31 @@
 UNDEFINED_EPOCH_OFFSET = "long  -1L"
 UNDEFINED_EPOCH = "int  -1"
-def EpochEndOffset():
-    '''public EpochEndOffset(final Errors error, final long endOffset)
-    public EpochEndOffset(final long endOffset)
+def ():
+    '''returns EpochEndOffset\n\n
+    (final Errors error, final long endOffset)\n
+    (final long endOffset)\n
     '''
 def error():
-    '''public Errors error()
+    '''returns Errors\n\n
+    error()\n
     '''
 def hasError():
-    '''public boolean hasError()
+    '''returns boolean\n\n
+    hasError()\n
     '''
 def endOffset():
-    '''public long endOffset()
+    '''returns long\n\n
+    endOffset()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

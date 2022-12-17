@@ -1,12 +1,16 @@
-def ResourceQuantityEvent():
-    '''public ResourceQuantityEvent(final IlvResource ilvResource, final float value, final float value2, final boolean b)
+def ():
+    '''returns ResourceQuantityEvent\n\n
+    (final IlvResource ilvResource, final float value, final float value2, final boolean b)\n
     '''
 def getOldQuantity():
-    '''public float getOldQuantity()
+    '''returns float\n\n
+    getOldQuantity()\n
     '''
 def getNewQuantity():
-    '''public float getNewQuantity()
+    '''returns float\n\n
+    getNewQuantity()\n
     '''
 def setNewQuantity():
-    '''public void setNewQuantity(final float value)
+    '''returns None\n\n
+    setNewQuantity(final float value)\n
     '''

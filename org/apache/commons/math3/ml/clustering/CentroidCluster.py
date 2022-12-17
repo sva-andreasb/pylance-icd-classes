@@ -1,6 +1,8 @@
-def CentroidCluster():
-    '''public CentroidCluster(final Clusterable center)
+def ():
+    '''returns CentroidCluster\n\n
+    (final Clusterable center)\n
     '''
 def getCenter():
-    '''public Clusterable getCenter()
+    '''returns Clusterable\n\n
+    getCenter()\n
     '''

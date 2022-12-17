@@ -1,36 +1,48 @@
 def doType1TT():
-    '''public void doType1TT()
+    '''returns None\n\n
+    doType1TT()\n
     '''
 def getFamilyFontName():
-    '''public String[][] getFamilyFontName()
+    '''returns String[][]\n\n
+    getFamilyFontName()\n
     '''
 def getFontDescriptor():
-    '''public float getFontDescriptor(final int key, final float fontSize)
+    '''returns float\n\n
+    getFontDescriptor(final int key, final float fontSize)\n
     '''
 def getFullFontName():
-    '''public String[][] getFullFontName()
+    '''returns String[][]\n\n
+    getFullFontName()\n
     '''
 def getKerning():
-    '''public int getKerning(final char char1, final char char2)
+    '''returns int\n\n
+    getKerning(final char char1, final char char2)\n
     '''
 def getPostscriptFontName():
-    '''public String getPostscriptFontName()
+    '''returns String\n\n
+    getPostscriptFontName()\n
     '''
 def hasKernPairs():
-    '''public boolean hasKernPairs()
+    '''returns boolean\n\n
+    hasKernPairs()\n
     '''
 def getWidth():
-    '''public int getWidth(final String text)
+    '''returns int\n\n
+    getWidth(final String text)\n
     '''
 def charExists():
-    '''public boolean charExists(final char c)
+    '''returns boolean\n\n
+    charExists(final char c)\n
     '''
 def setPostscriptFontName():
-    '''public void setPostscriptFontName(final String name)
+    '''returns None\n\n
+    setPostscriptFontName(final String name)\n
     '''
 def setKerning():
-    '''public boolean setKerning(final char char1, final char char2, final int kern)
+    '''returns boolean\n\n
+    setKerning(final char char1, final char char2, final int kern)\n
     '''
 def getCharBBox():
-    '''public int[] getCharBBox(final char c)
+    '''returns int[]\n\n
+    getCharBBox(final char c)\n
     '''

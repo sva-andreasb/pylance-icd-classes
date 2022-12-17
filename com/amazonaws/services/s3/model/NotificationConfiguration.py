@@ -1,34 +1,45 @@
 def getEvents():
-    '''public Set<String> getEvents()
+    '''returns Set<String>\n\n
+    getEvents()\n
     '''
 def setEvents():
-    '''public void setEvents(final Set<String> events)
+    '''returns None\n\n
+    setEvents(final Set<String> events)\n
     '''
 def getObjectPrefixes():
-    '''public List<String> getObjectPrefixes()
+    '''returns List<String>\n\n
+    getObjectPrefixes()\n
     '''
 def setObjectPrefixes():
-    '''public void setObjectPrefixes(final List<String> objectPrefixes)
+    '''returns None\n\n
+    setObjectPrefixes(final List<String> objectPrefixes)\n
     '''
 def withEvents():
-    '''public NotificationConfiguration withEvents(final Set<String> events)
+    '''returns NotificationConfiguration\n\n
+    withEvents(final Set<String> events)\n
     '''
 def withObjectPrefixes():
-    '''public NotificationConfiguration withObjectPrefixes(final String... objectPrefixes)
+    '''returns NotificationConfiguration\n\n
+    withObjectPrefixes(final String... objectPrefixes)\n
     '''
 def addEvent():
-    '''public void addEvent(final String event)
-    public void addEvent(final S3Event event)
+    '''returns None\n\n
+    addEvent(final String event)\n
+    addEvent(final S3Event event)\n
     '''
 def addObjectPrefix():
-    '''public void addObjectPrefix(final String prefix)
+    '''returns None\n\n
+    addObjectPrefix(final String prefix)\n
     '''
 def getFilter():
-    '''public Filter getFilter()
+    '''returns Filter\n\n
+    getFilter()\n
     '''
 def setFilter():
-    '''public void setFilter(final Filter filter)
+    '''returns None\n\n
+    setFilter(final Filter filter)\n
     '''
 def withFilter():
-    '''public NotificationConfiguration withFilter(final Filter filter)
+    '''returns NotificationConfiguration\n\n
+    withFilter(final Filter filter)\n
     '''

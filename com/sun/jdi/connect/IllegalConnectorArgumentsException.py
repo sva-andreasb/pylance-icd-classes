@@ -1,7 +1,9 @@
-def IllegalConnectorArgumentsException():
-    '''public IllegalConnectorArgumentsException(final String message, final String s)
-    public IllegalConnectorArgumentsException(final String message, final List<String> c)
+def ():
+    '''returns IllegalConnectorArgumentsException\n\n
+    (final String message, final String s)\n
+    (final String message, final List<String> c)\n
     '''
 def argumentNames():
-    '''public List<String> argumentNames()
+    '''returns List<String>\n\n
+    argumentNames()\n
     '''

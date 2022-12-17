@@ -1,39 +1,52 @@
-def WMLGoElementImpl():
-    '''public WMLGoElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+def ():
+    '''returns WMLGoElementImpl\n\n
+    (final WMLDocumentImpl wmlDocumentImpl, final String s)\n
     '''
 def setSendreferer():
-    '''public void setSendreferer(final String s)
+    '''returns None\n\n
+    setSendreferer(final String s)\n
     '''
 def getSendreferer():
-    '''public String getSendreferer()
+    '''returns String\n\n
+    getSendreferer()\n
     '''
 def setAcceptCharset():
-    '''public void setAcceptCharset(final String s)
+    '''returns None\n\n
+    setAcceptCharset(final String s)\n
     '''
 def getAcceptCharset():
-    '''public String getAcceptCharset()
+    '''returns String\n\n
+    getAcceptCharset()\n
     '''
 def setHref():
-    '''public void setHref(final String s)
+    '''returns None\n\n
+    setHref(final String s)\n
     '''
 def getHref():
-    '''public String getHref()
+    '''returns String\n\n
+    getHref()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setMethod():
-    '''public void setMethod(final String s)
+    '''returns None\n\n
+    setMethod(final String s)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''

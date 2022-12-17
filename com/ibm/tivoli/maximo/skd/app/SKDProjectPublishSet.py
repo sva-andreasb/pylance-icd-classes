@@ -1,3 +1,4 @@
-def SKDProjectPublishSet():
-    '''public SKDProjectPublishSet(final MboServerInterface ms)
+def ():
+    '''returns SKDProjectPublishSet\n\n
+    (final MboServerInterface ms)\n
     '''

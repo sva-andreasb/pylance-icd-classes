@@ -1,12 +1,16 @@
 def getComponentType():
-    '''public String getComponentType()
+    '''returns String\n\n
+    getComponentType()\n
     '''
 def getRendererType():
-    '''public String getRendererType()
+    '''returns String\n\n
+    getRendererType()\n
     '''
 def getPropertyAccessor():
-    '''public String getPropertyAccessor()
+    '''returns String\n\n
+    getPropertyAccessor()\n
     '''
 def setPropertyAccessor():
-    '''public void setPropertyAccessor(final String a)
+    '''returns None\n\n
+    setPropertyAccessor(final String a)\n
     '''

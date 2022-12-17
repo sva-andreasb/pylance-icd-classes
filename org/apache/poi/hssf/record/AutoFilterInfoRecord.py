@@ -1,23 +1,30 @@
 sid = "short  157"
-def AutoFilterInfoRecord():
-    '''public AutoFilterInfoRecord()
-    public AutoFilterInfoRecord(final RecordInputStream in)
+def ():
+    '''returns AutoFilterInfoRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setNumEntries():
-    '''public void setNumEntries(final short num)
+    '''returns None\n\n
+    setNumEntries(final short num)\n
     '''
 def getNumEntries():
-    '''public short getNumEntries()
+    '''returns short\n\n
+    getNumEntries()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public AutoFilterInfoRecord clone()
+    '''returns AutoFilterInfoRecord\n\n
+    clone()\n
     '''

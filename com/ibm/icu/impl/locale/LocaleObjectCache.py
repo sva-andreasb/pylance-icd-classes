@@ -1,16 +1,18 @@
-def LocaleObjectCache():
-    '''public LocaleObjectCache()
+def ():
+    '''returns WeakValueRef\n\n
+    ()\n
+    (final Object key, final V value, final ReferenceQueue<V> rq)\n
     '''
 def get():
-    '''public V get(final Object key)
-    public V get()
+    '''returns V\n\n
+    get(final Object key)\n
+    get()\n
     '''
 def put():
-    '''public V put(final K key, final V value)
-    '''
-def WeakValueRef():
-    '''public WeakValueRef(final Object key, final V value, final ReferenceQueue<V> rq)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''

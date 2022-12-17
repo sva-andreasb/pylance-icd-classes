@@ -1,79 +1,102 @@
-def XMLStreamWriterWrapper():
-    '''public XMLStreamWriterWrapper(final XMLStreamWriter parent)
+def ():
+    '''returns XMLStreamWriterWrapper\n\n
+    (final XMLStreamWriter parent)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String uri)
+    '''returns String\n\n
+    getPrefix(final String uri)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def setDefaultNamespace():
-    '''public void setDefaultNamespace(final String uri)
+    '''returns None\n\n
+    setDefaultNamespace(final String uri)\n
     '''
 def setNamespaceContext():
-    '''public void setNamespaceContext(final NamespaceContext context)
+    '''returns None\n\n
+    setNamespaceContext(final NamespaceContext context)\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix, final String uri)
+    '''returns None\n\n
+    setPrefix(final String prefix, final String uri)\n
     '''
 def writeAttribute():
-    '''public void writeAttribute(final String prefix, final String namespaceURI, final String localName, final String value)
-    public void writeAttribute(final String namespaceURI, final String localName, final String value)
-    public void writeAttribute(final String localName, final String value)
+    '''returns None\n\n
+    writeAttribute(final String prefix, final String namespaceURI, final String localName, final String value)\n
+    writeAttribute(final String namespaceURI, final String localName, final String value)\n
+    writeAttribute(final String localName, final String value)\n
     '''
 def writeCData():
-    '''public void writeCData(final String data)
+    '''returns None\n\n
+    writeCData(final String data)\n
     '''
 def writeCharacters():
-    '''public void writeCharacters(final char[] text, final int start, final int len)
-    public void writeCharacters(final String text)
+    '''returns None\n\n
+    writeCharacters(final char[] text, final int start, final int len)\n
+    writeCharacters(final String text)\n
     '''
 def writeComment():
-    '''public void writeComment(final String data)
+    '''returns None\n\n
+    writeComment(final String data)\n
     '''
 def writeDefaultNamespace():
-    '''public void writeDefaultNamespace(final String namespaceURI)
+    '''returns None\n\n
+    writeDefaultNamespace(final String namespaceURI)\n
     '''
 def writeDTD():
-    '''public void writeDTD(final String dtd)
+    '''returns None\n\n
+    writeDTD(final String dtd)\n
     '''
 def writeEmptyElement():
-    '''public void writeEmptyElement(final String prefix, final String localName, final String namespaceURI)
-    public void writeEmptyElement(final String namespaceURI, final String localName)
-    public void writeEmptyElement(final String localName)
+    '''returns None\n\n
+    writeEmptyElement(final String prefix, final String localName, final String namespaceURI)\n
+    writeEmptyElement(final String namespaceURI, final String localName)\n
+    writeEmptyElement(final String localName)\n
     '''
 def writeEndDocument():
-    '''public void writeEndDocument()
+    '''returns None\n\n
+    writeEndDocument()\n
     '''
 def writeEndElement():
-    '''public void writeEndElement()
+    '''returns None\n\n
+    writeEndElement()\n
     '''
 def writeEntityRef():
-    '''public void writeEntityRef(final String name)
+    '''returns None\n\n
+    writeEntityRef(final String name)\n
     '''
 def writeNamespace():
-    '''public void writeNamespace(final String prefix, final String namespaceURI)
+    '''returns None\n\n
+    writeNamespace(final String prefix, final String namespaceURI)\n
     '''
 def writeProcessingInstruction():
-    '''public void writeProcessingInstruction(final String target, final String data)
-    public void writeProcessingInstruction(final String target)
+    '''returns None\n\n
+    writeProcessingInstruction(final String target, final String data)\n
+    writeProcessingInstruction(final String target)\n
     '''
 def writeStartDocument():
-    '''public void writeStartDocument()
-    public void writeStartDocument(final String encoding, final String version)
-    public void writeStartDocument(final String version)
+    '''returns None\n\n
+    writeStartDocument()\n
+    writeStartDocument(final String encoding, final String version)\n
+    writeStartDocument(final String version)\n
     '''
 def writeStartElement():
-    '''public void writeStartElement(final String prefix, final String localName, final String namespaceURI)
-    public void writeStartElement(final String namespaceURI, final String localName)
-    public void writeStartElement(final String localName)
+    '''returns None\n\n
+    writeStartElement(final String prefix, final String localName, final String namespaceURI)\n
+    writeStartElement(final String namespaceURI, final String localName)\n
+    writeStartElement(final String localName)\n
     '''

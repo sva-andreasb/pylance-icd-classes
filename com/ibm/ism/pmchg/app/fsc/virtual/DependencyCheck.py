@@ -1,58 +1,71 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def DependencyCheck():
-    '''public DependencyCheck()
+def ():
+    '''returns ProductVisitor\n\n
+    ()\n
+    (final String name, final boolean loaded, final MboRemote mbo)\n
+    (final List<String> installList)\n
     '''
 def isSuccessful():
-    '''public boolean isSuccessful()
+    '''returns boolean\n\n
+    isSuccessful()\n
     '''
 def getError():
-    '''public ScheduleError getError()
+    '''returns ScheduleError\n\n
+    getError()\n
     '''
 def computeScheduleOrder():
-    '''public List<MboRemote> computeScheduleOrder(final MboSetRemote siblingTasks)
-    '''
-def ProductInstance():
-    '''public ProductInstance(final String name, final boolean loaded, final MboRemote mbo)
+    '''returns List<MboRemote>\n\n
+    computeScheduleOrder(final MboSetRemote siblingTasks)\n
     '''
 def addDependency():
-    '''public void addDependency(final String dependsClause, final HashMap<String, ProductInstance> productMap, final HashMap<String, MboRemote> mboMap)
+    '''returns None\n\n
+    addDependency(final String dependsClause, final HashMap<String, ProductInstance> productMap, final HashMap<String, MboRemote> mboMap)\n
     '''
 def walkDependences():
-    '''public boolean walkDependences(final ProductVisitor visitor)
+    '''returns boolean\n\n
+    walkDependences(final ProductVisitor visitor)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''
 def getMbo():
-    '''public MboRemote getMbo()
+    '''returns MboRemote\n\n
+    getMbo()\n
     '''
 def hasNoDependences():
-    '''public boolean hasNoDependences()
+    '''returns boolean\n\n
+    hasNoDependences()\n
     '''
 def hasNoDependents():
-    '''public boolean hasNoDependents()
+    '''returns boolean\n\n
+    hasNoDependents()\n
     '''
 def markAsVisited():
-    '''public void markAsVisited()
+    '''returns None\n\n
+    markAsVisited()\n
     '''
 def isVisited():
-    '''public boolean isVisited()
-    '''
-def ProductVisitor():
-    '''public ProductVisitor(final List<String> installList)
+    '''returns boolean\n\n
+    isVisited()\n
     '''
 def install():
-    '''public void install(final ProductInstance product)
+    '''returns None\n\n
+    install(final ProductInstance product)\n
     '''
 def push():
-    '''public void push(final ProductInstance product)
+    '''returns None\n\n
+    push(final ProductInstance product)\n
     '''
 def pop():
-    '''public ProductInstance pop()
+    '''returns ProductInstance\n\n
+    pop()\n
     '''
 def isCycle():
-    '''public boolean isCycle(final ProductInstance product)
+    '''returns boolean\n\n
+    isCycle(final ProductInstance product)\n
     '''

@@ -1,18 +1,24 @@
-def Events():
-    '''public Events(final WebClientSession session)
+def ():
+    '''returns Events\n\n
+    (final WebClientSession session)\n
     '''
 def log():
-    '''public EventEntry log(final WebClientEvent event)
+    '''returns EventEntry\n\n
+    log(final WebClientEvent event)\n
     '''
 def getEvents():
-    '''public EventEntry[] getEvents()
+    '''returns EventEntry[]\n\n
+    getEvents()\n
     '''
 def setHandling():
-    '''public void setHandling(final WebClientEvent event, final boolean handling)
+    '''returns None\n\n
+    setHandling(final WebClientEvent event, final boolean handling)\n
     '''
 def addHandledBy():
-    '''public void addHandledBy(final WebClientEvent event, final Object handler)
+    '''returns None\n\n
+    addHandledBy(final WebClientEvent event, final Object handler)\n
     '''
 def setRequestEvent():
-    '''public void setRequestEvent(final WebClientEvent event, final boolean isRequestEvent)
+    '''returns None\n\n
+    setRequestEvent(final WebClientEvent event, final boolean isRequestEvent)\n
     '''

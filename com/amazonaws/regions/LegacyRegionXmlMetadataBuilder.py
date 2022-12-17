@@ -1,3 +1,4 @@
 def build():
-    '''public RegionMetadata build()
+    '''returns RegionMetadata\n\n
+    build()\n
     '''

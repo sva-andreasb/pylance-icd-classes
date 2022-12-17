@@ -1,8 +1,10 @@
-def FldAssetnum():
-    '''public FldAssetnum(final MboValue mbv)
-    public FldAssetnum(final MboValue mbv, final String criteriaName)
-    public FldAssetnum(final MboValue mbv, String criteriaName, String siteAttrib)
+def ():
+    '''returns FldAssetnum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String criteriaName)\n
+    (final MboValue mbv, String criteriaName, String siteAttrib)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,9 +1,12 @@
-def FlatFileRowSet():
-    '''public FlatFileRowSet(final Iterator itr)
+def ():
+    '''returns FlatFileRowSet\n\n
+    (final Iterator itr)\n
     '''
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''
 def getFieldValue():
-    '''public String getFieldValue(final String columnName, final MboValueInfo columnInfo)
+    '''returns String\n\n
+    getFieldValue(final String columnName, final MboValueInfo columnInfo)\n
     '''

@@ -1,3 +1,4 @@
 def getRegionByEndpoint():
-    '''public Region getRegionByEndpoint(final String endpoint)
+    '''returns Region\n\n
+    getRegionByEndpoint(final String endpoint)\n
     '''

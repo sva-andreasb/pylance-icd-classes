@@ -1,3 +1,4 @@
-def Archive():
-    '''public Archive(final MboSet ms)
+def ():
+    '''returns Archive\n\n
+    (final MboSet ms)\n
     '''

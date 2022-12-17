@@ -1,24 +1,32 @@
-def OmpImLmoRelInfo():
-    '''public OmpImLmoRelInfo(final String ompGuid, final String lmoName, final String lmoNamespace, final String imName, final String imVersion, final String endPointName, final boolean primary)
+def ():
+    '''returns OmpImLmoRelInfo\n\n
+    (final String ompGuid, final String lmoName, final String lmoNamespace, final String imName, final String imVersion, final String endPointName, final boolean primary)\n
     '''
 def getOmpGuid():
-    '''public String getOmpGuid()
+    '''returns String\n\n
+    getOmpGuid()\n
     '''
 def getLmoName():
-    '''public String getLmoName()
+    '''returns String\n\n
+    getLmoName()\n
     '''
 def getLmoNamespace():
-    '''public String getLmoNamespace()
+    '''returns String\n\n
+    getLmoNamespace()\n
     '''
 def getImName():
-    '''public String getImName()
+    '''returns String\n\n
+    getImName()\n
     '''
 def getImVersion():
-    '''public String getImVersion()
+    '''returns String\n\n
+    getImVersion()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def isPrimary():
-    '''public boolean isPrimary()
+    '''returns boolean\n\n
+    isPrimary()\n
     '''

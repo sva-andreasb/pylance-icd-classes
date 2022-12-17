@@ -1,4 +1,5 @@
-def XPathFunctionException():
-    '''public XPathFunctionException(final String s)
-    public XPathFunctionException(final Throwable t)
+def ():
+    '''returns XPathFunctionException\n\n
+    (final String s)\n
+    (final Throwable t)\n
     '''

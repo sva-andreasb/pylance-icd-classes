@@ -1,3 +1,4 @@
 def apply():
-    '''public int apply()
+    '''returns int\n\n
+    apply()\n
     '''

@@ -1,6 +1,8 @@
-def GroupReassignAuth():
-    '''public GroupReassignAuth(final MboSet ms)
+def ():
+    '''returns GroupReassignAuth\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

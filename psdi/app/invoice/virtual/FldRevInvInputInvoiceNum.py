@@ -1,6 +1,8 @@
-def FldRevInvInputInvoiceNum():
-    '''public FldRevInvInputInvoiceNum(final MboValue mbv)
+def ():
+    '''returns FldRevInvInputInvoiceNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

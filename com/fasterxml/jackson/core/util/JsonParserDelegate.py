@@ -1,213 +1,282 @@
-def JsonParserDelegate():
-    '''public JsonParserDelegate(final JsonParser d)
+def ():
+    '''returns JsonParserDelegate\n\n
+    (final JsonParser d)\n
     '''
 def getCurrentValue():
-    '''public Object getCurrentValue()
+    '''returns Object\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final Object v)
+    '''returns None\n\n
+    setCurrentValue(final Object v)\n
     '''
 def setCodec():
-    '''public void setCodec(final ObjectCodec c)
+    '''returns None\n\n
+    setCodec(final ObjectCodec c)\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
     '''
 def enable():
-    '''public JsonParser enable(final Feature f)
+    '''returns JsonParser\n\n
+    enable(final Feature f)\n
     '''
 def disable():
-    '''public JsonParser disable(final Feature f)
+    '''returns JsonParser\n\n
+    disable(final Feature f)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Feature f)
+    '''returns boolean\n\n
+    isEnabled(final Feature f)\n
     '''
 def getFeatureMask():
-    '''public int getFeatureMask()
+    '''returns int\n\n
+    getFeatureMask()\n
     '''
 def setFeatureMask():
-    '''public JsonParser setFeatureMask(final int mask)
+    '''returns JsonParser\n\n
+    setFeatureMask(final int mask)\n
     '''
 def overrideStdFeatures():
-    '''public JsonParser overrideStdFeatures(final int values, final int mask)
+    '''returns JsonParser\n\n
+    overrideStdFeatures(final int values, final int mask)\n
     '''
 def overrideFormatFeatures():
-    '''public JsonParser overrideFormatFeatures(final int values, final int mask)
+    '''returns JsonParser\n\n
+    overrideFormatFeatures(final int values, final int mask)\n
     '''
 def getSchema():
-    '''public FormatSchema getSchema()
+    '''returns FormatSchema\n\n
+    getSchema()\n
     '''
 def setSchema():
-    '''public void setSchema(final FormatSchema schema)
+    '''returns None\n\n
+    setSchema(final FormatSchema schema)\n
     '''
 def canUseSchema():
-    '''public boolean canUseSchema(final FormatSchema schema)
+    '''returns boolean\n\n
+    canUseSchema(final FormatSchema schema)\n
     '''
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def getInputSource():
-    '''public Object getInputSource()
+    '''returns Object\n\n
+    getInputSource()\n
     '''
 def requiresCustomCodec():
-    '''public boolean requiresCustomCodec()
+    '''returns boolean\n\n
+    requiresCustomCodec()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def currentToken():
-    '''public JsonToken currentToken()
+    '''returns JsonToken\n\n
+    currentToken()\n
     '''
 def currentTokenId():
-    '''public int currentTokenId()
+    '''returns int\n\n
+    currentTokenId()\n
     '''
 def getCurrentToken():
-    '''public JsonToken getCurrentToken()
+    '''returns JsonToken\n\n
+    getCurrentToken()\n
     '''
 def getCurrentTokenId():
-    '''public int getCurrentTokenId()
+    '''returns int\n\n
+    getCurrentTokenId()\n
     '''
 def hasCurrentToken():
-    '''public boolean hasCurrentToken()
+    '''returns boolean\n\n
+    hasCurrentToken()\n
     '''
 def hasTokenId():
-    '''public boolean hasTokenId(final int id)
+    '''returns boolean\n\n
+    hasTokenId(final int id)\n
     '''
 def hasToken():
-    '''public boolean hasToken(final JsonToken t)
+    '''returns boolean\n\n
+    hasToken(final JsonToken t)\n
     '''
 def getCurrentName():
-    '''public String getCurrentName()
+    '''returns String\n\n
+    getCurrentName()\n
     '''
 def getCurrentLocation():
-    '''public JsonLocation getCurrentLocation()
+    '''returns JsonLocation\n\n
+    getCurrentLocation()\n
     '''
 def getParsingContext():
-    '''public JsonStreamContext getParsingContext()
+    '''returns JsonStreamContext\n\n
+    getParsingContext()\n
     '''
 def isExpectedStartArrayToken():
-    '''public boolean isExpectedStartArrayToken()
+    '''returns boolean\n\n
+    isExpectedStartArrayToken()\n
     '''
 def isExpectedStartObjectToken():
-    '''public boolean isExpectedStartObjectToken()
+    '''returns boolean\n\n
+    isExpectedStartObjectToken()\n
     '''
 def isNaN():
-    '''public boolean isNaN()
+    '''returns boolean\n\n
+    isNaN()\n
     '''
 def clearCurrentToken():
-    '''public void clearCurrentToken()
+    '''returns None\n\n
+    clearCurrentToken()\n
     '''
 def getLastClearedToken():
-    '''public JsonToken getLastClearedToken()
+    '''returns JsonToken\n\n
+    getLastClearedToken()\n
     '''
 def overrideCurrentName():
-    '''public void overrideCurrentName(final String name)
+    '''returns None\n\n
+    overrideCurrentName(final String name)\n
     '''
 def getText():
-    '''public String getText()
-    public int getText(final Writer writer)
+    '''returns int\n\n
+    getText()\n
+    getText(final Writer writer)\n
     '''
 def hasTextCharacters():
-    '''public boolean hasTextCharacters()
+    '''returns boolean\n\n
+    hasTextCharacters()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
+    '''returns char[]\n\n
+    getTextCharacters()\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getTextOffset():
-    '''public int getTextOffset()
+    '''returns int\n\n
+    getTextOffset()\n
     '''
 def getBigIntegerValue():
-    '''public BigInteger getBigIntegerValue()
+    '''returns BigInteger\n\n
+    getBigIntegerValue()\n
     '''
 def getBooleanValue():
-    '''public boolean getBooleanValue()
+    '''returns boolean\n\n
+    getBooleanValue()\n
     '''
 def getByteValue():
-    '''public byte getByteValue()
+    '''returns byte\n\n
+    getByteValue()\n
     '''
 def getShortValue():
-    '''public short getShortValue()
+    '''returns short\n\n
+    getShortValue()\n
     '''
 def getDecimalValue():
-    '''public BigDecimal getDecimalValue()
+    '''returns BigDecimal\n\n
+    getDecimalValue()\n
     '''
 def getDoubleValue():
-    '''public double getDoubleValue()
+    '''returns double\n\n
+    getDoubleValue()\n
     '''
 def getFloatValue():
-    '''public float getFloatValue()
+    '''returns float\n\n
+    getFloatValue()\n
     '''
 def getIntValue():
-    '''public int getIntValue()
+    '''returns int\n\n
+    getIntValue()\n
     '''
 def getLongValue():
-    '''public long getLongValue()
+    '''returns long\n\n
+    getLongValue()\n
     '''
 def getNumberType():
-    '''public NumberType getNumberType()
+    '''returns NumberType\n\n
+    getNumberType()\n
     '''
 def getNumberValue():
-    '''public Number getNumberValue()
+    '''returns Number\n\n
+    getNumberValue()\n
     '''
 def getValueAsInt():
-    '''public int getValueAsInt()
-    public int getValueAsInt(final int defaultValue)
+    '''returns int\n\n
+    getValueAsInt()\n
+    getValueAsInt(final int defaultValue)\n
     '''
 def getValueAsLong():
-    '''public long getValueAsLong()
-    public long getValueAsLong(final long defaultValue)
+    '''returns long\n\n
+    getValueAsLong()\n
+    getValueAsLong(final long defaultValue)\n
     '''
 def getValueAsDouble():
-    '''public double getValueAsDouble()
-    public double getValueAsDouble(final double defaultValue)
+    '''returns double\n\n
+    getValueAsDouble()\n
+    getValueAsDouble(final double defaultValue)\n
     '''
 def getValueAsBoolean():
-    '''public boolean getValueAsBoolean()
-    public boolean getValueAsBoolean(final boolean defaultValue)
+    '''returns boolean\n\n
+    getValueAsBoolean()\n
+    getValueAsBoolean(final boolean defaultValue)\n
     '''
 def getValueAsString():
-    '''public String getValueAsString()
-    public String getValueAsString(final String defaultValue)
+    '''returns String\n\n
+    getValueAsString()\n
+    getValueAsString(final String defaultValue)\n
     '''
 def getEmbeddedObject():
-    '''public Object getEmbeddedObject()
+    '''returns Object\n\n
+    getEmbeddedObject()\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue(final Base64Variant b64variant)
+    '''returns byte[]\n\n
+    getBinaryValue(final Base64Variant b64variant)\n
     '''
 def readBinaryValue():
-    '''public int readBinaryValue(final Base64Variant b64variant, final OutputStream out)
+    '''returns int\n\n
+    readBinaryValue(final Base64Variant b64variant, final OutputStream out)\n
     '''
 def getTokenLocation():
-    '''public JsonLocation getTokenLocation()
+    '''returns JsonLocation\n\n
+    getTokenLocation()\n
     '''
 def nextToken():
-    '''public JsonToken nextToken()
+    '''returns JsonToken\n\n
+    nextToken()\n
     '''
 def nextValue():
-    '''public JsonToken nextValue()
+    '''returns JsonToken\n\n
+    nextValue()\n
     '''
 def finishToken():
-    '''public void finishToken()
+    '''returns None\n\n
+    finishToken()\n
     '''
 def skipChildren():
-    '''public JsonParser skipChildren()
+    '''returns JsonParser\n\n
+    skipChildren()\n
     '''
 def canReadObjectId():
-    '''public boolean canReadObjectId()
+    '''returns boolean\n\n
+    canReadObjectId()\n
     '''
 def canReadTypeId():
-    '''public boolean canReadTypeId()
+    '''returns boolean\n\n
+    canReadTypeId()\n
     '''
 def getObjectId():
-    '''public Object getObjectId()
+    '''returns Object\n\n
+    getObjectId()\n
     '''
 def getTypeId():
-    '''public Object getTypeId()
+    '''returns Object\n\n
+    getTypeId()\n
     '''

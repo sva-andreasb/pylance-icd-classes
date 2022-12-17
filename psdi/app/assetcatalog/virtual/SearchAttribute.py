@@ -1,18 +1,24 @@
-def SearchAttribute():
-    '''public SearchAttribute(final MboSet ms)
+def ():
+    '''returns SearchAttribute\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setInternalDataType():
-    '''public void setInternalDataType(final String internalDataType)
+    '''returns None\n\n
+    setInternalDataType(final String internalDataType)\n
     '''
 def getInternalDataType():
-    '''public String getInternalDataType()
+    '''returns String\n\n
+    getInternalDataType()\n
     '''
 def getTableDomainObject():
-    '''public MboRemote getTableDomainObject()
+    '''returns MboRemote\n\n
+    getTableDomainObject()\n
     '''
 def getFirstTableAttribute():
-    '''public String getFirstTableAttribute()
+    '''returns String\n\n
+    getFirstTableAttribute()\n
     '''

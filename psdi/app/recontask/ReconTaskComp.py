@@ -1,12 +1,16 @@
-def ReconTaskComp():
-    '''public ReconTaskComp(final MboSet ms)
+def ():
+    '''returns ReconTaskComp\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

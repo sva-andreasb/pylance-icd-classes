@@ -1,28 +1,37 @@
-def SKDDataValOption():
-    '''public SKDDataValOption(final MboSet ms)
+def ():
+    '''returns SKDDataValOption\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def QueryTabValidate():
-    '''public int QueryTabValidate()
+    '''returns int\n\n
+    QueryTabValidate()\n
     '''
 def CalendarTabValidate():
-    '''public int CalendarTabValidate()
+    '''returns int\n\n
+    CalendarTabValidate()\n
     '''
 def WorkTabValidate():
-    '''public int WorkTabValidate()
+    '''returns int\n\n
+    WorkTabValidate()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
-    public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
+    getUserInfo()\n
     '''
 def ConstraintsTabValidate():
-    '''public int ConstraintsTabValidate()
+    '''returns int\n\n
+    ConstraintsTabValidate()\n
     '''
 def ResourceTabValidate():
-    '''public int ResourceTabValidate()
+    '''returns int\n\n
+    ResourceTabValidate()\n
     '''
 def AssignTabValidate():
-    '''public int AssignTabValidate()
+    '''returns int\n\n
+    AssignTabValidate()\n
     '''

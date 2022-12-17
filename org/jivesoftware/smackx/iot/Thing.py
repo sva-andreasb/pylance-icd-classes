@@ -1,57 +1,72 @@
 def getMetaTags():
-    '''public Collection<Tag> getMetaTags()
+    '''returns Collection<Tag>\n\n
+    getMetaTags()\n
     '''
 def isSelfOwened():
-    '''public boolean isSelfOwened()
+    '''returns boolean\n\n
+    isSelfOwened()\n
     '''
 def getNodeInfo():
-    '''public NodeInfo getNodeInfo()
+    '''returns NodeInfo\n\n
+    getNodeInfo()\n
     '''
 def getNodeId():
-    '''public String getNodeId()
+    '''returns String\n\n
+    getNodeId()\n
     '''
 def getSourceId():
-    '''public String getSourceId()
+    '''returns String\n\n
+    getSourceId()\n
     '''
 def getCacheType():
-    '''public String getCacheType()
+    '''returns String\n\n
+    getCacheType()\n
     '''
 def getMomentaryReadOutRequestHandler():
-    '''public ThingMomentaryReadOutRequest getMomentaryReadOutRequestHandler()
+    '''returns ThingMomentaryReadOutRequest\n\n
+    getMomentaryReadOutRequestHandler()\n
     '''
 def getControlRequestHandler():
-    '''public ThingControlRequest getControlRequestHandler()
+    '''returns ThingControlRequest\n\n
+    getControlRequestHandler()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def builder():
-    '''public static Builder builder()
-    '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def setSerialNumber():
-    '''public Builder setSerialNumber(final String sn)
+    '''returns Builder\n\n
+    setSerialNumber(final String sn)\n
     '''
 def setKey():
-    '''public Builder setKey(final String key)
+    '''returns Builder\n\n
+    setKey(final String key)\n
     '''
 def setManufacturer():
-    '''public Builder setManufacturer(final String manufacturer)
+    '''returns Builder\n\n
+    setManufacturer(final String manufacturer)\n
     '''
 def setModel():
-    '''public Builder setModel(final String model)
+    '''returns Builder\n\n
+    setModel(final String model)\n
     '''
 def setVersion():
-    '''public Builder setVersion(final String version)
+    '''returns Builder\n\n
+    setVersion(final String version)\n
     '''
 def setMomentaryReadOutRequestHandler():
-    '''public Builder setMomentaryReadOutRequestHandler(final ThingMomentaryReadOutRequest momentaryReadOutRequestHandler)
+    '''returns Builder\n\n
+    setMomentaryReadOutRequestHandler(final ThingMomentaryReadOutRequest momentaryReadOutRequestHandler)\n
     '''
 def setControlRequestHandler():
-    '''public Builder setControlRequestHandler(final ThingControlRequest controlRequest)
+    '''returns Builder\n\n
+    setControlRequestHandler(final ThingControlRequest controlRequest)\n
     '''
 def build():
-    '''public Thing build()
+    '''returns Thing\n\n
+    build()\n
     '''

@@ -1,19 +1,21 @@
-def PublicSuffixDomainFilter():
-    '''public PublicSuffixDomainFilter(final CommonCookieAttributeHandler handler, final PublicSuffixMatcher publicSuffixMatcher)
-    public PublicSuffixDomainFilter(final CommonCookieAttributeHandler handler, final PublicSuffixList suffixList)
+def ():
+    '''returns PublicSuffixDomainFilter\n\n
+    (final CommonCookieAttributeHandler handler, final PublicSuffixMatcher publicSuffixMatcher)\n
+    (final CommonCookieAttributeHandler handler, final PublicSuffixList suffixList)\n
     '''
 def match():
-    '''public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''returns boolean\n\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def parse():
-    '''public void parse(final SetCookie cookie, final String value)
+    '''returns None\n\n
+    parse(final SetCookie cookie, final String value)\n
     '''
 def validate():
-    '''public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''returns None\n\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
-    '''
-def decorate():
-    '''public static CommonCookieAttributeHandler decorate(final CommonCookieAttributeHandler handler, final PublicSuffixMatcher publicSuffixMatcher)
+    '''returns String\n\n
+    getAttributeName()\n
     '''

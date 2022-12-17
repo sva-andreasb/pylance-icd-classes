@@ -1,88 +1,116 @@
-def URIBuilder():
-    '''public URIBuilder()
-    public URIBuilder(final String string)
-    public URIBuilder(final URI uri)
+def ():
+    '''returns URIBuilder\n\n
+    ()\n
+    (final String string)\n
+    (final URI uri)\n
     '''
 def setCharset():
-    '''public URIBuilder setCharset(final Charset charset)
+    '''returns URIBuilder\n\n
+    setCharset(final Charset charset)\n
     '''
 def getCharset():
-    '''public Charset getCharset()
+    '''returns Charset\n\n
+    getCharset()\n
     '''
 def build():
-    '''public URI build()
+    '''returns URI\n\n
+    build()\n
     '''
 def setScheme():
-    '''public URIBuilder setScheme(final String scheme)
+    '''returns URIBuilder\n\n
+    setScheme(final String scheme)\n
     '''
 def setUserInfo():
-    '''public URIBuilder setUserInfo(final String userInfo)
-    public URIBuilder setUserInfo(final String username, final String password)
+    '''returns URIBuilder\n\n
+    setUserInfo(final String userInfo)\n
+    setUserInfo(final String username, final String password)\n
     '''
 def setHost():
-    '''public URIBuilder setHost(final String host)
+    '''returns URIBuilder\n\n
+    setHost(final String host)\n
     '''
 def setPort():
-    '''public URIBuilder setPort(final int port)
+    '''returns URIBuilder\n\n
+    setPort(final int port)\n
     '''
 def setPath():
-    '''public URIBuilder setPath(final String path)
+    '''returns URIBuilder\n\n
+    setPath(final String path)\n
     '''
 def removeQuery():
-    '''public URIBuilder removeQuery()
+    '''returns URIBuilder\n\n
+    removeQuery()\n
     '''
 def setQuery():
-    '''public URIBuilder setQuery(final String query)
+    '''returns URIBuilder\n\n
+    setQuery(final String query)\n
     '''
 def setParameters():
-    '''public URIBuilder setParameters(final List<NameValuePair> nvps)
-    public URIBuilder setParameters(final NameValuePair... nvps)
+    '''returns URIBuilder\n\n
+    setParameters(final List<NameValuePair> nvps)\n
+    setParameters(final NameValuePair... nvps)\n
     '''
 def addParameters():
-    '''public URIBuilder addParameters(final List<NameValuePair> nvps)
+    '''returns URIBuilder\n\n
+    addParameters(final List<NameValuePair> nvps)\n
     '''
 def addParameter():
-    '''public URIBuilder addParameter(final String param, final String value)
+    '''returns URIBuilder\n\n
+    addParameter(final String param, final String value)\n
     '''
 def setParameter():
-    '''public URIBuilder setParameter(final String param, final String value)
+    '''returns URIBuilder\n\n
+    setParameter(final String param, final String value)\n
     '''
 def clearParameters():
-    '''public URIBuilder clearParameters()
+    '''returns URIBuilder\n\n
+    clearParameters()\n
     '''
 def setCustomQuery():
-    '''public URIBuilder setCustomQuery(final String query)
+    '''returns URIBuilder\n\n
+    setCustomQuery(final String query)\n
     '''
 def setFragment():
-    '''public URIBuilder setFragment(final String fragment)
+    '''returns URIBuilder\n\n
+    setFragment(final String fragment)\n
     '''
 def isAbsolute():
-    '''public boolean isAbsolute()
+    '''returns boolean\n\n
+    isAbsolute()\n
     '''
 def isOpaque():
-    '''public boolean isOpaque()
+    '''returns boolean\n\n
+    isOpaque()\n
     '''
 def getScheme():
-    '''public String getScheme()
+    '''returns String\n\n
+    getScheme()\n
     '''
 def getUserInfo():
-    '''public String getUserInfo()
+    '''returns String\n\n
+    getUserInfo()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def getQueryParams():
-    '''public List<NameValuePair> getQueryParams()
+    '''returns List<NameValuePair>\n\n
+    getQueryParams()\n
     '''
 def getFragment():
-    '''public String getFragment()
+    '''returns String\n\n
+    getFragment()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

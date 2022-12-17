@@ -1,25 +1,13 @@
-def ArchiveOptionDescriptor():
-    '''public ArchiveOptionDescriptor()
-    public ArchiveOptionDescriptor(final ArchiveOptionEnum name, final ArchiveDescriptor value)
+def ():
+    '''returns ArchiveOptionDescriptor\n\n
+    ()\n
+    (final ArchiveOptionEnum name, final ArchiveDescriptor value)\n
     '''
 def getValue():
-    '''public ArchiveDescriptor getValue()
+    '''returns ArchiveDescriptor\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final ArchiveDescriptor value)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setValue(final ArchiveDescriptor value)\n
     '''

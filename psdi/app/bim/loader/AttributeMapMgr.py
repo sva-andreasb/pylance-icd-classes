@@ -19,45 +19,59 @@ TYPE_SMALLINT = "String  \"SMALLINT\""
 TYPE_TIME = "String  \"TIME\""
 TYPE_UPPER = "String  \"UPPER\""
 TYPE_YORN = "String  \"YORN\""
-def AttributeMapMgr():
-    '''public AttributeMapMgr(final ModelProcessIntf loader, final String fieldMapName, final String specMapName)
+def ():
+    '''returns AttributeMapMgr\n\n
+    (final ModelProcessIntf loader, final String fieldMapName, final String specMapName)\n
     '''
 def isSkipAttributeType():
-    '''public boolean isSkipAttributeType(final ItemAttributeType attribType)
+    '''returns boolean\n\n
+    isSkipAttributeType(final ItemAttributeType attribType)\n
     '''
 def isSkipAttribute():
-    '''public boolean isSkipAttribute(String attribName, final String sheetName)
+    '''returns boolean\n\n
+    isSkipAttribute(String attribName, final String sheetName)\n
     '''
 def isSkipAttributeForMbo():
-    '''public boolean isSkipAttributeForMbo(String attribName, final String mboName)
+    '''returns boolean\n\n
+    isSkipAttributeForMbo(String attribName, final String mboName)\n
     '''
 def setMappedFields():
-    '''public void setMappedFields(final Enumeration<ItemATTRIBUTE> attributes, final MboRemote mbo)
+    '''returns None\n\n
+    setMappedFields(final Enumeration<ItemATTRIBUTE> attributes, final MboRemote mbo)\n
     '''
 def setMappedField():
-    '''public boolean setMappedField(final ItemATTRIBUTE attrib, final String tableName, final MboRemote mbo)
+    '''returns boolean\n\n
+    setMappedField(final ItemATTRIBUTE attrib, final String tableName, final MboRemote mbo)\n
     '''
 def getMappedSpec():
-    '''public SpecEntry getMappedSpec(final String attributeName)
+    '''returns SpecEntry\n\n
+    getMappedSpec(final String attributeName)\n
     '''
 def getAttributeForSpec():
-    '''public String getAttributeForSpec(final String attrId)
+    '''returns String\n\n
+    getAttributeForSpec(final String attrId)\n
     '''
 def getMappedField():
-    '''public Set<ItemATTRIBUTE> getMappedField(final ItemBase item, final MboRemote mbo)
+    '''returns Set<ItemATTRIBUTE>\n\n
+    getMappedField(final ItemBase item, final MboRemote mbo)\n
     '''
 def getAssetAttridId():
-    '''public String getAssetAttridId()
+    '''returns String\n\n
+    getAssetAttridId()\n
     '''
 def getDataType():
-    '''public String getDataType()
+    '''returns String\n\n
+    getDataType()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getOrgId():
-    '''public String getOrgId()
+    '''returns String\n\n
+    getOrgId()\n
     '''
 def getSiteId():
-    '''public String getSiteId()
+    '''returns String\n\n
+    getSiteId()\n
     '''

@@ -1,3 +1,4 @@
 def getNumVar():
-    '''public IloNumVar getNumVar()
+    '''returns IloNumVar\n\n
+    getNumVar()\n
     '''

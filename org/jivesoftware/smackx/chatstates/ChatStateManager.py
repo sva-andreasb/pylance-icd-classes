@@ -1,28 +1,33 @@
 NAMESPACE = "String  \"http://jabber.org/protocol/chatstates\""
-def getInstance():
-    '''public static synchronized ChatStateManager getInstance(final XMPPConnection connection)
-    '''
 def newOutgoingMessage():
-    '''public void newOutgoingMessage(final EntityBareJid to, final Message message, final Chat chat)
+    '''returns None\n\n
+    newOutgoingMessage(final EntityBareJid to, final Message message, final Chat chat)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def addChatStateListener():
-    '''public boolean addChatStateListener(final ChatStateListener listener)
+    '''returns boolean\n\n
+    addChatStateListener(final ChatStateListener listener)\n
     '''
 def removeChatStateListener():
-    '''public boolean removeChatStateListener(final ChatStateListener listener)
+    '''returns boolean\n\n
+    removeChatStateListener(final ChatStateListener listener)\n
     '''
 def setCurrentState():
-    '''public void setCurrentState(final ChatState newState, final Chat chat)
+    '''returns None\n\n
+    setCurrentState(final ChatState newState, final Chat chat)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

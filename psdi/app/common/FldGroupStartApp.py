@@ -1,6 +1,8 @@
-def FldGroupStartApp():
-    '''public FldGroupStartApp(final MboValue mbv)
+def ():
+    '''returns FldGroupStartApp\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

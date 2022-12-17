@@ -1,10 +1,13 @@
-def SimpleVariableContext():
-    '''public SimpleVariableContext()
+def ():
+    '''returns SimpleVariableContext\n\n
+    ()\n
     '''
 def setVariableValue():
-    '''public void setVariableValue(final String namespaceURI, final String localName, final Object value)
-    public void setVariableValue(final String localName, final Object value)
+    '''returns None\n\n
+    setVariableValue(final String namespaceURI, final String localName, final Object value)\n
+    setVariableValue(final String localName, final Object value)\n
     '''
 def getVariableValue():
-    '''public Object getVariableValue(final String namespaceURI, final String prefix, final String localName)
+    '''returns Object\n\n
+    getVariableValue(final String namespaceURI, final String prefix, final String localName)\n
     '''

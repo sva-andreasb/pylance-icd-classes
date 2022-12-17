@@ -1,87 +1,112 @@
-def KnownEntry():
-    '''public KnownEntry(final String idIn, final String nodeTypeIn, final long inOffset, final String classTypeIn, final String srcTokIn)
+def ():
+    '''returns KnownEntry\n\n
+    (final String idIn, final String nodeTypeIn, final long inOffset, final String classTypeIn, final String srcTokIn)\n
     '''
 def setClassType():
-    '''public void setClassType(final String _classType)
+    '''returns None\n\n
+    setClassType(final String _classType)\n
     '''
 def setLinkedCiClassType():
-    '''public void setLinkedCiClassType(final String _classType)
+    '''returns None\n\n
+    setLinkedCiClassType(final String _classType)\n
     '''
 def setSourceToken():
-    '''public void setSourceToken(final String srcTokIn)
+    '''returns None\n\n
+    setSourceToken(final String srcTokIn)\n
     '''
 def getClassType():
-    '''public String getClassType()
+    '''returns String\n\n
+    getClassType()\n
     '''
 def getLinkedCiClassType():
-    '''public String getLinkedCiClassType()
+    '''returns String\n\n
+    getLinkedCiClassType()\n
     '''
 def setOffset():
-    '''public void setOffset(final long inOffset)
+    '''returns None\n\n
+    setOffset(final long inOffset)\n
     '''
 def getOffset():
-    '''public long getOffset()
+    '''returns long\n\n
+    getOffset()\n
     '''
 def getChildren():
-    '''public ArrayList getChildren()
+    '''returns ArrayList\n\n
+    getChildren()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getSourceToken():
-    '''public String getSourceToken()
+    '''returns String\n\n
+    getSourceToken()\n
     '''
 def getNodeType():
-    '''public String getNodeType()
+    '''returns String\n\n
+    getNodeType()\n
     '''
 def setNodeType():
-    '''public void setNodeType(final String _nodeType)
+    '''returns None\n\n
+    setNodeType(final String _nodeType)\n
     '''
 def setWrittenToDb():
-    '''public void setWrittenToDb()
+    '''returns None\n\n
+    setWrittenToDb()\n
     '''
 def clearWrittenToDb():
-    '''public void clearWrittenToDb()
+    '''returns None\n\n
+    clearWrittenToDb()\n
     '''
 def getWrittenToDb():
-    '''public int getWrittenToDb()
+    '''returns int\n\n
+    getWrittenToDb()\n
     '''
 def setChild():
-    '''public void setChild(final String childId)
+    '''returns None\n\n
+    setChild(final String childId)\n
     '''
 def getNumNamingContexts():
-    '''public int getNumNamingContexts()
-    '''
-def getRelationships():
-    '''public HashMap<ParentReln, String> getRelationships()
+    '''returns int\n\n
+    getNumNamingContexts()\n
     '''
 def setGuid():
-    '''public void setGuid(final Guid guidIn)
+    '''returns None\n\n
+    setGuid(final Guid guidIn)\n
     '''
 def getGuid():
-    '''public Guid getGuid()
+    '''returns Guid\n\n
+    getGuid()\n
     '''
 def setAbstract():
-    '''public void setAbstract(final boolean abstractBool)
+    '''returns None\n\n
+    setAbstract(final boolean abstractBool)\n
     '''
 def getAbstract():
-    '''public boolean getAbstract()
+    '''returns boolean\n\n
+    getAbstract()\n
     '''
 def setExtendedAttrs():
-    '''public void setExtendedAttrs(final HashMap extendedAttrsIn)
+    '''returns None\n\n
+    setExtendedAttrs(final HashMap extendedAttrsIn)\n
     '''
 def getExtendedAttrs():
-    '''public HashMap getExtendedAttrs()
+    '''returns HashMap\n\n
+    getExtendedAttrs()\n
     '''
 def setRelationship():
-    '''public void setRelationship(final String namingContextId, final String relationship, final String childId, final String role)
+    '''returns None\n\n
+    setRelationship(final String namingContextId, final String relationship, final String childId, final String role)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isAlreadyTried():
-    '''public boolean isAlreadyTried()
+    '''returns boolean\n\n
+    isAlreadyTried()\n
     '''
 def setAlreadyTried():
-    '''public void setAlreadyTried(final boolean alreadyTried)
+    '''returns None\n\n
+    setAlreadyTried(final boolean alreadyTried)\n
     '''

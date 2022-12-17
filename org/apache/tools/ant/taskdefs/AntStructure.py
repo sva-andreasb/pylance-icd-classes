@@ -1,30 +1,32 @@
-def AntStructure():
-    '''public AntStructure()
+def ():
+    '''returns AntStructure\n\n
+    ()\n
     '''
 def setOutput():
-    '''public void setOutput(final File output)
+    '''returns None\n\n
+    setOutput(final File output)\n
     '''
 def add():
-    '''public void add(final StructurePrinter p)
+    '''returns None\n\n
+    add(final StructurePrinter p)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def printTail():
-    '''public void printTail(final PrintWriter out)
+    '''returns None\n\n
+    printTail(final PrintWriter out)\n
     '''
 def printHead():
-    '''public void printHead(final PrintWriter out, final Project p, final Hashtable tasks, final Hashtable types)
+    '''returns None\n\n
+    printHead(final PrintWriter out, final Project p, final Hashtable tasks, final Hashtable types)\n
     '''
 def printTargetDecl():
-    '''public void printTargetDecl(final PrintWriter out)
+    '''returns None\n\n
+    printTargetDecl(final PrintWriter out)\n
     '''
 def printElementDecl():
-    '''public void printElementDecl(final PrintWriter out, final Project p, final String name, final Class element)
-    '''
-def isNmtoken():
-    '''public static final boolean isNmtoken(final String s)
-    '''
-def areNmtokens():
-    '''public static final boolean areNmtokens(final String[] s)
+    '''returns None\n\n
+    printElementDecl(final PrintWriter out, final Project p, final String name, final Class element)\n
     '''

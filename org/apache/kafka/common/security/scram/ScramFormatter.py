@@ -1,61 +1,81 @@
-def ScramFormatter():
-    '''public ScramFormatter(final ScramMechanism mechanism)
+def ():
+    '''returns ScramFormatter\n\n
+    (final ScramMechanism mechanism)\n
     '''
 def hmac():
-    '''public byte[] hmac(final byte[] key, final byte[] bytes)
+    '''returns byte[]\n\n
+    hmac(final byte[] key, final byte[] bytes)\n
     '''
 def hash():
-    '''public byte[] hash(final byte[] str)
+    '''returns byte[]\n\n
+    hash(final byte[] str)\n
     '''
 def xor():
-    '''public byte[] xor(final byte[] first, final byte[] second)
+    '''returns byte[]\n\n
+    xor(final byte[] first, final byte[] second)\n
     '''
 def hi():
-    '''public byte[] hi(final byte[] str, final byte[] salt, final int iterations)
+    '''returns byte[]\n\n
+    hi(final byte[] str, final byte[] salt, final int iterations)\n
     '''
 def normalize():
-    '''public byte[] normalize(final String str)
+    '''returns byte[]\n\n
+    normalize(final String str)\n
     '''
 def saltedPassword():
-    '''public byte[] saltedPassword(final String password, final byte[] salt, final int iterations)
+    '''returns byte[]\n\n
+    saltedPassword(final String password, final byte[] salt, final int iterations)\n
     '''
 def clientKey():
-    '''public byte[] clientKey(final byte[] saltedPassword)
+    '''returns byte[]\n\n
+    clientKey(final byte[] saltedPassword)\n
     '''
 def storedKey():
-    '''public byte[] storedKey(final byte[] clientKey)
-    public byte[] storedKey(final byte[] clientSignature, final byte[] clientProof)
+    '''returns byte[]\n\n
+    storedKey(final byte[] clientKey)\n
+    storedKey(final byte[] clientSignature, final byte[] clientProof)\n
     '''
 def saslName():
-    '''public String saslName(final String username)
+    '''returns String\n\n
+    saslName(final String username)\n
     '''
 def username():
-    '''public String username(final String saslName)
+    '''returns String\n\n
+    username(final String saslName)\n
     '''
 def authMessage():
-    '''public String authMessage(final String clientFirstMessageBare, final String serverFirstMessage, final String clientFinalMessageWithoutProof)
+    '''returns String\n\n
+    authMessage(final String clientFirstMessageBare, final String serverFirstMessage, final String clientFinalMessageWithoutProof)\n
     '''
 def clientSignature():
-    '''public byte[] clientSignature(final byte[] storedKey, final ScramMessages.ClientFirstMessage clientFirstMessage, final ScramMessages.ServerFirstMessage serverFirstMessage, final ScramMessages.ClientFinalMessage clientFinalMessage)
+    '''returns byte[]\n\n
+    clientSignature(final byte[] storedKey, final ScramMessages.ClientFirstMessage clientFirstMessage, final ScramMessages.ServerFirstMessage serverFirstMessage, final ScramMessages.ClientFinalMessage clientFinalMessage)\n
     '''
 def clientProof():
-    '''public byte[] clientProof(final byte[] saltedPassword, final ScramMessages.ClientFirstMessage clientFirstMessage, final ScramMessages.ServerFirstMessage serverFirstMessage, final ScramMessages.ClientFinalMessage clientFinalMessage)
+    '''returns byte[]\n\n
+    clientProof(final byte[] saltedPassword, final ScramMessages.ClientFirstMessage clientFirstMessage, final ScramMessages.ServerFirstMessage serverFirstMessage, final ScramMessages.ClientFinalMessage clientFinalMessage)\n
     '''
 def serverKey():
-    '''public byte[] serverKey(final byte[] saltedPassword)
+    '''returns byte[]\n\n
+    serverKey(final byte[] saltedPassword)\n
     '''
 def serverSignature():
-    '''public byte[] serverSignature(final byte[] serverKey, final ScramMessages.ClientFirstMessage clientFirstMessage, final ScramMessages.ServerFirstMessage serverFirstMessage, final ScramMessages.ClientFinalMessage clientFinalMessage)
+    '''returns byte[]\n\n
+    serverSignature(final byte[] serverKey, final ScramMessages.ClientFirstMessage clientFirstMessage, final ScramMessages.ServerFirstMessage serverFirstMessage, final ScramMessages.ClientFinalMessage clientFinalMessage)\n
     '''
 def secureRandomString():
-    '''public String secureRandomString()
+    '''returns String\n\n
+    secureRandomString()\n
     '''
 def secureRandomBytes():
-    '''public byte[] secureRandomBytes()
+    '''returns byte[]\n\n
+    secureRandomBytes()\n
     '''
 def toBytes():
-    '''public byte[] toBytes(final String str)
+    '''returns byte[]\n\n
+    toBytes(final String str)\n
     '''
 def generateCredential():
-    '''public ScramCredential generateCredential(final String password, final int iterations)
+    '''returns ScramCredential\n\n
+    generateCredential(final String password, final int iterations)\n
     '''

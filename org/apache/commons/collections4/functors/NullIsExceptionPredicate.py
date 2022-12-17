@@ -1,9 +1,8 @@
-def nullIsExceptionPredicate():
-    '''public static <T> Predicate<T> nullIsExceptionPredicate(final Predicate<? super T> predicate)
-    '''
-def NullIsExceptionPredicate():
-    '''public NullIsExceptionPredicate(final Predicate<? super T> predicate)
+def ():
+    '''returns NullIsExceptionPredicate\n\n
+    (final Predicate<? super T> predicate)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T object)
+    '''returns boolean\n\n
+    evaluate(final T object)\n
     '''

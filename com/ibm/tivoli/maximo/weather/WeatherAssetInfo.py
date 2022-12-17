@@ -1,30 +1,39 @@
 ADD = "String  \"Add\""
 DELETE = "String  \"Delete\""
 UPDATE = "String  \"Update\""
-def WeatherAssetInfo():
-    '''public WeatherAssetInfo(final String refId, final String osName, final long objectId, final String wsiId, final String action, final double lat, final double longt)
+def ():
+    '''returns WeatherAssetInfo\n\n
+    (final String refId, final String osName, final long objectId, final String wsiId, final String action, final double lat, final double longt)\n
     '''
 def getRefId():
-    '''public String getRefId()
+    '''returns String\n\n
+    getRefId()\n
     '''
 def getLatitude():
-    '''public double getLatitude()
+    '''returns double\n\n
+    getLatitude()\n
     '''
 def getLongtitude():
-    '''public double getLongtitude()
+    '''returns double\n\n
+    getLongtitude()\n
     '''
 def setWsiId():
-    '''public void setWsiId(final String id)
+    '''returns None\n\n
+    setWsiId(final String id)\n
     '''
 def getWsiId():
-    '''public String getWsiId()
+    '''returns String\n\n
+    getWsiId()\n
     '''
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''
 def getIntObjectName():
-    '''public String getIntObjectName()
+    '''returns String\n\n
+    getIntObjectName()\n
     '''
 def getObjectId():
-    '''public long getObjectId()
+    '''returns long\n\n
+    getObjectId()\n
     '''

@@ -1,3 +1,4 @@
-def WatsonVRImgSet():
-    '''public WatsonVRImgSet(final MboServerInterface ms)
+def ():
+    '''returns WatsonVRImgSet\n\n
+    (final MboServerInterface ms)\n
     '''

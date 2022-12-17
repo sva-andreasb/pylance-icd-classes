@@ -1,6 +1,8 @@
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def isNotRequired():
-    '''public boolean isNotRequired()
+    '''returns boolean\n\n
+    isNotRequired()\n
     '''

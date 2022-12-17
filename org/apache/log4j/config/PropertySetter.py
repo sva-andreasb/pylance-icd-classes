@@ -1,14 +1,17 @@
-def PropertySetter():
-    '''public PropertySetter(final Object obj)
+def ():
+    '''returns PropertySetter\n\n
+    (final Object obj)\n
     '''
 def setProperties():
-    '''public static void setProperties(final Object obj, final Properties properties, final String prefix)
-    public void setProperties(final Properties properties, final String prefix)
+    '''returns None\n\n
+    setProperties(final Properties properties, final String prefix)\n
     '''
 def setProperty():
-    '''public void setProperty(String name, final String value)
-    public void setProperty(final PropertyDescriptor prop, final String name, final String value)
+    '''returns None\n\n
+    setProperty(String name, final String value)\n
+    setProperty(final PropertyDescriptor prop, final String name, final String value)\n
     '''
 def activate():
-    '''public void activate()
+    '''returns None\n\n
+    activate()\n
     '''

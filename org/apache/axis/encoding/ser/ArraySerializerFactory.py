@@ -1,18 +1,23 @@
-def ArraySerializerFactory():
-    '''public ArraySerializerFactory()
-    public ArraySerializerFactory(final Class javaType, final QName xmlType)
-    public ArraySerializerFactory(final QName componentType)
-    public ArraySerializerFactory(final QName componentType, final QName componentQName)
+def ():
+    '''returns ArraySerializerFactory\n\n
+    ()\n
+    (final Class javaType, final QName xmlType)\n
+    (final QName componentType)\n
+    (final QName componentType, final QName componentQName)\n
     '''
 def setComponentQName():
-    '''public void setComponentQName(final QName componentQName)
+    '''returns None\n\n
+    setComponentQName(final QName componentQName)\n
     '''
 def setComponentType():
-    '''public void setComponentType(final QName componentType)
+    '''returns None\n\n
+    setComponentType(final QName componentType)\n
     '''
 def getComponentQName():
-    '''public QName getComponentQName()
+    '''returns QName\n\n
+    getComponentQName()\n
     '''
 def getComponentType():
-    '''public QName getComponentType()
+    '''returns QName\n\n
+    getComponentType()\n
     '''

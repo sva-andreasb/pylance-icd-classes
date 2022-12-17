@@ -1,6 +1,8 @@
-def NotQuery():
-    '''public NotQuery(final List<SrndQuery> queries, final String opName)
+def ():
+    '''returns NotQuery\n\n
+    (final List<SrndQuery> queries, final String opName)\n
     '''
 def makeLuceneQueryFieldNoBoost():
-    '''public Query makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)
+    '''returns Query\n\n
+    makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)\n
     '''

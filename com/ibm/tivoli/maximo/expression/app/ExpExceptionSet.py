@@ -1,3 +1,4 @@
-def ExpExceptionSet():
-    '''public ExpExceptionSet(final MboServerInterface ms)
+def ():
+    '''returns ExpExceptionSet\n\n
+    (final MboServerInterface ms)\n
     '''

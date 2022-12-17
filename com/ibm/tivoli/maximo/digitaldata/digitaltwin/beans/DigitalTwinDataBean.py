@@ -1,13 +1,17 @@
 DIGITALDATA_LOGGER = "String  \"maximo.digitaldata\""
-def DigitalTwinDataBean():
-    '''public DigitalTwinDataBean()
+def ():
+    '''returns DigitalTwinDataBean\n\n
+    ()\n
     '''
 def REQUESTDATA():
-    '''public int REQUESTDATA()
+    '''returns int\n\n
+    REQUESTDATA()\n
     '''
 def getDigitalData():
-    '''public void getDigitalData()
+    '''returns None\n\n
+    getDigitalData()\n
     '''
 def IMPORTDATA():
-    '''public int IMPORTDATA()
+    '''returns int\n\n
+    IMPORTDATA()\n
     '''

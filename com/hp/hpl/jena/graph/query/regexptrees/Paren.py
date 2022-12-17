@@ -1,19 +1,25 @@
-def Paren():
-    '''public Paren(final RegexpTree tree)
-    public Paren(final RegexpTree tree, final int index)
+def ():
+    '''returns Paren\n\n
+    (final RegexpTree tree)\n
+    (final RegexpTree tree, final int index)\n
     '''
 def getOperand():
-    '''public RegexpTree getOperand()
+    '''returns RegexpTree\n\n
+    getOperand()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

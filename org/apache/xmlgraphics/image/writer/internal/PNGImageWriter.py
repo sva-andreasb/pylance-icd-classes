@@ -1,7 +1,9 @@
 def writeImage():
-    '''public void writeImage(final RenderedImage image, final OutputStream out)
-    public void writeImage(final RenderedImage image, final OutputStream out, final ImageWriterParams params)
+    '''returns None\n\n
+    writeImage(final RenderedImage image, final OutputStream out)\n
+    writeImage(final RenderedImage image, final OutputStream out, final ImageWriterParams params)\n
     '''
 def getMIMEType():
-    '''public String getMIMEType()
+    '''returns String\n\n
+    getMIMEType()\n
     '''

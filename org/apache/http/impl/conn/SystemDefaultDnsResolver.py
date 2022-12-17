@@ -1,3 +1,4 @@
 def resolve():
-    '''public InetAddress[] resolve(final String host)
+    '''returns InetAddress[]\n\n
+    resolve(final String host)\n
     '''

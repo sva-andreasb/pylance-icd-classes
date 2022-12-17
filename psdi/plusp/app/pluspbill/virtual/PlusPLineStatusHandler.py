@@ -1,24 +1,32 @@
-def PlusPLineStatusHandler():
-    '''public PlusPLineStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns PlusPLineStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def possibleStatusChange():
-    '''public void possibleStatusChange(final String s, final String s2)
+    '''returns None\n\n
+    possibleStatusChange(final String s, final String s2)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String s, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String s, final Date date, final String memo)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String s, final String s2, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String s, final String s2, final long accessModifier)\n
     '''
 def postStatusChange():
-    '''public void postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)\n
     '''
 def toInternalStatus():
-    '''public String toInternalStatus(final String value)
+    '''returns String\n\n
+    toInternalStatus(final String value)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String s)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String s)\n
     '''
 def isStatusBillable():
-    '''public boolean isStatusBillable(final String s)
+    '''returns boolean\n\n
+    isStatusBillable(final String s)\n
     '''

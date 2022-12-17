@@ -1,25 +1,33 @@
-def PlusPCommonCustAssocMboSet():
-    '''public PlusPCommonCustAssocMboSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCommonCustAssocMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isNotPrimaryAssociation():
-    '''public boolean isNotPrimaryAssociation()
+    '''returns boolean\n\n
+    isNotPrimaryAssociation()\n
     '''
 def isDeletingAll():
-    '''public boolean isDeletingAll()
+    '''returns boolean\n\n
+    isDeletingAll()\n
     '''
 def deleteAll():
-    '''public void deleteAll(final long accessModifier)
+    '''returns None\n\n
+    deleteAll(final long accessModifier)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def deleteCustomer():
-    '''public boolean deleteCustomer(final String anotherString)
+    '''returns boolean\n\n
+    deleteCustomer(final String anotherString)\n
     '''
 def tryToAddCustomer():
-    '''public MboRemote tryToAddCustomer(final MboRemote mboRemote)
-    public MboRemote tryToAddCustomer(final MboRemote mboRemote, final boolean executeCustAssocEvents)
+    '''returns MboRemote\n\n
+    tryToAddCustomer(final MboRemote mboRemote)\n
+    tryToAddCustomer(final MboRemote mboRemote, final boolean executeCustAssocEvents)\n
     '''

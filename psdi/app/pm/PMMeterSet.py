@@ -1,18 +1,24 @@
-def PMMeterSet():
-    '''public PMMeterSet(final MboServerInterface ms)
+def ():
+    '''returns PMMeterSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote mbo)
+    '''returns None\n\n
+    setOwner(final MboRemote mbo)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def resetPMMeterReadings():
-    '''public void resetPMMeterReadings()
+    '''returns None\n\n
+    resetPMMeterReadings()\n
     '''
 def pmMeter():
-    '''public boolean pmMeter(final MboRemote pmMbo)
+    '''returns boolean\n\n
+    pmMeter(final MboRemote pmMbo)\n
     '''
 def setReadingAtLastWO():
-    '''public void setReadingAtLastWO()
+    '''returns None\n\n
+    setReadingAtLastWO()\n
     '''

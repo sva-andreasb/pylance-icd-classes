@@ -1,6 +1,8 @@
-def PlusPBillLineFilterList():
-    '''public PlusPBillLineFilterList(final MboSet ms)
+def ():
+    '''returns PlusPBillLineFilterList\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

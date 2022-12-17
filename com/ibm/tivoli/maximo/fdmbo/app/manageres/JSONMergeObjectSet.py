@@ -1,9 +1,12 @@
-def JSONMergeObjectSet():
-    '''public JSONMergeObjectSet(final MboServerInterface ms)
+def ():
+    '''returns JSONMergeObjectSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

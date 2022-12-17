@@ -1,36 +1,48 @@
-def ComplementClassImpl():
-    '''public ComplementClassImpl(final Node n, final EnhGraph g)
+def ():
+    '''returns ComplementClassImpl\n\n
+    (final Node n, final EnhGraph g)\n
     '''
 def setOperands():
-    '''public void setOperands(final RDFList operands)
+    '''returns None\n\n
+    setOperands(final RDFList operands)\n
     '''
 def setOperand():
-    '''public void setOperand(final Resource cls)
+    '''returns None\n\n
+    setOperand(final Resource cls)\n
     '''
 def addOperand():
-    '''public void addOperand(final Resource cls)
+    '''returns None\n\n
+    addOperand(final Resource cls)\n
     '''
 def addOperands():
-    '''public void addOperands(final Iterator<? extends Resource> classes)
+    '''returns None\n\n
+    addOperands(final Iterator<? extends Resource> classes)\n
     '''
 def getOperands():
-    '''public RDFList getOperands()
+    '''returns RDFList\n\n
+    getOperands()\n
     '''
 def hasOperand():
-    '''public boolean hasOperand(final Resource cls)
+    '''returns boolean\n\n
+    hasOperand(final Resource cls)\n
     '''
 def getOperand():
-    '''public OntClass getOperand()
+    '''returns OntClass\n\n
+    getOperand()\n
     '''
 def removeOperand():
-    '''public void removeOperand(final Resource res)
+    '''returns None\n\n
+    removeOperand(final Resource res)\n
     '''
 def operator():
-    '''public Property operator()
+    '''returns Property\n\n
+    operator()\n
     '''
 def wrap():
-    '''public EnhNode wrap(final Node n, final EnhGraph eg)
+    '''returns EnhNode\n\n
+    wrap(final Node n, final EnhGraph eg)\n
     '''
 def canWrap():
-    '''public boolean canWrap(final Node node, final EnhGraph eg)
+    '''returns boolean\n\n
+    canWrap(final Node node, final EnhGraph eg)\n
     '''

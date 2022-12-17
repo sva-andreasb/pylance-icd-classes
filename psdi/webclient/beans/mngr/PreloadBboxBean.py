@@ -1,12 +1,12 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def createOfflinePackage():
-    '''public int createOfflinePackage()
+    '''returns int\n\n
+    createOfflinePackage()\n
     '''
 def downloadOfflinePackage():
-    '''public int downloadOfflinePackage()
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo(final int row)
+    '''returns int\n\n
+    downloadOfflinePackage()\n
     '''

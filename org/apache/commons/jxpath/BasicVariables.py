@@ -1,18 +1,24 @@
-def BasicVariables():
-    '''public BasicVariables()
+def ():
+    '''returns BasicVariables\n\n
+    ()\n
     '''
 def isDeclaredVariable():
-    '''public boolean isDeclaredVariable(final String varName)
+    '''returns boolean\n\n
+    isDeclaredVariable(final String varName)\n
     '''
 def getVariable():
-    '''public Object getVariable(final String varName)
+    '''returns Object\n\n
+    getVariable(final String varName)\n
     '''
 def declareVariable():
-    '''public void declareVariable(final String varName, final Object value)
+    '''returns None\n\n
+    declareVariable(final String varName, final Object value)\n
     '''
 def undeclareVariable():
-    '''public void undeclareVariable(final String varName)
+    '''returns None\n\n
+    undeclareVariable(final String varName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

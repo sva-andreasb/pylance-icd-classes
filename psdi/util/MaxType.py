@@ -22,75 +22,92 @@ UDTYPE = "int  99"
 DEFAULMAXLENGTH = "int  -1"
 DEFAULTSCALE = "int  2"
 def setMaxLength():
-    '''public void setMaxLength(final int l)
+    '''returns None\n\n
+    setMaxLength(final int l)\n
     '''
 def getMaxLength():
-    '''public int getMaxLength()
+    '''returns int\n\n
+    getMaxLength()\n
     '''
 def getScale():
-    '''public int getScale()
+    '''returns int\n\n
+    getScale()\n
     '''
 def setScale():
-    '''public void setScale(final int s)
+    '''returns None\n\n
+    setScale(final int s)\n
     '''
 def setValue():
-    '''public void setValue(final Date value)
-    public void setValue(final byte[] value)
-    public void setValue(final double value)
-    public void setValue(final float value)
-    public void setValue(final int value)
-    public void setValue(final long value)
-    public void setValue(final boolean value)
+    '''returns None\n\n
+    setValue(final Date value)\n
+    setValue(final byte[] value)\n
+    setValue(final double value)\n
+    setValue(final float value)\n
+    setValue(final int value)\n
+    setValue(final long value)\n
+    setValue(final boolean value)\n
     '''
 def asDate():
-    '''public Date asDate()
+    '''returns Date\n\n
+    asDate()\n
     '''
 def asDouble():
-    '''public double asDouble()
+    '''returns double\n\n
+    asDouble()\n
     '''
 def asFloat():
-    '''public float asFloat()
+    '''returns float\n\n
+    asFloat()\n
     '''
 def asInt():
-    '''public int asInt()
+    '''returns int\n\n
+    asInt()\n
     '''
 def asLong():
-    '''public long asLong()
+    '''returns long\n\n
+    asLong()\n
     '''
 def asBoolean():
-    '''public boolean asBoolean()
+    '''returns boolean\n\n
+    asBoolean()\n
     '''
 def asBytes():
-    '''public byte[] asBytes()
+    '''returns byte[]\n\n
+    asBytes()\n
     '''
 def isNull():
-    '''public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
     '''
 def setValueNull():
-    '''public void setValueNull()
+    '''returns None\n\n
+    setValueNull()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setAftercheckLengthAndScale():
-    '''public void setAftercheckLengthAndScale(final String val)
+    '''returns None\n\n
+    setAftercheckLengthAndScale(final String val)\n
     '''
 def overrideStringData():
-    '''public void overrideStringData(final String newValue)
-    '''
-def createMaxType():
-    '''public static MaxType createMaxType(final Locale l, final TimeZone tz, final int type)
-    public static MaxType createMaxType(final Locale l, final TimeZone tz, final int type, final int length, final int scale)
+    '''returns None\n\n
+    overrideStringData(final String newValue)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def setAttributeName():
-    '''public void setAttributeName(final String attributeName)
+    '''returns None\n\n
+    setAttributeName(final String attributeName)\n
     '''

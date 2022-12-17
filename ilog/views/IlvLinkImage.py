@@ -1,156 +1,163 @@
-def IlvLinkImage():
-    '''public IlvLinkImage(final IlvGraphic a, final IlvGraphic b, final boolean c)
-    public IlvLinkImage(final IlvLinkImage ilvLinkImage)
-    public IlvLinkImage(final IlvInputStream ilvInputStream)
+def ():
+    '''returns IlvLinkImage\n\n
+    (final IlvGraphic a, final IlvGraphic b, final boolean c)\n
+    (final IlvLinkImage ilvLinkImage)\n
+    (final IlvInputStream ilvInputStream)\n
     '''
 def copy():
-    '''public IlvGraphic copy()
-    '''
-def getFrom():
-    '''public final IlvGraphic getFrom()
+    '''returns IlvGraphic\n\n
+    copy()\n
     '''
 def setFrom():
-    '''public void setFrom(final IlvGraphic a)
-    '''
-def getTo():
-    '''public final IlvGraphic getTo()
+    '''returns None\n\n
+    setFrom(final IlvGraphic a)\n
     '''
 def setTo():
-    '''public void setTo(final IlvGraphic b)
-    '''
-def getOpposite():
-    '''public final IlvGraphic getOpposite(final IlvGraphic ilvGraphic)
+    '''returns None\n\n
+    setTo(final IlvGraphic b)\n
     '''
 def getPointsCardinal():
-    '''public int getPointsCardinal()
+    '''returns int\n\n
+    getPointsCardinal()\n
     '''
 def allowsPointInsertion():
-    '''public boolean allowsPointInsertion()
+    '''returns boolean\n\n
+    allowsPointInsertion()\n
     '''
 def allowsPointRemoval():
-    '''public boolean allowsPointRemoval()
+    '''returns boolean\n\n
+    allowsPointRemoval()\n
     '''
 def allowsPointMove():
-    '''public boolean allowsPointMove(final int n)
+    '''returns boolean\n\n
+    allowsPointMove(final int n)\n
     '''
 def insertPoint():
-    '''public void insertPoint(final int n, final float n2, final float n3, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    insertPoint(final int n, final float n2, final float n3, final IlvTransformer ilvTransformer)\n
     '''
 def removePoint():
-    '''public void removePoint(final int n, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    removePoint(final int n, final IlvTransformer ilvTransformer)\n
     '''
 def getPointAt():
-    '''public IlvPoint getPointAt(final int i, final IlvTransformer ilvTransformer)
+    '''returns IlvPoint\n\n
+    getPointAt(final int i, final IlvTransformer ilvTransformer)\n
     '''
 def movePoint():
-    '''public void movePoint(final int n, final float n2, final float n3, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    movePoint(final int n, final float n2, final float n3, final IlvTransformer ilvTransformer)\n
     '''
 def setIntermediateLinkPoints():
-    '''public void setIntermediateLinkPoints(final IlvPoint[] array, final int n, final int n2)
+    '''returns None\n\n
+    setIntermediateLinkPoints(final IlvPoint[] array, final int n, final int n2)\n
     '''
 def pointsInBBox():
-    '''public boolean pointsInBBox()
+    '''returns boolean\n\n
+    pointsInBBox()\n
     '''
 def getConnectionReferencePoint():
-    '''public IlvPoint getConnectionReferencePoint(final boolean b, final IlvTransformer ilvTransformer)
+    '''returns IlvPoint\n\n
+    getConnectionReferencePoint(final boolean b, final IlvTransformer ilvTransformer)\n
     '''
 def getConnectionPoints():
-    '''public void getConnectionPoints(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
-    '''
-def getLinkConnectorConnectionPoint():
-    '''public final boolean getLinkConnectorConnectionPoint(final boolean b, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
-    '''
-def getToBoundingBox():
-    '''public final IlvRect getToBoundingBox(IlvTransformer a)
-    '''
-def getFromBoundingBox():
-    '''public final IlvRect getFromBoundingBox(IlvTransformer a)
-    '''
-def getVisibleFrom():
-    '''public final IlvGraphic getVisibleFrom()
-    '''
-def getVisibleTo():
-    '''public final IlvGraphic getVisibleTo()
-    '''
-def getFromTransformer():
-    '''public final IlvTransformer getFromTransformer(final IlvTransformer ilvTransformer)
-    '''
-def getToTransformer():
-    '''public final IlvTransformer getToTransformer(final IlvTransformer ilvTransformer)
-    '''
-def getLocalTransformerOf():
-    '''public static IlvTransformer getLocalTransformerOf(final IlvGraphic ilvGraphic, IlvGraphicBag ilvGraphicBag, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    getConnectionPoints(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def isSpline():
-    '''public boolean isSpline()
+    '''returns boolean\n\n
+    isSpline()\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def boundingBox():
-    '''public IlvRect boundingBox(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    boundingBox(final IlvTransformer ilvTransformer)\n
     '''
 def applyTransform():
-    '''public void applyTransform(final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    applyTransform(final IlvTransformer ilvTransformer)\n
     '''
 def contains():
-    '''public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def zoomable():
-    '''public boolean zoomable()
+    '''returns boolean\n\n
+    zoomable()\n
     '''
 def isOriented():
-    '''public boolean isOriented()
+    '''returns boolean\n\n
+    isOriented()\n
     '''
 def setOriented():
-    '''public void setOriented(final boolean c)
+    '''returns None\n\n
+    setOriented(final boolean c)\n
     '''
 def setForeground():
-    '''public void setForeground(final Color d)
+    '''returns None\n\n
+    setForeground(final Color d)\n
     '''
 def getForeground():
-    '''public Color getForeground()
+    '''returns Color\n\n
+    getForeground()\n
     '''
 def getLineWidth():
-    '''public float getLineWidth()
-    public float getLineWidth(final IlvTransformer ilvTransformer)
+    '''returns float\n\n
+    getLineWidth()\n
+    getLineWidth(final IlvTransformer ilvTransformer)\n
     '''
 def setLineWidth():
-    '''public void setLineWidth(final float f)
+    '''returns None\n\n
+    setLineWidth(final float f)\n
     '''
 def getEndCap():
-    '''public int getEndCap()
+    '''returns int\n\n
+    getEndCap()\n
     '''
 def setEndCap():
-    '''public void setEndCap(final int n)
+    '''returns None\n\n
+    setEndCap(final int n)\n
     '''
 def getLineJoin():
-    '''public int getLineJoin()
+    '''returns int\n\n
+    getLineJoin()\n
     '''
 def setLineJoin():
-    '''public void setLineJoin(final int n)
+    '''returns None\n\n
+    setLineJoin(final int n)\n
     '''
 def getMaximumLineWidth():
-    '''public float getMaximumLineWidth()
+    '''returns float\n\n
+    getMaximumLineWidth()\n
     '''
 def setMaximumLineWidth():
-    '''public void setMaximumLineWidth(final float f)
+    '''returns None\n\n
+    setMaximumLineWidth(final float f)\n
     '''
 def getLineStyle():
-    '''public float[] getLineStyle()
+    '''returns float[]\n\n
+    getLineStyle()\n
     '''
 def setLineStyle():
-    '''public void setLineStyle(final float[] array)
+    '''returns None\n\n
+    setLineStyle(final float[] array)\n
     '''
 def getLinkPoints():
-    '''public IlvPoint[] getLinkPoints(final IlvTransformer ilvTransformer)
+    '''returns IlvPoint[]\n\n
+    getLinkPoints(final IlvTransformer ilvTransformer)\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection()
+    '''returns IlvSelection\n\n
+    makeSelection()\n
     '''
 def write():
-    '''public void write(final IlvOutputStream ilvOutputStream)
+    '''returns None\n\n
+    write(final IlvOutputStream ilvOutputStream)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''

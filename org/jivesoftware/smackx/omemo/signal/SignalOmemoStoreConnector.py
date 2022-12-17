@@ -1,60 +1,80 @@
-def SignalOmemoStoreConnector():
-    '''public SignalOmemoStoreConnector(final OmemoManager omemoManager, final OmemoStore<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> store)
+def ():
+    '''returns SignalOmemoStoreConnector\n\n
+    (final OmemoManager omemoManager, final OmemoStore<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> store)\n
     '''
 def getIdentityKeyPair():
-    '''public IdentityKeyPair getIdentityKeyPair()
+    '''returns IdentityKeyPair\n\n
+    getIdentityKeyPair()\n
     '''
 def getLocalRegistrationId():
-    '''public int getLocalRegistrationId()
+    '''returns int\n\n
+    getLocalRegistrationId()\n
     '''
 def saveIdentity():
-    '''public void saveIdentity(final SignalProtocolAddress signalProtocolAddress, final IdentityKey identityKey)
+    '''returns None\n\n
+    saveIdentity(final SignalProtocolAddress signalProtocolAddress, final IdentityKey identityKey)\n
     '''
 def isTrustedIdentity():
-    '''public boolean isTrustedIdentity(final SignalProtocolAddress signalProtocolAddress, final IdentityKey identityKey)
+    '''returns boolean\n\n
+    isTrustedIdentity(final SignalProtocolAddress signalProtocolAddress, final IdentityKey identityKey)\n
     '''
 def loadPreKey():
-    '''public PreKeyRecord loadPreKey(final int i)
+    '''returns PreKeyRecord\n\n
+    loadPreKey(final int i)\n
     '''
 def storePreKey():
-    '''public void storePreKey(final int i, final PreKeyRecord preKeyRecord)
+    '''returns None\n\n
+    storePreKey(final int i, final PreKeyRecord preKeyRecord)\n
     '''
 def containsPreKey():
-    '''public boolean containsPreKey(final int i)
+    '''returns boolean\n\n
+    containsPreKey(final int i)\n
     '''
 def removePreKey():
-    '''public void removePreKey(final int i)
+    '''returns None\n\n
+    removePreKey(final int i)\n
     '''
 def loadSession():
-    '''public SessionRecord loadSession(final SignalProtocolAddress signalProtocolAddress)
+    '''returns SessionRecord\n\n
+    loadSession(final SignalProtocolAddress signalProtocolAddress)\n
     '''
 def getSubDeviceSessions():
-    '''public List<Integer> getSubDeviceSessions(final String s)
+    '''returns List<Integer>\n\n
+    getSubDeviceSessions(final String s)\n
     '''
 def storeSession():
-    '''public void storeSession(final SignalProtocolAddress signalProtocolAddress, final SessionRecord sessionRecord)
+    '''returns None\n\n
+    storeSession(final SignalProtocolAddress signalProtocolAddress, final SessionRecord sessionRecord)\n
     '''
 def containsSession():
-    '''public boolean containsSession(final SignalProtocolAddress signalProtocolAddress)
+    '''returns boolean\n\n
+    containsSession(final SignalProtocolAddress signalProtocolAddress)\n
     '''
 def deleteSession():
-    '''public void deleteSession(final SignalProtocolAddress signalProtocolAddress)
+    '''returns None\n\n
+    deleteSession(final SignalProtocolAddress signalProtocolAddress)\n
     '''
 def deleteAllSessions():
-    '''public void deleteAllSessions(final String s)
+    '''returns None\n\n
+    deleteAllSessions(final String s)\n
     '''
 def loadSignedPreKey():
-    '''public SignedPreKeyRecord loadSignedPreKey(final int i)
+    '''returns SignedPreKeyRecord\n\n
+    loadSignedPreKey(final int i)\n
     '''
 def loadSignedPreKeys():
-    '''public List<SignedPreKeyRecord> loadSignedPreKeys()
+    '''returns List<SignedPreKeyRecord>\n\n
+    loadSignedPreKeys()\n
     '''
 def storeSignedPreKey():
-    '''public void storeSignedPreKey(final int i, final SignedPreKeyRecord signedPreKeyRecord)
+    '''returns None\n\n
+    storeSignedPreKey(final int i, final SignedPreKeyRecord signedPreKeyRecord)\n
     '''
 def containsSignedPreKey():
-    '''public boolean containsSignedPreKey(final int i)
+    '''returns boolean\n\n
+    containsSignedPreKey(final int i)\n
     '''
 def removeSignedPreKey():
-    '''public void removeSignedPreKey(final int i)
+    '''returns None\n\n
+    removeSignedPreKey(final int i)\n
     '''

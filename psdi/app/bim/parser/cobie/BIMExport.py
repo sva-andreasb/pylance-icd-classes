@@ -18,9 +18,11 @@ ITALIC = "String  \"italic\""
 H_ALIGN_CENTER = "short  1"
 V_ALIGN_BOTTOM = "short  2"
 BORDER_THIN = "short  1"
-def BIMExport():
-    '''public BIMExport(final MessageLogger logger, final InputStream templateStream, final ExportFormat fileFormat)
+def ():
+    '''returns BIMExport\n\n
+    (final MessageLogger logger, final InputStream templateStream, final ExportFormat fileFormat)\n
     '''
 def exportParseTree():
-    '''public void exportParseTree(final Hashtable<String, Page> parseTree, final String[] pageNames, final String fileName)
+    '''returns None\n\n
+    exportParseTree(final Hashtable<String, Page> parseTree, final String[] pageNames, final String fileName)\n
     '''

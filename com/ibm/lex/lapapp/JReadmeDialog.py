@@ -1,9 +1,12 @@
-def JReadmeDialog():
-    '''public JReadmeDialog(final JFrame owner, final String title, final boolean modal)
+def ():
+    '''returns JReadmeDialog\n\n
+    (final JFrame owner, final String title, final boolean modal)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def setReadmeText():
-    '''public void setReadmeText(final String[] array)
+    '''returns None\n\n
+    setReadmeText(final String[] array)\n
     '''

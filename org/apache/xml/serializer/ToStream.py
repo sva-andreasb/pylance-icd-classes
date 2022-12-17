@@ -1,185 +1,205 @@
-def ToStream():
-    '''public ToStream()
+def ():
+    '''returns BoolStack\n\n
+    ()\n
+    ()\n
+    (final int size)\n
     '''
 def serialize():
-    '''public void serialize(final Node node)
+    '''returns None\n\n
+    serialize(final Node node)\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def elementDecl():
-    '''public void elementDecl(final String name, final String model)
+    '''returns None\n\n
+    elementDecl(final String name, final String model)\n
     '''
 def internalEntityDecl():
-    '''public void internalEntityDecl(final String name, final String value)
+    '''returns None\n\n
+    internalEntityDecl(final String name, final String value)\n
     '''
 def setOutputFormat():
-    '''public void setOutputFormat(final Properties format)
+    '''returns None\n\n
+    setOutputFormat(final Properties format)\n
     '''
 def getOutputFormat():
-    '''public Properties getOutputFormat()
+    '''returns Properties\n\n
+    getOutputFormat()\n
     '''
 def setWriter():
-    '''public void setWriter(final Writer writer)
+    '''returns None\n\n
+    setWriter(final Writer writer)\n
     '''
 def setLineSepUse():
-    '''public boolean setLineSepUse(final boolean use_sytem_line_break)
+    '''returns boolean\n\n
+    setLineSepUse(final boolean use_sytem_line_break)\n
     '''
 def setOutputStream():
-    '''public void setOutputStream(final OutputStream output)
+    '''returns None\n\n
+    setOutputStream(final OutputStream output)\n
     '''
 def setEscaping():
-    '''public boolean setEscaping(final boolean escape)
+    '''returns boolean\n\n
+    setEscaping(final boolean escape)\n
     '''
 def attributeDecl():
-    '''public void attributeDecl(final String eName, final String aName, final String type, final String valueDefault, final String value)
+    '''returns None\n\n
+    attributeDecl(final String eName, final String aName, final String type, final String valueDefault, final String value)\n
     '''
 def getWriter():
-    '''public Writer getWriter()
+    '''returns Writer\n\n
+    getWriter()\n
     '''
 def externalEntityDecl():
-    '''public void externalEntityDecl(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    externalEntityDecl(final String name, final String publicId, final String systemId)\n
     '''
 def endNonEscaping():
-    '''public void endNonEscaping()
+    '''returns None\n\n
+    endNonEscaping()\n
     '''
 def startNonEscaping():
-    '''public void startNonEscaping()
+    '''returns None\n\n
+    startNonEscaping()\n
     '''
 def characters():
-    '''public void characters(final char[] chars, final int start, final int length)
-    public void characters(final String s)
+    '''returns None\n\n
+    characters(final char[] chars, final int start, final int length)\n
+    characters(final String s)\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String name, final Attributes atts)
-    public void startElement(final String elementNamespaceURI, final String elementLocalName, final String elementName)
-    public void startElement(final String elementName)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String name, final Attributes atts)\n
+    startElement(final String elementNamespaceURI, final String elementLocalName, final String elementName)\n
+    startElement(final String elementName)\n
     '''
 def processAttributes():
-    '''public void processAttributes(final Writer writer, final int nAttrs)
+    '''returns None\n\n
+    processAttributes(final Writer writer, final int nAttrs)\n
     '''
 def writeAttrString():
-    '''public void writeAttrString(final Writer writer, final String string, final String encoding)
+    '''returns None\n\n
+    writeAttrString(final Writer writer, final String string, final String encoding)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String name)
-    public void endElement(final String name)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String name)\n
+    endElement(final String name)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri)
-    public boolean startPrefixMapping(final String prefix, final String uri, final boolean shouldFlush)
+    '''returns boolean\n\n
+    startPrefixMapping(final String prefix, final String uri)\n
+    startPrefixMapping(final String prefix, final String uri, final boolean shouldFlush)\n
     '''
 def comment():
-    '''public void comment(final char[] ch, int start, final int length)
+    '''returns None\n\n
+    comment(final char[] ch, int start, final int length)\n
     '''
 def endCDATA():
-    '''public void endCDATA()
+    '''returns None\n\n
+    endCDATA()\n
     '''
 def endDTD():
-    '''public void endDTD()
+    '''returns None\n\n
+    endDTD()\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] ch, final int start, final int length)\n
     '''
 def skippedEntity():
-    '''public void skippedEntity(final String name)
+    '''returns None\n\n
+    skippedEntity(final String name)\n
     '''
 def startCDATA():
-    '''public void startCDATA()
+    '''returns None\n\n
+    startCDATA()\n
     '''
 def startEntity():
-    '''public void startEntity(final String name)
+    '''returns None\n\n
+    startEntity(final String name)\n
     '''
 def startDTD():
-    '''public void startDTD(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    startDTD(final String name, final String publicId, final String systemId)\n
     '''
 def getIndentAmount():
-    '''public int getIndentAmount()
+    '''returns int\n\n
+    getIndentAmount()\n
     '''
 def setIndentAmount():
-    '''public void setIndentAmount(final int m_indentAmount)
+    '''returns None\n\n
+    setIndentAmount(final int m_indentAmount)\n
     '''
 def setCdataSectionElements():
-    '''public void setCdataSectionElements(final Vector URI_and_localNames)
+    '''returns None\n\n
+    setCdataSectionElements(final Vector URI_and_localNames)\n
     '''
 def flushPending():
-    '''public void flushPending()
+    '''returns None\n\n
+    flushPending()\n
     '''
 def setContentHandler():
-    '''public void setContentHandler(final ContentHandler ch)
+    '''returns None\n\n
+    setContentHandler(final ContentHandler ch)\n
     '''
 def addAttributeAlways():
-    '''public boolean addAttributeAlways(final String uri, final String localName, String rawName, final String type, final String value, final boolean xslAttribute)
+    '''returns boolean\n\n
+    addAttributeAlways(final String uri, final String localName, String rawName, final String type, final String value, final boolean xslAttribute)\n
     '''
 def setTransformer():
-    '''public void setTransformer(final Transformer transformer)
+    '''returns None\n\n
+    setTransformer(final Transformer transformer)\n
     '''
 def reset():
-    '''public boolean reset()
+    '''returns boolean\n\n
+    reset()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def notationDecl():
-    '''public void notationDecl(final String name, final String pubID, final String sysID)
+    '''returns None\n\n
+    notationDecl(final String name, final String pubID, final String sysID)\n
     '''
 def unparsedEntityDecl():
-    '''public void unparsedEntityDecl(final String name, final String pubID, final String sysID, final String notationName)
+    '''returns None\n\n
+    unparsedEntityDecl(final String name, final String pubID, final String sysID, final String notationName)\n
     '''
 def setDTDEntityExpansion():
-    '''public void setDTDEntityExpansion(final boolean expand)
+    '''returns None\n\n
+    setDTDEntityExpansion(final boolean expand)\n
     '''
 def setNewLine():
-    '''public void setNewLine(final char[] eolChars)
+    '''returns None\n\n
+    setNewLine(final char[] eolChars)\n
     '''
 def addCdataSectionElements():
-    '''public void addCdataSectionElements(final String URI_and_localNames)
+    '''returns None\n\n
+    addCdataSectionElements(final String URI_and_localNames)\n
     '''
 def write():
-    '''public void write(final char[] arg0, final int arg1, final int arg2)
-    public void write(final int i)
-    public void write(final String s)
+    '''returns None\n\n
+    write(final char[] arg0, final int arg1, final int arg2)\n
+    write(final int i)\n
+    write(final String s)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
-    '''
-def BoolStack():
-    '''public BoolStack()
-    public BoolStack(final int size)
-    '''
-def size():
-    '''public final int size()
-    '''
-def clear():
-    '''public final void clear()
-    '''
-def push():
-    '''public final boolean push(final boolean val)
-    '''
-def pop():
-    '''public final boolean pop()
-    '''
-def popAndTop():
-    '''public final boolean popAndTop()
-    '''
-def setTop():
-    '''public final void setTop(final boolean b)
-    '''
-def peek():
-    '''public final boolean peek()
-    '''
-def peekOrFalse():
-    '''public final boolean peekOrFalse()
-    '''
-def peekOrTrue():
-    '''public final boolean peekOrTrue()
+    '''returns None\n\n
+    close()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''

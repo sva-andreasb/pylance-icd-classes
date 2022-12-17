@@ -1,9 +1,11 @@
-def RawCollationKey():
-    '''public RawCollationKey()
-    public RawCollationKey(final int capacity)
-    public RawCollationKey(final byte[] bytes)
-    public RawCollationKey(final byte[] bytesToAdopt, final int size)
+def ():
+    '''returns RawCollationKey\n\n
+    ()\n
+    (final int capacity)\n
+    (final byte[] bytes)\n
+    (final byte[] bytesToAdopt, final int size)\n
     '''
 def compareTo():
-    '''public int compareTo(final RawCollationKey rhs)
+    '''returns int\n\n
+    compareTo(final RawCollationKey rhs)\n
     '''

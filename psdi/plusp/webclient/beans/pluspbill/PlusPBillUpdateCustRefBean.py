@@ -1,3 +1,4 @@
 def updateCustomerReferencesOk():
-    '''public void updateCustomerReferencesOk()
+    '''returns None\n\n
+    updateCustomerReferencesOk()\n
     '''

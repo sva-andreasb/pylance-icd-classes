@@ -1,6 +1,8 @@
-def FldObjectName():
-    '''public FldObjectName(final MboValue mbv)
+def ():
+    '''returns FldObjectName\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

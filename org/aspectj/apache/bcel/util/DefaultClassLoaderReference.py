@@ -1,6 +1,8 @@
-def DefaultClassLoaderReference():
-    '''public DefaultClassLoaderReference(final ClassLoader classLoader)
+def ():
+    '''returns DefaultClassLoaderReference\n\n
+    (final ClassLoader classLoader)\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''

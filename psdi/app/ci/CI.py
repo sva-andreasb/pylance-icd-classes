@@ -1,97 +1,125 @@
-def CI():
-    '''public CI(final MboSet ms)
+def ():
+    '''returns CI\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo)\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def copyCollectionToCollectDetailsSet():
-    '''public void copyCollectionToCollectDetailsSet(final MboSetRemote collectionSet)
+    '''returns None\n\n
+    copyCollectionToCollectDetailsSet(final MboSetRemote collectionSet)\n
     '''
 def createTicket():
-    '''public void createTicket(final MboRemote tkMbo)
+    '''returns None\n\n
+    createTicket(final MboRemote tkMbo)\n
     '''
 def createWO():
-    '''public void createWO(final MboRemote workorderMbo)
+    '''returns None\n\n
+    createWO(final MboRemote workorderMbo)\n
     '''
 def setCIAttributesForWO():
-    '''public void setCIAttributesForWO(final MboSetRemote autoAttrUpdateSet)
+    '''returns None\n\n
+    setCIAttributesForWO(final MboSetRemote autoAttrUpdateSet)\n
     '''
 def addCIToCollectDetails():
-    '''public void addCIToCollectDetails(final String collectionNum)
+    '''returns None\n\n
+    addCIToCollectDetails(final String collectionNum)\n
     '''
 def createWorkorder():
-    '''public MboRemote createWorkorder(final String jpnum)
+    '''returns MboRemote\n\n
+    createWorkorder(final String jpnum)\n
     '''
 def createChange():
-    '''public MboRemote createChange(final String jpnum)
+    '''returns MboRemote\n\n
+    createChange(final String jpnum)\n
     '''
 def createRelease():
-    '''public MboRemote createRelease(final String jpnum)
+    '''returns MboRemote\n\n
+    createRelease(final String jpnum)\n
     '''
 def createServiceRequest():
-    '''public MboRemote createServiceRequest(final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createServiceRequest(final String tickettemplateid)\n
     '''
 def createProblem():
-    '''public MboRemote createProblem(final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createProblem(final String tickettemplateid)\n
     '''
 def createIncident():
-    '''public MboRemote createIncident(final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createIncident(final String tickettemplateid)\n
     '''
 def undelete():
-    '''public void undelete()
-    public void undelete(final Hashtable<String, String> cisToBeUndeleted)
+    '''returns None\n\n
+    undelete()\n
+    undelete(final Hashtable<String, String> cisToBeUndeleted)\n
     '''
 def clearChangeStatusCacheForCIs():
-    '''public void clearChangeStatusCacheForCIs()
+    '''returns None\n\n
+    clearChangeStatusCacheForCIs()\n
     '''
 def clearChangeStatusForAllSessions():
-    '''public void clearChangeStatusForAllSessions()
+    '''returns None\n\n
+    clearChangeStatusForAllSessions()\n
     '''
 def actionOnAssetNumFld():
-    '''public void actionOnAssetNumFld(final MboRemote asset)
+    '''returns None\n\n
+    actionOnAssetNumFld(final MboRemote asset)\n
     '''
 def setLinkToActualCI():
-    '''public void setLinkToActualCI(final String actcinum, final long accessModifier)
+    '''returns None\n\n
+    setLinkToActualCI(final String actcinum, final long accessModifier)\n
     '''
 def statusAllowsChange():
-    '''public boolean statusAllowsChange()
+    '''returns boolean\n\n
+    statusAllowsChange()\n
     '''
 def getKeyForSession():
-    '''public String getKeyForSession(final UserInfo userInfo)
-    '''
-def clearStatusChangeFields():
-    '''public synchronized void clearStatusChangeFields()
+    '''returns String\n\n
+    getKeyForSession(final UserInfo userInfo)\n
     '''

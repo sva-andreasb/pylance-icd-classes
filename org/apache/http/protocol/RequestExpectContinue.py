@@ -1,7 +1,9 @@
-def RequestExpectContinue():
-    '''public RequestExpectContinue()
-    public RequestExpectContinue(final boolean activeByDefault)
+def ():
+    '''returns RequestExpectContinue\n\n
+    ()\n
+    (final boolean activeByDefault)\n
     '''
 def process():
-    '''public void process(final HttpRequest request, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpRequest request, final HttpContext context)\n
     '''

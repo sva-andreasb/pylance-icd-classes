@@ -1,6 +1,8 @@
 def setAllowedMethods():
-    '''public void setAllowedMethods(final String methods)
+    '''returns None\n\n
+    setAllowedMethods(final String methods)\n
     '''
 def getAllowedMethods():
-    '''public String getAllowedMethods()
+    '''returns String\n\n
+    getAllowedMethods()\n
     '''

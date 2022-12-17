@@ -1,9 +1,12 @@
 def messageDelivered():
-    '''public void messageDelivered(final TransportEvent e)
+    '''returns None\n\n
+    messageDelivered(final TransportEvent e)\n
     '''
 def messageNotDelivered():
-    '''public void messageNotDelivered(final TransportEvent e)
+    '''returns None\n\n
+    messageNotDelivered(final TransportEvent e)\n
     '''
 def messagePartiallyDelivered():
-    '''public void messagePartiallyDelivered(final TransportEvent e)
+    '''returns None\n\n
+    messagePartiallyDelivered(final TransportEvent e)\n
     '''

@@ -1,6 +1,4 @@
-def getInstance():
-    '''public static PermilleMatcher getInstance(final DecimalFormatSymbols symbols)
-    '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

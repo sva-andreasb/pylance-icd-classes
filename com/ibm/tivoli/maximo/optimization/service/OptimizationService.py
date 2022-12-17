@@ -1,50 +1,54 @@
-def OptimizationService():
-    '''public OptimizationService(final MXServer mxServer)
+def ():
+    '''returns OptimizationService\n\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def deployOptimizationApp():
-    '''public void deployOptimizationApp(final String odmApplicationName, final ODMAppDeployInfo appDeployInfo, final UserInfo userInfo)
+    '''returns None\n\n
+    deployOptimizationApp(final String odmApplicationName, final ODMAppDeployInfo appDeployInfo, final UserInfo userInfo)\n
     '''
 def runOptimization():
-    '''public boolean runOptimization(final UserInfo userInfo, final String odmApplicationName, final OptimizationInputProcessParameters inputProcessParameters, final OptimizationOutputProcessParameters outputProcessParameters)
+    '''returns boolean\n\n
+    runOptimization(final UserInfo userInfo, final String odmApplicationName, final OptimizationInputProcessParameters inputProcessParameters, final OptimizationOutputProcessParameters outputProcessParameters)\n
     '''
 def listenToODMERun():
-    '''public void listenToODMERun(final MboRemote listenerMbo, final boolean listen, final long skdProjectId)
+    '''returns None\n\n
+    listenToODMERun(final MboRemote listenerMbo, final boolean listen, final long skdProjectId)\n
     '''
 def ODMEIsRunning():
-    '''public boolean ODMEIsRunning(final long skdProjectId)
+    '''returns boolean\n\n
+    ODMEIsRunning(final long skdProjectId)\n
     '''
 def startSKDODMERUN():
-    '''public long startSKDODMERUN(final long skdProjectId, final String user, final String status)
-    public long startSKDODMERUN(final long skdProjectId, final String user, final String status, final long skdOdmeRunIdIn)
+    '''returns long\n\n
+    startSKDODMERUN(final long skdProjectId, final String user, final String status)\n
+    startSKDODMERUN(final long skdProjectId, final String user, final String status, final long skdOdmeRunIdIn)\n
     '''
 def finishSKDODMERUN():
-    '''public void finishSKDODMERUN(final long skdProjectId, final String status)
-    public void finishSKDODMERUN(final long skdProjectId, final String status, final long skdOdmeRunId)
+    '''returns None\n\n
+    finishSKDODMERUN(final long skdProjectId, final String status)\n
+    finishSKDODMERUN(final long skdProjectId, final String status, final long skdOdmeRunId)\n
     '''
 def setJobIDSKDODMERUN():
-    '''public void setJobIDSKDODMERUN(final long skdOdmeRunId, final String mosJobId)
-    '''
-def ODMEaddRunMsg():
-    '''public synchronized void ODMEaddRunMsg(final long skdProjectId, final UserInfo userInfo, final String message, final boolean key)
-    '''
-def ODMEclearRunMsg():
-    '''public synchronized void ODMEclearRunMsg(final long skdProjectId)
-    '''
-def ODMEclearCompleted():
-    '''public synchronized void ODMEclearCompleted()
+    '''returns None\n\n
+    setJobIDSKDODMERUN(final long skdOdmeRunId, final String mosJobId)\n
     '''
 def getUseCPS():
-    '''public boolean getUseCPS(final UserInfo userInfo)
+    '''returns boolean\n\n
+    getUseCPS(final UserInfo userInfo)\n
     '''
 def getOptimizationMosAPIBaseURL():
-    '''public String getOptimizationMosAPIBaseURL(final UserInfo userInfo)
+    '''returns String\n\n
+    getOptimizationMosAPIBaseURL(final UserInfo userInfo)\n
     '''
 def getOptimizationMosAPIKey():
-    '''public String getOptimizationMosAPIKey(final UserInfo userInfo)
+    '''returns String\n\n
+    getOptimizationMosAPIKey(final UserInfo userInfo)\n
     '''
 def cancelOptimizationJob():
-    '''public void cancelOptimizationJob(final String jobId, final UserInfo userInfo)
+    '''returns None\n\n
+    cancelOptimizationJob(final String jobId, final UserInfo userInfo)\n
     '''

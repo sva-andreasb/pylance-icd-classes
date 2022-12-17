@@ -1,42 +1,52 @@
 def create():
-    '''public EObject create(final EClass eClass)
+    '''returns EObject\n\n
+    create(final EClass eClass)\n
     '''
 def createBaseMetadata():
-    '''public BaseMetadata createBaseMetadata()
+    '''returns BaseMetadata\n\n
+    createBaseMetadata()\n
     '''
 def createCommandGroupExtension():
-    '''public CommandGroupExtension createCommandGroupExtension()
+    '''returns CommandGroupExtension\n\n
+    createCommandGroupExtension()\n
     '''
 def createCommandGroupMetadata():
-    '''public CommandGroupMetadata createCommandGroupMetadata()
+    '''returns CommandGroupMetadata\n\n
+    createCommandGroupMetadata()\n
     '''
 def createCommandMetadata():
-    '''public CommandMetadata createCommandMetadata()
+    '''returns CommandMetadata\n\n
+    createCommandMetadata()\n
     '''
 def createCommandProviderMetadata():
-    '''public CommandProviderMetadata createCommandProviderMetadata()
+    '''returns CommandProviderMetadata\n\n
+    createCommandProviderMetadata()\n
     '''
 def createCommandStepMetadata():
-    '''public CommandStepMetadata createCommandStepMetadata()
+    '''returns CommandStepMetadata\n\n
+    createCommandStepMetadata()\n
     '''
 def createCustomProperties():
-    '''public CustomProperties createCustomProperties()
+    '''returns CustomProperties\n\n
+    createCustomProperties()\n
     '''
 def createMetadataType():
-    '''public Metadata createMetadataType()
+    '''returns Metadata\n\n
+    createMetadataType()\n
     '''
 def createParameterMetadata():
-    '''public ParameterMetadata createParameterMetadata()
+    '''returns ParameterMetadata\n\n
+    createParameterMetadata()\n
     '''
 def createTaskCommandExtension():
-    '''public TaskCommandExtension createTaskCommandExtension()
+    '''returns TaskCommandExtension\n\n
+    createTaskCommandExtension()\n
     '''
 def createTaskCommandMetadata():
-    '''public TaskCommandMetadata createTaskCommandMetadata()
+    '''returns TaskCommandMetadata\n\n
+    createTaskCommandMetadata()\n
     '''
 def getCommandMetadataPackage():
-    '''public CommandMetadataPackage getCommandMetadataPackage()
-    '''
-def getPackage():
-    '''public static CommandMetadataPackage getPackage()
+    '''returns CommandMetadataPackage\n\n
+    getCommandMetadataPackage()\n
     '''

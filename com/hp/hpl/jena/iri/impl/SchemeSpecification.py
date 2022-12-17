@@ -1,24 +1,32 @@
-def SchemeSpecification():
-    '''public SchemeSpecification(final String name, final String rfc, final String uri, final String title, final String section, final String[] bad, final String[] good)
+def ():
+    '''returns SchemeSpecification\n\n
+    (final String name, final String rfc, final String uri, final String title, final String section, final String[] bad, final String[] good)\n
     '''
 def applies():
-    '''public boolean applies(final String scheme)
+    '''returns boolean\n\n
+    applies(final String scheme)\n
     '''
 def addDefinition():
-    '''public void addDefinition(final String uri, final String defn, final String defnHtml)
+    '''returns None\n\n
+    addDefinition(final String uri, final String defn, final String defnHtml)\n
     '''
 def setDNS():
-    '''public void setDNS(final boolean b)
+    '''returns None\n\n
+    setDNS(final boolean b)\n
     '''
 def port():
-    '''public void port(final int i)
+    '''returns None\n\n
+    port(final int i)\n
     '''
 def setPattern():
-    '''public void setPattern(final int component, final String string)
+    '''returns None\n\n
+    setPattern(final int component, final String string)\n
     '''
 def setReserved():
-    '''public void setReserved(final int component, final String subDelims)
+    '''returns None\n\n
+    setReserved(final int component, final String subDelims)\n
     '''
 def analyse():
-    '''public void analyse(final Parser parser, final int range)
+    '''returns None\n\n
+    analyse(final Parser parser, final int range)\n
     '''

@@ -1,143 +1,177 @@
-def FilteringParserDelegate():
-    '''public FilteringParserDelegate(final JsonParser p, final TokenFilter f, final boolean includePath, final boolean allowMultipleMatches)
+def ():
+    '''returns FilteringParserDelegate\n\n
+    (final JsonParser p, final TokenFilter f, final boolean includePath, final boolean allowMultipleMatches)\n
     '''
 def getFilter():
-    '''public TokenFilter getFilter()
+    '''returns TokenFilter\n\n
+    getFilter()\n
     '''
 def getMatchCount():
-    '''public int getMatchCount()
+    '''returns int\n\n
+    getMatchCount()\n
     '''
 def getCurrentToken():
-    '''public JsonToken getCurrentToken()
+    '''returns JsonToken\n\n
+    getCurrentToken()\n
     '''
 def currentToken():
-    '''public JsonToken currentToken()
-    '''
-def getCurrentTokenId():
-    '''public final int getCurrentTokenId()
-    '''
-def currentTokenId():
-    '''public final int currentTokenId()
+    '''returns JsonToken\n\n
+    currentToken()\n
     '''
 def hasCurrentToken():
-    '''public boolean hasCurrentToken()
+    '''returns boolean\n\n
+    hasCurrentToken()\n
     '''
 def hasTokenId():
-    '''public boolean hasTokenId(final int id)
-    '''
-def hasToken():
-    '''public final boolean hasToken(final JsonToken t)
+    '''returns boolean\n\n
+    hasTokenId(final int id)\n
     '''
 def isExpectedStartArrayToken():
-    '''public boolean isExpectedStartArrayToken()
+    '''returns boolean\n\n
+    isExpectedStartArrayToken()\n
     '''
 def isExpectedStartObjectToken():
-    '''public boolean isExpectedStartObjectToken()
+    '''returns boolean\n\n
+    isExpectedStartObjectToken()\n
     '''
 def getCurrentLocation():
-    '''public JsonLocation getCurrentLocation()
+    '''returns JsonLocation\n\n
+    getCurrentLocation()\n
     '''
 def getParsingContext():
-    '''public JsonStreamContext getParsingContext()
+    '''returns JsonStreamContext\n\n
+    getParsingContext()\n
     '''
 def getCurrentName():
-    '''public String getCurrentName()
+    '''returns String\n\n
+    getCurrentName()\n
     '''
 def clearCurrentToken():
-    '''public void clearCurrentToken()
+    '''returns None\n\n
+    clearCurrentToken()\n
     '''
 def getLastClearedToken():
-    '''public JsonToken getLastClearedToken()
+    '''returns JsonToken\n\n
+    getLastClearedToken()\n
     '''
 def overrideCurrentName():
-    '''public void overrideCurrentName(final String name)
+    '''returns None\n\n
+    overrideCurrentName(final String name)\n
     '''
 def nextToken():
-    '''public JsonToken nextToken()
+    '''returns JsonToken\n\n
+    nextToken()\n
     '''
 def nextValue():
-    '''public JsonToken nextValue()
+    '''returns JsonToken\n\n
+    nextValue()\n
     '''
 def skipChildren():
-    '''public JsonParser skipChildren()
+    '''returns JsonParser\n\n
+    skipChildren()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def hasTextCharacters():
-    '''public boolean hasTextCharacters()
+    '''returns boolean\n\n
+    hasTextCharacters()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
+    '''returns char[]\n\n
+    getTextCharacters()\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getTextOffset():
-    '''public int getTextOffset()
+    '''returns int\n\n
+    getTextOffset()\n
     '''
 def getBigIntegerValue():
-    '''public BigInteger getBigIntegerValue()
+    '''returns BigInteger\n\n
+    getBigIntegerValue()\n
     '''
 def getBooleanValue():
-    '''public boolean getBooleanValue()
+    '''returns boolean\n\n
+    getBooleanValue()\n
     '''
 def getByteValue():
-    '''public byte getByteValue()
+    '''returns byte\n\n
+    getByteValue()\n
     '''
 def getShortValue():
-    '''public short getShortValue()
+    '''returns short\n\n
+    getShortValue()\n
     '''
 def getDecimalValue():
-    '''public BigDecimal getDecimalValue()
+    '''returns BigDecimal\n\n
+    getDecimalValue()\n
     '''
 def getDoubleValue():
-    '''public double getDoubleValue()
+    '''returns double\n\n
+    getDoubleValue()\n
     '''
 def getFloatValue():
-    '''public float getFloatValue()
+    '''returns float\n\n
+    getFloatValue()\n
     '''
 def getIntValue():
-    '''public int getIntValue()
+    '''returns int\n\n
+    getIntValue()\n
     '''
 def getLongValue():
-    '''public long getLongValue()
+    '''returns long\n\n
+    getLongValue()\n
     '''
 def getNumberType():
-    '''public NumberType getNumberType()
+    '''returns NumberType\n\n
+    getNumberType()\n
     '''
 def getNumberValue():
-    '''public Number getNumberValue()
+    '''returns Number\n\n
+    getNumberValue()\n
     '''
 def getValueAsInt():
-    '''public int getValueAsInt()
-    public int getValueAsInt(final int defaultValue)
+    '''returns int\n\n
+    getValueAsInt()\n
+    getValueAsInt(final int defaultValue)\n
     '''
 def getValueAsLong():
-    '''public long getValueAsLong()
-    public long getValueAsLong(final long defaultValue)
+    '''returns long\n\n
+    getValueAsLong()\n
+    getValueAsLong(final long defaultValue)\n
     '''
 def getValueAsDouble():
-    '''public double getValueAsDouble()
-    public double getValueAsDouble(final double defaultValue)
+    '''returns double\n\n
+    getValueAsDouble()\n
+    getValueAsDouble(final double defaultValue)\n
     '''
 def getValueAsBoolean():
-    '''public boolean getValueAsBoolean()
-    public boolean getValueAsBoolean(final boolean defaultValue)
+    '''returns boolean\n\n
+    getValueAsBoolean()\n
+    getValueAsBoolean(final boolean defaultValue)\n
     '''
 def getValueAsString():
-    '''public String getValueAsString()
-    public String getValueAsString(final String defaultValue)
+    '''returns String\n\n
+    getValueAsString()\n
+    getValueAsString(final String defaultValue)\n
     '''
 def getEmbeddedObject():
-    '''public Object getEmbeddedObject()
+    '''returns Object\n\n
+    getEmbeddedObject()\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue(final Base64Variant b64variant)
+    '''returns byte[]\n\n
+    getBinaryValue(final Base64Variant b64variant)\n
     '''
 def readBinaryValue():
-    '''public int readBinaryValue(final Base64Variant b64variant, final OutputStream out)
+    '''returns int\n\n
+    readBinaryValue(final Base64Variant b64variant, final OutputStream out)\n
     '''
 def getTokenLocation():
-    '''public JsonLocation getTokenLocation()
+    '''returns JsonLocation\n\n
+    getTokenLocation()\n
     '''

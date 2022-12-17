@@ -1,3 +1,4 @@
 def nextUUID():
-    '''public String nextUUID()
+    '''returns String\n\n
+    nextUUID()\n
     '''

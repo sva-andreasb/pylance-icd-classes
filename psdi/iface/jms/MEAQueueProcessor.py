@@ -1,17 +1,21 @@
 def writeDataToQueue():
-    '''public void writeDataToQueue(final MXTransaction mxtran, final String sender, final Map<String, ExternalDataInfo> finalData, final UserInfo userInfo)
-    public void writeDataToQueue(final MXTransaction mxtran, final String sender, final Map<String, ExternalDataInfo> finalData, final boolean isEvent, final UserInfo userInfo)
+    '''returns None\n\n
+    writeDataToQueue(final MXTransaction mxtran, final String sender, final Map<String, ExternalDataInfo> finalData, final UserInfo userInfo)\n
+    writeDataToQueue(final MXTransaction mxtran, final String sender, final Map<String, ExternalDataInfo> finalData, final boolean isEvent, final UserInfo userInfo)\n
     '''
 def writeDataToQueueIn():
-    '''public void writeDataToQueueIn(final byte[] data, final Map<String, String> properties, final boolean compress)
-    public void writeDataToQueueIn(final byte[] data, final String sender, final String ifaceName)
-    public void writeDataToQueueIn(final byte[] data, final String sender, final String ifaceName, final String loginId)
-    public void writeDataToQueueIn(final byte[] data, final Map<String, String> properties)
+    '''returns None\n\n
+    writeDataToQueueIn(final byte[] data, final Map<String, String> properties, final boolean compress)\n
+    writeDataToQueueIn(final byte[] data, final String sender, final String ifaceName)\n
+    writeDataToQueueIn(final byte[] data, final String sender, final String ifaceName, final String loginId)\n
+    writeDataToQueueIn(final byte[] data, final Map<String, String> properties)\n
     '''
 def writeToMessageProvider():
-    '''public boolean writeToMessageProvider(final byte[] extData, final Map<String, String> properties, final String kafkatopic, final String kafkaprovider, final boolean compress)
+    '''returns boolean\n\n
+    writeToMessageProvider(final byte[] extData, final Map<String, String> properties, final String kafkatopic, final String kafkaprovider, final boolean compress)\n
     '''
 def writeToQueue():
-    '''public void writeToQueue(final byte[] extData, final Map<String, String> properties, final String queueName)
-    public void writeToQueue(final byte[] extData, final Map<String, String> properties, final String queueName, final boolean compress)
+    '''returns None\n\n
+    writeToQueue(final byte[] extData, final Map<String, String> properties, final String queueName)\n
+    writeToQueue(final byte[] extData, final Map<String, String> properties, final String queueName, final boolean compress)\n
     '''

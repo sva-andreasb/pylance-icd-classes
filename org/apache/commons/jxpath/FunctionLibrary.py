@@ -1,15 +1,20 @@
-def FunctionLibrary():
-    '''public FunctionLibrary()
+def ():
+    '''returns FunctionLibrary\n\n
+    ()\n
     '''
 def addFunctions():
-    '''public void addFunctions(final Functions functions)
+    '''returns None\n\n
+    addFunctions(final Functions functions)\n
     '''
 def removeFunctions():
-    '''public void removeFunctions(final Functions functions)
+    '''returns None\n\n
+    removeFunctions(final Functions functions)\n
     '''
 def getUsedNamespaces():
-    '''public Set getUsedNamespaces()
+    '''returns Set\n\n
+    getUsedNamespaces()\n
     '''
 def getFunction():
-    '''public Function getFunction(final String namespace, final String name, final Object[] parameters)
+    '''returns Function\n\n
+    getFunction(final String namespace, final String name, final Object[] parameters)\n
     '''

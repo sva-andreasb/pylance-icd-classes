@@ -1,6 +1,8 @@
-def MetaDoPS():
-    '''public MetaDoPS(final InputStream in, final PdfContentByte cb)
+def ():
+    '''returns MetaDoPS\n\n
+    (final InputStream in, final PdfContentByte cb)\n
     '''
 def readAll():
-    '''public void readAll()
+    '''returns None\n\n
+    readAll()\n
     '''

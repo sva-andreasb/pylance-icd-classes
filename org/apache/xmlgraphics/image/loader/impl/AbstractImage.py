@@ -1,18 +1,24 @@
-def AbstractImage():
-    '''public AbstractImage(final ImageInfo info)
+def ():
+    '''returns AbstractImage\n\n
+    (final ImageInfo info)\n
     '''
 def getInfo():
-    '''public ImageInfo getInfo()
+    '''returns ImageInfo\n\n
+    getInfo()\n
     '''
 def getSize():
-    '''public ImageSize getSize()
+    '''returns ImageSize\n\n
+    getSize()\n
     '''
 def getColorSpace():
-    '''public ColorSpace getColorSpace()
+    '''returns ColorSpace\n\n
+    getColorSpace()\n
     '''
 def getICCProfile():
-    '''public ICC_Profile getICCProfile()
+    '''returns ICC_Profile\n\n
+    getICCProfile()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

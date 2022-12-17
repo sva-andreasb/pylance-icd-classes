@@ -1,6 +1,4 @@
-def PlusPFldJobMaterialVendor():
-    '''public PlusPFldJobMaterialVendor(final MboValue arg0)
-    '''
-def getVendorCustomerFilterWhere():
-    '''public static String getVendorCustomerFilterWhere()
+def ():
+    '''returns PlusPFldJobMaterialVendor\n\n
+    (final MboValue arg0)\n
     '''

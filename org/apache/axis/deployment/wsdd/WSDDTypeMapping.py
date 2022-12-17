@@ -1,52 +1,68 @@
-def WSDDTypeMapping():
-    '''public WSDDTypeMapping()
-    public WSDDTypeMapping(final Element e)
+def ():
+    '''returns WSDDTypeMapping\n\n
+    ()\n
+    (final Element e)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def getRef():
-    '''public String getRef()
+    '''returns String\n\n
+    getRef()\n
     '''
 def setRef():
-    '''public void setRef(final String ref)
+    '''returns None\n\n
+    setRef(final String ref)\n
     '''
 def getEncodingStyle():
-    '''public String getEncodingStyle()
+    '''returns String\n\n
+    getEncodingStyle()\n
     '''
 def setEncodingStyle():
-    '''public void setEncodingStyle(final String es)
+    '''returns None\n\n
+    setEncodingStyle(final String es)\n
     '''
 def getQName():
-    '''public QName getQName()
+    '''returns QName\n\n
+    getQName()\n
     '''
 def setQName():
-    '''public void setQName(final QName name)
+    '''returns None\n\n
+    setQName(final QName name)\n
     '''
 def getLanguageSpecificType():
-    '''public Class getLanguageSpecificType()
+    '''returns Class\n\n
+    getLanguageSpecificType()\n
     '''
 def setLanguageSpecificType():
-    '''public void setLanguageSpecificType(final Class javaType)
-    public void setLanguageSpecificType(final String javaType)
+    '''returns None\n\n
+    setLanguageSpecificType(final Class javaType)\n
+    setLanguageSpecificType(final String javaType)\n
     '''
 def getSerializer():
-    '''public Class getSerializer()
+    '''returns Class\n\n
+    getSerializer()\n
     '''
 def getSerializerName():
-    '''public String getSerializerName()
+    '''returns String\n\n
+    getSerializerName()\n
     '''
 def setSerializer():
-    '''public void setSerializer(final Class ser)
-    public void setSerializer(final String ser)
+    '''returns None\n\n
+    setSerializer(final Class ser)\n
+    setSerializer(final String ser)\n
     '''
 def getDeserializer():
-    '''public Class getDeserializer()
+    '''returns Class\n\n
+    getDeserializer()\n
     '''
 def getDeserializerName():
-    '''public String getDeserializerName()
+    '''returns String\n\n
+    getDeserializerName()\n
     '''
 def setDeserializer():
-    '''public void setDeserializer(final Class deser)
-    public void setDeserializer(final String deser)
+    '''returns None\n\n
+    setDeserializer(final Class deser)\n
+    setDeserializer(final String deser)\n
     '''

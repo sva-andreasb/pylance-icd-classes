@@ -1,3 +1,4 @@
-def GanttState():
-    '''public GanttState()
+def ():
+    '''returns GanttState\n\n
+    ()\n
     '''

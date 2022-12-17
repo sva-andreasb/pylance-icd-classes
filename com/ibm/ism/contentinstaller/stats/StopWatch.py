@@ -1,21 +1,24 @@
-def StopWatch():
-    '''public StopWatch()
+def ():
+    '''returns StopWatch\n\n
+    ()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def getElapsedTimeInMillis():
-    '''public long getElapsedTimeInMillis()
+    '''returns long\n\n
+    getElapsedTimeInMillis()\n
     '''
 def getElapsedTimeInSeconds():
-    '''public long getElapsedTimeInSeconds()
+    '''returns long\n\n
+    getElapsedTimeInSeconds()\n
     '''
 def getElapsedTimeAsString():
-    '''public String getElapsedTimeAsString()
-    '''
-def millisToString():
-    '''public static String millisToString(final long time)
+    '''returns String\n\n
+    getElapsedTimeAsString()\n
     '''

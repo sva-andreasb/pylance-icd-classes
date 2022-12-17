@@ -1,9 +1,12 @@
-def PlusPBillPriceSet():
-    '''public PlusPBillPriceSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBillPriceSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def calculatePriceDetails():
-    '''public void calculatePriceDetails()
+    '''returns None\n\n
+    calculatePriceDetails()\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

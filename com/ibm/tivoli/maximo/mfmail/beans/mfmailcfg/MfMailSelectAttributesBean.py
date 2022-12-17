@@ -1,12 +1,16 @@
-def MfMailSelectAttributesBean():
-    '''public MfMailSelectAttributesBean()
+def ():
+    '''returns MfMailSelectAttributesBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def setTableBean():
-    '''public void setTableBean(final DataBean tableBean)
+    '''returns None\n\n
+    setTableBean(final DataBean tableBean)\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''

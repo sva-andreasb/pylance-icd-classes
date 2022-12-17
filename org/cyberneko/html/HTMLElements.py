@@ -122,50 +122,35 @@ BLOCK = "int  2"
 EMPTY = "int  4"
 CONTAINER = "int  8"
 SPECIAL = "int  16"
-def getElement():
-    '''public static final Element getElement(final short code)
-    public static final Element getElement(final String ename)
-    public static final Element getElement(final String ename, final Element element)
-    '''
-def Element():
-    '''public Element(final short code, final String name, final int flags, final short parent, final short[] closes)
-    public Element(final short code, final String name, final int flags, final short parent, final short bounds, final short[] closes)
-    public Element(final short code, final String name, final int flags, final short[] parents, final short[] closes)
-    public Element(final short code, final String name, final int flags, final short[] parents, final short bounds, final short[] closes)
-    '''
-def isInline():
-    '''public final boolean isInline()
-    '''
-def isBlock():
-    '''public final boolean isBlock()
-    '''
-def isEmpty():
-    '''public final boolean isEmpty()
-    '''
-def isContainer():
-    '''public final boolean isContainer()
-    '''
-def isSpecial():
-    '''public final boolean isSpecial()
+def ():
+    '''returns ElementList\n\n
+    (final short code, final String name, final int flags, final short parent, final short[] closes)\n
+    (final short code, final String name, final int flags, final short parent, final short bounds, final short[] closes)\n
+    (final short code, final String name, final int flags, final short[] parents, final short[] closes)\n
+    (final short code, final String name, final int flags, final short[] parents, final short bounds, final short[] closes)\n
+    ()\n
     '''
 def closes():
-    '''public boolean closes(final short tag)
+    '''returns boolean\n\n
+    closes(final short tag)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isParent():
-    '''public boolean isParent(final Element element)
-    '''
-def ElementList():
-    '''public ElementList()
+    '''returns boolean\n\n
+    isParent(final Element element)\n
     '''
 def addElement():
-    '''public void addElement(final Element element)
+    '''returns None\n\n
+    addElement(final Element element)\n
     '''

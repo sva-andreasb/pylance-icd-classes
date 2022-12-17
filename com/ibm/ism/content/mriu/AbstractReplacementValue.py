@@ -1,37 +1,49 @@
 TYPE_SELECTION = "int  1"
-def AbstractReplacementValue():
-    '''public AbstractReplacementValue(final String id, final String columnName, final String description, final boolean shouldEnforce, final String pattern, final String defaultValue)
+def ():
+    '''returns AbstractReplacementValue\n\n
+    (final String id, final String columnName, final String description, final boolean shouldEnforce, final String pattern, final String defaultValue)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getColumnName():
-    '''public String getColumnName()
+    '''returns String\n\n
+    getColumnName()\n
     '''
 def shouldEnforce():
-    '''public boolean shouldEnforce()
+    '''returns boolean\n\n
+    shouldEnforce()\n
     '''
 def setShouldEnforce():
-    '''public void setShouldEnforce(final boolean shouldEnforce)
+    '''returns None\n\n
+    setShouldEnforce(final boolean shouldEnforce)\n
     '''
 def getValues():
-    '''public List<String> getValues()
+    '''returns List<String>\n\n
+    getValues()\n
     '''
 def addValue():
-    '''public void addValue(final String value)
+    '''returns None\n\n
+    addValue(final String value)\n
     '''
 def addValues():
-    '''public void addValues(final Collection<String> newValues)
+    '''returns None\n\n
+    addValues(final Collection<String> newValues)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getPattern():
-    '''public String getPattern()
+    '''returns String\n\n
+    getPattern()\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''

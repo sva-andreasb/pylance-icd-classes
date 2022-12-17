@@ -1,21 +1,23 @@
-def OldExcelExtractor():
-    '''public OldExcelExtractor(final InputStream input)
-    public OldExcelExtractor(final File f)
-    public OldExcelExtractor(final NPOIFSFileSystem fs)
-    public OldExcelExtractor(final DirectoryNode directory)
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns OldExcelExtractor\n\n
+    (final InputStream input)\n
+    (final File f)\n
+    (final NPOIFSFileSystem fs)\n
+    (final DirectoryNode directory)\n
     '''
 def getBiffVersion():
-    '''public int getBiffVersion()
+    '''returns int\n\n
+    getBiffVersion()\n
     '''
 def getFileType():
-    '''public int getFileType()
+    '''returns int\n\n
+    getFileType()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

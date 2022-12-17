@@ -1,90 +1,119 @@
-def IlvDataInterval():
-    '''public IlvDataInterval()
-    public IlvDataInterval(final double min, final double max)
-    public IlvDataInterval(final IlvDataInterval ilvDataInterval)
+def ():
+    '''returns IlvDataInterval\n\n
+    ()\n
+    (final double min, final double max)\n
+    (final IlvDataInterval ilvDataInterval)\n
     '''
 def empty():
-    '''public void empty()
+    '''returns None\n\n
+    empty()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getMin():
-    '''public double getMin()
+    '''returns double\n\n
+    getMin()\n
     '''
 def setMin():
-    '''public void setMin(final double min)
+    '''returns None\n\n
+    setMin(final double min)\n
     '''
 def getMax():
-    '''public double getMax()
+    '''returns double\n\n
+    getMax()\n
     '''
 def setMax():
-    '''public void setMax(final double max)
+    '''returns None\n\n
+    setMax(final double max)\n
     '''
 def set():
-    '''public void set(final double min, final double max)
+    '''returns None\n\n
+    set(final double min, final double max)\n
     '''
 def isBefore():
-    '''public boolean isBefore(final double n)
+    '''returns boolean\n\n
+    isBefore(final double n)\n
     '''
 def isStrictlyBefore():
-    '''public boolean isStrictlyBefore(final double n)
+    '''returns boolean\n\n
+    isStrictlyBefore(final double n)\n
     '''
 def isAfter():
-    '''public boolean isAfter(final double n)
+    '''returns boolean\n\n
+    isAfter(final double n)\n
     '''
 def isStrictlyAfter():
-    '''public boolean isStrictlyAfter(final double n)
+    '''returns boolean\n\n
+    isStrictlyAfter(final double n)\n
     '''
 def isInside():
-    '''public boolean isInside(final double n)
+    '''returns boolean\n\n
+    isInside(final double n)\n
     '''
 def isStrictlyInside():
-    '''public boolean isStrictlyInside(final double n)
+    '''returns boolean\n\n
+    isStrictlyInside(final double n)\n
     '''
 def isOutside():
-    '''public boolean isOutside(final double n)
+    '''returns boolean\n\n
+    isOutside(final double n)\n
     '''
 def isStrictlyOutside():
-    '''public boolean isStrictlyOutside(final double n)
+    '''returns boolean\n\n
+    isStrictlyOutside(final double n)\n
     '''
 def contains():
-    '''public boolean contains(final IlvDataInterval ilvDataInterval)
+    '''returns boolean\n\n
+    contains(final IlvDataInterval ilvDataInterval)\n
     '''
 def translate():
-    '''public void translate(final double n)
+    '''returns None\n\n
+    translate(final double n)\n
     '''
 def expand():
-    '''public void expand(final double n)
+    '''returns None\n\n
+    expand(final double n)\n
     '''
 def intersects():
-    '''public boolean intersects(final IlvDataInterval ilvDataInterval)
+    '''returns boolean\n\n
+    intersects(final IlvDataInterval ilvDataInterval)\n
     '''
 def add():
-    '''public boolean add(final double n)
-    public boolean add(final IlvDataInterval ilvDataInterval)
+    '''returns boolean\n\n
+    add(final double n)\n
+    add(final IlvDataInterval ilvDataInterval)\n
     '''
 def subtract():
-    '''public void subtract(final IlvDataInterval ilvDataInterval)
+    '''returns None\n\n
+    subtract(final IlvDataInterval ilvDataInterval)\n
     '''
 def intersection():
-    '''public void intersection(final IlvDataInterval ilvDataInterval)
+    '''returns None\n\n
+    intersection(final IlvDataInterval ilvDataInterval)\n
     '''
 def getLength():
-    '''public double getLength()
+    '''returns double\n\n
+    getLength()\n
     '''
 def getMiddle():
-    '''public double getMiddle()
+    '''returns double\n\n
+    getMiddle()\n
     '''
 def clamp():
-    '''public double clamp(final double n)
+    '''returns double\n\n
+    clamp(final double n)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

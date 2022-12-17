@@ -1,18 +1,24 @@
-def Signature():
-    '''public Signature(final int n)
+def ():
+    '''returns Signature\n\n
+    (final int n)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPool constantPool)
+    '''returns Type\n\n
+    getType(final ConstantPool constantPool)\n
     '''
 def getParameterCount():
-    '''public int getParameterCount(final ConstantPool constantPool)
+    '''returns int\n\n
+    getParameterCount(final ConstantPool constantPool)\n
     '''
 def getParameterTypes():
-    '''public String getParameterTypes(final ConstantPool constantPool)
+    '''returns String\n\n
+    getParameterTypes(final ConstantPool constantPool)\n
     '''
 def getReturnType():
-    '''public String getReturnType(final ConstantPool constantPool)
+    '''returns String\n\n
+    getReturnType(final ConstantPool constantPool)\n
     '''
 def getFieldType():
-    '''public String getFieldType(final ConstantPool constantPool)
+    '''returns String\n\n
+    getFieldType(final ConstantPool constantPool)\n
     '''

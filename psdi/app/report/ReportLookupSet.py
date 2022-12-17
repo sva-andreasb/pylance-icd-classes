@@ -1,3 +1,4 @@
-def ReportLookupSet():
-    '''public ReportLookupSet(final MboServerInterface ms)
+def ():
+    '''returns ReportLookupSet\n\n
+    (final MboServerInterface ms)\n
     '''

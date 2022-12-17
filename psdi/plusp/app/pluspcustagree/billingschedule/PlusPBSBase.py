@@ -1,34 +1,45 @@
-def PlusPBSBase():
-    '''public PlusPBSBase(final MboSet ms)
+def ():
+    '''returns PlusPBSBase\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isFinalAndLastBillDateInThePast():
-    '''public boolean isFinalAndLastBillDateInThePast()
+    '''returns boolean\n\n
+    isFinalAndLastBillDateInThePast()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String s, final String s2)
+    '''returns None\n\n
+    propagateKeyValue(final String s, final String s2)\n
     '''
 def createGBTrans():
-    '''public MboRemote createGBTrans(final MboRemote mboRemote)
-    public MboRemote createGBTrans(final MboRemote mboRemote, final double n)
+    '''returns MboRemote\n\n
+    createGBTrans(final MboRemote mboRemote)\n
+    createGBTrans(final MboRemote mboRemote, final double n)\n
     '''
 def createSalesOrder():
-    '''public MboRemote createSalesOrder(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    createSalesOrder(final MboRemote mboRemote)\n
     '''
 def createSalesOrderStatus():
-    '''public MboRemote createSalesOrderStatus(final MboRemote mboRemote, final String s)
+    '''returns MboRemote\n\n
+    createSalesOrderStatus(final MboRemote mboRemote, final String s)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getBIllSchedOwner():
-    '''public MboRemote getBIllSchedOwner(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    getBIllSchedOwner(final MboRemote mboRemote)\n
     '''

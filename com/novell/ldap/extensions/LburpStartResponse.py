@@ -1,6 +1,8 @@
-def LburpStartResponse():
-    '''public LburpStartResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns LburpStartResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getTranSize():
-    '''public int getTranSize()
+    '''returns int\n\n
+    getTranSize()\n
     '''

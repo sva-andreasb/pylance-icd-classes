@@ -1,0 +1,5 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(((FormChoice$1.class$org$apache$xmlbeans$impl$xb$xsdschema$FormChoice == null) ? (FormChoice$1.class$org$apache$xmlbeans$impl$xb$xsdschema$FormChoice = FormChoice$1.class$(\"org.apache.xmlbeans.impl.xb.xsdschema.FormChoice\")) : FormChoice$1.class$org$apache$xmlbeans$impl$xb$xsdschema$FormChoice).getClassLoader(), \"schemaorg_apache_xmlbeans.system.sXMLSCHEMA\").resolveHandle(\"formchoicef2aetype\")"
+QUALIFIED = "Enum  Enum.forString(\"qualified\")"
+UNQUALIFIED = "Enum  Enum.forString(\"unqualified\")"
+INT_QUALIFIED = "int  1"
+INT_UNQUALIFIED = "int  2"

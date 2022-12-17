@@ -1,12 +1,12 @@
-def generateId():
-    '''public static synchronized long generateId()
-    '''
-def ConfigRepositoryEvent():
-    '''public ConfigRepositoryEvent(final ConfigRepository source, final long id, final ConfigChangeNotifier[] chg)
+def ():
+    '''returns ConfigRepositoryEvent\n\n
+    (final ConfigRepository source, final long id, final ConfigChangeNotifier[] chg)\n
     '''
 def getChanges():
-    '''public ConfigChangeNotifier[] getChanges()
+    '''returns ConfigChangeNotifier[]\n\n
+    getChanges()\n
     '''
 def getId():
-    '''public long getId()
+    '''returns long\n\n
+    getId()\n
     '''

@@ -1,6 +1,8 @@
-def FldDoclinksAttachments():
-    '''public FldDoclinksAttachments(final MboValue mbv)
+def ():
+    '''returns FldDoclinksAttachments\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

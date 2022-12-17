@@ -11,50 +11,65 @@ COLOR_DEPTH_FORMAT_8_BPP = "int  1"
 SHAPE_TYPE_NONE = "int  0"
 SHAPE_TYPE_PORTRAIT = "int  2"
 SHAPE_TYPE_LANDSCAPE = "int  1"
-def ToTiffOptions():
-    '''public ToTiffOptions()
-    public ToTiffOptions(final boolean multipage)
-    public ToTiffOptions(final boolean multipage, final int compression)
+def ():
+    '''returns ToTiffOptions\n\n
+    ()\n
+    (final boolean multipage)\n
+    (final boolean multipage, final int compression)\n
     '''
 def isMultipage():
-    '''public boolean isMultipage()
+    '''returns boolean\n\n
+    isMultipage()\n
     '''
 def setMultipage():
-    '''public void setMultipage(final boolean multipage)
+    '''returns None\n\n
+    setMultipage(final boolean multipage)\n
     '''
 def getShape():
-    '''public int getShape()
+    '''returns int\n\n
+    getShape()\n
     '''
 def setShape():
-    '''public void setShape(final int shape)
+    '''returns None\n\n
+    setShape(final int shape)\n
     '''
 def getDepth():
-    '''public int getDepth()
+    '''returns int\n\n
+    getDepth()\n
     '''
 def setDepth():
-    '''public void setDepth(final int depth)
+    '''returns None\n\n
+    setDepth(final int depth)\n
     '''
 def getCoordinateType():
-    '''public int getCoordinateType()
+    '''returns int\n\n
+    getCoordinateType()\n
     '''
 def setCoordinateType():
-    '''public void setCoordinateType(final int coordinateType)
+    '''returns None\n\n
+    setCoordinateType(final int coordinateType)\n
     '''
 def getCompression():
-    '''public int getCompression()
+    '''returns int\n\n
+    getCompression()\n
     '''
 def setCompression():
-    '''public void setCompression(final int compression)
+    '''returns None\n\n
+    setCompression(final int compression)\n
     '''
 def getBrightness():
-    '''public float getBrightness()
+    '''returns float\n\n
+    getBrightness()\n
     '''
 def setBrightness():
-    '''public void setBrightness(final float brightness)
+    '''returns None\n\n
+    setBrightness(final float brightness)\n
     '''
 def isSkipBlankPages():
-    '''public boolean isSkipBlankPages()
+    '''returns boolean\n\n
+    isSkipBlankPages()\n
     '''
 def setSkipBlankPages():
-    '''public void setSkipBlankPages(final boolean skipBlankPages)
+    '''returns None\n\n
+    setSkipBlankPages(final boolean skipBlankPages)\n
     '''

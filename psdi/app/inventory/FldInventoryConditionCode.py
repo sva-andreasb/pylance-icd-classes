@@ -1,6 +1,8 @@
-def FldInventoryConditionCode():
-    '''public FldInventoryConditionCode(final MboValue mbv)
+def ():
+    '''returns FldInventoryConditionCode\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

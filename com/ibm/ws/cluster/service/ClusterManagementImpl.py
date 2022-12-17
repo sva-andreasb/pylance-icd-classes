@@ -1,47 +1,53 @@
-def ClusterManagementImpl():
-    '''public ClusterManagementImpl(final boolean distribute)
+def ():
+    '''returns ClusterManagementImpl\n\n
+    (final boolean distribute)\n
     '''
 def createClusterMember():
-    '''public Identity createClusterMember(final String cellName, final String nodeName, String hostName, final String memberName)
+    '''returns Identity\n\n
+    createClusterMember(final String cellName, final String nodeName, String hostName, final String memberName)\n
     '''
 def joinCluster():
-    '''public void joinCluster(final Identity clusterIdentity, final Identity[] memberIdentities)
-    public void joinCluster(final Identity[] clusterIdentities, final Identity[] memberIdentities)
+    '''returns None\n\n
+    joinCluster(final Identity clusterIdentity, final Identity[] memberIdentities)\n
+    joinCluster(final Identity[] clusterIdentities, final Identity[] memberIdentities)\n
     '''
 def disjoinCluster():
-    '''public synchronized void disjoinCluster(final Identity clusterIdentity, final Identity[] memberIdentities)
-    public void disjoinCluster(final Identity[] clusterIdentities, final Identity[] memberIdentities)
+    '''returns None\n\n
+    disjoinCluster(final Identity[] clusterIdentities, final Identity[] memberIdentities)\n
     '''
 def defineClusterScopedData():
-    '''public EndPoint defineClusterScopedData(final Identity clusterIdentity, final Identity dataIdentity, final byte[] data)
+    '''returns EndPoint\n\n
+    defineClusterScopedData(final Identity clusterIdentity, final Identity dataIdentity, final byte[] data)\n
     '''
 def defineMemberScopedData():
-    '''public EndPoint defineMemberScopedData(final Identity memberIdentity, final Identity dataIdentity, final byte[] data)
-    '''
-def undefineClusterScopedData():
-    '''public synchronized void undefineClusterScopedData(final Identity clusterIdentity, final EndPoint data)
-    '''
-def undefineMemberScopedData():
-    '''public synchronized void undefineMemberScopedData(final Identity memberIdentity, final EndPoint data)
+    '''returns EndPoint\n\n
+    defineMemberScopedData(final Identity memberIdentity, final Identity dataIdentity, final byte[] data)\n
     '''
 def getDesiredWeight():
-    '''public int getDesiredWeight(final Identity cluster, final Identity member)
+    '''returns int\n\n
+    getDesiredWeight(final Identity cluster, final Identity member)\n
     '''
 def setDesiredWeight():
-    '''public void setDesiredWeight(final Identity clusterIdentity, final Identity memberIdentity, final int weight)
+    '''returns None\n\n
+    setDesiredWeight(final Identity clusterIdentity, final Identity memberIdentity, final int weight)\n
     '''
 def defineAttribute():
-    '''public void defineAttribute(final Identity identity, final String attribute)
+    '''returns None\n\n
+    defineAttribute(final Identity identity, final String attribute)\n
     '''
 def undefineAttribute():
-    '''public void undefineAttribute(final Identity identity, final String attribute)
+    '''returns None\n\n
+    undefineAttribute(final Identity identity, final String attribute)\n
     '''
 def getAttributes():
-    '''public Set getAttributes(final Identity identity)
+    '''returns Set\n\n
+    getAttributes(final Identity identity)\n
     '''
 def setClusterAssociation():
-    '''public void setClusterAssociation(final Identity cluster, final Identity member)
+    '''returns None\n\n
+    setClusterAssociation(final Identity cluster, final Identity member)\n
     '''
 def setCARWaitTime():
-    '''public void setCARWaitTime(final int time)
+    '''returns None\n\n
+    setCARWaitTime(final int time)\n
     '''

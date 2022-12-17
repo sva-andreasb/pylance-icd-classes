@@ -1,7 +1,9 @@
-def AuthNone():
-    '''public AuthNone(final String username)
-    public AuthNone(final String username, final PublicKeyFile publicKeyFile)
+def ():
+    '''returns AuthNone\n\n
+    (final String username)\n
+    (final String username, final PublicKeyFile publicKeyFile)\n
     '''
 def getMethodName():
-    '''public String getMethodName()
+    '''returns String\n\n
+    getMethodName()\n
     '''

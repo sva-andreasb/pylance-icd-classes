@@ -1,18 +1,20 @@
-def RowChildEvent():
-    '''public RowChildEvent(final IlvGanttConfiguration source, final IlvHierarchyNode a, final IlvHierarchyNode[] b, final int[] c)
+def ():
+    '''returns RowChildEvent\n\n
+    (final IlvGanttConfiguration source, final IlvHierarchyNode a, final IlvHierarchyNode[] b, final int[] c)\n
     '''
 def getGanttConfiguration():
-    '''public IlvGanttConfiguration getGanttConfiguration()
-    '''
-def getGanttModel():
-    '''public final IlvGanttModel getGanttModel()
+    '''returns IlvGanttConfiguration\n\n
+    getGanttConfiguration()\n
     '''
 def getParent():
-    '''public IlvHierarchyNode getParent()
+    '''returns IlvHierarchyNode\n\n
+    getParent()\n
     '''
 def getChildIndices():
-    '''public int[] getChildIndices()
+    '''returns int[]\n\n
+    getChildIndices()\n
     '''
 def getChildren():
-    '''public IlvHierarchyNode[] getChildren()
+    '''returns IlvHierarchyNode[]\n\n
+    getChildren()\n
     '''

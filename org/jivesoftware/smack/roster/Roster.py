@@ -1,168 +1,203 @@
 INITIAL_DEFAULT_NON_ROSTER_PRESENCE_MAP_SIZE = "int  1024"
-def getInstanceFor():
-    '''public static synchronized Roster getInstanceFor(final XMPPConnection connection)
-    '''
-def getDefaultSubscriptionMode():
-    '''public static SubscriptionMode getDefaultSubscriptionMode()
-    '''
-def setDefaultSubscriptionMode():
-    '''public static void setDefaultSubscriptionMode(final SubscriptionMode subscriptionMode)
-    '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
-    public void processStanza(final Stanza stanzav)
-    public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
+    processStanza(final Stanza stanzav)\n
+    processStanza(final Stanza packet)\n
     '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def connectionClosed():
-    '''public void connectionClosed()
+    '''returns None\n\n
+    connectionClosed()\n
     '''
 def getSubscriptionMode():
-    '''public SubscriptionMode getSubscriptionMode()
+    '''returns SubscriptionMode\n\n
+    getSubscriptionMode()\n
     '''
 def setSubscriptionMode():
-    '''public void setSubscriptionMode(final SubscriptionMode subscriptionMode)
+    '''returns None\n\n
+    setSubscriptionMode(final SubscriptionMode subscriptionMode)\n
     '''
 def reload():
-    '''public void reload()
+    '''returns None\n\n
+    reload()\n
     '''
 def processException():
-    '''public void processException(final Exception exception)
+    '''returns None\n\n
+    processException(final Exception exception)\n
     '''
 def reloadAndWait():
-    '''public void reloadAndWait()
+    '''returns None\n\n
+    reloadAndWait()\n
     '''
 def setRosterStore():
-    '''public boolean setRosterStore(final RosterStore rosterStore)
+    '''returns boolean\n\n
+    setRosterStore(final RosterStore rosterStore)\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''
 def addRosterListener():
-    '''public boolean addRosterListener(final RosterListener rosterListener)
+    '''returns boolean\n\n
+    addRosterListener(final RosterListener rosterListener)\n
     '''
 def removeRosterListener():
-    '''public boolean removeRosterListener(final RosterListener rosterListener)
+    '''returns boolean\n\n
+    removeRosterListener(final RosterListener rosterListener)\n
     '''
 def addRosterLoadedListener():
-    '''public boolean addRosterLoadedListener(final RosterLoadedListener rosterLoadedListener)
+    '''returns boolean\n\n
+    addRosterLoadedListener(final RosterLoadedListener rosterLoadedListener)\n
     '''
 def removeRosterLoadedListener():
-    '''public boolean removeRosterLoadedListener(final RosterLoadedListener rosterLoadedListener)
+    '''returns boolean\n\n
+    removeRosterLoadedListener(final RosterLoadedListener rosterLoadedListener)\n
     '''
 def addPresenceEventListener():
-    '''public boolean addPresenceEventListener(final PresenceEventListener presenceEventListener)
+    '''returns boolean\n\n
+    addPresenceEventListener(final PresenceEventListener presenceEventListener)\n
     '''
 def removePresenceEventListener():
-    '''public boolean removePresenceEventListener(final PresenceEventListener presenceEventListener)
+    '''returns boolean\n\n
+    removePresenceEventListener(final PresenceEventListener presenceEventListener)\n
     '''
 def createGroup():
-    '''public RosterGroup createGroup(final String name)
+    '''returns RosterGroup\n\n
+    createGroup(final String name)\n
     '''
 def createEntry():
-    '''public void createEntry(final BareJid user, final String name, final String[] groups)
+    '''returns None\n\n
+    createEntry(final BareJid user, final String name, final String[] groups)\n
     '''
 def preApproveAndCreateEntry():
-    '''public void preApproveAndCreateEntry(final BareJid user, final String name, final String[] groups)
+    '''returns None\n\n
+    preApproveAndCreateEntry(final BareJid user, final String name, final String[] groups)\n
     '''
 def preApprove():
-    '''public void preApprove(final BareJid user)
+    '''returns None\n\n
+    preApprove(final BareJid user)\n
     '''
 def isSubscriptionPreApprovalSupported():
-    '''public boolean isSubscriptionPreApprovalSupported()
+    '''returns boolean\n\n
+    isSubscriptionPreApprovalSupported()\n
     '''
 def sendSubscriptionRequest():
-    '''public void sendSubscriptionRequest(final BareJid jid)
+    '''returns None\n\n
+    sendSubscriptionRequest(final BareJid jid)\n
     '''
 def addSubscribeListener():
-    '''public boolean addSubscribeListener(final SubscribeListener subscribeListener)
+    '''returns boolean\n\n
+    addSubscribeListener(final SubscribeListener subscribeListener)\n
     '''
 def removeSubscribeListener():
-    '''public boolean removeSubscribeListener(final SubscribeListener subscribeListener)
+    '''returns boolean\n\n
+    removeSubscribeListener(final SubscribeListener subscribeListener)\n
     '''
 def removeEntry():
-    '''public void removeEntry(final RosterEntry entry)
+    '''returns None\n\n
+    removeEntry(final RosterEntry entry)\n
     '''
 def getEntryCount():
-    '''public int getEntryCount()
+    '''returns int\n\n
+    getEntryCount()\n
     '''
 def getEntriesAndAddListener():
-    '''public void getEntriesAndAddListener(final RosterListener rosterListener, final RosterEntries rosterEntries)
+    '''returns None\n\n
+    getEntriesAndAddListener(final RosterListener rosterListener, final RosterEntries rosterEntries)\n
     '''
 def getEntries():
-    '''public Set<RosterEntry> getEntries()
+    '''returns Set<RosterEntry>\n\n
+    getEntries()\n
     '''
 def getUnfiledEntryCount():
-    '''public int getUnfiledEntryCount()
+    '''returns int\n\n
+    getUnfiledEntryCount()\n
     '''
 def getUnfiledEntries():
-    '''public Set<RosterEntry> getUnfiledEntries()
+    '''returns Set<RosterEntry>\n\n
+    getUnfiledEntries()\n
     '''
 def getEntry():
-    '''public RosterEntry getEntry(final BareJid jid)
+    '''returns RosterEntry\n\n
+    getEntry(final BareJid jid)\n
     '''
 def contains():
-    '''public boolean contains(final BareJid jid)
+    '''returns boolean\n\n
+    contains(final BareJid jid)\n
     '''
 def getGroup():
-    '''public RosterGroup getGroup(final String name)
+    '''returns RosterGroup\n\n
+    getGroup(final String name)\n
     '''
 def getGroupCount():
-    '''public int getGroupCount()
+    '''returns int\n\n
+    getGroupCount()\n
     '''
 def getGroups():
-    '''public Collection<RosterGroup> getGroups()
+    '''returns Collection<RosterGroup>\n\n
+    getGroups()\n
     '''
 def getPresence():
-    '''public Presence getPresence(final BareJid jid)
+    '''returns Presence\n\n
+    getPresence(final BareJid jid)\n
     '''
 def getPresenceResource():
-    '''public Presence getPresenceResource(final FullJid userWithResource)
+    '''returns Presence\n\n
+    getPresenceResource(final FullJid userWithResource)\n
     '''
 def getAllPresences():
-    '''public List<Presence> getAllPresences(final BareJid bareJid)
+    '''returns List<Presence>\n\n
+    getAllPresences(final BareJid bareJid)\n
     '''
 def getAvailablePresences():
-    '''public List<Presence> getAvailablePresences(final BareJid bareJid)
+    '''returns List<Presence>\n\n
+    getAvailablePresences(final BareJid bareJid)\n
     '''
 def getPresences():
-    '''public List<Presence> getPresences(final BareJid jid)
+    '''returns List<Presence>\n\n
+    getPresences(final BareJid jid)\n
     '''
 def isSubscribedToMyPresence():
-    '''public boolean isSubscribedToMyPresence(final Jid jid)
+    '''returns boolean\n\n
+    isSubscribedToMyPresence(final Jid jid)\n
     '''
 def iAmSubscribedTo():
-    '''public boolean iAmSubscribedTo(final Jid jid)
-    '''
-def setRosterLoadedAtLoginDefault():
-    '''public static void setRosterLoadedAtLoginDefault(final boolean rosterLoadedAtLoginDefault)
+    '''returns boolean\n\n
+    iAmSubscribedTo(final Jid jid)\n
     '''
 def setRosterLoadedAtLogin():
-    '''public void setRosterLoadedAtLogin(final boolean rosterLoadedAtLogin)
+    '''returns None\n\n
+    setRosterLoadedAtLogin(final boolean rosterLoadedAtLogin)\n
     '''
 def isRosterLoadedAtLogin():
-    '''public boolean isRosterLoadedAtLogin()
+    '''returns boolean\n\n
+    isRosterLoadedAtLogin()\n
     '''
 def isRosterVersioningSupported():
-    '''public boolean isRosterVersioningSupported()
-    '''
-def setDefaultNonRosterPresenceMapMaxSize():
-    '''public static void setDefaultNonRosterPresenceMapMaxSize(final int maximumSize)
+    '''returns boolean\n\n
+    isRosterVersioningSupported()\n
     '''
 def setNonRosterPresenceMapMaxSize():
-    '''public void setNonRosterPresenceMapMaxSize(final int maximumSize)
+    '''returns None\n\n
+    setNonRosterPresenceMapMaxSize(final int maximumSize)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def onSuccess():
-    '''public void onSuccess(final IQ packet)
+    '''returns None\n\n
+    onSuccess(final IQ packet)\n
     '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
     '''

@@ -2,115 +2,148 @@ MAX_FILE_COUNT = "int  4"
 RECENT_FILES_CMD = "String  \"RecentFiles\""
 SETTINGS_TYPE = "String  \"RecentFiles\""
 APPLICATION_MRU_NAME = "String  \"main\""
-def IlvRecentFileList():
-    '''public IlvRecentFileList(final FileHandler h, final String settingsName, final IlvApplication application)
+def ():
+    '''returns FileInfo\n\n
+    (final FileHandler h, final String settingsName, final IlvApplication application)\n
+    (final String b, final IlvRecentFileList recentFileList)\n
+    (final URL a, final IlvRecentFileList recentFileList)\n
     '''
 def readSettings():
-    '''public void readSettings(final IlvSettingsElement ilvSettingsElement, final Object o)
-    public void readSettings(final IlvSettingsElement ilvSettingsElement)
+    '''returns None\n\n
+    readSettings(final IlvSettingsElement ilvSettingsElement, final Object o)\n
+    readSettings(final IlvSettingsElement ilvSettingsElement)\n
     '''
 def applicationEventReceived():
-    '''public void applicationEventReceived(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationEventReceived(final ApplicationEvent applicationEvent)\n
     '''
 def writeSettings():
-    '''public void writeSettings(final IlvSettingsElement ilvSettingsElement, final Object o)
-    public void writeSettings(IlvSettingsElement settingsElement)
+    '''returns None\n\n
+    writeSettings(final IlvSettingsElement ilvSettingsElement, final Object o)\n
+    writeSettings(IlvSettingsElement settingsElement)\n
     '''
 def getRecentFileCount():
-    '''public int getRecentFileCount()
+    '''returns int\n\n
+    getRecentFileCount()\n
     '''
 def getRecentFileURL():
-    '''public URL getRecentFileURL(final int n)
+    '''returns URL\n\n
+    getRecentFileURL(final int n)\n
     '''
 def getRecentFile():
-    '''public String getRecentFile(final int n)
+    '''returns String\n\n
+    getRecentFile(final int n)\n
     '''
 def addRecentFileURL():
-    '''public void addRecentFileURL(final URL url)
+    '''returns None\n\n
+    addRecentFileURL(final URL url)\n
     '''
 def addRecentFileInfo():
-    '''public void addRecentFileInfo(final FileInfo fileInfo)
+    '''returns None\n\n
+    addRecentFileInfo(final FileInfo fileInfo)\n
     '''
 def setMaximumFileCount():
-    '''public int setMaximumFileCount(final int d)
+    '''returns int\n\n
+    setMaximumFileCount(final int d)\n
     '''
 def getMaximumFileCount():
-    '''public int getMaximumFileCount()
+    '''returns int\n\n
+    getMaximumFileCount()\n
     '''
 def moveRecentFileToTop():
-    '''public void moveRecentFileToTop(final int n)
+    '''returns None\n\n
+    moveRecentFileToTop(final int n)\n
     '''
 def openRecentFile():
-    '''public void openRecentFile(final int n)
+    '''returns None\n\n
+    openRecentFile(final int n)\n
     '''
 def removeRecentFileURL():
-    '''public boolean removeRecentFileURL(final URL url)
+    '''returns boolean\n\n
+    removeRecentFileURL(final URL url)\n
     '''
 def getRecentFileIndex():
-    '''public int getRecentFileIndex(final URL url)
-    public int getRecentFileIndex(final FileInfo obj)
+    '''returns int\n\n
+    getRecentFileIndex(final URL url)\n
+    getRecentFileIndex(final FileInfo obj)\n
     '''
 def setActionCommand():
-    '''public void setActionCommand(final String e)
+    '''returns None\n\n
+    setActionCommand(final String e)\n
     '''
 def getActionCommand():
-    '''public String getActionCommand()
+    '''returns String\n\n
+    getActionCommand()\n
     '''
 def setApplication():
-    '''public void setApplication(final IlvApplication ilvApplication)
+    '''returns None\n\n
+    setApplication(final IlvApplication ilvApplication)\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def setAction():
-    '''public void setAction(final Action i)
+    '''returns None\n\n
+    setAction(final Action i)\n
     '''
 def getAction():
-    '''public Action getAction()
+    '''returns Action\n\n
+    getAction()\n
     '''
 def getSettings():
-    '''public IlvSettings getSettings()
+    '''returns IlvSettings\n\n
+    getSettings()\n
     '''
 def setSettings():
-    '''public void setSettings(final IlvSettings settings)
+    '''returns None\n\n
+    setSettings(final IlvSettings settings)\n
     '''
 def setSettingsQuery():
-    '''public void setSettingsQuery(final IlvSettingsQuery settingsQuery)
+    '''returns None\n\n
+    setSettingsQuery(final IlvSettingsQuery settingsQuery)\n
     '''
 def getSettingsQuery():
-    '''public IlvSettingsQuery getSettingsQuery()
+    '''returns IlvSettingsQuery\n\n
+    getSettingsQuery()\n
     '''
 def setSettingsElement():
-    '''public void setSettingsElement(final IlvSettingsElement settingsElement)
+    '''returns None\n\n
+    setSettingsElement(final IlvSettingsElement settingsElement)\n
     '''
 def getSettingsElement():
-    '''public IlvSettingsElement getSettingsElement()
+    '''returns IlvSettingsElement\n\n
+    getSettingsElement()\n
     '''
 def getSettingsName():
-    '''public String getSettingsName()
+    '''returns String\n\n
+    getSettingsName()\n
     '''
 def setSettingsName():
-    '''public void setSettingsName(final String settingsName)
+    '''returns None\n\n
+    setSettingsName(final String settingsName)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    '''
-def FileInfo():
-    '''public FileInfo(final String b, final IlvRecentFileList recentFileList)
-    public FileInfo(final URL a, final IlvRecentFileList recentFileList)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def setURL():
-    '''public void setURL(final URL a)
+    '''returns None\n\n
+    setURL(final URL a)\n
     '''
 def setPathname():
-    '''public void setPathname(final String b)
+    '''returns None\n\n
+    setPathname(final String b)\n
     '''
 def getPathname():
-    '''public String getPathname()
+    '''returns String\n\n
+    getPathname()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

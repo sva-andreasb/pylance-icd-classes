@@ -1,12 +1,16 @@
-def LDAPExtendedOperation():
-    '''public LDAPExtendedOperation(final String s, final byte[] array)
+def ():
+    '''returns LDAPExtendedOperation\n\n
+    (final String s, final byte[] array)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getValue():
-    '''public byte[] getValue()
+    '''returns byte[]\n\n
+    getValue()\n
     '''

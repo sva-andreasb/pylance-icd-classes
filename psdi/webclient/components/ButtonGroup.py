@@ -1,6 +1,8 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getDisplay():
-    '''public String getDisplay()
+    '''returns String\n\n
+    getDisplay()\n
     '''

@@ -1,160 +1,205 @@
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getXmlObject():
-    '''public CTTextParagraph getXmlObject()
+    '''returns CTTextParagraph\n\n
+    getXmlObject()\n
     '''
 def getParentShape():
-    '''public XSLFTextShape getParentShape()
+    '''returns XSLFTextShape\n\n
+    getParentShape()\n
     '''
 def getTextRuns():
-    '''public List<XSLFTextRun> getTextRuns()
+    '''returns List<XSLFTextRun>\n\n
+    getTextRuns()\n
     '''
 def iterator():
-    '''public Iterator<XSLFTextRun> iterator()
+    '''returns Iterator<XSLFTextRun>\n\n
+    iterator()\n
     '''
 def addNewTextRun():
-    '''public XSLFTextRun addNewTextRun()
+    '''returns XSLFTextRun\n\n
+    addNewTextRun()\n
     '''
 def addLineBreak():
-    '''public XSLFTextRun addLineBreak()
+    '''returns XSLFTextRun\n\n
+    addLineBreak()\n
     '''
 def fetch():
-    '''public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
-    public boolean fetch(final CTTextParagraphProperties props)
+    '''returns boolean\n\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
+    fetch(final CTTextParagraphProperties props)\n
     '''
 def setTextAlign():
-    '''public void setTextAlign(final TextParagraph.TextAlign align)
+    '''returns None\n\n
+    setTextAlign(final TextParagraph.TextAlign align)\n
     '''
 def setFontAlign():
-    '''public void setFontAlign(final TextParagraph.FontAlign align)
+    '''returns None\n\n
+    setFontAlign(final TextParagraph.FontAlign align)\n
     '''
 def getBulletFont():
-    '''public String getBulletFont()
-    public String getBulletFont()
+    '''returns String\n\n
+    getBulletFont()\n
+    getBulletFont()\n
     '''
 def setBulletFont():
-    '''public void setBulletFont(final String typeface)
+    '''returns None\n\n
+    setBulletFont(final String typeface)\n
     '''
 def getBulletCharacter():
-    '''public String getBulletCharacter()
-    public String getBulletCharacter()
+    '''returns String\n\n
+    getBulletCharacter()\n
+    getBulletCharacter()\n
     '''
 def setBulletCharacter():
-    '''public void setBulletCharacter(final String str)
+    '''returns None\n\n
+    setBulletCharacter(final String str)\n
     '''
 def getBulletFontColor():
-    '''public PaintStyle getBulletFontColor()
-    public PaintStyle getBulletFontColor()
+    '''returns PaintStyle\n\n
+    getBulletFontColor()\n
+    getBulletFontColor()\n
     '''
 def setBulletFontColor():
-    '''public void setBulletFontColor(final Color color)
-    public void setBulletFontColor(final PaintStyle color)
-    public void setBulletFontColor(final Color color)
-    public void setBulletFontColor(final PaintStyle color)
+    '''returns None\n\n
+    setBulletFontColor(final Color color)\n
+    setBulletFontColor(final PaintStyle color)\n
+    setBulletFontColor(final Color color)\n
+    setBulletFontColor(final PaintStyle color)\n
     '''
 def getBulletFontSize():
-    '''public Double getBulletFontSize()
-    public Double getBulletFontSize()
+    '''returns Double\n\n
+    getBulletFontSize()\n
+    getBulletFontSize()\n
     '''
 def setBulletFontSize():
-    '''public void setBulletFontSize(final double bulletSize)
+    '''returns None\n\n
+    setBulletFontSize(final double bulletSize)\n
     '''
 def getAutoNumberingScheme():
-    '''public AutoNumberingScheme getAutoNumberingScheme()
-    public AutoNumberingScheme getAutoNumberingScheme()
+    '''returns AutoNumberingScheme\n\n
+    getAutoNumberingScheme()\n
+    getAutoNumberingScheme()\n
     '''
 def getAutoNumberingStartAt():
-    '''public Integer getAutoNumberingStartAt()
-    public Integer getAutoNumberingStartAt()
+    '''returns Integer\n\n
+    getAutoNumberingStartAt()\n
+    getAutoNumberingStartAt()\n
     '''
 def setIndent():
-    '''public void setIndent(final Double indent)
+    '''returns None\n\n
+    setIndent(final Double indent)\n
     '''
 def getIndent():
-    '''public Double getIndent()
+    '''returns Double\n\n
+    getIndent()\n
     '''
 def setLeftMargin():
-    '''public void setLeftMargin(final Double leftMargin)
+    '''returns None\n\n
+    setLeftMargin(final Double leftMargin)\n
     '''
 def getLeftMargin():
-    '''public Double getLeftMargin()
+    '''returns Double\n\n
+    getLeftMargin()\n
     '''
 def setRightMargin():
-    '''public void setRightMargin(final Double rightMargin)
+    '''returns None\n\n
+    setRightMargin(final Double rightMargin)\n
     '''
 def getRightMargin():
-    '''public Double getRightMargin()
+    '''returns Double\n\n
+    getRightMargin()\n
     '''
 def getDefaultTabSize():
-    '''public Double getDefaultTabSize()
+    '''returns Double\n\n
+    getDefaultTabSize()\n
     '''
 def getTabStop():
-    '''public double getTabStop(final int idx)
+    '''returns double\n\n
+    getTabStop(final int idx)\n
     '''
 def addTabStop():
-    '''public void addTabStop(final double value)
+    '''returns None\n\n
+    addTabStop(final double value)\n
     '''
 def setLineSpacing():
-    '''public void setLineSpacing(final Double lineSpacing)
+    '''returns None\n\n
+    setLineSpacing(final Double lineSpacing)\n
     '''
 def getLineSpacing():
-    '''public Double getLineSpacing()
+    '''returns Double\n\n
+    getLineSpacing()\n
     '''
 def setSpaceBefore():
-    '''public void setSpaceBefore(final Double spaceBefore)
+    '''returns None\n\n
+    setSpaceBefore(final Double spaceBefore)\n
     '''
 def getSpaceBefore():
-    '''public Double getSpaceBefore()
+    '''returns Double\n\n
+    getSpaceBefore()\n
     '''
 def setSpaceAfter():
-    '''public void setSpaceAfter(final Double spaceAfter)
+    '''returns None\n\n
+    setSpaceAfter(final Double spaceAfter)\n
     '''
 def getSpaceAfter():
-    '''public Double getSpaceAfter()
+    '''returns Double\n\n
+    getSpaceAfter()\n
     '''
 def setIndentLevel():
-    '''public void setIndentLevel(final int level)
+    '''returns None\n\n
+    setIndentLevel(final int level)\n
     '''
 def getIndentLevel():
-    '''public int getIndentLevel()
+    '''returns int\n\n
+    getIndentLevel()\n
     '''
 def isBullet():
-    '''public boolean isBullet()
+    '''returns boolean\n\n
+    isBullet()\n
     '''
 def setBullet():
-    '''public void setBullet(final boolean flag)
+    '''returns None\n\n
+    setBullet(final boolean flag)\n
     '''
 def setBulletAutoNumber():
-    '''public void setBulletAutoNumber(final AutoNumberingScheme scheme, final int startAt)
+    '''returns None\n\n
+    setBulletAutoNumber(final AutoNumberingScheme scheme, final int startAt)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDefaultFontSize():
-    '''public Double getDefaultFontSize()
+    '''returns Double\n\n
+    getDefaultFontSize()\n
     '''
 def getDefaultFontFamily():
-    '''public String getDefaultFontFamily()
+    '''returns String\n\n
+    getDefaultFontFamily()\n
     '''
 def setBulletStyle():
-    '''public void setBulletStyle(final Object... styles)
+    '''returns None\n\n
+    setBulletStyle(final Object... styles)\n
     '''
 def isHeaderOrFooter():
-    '''public boolean isHeaderOrFooter()
+    '''returns boolean\n\n
+    isHeaderOrFooter()\n
     '''

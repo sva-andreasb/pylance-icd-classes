@@ -1,3 +1,4 @@
-def InvoiceStatusSet():
-    '''public InvoiceStatusSet(final MboServerInterface ms)
+def ():
+    '''returns InvoiceStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

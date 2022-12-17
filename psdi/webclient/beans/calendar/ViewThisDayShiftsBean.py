@@ -1,6 +1,8 @@
-def ViewThisDayShiftsBean():
-    '''public ViewThisDayShiftsBean()
+def ():
+    '''returns ViewThisDayShiftsBean\n\n
+    ()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

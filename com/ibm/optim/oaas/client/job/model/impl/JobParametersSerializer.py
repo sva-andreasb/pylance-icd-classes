@@ -1,3 +1,4 @@
 def serialize():
-    '''public void serialize(final JobParameters value, final JsonGenerator jgen, final SerializerProvider provider)
+    '''returns None\n\n
+    serialize(final JobParameters value, final JsonGenerator jgen, final SerializerProvider provider)\n
     '''

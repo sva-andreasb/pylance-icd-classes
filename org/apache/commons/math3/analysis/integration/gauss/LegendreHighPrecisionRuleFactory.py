@@ -1,4 +1,5 @@
-def LegendreHighPrecisionRuleFactory():
-    '''public LegendreHighPrecisionRuleFactory()
-    public LegendreHighPrecisionRuleFactory(final MathContext mContext)
+def ():
+    '''returns LegendreHighPrecisionRuleFactory\n\n
+    ()\n
+    (final MathContext mContext)\n
     '''

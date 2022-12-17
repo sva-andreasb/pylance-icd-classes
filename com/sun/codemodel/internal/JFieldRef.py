@@ -1,9 +1,12 @@
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''
 def assign():
-    '''public JExpression assign(final JExpression rhs)
+    '''returns JExpression\n\n
+    assign(final JExpression rhs)\n
     '''
 def assignPlus():
-    '''public JExpression assignPlus(final JExpression rhs)
+    '''returns JExpression\n\n
+    assignPlus(final JExpression rhs)\n
     '''

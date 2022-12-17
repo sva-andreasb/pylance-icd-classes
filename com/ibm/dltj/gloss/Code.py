@@ -1,6 +1,8 @@
 def getCode():
-    '''public String getCode()
+    '''returns String\n\n
+    getCode()\n
     '''
 def insertedChars():
-    '''public int insertedChars()
+    '''returns int\n\n
+    insertedChars()\n
     '''

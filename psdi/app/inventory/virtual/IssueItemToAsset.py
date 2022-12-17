@@ -1,15 +1,20 @@
-def IssueItemToAsset():
-    '''public IssueItemToAsset(final MboSet ms)
+def ():
+    '''returns IssueItemToAsset\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def copyAssetsForIssue():
-    '''public void copyAssetsForIssue(final MboSetRemote assetSet)
+    '''returns None\n\n
+    copyAssetsForIssue(final MboSetRemote assetSet)\n
     '''

@@ -1,26 +1,33 @@
-def PF():
-    '''public PF()
-    public PF(final int capacity)
-    public PF(final StringBuilder sb)
+def ():
+    '''returns PF\n\n
+    ()\n
+    (final int capacity)\n
+    (final StringBuilder sb)\n
     '''
 def append():
-    '''public Writer append(final char value)
-    public Writer append(final CharSequence value)
-    public Writer append(final CharSequence value, final int start, final int end)
+    '''returns Writer\n\n
+    append(final char value)\n
+    append(final CharSequence value)\n
+    append(final CharSequence value, final int start, final int end)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final String value)
-    public void write(final char[] value, final int offset, final int length)
+    '''returns None\n\n
+    write(final String value)\n
+    write(final char[] value, final int offset, final int length)\n
     '''
 def getBuilder():
-    '''public StringBuilder getBuilder()
+    '''returns StringBuilder\n\n
+    getBuilder()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

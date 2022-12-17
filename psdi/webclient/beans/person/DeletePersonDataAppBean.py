@@ -1,3 +1,4 @@
 def DELETEPERSONDATA():
-    '''public int DELETEPERSONDATA()
+    '''returns int\n\n
+    DELETEPERSONDATA()\n
     '''

@@ -1,27 +1,36 @@
-def EmbeddedData():
-    '''public EmbeddedData(final String filename, final byte[] embeddedData, final String contentType)
+def ():
+    '''returns EmbeddedData\n\n
+    (final String filename, final byte[] embeddedData, final String contentType)\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''
 def setFilename():
-    '''public void setFilename(final String filename)
+    '''returns None\n\n
+    setFilename(final String filename)\n
     '''
 def getEmbeddedData():
-    '''public byte[] getEmbeddedData()
+    '''returns byte[]\n\n
+    getEmbeddedData()\n
     '''
 def setEmbeddedData():
-    '''public void setEmbeddedData(final byte[] embeddedData)
+    '''returns None\n\n
+    setEmbeddedData(final byte[] embeddedData)\n
     '''
 def getShape():
-    '''public Shape getShape()
+    '''returns Shape\n\n
+    getShape()\n
     '''
 def setShape():
-    '''public void setShape(final Shape shape)
+    '''returns None\n\n
+    setShape(final Shape shape)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''

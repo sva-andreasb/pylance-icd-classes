@@ -1,12 +1,16 @@
-def TaskConfigurationChecker():
-    '''public TaskConfigurationChecker(final Task task)
+def ():
+    '''returns TaskConfigurationChecker\n\n
+    (final Task task)\n
     '''
 def assertConfig():
-    '''public void assertConfig(final boolean condition, final String errormessage)
+    '''returns None\n\n
+    assertConfig(final boolean condition, final String errormessage)\n
     '''
 def fail():
-    '''public void fail(final String errormessage)
+    '''returns None\n\n
+    fail(final String errormessage)\n
     '''
 def checkErrors():
-    '''public void checkErrors()
+    '''returns None\n\n
+    checkErrors()\n
     '''

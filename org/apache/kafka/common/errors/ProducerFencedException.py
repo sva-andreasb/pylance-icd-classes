@@ -1,3 +1,4 @@
-def ProducerFencedException():
-    '''public ProducerFencedException(final String msg)
+def ():
+    '''returns ProducerFencedException\n\n
+    (final String msg)\n
     '''

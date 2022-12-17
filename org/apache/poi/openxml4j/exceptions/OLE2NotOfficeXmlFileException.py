@@ -1,3 +1,4 @@
-def OLE2NotOfficeXmlFileException():
-    '''public OLE2NotOfficeXmlFileException(final String message)
+def ():
+    '''returns OLE2NotOfficeXmlFileException\n\n
+    (final String message)\n
     '''

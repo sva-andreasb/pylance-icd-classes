@@ -1,39 +1,50 @@
-def ImageManager():
-    '''public ImageManager(final ImageContext context)
-    public ImageManager(final ImageImplRegistry registry, final ImageContext context)
+def ():
+    '''returns ImageManager\n\n
+    (final ImageContext context)\n
+    (final ImageImplRegistry registry, final ImageContext context)\n
     '''
 def getRegistry():
-    '''public ImageImplRegistry getRegistry()
+    '''returns ImageImplRegistry\n\n
+    getRegistry()\n
     '''
 def getImageContext():
-    '''public ImageContext getImageContext()
+    '''returns ImageContext\n\n
+    getImageContext()\n
     '''
 def getCache():
-    '''public ImageCache getCache()
+    '''returns ImageCache\n\n
+    getCache()\n
     '''
 def getPipelineFactory():
-    '''public PipelineFactory getPipelineFactory()
+    '''returns PipelineFactory\n\n
+    getPipelineFactory()\n
     '''
 def getImageInfo():
-    '''public ImageInfo getImageInfo(final String uri, final ImageSessionContext session)
+    '''returns ImageInfo\n\n
+    getImageInfo(final String uri, final ImageSessionContext session)\n
     '''
 def preloadImage():
-    '''public ImageInfo preloadImage(final String uri, final ImageSessionContext session)
-    public ImageInfo preloadImage(final String uri, final Source src)
+    '''returns ImageInfo\n\n
+    preloadImage(final String uri, final ImageSessionContext session)\n
+    preloadImage(final String uri, final Source src)\n
     '''
 def getImage():
-    '''public Image getImage(final ImageInfo info, final ImageFlavor flavor, Map hints, final ImageSessionContext session)
-    public Image getImage(final ImageInfo info, final ImageFlavor[] flavors, Map hints, final ImageSessionContext session)
-    public Image getImage(final ImageInfo info, final ImageFlavor flavor, final ImageSessionContext session)
-    public Image getImage(final ImageInfo info, final ImageFlavor[] flavors, final ImageSessionContext session)
+    '''returns Image\n\n
+    getImage(final ImageInfo info, final ImageFlavor flavor, Map hints, final ImageSessionContext session)\n
+    getImage(final ImageInfo info, final ImageFlavor[] flavors, Map hints, final ImageSessionContext session)\n
+    getImage(final ImageInfo info, final ImageFlavor flavor, final ImageSessionContext session)\n
+    getImage(final ImageInfo info, final ImageFlavor[] flavors, final ImageSessionContext session)\n
     '''
 def closeImage():
-    '''public void closeImage(final String uri, final ImageSessionContext session)
+    '''returns None\n\n
+    closeImage(final String uri, final ImageSessionContext session)\n
     '''
 def convertImage():
-    '''public Image convertImage(final Image image, final ImageFlavor[] flavors, Map hints)
-    public Image convertImage(final Image image, final ImageFlavor[] flavors)
+    '''returns Image\n\n
+    convertImage(final Image image, final ImageFlavor[] flavors, Map hints)\n
+    convertImage(final Image image, final ImageFlavor[] flavors)\n
     '''
 def choosePipeline():
-    '''public ImageProviderPipeline choosePipeline(final ImageProviderPipeline[] candidates)
+    '''returns ImageProviderPipeline\n\n
+    choosePipeline(final ImageProviderPipeline[] candidates)\n
     '''

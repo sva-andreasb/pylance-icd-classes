@@ -1,13 +1,17 @@
-def PointDefined():
-    '''public PointDefined()
-    public PointDefined(final Double zoomLevel, final Double x, final Double y)
+def ():
+    '''returns PointDefined\n\n
+    ()\n
+    (final Double zoomLevel, final Double x, final Double y)\n
     '''
 def getZoomLevel():
-    '''public Double getZoomLevel()
+    '''returns Double\n\n
+    getZoomLevel()\n
     '''
 def getX():
-    '''public Double getX()
+    '''returns Double\n\n
+    getX()\n
     '''
 def getY():
-    '''public Double getY()
+    '''returns Double\n\n
+    getY()\n
     '''

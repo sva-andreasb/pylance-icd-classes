@@ -1,478 +1,492 @@
-def AbstractLogger():
-    '''public AbstractLogger()
-    public AbstractLogger(final String name)
-    public AbstractLogger(final String name, final MessageFactory messageFactory)
-    '''
-def checkMessageFactory():
-    '''public static void checkMessageFactory(final ExtendedLogger logger, final MessageFactory messageFactory)
+def ():
+    '''returns AbstractLogger\n\n
+    ()\n
+    (final String name)\n
+    (final String name, final MessageFactory messageFactory)\n
     '''
 def catching():
-    '''public void catching(final Level level, final Throwable throwable)
-    public void catching(final Throwable throwable)
+    '''returns None\n\n
+    catching(final Level level, final Throwable throwable)\n
+    catching(final Throwable throwable)\n
     '''
 def debug():
-    '''public void debug(final Marker marker, final CharSequence message)
-    public void debug(final Marker marker, final CharSequence message, final Throwable throwable)
-    public void debug(final Marker marker, final Message message)
-    public void debug(final Marker marker, final Message message, final Throwable throwable)
-    public void debug(final Marker marker, final Object message)
-    public void debug(final Marker marker, final Object message, final Throwable throwable)
-    public void debug(final Marker marker, final String message)
-    public void debug(final Marker marker, final String message, final Object... params)
-    public void debug(final Marker marker, final String message, final Throwable throwable)
-    public void debug(final Message message)
-    public void debug(final Message message, final Throwable throwable)
-    public void debug(final CharSequence message)
-    public void debug(final CharSequence message, final Throwable throwable)
-    public void debug(final Object message)
-    public void debug(final Object message, final Throwable throwable)
-    public void debug(final String message)
-    public void debug(final String message, final Object... params)
-    public void debug(final String message, final Throwable throwable)
-    public void debug(final Supplier<?> messageSupplier)
-    public void debug(final Supplier<?> messageSupplier, final Throwable throwable)
-    public void debug(final Marker marker, final Supplier<?> messageSupplier)
-    public void debug(final Marker marker, final String message, final Supplier<?>... paramSuppliers)
-    public void debug(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)
-    public void debug(final String message, final Supplier<?>... paramSuppliers)
-    public void debug(final Marker marker, final MessageSupplier messageSupplier)
-    public void debug(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)
-    public void debug(final MessageSupplier messageSupplier)
-    public void debug(final MessageSupplier messageSupplier, final Throwable throwable)
-    public void debug(final Marker marker, final String message, final Object p0)
-    public void debug(final Marker marker, final String message, final Object p0, final Object p1)
-    public void debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)
-    public void debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public void debug(final String message, final Object p0)
-    public void debug(final String message, final Object p0, final Object p1)
-    public void debug(final String message, final Object p0, final Object p1, final Object p2)
-    public void debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
+    '''returns None\n\n
+    debug(final Marker marker, final CharSequence message)\n
+    debug(final Marker marker, final CharSequence message, final Throwable throwable)\n
+    debug(final Marker marker, final Message message)\n
+    debug(final Marker marker, final Message message, final Throwable throwable)\n
+    debug(final Marker marker, final Object message)\n
+    debug(final Marker marker, final Object message, final Throwable throwable)\n
+    debug(final Marker marker, final String message)\n
+    debug(final Marker marker, final String message, final Object... params)\n
+    debug(final Marker marker, final String message, final Throwable throwable)\n
+    debug(final Message message)\n
+    debug(final Message message, final Throwable throwable)\n
+    debug(final CharSequence message)\n
+    debug(final CharSequence message, final Throwable throwable)\n
+    debug(final Object message)\n
+    debug(final Object message, final Throwable throwable)\n
+    debug(final String message)\n
+    debug(final String message, final Object... params)\n
+    debug(final String message, final Throwable throwable)\n
+    debug(final Supplier<?> messageSupplier)\n
+    debug(final Supplier<?> messageSupplier, final Throwable throwable)\n
+    debug(final Marker marker, final Supplier<?> messageSupplier)\n
+    debug(final Marker marker, final String message, final Supplier<?>... paramSuppliers)\n
+    debug(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)\n
+    debug(final String message, final Supplier<?>... paramSuppliers)\n
+    debug(final Marker marker, final MessageSupplier messageSupplier)\n
+    debug(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)\n
+    debug(final MessageSupplier messageSupplier)\n
+    debug(final MessageSupplier messageSupplier, final Throwable throwable)\n
+    debug(final Marker marker, final String message, final Object p0)\n
+    debug(final Marker marker, final String message, final Object p0, final Object p1)\n
+    debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)\n
+    debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    debug(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    debug(final String message, final Object p0)\n
+    debug(final String message, final Object p0, final Object p1)\n
+    debug(final String message, final Object p0, final Object p1, final Object p2)\n
+    debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
     '''
 def entry():
-    '''public void entry()
-    public void entry(final Object... params)
+    '''returns None\n\n
+    entry()\n
+    entry(final Object... params)\n
     '''
 def error():
-    '''public void error(final Marker marker, final Message message)
-    public void error(final Marker marker, final Message message, final Throwable throwable)
-    public void error(final Marker marker, final CharSequence message)
-    public void error(final Marker marker, final CharSequence message, final Throwable throwable)
-    public void error(final Marker marker, final Object message)
-    public void error(final Marker marker, final Object message, final Throwable throwable)
-    public void error(final Marker marker, final String message)
-    public void error(final Marker marker, final String message, final Object... params)
-    public void error(final Marker marker, final String message, final Throwable throwable)
-    public void error(final Message message)
-    public void error(final Message message, final Throwable throwable)
-    public void error(final CharSequence message)
-    public void error(final CharSequence message, final Throwable throwable)
-    public void error(final Object message)
-    public void error(final Object message, final Throwable throwable)
-    public void error(final String message)
-    public void error(final String message, final Object... params)
-    public void error(final String message, final Throwable throwable)
-    public void error(final Supplier<?> messageSupplier)
-    public void error(final Supplier<?> messageSupplier, final Throwable throwable)
-    public void error(final Marker marker, final Supplier<?> messageSupplier)
-    public void error(final Marker marker, final String message, final Supplier<?>... paramSuppliers)
-    public void error(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)
-    public void error(final String message, final Supplier<?>... paramSuppliers)
-    public void error(final Marker marker, final MessageSupplier messageSupplier)
-    public void error(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)
-    public void error(final MessageSupplier messageSupplier)
-    public void error(final MessageSupplier messageSupplier, final Throwable throwable)
-    public void error(final Marker marker, final String message, final Object p0)
-    public void error(final Marker marker, final String message, final Object p0, final Object p1)
-    public void error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)
-    public void error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public void error(final String message, final Object p0)
-    public void error(final String message, final Object p0, final Object p1)
-    public void error(final String message, final Object p0, final Object p1, final Object p2)
-    public void error(final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
+    '''returns None\n\n
+    error(final Marker marker, final Message message)\n
+    error(final Marker marker, final Message message, final Throwable throwable)\n
+    error(final Marker marker, final CharSequence message)\n
+    error(final Marker marker, final CharSequence message, final Throwable throwable)\n
+    error(final Marker marker, final Object message)\n
+    error(final Marker marker, final Object message, final Throwable throwable)\n
+    error(final Marker marker, final String message)\n
+    error(final Marker marker, final String message, final Object... params)\n
+    error(final Marker marker, final String message, final Throwable throwable)\n
+    error(final Message message)\n
+    error(final Message message, final Throwable throwable)\n
+    error(final CharSequence message)\n
+    error(final CharSequence message, final Throwable throwable)\n
+    error(final Object message)\n
+    error(final Object message, final Throwable throwable)\n
+    error(final String message)\n
+    error(final String message, final Object... params)\n
+    error(final String message, final Throwable throwable)\n
+    error(final Supplier<?> messageSupplier)\n
+    error(final Supplier<?> messageSupplier, final Throwable throwable)\n
+    error(final Marker marker, final Supplier<?> messageSupplier)\n
+    error(final Marker marker, final String message, final Supplier<?>... paramSuppliers)\n
+    error(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)\n
+    error(final String message, final Supplier<?>... paramSuppliers)\n
+    error(final Marker marker, final MessageSupplier messageSupplier)\n
+    error(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)\n
+    error(final MessageSupplier messageSupplier)\n
+    error(final MessageSupplier messageSupplier, final Throwable throwable)\n
+    error(final Marker marker, final String message, final Object p0)\n
+    error(final Marker marker, final String message, final Object p0, final Object p1)\n
+    error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)\n
+    error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    error(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    error(final String message, final Object p0)\n
+    error(final String message, final Object p0, final Object p1)\n
+    error(final String message, final Object p0, final Object p1, final Object p2)\n
+    error(final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
     '''
 def exit():
-    '''public void exit()
-    public <R> R exit(final R result)
+    '''returns None\n\n
+    exit()\n
     '''
 def fatal():
-    '''public void fatal(final Marker marker, final Message message)
-    public void fatal(final Marker marker, final Message message, final Throwable throwable)
-    public void fatal(final Marker marker, final CharSequence message)
-    public void fatal(final Marker marker, final CharSequence message, final Throwable throwable)
-    public void fatal(final Marker marker, final Object message)
-    public void fatal(final Marker marker, final Object message, final Throwable throwable)
-    public void fatal(final Marker marker, final String message)
-    public void fatal(final Marker marker, final String message, final Object... params)
-    public void fatal(final Marker marker, final String message, final Throwable throwable)
-    public void fatal(final Message message)
-    public void fatal(final Message message, final Throwable throwable)
-    public void fatal(final CharSequence message)
-    public void fatal(final CharSequence message, final Throwable throwable)
-    public void fatal(final Object message)
-    public void fatal(final Object message, final Throwable throwable)
-    public void fatal(final String message)
-    public void fatal(final String message, final Object... params)
-    public void fatal(final String message, final Throwable throwable)
-    public void fatal(final Supplier<?> messageSupplier)
-    public void fatal(final Supplier<?> messageSupplier, final Throwable throwable)
-    public void fatal(final Marker marker, final Supplier<?> messageSupplier)
-    public void fatal(final Marker marker, final String message, final Supplier<?>... paramSuppliers)
-    public void fatal(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)
-    public void fatal(final String message, final Supplier<?>... paramSuppliers)
-    public void fatal(final Marker marker, final MessageSupplier messageSupplier)
-    public void fatal(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)
-    public void fatal(final MessageSupplier messageSupplier)
-    public void fatal(final MessageSupplier messageSupplier, final Throwable throwable)
-    public void fatal(final Marker marker, final String message, final Object p0)
-    public void fatal(final Marker marker, final String message, final Object p0, final Object p1)
-    public void fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)
-    public void fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public void fatal(final String message, final Object p0)
-    public void fatal(final String message, final Object p0, final Object p1)
-    public void fatal(final String message, final Object p0, final Object p1, final Object p2)
-    public void fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    '''
-def getMessageFactory():
-    '''public <MF extends MessageFactory> MF getMessageFactory()
+    '''returns None\n\n
+    fatal(final Marker marker, final Message message)\n
+    fatal(final Marker marker, final Message message, final Throwable throwable)\n
+    fatal(final Marker marker, final CharSequence message)\n
+    fatal(final Marker marker, final CharSequence message, final Throwable throwable)\n
+    fatal(final Marker marker, final Object message)\n
+    fatal(final Marker marker, final Object message, final Throwable throwable)\n
+    fatal(final Marker marker, final String message)\n
+    fatal(final Marker marker, final String message, final Object... params)\n
+    fatal(final Marker marker, final String message, final Throwable throwable)\n
+    fatal(final Message message)\n
+    fatal(final Message message, final Throwable throwable)\n
+    fatal(final CharSequence message)\n
+    fatal(final CharSequence message, final Throwable throwable)\n
+    fatal(final Object message)\n
+    fatal(final Object message, final Throwable throwable)\n
+    fatal(final String message)\n
+    fatal(final String message, final Object... params)\n
+    fatal(final String message, final Throwable throwable)\n
+    fatal(final Supplier<?> messageSupplier)\n
+    fatal(final Supplier<?> messageSupplier, final Throwable throwable)\n
+    fatal(final Marker marker, final Supplier<?> messageSupplier)\n
+    fatal(final Marker marker, final String message, final Supplier<?>... paramSuppliers)\n
+    fatal(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)\n
+    fatal(final String message, final Supplier<?>... paramSuppliers)\n
+    fatal(final Marker marker, final MessageSupplier messageSupplier)\n
+    fatal(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)\n
+    fatal(final MessageSupplier messageSupplier)\n
+    fatal(final MessageSupplier messageSupplier, final Throwable throwable)\n
+    fatal(final Marker marker, final String message, final Object p0)\n
+    fatal(final Marker marker, final String message, final Object p0, final Object p1)\n
+    fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)\n
+    fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    fatal(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    fatal(final String message, final Object p0)\n
+    fatal(final String message, final Object p0, final Object p1)\n
+    fatal(final String message, final Object p0, final Object p1, final Object p2)\n
+    fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def info():
-    '''public void info(final Marker marker, final Message message)
-    public void info(final Marker marker, final Message message, final Throwable throwable)
-    public void info(final Marker marker, final CharSequence message)
-    public void info(final Marker marker, final CharSequence message, final Throwable throwable)
-    public void info(final Marker marker, final Object message)
-    public void info(final Marker marker, final Object message, final Throwable throwable)
-    public void info(final Marker marker, final String message)
-    public void info(final Marker marker, final String message, final Object... params)
-    public void info(final Marker marker, final String message, final Throwable throwable)
-    public void info(final Message message)
-    public void info(final Message message, final Throwable throwable)
-    public void info(final CharSequence message)
-    public void info(final CharSequence message, final Throwable throwable)
-    public void info(final Object message)
-    public void info(final Object message, final Throwable throwable)
-    public void info(final String message)
-    public void info(final String message, final Object... params)
-    public void info(final String message, final Throwable throwable)
-    public void info(final Supplier<?> messageSupplier)
-    public void info(final Supplier<?> messageSupplier, final Throwable throwable)
-    public void info(final Marker marker, final Supplier<?> messageSupplier)
-    public void info(final Marker marker, final String message, final Supplier<?>... paramSuppliers)
-    public void info(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)
-    public void info(final String message, final Supplier<?>... paramSuppliers)
-    public void info(final Marker marker, final MessageSupplier messageSupplier)
-    public void info(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)
-    public void info(final MessageSupplier messageSupplier)
-    public void info(final MessageSupplier messageSupplier, final Throwable throwable)
-    public void info(final Marker marker, final String message, final Object p0)
-    public void info(final Marker marker, final String message, final Object p0, final Object p1)
-    public void info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)
-    public void info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public void info(final String message, final Object p0)
-    public void info(final String message, final Object p0, final Object p1)
-    public void info(final String message, final Object p0, final Object p1, final Object p2)
-    public void info(final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
+    '''returns None\n\n
+    info(final Marker marker, final Message message)\n
+    info(final Marker marker, final Message message, final Throwable throwable)\n
+    info(final Marker marker, final CharSequence message)\n
+    info(final Marker marker, final CharSequence message, final Throwable throwable)\n
+    info(final Marker marker, final Object message)\n
+    info(final Marker marker, final Object message, final Throwable throwable)\n
+    info(final Marker marker, final String message)\n
+    info(final Marker marker, final String message, final Object... params)\n
+    info(final Marker marker, final String message, final Throwable throwable)\n
+    info(final Message message)\n
+    info(final Message message, final Throwable throwable)\n
+    info(final CharSequence message)\n
+    info(final CharSequence message, final Throwable throwable)\n
+    info(final Object message)\n
+    info(final Object message, final Throwable throwable)\n
+    info(final String message)\n
+    info(final String message, final Object... params)\n
+    info(final String message, final Throwable throwable)\n
+    info(final Supplier<?> messageSupplier)\n
+    info(final Supplier<?> messageSupplier, final Throwable throwable)\n
+    info(final Marker marker, final Supplier<?> messageSupplier)\n
+    info(final Marker marker, final String message, final Supplier<?>... paramSuppliers)\n
+    info(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)\n
+    info(final String message, final Supplier<?>... paramSuppliers)\n
+    info(final Marker marker, final MessageSupplier messageSupplier)\n
+    info(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)\n
+    info(final MessageSupplier messageSupplier)\n
+    info(final MessageSupplier messageSupplier, final Throwable throwable)\n
+    info(final Marker marker, final String message, final Object p0)\n
+    info(final Marker marker, final String message, final Object p0, final Object p1)\n
+    info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)\n
+    info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    info(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    info(final String message, final Object p0)\n
+    info(final String message, final Object p0, final Object p1)\n
+    info(final String message, final Object p0, final Object p1, final Object p2)\n
+    info(final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
-    public boolean isDebugEnabled(final Marker marker)
+    '''returns boolean\n\n
+    isDebugEnabled()\n
+    isDebugEnabled(final Marker marker)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Level level)
-    public boolean isEnabled(final Level level, final Marker marker)
+    '''returns boolean\n\n
+    isEnabled(final Level level)\n
+    isEnabled(final Level level, final Marker marker)\n
     '''
 def isErrorEnabled():
-    '''public boolean isErrorEnabled()
-    public boolean isErrorEnabled(final Marker marker)
+    '''returns boolean\n\n
+    isErrorEnabled()\n
+    isErrorEnabled(final Marker marker)\n
     '''
 def isFatalEnabled():
-    '''public boolean isFatalEnabled()
-    public boolean isFatalEnabled(final Marker marker)
+    '''returns boolean\n\n
+    isFatalEnabled()\n
+    isFatalEnabled(final Marker marker)\n
     '''
 def isInfoEnabled():
-    '''public boolean isInfoEnabled()
-    public boolean isInfoEnabled(final Marker marker)
+    '''returns boolean\n\n
+    isInfoEnabled()\n
+    isInfoEnabled(final Marker marker)\n
     '''
 def isTraceEnabled():
-    '''public boolean isTraceEnabled()
-    public boolean isTraceEnabled(final Marker marker)
+    '''returns boolean\n\n
+    isTraceEnabled()\n
+    isTraceEnabled(final Marker marker)\n
     '''
 def isWarnEnabled():
-    '''public boolean isWarnEnabled()
-    public boolean isWarnEnabled(final Marker marker)
+    '''returns boolean\n\n
+    isWarnEnabled()\n
+    isWarnEnabled(final Marker marker)\n
     '''
 def log():
-    '''public void log(final Level level, final Marker marker, final Message message)
-    public void log(final Level level, final Marker marker, final Message message, final Throwable throwable)
-    public void log(final Level level, final Marker marker, final CharSequence message)
-    public void log(final Level level, final Marker marker, final CharSequence message, final Throwable throwable)
-    public void log(final Level level, final Marker marker, final Object message)
-    public void log(final Level level, final Marker marker, final Object message, final Throwable throwable)
-    public void log(final Level level, final Marker marker, final String message)
-    public void log(final Level level, final Marker marker, final String message, final Object... params)
-    public void log(final Level level, final Marker marker, final String message, final Throwable throwable)
-    public void log(final Level level, final Message message)
-    public void log(final Level level, final Message message, final Throwable throwable)
-    public void log(final Level level, final CharSequence message)
-    public void log(final Level level, final CharSequence message, final Throwable throwable)
-    public void log(final Level level, final Object message)
-    public void log(final Level level, final Object message, final Throwable throwable)
-    public void log(final Level level, final String message)
-    public void log(final Level level, final String message, final Object... params)
-    public void log(final Level level, final String message, final Throwable throwable)
-    public void log(final Level level, final Supplier<?> messageSupplier)
-    public void log(final Level level, final Supplier<?> messageSupplier, final Throwable throwable)
-    public void log(final Level level, final Marker marker, final Supplier<?> messageSupplier)
-    public void log(final Level level, final Marker marker, final String message, final Supplier<?>... paramSuppliers)
-    public void log(final Level level, final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)
-    public void log(final Level level, final String message, final Supplier<?>... paramSuppliers)
-    public void log(final Level level, final Marker marker, final MessageSupplier messageSupplier)
-    public void log(final Level level, final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)
-    public void log(final Level level, final MessageSupplier messageSupplier)
-    public void log(final Level level, final MessageSupplier messageSupplier, final Throwable throwable)
-    public void log(final Level level, final Marker marker, final String message, final Object p0)
-    public void log(final Level level, final Marker marker, final String message, final Object p0, final Object p1)
-    public void log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2)
-    public void log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public void log(final Level level, final String message, final Object p0)
-    public void log(final Level level, final String message, final Object p0, final Object p1)
-    public void log(final Level level, final String message, final Object p0, final Object p1, final Object p2)
-    public void log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
+    '''returns None\n\n
+    log(final Level level, final Marker marker, final Message message)\n
+    log(final Level level, final Marker marker, final Message message, final Throwable throwable)\n
+    log(final Level level, final Marker marker, final CharSequence message)\n
+    log(final Level level, final Marker marker, final CharSequence message, final Throwable throwable)\n
+    log(final Level level, final Marker marker, final Object message)\n
+    log(final Level level, final Marker marker, final Object message, final Throwable throwable)\n
+    log(final Level level, final Marker marker, final String message)\n
+    log(final Level level, final Marker marker, final String message, final Object... params)\n
+    log(final Level level, final Marker marker, final String message, final Throwable throwable)\n
+    log(final Level level, final Message message)\n
+    log(final Level level, final Message message, final Throwable throwable)\n
+    log(final Level level, final CharSequence message)\n
+    log(final Level level, final CharSequence message, final Throwable throwable)\n
+    log(final Level level, final Object message)\n
+    log(final Level level, final Object message, final Throwable throwable)\n
+    log(final Level level, final String message)\n
+    log(final Level level, final String message, final Object... params)\n
+    log(final Level level, final String message, final Throwable throwable)\n
+    log(final Level level, final Supplier<?> messageSupplier)\n
+    log(final Level level, final Supplier<?> messageSupplier, final Throwable throwable)\n
+    log(final Level level, final Marker marker, final Supplier<?> messageSupplier)\n
+    log(final Level level, final Marker marker, final String message, final Supplier<?>... paramSuppliers)\n
+    log(final Level level, final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)\n
+    log(final Level level, final String message, final Supplier<?>... paramSuppliers)\n
+    log(final Level level, final Marker marker, final MessageSupplier messageSupplier)\n
+    log(final Level level, final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)\n
+    log(final Level level, final MessageSupplier messageSupplier)\n
+    log(final Level level, final MessageSupplier messageSupplier, final Throwable throwable)\n
+    log(final Level level, final Marker marker, final String message, final Object p0)\n
+    log(final Level level, final Marker marker, final String message, final Object p0, final Object p1)\n
+    log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2)\n
+    log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    log(final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    log(final Level level, final String message, final Object p0)\n
+    log(final Level level, final String message, final Object p0, final Object p1)\n
+    log(final Level level, final String message, final Object p0, final Object p1, final Object p2)\n
+    log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
     '''
 def logIfEnabled():
-    '''public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final Message message, final Throwable throwable)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final Object message, final Throwable throwable)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final CharSequence message, final Throwable throwable)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Supplier<?>... paramSuppliers)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object... params)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Throwable throwable)
+    '''returns None\n\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final Message message, final Throwable throwable)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final Object message, final Throwable throwable)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final CharSequence message, final Throwable throwable)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Supplier<?>... paramSuppliers)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object... params)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Throwable throwable)\n
     '''
 def logMessage():
-    '''public void logMessage(final Level level, final Marker marker, final String fqcn, final StackTraceElement location, final Message message, final Throwable throwable)
+    '''returns None\n\n
+    logMessage(final Level level, final Marker marker, final String fqcn, final StackTraceElement location, final Message message, final Throwable throwable)\n
     '''
 def printf():
-    '''public void printf(final Level level, final Marker marker, final String format, final Object... params)
-    public void printf(final Level level, final String format, final Object... params)
-    '''
-def getRecursionDepth():
-    '''public static int getRecursionDepth()
-    '''
-def throwing():
-    '''public <T extends Throwable> T throwing(final T throwable)
-    public <T extends Throwable> T throwing(final Level level, final T throwable)
+    '''returns None\n\n
+    printf(final Level level, final Marker marker, final String format, final Object... params)\n
+    printf(final Level level, final String format, final Object... params)\n
     '''
 def trace():
-    '''public void trace(final Marker marker, final Message message)
-    public void trace(final Marker marker, final Message message, final Throwable throwable)
-    public void trace(final Marker marker, final CharSequence message)
-    public void trace(final Marker marker, final CharSequence message, final Throwable throwable)
-    public void trace(final Marker marker, final Object message)
-    public void trace(final Marker marker, final Object message, final Throwable throwable)
-    public void trace(final Marker marker, final String message)
-    public void trace(final Marker marker, final String message, final Object... params)
-    public void trace(final Marker marker, final String message, final Throwable throwable)
-    public void trace(final Message message)
-    public void trace(final Message message, final Throwable throwable)
-    public void trace(final CharSequence message)
-    public void trace(final CharSequence message, final Throwable throwable)
-    public void trace(final Object message)
-    public void trace(final Object message, final Throwable throwable)
-    public void trace(final String message)
-    public void trace(final String message, final Object... params)
-    public void trace(final String message, final Throwable throwable)
-    public void trace(final Supplier<?> messageSupplier)
-    public void trace(final Supplier<?> messageSupplier, final Throwable throwable)
-    public void trace(final Marker marker, final Supplier<?> messageSupplier)
-    public void trace(final Marker marker, final String message, final Supplier<?>... paramSuppliers)
-    public void trace(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)
-    public void trace(final String message, final Supplier<?>... paramSuppliers)
-    public void trace(final Marker marker, final MessageSupplier messageSupplier)
-    public void trace(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)
-    public void trace(final MessageSupplier messageSupplier)
-    public void trace(final MessageSupplier messageSupplier, final Throwable throwable)
-    public void trace(final Marker marker, final String message, final Object p0)
-    public void trace(final Marker marker, final String message, final Object p0, final Object p1)
-    public void trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)
-    public void trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public void trace(final String message, final Object p0)
-    public void trace(final String message, final Object p0, final Object p1)
-    public void trace(final String message, final Object p0, final Object p1, final Object p2)
-    public void trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
+    '''returns None\n\n
+    trace(final Marker marker, final Message message)\n
+    trace(final Marker marker, final Message message, final Throwable throwable)\n
+    trace(final Marker marker, final CharSequence message)\n
+    trace(final Marker marker, final CharSequence message, final Throwable throwable)\n
+    trace(final Marker marker, final Object message)\n
+    trace(final Marker marker, final Object message, final Throwable throwable)\n
+    trace(final Marker marker, final String message)\n
+    trace(final Marker marker, final String message, final Object... params)\n
+    trace(final Marker marker, final String message, final Throwable throwable)\n
+    trace(final Message message)\n
+    trace(final Message message, final Throwable throwable)\n
+    trace(final CharSequence message)\n
+    trace(final CharSequence message, final Throwable throwable)\n
+    trace(final Object message)\n
+    trace(final Object message, final Throwable throwable)\n
+    trace(final String message)\n
+    trace(final String message, final Object... params)\n
+    trace(final String message, final Throwable throwable)\n
+    trace(final Supplier<?> messageSupplier)\n
+    trace(final Supplier<?> messageSupplier, final Throwable throwable)\n
+    trace(final Marker marker, final Supplier<?> messageSupplier)\n
+    trace(final Marker marker, final String message, final Supplier<?>... paramSuppliers)\n
+    trace(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)\n
+    trace(final String message, final Supplier<?>... paramSuppliers)\n
+    trace(final Marker marker, final MessageSupplier messageSupplier)\n
+    trace(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)\n
+    trace(final MessageSupplier messageSupplier)\n
+    trace(final MessageSupplier messageSupplier, final Throwable throwable)\n
+    trace(final Marker marker, final String message, final Object p0)\n
+    trace(final Marker marker, final String message, final Object p0, final Object p1)\n
+    trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)\n
+    trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    trace(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    trace(final String message, final Object p0)\n
+    trace(final String message, final Object p0, final Object p1)\n
+    trace(final String message, final Object p0, final Object p1, final Object p2)\n
+    trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
     '''
 def traceEntry():
-    '''public EntryMessage traceEntry()
-    public EntryMessage traceEntry(final String format, final Object... params)
-    public EntryMessage traceEntry(final Supplier<?>... paramSuppliers)
-    public EntryMessage traceEntry(final String format, final Supplier<?>... paramSuppliers)
-    public EntryMessage traceEntry(final Message message)
+    '''returns EntryMessage\n\n
+    traceEntry()\n
+    traceEntry(final String format, final Object... params)\n
+    traceEntry(final Supplier<?>... paramSuppliers)\n
+    traceEntry(final String format, final Supplier<?>... paramSuppliers)\n
+    traceEntry(final Message message)\n
     '''
 def traceExit():
-    '''public void traceExit()
-    public <R> R traceExit(final R result)
-    public <R> R traceExit(final String format, final R result)
-    public void traceExit(final EntryMessage message)
-    public <R> R traceExit(final EntryMessage message, final R result)
-    public <R> R traceExit(final Message message, final R result)
+    '''returns None\n\n
+    traceExit()\n
+    traceExit(final EntryMessage message)\n
     '''
 def warn():
-    '''public void warn(final Marker marker, final Message message)
-    public void warn(final Marker marker, final Message message, final Throwable throwable)
-    public void warn(final Marker marker, final CharSequence message)
-    public void warn(final Marker marker, final CharSequence message, final Throwable throwable)
-    public void warn(final Marker marker, final Object message)
-    public void warn(final Marker marker, final Object message, final Throwable throwable)
-    public void warn(final Marker marker, final String message)
-    public void warn(final Marker marker, final String message, final Object... params)
-    public void warn(final Marker marker, final String message, final Throwable throwable)
-    public void warn(final Message message)
-    public void warn(final Message message, final Throwable throwable)
-    public void warn(final CharSequence message)
-    public void warn(final CharSequence message, final Throwable throwable)
-    public void warn(final Object message)
-    public void warn(final Object message, final Throwable throwable)
-    public void warn(final String message)
-    public void warn(final String message, final Object... params)
-    public void warn(final String message, final Throwable throwable)
-    public void warn(final Supplier<?> messageSupplier)
-    public void warn(final Supplier<?> messageSupplier, final Throwable throwable)
-    public void warn(final Marker marker, final Supplier<?> messageSupplier)
-    public void warn(final Marker marker, final String message, final Supplier<?>... paramSuppliers)
-    public void warn(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)
-    public void warn(final String message, final Supplier<?>... paramSuppliers)
-    public void warn(final Marker marker, final MessageSupplier messageSupplier)
-    public void warn(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)
-    public void warn(final MessageSupplier messageSupplier)
-    public void warn(final MessageSupplier messageSupplier, final Throwable throwable)
-    public void warn(final Marker marker, final String message, final Object p0)
-    public void warn(final Marker marker, final String message, final Object p0, final Object p1)
-    public void warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)
-    public void warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    public void warn(final String message, final Object p0)
-    public void warn(final String message, final Object p0, final Object p1)
-    public void warn(final String message, final Object p0, final Object p1, final Object p2)
-    public void warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3)
-    public void warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public void warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public void warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public void warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public void warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public void warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
+    '''returns None\n\n
+    warn(final Marker marker, final Message message)\n
+    warn(final Marker marker, final Message message, final Throwable throwable)\n
+    warn(final Marker marker, final CharSequence message)\n
+    warn(final Marker marker, final CharSequence message, final Throwable throwable)\n
+    warn(final Marker marker, final Object message)\n
+    warn(final Marker marker, final Object message, final Throwable throwable)\n
+    warn(final Marker marker, final String message)\n
+    warn(final Marker marker, final String message, final Object... params)\n
+    warn(final Marker marker, final String message, final Throwable throwable)\n
+    warn(final Message message)\n
+    warn(final Message message, final Throwable throwable)\n
+    warn(final CharSequence message)\n
+    warn(final CharSequence message, final Throwable throwable)\n
+    warn(final Object message)\n
+    warn(final Object message, final Throwable throwable)\n
+    warn(final String message)\n
+    warn(final String message, final Object... params)\n
+    warn(final String message, final Throwable throwable)\n
+    warn(final Supplier<?> messageSupplier)\n
+    warn(final Supplier<?> messageSupplier, final Throwable throwable)\n
+    warn(final Marker marker, final Supplier<?> messageSupplier)\n
+    warn(final Marker marker, final String message, final Supplier<?>... paramSuppliers)\n
+    warn(final Marker marker, final Supplier<?> messageSupplier, final Throwable throwable)\n
+    warn(final String message, final Supplier<?>... paramSuppliers)\n
+    warn(final Marker marker, final MessageSupplier messageSupplier)\n
+    warn(final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)\n
+    warn(final MessageSupplier messageSupplier)\n
+    warn(final MessageSupplier messageSupplier, final Throwable throwable)\n
+    warn(final Marker marker, final String message, final Object p0)\n
+    warn(final Marker marker, final String message, final Object p0, final Object p1)\n
+    warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2)\n
+    warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    warn(final Marker marker, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
+    warn(final String message, final Object p0)\n
+    warn(final String message, final Object p0, final Object p1)\n
+    warn(final String message, final Object p0, final Object p1, final Object p2)\n
+    warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
     '''
 def atTrace():
-    '''public LogBuilder atTrace()
+    '''returns LogBuilder\n\n
+    atTrace()\n
     '''
 def atDebug():
-    '''public LogBuilder atDebug()
+    '''returns LogBuilder\n\n
+    atDebug()\n
     '''
 def atInfo():
-    '''public LogBuilder atInfo()
+    '''returns LogBuilder\n\n
+    atInfo()\n
     '''
 def atWarn():
-    '''public LogBuilder atWarn()
+    '''returns LogBuilder\n\n
+    atWarn()\n
     '''
 def atError():
-    '''public LogBuilder atError()
+    '''returns LogBuilder\n\n
+    atError()\n
     '''
 def atFatal():
-    '''public LogBuilder atFatal()
+    '''returns LogBuilder\n\n
+    atFatal()\n
     '''
 def always():
-    '''public LogBuilder always()
+    '''returns LogBuilder\n\n
+    always()\n
     '''
 def atLevel():
-    '''public LogBuilder atLevel(final Level level)
+    '''returns LogBuilder\n\n
+    atLevel(final Level level)\n
     '''

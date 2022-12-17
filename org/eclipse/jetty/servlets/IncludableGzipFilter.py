@@ -1,12 +1,10 @@
-def IncludableGzipFilter():
-    '''public IncludableGzipFilter()
+def ():
+    '''returns IncludableGzipStream\n\n
+    ()\n
+    (final HttpServletRequest request, final HttpServletResponse response)\n
+    (final HttpServletRequest request, final HttpServletResponse response, final long contentLength, final int bufferSize, final int minGzipSize)\n
     '''
 def init():
-    '''public void init(final FilterConfig filterConfig)
-    '''
-def IncludableResponseWrapper():
-    '''public IncludableResponseWrapper(final HttpServletRequest request, final HttpServletResponse response)
-    '''
-def IncludableGzipStream():
-    '''public IncludableGzipStream(final HttpServletRequest request, final HttpServletResponse response, final long contentLength, final int bufferSize, final int minGzipSize)
+    '''returns None\n\n
+    init(final FilterConfig filterConfig)\n
     '''

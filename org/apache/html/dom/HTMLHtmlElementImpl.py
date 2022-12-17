@@ -1,9 +1,12 @@
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final String s)
+    '''returns None\n\n
+    setVersion(final String s)\n
     '''
-def HTMLHtmlElementImpl():
-    '''public HTMLHtmlElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLHtmlElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

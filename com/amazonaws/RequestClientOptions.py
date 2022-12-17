@@ -1,19 +1,17 @@
 DEFAULT_STREAM_BUFFER_SIZE = "int  131073"
-def RequestClientOptions():
-    '''public RequestClientOptions()
+def ():
+    '''returns RequestClientOptions\n\n
+    ()\n
     '''
 def getClientMarker():
-    '''public String getClientMarker(final Marker marker)
+    '''returns String\n\n
+    getClientMarker(final Marker marker)\n
     '''
 def putClientMarker():
-    '''public void putClientMarker(final Marker marker, final String value)
+    '''returns None\n\n
+    putClientMarker(final Marker marker, final String value)\n
     '''
 def appendUserAgent():
-    '''public void appendUserAgent(final String userAgent)
-    '''
-def getReadLimit():
-    '''public final int getReadLimit()
-    '''
-def setReadLimit():
-    '''public final void setReadLimit(final int readLimit)
+    '''returns None\n\n
+    appendUserAgent(final String userAgent)\n
     '''

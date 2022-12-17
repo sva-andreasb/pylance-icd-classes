@@ -1,170 +1,203 @@
 DEFAULT_DATE_STRING_FORMAT = "String  \"yyyy-MM-dd HH:mm:ss.SSS\""
-def SQLiteConfig():
-    '''public SQLiteConfig()
-    public SQLiteConfig(final Properties prop)
+def ():
+    '''returns SQLiteConfig\n\n
+    ()\n
+    (final Properties prop)\n
     '''
 def newConnectionConfig():
-    '''public SQLiteConnectionConfig newConnectionConfig()
+    '''returns SQLiteConnectionConfig\n\n
+    newConnectionConfig()\n
     '''
 def createConnection():
-    '''public Connection createConnection(final String url)
+    '''returns Connection\n\n
+    createConnection(final String url)\n
     '''
 def apply():
-    '''public void apply(final Connection conn)
+    '''returns None\n\n
+    apply(final Connection conn)\n
     '''
 def isEnabledSharedCache():
-    '''public boolean isEnabledSharedCache()
+    '''returns boolean\n\n
+    isEnabledSharedCache()\n
     '''
 def isEnabledLoadExtension():
-    '''public boolean isEnabledLoadExtension()
+    '''returns boolean\n\n
+    isEnabledLoadExtension()\n
     '''
 def getOpenModeFlags():
-    '''public int getOpenModeFlags()
+    '''returns int\n\n
+    getOpenModeFlags()\n
     '''
 def setPragma():
-    '''public void setPragma(final Pragma pragma, final String value)
+    '''returns None\n\n
+    setPragma(final Pragma pragma, final String value)\n
     '''
 def toProperties():
-    '''public Properties toProperties()
+    '''returns Properties\n\n
+    toProperties()\n
     '''
 def setOpenMode():
-    '''public void setOpenMode(final SQLiteOpenMode mode)
+    '''returns None\n\n
+    setOpenMode(final SQLiteOpenMode mode)\n
     '''
 def resetOpenMode():
-    '''public void resetOpenMode(final SQLiteOpenMode mode)
+    '''returns None\n\n
+    resetOpenMode(final SQLiteOpenMode mode)\n
     '''
 def setSharedCache():
-    '''public void setSharedCache(final boolean enable)
+    '''returns None\n\n
+    setSharedCache(final boolean enable)\n
     '''
 def enableLoadExtension():
-    '''public void enableLoadExtension(final boolean enable)
+    '''returns None\n\n
+    enableLoadExtension(final boolean enable)\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean readOnly)
+    '''returns None\n\n
+    setReadOnly(final boolean readOnly)\n
     '''
 def setCacheSize():
-    '''public void setCacheSize(final int numberOfPages)
+    '''returns None\n\n
+    setCacheSize(final int numberOfPages)\n
     '''
 def enableCaseSensitiveLike():
-    '''public void enableCaseSensitiveLike(final boolean enable)
+    '''returns None\n\n
+    enableCaseSensitiveLike(final boolean enable)\n
     '''
 def enableCountChanges():
-    '''public void enableCountChanges(final boolean enable)
+    '''returns None\n\n
+    enableCountChanges(final boolean enable)\n
     '''
 def setDefaultCacheSize():
-    '''public void setDefaultCacheSize(final int numberOfPages)
+    '''returns None\n\n
+    setDefaultCacheSize(final int numberOfPages)\n
     '''
 def enableEmptyResultCallBacks():
-    '''public void enableEmptyResultCallBacks(final boolean enable)
+    '''returns None\n\n
+    enableEmptyResultCallBacks(final boolean enable)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final Encoding encoding)
+    '''returns None\n\n
+    setEncoding(final Encoding encoding)\n
     '''
 def enforceForeignKeys():
-    '''public void enforceForeignKeys(final boolean enforce)
+    '''returns None\n\n
+    enforceForeignKeys(final boolean enforce)\n
     '''
 def enableFullColumnNames():
-    '''public void enableFullColumnNames(final boolean enable)
+    '''returns None\n\n
+    enableFullColumnNames(final boolean enable)\n
     '''
 def enableFullSync():
-    '''public void enableFullSync(final boolean enable)
+    '''returns None\n\n
+    enableFullSync(final boolean enable)\n
     '''
 def incrementalVacuum():
-    '''public void incrementalVacuum(final int numberOfPagesToBeRemoved)
+    '''returns None\n\n
+    incrementalVacuum(final int numberOfPagesToBeRemoved)\n
     '''
 def setJournalMode():
-    '''public void setJournalMode(final JournalMode mode)
+    '''returns None\n\n
+    setJournalMode(final JournalMode mode)\n
     '''
 def setJounalSizeLimit():
-    '''public void setJounalSizeLimit(final int limit)
+    '''returns None\n\n
+    setJounalSizeLimit(final int limit)\n
     '''
 def useLegacyFileFormat():
-    '''public void useLegacyFileFormat(final boolean use)
+    '''returns None\n\n
+    useLegacyFileFormat(final boolean use)\n
     '''
 def setLockingMode():
-    '''public void setLockingMode(final LockingMode mode)
+    '''returns None\n\n
+    setLockingMode(final LockingMode mode)\n
     '''
 def setPageSize():
-    '''public void setPageSize(final int numBytes)
+    '''returns None\n\n
+    setPageSize(final int numBytes)\n
     '''
 def setMaxPageCount():
-    '''public void setMaxPageCount(final int numPages)
+    '''returns None\n\n
+    setMaxPageCount(final int numPages)\n
     '''
 def setReadUncommited():
-    '''public void setReadUncommited(final boolean useReadUncommitedIsolationMode)
+    '''returns None\n\n
+    setReadUncommited(final boolean useReadUncommitedIsolationMode)\n
     '''
 def enableRecursiveTriggers():
-    '''public void enableRecursiveTriggers(final boolean enable)
+    '''returns None\n\n
+    enableRecursiveTriggers(final boolean enable)\n
     '''
 def enableReverseUnorderedSelects():
-    '''public void enableReverseUnorderedSelects(final boolean enable)
+    '''returns None\n\n
+    enableReverseUnorderedSelects(final boolean enable)\n
     '''
 def enableShortColumnNames():
-    '''public void enableShortColumnNames(final boolean enable)
+    '''returns None\n\n
+    enableShortColumnNames(final boolean enable)\n
     '''
 def setSynchronous():
-    '''public void setSynchronous(final SynchronousMode mode)
+    '''returns None\n\n
+    setSynchronous(final SynchronousMode mode)\n
     '''
 def setHexKeyMode():
-    '''public void setHexKeyMode(final HexKeyMode mode)
+    '''returns None\n\n
+    setHexKeyMode(final HexKeyMode mode)\n
     '''
 def setTempStore():
-    '''public void setTempStore(final TempStore storeType)
+    '''returns None\n\n
+    setTempStore(final TempStore storeType)\n
     '''
 def setTempStoreDirectory():
-    '''public void setTempStoreDirectory(final String directoryName)
+    '''returns None\n\n
+    setTempStoreDirectory(final String directoryName)\n
     '''
 def setUserVersion():
-    '''public void setUserVersion(final int version)
+    '''returns None\n\n
+    setUserVersion(final int version)\n
     '''
 def setApplicationId():
-    '''public void setApplicationId(final int id)
+    '''returns None\n\n
+    setApplicationId(final int id)\n
     '''
 def setTransactionMode():
-    '''public void setTransactionMode(final TransactionMode transactionMode)
-    public void setTransactionMode(final String transactionMode)
+    '''returns None\n\n
+    setTransactionMode(final TransactionMode transactionMode)\n
+    setTransactionMode(final String transactionMode)\n
     '''
 def getTransactionMode():
-    '''public TransactionMode getTransactionMode()
+    '''returns TransactionMode\n\n
+    getTransactionMode()\n
     '''
 def setDatePrecision():
-    '''public void setDatePrecision(final String datePrecision)
+    '''returns None\n\n
+    setDatePrecision(final String datePrecision)\n
     '''
 def setDateClass():
-    '''public void setDateClass(final String dateClass)
+    '''returns None\n\n
+    setDateClass(final String dateClass)\n
     '''
 def setDateStringFormat():
-    '''public void setDateStringFormat(final String dateStringFormat)
+    '''returns None\n\n
+    setDateStringFormat(final String dateStringFormat)\n
     '''
 def setBusyTimeout():
-    '''public void setBusyTimeout(final int milliseconds)
+    '''returns None\n\n
+    setBusyTimeout(final int milliseconds)\n
     '''
 def getBusyTimeout():
-    '''public int getBusyTimeout()
-    '''
-def getPragmaName():
-    '''public final String getPragmaName()
+    '''returns int\n\n
+    getBusyTimeout()\n
     '''
 def getValue():
-    '''public String getValue()
-    public String getValue()
-    public String getValue()
-    public String getValue()
-    public String getValue()
-    public String getValue()
-    public String getValue()
-    public String getValue()
-    public String getValue()
-    '''
-def getEncoding():
-    '''public static Encoding getEncoding(final String value)
-    '''
-def getMode():
-    '''public static TransactionMode getMode(final String mode)
-    '''
-def getPrecision():
-    '''public static DatePrecision getPrecision(final String precision)
-    '''
-def getDateClass():
-    '''public static DateClass getDateClass(final String dateClass)
+    '''returns String\n\n
+    getValue()\n
+    getValue()\n
+    getValue()\n
+    getValue()\n
+    getValue()\n
+    getValue()\n
+    getValue()\n
+    getValue()\n
+    getValue()\n
     '''

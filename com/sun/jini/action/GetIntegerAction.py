@@ -1,7 +1,9 @@
-def GetIntegerAction():
-    '''public GetIntegerAction(final String theProp)
-    public GetIntegerAction(final String theProp, final int defaultVal)
+def ():
+    '''returns GetIntegerAction\n\n
+    (final String theProp)\n
+    (final String theProp, final int defaultVal)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

@@ -1,9 +1,12 @@
-def DefaultPseudoElementSelector():
-    '''public DefaultPseudoElementSelector(final String uri, final String name)
+def ():
+    '''returns DefaultPseudoElementSelector\n\n
+    (final String uri, final String name)\n
     '''
 def getSelectorType():
-    '''public short getSelectorType()
+    '''returns short\n\n
+    getSelectorType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

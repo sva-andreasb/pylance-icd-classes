@@ -1,42 +1,56 @@
-def NamingPolicy():
-    '''public NamingPolicy()
+def ():
+    '''returns NamingPolicy\n\n
+    ()\n
     '''
 def getGuid():
-    '''public Guid getGuid()
+    '''returns Guid\n\n
+    getGuid()\n
     '''
 def setGuid():
-    '''public void setGuid(final Guid guid)
+    '''returns None\n\n
+    setGuid(final Guid guid)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getNamingRules():
-    '''public List<NamingRule> getNamingRules()
+    '''returns List<NamingRule>\n\n
+    getNamingRules()\n
     '''
 def setRequiresSuperior():
-    '''public void setRequiresSuperior(final boolean requiresSuperior)
+    '''returns None\n\n
+    setRequiresSuperior(final boolean requiresSuperior)\n
     '''
 def addNamingRule():
-    '''public void addNamingRule(final NamingRule rule)
+    '''returns None\n\n
+    addNamingRule(final NamingRule rule)\n
     '''
 def addNamingRules():
-    '''public void addNamingRules(final Collection<NamingRule> rules)
+    '''returns None\n\n
+    addNamingRules(final Collection<NamingRule> rules)\n
     '''
 def matchTheseAttributes():
-    '''public List<NamingRule> matchTheseAttributes(final Collection<String> identifyingAttributes)
+    '''returns List<NamingRule>\n\n
+    matchTheseAttributes(final Collection<String> identifyingAttributes)\n
     '''
 def getNamingRulesSize():
-    '''public int getNamingRulesSize()
+    '''returns int\n\n
+    getNamingRulesSize()\n
     '''
 def requiresSuperior():
-    '''public boolean requiresSuperior()
+    '''returns boolean\n\n
+    requiresSuperior()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final NamingPolicy np)
+    '''returns boolean\n\n
+    equals(final NamingPolicy np)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPSOOwnerHistSet():
-    '''public PlusPSOOwnerHistSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPSOOwnerHistSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,17 +1,22 @@
 REPORTATACHUNCPATH = "String  \"REPORTATACHUNCPATH\""
-def ReportAttachUncPathCache():
-    '''public ReportAttachUncPathCache()
+def ():
+    '''returns ReportAttachUncPathCache\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getListOfValidLocalPaths():
-    '''public HashSet<String> getListOfValidLocalPaths()
+    '''returns HashSet<String>\n\n
+    getListOfValidLocalPaths()\n
     '''

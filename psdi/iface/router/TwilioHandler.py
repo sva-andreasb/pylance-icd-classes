@@ -2,41 +2,48 @@ FROM = "String  \"FROM_PHONE\""
 SID = "String  \"ACCOUNT_SID\""
 AUTHTOKEN = "String  \"AUTH_TOKEN\""
 BASEURL = "String  \"TWILIO_BASEURL\""
-def TwilioHandler():
-    '''public TwilioHandler(final MaxEndPointInfo endPointInfo)
-    public TwilioHandler()
+def ():
+    '''returns TwilioHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def setTo():
-    '''public void setTo(final String phoneSMS)
+    '''returns None\n\n
+    setTo(final String phoneSMS)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def getHandlerURL():
-    '''public String getHandlerURL()
-    '''
-def encode():
-    '''public static String encode(final String userName, final String password)
-    public static String encode(final String str)
+    '''returns String\n\n
+    getHandlerURL()\n
     '''
 def getHeaders():
-    '''public Map getHeaders()
+    '''returns Map\n\n
+    getHeaders()\n
     '''
 def getBody():
-    '''public byte[] getBody(byte[] data)
+    '''returns byte[]\n\n
+    getBody(byte[] data)\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''
 def getFrom():
-    '''public String getFrom()
+    '''returns String\n\n
+    getFrom()\n
     '''
 def getAuthKey():
-    '''public String getAuthKey()
+    '''returns String\n\n
+    getAuthKey()\n
     '''
 def getSID():
-    '''public String getSID()
+    '''returns String\n\n
+    getSID()\n
     '''
 def getBaseURL():
-    '''public String getBaseURL()
+    '''returns String\n\n
+    getBaseURL()\n
     '''

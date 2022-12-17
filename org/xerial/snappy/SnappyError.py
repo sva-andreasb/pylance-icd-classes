@@ -1,8 +1,10 @@
-def SnappyError():
-    '''public SnappyError(final SnappyErrorCode errorCode)
-    public SnappyError(final SnappyErrorCode errorCode, final Error cause)
-    public SnappyError(final SnappyErrorCode errorCode, final String message)
+def ():
+    '''returns SnappyError\n\n
+    (final SnappyErrorCode errorCode)\n
+    (final SnappyErrorCode errorCode, final Error cause)\n
+    (final SnappyErrorCode errorCode, final String message)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

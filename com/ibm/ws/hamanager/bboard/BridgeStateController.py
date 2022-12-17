@@ -6,36 +6,33 @@ FOREIGN_STATE_SYNCHRONIZED = "int  4"
 INITIALIZE_NONBRIDGED_PROCESS = "int  5"
 INITIALIZE_BRIDGED_PROCESS_IN_SINGLE_MEMBER_APG = "int  6"
 INITIALIZE_BRIDGED_PROCESS_IN_MULTI_MEMBER_APG = "int  7"
-def BridgeStateController():
-    '''public BridgeStateController(final BridgeStateManager observer, final Set configuredBridges, final String thisMembersDCSName)
+def ():
+    '''returns CrossCoreStackStateMachine\n\n
+    (final BridgeStateManager observer, final Set configuredBridges, final String thisMembersDCSName)\n
+    (final int eventIndex, final boolean isHamGSRViewChange)\n
+    (final BridgeStateManager stateObserver, final int numberOfConfiguredBridges)\n
     '''
 def bridgeStateSynchronized():
-    '''public void bridgeStateSynchronized()
-    '''
-def bridgeStateUnsynchronized():
-    '''public synchronized void bridgeStateUnsynchronized(final Set activeBridgeMembers)
-    '''
-def installNewView():
-    '''public synchronized void installNewView(final String[] members, final boolean isGSRViewChange, final Set bridgesInNewView)
-    '''
-def CrossCoreStackEvent():
-    '''public CrossCoreStackEvent(final int eventIndex, final boolean isHamGSRViewChange)
+    '''returns None\n\n
+    bridgeStateSynchronized()\n
     '''
 def getEventIndex():
-    '''public int getEventIndex()
+    '''returns int\n\n
+    getEventIndex()\n
     '''
 def isLocalViewChangeEvent():
-    '''public boolean isLocalViewChangeEvent()
+    '''returns boolean\n\n
+    isLocalViewChangeEvent()\n
     '''
 def isGSRViewChange():
-    '''public boolean isGSRViewChange()
-    '''
-def CrossCoreStackStateMachine():
-    '''public CrossCoreStackStateMachine(final BridgeStateManager stateObserver, final int numberOfConfiguredBridges)
+    '''returns boolean\n\n
+    isGSRViewChange()\n
     '''
 def initializeStateMachine():
-    '''public void initializeStateMachine(final int numberOfConfiguredBridges)
+    '''returns None\n\n
+    initializeStateMachine(final int numberOfConfiguredBridges)\n
     '''
 def processEvent():
-    '''public void processEvent(final CrossCoreStackEvent event)
+    '''returns None\n\n
+    processEvent(final CrossCoreStackEvent event)\n
     '''

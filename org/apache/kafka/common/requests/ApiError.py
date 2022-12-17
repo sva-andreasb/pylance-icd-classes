@@ -1,34 +1,41 @@
-def fromThrowable():
-    '''public static ApiError fromThrowable(final Throwable t)
-    '''
-def ApiError():
-    '''public ApiError(final Struct struct)
-    public ApiError(final Errors error, final String message)
+def ():
+    '''returns ApiError\n\n
+    (final Struct struct)\n
+    (final Errors error, final String message)\n
     '''
 def write():
-    '''public void write(final Struct struct)
+    '''returns None\n\n
+    write(final Struct struct)\n
     '''
 def is():
-    '''public boolean is(final Errors error)
+    '''returns boolean\n\n
+    is(final Errors error)\n
     '''
 def isFailure():
-    '''public boolean isFailure()
+    '''returns boolean\n\n
+    isFailure()\n
     '''
 def isSuccess():
-    '''public boolean isSuccess()
+    '''returns boolean\n\n
+    isSuccess()\n
     '''
 def error():
-    '''public Errors error()
+    '''returns Errors\n\n
+    error()\n
     '''
 def message():
-    '''public String message()
+    '''returns String\n\n
+    message()\n
     '''
 def messageWithFallback():
-    '''public String messageWithFallback()
+    '''returns String\n\n
+    messageWithFallback()\n
     '''
 def exception():
-    '''public ApiException exception()
+    '''returns ApiException\n\n
+    exception()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

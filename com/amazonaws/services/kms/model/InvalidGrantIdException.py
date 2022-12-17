@@ -1,3 +1,4 @@
-def InvalidGrantIdException():
-    '''public InvalidGrantIdException(final String message)
+def ():
+    '''returns InvalidGrantIdException\n\n
+    (final String message)\n
     '''

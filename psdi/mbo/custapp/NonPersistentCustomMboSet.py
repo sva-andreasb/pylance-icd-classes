@@ -1,3 +1,4 @@
-def NonPersistentCustomMboSet():
-    '''public NonPersistentCustomMboSet(final MboServerInterface ms)
+def ():
+    '''returns NonPersistentCustomMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,15 +1,16 @@
-def BasicHeaderIterator():
-    '''public BasicHeaderIterator(final Header[] headers, final String name)
+def ():
+    '''returns BasicHeaderIterator\n\n
+    (final Header[] headers, final String name)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def nextHeader():
-    '''public Header nextHeader()
-    '''
-def next():
-    '''public final Object next()
+    '''returns Header\n\n
+    nextHeader()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

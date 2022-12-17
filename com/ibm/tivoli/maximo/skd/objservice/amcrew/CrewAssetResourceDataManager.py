@@ -1,9 +1,12 @@
 def loadResource():
-    '''public void loadResource(final MXResource resource, final String objectName, final MXGanttModel model)
+    '''returns None\n\n
+    loadResource(final MXResource resource, final String objectName, final MXGanttModel model)\n
     '''
 def populateResources():
-    '''public void populateResources(final ArrayList<String> queries)
+    '''returns None\n\n
+    populateResources(final ArrayList<String> queries)\n
     '''
 def loadResourceTool():
-    '''public void loadResourceTool(final MXResource resource, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    loadResourceTool(final MXResource resource, final String objectName, final MboRemote mboObject)\n
     '''

@@ -1,4 +1,5 @@
-def ReassignmentInProgressException():
-    '''public ReassignmentInProgressException(final String msg)
-    public ReassignmentInProgressException(final String msg, final Throwable cause)
+def ():
+    '''returns ReassignmentInProgressException\n\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
     '''

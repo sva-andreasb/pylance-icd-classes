@@ -1,6 +1,8 @@
-def ReconOperatorLogical():
-    '''public ReconOperatorLogical(final ReconInfo reconInfo, final String operator, final int precedence, final boolean isRightAssociative)
+def ():
+    '''returns ReconOperatorLogical\n\n
+    (final ReconInfo reconInfo, final String operator, final int precedence, final boolean isRightAssociative)\n
     '''
 def getInstance():
-    '''public ReconOperator getInstance()
+    '''returns ReconOperator\n\n
+    getInstance()\n
     '''

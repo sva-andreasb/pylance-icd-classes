@@ -1,3 +1,4 @@
-def OslcInteractionQuerySet():
-    '''public OslcInteractionQuerySet(final MboServerInterface ms)
+def ():
+    '''returns OslcInteractionQuerySet\n\n
+    (final MboServerInterface ms)\n
     '''

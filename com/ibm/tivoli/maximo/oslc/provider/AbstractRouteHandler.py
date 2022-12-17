@@ -1,49 +1,60 @@
-def AbstractRouteHandler():
-    '''public AbstractRouteHandler()
+def ():
+    '''returns AbstractRouteHandler\n\n
+    ()\n
     '''
 def setRouteInfo():
-    '''public void setRouteInfo(final RouteInfo routeInfo)
+    '''returns None\n\n
+    setRouteInfo(final RouteInfo routeInfo)\n
     '''
 def setMethod():
-    '''public void setMethod(final String method)
+    '''returns None\n\n
+    setMethod(final String method)\n
     '''
 def authenticateRequest():
-    '''public MXSession authenticateRequest(final OslcRequest request)
+    '''returns MXSession\n\n
+    authenticateRequest(final OslcRequest request)\n
     '''
 def setAuthHandler():
-    '''public void setAuthHandler(final MaximoAuthenticator maxAuthHandler)
+    '''returns None\n\n
+    setAuthHandler(final MaximoAuthenticator maxAuthHandler)\n
     '''
 def setResReqPath():
-    '''public void setResReqPath(final String resourceReq)
+    '''returns None\n\n
+    setResReqPath(final String resourceReq)\n
     '''
 def setPathTokens():
-    '''public void setPathTokens(final List<String> pathTokens)
+    '''returns None\n\n
+    setPathTokens(final List<String> pathTokens)\n
     '''
 def getProvider():
-    '''public String getProvider()
+    '''returns String\n\n
+    getProvider()\n
     '''
 def setLogger():
-    '''public void setLogger(final MXLogger logger)
+    '''returns None\n\n
+    setLogger(final MXLogger logger)\n
     '''
 def setCorrelator():
-    '''public void setCorrelator(final MXCorrelator correlator)
-    '''
-def getPathTokensMeta():
-    '''public Map<String, String> getPathTokensMeta()
+    '''returns None\n\n
+    setCorrelator(final MXCorrelator correlator)\n
     '''
 def getPathTokenAllowedValuesMeta():
-    '''public Set<String> getPathTokenAllowedValuesMeta(final String token)
+    '''returns Set<String>\n\n
+    getPathTokenAllowedValuesMeta(final String token)\n
     '''
 def getQueryParamsMeta():
-    '''public Map<String, String> getQueryParamsMeta()
-    public List<QueryParamsInfo> getQueryParamsMeta(final String path)
+    '''returns List<QueryParamsInfo>\n\n
+    getQueryParamsMeta(final String path)\n
     '''
 def getQueryParamAllowedValuesMeta():
-    '''public Set<String> getQueryParamAllowedValuesMeta(final String qparam)
+    '''returns Set<String>\n\n
+    getQueryParamAllowedValuesMeta(final String qparam)\n
     '''
 def setRequestData():
-    '''public void setRequestData(final byte[] resourceBytes)
+    '''returns None\n\n
+    setRequestData(final byte[] resourceBytes)\n
     '''
 def isPathTokensOptional():
-    '''public boolean isPathTokensOptional()
+    '''returns boolean\n\n
+    isPathTokensOptional()\n
     '''

@@ -18,322 +18,417 @@ RestrictionEvalBySiteOrg = "int  3"
 INTNOTINITIALIZED = "int  -200"
 INTNOLIMIT = "int  -1"
 def getTypedReference():
-    '''public MboSetInfoBase getTypedReference()
+    '''returns MboSetInfoBase\n\n
+    getTypedReference()\n
     '''
 def isTenantOwned():
-    '''public boolean isTenantOwned()
+    '''returns boolean\n\n
+    isTenantOwned()\n
     '''
 def getKeyRelationshipWhere():
-    '''public String getKeyRelationshipWhere()
+    '''returns String\n\n
+    getKeyRelationshipWhere()\n
     '''
 def getUniqueEntityColumns():
-    '''public HashSet<String> getUniqueEntityColumns()
+    '''returns HashSet<String>\n\n
+    getUniqueEntityColumns()\n
     '''
 def isIncludedParentRelationship():
-    '''public boolean isIncludedParentRelationship()
+    '''returns boolean\n\n
+    isIncludedParentRelationship()\n
     '''
 def getUniqueIDName():
-    '''public String getUniqueIDName()
+    '''returns String\n\n
+    getUniqueIDName()\n
     '''
 def getContentAttrName():
-    '''public String getContentAttrName()
+    '''returns String\n\n
+    getContentAttrName()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def isMainObject():
-    '''public boolean isMainObject()
+    '''returns boolean\n\n
+    isMainObject()\n
     '''
 def isEAuditEnabled():
-    '''public boolean isEAuditEnabled()
+    '''returns boolean\n\n
+    isEAuditEnabled()\n
     '''
 def getEAuditFilter():
-    '''public String getEAuditFilter()
+    '''returns String\n\n
+    getEAuditFilter()\n
     '''
 def getESigFilter():
-    '''public String getESigFilter()
+    '''returns String\n\n
+    getESigFilter()\n
     '''
 def getEntityName():
-    '''public String getEntityName()
+    '''returns String\n\n
+    getEntityName()\n
     '''
 def getExtendsObject():
-    '''public String getExtendsObject()
+    '''returns String\n\n
+    getExtendsObject()\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def isNOSql():
-    '''public boolean isNOSql()
+    '''returns boolean\n\n
+    isNOSql()\n
     '''
 def isView():
-    '''public boolean isView()
+    '''returns boolean\n\n
+    isView()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getSiteOrgType():
-    '''public int getSiteOrgType()
+    '''returns int\n\n
+    getSiteOrgType()\n
     '''
 def getSiteOrgTypeAsString():
-    '''public String getSiteOrgTypeAsString()
+    '''returns String\n\n
+    getSiteOrgTypeAsString()\n
     '''
 def isUserdefined():
-    '''public boolean isUserdefined()
+    '''returns boolean\n\n
+    isUserdefined()\n
     '''
 def isImported():
-    '''public boolean isImported()
+    '''returns boolean\n\n
+    isImported()\n
     '''
 def isInternal():
-    '''public boolean isInternal()
+    '''returns boolean\n\n
+    isInternal()\n
     '''
 def setInternal():
-    '''public void setInternal(final boolean flag)
+    '''returns None\n\n
+    setInternal(final boolean flag)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInitEventName():
-    '''public String getInitEventName()
+    '''returns String\n\n
+    getInitEventName()\n
     '''
 def getAppValidateEventName():
-    '''public String getAppValidateEventName()
+    '''returns String\n\n
+    getAppValidateEventName()\n
     '''
 def getFetchStopLimit():
-    '''public int getFetchStopLimit()
+    '''returns int\n\n
+    getFetchStopLimit()\n
     '''
 def getTextdirection():
-    '''public String getTextdirection()
+    '''returns String\n\n
+    getTextdirection()\n
     '''
 def setHierarchyList():
-    '''public void setHierarchyList(final List<String> hierarchyList)
+    '''returns None\n\n
+    setHierarchyList(final List<String> hierarchyList)\n
     '''
 def getHierarchyList():
-    '''public List<String> getHierarchyList()
+    '''returns List<String>\n\n
+    getHierarchyList()\n
     '''
 def evalForDataRestriction():
-    '''public int evalForDataRestriction()
+    '''returns int\n\n
+    evalForDataRestriction()\n
     '''
 def getAttributeDetails():
-    '''public Map getAttributeDetails()
+    '''returns Map\n\n
+    getAttributeDetails()\n
     '''
 def clearAttributes():
-    '''public void clearAttributes()
+    '''returns None\n\n
+    clearAttributes()\n
     '''
 def addAttribute():
-    '''public void addAttribute(final MboValueInfo attributeInfo)
+    '''returns None\n\n
+    addAttribute(final MboValueInfo attributeInfo)\n
     '''
 def getAttribute():
-    '''public MboValueInfo getAttribute(final String attributeName)
+    '''returns MboValueInfo\n\n
+    getAttribute(final String attributeName)\n
     '''
 def getEntity():
-    '''public Entity getEntity()
+    '''returns Entity\n\n
+    getEntity()\n
     '''
 def setEntity():
-    '''public void setEntity(final Entity entity)
+    '''returns None\n\n
+    setEntity(final Entity entity)\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getPersistentAttributeCount():
-    '''public int getPersistentAttributeCount()
+    '''returns int\n\n
+    getPersistentAttributeCount()\n
     '''
 def getExtendedAttributeCount():
-    '''public int getExtendedAttributeCount()
+    '''returns int\n\n
+    getExtendedAttributeCount()\n
     '''
 def getFetchAttributeCount():
-    '''public int getFetchAttributeCount()
+    '''returns int\n\n
+    getFetchAttributeCount()\n
     '''
 def getAttributes():
-    '''public Iterator getAttributes()
+    '''returns Iterator\n\n
+    getAttributes()\n
     '''
 def getPersistentAttributes():
-    '''public Iterator getPersistentAttributes()
+    '''returns Iterator\n\n
+    getPersistentAttributes()\n
     '''
 def getExtendedAttributes():
-    '''public Iterator getExtendedAttributes()
+    '''returns Iterator\n\n
+    getExtendedAttributes()\n
     '''
 def getFetchAttributes():
-    '''public Iterator getFetchAttributes()
+    '''returns Iterator\n\n
+    getFetchAttributes()\n
     '''
 def getKeyAttributeIterator():
-    '''public Iterator getKeyAttributeIterator()
+    '''returns Iterator\n\n
+    getKeyAttributeIterator()\n
     '''
 def getLongDescriptionAttributes():
-    '''public Iterator getLongDescriptionAttributes()
+    '''returns Iterator\n\n
+    getLongDescriptionAttributes()\n
     '''
 def getKeySize():
-    '''public int getKeySize()
+    '''returns int\n\n
+    getKeySize()\n
     '''
 def getBaseMboInfo():
-    '''public MboSetInfo getBaseMboInfo()
+    '''returns MboSetInfo\n\n
+    getBaseMboInfo()\n
     '''
 def setBaseMboInfo():
-    '''public void setBaseMboInfo(final MboSetInfo info)
+    '''returns None\n\n
+    setBaseMboInfo(final MboSetInfo info)\n
     '''
 def isBasedOn():
-    '''public boolean isBasedOn(final String name)
+    '''returns boolean\n\n
+    isBasedOn(final String name)\n
     '''
 def setPresistentAttributeNumber():
-    '''public void setPresistentAttributeNumber(final int persistentAttributeNumber)
+    '''returns None\n\n
+    setPresistentAttributeNumber(final int persistentAttributeNumber)\n
     '''
 def setExtendedAttributeNumber():
-    '''public void setExtendedAttributeNumber(final int extendedAttributeNumber)
+    '''returns None\n\n
+    setExtendedAttributeNumber(final int extendedAttributeNumber)\n
     '''
 def setFetchAttributeNumber():
-    '''public void setFetchAttributeNumber(final int fetchAttributeNumber)
+    '''returns None\n\n
+    setFetchAttributeNumber(final int fetchAttributeNumber)\n
     '''
 def getPresistentAttributeNumber():
-    '''public int getPresistentAttributeNumber()
+    '''returns int\n\n
+    getPresistentAttributeNumber()\n
     '''
 def getExtendedAttributeNumber():
-    '''public int getExtendedAttributeNumber()
+    '''returns int\n\n
+    getExtendedAttributeNumber()\n
     '''
 def getFetchAttributeNumber():
-    '''public int getFetchAttributeNumber()
+    '''returns int\n\n
+    getFetchAttributeNumber()\n
     '''
 def getMboLogger():
-    '''public MXLogger getMboLogger()
+    '''returns MXLogger\n\n
+    getMboLogger()\n
     '''
 def getSecurityLogger():
-    '''public MXLogger getSecurityLogger()
+    '''returns MXLogger\n\n
+    getSecurityLogger()\n
     '''
 def getSqlLogger():
-    '''public MXLogger getSqlLogger()
+    '''returns MXLogger\n\n
+    getSqlLogger()\n
     '''
 def getServiceInfo():
-    '''public ServiceInfo getServiceInfo()
+    '''returns ServiceInfo\n\n
+    getServiceInfo()\n
     '''
 def setServiceInfo():
-    '''public void setServiceInfo(final ServiceInfo si)
+    '''returns None\n\n
+    setServiceInfo(final ServiceInfo si)\n
     '''
 def getMboSetClass():
-    '''public Class getMboSetClass()
+    '''returns Class\n\n
+    getMboSetClass()\n
     '''
 def getMboValueCount():
-    '''public int getMboValueCount()
+    '''returns int\n\n
+    getMboValueCount()\n
     '''
 def getKeyAttributes():
-    '''public String[] getKeyAttributes()
+    '''returns String[]\n\n
+    getKeyAttributes()\n
     '''
 def getKeyRelationship():
-    '''public String getKeyRelationship()
+    '''returns String\n\n
+    getKeyRelationship()\n
     '''
 def getMboValueInfo():
-    '''public MboValueInfo getMboValueInfo(final String attributeName)
+    '''returns MboValueInfo\n\n
+    getMboValueInfo(final String attributeName)\n
     '''
 def getMboValuesInfo():
-    '''public Enumeration getMboValuesInfo()
+    '''returns Enumeration\n\n
+    getMboValuesInfo()\n
     '''
 def setRelationships():
-    '''public void setRelationships(final HashMap<String, RelationInfo> relationships)
+    '''returns None\n\n
+    setRelationships(final HashMap<String, RelationInfo> relationships)\n
     '''
 def getRelationInfo():
-    '''public RelationInfo getRelationInfo(final String relationshipName)
+    '''returns RelationInfo\n\n
+    getRelationInfo(final String relationshipName)\n
     '''
 def getRelationshipToChild():
-    '''public RelationInfo getRelationshipToChild(final String child)
+    '''returns RelationInfo\n\n
+    getRelationshipToChild(final String child)\n
     '''
 def getRelationsInfo():
-    '''public Iterator getRelationsInfo()
+    '''returns Iterator\n\n
+    getRelationsInfo()\n
     '''
 def getEAuditAttributes():
-    '''public Iterator getEAuditAttributes()
-    '''
-def getLangTableNames():
-    '''public HashMap<String, String> getLangTableNames()
+    '''returns Iterator\n\n
+    getEAuditAttributes()\n
     '''
 def getTableAndColumn():
-    '''public String[] getTableAndColumn(final String attr)
+    '''returns String[]\n\n
+    getTableAndColumn(final String attr)\n
     '''
 def isMLInUse():
-    '''public boolean isMLInUse()
+    '''returns boolean\n\n
+    isMLInUse()\n
     '''
 def isAuditTable():
-    '''public boolean isAuditTable()
+    '''returns boolean\n\n
+    isAuditTable()\n
     '''
 def isLanguageTable():
-    '''public boolean isLanguageTable()
+    '''returns boolean\n\n
+    isLanguageTable()\n
     '''
 def isTextSearchEnabled():
-    '''public boolean isTextSearchEnabled()
+    '''returns boolean\n\n
+    isTextSearchEnabled()\n
     '''
 def getInitEventTopic():
-    '''public EventTopic[] getInitEventTopic()
+    '''returns EventTopic[]\n\n
+    getInitEventTopic()\n
     '''
 def getAppValidateEventTopic():
-    '''public EventTopic[] getAppValidateEventTopic()
+    '''returns EventTopic[]\n\n
+    getAppValidateEventTopic()\n
     '''
 def getAllUniqueColumns():
-    '''public HashSet<String> getAllUniqueColumns()
+    '''returns HashSet<String>\n\n
+    getAllUniqueColumns()\n
     '''
 def isAsUniqueId():
-    '''public boolean isAsUniqueId(final String attrName)
+    '''returns boolean\n\n
+    isAsUniqueId(final String attrName)\n
     '''
 def getTransactionLogger():
-    '''public MXLogger getTransactionLogger()
+    '''returns MXLogger\n\n
+    getTransactionLogger()\n
     '''
 def hasNullableKeyAttr():
-    '''public boolean hasNullableKeyAttr()
+    '''returns boolean\n\n
+    hasNullableKeyAttr()\n
     '''
 def resolveReferences():
-    '''public void resolveReferences()
+    '''returns None\n\n
+    resolveReferences()\n
     '''
 def hasExtendedAttrs():
-    '''public boolean hasExtendedAttrs()
+    '''returns boolean\n\n
+    hasExtendedAttrs()\n
     '''
 def setHasExtendedAttrs():
-    '''public void setHasExtendedAttrs(final boolean hasExtendedAttrs)
+    '''returns None\n\n
+    setHasExtendedAttrs(final boolean hasExtendedAttrs)\n
     '''
 def getLatitude():
-    '''public String getLatitude()
+    '''returns String\n\n
+    getLatitude()\n
     '''
 def getLongtitude():
-    '''public String getLongtitude()
+    '''returns String\n\n
+    getLongtitude()\n
     '''
 def setLatitude():
-    '''public void setLatitude(final String refy)
+    '''returns None\n\n
+    setLatitude(final String refy)\n
     '''
 def setLongtitude():
-    '''public void setLongtitude(final String refx)
+    '''returns None\n\n
+    setLongtitude(final String refx)\n
     '''
 def getExtendedViewName():
-    '''public String getExtendedViewName()
+    '''returns String\n\n
+    getExtendedViewName()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
-    public int compare(final Object o1, final Object o2)
-    public int compare(final Object o1, final Object o2)
-    public int compare(final Object o1, final Object o2)
-    public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
+    compare(final Object o1, final Object o2)\n
+    compare(final Object o1, final Object o2)\n
+    compare(final Object o1, final Object o2)\n
+    compare(final Object o1, final Object o2)\n
     '''
-def AttributeIterator():
-    '''public AttributeIterator(final Iterator iterator)
+def ():
+    '''returns MboValueInfoEnumerator\n\n
+    (final Iterator iterator)\n
+    (final Iterator iterator)\n
+    ()\n
     '''
 def remove():
-    '''public void remove()
-    public void remove()
-    '''
-def RelationIterator():
-    '''public RelationIterator(final Iterator iterator)
-    '''
-def MboValueInfoEnumerator():
-    '''public MboValueInfoEnumerator()
+    '''returns None\n\n
+    remove()\n
+    remove()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''

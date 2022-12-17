@@ -1,22 +1,29 @@
-def FilterDataHandler():
-    '''public FilterDataHandler(final DataHandler delegate)
+def ():
+    '''returns FilterDataHandler\n\n
+    (final DataHandler delegate)\n
     '''
 def getRowId():
-    '''public PyObject getRowId(final Statement stmt)
+    '''returns PyObject\n\n
+    getRowId(final Statement stmt)\n
     '''
 def preExecute():
-    '''public void preExecute(final Statement stmt)
+    '''returns None\n\n
+    preExecute(final Statement stmt)\n
     '''
 def postExecute():
-    '''public void postExecute(final Statement stmt)
+    '''returns None\n\n
+    postExecute(final Statement stmt)\n
     '''
 def setJDBCObject():
-    '''public void setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object)
-    public void setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object, final int type)
+    '''returns None\n\n
+    setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object)\n
+    setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object, final int type)\n
     '''
 def getPyObject():
-    '''public PyObject getPyObject(final ResultSet set, final int col, final int type)
+    '''returns PyObject\n\n
+    getPyObject(final ResultSet set, final int col, final int type)\n
     '''
 def __chain__():
-    '''public PyObject __chain__()
+    '''returns PyObject\n\n
+    __chain__()\n
     '''

@@ -1,0 +1,48 @@
+def ():
+    '''returns ArgsAnnotationPointcut\n\n
+    (final AnnotationPatternList arguments)\n
+    '''
+def getArguments():
+    '''returns AnnotationPatternList\n\n
+    getArguments()\n
+    '''
+def couldMatchKinds():
+    '''returns int\n\n
+    couldMatchKinds()\n
+    '''
+def parameterizeWith():
+    '''returns Pointcut\n\n
+    parameterizeWith(final Map typeVariableMap, final World w)\n
+    '''
+def fastMatch():
+    '''returns FuzzyBoolean\n\n
+    fastMatch(final FastMatchInfo info)\n
+    '''
+def getBindingAnnotationTypePatterns():
+    '''returns List\n\n
+    getBindingAnnotationTypePatterns()\n
+    '''
+def getBindingTypePatterns():
+    '''returns List\n\n
+    getBindingTypePatterns()\n
+    '''
+def write():
+    '''returns None\n\n
+    write(final CompressingDataOutputStream s)\n
+    '''
+def equals():
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    '''
+def hashCode():
+    '''returns int\n\n
+    hashCode()\n
+    '''
+def toString():
+    '''returns String\n\n
+    toString()\n
+    '''
+def accept():
+    '''returns Object\n\n
+    accept(final PatternNodeVisitor visitor, final Object data)\n
+    '''

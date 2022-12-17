@@ -1,6 +1,8 @@
-def ReconRcdClauseSet():
-    '''public ReconRcdClauseSet(final MboServerInterface ms)
+def ():
+    '''returns ReconRcdClauseSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

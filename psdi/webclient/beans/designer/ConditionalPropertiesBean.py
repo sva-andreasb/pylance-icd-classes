@@ -1,15 +1,12 @@
-def ConditionalPropertiesBean():
-    '''public ConditionalPropertiesBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns ConditionalPropertiesBean\n\n
+    ()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''

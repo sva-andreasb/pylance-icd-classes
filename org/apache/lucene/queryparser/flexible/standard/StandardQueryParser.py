@@ -1,88 +1,109 @@
-def StandardQueryParser():
-    '''public StandardQueryParser()
-    public StandardQueryParser(final Analyzer analyzer)
+def ():
+    '''returns StandardQueryParser\n\n
+    ()\n
+    (final Analyzer analyzer)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def parse():
-    '''public Query parse(final String query, final String defaultField)
+    '''returns Query\n\n
+    parse(final String query, final String defaultField)\n
     '''
 def setDefaultOperator():
-    '''public void setDefaultOperator(final StandardQueryConfigHandler.Operator operator)
+    '''returns None\n\n
+    setDefaultOperator(final StandardQueryConfigHandler.Operator operator)\n
     '''
 def setAllowLeadingWildcard():
-    '''public void setAllowLeadingWildcard(final boolean allowLeadingWildcard)
+    '''returns None\n\n
+    setAllowLeadingWildcard(final boolean allowLeadingWildcard)\n
     '''
 def setEnablePositionIncrements():
-    '''public void setEnablePositionIncrements(final boolean enabled)
+    '''returns None\n\n
+    setEnablePositionIncrements(final boolean enabled)\n
     '''
 def getEnablePositionIncrements():
-    '''public boolean getEnablePositionIncrements()
+    '''returns boolean\n\n
+    getEnablePositionIncrements()\n
     '''
 def setMultiTermRewriteMethod():
-    '''public void setMultiTermRewriteMethod(final MultiTermQuery.RewriteMethod method)
+    '''returns None\n\n
+    setMultiTermRewriteMethod(final MultiTermQuery.RewriteMethod method)\n
     '''
 def setMultiFields():
-    '''public void setMultiFields(CharSequence[] fields)
+    '''returns None\n\n
+    setMultiFields(CharSequence[] fields)\n
     '''
 def getMultiFields():
-    '''public CharSequence[] getMultiFields()
+    '''returns CharSequence[]\n\n
+    getMultiFields()\n
     '''
 def setFuzzyPrefixLength():
-    '''public void setFuzzyPrefixLength(final int fuzzyPrefixLength)
+    '''returns None\n\n
+    setFuzzyPrefixLength(final int fuzzyPrefixLength)\n
     '''
 def setPointsConfigMap():
-    '''public void setPointsConfigMap(final Map<String, PointsConfig> pointsConfigMap)
-    '''
-def getPointsConfigMap():
-    '''public Map<String, PointsConfig> getPointsConfigMap()
+    '''returns None\n\n
+    setPointsConfigMap(final Map<String, PointsConfig> pointsConfigMap)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone timeZone)
+    '''returns None\n\n
+    setTimeZone(final TimeZone timeZone)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def setPhraseSlop():
-    '''public void setPhraseSlop(final int defaultPhraseSlop)
+    '''returns None\n\n
+    setPhraseSlop(final int defaultPhraseSlop)\n
     '''
 def setAnalyzer():
-    '''public void setAnalyzer(final Analyzer analyzer)
+    '''returns None\n\n
+    setAnalyzer(final Analyzer analyzer)\n
     '''
 def getAnalyzer():
-    '''public Analyzer getAnalyzer()
+    '''returns Analyzer\n\n
+    getAnalyzer()\n
     '''
 def getAllowLeadingWildcard():
-    '''public boolean getAllowLeadingWildcard()
+    '''returns boolean\n\n
+    getAllowLeadingWildcard()\n
     '''
 def getFuzzyMinSim():
-    '''public float getFuzzyMinSim()
+    '''returns float\n\n
+    getFuzzyMinSim()\n
     '''
 def getFuzzyPrefixLength():
-    '''public int getFuzzyPrefixLength()
+    '''returns int\n\n
+    getFuzzyPrefixLength()\n
     '''
 def getPhraseSlop():
-    '''public int getPhraseSlop()
+    '''returns int\n\n
+    getPhraseSlop()\n
     '''
 def setFuzzyMinSim():
-    '''public void setFuzzyMinSim(final float fuzzyMinSim)
+    '''returns None\n\n
+    setFuzzyMinSim(final float fuzzyMinSim)\n
     '''
 def setFieldsBoost():
-    '''public void setFieldsBoost(final Map<String, Float> boosts)
-    '''
-def getFieldsBoost():
-    '''public Map<String, Float> getFieldsBoost()
+    '''returns None\n\n
+    setFieldsBoost(final Map<String, Float> boosts)\n
     '''
 def setDateResolution():
-    '''public void setDateResolution(final DateTools.Resolution dateResolution)
+    '''returns None\n\n
+    setDateResolution(final DateTools.Resolution dateResolution)\n
     '''
 def setDateResolutionMap():
-    '''public void setDateResolutionMap(final Map<CharSequence, DateTools.Resolution> dateRes)
+    '''returns None\n\n
+    setDateResolutionMap(final Map<CharSequence, DateTools.Resolution> dateRes)\n
     '''

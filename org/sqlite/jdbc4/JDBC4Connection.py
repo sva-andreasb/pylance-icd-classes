@@ -1,44 +1,54 @@
-def JDBC4Connection():
-    '''public JDBC4Connection(final String url, final String fileName, final Properties prop)
+def ():
+    '''returns JDBC4Connection\n\n
+    (final String url, final String fileName, final Properties prop)\n
     '''
 def createStatement():
-    '''public Statement createStatement(final int rst, final int rsc, final int rsh)
+    '''returns Statement\n\n
+    createStatement(final int rst, final int rsc, final int rsh)\n
     '''
 def prepareStatement():
-    '''public PreparedStatement prepareStatement(final String sql, final int rst, final int rsc, final int rsh)
+    '''returns PreparedStatement\n\n
+    prepareStatement(final String sql, final int rst, final int rsc, final int rsh)\n
     '''
 def isClosed():
-    '''public boolean isClosed()
-    '''
-def unwrap():
-    '''public <T> T unwrap(final Class<T> iface)
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def isWrapperFor():
-    '''public boolean isWrapperFor(final Class<?> iface)
+    '''returns boolean\n\n
+    isWrapperFor(final Class<?> iface)\n
     '''
 def createClob():
-    '''public Clob createClob()
+    '''returns Clob\n\n
+    createClob()\n
     '''
 def createBlob():
-    '''public Blob createBlob()
+    '''returns Blob\n\n
+    createBlob()\n
     '''
 def createNClob():
-    '''public NClob createNClob()
+    '''returns NClob\n\n
+    createNClob()\n
     '''
 def createSQLXML():
-    '''public SQLXML createSQLXML()
+    '''returns SQLXML\n\n
+    createSQLXML()\n
     '''
 def isValid():
-    '''public boolean isValid(final int timeout)
+    '''returns boolean\n\n
+    isValid(final int timeout)\n
     '''
 def setClientInfo():
-    '''public void setClientInfo(final String name, final String value)
-    public void setClientInfo(final Properties properties)
+    '''returns None\n\n
+    setClientInfo(final String name, final String value)\n
+    setClientInfo(final Properties properties)\n
     '''
 def getClientInfo():
-    '''public String getClientInfo(final String name)
-    public Properties getClientInfo()
+    '''returns Properties\n\n
+    getClientInfo(final String name)\n
+    getClientInfo()\n
     '''
 def createArrayOf():
-    '''public Array createArrayOf(final String typeName, final Object[] elements)
+    '''returns Array\n\n
+    createArrayOf(final String typeName, final Object[] elements)\n
     '''

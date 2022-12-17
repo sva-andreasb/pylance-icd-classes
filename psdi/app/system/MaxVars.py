@@ -1,15 +1,20 @@
-def MaxVars():
-    '''public MaxVars(final MboSet ms)
+def ():
+    '''returns MaxVars\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def updateSiteVarFromOrg():
-    '''public void updateSiteVarFromOrg(final String attributeName, final String val)
+    '''returns None\n\n
+    updateSiteVarFromOrg(final String attributeName, final String val)\n
     '''

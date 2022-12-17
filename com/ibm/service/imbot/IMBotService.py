@@ -1,13 +1,17 @@
-def IMBotService():
-    '''public IMBotService()
-    public IMBotService(final MXServer mxServer)
+def ():
+    '''returns IMBotService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def isAppService():
-    '''public boolean isAppService()
+    '''returns boolean\n\n
+    isAppService()\n
     '''

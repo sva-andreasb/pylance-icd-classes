@@ -1,48 +1,60 @@
 def getEncodingStyleURI():
-    '''public String getEncodingStyleURI()
+    '''returns String\n\n
+    getEncodingStyleURI()\n
     '''
 def getFullTargetObjectURI():
-    '''public String getFullTargetObjectURI()
+    '''returns String\n\n
+    getFullTargetObjectURI()\n
     '''
 def getHeader():
-    '''public Header getHeader()
+    '''returns Header\n\n
+    getHeader()\n
     '''
 def getMethodName():
-    '''public String getMethodName()
+    '''returns String\n\n
+    getMethodName()\n
     '''
 def getParams():
-    '''public Vector getParams()
+    '''returns Vector\n\n
+    getParams()\n
     '''
 def getSOAPContext():
-    '''public SOAPContext getSOAPContext()
+    '''returns SOAPContext\n\n
+    getSOAPContext()\n
     '''
 def getTargetObjectURI():
-    '''public String getTargetObjectURI()
+    '''returns String\n\n
+    getTargetObjectURI()\n
     '''
 def marshall():
-    '''public void marshall(final String s, final Class clazz, final Object o, final Object o2, final Writer writer, final NSStack nsStack, final XMLJavaMappingRegistry xmlJavaMappingRegistry, final SOAPContext soapContext)
+    '''returns None\n\n
+    marshall(final String s, final Class clazz, final Object o, final Object o2, final Writer writer, final NSStack nsStack, final XMLJavaMappingRegistry xmlJavaMappingRegistry, final SOAPContext soapContext)\n
     '''
 def setEncodingStyleURI():
-    '''public void setEncodingStyleURI(final String encodingStyleURI)
+    '''returns None\n\n
+    setEncodingStyleURI(final String encodingStyleURI)\n
     '''
 def setFullTargetObjectURI():
-    '''public void setFullTargetObjectURI(final String targetObjectURI)
+    '''returns None\n\n
+    setFullTargetObjectURI(final String targetObjectURI)\n
     '''
 def setHeader():
-    '''public void setHeader(final Header header)
+    '''returns None\n\n
+    setHeader(final Header header)\n
     '''
 def setMethodName():
-    '''public void setMethodName(final String methodName)
+    '''returns None\n\n
+    setMethodName(final String methodName)\n
     '''
 def setParams():
-    '''public void setParams(final Vector params)
+    '''returns None\n\n
+    setParams(final Vector params)\n
     '''
 def setTargetObjectURI():
-    '''public void setTargetObjectURI(final String fullTargetObjectURI)
+    '''returns None\n\n
+    setTargetObjectURI(final String fullTargetObjectURI)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def unmarshall():
-    '''public static RPCMessage unmarshall(final String s, final Node node, final Class clazz, final ServiceManager serviceManager, final SOAPMappingRegistry soapMappingRegistry, final SOAPContext soapContext)
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,0 +1,7 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STTextVertOverflowType.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"sttextvertoverflowtype2725type\")"
+OVERFLOW = "Enum  Enum.forString(\"overflow\")"
+ELLIPSIS = "Enum  Enum.forString(\"ellipsis\")"
+CLIP = "Enum  Enum.forString(\"clip\")"
+INT_OVERFLOW = "int  1"
+INT_ELLIPSIS = "int  2"
+INT_CLIP = "int  3"

@@ -1,24 +1,31 @@
-def DTDImpl():
-    '''public DTDImpl(final String s)
-    public DTDImpl(final String s, final Location location)
-    public DTDImpl(final String s, final List list, final List list2)
-    public DTDImpl(final String fdtdDecl, final List list, final List list2, final Location location)
+def ():
+    '''returns DTDImpl\n\n
+    (final String s)\n
+    (final String s, final Location location)\n
+    (final String s, final List list, final List list2)\n
+    (final String fdtdDecl, final List list, final List list2, final Location location)\n
     '''
 def getDocumentTypeDeclaration():
-    '''public String getDocumentTypeDeclaration()
+    '''returns String\n\n
+    getDocumentTypeDeclaration()\n
     '''
 def getProcessedDTD():
-    '''public Object getProcessedDTD()
+    '''returns Object\n\n
+    getProcessedDTD()\n
     '''
 def getNotations():
-    '''public List getNotations()
+    '''returns List\n\n
+    getNotations()\n
     '''
 def getEntities():
-    '''public List getEntities()
+    '''returns List\n\n
+    getEntities()\n
     '''
 def processDTD():
-    '''public void processDTD(final String s)
+    '''returns None\n\n
+    processDTD(final String s)\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final Writer writer)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final Writer writer)\n
     '''

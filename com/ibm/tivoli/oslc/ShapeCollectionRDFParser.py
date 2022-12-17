@@ -1,10 +1,13 @@
-def ShapeCollectionRDFParser():
-    '''public ShapeCollectionRDFParser(final byte[] rdfDoc)
-    public ShapeCollectionRDFParser(final Model shapesCollectionModel)
+def ():
+    '''returns ShapeCollectionRDFParser\n\n
+    (final byte[] rdfDoc)\n
+    (final Model shapesCollectionModel)\n
     '''
 def getShapeResource():
-    '''public Resource getShapeResource(final String shapeURI)
+    '''returns Resource\n\n
+    getShapeResource(final String shapeURI)\n
     '''
 def getShapeSet():
-    '''public Set<String> getShapeSet()
+    '''returns Set<String>\n\n
+    getShapeSet()\n
     '''

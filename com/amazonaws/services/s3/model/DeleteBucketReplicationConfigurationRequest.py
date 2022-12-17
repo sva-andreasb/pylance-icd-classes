@@ -1,3 +1,4 @@
-def DeleteBucketReplicationConfigurationRequest():
-    '''public DeleteBucketReplicationConfigurationRequest(final String bucketName)
+def ():
+    '''returns DeleteBucketReplicationConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

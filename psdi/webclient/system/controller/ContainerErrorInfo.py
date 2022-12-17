@@ -6,15 +6,19 @@ CONTAINER_WARNING_EVENT = "String  \"errorfocus\""
 CONTAINER_ERROR_EVENT = "String  \"errorfocus\""
 CONTAINER_SMARTFILL_EVENT = "String  \"errorfocus\""
 CONTAINER_QUESTION_EVENT = "String  \"errorfocus\""
-def ContainerErrorInfo():
-    '''public ContainerErrorInfo(final String type, final String toolTip)
+def ():
+    '''returns ContainerErrorInfo\n\n
+    (final String type, final String toolTip)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getTooltip():
-    '''public String getTooltip()
+    '''returns String\n\n
+    getTooltip()\n
     '''
 def getImageEvent():
-    '''public String getImageEvent()
+    '''returns String\n\n
+    getImageEvent()\n
     '''

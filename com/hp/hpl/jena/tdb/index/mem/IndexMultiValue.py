@@ -1,18 +1,24 @@
-def IndexMultiValue():
-    '''public IndexMultiValue()
+def ():
+    '''returns IndexMultiValue\n\n
+    ()\n
     '''
 def get():
-    '''public Set<V> get(final K key)
+    '''returns Set<V>\n\n
+    get(final K key)\n
     '''
 def put():
-    '''public void put(final K key, final V value)
+    '''returns None\n\n
+    put(final K key, final V value)\n
     '''
 def flatten():
-    '''public Iterator<V> flatten()
+    '''returns Iterator<V>\n\n
+    flatten()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''

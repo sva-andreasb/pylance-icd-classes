@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final APIAccessedCache getInstance()
-    '''
 def getLastAPIAccessedTime():
-    '''public Date getLastAPIAccessedTime(final String osName, final String personId)
+    '''returns Date\n\n
+    getLastAPIAccessedTime(final String osName, final String personId)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

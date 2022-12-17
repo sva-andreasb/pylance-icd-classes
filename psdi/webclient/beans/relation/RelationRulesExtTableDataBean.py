@@ -1,15 +1,20 @@
 def toggledeleterowcomplex():
-    '''public int toggledeleterowcomplex()
+    '''returns int\n\n
+    toggledeleterowcomplex()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def addgrouprow():
-    '''public int addgrouprow()
+    '''returns int\n\n
+    addgrouprow()\n
     '''
 def addgroupitem():
-    '''public int addgroupitem()
+    '''returns int\n\n
+    addgroupitem()\n
     '''
 def highlightrow():
-    '''public int highlightrow(final int row)
+    '''returns int\n\n
+    highlightrow(final int row)\n
     '''

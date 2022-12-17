@@ -1,6 +1,8 @@
-def PluginBuilderAttributeVisitor():
-    '''public PluginBuilderAttributeVisitor()
+def ():
+    '''returns PluginBuilderAttributeVisitor\n\n
+    ()\n
     '''
 def visit():
-    '''public Object visit(final Configuration configuration, final Node node, final LogEvent event, final StringBuilder log)
+    '''returns Object\n\n
+    visit(final Configuration configuration, final Node node, final LogEvent event, final StringBuilder log)\n
     '''

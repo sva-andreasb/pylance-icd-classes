@@ -1,23 +1,30 @@
-def DrawingManager2():
-    '''public DrawingManager2(final EscherDggRecord dgg)
+def ():
+    '''returns DrawingManager2\n\n
+    (final EscherDggRecord dgg)\n
     '''
 def clearDrawingGroups():
-    '''public void clearDrawingGroups()
+    '''returns None\n\n
+    clearDrawingGroups()\n
     '''
 def createDgRecord():
-    '''public EscherDgRecord createDgRecord()
+    '''returns EscherDgRecord\n\n
+    createDgRecord()\n
     '''
 def allocateShapeId():
-    '''public int allocateShapeId(final short drawingGroupId)
-    public int allocateShapeId(final short drawingGroupId, final EscherDgRecord dg)
-    public int allocateShapeId(final EscherDgRecord dg)
+    '''returns int\n\n
+    allocateShapeId(final short drawingGroupId)\n
+    allocateShapeId(final short drawingGroupId, final EscherDgRecord dg)\n
+    allocateShapeId(final EscherDgRecord dg)\n
     '''
 def findNewDrawingGroupId():
-    '''public short findNewDrawingGroupId()
+    '''returns short\n\n
+    findNewDrawingGroupId()\n
     '''
 def getDgg():
-    '''public EscherDggRecord getDgg()
+    '''returns EscherDggRecord\n\n
+    getDgg()\n
     '''
 def incrementDrawingsSaved():
-    '''public void incrementDrawingsSaved()
+    '''returns None\n\n
+    incrementDrawingsSaved()\n
     '''

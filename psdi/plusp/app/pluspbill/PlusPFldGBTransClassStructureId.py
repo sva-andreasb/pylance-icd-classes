@@ -1,12 +1,16 @@
-def PlusPFldGBTransClassStructureId():
-    '''public PlusPFldGBTransClassStructureId(final MboValue mbv)
+def ():
+    '''returns PlusPFldGBTransClassStructureId\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

@@ -1,21 +1,28 @@
 def setJobPlan():
-    '''public void setJobPlan(final String jobPlan)
+    '''returns None\n\n
+    setJobPlan(final String jobPlan)\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def configureWos():
-    '''public int configureWos()
+    '''returns int\n\n
+    configureWos()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def copySelection():
-    '''public void copySelection(final Vector selected)
+    '''returns None\n\n
+    copySelection(final Vector selected)\n
     '''
 def getDataSource():
-    '''public String getDataSource()
+    '''returns String\n\n
+    getDataSource()\n
     '''
 def getAllLinkedRegisters():
-    '''public StringBuffer getAllLinkedRegisters(final String wonum, Map visitedWonums)
+    '''returns StringBuffer\n\n
+    getAllLinkedRegisters(final String wonum, Map visitedWonums)\n
     '''

@@ -1,41 +1,54 @@
 RECORD_ID = "short  -4081"
 RECORD_DESCRIPTION = "String  \"MsofbtChildAnchor\""
 def fillFields():
-    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''returns int\n\n
+    fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data, final EscherSerializationListener listener)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def getRecordId():
-    '''public short getRecordId()
+    '''returns short\n\n
+    getRecordId()\n
     '''
 def getRecordName():
-    '''public String getRecordName()
+    '''returns String\n\n
+    getRecordName()\n
     '''
 def getDx1():
-    '''public int getDx1()
+    '''returns int\n\n
+    getDx1()\n
     '''
 def setDx1():
-    '''public void setDx1(final int field_1_dx1)
+    '''returns None\n\n
+    setDx1(final int field_1_dx1)\n
     '''
 def getDy1():
-    '''public int getDy1()
+    '''returns int\n\n
+    getDy1()\n
     '''
 def setDy1():
-    '''public void setDy1(final int field_2_dy1)
+    '''returns None\n\n
+    setDy1(final int field_2_dy1)\n
     '''
 def getDx2():
-    '''public int getDx2()
+    '''returns int\n\n
+    getDx2()\n
     '''
 def setDx2():
-    '''public void setDx2(final int field_3_dx2)
+    '''returns None\n\n
+    setDx2(final int field_3_dx2)\n
     '''
 def getDy2():
-    '''public int getDy2()
+    '''returns int\n\n
+    getDy2()\n
     '''
 def setDy2():
-    '''public void setDy2(final int field_4_dy2)
+    '''returns None\n\n
+    setDy2(final int field_4_dy2)\n
     '''

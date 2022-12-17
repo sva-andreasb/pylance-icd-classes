@@ -1,52 +1,44 @@
-def convert():
-    '''public final B convert(@Nullable final A a)
-    '''
 def convertAll():
-    '''public Iterable<B> convertAll(final Iterable<? extends A> fromIterable)
+    '''returns Iterable<B>\n\n
+    convertAll(final Iterable<? extends A> fromIterable)\n
     '''
 def iterator():
-    '''public Iterator<B> iterator()
+    '''returns Iterator<B>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public B next()
+    '''returns B\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
-    '''
-def reverse():
-    '''public Converter<B, A> reverse()
-    public Converter<A, B> reverse()
-    public IdentityConverter<T> reverse()
-    '''
-def andThen():
-    '''public final <C> Converter<A, C> andThen(final Converter<B, C> secondConverter)
-    '''
-def apply():
-    '''public final B apply(@Nullable final A a)
+    '''returns None\n\n
+    remove()\n
     '''
 def equals():
-    '''public boolean equals(@Nullable final Object object)
-    public boolean equals(@Nullable final Object object)
-    public boolean equals(@Nullable final Object object)
-    public boolean equals(@Nullable final Object object)
-    '''
-def from():
-    '''public static <A, B> Converter<A, B> from(final Function<? super A, ? extends B> forwardFunction, final Function<? super B, ? extends A> backwardFunction)
-    '''
-def identity():
-    '''public static <T> Converter<T, T> identity()
+    '''returns boolean\n\n
+    equals(@Nullable final Object object)\n
+    equals(@Nullable final Object object)\n
+    equals(@Nullable final Object object)\n
+    equals(@Nullable final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    '''
+def reverse():
+    '''returns IdentityConverter<T>\n\n
+    reverse()\n
     '''

@@ -1,6 +1,8 @@
 def getHashes():
-    '''public Set<BoBHash> getHashes()
+    '''returns Set<BoBHash>\n\n
+    getHashes()\n
     '''
 def getData():
-    '''public BoBData getData()
+    '''returns BoBData\n\n
+    getData()\n
     '''

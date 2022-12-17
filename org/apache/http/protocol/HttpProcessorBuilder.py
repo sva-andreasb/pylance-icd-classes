@@ -1,30 +1,34 @@
-def create():
-    '''public static HttpProcessorBuilder create()
-    '''
 def addFirst():
-    '''public HttpProcessorBuilder addFirst(final HttpRequestInterceptor e)
-    public HttpProcessorBuilder addFirst(final HttpResponseInterceptor e)
+    '''returns HttpProcessorBuilder\n\n
+    addFirst(final HttpRequestInterceptor e)\n
+    addFirst(final HttpResponseInterceptor e)\n
     '''
 def addLast():
-    '''public HttpProcessorBuilder addLast(final HttpRequestInterceptor e)
-    public HttpProcessorBuilder addLast(final HttpResponseInterceptor e)
+    '''returns HttpProcessorBuilder\n\n
+    addLast(final HttpRequestInterceptor e)\n
+    addLast(final HttpResponseInterceptor e)\n
     '''
 def add():
-    '''public HttpProcessorBuilder add(final HttpRequestInterceptor e)
-    public HttpProcessorBuilder add(final HttpResponseInterceptor e)
+    '''returns HttpProcessorBuilder\n\n
+    add(final HttpRequestInterceptor e)\n
+    add(final HttpResponseInterceptor e)\n
     '''
 def addAllFirst():
-    '''public HttpProcessorBuilder addAllFirst(final HttpRequestInterceptor... e)
-    public HttpProcessorBuilder addAllFirst(final HttpResponseInterceptor... e)
+    '''returns HttpProcessorBuilder\n\n
+    addAllFirst(final HttpRequestInterceptor... e)\n
+    addAllFirst(final HttpResponseInterceptor... e)\n
     '''
 def addAllLast():
-    '''public HttpProcessorBuilder addAllLast(final HttpRequestInterceptor... e)
-    public HttpProcessorBuilder addAllLast(final HttpResponseInterceptor... e)
+    '''returns HttpProcessorBuilder\n\n
+    addAllLast(final HttpRequestInterceptor... e)\n
+    addAllLast(final HttpResponseInterceptor... e)\n
     '''
 def addAll():
-    '''public HttpProcessorBuilder addAll(final HttpRequestInterceptor... e)
-    public HttpProcessorBuilder addAll(final HttpResponseInterceptor... e)
+    '''returns HttpProcessorBuilder\n\n
+    addAll(final HttpRequestInterceptor... e)\n
+    addAll(final HttpResponseInterceptor... e)\n
     '''
 def build():
-    '''public HttpProcessor build()
+    '''returns HttpProcessor\n\n
+    build()\n
     '''

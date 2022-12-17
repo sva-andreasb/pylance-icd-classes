@@ -1,18 +1,24 @@
 def convert():
-    '''public Image convert(final Image src, final Map hints)
+    '''returns Image\n\n
+    convert(final Image src, final Map hints)\n
     '''
 def getSourceFlavor():
-    '''public ImageFlavor getSourceFlavor()
+    '''returns ImageFlavor\n\n
+    getSourceFlavor()\n
     '''
 def getTargetFlavor():
-    '''public ImageFlavor getTargetFlavor()
+    '''returns ImageFlavor\n\n
+    getTargetFlavor()\n
     '''
-def Graphics2DImagePainterImpl():
-    '''public Graphics2DImagePainterImpl(final ImageRendered rendImage)
+def ():
+    '''returns Graphics2DImagePainterImpl\n\n
+    (final ImageRendered rendImage)\n
     '''
 def getImageSize():
-    '''public Dimension getImageSize()
+    '''returns Dimension\n\n
+    getImageSize()\n
     '''
 def paint():
-    '''public void paint(final Graphics2D g2d, final Rectangle2D area)
+    '''returns None\n\n
+    paint(final Graphics2D g2d, final Rectangle2D area)\n
     '''

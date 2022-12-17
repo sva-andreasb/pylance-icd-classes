@@ -1,3 +1,4 @@
-def CIStatusSet():
-    '''public CIStatusSet(final MboServerInterface ms)
+def ():
+    '''returns CIStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

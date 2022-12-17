@@ -1,20 +1,22 @@
-def IloCplex__MIPCallbackI():
-    '''public IloCplex__MIPCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__MIPCallbackI obj)
+def ():
+    '''returns IloCplex__MIPCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getUserThreads():
-    '''public int getUserThreads()
+    '''returns int\n\n
+    getUserThreads()\n
     '''
 def getObjCoef():
-    '''public double getObjCoef(final IloNumVar var)
-    public double getObjCoef(final IloIntVar var)
+    '''returns double\n\n
+    getObjCoef(final IloNumVar var)\n
+    getObjCoef(final IloIntVar var)\n
     '''
 def getObjCoefs():
-    '''public void getObjCoefs(final IloNumArray val, final IloNumVarArray vars)
-    public void getObjCoefs(final IloNumArray val, final IloIntVarArray vars)
+    '''returns None\n\n
+    getObjCoefs(final IloNumArray val, final IloNumVarArray vars)\n
+    getObjCoefs(final IloNumArray val, final IloIntVarArray vars)\n
     '''

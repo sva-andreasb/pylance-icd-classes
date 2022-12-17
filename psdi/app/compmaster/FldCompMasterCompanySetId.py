@@ -1,6 +1,8 @@
-def FldCompMasterCompanySetId():
-    '''public FldCompMasterCompanySetId(final MboValue mbv)
+def ():
+    '''returns FldCompMasterCompanySetId\n\n
+    (final MboValue mbv)\n
     '''
 def getCriteria():
-    '''public String getCriteria()
+    '''returns String\n\n
+    getCriteria()\n
     '''

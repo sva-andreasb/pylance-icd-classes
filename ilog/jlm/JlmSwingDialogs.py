@@ -1,29 +1,34 @@
 def isEventThread():
-    '''public boolean isEventThread()
+    '''returns boolean\n\n
+    isEventThread()\n
     '''
 def invokeLater():
-    '''public void invokeLater(final Runnable doRun)
+    '''returns None\n\n
+    invokeLater(final Runnable doRun)\n
     '''
 def showExpiresWarning():
-    '''public void showExpiresWarning(final int n, final String[] array, final ExpiresWarningSettings expiresWarningSettings, final int n2, final String title)
+    '''returns None\n\n
+    showExpiresWarning(final int n, final String[] array, final ExpiresWarningSettings expiresWarningSettings, final int n2, final String title)\n
     '''
 def showFailureDialog():
-    '''public void showFailureDialog(final String[] array, final boolean b, final String x)
-    '''
-def createLicenseKeysTable():
-    '''public static JComponent createLicenseKeysTable(final KeysProducer keysProducer, final boolean b)
+    '''returns None\n\n
+    showFailureDialog(final String[] array, final boolean b, final String x)\n
     '''
 def isCellEditable():
-    '''public boolean isCellEditable(final int n, final int n2)
+    '''returns boolean\n\n
+    isCellEditable(final int n, final int n2)\n
     '''
 def getTableCellRendererComponent():
-    '''public Component getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int n, final int n2)
-    public Component getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int n, final int n2)
-    public Component getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int n, final int n2)
+    '''returns Component\n\n
+    getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int n, final int n2)\n
+    getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int n, final int n2)\n
+    getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int n, final int n2)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def showErrorDialog():
-    '''public void showErrorDialog(final String s, final String s2)
+    '''returns None\n\n
+    showErrorDialog(final String s, final String s2)\n
     '''

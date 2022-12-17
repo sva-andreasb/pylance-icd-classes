@@ -1,3 +1,4 @@
-def Segment2DataAccessor():
-    '''public Segment2DataAccessor()
+def ():
+    '''returns Segment2DataAccessor\n\n
+    ()\n
     '''

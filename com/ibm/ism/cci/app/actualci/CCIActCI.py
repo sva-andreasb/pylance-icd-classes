@@ -1,62 +1,81 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def CCIActCI():
-    '''public CCIActCI(final MboSet ms)
+def ():
+    '''returns CCIActCI\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isLinkedToCI():
-    '''public boolean isLinkedToCI()
+    '''returns boolean\n\n
+    isLinkedToCI()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def customDelete():
-    '''public void customDelete(final long accessModifier, final CCIActCISetRemote actCISet)
+    '''returns None\n\n
+    customDelete(final long accessModifier, final CCIActCISetRemote actCISet)\n
     '''
 def undelete():
-    '''public void undelete(final long accessModifier)
+    '''returns None\n\n
+    undelete(final long accessModifier)\n
     '''
 def isDualClassPromotionEnabled():
-    '''public boolean isDualClassPromotionEnabled()
+    '''returns boolean\n\n
+    isDualClassPromotionEnabled()\n
     '''
 def createAuthorizedCI():
-    '''public ArrayList<CCIPromotionResults> createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes, final boolean updateExistingCI)
-    public ArrayList<CCIPromotionResults> createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes, final boolean checkForExistingCI, final boolean updateExistingCI)
-    public ArrayList<CCIPromotionResults> createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes, final boolean checkForExistingCI, final boolean updateExistingCI, final boolean allowDupDISGuids)
+    '''returns ArrayList<CCIPromotionResults>\n\n
+    createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes, final boolean updateExistingCI)\n
+    createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes, final boolean checkForExistingCI, final boolean updateExistingCI)\n
+    createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes, final boolean checkForExistingCI, final boolean updateExistingCI, final boolean allowDupDISGuids)\n
     '''
 def updateAuthorizedCI():
-    '''public ArrayList<CCIPromotionResults> updateAuthorizedCI(final long synchronizationOptions)
-    public ArrayList<CCIPromotionResults> updateAuthorizedCI(final CCICIRemote toBeUpdated, final long synchronizationOptions, final CCITraversalCache tc)
+    '''returns ArrayList<CCIPromotionResults>\n\n
+    updateAuthorizedCI(final long synchronizationOptions)\n
+    updateAuthorizedCI(final CCICIRemote toBeUpdated, final long synchronizationOptions, final CCITraversalCache tc)\n
     '''
 def syncAuthorizedCI():
-    '''public ArrayList<CCIPromotionResults> syncAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final long synchronizationOptions, final Hashtable<String, Boolean> synchronizedAuthorizedCIs)
-    public ArrayList<CCIPromotionResults> syncAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final long synchronizationOptions, final Hashtable<String, Boolean> synchronizedAuthorizedCIs, final CCIActCIRemote topLevelActCI)
+    '''returns ArrayList<CCIPromotionResults>\n\n
+    syncAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final long synchronizationOptions, final Hashtable<String, Boolean> synchronizedAuthorizedCIs)\n
+    syncAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final long synchronizationOptions, final Hashtable<String, Boolean> synchronizedAuthorizedCIs, final CCIActCIRemote topLevelActCI)\n
     '''
 def getSpecificationAttribute():
-    '''public SpecificationMboRemote getSpecificationAttribute(final String assetAttrID)
+    '''returns SpecificationMboRemote\n\n
+    getSpecificationAttribute(final String assetAttrID)\n
     '''
 def getSourceRelations():
-    '''public MboSetRemote getSourceRelations()
+    '''returns MboSetRemote\n\n
+    getSourceRelations()\n
     '''
 def getTargetRelations():
-    '''public MboSetRemote getTargetRelations()
+    '''returns MboSetRemote\n\n
+    getTargetRelations()\n
     '''
 def copyAttributes():
-    '''public boolean copyAttributes(final MboRemote actualCI, final MboRemote authorizedCI, final boolean overwriteAttributes)
+    '''returns boolean\n\n
+    copyAttributes(final MboRemote actualCI, final MboRemote authorizedCI, final boolean overwriteAttributes)\n
     '''
 def findCIForActCI():
-    '''public CCICISetRemote findCIForActCI(final MboRemote actCI)
+    '''returns CCICISetRemote\n\n
+    findCIForActCI(final MboRemote actCI)\n
     '''
 def isClassificationAllowed():
-    '''public boolean isClassificationAllowed(final String customer, final MboRemote classstructure)
+    '''returns boolean\n\n
+    isClassificationAllowed(final String customer, final MboRemote classstructure)\n
     '''
 def getLinkedCI():
-    '''public MboSetRemote getLinkedCI()
+    '''returns MboSetRemote\n\n
+    getLinkedCI()\n
     '''
 def getLinkedCINum():
-    '''public String getLinkedCINum()
+    '''returns String\n\n
+    getLinkedCINum()\n
     '''
 def setCINum():
-    '''public void setCINum()
+    '''returns None\n\n
+    setCINum()\n
     '''

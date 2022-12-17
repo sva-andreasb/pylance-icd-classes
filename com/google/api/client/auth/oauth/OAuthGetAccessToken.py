@@ -1,6 +1,8 @@
-def OAuthGetAccessToken():
-    '''public OAuthGetAccessToken(final String authorizationServerUrl)
+def ():
+    '''returns OAuthGetAccessToken\n\n
+    (final String authorizationServerUrl)\n
     '''
 def createParameters():
-    '''public OAuthParameters createParameters()
+    '''returns OAuthParameters\n\n
+    createParameters()\n
     '''

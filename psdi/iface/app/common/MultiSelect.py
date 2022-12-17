@@ -1,3 +1,4 @@
-def MultiSelect():
-    '''public MultiSelect(final MboSet ms)
+def ():
+    '''returns MultiSelect\n\n
+    (final MboSet ms)\n
     '''

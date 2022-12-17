@@ -1,6 +1,8 @@
-def ApptWindowsRangeSet():
-    '''public ApptWindowsRangeSet(final MboServerInterface ms)
+def ():
+    '''returns ApptWindowsRangeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def applyApptWindows():
-    '''public void applyApptWindows()
+    '''returns None\n\n
+    applyApptWindows()\n
     '''

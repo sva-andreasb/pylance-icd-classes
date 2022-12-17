@@ -1,3 +1,4 @@
-def SolnSurveySet():
-    '''public SolnSurveySet(final MboServerInterface ms)
+def ():
+    '''returns SolnSurveySet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def MaxRoleSet():
-    '''public MaxRoleSet(final MboServerInterface ms)
+def ():
+    '''returns MaxRoleSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,30 +1,40 @@
-def RtfDocument():
-    '''public RtfDocument()
+def ():
+    '''returns RtfDocument\n\n
+    ()\n
     '''
 def writeDocument():
-    '''public byte[] writeDocument()
+    '''returns byte[]\n\n
+    writeDocument()\n
     '''
 def add():
-    '''public void add(final RtfBasicElement element)
+    '''returns None\n\n
+    add(final RtfBasicElement element)\n
     '''
 def getMapper():
-    '''public RtfMapper getMapper()
+    '''returns RtfMapper\n\n
+    getMapper()\n
     '''
 def getRandomInt():
-    '''public int getRandomInt()
+    '''returns int\n\n
+    getRandomInt()\n
     '''
 def getDocumentHeader():
-    '''public RtfDocumentHeader getDocumentHeader()
+    '''returns RtfDocumentHeader\n\n
+    getDocumentHeader()\n
     '''
 def filterSpecialChar():
-    '''public String filterSpecialChar(final String str, final boolean useHex, final boolean softLineBreaks)
+    '''returns String\n\n
+    filterSpecialChar(final String str, final boolean useHex, final boolean softLineBreaks)\n
     '''
 def setAutogenerateTOCEntries():
-    '''public void setAutogenerateTOCEntries(final boolean autogenerate)
+    '''returns None\n\n
+    setAutogenerateTOCEntries(final boolean autogenerate)\n
     '''
 def getAutogenerateTOCEntries():
-    '''public boolean getAutogenerateTOCEntries()
+    '''returns boolean\n\n
+    getAutogenerateTOCEntries()\n
     '''
 def setDataCacheStyle():
-    '''public void setDataCacheStyle(final int dataCacheStyle)
+    '''returns None\n\n
+    setDataCacheStyle(final int dataCacheStyle)\n
     '''

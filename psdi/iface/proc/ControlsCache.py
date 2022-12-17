@@ -1,60 +1,70 @@
-def getInstance():
-    '''public static synchronized ControlsCache getInstance()
-    '''
 def getName():
-    '''public String getName()
-    '''
-def getAllControls():
-    '''public Map<String, MaxIfaceControlInfo> getAllControls(final String extSystem)
+    '''returns String\n\n
+    getName()\n
     '''
 def getIfaceControlInfo():
-    '''public MaxIfaceControlInfo getIfaceControlInfo(final String extSystem, final String name)
+    '''returns MaxIfaceControlInfo\n\n
+    getIfaceControlInfo(final String extSystem, final String name)\n
     '''
 def getControlType():
-    '''public String getControlType(final String extSystem, final String name)
+    '''returns String\n\n
+    getControlType(final String extSystem, final String name)\n
     '''
 def getInternalControlType():
-    '''public String getInternalControlType(final String extSystem, final String name)
+    '''returns String\n\n
+    getInternalControlType(final String extSystem, final String name)\n
     '''
 def isControlEqual():
-    '''public boolean isControlEqual(final String extsys, final String name, final String value)
-    public boolean isControlEqual(final String extsys, final String name, final String orgid, final String siteid, final String value)
+    '''returns boolean\n\n
+    isControlEqual(final String extsys, final String name, final String value)\n
+    isControlEqual(final String extsys, final String name, final String orgid, final String siteid, final String value)\n
     '''
 def getValueControl():
-    '''public String getValueControl(final String extsys, final String name)
-    public String getValueControl(final String extsys, final String name, final String orgid, final String siteid)
+    '''returns String\n\n
+    getValueControl(final String extsys, final String name)\n
+    getValueControl(final String extsys, final String name, final String orgid, final String siteid)\n
     '''
 def getValueOrBooleanControl():
-    '''public String getValueOrBooleanControl(final String extsys, final String name, final String orgid, final String siteid)
+    '''returns String\n\n
+    getValueOrBooleanControl(final String extsys, final String name, final String orgid, final String siteid)\n
     '''
 def isValueControlNull():
-    '''public boolean isValueControlNull(final String extsys, final String name)
-    public boolean isValueControlNull(final String extsys, final String name, final String orgid, final String siteid)
+    '''returns boolean\n\n
+    isValueControlNull(final String extsys, final String name)\n
+    isValueControlNull(final String extsys, final String name, final String orgid, final String siteid)\n
     '''
 def isControlExists():
-    '''public boolean isControlExists(final String extsys, final String controlName)
+    '''returns boolean\n\n
+    isControlExists(final String extsys, final String controlName)\n
     '''
 def getXREFControl():
-    '''public List getXREFControl(final String extsys, final String name, final String currentValue, final boolean fromMaximo)
-    public List<String> getXREFControl(final String extsys, final String name, final String orgid, final String siteid, final String currentValue, final boolean fromMaximo)
+    '''returns List<String>\n\n
+    getXREFControl(final String extsys, final String name, final String currentValue, final boolean fromMaximo)\n
+    getXREFControl(final String extsys, final String name, final String orgid, final String siteid, final String currentValue, final boolean fromMaximo)\n
     '''
 def getXREFControlValue():
-    '''public String getXREFControlValue(final String extsys, final String name, final String orgid, final String siteid, final String currentValue, final boolean fromMaximo)
+    '''returns String\n\n
+    getXREFControlValue(final String extsys, final String name, final String orgid, final String siteid, final String currentValue, final boolean fromMaximo)\n
     '''
 def getXREFControlValues():
-    '''public List getXREFControlValues(final String extsys, final String name)
+    '''returns List\n\n
+    getXREFControlValues(final String extsys, final String name)\n
     '''
 def doesXREFExist():
-    '''public boolean doesXREFExist(final String extsys, final String name, final String orgid, final String siteid, final String currentValue, final boolean fromMaximo)
+    '''returns boolean\n\n
+    doesXREFExist(final String extsys, final String name, final String orgid, final String siteid, final String currentValue, final boolean fromMaximo)\n
     '''
 def getListControl():
-    '''public List<String> getListControl(final String extsys, final String name)
-    public ArrayList<String> getListControl(final String extsys, final String name, final String orgid, final String siteid)
+    '''returns ArrayList<String>\n\n
+    getListControl(final String extsys, final String name)\n
+    getListControl(final String extsys, final String name, final String orgid, final String siteid)\n
     '''
 def isControlTrue():
-    '''public boolean isControlTrue(final String extsys, final String name)
-    public boolean isControlTrue(final String extsys, final String name, final String orgid, final String siteid)
+    '''returns boolean\n\n
+    isControlTrue(final String extsys, final String name)\n
+    isControlTrue(final String extsys, final String name, final String orgid, final String siteid)\n
     '''
 def setXREFValues():
-    '''public void setXREFValues(final Map<String, Object> inMap, final String key, final String val1, final String val2)
+    '''returns None\n\n
+    setXREFValues(final Map<String, Object> inMap, final String key, final String val1, final String val2)\n
     '''

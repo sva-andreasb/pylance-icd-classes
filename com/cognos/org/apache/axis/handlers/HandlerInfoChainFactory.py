@@ -1,19 +1,25 @@
-def HandlerInfoChainFactory():
-    '''public HandlerInfoChainFactory()
-    public HandlerInfoChainFactory(final List handlerInfos)
+def ():
+    '''returns HandlerInfoChainFactory\n\n
+    ()\n
+    (final List handlerInfos)\n
     '''
 def getHandlerInfos():
-    '''public List getHandlerInfos()
+    '''returns List\n\n
+    getHandlerInfos()\n
     '''
 def createHandlerChain():
-    '''public HandlerChain createHandlerChain()
+    '''returns HandlerChain\n\n
+    createHandlerChain()\n
     '''
 def getRoles():
-    '''public String[] getRoles()
+    '''returns String[]\n\n
+    getRoles()\n
     '''
 def setRoles():
-    '''public void setRoles(final String[] roles)
+    '''returns None\n\n
+    setRoles(final String[] roles)\n
     '''
 def init():
-    '''public void init(final Map map)
+    '''returns None\n\n
+    init(final Map map)\n
     '''

@@ -1,6 +1,8 @@
-def ReconRuleClause():
-    '''public ReconRuleClause(final MboSet ms)
+def ():
+    '''returns ReconRuleClause\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

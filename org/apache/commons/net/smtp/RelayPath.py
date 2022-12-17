@@ -1,9 +1,12 @@
-def RelayPath():
-    '''public RelayPath(final String emailAddress)
+def ():
+    '''returns RelayPath\n\n
+    (final String emailAddress)\n
     '''
 def addRelay():
-    '''public void addRelay(final String hostname)
+    '''returns None\n\n
+    addRelay(final String hostname)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

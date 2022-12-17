@@ -1,72 +1,93 @@
-def QueryNodeProcessorPipeline():
-    '''public QueryNodeProcessorPipeline()
-    public QueryNodeProcessorPipeline(final QueryConfigHandler queryConfigHandler)
+def ():
+    '''returns QueryNodeProcessorPipeline\n\n
+    ()\n
+    (final QueryConfigHandler queryConfigHandler)\n
     '''
 def getQueryConfigHandler():
-    '''public QueryConfigHandler getQueryConfigHandler()
+    '''returns QueryConfigHandler\n\n
+    getQueryConfigHandler()\n
     '''
 def process():
-    '''public QueryNode process(QueryNode queryTree)
+    '''returns QueryNode\n\n
+    process(QueryNode queryTree)\n
     '''
 def setQueryConfigHandler():
-    '''public void setQueryConfigHandler(final QueryConfigHandler queryConfigHandler)
+    '''returns None\n\n
+    setQueryConfigHandler(final QueryConfigHandler queryConfigHandler)\n
     '''
 def add():
-    '''public boolean add(final QueryNodeProcessor processor)
-    public void add(final int index, final QueryNodeProcessor processor)
+    '''returns None\n\n
+    add(final QueryNodeProcessor processor)\n
+    add(final int index, final QueryNodeProcessor processor)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends QueryNodeProcessor> c)
-    public boolean addAll(final int index, final Collection<? extends QueryNodeProcessor> c)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends QueryNodeProcessor> c)\n
+    addAll(final int index, final Collection<? extends QueryNodeProcessor> c)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> c)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> c)\n
     '''
 def get():
-    '''public QueryNodeProcessor get(final int index)
+    '''returns QueryNodeProcessor\n\n
+    get(final int index)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object o)
+    '''returns int\n\n
+    indexOf(final Object o)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def iterator():
-    '''public Iterator<QueryNodeProcessor> iterator()
+    '''returns Iterator<QueryNodeProcessor>\n\n
+    iterator()\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object o)
+    '''returns int\n\n
+    lastIndexOf(final Object o)\n
     '''
 def listIterator():
-    '''public ListIterator<QueryNodeProcessor> listIterator()
-    public ListIterator<QueryNodeProcessor> listIterator(final int index)
+    '''returns ListIterator<QueryNodeProcessor>\n\n
+    listIterator()\n
+    listIterator(final int index)\n
     '''
 def remove():
-    '''public boolean remove(final Object o)
-    public QueryNodeProcessor remove(final int index)
+    '''returns QueryNodeProcessor\n\n
+    remove(final Object o)\n
+    remove(final int index)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> c)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> c)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> c)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> c)\n
     '''
 def set():
-    '''public QueryNodeProcessor set(final int index, final QueryNodeProcessor processor)
+    '''returns QueryNodeProcessor\n\n
+    set(final int index, final QueryNodeProcessor processor)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def subList():
-    '''public List<QueryNodeProcessor> subList(final int fromIndex, final int toIndex)
+    '''returns List<QueryNodeProcessor>\n\n
+    subList(final int fromIndex, final int toIndex)\n
     '''
 def toArray():
-    '''public <T> T[] toArray(final T[] array)
-    public Object[] toArray()
+    '''returns Object[]\n\n
+    toArray()\n
     '''

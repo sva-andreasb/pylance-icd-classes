@@ -1,18 +1,16 @@
 def set():
-    '''public void set(final int i)
-    '''
-def hasNext():
-    '''public final boolean hasNext()
-    '''
-def hasPrevious():
-    '''public final boolean hasPrevious()
+    '''returns None\n\n
+    set(final int i)\n
     '''
 def next():
-    '''public CharSequenceValues next()
+    '''returns CharSequenceValues\n\n
+    next()\n
     '''
 def previous():
-    '''public CharSequenceValues previous()
+    '''returns CharSequenceValues\n\n
+    previous()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

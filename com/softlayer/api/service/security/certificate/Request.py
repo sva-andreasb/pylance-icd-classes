@@ -1,205 +1,268 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getCertificateAuthorityName():
-    '''public String getCertificateAuthorityName()
+    '''returns String\n\n
+    getCertificateAuthorityName()\n
     '''
 def setCertificateAuthorityName():
-    '''public void setCertificateAuthorityName(final String certificateAuthorityName)
+    '''returns None\n\n
+    setCertificateAuthorityName(final String certificateAuthorityName)\n
     '''
 def getOrder():
-    '''public Order getOrder()
+    '''returns Order\n\n
+    getOrder()\n
     '''
 def setOrder():
-    '''public void setOrder(final Order order)
+    '''returns None\n\n
+    setOrder(final Order order)\n
     '''
 def getOrderItem():
-    '''public Item getOrderItem()
+    '''returns Item\n\n
+    getOrderItem()\n
     '''
 def setOrderItem():
-    '''public void setOrderItem(final Item orderItem)
+    '''returns None\n\n
+    setOrderItem(final Item orderItem)\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final Status status)
+    '''returns None\n\n
+    setStatus(final Status status)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getApproverEmailAddress():
-    '''public String getApproverEmailAddress()
+    '''returns String\n\n
+    getApproverEmailAddress()\n
     '''
 def setApproverEmailAddress():
-    '''public void setApproverEmailAddress(final String approverEmailAddress)
+    '''returns None\n\n
+    setApproverEmailAddress(final String approverEmailAddress)\n
     '''
 def isApproverEmailAddressSpecified():
-    '''public boolean isApproverEmailAddressSpecified()
+    '''returns boolean\n\n
+    isApproverEmailAddressSpecified()\n
     '''
 def unsetApproverEmailAddress():
-    '''public void unsetApproverEmailAddress()
+    '''returns None\n\n
+    unsetApproverEmailAddress()\n
     '''
 def getCertificateSigningRequest():
-    '''public String getCertificateSigningRequest()
+    '''returns String\n\n
+    getCertificateSigningRequest()\n
     '''
 def setCertificateSigningRequest():
-    '''public void setCertificateSigningRequest(final String certificateSigningRequest)
+    '''returns None\n\n
+    setCertificateSigningRequest(final String certificateSigningRequest)\n
     '''
 def isCertificateSigningRequestSpecified():
-    '''public boolean isCertificateSigningRequestSpecified()
+    '''returns boolean\n\n
+    isCertificateSigningRequestSpecified()\n
     '''
 def unsetCertificateSigningRequest():
-    '''public void unsetCertificateSigningRequest()
+    '''returns None\n\n
+    unsetCertificateSigningRequest()\n
     '''
 def getCommonName():
-    '''public String getCommonName()
+    '''returns String\n\n
+    getCommonName()\n
     '''
 def setCommonName():
-    '''public void setCommonName(final String commonName)
+    '''returns None\n\n
+    setCommonName(final String commonName)\n
     '''
 def isCommonNameSpecified():
-    '''public boolean isCommonNameSpecified()
+    '''returns boolean\n\n
+    isCommonNameSpecified()\n
     '''
 def unsetCommonName():
-    '''public void unsetCommonName()
+    '''returns None\n\n
+    unsetCommonName()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getEffectiveDate():
-    '''public GregorianCalendar getEffectiveDate()
+    '''returns GregorianCalendar\n\n
+    getEffectiveDate()\n
     '''
 def setEffectiveDate():
-    '''public void setEffectiveDate(final GregorianCalendar effectiveDate)
+    '''returns None\n\n
+    setEffectiveDate(final GregorianCalendar effectiveDate)\n
     '''
 def isEffectiveDateSpecified():
-    '''public boolean isEffectiveDateSpecified()
+    '''returns boolean\n\n
+    isEffectiveDateSpecified()\n
     '''
 def unsetEffectiveDate():
-    '''public void unsetEffectiveDate()
+    '''returns None\n\n
+    unsetEffectiveDate()\n
     '''
 def getExpirationDate():
-    '''public GregorianCalendar getExpirationDate()
+    '''returns GregorianCalendar\n\n
+    getExpirationDate()\n
     '''
 def setExpirationDate():
-    '''public void setExpirationDate(final GregorianCalendar expirationDate)
+    '''returns None\n\n
+    setExpirationDate(final GregorianCalendar expirationDate)\n
     '''
 def isExpirationDateSpecified():
-    '''public boolean isExpirationDateSpecified()
+    '''returns boolean\n\n
+    isExpirationDateSpecified()\n
     '''
 def unsetExpirationDate():
-    '''public void unsetExpirationDate()
+    '''returns None\n\n
+    unsetExpirationDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getStatusId():
-    '''public Long getStatusId()
+    '''returns Long\n\n
+    getStatusId()\n
     '''
 def setStatusId():
-    '''public void setStatusId(final Long statusId)
+    '''returns None\n\n
+    setStatusId(final Long statusId)\n
     '''
 def isStatusIdSpecified():
-    '''public boolean isStatusIdSpecified()
+    '''returns boolean\n\n
+    isStatusIdSpecified()\n
     '''
 def unsetStatusId():
-    '''public void unsetStatusId()
+    '''returns None\n\n
+    unsetStatusId()\n
     '''
 def getTechnicalContactEmailAddress():
-    '''public String getTechnicalContactEmailAddress()
+    '''returns String\n\n
+    getTechnicalContactEmailAddress()\n
     '''
 def setTechnicalContactEmailAddress():
-    '''public void setTechnicalContactEmailAddress(final String technicalContactEmailAddress)
+    '''returns None\n\n
+    setTechnicalContactEmailAddress(final String technicalContactEmailAddress)\n
     '''
 def isTechnicalContactEmailAddressSpecified():
-    '''public boolean isTechnicalContactEmailAddressSpecified()
+    '''returns boolean\n\n
+    isTechnicalContactEmailAddressSpecified()\n
     '''
 def unsetTechnicalContactEmailAddress():
-    '''public void unsetTechnicalContactEmailAddress()
+    '''returns None\n\n
+    unsetTechnicalContactEmailAddress()\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def certificateAuthorityName():
-    '''public Mask certificateAuthorityName()
+    '''returns Mask\n\n
+    certificateAuthorityName()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def approverEmailAddress():
-    '''public Mask approverEmailAddress()
+    '''returns Mask\n\n
+    approverEmailAddress()\n
     '''
 def certificateSigningRequest():
-    '''public Mask certificateSigningRequest()
+    '''returns Mask\n\n
+    certificateSigningRequest()\n
     '''
 def commonName():
-    '''public Mask commonName()
+    '''returns Mask\n\n
+    commonName()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def effectiveDate():
-    '''public Mask effectiveDate()
+    '''returns Mask\n\n
+    effectiveDate()\n
     '''
 def expirationDate():
-    '''public Mask expirationDate()
+    '''returns Mask\n\n
+    expirationDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def statusId():
-    '''public Mask statusId()
+    '''returns Mask\n\n
+    statusId()\n
     '''
 def technicalContactEmailAddress():
-    '''public Mask technicalContactEmailAddress()
+    '''returns Mask\n\n
+    technicalContactEmailAddress()\n
     '''

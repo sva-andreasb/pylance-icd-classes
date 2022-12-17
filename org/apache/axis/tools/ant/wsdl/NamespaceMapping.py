@@ -1,15 +1,20 @@
-def NamespaceMapping():
-    '''public NamespaceMapping()
+def ():
+    '''returns NamespaceMapping\n\n
+    ()\n
     '''
 def setNamespace():
-    '''public void setNamespace(final String value)
+    '''returns None\n\n
+    setNamespace(final String value)\n
     '''
 def setPackage():
-    '''public void setPackage(final String value)
+    '''returns None\n\n
+    setPackage(final String value)\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def execute():
-    '''public void execute(final ProjectComponent owner, final HashMap map, final boolean packageIsKey)
+    '''returns None\n\n
+    execute(final ProjectComponent owner, final HashMap map, final boolean packageIsKey)\n
     '''

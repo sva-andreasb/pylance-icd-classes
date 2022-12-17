@@ -1,11 +1,14 @@
-def DynamicContentDataHandler():
-    '''public DynamicContentDataHandler(final DataSource arg0)
-    public DynamicContentDataHandler(final Object arg0, final String arg1)
-    public DynamicContentDataHandler(final URL arg0)
+def ():
+    '''returns DynamicContentDataHandler\n\n
+    (final DataSource arg0)\n
+    (final Object arg0, final String arg1)\n
+    (final URL arg0)\n
     '''
 def getChunkSize():
-    '''public int getChunkSize()
+    '''returns int\n\n
+    getChunkSize()\n
     '''
 def setChunkSize():
-    '''public void setChunkSize(final int chunkSize)
+    '''returns None\n\n
+    setChunkSize(final int chunkSize)\n
     '''

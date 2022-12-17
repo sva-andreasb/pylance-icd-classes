@@ -1,93 +1,124 @@
-def UserProfileHierarchySet():
-    '''public UserProfileHierarchySet(final MboServerInterface ms)
+def ():
+    '''returns UserProfileHierarchySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def clearProfile():
-    '''public void clearProfile(final String userId)
+    '''returns None\n\n
+    clearProfile(final String userId)\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getCategoryData():
-    '''public MboValueData[][] getCategoryData(final String object, final long key, final String[] attrs)
+    '''returns MboValueData[][]\n\n
+    getCategoryData(final String object, final long key, final String[] attrs)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getAuthorizedStoreRooms():
-    '''public MboSetRemote getAuthorizedStoreRooms(final long key)
+    '''returns MboSetRemote\n\n
+    getAuthorizedStoreRooms(final long key)\n
     '''
 def getEntities():
-    '''public MboSetRemote getEntities()
+    '''returns MboSetRemote\n\n
+    getEntities()\n
     '''
 def getAuthorizedApplications():
-    '''public MboSetRemote getAuthorizedApplications(final long ukey, final int sysFlag)
+    '''returns MboSetRemote\n\n
+    getAuthorizedApplications(final long ukey, final int sysFlag)\n
     '''
 def getTolerances():
-    '''public MboSetRemote getTolerances(final long ukey)
+    '''returns MboSetRemote\n\n
+    getTolerances(final long ukey)\n
     '''
 def getLabor():
-    '''public MboSetRemote getLabor(final long key)
+    '''returns MboSetRemote\n\n
+    getLabor(final long key)\n
     '''
 def getLaborFlags():
-    '''public MboSetRemote getLaborFlags()
+    '''returns MboSetRemote\n\n
+    getLaborFlags()\n
     '''
 def getAuthGLFields():
-    '''public HashSet getAuthGLFields(final long key)
+    '''returns HashSet\n\n
+    getAuthGLFields(final long key)\n
     '''
 def getAuthEntities():
-    '''public Set getAuthEntities()
+    '''returns Set\n\n
+    getAuthEntities()\n
     '''
 def getAuthLabor():
-    '''public HashSet getAuthLabor(final long key)
+    '''returns HashSet\n\n
+    getAuthLabor(final long key)\n
     '''
 def getAllAuthLabor():
-    '''public HashSet getAllAuthLabor(final MboSetRemote laborauthset)
+    '''returns HashSet\n\n
+    getAllAuthLabor(final MboSetRemote laborauthset)\n
     '''
 def getGLFields():
-    '''public MboSetRemote getGLFields(final long ukey)
+    '''returns MboSetRemote\n\n
+    getGLFields(final long ukey)\n
     '''
 def resetMboSetALL():
-    '''public void resetMboSetALL(final String nodelabel)
+    '''returns None\n\n
+    resetMboSetALL(final String nodelabel)\n
     '''
 def getLimits():
-    '''public MboSetRemote getLimits(final long ukey)
+    '''returns MboSetRemote\n\n
+    getLimits(final long ukey)\n
     '''
 def hasSigOptions():
-    '''public boolean hasSigOptions(final String appname, final long ukey)
+    '''returns boolean\n\n
+    hasSigOptions(final String appname, final long ukey)\n
     '''
 def hasRestrictions():
-    '''public boolean hasRestrictions(final String objectname)
+    '''returns boolean\n\n
+    hasRestrictions(final String objectname)\n
     '''
 def getLaborForFlag():
-    '''public HashSet getLaborForFlag(final String flag)
+    '''returns HashSet\n\n
+    getLaborForFlag(final String flag)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getAllHierarchies():
-    '''public MboValueData[][] getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getHierarchy():
-    '''public MboValueData[] getHierarchy(final String object, final String key)
+    '''returns MboValueData[]\n\n
+    getHierarchy(final String object, final String key)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String object, final String key, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String object, final String key, final String hierarchy)\n
     '''
 def getUniqueIDValue():
-    '''public MboValueData getUniqueIDValue(final String object, final String[] attributes, final String[] values)
+    '''returns MboValueData\n\n
+    getUniqueIDValue(final String object, final String[] attributes, final String[] values)\n
     '''
 def getLevels():
-    '''public HashMap getLevels()
+    '''returns HashMap\n\n
+    getLevels()\n
     '''
 def getCategories():
-    '''public HashMap getCategories()
+    '''returns HashMap\n\n
+    getCategories()\n
     '''

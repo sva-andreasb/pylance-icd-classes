@@ -1,9 +1,12 @@
-def PlusPFldGBTransHierarchyPath():
-    '''public PlusPFldGBTransHierarchyPath(final MboValue mbv)
+def ():
+    '''returns PlusPFldGBTransHierarchyPath\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

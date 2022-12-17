@@ -1,29 +1,38 @@
 sid = "short  252"
-def SSTRecord():
-    '''public SSTRecord()
-    public SSTRecord(final RecordInputStream in)
+def ():
+    '''returns SSTRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def addString():
-    '''public int addString(final UnicodeString string)
+    '''returns int\n\n
+    addString(final UnicodeString string)\n
     '''
 def getNumStrings():
-    '''public int getNumStrings()
+    '''returns int\n\n
+    getNumStrings()\n
     '''
 def getNumUniqueStrings():
-    '''public int getNumUniqueStrings()
+    '''returns int\n\n
+    getNumUniqueStrings()\n
     '''
 def getString():
-    '''public UnicodeString getString(final int id)
+    '''returns UnicodeString\n\n
+    getString(final int id)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def createExtSSTRecord():
-    '''public ExtSSTRecord createExtSSTRecord(final int sstOffset)
+    '''returns ExtSSTRecord\n\n
+    createExtSSTRecord(final int sstOffset)\n
     '''
 def calcExtSSTRecordSize():
-    '''public int calcExtSSTRecordSize()
+    '''returns int\n\n
+    calcExtSSTRecordSize()\n
     '''

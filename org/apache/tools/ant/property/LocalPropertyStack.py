@@ -1,24 +1,32 @@
-def LocalPropertyStack():
-    '''public LocalPropertyStack()
+def ():
+    '''returns LocalPropertyStack\n\n
+    ()\n
     '''
 def addLocal():
-    '''public void addLocal(final String property)
+    '''returns None\n\n
+    addLocal(final String property)\n
     '''
 def enterScope():
-    '''public void enterScope()
+    '''returns None\n\n
+    enterScope()\n
     '''
 def exitScope():
-    '''public void exitScope()
+    '''returns None\n\n
+    exitScope()\n
     '''
 def copy():
-    '''public LocalPropertyStack copy()
+    '''returns LocalPropertyStack\n\n
+    copy()\n
     '''
 def evaluate():
-    '''public Object evaluate(final String property, final PropertyHelper helper)
+    '''returns Object\n\n
+    evaluate(final String property, final PropertyHelper helper)\n
     '''
 def setNew():
-    '''public boolean setNew(final String property, final Object value, final PropertyHelper propertyHelper)
+    '''returns boolean\n\n
+    setNew(final String property, final Object value, final PropertyHelper propertyHelper)\n
     '''
 def set():
-    '''public boolean set(final String property, final Object value, final PropertyHelper propertyHelper)
+    '''returns boolean\n\n
+    set(final String property, final Object value, final PropertyHelper propertyHelper)\n
     '''

@@ -1,6 +1,8 @@
-def VMMPrivilagedSearchAction():
-    '''public VMMPrivilagedSearchAction(final Service srv, final DataObject root)
+def ():
+    '''returns VMMPrivilagedSearchAction\n\n
+    (final Service srv, final DataObject root)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

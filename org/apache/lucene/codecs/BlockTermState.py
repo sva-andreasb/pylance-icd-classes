@@ -1,6 +1,8 @@
 def copyFrom():
-    '''public void copyFrom(final TermState _other)
+    '''returns None\n\n
+    copyFrom(final TermState _other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

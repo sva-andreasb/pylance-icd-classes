@@ -1,66 +1,88 @@
 def saveNewModifiedWPMaterial():
-    '''public void saveNewModifiedWPMaterial(final MboRemote mbo)
+    '''returns None\n\n
+    saveNewModifiedWPMaterial(final MboRemote mbo)\n
     '''
 def getNewModifiedWPMaterial():
-    '''public MboRemote getNewModifiedWPMaterial()
+    '''returns MboRemote\n\n
+    getNewModifiedWPMaterial()\n
     '''
-def WPMaterial():
-    '''public WPMaterial(final MboSet ms)
+def ():
+    '''returns WPMaterial\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def needsStoreroom():
-    '''public boolean needsStoreroom()
+    '''returns boolean\n\n
+    needsStoreroom()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def refreshRate():
-    '''public void refreshRate()
+    '''returns None\n\n
+    refreshRate()\n
     '''
 def getItemCostFromInventory():
-    '''public void getItemCostFromInventory()
+    '''returns None\n\n
+    getItemCostFromInventory()\n
     '''
 def updateEstimateTotal():
-    '''public void updateEstimateTotal(final double delta)
+    '''returns None\n\n
+    updateEstimateTotal(final double delta)\n
     '''
 def setEstCost():
-    '''public void setEstCost(final MboRemote wo, final double lineCost)
+    '''returns None\n\n
+    setEstCost(final MboRemote wo, final double lineCost)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def setBaseCurrencyUnitCost():
-    '''public void setBaseCurrencyUnitCost(final double vendorunitcost)
+    '''returns None\n\n
+    setBaseCurrencyUnitCost(final double vendorunitcost)\n
     '''
 def setFieldsFlagInDuplicate():
-    '''public void setFieldsFlagInDuplicate()
+    '''returns None\n\n
+    setFieldsFlagInDuplicate()\n
     '''
 def copyPlan():
-    '''public void copyPlan(final MboRemote source)
+    '''returns None\n\n
+    copyPlan(final MboRemote source)\n
     '''
 def supplyStoreroom():
-    '''public void supplyStoreroom()
+    '''returns None\n\n
+    supplyStoreroom()\n
     '''
 def deleteCreatedInvReserves():
-    '''public void deleteCreatedInvReserves()
+    '''returns None\n\n
+    deleteCreatedInvReserves()\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''
 def getWPMInVector():
-    '''public MboRemote getWPMInVector(final Vector v)
+    '''returns MboRemote\n\n
+    getWPMInVector(final Vector v)\n
     '''

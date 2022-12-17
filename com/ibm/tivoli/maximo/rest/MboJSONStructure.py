@@ -1,41 +1,52 @@
-def MboJSONStructure():
-    '''public MboJSONStructure(final boolean verbose, final boolean dropNulls, final boolean locale, final Set<String> cols, final boolean exclude, final boolean retainMbos, boolean generic, boolean metaData, final boolean compact, final boolean calculateEtag, final boolean useTotalCount, final boolean keys)
+def ():
+    '''returns MboJSONStructure\n\n
+    (final boolean verbose, final boolean dropNulls, final boolean locale, final Set<String> cols, final boolean exclude, final boolean retainMbos, boolean generic, boolean metaData, final boolean compact, final boolean calculateEtag, final boolean useTotalCount, final boolean keys)\n
     '''
 def serializeMboSet():
-    '''public byte[] serializeMboSet(final MboSetRemote mboSet)
-    public byte[] serializeMboSet(final MboIterator mboSet)
-    public byte[] serializeMboSet(final OrderedJSONObject opOjo, final MboIterator mboSet)
-    public byte[] serializeMboSet(final MboSetRemote mboSet, final int startIndex, final int maxCount)
-    public byte[] serializeMboSet(final MboIterator mboSet, final int startIndex, final int maxCount)
-    public byte[] serializeMboSet(final OrderedJSONObject opOjo, final MboIterator mboSet, final int startIndex, final int maxCount)
+    '''returns byte[]\n\n
+    serializeMboSet(final MboSetRemote mboSet)\n
+    serializeMboSet(final MboIterator mboSet)\n
+    serializeMboSet(final OrderedJSONObject opOjo, final MboIterator mboSet)\n
+    serializeMboSet(final MboSetRemote mboSet, final int startIndex, final int maxCount)\n
+    serializeMboSet(final MboIterator mboSet, final int startIndex, final int maxCount)\n
+    serializeMboSet(final OrderedJSONObject opOjo, final MboIterator mboSet, final int startIndex, final int maxCount)\n
     '''
 def serializeMboSetAsJSONObject():
-    '''public OrderedJSONObject serializeMboSetAsJSONObject(final MboSetRemote mboSet, final int startIndex, final int maxCount)
-    public OrderedJSONObject serializeMboSetAsJSONObject(final MboIterator mboSet, final int startIndex, final int maxCount)
-    public OrderedJSONObject serializeMboSetAsJSONObject(final OrderedJSONObject opOjo, final MboIterator mboSet, final int startIndex, int maxCount)
+    '''returns OrderedJSONObject\n\n
+    serializeMboSetAsJSONObject(final MboSetRemote mboSet, final int startIndex, final int maxCount)\n
+    serializeMboSetAsJSONObject(final MboIterator mboSet, final int startIndex, final int maxCount)\n
+    serializeMboSetAsJSONObject(final OrderedJSONObject opOjo, final MboIterator mboSet, final int startIndex, int maxCount)\n
     '''
 def getCalculatedEtag():
-    '''public String getCalculatedEtag()
+    '''returns String\n\n
+    getCalculatedEtag()\n
     '''
 def isKey():
-    '''public boolean isKey(final MboRemote mbo, final MboValueInfo mboValueInfo)
+    '''returns boolean\n\n
+    isKey(final MboRemote mbo, final MboValueInfo mboValueInfo)\n
     '''
 def covertJSONObjectToBytes():
-    '''public byte[] covertJSONObjectToBytes(final OrderedJSONObject ojo)
+    '''returns byte[]\n\n
+    covertJSONObjectToBytes(final OrderedJSONObject ojo)\n
     '''
 def serializeMbo():
-    '''public byte[] serializeMbo(final MboRemote mbo)
-    public byte[] serializeMbo(final OrderedJSONObject opOjo, final MboRemote mbo)
+    '''returns byte[]\n\n
+    serializeMbo(final MboRemote mbo)\n
+    serializeMbo(final OrderedJSONObject opOjo, final MboRemote mbo)\n
     '''
 def setUseRowStamp():
-    '''public void setUseRowStamp(final boolean useRowStamp)
+    '''returns None\n\n
+    setUseRowStamp(final boolean useRowStamp)\n
     '''
 def setResolvedTotalCount():
-    '''public void setResolvedTotalCount(final int resolvedTotalCount)
+    '''returns None\n\n
+    setResolvedTotalCount(final int resolvedTotalCount)\n
     '''
 def setResolvedStartCount():
-    '''public void setResolvedStartCount(final int resolvedStartCount)
+    '''returns None\n\n
+    setResolvedStartCount(final int resolvedStartCount)\n
     '''
 def setInitialResolvedCount():
-    '''public void setInitialResolvedCount(final int initialResolvedCount)
+    '''returns None\n\n
+    setInitialResolvedCount(final int initialResolvedCount)\n
     '''

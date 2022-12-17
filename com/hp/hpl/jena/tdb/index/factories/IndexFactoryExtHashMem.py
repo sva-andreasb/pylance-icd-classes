@@ -1,3 +1,4 @@
 def createIndex():
-    '''public Index createIndex(final FileSet fileset, final RecordFactory recordFactory)
+    '''returns Index\n\n
+    createIndex(final FileSet fileset, final RecordFactory recordFactory)\n
     '''

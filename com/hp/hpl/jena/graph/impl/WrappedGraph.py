@@ -1,65 +1,86 @@
-def WrappedGraph():
-    '''public WrappedGraph(final Graph base)
+def ():
+    '''returns WrappedGraph\n\n
+    (final Graph base)\n
     '''
 def dependsOn():
-    '''public boolean dependsOn(final Graph other)
+    '''returns boolean\n\n
+    dependsOn(final Graph other)\n
     '''
 def queryHandler():
-    '''public QueryHandler queryHandler()
+    '''returns QueryHandler\n\n
+    queryHandler()\n
     '''
 def getTransactionHandler():
-    '''public TransactionHandler getTransactionHandler()
+    '''returns TransactionHandler\n\n
+    getTransactionHandler()\n
     '''
 def getBulkUpdateHandler():
-    '''public BulkUpdateHandler getBulkUpdateHandler()
+    '''returns BulkUpdateHandler\n\n
+    getBulkUpdateHandler()\n
     '''
 def getStatisticsHandler():
-    '''public GraphStatisticsHandler getStatisticsHandler()
+    '''returns GraphStatisticsHandler\n\n
+    getStatisticsHandler()\n
     '''
 def getCapabilities():
-    '''public Capabilities getCapabilities()
+    '''returns Capabilities\n\n
+    getCapabilities()\n
     '''
 def getEventManager():
-    '''public GraphEventManager getEventManager()
+    '''returns GraphEventManager\n\n
+    getEventManager()\n
     '''
 def getReifier():
-    '''public Reifier getReifier()
+    '''returns Reifier\n\n
+    getReifier()\n
     '''
 def getPrefixMapping():
-    '''public PrefixMapping getPrefixMapping()
+    '''returns PrefixMapping\n\n
+    getPrefixMapping()\n
     '''
 def add():
-    '''public void add(final Triple t)
+    '''returns None\n\n
+    add(final Triple t)\n
     '''
 def delete():
-    '''public void delete(final Triple t)
+    '''returns None\n\n
+    delete(final Triple t)\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final TripleMatch m)
-    public ExtendedIterator<Triple> find(final Node s, final Node p, final Node o)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final TripleMatch m)\n
+    find(final Node s, final Node p, final Node o)\n
     '''
 def isIsomorphicWith():
-    '''public boolean isIsomorphicWith(final Graph g)
+    '''returns boolean\n\n
+    isIsomorphicWith(final Graph g)\n
     '''
 def contains():
-    '''public boolean contains(final Node s, final Node p, final Node o)
-    public boolean contains(final Triple t)
+    '''returns boolean\n\n
+    contains(final Node s, final Node p, final Node o)\n
+    contains(final Triple t)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple t)
+    '''returns None\n\n
+    performDelete(final Triple t)\n
     '''

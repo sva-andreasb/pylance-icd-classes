@@ -1,9 +1,12 @@
-def PlusPWOActivitySet():
-    '''public PlusPWOActivitySet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPWOActivitySet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote modifiedMbo)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

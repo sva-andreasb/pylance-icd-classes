@@ -1,6 +1,8 @@
 def exec():
-    '''public Object exec(final Object arg1, final Object arg2)
+    '''returns Object\n\n
+    exec(final Object arg1, final Object arg2)\n
     '''
 def formatDuration():
-    '''public String formatDuration(Double durationInDouble)
+    '''returns String\n\n
+    formatDuration(Double durationInDouble)\n
     '''

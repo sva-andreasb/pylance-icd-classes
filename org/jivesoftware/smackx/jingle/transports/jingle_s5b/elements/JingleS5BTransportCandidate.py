@@ -4,58 +4,68 @@ ATTR_JID = "String  \"jid\""
 ATTR_PORT = "String  \"port\""
 ATTR_PRIORITY = "String  \"priority\""
 ATTR_TYPE = "String  \"type\""
-def JingleS5BTransportCandidate():
-    '''public JingleS5BTransportCandidate(final String candidateId, final String host, final Jid jid, final int port, final int priority, final Type type)
-    public JingleS5BTransportCandidate(final Bytestream.StreamHost streamHost, final int priority, final Type type)
+def ():
+    '''returns JingleS5BTransportCandidate\n\n
+    (final String candidateId, final String host, final Jid jid, final int port, final int priority, final Type type)\n
+    (final Bytestream.StreamHost streamHost, final int priority, final Type type)\n
     '''
 def getCandidateId():
-    '''public String getCandidateId()
+    '''returns String\n\n
+    getCandidateId()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getJid():
-    '''public Jid getJid()
+    '''returns Jid\n\n
+    getJid()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    '''
-def getBuilder():
-    '''public static Builder getBuilder()
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getWeight():
-    '''public int getWeight()
-    '''
-def fromString():
-    '''public static Type fromString(final String name)
+    '''returns int\n\n
+    getWeight()\n
     '''
 def setCandidateId():
-    '''public Builder setCandidateId(final String cid)
+    '''returns Builder\n\n
+    setCandidateId(final String cid)\n
     '''
 def setHost():
-    '''public Builder setHost(final String host)
+    '''returns Builder\n\n
+    setHost(final String host)\n
     '''
 def setJid():
-    '''public Builder setJid(final String jid)
+    '''returns Builder\n\n
+    setJid(final String jid)\n
     '''
 def setPort():
-    '''public Builder setPort(final int port)
+    '''returns Builder\n\n
+    setPort(final int port)\n
     '''
 def setPriority():
-    '''public Builder setPriority(final int priority)
+    '''returns Builder\n\n
+    setPriority(final int priority)\n
     '''
 def setType():
-    '''public Builder setType(final Type type)
+    '''returns Builder\n\n
+    setType(final Type type)\n
     '''
 def build():
-    '''public JingleS5BTransportCandidate build()
+    '''returns JingleS5BTransportCandidate\n\n
+    build()\n
     '''

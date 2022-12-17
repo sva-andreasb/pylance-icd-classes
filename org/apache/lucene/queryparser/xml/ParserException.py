@@ -1,6 +1,7 @@
-def ParserException():
-    '''public ParserException()
-    public ParserException(final String message)
-    public ParserException(final String message, final Throwable cause)
-    public ParserException(final Throwable cause)
+def ():
+    '''returns ParserException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

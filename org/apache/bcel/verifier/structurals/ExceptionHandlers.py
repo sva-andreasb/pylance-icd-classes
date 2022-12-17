@@ -1,6 +1,8 @@
-def ExceptionHandlers():
-    '''public ExceptionHandlers(final MethodGen mg)
+def ():
+    '''returns ExceptionHandlers\n\n
+    (final MethodGen mg)\n
     '''
 def getExceptionHandlers():
-    '''public ExceptionHandler[] getExceptionHandlers(final InstructionHandle ih)
+    '''returns ExceptionHandler[]\n\n
+    getExceptionHandlers(final InstructionHandle ih)\n
     '''

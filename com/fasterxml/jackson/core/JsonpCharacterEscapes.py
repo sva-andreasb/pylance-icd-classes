@@ -1,9 +1,8 @@
-def instance():
-    '''public static JsonpCharacterEscapes instance()
-    '''
 def getEscapeSequence():
-    '''public SerializableString getEscapeSequence(final int ch)
+    '''returns SerializableString\n\n
+    getEscapeSequence(final int ch)\n
     '''
 def getEscapeCodesForAscii():
-    '''public int[] getEscapeCodesForAscii()
+    '''returns int[]\n\n
+    getEscapeCodesForAscii()\n
     '''

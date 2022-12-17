@@ -1,9 +1,12 @@
-def SimpleOverlayLayeredPanel():
-    '''public SimpleOverlayLayeredPanel(final Component main)
+def ():
+    '''returns SimpleOverlayLayeredPanel\n\n
+    (final Component main)\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def setGlassVisible():
-    '''public void setGlassVisible(final boolean visible)
+    '''returns None\n\n
+    setGlassVisible(final boolean visible)\n
     '''

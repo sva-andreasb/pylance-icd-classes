@@ -1,9 +1,12 @@
 def newSearchProcessor():
-    '''public Processor newSearchProcessor()
+    '''returns Processor\n\n
+    newSearchProcessor()\n
     '''
 def process():
-    '''public boolean process(final byte value)
+    '''returns boolean\n\n
+    process(final byte value)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

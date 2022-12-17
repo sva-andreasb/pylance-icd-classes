@@ -1,29 +1,33 @@
 def getKey():
-    '''public DescriptionKey getKey()
+    '''returns DescriptionKey\n\n
+    getKey()\n
     '''
 def isLocal():
-    '''public boolean isLocal()
+    '''returns boolean\n\n
+    isLocal()\n
     '''
 def getMemento():
-    '''public Memento getMemento()
+    '''returns Memento\n\n
+    getMemento()\n
     '''
 def setMemento():
-    '''public void setMemento(final Memento memento)
-    '''
-def updateMemento():
-    '''public final void updateMemento()
-    public final void updateMemento(final int delay)
+    '''returns None\n\n
+    setMemento(final Memento memento)\n
     '''
 def registerNotificationListener():
-    '''public void registerNotificationListener(final DescriptionModificationListener listener, final String type, final Object handback)
+    '''returns None\n\n
+    registerNotificationListener(final DescriptionModificationListener listener, final String type, final Object handback)\n
     '''
 def deregisterNotificationListener():
-    '''public void deregisterNotificationListener(final DescriptionModificationListener listener, final String type)
+    '''returns None\n\n
+    deregisterNotificationListener(final DescriptionModificationListener listener, final String type)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def delta():
-    '''public Memento delta()
+    '''returns Memento\n\n
+    delta()\n
     '''

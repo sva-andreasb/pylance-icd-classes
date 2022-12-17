@@ -1,9 +1,12 @@
-def SingletonList():
-    '''public SingletonList(final Object element)
+def ():
+    '''returns SingletonList\n\n
+    (final Object element)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def get():
-    '''public Object get(final int index)
+    '''returns Object\n\n
+    get(final int index)\n
     '''

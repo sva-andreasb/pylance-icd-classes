@@ -1,22 +1,20 @@
-def EndPointCacheImpl():
-    '''public EndPointCacheImpl()
+def ():
+    '''returns EndPointCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public synchronized void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getAllEndpoints():
-    '''public Map<String, MaxEndPointInfo> getAllEndpoints()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEndPointInfo():
-    '''public MaxEndPointInfo getEndPointInfo(final String endPointName)
-    '''
-def getEndPointProperties():
-    '''public Map<String, MaxEndPointPropInfo> getEndPointProperties(final String endPointName)
+    '''returns MaxEndPointInfo\n\n
+    getEndPointInfo(final String endPointName)\n
     '''

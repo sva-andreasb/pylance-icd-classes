@@ -1,9 +1,12 @@
-def PlusPBSPreviewBillDatesSet():
-    '''public PlusPBSPreviewBillDatesSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBSPreviewBillDatesSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getList():
-    '''public MboSetRemote getList(final int row, final String s)
+    '''returns MboSetRemote\n\n
+    getList(final int row, final String s)\n
     '''
 def createPreviewList():
-    '''public void createPreviewList(final MboRemote mboRemote)
+    '''returns None\n\n
+    createPreviewList(final MboRemote mboRemote)\n
     '''

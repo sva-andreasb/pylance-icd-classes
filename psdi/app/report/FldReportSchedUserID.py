@@ -1,6 +1,8 @@
-def FldReportSchedUserID():
-    '''public FldReportSchedUserID(final MboValue mbv)
+def ():
+    '''returns FldReportSchedUserID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

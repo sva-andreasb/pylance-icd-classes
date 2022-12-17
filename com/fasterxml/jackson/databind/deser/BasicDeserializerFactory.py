@@ -1,39 +1,32 @@
 def getFactoryConfig():
-    '''public DeserializerFactoryConfig getFactoryConfig()
-    '''
-def withAdditionalDeserializers():
-    '''public final DeserializerFactory withAdditionalDeserializers(final Deserializers additional)
-    '''
-def withAdditionalKeyDeserializers():
-    '''public final DeserializerFactory withAdditionalKeyDeserializers(final KeyDeserializers additional)
-    '''
-def withDeserializerModifier():
-    '''public final DeserializerFactory withDeserializerModifier(final BeanDeserializerModifier modifier)
-    '''
-def withAbstractTypeResolver():
-    '''public final DeserializerFactory withAbstractTypeResolver(final AbstractTypeResolver resolver)
-    '''
-def withValueInstantiators():
-    '''public final DeserializerFactory withValueInstantiators(final ValueInstantiators instantiators)
+    '''returns DeserializerFactoryConfig\n\n
+    getFactoryConfig()\n
     '''
 def mapAbstractType():
-    '''public JavaType mapAbstractType(final DeserializationConfig config, JavaType type)
+    '''returns JavaType\n\n
+    mapAbstractType(final DeserializationConfig config, JavaType type)\n
     '''
 def findValueInstantiator():
-    '''public ValueInstantiator findValueInstantiator(final DeserializationContext ctxt, final BeanDescription beanDesc)
+    '''returns ValueInstantiator\n\n
+    findValueInstantiator(final DeserializationContext ctxt, final BeanDescription beanDesc)\n
     '''
 def _valueInstantiatorInstance():
-    '''public ValueInstantiator _valueInstantiatorInstance(final DeserializationConfig config, final Annotated annotated, final Object instDef)
+    '''returns ValueInstantiator\n\n
+    _valueInstantiatorInstance(final DeserializationConfig config, final Annotated annotated, final Object instDef)\n
     '''
 def findTypeDeserializer():
-    '''public TypeDeserializer findTypeDeserializer(final DeserializationConfig config, final JavaType baseType)
+    '''returns TypeDeserializer\n\n
+    findTypeDeserializer(final DeserializationConfig config, final JavaType baseType)\n
     '''
 def createKeyDeserializer():
-    '''public KeyDeserializer createKeyDeserializer(final DeserializationContext ctxt, final JavaType type)
+    '''returns KeyDeserializer\n\n
+    createKeyDeserializer(final DeserializationContext ctxt, final JavaType type)\n
     '''
 def findPropertyTypeDeserializer():
-    '''public TypeDeserializer findPropertyTypeDeserializer(final DeserializationConfig config, final JavaType baseType, final AnnotatedMember annotated)
+    '''returns TypeDeserializer\n\n
+    findPropertyTypeDeserializer(final DeserializationConfig config, final JavaType baseType, final AnnotatedMember annotated)\n
     '''
 def findPropertyContentTypeDeserializer():
-    '''public TypeDeserializer findPropertyContentTypeDeserializer(final DeserializationConfig config, final JavaType containerType, final AnnotatedMember propertyEntity)
+    '''returns TypeDeserializer\n\n
+    findPropertyContentTypeDeserializer(final DeserializationConfig config, final JavaType containerType, final AnnotatedMember propertyEntity)\n
     '''

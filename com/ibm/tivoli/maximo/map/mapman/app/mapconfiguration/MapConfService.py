@@ -1,40 +1,53 @@
-def MapConfService():
-    '''public MapConfService()
-    public MapConfService(final String type, final String name, final String url, final Float transparency, final boolean visible, final boolean tokenEnabled)
+def ():
+    '''returns MapConfService\n\n
+    ()\n
+    (final String type, final String name, final String url, final Float transparency, final boolean visible, final boolean tokenEnabled)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def setUrl():
-    '''public void setUrl(final String url)
+    '''returns None\n\n
+    setUrl(final String url)\n
     '''
 def getTransparency():
-    '''public Float getTransparency()
+    '''returns Float\n\n
+    getTransparency()\n
     '''
 def setTransparency():
-    '''public void setTransparency(final Float transparency)
+    '''returns None\n\n
+    setTransparency(final Float transparency)\n
     '''
 def getVisible():
-    '''public boolean getVisible()
+    '''returns boolean\n\n
+    getVisible()\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean visible)
+    '''returns None\n\n
+    setVisible(final boolean visible)\n
     '''
 def getTokenEnabled():
-    '''public boolean getTokenEnabled()
+    '''returns boolean\n\n
+    getTokenEnabled()\n
     '''
 def setTokenEnabled():
-    '''public void setTokenEnabled(final boolean tokenEnabled)
+    '''returns None\n\n
+    setTokenEnabled(final boolean tokenEnabled)\n
     '''

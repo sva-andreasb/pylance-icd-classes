@@ -1,66 +1,87 @@
-def OslcErrorResponse():
-    '''public OslcErrorResponse(final String statusCode, final String message, final String reasonCode, final boolean lean)
-    public OslcErrorResponse(final String statusCode, final String message, final String reasonCode, final String localResource, final boolean lean)
-    public OslcErrorResponse(final String statusCode, final String message, final String reasonCode, final String localResource, final String rel, final boolean lean)
-    public OslcErrorResponse(final String statusCode, final String message, final String reasonCode, final String localResource, final String rel, final String hintWidth, final String hintHeight, final boolean lean)
+def ():
+    '''returns OslcErrorResponse\n\n
+    (final String statusCode, final String message, final String reasonCode, final boolean lean)\n
+    (final String statusCode, final String message, final String reasonCode, final String localResource, final boolean lean)\n
+    (final String statusCode, final String message, final String reasonCode, final String localResource, final String rel, final boolean lean)\n
+    (final String statusCode, final String message, final String reasonCode, final String localResource, final String rel, final String hintWidth, final String hintHeight, final boolean lean)\n
     '''
 def setStatusCode():
-    '''public void setStatusCode(final String statusCode)
+    '''returns None\n\n
+    setStatusCode(final String statusCode)\n
     '''
 def setYNCUserInputSoFar():
-    '''public void setYNCUserInputSoFar(final String yncuserinputsofar)
+    '''returns None\n\n
+    setYNCUserInputSoFar(final String yncuserinputsofar)\n
     '''
 def setErrorMeta():
-    '''public void setErrorMeta(final String attrName, final String objPath, final String apiCorrelationId, final MaxType errAttrValue)
+    '''returns None\n\n
+    setErrorMeta(final String attrName, final String objPath, final String apiCorrelationId, final MaxType errAttrValue)\n
     '''
 def setYNCUserInputId():
-    '''public void setYNCUserInputId(final String id)
+    '''returns None\n\n
+    setYNCUserInputId(final String id)\n
     '''
 def toJsonError():
-    '''public JSONObject toJsonError()
+    '''returns JSONObject\n\n
+    toJsonError()\n
     '''
 def getExtendedError():
-    '''public JSONObject getExtendedError()
+    '''returns JSONObject\n\n
+    getExtendedError()\n
     '''
 def getStatusCode():
-    '''public String getStatusCode()
+    '''returns String\n\n
+    getStatusCode()\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def setLocalResource():
-    '''public void setLocalResource(final String localResource)
+    '''returns None\n\n
+    setLocalResource(final String localResource)\n
     '''
 def getLocalResource():
-    '''public String getLocalResource()
+    '''returns String\n\n
+    getLocalResource()\n
     '''
 def setRel():
-    '''public void setRel(final String rel)
+    '''returns None\n\n
+    setRel(final String rel)\n
     '''
 def getRel():
-    '''public String getRel()
+    '''returns String\n\n
+    getRel()\n
     '''
 def setHintWidth():
-    '''public void setHintWidth(final String hintWidth)
+    '''returns None\n\n
+    setHintWidth(final String hintWidth)\n
     '''
 def getHintWidth():
-    '''public String getHintWidth()
+    '''returns String\n\n
+    getHintWidth()\n
     '''
 def setHintHeight():
-    '''public void setHintHeight(final String hintHeight)
+    '''returns None\n\n
+    setHintHeight(final String hintHeight)\n
     '''
 def getHintHeight():
-    '''public String getHintHeight()
+    '''returns String\n\n
+    getHintHeight()\n
     '''
 def setChangePassURI():
-    '''public void setChangePassURI(final String chgPassURI)
+    '''returns None\n\n
+    setChangePassURI(final String chgPassURI)\n
     '''
 def setLean():
-    '''public void setLean(final boolean lean)
+    '''returns None\n\n
+    setLean(final boolean lean)\n
     '''
 def setIgnoreApiErrs():
-    '''public void setIgnoreApiErrs(final boolean ignoreApiErrs)
+    '''returns None\n\n
+    setIgnoreApiErrs(final boolean ignoreApiErrs)\n
     '''

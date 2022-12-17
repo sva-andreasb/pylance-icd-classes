@@ -1,58 +1,77 @@
-def GetObjectMetadataRequest():
-    '''public GetObjectMetadataRequest(final String bucketName, final String key)
-    public GetObjectMetadataRequest(final String bucketName, final String key, final String versionId)
+def ():
+    '''returns GetObjectMetadataRequest\n\n
+    (final String bucketName, final String key)\n
+    (final String bucketName, final String key, final String versionId)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public GetObjectMetadataRequest withBucketName(final String bucketName)
+    '''returns GetObjectMetadataRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public GetObjectMetadataRequest withKey(final String key)
+    '''returns GetObjectMetadataRequest\n\n
+    withKey(final String key)\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
     '''
 def withVersionId():
-    '''public GetObjectMetadataRequest withVersionId(final String versionId)
+    '''returns GetObjectMetadataRequest\n\n
+    withVersionId(final String versionId)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public GetObjectMetadataRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns GetObjectMetadataRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''
 def getSSECustomerKey():
-    '''public SSECustomerKey getSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getSSECustomerKey()\n
     '''
 def setSSECustomerKey():
-    '''public void setSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns None\n\n
+    setSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def withSSECustomerKey():
-    '''public GetObjectMetadataRequest withSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns GetObjectMetadataRequest\n\n
+    withSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def getPartNumber():
-    '''public Integer getPartNumber()
+    '''returns Integer\n\n
+    getPartNumber()\n
     '''
 def setPartNumber():
-    '''public void setPartNumber(final Integer partNumber)
+    '''returns None\n\n
+    setPartNumber(final Integer partNumber)\n
     '''
 def withPartNumber():
-    '''public GetObjectMetadataRequest withPartNumber(final Integer partNumber)
+    '''returns GetObjectMetadataRequest\n\n
+    withPartNumber(final Integer partNumber)\n
     '''

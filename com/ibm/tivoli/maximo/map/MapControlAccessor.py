@@ -1,26 +1,34 @@
 MAP_ACCESSOR_ID = "String  \"MAP_CONTROL_ACCESSOR_ID\""
-def MapControlAccessor():
-    '''public MapControlAccessor(final MapControlCallbacks instance)
-    public MapControlAccessor(final MapControlCallbacks instance, final LatLngBounds bounds)
+def ():
+    '''returns MapControlAccessor\n\n
+    (final MapControlCallbacks instance)\n
+    (final MapControlCallbacks instance, final LatLngBounds bounds)\n
     '''
 def setRecordsToLayer():
-    '''public void setRecordsToLayer(final String layerName, final MboSetRemote records)
+    '''returns None\n\n
+    setRecordsToLayer(final String layerName, final MboSetRemote records)\n
     '''
 def addRecordsToLayer():
-    '''public void addRecordsToLayer(final String layerName, final MboSetRemote records)
+    '''returns None\n\n
+    addRecordsToLayer(final String layerName, final MboSetRemote records)\n
     '''
 def removeRecordsFromLayer():
-    '''public void removeRecordsFromLayer(final String layerName, final MboSetRemote records)
+    '''returns None\n\n
+    removeRecordsFromLayer(final String layerName, final MboSetRemote records)\n
     '''
 def getBounds():
-    '''public LatLngBounds getBounds()
+    '''returns LatLngBounds\n\n
+    getBounds()\n
     '''
 def setMapBounds():
-    '''public void setMapBounds(final LatLngBounds bounds)
+    '''returns None\n\n
+    setMapBounds(final LatLngBounds bounds)\n
     '''
 def createMapCallback():
-    '''public void createMapCallback(final String action, final JSONObject data)
+    '''returns None\n\n
+    createMapCallback(final String action, final JSONObject data)\n
     '''
 def getMainRecordMbo():
-    '''public MboRemote getMainRecordMbo()
+    '''returns MboRemote\n\n
+    getMainRecordMbo()\n
     '''

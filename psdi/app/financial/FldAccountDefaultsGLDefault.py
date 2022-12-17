@@ -1,6 +1,8 @@
-def FldAccountDefaultsGLDefault():
-    '''public FldAccountDefaultsGLDefault(final MboValue mbv)
+def ():
+    '''returns FldAccountDefaultsGLDefault\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

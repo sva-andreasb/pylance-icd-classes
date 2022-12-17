@@ -1,6 +1,8 @@
-def DumpBaseTagInfoVisitor():
-    '''public DumpBaseTagInfoVisitor(final IProgressMonitor monitor)
+def ():
+    '''returns DumpBaseTagInfoVisitor\n\n
+    (final IProgressMonitor monitor)\n
     '''
 def visit():
-    '''public void visit(final BaseTag baseTag)
+    '''returns None\n\n
+    visit(final BaseTag baseTag)\n
     '''

@@ -1,24 +1,28 @@
-def CacheInfoRepository():
-    '''public CacheInfoRepository()
+def ():
+    '''returns CacheInfoRepository\n\n
+    ()\n
     '''
 def getMasterInfo():
-    '''public V getMasterInfo(final long id)
+    '''returns V\n\n
+    getMasterInfo(final long id)\n
     '''
 def getTenantInfo():
-    '''public V getTenantInfo(final long id)
+    '''returns V\n\n
+    getTenantInfo(final long id)\n
     '''
 def getResolvedInfo():
-    '''public V getResolvedInfo(final long id)
+    '''returns V\n\n
+    getResolvedInfo(final long id)\n
     '''
 def cacheInfo():
-    '''public void cacheInfo(final long id, final V info)
-    '''
-def removeAllTenantInfo():
-    '''public Map<Long, V> removeAllTenantInfo()
+    '''returns None\n\n
+    cacheInfo(final long id, final V info)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def removeTenantInfo():
-    '''public V removeTenantInfo(final long id)
+    '''returns V\n\n
+    removeTenantInfo(final long id)\n
     '''

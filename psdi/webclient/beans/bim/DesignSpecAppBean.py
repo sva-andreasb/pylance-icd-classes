@@ -1,15 +1,16 @@
-def DesignSpecAppBean():
-    '''public DesignSpecAppBean()
-    '''
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+def ():
+    '''returns DesignSpecAppBean\n\n
+    ()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def newComment():
-    '''public int newComment()
+    '''returns int\n\n
+    newComment()\n
     '''
 def reply():
-    '''public int reply()
+    '''returns int\n\n
+    reply()\n
     '''

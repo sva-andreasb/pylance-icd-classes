@@ -1,61 +1,56 @@
 PLUGIN_NAME = "String  \"Console\""
-def createAppender():
-    '''public static ConsoleAppender createAppender(Layout<? extends Serializable> layout, final Filter filter, final String targetStr, final String name, final String follow, final String ignore)
-    public static ConsoleAppender createAppender(Layout<? extends Serializable> layout, final Filter filter, Target target, final String name, final boolean follow, final boolean direct, final boolean ignoreExceptions)
-    '''
-def createDefaultAppenderForLayout():
-    '''public static ConsoleAppender createDefaultAppenderForLayout(final Layout<? extends Serializable> layout)
-    '''
-def newBuilder():
-    '''public static <B extends Builder<B>> B newBuilder()
-    '''
 def getTarget():
-    '''public Target getTarget()
+    '''returns Target\n\n
+    getTarget()\n
     '''
 def getDefaultCharset():
-    '''public Charset getDefaultCharset()
-    public Charset getDefaultCharset()
+    '''returns Charset\n\n
+    getDefaultCharset()\n
+    getDefaultCharset()\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns FactoryData\n\n
+    ()\n
+    ()\n
+    ()\n
+    (final OutputStream os, final String type, final Layout<? extends Serializable> layout)\n
     '''
 def setTarget():
-    '''public B setTarget(final Target aTarget)
+    '''returns B\n\n
+    setTarget(final Target aTarget)\n
     '''
 def setFollow():
-    '''public B setFollow(final boolean shouldFollow)
+    '''returns B\n\n
+    setFollow(final boolean shouldFollow)\n
     '''
 def setDirect():
-    '''public B setDirect(final boolean shouldDirect)
+    '''returns B\n\n
+    setDirect(final boolean shouldDirect)\n
     '''
 def build():
-    '''public ConsoleAppender build()
-    '''
-def SystemErrStream():
-    '''public SystemErrStream()
+    '''returns ConsoleAppender\n\n
+    build()\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
-    public void flush()
+    '''returns None\n\n
+    flush()\n
+    flush()\n
     '''
 def write():
-    '''public void write(final byte[] b)
-    public void write(final byte[] b, final int off, final int len)
-    public void write(final int b)
-    public void write(final byte[] b)
-    public void write(final byte[] b, final int off, final int len)
-    public void write(final int b)
-    '''
-def SystemOutStream():
-    '''public SystemOutStream()
-    '''
-def FactoryData():
-    '''public FactoryData(final OutputStream os, final String type, final Layout<? extends Serializable> layout)
+    '''returns None\n\n
+    write(final byte[] b)\n
+    write(final byte[] b, final int off, final int len)\n
+    write(final int b)\n
+    write(final byte[] b)\n
+    write(final byte[] b, final int off, final int len)\n
+    write(final int b)\n
     '''
 def createManager():
-    '''public OutputStreamManager createManager(final String name, final FactoryData data)
+    '''returns OutputStreamManager\n\n
+    createManager(final String name, final FactoryData data)\n
     '''

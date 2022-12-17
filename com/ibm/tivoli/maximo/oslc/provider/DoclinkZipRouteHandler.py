@@ -1,6 +1,8 @@
-def DoclinkZipRouteHandler():
-    '''public DoclinkZipRouteHandler()
+def ():
+    '''returns DoclinkZipRouteHandler\n\n
+    ()\n
     '''
 def handleRequest():
-    '''public OslcResourceResponse handleRequest(final OslcRequest request)
+    '''returns OslcResourceResponse\n\n
+    handleRequest(final OslcRequest request)\n
     '''

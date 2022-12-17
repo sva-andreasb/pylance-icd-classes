@@ -1,32 +1,42 @@
-def DarkGlassPane():
-    '''public DarkGlassPane()
-    public DarkGlassPane(final String message)
-    public DarkGlassPane(final String message, final Color backColor)
+def ():
+    '''returns DarkGlassPane\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Color backColor)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent e)
+    '''returns None\n\n
+    mouseExited(final MouseEvent e)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent e)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent e)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''
 def mouseMoved():
-    '''public void mouseMoved(final MouseEvent e)
+    '''returns None\n\n
+    mouseMoved(final MouseEvent e)\n
     '''
 def mouseDragged():
-    '''public void mouseDragged(final MouseEvent e)
+    '''returns None\n\n
+    mouseDragged(final MouseEvent e)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''

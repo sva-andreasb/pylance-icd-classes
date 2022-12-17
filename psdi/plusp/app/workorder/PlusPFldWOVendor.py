@@ -1,3 +1,4 @@
-def PlusPFldWOVendor():
-    '''public PlusPFldWOVendor(final MboValue arg0)
+def ():
+    '''returns PlusPFldWOVendor\n\n
+    (final MboValue arg0)\n
     '''

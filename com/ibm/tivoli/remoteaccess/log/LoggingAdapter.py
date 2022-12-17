@@ -1,21 +1,25 @@
 def text():
-    '''public void text(final Level level, final Object loggingClass, final String loggingMethod, final String text)
-    public void text(final Level level, final Object loggingClass, final String loggingMethod, final String text, final Object insert1)
-    public void text(final Level level, final Object loggingClass, final String loggingMethod, final String text, final Object insert1, final Object insert2)
+    '''returns None\n\n
+    text(final Level level, final Object loggingClass, final String loggingMethod, final String text)\n
+    text(final Level level, final Object loggingClass, final String loggingMethod, final String text, final Object insert1)\n
+    text(final Level level, final Object loggingClass, final String loggingMethod, final String text, final Object insert1, final Object insert2)\n
     '''
 def entry():
-    '''public void entry(final Level level, final Object loggingClass, final String loggingMethod, final Object[] parms)
-    public void entry(final Level level, final Object loggingClass, final String loggingMethod)
-    public void entry(final Level level, final Object loggingClass, final String loggingMethod, final Object parm1)
-    public void entry(final Level level, final Object loggingClass, final String loggingMethod, final Object parm1, final Object parm2)
+    '''returns None\n\n
+    entry(final Level level, final Object loggingClass, final String loggingMethod, final Object[] parms)\n
+    entry(final Level level, final Object loggingClass, final String loggingMethod)\n
+    entry(final Level level, final Object loggingClass, final String loggingMethod, final Object parm1)\n
+    entry(final Level level, final Object loggingClass, final String loggingMethod, final Object parm1, final Object parm2)\n
     '''
 def exception():
-    '''public void exception(final Level level, final Object loggingClass, final String loggingMethod, final Throwable throwable)
+    '''returns None\n\n
+    exception(final Level level, final Object loggingClass, final String loggingMethod, final Throwable throwable)\n
     '''
 def exit():
-    '''public void exit(final Level level, final Object loggingClass, final String loggingMethod)
-    public void exit(final Level level, final Object loggingClass, final String loggingMethod, final Object retValue)
-    public void exit(final Level level, final Object loggingClass, final String loggingMethod, final int retValue)
-    public void exit(final Level level, final Object loggingClass, final String loggingMethod, final long retValue)
-    public void exit(final Level level, final Object loggingClass, final String loggingMethod, final boolean retValue)
+    '''returns None\n\n
+    exit(final Level level, final Object loggingClass, final String loggingMethod)\n
+    exit(final Level level, final Object loggingClass, final String loggingMethod, final Object retValue)\n
+    exit(final Level level, final Object loggingClass, final String loggingMethod, final int retValue)\n
+    exit(final Level level, final Object loggingClass, final String loggingMethod, final long retValue)\n
+    exit(final Level level, final Object loggingClass, final String loggingMethod, final boolean retValue)\n
     '''

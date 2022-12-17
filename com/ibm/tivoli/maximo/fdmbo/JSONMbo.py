@@ -1,73 +1,94 @@
-def JSONMbo():
-    '''public JSONMbo(final MboSet ms)
+def ():
+    '''returns JSONMbo\n\n
+    (final MboSet ms)\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
-    public void setValue(final String attributeName, final boolean val, final long accessModifier)
-    public void setValue(final String attributeName, final byte val, final long accessModifier)
-    public void setValue(final String attributeName, final int val, final long accessModifier)
-    public void setValue(final String attributeName, final float val, final long accessModifier)
-    public void setValue(final String attributeName, final byte[] val, final long accessModifier)
-    public void setValue(final String attributeName, final Date val, final long accessModifier)
-    public void setValue(final String attributeName, final short val, final long accessModifier)
-    public void setValue(final String attributeName, final long val, final long accessModifier)
-    public void setValue(final String attributeName, final double val, final long accessModifier)
-    public void setValue(final String attributeName, final MaxType mboValue, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
+    setValue(final String attributeName, final boolean val, final long accessModifier)\n
+    setValue(final String attributeName, final byte val, final long accessModifier)\n
+    setValue(final String attributeName, final int val, final long accessModifier)\n
+    setValue(final String attributeName, final float val, final long accessModifier)\n
+    setValue(final String attributeName, final byte[] val, final long accessModifier)\n
+    setValue(final String attributeName, final Date val, final long accessModifier)\n
+    setValue(final String attributeName, final short val, final long accessModifier)\n
+    setValue(final String attributeName, final long val, final long accessModifier)\n
+    setValue(final String attributeName, final double val, final long accessModifier)\n
+    setValue(final String attributeName, final MaxType mboValue, final long accessModifier)\n
     '''
 def setValueNull():
-    '''public void setValueNull(final String attributeName, final long accessModifier)
+    '''returns None\n\n
+    setValueNull(final String attributeName, final long accessModifier)\n
     '''
 def checkForUpdate():
-    '''public boolean checkForUpdate(final String attributeName)
+    '''returns boolean\n\n
+    checkForUpdate(final String attributeName)\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def toBeAdded():
-    '''public boolean toBeAdded()
+    '''returns boolean\n\n
+    toBeAdded()\n
     '''
 def toBeUpdated():
-    '''public boolean toBeUpdated()
+    '''returns boolean\n\n
+    toBeUpdated()\n
     '''
 def isUpdated():
-    '''public boolean isUpdated()
+    '''returns boolean\n\n
+    isUpdated()\n
     '''
 def setUpdated():
-    '''public void setUpdated(final boolean updated)
+    '''returns None\n\n
+    setUpdated(final boolean updated)\n
     '''
 def createDocument():
-    '''public void createDocument()
+    '''returns None\n\n
+    createDocument()\n
     '''
 def updateDocument():
-    '''public void updateDocument()
+    '''returns None\n\n
+    updateDocument()\n
     '''
 def deleteDocument():
-    '''public void deleteDocument()
+    '''returns None\n\n
+    deleteDocument()\n
     '''
 def toJSON():
-    '''public JSONObject toJSON()
+    '''returns JSONObject\n\n
+    toJSON()\n
     '''
 def mbo2JSON():
-    '''public void mbo2JSON(final JSONObject jo, final JSONObjectInfo joInfo)
+    '''returns None\n\n
+    mbo2JSON(final JSONObject jo, final JSONObjectInfo joInfo)\n
     '''
 def setExistInCloud():
-    '''public void setExistInCloud(final boolean e)
+    '''returns None\n\n
+    setExistInCloud(final boolean e)\n
     '''
 def existInCloud():
-    '''public boolean existInCloud()
+    '''returns boolean\n\n
+    existInCloud()\n
     '''
 def setSetup():
-    '''public void setSetup(final boolean set)
+    '''returns None\n\n
+    setSetup(final boolean set)\n
     '''
 def isSetup():
-    '''public boolean isSetup()
+    '''returns boolean\n\n
+    isSetup()\n
     '''
 def getUniqueIDValue():
-    '''public long getUniqueIDValue()
+    '''returns long\n\n
+    getUniqueIDValue()\n
     '''
 def getHandler():
-    '''public HTTPHandler getHandler()
+    '''returns HTTPHandler\n\n
+    getHandler()\n
     '''

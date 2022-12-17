@@ -1,14 +1,18 @@
-def TreeBag():
-    '''public TreeBag()
-    public TreeBag(final Comparator<? super E> comparator)
-    public TreeBag(final Collection<? extends E> coll)
+def ():
+    '''returns TreeBag\n\n
+    ()\n
+    (final Comparator<? super E> comparator)\n
+    (final Collection<? extends E> coll)\n
     '''
 def add():
-    '''public boolean add(final E object)
+    '''returns boolean\n\n
+    add(final E object)\n
     '''
 def first():
-    '''public E first()
+    '''returns E\n\n
+    first()\n
     '''
 def last():
-    '''public E last()
+    '''returns E\n\n
+    last()\n
     '''

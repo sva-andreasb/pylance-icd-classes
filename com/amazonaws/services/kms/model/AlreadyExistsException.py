@@ -1,3 +1,4 @@
-def AlreadyExistsException():
-    '''public AlreadyExistsException(final String message)
+def ():
+    '''returns AlreadyExistsException\n\n
+    (final String message)\n
     '''

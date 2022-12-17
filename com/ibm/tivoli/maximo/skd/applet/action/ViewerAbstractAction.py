@@ -1,19 +1,24 @@
 SELECTED_KEY = "String  \"ViewerSelectedKey\""
-def ViewerAbstractAction():
-    '''public ViewerAbstractAction(final Viewer viewer, final String iD, final String name)
-    public ViewerAbstractAction(final Viewer viewer, final String iD, final String name, final Icon icon)
-    public ViewerAbstractAction(final Viewer viewer, final String iD, final String name, final Icon icon, final KeyStroke key)
-    public ViewerAbstractAction(final Viewer viewer, final String iD, final String name, final Icon icon, final KeyStroke key, final String shortDescription, final String longDescription)
+def ():
+    '''returns ViewerAbstractAction\n\n
+    (final Viewer viewer, final String iD, final String name)\n
+    (final Viewer viewer, final String iD, final String name, final Icon icon)\n
+    (final Viewer viewer, final String iD, final String name, final Icon icon, final KeyStroke key)\n
+    (final Viewer viewer, final String iD, final String name, final Icon icon, final KeyStroke key, final String shortDescription, final String longDescription)\n
     '''
 def getViewer():
-    '''public Viewer getViewer()
+    '''returns Viewer\n\n
+    getViewer()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def isAvailable():
-    '''public boolean isAvailable()
+    '''returns boolean\n\n
+    isAvailable()\n
     '''

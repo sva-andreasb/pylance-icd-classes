@@ -1,8 +1,10 @@
-def DiscoverServiceNames():
-    '''public DiscoverServiceNames()
-    public DiscoverServiceNames(final ClassLoaders loaders)
-    public DiscoverServiceNames(final ResourceDiscover discoverer)
+def ():
+    '''returns DiscoverServiceNames\n\n
+    ()\n
+    (final ClassLoaders loaders)\n
+    (final ResourceDiscover discoverer)\n
     '''
 def findResourceNames():
-    '''public ResourceNameIterator findResourceNames(final String serviceName)
+    '''returns ResourceNameIterator\n\n
+    findResourceNames(final String serviceName)\n
     '''

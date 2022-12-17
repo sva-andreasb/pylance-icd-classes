@@ -1,9 +1,12 @@
 def getActionParameterName():
-    '''public String getActionParameterName()
+    '''returns String\n\n
+    getActionParameterName()\n
     '''
 def setAction():
-    '''public void setAction(final String action)
+    '''returns None\n\n
+    setAction(final String action)\n
     '''
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''

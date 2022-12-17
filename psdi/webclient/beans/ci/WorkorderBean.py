@@ -1,9 +1,8 @@
-def WorkorderBean():
-    '''public WorkorderBean()
+def ():
+    '''returns WorkorderBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    initialize()\n
     '''

@@ -1,22 +1,29 @@
-def BucketTaggingConfiguration():
-    '''public BucketTaggingConfiguration()
-    public BucketTaggingConfiguration(final Collection<TagSet> tagSets)
+def ():
+    '''returns BucketTaggingConfiguration\n\n
+    ()\n
+    (final Collection<TagSet> tagSets)\n
     '''
 def withTagSets():
-    '''public BucketTaggingConfiguration withTagSets(final TagSet... tagSets)
+    '''returns BucketTaggingConfiguration\n\n
+    withTagSets(final TagSet... tagSets)\n
     '''
 def setTagSets():
-    '''public void setTagSets(final Collection<TagSet> tagSets)
+    '''returns None\n\n
+    setTagSets(final Collection<TagSet> tagSets)\n
     '''
 def getAllTagSets():
-    '''public List<TagSet> getAllTagSets()
+    '''returns List<TagSet>\n\n
+    getAllTagSets()\n
     '''
 def getTagSet():
-    '''public TagSet getTagSet()
+    '''returns TagSet\n\n
+    getTagSet()\n
     '''
 def getTagSetAtIndex():
-    '''public TagSet getTagSetAtIndex(final int index)
+    '''returns TagSet\n\n
+    getTagSetAtIndex(final int index)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,73 +1,94 @@
 def mapValueToField():
-    '''public void mapValueToField(final MboRemote sc, final MfMailControlContainer control, final MfMailValueContainer value)
+    '''returns None\n\n
+    mapValueToField(final MboRemote sc, final MfMailControlContainer control, final MfMailValueContainer value)\n
     '''
 def getCtrlCfgBaseName():
-    '''public String getCtrlCfgBaseName()
+    '''returns String\n\n
+    getCtrlCfgBaseName()\n
     '''
 def createControlEntry():
-    '''public MfMailControlContainer createControlEntry(final MboRemote ctrlCfg)
+    '''returns MfMailControlContainer\n\n
+    createControlEntry(final MboRemote ctrlCfg)\n
     '''
 def getValueCfgBaseName():
-    '''public String getValueCfgBaseName()
+    '''returns String\n\n
+    getValueCfgBaseName()\n
     '''
 def getValueAttributeName():
-    '''public String getValueAttributeName()
+    '''returns String\n\n
+    getValueAttributeName()\n
     '''
 def crateValueEntry():
-    '''public MfMailValueContainer crateValueEntry(final MboRemote valueCfg)
+    '''returns MfMailValueContainer\n\n
+    crateValueEntry(final MboRemote valueCfg)\n
     '''
 def getTargetTableBaseName():
-    '''public String getTargetTableBaseName()
+    '''returns String\n\n
+    getTargetTableBaseName()\n
     '''
 def getDeactiveWhereClause():
-    '''public String getDeactiveWhereClause(final MfMailCfgRemote config)
+    '''returns String\n\n
+    getDeactiveWhereClause(final MfMailCfgRemote config)\n
     '''
 def prepareObject():
-    '''public void prepareObject(final MfMailCfgRemote config)
+    '''returns None\n\n
+    prepareObject(final MfMailCfgRemote config)\n
     '''
 def getDeactivationCheckWhereClause():
-    '''public String getDeactivationCheckWhereClause(final MfMailCfgRemote config)
+    '''returns String\n\n
+    getDeactivationCheckWhereClause(final MfMailCfgRemote config)\n
     '''
 def getHasOtherActivatedCfgWhereClause():
-    '''public String getHasOtherActivatedCfgWhereClause(final MfMailCfgRemote config)
+    '''returns String\n\n
+    getHasOtherActivatedCfgWhereClause(final MfMailCfgRemote config)\n
     '''
-def Control():
-    '''public Control(final String commTemplate, final String attributes, final String status, final String sendTo, final String replyTemplateNoST)
+def ():
+    '''returns Value\n\n
+    (final String commTemplate, final String attributes, final String status, final String sendTo, final String replyTemplateNoST)\n
+    (final int position, final int value, final String nextStatus, final String replyTemplate)\n
     '''
 def getCommTemplate():
-    '''public String getCommTemplate()
+    '''returns String\n\n
+    getCommTemplate()\n
     '''
 def getOrigin():
-    '''public int getOrigin()
+    '''returns int\n\n
+    getOrigin()\n
     '''
 def getAttributes():
-    '''public String getAttributes()
+    '''returns String\n\n
+    getAttributes()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def getSendTo():
-    '''public String getSendTo()
+    '''returns String\n\n
+    getSendTo()\n
     '''
 def getReplyTemplateNoST():
-    '''public String getReplyTemplateNoST()
+    '''returns String\n\n
+    getReplyTemplateNoST()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def Value():
-    '''public Value(final int position, final int value, final String nextStatus, final String replyTemplate)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def getNextStatus():
-    '''public String getNextStatus()
+    '''returns String\n\n
+    getNextStatus()\n
     '''
 def getReplyTemplate():
-    '''public String getReplyTemplate()
+    '''returns String\n\n
+    getReplyTemplate()\n
     '''

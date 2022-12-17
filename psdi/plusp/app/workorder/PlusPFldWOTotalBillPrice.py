@@ -1,6 +1,8 @@
-def PlusPFldWOTotalBillPrice():
-    '''public PlusPFldWOTotalBillPrice(final MboValue mbv)
+def ():
+    '''returns PlusPFldWOTotalBillPrice\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

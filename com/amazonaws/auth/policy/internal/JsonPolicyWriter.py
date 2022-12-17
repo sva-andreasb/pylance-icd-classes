@@ -1,25 +1,29 @@
-def JsonPolicyWriter():
-    '''public JsonPolicyWriter()
+def ():
+    '''returns ConditionsByKey\n\n
+    ()\n
+    ()\n
     '''
 def writePolicyToString():
-    '''public String writePolicyToString(final Policy policy)
-    '''
-def ConditionsByKey():
-    '''public ConditionsByKey()
-    '''
-def getConditionsByKey():
-    '''public Map<String, List<String>> getConditionsByKey()
-    public List<String> getConditionsByKey(final String key)
+    '''returns String\n\n
+    writePolicyToString(final Policy policy)\n
     '''
 def setConditionsByKey():
-    '''public void setConditionsByKey(final Map<String, List<String>> conditionsByKey)
+    '''returns None\n\n
+    setConditionsByKey(final Map<String, List<String>> conditionsByKey)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String key)
+    '''returns boolean\n\n
+    containsKey(final String key)\n
+    '''
+def getConditionsByKey():
+    '''returns List<String>\n\n
+    getConditionsByKey(final String key)\n
     '''
 def keySet():
-    '''public Set<String> keySet()
+    '''returns Set<String>\n\n
+    keySet()\n
     '''
 def addValuesToKey():
-    '''public void addValuesToKey(final String key, final List<String> values)
+    '''returns None\n\n
+    addValuesToKey(final String key, final List<String> values)\n
     '''

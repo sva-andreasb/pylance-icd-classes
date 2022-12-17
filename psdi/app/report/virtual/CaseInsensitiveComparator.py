@@ -1,3 +1,4 @@
 def compare():
-    '''public int compare(final Object element1, final Object element2)
+    '''returns int\n\n
+    compare(final Object element1, final Object element2)\n
     '''

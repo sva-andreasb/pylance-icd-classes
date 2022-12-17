@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloRuleTemplateHandler():
-    '''public IloRuleTemplateHandler(final IloDefaultRecursiveHandler previous, final Attributes attrs, final IloSchemaProvider schemaProvider)
+def ():
+    '''returns IloRuleTemplateHandler\n\n
+    (final IloDefaultRecursiveHandler previous, final Attributes attrs, final IloSchemaProvider schemaProvider)\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''
 def getRuleTemplate():
-    '''public IloRuleTemplate getRuleTemplate()
+    '''returns IloRuleTemplate\n\n
+    getRuleTemplate()\n
     '''

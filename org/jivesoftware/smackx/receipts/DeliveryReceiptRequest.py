@@ -1,22 +1,17 @@
 ELEMENT = "String  \"request\""
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
-    '''
-def getFrom():
-    '''public static DeliveryReceiptRequest getFrom(final Stanza p)
-    '''
-def from():
-    '''public static DeliveryReceiptRequest from(final Stanza packet)
-    '''
-def addTo():
-    '''public static String addTo(final Message message)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def parse():
-    '''public DeliveryReceiptRequest parse(final XmlPullParser parser, final int initialDepth)
+    '''returns DeliveryReceiptRequest\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

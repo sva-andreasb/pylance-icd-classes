@@ -1,56 +1,57 @@
 NODENAME = "String  \"candidate\""
 NAMESPACE = "String  \"http://www.xmpp.org/extensions/xep-0177.html#ns\""
-def JingleTransport():
-    '''public JingleTransport()
-    public JingleTransport(final JingleTransportCandidate candidate)
-    public JingleTransport(final JingleTransport tr)
+def ():
+    '''returns Candidate\n\n
+    ()\n
+    (final JingleTransportCandidate candidate)\n
+    (final JingleTransport tr)\n
+    ()\n
+    (final TransportCandidate candidate)\n
+    ()\n
+    ()\n
+    (final TransportCandidate tc)\n
+    ()\n
+    ()\n
+    (final TransportCandidate tc)\n
     '''
 def addCandidate():
-    '''public void addCandidate(final JingleTransportCandidate candidate)
-    public void addCandidate(final JingleTransportCandidate candidate)
-    public void addCandidate(final JingleTransportCandidate candidate)
+    '''returns None\n\n
+    addCandidate(final JingleTransportCandidate candidate)\n
+    addCandidate(final JingleTransportCandidate candidate)\n
+    addCandidate(final JingleTransportCandidate candidate)\n
     '''
 def getCandidates():
-    '''public Iterator<JingleTransportCandidate> getCandidates()
+    '''returns Iterator<JingleTransportCandidate>\n\n
+    getCandidates()\n
     '''
 def getCandidatesList():
-    '''public List<JingleTransportCandidate> getCandidatesList()
-    public List<JingleTransportCandidate> getCandidatesList()
-    public List<JingleTransportCandidate> getCandidatesList()
+    '''returns List<JingleTransportCandidate>\n\n
+    getCandidatesList()\n
+    getCandidatesList()\n
+    getCandidatesList()\n
     '''
 def getCandidatesCount():
-    '''public int getCandidatesCount()
+    '''returns int\n\n
+    getCandidatesCount()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public static String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
-    public String toXML()
-    '''
-def JingleTransportCandidate():
-    '''public JingleTransportCandidate()
-    public JingleTransportCandidate(final TransportCandidate candidate)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML()\n
     '''
 def getMediaTransport():
-    '''public TransportCandidate getMediaTransport()
+    '''returns TransportCandidate\n\n
+    getMediaTransport()\n
     '''
 def setMediaTransport():
-    '''public void setMediaTransport(final TransportCandidate cand)
-    '''
-def Ice():
-    '''public Ice()
-    '''
-def Candidate():
-    '''public Candidate()
-    public Candidate(final TransportCandidate tc)
-    public Candidate()
-    public Candidate(final TransportCandidate tc)
-    '''
-def RawUdp():
-    '''public RawUdp()
+    '''returns None\n\n
+    setMediaTransport(final TransportCandidate cand)\n
     '''

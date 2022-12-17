@@ -1,10 +1,13 @@
-def Ol():
-    '''public Ol()
-    public Ol(final m m)
+def ():
+    '''returns Ol\n\n
+    ()\n
+    (final m m)\n
     '''
 def compare():
-    '''public int compare(final File file1, final File file2)
+    '''returns int\n\n
+    compare(final File file1, final File file2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

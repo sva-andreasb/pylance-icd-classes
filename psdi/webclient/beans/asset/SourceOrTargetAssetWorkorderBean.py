@@ -1,3 +1,4 @@
-def SourceOrTargetAssetWorkorderBean():
-    '''public SourceOrTargetAssetWorkorderBean()
+def ():
+    '''returns SourceOrTargetAssetWorkorderBean\n\n
+    ()\n
     '''

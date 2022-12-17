@@ -1,9 +1,12 @@
-def JavaScriptProtectionDomain():
-    '''public JavaScriptProtectionDomain(final PermissionCollection perms)
+def ():
+    '''returns JavaScriptProtectionDomain\n\n
+    (final PermissionCollection perms)\n
     '''
 def implies():
-    '''public boolean implies(final Permission permission)
+    '''returns boolean\n\n
+    implies(final Permission permission)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

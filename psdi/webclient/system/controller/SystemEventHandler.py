@@ -1,120 +1,160 @@
 def loadapp():
-    '''public int loadapp()
+    '''returns int\n\n
+    loadapp()\n
     '''
 def leavesession():
-    '''public int leavesession()
+    '''returns int\n\n
+    leavesession()\n
     '''
 def rerender():
-    '''public int rerender()
+    '''returns int\n\n
+    rerender()\n
     '''
 def gotoapp():
-    '''public int gotoapp()
+    '''returns int\n\n
+    gotoapp()\n
     '''
 def resetui():
-    '''public int resetui()
+    '''returns int\n\n
+    resetui()\n
     '''
 def clearqueue():
-    '''public int clearqueue()
+    '''returns int\n\n
+    clearqueue()\n
     '''
 def changeapp():
-    '''public int changeapp()
+    '''returns int\n\n
+    changeapp()\n
     '''
 def execevent():
-    '''public int execevent()
+    '''returns int\n\n
+    execevent()\n
     '''
 def startcenter():
-    '''public int startcenter()
+    '''returns int\n\n
+    startcenter()\n
     '''
 def setWebClientSession():
-    '''public void setWebClientSession(final WebClientSession wcs)
+    '''returns None\n\n
+    setWebClientSession(final WebClientSession wcs)\n
     '''
 def showwarnings():
-    '''public int showwarnings()
+    '''returns int\n\n
+    showwarnings()\n
     '''
 def downloadtable():
-    '''public int downloadtable()
+    '''returns int\n\n
+    downloadtable()\n
     '''
 def signout():
-    '''public int signout()
+    '''returns int\n\n
+    signout()\n
     '''
 def DEFAULT():
-    '''public int DEFAULT()
+    '''returns int\n\n
+    DEFAULT()\n
     '''
 def PASSWORD():
-    '''public int PASSWORD()
+    '''returns int\n\n
+    PASSWORD()\n
     '''
 def PERSONAL():
-    '''public int PERSONAL()
+    '''returns int\n\n
+    PERSONAL()\n
     '''
 def helpabout():
-    '''public int helpabout()
+    '''returns int\n\n
+    helpabout()\n
     '''
 def importapp():
-    '''public int importapp()
+    '''returns int\n\n
+    importapp()\n
     '''
 def exportsqlall():
-    '''public int exportsqlall()
+    '''returns int\n\n
+    exportsqlall()\n
     '''
 def exportsql():
-    '''public int exportsql()
+    '''returns int\n\n
+    exportsql()\n
     '''
 def exportxml():
-    '''public int exportxml()
+    '''returns int\n\n
+    exportxml()\n
     '''
 def exportall():
-    '''public int exportall()
+    '''returns int\n\n
+    exportall()\n
     '''
 def maximohelp():
-    '''public int maximohelp()
+    '''returns int\n\n
+    maximohelp()\n
     '''
 def apphelp():
-    '''public int apphelp()
+    '''returns int\n\n
+    apphelp()\n
     '''
 def morefieldhelp():
-    '''public int morefieldhelp()
+    '''returns int\n\n
+    morefieldhelp()\n
     '''
 def starttracking():
-    '''public int starttracking()
+    '''returns int\n\n
+    starttracking()\n
     '''
 def stoptracking():
-    '''public int stoptracking()
+    '''returns int\n\n
+    stoptracking()\n
     '''
 def clearstats():
-    '''public int clearstats()
+    '''returns int\n\n
+    clearstats()\n
     '''
 def viewstats():
-    '''public int viewstats()
+    '''returns int\n\n
+    viewstats()\n
     '''
 def LISTWARNING():
-    '''public int LISTWARNING()
+    '''returns int\n\n
+    LISTWARNING()\n
     '''
 def WFACTION():
-    '''public int WFACTION()
+    '''returns int\n\n
+    WFACTION()\n
     '''
 def uploadfile():
-    '''public int uploadfile()
+    '''returns int\n\n
+    uploadfile()\n
     '''
 def uploadimage():
-    '''public int uploadimage()
+    '''returns int\n\n
+    uploadimage()\n
     '''
 def LAUNCHENTRYDIRECT():
-    '''public int LAUNCHENTRYDIRECT()
+    '''returns int\n\n
+    LAUNCHENTRYDIRECT()\n
     '''
 def stoplongopquery():
-    '''public int stoplongopquery()
+    '''returns int\n\n
+    stoplongopquery()\n
     '''
 def COGNOSHOME():
-    '''public int COGNOSHOME()
+    '''returns int\n\n
+    COGNOSHOME()\n
     '''
 def movetorecordbyid():
-    '''public int movetorecordbyid()
+    '''returns int\n\n
+    movetorecordbyid()\n
     '''
 def oslcpreviewinteraction():
-    '''public int oslcpreviewinteraction()
+    '''returns int\n\n
+    oslcpreviewinteraction()\n
     '''
 def oslcinteraction():
-    '''public int oslcinteraction()
+    '''returns int\n\n
+    oslcinteraction()\n
     '''
 def setleftnavwidth():
-    '''public int setleftnavwidth()
+    '''returns int\n\n
+    setleftnavwidth()\n
     '''

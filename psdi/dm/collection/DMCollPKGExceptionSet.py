@@ -1,3 +1,4 @@
-def DMCollPKGExceptionSet():
-    '''public DMCollPKGExceptionSet(final MboServerInterface ms)
+def ():
+    '''returns DMCollPKGExceptionSet\n\n
+    (final MboServerInterface ms)\n
     '''

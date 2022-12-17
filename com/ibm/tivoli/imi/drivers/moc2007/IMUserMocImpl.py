@@ -1,27 +1,36 @@
 def isConferenStarted():
-    '''public boolean isConferenStarted()
+    '''returns boolean\n\n
+    isConferenStarted()\n
     '''
 def setConferenStarted():
-    '''public void setConferenStarted(final boolean conferenStarted)
+    '''returns None\n\n
+    setConferenStarted(final boolean conferenStarted)\n
     '''
 def getConfId():
-    '''public String getConfId()
+    '''returns String\n\n
+    getConfId()\n
     '''
 def setConfId():
-    '''public void setConfId(final String confId)
+    '''returns None\n\n
+    setConfId(final String confId)\n
     '''
 def getTicketId():
-    '''public String getTicketId()
+    '''returns String\n\n
+    getTicketId()\n
     '''
 def setTicketId():
-    '''public void setTicketId(final String ticketId)
+    '''returns None\n\n
+    setTicketId(final String ticketId)\n
     '''
-def IMUserMocImpl():
-    '''public IMUserMocImpl(final String userId, final String displayName)
+def ():
+    '''returns IMUserMocImpl\n\n
+    (final String userId, final String displayName)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''

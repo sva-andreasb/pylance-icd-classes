@@ -1,9 +1,12 @@
-def FldJobTaskJPTask():
-    '''public FldJobTaskJPTask(final MboValue mbv)
+def ():
+    '''returns FldJobTaskJPTask\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

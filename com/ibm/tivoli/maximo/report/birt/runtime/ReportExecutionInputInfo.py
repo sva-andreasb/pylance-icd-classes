@@ -4,60 +4,79 @@ OUTPUT_FORMAT_XLS = "String  \"xls\""
 OUTPUT_FORMAT_XLSX = "String  \"xlsx\""
 OUTPUT_FORMAT_XLS_SPUDSOFT = "String  \"xls_spudsoft\""
 OUTPUT_FORMAT_CSV = "String  \"csv\""
-def ReportExecutionInputInfo():
-    '''public ReportExecutionInputInfo()
+def ():
+    '''returns ReportExecutionInputInfo\n\n
+    ()\n
     '''
 def getOutputFileName():
-    '''public String getOutputFileName()
+    '''returns String\n\n
+    getOutputFileName()\n
     '''
 def setOutputFileName():
-    '''public void setOutputFileName(final String outputFileName)
+    '''returns None\n\n
+    setOutputFileName(final String outputFileName)\n
     '''
 def getOutputFolderName():
-    '''public String getOutputFolderName()
+    '''returns String\n\n
+    getOutputFolderName()\n
     '''
 def setOutputFolderName():
-    '''public void setOutputFolderName(final String outputFolderName)
+    '''returns None\n\n
+    setOutputFolderName(final String outputFolderName)\n
     '''
 def getOutputFormat():
-    '''public String getOutputFormat()
+    '''returns String\n\n
+    getOutputFormat()\n
     '''
 def setOutputFormat():
-    '''public void setOutputFormat(final String outputFormat)
+    '''returns None\n\n
+    setOutputFormat(final String outputFormat)\n
     '''
 def getReportFileName():
-    '''public String getReportFileName()
+    '''returns String\n\n
+    getReportFileName()\n
     '''
 def setReportFileName():
-    '''public void setReportFileName(final String reportFileName)
+    '''returns None\n\n
+    setReportFileName(final String reportFileName)\n
     '''
 def getJdbcConnectionProvider():
-    '''public ReportJdbcConnectionProvider getJdbcConnectionProvider()
+    '''returns ReportJdbcConnectionProvider\n\n
+    getJdbcConnectionProvider()\n
     '''
 def setJdbcConnectionProvider():
-    '''public void setJdbcConnectionProvider(final ReportJdbcConnectionProvider jdbcConnectionProvider)
+    '''returns None\n\n
+    setJdbcConnectionProvider(final ReportJdbcConnectionProvider jdbcConnectionProvider)\n
     '''
 def getReportExecutionParameterData():
-    '''public ReportExecutionParameterData getReportExecutionParameterData()
+    '''returns ReportExecutionParameterData\n\n
+    getReportExecutionParameterData()\n
     '''
 def setReportExecutionParameterData():
-    '''public void setReportExecutionParameterData(final ReportExecutionParameterData reportParameterData)
+    '''returns None\n\n
+    setReportExecutionParameterData(final ReportExecutionParameterData reportParameterData)\n
     '''
 def getMxReportContext():
-    '''public Map getMxReportContext()
+    '''returns Map\n\n
+    getMxReportContext()\n
     '''
 def setMxReportContext():
-    '''public void setMxReportContext(final Map mxReportContext)
+    '''returns None\n\n
+    setMxReportContext(final Map mxReportContext)\n
     '''
 def getLocaleString():
-    '''public String getLocaleString()
+    '''returns String\n\n
+    getLocaleString()\n
     '''
 def setLocaleString():
-    '''public void setLocaleString(final String localeString)
+    '''returns None\n\n
+    setLocaleString(final String localeString)\n
     '''
 def getReportJobId():
-    '''public long getReportJobId()
+    '''returns long\n\n
+    getReportJobId()\n
     '''
 def setReportJobId():
-    '''public void setReportJobId(final long reportJobId)
+    '''returns None\n\n
+    setReportJobId(final long reportJobId)\n
     '''

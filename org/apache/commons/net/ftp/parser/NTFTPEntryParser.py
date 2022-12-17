@@ -1,10 +1,13 @@
-def NTFTPEntryParser():
-    '''public NTFTPEntryParser()
-    public NTFTPEntryParser(final FTPClientConfig config)
+def ():
+    '''returns NTFTPEntryParser\n\n
+    ()\n
+    (final FTPClientConfig config)\n
     '''
 def parseFTPEntry():
-    '''public FTPFile parseFTPEntry(final String entry)
+    '''returns FTPFile\n\n
+    parseFTPEntry(final String entry)\n
     '''
 def getDefaultConfiguration():
-    '''public FTPClientConfig getDefaultConfiguration()
+    '''returns FTPClientConfig\n\n
+    getDefaultConfiguration()\n
     '''

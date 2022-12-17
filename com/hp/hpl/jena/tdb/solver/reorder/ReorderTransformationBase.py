@@ -1,9 +1,8 @@
 def reorder():
-    '''public BasicPattern reorder(final BasicPattern pattern)
-    '''
-def reorderIndexes():
-    '''public final ReorderProc reorderIndexes(final BasicPattern pattern)
+    '''returns BasicPattern\n\n
+    reorder(final BasicPattern pattern)\n
     '''
 def convert():
-    '''public PatternTriple convert(final Triple triple)
+    '''returns PatternTriple\n\n
+    convert(final Triple triple)\n
     '''

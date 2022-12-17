@@ -1,6 +1,8 @@
-def SniffedXmlInputStream():
-    '''public SniffedXmlInputStream(final InputStream stream)
+def ():
+    '''returns SniffedXmlInputStream\n\n
+    (final InputStream stream)\n
     '''
 def getXmlEncoding():
-    '''public String getXmlEncoding()
+    '''returns String\n\n
+    getXmlEncoding()\n
     '''

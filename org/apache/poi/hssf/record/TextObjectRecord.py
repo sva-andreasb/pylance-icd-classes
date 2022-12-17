@@ -11,49 +11,64 @@ TEXT_ORIENTATION_NONE = "short  0"
 TEXT_ORIENTATION_TOP_TO_BOTTOM = "short  1"
 TEXT_ORIENTATION_ROT_RIGHT = "short  2"
 TEXT_ORIENTATION_ROT_LEFT = "short  3"
-def TextObjectRecord():
-    '''public TextObjectRecord()
-    public TextObjectRecord(final RecordInputStream in)
+def ():
+    '''returns TextObjectRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def setHorizontalTextAlignment():
-    '''public void setHorizontalTextAlignment(final int value)
+    '''returns None\n\n
+    setHorizontalTextAlignment(final int value)\n
     '''
 def getHorizontalTextAlignment():
-    '''public int getHorizontalTextAlignment()
+    '''returns int\n\n
+    getHorizontalTextAlignment()\n
     '''
 def setVerticalTextAlignment():
-    '''public void setVerticalTextAlignment(final int value)
+    '''returns None\n\n
+    setVerticalTextAlignment(final int value)\n
     '''
 def getVerticalTextAlignment():
-    '''public int getVerticalTextAlignment()
+    '''returns int\n\n
+    getVerticalTextAlignment()\n
     '''
 def setTextLocked():
-    '''public void setTextLocked(final boolean value)
+    '''returns None\n\n
+    setTextLocked(final boolean value)\n
     '''
 def isTextLocked():
-    '''public boolean isTextLocked()
+    '''returns boolean\n\n
+    isTextLocked()\n
     '''
 def getTextOrientation():
-    '''public int getTextOrientation()
+    '''returns int\n\n
+    getTextOrientation()\n
     '''
 def setTextOrientation():
-    '''public void setTextOrientation(final int textOrientation)
+    '''returns None\n\n
+    setTextOrientation(final int textOrientation)\n
     '''
 def getStr():
-    '''public HSSFRichTextString getStr()
+    '''returns HSSFRichTextString\n\n
+    getStr()\n
     '''
 def setStr():
-    '''public void setStr(final HSSFRichTextString str)
+    '''returns None\n\n
+    setStr(final HSSFRichTextString str)\n
     '''
 def getLinkRefPtg():
-    '''public Ptg getLinkRefPtg()
+    '''returns Ptg\n\n
+    getLinkRefPtg()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

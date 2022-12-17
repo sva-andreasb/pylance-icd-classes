@@ -1,80 +1,99 @@
 ELEMENT = "String  \"si\""
 NAMESPACE = "String  \"http://jabber.org/protocol/si\""
-def StreamInitiation():
-    '''public StreamInitiation()
+def ():
+    '''returns Feature\n\n
+    ()\n
+    (final String name, final long size)\n
+    (final DataForm data)\n
     '''
 def setSessionID():
-    '''public void setSessionID(final String id)
+    '''returns None\n\n
+    setSessionID(final String id)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def setMimeType():
-    '''public void setMimeType(final String mimeType)
+    '''returns None\n\n
+    setMimeType(final String mimeType)\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def setFeatureNegotiationForm():
-    '''public void setFeatureNegotiationForm(final DataForm form)
+    '''returns None\n\n
+    setFeatureNegotiationForm(final DataForm form)\n
     '''
 def getFeatureNegotiationForm():
-    '''public DataForm getFeatureNegotiationForm()
-    '''
-def File():
-    '''public File(final String name, final long size)
+    '''returns DataForm\n\n
+    getFeatureNegotiationForm()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def setHash():
-    '''public void setHash(final String hash)
+    '''returns None\n\n
+    setHash(final String hash)\n
     '''
 def getHash():
-    '''public String getHash()
+    '''returns String\n\n
+    getHash()\n
     '''
 def setDate():
-    '''public void setDate(final Date date)
+    '''returns None\n\n
+    setDate(final Date date)\n
     '''
 def getDate():
-    '''public Date getDate()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def setDesc():
-    '''public void setDesc(final String desc)
+    '''returns None\n\n
+    setDesc(final String desc)\n
     '''
 def getDesc():
-    '''public String getDesc()
+    '''returns String\n\n
+    getDesc()\n
     '''
 def setRanged():
-    '''public void setRanged(final boolean isRanged)
+    '''returns None\n\n
+    setRanged(final boolean isRanged)\n
     '''
 def isRanged():
-    '''public boolean isRanged()
+    '''returns boolean\n\n
+    isRanged()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
-    public String toXML(final String enclosingNamespace)
-    '''
-def Feature():
-    '''public Feature(final DataForm data)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getData():
-    '''public DataForm getData()
+    '''returns DataForm\n\n
+    getData()\n
     '''

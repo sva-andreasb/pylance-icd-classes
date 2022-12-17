@@ -1,9 +1,12 @@
-def LoaderSpec():
-    '''public LoaderSpec(final ModelLoaderBase loader)
+def ():
+    '''returns LoaderSpec\n\n
+    (final ModelLoaderBase loader)\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemTYPE type, final MboSetRemote typeSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemTYPE type, final MboSetRemote typeSet)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo, final ItemTYPE type)
+    '''returns None\n\n
+    update(final MboRemote mbo, final ItemTYPE type)\n
     '''

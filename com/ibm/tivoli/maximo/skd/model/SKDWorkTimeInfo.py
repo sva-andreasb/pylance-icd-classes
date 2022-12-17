@@ -1,57 +1,76 @@
-def SKDWorkTimeInfo():
-    '''public SKDWorkTimeInfo()
+def ():
+    '''returns SKDWorkTimeInfo\n\n
+    ()\n
     '''
 def setStartTime():
-    '''public void setStartTime(final Date starTime)
+    '''returns None\n\n
+    setStartTime(final Date starTime)\n
     '''
 def setEndTime():
-    '''public void setEndTime(final Date endTime)
+    '''returns None\n\n
+    setEndTime(final Date endTime)\n
     '''
 def setWorkHour():
-    '''public void setWorkHour(final double workHour)
+    '''returns None\n\n
+    setWorkHour(final double workHour)\n
     '''
 def setPatternApplied():
-    '''public void setPatternApplied(final boolean isPatternApplied)
+    '''returns None\n\n
+    setPatternApplied(final boolean isPatternApplied)\n
     '''
 def getStartTime():
-    '''public Date getStartTime()
+    '''returns Date\n\n
+    getStartTime()\n
     '''
 def getEndTime():
-    '''public Date getEndTime()
+    '''returns Date\n\n
+    getEndTime()\n
     '''
 def getWorkHour():
-    '''public double getWorkHour()
+    '''returns double\n\n
+    getWorkHour()\n
     '''
 def isPatternApplied():
-    '''public boolean isPatternApplied()
+    '''returns boolean\n\n
+    isPatternApplied()\n
     '''
 def isInPattern():
-    '''public boolean isInPattern()
+    '''returns boolean\n\n
+    isInPattern()\n
     '''
 def setInPattern():
-    '''public void setInPattern(final boolean inPattern)
+    '''returns None\n\n
+    setInPattern(final boolean inPattern)\n
     '''
 def isNullWorkHour():
-    '''public boolean isNullWorkHour()
+    '''returns boolean\n\n
+    isNullWorkHour()\n
     '''
 def setNullWorkHour():
-    '''public void setNullWorkHour(final boolean nullWorkHour)
+    '''returns None\n\n
+    setNullWorkHour(final boolean nullWorkHour)\n
     '''
 def getPatternStartDayAsInt():
-    '''public int getPatternStartDayAsInt()
+    '''returns int\n\n
+    getPatternStartDayAsInt()\n
     '''
 def setPatternStartDayAsInt():
-    '''public void setPatternStartDayAsInt(final int dayInt)
+    '''returns None\n\n
+    setPatternStartDayAsInt(final int dayInt)\n
     '''
 def getPatternIndexForWorkDay():
-    '''public int getPatternIndexForWorkDay()
+    '''returns int\n\n
+    getPatternIndexForWorkDay()\n
     '''
 def setPatternIndexForWorkDay():
-    '''public void setPatternIndexForWorkDay(final int dayInt)
+    '''returns None\n\n
+    setPatternIndexForWorkDay(final int dayInt)\n
     '''
 def setPatternEndDayAsInt():
-    '''public void setPatternEndDayAsInt(final int dayInt)
+    '''returns None\n\n
+    setPatternEndDayAsInt(final int dayInt)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

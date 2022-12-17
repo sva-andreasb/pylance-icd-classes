@@ -1,39 +1,51 @@
 SOURCE_WORKORDER = "String  \"WO\""
 SOURCE_WORKPLAN = "String  \"WP\""
 SOURCE_SAFETYPLAN = "String  \"SP\""
-def WoSafetyLinkSet():
-    '''public WoSafetyLinkSet(final MboServerInterface ms)
+def ():
+    '''returns WoSafetyLinkSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setThisRelationName():
-    '''public void setThisRelationName(final String relName)
+    '''returns None\n\n
+    setThisRelationName(final String relName)\n
     '''
 def getThisRelationName():
-    '''public String getThisRelationName()
+    '''returns String\n\n
+    getThisRelationName()\n
     '''
 def copyHazardFromSafetyLexicon():
-    '''public void copyHazardFromSafetyLexicon(final MboRemote safetylex, final String dataSource, final MboSetRemote woHazardSet, final MboSetRemote woHazardPrecSet, final MboSetRemote woPrecautionSet)
+    '''returns None\n\n
+    copyHazardFromSafetyLexicon(final MboRemote safetylex, final String dataSource, final MboSetRemote woHazardSet, final MboSetRemote woHazardPrecSet, final MboSetRemote woPrecautionSet)\n
     '''
 def copyHazard():
-    '''public MboRemote copyHazard(final String hazardid, final String assetnum, final String location, final String dataSource, final MboSetRemote woHazardSet, final MboSetRemote woHazardPrecSet, final MboSetRemote woPrecautionSet)
+    '''returns MboRemote\n\n
+    copyHazard(final String hazardid, final String assetnum, final String location, final String dataSource, final MboSetRemote woHazardSet, final MboSetRemote woHazardPrecSet, final MboSetRemote woPrecautionSet)\n
     '''
 def addHazardSafetyLink():
-    '''public MboRemote addHazardSafetyLink(final String hazardID, final String assetnum, final String location, final String dataSource, final MboSetRemote woHazardSet)
+    '''returns MboRemote\n\n
+    addHazardSafetyLink(final String hazardID, final String assetnum, final String location, final String dataSource, final MboSetRemote woHazardSet)\n
     '''
 def copyTagOutFromSafetyLexicon():
-    '''public void copyTagOutFromSafetyLexicon(final MboRemote safetylex, final String dataSource, final MboSetRemote woTagOutSet, final MboSetRemote woTagLockSet, final MboSetRemote woLockOutSet)
+    '''returns None\n\n
+    copyTagOutFromSafetyLexicon(final MboRemote safetylex, final String dataSource, final MboSetRemote woTagOutSet, final MboSetRemote woTagLockSet, final MboSetRemote woLockOutSet)\n
     '''
 def addTagOutSafetyLink():
-    '''public MboRemote[] addTagOutSafetyLink(final String hazardID, final String tagoutID, final String assetnum, final String location, final String applyseq, final String removeseq, final String dataSource, final MboSetRemote woTagOutSet)
+    '''returns MboRemote[]\n\n
+    addTagOutSafetyLink(final String hazardID, final String tagoutID, final String assetnum, final String location, final String applyseq, final String removeseq, final String dataSource, final MboSetRemote woTagOutSet)\n
     '''
 def clearSafetyPlanLinks():
-    '''public void clearSafetyPlanLinks()
+    '''returns None\n\n
+    clearSafetyPlanLinks()\n
     '''
 def removeHazardousMaterialLink():
-    '''public void removeHazardousMaterialLink(final String hazardID, final String dataSource)
+    '''returns None\n\n
+    removeHazardousMaterialLink(final String hazardID, final String dataSource)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def setHazardTagOutBeingDeleted():
-    '''public void setHazardTagOutBeingDeleted(final boolean beingDeleted)
+    '''returns None\n\n
+    setHazardTagOutBeingDeleted(final boolean beingDeleted)\n
     '''

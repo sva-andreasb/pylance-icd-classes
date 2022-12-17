@@ -1,30 +1,40 @@
-def VFreeBusyUserAgent():
-    '''public VFreeBusyUserAgent(final ProdId prodId, final Organizer organizer, final UidGenerator uidGenerator)
+def ():
+    '''returns VFreeBusyUserAgent\n\n
+    (final ProdId prodId, final Organizer organizer, final UidGenerator uidGenerator)\n
     '''
 def publish():
-    '''public Calendar publish(final VFreeBusy... component)
+    '''returns Calendar\n\n
+    publish(final VFreeBusy... component)\n
     '''
 def request():
-    '''public Calendar request(final VFreeBusy... component)
+    '''returns Calendar\n\n
+    request(final VFreeBusy... component)\n
     '''
 def delegate():
-    '''public Calendar delegate(final Calendar request)
+    '''returns Calendar\n\n
+    delegate(final Calendar request)\n
     '''
 def reply():
-    '''public Calendar reply(final Calendar request)
+    '''returns Calendar\n\n
+    reply(final Calendar request)\n
     '''
 def add():
-    '''public Calendar add(final VFreeBusy component)
+    '''returns Calendar\n\n
+    add(final VFreeBusy component)\n
     '''
 def cancel():
-    '''public Calendar cancel(final VFreeBusy... component)
+    '''returns Calendar\n\n
+    cancel(final VFreeBusy... component)\n
     '''
 def refresh():
-    '''public Calendar refresh(final VFreeBusy component)
+    '''returns Calendar\n\n
+    refresh(final VFreeBusy component)\n
     '''
 def counter():
-    '''public Calendar counter(final Calendar request)
+    '''returns Calendar\n\n
+    counter(final Calendar request)\n
     '''
 def declineCounter():
-    '''public Calendar declineCounter(final Calendar counter)
+    '''returns Calendar\n\n
+    declineCounter(final Calendar counter)\n
     '''

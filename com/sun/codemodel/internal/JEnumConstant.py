@@ -1,25 +1,29 @@
 def arg():
-    '''public JEnumConstant arg(final JExpression arg)
+    '''returns JEnumConstant\n\n
+    arg(final JExpression arg)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def javadoc():
-    '''public JDocComment javadoc()
+    '''returns JDocComment\n\n
+    javadoc()\n
     '''
 def annotate():
-    '''public JAnnotationUse annotate(final JClass clazz)
-    public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
-    '''
-def annotate2():
-    '''public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
+    '''returns JAnnotationUse\n\n
+    annotate(final JClass clazz)\n
+    annotate(final Class<? extends Annotation> clazz)\n
     '''
 def annotations():
-    '''public Collection<JAnnotationUse> annotations()
+    '''returns Collection<JAnnotationUse>\n\n
+    annotations()\n
     '''
 def declare():
-    '''public void declare(final JFormatter f)
+    '''returns None\n\n
+    declare(final JFormatter f)\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''

@@ -1,39 +1,52 @@
 def addAdjustedDeltaForRollDownId():
-    '''public void addAdjustedDeltaForRollDownId(final String rollId, final String value)
+    '''returns None\n\n
+    addAdjustedDeltaForRollDownId(final String rollId, final String value)\n
     '''
-def AssetMeter():
-    '''public AssetMeter(final MboSet ms)
+def ():
+    '''returns AssetMeter\n\n
+    (final MboSet ms)\n
     '''
 def setTypeSpecificFlags():
-    '''public void setTypeSpecificFlags()
+    '''returns None\n\n
+    setTypeSpecificFlags()\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getPreviousMeterReading():
-    '''public MboRemote getPreviousMeterReading(Date previousToDate)
+    '''returns MboRemote\n\n
+    getPreviousMeterReading(Date previousToDate)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def isOwningMboNOSAVE():
-    '''public void isOwningMboNOSAVE()
+    '''returns None\n\n
+    isOwningMboNOSAVE()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''

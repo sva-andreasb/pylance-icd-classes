@@ -1,3 +1,4 @@
 def initialize():
-    '''public List<Exception> initialize()
+    '''returns List<Exception>\n\n
+    initialize()\n
     '''

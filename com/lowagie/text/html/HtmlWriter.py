@@ -1,35 +1,42 @@
 NBSP = "String  \"&nbsp;\""
-def getInstance():
-    '''public static HtmlWriter getInstance(final Document document, final OutputStream os)
-    '''
 def newPage():
-    '''public boolean newPage()
+    '''returns boolean\n\n
+    newPage()\n
     '''
 def add():
-    '''public boolean add(final Element element)
-    public boolean add(final String string)
+    '''returns boolean\n\n
+    add(final Element element)\n
+    add(final String string)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def setStandardFont():
-    '''public void setStandardFont(final Font standardfont)
+    '''returns None\n\n
+    setStandardFont(final Font standardfont)\n
     '''
 def isOtherFont():
-    '''public boolean isOtherFont(final Font font)
+    '''returns boolean\n\n
+    isOtherFont(final Font font)\n
     '''
 def setImagepath():
-    '''public void setImagepath(final String imagepath)
+    '''returns None\n\n
+    setImagepath(final String imagepath)\n
     '''
 def resetImagepath():
-    '''public void resetImagepath()
+    '''returns None\n\n
+    resetImagepath()\n
     '''
 def setHeader():
-    '''public void setHeader(final HeaderFooter header)
+    '''returns None\n\n
+    setHeader(final HeaderFooter header)\n
     '''
 def setFooter():
-    '''public void setFooter(final HeaderFooter footer)
+    '''returns None\n\n
+    setFooter(final HeaderFooter footer)\n
     '''

@@ -1,14 +1,18 @@
-def GaussIntegratorFactory():
-    '''public GaussIntegratorFactory()
+def ():
+    '''returns GaussIntegratorFactory\n\n
+    ()\n
     '''
 def legendre():
-    '''public GaussIntegrator legendre(final int numberOfPoints)
-    public GaussIntegrator legendre(final int numberOfPoints, final double lowerBound, final double upperBound)
+    '''returns GaussIntegrator\n\n
+    legendre(final int numberOfPoints)\n
+    legendre(final int numberOfPoints, final double lowerBound, final double upperBound)\n
     '''
 def legendreHighPrecision():
-    '''public GaussIntegrator legendreHighPrecision(final int numberOfPoints)
-    public GaussIntegrator legendreHighPrecision(final int numberOfPoints, final double lowerBound, final double upperBound)
+    '''returns GaussIntegrator\n\n
+    legendreHighPrecision(final int numberOfPoints)\n
+    legendreHighPrecision(final int numberOfPoints, final double lowerBound, final double upperBound)\n
     '''
 def hermite():
-    '''public SymmetricGaussIntegrator hermite(final int numberOfPoints)
+    '''returns SymmetricGaussIntegrator\n\n
+    hermite(final int numberOfPoints)\n
     '''

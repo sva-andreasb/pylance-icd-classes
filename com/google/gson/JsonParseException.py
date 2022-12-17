@@ -1,5 +1,6 @@
-def JsonParseException():
-    '''public JsonParseException(final String msg)
-    public JsonParseException(final String msg, final Throwable cause)
-    public JsonParseException(final Throwable cause)
+def ():
+    '''returns JsonParseException\n\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

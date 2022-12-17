@@ -1,12 +1,12 @@
-def FloatRangeDocValuesField():
-    '''public FloatRangeDocValuesField(final String field, final float[] min, final float[] max)
+def ():
+    '''returns FloatRangeDocValuesField\n\n
+    (final String field, final float[] min, final float[] max)\n
     '''
 def getMin():
-    '''public float getMin(final int dimension)
+    '''returns float\n\n
+    getMin(final int dimension)\n
     '''
 def getMax():
-    '''public float getMax(final int dimension)
-    '''
-def newSlowIntersectsQuery():
-    '''public static Query newSlowIntersectsQuery(final String field, final float[] min, final float[] max)
+    '''returns float\n\n
+    getMax(final int dimension)\n
     '''

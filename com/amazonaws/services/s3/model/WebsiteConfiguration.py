@@ -1,39 +1,52 @@
-def WebsiteConfiguration():
-    '''public WebsiteConfiguration()
+def ():
+    '''returns WebsiteConfiguration\n\n
+    ()\n
     '''
 def setIndexDocumentSuffix():
-    '''public void setIndexDocumentSuffix(final String indexDocumentSuffix)
+    '''returns None\n\n
+    setIndexDocumentSuffix(final String indexDocumentSuffix)\n
     '''
 def getIndexDocumentSuffix():
-    '''public String getIndexDocumentSuffix()
+    '''returns String\n\n
+    getIndexDocumentSuffix()\n
     '''
 def withIndexDocumentSuffix():
-    '''public WebsiteConfiguration withIndexDocumentSuffix(final String indexDocumentSuffix)
+    '''returns WebsiteConfiguration\n\n
+    withIndexDocumentSuffix(final String indexDocumentSuffix)\n
     '''
 def setErrorDocument():
-    '''public void setErrorDocument(final String errorDocument)
+    '''returns None\n\n
+    setErrorDocument(final String errorDocument)\n
     '''
 def getErrorDocument():
-    '''public String getErrorDocument()
+    '''returns String\n\n
+    getErrorDocument()\n
     '''
 def witherrorDocument():
-    '''public WebsiteConfiguration witherrorDocument(final String errorDocument)
+    '''returns WebsiteConfiguration\n\n
+    witherrorDocument(final String errorDocument)\n
     '''
 def setRedirectAllRequestsTo():
-    '''public void setRedirectAllRequestsTo(final String redirectAllRequestsTo)
+    '''returns None\n\n
+    setRedirectAllRequestsTo(final String redirectAllRequestsTo)\n
     '''
 def getRedirectAllRequestsTo():
-    '''public String getRedirectAllRequestsTo()
+    '''returns String\n\n
+    getRedirectAllRequestsTo()\n
     '''
 def withRedirectAllRequestsTo():
-    '''public WebsiteConfiguration withRedirectAllRequestsTo(final String redirectAllRequestsTo)
+    '''returns WebsiteConfiguration\n\n
+    withRedirectAllRequestsTo(final String redirectAllRequestsTo)\n
     '''
 def setRoutingRules():
-    '''public void setRoutingRules(final List<RoutingRule> routingRules)
+    '''returns None\n\n
+    setRoutingRules(final List<RoutingRule> routingRules)\n
     '''
 def getRoutingRule():
-    '''public List<RoutingRule> getRoutingRule()
+    '''returns List<RoutingRule>\n\n
+    getRoutingRule()\n
     '''
 def withRoutingRule():
-    '''public WebsiteConfiguration withRoutingRule(final List<RoutingRule> routingRules)
+    '''returns WebsiteConfiguration\n\n
+    withRoutingRule(final List<RoutingRule> routingRules)\n
     '''

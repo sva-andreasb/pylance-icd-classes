@@ -1,6 +1,8 @@
-def MaxInvVendorProcess():
-    '''public MaxInvVendorProcess()
+def ():
+    '''returns MaxInvVendorProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules()
+    '''returns int\n\n
+    checkBusinessRules()\n
     '''

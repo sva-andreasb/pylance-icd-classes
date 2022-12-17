@@ -1,13 +1,17 @@
-def JsonStreamParser():
-    '''public JsonStreamParser(final String json)
-    public JsonStreamParser(final Reader reader)
+def ():
+    '''returns JsonStreamParser\n\n
+    (final String json)\n
+    (final Reader reader)\n
     '''
 def next():
-    '''public JsonElement next()
+    '''returns JsonElement\n\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

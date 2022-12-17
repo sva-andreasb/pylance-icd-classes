@@ -1,18 +1,23 @@
 ELEMENT = "String  \"starttls\""
 NAMESPACE = "String  \"urn:ietf:params:xml:ns:xmpp-tls\""
-def StartTls():
-    '''public StartTls()
-    public StartTls(final boolean required)
+def ():
+    '''returns StartTls\n\n
+    ()\n
+    (final boolean required)\n
     '''
 def required():
-    '''public boolean required()
+    '''returns boolean\n\n
+    required()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

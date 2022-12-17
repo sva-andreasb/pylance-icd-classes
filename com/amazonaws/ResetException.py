@@ -1,18 +1,23 @@
-def ResetException():
-    '''public ResetException(final String message, final Throwable t)
-    public ResetException(final Throwable t)
-    public ResetException(final String message)
-    public ResetException()
+def ():
+    '''returns ResetException\n\n
+    (final String message, final Throwable t)\n
+    (final Throwable t)\n
+    (final String message)\n
+    ()\n
     '''
 def isRetryable():
-    '''public boolean isRetryable()
+    '''returns boolean\n\n
+    isRetryable()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getExtraInfo():
-    '''public String getExtraInfo()
+    '''returns String\n\n
+    getExtraInfo()\n
     '''
 def setExtraInfo():
-    '''public void setExtraInfo(final String extraInfo)
+    '''returns None\n\n
+    setExtraInfo(final String extraInfo)\n
     '''

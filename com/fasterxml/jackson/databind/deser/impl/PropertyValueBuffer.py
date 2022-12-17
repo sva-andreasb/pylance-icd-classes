@@ -1,33 +1,40 @@
-def PropertyValueBuffer():
-    '''public PropertyValueBuffer(final JsonParser p, final DeserializationContext ctxt, final int paramCount, final ObjectIdReader oir)
-    '''
-def hasParameter():
-    '''public final boolean hasParameter(final SettableBeanProperty prop)
+def ():
+    '''returns PropertyValueBuffer\n\n
+    (final JsonParser p, final DeserializationContext ctxt, final int paramCount, final ObjectIdReader oir)\n
     '''
 def getParameter():
-    '''public Object getParameter(final SettableBeanProperty prop)
+    '''returns Object\n\n
+    getParameter(final SettableBeanProperty prop)\n
     '''
 def getParameters():
-    '''public Object[] getParameters(final SettableBeanProperty[] props)
+    '''returns Object[]\n\n
+    getParameters(final SettableBeanProperty[] props)\n
     '''
 def readIdProperty():
-    '''public boolean readIdProperty(final String propName)
+    '''returns boolean\n\n
+    readIdProperty(final String propName)\n
     '''
 def handleIdValue():
-    '''public Object handleIdValue(final DeserializationContext ctxt, final Object bean)
+    '''returns Object\n\n
+    handleIdValue(final DeserializationContext ctxt, final Object bean)\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def assignParameter():
-    '''public boolean assignParameter(final SettableBeanProperty prop, final Object value)
+    '''returns boolean\n\n
+    assignParameter(final SettableBeanProperty prop, final Object value)\n
     '''
 def bufferProperty():
-    '''public void bufferProperty(final SettableBeanProperty prop, final Object value)
+    '''returns None\n\n
+    bufferProperty(final SettableBeanProperty prop, final Object value)\n
     '''
 def bufferAnyProperty():
-    '''public void bufferAnyProperty(final SettableAnyProperty prop, final String propName, final Object value)
+    '''returns None\n\n
+    bufferAnyProperty(final SettableAnyProperty prop, final String propName, final Object value)\n
     '''
 def bufferMapProperty():
-    '''public void bufferMapProperty(final Object key, final Object value)
+    '''returns None\n\n
+    bufferMapProperty(final Object key, final Object value)\n
     '''

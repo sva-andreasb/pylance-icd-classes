@@ -1,18 +1,24 @@
-def IotResourceProcessor():
-    '''public IotResourceProcessor()
+def ():
+    '''returns IotResourceProcessor\n\n
+    ()\n
     '''
 def getResourceMeter():
-    '''public String getResourceMeter(final String maximoMeter)
+    '''returns String\n\n
+    getResourceMeter(final String maximoMeter)\n
     '''
 def processResource():
-    '''public JSONArtifact processResource(JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)
+    '''returns JSONArtifact\n\n
+    processResource(JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)\n
     '''
 def dateString():
-    '''public String dateString(final Date date, final String timezone, final String dateFormat)
+    '''returns String\n\n
+    dateString(final Date date, final String timezone, final String dateFormat)\n
     '''
 def getMappedMeter():
-    '''public String getMappedMeter(final String maximoMeter)
+    '''returns String\n\n
+    getMappedMeter(final String maximoMeter)\n
     '''
 def mapReadings():
-    '''public JSONObject mapReadings(final JSONObject jo, final MboRemote owner)
+    '''returns JSONObject\n\n
+    mapReadings(final JSONObject jo, final MboRemote owner)\n
     '''

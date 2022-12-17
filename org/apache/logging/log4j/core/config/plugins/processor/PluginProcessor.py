@@ -1,14 +1,18 @@
 PLUGIN_CACHE_FILE = "String  \"META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat\""
-def PluginProcessor():
-    '''public PluginProcessor()
+def ():
+    '''returns PluginProcessor\n\n
+    ()\n
     '''
 def getSupportedSourceVersion():
-    '''public SourceVersion getSupportedSourceVersion()
+    '''returns SourceVersion\n\n
+    getSupportedSourceVersion()\n
     '''
 def process():
-    '''public boolean process(final Set<? extends TypeElement> annotations, final RoundEnvironment roundEnv)
+    '''returns boolean\n\n
+    process(final Set<? extends TypeElement> annotations, final RoundEnvironment roundEnv)\n
     '''
 def visitType():
-    '''public PluginEntry visitType(final TypeElement e, final Plugin plugin)
-    public Collection<PluginEntry> visitType(final TypeElement e, final Plugin plugin)
+    '''returns Collection<PluginEntry>\n\n
+    visitType(final TypeElement e, final Plugin plugin)\n
+    visitType(final TypeElement e, final Plugin plugin)\n
     '''

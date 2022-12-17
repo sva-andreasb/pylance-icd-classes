@@ -1,219 +1,292 @@
 def clearDecodedPropertyMap():
-    '''public void clearDecodedPropertyMap()
+    '''returns None\n\n
+    clearDecodedPropertyMap()\n
     '''
 def decode():
-    '''public void decode(final FacesContext facesContext)
+    '''returns None\n\n
+    decode(final FacesContext facesContext)\n
     '''
 def getColumnResizeMessage():
-    '''public String getColumnResizeMessage()
+    '''returns String\n\n
+    getColumnResizeMessage()\n
     '''
 def getControllerURL():
-    '''public String getControllerURL()
+    '''returns String\n\n
+    getControllerURL()\n
     '''
 def getData():
-    '''public Object getData()
+    '''returns Object\n\n
+    getData()\n
     '''
 def getDataSource():
-    '''public IlvFacesGanttDataSource getDataSource()
+    '''returns IlvFacesGanttDataSource\n\n
+    getDataSource()\n
     '''
 def getDataSourceId():
-    '''public String getDataSourceId()
+    '''returns String\n\n
+    getDataSourceId()\n
     '''
 def getDividerLocation():
-    '''public int getDividerLocation()
+    '''returns int\n\n
+    getDividerLocation()\n
     '''
 def getEndVisibleInterval():
-    '''public Date getEndVisibleInterval()
+    '''returns Date\n\n
+    getEndVisibleInterval()\n
     '''
 def getErrorMessage():
-    '''public String getErrorMessage()
+    '''returns String\n\n
+    getErrorMessage()\n
     '''
 def getHeight():
-    '''public int getHeight()
+    '''returns int\n\n
+    getHeight()\n
     '''
 def getImageFormat():
-    '''public String getImageFormat()
+    '''returns String\n\n
+    getImageFormat()\n
     '''
 def getLocalValue():
-    '''public Object getLocalValue()
+    '''returns Object\n\n
+    getLocalValue()\n
     '''
 def getMessageBox():
-    '''public IlvMessageBox getMessageBox()
+    '''returns IlvMessageBox\n\n
+    getMessageBox()\n
     '''
 def getMessageBoxId():
-    '''public String getMessageBoxId()
+    '''returns String\n\n
+    getMessageBoxId()\n
     '''
 def getProject():
-    '''public String getProject()
+    '''returns String\n\n
+    getProject()\n
     '''
 def getServlet():
-    '''public String getServlet()
+    '''returns String\n\n
+    getServlet()\n
     '''
 def getServletClass():
-    '''public String getServletClass()
+    '''returns String\n\n
+    getServletClass()\n
     '''
 def getServletURL():
-    '''public String getServletURL()
+    '''returns String\n\n
+    getServletURL()\n
     '''
 def getSheetInteractor():
-    '''public IlvFacesInteractor getSheetInteractor()
+    '''returns IlvFacesInteractor\n\n
+    getSheetInteractor()\n
     '''
 def getSheetInteractorId():
-    '''public String getSheetInteractorId()
+    '''returns String\n\n
+    getSheetInteractorId()\n
     '''
 def getStartVisibleInterval():
-    '''public Date getStartVisibleInterval()
+    '''returns Date\n\n
+    getStartVisibleInterval()\n
     '''
 def getStyle():
-    '''public String getStyle()
+    '''returns String\n\n
+    getStyle()\n
     '''
 def getStyleClass():
-    '''public String getStyleClass()
+    '''returns String\n\n
+    getStyleClass()\n
     '''
 def getStyleSheet():
-    '''public String getStyleSheet()
+    '''returns String\n\n
+    getStyleSheet()\n
     '''
 def getStyleSheets():
-    '''public String getStyleSheets()
+    '''returns String\n\n
+    getStyleSheets()\n
     '''
 def getTableInteractor():
-    '''public IlvFacesInteractor getTableInteractor()
+    '''returns IlvFacesInteractor\n\n
+    getTableInteractor()\n
     '''
 def getTableInteractorId():
-    '''public String getTableInteractorId()
+    '''returns String\n\n
+    getTableInteractorId()\n
     '''
 def getUpdateInterval():
-    '''public int getUpdateInterval()
+    '''returns int\n\n
+    getUpdateInterval()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def getValueBinding():
-    '''public ValueBinding getValueBinding(final String s)
+    '''returns ValueBinding\n\n
+    getValueBinding(final String s)\n
     '''
 def getWaitingImage():
-    '''public String getWaitingImage()
+    '''returns String\n\n
+    getWaitingImage()\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def getZoomFactor():
-    '''public double getZoomFactor()
+    '''returns double\n\n
+    getZoomFactor()\n
     '''
 def isAutoUpdateCapabilities():
-    '''public boolean isAutoUpdateCapabilities()
+    '''returns boolean\n\n
+    isAutoUpdateCapabilities()\n
     '''
 def isDecodedProperty():
-    '''public boolean isDecodedProperty(final String s)
+    '''returns boolean\n\n
+    isDecodedProperty(final String s)\n
     '''
 def isResizable():
-    '''public boolean isResizable()
+    '''returns boolean\n\n
+    isResizable()\n
     '''
 def resetDecodedProperties():
-    '''public void resetDecodedProperties()
+    '''returns None\n\n
+    resetDecodedProperties()\n
     '''
 def setAutoUpdateCapabilities():
-    '''public void setAutoUpdateCapabilities(final boolean b)
+    '''returns None\n\n
+    setAutoUpdateCapabilities(final boolean b)\n
     '''
 def setColumnResizeMessage():
-    '''public void setColumnResizeMessage(final String s)
+    '''returns None\n\n
+    setColumnResizeMessage(final String s)\n
     '''
 def setData():
-    '''public void setData(final Object o)
+    '''returns None\n\n
+    setData(final Object o)\n
     '''
 def setDataSource():
-    '''public void setDataSource(final IlvFacesGanttDataSource ilvFacesGanttDataSource)
+    '''returns None\n\n
+    setDataSource(final IlvFacesGanttDataSource ilvFacesGanttDataSource)\n
     '''
 def setDataSourceId():
-    '''public void setDataSourceId(final String s)
+    '''returns None\n\n
+    setDataSourceId(final String s)\n
     '''
 def setDecodedProperty():
-    '''public void setDecodedProperty(final String s)
+    '''returns None\n\n
+    setDecodedProperty(final String s)\n
     '''
 def setDividerLocation():
-    '''public void setDividerLocation(final int n)
+    '''returns None\n\n
+    setDividerLocation(final int n)\n
     '''
 def setEndVisibleInterval():
-    '''public void setEndVisibleInterval(final Date date)
+    '''returns None\n\n
+    setEndVisibleInterval(final Date date)\n
     '''
 def setErrorMessage():
-    '''public void setErrorMessage(final String s)
+    '''returns None\n\n
+    setErrorMessage(final String s)\n
     '''
 def setHeight():
-    '''public void setHeight(final int n)
+    '''returns None\n\n
+    setHeight(final int n)\n
     '''
 def setImageFormat():
-    '''public void setImageFormat(final String s)
+    '''returns None\n\n
+    setImageFormat(final String s)\n
     '''
 def setMessageBox():
-    '''public void setMessageBox(final IlvMessageBox ilvMessageBox)
+    '''returns None\n\n
+    setMessageBox(final IlvMessageBox ilvMessageBox)\n
     '''
 def setMessageBoxId():
-    '''public void setMessageBoxId(final String s)
+    '''returns None\n\n
+    setMessageBoxId(final String s)\n
     '''
 def setProject():
-    '''public void setProject(final String s)
+    '''returns None\n\n
+    setProject(final String s)\n
     '''
 def setResizable():
-    '''public void setResizable(final boolean b)
+    '''returns None\n\n
+    setResizable(final boolean b)\n
     '''
 def setServlet():
-    '''public void setServlet(final String s)
+    '''returns None\n\n
+    setServlet(final String s)\n
     '''
 def setServletClass():
-    '''public void setServletClass(final String s)
+    '''returns None\n\n
+    setServletClass(final String s)\n
     '''
 def setServletURL():
-    '''public void setServletURL(final String s)
+    '''returns None\n\n
+    setServletURL(final String s)\n
     '''
 def setSheetInteractor():
-    '''public void setSheetInteractor(final IlvFacesInteractor ilvFacesInteractor)
+    '''returns None\n\n
+    setSheetInteractor(final IlvFacesInteractor ilvFacesInteractor)\n
     '''
 def setSheetInteractorId():
-    '''public void setSheetInteractorId(final String s)
+    '''returns None\n\n
+    setSheetInteractorId(final String s)\n
     '''
 def setStartVisibleInterval():
-    '''public void setStartVisibleInterval(final Date date)
+    '''returns None\n\n
+    setStartVisibleInterval(final Date date)\n
     '''
 def setStyle():
-    '''public void setStyle(final String s)
+    '''returns None\n\n
+    setStyle(final String s)\n
     '''
 def setStyleClass():
-    '''public void setStyleClass(final String s)
+    '''returns None\n\n
+    setStyleClass(final String s)\n
     '''
 def setStyleSheet():
-    '''public void setStyleSheet(final String s)
+    '''returns None\n\n
+    setStyleSheet(final String s)\n
     '''
 def setStyleSheets():
-    '''public void setStyleSheets(final String s)
+    '''returns None\n\n
+    setStyleSheets(final String s)\n
     '''
 def setTableInteractor():
-    '''public void setTableInteractor(final IlvFacesInteractor ilvFacesInteractor)
+    '''returns None\n\n
+    setTableInteractor(final IlvFacesInteractor ilvFacesInteractor)\n
     '''
 def setTableInteractorId():
-    '''public void setTableInteractorId(final String s)
+    '''returns None\n\n
+    setTableInteractorId(final String s)\n
     '''
 def setTransient():
-    '''public void setTransient(final boolean b)
+    '''returns None\n\n
+    setTransient(final boolean b)\n
     '''
 def setUpdateInterval():
-    '''public void setUpdateInterval(final int n)
+    '''returns None\n\n
+    setUpdateInterval(final int n)\n
     '''
 def setUrl():
-    '''public void setUrl(final String s)
+    '''returns None\n\n
+    setUrl(final String s)\n
     '''
 def setValue():
-    '''public void setValue(final Object o)
+    '''returns None\n\n
+    setValue(final Object o)\n
     '''
 def setWaitingImage():
-    '''public void setWaitingImage(final String s)
+    '''returns None\n\n
+    setWaitingImage(final String s)\n
     '''
 def setWidth():
-    '''public void setWidth(final int n)
+    '''returns None\n\n
+    setWidth(final int n)\n
     '''
 def setZoomFactor():
-    '''public void setZoomFactor(final double n)
+    '''returns None\n\n
+    setZoomFactor(final double n)\n
     '''

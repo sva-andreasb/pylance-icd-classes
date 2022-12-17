@@ -1,65 +1,74 @@
-def AppenderSkeleton():
-    '''public AppenderSkeleton()
+def ():
+    '''returns AppenderSkeleton\n\n
+    ()\n
     '''
 def activateOptions():
-    '''public void activateOptions()
+    '''returns None\n\n
+    activateOptions()\n
     '''
 def addFilter():
-    '''public void addFilter(final Filter newFilter)
+    '''returns None\n\n
+    addFilter(final Filter newFilter)\n
     '''
 def clearFilters():
-    '''public void clearFilters()
+    '''returns None\n\n
+    clearFilters()\n
     '''
 def finalize():
-    '''public void finalize()
+    '''returns None\n\n
+    finalize()\n
     '''
 def getErrorHandler():
-    '''public ErrorHandler getErrorHandler()
+    '''returns ErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def getFilter():
-    '''public Filter getFilter()
-    '''
-def getFirstFilter():
-    '''public final Filter getFirstFilter()
+    '''returns Filter\n\n
+    getFilter()\n
     '''
 def getLayout():
-    '''public Layout getLayout()
-    '''
-def getName():
-    '''public final String getName()
+    '''returns Layout\n\n
+    getLayout()\n
     '''
 def getThreshold():
-    '''public Priority getThreshold()
+    '''returns Priority\n\n
+    getThreshold()\n
     '''
 def isAsSevereAsThreshold():
-    '''public boolean isAsSevereAsThreshold(final Priority priority)
+    '''returns boolean\n\n
+    isAsSevereAsThreshold(final Priority priority)\n
     '''
 def doAppend():
-    '''public void doAppend(final LoggingEvent event)
-    '''
-def setErrorHandler():
-    '''public synchronized void setErrorHandler(final ErrorHandler eh)
+    '''returns None\n\n
+    doAppend(final LoggingEvent event)\n
     '''
 def setLayout():
-    '''public void setLayout(final Layout layout)
+    '''returns None\n\n
+    setLayout(final Layout layout)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setThreshold():
-    '''public void setThreshold(final Priority threshold)
+    '''returns None\n\n
+    setThreshold(final Priority threshold)\n
     '''
 def setLogger():
-    '''public void setLogger(final Logger logger)
+    '''returns None\n\n
+    setLogger(final Logger logger)\n
     '''
 def error():
-    '''public void error(final String message, final Exception e, final int errorCode)
-    public void error(final String message)
-    public void error(final String message, final Exception e, final int errorCode, final LoggingEvent event)
+    '''returns None\n\n
+    error(final String message, final Exception e, final int errorCode)\n
+    error(final String message)\n
+    error(final String message, final Exception e, final int errorCode, final LoggingEvent event)\n
     '''
 def setAppender():
-    '''public void setAppender(final Appender appender)
+    '''returns None\n\n
+    setAppender(final Appender appender)\n
     '''
 def setBackupAppender():
-    '''public void setBackupAppender(final Appender appender)
+    '''returns None\n\n
+    setBackupAppender(final Appender appender)\n
     '''

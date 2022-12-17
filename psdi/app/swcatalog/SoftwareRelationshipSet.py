@@ -1,3 +1,4 @@
-def SoftwareRelationshipSet():
-    '''public SoftwareRelationshipSet(final MboServerInterface ms)
+def ():
+    '''returns SoftwareRelationshipSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
 def isTrusted():
-    '''public boolean isTrusted(final X509Certificate[] chain, final String authType)
+    '''returns boolean\n\n
+    isTrusted(final X509Certificate[] chain, final String authType)\n
     '''

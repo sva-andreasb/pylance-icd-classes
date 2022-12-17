@@ -1,3 +1,4 @@
-def FldSWPartNumber():
-    '''public FldSWPartNumber(final MboValue mbv)
+def ():
+    '''returns FldSWPartNumber\n\n
+    (final MboValue mbv)\n
     '''

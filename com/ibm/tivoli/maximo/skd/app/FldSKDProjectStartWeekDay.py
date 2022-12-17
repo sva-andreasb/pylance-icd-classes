@@ -1,3 +1,4 @@
-def FldSKDProjectStartWeekDay():
-    '''public FldSKDProjectStartWeekDay(final MboValue mbv)
+def ():
+    '''returns FldSKDProjectStartWeekDay\n\n
+    (final MboValue mbv)\n
     '''

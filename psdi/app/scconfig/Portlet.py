@@ -1,3 +1,4 @@
-def Portlet():
-    '''public Portlet(final MboSet ms)
+def ():
+    '''returns Portlet\n\n
+    (final MboSet ms)\n
     '''

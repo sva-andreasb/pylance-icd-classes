@@ -1,16 +1,21 @@
-def HeadFilter():
-    '''public HeadFilter()
-    public HeadFilter(final Reader in)
+def ():
+    '''returns HeadFilter\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def setLines():
-    '''public void setLines(final long lines)
+    '''returns None\n\n
+    setLines(final long lines)\n
     '''
 def setSkip():
-    '''public void setSkip(final long skip)
+    '''returns None\n\n
+    setSkip(final long skip)\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''

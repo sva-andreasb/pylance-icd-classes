@@ -1,6 +1,8 @@
-def PlusPFldReconTaskFilterName():
-    '''public PlusPFldReconTaskFilterName(final MboValue arg0)
+def ():
+    '''returns PlusPFldReconTaskFilterName\n\n
+    (final MboValue arg0)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

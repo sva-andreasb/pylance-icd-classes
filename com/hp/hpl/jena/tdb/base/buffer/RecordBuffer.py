@@ -1,43 +1,56 @@
-def RecordBuffer():
-    '''public RecordBuffer(final RecordFactory recFactory, final int maxRec)
-    public RecordBuffer(final ByteBuffer bb, final RecordFactory recFactory, final int num)
+def ():
+    '''returns RecordBuffer\n\n
+    (final RecordFactory recFactory, final int maxRec)\n
+    (final ByteBuffer bb, final RecordFactory recFactory, final int num)\n
     '''
 def get():
-    '''public Record get(final int idx)
+    '''returns Record\n\n
+    get(final int idx)\n
     '''
 def getLow():
-    '''public Record getLow()
+    '''returns Record\n\n
+    getLow()\n
     '''
 def getHigh():
-    '''public Record getHigh()
+    '''returns Record\n\n
+    getHigh()\n
     '''
 def add():
-    '''public void add(final Record record)
-    public void add(final int idx, final Record record)
+    '''returns None\n\n
+    add(final Record record)\n
+    add(final int idx, final Record record)\n
     '''
 def set():
-    '''public void set(final int idx, final Record record)
+    '''returns None\n\n
+    set(final int idx, final Record record)\n
     '''
 def _get():
-    '''public Record _get(final int idx)
+    '''returns Record\n\n
+    _get(final int idx)\n
     '''
 def find():
-    '''public int find(final Record k)
-    public int find(final Record rec, final int fromIndex, final int toIndex)
+    '''returns int\n\n
+    find(final Record k)\n
+    find(final Record rec, final int fromIndex, final int toIndex)\n
     '''
 def iterator():
-    '''public Iterator<Record> iterator()
-    public Iterator<Record> iterator(final Record min, final Record max)
+    '''returns Iterator<Record>\n\n
+    iterator()\n
+    iterator(final Record min, final Record max)\n
     '''
 def findGet():
-    '''public Record findGet(final Record k)
+    '''returns Record\n\n
+    findGet(final Record k)\n
     '''
 def removeByKey():
-    '''public boolean removeByKey(final Record k)
+    '''returns boolean\n\n
+    removeByKey(final Record k)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def duplicate():
-    '''public RecordBuffer duplicate()
+    '''returns RecordBuffer\n\n
+    duplicate()\n
     '''

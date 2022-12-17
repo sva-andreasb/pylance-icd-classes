@@ -1,3 +1,4 @@
-def PlusPSLAContractSet():
-    '''public PlusPSLAContractSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPSLAContractSet\n\n
+    (final MboServerInterface arg0)\n
     '''

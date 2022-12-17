@@ -1,9 +1,12 @@
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escaper)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escaper)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def cloneTree():
-    '''public QueryNode cloneTree()
+    '''returns QueryNode\n\n
+    cloneTree()\n
     '''

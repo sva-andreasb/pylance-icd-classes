@@ -1,12 +1,16 @@
-def CSSSACMediaList():
-    '''public CSSSACMediaList()
+def ():
+    '''returns CSSSACMediaList\n\n
+    ()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public String item(final int index)
+    '''returns String\n\n
+    item(final int index)\n
     '''
 def append():
-    '''public void append(final String item)
+    '''returns None\n\n
+    append(final String item)\n
     '''

@@ -1,21 +1,28 @@
-def TLOAMAssetSet():
-    '''public TLOAMAssetSet(final MboServerInterface ms)
+def ():
+    '''returns TLOAMAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def modifyRefreshDate():
-    '''public void modifyRefreshDate(final String refreshstatus, final Date refreshplandate, final String refreshremarks)
+    '''returns None\n\n
+    modifyRefreshDate(final String refreshstatus, final Date refreshplandate, final String refreshremarks)\n
     '''
 def modifyDisposalDetail():
-    '''public void modifyDisposalDetail(final String requestId, final String type, final Date date, final String recipient, final String charge, final String value, final String remarks)
+    '''returns None\n\n
+    modifyDisposalDetail(final String requestId, final String type, final Date date, final String recipient, final String charge, final String value, final String remarks)\n
     '''
 def moveAsset():
-    '''public void moveAsset()
+    '''returns None\n\n
+    moveAsset()\n
     '''
 def initLicenseSwap():
-    '''public void initLicenseSwap()
+    '''returns None\n\n
+    initLicenseSwap()\n
     '''
 def performLicenseSwap():
-    '''public void performLicenseSwap(final MboRemote asset)
+    '''returns None\n\n
+    performLicenseSwap(final MboRemote asset)\n
     '''

@@ -1,42 +1,56 @@
-def LocationImpl():
-    '''public LocationImpl(final STSession stSession)
+def ():
+    '''returns LocationImpl\n\n
+    (final STSession stSession)\n
     '''
 def processSTEvent():
-    '''public void processSTEvent(final STEvent stEvent)
+    '''returns None\n\n
+    processSTEvent(final STEvent stEvent)\n
     '''
 def attrChanged():
-    '''public void attrChanged(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    attrChanged(final AttributeEvent attributeEvent)\n
     '''
 def attrRemoved():
-    '''public void attrRemoved(final AttributeEvent obj)
+    '''returns None\n\n
+    attrRemoved(final AttributeEvent obj)\n
     '''
 def attrContentQueried():
-    '''public void attrContentQueried(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    attrContentQueried(final AttributeEvent attributeEvent)\n
     '''
 def queryAttrContentFailed():
-    '''public void queryAttrContentFailed(final AttributeEvent obj)
+    '''returns None\n\n
+    queryAttrContentFailed(final AttributeEvent obj)\n
     '''
 def changeMyAttrFailed():
-    '''public void changeMyAttrFailed(final AttributeEvent obj)
+    '''returns None\n\n
+    changeMyAttrFailed(final AttributeEvent obj)\n
     '''
 def myAttrChanged():
-    '''public void myAttrChanged(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    myAttrChanged(final AttributeEvent attributeEvent)\n
     '''
 def removeMyAttrFailed():
-    '''public void removeMyAttrFailed(final AttributeEvent obj)
+    '''returns None\n\n
+    removeMyAttrFailed(final AttributeEvent obj)\n
     '''
 def myAttrRemoved():
-    '''public void myAttrRemoved(final AttributeEvent obj)
+    '''returns None\n\n
+    myAttrRemoved(final AttributeEvent obj)\n
     '''
 def serviceAvailable():
-    '''public void serviceAvailable(final AwarenessServiceEvent awarenessServiceEvent)
+    '''returns None\n\n
+    serviceAvailable(final AwarenessServiceEvent awarenessServiceEvent)\n
     '''
 def serviceUnavailable():
-    '''public void serviceUnavailable(final AwarenessServiceEvent awarenessServiceEvent)
+    '''returns None\n\n
+    serviceUnavailable(final AwarenessServiceEvent awarenessServiceEvent)\n
     '''
 def loggedIn():
-    '''public void loggedIn(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedIn(final LoginEvent loginEvent)\n
     '''
 def loggedOut():
-    '''public void loggedOut(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedOut(final LoginEvent loginEvent)\n
     '''

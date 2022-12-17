@@ -1,12 +1,16 @@
-def FldPMNextdate():
-    '''public FldPMNextdate(final MboValue mbv)
+def ():
+    '''returns FldPMNextdate\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

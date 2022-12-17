@@ -1,6 +1,8 @@
-def FldMatUseTransNewPhyscnt():
-    '''public FldMatUseTransNewPhyscnt(final MboValue mbv)
+def ():
+    '''returns FldMatUseTransNewPhyscnt\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

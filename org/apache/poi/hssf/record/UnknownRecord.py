@@ -13,22 +13,24 @@ SHEETPROTECTION_0867 = "int  2151"
 HEADER_FOOTER_089C = "int  2204"
 CODENAME_1BA = "int  442"
 PLV_MAC = "int  2248"
-def UnknownRecord():
-    '''public UnknownRecord(final int id, final byte[] data)
-    public UnknownRecord(final RecordInputStream in)
+def ():
+    '''returns UnknownRecord\n\n
+    (final int id, final byte[] data)\n
+    (final RecordInputStream in)\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getSid():
-    '''public short getSid()
-    '''
-def getBiffName():
-    '''public static String getBiffName(final int sid)
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

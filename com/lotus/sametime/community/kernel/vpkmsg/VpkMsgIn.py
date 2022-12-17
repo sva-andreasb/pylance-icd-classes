@@ -1,15 +1,20 @@
-def VpkMsgIn():
-    '''public VpkMsgIn(final byte[] originalMessage)
+def ():
+    '''returns VpkMsgIn\n\n
+    (final byte[] originalMessage)\n
     '''
 def getType():
-    '''public short getType()
+    '''returns short\n\n
+    getType()\n
     '''
 def getChannelId():
-    '''public int getChannelId()
+    '''returns int\n\n
+    getChannelId()\n
     '''
 def isEncrypted():
-    '''public boolean isEncrypted()
+    '''returns boolean\n\n
+    isEncrypted()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

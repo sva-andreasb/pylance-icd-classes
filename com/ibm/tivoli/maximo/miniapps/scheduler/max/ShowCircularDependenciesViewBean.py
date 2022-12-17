@@ -1,18 +1,24 @@
-def ShowCircularDependenciesViewBean():
-    '''public ShowCircularDependenciesViewBean()
+def ():
+    '''returns ShowCircularDependenciesViewBean\n\n
+    ()\n
     '''
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''
 def loadSchedulerProject():
-    '''public JSONObject loadSchedulerProject(final WebClientSession sess)
+    '''returns JSONObject\n\n
+    loadSchedulerProject(final WebClientSession sess)\n
     '''
 def createUIOptions():
-    '''public UIOptions createUIOptions(final String projectId)
+    '''returns UIOptions\n\n
+    createUIOptions(final String projectId)\n
     '''
 def async_upload_changes():
-    '''public ReplyBuilder async_upload_changes(final WebClientSession sess)
+    '''returns ReplyBuilder\n\n
+    async_upload_changes(final WebClientSession sess)\n
     '''
 def processChange():
-    '''public void processChange(final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)
+    '''returns None\n\n
+    processChange(final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)\n
     '''

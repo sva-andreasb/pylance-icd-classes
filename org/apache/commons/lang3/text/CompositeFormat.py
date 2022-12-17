@@ -1,18 +1,24 @@
-def CompositeFormat():
-    '''public CompositeFormat(final Format parser, final Format formatter)
+def ():
+    '''returns CompositeFormat\n\n
+    (final Format parser, final Format formatter)\n
     '''
 def format():
-    '''public StringBuffer format(final Object obj, final StringBuffer toAppendTo, final FieldPosition pos)
+    '''returns StringBuffer\n\n
+    format(final Object obj, final StringBuffer toAppendTo, final FieldPosition pos)\n
     '''
 def parseObject():
-    '''public Object parseObject(final String source, final ParsePosition pos)
+    '''returns Object\n\n
+    parseObject(final String source, final ParsePosition pos)\n
     '''
 def getParser():
-    '''public Format getParser()
+    '''returns Format\n\n
+    getParser()\n
     '''
 def getFormatter():
-    '''public Format getFormatter()
+    '''returns Format\n\n
+    getFormatter()\n
     '''
 def reformat():
-    '''public String reformat(final String input)
+    '''returns String\n\n
+    reformat(final String input)\n
     '''

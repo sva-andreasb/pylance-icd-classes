@@ -1,33 +1,44 @@
-def IamBean():
-    '''public IamBean()
+def ():
+    '''returns IamBean\n\n
+    ()\n
     '''
 def getIsAuth():
-    '''public boolean getIsAuth()
+    '''returns boolean\n\n
+    getIsAuth()\n
     '''
 def setIsAuth():
-    '''public void setIsAuth(final boolean value)
+    '''returns None\n\n
+    setIsAuth(final boolean value)\n
     '''
 def getUid():
-    '''public String getUid()
+    '''returns String\n\n
+    getUid()\n
     '''
 def setUid():
-    '''public void setUid(final HttpServletRequest request, final String uid)
+    '''returns None\n\n
+    setUid(final HttpServletRequest request, final String uid)\n
     '''
 def getLastName():
-    '''public String getLastName()
+    '''returns String\n\n
+    getLastName()\n
     '''
 def setLastName():
-    '''public void setLastName(final String value)
+    '''returns None\n\n
+    setLastName(final String value)\n
     '''
 def getFirstName():
-    '''public String getFirstName()
+    '''returns String\n\n
+    getFirstName()\n
     '''
 def setFirstName():
-    '''public void setFirstName(final String value)
+    '''returns None\n\n
+    setFirstName(final String value)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final String value)
+    '''returns None\n\n
+    setMessage(final String value)\n
     '''

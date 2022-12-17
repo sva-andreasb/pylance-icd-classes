@@ -1,15 +1,19 @@
 ELEMENT = "String  \"checksum\""
 ATTR_CREATOR = "String  \"creator\""
 ATTR_NAME = "String  \"name\""
-def Checksum():
-    '''public Checksum(final JingleContent.Creator creator, final String name, final JingleFileTransferChild file)
+def ():
+    '''returns Checksum\n\n
+    (final JingleContent.Creator creator, final String name, final JingleFileTransferChild file)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''

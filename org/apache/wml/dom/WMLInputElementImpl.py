@@ -1,75 +1,100 @@
-def WMLInputElementImpl():
-    '''public WMLInputElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+def ():
+    '''returns WMLInputElementImpl\n\n
+    (final WMLDocumentImpl wmlDocumentImpl, final String s)\n
     '''
 def setSize():
-    '''public void setSize(final int n)
+    '''returns None\n\n
+    setSize(final int n)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def setFormat():
-    '''public void setFormat(final String s)
+    '''returns None\n\n
+    setFormat(final String s)\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def setValue():
-    '''public void setValue(final String s)
+    '''returns None\n\n
+    setValue(final String s)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setMaxLength():
-    '''public void setMaxLength(final int n)
+    '''returns None\n\n
+    setMaxLength(final int n)\n
     '''
 def getMaxLength():
-    '''public int getMaxLength()
+    '''returns int\n\n
+    getMaxLength()\n
     '''
 def setTabIndex():
-    '''public void setTabIndex(final int n)
+    '''returns None\n\n
+    setTabIndex(final int n)\n
     '''
 def getTabIndex():
-    '''public int getTabIndex()
+    '''returns int\n\n
+    getTabIndex()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setXmlLang():
-    '''public void setXmlLang(final String s)
+    '''returns None\n\n
+    setXmlLang(final String s)\n
     '''
 def getXmlLang():
-    '''public String getXmlLang()
+    '''returns String\n\n
+    getXmlLang()\n
     '''
 def setEmptyOk():
-    '''public void setEmptyOk(final boolean b)
+    '''returns None\n\n
+    setEmptyOk(final boolean b)\n
     '''
 def getEmptyOk():
-    '''public boolean getEmptyOk()
+    '''returns boolean\n\n
+    getEmptyOk()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setType():
-    '''public void setType(final String s)
+    '''returns None\n\n
+    setType(final String s)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

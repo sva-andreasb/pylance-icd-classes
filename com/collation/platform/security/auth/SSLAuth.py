@@ -1,19 +1,25 @@
-def SSLAuth():
-    '''public SSLAuth()
-    public SSLAuth(final byte[] cert, final String passphrase)
+def ():
+    '''returns SSLAuth\n\n
+    ()\n
+    (final byte[] cert, final String passphrase)\n
     '''
 def getPassphrase():
-    '''public String getPassphrase()
+    '''returns String\n\n
+    getPassphrase()\n
     '''
 def setPassphrase():
-    '''public void setPassphrase(final String passphrase)
+    '''returns None\n\n
+    setPassphrase(final String passphrase)\n
     '''
 def getCertificateAsString():
-    '''public String getCertificateAsString()
+    '''returns String\n\n
+    getCertificateAsString()\n
     '''
 def setCertificateAsString():
-    '''public void setCertificateAsString(final String cert)
+    '''returns None\n\n
+    setCertificateAsString(final String cert)\n
     '''
 def getSSLCertificateLocation():
-    '''public String getSSLCertificateLocation()
+    '''returns String\n\n
+    getSSLCertificateLocation()\n
     '''

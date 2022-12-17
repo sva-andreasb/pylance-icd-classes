@@ -1,37 +1,49 @@
-def SSHHandler():
-    '''public SSHHandler()
-    public SSHHandler(final MaxEndPointInfo endPointInfo)
+def ():
+    '''returns SSHHandler\n\n
+    ()\n
+    (final MaxEndPointInfo endPointInfo)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getRetryInterval():
-    '''public int getRetryInterval()
+    '''returns int\n\n
+    getRetryInterval()\n
     '''
 def getMaxRetry():
-    '''public int getMaxRetry()
+    '''returns int\n\n
+    getMaxRetry()\n
     '''
 def getIgnoreSetupErr():
-    '''public boolean getIgnoreSetupErr()
+    '''returns boolean\n\n
+    getIgnoreSetupErr()\n
     '''
 def getSshExitName():
-    '''public String getSshExitName()
+    '''returns String\n\n
+    getSshExitName()\n
     '''
 def getConnTimeOut():
-    '''public int getConnTimeOut()
+    '''returns int\n\n
+    getConnTimeOut()\n
     '''
 def getCmdTimeOut():
-    '''public int getCmdTimeOut()
+    '''returns int\n\n
+    getCmdTimeOut()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData, byte[] data)\n
     '''

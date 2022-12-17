@@ -1,6 +1,8 @@
-def MessageReader():
-    '''public MessageReader(final ConnectionImpl cmxConnection_)
+def ():
+    '''returns MessageReader\n\n
+    (final ConnectionImpl cmxConnection_)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

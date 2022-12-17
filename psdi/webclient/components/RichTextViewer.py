@@ -1,3 +1,4 @@
 def editmobiletext():
-    '''public int editmobiletext()
+    '''returns int\n\n
+    editmobiletext()\n
     '''

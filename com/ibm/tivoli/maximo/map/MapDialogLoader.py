@@ -1,21 +1,27 @@
-def MapDialogLoader():
-    '''public MapDialogLoader(final WebClientSession clientSession, final PageInstance dialogInstance)
-    public MapDialogLoader(final WebClientSession clientSession, final PageInstance dialogInstance, final ControlInstance creator)
-    public MapDialogLoader(final WebClientSession clientSession, final PageInstance dialogInstance, final String objectName, final String dialogWhereClause, final ControlInstance creator)
-    public MapDialogLoader(final WebClientSession clientSession, final PageInstance dialogInstance, final String objectName, final String dialogWhereClause, final Map<String, Object> optionalParameters, final ControlInstance creator)
+def ():
+    '''returns MapDialogLoader\n\n
+    (final WebClientSession clientSession, final PageInstance dialogInstance)\n
+    (final WebClientSession clientSession, final PageInstance dialogInstance, final ControlInstance creator)\n
+    (final WebClientSession clientSession, final PageInstance dialogInstance, final String objectName, final String dialogWhereClause, final ControlInstance creator)\n
+    (final WebClientSession clientSession, final PageInstance dialogInstance, final String objectName, final String dialogWhereClause, final Map<String, Object> optionalParameters, final ControlInstance creator)\n
     '''
 def hasAuthorizationForSigOption():
-    '''public boolean hasAuthorizationForSigOption(final AppInstance app)
+    '''returns boolean\n\n
+    hasAuthorizationForSigOption(final AppInstance app)\n
     '''
 def hasAuthorizationForSigOptionInCurrentApp():
-    '''public boolean hasAuthorizationForSigOptionInCurrentApp()
+    '''returns boolean\n\n
+    hasAuthorizationForSigOptionInCurrentApp()\n
     '''
 def hasValidLicense():
-    '''public boolean hasValidLicense()
+    '''returns boolean\n\n
+    hasValidLicense()\n
     '''
 def showDialog():
-    '''public int showDialog()
+    '''returns int\n\n
+    showDialog()\n
     '''
 def setDialogSrcName():
-    '''public void setDialogSrcName(final String dialogSrcName)
+    '''returns None\n\n
+    setDialogSrcName(final String dialogSrcName)\n
     '''

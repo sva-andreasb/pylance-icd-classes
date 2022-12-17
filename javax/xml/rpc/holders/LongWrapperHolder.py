@@ -1,4 +1,5 @@
-def LongWrapperHolder():
-    '''public LongWrapperHolder()
-    public LongWrapperHolder(final Long value)
+def ():
+    '''returns LongWrapperHolder\n\n
+    ()\n
+    (final Long mylong)\n
     '''

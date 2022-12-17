@@ -1,12 +1,16 @@
-def MaxAssetProcess():
-    '''public MaxAssetProcess()
+def ():
+    '''returns MaxAssetProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
+    '''returns None\n\n
+    changeStatus(final MboRemote setMbo, final String stat, final String memo)\n
     '''

@@ -1,30 +1,40 @@
-def FWMGanttSheetListener():
-    '''public FWMGanttSheetListener(final IlvGanttSheet ganttSheet)
+def ():
+    '''returns FWMGanttSheetListener\n\n
+    (final IlvGanttSheet ganttSheet)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent e)
+    '''returns None\n\n
+    mouseExited(final MouseEvent e)\n
     '''
 def closeTip():
-    '''public void closeTip()
+    '''returns None\n\n
+    closeTip()\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent e)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent e)\n
     '''
 def mouseMoved():
-    '''public void mouseMoved(final MouseEvent e)
+    '''returns None\n\n
+    mouseMoved(final MouseEvent e)\n
     '''
 def mouseDragged():
-    '''public void mouseDragged(final MouseEvent e)
+    '''returns None\n\n
+    mouseDragged(final MouseEvent e)\n
     '''

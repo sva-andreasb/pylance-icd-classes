@@ -1,13 +1,17 @@
-def DefaultHttpMethodRetryHandler():
-    '''public DefaultHttpMethodRetryHandler(final int retryCount, final boolean requestSentRetryEnabled)
-    public DefaultHttpMethodRetryHandler()
+def ():
+    '''returns DefaultHttpMethodRetryHandler\n\n
+    (final int retryCount, final boolean requestSentRetryEnabled)\n
+    ()\n
     '''
 def retryMethod():
-    '''public boolean retryMethod(final HttpMethod method, final IOException exception, final int executionCount)
+    '''returns boolean\n\n
+    retryMethod(final HttpMethod method, final IOException exception, final int executionCount)\n
     '''
 def isRequestSentRetryEnabled():
-    '''public boolean isRequestSentRetryEnabled()
+    '''returns boolean\n\n
+    isRequestSentRetryEnabled()\n
     '''
 def getRetryCount():
-    '''public int getRetryCount()
+    '''returns int\n\n
+    getRetryCount()\n
     '''

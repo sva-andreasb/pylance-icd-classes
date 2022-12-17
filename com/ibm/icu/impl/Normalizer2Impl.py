@@ -39,171 +39,187 @@ JAMO_VT_COUNT = "int  588"
 HANGUL_COUNT = "int  11172"
 HANGUL_LIMIT = "int  55204"
 def load():
-    '''public Normalizer2Impl load(final InputStream data)
-    public Normalizer2Impl load(final String name)
+    '''returns Normalizer2Impl\n\n
+    load(final InputStream data)\n
+    load(final String name)\n
     '''
 def addPropertyStarts():
-    '''public void addPropertyStarts(final UnicodeSet set)
+    '''returns None\n\n
+    addPropertyStarts(final UnicodeSet set)\n
     '''
 def addCanonIterPropertyStarts():
-    '''public void addCanonIterPropertyStarts(final UnicodeSet set)
+    '''returns None\n\n
+    addCanonIterPropertyStarts(final UnicodeSet set)\n
     '''
 def getNormTrie():
-    '''public Trie2_16 getNormTrie()
-    '''
-def getFCDTrie():
-    '''public synchronized Trie2_16 getFCDTrie()
-    '''
-def ensureCanonIterData():
-    '''public synchronized Normalizer2Impl ensureCanonIterData()
+    '''returns Trie2_16\n\n
+    getNormTrie()\n
     '''
 def getNorm16():
-    '''public int getNorm16(final int c)
+    '''returns int\n\n
+    getNorm16(final int c)\n
     '''
 def getCompQuickCheck():
-    '''public int getCompQuickCheck(final int norm16)
+    '''returns int\n\n
+    getCompQuickCheck(final int norm16)\n
     '''
 def isCompNo():
-    '''public boolean isCompNo(final int norm16)
+    '''returns boolean\n\n
+    isCompNo(final int norm16)\n
     '''
 def isDecompYes():
-    '''public boolean isDecompYes(final int norm16)
+    '''returns boolean\n\n
+    isDecompYes(final int norm16)\n
     '''
 def getCC():
-    '''public int getCC(final int norm16)
-    '''
-def getCCFromYesOrMaybe():
-    '''public static int getCCFromYesOrMaybe(final int norm16)
+    '''returns int\n\n
+    getCC(final int norm16)\n
     '''
 def getFCD16():
-    '''public int getFCD16(final int c)
+    '''returns int\n\n
+    getFCD16(final int c)\n
     '''
 def getFCD16FromSingleLead():
-    '''public int getFCD16FromSingleLead(final char c)
+    '''returns int\n\n
+    getFCD16FromSingleLead(final char c)\n
     '''
 def getDecomposition():
-    '''public String getDecomposition(int c)
+    '''returns String\n\n
+    getDecomposition(int c)\n
     '''
 def isCanonSegmentStarter():
-    '''public boolean isCanonSegmentStarter(final int c)
+    '''returns boolean\n\n
+    isCanonSegmentStarter(final int c)\n
     '''
 def getCanonStartSet():
-    '''public boolean getCanonStartSet(final int c, final UnicodeSet set)
+    '''returns boolean\n\n
+    getCanonStartSet(final int c, final UnicodeSet set)\n
     '''
 def decompose():
-    '''public int decompose(final CharSequence s, int src, final int limit, final ReorderingBuffer buffer)
-    public static int decompose(int c, final Appendable buffer)
+    '''returns int\n\n
+    decompose(final CharSequence s, int src, final int limit, final ReorderingBuffer buffer)\n
     '''
 def decomposeAndAppend():
-    '''public void decomposeAndAppend(final CharSequence s, final boolean doDecompose, final ReorderingBuffer buffer)
+    '''returns None\n\n
+    decomposeAndAppend(final CharSequence s, final boolean doDecompose, final ReorderingBuffer buffer)\n
     '''
 def compose():
-    '''public boolean compose(final CharSequence s, int src, final int limit, final boolean onlyContiguous, final boolean doCompose, final ReorderingBuffer buffer)
+    '''returns boolean\n\n
+    compose(final CharSequence s, int src, final int limit, final boolean onlyContiguous, final boolean doCompose, final ReorderingBuffer buffer)\n
     '''
 def composeQuickCheck():
-    '''public int composeQuickCheck(final CharSequence s, int src, final int limit, final boolean onlyContiguous, final boolean doSpan)
+    '''returns int\n\n
+    composeQuickCheck(final CharSequence s, int src, final int limit, final boolean onlyContiguous, final boolean doSpan)\n
     '''
 def composeAndAppend():
-    '''public void composeAndAppend(final CharSequence s, final boolean doCompose, final boolean onlyContiguous, final ReorderingBuffer buffer)
+    '''returns None\n\n
+    composeAndAppend(final CharSequence s, final boolean doCompose, final boolean onlyContiguous, final ReorderingBuffer buffer)\n
     '''
 def makeFCD():
-    '''public int makeFCD(final CharSequence s, int src, final int limit, final ReorderingBuffer buffer)
+    '''returns int\n\n
+    makeFCD(final CharSequence s, int src, final int limit, final ReorderingBuffer buffer)\n
     '''
 def makeFCDAndAppend():
-    '''public void makeFCDAndAppend(final CharSequence s, final boolean doMakeFCD, final ReorderingBuffer buffer)
+    '''returns None\n\n
+    makeFCDAndAppend(final CharSequence s, final boolean doMakeFCD, final ReorderingBuffer buffer)\n
     '''
 def hasDecompBoundary():
-    '''public boolean hasDecompBoundary(int c, final boolean before)
+    '''returns boolean\n\n
+    hasDecompBoundary(int c, final boolean before)\n
     '''
 def isDecompInert():
-    '''public boolean isDecompInert(final int c)
+    '''returns boolean\n\n
+    isDecompInert(final int c)\n
     '''
 def hasCompBoundaryBefore():
-    '''public boolean hasCompBoundaryBefore(final int c)
+    '''returns boolean\n\n
+    hasCompBoundaryBefore(final int c)\n
     '''
 def hasCompBoundaryAfter():
-    '''public boolean hasCompBoundaryAfter(int c, final boolean onlyContiguous, final boolean testInert)
+    '''returns boolean\n\n
+    hasCompBoundaryAfter(int c, final boolean onlyContiguous, final boolean testInert)\n
     '''
 def hasFCDBoundaryBefore():
-    '''public boolean hasFCDBoundaryBefore(final int c)
+    '''returns boolean\n\n
+    hasFCDBoundaryBefore(final int c)\n
     '''
 def hasFCDBoundaryAfter():
-    '''public boolean hasFCDBoundaryAfter(final int c)
+    '''returns boolean\n\n
+    hasFCDBoundaryAfter(final int c)\n
     '''
 def isFCDInert():
-    '''public boolean isFCDInert(final int c)
+    '''returns boolean\n\n
+    isFCDInert(final int c)\n
     '''
 def decomposeShort():
-    '''public void decomposeShort(final CharSequence s, int src, final int limit, final ReorderingBuffer buffer)
+    '''returns None\n\n
+    decomposeShort(final CharSequence s, int src, final int limit, final ReorderingBuffer buffer)\n
     '''
 def map():
-    '''public int map(final int in)
+    '''returns int\n\n
+    map(final int in)\n
     '''
-def isHangul():
-    '''public static boolean isHangul(final int c)
-    '''
-def isHangulWithoutJamoT():
-    '''public static boolean isHangulWithoutJamoT(char c)
-    '''
-def isJamoL():
-    '''public static boolean isJamoL(final int c)
-    '''
-def isJamoV():
-    '''public static boolean isJamoV(final int c)
-    '''
-def ReorderingBuffer():
-    '''public ReorderingBuffer(final Normalizer2Impl ni, final Appendable dest, final int destCapacity)
+def ():
+    '''returns ReorderingBuffer\n\n
+    (final Normalizer2Impl ni, final Appendable dest, final int destCapacity)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def getLastCC():
-    '''public int getLastCC()
+    '''returns int\n\n
+    getLastCC()\n
     '''
 def getStringBuilder():
-    '''public StringBuilder getStringBuilder()
+    '''returns StringBuilder\n\n
+    getStringBuilder()\n
     '''
 def equals():
-    '''public boolean equals(final CharSequence s, final int start, final int limit)
+    '''returns boolean\n\n
+    equals(final CharSequence s, final int start, final int limit)\n
     '''
 def setLastChar():
-    '''public void setLastChar(final char c)
+    '''returns None\n\n
+    setLastChar(final char c)\n
     '''
 def append():
-    '''public void append(final int c, final int cc)
-    public void append(final CharSequence s, int start, final int limit, int leadCC, final int trailCC)
-    public ReorderingBuffer append(final char c)
-    public ReorderingBuffer append(final CharSequence s)
-    public ReorderingBuffer append(final CharSequence s, final int start, final int limit)
+    '''returns ReorderingBuffer\n\n
+    append(final int c, final int cc)\n
+    append(final CharSequence s, int start, final int limit, int leadCC, final int trailCC)\n
+    append(final char c)\n
+    append(final CharSequence s)\n
+    append(final CharSequence s, final int start, final int limit)\n
     '''
 def appendZeroCC():
-    '''public void appendZeroCC(final int c)
+    '''returns None\n\n
+    appendZeroCC(final int c)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def flushAndAppendZeroCC():
-    '''public ReorderingBuffer flushAndAppendZeroCC(final CharSequence s, final int start, final int limit)
+    '''returns ReorderingBuffer\n\n
+    flushAndAppendZeroCC(final CharSequence s, final int start, final int limit)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def removeSuffix():
-    '''public void removeSuffix(final int suffixLength)
-    '''
-def isSurrogateLead():
-    '''public static boolean isSurrogateLead(final int c)
-    '''
-def equal():
-    '''public static boolean equal(final CharSequence s1, final CharSequence s2)
-    public static boolean equal(final CharSequence s1, int start1, final int limit1, final CharSequence s2, int start2, final int limit2)
+    '''returns None\n\n
+    removeSuffix(final int suffixLength)\n
     '''
 def isDataVersionAcceptable():
-    '''public boolean isDataVersionAcceptable(final byte[] version)
+    '''returns boolean\n\n
+    isDataVersionAcceptable(final byte[] version)\n
     '''
 def readHeader():
-    '''public VersionInfo readHeader(final InputStream data)
+    '''returns VersionInfo\n\n
+    readHeader(final InputStream data)\n
     '''

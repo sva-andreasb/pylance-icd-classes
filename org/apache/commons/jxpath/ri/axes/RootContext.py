@@ -1,45 +1,60 @@
-def RootContext():
-    '''public RootContext(final JXPathContextReferenceImpl jxpathContext, final NodePointer pointer)
+def ():
+    '''returns RootContext\n\n
+    (final JXPathContextReferenceImpl jxpathContext, final NodePointer pointer)\n
     '''
 def getJXPathContext():
-    '''public JXPathContext getJXPathContext()
+    '''returns JXPathContext\n\n
+    getJXPathContext()\n
     '''
 def getRootContext():
-    '''public RootContext getRootContext()
+    '''returns RootContext\n\n
+    getRootContext()\n
     '''
 def getAbsoluteRootContext():
-    '''public EvalContext getAbsoluteRootContext()
+    '''returns EvalContext\n\n
+    getAbsoluteRootContext()\n
     '''
 def getCurrentNodePointer():
-    '''public NodePointer getCurrentNodePointer()
+    '''returns NodePointer\n\n
+    getCurrentNodePointer()\n
     '''
 def getCurrentPosition():
-    '''public int getCurrentPosition()
+    '''returns int\n\n
+    getCurrentPosition()\n
     '''
 def nextNode():
-    '''public boolean nextNode()
+    '''returns boolean\n\n
+    nextNode()\n
     '''
 def nextSet():
-    '''public boolean nextSet()
+    '''returns boolean\n\n
+    nextSet()\n
     '''
 def setPosition():
-    '''public boolean setPosition(final int position)
+    '''returns boolean\n\n
+    setPosition(final int position)\n
     '''
 def getConstantContext():
-    '''public EvalContext getConstantContext(final Object constant)
+    '''returns EvalContext\n\n
+    getConstantContext(final Object constant)\n
     '''
 def getVariableContext():
-    '''public EvalContext getVariableContext(final QName variableName)
+    '''returns EvalContext\n\n
+    getVariableContext(final QName variableName)\n
     '''
 def getFunction():
-    '''public Function getFunction(final QName functionName, final Object[] parameters)
+    '''returns Function\n\n
+    getFunction(final QName functionName, final Object[] parameters)\n
     '''
 def getRegisteredValue():
-    '''public Object getRegisteredValue(final int id)
+    '''returns Object\n\n
+    getRegisteredValue(final int id)\n
     '''
 def setRegisteredValue():
-    '''public int setRegisteredValue(final Object value)
+    '''returns int\n\n
+    setRegisteredValue(final Object value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

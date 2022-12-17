@@ -1,26 +1,34 @@
 def isBlackoutPeriodConflict():
-    '''public boolean isBlackoutPeriodConflict(final UserInfo userinfo, final String type, final Date startDate, final Date endDate)
+    '''returns boolean\n\n
+    isBlackoutPeriodConflict(final UserInfo userinfo, final String type, final Date startDate, final Date endDate)\n
     '''
 def countAllCISchedConflicts():
-    '''public int countAllCISchedConflicts(final Connection con, final UserInfo userinfo, final Date schedstart, final Date schedfinish)
+    '''returns int\n\n
+    countAllCISchedConflicts(final Connection con, final UserInfo userinfo, final Date schedstart, final Date schedfinish)\n
     '''
 def countTargetCISchedConflicts():
-    '''public int countTargetCISchedConflicts(final UserInfo userinfo, final String wonum, final String woclass, final String siteid, final Date schedstart, final Date schedfinish)
-    public int countTargetCISchedConflicts(final UserInfo userinfo, final Connection con, final Date startTime, final Date endTime)
+    '''returns int\n\n
+    countTargetCISchedConflicts(final UserInfo userinfo, final String wonum, final String woclass, final String siteid, final Date schedstart, final Date schedfinish)\n
+    countTargetCISchedConflicts(final UserInfo userinfo, final Connection con, final Date startTime, final Date endTime)\n
     '''
 def countImpactedCISchedConflicts():
-    '''public int countImpactedCISchedConflicts(final UserInfo userinfo, final String wonum, final String woclass, final String siteid, final Date schedstart, final Date schedfinish)
-    public int countImpactedCISchedConflicts(final UserInfo userinfo, final Connection con, final Date startTime, final Date endTime)
+    '''returns int\n\n
+    countImpactedCISchedConflicts(final UserInfo userinfo, final String wonum, final String woclass, final String siteid, final Date schedstart, final Date schedfinish)\n
+    countImpactedCISchedConflicts(final UserInfo userinfo, final Connection con, final Date startTime, final Date endTime)\n
     '''
 def isCWSchedConflict():
-    '''public boolean isCWSchedConflict(final UserInfo userinfo, final String cinum, final Date schedstart, final Date schedfinish, final String orgid)
+    '''returns boolean\n\n
+    isCWSchedConflict(final UserInfo userinfo, final String cinum, final Date schedstart, final Date schedfinish, final String orgid)\n
     '''
 def findCICWSchedConflictsByTime():
-    '''public HashSet<String> findCICWSchedConflictsByTime(final UserInfo userinfo, final Connection con, final Date startDate, final Date endDate, final boolean doImpacted)
+    '''returns HashSet<String>\n\n
+    findCICWSchedConflictsByTime(final UserInfo userinfo, final Connection con, final Date startDate, final Date endDate, final boolean doImpacted)\n
     '''
 def findCICWSchedConflictsByCI():
-    '''public HashSet<String> findCICWSchedConflictsByCI(final Connection con, final UserInfo userinfo, final Date startDate, final Date endDate, final String cinum, final boolean doImpacted)
+    '''returns HashSet<String>\n\n
+    findCICWSchedConflictsByCI(final Connection con, final UserInfo userinfo, final Date startDate, final Date endDate, final String cinum, final boolean doImpacted)\n
     '''
 def findCICWSchedConflictsByCollection():
-    '''public HashSet<String> findCICWSchedConflictsByCollection(final Connection con, final UserInfo userinfo, final Date startDate, final Date endDate, final String collectionnum, final boolean doImpacted)
+    '''returns HashSet<String>\n\n
+    findCICWSchedConflictsByCollection(final Connection con, final UserInfo userinfo, final Date startDate, final Date endDate, final String collectionnum, final boolean doImpacted)\n
     '''

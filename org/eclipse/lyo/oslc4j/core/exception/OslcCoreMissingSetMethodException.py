@@ -1,6 +1,8 @@
-def OslcCoreMissingSetMethodException():
-    '''public OslcCoreMissingSetMethodException(final Class<?> resourceClass, final Method getMethod, final Exception exception)
+def ():
+    '''returns OslcCoreMissingSetMethodException\n\n
+    (final Class<?> resourceClass, final Method getMethod, final Exception exception)\n
     '''
 def getGetMethod():
-    '''public Method getGetMethod()
+    '''returns Method\n\n
+    getGetMethod()\n
     '''

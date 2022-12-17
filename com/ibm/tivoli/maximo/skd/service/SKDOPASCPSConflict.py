@@ -1,3 +1,4 @@
-def SKDOPASCPSConflict():
-    '''public SKDOPASCPSConflict(final MboSet ms)
+def ():
+    '''returns SKDOPASCPSConflict\n\n
+    (final MboSet ms)\n
     '''

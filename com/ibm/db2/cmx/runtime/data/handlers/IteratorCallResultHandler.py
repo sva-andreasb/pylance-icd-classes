@@ -1,7 +1,9 @@
-def IteratorCallResultHandler():
-    '''public IteratorCallResultHandler(final RowHandler<T> rowHandler)
-    public IteratorCallResultHandler(final Class<T> clazz)
+def ():
+    '''returns IteratorCallResultHandler\n\n
+    (final RowHandler<T> rowHandler)\n
+    (final Class<T> clazz)\n
     '''
 def handle():
-    '''public ResultIterator<T> handle(final ResultSet set)
+    '''returns ResultIterator<T>\n\n
+    handle(final ResultSet set)\n
     '''

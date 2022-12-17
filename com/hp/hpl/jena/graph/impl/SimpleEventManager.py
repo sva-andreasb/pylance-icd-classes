@@ -1,53 +1,66 @@
-def SimpleEventManager():
-    '''public SimpleEventManager(final Graph graph)
+def ():
+    '''returns SimpleEventManager\n\n
+    (final Graph graph)\n
     '''
 def register():
-    '''public GraphEventManager register(final GraphListener listener)
+    '''returns GraphEventManager\n\n
+    register(final GraphListener listener)\n
     '''
 def unregister():
-    '''public GraphEventManager unregister(final GraphListener listener)
+    '''returns GraphEventManager\n\n
+    unregister(final GraphListener listener)\n
     '''
 def listening():
-    '''public boolean listening()
+    '''returns boolean\n\n
+    listening()\n
     '''
 def notifyAddTriple():
-    '''public void notifyAddTriple(final Graph g, final Triple t)
+    '''returns None\n\n
+    notifyAddTriple(final Graph g, final Triple t)\n
     '''
 def notifyAddArray():
-    '''public void notifyAddArray(final Graph g, final Triple[] ts)
+    '''returns None\n\n
+    notifyAddArray(final Graph g, final Triple[] ts)\n
     '''
 def notifyAddList():
-    '''public void notifyAddList(final Graph g, final List<Triple> L)
+    '''returns None\n\n
+    notifyAddList(final Graph g, final List<Triple> L)\n
     '''
 def notifyAddIterator():
-    '''public void notifyAddIterator(final Graph g, final List<Triple> it)
-    public void notifyAddIterator(final Graph g, final Iterator<Triple> it)
+    '''returns None\n\n
+    notifyAddIterator(final Graph g, final List<Triple> it)\n
+    notifyAddIterator(final Graph g, final Iterator<Triple> it)\n
     '''
 def notifyAddGraph():
-    '''public void notifyAddGraph(final Graph g, final Graph added)
+    '''returns None\n\n
+    notifyAddGraph(final Graph g, final Graph added)\n
     '''
 def notifyDeleteTriple():
-    '''public void notifyDeleteTriple(final Graph g, final Triple t)
+    '''returns None\n\n
+    notifyDeleteTriple(final Graph g, final Triple t)\n
     '''
 def notifyDeleteArray():
-    '''public void notifyDeleteArray(final Graph g, final Triple[] ts)
+    '''returns None\n\n
+    notifyDeleteArray(final Graph g, final Triple[] ts)\n
     '''
 def notifyDeleteList():
-    '''public void notifyDeleteList(final Graph g, final List<Triple> L)
+    '''returns None\n\n
+    notifyDeleteList(final Graph g, final List<Triple> L)\n
     '''
 def notifyDeleteIterator():
-    '''public void notifyDeleteIterator(final Graph g, final List<Triple> L)
-    public void notifyDeleteIterator(final Graph g, final Iterator<Triple> it)
+    '''returns None\n\n
+    notifyDeleteIterator(final Graph g, final List<Triple> L)\n
+    notifyDeleteIterator(final Graph g, final Iterator<Triple> it)\n
     '''
 def notifyDeleteGraph():
-    '''public void notifyDeleteGraph(final Graph g, final Graph removed)
+    '''returns None\n\n
+    notifyDeleteGraph(final Graph g, final Graph removed)\n
     '''
 def notifyEvent():
-    '''public void notifyEvent(final Graph source, final Object event)
-    '''
-def notifyingRemove():
-    '''public static ExtendedIterator<Triple> notifyingRemove(final Graph g, final Iterator<Triple> i)
+    '''returns None\n\n
+    notifyEvent(final Graph source, final Object event)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

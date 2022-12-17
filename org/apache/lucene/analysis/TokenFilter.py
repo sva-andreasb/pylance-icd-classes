@@ -1,9 +1,12 @@
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

@@ -1,3 +1,4 @@
-def CognosObjectTypeExpressionHelper():
-    '''public CognosObjectTypeExpressionHelper()
+def ():
+    '''returns CognosObjectTypeExpressionHelper\n\n
+    ()\n
     '''

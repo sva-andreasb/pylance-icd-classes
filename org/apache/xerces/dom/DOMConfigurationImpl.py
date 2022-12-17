@@ -1,60 +1,80 @@
 def parse():
-    '''public void parse(final XMLInputSource xmlInputSource)
+    '''returns None\n\n
+    parse(final XMLInputSource xmlInputSource)\n
     '''
 def setDocumentHandler():
-    '''public void setDocumentHandler(final XMLDocumentHandler fDocumentHandler)
+    '''returns None\n\n
+    setDocumentHandler(final XMLDocumentHandler fDocumentHandler)\n
     '''
 def getDocumentHandler():
-    '''public XMLDocumentHandler getDocumentHandler()
+    '''returns XMLDocumentHandler\n\n
+    getDocumentHandler()\n
     '''
 def setDTDHandler():
-    '''public void setDTDHandler(final XMLDTDHandler xmldtdHandler)
+    '''returns None\n\n
+    setDTDHandler(final XMLDTDHandler xmldtdHandler)\n
     '''
 def getDTDHandler():
-    '''public XMLDTDHandler getDTDHandler()
+    '''returns XMLDTDHandler\n\n
+    getDTDHandler()\n
     '''
 def setDTDContentModelHandler():
-    '''public void setDTDContentModelHandler(final XMLDTDContentModelHandler xmldtdContentModelHandler)
+    '''returns None\n\n
+    setDTDContentModelHandler(final XMLDTDContentModelHandler xmldtdContentModelHandler)\n
     '''
 def getDTDContentModelHandler():
-    '''public XMLDTDContentModelHandler getDTDContentModelHandler()
+    '''returns XMLDTDContentModelHandler\n\n
+    getDTDContentModelHandler()\n
     '''
 def setEntityResolver():
-    '''public void setEntityResolver(final XMLEntityResolver value)
+    '''returns None\n\n
+    setEntityResolver(final XMLEntityResolver value)\n
     '''
 def getEntityResolver():
-    '''public XMLEntityResolver getEntityResolver()
+    '''returns XMLEntityResolver\n\n
+    getEntityResolver()\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final XMLErrorHandler value)
+    '''returns None\n\n
+    setErrorHandler(final XMLErrorHandler value)\n
     '''
 def getErrorHandler():
-    '''public XMLErrorHandler getErrorHandler()
+    '''returns XMLErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String s)
+    '''returns boolean\n\n
+    getFeature(final String s)\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean b)
+    '''returns None\n\n
+    setFeature(final String s, final boolean b)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setParameter():
-    '''public void setParameter(final String s, final Object o)
+    '''returns None\n\n
+    setParameter(final String s, final Object o)\n
     '''
 def getParameter():
-    '''public Object getParameter(final String s)
+    '''returns Object\n\n
+    getParameter(final String s)\n
     '''
 def canSetParameter():
-    '''public boolean canSetParameter(final String s, final Object o)
+    '''returns boolean\n\n
+    canSetParameter(final String s, final Object o)\n
     '''
 def getParameterNames():
-    '''public DOMStringList getParameterNames()
+    '''returns DOMStringList\n\n
+    getParameterNames()\n
     '''

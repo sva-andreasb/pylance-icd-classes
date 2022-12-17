@@ -1,31 +1,41 @@
-def OslcRDFObjectListIterator():
-    '''public OslcRDFObjectListIterator()
-    public OslcRDFObjectListIterator(final ListIterator<Statement> lt, final String osName, final String objectPath, final String messageType, final UserInfo userInfo)
+def ():
+    '''returns OslcRDFObjectListIterator\n\n
+    ()\n
+    (final ListIterator<Statement> lt, final String osName, final String objectPath, final String messageType, final UserInfo userInfo)\n
     '''
 def nextIndex():
-    '''public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def previous():
-    '''public Object previous()
+    '''returns Object\n\n
+    previous()\n
     '''
 def add():
-    '''public void add(final Object o)
+    '''returns None\n\n
+    add(final Object o)\n
     '''
 def set():
-    '''public void set(final Object o)
+    '''returns None\n\n
+    set(final Object o)\n
     '''

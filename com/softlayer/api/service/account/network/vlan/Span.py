@@ -1,81 +1,108 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getEnabledFlag():
-    '''public Boolean getEnabledFlag()
+    '''returns Boolean\n\n
+    getEnabledFlag()\n
     '''
 def setEnabledFlag():
-    '''public void setEnabledFlag(final Boolean enabledFlag)
+    '''returns None\n\n
+    setEnabledFlag(final Boolean enabledFlag)\n
     '''
 def isEnabledFlagSpecified():
-    '''public boolean isEnabledFlagSpecified()
+    '''returns boolean\n\n
+    isEnabledFlagSpecified()\n
     '''
 def unsetEnabledFlag():
-    '''public void unsetEnabledFlag()
+    '''returns None\n\n
+    unsetEnabledFlag()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getLastAppliedDate():
-    '''public GregorianCalendar getLastAppliedDate()
+    '''returns GregorianCalendar\n\n
+    getLastAppliedDate()\n
     '''
 def setLastAppliedDate():
-    '''public void setLastAppliedDate(final GregorianCalendar lastAppliedDate)
+    '''returns None\n\n
+    setLastAppliedDate(final GregorianCalendar lastAppliedDate)\n
     '''
 def isLastAppliedDateSpecified():
-    '''public boolean isLastAppliedDateSpecified()
+    '''returns boolean\n\n
+    isLastAppliedDateSpecified()\n
     '''
 def unsetLastAppliedDate():
-    '''public void unsetLastAppliedDate()
+    '''returns None\n\n
+    unsetLastAppliedDate()\n
     '''
 def getLastVerifiedDate():
-    '''public GregorianCalendar getLastVerifiedDate()
+    '''returns GregorianCalendar\n\n
+    getLastVerifiedDate()\n
     '''
 def setLastVerifiedDate():
-    '''public void setLastVerifiedDate(final GregorianCalendar lastVerifiedDate)
+    '''returns None\n\n
+    setLastVerifiedDate(final GregorianCalendar lastVerifiedDate)\n
     '''
 def isLastVerifiedDateSpecified():
-    '''public boolean isLastVerifiedDateSpecified()
+    '''returns boolean\n\n
+    isLastVerifiedDateSpecified()\n
     '''
 def unsetLastVerifiedDate():
-    '''public void unsetLastVerifiedDate()
+    '''returns None\n\n
+    unsetLastVerifiedDate()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def enabledFlag():
-    '''public Mask enabledFlag()
+    '''returns Mask\n\n
+    enabledFlag()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def lastAppliedDate():
-    '''public Mask lastAppliedDate()
+    '''returns Mask\n\n
+    lastAppliedDate()\n
     '''
 def lastVerifiedDate():
-    '''public Mask lastVerifiedDate()
+    '''returns Mask\n\n
+    lastVerifiedDate()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''

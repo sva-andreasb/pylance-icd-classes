@@ -1,58 +1,61 @@
 STUNSERVERS_FILENAME = "String  \"META-INF/stun-config.xml\""
-def STUNResolver():
-    '''public STUNResolver()
-    public STUNResolver(final int defaultPort)
+def ():
+    '''returns STUNService\n\n
+    ()\n
+    (final int defaultPort)\n
+    (final String hostname, final int port)\n
+    ()\n
     '''
 def isResolving():
-    '''public boolean isResolving()
+    '''returns boolean\n\n
+    isResolving()\n
     '''
 def setSTUNService():
-    '''public void setSTUNService(final String ip, final int port)
+    '''returns None\n\n
+    setSTUNService(final String ip, final int port)\n
     '''
 def getCurrentServerName():
-    '''public String getCurrentServerName()
+    '''returns String\n\n
+    getCurrentServerName()\n
     '''
 def getCurrentServerPort():
-    '''public int getCurrentServerPort()
+    '''returns int\n\n
+    getCurrentServerPort()\n
     '''
 def loadSTUNServers():
-    '''public ArrayList<STUNService> loadSTUNServers(final InputStream stunConfigStream)
-    public ArrayList<STUNService> loadSTUNServers()
-    '''
-def resolve():
-    '''public synchronized void resolve(final JingleSession session)
+    '''returns ArrayList<STUNService>\n\n
+    loadSTUNServers(final InputStream stunConfigStream)\n
+    loadSTUNServers()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def run():
-    '''public void run()
-    '''
-def cancel():
-    '''public synchronized void cancel()
-    '''
-def clear():
-    '''public synchronized void clear()
-    '''
-def STUNService():
-    '''public STUNService(final String hostname, final int port)
-    public STUNService()
+    '''returns None\n\n
+    run()\n
     '''
 def getHostname():
-    '''public String getHostname()
+    '''returns String\n\n
+    getHostname()\n
     '''
 def setHostname():
-    '''public void setHostname(final String hostname)
+    '''returns None\n\n
+    setHostname(final String hostname)\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def setPort():
-    '''public void setPort(final int port)
+    '''returns None\n\n
+    setPort(final int port)\n
     '''
 def isNull():
-    '''public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
     '''
 def checkBinding():
-    '''public boolean checkBinding()
+    '''returns boolean\n\n
+    checkBinding()\n
     '''

@@ -1,3 +1,4 @@
-def FldDPAObjectName():
-    '''public FldDPAObjectName(final MboValue mbv)
+def ():
+    '''returns FldDPAObjectName\n\n
+    (final MboValue mbv)\n
     '''

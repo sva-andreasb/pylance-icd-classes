@@ -6,88 +6,113 @@ PDF417_AUTO_ERROR_LEVEL = "int  0"
 PDF417_USE_ERROR_LEVEL = "int  16"
 PDF417_USE_RAW_CODEWORDS = "int  64"
 PDF417_INVERT_BITMAP = "int  128"
-def BarcodePDF417():
-    '''public BarcodePDF417()
+def ():
+    '''returns Segment\n\n
+    ()\n
+    (final char type, final int start, final int end)\n
     '''
 def setDefaultParameters():
-    '''public void setDefaultParameters()
+    '''returns None\n\n
+    setDefaultParameters()\n
     '''
 def paintCode():
-    '''public void paintCode()
+    '''returns None\n\n
+    paintCode()\n
     '''
 def getImage():
-    '''public Image getImage()
+    '''returns Image\n\n
+    getImage()\n
     '''
 def getOutBits():
-    '''public byte[] getOutBits()
+    '''returns byte[]\n\n
+    getOutBits()\n
     '''
 def getBitColumns():
-    '''public int getBitColumns()
+    '''returns int\n\n
+    getBitColumns()\n
     '''
 def getCodeRows():
-    '''public int getCodeRows()
+    '''returns int\n\n
+    getCodeRows()\n
     '''
 def setCodeRows():
-    '''public void setCodeRows(final int codeRows)
+    '''returns None\n\n
+    setCodeRows(final int codeRows)\n
     '''
 def getCodeColumns():
-    '''public int getCodeColumns()
+    '''returns int\n\n
+    getCodeColumns()\n
     '''
 def setCodeColumns():
-    '''public void setCodeColumns(final int codeColumns)
+    '''returns None\n\n
+    setCodeColumns(final int codeColumns)\n
     '''
 def getCodewords():
-    '''public int[] getCodewords()
+    '''returns int[]\n\n
+    getCodewords()\n
     '''
 def getLenCodewords():
-    '''public int getLenCodewords()
+    '''returns int\n\n
+    getLenCodewords()\n
     '''
 def setLenCodewords():
-    '''public void setLenCodewords(final int lenCodewords)
+    '''returns None\n\n
+    setLenCodewords(final int lenCodewords)\n
     '''
 def getErrorLevel():
-    '''public int getErrorLevel()
+    '''returns int\n\n
+    getErrorLevel()\n
     '''
 def setErrorLevel():
-    '''public void setErrorLevel(final int errorLevel)
+    '''returns None\n\n
+    setErrorLevel(final int errorLevel)\n
     '''
 def getText():
-    '''public byte[] getText()
+    '''returns byte[]\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final byte[] text)
-    public void setText(final String s)
+    '''returns None\n\n
+    setText(final byte[] text)\n
+    setText(final String s)\n
     '''
 def getOptions():
-    '''public int getOptions()
+    '''returns int\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final int options)
+    '''returns None\n\n
+    setOptions(final int options)\n
     '''
 def getAspectRatio():
-    '''public float getAspectRatio()
+    '''returns float\n\n
+    getAspectRatio()\n
     '''
 def setAspectRatio():
-    '''public void setAspectRatio(final float aspectRatio)
+    '''returns None\n\n
+    setAspectRatio(final float aspectRatio)\n
     '''
 def getYHeight():
-    '''public float getYHeight()
+    '''returns float\n\n
+    getYHeight()\n
     '''
 def setYHeight():
-    '''public void setYHeight(final float yHeight)
-    '''
-def Segment():
-    '''public Segment(final char type, final int start, final int end)
+    '''returns None\n\n
+    setYHeight(final float yHeight)\n
     '''
 def add():
-    '''public void add(final char type, final int start, final int end)
+    '''returns None\n\n
+    add(final char type, final int start, final int end)\n
     '''
 def get():
-    '''public Segment get(final int idx)
+    '''returns Segment\n\n
+    get(final int idx)\n
     '''
 def remove():
-    '''public void remove(final int idx)
+    '''returns None\n\n
+    remove(final int idx)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

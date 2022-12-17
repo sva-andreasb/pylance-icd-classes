@@ -1,42 +1,56 @@
 def resolveEntity():
-    '''public InputSource resolveEntity(final String s, final String s2)
+    '''returns InputSource\n\n
+    resolveEntity(final String s, final String s2)\n
     '''
 def notationDecl():
-    '''public void notationDecl(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    notationDecl(final String s, final String s2, final String s3)\n
     '''
 def unparsedEntityDecl():
-    '''public void unparsedEntityDecl(final String s, final String s2, final String s3, final String s4)
+    '''returns None\n\n
+    unparsedEntityDecl(final String s, final String s2, final String s3, final String s4)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String s, final AttributeList list)
+    '''returns None\n\n
+    startElement(final String s, final AttributeList list)\n
     '''
 def endElement():
-    '''public void endElement(final String s)
+    '''returns None\n\n
+    endElement(final String s)\n
     '''
 def characters():
-    '''public void characters(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    characters(final char[] array, final int n, final int n2)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] array, final int n, final int n2)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String s, final String s2)
+    '''returns None\n\n
+    processingInstruction(final String s, final String s2)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException ex)
+    '''returns None\n\n
+    warning(final SAXParseException ex)\n
     '''
 def error():
-    '''public void error(final SAXParseException ex)
+    '''returns None\n\n
+    error(final SAXParseException ex)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException ex)
+    '''returns None\n\n
+    fatalError(final SAXParseException ex)\n
     '''

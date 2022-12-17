@@ -19,51 +19,63 @@ precStart = "int  2"
 precLParen = "int  3"
 precOpOr = "int  4"
 precOpCat = "int  5"
-def getCopyright():
-    '''public static String getCopyright()
-    '''
 def getPrecedence():
-    '''public int getPrecedence()
+    '''returns int\n\n
+    getPrecedence()\n
     '''
 def setLeftHandNode():
-    '''public void setLeftHandNode(final ParseNode leftChild)
+    '''returns None\n\n
+    setLeftHandNode(final ParseNode leftChild)\n
     '''
 def getLeftHandNode():
-    '''public ParseNode getLeftHandNode()
+    '''returns ParseNode\n\n
+    getLeftHandNode()\n
     '''
 def setRightHandNode():
-    '''public void setRightHandNode(final ParseNode rightChild)
+    '''returns None\n\n
+    setRightHandNode(final ParseNode rightChild)\n
     '''
 def getRightHandNode():
-    '''public ParseNode getRightHandNode()
+    '''returns ParseNode\n\n
+    getRightHandNode()\n
     '''
 def setFirstPos():
-    '''public void setFirstPos(final int firstPos)
+    '''returns None\n\n
+    setFirstPos(final int firstPos)\n
     '''
 def getFirstPos():
-    '''public int getFirstPos()
+    '''returns int\n\n
+    getFirstPos()\n
     '''
 def setLastPos():
-    '''public void setLastPos(final int lastPos)
+    '''returns None\n\n
+    setLastPos(final int lastPos)\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def setTextFromPositions():
-    '''public void setTextFromPositions(final String s)
+    '''returns None\n\n
+    setTextFromPositions(final String s)\n
     '''
 def setTextFromCurrent():
-    '''public void setTextFromCurrent(final RuleCharReader ruleCharReader)
+    '''returns None\n\n
+    setTextFromCurrent(final RuleCharReader ruleCharReader)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def setValue():
-    '''public void setValue(final int value)
+    '''returns None\n\n
+    setValue(final int value)\n
     '''
 def incValueFromDigit():
-    '''public void incValueFromDigit(final RuleChar ruleChar)
+    '''returns None\n\n
+    incValueFromDigit(final RuleChar ruleChar)\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''

@@ -1,89 +1,112 @@
 DEFAULT_PORT = "int  80"
 _default_port = "int  80"
-def HttpURL():
-    '''public HttpURL(final char[] escaped, final String charset)
-    public HttpURL(final char[] escaped)
-    public HttpURL(final String original, final String charset)
-    public HttpURL(final String original)
-    public HttpURL(final String host, final int port, final String path)
-    public HttpURL(final String host, final int port, final String path, final String query)
-    public HttpURL(final String user, final String password, final String host)
-    public HttpURL(final String user, final String password, final String host, final int port)
-    public HttpURL(final String user, final String password, final String host, final int port, final String path)
-    public HttpURL(final String user, final String password, final String host, final int port, final String path, final String query)
-    public HttpURL(final String host, final String path, final String query, final String fragment)
-    public HttpURL(final String userinfo, final String host, final String path, final String query, final String fragment)
-    public HttpURL(final String userinfo, final String host, final int port, final String path)
-    public HttpURL(final String userinfo, final String host, final int port, final String path, final String query)
-    public HttpURL(final String userinfo, final String host, final int port, final String path, final String query, final String fragment)
-    public HttpURL(final String user, final String password, final String host, final int port, final String path, final String query, final String fragment)
-    public HttpURL(final HttpURL base, final String relative)
-    public HttpURL(final HttpURL base, final HttpURL relative)
+def ():
+    '''returns HttpURL\n\n
+    (final char[] escaped, final String charset)\n
+    (final char[] escaped)\n
+    (final String original, final String charset)\n
+    (final String original)\n
+    (final String host, final int port, final String path)\n
+    (final String host, final int port, final String path, final String query)\n
+    (final String user, final String password, final String host)\n
+    (final String user, final String password, final String host, final int port)\n
+    (final String user, final String password, final String host, final int port, final String path)\n
+    (final String user, final String password, final String host, final int port, final String path, final String query)\n
+    (final String host, final String path, final String query, final String fragment)\n
+    (final String userinfo, final String host, final String path, final String query, final String fragment)\n
+    (final String userinfo, final String host, final int port, final String path)\n
+    (final String userinfo, final String host, final int port, final String path, final String query)\n
+    (final String userinfo, final String host, final int port, final String path, final String query, final String fragment)\n
+    (final String user, final String password, final String host, final int port, final String path, final String query, final String fragment)\n
+    (final HttpURL base, final String relative)\n
+    (final HttpURL base, final HttpURL relative)\n
     '''
 def getRawScheme():
-    '''public char[] getRawScheme()
+    '''returns char[]\n\n
+    getRawScheme()\n
     '''
 def getScheme():
-    '''public String getScheme()
+    '''returns String\n\n
+    getScheme()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def setRawUserinfo():
-    '''public void setRawUserinfo(final char[] escapedUser, final char[] escapedPassword)
+    '''returns None\n\n
+    setRawUserinfo(final char[] escapedUser, final char[] escapedPassword)\n
     '''
 def setEscapedUserinfo():
-    '''public void setEscapedUserinfo(final String escapedUser, final String escapedPassword)
+    '''returns None\n\n
+    setEscapedUserinfo(final String escapedUser, final String escapedPassword)\n
     '''
 def setUserinfo():
-    '''public void setUserinfo(final String user, final String password)
+    '''returns None\n\n
+    setUserinfo(final String user, final String password)\n
     '''
 def setRawUser():
-    '''public void setRawUser(final char[] escapedUser)
+    '''returns None\n\n
+    setRawUser(final char[] escapedUser)\n
     '''
 def setEscapedUser():
-    '''public void setEscapedUser(final String escapedUser)
+    '''returns None\n\n
+    setEscapedUser(final String escapedUser)\n
     '''
 def setUser():
-    '''public void setUser(final String user)
+    '''returns None\n\n
+    setUser(final String user)\n
     '''
 def getRawUser():
-    '''public char[] getRawUser()
+    '''returns char[]\n\n
+    getRawUser()\n
     '''
 def getEscapedUser():
-    '''public String getEscapedUser()
+    '''returns String\n\n
+    getEscapedUser()\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def setRawPassword():
-    '''public void setRawPassword(final char[] escapedPassword)
+    '''returns None\n\n
+    setRawPassword(final char[] escapedPassword)\n
     '''
 def setEscapedPassword():
-    '''public void setEscapedPassword(final String escapedPassword)
+    '''returns None\n\n
+    setEscapedPassword(final String escapedPassword)\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def getRawPassword():
-    '''public char[] getRawPassword()
+    '''returns char[]\n\n
+    getRawPassword()\n
     '''
 def getEscapedPassword():
-    '''public String getEscapedPassword()
+    '''returns String\n\n
+    getEscapedPassword()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def getRawCurrentHierPath():
-    '''public char[] getRawCurrentHierPath()
+    '''returns char[]\n\n
+    getRawCurrentHierPath()\n
     '''
 def getRawAboveHierPath():
-    '''public char[] getRawAboveHierPath()
+    '''returns char[]\n\n
+    getRawAboveHierPath()\n
     '''
 def getRawPath():
-    '''public char[] getRawPath()
+    '''returns char[]\n\n
+    getRawPath()\n
     '''
 def setQuery():
-    '''public void setQuery(final String queryName, final String queryValue)
-    public void setQuery(final String[] queryName, final String[] queryValue)
+    '''returns None\n\n
+    setQuery(final String queryName, final String queryValue)\n
+    setQuery(final String[] queryName, final String[] queryValue)\n
     '''

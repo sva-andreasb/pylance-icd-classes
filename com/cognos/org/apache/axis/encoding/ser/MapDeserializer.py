@@ -1,11 +1,14 @@
 def onStartElement():
-    '''public void onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def onStartChild():
-    '''public SOAPHandler onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
-    public SOAPHandler onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns SOAPHandler\n\n
+    onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
+    onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def setChildValue():
-    '''public void setChildValue(final Object value, final Object hint)
-    public void setChildValue(final Object val, final Object hint)
+    '''returns None\n\n
+    setChildValue(final Object value, final Object hint)\n
+    setChildValue(final Object val, final Object hint)\n
     '''

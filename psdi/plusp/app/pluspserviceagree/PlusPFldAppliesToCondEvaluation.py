@@ -1,6 +1,8 @@
-def PlusPFldAppliesToCondEvaluation():
-    '''public PlusPFldAppliesToCondEvaluation(final MboValue arg0)
+def ():
+    '''returns PlusPFldAppliesToCondEvaluation\n\n
+    (final MboValue arg0)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

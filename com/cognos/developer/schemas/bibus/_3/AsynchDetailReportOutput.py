@@ -1,31 +1,21 @@
-def AsynchDetailReportOutput():
-    '''public AsynchDetailReportOutput()
-    public AsynchDetailReportOutput(final BaseClass[] outputObjects, final String[] outputPages)
+def ():
+    '''returns AsynchDetailReportOutput\n\n
+    ()\n
+    (final BaseClass[] outputObjects, final String[] outputPages)\n
     '''
 def getOutputObjects():
-    '''public BaseClass[] getOutputObjects()
+    '''returns BaseClass[]\n\n
+    getOutputObjects()\n
     '''
 def setOutputObjects():
-    '''public void setOutputObjects(final BaseClass[] outputObjects)
+    '''returns None\n\n
+    setOutputObjects(final BaseClass[] outputObjects)\n
     '''
 def getOutputPages():
-    '''public String[] getOutputPages()
+    '''returns String[]\n\n
+    getOutputPages()\n
     '''
 def setOutputPages():
-    '''public void setOutputPages(final String[] outputPages)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setOutputPages(final String[] outputPages)\n
     '''

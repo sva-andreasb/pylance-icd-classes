@@ -1,50 +1,47 @@
-def ProxyClient():
-    '''public ProxyClient()
-    public ProxyClient(final HttpClientParams params)
-    '''
-def getState():
-    '''public synchronized HttpState getState()
-    '''
-def setState():
-    '''public synchronized void setState(final HttpState state)
-    '''
-def getHostConfiguration():
-    '''public synchronized HostConfiguration getHostConfiguration()
-    '''
-def setHostConfiguration():
-    '''public synchronized void setHostConfiguration(final HostConfiguration hostConfiguration)
-    '''
-def getParams():
-    '''public synchronized HttpClientParams getParams()
-    public HttpConnectionManagerParams getParams()
-    '''
-def setParams():
-    '''public synchronized void setParams(final HttpClientParams params)
-    public void setParams(final HttpConnectionManagerParams params)
+def ():
+    '''returns ProxyClient\n\n
+    ()\n
+    (final HttpClientParams params)\n
     '''
 def connect():
-    '''public ConnectResponse connect()
+    '''returns ConnectResponse\n\n
+    connect()\n
     '''
 def getConnectMethod():
-    '''public ConnectMethod getConnectMethod()
+    '''returns ConnectMethod\n\n
+    getConnectMethod()\n
     '''
 def getSocket():
-    '''public Socket getSocket()
+    '''returns Socket\n\n
+    getSocket()\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idleTimeout)
+    '''returns None\n\n
+    closeIdleConnections(final long idleTimeout)\n
     '''
 def getConnection():
-    '''public HttpConnection getConnection()
-    public HttpConnection getConnection(final HostConfiguration hostConfiguration, final long timeout)
-    public HttpConnection getConnection(final HostConfiguration hostConfiguration)
+    '''returns HttpConnection\n\n
+    getConnection()\n
+    getConnection(final HostConfiguration hostConfiguration, final long timeout)\n
+    getConnection(final HostConfiguration hostConfiguration)\n
     '''
 def setConnectionParams():
-    '''public void setConnectionParams(final HttpParams httpParams)
+    '''returns None\n\n
+    setConnectionParams(final HttpParams httpParams)\n
     '''
 def getConnectionWithTimeout():
-    '''public HttpConnection getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)
+    '''returns HttpConnection\n\n
+    getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)\n
     '''
 def releaseConnection():
-    '''public void releaseConnection(final HttpConnection conn)
+    '''returns None\n\n
+    releaseConnection(final HttpConnection conn)\n
+    '''
+def getParams():
+    '''returns HttpConnectionManagerParams\n\n
+    getParams()\n
+    '''
+def setParams():
+    '''returns None\n\n
+    setParams(final HttpConnectionManagerParams params)\n
     '''

@@ -1,13 +1,17 @@
-def LimitedInputStream():
-    '''public LimitedInputStream(final InputStream inputStream, final long pSizeMax)
+def ():
+    '''returns LimitedInputStream\n\n
+    (final InputStream inputStream, final long pSizeMax)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

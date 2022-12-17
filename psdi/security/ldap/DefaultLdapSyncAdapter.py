@@ -1,15 +1,20 @@
-def DefaultLdapSyncAdapter():
-    '''public DefaultLdapSyncAdapter()
+def ():
+    '''returns DefaultLdapSyncAdapter\n\n
+    ()\n
     '''
 def syncUser():
-    '''public void syncUser(final LdapSyncEvent event)
+    '''returns None\n\n
+    syncUser(final LdapSyncEvent event)\n
     '''
 def syncGroup():
-    '''public void syncGroup(final LdapSyncEvent event)
+    '''returns None\n\n
+    syncGroup(final LdapSyncEvent event)\n
     '''
 def syncGroupMembers():
-    '''public void syncGroupMembers(final LdapSyncEvent event)
+    '''returns None\n\n
+    syncGroupMembers(final LdapSyncEvent event)\n
     '''
 def syncEnded():
-    '''public void syncEnded(final LdapSyncEvent event)
+    '''returns None\n\n
+    syncEnded(final LdapSyncEvent event)\n
     '''

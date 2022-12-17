@@ -1,60 +1,57 @@
-def getMatchSet():
-    '''public static MboSetRemote getMatchSet(final MboRemote mboRemote, final MboSet set)
-    '''
-def apply():
-    '''public static String[] apply(final MboRemote mboRemote)
-    public static String[] apply(final MboRemote mboRemote, final MboRemote mboRemote2)
-    '''
-def getTranslatedActiveStatus():
-    '''public static String getTranslatedActiveStatus(final MboRemote mbo, final PlusPServiceAgreementSetRemote plusPServiceAgreementSetRemote)
-    '''
-def PlusPServiceAgreementUtil():
-    '''public PlusPServiceAgreementUtil(final Mbo mboLocal)
+def ():
+    '''returns PlusPServiceAgreementUtil\n\n
+    (final Mbo mboLocal)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long n)
+    '''returns None\n\n
+    delete(final long n)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
-    public MboRemote duplicate(final MboRemote mboRemote)
-    public MboRemote duplicate(final boolean b)
-    public MboRemote duplicate(final MboRemote mboRemote, final boolean b)
+    '''returns MboRemote\n\n
+    duplicate()\n
+    duplicate(final MboRemote mboRemote)\n
+    duplicate(final boolean b)\n
+    duplicate(final MboRemote mboRemote, final boolean b)\n
     '''
 def skipCopyField():
-    '''public boolean skipCopyField(final MboValueInfo mboValueInfo)
+    '''returns boolean\n\n
+    skipCopyField(final MboValueInfo mboValueInfo)\n
     '''
 def addAssets():
-    '''public void addAssets(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    addAssets(final MboSetRemote mboSetRemote)\n
     '''
 def addLocations():
-    '''public void addLocations(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    addLocations(final MboSetRemote mboSetRemote)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def getObjectBaseName():
-    '''public String getObjectBaseName(String name)
-    public String getObjectBaseName()
+    '''returns String\n\n
+    getObjectBaseName(String name)\n
+    getObjectBaseName()\n
     '''
 def isTicketOrWO():
-    '''public boolean isTicketOrWO(final String s)
-    public boolean isTicketOrWO()
-    '''
-def setPoolFieldFlags():
-    '''public static void setPoolFieldFlags(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    isTicketOrWO(final String s)\n
+    isTicketOrWO()\n
     '''
 def addRecordsToPoolItemsTable():
-    '''public void addRecordsToPoolItemsTable(final MboSetRemote mboSetRemote)
-    '''
-def canDeleteCustomer():
-    '''public static boolean canDeleteCustomer(final UserInfo ui)
+    '''returns None\n\n
+    addRecordsToPoolItemsTable(final MboSetRemote mboSetRemote)\n
     '''

@@ -1,9 +1,8 @@
-def Audio():
-    '''public Audio(final String value)
+def ():
+    '''returns Audio\n\n
+    (final String value)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def fromString():
-    '''public static ContentInfo fromString(String value)
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,10 +1,13 @@
-def DigestValidationInputStream():
-    '''public DigestValidationInputStream(final InputStream in, final MessageDigest digest, final byte[] serverSideHash)
+def ():
+    '''returns DigestValidationInputStream\n\n
+    (final InputStream in, final MessageDigest digest, final byte[] serverSideHash)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def getMD5Checksum():
-    '''public byte[] getMD5Checksum()
+    '''returns byte[]\n\n
+    getMD5Checksum()\n
     '''

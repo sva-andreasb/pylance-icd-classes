@@ -1,3 +1,4 @@
-def SDAConfigSet():
-    '''public SDAConfigSet(final MboServerInterface ms)
+def ():
+    '''returns SDAConfigSet\n\n
+    (final MboServerInterface ms)\n
     '''

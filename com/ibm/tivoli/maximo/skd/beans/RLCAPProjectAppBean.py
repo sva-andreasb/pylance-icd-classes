@@ -1,8 +1,10 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final int row, final String sigOption)
-    public boolean hasSigOptionAccess(final String sigOption)
-    public boolean hasSigOptionAccess(final int row, final String sigOption, final boolean checkAppLevel)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
+    hasSigOptionAccess(final String sigOption)\n
+    hasSigOptionAccess(final int row, final String sigOption, final boolean checkAppLevel)\n
     '''

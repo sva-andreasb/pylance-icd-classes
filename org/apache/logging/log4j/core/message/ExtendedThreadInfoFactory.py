@@ -1,6 +1,4 @@
-def ExtendedThreadInfoFactory():
-    '''public ExtendedThreadInfoFactory()
-    '''
-def createThreadInfo():
-    '''public Map<ThreadInformation, StackTraceElement[]> createThreadInfo()
+def ():
+    '''returns ExtendedThreadInfoFactory\n\n
+    ()\n
     '''

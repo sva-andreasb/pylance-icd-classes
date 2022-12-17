@@ -1,14 +1,18 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloDefaultPriorityManager():
-    '''public IloDefaultPriorityManager(final IloDefaultPriorityManager parent, final IloDecisionModel owner)
+def ():
+    '''returns IloDefaultPriorityManager\n\n
+    (final IloDefaultPriorityManager parent, final IloDecisionModel owner)\n
     '''
 def setPriority():
-    '''public boolean setPriority(final IloRequirementId rid, final IloPriority priority)
-    public boolean setPriority(final IloRequirement req, final IloPriority priority)
+    '''returns boolean\n\n
+    setPriority(final IloRequirementId rid, final IloPriority priority)\n
+    setPriority(final IloRequirement req, final IloPriority priority)\n
     '''
 def getDefaultPriority():
-    '''public IloPriority getDefaultPriority(final IloRequirementId rid)
+    '''returns IloPriority\n\n
+    getDefaultPriority(final IloRequirementId rid)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

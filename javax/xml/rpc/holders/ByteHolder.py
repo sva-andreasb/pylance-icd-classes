@@ -1,4 +1,5 @@
-def ByteHolder():
-    '''public ByteHolder()
-    public ByteHolder(final byte value)
+def ():
+    '''returns ByteHolder\n\n
+    ()\n
+    (final byte mybyte)\n
     '''

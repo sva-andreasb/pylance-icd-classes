@@ -1,19 +1,9 @@
 NAMESPACE = "String  \"urn:xmpp:sid:0\""
-def getInstanceFor():
-    '''public static synchronized StableUniqueStanzaIdManager getInstanceFor(final XMPPConnection connection)
-    '''
-def enable():
-    '''public synchronized void enable()
-    '''
-def disable():
-    '''public synchronized void disable()
-    '''
-def isEnabled():
-    '''public synchronized boolean isEnabled()
-    '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

@@ -1,18 +1,24 @@
-def UserQuery():
-    '''public UserQuery(final MboSet ms)
+def ():
+    '''returns UserQuery\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def calculateCount():
-    '''public int calculateCount()
+    '''returns int\n\n
+    calculateCount()\n
     '''
 def setCalculatedCount():
-    '''public int setCalculatedCount()
+    '''returns int\n\n
+    setCalculatedCount()\n
     '''
 def snoozeRecord():
-    '''public void snoozeRecord(final String objectName, final Long objectId, final String memo, final boolean enable)
+    '''returns None\n\n
+    snoozeRecord(final String objectName, final Long objectId, final String memo, final boolean enable)\n
     '''

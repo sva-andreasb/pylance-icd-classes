@@ -1,42 +1,52 @@
 TAB_NOTIFY_BLINK = "String  \"TAB_NOTIFY_BLINK\""
 CONFIGPROPERTY_RESVIEW_SELECTEDTABINDEX = "String  \"RESVIEW_SELECTEDTABINDEX\""
-def ResourceViewContainer():
-    '''public ResourceViewContainer()
+def ():
+    '''returns BlinkTabTask\n\n
+    ()\n
+    (final int tab, final Color blinkColor)\n
     '''
 def addResourceViewComponent():
-    '''public void addResourceViewComponent(final String title, final Component component, final Icon icon, final String toolTip, final ResourceView resourceView)
+    '''returns None\n\n
+    addResourceViewComponent(final String title, final Component component, final Icon icon, final String toolTip, final ResourceView resourceView)\n
     '''
 def attachModel():
-    '''public void attachModel(final AppletGanttModel model)
+    '''returns None\n\n
+    attachModel(final AppletGanttModel model)\n
     '''
 def applySelectedTab():
-    '''public void applySelectedTab()
+    '''returns None\n\n
+    applySelectedTab()\n
     '''
 def getResourceViewContainerComponent():
-    '''public Component getResourceViewContainerComponent()
+    '''returns Component\n\n
+    getResourceViewContainerComponent()\n
     '''
 def getSelectedIndex():
-    '''public int getSelectedIndex()
+    '''returns int\n\n
+    getSelectedIndex()\n
     '''
 def getSelectedResourceView():
-    '''public ResourceView getSelectedResourceView()
+    '''returns ResourceView\n\n
+    getSelectedResourceView()\n
     '''
 def handleMessage():
-    '''public void handleMessage(final String msgId, final Object... args)
+    '''returns None\n\n
+    handleMessage(final String msgId, final Object... args)\n
     '''
 def enableResourceView():
-    '''public void enableResourceView(final String viewName, final boolean flag)
+    '''returns None\n\n
+    enableResourceView(final String viewName, final boolean flag)\n
     '''
 def stateChanged():
-    '''public void stateChanged(final ChangeEvent e)
-    '''
-def BlinkTabTask():
-    '''public BlinkTabTask(final int tab, final Color blinkColor)
+    '''returns None\n\n
+    stateChanged(final ChangeEvent e)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def cancel():
-    '''public boolean cancel()
+    '''returns boolean\n\n
+    cancel()\n
     '''

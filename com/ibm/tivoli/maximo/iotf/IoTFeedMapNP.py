@@ -1,3 +1,4 @@
-def IoTFeedMapNP():
-    '''public IoTFeedMapNP(final MboSet ms)
+def ():
+    '''returns IoTFeedMapNP\n\n
+    (final MboSet ms)\n
     '''

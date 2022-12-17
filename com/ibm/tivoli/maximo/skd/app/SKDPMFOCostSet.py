@@ -1,48 +1,61 @@
-def SKDPMFOCostSet():
-    '''public SKDPMFOCostSet(final MboServerInterface ms)
+def ():
+    '''returns SKDPMFOCostSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def populate():
-    '''public void populate(final String startWeekDay, final long SKDProjectId)
-    public void populate()
+    '''returns None\n\n
+    populate(final String startWeekDay, final long SKDProjectId)\n
+    populate()\n
     '''
 def CalculatePMCost():
-    '''public void CalculatePMCost(final long SKDProjectId)
+    '''returns None\n\n
+    CalculatePMCost(final long SKDProjectId)\n
     '''
 def deleteSKDPMFOCost():
-    '''public void deleteSKDPMFOCost()
-    public void deleteSKDPMFOCost(final long SKDProjectId)
+    '''returns None\n\n
+    deleteSKDPMFOCost()\n
+    deleteSKDPMFOCost(final long SKDProjectId)\n
     '''
 def deleteSKDPMFOCostTemp():
-    '''public void deleteSKDPMFOCostTemp()
-    public void deleteSKDPMFOCostTemp(final long SKDProjectId)
+    '''returns None\n\n
+    deleteSKDPMFOCostTemp()\n
+    deleteSKDPMFOCostTemp(final long SKDProjectId)\n
     '''
 def populatePMCost():
-    '''public void populatePMCost()
-    public void populatePMCost(final String startWeekDay, final long SKDProjectId)
+    '''returns None\n\n
+    populatePMCost()\n
+    populatePMCost(final String startWeekDay, final long SKDProjectId)\n
     '''
 def updateSKDPMFOCostTemp():
-    '''public void updateSKDPMFOCostTemp()
-    public void updateSKDPMFOCostTemp(final long SKDProjectId)
+    '''returns None\n\n
+    updateSKDPMFOCostTemp()\n
+    updateSKDPMFOCostTemp(final long SKDProjectId)\n
     '''
 def isSKDPMTempEmpty():
-    '''public boolean isSKDPMTempEmpty()
-    public boolean isSKDPMTempEmpty(final long SKDProjectId)
+    '''returns boolean\n\n
+    isSKDPMTempEmpty()\n
+    isSKDPMTempEmpty(final long SKDProjectId)\n
     '''
 def populateSKDPMCost():
-    '''public void populateSKDPMCost()
-    public void populateSKDPMCost(final long SKDProjectId)
+    '''returns None\n\n
+    populateSKDPMCost()\n
+    populateSKDPMCost(final long SKDProjectId)\n
     '''
 def updateTotalCost():
-    '''public void updateTotalCost()
-    public void updateTotalCost(final long SKDProjectId)
+    '''returns None\n\n
+    updateTotalCost()\n
+    updateTotalCost(final long SKDProjectId)\n
     '''
 def updateTimePeriod():
-    '''public void updateTimePeriod()
-    public void updateTimePeriod(final long SKDProjectId)
+    '''returns None\n\n
+    updateTimePeriod()\n
+    updateTimePeriod(final long SKDProjectId)\n
     '''
 def executeStatement():
-    '''public void executeStatement(final String sqlStatement)
+    '''returns None\n\n
+    executeStatement(final String sqlStatement)\n
     '''
 def getPrimaryKey():
-    '''public String getPrimaryKey(final String project, final String tableID)
+    '''returns String\n\n
+    getPrimaryKey(final String project, final String tableID)\n
     '''

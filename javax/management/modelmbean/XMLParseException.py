@@ -1,5 +1,6 @@
-def XMLParseException():
-    '''public XMLParseException()
-    public XMLParseException(final String str)
-    public XMLParseException(final Exception ex, final String str)
+def ():
+    '''returns XMLParseException\n\n
+    ()\n
+    (final String str)\n
+    (final Exception ex, final String str)\n
     '''

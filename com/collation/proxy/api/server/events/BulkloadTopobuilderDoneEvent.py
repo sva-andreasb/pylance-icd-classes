@@ -1,6 +1,8 @@
-def BulkloadTopobuilderDoneEvent():
-    '''public BulkloadTopobuilderDoneEvent(final long bulkloadId)
+def ():
+    '''returns BulkloadTopobuilderDoneEvent\n\n
+    (final long bulkloadId)\n
     '''
 def getBulkloadId():
-    '''public long getBulkloadId()
+    '''returns long\n\n
+    getBulkloadId()\n
     '''

@@ -1,29 +1,38 @@
-def SdkBufferedInputStream():
-    '''public SdkBufferedInputStream(final InputStream in)
-    public SdkBufferedInputStream(final InputStream in, final int size)
+def ():
+    '''returns SdkBufferedInputStream\n\n
+    (final InputStream in)\n
+    (final InputStream in, final int size)\n
     '''
 def isMetricActivated():
-    '''public boolean isMetricActivated()
+    '''returns boolean\n\n
+    isMetricActivated()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

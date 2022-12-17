@@ -1,79 +1,63 @@
-def JsonWebToken():
-    '''public JsonWebToken(final Header header, final Payload payload)
+def ():
+    '''returns JsonWebToken\n\n
+    (final Header header, final Payload payload)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getHeader():
-    '''public Header getHeader()
+    '''returns Header\n\n
+    getHeader()\n
     '''
 def getPayload():
-    '''public Payload getPayload()
-    '''
-def getType():
-    '''public final String getType()
-    public final String getType()
+    '''returns Payload\n\n
+    getPayload()\n
     '''
 def setType():
-    '''public Header setType(final String type)
-    public Payload setType(final String type)
-    '''
-def getContentType():
-    '''public final String getContentType()
+    '''returns Payload\n\n
+    setType(final String type)\n
+    setType(final String type)\n
     '''
 def setContentType():
-    '''public Header setContentType(final String contentType)
+    '''returns Header\n\n
+    setContentType(final String contentType)\n
     '''
 def set():
-    '''public Header set(final String fieldName, final Object value)
-    public Payload set(final String fieldName, final Object value)
+    '''returns Payload\n\n
+    set(final String fieldName, final Object value)\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public Header clone()
-    public Payload clone()
-    '''
-def getExpirationTimeSeconds():
-    '''public final Long getExpirationTimeSeconds()
+    '''returns Payload\n\n
+    clone()\n
+    clone()\n
     '''
 def setExpirationTimeSeconds():
-    '''public Payload setExpirationTimeSeconds(final Long expirationTimeSeconds)
-    '''
-def getNotBeforeTimeSeconds():
-    '''public final Long getNotBeforeTimeSeconds()
+    '''returns Payload\n\n
+    setExpirationTimeSeconds(final Long expirationTimeSeconds)\n
     '''
 def setNotBeforeTimeSeconds():
-    '''public Payload setNotBeforeTimeSeconds(final Long notBeforeTimeSeconds)
-    '''
-def getIssuedAtTimeSeconds():
-    '''public final Long getIssuedAtTimeSeconds()
+    '''returns Payload\n\n
+    setNotBeforeTimeSeconds(final Long notBeforeTimeSeconds)\n
     '''
 def setIssuedAtTimeSeconds():
-    '''public Payload setIssuedAtTimeSeconds(final Long issuedAtTimeSeconds)
-    '''
-def getIssuer():
-    '''public final String getIssuer()
+    '''returns Payload\n\n
+    setIssuedAtTimeSeconds(final Long issuedAtTimeSeconds)\n
     '''
 def setIssuer():
-    '''public Payload setIssuer(final String issuer)
-    '''
-def getAudience():
-    '''public final Object getAudience()
-    '''
-def getAudienceAsList():
-    '''public final List<String> getAudienceAsList()
+    '''returns Payload\n\n
+    setIssuer(final String issuer)\n
     '''
 def setAudience():
-    '''public Payload setAudience(final Object audience)
-    '''
-def getJwtId():
-    '''public final String getJwtId()
+    '''returns Payload\n\n
+    setAudience(final Object audience)\n
     '''
 def setJwtId():
-    '''public Payload setJwtId(final String jwtId)
-    '''
-def getSubject():
-    '''public final String getSubject()
+    '''returns Payload\n\n
+    setJwtId(final String jwtId)\n
     '''
 def setSubject():
-    '''public Payload setSubject(final String subject)
+    '''returns Payload\n\n
+    setSubject(final String subject)\n
     '''

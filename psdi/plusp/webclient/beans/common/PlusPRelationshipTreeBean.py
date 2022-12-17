@@ -1,3 +1,4 @@
 def getTreeControlObjectName():
-    '''public String getTreeControlObjectName()
+    '''returns String\n\n
+    getTreeControlObjectName()\n
     '''

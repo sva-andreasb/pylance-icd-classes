@@ -1,6 +1,8 @@
-def ReconTaskFltrValSet():
-    '''public ReconTaskFltrValSet(final MboServerInterface ms)
+def ():
+    '''returns ReconTaskFltrValSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

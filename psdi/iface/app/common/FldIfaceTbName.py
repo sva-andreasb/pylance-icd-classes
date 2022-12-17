@@ -1,6 +1,8 @@
-def FldIfaceTbName():
-    '''public FldIfaceTbName(final MboValue mbv)
+def ():
+    '''returns FldIfaceTbName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

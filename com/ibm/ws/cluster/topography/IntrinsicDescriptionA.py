@@ -1,21 +1,27 @@
 def exportToStream():
-    '''public void exportToStream(final DataOutput out, final Format format)
+    '''returns None\n\n
+    exportToStream(final DataOutput out, final Format format)\n
     '''
 def setExtrinsicData():
-    '''public void setExtrinsicData(final DescriptionKey protocol, final ExtrinsicDescription value)
-    public void setExtrinsicData(final ExtrinsicDescription value)
+    '''returns None\n\n
+    setExtrinsicData(final DescriptionKey protocol, final ExtrinsicDescription value)\n
+    setExtrinsicData(final ExtrinsicDescription value)\n
     '''
 def removeExtrinsicData():
-    '''public ExtrinsicDescription removeExtrinsicData(final DescriptionKey valueKey)
+    '''returns ExtrinsicDescription\n\n
+    removeExtrinsicData(final DescriptionKey valueKey)\n
     '''
 def setMemento():
-    '''public void setMemento(final Description.Memento memento)
+    '''returns None\n\n
+    setMemento(final Description.Memento memento)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getExtrinsicData():
-    '''public ExtrinsicDescription getExtrinsicData(final DescriptionKey protocol)
-    public Map getExtrinsicData()
+    '''returns Map\n\n
+    getExtrinsicData(final DescriptionKey protocol)\n
+    getExtrinsicData()\n
     '''

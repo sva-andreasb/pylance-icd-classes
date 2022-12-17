@@ -1,22 +1,28 @@
 def getModel():
-    '''public IlvObjectModelWithColumns getModel()
+    '''returns IlvObjectModelWithColumns\n\n
+    getModel()\n
     '''
 def getObject():
-    '''public Object getObject()
+    '''returns Object\n\n
+    getObject()\n
     '''
 def getPath():
-    '''public TreePath getPath()
+    '''returns TreePath\n\n
+    getPath()\n
     '''
-def IlvDisplayObjectArea():
-    '''public IlvDisplayObjectArea()
-    public IlvDisplayObjectArea(final IlvChartRenderer ilvChartRenderer, final IlvObjectModelWithColumns a, final Object b)
-    public IlvDisplayObjectArea(final IlvChartRenderer ilvChartRenderer, final IlvTreeModelWithColumns a, final Object b, final TreePath c)
-    public IlvDisplayObjectArea(final IlvChartRenderer ilvChartRenderer, final IlvObjectModelWithColumns ilvObjectModelWithColumns, final Object o, final Shape shape)
-    public IlvDisplayObjectArea(final IlvChartRenderer ilvChartRenderer, final IlvTreeModelWithColumns ilvTreeModelWithColumns, final Object o, final TreePath treePath, final Shape shape)
+def ():
+    '''returns IlvDisplayObjectArea\n\n
+    ()\n
+    (final IlvChartRenderer ilvChartRenderer, final IlvObjectModelWithColumns a, final Object b)\n
+    (final IlvChartRenderer ilvChartRenderer, final IlvTreeModelWithColumns a, final Object b, final TreePath c)\n
+    (final IlvChartRenderer ilvChartRenderer, final IlvObjectModelWithColumns ilvObjectModelWithColumns, final Object o, final Shape shape)\n
+    (final IlvChartRenderer ilvChartRenderer, final IlvTreeModelWithColumns ilvTreeModelWithColumns, final Object o, final TreePath treePath, final Shape shape)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

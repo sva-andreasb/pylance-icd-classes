@@ -1,42 +1,48 @@
-def DnDHandler():
-    '''public DnDHandler(final DragGestureEvent trigger)
+def ():
+    '''returns DnDHandler\n\n
+    (final DragGestureEvent trigger)\n
     '''
 def startDrag():
-    '''public void startDrag(final DragSourceContext dsc, final Cursor cursor, final Image dragImage, final Point imageOffset)
+    '''returns None\n\n
+    startDrag(final DragSourceContext dsc, final Cursor cursor, final Image dragImage, final Point imageOffset)\n
     '''
 def getCursor():
-    '''public Cursor getCursor()
+    '''returns Cursor\n\n
+    getCursor()\n
     '''
 def setCursor():
-    '''public void setCursor(final Cursor cursor)
+    '''returns None\n\n
+    setCursor(final Cursor cursor)\n
     '''
 def transferablesFlavorsChanged():
-    '''public void transferablesFlavorsChanged()
+    '''returns None\n\n
+    transferablesFlavorsChanged()\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent e)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent e)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent e)
+    '''returns None\n\n
+    mouseExited(final MouseEvent e)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
     '''
 def mouseDragged():
-    '''public void mouseDragged(final MouseEvent e)
+    '''returns None\n\n
+    mouseDragged(final MouseEvent e)\n
     '''
 def mouseMoved():
-    '''public void mouseMoved(final MouseEvent e)
-    '''
-def createDragSource():
-    '''public static DragSource createDragSource()
-    '''
-def createDropTarget():
-    '''public static DropTarget createDropTarget(final Component c, final DropTargetListener dtl)
+    '''returns None\n\n
+    mouseMoved(final MouseEvent e)\n
     '''

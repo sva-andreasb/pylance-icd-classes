@@ -1,13 +1,17 @@
-def LDAPDITStructureRuleSchema():
-    '''public LDAPDITStructureRuleSchema(final String[] array, final int n, final String s, final boolean b, final String s2, final String[] array2)
-    public LDAPDITStructureRuleSchema(final String s)
+def ():
+    '''returns LDAPDITStructureRuleSchema\n\n
+    (final String[] array, final int n, final String s, final boolean b, final String s2, final String[] array2)\n
+    (final String s)\n
     '''
 def getRuleID():
-    '''public int getRuleID()
+    '''returns int\n\n
+    getRuleID()\n
     '''
 def getNameForm():
-    '''public String getNameForm()
+    '''returns String\n\n
+    getNameForm()\n
     '''
 def getSuperiors():
-    '''public String[] getSuperiors()
+    '''returns String[]\n\n
+    getSuperiors()\n
     '''

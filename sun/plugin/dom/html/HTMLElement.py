@@ -1,36 +1,48 @@
-def HTMLElement():
-    '''public HTMLElement(final DOMObject domObject, final HTMLDocument htmlDocument)
+def ():
+    '''returns HTMLElement\n\n
+    (final DOMObject domObject, final HTMLDocument htmlDocument)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getLang():
-    '''public String getLang()
+    '''returns String\n\n
+    getLang()\n
     '''
 def setLang():
-    '''public void setLang(final String s)
+    '''returns None\n\n
+    setLang(final String s)\n
     '''
 def getDir():
-    '''public String getDir()
+    '''returns String\n\n
+    getDir()\n
     '''
 def setDir():
-    '''public void setDir(final String s)
+    '''returns None\n\n
+    setDir(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getStyle():
-    '''public CSSStyleDeclaration getStyle()
+    '''returns CSSStyleDeclaration\n\n
+    getStyle()\n
     '''

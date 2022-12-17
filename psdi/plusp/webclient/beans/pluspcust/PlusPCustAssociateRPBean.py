@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def initializeRow():
-    '''public void initializeRow()
+    '''returns None\n\n
+    initializeRow()\n
     '''

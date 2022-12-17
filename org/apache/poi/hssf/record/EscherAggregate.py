@@ -204,62 +204,69 @@ ST_ACTIONBUTTONMOVIE = "short  200"
 ST_HOSTCONTROL = "short  201"
 ST_TEXTBOX = "short  202"
 ST_NIL = "short  4095"
-def EscherAggregate():
-    '''public EscherAggregate(final boolean createDefaultTree)
+def ():
+    '''returns EscherAggregate\n\n
+    (final boolean createDefaultTree)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toXml():
-    '''public String toXml(final String tab)
-    '''
-def createAggregate():
-    '''public static EscherAggregate createAggregate(final List<RecordBase> records, final int locFirstDrawingRecord)
+    '''returns String\n\n
+    toXml(final String tab)\n
     '''
 def createRecord():
-    '''public EscherRecord createRecord(final byte[] data, final int offset)
+    '''returns EscherRecord\n\n
+    createRecord(final byte[] data, final int offset)\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data)\n
     '''
 def beforeRecordSerialize():
-    '''public void beforeRecordSerialize(final int offset, final short recordId, final EscherRecord record)
-    public void beforeRecordSerialize(final int offset, final short recordId, final EscherRecord record)
+    '''returns None\n\n
+    beforeRecordSerialize(final int offset, final short recordId, final EscherRecord record)\n
+    beforeRecordSerialize(final int offset, final short recordId, final EscherRecord record)\n
     '''
 def afterRecordSerialize():
-    '''public void afterRecordSerialize(final int offset, final short recordId, final int size, final EscherRecord record)
-    public void afterRecordSerialize(final int offset, final short recordId, final int size, final EscherRecord record)
+    '''returns None\n\n
+    afterRecordSerialize(final int offset, final short recordId, final int size, final EscherRecord record)\n
+    afterRecordSerialize(final int offset, final short recordId, final int size, final EscherRecord record)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def associateShapeToObjRecord():
-    '''public void associateShapeToObjRecord(final EscherRecord r, final Record objRecord)
+    '''returns None\n\n
+    associateShapeToObjRecord(final EscherRecord r, final Record objRecord)\n
     '''
 def removeShapeToObjRecord():
-    '''public void removeShapeToObjRecord(final EscherRecord rec)
+    '''returns None\n\n
+    removeShapeToObjRecord(final EscherRecord rec)\n
     '''
 def setDgId():
-    '''public void setDgId(final short dgId)
+    '''returns None\n\n
+    setDgId(final short dgId)\n
     '''
 def setMainSpRecordId():
-    '''public void setMainSpRecordId(final int shapeId)
-    '''
-def getShapeToObjMapping():
-    '''public Map<EscherRecord, Record> getShapeToObjMapping()
-    '''
-def getTailRecords():
-    '''public Map<Integer, NoteRecord> getTailRecords()
+    '''returns None\n\n
+    setMainSpRecordId(final int shapeId)\n
     '''
 def getNoteRecordByObj():
-    '''public NoteRecord getNoteRecordByObj(final ObjRecord obj)
+    '''returns NoteRecord\n\n
+    getNoteRecordByObj(final ObjRecord obj)\n
     '''
 def addTailRecord():
-    '''public void addTailRecord(final NoteRecord note)
+    '''returns None\n\n
+    addTailRecord(final NoteRecord note)\n
     '''
 def removeTailRecord():
-    '''public void removeTailRecord(final NoteRecord note)
+    '''returns None\n\n
+    removeTailRecord(final NoteRecord note)\n
     '''

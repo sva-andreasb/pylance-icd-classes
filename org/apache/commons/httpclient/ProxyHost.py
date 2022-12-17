@@ -1,8 +1,10 @@
-def ProxyHost():
-    '''public ProxyHost(final ProxyHost httpproxy)
-    public ProxyHost(final String hostname, final int port)
-    public ProxyHost(final String hostname)
+def ():
+    '''returns ProxyHost\n\n
+    (final ProxyHost httpproxy)\n
+    (final String hostname, final int port)\n
+    (final String hostname)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

@@ -1,118 +1,152 @@
 def getDeliveryMethods():
-    '''public List<Method> getDeliveryMethods()
+    '''returns List<Method>\n\n
+    getDeliveryMethods()\n
     '''
 def getNotification():
-    '''public Notification getNotification()
+    '''returns Notification\n\n
+    getNotification()\n
     '''
 def setNotification():
-    '''public void setNotification(final Notification notification)
+    '''returns None\n\n
+    setNotification(final Notification notification)\n
     '''
 def getPreferences():
-    '''public List<Preference> getPreferences()
+    '''returns List<Preference>\n\n
+    getPreferences()\n
     '''
 def getResourceRecord():
-    '''public Resource getResourceRecord()
+    '''returns Resource\n\n
+    getResourceRecord()\n
     '''
 def setResourceRecord():
-    '''public void setResourceRecord(final Resource resourceRecord)
+    '''returns None\n\n
+    setResourceRecord(final Resource resourceRecord)\n
     '''
 def getUserRecord():
-    '''public Customer getUserRecord()
+    '''returns Customer\n\n
+    getUserRecord()\n
     '''
 def setUserRecord():
-    '''public void setUserRecord(final Customer userRecord)
+    '''returns None\n\n
+    setUserRecord(final Customer userRecord)\n
     '''
 def getActive():
-    '''public Long getActive()
+    '''returns Long\n\n
+    getActive()\n
     '''
 def setActive():
-    '''public void setActive(final Long active)
+    '''returns None\n\n
+    setActive(final Long active)\n
     '''
 def isActiveSpecified():
-    '''public boolean isActiveSpecified()
+    '''returns boolean\n\n
+    isActiveSpecified()\n
     '''
 def unsetActive():
-    '''public void unsetActive()
+    '''returns None\n\n
+    unsetActive()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getNotificationId():
-    '''public Long getNotificationId()
+    '''returns Long\n\n
+    getNotificationId()\n
     '''
 def setNotificationId():
-    '''public void setNotificationId(final Long notificationId)
+    '''returns None\n\n
+    setNotificationId(final Long notificationId)\n
     '''
 def isNotificationIdSpecified():
-    '''public boolean isNotificationIdSpecified()
+    '''returns boolean\n\n
+    isNotificationIdSpecified()\n
     '''
 def unsetNotificationId():
-    '''public void unsetNotificationId()
+    '''returns None\n\n
+    unsetNotificationId()\n
     '''
 def getUserRecordId():
-    '''public Long getUserRecordId()
+    '''returns Long\n\n
+    getUserRecordId()\n
     '''
 def setUserRecordId():
-    '''public void setUserRecordId(final Long userRecordId)
+    '''returns None\n\n
+    setUserRecordId(final Long userRecordId)\n
     '''
 def isUserRecordIdSpecified():
-    '''public boolean isUserRecordIdSpecified()
+    '''returns boolean\n\n
+    isUserRecordIdSpecified()\n
     '''
 def unsetUserRecordId():
-    '''public void unsetUserRecordId()
+    '''returns None\n\n
+    unsetUserRecordId()\n
     '''
 def getDeliveryMethodCount():
-    '''public Long getDeliveryMethodCount()
+    '''returns Long\n\n
+    getDeliveryMethodCount()\n
     '''
 def setDeliveryMethodCount():
-    '''public void setDeliveryMethodCount(final Long deliveryMethodCount)
+    '''returns None\n\n
+    setDeliveryMethodCount(final Long deliveryMethodCount)\n
     '''
 def getPreferenceCount():
-    '''public Long getPreferenceCount()
+    '''returns Long\n\n
+    getPreferenceCount()\n
     '''
 def setPreferenceCount():
-    '''public void setPreferenceCount(final Long preferenceCount)
+    '''returns None\n\n
+    setPreferenceCount(final Long preferenceCount)\n
     '''
 def getPreferencesDetailCount():
-    '''public Long getPreferencesDetailCount()
+    '''returns Long\n\n
+    getPreferencesDetailCount()\n
     '''
 def setPreferencesDetailCount():
-    '''public void setPreferencesDetailCount(final Long preferencesDetailCount)
+    '''returns None\n\n
+    setPreferencesDetailCount(final Long preferencesDetailCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def active():
-    '''public Mask active()
+    '''returns Mask\n\n
+    active()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def notificationId():
-    '''public Mask notificationId()
+    '''returns Mask\n\n
+    notificationId()\n
     '''
 def userRecordId():
-    '''public Mask userRecordId()
+    '''returns Mask\n\n
+    userRecordId()\n
     '''
 def deliveryMethodCount():
-    '''public Mask deliveryMethodCount()
+    '''returns Mask\n\n
+    deliveryMethodCount()\n
     '''
 def preferenceCount():
-    '''public Mask preferenceCount()
+    '''returns Mask\n\n
+    preferenceCount()\n
     '''
 def preferencesDetailCount():
-    '''public Mask preferencesDetailCount()
+    '''returns Mask\n\n
+    preferencesDetailCount()\n
     '''

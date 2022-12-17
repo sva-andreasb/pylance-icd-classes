@@ -1,21 +1,28 @@
 def setNumberOfBytes():
-    '''public void setNumberOfBytes(final Integer numberOfBytes)
+    '''returns None\n\n
+    setNumberOfBytes(final Integer numberOfBytes)\n
     '''
 def getNumberOfBytes():
-    '''public Integer getNumberOfBytes()
+    '''returns Integer\n\n
+    getNumberOfBytes()\n
     '''
 def withNumberOfBytes():
-    '''public GenerateRandomRequest withNumberOfBytes(final Integer numberOfBytes)
+    '''returns GenerateRandomRequest\n\n
+    withNumberOfBytes(final Integer numberOfBytes)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public GenerateRandomRequest clone()
+    '''returns GenerateRandomRequest\n\n
+    clone()\n
     '''

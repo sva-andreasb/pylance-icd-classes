@@ -1,36 +1,48 @@
 def getNotificationUserSubscriber():
-    '''public Subscriber getNotificationUserSubscriber()
+    '''returns Subscriber\n\n
+    getNotificationUserSubscriber()\n
     '''
 def setNotificationUserSubscriber():
-    '''public void setNotificationUserSubscriber(final Subscriber notificationUserSubscriber)
+    '''returns None\n\n
+    setNotificationUserSubscriber(final Subscriber notificationUserSubscriber)\n
     '''
 def getNotificationUserSubscriberId():
-    '''public Long getNotificationUserSubscriberId()
+    '''returns Long\n\n
+    getNotificationUserSubscriberId()\n
     '''
 def setNotificationUserSubscriberId():
-    '''public void setNotificationUserSubscriberId(final Long notificationUserSubscriberId)
+    '''returns None\n\n
+    setNotificationUserSubscriberId(final Long notificationUserSubscriberId)\n
     '''
 def isNotificationUserSubscriberIdSpecified():
-    '''public boolean isNotificationUserSubscriberIdSpecified()
+    '''returns boolean\n\n
+    isNotificationUserSubscriberIdSpecified()\n
     '''
 def unsetNotificationUserSubscriberId():
-    '''public void unsetNotificationUserSubscriberId()
+    '''returns None\n\n
+    unsetNotificationUserSubscriberId()\n
     '''
 def getResourceTableId():
-    '''public Long getResourceTableId()
+    '''returns Long\n\n
+    getResourceTableId()\n
     '''
 def setResourceTableId():
-    '''public void setResourceTableId(final Long resourceTableId)
+    '''returns None\n\n
+    setResourceTableId(final Long resourceTableId)\n
     '''
 def isResourceTableIdSpecified():
-    '''public boolean isResourceTableIdSpecified()
+    '''returns boolean\n\n
+    isResourceTableIdSpecified()\n
     '''
 def unsetResourceTableId():
-    '''public void unsetResourceTableId()
+    '''returns None\n\n
+    unsetResourceTableId()\n
     '''
 def notificationUserSubscriberId():
-    '''public Mask notificationUserSubscriberId()
+    '''returns Mask\n\n
+    notificationUserSubscriberId()\n
     '''
 def resourceTableId():
-    '''public Mask resourceTableId()
+    '''returns Mask\n\n
+    resourceTableId()\n
     '''

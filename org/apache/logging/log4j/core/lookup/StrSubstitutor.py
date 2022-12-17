@@ -1,106 +1,124 @@
 DEFAULT_ESCAPE = "char  '$'"
 DEFAULT_VALUE_DELIMITER_STRING = "String  \":-\""
 ESCAPE_DELIMITER_STRING = "String  \":\\-\""
-def StrSubstitutor():
-    '''public StrSubstitutor()
-    public StrSubstitutor(final Map<String, String> valueMap)
-    public StrSubstitutor(final Map<String, String> valueMap, final String prefix, final String suffix)
-    public StrSubstitutor(final Map<String, String> valueMap, final String prefix, final String suffix, final char escape)
-    public StrSubstitutor(final Map<String, String> valueMap, final String prefix, final String suffix, final char escape, final String valueDelimiter)
-    public StrSubstitutor(final Properties properties)
-    public StrSubstitutor(final StrLookup variableResolver)
-    public StrSubstitutor(final StrLookup variableResolver, final String prefix, final String suffix, final char escape)
-    public StrSubstitutor(final StrLookup variableResolver, final String prefix, final String suffix, final char escape, final String valueDelimiter)
-    public StrSubstitutor(final StrLookup variableResolver, final StrMatcher prefixMatcher, final StrMatcher suffixMatcher, final char escape)
-    public StrSubstitutor(final StrLookup variableResolver, final StrMatcher prefixMatcher, final StrMatcher suffixMatcher, final char escape, final StrMatcher valueDelimiterMatcher)
-    public StrSubstitutor(final StrLookup variableResolver, final StrMatcher prefixMatcher, final StrMatcher suffixMatcher, final char escape, final StrMatcher valueDelimiterMatcher, final StrMatcher valueEscapeMatcher)
+def ():
+    '''returns StrSubstitutor\n\n
+    ()\n
+    (final Map<String, String> valueMap)\n
+    (final Map<String, String> valueMap, final String prefix, final String suffix)\n
+    (final Map<String, String> valueMap, final String prefix, final String suffix, final char escape)\n
+    (final Map<String, String> valueMap, final String prefix, final String suffix, final char escape, final String valueDelimiter)\n
+    (final Properties properties)\n
+    (final StrLookup variableResolver)\n
+    (final StrLookup variableResolver, final String prefix, final String suffix, final char escape)\n
+    (final StrLookup variableResolver, final String prefix, final String suffix, final char escape, final String valueDelimiter)\n
+    (final StrLookup variableResolver, final StrMatcher prefixMatcher, final StrMatcher suffixMatcher, final char escape)\n
+    (final StrLookup variableResolver, final StrMatcher prefixMatcher, final StrMatcher suffixMatcher, final char escape, final StrMatcher valueDelimiterMatcher)\n
+    (final StrLookup variableResolver, final StrMatcher prefixMatcher, final StrMatcher suffixMatcher, final char escape, final StrMatcher valueDelimiterMatcher, final StrMatcher valueEscapeMatcher)\n
     '''
 def replace():
-    '''public static String replace(final Object source, final Map<String, String> valueMap)
-    public static String replace(final Object source, final Map<String, String> valueMap, final String prefix, final String suffix)
-    public static String replace(final Object source, final Properties valueProperties)
-    public String replace(final String source)
-    public String replace(final LogEvent event, final String source)
-    public String replace(final String source, final int offset, final int length)
-    public String replace(final LogEvent event, final String source, final int offset, final int length)
-    public String replace(final char[] source)
-    public String replace(final LogEvent event, final char[] source)
-    public String replace(final char[] source, final int offset, final int length)
-    public String replace(final LogEvent event, final char[] source, final int offset, final int length)
-    public String replace(final StringBuffer source)
-    public String replace(final LogEvent event, final StringBuffer source)
-    public String replace(final StringBuffer source, final int offset, final int length)
-    public String replace(final LogEvent event, final StringBuffer source, final int offset, final int length)
-    public String replace(final StringBuilder source)
-    public String replace(final LogEvent event, final StringBuilder source)
-    public String replace(final StringBuilder source, final int offset, final int length)
-    public String replace(final LogEvent event, final StringBuilder source, final int offset, final int length)
-    public String replace(final Object source)
-    public String replace(final LogEvent event, final Object source)
+    '''returns String\n\n
+    replace(final String source)\n
+    replace(final LogEvent event, final String source)\n
+    replace(final String source, final int offset, final int length)\n
+    replace(final LogEvent event, final String source, final int offset, final int length)\n
+    replace(final char[] source)\n
+    replace(final LogEvent event, final char[] source)\n
+    replace(final char[] source, final int offset, final int length)\n
+    replace(final LogEvent event, final char[] source, final int offset, final int length)\n
+    replace(final StringBuffer source)\n
+    replace(final LogEvent event, final StringBuffer source)\n
+    replace(final StringBuffer source, final int offset, final int length)\n
+    replace(final LogEvent event, final StringBuffer source, final int offset, final int length)\n
+    replace(final StringBuilder source)\n
+    replace(final LogEvent event, final StringBuilder source)\n
+    replace(final StringBuilder source, final int offset, final int length)\n
+    replace(final LogEvent event, final StringBuilder source, final int offset, final int length)\n
+    replace(final Object source)\n
+    replace(final LogEvent event, final Object source)\n
     '''
 def replaceIn():
-    '''public boolean replaceIn(final StringBuffer source)
-    public boolean replaceIn(final StringBuffer source, final int offset, final int length)
-    public boolean replaceIn(final LogEvent event, final StringBuffer source, final int offset, final int length)
-    public boolean replaceIn(final StringBuilder source)
-    public boolean replaceIn(final LogEvent event, final StringBuilder source)
-    public boolean replaceIn(final StringBuilder source, final int offset, final int length)
-    public boolean replaceIn(final LogEvent event, final StringBuilder source, final int offset, final int length)
+    '''returns boolean\n\n
+    replaceIn(final StringBuffer source)\n
+    replaceIn(final StringBuffer source, final int offset, final int length)\n
+    replaceIn(final LogEvent event, final StringBuffer source, final int offset, final int length)\n
+    replaceIn(final StringBuilder source)\n
+    replaceIn(final LogEvent event, final StringBuilder source)\n
+    replaceIn(final StringBuilder source, final int offset, final int length)\n
+    replaceIn(final LogEvent event, final StringBuilder source, final int offset, final int length)\n
     '''
 def getEscapeChar():
-    '''public char getEscapeChar()
+    '''returns char\n\n
+    getEscapeChar()\n
     '''
 def setEscapeChar():
-    '''public void setEscapeChar(final char escapeCharacter)
+    '''returns None\n\n
+    setEscapeChar(final char escapeCharacter)\n
     '''
 def getVariablePrefixMatcher():
-    '''public StrMatcher getVariablePrefixMatcher()
+    '''returns StrMatcher\n\n
+    getVariablePrefixMatcher()\n
     '''
 def setVariablePrefixMatcher():
-    '''public StrSubstitutor setVariablePrefixMatcher(final StrMatcher prefixMatcher)
+    '''returns StrSubstitutor\n\n
+    setVariablePrefixMatcher(final StrMatcher prefixMatcher)\n
     '''
 def setVariablePrefix():
-    '''public StrSubstitutor setVariablePrefix(final char prefix)
-    public StrSubstitutor setVariablePrefix(final String prefix)
+    '''returns StrSubstitutor\n\n
+    setVariablePrefix(final char prefix)\n
+    setVariablePrefix(final String prefix)\n
     '''
 def getVariableSuffixMatcher():
-    '''public StrMatcher getVariableSuffixMatcher()
+    '''returns StrMatcher\n\n
+    getVariableSuffixMatcher()\n
     '''
 def setVariableSuffixMatcher():
-    '''public StrSubstitutor setVariableSuffixMatcher(final StrMatcher suffixMatcher)
+    '''returns StrSubstitutor\n\n
+    setVariableSuffixMatcher(final StrMatcher suffixMatcher)\n
     '''
 def setVariableSuffix():
-    '''public StrSubstitutor setVariableSuffix(final char suffix)
-    public StrSubstitutor setVariableSuffix(final String suffix)
+    '''returns StrSubstitutor\n\n
+    setVariableSuffix(final char suffix)\n
+    setVariableSuffix(final String suffix)\n
     '''
 def getValueDelimiterMatcher():
-    '''public StrMatcher getValueDelimiterMatcher()
+    '''returns StrMatcher\n\n
+    getValueDelimiterMatcher()\n
     '''
 def setValueDelimiterMatcher():
-    '''public StrSubstitutor setValueDelimiterMatcher(final StrMatcher valueDelimiterMatcher)
+    '''returns StrSubstitutor\n\n
+    setValueDelimiterMatcher(final StrMatcher valueDelimiterMatcher)\n
     '''
 def setValueDelimiter():
-    '''public StrSubstitutor setValueDelimiter(final char valueDelimiter)
-    public StrSubstitutor setValueDelimiter(final String valueDelimiter)
+    '''returns StrSubstitutor\n\n
+    setValueDelimiter(final char valueDelimiter)\n
+    setValueDelimiter(final String valueDelimiter)\n
     '''
 def getVariableResolver():
-    '''public StrLookup getVariableResolver()
+    '''returns StrLookup\n\n
+    getVariableResolver()\n
     '''
 def setVariableResolver():
-    '''public void setVariableResolver(final StrLookup variableResolver)
+    '''returns None\n\n
+    setVariableResolver(final StrLookup variableResolver)\n
     '''
 def isEnableSubstitutionInVariables():
-    '''public boolean isEnableSubstitutionInVariables()
+    '''returns boolean\n\n
+    isEnableSubstitutionInVariables()\n
     '''
 def setEnableSubstitutionInVariables():
-    '''public void setEnableSubstitutionInVariables(final boolean enableSubstitutionInVariables)
+    '''returns None\n\n
+    setEnableSubstitutionInVariables(final boolean enableSubstitutionInVariables)\n
     '''
 def appendWithSeparators():
-    '''public void appendWithSeparators(final StringBuilder sb, final Iterable<?> iterable, String separator)
+    '''returns None\n\n
+    appendWithSeparators(final StringBuilder sb, final Iterable<?> iterable, String separator)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setConfiguration():
-    '''public void setConfiguration(final Configuration configuration)
+    '''returns None\n\n
+    setConfiguration(final Configuration configuration)\n
     '''

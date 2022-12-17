@@ -1,6 +1,8 @@
-def LanguageFactory():
-    '''public LanguageFactory()
+def ():
+    '''returns LanguageFactory\n\n
+    ()\n
     '''
 def newInstance():
-    '''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''returns Object\n\n
+    newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)\n
     '''

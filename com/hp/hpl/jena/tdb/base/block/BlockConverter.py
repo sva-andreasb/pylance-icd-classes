@@ -1,37 +1,49 @@
 def getBlockMgr():
-    '''public BlockMgr getBlockMgr()
+    '''returns BlockMgr\n\n
+    getBlockMgr()\n
     '''
 def allocateId():
-    '''public int allocateId()
+    '''returns int\n\n
+    allocateId()\n
     '''
 def create():
-    '''public T create(final int id, final BlockType bType)
+    '''returns T\n\n
+    create(final int id, final BlockType bType)\n
     '''
 def get():
-    '''public T get(final int id)
+    '''returns T\n\n
+    get(final int id)\n
     '''
 def put():
-    '''public void put(final int id, final T page)
-    public void put(final T page)
+    '''returns None\n\n
+    put(final int id, final T page)\n
+    put(final T page)\n
     '''
 def release():
-    '''public void release(final int id)
+    '''returns None\n\n
+    release(final int id)\n
     '''
 def valid():
-    '''public boolean valid(final int id)
+    '''returns boolean\n\n
+    valid(final int id)\n
     '''
 def dump():
-    '''public void dump()
+    '''returns None\n\n
+    dump()\n
     '''
 def startUpdate():
-    '''public void startUpdate()
+    '''returns None\n\n
+    startUpdate()\n
     '''
 def finishUpdate():
-    '''public void finishUpdate()
+    '''returns None\n\n
+    finishUpdate()\n
     '''
 def startRead():
-    '''public void startRead()
+    '''returns None\n\n
+    startRead()\n
     '''
 def finishRead():
-    '''public void finishRead()
+    '''returns None\n\n
+    finishRead()\n
     '''

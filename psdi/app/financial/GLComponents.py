@@ -1,30 +1,36 @@
-def GLComponents():
-    '''public GLComponents(final MboSet ms)
+def ():
+    '''returns GLComponents\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def inActivateGLComponent():
-    '''public AccountSetRemote inActivateGLComponent()
+    '''returns AccountSetRemote\n\n
+    inActivateGLComponent()\n
     '''
 def activateGLComponent():
-    '''public AccountSetRemote activateGLComponent()
+    '''returns AccountSetRemote\n\n
+    activateGLComponent()\n
     '''
 def activateComponent():
-    '''public void activateComponent()
+    '''returns None\n\n
+    activateComponent()\n
     '''
 def activateCOA():
-    '''public void activateCOA()
-    '''
-def generateGLCompColumn():
-    '''public static String generateGLCompColumn(final int i)
+    '''returns None\n\n
+    activateCOA()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

@@ -1,6 +1,8 @@
-def FldSKDModelResolutionMin():
-    '''public FldSKDModelResolutionMin(final MboValue mbv)
+def ():
+    '''returns FldSKDModelResolutionMin\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

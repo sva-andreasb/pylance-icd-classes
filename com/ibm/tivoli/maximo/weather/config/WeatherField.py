@@ -1,58 +1,76 @@
-def WeatherField():
-    '''public WeatherField()
-    public WeatherField(final String fldName, final String fldPath, final WeatherConfig.UOM uom, final boolean icon)
-    public WeatherField(final String fldName, final String fldPath, final WeatherConfig.UOM uom)
-    public WeatherField(final String fldName, final String fldPath)
-    public WeatherField(final String fldName)
+def ():
+    '''returns WeatherField\n\n
+    ()\n
+    (final String fldName, final String fldPath, final WeatherConfig.UOM uom, final boolean icon)\n
+    (final String fldName, final String fldPath, final WeatherConfig.UOM uom)\n
+    (final String fldName, final String fldPath)\n
+    (final String fldName)\n
     '''
 def getFldName():
-    '''public String getFldName()
+    '''returns String\n\n
+    getFldName()\n
     '''
 def setFldName():
-    '''public WeatherField setFldName(final String fldName)
+    '''returns WeatherField\n\n
+    setFldName(final String fldName)\n
     '''
 def getFldPath():
-    '''public String getFldPath()
+    '''returns String\n\n
+    getFldPath()\n
     '''
 def setFldPath():
-    '''public WeatherField setFldPath(final String fldPath)
+    '''returns WeatherField\n\n
+    setFldPath(final String fldPath)\n
     '''
 def setUom():
-    '''public WeatherField setUom(final WeatherConfig.UOM uom)
+    '''returns WeatherField\n\n
+    setUom(final WeatherConfig.UOM uom)\n
     '''
 def isIcon():
-    '''public boolean isIcon()
+    '''returns boolean\n\n
+    isIcon()\n
     '''
 def setIcon():
-    '''public WeatherField setIcon(final boolean icon)
+    '''returns WeatherField\n\n
+    setIcon(final boolean icon)\n
     '''
 def isSuppressLabel():
-    '''public boolean isSuppressLabel()
+    '''returns boolean\n\n
+    isSuppressLabel()\n
     '''
 def suppressLabel():
-    '''public WeatherField suppressLabel(final boolean suppressLabel)
+    '''returns WeatherField\n\n
+    suppressLabel(final boolean suppressLabel)\n
     '''
 def isSuppressEmptyOrZero():
-    '''public boolean isSuppressEmptyOrZero()
+    '''returns boolean\n\n
+    isSuppressEmptyOrZero()\n
     '''
 def suppressEmptyOrZero():
-    '''public WeatherField suppressEmptyOrZero(final boolean suppressEmptyOrZero)
+    '''returns WeatherField\n\n
+    suppressEmptyOrZero(final boolean suppressEmptyOrZero)\n
     '''
 def getStyleName():
-    '''public String getStyleName()
+    '''returns String\n\n
+    getStyleName()\n
     '''
 def setStyleName():
-    '''public WeatherField setStyleName(final String style)
+    '''returns WeatherField\n\n
+    setStyleName(final String style)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public WeatherField setLabel(final String label)
+    '''returns WeatherField\n\n
+    setLabel(final String label)\n
     '''
 def getViewOrder():
-    '''public int getViewOrder()
+    '''returns int\n\n
+    getViewOrder()\n
     '''
 def setViewOrder():
-    '''public void setViewOrder(final int viewOrder)
+    '''returns None\n\n
+    setViewOrder(final int viewOrder)\n
     '''

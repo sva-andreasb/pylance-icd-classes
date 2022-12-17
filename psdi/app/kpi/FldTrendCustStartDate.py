@@ -1,6 +1,8 @@
-def FldTrendCustStartDate():
-    '''public FldTrendCustStartDate(final MboValue mbv)
+def ():
+    '''returns FldTrendCustStartDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

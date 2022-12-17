@@ -1,62 +1,60 @@
-def builder():
-    '''public static <K, V> Builder<K, V> builder()
-    '''
-def of():
-    '''public static <K, V> ImmutableMapParameter<K, V> of(final K k0, final V v0)
-    public static <K, V> ImmutableMapParameter<K, V> of(final K k0, final V v0, final K k1, final V v1)
-    public static <K, V> ImmutableMapParameter<K, V> of(final K k0, final V v0, final K k1, final V v1, final K k2, final V v2)
-    public static <K, V> ImmutableMapParameter<K, V> of(final K k0, final V v0, final K k1, final V v1, final K k2, final V v2, final K k3, final V v3)
-    public static <K, V> ImmutableMapParameter<K, V> of(final K k0, final V v0, final K k1, final V v1, final K k2, final V v2, final K k3, final V v3, final K k4, final V v4)
-    '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
-    '''
-def entrySet():
-    '''public Set<Entry<K, V>> entrySet()
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def put():
-    '''public V put(final K key, final V value)
-    public Builder<K, V> put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> map)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> map)\n
     '''
 def remove():
-    '''public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Builder():
-    '''public Builder()
-    '''
-def build():
-    '''public ImmutableMapParameter<K, V> build()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''

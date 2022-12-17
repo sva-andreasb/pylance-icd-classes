@@ -1,3 +1,4 @@
-def IMProfile():
-    '''public IMProfile(final MboSet ms)
+def ():
+    '''returns IMProfile\n\n
+    (final MboSet ms)\n
     '''

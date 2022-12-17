@@ -1,9 +1,12 @@
-def PMonCloudProcessor():
-    '''public PMonCloudProcessor()
+def ():
+    '''returns PMonCloudProcessor\n\n
+    ()\n
     '''
 def updateNextPredictedFailureDT():
-    '''public void updateNextPredictedFailureDT(final String condition, final Date lastRun)
+    '''returns None\n\n
+    updateNextPredictedFailureDT(final String condition, final Date lastRun)\n
     '''
 def getNextFailureDate():
-    '''public Date getNextFailureDate(final File predictedFailures)
+    '''returns Date\n\n
+    getNextFailureDate(final File predictedFailures)\n
     '''

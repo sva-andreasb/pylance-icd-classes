@@ -1,3 +1,4 @@
-def ScriptEnginesNPSet():
-    '''public ScriptEnginesNPSet(final MboServerInterface ms)
+def ():
+    '''returns ScriptEnginesNPSet\n\n
+    (final MboServerInterface ms)\n
     '''

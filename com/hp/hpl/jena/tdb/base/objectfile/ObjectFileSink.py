@@ -1,25 +1,29 @@
-def ObjectFileSink():
-    '''public ObjectFileSink()
-    '''
-def all():
-    '''public Iterator<Pair<Long, ByteBuffer>> all()
+def ():
+    '''returns ObjectFileSink\n\n
+    ()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def read():
-    '''public ByteBuffer read(final long id)
+    '''returns ByteBuffer\n\n
+    read(final long id)\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def write():
-    '''public long write(final ByteBuffer str)
+    '''returns long\n\n
+    write(final ByteBuffer str)\n
     '''
 def dump():
-    '''public void dump()
+    '''returns None\n\n
+    dump()\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''

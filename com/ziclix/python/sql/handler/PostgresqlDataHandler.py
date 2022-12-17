@@ -1,10 +1,13 @@
-def PostgresqlDataHandler():
-    '''public PostgresqlDataHandler(final DataHandler datahandler)
+def ():
+    '''returns PostgresqlDataHandler\n\n
+    (final DataHandler datahandler)\n
     '''
 def getPyObject():
-    '''public PyObject getPyObject(final ResultSet set, final int col, final int type)
+    '''returns PyObject\n\n
+    getPyObject(final ResultSet set, final int col, final int type)\n
     '''
 def setJDBCObject():
-    '''public void setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object, final int type)
-    public void setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object)
+    '''returns None\n\n
+    setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object, final int type)\n
+    setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object)\n
     '''

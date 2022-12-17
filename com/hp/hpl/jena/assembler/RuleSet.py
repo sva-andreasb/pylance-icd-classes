@@ -1,13 +1,12 @@
-def create():
-    '''public static RuleSet create(final List<Rule> rules)
-    public static RuleSet create(final String ruleString)
-    '''
 def getRules():
-    '''public List<Rule> getRules()
+    '''returns List<Rule>\n\n
+    getRules()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

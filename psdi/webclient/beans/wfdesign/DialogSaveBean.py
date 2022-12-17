@@ -1,9 +1,8 @@
-def execute():
-    '''public synchronized int execute()
-    '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def wfexpbuilder():
-    '''public int wfexpbuilder()
+    '''returns int\n\n
+    wfexpbuilder()\n
     '''

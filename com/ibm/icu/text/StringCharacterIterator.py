@@ -1,44 +1,58 @@
-def StringCharacterIterator():
-    '''public StringCharacterIterator(final String text)
-    public StringCharacterIterator(final String text, final int pos)
-    public StringCharacterIterator(final String text, final int begin, final int end, final int pos)
+def ():
+    '''returns StringCharacterIterator\n\n
+    (final String text)\n
+    (final String text, final int pos)\n
+    (final String text, final int begin, final int end, final int pos)\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def first():
-    '''public char first()
+    '''returns char\n\n
+    first()\n
     '''
 def last():
-    '''public char last()
+    '''returns char\n\n
+    last()\n
     '''
 def setIndex():
-    '''public char setIndex(final int p)
+    '''returns char\n\n
+    setIndex(final int p)\n
     '''
 def current():
-    '''public char current()
+    '''returns char\n\n
+    current()\n
     '''
 def next():
-    '''public char next()
+    '''returns char\n\n
+    next()\n
     '''
 def previous():
-    '''public char previous()
+    '''returns char\n\n
+    previous()\n
     '''
 def getBeginIndex():
-    '''public int getBeginIndex()
+    '''returns int\n\n
+    getBeginIndex()\n
     '''
 def getEndIndex():
-    '''public int getEndIndex()
+    '''returns int\n\n
+    getEndIndex()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

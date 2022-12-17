@@ -1,19 +1,25 @@
-def ListProgressMonitor():
-    '''public ListProgressMonitor()
+def ():
+    '''returns ListProgressMonitor\n\n
+    ()\n
     '''
 def setTask():
-    '''public void setTask(final String task)
+    '''returns None\n\n
+    setTask(final String task)\n
     '''
 def setError():
-    '''public void setError(final String errorMessage)
-    public void setError(final String errorMessage, final Throwable error)
+    '''returns None\n\n
+    setError(final String errorMessage)\n
+    setError(final String errorMessage, final Throwable error)\n
     '''
 def addMonitor():
-    '''public void addMonitor(final IProgressMonitor newMonitor)
+    '''returns None\n\n
+    addMonitor(final IProgressMonitor newMonitor)\n
     '''
 def addMonitors():
-    '''public void addMonitors(final List<IProgressMonitor> newMonitors)
+    '''returns None\n\n
+    addMonitors(final List<IProgressMonitor> newMonitors)\n
     '''
 def removeMonitor():
-    '''public void removeMonitor(final IProgressMonitor monitor)
+    '''returns None\n\n
+    removeMonitor(final IProgressMonitor monitor)\n
     '''

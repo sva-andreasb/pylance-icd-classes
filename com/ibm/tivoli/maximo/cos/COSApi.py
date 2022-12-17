@@ -1,56 +1,74 @@
-def COSApi():
-    '''public COSApi()
-    public COSApi(final boolean pool)
-    public COSApi(final String epurl, final String accessKey, final String secretKey)
+def ():
+    '''returns COSApi\n\n
+    ()\n
+    (final boolean pool)\n
+    (final String epurl, final String accessKey, final String secretKey)\n
     '''
 def createBucket():
-    '''public void createBucket(final String bucketName)
+    '''returns None\n\n
+    createBucket(final String bucketName)\n
     '''
 def doesBucketExist():
-    '''public boolean doesBucketExist(final String bucketName)
+    '''returns boolean\n\n
+    doesBucketExist(final String bucketName)\n
     '''
 def doesFileExist():
-    '''public boolean doesFileExist(final String bucketName, final String fileName)
+    '''returns boolean\n\n
+    doesFileExist(final String bucketName, final String fileName)\n
     '''
 def getAllBuckets():
-    '''public List<String> getAllBuckets(final String bucketPrefix)
+    '''returns List<String>\n\n
+    getAllBuckets(final String bucketPrefix)\n
     '''
 def getAllFiles():
-    '''public List<String> getAllFiles(final String bucketName)
+    '''returns List<String>\n\n
+    getAllFiles(final String bucketName)\n
     '''
 def getAllS3ObjectsSortedByTime():
-    '''public List<S3ObjectSummary> getAllS3ObjectsSortedByTime(final String bucketName)
+    '''returns List<S3ObjectSummary>\n\n
+    getAllS3ObjectsSortedByTime(final String bucketName)\n
     '''
 def uploadFile():
-    '''public String uploadFile(final String bucketName, final String fileName, final String mimeType, final byte[] fileData)
+    '''returns String\n\n
+    uploadFile(final String bucketName, final String fileName, final String mimeType, final byte[] fileData)\n
     '''
 def getFile():
-    '''public byte[] getFile(final String bucketName, final String fileName)
+    '''returns byte[]\n\n
+    getFile(final String bucketName, final String fileName)\n
     '''
 def getS3Object():
-    '''public S3Object getS3Object(final String bucketName, final String fileName)
+    '''returns S3Object\n\n
+    getS3Object(final String bucketName, final String fileName)\n
     '''
 def getS3ObjectContent():
-    '''public byte[] getS3ObjectContent(final S3Object fileObject)
+    '''returns byte[]\n\n
+    getS3ObjectContent(final S3Object fileObject)\n
     '''
 def getS3ObjectMimeType():
-    '''public String getS3ObjectMimeType(final S3Object fileObject)
+    '''returns String\n\n
+    getS3ObjectMimeType(final S3Object fileObject)\n
     '''
 def streamFile():
-    '''public InputStream streamFile(final String bucketName, final String fileName)
+    '''returns InputStream\n\n
+    streamFile(final String bucketName, final String fileName)\n
     '''
 def deleteFile():
-    '''public void deleteFile(final String bucketName, final String fileName)
+    '''returns None\n\n
+    deleteFile(final String bucketName, final String fileName)\n
     '''
 def deleteBucket():
-    '''public void deleteBucket(final String bucketName)
+    '''returns None\n\n
+    deleteBucket(final String bucketName)\n
     '''
 def streamBinaryData():
-    '''public void streamBinaryData(final InputStream in, final OutputStream out)
+    '''returns None\n\n
+    streamBinaryData(final InputStream in, final OutputStream out)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def compare():
-    '''public int compare(final S3ObjectSummary o1, final S3ObjectSummary o2)
+    '''returns int\n\n
+    compare(final S3ObjectSummary o1, final S3ObjectSummary o2)\n
     '''

@@ -1,18 +1,24 @@
-def PmProblemMultiAssetLocCIBean():
-    '''public PmProblemMultiAssetLocCIBean()
+def ():
+    '''returns PmProblemMultiAssetLocCIBean\n\n
+    ()\n
     '''
 def ticketrepdown():
-    '''public int ticketrepdown()
+    '''returns int\n\n
+    ticketrepdown()\n
     '''
 def ticketmeterread():
-    '''public int ticketmeterread()
+    '''returns int\n\n
+    ticketmeterread()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def jsplaunch():
-    '''public int jsplaunch()
+    '''returns int\n\n
+    jsplaunch()\n
     '''
 def RDLAUNCH():
-    '''public int RDLAUNCH()
+    '''returns int\n\n
+    RDLAUNCH()\n
     '''

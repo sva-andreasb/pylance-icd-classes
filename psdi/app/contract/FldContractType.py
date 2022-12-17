@@ -1,3 +1,4 @@
-def FldContractType():
-    '''public FldContractType(final MboValue mbv)
+def ():
+    '''returns FldContractType\n\n
+    (final MboValue mbv)\n
     '''

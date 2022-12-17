@@ -1,25 +1,32 @@
-def DOMLocatorImpl():
-    '''public DOMLocatorImpl()
-    public DOMLocatorImpl(final int fLineNumber, final int fColumnNumber, final String fUri)
-    public DOMLocatorImpl(final int fLineNumber, final int fColumnNumber, final int fUtf16Offset, final String fUri)
-    public DOMLocatorImpl(final int fLineNumber, final int fColumnNumber, final int fByteOffset, final Node fRelatedNode, final String fUri)
-    public DOMLocatorImpl(final int fLineNumber, final int fColumnNumber, final int fByteOffset, final Node fRelatedNode, final String fUri, final int fUtf16Offset)
+def ():
+    '''returns DOMLocatorImpl\n\n
+    ()\n
+    (final int fLineNumber, final int fColumnNumber, final String fUri)\n
+    (final int fLineNumber, final int fColumnNumber, final int fUtf16Offset, final String fUri)\n
+    (final int fLineNumber, final int fColumnNumber, final int fByteOffset, final Node fRelatedNode, final String fUri)\n
+    (final int fLineNumber, final int fColumnNumber, final int fByteOffset, final Node fRelatedNode, final String fUri, final int fUtf16Offset)\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''
 def getUri():
-    '''public String getUri()
+    '''returns String\n\n
+    getUri()\n
     '''
 def getRelatedNode():
-    '''public Node getRelatedNode()
+    '''returns Node\n\n
+    getRelatedNode()\n
     '''
 def getByteOffset():
-    '''public int getByteOffset()
+    '''returns int\n\n
+    getByteOffset()\n
     '''
 def getUtf16Offset():
-    '''public int getUtf16Offset()
+    '''returns int\n\n
+    getUtf16Offset()\n
     '''

@@ -1,9 +1,12 @@
-def SecurityRestrictSet():
-    '''public SecurityRestrictSet(final MboServerInterface ms)
+def ():
+    '''returns SecurityRestrictSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findMboForCollectionAuth():
-    '''public MboRemote findMboForCollectionAuth(final String objectname, final String restriction)
+    '''returns MboRemote\n\n
+    findMboForCollectionAuth(final String objectname, final String restriction)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

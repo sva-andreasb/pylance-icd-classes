@@ -1,21 +1,28 @@
-def MaxIfaceCondition():
-    '''public MaxIfaceCondition(final MboSet ms)
+def ():
+    '''returns MaxIfaceCondition\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote newSet)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote newSet)\n
     '''

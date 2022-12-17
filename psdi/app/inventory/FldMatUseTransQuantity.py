@@ -1,6 +1,8 @@
-def FldMatUseTransQuantity():
-    '''public FldMatUseTransQuantity(final MboValue mbv)
+def ():
+    '''returns FldMatUseTransQuantity\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

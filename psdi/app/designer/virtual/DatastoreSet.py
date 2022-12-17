@@ -5,12 +5,15 @@ DATASTORECHILD = "String  \"DATASTORECHILD\""
 DATASTORES = "String  \"DATASTORES\""
 DATASTORE_DATAATTRIBUTE = "String  \"dataattribute\""
 DATASTORE_DATASRC = "String  \"datasrc\""
-def DatastoreSet():
-    '''public DatastoreSet(final MboServerInterface ms)
+def ():
+    '''returns DatastoreSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findDatastore():
-    '''public Datastore findDatastore(final String attributeVal, final String datasrcVal)
+    '''returns Datastore\n\n
+    findDatastore(final String attributeVal, final String datasrcVal)\n
     '''
 def findDatastoreByID():
-    '''public Datastore findDatastoreByID(final String id)
+    '''returns Datastore\n\n
+    findDatastoreByID(final String id)\n
     '''

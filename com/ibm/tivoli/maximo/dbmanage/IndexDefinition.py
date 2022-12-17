@@ -1,77 +1,98 @@
-def IndexDefinition():
-    '''public IndexDefinition(final String tbname)
-    public IndexDefinition(final Connection connection, final String tbname)
+def ():
+    '''returns IndexDefinition\n\n
+    (final String tbname)\n
+    (final Connection connection, final String tbname)\n
     '''
 def addKey():
-    '''public void addKey(final String column)
-    public void addKey(final String column, final boolean ascending)
+    '''returns None\n\n
+    addKey(final String column)\n
+    addKey(final String column, final boolean ascending)\n
     '''
 def giveSuggestedName():
-    '''public void giveSuggestedName(final String ixname)
+    '''returns None\n\n
+    giveSuggestedName(final String ixname)\n
     '''
 def setUnique():
-    '''public void setUnique(final boolean uniqueIndex)
+    '''returns None\n\n
+    setUnique(final boolean uniqueIndex)\n
     '''
 def setTextSearch():
-    '''public void setTextSearch(final boolean textSearchIndex)
+    '''returns None\n\n
+    setTextSearch(final boolean textSearchIndex)\n
     '''
 def setClustered():
-    '''public void setClustered(final boolean clusteredIndex)
+    '''returns None\n\n
+    setClustered(final boolean clusteredIndex)\n
     '''
 def getKeys():
-    '''public List<String> getKeys()
+    '''returns List<String>\n\n
+    getKeys()\n
     '''
 def addFirstKey():
-    '''public void addFirstKey(final String column, final boolean ascending)
+    '''returns None\n\n
+    addFirstKey(final String column, final boolean ascending)\n
     '''
 def getTable():
-    '''public String getTable()
+    '''returns String\n\n
+    getTable()\n
     '''
 def isClustered():
-    '''public Boolean isClustered()
+    '''returns Boolean\n\n
+    isClustered()\n
     '''
 def getKeyDef():
-    '''public Object getKeyDef()
+    '''returns Object\n\n
+    getKeyDef()\n
     '''
 def isUnique():
-    '''public boolean isUnique()
+    '''returns boolean\n\n
+    isUnique()\n
     '''
 def getIndexName():
-    '''public String getIndexName()
+    '''returns String\n\n
+    getIndexName()\n
     '''
 def setIndexName():
-    '''public void setIndexName(final String ixname)
+    '''returns None\n\n
+    setIndexName(final String ixname)\n
     '''
 def hasIndexName():
-    '''public boolean hasIndexName()
+    '''returns boolean\n\n
+    hasIndexName()\n
     '''
 def setPartition():
-    '''public void setPartition(final String indexPartition)
-    '''
-def fetchIndexDefinition():
-    '''public static List<IndexDefinition> fetchIndexDefinition(final Connection connection, final String whereClause)
+    '''returns None\n\n
+    setPartition(final String indexPartition)\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def isTextSearch():
-    '''public boolean isTextSearch()
+    '''returns boolean\n\n
+    isTextSearch()\n
     '''
 def getPartition():
-    '''public String getPartition()
+    '''returns String\n\n
+    getPartition()\n
     '''
 def hasPartition():
-    '''public boolean hasPartition()
+    '''returns boolean\n\n
+    hasPartition()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def insertMetaData():
-    '''public void insertMetaData(final Connection connection)
+    '''returns None\n\n
+    insertMetaData(final Connection connection)\n
     '''
 def includeTenantID():
-    '''public boolean includeTenantID()
+    '''returns boolean\n\n
+    includeTenantID()\n
     '''
 def setIncludeTenantID():
-    '''public void setIncludeTenantID(final boolean includeTenantID)
+    '''returns None\n\n
+    setIncludeTenantID(final boolean includeTenantID)\n
     '''

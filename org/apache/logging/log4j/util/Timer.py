@@ -1,43 +1,37 @@
-def Timer():
-    '''public Timer(final String name)
-    public Timer(final String name, final int iterations)
-    '''
-def start():
-    '''public synchronized void start()
-    '''
-def startOrResume():
-    '''public synchronized void startOrResume()
-    '''
-def stop():
-    '''public synchronized String stop()
-    '''
-def pause():
-    '''public synchronized void pause()
-    '''
-def resume():
-    '''public synchronized void resume()
+def ():
+    '''returns Timer\n\n
+    (final String name)\n
+    (final String name, final int iterations)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getElapsedTime():
-    '''public long getElapsedTime()
+    '''returns long\n\n
+    getElapsedTime()\n
     '''
 def getElapsedNanoTime():
-    '''public long getElapsedNanoTime()
+    '''returns long\n\n
+    getElapsedNanoTime()\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def formatTo():
-    '''public void formatTo(final StringBuilder buffer)
+    '''returns None\n\n
+    formatTo(final StringBuilder buffer)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

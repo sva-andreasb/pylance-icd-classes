@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public GetKeyRotationStatusResult unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static GetKeyRotationStatusResultJsonUnmarshaller getInstance()
+    '''returns GetKeyRotationStatusResult\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

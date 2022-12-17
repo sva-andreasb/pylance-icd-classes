@@ -1,57 +1,76 @@
-def EncData():
-    '''public EncData(final EncLevel encLevel)
+def ():
+    '''returns EncData\n\n
+    (final EncLevel encLevel)\n
     '''
 def getEncLevel():
-    '''public EncLevel getEncLevel()
+    '''returns EncLevel\n\n
+    getEncLevel()\n
     '''
 def setEncLevel():
-    '''public void setEncLevel(final EncLevel encLevel)
+    '''returns None\n\n
+    setEncLevel(final EncLevel encLevel)\n
     '''
 def getParamsList():
-    '''public Vector getParamsList()
+    '''returns Vector\n\n
+    getParamsList()\n
     '''
 def setParamsList():
-    '''public void setParamsList(final Vector paramsList)
+    '''returns None\n\n
+    setParamsList(final Vector paramsList)\n
     '''
 def getRemoteParams():
-    '''public EncParams getRemoteParams()
+    '''returns EncParams\n\n
+    getRemoteParams()\n
     '''
 def setRemoteParams():
-    '''public void setRemoteParams(final EncParams remoteParams)
+    '''returns None\n\n
+    setRemoteParams(final EncParams remoteParams)\n
     '''
 def getLocalParams():
-    '''public EncParams getLocalParams()
+    '''returns EncParams\n\n
+    getLocalParams()\n
     '''
 def setLocalParams():
-    '''public void setLocalParams(final EncParams localParams)
+    '''returns None\n\n
+    setLocalParams(final EncParams localParams)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''
 def isEncrypted():
-    '''public boolean isEncrypted()
+    '''returns boolean\n\n
+    isEncrypted()\n
     '''
 def remoteEncLevel():
-    '''public EncLevel remoteEncLevel()
+    '''returns EncLevel\n\n
+    remoteEncLevel()\n
     '''
 def setCreatorId():
-    '''public void setCreatorId(final String creatorId)
+    '''returns None\n\n
+    setCreatorId(final String creatorId)\n
     '''
 def getCreatorId():
-    '''public String getCreatorId()
+    '''returns String\n\n
+    getCreatorId()\n
     '''
 def setAcceptorId():
-    '''public void setAcceptorId(final String acceptorId)
+    '''returns None\n\n
+    setAcceptorId(final String acceptorId)\n
     '''
 def getAcceptorId():
-    '''public String getAcceptorId()
+    '''returns String\n\n
+    getAcceptorId()\n
     '''
 def getMinAgreedLevel():
-    '''public EncLevel getMinAgreedLevel()
+    '''returns EncLevel\n\n
+    getMinAgreedLevel()\n
     '''
 def isEncryptionForced():
-    '''public boolean isEncryptionForced()
+    '''returns boolean\n\n
+    isEncryptionForced()\n
     '''

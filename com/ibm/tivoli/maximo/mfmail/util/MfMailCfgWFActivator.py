@@ -1,70 +1,90 @@
 def mapValueToField():
-    '''public void mapValueToField(final MboRemote mbo, final MfMailControlContainer origControl, final MfMailValueContainer origValue)
+    '''returns None\n\n
+    mapValueToField(final MboRemote mbo, final MfMailControlContainer origControl, final MfMailValueContainer origValue)\n
     '''
 def crateValueEntry():
-    '''public MfMailValueContainer crateValueEntry(final MboRemote valueCfg)
+    '''returns MfMailValueContainer\n\n
+    crateValueEntry(final MboRemote valueCfg)\n
     '''
 def createControlEntry():
-    '''public MfMailControlContainer createControlEntry(final MboRemote ctrlCfg)
+    '''returns MfMailControlContainer\n\n
+    createControlEntry(final MboRemote ctrlCfg)\n
     '''
 def getCtrlCfgBaseName():
-    '''public String getCtrlCfgBaseName()
+    '''returns String\n\n
+    getCtrlCfgBaseName()\n
     '''
 def getDeactiveWhereClause():
-    '''public String getDeactiveWhereClause(final MfMailCfgRemote config)
+    '''returns String\n\n
+    getDeactiveWhereClause(final MfMailCfgRemote config)\n
     '''
 def getTargetTableBaseName():
-    '''public String getTargetTableBaseName()
+    '''returns String\n\n
+    getTargetTableBaseName()\n
     '''
 def getValueAttributeName():
-    '''public String getValueAttributeName()
+    '''returns String\n\n
+    getValueAttributeName()\n
     '''
 def getValueCfgBaseName():
-    '''public String getValueCfgBaseName()
+    '''returns String\n\n
+    getValueCfgBaseName()\n
     '''
 def prepareObject():
-    '''public void prepareObject(final MfMailCfgRemote config)
+    '''returns None\n\n
+    prepareObject(final MfMailCfgRemote config)\n
     '''
 def getDeactivationCheckWhereClause():
-    '''public String getDeactivationCheckWhereClause(final MfMailCfgRemote config)
+    '''returns String\n\n
+    getDeactivationCheckWhereClause(final MfMailCfgRemote config)\n
     '''
 def getHasOtherActivatedCfgWhereClause():
-    '''public String getHasOtherActivatedCfgWhereClause(final MfMailCfgRemote config)
+    '''returns String\n\n
+    getHasOtherActivatedCfgWhereClause(final MfMailCfgRemote config)\n
     '''
-def Control():
-    '''public Control(final int nodeId, final String selAttr, final String notifyTemplate, final String attributes)
+def ():
+    '''returns Value\n\n
+    (final int nodeId, final String selAttr, final String notifyTemplate, final String attributes)\n
+    (final boolean isAccept, final boolean setValue, final String replyTemplate, final int value, final Map<String, String> descMap)\n
     '''
 def getNodeId():
-    '''public int getNodeId()
+    '''returns int\n\n
+    getNodeId()\n
     '''
 def getSelAttr():
-    '''public String getSelAttr()
+    '''returns String\n\n
+    getSelAttr()\n
     '''
 def getNotifyTemplate():
-    '''public String getNotifyTemplate()
+    '''returns String\n\n
+    getNotifyTemplate()\n
     '''
 def getAttributes():
-    '''public String getAttributes()
+    '''returns String\n\n
+    getAttributes()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def Value():
-    '''public Value(final boolean isAccept, final boolean setValue, final String replyTemplate, final int value, final Map<String, String> descMap)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getAction():
-    '''public int getAction()
+    '''returns int\n\n
+    getAction()\n
     '''
 def getReplyTemplate():
-    '''public String getReplyTemplate()
+    '''returns String\n\n
+    getReplyTemplate()\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def getDescription():
-    '''public String getDescription(final String launguage)
+    '''returns String\n\n
+    getDescription(final String launguage)\n
     '''
 def getLaungages():
-    '''public Set<String> getLaungages()
+    '''returns Set<String>\n\n
+    getLaungages()\n
     '''

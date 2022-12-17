@@ -1,6 +1,8 @@
-def DispatchAssignSet():
-    '''public DispatchAssignSet(final MboServerInterface ms)
+def ():
+    '''returns DispatchAssignSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def saveAssignSet():
-    '''public void saveAssignSet()
+    '''returns None\n\n
+    saveAssignSet()\n
     '''

@@ -1,4 +1,5 @@
-def MBeanTrustPermission():
-    '''public MBeanTrustPermission(final String s)
-    public MBeanTrustPermission(final String s, final String s2)
+def ():
+    '''returns MBeanTrustPermission\n\n
+    (final String s)\n
+    (final String s, final String s2)\n
     '''

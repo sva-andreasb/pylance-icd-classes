@@ -1,232 +1,309 @@
-def ActionImpl():
-    '''public ActionImpl()
-    public ActionImpl(final Map m)
+def ():
+    '''returns ActionImpl\n\n
+    ()\n
+    (final Map m)\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hasName():
-    '''public boolean hasName()
+    '''returns boolean\n\n
+    hasName()\n
     '''
 def setType():
-    '''public void setType(final String s)
+    '''returns None\n\n
+    setType(final String s)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def hasType():
-    '''public boolean hasType()
+    '''returns boolean\n\n
+    hasType()\n
     '''
 def setOwner():
-    '''public void setOwner(final String s)
+    '''returns None\n\n
+    setOwner(final String s)\n
     '''
 def getOwner():
-    '''public String getOwner()
+    '''returns String\n\n
+    getOwner()\n
     '''
 def hasOwner():
-    '''public boolean hasOwner()
+    '''returns boolean\n\n
+    hasOwner()\n
     '''
 def setCommandType():
-    '''public void setCommandType(final String s)
+    '''returns None\n\n
+    setCommandType(final String s)\n
     '''
 def getCommandType():
-    '''public String getCommandType()
+    '''returns String\n\n
+    getCommandType()\n
     '''
 def hasCommandType():
-    '''public boolean hasCommandType()
+    '''returns boolean\n\n
+    hasCommandType()\n
     '''
 def setCommand():
-    '''public void setCommand(final String s)
+    '''returns None\n\n
+    setCommand(final String s)\n
     '''
 def getCommand():
-    '''public String getCommand()
+    '''returns String\n\n
+    getCommand()\n
     '''
 def hasCommand():
-    '''public boolean hasCommand()
+    '''returns boolean\n\n
+    hasCommand()\n
     '''
 def setFileLocation():
-    '''public void setFileLocation(final FileLocation fl)
+    '''returns None\n\n
+    setFileLocation(final FileLocation fl)\n
     '''
 def getFileLocation():
-    '''public FileLocation getFileLocation()
+    '''returns FileLocation\n\n
+    getFileLocation()\n
     '''
 def hasFileLocation():
-    '''public boolean hasFileLocation()
+    '''returns boolean\n\n
+    hasFileLocation()\n
     '''
 def setTargetPath():
-    '''public void setTargetPath(final String s)
+    '''returns None\n\n
+    setTargetPath(final String s)\n
     '''
 def getTargetPath():
-    '''public String getTargetPath()
+    '''returns String\n\n
+    getTargetPath()\n
     '''
 def hasTargetPath():
-    '''public boolean hasTargetPath()
+    '''returns boolean\n\n
+    hasTargetPath()\n
     '''
 def setUserName():
-    '''public void setUserName(final String s)
+    '''returns None\n\n
+    setUserName(final String s)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def hasUserName():
-    '''public boolean hasUserName()
+    '''returns boolean\n\n
+    hasUserName()\n
     '''
 def setWorkingDirectory():
-    '''public void setWorkingDirectory(final String s)
+    '''returns None\n\n
+    setWorkingDirectory(final String s)\n
     '''
 def getWorkingDirectory():
-    '''public String getWorkingDirectory()
+    '''returns String\n\n
+    getWorkingDirectory()\n
     '''
 def hasWorkingDirectory():
-    '''public boolean hasWorkingDirectory()
+    '''returns boolean\n\n
+    hasWorkingDirectory()\n
     '''
 def setParameters():
-    '''public void setParameters(final String s)
+    '''returns None\n\n
+    setParameters(final String s)\n
     '''
 def getParameters():
-    '''public String getParameters()
+    '''returns String\n\n
+    getParameters()\n
     '''
 def hasParameters():
-    '''public boolean hasParameters()
+    '''returns boolean\n\n
+    hasParameters()\n
     '''
 def getGuid():
-    '''public Guid getGuid()
+    '''returns Guid\n\n
+    getGuid()\n
     '''
 def hasGuid():
-    '''public boolean hasGuid()
+    '''returns boolean\n\n
+    hasGuid()\n
     '''
 def setGuid():
-    '''public void setGuid(final Guid guid)
+    '''returns None\n\n
+    setGuid(final Guid guid)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def hasDisplayName():
-    '''public boolean hasDisplayName()
+    '''returns boolean\n\n
+    hasDisplayName()\n
     '''
 def getContextIp():
-    '''public String getContextIp()
+    '''returns String\n\n
+    getContextIp()\n
     '''
 def hasContextIp():
-    '''public boolean hasContextIp()
+    '''returns boolean\n\n
+    hasContextIp()\n
     '''
 def setContextIp():
-    '''public void setContextIp(final String ctx)
+    '''returns None\n\n
+    setContextIp(final String ctx)\n
     '''
 def getObjectType():
-    '''public String getObjectType()
+    '''returns String\n\n
+    getObjectType()\n
     '''
 def hasObjectType():
-    '''public boolean hasObjectType()
+    '''returns boolean\n\n
+    hasObjectType()\n
     '''
 def setObjectType():
-    '''public void setObjectType(final String type)
+    '''returns None\n\n
+    setObjectType(final String type)\n
     '''
 def getCDMSource():
-    '''public String getCDMSource()
+    '''returns String\n\n
+    getCDMSource()\n
     '''
 def hasCDMSource():
-    '''public boolean hasCDMSource()
+    '''returns boolean\n\n
+    hasCDMSource()\n
     '''
 def setCDMSource():
-    '''public void setCDMSource(final String source)
+    '''returns None\n\n
+    setCDMSource(final String source)\n
     '''
 def getSourceToken():
-    '''public String getSourceToken()
+    '''returns String\n\n
+    getSourceToken()\n
     '''
 def hasSourceToken():
-    '''public boolean hasSourceToken()
+    '''returns boolean\n\n
+    hasSourceToken()\n
     '''
 def setSourceToken():
-    '''public void setSourceToken(final String sourceToken)
+    '''returns None\n\n
+    setSourceToken(final String sourceToken)\n
     '''
 def getCmdbSource():
-    '''public Guid getCmdbSource()
+    '''returns Guid\n\n
+    getCmdbSource()\n
     '''
 def hasCmdbSource():
-    '''public boolean hasCmdbSource()
+    '''returns boolean\n\n
+    hasCmdbSource()\n
     '''
 def setCmdbSource():
-    '''public void setCmdbSource(final Guid cmdbsource)
+    '''returns None\n\n
+    setCmdbSource(final Guid cmdbsource)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def hasLabel():
-    '''public boolean hasLabel()
+    '''returns boolean\n\n
+    hasLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def hasDescription():
-    '''public boolean hasDescription()
+    '''returns boolean\n\n
+    hasDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getAdminState():
-    '''public int getAdminState()
+    '''returns int\n\n
+    getAdminState()\n
     '''
 def hasAdminState():
-    '''public boolean hasAdminState()
+    '''returns boolean\n\n
+    hasAdminState()\n
     '''
 def setAdminState():
-    '''public void setAdminState(final int state)
+    '''returns None\n\n
+    setAdminState(final int state)\n
     '''
 def getBidiFlag():
-    '''public int getBidiFlag()
+    '''returns int\n\n
+    getBidiFlag()\n
     '''
 def hasBidiFlag():
-    '''public boolean hasBidiFlag()
+    '''returns boolean\n\n
+    hasBidiFlag()\n
     '''
 def setBidiFlag():
-    '''public void setBidiFlag(final int bidiflag)
+    '''returns None\n\n
+    setBidiFlag(final int bidiflag)\n
     '''
 def getBidiFormat():
-    '''public String getBidiFormat()
+    '''returns String\n\n
+    getBidiFormat()\n
     '''
 def hasBidiFormat():
-    '''public boolean hasBidiFormat()
+    '''returns boolean\n\n
+    hasBidiFormat()\n
     '''
 def setBidiFormat():
-    '''public void setBidiFormat(final String bidiformat)
+    '''returns None\n\n
+    setBidiFormat(final String bidiformat)\n
     '''
 def getAllAttributes():
-    '''public Map getAllAttributes()
+    '''returns Map\n\n
+    getAllAttributes()\n
     '''
 def getCreatedBy():
-    '''public String getCreatedBy()
+    '''returns String\n\n
+    getCreatedBy()\n
     '''
 def hasCreatedBy():
-    '''public boolean hasCreatedBy()
+    '''returns boolean\n\n
+    hasCreatedBy()\n
     '''
 def getLastModifiedTime():
-    '''public long getLastModifiedTime()
+    '''returns long\n\n
+    getLastModifiedTime()\n
     '''
 def hasLastModifiedTime():
-    '''public boolean hasLastModifiedTime()
+    '''returns boolean\n\n
+    hasLastModifiedTime()\n
     '''
 def getLastModifiedBy():
-    '''public String getLastModifiedBy()
+    '''returns String\n\n
+    getLastModifiedBy()\n
     '''
 def hasLastModifiedBy():
-    '''public boolean hasLastModifiedBy()
+    '''returns boolean\n\n
+    hasLastModifiedBy()\n
     '''
 def getExtendedAttributes():
-    '''public byte[] getExtendedAttributes()
+    '''returns byte[]\n\n
+    getExtendedAttributes()\n
     '''
 def hasExtendedAttributes():
-    '''public boolean hasExtendedAttributes()
+    '''returns boolean\n\n
+    hasExtendedAttributes()\n
     '''
 def setExtendedAttributes():
-    '''public void setExtendedAttributes(final byte[] eAttribMap)
+    '''returns None\n\n
+    setExtendedAttributes(final byte[] eAttribMap)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

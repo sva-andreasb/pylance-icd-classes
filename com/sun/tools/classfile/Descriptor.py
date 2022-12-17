@@ -1,22 +1,29 @@
-def Descriptor():
-    '''public Descriptor(final ClassReader classReader)
-    public Descriptor(final int index)
+def ():
+    '''returns Descriptor\n\n
+    (final ClassReader classReader)\n
+    (final int index)\n
     '''
 def getValue():
-    '''public String getValue(final ConstantPool constantPool)
+    '''returns String\n\n
+    getValue(final ConstantPool constantPool)\n
     '''
 def getParameterCount():
-    '''public int getParameterCount(final ConstantPool constantPool)
+    '''returns int\n\n
+    getParameterCount(final ConstantPool constantPool)\n
     '''
 def getParameterTypes():
-    '''public String getParameterTypes(final ConstantPool constantPool)
+    '''returns String\n\n
+    getParameterTypes(final ConstantPool constantPool)\n
     '''
 def getReturnType():
-    '''public String getReturnType(final ConstantPool constantPool)
+    '''returns String\n\n
+    getReturnType(final ConstantPool constantPool)\n
     '''
 def getFieldType():
-    '''public String getFieldType(final ConstantPool constantPool)
+    '''returns String\n\n
+    getFieldType(final ConstantPool constantPool)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

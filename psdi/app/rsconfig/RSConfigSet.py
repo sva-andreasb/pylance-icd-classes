@@ -1,119 +1,158 @@
 LOGGER = "String  \"maximo.application.rsconfig\""
-def RSConfigSet():
-    '''public RSConfigSet(final MboServerInterface ms)
+def ():
+    '''returns RSConfigSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getColumns():
-    '''public Vector getColumns()
+    '''returns Vector\n\n
+    getColumns()\n
     '''
 def setQueryId():
-    '''public void setQueryId(final String newQueryId)
+    '''returns None\n\n
+    setQueryId(final String newQueryId)\n
     '''
 def getQueryAppName():
-    '''public String getQueryAppName()
+    '''returns String\n\n
+    getQueryAppName()\n
     '''
 def setQueryAppName():
-    '''public void setQueryAppName(final String newAppName)
+    '''returns None\n\n
+    setQueryAppName(final String newAppName)\n
     '''
 def runQuery():
-    '''public MboSetRemote runQuery(final UserInfo ui, final String sTableName, final String sWhereClause)
+    '''returns MboSetRemote\n\n
+    runQuery(final UserInfo ui, final String sTableName, final String sWhereClause)\n
     '''
 def getColumnsAsArray():
-    '''public String[] getColumnsAsArray()
+    '''returns String[]\n\n
+    getColumnsAsArray()\n
     '''
 def getKeyColumn():
-    '''public String getKeyColumn()
+    '''returns String\n\n
+    getKeyColumn()\n
     '''
 def getNoOfRecords():
-    '''public int getNoOfRecords()
+    '''returns int\n\n
+    getNoOfRecords()\n
     '''
 def setKeyColumn():
-    '''public void setKeyColumn(final String col)
+    '''returns None\n\n
+    setKeyColumn(final String col)\n
     '''
 def setNoOfRecords():
-    '''public void setNoOfRecords(final int num)
+    '''returns None\n\n
+    setNoOfRecords(final int num)\n
     '''
 def getResultSetData():
-    '''public MboSetData getResultSetData(int start, final int rowcount, final String sortBy, final Hashtable qbes)
+    '''returns MboSetData\n\n
+    getResultSetData(int start, final int rowcount, final String sortBy, final Hashtable qbes)\n
     '''
 def getResultSetWhere():
-    '''public String getResultSetWhere()
+    '''returns String\n\n
+    getResultSetWhere()\n
     '''
 def getResultSetWhereWithoutOrderBy():
-    '''public String getResultSetWhereWithoutOrderBy()
+    '''returns String\n\n
+    getResultSetWhereWithoutOrderBy()\n
     '''
 def getOriginalResultSetWhere():
-    '''public String getOriginalResultSetWhere()
+    '''returns String\n\n
+    getOriginalResultSetWhere()\n
     '''
 def getDataForGraph():
-    '''public ArrayList getDataForGraph()
+    '''returns ArrayList\n\n
+    getDataForGraph()\n
     '''
 def getConditionAttribute():
-    '''public String getConditionAttribute()
+    '''returns String\n\n
+    getConditionAttribute()\n
     '''
 def getGroupByAttribute():
-    '''public String[] getGroupByAttribute()
+    '''returns String[]\n\n
+    getGroupByAttribute()\n
     '''
 def getConditions():
-    '''public HashSet getConditions()
+    '''returns HashSet\n\n
+    getConditions()\n
     '''
 def setDetails():
-    '''public boolean setDetails(final long selectedQueryId)
+    '''returns boolean\n\n
+    setDetails(final long selectedQueryId)\n
     '''
 def addFromResultSetColumn():
-    '''public void addFromResultSetColumn()
-    public void addFromResultSetColumn(final String appName)
+    '''returns None\n\n
+    addFromResultSetColumn()\n
+    addFromResultSetColumn(final String appName)\n
     '''
 def getQueryInfo():
-    '''public MboRemote getQueryInfo(final long queryId)
+    '''returns MboRemote\n\n
+    getQueryInfo(final long queryId)\n
     '''
 def getQueryId():
-    '''public String getQueryId()
+    '''returns String\n\n
+    getQueryId()\n
     '''
 def setQueryDetails():
-    '''public void setQueryDetails()
+    '''returns None\n\n
+    setQueryDetails()\n
     '''
 def getGraphDetails():
-    '''public Properties getGraphDetails()
+    '''returns Properties\n\n
+    getGraphDetails()\n
     '''
 def setUpDefaults():
-    '''public void setUpDefaults()
+    '''returns None\n\n
+    setUpDefaults()\n
     '''
 def queryExists():
-    '''public boolean queryExists()
+    '''returns boolean\n\n
+    queryExists()\n
     '''
 def clearData():
-    '''public void clearData()
+    '''returns None\n\n
+    clearData()\n
     '''
 def checkAttributeChange():
-    '''public void checkAttributeChange()
+    '''returns None\n\n
+    checkAttributeChange()\n
     '''
 def isErrorRunningQuery():
-    '''public boolean isErrorRunningQuery()
+    '''returns boolean\n\n
+    isErrorRunningQuery()\n
     '''
 def resetErrorRunningQuery():
-    '''public void resetErrorRunningQuery()
+    '''returns None\n\n
+    resetErrorRunningQuery()\n
     '''
 def getErrorMsg():
-    '''public String getErrorMsg()
+    '''returns String\n\n
+    getErrorMsg()\n
     '''
 def getGraphErrorMsg():
-    '''public String getGraphErrorMsg()
+    '''returns String\n\n
+    getGraphErrorMsg()\n
     '''
 def setLookupValue():
-    '''public void setLookupValue(final String attrib, final String value)
+    '''returns None\n\n
+    setLookupValue(final String attrib, final String value)\n
     '''
 def setLookupValueFromSetGraphOptionsDialog():
-    '''public void setLookupValueFromSetGraphOptionsDialog(final String value)
+    '''returns None\n\n
+    setLookupValueFromSetGraphOptionsDialog(final String value)\n
     '''
 def deleteLabels():
-    '''public void deleteLabels()
+    '''returns None\n\n
+    deleteLabels()\n
     '''
 def getNonPersistentAttributes():
-    '''public ArrayList getNonPersistentAttributes()
+    '''returns ArrayList\n\n
+    getNonPersistentAttributes()\n
     '''
 def clearErrorMsg():
-    '''public void clearErrorMsg()
+    '''returns None\n\n
+    clearErrorMsg()\n
     '''
 def getResultSetMboSet():
-    '''public MboSetRemote getResultSetMboSet(final String orderBy)
+    '''returns MboSetRemote\n\n
+    getResultSetMboSet(final String orderBy)\n
     '''

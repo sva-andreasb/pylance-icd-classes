@@ -1,12 +1,16 @@
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def RECONCILE():
-    '''public int RECONCILE()
+    '''returns int\n\n
+    RECONCILE()\n
     '''
 def CURBALADJ():
-    '''public int CURBALADJ()
+    '''returns int\n\n
+    CURBALADJ()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''

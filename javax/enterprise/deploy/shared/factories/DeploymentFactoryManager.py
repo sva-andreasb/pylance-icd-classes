@@ -1,15 +1,16 @@
-def getInstance():
-    '''public static DeploymentFactoryManager getInstance()
-    '''
 def getDeploymentFactories():
-    '''public DeploymentFactory[] getDeploymentFactories()
+    '''returns DeploymentFactory[]\n\n
+    getDeploymentFactories()\n
     '''
 def registerDeploymentFactory():
-    '''public void registerDeploymentFactory(final DeploymentFactory factory)
+    '''returns None\n\n
+    registerDeploymentFactory(final DeploymentFactory factory)\n
     '''
 def getDisconnectedDeploymentManager():
-    '''public DeploymentManager getDisconnectedDeploymentManager(final String uri)
+    '''returns DeploymentManager\n\n
+    getDisconnectedDeploymentManager(final String uri)\n
     '''
 def getDeploymentManager():
-    '''public DeploymentManager getDeploymentManager(final String uri, final String username, final String password)
+    '''returns DeploymentManager\n\n
+    getDeploymentManager(final String uri, final String username, final String password)\n
     '''

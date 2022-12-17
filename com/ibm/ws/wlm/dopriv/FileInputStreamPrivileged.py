@@ -1,7 +1,9 @@
-def FileInputStreamPrivileged():
-    '''public FileInputStreamPrivileged(final String pathName)
-    public FileInputStreamPrivileged(final String pathName, final boolean throwFileNotFound)
+def ():
+    '''returns FileInputStreamPrivileged\n\n
+    (final String pathName)\n
+    (final String pathName, final boolean throwFileNotFound)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

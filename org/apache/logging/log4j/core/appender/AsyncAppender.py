@@ -1,78 +1,96 @@
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def append():
-    '''public void append(final LogEvent logEvent)
+    '''returns None\n\n
+    append(final LogEvent logEvent)\n
     '''
 def logMessageInCurrentThread():
-    '''public void logMessageInCurrentThread(final LogEvent logEvent)
+    '''returns None\n\n
+    logMessageInCurrentThread(final LogEvent logEvent)\n
     '''
 def logMessageInBackgroundThread():
-    '''public void logMessageInBackgroundThread(final LogEvent logEvent)
-    '''
-def createAppender():
-    '''public static AsyncAppender createAppender(final AppenderRef[] appenderRefs, final String errorRef, final boolean blocking, final long shutdownTimeout, final int size, final String name, final boolean includeLocation, final Filter filter, final Configuration config, final boolean ignoreExceptions)
-    '''
-def newBuilder():
-    '''public static Builder newBuilder()
+    '''returns None\n\n
+    logMessageInBackgroundThread(final LogEvent logEvent)\n
     '''
 def getAppenderRefStrings():
-    '''public String[] getAppenderRefStrings()
+    '''returns String[]\n\n
+    getAppenderRefStrings()\n
     '''
 def isIncludeLocation():
-    '''public boolean isIncludeLocation()
+    '''returns boolean\n\n
+    isIncludeLocation()\n
     '''
 def isBlocking():
-    '''public boolean isBlocking()
+    '''returns boolean\n\n
+    isBlocking()\n
     '''
 def getErrorRef():
-    '''public String getErrorRef()
+    '''returns String\n\n
+    getErrorRef()\n
     '''
 def getQueueCapacity():
-    '''public int getQueueCapacity()
+    '''returns int\n\n
+    getQueueCapacity()\n
     '''
 def getQueueRemainingCapacity():
-    '''public int getQueueRemainingCapacity()
+    '''returns int\n\n
+    getQueueRemainingCapacity()\n
     '''
 def getQueueSize():
-    '''public int getQueueSize()
+    '''returns int\n\n
+    getQueueSize()\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def setAppenderRefs():
-    '''public Builder setAppenderRefs(final AppenderRef[] appenderRefs)
+    '''returns Builder\n\n
+    setAppenderRefs(final AppenderRef[] appenderRefs)\n
     '''
 def setErrorRef():
-    '''public Builder setErrorRef(final String errorRef)
+    '''returns Builder\n\n
+    setErrorRef(final String errorRef)\n
     '''
 def setBlocking():
-    '''public Builder setBlocking(final boolean blocking)
+    '''returns Builder\n\n
+    setBlocking(final boolean blocking)\n
     '''
 def setShutdownTimeout():
-    '''public Builder setShutdownTimeout(final long shutdownTimeout)
+    '''returns Builder\n\n
+    setShutdownTimeout(final long shutdownTimeout)\n
     '''
 def setBufferSize():
-    '''public Builder setBufferSize(final int bufferSize)
+    '''returns Builder\n\n
+    setBufferSize(final int bufferSize)\n
     '''
 def setName():
-    '''public Builder setName(final String name)
+    '''returns Builder\n\n
+    setName(final String name)\n
     '''
 def setIncludeLocation():
-    '''public Builder setIncludeLocation(final boolean includeLocation)
+    '''returns Builder\n\n
+    setIncludeLocation(final boolean includeLocation)\n
     '''
 def setConfiguration():
-    '''public Builder setConfiguration(final Configuration configuration)
+    '''returns Builder\n\n
+    setConfiguration(final Configuration configuration)\n
     '''
 def setIgnoreExceptions():
-    '''public Builder setIgnoreExceptions(final boolean ignoreExceptions)
+    '''returns Builder\n\n
+    setIgnoreExceptions(final boolean ignoreExceptions)\n
     '''
 def setBlockingQueueFactory():
-    '''public Builder setBlockingQueueFactory(final BlockingQueueFactory<LogEvent> blockingQueueFactory)
+    '''returns Builder\n\n
+    setBlockingQueueFactory(final BlockingQueueFactory<LogEvent> blockingQueueFactory)\n
     '''
 def build():
-    '''public AsyncAppender build()
+    '''returns AsyncAppender\n\n
+    build()\n
     '''

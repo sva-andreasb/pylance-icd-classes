@@ -1,9 +1,12 @@
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getSelector():
-    '''public Selector getSelector()
+    '''returns Selector\n\n
+    getSelector()\n
     '''
 def getSiblingSelector():
-    '''public SimpleSelector getSiblingSelector()
+    '''returns SimpleSelector\n\n
+    getSiblingSelector()\n
     '''

@@ -16,10 +16,3 @@ COL_INTERNAL_HAS_ERRORS = "String  \"_HAS_ERRORS\""
 COL_INTERNAL_GANTT_CALENDAR = "String  \"_GCAL\""
 COL_INTERNAL_NW_PARTS = "String  \"_NWPARTS\""
 CAL_INCLUDE = "String  \"ShiftsInclude\""
-def isHiddenBasedOnOrder():
-    '''public static boolean isHiddenBasedOnOrder(final IMXGanttPropertyInfo pi)
-    '''
-def getTreeGridTypeFromDataType():
-    '''public static String getTreeGridTypeFromDataType(final IMXGanttPropertyInfo pi)
-    public static String getTreeGridTypeFromDataType(final int type)
-    '''

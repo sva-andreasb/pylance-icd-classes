@@ -1,6 +1,8 @@
-def FldTargetURL():
-    '''public FldTargetURL(final MboValue mbv)
+def ():
+    '''returns FldTargetURL\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

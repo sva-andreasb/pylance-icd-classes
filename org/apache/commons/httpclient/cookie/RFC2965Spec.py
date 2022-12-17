@@ -1,59 +1,69 @@
 SET_COOKIE2_KEY = "String  \"set-cookie2\""
-def RFC2965Spec():
-    '''public RFC2965Spec()
+def ():
+    '''returns RFC2965Spec\n\n
+    ()\n
     '''
 def parse():
-    '''public Cookie[] parse(final String host, final int port, final String path, final boolean secure, final Header header)
-    public Cookie[] parse(String host, final int port, String path, final boolean secure, final String header)
-    public void parse(final Cookie cookie, final String path)
-    public void parse(final Cookie cookie, String domain)
-    public void parse(final Cookie cookie, final String portValue)
-    public void parse(final Cookie cookie, final String value)
-    public void parse(final Cookie cookie, final String secure)
-    public void parse(final Cookie cookie, final String comment)
-    public void parse(final Cookie cookie, final String commenturl)
-    public void parse(final Cookie cookie, final String commenturl)
-    public void parse(final Cookie cookie, final String value)
+    '''returns None\n\n
+    parse(final String host, final int port, final String path, final boolean secure, final Header header)\n
+    parse(String host, final int port, String path, final boolean secure, final String header)\n
+    parse(final Cookie cookie, final String path)\n
+    parse(final Cookie cookie, String domain)\n
+    parse(final Cookie cookie, final String portValue)\n
+    parse(final Cookie cookie, final String value)\n
+    parse(final Cookie cookie, final String secure)\n
+    parse(final Cookie cookie, final String comment)\n
+    parse(final Cookie cookie, final String commenturl)\n
+    parse(final Cookie cookie, final String commenturl)\n
+    parse(final Cookie cookie, final String value)\n
     '''
 def parseAttribute():
-    '''public void parseAttribute(final NameValuePair attribute, final Cookie cookie)
+    '''returns None\n\n
+    parseAttribute(final NameValuePair attribute, final Cookie cookie)\n
     '''
 def validate():
-    '''public void validate(final String host, final int port, final String path, final boolean secure, final Cookie cookie)
-    public void validate(final Cookie cookie, final CookieOrigin origin)
-    public void validate(final Cookie cookie, final CookieOrigin origin)
-    public void validate(final Cookie cookie, final CookieOrigin origin)
-    public void validate(final Cookie cookie, final CookieOrigin origin)
-    public void validate(final Cookie cookie, final CookieOrigin origin)
-    public void validate(final Cookie cookie, final CookieOrigin origin)
-    public void validate(final Cookie cookie, final CookieOrigin origin)
-    public void validate(final Cookie cookie, final CookieOrigin origin)
-    public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''returns None\n\n
+    validate(final String host, final int port, final String path, final boolean secure, final Cookie cookie)\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def match():
-    '''public boolean match(final String host, final int port, final String path, final boolean secure, final Cookie cookie)
-    public boolean match(final Cookie cookie, final CookieOrigin origin)
-    public boolean match(final Cookie cookie, final CookieOrigin origin)
-    public boolean match(final Cookie cookie, final CookieOrigin origin)
-    public boolean match(final Cookie cookie, final CookieOrigin origin)
-    public boolean match(final Cookie cookie, final CookieOrigin origin)
-    public boolean match(final Cookie cookie, final CookieOrigin origin)
-    public boolean match(final Cookie cookie, final CookieOrigin origin)
-    public boolean match(final Cookie cookie, final CookieOrigin origin)
-    public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''returns boolean\n\n
+    match(final String host, final int port, final String path, final boolean secure, final Cookie cookie)\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def formatCookie():
-    '''public String formatCookie(final Cookie cookie)
+    '''returns String\n\n
+    formatCookie(final Cookie cookie)\n
     '''
 def formatCookies():
-    '''public String formatCookies(final Cookie[] cookies)
+    '''returns String\n\n
+    formatCookies(final Cookie[] cookies)\n
     '''
 def domainMatch():
-    '''public boolean domainMatch(final String host, final String domain)
+    '''returns boolean\n\n
+    domainMatch(final String host, final String domain)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getVersionHeader():
-    '''public Header getVersionHeader()
+    '''returns Header\n\n
+    getVersionHeader()\n
     '''

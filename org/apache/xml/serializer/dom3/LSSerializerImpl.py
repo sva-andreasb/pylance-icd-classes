@@ -1,48 +1,64 @@
-def LSSerializerImpl():
-    '''public LSSerializerImpl()
+def ():
+    '''returns LSSerializerImpl\n\n
+    ()\n
     '''
 def initializeSerializerProps():
-    '''public void initializeSerializerProps()
+    '''returns None\n\n
+    initializeSerializerProps()\n
     '''
 def canSetParameter():
-    '''public boolean canSetParameter(final String name, final Object value)
+    '''returns boolean\n\n
+    canSetParameter(final String name, final Object value)\n
     '''
 def getParameter():
-    '''public Object getParameter(final String name)
+    '''returns Object\n\n
+    getParameter(final String name)\n
     '''
 def getParameterNames():
-    '''public DOMStringList getParameterNames()
+    '''returns DOMStringList\n\n
+    getParameterNames()\n
     '''
 def setParameter():
-    '''public void setParameter(final String name, final Object value)
+    '''returns None\n\n
+    setParameter(final String name, final Object value)\n
     '''
 def getDomConfig():
-    '''public DOMConfiguration getDomConfig()
+    '''returns DOMConfiguration\n\n
+    getDomConfig()\n
     '''
 def getFilter():
-    '''public LSSerializerFilter getFilter()
+    '''returns LSSerializerFilter\n\n
+    getFilter()\n
     '''
 def getNewLine():
-    '''public String getNewLine()
+    '''returns String\n\n
+    getNewLine()\n
     '''
 def setFilter():
-    '''public void setFilter(final LSSerializerFilter filter)
+    '''returns None\n\n
+    setFilter(final LSSerializerFilter filter)\n
     '''
 def setNewLine():
-    '''public void setNewLine(final String newLine)
+    '''returns None\n\n
+    setNewLine(final String newLine)\n
     '''
 def write():
-    '''public boolean write(final Node nodeArg, final LSOutput destination)
+    '''returns boolean\n\n
+    write(final Node nodeArg, final LSOutput destination)\n
     '''
 def writeToString():
-    '''public String writeToString(final Node nodeArg)
+    '''returns String\n\n
+    writeToString(final Node nodeArg)\n
     '''
 def writeToURI():
-    '''public boolean writeToURI(final Node nodeArg, final String uri)
+    '''returns boolean\n\n
+    writeToURI(final Node nodeArg, final String uri)\n
     '''
 def getErrorHandler():
-    '''public DOMErrorHandler getErrorHandler()
+    '''returns DOMErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

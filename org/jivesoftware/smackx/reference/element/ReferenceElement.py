@@ -4,40 +4,40 @@ ATTR_END = "String  \"end\""
 ATTR_TYPE = "String  \"type\""
 ATTR_ANCHOR = "String  \"anchor\""
 ATTR_URI = "String  \"uri\""
-def ReferenceElement():
-    '''public ReferenceElement(final Integer begin, final Integer end, final Type type, final String anchor, final URI uri, final ExtensionElement child)
-    public ReferenceElement(final Integer begin, final Integer end, final Type type, final String anchor, final URI uri)
+def ():
+    '''returns ReferenceElement\n\n
+    (final Integer begin, final Integer end, final Type type, final String anchor, final URI uri, final ExtensionElement child)\n
+    (final Integer begin, final Integer end, final Type type, final String anchor, final URI uri)\n
     '''
 def getBegin():
-    '''public Integer getBegin()
+    '''returns Integer\n\n
+    getBegin()\n
     '''
 def getEnd():
-    '''public Integer getEnd()
+    '''returns Integer\n\n
+    getEnd()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getAnchor():
-    '''public String getAnchor()
+    '''returns String\n\n
+    getAnchor()\n
     '''
 def getUri():
-    '''public URI getUri()
-    '''
-def addMention():
-    '''public static void addMention(final Stanza stanza, final int begin, final int end, final BareJid jid)
-    '''
-def getReferencesFromStanza():
-    '''public static List<ReferenceElement> getReferencesFromStanza(final Stanza stanza)
-    '''
-def containsReferences():
-    '''public static boolean containsReferences(final Stanza stanza)
+    '''returns URI\n\n
+    getUri()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

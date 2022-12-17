@@ -1,95 +1,122 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def setupDatabaseConnection():
-    '''public void setupDatabaseConnection(final DatabaseType dbType, final String hostName, final Integer port, final String instanceName, final String dbSchema)
-    public void setupDatabaseConnection(final DatabaseType dbType, final String hostName, final Integer port, final String instanceName)
+    '''returns None\n\n
+    setupDatabaseConnection(final DatabaseType dbType, final String hostName, final Integer port, final String instanceName, final String dbSchema)\n
+    setupDatabaseConnection(final DatabaseType dbType, final String hostName, final Integer port, final String instanceName)\n
     '''
 def getDatabaseType():
-    '''public DatabaseType getDatabaseType()
+    '''returns DatabaseType\n\n
+    getDatabaseType()\n
     '''
 def setDatabaseType():
-    '''public void setDatabaseType(final DatabaseType dbType)
+    '''returns None\n\n
+    setDatabaseType(final DatabaseType dbType)\n
     '''
 def getDatabaseHostName():
-    '''public String getDatabaseHostName()
+    '''returns String\n\n
+    getDatabaseHostName()\n
     '''
 def setDatabaseHostName():
-    '''public void setDatabaseHostName(final String hostName)
+    '''returns None\n\n
+    setDatabaseHostName(final String hostName)\n
     '''
 def getDatabasePort():
-    '''public Integer getDatabasePort()
+    '''returns Integer\n\n
+    getDatabasePort()\n
     '''
 def setDatabasePort():
-    '''public void setDatabasePort(final Integer port)
+    '''returns None\n\n
+    setDatabasePort(final Integer port)\n
     '''
 def getDatabaseInstanceName():
-    '''public String getDatabaseInstanceName()
+    '''returns String\n\n
+    getDatabaseInstanceName()\n
     '''
 def setDatabaseInstanceName():
-    '''public void setDatabaseInstanceName(final String instanceName)
+    '''returns None\n\n
+    setDatabaseInstanceName(final String instanceName)\n
     '''
 def getDatabaseSchema():
-    '''public String getDatabaseSchema()
+    '''returns String\n\n
+    getDatabaseSchema()\n
     '''
 def setDatabaseSchema():
-    '''public void setDatabaseSchema(final String dbSchema)
+    '''returns None\n\n
+    setDatabaseSchema(final String dbSchema)\n
     '''
 def getDatabaseUser():
-    '''public String getDatabaseUser()
+    '''returns String\n\n
+    getDatabaseUser()\n
     '''
 def setDatabaseUser():
-    '''public void setDatabaseUser(final String dbUser)
+    '''returns None\n\n
+    setDatabaseUser(final String dbUser)\n
     '''
 def getDatabasePassword():
-    '''public String getDatabasePassword()
+    '''returns String\n\n
+    getDatabasePassword()\n
     '''
 def setDatabasePassword():
-    '''public void setDatabasePassword(final String dbPassword)
-    '''
-def getRepositoryProperties():
-    '''public Map<String, String> getRepositoryProperties()
+    '''returns None\n\n
+    setDatabasePassword(final String dbPassword)\n
     '''
 def setRepositoryProperties():
-    '''public void setRepositoryProperties(final Map<String, String> newDataServiceProperties)
+    '''returns None\n\n
+    setRepositoryProperties(final Map<String, String> newDataServiceProperties)\n
     '''
 def getDatabaseConnection():
-    '''public Connection getDatabaseConnection(final String adminUserid, final String adminPassword)
+    '''returns Connection\n\n
+    getDatabaseConnection(final String adminUserid, final String adminPassword)\n
     '''
 def setupDatabaseUser():
-    '''public void setupDatabaseUser(final String dbUser, final String dbPassword)
+    '''returns None\n\n
+    setupDatabaseUser(final String dbUser, final String dbPassword)\n
     '''
 def createDatabaseSchema():
-    '''public void createDatabaseSchema(final String adminUserName, final String adminUserPassword)
+    '''returns None\n\n
+    createDatabaseSchema(final String adminUserName, final String adminUserPassword)\n
     '''
 def deleteDatabaseSchema():
-    '''public void deleteDatabaseSchema(final String adminUserName, final String adminUserPassword)
+    '''returns None\n\n
+    deleteDatabaseSchema(final String adminUserName, final String adminUserPassword)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def isCustom():
-    '''public boolean isCustom()
+    '''returns boolean\n\n
+    isCustom()\n
     '''
 def getJDBCURL():
-    '''public String getJDBCURL()
+    '''returns String\n\n
+    getJDBCURL()\n
     '''
-def PropertiesMap():
-    '''public PropertiesMap(final Properties props)
+def ():
+    '''returns PropertiesMap\n\n
+    (final Properties props)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public String setValue(final String value)
+    '''returns String\n\n
+    setValue(final String value)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

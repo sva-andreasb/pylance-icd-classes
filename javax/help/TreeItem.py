@@ -1,57 +1,74 @@
 DEFAULT_EXPANSION = "int  -1"
 COLLAPSE = "int  0"
 EXPAND = "int  1"
-def TreeItem():
-    '''public TreeItem(final Map.ID id, final HelpSet hs, final Locale locale)
-    public TreeItem(final Map.ID id, final Locale locale)
-    public TreeItem(final String name)
-    public TreeItem()
+def ():
+    '''returns TreeItem\n\n
+    (final Map.ID id, final HelpSet hs, final Locale locale)\n
+    (final Map.ID id, final Locale locale)\n
+    (final String name)\n
+    ()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setID():
-    '''public void setID(final Map.ID id)
+    '''returns None\n\n
+    setID(final Map.ID id)\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def setHelpSet():
-    '''public void setHelpSet(final HelpSet hs)
+    '''returns None\n\n
+    setHelpSet(final HelpSet hs)\n
     '''
 def getHelpSet():
-    '''public HelpSet getHelpSet()
+    '''returns HelpSet\n\n
+    getHelpSet()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setMergeType():
-    '''public void setMergeType(final String mergeType)
+    '''returns None\n\n
+    setMergeType(final String mergeType)\n
     '''
 def getMergeType():
-    '''public String getMergeType()
+    '''returns String\n\n
+    getMergeType()\n
     '''
 def setExpansionType():
-    '''public void setExpansionType(final int expand)
+    '''returns None\n\n
+    setExpansionType(final int expand)\n
     '''
 def getExpansionType():
-    '''public int getExpansionType()
+    '''returns int\n\n
+    getExpansionType()\n
     '''
 def setPresentation():
-    '''public void setPresentation(final String presentation)
+    '''returns None\n\n
+    setPresentation(final String presentation)\n
     '''
 def getPresentation():
-    '''public String getPresentation()
+    '''returns String\n\n
+    getPresentation()\n
     '''
 def setPresentationName():
-    '''public void setPresentationName(final String presentationName)
+    '''returns None\n\n
+    setPresentationName(final String presentationName)\n
     '''
 def getPresentationName():
-    '''public String getPresentationName()
+    '''returns String\n\n
+    getPresentationName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

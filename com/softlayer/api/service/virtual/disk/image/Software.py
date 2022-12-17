@@ -1,54 +1,72 @@
 def getDiskImage():
-    '''public Image getDiskImage()
+    '''returns Image\n\n
+    getDiskImage()\n
     '''
 def setDiskImage():
-    '''public void setDiskImage(final Image diskImage)
+    '''returns None\n\n
+    setDiskImage(final Image diskImage)\n
     '''
 def getPasswords():
-    '''public List<Password> getPasswords()
+    '''returns List<Password>\n\n
+    getPasswords()\n
     '''
 def getSoftwareDescription():
-    '''public Description getSoftwareDescription()
+    '''returns Description\n\n
+    getSoftwareDescription()\n
     '''
 def setSoftwareDescription():
-    '''public void setSoftwareDescription(final Description softwareDescription)
+    '''returns None\n\n
+    setSoftwareDescription(final Description softwareDescription)\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getSoftwareDescriptionId():
-    '''public Long getSoftwareDescriptionId()
+    '''returns Long\n\n
+    getSoftwareDescriptionId()\n
     '''
 def setSoftwareDescriptionId():
-    '''public void setSoftwareDescriptionId(final Long softwareDescriptionId)
+    '''returns None\n\n
+    setSoftwareDescriptionId(final Long softwareDescriptionId)\n
     '''
 def isSoftwareDescriptionIdSpecified():
-    '''public boolean isSoftwareDescriptionIdSpecified()
+    '''returns boolean\n\n
+    isSoftwareDescriptionIdSpecified()\n
     '''
 def unsetSoftwareDescriptionId():
-    '''public void unsetSoftwareDescriptionId()
+    '''returns None\n\n
+    unsetSoftwareDescriptionId()\n
     '''
 def getPasswordCount():
-    '''public Long getPasswordCount()
+    '''returns Long\n\n
+    getPasswordCount()\n
     '''
 def setPasswordCount():
-    '''public void setPasswordCount(final Long passwordCount)
+    '''returns None\n\n
+    setPasswordCount(final Long passwordCount)\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def softwareDescriptionId():
-    '''public Mask softwareDescriptionId()
+    '''returns Mask\n\n
+    softwareDescriptionId()\n
     '''
 def passwordCount():
-    '''public Mask passwordCount()
+    '''returns Mask\n\n
+    passwordCount()\n
     '''

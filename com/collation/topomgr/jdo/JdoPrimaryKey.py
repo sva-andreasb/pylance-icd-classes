@@ -1,14 +1,18 @@
-def JdoPrimaryKey():
-    '''public JdoPrimaryKey()
-    public JdoPrimaryKey(final String guid)
-    public JdoPrimaryKey(final Guid guid)
+def ():
+    '''returns JdoPrimaryKey\n\n
+    ()\n
+    (final String guid)\n
+    (final Guid guid)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

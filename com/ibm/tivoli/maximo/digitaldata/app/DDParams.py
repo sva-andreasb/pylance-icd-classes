@@ -1,18 +1,24 @@
-def DDParams():
-    '''public DDParams(final MboSet ms)
+def ():
+    '''returns DDParams\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def validateDataSrc():
-    '''public void validateDataSrc()
+    '''returns None\n\n
+    validateDataSrc()\n
     '''
 def getAuthCredentials():
-    '''public void getAuthCredentials()
+    '''returns None\n\n
+    getAuthCredentials()\n
     '''
 def saveAuthCredentials():
-    '''public void saveAuthCredentials()
+    '''returns None\n\n
+    saveAuthCredentials()\n
     '''

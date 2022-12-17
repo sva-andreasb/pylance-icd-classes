@@ -1,24 +1,32 @@
-def AuthSchemeRegistry():
-    '''public AuthSchemeRegistry()
+def ():
+    '''returns AuthSchemeRegistry\n\n
+    ()\n
     '''
 def register():
-    '''public void register(final String name, final AuthSchemeFactory factory)
+    '''returns None\n\n
+    register(final String name, final AuthSchemeFactory factory)\n
     '''
 def unregister():
-    '''public void unregister(final String name)
+    '''returns None\n\n
+    unregister(final String name)\n
     '''
 def getAuthScheme():
-    '''public AuthScheme getAuthScheme(final String name, final HttpParams params)
+    '''returns AuthScheme\n\n
+    getAuthScheme(final String name, final HttpParams params)\n
     '''
 def getSchemeNames():
-    '''public List<String> getSchemeNames()
+    '''returns List<String>\n\n
+    getSchemeNames()\n
     '''
 def setItems():
-    '''public void setItems(final Map<String, AuthSchemeFactory> map)
+    '''returns None\n\n
+    setItems(final Map<String, AuthSchemeFactory> map)\n
     '''
 def lookup():
-    '''public AuthSchemeProvider lookup(final String name)
+    '''returns AuthSchemeProvider\n\n
+    lookup(final String name)\n
     '''
 def create():
-    '''public AuthScheme create(final HttpContext context)
+    '''returns AuthScheme\n\n
+    create(final HttpContext context)\n
     '''

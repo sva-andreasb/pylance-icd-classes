@@ -1,143 +1,175 @@
-def SKDCostSet():
-    '''public SKDCostSet(final MboServerInterface ms)
+def ():
+    '''returns CostValue\n\n
+    (final MboServerInterface ms)\n
+    (final Date workDate, final Date startTime, final Date endTime, final Integer year, final Integer workHours, final Integer week, final Date startWeekDay)\n
+    (final long skdProjectID, final int year, final int weekPeriod, final Date startWeekDay, final String contentUID)\n
+    (final String field, final Double value)\n
     '''
 def populate():
-    '''public void populate(final String startWeekDay, final long SKDProjectId)
-    public void populate()
+    '''returns None\n\n
+    populate(final String startWeekDay, final long SKDProjectId)\n
+    populate()\n
     '''
 def deleteSKDCost():
-    '''public void deleteSKDCost()
-    public void deleteSKDCost(final long SKDProjectId)
+    '''returns None\n\n
+    deleteSKDCost()\n
+    deleteSKDCost(final long SKDProjectId)\n
     '''
 def deleteSKDCostTemp():
-    '''public void deleteSKDCostTemp()
-    public void deleteSKDCostTemp(final long SKDProjectId)
+    '''returns None\n\n
+    deleteSKDCostTemp()\n
+    deleteSKDCostTemp(final long SKDProjectId)\n
     '''
 def populateWAPPRCestCost():
-    '''public void populateWAPPRCestCost()
-    public void populateWAPPRCestCost(final String startWeekDay, final long SKDProjectId)
+    '''returns None\n\n
+    populateWAPPRCestCost()\n
+    populateWAPPRCestCost(final String startWeekDay, final long SKDProjectId)\n
     '''
 def populateAPPRCestCost():
-    '''public void populateAPPRCestCost()
-    public void populateAPPRCestCost(final String startWeekDay, final long SKDProjectId)
+    '''returns None\n\n
+    populateAPPRCestCost()\n
+    populateAPPRCestCost(final String startWeekDay, final long SKDProjectId)\n
     '''
 def populateWAPPRSestCost():
-    '''public void populateWAPPRSestCost()
-    public void populateWAPPRSestCost(final String startWeekDay, final long SKDProjectId)
+    '''returns None\n\n
+    populateWAPPRSestCost()\n
+    populateWAPPRSestCost(final String startWeekDay, final long SKDProjectId)\n
     '''
 def populateAPPRSestCost():
-    '''public void populateAPPRSestCost()
-    public void populateAPPRSestCost(final String startWeekDay, final long SKDProjectId)
+    '''returns None\n\n
+    populateAPPRSestCost()\n
+    populateAPPRSestCost(final String startWeekDay, final long SKDProjectId)\n
     '''
 def populateActLabCost():
-    '''public void populateActLabCost()
-    public void populateActLabCost(final String startWeekDay, final long SKDProjectId)
+    '''returns None\n\n
+    populateActLabCost()\n
+    populateActLabCost(final String startWeekDay, final long SKDProjectId)\n
     '''
 def populateActMatCost():
-    '''public void populateActMatCost()
-    public void populateActMatCost(final String startWeekDay, final long SKDProjectId)
+    '''returns None\n\n
+    populateActMatCost()\n
+    populateActMatCost(final String startWeekDay, final long SKDProjectId)\n
     '''
 def populateActServCost():
-    '''public void populateActServCost()
-    public void populateActServCost(final String startWeekDay, final long SKDProjectId)
+    '''returns None\n\n
+    populateActServCost()\n
+    populateActServCost(final String startWeekDay, final long SKDProjectId)\n
     '''
 def populateActToolCost():
-    '''public void populateActToolCost()
-    public void populateActToolCost(final String startWeekDay, final long SKDProjectId)
+    '''returns None\n\n
+    populateActToolCost()\n
+    populateActToolCost(final String startWeekDay, final long SKDProjectId)\n
     '''
 def updateSKDTemp():
-    '''public void updateSKDTemp()
-    public void updateSKDTemp(final long SKDProjectId)
+    '''returns None\n\n
+    updateSKDTemp()\n
+    updateSKDTemp(final long SKDProjectId)\n
     '''
 def isSKDTempEmpty():
-    '''public boolean isSKDTempEmpty()
-    public boolean isSKDTempEmpty(final long SKDProjectId)
+    '''returns boolean\n\n
+    isSKDTempEmpty()\n
+    isSKDTempEmpty(final long SKDProjectId)\n
     '''
 def populateSKDCost():
-    '''public void populateSKDCost()
-    public void populateSKDCost(final long SKDProjectId)
+    '''returns None\n\n
+    populateSKDCost()\n
+    populateSKDCost(final long SKDProjectId)\n
     '''
 def updateTotalCost():
-    '''public void updateTotalCost()
-    public void updateTotalCost(final long SKDProjectId)
+    '''returns None\n\n
+    updateTotalCost()\n
+    updateTotalCost(final long SKDProjectId)\n
     '''
 def updateTimePeriod():
-    '''public void updateTimePeriod()
-    public void updateTimePeriod(final long SKDProjectId)
+    '''returns None\n\n
+    updateTimePeriod()\n
+    updateTimePeriod(final long SKDProjectId)\n
     '''
 def executeStatement():
-    '''public void executeStatement(final String sqlStatement)
+    '''returns None\n\n
+    executeStatement(final String sqlStatement)\n
     '''
 def getPrimaryKey():
-    '''public String getPrimaryKey(final String project, final String tableID)
-    '''
-def WorkDate():
-    '''public WorkDate(final Date workDate, final Date startTime, final Date endTime, final Integer year, final Integer workHours, final Integer week, final Date startWeekDay)
+    '''returns String\n\n
+    getPrimaryKey(final String project, final String tableID)\n
     '''
 def getWorkDate():
-    '''public Date getWorkDate()
+    '''returns Date\n\n
+    getWorkDate()\n
     '''
 def getStartTime():
-    '''public Date getStartTime()
+    '''returns Date\n\n
+    getStartTime()\n
     '''
 def getEndTime():
-    '''public Date getEndTime()
+    '''returns Date\n\n
+    getEndTime()\n
     '''
 def getYear():
-    '''public Integer getYear()
-    public int getYear()
+    '''returns int\n\n
+    getYear()\n
+    getYear()\n
     '''
 def getWorkHours():
-    '''public Integer getWorkHours()
+    '''returns Integer\n\n
+    getWorkHours()\n
     '''
 def getWeek():
-    '''public Integer getWeek()
+    '''returns Integer\n\n
+    getWeek()\n
     '''
 def getStartWeekDay():
-    '''public Date getStartWeekDay()
-    public Date getStartWeekDay()
-    '''
-def SKDCostWeek():
-    '''public SKDCostWeek(final long skdProjectID, final int year, final int weekPeriod, final Date startWeekDay, final String contentUID)
+    '''returns Date\n\n
+    getStartWeekDay()\n
+    getStartWeekDay()\n
     '''
 def getSkdProjectID():
-    '''public long getSkdProjectID()
+    '''returns long\n\n
+    getSkdProjectID()\n
     '''
 def getTimePeriod():
-    '''public String getTimePeriod()
+    '''returns String\n\n
+    getTimePeriod()\n
     '''
 def getWeekPeriod():
-    '''public int getWeekPeriod()
+    '''returns int\n\n
+    getWeekPeriod()\n
     '''
 def getContentUID():
-    '''public String getContentUID()
+    '''returns String\n\n
+    getContentUID()\n
     '''
 def getTotalHours():
-    '''public double getTotalHours()
+    '''returns double\n\n
+    getTotalHours()\n
     '''
 def addHours():
-    '''public void addHours(final double hours)
+    '''returns None\n\n
+    addHours(final double hours)\n
     '''
 def getActivityHours():
-    '''public double getActivityHours()
+    '''returns double\n\n
+    getActivityHours()\n
     '''
 def setActivityHours():
-    '''public void setActivityHours(final double activityHours)
+    '''returns None\n\n
+    setActivityHours(final double activityHours)\n
     '''
 def setValue():
-    '''public void setValue(final String field, final Double value)
-    public void setValue(final Double value)
+    '''returns None\n\n
+    setValue(final String field, final Double value)\n
+    setValue(final Double value)\n
     '''
 def getValue():
-    '''public Double getValue(final String field)
-    public Double getValue()
-    '''
-def CostValue():
-    '''public CostValue(final String field, final Double value)
+    '''returns Double\n\n
+    getValue(final String field)\n
+    getValue()\n
     '''
 def getField():
-    '''public String getField()
+    '''returns String\n\n
+    getField()\n
     '''
 def setField():
-    '''public void setField(final String field)
+    '''returns None\n\n
+    setField(final String field)\n
     '''

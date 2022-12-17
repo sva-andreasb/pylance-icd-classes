@@ -1,12 +1,16 @@
-def RtfListTable():
-    '''public RtfListTable(final RtfDocument doc)
+def ():
+    '''returns RtfListTable\n\n
+    (final RtfDocument doc)\n
     '''
 def writeDefinition():
-    '''public byte[] writeDefinition()
+    '''returns byte[]\n\n
+    writeDefinition()\n
     '''
 def getListNumber():
-    '''public int getListNumber(final RtfList list)
+    '''returns int\n\n
+    getListNumber(final RtfList list)\n
     '''
 def freeListNumber():
-    '''public void freeListNumber(final RtfList list)
+    '''returns None\n\n
+    freeListNumber(final RtfList list)\n
     '''

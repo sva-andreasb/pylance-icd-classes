@@ -1,3 +1,4 @@
-def ClusterWeightTableEntry():
-    '''public ClusterWeightTableEntry()
+def ():
+    '''returns ClusterWeightTableEntry\n\n
+    ()\n
     '''

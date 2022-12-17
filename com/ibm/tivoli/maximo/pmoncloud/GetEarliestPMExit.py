@@ -1,3 +1,4 @@
 def setDataOut():
-    '''public StructureData setDataOut(final StructureData userExitData)
+    '''returns StructureData\n\n
+    setDataOut(final StructureData userExitData)\n
     '''

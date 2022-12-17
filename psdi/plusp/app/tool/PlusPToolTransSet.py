@@ -1,9 +1,12 @@
-def PlusPToolTransSet():
-    '''public PlusPToolTransSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPToolTransSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote owner)
+    '''returns None\n\n
+    setOwner(final MboRemote owner)\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''

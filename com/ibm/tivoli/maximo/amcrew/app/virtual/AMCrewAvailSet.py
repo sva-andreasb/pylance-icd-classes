@@ -1,21 +1,28 @@
-def AMCrewAvailSet():
-    '''public AMCrewAvailSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewAvailSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def setupFields():
-    '''public void setupFields(final Date inDate, final MboRemote crew)
+    '''returns None\n\n
+    setupFields(final Date inDate, final MboRemote crew)\n
     '''
 def saveModifiedAvailability():
-    '''public void saveModifiedAvailability()
+    '''returns None\n\n
+    saveModifiedAvailability()\n
     '''
 def needsSave():
-    '''public boolean needsSave()
+    '''returns boolean\n\n
+    needsSave()\n
     '''
 def getModAvailRows():
-    '''public int getModAvailRows()
+    '''returns int\n\n
+    getModAvailRows()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

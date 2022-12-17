@@ -1,22 +1,29 @@
-def CoreParser():
-    '''public CoreParser(final Analyzer analyzer, final QueryParser parser)
-    public CoreParser(final String defaultField, final Analyzer analyzer)
+def ():
+    '''returns CoreParser\n\n
+    (final Analyzer analyzer, final QueryParser parser)\n
+    (final String defaultField, final Analyzer analyzer)\n
     '''
 def parse():
-    '''public Query parse(final InputStream xmlStream)
+    '''returns Query\n\n
+    parse(final InputStream xmlStream)\n
     '''
 def addQueryBuilder():
-    '''public void addQueryBuilder(final String nodeName, final QueryBuilder builder)
+    '''returns None\n\n
+    addQueryBuilder(final String nodeName, final QueryBuilder builder)\n
     '''
 def addSpanBuilder():
-    '''public void addSpanBuilder(final String nodeName, final SpanQueryBuilder builder)
+    '''returns None\n\n
+    addSpanBuilder(final String nodeName, final SpanQueryBuilder builder)\n
     '''
 def addSpanQueryBuilder():
-    '''public void addSpanQueryBuilder(final String nodeName, final SpanQueryBuilder builder)
+    '''returns None\n\n
+    addSpanQueryBuilder(final String nodeName, final SpanQueryBuilder builder)\n
     '''
 def getQuery():
-    '''public Query getQuery(final Element e)
+    '''returns Query\n\n
+    getQuery(final Element e)\n
     '''
 def getSpanQuery():
-    '''public SpanQuery getSpanQuery(final Element e)
+    '''returns SpanQuery\n\n
+    getSpanQuery(final Element e)\n
     '''

@@ -1,3 +1,4 @@
-def ExcludeMapAppSet():
-    '''public ExcludeMapAppSet(final MboServerInterface ms)
+def ():
+    '''returns ExcludeMapAppSet\n\n
+    (final MboServerInterface ms)\n
     '''

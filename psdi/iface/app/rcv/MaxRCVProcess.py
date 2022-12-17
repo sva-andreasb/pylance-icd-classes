@@ -1,46 +1,61 @@
-def MaxRCVProcess():
-    '''public MaxRCVProcess()
+def ():
+    '''returns MaxRCVProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules()
-    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules()\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def createMboSet():
-    '''public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo micInfo, final String processTable)
+    '''returns MboSetRemote\n\n
+    createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo micInfo, final String processTable)\n
     '''
 def findWINSPMatRec():
-    '''public MboRemote findWINSPMatRec()
+    '''returns MboRemote\n\n
+    findWINSPMatRec()\n
     '''
 def findWINSPMatRecINV():
-    '''public MboRemote findWINSPMatRecINV()
+    '''returns MboRemote\n\n
+    findWINSPMatRecINV()\n
     '''
 def getRevisionNumber():
-    '''public int getRevisionNumber()
+    '''returns int\n\n
+    getRevisionNumber()\n
     '''
 def findValidStatusPO():
-    '''public MboRemote findValidStatusPO()
+    '''returns MboRemote\n\n
+    findValidStatusPO()\n
     '''
 def findOriginalReceipt():
-    '''public MboRemote findOriginalReceipt()
+    '''returns MboRemote\n\n
+    findOriginalReceipt()\n
     '''
 def findOriginalReceiptforReturn():
-    '''public MboRemote findOriginalReceiptforReturn()
+    '''returns MboRemote\n\n
+    findOriginalReceiptforReturn()\n
     '''
 def findOriginalReceiptToVoid():
-    '''public MboRemote findOriginalReceiptToVoid()
+    '''returns MboRemote\n\n
+    findOriginalReceiptToVoid()\n
     '''
 def presetMboRules():
-    '''public int presetMboRules()
+    '''returns int\n\n
+    presetMboRules()\n
     '''
 def findOriginalReceiptforRotAssetsReturn():
-    '''public MboRemote findOriginalReceiptforRotAssetsReturn()
+    '''returns MboRemote\n\n
+    findOriginalReceiptforRotAssetsReturn()\n
     '''
 def setReceiptRef():
-    '''public void setReceiptRef(final MboRemote origReceipt)
+    '''returns None\n\n
+    setReceiptRef(final MboRemote origReceipt)\n
     '''
 def findValidStatusPOForReturn():
-    '''public MboRemote findValidStatusPOForReturn()
+    '''returns MboRemote\n\n
+    findValidStatusPOForReturn()\n
     '''

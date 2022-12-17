@@ -1,12 +1,12 @@
-def IloCplex__DisjunctiveCutCallbackI():
-    '''public IloCplex__DisjunctiveCutCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__DisjunctiveCutCallbackI obj)
+def ():
+    '''returns IloCplex__DisjunctiveCutCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getProgress():
-    '''public double getProgress()
+    '''returns double\n\n
+    getProgress()\n
     '''

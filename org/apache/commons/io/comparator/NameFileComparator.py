@@ -1,10 +1,13 @@
-def NameFileComparator():
-    '''public NameFileComparator()
-    public NameFileComparator(final IOCase caseSensitivity)
+def ():
+    '''returns NameFileComparator\n\n
+    ()\n
+    (final IOCase caseSensitivity)\n
     '''
 def compare():
-    '''public int compare(final File file1, final File file2)
+    '''returns int\n\n
+    compare(final File file1, final File file2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

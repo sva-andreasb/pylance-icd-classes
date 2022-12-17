@@ -1,3 +1,4 @@
-def FldAssetWorkZoneDefault():
-    '''public FldAssetWorkZoneDefault(final MboValue mbv)
+def ():
+    '''returns FldAssetWorkZoneDefault\n\n
+    (final MboValue mbv)\n
     '''

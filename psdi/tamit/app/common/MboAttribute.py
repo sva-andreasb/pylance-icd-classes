@@ -1,21 +1,28 @@
-def MboAttribute():
-    '''public MboAttribute(final String tableName, final String attributeName, final String assetattrid)
+def ():
+    '''returns MboAttribute\n\n
+    (final String tableName, final String attributeName, final String assetattrid)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def getAssetattrid():
-    '''public String getAssetattrid()
+    '''returns String\n\n
+    getAssetattrid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

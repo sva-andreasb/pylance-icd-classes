@@ -1,15 +1,20 @@
-def CharsTrieBuilder():
-    '''public CharsTrieBuilder()
+def ():
+    '''returns CharsTrieBuilder\n\n
+    ()\n
     '''
 def add():
-    '''public CharsTrieBuilder add(final CharSequence s, final int value)
+    '''returns CharsTrieBuilder\n\n
+    add(final CharSequence s, final int value)\n
     '''
 def build():
-    '''public CharsTrie build(final Option buildOption)
+    '''returns CharsTrie\n\n
+    build(final Option buildOption)\n
     '''
 def buildCharSequence():
-    '''public CharSequence buildCharSequence(final Option buildOption)
+    '''returns CharSequence\n\n
+    buildCharSequence(final Option buildOption)\n
     '''
 def clear():
-    '''public CharsTrieBuilder clear()
+    '''returns CharsTrieBuilder\n\n
+    clear()\n
     '''

@@ -1,6 +1,8 @@
-def FldIfaceControlType():
-    '''public FldIfaceControlType(final MboValue mbv)
+def ():
+    '''returns FldIfaceControlType\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

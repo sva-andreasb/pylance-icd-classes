@@ -1,67 +1,85 @@
-def create():
-    '''public static EntityBuilder create()
-    '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def setText():
-    '''public EntityBuilder setText(final String text)
+    '''returns EntityBuilder\n\n
+    setText(final String text)\n
     '''
 def getBinary():
-    '''public byte[] getBinary()
+    '''returns byte[]\n\n
+    getBinary()\n
     '''
 def setBinary():
-    '''public EntityBuilder setBinary(final byte[] binary)
+    '''returns EntityBuilder\n\n
+    setBinary(final byte[] binary)\n
     '''
 def getStream():
-    '''public InputStream getStream()
+    '''returns InputStream\n\n
+    getStream()\n
     '''
 def setStream():
-    '''public EntityBuilder setStream(final InputStream stream)
+    '''returns EntityBuilder\n\n
+    setStream(final InputStream stream)\n
     '''
 def getParameters():
-    '''public List<NameValuePair> getParameters()
+    '''returns List<NameValuePair>\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public EntityBuilder setParameters(final List<NameValuePair> parameters)
-    public EntityBuilder setParameters(final NameValuePair... parameters)
+    '''returns EntityBuilder\n\n
+    setParameters(final List<NameValuePair> parameters)\n
+    setParameters(final NameValuePair... parameters)\n
     '''
 def getSerializable():
-    '''public Serializable getSerializable()
+    '''returns Serializable\n\n
+    getSerializable()\n
     '''
 def setSerializable():
-    '''public EntityBuilder setSerializable(final Serializable serializable)
+    '''returns EntityBuilder\n\n
+    setSerializable(final Serializable serializable)\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def setFile():
-    '''public EntityBuilder setFile(final File file)
+    '''returns EntityBuilder\n\n
+    setFile(final File file)\n
     '''
 def getContentType():
-    '''public ContentType getContentType()
+    '''returns ContentType\n\n
+    getContentType()\n
     '''
 def setContentType():
-    '''public EntityBuilder setContentType(final ContentType contentType)
+    '''returns EntityBuilder\n\n
+    setContentType(final ContentType contentType)\n
     '''
 def getContentEncoding():
-    '''public String getContentEncoding()
+    '''returns String\n\n
+    getContentEncoding()\n
     '''
 def setContentEncoding():
-    '''public EntityBuilder setContentEncoding(final String contentEncoding)
+    '''returns EntityBuilder\n\n
+    setContentEncoding(final String contentEncoding)\n
     '''
 def isChunked():
-    '''public boolean isChunked()
+    '''returns boolean\n\n
+    isChunked()\n
     '''
 def chunked():
-    '''public EntityBuilder chunked()
+    '''returns EntityBuilder\n\n
+    chunked()\n
     '''
 def isGzipCompress():
-    '''public boolean isGzipCompress()
+    '''returns boolean\n\n
+    isGzipCompress()\n
     '''
 def gzipCompress():
-    '''public EntityBuilder gzipCompress()
+    '''returns EntityBuilder\n\n
+    gzipCompress()\n
     '''
 def build():
-    '''public HttpEntity build()
+    '''returns HttpEntity\n\n
+    build()\n
     '''

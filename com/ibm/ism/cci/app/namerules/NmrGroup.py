@@ -1,17 +1,22 @@
 REL_GET_NMRULES_FOR_A_NMRGROUP = "String  \"NMRULES\""
 REL_GET_CLASSSTRUCTMAPPING_FOR_A_NMRGROUP = "String  \"NMRCLASSSTRUCTUREMAP\""
-def NmrGroup():
-    '''public NmrGroup(final MboSet ms)
+def ():
+    '''returns NmrGroup\n\n
+    (final MboSet ms)\n
     '''
 def getNMR():
-    '''public MboSetRemote getNMR()
+    '''returns MboSetRemote\n\n
+    getNMR()\n
     '''
 def getNMRClassStructureMap():
-    '''public MboSetRemote getNMRClassStructureMap()
+    '''returns MboSetRemote\n\n
+    getNMRClassStructureMap()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

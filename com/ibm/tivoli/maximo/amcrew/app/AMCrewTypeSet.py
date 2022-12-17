@@ -1,3 +1,4 @@
-def AMCrewTypeSet():
-    '''public AMCrewTypeSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewTypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

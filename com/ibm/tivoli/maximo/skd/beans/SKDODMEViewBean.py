@@ -1,12 +1,16 @@
-def SKDODMEViewBean():
-    '''public SKDODMEViewBean()
+def ():
+    '''returns SKDODMEViewBean\n\n
+    ()\n
     '''
 def refresh():
-    '''public int refresh()
+    '''returns int\n\n
+    refresh()\n
     '''
 def abort():
-    '''public int abort()
+    '''returns int\n\n
+    abort()\n
     '''
 def clearcompleted():
-    '''public int clearcompleted()
+    '''returns int\n\n
+    clearcompleted()\n
     '''

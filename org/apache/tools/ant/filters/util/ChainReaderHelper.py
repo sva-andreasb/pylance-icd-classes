@@ -1,27 +1,36 @@
-def ChainReaderHelper():
-    '''public ChainReaderHelper()
+def ():
+    '''returns ChainReaderHelper\n\n
+    ()\n
     '''
 def setPrimaryReader():
-    '''public void setPrimaryReader(final Reader rdr)
+    '''returns None\n\n
+    setPrimaryReader(final Reader rdr)\n
     '''
 def setProject():
-    '''public void setProject(final Project project)
+    '''returns None\n\n
+    setProject(final Project project)\n
     '''
 def getProject():
-    '''public Project getProject()
+    '''returns Project\n\n
+    getProject()\n
     '''
 def setBufferSize():
-    '''public void setBufferSize(final int size)
+    '''returns None\n\n
+    setBufferSize(final int size)\n
     '''
 def setFilterChains():
-    '''public void setFilterChains(final Vector fchain)
+    '''returns None\n\n
+    setFilterChains(final Vector fchain)\n
     '''
 def getAssembledReader():
-    '''public Reader getAssembledReader()
+    '''returns Reader\n\n
+    getAssembledReader()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def readFully():
-    '''public String readFully(final Reader rdr)
+    '''returns String\n\n
+    readFully(final Reader rdr)\n
     '''

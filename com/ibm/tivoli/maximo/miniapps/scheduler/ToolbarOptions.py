@@ -1,16 +1,18 @@
-def ToolbarOptions():
-    '''public ToolbarOptions()
+def ():
+    '''returns ToolBarItem\n\n
+    ()\n
+    (final String action2, final String label)\n
     '''
 def addItem():
-    '''public ToolBarItem addItem(final String action, final String label)
-    public ToolBarItem addItem(final String action)
+    '''returns ToolBarItem\n\n
+    addItem(final String action, final String label)\n
+    addItem(final String action)\n
     '''
 def getItem():
-    '''public ToolBarItem getItem(final String item)
+    '''returns ToolBarItem\n\n
+    getItem(final String item)\n
     '''
 def hasItem():
-    '''public boolean hasItem(final String item)
-    '''
-def ToolBarItem():
-    '''public ToolBarItem(final String action2, final String label)
+    '''returns boolean\n\n
+    hasItem(final String item)\n
     '''

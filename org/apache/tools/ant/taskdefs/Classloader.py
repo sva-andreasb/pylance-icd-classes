@@ -1,31 +1,41 @@
 SYSTEM_LOADER_REF = "String  \"ant.coreLoader\""
-def Classloader():
-    '''public Classloader()
+def ():
+    '''returns Classloader\n\n
+    ()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setReset():
-    '''public void setReset(final boolean b)
+    '''returns None\n\n
+    setReset(final boolean b)\n
     '''
 def setReverse():
-    '''public void setReverse(final boolean b)
+    '''returns None\n\n
+    setReverse(final boolean b)\n
     '''
 def setParentFirst():
-    '''public void setParentFirst(final boolean b)
+    '''returns None\n\n
+    setParentFirst(final boolean b)\n
     '''
 def setParentName():
-    '''public void setParentName(final String name)
+    '''returns None\n\n
+    setParentName(final String name)\n
     '''
 def setClasspathRef():
-    '''public void setClasspathRef(final Reference pathRef)
+    '''returns None\n\n
+    setClasspathRef(final Reference pathRef)\n
     '''
 def setClasspath():
-    '''public void setClasspath(final Path classpath)
+    '''returns None\n\n
+    setClasspath(final Path classpath)\n
     '''
 def createClasspath():
-    '''public Path createClasspath()
+    '''returns Path\n\n
+    createClasspath()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

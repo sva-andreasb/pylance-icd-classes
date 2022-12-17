@@ -1,51 +1,68 @@
-def MRSet():
-    '''public MRSet(final MboServerInterface ms)
+def ():
+    '''returns MRSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def checkWFEnabled():
-    '''public boolean checkWFEnabled()
+    '''returns boolean\n\n
+    checkWFEnabled()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def findMR():
-    '''public void findMR(final String mrnum)
+    '''returns None\n\n
+    findMR(final String mrnum)\n
     '''
 def findAllRecurringMRs():
-    '''public void findAllRecurringMRs()
+    '''returns None\n\n
+    findAllRecurringMRs()\n
     '''
 def findAllOpenMRsForCurrentUser():
-    '''public void findAllOpenMRsForCurrentUser()
+    '''returns None\n\n
+    findAllOpenMRsForCurrentUser()\n
     '''
 def findAllMRsForCurrentUser():
-    '''public void findAllMRsForCurrentUser()
+    '''returns None\n\n
+    findAllMRsForCurrentUser()\n
     '''
 def findAllOpenMRs():
-    '''public void findAllOpenMRs()
+    '''returns None\n\n
+    findAllOpenMRs()\n
     '''
 def findAllReceivingMRsForCurrentUser():
-    '''public void findAllReceivingMRsForCurrentUser()
+    '''returns None\n\n
+    findAllReceivingMRsForCurrentUser()\n
     '''
 def findAllReceivingMRs():
-    '''public void findAllReceivingMRs()
+    '''returns None\n\n
+    findAllReceivingMRs()\n
     '''
 def findAllOpenMRsForPersonCode():
-    '''public void findAllOpenMRsForPersonCode(final String personCode)
+    '''returns None\n\n
+    findAllOpenMRsForPersonCode(final String personCode)\n
     '''
 def findAllMRsForPersonCode():
-    '''public void findAllMRsForPersonCode(final String personCode)
+    '''returns None\n\n
+    findAllMRsForPersonCode(final String personCode)\n
     '''
 def findAllDraftMRsForCurrentUser():
-    '''public void findAllDraftMRsForCurrentUser()
+    '''returns None\n\n
+    findAllDraftMRsForCurrentUser()\n
     '''
 def findAllDraftMRsForPersonCode():
-    '''public void findAllDraftMRsForPersonCode(final String personCode)
+    '''returns None\n\n
+    findAllDraftMRsForPersonCode(final String personCode)\n
     '''
 def findAllRecurringMRsForCurrentUser():
-    '''public void findAllRecurringMRsForCurrentUser()
+    '''returns None\n\n
+    findAllRecurringMRsForCurrentUser()\n
     '''
 def findAllRecurringMRsForPersonCode():
-    '''public void findAllRecurringMRsForPersonCode(final String personId)
+    '''returns None\n\n
+    findAllRecurringMRsForPersonCode(final String personId)\n
     '''
 def deleteInvReserves():
-    '''public void deleteInvReserves()
+    '''returns None\n\n
+    deleteInvReserves()\n
     '''

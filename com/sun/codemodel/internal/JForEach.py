@@ -1,12 +1,16 @@
-def JForEach():
-    '''public JForEach(final JType vartype, final String variable, final JExpression collection)
+def ():
+    '''returns JForEach\n\n
+    (final JType vartype, final String variable, final JExpression collection)\n
     '''
 def var():
-    '''public JVar var()
+    '''returns JVar\n\n
+    var()\n
     '''
 def body():
-    '''public JBlock body()
+    '''returns JBlock\n\n
+    body()\n
     '''
 def state():
-    '''public void state(final JFormatter f)
+    '''returns None\n\n
+    state(final JFormatter f)\n
     '''

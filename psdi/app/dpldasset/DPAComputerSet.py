@@ -1,3 +1,4 @@
-def DPAComputerSet():
-    '''public DPAComputerSet(final MboServerInterface ms)
+def ():
+    '''returns DPAComputerSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,13 +1,16 @@
-def ConfigurationException():
-    '''public ConfigurationException(final Exception e)
-    public ConfigurationException()
-    public ConfigurationException(final String errorMessage)
-    public ConfigurationException(final TaskResult taskResult)
-    public ConfigurationException(final String errorMessage, final Throwable cause)
+def ():
+    '''returns ConfigurationException\n\n
+    (final Exception e)\n
+    ()\n
+    (final String errorMessage)\n
+    (final TaskResult taskResult)\n
+    (final String errorMessage, final Throwable cause)\n
     '''
 def setTaskResult():
-    '''public void setTaskResult(final TaskResult result)
+    '''returns None\n\n
+    setTaskResult(final TaskResult result)\n
     '''
 def getTaskResult():
-    '''public TaskResult getTaskResult()
+    '''returns TaskResult\n\n
+    getTaskResult()\n
     '''

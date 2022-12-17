@@ -1,16 +1,21 @@
-def Procedure():
-    '''public Procedure(final PyCursor cursor, final PyObject name)
+def ():
+    '''returns Procedure\n\n
+    (final PyCursor cursor, final PyObject name)\n
     '''
 def prepareCall():
-    '''public CallableStatement prepareCall()
-    public CallableStatement prepareCall(final PyObject rsType, final PyObject rsConcur)
+    '''returns CallableStatement\n\n
+    prepareCall()\n
+    prepareCall(final PyObject rsType, final PyObject rsConcur)\n
     '''
 def normalizeInput():
-    '''public void normalizeInput(final PyObject params, final PyObject bindings)
+    '''returns None\n\n
+    normalizeInput(final PyObject params, final PyObject bindings)\n
     '''
 def isInput():
-    '''public boolean isInput(final int index)
+    '''returns boolean\n\n
+    isInput(final int index)\n
     '''
 def toSql():
-    '''public String toSql()
+    '''returns String\n\n
+    toSql()\n
     '''

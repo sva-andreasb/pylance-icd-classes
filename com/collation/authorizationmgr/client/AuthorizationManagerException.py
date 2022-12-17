@@ -1,4 +1,5 @@
-def AuthorizationManagerException():
-    '''public AuthorizationManagerException()
-    public AuthorizationManagerException(final String s)
+def ():
+    '''returns AuthorizationManagerException\n\n
+    ()\n
+    (final String s)\n
     '''

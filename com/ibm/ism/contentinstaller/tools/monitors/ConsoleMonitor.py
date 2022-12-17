@@ -1,7 +1,9 @@
 def setTask():
-    '''public void setTask(final String task)
+    '''returns None\n\n
+    setTask(final String task)\n
     '''
 def setError():
-    '''public void setError(final String errorMessage)
-    public void setError(final String errorMessage, final Throwable error)
+    '''returns None\n\n
+    setError(final String errorMessage)\n
+    setError(final String errorMessage, final Throwable error)\n
     '''

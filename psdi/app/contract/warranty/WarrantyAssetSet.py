@@ -1,6 +1,8 @@
-def WarrantyAssetSet():
-    '''public WarrantyAssetSet(final MboServerInterface ms)
+def ():
+    '''returns WarrantyAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

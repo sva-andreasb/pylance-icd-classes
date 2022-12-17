@@ -1,19 +1,25 @@
-def SKDOPASCPSParam():
-    '''public SKDOPASCPSParam(final MboSet ms)
+def ():
+    '''returns SKDOPASCPSParam\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def getSKDOptParmMbos():
-    '''public MboSetRemote getSKDOptParmMbos(final String[] varNames)
-    public MboSetRemote getSKDOptParmMbos(String varwhere)
+    '''returns MboSetRemote\n\n
+    getSKDOptParmMbos(final String[] varNames)\n
+    getSKDOptParmMbos(String varwhere)\n
     '''

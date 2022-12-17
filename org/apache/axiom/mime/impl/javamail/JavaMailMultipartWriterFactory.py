@@ -1,3 +1,4 @@
 def createMultipartWriter():
-    '''public MultipartWriter createMultipartWriter(final OutputStream out, final String boundary)
+    '''returns MultipartWriter\n\n
+    createMultipartWriter(final OutputStream out, final String boundary)\n
     '''

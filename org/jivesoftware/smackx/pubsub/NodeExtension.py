@@ -1,22 +1,25 @@
-def NodeExtension():
-    '''public NodeExtension(final PubSubElementType elem, final String nodeId)
-    public NodeExtension(final PubSubElementType elem)
+def ():
+    '''returns NodeExtension\n\n
+    (final PubSubElementType elem, final String nodeId)\n
+    (final PubSubElementType elem)\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getPubSubNamespace():
-    '''public PubSubNamespace getPubSubNamespace()
-    '''
-def getNamespace():
-    '''public final String getNamespace()
+    '''returns PubSubNamespace\n\n
+    getPubSubNamespace()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

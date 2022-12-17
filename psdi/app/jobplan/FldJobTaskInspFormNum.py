@@ -1,9 +1,12 @@
-def FldJobTaskInspFormNum():
-    '''public FldJobTaskInspFormNum(final MboValue mbv)
+def ():
+    '''returns FldJobTaskInspFormNum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

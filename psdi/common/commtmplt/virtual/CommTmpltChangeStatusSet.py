@@ -1,3 +1,4 @@
-def CommTmpltChangeStatusSet():
-    '''public CommTmpltChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns CommTmpltChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

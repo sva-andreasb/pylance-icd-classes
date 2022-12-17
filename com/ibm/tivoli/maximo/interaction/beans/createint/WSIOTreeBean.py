@@ -1,12 +1,12 @@
-def WSIOTreeBean():
-    '''public WSIOTreeBean()
+def ():
+    '''returns WSIOTreeBean\n\n
+    ()\n
     '''
 def setcurrentnode():
-    '''public void setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)
+    '''returns None\n\n
+    setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)\n
     '''
 def selectnode():
-    '''public int selectnode()
-    '''
-def structureChangedEvent():
-    '''public synchronized void structureChangedEvent(final DataBean speaker)
+    '''returns int\n\n
+    selectnode()\n
     '''

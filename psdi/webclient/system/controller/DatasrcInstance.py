@@ -1,21 +1,28 @@
-def DatasrcInstance():
-    '''public DatasrcInstance()
+def ():
+    '''returns DatasrcInstance\n\n
+    ()\n
     '''
 def broadcastEvent():
-    '''public int broadcastEvent(final WebClientEvent event)
+    '''returns int\n\n
+    broadcastEvent(final WebClientEvent event)\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def instantiatedatasrcdesign():
-    '''public void instantiatedatasrcdesign()
+    '''returns None\n\n
+    instantiatedatasrcdesign()\n
     '''
 def getDataBean():
-    '''public DataBean getDataBean()
+    '''returns DataBean\n\n
+    getDataBean()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''

@@ -1,6 +1,8 @@
-def BasicIdFactory():
-    '''public BasicIdFactory()
+def ():
+    '''returns BasicIdFactory\n\n
+    ()\n
     '''
 def getUniqueId():
-    '''public String getUniqueId(final String pageName)
+    '''returns String\n\n
+    getUniqueId(final String pageName)\n
     '''

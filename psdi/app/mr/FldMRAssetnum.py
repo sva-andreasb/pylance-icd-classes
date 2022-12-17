@@ -1,12 +1,16 @@
-def FldMRAssetnum():
-    '''public FldMRAssetnum(final MboValue mbv)
+def ():
+    '''returns FldMRAssetnum\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def determineLocationAction():
-    '''public void determineLocationAction()
+    '''returns None\n\n
+    determineLocationAction()\n
     '''

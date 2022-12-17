@@ -1,21 +1,27 @@
-def NegotiateScheme():
-    '''public NegotiateScheme(final SpnegoTokenGenerator spengoGenerator, final boolean stripPort)
-    public NegotiateScheme(final SpnegoTokenGenerator spengoGenerator)
-    public NegotiateScheme()
+def ():
+    '''returns NegotiateScheme\n\n
+    (final SpnegoTokenGenerator spengoGenerator, final boolean stripPort)\n
+    (final SpnegoTokenGenerator spengoGenerator)\n
+    ()\n
     '''
 def getSchemeName():
-    '''public String getSchemeName()
+    '''returns String\n\n
+    getSchemeName()\n
     '''
 def authenticate():
-    '''public Header authenticate(final Credentials credentials, final HttpRequest request)
-    public Header authenticate(final Credentials credentials, final HttpRequest request, final HttpContext context)
+    '''returns Header\n\n
+    authenticate(final Credentials credentials, final HttpRequest request)\n
+    authenticate(final Credentials credentials, final HttpRequest request, final HttpContext context)\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def getRealm():
-    '''public String getRealm()
+    '''returns String\n\n
+    getRealm()\n
     '''
 def isConnectionBased():
-    '''public boolean isConnectionBased()
+    '''returns boolean\n\n
+    isConnectionBased()\n
     '''

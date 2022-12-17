@@ -1,30 +1,36 @@
-def makeCountingMessageHandler():
-    '''public static CountingMessageHandler makeCountingMessageHandler(final IMessageHandler handler)
-    '''
-def CountingMessageHandler():
-    '''public CountingMessageHandler(final IMessageHandler delegate)
+def ():
+    '''returns CountingMessageHandler\n\n
+    (final IMessageHandler delegate)\n
     '''
 def handleMessage():
-    '''public boolean handleMessage(final IMessage message)
+    '''returns boolean\n\n
+    handleMessage(final IMessage message)\n
     '''
 def isIgnoring():
-    '''public boolean isIgnoring(final IMessage.Kind kind)
+    '''returns boolean\n\n
+    isIgnoring(final IMessage.Kind kind)\n
     '''
 def dontIgnore():
-    '''public void dontIgnore(final IMessage.Kind kind)
+    '''returns None\n\n
+    dontIgnore(final IMessage.Kind kind)\n
     '''
 def ignore():
-    '''public void ignore(final IMessage.Kind kind)
+    '''returns None\n\n
+    ignore(final IMessage.Kind kind)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def numMessages():
-    '''public int numMessages(final IMessage.Kind kind, final boolean orGreater)
+    '''returns int\n\n
+    numMessages(final IMessage.Kind kind, final boolean orGreater)\n
     '''
 def hasErrors():
-    '''public boolean hasErrors()
+    '''returns boolean\n\n
+    hasErrors()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

@@ -1,21 +1,20 @@
-def WOChangeStatusBean():
-    '''public WOChangeStatusBean()
+def ():
+    '''returns WOChangeStatusBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def execute():
-    '''public int execute()
-    '''
-def pmAlertSet():
-    '''public static MboSetRemote pmAlertSet()
+    '''returns int\n\n
+    execute()\n
     '''
 def beforedolongop():
-    '''public int beforedolongop()
+    '''returns int\n\n
+    beforedolongop()\n
     '''
 def cancelYesNOMessage():
-    '''public boolean cancelYesNOMessage(final Enumeration enumit)
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(final String option)
+    '''returns boolean\n\n
+    cancelYesNOMessage(final Enumeration enumit)\n
     '''

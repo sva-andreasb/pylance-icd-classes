@@ -1,55 +1,73 @@
-def DocumentTypeImpl():
-    '''public DocumentTypeImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
-    public DocumentTypeImpl(final CoreDocumentImpl coreDocumentImpl, final String s, final String publicID, final String systemID)
+def ():
+    '''returns DocumentTypeImpl\n\n
+    (final CoreDocumentImpl coreDocumentImpl, final String name)\n
+    (final CoreDocumentImpl coreDocumentImpl, final String s, final String publicID, final String systemID)\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def setInternalSubset():
-    '''public void setInternalSubset(final String internalSubset)
+    '''returns None\n\n
+    setInternalSubset(final String internalSubset)\n
     '''
 def getInternalSubset():
-    '''public String getInternalSubset()
+    '''returns String\n\n
+    getInternalSubset()\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
 def getTextContent():
-    '''public String getTextContent()
+    '''returns String\n\n
+    getTextContent()\n
     '''
 def setTextContent():
-    '''public void setTextContent(final String s)
+    '''returns None\n\n
+    setTextContent(final String s)\n
     '''
 def isEqualNode():
-    '''public boolean isEqualNode(final Node node)
+    '''returns boolean\n\n
+    isEqualNode(final Node node)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEntities():
-    '''public NamedNodeMap getEntities()
+    '''returns NamedNodeMap\n\n
+    getEntities()\n
     '''
 def getNotations():
-    '''public NamedNodeMap getNotations()
+    '''returns NamedNodeMap\n\n
+    getNotations()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean b, final boolean b2)
+    '''returns None\n\n
+    setReadOnly(final boolean b, final boolean b2)\n
     '''
 def getElements():
-    '''public NamedNodeMap getElements()
+    '''returns NamedNodeMap\n\n
+    getElements()\n
     '''
 def setUserData():
-    '''public Object setUserData(final String s, final Object o, final UserDataHandler userDataHandler)
+    '''returns Object\n\n
+    setUserData(final String s, final Object o, final UserDataHandler userDataHandler)\n
     '''
 def getUserData():
-    '''public Object getUserData(final String key)
+    '''returns Object\n\n
+    getUserData(final String key)\n
     '''

@@ -1,30 +1,37 @@
-def LocalizedNumberFormatterAsFormat():
-    '''public LocalizedNumberFormatterAsFormat(final LocalizedNumberFormatter formatter, final ULocale locale)
+def ():
+    '''returns Proxy\n\n
+    (final LocalizedNumberFormatter formatter, final ULocale locale)\n
+    ()\n
     '''
 def format():
-    '''public StringBuffer format(final Object obj, final StringBuffer toAppendTo, final FieldPosition pos)
+    '''returns StringBuffer\n\n
+    format(final Object obj, final StringBuffer toAppendTo, final FieldPosition pos)\n
     '''
 def formatToCharacterIterator():
-    '''public AttributedCharacterIterator formatToCharacterIterator(final Object obj)
+    '''returns AttributedCharacterIterator\n\n
+    formatToCharacterIterator(final Object obj)\n
     '''
 def parseObject():
-    '''public Object parseObject(final String source, final ParsePosition pos)
+    '''returns Object\n\n
+    parseObject(final String source, final ParsePosition pos)\n
     '''
 def getNumberFormatter():
-    '''public LocalizedNumberFormatter getNumberFormatter()
+    '''returns LocalizedNumberFormatter\n\n
+    getNumberFormatter()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    '''
-def Proxy():
-    '''public Proxy()
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''

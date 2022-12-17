@@ -1,3 +1,4 @@
-def LocationWorkZoneSet():
-    '''public LocationWorkZoneSet(final MboServerInterface ms)
+def ():
+    '''returns LocationWorkZoneSet\n\n
+    (final MboServerInterface ms)\n
     '''

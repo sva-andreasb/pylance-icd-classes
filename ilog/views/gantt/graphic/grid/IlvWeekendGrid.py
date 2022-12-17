@@ -1,24 +1,32 @@
-def IlvWeekendGrid():
-    '''public IlvWeekendGrid()
+def ():
+    '''returns IlvWeekendGrid\n\n
+    ()\n
     '''
 def getWeekendColor():
-    '''public Color getWeekendColor()
+    '''returns Color\n\n
+    getWeekendColor()\n
     '''
 def setWeekendColor():
-    '''public void setWeekendColor(final Color a)
+    '''returns None\n\n
+    setWeekendColor(final Color a)\n
     '''
 def isWeekendDisplayed():
-    '''public boolean isWeekendDisplayed()
+    '''returns boolean\n\n
+    isWeekendDisplayed()\n
     '''
 def setWeekendDisplayed():
-    '''public void setWeekendDisplayed(final boolean d)
+    '''returns None\n\n
+    setWeekendDisplayed(final boolean d)\n
     '''
 def isPrintWeekendsOpaque():
-    '''public boolean isPrintWeekendsOpaque()
+    '''returns boolean\n\n
+    isPrintWeekendsOpaque()\n
     '''
 def setPrintWeekendsOpaque():
-    '''public void setPrintWeekendsOpaque(final boolean b)
+    '''returns None\n\n
+    setPrintWeekendsOpaque(final boolean b)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvGanttGridContext ilvGanttGridContext)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvGanttGridContext ilvGanttGridContext)\n
     '''

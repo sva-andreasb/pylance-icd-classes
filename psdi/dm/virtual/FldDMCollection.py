@@ -1,6 +1,8 @@
-def FldDMCollection():
-    '''public FldDMCollection(final MboValue mbv)
+def ():
+    '''returns FldDMCollection\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

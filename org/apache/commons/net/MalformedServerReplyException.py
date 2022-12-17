@@ -1,4 +1,5 @@
-def MalformedServerReplyException():
-    '''public MalformedServerReplyException()
-    public MalformedServerReplyException(final String message)
+def ():
+    '''returns MalformedServerReplyException\n\n
+    ()\n
+    (final String message)\n
     '''

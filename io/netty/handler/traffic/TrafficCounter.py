@@ -1,75 +1,87 @@
-def milliSecondFromNano():
-    '''public static long milliSecondFromNano()
-    '''
-def start():
-    '''public synchronized void start()
-    '''
-def stop():
-    '''public synchronized void stop()
-    '''
-def TrafficCounter():
-    '''public TrafficCounter(final ScheduledExecutorService executor, final String name, final long checkInterval)
-    public TrafficCounter(final AbstractTrafficShapingHandler trafficShapingHandler, final ScheduledExecutorService executor, final String name, final long checkInterval)
+def ():
+    '''returns TrafficCounter\n\n
+    (final ScheduledExecutorService executor, final String name, final long checkInterval)\n
+    (final AbstractTrafficShapingHandler trafficShapingHandler, final ScheduledExecutorService executor, final String name, final long checkInterval)\n
     '''
 def configure():
-    '''public void configure(final long newCheckInterval)
+    '''returns None\n\n
+    configure(final long newCheckInterval)\n
     '''
 def checkInterval():
-    '''public long checkInterval()
+    '''returns long\n\n
+    checkInterval()\n
     '''
 def lastReadThroughput():
-    '''public long lastReadThroughput()
+    '''returns long\n\n
+    lastReadThroughput()\n
     '''
 def lastWriteThroughput():
-    '''public long lastWriteThroughput()
+    '''returns long\n\n
+    lastWriteThroughput()\n
     '''
 def lastReadBytes():
-    '''public long lastReadBytes()
+    '''returns long\n\n
+    lastReadBytes()\n
     '''
 def lastWrittenBytes():
-    '''public long lastWrittenBytes()
+    '''returns long\n\n
+    lastWrittenBytes()\n
     '''
 def currentReadBytes():
-    '''public long currentReadBytes()
+    '''returns long\n\n
+    currentReadBytes()\n
     '''
 def currentWrittenBytes():
-    '''public long currentWrittenBytes()
+    '''returns long\n\n
+    currentWrittenBytes()\n
     '''
 def lastTime():
-    '''public long lastTime()
+    '''returns long\n\n
+    lastTime()\n
     '''
 def cumulativeWrittenBytes():
-    '''public long cumulativeWrittenBytes()
+    '''returns long\n\n
+    cumulativeWrittenBytes()\n
     '''
 def cumulativeReadBytes():
-    '''public long cumulativeReadBytes()
+    '''returns long\n\n
+    cumulativeReadBytes()\n
     '''
 def lastCumulativeTime():
-    '''public long lastCumulativeTime()
+    '''returns long\n\n
+    lastCumulativeTime()\n
     '''
 def getRealWrittenBytes():
-    '''public AtomicLong getRealWrittenBytes()
+    '''returns AtomicLong\n\n
+    getRealWrittenBytes()\n
     '''
 def getRealWriteThroughput():
-    '''public long getRealWriteThroughput()
+    '''returns long\n\n
+    getRealWriteThroughput()\n
     '''
 def resetCumulativeTime():
-    '''public void resetCumulativeTime()
+    '''returns None\n\n
+    resetCumulativeTime()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def readTimeToWait():
-    '''public long readTimeToWait(final long size, final long limitTraffic, final long maxTime)
-    public long readTimeToWait(final long size, final long limitTraffic, final long maxTime, final long now)
+    '''returns long\n\n
+    readTimeToWait(final long size, final long limitTraffic, final long maxTime)\n
+    readTimeToWait(final long size, final long limitTraffic, final long maxTime, final long now)\n
     '''
 def writeTimeToWait():
-    '''public long writeTimeToWait(final long size, final long limitTraffic, final long maxTime)
-    public long writeTimeToWait(final long size, final long limitTraffic, final long maxTime, final long now)
+    '''returns long\n\n
+    writeTimeToWait(final long size, final long limitTraffic, final long maxTime)\n
+    writeTimeToWait(final long size, final long limitTraffic, final long maxTime, final long now)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

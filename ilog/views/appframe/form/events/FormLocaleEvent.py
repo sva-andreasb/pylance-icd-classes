@@ -1,10 +1,13 @@
-def FormLocaleEvent():
-    '''public FormLocaleEvent(final Object o)
-    public FormLocaleEvent(final Object o, final Locale a)
+def ():
+    '''returns FormLocaleEvent\n\n
+    (final Object o)\n
+    (final Object o, final Locale a)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale a)
+    '''returns None\n\n
+    setLocale(final Locale a)\n
     '''

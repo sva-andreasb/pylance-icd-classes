@@ -1,7 +1,9 @@
-def CommandNotFoundException():
-    '''public CommandNotFoundException(final String cmdName)
-    public CommandNotFoundException(final String taskCmdName, final String stepName)
+def ():
+    '''returns CommandNotFoundException\n\n
+    (final String cmdName)\n
+    (final String taskCmdName, final String stepName)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

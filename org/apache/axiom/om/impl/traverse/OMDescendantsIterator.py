@@ -1,3 +1,4 @@
-def OMDescendantsIterator():
-    '''public OMDescendantsIterator(final OMNode firstNode)
+def ():
+    '''returns OMDescendantsIterator\n\n
+    (final OMNode firstNode)\n
     '''

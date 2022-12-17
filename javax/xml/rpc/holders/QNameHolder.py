@@ -1,4 +1,5 @@
-def QNameHolder():
-    '''public QNameHolder()
-    public QNameHolder(final QName value)
+def ():
+    '''returns QNameHolder\n\n
+    ()\n
+    (final QName myQName)\n
     '''

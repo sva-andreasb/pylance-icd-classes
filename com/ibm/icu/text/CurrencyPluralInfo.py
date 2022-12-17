@@ -1,43 +1,38 @@
-def CurrencyPluralInfo():
-    '''public CurrencyPluralInfo()
-    public CurrencyPluralInfo(final Locale locale)
-    public CurrencyPluralInfo(final ULocale locale)
-    '''
-def getInstance():
-    '''public static CurrencyPluralInfo getInstance()
-    public static CurrencyPluralInfo getInstance(final Locale locale)
-    public static CurrencyPluralInfo getInstance(final ULocale locale)
+def ():
+    '''returns CurrencyPluralInfo\n\n
+    ()\n
+    (final Locale locale)\n
+    (final ULocale locale)\n
     '''
 def getPluralRules():
-    '''public PluralRules getPluralRules()
+    '''returns PluralRules\n\n
+    getPluralRules()\n
     '''
 def getCurrencyPluralPattern():
-    '''public String getCurrencyPluralPattern(final String pluralCount)
+    '''returns String\n\n
+    getCurrencyPluralPattern(final String pluralCount)\n
     '''
 def getLocale():
-    '''public ULocale getLocale()
+    '''returns ULocale\n\n
+    getLocale()\n
     '''
 def setPluralRules():
-    '''public void setPluralRules(final String ruleDescription)
+    '''returns None\n\n
+    setPluralRules(final String ruleDescription)\n
     '''
 def setCurrencyPluralPattern():
-    '''public void setCurrencyPluralPattern(final String pluralCount, final String pattern)
+    '''returns None\n\n
+    setCurrencyPluralPattern(final String pluralCount, final String pattern)\n
     '''
 def setLocale():
-    '''public void setLocale(final ULocale loc)
+    '''returns None\n\n
+    setLocale(final ULocale loc)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object a)
-    '''
-def hashCode():
-    '''public int hashCode()
-    '''
-def select():
-    '''public String select(final PluralRules.FixedDecimal numberInfo)
-    '''
-def pluralPatternIterator():
-    '''public Iterator<String> pluralPatternIterator()
+    '''returns boolean\n\n
+    equals(final Object a)\n
     '''

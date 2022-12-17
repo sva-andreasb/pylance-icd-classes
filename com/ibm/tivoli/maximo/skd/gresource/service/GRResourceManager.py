@@ -1,6 +1,8 @@
-def GRResourceManager():
-    '''public GRResourceManager(final MXServer mxServer)
+def ():
+    '''returns GRResourceManager\n\n
+    (final MXServer mxServer)\n
     '''
 def loadResources():
-    '''public JSONArray loadResources(final GRSchedule schedule, final String type)
+    '''returns JSONArray\n\n
+    loadResources(final GRSchedule schedule, final String type)\n
     '''

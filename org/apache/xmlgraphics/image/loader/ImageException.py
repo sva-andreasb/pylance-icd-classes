@@ -1,4 +1,5 @@
-def ImageException():
-    '''public ImageException(final String s)
-    public ImageException(final String message, final Throwable cause)
+def ():
+    '''returns ImageException\n\n
+    (final String s)\n
+    (final String message, final Throwable cause)\n
     '''

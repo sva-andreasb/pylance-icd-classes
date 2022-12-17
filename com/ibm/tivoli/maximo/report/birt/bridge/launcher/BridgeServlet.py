@@ -1,15 +1,12 @@
-def BridgeServlet():
-    '''public BridgeServlet()
+def ():
+    '''returns BridgeServlet\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
-    '''
-def registerServletDelegate():
-    '''public static synchronized void registerServletDelegate(final HttpServlet servletDelegate)
-    '''
-def unregisterServletDelegate():
-    '''public static synchronized void unregisterServletDelegate(final HttpServlet servletDelegate)
+    '''returns None\n\n
+    destroy()\n
     '''

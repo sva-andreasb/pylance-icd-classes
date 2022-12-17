@@ -1,9 +1,12 @@
-def PlusPFldCreateMultipleEstimatesEstEndDT():
-    '''public PlusPFldCreateMultipleEstimatesEstEndDT(final MboValue arg0)
+def ():
+    '''returns PlusPFldCreateMultipleEstimatesEstEndDT\n\n
+    (final MboValue arg0)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,6 +1,8 @@
-def PlusPFldJobServicesItemnum():
-    '''public PlusPFldJobServicesItemnum(final MboValue arg0)
+def ():
+    '''returns PlusPFldJobServicesItemnum\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

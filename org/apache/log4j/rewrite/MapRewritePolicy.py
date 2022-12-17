@@ -1,3 +1,4 @@
 def rewrite():
-    '''public LoggingEvent rewrite(final LoggingEvent source)
+    '''returns LoggingEvent\n\n
+    rewrite(final LoggingEvent source)\n
     '''

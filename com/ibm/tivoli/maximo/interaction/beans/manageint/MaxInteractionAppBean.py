@@ -1,15 +1,20 @@
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def deleteInteraction():
-    '''public void deleteInteraction(final MboRemote mbo)
+    '''returns None\n\n
+    deleteInteraction(final MboRemote mbo)\n
     '''
 def importXML():
-    '''public void importXML(final String presentationXML)
+    '''returns None\n\n
+    importXML(final String presentationXML)\n
     '''
 def ACTIVATE():
-    '''public int ACTIVATE()
+    '''returns int\n\n
+    ACTIVATE()\n
     '''
 def EXPORT():
-    '''public int EXPORT()
+    '''returns int\n\n
+    EXPORT()\n
     '''

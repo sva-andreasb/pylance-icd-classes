@@ -1,26 +1,31 @@
-def OrderBy():
-    '''public OrderBy()
-    public OrderBy(final String clause)
+def ():
+    '''returns OrderByDatum\n\n
+    ()\n
+    (final String clause)\n
+    (final String attrName, final boolean asc)\n
     '''
 def setOrderBy():
-    '''public void setOrderBy(final String clause)
+    '''returns None\n\n
+    setOrderBy(final String clause)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getOrderBy():
-    '''public String getOrderBy()
+    '''returns String\n\n
+    getOrderBy()\n
     '''
 def orderMboList():
-    '''public List orderMboList(final List mboList)
+    '''returns List\n\n
+    orderMboList(final List mboList)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
-    public int compareTo(final Object o)
-    '''
-def OrderByDatum():
-    '''public OrderByDatum(final String attrName, final boolean asc)
+    '''returns int\n\n
+    compareTo(final Object o)\n
+    compareTo(final Object o)\n
     '''

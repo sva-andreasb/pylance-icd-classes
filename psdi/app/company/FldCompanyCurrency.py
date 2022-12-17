@@ -1,3 +1,4 @@
-def FldCompanyCurrency():
-    '''public FldCompanyCurrency(final MboValue mbv)
+def ():
+    '''returns FldCompanyCurrency\n\n
+    (final MboValue mbv)\n
     '''

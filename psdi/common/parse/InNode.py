@@ -1,6 +1,8 @@
-def InNode():
-    '''public InNode(final TreeNode operand, final Vector matchValues)
+def ():
+    '''returns InNode\n\n
+    (final TreeNode operand, final Vector matchValues)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final MboRemote mbo)\n
     '''

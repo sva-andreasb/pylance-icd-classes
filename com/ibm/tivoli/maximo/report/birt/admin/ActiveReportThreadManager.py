@@ -1,119 +1,146 @@
 DEFAULT_MAX_CONCURRENT_THREADCOUNT = "int  3"
 PROPERTY_MAXCONCURRENTRUN = "String  \"mxe.report.birt.maxconcurrentrun\""
-def getActiveReportThreadManager():
-    '''public static ActiveReportThreadManager getActiveReportThreadManager()
-    '''
-def addActiveThread():
-    '''public synchronized Long addActiveThread(final String threadName, final String reportName, final String appName, final String userName, final boolean scheduledJob)
-    '''
 def createReportJob():
-    '''public long createReportJob(final UserInfo userInfo, final String reportName, final String appName, final String userName, final boolean scheduledJob, final long startTime)
+    '''returns long\n\n
+    createReportJob(final UserInfo userInfo, final String reportName, final String appName, final String userName, final boolean scheduledJob, final long startTime)\n
     '''
 def getReportJobId():
-    '''public long getReportJobId(final String threadName)
-    public long getReportJobId()
+    '''returns long\n\n
+    getReportJobId(final String threadName)\n
+    getReportJobId()\n
     '''
 def removeActiveThread():
-    '''public void removeActiveThread(final String threadName)
-    public void removeActiveThread(final String threadName, final boolean removeIf12MinIdle)
+    '''returns None\n\n
+    removeActiveThread(final String threadName)\n
+    removeActiveThread(final String threadName, final boolean removeIf12MinIdle)\n
     '''
 def removeReportJob():
-    '''public void removeReportJob(final UserInfo userInfo, final long reportJobId)
+    '''returns None\n\n
+    removeReportJob(final UserInfo userInfo, final long reportJobId)\n
     '''
 def setActiveThreadsFromScriptContext():
-    '''public void setActiveThreadsFromScriptContext(final String jobCancelThreadName, final HashSet<String> listOfActiveThreadsParam)
+    '''returns None\n\n
+    setActiveThreadsFromScriptContext(final String jobCancelThreadName, final HashSet<String> listOfActiveThreadsParam)\n
     '''
 def cancelReportJob():
-    '''public void cancelReportJob(final long reportJobId)
+    '''returns None\n\n
+    cancelReportJob(final long reportJobId)\n
     '''
 def cancelReportJobOnThisServer():
-    '''public boolean cancelReportJobOnThisServer(final long reportJobId)
+    '''returns boolean\n\n
+    cancelReportJobOnThisServer(final long reportJobId)\n
     '''
 def isReportJobCancelled():
-    '''public boolean isReportJobCancelled(final long reportJobId)
+    '''returns boolean\n\n
+    isReportJobCancelled(final long reportJobId)\n
     '''
 def renewActiveThread():
-    '''public void renewActiveThread(final String threadName)
+    '''returns None\n\n
+    renewActiveThread(final String threadName)\n
     '''
 def updateActiveThread():
-    '''public void updateActiveThread(final String threadName, final String reportName, final String appName, final String userName, final boolean scheduledJob, final long scheduleJobId)
+    '''returns None\n\n
+    updateActiveThread(final String threadName, final String reportName, final String appName, final String userName, final boolean scheduledJob, final long scheduleJobId)\n
     '''
 def isOverloaded():
-    '''public boolean isOverloaded()
+    '''returns boolean\n\n
+    isOverloaded()\n
     '''
 def getMaxAllowedActiveReportThreads():
-    '''public int getMaxAllowedActiveReportThreads()
+    '''returns int\n\n
+    getMaxAllowedActiveReportThreads()\n
     '''
 def getNumberOfActiveReports():
-    '''public int getNumberOfActiveReports()
+    '''returns int\n\n
+    getNumberOfActiveReports()\n
     '''
 def setStartTime():
-    '''public void setStartTime(final long sTime)
+    '''returns None\n\n
+    setStartTime(final long sTime)\n
     '''
 def getStartTime():
-    '''public long getStartTime()
+    '''returns long\n\n
+    getStartTime()\n
     '''
 def setRenewTime():
-    '''public void setRenewTime(final long rTime)
+    '''returns None\n\n
+    setRenewTime(final long rTime)\n
     '''
 def getRenewTime():
-    '''public long getRenewTime()
+    '''returns long\n\n
+    getRenewTime()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''
 def getReportName():
-    '''public String getReportName()
+    '''returns String\n\n
+    getReportName()\n
     '''
 def setReportName():
-    '''public void setReportName(final String reportName)
+    '''returns None\n\n
+    setReportName(final String reportName)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def isScheduledJob():
-    '''public boolean isScheduledJob()
+    '''returns boolean\n\n
+    isScheduledJob()\n
     '''
 def setScheduledJob():
-    '''public void setScheduledJob(final boolean scheduledJob)
+    '''returns None\n\n
+    setScheduledJob(final boolean scheduledJob)\n
     '''
 def getScheduledJobId():
-    '''public long getScheduledJobId()
+    '''returns long\n\n
+    getScheduledJobId()\n
     '''
 def setScheduledJobId():
-    '''public void setScheduledJobId(final long scheduleJobId)
+    '''returns None\n\n
+    setScheduledJobId(final long scheduleJobId)\n
     '''
 def setReportJobId():
-    '''public void setReportJobId(final long reportJobId)
+    '''returns None\n\n
+    setReportJobId(final long reportJobId)\n
     '''
 def getJobStatus():
-    '''public int getJobStatus()
+    '''returns int\n\n
+    getJobStatus()\n
     '''
 def setJobStatus():
-    '''public void setJobStatus(final int jobStatus)
+    '''returns None\n\n
+    setJobStatus(final int jobStatus)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def setCancelTime():
-    '''public void setCancelTime()
+    '''returns None\n\n
+    setCancelTime()\n
     '''
 def getCancelTime():
-    '''public long getCancelTime()
+    '''returns long\n\n
+    getCancelTime()\n
     '''
-def ReportStuckThreadLoggerThread():
-    '''public ReportStuckThreadLoggerThread()
+def ():
+    '''returns ReportCancelStatusUpdateThread\n\n
+    ()\n
+    ()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    '''
-def ReportCancelStatusUpdateThread():
-    '''public ReportCancelStatusUpdateThread()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''

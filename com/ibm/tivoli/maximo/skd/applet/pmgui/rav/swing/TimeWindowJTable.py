@@ -1,119 +1,158 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TimeWindowJTable():
-    '''public TimeWindowJTable()
+def ():
+    '''returns TimeWindowJTable\n\n
+    ()\n
     '''
 def timeWindowModelChanged():
-    '''public void timeWindowModelChanged(final TimeWindowModelChangedEvent event)
+    '''returns None\n\n
+    timeWindowModelChanged(final TimeWindowModelChangedEvent event)\n
     '''
 def rowCollapsed():
-    '''public void rowCollapsed(final TimeWindowRowCollapsedEvent event)
+    '''returns None\n\n
+    rowCollapsed(final TimeWindowRowCollapsedEvent event)\n
     '''
 def rowDisabled():
-    '''public void rowDisabled(final TimeWindowRowDisabledEvent event)
+    '''returns None\n\n
+    rowDisabled(final TimeWindowRowDisabledEvent event)\n
     '''
 def rowExpanded():
-    '''public void rowExpanded(final TimeWindowRowExpandedEvent event)
+    '''returns None\n\n
+    rowExpanded(final TimeWindowRowExpandedEvent event)\n
     '''
 def setNameColumnLabel():
-    '''public void setNameColumnLabel(final String label)
+    '''returns None\n\n
+    setNameColumnLabel(final String label)\n
     '''
 def setDescriptionColumnLabel():
-    '''public void setDescriptionColumnLabel(final String label)
+    '''returns None\n\n
+    setDescriptionColumnLabel(final String label)\n
     '''
 def setEnforceColumnLabel():
-    '''public void setEnforceColumnLabel(final String label)
+    '''returns None\n\n
+    setEnforceColumnLabel(final String label)\n
     '''
 def setStatusColumnLabel():
-    '''public void setStatusColumnLabel(final String label)
+    '''returns None\n\n
+    setStatusColumnLabel(final String label)\n
     '''
 def setAvailableStatusLabel():
-    '''public void setAvailableStatusLabel(final String label)
+    '''returns None\n\n
+    setAvailableStatusLabel(final String label)\n
     '''
 def setUnavailableStatusLabel():
-    '''public void setUnavailableStatusLabel(final String label)
+    '''returns None\n\n
+    setUnavailableStatusLabel(final String label)\n
     '''
 def setDisabledStatusLabel():
-    '''public void setDisabledStatusLabel(final String label)
+    '''returns None\n\n
+    setDisabledStatusLabel(final String label)\n
     '''
 def getNameColumnLabel():
-    '''public String getNameColumnLabel()
+    '''returns String\n\n
+    getNameColumnLabel()\n
     '''
 def getDescriptionColumnLabel():
-    '''public String getDescriptionColumnLabel()
+    '''returns String\n\n
+    getDescriptionColumnLabel()\n
     '''
 def getEnforceColumnLabel():
-    '''public String getEnforceColumnLabel()
+    '''returns String\n\n
+    getEnforceColumnLabel()\n
     '''
 def getStatusColumnLabel():
-    '''public String getStatusColumnLabel()
+    '''returns String\n\n
+    getStatusColumnLabel()\n
     '''
 def getAvailableStatusLabel():
-    '''public String getAvailableStatusLabel()
+    '''returns String\n\n
+    getAvailableStatusLabel()\n
     '''
 def getUnavailableStatusLabel():
-    '''public String getUnavailableStatusLabel()
+    '''returns String\n\n
+    getUnavailableStatusLabel()\n
     '''
 def getDisabledStatusLabel():
-    '''public String getDisabledStatusLabel()
+    '''returns String\n\n
+    getDisabledStatusLabel()\n
     '''
 def getAvailableColor():
-    '''public Color getAvailableColor()
+    '''returns Color\n\n
+    getAvailableColor()\n
     '''
 def setAvailableColor():
-    '''public void setAvailableColor(final Color availableColor)
+    '''returns None\n\n
+    setAvailableColor(final Color availableColor)\n
     '''
 def getDisabledColor():
-    '''public Color getDisabledColor()
+    '''returns Color\n\n
+    getDisabledColor()\n
     '''
 def setDisabledColor():
-    '''public void setDisabledColor(final Color disabledColor)
+    '''returns None\n\n
+    setDisabledColor(final Color disabledColor)\n
     '''
 def getUnavailableColor():
-    '''public Color getUnavailableColor()
+    '''returns Color\n\n
+    getUnavailableColor()\n
     '''
 def setUnavailableColor():
-    '''public void setUnavailableColor(final Color unavailableColor)
+    '''returns None\n\n
+    setUnavailableColor(final Color unavailableColor)\n
     '''
 def setImagesDirectory():
-    '''public void setImagesDirectory(final String dir)
+    '''returns None\n\n
+    setImagesDirectory(final String dir)\n
     '''
 def getJTreeComponent():
-    '''public JTree getJTreeComponent()
+    '''returns JTree\n\n
+    getJTreeComponent()\n
     '''
 def addVerticalExpansionListener():
-    '''public void addVerticalExpansionListener(final TimeWindowVerticalExpansionListener l)
+    '''returns None\n\n
+    addVerticalExpansionListener(final TimeWindowVerticalExpansionListener l)\n
     '''
 def removeVerticalExpansionListener():
-    '''public void removeVerticalExpansionListener(final TimeWindowVerticalExpansionListener l)
+    '''returns None\n\n
+    removeVerticalExpansionListener(final TimeWindowVerticalExpansionListener l)\n
     '''
 def setHeaderHeight():
-    '''public void setHeaderHeight(final int height)
+    '''returns None\n\n
+    setHeaderHeight(final int height)\n
     '''
 def addTreeExpansionListener():
-    '''public void addTreeExpansionListener(final TreeExpansionListener l)
+    '''returns None\n\n
+    addTreeExpansionListener(final TreeExpansionListener l)\n
     '''
 def removeTreeExpansionListener():
-    '''public void removeTreeExpansionListener(final TreeExpansionListener l)
+    '''returns None\n\n
+    removeTreeExpansionListener(final TreeExpansionListener l)\n
     '''
 def getCellRenderer():
-    '''public TableCellRenderer getCellRenderer(final int row, final int column)
+    '''returns TableCellRenderer\n\n
+    getCellRenderer(final int row, final int column)\n
     '''
 def getTableCellRendererComponent():
-    '''public Component getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int column)
-    public Component getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int column)
+    '''returns Component\n\n
+    getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int column)\n
+    getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int column)\n
     '''
 def getTreeCellRendererComponent():
-    '''public Component getTreeCellRendererComponent(final JTree tree, final Object value, final boolean sel, final boolean expanded, final boolean leaf, final int row, final boolean hasFocus)
+    '''returns Component\n\n
+    getTreeCellRendererComponent(final JTree tree, final Object value, final boolean sel, final boolean expanded, final boolean leaf, final int row, final boolean hasFocus)\n
     '''
 def treeCollapsed():
-    '''public void treeCollapsed(final TreeExpansionEvent event)
+    '''returns None\n\n
+    treeCollapsed(final TreeExpansionEvent event)\n
     '''
 def treeExpanded():
-    '''public void treeExpanded(final TreeExpansionEvent event)
+    '''returns None\n\n
+    treeExpanded(final TreeExpansionEvent event)\n
     '''
 def treeWillExpand():
-    '''public void treeWillExpand(final TreeExpansionEvent event)
+    '''returns None\n\n
+    treeWillExpand(final TreeExpansionEvent event)\n
     '''
 def treeWillCollapse():
-    '''public void treeWillCollapse(final TreeExpansionEvent event)
+    '''returns None\n\n
+    treeWillCollapse(final TreeExpansionEvent event)\n
     '''

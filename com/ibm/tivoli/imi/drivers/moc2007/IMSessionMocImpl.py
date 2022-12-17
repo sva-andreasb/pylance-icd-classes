@@ -1,136 +1,181 @@
-def IMSessionMocImpl():
-    '''public IMSessionMocImpl()
+def ():
+    '''returns IMSessionMocImpl\n\n
+    ()\n
     '''
 def getListenedUsers():
-    '''public List<String> getListenedUsers()
+    '''returns List<String>\n\n
+    getListenedUsers()\n
     '''
 def setListenedUsers():
-    '''public void setListenedUsers(final List<String> listenedUsers)
+    '''returns None\n\n
+    setListenedUsers(final List<String> listenedUsers)\n
     '''
 def getReceiveMessage():
-    '''public ReceiveMessage getReceiveMessage()
+    '''returns ReceiveMessage\n\n
+    getReceiveMessage()\n
     '''
 def setReceiveMessage():
-    '''public void setReceiveMessage(final ReceiveMessage receiveMessage)
+    '''returns None\n\n
+    setReceiveMessage(final ReceiveMessage receiveMessage)\n
     '''
 def getRid():
-    '''public int getRid()
+    '''returns int\n\n
+    getRid()\n
     '''
 def setRid():
-    '''public void setRid(final int rid)
+    '''returns None\n\n
+    setRid(final int rid)\n
     '''
 def getTicket():
-    '''public String getTicket()
+    '''returns String\n\n
+    getTicket()\n
     '''
 def setTicket():
-    '''public void setTicket(final String ticket)
+    '''returns None\n\n
+    setTicket(final String ticket)\n
     '''
 def getSid():
-    '''public String getSid()
+    '''returns String\n\n
+    getSid()\n
     '''
 def setSid():
-    '''public void setSid(final String sid)
+    '''returns None\n\n
+    setSid(final String sid)\n
     '''
 def changeUserStatus():
-    '''public void changeUserStatus(final IMUser.IMUserStatus newStatus)
+    '''returns None\n\n
+    changeUserStatus(final IMUser.IMUserStatus newStatus)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def removeMessageHandlerList():
-    '''public void removeMessageHandlerList(final String anObject)
+    '''returns None\n\n
+    removeMessageHandlerList(final String anObject)\n
     '''
 def configure():
-    '''public void configure(final Properties properties)
+    '''returns None\n\n
+    configure(final Properties properties)\n
     '''
 def getServerHostName():
-    '''public String getServerHostName()
+    '''returns String\n\n
+    getServerHostName()\n
     '''
 def getServerPort():
-    '''public int getServerPort()
+    '''returns int\n\n
+    getServerPort()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getSessionName():
-    '''public String getSessionName()
+    '''returns String\n\n
+    getSessionName()\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''
 def getUserPassword():
-    '''public String getUserPassword()
+    '''returns String\n\n
+    getUserPassword()\n
     '''
 def getIMUser():
-    '''public IMUser getIMUser()
+    '''returns IMUser\n\n
+    getIMUser()\n
     '''
 def createMessageHandler():
-    '''public IMMessageHandler createMessageHandler(final IMUser imUser)
+    '''returns IMMessageHandler\n\n
+    createMessageHandler(final IMUser imUser)\n
     '''
 def createResolveHandler():
-    '''public IMResolveHandler createResolveHandler(final boolean b, final boolean b2)
+    '''returns IMResolveHandler\n\n
+    createResolveHandler(final boolean b, final boolean b2)\n
     '''
 def getMessageHandler():
-    '''public IMMessageHandlerMocImpl getMessageHandler(final String anObject)
+    '''returns IMMessageHandlerMocImpl\n\n
+    getMessageHandler(final String anObject)\n
     '''
 def createUserStatusHandler():
-    '''public IMUserStatusHandler createUserStatusHandler()
+    '''returns IMUserStatusHandler\n\n
+    createUserStatusHandler()\n
     '''
 def getConnectionTimeout():
-    '''public long getConnectionTimeout()
+    '''returns long\n\n
+    getConnectionTimeout()\n
     '''
 def getDefaultConnectionTimeout():
-    '''public long getDefaultConnectionTimeout()
+    '''returns long\n\n
+    getDefaultConnectionTimeout()\n
     '''
 def getDefaultResolveTimeout():
-    '''public long getDefaultResolveTimeout()
+    '''returns long\n\n
+    getDefaultResolveTimeout()\n
     '''
 def getResolveTimeout():
-    '''public long getResolveTimeout()
+    '''returns long\n\n
+    getResolveTimeout()\n
     '''
 def isOpened():
-    '''public boolean isOpened()
+    '''returns boolean\n\n
+    isOpened()\n
     '''
 def resolve():
-    '''public IMResolveEvent resolve(final String s, final boolean b, final boolean b2)
-    public IMUser resolve(final String anObject)
+    '''returns IMUser\n\n
+    resolve(final String s, final boolean b, final boolean b2)\n
+    resolve(final String anObject)\n
     '''
 def setConnectionTimeout():
-    '''public void setConnectionTimeout(final long connectionTimeout)
+    '''returns None\n\n
+    setConnectionTimeout(final long connectionTimeout)\n
     '''
 def setResolveTimeout():
-    '''public void setResolveTimeout(final long resolveTimeout)
+    '''returns None\n\n
+    setResolveTimeout(final long resolveTimeout)\n
     '''
 def getUserStatusHandler():
-    '''public IMUserStatusHandler getUserStatusHandler()
+    '''returns IMUserStatusHandler\n\n
+    getUserStatusHandler()\n
     '''
 def setUserStatusHandler():
-    '''public void setUserStatusHandler(final IMUserStatusHandler userStatusHandler)
+    '''returns None\n\n
+    setUserStatusHandler(final IMUserStatusHandler userStatusHandler)\n
     '''
 def getAckId():
-    '''public int getAckId()
+    '''returns int\n\n
+    getAckId()\n
     '''
 def setAckId():
-    '''public void setAckId(final int ackId)
+    '''returns None\n\n
+    setAckId(final int ackId)\n
     '''
 def registerIMSingleListener():
-    '''public void registerIMSingleListener(final IMSingleListener imSingleListener)
+    '''returns None\n\n
+    registerIMSingleListener(final IMSingleListener imSingleListener)\n
     '''
 def removeIMSingleListener():
-    '''public void removeIMSingleListener(final IMSingleListener imSingleListener)
+    '''returns None\n\n
+    removeIMSingleListener(final IMSingleListener imSingleListener)\n
     '''
 def getPartnerConferenceId():
-    '''public String getPartnerConferenceId(final String key)
+    '''returns String\n\n
+    getPartnerConferenceId(final String key)\n
     '''
 def removePartnerConferenceId():
-    '''public void removePartnerConferenceId(final String key)
+    '''returns None\n\n
+    removePartnerConferenceId(final String key)\n
     '''
 def addPartnerConferenceId():
-    '''public void addPartnerConferenceId(final String key, final String value)
+    '''returns None\n\n
+    addPartnerConferenceId(final String key, final String value)\n
     '''
 def getPartnerHandlerByConferenceId():
-    '''public IMMessageHandlerMocImpl getPartnerHandlerByConferenceId(final String anObject)
+    '''returns IMMessageHandlerMocImpl\n\n
+    getPartnerHandlerByConferenceId(final String anObject)\n
     '''

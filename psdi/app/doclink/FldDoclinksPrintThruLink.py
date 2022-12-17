@@ -1,6 +1,8 @@
-def FldDoclinksPrintThruLink():
-    '''public FldDoclinksPrintThruLink(final MboValue mbv)
+def ():
+    '''returns FldDoclinksPrintThruLink\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

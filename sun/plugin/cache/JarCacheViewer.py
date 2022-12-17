@@ -1,20 +1,18 @@
-def JarCacheViewer():
-    '''public JarCacheViewer(final String cacheLocation)
+def ():
+    '''returns JarCacheViewer\n\n
+    (final String cacheLocation)\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
-    '''
-def getCacheLocation():
-    '''public static String getCacheLocation()
-    '''
-def main():
-    '''public static void main(final String[] array)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''

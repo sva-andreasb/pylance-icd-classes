@@ -1,13 +1,17 @@
 CONTROL_TYPE = "String  \"DebugComponent\""
 def setControl():
-    '''public void setControl(final Object control)
+    '''returns None\n\n
+    setControl(final Object control)\n
     '''
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def putProperty():
-    '''public void putProperty(final String s, final Object o, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    putProperty(final String s, final Object o, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''

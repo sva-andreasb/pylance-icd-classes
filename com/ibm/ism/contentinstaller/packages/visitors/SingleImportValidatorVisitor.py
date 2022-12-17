@@ -1,6 +1,8 @@
-def SingleImportValidatorVisitor():
-    '''public SingleImportValidatorVisitor(final FileTag fileToValidate)
+def ():
+    '''returns SingleImportValidatorVisitor\n\n
+    (final FileTag fileToValidate)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

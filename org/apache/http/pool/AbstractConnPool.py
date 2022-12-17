@@ -1,65 +1,86 @@
-def AbstractConnPool():
-    '''public AbstractConnPool(final ConnFactory<T, C> connFactory, final int defaultMaxPerRoute, final int maxTotal)
+def ():
+    '''returns AbstractConnPool\n\n
+    (final ConnFactory<T, C> connFactory, final int defaultMaxPerRoute, final int maxTotal)\n
     '''
 def isShutdown():
-    '''public boolean isShutdown()
+    '''returns boolean\n\n
+    isShutdown()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def lease():
-    '''public Future<E> lease(final T route, final Object state, final FutureCallback<E> callback)
-    public Future<E> lease(final T route, final Object state)
+    '''returns Future<E>\n\n
+    lease(final T route, final Object state, final FutureCallback<E> callback)\n
+    lease(final T route, final Object state)\n
     '''
 def getPoolEntry():
-    '''public E getPoolEntry(final long timeout, final TimeUnit tunit)
+    '''returns E\n\n
+    getPoolEntry(final long timeout, final TimeUnit tunit)\n
     '''
 def release():
-    '''public void release(final E entry, final boolean reusable)
+    '''returns None\n\n
+    release(final E entry, final boolean reusable)\n
     '''
 def setMaxTotal():
-    '''public void setMaxTotal(final int max)
+    '''returns None\n\n
+    setMaxTotal(final int max)\n
     '''
 def getMaxTotal():
-    '''public int getMaxTotal()
+    '''returns int\n\n
+    getMaxTotal()\n
     '''
 def setDefaultMaxPerRoute():
-    '''public void setDefaultMaxPerRoute(final int max)
+    '''returns None\n\n
+    setDefaultMaxPerRoute(final int max)\n
     '''
 def getDefaultMaxPerRoute():
-    '''public int getDefaultMaxPerRoute()
+    '''returns int\n\n
+    getDefaultMaxPerRoute()\n
     '''
 def setMaxPerRoute():
-    '''public void setMaxPerRoute(final T route, final int max)
+    '''returns None\n\n
+    setMaxPerRoute(final T route, final int max)\n
     '''
 def getMaxPerRoute():
-    '''public int getMaxPerRoute(final T route)
+    '''returns int\n\n
+    getMaxPerRoute(final T route)\n
     '''
 def getTotalStats():
-    '''public PoolStats getTotalStats()
+    '''returns PoolStats\n\n
+    getTotalStats()\n
     '''
 def getStats():
-    '''public PoolStats getStats(final T route)
+    '''returns PoolStats\n\n
+    getStats(final T route)\n
     '''
 def getRoutes():
-    '''public Set<T> getRoutes()
+    '''returns Set<T>\n\n
+    getRoutes()\n
     '''
 def closeIdle():
-    '''public void closeIdle(final long idletime, final TimeUnit tunit)
+    '''returns None\n\n
+    closeIdle(final long idletime, final TimeUnit tunit)\n
     '''
 def process():
-    '''public void process(final PoolEntry<T, C> entry)
-    public void process(final PoolEntry<T, C> entry)
+    '''returns None\n\n
+    process(final PoolEntry<T, C> entry)\n
+    process(final PoolEntry<T, C> entry)\n
     '''
 def closeExpired():
-    '''public void closeExpired()
+    '''returns None\n\n
+    closeExpired()\n
     '''
 def getValidateAfterInactivity():
-    '''public int getValidateAfterInactivity()
+    '''returns int\n\n
+    getValidateAfterInactivity()\n
     '''
 def setValidateAfterInactivity():
-    '''public void setValidateAfterInactivity(final int ms)
+    '''returns None\n\n
+    setValidateAfterInactivity(final int ms)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

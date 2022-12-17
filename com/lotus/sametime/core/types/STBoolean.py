@@ -1,9 +1,12 @@
-def STBoolean():
-    '''public STBoolean(final boolean data)
+def ():
+    '''returns STBoolean\n\n
+    (final boolean data)\n
     '''
 def getValue():
-    '''public boolean getValue()
+    '''returns boolean\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final boolean data)
+    '''returns None\n\n
+    setValue(final boolean data)\n
     '''

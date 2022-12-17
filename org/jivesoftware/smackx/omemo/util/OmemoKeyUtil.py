@@ -1,37 +1,32 @@
-def OmemoKeyUtil():
-    '''public OmemoKeyUtil()
+def ():
+    '''returns OmemoKeyUtil\n\n
+    ()\n
     '''
 def preKeyPublicFromBytes():
-    '''public T_ECPub preKeyPublicFromBytes(final byte[] data)
+    '''returns T_ECPub\n\n
+    preKeyPublicFromBytes(final byte[] data)\n
     '''
 def signedPreKeyPublicFromBytes():
-    '''public T_ECPub signedPreKeyPublicFromBytes(final byte[] data)
-    '''
-def preKeyPublisKeysForBundle():
-    '''public HashMap<Integer, byte[]> preKeyPublisKeysForBundle(final HashMap<Integer, T_PreKey> preKeyHashMap)
-    '''
-def prettyFingerprint():
-    '''public static String prettyFingerprint(final OmemoFingerprint fingerprint)
-    public static String prettyFingerprint(final String ugly)
-    '''
-def addInBounds():
-    '''public static int addInBounds(final int value, final int added)
+    '''returns T_ECPub\n\n
+    signedPreKeyPublicFromBytes(final byte[] data)\n
     '''
 def identityKey():
-    '''public T_IdKey identityKey(final OmemoBundleVAxolotlElement bundle)
+    '''returns T_IdKey\n\n
+    identityKey(final OmemoBundleVAxolotlElement bundle)\n
     '''
 def signedPreKeyPublic():
-    '''public T_ECPub signedPreKeyPublic(final OmemoBundleVAxolotlElement bundle)
+    '''returns T_ECPub\n\n
+    signedPreKeyPublic(final OmemoBundleVAxolotlElement bundle)\n
     '''
 def signedPreKeyId():
-    '''public int signedPreKeyId(final OmemoBundleVAxolotlElement bundle)
+    '''returns int\n\n
+    signedPreKeyId(final OmemoBundleVAxolotlElement bundle)\n
     '''
 def signedPreKeySignature():
-    '''public byte[] signedPreKeySignature(final OmemoBundleVAxolotlElement bundle)
+    '''returns byte[]\n\n
+    signedPreKeySignature(final OmemoBundleVAxolotlElement bundle)\n
     '''
 def preKeyPublic():
-    '''public T_ECPub preKeyPublic(final OmemoBundleVAxolotlElement bundle, final int keyId)
-    '''
-def bundles():
-    '''public HashMap<Integer, T_Bundle> bundles(final OmemoBundleVAxolotlElement bundle, final OmemoDevice contact)
+    '''returns T_ECPub\n\n
+    preKeyPublic(final OmemoBundleVAxolotlElement bundle, final int keyId)\n
     '''

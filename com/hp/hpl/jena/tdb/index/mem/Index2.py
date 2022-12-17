@@ -1,22 +1,28 @@
-def Index2():
-    '''public Index2()
+def ():
+    '''returns Index2\n\n
+    ()\n
     '''
 def get():
-    '''public Index<K2, List<V>> get(final Node key1)
-    public List<V> get(final K1 key1, final K2 key2)
+    '''returns List<V>\n\n
+    get(final K1 key1, final K2 key2)\n
     '''
 def put():
-    '''public void put(final K1 key1, final K2 key2, final V value)
+    '''returns None\n\n
+    put(final K1 key1, final K2 key2, final V value)\n
     '''
 def remove():
-    '''public void remove(final K1 key1, final K2 key2)
+    '''returns None\n\n
+    remove(final K1 key1, final K2 key2)\n
     '''
 def flatten():
-    '''public Iterator<V> flatten()
+    '''returns Iterator<V>\n\n
+    flatten()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''

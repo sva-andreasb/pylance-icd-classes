@@ -1,48 +1,64 @@
-def LinkResult():
-    '''public LinkResult()
+def ():
+    '''returns LinkResult\n\n
+    ()\n
     '''
 def getAssetnum():
-    '''public String getAssetnum()
+    '''returns String\n\n
+    getAssetnum()\n
     '''
 def getOrgid():
-    '''public String getOrgid()
+    '''returns String\n\n
+    getOrgid()\n
     '''
 def getSiteid():
-    '''public String getSiteid()
+    '''returns String\n\n
+    getSiteid()\n
     '''
 def getCinum():
-    '''public String getCinum()
+    '''returns String\n\n
+    getCinum()\n
     '''
 def getNodeid():
-    '''public String getNodeid()
+    '''returns String\n\n
+    getNodeid()\n
     '''
 def getActcinum():
-    '''public String getActcinum()
+    '''returns String\n\n
+    getActcinum()\n
     '''
 def getDisguid():
-    '''public String getDisguid()
+    '''returns String\n\n
+    getDisguid()\n
     '''
 def getLinkRule():
-    '''public String getLinkRule()
+    '''returns String\n\n
+    getLinkRule()\n
     '''
 def getConflictAssetnum():
-    '''public String getConflictAssetnum()
+    '''returns String\n\n
+    getConflictAssetnum()\n
     '''
 def getConflictSiteid():
-    '''public String getConflictSiteid()
+    '''returns String\n\n
+    getConflictSiteid()\n
     '''
 def getConflictCinum():
-    '''public String getConflictCinum()
+    '''returns String\n\n
+    getConflictCinum()\n
     '''
 def getConflictNodeid():
-    '''public String getConflictNodeid()
+    '''returns String\n\n
+    getConflictNodeid()\n
     '''
 def isSaveFailed():
-    '''public boolean isSaveFailed()
+    '''returns boolean\n\n
+    isSaveFailed()\n
     '''
 def isMultiLink():
-    '''public boolean isMultiLink()
+    '''returns boolean\n\n
+    isMultiLink()\n
     '''
 def setSaveFailed():
-    '''public void setSaveFailed(final boolean saveFailed)
+    '''returns None\n\n
+    setSaveFailed(final boolean saveFailed)\n
     '''

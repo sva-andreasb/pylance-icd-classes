@@ -1,72 +1,96 @@
-def Edits():
-    '''public Edits()
+def ():
+    '''returns Edits\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def addUnchanged():
-    '''public void addUnchanged(int unchangedLength)
+    '''returns None\n\n
+    addUnchanged(int unchangedLength)\n
     '''
 def addReplace():
-    '''public void addReplace(final int oldLength, final int newLength)
+    '''returns None\n\n
+    addReplace(final int oldLength, final int newLength)\n
     '''
 def lengthDelta():
-    '''public int lengthDelta()
+    '''returns int\n\n
+    lengthDelta()\n
     '''
 def hasChanges():
-    '''public boolean hasChanges()
+    '''returns boolean\n\n
+    hasChanges()\n
     '''
 def numberOfChanges():
-    '''public int numberOfChanges()
+    '''returns int\n\n
+    numberOfChanges()\n
     '''
 def getCoarseChangesIterator():
-    '''public Iterator getCoarseChangesIterator()
+    '''returns Iterator\n\n
+    getCoarseChangesIterator()\n
     '''
 def getCoarseIterator():
-    '''public Iterator getCoarseIterator()
+    '''returns Iterator\n\n
+    getCoarseIterator()\n
     '''
 def getFineChangesIterator():
-    '''public Iterator getFineChangesIterator()
+    '''returns Iterator\n\n
+    getFineChangesIterator()\n
     '''
 def getFineIterator():
-    '''public Iterator getFineIterator()
+    '''returns Iterator\n\n
+    getFineIterator()\n
     '''
 def mergeAndAppend():
-    '''public Edits mergeAndAppend(final Edits ab, final Edits bc)
+    '''returns Edits\n\n
+    mergeAndAppend(final Edits ab, final Edits bc)\n
     '''
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''
 def findSourceIndex():
-    '''public boolean findSourceIndex(final int i)
+    '''returns boolean\n\n
+    findSourceIndex(final int i)\n
     '''
 def findDestinationIndex():
-    '''public boolean findDestinationIndex(final int i)
+    '''returns boolean\n\n
+    findDestinationIndex(final int i)\n
     '''
 def destinationIndexFromSourceIndex():
-    '''public int destinationIndexFromSourceIndex(final int i)
+    '''returns int\n\n
+    destinationIndexFromSourceIndex(final int i)\n
     '''
 def sourceIndexFromDestinationIndex():
-    '''public int sourceIndexFromDestinationIndex(final int i)
+    '''returns int\n\n
+    sourceIndexFromDestinationIndex(final int i)\n
     '''
 def hasChange():
-    '''public boolean hasChange()
+    '''returns boolean\n\n
+    hasChange()\n
     '''
 def oldLength():
-    '''public int oldLength()
+    '''returns int\n\n
+    oldLength()\n
     '''
 def newLength():
-    '''public int newLength()
+    '''returns int\n\n
+    newLength()\n
     '''
 def sourceIndex():
-    '''public int sourceIndex()
+    '''returns int\n\n
+    sourceIndex()\n
     '''
 def replacementIndex():
-    '''public int replacementIndex()
+    '''returns int\n\n
+    replacementIndex()\n
     '''
 def destinationIndex():
-    '''public int destinationIndex()
+    '''returns int\n\n
+    destinationIndex()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,24 +1,32 @@
 def sessionContext():
-    '''public OpenSslSessionContext sessionContext()
+    '''returns OpenSslSessionContext\n\n
+    sessionContext()\n
     '''
 def setSessionTimeout():
-    '''public void setSessionTimeout(final int seconds)
+    '''returns None\n\n
+    setSessionTimeout(final int seconds)\n
     '''
 def getSessionTimeout():
-    '''public int getSessionTimeout()
+    '''returns int\n\n
+    getSessionTimeout()\n
     '''
 def setSessionCacheSize():
-    '''public void setSessionCacheSize(final int size)
+    '''returns None\n\n
+    setSessionCacheSize(final int size)\n
     '''
 def getSessionCacheSize():
-    '''public int getSessionCacheSize()
+    '''returns int\n\n
+    getSessionCacheSize()\n
     '''
 def setSessionCacheEnabled():
-    '''public void setSessionCacheEnabled(final boolean enabled)
+    '''returns None\n\n
+    setSessionCacheEnabled(final boolean enabled)\n
     '''
 def isSessionCacheEnabled():
-    '''public boolean isSessionCacheEnabled()
+    '''returns boolean\n\n
+    isSessionCacheEnabled()\n
     '''
 def handle():
-    '''public void handle(final long ssl, final byte[] keyTypeBytes, final byte[][] asn1DerEncodedPrincipals)
+    '''returns None\n\n
+    handle(final long ssl, final byte[] keyTypeBytes, final byte[][] asn1DerEncodedPrincipals)\n
     '''

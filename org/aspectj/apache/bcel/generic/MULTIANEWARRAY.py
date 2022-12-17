@@ -1,28 +1,33 @@
-def MULTIANEWARRAY():
-    '''public MULTIANEWARRAY(final int index, final short dimensions)
+def ():
+    '''returns MULTIANEWARRAY\n\n
+    (final int index, final short dimensions)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
-    '''
-def getDimensions():
-    '''public final short getDimensions()
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    public String toString(final ConstantPool cp)
+    '''returns String\n\n
+    toString(final boolean verbose)\n
+    toString(final ConstantPool cp)\n
     '''
 def consumeStack():
-    '''public int consumeStack(final ConstantPool cpg)
+    '''returns int\n\n
+    consumeStack(final ConstantPool cpg)\n
     '''
 def getExceptions():
-    '''public Class[] getExceptions()
+    '''returns Class[]\n\n
+    getExceptions()\n
     '''
 def getLoadClassType():
-    '''public ObjectType getLoadClassType(final ConstantPool cpg)
+    '''returns ObjectType\n\n
+    getLoadClassType(final ConstantPool cpg)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

@@ -1,9 +1,12 @@
 def name():
-    '''public void name(final String name)
+    '''returns None\n\n
+    name(final String name)\n
     '''
 def javadoc():
-    '''public JDocComment javadoc()
+    '''returns JDocComment\n\n
+    javadoc()\n
     '''
 def declare():
-    '''public void declare(final JFormatter f)
+    '''returns None\n\n
+    declare(final JFormatter f)\n
     '''

@@ -1,4 +1,5 @@
-def MessageRemovedException():
-    '''public MessageRemovedException()
-    public MessageRemovedException(final String s)
+def ():
+    '''returns MessageRemovedException\n\n
+    ()\n
+    (final String s)\n
     '''

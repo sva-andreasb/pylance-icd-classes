@@ -1,80 +1,106 @@
-def Copy():
-    '''public Copy()
+def ():
+    '''returns Copy\n\n
+    ()\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def setTofile():
-    '''public void setTofile(final File destFile)
+    '''returns None\n\n
+    setTofile(final File destFile)\n
     '''
 def setTodir():
-    '''public void setTodir(final File destDir)
+    '''returns None\n\n
+    setTodir(final File destDir)\n
     '''
 def createFilterChain():
-    '''public FilterChain createFilterChain()
+    '''returns FilterChain\n\n
+    createFilterChain()\n
     '''
 def createFilterSet():
-    '''public FilterSet createFilterSet()
+    '''returns FilterSet\n\n
+    createFilterSet()\n
     '''
 def setPreserveLastModified():
-    '''public void setPreserveLastModified(final String preserve)
-    public void setPreserveLastModified(final boolean preserve)
+    '''returns None\n\n
+    setPreserveLastModified(final String preserve)\n
+    setPreserveLastModified(final boolean preserve)\n
     '''
 def getPreserveLastModified():
-    '''public boolean getPreserveLastModified()
+    '''returns boolean\n\n
+    getPreserveLastModified()\n
     '''
 def setFiltering():
-    '''public void setFiltering(final boolean filtering)
+    '''returns None\n\n
+    setFiltering(final boolean filtering)\n
     '''
 def setOverwrite():
-    '''public void setOverwrite(final boolean overwrite)
+    '''returns None\n\n
+    setOverwrite(final boolean overwrite)\n
     '''
 def setFlatten():
-    '''public void setFlatten(final boolean flatten)
+    '''returns None\n\n
+    setFlatten(final boolean flatten)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean verbose)
+    '''returns None\n\n
+    setVerbose(final boolean verbose)\n
     '''
 def setIncludeEmptyDirs():
-    '''public void setIncludeEmptyDirs(final boolean includeEmpty)
+    '''returns None\n\n
+    setIncludeEmptyDirs(final boolean includeEmpty)\n
     '''
 def setEnableMultipleMappings():
-    '''public void setEnableMultipleMappings(final boolean enableMultipleMappings)
+    '''returns None\n\n
+    setEnableMultipleMappings(final boolean enableMultipleMappings)\n
     '''
 def isEnableMultipleMapping():
-    '''public boolean isEnableMultipleMapping()
+    '''returns boolean\n\n
+    isEnableMultipleMapping()\n
     '''
 def setFailOnError():
-    '''public void setFailOnError(final boolean failonerror)
+    '''returns None\n\n
+    setFailOnError(final boolean failonerror)\n
     '''
 def addFileset():
-    '''public void addFileset(final FileSet set)
+    '''returns None\n\n
+    addFileset(final FileSet set)\n
     '''
 def add():
-    '''public void add(final ResourceCollection res)
-    public void add(final FileNameMapper fileNameMapper)
+    '''returns None\n\n
+    add(final ResourceCollection res)\n
+    add(final FileNameMapper fileNameMapper)\n
     '''
 def createMapper():
-    '''public Mapper createMapper()
+    '''returns Mapper\n\n
+    createMapper()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setOutputEncoding():
-    '''public void setOutputEncoding(final String encoding)
+    '''returns None\n\n
+    setOutputEncoding(final String encoding)\n
     '''
 def getOutputEncoding():
-    '''public String getOutputEncoding()
+    '''returns String\n\n
+    getOutputEncoding()\n
     '''
 def setGranularity():
-    '''public void setGranularity(final long granularity)
+    '''returns None\n\n
+    setGranularity(final long granularity)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def getResource():
-    '''public Resource getResource(final String name)
+    '''returns Resource\n\n
+    getResource(final String name)\n
     '''

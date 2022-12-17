@@ -1,41 +1,54 @@
-def JdbcConnectionInfo():
-    '''public JdbcConnectionInfo()
-    public JdbcConnectionInfo(final Connection connection)
-    public JdbcConnectionInfo(final String url, final String driver, final String user, final String password)
+def ():
+    '''returns JdbcConnectionInfo\n\n
+    ()\n
+    (final Connection connection)\n
+    (final String url, final String driver, final String user, final String password)\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def setUrl():
-    '''public void setUrl(final String url)
+    '''returns None\n\n
+    setUrl(final String url)\n
     '''
 def getDriver():
-    '''public String getDriver()
+    '''returns String\n\n
+    getDriver()\n
     '''
 def setDriver():
-    '''public void setDriver(final String driver)
+    '''returns None\n\n
+    setDriver(final String driver)\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final String user)
+    '''returns None\n\n
+    setUser(final String user)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def setConnection():
-    '''public void setConnection(final Connection connection)
+    '''returns None\n\n
+    setConnection(final Connection connection)\n
     '''
 def getSchema():
-    '''public String getSchema()
+    '''returns String\n\n
+    getSchema()\n
     '''
 def setSchema():
-    '''public void setSchema(final String schema)
+    '''returns None\n\n
+    setSchema(final String schema)\n
     '''

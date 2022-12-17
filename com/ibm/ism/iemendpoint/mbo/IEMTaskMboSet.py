@@ -1,3 +1,4 @@
-def IEMTaskMboSet():
-    '''public IEMTaskMboSet(final MboServerInterface ms)
+def ():
+    '''returns IEMTaskMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

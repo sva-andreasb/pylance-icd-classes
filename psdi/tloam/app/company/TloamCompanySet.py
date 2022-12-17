@@ -1,3 +1,4 @@
-def TloamCompanySet():
-    '''public TloamCompanySet(final MboServerInterface ms)
+def ():
+    '''returns TloamCompanySet\n\n
+    (final MboServerInterface ms)\n
     '''

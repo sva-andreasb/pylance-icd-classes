@@ -1,137 +1,134 @@
-def getInstance():
-    '''public static Category getInstance(final String name)
-    public static Category getInstance(final Class clazz)
-    '''
-def getName():
-    '''public final String getName()
-    '''
-def getParent():
-    '''public final Category getParent()
-    '''
-def getRoot():
-    '''public static Category getRoot()
-    '''
-def getCurrentCategories():
-    '''public static Enumeration getCurrentCategories()
-    '''
-def getEffectiveLevel():
-    '''public final Level getEffectiveLevel()
-    '''
-def getChainedPriority():
-    '''public final Priority getChainedPriority()
-    '''
-def getLevel():
-    '''public final Level getLevel()
-    '''
 def setLevel():
-    '''public void setLevel(final Level level)
-    '''
-def getPriority():
-    '''public final Level getPriority()
+    '''returns None\n\n
+    setLevel(final Level level)\n
     '''
 def setPriority():
-    '''public void setPriority(final Priority priority)
+    '''returns None\n\n
+    setPriority(final Priority priority)\n
     '''
 def debug():
-    '''public void debug(final Object message)
-    public void debug(final Object message, final Throwable t)
+    '''returns None\n\n
+    debug(final Object message)\n
+    debug(final Object message, final Throwable t)\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def error():
-    '''public void error(final Object message)
-    public void error(final Object message, final Throwable t)
+    '''returns None\n\n
+    error(final Object message)\n
+    error(final Object message, final Throwable t)\n
     '''
 def isErrorEnabled():
-    '''public boolean isErrorEnabled()
+    '''returns boolean\n\n
+    isErrorEnabled()\n
     '''
 def warn():
-    '''public void warn(final Object message)
-    public void warn(final Object message, final Throwable t)
+    '''returns None\n\n
+    warn(final Object message)\n
+    warn(final Object message, final Throwable t)\n
     '''
 def isWarnEnabled():
-    '''public boolean isWarnEnabled()
+    '''returns boolean\n\n
+    isWarnEnabled()\n
     '''
 def fatal():
-    '''public void fatal(final Object message)
-    public void fatal(final Object message, final Throwable t)
+    '''returns None\n\n
+    fatal(final Object message)\n
+    fatal(final Object message, final Throwable t)\n
     '''
 def isFatalEnabled():
-    '''public boolean isFatalEnabled()
+    '''returns boolean\n\n
+    isFatalEnabled()\n
     '''
 def info():
-    '''public void info(final Object message)
-    public void info(final Object message, final Throwable t)
+    '''returns None\n\n
+    info(final Object message)\n
+    info(final Object message, final Throwable t)\n
     '''
 def isInfoEnabled():
-    '''public boolean isInfoEnabled()
+    '''returns boolean\n\n
+    isInfoEnabled()\n
     '''
 def trace():
-    '''public void trace(final Object message)
-    public void trace(final Object message, final Throwable t)
+    '''returns None\n\n
+    trace(final Object message)\n
+    trace(final Object message, final Throwable t)\n
     '''
 def isTraceEnabled():
-    '''public boolean isTraceEnabled()
+    '''returns boolean\n\n
+    isTraceEnabled()\n
     '''
 def isEnabledFor():
-    '''public boolean isEnabledFor(final Priority level)
+    '''returns boolean\n\n
+    isEnabledFor(final Priority level)\n
     '''
 def addAppender():
-    '''public void addAppender(final Appender appender)
+    '''returns None\n\n
+    addAppender(final Appender appender)\n
     '''
 def callAppenders():
-    '''public void callAppenders(final LoggingEvent event)
+    '''returns None\n\n
+    callAppenders(final LoggingEvent event)\n
     '''
 def getAllAppenders():
-    '''public Enumeration getAllAppenders()
+    '''returns Enumeration\n\n
+    getAllAppenders()\n
     '''
 def getAppender():
-    '''public Appender getAppender(final String name)
+    '''returns Appender\n\n
+    getAppender(final String name)\n
     '''
 def isAttached():
-    '''public boolean isAttached(final Appender appender)
+    '''returns boolean\n\n
+    isAttached(final Appender appender)\n
     '''
 def removeAllAppenders():
-    '''public void removeAllAppenders()
+    '''returns None\n\n
+    removeAllAppenders()\n
     '''
 def removeAppender():
-    '''public void removeAppender(final Appender appender)
-    public void removeAppender(final String name)
-    '''
-def shutdown():
-    '''public static void shutdown()
+    '''returns None\n\n
+    removeAppender(final Appender appender)\n
+    removeAppender(final String name)\n
     '''
 def forcedLog():
-    '''public void forcedLog(final String fqcn, final Priority level, final Object message, final Throwable t)
+    '''returns None\n\n
+    forcedLog(final String fqcn, final Priority level, final Object message, final Throwable t)\n
     '''
 def exists():
-    '''public boolean exists(final String name)
+    '''returns boolean\n\n
+    exists(final String name)\n
     '''
 def getAdditivity():
-    '''public boolean getAdditivity()
+    '''returns boolean\n\n
+    getAdditivity()\n
     '''
 def setAdditivity():
-    '''public void setAdditivity(final boolean additivity)
+    '''returns None\n\n
+    setAdditivity(final boolean additivity)\n
     '''
 def setResourceBundle():
-    '''public void setResourceBundle(final ResourceBundle bundle)
+    '''returns None\n\n
+    setResourceBundle(final ResourceBundle bundle)\n
     '''
 def getResourceBundle():
-    '''public ResourceBundle getResourceBundle()
+    '''returns ResourceBundle\n\n
+    getResourceBundle()\n
     '''
 def assertLog():
-    '''public void assertLog(final boolean assertion, final String msg)
+    '''returns None\n\n
+    assertLog(final boolean assertion, final String msg)\n
     '''
 def l7dlog():
-    '''public void l7dlog(final Priority priority, final String key, final Throwable t)
-    public void l7dlog(final Priority priority, final String key, final Object[] params, final Throwable t)
+    '''returns None\n\n
+    l7dlog(final Priority priority, final String key, final Throwable t)\n
+    l7dlog(final Priority priority, final String key, final Object[] params, final Throwable t)\n
     '''
 def log():
-    '''public void log(final Priority priority, final Object message, final Throwable t)
-    public void log(final Priority priority, final Object message)
-    public void log(final String fqcn, final Priority priority, final Object message, final Throwable t)
-    '''
-def getContext():
-    '''public static LoggerContext getContext()
+    '''returns None\n\n
+    log(final Priority priority, final Object message, final Throwable t)\n
+    log(final Priority priority, final Object message)\n
+    log(final String fqcn, final Priority priority, final Object message, final Throwable t)\n
     '''

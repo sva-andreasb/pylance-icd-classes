@@ -1,16 +1,21 @@
 PROPERTY_NAME = "String  \"rootRowVisibility\""
-def RootRowVisibilityChangedEvent():
-    '''public RootRowVisibilityChangedEvent(final IlvGanttConfiguration source, final boolean b)
+def ():
+    '''returns RootRowVisibilityChangedEvent\n\n
+    (final IlvGanttConfiguration source, final boolean b)\n
     '''
 def getGanttConfiguration():
-    '''public IlvGanttConfiguration getGanttConfiguration()
+    '''returns IlvGanttConfiguration\n\n
+    getGanttConfiguration()\n
     '''
 def getOldRootVisible():
-    '''public boolean getOldRootVisible()
+    '''returns boolean\n\n
+    getOldRootVisible()\n
     '''
 def getNewRootVisible():
-    '''public boolean getNewRootVisible()
+    '''returns boolean\n\n
+    getNewRootVisible()\n
     '''
 def getRootRow():
-    '''public IlvHierarchyNode getRootRow()
+    '''returns IlvHierarchyNode\n\n
+    getRootRow()\n
     '''

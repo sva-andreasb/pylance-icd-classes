@@ -1,18 +1,24 @@
-def IncTable():
-    '''public IncTable(final HashMap props)
+def ():
+    '''returns IncTable\n\n
+    (final HashMap props)\n
     '''
 def addCol():
-    '''public void addCol(final PdfPCell cell)
+    '''returns None\n\n
+    addCol(final PdfPCell cell)\n
     '''
 def addCols():
-    '''public void addCols(final ArrayList ncols)
+    '''returns None\n\n
+    addCols(final ArrayList ncols)\n
     '''
 def endRow():
-    '''public void endRow()
+    '''returns None\n\n
+    endRow()\n
     '''
 def getRows():
-    '''public ArrayList getRows()
+    '''returns ArrayList\n\n
+    getRows()\n
     '''
 def buildTable():
-    '''public PdfPTable buildTable()
+    '''returns PdfPTable\n\n
+    buildTable()\n
     '''

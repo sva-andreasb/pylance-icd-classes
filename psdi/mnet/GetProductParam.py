@@ -1,111 +1,148 @@
-def GetProductParam():
-    '''public GetProductParam()
+def ():
+    '''returns GetProductParam\n\n
+    ()\n
     '''
 def setOrgId():
-    '''public void setOrgId(final String val)
+    '''returns None\n\n
+    setOrgId(final String val)\n
     '''
 def getOrgId():
-    '''public String getOrgId()
+    '''returns String\n\n
+    getOrgId()\n
     '''
 def setSiteId():
-    '''public void setSiteId(final String val)
+    '''returns None\n\n
+    setSiteId(final String val)\n
     '''
 def getSiteId():
-    '''public String getSiteId()
+    '''returns String\n\n
+    getSiteId()\n
     '''
 def setUser():
-    '''public void setUser(final String val)
+    '''returns None\n\n
+    setUser(final String val)\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def setVendorId():
-    '''public void setVendorId(final String val)
+    '''returns None\n\n
+    setVendorId(final String val)\n
     '''
 def getVendorId():
-    '''public String getVendorId()
+    '''returns String\n\n
+    getVendorId()\n
     '''
 def setVendorPartNum():
-    '''public void setVendorPartNum(final String val)
+    '''returns None\n\n
+    setVendorPartNum(final String val)\n
     '''
 def getVendorPartNum():
-    '''public String getVendorPartNum()
+    '''returns String\n\n
+    getVendorPartNum()\n
     '''
 def setManfPartNum():
-    '''public void setManfPartNum(final String val)
+    '''returns None\n\n
+    setManfPartNum(final String val)\n
     '''
 def getManfPartNum():
-    '''public String getManfPartNum()
+    '''returns String\n\n
+    getManfPartNum()\n
     '''
 def setItem():
-    '''public void setItem(final String val)
+    '''returns None\n\n
+    setItem(final String val)\n
     '''
 def getItem():
-    '''public String getItem()
+    '''returns String\n\n
+    getItem()\n
     '''
 def setOrderType():
-    '''public void setOrderType(final String val)
+    '''returns None\n\n
+    setOrderType(final String val)\n
     '''
 def getOrderType():
-    '''public String getOrderType()
+    '''returns String\n\n
+    getOrderType()\n
     '''
 def setDateReq():
-    '''public void setDateReq(final Date val)
+    '''returns None\n\n
+    setDateReq(final Date val)\n
     '''
 def getDateReq():
-    '''public Date getDateReq()
+    '''returns Date\n\n
+    getDateReq()\n
     '''
 def setQuantity():
-    '''public void setQuantity(final int val)
+    '''returns None\n\n
+    setQuantity(final int val)\n
     '''
 def getQuantity():
-    '''public int getQuantity()
+    '''returns int\n\n
+    getQuantity()\n
     '''
 def setBranch():
-    '''public void setBranch(final String val)
+    '''returns None\n\n
+    setBranch(final String val)\n
     '''
 def getBranch():
-    '''public String getBranch()
+    '''returns String\n\n
+    getBranch()\n
     '''
 def setConversionFactor():
-    '''public void setConversionFactor(final String val)
+    '''returns None\n\n
+    setConversionFactor(final String val)\n
     '''
 def getConversionFactor():
-    '''public String getConversionFactor()
+    '''returns String\n\n
+    getConversionFactor()\n
     '''
 def setParentId():
-    '''public void setParentId(final String val)
+    '''returns None\n\n
+    setParentId(final String val)\n
     '''
 def getParentId():
-    '''public String getParentId()
+    '''returns String\n\n
+    getParentId()\n
     '''
 def setCustomerNum():
-    '''public void setCustomerNum(final String val)
+    '''returns None\n\n
+    setCustomerNum(final String val)\n
     '''
 def getCustomerNum():
-    '''public String getCustomerNum()
+    '''returns String\n\n
+    getCustomerNum()\n
     '''
 def setPrice():
-    '''public void setPrice(final double val)
+    '''returns None\n\n
+    setPrice(final double val)\n
     '''
 def getPrice():
-    '''public double getPrice()
+    '''returns double\n\n
+    getPrice()\n
     '''
 def setUOMValue():
-    '''public void setUOMValue(final int val)
+    '''returns None\n\n
+    setUOMValue(final int val)\n
     '''
 def getUOMValue():
-    '''public int getUOMValue()
+    '''returns int\n\n
+    getUOMValue()\n
     '''
 def setUOM():
-    '''public void setUOM(final String val)
+    '''returns None\n\n
+    setUOM(final String val)\n
     '''
 def getUOM():
-    '''public String getUOM()
+    '''returns String\n\n
+    getUOM()\n
     '''
 def setCurrencyCode():
-    '''public void setCurrencyCode(final String val)
+    '''returns None\n\n
+    setCurrencyCode(final String val)\n
     '''
 def getCurrencyCode():
-    '''public String getCurrencyCode()
+    '''returns String\n\n
+    getCurrencyCode()\n
     '''

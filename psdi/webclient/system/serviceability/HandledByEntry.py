@@ -1,3 +1,4 @@
-def HandledByEntry():
-    '''public HandledByEntry(final Object handler)
+def ():
+    '''returns HandledByEntry\n\n
+    (final Object handler)\n
     '''

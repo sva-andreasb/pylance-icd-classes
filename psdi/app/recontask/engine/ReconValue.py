@@ -1,47 +1,62 @@
-def ReconValue():
-    '''public ReconValue(final ReconValueSet valueSet, final Object[] values)
-    public ReconValue(final ReconValueSet valueSet, final Object[] values, final Object[] units)
+def ():
+    '''returns ReconValue\n\n
+    (final ReconValueSet valueSet, final Object[] values)\n
+    (final ReconValueSet valueSet, final Object[] values, final Object[] units)\n
     '''
 def getValue():
-    '''public Object getValue(final int index)
-    public Object getValue(final String attributeName)
+    '''returns Object\n\n
+    getValue(final int index)\n
+    getValue(final String attributeName)\n
     '''
 def getUnit():
-    '''public Object getUnit(final int index)
+    '''returns Object\n\n
+    getUnit(final int index)\n
     '''
 def hasUnit():
-    '''public boolean hasUnit(final int index)
+    '''returns boolean\n\n
+    hasUnit(final int index)\n
     '''
 def getAllValues():
-    '''public Object[] getAllValues()
+    '''returns Object[]\n\n
+    getAllValues()\n
     '''
 def getAllUnits():
-    '''public Object[] getAllUnits()
+    '''returns Object[]\n\n
+    getAllUnits()\n
     '''
 def setValue():
-    '''public void setValue(final Object val, final int index)
+    '''returns None\n\n
+    setValue(final Object val, final int index)\n
     '''
 def setUnit():
-    '''public void setUnit(final String unit, final int index)
+    '''returns None\n\n
+    setUnit(final String unit, final int index)\n
     '''
 def isDataSet1():
-    '''public boolean isDataSet1()
+    '''returns boolean\n\n
+    isDataSet1()\n
     '''
 def compareTo():
-    '''public int compareTo(final ReconValue anotherReconValue)
+    '''returns int\n\n
+    compareTo(final ReconValue anotherReconValue)\n
     '''
 def getRule():
-    '''public ReconExpression getRule()
+    '''returns ReconExpression\n\n
+    getRule()\n
     '''
 def setRule():
-    '''public void setRule(final ReconExpression rule)
+    '''returns None\n\n
+    setRule(final ReconExpression rule)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getParentValue():
-    '''public ReconValue getParentValue()
+    '''returns ReconValue\n\n
+    getParentValue()\n
     '''
 def setParentValue():
-    '''public void setParentValue(final ReconValue parentValue)
+    '''returns None\n\n
+    setParentValue(final ReconValue parentValue)\n
     '''

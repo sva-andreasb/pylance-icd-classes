@@ -1,6 +1,8 @@
-def W():
-    '''public W(final IConfig config, final InputStream inputStream, final String filename)
+def ():
+    '''returns W\n\n
+    (final IConfig config, final InputStream inputStream, final String filename)\n
     '''
 def a():
-    '''public Z a()
+    '''returns Z\n\n
+    a()\n
     '''

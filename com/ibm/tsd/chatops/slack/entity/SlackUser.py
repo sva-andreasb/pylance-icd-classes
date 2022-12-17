@@ -1,12 +1,16 @@
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isBot():
-    '''public boolean isBot()
+    '''returns boolean\n\n
+    isBot()\n
     '''
 def isDeleted():
-    '''public boolean isDeleted()
+    '''returns boolean\n\n
+    isDeleted()\n
     '''

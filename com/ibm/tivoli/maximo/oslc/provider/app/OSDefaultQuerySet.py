@@ -1,3 +1,4 @@
-def OSDefaultQuerySet():
-    '''public OSDefaultQuerySet(final MboServerInterface ms)
+def ():
+    '''returns OSDefaultQuerySet\n\n
+    (final MboServerInterface ms)\n
     '''

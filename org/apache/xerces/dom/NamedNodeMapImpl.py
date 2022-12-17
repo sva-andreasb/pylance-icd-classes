@@ -1,30 +1,40 @@
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public Node item(final int n)
+    '''returns Node\n\n
+    item(final int n)\n
     '''
 def getNamedItem():
-    '''public Node getNamedItem(final String s)
+    '''returns Node\n\n
+    getNamedItem(final String s)\n
     '''
 def getNamedItemNS():
-    '''public Node getNamedItemNS(final String s, final String s2)
+    '''returns Node\n\n
+    getNamedItemNS(final String s, final String s2)\n
     '''
 def setNamedItem():
-    '''public Node setNamedItem(final Node node)
+    '''returns Node\n\n
+    setNamedItem(final Node node)\n
     '''
 def setNamedItemNS():
-    '''public Node setNamedItemNS(final Node node)
+    '''returns Node\n\n
+    setNamedItemNS(final Node node)\n
     '''
 def removeNamedItem():
-    '''public Node removeNamedItem(final String s)
+    '''returns Node\n\n
+    removeNamedItem(final String s)\n
     '''
 def removeNamedItemNS():
-    '''public Node removeNamedItemNS(final String s, final String s2)
+    '''returns Node\n\n
+    removeNamedItemNS(final String s, final String s2)\n
     '''
 def cloneMap():
-    '''public NamedNodeMapImpl cloneMap(final NodeImpl nodeImpl)
+    '''returns NamedNodeMapImpl\n\n
+    cloneMap(final NodeImpl nodeImpl)\n
     '''
 def removeAll():
-    '''public void removeAll()
+    '''returns None\n\n
+    removeAll()\n
     '''

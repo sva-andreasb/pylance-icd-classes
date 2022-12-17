@@ -1,35 +1,44 @@
-def BasicMessageLogger():
-    '''public BasicMessageLogger()
+def ():
+    '''returns BasicMessageLogger\n\n
+    ()\n
     '''
 def progressMsg():
-    '''public void progressMsg(String msg)
-    public void progressMsg(String msg, final String[] params)
+    '''returns None\n\n
+    progressMsg(String msg)\n
+    progressMsg(String msg, final String[] params)\n
     '''
 def message():
-    '''public void message(String msg)
-    public void message(String msg, final String[] params)
+    '''returns None\n\n
+    message(String msg)\n
+    message(String msg, final String[] params)\n
     '''
 def warning():
-    '''public void warning(String msg)
-    public void warning(String msg, final String[] params)
+    '''returns None\n\n
+    warning(String msg)\n
+    warning(String msg, final String[] params)\n
     '''
 def error():
-    '''public void error(String msg)
-    public void error(String msg, final String[] params)
+    '''returns None\n\n
+    error(String msg)\n
+    error(String msg, final String[] params)\n
     '''
 def exception():
-    '''public void exception(final Throwable t)
-    public void exception(final String pageName, final String itemName, final Throwable t)
-    public void exception(final String pageName, final String itemName, final String fieldName, final Throwable t)
+    '''returns None\n\n
+    exception(final Throwable t)\n
+    exception(final String pageName, final String itemName, final Throwable t)\n
+    exception(final String pageName, final String itemName, final String fieldName, final Throwable t)\n
     '''
 def dataIntegrityMessage():
-    '''public void dataIntegrityMessage(String msg)
-    public void dataIntegrityMessage(String msg, final String[] params)
+    '''returns None\n\n
+    dataIntegrityMessage(String msg)\n
+    dataIntegrityMessage(String msg, final String[] params)\n
     '''
 def get():
-    '''public String get(final String key)
-    public String get(final String key, final String[] params)
+    '''returns String\n\n
+    get(final String key)\n
+    get(final String key, final String[] params)\n
     '''
 def getErrorCount():
-    '''public int getErrorCount()
+    '''returns int\n\n
+    getErrorCount()\n
     '''

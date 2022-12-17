@@ -17,51 +17,19 @@ SUBMIT_EXCL_NON_USER_ANNOTS = "int  1024"
 SUBMIT_EXCL_F_KEY = "int  2048"
 SUBMIT_EMBED_FORM = "int  8196"
 RESET_EXCLUDE = "int  1"
-def PdfAction():
-    '''public PdfAction()
-    public PdfAction(final URL url)
-    public PdfAction(final URL url, final boolean isMap)
-    public PdfAction(final String url)
-    public PdfAction(final String url, final boolean isMap)
-    public PdfAction(final String filename, final String name)
-    public PdfAction(final String filename, final int page)
-    public PdfAction(final int named)
-    public PdfAction(final String application, final String parameters, final String operation, final String defaultDir)
-    '''
-def createLaunch():
-    '''public static PdfAction createLaunch(final String application, final String parameters, final String operation, final String defaultDir)
-    '''
-def rendition():
-    '''public static PdfAction rendition(final String file, final PdfFileSpecification fs, final String mimeType, final PdfIndirectReference ref)
-    '''
-def javaScript():
-    '''public static PdfAction javaScript(final String code, final PdfWriter writer, final boolean unicode)
-    public static PdfAction javaScript(final String code, final PdfWriter writer)
-    '''
-def createHide():
-    '''public static PdfAction createHide(final PdfAnnotation annot, final boolean hide)
-    public static PdfAction createHide(final String name, final boolean hide)
-    public static PdfAction createHide(final Object[] names, final boolean hide)
-    '''
-def createSubmitForm():
-    '''public static PdfAction createSubmitForm(final String file, final Object[] names, final int flags)
-    '''
-def createResetForm():
-    '''public static PdfAction createResetForm(final Object[] names, final int flags)
-    '''
-def createImportData():
-    '''public static PdfAction createImportData(final String file)
+def ():
+    '''returns PdfAction\n\n
+    ()\n
+    (final URL url)\n
+    (final URL url, final boolean isMap)\n
+    (final String url)\n
+    (final String url, final boolean isMap)\n
+    (final String filename, final String name)\n
+    (final String filename, final int page)\n
+    (final int named)\n
+    (final String application, final String parameters, final String operation, final String defaultDir)\n
     '''
 def next():
-    '''public void next(final PdfAction na)
-    '''
-def gotoLocalPage():
-    '''public static PdfAction gotoLocalPage(final int page, final PdfDestination dest, final PdfWriter writer)
-    public static PdfAction gotoLocalPage(final String dest, final boolean isName)
-    '''
-def gotoRemotePage():
-    '''public static PdfAction gotoRemotePage(final String filename, final String dest, final boolean isName, final boolean newWindow)
-    '''
-def setOCGstate():
-    '''public static PdfAction setOCGstate(final ArrayList state, final boolean preserveRB)
+    '''returns None\n\n
+    next(final PdfAction na)\n
     '''

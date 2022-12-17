@@ -1,23 +1,30 @@
-def FileEntity():
-    '''public FileEntity(final File file, final String contentType)
-    public FileEntity(final File file, final ContentType contentType)
-    public FileEntity(final File file)
+def ():
+    '''returns FileEntity\n\n
+    (final File file, final String contentType)\n
+    (final File file, final ContentType contentType)\n
+    (final File file)\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''
 def isStreaming():
-    '''public boolean isStreaming()
+    '''returns boolean\n\n
+    isStreaming()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

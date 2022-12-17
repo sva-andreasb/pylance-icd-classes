@@ -1,15 +1,20 @@
-def MaxInvUseProcess():
-    '''public MaxInvUseProcess()
+def ():
+    '''returns MaxInvUseProcess\n\n
+    ()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
+    '''returns None\n\n
+    changeStatus(final MboRemote setMbo, final String stat, final String memo)\n
     '''
 def getInternalStatus():
-    '''public String getInternalStatus(final String status)
+    '''returns String\n\n
+    getInternalStatus(final String status)\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''

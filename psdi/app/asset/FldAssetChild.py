@@ -1,21 +1,28 @@
-def FldAssetChild():
-    '''public FldAssetChild(final MboValue mbv)
+def ():
+    '''returns FldAssetChild\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def getMatchingAttr():
-    '''public String getMatchingAttr(final String sourceObjectName)
+    '''returns String\n\n
+    getMatchingAttr(final String sourceObjectName)\n
     '''

@@ -1,21 +1,16 @@
-def getThreadPool():
-    '''public static ExecutorService getThreadPool()
-    '''
-def getInstanceFor():
-    '''public static synchronized JingleManager getInstanceFor(final XMPPConnection connection)
-    '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def registerDescriptionHandler():
-    '''public JingleHandler registerDescriptionHandler(final String namespace, final JingleHandler handler)
+    '''returns JingleHandler\n\n
+    registerDescriptionHandler(final String namespace, final JingleHandler handler)\n
     '''
 def registerJingleSessionHandler():
-    '''public JingleSessionHandler registerJingleSessionHandler(final FullJid otherJid, final String sessionId, final JingleSessionHandler sessionHandler)
+    '''returns JingleSessionHandler\n\n
+    registerJingleSessionHandler(final FullJid otherJid, final String sessionId, final JingleSessionHandler sessionHandler)\n
     '''
 def unregisterJingleSessionHandler():
-    '''public JingleSessionHandler unregisterJingleSessionHandler(final FullJid otherJid, final String sessionId, final JingleSessionHandler sessionHandler)
-    '''
-def randomId():
-    '''public static String randomId()
+    '''returns JingleSessionHandler\n\n
+    unregisterJingleSessionHandler(final FullJid otherJid, final String sessionId, final JingleSessionHandler sessionHandler)\n
     '''

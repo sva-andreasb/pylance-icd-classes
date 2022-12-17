@@ -1,20 +1,26 @@
-def OutputStreamCounter():
-    '''public OutputStreamCounter(final OutputStream out)
+def ():
+    '''returns OutputStreamCounter\n\n
+    (final OutputStream out)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final byte[] b)
-    public void write(final int b)
-    public void write(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    write(final byte[] b)\n
+    write(final int b)\n
+    write(final byte[] b, final int off, final int len)\n
     '''
 def getCounter():
-    '''public int getCounter()
+    '''returns int\n\n
+    getCounter()\n
     '''
 def resetCounter():
-    '''public void resetCounter()
+    '''returns None\n\n
+    resetCounter()\n
     '''

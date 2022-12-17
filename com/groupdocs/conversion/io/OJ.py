@@ -1,10 +1,13 @@
-def OJ():
-    '''public OJ(final long n)
-    public OJ(final long size, final boolean do1)
+def ():
+    '''returns OJ\n\n
+    (final long n)\n
+    (final long size, final boolean do1)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

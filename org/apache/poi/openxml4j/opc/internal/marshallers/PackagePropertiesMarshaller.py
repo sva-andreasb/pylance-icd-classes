@@ -1,6 +1,8 @@
-def PackagePropertiesMarshaller():
-    '''public PackagePropertiesMarshaller()
+def ():
+    '''returns PackagePropertiesMarshaller\n\n
+    ()\n
     '''
 def marshall():
-    '''public boolean marshall(final PackagePart part, final OutputStream out)
+    '''returns boolean\n\n
+    marshall(final PackagePart part, final OutputStream out)\n
     '''

@@ -1,15 +1,20 @@
 def offer():
-    '''public boolean offer(final E obj)
+    '''returns boolean\n\n
+    offer(final E obj)\n
     '''
 def poll():
-    '''public E poll()
+    '''returns E\n\n
+    poll()\n
     '''
 def peek():
-    '''public E peek()
+    '''returns E\n\n
+    peek()\n
     '''
 def element():
-    '''public E element()
+    '''returns E\n\n
+    element()\n
     '''
 def remove():
-    '''public E remove()
+    '''returns E\n\n
+    remove()\n
     '''

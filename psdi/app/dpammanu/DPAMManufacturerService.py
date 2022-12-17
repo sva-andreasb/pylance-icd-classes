@@ -1,4 +1,5 @@
-def DPAMManufacturerService():
-    '''public DPAMManufacturerService()
-    public DPAMManufacturerService(final MXServer mxServer)
+def ():
+    '''returns DPAMManufacturerService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

@@ -1,10 +1,9 @@
-def MaxSequenceProvider():
-    '''public MaxSequenceProvider()
+def ():
+    '''returns MaxSequenceProvider\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final Connection con)
-    public void init(final Connection conn, final boolean loadAll)
-    '''
-def getUniqueID():
-    '''public synchronized long getUniqueID(final Connection con, final String tbname, final String name)
+    '''returns None\n\n
+    init(final Connection con)\n
+    init(final Connection conn, final boolean loadAll)\n
     '''

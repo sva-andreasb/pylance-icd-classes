@@ -1,3 +1,4 @@
-def Bean():
-    '''public Bean(final Class type, final Object value)
+def ():
+    '''returns Bean\n\n
+    (final Class type, final Object value)\n
     '''

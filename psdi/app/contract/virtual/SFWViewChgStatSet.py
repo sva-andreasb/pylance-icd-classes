@@ -1,3 +1,4 @@
-def SFWViewChgStatSet():
-    '''public SFWViewChgStatSet(final MboServerInterface ms)
+def ():
+    '''returns SFWViewChgStatSet\n\n
+    (final MboServerInterface ms)\n
     '''

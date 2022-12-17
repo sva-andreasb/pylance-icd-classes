@@ -1,22 +1,29 @@
-def MaxIfaceLoad():
-    '''public MaxIfaceLoad(final MboSet ms)
+def ():
+    '''returns MaxIfaceLoad\n\n
+    (final MboSet ms)\n
     '''
 def setAsync():
-    '''public void setAsync(final boolean async)
+    '''returns None\n\n
+    setAsync(final boolean async)\n
     '''
 def isAsync():
-    '''public boolean isAsync()
+    '''returns boolean\n\n
+    isAsync()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def exportData():
-    '''public String exportData(final MboRemote mbo, final String appName)
-    public String exportData(final MboSetRemote set, final String appName)
+    '''returns String\n\n
+    exportData(final MboRemote mbo, final String appName)\n
+    exportData(final MboSetRemote set, final String appName)\n
     '''
 def sendData():
-    '''public String sendData(final byte[] data, final String appName)
+    '''returns String\n\n
+    sendData(final byte[] data, final String appName)\n
     '''
 def importData():
-    '''public int importData(final InputStream in)
+    '''returns int\n\n
+    importData(final InputStream in)\n
     '''

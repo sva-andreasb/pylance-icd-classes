@@ -1,24 +1,32 @@
-def InvokeInstruction():
-    '''public InvokeInstruction(final short opcode, final int index)
+def ():
+    '''returns InvokeInstruction\n\n
+    (final short opcode, final int index)\n
     '''
 def toString():
-    '''public String toString(final ConstantPool cp)
+    '''returns String\n\n
+    toString(final ConstantPool cp)\n
     '''
 def consumeStack():
-    '''public int consumeStack(final ConstantPool cpg)
+    '''returns int\n\n
+    consumeStack(final ConstantPool cpg)\n
     '''
 def produceStack():
-    '''public int produceStack(final ConstantPool cpg)
+    '''returns int\n\n
+    produceStack(final ConstantPool cpg)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPool cpg)
+    '''returns Type\n\n
+    getType(final ConstantPool cpg)\n
     '''
 def getMethodName():
-    '''public String getMethodName(final ConstantPool cpg)
+    '''returns String\n\n
+    getMethodName(final ConstantPool cpg)\n
     '''
 def getReturnType():
-    '''public Type getReturnType(final ConstantPool cpg)
+    '''returns Type\n\n
+    getReturnType(final ConstantPool cpg)\n
     '''
 def getArgumentTypes():
-    '''public Type[] getArgumentTypes(final ConstantPool cpg)
+    '''returns Type[]\n\n
+    getArgumentTypes(final ConstantPool cpg)\n
     '''

@@ -1,21 +1,28 @@
 def getCE32():
-    '''public int getCE32(final int c)
+    '''returns int\n\n
+    getCE32(final int c)\n
     '''
 def isUnsafeBackward():
-    '''public boolean isUnsafeBackward(final int c, final boolean numeric)
+    '''returns boolean\n\n
+    isUnsafeBackward(final int c, final boolean numeric)\n
     '''
 def isCompressibleLeadByte():
-    '''public boolean isCompressibleLeadByte(final int b)
+    '''returns boolean\n\n
+    isCompressibleLeadByte(final int b)\n
     '''
 def isCompressiblePrimary():
-    '''public boolean isCompressiblePrimary(final long p)
+    '''returns boolean\n\n
+    isCompressiblePrimary(final long p)\n
     '''
 def getLastPrimaryForGroup():
-    '''public long getLastPrimaryForGroup(final int script)
+    '''returns long\n\n
+    getLastPrimaryForGroup(final int script)\n
     '''
 def getGroupForPrimary():
-    '''public int getGroupForPrimary(long p)
+    '''returns int\n\n
+    getGroupForPrimary(long p)\n
     '''
 def getEquivalentScripts():
-    '''public int[] getEquivalentScripts(final int script)
+    '''returns int[]\n\n
+    getEquivalentScripts(final int script)\n
     '''

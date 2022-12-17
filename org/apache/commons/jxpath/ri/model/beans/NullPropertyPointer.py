@@ -1,62 +1,82 @@
-def NullPropertyPointer():
-    '''public NullPropertyPointer(final NodePointer parent)
+def ():
+    '''returns NullPropertyPointer\n\n
+    (final NodePointer parent)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def setPropertyIndex():
-    '''public void setPropertyIndex(final int index)
+    '''returns None\n\n
+    setPropertyIndex(final int index)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getValuePointer():
-    '''public NodePointer getValuePointer()
+    '''returns NodePointer\n\n
+    getValuePointer()\n
     '''
 def isActual():
-    '''public boolean isActual()
+    '''returns boolean\n\n
+    isActual()\n
     '''
 def isContainer():
-    '''public boolean isContainer()
+    '''returns boolean\n\n
+    isContainer()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def createPath():
-    '''public NodePointer createPath(final JXPathContext context)
-    public NodePointer createPath(final JXPathContext context, final Object value)
+    '''returns NodePointer\n\n
+    createPath(final JXPathContext context)\n
+    createPath(final JXPathContext context, final Object value)\n
     '''
 def createChild():
-    '''public NodePointer createChild(final JXPathContext context, final QName name, final int index)
-    public NodePointer createChild(final JXPathContext context, final QName name, final int index, final Object value)
+    '''returns NodePointer\n\n
+    createChild(final JXPathContext context, final QName name, final int index)\n
+    createChild(final JXPathContext context, final QName name, final int index, final Object value)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def setPropertyName():
-    '''public void setPropertyName(final String propertyName)
+    '''returns None\n\n
+    setPropertyName(final String propertyName)\n
     '''
 def setNameAttributeValue():
-    '''public void setNameAttributeValue(final String attributeValue)
+    '''returns None\n\n
+    setNameAttributeValue(final String attributeValue)\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def getPropertyCount():
-    '''public int getPropertyCount()
+    '''returns int\n\n
+    getPropertyCount()\n
     '''
 def getPropertyNames():
-    '''public String[] getPropertyNames()
+    '''returns String[]\n\n
+    getPropertyNames()\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''

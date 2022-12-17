@@ -1,3 +1,4 @@
-def PmSrvFldTkSolStatus():
-    '''public PmSrvFldTkSolStatus(final MboValue mbv)
+def ():
+    '''returns PmSrvFldTkSolStatus\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,30 +1,37 @@
-def MAXTABLEDomainInfo():
-    '''public MAXTABLEDomainInfo(final String name)
+def ():
+    '''returns Detail\n\n
+    (final String name)\n
+    ()\n
     '''
 def getObjectName():
-    '''public String getObjectName(final Object[] signature)
+    '''returns String\n\n
+    getObjectName(final Object[] signature)\n
     '''
 def getValidationWhere():
-    '''public String getValidationWhere(final Object[] signature)
+    '''returns String\n\n
+    getValidationWhere(final Object[] signature)\n
     '''
 def getListWhere():
-    '''public String getListWhere(final Object[] signature)
+    '''returns String\n\n
+    getListWhere(final Object[] signature)\n
     '''
 def getErrorGroup():
-    '''public String getErrorGroup(final Object[] signature)
+    '''returns String\n\n
+    getErrorGroup(final Object[] signature)\n
     '''
 def getErrorKey():
-    '''public String getErrorKey(final Object[] signature)
+    '''returns String\n\n
+    getErrorKey(final Object[] signature)\n
     '''
 def getDomainObject():
-    '''public MboValueListener getDomainObject(final MboValue mbv)
+    '''returns MboValueListener\n\n
+    getDomainObject(final MboValue mbv)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def initDetailObject():
-    '''public Detail initDetailObject()
-    '''
-def Detail():
-    '''public Detail()
+    '''returns Detail\n\n
+    initDetailObject()\n
     '''

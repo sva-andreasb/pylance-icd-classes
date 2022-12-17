@@ -1,31 +1,37 @@
-def PublishChannelCacheImpl():
-    '''public PublishChannelCacheImpl()
+def ():
+    '''returns PublishChannelCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getPublishInfo():
-    '''public PublishInfo getPublishInfo(final String pubChannelName)
+    '''returns PublishInfo\n\n
+    getPublishInfo(final String pubChannelName)\n
     '''
 def getChannelsForIfaceTb():
-    '''public List<String> getChannelsForIfaceTb(final String ifacetbName)
+    '''returns List<String>\n\n
+    getChannelsForIfaceTb(final String ifacetbName)\n
     '''
 def getPublishChannel():
-    '''public PublishChannel getPublishChannel(final String pubChannelName)
+    '''returns PublishChannel\n\n
+    getPublishChannel(final String pubChannelName)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
-    '''
-def getPublishChannelMap():
-    '''public Map<String, PublishChannel> getPublishChannelMap()
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def unregisterAllListeners():
-    '''public void unregisterAllListeners()
+    '''returns None\n\n
+    unregisterAllListeners()\n
     '''
 def unregisterListeners():
-    '''public void unregisterListeners(final String pubChannelName)
+    '''returns None\n\n
+    unregisterListeners(final String pubChannelName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

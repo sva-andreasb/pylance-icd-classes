@@ -1,3 +1,4 @@
-def MaxServSecuritySet():
-    '''public MaxServSecuritySet(final MboServerInterface ms)
+def ():
+    '''returns MaxServSecuritySet\n\n
+    (final MboServerInterface ms)\n
     '''

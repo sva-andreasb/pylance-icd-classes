@@ -1,3 +1,4 @@
 def getValue():
-    '''public Object getValue(final MboRemote mbo, final String columnName)
+    '''returns Object\n\n
+    getValue(final MboRemote mbo, final String columnName)\n
     '''

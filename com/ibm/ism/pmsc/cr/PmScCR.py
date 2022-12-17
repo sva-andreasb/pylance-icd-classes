@@ -1,35 +1,46 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def PmScCR():
-    '''public PmScCR(final MboSet ms)
+def ():
+    '''returns PmScCR\n\n
+    (final MboSet ms)\n
     '''
 def getFldPluspCustomer():
-    '''public String getFldPluspCustomer()
+    '''returns String\n\n
+    getFldPluspCustomer()\n
     '''
 def setFldPluspCustomer():
-    '''public void setFldPluspCustomer()
+    '''returns None\n\n
+    setFldPluspCustomer()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def changeStatusForActionService():
-    '''public void changeStatusForActionService(final String internalStatus)
+    '''returns None\n\n
+    changeStatusForActionService(final String internalStatus)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String ticketID, final String ticketStatus)
+    '''returns None\n\n
+    changeStatus(final String ticketID, final String ticketStatus)\n
     '''
 def getRelatedSRs():
-    '''public MboSetRemote getRelatedSRs()
+    '''returns MboSetRemote\n\n
+    getRelatedSRs()\n
     '''
 def deleteRelatedSRs():
-    '''public void deleteRelatedSRs()
-    public void deleteRelatedSRs(final long accessModifier)
+    '''returns None\n\n
+    deleteRelatedSRs()\n
+    deleteRelatedSRs(final long accessModifier)\n
     '''
 def emptyCart():
-    '''public void emptyCart()
+    '''returns None\n\n
+    emptyCart()\n
     '''
 def updateCRPrice():
-    '''public void updateCRPrice(final boolean save)
+    '''returns None\n\n
+    updateCRPrice(final boolean save)\n
     '''

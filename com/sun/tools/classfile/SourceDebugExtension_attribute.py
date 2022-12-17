@@ -1,10 +1,9 @@
-def SourceDebugExtension_attribute():
-    '''public SourceDebugExtension_attribute(final ConstantPool constantPool, final byte[] array)
-    public SourceDebugExtension_attribute(final int n, final byte[] debug_extension)
+def ():
+    '''returns SourceDebugExtension_attribute\n\n
+    (final ConstantPool constantPool, final byte[] array)\n
+    (final int n, final byte[] debug_extension)\n
     '''
 def getValue():
-    '''public String getValue()
-    '''
-def accept():
-    '''public <R, D> R accept(final Visitor<R, D> visitor, final D n)
+    '''returns String\n\n
+    getValue()\n
     '''

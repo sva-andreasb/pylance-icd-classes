@@ -1,31 +1,41 @@
-def AbstractService():
-    '''public AbstractService(final BayeuxServer bayeux, final String name)
-    public AbstractService(final BayeuxServer bayeux, final String name, final int maxThreads)
+def ():
+    '''returns AbstractService\n\n
+    (final BayeuxServer bayeux, final String name)\n
+    (final BayeuxServer bayeux, final String name, final int maxThreads)\n
     '''
 def getBayeux():
-    '''public BayeuxServer getBayeux()
+    '''returns BayeuxServer\n\n
+    getBayeux()\n
     '''
 def getLocalSession():
-    '''public LocalSession getLocalSession()
+    '''returns LocalSession\n\n
+    getLocalSession()\n
     '''
 def getServerSession():
-    '''public ServerSession getServerSession()
+    '''returns ServerSession\n\n
+    getServerSession()\n
     '''
 def getThreadPool():
-    '''public ThreadPool getThreadPool()
+    '''returns ThreadPool\n\n
+    getThreadPool()\n
     '''
 def setThreadPool():
-    '''public void setThreadPool(final ThreadPool pool)
+    '''returns None\n\n
+    setThreadPool(final ThreadPool pool)\n
     '''
 def isSeeOwnPublishes():
-    '''public boolean isSeeOwnPublishes()
+    '''returns boolean\n\n
+    isSeeOwnPublishes()\n
     '''
 def setSeeOwnPublishes():
-    '''public void setSeeOwnPublishes(final boolean own)
+    '''returns None\n\n
+    setSeeOwnPublishes(final boolean own)\n
     '''
 def onMessage():
-    '''public boolean onMessage(final ServerSession from, final ServerChannel channel, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    onMessage(final ServerSession from, final ServerChannel channel, final ServerMessage.Mutable message)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

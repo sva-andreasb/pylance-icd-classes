@@ -1,21 +1,28 @@
-def MediaList():
-    '''public MediaList(final DOMObject obj)
+def ():
+    '''returns MediaList\n\n
+    (final DOMObject obj)\n
     '''
 def getMediaText():
-    '''public String getMediaText()
+    '''returns String\n\n
+    getMediaText()\n
     '''
 def setMediaText():
-    '''public void setMediaText(final String s)
+    '''returns None\n\n
+    setMediaText(final String s)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public String item(final int n)
+    '''returns String\n\n
+    item(final int n)\n
     '''
 def deleteMedium():
-    '''public void deleteMedium(final String s)
+    '''returns None\n\n
+    deleteMedium(final String s)\n
     '''
 def appendMedium():
-    '''public void appendMedium(final String s)
+    '''returns None\n\n
+    appendMedium(final String s)\n
     '''

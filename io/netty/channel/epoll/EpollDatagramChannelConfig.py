@@ -1,126 +1,160 @@
-def getOption():
-    '''public <T> T getOption(final ChannelOption<T> option)
-    '''
-def setOption():
-    '''public <T> boolean setOption(final ChannelOption<T> option, final T value)
-    '''
 def setMessageSizeEstimator():
-    '''public EpollDatagramChannelConfig setMessageSizeEstimator(final MessageSizeEstimator estimator)
+    '''returns EpollDatagramChannelConfig\n\n
+    setMessageSizeEstimator(final MessageSizeEstimator estimator)\n
     '''
 def setWriteBufferLowWaterMark():
-    '''public EpollDatagramChannelConfig setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)
+    '''returns EpollDatagramChannelConfig\n\n
+    setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)\n
     '''
 def setWriteBufferHighWaterMark():
-    '''public EpollDatagramChannelConfig setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)
+    '''returns EpollDatagramChannelConfig\n\n
+    setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)\n
     '''
 def setWriteBufferWaterMark():
-    '''public EpollDatagramChannelConfig setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)
+    '''returns EpollDatagramChannelConfig\n\n
+    setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)\n
     '''
 def setAutoClose():
-    '''public EpollDatagramChannelConfig setAutoClose(final boolean autoClose)
+    '''returns EpollDatagramChannelConfig\n\n
+    setAutoClose(final boolean autoClose)\n
     '''
 def setAutoRead():
-    '''public EpollDatagramChannelConfig setAutoRead(final boolean autoRead)
+    '''returns EpollDatagramChannelConfig\n\n
+    setAutoRead(final boolean autoRead)\n
     '''
 def setRecvByteBufAllocator():
-    '''public EpollDatagramChannelConfig setRecvByteBufAllocator(final RecvByteBufAllocator allocator)
+    '''returns EpollDatagramChannelConfig\n\n
+    setRecvByteBufAllocator(final RecvByteBufAllocator allocator)\n
     '''
 def setWriteSpinCount():
-    '''public EpollDatagramChannelConfig setWriteSpinCount(final int writeSpinCount)
+    '''returns EpollDatagramChannelConfig\n\n
+    setWriteSpinCount(final int writeSpinCount)\n
     '''
 def setAllocator():
-    '''public EpollDatagramChannelConfig setAllocator(final ByteBufAllocator allocator)
+    '''returns EpollDatagramChannelConfig\n\n
+    setAllocator(final ByteBufAllocator allocator)\n
     '''
 def setConnectTimeoutMillis():
-    '''public EpollDatagramChannelConfig setConnectTimeoutMillis(final int connectTimeoutMillis)
+    '''returns EpollDatagramChannelConfig\n\n
+    setConnectTimeoutMillis(final int connectTimeoutMillis)\n
     '''
 def setMaxMessagesPerRead():
-    '''public EpollDatagramChannelConfig setMaxMessagesPerRead(final int maxMessagesPerRead)
+    '''returns EpollDatagramChannelConfig\n\n
+    setMaxMessagesPerRead(final int maxMessagesPerRead)\n
     '''
 def getSendBufferSize():
-    '''public int getSendBufferSize()
+    '''returns int\n\n
+    getSendBufferSize()\n
     '''
 def setSendBufferSize():
-    '''public EpollDatagramChannelConfig setSendBufferSize(final int sendBufferSize)
+    '''returns EpollDatagramChannelConfig\n\n
+    setSendBufferSize(final int sendBufferSize)\n
     '''
 def getReceiveBufferSize():
-    '''public int getReceiveBufferSize()
+    '''returns int\n\n
+    getReceiveBufferSize()\n
     '''
 def setReceiveBufferSize():
-    '''public EpollDatagramChannelConfig setReceiveBufferSize(final int receiveBufferSize)
+    '''returns EpollDatagramChannelConfig\n\n
+    setReceiveBufferSize(final int receiveBufferSize)\n
     '''
 def getTrafficClass():
-    '''public int getTrafficClass()
+    '''returns int\n\n
+    getTrafficClass()\n
     '''
 def setTrafficClass():
-    '''public EpollDatagramChannelConfig setTrafficClass(final int trafficClass)
+    '''returns EpollDatagramChannelConfig\n\n
+    setTrafficClass(final int trafficClass)\n
     '''
 def isReuseAddress():
-    '''public boolean isReuseAddress()
+    '''returns boolean\n\n
+    isReuseAddress()\n
     '''
 def setReuseAddress():
-    '''public EpollDatagramChannelConfig setReuseAddress(final boolean reuseAddress)
+    '''returns EpollDatagramChannelConfig\n\n
+    setReuseAddress(final boolean reuseAddress)\n
     '''
 def isBroadcast():
-    '''public boolean isBroadcast()
+    '''returns boolean\n\n
+    isBroadcast()\n
     '''
 def setBroadcast():
-    '''public EpollDatagramChannelConfig setBroadcast(final boolean broadcast)
+    '''returns EpollDatagramChannelConfig\n\n
+    setBroadcast(final boolean broadcast)\n
     '''
 def isLoopbackModeDisabled():
-    '''public boolean isLoopbackModeDisabled()
+    '''returns boolean\n\n
+    isLoopbackModeDisabled()\n
     '''
 def setLoopbackModeDisabled():
-    '''public DatagramChannelConfig setLoopbackModeDisabled(final boolean loopbackModeDisabled)
+    '''returns DatagramChannelConfig\n\n
+    setLoopbackModeDisabled(final boolean loopbackModeDisabled)\n
     '''
 def getTimeToLive():
-    '''public int getTimeToLive()
+    '''returns int\n\n
+    getTimeToLive()\n
     '''
 def setTimeToLive():
-    '''public EpollDatagramChannelConfig setTimeToLive(final int ttl)
+    '''returns EpollDatagramChannelConfig\n\n
+    setTimeToLive(final int ttl)\n
     '''
 def getInterface():
-    '''public InetAddress getInterface()
+    '''returns InetAddress\n\n
+    getInterface()\n
     '''
 def setInterface():
-    '''public EpollDatagramChannelConfig setInterface(final InetAddress interfaceAddress)
+    '''returns EpollDatagramChannelConfig\n\n
+    setInterface(final InetAddress interfaceAddress)\n
     '''
 def getNetworkInterface():
-    '''public NetworkInterface getNetworkInterface()
+    '''returns NetworkInterface\n\n
+    getNetworkInterface()\n
     '''
 def setNetworkInterface():
-    '''public EpollDatagramChannelConfig setNetworkInterface(final NetworkInterface networkInterface)
+    '''returns EpollDatagramChannelConfig\n\n
+    setNetworkInterface(final NetworkInterface networkInterface)\n
     '''
 def setEpollMode():
-    '''public EpollDatagramChannelConfig setEpollMode(final EpollMode mode)
+    '''returns EpollDatagramChannelConfig\n\n
+    setEpollMode(final EpollMode mode)\n
     '''
 def isReusePort():
-    '''public boolean isReusePort()
+    '''returns boolean\n\n
+    isReusePort()\n
     '''
 def setReusePort():
-    '''public EpollDatagramChannelConfig setReusePort(final boolean reusePort)
+    '''returns EpollDatagramChannelConfig\n\n
+    setReusePort(final boolean reusePort)\n
     '''
 def isIpTransparent():
-    '''public boolean isIpTransparent()
+    '''returns boolean\n\n
+    isIpTransparent()\n
     '''
 def setIpTransparent():
-    '''public EpollDatagramChannelConfig setIpTransparent(final boolean ipTransparent)
+    '''returns EpollDatagramChannelConfig\n\n
+    setIpTransparent(final boolean ipTransparent)\n
     '''
 def isFreeBind():
-    '''public boolean isFreeBind()
+    '''returns boolean\n\n
+    isFreeBind()\n
     '''
 def setFreeBind():
-    '''public EpollDatagramChannelConfig setFreeBind(final boolean freeBind)
+    '''returns EpollDatagramChannelConfig\n\n
+    setFreeBind(final boolean freeBind)\n
     '''
 def isIpRecvOrigDestAddr():
-    '''public boolean isIpRecvOrigDestAddr()
+    '''returns boolean\n\n
+    isIpRecvOrigDestAddr()\n
     '''
 def setIpRecvOrigDestAddr():
-    '''public EpollDatagramChannelConfig setIpRecvOrigDestAddr(final boolean ipTransparent)
+    '''returns EpollDatagramChannelConfig\n\n
+    setIpRecvOrigDestAddr(final boolean ipTransparent)\n
     '''
 def setMaxDatagramPayloadSize():
-    '''public EpollDatagramChannelConfig setMaxDatagramPayloadSize(final int maxDatagramSize)
+    '''returns EpollDatagramChannelConfig\n\n
+    setMaxDatagramPayloadSize(final int maxDatagramSize)\n
     '''
 def getMaxDatagramPayloadSize():
-    '''public int getMaxDatagramPayloadSize()
+    '''returns int\n\n
+    getMaxDatagramPayloadSize()\n
     '''

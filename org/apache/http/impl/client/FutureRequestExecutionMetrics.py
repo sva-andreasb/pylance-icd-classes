@@ -1,43 +1,57 @@
 def getActiveConnectionCount():
-    '''public long getActiveConnectionCount()
+    '''returns long\n\n
+    getActiveConnectionCount()\n
     '''
 def getScheduledConnectionCount():
-    '''public long getScheduledConnectionCount()
+    '''returns long\n\n
+    getScheduledConnectionCount()\n
     '''
 def getSuccessfulConnectionCount():
-    '''public long getSuccessfulConnectionCount()
+    '''returns long\n\n
+    getSuccessfulConnectionCount()\n
     '''
 def getSuccessfulConnectionAverageDuration():
-    '''public long getSuccessfulConnectionAverageDuration()
+    '''returns long\n\n
+    getSuccessfulConnectionAverageDuration()\n
     '''
 def getFailedConnectionCount():
-    '''public long getFailedConnectionCount()
+    '''returns long\n\n
+    getFailedConnectionCount()\n
     '''
 def getFailedConnectionAverageDuration():
-    '''public long getFailedConnectionAverageDuration()
+    '''returns long\n\n
+    getFailedConnectionAverageDuration()\n
     '''
 def getRequestCount():
-    '''public long getRequestCount()
+    '''returns long\n\n
+    getRequestCount()\n
     '''
 def getRequestAverageDuration():
-    '''public long getRequestAverageDuration()
+    '''returns long\n\n
+    getRequestAverageDuration()\n
     '''
 def getTaskCount():
-    '''public long getTaskCount()
+    '''returns long\n\n
+    getTaskCount()\n
     '''
 def getTaskAverageDuration():
-    '''public long getTaskAverageDuration()
+    '''returns long\n\n
+    getTaskAverageDuration()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def increment():
-    '''public void increment(final long startTime)
+    '''returns None\n\n
+    increment(final long startTime)\n
     '''
 def count():
-    '''public long count()
+    '''returns long\n\n
+    count()\n
     '''
 def averageDuration():
-    '''public long averageDuration()
+    '''returns long\n\n
+    averageDuration()\n
     '''

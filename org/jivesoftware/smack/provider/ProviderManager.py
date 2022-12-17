@@ -1,30 +1,32 @@
-def getInstance():
-    '''public static synchronized ProviderManager getInstance()
-    '''
-def setInstance():
-    '''public static synchronized void setInstance(final ProviderManager providerManager)
-    '''
 def getIQProvider():
-    '''public Object getIQProvider(final String elementName, final String namespace)
+    '''returns Object\n\n
+    getIQProvider(final String elementName, final String namespace)\n
     '''
 def getIQProviders():
-    '''public Collection<Object> getIQProviders()
+    '''returns Collection<Object>\n\n
+    getIQProviders()\n
     '''
 def addIQProvider():
-    '''public void addIQProvider(final String elementName, final String namespace, final Object provider)
+    '''returns None\n\n
+    addIQProvider(final String elementName, final String namespace, final Object provider)\n
     '''
 def removeIQProvider():
-    '''public void removeIQProvider(final String elementName, final String namespace)
+    '''returns None\n\n
+    removeIQProvider(final String elementName, final String namespace)\n
     '''
 def getExtensionProvider():
-    '''public Object getExtensionProvider(final String elementName, final String namespace)
+    '''returns Object\n\n
+    getExtensionProvider(final String elementName, final String namespace)\n
     '''
 def addExtensionProvider():
-    '''public void addExtensionProvider(final String elementName, final String namespace, final Object provider)
+    '''returns None\n\n
+    addExtensionProvider(final String elementName, final String namespace, final Object provider)\n
     '''
 def removeExtensionProvider():
-    '''public void removeExtensionProvider(final String elementName, final String namespace)
+    '''returns None\n\n
+    removeExtensionProvider(final String elementName, final String namespace)\n
     '''
 def getExtensionProviders():
-    '''public Collection<Object> getExtensionProviders()
+    '''returns Collection<Object>\n\n
+    getExtensionProviders()\n
     '''

@@ -1,12 +1,12 @@
-def execute():
-    '''public synchronized int execute()
-    '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def CLEARPREVIEW():
-    '''public int CLEARPREVIEW()
+    '''returns int\n\n
+    CLEARPREVIEW()\n
     '''
 def CREATEPREVIEW():
-    '''public int CREATEPREVIEW()
+    '''returns int\n\n
+    CREATEPREVIEW()\n
     '''

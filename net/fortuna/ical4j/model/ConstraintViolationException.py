@@ -1,4 +1,5 @@
-def ConstraintViolationException():
-    '''public ConstraintViolationException()
-    public ConstraintViolationException(final String message)
+def ():
+    '''returns ConstraintViolationException\n\n
+    ()\n
+    (final String message)\n
     '''

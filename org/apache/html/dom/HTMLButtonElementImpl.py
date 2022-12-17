@@ -1,36 +1,48 @@
 def getAccessKey():
-    '''public String getAccessKey()
+    '''returns String\n\n
+    getAccessKey()\n
     '''
 def setAccessKey():
-    '''public void setAccessKey(String substring)
+    '''returns None\n\n
+    setAccessKey(String substring)\n
     '''
 def getDisabled():
-    '''public boolean getDisabled()
+    '''returns boolean\n\n
+    getDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean b)
+    '''returns None\n\n
+    setDisabled(final boolean b)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getTabIndex():
-    '''public int getTabIndex()
+    '''returns int\n\n
+    getTabIndex()\n
     '''
 def setTabIndex():
-    '''public void setTabIndex(final int i)
+    '''returns None\n\n
+    setTabIndex(final int i)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String s)
+    '''returns None\n\n
+    setValue(final String s)\n
     '''
-def HTMLButtonElementImpl():
-    '''public HTMLButtonElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLButtonElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

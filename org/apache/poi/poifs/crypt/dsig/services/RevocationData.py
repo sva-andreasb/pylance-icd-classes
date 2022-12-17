@@ -1,25 +1,33 @@
-def RevocationData():
-    '''public RevocationData()
+def ():
+    '''returns RevocationData\n\n
+    ()\n
     '''
 def addCRL():
-    '''public void addCRL(final byte[] encodedCrl)
-    public void addCRL(final X509CRL crl)
+    '''returns None\n\n
+    addCRL(final byte[] encodedCrl)\n
+    addCRL(final X509CRL crl)\n
     '''
 def addOCSP():
-    '''public void addOCSP(final byte[] encodedOcsp)
+    '''returns None\n\n
+    addOCSP(final byte[] encodedOcsp)\n
     '''
 def getCRLs():
-    '''public List<byte[]> getCRLs()
+    '''returns List<byte[]>\n\n
+    getCRLs()\n
     '''
 def getOCSPs():
-    '''public List<byte[]> getOCSPs()
+    '''returns List<byte[]>\n\n
+    getOCSPs()\n
     '''
 def hasOCSPs():
-    '''public boolean hasOCSPs()
+    '''returns boolean\n\n
+    hasOCSPs()\n
     '''
 def hasCRLs():
-    '''public boolean hasCRLs()
+    '''returns boolean\n\n
+    hasCRLs()\n
     '''
 def hasRevocationDataEntries():
-    '''public boolean hasRevocationDataEntries()
+    '''returns boolean\n\n
+    hasRevocationDataEntries()\n
     '''

@@ -1,3 +1,4 @@
-def MaxExtBoolValSet():
-    '''public MaxExtBoolValSet(final MboServerInterface ms)
+def ():
+    '''returns MaxExtBoolValSet\n\n
+    (final MboServerInterface ms)\n
     '''

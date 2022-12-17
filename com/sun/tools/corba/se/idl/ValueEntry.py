@@ -1,39 +1,52 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def generate():
-    '''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(final Hashtable hashtable, final PrintWriter printWriter)\n
     '''
 def generator():
-    '''public Generator generator()
+    '''returns Generator\n\n
+    generator()\n
     '''
 def addSupport():
-    '''public void addSupport(final SymtabEntry obj)
+    '''returns None\n\n
+    addSupport(final SymtabEntry obj)\n
     '''
 def supports():
-    '''public Vector supports()
+    '''returns Vector\n\n
+    supports()\n
     '''
 def addSupportName():
-    '''public void addSupportName(final String obj)
+    '''returns None\n\n
+    addSupportName(final String obj)\n
     '''
 def supportsNames():
-    '''public Vector supportsNames()
+    '''returns Vector\n\n
+    supportsNames()\n
     '''
 def replaceForwardDecl():
-    '''public boolean replaceForwardDecl(final ForwardEntry o, final InterfaceEntry obj)
+    '''returns boolean\n\n
+    replaceForwardDecl(final ForwardEntry o, final InterfaceEntry obj)\n
     '''
 def initializers():
-    '''public Vector initializers()
+    '''returns Vector\n\n
+    initializers()\n
     '''
 def tagMethods():
-    '''public void tagMethods()
+    '''returns None\n\n
+    tagMethods()\n
     '''
 def isCustom():
-    '''public boolean isCustom()
+    '''returns boolean\n\n
+    isCustom()\n
     '''
 def setCustom():
-    '''public void setCustom(final boolean custom)
+    '''returns None\n\n
+    setCustom(final boolean custom)\n
     '''
 def isSafe():
-    '''public boolean isSafe()
+    '''returns boolean\n\n
+    isSafe()\n
     '''

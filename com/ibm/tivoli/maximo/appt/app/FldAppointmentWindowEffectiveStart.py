@@ -1,9 +1,12 @@
-def FldAppointmentWindowEffectiveStart():
-    '''public FldAppointmentWindowEffectiveStart(final MboValue mbv)
+def ():
+    '''returns FldAppointmentWindowEffectiveStart\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

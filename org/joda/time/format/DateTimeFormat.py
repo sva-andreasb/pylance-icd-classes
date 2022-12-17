@@ -1,67 +1,29 @@
-def forPattern():
-    '''public static DateTimeFormatter forPattern(final String s)
-    '''
-def forStyle():
-    '''public static DateTimeFormatter forStyle(final String s)
-    '''
-def patternForStyle():
-    '''public static String patternForStyle(final String s, Locale default1)
-    '''
-def shortDate():
-    '''public static DateTimeFormatter shortDate()
-    '''
-def shortTime():
-    '''public static DateTimeFormatter shortTime()
-    '''
-def shortDateTime():
-    '''public static DateTimeFormatter shortDateTime()
-    '''
-def mediumDate():
-    '''public static DateTimeFormatter mediumDate()
-    '''
-def mediumTime():
-    '''public static DateTimeFormatter mediumTime()
-    '''
-def mediumDateTime():
-    '''public static DateTimeFormatter mediumDateTime()
-    '''
-def longDate():
-    '''public static DateTimeFormatter longDate()
-    '''
-def longTime():
-    '''public static DateTimeFormatter longTime()
-    '''
-def longDateTime():
-    '''public static DateTimeFormatter longDateTime()
-    '''
-def fullDate():
-    '''public static DateTimeFormatter fullDate()
-    '''
-def fullTime():
-    '''public static DateTimeFormatter fullTime()
-    '''
-def fullDateTime():
-    '''public static DateTimeFormatter fullDateTime()
-    '''
 def estimatePrintedLength():
-    '''public int estimatePrintedLength()
+    '''returns int\n\n
+    estimatePrintedLength()\n
     '''
 def printTo():
-    '''public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
+    '''returns None\n\n
+    printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)\n
+    printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)\n
     '''
 def estimateParsedLength():
-    '''public int estimateParsedLength()
+    '''returns int\n\n
+    estimateParsedLength()\n
     '''
 def parseInto():
-    '''public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
+    '''returns int\n\n
+    parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)\n
     '''
-def StyleFormatterCacheKey():
-    '''public StyleFormatterCacheKey(final int n, final int n2, final int n3, final Locale locale)
+def ():
+    '''returns StyleFormatterCacheKey\n\n
+    (final int n, final int n2, final int n3, final Locale locale)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

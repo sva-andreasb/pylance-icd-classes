@@ -1,15 +1,20 @@
-def MaxIntErrorInfo():
-    '''public MaxIntErrorInfo(final String messageID, final String status, final String deleteFlag, final int tryCount)
+def ():
+    '''returns MaxIntErrorInfo\n\n
+    (final String messageID, final String status, final String deleteFlag, final int tryCount)\n
     '''
 def getMessageID():
-    '''public String getMessageID()
+    '''returns String\n\n
+    getMessageID()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def getDeleteFlag():
-    '''public String getDeleteFlag()
+    '''returns String\n\n
+    getDeleteFlag()\n
     '''
 def getTryCount():
-    '''public int getTryCount()
+    '''returns int\n\n
+    getTryCount()\n
     '''

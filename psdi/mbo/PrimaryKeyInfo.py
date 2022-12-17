@@ -1,36 +1,45 @@
-def PrimaryKeyInfo():
-    '''public PrimaryKeyInfo()
+def ():
+    '''returns KeyEnumerator\n\n
+    ()\n
+    ()\n
     '''
 def addMboValueInfo():
-    '''public void addMboValueInfo(final MboValueInfo mv)
+    '''returns None\n\n
+    addMboValueInfo(final MboValueInfo mv)\n
     '''
 def getMboValueName():
-    '''public String getMboValueName(final int i)
+    '''returns String\n\n
+    getMboValueName(final int i)\n
     '''
 def getMboValueInfo():
-    '''public MboValueInfo getMboValueInfo(final int i)
+    '''returns MboValueInfo\n\n
+    getMboValueInfo(final int i)\n
     '''
 def getMboValuesInfo():
-    '''public Enumeration getMboValuesInfo()
+    '''returns Enumeration\n\n
+    getMboValuesInfo()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clearKeyColumns():
-    '''public void clearKeyColumns()
+    '''returns None\n\n
+    clearKeyColumns()\n
     '''
 def compare():
-    '''public int compare(final Object first, final Object second)
-    '''
-def KeyEnumerator():
-    '''public KeyEnumerator()
+    '''returns int\n\n
+    compare(final Object first, final Object second)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''

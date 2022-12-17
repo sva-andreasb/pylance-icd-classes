@@ -1,10 +1,12 @@
-def HPSFPropertiesOnlyDocument():
-    '''public HPSFPropertiesOnlyDocument(final NPOIFSFileSystem fs)
-    public HPSFPropertiesOnlyDocument(final OPOIFSFileSystem fs)
-    public HPSFPropertiesOnlyDocument(final POIFSFileSystem fs)
+def ():
+    '''returns HPSFPropertiesOnlyDocument\n\n
+    (final NPOIFSFileSystem fs)\n
+    (final OPOIFSFileSystem fs)\n
+    (final POIFSFileSystem fs)\n
     '''
 def write():
-    '''public void write()
-    public void write(final File newFile)
-    public void write(final OutputStream out)
+    '''returns None\n\n
+    write()\n
+    write(final File newFile)\n
+    write(final OutputStream out)\n
     '''

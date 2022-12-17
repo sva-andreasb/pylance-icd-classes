@@ -1,285 +1,349 @@
-def JDBC4ResultSet():
-    '''public JDBC4ResultSet(final CoreStatement stmt)
+def ():
+    '''returns JDBC4ResultSet\n\n
+    (final CoreStatement stmt)\n
     '''
 def close():
-    '''public void close()
-    '''
-def unwrap():
-    '''public <T> T unwrap(final Class<T> iface)
+    '''returns None\n\n
+    close()\n
     '''
 def isWrapperFor():
-    '''public boolean isWrapperFor(final Class<?> iface)
+    '''returns boolean\n\n
+    isWrapperFor(final Class<?> iface)\n
     '''
 def getRowId():
-    '''public RowId getRowId(final int columnIndex)
-    public RowId getRowId(final String columnLabel)
+    '''returns RowId\n\n
+    getRowId(final int columnIndex)\n
+    getRowId(final String columnLabel)\n
     '''
 def updateRowId():
-    '''public void updateRowId(final int columnIndex, final RowId x)
-    public void updateRowId(final String columnLabel, final RowId x)
+    '''returns None\n\n
+    updateRowId(final int columnIndex, final RowId x)\n
+    updateRowId(final String columnLabel, final RowId x)\n
     '''
 def getHoldability():
-    '''public int getHoldability()
+    '''returns int\n\n
+    getHoldability()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def updateNString():
-    '''public void updateNString(final int columnIndex, final String nString)
-    public void updateNString(final String columnLabel, final String nString)
+    '''returns None\n\n
+    updateNString(final int columnIndex, final String nString)\n
+    updateNString(final String columnLabel, final String nString)\n
     '''
 def updateNClob():
-    '''public void updateNClob(final int columnIndex, final NClob nClob)
-    public void updateNClob(final String columnLabel, final NClob nClob)
-    public void updateNClob(final int columnIndex, final Reader reader, final long length)
-    public void updateNClob(final String columnLabel, final Reader reader, final long length)
-    public void updateNClob(final int columnIndex, final Reader reader)
-    public void updateNClob(final String columnLabel, final Reader reader)
+    '''returns None\n\n
+    updateNClob(final int columnIndex, final NClob nClob)\n
+    updateNClob(final String columnLabel, final NClob nClob)\n
+    updateNClob(final int columnIndex, final Reader reader, final long length)\n
+    updateNClob(final String columnLabel, final Reader reader, final long length)\n
+    updateNClob(final int columnIndex, final Reader reader)\n
+    updateNClob(final String columnLabel, final Reader reader)\n
     '''
 def getNClob():
-    '''public NClob getNClob(final int columnIndex)
-    public NClob getNClob(final String columnLabel)
+    '''returns NClob\n\n
+    getNClob(final int columnIndex)\n
+    getNClob(final String columnLabel)\n
     '''
 def getSQLXML():
-    '''public SQLXML getSQLXML(final int columnIndex)
-    public SQLXML getSQLXML(final String columnLabel)
+    '''returns SQLXML\n\n
+    getSQLXML(final int columnIndex)\n
+    getSQLXML(final String columnLabel)\n
     '''
 def updateSQLXML():
-    '''public void updateSQLXML(final int columnIndex, final SQLXML xmlObject)
-    public void updateSQLXML(final String columnLabel, final SQLXML xmlObject)
+    '''returns None\n\n
+    updateSQLXML(final int columnIndex, final SQLXML xmlObject)\n
+    updateSQLXML(final String columnLabel, final SQLXML xmlObject)\n
     '''
 def getNString():
-    '''public String getNString(final int columnIndex)
-    public String getNString(final String columnLabel)
+    '''returns String\n\n
+    getNString(final int columnIndex)\n
+    getNString(final String columnLabel)\n
     '''
 def getNCharacterStream():
-    '''public Reader getNCharacterStream(final int col)
-    public Reader getNCharacterStream(final String col)
+    '''returns Reader\n\n
+    getNCharacterStream(final int col)\n
+    getNCharacterStream(final String col)\n
     '''
 def updateNCharacterStream():
-    '''public void updateNCharacterStream(final int columnIndex, final Reader x, final long length)
-    public void updateNCharacterStream(final String columnLabel, final Reader reader, final long length)
-    public void updateNCharacterStream(final int columnIndex, final Reader x)
-    public void updateNCharacterStream(final String columnLabel, final Reader reader)
+    '''returns None\n\n
+    updateNCharacterStream(final int columnIndex, final Reader x, final long length)\n
+    updateNCharacterStream(final String columnLabel, final Reader reader, final long length)\n
+    updateNCharacterStream(final int columnIndex, final Reader x)\n
+    updateNCharacterStream(final String columnLabel, final Reader reader)\n
     '''
 def updateAsciiStream():
-    '''public void updateAsciiStream(final int columnIndex, final InputStream x, final long length)
-    public void updateAsciiStream(final String columnLabel, final InputStream x, final long length)
-    public void updateAsciiStream(final int columnIndex, final InputStream x)
-    public void updateAsciiStream(final String columnLabel, final InputStream x)
-    public void updateAsciiStream(final int col, final InputStream x, final int l)
-    public void updateAsciiStream(final String col, final InputStream x, final int l)
+    '''returns None\n\n
+    updateAsciiStream(final int columnIndex, final InputStream x, final long length)\n
+    updateAsciiStream(final String columnLabel, final InputStream x, final long length)\n
+    updateAsciiStream(final int columnIndex, final InputStream x)\n
+    updateAsciiStream(final String columnLabel, final InputStream x)\n
+    updateAsciiStream(final int col, final InputStream x, final int l)\n
+    updateAsciiStream(final String col, final InputStream x, final int l)\n
     '''
 def updateBinaryStream():
-    '''public void updateBinaryStream(final int columnIndex, final InputStream x, final long length)
-    public void updateBinaryStream(final String columnLabel, final InputStream x, final long length)
-    public void updateBinaryStream(final int columnIndex, final InputStream x)
-    public void updateBinaryStream(final String columnLabel, final InputStream x)
-    public void updateBinaryStream(final int c, final InputStream x, final int l)
-    public void updateBinaryStream(final String c, final InputStream x, final int l)
+    '''returns None\n\n
+    updateBinaryStream(final int columnIndex, final InputStream x, final long length)\n
+    updateBinaryStream(final String columnLabel, final InputStream x, final long length)\n
+    updateBinaryStream(final int columnIndex, final InputStream x)\n
+    updateBinaryStream(final String columnLabel, final InputStream x)\n
+    updateBinaryStream(final int c, final InputStream x, final int l)\n
+    updateBinaryStream(final String c, final InputStream x, final int l)\n
     '''
 def updateCharacterStream():
-    '''public void updateCharacterStream(final int columnIndex, final Reader x, final long length)
-    public void updateCharacterStream(final String columnLabel, final Reader reader, final long length)
-    public void updateCharacterStream(final int columnIndex, final Reader x)
-    public void updateCharacterStream(final String columnLabel, final Reader reader)
-    public void updateCharacterStream(final int c, final Reader x, final int l)
-    public void updateCharacterStream(final String c, final Reader r, final int l)
+    '''returns None\n\n
+    updateCharacterStream(final int columnIndex, final Reader x, final long length)\n
+    updateCharacterStream(final String columnLabel, final Reader reader, final long length)\n
+    updateCharacterStream(final int columnIndex, final Reader x)\n
+    updateCharacterStream(final String columnLabel, final Reader reader)\n
+    updateCharacterStream(final int c, final Reader x, final int l)\n
+    updateCharacterStream(final String c, final Reader r, final int l)\n
     '''
 def updateBlob():
-    '''public void updateBlob(final int columnIndex, final InputStream inputStream, final long length)
-    public void updateBlob(final String columnLabel, final InputStream inputStream, final long length)
-    public void updateBlob(final int columnIndex, final InputStream inputStream)
-    public void updateBlob(final String columnLabel, final InputStream inputStream)
-    public void updateBlob(final int col, final Blob x)
-    public void updateBlob(final String col, final Blob x)
+    '''returns None\n\n
+    updateBlob(final int columnIndex, final InputStream inputStream, final long length)\n
+    updateBlob(final String columnLabel, final InputStream inputStream, final long length)\n
+    updateBlob(final int columnIndex, final InputStream inputStream)\n
+    updateBlob(final String columnLabel, final InputStream inputStream)\n
+    updateBlob(final int col, final Blob x)\n
+    updateBlob(final String col, final Blob x)\n
     '''
 def updateClob():
-    '''public void updateClob(final int columnIndex, final Reader reader, final long length)
-    public void updateClob(final String columnLabel, final Reader reader, final long length)
-    public void updateClob(final int columnIndex, final Reader reader)
-    public void updateClob(final String columnLabel, final Reader reader)
-    public void updateClob(final int col, final Clob x)
-    public void updateClob(final String col, final Clob x)
-    '''
-def getObject():
-    '''public <T> T getObject(final int columnIndex, final Class<T> type)
-    public <T> T getObject(final String columnLabel, final Class<T> type)
-    public Object getObject(final int col, final Map map)
-    public Object getObject(final String col, final Map map)
+    '''returns None\n\n
+    updateClob(final int columnIndex, final Reader reader, final long length)\n
+    updateClob(final String columnLabel, final Reader reader, final long length)\n
+    updateClob(final int columnIndex, final Reader reader)\n
+    updateClob(final String columnLabel, final Reader reader)\n
+    updateClob(final int col, final Clob x)\n
+    updateClob(final String col, final Clob x)\n
     '''
 def getArray():
-    '''public Array getArray(final int i)
-    public Array getArray(final String col)
+    '''returns Array\n\n
+    getArray(final int i)\n
+    getArray(final String col)\n
     '''
 def getAsciiStream():
-    '''public InputStream getAsciiStream(final int col)
-    public InputStream getAsciiStream(final String col)
-    public InputStream getAsciiStream()
+    '''returns InputStream\n\n
+    getAsciiStream(final int col)\n
+    getAsciiStream(final String col)\n
+    getAsciiStream()\n
     '''
 def getBigDecimal():
-    '''public BigDecimal getBigDecimal(final int col, final int s)
-    public BigDecimal getBigDecimal(final String col, final int s)
+    '''returns BigDecimal\n\n
+    getBigDecimal(final int col, final int s)\n
+    getBigDecimal(final String col, final int s)\n
     '''
 def getBlob():
-    '''public Blob getBlob(final int col)
-    public Blob getBlob(final String col)
+    '''returns Blob\n\n
+    getBlob(final int col)\n
+    getBlob(final String col)\n
     '''
 def getClob():
-    '''public Clob getClob(final int col)
-    public Clob getClob(final String col)
+    '''returns Clob\n\n
+    getClob(final int col)\n
+    getClob(final String col)\n
+    '''
+def getObject():
+    '''returns Object\n\n
+    getObject(final int col, final Map map)\n
+    getObject(final String col, final Map map)\n
     '''
 def getRef():
-    '''public Ref getRef(final int i)
-    public Ref getRef(final String col)
+    '''returns Ref\n\n
+    getRef(final int i)\n
+    getRef(final String col)\n
     '''
 def getUnicodeStream():
-    '''public InputStream getUnicodeStream(final int col)
-    public InputStream getUnicodeStream(final String col)
+    '''returns InputStream\n\n
+    getUnicodeStream(final int col)\n
+    getUnicodeStream(final String col)\n
     '''
 def getURL():
-    '''public URL getURL(final int col)
-    public URL getURL(final String col)
+    '''returns URL\n\n
+    getURL(final int col)\n
+    getURL(final String col)\n
     '''
 def insertRow():
-    '''public void insertRow()
+    '''returns None\n\n
+    insertRow()\n
     '''
 def moveToCurrentRow():
-    '''public void moveToCurrentRow()
+    '''returns None\n\n
+    moveToCurrentRow()\n
     '''
 def moveToInsertRow():
-    '''public void moveToInsertRow()
+    '''returns None\n\n
+    moveToInsertRow()\n
     '''
 def last():
-    '''public boolean last()
+    '''returns boolean\n\n
+    last()\n
     '''
 def previous():
-    '''public boolean previous()
+    '''returns boolean\n\n
+    previous()\n
     '''
 def relative():
-    '''public boolean relative(final int rows)
+    '''returns boolean\n\n
+    relative(final int rows)\n
     '''
 def absolute():
-    '''public boolean absolute(final int row)
+    '''returns boolean\n\n
+    absolute(final int row)\n
     '''
 def afterLast():
-    '''public void afterLast()
+    '''returns None\n\n
+    afterLast()\n
     '''
 def beforeFirst():
-    '''public void beforeFirst()
+    '''returns None\n\n
+    beforeFirst()\n
     '''
 def first():
-    '''public boolean first()
+    '''returns boolean\n\n
+    first()\n
     '''
 def cancelRowUpdates():
-    '''public void cancelRowUpdates()
+    '''returns None\n\n
+    cancelRowUpdates()\n
     '''
 def deleteRow():
-    '''public void deleteRow()
+    '''returns None\n\n
+    deleteRow()\n
     '''
 def updateArray():
-    '''public void updateArray(final int col, final Array x)
-    public void updateArray(final String col, final Array x)
+    '''returns None\n\n
+    updateArray(final int col, final Array x)\n
+    updateArray(final String col, final Array x)\n
     '''
 def updateBigDecimal():
-    '''public void updateBigDecimal(final int col, final BigDecimal x)
-    public void updateBigDecimal(final String col, final BigDecimal x)
+    '''returns None\n\n
+    updateBigDecimal(final int col, final BigDecimal x)\n
+    updateBigDecimal(final String col, final BigDecimal x)\n
     '''
 def updateBoolean():
-    '''public void updateBoolean(final int col, final boolean x)
-    public void updateBoolean(final String col, final boolean x)
+    '''returns None\n\n
+    updateBoolean(final int col, final boolean x)\n
+    updateBoolean(final String col, final boolean x)\n
     '''
 def updateByte():
-    '''public void updateByte(final int col, final byte x)
-    public void updateByte(final String col, final byte x)
+    '''returns None\n\n
+    updateByte(final int col, final byte x)\n
+    updateByte(final String col, final byte x)\n
     '''
 def updateBytes():
-    '''public void updateBytes(final int col, final byte[] x)
-    public void updateBytes(final String col, final byte[] x)
+    '''returns None\n\n
+    updateBytes(final int col, final byte[] x)\n
+    updateBytes(final String col, final byte[] x)\n
     '''
 def updateDate():
-    '''public void updateDate(final int col, final Date x)
-    public void updateDate(final String col, final Date x)
+    '''returns None\n\n
+    updateDate(final int col, final Date x)\n
+    updateDate(final String col, final Date x)\n
     '''
 def updateDouble():
-    '''public void updateDouble(final int col, final double x)
-    public void updateDouble(final String col, final double x)
+    '''returns None\n\n
+    updateDouble(final int col, final double x)\n
+    updateDouble(final String col, final double x)\n
     '''
 def updateFloat():
-    '''public void updateFloat(final int col, final float x)
-    public void updateFloat(final String col, final float x)
+    '''returns None\n\n
+    updateFloat(final int col, final float x)\n
+    updateFloat(final String col, final float x)\n
     '''
 def updateInt():
-    '''public void updateInt(final int col, final int x)
-    public void updateInt(final String col, final int x)
+    '''returns None\n\n
+    updateInt(final int col, final int x)\n
+    updateInt(final String col, final int x)\n
     '''
 def updateLong():
-    '''public void updateLong(final int col, final long x)
-    public void updateLong(final String col, final long x)
+    '''returns None\n\n
+    updateLong(final int col, final long x)\n
+    updateLong(final String col, final long x)\n
     '''
 def updateNull():
-    '''public void updateNull(final int col)
-    public void updateNull(final String col)
+    '''returns None\n\n
+    updateNull(final int col)\n
+    updateNull(final String col)\n
     '''
 def updateObject():
-    '''public void updateObject(final int c, final Object x)
-    public void updateObject(final int c, final Object x, final int s)
-    public void updateObject(final String col, final Object x)
-    public void updateObject(final String c, final Object x, final int s)
+    '''returns None\n\n
+    updateObject(final int c, final Object x)\n
+    updateObject(final int c, final Object x, final int s)\n
+    updateObject(final String col, final Object x)\n
+    updateObject(final String c, final Object x, final int s)\n
     '''
 def updateRef():
-    '''public void updateRef(final int col, final Ref x)
-    public void updateRef(final String c, final Ref x)
+    '''returns None\n\n
+    updateRef(final int col, final Ref x)\n
+    updateRef(final String c, final Ref x)\n
     '''
 def updateRow():
-    '''public void updateRow()
+    '''returns None\n\n
+    updateRow()\n
     '''
 def updateShort():
-    '''public void updateShort(final int c, final short x)
-    public void updateShort(final String c, final short x)
+    '''returns None\n\n
+    updateShort(final int c, final short x)\n
+    updateShort(final String c, final short x)\n
     '''
 def updateString():
-    '''public void updateString(final int c, final String x)
-    public void updateString(final String c, final String x)
+    '''returns None\n\n
+    updateString(final int c, final String x)\n
+    updateString(final String c, final String x)\n
     '''
 def updateTime():
-    '''public void updateTime(final int c, final Time x)
-    public void updateTime(final String c, final Time x)
+    '''returns None\n\n
+    updateTime(final int c, final Time x)\n
+    updateTime(final String c, final Time x)\n
     '''
 def updateTimestamp():
-    '''public void updateTimestamp(final int c, final Timestamp x)
-    public void updateTimestamp(final String c, final Timestamp x)
+    '''returns None\n\n
+    updateTimestamp(final int c, final Timestamp x)\n
+    updateTimestamp(final String c, final Timestamp x)\n
     '''
 def refreshRow():
-    '''public void refreshRow()
+    '''returns None\n\n
+    refreshRow()\n
     '''
 def free():
-    '''public void free()
+    '''returns None\n\n
+    free()\n
     '''
 def getCharacterStream():
-    '''public Reader getCharacterStream()
-    public Reader getCharacterStream(final long arg0, final long arg1)
+    '''returns Reader\n\n
+    getCharacterStream()\n
+    getCharacterStream(final long arg0, final long arg1)\n
     '''
 def getSubString():
-    '''public String getSubString(final long position, final int length)
+    '''returns String\n\n
+    getSubString(final long position, final int length)\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''
 def position():
-    '''public long position(final String arg0, final long arg1)
-    public long position(final Clob arg0, final long arg1)
+    '''returns long\n\n
+    position(final String arg0, final long arg1)\n
+    position(final Clob arg0, final long arg1)\n
     '''
 def setAsciiStream():
-    '''public OutputStream setAsciiStream(final long arg0)
+    '''returns OutputStream\n\n
+    setAsciiStream(final long arg0)\n
     '''
 def setCharacterStream():
-    '''public Writer setCharacterStream(final long arg0)
+    '''returns Writer\n\n
+    setCharacterStream(final long arg0)\n
     '''
 def setString():
-    '''public int setString(final long arg0, final String arg1)
-    public int setString(final long arg0, final String arg1, final int arg2, final int arg3)
+    '''returns int\n\n
+    setString(final long arg0, final String arg1)\n
+    setString(final long arg0, final String arg1, final int arg2, final int arg3)\n
     '''
 def truncate():
-    '''public void truncate(final long arg0)
+    '''returns None\n\n
+    truncate(final long arg0)\n
     '''

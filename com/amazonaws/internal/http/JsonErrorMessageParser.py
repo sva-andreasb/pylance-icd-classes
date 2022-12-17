@@ -1,6 +1,8 @@
-def JsonErrorMessageParser():
-    '''public JsonErrorMessageParser(final List<String> errorMessageJsonLocations)
+def ():
+    '''returns JsonErrorMessageParser\n\n
+    (final List<String> errorMessageJsonLocations)\n
     '''
 def parseErrorMessage():
-    '''public String parseErrorMessage(final JsonNode jsonNode)
+    '''returns String\n\n
+    parseErrorMessage(final JsonNode jsonNode)\n
     '''

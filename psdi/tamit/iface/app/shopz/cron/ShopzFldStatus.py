@@ -1,6 +1,8 @@
-def ShopzFldStatus():
-    '''public ShopzFldStatus(final MboValue mbv)
+def ():
+    '''returns ShopzFldStatus\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,24 +1,32 @@
-def AbstractPropertyFactory():
-    '''public AbstractPropertyFactory()
+def ():
+    '''returns AbstractPropertyFactory\n\n
+    ()\n
     '''
 def newInstance():
-    '''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''returns Object\n\n
+    newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)\n
     '''
 def setChild():
-    '''public void setChild(final FactoryBuilderSupport build, final Object parent, final Object child)
+    '''returns None\n\n
+    setChild(final FactoryBuilderSupport build, final Object parent, final Object child)\n
     '''
 def getMetaClass():
-    '''public MetaClass getMetaClass()
+    '''returns MetaClass\n\n
+    getMetaClass()\n
     '''
 def setMetaClass():
-    '''public void setMetaClass(final MetaClass metaClass)
+    '''returns None\n\n
+    setMetaClass(final MetaClass metaClass)\n
     '''
 def invokeMethod():
-    '''public Object invokeMethod(final String s, final Object o)
+    '''returns Object\n\n
+    invokeMethod(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''

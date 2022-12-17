@@ -1,3 +1,4 @@
-def LabAmCrewWorkGroupSet():
-    '''public LabAmCrewWorkGroupSet(final MboServerInterface ms)
+def ():
+    '''returns LabAmCrewWorkGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''

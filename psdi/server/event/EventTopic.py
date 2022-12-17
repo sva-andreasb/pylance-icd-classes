@@ -1,78 +1,95 @@
-def EventTopic():
-    '''public EventTopic(final String subject)
+def ():
+    '''returns Subscription\n\n
+    (final String subject)\n
+    (final EventListener eval)\n
     '''
 def setTree():
-    '''public void setTree(final EventTopicTree tree)
+    '''returns None\n\n
+    setTree(final EventTopicTree tree)\n
     '''
 def setExtendedSubIds():
-    '''public void setExtendedSubIds(final Map<Integer, List<Integer>> idMap)
+    '''returns None\n\n
+    setExtendedSubIds(final Map<Integer, List<Integer>> idMap)\n
     '''
 def getExtendedSubIds():
-    '''public Map getExtendedSubIds()
+    '''returns Map\n\n
+    getExtendedSubIds()\n
     '''
 def getTree():
-    '''public EventTopicTree getTree()
+    '''returns EventTopicTree\n\n
+    getTree()\n
     '''
 def getSubject():
-    '''public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
     '''
 def getSubTopicTree():
-    '''public EventTopicTree getSubTopicTree()
+    '''returns EventTopicTree\n\n
+    getSubTopicTree()\n
     '''
 def setActive():
-    '''public void setActive(final boolean value)
+    '''returns None\n\n
+    setActive(final boolean value)\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def eventValidate():
-    '''public void eventValidate(final EventMessage msg)
-    public boolean eventValidate(final EventMessage em)
+    '''returns boolean\n\n
+    eventValidate(final EventMessage msg)\n
+    eventValidate(final EventMessage em)\n
     '''
 def eventAction():
-    '''public void eventAction(final EventMessage msg)
-    public void eventAction(final EventMessage em)
+    '''returns None\n\n
+    eventAction(final EventMessage msg)\n
+    eventAction(final EventMessage em)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final EventMessage msg)
-    public void preSaveEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveEventAction(final EventMessage msg)\n
+    preSaveEventAction(final EventMessage em)\n
     '''
 def preSaveInternalEventAction():
-    '''public void preSaveInternalEventAction(final EventMessage msg)
-    public void preSaveInternalEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveInternalEventAction(final EventMessage msg)\n
+    preSaveInternalEventAction(final EventMessage em)\n
     '''
 def postSaveInternalEventAction():
-    '''public void postSaveInternalEventAction(final EventMessage msg)
-    public void postSaveInternalEventAction(final EventMessage em)
+    '''returns None\n\n
+    postSaveInternalEventAction(final EventMessage msg)\n
+    postSaveInternalEventAction(final EventMessage em)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final EventMessage msg)
-    public void postCommitEventAction(final EventMessage em)
+    '''returns None\n\n
+    postCommitEventAction(final EventMessage msg)\n
+    postCommitEventAction(final EventMessage em)\n
     '''
 def addSubTopic():
-    '''public void addSubTopic(final EventTopic ev)
+    '''returns None\n\n
+    addSubTopic(final EventTopic ev)\n
     '''
 def getEventTopic():
-    '''public EventTopic getEventTopic(String subject)
-    '''
-def getListeners():
-    '''public Map<Integer, EventListener> getListeners()
+    '''returns EventTopic\n\n
+    getEventTopic(String subject)\n
     '''
 def getListenerCount():
-    '''public int getListenerCount()
+    '''returns int\n\n
+    getListenerCount()\n
     '''
 def getSubscriptionId():
-    '''public int getSubscriptionId(final EventListener evt)
+    '''returns int\n\n
+    getSubscriptionId(final EventListener evt)\n
     '''
 def getSubscriptionIdByClassName():
-    '''public int getSubscriptionIdByClassName(final EventListener evt)
+    '''returns int\n\n
+    getSubscriptionIdByClassName(final EventListener evt)\n
     '''
 def dumpTopic():
-    '''public Map dumpTopic()
-    '''
-def Subscription():
-    '''public Subscription(final EventListener eval)
+    '''returns Map\n\n
+    dumpTopic()\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''

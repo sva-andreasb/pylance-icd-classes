@@ -1,6 +1,8 @@
-def GetBooleanAction():
-    '''public GetBooleanAction(final String theProp)
+def ():
+    '''returns GetBooleanAction\n\n
+    (final String theProp)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

@@ -1,102 +1,136 @@
-def Pass3aVerifier():
-    '''public Pass3aVerifier(final Verifier owner, final int method_no)
+def ():
+    '''returns Pass3aVerifier\n\n
+    (final Verifier owner, final int method_no)\n
     '''
 def do_verify():
-    '''public VerificationResult do_verify()
+    '''returns VerificationResult\n\n
+    do_verify()\n
     '''
 def getMethodNo():
-    '''public int getMethodNo()
+    '''returns int\n\n
+    getMethodNo()\n
     '''
 def visitLoadClass():
-    '''public void visitLoadClass(final LoadClass o)
+    '''returns None\n\n
+    visitLoadClass(final LoadClass o)\n
     '''
 def visitLDC():
-    '''public void visitLDC(final LDC o)
+    '''returns None\n\n
+    visitLDC(final LDC o)\n
     '''
 def visitLDC2_W():
-    '''public void visitLDC2_W(final LDC2_W o)
+    '''returns None\n\n
+    visitLDC2_W(final LDC2_W o)\n
     '''
 def visitFieldInstruction():
-    '''public void visitFieldInstruction(final FieldInstruction o)
+    '''returns None\n\n
+    visitFieldInstruction(final FieldInstruction o)\n
     '''
 def visitInvokeInstruction():
-    '''public void visitInvokeInstruction(final InvokeInstruction o)
+    '''returns None\n\n
+    visitInvokeInstruction(final InvokeInstruction o)\n
     '''
 def visitINSTANCEOF():
-    '''public void visitINSTANCEOF(final INSTANCEOF o)
+    '''returns None\n\n
+    visitINSTANCEOF(final INSTANCEOF o)\n
     '''
 def visitCHECKCAST():
-    '''public void visitCHECKCAST(final CHECKCAST o)
+    '''returns None\n\n
+    visitCHECKCAST(final CHECKCAST o)\n
     '''
 def visitNEW():
-    '''public void visitNEW(final NEW o)
+    '''returns None\n\n
+    visitNEW(final NEW o)\n
     '''
 def visitMULTIANEWARRAY():
-    '''public void visitMULTIANEWARRAY(final MULTIANEWARRAY o)
+    '''returns None\n\n
+    visitMULTIANEWARRAY(final MULTIANEWARRAY o)\n
     '''
 def visitANEWARRAY():
-    '''public void visitANEWARRAY(final ANEWARRAY o)
+    '''returns None\n\n
+    visitANEWARRAY(final ANEWARRAY o)\n
     '''
 def visitNEWARRAY():
-    '''public void visitNEWARRAY(final NEWARRAY o)
+    '''returns None\n\n
+    visitNEWARRAY(final NEWARRAY o)\n
     '''
 def visitILOAD():
-    '''public void visitILOAD(final ILOAD o)
+    '''returns None\n\n
+    visitILOAD(final ILOAD o)\n
     '''
 def visitFLOAD():
-    '''public void visitFLOAD(final FLOAD o)
+    '''returns None\n\n
+    visitFLOAD(final FLOAD o)\n
     '''
 def visitALOAD():
-    '''public void visitALOAD(final ALOAD o)
+    '''returns None\n\n
+    visitALOAD(final ALOAD o)\n
     '''
 def visitISTORE():
-    '''public void visitISTORE(final ISTORE o)
+    '''returns None\n\n
+    visitISTORE(final ISTORE o)\n
     '''
 def visitFSTORE():
-    '''public void visitFSTORE(final FSTORE o)
+    '''returns None\n\n
+    visitFSTORE(final FSTORE o)\n
     '''
 def visitASTORE():
-    '''public void visitASTORE(final ASTORE o)
+    '''returns None\n\n
+    visitASTORE(final ASTORE o)\n
     '''
 def visitIINC():
-    '''public void visitIINC(final IINC o)
+    '''returns None\n\n
+    visitIINC(final IINC o)\n
     '''
 def visitRET():
-    '''public void visitRET(final RET o)
+    '''returns None\n\n
+    visitRET(final RET o)\n
     '''
 def visitLLOAD():
-    '''public void visitLLOAD(final LLOAD o)
+    '''returns None\n\n
+    visitLLOAD(final LLOAD o)\n
     '''
 def visitDLOAD():
-    '''public void visitDLOAD(final DLOAD o)
+    '''returns None\n\n
+    visitDLOAD(final DLOAD o)\n
     '''
 def visitLSTORE():
-    '''public void visitLSTORE(final LSTORE o)
+    '''returns None\n\n
+    visitLSTORE(final LSTORE o)\n
     '''
 def visitDSTORE():
-    '''public void visitDSTORE(final DSTORE o)
+    '''returns None\n\n
+    visitDSTORE(final DSTORE o)\n
     '''
 def visitLOOKUPSWITCH():
-    '''public void visitLOOKUPSWITCH(final LOOKUPSWITCH o)
+    '''returns None\n\n
+    visitLOOKUPSWITCH(final LOOKUPSWITCH o)\n
     '''
 def visitTABLESWITCH():
-    '''public void visitTABLESWITCH(final TABLESWITCH o)
+    '''returns None\n\n
+    visitTABLESWITCH(final TABLESWITCH o)\n
     '''
 def visitPUTSTATIC():
-    '''public void visitPUTSTATIC(final PUTSTATIC o)
+    '''returns None\n\n
+    visitPUTSTATIC(final PUTSTATIC o)\n
     '''
 def visitGETSTATIC():
-    '''public void visitGETSTATIC(final GETSTATIC o)
+    '''returns None\n\n
+    visitGETSTATIC(final GETSTATIC o)\n
     '''
 def visitINVOKEINTERFACE():
-    '''public void visitINVOKEINTERFACE(final INVOKEINTERFACE o)
+    '''returns None\n\n
+    visitINVOKEINTERFACE(final INVOKEINTERFACE o)\n
     '''
 def visitINVOKESPECIAL():
-    '''public void visitINVOKESPECIAL(final INVOKESPECIAL o)
+    '''returns None\n\n
+    visitINVOKESPECIAL(final INVOKESPECIAL o)\n
     '''
 def visitINVOKESTATIC():
-    '''public void visitINVOKESTATIC(final INVOKESTATIC o)
+    '''returns None\n\n
+    visitINVOKESTATIC(final INVOKESTATIC o)\n
     '''
 def visitINVOKEVIRTUAL():
-    '''public void visitINVOKEVIRTUAL(final INVOKEVIRTUAL o)
+    '''returns None\n\n
+    visitINVOKEVIRTUAL(final INVOKEVIRTUAL o)\n
     '''

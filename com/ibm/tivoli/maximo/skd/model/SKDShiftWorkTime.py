@@ -1,27 +1,36 @@
-def SKDShiftWorkTime():
-    '''public SKDShiftWorkTime()
+def ():
+    '''returns SKDShiftWorkTime\n\n
+    ()\n
     '''
 def setShiftNum():
-    '''public void setShiftNum(final String name)
+    '''returns None\n\n
+    setShiftNum(final String name)\n
     '''
 def getShiftNum():
-    '''public String getShiftNum()
+    '''returns String\n\n
+    getShiftNum()\n
     '''
 def setShiftDescription():
-    '''public void setShiftDescription(final String desc)
+    '''returns None\n\n
+    setShiftDescription(final String desc)\n
     '''
 def getShiftDescription():
-    '''public String getShiftDescription()
+    '''returns String\n\n
+    getShiftDescription()\n
     '''
 def setWorkingPeriodMap():
-    '''public void setWorkingPeriodMap(final TreeSet<Date> date)
+    '''returns None\n\n
+    setWorkingPeriodMap(final TreeSet<Date> date)\n
     '''
 def getWorkingPeriodMap():
-    '''public TreeSet<Date> getWorkingPeriodMap()
+    '''returns TreeSet<Date>\n\n
+    getWorkingPeriodMap()\n
     '''
 def setFirstNonWorkingPeriod():
-    '''public void setFirstNonWorkingPeriod(final ArrayList<Date> date)
+    '''returns None\n\n
+    setFirstNonWorkingPeriod(final ArrayList<Date> date)\n
     '''
 def getFirstNonWorkingPeriod():
-    '''public ArrayList<Date> getFirstNonWorkingPeriod()
+    '''returns ArrayList<Date>\n\n
+    getFirstNonWorkingPeriod()\n
     '''

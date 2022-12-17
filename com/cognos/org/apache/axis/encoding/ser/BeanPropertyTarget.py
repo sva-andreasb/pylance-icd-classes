@@ -1,7 +1,9 @@
-def BeanPropertyTarget():
-    '''public BeanPropertyTarget(final Object object, final BeanPropertyDescriptor pd)
-    public BeanPropertyTarget(final Object object, final BeanPropertyDescriptor pd, final int i)
+def ():
+    '''returns BeanPropertyTarget\n\n
+    (final Object object, final BeanPropertyDescriptor pd)\n
+    (final Object object, final BeanPropertyDescriptor pd, final int i)\n
     '''
 def set():
-    '''public void set(Object value)
+    '''returns None\n\n
+    set(Object value)\n
     '''

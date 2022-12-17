@@ -1,13 +1,17 @@
-def TemplateInvalidationMessage():
-    '''public TemplateInvalidationMessage()
-    public TemplateInvalidationMessage(final String templateName)
+def ():
+    '''returns TemplateInvalidationMessage\n\n
+    ()\n
+    (final String templateName)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def getTemplateName():
-    '''public String getTemplateName()
+    '''returns String\n\n
+    getTemplateName()\n
     '''

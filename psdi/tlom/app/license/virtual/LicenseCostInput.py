@@ -1,16 +1,21 @@
-def LicenseCostInput():
-    '''public LicenseCostInput(final MboSet ms)
+def ():
+    '''returns LicenseCostInput\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def createCost():
-    '''public void createCost(final MboSetRemote distSet, final LicenseRemote license, final String distType)
-    public void createCost(final LicenseCostSetRemote costSet, final LicenseDistributionRemote dist, final LicenseRemote license, final String externalAllocTypeValue)
+    '''returns None\n\n
+    createCost(final MboSetRemote distSet, final LicenseRemote license, final String distType)\n
+    createCost(final LicenseCostSetRemote costSet, final LicenseDistributionRemote dist, final LicenseRemote license, final String externalAllocTypeValue)\n
     '''
 def createLicenseTrans():
-    '''public void createLicenseTrans(final LicenseRemote license)
+    '''returns None\n\n
+    createLicenseTrans(final LicenseRemote license)\n
     '''
 def validateUserInputs():
-    '''public void validateUserInputs()
+    '''returns None\n\n
+    validateUserInputs()\n
     '''

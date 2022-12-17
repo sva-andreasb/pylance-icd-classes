@@ -1,3 +1,4 @@
-def WOAreasAffectedSet():
-    '''public WOAreasAffectedSet(final MboServerInterface ms)
+def ():
+    '''returns WOAreasAffectedSet\n\n
+    (final MboServerInterface ms)\n
     '''

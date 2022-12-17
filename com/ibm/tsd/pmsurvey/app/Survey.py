@@ -1,58 +1,77 @@
-def Survey():
-    '''public Survey(final MboSet ms)
+def ():
+    '''returns Survey\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setSurveyURLValue():
-    '''public void setSurveyURLValue()
+    '''returns None\n\n
+    setSurveyURLValue()\n
     '''
 def processEscalation():
-    '''public boolean processEscalation(final int row)
+    '''returns boolean\n\n
+    processEscalation(final int row)\n
     '''
 def addQuestionToSurvey():
-    '''public void addQuestionToSurvey(final QuestionSetRemote questionset)
+    '''returns None\n\n
+    addQuestionToSurvey(final QuestionSetRemote questionset)\n
     '''
 def updateSurveyRequest():
-    '''public void updateSurveyRequest(final MboRemote commLog)
-    public void updateSurveyRequest(final String email, final String subject, final String message)
+    '''returns None\n\n
+    updateSurveyRequest(final MboRemote commLog)\n
+    updateSurveyRequest(final String email, final String subject, final String message)\n
     '''
 def updateSurveyRequestInClosedStatus():
-    '''public void updateSurveyRequestInClosedStatus()
+    '''returns None\n\n
+    updateSurveyRequestInClosedStatus()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def setClosedDate():
-    '''public void setClosedDate()
+    '''returns None\n\n
+    setClosedDate()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status)
+    '''returns None\n\n
+    changeStatus(final String status)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def isActiveOrClosed():
-    '''public boolean isActiveOrClosed()
+    '''returns boolean\n\n
+    isActiveOrClosed()\n
     '''
 def isActiveOrClosedStatus():
-    '''public boolean isActiveOrClosedStatus(String status)
+    '''returns boolean\n\n
+    isActiveOrClosedStatus(String status)\n
     '''
 def isDraftOrClosedStatus():
-    '''public boolean isDraftOrClosedStatus(String status)
+    '''returns boolean\n\n
+    isDraftOrClosedStatus(String status)\n
     '''
 def isClosedStatus():
-    '''public boolean isClosedStatus(String status)
+    '''returns boolean\n\n
+    isClosedStatus(String status)\n
     '''
 def enableFields():
-    '''public void enableFields(final boolean enable)
+    '''returns None\n\n
+    enableFields(final boolean enable)\n
     '''

@@ -1,17 +1,18 @@
-def LDAPDITStructureRuleSchema():
-    '''public LDAPDITStructureRuleSchema()
-    public LDAPDITStructureRuleSchema(final String[] array, final int ruleID, final String description, final boolean obsolete, final String nameForm, final String[] superiorIDs)
-    public LDAPDITStructureRuleSchema(final String s)
+def ():
+    '''returns LDAPDITStructureRuleSchema\n\n
+    ()\n
+    (final String[] array, final int ruleID, final String description, final boolean obsolete, final String nameForm, final String[] superiorIDs)\n
+    (final String s)\n
     '''
 def getRuleID():
-    '''public int getRuleID()
+    '''returns int\n\n
+    getRuleID()\n
     '''
 def getNameForm():
-    '''public String getNameForm()
+    '''returns String\n\n
+    getNameForm()\n
     '''
 def getSuperiors():
-    '''public String[] getSuperiors()
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns String[]\n\n
+    getSuperiors()\n
     '''

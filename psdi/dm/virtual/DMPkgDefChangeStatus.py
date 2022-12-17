@@ -1,6 +1,8 @@
-def DMPkgDefChangeStatus():
-    '''public DMPkgDefChangeStatus(final MboSet ms)
+def ():
+    '''returns DMPkgDefChangeStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

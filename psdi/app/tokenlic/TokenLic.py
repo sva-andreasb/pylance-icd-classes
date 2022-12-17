@@ -1,3 +1,4 @@
-def TokenLic():
-    '''public TokenLic(final MboSet ms)
+def ():
+    '''returns TokenLic\n\n
+    (final MboSet ms)\n
     '''

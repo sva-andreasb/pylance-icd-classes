@@ -1,52 +1,69 @@
-def IlvActivityCompositeRenderer():
-    '''public IlvActivityCompositeRenderer()
+def ():
+    '''returns IlvActivityCompositeRenderer\n\n
+    ()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getRenderer():
-    '''public IlvActivityRenderer getRenderer(final int n)
+    '''returns IlvActivityRenderer\n\n
+    getRenderer(final int n)\n
     '''
 def addRenderer():
-    '''public void addRenderer(final IlvActivityRenderer ilvActivityRenderer)
+    '''returns None\n\n
+    addRenderer(final IlvActivityRenderer ilvActivityRenderer)\n
     '''
 def insertRendererAt():
-    '''public void insertRendererAt(final IlvActivityRenderer ilvActivityRenderer, final int n)
+    '''returns None\n\n
+    insertRendererAt(final IlvActivityRenderer ilvActivityRenderer, final int n)\n
     '''
 def setRenderer():
-    '''public void setRenderer(final int n, final IlvActivityRenderer ilvActivityRenderer)
+    '''returns None\n\n
+    setRenderer(final int n, final IlvActivityRenderer ilvActivityRenderer)\n
     '''
 def getBounds():
-    '''public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''
 def contains():
-    '''public boolean contains(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    contains(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''
 def isRelayoutNeeded():
-    '''public boolean isRelayoutNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)
+    '''returns boolean\n\n
+    isRelayoutNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)\n
     '''
 def isRedrawNeeded():
-    '''public boolean isRedrawNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)
-    public boolean isRedrawNeeded(final ActivityEvent activityEvent)
+    '''returns boolean\n\n
+    isRedrawNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)\n
+    isRedrawNeeded(final ActivityEvent activityEvent)\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection(final IlvActivityGraphic ilvActivityGraphic)
+    '''returns IlvSelection\n\n
+    makeSelection(final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def createSelection():
-    '''public IlvSelection createSelection(final IlvActivityGraphic ilvActivityGraphic, final String[] array)
+    '''returns IlvSelection\n\n
+    createSelection(final IlvActivityGraphic ilvActivityGraphic, final String[] array)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)
+    '''returns JPopupMenu\n\n
+    getPopupMenu(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)\n
     '''
 def setPopupMenuName():
-    '''public void setPopupMenuName(final String b)
+    '''returns None\n\n
+    setPopupMenuName(final String b)\n
     '''
 def getPopupMenuName():
-    '''public String getPopupMenuName()
+    '''returns String\n\n
+    getPopupMenuName()\n
     '''

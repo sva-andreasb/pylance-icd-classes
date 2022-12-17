@@ -1,12 +1,12 @@
-def main():
-    '''public static void main(final String... args)
-    '''
-def sdbtuple():
-    '''public sdbtuple(final String... argv)
+def ():
+    '''returns sdbtuple\n\n
+    (final String... argv)\n
     '''
 def registerWith():
-    '''public void registerWith(final CmdGeneral cmdLine)
+    '''returns None\n\n
+    registerWith(final CmdGeneral cmdLine)\n
     '''
 def processArgs():
-    '''public void processArgs(final CmdArgModule cmdLine)
+    '''returns None\n\n
+    processArgs(final CmdArgModule cmdLine)\n
     '''

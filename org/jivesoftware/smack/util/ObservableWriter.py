@@ -1,22 +1,28 @@
-def ObservableWriter():
-    '''public ObservableWriter(final Writer wrappedWriter)
+def ():
+    '''returns ObservableWriter\n\n
+    (final Writer wrappedWriter)\n
     '''
 def write():
-    '''public void write(final char[] cbuf, final int off, final int len)
-    public void write(final int c)
-    public void write(final char[] cbuf)
-    public void write(final String str)
-    public void write(String str, final int off, final int len)
+    '''returns None\n\n
+    write(final char[] cbuf, final int off, final int len)\n
+    write(final int c)\n
+    write(final char[] cbuf)\n
+    write(final String str)\n
+    write(String str, final int off, final int len)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def addWriterListener():
-    '''public void addWriterListener(final WriterListener writerListener)
+    '''returns None\n\n
+    addWriterListener(final WriterListener writerListener)\n
     '''
 def removeWriterListener():
-    '''public void removeWriterListener(final WriterListener writerListener)
+    '''returns None\n\n
+    removeWriterListener(final WriterListener writerListener)\n
     '''

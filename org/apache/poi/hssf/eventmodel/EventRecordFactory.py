@@ -1,6 +1,8 @@
-def EventRecordFactory():
-    '''public EventRecordFactory(final ERFListener listener, final short[] sids)
+def ():
+    '''returns EventRecordFactory\n\n
+    (final ERFListener listener, final short[] sids)\n
     '''
 def processRecords():
-    '''public void processRecords(final InputStream in)
+    '''returns None\n\n
+    processRecords(final InputStream in)\n
     '''

@@ -1,25 +1,33 @@
-def FieldBracketingNthOrderBrentSolver():
-    '''public FieldBracketingNthOrderBrentSolver(final T relativeAccuracy, final T absoluteAccuracy, final T functionValueAccuracy, final int maximalOrder)
+def ():
+    '''returns FieldBracketingNthOrderBrentSolver\n\n
+    (final T relativeAccuracy, final T absoluteAccuracy, final T functionValueAccuracy, final int maximalOrder)\n
     '''
 def getMaximalOrder():
-    '''public int getMaximalOrder()
+    '''returns int\n\n
+    getMaximalOrder()\n
     '''
 def getMaxEvaluations():
-    '''public int getMaxEvaluations()
+    '''returns int\n\n
+    getMaxEvaluations()\n
     '''
 def getEvaluations():
-    '''public int getEvaluations()
+    '''returns int\n\n
+    getEvaluations()\n
     '''
 def getAbsoluteAccuracy():
-    '''public T getAbsoluteAccuracy()
+    '''returns T\n\n
+    getAbsoluteAccuracy()\n
     '''
 def getRelativeAccuracy():
-    '''public T getRelativeAccuracy()
+    '''returns T\n\n
+    getRelativeAccuracy()\n
     '''
 def getFunctionValueAccuracy():
-    '''public T getFunctionValueAccuracy()
+    '''returns T\n\n
+    getFunctionValueAccuracy()\n
     '''
 def solve():
-    '''public T solve(final int maxEval, final RealFieldUnivariateFunction<T> f, final T min, final T max, final AllowedSolution allowedSolution)
-    public T solve(final int maxEval, final RealFieldUnivariateFunction<T> f, final T min, final T max, final T startValue, final AllowedSolution allowedSolution)
+    '''returns T\n\n
+    solve(final int maxEval, final RealFieldUnivariateFunction<T> f, final T min, final T max, final AllowedSolution allowedSolution)\n
+    solve(final int maxEval, final RealFieldUnivariateFunction<T> f, final T min, final T max, final T startValue, final AllowedSolution allowedSolution)\n
     '''

@@ -1,16 +1,17 @@
-def setLog():
-    '''public static void setLog(final Log _log)
-    '''
-def DiscoverResources():
-    '''public DiscoverResources()
-    public DiscoverResources(final ClassLoaders classLoaders)
+def ():
+    '''returns DiscoverResources\n\n
+    ()\n
+    (final ClassLoaders classLoaders)\n
     '''
 def findResources():
-    '''public ResourceIterator findResources(final String resourceName)
+    '''returns ResourceIterator\n\n
+    findResources(final String resourceName)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def nextResource():
-    '''public Resource nextResource()
+    '''returns Resource\n\n
+    nextResource()\n
     '''

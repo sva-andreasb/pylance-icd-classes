@@ -8,24 +8,23 @@ HANGUL = "int  6"
 EMOJI = "int  7"
 MAX_TOKEN_LENGTH_LIMIT = "int  1048576"
 def setMaxTokenLength():
-    '''public void setMaxTokenLength(final int length)
+    '''returns None\n\n
+    setMaxTokenLength(final int length)\n
     '''
 def getMaxTokenLength():
-    '''public int getMaxTokenLength()
+    '''returns int\n\n
+    getMaxTokenLength()\n
     '''
-def StandardTokenizer():
-    '''public StandardTokenizer()
-    public StandardTokenizer(final AttributeFactory factory)
-    '''
-def incrementToken():
-    '''public final boolean incrementToken()
-    '''
-def end():
-    '''public final void end()
+def ():
+    '''returns StandardTokenizer\n\n
+    ()\n
+    (final AttributeFactory factory)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

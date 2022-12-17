@@ -1,9 +1,8 @@
-def createPart():
-    '''public static Part createPart(final LifecycleManager manager, final MIMEBodyPartInputStream in, final boolean isSOAPPart, int thresholdSize, final String attachmentDir, final int messageContentLength)
-    '''
-def BAOS():
-    '''public BAOS()
+def ():
+    '''returns BAOS\n\n
+    ()\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray()
+    '''returns byte[]\n\n
+    toByteArray()\n
     '''

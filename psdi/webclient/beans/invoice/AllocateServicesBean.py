@@ -1,9 +1,8 @@
 def allocate():
-    '''public int allocate()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    allocate()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

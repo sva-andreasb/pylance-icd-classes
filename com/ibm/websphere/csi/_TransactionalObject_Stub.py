@@ -1,3 +1,4 @@
 def _ids():
-    '''public String[] _ids()
+    '''returns String[]\n\n
+    _ids()\n
     '''

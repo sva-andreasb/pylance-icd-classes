@@ -1,4 +1,5 @@
-def ByteArrayHolder():
-    '''public ByteArrayHolder()
-    public ByteArrayHolder(final byte[] value)
+def ():
+    '''returns ByteArrayHolder\n\n
+    ()\n
+    (final byte[] mybyteArray)\n
     '''

@@ -8,318 +8,377 @@ PDF = "String  \"\u202c\""
 LRM = "String  \"\u200e\""
 RLM = "String  \"\u200f\""
 def getApplet():
-    '''public SKDViewerApplet getApplet()
+    '''returns SKDViewerApplet\n\n
+    getApplet()\n
     '''
 def setApplet():
-    '''public void setApplet(final SKDViewerApplet applet)
+    '''returns None\n\n
+    setApplet(final SKDViewerApplet applet)\n
     '''
 def setDefaultscenario():
-    '''public void setDefaultscenario(final boolean defaultscenario)
+    '''returns None\n\n
+    setDefaultscenario(final boolean defaultscenario)\n
     '''
 def getDefaultscenario():
-    '''public boolean getDefaultscenario()
+    '''returns boolean\n\n
+    getDefaultscenario()\n
     '''
 def setSnapshot():
-    '''public void setSnapshot(final boolean snapshot)
+    '''returns None\n\n
+    setSnapshot(final boolean snapshot)\n
     '''
 def getSnapshot():
-    '''public boolean getSnapshot()
+    '''returns boolean\n\n
+    getSnapshot()\n
     '''
 def setDailyView():
-    '''public void setDailyView(final boolean dailyview)
+    '''returns None\n\n
+    setDailyView(final boolean dailyview)\n
     '''
 def getDailyView():
-    '''public boolean getDailyView()
+    '''returns boolean\n\n
+    getDailyView()\n
     '''
 def getMessages():
-    '''public SKDAppletMessages getMessages()
+    '''returns SKDAppletMessages\n\n
+    getMessages()\n
     '''
 def getGanttConfigInfo():
-    '''public IGanttConfigInfo getGanttConfigInfo()
+    '''returns IGanttConfigInfo\n\n
+    getGanttConfigInfo()\n
     '''
 def setGanttConfigInfo():
-    '''public void setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)
+    '''returns None\n\n
+    setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)\n
     '''
 def setSkdActionInfo():
-    '''public void setSkdActionInfo(final HashMap<String, HashMap<String, SKDActionInfo>> info)
-    '''
-def getSkdActionInfo():
-    '''public HashMap<String, HashMap<String, SKDActionInfo>> getSkdActionInfo()
+    '''returns None\n\n
+    setSkdActionInfo(final HashMap<String, HashMap<String, SKDActionInfo>> info)\n
     '''
 def setSkdActionUidInfo():
-    '''public void setSkdActionUidInfo(final HashMap<Long, SKDActionInfo> info)
-    '''
-def getSkdActionUidInfo():
-    '''public HashMap<Long, SKDActionInfo> getSkdActionUidInfo()
+    '''returns None\n\n
+    setSkdActionUidInfo(final HashMap<Long, SKDActionInfo> info)\n
     '''
 def getSKDFormat():
-    '''public SKDFormat getSKDFormat()
+    '''returns SKDFormat\n\n
+    getSKDFormat()\n
     '''
 def setDateFormat():
-    '''public void setDateFormat(final DateFormat dateFormat)
+    '''returns None\n\n
+    setDateFormat(final DateFormat dateFormat)\n
     '''
 def getUserLocale():
-    '''public Locale getUserLocale()
+    '''returns Locale\n\n
+    getUserLocale()\n
     '''
 def getUserTimeZone():
-    '''public TimeZone getUserTimeZone()
+    '''returns TimeZone\n\n
+    getUserTimeZone()\n
     '''
 def getServerTimeZone():
-    '''public TimeZone getServerTimeZone()
+    '''returns TimeZone\n\n
+    getServerTimeZone()\n
     '''
-def getSKDUtility():
-    '''public static synchronized SKDUtility getSKDUtility()
-    '''
-def reset():
-    '''public static synchronized void reset()
-    '''
-def SKDUtility():
-    '''public SKDUtility()
+def ():
+    '''returns SKDUtility\n\n
+    ()\n
     '''
 def isDebugMode():
-    '''public boolean isDebugMode()
+    '''returns boolean\n\n
+    isDebugMode()\n
     '''
 def setDebugMode():
-    '''public void setDebugMode(final boolean debugMode)
+    '''returns None\n\n
+    setDebugMode(final boolean debugMode)\n
     '''
 def logMessage():
-    '''public void logMessage(final String message, final Throwable t)
+    '''returns None\n\n
+    logMessage(final String message, final Throwable t)\n
     '''
 def logDebugMessage():
-    '''public void logDebugMessage(final Object o)
-    public void logDebugMessage(final String message, final Throwable t)
+    '''returns None\n\n
+    logDebugMessage(final Object o)\n
+    logDebugMessage(final String message, final Throwable t)\n
     '''
 def sendEventAsync():
-    '''public void sendEventAsync(final String event)
-    public void sendEventAsync(final String event, final Hashtable<String, String> values)
-    public void sendEventAsync(final String event, final String target, final Hashtable<String, String> values)
+    '''returns None\n\n
+    sendEventAsync(final String event)\n
+    sendEventAsync(final String event, final Hashtable<String, String> values)\n
+    sendEventAsync(final String event, final String target, final Hashtable<String, String> values)\n
     '''
 def sendEvent():
-    '''public void sendEvent(final String event)
-    public void sendEvent(final String event, final Hashtable<String, String> values)
-    public void sendEvent(final String event, final String target, final Hashtable<String, String> values)
+    '''returns None\n\n
+    sendEvent(final String event)\n
+    sendEvent(final String event, final Hashtable<String, String> values)\n
+    sendEvent(final String event, final String target, final Hashtable<String, String> values)\n
     '''
 def evalJSResult():
-    '''public Object evalJSResult(final JApplet applet, final String cmdString)
+    '''returns Object\n\n
+    evalJSResult(final JApplet applet, final String cmdString)\n
     '''
 def isFirefox():
-    '''public boolean isFirefox(final JApplet applet)
+    '''returns boolean\n\n
+    isFirefox(final JApplet applet)\n
     '''
 def callJavascriptEval():
-    '''public void callJavascriptEval(final String eval)
+    '''returns None\n\n
+    callJavascriptEval(final String eval)\n
     '''
 def run():
-    '''public void run()
-    public Void run()
+    '''returns Void\n\n
+    run()\n
+    run()\n
     '''
 def getMessage():
-    '''public String getMessage(final String msgkey)
+    '''returns String\n\n
+    getMessage(final String msgkey)\n
     '''
 def getSKDUserLocaleData():
-    '''public SKDUserLocaleData getSKDUserLocaleData()
+    '''returns SKDUserLocaleData\n\n
+    getSKDUserLocaleData()\n
     '''
 def getMessageWithPrefix():
-    '''public String getMessageWithPrefix(final String msgkey)
+    '''returns String\n\n
+    getMessageWithPrefix(final String msgkey)\n
     '''
 def setSKDUserLocaleData():
-    '''public void setSKDUserLocaleData()
+    '''returns None\n\n
+    setSKDUserLocaleData()\n
     '''
 def getResourceString():
-    '''public String getResourceString(final String key)
+    '''returns String\n\n
+    getResourceString(final String key)\n
     '''
 def getResourceStrings():
-    '''public Hashtable getResourceStrings()
+    '''returns Hashtable\n\n
+    getResourceStrings()\n
     '''
 def getDateFormat():
-    '''public DateFormat getDateFormat(final int propDataType)
+    '''returns DateFormat\n\n
+    getDateFormat(final int propDataType)\n
     '''
 def getAppletName():
-    '''public String getAppletName()
+    '''returns String\n\n
+    getAppletName()\n
     '''
 def getConstraintType():
-    '''public IlvConstraintType getConstraintType(final String num)
+    '''returns IlvConstraintType\n\n
+    getConstraintType(final String num)\n
     '''
 def getConstraintTypeInt():
-    '''public Integer getConstraintTypeInt(final IlvConstraintType type)
+    '''returns Integer\n\n
+    getConstraintTypeInt(final IlvConstraintType type)\n
     '''
 def getViewerProperty():
-    '''public String getViewerProperty(final String prop, final String defaultValue)
+    '''returns String\n\n
+    getViewerProperty(final String prop, final String defaultValue)\n
     '''
 def setViewerProperty():
-    '''public void setViewerProperty(final String key, final String value)
+    '''returns None\n\n
+    setViewerProperty(final String key, final String value)\n
     '''
 def decodeColor():
-    '''public Color decodeColor(final String hexValue)
+    '''returns Color\n\n
+    decodeColor(final String hexValue)\n
     '''
 def getStatusColors():
-    '''public Color[] getStatusColors(String status, String groupname)
+    '''returns Color[]\n\n
+    getStatusColors(String status, String groupname)\n
     '''
 def canShowCurrentTimeIndicatorOnDrag():
-    '''public boolean canShowCurrentTimeIndicatorOnDrag()
+    '''returns boolean\n\n
+    canShowCurrentTimeIndicatorOnDrag()\n
     '''
 def getSnapToGridIntervalMins():
-    '''public int getSnapToGridIntervalMins()
+    '''returns int\n\n
+    getSnapToGridIntervalMins()\n
     '''
 def getDefaultRowHeight():
-    '''public int getDefaultRowHeight()
+    '''returns int\n\n
+    getDefaultRowHeight()\n
     '''
 def getPriorityColors():
-    '''public Color[] getPriorityColors(String priority, String groupname)
+    '''returns Color[]\n\n
+    getPriorityColors(String priority, String groupname)\n
     '''
 def usingStatusColors():
-    '''public boolean usingStatusColors()
+    '''returns boolean\n\n
+    usingStatusColors()\n
     '''
 def hidingYAxis():
-    '''public boolean hidingYAxis()
+    '''returns boolean\n\n
+    hidingYAxis()\n
     '''
 def hidingLegend():
-    '''public boolean hidingLegend()
+    '''returns boolean\n\n
+    hidingLegend()\n
     '''
 def IlvDurationToDouble():
-    '''public double IlvDurationToDouble(final IlvDuration lv)
+    '''returns double\n\n
+    IlvDurationToDouble(final IlvDuration lv)\n
     '''
 def enforceOrientation():
-    '''public void enforceOrientation(final JComponent comp)
+    '''returns None\n\n
+    enforceOrientation(final JComponent comp)\n
     '''
 def enforceBIDIColumnLayout():
-    '''public void enforceBIDIColumnLayout(final JTable table)
+    '''returns None\n\n
+    enforceBIDIColumnLayout(final JTable table)\n
     '''
 def isGUIMirrored():
-    '''public boolean isGUIMirrored()
+    '''returns boolean\n\n
+    isGUIMirrored()\n
     '''
 def enforceBidiDirection():
-    '''public String enforceBidiDirection(String str, final String bidiDirection)
-    '''
-def removeMarkersForApplink():
-    '''public static String removeMarkersForApplink(final String str)
+    '''returns String\n\n
+    enforceBidiDirection(String str, final String bidiDirection)\n
     '''
 def setGUIMirrored():
-    '''public void setGUIMirrored(final String langcode)
+    '''returns None\n\n
+    setGUIMirrored(final String langcode)\n
     '''
 def isBIDIEnabled():
-    '''public boolean isBIDIEnabled()
+    '''returns boolean\n\n
+    isBIDIEnabled()\n
     '''
 def setBIDIEnabled():
-    '''public void setBIDIEnabled(final String value)
-    '''
-def replaceString():
-    '''public static String replaceString(String str, final String pattern, final String replacement)
+    '''returns None\n\n
+    setBIDIEnabled(final String value)\n
     '''
 def makeTooltipStringBasedOnDirection():
-    '''public String makeTooltipStringBasedOnDirection(final String direction, final String value, final String property)
-    public String makeTooltipStringBasedOnDirection(final String direction, final String value)
-    '''
-def removeMarkers():
-    '''public static String removeMarkers(final String str)
-    '''
-def isBiDiString():
-    '''public static boolean isBiDiString(final String str)
+    '''returns String\n\n
+    makeTooltipStringBasedOnDirection(final String direction, final String value, final String property)\n
+    makeTooltipStringBasedOnDirection(final String direction, final String value)\n
     '''
 def fireEscapeKeyDown():
-    '''public void fireEscapeKeyDown()
+    '''returns None\n\n
+    fireEscapeKeyDown()\n
     '''
 def todaysDate():
-    '''public Date todaysDate()
+    '''returns Date\n\n
+    todaysDate()\n
     '''
 def getServerDate():
-    '''public Date getServerDate(Date oldDate)
+    '''returns Date\n\n
+    getServerDate(Date oldDate)\n
     '''
 def getServerDateForUser():
-    '''public Date getServerDateForUser(Date serverDate)
+    '''returns Date\n\n
+    getServerDateForUser(Date serverDate)\n
     '''
 def getDate():
-    '''public Date getDate(final Locale l, final TimeZone tz, final Date date)
+    '''returns Date\n\n
+    getDate(final Locale l, final TimeZone tz, final Date date)\n
     '''
 def getFixedTimeIndicatorFromGSheet():
-    '''public IlvFixedTimeIndicator getFixedTimeIndicatorFromGSheet(final IlvGanttSheet gsheet)
+    '''returns IlvFixedTimeIndicator\n\n
+    getFixedTimeIndicatorFromGSheet(final IlvGanttSheet gsheet)\n
     '''
 def areServerAndUserTZDifferent():
-    '''public boolean areServerAndUserTZDifferent()
+    '''returns boolean\n\n
+    areServerAndUserTZDifferent()\n
     '''
 def removeTimeIndicator():
-    '''public void removeTimeIndicator(final IlvGanttSheet gSheet)
+    '''returns None\n\n
+    removeTimeIndicator(final IlvGanttSheet gSheet)\n
     '''
 def refreshActivityTable():
-    '''public void refreshActivityTable()
+    '''returns None\n\n
+    refreshActivityTable()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def isAssignmentManager():
-    '''public boolean isAssignmentManager()
+    '''returns boolean\n\n
+    isAssignmentManager()\n
     '''
 def setupSnapToGrid():
-    '''public void setupSnapToGrid(final IlvGanttSheet ganttSheet)
+    '''returns None\n\n
+    setupSnapToGrid(final IlvGanttSheet ganttSheet)\n
     '''
 def keyPressed():
-    '''public void keyPressed(final KeyEvent e)
+    '''returns None\n\n
+    keyPressed(final KeyEvent e)\n
     '''
 def keyReleased():
-    '''public void keyReleased(final KeyEvent e)
+    '''returns None\n\n
+    keyReleased(final KeyEvent e)\n
     '''
 def getToolTipPropertyMaxWidth():
-    '''public int getToolTipPropertyMaxWidth()
+    '''returns int\n\n
+    getToolTipPropertyMaxWidth()\n
     '''
 def getModifiedLabelColorString():
-    '''public String getModifiedLabelColorString()
+    '''returns String\n\n
+    getModifiedLabelColorString()\n
     '''
 def getModifiedLabelPrefix():
-    '''public String getModifiedLabelPrefix()
+    '''returns String\n\n
+    getModifiedLabelPrefix()\n
     '''
 def isComplianceEnabled():
-    '''public boolean isComplianceEnabled()
+    '''returns boolean\n\n
+    isComplianceEnabled()\n
     '''
 def setComplianceEnabled():
-    '''public void setComplianceEnabled(final boolean complianceEnabled)
+    '''returns None\n\n
+    setComplianceEnabled(final boolean complianceEnabled)\n
     '''
 def needSendModelChange():
-    '''public boolean needSendModelChange()
+    '''returns boolean\n\n
+    needSendModelChange()\n
     '''
 def setSendModelchange():
-    '''public void setSendModelchange(final boolean sendModelchange)
+    '''returns None\n\n
+    setSendModelchange(final boolean sendModelchange)\n
     '''
 def sendToBeSaved():
-    '''public boolean sendToBeSaved()
+    '''returns boolean\n\n
+    sendToBeSaved()\n
     '''
 def setToBeSaved():
-    '''public void setToBeSaved(final boolean sendtobesaved)
+    '''returns None\n\n
+    setToBeSaved(final boolean sendtobesaved)\n
     '''
 def getColorProperty():
-    '''public Color getColorProperty(final String propName, Color defaultColor)
+    '''returns Color\n\n
+    getColorProperty(final String propName, Color defaultColor)\n
     '''
 def isUsingCompressedData():
-    '''public boolean isUsingCompressedData()
-    '''
-def getLegendColors():
-    '''public static IlvStyle[] getLegendColors()
-    '''
-def getLegendColorsforResourceHourView():
-    '''public static IlvStyle[] getLegendColorsforResourceHourView()
+    '''returns boolean\n\n
+    isUsingCompressedData()\n
     '''
 def getBooleanProperty():
-    '''public boolean getBooleanProperty(final String propName, final boolean defVal)
+    '''returns boolean\n\n
+    getBooleanProperty(final String propName, final boolean defVal)\n
     '''
 def getLongProperty():
-    '''public long getLongProperty(final String propName, final long defVal)
+    '''returns long\n\n
+    getLongProperty(final String propName, final long defVal)\n
     '''
 def getIntProperty():
-    '''public int getIntProperty(final String propName, final int defVal)
+    '''returns int\n\n
+    getIntProperty(final String propName, final int defVal)\n
     '''
 def setUserOverrideProperties():
-    '''public void setUserOverrideProperties(final Properties props)
-    '''
-def isEmpty():
-    '''public static boolean isEmpty(final String text)
+    '''returns None\n\n
+    setUserOverrideProperties(final Properties props)\n
     '''
 def enableHttpOnlyWorkaroundIfNeeded():
-    '''public void enableHttpOnlyWorkaroundIfNeeded(final JApplet applet)
+    '''returns None\n\n
+    enableHttpOnlyWorkaroundIfNeeded(final JApplet applet)\n
     '''
 def setDefaultUserTimeZone():
-    '''public boolean setDefaultUserTimeZone(final String userTimeZoneId)
+    '''returns boolean\n\n
+    setDefaultUserTimeZone(final String userTimeZoneId)\n
     '''
 def getReservationLiveUpdateThreshold():
-    '''public long getReservationLiveUpdateThreshold()
+    '''returns long\n\n
+    getReservationLiveUpdateThreshold()\n
     '''
 def hideDurationCheckEnabled():
-    '''public boolean hideDurationCheckEnabled()
+    '''returns boolean\n\n
+    hideDurationCheckEnabled()\n
     '''

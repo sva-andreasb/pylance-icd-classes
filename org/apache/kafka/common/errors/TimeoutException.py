@@ -1,6 +1,7 @@
-def TimeoutException():
-    '''public TimeoutException()
-    public TimeoutException(final String message, final Throwable cause)
-    public TimeoutException(final String message)
-    public TimeoutException(final Throwable cause)
+def ():
+    '''returns TimeoutException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

@@ -1,3 +1,4 @@
-def LoadingException():
-    '''public LoadingException(final String fileName, final Throwable throwable)
+def ():
+    '''returns LoadingException\n\n
+    (final String fileName, final Throwable throwable)\n
     '''

@@ -8,94 +8,123 @@ NODE_ERROR_KEY = "String  \"errorkey\""
 REL_FROMID = "String  \"fromid\""
 REL_TOID = "String  \"toid\""
 REL_NEGATIVE = "String  \"negative\""
-def Workflow():
-    '''public Workflow(final Object id)
-    public Workflow(final String id, final String title, final boolean enabled)
+def ():
+    '''returns Workflow\n\n
+    (final Object id)\n
+    (final String id, final String title, final boolean enabled)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getNodeIndex():
-    '''public Hashtable getNodeIndex()
+    '''returns Hashtable\n\n
+    getNodeIndex()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getDocumentType():
-    '''public Object getDocumentType()
+    '''returns Object\n\n
+    getDocumentType()\n
     '''
 def setDocumentType():
-    '''public void setDocumentType(final Object documentType)
+    '''returns None\n\n
+    setDocumentType(final Object documentType)\n
     '''
 def isValidated():
-    '''public boolean isValidated()
+    '''returns boolean\n\n
+    isValidated()\n
     '''
 def setValidated():
-    '''public void setValidated(final boolean validated)
+    '''returns None\n\n
+    setValidated(final boolean validated)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getEnabled():
-    '''public boolean getEnabled()
+    '''returns boolean\n\n
+    getEnabled()\n
     '''
 def addNode():
-    '''public void addNode(final WorkflowNode node)
+    '''returns None\n\n
+    addNode(final WorkflowNode node)\n
     '''
 def removeAllNodes():
-    '''public void removeAllNodes()
+    '''returns None\n\n
+    removeAllNodes()\n
     '''
 def removeNode():
-    '''public void removeNode(final WorkflowNode node)
+    '''returns None\n\n
+    removeNode(final WorkflowNode node)\n
     '''
 def getNode():
-    '''public WorkflowNode getNode(final Object id)
-    public WorkflowNode getNode(final int row)
+    '''returns WorkflowNode\n\n
+    getNode(final Object id)\n
+    getNode(final int row)\n
     '''
 def getNodes():
-    '''public Vector getNodes()
+    '''returns Vector\n\n
+    getNodes()\n
     '''
 def addRelationship():
-    '''public void addRelationship(final WorkflowRelationship relationship)
+    '''returns None\n\n
+    addRelationship(final WorkflowRelationship relationship)\n
     '''
 def getRelationship():
-    '''public WorkflowRelationship getRelationship(final int index)
-    public WorkflowRelationship getRelationship(final int nodeRow, final int actionRow)
+    '''returns WorkflowRelationship\n\n
+    getRelationship(final int index)\n
+    getRelationship(final int nodeRow, final int actionRow)\n
     '''
 def removeAllRelationships():
-    '''public void removeAllRelationships()
+    '''returns None\n\n
+    removeAllRelationships()\n
     '''
 def removeRelationship():
-    '''public void removeRelationship(final WorkflowRelationship relationship)
+    '''returns None\n\n
+    removeRelationship(final WorkflowRelationship relationship)\n
     '''
 def getRelationships():
-    '''public Vector getRelationships()
-    public Vector getRelationships(final WorkflowNode node)
+    '''returns Vector\n\n
+    getRelationships()\n
+    getRelationships(final WorkflowNode node)\n
     '''
 def getAction():
-    '''public WorkflowRelationship getAction(final int row)
+    '''returns WorkflowRelationship\n\n
+    getAction(final int row)\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getNextNodeId():
-    '''public Object getNextNodeId()
+    '''returns Object\n\n
+    getNextNodeId()\n
     '''
 def getNodeById():
-    '''public WorkflowNode getNodeById(final Object id)
+    '''returns WorkflowNode\n\n
+    getNodeById(final Object id)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getRelationshipsAsProperties():
-    '''public Vector getRelationshipsAsProperties()
+    '''returns Vector\n\n
+    getRelationshipsAsProperties()\n
     '''
 def getNodesAsProperties():
-    '''public Vector getNodesAsProperties()
+    '''returns Vector\n\n
+    getNodesAsProperties()\n
     '''

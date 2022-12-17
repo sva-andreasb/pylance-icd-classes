@@ -1,3 +1,4 @@
-def FSNProviderSet():
-    '''public FSNProviderSet(final MboServerInterface ms)
+def ():
+    '''returns FSNProviderSet\n\n
+    (final MboServerInterface ms)\n
     '''

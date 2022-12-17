@@ -1,78 +1,104 @@
-def Registry():
-    '''public Registry()
+def ():
+    '''returns Registry\n\n
+    ()\n
     '''
 def purgeCache():
-    '''public void purgeCache()
+    '''returns None\n\n
+    purgeCache()\n
     '''
 def registerNewProfileForDataSourceId():
-    '''public void registerNewProfileForDataSourceId(final String key, final Profile.DataSource value)
+    '''returns None\n\n
+    registerNewProfileForDataSourceId(final String key, final Profile.DataSource value)\n
     '''
 def deregisterProfileForDataSourceId():
-    '''public void deregisterProfileForDataSourceId(final String key)
+    '''returns None\n\n
+    deregisterProfileForDataSourceId(final String key)\n
     '''
 def registerNewProfileForDriverId():
-    '''public void registerNewProfileForDriverId(final String key, final Profile.Driver value)
+    '''returns None\n\n
+    registerNewProfileForDriverId(final String key, final Profile.Driver value)\n
     '''
 def deregisterProfileForDriverId():
-    '''public void deregisterProfileForDriverId(final String key)
+    '''returns None\n\n
+    deregisterProfileForDriverId(final String key)\n
     '''
 def updateDriverProfile():
-    '''public void updateDriverProfile(final String key, final Profile.Driver driver)
+    '''returns None\n\n
+    updateDriverProfile(final String key, final Profile.Driver driver)\n
     '''
 def updateDataSourceProfile():
-    '''public void updateDataSourceProfile(final String key, final Profile.DataSource dataSource)
+    '''returns None\n\n
+    updateDataSourceProfile(final String key, final Profile.DataSource dataSource)\n
     '''
 def updateDatabase():
-    '''public void updateDatabase(final String key, final Database database)
+    '''returns None\n\n
+    updateDatabase(final String key, final Database database)\n
     '''
 def deleteDriverProfile():
-    '''public void deleteDriverProfile(final String key)
+    '''returns None\n\n
+    deleteDriverProfile(final String key)\n
     '''
 def deleteDataSourceProfile():
-    '''public void deleteDataSourceProfile(final String s)
+    '''returns None\n\n
+    deleteDataSourceProfile(final String s)\n
     '''
 def deleteDatabase():
-    '''public void deleteDatabase(final String key)
+    '''returns None\n\n
+    deleteDatabase(final String key)\n
     '''
 def getActiveDriversUsingProfile():
-    '''public Set<String> getActiveDriversUsingProfile(final String key)
+    '''returns Set<String>\n\n
+    getActiveDriversUsingProfile(final String key)\n
     '''
 def getActiveDataSourcesUsingProfile():
-    '''public Set<String> getActiveDataSourcesUsingProfile(final String key)
+    '''returns Set<String>\n\n
+    getActiveDataSourcesUsingProfile(final String key)\n
     '''
 def getActiveDataSourcesUsingDatabase():
-    '''public Set<String> getActiveDataSourcesUsingDatabase(final String key)
+    '''returns Set<String>\n\n
+    getActiveDataSourcesUsingDatabase(final String key)\n
     '''
 def getDriverDescriptor():
-    '''public DriverDescriptor getDriverDescriptor(final String key)
+    '''returns DriverDescriptor\n\n
+    getDriverDescriptor(final String key)\n
     '''
 def getDataSourceDescriptor():
-    '''public DataSourceDescriptor getDataSourceDescriptor(final String key)
+    '''returns DataSourceDescriptor\n\n
+    getDataSourceDescriptor(final String key)\n
     '''
 def registerMonitoredLogicalDataSource():
-    '''public void registerMonitoredLogicalDataSource(final String s, final MonitorSettings monitorSettings)
+    '''returns None\n\n
+    registerMonitoredLogicalDataSource(final String s, final MonitorSettings monitorSettings)\n
     '''
 def registerMonitoredDatabaseURL_NoResolve():
-    '''public void registerMonitoredDatabaseURL_NoResolve(final String s, final int i, final String s2, final MonitorSettings monitorSettings)
+    '''returns None\n\n
+    registerMonitoredDatabaseURL_NoResolve(final String s, final int i, final String s2, final MonitorSettings monitorSettings)\n
     '''
 def registerMonitoredDatabaseURL_Resolve():
-    '''public void registerMonitoredDatabaseURL_Resolve(final String s, final int i, final String s2, final MonitorSettings monitorSettings)
+    '''returns None\n\n
+    registerMonitoredDatabaseURL_Resolve(final String s, final int i, final String s2, final MonitorSettings monitorSettings)\n
     '''
 def registerMonitoredLocation():
-    '''public void registerMonitoredLocation(final String s, final MonitorSettings monitorSettings)
+    '''returns None\n\n
+    registerMonitoredLocation(final String s, final MonitorSettings monitorSettings)\n
     '''
 def getMonitoredDataCache():
-    '''public MonitoredDataCache getMonitoredDataCache()
+    '''returns MonitoredDataCache\n\n
+    getMonitoredDataCache()\n
     '''
 def cacheMonitoredData():
-    '''public void cacheMonitoredData(final MonitoredData monitoredData)
+    '''returns None\n\n
+    cacheMonitoredData(final MonitoredData monitoredData)\n
     '''
 def setCachingIntervalForMonitoredData():
-    '''public void setCachingIntervalForMonitoredData(final int n)
+    '''returns None\n\n
+    setCachingIntervalForMonitoredData(final int n)\n
     '''
 def setInMemoryCacheLimitForMonitoredData():
-    '''public void setInMemoryCacheLimitForMonitoredData(final long inMemoryCacheLimitForMonitoredData_)
+    '''returns None\n\n
+    setInMemoryCacheLimitForMonitoredData(final long inMemoryCacheLimitForMonitoredData_)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

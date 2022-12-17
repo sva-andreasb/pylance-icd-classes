@@ -1,26 +1,34 @@
-def DefaultBHttpClientConnection():
-    '''public DefaultBHttpClientConnection(final int buffersize, final int fragmentSizeHint, final CharsetDecoder chardecoder, final CharsetEncoder charencoder, final MessageConstraints constraints, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)
-    public DefaultBHttpClientConnection(final int buffersize, final CharsetDecoder chardecoder, final CharsetEncoder charencoder, final MessageConstraints constraints)
-    public DefaultBHttpClientConnection(final int buffersize)
+def ():
+    '''returns DefaultBHttpClientConnection\n\n
+    (final int buffersize, final int fragmentSizeHint, final CharsetDecoder chardecoder, final CharsetEncoder charencoder, final MessageConstraints constraints, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)\n
+    (final int buffersize, final CharsetDecoder chardecoder, final CharsetEncoder charencoder, final MessageConstraints constraints)\n
+    (final int buffersize)\n
     '''
 def bind():
-    '''public void bind(final Socket socket)
+    '''returns None\n\n
+    bind(final Socket socket)\n
     '''
 def isResponseAvailable():
-    '''public boolean isResponseAvailable(final int timeout)
+    '''returns boolean\n\n
+    isResponseAvailable(final int timeout)\n
     '''
 def sendRequestHeader():
-    '''public void sendRequestHeader(final HttpRequest request)
+    '''returns None\n\n
+    sendRequestHeader(final HttpRequest request)\n
     '''
 def sendRequestEntity():
-    '''public void sendRequestEntity(final HttpEntityEnclosingRequest request)
+    '''returns None\n\n
+    sendRequestEntity(final HttpEntityEnclosingRequest request)\n
     '''
 def receiveResponseHeader():
-    '''public HttpResponse receiveResponseHeader()
+    '''returns HttpResponse\n\n
+    receiveResponseHeader()\n
     '''
 def receiveResponseEntity():
-    '''public void receiveResponseEntity(final HttpResponse response)
+    '''returns None\n\n
+    receiveResponseEntity(final HttpResponse response)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

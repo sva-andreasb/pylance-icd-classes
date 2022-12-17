@@ -1,271 +1,359 @@
 KEYPASSWORD_PROPERTY = "String  \"org.eclipse.jetty.ssl.keypassword\""
 PASSWORD_PROPERTY = "String  \"org.eclipse.jetty.ssl.password\""
-def SslContextFactory():
-    '''public SslContextFactory()
-    public SslContextFactory(final boolean trustAll)
-    public SslContextFactory(final String keyStorePath)
+def ():
+    '''returns SslContextFactory\n\n
+    ()\n
+    (final boolean trustAll)\n
+    (final String keyStorePath)\n
     '''
 def getExcludeProtocols():
-    '''public String[] getExcludeProtocols()
+    '''returns String[]\n\n
+    getExcludeProtocols()\n
     '''
 def setExcludeProtocols():
-    '''public void setExcludeProtocols(final String... protocols)
+    '''returns None\n\n
+    setExcludeProtocols(final String... protocols)\n
     '''
 def addExcludeProtocols():
-    '''public void addExcludeProtocols(final String... protocol)
+    '''returns None\n\n
+    addExcludeProtocols(final String... protocol)\n
     '''
 def getIncludeProtocols():
-    '''public String[] getIncludeProtocols()
+    '''returns String[]\n\n
+    getIncludeProtocols()\n
     '''
 def setIncludeProtocols():
-    '''public void setIncludeProtocols(final String... protocols)
+    '''returns None\n\n
+    setIncludeProtocols(final String... protocols)\n
     '''
 def getExcludeCipherSuites():
-    '''public String[] getExcludeCipherSuites()
+    '''returns String[]\n\n
+    getExcludeCipherSuites()\n
     '''
 def setExcludeCipherSuites():
-    '''public void setExcludeCipherSuites(final String... cipherSuites)
+    '''returns None\n\n
+    setExcludeCipherSuites(final String... cipherSuites)\n
     '''
 def addExcludeCipherSuites():
-    '''public void addExcludeCipherSuites(final String... cipher)
+    '''returns None\n\n
+    addExcludeCipherSuites(final String... cipher)\n
     '''
 def getIncludeCipherSuites():
-    '''public String[] getIncludeCipherSuites()
+    '''returns String[]\n\n
+    getIncludeCipherSuites()\n
     '''
 def setIncludeCipherSuites():
-    '''public void setIncludeCipherSuites(final String... cipherSuites)
+    '''returns None\n\n
+    setIncludeCipherSuites(final String... cipherSuites)\n
     '''
 def getKeyStorePath():
-    '''public String getKeyStorePath()
+    '''returns String\n\n
+    getKeyStorePath()\n
     '''
 def getKeyStore():
-    '''public String getKeyStore()
+    '''returns String\n\n
+    getKeyStore()\n
     '''
 def setKeyStorePath():
-    '''public void setKeyStorePath(final String keyStorePath)
+    '''returns None\n\n
+    setKeyStorePath(final String keyStorePath)\n
     '''
 def setKeyStore():
-    '''public void setKeyStore(final String keyStorePath)
-    public void setKeyStore(final KeyStore keyStore)
+    '''returns None\n\n
+    setKeyStore(final String keyStorePath)\n
+    setKeyStore(final KeyStore keyStore)\n
     '''
 def getKeyStoreProvider():
-    '''public String getKeyStoreProvider()
+    '''returns String\n\n
+    getKeyStoreProvider()\n
     '''
 def setKeyStoreProvider():
-    '''public void setKeyStoreProvider(final String keyStoreProvider)
+    '''returns None\n\n
+    setKeyStoreProvider(final String keyStoreProvider)\n
     '''
 def getKeyStoreType():
-    '''public String getKeyStoreType()
+    '''returns String\n\n
+    getKeyStoreType()\n
     '''
 def setKeyStoreType():
-    '''public void setKeyStoreType(final String keyStoreType)
+    '''returns None\n\n
+    setKeyStoreType(final String keyStoreType)\n
     '''
 def getKeyStoreInputStream():
-    '''public InputStream getKeyStoreInputStream()
+    '''returns InputStream\n\n
+    getKeyStoreInputStream()\n
     '''
 def setKeyStoreInputStream():
-    '''public void setKeyStoreInputStream(final InputStream keyStoreInputStream)
+    '''returns None\n\n
+    setKeyStoreInputStream(final InputStream keyStoreInputStream)\n
     '''
 def getCertAlias():
-    '''public String getCertAlias()
+    '''returns String\n\n
+    getCertAlias()\n
     '''
 def setCertAlias():
-    '''public void setCertAlias(final String certAlias)
+    '''returns None\n\n
+    setCertAlias(final String certAlias)\n
     '''
 def getTrustStore():
-    '''public String getTrustStore()
+    '''returns String\n\n
+    getTrustStore()\n
     '''
 def setTrustStore():
-    '''public void setTrustStore(final String trustStorePath)
-    public void setTrustStore(final KeyStore trustStore)
+    '''returns None\n\n
+    setTrustStore(final String trustStorePath)\n
+    setTrustStore(final KeyStore trustStore)\n
     '''
 def getTrustStoreProvider():
-    '''public String getTrustStoreProvider()
+    '''returns String\n\n
+    getTrustStoreProvider()\n
     '''
 def setTrustStoreProvider():
-    '''public void setTrustStoreProvider(final String trustStoreProvider)
+    '''returns None\n\n
+    setTrustStoreProvider(final String trustStoreProvider)\n
     '''
 def getTrustStoreType():
-    '''public String getTrustStoreType()
+    '''returns String\n\n
+    getTrustStoreType()\n
     '''
 def setTrustStoreType():
-    '''public void setTrustStoreType(final String trustStoreType)
+    '''returns None\n\n
+    setTrustStoreType(final String trustStoreType)\n
     '''
 def getTrustStoreInputStream():
-    '''public InputStream getTrustStoreInputStream()
+    '''returns InputStream\n\n
+    getTrustStoreInputStream()\n
     '''
 def setTrustStoreInputStream():
-    '''public void setTrustStoreInputStream(final InputStream trustStoreInputStream)
+    '''returns None\n\n
+    setTrustStoreInputStream(final InputStream trustStoreInputStream)\n
     '''
 def getNeedClientAuth():
-    '''public boolean getNeedClientAuth()
+    '''returns boolean\n\n
+    getNeedClientAuth()\n
     '''
 def setNeedClientAuth():
-    '''public void setNeedClientAuth(final boolean needClientAuth)
+    '''returns None\n\n
+    setNeedClientAuth(final boolean needClientAuth)\n
     '''
 def getWantClientAuth():
-    '''public boolean getWantClientAuth()
+    '''returns boolean\n\n
+    getWantClientAuth()\n
     '''
 def setWantClientAuth():
-    '''public void setWantClientAuth(final boolean wantClientAuth)
+    '''returns None\n\n
+    setWantClientAuth(final boolean wantClientAuth)\n
     '''
 def getValidateCerts():
-    '''public boolean getValidateCerts()
+    '''returns boolean\n\n
+    getValidateCerts()\n
     '''
 def isValidateCerts():
-    '''public boolean isValidateCerts()
+    '''returns boolean\n\n
+    isValidateCerts()\n
     '''
 def setValidateCerts():
-    '''public void setValidateCerts(final boolean validateCerts)
+    '''returns None\n\n
+    setValidateCerts(final boolean validateCerts)\n
     '''
 def isValidatePeerCerts():
-    '''public boolean isValidatePeerCerts()
+    '''returns boolean\n\n
+    isValidatePeerCerts()\n
     '''
 def setValidatePeerCerts():
-    '''public void setValidatePeerCerts(final boolean validatePeerCerts)
+    '''returns None\n\n
+    setValidatePeerCerts(final boolean validatePeerCerts)\n
     '''
 def isAllowRenegotiate():
-    '''public boolean isAllowRenegotiate()
+    '''returns boolean\n\n
+    isAllowRenegotiate()\n
     '''
 def setAllowRenegotiate():
-    '''public void setAllowRenegotiate(final boolean allowRenegotiate)
+    '''returns None\n\n
+    setAllowRenegotiate(final boolean allowRenegotiate)\n
     '''
 def setKeyStorePassword():
-    '''public void setKeyStorePassword(final String password)
+    '''returns None\n\n
+    setKeyStorePassword(final String password)\n
     '''
 def setKeyManagerPassword():
-    '''public void setKeyManagerPassword(final String password)
+    '''returns None\n\n
+    setKeyManagerPassword(final String password)\n
     '''
 def setTrustStorePassword():
-    '''public void setTrustStorePassword(final String password)
+    '''returns None\n\n
+    setTrustStorePassword(final String password)\n
     '''
 def getProvider():
-    '''public String getProvider()
+    '''returns String\n\n
+    getProvider()\n
     '''
 def setProvider():
-    '''public void setProvider(final String provider)
+    '''returns None\n\n
+    setProvider(final String provider)\n
     '''
 def getProtocol():
-    '''public String getProtocol()
+    '''returns String\n\n
+    getProtocol()\n
     '''
 def setProtocol():
-    '''public void setProtocol(final String protocol)
+    '''returns None\n\n
+    setProtocol(final String protocol)\n
     '''
 def getSecureRandomAlgorithm():
-    '''public String getSecureRandomAlgorithm()
+    '''returns String\n\n
+    getSecureRandomAlgorithm()\n
     '''
 def setSecureRandomAlgorithm():
-    '''public void setSecureRandomAlgorithm(final String algorithm)
+    '''returns None\n\n
+    setSecureRandomAlgorithm(final String algorithm)\n
     '''
 def getSslKeyManagerFactoryAlgorithm():
-    '''public String getSslKeyManagerFactoryAlgorithm()
+    '''returns String\n\n
+    getSslKeyManagerFactoryAlgorithm()\n
     '''
 def setSslKeyManagerFactoryAlgorithm():
-    '''public void setSslKeyManagerFactoryAlgorithm(final String algorithm)
+    '''returns None\n\n
+    setSslKeyManagerFactoryAlgorithm(final String algorithm)\n
     '''
 def getTrustManagerFactoryAlgorithm():
-    '''public String getTrustManagerFactoryAlgorithm()
+    '''returns String\n\n
+    getTrustManagerFactoryAlgorithm()\n
     '''
 def isTrustAll():
-    '''public boolean isTrustAll()
+    '''returns boolean\n\n
+    isTrustAll()\n
     '''
 def setTrustAll():
-    '''public void setTrustAll(final boolean trustAll)
+    '''returns None\n\n
+    setTrustAll(final boolean trustAll)\n
     '''
 def setTrustManagerFactoryAlgorithm():
-    '''public void setTrustManagerFactoryAlgorithm(final String algorithm)
+    '''returns None\n\n
+    setTrustManagerFactoryAlgorithm(final String algorithm)\n
     '''
 def getCrlPath():
-    '''public String getCrlPath()
+    '''returns String\n\n
+    getCrlPath()\n
     '''
 def setCrlPath():
-    '''public void setCrlPath(final String crlPath)
+    '''returns None\n\n
+    setCrlPath(final String crlPath)\n
     '''
 def getMaxCertPathLength():
-    '''public int getMaxCertPathLength()
+    '''returns int\n\n
+    getMaxCertPathLength()\n
     '''
 def setMaxCertPathLength():
-    '''public void setMaxCertPathLength(final int maxCertPathLength)
+    '''returns None\n\n
+    setMaxCertPathLength(final int maxCertPathLength)\n
     '''
 def getSslContext():
-    '''public SSLContext getSslContext()
+    '''returns SSLContext\n\n
+    getSslContext()\n
     '''
 def setSslContext():
-    '''public void setSslContext(final SSLContext sslContext)
+    '''returns None\n\n
+    setSslContext(final SSLContext sslContext)\n
     '''
 def checkKeyStore():
-    '''public void checkKeyStore()
+    '''returns None\n\n
+    checkKeyStore()\n
     '''
 def selectProtocols():
-    '''public String[] selectProtocols(final String[] enabledProtocols, final String[] supportedProtocols)
+    '''returns String[]\n\n
+    selectProtocols(final String[] enabledProtocols, final String[] supportedProtocols)\n
     '''
 def selectCipherSuites():
-    '''public String[] selectCipherSuites(final String[] enabledCipherSuites, final String[] supportedCipherSuites)
+    '''returns String[]\n\n
+    selectCipherSuites(final String[] enabledCipherSuites, final String[] supportedCipherSuites)\n
     '''
 def isEnableCRLDP():
-    '''public boolean isEnableCRLDP()
+    '''returns boolean\n\n
+    isEnableCRLDP()\n
     '''
 def setEnableCRLDP():
-    '''public void setEnableCRLDP(final boolean enableCRLDP)
+    '''returns None\n\n
+    setEnableCRLDP(final boolean enableCRLDP)\n
     '''
 def isEnableOCSP():
-    '''public boolean isEnableOCSP()
+    '''returns boolean\n\n
+    isEnableOCSP()\n
     '''
 def setEnableOCSP():
-    '''public void setEnableOCSP(final boolean enableOCSP)
+    '''returns None\n\n
+    setEnableOCSP(final boolean enableOCSP)\n
     '''
 def getOcspResponderURL():
-    '''public String getOcspResponderURL()
+    '''returns String\n\n
+    getOcspResponderURL()\n
     '''
 def setOcspResponderURL():
-    '''public void setOcspResponderURL(final String ocspResponderURL)
+    '''returns None\n\n
+    setOcspResponderURL(final String ocspResponderURL)\n
     '''
 def setKeyStoreResource():
-    '''public void setKeyStoreResource(final Resource resource)
+    '''returns None\n\n
+    setKeyStoreResource(final Resource resource)\n
     '''
 def setTrustStoreResource():
-    '''public void setTrustStoreResource(final Resource resource)
+    '''returns None\n\n
+    setTrustStoreResource(final Resource resource)\n
     '''
 def isSessionCachingEnabled():
-    '''public boolean isSessionCachingEnabled()
+    '''returns boolean\n\n
+    isSessionCachingEnabled()\n
     '''
 def setSessionCachingEnabled():
-    '''public void setSessionCachingEnabled(final boolean enableSessionCaching)
+    '''returns None\n\n
+    setSessionCachingEnabled(final boolean enableSessionCaching)\n
     '''
 def getSslSessionCacheSize():
-    '''public int getSslSessionCacheSize()
+    '''returns int\n\n
+    getSslSessionCacheSize()\n
     '''
 def setSslSessionCacheSize():
-    '''public void setSslSessionCacheSize(final int sslSessionCacheSize)
+    '''returns None\n\n
+    setSslSessionCacheSize(final int sslSessionCacheSize)\n
     '''
 def getSslSessionTimeout():
-    '''public int getSslSessionTimeout()
+    '''returns int\n\n
+    getSslSessionTimeout()\n
     '''
 def setSslSessionTimeout():
-    '''public void setSslSessionTimeout(final int sslSessionTimeout)
+    '''returns None\n\n
+    setSslSessionTimeout(final int sslSessionTimeout)\n
     '''
 def newSslServerSocket():
-    '''public SSLServerSocket newSslServerSocket(final String host, final int port, final int backlog)
+    '''returns SSLServerSocket\n\n
+    newSslServerSocket(final String host, final int port, final int backlog)\n
     '''
 def newSslSocket():
-    '''public SSLSocket newSslSocket()
+    '''returns SSLSocket\n\n
+    newSslSocket()\n
     '''
 def newSslEngine():
-    '''public SSLEngine newSslEngine(final String host, final int port)
-    public SSLEngine newSslEngine()
+    '''returns SSLEngine\n\n
+    newSslEngine(final String host, final int port)\n
+    newSslEngine()\n
     '''
 def customize():
-    '''public void customize(final SSLEngine sslEngine)
+    '''returns None\n\n
+    customize(final SSLEngine sslEngine)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''
 def checkClientTrusted():
-    '''public void checkClientTrusted(final X509Certificate[] certs, final String authType)
+    '''returns None\n\n
+    checkClientTrusted(final X509Certificate[] certs, final String authType)\n
     '''
 def checkServerTrusted():
-    '''public void checkServerTrusted(final X509Certificate[] certs, final String authType)
+    '''returns None\n\n
+    checkServerTrusted(final X509Certificate[] certs, final String authType)\n
     '''

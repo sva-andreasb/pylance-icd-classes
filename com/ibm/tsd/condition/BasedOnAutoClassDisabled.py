@@ -1,9 +1,12 @@
-def BasedOnAutoClassDisabled():
-    '''public BasedOnAutoClassDisabled()
+def ():
+    '''returns BasedOnAutoClassDisabled\n\n
+    ()\n
     '''
 def evaluateCondition():
-    '''public boolean evaluateCondition(final MboRemote mbo, final Object param)
+    '''returns boolean\n\n
+    evaluateCondition(final MboRemote mbo, final Object param)\n
     '''
 def toWhereClause():
-    '''public String toWhereClause(final Object param, final MboSetRemote msr)
+    '''returns String\n\n
+    toWhereClause(final Object param, final MboSetRemote msr)\n
     '''

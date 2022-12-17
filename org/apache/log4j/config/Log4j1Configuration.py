@@ -3,15 +3,19 @@ APPENDER_REF_TAG = "String  \"appender-ref\""
 THRESHOLD_PARAM = "String  \"Threshold\""
 INHERITED = "String  \"inherited\""
 NULL = "String  \"null\""
-def Log4j1Configuration():
-    '''public Log4j1Configuration(final LoggerContext loggerContext, final ConfigurationSource source, final int monitorIntervalSeconds)
+def ():
+    '''returns Log4j1Configuration\n\n
+    (final LoggerContext loggerContext, final ConfigurationSource source, final int monitorIntervalSeconds)\n
     '''
 def getBuilderManager():
-    '''public BuilderManager getBuilderManager()
+    '''returns BuilderManager\n\n
+    getBuilderManager()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def reconfigure():
-    '''public Configuration reconfigure()
+    '''returns Configuration\n\n
+    reconfigure()\n
     '''

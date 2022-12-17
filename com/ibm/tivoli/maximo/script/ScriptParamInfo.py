@@ -1,81 +1,108 @@
-def ScriptParamInfo():
-    '''public ScriptParamInfo(final String name, final String inOutType, final String varSource, final String varSourceType, final long accessFlag, final String literalValueType, final boolean allowOverride)
+def ():
+    '''returns ScriptParamInfo\n\n
+    (final String name, final String inOutType, final String varSource, final String varSourceType, final long accessFlag, final String literalValueType, final boolean allowOverride)\n
     '''
 def isUsesSelectorExpression():
-    '''public boolean isUsesSelectorExpression()
+    '''returns boolean\n\n
+    isUsesSelectorExpression()\n
     '''
 def isAllowOverride():
-    '''public boolean isAllowOverride()
+    '''returns boolean\n\n
+    isAllowOverride()\n
     '''
 def isBindingMaxProp():
-    '''public boolean isBindingMaxProp()
+    '''returns boolean\n\n
+    isBindingMaxProp()\n
     '''
 def isBindingMaxVar():
-    '''public boolean isBindingMaxVar()
+    '''returns boolean\n\n
+    isBindingMaxVar()\n
     '''
 def isBindingMboAttr():
-    '''public boolean isBindingMboAttr()
+    '''returns boolean\n\n
+    isBindingMboAttr()\n
     '''
 def isBindingLiteral():
-    '''public boolean isBindingLiteral()
+    '''returns boolean\n\n
+    isBindingLiteral()\n
     '''
 def getLiteralValueType():
-    '''public String getLiteralValueType()
+    '''returns String\n\n
+    getLiteralValueType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInoutType():
-    '''public String getInoutType()
+    '''returns String\n\n
+    getInoutType()\n
     '''
 def getVarBindingValue():
-    '''public String getVarBindingValue()
+    '''returns String\n\n
+    getVarBindingValue()\n
     '''
 def getVarBindingType():
-    '''public String getVarBindingType()
+    '''returns String\n\n
+    getVarBindingType()\n
     '''
 def hasVarBindingValue():
-    '''public boolean hasVarBindingValue()
+    '''returns boolean\n\n
+    hasVarBindingValue()\n
     '''
 def getAccessFlag():
-    '''public long getAccessFlag()
+    '''returns long\n\n
+    getAccessFlag()\n
     '''
 def isArrayType():
-    '''public boolean isArrayType()
+    '''returns boolean\n\n
+    isArrayType()\n
     '''
 def getMboRelationPath():
-    '''public String getMboRelationPath()
+    '''returns String\n\n
+    getMboRelationPath()\n
     '''
 def isMboAttributeFlag():
-    '''public boolean isMboAttributeFlag()
+    '''returns boolean\n\n
+    isMboAttributeFlag()\n
     '''
 def getMboAttributeFlagName():
-    '''public String getMboAttributeFlagName()
+    '''returns String\n\n
+    getMboAttributeFlagName()\n
     '''
 def getMboAttributeName():
-    '''public String getMboAttributeName()
+    '''returns String\n\n
+    getMboAttributeName()\n
     '''
 def getMboAttributeNameLocalPart():
-    '''public String getMboAttributeNameLocalPart()
+    '''returns String\n\n
+    getMboAttributeNameLocalPart()\n
     '''
 def isMboAttributeFlagRequired():
-    '''public boolean isMboAttributeFlagRequired()
+    '''returns boolean\n\n
+    isMboAttributeFlagRequired()\n
     '''
 def isMboAttributeFlagHidden():
-    '''public boolean isMboAttributeFlagHidden()
+    '''returns boolean\n\n
+    isMboAttributeFlagHidden()\n
     '''
 def isMboAttributeFlagReadonly():
-    '''public boolean isMboAttributeFlagReadonly()
+    '''returns boolean\n\n
+    isMboAttributeFlagReadonly()\n
     '''
 def isMboAttributeFlagInternal():
-    '''public boolean isMboAttributeFlagInternal()
+    '''returns boolean\n\n
+    isMboAttributeFlagInternal()\n
     '''
 def isMboAttributeFlagInitial():
-    '''public boolean isMboAttributeFlagInitial()
+    '''returns boolean\n\n
+    isMboAttributeFlagInitial()\n
     '''
 def isMboAttributeFlagPrevious():
-    '''public boolean isMboAttributeFlagPrevious()
+    '''returns boolean\n\n
+    isMboAttributeFlagPrevious()\n
     '''
 def isMboAttributeFlagModified():
-    '''public boolean isMboAttributeFlagModified()
+    '''returns boolean\n\n
+    isMboAttributeFlagModified()\n
     '''

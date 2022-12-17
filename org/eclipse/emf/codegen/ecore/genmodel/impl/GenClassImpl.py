@@ -1,432 +1,569 @@
 def getProvider():
-    '''public GenProviderKind getProvider()
+    '''returns GenProviderKind\n\n
+    getProvider()\n
     '''
 def isProviderSingleton():
-    '''public boolean isProviderSingleton()
+    '''returns boolean\n\n
+    isProviderSingleton()\n
     '''
 def setProvider():
-    '''public void setProvider(final GenProviderKind newProvider)
+    '''returns None\n\n
+    setProvider(final GenProviderKind newProvider)\n
     '''
 def isImage():
-    '''public boolean isImage()
+    '''returns boolean\n\n
+    isImage()\n
     '''
 def setImage():
-    '''public void setImage(final boolean newImage)
+    '''returns None\n\n
+    setImage(final boolean newImage)\n
     '''
 def getEcoreClass():
-    '''public EClass getEcoreClass()
+    '''returns EClass\n\n
+    getEcoreClass()\n
     '''
 def basicGetEcoreClass():
-    '''public EClass basicGetEcoreClass()
+    '''returns EClass\n\n
+    basicGetEcoreClass()\n
     '''
 def setEcoreClass():
-    '''public void setEcoreClass(final EClass newEcoreClass)
+    '''returns None\n\n
+    setEcoreClass(final EClass newEcoreClass)\n
     '''
 def getGenFeatures():
-    '''public EList getGenFeatures()
+    '''returns EList\n\n
+    getGenFeatures()\n
     '''
 def getGenOperations():
-    '''public EList getGenOperations()
+    '''returns EList\n\n
+    getGenOperations()\n
     '''
 def getEcoreClassifier():
-    '''public EClassifier getEcoreClassifier()
+    '''returns EClassifier\n\n
+    getEcoreClassifier()\n
     '''
 def getImportedMetaType():
-    '''public String getImportedMetaType()
+    '''returns String\n\n
+    getImportedMetaType()\n
     '''
 def getInterfaceName():
-    '''public String getInterfaceName()
+    '''returns String\n\n
+    getInterfaceName()\n
     '''
 def getQualifiedInterfaceName():
-    '''public String getQualifiedInterfaceName()
+    '''returns String\n\n
+    getQualifiedInterfaceName()\n
     '''
 def getImportedInstanceClassName():
-    '''public String getImportedInstanceClassName()
+    '''returns String\n\n
+    getImportedInstanceClassName()\n
     '''
 def getImportedInterfaceName():
-    '''public String getImportedInterfaceName()
+    '''returns String\n\n
+    getImportedInterfaceName()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getQualifiedClassName():
-    '''public String getQualifiedClassName()
+    '''returns String\n\n
+    getQualifiedClassName()\n
     '''
 def getImportedClassName():
-    '''public String getImportedClassName()
+    '''returns String\n\n
+    getImportedClassName()\n
     '''
 def getBaseGenClasses():
-    '''public List getBaseGenClasses()
+    '''returns List\n\n
+    getBaseGenClasses()\n
     '''
 def getAllBaseGenClasses():
-    '''public List getAllBaseGenClasses()
+    '''returns List\n\n
+    getAllBaseGenClasses()\n
     '''
 def getSwitchGenClasses():
-    '''public List getSwitchGenClasses()
+    '''returns List\n\n
+    getSwitchGenClasses()\n
     '''
 def accept():
-    '''public boolean accept(final GenClass genClass)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(GenFeature genFeature)
-    public boolean accept(final GenFeature genFeature)
-    public boolean accept(final GenOperation genOperation)
+    '''returns boolean\n\n
+    accept(final GenClass genClass)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(GenFeature genFeature)\n
+    accept(final GenFeature genFeature)\n
+    accept(final GenOperation genOperation)\n
     '''
 def getBaseGenClass():
-    '''public GenClass getBaseGenClass()
+    '''returns GenClass\n\n
+    getBaseGenClass()\n
     '''
 def getClassExtendsGenClass():
-    '''public GenClass getClassExtendsGenClass()
+    '''returns GenClass\n\n
+    getClassExtendsGenClass()\n
     '''
 def getClassExtends():
-    '''public String getClassExtends()
+    '''returns String\n\n
+    getClassExtends()\n
     '''
 def needsRootImplementsInterfaceOperations():
-    '''public boolean needsRootImplementsInterfaceOperations()
+    '''returns boolean\n\n
+    needsRootImplementsInterfaceOperations()\n
     '''
 def getClassImplements():
-    '''public String getClassImplements()
+    '''returns String\n\n
+    getClassImplements()\n
     '''
 def needsRootExtendsInterfaceExtendsTag():
-    '''public boolean needsRootExtendsInterfaceExtendsTag()
+    '''returns boolean\n\n
+    needsRootExtendsInterfaceExtendsTag()\n
     '''
 def getInterfaceExtends():
-    '''public String getInterfaceExtends()
+    '''returns String\n\n
+    getInterfaceExtends()\n
     '''
 def getAllGenFeatures():
-    '''public List getAllGenFeatures()
+    '''returns List\n\n
+    getAllGenFeatures()\n
     '''
 def getInheritedGenFeatures():
-    '''public List getInheritedGenFeatures()
+    '''returns List\n\n
+    getInheritedGenFeatures()\n
     '''
 def getAllGenOperations():
-    '''public List getAllGenOperations()
+    '''returns List\n\n
+    getAllGenOperations()\n
     '''
 def getFeatureID():
-    '''public String getFeatureID(final GenFeature genFeature)
+    '''returns String\n\n
+    getFeatureID(final GenFeature genFeature)\n
     '''
 def getQualifiedFeatureID():
-    '''public String getQualifiedFeatureID(final GenFeature genFeature)
+    '''returns String\n\n
+    getQualifiedFeatureID(final GenFeature genFeature)\n
     '''
 def getOperationID():
-    '''public String getOperationID(final GenOperation genOperation)
+    '''returns String\n\n
+    getOperationID(final GenOperation genOperation)\n
     '''
 def getFeatureValue():
-    '''public String getFeatureValue(final GenFeature genFeature)
+    '''returns String\n\n
+    getFeatureValue(final GenFeature genFeature)\n
     '''
 def getLocalFeatureIndex():
-    '''public String getLocalFeatureIndex(final GenFeature genFeature)
+    '''returns String\n\n
+    getLocalFeatureIndex(final GenFeature genFeature)\n
     '''
 def getFlagsField():
-    '''public String getFlagsField(final GenFeature genFeature)
+    '''returns String\n\n
+    getFlagsField(final GenFeature genFeature)\n
     '''
 def getFlagIndex():
-    '''public int getFlagIndex(final GenFeature genFeature)
+    '''returns int\n\n
+    getFlagIndex(final GenFeature genFeature)\n
     '''
 def getESetFlagsField():
-    '''public String getESetFlagsField(final GenFeature genFeature)
+    '''returns String\n\n
+    getESetFlagsField(final GenFeature genFeature)\n
     '''
 def getESetFlagIndex():
-    '''public int getESetFlagIndex(final GenFeature genFeature)
+    '''returns int\n\n
+    getESetFlagIndex(final GenFeature genFeature)\n
     '''
 def getFeatureCountID():
-    '''public String getFeatureCountID()
+    '''returns String\n\n
+    getFeatureCountID()\n
     '''
 def getQualifiedFeatureCountID():
-    '''public String getQualifiedFeatureCountID()
+    '''returns String\n\n
+    getQualifiedFeatureCountID()\n
     '''
 def getFeatureCountValue():
-    '''public String getFeatureCountValue()
+    '''returns String\n\n
+    getFeatureCountValue()\n
     '''
 def getFeatureCount():
-    '''public int getFeatureCount()
+    '''returns int\n\n
+    getFeatureCount()\n
     '''
 def isEObject():
-    '''public boolean isEObject()
+    '''returns boolean\n\n
+    isEObject()\n
     '''
 def isEObjectExtension():
-    '''public boolean isEObjectExtension()
+    '''returns boolean\n\n
+    isEObjectExtension()\n
     '''
 def isAbstract():
-    '''public boolean isAbstract()
+    '''returns boolean\n\n
+    isAbstract()\n
     '''
 def getAbstractFlag():
-    '''public String getAbstractFlag()
+    '''returns String\n\n
+    getAbstractFlag()\n
     '''
 def isInterface():
-    '''public boolean isInterface()
+    '''returns boolean\n\n
+    isInterface()\n
     '''
 def getInterfaceFlag():
-    '''public String getInterfaceFlag()
+    '''returns String\n\n
+    getInterfaceFlag()\n
     '''
 def getGeneratedInstanceClassFlag():
-    '''public String getGeneratedInstanceClassFlag()
+    '''returns String\n\n
+    getGeneratedInstanceClassFlag()\n
     '''
 def isExternalInterface():
-    '''public boolean isExternalInterface()
+    '''returns boolean\n\n
+    isExternalInterface()\n
     '''
 def isMapEntry():
-    '''public boolean isMapEntry()
+    '''returns boolean\n\n
+    isMapEntry()\n
     '''
 def getMapEntryKeyFeature():
-    '''public GenFeature getMapEntryKeyFeature()
+    '''returns GenFeature\n\n
+    getMapEntryKeyFeature()\n
     '''
 def getMapEntryValueFeature():
-    '''public GenFeature getMapEntryValueFeature()
+    '''returns GenFeature\n\n
+    getMapEntryValueFeature()\n
     '''
 def getImplementedGenClasses():
-    '''public List getImplementedGenClasses()
+    '''returns List\n\n
+    getImplementedGenClasses()\n
     '''
 def getImplementedGenFeatures():
-    '''public List getImplementedGenFeatures()
+    '''returns List\n\n
+    getImplementedGenFeatures()\n
     '''
 def getImplementedGenOperations():
-    '''public List getImplementedGenOperations()
+    '''returns List\n\n
+    getImplementedGenOperations()\n
     '''
 def getExtendedGenClasses():
-    '''public List getExtendedGenClasses()
+    '''returns List\n\n
+    getExtendedGenClasses()\n
     '''
 def getExtendedGenFeatures():
-    '''public List getExtendedGenFeatures()
+    '''returns List\n\n
+    getExtendedGenFeatures()\n
     '''
 def getExtendedGenOperations():
-    '''public List getExtendedGenOperations()
+    '''returns List\n\n
+    getExtendedGenOperations()\n
     '''
 def getDeclaredGenFeatures():
-    '''public List getDeclaredGenFeatures()
+    '''returns List\n\n
+    getDeclaredGenFeatures()\n
     '''
 def getDeclaredGenOperations():
-    '''public List getDeclaredGenOperations()
+    '''returns List\n\n
+    getDeclaredGenOperations()\n
     '''
 def getFlagGenFeatures():
-    '''public List getFlagGenFeatures()
-    public List getFlagGenFeatures(final String staticDefaultValue)
+    '''returns List\n\n
+    getFlagGenFeatures()\n
+    getFlagGenFeatures(final String staticDefaultValue)\n
     '''
 def getESetGenFeatures():
-    '''public List getESetGenFeatures()
+    '''returns List\n\n
+    getESetGenFeatures()\n
     '''
 def getEInverseAddGenFeatures():
-    '''public List getEInverseAddGenFeatures()
+    '''returns List\n\n
+    getEInverseAddGenFeatures()\n
     '''
 def getEInverseRemoveGenFeatures():
-    '''public List getEInverseRemoveGenFeatures()
+    '''returns List\n\n
+    getEInverseRemoveGenFeatures()\n
     '''
 def getEBasicRemoveFromContainerGenFeatures():
-    '''public List getEBasicRemoveFromContainerGenFeatures()
+    '''returns List\n\n
+    getEBasicRemoveFromContainerGenFeatures()\n
     '''
 def getToStringGenFeatures():
-    '''public List getToStringGenFeatures()
+    '''returns List\n\n
+    getToStringGenFeatures()\n
     '''
 def getMixinGenClasses():
-    '''public List getMixinGenClasses()
+    '''returns List\n\n
+    getMixinGenClasses()\n
     '''
 def getMixinGenFeatures():
-    '''public List getMixinGenFeatures()
+    '''returns List\n\n
+    getMixinGenFeatures()\n
     '''
 def getMixinGenOperations():
-    '''public List getMixinGenOperations()
+    '''returns List\n\n
+    getMixinGenOperations()\n
     '''
 def initialize():
-    '''public void initialize(final EClass eClass)
+    '''returns None\n\n
+    initialize(final EClass eClass)\n
     '''
 def generate():
-    '''public void generate(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generate(final IProgressMonitor progressMonitor)\n
     '''
 def getModelInfo():
-    '''public String getModelInfo()
+    '''returns String\n\n
+    getModelInfo()\n
     '''
 def getProviderClassName():
-    '''public String getProviderClassName()
+    '''returns String\n\n
+    getProviderClassName()\n
     '''
 def getQualifiedProviderClassName():
-    '''public String getQualifiedProviderClassName()
+    '''returns String\n\n
+    getQualifiedProviderClassName()\n
     '''
 def getImportedProviderClassName():
-    '''public String getImportedProviderClassName()
+    '''returns String\n\n
+    getImportedProviderClassName()\n
     '''
 def getItemIconFileName():
-    '''public String getItemIconFileName()
+    '''returns String\n\n
+    getItemIconFileName()\n
     '''
 def getCreateChildIconFileName():
-    '''public String getCreateChildIconFileName(final GenFeature feature, final GenClass childClass)
+    '''returns String\n\n
+    getCreateChildIconFileName(final GenFeature feature, final GenClass childClass)\n
     '''
 def getProviderBaseClassName():
-    '''public String getProviderBaseClassName()
+    '''returns String\n\n
+    getProviderBaseClassName()\n
     '''
 def getProviderImplementedGenClasses():
-    '''public List getProviderImplementedGenClasses()
+    '''returns List\n\n
+    getProviderImplementedGenClasses()\n
     '''
 def getLabelFeatureCandidates():
-    '''public List getLabelFeatureCandidates()
+    '''returns List\n\n
+    getLabelFeatureCandidates()\n
     '''
 def getPropertyFeatures():
-    '''public List getPropertyFeatures()
+    '''returns List\n\n
+    getPropertyFeatures()\n
     '''
 def getNotifyFeatures():
-    '''public List getNotifyFeatures()
+    '''returns List\n\n
+    getNotifyFeatures()\n
     '''
 def getLabelNotifyFeatures():
-    '''public List getLabelNotifyFeatures()
+    '''returns List\n\n
+    getLabelNotifyFeatures()\n
     '''
 def getContentNotifyFeatures():
-    '''public List getContentNotifyFeatures()
+    '''returns List\n\n
+    getContentNotifyFeatures()\n
     '''
 def getLabelAndContentNotifyFeatures():
-    '''public List getLabelAndContentNotifyFeatures()
+    '''returns List\n\n
+    getLabelAndContentNotifyFeatures()\n
     '''
 def getChildrenFeatures():
-    '''public List getChildrenFeatures()
+    '''returns List\n\n
+    getChildrenFeatures()\n
     '''
 def getAllChildrenFeatures():
-    '''public List getAllChildrenFeatures()
+    '''returns List\n\n
+    getAllChildrenFeatures()\n
     '''
 def getCreateChildFeatures():
-    '''public List getCreateChildFeatures()
+    '''returns List\n\n
+    getCreateChildFeatures()\n
     '''
 def getAllCreateChildFeatures():
-    '''public List getAllCreateChildFeatures()
+    '''returns List\n\n
+    getAllCreateChildFeatures()\n
     '''
 def getCrossPackageCreateChildFeatures():
-    '''public List getCrossPackageCreateChildFeatures()
+    '''returns List\n\n
+    getCrossPackageCreateChildFeatures()\n
     '''
 def getSharedClassCreateChildFeatures():
-    '''public List getSharedClassCreateChildFeatures()
+    '''returns List\n\n
+    getSharedClassCreateChildFeatures()\n
     '''
 def hasFeatureMapCreateChildFeatures():
-    '''public boolean hasFeatureMapCreateChildFeatures()
+    '''returns boolean\n\n
+    hasFeatureMapCreateChildFeatures()\n
     '''
 def getChildrenClasses():
-    '''public List getChildrenClasses(final GenFeature genFeature)
+    '''returns List\n\n
+    getChildrenClasses(final GenFeature genFeature)\n
     '''
 def getCrossPackageChildrenClasses():
-    '''public List getCrossPackageChildrenClasses(final GenFeature genFeature)
+    '''returns List\n\n
+    getCrossPackageChildrenClasses(final GenFeature genFeature)\n
     '''
 def getLabelFeatureGen():
-    '''public GenFeature getLabelFeatureGen()
+    '''returns GenFeature\n\n
+    getLabelFeatureGen()\n
     '''
 def getLabelFeature():
-    '''public GenFeature getLabelFeature()
+    '''returns GenFeature\n\n
+    getLabelFeature()\n
     '''
 def basicGetLabelFeature():
-    '''public GenFeature basicGetLabelFeature()
+    '''returns GenFeature\n\n
+    basicGetLabelFeature()\n
     '''
 def setLabelFeature():
-    '''public void setLabelFeature(final GenFeature newLabelFeature)
+    '''returns None\n\n
+    setLabelFeature(final GenFeature newLabelFeature)\n
     '''
 def eInverseAdd():
-    '''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getItemProviderAdapterFactoryClassName():
-    '''public String getItemProviderAdapterFactoryClassName()
+    '''returns String\n\n
+    getItemProviderAdapterFactoryClassName()\n
     '''
 def getTestCaseClassName():
-    '''public String getTestCaseClassName()
+    '''returns String\n\n
+    getTestCaseClassName()\n
     '''
 def getQualifiedTestCaseClassName():
-    '''public String getQualifiedTestCaseClassName()
+    '''returns String\n\n
+    getQualifiedTestCaseClassName()\n
     '''
 def getImportedTestCaseClassName():
-    '''public String getImportedTestCaseClassName()
+    '''returns String\n\n
+    getImportedTestCaseClassName()\n
     '''
 def canGenerateEdit():
-    '''public boolean canGenerateEdit()
+    '''returns boolean\n\n
+    canGenerateEdit()\n
     '''
 def canGenerateEditor():
-    '''public boolean canGenerateEditor()
+    '''returns boolean\n\n
+    canGenerateEditor()\n
     '''
 def generateEdit():
-    '''public void generateEdit(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateEdit(final IProgressMonitor progressMonitor)\n
     '''
 def hasTests():
-    '''public boolean hasTests()
+    '''returns boolean\n\n
+    hasTests()\n
     '''
 def canGenerateTests():
-    '''public boolean canGenerateTests()
+    '''returns boolean\n\n
+    canGenerateTests()\n
     '''
 def generateTests():
-    '''public void generateTests(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateTests(final IProgressMonitor progressMonitor)\n
     '''
 def reconcile():
-    '''public boolean reconcile(final GenClass oldGenClassVersion)
-    public boolean reconcile()
+    '''returns boolean\n\n
+    reconcile(final GenClass oldGenClassVersion)\n
+    reconcile()\n
     '''
 def getGenConstraints():
-    '''public List getGenConstraints()
+    '''returns List\n\n
+    getGenConstraints()\n
     '''
 def getAllGenConstraints():
-    '''public List getAllGenConstraints()
+    '''returns List\n\n
+    getAllGenConstraints()\n
     '''
 def getConstraintImplementor():
-    '''public GenClassifier getConstraintImplementor(final String constraint)
+    '''returns GenClassifier\n\n
+    getConstraintImplementor(final String constraint)\n
     '''
 def getConstraintDelegate():
-    '''public GenClassifier getConstraintDelegate(final String constraint)
+    '''returns GenClassifier\n\n
+    getConstraintDelegate(final String constraint)\n
     '''
 def hasOnlyDefaultConstraints():
-    '''public boolean hasOnlyDefaultConstraints()
+    '''returns boolean\n\n
+    hasOnlyDefaultConstraints()\n
     '''
 def getInvariantOperation():
-    '''public GenOperation getInvariantOperation(final String constraint)
+    '''returns GenOperation\n\n
+    getInvariantOperation(final String constraint)\n
     '''
 def isDocumentRoot():
-    '''public boolean isDocumentRoot()
+    '''returns boolean\n\n
+    isDocumentRoot()\n
     '''
 def getMixedGenFeature():
-    '''public GenFeature getMixedGenFeature()
+    '''returns GenFeature\n\n
+    getMixedGenFeature()\n
     '''
 def getListConstructor():
-    '''public String getListConstructor(final GenFeature genFeature)
+    '''returns String\n\n
+    getListConstructor(final GenFeature genFeature)\n
     '''
 def isModelRoot():
-    '''public boolean isModelRoot()
+    '''returns boolean\n\n
+    isModelRoot()\n
     '''
 def getDeclaredFieldGenFeatures():
-    '''public List getDeclaredFieldGenFeatures()
+    '''returns List\n\n
+    getDeclaredFieldGenFeatures()\n
     '''
 def isFlag():
-    '''public boolean isFlag(final GenFeature genFeature)
+    '''returns boolean\n\n
+    isFlag(final GenFeature genFeature)\n
     '''
 def isESetFlag():
-    '''public boolean isESetFlag(final GenFeature genFeature)
+    '''returns boolean\n\n
+    isESetFlag(final GenFeature genFeature)\n
     '''
 def isField():
-    '''public boolean isField(final GenFeature genFeature)
+    '''returns boolean\n\n
+    isField(final GenFeature genFeature)\n
     '''
 def isESetField():
-    '''public boolean isESetField(final GenFeature genFeature)
+    '''returns boolean\n\n
+    isESetField(final GenFeature genFeature)\n
     '''
-def CollidingGenOperationFilter():
-    '''public CollidingGenOperationFilter()
+def ():
+    '''returns CollidingGenOperationFilter\n\n
+    ()\n
     '''

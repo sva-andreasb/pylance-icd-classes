@@ -1,20 +1,26 @@
 ELEMENT_NAME = "String  \"session\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
-def SessionID():
-    '''public SessionID(final String sessionID)
+def ():
+    '''returns SessionID\n\n
+    (final String sessionID)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def parse():
-    '''public SessionID parse(final XmlPullParser parser, final int initialDepth)
+    '''returns SessionID\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

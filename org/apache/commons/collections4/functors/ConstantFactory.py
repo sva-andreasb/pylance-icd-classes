@@ -1,12 +1,12 @@
-def constantFactory():
-    '''public static <T> Factory<T> constantFactory(final T constantToReturn)
-    '''
-def ConstantFactory():
-    '''public ConstantFactory(final T constantToReturn)
+def ():
+    '''returns ConstantFactory\n\n
+    (final T constantToReturn)\n
     '''
 def create():
-    '''public T create()
+    '''returns T\n\n
+    create()\n
     '''
 def getConstant():
-    '''public T getConstant()
+    '''returns T\n\n
+    getConstant()\n
     '''

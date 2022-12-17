@@ -1,12 +1,16 @@
-def AutoScriptTestSet():
-    '''public AutoScriptTestSet(final MboServerInterface ms)
+def ():
+    '''returns AutoScriptTestSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setValueAsObject():
-    '''public void setValueAsObject(final MboRemote mbo, final String attributeName, final String value)
+    '''returns None\n\n
+    setValueAsObject(final MboRemote mbo, final String attributeName, final String value)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPAgmtStatusSet():
-    '''public PlusPAgmtStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAgmtStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

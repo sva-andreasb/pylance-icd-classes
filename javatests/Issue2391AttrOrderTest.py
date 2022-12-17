@@ -1,3 +1,4 @@
 def testAttribute():
-    '''public void testAttribute()
+    '''returns None\n\n
+    testAttribute()\n
     '''

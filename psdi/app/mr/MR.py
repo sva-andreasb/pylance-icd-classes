@@ -1,133 +1,177 @@
 def getItemReferenceHashtable():
-    '''public Hashtable getItemReferenceHashtable()
+    '''returns Hashtable\n\n
+    getItemReferenceHashtable()\n
     '''
 def setItemReferenceHashtable():
-    '''public void setItemReferenceHashtable(final String itemnum, final MboRemote item)
+    '''returns None\n\n
+    setItemReferenceHashtable(final String itemnum, final MboRemote item)\n
     '''
-def MR():
-    '''public MR(final MboSet ms)
+def ():
+    '''returns MR\n\n
+    (final MboSet ms)\n
     '''
 def getProcess():
-    '''public String getProcess()
+    '''returns String\n\n
+    getProcess()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setDefaultStoreLoc():
-    '''public void setDefaultStoreLoc(final String defStore)
+    '''returns None\n\n
+    setDefaultStoreLoc(final String defStore)\n
     '''
 def setDefaultStoreLocSite():
-    '''public void setDefaultStoreLocSite(final String defStoreSite)
+    '''returns None\n\n
+    setDefaultStoreLocSite(final String defStoreSite)\n
     '''
 def getDefaultStoreLoc():
-    '''public String getDefaultStoreLoc()
+    '''returns String\n\n
+    getDefaultStoreLoc()\n
     '''
 def getDefaultStoreLocSite():
-    '''public String getDefaultStoreLocSite()
+    '''returns String\n\n
+    getDefaultStoreLocSite()\n
     '''
 def makeRecurring():
-    '''public boolean makeRecurring()
+    '''returns boolean\n\n
+    makeRecurring()\n
     '''
 def undoChangeToRecurring():
-    '''public void undoChangeToRecurring()
+    '''returns None\n\n
+    undoChangeToRecurring()\n
     '''
 def isTransfer():
-    '''public boolean isTransfer()
+    '''returns boolean\n\n
+    isTransfer()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def modifyCreationDate():
-    '''public void modifyCreationDate()
+    '''returns None\n\n
+    modifyCreationDate()\n
     '''
 def isRecurring():
-    '''public boolean isRecurring()
+    '''returns boolean\n\n
+    isRecurring()\n
     '''
 def isStandard():
-    '''public boolean isStandard()
+    '''returns boolean\n\n
+    isStandard()\n
     '''
 def isWAPPR():
-    '''public boolean isWAPPR()
+    '''returns boolean\n\n
+    isWAPPR()\n
     '''
 def isAPPR():
-    '''public boolean isAPPR()
+    '''returns boolean\n\n
+    isAPPR()\n
     '''
 def isDraft():
-    '''public boolean isDraft()
+    '''returns boolean\n\n
+    isDraft()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def completeLine():
-    '''public void completeLine(final String mrlinenum)
+    '''returns None\n\n
+    completeLine(final String mrlinenum)\n
     '''
 def lineCompleted():
-    '''public void lineCompleted()
+    '''returns None\n\n
+    lineCompleted()\n
     '''
 def copy():
-    '''public MboRemote copy()
-    public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy()\n
+    copy(final MboSetRemote mboset)\n
     '''
 def setCopyDefaults():
-    '''public void setCopyDefaults()
+    '''returns None\n\n
+    setCopyDefaults()\n
     '''
 def createNewRecurringMR():
-    '''public MboRemote createNewRecurringMR(final MRSetRemote target, final String description, final String long_description)
+    '''returns MboRemote\n\n
+    createNewRecurringMR(final MRSetRemote target, final String description, final String long_description)\n
     '''
 def copyMRfromTemplate():
-    '''public void copyMRfromTemplate(final MboRemote mrTemplate)
+    '''returns None\n\n
+    copyMRfromTemplate(final MboRemote mrTemplate)\n
     '''
 def addMRLinesFromExistingRequisitions():
-    '''public void addMRLinesFromExistingRequisitions(final MboSetRemote mrSourceLines, final MboSetRemote mrLines)
+    '''returns None\n\n
+    addMRLinesFromExistingRequisitions(final MboSetRemote mrSourceLines, final MboSetRemote mrLines)\n
     '''
 def addMRLinesFromMaterials():
-    '''public void addMRLinesFromMaterials(final MboSetRemote mrSourceLines, final MboSetRemote mrLines)
+    '''returns None\n\n
+    addMRLinesFromMaterials(final MboSetRemote mrSourceLines, final MboSetRemote mrLines)\n
     '''
 def approveMR():
-    '''public void approveMR()
+    '''returns None\n\n
+    approveMR()\n
     '''
 def unApproveMR():
-    '''public void unApproveMR()
+    '''returns None\n\n
+    unApproveMR()\n
     '''
 def cancelMR():
-    '''public void cancelMR()
+    '''returns None\n\n
+    cancelMR()\n
     '''
 def copyMRLines():
-    '''public void copyMRLines(final String fromMR, final int[] fromLines)
+    '''returns None\n\n
+    copyMRLines(final String fromMR, final int[] fromLines)\n
     '''
 def getAllHistoricalTransactions():
-    '''public Vector getAllHistoricalTransactions()
+    '''returns Vector\n\n
+    getAllHistoricalTransactions()\n
     '''
 def createRecurringReqs():
-    '''public MboRemote createRecurringReqs()
+    '''returns MboRemote\n\n
+    createRecurringReqs()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def getTotalCostCurrencyCode():
-    '''public String getTotalCostCurrencyCode()
+    '''returns String\n\n
+    getTotalCostCurrencyCode()\n
     '''
 def copySpareParts():
-    '''public void copySpareParts(final MboSetRemote sparePartSet)
+    '''returns None\n\n
+    copySpareParts(final MboSetRemote sparePartSet)\n
     '''
 def getECommHelperRemote():
-    '''public ECommHelperRemote getECommHelperRemote()
+    '''returns ECommHelperRemote\n\n
+    getECommHelperRemote()\n
     '''
 def validateLines():
-    '''public void validateLines()
+    '''returns None\n\n
+    validateLines()\n
     '''

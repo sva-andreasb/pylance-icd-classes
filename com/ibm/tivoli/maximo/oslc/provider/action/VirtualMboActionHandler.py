@@ -1,9 +1,12 @@
-def VirtualMboActionHandler():
-    '''public VirtualMboActionHandler()
+def ():
+    '''returns VirtualMboActionHandler\n\n
+    ()\n
     '''
 def isGET():
-    '''public boolean isGET()
+    '''returns boolean\n\n
+    isGET()\n
     '''
 def action():
-    '''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
+    '''returns OslcResourceResponse\n\n
+    action(final OslcRequest request, final byte[] actionData)\n
     '''

@@ -1,44 +1,54 @@
 sid = "short  523"
-def IndexRecord():
-    '''public IndexRecord()
-    public IndexRecord(final RecordInputStream in)
+def ():
+    '''returns IndexRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setFirstRow():
-    '''public void setFirstRow(final int row)
+    '''returns None\n\n
+    setFirstRow(final int row)\n
     '''
 def setLastRowAdd1():
-    '''public void setLastRowAdd1(final int row)
+    '''returns None\n\n
+    setLastRowAdd1(final int row)\n
     '''
 def addDbcell():
-    '''public void addDbcell(final int cell)
+    '''returns None\n\n
+    addDbcell(final int cell)\n
     '''
 def setDbcell():
-    '''public void setDbcell(final int cell, final int value)
+    '''returns None\n\n
+    setDbcell(final int cell, final int value)\n
     '''
 def getFirstRow():
-    '''public int getFirstRow()
+    '''returns int\n\n
+    getFirstRow()\n
     '''
 def getLastRowAdd1():
-    '''public int getLastRowAdd1()
+    '''returns int\n\n
+    getLastRowAdd1()\n
     '''
 def getNumDbcells():
-    '''public int getNumDbcells()
+    '''returns int\n\n
+    getNumDbcells()\n
     '''
 def getDbcellAt():
-    '''public int getDbcellAt(final int cellnum)
+    '''returns int\n\n
+    getDbcellAt(final int cellnum)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
-    '''
-def getRecordSizeForBlockCount():
-    '''public static int getRecordSizeForBlockCount(final int blockCount)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public IndexRecord clone()
+    '''returns IndexRecord\n\n
+    clone()\n
     '''

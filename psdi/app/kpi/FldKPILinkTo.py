@@ -1,3 +1,4 @@
-def FldKPILinkTo():
-    '''public FldKPILinkTo(final MboValue mbv)
+def ():
+    '''returns FldKPILinkTo\n\n
+    (final MboValue mbv)\n
     '''

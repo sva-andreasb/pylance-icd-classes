@@ -1,25 +1,13 @@
-def AsynchSpecification():
-    '''public AsynchSpecification()
-    public AsynchSpecification(final Specification value)
+def ():
+    '''returns AsynchSpecification\n\n
+    ()\n
+    (final Specification value)\n
     '''
 def getValue():
-    '''public Specification getValue()
+    '''returns Specification\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Specification value)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setValue(final Specification value)\n
     '''

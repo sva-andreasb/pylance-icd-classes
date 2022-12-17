@@ -1,89 +1,105 @@
 def parentContainer():
-    '''public JClassContainer parentContainer()
+    '''returns JClassContainer\n\n
+    parentContainer()\n
     '''
 def parent():
-    '''public JPackage parent()
+    '''returns JPackage\n\n
+    parent()\n
     '''
 def isClass():
-    '''public boolean isClass()
+    '''returns boolean\n\n
+    isClass()\n
     '''
 def isPackage():
-    '''public boolean isPackage()
+    '''returns boolean\n\n
+    isPackage()\n
     '''
 def getPackage():
-    '''public JPackage getPackage()
+    '''returns JPackage\n\n
+    getPackage()\n
     '''
 def _class():
-    '''public JDefinedClass _class(final int mods, final String name)
-    public JDefinedClass _class(final int mods, final String name, final boolean isInterface)
-    public JDefinedClass _class(final int mods, final String name, final ClassType classTypeVal)
-    public JDefinedClass _class(final String name)
+    '''returns JDefinedClass\n\n
+    _class(final int mods, final String name)\n
+    _class(final int mods, final String name, final boolean isInterface)\n
+    _class(final int mods, final String name, final ClassType classTypeVal)\n
+    _class(final String name)\n
     '''
 def _getClass():
-    '''public JDefinedClass _getClass(final String name)
+    '''returns JDefinedClass\n\n
+    _getClass(final String name)\n
     '''
 def compareTo():
-    '''public int compareTo(final JPackage that)
+    '''returns int\n\n
+    compareTo(final JPackage that)\n
     '''
 def _interface():
-    '''public JDefinedClass _interface(final int mods, final String name)
-    public JDefinedClass _interface(final String name)
+    '''returns JDefinedClass\n\n
+    _interface(final int mods, final String name)\n
+    _interface(final String name)\n
     '''
 def _annotationTypeDeclaration():
-    '''public JDefinedClass _annotationTypeDeclaration(final String name)
+    '''returns JDefinedClass\n\n
+    _annotationTypeDeclaration(final String name)\n
     '''
 def _enum():
-    '''public JDefinedClass _enum(final String name)
+    '''returns JDefinedClass\n\n
+    _enum(final String name)\n
     '''
 def addResourceFile():
-    '''public JResourceFile addResourceFile(final JResourceFile rsrc)
+    '''returns JResourceFile\n\n
+    addResourceFile(final JResourceFile rsrc)\n
     '''
 def hasResourceFile():
-    '''public boolean hasResourceFile(final String name)
+    '''returns boolean\n\n
+    hasResourceFile(final String name)\n
     '''
 def propertyFiles():
-    '''public Iterator<JResourceFile> propertyFiles()
+    '''returns Iterator<JResourceFile>\n\n
+    propertyFiles()\n
     '''
 def javadoc():
-    '''public JDocComment javadoc()
+    '''returns JDocComment\n\n
+    javadoc()\n
     '''
 def remove():
-    '''public void remove(final JClass c)
+    '''returns None\n\n
+    remove(final JClass c)\n
     '''
 def ref():
-    '''public JClass ref(final String name)
+    '''returns JClass\n\n
+    ref(final String name)\n
     '''
 def subPackage():
-    '''public JPackage subPackage(final String pkg)
+    '''returns JPackage\n\n
+    subPackage(final String pkg)\n
     '''
 def classes():
-    '''public Iterator<JDefinedClass> classes()
+    '''returns Iterator<JDefinedClass>\n\n
+    classes()\n
     '''
 def isDefined():
-    '''public boolean isDefined(final String classLocalName)
-    '''
-def isUnnamed():
-    '''public final boolean isUnnamed()
+    '''returns boolean\n\n
+    isDefined(final String classLocalName)\n
     '''
 def name():
-    '''public String name()
-    '''
-def owner():
-    '''public final JCodeModel owner()
+    '''returns String\n\n
+    name()\n
     '''
 def annotate():
-    '''public JAnnotationUse annotate(final JClass clazz)
-    public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
-    '''
-def annotate2():
-    '''public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
+    '''returns JAnnotationUse\n\n
+    annotate(final JClass clazz)\n
+    annotate(final Class<? extends Annotation> clazz)\n
     '''
 def annotations():
-    '''public Collection<JAnnotationUse> annotations()
+    '''returns Collection<JAnnotationUse>\n\n
+    annotations()\n
     '''
 def declare():
-    '''public void declare(final JFormatter f)
+    '''returns None\n\n
+    declare(final JFormatter f)\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''

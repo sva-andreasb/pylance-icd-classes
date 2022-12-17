@@ -1,27 +1,23 @@
-def RSHProtocol():
-    '''public RSHProtocol()
-    public RSHProtocol(final String username)
-    public RSHProtocol(final String username, final String hostname)
-    public RSHProtocol(final String localUsername, final String username, final String hostname)
+def ():
+    '''returns RSHProtocol\n\n
+    ()\n
+    (final String username)\n
+    (final String username, final String hostname)\n
+    (final String localUsername, final String username, final String hostname)\n
     '''
 def setListeningPortRange():
-    '''public void setListeningPortRange(final int first, final int last)
+    '''returns None\n\n
+    setListeningPortRange(final int first, final int last)\n
     '''
 def getFirstListeningPort():
-    '''public int getFirstListeningPort()
+    '''returns int\n\n
+    getFirstListeningPort()\n
     '''
 def getLastListeningPort():
-    '''public int getLastListeningPort()
+    '''returns int\n\n
+    getLastListeningPort()\n
     '''
 def exec():
-    '''public RemoteProcess exec(final String command)
-    '''
-def clone():
-    '''public synchronized Object clone()
-    '''
-def getLocalUsername():
-    '''public synchronized String getLocalUsername()
-    '''
-def setLocalUsername():
-    '''public synchronized void setLocalUsername(final String string)
+    '''returns RemoteProcess\n\n
+    exec(final String command)\n
     '''

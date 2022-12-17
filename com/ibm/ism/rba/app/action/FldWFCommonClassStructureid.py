@@ -1,3 +1,4 @@
-def FldWFCommonClassStructureid():
-    '''public FldWFCommonClassStructureid(final MboValue mbv)
+def ():
+    '''returns FldWFCommonClassStructureid\n\n
+    (final MboValue mbv)\n
     '''

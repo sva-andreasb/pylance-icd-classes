@@ -1,9 +1,12 @@
 def properties():
-    '''public int properties()
+    '''returns int\n\n
+    properties()\n
     '''
 def getNodeIndex():
-    '''public int getNodeIndex(final RBANodesBean nodesBean, final int nodeid)
+    '''returns int\n\n
+    getNodeIndex(final RBANodesBean nodesBean, final int nodeid)\n
     '''
 def getActionIndex():
-    '''public int getActionIndex(final int actionid)
+    '''returns int\n\n
+    getActionIndex(final int actionid)\n
     '''

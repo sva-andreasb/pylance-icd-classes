@@ -1,4 +1,5 @@
-def DuplicateKeyException():
-    '''public DuplicateKeyException()
-    public DuplicateKeyException(final String message)
+def ():
+    '''returns DuplicateKeyException\n\n
+    ()\n
+    (final String message)\n
     '''

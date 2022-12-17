@@ -1,3 +1,4 @@
-def StandardQueryNodeProcessorPipeline():
-    '''public StandardQueryNodeProcessorPipeline(final QueryConfigHandler queryConfig)
+def ():
+    '''returns StandardQueryNodeProcessorPipeline\n\n
+    (final QueryConfigHandler queryConfig)\n
     '''

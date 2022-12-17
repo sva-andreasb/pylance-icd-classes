@@ -3,80 +3,81 @@ LONG = "int  1"
 MEDIUM = "int  2"
 SHORT = "int  3"
 def format():
-    '''public StringBuilder format(final Object obj, final StringBuilder toAppendTo, final FieldPosition pos)
-    public String format(final long millis)
-    public String format(final Date date)
-    public String format(final Calendar calendar)
-    public <B extends Appendable> B format(final long millis, final B buf)
-    public <B extends Appendable> B format(final Date date, final B buf)
-    public <B extends Appendable> B format(Calendar calendar, final B buf)
+    '''returns String\n\n
+    format(final Object obj, final StringBuilder toAppendTo, final FieldPosition pos)\n
+    format(final long millis)\n
+    format(final Date date)\n
+    format(final Calendar calendar)\n
     '''
 def getPattern():
-    '''public String getPattern()
+    '''returns String\n\n
+    getPattern()\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getMaxLengthEstimate():
-    '''public int getMaxLengthEstimate()
+    '''returns int\n\n
+    getMaxLengthEstimate()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def estimateLength():
-    '''public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
-    public int estimateLength()
+    '''returns int\n\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
+    estimateLength()\n
     '''
 def appendTo():
-    '''public void appendTo(final Appendable buffer, final Calendar calendar)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public final void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public final void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public final void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public final void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public final void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public final void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public void appendTo(final Appendable buffer, final int value)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
-    public void appendTo(final Appendable buffer, final Calendar calendar)
+    '''returns None\n\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final int value)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final int value)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final int value)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final int value)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
+    appendTo(final Appendable buffer, final Calendar calendar)\n
     '''

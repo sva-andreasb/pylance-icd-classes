@@ -1,56 +1,59 @@
-def FieldGen():
-    '''public FieldGen(final int access_flags, final Type type, final String name, final ConstantPoolGen cp)
-    public FieldGen(final Field field, final ConstantPoolGen cp)
+def ():
+    '''returns FieldGen\n\n
+    (final int access_flags, final Type type, final String name, final ConstantPoolGen cp)\n
+    (final Field field, final ConstantPoolGen cp)\n
     '''
 def setInitValue():
-    '''public void setInitValue(final String str)
-    public void setInitValue(final long l)
-    public void setInitValue(final int i)
-    public void setInitValue(final short s)
-    public void setInitValue(final char c)
-    public void setInitValue(final byte b)
-    public void setInitValue(final boolean b)
-    public void setInitValue(final float f)
-    public void setInitValue(final double d)
+    '''returns None\n\n
+    setInitValue(final String str)\n
+    setInitValue(final long l)\n
+    setInitValue(final int i)\n
+    setInitValue(final short s)\n
+    setInitValue(final char c)\n
+    setInitValue(final byte b)\n
+    setInitValue(final boolean b)\n
+    setInitValue(final float f)\n
+    setInitValue(final double d)\n
     '''
 def cancelInitValue():
-    '''public void cancelInitValue()
+    '''returns None\n\n
+    cancelInitValue()\n
     '''
 def getField():
-    '''public Field getField()
+    '''returns Field\n\n
+    getField()\n
     '''
 def getSignature():
-    '''public String getSignature()
+    '''returns String\n\n
+    getSignature()\n
     '''
 def addObserver():
-    '''public void addObserver(final FieldObserver o)
+    '''returns None\n\n
+    addObserver(final FieldObserver o)\n
     '''
 def removeObserver():
-    '''public void removeObserver(final FieldObserver o)
+    '''returns None\n\n
+    removeObserver(final FieldObserver o)\n
     '''
 def update():
-    '''public void update()
+    '''returns None\n\n
+    update()\n
     '''
 def getInitValue():
-    '''public String getInitValue()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns String\n\n
+    getInitValue()\n
     '''
 def copy():
-    '''public FieldGen copy(final ConstantPoolGen cp)
-    '''
-def getComparator():
-    '''public static BCELComparator getComparator()
-    '''
-def setComparator():
-    '''public static void setComparator(final BCELComparator comparator)
+    '''returns FieldGen\n\n
+    copy(final ConstantPoolGen cp)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object o1, final Object o2)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object o1, final Object o2)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode(final Object o)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode(final Object o)\n
     '''

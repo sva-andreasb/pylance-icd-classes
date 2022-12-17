@@ -1,64 +1,75 @@
-def forClient():
-    '''public static Http2FrameCodecBuilder forClient()
-    '''
-def forServer():
-    '''public static Http2FrameCodecBuilder forServer()
-    '''
 def initialSettings():
-    '''public Http2Settings initialSettings()
-    public Http2FrameCodecBuilder initialSettings(final Http2Settings settings)
+    '''returns Http2FrameCodecBuilder\n\n
+    initialSettings()\n
+    initialSettings(final Http2Settings settings)\n
     '''
 def gracefulShutdownTimeoutMillis():
-    '''public long gracefulShutdownTimeoutMillis()
-    public Http2FrameCodecBuilder gracefulShutdownTimeoutMillis(final long gracefulShutdownTimeoutMillis)
+    '''returns Http2FrameCodecBuilder\n\n
+    gracefulShutdownTimeoutMillis()\n
+    gracefulShutdownTimeoutMillis(final long gracefulShutdownTimeoutMillis)\n
     '''
 def isServer():
-    '''public boolean isServer()
+    '''returns boolean\n\n
+    isServer()\n
     '''
 def maxReservedStreams():
-    '''public int maxReservedStreams()
-    public Http2FrameCodecBuilder maxReservedStreams(final int maxReservedStreams)
+    '''returns Http2FrameCodecBuilder\n\n
+    maxReservedStreams()\n
+    maxReservedStreams(final int maxReservedStreams)\n
     '''
 def isValidateHeaders():
-    '''public boolean isValidateHeaders()
+    '''returns boolean\n\n
+    isValidateHeaders()\n
     '''
 def validateHeaders():
-    '''public Http2FrameCodecBuilder validateHeaders(final boolean validateHeaders)
+    '''returns Http2FrameCodecBuilder\n\n
+    validateHeaders(final boolean validateHeaders)\n
     '''
 def frameLogger():
-    '''public Http2FrameLogger frameLogger()
-    public Http2FrameCodecBuilder frameLogger(final Http2FrameLogger frameLogger)
+    '''returns Http2FrameCodecBuilder\n\n
+    frameLogger()\n
+    frameLogger(final Http2FrameLogger frameLogger)\n
     '''
 def encoderEnforceMaxConcurrentStreams():
-    '''public boolean encoderEnforceMaxConcurrentStreams()
-    public Http2FrameCodecBuilder encoderEnforceMaxConcurrentStreams(final boolean encoderEnforceMaxConcurrentStreams)
+    '''returns Http2FrameCodecBuilder\n\n
+    encoderEnforceMaxConcurrentStreams()\n
+    encoderEnforceMaxConcurrentStreams(final boolean encoderEnforceMaxConcurrentStreams)\n
     '''
 def encoderEnforceMaxQueuedControlFrames():
-    '''public int encoderEnforceMaxQueuedControlFrames()
-    public Http2FrameCodecBuilder encoderEnforceMaxQueuedControlFrames(final int maxQueuedControlFrames)
+    '''returns Http2FrameCodecBuilder\n\n
+    encoderEnforceMaxQueuedControlFrames()\n
+    encoderEnforceMaxQueuedControlFrames(final int maxQueuedControlFrames)\n
     '''
 def headerSensitivityDetector():
-    '''public Http2FrameCodecBuilder headerSensitivityDetector(final Http2HeadersEncoder.SensitivityDetector headerSensitivityDetector)
+    '''returns Http2FrameCodecBuilder\n\n
+    headerSensitivityDetector(final Http2HeadersEncoder.SensitivityDetector headerSensitivityDetector)\n
     '''
 def encoderIgnoreMaxHeaderListSize():
-    '''public Http2FrameCodecBuilder encoderIgnoreMaxHeaderListSize(final boolean ignoreMaxHeaderListSize)
+    '''returns Http2FrameCodecBuilder\n\n
+    encoderIgnoreMaxHeaderListSize(final boolean ignoreMaxHeaderListSize)\n
     '''
 def initialHuffmanDecodeCapacity():
-    '''public Http2FrameCodecBuilder initialHuffmanDecodeCapacity(final int initialHuffmanDecodeCapacity)
+    '''returns Http2FrameCodecBuilder\n\n
+    initialHuffmanDecodeCapacity(final int initialHuffmanDecodeCapacity)\n
     '''
 def autoAckSettingsFrame():
-    '''public Http2FrameCodecBuilder autoAckSettingsFrame(final boolean autoAckSettings)
+    '''returns Http2FrameCodecBuilder\n\n
+    autoAckSettingsFrame(final boolean autoAckSettings)\n
     '''
 def autoAckPingFrame():
-    '''public Http2FrameCodecBuilder autoAckPingFrame(final boolean autoAckPingFrame)
+    '''returns Http2FrameCodecBuilder\n\n
+    autoAckPingFrame(final boolean autoAckPingFrame)\n
     '''
 def decoupleCloseAndGoAway():
-    '''public Http2FrameCodecBuilder decoupleCloseAndGoAway(final boolean decoupleCloseAndGoAway)
+    '''returns Http2FrameCodecBuilder\n\n
+    decoupleCloseAndGoAway(final boolean decoupleCloseAndGoAway)\n
     '''
 def decoderEnforceMaxConsecutiveEmptyDataFrames():
-    '''public int decoderEnforceMaxConsecutiveEmptyDataFrames()
-    public Http2FrameCodecBuilder decoderEnforceMaxConsecutiveEmptyDataFrames(final int maxConsecutiveEmptyFrames)
+    '''returns Http2FrameCodecBuilder\n\n
+    decoderEnforceMaxConsecutiveEmptyDataFrames()\n
+    decoderEnforceMaxConsecutiveEmptyDataFrames(final int maxConsecutiveEmptyFrames)\n
     '''
 def build():
-    '''public Http2FrameCodec build()
+    '''returns Http2FrameCodec\n\n
+    build()\n
     '''

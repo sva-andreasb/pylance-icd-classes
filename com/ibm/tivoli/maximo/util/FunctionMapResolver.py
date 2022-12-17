@@ -1,10 +1,13 @@
-def FunctionMapResolver():
-    '''public FunctionMapResolver()
-    public FunctionMapResolver(final Map<String, Object> data)
+def ():
+    '''returns FunctionMapResolver\n\n
+    ()\n
+    (final Map<String, Object> data)\n
     '''
 def addFunction():
-    '''public void addFunction(final String name, final FunctionResolver resolver)
+    '''returns None\n\n
+    addFunction(final String name, final FunctionResolver resolver)\n
     '''
 def resolve():
-    '''public String resolve(final String in)
+    '''returns String\n\n
+    resolve(final String in)\n
     '''

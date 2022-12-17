@@ -1,4 +1,5 @@
-def BooleanWrapperHolder():
-    '''public BooleanWrapperHolder()
-    public BooleanWrapperHolder(final Boolean value)
+def ():
+    '''returns BooleanWrapperHolder\n\n
+    ()\n
+    (final Boolean myboolean)\n
     '''

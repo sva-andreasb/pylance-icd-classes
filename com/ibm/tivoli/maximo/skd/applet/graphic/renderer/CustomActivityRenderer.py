@@ -1,115 +1,113 @@
-def CustomActivityRenderer():
-    '''public CustomActivityRenderer()
-    public CustomActivityRenderer(final boolean addComplianceBars)
+def ():
+    '''returns MyActivityBarSelection\n\n
+    ()\n
+    (final boolean addComplianceBars)\n
+    ()\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation, final MXActivity parentActivity)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvActivityGraphic ag, final String[] properties)\n
     '''
 def isEmblemVisible():
-    '''public boolean isEmblemVisible(final IlvActivityGraphic actg)
-    public boolean isEmblemVisible(final IlvActivityGraphic actg)
-    public boolean isEmblemVisible(final IlvActivityGraphic actg)
+    '''returns boolean\n\n
+    isEmblemVisible(final IlvActivityGraphic actg)\n
+    isEmblemVisible(final IlvActivityGraphic actg)\n
+    isEmblemVisible(final IlvActivityGraphic actg)\n
     '''
 def isComplianceEnabled():
-    '''public boolean isComplianceEnabled()
+    '''returns boolean\n\n
+    isComplianceEnabled()\n
     '''
 def createNewAssignment():
-    '''public MXActivity createNewAssignment(final SortGanttModel model, final IlvActivity activity, final IlvReservation reservation, final long start, final long end)
+    '''returns MXActivity\n\n
+    createNewAssignment(final SortGanttModel model, final IlvActivity activity, final IlvReservation reservation, final long start, final long end)\n
     '''
 def refreshScreen():
-    '''public void refreshScreen(final SortGanttModel model)
+    '''returns None\n\n
+    refreshScreen(final SortGanttModel model)\n
     '''
 def reattachmodel():
-    '''public void reattachmodel()
+    '''returns None\n\n
+    reattachmodel()\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer arg2, final IlvManagerView view, final IlvPopupMenuManager arg4)
+    '''returns JPopupMenu\n\n
+    getPopupMenu(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer arg2, final IlvManagerView view, final IlvPopupMenuManager arg4)\n
     '''
 def getShiftBreakPoints():
-    '''public long[] getShiftBreakPoints(final MXResource resource, final long start, final long end)
+    '''returns long[]\n\n
+    getShiftBreakPoints(final MXResource resource, final long start, final long end)\n
     '''
 def getModvailShiftBreakPoints():
-    '''public long[] getModvailShiftBreakPoints(final MXResource resource, final long start, final long end, final long[] shiftdatebreak, final int totalbreaknum, final boolean firstbreakworking)
+    '''returns long[]\n\n
+    getModvailShiftBreakPoints(final MXResource resource, final long start, final long end, final long[] shiftdatebreak, final int totalbreaknum, final boolean firstbreakworking)\n
     '''
 def contains():
-    '''public boolean contains(final IlvActivityGraphic ag, final IlvPoint p, final IlvPoint tp, final IlvTransformer t)
+    '''returns boolean\n\n
+    contains(final IlvActivityGraphic ag, final IlvPoint p, final IlvPoint tp, final IlvTransformer t)\n
     '''
 def draw():
-    '''public void draw(final Graphics g, final IlvActivityGraphic ag, final IlvTransformer t)
-    public void draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns None\n\n
+    draw(final Graphics g, final IlvActivityGraphic ag, final IlvTransformer t)\n
+    draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''
 def getBounds():
-    '''public IlvRect getBounds(final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns IlvRect\n\n
+    getBounds(final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def isRedrawNeeded():
-    '''public boolean isRedrawNeeded(final IlvActivityGraphic ag, final ActivityEvent ae)
+    '''returns boolean\n\n
+    isRedrawNeeded(final IlvActivityGraphic ag, final ActivityEvent ae)\n
     '''
 def isRelayoutNeeded():
-    '''public boolean isRelayoutNeeded(final IlvActivityGraphic ag, final ActivityEvent ae)
+    '''returns boolean\n\n
+    isRelayoutNeeded(final IlvActivityGraphic ag, final ActivityEvent ae)\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection(final IlvActivityGraphic ag)
+    '''returns IlvSelection\n\n
+    makeSelection(final IlvActivityGraphic ag)\n
     '''
 def createSelection():
-    '''public IlvSelection createSelection(final IlvActivityGraphic ag, final String[] properties)
-    '''
-def MyActivityBar():
-    '''public MyActivityBar()
+    '''returns IlvSelection\n\n
+    createSelection(final IlvActivityGraphic ag, final String[] properties)\n
     '''
 def getToolTipCenterText():
-    '''public String getToolTipCenterText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipCenterText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def getToolTipStartText():
-    '''public String getToolTipStartText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipStartText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def getToolTipEndText():
-    '''public String getToolTipEndText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
-    '''
-def SplitActionListener():
-    '''public SplitActionListener(final IlvReservation reservation)
+    '''returns String\n\n
+    getToolTipEndText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    '''
-def MergeActionListener():
-    '''public MergeActionListener(final IlvReservation reservation, final MXActivity parentActivity)
-    '''
-def Split3ActionListener():
-    '''public Split3ActionListener(final IlvReservation reservation)
-    '''
-def SplitShiftActionListener():
-    '''public SplitShiftActionListener(final IlvReservation reservation)
-    '''
-def NewWorkActionListener():
-    '''public NewWorkActionListener(final IlvReservation reservation)
-    '''
-def DeleteWorkActionListener():
-    '''public DeleteWorkActionListener(final IlvReservation reservation)
-    '''
-def LockActionListener():
-    '''public LockActionListener(final IlvReservation reservation)
-    '''
-def UnlockActionListener():
-    '''public UnlockActionListener(final IlvReservation reservation)
-    '''
-def EditApptRemarksActionListener():
-    '''public EditApptRemarksActionListener(final IlvReservation reservation)
-    '''
-def ShowCraftSkillActionListener():
-    '''public ShowCraftSkillActionListener(final IlvReservation reservation)
-    '''
-def MyActivityBarSelection():
-    '''public MyActivityBarSelection(final IlvActivityGraphic ag, final String[] properties)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def getHandle():
-    '''public IlvPoint getHandle(final int i, final IlvTransformer t)
+    '''returns IlvPoint\n\n
+    getHandle(final int i, final IlvTransformer t)\n
     '''

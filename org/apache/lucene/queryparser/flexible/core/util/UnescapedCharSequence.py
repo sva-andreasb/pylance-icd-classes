@@ -1,27 +1,30 @@
-def UnescapedCharSequence():
-    '''public UnescapedCharSequence(final char[] chars, final boolean[] wasEscaped, final int offset, final int length)
-    public UnescapedCharSequence(final CharSequence text)
+def ():
+    '''returns UnescapedCharSequence\n\n
+    (final char[] chars, final boolean[] wasEscaped, final int offset, final int length)\n
+    (final CharSequence text)\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toStringEscaped():
-    '''public String toStringEscaped()
-    public String toStringEscaped(final char[] enabledChars)
+    '''returns String\n\n
+    toStringEscaped()\n
+    toStringEscaped(final char[] enabledChars)\n
     '''
 def wasEscaped():
-    '''public boolean wasEscaped(final int index)
-    public static final boolean wasEscaped(final CharSequence text, final int index)
-    '''
-def toLowerCase():
-    '''public static CharSequence toLowerCase(final CharSequence text, final Locale locale)
+    '''returns boolean\n\n
+    wasEscaped(final int index)\n
     '''

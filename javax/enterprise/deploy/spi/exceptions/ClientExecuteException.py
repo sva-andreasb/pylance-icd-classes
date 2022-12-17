@@ -1,4 +1,5 @@
-def ClientExecuteException():
-    '''public ClientExecuteException()
-    public ClientExecuteException(final String msg)
+def ():
+    '''returns ClientExecuteException\n\n
+    ()\n
+    (final String msg)\n
     '''

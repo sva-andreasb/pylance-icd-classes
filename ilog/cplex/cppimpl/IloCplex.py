@@ -1,998 +1,1049 @@
-def IloCplex():
-    '''public IloCplex(final long cPtr, final boolean cMemoryOwn)
-    public IloCplex(final IloEnv env)
-    public IloCplex(final IloModel model)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex obj)
+def ():
+    '''returns FilterType\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final IloEnv env)\n
+    (final IloModel model)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
+    (final String swigName, final int swigValue)\n
     '''
 def delete():
-    '''public void delete()
-    '''
-def getIncumbentId():
-    '''public static int getIncumbentId()
-    '''
-def setBendersAnnotation():
-    '''public static void setBendersAnnotation(final String value)
-    '''
-def getBendersAnnotation():
-    '''public static String getBendersAnnotation()
+    '''returns None\n\n
+    delete()\n
     '''
 def hasVMConfig():
-    '''public boolean hasVMConfig()
+    '''returns boolean\n\n
+    hasVMConfig()\n
     '''
 def delVMConfig():
-    '''public void delVMConfig()
+    '''returns None\n\n
+    delVMConfig()\n
     '''
 def clearModel():
-    '''public void clearModel()
+    '''returns None\n\n
+    clearModel()\n
     '''
 def deleteNames():
-    '''public void deleteNames()
+    '''returns None\n\n
+    deleteNames()\n
     '''
 def addUserCut():
-    '''public IloConstraint addUserCut(final IloConstraint con)
+    '''returns IloConstraint\n\n
+    addUserCut(final IloConstraint con)\n
     '''
 def addUserCuts():
-    '''public IloConstraintArray addUserCuts(final IloConstraintArray con)
+    '''returns IloConstraintArray\n\n
+    addUserCuts(final IloConstraintArray con)\n
     '''
 def clearUserCuts():
-    '''public void clearUserCuts()
+    '''returns None\n\n
+    clearUserCuts()\n
     '''
 def addCut():
-    '''public IloConstraint addCut(final IloConstraint con)
+    '''returns IloConstraint\n\n
+    addCut(final IloConstraint con)\n
     '''
 def addCuts():
-    '''public IloConstraintArray addCuts(final IloConstraintArray con)
+    '''returns IloConstraintArray\n\n
+    addCuts(final IloConstraintArray con)\n
     '''
 def clearCuts():
-    '''public void clearCuts()
+    '''returns None\n\n
+    clearCuts()\n
     '''
 def addLazyConstraint():
-    '''public IloConstraint addLazyConstraint(final IloConstraint con)
+    '''returns IloConstraint\n\n
+    addLazyConstraint(final IloConstraint con)\n
     '''
 def addLazyConstraints():
-    '''public IloConstraintArray addLazyConstraints(final IloConstraintArray con)
+    '''returns IloConstraintArray\n\n
+    addLazyConstraints(final IloConstraintArray con)\n
     '''
 def clearLazyConstraints():
-    '''public void clearLazyConstraints()
+    '''returns None\n\n
+    clearLazyConstraints()\n
     '''
 def importModel():
-    '''public void importModel(final IloModel model, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloSOS1Array sos1, final IloSOS2Array sos2, final IloRangeArray lazy, final IloRangeArray cuts)
-    public void importModel(final IloModel model, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloSOS1Array sos1, final IloSOS2Array sos2, final IloRangeArray lazy)
-    public void importModel(final IloModel model, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloSOS1Array sos1, final IloSOS2Array sos2)
-    public void importModel(final IloModel m, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloRangeArray lazy, final IloRangeArray cuts)
-    public void importModel(final IloModel m, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloRangeArray lazy)
-    public void importModel(final IloModel m, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs)
-    public void importModel(final IloModel m, final String filename)
+    '''returns None\n\n
+    importModel(final IloModel model, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloSOS1Array sos1, final IloSOS2Array sos2, final IloRangeArray lazy, final IloRangeArray cuts)\n
+    importModel(final IloModel model, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloSOS1Array sos1, final IloSOS2Array sos2, final IloRangeArray lazy)\n
+    importModel(final IloModel model, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloSOS1Array sos1, final IloSOS2Array sos2)\n
+    importModel(final IloModel m, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloRangeArray lazy, final IloRangeArray cuts)\n
+    importModel(final IloModel m, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs, final IloRangeArray lazy)\n
+    importModel(final IloModel m, final String filename, final IloObjective obj, final IloNumVarArray vars, final IloRangeArray rngs)\n
+    importModel(final IloModel m, final String filename)\n
     '''
 def exportModel():
-    '''public void exportModel(final String filename)
+    '''returns None\n\n
+    exportModel(final String filename)\n
     '''
 def writeOrder():
-    '''public void writeOrder(final String filename)
+    '''returns None\n\n
+    writeOrder(final String filename)\n
     '''
 def writeConflict():
-    '''public void writeConflict(final String filename)
+    '''returns None\n\n
+    writeConflict(final String filename)\n
     '''
 def writeParam():
-    '''public void writeParam(final String name)
+    '''returns None\n\n
+    writeParam(final String name)\n
     '''
 def writeBasis():
-    '''public void writeBasis(final String name)
+    '''returns None\n\n
+    writeBasis(final String name)\n
     '''
 def writeSolution():
-    '''public void writeSolution(final String name, final int soln)
-    public void writeSolution(final String name)
+    '''returns None\n\n
+    writeSolution(final String name, final int soln)\n
+    writeSolution(final String name)\n
     '''
 def writeSolutions():
-    '''public void writeSolutions(final String name)
+    '''returns None\n\n
+    writeSolutions(final String name)\n
     '''
 def writeMIPStarts():
-    '''public void writeMIPStarts(final String name, final int first, final int num)
-    public void writeMIPStarts(final String name, final int first)
-    public void writeMIPStarts(final String name)
+    '''returns None\n\n
+    writeMIPStarts(final String name, final int first, final int num)\n
+    writeMIPStarts(final String name, final int first)\n
+    writeMIPStarts(final String name)\n
     '''
 def readOrder():
-    '''public void readOrder(final String filename)
+    '''returns None\n\n
+    readOrder(final String filename)\n
     '''
 def readParam():
-    '''public void readParam(final String name)
+    '''returns None\n\n
+    readParam(final String name)\n
     '''
 def readBasis():
-    '''public void readBasis(final String name)
+    '''returns None\n\n
+    readBasis(final String name)\n
     '''
 def readSolution():
-    '''public void readSolution(final String name)
+    '''returns None\n\n
+    readSolution(final String name)\n
     '''
 def readMIPStarts():
-    '''public void readMIPStarts(final String name)
+    '''returns None\n\n
+    readMIPStarts(final String name)\n
     '''
 def writeBendersAnnotation():
-    '''public void writeBendersAnnotation(final String name)
+    '''returns None\n\n
+    writeBendersAnnotation(final String name)\n
     '''
 def readAnnotations():
-    '''public void readAnnotations(final String name)
+    '''returns None\n\n
+    readAnnotations(final String name)\n
     '''
 def writeAnnotations():
-    '''public void writeAnnotations(final String name)
+    '''returns None\n\n
+    writeAnnotations(final String name)\n
     '''
 def numLongAnnotations():
-    '''public int numLongAnnotations()
+    '''returns int\n\n
+    numLongAnnotations()\n
     '''
 def delAnnotation():
-    '''public void delAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation anno)
-    public void delAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation anno)
+    '''returns None\n\n
+    delAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation anno)\n
+    delAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation anno)\n
     '''
 def getName():
-    '''public String getName(final SWIGTYPE_p_IloCplex__LongAnnotation annotation)
-    public String getName(final SWIGTYPE_p_IloCplex__NumAnnotation annotation)
+    '''returns String\n\n
+    getName(final SWIGTYPE_p_IloCplex__LongAnnotation annotation)\n
+    getName(final SWIGTYPE_p_IloCplex__NumAnnotation annotation)\n
     '''
 def newLongAnnotation():
-    '''public SWIGTYPE_p_IloCplex__LongAnnotation newLongAnnotation(final String name, final long defval)
-    public SWIGTYPE_p_IloCplex__LongAnnotation newLongAnnotation(final String name)
+    '''returns SWIGTYPE_p_IloCplex__LongAnnotation\n\n
+    newLongAnnotation(final String name, final long defval)\n
+    newLongAnnotation(final String name)\n
     '''
 def findLongAnnotation():
-    '''public SWIGTYPE_p_IloCplex__LongAnnotation findLongAnnotation(final String name)
-    public SWIGTYPE_p_IloCplex__LongAnnotation findLongAnnotation(final int num)
+    '''returns SWIGTYPE_p_IloCplex__LongAnnotation\n\n
+    findLongAnnotation(final String name)\n
+    findLongAnnotation(final int num)\n
     '''
 def hasLongAnnotation():
-    '''public boolean hasLongAnnotation(final String name)
+    '''returns boolean\n\n
+    hasLongAnnotation(final String name)\n
     '''
 def getDefaultValue():
-    '''public long getDefaultValue(final SWIGTYPE_p_IloCplex__LongAnnotation annotation)
-    public double getDefaultValue(final SWIGTYPE_p_IloCplex__NumAnnotation annotation)
+    '''returns double\n\n
+    getDefaultValue(final SWIGTYPE_p_IloCplex__LongAnnotation annotation)\n
+    getDefaultValue(final SWIGTYPE_p_IloCplex__NumAnnotation annotation)\n
     '''
 def getAnnotation():
-    '''public long getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloNumVar var)
-    public long getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloIntVar var)
-    public long getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloObjective obj)
-    public long getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloConstraint ctr)
-    public void getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloNumVarArray var, final IloIntArrayBase value)
-    public void getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloIntVarArray var, final IloIntArrayBase value)
-    public void getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloConstraintArray ctr, final IloIntArrayBase value)
-    public double getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloNumVar var)
-    public double getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloIntVar var)
-    public double getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloObjective obj)
-    public double getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloConstraint ctr)
-    public void getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloNumVarArray var, final IloNumArray value)
-    public void getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloIntVarArray var, final IloNumArray value)
-    public void getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloConstraintArray ctr, final IloNumArray value)
+    '''returns None\n\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloNumVar var)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloIntVar var)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloObjective obj)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloConstraint ctr)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloNumVarArray var, final IloIntArrayBase value)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloIntVarArray var, final IloIntArrayBase value)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloConstraintArray ctr, final IloIntArrayBase value)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloNumVar var)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloIntVar var)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloObjective obj)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloConstraint ctr)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloNumVarArray var, final IloNumArray value)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloIntVarArray var, final IloNumArray value)\n
+    getAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloConstraintArray ctr, final IloNumArray value)\n
     '''
 def setAnnotation():
-    '''public void setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloNumVar var, final long value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloIntVar var, final long value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloObjective obj, final long value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloConstraint ctr, final long value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloNumVarArray var, final IloIntArrayBase value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloIntVarArray var, final IloIntArrayBase value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloConstraintArray ctr, final IloIntArrayBase value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloNumVar var, final double value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloIntVar var, final double value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloObjective obj, final double value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloConstraint ctr, final double value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloNumVarArray var, final IloNumArray value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloIntVarArray var, final IloNumArray value)
-    public void setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloConstraintArray ctr, final IloNumArray value)
+    '''returns None\n\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloNumVar var, final long value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloIntVar var, final long value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloObjective obj, final long value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloConstraint ctr, final long value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloNumVarArray var, final IloIntArrayBase value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloIntVarArray var, final IloIntArrayBase value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__LongAnnotation annotation, final IloConstraintArray ctr, final IloIntArrayBase value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloNumVar var, final double value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloIntVar var, final double value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloObjective obj, final double value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloConstraint ctr, final double value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloNumVarArray var, final IloNumArray value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloIntVarArray var, final IloNumArray value)\n
+    setAnnotation(final SWIGTYPE_p_IloCplex__NumAnnotation annotation, final IloConstraintArray ctr, final IloNumArray value)\n
     '''
 def numNumAnnotations():
-    '''public int numNumAnnotations()
+    '''returns int\n\n
+    numNumAnnotations()\n
     '''
 def newNumAnnotation():
-    '''public SWIGTYPE_p_IloCplex__NumAnnotation newNumAnnotation(final String name, final double defval)
-    public SWIGTYPE_p_IloCplex__NumAnnotation newNumAnnotation(final String name)
+    '''returns SWIGTYPE_p_IloCplex__NumAnnotation\n\n
+    newNumAnnotation(final String name, final double defval)\n
+    newNumAnnotation(final String name)\n
     '''
 def findNumAnnotation():
-    '''public SWIGTYPE_p_IloCplex__NumAnnotation findNumAnnotation(final String name)
-    public SWIGTYPE_p_IloCplex__NumAnnotation findNumAnnotation(final int num)
+    '''returns SWIGTYPE_p_IloCplex__NumAnnotation\n\n
+    findNumAnnotation(final String name)\n
+    findNumAnnotation(final int num)\n
     '''
 def hasNumAnnotation():
-    '''public boolean hasNumAnnotation(final String name)
+    '''returns boolean\n\n
+    hasNumAnnotation(final String name)\n
     '''
 def getObjective():
-    '''public IloObjective getObjective()
+    '''returns IloObjective\n\n
+    getObjective()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def getVersionNumber():
-    '''public int getVersionNumber()
+    '''returns int\n\n
+    getVersionNumber()\n
     '''
 def getNiterations64():
-    '''public long getNiterations64()
+    '''returns long\n\n
+    getNiterations64()\n
     '''
 def getNiterations():
-    '''public int getNiterations()
+    '''returns int\n\n
+    getNiterations()\n
     '''
 def getNbarrierIterations64():
-    '''public long getNbarrierIterations64()
+    '''returns long\n\n
+    getNbarrierIterations64()\n
     '''
 def getNbarrierIterations():
-    '''public int getNbarrierIterations()
+    '''returns int\n\n
+    getNbarrierIterations()\n
     '''
 def getNsiftingIterations64():
-    '''public long getNsiftingIterations64()
+    '''returns long\n\n
+    getNsiftingIterations64()\n
     '''
 def getNsiftingIterations():
-    '''public int getNsiftingIterations()
+    '''returns int\n\n
+    getNsiftingIterations()\n
     '''
 def getNsiftingPhaseOneIterations64():
-    '''public long getNsiftingPhaseOneIterations64()
+    '''returns long\n\n
+    getNsiftingPhaseOneIterations64()\n
     '''
 def getNsiftingPhaseOneIterations():
-    '''public int getNsiftingPhaseOneIterations()
+    '''returns int\n\n
+    getNsiftingPhaseOneIterations()\n
     '''
 def getNcols():
-    '''public int getNcols()
+    '''returns int\n\n
+    getNcols()\n
     '''
 def getNrows():
-    '''public int getNrows()
+    '''returns int\n\n
+    getNrows()\n
     '''
 def getNQCs():
-    '''public int getNQCs()
+    '''returns int\n\n
+    getNQCs()\n
     '''
 def getNSOSs():
-    '''public int getNSOSs()
+    '''returns int\n\n
+    getNSOSs()\n
     '''
 def getNindicators():
-    '''public int getNindicators()
+    '''returns int\n\n
+    getNindicators()\n
     '''
 def getNLCs():
-    '''public int getNLCs()
+    '''returns int\n\n
+    getNLCs()\n
     '''
 def getNUCs():
-    '''public int getNUCs()
+    '''returns int\n\n
+    getNUCs()\n
     '''
 def getNNZs():
-    '''public int getNNZs()
+    '''returns int\n\n
+    getNNZs()\n
     '''
 def getNNZs64():
-    '''public long getNNZs64()
+    '''returns long\n\n
+    getNNZs64()\n
     '''
 def getNintVars():
-    '''public int getNintVars()
+    '''returns int\n\n
+    getNintVars()\n
     '''
 def getNbinVars():
-    '''public int getNbinVars()
+    '''returns int\n\n
+    getNbinVars()\n
     '''
 def getNsemiContVars():
-    '''public int getNsemiContVars()
+    '''returns int\n\n
+    getNsemiContVars()\n
     '''
 def getNsemiIntVars():
-    '''public int getNsemiIntVars()
+    '''returns int\n\n
+    getNsemiIntVars()\n
     '''
 def solveFixed():
-    '''public boolean solveFixed(final int soln)
-    public boolean solveFixed()
+    '''returns boolean\n\n
+    solveFixed(final int soln)\n
+    solveFixed()\n
     '''
 def isMIP():
-    '''public boolean isMIP()
+    '''returns boolean\n\n
+    isMIP()\n
     '''
 def isQC():
-    '''public boolean isQC()
+    '''returns boolean\n\n
+    isQC()\n
     '''
 def isQO():
-    '''public boolean isQO()
+    '''returns boolean\n\n
+    isQO()\n
     '''
 def getBestObjValue():
-    '''public double getBestObjValue()
+    '''returns double\n\n
+    getBestObjValue()\n
     '''
 def getMIPRelativeGap():
-    '''public double getMIPRelativeGap()
+    '''returns double\n\n
+    getMIPRelativeGap()\n
     '''
 def getCutoff():
-    '''public double getCutoff()
+    '''returns double\n\n
+    getCutoff()\n
     '''
 def getIncumbentNode64():
-    '''public long getIncumbentNode64()
+    '''returns long\n\n
+    getIncumbentNode64()\n
     '''
 def getIncumbentNode():
-    '''public int getIncumbentNode()
+    '''returns int\n\n
+    getIncumbentNode()\n
     '''
 def getNprimalSuperbasics():
-    '''public int getNprimalSuperbasics()
+    '''returns int\n\n
+    getNprimalSuperbasics()\n
     '''
 def getNdualSuperbasics():
-    '''public int getNdualSuperbasics()
+    '''returns int\n\n
+    getNdualSuperbasics()\n
     '''
 def getNphaseOneIterations64():
-    '''public long getNphaseOneIterations64()
+    '''returns long\n\n
+    getNphaseOneIterations64()\n
     '''
 def getNphaseOneIterations():
-    '''public int getNphaseOneIterations()
+    '''returns int\n\n
+    getNphaseOneIterations()\n
     '''
 def getNnodes64():
-    '''public long getNnodes64()
+    '''returns long\n\n
+    getNnodes64()\n
     '''
 def getNnodes():
-    '''public int getNnodes()
+    '''returns int\n\n
+    getNnodes()\n
     '''
 def getNnodesLeft64():
-    '''public long getNnodesLeft64()
+    '''returns long\n\n
+    getNnodesLeft64()\n
     '''
 def getNnodesLeft():
-    '''public int getNnodesLeft()
+    '''returns int\n\n
+    getNnodesLeft()\n
     '''
 def getNcuts():
-    '''public int getNcuts(final CutType which)
+    '''returns int\n\n
+    getNcuts(final CutType which)\n
     '''
 def getNcrossPPush64():
-    '''public long getNcrossPPush64()
+    '''returns long\n\n
+    getNcrossPPush64()\n
     '''
 def getNcrossPPush():
-    '''public int getNcrossPPush()
+    '''returns int\n\n
+    getNcrossPPush()\n
     '''
 def getNcrossPExch64():
-    '''public long getNcrossPExch64()
+    '''returns long\n\n
+    getNcrossPExch64()\n
     '''
 def getNcrossPExch():
-    '''public int getNcrossPExch()
+    '''returns int\n\n
+    getNcrossPExch()\n
     '''
 def getNcrossDPush64():
-    '''public long getNcrossDPush64()
+    '''returns long\n\n
+    getNcrossDPush64()\n
     '''
 def getNcrossDPush():
-    '''public int getNcrossDPush()
+    '''returns int\n\n
+    getNcrossDPush()\n
     '''
 def getNcrossDExch64():
-    '''public long getNcrossDExch64()
+    '''returns long\n\n
+    getNcrossDExch64()\n
     '''
 def getNcrossDExch():
-    '''public int getNcrossDExch()
+    '''returns int\n\n
+    getNcrossDExch()\n
     '''
 def getValues():
-    '''public void getValues(final IloNumArray val, final IloNumVarArray var)
-    public void getValues(final IloNumVarArray var, final IloNumArray val)
-    public void getValues(final IloNumArray val, final IloIntVarArray var)
-    public void getValues(final IloIntVarArray var, final IloNumArray val)
-    public void getValues(final IloNumArray val, final IloNumVarArray var, final int soln)
-    public void getValues(final IloNumVarArray var, final IloNumArray val, final int soln)
-    public void getValues(final IloNumArray val, final IloIntVarArray var, final int soln)
-    public void getValues(final IloIntVarArray var, final IloNumArray val, final int soln)
+    '''returns None\n\n
+    getValues(final IloNumArray val, final IloNumVarArray var)\n
+    getValues(final IloNumVarArray var, final IloNumArray val)\n
+    getValues(final IloNumArray val, final IloIntVarArray var)\n
+    getValues(final IloIntVarArray var, final IloNumArray val)\n
+    getValues(final IloNumArray val, final IloNumVarArray var, final int soln)\n
+    getValues(final IloNumVarArray var, final IloNumArray val, final int soln)\n
+    getValues(final IloNumArray val, final IloIntVarArray var, final int soln)\n
+    getValues(final IloIntVarArray var, final IloNumArray val, final int soln)\n
     '''
 def getValue():
-    '''public double getValue(final IloNumVar var, final int soln)
-    public double getValue(final IloIntVar var, final int soln)
-    public double getValue(final IloNumExprArg expr, final int soln)
-    public double getValue(final IloObjective ob, final int soln)
+    '''returns double\n\n
+    getValue(final IloNumVar var, final int soln)\n
+    getValue(final IloIntVar var, final int soln)\n
+    getValue(final IloNumExprArg expr, final int soln)\n
+    getValue(final IloObjective ob, final int soln)\n
     '''
 def getObjValue():
-    '''public double getObjValue(final int soln)
+    '''returns double\n\n
+    getObjValue(final int soln)\n
     '''
 def getDual():
-    '''public double getDual(final IloRange range)
-    public double getDual(final IloForAllRange range)
+    '''returns double\n\n
+    getDual(final IloRange range)\n
+    getDual(final IloForAllRange range)\n
     '''
 def getSlack():
-    '''public double getSlack(final IloRange range, final int soln)
-    public double getSlack(final IloRange range)
-    public double getSlack(final IloForAllRange range, final int soln)
-    public double getSlack(final IloForAllRange range)
+    '''returns double\n\n
+    getSlack(final IloRange range, final int soln)\n
+    getSlack(final IloRange range)\n
+    getSlack(final IloForAllRange range, final int soln)\n
+    getSlack(final IloForAllRange range)\n
     '''
 def getInfeasibility():
-    '''public double getInfeasibility(final IloConstraint con)
-    public double getInfeasibility(final IloNumVar var)
-    public double getInfeasibility(final IloIntVar var)
+    '''returns double\n\n
+    getInfeasibility(final IloConstraint con)\n
+    getInfeasibility(final IloNumVar var)\n
+    getInfeasibility(final IloIntVar var)\n
     '''
 def getAX():
-    '''public double getAX(final IloRange range)
-    public void getAX(final IloNumArray val, final IloRangeArray con)
-    public double getAX(final IloForAllRange range)
-    public void getAX(final IloNumArray val, final IloForAllRangeArray con)
+    '''returns None\n\n
+    getAX(final IloRange range)\n
+    getAX(final IloNumArray val, final IloRangeArray con)\n
+    getAX(final IloForAllRange range)\n
+    getAX(final IloNumArray val, final IloForAllRangeArray con)\n
     '''
 def getReducedCost():
-    '''public double getReducedCost(final IloNumVar var)
-    public double getReducedCost(final IloIntVar var)
+    '''returns double\n\n
+    getReducedCost(final IloNumVar var)\n
+    getReducedCost(final IloIntVar var)\n
     '''
 def getQCDSlack():
-    '''public void getQCDSlack(final IloRange range, final IloNumArray vals, final IloNumVarArray vars)
-    public void getQCDSlack(final IloForAllRange range, final IloNumArray vals, final IloNumVarArray vars)
+    '''returns None\n\n
+    getQCDSlack(final IloRange range, final IloNumArray vals, final IloNumVarArray vars)\n
+    getQCDSlack(final IloForAllRange range, final IloNumArray vals, final IloNumVarArray vars)\n
     '''
 def getBasisStatus():
-    '''public BasisStatus getBasisStatus(final IloNumVar var)
-    public BasisStatus getBasisStatus(final IloIntVar var)
-    public BasisStatus getBasisStatus(final IloConstraint con)
+    '''returns BasisStatus\n\n
+    getBasisStatus(final IloNumVar var)\n
+    getBasisStatus(final IloIntVar var)\n
+    getBasisStatus(final IloConstraint con)\n
     '''
 def getDuals():
-    '''public void getDuals(final IloNumArray val, final IloRangeArray con)
-    public void getDuals(final IloNumArray val, final IloForAllRangeArray con)
+    '''returns None\n\n
+    getDuals(final IloNumArray val, final IloRangeArray con)\n
+    getDuals(final IloNumArray val, final IloForAllRangeArray con)\n
     '''
 def getSlacks():
-    '''public void getSlacks(final IloNumArray val, final IloRangeArray con, final int soln)
-    public void getSlacks(final IloNumArray val, final IloRangeArray con)
-    public void getSlacks(final IloNumArray val, final IloForAllRangeArray con, final int soln)
-    public void getSlacks(final IloNumArray val, final IloForAllRangeArray con)
+    '''returns None\n\n
+    getSlacks(final IloNumArray val, final IloRangeArray con, final int soln)\n
+    getSlacks(final IloNumArray val, final IloRangeArray con)\n
+    getSlacks(final IloNumArray val, final IloForAllRangeArray con, final int soln)\n
+    getSlacks(final IloNumArray val, final IloForAllRangeArray con)\n
     '''
 def getInfeasibilities():
-    '''public double getInfeasibilities(final IloNumArray infeas, final IloConstraintArray con)
-    public double getInfeasibilities(final IloNumArray infeas, final IloNumVarArray var)
-    public double getInfeasibilities(final IloNumArray infeas, final IloIntVarArray var)
+    '''returns double\n\n
+    getInfeasibilities(final IloNumArray infeas, final IloConstraintArray con)\n
+    getInfeasibilities(final IloNumArray infeas, final IloNumVarArray var)\n
+    getInfeasibilities(final IloNumArray infeas, final IloIntVarArray var)\n
     '''
 def getReducedCosts():
-    '''public void getReducedCosts(final IloNumArray val, final IloNumVarArray var)
-    public void getReducedCosts(final IloNumArray val, final IloIntVarArray var)
+    '''returns None\n\n
+    getReducedCosts(final IloNumArray val, final IloNumVarArray var)\n
+    getReducedCosts(final IloNumArray val, final IloIntVarArray var)\n
     '''
 def getBasisStatuses():
-    '''public void getBasisStatuses(final IloCplex__BasisStatusArray stat, final IloNumVarArray var)
-    public void getBasisStatuses(final IloCplex__BasisStatusArray stat, final IloIntVarArray var)
-    public void getBasisStatuses(final IloCplex__BasisStatusArray stat, final IloConstraintArray con)
-    public void getBasisStatuses(final IloCplex__BasisStatusArray cstat, final IloNumVarArray var, final IloCplex__BasisStatusArray rstat, final IloConstraintArray con)
-    public void getBasisStatuses(final IloCplex__BasisStatusArray cstat, final IloIntVarArray var, final IloCplex__BasisStatusArray rstat, final IloConstraintArray con)
+    '''returns None\n\n
+    getBasisStatuses(final IloCplex__BasisStatusArray stat, final IloNumVarArray var)\n
+    getBasisStatuses(final IloCplex__BasisStatusArray stat, final IloIntVarArray var)\n
+    getBasisStatuses(final IloCplex__BasisStatusArray stat, final IloConstraintArray con)\n
+    getBasisStatuses(final IloCplex__BasisStatusArray cstat, final IloNumVarArray var, final IloCplex__BasisStatusArray rstat, final IloConstraintArray con)\n
+    getBasisStatuses(final IloCplex__BasisStatusArray cstat, final IloIntVarArray var, final IloCplex__BasisStatusArray rstat, final IloConstraintArray con)\n
     '''
 def getBoundSA():
-    '''public void getBoundSA(final IloNumArray lblower, final IloNumArray lbupper, final IloNumArray ublower, final IloNumArray ubupper, final IloNumVarArray vars)
-    public void getBoundSA(final IloNumArray lblower, final IloNumArray lbupper, final IloNumArray ublower, final IloNumArray ubupper, final IloIntVarArray vars)
+    '''returns None\n\n
+    getBoundSA(final IloNumArray lblower, final IloNumArray lbupper, final IloNumArray ublower, final IloNumArray ubupper, final IloNumVarArray vars)\n
+    getBoundSA(final IloNumArray lblower, final IloNumArray lbupper, final IloNumArray ublower, final IloNumArray ubupper, final IloIntVarArray vars)\n
     '''
 def getRangeSA():
-    '''public void getRangeSA(final IloNumArray lblower, final IloNumArray lbupper, final IloNumArray ublower, final IloNumArray ubupper, final IloRangeArray con)
+    '''returns None\n\n
+    getRangeSA(final IloNumArray lblower, final IloNumArray lbupper, final IloNumArray ublower, final IloNumArray ubupper, final IloRangeArray con)\n
     '''
 def getRHSSA():
-    '''public void getRHSSA(final IloNumArray lower, final IloNumArray upper, final IloRangeArray cons)
+    '''returns None\n\n
+    getRHSSA(final IloNumArray lower, final IloNumArray upper, final IloRangeArray cons)\n
     '''
 def getObjSA():
-    '''public void getObjSA(final IloNumArray lower, final IloNumArray upper, final IloNumVarArray vars)
-    public void getObjSA(final IloNumArray lower, final IloNumArray upper, final IloIntVarArray cols)
+    '''returns None\n\n
+    getObjSA(final IloNumArray lower, final IloNumArray upper, final IloNumVarArray vars)\n
+    getObjSA(final IloNumArray lower, final IloNumArray upper, final IloIntVarArray cols)\n
     '''
 def getForAllRanges():
-    '''public void getForAllRanges(final IloForAllRangeArray rows, final IloConstraint forall)
+    '''returns None\n\n
+    getForAllRanges(final IloForAllRangeArray rows, final IloConstraint forall)\n
     '''
 def getLB():
-    '''public double getLB(final IloForAllRange range)
+    '''returns double\n\n
+    getLB(final IloForAllRange range)\n
     '''
 def getUB():
-    '''public double getUB(final IloForAllRange range)
+    '''returns double\n\n
+    getUB(final IloForAllRange range)\n
     '''
 def feasOpt():
-    '''public boolean feasOpt(final IloRangeArray rngs, final IloNumArray rnglb, final IloNumArray rngub, final IloForAllRangeArray rngf, final IloNumArray frnglb, final IloNumArray frngub, final IloNumVarArray vars, final IloNumArray varlb, final IloNumArray varub)
-    public boolean feasOpt(final IloRangeArray rngs, final IloNumArray rnglb, final IloNumArray rngub, final IloNumVarArray vars, final IloNumArray varlb, final IloNumArray varub)
-    public boolean feasOpt(final IloRangeArray rngs, final IloNumArray rnglb, final IloNumArray rngub, final IloIntVarArray vars, final IloNumArray varlb, final IloNumArray varub)
-    public boolean feasOpt(final IloNumVarArray vars, final IloNumArray varlb, final IloNumArray varub)
-    public boolean feasOpt(final IloIntVarArray vars, final IloNumArray varlb, final IloNumArray varub)
-    public boolean feasOpt(final IloRangeArray rngs, final IloNumArray rnglb, final IloNumArray rngub)
-    public boolean feasOpt(final IloConstraintArray cts, final IloNumArray prefs)
+    '''returns boolean\n\n
+    feasOpt(final IloRangeArray rngs, final IloNumArray rnglb, final IloNumArray rngub, final IloForAllRangeArray rngf, final IloNumArray frnglb, final IloNumArray frngub, final IloNumVarArray vars, final IloNumArray varlb, final IloNumArray varub)\n
+    feasOpt(final IloRangeArray rngs, final IloNumArray rnglb, final IloNumArray rngub, final IloNumVarArray vars, final IloNumArray varlb, final IloNumArray varub)\n
+    feasOpt(final IloRangeArray rngs, final IloNumArray rnglb, final IloNumArray rngub, final IloIntVarArray vars, final IloNumArray varlb, final IloNumArray varub)\n
+    feasOpt(final IloNumVarArray vars, final IloNumArray varlb, final IloNumArray varub)\n
+    feasOpt(final IloIntVarArray vars, final IloNumArray varlb, final IloNumArray varub)\n
+    feasOpt(final IloRangeArray rngs, final IloNumArray rnglb, final IloNumArray rngub)\n
+    feasOpt(final IloConstraintArray cts, final IloNumArray prefs)\n
     '''
 def setBasisStatuses():
-    '''public void setBasisStatuses(final IloCplex__BasisStatusArray cstat, final IloNumVarArray var, final IloCplex__BasisStatusArray rstat, final IloConstraintArray con)
-    public void setBasisStatuses(final IloCplex__BasisStatusArray cstat, final IloIntVarArray var, final IloCplex__BasisStatusArray rstat, final IloConstraintArray con)
+    '''returns None\n\n
+    setBasisStatuses(final IloCplex__BasisStatusArray cstat, final IloNumVarArray var, final IloCplex__BasisStatusArray rstat, final IloConstraintArray con)\n
+    setBasisStatuses(final IloCplex__BasisStatusArray cstat, final IloIntVarArray var, final IloCplex__BasisStatusArray rstat, final IloConstraintArray con)\n
     '''
 def setStart():
-    '''public void setStart(final IloNumArray x, final IloNumArray dj, final IloNumVarArray var, final IloNumArray slack, final IloNumArray pi, final IloRangeArray rng)
-    public void setStart(final IloNumArray x, final IloNumArray dj, final IloIntVarArray var, final IloNumArray slack, final IloNumArray pi, final IloRangeArray rng)
+    '''returns None\n\n
+    setStart(final IloNumArray x, final IloNumArray dj, final IloNumVarArray var, final IloNumArray slack, final IloNumArray pi, final IloRangeArray rng)\n
+    setStart(final IloNumArray x, final IloNumArray dj, final IloIntVarArray var, final IloNumArray slack, final IloNumArray pi, final IloRangeArray rng)\n
     '''
 def getNMIPStarts():
-    '''public int getNMIPStarts()
+    '''returns int\n\n
+    getNMIPStarts()\n
     '''
 def addMIPStart():
-    '''public int addMIPStart(final IloNumVarArray vars, final IloNumArray values, final MIPStartEffort effort, final String name)
-    public int addMIPStart(final IloNumVarArray vars, final IloNumArray values, final MIPStartEffort effort)
-    public int addMIPStart(final IloNumVarArray vars, final IloNumArray values)
-    public int addMIPStart(final IloNumVarArray vars)
-    public int addMIPStart()
+    '''returns int\n\n
+    addMIPStart(final IloNumVarArray vars, final IloNumArray values, final MIPStartEffort effort, final String name)\n
+    addMIPStart(final IloNumVarArray vars, final IloNumArray values, final MIPStartEffort effort)\n
+    addMIPStart(final IloNumVarArray vars, final IloNumArray values)\n
+    addMIPStart(final IloNumVarArray vars)\n
+    addMIPStart()\n
     '''
 def changeMIPStart():
-    '''public void changeMIPStart(final int mipstartindex, final IloNumVarArray vars, final IloNumArray values)
-    public void changeMIPStart(final int mipstartindex, final IloNumVarArray vars, final IloNumArray values, final MIPStartEffort effortlevel)
+    '''returns None\n\n
+    changeMIPStart(final int mipstartindex, final IloNumVarArray vars, final IloNumArray values)\n
+    changeMIPStart(final int mipstartindex, final IloNumVarArray vars, final IloNumArray values, final MIPStartEffort effortlevel)\n
     '''
 def deleteMIPStarts():
-    '''public void deleteMIPStarts(final int first, final int num)
-    public void deleteMIPStarts(final int first)
+    '''returns None\n\n
+    deleteMIPStarts(final int first, final int num)\n
+    deleteMIPStarts(final int first)\n
     '''
 def getMIPStart():
-    '''public MIPStartEffort getMIPStart(final int mipstartindex, final IloNumVarArray vars, final IloNumArray vals, final SWIGTYPE_p_IloBoolArray isset)
+    '''returns MIPStartEffort\n\n
+    getMIPStart(final int mipstartindex, final IloNumVarArray vars, final IloNumArray vals, final SWIGTYPE_p_IloBoolArray isset)\n
     '''
 def getMIPStartName():
-    '''public String getMIPStartName(final int mipstartindex)
+    '''returns String\n\n
+    getMIPStartName(final int mipstartindex)\n
     '''
 def getMIPStartIndex():
-    '''public int getMIPStartIndex(final String lname_str)
+    '''returns int\n\n
+    getMIPStartIndex(final String lname_str)\n
     '''
 def setDefaults():
-    '''public void setDefaults()
+    '''returns None\n\n
+    setDefaults()\n
     '''
 def setIntParam():
-    '''public void setIntParam(final IntParam parameter, final int value)
+    '''returns None\n\n
+    setIntParam(final IntParam parameter, final int value)\n
     '''
 def setLongParam():
-    '''public void setLongParam(final LongParam parameter, final long value)
+    '''returns None\n\n
+    setLongParam(final LongParam parameter, final long value)\n
     '''
 def setBoolParam():
-    '''public void setBoolParam(final BoolParam parameter, final boolean value)
+    '''returns None\n\n
+    setBoolParam(final BoolParam parameter, final boolean value)\n
     '''
 def setNumParam():
-    '''public void setNumParam(final NumParam parameter, final double value)
+    '''returns None\n\n
+    setNumParam(final NumParam parameter, final double value)\n
     '''
 def setStringParam():
-    '''public void setStringParam(final StringParam parameter, final String value)
+    '''returns None\n\n
+    setStringParam(final StringParam parameter, final String value)\n
     '''
 def getIntParam():
-    '''public int getIntParam(final IntParam parameter)
+    '''returns int\n\n
+    getIntParam(final IntParam parameter)\n
     '''
 def getLongParam():
-    '''public long getLongParam(final LongParam parameter)
+    '''returns long\n\n
+    getLongParam(final LongParam parameter)\n
     '''
 def getBoolParam():
-    '''public boolean getBoolParam(final BoolParam parameter)
+    '''returns boolean\n\n
+    getBoolParam(final BoolParam parameter)\n
     '''
 def getNumParam():
-    '''public double getNumParam(final NumParam parameter)
+    '''returns double\n\n
+    getNumParam(final NumParam parameter)\n
     '''
 def getStringParam():
-    '''public String getStringParam(final StringParam parameter)
+    '''returns String\n\n
+    getStringParam(final StringParam parameter)\n
     '''
 def getDefaultBoolParam():
-    '''public boolean getDefaultBoolParam(final BoolParam parameter)
+    '''returns boolean\n\n
+    getDefaultBoolParam(final BoolParam parameter)\n
     '''
 def getDefaultIntParam():
-    '''public int getDefaultIntParam(final IntParam parameter)
+    '''returns int\n\n
+    getDefaultIntParam(final IntParam parameter)\n
     '''
 def getDefaultLongParam():
-    '''public long getDefaultLongParam(final LongParam parameter)
+    '''returns long\n\n
+    getDefaultLongParam(final LongParam parameter)\n
     '''
 def getDefaultNumParam():
-    '''public double getDefaultNumParam(final NumParam parameter)
+    '''returns double\n\n
+    getDefaultNumParam(final NumParam parameter)\n
     '''
 def getDefaultStringParam():
-    '''public String getDefaultStringParam(final StringParam parameter)
+    '''returns String\n\n
+    getDefaultStringParam(final StringParam parameter)\n
     '''
 def getMinIntParam():
-    '''public int getMinIntParam(final IntParam parameter)
+    '''returns int\n\n
+    getMinIntParam(final IntParam parameter)\n
     '''
 def getMinLongParam():
-    '''public long getMinLongParam(final LongParam parameter)
+    '''returns long\n\n
+    getMinLongParam(final LongParam parameter)\n
     '''
 def getMinNumParam():
-    '''public double getMinNumParam(final NumParam parameter)
+    '''returns double\n\n
+    getMinNumParam(final NumParam parameter)\n
     '''
 def getMaxIntParam():
-    '''public int getMaxIntParam(final IntParam parameter)
+    '''returns int\n\n
+    getMaxIntParam(final IntParam parameter)\n
     '''
 def getMaxLongParam():
-    '''public long getMaxLongParam(final LongParam parameter)
+    '''returns long\n\n
+    getMaxLongParam(final LongParam parameter)\n
     '''
 def getMaxNumParam():
-    '''public double getMaxNumParam(final NumParam parameter)
+    '''returns double\n\n
+    getMaxNumParam(final NumParam parameter)\n
     '''
 def getParameterSet():
-    '''public IloCplex__ParameterSet getParameterSet()
+    '''returns IloCplex__ParameterSet\n\n
+    getParameterSet()\n
     '''
 def setParameterSet():
-    '''public void setParameterSet(final IloCplex__ParameterSet set)
+    '''returns None\n\n
+    setParameterSet(final IloCplex__ParameterSet set)\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def getCplexStatus():
-    '''public CplexStatus getCplexStatus()
+    '''returns CplexStatus\n\n
+    getCplexStatus()\n
     '''
 def getCplexSubStatus():
-    '''public CplexStatus getCplexSubStatus()
+    '''returns CplexStatus\n\n
+    getCplexSubStatus()\n
     '''
 def isPrimalFeasible():
-    '''public boolean isPrimalFeasible()
+    '''returns boolean\n\n
+    isPrimalFeasible()\n
     '''
 def isDualFeasible():
-    '''public boolean isDualFeasible()
+    '''returns boolean\n\n
+    isDualFeasible()\n
     '''
 def getAlgorithm():
-    '''public Algorithm getAlgorithm()
+    '''returns Algorithm\n\n
+    getAlgorithm()\n
     '''
 def getSubAlgorithm():
-    '''public Algorithm getSubAlgorithm()
+    '''returns Algorithm\n\n
+    getSubAlgorithm()\n
     '''
 def setDeleteMode():
-    '''public void setDeleteMode(final DeleteMode mode)
+    '''returns None\n\n
+    setDeleteMode(final DeleteMode mode)\n
     '''
 def getDeleteMode():
-    '''public DeleteMode getDeleteMode()
+    '''returns DeleteMode\n\n
+    getDeleteMode()\n
     '''
 def populate():
-    '''public boolean populate()
+    '''returns boolean\n\n
+    populate()\n
     '''
 def tuneParam():
-    '''public int tuneParam(final IloStringArrayBase filename, final IloCplex__ParameterSet fixedset)
-    public int tuneParam()
-    public int tuneParam(final IloCplex__ParameterSet fixedset)
-    public int tuneParam(final IloStringArrayBase filename)
+    '''returns int\n\n
+    tuneParam(final IloStringArrayBase filename, final IloCplex__ParameterSet fixedset)\n
+    tuneParam()\n
+    tuneParam(final IloCplex__ParameterSet fixedset)\n
+    tuneParam(final IloStringArrayBase filename)\n
     '''
 def refineConflict():
-    '''public boolean refineConflict(final IloConstraintArray cons, final IloNumArray prefs)
+    '''returns boolean\n\n
+    refineConflict(final IloConstraintArray cons, final IloNumArray prefs)\n
     '''
 def refineMIPStartConflict():
-    '''public boolean refineMIPStartConflict(final int mipstartindex, final IloConstraintArray cons, final IloNumArray prefs)
+    '''returns boolean\n\n
+    refineMIPStartConflict(final int mipstartindex, final IloConstraintArray cons, final IloNumArray prefs)\n
     '''
 def getConflict():
-    '''public IloCplex__ConflictStatusArray getConflict(final IloConstraintArray cons)
-    public ConflictStatus getConflict(final IloConstraint con)
+    '''returns ConflictStatus\n\n
+    getConflict(final IloConstraintArray cons)\n
+    getConflict(final IloConstraint con)\n
     '''
 def getQuality():
-    '''public double getQuality(final Quality q, final IloNumVar var, final IloConstraint rng)
-    public double getQuality(final Quality q, final IloNumVar var)
-    public double getQuality(final Quality q)
-    public double getQuality(final Quality q, final IloConstraint rng, final IloNumVar var)
-    public double getQuality(final Quality q, final IloConstraint rng)
-    public double getQuality(final Quality q, final int soln, final IloConstraint rng, final IloNumVar var)
-    public double getQuality(final Quality q, final int soln, final IloConstraint rng)
-    public double getQuality(final Quality q, final int soln, final IloNumVar var, final IloConstraint rng)
-    public double getQuality(final Quality q, final int soln, final IloNumVar var)
-    public double getQuality(final Quality q, final int soln)
+    '''returns double\n\n
+    getQuality(final Quality q, final IloNumVar var, final IloConstraint rng)\n
+    getQuality(final Quality q, final IloNumVar var)\n
+    getQuality(final Quality q)\n
+    getQuality(final Quality q, final IloConstraint rng, final IloNumVar var)\n
+    getQuality(final Quality q, final IloConstraint rng)\n
+    getQuality(final Quality q, final int soln, final IloConstraint rng, final IloNumVar var)\n
+    getQuality(final Quality q, final int soln, final IloConstraint rng)\n
+    getQuality(final Quality q, final int soln, final IloNumVar var, final IloConstraint rng)\n
+    getQuality(final Quality q, final int soln, final IloNumVar var)\n
+    getQuality(final Quality q, final int soln)\n
     '''
 def setPriority():
-    '''public void setPriority(final IloNumVar var, final double pri)
-    public void setPriority(final IloIntVar var, final double pri)
+    '''returns None\n\n
+    setPriority(final IloNumVar var, final double pri)\n
+    setPriority(final IloIntVar var, final double pri)\n
     '''
 def setPriorities():
-    '''public void setPriorities(final IloNumVarArray var, final IloNumArray pri)
-    public void setPriorities(final IloIntVarArray var, final IloNumArray pri)
+    '''returns None\n\n
+    setPriorities(final IloNumVarArray var, final IloNumArray pri)\n
+    setPriorities(final IloIntVarArray var, final IloNumArray pri)\n
     '''
 def setDirection():
-    '''public void setDirection(final IloNumVar var, final BranchDirection dir)
-    public void setDirection(final IloIntVar var, final BranchDirection dir)
+    '''returns None\n\n
+    setDirection(final IloNumVar var, final BranchDirection dir)\n
+    setDirection(final IloIntVar var, final BranchDirection dir)\n
     '''
 def setDirections():
-    '''public void setDirections(final IloNumVarArray var, final IloCplex__BranchDirectionArray dir)
-    public void setDirections(final IloIntVarArray var, final IloCplex__BranchDirectionArray dir)
+    '''returns None\n\n
+    setDirections(final IloNumVarArray var, final IloCplex__BranchDirectionArray dir)\n
+    setDirections(final IloIntVarArray var, final IloCplex__BranchDirectionArray dir)\n
     '''
 def delPriority():
-    '''public void delPriority(final IloNumVar var)
-    public void delPriority(final IloIntVar var)
+    '''returns None\n\n
+    delPriority(final IloNumVar var)\n
+    delPriority(final IloIntVar var)\n
     '''
 def delPriorities():
-    '''public void delPriorities(final IloNumVarArray var)
-    public void delPriorities(final IloIntVarArray var)
+    '''returns None\n\n
+    delPriorities(final IloNumVarArray var)\n
+    delPriorities(final IloIntVarArray var)\n
     '''
 def delDirection():
-    '''public void delDirection(final IloNumVar var)
-    public void delDirection(final IloIntVar var)
+    '''returns None\n\n
+    delDirection(final IloNumVar var)\n
+    delDirection(final IloIntVar var)\n
     '''
 def delDirections():
-    '''public void delDirections(final IloNumVarArray var)
-    public void delDirections(final IloIntVarArray var)
+    '''returns None\n\n
+    delDirections(final IloNumVarArray var)\n
+    delDirections(final IloIntVarArray var)\n
     '''
 def getPriority():
-    '''public double getPriority(final IloNumVar var)
-    public double getPriority(final IloIntVar var)
+    '''returns double\n\n
+    getPriority(final IloNumVar var)\n
+    getPriority(final IloIntVar var)\n
     '''
 def getDirection():
-    '''public BranchDirection getDirection(final IloNumVar var)
-    public BranchDirection getDirection(final IloIntVar var)
+    '''returns BranchDirection\n\n
+    getDirection(final IloNumVar var)\n
+    getDirection(final IloIntVar var)\n
     '''
 def getPriorities():
-    '''public void getPriorities(final IloNumArray pri, final IloNumVarArray var)
-    public void getPriorities(final IloNumArray pri, final IloIntVarArray var)
+    '''returns None\n\n
+    getPriorities(final IloNumArray pri, final IloNumVarArray var)\n
+    getPriorities(final IloNumArray pri, final IloIntVarArray var)\n
     '''
 def getDirections():
-    '''public void getDirections(final IloCplex__BranchDirectionArray dir, final IloNumVarArray var)
-    public void getDirections(final IloCplex__BranchDirectionArray dir, final IloIntVarArray var)
+    '''returns None\n\n
+    getDirections(final IloCplex__BranchDirectionArray dir, final IloNumVarArray var)\n
+    getDirections(final IloCplex__BranchDirectionArray dir, final IloIntVarArray var)\n
     '''
 def basicPresolve():
-    '''public void basicPresolve(final IloNumVarArray vars, final IloNumArray redlb, final IloNumArray redub, final IloRangeArray rngs, final SWIGTYPE_p_IloBoolArray redundant)
-    public void basicPresolve(final IloNumVarArray vars, final IloNumArray redlb, final IloNumArray redub, final IloRangeArray rngs)
-    public void basicPresolve(final IloNumVarArray vars, final IloNumArray redlb, final IloNumArray redub)
-    public void basicPresolve(final IloNumVarArray vars, final IloNumArray redlb)
-    public void basicPresolve(final IloNumVarArray vars)
-    public void basicPresolve(final IloIntVarArray vars, final IloNumArray redlb, final IloNumArray redub, final IloRangeArray rngs, final SWIGTYPE_p_IloBoolArray redundant)
-    public void basicPresolve(final IloIntVarArray vars, final IloNumArray redlb, final IloNumArray redub, final IloRangeArray rngs)
-    public void basicPresolve(final IloIntVarArray vars, final IloNumArray redlb, final IloNumArray redub)
-    public void basicPresolve(final IloIntVarArray vars, final IloNumArray redlb)
-    public void basicPresolve(final IloIntVarArray vars)
+    '''returns None\n\n
+    basicPresolve(final IloNumVarArray vars, final IloNumArray redlb, final IloNumArray redub, final IloRangeArray rngs, final SWIGTYPE_p_IloBoolArray redundant)\n
+    basicPresolve(final IloNumVarArray vars, final IloNumArray redlb, final IloNumArray redub, final IloRangeArray rngs)\n
+    basicPresolve(final IloNumVarArray vars, final IloNumArray redlb, final IloNumArray redub)\n
+    basicPresolve(final IloNumVarArray vars, final IloNumArray redlb)\n
+    basicPresolve(final IloNumVarArray vars)\n
+    basicPresolve(final IloIntVarArray vars, final IloNumArray redlb, final IloNumArray redub, final IloRangeArray rngs, final SWIGTYPE_p_IloBoolArray redundant)\n
+    basicPresolve(final IloIntVarArray vars, final IloNumArray redlb, final IloNumArray redub, final IloRangeArray rngs)\n
+    basicPresolve(final IloIntVarArray vars, final IloNumArray redlb, final IloNumArray redub)\n
+    basicPresolve(final IloIntVarArray vars, final IloNumArray redlb)\n
+    basicPresolve(final IloIntVarArray vars)\n
     '''
 def freePresolve():
-    '''public void freePresolve()
+    '''returns None\n\n
+    freePresolve()\n
     '''
 def presolve():
-    '''public void presolve(final SWIGTYPE_p_IloCplex__Algorithm alg)
+    '''returns None\n\n
+    presolve(final SWIGTYPE_p_IloCplex__Algorithm alg)\n
     '''
 def getDiverging():
-    '''public IloExtractable getDiverging()
+    '''returns IloExtractable\n\n
+    getDiverging()\n
     '''
 def getRay():
-    '''public void getRay(final IloNumArray vals, final IloNumVarArray vars)
+    '''returns None\n\n
+    getRay(final IloNumArray vals, final IloNumVarArray vars)\n
     '''
 def dualFarkas():
-    '''public double dualFarkas(final IloConstraintArray rng, final IloNumArray y)
+    '''returns double\n\n
+    dualFarkas(final IloConstraintArray rng, final IloNumArray y)\n
     '''
 def qpIndefCertificate():
-    '''public void qpIndefCertificate(final IloNumVarArray var, final IloNumArray x)
-    public void qpIndefCertificate(final IloIntVarArray var, final IloNumArray x)
+    '''returns None\n\n
+    qpIndefCertificate(final IloNumVarArray var, final IloNumArray x)\n
+    qpIndefCertificate(final IloIntVarArray var, final IloNumArray x)\n
     '''
 def protectVariables():
-    '''public void protectVariables(final IloNumVarArray var)
-    public void protectVariables(final IloIntVarArray var)
+    '''returns None\n\n
+    protectVariables(final IloNumVarArray var)\n
+    protectVariables(final IloIntVarArray var)\n
     '''
 def use():
-    '''public IloCplex__Aborter use(final IloCplex__Aborter abort)
-    public IloCplex__Callback use(final IloCplex__Callback cb)
+    '''returns IloCplex__Callback\n\n
+    use(final IloCplex__Aborter abort)\n
+    use(final IloCplex__Callback cb)\n
     '''
 def getAborter():
-    '''public IloCplex__Aborter getAborter()
+    '''returns IloCplex__Aborter\n\n
+    getAborter()\n
     '''
 def remove():
-    '''public void remove(final IloCplex__Aborter abort)
-    public void remove(final IloCplex__Callback cb)
+    '''returns None\n\n
+    remove(final IloCplex__Aborter abort)\n
+    remove(final IloCplex__Callback cb)\n
     '''
 def solve():
-    '''public boolean solve()
-    public boolean solve(final IloCplex__Goal goal)
+    '''returns boolean\n\n
+    solve()\n
+    solve(final IloCplex__Goal goal)\n
     '''
 def setFormulationEpsValue():
-    '''public void setFormulationEpsValue(final double eps)
+    '''returns None\n\n
+    setFormulationEpsValue(final double eps)\n
     '''
 def getFormulationEpsValue():
-    '''public double getFormulationEpsValue()
+    '''returns double\n\n
+    getFormulationEpsValue()\n
     '''
 def getSolnPoolMeanObjValue():
-    '''public double getSolnPoolMeanObjValue()
+    '''returns double\n\n
+    getSolnPoolMeanObjValue()\n
     '''
 def getSolnPoolNsolns():
-    '''public int getSolnPoolNsolns()
+    '''returns int\n\n
+    getSolnPoolNsolns()\n
     '''
 def getSolnPoolNreplaced():
-    '''public int getSolnPoolNreplaced()
+    '''returns int\n\n
+    getSolnPoolNreplaced()\n
     '''
 def delSolnPoolSoln():
-    '''public void delSolnPoolSoln(final int which)
+    '''returns None\n\n
+    delSolnPoolSoln(final int which)\n
     '''
 def delSolnPoolSolns():
-    '''public void delSolnPoolSolns(final int begin, final int end)
+    '''returns None\n\n
+    delSolnPoolSolns(final int begin, final int end)\n
     '''
 def getCplexTime():
-    '''public double getCplexTime()
+    '''returns double\n\n
+    getCplexTime()\n
     '''
 def getDetTime():
-    '''public double getDetTime()
+    '''returns double\n\n
+    getDetTime()\n
     '''
 def getNumCores():
-    '''public int getNumCores()
-    '''
-def GetVersion():
-    '''public static void GetVersion(final String buffer, final int len)
-    '''
-def GetAcademicMsg():
-    '''public static void GetAcademicMsg(final String buffer, final int len)
-    '''
-def GetPreviewMsg():
-    '''public static void GetPreviewMsg(final String buffer, final int len)
-    '''
-def Apply():
-    '''public static IloCplex__Goal Apply(final IloCplex cplex, final IloCplex__Goal goal, final IloCplex__NodeEvaluator eval)
-    '''
-def LimitSearch():
-    '''public static IloCplex__Goal LimitSearch(final IloCplex cplex, final IloCplex__Goal goal, final SWIGTYPE_p_SearchLimit limit)
+    '''returns int\n\n
+    getNumCores()\n
     '''
 def add():
-    '''public IloCplex__Callback add(final IloCplex__Callback cb)
+    '''returns IloCplex__Callback\n\n
+    add(final IloCplex__Callback cb)\n
     '''
 def inUse():
-    '''public boolean inUse(final IloCplex__Callback cb)
+    '''returns boolean\n\n
+    inUse(final IloCplex__Callback cb)\n
     '''
 def _readVMConfig():
-    '''public void _readVMConfig(final String f)
+    '''returns None\n\n
+    _readVMConfig(final String f)\n
     '''
 def _copyVMConfig():
-    '''public void _copyVMConfig(final String f)
+    '''returns None\n\n
+    _copyVMConfig(final String f)\n
     '''
 def mySwigValue():
-    '''public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    public int mySwigValue()
-    '''
-def swigValue():
-    '''public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
-    public final int swigValue()
+    '''returns int\n\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
+    mySwigValue()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    '''
-def swigToEnum():
-    '''public static WriteLevelType swigToEnum(final int swigValue)
-    public static BasisStatus swigToEnum(final int swigValue)
-    public static CutType swigToEnum(final int swigValue)
-    public static MIPStartEffort swigToEnum(final int swigValue)
-    public static NumParam swigToEnum(final int swigValue)
-    public static BoolParam swigToEnum(final int swigValue)
-    public static IntParam swigToEnum(final int swigValue)
-    public static LongParam swigToEnum(final int swigValue)
-    public static StringParam swigToEnum(final int swigValue)
-    public static MIPEmphasisType swigToEnum(final int swigValue)
-    public static OptimalityTargetType swigToEnum(final int swigValue)
-    public static VariableSelect swigToEnum(final int swigValue)
-    public static NodeSelect swigToEnum(final int swigValue)
-    public static DistMIPRampupDuration swigToEnum(final int swigValue)
-    public static PrimalPricing swigToEnum(final int swigValue)
-    public static ConflictAlgorithm swigToEnum(final int swigValue)
-    public static Parallel_Mode swigToEnum(final int swigValue)
-    public static MIPsearch swigToEnum(final int swigValue)
-    public static DataCheckType swigToEnum(final int swigValue)
-    public static DualPricing swigToEnum(final int swigValue)
-    public static BranchDirection swigToEnum(final int swigValue)
-    public static Algorithm swigToEnum(final int swigValue)
-    public static Relaxation swigToEnum(final int swigValue)
-    public static BendersStrategyType swigToEnum(final int swigValue)
-    public static CplexStatus swigToEnum(final int swigValue)
-    public static DeleteMode swigToEnum(final int swigValue)
-    public static TuningStatus swigToEnum(final int swigValue)
-    public static ConflictStatus swigToEnum(final int swigValue)
-    public static Quality swigToEnum(final int swigValue)
-    public static CutManagement swigToEnum(final int swigValue)
-    public static FilterType swigToEnum(final int swigValue)
-    '''
-def WriteLevelType():
-    '''public WriteLevelType(final String swigName, final int swigValue)
-    '''
-def BasisStatus():
-    '''public BasisStatus(final String swigName, final int swigValue)
-    '''
-def CutType():
-    '''public CutType(final String swigName, final int swigValue)
-    '''
-def MIPStartEffort():
-    '''public MIPStartEffort(final String swigName, final int swigValue)
-    '''
-def NumParam():
-    '''public NumParam(final String swigName, final int swigValue)
-    '''
-def BoolParam():
-    '''public BoolParam(final String swigName, final int swigValue)
-    '''
-def IntParam():
-    '''public IntParam(final String swigName, final int swigValue)
-    '''
-def LongParam():
-    '''public LongParam(final String swigName, final int swigValue)
-    '''
-def StringParam():
-    '''public StringParam(final String swigName, final int swigValue)
-    '''
-def MIPEmphasisType():
-    '''public MIPEmphasisType(final String swigName, final int swigValue)
-    '''
-def OptimalityTargetType():
-    '''public OptimalityTargetType(final String swigName, final int swigValue)
-    '''
-def VariableSelect():
-    '''public VariableSelect(final String swigName, final int swigValue)
-    '''
-def NodeSelect():
-    '''public NodeSelect(final String swigName, final int swigValue)
-    '''
-def DistMIPRampupDuration():
-    '''public DistMIPRampupDuration(final String swigName, final int swigValue)
-    '''
-def PrimalPricing():
-    '''public PrimalPricing(final String swigName, final int swigValue)
-    '''
-def ConflictAlgorithm():
-    '''public ConflictAlgorithm(final String swigName, final int swigValue)
-    '''
-def Parallel_Mode():
-    '''public Parallel_Mode(final String swigName, final int swigValue)
-    '''
-def MIPsearch():
-    '''public MIPsearch(final String swigName, final int swigValue)
-    '''
-def DataCheckType():
-    '''public DataCheckType(final String swigName, final int swigValue)
-    '''
-def DualPricing():
-    '''public DualPricing(final String swigName, final int swigValue)
-    '''
-def BranchDirection():
-    '''public BranchDirection(final String swigName, final int swigValue)
-    '''
-def Algorithm():
-    '''public Algorithm(final String swigName, final int swigValue)
-    '''
-def Relaxation():
-    '''public Relaxation(final String swigName, final int swigValue)
-    '''
-def BendersStrategyType():
-    '''public BendersStrategyType(final String swigName, final int swigValue)
-    '''
-def CplexStatus():
-    '''public CplexStatus(final String swigName, final int swigValue)
-    '''
-def DeleteMode():
-    '''public DeleteMode(final String swigName, final int swigValue)
-    '''
-def TuningStatus():
-    '''public TuningStatus(final String swigName, final int swigValue)
-    '''
-def ConflictStatus():
-    '''public ConflictStatus(final String swigName, final int swigValue)
-    '''
-def Quality():
-    '''public Quality(final String swigName, final int swigValue)
-    '''
-def CutManagement():
-    '''public CutManagement(final String swigName, final int swigValue)
-    '''
-def FilterType():
-    '''public FilterType(final String swigName, final int swigValue)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

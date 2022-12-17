@@ -1,12 +1,16 @@
-def BrowseJMSQueueResourceHandler():
-    '''public BrowseJMSQueueResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns BrowseJMSQueueResourceHandler\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''
 def getMessage():
-    '''public BusResource getMessage(final String meaId, final String queueName)
+    '''returns BusResource\n\n
+    getMessage(final String meaId, final String queueName)\n
     '''
 def browseMessages():
-    '''public BusResourceCollection browseMessages(final String queueURI, final String queueName, final BusRequest request)
+    '''returns BusResourceCollection\n\n
+    browseMessages(final String queueURI, final String queueName, final BusRequest request)\n
     '''

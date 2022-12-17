@@ -1,9 +1,12 @@
-def PMCommitSelectedSkdAction():
-    '''public PMCommitSelectedSkdAction()
+def ():
+    '''returns PMCommitSelectedSkdAction\n\n
+    ()\n
     '''
 def setSKDActionContext():
-    '''public void setSKDActionContext(final SKDActionContext context)
+    '''returns None\n\n
+    setSKDActionContext(final SKDActionContext context)\n
     '''
 def executeAction():
-    '''public Object executeAction(final Object actionObject)
+    '''returns Object\n\n
+    executeAction(final Object actionObject)\n
     '''

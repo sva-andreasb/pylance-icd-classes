@@ -1,6 +1,8 @@
-def MinNode():
-    '''public MinNode(final Vector operands)
+def ():
+    '''returns MinNode\n\n
+    (final Vector operands)\n
     '''
 def getDouble():
-    '''public double getDouble(final MboRemote mbo)
+    '''returns double\n\n
+    getDouble(final MboRemote mbo)\n
     '''

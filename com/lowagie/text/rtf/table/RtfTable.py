@@ -1,6 +1,8 @@
-def RtfTable():
-    '''public RtfTable(final RtfDocument doc, final Table table)
+def ():
+    '''returns RtfTable\n\n
+    (final RtfDocument doc, final Table table)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

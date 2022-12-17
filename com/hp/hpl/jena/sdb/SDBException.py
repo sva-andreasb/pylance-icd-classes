@@ -1,6 +1,7 @@
-def SDBException():
-    '''public SDBException()
-    public SDBException(final Throwable cause)
-    public SDBException(final String msg)
-    public SDBException(final String msg, final Throwable cause)
+def ():
+    '''returns SDBException\n\n
+    ()\n
+    (final Throwable cause)\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
     '''

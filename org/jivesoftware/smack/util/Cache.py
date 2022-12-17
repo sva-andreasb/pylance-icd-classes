@@ -1,111 +1,93 @@
-def Cache():
-    '''public Cache(final int maxSize, final long maxLifetime)
-    '''
-def put():
-    '''public synchronized V put(final K key, final V value)
-    '''
-def get():
-    '''public synchronized V get(final Object key)
-    '''
-def remove():
-    '''public synchronized V remove(final Object key)
-    public synchronized V remove(final Object key, final boolean internal)
-    public void remove()
-    public void remove()
-    public void remove()
-    '''
-def clear():
-    '''public synchronized void clear()
-    public void clear()
-    '''
-def size():
-    '''public synchronized int size()
-    public int size()
-    public int size()
-    '''
-def isEmpty():
-    '''public synchronized boolean isEmpty()
-    '''
-def values():
-    '''public synchronized Collection<V> values()
+def ():
+    '''returns LinkedListNode\n\n
+    (final int maxSize, final long maxLifetime)\n
+    (final V object)\n
+    ()\n
+    (final Object object, final LinkedListNode next, final LinkedListNode previous)\n
     '''
 def iterator():
-    '''public Iterator<V> iterator()
-    public Iterator<Entry<K, V>> iterator()
+    '''returns Iterator<V>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public V next()
-    public Entry<K, V> next()
+    '''returns V\n\n
+    next()\n
     '''
-def containsKey():
-    '''public synchronized boolean containsKey(final Object key)
+def remove():
+    '''returns None\n\n
+    remove()\n
+    remove()\n
+    remove()\n
+    '''
+def size():
+    '''returns int\n\n
+    size()\n
+    size()\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> map)
-    '''
-def containsValue():
-    '''public synchronized boolean containsValue(final Object value)
-    '''
-def entrySet():
-    '''public synchronized Set<Entry<K, V>> entrySet()
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> map)\n
     '''
 def setValue():
-    '''public V setValue(final V value)
-    '''
-def keySet():
-    '''public synchronized Set<K> keySet()
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def getCacheHits():
-    '''public long getCacheHits()
+    '''returns long\n\n
+    getCacheHits()\n
     '''
 def getCacheMisses():
-    '''public long getCacheMisses()
+    '''returns long\n\n
+    getCacheMisses()\n
     '''
 def getMaxCacheSize():
-    '''public int getMaxCacheSize()
-    '''
-def setMaxCacheSize():
-    '''public synchronized void setMaxCacheSize(final int maxCacheSize)
+    '''returns int\n\n
+    getMaxCacheSize()\n
     '''
 def getMaxLifetime():
-    '''public long getMaxLifetime()
+    '''returns long\n\n
+    getMaxLifetime()\n
     '''
 def setMaxLifetime():
-    '''public void setMaxLifetime(final long maxLifetime)
-    '''
-def CacheObject():
-    '''public CacheObject(final V object)
+    '''returns None\n\n
+    setMaxLifetime(final long maxLifetime)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def LinkedList():
-    '''public LinkedList()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getFirst():
-    '''public LinkedListNode getFirst()
+    '''returns LinkedListNode\n\n
+    getFirst()\n
     '''
 def getLast():
-    '''public LinkedListNode getLast()
+    '''returns LinkedListNode\n\n
+    getLast()\n
     '''
 def addFirst():
-    '''public LinkedListNode addFirst(final LinkedListNode node)
-    public LinkedListNode addFirst(final Object object)
+    '''returns LinkedListNode\n\n
+    addFirst(final LinkedListNode node)\n
+    addFirst(final Object object)\n
     '''
 def addLast():
-    '''public LinkedListNode addLast(final Object object)
+    '''returns LinkedListNode\n\n
+    addLast(final Object object)\n
+    '''
+def clear():
+    '''returns None\n\n
+    clear()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def LinkedListNode():
-    '''public LinkedListNode(final Object object, final LinkedListNode next, final LinkedListNode previous)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

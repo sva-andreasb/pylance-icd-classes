@@ -1,10 +1,13 @@
 def text():
-    '''public void text(final String text)
-    public String text()
+    '''returns String\n\n
+    text(final String text)\n
+    text()\n
     '''
 def write():
-    '''public void write()
+    '''returns None\n\n
+    write()\n
     '''
 def generate():
-    '''public void generate(String s, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(String s, final PrintWriter printWriter)\n
     '''

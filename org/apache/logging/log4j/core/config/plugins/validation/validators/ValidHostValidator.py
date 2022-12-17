@@ -1,6 +1,8 @@
 def initialize():
-    '''public void initialize(final ValidHost annotation)
+    '''returns None\n\n
+    initialize(final ValidHost annotation)\n
     '''
 def isValid():
-    '''public boolean isValid(final String name, final Object value)
+    '''returns boolean\n\n
+    isValid(final String name, final Object value)\n
     '''

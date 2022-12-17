@@ -1,3 +1,4 @@
-def GroupRestrictionSet():
-    '''public GroupRestrictionSet(final MboServerInterface ms)
+def ():
+    '''returns GroupRestrictionSet\n\n
+    (final MboServerInterface ms)\n
     '''

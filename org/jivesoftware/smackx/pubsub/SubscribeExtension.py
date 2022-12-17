@@ -1,10 +1,13 @@
-def SubscribeExtension():
-    '''public SubscribeExtension(final String subscribeJid)
-    public SubscribeExtension(final String subscribeJid, final String nodeId)
+def ():
+    '''returns SubscribeExtension\n\n
+    (final String subscribeJid)\n
+    (final String subscribeJid, final String nodeId)\n
     '''
 def getJid():
-    '''public String getJid()
+    '''returns String\n\n
+    getJid()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''

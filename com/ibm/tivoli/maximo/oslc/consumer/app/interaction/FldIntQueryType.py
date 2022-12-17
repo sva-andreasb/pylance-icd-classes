@@ -1,9 +1,12 @@
-def FldIntQueryType():
-    '''public FldIntQueryType(final MboValue mbv)
+def ():
+    '''returns FldIntQueryType\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

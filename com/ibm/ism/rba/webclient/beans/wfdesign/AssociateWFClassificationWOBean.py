@@ -1,6 +1,8 @@
-def AssociateWFClassificationWOBean():
-    '''public AssociateWFClassificationWOBean()
+def ():
+    '''returns AssociateWFClassificationWOBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''

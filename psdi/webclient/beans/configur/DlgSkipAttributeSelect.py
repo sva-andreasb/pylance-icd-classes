@@ -1,3 +1,4 @@
 def copyAttributes():
-    '''public int copyAttributes()
+    '''returns int\n\n
+    copyAttributes()\n
     '''

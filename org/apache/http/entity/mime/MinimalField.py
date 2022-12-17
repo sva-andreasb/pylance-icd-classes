@@ -1,9 +1,12 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getBody():
-    '''public String getBody()
+    '''returns String\n\n
+    getBody()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

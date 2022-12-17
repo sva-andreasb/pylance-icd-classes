@@ -1,54 +1,71 @@
-def PutObjectRequest():
-    '''public PutObjectRequest(final String bucketName, final String key, final File file)
-    public PutObjectRequest(final String bucketName, final String key, final String redirectLocation)
-    public PutObjectRequest(final String bucketName, final String key, final InputStream input, final ObjectMetadata metadata)
+def ():
+    '''returns PutObjectRequest\n\n
+    (final String bucketName, final String key, final File file)\n
+    (final String bucketName, final String key, final String redirectLocation)\n
+    (final String bucketName, final String key, final InputStream input, final ObjectMetadata metadata)\n
     '''
 def clone():
-    '''public PutObjectRequest clone()
+    '''returns PutObjectRequest\n\n
+    clone()\n
     '''
 def withBucketName():
-    '''public PutObjectRequest withBucketName(final String bucketName)
+    '''returns PutObjectRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def withKey():
-    '''public PutObjectRequest withKey(final String key)
+    '''returns PutObjectRequest\n\n
+    withKey(final String key)\n
     '''
 def withStorageClass():
-    '''public PutObjectRequest withStorageClass(final String storageClass)
-    public PutObjectRequest withStorageClass(final StorageClass storageClass)
+    '''returns PutObjectRequest\n\n
+    withStorageClass(final String storageClass)\n
+    withStorageClass(final StorageClass storageClass)\n
     '''
 def withFile():
-    '''public PutObjectRequest withFile(final File file)
+    '''returns PutObjectRequest\n\n
+    withFile(final File file)\n
     '''
 def withMetadata():
-    '''public PutObjectRequest withMetadata(final ObjectMetadata metadata)
+    '''returns PutObjectRequest\n\n
+    withMetadata(final ObjectMetadata metadata)\n
     '''
 def withCannedAcl():
-    '''public PutObjectRequest withCannedAcl(final CannedAccessControlList cannedAcl)
+    '''returns PutObjectRequest\n\n
+    withCannedAcl(final CannedAccessControlList cannedAcl)\n
     '''
 def withAccessControlList():
-    '''public PutObjectRequest withAccessControlList(final AccessControlList accessControlList)
+    '''returns PutObjectRequest\n\n
+    withAccessControlList(final AccessControlList accessControlList)\n
     '''
 def withInputStream():
-    '''public PutObjectRequest withInputStream(final InputStream inputStream)
+    '''returns PutObjectRequest\n\n
+    withInputStream(final InputStream inputStream)\n
     '''
 def withRedirectLocation():
-    '''public PutObjectRequest withRedirectLocation(final String redirectLocation)
+    '''returns PutObjectRequest\n\n
+    withRedirectLocation(final String redirectLocation)\n
     '''
 def withSSECustomerKey():
-    '''public PutObjectRequest withSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns PutObjectRequest\n\n
+    withSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def withProgressListener():
-    '''public PutObjectRequest withProgressListener(final ProgressListener progressListener)
+    '''returns PutObjectRequest\n\n
+    withProgressListener(final ProgressListener progressListener)\n
     '''
 def withSSEAwsKeyManagementParams():
-    '''public PutObjectRequest withSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams sseAwsKeyManagementParams)
+    '''returns PutObjectRequest\n\n
+    withSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams sseAwsKeyManagementParams)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public PutObjectRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns PutObjectRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

@@ -1,18 +1,24 @@
-def GarbageCollectedMemoryPool():
-    '''public GarbageCollectedMemoryPool(final long sizeBytes, final int maxSingleAllocationSize, final boolean strict, final Sensor oomPeriodSensor)
+def ():
+    '''returns GarbageCollectedMemoryPool\n\n
+    (final long sizeBytes, final int maxSingleAllocationSize, final boolean strict, final Sensor oomPeriodSensor)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

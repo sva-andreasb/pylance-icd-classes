@@ -1,39 +1,44 @@
-def Instruction():
-    '''public Instruction(final byte[] bytes, final int pc)
+def ():
+    '''returns Instruction\n\n
+    (final byte[] bytes, final int pc)\n
     '''
 def getPC():
-    '''public int getPC()
+    '''returns int\n\n
+    getPC()\n
     '''
 def getByte():
-    '''public int getByte(final int n)
+    '''returns int\n\n
+    getByte(final int n)\n
     '''
 def getUnsignedByte():
-    '''public int getUnsignedByte(final int n)
+    '''returns int\n\n
+    getUnsignedByte(final int n)\n
     '''
 def getShort():
-    '''public int getShort(final int n)
+    '''returns int\n\n
+    getShort(final int n)\n
     '''
 def getUnsignedShort():
-    '''public int getUnsignedShort(final int n)
+    '''returns int\n\n
+    getUnsignedShort(final int n)\n
     '''
 def getInt():
-    '''public int getInt(final int n)
+    '''returns int\n\n
+    getInt(final int n)\n
     '''
 def getOpcode():
-    '''public Opcode getOpcode()
+    '''returns Opcode\n\n
+    getOpcode()\n
     '''
 def getMnemonic():
-    '''public String getMnemonic()
+    '''returns String\n\n
+    getMnemonic()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def getKind():
-    '''public Kind getKind()
-    '''
-def accept():
-    '''public <R, P> R accept(final KindVisitor<R, P> kindVisitor, final P p2)
-    '''
-def get():
-    '''public static TypeKind get(final int n)
+    '''returns Kind\n\n
+    getKind()\n
     '''

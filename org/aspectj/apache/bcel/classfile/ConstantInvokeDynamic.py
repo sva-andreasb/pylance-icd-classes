@@ -1,18 +1,12 @@
-def ConstantInvokeDynamic():
-    '''public ConstantInvokeDynamic(final int readUnsignedShort, final int nameAndTypeIndex)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def getNameAndTypeIndex():
-    '''public final int getNameAndTypeIndex()
-    '''
-def toString():
-    '''public final String toString()
+def ():
+    '''returns ConstantInvokeDynamic\n\n
+    (final int readUnsignedShort, final int nameAndTypeIndex)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''

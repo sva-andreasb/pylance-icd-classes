@@ -1,45 +1,60 @@
-def LSNRActionHelper():
-    '''public LSNRActionHelper()
+def ():
+    '''returns LSNRActionHelper\n\n
+    ()\n
     '''
 def requiredFieldsExist():
-    '''public boolean requiredFieldsExist(final MboRemote actionObject, final long uniqueId)
+    '''returns boolean\n\n
+    requiredFieldsExist(final MboRemote actionObject, final long uniqueId)\n
     '''
 def createCommLog():
-    '''public void createCommLog(final MboRemote inboundComm, final MboRemote actionObject)
+    '''returns None\n\n
+    createCommLog(final MboRemote inboundComm, final MboRemote actionObject)\n
     '''
 def createDocLinkForCommLog():
-    '''public void createDocLinkForCommLog(final MboRemote inboundComm, final MboRemote commlog)
+    '''returns None\n\n
+    createDocLinkForCommLog(final MboRemote inboundComm, final MboRemote commlog)\n
     '''
 def updateDoclinkForActionObject():
-    '''public void updateDoclinkForActionObject(final MboRemote inboundComm, final MboRemote actionObject)
+    '''returns None\n\n
+    updateDoclinkForActionObject(final MboRemote inboundComm, final MboRemote actionObject)\n
     '''
 def updateStatusAndSendMail():
-    '''public void updateStatusAndSendMail(MboRemote inboundComm, final String status, final String msgStr, final String templateName)
+    '''returns None\n\n
+    updateStatusAndSendMail(MboRemote inboundComm, final String status, final String msgStr, final String templateName)\n
     '''
 def convertToDate():
-    '''public Date convertToDate(final int type, final String value, final UserInfo u)
+    '''returns Date\n\n
+    convertToDate(final int type, final String value, final UserInfo u)\n
     '''
 def createObject():
-    '''public MboRemote createObject(InboundCommRemote inboundComm, final MboRemote objectRemote)
+    '''returns MboRemote\n\n
+    createObject(InboundCommRemote inboundComm, final MboRemote objectRemote)\n
     '''
 def updateObject():
-    '''public MboRemote updateObject(InboundCommRemote inboundComm, final MboRemote objectRemote)
+    '''returns MboRemote\n\n
+    updateObject(InboundCommRemote inboundComm, final MboRemote objectRemote)\n
     '''
 def performSecuityCheck():
-    '''public boolean performSecuityCheck(final InboundCommRemote inboundComm, final MboRemote objectMbo)
+    '''returns boolean\n\n
+    performSecuityCheck(final InboundCommRemote inboundComm, final MboRemote objectMbo)\n
     '''
 def authExistForObjectAndAction():
-    '''public boolean authExistForObjectAndAction(final InboundCommRemote inboundComm, final MboRemote objectRemote, final String action, final String objectName)
+    '''returns boolean\n\n
+    authExistForObjectAndAction(final InboundCommRemote inboundComm, final MboRemote objectRemote, final String action, final String objectName)\n
     '''
 def setExtraAttrValuesForInsert():
-    '''public void setExtraAttrValuesForInsert(final HashMap<String, String> map)
+    '''returns None\n\n
+    setExtraAttrValuesForInsert(final HashMap<String, String> map)\n
     '''
 def setExtraAttrValuesForUpdate():
-    '''public void setExtraAttrValuesForUpdate(final HashMap<String, String> map)
+    '''returns None\n\n
+    setExtraAttrValuesForUpdate(final HashMap<String, String> map)\n
     '''
 def updateInbCommAfterAction():
-    '''public void updateInbCommAfterAction(final InboundCommRemote inboundComm, final MboRemote objectRemote)
+    '''returns None\n\n
+    updateInbCommAfterAction(final InboundCommRemote inboundComm, final MboRemote objectRemote)\n
     '''
 def handleException():
-    '''public void handleException(final String objectName, final Exception ee, final MboRemote inboundComm, final String action)
+    '''returns None\n\n
+    handleException(final String objectName, final Exception ee, final MboRemote inboundComm, final String action)\n
     '''

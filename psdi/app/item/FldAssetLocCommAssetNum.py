@@ -1,12 +1,16 @@
-def FldAssetLocCommAssetNum():
-    '''public FldAssetLocCommAssetNum(final MboValue mbv)
+def ():
+    '''returns FldAssetLocCommAssetNum\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''

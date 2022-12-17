@@ -1,75 +1,82 @@
 NAME = "String  \"rtpbridge\""
 ELEMENT_NAME = "String  \"rtpbridge\""
 NAMESPACE = "String  \"http://www.jivesoftware.com/protocol/rtpbridge\""
-def RTPBridge():
-    '''public RTPBridge(final String sid)
-    public RTPBridge(final BridgeAction action)
-    public RTPBridge(final String sid, final BridgeAction bridgeAction)
-    public RTPBridge()
+def ():
+    '''returns RTPBridge\n\n
+    (final String sid)\n
+    (final BridgeAction action)\n
+    (final String sid, final BridgeAction bridgeAction)\n
+    ()\n
     '''
 def getAttributes():
-    '''public String getAttributes()
+    '''returns String\n\n
+    getAttributes()\n
     '''
 def getSid():
-    '''public String getSid()
+    '''returns String\n\n
+    getSid()\n
     '''
 def setSid():
-    '''public void setSid(final String sid)
+    '''returns None\n\n
+    setSid(final String sid)\n
     '''
 def getHostA():
-    '''public String getHostA()
+    '''returns String\n\n
+    getHostA()\n
     '''
 def setHostA():
-    '''public void setHostA(final String hostA)
+    '''returns None\n\n
+    setHostA(final String hostA)\n
     '''
 def getHostB():
-    '''public String getHostB()
+    '''returns String\n\n
+    getHostB()\n
     '''
 def setHostB():
-    '''public void setHostB(final String hostB)
+    '''returns None\n\n
+    setHostB(final String hostB)\n
     '''
 def getPortA():
-    '''public int getPortA()
+    '''returns int\n\n
+    getPortA()\n
     '''
 def setPortA():
-    '''public void setPortA(final int portA)
+    '''returns None\n\n
+    setPortA(final int portA)\n
     '''
 def getPortB():
-    '''public int getPortB()
+    '''returns int\n\n
+    getPortB()\n
     '''
 def setPortB():
-    '''public void setPortB(final int portB)
+    '''returns None\n\n
+    setPortB(final int portB)\n
     '''
 def getIp():
-    '''public String getIp()
+    '''returns String\n\n
+    getIp()\n
     '''
 def setIp():
-    '''public void setIp(final String ip)
+    '''returns None\n\n
+    setIp(final String ip)\n
     '''
 def getPass():
-    '''public String getPass()
+    '''returns String\n\n
+    getPass()\n
     '''
 def setPass():
-    '''public void setPass(final String pass)
+    '''returns None\n\n
+    setPass(final String pass)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
-    '''
-def getRTPBridge():
-    '''public static RTPBridge getRTPBridge(final XMPPConnection connection, final String sessionID)
-    '''
-def serviceAvailable():
-    '''public static boolean serviceAvailable(final XMPPConnection connection)
-    '''
-def relaySession():
-    '''public static RTPBridge relaySession(final XMPPConnection connection, final String sessionID, final String pass, final TransportCandidate proxyCandidate, final TransportCandidate localCandidate)
-    '''
-def getPublicIP():
-    '''public static String getPublicIP(final XMPPConnection xmppConnection)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def parse():
-    '''public RTPBridge parse(final XmlPullParser parser, final int initialDepth)
+    '''returns RTPBridge\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

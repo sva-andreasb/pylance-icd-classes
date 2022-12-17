@@ -1,3 +1,4 @@
-def FldAppIntMainObject():
-    '''public FldAppIntMainObject(final MboValue mbv)
+def ():
+    '''returns FldAppIntMainObject\n\n
+    (final MboValue mbv)\n
     '''

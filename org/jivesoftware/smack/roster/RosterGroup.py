@@ -1,25 +1,33 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getEntryCount():
-    '''public int getEntryCount()
+    '''returns int\n\n
+    getEntryCount()\n
     '''
 def getEntries():
-    '''public List<RosterEntry> getEntries()
+    '''returns List<RosterEntry>\n\n
+    getEntries()\n
     '''
 def getEntry():
-    '''public RosterEntry getEntry(Jid user)
+    '''returns RosterEntry\n\n
+    getEntry(Jid user)\n
     '''
 def contains():
-    '''public boolean contains(final RosterEntry entry)
-    public boolean contains(final Jid user)
+    '''returns boolean\n\n
+    contains(final RosterEntry entry)\n
+    contains(final Jid user)\n
     '''
 def addEntry():
-    '''public void addEntry(final RosterEntry entry)
+    '''returns None\n\n
+    addEntry(final RosterEntry entry)\n
     '''
 def removeEntry():
-    '''public void removeEntry(final RosterEntry entry)
+    '''returns None\n\n
+    removeEntry(final RosterEntry entry)\n
     '''

@@ -1,10 +1,13 @@
-def CustomDateStringColumn():
-    '''public CustomDateStringColumn(final Object arg0, final IlvStringProperty arg1, final Object arg2)
-    public CustomDateStringColumn(final Object arg0, final IlvStringProperty arg1)
+def ():
+    '''returns CustomDateStringColumn\n\n
+    (final Object arg0, final IlvStringProperty arg1, final Object arg2)\n
+    (final Object arg0, final IlvStringProperty arg1)\n
     '''
 def setGanttConfiguration():
-    '''public void setGanttConfiguration(final IlvGanttConfiguration ganttConfig)
+    '''returns None\n\n
+    setGanttConfiguration(final IlvGanttConfiguration ganttConfig)\n
     '''
 def getGanttConfig():
-    '''public IlvGanttConfiguration getGanttConfig()
+    '''returns IlvGanttConfiguration\n\n
+    getGanttConfig()\n
     '''

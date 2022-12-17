@@ -1,3 +1,4 @@
-def FldMRLineWPOperation():
-    '''public FldMRLineWPOperation(final MboValue mbv)
+def ():
+    '''returns FldMRLineWPOperation\n\n
+    (final MboValue mbv)\n
     '''

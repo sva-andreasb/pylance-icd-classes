@@ -1,87 +1,116 @@
 def getID():
-    '''public BigInteger getID()
+    '''returns BigInteger\n\n
+    getID()\n
     '''
 def setID():
-    '''public void setID(final BigInteger value)
+    '''returns None\n\n
+    setID(final BigInteger value)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
     '''
 def isIsActiveDirectory():
-    '''public Boolean isIsActiveDirectory()
+    '''returns Boolean\n\n
+    isIsActiveDirectory()\n
     '''
 def setIsActiveDirectory():
-    '''public void setIsActiveDirectory(final Boolean value)
+    '''returns None\n\n
+    setIsActiveDirectory(final Boolean value)\n
     '''
 def isIsGlobalCatalog():
-    '''public Boolean isIsGlobalCatalog()
+    '''returns Boolean\n\n
+    isIsGlobalCatalog()\n
     '''
 def setIsGlobalCatalog():
-    '''public void setIsGlobalCatalog(final Boolean value)
+    '''returns None\n\n
+    setIsGlobalCatalog(final Boolean value)\n
     '''
 def isUseSSL():
-    '''public Boolean isUseSSL()
+    '''returns Boolean\n\n
+    isUseSSL()\n
     '''
 def setUseSSL():
-    '''public void setUseSSL(final Boolean value)
+    '''returns None\n\n
+    setUseSSL(final Boolean value)\n
     '''
 def isAllowEmptyPasswords():
-    '''public Boolean isAllowEmptyPasswords()
+    '''returns Boolean\n\n
+    isAllowEmptyPasswords()\n
     '''
 def setAllowEmptyPasswords():
-    '''public void setAllowEmptyPasswords(final Boolean value)
+    '''returns None\n\n
+    setAllowEmptyPasswords(final Boolean value)\n
     '''
 def getBaseDN():
-    '''public String getBaseDN()
+    '''returns String\n\n
+    getBaseDN()\n
     '''
 def setBaseDN():
-    '''public void setBaseDN(final String value)
+    '''returns None\n\n
+    setBaseDN(final String value)\n
     '''
 def getUIDAttribute():
-    '''public String getUIDAttribute()
+    '''returns String\n\n
+    getUIDAttribute()\n
     '''
 def setUIDAttribute():
-    '''public void setUIDAttribute(final String value)
+    '''returns None\n\n
+    setUIDAttribute(final String value)\n
     '''
 def getUserFilter():
-    '''public String getUserFilter()
+    '''returns String\n\n
+    getUserFilter()\n
     '''
 def setUserFilter():
-    '''public void setUserFilter(final String value)
+    '''returns None\n\n
+    setUserFilter(final String value)\n
     '''
 def getGroupFilter():
-    '''public String getGroupFilter()
+    '''returns String\n\n
+    getGroupFilter()\n
     '''
 def setGroupFilter():
-    '''public void setGroupFilter(final String value)
+    '''returns None\n\n
+    setGroupFilter(final String value)\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final String value)
+    '''returns None\n\n
+    setUser(final String value)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String value)
+    '''returns None\n\n
+    setPassword(final String value)\n
     '''
 def getServers():
-    '''public Servers getServers()
+    '''returns Servers\n\n
+    getServers()\n
     '''
 def setServers():
-    '''public void setServers(final Servers value)
+    '''returns None\n\n
+    setServers(final Servers value)\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String value)
+    '''returns None\n\n
+    setResource(final String value)\n
     '''
 def getServer():
-    '''public List<LDAPServer> getServer()
+    '''returns List<LDAPServer>\n\n
+    getServer()\n
     '''

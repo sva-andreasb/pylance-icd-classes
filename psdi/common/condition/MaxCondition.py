@@ -1,42 +1,54 @@
-def MaxCondition():
-    '''public MaxCondition(final String num, final String clsName, final String value, final boolean isExp, final int tenantId, final long uniqueId)
-    public MaxCondition(final String num, final String exp, final int tenantId, final long uniqueId)
+def ():
+    '''returns MaxCondition\n\n
+    (final String num, final String clsName, final String value, final boolean isExp, final int tenantId, final long uniqueId)\n
+    (final String num, final String exp, final int tenantId, final long uniqueId)\n
     '''
 def isExpression():
-    '''public boolean isExpression()
+    '''returns boolean\n\n
+    isExpression()\n
     '''
 def getConditionNum():
-    '''public String getConditionNum()
+    '''returns String\n\n
+    getConditionNum()\n
     '''
 def evaluate():
-    '''public boolean evaluate(final MboRemote mbo)
-    public boolean evaluate(final MboRemote mbo, final boolean logExceptionOnly)
+    '''returns boolean\n\n
+    evaluate(final MboRemote mbo)\n
+    evaluate(final MboRemote mbo, final boolean logExceptionOnly)\n
     '''
 def toWhereClause():
-    '''public String toWhereClause(final MboSetRemote msr)
+    '''returns String\n\n
+    toWhereClause(final MboSetRemote msr)\n
     '''
 def isAlwaysTrue():
-    '''public boolean isAlwaysTrue()
-    public static boolean isAlwaysTrue(final ArrayList<MaxCondition> conditions)
+    '''returns boolean\n\n
+    isAlwaysTrue()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getExpression():
-    '''public String getExpression()
+    '''returns String\n\n
+    getExpression()\n
     '''
 def isMboCachable():
-    '''public boolean isMboCachable()
+    '''returns boolean\n\n
+    isMboCachable()\n
     '''
 def setMboCachable():
-    '''public void setMboCachable(final boolean cachable)
+    '''returns None\n\n
+    setMboCachable(final boolean cachable)\n
     '''
 def getTypedReference():
-    '''public MaxConditionBase getTypedReference()
+    '''returns MaxConditionBase\n\n
+    getTypedReference()\n
     '''
 def getTypedReferenceForSet():
-    '''public MaxConditionBase getTypedReferenceForSet()
+    '''returns MaxConditionBase\n\n
+    getTypedReferenceForSet()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

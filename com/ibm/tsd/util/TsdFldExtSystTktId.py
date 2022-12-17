@@ -1,6 +1,8 @@
-def TsdFldExtSystTktId():
-    '''public TsdFldExtSystTktId(final MboValue mbv)
+def ():
+    '''returns TsdFldExtSystTktId\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

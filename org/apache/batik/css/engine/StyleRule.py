@@ -1,19 +1,25 @@
 TYPE = "short  0"
 def getType():
-    '''public short getType()
+    '''returns short\n\n
+    getType()\n
     '''
 def setSelectorList():
-    '''public void setSelectorList(final SelectorList sl)
+    '''returns None\n\n
+    setSelectorList(final SelectorList sl)\n
     '''
 def getSelectorList():
-    '''public SelectorList getSelectorList()
+    '''returns SelectorList\n\n
+    getSelectorList()\n
     '''
 def setStyleDeclaration():
-    '''public void setStyleDeclaration(final StyleDeclaration sd)
+    '''returns None\n\n
+    setStyleDeclaration(final StyleDeclaration sd)\n
     '''
 def getStyleDeclaration():
-    '''public StyleDeclaration getStyleDeclaration()
+    '''returns StyleDeclaration\n\n
+    getStyleDeclaration()\n
     '''
 def toString():
-    '''public String toString(final CSSEngine eng)
+    '''returns String\n\n
+    toString(final CSSEngine eng)\n
     '''

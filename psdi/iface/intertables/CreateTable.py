@@ -1,13 +1,13 @@
-def CreateTable():
-    '''public CreateTable()
-    '''
-def getInstance():
-    '''public static CreateTable getInstance()
+def ():
+    '''returns CreateTable\n\n
+    ()\n
     '''
 def createChosenInterfaceTables():
-    '''public String createChosenInterfaceTables(final UserInfo userInfo, final List<String> ifaceTbNames, final List<String> chosenEndPoints, final List<String> chosenBackup, final MboSetRemote mboSetRemote)
-    public String createChosenInterfaceTables(final UserInfo userInfo, final List<String> ifaceTbNames, final List<String> chosenEndPoints, final List<String> chosenBackup)
+    '''returns String\n\n
+    createChosenInterfaceTables(final UserInfo userInfo, final List<String> ifaceTbNames, final List<String> chosenEndPoints, final List<String> chosenBackup, final MboSetRemote mboSetRemote)\n
+    createChosenInterfaceTables(final UserInfo userInfo, final List<String> ifaceTbNames, final List<String> chosenEndPoints, final List<String> chosenBackup)\n
     '''
 def checkTbExistance():
-    '''public boolean checkTbExistance(final Connection conn, final String tbname)
+    '''returns boolean\n\n
+    checkTbExistance(final Connection conn, final String tbname)\n
     '''

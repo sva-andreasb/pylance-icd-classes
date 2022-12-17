@@ -1,17 +1,13 @@
-def getInstance():
-    '''public static GenderInfo getInstance(final ULocale uLocale)
-    public static GenderInfo getInstance(final Locale locale)
-    '''
 def getListGender():
-    '''public Gender getListGender(final Gender... genders)
-    public Gender getListGender(final List<Gender> genders)
+    '''returns Gender\n\n
+    getListGender(final Gender... genders)\n
+    getListGender(final List<Gender> genders)\n
     '''
-def GenderInfo():
-    '''public GenderInfo(final ListGenderStyle genderStyle)
-    '''
-def fromName():
-    '''public static ListGenderStyle fromName(final String name)
+def ():
+    '''returns GenderInfo\n\n
+    (final ListGenderStyle genderStyle)\n
     '''
 def get():
-    '''public GenderInfo get(final ULocale locale)
+    '''returns GenderInfo\n\n
+    get(final ULocale locale)\n
     '''

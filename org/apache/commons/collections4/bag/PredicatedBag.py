@@ -1,21 +1,24 @@
-def predicatedBag():
-    '''public static <E> PredicatedBag<E> predicatedBag(final Bag<E> bag, final Predicate<? super E> predicate)
-    '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def add():
-    '''public boolean add(final E object, final int count)
+    '''returns boolean\n\n
+    add(final E object, final int count)\n
     '''
 def remove():
-    '''public boolean remove(final Object object, final int count)
+    '''returns boolean\n\n
+    remove(final Object object, final int count)\n
     '''
 def uniqueSet():
-    '''public Set<E> uniqueSet()
+    '''returns Set<E>\n\n
+    uniqueSet()\n
     '''
 def getCount():
-    '''public int getCount(final Object object)
+    '''returns int\n\n
+    getCount(final Object object)\n
     '''

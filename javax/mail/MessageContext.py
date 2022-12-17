@@ -1,12 +1,16 @@
 def getMessage():
-    '''public Message getMessage()
+    '''returns Message\n\n
+    getMessage()\n
     '''
 def getPart():
-    '''public Part getPart()
+    '''returns Part\n\n
+    getPart()\n
     '''
-def MessageContext():
-    '''public MessageContext(final Part part)
+def ():
+    '''returns MessageContext\n\n
+    (final Part part)\n
     '''
 def getSession():
-    '''public Session getSession()
+    '''returns Session\n\n
+    getSession()\n
     '''

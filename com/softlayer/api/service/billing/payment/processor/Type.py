@@ -1,57 +1,76 @@
 def getPaymentProcessors():
-    '''public List<Processor> getPaymentProcessors()
+    '''returns List<Processor>\n\n
+    getPaymentProcessors()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getKeyName():
-    '''public String getKeyName()
+    '''returns String\n\n
+    getKeyName()\n
     '''
 def setKeyName():
-    '''public void setKeyName(final String keyName)
+    '''returns None\n\n
+    setKeyName(final String keyName)\n
     '''
 def isKeyNameSpecified():
-    '''public boolean isKeyNameSpecified()
+    '''returns boolean\n\n
+    isKeyNameSpecified()\n
     '''
 def unsetKeyName():
-    '''public void unsetKeyName()
+    '''returns None\n\n
+    unsetKeyName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isNameSpecified():
-    '''public boolean isNameSpecified()
+    '''returns boolean\n\n
+    isNameSpecified()\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getPaymentProcessorCount():
-    '''public Long getPaymentProcessorCount()
+    '''returns Long\n\n
+    getPaymentProcessorCount()\n
     '''
 def setPaymentProcessorCount():
-    '''public void setPaymentProcessorCount(final Long paymentProcessorCount)
+    '''returns None\n\n
+    setPaymentProcessorCount(final Long paymentProcessorCount)\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def keyName():
-    '''public Mask keyName()
+    '''returns Mask\n\n
+    keyName()\n
     '''
 def name():
-    '''public Mask name()
+    '''returns Mask\n\n
+    name()\n
     '''
 def paymentProcessorCount():
-    '''public Mask paymentProcessorCount()
+    '''returns Mask\n\n
+    paymentProcessorCount()\n
     '''

@@ -1,4 +1,5 @@
-def MessageEOFException():
-    '''public MessageEOFException(final String reason)
-    public MessageEOFException(final String reason, final String errorCode)
+def ():
+    '''returns MessageEOFException\n\n
+    (final String reason)\n
+    (final String reason, final String errorCode)\n
     '''

@@ -1,4 +1,5 @@
-def ParseException():
-    '''public ParseException()
-    public ParseException(final String s)
+def ():
+    '''returns ParseException\n\n
+    ()\n
+    (final String s)\n
     '''

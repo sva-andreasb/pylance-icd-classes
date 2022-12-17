@@ -1,3 +1,4 @@
-def DeleteBucketTaggingConfigurationRequest():
-    '''public DeleteBucketTaggingConfigurationRequest(final String bucketName)
+def ():
+    '''returns DeleteBucketTaggingConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

@@ -1,42 +1,56 @@
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def saveYesNoCheck():
-    '''public boolean saveYesNoCheck()
+    '''returns boolean\n\n
+    saveYesNoCheck()\n
     '''
 def APPLYPS():
-    '''public int APPLYPS()
+    '''returns int\n\n
+    APPLYPS()\n
     '''
 def APPLYPSLT():
-    '''public int APPLYPSLT()
+    '''returns int\n\n
+    APPLYPSLT()\n
     '''
 def VIEWCOSTPR():
-    '''public int VIEWCOSTPR()
+    '''returns int\n\n
+    VIEWCOSTPR()\n
     '''
 def PLUSPQUOTE():
-    '''public int PLUSPQUOTE()
+    '''returns int\n\n
+    PLUSPQUOTE()\n
     '''
 def undoQuoteChanges():
-    '''public int undoQuoteChanges()
+    '''returns int\n\n
+    undoQuoteChanges()\n
     '''
 def MODIFYPS():
-    '''public int MODIFYPS()
+    '''returns int\n\n
+    MODIFYPS()\n
     '''
 def ASSOCIATEPSLT():
-    '''public int ASSOCIATEPSLT()
+    '''returns int\n\n
+    ASSOCIATEPSLT()\n
     '''
 def PLUSPCREATEBILL():
-    '''public int PLUSPCREATEBILL()
+    '''returns int\n\n
+    PLUSPCREATEBILL()\n
     '''
 def createWorkorder():
-    '''public int createWorkorder()
+    '''returns int\n\n
+    createWorkorder()\n
     '''
 def PLUSPCREATEMEST():
-    '''public int PLUSPCREATEMEST()
+    '''returns int\n\n
+    PLUSPCREATEMEST()\n
     '''
 def PLUSPSPLIT():
-    '''public int PLUSPSPLIT()
+    '''returns int\n\n
+    PLUSPSPLIT()\n
     '''
 def PLUSPDOWNPMT():
-    '''public int PLUSPDOWNPMT()
+    '''returns int\n\n
+    PLUSPDOWNPMT()\n
     '''

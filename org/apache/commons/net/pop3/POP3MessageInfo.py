@@ -1,5 +1,6 @@
-def POP3MessageInfo():
-    '''public POP3MessageInfo()
-    public POP3MessageInfo(final int num, final int octets)
-    public POP3MessageInfo(final int num, final String uid)
+def ():
+    '''returns POP3MessageInfo\n\n
+    ()\n
+    (final int num, final int octets)\n
+    (final int num, final String uid)\n
     '''

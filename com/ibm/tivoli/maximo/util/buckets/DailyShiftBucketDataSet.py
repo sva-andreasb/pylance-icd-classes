@@ -1,13 +1,17 @@
-def DailyShiftBucketDataSet():
-    '''public DailyShiftBucketDataSet(final String name)
-    public DailyShiftBucketDataSet()
+def ():
+    '''returns DailyShiftBucketDataSet\n\n
+    (final String name)\n
+    ()\n
     '''
 def calculateKey():
-    '''public String calculateKey(final Date date)
+    '''returns String\n\n
+    calculateKey(final Date date)\n
     '''
 def getNextKey():
-    '''public String getNextKey(final String key)
+    '''returns String\n\n
+    getNextKey(final String key)\n
     '''
 def addQtyData():
-    '''public void addQtyData(Date start, final Date end, final double value)
+    '''returns None\n\n
+    addQtyData(Date start, final Date end, final double value)\n
     '''

@@ -1,3 +1,4 @@
-def PlusCAssetStatusSet():
-    '''public PlusCAssetStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCAssetStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

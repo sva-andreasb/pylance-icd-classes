@@ -23,193 +23,145 @@ MATCH_ALL_FIELDS_LENGTH = "int  65535"
 OK = "int  0"
 BASE_CONFLICT = "int  1"
 CONFLICT = "int  2"
-def getEmptyInstance():
-    '''public static DateTimePatternGenerator getEmptyInstance()
-    '''
-def getInstance():
-    '''public static DateTimePatternGenerator getInstance()
-    public static DateTimePatternGenerator getInstance(final ULocale uLocale)
-    public static DateTimePatternGenerator getInstance(final Locale locale)
-    '''
-def getFrozenInstance():
-    '''public static DateTimePatternGenerator getFrozenInstance(final ULocale uLocale)
-    '''
-def getDefaultHourFormatChar():
-    '''public char getDefaultHourFormatChar()
-    '''
-def setDefaultHourFormatChar():
-    '''public void setDefaultHourFormatChar(final char defaultHourFormatChar)
-    '''
-def getAppendFormatNumber():
-    '''public static int getAppendFormatNumber(final UResource.Key key)
-    public static int getAppendFormatNumber(final String string)
-    '''
 def getBestPattern():
-    '''public String getBestPattern(final String skeleton)
-    public String getBestPattern(final String skeleton, final int options)
+    '''returns String\n\n
+    getBestPattern(final String skeleton)\n
+    getBestPattern(final String skeleton, final int options)\n
     '''
 def addPattern():
-    '''public DateTimePatternGenerator addPattern(final String pattern, final boolean override, final PatternInfo returnInfo)
-    '''
-def addPatternWithSkeleton():
-    '''public DateTimePatternGenerator addPatternWithSkeleton(final String pattern, final String skeletonToUse, final boolean override, final PatternInfo returnInfo)
+    '''returns DateTimePatternGenerator\n\n
+    addPattern(final String pattern, final boolean override, final PatternInfo returnInfo)\n
     '''
 def getSkeleton():
-    '''public String getSkeleton(final String pattern)
-    '''
-def getSkeletonAllowingDuplicates():
-    '''public String getSkeletonAllowingDuplicates(final String pattern)
-    '''
-def getCanonicalSkeletonAllowingDuplicates():
-    '''public String getCanonicalSkeletonAllowingDuplicates(final String pattern)
+    '''returns String\n\n
+    getSkeleton(final String pattern)\n
     '''
 def getBaseSkeleton():
-    '''public String getBaseSkeleton(final String pattern)
-    '''
-def getSkeletons():
-    '''public Map<String, String> getSkeletons(Map<String, String> result)
+    '''returns String\n\n
+    getBaseSkeleton(final String pattern)\n
     '''
 def getBaseSkeletons():
-    '''public Set<String> getBaseSkeletons(Set<String> result)
+    '''returns Set<String>\n\n
+    getBaseSkeletons(Set<String> result)\n
     '''
 def replaceFieldTypes():
-    '''public String replaceFieldTypes(final String pattern, final String skeleton)
-    public String replaceFieldTypes(final String pattern, final String skeleton, final int options)
+    '''returns String\n\n
+    replaceFieldTypes(final String pattern, final String skeleton)\n
+    replaceFieldTypes(final String pattern, final String skeleton, final int options)\n
     '''
 def setDateTimeFormat():
-    '''public void setDateTimeFormat(final String dateTimeFormat)
+    '''returns None\n\n
+    setDateTimeFormat(final String dateTimeFormat)\n
     '''
 def getDateTimeFormat():
-    '''public String getDateTimeFormat()
+    '''returns String\n\n
+    getDateTimeFormat()\n
     '''
 def setDecimal():
-    '''public void setDecimal(final String decimal)
+    '''returns None\n\n
+    setDecimal(final String decimal)\n
     '''
 def getDecimal():
-    '''public String getDecimal()
+    '''returns String\n\n
+    getDecimal()\n
     '''
 def getRedundants():
-    '''public Collection<String> getRedundants(Collection<String> output)
+    '''returns Collection<String>\n\n
+    getRedundants(Collection<String> output)\n
     '''
 def setAppendItemFormat():
-    '''public void setAppendItemFormat(final int field, final String value)
+    '''returns None\n\n
+    setAppendItemFormat(final int field, final String value)\n
     '''
 def getAppendItemFormat():
-    '''public String getAppendItemFormat(final int field)
+    '''returns String\n\n
+    getAppendItemFormat(final int field)\n
     '''
 def setAppendItemName():
-    '''public void setAppendItemName(final int field, final String value)
+    '''returns None\n\n
+    setAppendItemName(final int field, final String value)\n
     '''
 def getAppendItemName():
-    '''public String getAppendItemName(final int field)
-    '''
-def getFieldDisplayName():
-    '''public String getFieldDisplayName(final int field, final DisplayWidth width)
-    '''
-def isSingleField():
-    '''public static boolean isSingleField(final String skeleton)
+    '''returns String\n\n
+    getAppendItemName(final int field)\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
     '''
 def freeze():
-    '''public DateTimePatternGenerator freeze()
+    '''returns DateTimePatternGenerator\n\n
+    freeze()\n
     '''
 def cloneAsThawed():
-    '''public DateTimePatternGenerator cloneAsThawed()
+    '''returns DateTimePatternGenerator\n\n
+    cloneAsThawed()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def skeletonsAreSimilar():
-    '''public boolean skeletonsAreSimilar(final String id, final String skeleton)
+    '''returns boolean\n\n
+    skeletonsAreSimilar(final String id, final String skeleton)\n
     '''
 def getFields():
-    '''public String getFields(final String pattern)
+    '''returns String\n\n
+    getFields(final String pattern)\n
     '''
-def put():
-    '''public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
-    public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
-    public void put(final UResource.Key key, final UResource.Value value, final boolean isRoot)
-    public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
-    '''
-def AvailableFormatsSink():
-    '''public AvailableFormatsSink(final PatternInfo returnInfo)
-    '''
-def VariableField():
-    '''public VariableField(final String string)
-    public VariableField(final String string, final boolean strict)
+def ():
+    '''returns PatternWithSkeletonFlag\n\n
+    (final String string)\n
+    (final String string, final boolean strict)\n
+    ()\n
+    (final String pat, final DateTimeMatcher matcher)\n
+    (final String pat, final boolean skelSpecified)\n
     '''
 def getType():
-    '''public int getType()
-    '''
-def getCanonicalCode():
-    '''public static String getCanonicalCode(final int type)
-    '''
-def isNumeric():
-    '''public boolean isNumeric()
+    '''returns int\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString(final int start, final int limit)
-    public String toString()
-    public String toString()
-    public String toString(final boolean skipDayPeriod)
-    public String toString()
-    public String toString()
-    '''
-def FormatParser():
-    '''public FormatParser()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString(final int start, final int limit)\n
+    toString()\n
+    toString()\n
     '''
 def set():
-    '''public final FormatParser set(final String string)
-    public FormatParser set(final String string, final boolean strict)
+    '''returns FormatParser\n\n
+    set(final String string, final boolean strict)\n
     '''
 def getItems():
-    '''public List<Object> getItems()
+    '''returns List<Object>\n\n
+    getItems()\n
     '''
 def hasDateAndTimeFields():
-    '''public boolean hasDateAndTimeFields()
+    '''returns boolean\n\n
+    hasDateAndTimeFields()\n
     '''
 def quoteLiteral():
-    '''public Object quoteLiteral(final String string)
+    '''returns Object\n\n
+    quoteLiteral(final String string)\n
     '''
-def PatternWithMatcher():
-    '''public PatternWithMatcher(final String pat, final DateTimeMatcher matcher)
-    '''
-def PatternWithSkeletonFlag():
-    '''public PatternWithSkeletonFlag(final String pat, final boolean skelSpecified)
-    '''
-def clear():
-    '''public void clear()
-    '''
-def isFieldEmpty():
-    '''public boolean isFieldEmpty(final int field)
-    '''
-def toCanonicalString():
-    '''public String toCanonicalString()
-    public String toCanonicalString(final boolean skipDayPeriod)
-    public String toCanonicalString()
-    '''
-def appendTo():
-    '''public StringBuilder appendTo(final StringBuilder sb)
-    '''
-def appendFieldTo():
-    '''public StringBuilder appendFieldTo(final int field, final StringBuilder sb)
-    '''
-def compareTo():
-    '''public int compareTo(final SkeletonFields other)
-    public int compareTo(final DateTimeMatcher that)
-    '''
-def equals():
-    '''public boolean equals(final Object other)
-    public boolean equals(final Object other)
-    '''
-def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+def origStringForField():
+    '''returns String\n\n
+    origStringForField(final int field)\n
     '''
 def fieldIsNumeric():
-    '''public boolean fieldIsNumeric(final int field)
+    '''returns boolean\n\n
+    fieldIsNumeric(final int field)\n
+    '''
+def compareTo():
+    '''returns int\n\n
+    compareTo(final DateTimeMatcher that)\n
+    '''
+def equals():
+    '''returns boolean\n\n
+    equals(final Object other)\n
+    '''
+def hashCode():
+    '''returns int\n\n
+    hashCode()\n
     '''

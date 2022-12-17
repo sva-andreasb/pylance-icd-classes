@@ -1,13 +1,17 @@
-def TupleTable():
-    '''public TupleTable(final Store store, final String tableName)
-    public TupleTable(final Store store, final TableDesc desc)
+def ():
+    '''returns TupleTable\n\n
+    (final Store store, final String tableName)\n
+    (final Store store, final TableDesc desc)\n
     '''
 def getVars():
-    '''public List<Var> getVars()
+    '''returns List<Var>\n\n
+    getVars()\n
     '''
 def iterator():
-    '''public QueryIterator iterator()
+    '''returns QueryIterator\n\n
+    iterator()\n
     '''
 def dump():
-    '''public void dump()
+    '''returns None\n\n
+    dump()\n
     '''

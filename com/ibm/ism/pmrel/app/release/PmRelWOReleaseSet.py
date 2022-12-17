@@ -1,3 +1,4 @@
-def PmRelWOReleaseSet():
-    '''public PmRelWOReleaseSet(final MboServerInterface ms)
+def ():
+    '''returns PmRelWOReleaseSet\n\n
+    (final MboServerInterface ms)\n
     '''

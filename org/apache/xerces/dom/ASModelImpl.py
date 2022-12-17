@@ -1,118 +1,157 @@
-def ASModelImpl():
-    '''public ASModelImpl()
-    public ASModelImpl(final boolean fNamespaceAware)
+def ():
+    '''returns ASModelImpl\n\n
+    ()\n
+    (final boolean fNamespaceAware)\n
     '''
 def getAsNodeType():
-    '''public short getAsNodeType()
+    '''returns short\n\n
+    getAsNodeType()\n
     '''
 def getOwnerASModel():
-    '''public ASModel getOwnerASModel()
+    '''returns ASModel\n\n
+    getOwnerASModel()\n
     '''
 def setOwnerASModel():
-    '''public void setOwnerASModel(final ASModel asModel)
+    '''returns None\n\n
+    setOwnerASModel(final ASModel asModel)\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def setNodeName():
-    '''public void setNodeName(final String s)
+    '''returns None\n\n
+    setNodeName(final String s)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String s)
+    '''returns None\n\n
+    setPrefix(final String s)\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def setLocalName():
-    '''public void setLocalName(final String s)
+    '''returns None\n\n
+    setLocalName(final String s)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def setNamespaceURI():
-    '''public void setNamespaceURI(final String s)
+    '''returns None\n\n
+    setNamespaceURI(final String s)\n
     '''
 def cloneASObject():
-    '''public ASObject cloneASObject(final boolean b)
+    '''returns ASObject\n\n
+    cloneASObject(final boolean b)\n
     '''
 def getIsNamespaceAware():
-    '''public boolean getIsNamespaceAware()
+    '''returns boolean\n\n
+    getIsNamespaceAware()\n
     '''
 def getUsageLocation():
-    '''public short getUsageLocation()
+    '''returns short\n\n
+    getUsageLocation()\n
     '''
 def getAsLocation():
-    '''public String getAsLocation()
+    '''returns String\n\n
+    getAsLocation()\n
     '''
 def setAsLocation():
-    '''public void setAsLocation(final String s)
+    '''returns None\n\n
+    setAsLocation(final String s)\n
     '''
 def getAsHint():
-    '''public String getAsHint()
+    '''returns String\n\n
+    getAsHint()\n
     '''
 def setAsHint():
-    '''public void setAsHint(final String s)
+    '''returns None\n\n
+    setAsHint(final String s)\n
     '''
 def getContainer():
-    '''public boolean getContainer()
+    '''returns boolean\n\n
+    getContainer()\n
     '''
 def getElementDeclarations():
-    '''public ASNamedObjectMap getElementDeclarations()
+    '''returns ASNamedObjectMap\n\n
+    getElementDeclarations()\n
     '''
 def getAttributeDeclarations():
-    '''public ASNamedObjectMap getAttributeDeclarations()
+    '''returns ASNamedObjectMap\n\n
+    getAttributeDeclarations()\n
     '''
 def getNotationDeclarations():
-    '''public ASNamedObjectMap getNotationDeclarations()
+    '''returns ASNamedObjectMap\n\n
+    getNotationDeclarations()\n
     '''
 def getEntityDeclarations():
-    '''public ASNamedObjectMap getEntityDeclarations()
+    '''returns ASNamedObjectMap\n\n
+    getEntityDeclarations()\n
     '''
 def getContentModelDeclarations():
-    '''public ASNamedObjectMap getContentModelDeclarations()
+    '''returns ASNamedObjectMap\n\n
+    getContentModelDeclarations()\n
     '''
 def addASModel():
-    '''public void addASModel(final ASModel obj)
+    '''returns None\n\n
+    addASModel(final ASModel obj)\n
     '''
 def getASModels():
-    '''public ASObjectList getASModels()
+    '''returns ASObjectList\n\n
+    getASModels()\n
     '''
 def removeAS():
-    '''public void removeAS(final ASModel obj)
+    '''returns None\n\n
+    removeAS(final ASModel obj)\n
     '''
 def validate():
-    '''public boolean validate()
+    '''returns boolean\n\n
+    validate()\n
     '''
 def importASObject():
-    '''public void importASObject(final ASObject asObject)
+    '''returns None\n\n
+    importASObject(final ASObject asObject)\n
     '''
 def insertASObject():
-    '''public void insertASObject(final ASObject asObject)
+    '''returns None\n\n
+    insertASObject(final ASObject asObject)\n
     '''
 def createASElementDeclaration():
-    '''public ASElementDeclaration createASElementDeclaration(final String s, final String s2)
+    '''returns ASElementDeclaration\n\n
+    createASElementDeclaration(final String s, final String s2)\n
     '''
 def createASAttributeDeclaration():
-    '''public ASAttributeDeclaration createASAttributeDeclaration(final String s, final String s2)
+    '''returns ASAttributeDeclaration\n\n
+    createASAttributeDeclaration(final String s, final String s2)\n
     '''
 def createASNotationDeclaration():
-    '''public ASNotationDeclaration createASNotationDeclaration(final String s, final String s2, final String s3, final String s4)
+    '''returns ASNotationDeclaration\n\n
+    createASNotationDeclaration(final String s, final String s2, final String s3, final String s4)\n
     '''
 def createASEntityDeclaration():
-    '''public ASEntityDeclaration createASEntityDeclaration(final String s)
+    '''returns ASEntityDeclaration\n\n
+    createASEntityDeclaration(final String s)\n
     '''
 def createASContentModel():
-    '''public ASContentModel createASContentModel(final int n, final int n2, final short n3)
+    '''returns ASContentModel\n\n
+    createASContentModel(final int n, final int n2, final short n3)\n
     '''
 def getGrammar():
-    '''public SchemaGrammar getGrammar()
+    '''returns SchemaGrammar\n\n
+    getGrammar()\n
     '''
 def setGrammar():
-    '''public void setGrammar(final SchemaGrammar fGrammar)
+    '''returns None\n\n
+    setGrammar(final SchemaGrammar fGrammar)\n
     '''
 def getInternalASModels():
-    '''public Vector getInternalASModels()
+    '''returns Vector\n\n
+    getInternalASModels()\n
     '''

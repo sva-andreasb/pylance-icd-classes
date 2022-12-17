@@ -1,14 +1,18 @@
-def DefaultDnsCnameCache():
-    '''public DefaultDnsCnameCache()
-    public DefaultDnsCnameCache(final int minTtl, final int maxTtl)
+def ():
+    '''returns DefaultDnsCnameCache\n\n
+    ()\n
+    (final int minTtl, final int maxTtl)\n
     '''
 def get():
-    '''public String get(final String hostname)
+    '''returns String\n\n
+    get(final String hostname)\n
     '''
 def cache():
-    '''public void cache(final String hostname, final String cname, final long originalTtl, final EventLoop loop)
+    '''returns None\n\n
+    cache(final String hostname, final String cname, final long originalTtl, final EventLoop loop)\n
     '''
 def clear():
-    '''public void clear()
-    public boolean clear(final String hostname)
+    '''returns boolean\n\n
+    clear()\n
+    clear(final String hostname)\n
     '''

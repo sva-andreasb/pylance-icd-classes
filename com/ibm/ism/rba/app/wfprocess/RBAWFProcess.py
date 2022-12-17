@@ -1,51 +1,64 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
-def RBAWFProcess():
-    '''public RBAWFProcess(final MboSet ms)
+def ():
+    '''returns RBAWFProcess\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def createRevision():
-    '''public MboRemote createRevision()
+    '''returns MboRemote\n\n
+    createRevision()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
-    '''
-def isLaunchOnDemandObject():
-    '''public static boolean isLaunchOnDemandObject(final String objectName)
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def getAppLink():
-    '''public String[] getAppLink(final String objectName)
+    '''returns String[]\n\n
+    getAppLink(final String objectName)\n
     '''
 def createLaunchMbo():
-    '''public MboRemote createLaunchMbo(final MboSetRemote mboSet, final String objectName)
+    '''returns MboRemote\n\n
+    createLaunchMbo(final MboSetRemote mboSet, final String objectName)\n
     '''
 def setLOD():
-    '''public void setLOD()
+    '''returns None\n\n
+    setLOD()\n
     '''
 def clearLOD():
-    '''public void clearLOD()
+    '''returns None\n\n
+    clearLOD()\n
     '''
 def needsAppForGoToInstance():
-    '''public boolean needsAppForGoToInstance()
+    '''returns boolean\n\n
+    needsAppForGoToInstance()\n
     '''
 def setGoToInstance():
-    '''public void setGoToInstance()
+    '''returns None\n\n
+    setGoToInstance()\n
     '''
 def clearGoToInstance():
-    '''public void clearGoToInstance()
+    '''returns None\n\n
+    clearGoToInstance()\n
     '''
 def deactivateProcess():
-    '''public void deactivateProcess()
+    '''returns None\n\n
+    deactivateProcess()\n
     '''
 def needAppSupport():
-    '''public boolean needAppSupport()
+    '''returns boolean\n\n
+    needAppSupport()\n
     '''

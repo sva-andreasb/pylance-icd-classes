@@ -1,10 +1,9 @@
 NOACCESSCHECK = "long  2L"
-def AMOCAlertsProcessor():
-    '''public AMOCAlertsProcessor()
+def ():
+    '''returns AMOCAlertsProcessor\n\n
+    ()\n
     '''
 def processAMOCAlerts():
-    '''public void processAMOCAlerts(final String condition, final List<String> amocToMeterName, final Date lastRun)
-    '''
-def parseAlerts():
-    '''public ArrayList<Map<String, String>> parseAlerts(final JSONObject alerts)
+    '''returns None\n\n
+    processAMOCAlerts(final String condition, final List<String> amocToMeterName, final Date lastRun)\n
     '''

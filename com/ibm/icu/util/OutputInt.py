@@ -1,7 +1,9 @@
-def OutputInt():
-    '''public OutputInt()
-    public OutputInt(final int value)
+def ():
+    '''returns OutputInt\n\n
+    ()\n
+    (final int value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

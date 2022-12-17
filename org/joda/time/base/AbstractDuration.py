@@ -1,27 +1,36 @@
 def toDuration():
-    '''public Duration toDuration()
+    '''returns Duration\n\n
+    toDuration()\n
     '''
 def toPeriod():
-    '''public Period toPeriod()
+    '''returns Period\n\n
+    toPeriod()\n
     '''
 def compareTo():
-    '''public int compareTo(final ReadableDuration readableDuration)
+    '''returns int\n\n
+    compareTo(final ReadableDuration readableDuration)\n
     '''
 def isEqual():
-    '''public boolean isEqual(ReadableDuration zero)
+    '''returns boolean\n\n
+    isEqual(ReadableDuration zero)\n
     '''
 def isLongerThan():
-    '''public boolean isLongerThan(ReadableDuration zero)
+    '''returns boolean\n\n
+    isLongerThan(ReadableDuration zero)\n
     '''
 def isShorterThan():
-    '''public boolean isShorterThan(ReadableDuration zero)
+    '''returns boolean\n\n
+    isShorterThan(ReadableDuration zero)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

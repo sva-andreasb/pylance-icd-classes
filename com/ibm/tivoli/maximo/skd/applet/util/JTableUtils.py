@@ -1,124 +1,88 @@
-def getColumnNameForProperty():
-    '''public static String getColumnNameForProperty(final String prop)
-    '''
-def getPropertyNameForColumn():
-    '''public static String getPropertyNameForColumn(final String col)
-    '''
-def addColumnMovedListener():
-    '''public static void addColumnMovedListener(final JTable table, final ColumnMovedListener listener)
-    '''
-def addColumnResizedListener():
-    '''public static void addColumnResizedListener(final JTable table, final ColumnResizedListener listener)
-    '''
-def registerUserPropertyUpdateListener():
-    '''public static void registerUserPropertyUpdateListener(final JTable atable, final String objectName)
-    '''
 def columnMoved():
-    '''public void columnMoved(final JTable table, final TableColumn col, final int fromIndex, final int toIndex)
-    public void columnMoved(final TableColumnModelEvent e)
-    public void columnMoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnMoved(final JTable table, final TableColumn col, final int fromIndex, final int toIndex)\n
+    columnMoved(final TableColumnModelEvent e)\n
+    columnMoved(final TableColumnModelEvent e)\n
     '''
 def columnWidthChanged():
-    '''public void columnWidthChanged(final JTable table, final TableColumn tc, final int width)
-    '''
-def activityConfigAccessor():
-    '''public static GanttConfigAccessor activityConfigAccessor(final IGanttConfigInfo ganttConfigInfo)
-    '''
-def resourceConfigAccessor():
-    '''public static GanttConfigAccessor resourceConfigAccessor(final IGanttConfigInfo ganttConfigInfo)
-    '''
-def applyTableColumnSizes():
-    '''public static void applyTableColumnSizes(final JTable atable, final GanttConfigAccessor accessor)
-    '''
-def ensureRightMostColumnFillsTable():
-    '''public static void ensureRightMostColumnFillsTable(final JTable table)
+    '''returns None\n\n
+    columnWidthChanged(final JTable table, final TableColumn tc, final int width)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent e)
-    '''
-def addCustomerColumnsForResource():
-    '''public static void addCustomerColumnsForResource(final IlvScheduleChart chart)
+    '''returns None\n\n
+    componentResized(final ComponentEvent e)\n
     '''
 def isEditable():
-    '''public boolean isEditable(final IlvHierarchyNode row)
-    public boolean isEditable(final IlvHierarchyNode row)
-    public boolean isEditable(final IlvHierarchyNode row)
-    '''
-def addCustomerColumnsForActivity():
-    '''public static void addCustomerColumnsForActivity(final IlvGanttChart gChart, final IGanttConfigInfo ganttConfigInfo)
+    '''returns boolean\n\n
+    isEditable(final IlvHierarchyNode row)\n
+    isEditable(final IlvHierarchyNode row)\n
+    isEditable(final IlvHierarchyNode row)\n
     '''
 def focusGained():
-    '''public void focusGained(final FocusEvent e)
-    public void focusGained(final FocusEvent e)
+    '''returns None\n\n
+    focusGained(final FocusEvent e)\n
+    focusGained(final FocusEvent e)\n
     '''
 def focusLost():
-    '''public void focusLost(final FocusEvent e)
-    public void focusLost(final FocusEvent e)
-    '''
-def setDisplayFormatForColum():
-    '''public static void setDisplayFormatForColum(final IlvJTable table, final IlvJTableColumn column, final IMXGanttPropertyInfo actproptinfo)
-    '''
-def addActivtyActionsToTable():
-    '''public static void addActivtyActionsToTable(final IlvJTable table, final IlvGanttChart gChart)
+    '''returns None\n\n
+    focusLost(final FocusEvent e)\n
+    focusLost(final FocusEvent e)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
-    public void mousePressed(final MouseEvent e)
-    public void mousePressed(final MouseEvent e)
-    '''
-def addDoubleClickOnRowAction():
-    '''public static void addDoubleClickOnRowAction(final IlvHierarchyChart chart, final Action action)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
+    mousePressed(final MouseEvent e)\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
-    '''
-def addShowWorkForSelectedResourceToTable():
-    '''public static void addShowWorkForSelectedResourceToTable(final IlvHierarchyChart chart)
-    '''
-def hasColumn():
-    '''public static boolean hasColumn(final IlvJTable rtable, final Object identifier)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''
 def columnAdded():
-    '''public void columnAdded(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnAdded(final TableColumnModelEvent e)\n
     '''
 def columnRemoved():
-    '''public void columnRemoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnRemoved(final TableColumnModelEvent e)\n
     '''
 def columnMarginChanged():
-    '''public void columnMarginChanged(final ChangeEvent e)
-    public void columnMarginChanged(final ChangeEvent e)
+    '''returns None\n\n
+    columnMarginChanged(final ChangeEvent e)\n
+    columnMarginChanged(final ChangeEvent e)\n
     '''
 def columnSelectionChanged():
-    '''public void columnSelectionChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    columnSelectionChanged(final ListSelectionEvent e)\n
     '''
-def ColumnMovementManager():
-    '''public ColumnMovementManager(final JTable atable, final ColumnMovedListener alistener)
+def ():
+    '''returns ResourceGanttConfigAccessor\n\n
+    (final JTable atable, final ColumnMovedListener alistener)\n
+    (final JTable atable, final ColumnResizedListener alistener)\n
+    (final IGanttConfigInfo info)\n
+    (final IGanttConfigInfo info)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
-    public void mouseReleased(final MouseEvent e)
-    '''
-def ColumnResizerManager():
-    '''public ColumnResizerManager(final JTable atable, final ColumnResizedListener alistener)
-    '''
-def ActivityGanttConfigAccessor():
-    '''public ActivityGanttConfigAccessor(final IGanttConfigInfo info)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
+    mouseReleased(final MouseEvent e)\n
     '''
 def getNames():
-    '''public Iterator<String> getNames()
-    public Iterator<String> getNames()
+    '''returns Iterator<String>\n\n
+    getNames()\n
+    getNames()\n
     '''
 def getInfo():
-    '''public IMXGanttPropertyInfo getInfo(final String name)
-    public IMXGanttPropertyInfo getInfo(final String name)
+    '''returns IMXGanttPropertyInfo\n\n
+    getInfo(final String name)\n
+    getInfo(final String name)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final String propName)
-    public String getColumnName(final String propName)
-    '''
-def ResourceGanttConfigAccessor():
-    '''public ResourceGanttConfigAccessor(final IGanttConfigInfo info)
+    '''returns String\n\n
+    getColumnName(final String propName)\n
+    getColumnName(final String propName)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

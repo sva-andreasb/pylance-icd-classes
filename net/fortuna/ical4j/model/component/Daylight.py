@@ -1,12 +1,12 @@
-def Daylight():
-    '''public Daylight()
-    public Daylight(final PropertyList properties)
-    '''
-def Factory():
-    '''public Factory()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final PropertyList properties)\n
+    ()\n
     '''
 def createComponent():
-    '''public Daylight createComponent()
-    public Daylight createComponent(final PropertyList properties)
-    public Daylight createComponent(final PropertyList properties, final ComponentList subComponents)
+    '''returns Daylight\n\n
+    createComponent()\n
+    createComponent(final PropertyList properties)\n
+    createComponent(final PropertyList properties, final ComponentList subComponents)\n
     '''

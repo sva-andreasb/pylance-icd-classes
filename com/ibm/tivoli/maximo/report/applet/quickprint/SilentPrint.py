@@ -1,33 +1,44 @@
-def SilentPrint():
-    '''public SilentPrint()
+def ():
+    '''returns SilentPrint\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def submitPrintJob():
-    '''public boolean submitPrintJob()
+    '''returns boolean\n\n
+    submitPrintJob()\n
     '''
 def printImage():
-    '''public boolean printImage(String inFile, final String imageType)
+    '''returns boolean\n\n
+    printImage(String inFile, final String imageType)\n
     '''
 def printText():
-    '''public void printText(String docLink)
+    '''returns None\n\n
+    printText(String docLink)\n
     '''
 def printActiveXDocs():
-    '''public void printActiveXDocs(String funcName)
+    '''returns None\n\n
+    printActiveXDocs(String funcName)\n
     '''
 def closeWindow():
-    '''public void closeWindow()
+    '''returns None\n\n
+    closeWindow()\n
     '''
 def showErrorMessage():
-    '''public void showErrorMessage()
+    '''returns None\n\n
+    showErrorMessage()\n
     '''
 def printPDF():
-    '''public void printPDF(final String pdfurl)
+    '''returns None\n\n
+    printPDF(final String pdfurl)\n
     '''
 def startPDFPrinting():
-    '''public void startPDFPrinting(final URL inDocLinkURL)
+    '''returns None\n\n
+    startPDFPrinting(final URL inDocLinkURL)\n
     '''
 def onJavascriptResponse():
-    '''public void onJavascriptResponse(final String dataParam)
+    '''returns None\n\n
+    onJavascriptResponse(final String dataParam)\n
     '''

@@ -1,33 +1,44 @@
-def AttachedDocs():
-    '''public AttachedDocs(final MboRemote curMbo)
+def ():
+    '''returns AttachedDocs\n\n
+    (final MboRemote curMbo)\n
     '''
 def getPrintableOtherDocs():
-    '''public Vector getPrintableOtherDocs()
+    '''returns Vector\n\n
+    getPrintableOtherDocs()\n
     '''
 def getPrintablePDFDocs():
-    '''public Vector getPrintablePDFDocs()
+    '''returns Vector\n\n
+    getPrintablePDFDocs()\n
     '''
 def getAllPrintableDocs():
-    '''public Vector getAllPrintableDocs()
+    '''returns Vector\n\n
+    getAllPrintableDocs()\n
     '''
 def getBadDocs():
-    '''public HashSet getBadDocs()
+    '''returns HashSet\n\n
+    getBadDocs()\n
     '''
 def getAllFileBasedDocs():
-    '''public Vector getAllFileBasedDocs()
+    '''returns Vector\n\n
+    getAllFileBasedDocs()\n
     '''
 def getAllUrlBasedDocs():
-    '''public Vector getAllUrlBasedDocs()
+    '''returns Vector\n\n
+    getAllUrlBasedDocs()\n
     '''
 def getAllPrintableDocsCount():
-    '''public int getAllPrintableDocsCount()
+    '''returns int\n\n
+    getAllPrintableDocsCount()\n
     '''
 def getBadDocsCount():
-    '''public int getBadDocsCount()
+    '''returns int\n\n
+    getBadDocsCount()\n
     '''
 def getTotalDocsCount():
-    '''public int getTotalDocsCount()
+    '''returns int\n\n
+    getTotalDocsCount()\n
     '''
 def initalize():
-    '''public void initalize(final MboRemote curMbo)
+    '''returns None\n\n
+    initalize(final MboRemote curMbo)\n
     '''

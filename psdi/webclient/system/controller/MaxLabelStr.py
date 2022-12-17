@@ -1,9 +1,12 @@
-def MaxLabelStr():
-    '''public MaxLabelStr(final long id)
+def ():
+    '''returns MaxLabelStr\n\n
+    (final long id)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

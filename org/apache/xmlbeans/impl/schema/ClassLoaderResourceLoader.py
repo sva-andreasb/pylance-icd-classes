@@ -1,9 +1,12 @@
-def ClassLoaderResourceLoader():
-    '''public ClassLoaderResourceLoader(final ClassLoader classLoader)
+def ():
+    '''returns ClassLoaderResourceLoader\n\n
+    (final ClassLoader classLoader)\n
     '''
 def getResourceAsStream():
-    '''public InputStream getResourceAsStream(final String resourceName)
+    '''returns InputStream\n\n
+    getResourceAsStream(final String resourceName)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

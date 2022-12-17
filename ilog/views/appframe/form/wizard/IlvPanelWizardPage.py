@@ -1,89 +1,118 @@
-def IlvPanelWizardPage():
-    '''public IlvPanelWizardPage(final String s, final String s2)
-    public IlvPanelWizardPage(final LayoutManager layout)
-    public IlvPanelWizardPage()
+def ():
+    '''returns IlvPanelWizardPage\n\n
+    (final String s, final String s2)\n
+    (final LayoutManager layout)\n
+    ()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String s)
+    '''returns None\n\n
+    setDescription(final String s)\n
     '''
 def getIcon():
-    '''public Icon getIcon()
+    '''returns Icon\n\n
+    getIcon()\n
     '''
 def setIcon():
-    '''public void setIcon(final Icon icon)
+    '''returns None\n\n
+    setIcon(final Icon icon)\n
     '''
 def getForm():
-    '''public IlvForm getForm()
+    '''returns IlvForm\n\n
+    getForm()\n
     '''
 def constructPage():
-    '''public void constructPage(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    constructPage(final IlvEditionContext ilvEditionContext)\n
     '''
 def initializePage():
-    '''public void initializePage(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    initializePage(final IlvEditionContext ilvEditionContext)\n
     '''
 def validatePage():
-    '''public IlvWizardError validatePage()
+    '''returns IlvWizardError\n\n
+    validatePage()\n
     '''
 def commitPage():
-    '''public void commitPage(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    commitPage(final IlvEditionContext ilvEditionContext)\n
     '''
 def createContainer():
-    '''public Container createContainer()
+    '''returns Container\n\n
+    createContainer()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def setActive():
-    '''public void setActive(final boolean b)
+    '''returns None\n\n
+    setActive(final boolean b)\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def setValid():
-    '''public void setValid(final boolean b)
+    '''returns None\n\n
+    setValid(final boolean b)\n
     '''
 def canMoveToPreviousPage():
-    '''public boolean canMoveToPreviousPage()
+    '''returns boolean\n\n
+    canMoveToPreviousPage()\n
     '''
 def canMoveToNextPage():
-    '''public boolean canMoveToNextPage()
+    '''returns boolean\n\n
+    canMoveToNextPage()\n
     '''
 def mustBeValid():
-    '''public boolean mustBeValid()
+    '''returns boolean\n\n
+    mustBeValid()\n
     '''
 def setMustBeValid():
-    '''public void setMustBeValid(final boolean b)
+    '''returns None\n\n
+    setMustBeValid(final boolean b)\n
     '''
 def canComeBack():
-    '''public boolean canComeBack()
+    '''returns boolean\n\n
+    canComeBack()\n
     '''
 def setCanComeBack():
-    '''public void setCanComeBack(final boolean b)
+    '''returns None\n\n
+    setCanComeBack(final boolean b)\n
     '''
 def getServicesProvider():
-    '''public IlvServicesProvider getServicesProvider()
+    '''returns IlvServicesProvider\n\n
+    getServicesProvider()\n
     '''
 def setServicesProvider():
-    '''public void setServicesProvider(final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    setServicesProvider(final IlvServicesProvider ilvServicesProvider)\n
     '''
 def getWizardPanel():
-    '''public IlvWizardPanel getWizardPanel()
+    '''returns IlvWizardPanel\n\n
+    getWizardPanel()\n
     '''
 def setWizardPanel():
-    '''public void setWizardPanel(final IlvWizardPanel a)
+    '''returns None\n\n
+    setWizardPanel(final IlvWizardPanel a)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String s, final Object value)
+    '''returns Object\n\n
+    setProperty(final String s, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''

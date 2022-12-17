@@ -1,55 +1,56 @@
-def IlvChartAction():
-    '''public IlvChartAction(final String s)
-    public IlvChartAction(final String s, final Icon icon)
-    public IlvChartAction(final String s, final Icon icon, final KeyStroke keyStroke)
-    public IlvChartAction(final String name, final Icon icon, final KeyStroke accelerator, final String shortDescription, final String longDescription)
-    '''
-def getChart():
-    '''public final IlvChart getChart()
+def ():
+    '''returns IlvChartAction\n\n
+    (final String s)\n
+    (final String s, final Icon icon)\n
+    (final String s, final Icon icon, final KeyStroke keyStroke)\n
+    (final String name, final Icon icon, final KeyStroke accelerator, final String shortDescription, final String longDescription)\n
     '''
 def setChart():
-    '''public void setChart(final IlvChart d)
+    '''returns None\n\n
+    setChart(final IlvChart d)\n
     '''
 def getYAxisIndex():
-    '''public int getYAxisIndex()
+    '''returns int\n\n
+    getYAxisIndex()\n
     '''
 def setYAxisIndex():
-    '''public void setYAxisIndex(final int e)
-    '''
-def getCoordinateSystem():
-    '''public final IlvCoordinateSystem getCoordinateSystem()
-    '''
-def getYAxis():
-    '''public final IlvAxis getYAxis()
-    '''
-def getXAxis():
-    '''public final IlvAxis getXAxis()
+    '''returns None\n\n
+    setYAxisIndex(final int e)\n
     '''
 def getIcon():
-    '''public Icon getIcon()
+    '''returns Icon\n\n
+    getIcon()\n
     '''
 def setIcon():
-    '''public void setIcon(final Icon newValue)
-    public void setIcon(final Class clazz, final String str)
+    '''returns None\n\n
+    setIcon(final Icon newValue)\n
+    setIcon(final Class clazz, final String str)\n
     '''
 def getAccelerator():
-    '''public KeyStroke getAccelerator()
+    '''returns KeyStroke\n\n
+    getAccelerator()\n
     '''
 def getAcceleratorText():
-    '''public String getAcceleratorText()
+    '''returns String\n\n
+    getAcceleratorText()\n
     '''
 def setAccelerator():
-    '''public void setAccelerator(final KeyStroke newValue)
+    '''returns None\n\n
+    setAccelerator(final KeyStroke newValue)\n
     '''
 def getShortDescription():
-    '''public String getShortDescription()
+    '''returns String\n\n
+    getShortDescription()\n
     '''
 def setShortDescription():
-    '''public void setShortDescription(final String newValue)
+    '''returns None\n\n
+    setShortDescription(final String newValue)\n
     '''
 def getLongDescription():
-    '''public String getLongDescription()
+    '''returns String\n\n
+    getLongDescription()\n
     '''
 def setLongDescription():
-    '''public void setLongDescription(final String newValue)
+    '''returns None\n\n
+    setLongDescription(final String newValue)\n
     '''

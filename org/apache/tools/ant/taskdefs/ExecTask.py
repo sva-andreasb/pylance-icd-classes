@@ -1,89 +1,110 @@
-def ExecTask():
-    '''public ExecTask()
-    public ExecTask(final Task owner)
+def ():
+    '''returns ExecTask\n\n
+    ()\n
+    (final Task owner)\n
     '''
 def setSpawn():
-    '''public void setSpawn(final boolean spawn)
+    '''returns None\n\n
+    setSpawn(final boolean spawn)\n
     '''
 def setTimeout():
-    '''public void setTimeout(final Long value)
-    public void setTimeout(final Integer value)
+    '''returns None\n\n
+    setTimeout(final Long value)\n
+    setTimeout(final Integer value)\n
     '''
 def setExecutable():
-    '''public void setExecutable(final String value)
+    '''returns None\n\n
+    setExecutable(final String value)\n
     '''
 def setDir():
-    '''public void setDir(final File d)
+    '''returns None\n\n
+    setDir(final File d)\n
     '''
 def setOs():
-    '''public void setOs(final String os)
-    '''
-def getOs():
-    '''public final String getOs()
+    '''returns None\n\n
+    setOs(final String os)\n
     '''
 def setCommand():
-    '''public void setCommand(final Commandline cmdl)
+    '''returns None\n\n
+    setCommand(final Commandline cmdl)\n
     '''
 def setOutput():
-    '''public void setOutput(final File out)
+    '''returns None\n\n
+    setOutput(final File out)\n
     '''
 def setInput():
-    '''public void setInput(final File input)
+    '''returns None\n\n
+    setInput(final File input)\n
     '''
 def setInputString():
-    '''public void setInputString(final String inputString)
+    '''returns None\n\n
+    setInputString(final String inputString)\n
     '''
 def setLogError():
-    '''public void setLogError(final boolean logError)
+    '''returns None\n\n
+    setLogError(final boolean logError)\n
     '''
 def setError():
-    '''public void setError(final File error)
+    '''returns None\n\n
+    setError(final File error)\n
     '''
 def setOutputproperty():
-    '''public void setOutputproperty(final String outputProp)
+    '''returns None\n\n
+    setOutputproperty(final String outputProp)\n
     '''
 def setErrorProperty():
-    '''public void setErrorProperty(final String errorProperty)
+    '''returns None\n\n
+    setErrorProperty(final String errorProperty)\n
     '''
 def setFailonerror():
-    '''public void setFailonerror(final boolean fail)
+    '''returns None\n\n
+    setFailonerror(final boolean fail)\n
     '''
 def setNewenvironment():
-    '''public void setNewenvironment(final boolean newenv)
+    '''returns None\n\n
+    setNewenvironment(final boolean newenv)\n
     '''
 def setResolveExecutable():
-    '''public void setResolveExecutable(final boolean resolveExecutable)
+    '''returns None\n\n
+    setResolveExecutable(final boolean resolveExecutable)\n
     '''
 def setSearchPath():
-    '''public void setSearchPath(final boolean searchPath)
+    '''returns None\n\n
+    setSearchPath(final boolean searchPath)\n
     '''
 def getResolveExecutable():
-    '''public boolean getResolveExecutable()
+    '''returns boolean\n\n
+    getResolveExecutable()\n
     '''
 def addEnv():
-    '''public void addEnv(final Environment.Variable var)
+    '''returns None\n\n
+    addEnv(final Environment.Variable var)\n
     '''
 def setResultProperty():
-    '''public void setResultProperty(final String resultProperty)
+    '''returns None\n\n
+    setResultProperty(final String resultProperty)\n
     '''
 def setFailIfExecutionFails():
-    '''public void setFailIfExecutionFails(final boolean flag)
+    '''returns None\n\n
+    setFailIfExecutionFails(final boolean flag)\n
     '''
 def setAppend():
-    '''public void setAppend(final boolean append)
+    '''returns None\n\n
+    setAppend(final boolean append)\n
     '''
 def addConfiguredRedirector():
-    '''public void addConfiguredRedirector(final RedirectorElement redirectorElement)
+    '''returns None\n\n
+    addConfiguredRedirector(final RedirectorElement redirectorElement)\n
     '''
 def setOsFamily():
-    '''public void setOsFamily(final String osFamily)
-    '''
-def getOsFamily():
-    '''public final String getOsFamily()
+    '''returns None\n\n
+    setOsFamily(final String osFamily)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setVMLauncher():
-    '''public void setVMLauncher(final boolean vmLauncher)
+    '''returns None\n\n
+    setVMLauncher(final boolean vmLauncher)\n
     '''

@@ -1,70 +1,92 @@
-def XMLReaderAdapter():
-    '''public XMLReaderAdapter()
-    public XMLReaderAdapter(final XMLReader xmlReader)
+def ():
+    '''returns XMLReaderAdapter\n\n
+    ()\n
+    (final XMLReader xmlReader)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def setEntityResolver():
-    '''public void setEntityResolver(final EntityResolver entityResolver)
+    '''returns None\n\n
+    setEntityResolver(final EntityResolver entityResolver)\n
     '''
 def setDTDHandler():
-    '''public void setDTDHandler(final DTDHandler dtdHandler)
+    '''returns None\n\n
+    setDTDHandler(final DTDHandler dtdHandler)\n
     '''
 def setDocumentHandler():
-    '''public void setDocumentHandler(final DocumentHandler documentHandler)
+    '''returns None\n\n
+    setDocumentHandler(final DocumentHandler documentHandler)\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler errorHandler)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler errorHandler)\n
     '''
 def parse():
-    '''public void parse(final String s)
-    public void parse(final InputSource inputSource)
+    '''returns None\n\n
+    parse(final String s)\n
+    parse(final InputSource inputSource)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator documentLocator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator documentLocator)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String s, final String s2)
+    '''returns None\n\n
+    startPrefixMapping(final String s, final String s2)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String s)
+    '''returns None\n\n
+    endPrefixMapping(final String s)\n
     '''
 def startElement():
-    '''public void startElement(final String s, final String s2, final String s3, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String s, final String s2, final String s3, final Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    endElement(final String s, final String s2, final String s3)\n
     '''
 def characters():
-    '''public void characters(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    characters(final char[] array, final int n, final int n2)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] array, final int n, final int n2)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String s, final String s2)
+    '''returns None\n\n
+    processingInstruction(final String s, final String s2)\n
     '''
 def skippedEntity():
-    '''public void skippedEntity(final String s)
+    '''returns None\n\n
+    skippedEntity(final String s)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getName():
-    '''public String getName(final int n)
+    '''returns String\n\n
+    getName(final int n)\n
     '''
 def getType():
-    '''public String getType(final int n)
-    public String getType(final String s)
+    '''returns String\n\n
+    getType(final int n)\n
+    getType(final String s)\n
     '''
 def getValue():
-    '''public String getValue(final int n)
-    public String getValue(final String s)
+    '''returns String\n\n
+    getValue(final int n)\n
+    getValue(final String s)\n
     '''

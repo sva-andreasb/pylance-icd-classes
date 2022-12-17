@@ -1,124 +1,165 @@
-def DatabaseInformation():
-    '''public DatabaseInformation(final Connection con)
+def ():
+    '''returns DatabaseInformation\n\n
+    (final Connection con)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
-    public Connection getConnection(final MTContext c)
+    '''returns Connection\n\n
+    getConnection()\n
+    getConnection(final MTContext c)\n
     '''
 def getServerType():
-    '''public ServerType getServerType()
+    '''returns ServerType\n\n
+    getServerType()\n
     '''
 def setSelectedTenants():
-    '''public void setSelectedTenants(final Set<MTContext> tenants)
+    '''returns None\n\n
+    setSelectedTenants(final Set<MTContext> tenants)\n
     '''
 def getSelectedTenants():
-    '''public Set<MTContext> getSelectedTenants()
+    '''returns Set<MTContext>\n\n
+    getSelectedTenants()\n
     '''
 def isPreMerlin():
-    '''public boolean isPreMerlin()
+    '''returns boolean\n\n
+    isPreMerlin()\n
     '''
 def isMTEnabled():
-    '''public boolean isMTEnabled()
+    '''returns boolean\n\n
+    isMTEnabled()\n
     '''
 def getMTConnection():
-    '''public MTConnection getMTConnection()
+    '''returns MTConnection\n\n
+    getMTConnection()\n
     '''
 def getSelectedUsers():
-    '''public Set<MTContext> getSelectedUsers()
+    '''returns Set<MTContext>\n\n
+    getSelectedUsers()\n
     '''
 def getSchema():
-    '''public String getSchema()
+    '''returns String\n\n
+    getSchema()\n
     '''
 def setSchema():
-    '''public void setSchema(final String schema)
+    '''returns None\n\n
+    setSchema(final String schema)\n
     '''
 def setSelectedTenant():
-    '''public void setSelectedTenant(final String targetTenant)
+    '''returns None\n\n
+    setSelectedTenant(final String targetTenant)\n
     '''
 def getSQLTransform():
-    '''public SQLSpecificTransform getSQLTransform()
+    '''returns SQLSpecificTransform\n\n
+    getSQLTransform()\n
     '''
 def getMaxUpgVersion():
-    '''public String getMaxUpgVersion()
+    '''returns String\n\n
+    getMaxUpgVersion()\n
     '''
 def setPendingChanges():
-    '''public void setPendingChanges(final boolean hasPending)
+    '''returns None\n\n
+    setPendingChanges(final boolean hasPending)\n
     '''
 def hasPendingChanges():
-    '''public boolean hasPendingChanges()
+    '''returns boolean\n\n
+    hasPendingChanges()\n
     '''
 def getIntegerLength():
-    '''public int getIntegerLength()
+    '''returns int\n\n
+    getIntegerLength()\n
     '''
 def getSmallIntLength():
-    '''public int getSmallIntLength()
+    '''returns int\n\n
+    getSmallIntLength()\n
     '''
 def getAmountLength():
-    '''public int getAmountLength()
+    '''returns int\n\n
+    getAmountLength()\n
     '''
 def getAmountScale():
-    '''public int getAmountScale()
+    '''returns int\n\n
+    getAmountScale()\n
     '''
 def isV510():
-    '''public boolean isV510()
+    '''returns boolean\n\n
+    isV510()\n
     '''
 def isUsingVarGraphic():
-    '''public boolean isUsingVarGraphic()
+    '''returns boolean\n\n
+    isUsingVarGraphic()\n
     '''
 def getMaxVarCharLength():
-    '''public int getMaxVarCharLength()
+    '''returns int\n\n
+    getMaxVarCharLength()\n
     '''
 def getVarCharMultiple():
-    '''public int getVarCharMultiple()
+    '''returns int\n\n
+    getVarCharMultiple()\n
     '''
 def getMTStorageType():
-    '''public MTStorageType getMTStorageType(final String tablename)
+    '''returns MTStorageType\n\n
+    getMTStorageType(final String tablename)\n
     '''
 def isImportedTable():
-    '''public boolean isImportedTable(final String tableName)
+    '''returns boolean\n\n
+    isImportedTable(final String tableName)\n
     '''
 def getSynonymMaxValue():
-    '''public String getSynonymMaxValue(final String synonym, final String domainid)
+    '''returns String\n\n
+    getSynonymMaxValue(final String synonym, final String domainid)\n
     '''
 def getDefaultSynonym():
-    '''public String getDefaultSynonym(final String domainid, final String maxvalue)
+    '''returns String\n\n
+    getDefaultSynonym(final String domainid, final String maxvalue)\n
     '''
 def getBaseLangCode():
-    '''public String getBaseLangCode()
+    '''returns String\n\n
+    getBaseLangCode()\n
     '''
 def hasExtension():
-    '''public boolean hasExtension(final String baseTable)
+    '''returns boolean\n\n
+    hasExtension(final String baseTable)\n
     '''
 def resetHasExtension():
-    '''public void resetHasExtension()
+    '''returns None\n\n
+    resetHasExtension()\n
     '''
 def getNavtiveViewList():
-    '''public List<String> getNavtiveViewList()
+    '''returns List<String>\n\n
+    getNavtiveViewList()\n
     '''
 def getMaximoViewList():
-    '''public List<String> getMaximoViewList()
+    '''returns List<String>\n\n
+    getMaximoViewList()\n
     '''
 def getNickName():
-    '''public String getNickName()
+    '''returns String\n\n
+    getNickName()\n
     '''
 def hasTable():
-    '''public boolean hasTable(final String tbname)
+    '''returns boolean\n\n
+    hasTable(final String tbname)\n
     '''
 def hasTableColumn():
-    '''public boolean hasTableColumn(final String objName, final String attrName)
+    '''returns boolean\n\n
+    hasTableColumn(final String objName, final String attrName)\n
     '''
 def getUtil():
-    '''public Util getUtil()
+    '''returns Util\n\n
+    getUtil()\n
     '''
 def maxVarSetup():
-    '''public void maxVarSetup(final TreeMap<String, String> maxVarMap)
+    '''returns None\n\n
+    maxVarSetup(final TreeMap<String, String> maxVarMap)\n
     '''
 def getMaxVarValueFromCache():
-    '''public String getMaxVarValueFromCache(final String varName)
+    '''returns String\n\n
+    getMaxVarValueFromCache(final String varName)\n
     '''
 def getSequenceIncrement():
-    '''public int getSequenceIncrement()
+    '''returns int\n\n
+    getSequenceIncrement()\n
     '''
 def isMaxInst():
-    '''public boolean isMaxInst()
+    '''returns boolean\n\n
+    isMaxInst()\n
     '''

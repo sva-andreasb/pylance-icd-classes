@@ -1,25 +1,29 @@
-def IMHConsumer():
-    '''public IMHConsumer(final Properties consumerProperties)
+def ():
+    '''returns IMHConsumer\n\n
+    (final Properties consumerProperties)\n
     '''
 def commit():
-    '''public void commit()
-    public void commit(final Map md)
+    '''returns None\n\n
+    commit()\n
+    commit(final Map md)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getMessages():
-    '''public List<Message> getMessages()
+    '''returns List<Message>\n\n
+    getMessages()\n
     '''
 def getMessage():
-    '''public Message getMessage()
-    '''
-def getConnectionMetaData():
-    '''public Map<String, Object> getConnectionMetaData()
+    '''returns Message\n\n
+    getMessage()\n
     '''
 def position():
-    '''public Long position(final int partition)
+    '''returns Long\n\n
+    position(final int partition)\n
     '''
 def seek():
-    '''public void seek(final int partition, final long offset)
+    '''returns None\n\n
+    seek(final int partition, final long offset)\n
     '''

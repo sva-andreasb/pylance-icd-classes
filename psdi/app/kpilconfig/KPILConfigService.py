@@ -1,4 +1,5 @@
-def KPILConfigService():
-    '''public KPILConfigService()
-    public KPILConfigService(final MXServer mxServer)
+def ():
+    '''returns KPILConfigService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

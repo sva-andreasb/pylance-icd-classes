@@ -1,103 +1,134 @@
 Code = "String  \"GTGDBYVOJAWSQB\""
-def UIBuilder():
-    '''public UIBuilder()
-    public UIBuilder(final Map data)
+def ():
+    '''returns UIBuilder\n\n
+    ()\n
+    (final Map data)\n
     '''
 def Actions():
-    '''public JSONObject Actions()
+    '''returns JSONObject\n\n
+    Actions()\n
     '''
 def Cfg():
-    '''public JSONObject Cfg()
+    '''returns JSONObject\n\n
+    Cfg()\n
     '''
 def Cols():
-    '''public JSONArray Cols()
+    '''returns JSONArray\n\n
+    Cols()\n
     '''
 def addCol():
-    '''public JSONObject addCol()
-    public JSONObject addCol(final String id)
-    public JSONObject addCol(final String id, final String colLabel)
-    public JSONObject addCol(final String id, final String colLabel, final JSONArray Cols)
+    '''returns JSONObject\n\n
+    addCol()\n
+    addCol(final String id)\n
+    addCol(final String id, final String colLabel)\n
+    addCol(final String id, final String colLabel, final JSONArray Cols)\n
     '''
 def Def():
-    '''public JSONArray Def()
+    '''returns JSONArray\n\n
+    Def()\n
     '''
 def addDef():
-    '''public JSONObject addDef()
+    '''returns JSONObject\n\n
+    addDef()\n
     '''
 def Head():
-    '''public JSONArray Head()
+    '''returns JSONArray\n\n
+    Head()\n
     '''
 def Header():
-    '''public JSONObject Header()
+    '''returns JSONObject\n\n
+    Header()\n
     '''
 def Lang():
-    '''public JSONObject Lang()
+    '''returns JSONObject\n\n
+    Lang()\n
     '''
 def Format():
-    '''public JSONObject Format()
+    '''returns JSONObject\n\n
+    Format()\n
     '''
 def Pager():
-    '''public JSONObject Pager()
+    '''returns JSONObject\n\n
+    Pager()\n
     '''
 def Pagers():
-    '''public JSONArray Pagers()
+    '''returns JSONArray\n\n
+    Pagers()\n
     '''
 def addPager():
-    '''public JSONObject addPager()
+    '''returns JSONObject\n\n
+    addPager()\n
     '''
 def Panel():
-    '''public JSONObject Panel()
+    '''returns JSONObject\n\n
+    Panel()\n
     '''
 def RightCols():
-    '''public JSONArray RightCols()
+    '''returns JSONArray\n\n
+    RightCols()\n
     '''
 def addRightCol():
-    '''public JSONObject addRightCol()
-    public JSONObject addRightCol(final String id)
-    public JSONObject addRightCol(final String id, final String label)
+    '''returns JSONObject\n\n
+    addRightCol()\n
+    addRightCol(final String id)\n
+    addRightCol(final String id, final String label)\n
     '''
 def LeftCols():
-    '''public JSONArray LeftCols()
+    '''returns JSONArray\n\n
+    LeftCols()\n
     '''
 def addLeftCol():
-    '''public JSONObject addLeftCol()
-    public JSONObject addLeftCol(final String id)
-    public JSONObject addLeftCol(final String id, final String label)
+    '''returns JSONObject\n\n
+    addLeftCol()\n
+    addLeftCol(final String id)\n
+    addLeftCol(final String id, final String label)\n
     '''
 def Solid():
-    '''public JSONArray Solid()
+    '''returns JSONArray\n\n
+    Solid()\n
     '''
 def addSolid():
-    '''public JSONObject addSolid()
+    '''returns JSONObject\n\n
+    addSolid()\n
     '''
 def getSolid():
-    '''public JSONObject getSolid(final String id)
+    '''returns JSONObject\n\n
+    getSolid(final String id)\n
     '''
 def Toolbar():
-    '''public JSONObject Toolbar()
+    '''returns JSONObject\n\n
+    Toolbar()\n
     '''
 def Zoom():
-    '''public JSONArray Zoom()
+    '''returns JSONArray\n\n
+    Zoom()\n
     '''
 def addZoom():
-    '''public JSONObject addZoom()
+    '''returns JSONObject\n\n
+    addZoom()\n
     '''
 def Body():
-    '''public JSONArray Body()
+    '''returns JSONArray\n\n
+    Body()\n
     '''
 def addGantt():
-    '''public JSONObject addGantt()
-    public JSONObject addGantt(String id)
+    '''returns JSONObject\n\n
+    addGantt()\n
+    addGantt(String id)\n
     '''
 def Filter():
-    '''public JSONObject Filter()
+    '''returns JSONObject\n\n
+    Filter()\n
     '''
 def addRow():
-    '''public DataRow addRow()
+    '''returns DataRow\n\n
+    addRow()\n
     '''
 def Gantt():
-    '''public JSONObject Gantt()
+    '''returns JSONObject\n\n
+    Gantt()\n
     '''
 def Calendars():
-    '''public JSONArray Calendars()
+    '''returns JSONArray\n\n
+    Calendars()\n
     '''

@@ -1,7 +1,9 @@
-def BaseRouterHandler():
-    '''public BaseRouterHandler(final MaxEndPointInfo endPointInfo)
-    public BaseRouterHandler()
+def ():
+    '''returns BaseRouterHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData, final byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData, final byte[] data)\n
     '''

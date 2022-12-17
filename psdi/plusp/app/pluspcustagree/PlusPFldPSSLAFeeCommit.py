@@ -1,3 +1,4 @@
-def PlusPFldPSSLAFeeCommit():
-    '''public PlusPFldPSSLAFeeCommit(final MboValue mbv)
+def ():
+    '''returns PlusPFldPSSLAFeeCommit\n\n
+    (final MboValue mbv)\n
     '''

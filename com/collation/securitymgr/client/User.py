@@ -1,59 +1,78 @@
-def User():
-    '''public User(final String username, final String password, final Properties attr)
-    public User(final String username, final String password)
-    public User(final String username)
+def ():
+    '''returns User\n\n
+    (final String username, final String password, final Properties attr)\n
+    (final String username, final String password)\n
+    (final String username)\n
     '''
 def setSessionTimeout():
-    '''public void setSessionTimeout(final int mins)
+    '''returns None\n\n
+    setSessionTimeout(final int mins)\n
     '''
 def getSessionTimeout():
-    '''public int getSessionTimeout()
+    '''returns int\n\n
+    getSessionTimeout()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def comparePassword():
-    '''public boolean comparePassword(final String password)
+    '''returns boolean\n\n
+    comparePassword(final String password)\n
     '''
 def getPasswordExpiry():
-    '''public GregorianCalendar getPasswordExpiry()
+    '''returns GregorianCalendar\n\n
+    getPasswordExpiry()\n
     '''
 def setPasswordExpiry():
-    '''public void setPasswordExpiry(final GregorianCalendar expiry)
+    '''returns None\n\n
+    setPasswordExpiry(final GregorianCalendar expiry)\n
     '''
 def isPasswordExpired():
-    '''public boolean isPasswordExpired()
+    '''returns boolean\n\n
+    isPasswordExpired()\n
     '''
 def getPasswordExpiryString():
-    '''public String getPasswordExpiryString()
+    '''returns String\n\n
+    getPasswordExpiryString()\n
     '''
 def getNumberInvalidLoginAttempts():
-    '''public int getNumberInvalidLoginAttempts()
+    '''returns int\n\n
+    getNumberInvalidLoginAttempts()\n
     '''
 def incrementNumberInvalidLoginAttempts():
-    '''public void incrementNumberInvalidLoginAttempts()
+    '''returns None\n\n
+    incrementNumberInvalidLoginAttempts()\n
     '''
 def resetNumberInvalidLoginAttempts():
-    '''public void resetNumberInvalidLoginAttempts()
+    '''returns None\n\n
+    resetNumberInvalidLoginAttempts()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getProperties():
-    '''public Properties getProperties()
+    '''returns Properties\n\n
+    getProperties()\n
     '''
 def setProperties():
-    '''public void setProperties(final Properties attrs)
+    '''returns None\n\n
+    setProperties(final Properties attrs)\n
     '''
 def print():
-    '''public void print(final PrintStream printer, String header)
+    '''returns None\n\n
+    print(final PrintStream printer, String header)\n
     '''

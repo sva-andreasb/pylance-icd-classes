@@ -1,3 +1,4 @@
 def parse():
-    '''public GeoLocation parse(final XmlPullParser parser, final int initialDepth)
+    '''returns GeoLocation\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

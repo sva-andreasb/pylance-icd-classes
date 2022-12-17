@@ -1,3 +1,4 @@
-def PlusPReceiptInputSet():
-    '''public PlusPReceiptInputSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPReceiptInputSet\n\n
+    (final MboServerInterface arg0)\n
     '''

@@ -1,12 +1,16 @@
-def DefaultProcessingInstructionNodeStep():
-    '''public DefaultProcessingInstructionNodeStep(final IterableAxis axis, final String name, final PredicateSet predicateSet)
+def ():
+    '''returns DefaultProcessingInstructionNodeStep\n\n
+    (final IterableAxis axis, final String name, final PredicateSet predicateSet)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def matches():
-    '''public boolean matches(final Object node, final ContextSupport support)
+    '''returns boolean\n\n
+    matches(final Object node, final ContextSupport support)\n
     '''
 def accept():
-    '''public void accept(final Visitor visitor)
+    '''returns None\n\n
+    accept(final Visitor visitor)\n
     '''

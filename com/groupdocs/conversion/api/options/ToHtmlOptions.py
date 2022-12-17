@@ -1,13 +1,17 @@
-def ToHtmlOptions():
-    '''public ToHtmlOptions()
-    public ToHtmlOptions(final HtmlSaveOptions saveOptions)
+def ():
+    '''returns ToHtmlOptions\n\n
+    ()\n
+    (final HtmlSaveOptions saveOptions)\n
     '''
 def isExportImagesAsBase64():
-    '''public boolean isExportImagesAsBase64()
+    '''returns boolean\n\n
+    isExportImagesAsBase64()\n
     '''
 def setExportImagesAsBase64():
-    '''public void setExportImagesAsBase64(final boolean exportImagesAsBase64)
+    '''returns None\n\n
+    setExportImagesAsBase64(final boolean exportImagesAsBase64)\n
     '''
 def getTargetFileType():
-    '''public FileType getTargetFileType()
+    '''returns FileType\n\n
+    getTargetFileType()\n
     '''

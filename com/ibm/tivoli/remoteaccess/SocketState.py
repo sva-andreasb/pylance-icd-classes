@@ -1,3 +1,4 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

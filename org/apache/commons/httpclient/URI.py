@@ -1,267 +1,315 @@
 UNKNOWN = "int  0"
 PROTOCOL_CHARSET = "int  1"
 DOCUMENT_CHARSET = "int  2"
-def URI():
-    '''public URI(final String s, final boolean escaped, final String charset)
-    public URI(final String s, final boolean escaped)
-    public URI(final char[] escaped, final String charset)
-    public URI(final char[] escaped)
-    public URI(final String original, final String charset)
-    public URI(final String original)
-    public URI(final String scheme, final String schemeSpecificPart, final String fragment)
-    public URI(final String scheme, final String authority, final String path, final String query, final String fragment)
-    public URI(final String scheme, final String userinfo, final String host, final int port)
-    public URI(final String scheme, final String userinfo, final String host, final int port, final String path)
-    public URI(final String scheme, final String userinfo, final String host, final int port, final String path, final String query)
-    public URI(final String scheme, final String userinfo, final String host, final int port, final String path, final String query, final String fragment)
-    public URI(final String scheme, final String host, final String path, final String fragment)
-    public URI(final URI base, final String relative)
-    public URI(final URI base, final String relative, final boolean escaped)
-    public URI(final URI base, final URI relative)
+def ():
+    '''returns DefaultCharsetChanged\n\n
+    (final String s, final boolean escaped, final String charset)\n
+    (final String s, final boolean escaped)\n
+    (final char[] escaped, final String charset)\n
+    (final char[] escaped)\n
+    (final String original, final String charset)\n
+    (final String original)\n
+    (final String scheme, final String schemeSpecificPart, final String fragment)\n
+    (final String scheme, final String authority, final String path, final String query, final String fragment)\n
+    (final String scheme, final String userinfo, final String host, final int port)\n
+    (final String scheme, final String userinfo, final String host, final int port, final String path)\n
+    (final String scheme, final String userinfo, final String host, final int port, final String path, final String query)\n
+    (final String scheme, final String userinfo, final String host, final int port, final String path, final String query, final String fragment)\n
+    (final String scheme, final String host, final String path, final String fragment)\n
+    (final URI base, final String relative)\n
+    (final URI base, final String relative, final boolean escaped)\n
+    (final URI base, final URI relative)\n
+    (final int reasonCode, final String reason)\n
     '''
 def isAbsoluteURI():
-    '''public boolean isAbsoluteURI()
+    '''returns boolean\n\n
+    isAbsoluteURI()\n
     '''
 def isRelativeURI():
-    '''public boolean isRelativeURI()
+    '''returns boolean\n\n
+    isRelativeURI()\n
     '''
 def isHierPart():
-    '''public boolean isHierPart()
+    '''returns boolean\n\n
+    isHierPart()\n
     '''
 def isOpaquePart():
-    '''public boolean isOpaquePart()
+    '''returns boolean\n\n
+    isOpaquePart()\n
     '''
 def isNetPath():
-    '''public boolean isNetPath()
+    '''returns boolean\n\n
+    isNetPath()\n
     '''
 def isAbsPath():
-    '''public boolean isAbsPath()
+    '''returns boolean\n\n
+    isAbsPath()\n
     '''
 def isRelPath():
-    '''public boolean isRelPath()
+    '''returns boolean\n\n
+    isRelPath()\n
     '''
 def hasAuthority():
-    '''public boolean hasAuthority()
+    '''returns boolean\n\n
+    hasAuthority()\n
     '''
 def isRegName():
-    '''public boolean isRegName()
+    '''returns boolean\n\n
+    isRegName()\n
     '''
 def isServer():
-    '''public boolean isServer()
+    '''returns boolean\n\n
+    isServer()\n
     '''
 def hasUserinfo():
-    '''public boolean hasUserinfo()
+    '''returns boolean\n\n
+    hasUserinfo()\n
     '''
 def isHostname():
-    '''public boolean isHostname()
+    '''returns boolean\n\n
+    isHostname()\n
     '''
 def isIPv4address():
-    '''public boolean isIPv4address()
+    '''returns boolean\n\n
+    isIPv4address()\n
     '''
 def isIPv6reference():
-    '''public boolean isIPv6reference()
+    '''returns boolean\n\n
+    isIPv6reference()\n
     '''
 def hasQuery():
-    '''public boolean hasQuery()
+    '''returns boolean\n\n
+    hasQuery()\n
     '''
 def hasFragment():
-    '''public boolean hasFragment()
-    '''
-def setDefaultProtocolCharset():
-    '''public static void setDefaultProtocolCharset(final String charset)
-    '''
-def getDefaultProtocolCharset():
-    '''public static String getDefaultProtocolCharset()
+    '''returns boolean\n\n
+    hasFragment()\n
     '''
 def getProtocolCharset():
-    '''public String getProtocolCharset()
-    '''
-def setDefaultDocumentCharset():
-    '''public static void setDefaultDocumentCharset(final String charset)
-    '''
-def getDefaultDocumentCharset():
-    '''public static String getDefaultDocumentCharset()
-    '''
-def getDefaultDocumentCharsetByLocale():
-    '''public static String getDefaultDocumentCharsetByLocale()
-    '''
-def getDefaultDocumentCharsetByPlatform():
-    '''public static String getDefaultDocumentCharsetByPlatform()
+    '''returns String\n\n
+    getProtocolCharset()\n
     '''
 def getRawScheme():
-    '''public char[] getRawScheme()
+    '''returns char[]\n\n
+    getRawScheme()\n
     '''
 def getScheme():
-    '''public String getScheme()
+    '''returns String\n\n
+    getScheme()\n
     '''
 def setRawAuthority():
-    '''public void setRawAuthority(final char[] escapedAuthority)
+    '''returns None\n\n
+    setRawAuthority(final char[] escapedAuthority)\n
     '''
 def setEscapedAuthority():
-    '''public void setEscapedAuthority(final String escapedAuthority)
+    '''returns None\n\n
+    setEscapedAuthority(final String escapedAuthority)\n
     '''
 def getRawAuthority():
-    '''public char[] getRawAuthority()
+    '''returns char[]\n\n
+    getRawAuthority()\n
     '''
 def getEscapedAuthority():
-    '''public String getEscapedAuthority()
+    '''returns String\n\n
+    getEscapedAuthority()\n
     '''
 def getAuthority():
-    '''public String getAuthority()
+    '''returns String\n\n
+    getAuthority()\n
     '''
 def getRawUserinfo():
-    '''public char[] getRawUserinfo()
+    '''returns char[]\n\n
+    getRawUserinfo()\n
     '''
 def getEscapedUserinfo():
-    '''public String getEscapedUserinfo()
+    '''returns String\n\n
+    getEscapedUserinfo()\n
     '''
 def getUserinfo():
-    '''public String getUserinfo()
+    '''returns String\n\n
+    getUserinfo()\n
     '''
 def getRawHost():
-    '''public char[] getRawHost()
+    '''returns char[]\n\n
+    getRawHost()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def setRawPath():
-    '''public void setRawPath(char[] escapedPath)
+    '''returns None\n\n
+    setRawPath(char[] escapedPath)\n
     '''
 def setEscapedPath():
-    '''public void setEscapedPath(final String escapedPath)
+    '''returns None\n\n
+    setEscapedPath(final String escapedPath)\n
     '''
 def setPath():
-    '''public void setPath(final String path)
+    '''returns None\n\n
+    setPath(final String path)\n
     '''
 def getRawCurrentHierPath():
-    '''public char[] getRawCurrentHierPath()
+    '''returns char[]\n\n
+    getRawCurrentHierPath()\n
     '''
 def getEscapedCurrentHierPath():
-    '''public String getEscapedCurrentHierPath()
+    '''returns String\n\n
+    getEscapedCurrentHierPath()\n
     '''
 def getCurrentHierPath():
-    '''public String getCurrentHierPath()
+    '''returns String\n\n
+    getCurrentHierPath()\n
     '''
 def getRawAboveHierPath():
-    '''public char[] getRawAboveHierPath()
+    '''returns char[]\n\n
+    getRawAboveHierPath()\n
     '''
 def getEscapedAboveHierPath():
-    '''public String getEscapedAboveHierPath()
+    '''returns String\n\n
+    getEscapedAboveHierPath()\n
     '''
 def getAboveHierPath():
-    '''public String getAboveHierPath()
+    '''returns String\n\n
+    getAboveHierPath()\n
     '''
 def getRawPath():
-    '''public char[] getRawPath()
+    '''returns char[]\n\n
+    getRawPath()\n
     '''
 def getEscapedPath():
-    '''public String getEscapedPath()
+    '''returns String\n\n
+    getEscapedPath()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def getRawName():
-    '''public char[] getRawName()
+    '''returns char[]\n\n
+    getRawName()\n
     '''
 def getEscapedName():
-    '''public String getEscapedName()
+    '''returns String\n\n
+    getEscapedName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getRawPathQuery():
-    '''public char[] getRawPathQuery()
+    '''returns char[]\n\n
+    getRawPathQuery()\n
     '''
 def getEscapedPathQuery():
-    '''public String getEscapedPathQuery()
+    '''returns String\n\n
+    getEscapedPathQuery()\n
     '''
 def getPathQuery():
-    '''public String getPathQuery()
+    '''returns String\n\n
+    getPathQuery()\n
     '''
 def setRawQuery():
-    '''public void setRawQuery(char[] escapedQuery)
+    '''returns None\n\n
+    setRawQuery(char[] escapedQuery)\n
     '''
 def setEscapedQuery():
-    '''public void setEscapedQuery(final String escapedQuery)
+    '''returns None\n\n
+    setEscapedQuery(final String escapedQuery)\n
     '''
 def setQuery():
-    '''public void setQuery(final String query)
+    '''returns None\n\n
+    setQuery(final String query)\n
     '''
 def getRawQuery():
-    '''public char[] getRawQuery()
+    '''returns char[]\n\n
+    getRawQuery()\n
     '''
 def getEscapedQuery():
-    '''public String getEscapedQuery()
+    '''returns String\n\n
+    getEscapedQuery()\n
     '''
 def getQuery():
-    '''public String getQuery()
+    '''returns String\n\n
+    getQuery()\n
     '''
 def setRawFragment():
-    '''public void setRawFragment(final char[] escapedFragment)
+    '''returns None\n\n
+    setRawFragment(final char[] escapedFragment)\n
     '''
 def setEscapedFragment():
-    '''public void setEscapedFragment(final String escapedFragment)
+    '''returns None\n\n
+    setEscapedFragment(final String escapedFragment)\n
     '''
 def setFragment():
-    '''public void setFragment(final String fragment)
+    '''returns None\n\n
+    setFragment(final String fragment)\n
     '''
 def getRawFragment():
-    '''public char[] getRawFragment()
+    '''returns char[]\n\n
+    getRawFragment()\n
     '''
 def getEscapedFragment():
-    '''public String getEscapedFragment()
+    '''returns String\n\n
+    getEscapedFragment()\n
     '''
 def getFragment():
-    '''public String getFragment()
+    '''returns String\n\n
+    getFragment()\n
     '''
 def normalize():
-    '''public void normalize()
+    '''returns None\n\n
+    normalize()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
-    '''
-def clone():
-    '''public synchronized Object clone()
+    '''returns int\n\n
+    compareTo(final Object obj)\n
     '''
 def getRawURI():
-    '''public char[] getRawURI()
+    '''returns char[]\n\n
+    getRawURI()\n
     '''
 def getEscapedURI():
-    '''public String getEscapedURI()
+    '''returns String\n\n
+    getEscapedURI()\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def getRawURIReference():
-    '''public char[] getRawURIReference()
+    '''returns char[]\n\n
+    getRawURIReference()\n
     '''
 def getEscapedURIReference():
-    '''public String getEscapedURIReference()
+    '''returns String\n\n
+    getEscapedURIReference()\n
     '''
 def getURIReference():
-    '''public String getURIReference()
+    '''returns String\n\n
+    getURIReference()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def DefaultCharsetChanged():
-    '''public DefaultCharsetChanged(final int reasonCode, final String reason)
+    '''returns String\n\n
+    toString()\n
     '''
 def getReasonCode():
-    '''public int getReasonCode()
+    '''returns int\n\n
+    getReasonCode()\n
     '''
 def getReason():
-    '''public String getReason()
-    '''
-def getCharset():
-    '''public static String getCharset(final Locale locale)
+    '''returns String\n\n
+    getReason()\n
     '''

@@ -1,12 +1,16 @@
-def FldSpecValue():
-    '''public FldSpecValue(final MboValue mbv)
+def ():
+    '''returns FldSpecValue\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

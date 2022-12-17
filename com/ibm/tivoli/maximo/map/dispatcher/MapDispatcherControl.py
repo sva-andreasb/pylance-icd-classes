@@ -1,51 +1,64 @@
-def MapDispatcherControl():
-    '''public MapDispatcherControl()
+def ():
+    '''returns MapDispatcherControl\n\n
+    ()\n
     '''
 def DELETEASSIGN():
-    '''public int DELETEASSIGN()
+    '''returns int\n\n
+    DELETEASSIGN()\n
     '''
 def CREATEASSIGN():
-    '''public int CREATEASSIGN()
+    '''returns int\n\n
+    CREATEASSIGN()\n
     '''
 def APPLETCMD():
-    '''public int APPLETCMD()
-    '''
-def secondsToDuration():
-    '''public static Double secondsToDuration(long seconds)
+    '''returns int\n\n
+    APPLETCMD()\n
     '''
 def SHOWMULTIPLEROUTEERRORS():
-    '''public int SHOWMULTIPLEROUTEERRORS()
+    '''returns int\n\n
+    SHOWMULTIPLEROUTEERRORS()\n
     '''
 def SAVEBULKTRAVELTIME():
-    '''public int SAVEBULKTRAVELTIME()
+    '''returns int\n\n
+    SAVEBULKTRAVELTIME()\n
     '''
 def SAVETRAVELTIME():
-    '''public int SAVETRAVELTIME()
+    '''returns int\n\n
+    SAVETRAVELTIME()\n
     '''
 def UPDATEASSIGNMENTS():
-    '''public int UPDATEASSIGNMENTS()
+    '''returns int\n\n
+    UPDATEASSIGNMENTS()\n
     '''
 def SPLITASSIGN():
-    '''public int SPLITASSIGN()
+    '''returns int\n\n
+    SPLITASSIGN()\n
     '''
 def TRIGGERMSGS():
-    '''public int TRIGGERMSGS()
+    '''returns int\n\n
+    TRIGGERMSGS()\n
     '''
 def SPLITSHIFT():
-    '''public int SPLITSHIFT()
+    '''returns int\n\n
+    SPLITSHIFT()\n
     '''
 def TOGGLELOCK():
-    '''public int TOGGLELOCK()
+    '''returns int\n\n
+    TOGGLELOCK()\n
     '''
 def refreshresource():
-    '''public int refreshresource()
+    '''returns int\n\n
+    refreshresource()\n
     '''
 def getCallBackInfo():
-    '''public JSONObject getCallBackInfo()
+    '''returns JSONObject\n\n
+    getCallBackInfo()\n
     '''
 def clearCallbackInfo():
-    '''public void clearCallbackInfo()
+    '''returns None\n\n
+    clearCallbackInfo()\n
     '''
 def DOREFRESHRESOURCE():
-    '''public int DOREFRESHRESOURCE()
+    '''returns int\n\n
+    DOREFRESHRESOURCE()\n
     '''

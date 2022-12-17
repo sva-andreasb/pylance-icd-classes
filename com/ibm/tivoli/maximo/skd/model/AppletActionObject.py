@@ -1,21 +1,28 @@
-def AppletActionObject():
-    '''public AppletActionObject()
+def ():
+    '''returns AppletActionObject\n\n
+    ()\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String id)
+    '''returns None\n\n
+    setProjectId(final String id)\n
     '''
 def setActionObject():
-    '''public void setActionObject(final Object obj)
+    '''returns None\n\n
+    setActionObject(final Object obj)\n
     '''
 def getActionObject():
-    '''public Object getActionObject()
+    '''returns Object\n\n
+    getActionObject()\n
     '''
 def saveNeededBeforeAction():
-    '''public void saveNeededBeforeAction(final boolean flag)
+    '''returns None\n\n
+    saveNeededBeforeAction(final boolean flag)\n
     '''
 def isSaveNeededBeforeAction():
-    '''public boolean isSaveNeededBeforeAction()
+    '''returns boolean\n\n
+    isSaveNeededBeforeAction()\n
     '''

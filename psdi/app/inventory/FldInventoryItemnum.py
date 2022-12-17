@@ -1,9 +1,12 @@
-def FldInventoryItemnum():
-    '''public FldInventoryItemnum(final MboValue mbv)
+def ():
+    '''returns FldInventoryItemnum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

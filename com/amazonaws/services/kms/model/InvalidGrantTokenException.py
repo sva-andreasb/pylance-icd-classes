@@ -1,3 +1,4 @@
-def InvalidGrantTokenException():
-    '''public InvalidGrantTokenException(final String message)
+def ():
+    '''returns InvalidGrantTokenException\n\n
+    (final String message)\n
     '''

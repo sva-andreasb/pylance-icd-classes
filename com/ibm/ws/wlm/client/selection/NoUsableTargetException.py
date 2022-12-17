@@ -1,4 +1,5 @@
-def NoUsableTargetException():
-    '''public NoUsableTargetException()
-    public NoUsableTargetException(final String message)
+def ():
+    '''returns NoUsableTargetException\n\n
+    ()\n
+    (final String message)\n
     '''

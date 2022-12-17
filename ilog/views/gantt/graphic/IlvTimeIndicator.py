@@ -1,85 +1,112 @@
-def IlvTimeIndicator():
-    '''public IlvTimeIndicator(final Date date, final IlvGraphic ilvGraphic)
-    public IlvTimeIndicator(final Date d, final IlvGraphic renderer, final String description)
+def ():
+    '''returns IlvTimeIndicator\n\n
+    (final Date date, final IlvGraphic ilvGraphic)\n
+    (final Date d, final IlvGraphic renderer, final String description)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String toolTipText)
+    '''returns None\n\n
+    setDescription(final String toolTipText)\n
     '''
 def getRenderer():
-    '''public IlvGraphic getRenderer()
+    '''returns IlvGraphic\n\n
+    getRenderer()\n
     '''
 def setRenderer():
-    '''public void setRenderer(final IlvGraphic ilvGraphic)
+    '''returns None\n\n
+    setRenderer(final IlvGraphic ilvGraphic)\n
     '''
 def getTime():
-    '''public Date getTime()
+    '''returns Date\n\n
+    getTime()\n
     '''
 def setTime():
-    '''public void setTime(final Date date)
+    '''returns None\n\n
+    setTime(final Date date)\n
     '''
 def getMaxWidth():
-    '''public int getMaxWidth()
+    '''returns int\n\n
+    getMaxWidth()\n
     '''
 def setMaxWidth():
-    '''public void setMaxWidth(final int e)
+    '''returns None\n\n
+    setMaxWidth(final int e)\n
     '''
 def getAlpha():
-    '''public float getAlpha()
+    '''returns float\n\n
+    getAlpha()\n
     '''
 def setAlpha():
-    '''public void setAlpha(final float f)
+    '''returns None\n\n
+    setAlpha(final float f)\n
     '''
 def setForeground():
-    '''public void setForeground(final Color foreground)
+    '''returns None\n\n
+    setForeground(final Color foreground)\n
     '''
 def setFillOn():
-    '''public void setFillOn(final boolean fillOn)
+    '''returns None\n\n
+    setFillOn(final boolean fillOn)\n
     '''
 def setBackground():
-    '''public void setBackground(final Color background)
+    '''returns None\n\n
+    setBackground(final Color background)\n
     '''
 def setStrokeOn():
-    '''public void setStrokeOn(final boolean strokeOn)
+    '''returns None\n\n
+    setStrokeOn(final boolean strokeOn)\n
     '''
 def setToolTipText():
-    '''public void setToolTipText(final String toolTipText)
+    '''returns None\n\n
+    setToolTipText(final String toolTipText)\n
     '''
 def applyTransform():
-    '''public void applyTransform(final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    applyTransform(final IlvTransformer ilvTransformer)\n
     '''
 def zoomable():
-    '''public boolean zoomable()
+    '''returns boolean\n\n
+    zoomable()\n
     '''
 def update():
-    '''public void update()
+    '''returns None\n\n
+    update()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def boundingBox():
-    '''public IlvRect boundingBox(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    boundingBox(final IlvTransformer ilvTransformer)\n
     '''
 def copy():
-    '''public IlvGraphic copy()
+    '''returns IlvGraphic\n\n
+    copy()\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def maxVerticalPositionChanged():
-    '''public void maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def verticalExtentChanged():
-    '''public void verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def verticalPositionChanged():
-    '''public void verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''

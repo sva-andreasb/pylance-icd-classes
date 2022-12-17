@@ -1,42 +1,56 @@
-def TokenInformation():
-    '''public TokenInformation(final String tokenId, final KafkaPrincipal owner, final Collection<KafkaPrincipal> renewers, final long issueTimestamp, final long maxTimestamp, final long expiryTimestamp)
+def ():
+    '''returns TokenInformation\n\n
+    (final String tokenId, final KafkaPrincipal owner, final Collection<KafkaPrincipal> renewers, final long issueTimestamp, final long maxTimestamp, final long expiryTimestamp)\n
     '''
 def owner():
-    '''public KafkaPrincipal owner()
+    '''returns KafkaPrincipal\n\n
+    owner()\n
     '''
 def ownerAsString():
-    '''public String ownerAsString()
+    '''returns String\n\n
+    ownerAsString()\n
     '''
 def renewers():
-    '''public Collection<KafkaPrincipal> renewers()
+    '''returns Collection<KafkaPrincipal>\n\n
+    renewers()\n
     '''
 def renewersAsString():
-    '''public Collection<String> renewersAsString()
+    '''returns Collection<String>\n\n
+    renewersAsString()\n
     '''
 def issueTimestamp():
-    '''public long issueTimestamp()
+    '''returns long\n\n
+    issueTimestamp()\n
     '''
 def expiryTimestamp():
-    '''public long expiryTimestamp()
+    '''returns long\n\n
+    expiryTimestamp()\n
     '''
 def setExpiryTimestamp():
-    '''public void setExpiryTimestamp(final long expiryTimestamp)
+    '''returns None\n\n
+    setExpiryTimestamp(final long expiryTimestamp)\n
     '''
 def tokenId():
-    '''public String tokenId()
+    '''returns String\n\n
+    tokenId()\n
     '''
 def maxTimestamp():
-    '''public long maxTimestamp()
+    '''returns long\n\n
+    maxTimestamp()\n
     '''
 def ownerOrRenewer():
-    '''public boolean ownerOrRenewer(final KafkaPrincipal principal)
+    '''returns boolean\n\n
+    ownerOrRenewer(final KafkaPrincipal principal)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

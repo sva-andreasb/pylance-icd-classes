@@ -1,6 +1,8 @@
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def updateINvFreq():
-    '''public void updateINvFreq()
+    '''returns None\n\n
+    updateINvFreq()\n
     '''

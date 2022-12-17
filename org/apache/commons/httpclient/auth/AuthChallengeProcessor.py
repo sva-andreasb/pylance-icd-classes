@@ -1,9 +1,12 @@
-def AuthChallengeProcessor():
-    '''public AuthChallengeProcessor(final HttpParams params)
+def ():
+    '''returns AuthChallengeProcessor\n\n
+    (final HttpParams params)\n
     '''
 def selectAuthScheme():
-    '''public AuthScheme selectAuthScheme(final Map challenges)
+    '''returns AuthScheme\n\n
+    selectAuthScheme(final Map challenges)\n
     '''
 def processChallenge():
-    '''public AuthScheme processChallenge(final AuthState state, final Map challenges)
+    '''returns AuthScheme\n\n
+    processChallenge(final AuthState state, final Map challenges)\n
     '''

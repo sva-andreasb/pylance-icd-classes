@@ -1,6 +1,8 @@
 def retrieve():
-    '''public JarFile retrieve(final URL url)
+    '''returns JarFile\n\n
+    retrieve(final URL url)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

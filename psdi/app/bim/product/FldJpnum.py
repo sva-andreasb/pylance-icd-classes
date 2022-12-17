@@ -1,4 +1,5 @@
-def FldJpnum():
-    '''public FldJpnum(final MboValue mbv)
-    public FldJpnum(final MboValue mbv, final String criteriaName)
+def ():
+    '''returns FldJpnum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String criteriaName)\n
     '''

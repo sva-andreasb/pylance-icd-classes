@@ -1,37 +1,37 @@
-def newBuilder():
-    '''public static <B extends Builder<B>> B newBuilder()
-    '''
 def toSerializable():
-    '''public String toSerializable(final LogEvent event)
-    '''
-def getContentFormat():
-    '''public Map<String, String> getContentFormat()
-    '''
-def createLayout():
-    '''public static SyslogLayout createLayout(final Facility facility, final boolean includeNewLine, final String escapeNL, final Charset charset)
+    '''returns String\n\n
+    toSerializable(final LogEvent event)\n
     '''
 def getFacility():
-    '''public Facility getFacility()
-    public Facility getFacility()
+    '''returns Facility\n\n
+    getFacility()\n
+    getFacility()\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def build():
-    '''public SyslogLayout build()
+    '''returns SyslogLayout\n\n
+    build()\n
     '''
 def isIncludeNewLine():
-    '''public boolean isIncludeNewLine()
+    '''returns boolean\n\n
+    isIncludeNewLine()\n
     '''
 def getEscapeNL():
-    '''public String getEscapeNL()
+    '''returns String\n\n
+    getEscapeNL()\n
     '''
 def setFacility():
-    '''public B setFacility(final Facility facility)
+    '''returns B\n\n
+    setFacility(final Facility facility)\n
     '''
 def setIncludeNewLine():
-    '''public B setIncludeNewLine(final boolean includeNewLine)
+    '''returns B\n\n
+    setIncludeNewLine(final boolean includeNewLine)\n
     '''
 def setEscapeNL():
-    '''public B setEscapeNL(final String escapeNL)
+    '''returns B\n\n
+    setEscapeNL(final String escapeNL)\n
     '''

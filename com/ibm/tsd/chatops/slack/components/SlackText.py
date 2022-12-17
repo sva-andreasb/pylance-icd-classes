@@ -1,12 +1,15 @@
 TYPE_PLAIN_TEXT = "String  \"plain_text\""
 TYPE_MRKDWN = "String  \"mrkdwn\""
-def SlackText():
-    '''public SlackText(final String type)
-    public SlackText(final String type, final String text)
+def ():
+    '''returns SlackText\n\n
+    (final String type)\n
+    (final String type, final String text)\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''

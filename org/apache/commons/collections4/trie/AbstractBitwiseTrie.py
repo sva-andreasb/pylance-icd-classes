@@ -1,26 +1,34 @@
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
-def BasicEntry():
-    '''public BasicEntry(final K key)
-    public BasicEntry(final K key, final V value)
+def ():
+    '''returns BasicEntry\n\n
+    (final K key)\n
+    (final K key, final V value)\n
     '''
 def setKeyValue():
-    '''public V setKeyValue(final K key, final V value)
+    '''returns V\n\n
+    setKeyValue(final K key, final V value)\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

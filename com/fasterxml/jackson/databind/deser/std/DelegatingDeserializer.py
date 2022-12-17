@@ -1,37 +1,49 @@
-def DelegatingDeserializer():
-    '''public DelegatingDeserializer(final JsonDeserializer<?> d)
+def ():
+    '''returns DelegatingDeserializer\n\n
+    (final JsonDeserializer<?> d)\n
     '''
 def resolve():
-    '''public void resolve(final DeserializationContext ctxt)
+    '''returns None\n\n
+    resolve(final DeserializationContext ctxt)\n
     '''
 def deserialize():
-    '''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public Object deserialize(final JsonParser p, final DeserializationContext ctxt, final Object intoValue)
+    '''returns Object\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final Object intoValue)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''
 def findBackReference():
-    '''public SettableBeanProperty findBackReference(final String logicalName)
+    '''returns SettableBeanProperty\n\n
+    findBackReference(final String logicalName)\n
     '''
 def getNullAccessPattern():
-    '''public AccessPattern getNullAccessPattern()
+    '''returns AccessPattern\n\n
+    getNullAccessPattern()\n
     '''
 def getNullValue():
-    '''public Object getNullValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getNullValue(final DeserializationContext ctxt)\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
     '''
 def getKnownPropertyNames():
-    '''public Collection<Object> getKnownPropertyNames()
+    '''returns Collection<Object>\n\n
+    getKnownPropertyNames()\n
     '''
 def getObjectIdReader():
-    '''public ObjectIdReader getObjectIdReader()
+    '''returns ObjectIdReader\n\n
+    getObjectIdReader()\n
     '''

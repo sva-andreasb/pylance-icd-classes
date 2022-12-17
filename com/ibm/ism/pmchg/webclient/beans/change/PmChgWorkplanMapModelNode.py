@@ -1,21 +1,24 @@
-def PmChgWorkplanMapModelNode():
-    '''public PmChgWorkplanMapModelNode(final boolean isLink)
+def ():
+    '''returns PmChgWorkplanMapModelNode\n\n
+    (final boolean isLink)\n
     '''
 def isLink():
-    '''public boolean isLink()
+    '''returns boolean\n\n
+    isLink()\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
-    '''
-def getProperties():
-    '''public Map<String, Object> getProperties()
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def addChild():
-    '''public void addChild(final PmChgWorkplanMapModelNode node)
+    '''returns None\n\n
+    addChild(final PmChgWorkplanMapModelNode node)\n
     '''
 def getChildren():
-    '''public List<PmChgWorkplanMapModelNode> getChildren()
+    '''returns List<PmChgWorkplanMapModelNode>\n\n
+    getChildren()\n
     '''

@@ -1,3 +1,4 @@
 def getTypeId():
-    '''public Object getTypeId()
+    '''returns Object\n\n
+    getTypeId()\n
     '''

@@ -1,38 +1,50 @@
 RETAINMBOS = "String  \"_retainmbos\""
 DROPNULLS = "String  \"_dropnulls\""
 def setPagedExport():
-    '''public void setPagedExport(final boolean pagedExport)
+    '''returns None\n\n
+    setPagedExport(final boolean pagedExport)\n
     '''
 def isPagedExport():
-    '''public boolean isPagedExport()
+    '''returns boolean\n\n
+    isPagedExport()\n
     '''
 def setAddRowStamp():
-    '''public void setAddRowStamp(final boolean addRowStamp)
+    '''returns None\n\n
+    setAddRowStamp(final boolean addRowStamp)\n
     '''
 def setAddAction():
-    '''public void setAddAction(final boolean addAction)
+    '''returns None\n\n
+    setAddAction(final boolean addAction)\n
     '''
 def setIgnoreKeyRef():
-    '''public void setIgnoreKeyRef(final boolean keyRef)
+    '''returns None\n\n
+    setIgnoreKeyRef(final boolean keyRef)\n
     '''
 def setInlineAttachment():
-    '''public void setInlineAttachment(final boolean bool)
+    '''returns None\n\n
+    setInlineAttachment(final boolean bool)\n
     '''
-def OSOslcSerializer():
-    '''public OSOslcSerializer(final String osName, final OslcRequest oslcRequest)
+def ():
+    '''returns OSOslcSerializer\n\n
+    (final String osName, final OslcRequest oslcRequest)\n
     '''
 def getQueryLimit():
-    '''public Integer getQueryLimit()
+    '''returns Integer\n\n
+    getQueryLimit()\n
     '''
 def deriveCollectionURIFromMemberURI():
-    '''public String deriveCollectionURIFromMemberURI(final String resMemberURI)
+    '''returns String\n\n
+    deriveCollectionURIFromMemberURI(final String resMemberURI)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def setAllowSkipRows():
-    '''public void setAllowSkipRows(final boolean allowSkipRows)
+    '''returns None\n\n
+    setAllowSkipRows(final boolean allowSkipRows)\n
     '''
 def isAllowSkipRows():
-    '''public boolean isAllowSkipRows()
+    '''returns boolean\n\n
+    isAllowSkipRows()\n
     '''

@@ -1,3 +1,4 @@
-def FldDMRole():
-    '''public FldDMRole(final MboValue mbv)
+def ():
+    '''returns FldDMRole\n\n
+    (final MboValue mbv)\n
     '''

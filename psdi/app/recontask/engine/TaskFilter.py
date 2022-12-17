@@ -1,19 +1,25 @@
-def TaskFilter():
-    '''public TaskFilter(final ReconInfo reconInfo, final MboRemote reconTaskMbo)
+def ():
+    '''returns TaskFilter\n\n
+    (final ReconInfo reconInfo, final MboRemote reconTaskMbo)\n
     '''
 def getLeadingDataSet():
-    '''public DataSet getLeadingDataSet()
+    '''returns DataSet\n\n
+    getLeadingDataSet()\n
     '''
 def getSecondaryDataSet():
-    '''public DataSet getSecondaryDataSet()
+    '''returns DataSet\n\n
+    getSecondaryDataSet()\n
     '''
 def getWhereClause():
-    '''public String getWhereClause()
-    public String getWhereClause(String whereClause)
+    '''returns String\n\n
+    getWhereClause()\n
+    getWhereClause(String whereClause)\n
     '''
 def getTables():
-    '''public List getTables()
+    '''returns List\n\n
+    getTables()\n
     '''
 def isForDataSet():
-    '''public boolean isForDataSet(final DataSet dataSet)
+    '''returns boolean\n\n
+    isForDataSet(final DataSet dataSet)\n
     '''

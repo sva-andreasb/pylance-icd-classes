@@ -1,24 +1,20 @@
-def IlvChartPrintContext():
-    '''public IlvChartPrintContext(final IlvUnit$Rectangle ilvUnit$Rectangle, final IlvChartPrintableDocument b, final IlvPage a)
-    '''
-def getDocument():
-    '''public final IlvChartPrintableDocument getDocument()
-    '''
-def getPage():
-    '''public final IlvPage getPage()
-    '''
-def getChart():
-    '''public final IlvChart getChart()
+def ():
+    '''returns IlvChartPrintContext\n\n
+    (final IlvUnit$Rectangle ilvUnit$Rectangle, final IlvChartPrintableDocument b, final IlvPage a)\n
     '''
 def getDrawRect():
-    '''public Rectangle getDrawRect()
+    '''returns Rectangle\n\n
+    getDrawRect()\n
     '''
 def getBackground():
-    '''public Color getBackground()
+    '''returns Color\n\n
+    getBackground()\n
     '''
 def isTitleVisible():
-    '''public boolean isTitleVisible(final IlvScale ilvScale)
+    '''returns boolean\n\n
+    isTitleVisible(final IlvScale ilvScale)\n
     '''
 def isVisible():
-    '''public boolean isVisible(final IlvChartDrawable ilvChartDrawable)
+    '''returns boolean\n\n
+    isVisible(final IlvChartDrawable ilvChartDrawable)\n
     '''

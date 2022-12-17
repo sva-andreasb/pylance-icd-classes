@@ -1,57 +1,76 @@
-def IlvListActionHandler():
-    '''public IlvListActionHandler(final String s)
+def ():
+    '''returns IlvListActionHandler\n\n
+    (final String s)\n
     '''
 def getListItems():
-    '''public Object[] getListItems()
+    '''returns Object[]\n\n
+    getListItems()\n
     '''
 def setListItems():
-    '''public void setListItems(final Object[] array)
+    '''returns None\n\n
+    setListItems(final Object[] array)\n
     '''
 def getSelectedItem():
-    '''public int getSelectedItem()
+    '''returns int\n\n
+    getSelectedItem()\n
     '''
 def setSelectedItem():
-    '''public void setSelectedItem(final int value)
+    '''returns None\n\n
+    setSelectedItem(final int value)\n
     '''
 def isDynamicList():
-    '''public boolean isDynamicList()
+    '''returns boolean\n\n
+    isDynamicList()\n
     '''
 def setDynamicList():
-    '''public void setDynamicList(final boolean b)
+    '''returns None\n\n
+    setDynamicList(final boolean b)\n
     '''
 def isSubMenuItems():
-    '''public boolean isSubMenuItems()
+    '''returns boolean\n\n
+    isSubMenuItems()\n
     '''
 def setSubMenuItems():
-    '''public void setSubMenuItems(final boolean b)
+    '''returns None\n\n
+    setSubMenuItems(final boolean b)\n
     '''
 def getMenuItemMaximumLength():
-    '''public int getMenuItemMaximumLength()
+    '''returns int\n\n
+    getMenuItemMaximumLength()\n
     '''
 def setMenuItemMaximumLength():
-    '''public void setMenuItemMaximumLength(final int value)
+    '''returns None\n\n
+    setMenuItemMaximumLength(final int value)\n
     '''
 def isNumbering():
-    '''public boolean isNumbering()
+    '''returns boolean\n\n
+    isNumbering()\n
     '''
 def setNumbering():
-    '''public void setNumbering(final boolean b)
+    '''returns None\n\n
+    setNumbering(final boolean b)\n
     '''
 def getFirstNumberingCharacter():
-    '''public char getFirstNumberingCharacter()
+    '''returns char\n\n
+    getFirstNumberingCharacter()\n
     '''
 def setFirstNumberingCharacter():
-    '''public void setFirstNumberingCharacter(final char c)
+    '''returns None\n\n
+    setFirstNumberingCharacter(final char c)\n
     '''
 def getEmptyString():
-    '''public String getEmptyString()
+    '''returns String\n\n
+    getEmptyString()\n
     '''
 def setEmptyString():
-    '''public void setEmptyString(final String s)
+    '''returns None\n\n
+    setEmptyString(final String s)\n
     '''
 def setAction():
-    '''public void setAction(final Action action)
+    '''returns None\n\n
+    setAction(final Action action)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''

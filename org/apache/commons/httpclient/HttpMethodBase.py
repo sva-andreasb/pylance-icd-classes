@@ -1,174 +1,229 @@
-def HttpMethodBase():
-    '''public HttpMethodBase()
-    public HttpMethodBase(String uri)
+def ():
+    '''returns HttpMethodBase\n\n
+    ()\n
+    (String uri)\n
     '''
 def getURI():
-    '''public URI getURI()
+    '''returns URI\n\n
+    getURI()\n
     '''
 def setURI():
-    '''public void setURI(final URI uri)
+    '''returns None\n\n
+    setURI(final URI uri)\n
     '''
 def setFollowRedirects():
-    '''public void setFollowRedirects(final boolean followRedirects)
+    '''returns None\n\n
+    setFollowRedirects(final boolean followRedirects)\n
     '''
 def getFollowRedirects():
-    '''public boolean getFollowRedirects()
+    '''returns boolean\n\n
+    getFollowRedirects()\n
     '''
 def setHttp11():
-    '''public void setHttp11(final boolean http11)
+    '''returns None\n\n
+    setHttp11(final boolean http11)\n
     '''
 def getDoAuthentication():
-    '''public boolean getDoAuthentication()
+    '''returns boolean\n\n
+    getDoAuthentication()\n
     '''
 def setDoAuthentication():
-    '''public void setDoAuthentication(final boolean doAuthentication)
+    '''returns None\n\n
+    setDoAuthentication(final boolean doAuthentication)\n
     '''
 def isHttp11():
-    '''public boolean isHttp11()
+    '''returns boolean\n\n
+    isHttp11()\n
     '''
 def setPath():
-    '''public void setPath(final String path)
+    '''returns None\n\n
+    setPath(final String path)\n
     '''
 def addRequestHeader():
-    '''public void addRequestHeader(final Header header)
-    public void addRequestHeader(final String headerName, final String headerValue)
+    '''returns None\n\n
+    addRequestHeader(final Header header)\n
+    addRequestHeader(final String headerName, final String headerValue)\n
     '''
 def addResponseFooter():
-    '''public void addResponseFooter(final Header footer)
+    '''returns None\n\n
+    addResponseFooter(final Header footer)\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def setQueryString():
-    '''public void setQueryString(final String queryString)
-    public void setQueryString(final NameValuePair[] params)
+    '''returns None\n\n
+    setQueryString(final String queryString)\n
+    setQueryString(final NameValuePair[] params)\n
     '''
 def getQueryString():
-    '''public String getQueryString()
+    '''returns String\n\n
+    getQueryString()\n
     '''
 def setRequestHeader():
-    '''public void setRequestHeader(final String headerName, final String headerValue)
-    public void setRequestHeader(final Header header)
+    '''returns None\n\n
+    setRequestHeader(final String headerName, final String headerValue)\n
+    setRequestHeader(final Header header)\n
     '''
 def getRequestHeader():
-    '''public Header getRequestHeader(final String headerName)
+    '''returns Header\n\n
+    getRequestHeader(final String headerName)\n
     '''
 def getRequestHeaders():
-    '''public Header[] getRequestHeaders()
-    public Header[] getRequestHeaders(final String headerName)
+    '''returns Header[]\n\n
+    getRequestHeaders()\n
+    getRequestHeaders(final String headerName)\n
     '''
 def getResponseHeaders():
-    '''public Header[] getResponseHeaders(final String headerName)
-    public Header[] getResponseHeaders()
+    '''returns Header[]\n\n
+    getResponseHeaders(final String headerName)\n
+    getResponseHeaders()\n
     '''
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''
 def getStatusLine():
-    '''public StatusLine getStatusLine()
+    '''returns StatusLine\n\n
+    getStatusLine()\n
     '''
 def getResponseHeader():
-    '''public Header getResponseHeader(final String headerName)
+    '''returns Header\n\n
+    getResponseHeader(final String headerName)\n
     '''
 def getResponseContentLength():
-    '''public long getResponseContentLength()
+    '''returns long\n\n
+    getResponseContentLength()\n
     '''
 def getResponseBody():
-    '''public byte[] getResponseBody()
-    public byte[] getResponseBody(final int maxlen)
+    '''returns byte[]\n\n
+    getResponseBody()\n
+    getResponseBody(final int maxlen)\n
     '''
 def getResponseBodyAsStream():
-    '''public InputStream getResponseBodyAsStream()
+    '''returns InputStream\n\n
+    getResponseBodyAsStream()\n
     '''
 def getResponseBodyAsString():
-    '''public String getResponseBodyAsString()
-    public String getResponseBodyAsString(final int maxlen)
+    '''returns String\n\n
+    getResponseBodyAsString()\n
+    getResponseBodyAsString(final int maxlen)\n
     '''
 def getResponseFooters():
-    '''public Header[] getResponseFooters()
+    '''returns Header[]\n\n
+    getResponseFooters()\n
     '''
 def getResponseFooter():
-    '''public Header getResponseFooter(final String footerName)
+    '''returns Header\n\n
+    getResponseFooter(final String footerName)\n
     '''
 def getStatusText():
-    '''public String getStatusText()
+    '''returns String\n\n
+    getStatusText()\n
     '''
 def setStrictMode():
-    '''public void setStrictMode(final boolean strictMode)
+    '''returns None\n\n
+    setStrictMode(final boolean strictMode)\n
     '''
 def isStrictMode():
-    '''public boolean isStrictMode()
+    '''returns boolean\n\n
+    isStrictMode()\n
     '''
 def execute():
-    '''public int execute(final HttpState state, final HttpConnection conn)
+    '''returns int\n\n
+    execute(final HttpState state, final HttpConnection conn)\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def hasBeenUsed():
-    '''public boolean hasBeenUsed()
+    '''returns boolean\n\n
+    hasBeenUsed()\n
     '''
 def recycle():
-    '''public void recycle()
+    '''returns None\n\n
+    recycle()\n
     '''
 def releaseConnection():
-    '''public void releaseConnection()
+    '''returns None\n\n
+    releaseConnection()\n
     '''
 def removeRequestHeader():
-    '''public void removeRequestHeader(final String headerName)
-    public void removeRequestHeader(final Header header)
+    '''returns None\n\n
+    removeRequestHeader(final String headerName)\n
+    removeRequestHeader(final Header header)\n
     '''
 def validate():
-    '''public boolean validate()
+    '''returns boolean\n\n
+    validate()\n
     '''
 def responseConsumed():
-    '''public void responseConsumed()
+    '''returns None\n\n
+    responseConsumed()\n
     '''
 def getParams():
-    '''public HttpMethodParams getParams()
+    '''returns HttpMethodParams\n\n
+    getParams()\n
     '''
 def setParams():
-    '''public void setParams(final HttpMethodParams params)
+    '''returns None\n\n
+    setParams(final HttpMethodParams params)\n
     '''
 def getEffectiveVersion():
-    '''public HttpVersion getEffectiveVersion()
+    '''returns HttpVersion\n\n
+    getEffectiveVersion()\n
     '''
 def getProxyAuthenticationRealm():
-    '''public String getProxyAuthenticationRealm()
+    '''returns String\n\n
+    getProxyAuthenticationRealm()\n
     '''
 def getAuthenticationRealm():
-    '''public String getAuthenticationRealm()
+    '''returns String\n\n
+    getAuthenticationRealm()\n
     '''
 def getRequestCharSet():
-    '''public String getRequestCharSet()
+    '''returns String\n\n
+    getRequestCharSet()\n
     '''
 def getResponseCharSet():
-    '''public String getResponseCharSet()
+    '''returns String\n\n
+    getResponseCharSet()\n
     '''
 def getRecoverableExceptionCount():
-    '''public int getRecoverableExceptionCount()
+    '''returns int\n\n
+    getRecoverableExceptionCount()\n
     '''
 def getHostConfiguration():
-    '''public HostConfiguration getHostConfiguration()
+    '''returns HostConfiguration\n\n
+    getHostConfiguration()\n
     '''
 def setHostConfiguration():
-    '''public void setHostConfiguration(final HostConfiguration hostconfig)
+    '''returns None\n\n
+    setHostConfiguration(final HostConfiguration hostconfig)\n
     '''
 def getMethodRetryHandler():
-    '''public MethodRetryHandler getMethodRetryHandler()
+    '''returns MethodRetryHandler\n\n
+    getMethodRetryHandler()\n
     '''
 def setMethodRetryHandler():
-    '''public void setMethodRetryHandler(final MethodRetryHandler handler)
+    '''returns None\n\n
+    setMethodRetryHandler(final MethodRetryHandler handler)\n
     '''
 def getHostAuthState():
-    '''public AuthState getHostAuthState()
+    '''returns AuthState\n\n
+    getHostAuthState()\n
     '''
 def getProxyAuthState():
-    '''public AuthState getProxyAuthState()
+    '''returns AuthState\n\n
+    getProxyAuthState()\n
     '''
 def isAborted():
-    '''public boolean isAborted()
+    '''returns boolean\n\n
+    isAborted()\n
     '''
 def isRequestSent():
-    '''public boolean isRequestSent()
+    '''returns boolean\n\n
+    isRequestSent()\n
     '''

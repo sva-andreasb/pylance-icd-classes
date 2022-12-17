@@ -1,26 +1,30 @@
-def GraphEvents():
-    '''public GraphEvents(final String title, final Object content)
+def ():
+    '''returns GraphEvents\n\n
+    (final String title, final Object content)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def same():
-    '''public boolean same(final GraphEvents o)
-    '''
-def remove():
-    '''public static GraphEvents remove(final Node s, final Node p, final Node o)
+    '''returns boolean\n\n
+    same(final GraphEvents o)\n
     '''
 def getTriple():
-    '''public Triple getTriple()
-    public Triple getTriple()
-    public Triple getTriple()
+    '''returns Triple\n\n
+    getTriple()\n
+    getTriple()\n
+    getTriple()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getContent():
-    '''public Object getContent()
+    '''returns Object\n\n
+    getContent()\n
     '''
 def getTitle():
-    '''public Object getTitle()
+    '''returns Object\n\n
+    getTitle()\n
     '''

@@ -1,18 +1,24 @@
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''
 def processChange():
-    '''public void processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)
+    '''returns None\n\n
+    processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)\n
     '''
 def _DELETECONSTRAINTS():
-    '''public ReplyBuilder _DELETECONSTRAINTS(final WebClientSession session, final String value, final String valueList)
+    '''returns ReplyBuilder\n\n
+    _DELETECONSTRAINTS(final WebClientSession session, final String value, final String valueList)\n
     '''
 def markAssignmentDelete():
-    '''public void markAssignmentDelete(final Future<MXGanttModel> modelFuture, final JSONObject obj, final MXActivity act)
+    '''returns None\n\n
+    markAssignmentDelete(final Future<MXGanttModel> modelFuture, final JSONObject obj, final MXActivity act)\n
     '''
 def loadSchedulerProject():
-    '''public void loadSchedulerProject(final WebClientSession sess)
+    '''returns None\n\n
+    loadSchedulerProject(final WebClientSession sess)\n
     '''

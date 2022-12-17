@@ -1,42 +1,56 @@
-def PlusPGBTransSet():
-    '''public PlusPGBTransSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPGBTransSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener mboSetListener)
+    '''returns None\n\n
+    addListener(final MboSetListener mboSetListener)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener mboSetListener)
+    '''returns None\n\n
+    removeListener(final MboSetListener mboSetListener)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote mboRemote)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote mboRemote)\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int ind)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int ind)\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''
 def setAlreadyCallRemovePS():
-    '''public void setAlreadyCallRemovePS(final boolean alreadyCallRemovePS)
+    '''returns None\n\n
+    setAlreadyCallRemovePS(final boolean alreadyCallRemovePS)\n
     '''
 def isAlreadyCallRemovePS():
-    '''public boolean isAlreadyCallRemovePS()
+    '''returns boolean\n\n
+    isAlreadyCallRemovePS()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def setSkipInit():
-    '''public void setSkipInit(final boolean skipInit)
+    '''returns None\n\n
+    setSkipInit(final boolean skipInit)\n
     '''
 def isSkipInit():
-    '''public boolean isSkipInit()
+    '''returns boolean\n\n
+    isSkipInit()\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''
 def updateCalculatedFees():
-    '''public void updateCalculatedFees()
+    '''returns None\n\n
+    updateCalculatedFees()\n
     '''
 def saveMbos():
-    '''public void saveMbos()
+    '''returns None\n\n
+    saveMbos()\n
     '''

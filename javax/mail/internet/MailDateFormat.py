@@ -1,15 +1,20 @@
-def MailDateFormat():
-    '''public MailDateFormat()
+def ():
+    '''returns MailDateFormat\n\n
+    ()\n
     '''
 def setNumberFormat():
-    '''public void setNumberFormat(final NumberFormat newNumberFormat)
+    '''returns None\n\n
+    setNumberFormat(final NumberFormat newNumberFormat)\n
     '''
 def setCalendar():
-    '''public void setCalendar(final Calendar newCalendar)
+    '''returns None\n\n
+    setCalendar(final Calendar newCalendar)\n
     '''
 def parse():
-    '''public Date parse(final String text, final ParsePosition pos)
+    '''returns Date\n\n
+    parse(final String text, final ParsePosition pos)\n
     '''
 def format():
-    '''public StringBuffer format(final Date date, final StringBuffer dateStrBuf, final FieldPosition fieldPosition)
+    '''returns StringBuffer\n\n
+    format(final Date date, final StringBuffer dateStrBuf, final FieldPosition fieldPosition)\n
     '''

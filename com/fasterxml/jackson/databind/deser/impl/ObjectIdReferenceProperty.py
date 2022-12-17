@@ -1,44 +1,51 @@
-def ObjectIdReferenceProperty():
-    '''public ObjectIdReferenceProperty(final SettableBeanProperty forward, final ObjectIdInfo objectIdInfo)
-    public ObjectIdReferenceProperty(final ObjectIdReferenceProperty src, final JsonDeserializer<?> deser, final NullValueProvider nva)
-    public ObjectIdReferenceProperty(final ObjectIdReferenceProperty src, final PropertyName newName)
+def ():
+    '''returns PropertyReferring\n\n
+    (final SettableBeanProperty forward, final ObjectIdInfo objectIdInfo)\n
+    (final ObjectIdReferenceProperty src, final JsonDeserializer<?> deser, final NullValueProvider nva)\n
+    (final ObjectIdReferenceProperty src, final PropertyName newName)\n
+    (final ObjectIdReferenceProperty parent, final UnresolvedForwardReference ref, final Class<?> type, final Object ob)\n
     '''
 def withName():
-    '''public SettableBeanProperty withName(final PropertyName newName)
+    '''returns SettableBeanProperty\n\n
+    withName(final PropertyName newName)\n
     '''
 def withValueDeserializer():
-    '''public SettableBeanProperty withValueDeserializer(final JsonDeserializer<?> deser)
+    '''returns SettableBeanProperty\n\n
+    withValueDeserializer(final JsonDeserializer<?> deser)\n
     '''
 def withNullProvider():
-    '''public SettableBeanProperty withNullProvider(final NullValueProvider nva)
+    '''returns SettableBeanProperty\n\n
+    withNullProvider(final NullValueProvider nva)\n
     '''
 def fixAccess():
-    '''public void fixAccess(final DeserializationConfig config)
-    '''
-def getAnnotation():
-    '''public <A extends Annotation> A getAnnotation(final Class<A> acls)
+    '''returns None\n\n
+    fixAccess(final DeserializationConfig config)\n
     '''
 def getMember():
-    '''public AnnotatedMember getMember()
+    '''returns AnnotatedMember\n\n
+    getMember()\n
     '''
 def getCreatorIndex():
-    '''public int getCreatorIndex()
+    '''returns int\n\n
+    getCreatorIndex()\n
     '''
 def deserializeAndSet():
-    '''public void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''returns None\n\n
+    deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)\n
     '''
 def deserializeSetAndReturn():
-    '''public Object deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''returns Object\n\n
+    deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)\n
     '''
 def set():
-    '''public void set(final Object instance, final Object value)
+    '''returns None\n\n
+    set(final Object instance, final Object value)\n
     '''
 def setAndReturn():
-    '''public Object setAndReturn(final Object instance, final Object value)
-    '''
-def PropertyReferring():
-    '''public PropertyReferring(final ObjectIdReferenceProperty parent, final UnresolvedForwardReference ref, final Class<?> type, final Object ob)
+    '''returns Object\n\n
+    setAndReturn(final Object instance, final Object value)\n
     '''
 def handleResolvedForwardReference():
-    '''public void handleResolvedForwardReference(final Object id, final Object value)
+    '''returns None\n\n
+    handleResolvedForwardReference(final Object id, final Object value)\n
     '''

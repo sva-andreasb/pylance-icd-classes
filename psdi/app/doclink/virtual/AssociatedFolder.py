@@ -1,3 +1,4 @@
-def AssociatedFolder():
-    '''public AssociatedFolder(final MboSet ms)
+def ():
+    '''returns AssociatedFolder\n\n
+    (final MboSet ms)\n
     '''

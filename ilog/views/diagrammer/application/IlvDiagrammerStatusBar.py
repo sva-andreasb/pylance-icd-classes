@@ -1,38 +1,50 @@
-def IlvDiagrammerStatusBar():
-    '''public IlvDiagrammerStatusBar(final ResourceBundle resourceBundle)
-    public IlvDiagrammerStatusBar()
-    public IlvDiagrammerStatusBar(final boolean b)
+def ():
+    '''returns IlvDiagrammerStatusBar\n\n
+    (final ResourceBundle resourceBundle)\n
+    ()\n
+    (final boolean b)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent event)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent event)\n
     '''
 def addNotify():
-    '''public void addNotify()
+    '''returns None\n\n
+    addNotify()\n
     '''
 def removeNotify():
-    '''public void removeNotify()
+    '''returns None\n\n
+    removeNotify()\n
     '''
 def getDiagrammer():
-    '''public IlvDiagrammer getDiagrammer()
+    '''returns IlvDiagrammer\n\n
+    getDiagrammer()\n
     '''
 def setDiagrammer():
-    '''public void setDiagrammer(final IlvDiagrammer a)
+    '''returns None\n\n
+    setDiagrammer(final IlvDiagrammer a)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def actionDescribed():
-    '''public void actionDescribed(final IlvDiagrammerAction.StatusEvent statusEvent)
+    '''returns None\n\n
+    actionDescribed(final IlvDiagrammerAction.StatusEvent statusEvent)\n
     '''
 def actionStarted():
-    '''public void actionStarted(final IlvDiagrammerAction.StatusEvent statusEvent)
+    '''returns None\n\n
+    actionStarted(final IlvDiagrammerAction.StatusEvent statusEvent)\n
     '''
 def actionFinished():
-    '''public void actionFinished(final IlvDiagrammerAction.StatusEvent statusEvent)
+    '''returns None\n\n
+    actionFinished(final IlvDiagrammerAction.StatusEvent statusEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def targetChanged():
-    '''public void targetChanged(final ComponentContextEvent componentContextEvent)
+    '''returns None\n\n
+    targetChanged(final ComponentContextEvent componentContextEvent)\n
     '''

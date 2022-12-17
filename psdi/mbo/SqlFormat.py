@@ -15,125 +15,119 @@ SYNONYMLISTPREFIX = "String  \"&synonymlist&_\""
 TIMEZONEPREFIX = "String  \"&timezone&_\""
 LOCALEPREFIX = "String  \"&locale&_\""
 def hasNullBoundValue():
-    '''public boolean hasNullBoundValue()
+    '''returns boolean\n\n
+    hasNullBoundValue()\n
     '''
-def getDBProperties():
-    '''public static Properties getDBProperties()
-    '''
-def setDBProperties():
-    '''public static void setDBProperties(final Properties p)
-    '''
-def getUpperFunction():
-    '''public static String getUpperFunction(final String param)
-    '''
-def getTimestampFunction():
-    '''public static String getTimestampFunction(final Date param)
-    '''
-def getTimeFunction():
-    '''public static String getTimeFunction(final Date param)
-    '''
-def getNullValueFunction():
-    '''public static String getNullValueFunction(final String param, final String nullVal)
-    '''
-def getDateFunction():
-    '''public static String getDateFunction(final Date param)
-    '''
-def getDateHistogramFunction():
-    '''public static String getDateHistogramFunction(final String funcName, final String attr)
-    '''
-def SqlFormat():
-    '''public SqlFormat(final String stmt)
-    public SqlFormat(final Locale locale, final TimeZone timeZone, final String stmt)
-    public SqlFormat(final MboRemote mr, final String stmt)
-    public SqlFormat(final UserInfo uInfo, final String stmt)
+def ():
+    '''returns SqlFormat\n\n
+    (final String stmt)\n
+    (final Locale locale, final TimeZone timeZone, final String stmt)\n
+    (final MboRemote mr, final String stmt)\n
+    (final UserInfo uInfo, final String stmt)\n
     '''
 def appendStatement():
-    '''public SqlFormat appendStatement(final String statement)
+    '''returns SqlFormat\n\n
+    appendStatement(final String statement)\n
     '''
 def setBoolean():
-    '''public void setBoolean(final int col, final boolean val)
+    '''returns None\n\n
+    setBoolean(final int col, final boolean val)\n
     '''
 def setLong():
-    '''public void setLong(final int col, final long val)
+    '''returns None\n\n
+    setLong(final int col, final long val)\n
     '''
 def setInt():
-    '''public void setInt(final int col, final int val)
+    '''returns None\n\n
+    setInt(final int col, final int val)\n
     '''
 def setFloat():
-    '''public void setFloat(final int col, final float val)
+    '''returns None\n\n
+    setFloat(final int col, final float val)\n
     '''
 def setDouble():
-    '''public void setDouble(final int col, final double val)
+    '''returns None\n\n
+    setDouble(final int col, final double val)\n
     '''
 def setDate():
-    '''public void setDate(final int col, final Date val)
+    '''returns None\n\n
+    setDate(final int col, final Date val)\n
     '''
 def setTime():
-    '''public void setTime(final int col, final Date val)
+    '''returns None\n\n
+    setTime(final int col, final Date val)\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final int col, final Date val)
+    '''returns None\n\n
+    setTimestamp(final int col, final Date val)\n
     '''
 def setBytes():
-    '''public void setBytes(final int col, final byte[] val)
+    '''returns None\n\n
+    setBytes(final int col, final byte[] val)\n
     '''
 def setObject():
-    '''public void setObject(final int col, final String tbName, final String colName, final String val)
-    public void setObject(final int col, final String type, final String val)
+    '''returns None\n\n
+    setObject(final int col, final String tbName, final String colName, final String val)\n
+    setObject(final int col, final String type, final String val)\n
     '''
 def simpleFormat():
-    '''public String simpleFormat()
+    '''returns String\n\n
+    simpleFormat()\n
     '''
 def validateFormat():
-    '''public String validateFormat()
+    '''returns String\n\n
+    validateFormat()\n
     '''
 def format():
-    '''public String format()
-    public String format(final MboSetInfo msi, final MboSetRemote set)
+    '''returns String\n\n
+    format()\n
+    format(final MboSetInfo msi, final MboSetRemote set)\n
     '''
 def formatRaw():
-    '''public String formatRaw()
+    '''returns String\n\n
+    formatRaw()\n
     '''
 def getEncounteredError():
-    '''public MXException getEncounteredError()
+    '''returns MXException\n\n
+    getEncounteredError()\n
     '''
 def getFieldValue():
-    '''public String getFieldValue(final String field, final MboRemote mbo)
-    public String getFieldValue(final String field, final MboRemote mbo, final boolean useLocale)
-    public String getFieldValue(String field, final MboRemote mbo, final boolean useLocale, final int indexAfter)
+    '''returns String\n\n
+    getFieldValue(final String field, final MboRemote mbo)\n
+    getFieldValue(final String field, final MboRemote mbo, final boolean useLocale)\n
+    getFieldValue(String field, final MboRemote mbo, final boolean useLocale, final int indexAfter)\n
     '''
 def setNoSpaces():
-    '''public void setNoSpaces(final boolean b)
+    '''returns None\n\n
+    setNoSpaces(final boolean b)\n
     '''
 def setRealNumericNulls():
-    '''public void setRealNumericNulls(final boolean b)
-    '''
-def getSQLString():
-    '''public static String getSQLString(final String s)
-    '''
-def reverseSQLString():
-    '''public static String reverseSQLString(final String s)
+    '''returns None\n\n
+    setRealNumericNulls(final boolean b)\n
     '''
 def resolveContent():
-    '''public String resolveContent()
+    '''returns String\n\n
+    resolveContent()\n
     '''
 def setIgnoreUnresolved():
-    '''public void setIgnoreUnresolved(final boolean b)
+    '''returns None\n\n
+    setIgnoreUnresolved(final boolean b)\n
     '''
 def expressionToQueryWhere():
-    '''public String expressionToQueryWhere()
-    '''
-def isStrReservedKey():
-    '''public static boolean isStrReservedKey(String str)
+    '''returns String\n\n
+    expressionToQueryWhere()\n
     '''
 def limitInClause():
-    '''public String limitInClause(final String where)
-    public StringBuffer limitInClause(final StringBuffer where)
-    public String limitInClause(final String where, final String lastWord, final int numOfBraces, final boolean isInClause)
+    '''returns String\n\n
+    limitInClause(final String where)\n
+    limitInClause(final StringBuffer where)\n
+    limitInClause(final String where, final String lastWord, final int numOfBraces, final boolean isInClause)\n
     '''
 def checkForString():
-    '''public boolean checkForString(final char c)
+    '''returns boolean\n\n
+    checkForString(final char c)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

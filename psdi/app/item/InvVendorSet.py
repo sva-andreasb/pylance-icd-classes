@@ -1,10 +1,13 @@
-def InvVendorSet():
-    '''public InvVendorSet(final MboServerInterface ms)
+def ():
+    '''returns InvVendorSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def defaultVendorFound():
-    '''public boolean defaultVendorFound(final String itemnum, final MboRemote currentMbo)
-    public boolean defaultVendorFound(final MboRemote currentMbo)
+    '''returns boolean\n\n
+    defaultVendorFound(final String itemnum, final MboRemote currentMbo)\n
+    defaultVendorFound(final MboRemote currentMbo)\n
     '''
 def countDefaultVendor():
-    '''public int countDefaultVendor(final MboRemote currentMbo)
+    '''returns int\n\n
+    countDefaultVendor(final MboRemote currentMbo)\n
     '''

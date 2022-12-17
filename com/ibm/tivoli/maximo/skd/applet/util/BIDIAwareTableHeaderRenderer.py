@@ -1,6 +1,8 @@
-def BIDIAwareTableHeaderRenderer():
-    '''public BIDIAwareTableHeaderRenderer(final TableCellRenderer defaultRenderer)
+def ():
+    '''returns BIDIAwareTableHeaderRenderer\n\n
+    (final TableCellRenderer defaultRenderer)\n
     '''
 def getTableCellRendererComponent():
-    '''public Component getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int column)
+    '''returns Component\n\n
+    getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int column)\n
     '''

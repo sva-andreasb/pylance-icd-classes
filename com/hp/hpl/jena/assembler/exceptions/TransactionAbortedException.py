@@ -1,3 +1,4 @@
-def TransactionAbortedException():
-    '''public TransactionAbortedException(final Resource root, final Throwable t)
+def ():
+    '''returns TransactionAbortedException\n\n
+    (final Resource root, final Throwable t)\n
     '''

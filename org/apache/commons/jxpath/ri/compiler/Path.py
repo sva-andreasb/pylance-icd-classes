@@ -1,12 +1,16 @@
-def Path():
-    '''public Path(final Step[] steps)
+def ():
+    '''returns Path\n\n
+    (final Step[] steps)\n
     '''
 def getSteps():
-    '''public Step[] getSteps()
+    '''returns Step[]\n\n
+    getSteps()\n
     '''
 def computeContextDependent():
-    '''public boolean computeContextDependent()
+    '''returns boolean\n\n
+    computeContextDependent()\n
     '''
 def isSimplePath():
-    '''public boolean isSimplePath()
+    '''returns boolean\n\n
+    isSimplePath()\n
     '''

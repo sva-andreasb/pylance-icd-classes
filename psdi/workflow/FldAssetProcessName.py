@@ -1,3 +1,4 @@
-def FldAssetProcessName():
-    '''public FldAssetProcessName(final MboValue mbv)
+def ():
+    '''returns FldAssetProcessName\n\n
+    (final MboValue mbv)\n
     '''

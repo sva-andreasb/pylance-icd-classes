@@ -1,15 +1,20 @@
-def OslcServiceProviderDefnInfo():
-    '''public OslcServiceProviderDefnInfo(final String providerObjName, final String titleAttrName, final String descAttrName, final String idAttrName)
+def ():
+    '''returns OslcServiceProviderDefnInfo\n\n
+    (final String providerObjName, final String titleAttrName, final String descAttrName, final String idAttrName)\n
     '''
 def getProviderObjName():
-    '''public String getProviderObjName()
+    '''returns String\n\n
+    getProviderObjName()\n
     '''
 def getTitleAttrName():
-    '''public String getTitleAttrName()
+    '''returns String\n\n
+    getTitleAttrName()\n
     '''
 def getDescAttrName():
-    '''public String getDescAttrName()
+    '''returns String\n\n
+    getDescAttrName()\n
     '''
 def getIdAttrName():
-    '''public String getIdAttrName()
+    '''returns String\n\n
+    getIdAttrName()\n
     '''

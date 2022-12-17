@@ -1,39 +1,48 @@
 def setKPIInfo():
-    '''public String setKPIInfo()
+    '''returns String\n\n
+    setKPIInfo()\n
     '''
 def setTrendGraphInfo():
-    '''public String setTrendGraphInfo()
+    '''returns String\n\n
+    setTrendGraphInfo()\n
     '''
 def updatekpis():
-    '''public void updatekpis()
+    '''returns None\n\n
+    updatekpis()\n
     '''
 def getKPIInfo():
-    '''public Vector getKPIInfo()
+    '''returns Vector\n\n
+    getKPIInfo()\n
     '''
 def formatNumber():
-    '''public String formatNumber(final double dNumber)
+    '''returns String\n\n
+    formatNumber(final double dNumber)\n
     '''
 def getDouble():
-    '''public double getDouble(final Object dNumber)
+    '''returns double\n\n
+    getDouble(final Object dNumber)\n
     '''
 def isNewKPI():
-    '''public boolean isNewKPI()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns boolean\n\n
+    isNewKPI()\n
     '''
 def refreshChart():
-    '''public boolean refreshChart()
+    '''returns boolean\n\n
+    refreshChart()\n
     '''
 def validateTrendInfo():
-    '''public void validateTrendInfo()
+    '''returns None\n\n
+    validateTrendInfo()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def openlinkedkpi():
-    '''public void openlinkedkpi()
+    '''returns None\n\n
+    openlinkedkpi()\n
     '''
 def openreport():
-    '''public int openreport()
+    '''returns int\n\n
+    openreport()\n
     '''

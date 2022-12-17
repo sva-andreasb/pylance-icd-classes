@@ -1,3 +1,4 @@
-def ReadingNotSupportedException():
-    '''public ReadingNotSupportedException(final long variantType, final Object value)
+def ():
+    '''returns ReadingNotSupportedException\n\n
+    (final long variantType, final Object value)\n
     '''

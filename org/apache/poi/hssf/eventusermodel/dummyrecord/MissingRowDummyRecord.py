@@ -1,6 +1,8 @@
-def MissingRowDummyRecord():
-    '''public MissingRowDummyRecord(final int rowNumber)
+def ():
+    '''returns MissingRowDummyRecord\n\n
+    (final int rowNumber)\n
     '''
 def getRowNumber():
-    '''public int getRowNumber()
+    '''returns int\n\n
+    getRowNumber()\n
     '''

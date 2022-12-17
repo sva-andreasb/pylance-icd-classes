@@ -1,30 +1,40 @@
-def BaseLargeGanttView():
-    '''public BaseLargeGanttView()
+def ():
+    '''returns BaseLargeGanttView\n\n
+    ()\n
     '''
 def loadSKDUIInfo():
-    '''public SKDUIInfo loadSKDUIInfo()
+    '''returns SKDUIInfo\n\n
+    loadSKDUIInfo()\n
     '''
 def getTooltip():
-    '''public DynamicTooltip getTooltip(final WebClientSession sess, final String projectid, final String col, final String id)
+    '''returns DynamicTooltip\n\n
+    getTooltip(final WebClientSession sess, final String projectid, final String col, final String id)\n
     '''
 def getTooltipForUnloadedCPM():
-    '''public DynamicTooltip getTooltipForUnloadedCPM(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("activityid") final String activityId, @MXEventParam("fromdependency") final boolean fromDependency)
+    '''returns DynamicTooltip\n\n
+    getTooltipForUnloadedCPM(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("activityid") final String activityId, @MXEventParam("fromdependency") final boolean fromDependency)\n
     '''
 def getTooltipForCPM():
-    '''public DynamicTooltip getTooltipForCPM(final WebClientSession sess, final String projectid, final String fromId, final String toId)
+    '''returns DynamicTooltip\n\n
+    getTooltipForCPM(final WebClientSession sess, final String projectid, final String fromId, final String toId)\n
     '''
 def getTooltipForDate():
-    '''public DynamicTooltip getTooltipForDate(final WebClientSession sess, final String projectid, final String col, final String id, final long date)
+    '''returns DynamicTooltip\n\n
+    getTooltipForDate(final WebClientSession sess, final String projectid, final String col, final String id, final long date)\n
     '''
 def async_upload_changes():
-    '''public ReplyBuilder async_upload_changes(final WebClientSession sess)
+    '''returns ReplyBuilder\n\n
+    async_upload_changes(final WebClientSession sess)\n
     '''
 def getActualStartEnd():
-    '''public Range<Date> getActualStartEnd()
+    '''returns Range<Date>\n\n
+    getActualStartEnd()\n
     '''
 def getCalculatedProjectMinMax():
-    '''public Range<Date> getCalculatedProjectMinMax()
+    '''returns Range<Date>\n\n
+    getCalculatedProjectMinMax()\n
     '''
 def async_get_table_context_menu():
-    '''public TMenu async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String id, @MXEventParam("col") final String column, @MXEventParam("value") String value)
+    '''returns TMenu\n\n
+    async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String id, @MXEventParam("col") final String column, @MXEventParam("value") String value)\n
     '''

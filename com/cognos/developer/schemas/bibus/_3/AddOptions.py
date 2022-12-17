@@ -1,49 +1,45 @@
-def AddOptions():
-    '''public AddOptions()
-    public AddOptions(final EncodingEnum dataEncoding, final boolean faultIfObjectReferenced, final boolean ignoreInvalidObjectReference, final PropEnum[] returnProperties, final UpdateActionEnum updateAction)
+def ():
+    '''returns AddOptions\n\n
+    ()\n
+    (final EncodingEnum dataEncoding, final boolean faultIfObjectReferenced, final boolean ignoreInvalidObjectReference, final PropEnum[] returnProperties, final UpdateActionEnum updateAction)\n
     '''
 def getDataEncoding():
-    '''public EncodingEnum getDataEncoding()
+    '''returns EncodingEnum\n\n
+    getDataEncoding()\n
     '''
 def setDataEncoding():
-    '''public void setDataEncoding(final EncodingEnum dataEncoding)
+    '''returns None\n\n
+    setDataEncoding(final EncodingEnum dataEncoding)\n
     '''
 def isFaultIfObjectReferenced():
-    '''public boolean isFaultIfObjectReferenced()
+    '''returns boolean\n\n
+    isFaultIfObjectReferenced()\n
     '''
 def setFaultIfObjectReferenced():
-    '''public void setFaultIfObjectReferenced(final boolean faultIfObjectReferenced)
+    '''returns None\n\n
+    setFaultIfObjectReferenced(final boolean faultIfObjectReferenced)\n
     '''
 def isIgnoreInvalidObjectReference():
-    '''public boolean isIgnoreInvalidObjectReference()
+    '''returns boolean\n\n
+    isIgnoreInvalidObjectReference()\n
     '''
 def setIgnoreInvalidObjectReference():
-    '''public void setIgnoreInvalidObjectReference(final boolean ignoreInvalidObjectReference)
+    '''returns None\n\n
+    setIgnoreInvalidObjectReference(final boolean ignoreInvalidObjectReference)\n
     '''
 def getReturnProperties():
-    '''public PropEnum[] getReturnProperties()
+    '''returns PropEnum[]\n\n
+    getReturnProperties()\n
     '''
 def setReturnProperties():
-    '''public void setReturnProperties(final PropEnum[] returnProperties)
+    '''returns None\n\n
+    setReturnProperties(final PropEnum[] returnProperties)\n
     '''
 def getUpdateAction():
-    '''public UpdateActionEnum getUpdateAction()
+    '''returns UpdateActionEnum\n\n
+    getUpdateAction()\n
     '''
 def setUpdateAction():
-    '''public void setUpdateAction(final UpdateActionEnum updateAction)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setUpdateAction(final UpdateActionEnum updateAction)\n
     '''

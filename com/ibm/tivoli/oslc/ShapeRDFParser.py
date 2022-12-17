@@ -1,16 +1,16 @@
-def ShapeRDFParser():
-    '''public ShapeRDFParser(final byte[] rdfDoc, final String typeURI)
-    public ShapeRDFParser(final Model shapeModel, final String typeURI)
-    public ShapeRDFParser(final byte[] rdfDoc)
-    public ShapeRDFParser(final Model shapeModel)
-    public ShapeRDFParser(final Resource shape)
-    '''
-def getProperties():
-    '''public Map<String, PropertyInfo> getProperties()
+def ():
+    '''returns ShapeRDFParser\n\n
+    (final byte[] rdfDoc, final String typeURI)\n
+    (final Model shapeModel, final String typeURI)\n
+    (final byte[] rdfDoc)\n
+    (final Model shapeModel)\n
+    (final Resource shape)\n
     '''
 def getProperty():
-    '''public PropertyInfo getProperty(final String uri)
+    '''returns PropertyInfo\n\n
+    getProperty(final String uri)\n
     '''
 def getIdentificationRules():
-    '''public List<List<RulePropertyInfo>> getIdentificationRules()
+    '''returns List<List<RulePropertyInfo>>\n\n
+    getIdentificationRules()\n
     '''

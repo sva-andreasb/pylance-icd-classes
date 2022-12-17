@@ -2,118 +2,147 @@ DEFAULT_ROOT_URL = "String  \"https://www.googleapis.com/\""
 DEFAULT_SERVICE_PATH = "String  \"\""
 DEFAULT_BATCH_PATH = "String  \"batch/oauth2/v1\""
 DEFAULT_BASE_URL = "String  \"https://www.googleapis.com/\""
-def Oauth2():
-    '''public Oauth2(final HttpTransport httpTransport, final JsonFactory jsonFactory, final HttpRequestInitializer httpRequestInitializer)
+def ():
+    '''returns Builder\n\n
+    (final HttpTransport httpTransport, final JsonFactory jsonFactory, final HttpRequestInitializer httpRequestInitializer)\n
+    (final HttpTransport httpTransport, final JsonFactory jsonFactory, final HttpRequestInitializer httpRequestInitializer)\n
     '''
 def userinfo():
-    '''public Userinfo userinfo()
+    '''returns Userinfo\n\n
+    userinfo()\n
     '''
 def tokeninfo():
-    '''public Tokeninfo tokeninfo()
+    '''returns Tokeninfo\n\n
+    tokeninfo()\n
     '''
 def get():
-    '''public Get get()
-    public Get get()
+    '''returns Get\n\n
+    get()\n
+    get()\n
     '''
 def v2():
-    '''public V2 v2()
+    '''returns V2\n\n
+    v2()\n
     '''
 def executeUsingHead():
-    '''public HttpResponse executeUsingHead()
-    public HttpResponse executeUsingHead()
+    '''returns HttpResponse\n\n
+    executeUsingHead()\n
+    executeUsingHead()\n
     '''
 def buildHttpRequestUsingHead():
-    '''public HttpRequest buildHttpRequestUsingHead()
-    public HttpRequest buildHttpRequestUsingHead()
+    '''returns HttpRequest\n\n
+    buildHttpRequestUsingHead()\n
+    buildHttpRequestUsingHead()\n
     '''
 def setAlt():
-    '''public Get setAlt(final String alt)
-    public Get setAlt(final String alt)
-    public Tokeninfo setAlt(final String alt)
+    '''returns Tokeninfo\n\n
+    setAlt(final String alt)\n
+    setAlt(final String alt)\n
+    setAlt(final String alt)\n
     '''
 def setFields():
-    '''public Get setFields(final String fields)
-    public Get setFields(final String fields)
-    public Tokeninfo setFields(final String fields)
+    '''returns Tokeninfo\n\n
+    setFields(final String fields)\n
+    setFields(final String fields)\n
+    setFields(final String fields)\n
     '''
 def setKey():
-    '''public Get setKey(final String key)
-    public Get setKey(final String key)
-    public Tokeninfo setKey(final String key)
+    '''returns Tokeninfo\n\n
+    setKey(final String key)\n
+    setKey(final String key)\n
+    setKey(final String key)\n
     '''
 def setOauthToken():
-    '''public Get setOauthToken(final String oauthToken)
-    public Get setOauthToken(final String oauthToken)
-    public Tokeninfo setOauthToken(final String oauthToken)
+    '''returns Tokeninfo\n\n
+    setOauthToken(final String oauthToken)\n
+    setOauthToken(final String oauthToken)\n
+    setOauthToken(final String oauthToken)\n
     '''
 def setPrettyPrint():
-    '''public Get setPrettyPrint(final Boolean prettyPrint)
-    public Get setPrettyPrint(final Boolean prettyPrint)
-    public Tokeninfo setPrettyPrint(final Boolean prettyPrint)
+    '''returns Tokeninfo\n\n
+    setPrettyPrint(final Boolean prettyPrint)\n
+    setPrettyPrint(final Boolean prettyPrint)\n
+    setPrettyPrint(final Boolean prettyPrint)\n
     '''
 def setQuotaUser():
-    '''public Get setQuotaUser(final String quotaUser)
-    public Get setQuotaUser(final String quotaUser)
-    public Tokeninfo setQuotaUser(final String quotaUser)
+    '''returns Tokeninfo\n\n
+    setQuotaUser(final String quotaUser)\n
+    setQuotaUser(final String quotaUser)\n
+    setQuotaUser(final String quotaUser)\n
     '''
 def setUserIp():
-    '''public Get setUserIp(final String userIp)
-    public Get setUserIp(final String userIp)
-    public Tokeninfo setUserIp(final String userIp)
+    '''returns Tokeninfo\n\n
+    setUserIp(final String userIp)\n
+    setUserIp(final String userIp)\n
+    setUserIp(final String userIp)\n
     '''
 def set():
-    '''public Get set(final String s, final Object o)
-    public Get set(final String s, final Object o)
-    public Tokeninfo set(final String s, final Object o)
+    '''returns Tokeninfo\n\n
+    set(final String s, final Object o)\n
+    set(final String s, final Object o)\n
+    set(final String s, final Object o)\n
     '''
 def me():
-    '''public Me me()
+    '''returns Me\n\n
+    me()\n
     '''
 def getAccessToken():
-    '''public String getAccessToken()
+    '''returns String\n\n
+    getAccessToken()\n
     '''
 def setAccessToken():
-    '''public Tokeninfo setAccessToken(final String accessToken)
+    '''returns Tokeninfo\n\n
+    setAccessToken(final String accessToken)\n
     '''
 def getIdToken():
-    '''public String getIdToken()
+    '''returns String\n\n
+    getIdToken()\n
     '''
 def setIdToken():
-    '''public Tokeninfo setIdToken(final String idToken)
-    '''
-def Builder():
-    '''public Builder(final HttpTransport httpTransport, final JsonFactory jsonFactory, final HttpRequestInitializer httpRequestInitializer)
+    '''returns Tokeninfo\n\n
+    setIdToken(final String idToken)\n
     '''
 def build():
-    '''public Oauth2 build()
+    '''returns Oauth2\n\n
+    build()\n
     '''
 def setRootUrl():
-    '''public Builder setRootUrl(final String rootUrl)
+    '''returns Builder\n\n
+    setRootUrl(final String rootUrl)\n
     '''
 def setServicePath():
-    '''public Builder setServicePath(final String servicePath)
+    '''returns Builder\n\n
+    setServicePath(final String servicePath)\n
     '''
 def setBatchPath():
-    '''public Builder setBatchPath(final String batchPath)
+    '''returns Builder\n\n
+    setBatchPath(final String batchPath)\n
     '''
 def setHttpRequestInitializer():
-    '''public Builder setHttpRequestInitializer(final HttpRequestInitializer httpRequestInitializer)
+    '''returns Builder\n\n
+    setHttpRequestInitializer(final HttpRequestInitializer httpRequestInitializer)\n
     '''
 def setApplicationName():
-    '''public Builder setApplicationName(final String applicationName)
+    '''returns Builder\n\n
+    setApplicationName(final String applicationName)\n
     '''
 def setSuppressPatternChecks():
-    '''public Builder setSuppressPatternChecks(final boolean suppressPatternChecks)
+    '''returns Builder\n\n
+    setSuppressPatternChecks(final boolean suppressPatternChecks)\n
     '''
 def setSuppressRequiredParameterChecks():
-    '''public Builder setSuppressRequiredParameterChecks(final boolean suppressRequiredParameterChecks)
+    '''returns Builder\n\n
+    setSuppressRequiredParameterChecks(final boolean suppressRequiredParameterChecks)\n
     '''
 def setSuppressAllChecks():
-    '''public Builder setSuppressAllChecks(final boolean suppressAllChecks)
+    '''returns Builder\n\n
+    setSuppressAllChecks(final boolean suppressAllChecks)\n
     '''
 def setOauth2RequestInitializer():
-    '''public Builder setOauth2RequestInitializer(final Oauth2RequestInitializer googleClientRequestInitializer)
+    '''returns Builder\n\n
+    setOauth2RequestInitializer(final Oauth2RequestInitializer googleClientRequestInitializer)\n
     '''
 def setGoogleClientRequestInitializer():
-    '''public Builder setGoogleClientRequestInitializer(final GoogleClientRequestInitializer googleClientRequestInitializer)
+    '''returns Builder\n\n
+    setGoogleClientRequestInitializer(final GoogleClientRequestInitializer googleClientRequestInitializer)\n
     '''

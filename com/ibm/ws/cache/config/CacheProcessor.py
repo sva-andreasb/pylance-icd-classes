@@ -6,59 +6,77 @@ PROPERTY_TIMEOUT = "String  \"timeout\""
 PROPERTY_INACTIVITY = "String  \"inactivity\""
 PROPERTY_PRIORITY = "String  \"priority\""
 PROPERTY_DO_NOT_CACHE = "String  \"do-not-cache\""
-def CacheProcessor():
-    '''public CacheProcessor()
-    public CacheProcessor(final ConfigEntry configEntry)
+def ():
+    '''returns CacheProcessor\n\n
+    ()\n
+    (final ConfigEntry configEntry)\n
     '''
 def reset():
-    '''public void reset(final ConfigEntry configEntry)
+    '''returns None\n\n
+    reset(final ConfigEntry configEntry)\n
     '''
 def preProcess():
-    '''public boolean preProcess(final ConfigEntry configEntry)
-    public boolean preProcess(final CacheId cacheId)
+    '''returns boolean\n\n
+    preProcess(final ConfigEntry configEntry)\n
+    preProcess(final CacheId cacheId)\n
     '''
 def processCacheIdProperties():
-    '''public void processCacheIdProperties(final CacheId cacheid)
+    '''returns None\n\n
+    processCacheIdProperties(final CacheId cacheid)\n
     '''
 def processConfigEntryProperties():
-    '''public void processConfigEntryProperties()
+    '''returns None\n\n
+    processConfigEntryProperties()\n
     '''
 def getBaseName():
-    '''public String getBaseName()
+    '''returns String\n\n
+    getBaseName()\n
     '''
 def execute():
-    '''public boolean execute()
+    '''returns boolean\n\n
+    execute()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getGroupIds():
-    '''public ArrayList getGroupIds()
+    '''returns ArrayList\n\n
+    getGroupIds()\n
     '''
 def getInvalidationIds():
-    '''public ArrayList getInvalidationIds()
+    '''returns ArrayList\n\n
+    getInvalidationIds()\n
     '''
 def getSharingPolicy():
-    '''public int getSharingPolicy()
+    '''returns int\n\n
+    getSharingPolicy()\n
     '''
 def getTimeout():
-    '''public int getTimeout()
+    '''returns int\n\n
+    getTimeout()\n
     '''
 def getInactivity():
-    '''public int getInactivity()
+    '''returns int\n\n
+    getInactivity()\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def setEntryInfo():
-    '''public void setEntryInfo(final EntryInfo entryInfo)
+    '''returns None\n\n
+    setEntryInfo(final EntryInfo entryInfo)\n
     '''
 def setInvalidationIds():
-    '''public void setInvalidationIds()
+    '''returns None\n\n
+    setInvalidationIds()\n
     '''
 def isDelayInvalidations():
-    '''public boolean isDelayInvalidations()
+    '''returns boolean\n\n
+    isDelayInvalidations()\n
     '''
 def getDoNotCache():
-    '''public boolean getDoNotCache()
+    '''returns boolean\n\n
+    getDoNotCache()\n
     '''

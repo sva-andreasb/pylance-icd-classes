@@ -1,10 +1,9 @@
-def FlexibleStanzaTypeFilter():
-    '''public FlexibleStanzaTypeFilter(final Class<S> packetType)
-    public FlexibleStanzaTypeFilter()
-    '''
-def accept():
-    '''public final boolean accept(final Stanza packet)
+def ():
+    '''returns FlexibleStanzaTypeFilter\n\n
+    (final Class<S> packetType)\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

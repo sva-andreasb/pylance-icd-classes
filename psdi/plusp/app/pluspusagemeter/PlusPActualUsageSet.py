@@ -1,3 +1,4 @@
-def PlusPActualUsageSet():
-    '''public PlusPActualUsageSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPActualUsageSet\n\n
+    (final MboServerInterface ms)\n
     '''

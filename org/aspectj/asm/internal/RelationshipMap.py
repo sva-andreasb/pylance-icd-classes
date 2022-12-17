@@ -1,23 +1,29 @@
 def get():
-    '''public List<IRelationship> get(final String handle)
-    public List<IRelationship> get(final IProgramElement source)
-    public IRelationship get(final String source, final IRelationship.Kind kind, final String relationshipName, final boolean runtimeTest, final boolean createIfMissing)
-    public IRelationship get(final IProgramElement source, final IRelationship.Kind kind, final String relationshipName, final boolean runtimeTest, final boolean createIfMissing)
-    public IRelationship get(final IProgramElement source, final IRelationship.Kind kind, final String relationshipName)
+    '''returns IRelationship\n\n
+    get(final String handle)\n
+    get(final IProgramElement source)\n
+    get(final String source, final IRelationship.Kind kind, final String relationshipName, final boolean runtimeTest, final boolean createIfMissing)\n
+    get(final IProgramElement source, final IRelationship.Kind kind, final String relationshipName, final boolean runtimeTest, final boolean createIfMissing)\n
+    get(final IProgramElement source, final IRelationship.Kind kind, final String relationshipName)\n
     '''
 def remove():
-    '''public boolean remove(final String source, final IRelationship relationship)
+    '''returns boolean\n\n
+    remove(final String source, final IRelationship relationship)\n
     '''
 def removeAll():
-    '''public void removeAll(final String source)
+    '''returns None\n\n
+    removeAll(final String source)\n
     '''
 def put():
-    '''public void put(final String source, final IRelationship relationship)
-    public void put(final IProgramElement source, final IRelationship relationship)
+    '''returns None\n\n
+    put(final String source, final IRelationship relationship)\n
+    put(final IProgramElement source, final IRelationship relationship)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getEntries():
-    '''public Set<String> getEntries()
+    '''returns Set<String>\n\n
+    getEntries()\n
     '''

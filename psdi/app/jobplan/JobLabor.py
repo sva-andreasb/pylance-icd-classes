@@ -1,39 +1,52 @@
-def JobLabor():
-    '''public JobLabor(final MboSet ms)
+def ():
+    '''returns JobLabor\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def setLineCost():
-    '''public void setLineCost()
+    '''returns None\n\n
+    setLineCost()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def undeleteAddAssociatedTool():
-    '''public void undeleteAddAssociatedTool()
+    '''returns None\n\n
+    undeleteAddAssociatedTool()\n
     '''
 def deleteAssociatedTool():
-    '''public void deleteAssociatedTool()
+    '''returns None\n\n
+    deleteAssociatedTool()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def updateAssociatedToolData():
-    '''public void updateAssociatedToolData()
+    '''returns None\n\n
+    updateAssociatedToolData()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

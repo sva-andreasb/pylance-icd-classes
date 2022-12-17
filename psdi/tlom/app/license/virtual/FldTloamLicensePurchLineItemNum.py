@@ -1,6 +1,8 @@
-def FldTloamLicensePurchLineItemNum():
-    '''public FldTloamLicensePurchLineItemNum(final MboValue mbv)
+def ():
+    '''returns FldTloamLicensePurchLineItemNum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

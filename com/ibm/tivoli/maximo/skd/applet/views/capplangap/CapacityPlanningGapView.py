@@ -1,27 +1,33 @@
-def CapacityPlanningGapView():
-    '''public CapacityPlanningGapView()
+def ():
+    '''returns ToggleViewTypeAction\n\n
+    ()\n
+    ()\n
     '''
 def initializeView():
-    '''public Component initializeView()
+    '''returns Component\n\n
+    initializeView()\n
     '''
 def attachModel():
-    '''public void attachModel(final AppletGanttModel model)
+    '''returns None\n\n
+    attachModel(final AppletGanttModel model)\n
     '''
 def onSuccess():
-    '''public void onSuccess(final IlvGanttModel data)
+    '''returns None\n\n
+    onSuccess(final IlvGanttModel data)\n
     '''
 def onError():
-    '''public void onError(final Throwable t)
+    '''returns None\n\n
+    onError(final Throwable t)\n
     '''
 def refreshView():
-    '''public void refreshView()
+    '''returns None\n\n
+    refreshView()\n
     '''
 def activate():
-    '''public void activate()
-    '''
-def ToggleViewTypeAction():
-    '''public ToggleViewTypeAction()
+    '''returns None\n\n
+    activate()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

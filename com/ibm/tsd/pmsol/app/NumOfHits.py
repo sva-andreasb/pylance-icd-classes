@@ -1,3 +1,4 @@
-def NumOfHits():
-    '''public NumOfHits(final MboSet ms)
+def ():
+    '''returns NumOfHits\n\n
+    (final MboSet ms)\n
     '''

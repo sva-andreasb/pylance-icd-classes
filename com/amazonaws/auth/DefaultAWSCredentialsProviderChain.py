@@ -1,3 +1,4 @@
-def DefaultAWSCredentialsProviderChain():
-    '''public DefaultAWSCredentialsProviderChain()
+def ():
+    '''returns DefaultAWSCredentialsProviderChain\n\n
+    ()\n
     '''

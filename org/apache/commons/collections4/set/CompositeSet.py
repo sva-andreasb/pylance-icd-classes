@@ -1,65 +1,83 @@
-def CompositeSet():
-    '''public CompositeSet()
-    public CompositeSet(final Set<E> set)
-    public CompositeSet(final Set<E>... sets)
+def ():
+    '''returns CompositeSet\n\n
+    ()\n
+    (final Set<E> set)\n
+    (final Set<E>... sets)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def contains():
-    '''public boolean contains(final Object obj)
+    '''returns boolean\n\n
+    contains(final Object obj)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] array)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def add():
-    '''public boolean add(final E obj)
+    '''returns boolean\n\n
+    add(final E obj)\n
     '''
 def remove():
-    '''public boolean remove(final Object obj)
+    '''returns boolean\n\n
+    remove(final Object obj)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def setMutator():
-    '''public void setMutator(final SetMutator<E> mutator)
+    '''returns None\n\n
+    setMutator(final SetMutator<E> mutator)\n
     '''
 def addComposited():
-    '''public synchronized void addComposited(final Set<E> set)
-    public void addComposited(final Set<E> set1, final Set<E> set2)
-    public void addComposited(final Set<E>... sets)
+    '''returns None\n\n
+    addComposited(final Set<E> set1, final Set<E> set2)\n
+    addComposited(final Set<E>... sets)\n
     '''
 def removeComposited():
-    '''public void removeComposited(final Set<E> set)
+    '''returns None\n\n
+    removeComposited(final Set<E> set)\n
     '''
 def toSet():
-    '''public Set<E> toSet()
+    '''returns Set<E>\n\n
+    toSet()\n
     '''
 def getSets():
-    '''public List<Set<E>> getSets()
+    '''returns List<Set<E>>\n\n
+    getSets()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

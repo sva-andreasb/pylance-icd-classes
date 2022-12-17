@@ -1,4 +1,5 @@
-def InvalidOffsetException():
-    '''public InvalidOffsetException(final String message)
-    public InvalidOffsetException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidOffsetException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

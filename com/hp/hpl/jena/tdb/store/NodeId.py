@@ -7,49 +7,39 @@ DATETIME = "int  4"
 BOOLEAN = "int  5"
 SHORT_STRING = "int  6"
 SPECIAL = "int  255"
-def create():
-    '''public static NodeId create(final long value)
-    public static NodeId create(final byte[] b)
-    public static NodeId create(final ByteBuffer b)
-    public static NodeId create(final byte[] b, final int idx)
-    public static NodeId create(final ByteBuffer b, final int idx)
-    '''
-def NodeId():
-    '''public NodeId(final long v)
+def ():
+    '''returns NodeId\n\n
+    (final long v)\n
     '''
 def toByteBuffer():
-    '''public void toByteBuffer(final ByteBuffer b, final int idx)
+    '''returns None\n\n
+    toByteBuffer(final ByteBuffer b, final int idx)\n
     '''
 def toBytes():
-    '''public void toBytes(final byte[] b, final int idx)
+    '''returns None\n\n
+    toBytes(final byte[] b, final int idx)\n
     '''
 def isDirect():
-    '''public boolean isDirect()
+    '''returns boolean\n\n
+    isDirect()\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getId():
-    '''public long getId()
+    '''returns long\n\n
+    getId()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def inline():
-    '''public static NodeId inline(final Node node)
-    '''
-def extract():
-    '''public static Node extract(final NodeId nodeId)
-    '''
-def isAny():
-    '''public static final boolean isAny(final NodeId nodeId)
-    '''
-def doesNotExist():
-    '''public static final boolean doesNotExist(final NodeId nodeId)
+    '''returns String\n\n
+    toString()\n
     '''

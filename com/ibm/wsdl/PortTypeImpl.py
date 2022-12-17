@@ -1,34 +1,45 @@
 serialVersionUID = "long  1L"
-def PortTypeImpl():
-    '''public PortTypeImpl()
+def ():
+    '''returns PortTypeImpl\n\n
+    ()\n
     '''
 def setQName():
-    '''public void setQName(final QName name)
+    '''returns None\n\n
+    setQName(final QName name)\n
     '''
 def getQName():
-    '''public QName getQName()
+    '''returns QName\n\n
+    getQName()\n
     '''
 def addOperation():
-    '''public void addOperation(final Operation operation)
+    '''returns None\n\n
+    addOperation(final Operation operation)\n
     '''
 def getOperation():
-    '''public Operation getOperation(final String str, final String s, final String s2)
+    '''returns Operation\n\n
+    getOperation(final String str, final String s, final String s2)\n
     '''
 def getOperations():
-    '''public List getOperations()
+    '''returns List\n\n
+    getOperations()\n
     '''
 def setDocumentationElement():
-    '''public void setDocumentationElement(final Element docEl)
+    '''returns None\n\n
+    setDocumentationElement(final Element docEl)\n
     '''
 def getDocumentationElement():
-    '''public Element getDocumentationElement()
+    '''returns Element\n\n
+    getDocumentationElement()\n
     '''
 def setUndefined():
-    '''public void setUndefined(final boolean isUndefined)
+    '''returns None\n\n
+    setUndefined(final boolean isUndefined)\n
     '''
 def isUndefined():
-    '''public boolean isUndefined()
+    '''returns boolean\n\n
+    isUndefined()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

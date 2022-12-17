@@ -1,3 +1,4 @@
-def PlusPBBCopyHistorySet():
-    '''public PlusPBBCopyHistorySet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBBCopyHistorySet\n\n
+    (final MboServerInterface ms)\n
     '''

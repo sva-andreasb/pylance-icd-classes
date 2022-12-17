@@ -1,24 +1,32 @@
-def ReportSched():
-    '''public ReportSched(final MboSet ms)
+def ():
+    '''returns ReportSched\n\n
+    (final MboSet ms)\n
     '''
 def setCronTaskMgrCalledDelete():
-    '''public void setCronTaskMgrCalledDelete(final boolean cronIsCaller)
+    '''returns None\n\n
+    setCronTaskMgrCalledDelete(final boolean cronIsCaller)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def sigopGranted():
-    '''public boolean sigopGranted(final String optionname)
+    '''returns boolean\n\n
+    sigopGranted(final String optionname)\n
     '''
 def checkSiteOrgAccessForSave():
-    '''public void checkSiteOrgAccessForSave()
+    '''returns None\n\n
+    checkSiteOrgAccessForSave()\n
     '''

@@ -1,52 +1,69 @@
-def POP3Message():
-    '''public POP3Message(final Folder folder, final int n)
+def ():
+    '''returns POP3Message\n\n
+    (final Folder folder, final int n)\n
     '''
 def setFlags():
-    '''public void setFlags(final Flags flags, final boolean b)
+    '''returns None\n\n
+    setFlags(final Flags flags, final boolean b)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def invalidate():
-    '''public void invalidate(final boolean b)
+    '''returns None\n\n
+    invalidate(final boolean b)\n
     '''
 def top():
-    '''public InputStream top(final int n)
+    '''returns InputStream\n\n
+    top(final int n)\n
     '''
 def getHeader():
-    '''public String[] getHeader(final String s)
-    public String getHeader(final String s, final String s2)
+    '''returns String\n\n
+    getHeader(final String s)\n
+    getHeader(final String s, final String s2)\n
     '''
 def setHeader():
-    '''public void setHeader(final String s, final String s2)
+    '''returns None\n\n
+    setHeader(final String s, final String s2)\n
     '''
 def addHeader():
-    '''public void addHeader(final String s, final String s2)
+    '''returns None\n\n
+    addHeader(final String s, final String s2)\n
     '''
 def removeHeader():
-    '''public void removeHeader(final String s)
+    '''returns None\n\n
+    removeHeader(final String s)\n
     '''
 def getAllHeaders():
-    '''public Enumeration getAllHeaders()
+    '''returns Enumeration\n\n
+    getAllHeaders()\n
     '''
 def getMatchingHeaders():
-    '''public Enumeration getMatchingHeaders(final String[] array)
+    '''returns Enumeration\n\n
+    getMatchingHeaders(final String[] array)\n
     '''
 def getNonMatchingHeaders():
-    '''public Enumeration getNonMatchingHeaders(final String[] array)
+    '''returns Enumeration\n\n
+    getNonMatchingHeaders(final String[] array)\n
     '''
 def addHeaderLine():
-    '''public void addHeaderLine(final String s)
+    '''returns None\n\n
+    addHeaderLine(final String s)\n
     '''
 def getAllHeaderLines():
-    '''public Enumeration getAllHeaderLines()
+    '''returns Enumeration\n\n
+    getAllHeaderLines()\n
     '''
 def getMatchingHeaderLines():
-    '''public Enumeration getMatchingHeaderLines(final String[] array)
+    '''returns Enumeration\n\n
+    getMatchingHeaderLines(final String[] array)\n
     '''
 def getNonMatchingHeaderLines():
-    '''public Enumeration getNonMatchingHeaderLines(final String[] array)
+    '''returns Enumeration\n\n
+    getNonMatchingHeaderLines(final String[] array)\n
     '''
 def saveChanges():
-    '''public void saveChanges()
+    '''returns None\n\n
+    saveChanges()\n
     '''

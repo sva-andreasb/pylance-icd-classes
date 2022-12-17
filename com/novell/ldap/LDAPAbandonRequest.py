@@ -1,3 +1,4 @@
-def LDAPAbandonRequest():
-    '''public LDAPAbandonRequest(final int n, final LDAPControl[] array)
+def ():
+    '''returns LDAPAbandonRequest\n\n
+    (final int n, final LDAPControl[] array)\n
     '''

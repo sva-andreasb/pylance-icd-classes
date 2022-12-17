@@ -1,9 +1,12 @@
-def InMemoryDnsResolver():
-    '''public InMemoryDnsResolver()
+def ():
+    '''returns InMemoryDnsResolver\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final String host, final InetAddress... ips)
+    '''returns None\n\n
+    add(final String host, final InetAddress... ips)\n
     '''
 def resolve():
-    '''public InetAddress[] resolve(final String host)
+    '''returns InetAddress[]\n\n
+    resolve(final String host)\n
     '''

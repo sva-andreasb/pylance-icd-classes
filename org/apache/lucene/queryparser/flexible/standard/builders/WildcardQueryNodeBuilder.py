@@ -1,3 +1,4 @@
 def build():
-    '''public WildcardQuery build(final QueryNode queryNode)
+    '''returns WildcardQuery\n\n
+    build(final QueryNode queryNode)\n
     '''

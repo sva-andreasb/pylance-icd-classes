@@ -1,3 +1,4 @@
-def WFTransaction():
-    '''public WFTransaction(final MboSet ms)
+def ():
+    '''returns WFTransaction\n\n
+    (final MboSet ms)\n
     '''

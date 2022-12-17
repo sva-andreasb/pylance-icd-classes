@@ -1,4 +1,5 @@
-def DPAMProcessorService():
-    '''public DPAMProcessorService()
-    public DPAMProcessorService(final MXServer mxServer)
+def ():
+    '''returns DPAMProcessorService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

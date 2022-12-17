@@ -1,9 +1,12 @@
-def PlusPActionGroup():
-    '''public PlusPActionGroup(final MboSet arg0)
+def ():
+    '''returns PlusPActionGroup\n\n
+    (final MboSet arg0)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

@@ -6,21 +6,26 @@ UNKNOWN_FORMAT = "int  5"
 UNPARSEABLE = "int  6"
 PARSE_FAILED = "int  7"
 UNENDED_COMMENT = "int  8"
-def CatalogException():
-    '''public CatalogException(final int type, final String message)
-    public CatalogException(final int type)
-    public CatalogException(final Exception e)
-    public CatalogException(final String message, final Exception e)
+def ():
+    '''returns CatalogException\n\n
+    (final int type, final String message)\n
+    (final int type)\n
+    (final Exception e)\n
+    (final String message, final Exception e)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''
 def getExceptionType():
-    '''public int getExceptionType()
+    '''returns int\n\n
+    getExceptionType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,7 +1,9 @@
-def ChunkedWriter():
-    '''public ChunkedWriter(final Writer writer, final int chunkSize)
-    public ChunkedWriter(final Writer writer)
+def ():
+    '''returns ChunkedWriter\n\n
+    (final Writer writer, final int chunkSize)\n
+    (final Writer writer)\n
     '''
 def write():
-    '''public void write(final char[] data, final int srcOffset, final int length)
+    '''returns None\n\n
+    write(final char[] data, final int srcOffset, final int length)\n
     '''

@@ -1,26 +1,33 @@
-def MultiKey():
-    '''public MultiKey(final K key1, final K key2)
-    public MultiKey(final K key1, final K key2, final K key3)
-    public MultiKey(final K key1, final K key2, final K key3, final K key4)
-    public MultiKey(final K key1, final K key2, final K key3, final K key4, final K key5)
-    public MultiKey(final K[] keys)
-    public MultiKey(final K[] keys, final boolean makeClone)
+def ():
+    '''returns MultiKey\n\n
+    (final K key1, final K key2)\n
+    (final K key1, final K key2, final K key3)\n
+    (final K key1, final K key2, final K key3, final K key4)\n
+    (final K key1, final K key2, final K key3, final K key4, final K key5)\n
+    (final K[] keys)\n
+    (final K[] keys, final boolean makeClone)\n
     '''
 def getKeys():
-    '''public K[] getKeys()
+    '''returns K[]\n\n
+    getKeys()\n
     '''
 def getKey():
-    '''public K getKey(final int index)
+    '''returns K\n\n
+    getKey(final int index)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

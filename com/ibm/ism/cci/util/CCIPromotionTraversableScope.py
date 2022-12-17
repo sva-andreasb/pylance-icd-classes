@@ -1,12 +1,16 @@
-def CCIPromotionTraversableScope():
-    '''public CCIPromotionTraversableScope(final boolean isActual, final long traversalOptions, final CCITraversalCache promotionScope)
+def ():
+    '''returns CCIPromotionTraversableScope\n\n
+    (final boolean isActual, final long traversalOptions, final CCITraversalCache promotionScope)\n
     '''
 def getNextItems():
-    '''public void getNextItems(final TraversalState traversalState, final UserInfo userInfo)
+    '''returns None\n\n
+    getNextItems(final TraversalState traversalState, final UserInfo userInfo)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def isClassificationAllowed():
-    '''public boolean isClassificationAllowed(final MboRemote actCI, final MboRemote topLevelActCI, final String authCIClassID, final UserInfo userInfo)
+    '''returns boolean\n\n
+    isClassificationAllowed(final MboRemote actCI, final MboRemote topLevelActCI, final String authCIClassID, final UserInfo userInfo)\n
     '''

@@ -1,18 +1,20 @@
-def RFQStatusHandler():
-    '''public RFQStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns RFQStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredExternalStatus)
-    '''
-def getOptionName():
-    '''public static String getOptionName(final String status)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredExternalStatus)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, Date asOfDate, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, Date asOfDate, final String memo)\n
     '''
 def checkChargeValues():
-    '''public void checkChargeValues()
+    '''returns None\n\n
+    checkChargeValues()\n
     '''

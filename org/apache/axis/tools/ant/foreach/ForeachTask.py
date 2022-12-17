@@ -1,27 +1,36 @@
-def ForeachTask():
-    '''public ForeachTask()
+def ():
+    '''returns ForeachTask\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setInheritAll():
-    '''public void setInheritAll(final boolean inherit)
+    '''returns None\n\n
+    setInheritAll(final boolean inherit)\n
     '''
 def setInheritRefs():
-    '''public void setInheritRefs(final boolean inheritRefs)
+    '''returns None\n\n
+    setInheritRefs(final boolean inheritRefs)\n
     '''
 def setTarget():
-    '''public void setTarget(final String target)
+    '''returns None\n\n
+    setTarget(final String target)\n
     '''
 def setFork():
-    '''public void setFork(final boolean f)
+    '''returns None\n\n
+    setFork(final boolean f)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean verbose)
+    '''returns None\n\n
+    setVerbose(final boolean verbose)\n
     '''
 def createParam():
-    '''public ParamSet createParam()
+    '''returns ParamSet\n\n
+    createParam()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

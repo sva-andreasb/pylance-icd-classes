@@ -1,6 +1,8 @@
-def InvalidPropertySyntaxException():
-    '''public InvalidPropertySyntaxException(final String error)
+def ():
+    '''returns InvalidPropertySyntaxException\n\n
+    (final String error)\n
     '''
 def getSyntaxError():
-    '''public String getSyntaxError()
+    '''returns String\n\n
+    getSyntaxError()\n
     '''

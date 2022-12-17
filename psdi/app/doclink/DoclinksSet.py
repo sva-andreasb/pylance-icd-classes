@@ -1,21 +1,28 @@
-def DoclinksSet():
-    '''public DoclinksSet(final MboServerInterface ms)
+def ():
+    '''returns DoclinksSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getOwnerInfo():
-    '''public String[] getOwnerInfo(final String ownerName)
+    '''returns String[]\n\n
+    getOwnerInfo(final String ownerName)\n
     '''
 def addDoclinksForSelectedDocinfo():
-    '''public void addDoclinksForSelectedDocinfo(final DocinfoSetRemote docs, final String app, String doctype)
+    '''returns None\n\n
+    addDoclinksForSelectedDocinfo(final DocinfoSetRemote docs, final String app, String doctype)\n
     '''
 def saveNewMbos():
-    '''public Vector<MboRemote> saveNewMbos()
+    '''returns Vector<MboRemote>\n\n
+    saveNewMbos()\n
     '''
 def replaceNewMbos():
-    '''public void replaceNewMbos(final Vector<MboRemote> savedMbos, final MboSetRemote msr)
+    '''returns None\n\n
+    replaceNewMbos(final Vector<MboRemote> savedMbos, final MboSetRemote msr)\n
     '''

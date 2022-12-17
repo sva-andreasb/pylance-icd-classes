@@ -1,24 +1,32 @@
 def onStart():
-    '''public void onStart(final FileAlterationObserver observer)
+    '''returns None\n\n
+    onStart(final FileAlterationObserver observer)\n
     '''
 def onDirectoryCreate():
-    '''public void onDirectoryCreate(final File directory)
+    '''returns None\n\n
+    onDirectoryCreate(final File directory)\n
     '''
 def onDirectoryChange():
-    '''public void onDirectoryChange(final File directory)
+    '''returns None\n\n
+    onDirectoryChange(final File directory)\n
     '''
 def onDirectoryDelete():
-    '''public void onDirectoryDelete(final File directory)
+    '''returns None\n\n
+    onDirectoryDelete(final File directory)\n
     '''
 def onFileCreate():
-    '''public void onFileCreate(final File file)
+    '''returns None\n\n
+    onFileCreate(final File file)\n
     '''
 def onFileChange():
-    '''public void onFileChange(final File file)
+    '''returns None\n\n
+    onFileChange(final File file)\n
     '''
 def onFileDelete():
-    '''public void onFileDelete(final File file)
+    '''returns None\n\n
+    onFileDelete(final File file)\n
     '''
 def onStop():
-    '''public void onStop(final FileAlterationObserver observer)
+    '''returns None\n\n
+    onStop(final FileAlterationObserver observer)\n
     '''

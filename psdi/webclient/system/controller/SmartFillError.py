@@ -1,6 +1,8 @@
-def SmartFillError():
-    '''public SmartFillError(final String attribute, final MXException exception, final DataBean dataBean, final int row, final MboSetRemote mboSetRemote)
+def ():
+    '''returns SmartFillError\n\n
+    (final String attribute, final MXException exception, final DataBean dataBean, final int row, final MboSetRemote mboSetRemote)\n
     '''
 def getSmartFillMboSet():
-    '''public MboSetRemote getSmartFillMboSet()
+    '''returns MboSetRemote\n\n
+    getSmartFillMboSet()\n
     '''

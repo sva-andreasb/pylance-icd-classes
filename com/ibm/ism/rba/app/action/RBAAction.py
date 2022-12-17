@@ -1,9 +1,12 @@
-def RBAAction():
-    '''public RBAAction(final MboSet ms)
+def ():
+    '''returns RBAAction\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''

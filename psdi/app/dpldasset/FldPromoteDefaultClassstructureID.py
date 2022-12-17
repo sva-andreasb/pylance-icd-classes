@@ -1,9 +1,12 @@
-def FldPromoteDefaultClassstructureID():
-    '''public FldPromoteDefaultClassstructureID(final MboValue mbv)
+def ():
+    '''returns FldPromoteDefaultClassstructureID\n\n
+    (final MboValue mbv)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

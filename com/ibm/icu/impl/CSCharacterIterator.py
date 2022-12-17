@@ -1,33 +1,44 @@
-def CSCharacterIterator():
-    '''public CSCharacterIterator(final CharSequence text)
+def ():
+    '''returns CSCharacterIterator\n\n
+    (final CharSequence text)\n
     '''
 def first():
-    '''public char first()
+    '''returns char\n\n
+    first()\n
     '''
 def last():
-    '''public char last()
+    '''returns char\n\n
+    last()\n
     '''
 def current():
-    '''public char current()
+    '''returns char\n\n
+    current()\n
     '''
 def next():
-    '''public char next()
+    '''returns char\n\n
+    next()\n
     '''
 def previous():
-    '''public char previous()
+    '''returns char\n\n
+    previous()\n
     '''
 def setIndex():
-    '''public char setIndex(final int position)
+    '''returns char\n\n
+    setIndex(final int position)\n
     '''
 def getBeginIndex():
-    '''public int getBeginIndex()
+    '''returns int\n\n
+    getBeginIndex()\n
     '''
 def getEndIndex():
-    '''public int getEndIndex()
+    '''returns int\n\n
+    getEndIndex()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

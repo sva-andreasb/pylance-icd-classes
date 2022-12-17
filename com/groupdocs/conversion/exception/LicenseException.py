@@ -1,3 +1,4 @@
-def LicenseException():
-    '''public LicenseException()
+def ():
+    '''returns LicenseException\n\n
+    ()\n
     '''

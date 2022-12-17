@@ -1,12 +1,16 @@
-def ImpactUrgency():
-    '''public ImpactUrgency(final MboSet ms)
+def ():
+    '''returns ImpactUrgency\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def addNewRow():
-    '''public void addNewRow()
+    '''returns None\n\n
+    addNewRow()\n
     '''

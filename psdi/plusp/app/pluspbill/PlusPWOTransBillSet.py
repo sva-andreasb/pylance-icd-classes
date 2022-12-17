@@ -1,6 +1,8 @@
-def PlusPWOTransBillSet():
-    '''public PlusPWOTransBillSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPWOTransBillSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

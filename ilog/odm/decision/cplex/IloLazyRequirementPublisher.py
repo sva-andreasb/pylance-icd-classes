@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloLazyRequirementPublisher():
-    '''public IloLazyRequirementPublisher(final IloConcertController controller)
+def ():
+    '''returns IloLazyRequirementPublisher\n\n
+    (final IloConcertController controller)\n
     '''
 def shareDescription():
-    '''public void shareDescription(final IloRequirement target, final IloRequirement source)
+    '''returns None\n\n
+    shareDescription(final IloRequirement target, final IloRequirement source)\n
     '''
 def bindRequirementDescription():
-    '''public void bindRequirementDescription(final IloRequirement req, final Object desc, final Parameter param)
+    '''returns None\n\n
+    bindRequirementDescription(final IloRequirement req, final Object desc, final Parameter param)\n
     '''
 def publishRequirement():
-    '''public void publishRequirement(final IloRequirement requirement)
+    '''returns None\n\n
+    publishRequirement(final IloRequirement requirement)\n
     '''
 def publish():
-    '''public void publish(final Object publishable)
+    '''returns None\n\n
+    publish(final Object publishable)\n
     '''

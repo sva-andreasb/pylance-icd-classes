@@ -1,4 +1,5 @@
-def InvalidAttributeValueException():
-    '''public InvalidAttributeValueException()
-    public InvalidAttributeValueException(final String s)
+def ():
+    '''returns InvalidAttributeValueException\n\n
+    ()\n
+    (final String s)\n
     '''

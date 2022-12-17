@@ -4,27 +4,27 @@ SP = "char  ' '"
 HT = "char  '\t'"
 DQUOTE = "char  '\\"'"
 ESCAPE = "char  '\\'"
-def INIT_BITSET():
-    '''public static BitSet INIT_BITSET(final int... b)
-    '''
-def isWhitespace():
-    '''public static boolean isWhitespace(final char ch)
-    '''
 def parseToken():
-    '''public String parseToken(final CharArrayBuffer buf, final ParserCursor cursor, final BitSet delimiters)
+    '''returns String\n\n
+    parseToken(final CharArrayBuffer buf, final ParserCursor cursor, final BitSet delimiters)\n
     '''
 def parseValue():
-    '''public String parseValue(final CharArrayBuffer buf, final ParserCursor cursor, final BitSet delimiters)
+    '''returns String\n\n
+    parseValue(final CharArrayBuffer buf, final ParserCursor cursor, final BitSet delimiters)\n
     '''
 def skipWhiteSpace():
-    '''public void skipWhiteSpace(final CharArrayBuffer buf, final ParserCursor cursor)
+    '''returns None\n\n
+    skipWhiteSpace(final CharArrayBuffer buf, final ParserCursor cursor)\n
     '''
 def copyContent():
-    '''public void copyContent(final CharArrayBuffer buf, final ParserCursor cursor, final BitSet delimiters, final StringBuilder dst)
+    '''returns None\n\n
+    copyContent(final CharArrayBuffer buf, final ParserCursor cursor, final BitSet delimiters, final StringBuilder dst)\n
     '''
 def copyUnquotedContent():
-    '''public void copyUnquotedContent(final CharArrayBuffer buf, final ParserCursor cursor, final BitSet delimiters, final StringBuilder dst)
+    '''returns None\n\n
+    copyUnquotedContent(final CharArrayBuffer buf, final ParserCursor cursor, final BitSet delimiters, final StringBuilder dst)\n
     '''
 def copyQuotedContent():
-    '''public void copyQuotedContent(final CharArrayBuffer buf, final ParserCursor cursor, final StringBuilder dst)
+    '''returns None\n\n
+    copyQuotedContent(final CharArrayBuffer buf, final ParserCursor cursor, final StringBuilder dst)\n
     '''

@@ -1,172 +1,228 @@
 crewDurStatic = "String  \"Static\""
 crewDurDynamic = "String  \"Dynamic\""
 crewDurCrewPos = "String  \"PLUSDCRW\""
-def AMCrew():
-    '''public AMCrew(final MboSet ms)
+def ():
+    '''returns AMCrew\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
-    public void changeStatus(final String newStatus, final String memo)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
+    changeStatus(final String newStatus, final String memo)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def associateCrewType():
-    '''public void associateCrewType()
+    '''returns None\n\n
+    associateCrewType()\n
     '''
 def refreshkRequirements():
-    '''public void refreshkRequirements()
+    '''returns None\n\n
+    refreshkRequirements()\n
     '''
 def checkCalendarAndShift():
-    '''public void checkCalendarAndShift()
+    '''returns None\n\n
+    checkCalendarAndShift()\n
     '''
 def setWorkHrs():
-    '''public void setWorkHrs(final Date DayOneClientDate)
+    '''returns None\n\n
+    setWorkHrs(final Date DayOneClientDate)\n
     '''
 def getServerDTFromClientDT():
-    '''public Date getServerDTFromClientDT(final Date clientDateTime, final GregorianCalendar scratchCal)
+    '''returns Date\n\n
+    getServerDTFromClientDT(final Date clientDateTime, final GregorianCalendar scratchCal)\n
     '''
 def getClientDTFromServerDT():
-    '''public Date getClientDTFromServerDT(final Date serverDateTime, final GregorianCalendar scratchCal)
+    '''returns Date\n\n
+    getClientDTFromServerDT(final Date serverDateTime, final GregorianCalendar scratchCal)\n
     '''
 def getAvailableMbo():
-    '''public MboRemote getAvailableMbo(final Date startDate)
+    '''returns MboRemote\n\n
+    getAvailableMbo(final Date startDate)\n
     '''
 def getAvailableMboList():
-    '''public List<MboRemote> getAvailableMboList(final Date startDate)
+    '''returns List<MboRemote>\n\n
+    getAvailableMboList(final Date startDate)\n
     '''
 def getDateTime():
-    '''public Date getDateTime(final Date workdt, final Date sttime)
+    '''returns Date\n\n
+    getDateTime(final Date workdt, final Date sttime)\n
     '''
 def getWPEndDateTime():
-    '''public Date getWPEndDateTime(final MboRemote WorkTimeMbo, final Date wpStartDateTime, final GregorianCalendar scratchCal)
+    '''returns Date\n\n
+    getWPEndDateTime(final MboRemote WorkTimeMbo, final Date wpStartDateTime, final GregorianCalendar scratchCal)\n
     '''
 def getDayNAssignmentSet():
-    '''public MboSetRemote getDayNAssignmentSet(final MboRemote theCrewMbo, final Date wpStartDateTime, final Date wpEndDateTime)
+    '''returns MboSetRemote\n\n
+    getDayNAssignmentSet(final MboRemote theCrewMbo, final Date wpStartDateTime, final Date wpEndDateTime)\n
     '''
 def getAvailableHours():
-    '''public double getAvailableHours(final Date startDate)
+    '''returns double\n\n
+    getAvailableHours(final Date startDate)\n
     '''
 def getAssignedHours():
-    '''public double getAssignedHours(final boolean insideCurrentDateWorkingTime, final Date wpStartDateTime, final Date wpEndDateTime, final MboSetRemote dayNAssignmentSet)
+    '''returns double\n\n
+    getAssignedHours(final boolean insideCurrentDateWorkingTime, final Date wpStartDateTime, final Date wpEndDateTime, final MboSetRemote dayNAssignmentSet)\n
     '''
 def getServerDateColumn():
-    '''public Date[] getServerDateColumn()
+    '''returns Date[]\n\n
+    getServerDateColumn()\n
     '''
 def setServerDateColumn():
-    '''public void setServerDateColumn(final Date[] newServerDateColumn)
+    '''returns None\n\n
+    setServerDateColumn(final Date[] newServerDateColumn)\n
     '''
 def getLabors():
-    '''public Collection getLabors(final Date currentDate)
+    '''returns Collection\n\n
+    getLabors(final Date currentDate)\n
     '''
 def getTools():
-    '''public Collection getTools(final Date currentDate)
+    '''returns Collection\n\n
+    getTools(final Date currentDate)\n
     '''
 def isAMGridCreated():
-    '''public boolean isAMGridCreated()
+    '''returns boolean\n\n
+    isAMGridCreated()\n
     '''
 def setAMGridCreated():
-    '''public void setAMGridCreated(final boolean gridCreated)
+    '''returns None\n\n
+    setAMGridCreated(final boolean gridCreated)\n
     '''
 def childHasChanged():
-    '''public void childHasChanged()
+    '''returns None\n\n
+    childHasChanged()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def calculateAvailabilityData():
-    '''public void calculateAvailabilityData()
+    '''returns None\n\n
+    calculateAvailabilityData()\n
     '''
 def updateStandardRate():
-    '''public void updateStandardRate()
+    '''returns None\n\n
+    updateStandardRate()\n
     '''
 def getEarliestUnassignedDateTime():
-    '''public Date getEarliestUnassignedDateTime(final MboSetRemote dayNAssignmentSet, final Date rangeStartDateTime, final Date rangeFinishDateTime)
+    '''returns Date\n\n
+    getEarliestUnassignedDateTime(final MboSetRemote dayNAssignmentSet, final Date rangeStartDateTime, final Date rangeFinishDateTime)\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def getLocationAccuracy():
-    '''public Double getLocationAccuracy()
+    '''returns Double\n\n
+    getLocationAccuracy()\n
     '''
 def getAltitude():
-    '''public Double getAltitude()
+    '''returns Double\n\n
+    getAltitude()\n
     '''
 def getAltitudeAccuracy():
-    '''public Double getAltitudeAccuracy()
+    '''returns Double\n\n
+    getAltitudeAccuracy()\n
     '''
 def getHeading():
-    '''public Double getHeading()
+    '''returns Double\n\n
+    getHeading()\n
     '''
 def getLastUpdate():
-    '''public Date getLastUpdate()
+    '''returns Date\n\n
+    getLastUpdate()\n
     '''
 def getSpeed():
-    '''public Double getSpeed()
+    '''returns Double\n\n
+    getSpeed()\n
     '''
 def saveLBSData():
-    '''public void saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)
+    '''returns None\n\n
+    saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)\n
     '''
 def getValidContract():
-    '''public MboRemote getValidContract(final Date startDate)
+    '''returns MboRemote\n\n
+    getValidContract(final Date startDate)\n
     '''
 def getCompositeWP():
-    '''public MboRemote getCompositeWP(final List<MboRemote> modAvailList, final Date workDate)
+    '''returns MboRemote\n\n
+    getCompositeWP(final List<MboRemote> modAvailList, final Date workDate)\n
     '''
 def getCurrentShiftHours():
-    '''public double getCurrentShiftHours(final Date workdate)
+    '''returns double\n\n
+    getCurrentShiftHours(final Date workdate)\n
     '''
 def getCurrentShiftStartDate():
-    '''public Date getCurrentShiftStartDate(final Date effectiveDate)
+    '''returns Date\n\n
+    getCurrentShiftStartDate(final Date effectiveDate)\n
     '''
 def getCurrentShiftEndDate():
-    '''public Date getCurrentShiftEndDate(final Date endDate)
+    '''returns Date\n\n
+    getCurrentShiftEndDate(final Date endDate)\n
     '''
 def setCrewDate():
-    '''public void setCrewDate(final Date date)
+    '''returns None\n\n
+    setCrewDate(final Date date)\n
     '''
 def getCrewDate():
-    '''public Date getCrewDate()
+    '''returns Date\n\n
+    getCrewDate()\n
     '''
 def getCrewMemberCount():
-    '''public int getCrewMemberCount(final Date desiredDate)
+    '''returns int\n\n
+    getCrewMemberCount(final Date desiredDate)\n
     '''
 def setDateTo():
-    '''public void setDateTo(final Date dateTo)
+    '''returns None\n\n
+    setDateTo(final Date dateTo)\n
     '''
 def getDateTo():
-    '''public Date getDateTo()
+    '''returns Date\n\n
+    getDateTo()\n
     '''
 def getEligibleHours():
-    '''public double[] getEligibleHours()
+    '''returns double[]\n\n
+    getEligibleHours()\n
     '''

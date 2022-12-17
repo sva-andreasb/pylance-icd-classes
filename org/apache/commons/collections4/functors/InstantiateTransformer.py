@@ -1,6 +1,8 @@
-def InstantiateTransformer():
-    '''public InstantiateTransformer(final Class<?>[] paramTypes, final Object[] args)
+def ():
+    '''returns InstantiateTransformer\n\n
+    (final Class<?>[] paramTypes, final Object[] args)\n
     '''
 def transform():
-    '''public T transform(final Class<? extends T> input)
+    '''returns T\n\n
+    transform(final Class<? extends T> input)\n
     '''

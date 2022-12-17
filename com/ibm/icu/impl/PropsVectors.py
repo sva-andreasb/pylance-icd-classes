@@ -5,48 +5,60 @@ MAX_CP = "int  1114113"
 INITIAL_ROWS = "int  4096"
 MEDIUM_ROWS = "int  65536"
 MAX_ROWS = "int  1114114"
-def PropsVectors():
-    '''public PropsVectors(final int numOfColumns)
+def ():
+    '''returns DefaultGetFoldedValue\n\n
+    (final int numOfColumns)\n
+    (final IntTrieBuilder inBuilder)\n
     '''
 def setValue():
-    '''public void setValue(final int start, final int end, int column, int value, int mask)
+    '''returns None\n\n
+    setValue(final int start, final int end, int column, int value, int mask)\n
     '''
 def getValue():
-    '''public int getValue(final int c, final int column)
+    '''returns int\n\n
+    getValue(final int c, final int column)\n
     '''
 def getRow():
-    '''public int[] getRow(final int rowIndex)
+    '''returns int[]\n\n
+    getRow(final int rowIndex)\n
     '''
 def getRowStart():
-    '''public int getRowStart(final int rowIndex)
+    '''returns int\n\n
+    getRowStart(final int rowIndex)\n
     '''
 def getRowEnd():
-    '''public int getRowEnd(final int rowIndex)
+    '''returns int\n\n
+    getRowEnd(final int rowIndex)\n
     '''
 def compact():
-    '''public void compact(final CompactHandler compactor)
+    '''returns None\n\n
+    compact(final CompactHandler compactor)\n
     '''
 def compare():
-    '''public int compare(final Integer o1, final Integer o2)
+    '''returns int\n\n
+    compare(final Integer o1, final Integer o2)\n
     '''
 def getCompactedArray():
-    '''public int[] getCompactedArray()
+    '''returns int[]\n\n
+    getCompactedArray()\n
     '''
 def getCompactedRows():
-    '''public int getCompactedRows()
+    '''returns int\n\n
+    getCompactedRows()\n
     '''
 def getCompactedColumns():
-    '''public int getCompactedColumns()
+    '''returns int\n\n
+    getCompactedColumns()\n
     '''
 def compactToTrieWithRowIndexes():
-    '''public IntTrie compactToTrieWithRowIndexes()
+    '''returns IntTrie\n\n
+    compactToTrieWithRowIndexes()\n
     '''
 def getFoldingOffset():
-    '''public int getFoldingOffset(final int value)
-    '''
-def DefaultGetFoldedValue():
-    '''public DefaultGetFoldedValue(final IntTrieBuilder inBuilder)
+    '''returns int\n\n
+    getFoldingOffset(final int value)\n
     '''
 def getFoldedValue():
-    '''public int getFoldedValue(int start, final int offset)
+    '''returns int\n\n
+    getFoldedValue(int start, final int offset)\n
     '''

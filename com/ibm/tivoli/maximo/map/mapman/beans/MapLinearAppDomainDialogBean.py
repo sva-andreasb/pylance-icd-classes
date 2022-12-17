@@ -1,6 +1,8 @@
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def getMaxAppObject():
-    '''public String getMaxAppObject(final String app)
+    '''returns String\n\n
+    getMaxAppObject(final String app)\n
     '''

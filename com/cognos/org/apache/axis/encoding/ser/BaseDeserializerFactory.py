@@ -1,10 +1,9 @@
-def BaseDeserializerFactory():
-    '''public BaseDeserializerFactory(final Class deserClass)
-    public BaseDeserializerFactory(final Class deserClass, final QName xmlType, final Class javaType)
+def ():
+    '''returns BaseDeserializerFactory\n\n
+    (final Class deserClass)\n
+    (final Class deserClass, final QName xmlType, final Class javaType)\n
     '''
 def getSupportedMechanismTypes():
-    '''public Iterator getSupportedMechanismTypes()
-    '''
-def createFactory():
-    '''public static DeserializerFactory createFactory(final Class factory, final Class javaType, final QName xmlType)
+    '''returns Iterator\n\n
+    getSupportedMechanismTypes()\n
     '''

@@ -1,3 +1,4 @@
-def PlusPFldRespPlanSolution():
-    '''public PlusPFldRespPlanSolution(final MboValue arg0)
+def ():
+    '''returns PlusPFldRespPlanSolution\n\n
+    (final MboValue arg0)\n
     '''

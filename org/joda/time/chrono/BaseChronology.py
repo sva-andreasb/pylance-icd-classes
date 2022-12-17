@@ -1,125 +1,165 @@
 def getDateTimeMillis():
-    '''public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4)
-    public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
-    public long getDateTimeMillis(long n, final int n2, final int n3, final int n4, final int n5)
+    '''returns long\n\n
+    getDateTimeMillis(final int n, final int n2, final int n3, final int n4)\n
+    getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)\n
+    getDateTimeMillis(long n, final int n2, final int n3, final int n4, final int n5)\n
     '''
 def validate():
-    '''public void validate(final ReadablePartial readablePartial, final int[] array)
+    '''returns None\n\n
+    validate(final ReadablePartial readablePartial, final int[] array)\n
     '''
 def get():
-    '''public int[] get(final ReadablePartial readablePartial, final long n)
-    public int[] get(final ReadablePeriod readablePeriod, long add, final long n)
-    public int[] get(final ReadablePeriod readablePeriod, final long n)
+    '''returns int[]\n\n
+    get(final ReadablePartial readablePartial, final long n)\n
+    get(final ReadablePeriod readablePeriod, long add, final long n)\n
+    get(final ReadablePeriod readablePeriod, final long n)\n
     '''
 def set():
-    '''public long set(final ReadablePartial readablePartial, long set)
+    '''returns long\n\n
+    set(final ReadablePartial readablePartial, long set)\n
     '''
 def add():
-    '''public long add(final ReadablePeriod readablePeriod, long add, final int n)
-    public long add(final long n, final long n2, final int n3)
+    '''returns long\n\n
+    add(final ReadablePeriod readablePeriod, long add, final int n)\n
+    add(final long n, final long n2, final int n3)\n
     '''
 def millis():
-    '''public DurationField millis()
+    '''returns DurationField\n\n
+    millis()\n
     '''
 def millisOfSecond():
-    '''public DateTimeField millisOfSecond()
+    '''returns DateTimeField\n\n
+    millisOfSecond()\n
     '''
 def millisOfDay():
-    '''public DateTimeField millisOfDay()
+    '''returns DateTimeField\n\n
+    millisOfDay()\n
     '''
 def seconds():
-    '''public DurationField seconds()
+    '''returns DurationField\n\n
+    seconds()\n
     '''
 def secondOfMinute():
-    '''public DateTimeField secondOfMinute()
+    '''returns DateTimeField\n\n
+    secondOfMinute()\n
     '''
 def secondOfDay():
-    '''public DateTimeField secondOfDay()
+    '''returns DateTimeField\n\n
+    secondOfDay()\n
     '''
 def minutes():
-    '''public DurationField minutes()
+    '''returns DurationField\n\n
+    minutes()\n
     '''
 def minuteOfHour():
-    '''public DateTimeField minuteOfHour()
+    '''returns DateTimeField\n\n
+    minuteOfHour()\n
     '''
 def minuteOfDay():
-    '''public DateTimeField minuteOfDay()
+    '''returns DateTimeField\n\n
+    minuteOfDay()\n
     '''
 def hours():
-    '''public DurationField hours()
+    '''returns DurationField\n\n
+    hours()\n
     '''
 def hourOfDay():
-    '''public DateTimeField hourOfDay()
+    '''returns DateTimeField\n\n
+    hourOfDay()\n
     '''
 def clockhourOfDay():
-    '''public DateTimeField clockhourOfDay()
+    '''returns DateTimeField\n\n
+    clockhourOfDay()\n
     '''
 def halfdays():
-    '''public DurationField halfdays()
+    '''returns DurationField\n\n
+    halfdays()\n
     '''
 def hourOfHalfday():
-    '''public DateTimeField hourOfHalfday()
+    '''returns DateTimeField\n\n
+    hourOfHalfday()\n
     '''
 def clockhourOfHalfday():
-    '''public DateTimeField clockhourOfHalfday()
+    '''returns DateTimeField\n\n
+    clockhourOfHalfday()\n
     '''
 def halfdayOfDay():
-    '''public DateTimeField halfdayOfDay()
+    '''returns DateTimeField\n\n
+    halfdayOfDay()\n
     '''
 def days():
-    '''public DurationField days()
+    '''returns DurationField\n\n
+    days()\n
     '''
 def dayOfWeek():
-    '''public DateTimeField dayOfWeek()
+    '''returns DateTimeField\n\n
+    dayOfWeek()\n
     '''
 def dayOfMonth():
-    '''public DateTimeField dayOfMonth()
+    '''returns DateTimeField\n\n
+    dayOfMonth()\n
     '''
 def dayOfYear():
-    '''public DateTimeField dayOfYear()
+    '''returns DateTimeField\n\n
+    dayOfYear()\n
     '''
 def weeks():
-    '''public DurationField weeks()
+    '''returns DurationField\n\n
+    weeks()\n
     '''
 def weekOfWeekyear():
-    '''public DateTimeField weekOfWeekyear()
+    '''returns DateTimeField\n\n
+    weekOfWeekyear()\n
     '''
 def weekyears():
-    '''public DurationField weekyears()
+    '''returns DurationField\n\n
+    weekyears()\n
     '''
 def weekyear():
-    '''public DateTimeField weekyear()
+    '''returns DateTimeField\n\n
+    weekyear()\n
     '''
 def weekyearOfCentury():
-    '''public DateTimeField weekyearOfCentury()
+    '''returns DateTimeField\n\n
+    weekyearOfCentury()\n
     '''
 def months():
-    '''public DurationField months()
+    '''returns DurationField\n\n
+    months()\n
     '''
 def monthOfYear():
-    '''public DateTimeField monthOfYear()
+    '''returns DateTimeField\n\n
+    monthOfYear()\n
     '''
 def years():
-    '''public DurationField years()
+    '''returns DurationField\n\n
+    years()\n
     '''
 def year():
-    '''public DateTimeField year()
+    '''returns DateTimeField\n\n
+    year()\n
     '''
 def yearOfEra():
-    '''public DateTimeField yearOfEra()
+    '''returns DateTimeField\n\n
+    yearOfEra()\n
     '''
 def yearOfCentury():
-    '''public DateTimeField yearOfCentury()
+    '''returns DateTimeField\n\n
+    yearOfCentury()\n
     '''
 def centuries():
-    '''public DurationField centuries()
+    '''returns DurationField\n\n
+    centuries()\n
     '''
 def centuryOfEra():
-    '''public DateTimeField centuryOfEra()
+    '''returns DateTimeField\n\n
+    centuryOfEra()\n
     '''
 def eras():
-    '''public DurationField eras()
+    '''returns DurationField\n\n
+    eras()\n
     '''
 def era():
-    '''public DateTimeField era()
+    '''returns DateTimeField\n\n
+    era()\n
     '''

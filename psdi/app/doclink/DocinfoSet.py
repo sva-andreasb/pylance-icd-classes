@@ -1,12 +1,16 @@
-def DocinfoSet():
-    '''public DocinfoSet(final MboServerInterface ms)
+def ():
+    '''returns DocinfoSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findForApp():
-    '''public void findForApp(final String appName)
+    '''returns None\n\n
+    findForApp(final String appName)\n
     '''
 def findDocinfo():
-    '''public void findDocinfo(final String urlname, final String[] urlparam)
+    '''returns None\n\n
+    findDocinfo(final String urlname, final String[] urlparam)\n
     '''
 def addDoclinksForSelectedDocinfo():
-    '''public void addDoclinksForSelectedDocinfo(final String doctype, final String keytable, final String keycolumn, final String keyvalue, final String app)
+    '''returns None\n\n
+    addDoclinksForSelectedDocinfo(final String doctype, final String keytable, final String keycolumn, final String keyvalue, final String app)\n
     '''

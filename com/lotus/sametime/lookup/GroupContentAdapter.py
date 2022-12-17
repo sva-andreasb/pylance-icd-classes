@@ -1,6 +1,8 @@
 def groupContentQueried():
-    '''public void groupContentQueried(final GroupContentEvent groupContentEvent)
+    '''returns None\n\n
+    groupContentQueried(final GroupContentEvent groupContentEvent)\n
     '''
 def queryGroupContentFailed():
-    '''public void queryGroupContentFailed(final GroupContentEvent groupContentEvent)
+    '''returns None\n\n
+    queryGroupContentFailed(final GroupContentEvent groupContentEvent)\n
     '''

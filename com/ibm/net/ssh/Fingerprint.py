@@ -1,15 +1,20 @@
 def getAlgorithm():
-    '''public String getAlgorithm()
+    '''returns String\n\n
+    getAlgorithm()\n
     '''
 def getKeySize():
-    '''public int getKeySize()
+    '''returns int\n\n
+    getKeySize()\n
     '''
 def getFingerprint():
-    '''public byte[] getFingerprint()
+    '''returns byte[]\n\n
+    getFingerprint()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,28 +1,33 @@
-def XmlPrettyPrinter():
-    '''public XmlPrettyPrinter(final PrettyPrintedXmlPartCallback partCallback)
-    public XmlPrettyPrinter(final PrettyPrintedXmlChunkSink prettyWriter)
-    '''
-def builder():
-    '''public static Builder builder()
+def ():
+    '''returns XmlPrettyPrinter\n\n
+    (final PrettyPrintedXmlPartCallback partCallback)\n
+    (final PrettyPrintedXmlChunkSink prettyWriter)\n
     '''
 def setIndent():
-    '''public Builder setIndent(final int indent)
+    '''returns Builder\n\n
+    setIndent(final int indent)\n
     '''
 def setAttributeIndent():
-    '''public Builder setAttributeIndent(final int attributeIndent)
+    '''returns Builder\n\n
+    setAttributeIndent(final int attributeIndent)\n
     '''
 def setTabWidth():
-    '''public Builder setTabWidth(final int tabWidth)
+    '''returns Builder\n\n
+    setTabWidth(final int tabWidth)\n
     '''
 def setChunkCallback():
-    '''public Builder setChunkCallback(final PrettyPrintedXmlChunkWithCurrentPartCallback chunkCallback)
+    '''returns Builder\n\n
+    setChunkCallback(final PrettyPrintedXmlChunkWithCurrentPartCallback chunkCallback)\n
     '''
 def setPartCallback():
-    '''public Builder setPartCallback(final PrettyPrintedXmlPartCallback partCallback)
+    '''returns Builder\n\n
+    setPartCallback(final PrettyPrintedXmlPartCallback partCallback)\n
     '''
 def setPrettyWriter():
-    '''public Builder setPrettyWriter(final PrettyPrintedXmlChunkSink prettyWriter)
+    '''returns Builder\n\n
+    setPrettyWriter(final PrettyPrintedXmlChunkSink prettyWriter)\n
     '''
 def build():
-    '''public XmlPrettyPrinter build()
+    '''returns XmlPrettyPrinter\n\n
+    build()\n
     '''

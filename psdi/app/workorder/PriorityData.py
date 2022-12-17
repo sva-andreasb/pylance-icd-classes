@@ -1,16 +1,21 @@
-def PriorityData():
-    '''public PriorityData(final UserInfo userInfo, final String siteID)
-    public PriorityData(final UserInfo userInfo)
+def ():
+    '''returns PriorityData\n\n
+    (final UserInfo userInfo, final String siteID)\n
+    (final UserInfo userInfo)\n
     '''
 def doPriorityCalc():
-    '''public boolean doPriorityCalc()
+    '''returns boolean\n\n
+    doPriorityCalc()\n
     '''
 def doRespondByCalc():
-    '''public boolean doRespondByCalc()
+    '''returns boolean\n\n
+    doRespondByCalc()\n
     '''
 def calculatePriority():
-    '''public int calculatePriority(final int woPriority, final int assetLocPriority)
+    '''returns int\n\n
+    calculatePriority(final int woPriority, final int assetLocPriority)\n
     '''
 def calculateResponseTime():
-    '''public int calculateResponseTime(final int calcP)
+    '''returns int\n\n
+    calculateResponseTime(final int calcP)\n
     '''

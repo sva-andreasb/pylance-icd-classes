@@ -1,21 +1,28 @@
-def LinkResult():
-    '''public LinkResult(final ReconInfo reconInfo)
+def ():
+    '''returns LinkResult\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def addLink():
-    '''public void addLink(final ReconValue leadingValue, final ReconValue subordinateValue, final ReconLinkExpression linkRule)
+    '''returns None\n\n
+    addLink(final ReconValue leadingValue, final ReconValue subordinateValue, final ReconLinkExpression linkRule)\n
     '''
 def addLinks():
-    '''public void addLinks(final ReconValue leadingValue, final List<ReconValue> subordinateValues, final ReconLinkExpression linkRule)
+    '''returns None\n\n
+    addLinks(final ReconValue leadingValue, final List<ReconValue> subordinateValues, final ReconLinkExpression linkRule)\n
     '''
 def getSuccessfulLinks():
-    '''public List<SuccessfulLinkItem> getSuccessfulLinks()
+    '''returns List<SuccessfulLinkItem>\n\n
+    getSuccessfulLinks()\n
     '''
 def getFailedLeadingLinks():
-    '''public List<FailedLinkItem> getFailedLeadingLinks()
+    '''returns List<FailedLinkItem>\n\n
+    getFailedLeadingLinks()\n
     '''
 def getFailedSubordinateLinks():
-    '''public List<FailedLinkItem> getFailedSubordinateLinks()
+    '''returns List<FailedLinkItem>\n\n
+    getFailedSubordinateLinks()\n
     '''
 def getSubordinateObjects():
-    '''public List<ReconValue> getSubordinateObjects()
+    '''returns List<ReconValue>\n\n
+    getSubordinateObjects()\n
     '''

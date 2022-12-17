@@ -1,47 +1,53 @@
-def AppEngineDataStoreFactory():
-    '''public AppEngineDataStoreFactory()
-    public AppEngineDataStoreFactory(final Builder builder)
+def ():
+    '''returns AppEngineDataStoreFactory\n\n
+    ()\n
+    (final Builder builder)\n
     '''
 def getDisableMemcache():
-    '''public boolean getDisableMemcache()
-    public final boolean getDisableMemcache()
-    '''
-def getDefaultInstance():
-    '''public static AppEngineDataStoreFactory getDefaultInstance()
+    '''returns boolean\n\n
+    getDisableMemcache()\n
     '''
 def keySet():
-    '''public Set<String> keySet()
+    '''returns Set<String>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def get():
-    '''public V get(final String key)
+    '''returns V\n\n
+    get(final String key)\n
     '''
 def set():
-    '''public AppEngineDataStore<V> set(final String key, final V value)
+    '''returns AppEngineDataStore<V>\n\n
+    set(final String key, final V value)\n
     '''
 def delete():
-    '''public DataStore<V> delete(final String key)
+    '''returns DataStore<V>\n\n
+    delete(final String key)\n
     '''
 def clear():
-    '''public AppEngineDataStore<V> clear()
+    '''returns AppEngineDataStore<V>\n\n
+    clear()\n
     '''
 def getDataStoreFactory():
-    '''public AppEngineDataStoreFactory getDataStoreFactory()
+    '''returns AppEngineDataStoreFactory\n\n
+    getDataStoreFactory()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setDisableMemcache():
-    '''public Builder setDisableMemcache(final boolean disableMemcache)
-    '''
-def getMemcacheExpiration():
-    '''public final Expiration getMemcacheExpiration()
+    '''returns Builder\n\n
+    setDisableMemcache(final boolean disableMemcache)\n
     '''
 def setMemcacheExpiration():
-    '''public Builder setMemcacheExpiration(final Expiration memcacheExpiration)
+    '''returns Builder\n\n
+    setMemcacheExpiration(final Expiration memcacheExpiration)\n
     '''
 def build():
-    '''public AppEngineDataStoreFactory build()
+    '''returns AppEngineDataStoreFactory\n\n
+    build()\n
     '''

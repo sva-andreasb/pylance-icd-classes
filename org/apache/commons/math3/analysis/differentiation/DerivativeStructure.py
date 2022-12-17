@@ -1,196 +1,250 @@
-def DerivativeStructure():
-    '''public DerivativeStructure(final int parameters, final int order)
-    public DerivativeStructure(final int parameters, final int order, final double value)
-    public DerivativeStructure(final int parameters, final int order, final int index, final double value)
-    public DerivativeStructure(final double a1, final DerivativeStructure ds1, final double a2, final DerivativeStructure ds2)
-    public DerivativeStructure(final double a1, final DerivativeStructure ds1, final double a2, final DerivativeStructure ds2, final double a3, final DerivativeStructure ds3)
-    public DerivativeStructure(final double a1, final DerivativeStructure ds1, final double a2, final DerivativeStructure ds2, final double a3, final DerivativeStructure ds3, final double a4, final DerivativeStructure ds4)
-    public DerivativeStructure(final int parameters, final int order, final double... derivatives)
+def ():
+    '''returns DerivativeStructure\n\n
+    (final int parameters, final int order)\n
+    (final int parameters, final int order, final double value)\n
+    (final int parameters, final int order, final int index, final double value)\n
+    (final double a1, final DerivativeStructure ds1, final double a2, final DerivativeStructure ds2)\n
+    (final double a1, final DerivativeStructure ds1, final double a2, final DerivativeStructure ds2, final double a3, final DerivativeStructure ds3)\n
+    (final double a1, final DerivativeStructure ds1, final double a2, final DerivativeStructure ds2, final double a3, final DerivativeStructure ds3, final double a4, final DerivativeStructure ds4)\n
+    (final int parameters, final int order, final double... derivatives)\n
     '''
 def getFreeParameters():
-    '''public int getFreeParameters()
+    '''returns int\n\n
+    getFreeParameters()\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def createConstant():
-    '''public DerivativeStructure createConstant(final double c)
+    '''returns DerivativeStructure\n\n
+    createConstant(final double c)\n
     '''
 def getReal():
-    '''public double getReal()
+    '''returns double\n\n
+    getReal()\n
     '''
 def getValue():
-    '''public double getValue()
+    '''returns double\n\n
+    getValue()\n
     '''
 def getPartialDerivative():
-    '''public double getPartialDerivative(final int... orders)
+    '''returns double\n\n
+    getPartialDerivative(final int... orders)\n
     '''
 def getAllDerivatives():
-    '''public double[] getAllDerivatives()
+    '''returns double[]\n\n
+    getAllDerivatives()\n
     '''
 def add():
-    '''public DerivativeStructure add(final double a)
-    public DerivativeStructure add(final DerivativeStructure a)
+    '''returns DerivativeStructure\n\n
+    add(final double a)\n
+    add(final DerivativeStructure a)\n
     '''
 def subtract():
-    '''public DerivativeStructure subtract(final double a)
-    public DerivativeStructure subtract(final DerivativeStructure a)
+    '''returns DerivativeStructure\n\n
+    subtract(final double a)\n
+    subtract(final DerivativeStructure a)\n
     '''
 def multiply():
-    '''public DerivativeStructure multiply(final int n)
-    public DerivativeStructure multiply(final double a)
-    public DerivativeStructure multiply(final DerivativeStructure a)
+    '''returns DerivativeStructure\n\n
+    multiply(final int n)\n
+    multiply(final double a)\n
+    multiply(final DerivativeStructure a)\n
     '''
 def divide():
-    '''public DerivativeStructure divide(final double a)
-    public DerivativeStructure divide(final DerivativeStructure a)
+    '''returns DerivativeStructure\n\n
+    divide(final double a)\n
+    divide(final DerivativeStructure a)\n
     '''
 def remainder():
-    '''public DerivativeStructure remainder(final double a)
-    public DerivativeStructure remainder(final DerivativeStructure a)
+    '''returns DerivativeStructure\n\n
+    remainder(final double a)\n
+    remainder(final DerivativeStructure a)\n
     '''
 def negate():
-    '''public DerivativeStructure negate()
+    '''returns DerivativeStructure\n\n
+    negate()\n
     '''
 def abs():
-    '''public DerivativeStructure abs()
+    '''returns DerivativeStructure\n\n
+    abs()\n
     '''
 def ceil():
-    '''public DerivativeStructure ceil()
+    '''returns DerivativeStructure\n\n
+    ceil()\n
     '''
 def floor():
-    '''public DerivativeStructure floor()
+    '''returns DerivativeStructure\n\n
+    floor()\n
     '''
 def rint():
-    '''public DerivativeStructure rint()
+    '''returns DerivativeStructure\n\n
+    rint()\n
     '''
 def round():
-    '''public long round()
+    '''returns long\n\n
+    round()\n
     '''
 def signum():
-    '''public DerivativeStructure signum()
+    '''returns DerivativeStructure\n\n
+    signum()\n
     '''
 def copySign():
-    '''public DerivativeStructure copySign(final DerivativeStructure sign)
-    public DerivativeStructure copySign(final double sign)
+    '''returns DerivativeStructure\n\n
+    copySign(final DerivativeStructure sign)\n
+    copySign(final double sign)\n
     '''
 def getExponent():
-    '''public int getExponent()
+    '''returns int\n\n
+    getExponent()\n
     '''
 def scalb():
-    '''public DerivativeStructure scalb(final int n)
+    '''returns DerivativeStructure\n\n
+    scalb(final int n)\n
     '''
 def hypot():
-    '''public DerivativeStructure hypot(final DerivativeStructure y)
-    public static DerivativeStructure hypot(final DerivativeStructure x, final DerivativeStructure y)
+    '''returns DerivativeStructure\n\n
+    hypot(final DerivativeStructure y)\n
     '''
 def compose():
-    '''public DerivativeStructure compose(final double... f)
+    '''returns DerivativeStructure\n\n
+    compose(final double... f)\n
     '''
 def reciprocal():
-    '''public DerivativeStructure reciprocal()
+    '''returns DerivativeStructure\n\n
+    reciprocal()\n
     '''
 def sqrt():
-    '''public DerivativeStructure sqrt()
+    '''returns DerivativeStructure\n\n
+    sqrt()\n
     '''
 def cbrt():
-    '''public DerivativeStructure cbrt()
+    '''returns DerivativeStructure\n\n
+    cbrt()\n
     '''
 def rootN():
-    '''public DerivativeStructure rootN(final int n)
+    '''returns DerivativeStructure\n\n
+    rootN(final int n)\n
     '''
 def getField():
-    '''public Field<DerivativeStructure> getField()
+    '''returns Field<DerivativeStructure>\n\n
+    getField()\n
     '''
 def getZero():
-    '''public DerivativeStructure getZero()
+    '''returns DerivativeStructure\n\n
+    getZero()\n
     '''
 def getOne():
-    '''public DerivativeStructure getOne()
+    '''returns DerivativeStructure\n\n
+    getOne()\n
     '''
 def pow():
-    '''public static DerivativeStructure pow(final double a, final DerivativeStructure x)
-    public DerivativeStructure pow(final double p)
-    public DerivativeStructure pow(final int n)
-    public DerivativeStructure pow(final DerivativeStructure e)
+    '''returns DerivativeStructure\n\n
+    pow(final double p)\n
+    pow(final int n)\n
+    pow(final DerivativeStructure e)\n
     '''
 def exp():
-    '''public DerivativeStructure exp()
+    '''returns DerivativeStructure\n\n
+    exp()\n
     '''
 def expm1():
-    '''public DerivativeStructure expm1()
+    '''returns DerivativeStructure\n\n
+    expm1()\n
     '''
 def log():
-    '''public DerivativeStructure log()
+    '''returns DerivativeStructure\n\n
+    log()\n
     '''
 def log1p():
-    '''public DerivativeStructure log1p()
+    '''returns DerivativeStructure\n\n
+    log1p()\n
     '''
 def log10():
-    '''public DerivativeStructure log10()
+    '''returns DerivativeStructure\n\n
+    log10()\n
     '''
 def cos():
-    '''public DerivativeStructure cos()
+    '''returns DerivativeStructure\n\n
+    cos()\n
     '''
 def sin():
-    '''public DerivativeStructure sin()
+    '''returns DerivativeStructure\n\n
+    sin()\n
     '''
 def tan():
-    '''public DerivativeStructure tan()
+    '''returns DerivativeStructure\n\n
+    tan()\n
     '''
 def acos():
-    '''public DerivativeStructure acos()
+    '''returns DerivativeStructure\n\n
+    acos()\n
     '''
 def asin():
-    '''public DerivativeStructure asin()
+    '''returns DerivativeStructure\n\n
+    asin()\n
     '''
 def atan():
-    '''public DerivativeStructure atan()
+    '''returns DerivativeStructure\n\n
+    atan()\n
     '''
 def atan2():
-    '''public DerivativeStructure atan2(final DerivativeStructure x)
-    public static DerivativeStructure atan2(final DerivativeStructure y, final DerivativeStructure x)
+    '''returns DerivativeStructure\n\n
+    atan2(final DerivativeStructure x)\n
     '''
 def cosh():
-    '''public DerivativeStructure cosh()
+    '''returns DerivativeStructure\n\n
+    cosh()\n
     '''
 def sinh():
-    '''public DerivativeStructure sinh()
+    '''returns DerivativeStructure\n\n
+    sinh()\n
     '''
 def tanh():
-    '''public DerivativeStructure tanh()
+    '''returns DerivativeStructure\n\n
+    tanh()\n
     '''
 def acosh():
-    '''public DerivativeStructure acosh()
+    '''returns DerivativeStructure\n\n
+    acosh()\n
     '''
 def asinh():
-    '''public DerivativeStructure asinh()
+    '''returns DerivativeStructure\n\n
+    asinh()\n
     '''
 def atanh():
-    '''public DerivativeStructure atanh()
+    '''returns DerivativeStructure\n\n
+    atanh()\n
     '''
 def toDegrees():
-    '''public DerivativeStructure toDegrees()
+    '''returns DerivativeStructure\n\n
+    toDegrees()\n
     '''
 def toRadians():
-    '''public DerivativeStructure toRadians()
+    '''returns DerivativeStructure\n\n
+    toRadians()\n
     '''
 def taylor():
-    '''public double taylor(final double... delta)
+    '''returns double\n\n
+    taylor(final double... delta)\n
     '''
 def linearCombination():
-    '''public DerivativeStructure linearCombination(final DerivativeStructure[] a, final DerivativeStructure[] b)
-    public DerivativeStructure linearCombination(final double[] a, final DerivativeStructure[] b)
-    public DerivativeStructure linearCombination(final DerivativeStructure a1, final DerivativeStructure b1, final DerivativeStructure a2, final DerivativeStructure b2)
-    public DerivativeStructure linearCombination(final double a1, final DerivativeStructure b1, final double a2, final DerivativeStructure b2)
-    public DerivativeStructure linearCombination(final DerivativeStructure a1, final DerivativeStructure b1, final DerivativeStructure a2, final DerivativeStructure b2, final DerivativeStructure a3, final DerivativeStructure b3)
-    public DerivativeStructure linearCombination(final double a1, final DerivativeStructure b1, final double a2, final DerivativeStructure b2, final double a3, final DerivativeStructure b3)
-    public DerivativeStructure linearCombination(final DerivativeStructure a1, final DerivativeStructure b1, final DerivativeStructure a2, final DerivativeStructure b2, final DerivativeStructure a3, final DerivativeStructure b3, final DerivativeStructure a4, final DerivativeStructure b4)
-    public DerivativeStructure linearCombination(final double a1, final DerivativeStructure b1, final double a2, final DerivativeStructure b2, final double a3, final DerivativeStructure b3, final double a4, final DerivativeStructure b4)
+    '''returns DerivativeStructure\n\n
+    linearCombination(final DerivativeStructure[] a, final DerivativeStructure[] b)\n
+    linearCombination(final double[] a, final DerivativeStructure[] b)\n
+    linearCombination(final DerivativeStructure a1, final DerivativeStructure b1, final DerivativeStructure a2, final DerivativeStructure b2)\n
+    linearCombination(final double a1, final DerivativeStructure b1, final double a2, final DerivativeStructure b2)\n
+    linearCombination(final DerivativeStructure a1, final DerivativeStructure b1, final DerivativeStructure a2, final DerivativeStructure b2, final DerivativeStructure a3, final DerivativeStructure b3)\n
+    linearCombination(final double a1, final DerivativeStructure b1, final double a2, final DerivativeStructure b2, final double a3, final DerivativeStructure b3)\n
+    linearCombination(final DerivativeStructure a1, final DerivativeStructure b1, final DerivativeStructure a2, final DerivativeStructure b2, final DerivativeStructure a3, final DerivativeStructure b3, final DerivativeStructure a4, final DerivativeStructure b4)\n
+    linearCombination(final double a1, final DerivativeStructure b1, final double a2, final DerivativeStructure b2, final double a3, final DerivativeStructure b3, final double a4, final DerivativeStructure b4)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

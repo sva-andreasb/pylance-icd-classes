@@ -1,15 +1,20 @@
 def isNode():
-    '''public boolean isNode()
+    '''returns boolean\n\n
+    isNode()\n
     '''
 def isLink():
-    '''public boolean isLink()
+    '''returns boolean\n\n
+    isLink()\n
     '''
 def isHyperEdge():
-    '''public boolean isHyperEdge()
+    '''returns boolean\n\n
+    isHyperEdge()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public IlvGraphic nextElement()
+    '''returns IlvGraphic\n\n
+    nextElement()\n
     '''

@@ -1,30 +1,26 @@
-def Tailer():
-    '''public Tailer(final File file, final TailerListener listener)
-    public Tailer(final File file, final TailerListener listener, final long delayMillis)
-    public Tailer(final File file, final TailerListener listener, final long delayMillis, final boolean end)
-    public Tailer(final File file, final TailerListener listener, final long delayMillis, final boolean end, final boolean reOpen)
-    public Tailer(final File file, final TailerListener listener, final long delayMillis, final boolean end, final int bufSize)
-    public Tailer(final File file, final TailerListener listener, final long delayMillis, final boolean end, final boolean reOpen, final int bufSize)
-    public Tailer(final File file, final Charset cset, final TailerListener listener, final long delayMillis, final boolean end, final boolean reOpen, final int bufSize)
-    '''
-def create():
-    '''public static Tailer create(final File file, final TailerListener listener, final long delayMillis, final boolean end, final int bufSize)
-    public static Tailer create(final File file, final TailerListener listener, final long delayMillis, final boolean end, final boolean reOpen, final int bufSize)
-    public static Tailer create(final File file, final Charset charset, final TailerListener listener, final long delayMillis, final boolean end, final boolean reOpen, final int bufSize)
-    public static Tailer create(final File file, final TailerListener listener, final long delayMillis, final boolean end)
-    public static Tailer create(final File file, final TailerListener listener, final long delayMillis, final boolean end, final boolean reOpen)
-    public static Tailer create(final File file, final TailerListener listener, final long delayMillis)
-    public static Tailer create(final File file, final TailerListener listener)
+def ():
+    '''returns Tailer\n\n
+    (final File file, final TailerListener listener)\n
+    (final File file, final TailerListener listener, final long delayMillis)\n
+    (final File file, final TailerListener listener, final long delayMillis, final boolean end)\n
+    (final File file, final TailerListener listener, final long delayMillis, final boolean end, final boolean reOpen)\n
+    (final File file, final TailerListener listener, final long delayMillis, final boolean end, final int bufSize)\n
+    (final File file, final TailerListener listener, final long delayMillis, final boolean end, final boolean reOpen, final int bufSize)\n
+    (final File file, final Charset cset, final TailerListener listener, final long delayMillis, final boolean end, final boolean reOpen, final int bufSize)\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def getDelay():
-    '''public long getDelay()
+    '''returns long\n\n
+    getDelay()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''

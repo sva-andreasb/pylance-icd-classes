@@ -1,3 +1,4 @@
-def TenantUsersMaxLogins():
-    '''public TenantUsersMaxLogins(final MboSet ms)
+def ():
+    '''returns TenantUsersMaxLogins\n\n
+    (final MboSet ms)\n
     '''

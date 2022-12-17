@@ -1,9 +1,12 @@
 def selectwarrantyassets():
-    '''public int selectwarrantyassets()
+    '''returns int\n\n
+    selectwarrantyassets()\n
     '''
 def selectwarrantylocations():
-    '''public int selectwarrantylocations()
+    '''returns int\n\n
+    selectwarrantylocations()\n
     '''
 def selectmoreassets():
-    '''public int selectmoreassets()
+    '''returns int\n\n
+    selectmoreassets()\n
     '''

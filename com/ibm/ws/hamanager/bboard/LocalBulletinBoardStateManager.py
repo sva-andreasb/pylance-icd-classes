@@ -1,57 +1,34 @@
-def LocalBulletinBoardStateManager():
-    '''public LocalBulletinBoardStateManager(final CoordinatorImpl coordinator, final String dcsMember, final MessageCache messageCache, final Set coreGroupMembers, final Version version, final Set configuredBridges)
-    '''
-def updateCoreGroupMembership():
-    '''public synchronized void updateCoreGroupMembership(final Set members)
-    '''
-def installNewView():
-    '''public synchronized void installNewView(final String[] members, final boolean isGSRViewChange, final boolean allBridgesDied, final Set bridgesInNewView)
-    '''
-def bridgeStateUnsynchronized():
-    '''public synchronized void bridgeStateUnsynchronized(final Set bridgesRunningInLocalAPG)
-    '''
-def bridgeStateSynchronized():
-    '''public synchronized void bridgeStateSynchronized(final Set subjectsCurrentlyOwned)
+def ():
+    '''returns SubscriberList\n\n
+    (final CoordinatorImpl coordinator, final String dcsMember, final MessageCache messageCache, final Set coreGroupMembers, final Version version, final Set configuredBridges)\n
+    (final SubjectInfoImpl subject)\n
     '''
 def suspendBridgeUpdates():
-    '''public void suspendBridgeUpdates()
-    '''
-def resumeBridgeUpdates():
-    '''public synchronized void resumeBridgeUpdates()
-    '''
-def requestCurrentSubjectState():
-    '''public synchronized SubjectValue[] requestCurrentSubjectState(final SubjectSubscriptionImpl subscription)
+    '''returns None\n\n
+    suspendBridgeUpdates()\n
     '''
 def getAllState():
-    '''public void getAllState(final ReportClusterProcessStateMsg[] messages)
-    public void getAllState(final ReportStateMsg[] messages)
-    '''
-def processGlobalStateRebuildMsg():
-    '''public synchronized void processGlobalStateRebuildMsg(final BulletinBoardSubscriberUpdateMsg message, final int coordinatorIndex, final int numberActiveCoordinators)
-    public synchronized void processGlobalStateRebuildMsg(final SubscriberUpdateMsg message, final int coordinatorIndex, final int numberActiveCoordinators, final boolean ongoingFSR)
-    '''
-def processBridgeRebuildMsg():
-    '''public synchronized void processBridgeRebuildMsg(final SubscriberUpdateMsg message, final int coordinatorIndex, final int numberActiveCoordinators)
-    '''
-def processSubjectUpdates():
-    '''public synchronized void processSubjectUpdates(final BulletinBoardSubscriberUpdateMsg message, final boolean rebuild)
-    public synchronized void processSubjectUpdates(final SubscriberUpdateMsg message)
-    '''
-def SubscriberList():
-    '''public SubscriberList(final SubjectInfoImpl subject)
+    '''returns None\n\n
+    getAllState(final ReportClusterProcessStateMsg[] messages)\n
+    getAllState(final ReportStateMsg[] messages)\n
     '''
 def doCallback():
-    '''public void doCallback()
+    '''returns None\n\n
+    doCallback()\n
     '''
 def getQueue():
-    '''public int getQueue(final int numberOfQueues)
+    '''returns int\n\n
+    getQueue(final int numberOfQueues)\n
     '''
 def getUserClassName():
-    '''public String getUserClassName()
+    '''returns String\n\n
+    getUserClassName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def alarm():
-    '''public void alarm(final Object alarmContext)
+    '''returns None\n\n
+    alarm(final Object alarmContext)\n
     '''

@@ -1,3 +1,4 @@
-def MPEncodedFormData():
-    '''public MPEncodedFormData(final HttpServletRequest req)
+def ():
+    '''returns MPEncodedFormData\n\n
+    (final HttpServletRequest req)\n
     '''

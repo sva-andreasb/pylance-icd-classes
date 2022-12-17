@@ -1,6 +1,8 @@
 def getMembersToAdd():
-    '''public Map getMembersToAdd()
+    '''returns Map\n\n
+    getMembersToAdd()\n
     '''
 def getMembersToRemove():
-    '''public String[] getMembersToRemove()
+    '''returns String[]\n\n
+    getMembersToRemove()\n
     '''

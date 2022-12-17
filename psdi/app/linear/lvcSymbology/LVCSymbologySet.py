@@ -1,3 +1,4 @@
-def LVCSymbologySet():
-    '''public LVCSymbologySet(final MboServerInterface ms)
+def ():
+    '''returns LVCSymbologySet\n\n
+    (final MboServerInterface ms)\n
     '''

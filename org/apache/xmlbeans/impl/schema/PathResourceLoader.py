@@ -1,10 +1,13 @@
-def PathResourceLoader():
-    '''public PathResourceLoader(final ResourceLoader[] loaderpath)
-    public PathResourceLoader(final File[] filepath)
+def ():
+    '''returns PathResourceLoader\n\n
+    (final ResourceLoader[] loaderpath)\n
+    (final File[] filepath)\n
     '''
 def getResourceAsStream():
-    '''public InputStream getResourceAsStream(final String resourceName)
+    '''returns InputStream\n\n
+    getResourceAsStream(final String resourceName)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

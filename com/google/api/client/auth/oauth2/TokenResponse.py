@@ -1,36 +1,28 @@
-def getAccessToken():
-    '''public final String getAccessToken()
-    '''
 def setAccessToken():
-    '''public TokenResponse setAccessToken(final String accessToken)
-    '''
-def getTokenType():
-    '''public final String getTokenType()
+    '''returns TokenResponse\n\n
+    setAccessToken(final String accessToken)\n
     '''
 def setTokenType():
-    '''public TokenResponse setTokenType(final String tokenType)
-    '''
-def getExpiresInSeconds():
-    '''public final Long getExpiresInSeconds()
+    '''returns TokenResponse\n\n
+    setTokenType(final String tokenType)\n
     '''
 def setExpiresInSeconds():
-    '''public TokenResponse setExpiresInSeconds(final Long expiresInSeconds)
-    '''
-def getRefreshToken():
-    '''public final String getRefreshToken()
+    '''returns TokenResponse\n\n
+    setExpiresInSeconds(final Long expiresInSeconds)\n
     '''
 def setRefreshToken():
-    '''public TokenResponse setRefreshToken(final String refreshToken)
-    '''
-def getScope():
-    '''public final String getScope()
+    '''returns TokenResponse\n\n
+    setRefreshToken(final String refreshToken)\n
     '''
 def setScope():
-    '''public TokenResponse setScope(final String scope)
+    '''returns TokenResponse\n\n
+    setScope(final String scope)\n
     '''
 def set():
-    '''public TokenResponse set(final String fieldName, final Object value)
+    '''returns TokenResponse\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public TokenResponse clone()
+    '''returns TokenResponse\n\n
+    clone()\n
     '''

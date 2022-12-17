@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final DomainETagCache getInstance()
-    '''
 def getDomainETag():
-    '''public String getDomainETag(final String valueid)
+    '''returns String\n\n
+    getDomainETag(final String valueid)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

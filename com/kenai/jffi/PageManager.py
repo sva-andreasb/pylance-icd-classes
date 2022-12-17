@@ -1,27 +1,23 @@
 PROT_EXEC = "int  4"
 PROT_READ = "int  1"
 PROT_WRITE = "int  2"
-def PageManager():
-    '''public PageManager()
-    '''
-def getInstance():
-    '''public static PageManager getInstance()
-    '''
-def pageSize():
-    '''public final long pageSize()
+def ():
+    '''returns Windows\n\n
+    ()\n
+    ()\n
     '''
 def allocatePages():
-    '''public long allocatePages(final int npages, final int protection)
-    public long allocatePages(final int pageCount, final int protection)
+    '''returns long\n\n
+    allocatePages(final int npages, final int protection)\n
+    allocatePages(final int pageCount, final int protection)\n
     '''
 def freePages():
-    '''public void freePages(final long address, final int npages)
-    public void freePages(final long address, final int pageCount)
+    '''returns None\n\n
+    freePages(final long address, final int npages)\n
+    freePages(final long address, final int pageCount)\n
     '''
 def protectPages():
-    '''public void protectPages(final long address, final int npages, final int protection)
-    public void protectPages(final long address, final int pageCount, final int protection)
-    '''
-def Windows():
-    '''public Windows()
+    '''returns None\n\n
+    protectPages(final long address, final int npages, final int protection)\n
+    protectPages(final long address, final int pageCount, final int protection)\n
     '''

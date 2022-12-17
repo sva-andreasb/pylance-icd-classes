@@ -1,4 +1,5 @@
-def PlusPBillLineService():
-    '''public PlusPBillLineService()
-    public PlusPBillLineService(final MXServer mxServer)
+def ():
+    '''returns PlusPBillLineService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

@@ -1,6 +1,8 @@
-def HttpServerManager():
-    '''public HttpServerManager(final long n)
+def ():
+    '''returns HttpServerManager\n\n
+    (final long n)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

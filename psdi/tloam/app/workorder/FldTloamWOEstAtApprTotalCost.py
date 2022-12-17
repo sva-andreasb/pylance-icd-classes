@@ -1,6 +1,8 @@
-def FldTloamWOEstAtApprTotalCost():
-    '''public FldTloamWOEstAtApprTotalCost(final MboValue mbv)
+def ():
+    '''returns FldTloamWOEstAtApprTotalCost\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

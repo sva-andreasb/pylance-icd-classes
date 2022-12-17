@@ -1,37 +1,49 @@
 MSG_USETOTALSCUTOFF_TOTALCOUNT = "int  15"
-def PromoteNodeSet():
-    '''public PromoteNodeSet(final MboServerInterface ms)
+def ():
+    '''returns PromoteNodeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getUserMessage():
-    '''public String getUserMessage()
+    '''returns String\n\n
+    getUserMessage()\n
     '''
 def promoteToAssets():
-    '''public void promoteToAssets(final PromoteValuesRemote promoteValues)
+    '''returns None\n\n
+    promoteToAssets(final PromoteValuesRemote promoteValues)\n
     '''
 def resetForRefreshOnSave():
-    '''public void resetForRefreshOnSave()
+    '''returns None\n\n
+    resetForRefreshOnSave()\n
     '''
 def addResult():
-    '''public void addResult(final PromoteNodeRemote node, final int status)
+    '''returns None\n\n
+    addResult(final PromoteNodeRemote node, final int status)\n
     '''
 def initLinkedAssets():
-    '''public void initLinkedAssets()
+    '''returns None\n\n
+    initLinkedAssets()\n
     '''
 def initNodeMap():
-    '''public void initNodeMap()
+    '''returns None\n\n
+    initNodeMap()\n
     '''
 def findByNodeID():
-    '''public PromoteNodeRemote findByNodeID(final Long nodeid)
+    '''returns PromoteNodeRemote\n\n
+    findByNodeID(final Long nodeid)\n
     '''
 def getOrderedNodeIdList():
-    '''public List<Long> getOrderedNodeIdList()
+    '''returns List<Long>\n\n
+    getOrderedNodeIdList()\n
     '''
 def getAlreadyPromoted():
-    '''public List<String> getAlreadyPromoted()
+    '''returns List<String>\n\n
+    getAlreadyPromoted()\n
     '''
 def getAlreadyLinked():
-    '''public List<String> getAlreadyLinked()
+    '''returns List<String>\n\n
+    getAlreadyLinked()\n
     '''
 def getNewlyPromoted():
-    '''public List<String> getNewlyPromoted()
+    '''returns List<String>\n\n
+    getNewlyPromoted()\n
     '''

@@ -1,3 +1,4 @@
-def ActionLog():
-    '''public ActionLog(final MboSet ms)
+def ():
+    '''returns ActionLog\n\n
+    (final MboSet ms)\n
     '''

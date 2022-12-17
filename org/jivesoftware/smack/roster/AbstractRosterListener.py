@@ -1,12 +1,16 @@
 def entriesAdded():
-    '''public void entriesAdded(final Collection<Jid> addresses)
+    '''returns None\n\n
+    entriesAdded(final Collection<Jid> addresses)\n
     '''
 def entriesUpdated():
-    '''public void entriesUpdated(final Collection<Jid> addresses)
+    '''returns None\n\n
+    entriesUpdated(final Collection<Jid> addresses)\n
     '''
 def entriesDeleted():
-    '''public void entriesDeleted(final Collection<Jid> addresses)
+    '''returns None\n\n
+    entriesDeleted(final Collection<Jid> addresses)\n
     '''
 def presenceChanged():
-    '''public void presenceChanged(final Presence presence)
+    '''returns None\n\n
+    presenceChanged(final Presence presence)\n
     '''

@@ -1,16 +1,21 @@
-def DateSelector():
-    '''public DateSelector(final MboSet ms)
+def ():
+    '''returns DateSelector\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def createPattern():
-    '''public String createPattern()
-    public String createPattern(final Locale l, final TimeZone tz)
+    '''returns String\n\n
+    createPattern()\n
+    createPattern(final Locale l, final TimeZone tz)\n
     '''
 def validateField():
-    '''public void validateField()
+    '''returns None\n\n
+    validateField()\n
     '''

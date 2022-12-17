@@ -1,30 +1,40 @@
-def TraceViewer():
-    '''public TraceViewer()
+def ():
+    '''returns TraceViewer\n\n
+    ()\n
     '''
 def grabTraceOutput():
-    '''public void grabTraceOutput()
+    '''returns None\n\n
+    grabTraceOutput()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def windowActivated():
-    '''public void windowActivated(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowActivated(final WindowEvent windowEvent)\n
     '''
 def windowClosed():
-    '''public void windowClosed(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosed(final WindowEvent windowEvent)\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''
 def windowDeactivated():
-    '''public void windowDeactivated(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowDeactivated(final WindowEvent windowEvent)\n
     '''
 def windowDeiconified():
-    '''public void windowDeiconified(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowDeiconified(final WindowEvent windowEvent)\n
     '''
 def windowIconified():
-    '''public void windowIconified(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowIconified(final WindowEvent windowEvent)\n
     '''
 def windowOpened():
-    '''public void windowOpened(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowOpened(final WindowEvent windowEvent)\n
     '''

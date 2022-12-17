@@ -1,6 +1,7 @@
-def InvalidDocumentURIException():
-    '''public InvalidDocumentURIException()
-    public InvalidDocumentURIException(final String msg)
-    public InvalidDocumentURIException(final Throwable th, final String msg)
-    public InvalidDocumentURIException(final Throwable th)
+def ():
+    '''returns InvalidDocumentURIException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

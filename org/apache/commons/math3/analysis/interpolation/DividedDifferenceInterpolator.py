@@ -1,3 +1,4 @@
 def interpolate():
-    '''public PolynomialFunctionNewtonForm interpolate(final double[] x, final double[] y)
+    '''returns PolynomialFunctionNewtonForm\n\n
+    interpolate(final double[] x, final double[] y)\n
     '''

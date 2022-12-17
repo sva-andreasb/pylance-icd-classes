@@ -1,32 +1,42 @@
-def EntityCapsTest():
-    '''public EntityCapsTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns EntityCapsTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def setUp():
-    '''public void setUp()
+    '''returns None\n\n
+    setUp()\n
     '''
 def tearDown():
-    '''public void tearDown()
+    '''returns None\n\n
+    tearDown()\n
     '''
 def testLocalEntityCaps():
-    '''public void testLocalEntityCaps()
+    '''returns None\n\n
+    testLocalEntityCaps()\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def testPreventDiscoInfo():
-    '''public void testPreventDiscoInfo()
+    '''returns None\n\n
+    testPreventDiscoInfo()\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
-    public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
+    processStanza(final Stanza packet)\n
     '''
 def testCapsChanged():
-    '''public void testCapsChanged()
+    '''returns None\n\n
+    testCapsChanged()\n
     '''
 def testEntityCaps():
-    '''public void testEntityCaps()
+    '''returns None\n\n
+    testEntityCaps()\n
     '''
 def evaluate():
-    '''public boolean evaluate()
+    '''returns boolean\n\n
+    evaluate()\n
     '''

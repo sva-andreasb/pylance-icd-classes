@@ -1,12 +1,16 @@
-def MultiSelectSet():
-    '''public MultiSelectSet(final MboServerInterface ms)
+def ():
+    '''returns MultiSelectSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def fillData():
-    '''public void fillData(final String listName, final String colName, final MboSetRemote parent)
+    '''returns None\n\n
+    fillData(final String listName, final String colName, final MboSetRemote parent)\n
     '''
 def fillParent():
-    '''public void fillParent(final MboSetRemote parent)
+    '''returns None\n\n
+    fillParent(final MboSetRemote parent)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

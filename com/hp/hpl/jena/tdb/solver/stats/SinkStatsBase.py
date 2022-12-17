@@ -1,9 +1,12 @@
-def SinkStatsBase():
-    '''public SinkStatsBase()
+def ():
+    '''returns SinkStatsBase\n\n
+    ()\n
     '''
 def count():
-    '''public void count(final Node graph, final Node predicate)
+    '''returns None\n\n
+    count(final Node graph, final Node predicate)\n
     '''
 def stats():
-    '''public Item stats()
+    '''returns Item\n\n
+    stats()\n
     '''

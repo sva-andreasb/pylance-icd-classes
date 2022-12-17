@@ -1,3 +1,4 @@
-def TamitLicenseVUConvertSet():
-    '''public TamitLicenseVUConvertSet(final MboServerInterface ms)
+def ():
+    '''returns TamitLicenseVUConvertSet\n\n
+    (final MboServerInterface ms)\n
     '''

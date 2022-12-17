@@ -1,6 +1,8 @@
 def manassign():
-    '''public int manassign()
+    '''returns int\n\n
+    manassign()\n
     '''
 def closemanassign():
-    '''public int closemanassign()
+    '''returns int\n\n
+    closemanassign()\n
     '''

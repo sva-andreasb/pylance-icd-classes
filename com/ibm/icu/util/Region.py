@@ -1,33 +1,34 @@
-def getInstance():
-    '''public static Region getInstance(final String id)
-    public static Region getInstance(final int code)
-    '''
-def getAvailable():
-    '''public static Set<Region> getAvailable(final RegionType type)
-    '''
 def getContainingRegion():
-    '''public Region getContainingRegion()
-    public Region getContainingRegion(final RegionType type)
+    '''returns Region\n\n
+    getContainingRegion()\n
+    getContainingRegion(final RegionType type)\n
     '''
 def getContainedRegions():
-    '''public Set<Region> getContainedRegions()
-    public Set<Region> getContainedRegions(final RegionType type)
+    '''returns Set<Region>\n\n
+    getContainedRegions()\n
+    getContainedRegions(final RegionType type)\n
     '''
 def getPreferredValues():
-    '''public List<Region> getPreferredValues()
+    '''returns List<Region>\n\n
+    getPreferredValues()\n
     '''
 def contains():
-    '''public boolean contains(final Region other)
+    '''returns boolean\n\n
+    contains(final Region other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getNumericCode():
-    '''public int getNumericCode()
+    '''returns int\n\n
+    getNumericCode()\n
     '''
 def getType():
-    '''public RegionType getType()
+    '''returns RegionType\n\n
+    getType()\n
     '''
 def compareTo():
-    '''public int compareTo(final Region other)
+    '''returns int\n\n
+    compareTo(final Region other)\n
     '''

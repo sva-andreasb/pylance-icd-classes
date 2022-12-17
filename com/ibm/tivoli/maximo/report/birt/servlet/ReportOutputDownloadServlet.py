@@ -1,3 +1,4 @@
 def init():
-    '''public void init(final ServletConfig config)
+    '''returns None\n\n
+    init(final ServletConfig config)\n
     '''

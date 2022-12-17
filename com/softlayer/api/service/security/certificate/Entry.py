@@ -1,105 +1,140 @@
 def getCertificateId():
-    '''public Long getCertificateId()
+    '''returns Long\n\n
+    getCertificateId()\n
     '''
 def setCertificateId():
-    '''public void setCertificateId(final Long certificateId)
+    '''returns None\n\n
+    setCertificateId(final Long certificateId)\n
     '''
 def isCertificateIdSpecified():
-    '''public boolean isCertificateIdSpecified()
+    '''returns boolean\n\n
+    isCertificateIdSpecified()\n
     '''
 def unsetCertificateId():
-    '''public void unsetCertificateId()
+    '''returns None\n\n
+    unsetCertificateId()\n
     '''
 def getCommonName():
-    '''public String getCommonName()
+    '''returns String\n\n
+    getCommonName()\n
     '''
 def setCommonName():
-    '''public void setCommonName(final String commonName)
+    '''returns None\n\n
+    setCommonName(final String commonName)\n
     '''
 def isCommonNameSpecified():
-    '''public boolean isCommonNameSpecified()
+    '''returns boolean\n\n
+    isCommonNameSpecified()\n
     '''
 def unsetCommonName():
-    '''public void unsetCommonName()
+    '''returns None\n\n
+    unsetCommonName()\n
     '''
 def getKeySize():
-    '''public Long getKeySize()
+    '''returns Long\n\n
+    getKeySize()\n
     '''
 def setKeySize():
-    '''public void setKeySize(final Long keySize)
+    '''returns None\n\n
+    setKeySize(final Long keySize)\n
     '''
 def isKeySizeSpecified():
-    '''public boolean isKeySizeSpecified()
+    '''returns boolean\n\n
+    isKeySizeSpecified()\n
     '''
 def unsetKeySize():
-    '''public void unsetKeySize()
+    '''returns None\n\n
+    unsetKeySize()\n
     '''
 def getOrganizationName():
-    '''public String getOrganizationName()
+    '''returns String\n\n
+    getOrganizationName()\n
     '''
 def setOrganizationName():
-    '''public void setOrganizationName(final String organizationName)
+    '''returns None\n\n
+    setOrganizationName(final String organizationName)\n
     '''
 def isOrganizationNameSpecified():
-    '''public boolean isOrganizationNameSpecified()
+    '''returns boolean\n\n
+    isOrganizationNameSpecified()\n
     '''
 def unsetOrganizationName():
-    '''public void unsetOrganizationName()
+    '''returns None\n\n
+    unsetOrganizationName()\n
     '''
 def getValidityBegin():
-    '''public GregorianCalendar getValidityBegin()
+    '''returns GregorianCalendar\n\n
+    getValidityBegin()\n
     '''
 def setValidityBegin():
-    '''public void setValidityBegin(final GregorianCalendar validityBegin)
+    '''returns None\n\n
+    setValidityBegin(final GregorianCalendar validityBegin)\n
     '''
 def isValidityBeginSpecified():
-    '''public boolean isValidityBeginSpecified()
+    '''returns boolean\n\n
+    isValidityBeginSpecified()\n
     '''
 def unsetValidityBegin():
-    '''public void unsetValidityBegin()
+    '''returns None\n\n
+    unsetValidityBegin()\n
     '''
 def getValidityDays():
-    '''public Long getValidityDays()
+    '''returns Long\n\n
+    getValidityDays()\n
     '''
 def setValidityDays():
-    '''public void setValidityDays(final Long validityDays)
+    '''returns None\n\n
+    setValidityDays(final Long validityDays)\n
     '''
 def isValidityDaysSpecified():
-    '''public boolean isValidityDaysSpecified()
+    '''returns boolean\n\n
+    isValidityDaysSpecified()\n
     '''
 def unsetValidityDays():
-    '''public void unsetValidityDays()
+    '''returns None\n\n
+    unsetValidityDays()\n
     '''
 def getValidityEnd():
-    '''public GregorianCalendar getValidityEnd()
+    '''returns GregorianCalendar\n\n
+    getValidityEnd()\n
     '''
 def setValidityEnd():
-    '''public void setValidityEnd(final GregorianCalendar validityEnd)
+    '''returns None\n\n
+    setValidityEnd(final GregorianCalendar validityEnd)\n
     '''
 def isValidityEndSpecified():
-    '''public boolean isValidityEndSpecified()
+    '''returns boolean\n\n
+    isValidityEndSpecified()\n
     '''
 def unsetValidityEnd():
-    '''public void unsetValidityEnd()
+    '''returns None\n\n
+    unsetValidityEnd()\n
     '''
 def certificateId():
-    '''public Mask certificateId()
+    '''returns Mask\n\n
+    certificateId()\n
     '''
 def commonName():
-    '''public Mask commonName()
+    '''returns Mask\n\n
+    commonName()\n
     '''
 def keySize():
-    '''public Mask keySize()
+    '''returns Mask\n\n
+    keySize()\n
     '''
 def organizationName():
-    '''public Mask organizationName()
+    '''returns Mask\n\n
+    organizationName()\n
     '''
 def validityBegin():
-    '''public Mask validityBegin()
+    '''returns Mask\n\n
+    validityBegin()\n
     '''
 def validityDays():
-    '''public Mask validityDays()
+    '''returns Mask\n\n
+    validityDays()\n
     '''
 def validityEnd():
-    '''public Mask validityEnd()
+    '''returns Mask\n\n
+    validityEnd()\n
     '''

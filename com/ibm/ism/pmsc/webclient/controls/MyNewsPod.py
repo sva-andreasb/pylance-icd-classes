@@ -1,6 +1,8 @@
-def MyNewsPod():
-    '''public MyNewsPod()
+def ():
+    '''returns MyNewsPod\n\n
+    ()\n
     '''
 def bbmsgviewed():
-    '''public int bbmsgviewed()
+    '''returns int\n\n
+    bbmsgviewed()\n
     '''

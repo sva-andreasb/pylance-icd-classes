@@ -1,6 +1,8 @@
-def PortletSet():
-    '''public PortletSet(final MboServerInterface ms)
+def ():
+    '''returns PortletSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def showCurrentPortlets():
-    '''public void showCurrentPortlets()
+    '''returns None\n\n
+    showCurrentPortlets()\n
     '''

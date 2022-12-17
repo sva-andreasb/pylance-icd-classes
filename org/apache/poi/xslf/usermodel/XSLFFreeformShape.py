@@ -1,3 +1,4 @@
 def setPath():
-    '''public int setPath(final Path2D.Double path)
+    '''returns int\n\n
+    setPath(final Path2D.Double path)\n
     '''

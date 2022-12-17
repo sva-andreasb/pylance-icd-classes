@@ -1,45 +1,60 @@
 def getDefaultSelected():
-    '''public boolean getDefaultSelected()
+    '''returns boolean\n\n
+    getDefaultSelected()\n
     '''
 def setDefaultSelected():
-    '''public void setDefaultSelected(final boolean b)
+    '''returns None\n\n
+    setDefaultSelected(final boolean b)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final String s)
+    '''returns None\n\n
+    setText(final String s)\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def setIndex():
-    '''public void setIndex(final int n)
+    '''returns None\n\n
+    setIndex(final int n)\n
     '''
 def getDisabled():
-    '''public boolean getDisabled()
+    '''returns boolean\n\n
+    getDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean b)
+    '''returns None\n\n
+    setDisabled(final boolean b)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String s)
+    '''returns None\n\n
+    setLabel(final String s)\n
     '''
 def getSelected():
-    '''public boolean getSelected()
+    '''returns boolean\n\n
+    getSelected()\n
     '''
 def setSelected():
-    '''public void setSelected(final boolean b)
+    '''returns None\n\n
+    setSelected(final boolean b)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String s)
+    '''returns None\n\n
+    setValue(final String s)\n
     '''
-def HTMLOptionElementImpl():
-    '''public HTMLOptionElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLOptionElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

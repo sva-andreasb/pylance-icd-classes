@@ -1,3 +1,4 @@
-def ScheduleSet():
-    '''public ScheduleSet(final MboServerInterface ms)
+def ():
+    '''returns ScheduleSet\n\n
+    (final MboServerInterface ms)\n
     '''

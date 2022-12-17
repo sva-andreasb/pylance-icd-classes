@@ -1,43 +1,44 @@
-def multiKeyMap():
-    '''public static <K, V> MultiKeyMap<K, V> multiKeyMap(final AbstractHashedMap<MultiKey<? extends K>, V> map)
-    '''
-def MultiKeyMap():
-    '''public MultiKeyMap()
+def ():
+    '''returns MultiKeyMap\n\n
+    ()\n
     '''
 def get():
-    '''public V get(final Object key1, final Object key2)
-    public V get(final Object key1, final Object key2, final Object key3)
-    public V get(final Object key1, final Object key2, final Object key3, final Object key4)
-    public V get(final Object key1, final Object key2, final Object key3, final Object key4, final Object key5)
+    '''returns V\n\n
+    get(final Object key1, final Object key2)\n
+    get(final Object key1, final Object key2, final Object key3)\n
+    get(final Object key1, final Object key2, final Object key3, final Object key4)\n
+    get(final Object key1, final Object key2, final Object key3, final Object key4, final Object key5)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key1, final Object key2)
-    public boolean containsKey(final Object key1, final Object key2, final Object key3)
-    public boolean containsKey(final Object key1, final Object key2, final Object key3, final Object key4)
-    public boolean containsKey(final Object key1, final Object key2, final Object key3, final Object key4, final Object key5)
+    '''returns boolean\n\n
+    containsKey(final Object key1, final Object key2)\n
+    containsKey(final Object key1, final Object key2, final Object key3)\n
+    containsKey(final Object key1, final Object key2, final Object key3, final Object key4)\n
+    containsKey(final Object key1, final Object key2, final Object key3, final Object key4, final Object key5)\n
     '''
 def put():
-    '''public V put(final K key1, final K key2, final V value)
-    public V put(final K key1, final K key2, final K key3, final V value)
-    public V put(final K key1, final K key2, final K key3, final K key4, final V value)
-    public V put(final K key1, final K key2, final K key3, final K key4, final K key5, final V value)
-    public V put(final MultiKey<? extends K> key, final V value)
+    '''returns V\n\n
+    put(final K key1, final K key2, final V value)\n
+    put(final K key1, final K key2, final K key3, final V value)\n
+    put(final K key1, final K key2, final K key3, final K key4, final V value)\n
+    put(final K key1, final K key2, final K key3, final K key4, final K key5, final V value)\n
+    put(final MultiKey<? extends K> key, final V value)\n
     '''
 def removeMultiKey():
-    '''public V removeMultiKey(final Object key1, final Object key2)
-    public V removeMultiKey(final Object key1, final Object key2, final Object key3)
-    public V removeMultiKey(final Object key1, final Object key2, final Object key3, final Object key4)
-    public V removeMultiKey(final Object key1, final Object key2, final Object key3, final Object key4, final Object key5)
+    '''returns V\n\n
+    removeMultiKey(final Object key1, final Object key2)\n
+    removeMultiKey(final Object key1, final Object key2, final Object key3)\n
+    removeMultiKey(final Object key1, final Object key2, final Object key3, final Object key4)\n
+    removeMultiKey(final Object key1, final Object key2, final Object key3, final Object key4, final Object key5)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Object key1)
-    public boolean removeAll(final Object key1, final Object key2)
-    public boolean removeAll(final Object key1, final Object key2, final Object key3)
-    public boolean removeAll(final Object key1, final Object key2, final Object key3, final Object key4)
-    '''
-def clone():
-    '''public MultiKeyMap<K, V> clone()
+    '''returns boolean\n\n
+    removeAll(final Object key1)\n
+    removeAll(final Object key1, final Object key2)\n
+    removeAll(final Object key1, final Object key2, final Object key3)\n
+    removeAll(final Object key1, final Object key2, final Object key3, final Object key4)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends MultiKey<? extends K>, ? extends V> mapToCopy)
+    '''returns None\n\n
+    putAll(final Map<? extends MultiKey<? extends K>, ? extends V> mapToCopy)\n
     '''

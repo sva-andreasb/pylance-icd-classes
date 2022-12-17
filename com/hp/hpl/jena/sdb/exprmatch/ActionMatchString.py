@@ -1,3 +1,4 @@
 def match():
-    '''public boolean match(final Var var, final Expr expr, final MapResult resultMap)
+    '''returns boolean\n\n
+    match(final Var var, final Expr expr, final MapResult resultMap)\n
     '''

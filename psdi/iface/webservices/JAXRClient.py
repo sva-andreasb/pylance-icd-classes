@@ -1,56 +1,70 @@
-def JAXRClient():
-    '''public JAXRClient(final String queryUrl, final String lifeCycleUrl, final String userid, final String password)
+def ():
+    '''returns JAXRClient\n\n
+    (final String queryUrl, final String lifeCycleUrl, final String userid, final String password)\n
     '''
 def releaseResources():
-    '''public void releaseResources()
+    '''returns None\n\n
+    releaseResources()\n
     '''
 def createBusinessEntity():
-    '''public String createBusinessEntity(final String businessName, final String description)
+    '''returns String\n\n
+    createBusinessEntity(final String businessName, final String description)\n
     '''
 def isBusinessDefined():
-    '''public boolean isBusinessDefined(final String businessName)
+    '''returns boolean\n\n
+    isBusinessDefined(final String businessName)\n
     '''
 def getBusinessEntity():
-    '''public Organization getBusinessEntity(final String businessName)
+    '''returns Organization\n\n
+    getBusinessEntity(final String businessName)\n
     '''
 def deleteBusinessEntity():
-    '''public void deleteBusinessEntity(final String businessName)
+    '''returns None\n\n
+    deleteBusinessEntity(final String businessName)\n
     '''
 def createService():
-    '''public String createService(final String businessName, final String serviceName, final String serviceDesc, final String accessUrl)
-    public String createService(final Organization org, final String serviceName, final String serviceDesc, final String accessUrl)
+    '''returns String\n\n
+    createService(final String businessName, final String serviceName, final String serviceDesc, final String accessUrl)\n
+    createService(final Organization org, final String serviceName, final String serviceDesc, final String accessUrl)\n
     '''
 def getService():
-    '''public Service getService(final String businessName, final String serviceName)
+    '''returns Service\n\n
+    getService(final String businessName, final String serviceName)\n
     '''
 def getEndpointURL():
-    '''public String getEndpointURL(final String businessName, final String serviceName)
+    '''returns String\n\n
+    getEndpointURL(final String businessName, final String serviceName)\n
     '''
 def deleteService():
-    '''public void deleteService(final String businessName, final String serviceName)
+    '''returns None\n\n
+    deleteService(final String businessName, final String serviceName)\n
     '''
 def createTModel():
-    '''public String createTModel(final String tomodelName, final String tmodelDesc, final String specUrl, final String specDesc)
+    '''returns String\n\n
+    createTModel(final String tomodelName, final String tmodelDesc, final String specUrl, final String specDesc)\n
     '''
 def attachTModelToServiceBinding():
-    '''public void attachTModelToServiceBinding(final String serviceKeyId, final String conceptKeyId)
-    public void attachTModelToServiceBinding(final ServiceBinding binding, final String conceptKeyId)
+    '''returns None\n\n
+    attachTModelToServiceBinding(final String serviceKeyId, final String conceptKeyId)\n
+    attachTModelToServiceBinding(final ServiceBinding binding, final String conceptKeyId)\n
     '''
 def getTModel():
-    '''public Concept getTModel(final String tmodelName)
+    '''returns Concept\n\n
+    getTModel(final String tmodelName)\n
     '''
 def deleteTModel():
-    '''public void deleteTModel(final String tmodelName)
+    '''returns None\n\n
+    deleteTModel(final String tmodelName)\n
     '''
 def getSpecURL():
-    '''public String getSpecURL(final String tmodelName)
+    '''returns String\n\n
+    getSpecURL(final String tmodelName)\n
     '''
 def getServiceBinding():
-    '''public ServiceBinding getServiceBinding(final String serviceKeyId)
+    '''returns ServiceBinding\n\n
+    getServiceBinding(final String serviceKeyId)\n
     '''
 def registerService():
-    '''public void registerService(final String businessName, final String businessDesc, final String serviceName, final String serviceDesc, final String epUrl, final String tmodelName, final String tmodelDesc, final String specUrl, final String specDesc)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    registerService(final String businessName, final String businessDesc, final String serviceName, final String serviceDesc, final String epUrl, final String tmodelName, final String tmodelDesc, final String specUrl, final String specDesc)\n
     '''

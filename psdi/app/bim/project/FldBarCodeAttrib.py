@@ -1,3 +1,4 @@
-def FldBarCodeAttrib():
-    '''public FldBarCodeAttrib(final MboValue mbv)
+def ():
+    '''returns FldBarCodeAttrib\n\n
+    (final MboValue mbv)\n
     '''

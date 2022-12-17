@@ -1,24 +1,32 @@
-def DataBeanBaseStatistic():
-    '''public DataBeanBaseStatistic()
+def ():
+    '''returns DataBeanBaseStatistic\n\n
+    ()\n
     '''
 def prepareForAggregation():
-    '''public void prepareForAggregation()
+    '''returns None\n\n
+    prepareForAggregation()\n
     '''
 def accumulate():
-    '''public void accumulate(final DataBeanBaseStatistic dataBeanBaseStatistic)
+    '''returns None\n\n
+    accumulate(final DataBeanBaseStatistic dataBeanBaseStatistic)\n
     '''
 def aggregate():
-    '''public void aggregate(final DataBeanBaseStatistic dataBeanBaseStatistic)
+    '''returns None\n\n
+    aggregate(final DataBeanBaseStatistic dataBeanBaseStatistic)\n
     '''
 def setFirstErrorCode():
-    '''public void setFirstErrorCode(final int firstNegativeSqlCode_)
+    '''returns None\n\n
+    setFirstErrorCode(final int firstNegativeSqlCode_)\n
     '''
 def startTimer():
-    '''public void startTimer()
+    '''returns None\n\n
+    startTimer()\n
     '''
 def startTimerIfNotStarted():
-    '''public void startTimerIfNotStarted()
+    '''returns None\n\n
+    startTimerIfNotStarted()\n
     '''
 def stopTimer():
-    '''public long stopTimer(final boolean b)
+    '''returns long\n\n
+    stopTimer(final boolean b)\n
     '''

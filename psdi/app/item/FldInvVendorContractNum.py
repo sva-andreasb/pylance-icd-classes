@@ -1,6 +1,8 @@
-def FldInvVendorContractNum():
-    '''public FldInvVendorContractNum(final MboValue mbv)
+def ():
+    '''returns FldInvVendorContractNum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

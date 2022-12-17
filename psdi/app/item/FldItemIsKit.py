@@ -1,12 +1,16 @@
-def FldItemIsKit():
-    '''public FldItemIsKit(final MboValue mbv)
+def ():
+    '''returns FldItemIsKit\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validateIASForKitting():
-    '''public void validateIASForKitting()
+    '''returns None\n\n
+    validateIASForKitting()\n
     '''

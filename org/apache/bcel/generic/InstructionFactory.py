@@ -1,99 +1,79 @@
-def InstructionFactory():
-    '''public InstructionFactory(final ClassGen cg, final ConstantPoolGen cp)
-    public InstructionFactory(final ClassGen cg)
-    public InstructionFactory(final ConstantPoolGen cp)
+def ():
+    '''returns InstructionFactory\n\n
+    (final ClassGen cg, final ConstantPoolGen cp)\n
+    (final ClassGen cg)\n
+    (final ConstantPoolGen cp)\n
     '''
 def createInvoke():
-    '''public InvokeInstruction createInvoke(final String class_name, final String name, final Type ret_type, final Type[] arg_types, final short kind)
+    '''returns InvokeInstruction\n\n
+    createInvoke(final String class_name, final String name, final Type ret_type, final Type[] arg_types, final short kind)\n
     '''
 def createPrintln():
-    '''public InstructionList createPrintln(final String s)
+    '''returns InstructionList\n\n
+    createPrintln(final String s)\n
     '''
 def createConstant():
-    '''public Instruction createConstant(final Object value)
+    '''returns Instruction\n\n
+    createConstant(final Object value)\n
     '''
 def createAppend():
-    '''public Instruction createAppend(final Type type)
+    '''returns Instruction\n\n
+    createAppend(final Type type)\n
     '''
 def createFieldAccess():
-    '''public FieldInstruction createFieldAccess(final String class_name, final String name, final Type type, final short kind)
-    '''
-def createThis():
-    '''public static Instruction createThis()
-    '''
-def createReturn():
-    '''public static ReturnInstruction createReturn(final Type type)
-    '''
-def createBinaryOperation():
-    '''public static ArithmeticInstruction createBinaryOperation(final String op, final Type type)
-    '''
-def createPop():
-    '''public static StackInstruction createPop(final int size)
-    '''
-def createDup():
-    '''public static StackInstruction createDup(final int size)
-    '''
-def createDup_2():
-    '''public static StackInstruction createDup_2(final int size)
-    '''
-def createDup_1():
-    '''public static StackInstruction createDup_1(final int size)
-    '''
-def createStore():
-    '''public static LocalVariableInstruction createStore(final Type type, final int index)
-    '''
-def createLoad():
-    '''public static LocalVariableInstruction createLoad(final Type type, final int index)
-    '''
-def createArrayLoad():
-    '''public static ArrayInstruction createArrayLoad(final Type type)
-    '''
-def createArrayStore():
-    '''public static ArrayInstruction createArrayStore(final Type type)
+    '''returns FieldInstruction\n\n
+    createFieldAccess(final String class_name, final String name, final Type type, final short kind)\n
     '''
 def createCast():
-    '''public Instruction createCast(final Type src_type, final Type dest_type)
+    '''returns Instruction\n\n
+    createCast(final Type src_type, final Type dest_type)\n
     '''
 def createGetField():
-    '''public GETFIELD createGetField(final String class_name, final String name, final Type t)
+    '''returns GETFIELD\n\n
+    createGetField(final String class_name, final String name, final Type t)\n
     '''
 def createGetStatic():
-    '''public GETSTATIC createGetStatic(final String class_name, final String name, final Type t)
+    '''returns GETSTATIC\n\n
+    createGetStatic(final String class_name, final String name, final Type t)\n
     '''
 def createPutField():
-    '''public PUTFIELD createPutField(final String class_name, final String name, final Type t)
+    '''returns PUTFIELD\n\n
+    createPutField(final String class_name, final String name, final Type t)\n
     '''
 def createPutStatic():
-    '''public PUTSTATIC createPutStatic(final String class_name, final String name, final Type t)
+    '''returns PUTSTATIC\n\n
+    createPutStatic(final String class_name, final String name, final Type t)\n
     '''
 def createCheckCast():
-    '''public CHECKCAST createCheckCast(final ReferenceType t)
+    '''returns CHECKCAST\n\n
+    createCheckCast(final ReferenceType t)\n
     '''
 def createInstanceOf():
-    '''public INSTANCEOF createInstanceOf(final ReferenceType t)
+    '''returns INSTANCEOF\n\n
+    createInstanceOf(final ReferenceType t)\n
     '''
 def createNew():
-    '''public NEW createNew(final ObjectType t)
-    public NEW createNew(final String s)
+    '''returns NEW\n\n
+    createNew(final ObjectType t)\n
+    createNew(final String s)\n
     '''
 def createNewArray():
-    '''public Instruction createNewArray(final Type t, final short dim)
-    '''
-def createNull():
-    '''public static Instruction createNull(final Type type)
-    '''
-def createBranchInstruction():
-    '''public static BranchInstruction createBranchInstruction(final short opcode, final InstructionHandle target)
+    '''returns Instruction\n\n
+    createNewArray(final Type t, final short dim)\n
     '''
 def setClassGen():
-    '''public void setClassGen(final ClassGen c)
+    '''returns None\n\n
+    setClassGen(final ClassGen c)\n
     '''
 def getClassGen():
-    '''public ClassGen getClassGen()
+    '''returns ClassGen\n\n
+    getClassGen()\n
     '''
 def setConstantPool():
-    '''public void setConstantPool(final ConstantPoolGen c)
+    '''returns None\n\n
+    setConstantPool(final ConstantPoolGen c)\n
     '''
 def getConstantPool():
-    '''public ConstantPoolGen getConstantPool()
+    '''returns ConstantPoolGen\n\n
+    getConstantPool()\n
     '''

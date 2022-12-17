@@ -1,12 +1,16 @@
 def changeMyAttrFailed():
-    '''public void changeMyAttrFailed(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    changeMyAttrFailed(final AttributeEvent attributeEvent)\n
     '''
 def myAttrChanged():
-    '''public void myAttrChanged(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    myAttrChanged(final AttributeEvent attributeEvent)\n
     '''
 def removeMyAttrFailed():
-    '''public void removeMyAttrFailed(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    removeMyAttrFailed(final AttributeEvent attributeEvent)\n
     '''
 def myAttrRemoved():
-    '''public void myAttrRemoved(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    myAttrRemoved(final AttributeEvent attributeEvent)\n
     '''

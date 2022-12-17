@@ -1,18 +1,21 @@
-def W3CDom():
-    '''public W3CDom()
+def ():
+    '''returns W3CBuilder\n\n
+    ()\n
+    (final org.w3c.dom.Document doc)\n
     '''
 def convert():
-    '''public void convert(final Document in, final org.w3c.dom.Document out)
+    '''returns None\n\n
+    convert(final Document in, final org.w3c.dom.Document out)\n
     '''
 def asString():
-    '''public String asString(final org.w3c.dom.Document doc)
-    '''
-def W3CBuilder():
-    '''public W3CBuilder(final org.w3c.dom.Document doc)
+    '''returns String\n\n
+    asString(final org.w3c.dom.Document doc)\n
     '''
 def head():
-    '''public void head(final Node source, final int depth)
+    '''returns None\n\n
+    head(final Node source, final int depth)\n
     '''
 def tail():
-    '''public void tail(final Node source, final int depth)
+    '''returns None\n\n
+    tail(final Node source, final int depth)\n
     '''

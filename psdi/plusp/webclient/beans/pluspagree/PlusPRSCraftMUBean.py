@@ -1,9 +1,12 @@
 def select_crafts_mu():
-    '''public int select_crafts_mu()
+    '''returns int\n\n
+    select_crafts_mu()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def getNoChargeFieldName():
-    '''public String getNoChargeFieldName()
+    '''returns String\n\n
+    getNoChargeFieldName()\n
     '''

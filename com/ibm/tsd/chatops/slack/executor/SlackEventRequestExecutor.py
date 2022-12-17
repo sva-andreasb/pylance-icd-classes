@@ -1,6 +1,8 @@
-def SlackEventRequestExecutor():
-    '''public SlackEventRequestExecutor(final SlackRequest request)
+def ():
+    '''returns SlackEventRequestExecutor\n\n
+    (final SlackRequest request)\n
     '''
 def exec():
-    '''public JSONObject exec()
+    '''returns JSONObject\n\n
+    exec()\n
     '''

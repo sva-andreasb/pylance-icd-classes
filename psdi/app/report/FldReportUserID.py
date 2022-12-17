@@ -1,3 +1,4 @@
-def FldReportUserID():
-    '''public FldReportUserID(final MboValue mbv)
+def ():
+    '''returns FldReportUserID\n\n
+    (final MboValue mbv)\n
     '''

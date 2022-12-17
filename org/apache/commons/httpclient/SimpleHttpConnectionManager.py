@@ -1,32 +1,42 @@
-def SimpleHttpConnectionManager():
-    '''public SimpleHttpConnectionManager(final boolean alwaysClose)
-    public SimpleHttpConnectionManager()
+def ():
+    '''returns SimpleHttpConnectionManager\n\n
+    (final boolean alwaysClose)\n
+    ()\n
     '''
 def getConnection():
-    '''public HttpConnection getConnection(final HostConfiguration hostConfiguration)
-    public HttpConnection getConnection(final HostConfiguration hostConfiguration, final long timeout)
+    '''returns HttpConnection\n\n
+    getConnection(final HostConfiguration hostConfiguration)\n
+    getConnection(final HostConfiguration hostConfiguration, final long timeout)\n
     '''
 def isConnectionStaleCheckingEnabled():
-    '''public boolean isConnectionStaleCheckingEnabled()
+    '''returns boolean\n\n
+    isConnectionStaleCheckingEnabled()\n
     '''
 def setConnectionStaleCheckingEnabled():
-    '''public void setConnectionStaleCheckingEnabled(final boolean connectionStaleCheckingEnabled)
+    '''returns None\n\n
+    setConnectionStaleCheckingEnabled(final boolean connectionStaleCheckingEnabled)\n
     '''
 def getConnectionWithTimeout():
-    '''public HttpConnection getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)
+    '''returns HttpConnection\n\n
+    getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)\n
     '''
 def releaseConnection():
-    '''public void releaseConnection(final HttpConnection conn)
+    '''returns None\n\n
+    releaseConnection(final HttpConnection conn)\n
     '''
 def getParams():
-    '''public HttpConnectionManagerParams getParams()
+    '''returns HttpConnectionManagerParams\n\n
+    getParams()\n
     '''
 def setParams():
-    '''public void setParams(final HttpConnectionManagerParams params)
+    '''returns None\n\n
+    setParams(final HttpConnectionManagerParams params)\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idleTimeout)
+    '''returns None\n\n
+    closeIdleConnections(final long idleTimeout)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

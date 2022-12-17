@@ -1,3 +1,4 @@
 def executeInTransaction():
-    '''public Object executeInTransaction(final Command c)
+    '''returns Object\n\n
+    executeInTransaction(final Command c)\n
     '''

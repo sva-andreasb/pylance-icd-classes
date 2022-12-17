@@ -1,81 +1,104 @@
-def CreateReportBean():
-    '''public CreateReportBean()
+def ():
+    '''returns CreateReportBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def addAll():
-    '''public int addAll()
+    '''returns int\n\n
+    addAll()\n
     '''
 def addSelectedAttributesSum():
-    '''public int addSelectedAttributesSum()
+    '''returns int\n\n
+    addSelectedAttributesSum()\n
     '''
 def addSelectedAttributes():
-    '''public int addSelectedAttributes()
+    '''returns int\n\n
+    addSelectedAttributes()\n
     '''
 def removeSelectedAttributes():
-    '''public int removeSelectedAttributes()
+    '''returns int\n\n
+    removeSelectedAttributes()\n
     '''
 def refresh():
-    '''public int refresh()
+    '''returns int\n\n
+    refresh()\n
     '''
 def refreshCalc():
-    '''public int refreshCalc()
+    '''returns int\n\n
+    refreshCalc()\n
     '''
 def removeAll():
-    '''public int removeAll()
+    '''returns int\n\n
+    removeAll()\n
     '''
 def removeGroupFields():
-    '''public int removeGroupFields()
+    '''returns int\n\n
+    removeGroupFields()\n
     '''
 def removeSortFields():
-    '''public int removeSortFields()
+    '''returns int\n\n
+    removeSortFields()\n
     '''
 def removeFilterFields():
-    '''public int removeFilterFields()
+    '''returns int\n\n
+    removeFilterFields()\n
     '''
 def runAndSaveReport():
-    '''public int runAndSaveReport()
+    '''returns int\n\n
+    runAndSaveReport()\n
     '''
 def previewReport():
-    '''public int previewReport()
+    '''returns int\n\n
+    previewReport()\n
     '''
 def createuserreport():
-    '''public int createuserreport()
+    '''returns int\n\n
+    createuserreport()\n
     '''
 def evaluateExpression():
-    '''public boolean evaluateExpression(final boolean suppressValidate)
+    '''returns boolean\n\n
+    evaluateExpression(final boolean suppressValidate)\n
     '''
 def testExpression():
-    '''public int testExpression()
+    '''returns int\n\n
+    testExpression()\n
     '''
 def mathEvent():
-    '''public int mathEvent()
+    '''returns int\n\n
+    mathEvent()\n
     '''
 def sumEvent():
-    '''public int sumEvent()
+    '''returns int\n\n
+    sumEvent()\n
     '''
 def addSelectedAttributesCalc():
-    '''public int addSelectedAttributesCalc()
+    '''returns int\n\n
+    addSelectedAttributesCalc()\n
     '''
 def addExpression():
-    '''public int addExpression()
-    '''
-def getJdbcTypeName():
-    '''public static String getJdbcTypeName(final int jdbcType)
+    '''returns int\n\n
+    addExpression()\n
     '''
 def addSummary():
-    '''public int addSummary()
+    '''returns int\n\n
+    addSummary()\n
     '''
 def cancelExpression():
-    '''public int cancelExpression()
+    '''returns int\n\n
+    cancelExpression()\n
     '''
 def cancelSummary():
-    '''public int cancelSummary()
+    '''returns int\n\n
+    cancelSummary()\n
     '''
 def clearCalculateTabFields():
-    '''public void clearCalculateTabFields()
+    '''returns None\n\n
+    clearCalculateTabFields()\n
     '''
 def clearSummaryTabFields():
-    '''public void clearSummaryTabFields()
+    '''returns None\n\n
+    clearSummaryTabFields()\n
     '''

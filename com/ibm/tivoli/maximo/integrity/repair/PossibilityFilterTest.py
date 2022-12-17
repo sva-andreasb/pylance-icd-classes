@@ -1,9 +1,12 @@
 def test1():
-    '''public void test1()
+    '''returns None\n\n
+    test1()\n
     '''
 def testTinyFilter():
-    '''public void testTinyFilter()
+    '''returns None\n\n
+    testTinyFilter()\n
     '''
 def testWithSets():
-    '''public void testWithSets()
+    '''returns None\n\n
+    testWithSets()\n
     '''

@@ -1,4 +1,5 @@
-def OMBuilderException():
-    '''public OMBuilderException(final String s)
-    public OMBuilderException(final Throwable cause)
+def ():
+    '''returns OMBuilderException\n\n
+    (final String s)\n
+    (final Throwable cause)\n
     '''

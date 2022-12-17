@@ -1,13 +1,17 @@
-def LDAPModifyRequest():
-    '''public LDAPModifyRequest()
-    public LDAPModifyRequest(final String s, final LDAPModification[] array, final LDAPControl[] array2)
+def ():
+    '''returns LDAPModifyRequest\n\n
+    ()\n
+    (final String s, final LDAPModification[] array, final LDAPControl[] array2)\n
     '''
 def getDN():
-    '''public String getDN()
+    '''returns String\n\n
+    getDN()\n
     '''
 def getModifications():
-    '''public LDAPModification[] getModifications()
+    '''returns LDAPModification[]\n\n
+    getModifications()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

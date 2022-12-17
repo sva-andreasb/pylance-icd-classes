@@ -1,23 +1,30 @@
-def RosterExchange():
-    '''public RosterExchange()
-    public RosterExchange(final Roster roster)
+def ():
+    '''returns RosterExchange\n\n
+    ()\n
+    (final Roster roster)\n
     '''
 def addRosterEntry():
-    '''public void addRosterEntry(final RosterEntry rosterEntry)
-    public void addRosterEntry(final RemoteRosterEntry remoteRosterEntry)
+    '''returns None\n\n
+    addRosterEntry(final RosterEntry rosterEntry)\n
+    addRosterEntry(final RemoteRosterEntry remoteRosterEntry)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getRosterEntries():
-    '''public Iterator<RemoteRosterEntry> getRosterEntries()
+    '''returns Iterator<RemoteRosterEntry>\n\n
+    getRosterEntries()\n
     '''
 def getEntryCount():
-    '''public int getEntryCount()
+    '''returns int\n\n
+    getEntryCount()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''

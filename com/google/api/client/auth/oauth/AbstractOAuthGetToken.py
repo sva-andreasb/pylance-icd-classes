@@ -1,6 +1,4 @@
-def execute():
-    '''public final OAuthCredentialsResponse execute()
-    '''
 def createParameters():
-    '''public OAuthParameters createParameters()
+    '''returns OAuthParameters\n\n
+    createParameters()\n
     '''

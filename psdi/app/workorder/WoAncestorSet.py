@@ -1,9 +1,12 @@
-def WoAncestorSet():
-    '''public WoAncestorSet(final MboServerInterface ms)
+def ():
+    '''returns WoAncestorSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def setFlag():
-    '''public void setFlag(final long flag, final boolean state)
+    '''returns None\n\n
+    setFlag(final long flag, final boolean state)\n
     '''

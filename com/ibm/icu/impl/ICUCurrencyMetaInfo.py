@@ -1,31 +1,38 @@
-def ICUCurrencyMetaInfo():
-    '''public ICUCurrencyMetaInfo()
+def ():
+    '''returns ICUCurrencyMetaInfo\n\n
+    ()\n
     '''
 def currencyInfo():
-    '''public List<CurrencyInfo> currencyInfo(final CurrencyFilter filter)
+    '''returns List<CurrencyInfo>\n\n
+    currencyInfo(final CurrencyFilter filter)\n
     '''
 def currencies():
-    '''public List<String> currencies(final CurrencyFilter filter)
+    '''returns List<String>\n\n
+    currencies(final CurrencyFilter filter)\n
     '''
 def regions():
-    '''public List<String> regions(final CurrencyFilter filter)
+    '''returns List<String>\n\n
+    regions(final CurrencyFilter filter)\n
     '''
 def currencyDigits():
-    '''public CurrencyDigits currencyDigits(final String isoCode)
-    public CurrencyDigits currencyDigits(final String isoCode, final Currency.CurrencyUsage currencyPurpose)
+    '''returns CurrencyDigits\n\n
+    currencyDigits(final String isoCode)\n
     '''
 def collect():
-    '''public void collect(final String region, final String currency, final long from, final long to, final int priority, final boolean tender)
-    public void collect(final String region, final String currency, final long from, final long to, final int priority, final boolean tender)
-    public void collect(final String region, final String currency, final long from, final long to, final int priority, final boolean tender)
+    '''returns None\n\n
+    collect(final String region, final String currency, final long from, final long to, final int priority)\n
+    collect(final String region, final String currency, final long from, final long to, final int priority)\n
+    collect(final String region, final String currency, final long from, final long to, final int priority)\n
     '''
 def getList():
-    '''public List<CurrencyInfo> getList()
-    public List<String> getList()
-    public List<String> getList()
+    '''returns List<String>\n\n
+    getList()\n
+    getList()\n
+    getList()\n
     '''
 def collects():
-    '''public int collects()
-    public int collects()
-    public int collects()
+    '''returns int\n\n
+    collects()\n
+    collects()\n
+    collects()\n
     '''

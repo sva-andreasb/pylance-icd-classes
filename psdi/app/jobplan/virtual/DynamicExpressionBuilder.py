@@ -1,3 +1,4 @@
-def DynamicExpressionBuilder():
-    '''public DynamicExpressionBuilder(final MboSet ms)
+def ():
+    '''returns DynamicExpressionBuilder\n\n
+    (final MboSet ms)\n
     '''

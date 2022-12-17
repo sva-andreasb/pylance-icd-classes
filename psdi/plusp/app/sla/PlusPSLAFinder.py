@@ -1,38 +1,45 @@
-def PlusPSLAFinder():
-    '''public PlusPSLAFinder(final Mbo mbo)
-    public PlusPSLAFinder()
+def ():
+    '''returns PlusPSLAFinder\n\n
+    (final Mbo mbo)\n
+    ()\n
     '''
 def applySLAs():
-    '''public void applySLAs()
-    public String[] applySLAs(final MboSet set, final MboRemote mboRemote)
+    '''returns String[]\n\n
+    applySLAs()\n
+    applySLAs(final MboSet set, final MboRemote mboRemote)\n
     '''
 def calculateMeasurements():
-    '''public void calculateMeasurements()
-    public void calculateMeasurements(final MboRemote mboRemote)
+    '''returns None\n\n
+    calculateMeasurements()\n
+    calculateMeasurements(final MboRemote mboRemote)\n
     '''
 def clearTargetDates():
-    '''public void clearTargetDates()
-    public void clearTargetDates(final MboRemote mboRemote)
+    '''returns None\n\n
+    clearTargetDates()\n
+    clearTargetDates(final MboRemote mboRemote)\n
     '''
 def calculateSLARecordsTimes():
-    '''public MboRemote calculateSLARecordsTimes(final MboRemote mboRemote)
-    public MboRemote calculateSLARecordsTimes(final MboRemote mboRemote, final Mbo mbo)
+    '''returns MboRemote\n\n
+    calculateSLARecordsTimes(final MboRemote mboRemote)\n
+    calculateSLARecordsTimes(final MboRemote mboRemote, final Mbo mbo)\n
     '''
 def getAppliableSLAs():
-    '''public List<MboRemote> getAppliableSLAs(final String s, final boolean b)
+    '''returns List<MboRemote>\n\n
+    getAppliableSLAs(final String s, final boolean b)\n
     '''
 def getAppliableSLAsAsMboSet():
-    '''public MboSetRemote getAppliableSLAsAsMboSet(final String s, final boolean b)
+    '''returns MboSetRemote\n\n
+    getAppliableSLAsAsMboSet(final String s, final boolean b)\n
     '''
 def calculateDate():
-    '''public Date calculateDate(final Mbo mbo, final double time, final String uom)
+    '''returns Date\n\n
+    calculateDate(final Mbo mbo, final double time, final String uom)\n
     '''
 def getCalendarToUse():
-    '''public String[] getCalendarToUse(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''returns String[]\n\n
+    getCalendarToUse(final MboRemote mboRemote, final MboRemote mboRemote2)\n
     '''
 def convertDaysInWorkHours():
-    '''public double convertDaysInWorkHours(final MboSetRemote mboSetRemote, final double n)
-    '''
-def timeDiffInSeconds():
-    '''public static int timeDiffInSeconds(final Date time, final Date time2)
+    '''returns double\n\n
+    convertDaysInWorkHours(final MboSetRemote mboSetRemote, final double n)\n
     '''

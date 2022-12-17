@@ -1,45 +1,32 @@
-def isLocalSocks5ProxyEnabled():
-    '''public static boolean isLocalSocks5ProxyEnabled()
-    '''
-def setLocalSocks5ProxyEnabled():
-    '''public static void setLocalSocks5ProxyEnabled(final boolean localSocks5ProxyEnabled)
-    '''
-def getLocalSocks5ProxyPort():
-    '''public static int getLocalSocks5ProxyPort()
-    '''
-def setLocalSocks5ProxyPort():
-    '''public static void setLocalSocks5ProxyPort(final int localSocks5ProxyPort)
-    '''
-def getSocks5Proxy():
-    '''public static synchronized Socks5Proxy getSocks5Proxy()
-    '''
-def start():
-    '''public synchronized void start()
-    '''
-def stop():
-    '''public synchronized void stop()
-    '''
 def addLocalAddress():
-    '''public void addLocalAddress(final String address)
+    '''returns None\n\n
+    addLocalAddress(final String address)\n
     '''
 def removeLocalAddress():
-    '''public boolean removeLocalAddress(final String address)
+    '''returns boolean\n\n
+    removeLocalAddress(final String address)\n
     '''
 def getLocalAddresses():
-    '''public List<String> getLocalAddresses()
+    '''returns List<String>\n\n
+    getLocalAddresses()\n
     '''
 def replaceLocalAddresses():
-    '''public void replaceLocalAddresses(final Collection<String> addresses)
+    '''returns None\n\n
+    replaceLocalAddresses(final Collection<String> addresses)\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def addTransfer():
-    '''public void addTransfer(final String digest)
+    '''returns None\n\n
+    addTransfer(final String digest)\n
     '''
 def isRunning():
-    '''public boolean isRunning()
+    '''returns boolean\n\n
+    isRunning()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

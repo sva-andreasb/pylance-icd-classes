@@ -1,3 +1,4 @@
 def getParent():
-    '''public Multipart getParent()
+    '''returns Multipart\n\n
+    getParent()\n
     '''

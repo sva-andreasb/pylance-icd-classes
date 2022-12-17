@@ -1,21 +1,28 @@
-def PmComFldJobTaskNestedJPNum():
-    '''public PmComFldJobTaskNestedJPNum(final MboValue mbv)
+def ():
+    '''returns PmComFldJobTaskNestedJPNum\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def jpTree():
-    '''public void jpTree(final MboRemote jobPlanMbo, final String nestedJPNum)
+    '''returns None\n\n
+    jpTree(final MboRemote jobPlanMbo, final String nestedJPNum)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''

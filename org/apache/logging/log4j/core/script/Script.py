@@ -1,9 +1,8 @@
-def Script():
-    '''public Script(final String name, final String language, final String scriptText)
-    '''
-def createScript():
-    '''public static Script createScript(@PluginAttribute("name") final String name, @PluginAttribute("language") String language, @PluginValue("scriptText") final String scriptText)
+def ():
+    '''returns Script\n\n
+    (final String name, final String language, final String scriptText)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

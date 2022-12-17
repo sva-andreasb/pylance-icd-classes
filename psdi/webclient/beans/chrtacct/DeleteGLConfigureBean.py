@@ -1,6 +1,4 @@
 def deleteglconfigure():
-    '''public int deleteglconfigure()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    deleteglconfigure()\n
     '''

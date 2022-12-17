@@ -1,16 +1,21 @@
-def Utf8StringBuilder():
-    '''public Utf8StringBuilder()
-    public Utf8StringBuilder(final int capacity)
+def ():
+    '''returns Utf8StringBuilder\n\n
+    ()\n
+    (final int capacity)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getStringBuilder():
-    '''public StringBuilder getStringBuilder()
+    '''returns StringBuilder\n\n
+    getStringBuilder()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

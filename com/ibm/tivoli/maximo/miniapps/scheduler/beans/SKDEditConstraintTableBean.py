@@ -1,3 +1,4 @@
 def fireStructureChangedEvent():
-    '''public void fireStructureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    fireStructureChangedEvent(final DataBean speaker)\n
     '''

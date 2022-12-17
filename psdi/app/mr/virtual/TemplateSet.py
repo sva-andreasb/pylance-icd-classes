@@ -1,3 +1,4 @@
-def TemplateSet():
-    '''public TemplateSet(final MboServerInterface ms)
+def ():
+    '''returns TemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

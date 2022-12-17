@@ -1,12 +1,16 @@
-def LastCellOfRowDummyRecord():
-    '''public LastCellOfRowDummyRecord(final int row, final int lastColumnNumber)
+def ():
+    '''returns LastCellOfRowDummyRecord\n\n
+    (final int row, final int lastColumnNumber)\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def getLastColumnNumber():
-    '''public int getLastColumnNumber()
+    '''returns int\n\n
+    getLastColumnNumber()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

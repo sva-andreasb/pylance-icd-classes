@@ -1,6 +1,8 @@
-def PlusPFldWPLaborType():
-    '''public PlusPFldWPLaborType(final MboValue mv)
+def ():
+    '''returns PlusPFldWPLaborType\n\n
+    (final MboValue mv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

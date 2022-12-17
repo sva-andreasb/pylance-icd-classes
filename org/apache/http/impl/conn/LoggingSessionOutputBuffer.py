@@ -1,19 +1,24 @@
-def LoggingSessionOutputBuffer():
-    '''public LoggingSessionOutputBuffer(final SessionOutputBuffer out, final Wire wire, final String charset)
-    public LoggingSessionOutputBuffer(final SessionOutputBuffer out, final Wire wire)
+def ():
+    '''returns LoggingSessionOutputBuffer\n\n
+    (final SessionOutputBuffer out, final Wire wire, final String charset)\n
+    (final SessionOutputBuffer out, final Wire wire)\n
     '''
 def write():
-    '''public void write(final byte[] b, final int off, final int len)
-    public void write(final int b)
-    public void write(final byte[] b)
+    '''returns None\n\n
+    write(final byte[] b, final int off, final int len)\n
+    write(final int b)\n
+    write(final byte[] b)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def writeLine():
-    '''public void writeLine(final CharArrayBuffer buffer)
-    public void writeLine(final String s)
+    '''returns None\n\n
+    writeLine(final CharArrayBuffer buffer)\n
+    writeLine(final String s)\n
     '''
 def getMetrics():
-    '''public HttpTransportMetrics getMetrics()
+    '''returns HttpTransportMetrics\n\n
+    getMetrics()\n
     '''

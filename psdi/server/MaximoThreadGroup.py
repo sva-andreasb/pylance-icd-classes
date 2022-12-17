@@ -1,6 +1,4 @@
-def MaximoThreadGroup():
-    '''public MaximoThreadGroup()
-    '''
-def getMXThreadGroup():
-    '''public static MaximoThreadGroup getMXThreadGroup()
+def ():
+    '''returns MaximoThreadGroup\n\n
+    ()\n
     '''

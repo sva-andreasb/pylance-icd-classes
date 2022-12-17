@@ -5,61 +5,82 @@ TABLE = "int  2"
 INT = "int  7"
 ARRAY = "int  8"
 INT_VECTOR = "int  14"
-def getBundleInstance():
-    '''public static UResourceBundle getBundleInstance(final String baseName, final String localeName)
-    public static UResourceBundle getBundleInstance(final String baseName, final String localeName, final ClassLoader root)
-    public static UResourceBundle getBundleInstance(ULocale locale)
-    public static UResourceBundle getBundleInstance(String baseName)
-    public static UResourceBundle getBundleInstance(String baseName, final Locale locale)
-    public static UResourceBundle getBundleInstance(String baseName, ULocale locale)
-    public static UResourceBundle getBundleInstance(String baseName, final Locale locale, final ClassLoader loader)
-    public static UResourceBundle getBundleInstance(String baseName, ULocale locale, final ClassLoader loader)
+def ():
+    '''returns UResourceBundle\n\n
+    ()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getBinary():
-    '''public ByteBuffer getBinary()
-    public byte[] getBinary(final byte[] ba)
+    '''returns byte[]\n\n
+    getBinary()\n
+    getBinary(final byte[] ba)\n
     '''
 def getString():
-    '''public String getString()
-    public String getString(final int index)
+    '''returns String\n\n
+    getString()\n
+    getString(final int index)\n
     '''
 def getStringArray():
-    '''public String[] getStringArray()
+    '''returns String[]\n\n
+    getStringArray()\n
     '''
 def getIntVector():
-    '''public int[] getIntVector()
+    '''returns int[]\n\n
+    getIntVector()\n
     '''
 def getInt():
-    '''public int getInt()
+    '''returns int\n\n
+    getInt()\n
     '''
 def getUInt():
-    '''public int getUInt()
+    '''returns int\n\n
+    getUInt()\n
     '''
 def get():
-    '''public UResourceBundle get(final String aKey)
-    public UResourceBundle get(final int index)
+    '''returns UResourceBundle\n\n
+    get(final String aKey)\n
+    get(final int index)\n
     '''
 def getKeys():
-    '''public Enumeration<String> getKeys()
+    '''returns Enumeration<String>\n\n
+    getKeys()\n
     '''
 def keySet():
-    '''public Set<String> keySet()
+    '''returns Set<String>\n\n
+    keySet()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getVersion():
-    '''public VersionInfo getVersion()
+    '''returns VersionInfo\n\n
+    getVersion()\n
     '''
 def getIterator():
-    '''public UResourceBundleIterator getIterator()
+    '''returns UResourceBundleIterator\n\n
+    getIterator()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
+    '''
+def equals():
+    '''returns boolean\n\n
+    equals(final Object other)\n
+    '''
+def hashCode():
+    '''returns int\n\n
+    hashCode()\n
+    '''
+def clone():
+    '''returns Object\n\n
+    clone()\n
     '''

@@ -1,29 +1,23 @@
 HIGH_WATERMARK = "long  -1L"
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DeleteRecordsRequest():
-    '''public DeleteRecordsRequest(final Struct struct, final short version)
-    public DeleteRecordsRequest(final int timeout, final Map<TopicPartition, Long> partitionOffsets, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final int timeout, final Map<TopicPartition, Long> partitionOffsets, final short version)\n
+    (final int timeout, final Map<TopicPartition, Long> partitionOffsets)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def timeout():
-    '''public int timeout()
-    '''
-def partitionOffsets():
-    '''public Map<TopicPartition, Long> partitionOffsets()
-    '''
-def parse():
-    '''public static DeleteRecordsRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final int timeout, final Map<TopicPartition, Long> partitionOffsets)
+    '''returns int\n\n
+    timeout()\n
     '''
 def build():
-    '''public DeleteRecordsRequest build(final short version)
+    '''returns DeleteRecordsRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

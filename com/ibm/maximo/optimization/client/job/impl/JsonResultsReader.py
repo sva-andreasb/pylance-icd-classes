@@ -1,56 +1,62 @@
-def JsonResultsReader():
-    '''public JsonResultsReader(final File jsonResultsFile)
+def ():
+    '''returns TableDescriptorImpl\n\n
+    (final File jsonResultsFile)\n
+    (final JsonResultsReader reader)\n
+    (final TableDescriptor tableDesc)\n
+    (final int index, final String name, final Class<T> type)\n
+    (final String name)\n
     '''
 def getTablesName():
-    '''public List<String> getTablesName()
+    '''returns List<String>\n\n
+    getTablesName()\n
     '''
 def getTablesDescriptor():
-    '''public List<TableDescriptor> getTablesDescriptor()
+    '''returns List<TableDescriptor>\n\n
+    getTablesDescriptor()\n
     '''
 def getTableDescriptor():
-    '''public TableDescriptor getTableDescriptor(final String tableName)
+    '''returns TableDescriptor\n\n
+    getTableDescriptor(final String tableName)\n
     '''
 def getAllTablesRowsIterator():
-    '''public TableRowIterator getAllTablesRowsIterator()
-    '''
-def TableRowIteratorImpl():
-    '''public TableRowIteratorImpl(final JsonResultsReader reader)
+    '''returns TableRowIterator\n\n
+    getAllTablesRowsIterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public TableRow next()
-    '''
-def TableRowImpl():
-    '''public TableRowImpl(final TableDescriptor tableDesc)
+    '''returns TableRow\n\n
+    next()\n
     '''
 def getTableDesc():
-    '''public TableDescriptor getTableDesc()
+    '''returns TableDescriptor\n\n
+    getTableDesc()\n
     '''
 def setColumnValue():
-    '''public void setColumnValue(final String columnName, final Object value)
+    '''returns None\n\n
+    setColumnValue(final String columnName, final Object value)\n
     '''
 def getColumnValue():
-    '''public Object getColumnValue(final int index)
-    public Object getColumnValue(final String columnName)
-    '''
-def ColumnDescriptorImpl():
-    '''public ColumnDescriptorImpl(final int index, final String name, final Class<T> type)
+    '''returns Object\n\n
+    getColumnValue(final int index)\n
+    getColumnValue(final String columnName)\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def getIndex():
-    '''public int getIndex()
-    '''
-def TableDescriptorImpl():
-    '''public TableDescriptorImpl(final String name)
+    '''returns int\n\n
+    getIndex()\n
     '''
 def addColumnDescriptor():
-    '''public void addColumnDescriptor(final ColumnDescriptor<?> desc)
+    '''returns None\n\n
+    addColumnDescriptor(final ColumnDescriptor<?> desc)\n
     '''
 def getColumnsName():
-    '''public List<String> getColumnsName()
+    '''returns List<String>\n\n
+    getColumnsName()\n
     '''

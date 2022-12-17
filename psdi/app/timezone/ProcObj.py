@@ -1,3 +1,4 @@
-def ProcObj():
-    '''public ProcObj(final MboSet ms)
+def ():
+    '''returns ProcObj\n\n
+    (final MboSet ms)\n
     '''

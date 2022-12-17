@@ -1,3 +1,4 @@
 def getReason():
-    '''public String getReason(final int status, final Locale loc)
+    '''returns String\n\n
+    getReason(final int status, final Locale loc)\n
     '''

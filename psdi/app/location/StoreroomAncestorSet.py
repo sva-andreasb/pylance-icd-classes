@@ -1,3 +1,4 @@
-def StoreroomAncestorSet():
-    '''public StoreroomAncestorSet(final MboServerInterface ms)
+def ():
+    '''returns StoreroomAncestorSet\n\n
+    (final MboServerInterface ms)\n
     '''

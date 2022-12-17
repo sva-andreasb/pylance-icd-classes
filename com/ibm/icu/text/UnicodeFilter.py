@@ -1,3 +1,4 @@
 def matches():
-    '''public int matches(final Replaceable text, final int[] offset, final int limit, final boolean incremental)
+    '''returns int\n\n
+    matches(final Replaceable text, final int[] offset, final int limit, final boolean incremental)\n
     '''

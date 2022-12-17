@@ -1,19 +1,21 @@
-def DataNode():
-    '''public DataNode(final String data)
-    public DataNode(final String data, final String baseUri)
+def ():
+    '''returns DataNode\n\n
+    (final String data)\n
+    (final String data, final String baseUri)\n
     '''
 def nodeName():
-    '''public String nodeName()
+    '''returns String\n\n
+    nodeName()\n
     '''
 def getWholeData():
-    '''public String getWholeData()
+    '''returns String\n\n
+    getWholeData()\n
     '''
 def setWholeData():
-    '''public DataNode setWholeData(final String data)
+    '''returns DataNode\n\n
+    setWholeData(final String data)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def createFromEncoded():
-    '''public static DataNode createFromEncoded(final String encodedData, final String baseUri)
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,9 +1,11 @@
-def ON():
-    '''public ON(final String s)
-    public ON(final String[] array)
-    public ON(final List<String> list)
+def ():
+    '''returns ON\n\n
+    (final String s)\n
+    (final String[] array)\n
+    (final List<String> list)\n
     '''
 def accept():
-    '''public boolean accept(final File dir, final String name)
-    public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File dir, final String name)\n
+    accept(final File file)\n
     '''

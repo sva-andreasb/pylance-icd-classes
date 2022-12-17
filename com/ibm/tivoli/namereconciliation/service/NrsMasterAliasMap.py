@@ -1,54 +1,72 @@
-def NrsMasterAliasMap():
-    '''public NrsMasterAliasMap()
+def ():
+    '''returns NrsMasterAliasMap\n\n
+    ()\n
     '''
 def getAliasClassType():
-    '''public String getAliasClassType()
+    '''returns String\n\n
+    getAliasClassType()\n
     '''
 def getAliasGUID():
-    '''public byte[] getAliasGUID()
+    '''returns byte[]\n\n
+    getAliasGUID()\n
     '''
 def getAliasName():
-    '''public String getAliasName()
+    '''returns String\n\n
+    getAliasName()\n
     '''
 def getMasterGUID():
-    '''public byte[] getMasterGUID()
+    '''returns byte[]\n\n
+    getMasterGUID()\n
     '''
 def getNamingRuleGUID():
-    '''public byte[] getNamingRuleGUID()
+    '''returns byte[]\n\n
+    getNamingRuleGUID()\n
     '''
 def getNamingRulePriority():
-    '''public Integer getNamingRulePriority()
+    '''returns Integer\n\n
+    getNamingRulePriority()\n
     '''
 def getSuperiors():
-    '''public NrsSuperiorInfo[] getSuperiors()
+    '''returns NrsSuperiorInfo[]\n\n
+    getSuperiors()\n
     '''
 def getIdentifyingAttributes():
-    '''public NrsIdentifyingAttribute[] getIdentifyingAttributes()
+    '''returns NrsIdentifyingAttribute[]\n\n
+    getIdentifyingAttributes()\n
     '''
 def setAliasClassType():
-    '''public void setAliasClassType(final String classString)
+    '''returns None\n\n
+    setAliasClassType(final String classString)\n
     '''
 def setAliasGUID():
-    '''public void setAliasGUID(final byte[] guid)
+    '''returns None\n\n
+    setAliasGUID(final byte[] guid)\n
     '''
 def setAliasName():
-    '''public void setAliasName(final String name)
+    '''returns None\n\n
+    setAliasName(final String name)\n
     '''
 def setMasterGUID():
-    '''public void setMasterGUID(final byte[] guid)
+    '''returns None\n\n
+    setMasterGUID(final byte[] guid)\n
     '''
 def setNamingRuleGUID():
-    '''public void setNamingRuleGUID(final byte[] guid)
+    '''returns None\n\n
+    setNamingRuleGUID(final byte[] guid)\n
     '''
 def setNamingRulePriority():
-    '''public void setNamingRulePriority(final Integer priority)
+    '''returns None\n\n
+    setNamingRulePriority(final Integer priority)\n
     '''
 def setSuperiors():
-    '''public void setSuperiors(final NrsSuperiorInfo[] superiors)
+    '''returns None\n\n
+    setSuperiors(final NrsSuperiorInfo[] superiors)\n
     '''
 def setIdentifyingAttributes():
-    '''public void setIdentifyingAttributes(final NrsIdentifyingAttribute[] identifyingAttributes)
+    '''returns None\n\n
+    setIdentifyingAttributes(final NrsIdentifyingAttribute[] identifyingAttributes)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

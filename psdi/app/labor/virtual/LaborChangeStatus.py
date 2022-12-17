@@ -1,6 +1,8 @@
-def LaborChangeStatus():
-    '''public LaborChangeStatus(final MboSet ms)
+def ():
+    '''returns LaborChangeStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

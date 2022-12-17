@@ -1,3 +1,4 @@
-def PlusPFldCraft():
-    '''public PlusPFldCraft(final MboValue mbv)
+def ():
+    '''returns PlusPFldCraft\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,66 +1,88 @@
-def ListMultipartUploadsRequest():
-    '''public ListMultipartUploadsRequest(final String bucketName)
+def ():
+    '''returns ListMultipartUploadsRequest\n\n
+    (final String bucketName)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public ListMultipartUploadsRequest withBucketName(final String bucketName)
+    '''returns ListMultipartUploadsRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getMaxUploads():
-    '''public Integer getMaxUploads()
+    '''returns Integer\n\n
+    getMaxUploads()\n
     '''
 def setMaxUploads():
-    '''public void setMaxUploads(final Integer maxUploads)
+    '''returns None\n\n
+    setMaxUploads(final Integer maxUploads)\n
     '''
 def withMaxUploads():
-    '''public ListMultipartUploadsRequest withMaxUploads(final int maxUploadsInt)
+    '''returns ListMultipartUploadsRequest\n\n
+    withMaxUploads(final int maxUploadsInt)\n
     '''
 def getKeyMarker():
-    '''public String getKeyMarker()
+    '''returns String\n\n
+    getKeyMarker()\n
     '''
 def setKeyMarker():
-    '''public void setKeyMarker(final String keyMarker)
+    '''returns None\n\n
+    setKeyMarker(final String keyMarker)\n
     '''
 def withKeyMarker():
-    '''public ListMultipartUploadsRequest withKeyMarker(final String keyMarker)
+    '''returns ListMultipartUploadsRequest\n\n
+    withKeyMarker(final String keyMarker)\n
     '''
 def getUploadIdMarker():
-    '''public String getUploadIdMarker()
+    '''returns String\n\n
+    getUploadIdMarker()\n
     '''
 def setUploadIdMarker():
-    '''public void setUploadIdMarker(final String uploadIdMarker)
+    '''returns None\n\n
+    setUploadIdMarker(final String uploadIdMarker)\n
     '''
 def withUploadIdMarker():
-    '''public ListMultipartUploadsRequest withUploadIdMarker(final String uploadIdMarker)
+    '''returns ListMultipartUploadsRequest\n\n
+    withUploadIdMarker(final String uploadIdMarker)\n
     '''
 def getDelimiter():
-    '''public String getDelimiter()
+    '''returns String\n\n
+    getDelimiter()\n
     '''
 def setDelimiter():
-    '''public void setDelimiter(final String delimiter)
+    '''returns None\n\n
+    setDelimiter(final String delimiter)\n
     '''
 def withDelimiter():
-    '''public ListMultipartUploadsRequest withDelimiter(final String delimiter)
+    '''returns ListMultipartUploadsRequest\n\n
+    withDelimiter(final String delimiter)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def withPrefix():
-    '''public ListMultipartUploadsRequest withPrefix(final String prefix)
+    '''returns ListMultipartUploadsRequest\n\n
+    withPrefix(final String prefix)\n
     '''
 def getEncodingType():
-    '''public String getEncodingType()
+    '''returns String\n\n
+    getEncodingType()\n
     '''
 def setEncodingType():
-    '''public void setEncodingType(final String encodingType)
+    '''returns None\n\n
+    setEncodingType(final String encodingType)\n
     '''
 def withEncodingType():
-    '''public ListMultipartUploadsRequest withEncodingType(final String encodingType)
+    '''returns ListMultipartUploadsRequest\n\n
+    withEncodingType(final String encodingType)\n
     '''

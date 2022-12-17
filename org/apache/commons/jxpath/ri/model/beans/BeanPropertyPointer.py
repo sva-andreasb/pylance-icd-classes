@@ -1,45 +1,60 @@
-def BeanPropertyPointer():
-    '''public BeanPropertyPointer(final NodePointer parent, final JXPathBeanInfo beanInfo)
+def ():
+    '''returns BeanPropertyPointer\n\n
+    (final NodePointer parent, final JXPathBeanInfo beanInfo)\n
     '''
 def isContainer():
-    '''public boolean isContainer()
+    '''returns boolean\n\n
+    isContainer()\n
     '''
 def getPropertyCount():
-    '''public int getPropertyCount()
+    '''returns int\n\n
+    getPropertyCount()\n
     '''
 def getPropertyNames():
-    '''public String[] getPropertyNames()
+    '''returns String[]\n\n
+    getPropertyNames()\n
     '''
 def setPropertyName():
-    '''public void setPropertyName(final String propertyName)
+    '''returns None\n\n
+    setPropertyName(final String propertyName)\n
     '''
 def setPropertyIndex():
-    '''public void setPropertyIndex(final int index)
+    '''returns None\n\n
+    setPropertyIndex(final int index)\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def createPath():
-    '''public NodePointer createPath(final JXPathContext context)
+    '''returns NodePointer\n\n
+    createPath(final JXPathContext context)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''

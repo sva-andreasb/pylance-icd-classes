@@ -1,49 +1,65 @@
-def ConnectionKey():
-    '''public ConnectionKey()
-    public ConnectionKey(final UserInfo userInfo)
+def ():
+    '''returns ConnectionKey\n\n
+    ()\n
+    (final UserInfo userInfo)\n
     '''
 def isPreview():
-    '''public boolean isPreview()
+    '''returns boolean\n\n
+    isPreview()\n
     '''
 def getUID():
-    '''public UID getUID()
+    '''returns UID\n\n
+    getUID()\n
     '''
 def getLoginUserName():
-    '''public String getLoginUserName()
+    '''returns String\n\n
+    getLoginUserName()\n
     '''
 def getInetAddress():
-    '''public InetAddress getInetAddress()
+    '''returns InetAddress\n\n
+    getInetAddress()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getCredential():
-    '''public Object getCredential()
+    '''returns Object\n\n
+    getCredential()\n
     '''
 def setUID():
-    '''public void setUID(final UID setuid)
+    '''returns None\n\n
+    setUID(final UID setuid)\n
     '''
 def setInetAddress():
-    '''public void setInetAddress(final InetAddress setinetAddress)
+    '''returns None\n\n
+    setInetAddress(final InetAddress setinetAddress)\n
     '''
 def commitOnConnectionFree():
-    '''public boolean commitOnConnectionFree()
+    '''returns boolean\n\n
+    commitOnConnectionFree()\n
     '''
 def setRollbackOnConnectionFree():
-    '''public void setRollbackOnConnectionFree()
+    '''returns None\n\n
+    setRollbackOnConnectionFree()\n
     '''
 def setCommitOnConnectionFree():
-    '''public void setCommitOnConnectionFree(final boolean val)
+    '''returns None\n\n
+    setCommitOnConnectionFree(final boolean val)\n
     '''
 def getMTDBUser():
-    '''public String getMTDBUser()
+    '''returns String\n\n
+    getMTDBUser()\n
     '''
 def getTenantID():
-    '''public int getTenantID()
+    '''returns int\n\n
+    getTenantID()\n
     '''
 def getConKeyLight():
-    '''public ConnectionKeyLight getConKeyLight()
+    '''returns ConnectionKeyLight\n\n
+    getConKeyLight()\n
     '''

@@ -1,11 +1,13 @@
-def CCICIService():
-    '''public CCICIService()
-    public CCICIService(final MXServer mxServer)
+def ():
+    '''returns CCICIService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def isTopLevel():
-    '''public boolean isTopLevel(final CCICI mbo, final UserInfo userInfo)
-    public static synchronized boolean isTopLevel(final String classification, final UserInfo userInfo)
+    '''returns boolean\n\n
+    isTopLevel(final CCICI mbo, final UserInfo userInfo)\n
     '''
 def runGuidLoaderTask():
-    '''public void runGuidLoaderTask(final String action, final String objectList, final String timeLimit, final String whereClause, final UserInfo userInfo)
+    '''returns None\n\n
+    runGuidLoaderTask(final String action, final String objectList, final String timeLimit, final String whereClause, final UserInfo userInfo)\n
     '''

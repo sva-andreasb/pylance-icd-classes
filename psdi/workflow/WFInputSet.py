@@ -1,3 +1,4 @@
-def WFInputSet():
-    '''public WFInputSet(final MboServerInterface ms)
+def ():
+    '''returns WFInputSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,51 +1,68 @@
-def DMAppBean():
-    '''public DMAppBean()
+def ():
+    '''returns DMAppBean\n\n
+    ()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def refreshrecords():
-    '''public int refreshrecords()
+    '''returns int\n\n
+    refreshrecords()\n
     '''
 def refreshTree():
-    '''public int refreshTree()
+    '''returns int\n\n
+    refreshTree()\n
     '''
 def RESET():
-    '''public int RESET()
+    '''returns int\n\n
+    RESET()\n
     '''
 def VIEWEVENTS():
-    '''public int VIEWEVENTS()
+    '''returns int\n\n
+    VIEWEVENTS()\n
     '''
 def ACTIVATE():
-    '''public int ACTIVATE()
+    '''returns int\n\n
+    ACTIVATE()\n
     '''
 def deployapkg():
-    '''public int deployapkg()
+    '''returns int\n\n
+    deployapkg()\n
     '''
 def completedeploy():
-    '''public int completedeploy()
+    '''returns int\n\n
+    completedeploy()\n
     '''
 def longOpDeployPkg():
-    '''public int longOpDeployPkg()
+    '''returns int\n\n
+    longOpDeployPkg()\n
     '''
 def deployPackage():
-    '''public void deployPackage()
+    '''returns None\n\n
+    deployPackage()\n
     '''
 def changeSessionTimeout():
-    '''public void changeSessionTimeout(final boolean begin)
+    '''returns None\n\n
+    changeSessionTimeout(final boolean begin)\n
     '''
 def setCurDeployedPkg():
-    '''public void setCurDeployedPkg(final MboRemote pkg)
+    '''returns None\n\n
+    setCurDeployedPkg(final MboRemote pkg)\n
     '''
 def gotoPkgTab():
-    '''public void gotoPkgTab(final MboRemote curDeployedPkg)
+    '''returns None\n\n
+    gotoPkgTab(final MboRemote curDeployedPkg)\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def addtocollectionlongop():
-    '''public int addtocollectionlongop()
+    '''returns int\n\n
+    addtocollectionlongop()\n
     '''
 def addtocollectionlongopmain():
-    '''public void addtocollectionlongopmain()
+    '''returns None\n\n
+    addtocollectionlongopmain()\n
     '''

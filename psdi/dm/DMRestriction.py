@@ -1,3 +1,4 @@
-def DMRestriction():
-    '''public DMRestriction(final MboSet ms)
+def ():
+    '''returns DMRestriction\n\n
+    (final MboSet ms)\n
     '''

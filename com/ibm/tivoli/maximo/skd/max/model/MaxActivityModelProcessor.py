@@ -1,38 +1,50 @@
 HEIRARCHY_LEVEL = "String  \"_LEVEL\""
-def MaxActivityModelProcessor():
-    '''public MaxActivityModelProcessor(final Schedule schedule)
+def ():
+    '''returns MaxActivityModelProcessor\n\n
+    (final Schedule schedule)\n
     '''
 def getModel():
-    '''public IMXGanttModel getModel()
+    '''returns IMXGanttModel\n\n
+    getModel()\n
     '''
 def getRootActivity():
-    '''public IMXActivity getRootActivity()
+    '''returns IMXActivity\n\n
+    getRootActivity()\n
     '''
 def activityPreorderIterator():
-    '''public Iterator<IMXActivity> activityPreorderIterator()
-    public Iterator<IMXActivity> activityPreorderIterator(final IMXActivity activity)
+    '''returns Iterator<IMXActivity>\n\n
+    activityPreorderIterator()\n
+    activityPreorderIterator(final IMXActivity activity)\n
     '''
 def childActivityIterator():
-    '''public Iterator<IMXActivity> childActivityIterator(final IMXActivity activity)
+    '''returns Iterator<IMXActivity>\n\n
+    childActivityIterator(final IMXActivity activity)\n
     '''
 def getChildActivityCount():
-    '''public int getChildActivityCount(final IMXActivity activity)
+    '''returns int\n\n
+    getChildActivityCount(final IMXActivity activity)\n
     '''
 def constraintIteratorFromActivity():
-    '''public Iterator constraintIteratorFromActivity(final IMXActivity activity)
+    '''returns Iterator\n\n
+    constraintIteratorFromActivity(final IMXActivity activity)\n
     '''
 def constraintIteratorToActivity():
-    '''public Iterator constraintIteratorToActivity(final IMXActivity activity)
+    '''returns Iterator\n\n
+    constraintIteratorToActivity(final IMXActivity activity)\n
     '''
 def constraintIterator():
-    '''public Iterator constraintIterator(final IMXActivity activity)
+    '''returns Iterator\n\n
+    constraintIterator(final IMXActivity activity)\n
     '''
 def getActivityByID():
-    '''public IMXActivity getActivityByID(final String activityID)
+    '''returns IMXActivity\n\n
+    getActivityByID(final String activityID)\n
     '''
 def recalculateParentActivity():
-    '''public boolean recalculateParentActivity(final IMXActivity parent)
+    '''returns boolean\n\n
+    recalculateParentActivity(final IMXActivity parent)\n
     '''
 def getItemById():
-    '''public IMXActivity getItemById(final String id)
+    '''returns IMXActivity\n\n
+    getItemById(final String id)\n
     '''

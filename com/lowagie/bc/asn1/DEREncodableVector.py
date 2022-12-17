@@ -1,12 +1,16 @@
-def DEREncodableVector():
-    '''public DEREncodableVector()
+def ():
+    '''returns DEREncodableVector\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final DEREncodable obj)
+    '''returns None\n\n
+    add(final DEREncodable obj)\n
     '''
 def get():
-    '''public DEREncodable get(final int i)
+    '''returns DEREncodable\n\n
+    get(final int i)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

@@ -1,46 +1,41 @@
 NO_NUM_PARTITIONS = "int  -1"
 NO_REPLICATION_FACTOR = "short  -1"
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def CreateTopicsRequest():
-    '''public CreateTopicsRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final int partitions, final short replicationFactor, final Map<String, String> configs)\n
+    (final int partitions, final short replicationFactor)\n
+    (final Map<Integer, List<Integer>> replicasAssignments, final Map<String, String> configs)\n
+    (final Map<Integer, List<Integer>> replicasAssignments)\n
+    (final Map<String, TopicDetails> topics, final int timeout)\n
+    (final Map<String, TopicDetails> topics, final int timeout, final boolean validateOnly)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def topics():
-    '''public Map<String, TopicDetails> topics()
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def timeout():
-    '''public int timeout()
+    '''returns int\n\n
+    timeout()\n
     '''
 def validateOnly():
-    '''public boolean validateOnly()
+    '''returns boolean\n\n
+    validateOnly()\n
     '''
 def duplicateTopics():
-    '''public Set<String> duplicateTopics()
-    '''
-def parse():
-    '''public static CreateTopicsRequest parse(final ByteBuffer buffer, final short version)
+    '''returns Set<String>\n\n
+    duplicateTopics()\n
     '''
 def toStruct():
-    '''public Struct toStruct()
-    '''
-def TopicDetails():
-    '''public TopicDetails(final int partitions, final short replicationFactor, final Map<String, String> configs)
-    public TopicDetails(final int partitions, final short replicationFactor)
-    public TopicDetails(final Map<Integer, List<Integer>> replicasAssignments, final Map<String, String> configs)
-    public TopicDetails(final Map<Integer, List<Integer>> replicasAssignments)
+    '''returns Struct\n\n
+    toStruct()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def Builder():
-    '''public Builder(final Map<String, TopicDetails> topics, final int timeout)
-    public Builder(final Map<String, TopicDetails> topics, final int timeout, final boolean validateOnly)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def build():
-    '''public CreateTopicsRequest build(final short version)
+    '''returns CreateTopicsRequest\n\n
+    build(final short version)\n
     '''

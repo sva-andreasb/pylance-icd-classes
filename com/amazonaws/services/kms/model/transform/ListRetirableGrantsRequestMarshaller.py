@@ -1,6 +1,8 @@
-def ListRetirableGrantsRequestMarshaller():
-    '''public ListRetirableGrantsRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns ListRetirableGrantsRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<ListRetirableGrantsRequest> marshall(final ListRetirableGrantsRequest listRetirableGrantsRequest)
+    '''returns Request<ListRetirableGrantsRequest>\n\n
+    marshall(final ListRetirableGrantsRequest listRetirableGrantsRequest)\n
     '''

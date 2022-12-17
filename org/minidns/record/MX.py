@@ -1,13 +1,13 @@
-def parse():
-    '''public static MX parse(final DataInputStream dis, final byte[] data)
-    '''
-def MX():
-    '''public MX(final int priority, final String name)
-    public MX(final int priority, final DnsName name)
+def ():
+    '''returns MX\n\n
+    (final int priority, final String name)\n
+    (final int priority, final DnsName name)\n
     '''
 def serialize():
-    '''public void serialize(final DataOutputStream dos)
+    '''returns None\n\n
+    serialize(final DataOutputStream dos)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

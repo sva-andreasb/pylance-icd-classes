@@ -1,21 +1,28 @@
-def AppenderControl():
-    '''public AppenderControl(final Appender appender, final Level level, final Filter filter)
+def ():
+    '''returns AppenderControl\n\n
+    (final Appender appender, final Level level, final Filter filter)\n
     '''
 def getAppenderName():
-    '''public String getAppenderName()
+    '''returns String\n\n
+    getAppenderName()\n
     '''
 def getAppender():
-    '''public Appender getAppender()
+    '''returns Appender\n\n
+    getAppender()\n
     '''
 def callAppender():
-    '''public void callAppender(final LogEvent event)
+    '''returns None\n\n
+    callAppender(final LogEvent event)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,6 +1,8 @@
 def handleRequest():
-    '''public OslcResourceResponse handleRequest(final OslcRequest request)
+    '''returns OslcResourceResponse\n\n
+    handleRequest(final OslcRequest request)\n
     '''
 def resolveApiKey():
-    '''public String resolveApiKey(final String encApiKey)
+    '''returns String\n\n
+    resolveApiKey(final String encApiKey)\n
     '''

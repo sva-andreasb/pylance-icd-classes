@@ -1,24 +1,28 @@
 LIKETOKEN_0ORMORE = "int  1"
 LIKETOKEN_EXACTLY1 = "int  2"
 LIKETOKEN_TEXT = "int  3"
-def LikePatternMatcher():
-    '''public LikePatternMatcher(final String pattern)
+def ():
+    '''returns LikeToken\n\n
+    (final String pattern)\n
+    (final int type, final String text)\n
     '''
 def match():
-    '''public boolean match(final String value)
-    '''
-def LikeToken():
-    '''public LikeToken(final int type, final String text)
+    '''returns boolean\n\n
+    match(final String value)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final int type)
+    '''returns None\n\n
+    setType(final int type)\n
     '''

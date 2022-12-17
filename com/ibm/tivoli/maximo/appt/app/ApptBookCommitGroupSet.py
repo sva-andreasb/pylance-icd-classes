@@ -1,3 +1,4 @@
-def ApptBookCommitGroupSet():
-    '''public ApptBookCommitGroupSet(final MboServerInterface ms)
+def ():
+    '''returns ApptBookCommitGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''

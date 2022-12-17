@@ -53,100 +53,96 @@ KEYWORD = "String  \"keyword\""
 LANGUAGE_CODE_KEY = "String  \"langcode\""
 EMPTY_STRING = "String  \"\""
 ALLKEYWORDS = "String  \"allkeywords\""
-def SrmSearchEngine():
-    '''public SrmSearchEngine(final MboRemote refMbo)
-    public SrmSearchEngine(final MboRemote refMbo, final boolean useSpecialChars)
-    '''
-def isCatalogInstalled():
-    '''public static boolean isCatalogInstalled(final MboRemote refMbo)
-    '''
-def isDeskInstalled():
-    '''public static boolean isDeskInstalled(final MboRemote refMbo)
-    '''
-def isSolutionInstalled():
-    '''public static boolean isSolutionInstalled(final MboRemote refMbo)
-    '''
-def isServiceProviderInstalled():
-    '''public static boolean isServiceProviderInstalled(final MboRemote refMbo)
+def ():
+    '''returns SrmSearchEngine\n\n
+    (final MboRemote refMbo)\n
+    (final MboRemote refMbo, final boolean useSpecialChars)\n
     '''
 def createIndexingSearch():
-    '''public void createIndexingSearch()
+    '''returns None\n\n
+    createIndexingSearch()\n
     '''
 def simpleSearch():
-    '''public String simpleSearch(final String textSearch, final SearchConfigValues mboSearched, final List<SearchConfigValues> attributesSearched)
-    '''
-def searchAttachments():
-    '''public Map<SearchConfigValues, String> searchAttachments(final String textSearch, final long tktuid)
-    '''
-def searchStoringAttachments():
-    '''public Map<SearchConfigValues, String> searchStoringAttachments(final String textSearch, final List<String> configSearch, final long tktuid)
-    '''
-def search():
-    '''public Map<SearchConfigValues, String> search(final String textSearch, final List<String> configSearch, final int tktuid)
-    '''
-def searchFull():
-    '''public Map<SearchConfigValues, String> searchFull(String textSearch, final List<String> configSearch, final int tktuid)
+    '''returns String\n\n
+    simpleSearch(final String textSearch, final SearchConfigValues mboSearched, final List<SearchConfigValues> attributesSearched)\n
     '''
 def getLastUpdateDateWhereclause():
-    '''public String getLastUpdateDateWhereclause(final String luceneEntityKey)
+    '''returns String\n\n
+    getLastUpdateDateWhereclause(final String luceneEntityKey)\n
     '''
 def isOKToRun():
-    '''public boolean isOKToRun()
+    '''returns boolean\n\n
+    isOKToRun()\n
     '''
 def getLanguageForSearch():
-    '''public String getLanguageForSearch()
-    '''
-def getErrorMessageForThrowable():
-    '''public static final String getErrorMessageForThrowable(final Throwable t)
+    '''returns String\n\n
+    getLanguageForSearch()\n
     '''
 def getAllSDAttrbts():
-    '''public List<String> getAllSDAttrbts()
+    '''returns List<String>\n\n
+    getAllSDAttrbts()\n
     '''
 def getAttributeTitle():
-    '''public String getAttributeTitle(final String attributeName)
+    '''returns String\n\n
+    getAttributeTitle(final String attributeName)\n
     '''
 def getSolutionAttrbtsList():
-    '''public List<String> getSolutionAttrbtsList()
+    '''returns List<String>\n\n
+    getSolutionAttrbtsList()\n
     '''
 def setSolutionAttrbtsList():
-    '''public void setSolutionAttrbtsList(final List<String> solutionAttrbtsList)
+    '''returns None\n\n
+    setSolutionAttrbtsList(final List<String> solutionAttrbtsList)\n
     '''
 def getTicktAttrbts():
-    '''public List<String> getTicktAttrbts()
+    '''returns List<String>\n\n
+    getTicktAttrbts()\n
     '''
 def setTicktAttrbts():
-    '''public void setTicktAttrbts(final List<String> ticktAttrbts)
+    '''returns None\n\n
+    setTicktAttrbts(final List<String> ticktAttrbts)\n
     '''
 def getBbAttrbts():
-    '''public List<String> getBbAttrbts()
+    '''returns List<String>\n\n
+    getBbAttrbts()\n
     '''
 def setBbAttrbts():
-    '''public void setBbAttrbts(final List<String> bbAttrbts)
+    '''returns None\n\n
+    setBbAttrbts(final List<String> bbAttrbts)\n
     '''
 def classifierSearch():
-    '''public List<ClassProb> classifierSearch(final String textSearch, final SrmClassifierFilter filter, final boolean addClass)
+    '''returns List<ClassProb>\n\n
+    classifierSearch(final String textSearch, final SrmClassifierFilter filter, final boolean addClass)\n
     '''
 def getSession():
-    '''public MXSession getSession()
+    '''returns MXSession\n\n
+    getSession()\n
     '''
 def setSession():
-    '''public void setSession(final MXSession session)
+    '''returns None\n\n
+    setSession(final MXSession session)\n
     '''
 def getQualifiedWhere():
-    '''public String getQualifiedWhere(final String mboName)
+    '''returns String\n\n
+    getQualifiedWhere(final String mboName)\n
     '''
 def isUpgradedVersion():
-    '''public boolean isUpgradedVersion()
+    '''returns boolean\n\n
+    isUpgradedVersion()\n
     '''
 def checkOldMbo():
-    '''public boolean checkOldMbo(final String mboName)
+    '''returns boolean\n\n
+    checkOldMbo(final String mboName)\n
     '''
 def getAttachmentNameFromID():
-    '''public String getAttachmentNameFromID(final String mboName, final String id)
+    '''returns String\n\n
+    getAttachmentNameFromID(final String mboName, final String id)\n
     '''
 def setAttachmentFileName():
-    '''public void setAttachmentFileName(final MboSetRemote mboSet, final String mboName, final String mboIdName)
+    '''returns None\n\n
+    setAttachmentFileName(final MboSetRemote mboSet, final String mboName, final String mboIdName)\n
     '''
 def setMboSetScore():
-    '''public void setMboSetScore(final MboSetRemote mboSet, final String keyName)
+    '''returns None\n\n
+    setMboSetScore(final MboSetRemote mboSet, final String keyName)\n
     '''

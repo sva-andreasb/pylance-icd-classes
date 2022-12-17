@@ -1,0 +1,7 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STTextCapsType.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"sttextcapstyped233type\")"
+NONE = "Enum  Enum.forString(\"none\")"
+SMALL = "Enum  Enum.forString(\"small\")"
+ALL = "Enum  Enum.forString(\"all\")"
+INT_NONE = "int  1"
+INT_SMALL = "int  2"
+INT_ALL = "int  3"

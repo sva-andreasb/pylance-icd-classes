@@ -1,15 +1,20 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def filterrows():
-    '''public int filterrows()
+    '''returns int\n\n
+    filterrows()\n
     '''
 def sortcolumn():
-    '''public int sortcolumn()
+    '''returns int\n\n
+    sortcolumn()\n
     '''
 def clearfilter():
-    '''public int clearfilter()
+    '''returns int\n\n
+    clearfilter()\n
     '''

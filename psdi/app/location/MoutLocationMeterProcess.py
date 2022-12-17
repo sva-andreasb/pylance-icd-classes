@@ -1,15 +1,20 @@
-def MoutLocationMeterProcess():
-    '''public MoutLocationMeterProcess()
+def ():
+    '''returns MoutLocationMeterProcess\n\n
+    ()\n
     '''
 def getLocationMetersWithDevices():
-    '''public void getLocationMetersWithDevices(final MboSet locationMeterSet, final String iotservicename)
+    '''returns None\n\n
+    getLocationMetersWithDevices(final MboSet locationMeterSet, final String iotservicename)\n
     '''
 def getOrphanedLocationMeters():
-    '''public void getOrphanedLocationMeters(final MboSet locationMeterSet, final String iotservicename)
+    '''returns None\n\n
+    getOrphanedLocationMeters(final MboSet locationMeterSet, final String iotservicename)\n
     '''
 def getLocationsWithDevices():
-    '''public void getLocationsWithDevices(final MboSet locationMeterSet, final String iotservicename)
+    '''returns None\n\n
+    getLocationsWithDevices(final MboSet locationMeterSet, final String iotservicename)\n
     '''
 def getOrphanedLocations():
-    '''public void getOrphanedLocations(final MboSet locationMeterSet, final String iotservicename)
+    '''returns None\n\n
+    getOrphanedLocations(final MboSet locationMeterSet, final String iotservicename)\n
     '''

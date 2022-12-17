@@ -1,6 +1,8 @@
-def TenantChangeStatusSet():
-    '''public TenantChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns TenantChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMboIntoSet():
-    '''public MboSetRemote getMboIntoSet(final MboRemote mbo)
+    '''returns MboSetRemote\n\n
+    getMboIntoSet(final MboRemote mbo)\n
     '''

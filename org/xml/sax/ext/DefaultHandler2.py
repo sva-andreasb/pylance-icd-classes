@@ -1,40 +1,53 @@
 def startCDATA():
-    '''public void startCDATA()
+    '''returns None\n\n
+    startCDATA()\n
     '''
 def endCDATA():
-    '''public void endCDATA()
+    '''returns None\n\n
+    endCDATA()\n
     '''
 def startDTD():
-    '''public void startDTD(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    startDTD(final String s, final String s2, final String s3)\n
     '''
 def endDTD():
-    '''public void endDTD()
+    '''returns None\n\n
+    endDTD()\n
     '''
 def startEntity():
-    '''public void startEntity(final String s)
+    '''returns None\n\n
+    startEntity(final String s)\n
     '''
 def endEntity():
-    '''public void endEntity(final String s)
+    '''returns None\n\n
+    endEntity(final String s)\n
     '''
 def comment():
-    '''public void comment(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    comment(final char[] array, final int n, final int n2)\n
     '''
 def attributeDecl():
-    '''public void attributeDecl(final String s, final String s2, final String s3, final String s4, final String s5)
+    '''returns None\n\n
+    attributeDecl(final String s, final String s2, final String s3, final String s4, final String s5)\n
     '''
 def elementDecl():
-    '''public void elementDecl(final String s, final String s2)
+    '''returns None\n\n
+    elementDecl(final String s, final String s2)\n
     '''
 def externalEntityDecl():
-    '''public void externalEntityDecl(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    externalEntityDecl(final String s, final String s2, final String s3)\n
     '''
 def internalEntityDecl():
-    '''public void internalEntityDecl(final String s, final String s2)
+    '''returns None\n\n
+    internalEntityDecl(final String s, final String s2)\n
     '''
 def getExternalSubset():
-    '''public InputSource getExternalSubset(final String s, final String s2)
+    '''returns InputSource\n\n
+    getExternalSubset(final String s, final String s2)\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String s, final String s2, final String s3, final String s4)
-    public InputSource resolveEntity(final String s, final String s2)
+    '''returns InputSource\n\n
+    resolveEntity(final String s, final String s2, final String s3, final String s4)\n
+    resolveEntity(final String s, final String s2)\n
     '''

@@ -1,9 +1,12 @@
-def ModifyTemplates():
-    '''public ModifyTemplates()
+def ():
+    '''returns ModifyTemplates\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def deleterow():
-    '''public int deleterow()
+    '''returns int\n\n
+    deleterow()\n
     '''

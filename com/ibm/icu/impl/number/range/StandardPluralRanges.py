@@ -1,9 +1,12 @@
-def StandardPluralRanges():
-    '''public StandardPluralRanges(final ULocale locale)
+def ():
+    '''returns StandardPluralRanges\n\n
+    (final ULocale locale)\n
     '''
 def resolve():
-    '''public StandardPlural resolve(final StandardPlural first, final StandardPlural second)
+    '''returns StandardPlural\n\n
+    resolve(final StandardPlural first, final StandardPlural second)\n
     '''
 def put():
-    '''public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
+    '''returns None\n\n
+    put(final UResource.Key key, final UResource.Value value, final boolean noFallback)\n
     '''

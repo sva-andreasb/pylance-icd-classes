@@ -1,26 +1,34 @@
 ELEMENT = "String  \"data\""
 NAMESPACE = "String  \"http://jabber.org/protocol/ibb\""
-def DataPacketExtension():
-    '''public DataPacketExtension(final String sessionID, final long seq, final String data)
+def ():
+    '''returns DataPacketExtension\n\n
+    (final String sessionID, final long seq, final String data)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getSeq():
-    '''public long getSeq()
+    '''returns long\n\n
+    getSeq()\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def getDecodedData():
-    '''public byte[] getDecodedData()
+    '''returns byte[]\n\n
+    getDecodedData()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

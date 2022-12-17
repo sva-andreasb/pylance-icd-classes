@@ -1,24 +1,32 @@
-def InteractionBinder():
-    '''public InteractionBinder(final String interactionName)
+def ():
+    '''returns InteractionBinder\n\n
+    (final String interactionName)\n
     '''
 def bind():
-    '''public void bind(final MboSetRemote interactionSet, final MboRemote mainMbo, final boolean isResponse)
+    '''returns None\n\n
+    bind(final MboSetRemote interactionSet, final MboRemote mainMbo, final boolean isResponse)\n
     '''
 def bindInteractionData():
-    '''public void bindInteractionData(final MboRemote sourceMbo, final MboRemote targetMbo, final IntMappingInfo mapping)
+    '''returns None\n\n
+    bindInteractionData(final MboRemote sourceMbo, final MboRemote targetMbo, final IntMappingInfo mapping)\n
     '''
 def bindData():
-    '''public void bindData(final MboRemote sourceMbo, final MboRemote targetMbo, final String parameter, String value)
+    '''returns None\n\n
+    bindData(final MboRemote sourceMbo, final MboRemote targetMbo, final String parameter, String value)\n
     '''
 def findKeyName():
-    '''public IntMappingDetailInfo findKeyName(final IntMappingInfo mapping, final String keyName)
+    '''returns IntMappingDetailInfo\n\n
+    findKeyName(final IntMappingInfo mapping, final String keyName)\n
     '''
 def getKeyValue():
-    '''public String getKeyValue(final MboRemote sourceMbo, String value)
+    '''returns String\n\n
+    getKeyValue(final MboRemote sourceMbo, String value)\n
     '''
 def formatColumn():
-    '''public String formatColumn(final MboRemote sourceMbo, final String name)
+    '''returns String\n\n
+    formatColumn(final MboRemote sourceMbo, final String name)\n
     '''
 def getRelatedSets():
-    '''public void getRelatedSets(final MboRemote sourceMbo, String value, final List<MboSetRemote> relatedSets)
+    '''returns None\n\n
+    getRelatedSets(final MboRemote sourceMbo, String value, final List<MboSetRemote> relatedSets)\n
     '''

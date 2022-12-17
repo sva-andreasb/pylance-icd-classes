@@ -1,114 +1,150 @@
 def xmlDeclEvent():
-    '''public void xmlDeclEvent(final XMLString xmlString)
+    '''returns None\n\n
+    xmlDeclEvent(final XMLString xmlString)\n
     '''
 def startElementEvent():
-    '''public void startElementEvent(final QName qName, final NSDeclList fnsDecls, final AttrList fAttrs, final boolean b)
+    '''returns None\n\n
+    startElementEvent(final QName qName, final NSDeclList fnsDecls, final AttrList fAttrs, final boolean b)\n
     '''
 def endElementEvent():
-    '''public void endElementEvent(final QName qName, final NSDeclList fnsDecls)
+    '''returns None\n\n
+    endElementEvent(final QName qName, final NSDeclList fnsDecls)\n
     '''
 def characters():
-    '''public void characters(final XMLString xmlString)
+    '''returns None\n\n
+    characters(final XMLString xmlString)\n
     '''
 def whitespace():
-    '''public void whitespace(final XMLString xmlString)
+    '''returns None\n\n
+    whitespace(final XMLString xmlString)\n
     '''
 def character():
-    '''public void character(final int n, final boolean b)
+    '''returns None\n\n
+    character(final int n, final boolean b)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final XMLString xmlString, final XMLString xmlString2)
+    '''returns None\n\n
+    processingInstruction(final XMLString xmlString, final XMLString xmlString2)\n
     '''
 def skippedEntity():
-    '''public boolean skippedEntity(final XMLString xmlString)
+    '''returns boolean\n\n
+    skippedEntity(final XMLString xmlString)\n
     '''
 def startEntity():
-    '''public void startEntity(final XMLString xmlString)
+    '''returns None\n\n
+    startEntity(final XMLString xmlString)\n
     '''
 def endEntity():
-    '''public void endEntity(final XMLString xmlString)
+    '''returns None\n\n
+    endEntity(final XMLString xmlString)\n
     '''
 def startCDATASection():
-    '''public void startCDATASection()
+    '''returns None\n\n
+    startCDATASection()\n
     '''
 def endCDATASection():
-    '''public void endCDATASection()
+    '''returns None\n\n
+    endCDATASection()\n
     '''
 def comment():
-    '''public void comment(final XMLString xmlString)
+    '''returns None\n\n
+    comment(final XMLString xmlString)\n
     '''
 def reportWarning():
-    '''public void reportWarning(final String s, final int n, final int n2, final XMLString[] array)
+    '''returns None\n\n
+    reportWarning(final String s, final int n, final int n2, final XMLString[] array)\n
     '''
 def reportRecoverableError():
-    '''public void reportRecoverableError(final String s, final int n, final int n2, final XMLString[] array)
+    '''returns None\n\n
+    reportRecoverableError(final String s, final int n, final int n2, final XMLString[] array)\n
     '''
 def reportFatalError():
-    '''public void reportFatalError(final String s, final int n, final int n2, final XMLString[] array)
+    '''returns None\n\n
+    reportFatalError(final String s, final int n, final int n2, final XMLString[] array)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getURI():
-    '''public String getURI(final int n)
+    '''returns String\n\n
+    getURI(final int n)\n
     '''
 def getLocalName():
-    '''public String getLocalName(final int n)
+    '''returns String\n\n
+    getLocalName(final int n)\n
     '''
 def getQName():
-    '''public String getQName(final int n)
+    '''returns String\n\n
+    getQName(final int n)\n
     '''
 def getType():
-    '''public String getType(final int n)
-    public String getType(final String s, final String s2)
-    public String getType(final String s)
+    '''returns String\n\n
+    getType(final int n)\n
+    getType(final String s, final String s2)\n
+    getType(final String s)\n
     '''
 def getValue():
-    '''public String getValue(int n)
-    public String getValue(final String s, final String s2)
-    public String getValue(final String s)
+    '''returns String\n\n
+    getValue(int n)\n
+    getValue(final String s, final String s2)\n
+    getValue(final String s)\n
     '''
 def getIndex():
-    '''public int getIndex(final String s, final String s2)
-    public int getIndex(final String s)
+    '''returns int\n\n
+    getIndex(final String s, final String s2)\n
+    getIndex(final String s)\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String s)
+    '''returns boolean\n\n
+    getFeature(final String s)\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean b)
+    '''returns None\n\n
+    setFeature(final String s, final boolean b)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def setContentHandler():
-    '''public void setContentHandler(final ContentHandler fContentHandler)
+    '''returns None\n\n
+    setContentHandler(final ContentHandler fContentHandler)\n
     '''
 def getContentHandler():
-    '''public ContentHandler getContentHandler()
+    '''returns ContentHandler\n\n
+    getContentHandler()\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler fErrorHandler)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler fErrorHandler)\n
     '''
 def getErrorHandler():
-    '''public ErrorHandler getErrorHandler()
+    '''returns ErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def parse():
-    '''public void parse(final InputSource inputSource)
-    public void parse(final String systemId)
+    '''returns None\n\n
+    parse(final InputSource inputSource)\n
+    parse(final String systemId)\n
     '''

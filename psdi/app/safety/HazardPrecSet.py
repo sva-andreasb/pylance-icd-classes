@@ -1,9 +1,12 @@
-def HazardPrecSet():
-    '''public HazardPrecSet(final MboServerInterface ms)
+def ():
+    '''returns HazardPrecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getMultiSiteWhere():
-    '''public String getMultiSiteWhere()
+    '''returns String\n\n
+    getMultiSiteWhere()\n
     '''

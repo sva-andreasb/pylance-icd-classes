@@ -1,12 +1,16 @@
-def SpanQueryBuilderFactory():
-    '''public SpanQueryBuilderFactory()
+def ():
+    '''returns SpanQueryBuilderFactory\n\n
+    ()\n
     '''
 def getQuery():
-    '''public Query getQuery(final Element e)
+    '''returns Query\n\n
+    getQuery(final Element e)\n
     '''
 def addBuilder():
-    '''public void addBuilder(final String nodeName, final SpanQueryBuilder builder)
+    '''returns None\n\n
+    addBuilder(final String nodeName, final SpanQueryBuilder builder)\n
     '''
 def getSpanQuery():
-    '''public SpanQuery getSpanQuery(final Element e)
+    '''returns SpanQuery\n\n
+    getSpanQuery(final Element e)\n
     '''

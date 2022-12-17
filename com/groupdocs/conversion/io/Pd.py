@@ -1,17 +1,20 @@
-def Pd():
-    '''public Pd(final Reader reader, final CharsetEncoder charsetEncoder)
-    public Pd(final Reader reader, final CharsetEncoder encoder, final int capacity)
-    public Pd(final Reader reader, final Charset charset, final int n)
-    public Pd(final Reader reader, final Charset charset)
-    public Pd(final Reader reader, final String charsetName, final int n)
-    public Pd(final Reader reader, final String s)
-    public Pd(final Reader reader)
+def ():
+    '''returns Pd\n\n
+    (final Reader reader, final CharsetEncoder charsetEncoder)\n
+    (final Reader reader, final CharsetEncoder encoder, final int capacity)\n
+    (final Reader reader, final Charset charset, final int n)\n
+    (final Reader reader, final Charset charset)\n
+    (final Reader reader, final String charsetName, final int n)\n
+    (final Reader reader, final String s)\n
+    (final Reader reader)\n
     '''
 def read():
-    '''public int read(final byte[] b, int off, int len)
-    public int read(final byte[] b)
-    public int read()
+    '''returns int\n\n
+    read(final byte[] b, int off, int len)\n
+    read(final byte[] b)\n
+    read()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

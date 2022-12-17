@@ -1,3 +1,4 @@
-def ParentObjName():
-    '''public ParentObjName(final MboSet ms)
+def ():
+    '''returns ParentObjName\n\n
+    (final MboSet ms)\n
     '''

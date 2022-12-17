@@ -1,148 +1,164 @@
-def isAnonymous():
-    '''public final boolean isAnonymous()
-    '''
 def _extends():
-    '''public JDefinedClass _extends(final JClass superClass)
-    public JDefinedClass _extends(final Class<?> superClass)
-    public JClass _extends()
+    '''returns JClass\n\n
+    _extends(final JClass superClass)\n
+    _extends(final Class<?> superClass)\n
+    _extends()\n
     '''
 def _implements():
-    '''public JDefinedClass _implements(final JClass iface)
-    public JDefinedClass _implements(final Class<?> iface)
-    public Iterator<JClass> _implements()
+    '''returns Iterator<JClass>\n\n
+    _implements(final JClass iface)\n
+    _implements(final Class<?> iface)\n
+    _implements()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def enumConstant():
-    '''public JEnumConstant enumConstant(final String name)
+    '''returns JEnumConstant\n\n
+    enumConstant(final String name)\n
     '''
 def fullName():
-    '''public String fullName()
+    '''returns String\n\n
+    fullName()\n
     '''
 def binaryName():
-    '''public String binaryName()
+    '''returns String\n\n
+    binaryName()\n
     '''
 def isInterface():
-    '''public boolean isInterface()
+    '''returns boolean\n\n
+    isInterface()\n
     '''
 def isAbstract():
-    '''public boolean isAbstract()
+    '''returns boolean\n\n
+    isAbstract()\n
     '''
 def field():
-    '''public JFieldVar field(final int mods, final JType type, final String name)
-    public JFieldVar field(final int mods, final Class<?> type, final String name)
-    public JFieldVar field(final int mods, final JType type, final String name, final JExpression init)
-    public JFieldVar field(final int mods, final Class<?> type, final String name, final JExpression init)
+    '''returns JFieldVar\n\n
+    field(final int mods, final JType type, final String name)\n
+    field(final int mods, final Class<?> type, final String name)\n
+    field(final int mods, final JType type, final String name, final JExpression init)\n
+    field(final int mods, final Class<?> type, final String name, final JExpression init)\n
     '''
 def isAnnotationTypeDeclaration():
-    '''public boolean isAnnotationTypeDeclaration()
+    '''returns boolean\n\n
+    isAnnotationTypeDeclaration()\n
     '''
 def _annotationTypeDeclaration():
-    '''public JDefinedClass _annotationTypeDeclaration(final String name)
+    '''returns JDefinedClass\n\n
+    _annotationTypeDeclaration(final String name)\n
     '''
 def _enum():
-    '''public JDefinedClass _enum(final String name)
-    public JDefinedClass _enum(final int mods, final String name)
+    '''returns JDefinedClass\n\n
+    _enum(final String name)\n
+    _enum(final int mods, final String name)\n
     '''
 def getClassType():
-    '''public ClassType getClassType()
-    '''
-def fields():
-    '''public Map<String, JFieldVar> fields()
+    '''returns ClassType\n\n
+    getClassType()\n
     '''
 def removeField():
-    '''public void removeField(final JFieldVar field)
+    '''returns None\n\n
+    removeField(final JFieldVar field)\n
     '''
 def init():
-    '''public JBlock init()
+    '''returns JBlock\n\n
+    init()\n
     '''
 def constructor():
-    '''public JMethod constructor(final int mods)
+    '''returns JMethod\n\n
+    constructor(final int mods)\n
     '''
 def constructors():
-    '''public Iterator<JMethod> constructors()
+    '''returns Iterator<JMethod>\n\n
+    constructors()\n
     '''
 def getConstructor():
-    '''public JMethod getConstructor(final JType[] argTypes)
+    '''returns JMethod\n\n
+    getConstructor(final JType[] argTypes)\n
     '''
 def method():
-    '''public JMethod method(final int mods, final JType type, final String name)
-    public JMethod method(final int mods, final Class<?> type, final String name)
+    '''returns JMethod\n\n
+    method(final int mods, final JType type, final String name)\n
+    method(final int mods, final Class<?> type, final String name)\n
     '''
 def methods():
-    '''public Collection<JMethod> methods()
+    '''returns Collection<JMethod>\n\n
+    methods()\n
     '''
 def getMethod():
-    '''public JMethod getMethod(final String name, final JType[] argTypes)
+    '''returns JMethod\n\n
+    getMethod(final String name, final JType[] argTypes)\n
     '''
 def isClass():
-    '''public boolean isClass()
+    '''returns boolean\n\n
+    isClass()\n
     '''
 def isPackage():
-    '''public boolean isPackage()
+    '''returns boolean\n\n
+    isPackage()\n
     '''
 def getPackage():
-    '''public JPackage getPackage()
+    '''returns JPackage\n\n
+    getPackage()\n
     '''
 def _class():
-    '''public JDefinedClass _class(final int mods, final String name)
-    public JDefinedClass _class(final int mods, final String name, final boolean isInterface)
-    public JDefinedClass _class(final int mods, final String name, final ClassType classTypeVal)
-    public JDefinedClass _class(final String name)
+    '''returns JDefinedClass\n\n
+    _class(final int mods, final String name)\n
+    _class(final int mods, final String name, final boolean isInterface)\n
+    _class(final int mods, final String name, final ClassType classTypeVal)\n
+    _class(final String name)\n
     '''
 def _interface():
-    '''public JDefinedClass _interface(final int mods, final String name)
-    public JDefinedClass _interface(final String name)
+    '''returns JDefinedClass\n\n
+    _interface(final int mods, final String name)\n
+    _interface(final String name)\n
     '''
 def javadoc():
-    '''public JDocComment javadoc()
+    '''returns JDocComment\n\n
+    javadoc()\n
     '''
 def hide():
-    '''public void hide()
+    '''returns None\n\n
+    hide()\n
     '''
 def isHidden():
-    '''public boolean isHidden()
-    '''
-def classes():
-    '''public final Iterator<JDefinedClass> classes()
-    '''
-def listClasses():
-    '''public final JClass[] listClasses()
+    '''returns boolean\n\n
+    isHidden()\n
     '''
 def outer():
-    '''public JClass outer()
+    '''returns JClass\n\n
+    outer()\n
     '''
 def declare():
-    '''public void declare(final JFormatter f)
+    '''returns None\n\n
+    declare(final JFormatter f)\n
     '''
 def direct():
-    '''public void direct(final String string)
-    '''
-def _package():
-    '''public final JPackage _package()
-    '''
-def parentContainer():
-    '''public final JClassContainer parentContainer()
+    '''returns None\n\n
+    direct(final String string)\n
     '''
 def generify():
-    '''public JTypeVar generify(final String name)
-    public JTypeVar generify(final String name, final Class<?> bound)
-    public JTypeVar generify(final String name, final JClass bound)
+    '''returns JTypeVar\n\n
+    generify(final String name)\n
+    generify(final String name, final Class<?> bound)\n
+    generify(final String name, final JClass bound)\n
     '''
 def typeParams():
-    '''public JTypeVar[] typeParams()
+    '''returns JTypeVar[]\n\n
+    typeParams()\n
     '''
 def annotate():
-    '''public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
-    public JAnnotationUse annotate(final JClass clazz)
-    '''
-def annotate2():
-    '''public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
+    '''returns JAnnotationUse\n\n
+    annotate(final Class<? extends Annotation> clazz)\n
+    annotate(final JClass clazz)\n
     '''
 def annotations():
-    '''public Collection<JAnnotationUse> annotations()
+    '''returns Collection<JAnnotationUse>\n\n
+    annotations()\n
     '''
 def mods():
-    '''public JMods mods()
+    '''returns JMods\n\n
+    mods()\n
     '''

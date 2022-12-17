@@ -1,88 +1,103 @@
-def attach():
-    '''public static BPlusTree attach(final BPlusTreeParams params, final BlockMgr blkMgrNodes, final BlockMgr blkMgrLeaves)
-    '''
-def makeMem():
-    '''public static BPlusTree makeMem(final int order, final int minRecords, final int keyLength, final int valueLength)
-    public static BPlusTree makeMem(final String name, final int order, final int minRecords, final int keyLength, final int valueLength)
-    '''
-def dummy():
-    '''public static BPlusTree dummy(final BPlusTreeParams params, final BlockMgr blkMgrNodes, final BlockMgr blkMgrLeaves)
-    '''
 def getParams():
-    '''public BPlusTreeParams getParams()
+    '''returns BPlusTreeParams\n\n
+    getParams()\n
     '''
 def getNodeManager():
-    '''public BPTreeNodeMgr getNodeManager()
+    '''returns BPTreeNodeMgr\n\n
+    getNodeManager()\n
     '''
 def getRecordsMgr():
-    '''public BPTreeRecordsMgr getRecordsMgr()
+    '''returns BPTreeRecordsMgr\n\n
+    getRecordsMgr()\n
     '''
 def getRecordFactory():
-    '''public RecordFactory getRecordFactory()
+    '''returns RecordFactory\n\n
+    getRecordFactory()\n
     '''
 def find():
-    '''public Record find(final Record record)
+    '''returns Record\n\n
+    find(final Record record)\n
     '''
 def contains():
-    '''public boolean contains(final Record record)
+    '''returns boolean\n\n
+    contains(final Record record)\n
     '''
 def minKey():
-    '''public Record minKey()
+    '''returns Record\n\n
+    minKey()\n
     '''
 def maxKey():
-    '''public Record maxKey()
+    '''returns Record\n\n
+    maxKey()\n
     '''
 def add():
-    '''public boolean add(final Record record)
+    '''returns boolean\n\n
+    add(final Record record)\n
     '''
 def addAndReturnOld():
-    '''public Record addAndReturnOld(final Record record)
+    '''returns Record\n\n
+    addAndReturnOld(final Record record)\n
     '''
 def delete():
-    '''public boolean delete(final Record record)
+    '''returns boolean\n\n
+    delete(final Record record)\n
     '''
 def deleteAndReturnOld():
-    '''public Record deleteAndReturnOld(final Record record)
+    '''returns Record\n\n
+    deleteAndReturnOld(final Record record)\n
     '''
 def iterator():
-    '''public Iterator<Record> iterator()
-    public Iterator<Record> iterator(final Record fromRec, final Record toRec)
+    '''returns Iterator<Record>\n\n
+    iterator()\n
+    iterator(final Record fromRec, final Record toRec)\n
     '''
 def finishRead():
-    '''public void finishRead()
+    '''returns None\n\n
+    finishRead()\n
     '''
 def finishUpdate():
-    '''public void finishUpdate()
+    '''returns None\n\n
+    finishUpdate()\n
     '''
 def startRead():
-    '''public void startRead()
+    '''returns None\n\n
+    startRead()\n
     '''
 def startUpdate():
-    '''public void startUpdate()
+    '''returns None\n\n
+    startUpdate()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def sessionTripleCount():
-    '''public long sessionTripleCount()
+    '''returns long\n\n
+    sessionTripleCount()\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def check():
-    '''public void check()
+    '''returns None\n\n
+    check()\n
     '''
 def dump():
-    '''public void dump()
-    public void dump(final IndentedWriter out)
+    '''returns None\n\n
+    dump()\n
+    dump(final IndentedWriter out)\n
     '''

@@ -1,9 +1,12 @@
 def createValue():
-    '''public Value createValue(final LexicalUnit lu, final CSSEngine engine)
+    '''returns Value\n\n
+    createValue(final LexicalUnit lu, final CSSEngine engine)\n
     '''
 def createFloatValue():
-    '''public Value createFloatValue(final short type, final float floatValue)
+    '''returns Value\n\n
+    createFloatValue(final short type, final float floatValue)\n
     '''
 def computeValue():
-    '''public Value computeValue(final CSSStylableElement elt, final String pseudo, final CSSEngine engine, final int idx, final StyleMap sm, final Value value)
+    '''returns Value\n\n
+    computeValue(final CSSStylableElement elt, final String pseudo, final CSSEngine engine, final int idx, final StyleMap sm, final Value value)\n
     '''

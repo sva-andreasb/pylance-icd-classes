@@ -1,36 +1,44 @@
-def SubjectInfoImpl():
-    '''public SubjectInfoImpl()
+def ():
+    '''returns SubjectInfoImpl\n\n
+    ()\n
     '''
 def getScope():
-    '''public BulletinBoardScope getScope()
+    '''returns BulletinBoardScope\n\n
+    getScope()\n
     '''
 def getSubjectName():
-    '''public String getSubjectName()
+    '''returns String\n\n
+    getSubjectName()\n
     '''
 def getBoardName():
-    '''public String getBoardName()
+    '''returns String\n\n
+    getBoardName()\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput arg0)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput arg0)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput arg0)
+    '''returns None\n\n
+    readExternal(final ObjectInput arg0)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object arg0)
+    '''returns int\n\n
+    compareTo(final Object arg0)\n
     '''
 def equals():
-    '''public boolean equals(final Object arg0)
+    '''returns boolean\n\n
+    equals(final Object arg0)\n
     '''
 def isAssignedToActiveCoordinator():
-    '''public boolean isAssignedToActiveCoordinator(final int indexOfActiveCoordinator, final int numberOfCoordinators)
-    '''
-def getActiveCoordinatorIndex():
-    '''public final int getActiveCoordinatorIndex(final int numberOfCoordinators)
+    '''returns boolean\n\n
+    isAssignedToActiveCoordinator(final int indexOfActiveCoordinator, final int numberOfCoordinators)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

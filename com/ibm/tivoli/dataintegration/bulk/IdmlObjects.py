@@ -2,44 +2,53 @@ FULL_XML_STRING = "int  0"
 MSS_XML_STRING = "int  1"
 ME_XML_STRING = "int  2"
 REL_XML_STRING = "int  3"
-def IdmlObjects():
-    '''public IdmlObjects()
+def ():
+    '''returns IdmlNamespaceContext\n\n
+    ()\n
+    ()\n
     '''
 def parse():
-    '''public void parse(final InputSource is)
-    public void parse(final String xml, final int xmltype)
+    '''returns None\n\n
+    parse(final InputSource is)\n
+    parse(final String xml, final int xmltype)\n
     '''
 def getMssElements():
-    '''public List getMssElements()
+    '''returns List\n\n
+    getMssElements()\n
     '''
 def getManagedElements():
-    '''public List getManagedElements()
-    public List<Map<String, String>> getManagedElements(final String xml, final List<Map<String, String>> extendedAttr, final boolean addIdAndSuperior)
+    '''returns List\n\n
+    getManagedElements()\n
     '''
 def getExtendedAttributes():
-    '''public List getExtendedAttributes()
+    '''returns List\n\n
+    getExtendedAttributes()\n
     '''
 def getRelationships():
-    '''public List getRelationships()
-    '''
-def IdmlNamespaceContext():
-    '''public IdmlNamespaceContext()
+    '''returns List\n\n
+    getRelationships()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI(final String prefix)
+    '''returns String\n\n
+    getNamespaceURI(final String prefix)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String namespaceURI)
+    '''returns String\n\n
+    getPrefix(final String namespaceURI)\n
     '''
 def getPrefixes():
-    '''public Iterator getPrefixes(final String namespaceURI)
+    '''returns Iterator\n\n
+    getPrefixes(final String namespaceURI)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException spe)
+    '''returns None\n\n
+    warning(final SAXParseException spe)\n
     '''
 def error():
-    '''public void error(final SAXParseException spe)
+    '''returns None\n\n
+    error(final SAXParseException spe)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException spe)
+    '''returns None\n\n
+    fatalError(final SAXParseException spe)\n
     '''

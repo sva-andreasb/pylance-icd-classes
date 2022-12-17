@@ -1,35 +1,37 @@
 def canUseFor():
-    '''public boolean canUseFor(final ObjectIdGenerator<?> gen)
-    public boolean canUseFor(final ObjectIdGenerator<?> gen)
-    public boolean canUseFor(final ObjectIdGenerator<?> gen)
+    '''returns boolean\n\n
+    canUseFor(final ObjectIdGenerator<?> gen)\n
+    canUseFor(final ObjectIdGenerator<?> gen)\n
+    canUseFor(final ObjectIdGenerator<?> gen)\n
     '''
-def IntSequenceGenerator():
-    '''public IntSequenceGenerator()
-    public IntSequenceGenerator(final Class<?> scope, final int fv)
+def ():
+    '''returns StringIdGenerator\n\n
+    ()\n
+    (final Class<?> scope, final int fv)\n
+    ()\n
+    ()\n
     '''
 def forScope():
-    '''public ObjectIdGenerator<Integer> forScope(final Class<?> scope)
-    public ObjectIdGenerator<UUID> forScope(final Class<?> scope)
-    public ObjectIdGenerator<String> forScope(final Class<?> scope)
+    '''returns ObjectIdGenerator<String>\n\n
+    forScope(final Class<?> scope)\n
+    forScope(final Class<?> scope)\n
+    forScope(final Class<?> scope)\n
     '''
 def newForSerialization():
-    '''public ObjectIdGenerator<Integer> newForSerialization(final Object context)
-    public ObjectIdGenerator<UUID> newForSerialization(final Object context)
-    public ObjectIdGenerator<String> newForSerialization(final Object context)
+    '''returns ObjectIdGenerator<String>\n\n
+    newForSerialization(final Object context)\n
+    newForSerialization(final Object context)\n
+    newForSerialization(final Object context)\n
     '''
 def key():
-    '''public IdKey key(final Object key)
-    public IdKey key(final Object key)
-    public IdKey key(final Object key)
+    '''returns IdKey\n\n
+    key(final Object key)\n
+    key(final Object key)\n
+    key(final Object key)\n
     '''
 def generateId():
-    '''public Integer generateId(final Object forPojo)
-    public UUID generateId(final Object forPojo)
-    public String generateId(final Object forPojo)
-    '''
-def UUIDGenerator():
-    '''public UUIDGenerator()
-    '''
-def StringIdGenerator():
-    '''public StringIdGenerator()
+    '''returns String\n\n
+    generateId(final Object forPojo)\n
+    generateId(final Object forPojo)\n
+    generateId(final Object forPojo)\n
     '''

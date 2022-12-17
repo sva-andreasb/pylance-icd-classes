@@ -1,4 +1,5 @@
-def DateParseException():
-    '''public DateParseException()
-    public DateParseException(final String message)
+def ():
+    '''returns DateParseException\n\n
+    ()\n
+    (final String message)\n
     '''

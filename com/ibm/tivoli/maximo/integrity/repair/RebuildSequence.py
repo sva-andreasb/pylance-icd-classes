@@ -1,6 +1,8 @@
-def RebuildSequence():
-    '''public RebuildSequence(final DatabaseInformation di, final String sequenceName)
+def ():
+    '''returns RebuildSequence\n\n
+    (final DatabaseInformation di, final String sequenceName)\n
     '''
 def doRepair():
-    '''public void doRepair()
+    '''returns None\n\n
+    doRepair()\n
     '''

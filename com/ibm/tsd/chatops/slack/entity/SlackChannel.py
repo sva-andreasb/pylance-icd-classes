@@ -1,21 +1,28 @@
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getCreated():
-    '''public String getCreated()
+    '''returns String\n\n
+    getCreated()\n
     '''
 def is_general():
-    '''public boolean is_general()
+    '''returns boolean\n\n
+    is_general()\n
     '''
 def getCreator():
-    '''public String getCreator()
+    '''returns String\n\n
+    getCreator()\n
     '''
 def getName_normalized():
-    '''public String getName_normalized()
+    '''returns String\n\n
+    getName_normalized()\n
     '''
 def is_archived():
-    '''public boolean is_archived()
+    '''returns boolean\n\n
+    is_archived()\n
     '''

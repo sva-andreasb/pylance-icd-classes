@@ -1,49 +1,64 @@
 ROOTMAXVAR = "String  \"ITASSET\""
 linkRuleCreateGeneric = "String  \"CCIAssetCICreateGeneric\""
 def setDuplicate():
-    '''public void setDuplicate()
+    '''returns None\n\n
+    setDuplicate()\n
     '''
-def TLOAMAsset():
-    '''public TLOAMAsset(final MboSet ms)
+def ():
+    '''returns TLOAMAsset\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def modifyRefreshDate():
-    '''public void modifyRefreshDate(final String refreshStatus, final Date refreshPlanDate, final String refreshRemarks)
+    '''returns None\n\n
+    modifyRefreshDate(final String refreshStatus, final Date refreshPlanDate, final String refreshRemarks)\n
     '''
 def modifyDisposalDetail():
-    '''public void modifyDisposalDetail(final String requestId, final String type, final Date date, final String recipient, final String charge, final String value, final String remarks)
+    '''returns None\n\n
+    modifyDisposalDetail(final String requestId, final String type, final Date date, final String recipient, final String charge, final String value, final String remarks)\n
     '''
 def getSFWContractForAsset():
-    '''public MboSetRemote getSFWContractForAsset()
+    '''returns MboSetRemote\n\n
+    getSFWContractForAsset()\n
     '''
 def isITAsset():
-    '''public boolean isITAsset()
+    '''returns boolean\n\n
+    isITAsset()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def createGenericCI():
-    '''public boolean createGenericCI()
-    public boolean createGenericCI(final String reconTaskName)
-    public boolean createGenericCI(final boolean isValidateDupDisGuid, final boolean isValidateLinkRule, final LinkValidatorMetaLoader linkRuleMetaLoader)
+    '''returns boolean\n\n
+    createGenericCI()\n
+    createGenericCI(final String reconTaskName)\n
+    createGenericCI(final boolean isValidateDupDisGuid, final boolean isValidateLinkRule, final LinkValidatorMetaLoader linkRuleMetaLoader)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def getDISInfo():
-    '''public DISInfo getDISInfo()
+    '''returns DISInfo\n\n
+    getDISInfo()\n
     '''
 def getLinkedCI():
-    '''public CIRemote getLinkedCI()
+    '''returns CIRemote\n\n
+    getLinkedCI()\n
     '''

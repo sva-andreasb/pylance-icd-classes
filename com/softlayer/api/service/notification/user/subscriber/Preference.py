@@ -1,76 +1,96 @@
 def setDefaultPreference():
-    '''public void setDefaultPreference(final com.softlayer.api.service.notification.Preference defaultPreference)
+    '''returns None\n\n
+    setDefaultPreference(final com.softlayer.api.service.notification.Preference defaultPreference)\n
     '''
 def getNotificationUserSubscriber():
-    '''public Subscriber getNotificationUserSubscriber()
+    '''returns Subscriber\n\n
+    getNotificationUserSubscriber()\n
     '''
 def setNotificationUserSubscriber():
-    '''public void setNotificationUserSubscriber(final Subscriber notificationUserSubscriber)
+    '''returns None\n\n
+    setNotificationUserSubscriber(final Subscriber notificationUserSubscriber)\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getNotificationPreferenceId():
-    '''public Long getNotificationPreferenceId()
+    '''returns Long\n\n
+    getNotificationPreferenceId()\n
     '''
 def setNotificationPreferenceId():
-    '''public void setNotificationPreferenceId(final Long notificationPreferenceId)
+    '''returns None\n\n
+    setNotificationPreferenceId(final Long notificationPreferenceId)\n
     '''
 def isNotificationPreferenceIdSpecified():
-    '''public boolean isNotificationPreferenceIdSpecified()
+    '''returns boolean\n\n
+    isNotificationPreferenceIdSpecified()\n
     '''
 def unsetNotificationPreferenceId():
-    '''public void unsetNotificationPreferenceId()
+    '''returns None\n\n
+    unsetNotificationPreferenceId()\n
     '''
 def getNotificationUserSubscriberId():
-    '''public Long getNotificationUserSubscriberId()
+    '''returns Long\n\n
+    getNotificationUserSubscriberId()\n
     '''
 def setNotificationUserSubscriberId():
-    '''public void setNotificationUserSubscriberId(final Long notificationUserSubscriberId)
+    '''returns None\n\n
+    setNotificationUserSubscriberId(final Long notificationUserSubscriberId)\n
     '''
 def isNotificationUserSubscriberIdSpecified():
-    '''public boolean isNotificationUserSubscriberIdSpecified()
+    '''returns boolean\n\n
+    isNotificationUserSubscriberIdSpecified()\n
     '''
 def unsetNotificationUserSubscriberId():
-    '''public void unsetNotificationUserSubscriberId()
+    '''returns None\n\n
+    unsetNotificationUserSubscriberId()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def isValueSpecified():
-    '''public boolean isValueSpecified()
+    '''returns boolean\n\n
+    isValueSpecified()\n
     '''
 def unsetValue():
-    '''public void unsetValue()
+    '''returns None\n\n
+    unsetValue()\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def notificationPreferenceId():
-    '''public Mask notificationPreferenceId()
+    '''returns Mask\n\n
+    notificationPreferenceId()\n
     '''
 def notificationUserSubscriberId():
-    '''public Mask notificationUserSubscriberId()
+    '''returns Mask\n\n
+    notificationUserSubscriberId()\n
     '''
 def value():
-    '''public Mask value()
+    '''returns Mask\n\n
+    value()\n
     '''

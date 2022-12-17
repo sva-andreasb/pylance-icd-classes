@@ -1,27 +1,25 @@
-def RenewDelegationTokenRequest():
-    '''public RenewDelegationTokenRequest(final Struct struct, final short versionId)
-    '''
-def parse():
-    '''public static RenewDelegationTokenRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short versionId)\n
+    (final ByteBuffer hmac, final long renewTimePeriod)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def hmac():
-    '''public ByteBuffer hmac()
+    '''returns ByteBuffer\n\n
+    hmac()\n
     '''
 def renewTimePeriod():
-    '''public long renewTimePeriod()
-    '''
-def Builder():
-    '''public Builder(final ByteBuffer hmac, final long renewTimePeriod)
+    '''returns long\n\n
+    renewTimePeriod()\n
     '''
 def build():
-    '''public RenewDelegationTokenRequest build(final short version)
+    '''returns RenewDelegationTokenRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

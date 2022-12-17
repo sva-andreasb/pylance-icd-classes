@@ -1,3 +1,4 @@
-def OslcTransactionSet():
-    '''public OslcTransactionSet(final MboServerInterface ms)
+def ():
+    '''returns OslcTransactionSet\n\n
+    (final MboServerInterface ms)\n
     '''

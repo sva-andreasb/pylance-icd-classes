@@ -1,0 +1,6 @@
+OUT = "int  1"
+IN = "int  2"
+PINNED = "int  4"
+NULTERMINATE = "int  8"
+TRANSIENT = "int  16"
+DIRECT = "int  32"

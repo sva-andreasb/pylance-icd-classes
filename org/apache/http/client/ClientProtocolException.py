@@ -1,6 +1,7 @@
-def ClientProtocolException():
-    '''public ClientProtocolException()
-    public ClientProtocolException(final String s)
-    public ClientProtocolException(final Throwable cause)
-    public ClientProtocolException(final String message, final Throwable cause)
+def ():
+    '''returns ClientProtocolException\n\n
+    ()\n
+    (final String s)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

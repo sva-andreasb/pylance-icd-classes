@@ -1,24 +1,32 @@
-def WFCallStack():
-    '''public WFCallStack(final MboSet ms)
+def ():
+    '''returns WFCallStack\n\n
+    (final MboSet ms)\n
     '''
 def getWFInstance():
-    '''public WFInstance getWFInstance()
+    '''returns WFInstance\n\n
+    getWFInstance()\n
     '''
 def initCurrentNode():
-    '''public WFNodeRemote initCurrentNode(final WFProcessRemote wfProcess)
+    '''returns WFNodeRemote\n\n
+    initCurrentNode(final WFProcessRemote wfProcess)\n
     '''
 def setCurrentNode():
-    '''public WFNodeRemote setCurrentNode(final int nodeid)
+    '''returns WFNodeRemote\n\n
+    setCurrentNode(final int nodeid)\n
     '''
 def getCurrentNode():
-    '''public WFNode getCurrentNode()
+    '''returns WFNode\n\n
+    getCurrentNode()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getViewAsGIF():
-    '''public byte[] getViewAsGIF()
+    '''returns byte[]\n\n
+    getViewAsGIF()\n
     '''
 def getViewAsImage():
-    '''public BufferedImage getViewAsImage()
+    '''returns BufferedImage\n\n
+    getViewAsImage()\n
     '''

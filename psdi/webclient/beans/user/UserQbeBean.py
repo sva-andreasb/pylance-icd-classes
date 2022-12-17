@@ -1,3 +1,4 @@
 def getRemoteForLookup():
-    '''public MboSetRemote getRemoteForLookup()
+    '''returns MboSetRemote\n\n
+    getRemoteForLookup()\n
     '''

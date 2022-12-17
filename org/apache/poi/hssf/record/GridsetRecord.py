@@ -1,23 +1,30 @@
 sid = "short  130"
-def GridsetRecord():
-    '''public GridsetRecord()
-    public GridsetRecord(final RecordInputStream in)
+def ():
+    '''returns GridsetRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setGridset():
-    '''public void setGridset(final boolean gridset)
+    '''returns None\n\n
+    setGridset(final boolean gridset)\n
     '''
 def getGridset():
-    '''public boolean getGridset()
+    '''returns boolean\n\n
+    getGridset()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public GridsetRecord clone()
+    '''returns GridsetRecord\n\n
+    clone()\n
     '''

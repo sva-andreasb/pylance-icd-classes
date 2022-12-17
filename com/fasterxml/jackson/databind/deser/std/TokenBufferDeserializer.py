@@ -1,6 +1,8 @@
-def TokenBufferDeserializer():
-    '''public TokenBufferDeserializer()
+def ():
+    '''returns TokenBufferDeserializer\n\n
+    ()\n
     '''
 def deserialize():
-    '''public TokenBuffer deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''returns TokenBuffer\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
     '''

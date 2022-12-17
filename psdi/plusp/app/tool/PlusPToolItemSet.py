@@ -1,6 +1,8 @@
-def PlusPToolItemSet():
-    '''public PlusPToolItemSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPToolItemSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def setQbe():
-    '''public void setQbe(final String s, final String s2)
+    '''returns None\n\n
+    setQbe(final String s, final String s2)\n
     '''

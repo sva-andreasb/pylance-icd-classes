@@ -1,123 +1,163 @@
-def MosProcessImpl():
-    '''public MosProcessImpl()
+def ():
+    '''returns MosProcessImpl\n\n
+    ()\n
     '''
 def processObjectStructureService():
-    '''public byte[] processObjectStructureService(final StructureData data, final String mosName, final String msgType, final UserInfo info, final MXTransaction trans)
+    '''returns byte[]\n\n
+    processObjectStructureService(final StructureData data, final String mosName, final String msgType, final UserInfo info, final MXTransaction trans)\n
     '''
 def processExternalData():
-    '''public byte[] processExternalData(final StructureData data, final String mosName, final UserInfo info, final MXTransaction trans)
+    '''returns byte[]\n\n
+    processExternalData(final StructureData data, final String mosName, final UserInfo info, final MXTransaction trans)\n
     '''
 def processMboSet():
-    '''public MboSetRemote processMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''returns MboSetRemote\n\n
+    processMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)\n
     '''
 def createMboSet():
-    '''public MboSetRemote createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MicSetInfo micInfo, final String processTable)
-    public MboSetRemote createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''returns MboSetRemote\n\n
+    createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MicSetInfo micInfo, final String processTable)\n
+    createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)\n
     '''
 def copyParentKey():
-    '''public void copyParentKey(final String attributeName, final String value)
+    '''returns None\n\n
+    copyParentKey(final String attributeName, final String value)\n
     '''
 def delete():
-    '''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''returns None\n\n
+    delete(final MboRemote mbo, final MosDetailInfo mdi)\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''
 def isEsigVerified():
-    '''public boolean isEsigVerified()
+    '''returns boolean\n\n
+    isEsigVerified()\n
     '''
 def setEsigVerified():
-    '''public void setEsigVerified()
+    '''returns None\n\n
+    setEsigVerified()\n
     '''
 def verifyEsig():
-    '''public void verifyEsig()
+    '''returns None\n\n
+    verifyEsig()\n
     '''
 def compareMboKeyValues():
-    '''public boolean compareMboKeyValues(final MboSetRemote mboSet, final MicSetInfo micInfo, final String[] keys)
-    public boolean compareMboKeyValues(final MboSetRemote mboSet, final MosDetailInfo mdi, final String[] keys)
+    '''returns boolean\n\n
+    compareMboKeyValues(final MboSetRemote mboSet, final MicSetInfo micInfo, final String[] keys)\n
+    compareMboKeyValues(final MboSetRemote mboSet, final MosDetailInfo mdi, final String[] keys)\n
     '''
 def deleteAll():
-    '''public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
+    '''returns None\n\n
+    deleteAll(final MboRemote owner, final MboSetRemote mboSet)\n
     '''
 def addMbo():
-    '''public MboRemote addMbo(final MboSetRemote mboSet)
+    '''returns MboRemote\n\n
+    addMbo(final MboSetRemote mboSet)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def checkAdditionalRules():
-    '''public void checkAdditionalRules()
+    '''returns None\n\n
+    checkAdditionalRules()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def checkForUpdate():
-    '''public boolean checkForUpdate()
+    '''returns boolean\n\n
+    checkForUpdate()\n
     '''
 def resetMboSet():
-    '''public MboSetRemote resetMboSet(final MboSetRemote childMboSet)
+    '''returns MboSetRemote\n\n
+    resetMboSet(final MboSetRemote childMboSet)\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules()
-    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules()\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def presetMboRules():
-    '''public int presetMboRules()
+    '''returns int\n\n
+    presetMboRules()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote MboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote MboSet, final String tableName)\n
     '''
 def setAttachments():
-    '''public void setAttachments()
+    '''returns None\n\n
+    setAttachments()\n
     '''
 def checkDocumnetMaxSize():
-    '''public void checkDocumnetMaxSize(final byte[] document)
+    '''returns None\n\n
+    checkDocumnetMaxSize(final byte[] document)\n
     '''
 def getAttachmentFileName():
-    '''public String getAttachmentFileName(final String directory, String fileName)
+    '''returns String\n\n
+    getAttachmentFileName(final String directory, String fileName)\n
     '''
 def setAutokeyFlag():
-    '''public void setAutokeyFlag(final MboSetRemote set, final MosDetailInfo info)
+    '''returns None\n\n
+    setAutokeyFlag(final MboSetRemote set, final MosDetailInfo info)\n
     '''
 def getOrg():
-    '''public String getOrg()
+    '''returns String\n\n
+    getOrg()\n
     '''
 def getSite():
-    '''public String getSite()
+    '''returns String\n\n
+    getSite()\n
     '''
 def getItemSet():
-    '''public String getItemSet()
+    '''returns String\n\n
+    getItemSet()\n
     '''
 def getCompanySet():
-    '''public String getCompanySet()
+    '''returns String\n\n
+    getCompanySet()\n
     '''
 def getAccessModifier():
-    '''public long getAccessModifier()
+    '''returns long\n\n
+    getAccessModifier()\n
     '''
 def setAccessModifier():
-    '''public void setAccessModifier(final long amd)
+    '''returns None\n\n
+    setAccessModifier(final long amd)\n
     '''
 def setSkipSetFields():
-    '''public void setSkipSetFields(final String field)
+    '''returns None\n\n
+    setSkipSetFields(final String field)\n
     '''
 def setValidOrgSite():
-    '''public void setValidOrgSite(final boolean v)
+    '''returns None\n\n
+    setValidOrgSite(final boolean v)\n
     '''
 def findTargetMbo():
-    '''public MboRemote findTargetMbo(final MosDetailInfo mdi)
+    '''returns MboRemote\n\n
+    findTargetMbo(final MosDetailInfo mdi)\n
     '''
 def afterProcess():
-    '''public void afterProcess()
+    '''returns None\n\n
+    afterProcess()\n
     '''
 def writeAttachments():
-    '''public void writeAttachments()
+    '''returns None\n\n
+    writeAttachments()\n
     '''
 def afterReplace():
-    '''public void afterReplace(final MboRemote child)
+    '''returns None\n\n
+    afterReplace(final MboRemote child)\n
     '''
 def isBranchFilterOn():
-    '''public boolean isBranchFilterOn()
+    '''returns boolean\n\n
+    isBranchFilterOn()\n
     '''

@@ -1,3 +1,4 @@
-def WFInstanceSpecSet():
-    '''public WFInstanceSpecSet(final MboServerInterface ms)
+def ():
+    '''returns WFInstanceSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''

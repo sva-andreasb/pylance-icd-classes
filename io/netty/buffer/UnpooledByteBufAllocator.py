@@ -1,26 +1,34 @@
-def UnpooledByteBufAllocator():
-    '''public UnpooledByteBufAllocator(final boolean preferDirect)
-    public UnpooledByteBufAllocator(final boolean preferDirect, final boolean disableLeakDetector)
-    public UnpooledByteBufAllocator(final boolean preferDirect, final boolean disableLeakDetector, final boolean tryNoCleaner)
+def ():
+    '''returns UnpooledByteBufAllocator\n\n
+    (final boolean preferDirect)\n
+    (final boolean preferDirect, final boolean disableLeakDetector)\n
+    (final boolean preferDirect, final boolean disableLeakDetector, final boolean tryNoCleaner)\n
     '''
 def compositeHeapBuffer():
-    '''public CompositeByteBuf compositeHeapBuffer(final int maxNumComponents)
+    '''returns CompositeByteBuf\n\n
+    compositeHeapBuffer(final int maxNumComponents)\n
     '''
 def compositeDirectBuffer():
-    '''public CompositeByteBuf compositeDirectBuffer(final int maxNumComponents)
+    '''returns CompositeByteBuf\n\n
+    compositeDirectBuffer(final int maxNumComponents)\n
     '''
 def isDirectBufferPooled():
-    '''public boolean isDirectBufferPooled()
+    '''returns boolean\n\n
+    isDirectBufferPooled()\n
     '''
 def metric():
-    '''public ByteBufAllocatorMetric metric()
+    '''returns ByteBufAllocatorMetric\n\n
+    metric()\n
     '''
 def usedHeapMemory():
-    '''public long usedHeapMemory()
+    '''returns long\n\n
+    usedHeapMemory()\n
     '''
 def usedDirectMemory():
-    '''public long usedDirectMemory()
+    '''returns long\n\n
+    usedDirectMemory()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

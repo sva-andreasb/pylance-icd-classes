@@ -1,12 +1,16 @@
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
-def RSConfigFldQueryApp():
-    '''public RSConfigFldQueryApp(final MboValue mbv)
+def ():
+    '''returns RSConfigFldQueryApp\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,3 +1,4 @@
-def PromoteActCISet():
-    '''public PromoteActCISet(final MboServerInterface ms)
+def ():
+    '''returns PromoteActCISet\n\n
+    (final MboServerInterface ms)\n
     '''

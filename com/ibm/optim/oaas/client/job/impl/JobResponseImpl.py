@@ -1,27 +1,36 @@
-def JobResponseImpl():
-    '''public JobResponseImpl(final JobClientImpl client, final JobCreationDataImpl data, final List<JobOutput> output, final List<JobLogOutputImpl> logoutput)
+def ():
+    '''returns JobResponseImpl\n\n
+    (final JobClientImpl client, final JobCreationDataImpl data, final List<JobOutput> output, final List<JobLogOutputImpl> logoutput)\n
     '''
 def setJobId():
-    '''public void setJobId(final String jobid)
+    '''returns None\n\n
+    setJobId(final String jobid)\n
     '''
 def getOutput():
-    '''public List<JobOutput> getOutput()
+    '''returns List<JobOutput>\n\n
+    getOutput()\n
     '''
 def getLogOutput():
-    '''public List<JobLogOutputImpl> getLogOutput()
+    '''returns List<JobLogOutputImpl>\n\n
+    getLogOutput()\n
     '''
 def getClient():
-    '''public JobClientImpl getClient()
+    '''returns JobClientImpl\n\n
+    getClient()\n
     '''
 def getJobId():
-    '''public String getJobId()
+    '''returns String\n\n
+    getJobId()\n
     '''
 def getJob():
-    '''public JobImpl getJob()
+    '''returns JobImpl\n\n
+    getJob()\n
     '''
 def setJob():
-    '''public void setJob(final JobImpl job)
+    '''returns None\n\n
+    setJob(final JobImpl job)\n
     '''
 def getData():
-    '''public JobCreationDataImpl getData()
+    '''returns JobCreationDataImpl\n\n
+    getData()\n
     '''

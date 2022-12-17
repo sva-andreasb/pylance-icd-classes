@@ -1,47 +1,60 @@
-def JLAP():
-    '''public JLAP(final LAP lap)
-    public JLAP(final LAP lap, final boolean b)
+def ():
+    '''returns JLAP\n\n
+    (final LAP lap)\n
+    (final LAP lap, final boolean b)\n
     '''
 def run():
-    '''public int run()
+    '''returns int\n\n
+    run()\n
     '''
 def breakText():
-    '''public String[] breakText(final int n, final int n2, final String[] array, final Locale locale)
+    '''returns String[]\n\n
+    breakText(final int n, final int n2, final String[] array, final Locale locale)\n
     '''
 def showMe():
-    '''public void showMe()
+    '''returns None\n\n
+    showMe()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def getImage():
-    '''public Image getImage(final String s)
+    '''returns Image\n\n
+    getImage(final String s)\n
     '''
 def getLAPTitle():
-    '''public String getLAPTitle()
+    '''returns String\n\n
+    getLAPTitle()\n
     '''
 def getLicenseAgreement():
-    '''public String[] getLicenseAgreement(final Locale locale)
+    '''returns String[]\n\n
+    getLicenseAgreement(final Locale locale)\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''
 def licenseIsValid():
-    '''public boolean licenseIsValid()
+    '''returns boolean\n\n
+    licenseIsValid()\n
     '''
 def onAccept():
-    '''public void onAccept()
+    '''returns None\n\n
+    onAccept()\n
     '''
 def setStatus():
-    '''public void setStatus(final int status)
+    '''returns None\n\n
+    setStatus(final int status)\n
     '''
 def keyPressed():
-    '''public void keyPressed(final KeyEvent e)
-    public void keyPressed(final KeyEvent e)
+    '''returns None\n\n
+    keyPressed(final KeyEvent e)\n
+    keyPressed(final KeyEvent e)\n
     '''

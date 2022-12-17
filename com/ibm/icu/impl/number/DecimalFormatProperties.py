@@ -1,267 +1,352 @@
-def DecimalFormatProperties():
-    '''public DecimalFormatProperties()
+def ():
+    '''returns DecimalFormatProperties\n\n
+    ()\n
     '''
 def clear():
-    '''public DecimalFormatProperties clear()
+    '''returns DecimalFormatProperties\n\n
+    clear()\n
     '''
 def clone():
-    '''public DecimalFormatProperties clone()
+    '''returns DecimalFormatProperties\n\n
+    clone()\n
     '''
 def copyFrom():
-    '''public DecimalFormatProperties copyFrom(final DecimalFormatProperties other)
+    '''returns DecimalFormatProperties\n\n
+    copyFrom(final DecimalFormatProperties other)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    '''
-def getCompactCustomData():
-    '''public Map<String, Map<String, String>> getCompactCustomData()
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def getCurrency():
-    '''public Currency getCurrency()
+    '''returns Currency\n\n
+    getCurrency()\n
     '''
 def getCurrencyPluralInfo():
-    '''public CurrencyPluralInfo getCurrencyPluralInfo()
+    '''returns CurrencyPluralInfo\n\n
+    getCurrencyPluralInfo()\n
     '''
 def getDecimalPatternMatchRequired():
-    '''public boolean getDecimalPatternMatchRequired()
+    '''returns boolean\n\n
+    getDecimalPatternMatchRequired()\n
     '''
 def getDecimalSeparatorAlwaysShown():
-    '''public boolean getDecimalSeparatorAlwaysShown()
+    '''returns boolean\n\n
+    getDecimalSeparatorAlwaysShown()\n
     '''
 def getExponentSignAlwaysShown():
-    '''public boolean getExponentSignAlwaysShown()
+    '''returns boolean\n\n
+    getExponentSignAlwaysShown()\n
     '''
 def getFormatWidth():
-    '''public int getFormatWidth()
+    '''returns int\n\n
+    getFormatWidth()\n
     '''
 def getGroupingSize():
-    '''public int getGroupingSize()
+    '''returns int\n\n
+    getGroupingSize()\n
     '''
 def getGroupingUsed():
-    '''public boolean getGroupingUsed()
+    '''returns boolean\n\n
+    getGroupingUsed()\n
     '''
 def getMagnitudeMultiplier():
-    '''public int getMagnitudeMultiplier()
+    '''returns int\n\n
+    getMagnitudeMultiplier()\n
     '''
 def getMathContext():
-    '''public MathContext getMathContext()
+    '''returns MathContext\n\n
+    getMathContext()\n
     '''
 def getMaximumFractionDigits():
-    '''public int getMaximumFractionDigits()
+    '''returns int\n\n
+    getMaximumFractionDigits()\n
     '''
 def getMaximumIntegerDigits():
-    '''public int getMaximumIntegerDigits()
+    '''returns int\n\n
+    getMaximumIntegerDigits()\n
     '''
 def getMaximumSignificantDigits():
-    '''public int getMaximumSignificantDigits()
+    '''returns int\n\n
+    getMaximumSignificantDigits()\n
     '''
 def getMinimumExponentDigits():
-    '''public int getMinimumExponentDigits()
+    '''returns int\n\n
+    getMinimumExponentDigits()\n
     '''
 def getMinimumFractionDigits():
-    '''public int getMinimumFractionDigits()
+    '''returns int\n\n
+    getMinimumFractionDigits()\n
     '''
 def getMinimumGroupingDigits():
-    '''public int getMinimumGroupingDigits()
+    '''returns int\n\n
+    getMinimumGroupingDigits()\n
     '''
 def getMinimumIntegerDigits():
-    '''public int getMinimumIntegerDigits()
+    '''returns int\n\n
+    getMinimumIntegerDigits()\n
     '''
 def getMinimumSignificantDigits():
-    '''public int getMinimumSignificantDigits()
+    '''returns int\n\n
+    getMinimumSignificantDigits()\n
     '''
 def getMultiplier():
-    '''public BigDecimal getMultiplier()
+    '''returns BigDecimal\n\n
+    getMultiplier()\n
     '''
 def getNegativePrefix():
-    '''public String getNegativePrefix()
+    '''returns String\n\n
+    getNegativePrefix()\n
     '''
 def getNegativePrefixPattern():
-    '''public String getNegativePrefixPattern()
+    '''returns String\n\n
+    getNegativePrefixPattern()\n
     '''
 def getNegativeSuffix():
-    '''public String getNegativeSuffix()
+    '''returns String\n\n
+    getNegativeSuffix()\n
     '''
 def getNegativeSuffixPattern():
-    '''public String getNegativeSuffixPattern()
+    '''returns String\n\n
+    getNegativeSuffixPattern()\n
     '''
 def getPadString():
-    '''public String getPadString()
+    '''returns String\n\n
+    getPadString()\n
     '''
 def getParseCaseSensitive():
-    '''public boolean getParseCaseSensitive()
+    '''returns boolean\n\n
+    getParseCaseSensitive()\n
     '''
 def getParseIntegerOnly():
-    '''public boolean getParseIntegerOnly()
+    '''returns boolean\n\n
+    getParseIntegerOnly()\n
     '''
 def getParseMode():
-    '''public ParseMode getParseMode()
+    '''returns ParseMode\n\n
+    getParseMode()\n
     '''
 def getParseNoExponent():
-    '''public boolean getParseNoExponent()
+    '''returns boolean\n\n
+    getParseNoExponent()\n
     '''
 def getParseToBigDecimal():
-    '''public boolean getParseToBigDecimal()
+    '''returns boolean\n\n
+    getParseToBigDecimal()\n
     '''
 def getPluralRules():
-    '''public PluralRules getPluralRules()
+    '''returns PluralRules\n\n
+    getPluralRules()\n
     '''
 def getPositivePrefix():
-    '''public String getPositivePrefix()
+    '''returns String\n\n
+    getPositivePrefix()\n
     '''
 def getPositivePrefixPattern():
-    '''public String getPositivePrefixPattern()
+    '''returns String\n\n
+    getPositivePrefixPattern()\n
     '''
 def getPositiveSuffix():
-    '''public String getPositiveSuffix()
+    '''returns String\n\n
+    getPositiveSuffix()\n
     '''
 def getPositiveSuffixPattern():
-    '''public String getPositiveSuffixPattern()
+    '''returns String\n\n
+    getPositiveSuffixPattern()\n
     '''
 def getRoundingIncrement():
-    '''public BigDecimal getRoundingIncrement()
+    '''returns BigDecimal\n\n
+    getRoundingIncrement()\n
     '''
 def getRoundingMode():
-    '''public RoundingMode getRoundingMode()
+    '''returns RoundingMode\n\n
+    getRoundingMode()\n
     '''
 def getSecondaryGroupingSize():
-    '''public int getSecondaryGroupingSize()
+    '''returns int\n\n
+    getSecondaryGroupingSize()\n
     '''
 def getSignAlwaysShown():
-    '''public boolean getSignAlwaysShown()
+    '''returns boolean\n\n
+    getSignAlwaysShown()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def setCompactCustomData():
-    '''public DecimalFormatProperties setCompactCustomData(final Map<String, Map<String, String>> compactCustomData)
+    '''returns DecimalFormatProperties\n\n
+    setCompactCustomData(final Map<String, Map<String, String>> compactCustomData)\n
     '''
 def setCompactStyle():
-    '''public DecimalFormatProperties setCompactStyle(final CompactDecimalFormat.CompactStyle compactStyle)
+    '''returns DecimalFormatProperties\n\n
+    setCompactStyle(final CompactDecimalFormat.CompactStyle compactStyle)\n
     '''
 def setCurrency():
-    '''public DecimalFormatProperties setCurrency(final Currency currency)
+    '''returns DecimalFormatProperties\n\n
+    setCurrency(final Currency currency)\n
     '''
 def setCurrencyPluralInfo():
-    '''public DecimalFormatProperties setCurrencyPluralInfo(CurrencyPluralInfo currencyPluralInfo)
+    '''returns DecimalFormatProperties\n\n
+    setCurrencyPluralInfo(CurrencyPluralInfo currencyPluralInfo)\n
     '''
 def setCurrencyUsage():
-    '''public DecimalFormatProperties setCurrencyUsage(final Currency.CurrencyUsage currencyUsage)
+    '''returns DecimalFormatProperties\n\n
+    setCurrencyUsage(final Currency.CurrencyUsage currencyUsage)\n
     '''
 def setDecimalPatternMatchRequired():
-    '''public DecimalFormatProperties setDecimalPatternMatchRequired(final boolean decimalPatternMatchRequired)
+    '''returns DecimalFormatProperties\n\n
+    setDecimalPatternMatchRequired(final boolean decimalPatternMatchRequired)\n
     '''
 def setDecimalSeparatorAlwaysShown():
-    '''public DecimalFormatProperties setDecimalSeparatorAlwaysShown(final boolean alwaysShowDecimal)
+    '''returns DecimalFormatProperties\n\n
+    setDecimalSeparatorAlwaysShown(final boolean alwaysShowDecimal)\n
     '''
 def setExponentSignAlwaysShown():
-    '''public DecimalFormatProperties setExponentSignAlwaysShown(final boolean exponentSignAlwaysShown)
+    '''returns DecimalFormatProperties\n\n
+    setExponentSignAlwaysShown(final boolean exponentSignAlwaysShown)\n
     '''
 def setFormatWidth():
-    '''public DecimalFormatProperties setFormatWidth(final int paddingWidth)
+    '''returns DecimalFormatProperties\n\n
+    setFormatWidth(final int paddingWidth)\n
     '''
 def setGroupingSize():
-    '''public DecimalFormatProperties setGroupingSize(final int groupingSize)
+    '''returns DecimalFormatProperties\n\n
+    setGroupingSize(final int groupingSize)\n
     '''
 def setGroupingUsed():
-    '''public DecimalFormatProperties setGroupingUsed(final boolean groupingUsed)
+    '''returns DecimalFormatProperties\n\n
+    setGroupingUsed(final boolean groupingUsed)\n
     '''
 def setMagnitudeMultiplier():
-    '''public DecimalFormatProperties setMagnitudeMultiplier(final int magnitudeMultiplier)
+    '''returns DecimalFormatProperties\n\n
+    setMagnitudeMultiplier(final int magnitudeMultiplier)\n
     '''
 def setMathContext():
-    '''public DecimalFormatProperties setMathContext(final MathContext mathContext)
+    '''returns DecimalFormatProperties\n\n
+    setMathContext(final MathContext mathContext)\n
     '''
 def setMaximumFractionDigits():
-    '''public DecimalFormatProperties setMaximumFractionDigits(final int maximumFractionDigits)
+    '''returns DecimalFormatProperties\n\n
+    setMaximumFractionDigits(final int maximumFractionDigits)\n
     '''
 def setMaximumIntegerDigits():
-    '''public DecimalFormatProperties setMaximumIntegerDigits(final int maximumIntegerDigits)
+    '''returns DecimalFormatProperties\n\n
+    setMaximumIntegerDigits(final int maximumIntegerDigits)\n
     '''
 def setMaximumSignificantDigits():
-    '''public DecimalFormatProperties setMaximumSignificantDigits(final int maximumSignificantDigits)
+    '''returns DecimalFormatProperties\n\n
+    setMaximumSignificantDigits(final int maximumSignificantDigits)\n
     '''
 def setMinimumExponentDigits():
-    '''public DecimalFormatProperties setMinimumExponentDigits(final int minimumExponentDigits)
+    '''returns DecimalFormatProperties\n\n
+    setMinimumExponentDigits(final int minimumExponentDigits)\n
     '''
 def setMinimumFractionDigits():
-    '''public DecimalFormatProperties setMinimumFractionDigits(final int minimumFractionDigits)
+    '''returns DecimalFormatProperties\n\n
+    setMinimumFractionDigits(final int minimumFractionDigits)\n
     '''
 def setMinimumGroupingDigits():
-    '''public DecimalFormatProperties setMinimumGroupingDigits(final int minimumGroupingDigits)
+    '''returns DecimalFormatProperties\n\n
+    setMinimumGroupingDigits(final int minimumGroupingDigits)\n
     '''
 def setMinimumIntegerDigits():
-    '''public DecimalFormatProperties setMinimumIntegerDigits(final int minimumIntegerDigits)
+    '''returns DecimalFormatProperties\n\n
+    setMinimumIntegerDigits(final int minimumIntegerDigits)\n
     '''
 def setMinimumSignificantDigits():
-    '''public DecimalFormatProperties setMinimumSignificantDigits(final int minimumSignificantDigits)
+    '''returns DecimalFormatProperties\n\n
+    setMinimumSignificantDigits(final int minimumSignificantDigits)\n
     '''
 def setMultiplier():
-    '''public DecimalFormatProperties setMultiplier(final BigDecimal multiplier)
+    '''returns DecimalFormatProperties\n\n
+    setMultiplier(final BigDecimal multiplier)\n
     '''
 def setNegativePrefix():
-    '''public DecimalFormatProperties setNegativePrefix(final String negativePrefix)
+    '''returns DecimalFormatProperties\n\n
+    setNegativePrefix(final String negativePrefix)\n
     '''
 def setNegativePrefixPattern():
-    '''public DecimalFormatProperties setNegativePrefixPattern(final String negativePrefixPattern)
+    '''returns DecimalFormatProperties\n\n
+    setNegativePrefixPattern(final String negativePrefixPattern)\n
     '''
 def setNegativeSuffix():
-    '''public DecimalFormatProperties setNegativeSuffix(final String negativeSuffix)
+    '''returns DecimalFormatProperties\n\n
+    setNegativeSuffix(final String negativeSuffix)\n
     '''
 def setNegativeSuffixPattern():
-    '''public DecimalFormatProperties setNegativeSuffixPattern(final String negativeSuffixPattern)
+    '''returns DecimalFormatProperties\n\n
+    setNegativeSuffixPattern(final String negativeSuffixPattern)\n
     '''
 def setPadPosition():
-    '''public DecimalFormatProperties setPadPosition(final Padder.PadPosition paddingLocation)
+    '''returns DecimalFormatProperties\n\n
+    setPadPosition(final Padder.PadPosition paddingLocation)\n
     '''
 def setPadString():
-    '''public DecimalFormatProperties setPadString(final String paddingString)
+    '''returns DecimalFormatProperties\n\n
+    setPadString(final String paddingString)\n
     '''
 def setParseCaseSensitive():
-    '''public DecimalFormatProperties setParseCaseSensitive(final boolean parseCaseSensitive)
+    '''returns DecimalFormatProperties\n\n
+    setParseCaseSensitive(final boolean parseCaseSensitive)\n
     '''
 def setParseIntegerOnly():
-    '''public DecimalFormatProperties setParseIntegerOnly(final boolean parseIntegerOnly)
+    '''returns DecimalFormatProperties\n\n
+    setParseIntegerOnly(final boolean parseIntegerOnly)\n
     '''
 def setParseMode():
-    '''public DecimalFormatProperties setParseMode(final ParseMode parseMode)
+    '''returns DecimalFormatProperties\n\n
+    setParseMode(final ParseMode parseMode)\n
     '''
 def setParseNoExponent():
-    '''public DecimalFormatProperties setParseNoExponent(final boolean parseNoExponent)
+    '''returns DecimalFormatProperties\n\n
+    setParseNoExponent(final boolean parseNoExponent)\n
     '''
 def setParseToBigDecimal():
-    '''public DecimalFormatProperties setParseToBigDecimal(final boolean parseToBigDecimal)
+    '''returns DecimalFormatProperties\n\n
+    setParseToBigDecimal(final boolean parseToBigDecimal)\n
     '''
 def setPluralRules():
-    '''public DecimalFormatProperties setPluralRules(final PluralRules pluralRules)
+    '''returns DecimalFormatProperties\n\n
+    setPluralRules(final PluralRules pluralRules)\n
     '''
 def setPositivePrefix():
-    '''public DecimalFormatProperties setPositivePrefix(final String positivePrefix)
+    '''returns DecimalFormatProperties\n\n
+    setPositivePrefix(final String positivePrefix)\n
     '''
 def setPositivePrefixPattern():
-    '''public DecimalFormatProperties setPositivePrefixPattern(final String positivePrefixPattern)
+    '''returns DecimalFormatProperties\n\n
+    setPositivePrefixPattern(final String positivePrefixPattern)\n
     '''
 def setPositiveSuffix():
-    '''public DecimalFormatProperties setPositiveSuffix(final String positiveSuffix)
+    '''returns DecimalFormatProperties\n\n
+    setPositiveSuffix(final String positiveSuffix)\n
     '''
 def setPositiveSuffixPattern():
-    '''public DecimalFormatProperties setPositiveSuffixPattern(final String positiveSuffixPattern)
+    '''returns DecimalFormatProperties\n\n
+    setPositiveSuffixPattern(final String positiveSuffixPattern)\n
     '''
 def setRoundingIncrement():
-    '''public DecimalFormatProperties setRoundingIncrement(final BigDecimal roundingIncrement)
+    '''returns DecimalFormatProperties\n\n
+    setRoundingIncrement(final BigDecimal roundingIncrement)\n
     '''
 def setRoundingMode():
-    '''public DecimalFormatProperties setRoundingMode(final RoundingMode roundingMode)
+    '''returns DecimalFormatProperties\n\n
+    setRoundingMode(final RoundingMode roundingMode)\n
     '''
 def setSecondaryGroupingSize():
-    '''public DecimalFormatProperties setSecondaryGroupingSize(final int secondaryGroupingSize)
+    '''returns DecimalFormatProperties\n\n
+    setSecondaryGroupingSize(final int secondaryGroupingSize)\n
     '''
 def setSignAlwaysShown():
-    '''public DecimalFormatProperties setSignAlwaysShown(final boolean signAlwaysShown)
+    '''returns DecimalFormatProperties\n\n
+    setSignAlwaysShown(final boolean signAlwaysShown)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toStringBare():
-    '''public void toStringBare(final StringBuilder result)
+    '''returns None\n\n
+    toStringBare(final StringBuilder result)\n
     '''

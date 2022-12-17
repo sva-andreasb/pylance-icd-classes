@@ -1,20 +1,24 @@
-def WriterOutputStream():
-    '''public WriterOutputStream(final Writer writer, final CharsetDecoder decoder)
-    public WriterOutputStream(final Writer writer, final CharsetDecoder decoder, final int bufferSize, final boolean writeImmediately)
-    public WriterOutputStream(final Writer writer, final Charset charset, final int bufferSize, final boolean writeImmediately)
-    public WriterOutputStream(final Writer writer, final Charset charset)
-    public WriterOutputStream(final Writer writer, final String charsetName, final int bufferSize, final boolean writeImmediately)
-    public WriterOutputStream(final Writer writer, final String charsetName)
-    public WriterOutputStream(final Writer writer)
+def ():
+    '''returns WriterOutputStream\n\n
+    (final Writer writer, final CharsetDecoder decoder)\n
+    (final Writer writer, final CharsetDecoder decoder, final int bufferSize, final boolean writeImmediately)\n
+    (final Writer writer, final Charset charset, final int bufferSize, final boolean writeImmediately)\n
+    (final Writer writer, final Charset charset)\n
+    (final Writer writer, final String charsetName, final int bufferSize, final boolean writeImmediately)\n
+    (final Writer writer, final String charsetName)\n
+    (final Writer writer)\n
     '''
 def write():
-    '''public void write(final byte[] b, int off, int len)
-    public void write(final byte[] b)
-    public void write(final int b)
+    '''returns None\n\n
+    write(final byte[] b, int off, int len)\n
+    write(final byte[] b)\n
+    write(final int b)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

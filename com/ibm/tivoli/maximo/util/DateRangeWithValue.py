@@ -1,14 +1,18 @@
 def getValue():
-    '''public double getValue()
+    '''returns double\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final double value)
+    '''returns None\n\n
+    setValue(final double value)\n
     '''
-def DateRangeWithValue():
-    '''public DateRangeWithValue(final Date start, final Date end)
-    public DateRangeWithValue(final Date start, final Date end, final double value)
-    public DateRangeWithValue()
+def ():
+    '''returns DateRangeWithValue\n\n
+    (final Date start, final Date end)\n
+    (final Date start, final Date end, final double value)\n
+    ()\n
     '''
 def setRange():
-    '''public void setRange(final Date start, final Date end, final double value)
+    '''returns None\n\n
+    setRange(final Date start, final Date end, final double value)\n
     '''

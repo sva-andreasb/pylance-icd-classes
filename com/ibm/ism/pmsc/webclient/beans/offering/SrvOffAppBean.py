@@ -1,28 +1,33 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def save():
-    '''public synchronized void save()
-    '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def goToOfferingCatalog():
-    '''public void goToOfferingCatalog()
+    '''returns None\n\n
+    goToOfferingCatalog()\n
     '''
 def checkitemSpec():
-    '''public void checkitemSpec()
+    '''returns None\n\n
+    checkitemSpec()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def previewDialog():
-    '''public int previewDialog()
+    '''returns int\n\n
+    previewDialog()\n
     '''
 def getItemSpecSet():
-    '''public MboSetRemote getItemSpecSet(final OfferingRemote offering)
+    '''returns MboSetRemote\n\n
+    getItemSpecSet(final OfferingRemote offering)\n
     '''
 def CMNTSINACT():
-    '''public int CMNTSINACT()
+    '''returns int\n\n
+    CMNTSINACT()\n
     '''
 def DELALLCMNT():
-    '''public int DELALLCMNT()
+    '''returns int\n\n
+    DELALLCMNT()\n
     '''

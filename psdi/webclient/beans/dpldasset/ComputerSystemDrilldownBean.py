@@ -1,9 +1,12 @@
-def ComputerSystemDrilldownBean():
-    '''public ComputerSystemDrilldownBean()
+def ():
+    '''returns ComputerSystemDrilldownBean\n\n
+    ()\n
     '''
 def getMboValueData():
-    '''public MboValueData getMboValueData(final String attribute)
+    '''returns MboValueData\n\n
+    getMboValueData(final String attribute)\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

@@ -1,6 +1,8 @@
-def IEMObjMbo():
-    '''public IEMObjMbo(final MboSet ms)
+def ():
+    '''returns IEMObjMbo\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

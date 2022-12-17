@@ -1,6 +1,8 @@
 def setBeginIndex():
-    '''public void setBeginIndex(final int i)
+    '''returns None\n\n
+    setBeginIndex(final int i)\n
     '''
 def setEndIndex():
-    '''public void setEndIndex(final int i)
+    '''returns None\n\n
+    setEndIndex(final int i)\n
     '''

@@ -1,9 +1,12 @@
-def FldPurVendor():
-    '''public FldPurVendor(final MboValue mbv)
+def ():
+    '''returns FldPurVendor\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

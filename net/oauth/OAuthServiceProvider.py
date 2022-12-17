@@ -1,9 +1,12 @@
-def OAuthServiceProvider():
-    '''public OAuthServiceProvider(final String requestTokenURL, final String userAuthorizationURL, final String accessTokenURL)
+def ():
+    '''returns OAuthServiceProvider\n\n
+    (final String requestTokenURL, final String userAuthorizationURL, final String accessTokenURL)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

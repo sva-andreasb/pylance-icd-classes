@@ -1,33 +1,44 @@
-def WFTask():
-    '''public WFTask(final MboSet ms)
+def ():
+    '''returns WFTask\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def completeAssignment():
-    '''public boolean completeAssignment(final WFAssignment assignment, final WFActionRemote action, final String memo)
+    '''returns boolean\n\n
+    completeAssignment(final WFAssignment assignment, final WFActionRemote action, final String memo)\n
     '''
 def stopAssignment():
-    '''public void stopAssignment()
+    '''returns None\n\n
+    stopAssignment()\n
     '''
 def initializeTask():
-    '''public void initializeTask()
+    '''returns None\n\n
+    initializeTask()\n
     '''
 def wfValidate():
-    '''public void wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
+    '''returns None\n\n
+    wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)\n
     '''
 def canTakePositive():
-    '''public boolean canTakePositive()
+    '''returns boolean\n\n
+    canTakePositive()\n
     '''
 def canTakeNegative():
-    '''public boolean canTakeNegative()
+    '''returns boolean\n\n
+    canTakeNegative()\n
     '''
 def addedAction():
-    '''public void addedAction(final boolean wasPositive)
+    '''returns None\n\n
+    addedAction(final boolean wasPositive)\n
     '''
 def removedAction():
-    '''public void removedAction(final boolean wasPositive)
+    '''returns None\n\n
+    removedAction(final boolean wasPositive)\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''

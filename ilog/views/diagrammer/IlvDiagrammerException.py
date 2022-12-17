@@ -1,5 +1,6 @@
-def IlvDiagrammerException():
-    '''public IlvDiagrammerException(final Throwable cause)
-    public IlvDiagrammerException(final String message)
-    public IlvDiagrammerException(final String message, final Throwable cause)
+def ():
+    '''returns IlvDiagrammerException\n\n
+    (final Throwable cause)\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

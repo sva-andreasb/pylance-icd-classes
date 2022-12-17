@@ -1,6 +1,8 @@
-def JMSNotificationProcessor():
-    '''public JMSNotificationProcessor()
+def ():
+    '''returns JMSNotificationProcessor\n\n
+    ()\n
     '''
 def ejbCreate():
-    '''public void ejbCreate()
+    '''returns None\n\n
+    ejbCreate()\n
     '''

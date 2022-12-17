@@ -1,11 +1,14 @@
 ELEMENT = "String  \"query\""
 NAMESPACE = "String  \"http://jabber.org/protocol/muc#admin\""
-def MUCAdmin():
-    '''public MUCAdmin()
+def ():
+    '''returns MUCAdmin\n\n
+    ()\n
     '''
 def getItems():
-    '''public List<MUCItem> getItems()
+    '''returns List<MUCItem>\n\n
+    getItems()\n
     '''
 def addItem():
-    '''public void addItem(final MUCItem item)
+    '''returns None\n\n
+    addItem(final MUCItem item)\n
     '''

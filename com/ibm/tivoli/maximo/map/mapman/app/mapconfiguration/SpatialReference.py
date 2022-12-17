@@ -1,16 +1,21 @@
-def SpatialReference():
-    '''public SpatialReference()
-    public SpatialReference(final String wkid, final String definition)
+def ():
+    '''returns SpatialReference\n\n
+    ()\n
+    (final String wkid, final String definition)\n
     '''
 def getWkid():
-    '''public String getWkid()
+    '''returns String\n\n
+    getWkid()\n
     '''
 def setWkid():
-    '''public void setWkid(final String wkid)
+    '''returns None\n\n
+    setWkid(final String wkid)\n
     '''
 def getDefinition():
-    '''public String getDefinition()
+    '''returns String\n\n
+    getDefinition()\n
     '''
 def setDefinition():
-    '''public void setDefinition(final String definition)
+    '''returns None\n\n
+    setDefinition(final String definition)\n
     '''

@@ -1,3 +1,4 @@
-def FinancialPeriodsSet():
-    '''public FinancialPeriodsSet(final MboServerInterface ms)
+def ():
+    '''returns FinancialPeriodsSet\n\n
+    (final MboServerInterface ms)\n
     '''

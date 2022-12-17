@@ -1,3 +1,4 @@
 def deleteSummary():
-    '''public int deleteSummary()
+    '''returns int\n\n
+    deleteSummary()\n
     '''

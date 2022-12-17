@@ -1,30 +1,40 @@
-def AMCrewToolSq():
-    '''public AMCrewToolSq(final MboSet ms)
+def ():
+    '''returns AMCrewToolSq\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def deleteAssociatedQuals():
-    '''public void deleteAssociatedQuals(final String itemNum)
+    '''returns None\n\n
+    deleteAssociatedQuals(final String itemNum)\n
     '''
 def undeleteAddAssociatedQuals():
-    '''public void undeleteAddAssociatedQuals()
+    '''returns None\n\n
+    undeleteAddAssociatedQuals()\n
     '''
 def setRequirementStatus():
-    '''public void setRequirementStatus(final String amcrew, final String orgid, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)
+    '''returns None\n\n
+    setRequirementStatus(final String amcrew, final String orgid, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)\n
     '''
 def setStatusFromAssignedAssets():
-    '''public void setStatusFromAssignedAssets(final MboSet toolSet, final Date crewShiftStart, final Date crewShiftEnd)
+    '''returns None\n\n
+    setStatusFromAssignedAssets(final MboSet toolSet, final Date crewShiftStart, final Date crewShiftEnd)\n
     '''

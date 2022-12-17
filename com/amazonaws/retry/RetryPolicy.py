@@ -1,21 +1,28 @@
-def RetryPolicy():
-    '''public RetryPolicy(RetryCondition retryCondition, BackoffStrategy backoffStrategy, final int maxErrorRetry, final boolean honorMaxErrorRetryInClientConfig)
+def ():
+    '''returns RetryPolicy\n\n
+    (RetryCondition retryCondition, BackoffStrategy backoffStrategy, final int maxErrorRetry, final boolean honorMaxErrorRetryInClientConfig)\n
     '''
 def getRetryCondition():
-    '''public RetryCondition getRetryCondition()
+    '''returns RetryCondition\n\n
+    getRetryCondition()\n
     '''
 def getBackoffStrategy():
-    '''public BackoffStrategy getBackoffStrategy()
+    '''returns BackoffStrategy\n\n
+    getBackoffStrategy()\n
     '''
 def getMaxErrorRetry():
-    '''public int getMaxErrorRetry()
+    '''returns int\n\n
+    getMaxErrorRetry()\n
     '''
 def isMaxErrorRetryInClientConfigHonored():
-    '''public boolean isMaxErrorRetryInClientConfigHonored()
+    '''returns boolean\n\n
+    isMaxErrorRetryInClientConfigHonored()\n
     '''
 def shouldRetry():
-    '''public boolean shouldRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)
+    '''returns boolean\n\n
+    shouldRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)\n
     '''
 def delayBeforeNextRetry():
-    '''public long delayBeforeNextRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)
+    '''returns long\n\n
+    delayBeforeNextRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)\n
     '''

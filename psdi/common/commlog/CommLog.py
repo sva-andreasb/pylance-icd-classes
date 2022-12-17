@@ -1,36 +1,44 @@
-def CommLog():
-    '''public CommLog(final MboSet ms)
+def ():
+    '''returns CommLog\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
-    '''
-def isValidEmailAddress():
-    '''public static boolean isValidEmailAddress(final String email)
+    '''returns None\n\n
+    add()\n
     '''
 def sendMessage():
-    '''public void sendMessage()
+    '''returns None\n\n
+    sendMessage()\n
     '''
 def addRecipients():
-    '''public void addRecipients()
+    '''returns None\n\n
+    addRecipients()\n
     '''
 def associateEmailsToCommLog():
-    '''public void associateEmailsToCommLog(final MboSetRemote roleSet, final MboSetRemote emailSet, final MboSetRemote groupSet, final boolean alwaysSendTo, final boolean alwaysCc, final boolean alwaysBcc)
+    '''returns None\n\n
+    associateEmailsToCommLog(final MboSetRemote roleSet, final MboSetRemote emailSet, final MboSetRemote groupSet, final boolean alwaysSendTo, final boolean alwaysCc, final boolean alwaysBcc)\n
     '''
 def copyFromTemplate():
-    '''public void copyFromTemplate(final MboRemote commTemplate)
+    '''returns None\n\n
+    copyFromTemplate(final MboRemote commTemplate)\n
     '''
 def getLogFlag():
-    '''public boolean getLogFlag()
+    '''returns boolean\n\n
+    getLogFlag()\n
     '''
 def setLogFlag():
-    '''public void setLogFlag(final boolean logFlag)
+    '''returns None\n\n
+    setLogFlag(final boolean logFlag)\n
     '''
 def setSendPartial():
-    '''public void setSendPartial(final boolean value)
+    '''returns None\n\n
+    setSendPartial(final boolean value)\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''

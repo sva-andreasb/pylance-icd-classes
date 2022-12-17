@@ -1,292 +1,387 @@
-def IlvDashboardDiagram():
-    '''public IlvDashboardDiagram(final IlvDashboardContext b)
-    public IlvDashboardDiagram(final IlvDashboardContext b, final IlvSDMView ilvSDMView)
+def ():
+    '''returns IlvDashboardDiagram\n\n
+    (final IlvDashboardContext b)\n
+    (final IlvDashboardContext b, final IlvSDMView ilvSDMView)\n
     '''
 def getContext():
-    '''public IlvDashboardContext getContext()
+    '''returns IlvDashboardContext\n\n
+    getContext()\n
     '''
 def setQuadtreeEnabled():
-    '''public void setQuadtreeEnabled(final boolean b)
+    '''returns None\n\n
+    setQuadtreeEnabled(final boolean b)\n
     '''
 def prepareForEditing():
-    '''public void prepareForEditing()
+    '''returns None\n\n
+    prepareForEditing()\n
     '''
 def objectRemoved():
-    '''public void objectRemoved(final SDMModelEvent sdmModelEvent)
+    '''returns None\n\n
+    objectRemoved(final SDMModelEvent sdmModelEvent)\n
     '''
 def dataChanged():
-    '''public void dataChanged(final SDMModelEvent sdmModelEvent)
+    '''returns None\n\n
+    dataChanged(final SDMModelEvent sdmModelEvent)\n
     '''
 def canEdit():
-    '''public boolean canEdit()
+    '''returns boolean\n\n
+    canEdit()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def cut():
-    '''public void cut()
+    '''returns None\n\n
+    cut()\n
     '''
 def copy():
-    '''public void copy()
+    '''returns None\n\n
+    copy()\n
     '''
 def paste():
-    '''public void paste()
+    '''returns None\n\n
+    paste()\n
     '''
 def canPaste():
-    '''public boolean canPaste()
+    '''returns boolean\n\n
+    canPaste()\n
     '''
 def duplicate():
-    '''public void duplicate()
+    '''returns None\n\n
+    duplicate()\n
     '''
 def selectAll():
-    '''public void selectAll()
+    '''returns None\n\n
+    selectAll()\n
     '''
 def canSelect():
-    '''public boolean canSelect()
+    '''returns boolean\n\n
+    canSelect()\n
     '''
 def canGroup():
-    '''public boolean canGroup()
+    '''returns boolean\n\n
+    canGroup()\n
     '''
 def group():
-    '''public void group()
+    '''returns None\n\n
+    group()\n
     '''
 def canUngroup():
-    '''public boolean canUngroup()
+    '''returns boolean\n\n
+    canUngroup()\n
     '''
 def ungroup():
-    '''public void ungroup()
+    '''returns None\n\n
+    ungroup()\n
     '''
 def canAlign():
-    '''public boolean canAlign()
+    '''returns boolean\n\n
+    canAlign()\n
     '''
 def canDistribute():
-    '''public boolean canDistribute()
+    '''returns boolean\n\n
+    canDistribute()\n
     '''
 def alignBottom():
-    '''public void alignBottom()
+    '''returns None\n\n
+    alignBottom()\n
     '''
 def alignHorizontalCenter():
-    '''public void alignHorizontalCenter()
+    '''returns None\n\n
+    alignHorizontalCenter()\n
     '''
 def alignLeft():
-    '''public void alignLeft()
+    '''returns None\n\n
+    alignLeft()\n
     '''
 def alignRight():
-    '''public void alignRight()
+    '''returns None\n\n
+    alignRight()\n
     '''
 def alignTop():
-    '''public void alignTop()
+    '''returns None\n\n
+    alignTop()\n
     '''
 def alignVerticalCenter():
-    '''public void alignVerticalCenter()
+    '''returns None\n\n
+    alignVerticalCenter()\n
     '''
 def distributeHorizontally():
-    '''public void distributeHorizontally()
+    '''returns None\n\n
+    distributeHorizontally()\n
     '''
 def compare():
-    '''public int compare(final Object o, final Object o2)
-    public int compare(final Object o, final Object o2)
+    '''returns int\n\n
+    compare(final Object o, final Object o2)\n
+    compare(final Object o, final Object o2)\n
     '''
 def distributeVertically():
-    '''public void distributeVertically()
+    '''returns None\n\n
+    distributeVertically()\n
     '''
 def getBackgroundGraphics():
-    '''public IlvDashboardGraphicIterator getBackgroundGraphics()
+    '''returns IlvDashboardGraphicIterator\n\n
+    getBackgroundGraphics()\n
     '''
 def writeDataFile():
-    '''public void writeDataFile(final URL url)
+    '''returns None\n\n
+    writeDataFile(final URL url)\n
     '''
 def writeData():
-    '''public void writeData()
+    '''returns None\n\n
+    writeData()\n
     '''
 def writeDashboardFiles():
-    '''public void writeDashboardFiles()
+    '''returns None\n\n
+    writeDashboardFiles()\n
     '''
 def writeBackgroundFile():
-    '''public void writeBackgroundFile(final String name)
+    '''returns None\n\n
+    writeBackgroundFile(final String name)\n
     '''
 def writeBackground():
-    '''public void writeBackground(final OutputStream outputStream)
+    '''returns None\n\n
+    writeBackground(final OutputStream outputStream)\n
     '''
 def readBackground():
-    '''public void readBackground(final InputStream inputStream)
+    '''returns None\n\n
+    readBackground(final InputStream inputStream)\n
     '''
 def writeProjectFile():
-    '''public void writeProjectFile(final URL url)
+    '''returns None\n\n
+    writeProjectFile(final URL url)\n
     '''
 def setProject():
-    '''public void setProject(final IlvDiagrammerProject project)
+    '''returns None\n\n
+    setProject(final IlvDiagrammerProject project)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def setModified():
-    '''public void setModified(final boolean b)
+    '''returns None\n\n
+    setModified(final boolean b)\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def isBackgroundObject():
-    '''public boolean isBackgroundObject(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    isBackgroundObject(final IlvGraphic ilvGraphic)\n
     '''
 def addSymbol():
-    '''public void addSymbol(final IlvDashboardSymbol e)
+    '''returns None\n\n
+    addSymbol(final IlvDashboardSymbol e)\n
     '''
 def removeSymbol():
-    '''public void removeSymbol(final IlvDashboardSymbol ilvDashboardSymbol)
+    '''returns None\n\n
+    removeSymbol(final IlvDashboardSymbol ilvDashboardSymbol)\n
     '''
 def getObjectSymbol():
-    '''public IlvDashboardSymbol getObjectSymbol(final Object o)
+    '''returns IlvDashboardSymbol\n\n
+    getObjectSymbol(final Object o)\n
     '''
 def getGraphicSymbol():
-    '''public IlvDashboardSymbol getGraphicSymbol(final IlvGraphic ilvGraphic)
+    '''returns IlvDashboardSymbol\n\n
+    getGraphicSymbol(final IlvGraphic ilvGraphic)\n
     '''
 def hasSelectedSymbols():
-    '''public boolean hasSelectedSymbols()
+    '''returns boolean\n\n
+    hasSelectedSymbols()\n
     '''
 def getSelectedSymbols():
-    '''public IlvDashboardSymbolIterator getSelectedSymbols()
+    '''returns IlvDashboardSymbolIterator\n\n
+    getSelectedSymbols()\n
     '''
 def getSymbol():
-    '''public IlvDashboardSymbol getSymbol(final String s)
+    '''returns IlvDashboardSymbol\n\n
+    getSymbol(final String s)\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def setURL():
-    '''public void setURL(final URL d)
+    '''returns None\n\n
+    setURL(final URL d)\n
     '''
 def writeDashboard():
-    '''public void writeDashboard(final URL url)
+    '''returns None\n\n
+    writeDashboard(final URL url)\n
     '''
 def readDashboard():
-    '''public void readDashboard(final URL url)
-    public void readDashboard(final Document document, final boolean b, final float n, final float n2)
+    '''returns None\n\n
+    readDashboard(final URL url)\n
+    readDashboard(final Document document, final boolean b, final float n, final float n2)\n
     '''
 def readBinary():
-    '''public void readBinary(final URL url)
-    public void readBinary(final InputStream inputStream)
+    '''returns None\n\n
+    readBinary(final URL url)\n
+    readBinary(final InputStream inputStream)\n
     '''
 def writeBinary():
-    '''public void writeBinary(final URL url)
-    public void writeBinary(final OutputStream outputStream)
+    '''returns None\n\n
+    writeBinary(final URL url)\n
+    writeBinary(final OutputStream outputStream)\n
     '''
 def isUndoingEnabled():
-    '''public boolean isUndoingEnabled()
+    '''returns boolean\n\n
+    isUndoingEnabled()\n
     '''
 def setUndoingEnabled():
-    '''public void setUndoingEnabled(final boolean f)
+    '''returns None\n\n
+    setUndoingEnabled(final boolean f)\n
     '''
 def addUndoableEdit():
-    '''public void addUndoableEdit(final UndoableEdit undoableEdit)
+    '''returns None\n\n
+    addUndoableEdit(final UndoableEdit undoableEdit)\n
     '''
 def setCompoundEditMode():
-    '''public void setCompoundEditMode(final boolean compoundMode)
+    '''returns None\n\n
+    setCompoundEditMode(final boolean compoundMode)\n
     '''
 def canUndo():
-    '''public boolean canUndo()
+    '''returns boolean\n\n
+    canUndo()\n
     '''
 def undo():
-    '''public void undo()
-    public void undo()
+    '''returns None\n\n
+    undo()\n
+    undo()\n
     '''
 def canRedo():
-    '''public boolean canRedo()
+    '''returns boolean\n\n
+    canRedo()\n
     '''
 def redo():
-    '''public void redo()
-    public void redo()
+    '''returns None\n\n
+    redo()\n
+    redo()\n
     '''
 def setSelectManager():
-    '''public void setSelectManager(final IlvDashboardKeySelectManager h)
+    '''returns None\n\n
+    setSelectManager(final IlvDashboardKeySelectManager h)\n
     '''
 def getSelectManager():
-    '''public IlvDashboardKeySelectManager getSelectManager()
+    '''returns IlvDashboardKeySelectManager\n\n
+    getSelectManager()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def setEditingAllowed():
-    '''public void setEditingAllowed(final boolean editingAllowed)
+    '''returns None\n\n
+    setEditingAllowed(final boolean editingAllowed)\n
     '''
 def isContained():
-    '''public boolean isContained(final IlvDashboardSymbol o)
+    '''returns boolean\n\n
+    isContained(final IlvDashboardSymbol o)\n
     '''
 def getSymbolIndex():
-    '''public int getSymbolIndex(final IlvDashboardSymbol o)
+    '''returns int\n\n
+    getSymbolIndex(final IlvDashboardSymbol o)\n
     '''
 def setSymbolIndex():
-    '''public void setSymbolIndex(final IlvDashboardSymbol element, final int index)
+    '''returns None\n\n
+    setSymbolIndex(final IlvDashboardSymbol element, final int index)\n
     '''
 def addSymbolParameterListener():
-    '''public void addSymbolParameterListener(final IlvDashboardSymbolParameterListener e)
+    '''returns None\n\n
+    addSymbolParameterListener(final IlvDashboardSymbolParameterListener e)\n
     '''
 def removeSymbolParameterListener():
-    '''public void removeSymbolParameterListener(final IlvDashboardSymbolParameterListener o)
+    '''returns None\n\n
+    removeSymbolParameterListener(final IlvDashboardSymbolParameterListener o)\n
     '''
 def fireSymbolParameterChanged():
-    '''public void fireSymbolParameterChanged(final IlvDashboardSymbol ilvDashboardSymbol, final IlvDashboardSymbol.Parameter parameter, final Object o, final Object o2, final String s, final String s2)
+    '''returns None\n\n
+    fireSymbolParameterChanged(final IlvDashboardSymbol ilvDashboardSymbol, final IlvDashboardSymbol.Parameter parameter, final Object o, final Object o2, final String s, final String s2)\n
     '''
 def getPrintingController():
-    '''public IlvManagerPrintingController getPrintingController()
+    '''returns IlvManagerPrintingController\n\n
+    getPrintingController()\n
     '''
 def setBaseTextDirection():
-    '''public void setBaseTextDirection(final int n)
+    '''returns None\n\n
+    setBaseTextDirection(final int n)\n
     '''
 def getBaseTextDirection():
-    '''public int getBaseTextDirection()
+    '''returns int\n\n
+    getBaseTextDirection()\n
     '''
 def isLinkLayoutEnabled():
-    '''public boolean isLinkLayoutEnabled()
+    '''returns boolean\n\n
+    isLinkLayoutEnabled()\n
     '''
 def setLinkLayoutEnabled():
-    '''public void setLinkLayoutEnabled(final boolean b)
+    '''returns None\n\n
+    setLinkLayoutEnabled(final boolean b)\n
     '''
 def getSerializableProperties():
-    '''public ArrayList<Object> getSerializableProperties()
+    '''returns ArrayList<Object>\n\n
+    getSerializableProperties()\n
     '''
 def setSerializableProperties():
-    '''public void setSerializableProperties(final ArrayList<Object> p)
+    '''returns None\n\n
+    setSerializableProperties(final ArrayList<Object> p)\n
     '''
 def getSymbols():
-    '''public IlvDashboardSymbolIterator getSymbols()
+    '''returns IlvDashboardSymbolIterator\n\n
+    getSymbols()\n
     '''
 def iterator():
-    '''public Iterator<IlvDashboardSymbol> iterator()
+    '''returns Iterator<IlvDashboardSymbol>\n\n
+    iterator()\n
     '''
 def addStyleSheet():
-    '''public void addStyleSheet(final URL url)
+    '''returns None\n\n
+    addStyleSheet(final URL url)\n
     '''
 def contentsChanged():
-    '''public void contentsChanged(final ManagerContentChangedEvent managerContentChangedEvent)
+    '''returns None\n\n
+    contentsChanged(final ManagerContentChangedEvent managerContentChangedEvent)\n
     '''
 def layerChanged():
-    '''public void layerChanged(final ManagerLayerEvent managerLayerEvent)
+    '''returns None\n\n
+    layerChanged(final ManagerLayerEvent managerLayerEvent)\n
     '''
 def layerInserted():
-    '''public void layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)
+    '''returns None\n\n
+    layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)\n
     '''
 def layerMoved():
-    '''public void layerMoved(final ManagerLayerMovedEvent managerLayerMovedEvent)
+    '''returns None\n\n
+    layerMoved(final ManagerLayerMovedEvent managerLayerMovedEvent)\n
     '''
 def layerRemoved():
-    '''public void layerRemoved(final ManagerLayerRemovedEvent managerLayerRemovedEvent)
+    '''returns None\n\n
+    layerRemoved(final ManagerLayerRemovedEvent managerLayerRemovedEvent)\n
     '''
 def getDocumentBase():
-    '''public URL getDocumentBase()
+    '''returns URL\n\n
+    getDocumentBase()\n
     '''
 def createInputStream():
-    '''public IlvInputStream createInputStream(final InputStream inputStream)
+    '''returns IlvInputStream\n\n
+    createInputStream(final InputStream inputStream)\n
     '''
 def createOutputStream():
-    '''public IlvOutputStream createOutputStream(final OutputStream outputStream)
+    '''returns IlvOutputStream\n\n
+    createOutputStream(final OutputStream outputStream)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public IlvDashboardSymbol next()
+    '''returns IlvDashboardSymbol\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

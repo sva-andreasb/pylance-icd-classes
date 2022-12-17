@@ -1,21 +1,28 @@
-def RGBColorValue():
-    '''public RGBColorValue(final Value r, final Value g, final Value b)
+def ():
+    '''returns RGBColorValue\n\n
+    (final Value r, final Value g, final Value b)\n
     '''
 def getPrimitiveType():
-    '''public short getPrimitiveType()
+    '''returns short\n\n
+    getPrimitiveType()\n
     '''
 def getCssText():
-    '''public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
     '''
 def getRed():
-    '''public Value getRed()
+    '''returns Value\n\n
+    getRed()\n
     '''
 def getGreen():
-    '''public Value getGreen()
+    '''returns Value\n\n
+    getGreen()\n
     '''
 def getBlue():
-    '''public Value getBlue()
+    '''returns Value\n\n
+    getBlue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

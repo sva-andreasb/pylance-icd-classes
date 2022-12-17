@@ -1,118 +1,94 @@
-def create():
-    '''public static RequestBuilder create(final String method)
-    '''
-def get():
-    '''public static RequestBuilder get()
-    public static RequestBuilder get(final URI uri)
-    public static RequestBuilder get(final String uri)
-    '''
-def head():
-    '''public static RequestBuilder head()
-    public static RequestBuilder head(final URI uri)
-    public static RequestBuilder head(final String uri)
-    '''
-def patch():
-    '''public static RequestBuilder patch()
-    public static RequestBuilder patch(final URI uri)
-    public static RequestBuilder patch(final String uri)
-    '''
-def post():
-    '''public static RequestBuilder post()
-    public static RequestBuilder post(final URI uri)
-    public static RequestBuilder post(final String uri)
-    '''
-def put():
-    '''public static RequestBuilder put()
-    public static RequestBuilder put(final URI uri)
-    public static RequestBuilder put(final String uri)
-    '''
-def delete():
-    '''public static RequestBuilder delete()
-    public static RequestBuilder delete(final URI uri)
-    public static RequestBuilder delete(final String uri)
-    '''
-def trace():
-    '''public static RequestBuilder trace()
-    public static RequestBuilder trace(final URI uri)
-    public static RequestBuilder trace(final String uri)
-    '''
-def options():
-    '''public static RequestBuilder options()
-    public static RequestBuilder options(final URI uri)
-    public static RequestBuilder options(final String uri)
-    '''
-def copy():
-    '''public static RequestBuilder copy(final HttpRequest request)
-    '''
 def setCharset():
-    '''public RequestBuilder setCharset(final Charset charset)
+    '''returns RequestBuilder\n\n
+    setCharset(final Charset charset)\n
     '''
 def getCharset():
-    '''public Charset getCharset()
+    '''returns Charset\n\n
+    getCharset()\n
     '''
 def getMethod():
-    '''public String getMethod()
-    public String getMethod()
-    public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
+    getMethod()\n
+    getMethod()\n
     '''
 def getVersion():
-    '''public ProtocolVersion getVersion()
+    '''returns ProtocolVersion\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public RequestBuilder setVersion(final ProtocolVersion version)
+    '''returns RequestBuilder\n\n
+    setVersion(final ProtocolVersion version)\n
     '''
 def getUri():
-    '''public URI getUri()
+    '''returns URI\n\n
+    getUri()\n
     '''
 def setUri():
-    '''public RequestBuilder setUri(final URI uri)
-    public RequestBuilder setUri(final String uri)
+    '''returns RequestBuilder\n\n
+    setUri(final URI uri)\n
+    setUri(final String uri)\n
     '''
 def getFirstHeader():
-    '''public Header getFirstHeader(final String name)
+    '''returns Header\n\n
+    getFirstHeader(final String name)\n
     '''
 def getLastHeader():
-    '''public Header getLastHeader(final String name)
+    '''returns Header\n\n
+    getLastHeader(final String name)\n
     '''
 def getHeaders():
-    '''public Header[] getHeaders(final String name)
+    '''returns Header[]\n\n
+    getHeaders(final String name)\n
     '''
 def addHeader():
-    '''public RequestBuilder addHeader(final Header header)
-    public RequestBuilder addHeader(final String name, final String value)
+    '''returns RequestBuilder\n\n
+    addHeader(final Header header)\n
+    addHeader(final String name, final String value)\n
     '''
 def removeHeader():
-    '''public RequestBuilder removeHeader(final Header header)
+    '''returns RequestBuilder\n\n
+    removeHeader(final Header header)\n
     '''
 def removeHeaders():
-    '''public RequestBuilder removeHeaders(final String name)
+    '''returns RequestBuilder\n\n
+    removeHeaders(final String name)\n
     '''
 def setHeader():
-    '''public RequestBuilder setHeader(final Header header)
-    public RequestBuilder setHeader(final String name, final String value)
+    '''returns RequestBuilder\n\n
+    setHeader(final Header header)\n
+    setHeader(final String name, final String value)\n
     '''
 def getEntity():
-    '''public HttpEntity getEntity()
+    '''returns HttpEntity\n\n
+    getEntity()\n
     '''
 def setEntity():
-    '''public RequestBuilder setEntity(final HttpEntity entity)
+    '''returns RequestBuilder\n\n
+    setEntity(final HttpEntity entity)\n
     '''
 def getParameters():
-    '''public List<NameValuePair> getParameters()
+    '''returns List<NameValuePair>\n\n
+    getParameters()\n
     '''
 def addParameter():
-    '''public RequestBuilder addParameter(final NameValuePair nvp)
-    public RequestBuilder addParameter(final String name, final String value)
+    '''returns RequestBuilder\n\n
+    addParameter(final NameValuePair nvp)\n
+    addParameter(final String name, final String value)\n
     '''
 def addParameters():
-    '''public RequestBuilder addParameters(final NameValuePair... nvps)
+    '''returns RequestBuilder\n\n
+    addParameters(final NameValuePair... nvps)\n
     '''
 def getConfig():
-    '''public RequestConfig getConfig()
+    '''returns RequestConfig\n\n
+    getConfig()\n
     '''
 def setConfig():
-    '''public RequestBuilder setConfig(final RequestConfig config)
+    '''returns RequestBuilder\n\n
+    setConfig(final RequestConfig config)\n
     '''
 def build():
-    '''public HttpUriRequest build()
+    '''returns HttpUriRequest\n\n
+    build()\n
     '''

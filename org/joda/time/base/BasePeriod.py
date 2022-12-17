@@ -1,14 +1,18 @@
 def getPeriodType():
-    '''public PeriodType getPeriodType()
-    public PeriodType getPeriodType()
+    '''returns PeriodType\n\n
+    getPeriodType()\n
+    getPeriodType()\n
     '''
 def getValue():
-    '''public int getValue(final int n)
-    public int getValue(final int n)
+    '''returns int\n\n
+    getValue(final int n)\n
+    getValue(final int n)\n
     '''
 def toDurationFrom():
-    '''public Duration toDurationFrom(final ReadableInstant readableInstant)
+    '''returns Duration\n\n
+    toDurationFrom(final ReadableInstant readableInstant)\n
     '''
 def toDurationTo():
-    '''public Duration toDurationTo(final ReadableInstant readableInstant)
+    '''returns Duration\n\n
+    toDurationTo(final ReadableInstant readableInstant)\n
     '''

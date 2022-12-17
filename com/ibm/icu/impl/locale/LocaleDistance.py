@@ -5,51 +5,43 @@ IX_DEF_SCRIPT_DISTANCE = "int  1"
 IX_DEF_REGION_DISTANCE = "int  2"
 IX_MIN_REGION_DISTANCE = "int  3"
 IX_LIMIT = "int  4"
-def shiftDistance():
-    '''public static final int shiftDistance(final int distance)
-    '''
-def getShiftedDistance():
-    '''public static final int getShiftedDistance(final int indexAndDistance)
-    '''
-def getDistanceDouble():
-    '''public static final double getDistanceDouble(final int indexAndDistance)
-    '''
-def getIndex():
-    '''public static final int getIndex(final int indexAndDistance)
-    '''
 def testOnlyDistance():
-    '''public int testOnlyDistance(final ULocale desired, final ULocale supported, final int threshold, final LocaleMatcher.FavorSubtag favorSubtag)
+    '''returns int\n\n
+    testOnlyDistance(final ULocale desired, final ULocale supported, final int threshold, final LocaleMatcher.FavorSubtag favorSubtag)\n
     '''
 def getBestIndexAndDistance():
-    '''public int getBestIndexAndDistance(final LSR desired, final LSR[] supportedLSRs, final int supportedLSRsLength, int shiftedThreshold, final LocaleMatcher.FavorSubtag favorSubtag, final LocaleMatcher.Direction direction)
+    '''returns int\n\n
+    getBestIndexAndDistance(final LSR desired, final LSR[] supportedLSRs, final int supportedLSRsLength, int shiftedThreshold, final LocaleMatcher.FavorSubtag favorSubtag, final LocaleMatcher.Direction direction)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isParadigmLSR():
-    '''public boolean isParadigmLSR(final LSR lsr)
+    '''returns boolean\n\n
+    isParadigmLSR(final LSR lsr)\n
     '''
 def getDefaultScriptDistance():
-    '''public int getDefaultScriptDistance()
+    '''returns int\n\n
+    getDefaultScriptDistance()\n
     '''
 def getDefaultDemotionPerDesiredLocale():
-    '''public int getDefaultDemotionPerDesiredLocale()
-    '''
-def testOnlyGetDistanceTable():
-    '''public Map<String, Integer> testOnlyGetDistanceTable()
+    '''returns int\n\n
+    getDefaultDemotionPerDesiredLocale()\n
     '''
 def testOnlyPrintDistanceTable():
-    '''public void testOnlyPrintDistanceTable()
+    '''returns None\n\n
+    testOnlyPrintDistanceTable()\n
     '''
-def Data():
-    '''public Data(final byte[] trie, final byte[] regionToPartitionsIndex, final String[] partitionArrays, final Set<LSR> paradigmLSRs, final int[] distances)
-    '''
-def load():
-    '''public static Data load()
+def ():
+    '''returns Data\n\n
+    (final byte[] trie, final byte[] regionToPartitionsIndex, final String[] partitionArrays, final Set<LSR> paradigmLSRs, final int[] distances)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

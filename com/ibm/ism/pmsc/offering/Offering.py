@@ -4,90 +4,119 @@ DEFAULT_DIALOG = "String  \"defaultDialogCR\""
 DEFAULT_DIALOG_SD_NO_ATTRS = "String  \"defaultDialogNoAttributesCRsd\""
 DEFAULT_DIALOG_SD = "String  \"defaultDialogCRSD\""
 DEFAULT_DIALOG_DESCRIPTIVE = "String  \"descriptiveDialogCR\""
-def Offering():
-    '''public Offering(final MboSet ms)
+def ():
+    '''returns Offering\n\n
+    (final MboSet ms)\n
     '''
 def setNumOfAttrs():
-    '''public void setNumOfAttrs(final int numAttrs)
+    '''returns None\n\n
+    setNumOfAttrs(final int numAttrs)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getFirstAuthorizedCatalog():
-    '''public MboRemote getFirstAuthorizedCatalog()
+    '''returns MboRemote\n\n
+    getFirstAuthorizedCatalog()\n
     '''
 def addOffsToCat():
-    '''public void addOffsToCat()
+    '''returns None\n\n
+    addOffsToCat()\n
     '''
 def addOffsToGroup():
-    '''public void addOffsToGroup()
+    '''returns None\n\n
+    addOffsToGroup()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def updateDesc():
-    '''public void updateDesc()
+    '''returns None\n\n
+    updateDesc()\n
     '''
 def processItemSpecSet():
-    '''public void processItemSpecSet()
+    '''returns None\n\n
+    processItemSpecSet()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def isNewDuplicatedItem():
-    '''public boolean isNewDuplicatedItem()
+    '''returns boolean\n\n
+    isNewDuplicatedItem()\n
     '''
 def setDefaultDialogPresentationID():
-    '''public String setDefaultDialogPresentationID()
+    '''returns String\n\n
+    setDefaultDialogPresentationID()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)\n
     '''
 def deleteAll():
-    '''public void deleteAll()
+    '''returns None\n\n
+    deleteAll()\n
     '''
 def copyAttributesToDialog():
-    '''public void copyAttributesToDialog()
+    '''returns None\n\n
+    copyAttributesToDialog()\n
     '''
 def copyOffAttrToMap():
-    '''public void copyOffAttrToMap()
+    '''returns None\n\n
+    copyOffAttrToMap()\n
     '''
 def LIC():
-    '''public boolean LIC()
+    '''returns boolean\n\n
+    LIC()\n
     '''
 def WF():
-    '''public boolean WF()
+    '''returns boolean\n\n
+    WF()\n
     '''
 def isForDM_TARGET():
-    '''public boolean isForDM_TARGET()
+    '''returns boolean\n\n
+    isForDM_TARGET()\n
     '''
 def setIsForDMTarget():
-    '''public void setIsForDMTarget(final boolean isForDMTarget)
+    '''returns None\n\n
+    setIsForDMTarget(final boolean isForDMTarget)\n
     '''
 def setCopyAttrOnSave():
-    '''public void setCopyAttrOnSave()
+    '''returns None\n\n
+    setCopyAttrOnSave()\n
     '''
 def checkCatalogMembership():
-    '''public void checkCatalogMembership()
+    '''returns None\n\n
+    checkCatalogMembership()\n
     '''
 def checkForNullAttrDesc():
-    '''public void checkForNullAttrDesc()
+    '''returns None\n\n
+    checkForNullAttrDesc()\n
     '''
 def checkForChangeUseWithRecord():
-    '''public void checkForChangeUseWithRecord()
+    '''returns None\n\n
+    checkForChangeUseWithRecord()\n
     '''
 def isLotted():
-    '''public boolean isLotted()
+    '''returns boolean\n\n
+    isLotted()\n
     '''
 def getOfferingPriceFromPriceBook():
-    '''public OfferingPrice getOfferingPriceFromPriceBook()
+    '''returns OfferingPrice\n\n
+    getOfferingPriceFromPriceBook()\n
     '''

@@ -1,38 +1,30 @@
-def DateProperty():
-    '''public DateProperty(final String name, final ParameterList parameters, final PropertyFactory factory)
-    public DateProperty(final String name, final PropertyFactory factory)
-    public DateProperty(final String name, final TimeZone timezone, final PropertyFactory factory)
-    '''
-def getDate():
-    '''public final Date getDate()
-    '''
-def setDate():
-    '''public final void setDate(final Date date)
+def ():
+    '''returns DateProperty\n\n
+    (final String name, final ParameterList parameters, final PropertyFactory factory)\n
+    (final String name, final PropertyFactory factory)\n
+    (final String name, final TimeZone timezone, final PropertyFactory factory)\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone timezone)
-    '''
-def getTimeZone():
-    '''public final TimeZone getTimeZone()
+    '''returns None\n\n
+    setTimeZone(final TimeZone timezone)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def setUtc():
-    '''public final void setUtc(final boolean utc)
-    '''
-def isUtc():
-    '''public final boolean isUtc()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def copy():
-    '''public Property copy()
+    '''returns Property\n\n
+    copy()\n
     '''

@@ -1,4 +1,5 @@
-def SpdyHttpEncoder():
-    '''public SpdyHttpEncoder(final SpdyVersion version)
-    public SpdyHttpEncoder(final SpdyVersion version, final boolean headersToLowerCase, final boolean validateHeaders)
+def ():
+    '''returns SpdyHttpEncoder\n\n
+    (final SpdyVersion version)\n
+    (final SpdyVersion version, final boolean headersToLowerCase, final boolean validateHeaders)\n
     '''

@@ -1,3 +1,4 @@
-def GetBucketCrossOriginConfigurationRequest():
-    '''public GetBucketCrossOriginConfigurationRequest(final String bucketName)
+def ():
+    '''returns GetBucketCrossOriginConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

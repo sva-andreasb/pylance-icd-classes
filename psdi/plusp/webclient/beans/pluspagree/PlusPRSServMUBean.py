@@ -1,9 +1,12 @@
 def select_services_mu():
-    '''public int select_services_mu()
+    '''returns int\n\n
+    select_services_mu()\n
     '''
 def getNoChargeFieldName():
-    '''public String getNoChargeFieldName()
+    '''returns String\n\n
+    getNoChargeFieldName()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

@@ -1,70 +1,92 @@
-def SimpleProvider():
-    '''public SimpleProvider()
-    public SimpleProvider(final EngineConfiguration defaultConfiguration)
-    public SimpleProvider(final TypeMappingRegistry typeMappingRegistry)
+def ():
+    '''returns SimpleProvider\n\n
+    ()\n
+    (final EngineConfiguration defaultConfiguration)\n
+    (final TypeMappingRegistry typeMappingRegistry)\n
     '''
 def configureEngine():
-    '''public void configureEngine(final AxisEngine engine)
+    '''returns None\n\n
+    configureEngine(final AxisEngine engine)\n
     '''
 def writeEngineConfig():
-    '''public void writeEngineConfig(final AxisEngine engine)
+    '''returns None\n\n
+    writeEngineConfig(final AxisEngine engine)\n
     '''
 def getGlobalOptions():
-    '''public Hashtable getGlobalOptions()
+    '''returns Hashtable\n\n
+    getGlobalOptions()\n
     '''
 def setGlobalOptions():
-    '''public void setGlobalOptions(final Hashtable options)
+    '''returns None\n\n
+    setGlobalOptions(final Hashtable options)\n
     '''
 def getGlobalRequest():
-    '''public Handler getGlobalRequest()
+    '''returns Handler\n\n
+    getGlobalRequest()\n
     '''
 def setGlobalRequest():
-    '''public void setGlobalRequest(final Handler globalRequest)
+    '''returns None\n\n
+    setGlobalRequest(final Handler globalRequest)\n
     '''
 def getGlobalResponse():
-    '''public Handler getGlobalResponse()
+    '''returns Handler\n\n
+    getGlobalResponse()\n
     '''
 def setGlobalResponse():
-    '''public void setGlobalResponse(final Handler globalResponse)
+    '''returns None\n\n
+    setGlobalResponse(final Handler globalResponse)\n
     '''
 def getTypeMappingRegistry():
-    '''public TypeMappingRegistry getTypeMappingRegistry()
+    '''returns TypeMappingRegistry\n\n
+    getTypeMappingRegistry()\n
     '''
 def getTypeMapping():
-    '''public TypeMapping getTypeMapping(final String encodingStyle)
+    '''returns TypeMapping\n\n
+    getTypeMapping(final String encodingStyle)\n
     '''
 def getTransport():
-    '''public Handler getTransport(final QName qname)
+    '''returns Handler\n\n
+    getTransport(final QName qname)\n
     '''
 def getService():
-    '''public SOAPService getService(final QName qname)
+    '''returns SOAPService\n\n
+    getService(final QName qname)\n
     '''
 def getServiceByNamespaceURI():
-    '''public SOAPService getServiceByNamespaceURI(final String namespace)
+    '''returns SOAPService\n\n
+    getServiceByNamespaceURI(final String namespace)\n
     '''
 def getHandler():
-    '''public Handler getHandler(final QName qname)
+    '''returns Handler\n\n
+    getHandler(final QName qname)\n
     '''
 def deployService():
-    '''public void deployService(final QName qname, final SOAPService service)
-    public void deployService(final String name, final SOAPService service)
+    '''returns None\n\n
+    deployService(final QName qname, final SOAPService service)\n
+    deployService(final String name, final SOAPService service)\n
     '''
 def deployTransport():
-    '''public void deployTransport(final QName qname, final Handler transport)
-    public void deployTransport(final String name, final Handler transport)
+    '''returns None\n\n
+    deployTransport(final QName qname, final Handler transport)\n
+    deployTransport(final String name, final Handler transport)\n
     '''
 def getDeployedServices():
-    '''public Iterator getDeployedServices()
+    '''returns Iterator\n\n
+    getDeployedServices()\n
     '''
 def setRoles():
-    '''public void setRoles(final List roles)
+    '''returns None\n\n
+    setRoles(final List roles)\n
     '''
 def addRole():
-    '''public void addRole(final String role)
+    '''returns None\n\n
+    addRole(final String role)\n
     '''
 def removeRole():
-    '''public void removeRole(final String role)
+    '''returns None\n\n
+    removeRole(final String role)\n
     '''
 def getRoles():
-    '''public List getRoles()
+    '''returns List\n\n
+    getRoles()\n
     '''

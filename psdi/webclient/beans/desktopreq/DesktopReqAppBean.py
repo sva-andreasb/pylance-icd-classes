@@ -1,54 +1,68 @@
-def DesktopReqAppBean():
-    '''public DesktopReqAppBean()
+def ():
+    '''returns DesktopReqAppBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def newrecord():
-    '''public int newrecord()
+    '''returns int\n\n
+    newrecord()\n
     '''
 def editdr():
-    '''public void editdr()
+    '''returns None\n\n
+    editdr()\n
     '''
 def editdrfromlist():
-    '''public void editdrfromlist()
+    '''returns None\n\n
+    editdrfromlist()\n
     '''
 def editdraft():
-    '''public int editdraft(final long uid)
+    '''returns int\n\n
+    editdraft(final long uid)\n
     '''
 def createdrfromtmpl():
-    '''public void createdrfromtmpl()
+    '''returns None\n\n
+    createdrfromtmpl()\n
     '''
 def createdrfromtmpllist():
-    '''public void createdrfromtmpllist()
+    '''returns None\n\n
+    createdrfromtmpllist()\n
     '''
 def createdrfromtemplate():
-    '''public int createdrfromtemplate(final MRRemote mr)
+    '''returns int\n\n
+    createdrfromtemplate(final MRRemote mr)\n
     '''
 def viewreqdetails():
-    '''public int viewreqdetails()
+    '''returns int\n\n
+    viewreqdetails()\n
     '''
 def viewdraftdetails():
-    '''public int viewdraftdetails()
+    '''returns int\n\n
+    viewdraftdetails()\n
     '''
 def submit():
-    '''public int submit()
+    '''returns int\n\n
+    submit()\n
     '''
 def fakesave():
-    '''public void fakesave()
+    '''returns None\n\n
+    fakesave()\n
     '''
 def savedraft():
-    '''public void savedraft()
+    '''returns None\n\n
+    savedraft()\n
     '''
 def nexttabvalidate():
-    '''public int nexttabvalidate()
+    '''returns int\n\n
+    nexttabvalidate()\n
     '''
 def tabvalidate():
-    '''public int tabvalidate()
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''returns int\n\n
+    tabvalidate()\n
     '''
 def autoInitiateWorkflow():
-    '''public void autoInitiateWorkflow()
+    '''returns None\n\n
+    autoInitiateWorkflow()\n
     '''

@@ -1,45 +1,60 @@
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def setETag():
-    '''public void setETag(final String eTag)
+    '''returns None\n\n
+    setETag(final String eTag)\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final long size)
+    '''returns None\n\n
+    setSize(final long size)\n
     '''
 def getLastModified():
-    '''public Date getLastModified()
+    '''returns Date\n\n
+    getLastModified()\n
     '''
 def setLastModified():
-    '''public void setLastModified(final Date lastModified)
+    '''returns None\n\n
+    setLastModified(final Date lastModified)\n
     '''
 def getOwner():
-    '''public Owner getOwner()
+    '''returns Owner\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final Owner owner)
+    '''returns None\n\n
+    setOwner(final Owner owner)\n
     '''
 def getStorageClass():
-    '''public String getStorageClass()
+    '''returns String\n\n
+    getStorageClass()\n
     '''
 def setStorageClass():
-    '''public void setStorageClass(final String storageClass)
+    '''returns None\n\n
+    setStorageClass(final String storageClass)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

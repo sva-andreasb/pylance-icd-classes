@@ -1,3 +1,4 @@
-def PlusPFldPriceBookLineLaborVendor():
-    '''public PlusPFldPriceBookLineLaborVendor(final MboValue mbv)
+def ():
+    '''returns PlusPFldPriceBookLineLaborVendor\n\n
+    (final MboValue mbv)\n
     '''

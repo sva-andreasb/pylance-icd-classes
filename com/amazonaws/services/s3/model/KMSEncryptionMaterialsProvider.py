@@ -1,4 +1,5 @@
-def KMSEncryptionMaterialsProvider():
-    '''public KMSEncryptionMaterialsProvider(final String defaultCustomerMasterKeyId)
-    public KMSEncryptionMaterialsProvider(final KMSEncryptionMaterials materials)
+def ():
+    '''returns KMSEncryptionMaterialsProvider\n\n
+    (final String defaultCustomerMasterKeyId)\n
+    (final KMSEncryptionMaterials materials)\n
     '''

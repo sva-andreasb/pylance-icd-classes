@@ -1,34 +1,44 @@
-def LinkedHashMap():
-    '''public LinkedHashMap()
-    public LinkedHashMap(final int initialCapacity)
-    public LinkedHashMap(final int initialCapacity, final float loadFactor)
-    public LinkedHashMap(final int initialCapacity, final float loadFactor, final boolean accessOrder)
-    public LinkedHashMap(final Map m)
+def ():
+    '''returns LinkedHashMap\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final int initialCapacity, final float loadFactor, final boolean accessOrder)\n
+    (final Map m)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def remove():
-    '''public Object remove(final Object key)
+    '''returns Object\n\n
+    remove(final Object key)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def putAll():
-    '''public void putAll(final Map m)
+    '''returns None\n\n
+    putAll(final Map m)\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public Object setValue(final Object value)
+    '''returns Object\n\n
+    setValue(final Object value)\n
     '''

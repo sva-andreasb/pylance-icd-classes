@@ -1,40 +1,50 @@
-def ReadableObjectId():
-    '''public ReadableObjectId(final ObjectIdGenerator.IdKey key)
+def ():
+    '''returns Referring\n\n
+    (final ObjectIdGenerator.IdKey key)\n
+    (final UnresolvedForwardReference ref, final Class<?> beanType)\n
+    (final UnresolvedForwardReference ref, final JavaType beanType)\n
     '''
 def setResolver():
-    '''public void setResolver(final ObjectIdResolver resolver)
+    '''returns None\n\n
+    setResolver(final ObjectIdResolver resolver)\n
     '''
 def appendReferring():
-    '''public void appendReferring(final Referring currentReferring)
+    '''returns None\n\n
+    appendReferring(final Referring currentReferring)\n
     '''
 def bindItem():
-    '''public void bindItem(final Object ob)
+    '''returns None\n\n
+    bindItem(final Object ob)\n
     '''
 def resolve():
-    '''public Object resolve()
+    '''returns Object\n\n
+    resolve()\n
     '''
 def hasReferringProperties():
-    '''public boolean hasReferringProperties()
+    '''returns boolean\n\n
+    hasReferringProperties()\n
     '''
 def referringProperties():
-    '''public Iterator<Referring> referringProperties()
+    '''returns Iterator<Referring>\n\n
+    referringProperties()\n
     '''
 def tryToResolveUnresolved():
-    '''public boolean tryToResolveUnresolved(final DeserializationContext ctxt)
+    '''returns boolean\n\n
+    tryToResolveUnresolved(final DeserializationContext ctxt)\n
     '''
 def getResolver():
-    '''public ObjectIdResolver getResolver()
+    '''returns ObjectIdResolver\n\n
+    getResolver()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def Referring():
-    '''public Referring(final UnresolvedForwardReference ref, final Class<?> beanType)
-    public Referring(final UnresolvedForwardReference ref, final JavaType beanType)
+    '''returns String\n\n
+    toString()\n
     '''
 def getLocation():
-    '''public JsonLocation getLocation()
+    '''returns JsonLocation\n\n
+    getLocation()\n
     '''
 def hasId():
-    '''public boolean hasId(final Object id)
+    '''returns boolean\n\n
+    hasId(final Object id)\n
     '''

@@ -1,103 +1,129 @@
 DEFAULT_CAPACITY = "int  8"
 DEFAULT_LOAD_FACTOR = "float  0.5f"
-def ShortObjectHashMap():
-    '''public ShortObjectHashMap()
-    public ShortObjectHashMap(final int initialCapacity)
-    public ShortObjectHashMap(final int initialCapacity, final float loadFactor)
+def ():
+    '''returns ShortObjectHashMap\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final int initialCapacity, final float loadFactor)\n
     '''
 def iterator():
-    '''public Iterator<PrimitiveEntry<V>> iterator()
-    public Iterator<V> iterator()
-    public Iterator<Short> iterator()
+    '''returns Iterator<Short>\n\n
+    iterator()\n
+    iterator()\n
+    iterator()\n
     '''
 def get():
-    '''public V get(final short key)
-    public V get(final Object key)
+    '''returns V\n\n
+    get(final short key)\n
+    get(final Object key)\n
     '''
 def put():
-    '''public V put(final short key, final V value)
-    public V put(final Short key, final V value)
+    '''returns V\n\n
+    put(final short key, final V value)\n
+    put(final Short key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends Short, ? extends V> sourceMap)
+    '''returns None\n\n
+    putAll(final Map<? extends Short, ? extends V> sourceMap)\n
     '''
 def remove():
-    '''public V remove(final short key)
-    public void remove()
-    public V remove(final Object key)
-    public boolean remove(final Object o)
-    public void remove()
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final short key)\n
+    remove()\n
+    remove(final Object key)\n
+    remove(final Object o)\n
+    remove()\n
+    remove()\n
+    remove()\n
     '''
 def size():
-    '''public int size()
-    public int size()
-    public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
+    size()\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final short key)
-    public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final short key)\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def entries():
-    '''public Iterable<PrimitiveEntry<V>> entries()
+    '''returns Iterable<PrimitiveEntry<V>>\n\n
+    entries()\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
-    public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public V next()
-    public Short next()
-    public PrimitiveEntry<V> next()
+    '''returns PrimitiveEntry<V>\n\n
+    next()\n
+    next()\n
+    next()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def keySet():
-    '''public Set<Short> keySet()
+    '''returns Set<Short>\n\n
+    keySet()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> retainedKeys)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> retainedKeys)\n
     '''
 def key():
-    '''public short key()
+    '''returns short\n\n
+    key()\n
     '''
 def value():
-    '''public V value()
+    '''returns V\n\n
+    value()\n
     '''
 def setValue():
-    '''public void setValue(final V value)
-    public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
+    setValue(final V value)\n
     '''
 def getKey():
-    '''public Short getKey()
+    '''returns Short\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''

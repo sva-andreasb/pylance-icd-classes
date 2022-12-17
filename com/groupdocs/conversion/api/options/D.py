@@ -1,6 +1,8 @@
-def D():
-    '''public D(final IResourceCallback a)
+def ():
+    '''returns D\n\n
+    (final IResourceCallback a)\n
     '''
 def a():
-    '''public void a(final bF.a a)
+    '''returns None\n\n
+    a(final bF.a a)\n
     '''

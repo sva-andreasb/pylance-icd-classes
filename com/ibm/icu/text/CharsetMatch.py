@@ -1,19 +1,33 @@
+ENCODING_SCHEME = "int  1"
+BOM = "int  2"
+DECLARED_ENCODING = "int  4"
+LANG_STATISTICS = "int  8"
 def getReader():
-    '''public Reader getReader()
+    '''returns Reader\n\n
+    getReader()\n
     '''
 def getString():
-    '''public String getString()
-    public String getString(final int maxLength)
+    '''returns String\n\n
+    getString()\n
+    getString(final int maxLength)\n
     '''
 def getConfidence():
-    '''public int getConfidence()
+    '''returns int\n\n
+    getConfidence()\n
+    '''
+def getMatchType():
+    '''returns int\n\n
+    getMatchType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def compareTo():
-    '''public int compareTo(final CharsetMatch other)
+    '''returns int\n\n
+    compareTo(final CharsetMatch other)\n
     '''

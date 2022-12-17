@@ -1,21 +1,27 @@
-def ExpressionException():
-    '''public ExpressionException(final String message)
-    public ExpressionException(final Exception e)
-    public ExpressionException(final String grp, final String key, final String[] params)
-    public ExpressionException(final Exception e, final boolean throwException)
+def ():
+    '''returns ExpressionException\n\n
+    (final String message)\n
+    (final Exception e)\n
+    (final String grp, final String key, final String[] params)\n
+    (final Exception e, final boolean throwException)\n
     '''
 def getMXException():
-    '''public MXException getMXException()
+    '''returns MXException\n\n
+    getMXException()\n
     '''
 def setErrorLocation():
-    '''public void setErrorLocation(final String scrName, final Integer lineNum)
+    '''returns None\n\n
+    setErrorLocation(final String scrName, final Integer lineNum)\n
     '''
 def getScrName():
-    '''public String getScrName()
+    '''returns String\n\n
+    getScrName()\n
     '''
 def getLineNum():
-    '''public Integer getLineNum()
+    '''returns Integer\n\n
+    getLineNum()\n
     '''
 def isThrowException():
-    '''public boolean isThrowException()
+    '''returns boolean\n\n
+    isThrowException()\n
     '''

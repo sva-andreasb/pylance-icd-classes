@@ -1,13 +1,17 @@
-def HostMap():
-    '''public HostMap()
-    public HostMap(final int capacity)
+def ():
+    '''returns HostMap\n\n
+    ()\n
+    (final int capacity)\n
     '''
 def put():
-    '''public TYPE put(final String host, final TYPE object)
+    '''returns TYPE\n\n
+    put(final String host, final TYPE object)\n
     '''
 def get():
-    '''public TYPE get(final Object key)
+    '''returns TYPE\n\n
+    get(final Object key)\n
     '''
 def getLazyMatches():
-    '''public Object getLazyMatches(final String host)
+    '''returns Object\n\n
+    getLazyMatches(final String host)\n
     '''

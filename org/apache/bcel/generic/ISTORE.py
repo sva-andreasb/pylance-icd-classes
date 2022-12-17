@@ -1,6 +1,8 @@
-def ISTORE():
-    '''public ISTORE(final int n)
+def ():
+    '''returns ISTORE\n\n
+    (final int n)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

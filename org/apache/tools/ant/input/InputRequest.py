@@ -1,21 +1,28 @@
-def InputRequest():
-    '''public InputRequest(final String prompt)
+def ():
+    '''returns InputRequest\n\n
+    (final String prompt)\n
     '''
 def getPrompt():
-    '''public String getPrompt()
+    '''returns String\n\n
+    getPrompt()\n
     '''
 def setInput():
-    '''public void setInput(final String input)
+    '''returns None\n\n
+    setInput(final String input)\n
     '''
 def isInputValid():
-    '''public boolean isInputValid()
+    '''returns boolean\n\n
+    isInputValid()\n
     '''
 def getInput():
-    '''public String getInput()
+    '''returns String\n\n
+    getInput()\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String d)
+    '''returns None\n\n
+    setDefaultValue(final String d)\n
     '''

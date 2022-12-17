@@ -1,3 +1,4 @@
-def WeatherAlertSet():
-    '''public WeatherAlertSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherAlertSet\n\n
+    (final MboServerInterface ms)\n
     '''

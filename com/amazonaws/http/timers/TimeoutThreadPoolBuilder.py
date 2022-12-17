@@ -1,6 +1,4 @@
-def buildDefaultTimeoutThreadPool():
-    '''public static ScheduledThreadPoolExecutor buildDefaultTimeoutThreadPool()
-    '''
 def newThread():
-    '''public Thread newThread(final Runnable runnable)
+    '''returns Thread\n\n
+    newThread(final Runnable runnable)\n
     '''

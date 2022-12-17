@@ -1,4 +1,5 @@
-def AuthorizationException():
-    '''public AuthorizationException(final String message)
-    public AuthorizationException(final String message, final Throwable cause)
+def ():
+    '''returns AuthorizationException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

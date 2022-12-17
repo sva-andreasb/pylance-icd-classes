@@ -1,12 +1,16 @@
 def getIDString():
-    '''public String getIDString(final MboRemote ci)
+    '''returns String\n\n
+    getIDString(final MboRemote ci)\n
     '''
 def getPromotedIDString():
-    '''public String getPromotedIDString(final MboRemote actci)
+    '''returns String\n\n
+    getPromotedIDString(final MboRemote actci)\n
     '''
 def isLinked():
-    '''public boolean isLinked(final MboRemote ci)
+    '''returns boolean\n\n
+    isLinked(final MboRemote ci)\n
     '''
 def generateDISGUID():
-    '''public void generateDISGUID(final MboRemote mbo, final DISInfo disInfo)
+    '''returns None\n\n
+    generateDISGUID(final MboRemote mbo, final DISInfo disInfo)\n
     '''

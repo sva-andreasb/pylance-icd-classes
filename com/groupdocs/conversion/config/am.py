@@ -1,5 +1,6 @@
-def am():
-    '''public am(final at at)
-    public am()
-    public am(final int zk, final int zl, final int zm, final int zn)
+def ():
+    '''returns am\n\n
+    (final at at)\n
+    ()\n
+    (final int zk, final int zl, final int zm, final int zn)\n
     '''

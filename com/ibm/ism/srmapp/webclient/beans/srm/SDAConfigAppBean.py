@@ -7,75 +7,91 @@ ORGVALUERELATIONSHIP = "String  \"MAXPROPVALUEORG\""
 SCVALUERELATIONSHIP = "String  \"MAXPROPVALUESC\""
 LOGOUTMINUTES = "String  \"mxe.adminmode.logoutmin\""
 WAS_ADMINPASSWORD = "String  \"WAS.AdminPassword\""
-def SDAConfigAppBean():
-    '''public SDAConfigAppBean()
+def ():
+    '''returns SDAConfigAppBean\n\n
+    ()\n
     '''
 def SDALDAP():
-    '''public int SDALDAP()
+    '''returns int\n\n
+    SDALDAP()\n
     '''
 def executeMSAD():
-    '''public int executeMSAD()
+    '''returns int\n\n
+    executeMSAD()\n
     '''
 def executeScriptAction():
-    '''public int executeScriptAction()
+    '''returns int\n\n
+    executeScriptAction()\n
     '''
 def SDASCSITE():
-    '''public int SDASCSITE()
+    '''returns int\n\n
+    SDASCSITE()\n
     '''
 def webSphereRestart():
-    '''public int webSphereRestart()
+    '''returns int\n\n
+    webSphereRestart()\n
     '''
 def executeSCSiteConfig():
-    '''public int executeSCSiteConfig()
+    '''returns int\n\n
+    executeSCSiteConfig()\n
     '''
 def executeCatalogScriptAction():
-    '''public int executeCatalogScriptAction()
+    '''returns int\n\n
+    executeCatalogScriptAction()\n
     '''
 def SDAORG():
-    '''public int SDAORG()
+    '''returns int\n\n
+    SDAORG()\n
     '''
 def executeOrg():
-    '''public int executeOrg()
+    '''returns int\n\n
+    executeOrg()\n
     '''
 def executeCreateOrgAction():
-    '''public int executeCreateOrgAction()
+    '''returns int\n\n
+    executeCreateOrgAction()\n
     '''
 def admin_ON():
-    '''public int admin_ON()
+    '''returns int\n\n
+    admin_ON()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def savePropSet():
-    '''public void savePropSet(final MboSetRemote propSet, final String relationship)
+    '''returns None\n\n
+    savePropSet(final MboSetRemote propSet, final String relationship)\n
     '''
 def configUI():
-    '''public int configUI()
+    '''returns int\n\n
+    configUI()\n
     '''
 def configDNS():
-    '''public int configDNS()
+    '''returns int\n\n
+    configDNS()\n
     '''
 def saveForwardDns():
-    '''public void saveForwardDns(final MXLogger sdaLogger)
+    '''returns None\n\n
+    saveForwardDns(final MXLogger sdaLogger)\n
     '''
 def executeDnsForward():
-    '''public int executeDnsForward(String ipAddress, final MXLogger sdaLogger)
-    '''
-def updateLastSiteConfigLog():
-    '''public static void updateLastSiteConfigLog(final String oldStatus, final String newStatus)
-    '''
-def updateRunningSiteConfigLog():
-    '''public static void updateRunningSiteConfigLog()
+    '''returns int\n\n
+    executeDnsForward(String ipAddress, final MXLogger sdaLogger)\n
     '''
 def isWindows():
-    '''public boolean isWindows()
+    '''returns boolean\n\n
+    isWindows()\n
     '''
 def isUnix():
-    '''public boolean isUnix()
+    '''returns boolean\n\n
+    isUnix()\n
     '''
 def getMaximoInstallLoc():
-    '''public String getMaximoInstallLoc()
+    '''returns String\n\n
+    getMaximoInstallLoc()\n
     '''

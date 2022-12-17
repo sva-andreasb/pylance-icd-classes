@@ -1,6 +1,7 @@
 def visit():
-    '''public void visit(final UpdateClear clear)
-    public void visit(final UpdateDrop drop)
-    public void visit(final UpdateCreate create)
-    public void visit(final UpdateExt arg)
+    '''returns None\n\n
+    visit(final UpdateClear clear)\n
+    visit(final UpdateDrop drop)\n
+    visit(final UpdateCreate create)\n
+    visit(final UpdateExt arg)\n
     '''

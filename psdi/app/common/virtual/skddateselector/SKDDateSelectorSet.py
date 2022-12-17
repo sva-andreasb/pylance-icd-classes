@@ -1,6 +1,8 @@
-def SKDDateSelectorSet():
-    '''public SKDDateSelectorSet(final MboServerInterface ms)
+def ():
+    '''returns SKDDateSelectorSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addSchedule():
-    '''public void addSchedule(final SKDDateSelector mbo, final MboSetRemote parentMboSet)
+    '''returns None\n\n
+    addSchedule(final SKDDateSelector mbo, final MboSetRemote parentMboSet)\n
     '''

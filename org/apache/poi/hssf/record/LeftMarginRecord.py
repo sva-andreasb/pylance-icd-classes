@@ -1,23 +1,30 @@
 sid = "short  38"
-def LeftMarginRecord():
-    '''public LeftMarginRecord()
-    public LeftMarginRecord(final RecordInputStream in)
+def ():
+    '''returns LeftMarginRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getMargin():
-    '''public double getMargin()
+    '''returns double\n\n
+    getMargin()\n
     '''
 def setMargin():
-    '''public void setMargin(final double field_1_margin)
+    '''returns None\n\n
+    setMargin(final double field_1_margin)\n
     '''
 def clone():
-    '''public LeftMarginRecord clone()
+    '''returns LeftMarginRecord\n\n
+    clone()\n
     '''

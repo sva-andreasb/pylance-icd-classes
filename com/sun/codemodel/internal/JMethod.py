@@ -1,71 +1,88 @@
 def _throws():
-    '''public JMethod _throws(final JClass exception)
-    public JMethod _throws(final Class<? extends Throwable> exception)
+    '''returns JMethod\n\n
+    _throws(final JClass exception)\n
+    _throws(final Class<? extends Throwable> exception)\n
     '''
 def params():
-    '''public List<JVar> params()
+    '''returns List<JVar>\n\n
+    params()\n
     '''
 def param():
-    '''public JVar param(final int mods, final JType type, final String name)
-    public JVar param(final JType type, final String name)
-    public JVar param(final int mods, final Class<?> type, final String name)
-    public JVar param(final Class<?> type, final String name)
+    '''returns JVar\n\n
+    param(final int mods, final JType type, final String name)\n
+    param(final JType type, final String name)\n
+    param(final int mods, final Class<?> type, final String name)\n
+    param(final Class<?> type, final String name)\n
     '''
 def varParam():
-    '''public JVar varParam(final Class<?> type, final String name)
-    public JVar varParam(final JType type, final String name)
+    '''returns JVar\n\n
+    varParam(final Class<?> type, final String name)\n
+    varParam(final JType type, final String name)\n
     '''
 def annotate():
-    '''public JAnnotationUse annotate(final JClass clazz)
-    public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
-    '''
-def annotate2():
-    '''public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
+    '''returns JAnnotationUse\n\n
+    annotate(final JClass clazz)\n
+    annotate(final Class<? extends Annotation> clazz)\n
     '''
 def annotations():
-    '''public Collection<JAnnotationUse> annotations()
+    '''returns Collection<JAnnotationUse>\n\n
+    annotations()\n
     '''
 def hasVarArgs():
-    '''public boolean hasVarArgs()
+    '''returns boolean\n\n
+    hasVarArgs()\n
     '''
 def name():
-    '''public String name()
-    public void name(final String n)
+    '''returns None\n\n
+    name()\n
+    name(final String n)\n
     '''
 def type():
-    '''public JType type()
-    public void type(final JType t)
+    '''returns None\n\n
+    type()\n
+    type(final JType t)\n
     '''
 def listParamTypes():
-    '''public JType[] listParamTypes()
+    '''returns JType[]\n\n
+    listParamTypes()\n
     '''
 def listVarParamType():
-    '''public JType listVarParamType()
+    '''returns JType\n\n
+    listVarParamType()\n
     '''
 def listParams():
-    '''public JVar[] listParams()
+    '''returns JVar[]\n\n
+    listParams()\n
     '''
 def listVarParam():
-    '''public JVar listVarParam()
+    '''returns JVar\n\n
+    listVarParam()\n
     '''
 def hasSignature():
-    '''public boolean hasSignature(final JType[] argTypes)
+    '''returns boolean\n\n
+    hasSignature(final JType[] argTypes)\n
     '''
 def body():
-    '''public JBlock body()
+    '''returns JBlock\n\n
+    body()\n
     '''
 def declareDefaultValue():
-    '''public void declareDefaultValue(final JExpression value)
+    '''returns None\n\n
+    declareDefaultValue(final JExpression value)\n
     '''
 def javadoc():
-    '''public JDocComment javadoc()
+    '''returns JDocComment\n\n
+    javadoc()\n
     '''
 def declare():
-    '''public void declare(final JFormatter f)
+    '''returns None\n\n
+    declare(final JFormatter f)\n
     '''
 def mods():
-    '''public JMods mods()
+    '''returns JMods\n\n
+    mods()\n
     '''
 def getMods():
-    '''public JMods getMods()
+    '''returns JMods\n\n
+    getMods()\n
     '''

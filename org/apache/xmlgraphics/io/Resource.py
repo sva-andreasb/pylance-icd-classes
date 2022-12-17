@@ -1,7 +1,9 @@
-def Resource():
-    '''public Resource(final String type, final InputStream inputStream)
-    public Resource(final InputStream inputStream)
+def ():
+    '''returns Resource\n\n
+    (final String type, final InputStream inputStream)\n
+    (final InputStream inputStream)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''

@@ -1,15 +1,20 @@
-def CompareMaxResourceHoursModelTGEmitter():
-    '''public CompareMaxResourceHoursModelTGEmitter(final StreamingDataBuilder out, final UserInfo userInfo, final UIOptions options)
+def ():
+    '''returns CompareMaxResourceHoursModelTGEmitter\n\n
+    (final StreamingDataBuilder out, final UserInfo userInfo, final UIOptions options)\n
     '''
 def beginNode():
-    '''public Result beginNode(final int modelIndex, final IMXGanttModel model, final IMXResource node, final boolean modified)
+    '''returns Result\n\n
+    beginNode(final int modelIndex, final IMXGanttModel model, final IMXResource node, final boolean modified)\n
     '''
 def endNode():
-    '''public void endNode(final int modelIndex, final IMXGanttModel model, final IMXResource node)
+    '''returns None\n\n
+    endNode(final int modelIndex, final IMXGanttModel model, final IMXResource node)\n
     '''
 def beginChildren():
-    '''public void beginChildren()
+    '''returns None\n\n
+    beginChildren()\n
     '''
 def endChildren():
-    '''public void endChildren()
+    '''returns None\n\n
+    endChildren()\n
     '''

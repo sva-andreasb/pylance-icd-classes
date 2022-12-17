@@ -1,10 +1,12 @@
-def JavadocEscapeWriter():
-    '''public JavadocEscapeWriter(final Writer next)
+def ():
+    '''returns JavadocEscapeWriter\n\n
+    (final Writer next)\n
     '''
 def write():
-    '''public void write(final int ch)
-    public void write(final char[] buf, final int off, final int len)
-    public void write(final char[] buf)
-    public void write(final String buf, final int off, final int len)
-    public void write(final String buf)
+    '''returns None\n\n
+    write(final int ch)\n
+    write(final char[] buf, final int off, final int len)\n
+    write(final char[] buf)\n
+    write(final String buf, final int off, final int len)\n
+    write(final String buf)\n
     '''

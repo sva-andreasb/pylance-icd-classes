@@ -1,134 +1,177 @@
-def SslConnection():
-    '''public SslConnection(final SSLEngine engine, final EndPoint endp)
-    public SslConnection(final SSLEngine engine, final EndPoint endp, final long timeStamp)
+def ():
+    '''returns SslConnection\n\n
+    (final SSLEngine engine, final EndPoint endp)\n
+    (final SSLEngine engine, final EndPoint endp, final long timeStamp)\n
     '''
 def isAllowRenegotiate():
-    '''public boolean isAllowRenegotiate()
+    '''returns boolean\n\n
+    isAllowRenegotiate()\n
     '''
 def setAllowRenegotiate():
-    '''public void setAllowRenegotiate(final boolean allowRenegotiate)
+    '''returns None\n\n
+    setAllowRenegotiate(final boolean allowRenegotiate)\n
     '''
 def handle():
-    '''public Connection handle()
+    '''returns Connection\n\n
+    handle()\n
     '''
 def isIdle():
-    '''public boolean isIdle()
+    '''returns boolean\n\n
+    isIdle()\n
     '''
 def isSuspended():
-    '''public boolean isSuspended()
+    '''returns boolean\n\n
+    isSuspended()\n
     '''
 def onClose():
-    '''public void onClose()
+    '''returns None\n\n
+    onClose()\n
     '''
 def onIdleExpired():
-    '''public void onIdleExpired(final long idleForMs)
-    public void onIdleExpired(final long idleForMs)
+    '''returns None\n\n
+    onIdleExpired(final long idleForMs)\n
+    onIdleExpired(final long idleForMs)\n
     '''
 def onInputShutdown():
-    '''public void onInputShutdown()
+    '''returns None\n\n
+    onInputShutdown()\n
     '''
 def getSslEndPoint():
-    '''public AsyncEndPoint getSslEndPoint()
+    '''returns AsyncEndPoint\n\n
+    getSslEndPoint()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getSslEngine():
-    '''public SSLEngine getSslEngine()
+    '''returns SSLEngine\n\n
+    getSslEngine()\n
     '''
 def getEndpoint():
-    '''public AsyncEndPoint getEndpoint()
+    '''returns AsyncEndPoint\n\n
+    getEndpoint()\n
     '''
 def shutdownOutput():
-    '''public void shutdownOutput()
+    '''returns None\n\n
+    shutdownOutput()\n
     '''
 def isOutputShutdown():
-    '''public boolean isOutputShutdown()
+    '''returns boolean\n\n
+    isOutputShutdown()\n
     '''
 def shutdownInput():
-    '''public void shutdownInput()
+    '''returns None\n\n
+    shutdownInput()\n
     '''
 def isInputShutdown():
-    '''public boolean isInputShutdown()
+    '''returns boolean\n\n
+    isInputShutdown()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def fill():
-    '''public int fill(final Buffer buffer)
+    '''returns int\n\n
+    fill(final Buffer buffer)\n
     '''
 def flush():
-    '''public int flush(final Buffer buffer)
-    public int flush(final Buffer header, final Buffer buffer, final Buffer trailer)
-    public void flush()
+    '''returns None\n\n
+    flush(final Buffer buffer)\n
+    flush(final Buffer header, final Buffer buffer, final Buffer trailer)\n
+    flush()\n
     '''
 def blockReadable():
-    '''public boolean blockReadable(final long millisecs)
+    '''returns boolean\n\n
+    blockReadable(final long millisecs)\n
     '''
 def blockWritable():
-    '''public boolean blockWritable(final long millisecs)
+    '''returns boolean\n\n
+    blockWritable(final long millisecs)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def getTransport():
-    '''public Object getTransport()
+    '''returns Object\n\n
+    getTransport()\n
     '''
 def asyncDispatch():
-    '''public void asyncDispatch()
+    '''returns None\n\n
+    asyncDispatch()\n
     '''
 def scheduleWrite():
-    '''public void scheduleWrite()
+    '''returns None\n\n
+    scheduleWrite()\n
     '''
 def setCheckForIdle():
-    '''public void setCheckForIdle(final boolean check)
+    '''returns None\n\n
+    setCheckForIdle(final boolean check)\n
     '''
 def isCheckForIdle():
-    '''public boolean isCheckForIdle()
+    '''returns boolean\n\n
+    isCheckForIdle()\n
     '''
 def scheduleTimeout():
-    '''public void scheduleTimeout(final Timeout.Task task, final long timeoutMs)
+    '''returns None\n\n
+    scheduleTimeout(final Timeout.Task task, final long timeoutMs)\n
     '''
 def cancelTimeout():
-    '''public void cancelTimeout(final Timeout.Task task)
+    '''returns None\n\n
+    cancelTimeout(final Timeout.Task task)\n
     '''
 def isWritable():
-    '''public boolean isWritable()
+    '''returns boolean\n\n
+    isWritable()\n
     '''
 def hasProgressed():
-    '''public boolean hasProgressed()
+    '''returns boolean\n\n
+    hasProgressed()\n
     '''
 def getLocalAddr():
-    '''public String getLocalAddr()
+    '''returns String\n\n
+    getLocalAddr()\n
     '''
 def getLocalHost():
-    '''public String getLocalHost()
+    '''returns String\n\n
+    getLocalHost()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getRemoteAddr():
-    '''public String getRemoteAddr()
+    '''returns String\n\n
+    getRemoteAddr()\n
     '''
 def getRemoteHost():
-    '''public String getRemoteHost()
+    '''returns String\n\n
+    getRemoteHost()\n
     '''
 def getRemotePort():
-    '''public int getRemotePort()
+    '''returns int\n\n
+    getRemotePort()\n
     '''
 def isBlocking():
-    '''public boolean isBlocking()
+    '''returns boolean\n\n
+    isBlocking()\n
     '''
 def getMaxIdleTime():
-    '''public int getMaxIdleTime()
+    '''returns int\n\n
+    getMaxIdleTime()\n
     '''
 def setMaxIdleTime():
-    '''public void setMaxIdleTime(final int timeMs)
+    '''returns None\n\n
+    setMaxIdleTime(final int timeMs)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def setConnection():
-    '''public void setConnection(final Connection connection)
+    '''returns None\n\n
+    setConnection(final Connection connection)\n
     '''

@@ -1,18 +1,24 @@
-def RuntimePermission():
-    '''public RuntimePermission(final String resourceType, final String action)
+def ():
+    '''returns RuntimePermission\n\n
+    (final String resourceType, final String action)\n
     '''
 def implies():
-    '''public boolean implies(final Permission permission)
+    '''returns boolean\n\n
+    implies(final Permission permission)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def getActions():
-    '''public String getActions()
+    '''returns String\n\n
+    getActions()\n
     '''

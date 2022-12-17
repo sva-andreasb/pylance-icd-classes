@@ -1,3 +1,4 @@
-def BBChgSet():
-    '''public BBChgSet(final MboServerInterface ms)
+def ():
+    '''returns BBChgSet\n\n
+    (final MboServerInterface ms)\n
     '''

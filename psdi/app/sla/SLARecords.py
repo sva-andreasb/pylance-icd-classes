@@ -1,9 +1,12 @@
-def SLARecords():
-    '''public SLARecords(final MboSet ms)
+def ():
+    '''returns SLARecords\n\n
+    (final MboSet ms)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

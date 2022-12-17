@@ -1,16 +1,21 @@
-def OSUserEndPointCacheImpl():
-    '''public OSUserEndPointCacheImpl()
+def ():
+    '''returns OSUserEndPointCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getEndpointForUser():
-    '''public List<UserEndPointInfo> getEndpointForUser(final String userName)
+    '''returns List<UserEndPointInfo>\n\n
+    getEndpointForUser(final String userName)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

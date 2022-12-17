@@ -11,35 +11,45 @@ EXTENSIBLE_MATCH = "int  9"
 INITIAL = "int  0"
 ANY = "int  1"
 FINAL = "int  2"
-def LDAPSearchRequest():
-    '''public LDAPSearchRequest()
-    public LDAPSearchRequest(final String s, final int n, final String s2, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)
-    public LDAPSearchRequest(final String s, final int n, final RfcFilter rfcFilter, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)
+def ():
+    '''returns LDAPSearchRequest\n\n
+    ()\n
+    (final String s, final int n, final String s2, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)\n
+    (final String s, final int n, final RfcFilter rfcFilter, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)\n
     '''
 def getDN():
-    '''public String getDN()
+    '''returns String\n\n
+    getDN()\n
     '''
 def getScope():
-    '''public int getScope()
+    '''returns int\n\n
+    getScope()\n
     '''
 def getDereference():
-    '''public int getDereference()
+    '''returns int\n\n
+    getDereference()\n
     '''
 def getMaxResults():
-    '''public int getMaxResults()
+    '''returns int\n\n
+    getMaxResults()\n
     '''
 def getServerTimeLimit():
-    '''public int getServerTimeLimit()
+    '''returns int\n\n
+    getServerTimeLimit()\n
     '''
 def isTypesOnly():
-    '''public boolean isTypesOnly()
+    '''returns boolean\n\n
+    isTypesOnly()\n
     '''
 def getAttributes():
-    '''public String[] getAttributes()
+    '''returns String[]\n\n
+    getAttributes()\n
     '''
 def getStringFilter():
-    '''public String getStringFilter()
+    '''returns String\n\n
+    getStringFilter()\n
     '''
 def getSearchFilter():
-    '''public Iterator getSearchFilter()
+    '''returns Iterator\n\n
+    getSearchFilter()\n
     '''

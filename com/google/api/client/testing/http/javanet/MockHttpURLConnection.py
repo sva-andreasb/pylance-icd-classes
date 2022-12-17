@@ -1,51 +1,60 @@
-def MockHttpURLConnection():
-    '''public MockHttpURLConnection(final URL u)
+def ():
+    '''returns MockHttpURLConnection\n\n
+    (final URL u)\n
     '''
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def usingProxy():
-    '''public boolean usingProxy()
+    '''returns boolean\n\n
+    usingProxy()\n
     '''
 def connect():
-    '''public void connect()
+    '''returns None\n\n
+    connect()\n
     '''
 def getResponseCode():
-    '''public int getResponseCode()
+    '''returns int\n\n
+    getResponseCode()\n
     '''
 def setDoOutput():
-    '''public void setDoOutput(final boolean dooutput)
+    '''returns None\n\n
+    setDoOutput(final boolean dooutput)\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
-    '''
-def doOutputCalled():
-    '''public final boolean doOutputCalled()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def setOutputStream():
-    '''public MockHttpURLConnection setOutputStream(final OutputStream outputStream)
+    '''returns MockHttpURLConnection\n\n
+    setOutputStream(final OutputStream outputStream)\n
     '''
 def setResponseCode():
-    '''public MockHttpURLConnection setResponseCode(final int responseCode)
+    '''returns MockHttpURLConnection\n\n
+    setResponseCode(final int responseCode)\n
     '''
 def addHeader():
-    '''public MockHttpURLConnection addHeader(final String name, final String value)
+    '''returns MockHttpURLConnection\n\n
+    addHeader(final String name, final String value)\n
     '''
 def setInputStream():
-    '''public MockHttpURLConnection setInputStream(final InputStream is)
+    '''returns MockHttpURLConnection\n\n
+    setInputStream(final InputStream is)\n
     '''
 def setErrorStream():
-    '''public MockHttpURLConnection setErrorStream(final InputStream is)
+    '''returns MockHttpURLConnection\n\n
+    setErrorStream(final InputStream is)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getErrorStream():
-    '''public InputStream getErrorStream()
-    '''
-def getHeaderFields():
-    '''public Map<String, List<String>> getHeaderFields()
+    '''returns InputStream\n\n
+    getErrorStream()\n
     '''
 def getHeaderField():
-    '''public String getHeaderField(final String name)
+    '''returns String\n\n
+    getHeaderField(final String name)\n
     '''

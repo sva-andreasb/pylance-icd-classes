@@ -1,3 +1,4 @@
 def hasProperties():
-    '''public boolean hasProperties()
+    '''returns boolean\n\n
+    hasProperties()\n
     '''

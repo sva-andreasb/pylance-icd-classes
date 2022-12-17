@@ -1,12 +1,16 @@
 def channelOpened():
-    '''public void channelOpened(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpened(final ChannelEvent channelEvent)\n
     '''
 def channelOpenFailed():
-    '''public void channelOpenFailed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpenFailed(final ChannelEvent channelEvent)\n
     '''
 def channelClosed():
-    '''public void channelClosed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelClosed(final ChannelEvent channelEvent)\n
     '''
 def channelMsgReceived():
-    '''public void channelMsgReceived(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelMsgReceived(final ChannelEvent channelEvent)\n
     '''

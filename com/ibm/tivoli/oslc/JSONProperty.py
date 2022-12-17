@@ -1,187 +1,248 @@
-def JSONProperty():
-    '''public JSONProperty(final String propName, final boolean oasSchemaCompliance)
-    public JSONProperty(final String propName, final boolean persistent, final boolean oasSchemaCompliance)
+def ():
+    '''returns JSONProperty\n\n
+    (final String propName, final boolean oasSchemaCompliance)\n
+    (final String propName, final boolean persistent, final boolean oasSchemaCompliance)\n
     '''
 def getPattern():
-    '''public Pattern getPattern()
+    '''returns Pattern\n\n
+    getPattern()\n
     '''
 def setPattern():
-    '''public JSONProperty setPattern(final Pattern patt)
+    '''returns JSONProperty\n\n
+    setPattern(final Pattern patt)\n
     '''
 def getCardinality():
-    '''public String getCardinality()
+    '''returns String\n\n
+    getCardinality()\n
     '''
 def setCardinality():
-    '''public JSONProperty setCardinality(final String cardinality)
+    '''returns JSONProperty\n\n
+    setCardinality(final String cardinality)\n
     '''
 def getPropName():
-    '''public String getPropName()
-    public void getPropName(final JSONProperty prop, final String propName)
+    '''returns None\n\n
+    getPropName()\n
+    getPropName(final JSONProperty prop, final String propName)\n
     '''
 def setPropName():
-    '''public JSONProperty setPropName(final String propName)
-    public JSONProperty setPropName(final JSONProperty prop, final String propName)
+    '''returns JSONProperty\n\n
+    setPropName(final String propName)\n
+    setPropName(final JSONProperty prop, final String propName)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public JSONProperty setType(final String type)
+    '''returns JSONProperty\n\n
+    setType(final String type)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public JSONProperty setDescription(final String description)
+    '''returns JSONProperty\n\n
+    setDescription(final String description)\n
     '''
 def getDefValue():
-    '''public Object getDefValue()
+    '''returns Object\n\n
+    getDefValue()\n
     '''
 def setDefValue():
-    '''public JSONProperty setDefValue(final Object defValue)
+    '''returns JSONProperty\n\n
+    setDefValue(final Object defValue)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public JSONProperty setTitle(final String title)
+    '''returns JSONProperty\n\n
+    setTitle(final String title)\n
     '''
 def getRemarks():
-    '''public String getRemarks()
+    '''returns String\n\n
+    getRemarks()\n
     '''
 def setRemarks():
-    '''public JSONProperty setRemarks(final String remarks)
+    '''returns JSONProperty\n\n
+    setRemarks(final String remarks)\n
     '''
 def getUsage():
-    '''public JSONArray getUsage()
+    '''returns JSONArray\n\n
+    getUsage()\n
     '''
 def setUsage():
-    '''public JSONProperty setUsage(final String... usage)
+    '''returns JSONProperty\n\n
+    setUsage(final String... usage)\n
     '''
 def propName():
-    '''public JSONProperty propName(final String propName)
+    '''returns JSONProperty\n\n
+    propName(final String propName)\n
     '''
 def addAdditionalProperty():
-    '''public JSONProperty addAdditionalProperty(final String key, final Object value)
+    '''returns JSONProperty\n\n
+    addAdditionalProperty(final String key, final Object value)\n
     '''
 def setItem():
-    '''public JSONProperty setItem(final JSONSchema item)
+    '''returns JSONProperty\n\n
+    setItem(final JSONSchema item)\n
     '''
 def setSchema():
-    '''public JSONProperty setSchema(final JSONSchema schema)
+    '''returns JSONProperty\n\n
+    setSchema(final JSONSchema schema)\n
     '''
 def getOneOf():
-    '''public JSONArray getOneOf()
+    '''returns JSONArray\n\n
+    getOneOf()\n
     '''
 def setOneOf():
-    '''public JSONProperty setOneOf(final JSONArray oneOf)
-    public JSONProperty setOneOf(final String one)
+    '''returns JSONProperty\n\n
+    setOneOf(final JSONArray oneOf)\n
+    setOneOf(final String one)\n
     '''
 def getScale():
-    '''public Integer getScale()
+    '''returns Integer\n\n
+    getScale()\n
     '''
 def setScale():
-    '''public JSONProperty setScale(final Integer scale)
+    '''returns JSONProperty\n\n
+    setScale(final Integer scale)\n
     '''
 def getMinimum():
-    '''public Double getMinimum()
+    '''returns Double\n\n
+    getMinimum()\n
     '''
 def setMinimum():
-    '''public JSONProperty setMinimum(final Double minimum)
+    '''returns JSONProperty\n\n
+    setMinimum(final Double minimum)\n
     '''
 def getMaximum():
-    '''public Double getMaximum()
+    '''returns Double\n\n
+    getMaximum()\n
     '''
 def setMaximum():
-    '''public JSONProperty setMaximum(final Double maximum)
+    '''returns JSONProperty\n\n
+    setMaximum(final Double maximum)\n
     '''
 def getMinItems():
-    '''public Integer getMinItems()
+    '''returns Integer\n\n
+    getMinItems()\n
     '''
 def setMinItems():
-    '''public JSONProperty setMinItems(final Integer minItems)
+    '''returns JSONProperty\n\n
+    setMinItems(final Integer minItems)\n
     '''
 def getMaxItems():
-    '''public Integer getMaxItems()
+    '''returns Integer\n\n
+    getMaxItems()\n
     '''
 def setMaxItems():
-    '''public JSONProperty setMaxItems(final Integer maxItems)
+    '''returns JSONProperty\n\n
+    setMaxItems(final Integer maxItems)\n
     '''
 def getSubType():
-    '''public String getSubType()
+    '''returns String\n\n
+    getSubType()\n
     '''
 def setSubType():
-    '''public JSONProperty setSubType(final String subType)
+    '''returns JSONProperty\n\n
+    setSubType(final String subType)\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def setRelation():
-    '''public JSONProperty setRelation(final String relation)
+    '''returns JSONProperty\n\n
+    setRelation(final String relation)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public JSONProperty setObjectName(final String objectName)
+    '''returns JSONProperty\n\n
+    setObjectName(final String objectName)\n
     '''
 def getMaxLength():
-    '''public Integer getMaxLength()
+    '''returns Integer\n\n
+    getMaxLength()\n
     '''
 def setMaxLength():
-    '''public JSONProperty setMaxLength(final Integer maxLength)
+    '''returns JSONProperty\n\n
+    setMaxLength(final Integer maxLength)\n
     '''
 def getRepresentaionType():
-    '''public String getRepresentaionType()
+    '''returns String\n\n
+    getRepresentaionType()\n
     '''
 def setRepresentaionType():
-    '''public JSONProperty setRepresentaionType(final String representaionType)
+    '''returns JSONProperty\n\n
+    setRepresentaionType(final String representaionType)\n
     '''
 def getUserDefined():
-    '''public Boolean getUserDefined()
+    '''returns Boolean\n\n
+    getUserDefined()\n
     '''
 def setUserDefined():
-    '''public JSONProperty setUserDefined(final Boolean userDefined)
+    '''returns JSONProperty\n\n
+    setUserDefined(final Boolean userDefined)\n
     '''
 def getESigEnabled():
-    '''public Boolean getESigEnabled()
+    '''returns Boolean\n\n
+    getESigEnabled()\n
     '''
 def setESigEnabled():
-    '''public JSONProperty setESigEnabled(final boolean esigEnabled)
+    '''returns JSONProperty\n\n
+    setESigEnabled(final boolean esigEnabled)\n
     '''
 def setPersistent():
-    '''public JSONProperty setPersistent(final Boolean persistent)
+    '''returns JSONProperty\n\n
+    setPersistent(final Boolean persistent)\n
     '''
 def getSearchType():
-    '''public String getSearchType()
+    '''returns String\n\n
+    getSearchType()\n
     '''
 def setSearchType():
-    '''public JSONProperty setSearchType(final String searchType)
+    '''returns JSONProperty\n\n
+    setSearchType(final String searchType)\n
     '''
 def setHasList():
-    '''public JSONProperty setHasList(final boolean hasList)
+    '''returns JSONProperty\n\n
+    setHasList(final boolean hasList)\n
     '''
 def hasList():
-    '''public Boolean hasList()
+    '''returns Boolean\n\n
+    hasList()\n
     '''
 def getConstrainedValueList():
-    '''public JSONArray getConstrainedValueList()
+    '''returns JSONArray\n\n
+    getConstrainedValueList()\n
     '''
 def setConstrainedValueList():
-    '''public void setConstrainedValueList(final Set<String> constrainedValueList)
+    '''returns None\n\n
+    setConstrainedValueList(final Set<String> constrainedValueList)\n
     '''
 def setRequired():
-    '''public JSONProperty setRequired(final boolean required)
+    '''returns JSONProperty\n\n
+    setRequired(final boolean required)\n
     '''
 def getItemSchema():
-    '''public JSONSchema getItemSchema()
+    '''returns JSONSchema\n\n
+    getItemSchema()\n
     '''
 def getJSON():
-    '''public JSONObject getJSON()
+    '''returns JSONObject\n\n
+    getJSON()\n
     '''
 def isOasSchemaCompliance():
-    '''public boolean isOasSchemaCompliance()
+    '''returns boolean\n\n
+    isOasSchemaCompliance()\n
     '''
 def setOasSchemaCompliance():
-    '''public void setOasSchemaCompliance(final boolean oasSchemaCompliance)
+    '''returns None\n\n
+    setOasSchemaCompliance(final boolean oasSchemaCompliance)\n
     '''

@@ -1,3 +1,4 @@
 def getLogger():
-    '''public ReportLogger getLogger(final String name)
+    '''returns ReportLogger\n\n
+    getLogger(final String name)\n
     '''

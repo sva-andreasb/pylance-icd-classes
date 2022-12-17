@@ -1,24 +1,32 @@
 def startOffset():
-    '''public int startOffset()
+    '''returns int\n\n
+    startOffset()\n
     '''
 def setOffset():
-    '''public void setOffset(final int startOffset, final int endOffset)
+    '''returns None\n\n
+    setOffset(final int startOffset, final int endOffset)\n
     '''
 def endOffset():
-    '''public int endOffset()
+    '''returns int\n\n
+    endOffset()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def copyTo():
-    '''public void copyTo(final AttributeImpl target)
+    '''returns None\n\n
+    copyTo(final AttributeImpl target)\n
     '''
 def reflectWith():
-    '''public void reflectWith(final AttributeReflector reflector)
+    '''returns None\n\n
+    reflectWith(final AttributeReflector reflector)\n
     '''

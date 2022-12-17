@@ -1,80 +1,105 @@
-def NrsService():
-    '''public NrsService()
+def ():
+    '''returns NrsService\n\n
+    ()\n
     '''
 def init():
-    '''public INrsNamePlugin init(final Connection connection)
+    '''returns INrsNamePlugin\n\n
+    init(final Connection connection)\n
     '''
 def registerNames():
-    '''public void registerNames(final Guid[] returnGuids, final ArrayList readyList, final HashMap[] identifyingAttributeMaps, final HashMap[] cleansedAttributeMaps)
+    '''returns None\n\n
+    registerNames(final Guid[] returnGuids, final ArrayList readyList, final HashMap[] identifyingAttributeMaps, final HashMap[] cleansedAttributeMaps)\n
     '''
 def checkSuperior():
-    '''public NrsMasterAliasMap[] checkSuperior(final String classType, final HashMap superiorMap, final HashMap identifyingAttributeMap)
+    '''returns NrsMasterAliasMap[]\n\n
+    checkSuperior(final String classType, final HashMap superiorMap, final HashMap identifyingAttributeMap)\n
     '''
 def addNameInstance():
-    '''public PreparedStatement[] addNameInstance(final PreparedStatement[] addPreparedStmts, final NrsMasterAliasMap nameInstance)
+    '''returns PreparedStatement[]\n\n
+    addNameInstance(final PreparedStatement[] addPreparedStmts, final NrsMasterAliasMap nameInstance)\n
     '''
 def getExistedNameInstances():
-    '''public ArrayList getExistedNameInstances(final NrsMasterAliasMap[] validNames)
+    '''returns ArrayList\n\n
+    getExistedNameInstances(final NrsMasterAliasMap[] validNames)\n
     '''
 def selectMaster():
-    '''public NrsMasterAliasMap selectMaster(final ArrayList masterAliasList)
+    '''returns NrsMasterAliasMap\n\n
+    selectMaster(final ArrayList masterAliasList)\n
     '''
 def fixNames():
-    '''public PreparedStatement[] fixNames(PreparedStatement[] addPreparedStmts, final NrsMasterAliasMap nameInstance, final NrsMasterAliasMap theMasterNameInstance, final ArrayList duplicateList)
+    '''returns PreparedStatement[]\n\n
+    fixNames(PreparedStatement[] addPreparedStmts, final NrsMasterAliasMap nameInstance, final NrsMasterAliasMap theMasterNameInstance, final ArrayList duplicateList)\n
     '''
 def buildNameListDB2():
-    '''public ArrayList buildNameListDB2(final byte[] guid)
+    '''returns ArrayList\n\n
+    buildNameListDB2(final byte[] guid)\n
     '''
 def buildNameList():
-    '''public ArrayList buildNameList(final byte[] guid)
+    '''returns ArrayList\n\n
+    buildNameList(final byte[] guid)\n
     '''
 def getAffectedNameInstances():
-    '''public ArrayList getAffectedNameInstances(final ArrayList fixList)
+    '''returns ArrayList\n\n
+    getAffectedNameInstances(final ArrayList fixList)\n
     '''
 def isNewName():
-    '''public boolean isNewName(final NrsMasterAliasMap nameInstance)
+    '''returns boolean\n\n
+    isNewName(final NrsMasterAliasMap nameInstance)\n
     '''
 def convergeMasters():
-    '''public void convergeMasters(final Guid masterGuid1, final Guid masterGuid2)
+    '''returns None\n\n
+    convergeMasters(final Guid masterGuid1, final Guid masterGuid2)\n
     '''
 def isMatch():
-    '''public boolean isMatch(final String nameUri)
-    public boolean isMatch(final Guid guid1, final Guid guid2)
+    '''returns boolean\n\n
+    isMatch(final String nameUri)\n
+    isMatch(final Guid guid1, final Guid guid2)\n
     '''
 def getAliases():
-    '''public Guid[] getAliases(final Guid masterGuid)
-    public Map<Guid, List<Guid>> getAliases(final Guid[] masterGuids)
+    '''returns Guid[]\n\n
+    getAliases(final Guid masterGuid)\n
     '''
 def getMaster():
-    '''public Guid getMaster(final Guid aliasGuid)
+    '''returns Guid\n\n
+    getMaster(final Guid aliasGuid)\n
     '''
 def getMasterAndAliases():
-    '''public Guid[] getMasterAndAliases(final Guid guid)
+    '''returns Guid[]\n\n
+    getMasterAndAliases(final Guid guid)\n
     '''
 def getNames():
-    '''public NrsMasterAliasInfo[] getNames(final Guid[] guids)
+    '''returns NrsMasterAliasInfo[]\n\n
+    getNames(final Guid[] guids)\n
     '''
 def delete():
-    '''public void delete(final Guid guid)
+    '''returns None\n\n
+    delete(final Guid guid)\n
     '''
 def addDeleteEvents():
-    '''public void addDeleteEvents(final ArrayList aList)
+    '''returns None\n\n
+    addDeleteEvents(final ArrayList aList)\n
     '''
 def getNameeGuids():
-    '''public ArrayList getNameeGuids(final ArrayList superiorList)
+    '''returns ArrayList\n\n
+    getNameeGuids(final ArrayList superiorList)\n
     '''
 def getDuplicates():
-    '''public NrsDuplicateInfo[] getDuplicates(final String classType, final Date date)
+    '''returns NrsDuplicateInfo[]\n\n
+    getDuplicates(final String classType, final Date date)\n
     '''
 def deleteDuplicates():
-    '''public void deleteDuplicates(final String classType, final Date date)
+    '''returns None\n\n
+    deleteDuplicates(final String classType, final Date date)\n
     '''
 def deleteChangeEvents():
-    '''public void deleteChangeEvents(final int type, final Date date)
+    '''returns None\n\n
+    deleteChangeEvents(final int type, final Date date)\n
     '''
 def deleteMeAssociations():
-    '''public void deleteMeAssociations(final ArrayList aList)
+    '''returns None\n\n
+    deleteMeAssociations(final ArrayList aList)\n
     '''
 def getRelationshipGuid():
-    '''public byte[] getRelationshipGuid(final String nameSpace, final String relType, final byte[] sourceGuid, final byte[] targetGuid)
+    '''returns byte[]\n\n
+    getRelationshipGuid(final String nameSpace, final String relType, final byte[] sourceGuid, final byte[] targetGuid)\n
     '''

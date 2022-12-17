@@ -1,14 +1,18 @@
-def Builder():
-    '''public Builder(final Locale loc)
-    public Builder(final ULocale loc)
-    public Builder()
+def ():
+    '''returns Builder\n\n
+    (final Locale loc)\n
+    (final ULocale loc)\n
+    ()\n
     '''
 def suppressBreakAfter():
-    '''public boolean suppressBreakAfter(final CharSequence str)
+    '''returns boolean\n\n
+    suppressBreakAfter(final CharSequence str)\n
     '''
 def unsuppressBreakAfter():
-    '''public boolean unsuppressBreakAfter(final CharSequence str)
+    '''returns boolean\n\n
+    unsuppressBreakAfter(final CharSequence str)\n
     '''
 def wrapIteratorWithFilter():
-    '''public BreakIterator wrapIteratorWithFilter(final BreakIterator adoptBreakIterator)
+    '''returns BreakIterator\n\n
+    wrapIteratorWithFilter(final BreakIterator adoptBreakIterator)\n
     '''

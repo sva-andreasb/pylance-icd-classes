@@ -1,99 +1,132 @@
-def TreeNode():
-    '''public TreeNode()
+def ():
+    '''returns TreeNode\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getNodeLabel():
-    '''public String getNodeLabel()
+    '''returns String\n\n
+    getNodeLabel()\n
     '''
 def isMarkedForDelete():
-    '''public boolean isMarkedForDelete()
+    '''returns boolean\n\n
+    isMarkedForDelete()\n
     '''
 def setNodeProperties():
-    '''public void setNodeProperties(final Hashtable treeNodeInfo)
+    '''returns None\n\n
+    setNodeProperties(final Hashtable treeNodeInfo)\n
     '''
 def selectnode():
-    '''public void selectnode()
+    '''returns None\n\n
+    selectnode()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def togglechildren():
-    '''public void togglechildren()
+    '''returns None\n\n
+    togglechildren()\n
     '''
 def isExpanded():
-    '''public boolean isExpanded()
+    '''returns boolean\n\n
+    isExpanded()\n
     '''
 def expandAllNodes():
-    '''public boolean expandAllNodes()
+    '''returns boolean\n\n
+    expandAllNodes()\n
     '''
 def setExpanded():
-    '''public void setExpanded(final boolean expanded)
+    '''returns None\n\n
+    setExpanded(final boolean expanded)\n
     '''
 def isStartOpened():
-    '''public boolean isStartOpened()
+    '''returns boolean\n\n
+    isStartOpened()\n
     '''
 def setStartOpened():
-    '''public void setStartOpened(final boolean startOpened)
+    '''returns None\n\n
+    setStartOpened(final boolean startOpened)\n
     '''
 def hasChildNodes():
-    '''public boolean hasChildNodes()
+    '''returns boolean\n\n
+    hasChildNodes()\n
     '''
 def setHasChildNodes():
-    '''public void setHasChildNodes(final boolean hasChildNodes)
+    '''returns None\n\n
+    setHasChildNodes(final boolean hasChildNodes)\n
     '''
 def hasParentNode():
-    '''public boolean hasParentNode()
+    '''returns boolean\n\n
+    hasParentNode()\n
     '''
 def setHasParentNode():
-    '''public void setHasParentNode(final boolean hasParentNode)
+    '''returns None\n\n
+    setHasParentNode(final boolean hasParentNode)\n
     '''
 def getNodeData():
-    '''public Object[] getNodeData()
+    '''returns Object[]\n\n
+    getNodeData()\n
     '''
 def setNodeData():
-    '''public void setNodeData(final Object[] nodeData)
+    '''returns None\n\n
+    setNodeData(final Object[] nodeData)\n
     '''
 def getTree():
-    '''public Tree getTree()
+    '''returns Tree\n\n
+    getTree()\n
     '''
 def setTree():
-    '''public void setTree(final Tree tree)
+    '''returns None\n\n
+    setTree(final Tree tree)\n
     '''
 def isCollapsed():
-    '''public boolean isCollapsed()
+    '''returns boolean\n\n
+    isCollapsed()\n
     '''
 def setCollapsed():
-    '''public void setCollapsed(final boolean collapsed)
+    '''returns None\n\n
+    setCollapsed(final boolean collapsed)\n
     '''
 def isFakeMessageNode():
-    '''public boolean isFakeMessageNode()
+    '''returns boolean\n\n
+    isFakeMessageNode()\n
     '''
 def createBreadcrumbs():
-    '''public void createBreadcrumbs()
+    '''returns None\n\n
+    createBreadcrumbs()\n
     '''
 def isLastChildForParent():
-    '''public boolean isLastChildForParent()
+    '''returns boolean\n\n
+    isLastChildForParent()\n
     '''
 def setLastChildForParent():
-    '''public void setLastChildForParent(final boolean lastNode)
+    '''returns None\n\n
+    setLastChildForParent(final boolean lastNode)\n
     '''
 def isFirstChildForParent():
-    '''public boolean isFirstChildForParent()
+    '''returns boolean\n\n
+    isFirstChildForParent()\n
     '''
 def setFirstChildForParent():
-    '''public void setFirstChildForParent(final boolean firstChildForParent)
+    '''returns None\n\n
+    setFirstChildForParent(final boolean firstChildForParent)\n
     '''
 def getKeyValue():
-    '''public String getKeyValue()
+    '''returns String\n\n
+    getKeyValue()\n
     '''
 def isDataHidden():
-    '''public boolean isDataHidden()
+    '''returns boolean\n\n
+    isDataHidden()\n
     '''
 def setDataHidden():
-    '''public void setDataHidden(final boolean setDataHidden)
+    '''returns None\n\n
+    setDataHidden(final boolean setDataHidden)\n
     '''

@@ -1,9 +1,12 @@
-def CurrentViewChangedEvent():
-    '''public CurrentViewChangedEvent(final Object source, final View previousView, final View currentView)
+def ():
+    '''returns CurrentViewChangedEvent\n\n
+    (final Object source, final View previousView, final View currentView)\n
     '''
 def getPreviousView():
-    '''public View getPreviousView()
+    '''returns View\n\n
+    getPreviousView()\n
     '''
 def getCurrentView():
-    '''public View getCurrentView()
+    '''returns View\n\n
+    getCurrentView()\n
     '''

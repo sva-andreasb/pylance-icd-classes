@@ -1,3 +1,4 @@
-def SKDWorkPlanExtCap():
-    '''public SKDWorkPlanExtCap(final MboSet ms)
+def ():
+    '''returns SKDWorkPlanExtCap\n\n
+    (final MboSet ms)\n
     '''

@@ -1,23 +1,17 @@
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
-def getObjectWithFallback():
-    '''public final Object getObjectWithFallback(final String path)
-    '''
-def CompressedBinary():
-    '''public CompressedBinary(final String str)
+def ():
+    '''returns Alias\n\n
+    (final String str)\n
+    (final String name)\n
+    (final String name)\n
+    (final String path)\n
     '''
 def getResource():
-    '''public Object getResource(final Object obj)
-    public Object getResource(final Object obj)
-    public Object getResource(final Object obj)
-    '''
-def ResourceBinary():
-    '''public ResourceBinary(final String name)
-    '''
-def ResourceString():
-    '''public ResourceString(final String name)
-    '''
-def Alias():
-    '''public Alias(final String path)
+    '''returns Object\n\n
+    getResource(final Object obj)\n
+    getResource(final Object obj)\n
+    getResource(final Object obj)\n
     '''

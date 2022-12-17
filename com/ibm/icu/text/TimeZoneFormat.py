@@ -1,87 +1,94 @@
-def getInstance():
-    '''public static TimeZoneFormat getInstance(final ULocale locale)
-    public static TimeZoneFormat getInstance(final Locale locale)
-    '''
 def getTimeZoneNames():
-    '''public TimeZoneNames getTimeZoneNames()
+    '''returns TimeZoneNames\n\n
+    getTimeZoneNames()\n
     '''
 def setTimeZoneNames():
-    '''public TimeZoneFormat setTimeZoneNames(final TimeZoneNames tznames)
+    '''returns TimeZoneFormat\n\n
+    setTimeZoneNames(final TimeZoneNames tznames)\n
     '''
 def getGMTPattern():
-    '''public String getGMTPattern()
+    '''returns String\n\n
+    getGMTPattern()\n
     '''
 def setGMTPattern():
-    '''public TimeZoneFormat setGMTPattern(final String pattern)
+    '''returns TimeZoneFormat\n\n
+    setGMTPattern(final String pattern)\n
     '''
 def getGMTOffsetPattern():
-    '''public String getGMTOffsetPattern(final GMTOffsetPatternType type)
+    '''returns String\n\n
+    getGMTOffsetPattern(final GMTOffsetPatternType type)\n
     '''
 def setGMTOffsetPattern():
-    '''public TimeZoneFormat setGMTOffsetPattern(final GMTOffsetPatternType type, final String pattern)
+    '''returns TimeZoneFormat\n\n
+    setGMTOffsetPattern(final GMTOffsetPatternType type, final String pattern)\n
     '''
 def getGMTOffsetDigits():
-    '''public String getGMTOffsetDigits()
+    '''returns String\n\n
+    getGMTOffsetDigits()\n
     '''
 def setGMTOffsetDigits():
-    '''public TimeZoneFormat setGMTOffsetDigits(final String digits)
+    '''returns TimeZoneFormat\n\n
+    setGMTOffsetDigits(final String digits)\n
     '''
 def getGMTZeroFormat():
-    '''public String getGMTZeroFormat()
+    '''returns String\n\n
+    getGMTZeroFormat()\n
     '''
 def setGMTZeroFormat():
-    '''public TimeZoneFormat setGMTZeroFormat(final String gmtZeroFormat)
+    '''returns TimeZoneFormat\n\n
+    setGMTZeroFormat(final String gmtZeroFormat)\n
     '''
 def setDefaultParseOptions():
-    '''public TimeZoneFormat setDefaultParseOptions(final EnumSet<ParseOption> options)
+    '''returns TimeZoneFormat\n\n
+    setDefaultParseOptions(final EnumSet<ParseOption> options)\n
     '''
 def getDefaultParseOptions():
-    '''public EnumSet<ParseOption> getDefaultParseOptions()
-    '''
-def formatOffsetISO8601Basic():
-    '''public final String formatOffsetISO8601Basic(final int offset, final boolean useUtcIndicator, final boolean isShort, final boolean ignoreSeconds)
-    '''
-def formatOffsetISO8601Extended():
-    '''public final String formatOffsetISO8601Extended(final int offset, final boolean useUtcIndicator, final boolean isShort, final boolean ignoreSeconds)
+    '''returns EnumSet<ParseOption>\n\n
+    getDefaultParseOptions()\n
     '''
 def formatOffsetLocalizedGMT():
-    '''public String formatOffsetLocalizedGMT(final int offset)
+    '''returns String\n\n
+    formatOffsetLocalizedGMT(final int offset)\n
     '''
 def formatOffsetShortLocalizedGMT():
-    '''public String formatOffsetShortLocalizedGMT(final int offset)
+    '''returns String\n\n
+    formatOffsetShortLocalizedGMT(final int offset)\n
     '''
 def format():
-    '''public final String format(final Style style, final TimeZone tz, final long date)
-    public String format(final Style style, final TimeZone tz, final long date, final Output<TimeType> timeType)
-    public StringBuffer format(final Object obj, final StringBuffer toAppendTo, final FieldPosition pos)
-    '''
-def parseOffsetISO8601():
-    '''public final int parseOffsetISO8601(final String text, final ParsePosition pos)
+    '''returns StringBuffer\n\n
+    format(final Style style, final TimeZone tz, final long date, final Output<TimeType> timeType)\n
+    format(final Object obj, final StringBuffer toAppendTo, final FieldPosition pos)\n
     '''
 def parseOffsetLocalizedGMT():
-    '''public int parseOffsetLocalizedGMT(final String text, final ParsePosition pos)
+    '''returns int\n\n
+    parseOffsetLocalizedGMT(final String text, final ParsePosition pos)\n
     '''
 def parseOffsetShortLocalizedGMT():
-    '''public int parseOffsetShortLocalizedGMT(final String text, final ParsePosition pos)
+    '''returns int\n\n
+    parseOffsetShortLocalizedGMT(final String text, final ParsePosition pos)\n
     '''
 def parse():
-    '''public TimeZone parse(final Style style, final String text, final ParsePosition pos, final EnumSet<ParseOption> options, Output<TimeType> timeType)
-    public TimeZone parse(final Style style, final String text, final ParsePosition pos, final Output<TimeType> timeType)
-    public final TimeZone parse(final String text, final ParsePosition pos)
-    public final TimeZone parse(final String text)
+    '''returns TimeZone\n\n
+    parse(final Style style, final String text, final ParsePosition pos, final EnumSet<ParseOption> options, Output<TimeType> timeType)\n
+    parse(final Style style, final String text, final ParsePosition pos, final Output<TimeType> timeType)\n
     '''
 def formatToCharacterIterator():
-    '''public AttributedCharacterIterator formatToCharacterIterator(final Object obj)
+    '''returns AttributedCharacterIterator\n\n
+    formatToCharacterIterator(final Object obj)\n
     '''
 def parseObject():
-    '''public Object parseObject(final String source, final ParsePosition pos)
+    '''returns Object\n\n
+    parseObject(final String source, final ParsePosition pos)\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
     '''
 def freeze():
-    '''public TimeZoneFormat freeze()
+    '''returns TimeZoneFormat\n\n
+    freeze()\n
     '''
 def cloneAsThawed():
-    '''public TimeZoneFormat cloneAsThawed()
+    '''returns TimeZoneFormat\n\n
+    cloneAsThawed()\n
     '''

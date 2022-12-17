@@ -136,27 +136,15 @@ XML_VERSION_1_1 = "short  2"
 SCHEMA_1_1_SUPPORT = "boolean  false"
 SCHEMA_VERSION_1_0 = "short  1"
 SCHEMA_VERSION_1_0_EXTENDED = "short  2"
-def getSAXFeatures():
-    '''public static Enumeration getSAXFeatures()
-    '''
-def getSAXProperties():
-    '''public static Enumeration getSAXProperties()
-    '''
-def getXercesFeatures():
-    '''public static Enumeration getXercesFeatures()
-    '''
-def getXercesProperties():
-    '''public static Enumeration getXercesProperties()
-    '''
-def main():
-    '''public static void main(final String[] array)
-    '''
-def ArrayEnumeration():
-    '''public ArrayEnumeration(final Object[] array)
+def ():
+    '''returns ArrayEnumeration\n\n
+    (final Object[] array)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''

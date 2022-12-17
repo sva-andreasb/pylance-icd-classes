@@ -1,3 +1,4 @@
-def PlusPFldCreateCustomerBillBatchNum():
-    '''public PlusPFldCreateCustomerBillBatchNum(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCreateCustomerBillBatchNum\n\n
+    (final MboValue mboValue)\n
     '''

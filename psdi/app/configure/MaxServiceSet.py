@@ -1,3 +1,4 @@
-def MaxServiceSet():
-    '''public MaxServiceSet(final MboServerInterface ms)
+def ():
+    '''returns MaxServiceSet\n\n
+    (final MboServerInterface ms)\n
     '''

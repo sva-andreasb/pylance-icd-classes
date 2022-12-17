@@ -1,66 +1,84 @@
-def GLNavigatorDialogBean():
-    '''public GLNavigatorDialogBean()
+def ():
+    '''returns GLNavigatorDialogBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def setsegment():
-    '''public int setsegment()
+    '''returns int\n\n
+    setsegment()\n
     '''
 def setsegmentvalue():
-    '''public int setsegmentvalue()
+    '''returns int\n\n
+    setsegmentvalue()\n
     '''
 def refreshGL():
-    '''public int refreshGL()
+    '''returns int\n\n
+    refreshGL()\n
     '''
 def getPlaceHolder():
-    '''public String getPlaceHolder()
+    '''returns String\n\n
+    getPlaceHolder()\n
     '''
 def getCurrentGLFormat():
-    '''public GLFormat getCurrentGLFormat()
+    '''returns GLFormat\n\n
+    getCurrentGLFormat()\n
     '''
 def getCurrentSegment():
-    '''public int getCurrentSegment()
+    '''returns int\n\n
+    getCurrentSegment()\n
     '''
 def getSegmentValue():
-    '''public String getSegmentValue(final int segment)
+    '''returns String\n\n
+    getSegmentValue(final int segment)\n
     '''
 def getSegmentName():
-    '''public String getSegmentName(final int segment)
+    '''returns String\n\n
+    getSegmentName(final int segment)\n
     '''
 def getSegmentSize():
-    '''public int getSegmentSize(final int segment)
+    '''returns int\n\n
+    getSegmentSize(final int segment)\n
     '''
 def getSegmentDelimiter():
-    '''public char getSegmentDelimiter(final int segment)
+    '''returns char\n\n
+    getSegmentDelimiter(final int segment)\n
     '''
 def getSegmentCount():
-    '''public int getSegmentCount()
+    '''returns int\n\n
+    getSegmentCount()\n
     '''
 def getSegmentPlaceHolder():
-    '''public String getSegmentPlaceHolder()
+    '''returns String\n\n
+    getSegmentPlaceHolder()\n
     '''
 def validateComponent():
-    '''public boolean validateComponent(final String compVal)
+    '''returns boolean\n\n
+    validateComponent(final String compVal)\n
     '''
 def refreshGLData():
-    '''public void refreshGLData(final GLNavigatorSelectOrgBean orgBean)
+    '''returns None\n\n
+    refreshGLData(final GLNavigatorSelectOrgBean orgBean)\n
     '''
 def setOrgId():
-    '''public void setOrgId(final String newOrgId)
+    '''returns None\n\n
+    setOrgId(final String newOrgId)\n
     '''
 def clearData():
-    '''public void clearData()
+    '''returns None\n\n
+    clearData()\n
     '''
 def fetchOrgAndSiteIdFromSource():
-    '''public void fetchOrgAndSiteIdFromSource()
-    '''
-def structureChangedEvent():
-    '''public synchronized void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    fetchOrgAndSiteIdFromSource()\n
     '''
 def setCurrentSegment():
-    '''public void setCurrentSegment(final int i)
+    '''returns None\n\n
+    setCurrentSegment(final int i)\n
     '''

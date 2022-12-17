@@ -1,24 +1,32 @@
-def SAXiTextHandler():
-    '''public SAXiTextHandler(final DocListener document)
+def ():
+    '''returns SAXiTextHandler\n\n
+    (final DocListener document)\n
     '''
 def setControlOpenClose():
-    '''public void setControlOpenClose(final boolean controlOpenClose)
+    '''returns None\n\n
+    setControlOpenClose(final boolean controlOpenClose)\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String lname, final String name, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String uri, final String lname, final String name, final Attributes attrs)\n
     '''
 def handleStartingTags():
-    '''public void handleStartingTags(final String name, final Properties attributes)
+    '''returns None\n\n
+    handleStartingTags(final String name, final Properties attributes)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] ch, final int start, final int length)\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String lname, final String name)
+    '''returns None\n\n
+    endElement(final String uri, final String lname, final String name)\n
     '''
 def handleEndingTags():
-    '''public void handleEndingTags(final String name)
+    '''returns None\n\n
+    handleEndingTags(final String name)\n
     '''

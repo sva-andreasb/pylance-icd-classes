@@ -1,9 +1,8 @@
-def PmSearchSolutionAppBean():
-    '''public PmSearchSolutionAppBean()
+def ():
+    '''returns PmSearchSolutionAppBean\n\n
+    ()\n
     '''
 def applyRTF():
-    '''public void applyRTF(final String val, final String fld, final int option)
-    '''
-def getConditionalProperties():
-    '''public HashMap<String, String> getConditionalProperties(final int row, final String sigOption)
+    '''returns None\n\n
+    applyRTF(final String val, final String fld, final int option)\n
     '''

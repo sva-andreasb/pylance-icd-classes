@@ -1,4 +1,5 @@
-def InvalidFetchSizeException():
-    '''public InvalidFetchSizeException(final String message)
-    public InvalidFetchSizeException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidFetchSizeException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

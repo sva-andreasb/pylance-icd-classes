@@ -1,3 +1,4 @@
-def PlusPPreBillLine():
-    '''public PlusPPreBillLine(final MboSet set)
+def ():
+    '''returns PlusPPreBillLine\n\n
+    (final MboSet set)\n
     '''

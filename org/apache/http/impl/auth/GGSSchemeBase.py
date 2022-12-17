@@ -1,7 +1,9 @@
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def authenticate():
-    '''public Header authenticate(final Credentials credentials, final HttpRequest request)
-    public Header authenticate(final Credentials credentials, final HttpRequest request, final HttpContext context)
+    '''returns Header\n\n
+    authenticate(final Credentials credentials, final HttpRequest request)\n
+    authenticate(final Credentials credentials, final HttpRequest request, final HttpContext context)\n
     '''

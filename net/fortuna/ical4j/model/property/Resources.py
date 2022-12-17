@@ -1,25 +1,17 @@
-def Resources():
-    '''public Resources()
-    public Resources(final ParameterList aList, final String aValue)
-    public Resources(final TextList rList)
-    public Resources(final ParameterList aList, final TextList rList)
-    '''
-def getResources():
-    '''public final TextList getResources()
-    '''
-def setValue():
-    '''public final void setValue(final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final ParameterList aList, final String aValue)\n
+    (final TextList rList)\n
+    (final ParameterList aList, final TextList rList)\n
+    ()\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns None\n\n
+    validate()\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

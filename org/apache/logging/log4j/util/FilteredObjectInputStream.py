@@ -1,9 +1,11 @@
-def FilteredObjectInputStream():
-    '''public FilteredObjectInputStream()
-    public FilteredObjectInputStream(final InputStream inputStream)
-    public FilteredObjectInputStream(final Collection<String> allowedExtraClasses)
-    public FilteredObjectInputStream(final InputStream inputStream, final Collection<String> allowedExtraClasses)
+def ():
+    '''returns FilteredObjectInputStream\n\n
+    ()\n
+    (final InputStream inputStream)\n
+    (final Collection<String> allowedExtraClasses)\n
+    (final InputStream inputStream, final Collection<String> allowedExtraClasses)\n
     '''
 def getAllowedClasses():
-    '''public Collection<String> getAllowedClasses()
+    '''returns Collection<String>\n\n
+    getAllowedClasses()\n
     '''

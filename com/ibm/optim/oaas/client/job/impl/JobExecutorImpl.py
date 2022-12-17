@@ -1,43 +1,54 @@
-def JobExecutorImpl():
-    '''public JobExecutorImpl(final ExecutorService service, final long interval, final long timeout, final int retry, final long retryDelay)
+def ():
+    '''returns RetryLoop\n\n
+    (final ExecutorService service, final long interval, final long timeout, final int retry, final long retryDelay)\n
+    ()\n
     '''
 def getExecutionDetails():
-    '''public JobExecutionDetails getExecutionDetails()
+    '''returns JobExecutionDetails\n\n
+    getExecutionDetails()\n
     '''
 def setExecutionDetails():
-    '''public void setExecutionDetails(final JobExecutionDetails executionDetails)
+    '''returns None\n\n
+    setExecutionDetails(final JobExecutionDetails executionDetails)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def create():
-    '''public Future<JobResponse> create(final JobRequest request, final JobCallback callback)
+    '''returns Future<JobResponse>\n\n
+    create(final JobRequest request, final JobCallback callback)\n
     '''
 def submit():
-    '''public Future<JobResponse> submit(final JobRequest request, final JobCallback callback)
+    '''returns Future<JobResponse>\n\n
+    submit(final JobRequest request, final JobCallback callback)\n
     '''
 def monitor():
-    '''public Future<JobResponse> monitor(final JobRequest request, final String jobid, final JobCallback callback)
+    '''returns Future<JobResponse>\n\n
+    monitor(final JobRequest request, final String jobid, final JobCallback callback)\n
     '''
 def execute():
-    '''public Future<JobResponse> execute(final JobRequest request, final JobCallback callback)
-    public Future<JobResponse> execute(final JobRequest request)
+    '''returns Future<JobResponse>\n\n
+    execute(final JobRequest request, final JobCallback callback)\n
+    execute(final JobRequest request)\n
     '''
 def executeMain():
-    '''public Future<JobResponse> executeMain(final JobRequest request, final JobCallback callback, final boolean create, final boolean submit, final boolean monitor)
+    '''returns Future<JobResponse>\n\n
+    executeMain(final JobRequest request, final JobCallback callback, final boolean create, final boolean submit, final boolean monitor)\n
     '''
 def call():
-    '''public JobResponse call()
-    '''
-def RetryLoop():
-    '''public RetryLoop()
+    '''returns JobResponse\n\n
+    call()\n
     '''
 def next():
-    '''public void next()
+    '''returns None\n\n
+    next()\n
     '''
 def exception():
-    '''public void exception(final OperationException e)
+    '''returns None\n\n
+    exception(final OperationException e)\n
     '''

@@ -1,6 +1,7 @@
-def ICUCloneNotSupportedException():
-    '''public ICUCloneNotSupportedException()
-    public ICUCloneNotSupportedException(final String message)
-    public ICUCloneNotSupportedException(final Throwable cause)
-    public ICUCloneNotSupportedException(final String message, final Throwable cause)
+def ():
+    '''returns ICUCloneNotSupportedException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

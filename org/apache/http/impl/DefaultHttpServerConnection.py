@@ -1,3 +1,4 @@
 def bind():
-    '''public void bind(final Socket socket, final HttpParams params)
+    '''returns None\n\n
+    bind(final Socket socket, final HttpParams params)\n
     '''

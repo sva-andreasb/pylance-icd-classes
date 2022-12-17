@@ -1,3 +1,4 @@
-def DuplicateTaskException():
-    '''public DuplicateTaskException(final String message)
+def ():
+    '''returns DuplicateTaskException\n\n
+    (final String message)\n
     '''

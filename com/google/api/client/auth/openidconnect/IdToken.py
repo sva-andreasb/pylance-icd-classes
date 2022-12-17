@@ -1,91 +1,72 @@
-def IdToken():
-    '''public IdToken(final JsonWebSignature.Header header, final Payload payload, final byte[] signatureBytes, final byte[] signedContentBytes)
+def ():
+    '''returns IdToken\n\n
+    (final JsonWebSignature.Header header, final Payload payload, final byte[] signatureBytes, final byte[] signedContentBytes)\n
     '''
 def getPayload():
-    '''public Payload getPayload()
-    '''
-def verifyIssuer():
-    '''public final boolean verifyIssuer(final String expectedIssuer)
-    public final boolean verifyIssuer(final Collection<String> expectedIssuer)
-    '''
-def verifyAudience():
-    '''public final boolean verifyAudience(final Collection<String> trustedClientIds)
-    '''
-def verifyTime():
-    '''public final boolean verifyTime(final long currentTimeMillis, final long acceptableTimeSkewSeconds)
-    '''
-def verifyExpirationTime():
-    '''public final boolean verifyExpirationTime(final long currentTimeMillis, final long acceptableTimeSkewSeconds)
-    '''
-def verifyIssuedAtTime():
-    '''public final boolean verifyIssuedAtTime(final long currentTimeMillis, final long acceptableTimeSkewSeconds)
-    '''
-def parse():
-    '''public static IdToken parse(final JsonFactory jsonFactory, final String idTokenString)
-    '''
-def getAuthorizationTimeSeconds():
-    '''public final Long getAuthorizationTimeSeconds()
+    '''returns Payload\n\n
+    getPayload()\n
     '''
 def setAuthorizationTimeSeconds():
-    '''public Payload setAuthorizationTimeSeconds(final Long authorizationTimeSeconds)
-    '''
-def getAuthorizedParty():
-    '''public final String getAuthorizedParty()
+    '''returns Payload\n\n
+    setAuthorizationTimeSeconds(final Long authorizationTimeSeconds)\n
     '''
 def setAuthorizedParty():
-    '''public Payload setAuthorizedParty(final String authorizedParty)
-    '''
-def getNonce():
-    '''public final String getNonce()
+    '''returns Payload\n\n
+    setAuthorizedParty(final String authorizedParty)\n
     '''
 def setNonce():
-    '''public Payload setNonce(final String nonce)
-    '''
-def getAccessTokenHash():
-    '''public final String getAccessTokenHash()
+    '''returns Payload\n\n
+    setNonce(final String nonce)\n
     '''
 def setAccessTokenHash():
-    '''public Payload setAccessTokenHash(final String accessTokenHash)
-    '''
-def getClassReference():
-    '''public final String getClassReference()
+    '''returns Payload\n\n
+    setAccessTokenHash(final String accessTokenHash)\n
     '''
 def setClassReference():
-    '''public Payload setClassReference(final String classReference)
-    '''
-def getMethodsReferences():
-    '''public final List<String> getMethodsReferences()
+    '''returns Payload\n\n
+    setClassReference(final String classReference)\n
     '''
 def setMethodsReferences():
-    '''public Payload setMethodsReferences(final List<String> methodsReferences)
+    '''returns Payload\n\n
+    setMethodsReferences(final List<String> methodsReferences)\n
     '''
 def setExpirationTimeSeconds():
-    '''public Payload setExpirationTimeSeconds(final Long expirationTimeSeconds)
+    '''returns Payload\n\n
+    setExpirationTimeSeconds(final Long expirationTimeSeconds)\n
     '''
 def setNotBeforeTimeSeconds():
-    '''public Payload setNotBeforeTimeSeconds(final Long notBeforeTimeSeconds)
+    '''returns Payload\n\n
+    setNotBeforeTimeSeconds(final Long notBeforeTimeSeconds)\n
     '''
 def setIssuedAtTimeSeconds():
-    '''public Payload setIssuedAtTimeSeconds(final Long issuedAtTimeSeconds)
+    '''returns Payload\n\n
+    setIssuedAtTimeSeconds(final Long issuedAtTimeSeconds)\n
     '''
 def setIssuer():
-    '''public Payload setIssuer(final String issuer)
+    '''returns Payload\n\n
+    setIssuer(final String issuer)\n
     '''
 def setAudience():
-    '''public Payload setAudience(final Object audience)
+    '''returns Payload\n\n
+    setAudience(final Object audience)\n
     '''
 def setJwtId():
-    '''public Payload setJwtId(final String jwtId)
+    '''returns Payload\n\n
+    setJwtId(final String jwtId)\n
     '''
 def setType():
-    '''public Payload setType(final String type)
+    '''returns Payload\n\n
+    setType(final String type)\n
     '''
 def setSubject():
-    '''public Payload setSubject(final String subject)
+    '''returns Payload\n\n
+    setSubject(final String subject)\n
     '''
 def set():
-    '''public Payload set(final String fieldName, final Object value)
+    '''returns Payload\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public Payload clone()
+    '''returns Payload\n\n
+    clone()\n
     '''

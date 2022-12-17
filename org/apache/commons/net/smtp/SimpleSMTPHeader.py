@@ -1,12 +1,16 @@
-def SimpleSMTPHeader():
-    '''public SimpleSMTPHeader(final String from, final String to, final String subject)
+def ():
+    '''returns SimpleSMTPHeader\n\n
+    (final String from, final String to, final String subject)\n
     '''
 def addHeaderField():
-    '''public void addHeaderField(final String headerField, final String value)
+    '''returns None\n\n
+    addHeaderField(final String headerField, final String value)\n
     '''
 def addCC():
-    '''public void addCC(final String address)
+    '''returns None\n\n
+    addCC(final String address)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

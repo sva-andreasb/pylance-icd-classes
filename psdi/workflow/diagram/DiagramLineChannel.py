@@ -5,47 +5,60 @@ BELOW = "int  1"
 BEFORE = "int  0"
 AFTER = "int  1"
 LINE_WIDTH = "int  1"
-def DiagramLineChannel():
-    '''public DiagramLineChannel(final int index, final int orientation, final int position)
+def ():
+    '''returns DiagramLineChannel\n\n
+    (final int index, final int orientation, final int position)\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getOrientation():
-    '''public int getOrientation()
+    '''returns int\n\n
+    getOrientation()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def addWorkflowRelationship():
-    '''public void addWorkflowRelationship(final WorkflowRelationship rel)
+    '''returns None\n\n
+    addWorkflowRelationship(final WorkflowRelationship rel)\n
     '''
 def getWorkflowRelationships():
-    '''public Vector getWorkflowRelationships()
+    '''returns Vector\n\n
+    getWorkflowRelationships()\n
     '''
 def getKey():
-    '''public Object getKey()
-    public static Object getKey(final int index, final int orientation, final int position)
+    '''returns Object\n\n
+    getKey()\n
     '''
 def getLineCount():
-    '''public int getLineCount()
+    '''returns int\n\n
+    getLineCount()\n
     '''
 def getSpaceRequired():
-    '''public int getSpaceRequired()
+    '''returns int\n\n
+    getSpaceRequired()\n
     '''
 def getLocation():
-    '''public int getLocation()
-    public int getLocation(final WorkflowRelationship rel)
+    '''returns int\n\n
+    getLocation()\n
+    getLocation(final WorkflowRelationship rel)\n
     '''
 def setLocation():
-    '''public void setLocation(final int location)
+    '''returns None\n\n
+    setLocation(final int location)\n
     '''
 def setLineSpacing():
-    '''public void setLineSpacing(final int spacing)
+    '''returns None\n\n
+    setLineSpacing(final int spacing)\n
     '''
 def getLineSpacing():
-    '''public int getLineSpacing()
+    '''returns int\n\n
+    getLineSpacing()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

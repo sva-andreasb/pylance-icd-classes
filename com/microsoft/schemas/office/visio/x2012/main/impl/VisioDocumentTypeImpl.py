@@ -1,123 +1,164 @@
-def VisioDocumentTypeImpl():
-    '''public VisioDocumentTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns VisioDocumentTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getDocumentSettings():
-    '''public DocumentSettingsType getDocumentSettings()
+    '''returns DocumentSettingsType\n\n
+    getDocumentSettings()\n
     '''
 def isSetDocumentSettings():
-    '''public boolean isSetDocumentSettings()
+    '''returns boolean\n\n
+    isSetDocumentSettings()\n
     '''
 def setDocumentSettings():
-    '''public void setDocumentSettings(final DocumentSettingsType documentSettingsType)
+    '''returns None\n\n
+    setDocumentSettings(final DocumentSettingsType documentSettingsType)\n
     '''
 def addNewDocumentSettings():
-    '''public DocumentSettingsType addNewDocumentSettings()
+    '''returns DocumentSettingsType\n\n
+    addNewDocumentSettings()\n
     '''
 def unsetDocumentSettings():
-    '''public void unsetDocumentSettings()
+    '''returns None\n\n
+    unsetDocumentSettings()\n
     '''
 def getColors():
-    '''public ColorsType getColors()
+    '''returns ColorsType\n\n
+    getColors()\n
     '''
 def isSetColors():
-    '''public boolean isSetColors()
+    '''returns boolean\n\n
+    isSetColors()\n
     '''
 def setColors():
-    '''public void setColors(final ColorsType colorsType)
+    '''returns None\n\n
+    setColors(final ColorsType colorsType)\n
     '''
 def addNewColors():
-    '''public ColorsType addNewColors()
+    '''returns ColorsType\n\n
+    addNewColors()\n
     '''
 def unsetColors():
-    '''public void unsetColors()
+    '''returns None\n\n
+    unsetColors()\n
     '''
 def getFaceNames():
-    '''public FaceNamesType getFaceNames()
+    '''returns FaceNamesType\n\n
+    getFaceNames()\n
     '''
 def isSetFaceNames():
-    '''public boolean isSetFaceNames()
+    '''returns boolean\n\n
+    isSetFaceNames()\n
     '''
 def setFaceNames():
-    '''public void setFaceNames(final FaceNamesType faceNamesType)
+    '''returns None\n\n
+    setFaceNames(final FaceNamesType faceNamesType)\n
     '''
 def addNewFaceNames():
-    '''public FaceNamesType addNewFaceNames()
+    '''returns FaceNamesType\n\n
+    addNewFaceNames()\n
     '''
 def unsetFaceNames():
-    '''public void unsetFaceNames()
+    '''returns None\n\n
+    unsetFaceNames()\n
     '''
 def getStyleSheets():
-    '''public StyleSheetsType getStyleSheets()
+    '''returns StyleSheetsType\n\n
+    getStyleSheets()\n
     '''
 def isSetStyleSheets():
-    '''public boolean isSetStyleSheets()
+    '''returns boolean\n\n
+    isSetStyleSheets()\n
     '''
 def setStyleSheets():
-    '''public void setStyleSheets(final StyleSheetsType styleSheetsType)
+    '''returns None\n\n
+    setStyleSheets(final StyleSheetsType styleSheetsType)\n
     '''
 def addNewStyleSheets():
-    '''public StyleSheetsType addNewStyleSheets()
+    '''returns StyleSheetsType\n\n
+    addNewStyleSheets()\n
     '''
 def unsetStyleSheets():
-    '''public void unsetStyleSheets()
+    '''returns None\n\n
+    unsetStyleSheets()\n
     '''
 def getDocumentSheet():
-    '''public DocumentSheetType getDocumentSheet()
+    '''returns DocumentSheetType\n\n
+    getDocumentSheet()\n
     '''
 def isSetDocumentSheet():
-    '''public boolean isSetDocumentSheet()
+    '''returns boolean\n\n
+    isSetDocumentSheet()\n
     '''
 def setDocumentSheet():
-    '''public void setDocumentSheet(final DocumentSheetType documentSheetType)
+    '''returns None\n\n
+    setDocumentSheet(final DocumentSheetType documentSheetType)\n
     '''
 def addNewDocumentSheet():
-    '''public DocumentSheetType addNewDocumentSheet()
+    '''returns DocumentSheetType\n\n
+    addNewDocumentSheet()\n
     '''
 def unsetDocumentSheet():
-    '''public void unsetDocumentSheet()
+    '''returns None\n\n
+    unsetDocumentSheet()\n
     '''
 def getEventList():
-    '''public EventListType getEventList()
+    '''returns EventListType\n\n
+    getEventList()\n
     '''
 def isSetEventList():
-    '''public boolean isSetEventList()
+    '''returns boolean\n\n
+    isSetEventList()\n
     '''
 def setEventList():
-    '''public void setEventList(final EventListType eventListType)
+    '''returns None\n\n
+    setEventList(final EventListType eventListType)\n
     '''
 def addNewEventList():
-    '''public EventListType addNewEventList()
+    '''returns EventListType\n\n
+    addNewEventList()\n
     '''
 def unsetEventList():
-    '''public void unsetEventList()
+    '''returns None\n\n
+    unsetEventList()\n
     '''
 def getHeaderFooter():
-    '''public HeaderFooterType getHeaderFooter()
+    '''returns HeaderFooterType\n\n
+    getHeaderFooter()\n
     '''
 def isSetHeaderFooter():
-    '''public boolean isSetHeaderFooter()
+    '''returns boolean\n\n
+    isSetHeaderFooter()\n
     '''
 def setHeaderFooter():
-    '''public void setHeaderFooter(final HeaderFooterType headerFooterType)
+    '''returns None\n\n
+    setHeaderFooter(final HeaderFooterType headerFooterType)\n
     '''
 def addNewHeaderFooter():
-    '''public HeaderFooterType addNewHeaderFooter()
+    '''returns HeaderFooterType\n\n
+    addNewHeaderFooter()\n
     '''
 def unsetHeaderFooter():
-    '''public void unsetHeaderFooter()
+    '''returns None\n\n
+    unsetHeaderFooter()\n
     '''
 def getPublishSettings():
-    '''public PublishSettingsType getPublishSettings()
+    '''returns PublishSettingsType\n\n
+    getPublishSettings()\n
     '''
 def isSetPublishSettings():
-    '''public boolean isSetPublishSettings()
+    '''returns boolean\n\n
+    isSetPublishSettings()\n
     '''
 def setPublishSettings():
-    '''public void setPublishSettings(final PublishSettingsType publishSettingsType)
+    '''returns None\n\n
+    setPublishSettings(final PublishSettingsType publishSettingsType)\n
     '''
 def addNewPublishSettings():
-    '''public PublishSettingsType addNewPublishSettings()
+    '''returns PublishSettingsType\n\n
+    addNewPublishSettings()\n
     '''
 def unsetPublishSettings():
-    '''public void unsetPublishSettings()
+    '''returns None\n\n
+    unsetPublishSettings()\n
     '''

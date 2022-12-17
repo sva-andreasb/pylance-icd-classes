@@ -1,12 +1,16 @@
-def RefreshActivityDataManager():
-    '''public RefreshActivityDataManager(final MXServer mxServer)
+def ():
+    '''returns RefreshActivityDataManager\n\n
+    (final MXServer mxServer)\n
     '''
 def discardRefreshDataObjects():
-    '''public void discardRefreshDataObjects(final MboRemote projectMbo, final List<String> selectedActivities)
+    '''returns None\n\n
+    discardRefreshDataObjects(final MboRemote projectMbo, final List<String> selectedActivities)\n
     '''
 def refreshDataObjects():
-    '''public void refreshDataObjects(final MboRemote projectMbo, final List<String> selectedActivities)
+    '''returns None\n\n
+    refreshDataObjects(final MboRemote projectMbo, final List<String> selectedActivities)\n
     '''
 def reloadDataObjects():
-    '''public void reloadDataObjects(final IMXGanttModel model, final MboRemote projectMbo, final String objectName, final List<IMXActivity> selectedActivities)
+    '''returns None\n\n
+    reloadDataObjects(final IMXGanttModel model, final MboRemote projectMbo, final String objectName, final List<IMXActivity> selectedActivities)\n
     '''

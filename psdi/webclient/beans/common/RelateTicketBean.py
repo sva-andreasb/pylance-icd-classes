@@ -1,6 +1,8 @@
 def relate():
-    '''public int relate()
+    '''returns int\n\n
+    relate()\n
     '''
 def relateToGlobal():
-    '''public int relateToGlobal()
+    '''returns int\n\n
+    relateToGlobal()\n
     '''

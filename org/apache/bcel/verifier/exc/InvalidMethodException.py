@@ -1,3 +1,4 @@
-def InvalidMethodException():
-    '''public InvalidMethodException(final String message)
+def ():
+    '''returns InvalidMethodException\n\n
+    (final String message)\n
     '''

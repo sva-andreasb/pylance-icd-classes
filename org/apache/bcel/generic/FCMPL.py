@@ -1,9 +1,12 @@
-def FCMPL():
-    '''public FCMPL()
+def ():
+    '''returns FCMPL\n\n
+    ()\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cp)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cp)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

@@ -1,3 +1,4 @@
 def selectResources():
-    '''public int selectResources()
+    '''returns int\n\n
+    selectResources()\n
     '''

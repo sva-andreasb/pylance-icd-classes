@@ -2,43 +2,53 @@ MENU_EXECUTE = "int  1"
 MENU_EXECUTE_SHOW = "int  2"
 MENU_EXECUTE_PRINT = "int  4"
 MENU_EXECUTE_PRINT_SILENT = "int  8"
-def AbstractTool():
-    '''public AbstractTool()
+def ():
+    '''returns Console\n\n
+    ()\n
+    (final int columns, final int rows)\n
     '''
 def setArguments():
-    '''public void setArguments(final ArrayList arguments)
-    public void setArguments(final String[] args)
+    '''returns None\n\n
+    setArguments(final ArrayList arguments)\n
+    setArguments(final String[] args)\n
     '''
 def getArguments():
-    '''public ArrayList getArguments()
+    '''returns ArrayList\n\n
+    getArguments()\n
     '''
 def getValue():
-    '''public Object getValue(final String name)
+    '''returns Object\n\n
+    getValue(final String name)\n
     '''
 def setInternalFrame():
-    '''public void setInternalFrame(final JInternalFrame internalFrame)
+    '''returns None\n\n
+    setInternalFrame(final JInternalFrame internalFrame)\n
     '''
 def getInternalFrame():
-    '''public JInternalFrame getInternalFrame()
+    '''returns JInternalFrame\n\n
+    getInternalFrame()\n
     '''
 def getMenubar():
-    '''public JMenuBar getMenubar()
+    '''returns JMenuBar\n\n
+    getMenubar()\n
     '''
 def getConsole():
-    '''public JScrollPane getConsole(final int columns, final int rows)
+    '''returns JScrollPane\n\n
+    getConsole(final int columns, final int rows)\n
     '''
 def getUsage():
-    '''public String getUsage()
+    '''returns String\n\n
+    getUsage()\n
     '''
 def getArgs():
-    '''public String getArgs()
+    '''returns String\n\n
+    getArgs()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent evt)
-    '''
-def Console():
-    '''public Console(final int columns, final int rows)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent evt)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

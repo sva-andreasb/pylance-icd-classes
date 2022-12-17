@@ -1,66 +1,85 @@
 def getControl():
-    '''public Object getControl()
+    '''returns Object\n\n
+    getControl()\n
     '''
 def setControl():
-    '''public void setControl(final Object o)
+    '''returns None\n\n
+    setControl(final Object o)\n
     '''
 def addChild():
-    '''public void addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)
+    '''returns None\n\n
+    addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)\n
     '''
 def removeChild():
-    '''public boolean removeChild(final AbstractControlNode abstractControlNode)
+    '''returns boolean\n\n
+    removeChild(final AbstractControlNode abstractControlNode)\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def putProperty():
-    '''public void putProperty(final String s, Object o, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    putProperty(final String s, Object o, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def getBounds():
-    '''public Rectangle getBounds()
+    '''returns Rectangle\n\n
+    getBounds()\n
     '''
 def setBounds():
-    '''public void setBounds(final Rectangle bounds)
+    '''returns None\n\n
+    setBounds(final Rectangle bounds)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def setPreferredSize():
-    '''public void setPreferredSize(final Dimension preferredSize)
+    '''returns None\n\n
+    setPreferredSize(final Dimension preferredSize)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize()
+    '''returns Dimension\n\n
+    getMinimumSize()\n
     '''
 def setMinimumSize():
-    '''public void setMinimumSize(final Dimension minimumSize)
+    '''returns None\n\n
+    setMinimumSize(final Dimension minimumSize)\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize()
+    '''returns Dimension\n\n
+    getMaximumSize()\n
     '''
 def setMaximumSize():
-    '''public void setMaximumSize(final Dimension maximumSize)
+    '''returns None\n\n
+    setMaximumSize(final Dimension maximumSize)\n
     '''
 def isLocaleDependentProperty():
-    '''public boolean isLocaleDependentProperty(final String s)
+    '''returns boolean\n\n
+    isLocaleDependentProperty(final String s)\n
     '''
-def FormActionListener():
-    '''public FormActionListener(final ActivationListener a)
+def ():
+    '''returns SwingFocusListener\n\n
+    (final ActivationListener a)\n
+    (final ilog.views.appframe.form.events.FocusListener a)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    '''
-def SwingFocusListener():
-    '''public SwingFocusListener(final ilog.views.appframe.form.events.FocusListener a)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def focusGained():
-    '''public void focusGained(final FocusEvent focusEvent)
+    '''returns None\n\n
+    focusGained(final FocusEvent focusEvent)\n
     '''
 def focusLost():
-    '''public void focusLost(final FocusEvent focusEvent)
+    '''returns None\n\n
+    focusLost(final FocusEvent focusEvent)\n
     '''

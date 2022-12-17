@@ -1,9 +1,12 @@
 def filedownload():
-    '''public int filedownload()
+    '''returns int\n\n
+    filedownload()\n
     '''
 def instantdelete():
-    '''public int instantdelete()
+    '''returns int\n\n
+    instantdelete()\n
     '''
 def finish():
-    '''public int finish()
+    '''returns int\n\n
+    finish()\n
     '''

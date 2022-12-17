@@ -1,9 +1,12 @@
-def CDataNode():
-    '''public CDataNode(final String text)
+def ():
+    '''returns CDataNode\n\n
+    (final String text)\n
     '''
 def nodeName():
-    '''public String nodeName()
+    '''returns String\n\n
+    nodeName()\n
     '''
 def text():
-    '''public String text()
+    '''returns String\n\n
+    text()\n
     '''

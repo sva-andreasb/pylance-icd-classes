@@ -1,12 +1,16 @@
-def PmSolutionDataBean():
-    '''public PmSolutionDataBean()
+def ():
+    '''returns PmSolutionDataBean\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def createNewSR():
-    '''public int createNewSR()
+    '''returns int\n\n
+    createNewSR()\n
     '''
 def createSR():
-    '''public int createSR()
+    '''returns int\n\n
+    createSR()\n
     '''

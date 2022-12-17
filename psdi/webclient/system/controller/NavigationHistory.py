@@ -1,21 +1,28 @@
-def NavigationHistory():
-    '''public NavigationHistory(final long uniqueIDValue, final String label)
+def ():
+    '''returns NavigationHistory\n\n
+    (final long uniqueIDValue, final String label)\n
     '''
 def getUniqueId():
-    '''public long getUniqueId()
+    '''returns long\n\n
+    getUniqueId()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getNavigationId():
-    '''public int getNavigationId()
+    '''returns int\n\n
+    getNavigationId()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

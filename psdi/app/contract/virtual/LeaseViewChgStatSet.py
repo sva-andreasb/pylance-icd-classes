@@ -1,3 +1,4 @@
-def LeaseViewChgStatSet():
-    '''public LeaseViewChgStatSet(final MboServerInterface ms)
+def ():
+    '''returns LeaseViewChgStatSet\n\n
+    (final MboServerInterface ms)\n
     '''

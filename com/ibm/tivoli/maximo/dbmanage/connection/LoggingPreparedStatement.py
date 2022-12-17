@@ -1,136 +1,175 @@
-def LoggingPreparedStatement():
-    '''public LoggingPreparedStatement(final PreparedStatement ps, final String sql)
+def ():
+    '''returns LoggingPreparedStatement\n\n
+    (final PreparedStatement ps, final String sql)\n
     '''
 def addBatch():
-    '''public void addBatch()
+    '''returns None\n\n
+    addBatch()\n
     '''
 def clearParameters():
-    '''public void clearParameters()
+    '''returns None\n\n
+    clearParameters()\n
     '''
 def execute():
-    '''public boolean execute()
+    '''returns boolean\n\n
+    execute()\n
     '''
 def executeQuery():
-    '''public ResultSet executeQuery()
+    '''returns ResultSet\n\n
+    executeQuery()\n
     '''
 def executeUpdate():
-    '''public int executeUpdate()
+    '''returns int\n\n
+    executeUpdate()\n
     '''
 def getMetaData():
-    '''public ResultSetMetaData getMetaData()
+    '''returns ResultSetMetaData\n\n
+    getMetaData()\n
     '''
 def getParameterMetaData():
-    '''public ParameterMetaData getParameterMetaData()
+    '''returns ParameterMetaData\n\n
+    getParameterMetaData()\n
     '''
 def setArray():
-    '''public void setArray(final int parameterIndex, final Array theArray)
+    '''returns None\n\n
+    setArray(final int parameterIndex, final Array theArray)\n
     '''
 def setAsciiStream():
-    '''public void setAsciiStream(final int parameterIndex, final InputStream theInputStream, final int length)
-    public void setAsciiStream(final int parameterIndex, final InputStream x, final long length)
-    public void setAsciiStream(final int parameterIndex, final InputStream x)
+    '''returns None\n\n
+    setAsciiStream(final int parameterIndex, final InputStream theInputStream, final int length)\n
+    setAsciiStream(final int parameterIndex, final InputStream x, final long length)\n
+    setAsciiStream(final int parameterIndex, final InputStream x)\n
     '''
 def setBigDecimal():
-    '''public void setBigDecimal(final int parameterIndex, final BigDecimal theBigDecimal)
+    '''returns None\n\n
+    setBigDecimal(final int parameterIndex, final BigDecimal theBigDecimal)\n
     '''
 def setBinaryStream():
-    '''public void setBinaryStream(final int parameterIndex, final InputStream theInputStream, final int length)
-    public void setBinaryStream(final int parameterIndex, final InputStream x, final long length)
-    public void setBinaryStream(final int parameterIndex, final InputStream x)
+    '''returns None\n\n
+    setBinaryStream(final int parameterIndex, final InputStream theInputStream, final int length)\n
+    setBinaryStream(final int parameterIndex, final InputStream x, final long length)\n
+    setBinaryStream(final int parameterIndex, final InputStream x)\n
     '''
 def setBlob():
-    '''public void setBlob(final int parameterIndex, final Blob theBlob)
-    public void setBlob(final int parameterIndex, final InputStream inputStream, final long length)
-    public void setBlob(final int parameterIndex, final InputStream inputStream)
+    '''returns None\n\n
+    setBlob(final int parameterIndex, final Blob theBlob)\n
+    setBlob(final int parameterIndex, final InputStream inputStream, final long length)\n
+    setBlob(final int parameterIndex, final InputStream inputStream)\n
     '''
 def setBytesForBlob():
-    '''public void setBytesForBlob(final int paramIndex, final byte[] blobContent)
+    '''returns None\n\n
+    setBytesForBlob(final int paramIndex, final byte[] blobContent)\n
     '''
 def setBoolean():
-    '''public void setBoolean(final int parameterIndex, final boolean theBoolean)
+    '''returns None\n\n
+    setBoolean(final int parameterIndex, final boolean theBoolean)\n
     '''
 def setByte():
-    '''public void setByte(final int parameterIndex, final byte theByte)
+    '''returns None\n\n
+    setByte(final int parameterIndex, final byte theByte)\n
     '''
 def setBytes():
-    '''public void setBytes(final int parameterIndex, final byte[] theBytes)
+    '''returns None\n\n
+    setBytes(final int parameterIndex, final byte[] theBytes)\n
     '''
 def setCharacterStream():
-    '''public void setCharacterStream(final int parameterIndex, final Reader reader, final int length)
-    public void setCharacterStream(final int parameterIndex, final Reader reader, final long length)
-    public void setCharacterStream(final int parameterIndex, final Reader reader)
+    '''returns None\n\n
+    setCharacterStream(final int parameterIndex, final Reader reader, final int length)\n
+    setCharacterStream(final int parameterIndex, final Reader reader, final long length)\n
+    setCharacterStream(final int parameterIndex, final Reader reader)\n
     '''
 def setClob():
-    '''public void setClob(final int parameterIndex, final Clob theClob)
-    public void setClob(final int parameterIndex, final Reader reader, final long length)
-    public void setClob(final int parameterIndex, final Reader reader)
+    '''returns None\n\n
+    setClob(final int parameterIndex, final Clob theClob)\n
+    setClob(final int parameterIndex, final Reader reader, final long length)\n
+    setClob(final int parameterIndex, final Reader reader)\n
     '''
 def setDate():
-    '''public void setDate(final int parameterIndex, final Date theDate)
-    public void setDate(final int parameterIndex, final Date theDate, final Calendar cal)
+    '''returns None\n\n
+    setDate(final int parameterIndex, final Date theDate)\n
+    setDate(final int parameterIndex, final Date theDate, final Calendar cal)\n
     '''
 def setDouble():
-    '''public void setDouble(final int parameterIndex, final double theDouble)
+    '''returns None\n\n
+    setDouble(final int parameterIndex, final double theDouble)\n
     '''
 def setFloat():
-    '''public void setFloat(final int parameterIndex, final float theFloat)
+    '''returns None\n\n
+    setFloat(final int parameterIndex, final float theFloat)\n
     '''
 def setInt():
-    '''public void setInt(final int parameterIndex, final int theInt)
+    '''returns None\n\n
+    setInt(final int parameterIndex, final int theInt)\n
     '''
 def setLong():
-    '''public void setLong(final int parameterIndex, final long theLong)
+    '''returns None\n\n
+    setLong(final int parameterIndex, final long theLong)\n
     '''
 def setNull():
-    '''public void setNull(final int parameterIndex, final int sqlType)
-    public void setNull(final int paramIndex, final int sqlType, final String typeName)
+    '''returns None\n\n
+    setNull(final int parameterIndex, final int sqlType)\n
+    setNull(final int paramIndex, final int sqlType, final String typeName)\n
     '''
 def setObject():
-    '''public void setObject(final int parameterIndex, final Object theObject)
-    public void setObject(final int parameterIndex, final Object theObject, final int targetSqlType)
-    public void setObject(final int parameterIndex, final Object theObject, final int targetSqlType, final int scale)
+    '''returns None\n\n
+    setObject(final int parameterIndex, final Object theObject)\n
+    setObject(final int parameterIndex, final Object theObject, final int targetSqlType)\n
+    setObject(final int parameterIndex, final Object theObject, final int targetSqlType, final int scale)\n
     '''
 def setRef():
-    '''public void setRef(final int parameterIndex, final Ref theRef)
+    '''returns None\n\n
+    setRef(final int parameterIndex, final Ref theRef)\n
     '''
 def setShort():
-    '''public void setShort(final int parameterIndex, final short theShort)
+    '''returns None\n\n
+    setShort(final int parameterIndex, final short theShort)\n
     '''
 def setString():
-    '''public void setString(final int parameterIndex, final String theString)
+    '''returns None\n\n
+    setString(final int parameterIndex, final String theString)\n
     '''
 def setTime():
-    '''public void setTime(final int parameterIndex, final Time theTime)
-    public void setTime(final int parameterIndex, final Time theTime, final Calendar cal)
+    '''returns None\n\n
+    setTime(final int parameterIndex, final Time theTime)\n
+    setTime(final int parameterIndex, final Time theTime, final Calendar cal)\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final int parameterIndex, final Timestamp theTimestamp)
-    public void setTimestamp(final int parameterIndex, final Timestamp theTimestamp, final Calendar cal)
+    '''returns None\n\n
+    setTimestamp(final int parameterIndex, final Timestamp theTimestamp)\n
+    setTimestamp(final int parameterIndex, final Timestamp theTimestamp, final Calendar cal)\n
     '''
 def setUnicodeStream():
-    '''public void setUnicodeStream(final int parameterIndex, final InputStream theInputStream, final int length)
+    '''returns None\n\n
+    setUnicodeStream(final int parameterIndex, final InputStream theInputStream, final int length)\n
     '''
 def setURL():
-    '''public void setURL(final int parameterIndex, final URL theURL)
+    '''returns None\n\n
+    setURL(final int parameterIndex, final URL theURL)\n
     '''
 def setRowId():
-    '''public void setRowId(final int parameterIndex, final RowId x)
+    '''returns None\n\n
+    setRowId(final int parameterIndex, final RowId x)\n
     '''
 def setNString():
-    '''public void setNString(final int parameterIndex, final String value)
+    '''returns None\n\n
+    setNString(final int parameterIndex, final String value)\n
     '''
 def setNCharacterStream():
-    '''public void setNCharacterStream(final int parameterIndex, final Reader value, final long length)
-    public void setNCharacterStream(final int parameterIndex, final Reader value)
+    '''returns None\n\n
+    setNCharacterStream(final int parameterIndex, final Reader value, final long length)\n
+    setNCharacterStream(final int parameterIndex, final Reader value)\n
     '''
 def setNClob():
-    '''public void setNClob(final int parameterIndex, final NClob value)
-    public void setNClob(final int parameterIndex, final Reader reader, final long length)
-    public void setNClob(final int parameterIndex, final Reader reader)
+    '''returns None\n\n
+    setNClob(final int parameterIndex, final NClob value)\n
+    setNClob(final int parameterIndex, final Reader reader, final long length)\n
+    setNClob(final int parameterIndex, final Reader reader)\n
     '''
 def setSQLXML():
-    '''public void setSQLXML(final int parameterIndex, final SQLXML xmlObject)
+    '''returns None\n\n
+    setSQLXML(final int parameterIndex, final SQLXML xmlObject)\n
     '''
 def executeBatch():
-    '''public int[] executeBatch()
+    '''returns int[]\n\n
+    executeBatch()\n
     '''

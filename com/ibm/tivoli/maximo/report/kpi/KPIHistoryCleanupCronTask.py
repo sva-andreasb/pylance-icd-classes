@@ -1,12 +1,16 @@
-def KPIHistoryCleanupCronTask():
-    '''public KPIHistoryCleanupCronTask()
+def ():
+    '''returns KPIHistoryCleanupCronTask\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def getParameterValidationMbo():
-    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''returns MboRemote\n\n
+    getParameterValidationMbo(final CrontaskInstanceRemote instance)\n
     '''

@@ -1,70 +1,86 @@
-def WebSocketClientFactory():
-    '''public WebSocketClientFactory()
-    public WebSocketClientFactory(final ThreadPool threadPool)
-    public WebSocketClientFactory(final ThreadPool threadPool, final MaskGen maskGen)
-    public WebSocketClientFactory(ThreadPool threadPool, final MaskGen maskGen, final int bufferSize)
+def ():
+    '''returns WebSocketClientConnection\n\n
+    ()\n
+    (final ThreadPool threadPool)\n
+    (final ThreadPool threadPool, final MaskGen maskGen)\n
+    (ThreadPool threadPool, final MaskGen maskGen, final int bufferSize)\n
+    (final AsyncEndPoint endpoint, final WebSocketClient.WebSocketFuture future)\n
+    (final WebSocketClientFactory factory, final WebSocket webSocket, final EndPoint endPoint, final WebSocketBuffers buffers, final long timeStamp, final int maxIdleTime, final String protocol, final List<Extension> extensions, final int draftVersion, final MaskGen maskGen)\n
     '''
 def getSslContextFactory():
-    '''public SslContextFactory getSslContextFactory()
+    '''returns SslContextFactory\n\n
+    getSslContextFactory()\n
     '''
 def getSelectorManager():
-    '''public SelectorManager getSelectorManager()
+    '''returns SelectorManager\n\n
+    getSelectorManager()\n
     '''
 def getThreadPool():
-    '''public ThreadPool getThreadPool()
+    '''returns ThreadPool\n\n
+    getThreadPool()\n
     '''
 def getMaskGen():
-    '''public MaskGen getMaskGen()
+    '''returns MaskGen\n\n
+    getMaskGen()\n
     '''
 def setMaskGen():
-    '''public void setMaskGen(final MaskGen maskGen)
+    '''returns None\n\n
+    setMaskGen(final MaskGen maskGen)\n
     '''
 def setBufferSize():
-    '''public void setBufferSize(final int bufferSize)
+    '''returns None\n\n
+    setBufferSize(final int bufferSize)\n
     '''
 def getBufferSize():
-    '''public int getBufferSize()
+    '''returns int\n\n
+    getBufferSize()\n
     '''
 def newWebSocketClient():
-    '''public WebSocketClient newWebSocketClient()
+    '''returns WebSocketClient\n\n
+    newWebSocketClient()\n
     '''
 def dispatch():
-    '''public boolean dispatch(final Runnable task)
+    '''returns boolean\n\n
+    dispatch(final Runnable task)\n
     '''
 def newConnection():
-    '''public AsyncConnection newConnection(final SocketChannel channel, final AsyncEndPoint endpoint, final Object attachment)
-    '''
-def HandshakeConnection():
-    '''public HandshakeConnection(final AsyncEndPoint endpoint, final WebSocketClient.WebSocketFuture future)
+    '''returns AsyncConnection\n\n
+    newConnection(final SocketChannel channel, final AsyncEndPoint endpoint, final Object attachment)\n
     '''
 def startResponse():
-    '''public void startResponse(final Buffer version, final int status, final Buffer reason)
+    '''returns None\n\n
+    startResponse(final Buffer version, final int status, final Buffer reason)\n
     '''
 def parsedHeader():
-    '''public void parsedHeader(final Buffer name, final Buffer value)
+    '''returns None\n\n
+    parsedHeader(final Buffer name, final Buffer value)\n
     '''
 def startRequest():
-    '''public void startRequest(final Buffer method, final Buffer url, final Buffer version)
+    '''returns None\n\n
+    startRequest(final Buffer method, final Buffer url, final Buffer version)\n
     '''
 def content():
-    '''public void content(final Buffer ref)
+    '''returns None\n\n
+    content(final Buffer ref)\n
     '''
 def handle():
-    '''public Connection handle()
+    '''returns Connection\n\n
+    handle()\n
     '''
 def onInputShutdown():
-    '''public void onInputShutdown()
+    '''returns None\n\n
+    onInputShutdown()\n
     '''
 def isIdle():
-    '''public boolean isIdle()
+    '''returns boolean\n\n
+    isIdle()\n
     '''
 def isSuspended():
-    '''public boolean isSuspended()
+    '''returns boolean\n\n
+    isSuspended()\n
     '''
 def onClose():
-    '''public void onClose()
-    public void onClose()
-    '''
-def WebSocketClientConnection():
-    '''public WebSocketClientConnection(final WebSocketClientFactory factory, final WebSocket webSocket, final EndPoint endPoint, final WebSocketBuffers buffers, final long timeStamp, final int maxIdleTime, final String protocol, final List<Extension> extensions, final int draftVersion, final MaskGen maskGen)
+    '''returns None\n\n
+    onClose()\n
+    onClose()\n
     '''

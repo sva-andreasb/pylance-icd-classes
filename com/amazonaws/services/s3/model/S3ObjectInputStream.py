@@ -1,24 +1,31 @@
-def S3ObjectInputStream():
-    '''public S3ObjectInputStream(final InputStream in, final HttpRequestBase httpRequest)
-    public S3ObjectInputStream(final InputStream in, final HttpRequestBase httpRequest, final boolean collectMetrics)
+def ():
+    '''returns S3ObjectInputStream\n\n
+    (final InputStream in, final HttpRequestBase httpRequest)\n
+    (final InputStream in, final HttpRequestBase httpRequest, final boolean collectMetrics)\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def getHttpRequest():
-    '''public HttpRequestBase getHttpRequest()
+    '''returns HttpRequestBase\n\n
+    getHttpRequest()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b)
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b)\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

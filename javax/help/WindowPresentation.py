@@ -1,107 +1,138 @@
-def WindowPresentation():
-    '''public WindowPresentation(final HelpSet helpSet)
+def ():
+    '''returns WindowPresentation\n\n
+    (final HelpSet helpSet)\n
     '''
 def setHelpSetPresentation():
-    '''public void setHelpSetPresentation(final HelpSet.Presentation presentation)
+    '''returns None\n\n
+    setHelpSetPresentation(final HelpSet.Presentation presentation)\n
     '''
 def getActivationWindow():
-    '''public Window getActivationWindow()
+    '''returns Window\n\n
+    getActivationWindow()\n
     '''
 def setActivationWindow():
-    '''public void setActivationWindow(final Window ownerWindow)
+    '''returns None\n\n
+    setActivationWindow(final Window ownerWindow)\n
     '''
 def setActivationObject():
-    '''public void setActivationObject(Object parent)
+    '''returns None\n\n
+    setActivationObject(Object parent)\n
     '''
 def getCurrentView():
-    '''public String getCurrentView()
+    '''returns String\n\n
+    getCurrentView()\n
     '''
 def setCurrentView():
-    '''public void setCurrentView(final String currentView)
+    '''returns None\n\n
+    setCurrentView(final String currentView)\n
     '''
 def isDestroyedOnExit():
-    '''public boolean isDestroyedOnExit()
+    '''returns boolean\n\n
+    isDestroyedOnExit()\n
     '''
 def setDestroyOnExit():
-    '''public void setDestroyOnExit(final boolean destroyOnExit)
+    '''returns None\n\n
+    setDestroyOnExit(final boolean destroyOnExit)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def setHelpSet():
-    '''public void setHelpSet(final HelpSet helpSet)
+    '''returns None\n\n
+    setHelpSet(final HelpSet helpSet)\n
     '''
 def setDisplayed():
-    '''public void setDisplayed(final boolean visible)
+    '''returns None\n\n
+    setDisplayed(final boolean visible)\n
     '''
 def isDisplayed():
-    '''public boolean isDisplayed()
+    '''returns boolean\n\n
+    isDisplayed()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocation():
-    '''public Point getLocation()
+    '''returns Point\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final Point location)
+    '''returns None\n\n
+    setLocation(final Point location)\n
     '''
 def getScreen():
-    '''public int getScreen()
+    '''returns int\n\n
+    getScreen()\n
     '''
 def setScreen():
-    '''public void setScreen(final int screen)
+    '''returns None\n\n
+    setScreen(final int screen)\n
     '''
 def getSize():
-    '''public Dimension getSize()
+    '''returns Dimension\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final Dimension size)
+    '''returns None\n\n
+    setSize(final Dimension size)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def isTitleSetFromDocument():
-    '''public boolean isTitleSetFromDocument()
+    '''returns boolean\n\n
+    isTitleSetFromDocument()\n
     '''
 def setTitleFromDocument():
-    '''public void setTitleFromDocument(final boolean titleFromDocument)
+    '''returns None\n\n
+    setTitleFromDocument(final boolean titleFromDocument)\n
     '''
 def isViewDisplayed():
-    '''public boolean isViewDisplayed()
+    '''returns boolean\n\n
+    isViewDisplayed()\n
     '''
 def setViewDisplayed():
-    '''public void setViewDisplayed(final boolean b)
+    '''returns None\n\n
+    setViewDisplayed(final boolean b)\n
     '''
 def isToolbarDisplayed():
-    '''public boolean isToolbarDisplayed()
+    '''returns boolean\n\n
+    isToolbarDisplayed()\n
     '''
 def setToolbarDisplayed():
-    '''public void setToolbarDisplayed(final boolean toolbarDisplayed)
-    '''
-def createHelpWindow():
-    '''public synchronized void createHelpWindow()
+    '''returns None\n\n
+    setToolbarDisplayed(final boolean toolbarDisplayed)\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
-    public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''
 def windowClosed():
-    '''public void windowClosed(final WindowEvent windowEvent)
-    public void windowClosed(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosed(final WindowEvent windowEvent)\n
+    windowClosed(final WindowEvent windowEvent)\n
     '''
 def getHelpWindow():
-    '''public Window getHelpWindow()
+    '''returns Window\n\n
+    getHelpWindow()\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''

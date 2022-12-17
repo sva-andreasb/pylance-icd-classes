@@ -1,19 +1,25 @@
-def IDLID():
-    '''public IDLID()
-    public IDLID(final String prefix, final String name, final String version)
+def ():
+    '''returns IDLID\n\n
+    ()\n
+    (final String prefix, final String name, final String version)\n
     '''
 def ID():
-    '''public String ID()
+    '''returns String\n\n
+    ID()\n
     '''
 def prefix():
-    '''public String prefix()
+    '''returns String\n\n
+    prefix()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def version():
-    '''public String version()
+    '''returns String\n\n
+    version()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

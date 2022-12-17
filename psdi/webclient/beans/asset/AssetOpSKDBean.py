@@ -1,15 +1,20 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def okAstDefOp():
-    '''public int okAstDefOp()
+    '''returns int\n\n
+    okAstDefOp()\n
     '''
 def okAstDefMnt():
-    '''public int okAstDefMnt()
+    '''returns int\n\n
+    okAstDefMnt()\n
     '''
 def cancelAstDefMnt():
-    '''public void cancelAstDefMnt()
+    '''returns None\n\n
+    cancelAstDefMnt()\n
     '''
 def cancelAstDefop():
-    '''public void cancelAstDefop()
+    '''returns None\n\n
+    cancelAstDefop()\n
     '''

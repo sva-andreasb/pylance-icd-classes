@@ -1,12 +1,16 @@
 def testAddParametersToElementElementStringArray():
-    '''public void testAddParametersToElementElementStringArray()
+    '''returns None\n\n
+    testAddParametersToElementElementStringArray()\n
     '''
 def testAddParametersToElementProcessableStringArray():
-    '''public void testAddParametersToElementProcessableStringArray()
+    '''returns None\n\n
+    testAddParametersToElementProcessableStringArray()\n
     '''
 def testGetParametersElement():
-    '''public void testGetParametersElement()
+    '''returns None\n\n
+    testGetParametersElement()\n
     '''
 def testGetParametersXMLObject():
-    '''public void testGetParametersXMLObject()
+    '''returns None\n\n
+    testGetParametersXMLObject()\n
     '''

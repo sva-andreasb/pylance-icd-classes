@@ -1,6 +1,8 @@
-def MaxIntErrorExtractSet():
-    '''public MaxIntErrorExtractSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIntErrorExtractSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

@@ -1,16 +1,21 @@
-def CMYKColor():
-    '''public CMYKColor(final int intCyan, final int intMagenta, final int intYellow, final int intBlack)
-    public CMYKColor(final float floatCyan, final float floatMagenta, final float floatYellow, final float floatBlack)
+def ():
+    '''returns CMYKColor\n\n
+    (final int intCyan, final int intMagenta, final int intYellow, final int intBlack)\n
+    (final float floatCyan, final float floatMagenta, final float floatYellow, final float floatBlack)\n
     '''
 def getCyan():
-    '''public float getCyan()
+    '''returns float\n\n
+    getCyan()\n
     '''
 def getMagenta():
-    '''public float getMagenta()
+    '''returns float\n\n
+    getMagenta()\n
     '''
 def getYellow():
-    '''public float getYellow()
+    '''returns float\n\n
+    getYellow()\n
     '''
 def getBlack():
-    '''public float getBlack()
+    '''returns float\n\n
+    getBlack()\n
     '''

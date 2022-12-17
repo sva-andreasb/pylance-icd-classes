@@ -1,12 +1,16 @@
 def getMasterObject():
-    '''public E getMasterObject()
+    '''returns E\n\n
+    getMasterObject()\n
     '''
 def getObjectInContext():
-    '''public E getObjectInContext()
+    '''returns E\n\n
+    getObjectInContext()\n
     '''
 def get():
-    '''public E get(final boolean nocontextIsFine)
+    '''returns E\n\n
+    get(final boolean nocontextIsFine)\n
     '''
 def set():
-    '''public void set(final E obj, final boolean nocontextIsFine)
+    '''returns None\n\n
+    set(final E obj, final boolean nocontextIsFine)\n
     '''

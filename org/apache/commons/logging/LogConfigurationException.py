@@ -1,9 +1,11 @@
-def LogConfigurationException():
-    '''public LogConfigurationException()
-    public LogConfigurationException(final String message)
-    public LogConfigurationException(final Throwable cause)
-    public LogConfigurationException(final String message, final Throwable cause)
+def ():
+    '''returns LogConfigurationException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''

@@ -1,19 +1,24 @@
-def Parser():
-    '''public Parser(final Reader reader)
+def ():
+    '''returns Parser\n\n
+    (final Reader reader)\n
     '''
 def parse():
-    '''public JSONObject parse()
-    public JSONObject parse(final boolean b)
+    '''returns JSONObject\n\n
+    parse()\n
+    parse(final boolean b)\n
     '''
 def parseObject():
-    '''public JSONObject parseObject()
-    public JSONObject parseObject(final boolean b)
+    '''returns JSONObject\n\n
+    parseObject()\n
+    parseObject(final boolean b)\n
     '''
 def parseArray():
-    '''public JSONArray parseArray()
-    public JSONArray parseArray(final boolean b)
+    '''returns JSONArray\n\n
+    parseArray()\n
+    parseArray(final boolean b)\n
     '''
 def parseValue():
-    '''public Object parseValue()
-    public Object parseValue(final boolean b)
+    '''returns Object\n\n
+    parseValue()\n
+    parseValue(final boolean b)\n
     '''

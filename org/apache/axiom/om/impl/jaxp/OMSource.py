@@ -1,3 +1,4 @@
-def OMSource():
-    '''public OMSource(final OMElement element)
+def ():
+    '''returns OMSource\n\n
+    (final OMElement element)\n
     '''

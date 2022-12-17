@@ -1,9 +1,12 @@
 def getBandwidthAllotmentDetail():
-    '''public Detail getBandwidthAllotmentDetail()
+    '''returns Detail\n\n
+    getBandwidthAllotmentDetail()\n
     '''
 def setBandwidthAllotmentDetail():
-    '''public void setBandwidthAllotmentDetail(final Detail bandwidthAllotmentDetail)
+    '''returns None\n\n
+    setBandwidthAllotmentDetail(final Detail bandwidthAllotmentDetail)\n
     '''
 def setResource():
-    '''public void setResource(final com.softlayer.api.service.network.application.delivery.Controller resource)
+    '''returns None\n\n
+    setResource(final com.softlayer.api.service.network.application.delivery.Controller resource)\n
     '''

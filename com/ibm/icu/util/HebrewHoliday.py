@@ -1,4 +1,5 @@
-def HebrewHoliday():
-    '''public HebrewHoliday(final int month, final int date, final String name)
-    public HebrewHoliday(final int month, final int date, final int length, final String name)
+def ():
+    '''returns HebrewHoliday\n\n
+    (final int month, final int date, final String name)\n
+    (final int month, final int date, final int length, final String name)\n
     '''

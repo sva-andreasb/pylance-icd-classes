@@ -1,411 +1,545 @@
-def Location():
-    '''public Location(final MboSet ms)
+def ():
+    '''returns Location\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def setReadonlyForOperORStoreAfterAdd():
-    '''public void setReadonlyForOperORStoreAfterAdd()
+    '''returns None\n\n
+    setReadonlyForOperORStoreAfterAdd()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def getLocationMeterNowDate():
-    '''public Date getLocationMeterNowDate()
+    '''returns Date\n\n
+    getLocationMeterNowDate()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def cannotChangeStatus():
-    '''public void cannotChangeStatus(final MboSetRemote msr)
+    '''returns None\n\n
+    cannotChangeStatus(final MboSetRemote msr)\n
     '''
 def isStore():
-    '''public boolean isStore()
+    '''returns boolean\n\n
+    isStore()\n
     '''
 def isCourier():
-    '''public boolean isCourier()
+    '''returns boolean\n\n
+    isCourier()\n
     '''
 def isHolding():
-    '''public boolean isHolding()
+    '''returns boolean\n\n
+    isHolding()\n
     '''
 def isLabor():
-    '''public boolean isLabor()
+    '''returns boolean\n\n
+    isLabor()\n
     '''
 def isOperating():
-    '''public boolean isOperating()
+    '''returns boolean\n\n
+    isOperating()\n
     '''
 def isDecommissioned():
-    '''public boolean isDecommissioned()
+    '''returns boolean\n\n
+    isDecommissioned()\n
     '''
 def isVendor():
-    '''public boolean isVendor()
+    '''returns boolean\n\n
+    isVendor()\n
     '''
 def authorizeUserStore():
-    '''public void authorizeUserStore(final String user)
+    '''returns None\n\n
+    authorizeUserStore(final String user)\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''
 def getChildren():
-    '''public MboSetRemote getChildren()
+    '''returns MboSetRemote\n\n
+    getChildren()\n
     '''
 def getChildrenInAllSystems():
-    '''public MboSetRemote getChildrenInAllSystems()
+    '''returns MboSetRemote\n\n
+    getChildrenInAllSystems()\n
     '''
 def getParents():
-    '''public MboSetRemote getParents()
-    public MboSetRemote getParents(final String SystemId)
+    '''returns MboSetRemote\n\n
+    getParents()\n
+    getParents(final String SystemId)\n
     '''
 def getTop():
-    '''public MboSetRemote getTop()
+    '''returns MboSetRemote\n\n
+    getTop()\n
     '''
 def getHierarchies():
-    '''public String[] getHierarchies()
+    '''returns String[]\n\n
+    getHierarchies()\n
     '''
 def showHierarchy():
-    '''public MboSetRemote showHierarchy()
+    '''returns MboSetRemote\n\n
+    showHierarchy()\n
     '''
 def walkUpHierarchy():
-    '''public Vector walkUpHierarchy()
+    '''returns Vector\n\n
+    walkUpHierarchy()\n
     '''
 def getChildrenInPrimary():
-    '''public MboSetRemote getChildrenInPrimary()
-    public MboSetRemote getChildrenInPrimary(final String locSiteId)
+    '''returns MboSetRemote\n\n
+    getChildrenInPrimary()\n
+    getChildrenInPrimary(final String locSiteId)\n
     '''
 def inPrimarySystem():
-    '''public boolean inPrimarySystem()
-    public boolean inPrimarySystem(final String locSiteId)
+    '''returns boolean\n\n
+    inPrimarySystem()\n
+    inPrimarySystem(final String locSiteId)\n
     '''
 def getPrimaryLocations():
-    '''public MboSetRemote getPrimaryLocations()
+    '''returns MboSetRemote\n\n
+    getPrimaryLocations()\n
     '''
 def getNonPrimaryLocations():
-    '''public MboSetRemote getNonPrimaryLocations()
+    '''returns MboSetRemote\n\n
+    getNonPrimaryLocations()\n
     '''
 def getLocItem():
-    '''public String getLocItem()
+    '''returns String\n\n
+    getLocItem()\n
     '''
 def isLocationOccupied():
-    '''public boolean isLocationOccupied(final MboRemote asset)
-    public boolean isLocationOccupied(final String itemnum)
+    '''returns boolean\n\n
+    isLocationOccupied(final MboRemote asset)\n
+    isLocationOccupied(final String itemnum)\n
     '''
 def doesHoldingLocationExistForSite():
-    '''public boolean doesHoldingLocationExistForSite(final String siteid)
+    '''returns boolean\n\n
+    doesHoldingLocationExistForSite(final String siteid)\n
     '''
 def getHoldingLocationForSite():
-    '''public MboRemote getHoldingLocationForSite(final String siteid)
+    '''returns MboRemote\n\n
+    getHoldingLocationForSite(final String siteid)\n
     '''
 def isInventory():
-    '''public boolean isInventory()
+    '''returns boolean\n\n
+    isInventory()\n
     '''
 def updateDesc():
-    '''public void updateDesc()
+    '''returns None\n\n
+    updateDesc()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def updateGLInfo():
-    '''public void updateGLInfo()
+    '''returns None\n\n
+    updateGLInfo()\n
     '''
 def generateLocationMetersForMeterGroup():
-    '''public void generateLocationMetersForMeterGroup()
+    '''returns None\n\n
+    generateLocationMetersForMeterGroup()\n
     '''
 def getClearDupSeqNumsOnMeterGroupChange():
-    '''public boolean getClearDupSeqNumsOnMeterGroupChange()
+    '''returns boolean\n\n
+    getClearDupSeqNumsOnMeterGroupChange()\n
     '''
 def checkForDuplicateMeterSequenceValues():
-    '''public void checkForDuplicateMeterSequenceValues()
+    '''returns None\n\n
+    checkForDuplicateMeterSequenceValues()\n
     '''
 def appendDescription():
-    '''public void appendDescription(final String descSpec)
+    '''returns None\n\n
+    appendDescription(final String descSpec)\n
     '''
 def generateLocationSpec():
-    '''public MboSetRemote generateLocationSpec()
+    '''returns MboSetRemote\n\n
+    generateLocationSpec()\n
     '''
 def canApplyIAS():
-    '''public boolean canApplyIAS()
+    '''returns boolean\n\n
+    canApplyIAS()\n
     '''
 def applyIAS():
-    '''public Object[] applyIAS(final boolean autokey)
+    '''returns Object[]\n\n
+    applyIAS(final boolean autokey)\n
     '''
 def applyIASAutoNumAll():
-    '''public void applyIASAutoNumAll()
+    '''returns None\n\n
+    applyIASAutoNumAll()\n
     '''
 def applyIASCreateChild():
-    '''public MboRemote applyIASCreateChild(final MboRemote itemStruct, final boolean autokey)
+    '''returns MboRemote\n\n
+    applyIASCreateChild(final MboRemote itemStruct, final boolean autokey)\n
     '''
 def applyIASGenPMs():
-    '''public MboSetRemote applyIASGenPMs(final boolean autokey)
+    '''returns MboSetRemote\n\n
+    applyIASGenPMs(final boolean autokey)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String changeToStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String changeToStatus, final long accessModifier)\n
     '''
 def setInitNonInteractiveStatChange():
-    '''public void setInitNonInteractiveStatChange(final boolean value)
+    '''returns None\n\n
+    setInitNonInteractiveStatChange(final boolean value)\n
     '''
 def getInitNonInteractiveStatChange():
-    '''public boolean getInitNonInteractiveStatChange()
+    '''returns boolean\n\n
+    getInitNonInteractiveStatChange()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)
-    public void changeStatus(final String changedStatus, final Date asOfDate, final String memo, boolean rolltoallchildren, final boolean removefromallroutes, boolean rolltoallassets, final boolean removefromalljp, final boolean removefromactivesp, final boolean changepmstatus)
+    '''returns None\n\n
+    changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)\n
+    changeStatus(final String changedStatus, final Date asOfDate, final String memo, boolean rolltoallchildren, final boolean removefromallroutes, boolean rolltoallassets, final boolean removefromalljp, final boolean removefromactivesp, final boolean changepmstatus)\n
     '''
 def trackStatusChangedAssetInLocations():
-    '''public void trackStatusChangedAssetInLocations(final long assetuid)
+    '''returns None\n\n
+    trackStatusChangedAssetInLocations(final long assetuid)\n
     '''
 def hasAssetStatusChangedAlready():
-    '''public boolean hasAssetStatusChangedAlready(final long assetuid)
+    '''returns boolean\n\n
+    hasAssetStatusChangedAlready(final long assetuid)\n
     '''
 def isReferencedByOpenWO():
-    '''public boolean isReferencedByOpenWO()
+    '''returns boolean\n\n
+    isReferencedByOpenWO()\n
     '''
 def isReferencedByPM():
-    '''public boolean isReferencedByPM()
+    '''returns boolean\n\n
+    isReferencedByPM()\n
     '''
 def isReferencedByActiveRoutes():
-    '''public boolean isReferencedByActiveRoutes()
+    '''returns boolean\n\n
+    isReferencedByActiveRoutes()\n
     '''
 def isReferencedByActiveSP():
-    '''public boolean isReferencedByActiveSP()
+    '''returns boolean\n\n
+    isReferencedByActiveSP()\n
     '''
 def isReferencedByJobPlans():
-    '''public boolean isReferencedByJobPlans()
+    '''returns boolean\n\n
+    isReferencedByJobPlans()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def copyInvReserveSetForIssues():
-    '''public void copyInvReserveSetForIssues(final MboSetRemote invReserveSet)
+    '''returns None\n\n
+    copyInvReserveSetForIssues(final MboSetRemote invReserveSet)\n
     '''
 def copyInvReserveSetForTransferOut():
-    '''public void copyInvReserveSetForTransferOut(final MboSetRemote invReserveSet)
+    '''returns None\n\n
+    copyInvReserveSetForTransferOut(final MboSetRemote invReserveSet)\n
     '''
 def copyInvReserveSetForTransferIn():
-    '''public void copyInvReserveSetForTransferIn(final MboSetRemote invReserveSet)
+    '''returns None\n\n
+    copyInvReserveSetForTransferIn(final MboSetRemote invReserveSet)\n
     '''
 def copyMatUseTransSetForReturn():
-    '''public void copyMatUseTransSetForReturn(final MboSetRemote matUseSet)
+    '''returns None\n\n
+    copyMatUseTransSetForReturn(final MboSetRemote matUseSet)\n
     '''
 def receiveRotableAssetOnMoveFromNonInventoryWithPOLine():
-    '''public MboRemote receiveRotableAssetOnMoveFromNonInventoryWithPOLine(final MboRemote asset, final String glCredit, final String glDebit, final MboRemote mrtMbo)
+    '''returns MboRemote\n\n
+    receiveRotableAssetOnMoveFromNonInventoryWithPOLine(final MboRemote asset, final String glCredit, final String glDebit, final MboRemote mrtMbo)\n
     '''
 def receiveRotableAssetOnMoveFromNonInventory():
-    '''public MboRemote receiveRotableAssetOnMoveFromNonInventory(final MboRemote asset, final String glCredit, final String glDebit)
+    '''returns MboRemote\n\n
+    receiveRotableAssetOnMoveFromNonInventory(final MboRemote asset, final String glCredit, final String glDebit)\n
     '''
 def copySparePartSetForIssues():
-    '''public void copySparePartSetForIssues(final MboSetRemote sparePartSet)
+    '''returns None\n\n
+    copySparePartSetForIssues(final MboSetRemote sparePartSet)\n
     '''
 def copySparePartSetForTransferOut():
-    '''public void copySparePartSetForTransferOut(final MboSetRemote sparePartSet)
+    '''returns None\n\n
+    copySparePartSetForTransferOut(final MboSetRemote sparePartSet)\n
     '''
 def copySparePartSetForTransferIn():
-    '''public void copySparePartSetForTransferIn(final MboSetRemote sparePartSet)
+    '''returns None\n\n
+    copySparePartSetForTransferIn(final MboSetRemote sparePartSet)\n
     '''
 def copyInvBalancesSetForTransferOut():
-    '''public void copyInvBalancesSetForTransferOut(final MboSetRemote invBalancesSet)
+    '''returns None\n\n
+    copyInvBalancesSetForTransferOut(final MboSetRemote invBalancesSet)\n
     '''
 def copyInvBalancesSetForTransferIn():
-    '''public void copyInvBalancesSetForTransferIn(final MboSetRemote invBalancesSet)
+    '''returns None\n\n
+    copyInvBalancesSetForTransferIn(final MboSetRemote invBalancesSet)\n
     '''
 def copyPOLineSetForTransferOut():
-    '''public void copyPOLineSetForTransferOut(final MboSetRemote poLineSet)
+    '''returns None\n\n
+    copyPOLineSetForTransferOut(final MboSetRemote poLineSet)\n
     '''
 def warningsCopyPOLineSetForTransferOut():
-    '''public void warningsCopyPOLineSetForTransferOut()
+    '''returns None\n\n
+    warningsCopyPOLineSetForTransferOut()\n
     '''
 def copyPOLineSetForTransferIn():
-    '''public void copyPOLineSetForTransferIn(final MboSetRemote poLineSet)
+    '''returns None\n\n
+    copyPOLineSetForTransferIn(final MboSetRemote poLineSet)\n
     '''
 def copyMatRecTransSetForTransferIn():
-    '''public void copyMatRecTransSetForTransferIn(final MboSetRemote matRecTransSet)
+    '''returns None\n\n
+    copyMatRecTransSetForTransferIn(final MboSetRemote matRecTransSet)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def warningsCopyPOLineSetForTransferIn():
-    '''public void warningsCopyPOLineSetForTransferIn()
+    '''returns None\n\n
+    warningsCopyPOLineSetForTransferIn()\n
     '''
 def warningsCopyMatRecTransSetForTransferIn():
-    '''public void warningsCopyMatRecTransSetForTransferIn()
+    '''returns None\n\n
+    warningsCopyMatRecTransSetForTransferIn()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def selectPOItemsOut():
-    '''public MboSetRemote selectPOItemsOut()
+    '''returns MboSetRemote\n\n
+    selectPOItemsOut()\n
     '''
 def selectReservedItemsOut():
-    '''public MboSetRemote selectReservedItemsOut()
+    '''returns MboSetRemote\n\n
+    selectReservedItemsOut()\n
     '''
 def selectItemsForTransferOut():
-    '''public MboSetRemote selectItemsForTransferOut()
+    '''returns MboSetRemote\n\n
+    selectItemsForTransferOut()\n
     '''
 def selectPOItemsIn():
-    '''public MboSetRemote selectPOItemsIn()
+    '''returns MboSetRemote\n\n
+    selectPOItemsIn()\n
     '''
 def selectMatRecTransIn():
-    '''public MboSetRemote selectMatRecTransIn()
+    '''returns MboSetRemote\n\n
+    selectMatRecTransIn()\n
     '''
 def selectReservedItemsIn():
-    '''public MboSetRemote selectReservedItemsIn()
+    '''returns MboSetRemote\n\n
+    selectReservedItemsIn()\n
     '''
 def selectItemsForTransferIn():
-    '''public MboSetRemote selectItemsForTransferIn()
+    '''returns MboSetRemote\n\n
+    selectItemsForTransferIn()\n
     '''
 def selectItemsForReturn():
-    '''public MboSetRemote selectItemsForReturn()
+    '''returns MboSetRemote\n\n
+    selectItemsForReturn()\n
     '''
 def selectReservedItems():
-    '''public MboSetRemote selectReservedItems()
+    '''returns MboSetRemote\n\n
+    selectReservedItems()\n
     '''
 def canAssociateSystem():
-    '''public boolean canAssociateSystem()
+    '''returns boolean\n\n
+    canAssociateSystem()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def setLocationAttributesForWO():
-    '''public void setLocationAttributesForWO()
-    public void setLocationAttributesForWO(final AutoAttrUpdateSetRemote autoAttrUpdateSet)
+    '''returns None\n\n
+    setLocationAttributesForWO()\n
+    setLocationAttributesForWO(final AutoAttrUpdateSetRemote autoAttrUpdateSet)\n
     '''
 def getWarrantyInfo():
-    '''public List getWarrantyInfo(final Date woDate, final boolean isParent)
-    public List getWarrantyInfo(final Date woDate, final boolean isParent, final String type)
+    '''returns List\n\n
+    getWarrantyInfo(final Date woDate, final boolean isParent)\n
+    getWarrantyInfo(final Date woDate, final boolean isParent, final String type)\n
     '''
 def hasMeters():
-    '''public void hasMeters()
+    '''returns None\n\n
+    hasMeters()\n
     '''
 def hasReadings():
-    '''public void hasReadings()
+    '''returns None\n\n
+    hasReadings()\n
     '''
 def getAssetForLocation():
-    '''public String getAssetForLocation()
+    '''returns String\n\n
+    getAssetForLocation()\n
     '''
 def getLeaseContractForLocation():
-    '''public MboSetRemote getLeaseContractForLocation()
+    '''returns MboSetRemote\n\n
+    getLeaseContractForLocation()\n
     '''
 def getWarranty():
-    '''public MboSetRemote getWarranty()
+    '''returns MboSetRemote\n\n
+    getWarranty()\n
     '''
 def getWarrantyContractForLocation():
-    '''public MboSetRemote getWarrantyContractForLocation()
+    '''returns MboSetRemote\n\n
+    getWarrantyContractForLocation()\n
     '''
 def autoWogen():
-    '''public void autoWogen()
-    public void autoWogen(final MboRemote locationMeter)
+    '''returns None\n\n
+    autoWogen()\n
+    autoWogen(final MboRemote locationMeter)\n
     '''
 def createTicket():
-    '''public void createTicket(final MboRemote tkMbo)
+    '''returns None\n\n
+    createTicket(final MboRemote tkMbo)\n
     '''
 def createWO():
-    '''public void createWO(final MboRemote workorderMbo)
+    '''returns None\n\n
+    createWO(final MboRemote workorderMbo)\n
     '''
 def copyLocationToCollectDetailsSet():
-    '''public void copyLocationToCollectDetailsSet(final MboSetRemote collectionSet)
+    '''returns None\n\n
+    copyLocationToCollectDetailsSet(final MboSetRemote collectionSet)\n
     '''
 def addLocationsToCollectDetails():
-    '''public void addLocationsToCollectDetails(final String collectionNum)
+    '''returns None\n\n
+    addLocationsToCollectDetails(final String collectionNum)\n
     '''
 def createWorkorder():
-    '''public MboRemote createWorkorder(final String jpnum)
+    '''returns MboRemote\n\n
+    createWorkorder(final String jpnum)\n
     '''
 def createChange():
-    '''public MboRemote createChange(final String jpnum)
+    '''returns MboRemote\n\n
+    createChange(final String jpnum)\n
     '''
 def createRelease():
-    '''public MboRemote createRelease(final String jpnum)
+    '''returns MboRemote\n\n
+    createRelease(final String jpnum)\n
     '''
 def createServiceRequest():
-    '''public MboRemote createServiceRequest(final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createServiceRequest(final String tickettemplateid)\n
     '''
 def createProblem():
-    '''public MboRemote createProblem(final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createProblem(final String tickettemplateid)\n
     '''
 def createIncident():
-    '''public MboRemote createIncident(final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createIncident(final String tickettemplateid)\n
     '''
 def validateOrderQty():
-    '''public void validateOrderQty()
+    '''returns None\n\n
+    validateOrderQty()\n
     '''
 def queryDataSheets():
-    '''public void queryDataSheets(final PlusCWODSSetRemote woDsSet, final boolean loopCalibrations, final Date fromDate, final Date toDate)
+    '''returns None\n\n
+    queryDataSheets(final PlusCWODSSetRemote woDsSet, final boolean loopCalibrations, final Date fromDate, final Date toDate)\n
     '''
 def canBeUsedAsTagId():
-    '''public boolean canBeUsedAsTagId()
+    '''returns boolean\n\n
+    canBeUsedAsTagId()\n
     '''
 def getAssociatedAsset():
-    '''public AssetRemote getAssociatedAsset()
+    '''returns AssetRemote\n\n
+    getAssociatedAsset()\n
     '''
 def getAddressSystemForLocationMbo():
-    '''public MboRemote getAddressSystemForLocationMbo()
+    '''returns MboRemote\n\n
+    getAddressSystemForLocationMbo()\n
     '''
 def getAncestorSABasedOnAddressSystem():
-    '''public MboRemote getAncestorSABasedOnAddressSystem(final MboRemote child)
+    '''returns MboRemote\n\n
+    getAncestorSABasedOnAddressSystem(final MboRemote child)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def getServiceAddress():
-    '''public ServiceAddressRemote getServiceAddress()
+    '''returns ServiceAddressRemote\n\n
+    getServiceAddress()\n
     '''
 def hasServiceAddress():
-    '''public boolean hasServiceAddress()
+    '''returns boolean\n\n
+    hasServiceAddress()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def addMoreLocationsToSet():
-    '''public void addMoreLocationsToSet(final MboSetRemote selectedMoreMboSet, final MboSetRemote selectedMboSet)
+    '''returns None\n\n
+    addMoreLocationsToSet(final MboSetRemote selectedMoreMboSet, final MboSetRemote selectedMboSet)\n
     '''
 def getAutoLocateObject():
-    '''public MboRemote getAutoLocateObject(final AutoLocatable nextInChain)
-    public MboRemote getAutoLocateObject()
+    '''returns MboRemote\n\n
+    getAutoLocateObject(final AutoLocatable nextInChain)\n
+    getAutoLocateObject()\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''
 def getTopParentInSystem():
-    '''public MboRemote getTopParentInSystem(final String SystemId)
+    '''returns MboRemote\n\n
+    getTopParentInSystem(final String SystemId)\n
     '''
 def managePMMeterTallyOnMeterDeleteUndelete():
-    '''public void managePMMeterTallyOnMeterDeleteUndelete(final MboRemote pmMeter, final String action)
+    '''returns None\n\n
+    managePMMeterTallyOnMeterDeleteUndelete(final MboRemote pmMeter, final String action)\n
     '''
 def getPMMeterTally():
-    '''public int getPMMeterTally(final MboRemote pmMeter)
+    '''returns int\n\n
+    getPMMeterTally(final MboRemote pmMeter)\n
     '''
 def getChildrenInSystem():
-    '''public MboSetRemote getChildrenInSystem()
+    '''returns MboSetRemote\n\n
+    getChildrenInSystem()\n
     '''

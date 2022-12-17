@@ -1,3 +1,4 @@
-def CIRelationSet():
-    '''public CIRelationSet(final MboServerInterface ms)
+def ():
+    '''returns CIRelationSet\n\n
+    (final MboServerInterface ms)\n
     '''

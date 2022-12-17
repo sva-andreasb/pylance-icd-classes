@@ -1,39 +1,52 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def showMsgDisplayAsMessageBox():
-    '''public int showMsgDisplayAsMessageBox()
+    '''returns int\n\n
+    showMsgDisplayAsMessageBox()\n
     '''
 def showMsgDisplayAsStatus():
-    '''public int showMsgDisplayAsStatus()
+    '''returns int\n\n
+    showMsgDisplayAsStatus()\n
     '''
 def showMsgGroupKey():
-    '''public int showMsgGroupKey()
+    '''returns int\n\n
+    showMsgGroupKey()\n
     '''
 def showMsgException():
-    '''public int showMsgException()
+    '''returns int\n\n
+    showMsgException()\n
     '''
 def showMsgMessageString():
-    '''public int showMsgMessageString()
+    '''returns int\n\n
+    showMsgMessageString()\n
     '''
 def showMsgTwoForOne():
-    '''public int showMsgTwoForOne()
+    '''returns int\n\n
+    showMsgTwoForOne()\n
     '''
 def showMsgButtonOk():
-    '''public int showMsgButtonOk()
+    '''returns int\n\n
+    showMsgButtonOk()\n
     '''
 def showMsgButtonClose():
-    '''public int showMsgButtonClose()
+    '''returns int\n\n
+    showMsgButtonClose()\n
     '''
 def showMsgButtonOkCancel():
-    '''public int showMsgButtonOkCancel()
+    '''returns int\n\n
+    showMsgButtonOkCancel()\n
     '''
 def showMsgButtonYesNo():
-    '''public int showMsgButtonYesNo()
+    '''returns int\n\n
+    showMsgButtonYesNo()\n
     '''
 def showMsgButtonYesNoCancel():
-    '''public int showMsgButtonYesNoCancel()
+    '''returns int\n\n
+    showMsgButtonYesNoCancel()\n
     '''
 def forceSave():
-    '''public int forceSave()
+    '''returns int\n\n
+    forceSave()\n
     '''

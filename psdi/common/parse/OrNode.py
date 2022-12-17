@@ -1,6 +1,8 @@
-def OrNode():
-    '''public OrNode(final Vector orList)
+def ():
+    '''returns OrNode\n\n
+    (final Vector orList)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final MboRemote mbo)\n
     '''

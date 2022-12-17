@@ -1,68 +1,85 @@
-def StatefulMbo():
-    '''public StatefulMbo(final MboSet ms)
+def ():
+    '''returns StatefulMbo\n\n
+    (final MboSet ms)\n
     '''
 def getInternalStatus():
-    '''public String getInternalStatus()
+    '''returns String\n\n
+    getInternalStatus()\n
     '''
 def changeMaxStatus():
-    '''public void changeMaxStatus(final String internalStatus, final Date date, final String memo, final long accessModifier)
-    public void changeMaxStatus(final String internalStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeMaxStatus(final String internalStatus, final Date date, final String memo, final long accessModifier)\n
+    changeMaxStatus(final String internalStatus, final Date date, final String memo)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo)
-    public void changeStatus(final String status, Date asOfDate, String memo, final long accessModifier)
-    public void changeStatus(final String status, final String progressStatus, Date asOfDate, String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo)\n
+    changeStatus(final String status, Date asOfDate, String memo, final long accessModifier)\n
+    changeStatus(final String status, final String progressStatus, Date asOfDate, String memo, final long accessModifier)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String changeToStatus, final String progressStatus, final long accessModifier)
-    public void canChangeStatus(final String status)
-    public void canChangeStatus(final String changeToStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String changeToStatus, final String progressStatus, final long accessModifier)\n
+    canChangeStatus(final String status)\n
+    canChangeStatus(final String changeToStatus, final long accessModifier)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String changeToStatus, final boolean single)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String changeToStatus, final boolean single)\n
     '''
 def canChangeMaxStatus():
-    '''public void canChangeMaxStatus(final String internalStatus)
+    '''returns None\n\n
+    canChangeMaxStatus(final String internalStatus)\n
     '''
 def getStatusList():
-    '''public MboSetRemote getStatusList()
+    '''returns MboSetRemote\n\n
+    getStatusList()\n
     '''
 def getValidStatusList():
-    '''public MboSetRemote getValidStatusList()
+    '''returns MboSetRemote\n\n
+    getValidStatusList()\n
     '''
 def filterByValidStatusList():
-    '''public void filterByValidStatusList(final boolean onlyCanBeChanged, final MboSetRemote values)
-    '''
-def fireEvent():
-    '''public synchronized void fireEvent(final String type)
+    '''returns None\n\n
+    filterByValidStatusList(final boolean onlyCanBeChanged, final MboSetRemote values)\n
     '''
 def checkForOpenStatus():
-    '''public void checkForOpenStatus()
+    '''returns None\n\n
+    checkForOpenStatus()\n
     '''
 def getOverridePVStatusException():
-    '''public boolean getOverridePVStatusException()
+    '''returns boolean\n\n
+    getOverridePVStatusException()\n
     '''
 def setOverridePVStatusException():
-    '''public void setOverridePVStatusException(final boolean overridePVStatusException)
+    '''returns None\n\n
+    setOverridePVStatusException(final boolean overridePVStatusException)\n
     '''
 def canDeleteAttachedDocs():
-    '''public void canDeleteAttachedDocs()
+    '''returns None\n\n
+    canDeleteAttachedDocs()\n
     '''
 def setTargetStatusOption():
-    '''public void setTargetStatusOption(final String targetStatusOption)
+    '''returns None\n\n
+    setTargetStatusOption(final String targetStatusOption)\n
     '''
 def getTargetStatusOption():
-    '''public String getTargetStatusOption()
+    '''returns String\n\n
+    getTargetStatusOption()\n
     '''
 def setOnListTab():
-    '''public void setOnListTab(final boolean onListTab)
+    '''returns None\n\n
+    setOnListTab(final boolean onListTab)\n
     '''
 def getOnListTab():
-    '''public boolean getOnListTab()
+    '''returns boolean\n\n
+    getOnListTab()\n
     '''
 def setStatusChangeButtonSigoption():
-    '''public void setStatusChangeButtonSigoption(final String statusChangeButtonSigoption)
+    '''returns None\n\n
+    setStatusChangeButtonSigoption(final String statusChangeButtonSigoption)\n
     '''
 def getStatusChangeButtonSigoption():
-    '''public String getStatusChangeButtonSigoption()
+    '''returns String\n\n
+    getStatusChangeButtonSigoption()\n
     '''

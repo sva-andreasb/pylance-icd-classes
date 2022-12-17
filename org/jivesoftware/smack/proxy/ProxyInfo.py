@@ -1,36 +1,28 @@
-def ProxyInfo():
-    '''public ProxyInfo(final ProxyType pType, final String pHost, final int pPort, final String pUser, final String pPass)
-    '''
-def forHttpProxy():
-    '''public static ProxyInfo forHttpProxy(final String pHost, final int pPort, final String pUser, final String pPass)
-    '''
-def forSocks4Proxy():
-    '''public static ProxyInfo forSocks4Proxy(final String pHost, final int pPort, final String pUser, final String pPass)
-    '''
-def forSocks5Proxy():
-    '''public static ProxyInfo forSocks5Proxy(final String pHost, final int pPort, final String pUser, final String pPass)
-    '''
-def forNoProxy():
-    '''public static ProxyInfo forNoProxy()
-    '''
-def forDefaultProxy():
-    '''public static ProxyInfo forDefaultProxy()
+def ():
+    '''returns ProxyInfo\n\n
+    (final ProxyType pType, final String pHost, final int pPort, final String pUser, final String pPass)\n
     '''
 def getProxyType():
-    '''public ProxyType getProxyType()
+    '''returns ProxyType\n\n
+    getProxyType()\n
     '''
 def getProxyAddress():
-    '''public String getProxyAddress()
+    '''returns String\n\n
+    getProxyAddress()\n
     '''
 def getProxyPort():
-    '''public int getProxyPort()
+    '''returns int\n\n
+    getProxyPort()\n
     '''
 def getProxyUsername():
-    '''public String getProxyUsername()
+    '''returns String\n\n
+    getProxyUsername()\n
     '''
 def getProxyPassword():
-    '''public String getProxyPassword()
+    '''returns String\n\n
+    getProxyPassword()\n
     '''
 def getSocketFactory():
-    '''public SocketFactory getSocketFactory()
+    '''returns SocketFactory\n\n
+    getSocketFactory()\n
     '''

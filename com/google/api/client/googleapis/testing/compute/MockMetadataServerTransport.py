@@ -1,13 +1,17 @@
-def MockMetadataServerTransport():
-    '''public MockMetadataServerTransport(final String accessToken)
+def ():
+    '''returns MockMetadataServerTransport\n\n
+    (final String accessToken)\n
     '''
 def setTokenRequestStatusCode():
-    '''public void setTokenRequestStatusCode(final Integer tokenRequestStatusCode)
+    '''returns None\n\n
+    setTokenRequestStatusCode(final Integer tokenRequestStatusCode)\n
     '''
 def buildRequest():
-    '''public LowLevelHttpRequest buildRequest(final String method, final String url)
+    '''returns LowLevelHttpRequest\n\n
+    buildRequest(final String method, final String url)\n
     '''
 def execute():
-    '''public LowLevelHttpResponse execute()
-    public LowLevelHttpResponse execute()
+    '''returns LowLevelHttpResponse\n\n
+    execute()\n
+    execute()\n
     '''

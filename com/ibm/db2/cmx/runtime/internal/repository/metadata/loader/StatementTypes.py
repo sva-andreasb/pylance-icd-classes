@@ -1,0 +1,7 @@
+Select = "String  \"SELECT\""
+Insert = "String  \"INSERT\""
+Update = "String  \"UPDATE\""
+Delete = "String  \"DELETE\""
+Merge = "String  \"MERGE\""
+Call = "String  \"CALL\""
+Other = "String  \"OTHER\""

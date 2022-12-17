@@ -1,12 +1,16 @@
-def FldCommTmpltSendToValue():
-    '''public FldCommTmpltSendToValue(final MboValue mbv)
+def ():
+    '''returns FldCommTmpltSendToValue\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

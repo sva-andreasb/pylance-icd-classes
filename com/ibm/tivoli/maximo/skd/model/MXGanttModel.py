@@ -1,355 +1,424 @@
-def MXGanttModel():
-    '''public MXGanttModel()
-    '''
-def getUserData():
-    '''public <T> T getUserData(final String key)
+def ():
+    '''returns MXGanttModel\n\n
+    ()\n
     '''
 def setUserData():
-    '''public void setUserData(final String key, final Object data)
+    '''returns None\n\n
+    setUserData(final String key, final Object data)\n
     '''
 def getGanttConfigInfo():
-    '''public IGanttConfigInfo getGanttConfigInfo()
+    '''returns IGanttConfigInfo\n\n
+    getGanttConfigInfo()\n
     '''
 def setGanttConfigInfo():
-    '''public void setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)
+    '''returns None\n\n
+    setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)\n
     '''
 def setWorkHourList():
-    '''public void setWorkHourList(final HashMap<String, SKDCalendarInfo> skdCals)
+    '''returns None\n\n
+    setWorkHourList(final HashMap<String, SKDCalendarInfo> skdCals)\n
     '''
 def setSkdActionInfo():
-    '''public void setSkdActionInfo(final HashMap<String, HashMap<String, SKDActionInfo>> info)
-    '''
-def getSkdActionInfo():
-    '''public HashMap<String, HashMap<String, SKDActionInfo>> getSkdActionInfo()
-    public HashMap<String, HashMap<String, SKDActionInfo>> getSkdActionInfo(final String useWith)
+    '''returns None\n\n
+    setSkdActionInfo(final HashMap<String, HashMap<String, SKDActionInfo>> info)\n
     '''
 def setSkdActionUidInfo():
-    '''public void setSkdActionUidInfo(final HashMap<Long, SKDActionInfo> info)
-    '''
-def getSkdActionUidInfo():
-    '''public HashMap<Long, SKDActionInfo> getSkdActionUidInfo()
-    '''
-def getWorkHourList():
-    '''public HashMap<String, SKDCalendarInfo> getWorkHourList()
+    '''returns None\n\n
+    setSkdActionUidInfo(final HashMap<Long, SKDActionInfo> info)\n
     '''
 def setProjectStartDate():
-    '''public void setProjectStartDate(final Date start)
+    '''returns None\n\n
+    setProjectStartDate(final Date start)\n
     '''
 def getProjectStartDate():
-    '''public Date getProjectStartDate()
+    '''returns Date\n\n
+    getProjectStartDate()\n
     '''
 def setMergedNonWorkPeriod():
-    '''public void setMergedNonWorkPeriod(final ArrayList<Date> mergedWorkPeriods)
+    '''returns None\n\n
+    setMergedNonWorkPeriod(final ArrayList<Date> mergedWorkPeriods)\n
     '''
 def getMergedNonWorkPeriod():
-    '''public ArrayList<Date> getMergedNonWorkPeriod()
+    '''returns ArrayList<Date>\n\n
+    getMergedNonWorkPeriod()\n
     '''
 def setMergedWorkPeriod():
-    '''public void setMergedWorkPeriod(final ArrayList<Date> mergedWorkPeriods)
+    '''returns None\n\n
+    setMergedWorkPeriod(final ArrayList<Date> mergedWorkPeriods)\n
     '''
 def getMergedWorkPeriods():
-    '''public ArrayList<Date> getMergedWorkPeriods()
+    '''returns ArrayList<Date>\n\n
+    getMergedWorkPeriods()\n
     '''
 def setSortedActivityChildren():
-    '''public void setSortedActivityChildren(final Map<IlvActivity, List<IlvActivity>> sortedActivityChildren)
-    '''
-def getSortedActivityChildren():
-    '''public Map<IlvActivity, List<IlvActivity>> getSortedActivityChildren()
+    '''returns None\n\n
+    setSortedActivityChildren(final Map<IlvActivity, List<IlvActivity>> sortedActivityChildren)\n
     '''
 def setSortedResourceChildren():
-    '''public void setSortedResourceChildren(final Map<IlvResource, List<IlvResource>> sortedResourceChildren)
-    '''
-def getSortedResourceChildren():
-    '''public Map<IlvResource, List<IlvResource>> getSortedResourceChildren()
+    '''returns None\n\n
+    setSortedResourceChildren(final Map<IlvResource, List<IlvResource>> sortedResourceChildren)\n
     '''
 def getParentActivityIndex():
-    '''public int getParentActivityIndex(final IlvActivity activity)
+    '''returns int\n\n
+    getParentActivityIndex(final IlvActivity activity)\n
     '''
 def getChildActivity():
-    '''public IlvActivity getChildActivity(final IlvActivity parent, final int index)
+    '''returns IlvActivity\n\n
+    getChildActivity(final IlvActivity parent, final int index)\n
     '''
 def getChildActivityIndex():
-    '''public int getChildActivityIndex(final IlvActivity parent, final IlvActivity child)
+    '''returns int\n\n
+    getChildActivityIndex(final IlvActivity parent, final IlvActivity child)\n
     '''
 def childActivityIterator():
-    '''public Iterator<IlvActivity> childActivityIterator(final IlvActivity parent)
+    '''returns Iterator<IlvActivity>\n\n
+    childActivityIterator(final IlvActivity parent)\n
     '''
 def getChildIndex():
-    '''public int getChildIndex(final IlvHierarchyNode parent, final IlvHierarchyNode child)
+    '''returns int\n\n
+    getChildIndex(final IlvHierarchyNode parent, final IlvHierarchyNode child)\n
     '''
 def getParentResourceIndex():
-    '''public int getParentResourceIndex(final IlvResource resource)
+    '''returns int\n\n
+    getParentResourceIndex(final IlvResource resource)\n
     '''
 def getChildResource():
-    '''public IlvResource getChildResource(final IlvResource parent, final int index)
+    '''returns IlvResource\n\n
+    getChildResource(final IlvResource parent, final int index)\n
     '''
 def getChildResourceIndex():
-    '''public int getChildResourceIndex(final IlvResource parent, final IlvResource child)
+    '''returns int\n\n
+    getChildResourceIndex(final IlvResource parent, final IlvResource child)\n
     '''
 def childResourceIterator():
-    '''public Iterator<IlvResource> childResourceIterator(final IlvResource parent)
+    '''returns Iterator<IlvResource>\n\n
+    childResourceIterator(final IlvResource parent)\n
     '''
 def setActivityApplinkList():
-    '''public void setActivityApplinkList(final String className, final HashMap<String, HashMap<String, String>> list)
-    '''
-def getActivityApplinkList():
-    '''public HashMap<String, HashMap<String, String>> getActivityApplinkList(final String className)
+    '''returns None\n\n
+    setActivityApplinkList(final String className, final HashMap<String, HashMap<String, String>> list)\n
     '''
 def setCalendarBreakPatternMap():
-    '''public void setCalendarBreakPatternMap(final HashMap<String, ArrayList> calendarBreakPattern)
+    '''returns None\n\n
+    setCalendarBreakPatternMap(final HashMap<String, ArrayList> calendarBreakPattern)\n
     '''
 def getCalendarBreakPatternMap():
-    '''public HashMap getCalendarBreakPatternMap()
+    '''returns HashMap\n\n
+    getCalendarBreakPatternMap()\n
     '''
 def setCalendarBreakPatternCount():
-    '''public void setCalendarBreakPatternCount(final HashMap<String, Integer> daysInShiftPattern)
+    '''returns None\n\n
+    setCalendarBreakPatternCount(final HashMap<String, Integer> daysInShiftPattern)\n
     '''
 def getCalendarBreakPatternCount():
-    '''public HashMap getCalendarBreakPatternCount()
+    '''returns HashMap\n\n
+    getCalendarBreakPatternCount()\n
     '''
 def getProjectEndDate():
-    '''public Date getProjectEndDate()
+    '''returns Date\n\n
+    getProjectEndDate()\n
     '''
 def setProjectEndDate():
-    '''public void setProjectEndDate(final Date endDate)
+    '''returns None\n\n
+    setProjectEndDate(final Date endDate)\n
     '''
 def isProjectReadOnly():
-    '''public boolean isProjectReadOnly()
+    '''returns boolean\n\n
+    isProjectReadOnly()\n
     '''
 def setProjectReadOnly():
-    '''public void setProjectReadOnly(final boolean projectReadOnly)
+    '''returns None\n\n
+    setProjectReadOnly(final boolean projectReadOnly)\n
     '''
 def setWorkPeriodPatternDaySeq():
-    '''public void setWorkPeriodPatternDaySeq(final TreeMap<Date, String> workPeriodPatternDaySeq)
-    '''
-def getWorkPeriodPatternDaySeq():
-    '''public TreeMap<Date, String> getWorkPeriodPatternDaySeq()
+    '''returns None\n\n
+    setWorkPeriodPatternDaySeq(final TreeMap<Date, String> workPeriodPatternDaySeq)\n
     '''
 def setAssetLocOverlapMap():
-    '''public void setAssetLocOverlapMap(final HashMap<String, ArrayList<SKDDateInterval>> assetLocOverlapCalMap)
-    '''
-def getAssetLocOverlapMap():
-    '''public HashMap<String, ArrayList<SKDDateInterval>> getAssetLocOverlapMap()
+    '''returns None\n\n
+    setAssetLocOverlapMap(final HashMap<String, ArrayList<SKDDateInterval>> assetLocOverlapCalMap)\n
     '''
 def setAssetLocNonWorkHourList():
-    '''public void setAssetLocNonWorkHourList(final HashMap<String, SKDCalendarInfo> skdAssetLocNonWorkHourCals)
-    '''
-def getAssetLocNonWorkHourList():
-    '''public HashMap<String, SKDCalendarInfo> getAssetLocNonWorkHourList()
+    '''returns None\n\n
+    setAssetLocNonWorkHourList(final HashMap<String, SKDCalendarInfo> skdAssetLocNonWorkHourCals)\n
     '''
 def setAssetLocWorkHourList():
-    '''public void setAssetLocWorkHourList(final HashMap<String, SKDCalendarInfo> skdAssetLocWorkHourCals)
-    '''
-def getAssetLocWorkHourList():
-    '''public HashMap<String, SKDCalendarInfo> getAssetLocWorkHourList()
+    '''returns None\n\n
+    setAssetLocWorkHourList(final HashMap<String, SKDCalendarInfo> skdAssetLocWorkHourCals)\n
     '''
 def setProjectType():
-    '''public void setProjectType(final String projectType)
+    '''returns None\n\n
+    setProjectType(final String projectType)\n
     '''
 def getProjectType():
-    '''public String getProjectType()
+    '''returns String\n\n
+    getProjectType()\n
     '''
 def setShowMaintOperFlag():
-    '''public void setShowMaintOperFlag(final boolean showMaintOper)
+    '''returns None\n\n
+    setShowMaintOperFlag(final boolean showMaintOper)\n
     '''
 def getShowMaintOperFlag():
-    '''public boolean getShowMaintOperFlag()
+    '''returns boolean\n\n
+    getShowMaintOperFlag()\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String projectId)
+    '''returns None\n\n
+    setProjectId(final String projectId)\n
     '''
 def getProjectName():
-    '''public String getProjectName()
+    '''returns String\n\n
+    getProjectName()\n
     '''
 def setProjectName():
-    '''public void setProjectName(final String projectName)
+    '''returns None\n\n
+    setProjectName(final String projectName)\n
     '''
 def getProjectDescription():
-    '''public String getProjectDescription()
+    '''returns String\n\n
+    getProjectDescription()\n
     '''
 def setProjectDescription():
-    '''public void setProjectDescription(final String projectDescription)
+    '''returns None\n\n
+    setProjectDescription(final String projectDescription)\n
     '''
 def getScenarioName():
-    '''public String getScenarioName()
+    '''returns String\n\n
+    getScenarioName()\n
     '''
 def getUseWith():
-    '''public String getUseWith()
+    '''returns String\n\n
+    getUseWith()\n
     '''
 def setScenarioName():
-    '''public void setScenarioName(final String scenarioName)
+    '''returns None\n\n
+    setScenarioName(final String scenarioName)\n
     '''
 def isDefaultScenario():
-    '''public boolean isDefaultScenario()
+    '''returns boolean\n\n
+    isDefaultScenario()\n
     '''
 def setDefaultScenario():
-    '''public void setDefaultScenario(final boolean isDefaultScenario)
+    '''returns None\n\n
+    setDefaultScenario(final boolean isDefaultScenario)\n
     '''
 def getLocalizedScenarioFieldTitle():
-    '''public String getLocalizedScenarioFieldTitle()
+    '''returns String\n\n
+    getLocalizedScenarioFieldTitle()\n
     '''
 def setLocalizedScenarioFieldTitle():
-    '''public void setLocalizedScenarioFieldTitle(final String localizedScenarioFieldTitle)
+    '''returns None\n\n
+    setLocalizedScenarioFieldTitle(final String localizedScenarioFieldTitle)\n
     '''
 def setUseWith():
-    '''public void setUseWith(final String useWith)
+    '''returns None\n\n
+    setUseWith(final String useWith)\n
     '''
 def getShifts():
-    '''public List<String> getShifts()
+    '''returns List<String>\n\n
+    getShifts()\n
     '''
 def getShiftWorkTime():
-    '''public SKDShiftWorkTime getShiftWorkTime(final String shift)
+    '''returns SKDShiftWorkTime\n\n
+    getShiftWorkTime(final String shift)\n
     '''
 def setAllowPastLoad():
-    '''public void setAllowPastLoad(final boolean allowPastLoad)
+    '''returns None\n\n
+    setAllowPastLoad(final boolean allowPastLoad)\n
     '''
 def setAlternateAvail():
-    '''public void setAlternateAvail(final boolean useAlternateAvail)
+    '''returns None\n\n
+    setAlternateAvail(final boolean useAlternateAvail)\n
     '''
 def setResourceDisplay():
-    '''public void setResourceDisplay(final String resourceDisplay)
+    '''returns None\n\n
+    setResourceDisplay(final String resourceDisplay)\n
     '''
 def setWeekday():
-    '''public void setWeekday(final String weekday)
+    '''returns None\n\n
+    setWeekday(final String weekday)\n
     '''
 def setProperties():
-    '''public void setProperties(final Properties viewerProperties)
+    '''returns None\n\n
+    setProperties(final Properties viewerProperties)\n
     '''
 def getProperties():
-    '''public Properties getProperties()
+    '''returns Properties\n\n
+    getProperties()\n
     '''
 def setUserTimezone():
-    '''public void setUserTimezone(final TimeZone timeZone)
+    '''returns None\n\n
+    setUserTimezone(final TimeZone timeZone)\n
     '''
 def setUserLocale():
-    '''public void setUserLocale(final Locale locale)
+    '''returns None\n\n
+    setUserLocale(final Locale locale)\n
     '''
 def getUserLocale():
-    '''public Locale getUserLocale()
+    '''returns Locale\n\n
+    getUserLocale()\n
     '''
 def getUserTimezone():
-    '''public TimeZone getUserTimezone()
+    '''returns TimeZone\n\n
+    getUserTimezone()\n
     '''
 def getUserULocale():
-    '''public ULocale getUserULocale()
+    '''returns ULocale\n\n
+    getUserULocale()\n
     '''
 def getActualStartEnd():
-    '''public Range<Date> getActualStartEnd()
+    '''returns Range<Date>\n\n
+    getActualStartEnd()\n
     '''
 def getProjectStartEnd():
-    '''public Range<Date> getProjectStartEnd()
-    '''
-def getShiftCalendarInfo():
-    '''public HashMap<String, SKDCalendarInfo> getShiftCalendarInfo()
+    '''returns Range<Date>\n\n
+    getProjectStartEnd()\n
     '''
 def reservationIteratorForResource():
-    '''public Iterator<IMXReservation> reservationIteratorForResource(final IMXResource resource)
+    '''returns Iterator<IMXReservation>\n\n
+    reservationIteratorForResource(final IMXResource resource)\n
     '''
 def containsActivity():
-    '''public boolean containsActivity(final IMXActivity data)
+    '''returns boolean\n\n
+    containsActivity(final IMXActivity data)\n
     '''
 def getParentForActivity():
-    '''public IMXActivity getParentForActivity(final IMXActivity data)
+    '''returns IMXActivity\n\n
+    getParentForActivity(final IMXActivity data)\n
     '''
 def getPercentCompleteType():
-    '''public PercentCompleteType getPercentCompleteType()
+    '''returns PercentCompleteType\n\n
+    getPercentCompleteType()\n
     '''
 def setPercentCompleteType():
-    '''public void setPercentCompleteType(PercentCompleteType type)
+    '''returns None\n\n
+    setPercentCompleteType(PercentCompleteType type)\n
     '''
 def getLoadDateTime():
-    '''public Date getLoadDateTime()
+    '''returns Date\n\n
+    getLoadDateTime()\n
     '''
 def setLoadDateTime():
-    '''public void setLoadDateTime(final Date loadDateTime)
+    '''returns None\n\n
+    setLoadDateTime(final Date loadDateTime)\n
     '''
 def getCalendarStartEnd():
-    '''public DateRange getCalendarStartEnd()
+    '''returns DateRange\n\n
+    getCalendarStartEnd()\n
     '''
 def getCalculatedProjectMinMax():
-    '''public DateRange getCalculatedProjectMinMax()
+    '''returns DateRange\n\n
+    getCalculatedProjectMinMax()\n
     '''
 def getProjectPercentComplete():
-    '''public int getProjectPercentComplete(final PercentCompleteType pcType)
+    '''returns int\n\n
+    getProjectPercentComplete(final PercentCompleteType pcType)\n
     '''
 def setProjectPercentComplete():
-    '''public void setProjectPercentComplete(final PercentCompleteType pcType, final int val)
+    '''returns None\n\n
+    setProjectPercentComplete(final PercentCompleteType pcType, final int val)\n
     '''
 def getDisplayRowCount():
-    '''public int getDisplayRowCount()
+    '''returns int\n\n
+    getDisplayRowCount()\n
     '''
 def isPagingModel():
-    '''public boolean isPagingModel()
+    '''returns boolean\n\n
+    isPagingModel()\n
     '''
 def getPages():
-    '''public int getPages()
+    '''returns int\n\n
+    getPages()\n
     '''
 def getPageSize():
-    '''public int getPageSize()
+    '''returns int\n\n
+    getPageSize()\n
     '''
 def getActivityForId():
-    '''public IMXActivity getActivityForId(final String id)
+    '''returns IMXActivity\n\n
+    getActivityForId(final String id)\n
     '''
 def getResourceForId():
-    '''public IMXResource getResourceForId(final String id)
+    '''returns IMXResource\n\n
+    getResourceForId(final String id)\n
     '''
 def setComplianceEnabled():
-    '''public void setComplianceEnabled(final boolean val)
+    '''returns None\n\n
+    setComplianceEnabled(final boolean val)\n
     '''
 def isComplianceEnabled():
-    '''public boolean isComplianceEnabled()
+    '''returns boolean\n\n
+    isComplianceEnabled()\n
     '''
 def getProjectStartOffsetDays():
-    '''public int getProjectStartOffsetDays()
+    '''returns int\n\n
+    getProjectStartOffsetDays()\n
     '''
 def getProjectEndOffsetDays():
-    '''public int getProjectEndOffsetDays()
+    '''returns int\n\n
+    getProjectEndOffsetDays()\n
     '''
 def setProjectStartOffsetDays():
-    '''public void setProjectStartOffsetDays(final int projectStartOffsetDays)
+    '''returns None\n\n
+    setProjectStartOffsetDays(final int projectStartOffsetDays)\n
     '''
 def setProjectEndOffsetDays():
-    '''public void setProjectEndOffsetDays(final int projectEndOffsetDays)
+    '''returns None\n\n
+    setProjectEndOffsetDays(final int projectEndOffsetDays)\n
     '''
 def isAlternateAvailEnabled():
-    '''public boolean isAlternateAvailEnabled()
+    '''returns boolean\n\n
+    isAlternateAvailEnabled()\n
     '''
 def isAllowPastLoadEnabled():
-    '''public boolean isAllowPastLoadEnabled()
+    '''returns boolean\n\n
+    isAllowPastLoadEnabled()\n
     '''
 def getResourceDisplay():
-    '''public String getResourceDisplay()
+    '''returns String\n\n
+    getResourceDisplay()\n
     '''
 def getWeekDay():
-    '''public String getWeekDay()
+    '''returns String\n\n
+    getWeekDay()\n
     '''
 def iterateConstraintsFromActivity():
-    '''public Iterator<IMXConstraint> iterateConstraintsFromActivity(final IMXActivity activity)
+    '''returns Iterator<IMXConstraint>\n\n
+    iterateConstraintsFromActivity(final IMXActivity activity)\n
     '''
 def newConstraintFromActivity():
-    '''public void newConstraintFromActivity(final Object projectMbo, final IMXActivity fromActivity, final ResultSet resultSet)
+    '''returns None\n\n
+    newConstraintFromActivity(final Object projectMbo, final IMXActivity fromActivity, final ResultSet resultSet)\n
     '''
 def getChildNodeCount():
-    '''public int getChildNodeCount(final IMXActivity activity)
+    '''returns int\n\n
+    getChildNodeCount(final IMXActivity activity)\n
     '''
 def getChildNode():
-    '''public IMXActivity getChildNode(final IMXActivity activity, final int index)
+    '''returns IMXActivity\n\n
+    getChildNode(final IMXActivity activity, final int index)\n
     '''
 def getRootNode():
-    '''public IMXActivity getRootNode()
+    '''returns IMXActivity\n\n
+    getRootNode()\n
     '''
 def setRestrictWorkToDates():
-    '''public void setRestrictWorkToDates(final boolean isRestrictWorkToDates)
+    '''returns None\n\n
+    setRestrictWorkToDates(final boolean isRestrictWorkToDates)\n
     '''
 def isRestrictWorkToDates():
-    '''public boolean isRestrictWorkToDates()
+    '''returns boolean\n\n
+    isRestrictWorkToDates()\n
     '''
 def setEnabledRelatedAttributes():
-    '''public void setEnabledRelatedAttributes(final boolean isEnabledRelatedAttributes)
+    '''returns None\n\n
+    setEnabledRelatedAttributes(final boolean isEnabledRelatedAttributes)\n
     '''
 def isEnabledRelatedAttributes():
-    '''public boolean isEnabledRelatedAttributes()
+    '''returns boolean\n\n
+    isEnabledRelatedAttributes()\n
     '''

@@ -1,6 +1,8 @@
-def FeatureSpec():
-    '''public FeatureSpec(final MboSet ms)
+def ():
+    '''returns FeatureSpec\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

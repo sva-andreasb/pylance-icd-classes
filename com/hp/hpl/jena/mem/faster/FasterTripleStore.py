@@ -1,22 +1,29 @@
-def FasterTripleStore():
-    '''public FasterTripleStore(final Graph parent)
+def ():
+    '''returns FasterTripleStore\n\n
+    (final Graph parent)\n
     '''
 def getSubjects():
-    '''public NodeToTriplesMapFaster getSubjects()
+    '''returns NodeToTriplesMapFaster\n\n
+    getSubjects()\n
     '''
 def getPredicates():
-    '''public NodeToTriplesMapFaster getPredicates()
+    '''returns NodeToTriplesMapFaster\n\n
+    getPredicates()\n
     '''
 def getObjects():
-    '''public NodeToTriplesMapFaster getObjects()
+    '''returns NodeToTriplesMapFaster\n\n
+    getObjects()\n
     '''
 def createApplyer():
-    '''public Applyer createApplyer(final ProcessedTriple pt)
+    '''returns Applyer\n\n
+    createApplyer(final ProcessedTriple pt)\n
     '''
 def applyToTriples():
-    '''public void applyToTriples(final Domain d, final Matcher m, final StageElement next)
-    public void applyToTriples(final Domain d, final Matcher m, final StageElement next)
+    '''returns None\n\n
+    applyToTriples(final Domain d, final Matcher m, final StageElement next)\n
+    applyToTriples(final Domain d, final Matcher m, final StageElement next)\n
     '''
 def find():
-    '''public Iterator<Triple> find(final Domain d)
+    '''returns Iterator<Triple>\n\n
+    find(final Domain d)\n
     '''

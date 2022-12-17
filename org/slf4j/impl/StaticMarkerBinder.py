@@ -1,9 +1,8 @@
-def getSingleton():
-    '''public static StaticMarkerBinder getSingleton()
-    '''
 def getMarkerFactory():
-    '''public IMarkerFactory getMarkerFactory()
+    '''returns IMarkerFactory\n\n
+    getMarkerFactory()\n
     '''
 def getMarkerFactoryClassStr():
-    '''public String getMarkerFactoryClassStr()
+    '''returns String\n\n
+    getMarkerFactoryClassStr()\n
     '''

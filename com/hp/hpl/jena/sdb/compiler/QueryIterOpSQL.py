@@ -1,6 +1,8 @@
-def QueryIterOpSQL():
-    '''public QueryIterOpSQL(final OpSQL op, final QueryIterator input, final ExecutionContext context)
+def ():
+    '''returns QueryIterOpSQL\n\n
+    (final OpSQL op, final QueryIterator input, final ExecutionContext context)\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
     '''

@@ -1,4 +1,5 @@
-def AppletActionRequest():
-    '''public AppletActionRequest()
-    public AppletActionRequest(final long uid)
+def ():
+    '''returns AppletActionRequest\n\n
+    ()\n
+    (final long uid)\n
     '''

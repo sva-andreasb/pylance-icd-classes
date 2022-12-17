@@ -1,57 +1,76 @@
-def SchLeaseView():
-    '''public SchLeaseView(final MboSet ms)
+def ():
+    '''returns SchLeaseView\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def calculateEndDate():
-    '''public Date calculateEndDate(final Date inDate)
+    '''returns Date\n\n
+    calculateEndDate(final Date inDate)\n
     '''
 def createSchLineFromAsset():
-    '''public void createSchLineFromAsset(final MboSetRemote assetSet)
+    '''returns None\n\n
+    createSchLineFromAsset(final MboSetRemote assetSet)\n
     '''
 def canCreateInvoicesForSchedule():
-    '''public void canCreateInvoicesForSchedule()
+    '''returns None\n\n
+    canCreateInvoicesForSchedule()\n
     '''
 def createInvoicesForSchedule():
-    '''public void createInvoicesForSchedule(final MboSetRemote scheduleLineSet)
+    '''returns None\n\n
+    createInvoicesForSchedule(final MboSetRemote scheduleLineSet)\n
     '''
 def reCalcScheduleLineCost():
-    '''public double reCalcScheduleLineCost()
+    '''returns double\n\n
+    reCalcScheduleLineCost()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def reCalcInterimCharge():
-    '''public double reCalcInterimCharge()
+    '''returns double\n\n
+    reCalcInterimCharge()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''
 def checkRequiredFields():
-    '''public void checkRequiredFields()
+    '''returns None\n\n
+    checkRequiredFields()\n
     '''
 def canSelectAsset():
-    '''public void canSelectAsset()
+    '''returns None\n\n
+    canSelectAsset()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def canReviseSchedule():
-    '''public void canReviseSchedule()
+    '''returns None\n\n
+    canReviseSchedule()\n
     '''
 def reviseSchedule():
-    '''public MboRemote reviseSchedule()
+    '''returns MboRemote\n\n
+    reviseSchedule()\n
     '''
 def getInvoicesForSchedule():
-    '''public MboSetRemote getInvoicesForSchedule()
+    '''returns MboSetRemote\n\n
+    getInvoicesForSchedule()\n
     '''

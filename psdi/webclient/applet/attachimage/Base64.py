@@ -1,12 +1,8 @@
-def encode():
-    '''public static synchronized String encode(final byte[] b)
-    '''
-def decode():
-    '''public static synchronized byte[] decode(final String value)
-    '''
 def get():
-    '''public String get(final String key, final String def)
+    '''returns String\n\n
+    get(final String key, final String def)\n
     '''
 def put():
-    '''public void put(final String key, final String value)
+    '''returns None\n\n
+    put(final String key, final String value)\n
     '''

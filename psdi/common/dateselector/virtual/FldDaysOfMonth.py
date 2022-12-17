@@ -1,12 +1,16 @@
-def FldDaysOfMonth():
-    '''public FldDaysOfMonth(final MboValue mbv)
+def ():
+    '''returns FldDaysOfMonth\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,3 +1,4 @@
-def WFTaskSet():
-    '''public WFTaskSet(final MboServerInterface ms)
+def ():
+    '''returns WFTaskSet\n\n
+    (final MboServerInterface ms)\n
     '''

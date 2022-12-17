@@ -1,6 +1,8 @@
-def FldSKDProjectStartOffsetDays():
-    '''public FldSKDProjectStartOffsetDays(final MboValue mbv)
+def ():
+    '''returns FldSKDProjectStartOffsetDays\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

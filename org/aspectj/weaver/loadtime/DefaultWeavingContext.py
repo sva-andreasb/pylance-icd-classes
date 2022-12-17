@@ -1,30 +1,40 @@
-def DefaultWeavingContext():
-    '''public DefaultWeavingContext(final ClassLoader loader)
+def ():
+    '''returns DefaultWeavingContext\n\n
+    (final ClassLoader loader)\n
     '''
 def getResources():
-    '''public Enumeration getResources(final String name)
+    '''returns Enumeration\n\n
+    getResources(final String name)\n
     '''
 def getBundleIdFromURL():
-    '''public String getBundleIdFromURL(final URL url)
+    '''returns String\n\n
+    getBundleIdFromURL(final URL url)\n
     '''
 def getClassLoaderName():
-    '''public String getClassLoaderName()
+    '''returns String\n\n
+    getClassLoaderName()\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''
 def getFile():
-    '''public String getFile(final URL url)
+    '''returns String\n\n
+    getFile(final URL url)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getSuffix():
-    '''public String getSuffix()
+    '''returns String\n\n
+    getSuffix()\n
     '''
 def isLocallyDefined():
-    '''public boolean isLocallyDefined(final String classname)
+    '''returns boolean\n\n
+    isLocallyDefined(final String classname)\n
     '''
 def getDefinitions():
-    '''public List<Definition> getDefinitions(final ClassLoader loader, final WeavingAdaptor adaptor)
+    '''returns List<Definition>\n\n
+    getDefinitions(final ClassLoader loader, final WeavingAdaptor adaptor)\n
     '''

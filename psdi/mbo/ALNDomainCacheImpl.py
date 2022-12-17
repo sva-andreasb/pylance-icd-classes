@@ -1,19 +1,25 @@
-def ALNDomainCacheImpl():
-    '''public ALNDomainCacheImpl()
+def ():
+    '''returns ALNDomainCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDescForValue():
-    '''public String getDescForValue(final String domainid, final String value, final String orgid, final String siteid, final UserInfo userInfo)
+    '''returns String\n\n
+    getDescForValue(final String domainid, final String value, final String orgid, final String siteid, final UserInfo userInfo)\n
     '''
 def processAPIRequest():
-    '''public void processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)
+    '''returns None\n\n
+    processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)\n
     '''

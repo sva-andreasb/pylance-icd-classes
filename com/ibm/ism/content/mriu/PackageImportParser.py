@@ -1,12 +1,16 @@
-def PackageImportParser():
-    '''public PackageImportParser(final DefaultPackageResolver resolver, final URI pkgUri)
+def ():
+    '''returns PackageImportParser\n\n
+    (final DefaultPackageResolver resolver, final URI pkgUri)\n
     '''
 def getSchemaSource():
-    '''public String getSchemaSource()
+    '''returns String\n\n
+    getSchemaSource()\n
     '''
 def parse():
-    '''public void parse(final MRIUPackage mriuPackage, final Document document)
+    '''returns None\n\n
+    parse(final MRIUPackage mriuPackage, final Document document)\n
     '''
 def preloadReplacementQueries():
-    '''public void preloadReplacementQueries(final MRIUPackage mriuPackage, final MaximoResolver maximoResolver, final IProgressMonitor monitor)
+    '''returns None\n\n
+    preloadReplacementQueries(final MRIUPackage mriuPackage, final MaximoResolver maximoResolver, final IProgressMonitor monitor)\n
     '''

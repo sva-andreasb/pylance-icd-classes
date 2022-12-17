@@ -1,29 +1,38 @@
-def GzipStream():
-    '''public GzipStream(final HttpServletRequest request, final HttpServletResponse response, final long contentLength, final int bufferSize, final int minGzipSize)
+def ():
+    '''returns GzipStream\n\n
+    (final HttpServletRequest request, final HttpServletResponse response, final long contentLength, final int bufferSize, final int minGzipSize)\n
     '''
 def resetBuffer():
-    '''public void resetBuffer()
+    '''returns None\n\n
+    resetBuffer()\n
     '''
 def setContentLength():
-    '''public void setContentLength(final long length)
+    '''returns None\n\n
+    setContentLength(final long length)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b)
-    public void write(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b)\n
+    write(final byte[] b, final int off, final int len)\n
     '''
 def doGzip():
-    '''public void doGzip()
+    '''returns None\n\n
+    doGzip()\n
     '''
 def doNotGzip():
-    '''public void doNotGzip()
+    '''returns None\n\n
+    doNotGzip()\n
     '''

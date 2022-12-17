@@ -1,3 +1,4 @@
-def MatRecTransSet():
-    '''public MatRecTransSet(final MboServerInterface ms)
+def ():
+    '''returns MatRecTransSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,49 +1,65 @@
-def AuthState():
-    '''public AuthState()
+def ():
+    '''returns AuthState\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getState():
-    '''public AuthProtocolState getState()
+    '''returns AuthProtocolState\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final AuthProtocolState state)
+    '''returns None\n\n
+    setState(final AuthProtocolState state)\n
     '''
 def getAuthScheme():
-    '''public AuthScheme getAuthScheme()
+    '''returns AuthScheme\n\n
+    getAuthScheme()\n
     '''
 def getCredentials():
-    '''public Credentials getCredentials()
+    '''returns Credentials\n\n
+    getCredentials()\n
     '''
 def update():
-    '''public void update(final AuthScheme authScheme, final Credentials credentials)
-    public void update(final Queue<AuthOption> authOptions)
+    '''returns None\n\n
+    update(final AuthScheme authScheme, final Credentials credentials)\n
+    update(final Queue<AuthOption> authOptions)\n
     '''
 def getAuthOptions():
-    '''public Queue<AuthOption> getAuthOptions()
+    '''returns Queue<AuthOption>\n\n
+    getAuthOptions()\n
     '''
 def hasAuthOptions():
-    '''public boolean hasAuthOptions()
+    '''returns boolean\n\n
+    hasAuthOptions()\n
     '''
 def invalidate():
-    '''public void invalidate()
+    '''returns None\n\n
+    invalidate()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def setAuthScheme():
-    '''public void setAuthScheme(final AuthScheme authScheme)
+    '''returns None\n\n
+    setAuthScheme(final AuthScheme authScheme)\n
     '''
 def setCredentials():
-    '''public void setCredentials(final Credentials credentials)
+    '''returns None\n\n
+    setCredentials(final Credentials credentials)\n
     '''
 def getAuthScope():
-    '''public AuthScope getAuthScope()
+    '''returns AuthScope\n\n
+    getAuthScope()\n
     '''
 def setAuthScope():
-    '''public void setAuthScope(final AuthScope authScope)
+    '''returns None\n\n
+    setAuthScope(final AuthScope authScope)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

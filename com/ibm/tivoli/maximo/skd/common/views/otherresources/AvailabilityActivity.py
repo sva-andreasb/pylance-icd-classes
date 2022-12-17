@@ -1,19 +1,25 @@
-def AvailabilityActivity():
-    '''public AvailabilityActivity(final String id, final ActivityType type, final Date start, final Date end)
-    public AvailabilityActivity(final String id, final ActivityType type, final Date start, final Date end, final int itemStatus)
+def ():
+    '''returns AvailabilityActivity\n\n
+    (final String id, final ActivityType type, final Date start, final Date end)\n
+    (final String id, final ActivityType type, final Date start, final Date end, final int itemStatus)\n
     '''
 def getType():
-    '''public ActivityType getType()
+    '''returns ActivityType\n\n
+    getType()\n
     '''
 def getItemStatus():
-    '''public int getItemStatus()
+    '''returns int\n\n
+    getItemStatus()\n
     '''
 def setItemStatus():
-    '''public void setItemStatus(final int itemStatus)
+    '''returns None\n\n
+    setItemStatus(final int itemStatus)\n
     '''
 def getAvailability():
-    '''public T getAvailability()
+    '''returns T\n\n
+    getAvailability()\n
     '''
 def setAvailability():
-    '''public void setAvailability(final T availability)
+    '''returns None\n\n
+    setAvailability(final T availability)\n
     '''

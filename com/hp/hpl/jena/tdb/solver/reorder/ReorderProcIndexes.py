@@ -1,9 +1,12 @@
-def ReorderProcIndexes():
-    '''public ReorderProcIndexes(final int[] indexes)
+def ():
+    '''returns ReorderProcIndexes\n\n
+    (final int[] indexes)\n
     '''
 def reorder():
-    '''public BasicPattern reorder(final BasicPattern bgp)
+    '''returns BasicPattern\n\n
+    reorder(final BasicPattern bgp)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

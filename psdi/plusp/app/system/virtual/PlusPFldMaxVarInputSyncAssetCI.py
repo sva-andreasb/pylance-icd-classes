@@ -1,11 +1,14 @@
 SYNC_MAXVAR_NAME = "String  \"PLUSPSYNCASSETCI\""
 LINK_MAXVAR_NAME = "String  \"PLUSPLINKASSETCI\""
-def PlusPFldMaxVarInputSyncAssetCI():
-    '''public PlusPFldMaxVarInputSyncAssetCI(final MboValue mbv)
+def ():
+    '''returns PlusPFldMaxVarInputSyncAssetCI\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,9 +1,12 @@
-def AntiSamySAXScanner():
-    '''public AntiSamySAXScanner(final Policy policy)
+def ():
+    '''returns AntiSamySAXScanner\n\n
+    (final Policy policy)\n
     '''
 def getResults():
-    '''public CleanResults getResults()
+    '''returns CleanResults\n\n
+    getResults()\n
     '''
 def scan():
-    '''public CleanResults scan(final String html)
+    '''returns CleanResults\n\n
+    scan(final String html)\n
     '''

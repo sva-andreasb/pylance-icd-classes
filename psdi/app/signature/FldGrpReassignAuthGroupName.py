@@ -1,3 +1,4 @@
-def FldGrpReassignAuthGroupName():
-    '''public FldGrpReassignAuthGroupName(final MboValue mbv)
+def ():
+    '''returns FldGrpReassignAuthGroupName\n\n
+    (final MboValue mbv)\n
     '''

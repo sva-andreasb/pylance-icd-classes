@@ -1,9 +1,12 @@
-def ConstantMethodref():
-    '''public ConstantMethodref(final int class_index, final int name_and_type_index)
+def ():
+    '''returns ConstantMethodref\n\n
+    (final int class_index, final int name_and_type_index)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

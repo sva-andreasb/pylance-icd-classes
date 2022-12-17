@@ -1,33 +1,44 @@
-def ConfirmLabtrans():
-    '''public ConfirmLabtrans(final MboSet ms)
+def ():
+    '''returns ConfirmLabtrans\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setValuesForRegularHrs():
-    '''public void setValuesForRegularHrs()
+    '''returns None\n\n
+    setValuesForRegularHrs()\n
     '''
 def getDatesDiff():
-    '''public double getDatesDiff()
+    '''returns double\n\n
+    getDatesDiff()\n
     '''
 def getFinishDateTime():
-    '''public Date getFinishDateTime()
+    '''returns Date\n\n
+    getFinishDateTime()\n
     '''
 def getTotalHrsinMinutes():
-    '''public int getTotalHrsinMinutes()
+    '''returns int\n\n
+    getTotalHrsinMinutes()\n
     '''
 def setFinishDateTime():
-    '''public void setFinishDateTime()
+    '''returns None\n\n
+    setFinishDateTime()\n
     '''
 def checkDates():
-    '''public void checkDates()
+    '''returns None\n\n
+    checkDates()\n
     '''
 def validateDateTime():
-    '''public Date validateDateTime(final Date date, final Date time)
+    '''returns Date\n\n
+    validateDateTime(final Date date, final Date time)\n
     '''
 def validateDateTimeWithTimeZone():
-    '''public Date validateDateTimeWithTimeZone(final Date date, final Date time)
+    '''returns Date\n\n
+    validateDateTimeWithTimeZone(final Date date, final Date time)\n
     '''
 def getStartDateTime():
-    '''public Date getStartDateTime()
+    '''returns Date\n\n
+    getStartDateTime()\n
     '''

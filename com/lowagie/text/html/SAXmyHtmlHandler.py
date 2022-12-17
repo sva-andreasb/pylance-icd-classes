@@ -1,10 +1,13 @@
-def SAXmyHtmlHandler():
-    '''public SAXmyHtmlHandler(final DocListener document)
-    public SAXmyHtmlHandler(final DocListener document, final HashMap htmlTags)
+def ():
+    '''returns SAXmyHtmlHandler\n\n
+    (final DocListener document)\n
+    (final DocListener document, final HashMap htmlTags)\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String lname, final String name, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String uri, final String lname, final String name, final Attributes attrs)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String lname, final String name)
+    '''returns None\n\n
+    endElement(final String uri, final String lname, final String name)\n
     '''

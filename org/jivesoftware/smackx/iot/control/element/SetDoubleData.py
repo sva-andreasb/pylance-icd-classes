@@ -1,6 +1,8 @@
-def SetDoubleData():
-    '''public SetDoubleData(final String name, final double value)
+def ():
+    '''returns SetDoubleData\n\n
+    (final String name, final double value)\n
     '''
 def getDoubleValue():
-    '''public Double getDoubleValue()
+    '''returns Double\n\n
+    getDoubleValue()\n
     '''

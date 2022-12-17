@@ -1,9 +1,4 @@
-def AttributeQualifier():
-    '''public AttributeQualifier(final String name, final String[] array)
-    '''
-def getName():
-    '''public final String getName()
-    '''
-def getValues():
-    '''public final String[] getValues()
+def ():
+    '''returns AttributeQualifier\n\n
+    (final String name, final String[] array)\n
     '''

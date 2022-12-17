@@ -1,7 +1,9 @@
-def SCCONFIG():
-    '''public SCCONFIG()
+def ():
+    '''returns SCCONFIG\n\n
+    ()\n
     '''
 def process():
-    '''public void process(final Connection con, final Element objectElement)
-    public void process(final Connection con, final XMLObject objectElement)
+    '''returns None\n\n
+    process(final Connection con, final Element objectElement)\n
+    process(final Connection con, final XMLObject objectElement)\n
     '''

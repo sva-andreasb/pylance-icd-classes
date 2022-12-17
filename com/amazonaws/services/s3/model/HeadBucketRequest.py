@@ -1,9 +1,12 @@
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
-def HeadBucketRequest():
-    '''public HeadBucketRequest(final String bucketName)
+def ():
+    '''returns HeadBucketRequest\n\n
+    (final String bucketName)\n
     '''

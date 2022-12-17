@@ -1,9 +1,12 @@
-def FilterNodeVisitor():
-    '''public FilterNodeVisitor(final IFilter<IlvHierarchyNode> filter)
+def ():
+    '''returns FilterNodeVisitor\n\n
+    (final IFilter<IlvHierarchyNode> filter)\n
     '''
 def visit():
-    '''public void visit(final IlvHierarchyNode item, final IlvGanttModel model, final Void state)
+    '''returns None\n\n
+    visit(final IlvHierarchyNode item, final IlvGanttModel model, final Void state)\n
     '''
 def getNodes():
-    '''public List<IlvHierarchyNode> getNodes()
+    '''returns List<IlvHierarchyNode>\n\n
+    getNodes()\n
     '''

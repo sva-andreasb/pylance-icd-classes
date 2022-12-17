@@ -1,41 +1,54 @@
-def SubscribeForm():
-    '''public SubscribeForm(final DataForm configDataForm)
-    public SubscribeForm(final Form subscribeOptionsForm)
-    public SubscribeForm(final DataForm.Type formType)
+def ():
+    '''returns SubscribeForm\n\n
+    (final DataForm configDataForm)\n
+    (final Form subscribeOptionsForm)\n
+    (final DataForm.Type formType)\n
     '''
 def isDeliverOn():
-    '''public boolean isDeliverOn()
+    '''returns boolean\n\n
+    isDeliverOn()\n
     '''
 def setDeliverOn():
-    '''public void setDeliverOn(final boolean deliverNotifications)
+    '''returns None\n\n
+    setDeliverOn(final boolean deliverNotifications)\n
     '''
 def isDigestOn():
-    '''public boolean isDigestOn()
+    '''returns boolean\n\n
+    isDigestOn()\n
     '''
 def setDigestOn():
-    '''public void setDigestOn(final boolean digestOn)
+    '''returns None\n\n
+    setDigestOn(final boolean digestOn)\n
     '''
 def getDigestFrequency():
-    '''public int getDigestFrequency()
+    '''returns int\n\n
+    getDigestFrequency()\n
     '''
 def setDigestFrequency():
-    '''public void setDigestFrequency(final int frequency)
+    '''returns None\n\n
+    setDigestFrequency(final int frequency)\n
     '''
 def getExpiry():
-    '''public Date getExpiry()
+    '''returns Date\n\n
+    getExpiry()\n
     '''
 def setExpiry():
-    '''public void setExpiry(final Date expire)
+    '''returns None\n\n
+    setExpiry(final Date expire)\n
     '''
 def isIncludeBody():
-    '''public boolean isIncludeBody()
+    '''returns boolean\n\n
+    isIncludeBody()\n
     '''
 def setIncludeBody():
-    '''public void setIncludeBody(final boolean include)
+    '''returns None\n\n
+    setIncludeBody(final boolean include)\n
     '''
 def getShowValues():
-    '''public List<PresenceState> getShowValues()
+    '''returns List<PresenceState>\n\n
+    getShowValues()\n
     '''
 def setShowValues():
-    '''public void setShowValues(final Collection<PresenceState> stateValues)
+    '''returns None\n\n
+    setShowValues(final Collection<PresenceState> stateValues)\n
     '''

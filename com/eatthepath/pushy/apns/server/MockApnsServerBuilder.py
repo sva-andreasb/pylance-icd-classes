@@ -1,30 +1,39 @@
 def setServerCredentials():
-    '''public MockApnsServerBuilder setServerCredentials(final File certificatePemFile, final File privateKeyPkcs8File, final String privateKeyPassword)
-    public MockApnsServerBuilder setServerCredentials(final InputStream certificatePemInputStream, final InputStream privateKeyPkcs8InputStream, final String privateKeyPassword)
-    public MockApnsServerBuilder setServerCredentials(final X509Certificate[] certificates, final PrivateKey privateKey, final String privateKeyPassword)
+    '''returns MockApnsServerBuilder\n\n
+    setServerCredentials(final File certificatePemFile, final File privateKeyPkcs8File, final String privateKeyPassword)\n
+    setServerCredentials(final InputStream certificatePemInputStream, final InputStream privateKeyPkcs8InputStream, final String privateKeyPassword)\n
+    setServerCredentials(final X509Certificate[] certificates, final PrivateKey privateKey, final String privateKeyPassword)\n
     '''
 def setTrustedClientCertificateChain():
-    '''public MockApnsServerBuilder setTrustedClientCertificateChain(final File certificatePemFile)
-    public MockApnsServerBuilder setTrustedClientCertificateChain(final InputStream certificateInputStream)
+    '''returns MockApnsServerBuilder\n\n
+    setTrustedClientCertificateChain(final File certificatePemFile)\n
+    setTrustedClientCertificateChain(final InputStream certificateInputStream)\n
     '''
 def setTrustedServerCertificateChain():
-    '''public MockApnsServerBuilder setTrustedServerCertificateChain(final X509Certificate... certificates)
+    '''returns MockApnsServerBuilder\n\n
+    setTrustedServerCertificateChain(final X509Certificate... certificates)\n
     '''
 def setEventLoopGroup():
-    '''public MockApnsServerBuilder setEventLoopGroup(final EventLoopGroup eventLoopGroup)
+    '''returns MockApnsServerBuilder\n\n
+    setEventLoopGroup(final EventLoopGroup eventLoopGroup)\n
     '''
 def setMaxConcurrentStreams():
-    '''public MockApnsServerBuilder setMaxConcurrentStreams(final int maxConcurrentStreams)
+    '''returns MockApnsServerBuilder\n\n
+    setMaxConcurrentStreams(final int maxConcurrentStreams)\n
     '''
 def setUseAlpn():
-    '''public MockApnsServerBuilder setUseAlpn(final boolean useAlpn)
+    '''returns MockApnsServerBuilder\n\n
+    setUseAlpn(final boolean useAlpn)\n
     '''
 def setHandlerFactory():
-    '''public MockApnsServerBuilder setHandlerFactory(final PushNotificationHandlerFactory handlerFactory)
+    '''returns MockApnsServerBuilder\n\n
+    setHandlerFactory(final PushNotificationHandlerFactory handlerFactory)\n
     '''
 def setListener():
-    '''public MockApnsServerBuilder setListener(final MockApnsServerListener listener)
+    '''returns MockApnsServerBuilder\n\n
+    setListener(final MockApnsServerListener listener)\n
     '''
 def build():
-    '''public MockApnsServer build()
+    '''returns MockApnsServer\n\n
+    build()\n
     '''

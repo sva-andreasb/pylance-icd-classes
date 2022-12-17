@@ -1,18 +1,24 @@
-def DefaultIdCondition():
-    '''public DefaultIdCondition(final String value)
+def ():
+    '''returns DefaultIdCondition\n\n
+    (final String value)\n
     '''
 def getConditionType():
-    '''public short getConditionType()
+    '''returns short\n\n
+    getConditionType()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def getSpecified():
-    '''public boolean getSpecified()
+    '''returns boolean\n\n
+    getSpecified()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

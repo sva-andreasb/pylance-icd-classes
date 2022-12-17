@@ -1,7 +1,8 @@
-def NoClusterDefinedException():
-    '''public NoClusterDefinedException()
-    public NoClusterDefinedException(final String message)
-    public NoClusterDefinedException(final String message, final Throwable cause)
-    public NoClusterDefinedException(final Throwable cause)
-    public NoClusterDefinedException(final Identity clusterIdentity)
+def ():
+    '''returns NoClusterDefinedException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
+    (final Identity clusterIdentity)\n
     '''

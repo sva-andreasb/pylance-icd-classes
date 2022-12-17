@@ -1,3 +1,4 @@
 def testExportPmpObjects():
-    '''public void testExportPmpObjects()
+    '''returns None\n\n
+    testExportPmpObjects()\n
     '''

@@ -1,9 +1,8 @@
-def ScriptCondition():
-    '''public ScriptCondition(final AbstractScript script, final Configuration configuration)
+def ():
+    '''returns ScriptCondition\n\n
+    (final AbstractScript script, final Configuration configuration)\n
     '''
 def selectFilesToDelete():
-    '''public List<PathWithAttributes> selectFilesToDelete(final Path basePath, final List<PathWithAttributes> candidates)
-    '''
-def createCondition():
-    '''public static ScriptCondition createCondition(@PluginElement("Script") final AbstractScript script, @PluginConfiguration final Configuration configuration)
+    '''returns List<PathWithAttributes>\n\n
+    selectFilesToDelete(final Path basePath, final List<PathWithAttributes> candidates)\n
     '''

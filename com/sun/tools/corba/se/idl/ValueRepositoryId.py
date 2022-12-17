@@ -1,15 +1,20 @@
-def ValueRepositoryId():
-    '''public ValueRepositoryId()
+def ():
+    '''returns ValueRepositoryId\n\n
+    ()\n
     '''
 def addValue():
-    '''public void addValue(final int n)
+    '''returns None\n\n
+    addValue(final int n)\n
     '''
 def addType():
-    '''public void addType(final SymtabEntry key)
+    '''returns None\n\n
+    addType(final SymtabEntry key)\n
     '''
 def isNewType():
-    '''public boolean isNewType(final SymtabEntry key)
+    '''returns boolean\n\n
+    isNewType(final SymtabEntry key)\n
     '''
 def getHashcode():
-    '''public String getHashcode()
+    '''returns String\n\n
+    getHashcode()\n
     '''

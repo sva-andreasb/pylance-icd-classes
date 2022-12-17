@@ -1,6 +1,8 @@
-def Messages_tr():
-    '''public Messages_tr()
+def ():
+    '''returns Messages_tr\n\n
+    ()\n
     '''
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

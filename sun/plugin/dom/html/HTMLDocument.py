@@ -1,81 +1,108 @@
-def HTMLDocument():
-    '''public HTMLDocument(final DOMObject domObject)
+def ():
+    '''returns HTMLDocument\n\n
+    (final DOMObject domObject)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getReferrer():
-    '''public String getReferrer()
+    '''returns String\n\n
+    getReferrer()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def getBody():
-    '''public HTMLElement getBody()
+    '''returns HTMLElement\n\n
+    getBody()\n
     '''
 def setBody():
-    '''public void setBody(final HTMLElement htmlElement)
+    '''returns None\n\n
+    setBody(final HTMLElement htmlElement)\n
     '''
 def getImages():
-    '''public HTMLCollection getImages()
+    '''returns HTMLCollection\n\n
+    getImages()\n
     '''
 def getApplets():
-    '''public HTMLCollection getApplets()
+    '''returns HTMLCollection\n\n
+    getApplets()\n
     '''
 def getLinks():
-    '''public HTMLCollection getLinks()
+    '''returns HTMLCollection\n\n
+    getLinks()\n
     '''
 def getForms():
-    '''public HTMLCollection getForms()
+    '''returns HTMLCollection\n\n
+    getForms()\n
     '''
 def getAnchors():
-    '''public HTMLCollection getAnchors()
+    '''returns HTMLCollection\n\n
+    getAnchors()\n
     '''
 def getCookie():
-    '''public String getCookie()
+    '''returns String\n\n
+    getCookie()\n
     '''
 def setCookie():
-    '''public void setCookie(final String s)
+    '''returns None\n\n
+    setCookie(final String s)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def write():
-    '''public void write(final String s)
+    '''returns None\n\n
+    write(final String s)\n
     '''
 def writeln():
-    '''public void writeln(final String s)
+    '''returns None\n\n
+    writeln(final String s)\n
     '''
 def getElementsByName():
-    '''public NodeList getElementsByName(final String s)
+    '''returns NodeList\n\n
+    getElementsByName(final String s)\n
     '''
 def getElementsByTagName():
-    '''public NodeList getElementsByTagName(final String s)
+    '''returns NodeList\n\n
+    getElementsByTagName(final String s)\n
     '''
 def getDocumentElement():
-    '''public Element getDocumentElement()
+    '''returns Element\n\n
+    getDocumentElement()\n
     '''
 def createElement():
-    '''public Element createElement(final String s)
+    '''returns Element\n\n
+    createElement(final String s)\n
     '''
 def getElementById():
-    '''public Element getElementById(final String s)
+    '''returns Element\n\n
+    getElementById(final String s)\n
     '''
 def getDefaultView():
-    '''public AbstractView getDefaultView()
+    '''returns AbstractView\n\n
+    getDefaultView()\n
     '''
 def getStyleSheets():
-    '''public StyleSheetList getStyleSheets()
+    '''returns StyleSheetList\n\n
+    getStyleSheets()\n
     '''
 def getOverrideStyle():
-    '''public CSSStyleDeclaration getOverrideStyle(final Element element, final String s)
+    '''returns CSSStyleDeclaration\n\n
+    getOverrideStyle(final Element element, final String s)\n
     '''

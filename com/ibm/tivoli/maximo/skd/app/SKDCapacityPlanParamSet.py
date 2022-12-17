@@ -1,3 +1,4 @@
-def SKDCapacityPlanParamSet():
-    '''public SKDCapacityPlanParamSet(final MboServerInterface ms)
+def ():
+    '''returns SKDCapacityPlanParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

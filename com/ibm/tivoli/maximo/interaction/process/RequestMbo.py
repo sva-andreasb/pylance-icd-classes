@@ -1,6 +1,8 @@
-def RequestMbo():
-    '''public RequestMbo(final MboSet ms)
+def ():
+    '''returns RequestMbo\n\n
+    (final MboSet ms)\n
     '''
 def validateWSIOAttribute():
-    '''public void validateWSIOAttribute(final String name, final Object value)
+    '''returns None\n\n
+    validateWSIOAttribute(final String name, final Object value)\n
     '''

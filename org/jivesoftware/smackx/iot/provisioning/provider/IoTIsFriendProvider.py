@@ -1,3 +1,4 @@
 def parse():
-    '''public IoTIsFriend parse(final XmlPullParser parser, final int initialDepth)
+    '''returns IoTIsFriend\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

@@ -1,9 +1,11 @@
-def I():
-    '''public I(final ILoader<ca, FromProjectsOptions> loader, final ToHtmlOptions toHtmlOptions)
-    public I(final ILoader<ca, FromProjectsOptions> loader)
+def ():
+    '''returns I\n\n
+    (final ILoader<ca, FromProjectsOptions> loader, final ToHtmlOptions toHtmlOptions)\n
+    (final ILoader<ca, FromProjectsOptions> loader)\n
     '''
 def toHtml():
-    '''public void toHtml(final OutputStream outputStream, final IResourceCallback resourceCallback)
-    public void toHtml(final String savePath, final IResourceCallback resourceCallback)
-    public void toHtml(final IHtmlStreamCallback<Y> dataCallback)
+    '''returns None\n\n
+    toHtml(final OutputStream outputStream, final IResourceCallback resourceCallback)\n
+    toHtml(final String savePath, final IResourceCallback resourceCallback)\n
+    toHtml(final IHtmlStreamCallback<Y> dataCallback)\n
     '''

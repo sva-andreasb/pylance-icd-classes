@@ -1,6 +1,8 @@
-def UniqFilter():
-    '''public UniqFilter()
+def ():
+    '''returns UniqFilter\n\n
+    ()\n
     '''
 def filter():
-    '''public String filter(final String string)
+    '''returns String\n\n
+    filter(final String string)\n
     '''

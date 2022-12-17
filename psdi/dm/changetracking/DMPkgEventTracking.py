@@ -1,12 +1,16 @@
-def DMPkgEventTracking():
-    '''public DMPkgEventTracking(final MboSet ms)
+def ():
+    '''returns DMPkgEventTracking\n\n
+    (final MboSet ms)\n
     '''
 def constructMosMboSet():
-    '''public MboRemote constructMosMboSet(final MboRemote objMbo, final MboSetRemote mosMboSet)
+    '''returns MboRemote\n\n
+    constructMosMboSet(final MboRemote objMbo, final MboSetRemote mosMboSet)\n
     '''
 def getDeletedChildrenEventIds():
-    '''public String getDeletedChildrenEventIds(final String childMboName, final MboSetRemote objSet)
+    '''returns String\n\n
+    getDeletedChildrenEventIds(final String childMboName, final MboSetRemote objSet)\n
     '''
 def getChildEventIds():
-    '''public String getChildEventIds()
+    '''returns String\n\n
+    getChildEventIds()\n
     '''

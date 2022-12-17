@@ -1,33 +1,44 @@
-def ScramSaslServer():
-    '''public ScramSaslServer(final ScramMechanism mechanism, final Map<String, ?> props, final CallbackHandler callbackHandler)
+def ():
+    '''returns ScramSaslServer\n\n
+    (final ScramMechanism mechanism, final Map<String, ?> props, final CallbackHandler callbackHandler)\n
     '''
 def evaluateResponse():
-    '''public byte[] evaluateResponse(final byte[] response)
+    '''returns byte[]\n\n
+    evaluateResponse(final byte[] response)\n
     '''
 def getAuthorizationID():
-    '''public String getAuthorizationID()
+    '''returns String\n\n
+    getAuthorizationID()\n
     '''
 def getMechanismName():
-    '''public String getMechanismName()
+    '''returns String\n\n
+    getMechanismName()\n
     '''
 def getNegotiatedProperty():
-    '''public Object getNegotiatedProperty(final String propName)
+    '''returns Object\n\n
+    getNegotiatedProperty(final String propName)\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def unwrap():
-    '''public byte[] unwrap(final byte[] incoming, final int offset, final int len)
+    '''returns byte[]\n\n
+    unwrap(final byte[] incoming, final int offset, final int len)\n
     '''
 def wrap():
-    '''public byte[] wrap(final byte[] outgoing, final int offset, final int len)
+    '''returns byte[]\n\n
+    wrap(final byte[] outgoing, final int offset, final int len)\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''
 def createSaslServer():
-    '''public SaslServer createSaslServer(final String mechanism, final String protocol, final String serverName, final Map<String, ?> props, final CallbackHandler cbh)
+    '''returns SaslServer\n\n
+    createSaslServer(final String mechanism, final String protocol, final String serverName, final Map<String, ?> props, final CallbackHandler cbh)\n
     '''
 def getMechanismNames():
-    '''public String[] getMechanismNames(final Map<String, ?> props)
+    '''returns String[]\n\n
+    getMechanismNames(final Map<String, ?> props)\n
     '''

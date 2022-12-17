@@ -1,35 +1,46 @@
 OPREQ = "String  \"OPREQ\""
 OPRESP = "String  \"OPRESP\""
-def MAXServiceSchemaGenerator():
-    '''public MAXServiceSchemaGenerator(final String maxServiceName)
+def ():
+    '''returns MAXServiceSchemaGenerator\n\n
+    (final String maxServiceName)\n
     '''
 def getMaxServiceName():
-    '''public String getMaxServiceName()
+    '''returns String\n\n
+    getMaxServiceName()\n
     '''
 def getSchemaFileName():
-    '''public String getSchemaFileName()
+    '''returns String\n\n
+    getSchemaFileName()\n
     '''
 def getOpResponseElementName():
-    '''public String getOpResponseElementName(final String globalMethodName)
+    '''returns String\n\n
+    getOpResponseElementName(final String globalMethodName)\n
     '''
 def getOpRequestElementName():
-    '''public String getOpRequestElementName(final String globalMethodName)
+    '''returns String\n\n
+    getOpRequestElementName(final String globalMethodName)\n
     '''
 def getOpRequestElementType():
-    '''public String getOpRequestElementType(final String globalMethodName)
+    '''returns String\n\n
+    getOpRequestElementType(final String globalMethodName)\n
     '''
 def getOpResponseElementType():
-    '''public String getOpResponseElementType(final String globalMethodName)
+    '''returns String\n\n
+    getOpResponseElementType(final String globalMethodName)\n
     '''
 def getSchemaFolder():
-    '''public File getSchemaFolder()
+    '''returns File\n\n
+    getSchemaFolder()\n
     '''
 def getSchemaElementFor():
-    '''public String getSchemaElementFor(final String identifier)
+    '''returns String\n\n
+    getSchemaElementFor(final String identifier)\n
     '''
 def getSchemaElementTypeFor():
-    '''public String getSchemaElementTypeFor(final String identifier)
+    '''returns String\n\n
+    getSchemaElementTypeFor(final String identifier)\n
     '''
 def getSchemaUrl():
-    '''public String getSchemaUrl()
+    '''returns String\n\n
+    getSchemaUrl()\n
     '''

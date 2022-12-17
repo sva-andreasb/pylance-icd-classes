@@ -6,69 +6,84 @@ CREATE = "String  \"#create\""
 DESTROY = "String  \"#destroy\""
 BLOCKING = "String  \"#blocking\""
 def processStanza():
-    '''public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
     '''
 def getRoom():
-    '''public EntityJid getRoom()
+    '''returns EntityJid\n\n
+    getRoom()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final String text)
-    public void sendMessage(final Message message)
+    '''returns None\n\n
+    sendMessage(final String text)\n
+    sendMessage(final Message message)\n
     '''
 def createPrivateChat():
-    '''public Chat createPrivateChat(final EntityJid occupant, final ChatMessageListener listener)
+    '''returns Chat\n\n
+    createPrivateChat(final EntityJid occupant, final ChatMessageListener listener)\n
     '''
 def createMessage():
-    '''public Message createMessage()
+    '''returns Message\n\n
+    createMessage()\n
     '''
 def pollMessage():
-    '''public Message pollMessage()
+    '''returns Message\n\n
+    pollMessage()\n
     '''
 def nextMessage():
-    '''public Message nextMessage()
-    public Message nextMessage(final long timeout)
+    '''returns Message\n\n
+    nextMessage()\n
+    nextMessage(final long timeout)\n
     '''
 def addMessageListener():
-    '''public boolean addMessageListener(final MessageListener listener)
+    '''returns boolean\n\n
+    addMessageListener(final MessageListener listener)\n
     '''
 def removeMessageListener():
-    '''public boolean removeMessageListener(final MessageListener listener)
+    '''returns boolean\n\n
+    removeMessageListener(final MessageListener listener)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def create():
-    '''public void create(final String roomName, final String subject, final HashMap<String, String> customConfigs, final List<Jid> occupants)
-    public void create(final String roomName, final List<Jid> occupants)
+    '''returns None\n\n
+    create(final String roomName, final String subject, final HashMap<String, String> customConfigs, final List<Jid> occupants)\n
+    create(final String roomName, final List<Jid> occupants)\n
     '''
 def leave():
-    '''public void leave()
+    '''returns None\n\n
+    leave()\n
     '''
 def getFullInfo():
-    '''public MUCLightRoomInfo getFullInfo(final String version)
-    public MUCLightRoomInfo getFullInfo()
+    '''returns MUCLightRoomInfo\n\n
+    getFullInfo(final String version)\n
+    getFullInfo()\n
     '''
 def getConfiguration():
-    '''public MUCLightRoomConfiguration getConfiguration(final String version)
-    public MUCLightRoomConfiguration getConfiguration()
-    '''
-def getAffiliations():
-    '''public HashMap<Jid, MUCLightAffiliation> getAffiliations(final String version)
-    public HashMap<Jid, MUCLightAffiliation> getAffiliations()
+    '''returns MUCLightRoomConfiguration\n\n
+    getConfiguration(final String version)\n
+    getConfiguration()\n
     '''
 def changeAffiliations():
-    '''public void changeAffiliations(final HashMap<Jid, MUCLightAffiliation> affiliations)
+    '''returns None\n\n
+    changeAffiliations(final HashMap<Jid, MUCLightAffiliation> affiliations)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def changeSubject():
-    '''public void changeSubject(final String subject)
+    '''returns None\n\n
+    changeSubject(final String subject)\n
     '''
 def changeRoomName():
-    '''public void changeRoomName(final String roomName)
+    '''returns None\n\n
+    changeRoomName(final String roomName)\n
     '''
 def setRoomConfigs():
-    '''public void setRoomConfigs(final HashMap<String, String> customConfigs)
-    public void setRoomConfigs(final String roomName, final HashMap<String, String> customConfigs)
+    '''returns None\n\n
+    setRoomConfigs(final HashMap<String, String> customConfigs)\n
+    setRoomConfigs(final String roomName, final HashMap<String, String> customConfigs)\n
     '''

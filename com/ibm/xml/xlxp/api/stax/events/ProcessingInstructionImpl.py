@@ -1,13 +1,17 @@
-def ProcessingInstructionImpl():
-    '''public ProcessingInstructionImpl(final String s, final String s2)
-    public ProcessingInstructionImpl(final String fTarget, final String fData, final Location location)
+def ():
+    '''returns ProcessingInstructionImpl\n\n
+    (final String s, final String s2)\n
+    (final String fTarget, final String fData, final Location location)\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final Writer writer)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final Writer writer)\n
     '''

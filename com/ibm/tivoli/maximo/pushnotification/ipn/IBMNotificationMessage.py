@@ -1,43 +1,57 @@
-def IBMNotificationMessage():
-    '''public IBMNotificationMessage(final NotificationMessage notificationMessage)
+def ():
+    '''returns IBMNotificationMessage\n\n
+    (final NotificationMessage notificationMessage)\n
     '''
 def setMessageObject():
-    '''public void setMessageObject()
+    '''returns None\n\n
+    setMessageObject()\n
     '''
 def setAPNSSettingsObject():
-    '''public void setAPNSSettingsObject()
+    '''returns None\n\n
+    setAPNSSettingsObject()\n
     '''
 def setGCMSettingsObject():
-    '''public void setGCMSettingsObject()
+    '''returns None\n\n
+    setGCMSettingsObject()\n
     '''
 def setTargetObject():
-    '''public void setTargetObject()
-    public void setTargetObject(final JSONArray deviceIds, final ArrayList<String> userIds, final ArrayList<String> platforms, final ArrayList<String> tagNames)
+    '''returns None\n\n
+    setTargetObject()\n
+    setTargetObject(final JSONArray deviceIds, final ArrayList<String> userIds, final ArrayList<String> platforms, final ArrayList<String> tagNames)\n
     '''
 def setTargetDeviceIds():
-    '''public void setTargetDeviceIds(final JSONArray deviceIds)
+    '''returns None\n\n
+    setTargetDeviceIds(final JSONArray deviceIds)\n
     '''
 def setTargetUserIds():
-    '''public void setTargetUserIds(final ArrayList<String> userIds)
+    '''returns None\n\n
+    setTargetUserIds(final ArrayList<String> userIds)\n
     '''
 def setTargetPlatforms():
-    '''public void setTargetPlatforms(final ArrayList<String> platforms)
+    '''returns None\n\n
+    setTargetPlatforms(final ArrayList<String> platforms)\n
     '''
 def setTargetTagNames():
-    '''public void setTargetTagNames(final ArrayList<String> tagNames)
+    '''returns None\n\n
+    setTargetTagNames(final ArrayList<String> tagNames)\n
     '''
 def setValidateDeviceFlag():
-    '''public void setValidateDeviceFlag(final boolean validateDevice)
+    '''returns None\n\n
+    setValidateDeviceFlag(final boolean validateDevice)\n
     '''
 def getValidateDeviceFlag():
-    '''public boolean getValidateDeviceFlag()
+    '''returns boolean\n\n
+    getValidateDeviceFlag()\n
     '''
 def getMessageObject():
-    '''public JSONObject getMessageObject()
+    '''returns JSONObject\n\n
+    getMessageObject()\n
     '''
 def getSettingsObject():
-    '''public JSONObject getSettingsObject()
+    '''returns JSONObject\n\n
+    getSettingsObject()\n
     '''
 def getTargetObject():
-    '''public JSONObject getTargetObject()
+    '''returns JSONObject\n\n
+    getTargetObject()\n
     '''

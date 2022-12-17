@@ -1,3 +1,4 @@
-def FldWOInspector():
-    '''public FldWOInspector(final MboValue mbv)
+def ():
+    '''returns FldWOInspector\n\n
+    (final MboValue mbv)\n
     '''

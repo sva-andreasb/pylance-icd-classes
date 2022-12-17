@@ -1,46 +1,61 @@
-def DBConnection():
-    '''public DBConnection(final String url, final String user, final String password, final String databaseType)
-    public DBConnection(final Connection connection, final String databaseType)
+def ():
+    '''returns DBConnection\n\n
+    (final String url, final String user, final String password, final String databaseType)\n
+    (final Connection connection, final String databaseType)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def cleanDB():
-    '''public void cleanDB()
+    '''returns None\n\n
+    cleanDB()\n
     '''
 def isFormatOK():
-    '''public boolean isFormatOK()
+    '''returns boolean\n\n
+    isFormatOK()\n
     '''
 def setDatabaseProperties():
-    '''public void setDatabaseProperties(final Model dbProperties)
+    '''returns None\n\n
+    setDatabaseProperties(final Model dbProperties)\n
     '''
 def getDatabaseProperties():
-    '''public Model getDatabaseProperties()
+    '''returns Model\n\n
+    getDatabaseProperties()\n
     '''
 def getDefaultModelProperties():
-    '''public Model getDefaultModelProperties()
+    '''returns Model\n\n
+    getDefaultModelProperties()\n
     '''
 def getAllModelNames():
-    '''public ExtendedIterator<String> getAllModelNames()
+    '''returns ExtendedIterator<String>\n\n
+    getAllModelNames()\n
     '''
 def containsModel():
-    '''public boolean containsModel(final String name)
+    '''returns boolean\n\n
+    containsModel(final String name)\n
     '''
 def containsDefaultModel():
-    '''public boolean containsDefaultModel()
+    '''returns boolean\n\n
+    containsDefaultModel()\n
     '''
 def setDatabaseType():
-    '''public void setDatabaseType(final String databaseType)
+    '''returns None\n\n
+    setDatabaseType(final String databaseType)\n
     '''
 def getDatabaseType():
-    '''public String getDatabaseType()
+    '''returns String\n\n
+    getDatabaseType()\n
     '''
 def getDriver():
-    '''public IRDBDriver getDriver()
+    '''returns IRDBDriver\n\n
+    getDriver()\n
     '''
 def setDriver():
-    '''public void setDriver(final IRDBDriver driver)
+    '''returns None\n\n
+    setDriver(final IRDBDriver driver)\n
     '''

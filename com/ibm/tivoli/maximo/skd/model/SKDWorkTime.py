@@ -1,13 +1,8 @@
 def setSKDCalendarInfo():
-    '''public void setSKDCalendarInfo(final HashMap<String, SKDCalendarInfo> skdCals)
+    '''returns None\n\n
+    setSKDCalendarInfo(final HashMap<String, SKDCalendarInfo> skdCals)\n
     '''
-def SKDWorkTime():
-    '''public SKDWorkTime(final Locale l, final TimeZone tz)
-    '''
-def getCalendarInfo():
-    '''public HashMap<String, SKDShiftWorkTime> getCalendarInfo()
-    public HashMap<String, SKDShiftWorkTime> getCalendarInfo(final HashMap<String, HashMap<Long, Double>> craftWorkHoursMap, final Set<String> shiftSet)
-    '''
-def getCalendarInfoFromRange():
-    '''public HashMap<String, SKDShiftWorkTime> getCalendarInfoFromRange(final Date fromDate, final Date toDate)
+def ():
+    '''returns SKDWorkTime\n\n
+    (final Locale l, final TimeZone tz)\n
     '''

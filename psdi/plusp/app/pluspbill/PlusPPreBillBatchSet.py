@@ -1,6 +1,8 @@
-def PlusPPreBillBatchSet():
-    '''public PlusPPreBillBatchSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPPreBillBatchSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''

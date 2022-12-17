@@ -1,6 +1,8 @@
-def PlusPFldSWActivityDateDurationCalc():
-    '''public PlusPFldSWActivityDateDurationCalc(final MboValue mboValue)
+def ():
+    '''returns PlusPFldSWActivityDateDurationCalc\n\n
+    (final MboValue mboValue)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

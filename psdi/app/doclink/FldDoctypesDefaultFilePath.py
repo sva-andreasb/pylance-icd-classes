@@ -1,12 +1,16 @@
-def FldDoctypesDefaultFilePath():
-    '''public FldDoctypesDefaultFilePath(final MboValue mbv)
+def ():
+    '''returns FldDoctypesDefaultFilePath\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def isAllowedFolder():
-    '''public boolean isAllowedFolder(final File dir)
+    '''returns boolean\n\n
+    isAllowedFolder(final File dir)\n
     '''

@@ -1,69 +1,76 @@
-def JSONObjectInfo():
-    '''public JSONObjectInfo(final String relationPropName, final String objectName, final boolean multiple, final boolean arrayUnit, final boolean optimize)
+def ():
+    '''returns JSONObjectInfo\n\n
+    (final String relationPropName, final String objectName, final boolean multiple, final boolean arrayUnit, final boolean optimize)\n
     '''
 def addID():
-    '''public void addID()
+    '''returns None\n\n
+    addID()\n
     '''
 def isRootObject():
-    '''public boolean isRootObject()
+    '''returns boolean\n\n
+    isRootObject()\n
     '''
 def isArrayUnit():
-    '''public boolean isArrayUnit()
+    '''returns boolean\n\n
+    isArrayUnit()\n
     '''
 def isMultiple():
-    '''public boolean isMultiple()
+    '''returns boolean\n\n
+    isMultiple()\n
     '''
 def isWrapper():
-    '''public boolean isWrapper()
+    '''returns boolean\n\n
+    isWrapper()\n
     '''
 def getRelationPropName():
-    '''public String getRelationPropName()
+    '''returns String\n\n
+    getRelationPropName()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getHPath():
-    '''public String getHPath()
+    '''returns String\n\n
+    getHPath()\n
     '''
 def getHierarchyPath():
-    '''public String getHierarchyPath()
+    '''returns String\n\n
+    getHierarchyPath()\n
     '''
 def getParentObjectName():
-    '''public String getParentObjectName()
+    '''returns String\n\n
+    getParentObjectName()\n
     '''
 def addProperty():
-    '''public void addProperty(final String mappedName, final JSONPropertyInfo jsonProp)
+    '''returns None\n\n
+    addProperty(final String mappedName, final JSONPropertyInfo jsonProp)\n
     '''
 def addRelatedChild():
-    '''public void addRelatedChild(final String relationName, final JSONObjectInfo jsonObj)
-    '''
-def getPropertyMap():
-    '''public Map<String, JSONPropertyInfo> getPropertyMap()
-    '''
-def getAttrToPropMap():
-    '''public Map<String, JSONPropertyInfo> getAttrToPropMap()
-    '''
-def getPropToAttrMap():
-    '''public Map<String, JSONPropertyInfo> getPropToAttrMap()
-    '''
-def getChildrenMap():
-    '''public Map<String, JSONObjectInfo> getChildrenMap()
+    '''returns None\n\n
+    addRelatedChild(final String relationName, final JSONObjectInfo jsonObj)\n
     '''
 def getChildren():
-    '''public List<JSONObjectInfo> getChildren()
+    '''returns List<JSONObjectInfo>\n\n
+    getChildren()\n
     '''
 def setMerged():
-    '''public void setMerged()
+    '''returns None\n\n
+    setMerged()\n
     '''
 def isMerged():
-    '''public boolean isMerged()
+    '''returns boolean\n\n
+    isMerged()\n
     '''
 def idAdded():
-    '''public void idAdded()
+    '''returns None\n\n
+    idAdded()\n
     '''
 def isIdAdded():
-    '''public boolean isIdAdded()
+    '''returns boolean\n\n
+    isIdAdded()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String useObject)
+    '''returns None\n\n
+    setObjectName(final String useObject)\n
     '''

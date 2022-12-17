@@ -57,29 +57,35 @@ IMPORT_INSTANCE = "String  \"ReportBatchImport\""
 IMPORT_PARAM_ADMINONLY = "String  \"ADMINONLY\""
 REPORT_CONTEXT_USER_STOPLIMIT = "String  \"com.ibm.tivoli.maximo.report.birt.userstoplimit\""
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def isType():
-    '''public boolean isType(final String type)
-    public boolean isType(final String type)
-    public boolean isType(final String type)
-    public boolean isType(final String type)
+    '''returns boolean\n\n
+    isType(final String type)\n
+    isType(final String type)\n
+    isType(final String type)\n
+    isType(final String type)\n
     '''
 def isSatisfiedBy():
-    '''public boolean isSatisfiedBy(final MboRemote report)
-    public boolean isSatisfiedBy(final MboRemote reportSchedule)
-    public boolean isSatisfiedBy(final MboRemote reportSchedule)
-    public boolean isSatisfiedBy(final MboRemote reportSchedule)
+    '''returns boolean\n\n
+    isSatisfiedBy(final MboRemote report)\n
+    isSatisfiedBy(final MboRemote reportSchedule)\n
+    isSatisfiedBy(final MboRemote reportSchedule)\n
+    isSatisfiedBy(final MboRemote reportSchedule)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getExtension():
-    '''public String getExtension()
+    '''returns String\n\n
+    getExtension()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''

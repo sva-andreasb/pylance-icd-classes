@@ -1,165 +1,193 @@
 HEAP = "byte  1"
 FILE = "byte  2"
 ZIP = "byte  3"
-def JavaClass():
-    '''public JavaClass(final int class_name_index, final int superclass_name_index, final String file_name, final int major, final int minor, final int access_flags, final ConstantPool constant_pool, int[] interfaces, Field[] fields, Method[] methods, Attribute[] attributes, final byte source)
-    public JavaClass(final int class_name_index, final int superclass_name_index, final String file_name, final int major, final int minor, final int access_flags, final ConstantPool constant_pool, final int[] interfaces, final Field[] fields, final Method[] methods, final Attribute[] attributes)
+def ():
+    '''returns JavaClass\n\n
+    (final int class_name_index, final int superclass_name_index, final String file_name, final int major, final int minor, final int access_flags, final ConstantPool constant_pool, int[] interfaces, Field[] fields, Method[] methods, Attribute[] attributes, final byte source)\n
+    (final int class_name_index, final int superclass_name_index, final String file_name, final int major, final int minor, final int access_flags, final ConstantPool constant_pool, final int[] interfaces, final Field[] fields, final Method[] methods, final Attribute[] attributes)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''
 def dump():
-    '''public void dump(final File file)
-    public void dump(final String _file_name)
-    public void dump(final OutputStream file)
-    public void dump(final DataOutputStream file)
+    '''returns None\n\n
+    dump(final File file)\n
+    dump(final String _file_name)\n
+    dump(final OutputStream file)\n
+    dump(final DataOutputStream file)\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def getAttributes():
-    '''public Attribute[] getAttributes()
+    '''returns Attribute[]\n\n
+    getAttributes()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getPackageName():
-    '''public String getPackageName()
+    '''returns String\n\n
+    getPackageName()\n
     '''
 def getClassNameIndex():
-    '''public int getClassNameIndex()
+    '''returns int\n\n
+    getClassNameIndex()\n
     '''
 def getConstantPool():
-    '''public ConstantPool getConstantPool()
+    '''returns ConstantPool\n\n
+    getConstantPool()\n
     '''
 def getFields():
-    '''public Field[] getFields()
+    '''returns Field[]\n\n
+    getFields()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getInterfaceNames():
-    '''public String[] getInterfaceNames()
+    '''returns String[]\n\n
+    getInterfaceNames()\n
     '''
 def getInterfaceIndices():
-    '''public int[] getInterfaceIndices()
+    '''returns int[]\n\n
+    getInterfaceIndices()\n
     '''
 def getMajor():
-    '''public int getMajor()
+    '''returns int\n\n
+    getMajor()\n
     '''
 def getMethods():
-    '''public Method[] getMethods()
+    '''returns Method[]\n\n
+    getMethods()\n
     '''
 def getMethod():
-    '''public Method getMethod(final java.lang.reflect.Method m)
+    '''returns Method\n\n
+    getMethod(final java.lang.reflect.Method m)\n
     '''
 def getMinor():
-    '''public int getMinor()
+    '''returns int\n\n
+    getMinor()\n
     '''
 def getSourceFileName():
-    '''public String getSourceFileName()
+    '''returns String\n\n
+    getSourceFileName()\n
     '''
 def getSuperclassName():
-    '''public String getSuperclassName()
+    '''returns String\n\n
+    getSuperclassName()\n
     '''
 def getSuperclassNameIndex():
-    '''public int getSuperclassNameIndex()
+    '''returns int\n\n
+    getSuperclassNameIndex()\n
     '''
 def setAttributes():
-    '''public void setAttributes(final Attribute[] attributes)
+    '''returns None\n\n
+    setAttributes(final Attribute[] attributes)\n
     '''
 def setClassName():
-    '''public void setClassName(final String class_name)
+    '''returns None\n\n
+    setClassName(final String class_name)\n
     '''
 def setClassNameIndex():
-    '''public void setClassNameIndex(final int class_name_index)
+    '''returns None\n\n
+    setClassNameIndex(final int class_name_index)\n
     '''
 def setConstantPool():
-    '''public void setConstantPool(final ConstantPool constant_pool)
+    '''returns None\n\n
+    setConstantPool(final ConstantPool constant_pool)\n
     '''
 def setFields():
-    '''public void setFields(final Field[] fields)
+    '''returns None\n\n
+    setFields(final Field[] fields)\n
     '''
 def setFileName():
-    '''public void setFileName(final String file_name)
+    '''returns None\n\n
+    setFileName(final String file_name)\n
     '''
 def setInterfaceNames():
-    '''public void setInterfaceNames(final String[] interface_names)
+    '''returns None\n\n
+    setInterfaceNames(final String[] interface_names)\n
     '''
 def setInterfaces():
-    '''public void setInterfaces(final int[] interfaces)
+    '''returns None\n\n
+    setInterfaces(final int[] interfaces)\n
     '''
 def setMajor():
-    '''public void setMajor(final int major)
+    '''returns None\n\n
+    setMajor(final int major)\n
     '''
 def setMethods():
-    '''public void setMethods(final Method[] methods)
+    '''returns None\n\n
+    setMethods(final Method[] methods)\n
     '''
 def setMinor():
-    '''public void setMinor(final int minor)
+    '''returns None\n\n
+    setMinor(final int minor)\n
     '''
 def setSourceFileName():
-    '''public void setSourceFileName(final String source_file_name)
+    '''returns None\n\n
+    setSourceFileName(final String source_file_name)\n
     '''
 def setSuperclassName():
-    '''public void setSuperclassName(final String superclass_name)
+    '''returns None\n\n
+    setSuperclassName(final String superclass_name)\n
     '''
 def setSuperclassNameIndex():
-    '''public void setSuperclassNameIndex(final int superclass_name_index)
+    '''returns None\n\n
+    setSuperclassNameIndex(final int superclass_name_index)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def copy():
-    '''public JavaClass copy()
-    '''
-def isSuper():
-    '''public final boolean isSuper()
-    '''
-def isClass():
-    '''public final boolean isClass()
-    '''
-def getSource():
-    '''public final byte getSource()
+    '''returns JavaClass\n\n
+    copy()\n
     '''
 def getRepository():
-    '''public Repository getRepository()
+    '''returns Repository\n\n
+    getRepository()\n
     '''
 def setRepository():
-    '''public void setRepository(final Repository repository)
-    '''
-def instanceOf():
-    '''public final boolean instanceOf(final JavaClass super_class)
+    '''returns None\n\n
+    setRepository(final Repository repository)\n
     '''
 def implementationOf():
-    '''public boolean implementationOf(final JavaClass inter)
+    '''returns boolean\n\n
+    implementationOf(final JavaClass inter)\n
     '''
 def getSuperClass():
-    '''public JavaClass getSuperClass()
+    '''returns JavaClass\n\n
+    getSuperClass()\n
     '''
 def getSuperClasses():
-    '''public JavaClass[] getSuperClasses()
+    '''returns JavaClass[]\n\n
+    getSuperClasses()\n
     '''
 def getInterfaces():
-    '''public JavaClass[] getInterfaces()
+    '''returns JavaClass[]\n\n
+    getInterfaces()\n
     '''
 def getAllInterfaces():
-    '''public JavaClass[] getAllInterfaces()
-    '''
-def getComparator():
-    '''public static BCELComparator getComparator()
-    '''
-def setComparator():
-    '''public static void setComparator(final BCELComparator comparator)
+    '''returns JavaClass[]\n\n
+    getAllInterfaces()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object o1, final Object o2)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object o1, final Object o2)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
+    '''returns int\n\n
+    compareTo(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode(final Object o)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode(final Object o)\n
     '''

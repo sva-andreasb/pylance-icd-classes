@@ -1,3 +1,4 @@
-def RMIPluginSocketFactory():
-    '''public RMIPluginSocketFactory()
+def ():
+    '''returns RMIPluginSocketFactory\n\n
+    ()\n
     '''

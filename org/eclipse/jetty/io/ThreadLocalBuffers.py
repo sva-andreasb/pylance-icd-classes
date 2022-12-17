@@ -1,16 +1,21 @@
-def ThreadLocalBuffers():
-    '''public ThreadLocalBuffers(final Buffers.Type headerType, final int headerSize, final Buffers.Type bufferType, final int bufferSize, final Buffers.Type otherType)
+def ():
+    '''returns ThreadLocalBuffers\n\n
+    (final Buffers.Type headerType, final int headerSize, final Buffers.Type bufferType, final int bufferSize, final Buffers.Type otherType)\n
     '''
 def getBuffer():
-    '''public Buffer getBuffer()
-    public Buffer getBuffer(final int size)
+    '''returns Buffer\n\n
+    getBuffer()\n
+    getBuffer(final int size)\n
     '''
 def getHeader():
-    '''public Buffer getHeader()
+    '''returns Buffer\n\n
+    getHeader()\n
     '''
 def returnBuffer():
-    '''public void returnBuffer(final Buffer buffer)
+    '''returns None\n\n
+    returnBuffer(final Buffer buffer)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

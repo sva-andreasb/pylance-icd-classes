@@ -1,4 +1,5 @@
-def FldActCINum():
-    '''public FldActCINum(final MboValue mbv)
-    public FldActCINum(final MboValue mbv, String criteriaName)
+def ():
+    '''returns FldActCINum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, String criteriaName)\n
     '''

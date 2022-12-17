@@ -1,12 +1,12 @@
-def IloCplex__FlowMIRCutCallbackI():
-    '''public IloCplex__FlowMIRCutCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__FlowMIRCutCallbackI obj)
+def ():
+    '''returns IloCplex__FlowMIRCutCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getProgress():
-    '''public double getProgress()
+    '''returns double\n\n
+    getProgress()\n
     '''

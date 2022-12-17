@@ -48,209 +48,155 @@ WEEKDAY = "int  0"
 WEEKEND = "int  1"
 WEEKEND_ONSET = "int  2"
 WEEKEND_CEASE = "int  3"
-WALLTIME_LAST = "int  0"
-WALLTIME_FIRST = "int  1"
-WALLTIME_NEXT_VALID = "int  2"
-def getInstance():
-    '''public static Calendar getInstance()
-    public static Calendar getInstance(final TimeZone zone)
-    public static Calendar getInstance(final Locale aLocale)
-    public static Calendar getInstance(final ULocale locale)
-    public static Calendar getInstance(final TimeZone zone, final Locale aLocale)
-    public static Calendar getInstance(final TimeZone zone, final ULocale locale)
-    '''
-def getAvailableLocales():
-    '''public static Locale[] getAvailableLocales()
-    '''
-def getAvailableULocales():
-    '''public static ULocale[] getAvailableULocales()
-    '''
-def getKeywordValuesForLocale():
-    '''public static final String[] getKeywordValuesForLocale(final String key, final ULocale locale, final boolean commonlyUsed)
-    '''
-def getTime():
-    '''public final Date getTime()
-    '''
-def setTime():
-    '''public final void setTime(final Date date)
-    '''
 def getTimeInMillis():
-    '''public long getTimeInMillis()
+    '''returns long\n\n
+    getTimeInMillis()\n
     '''
 def setTimeInMillis():
-    '''public void setTimeInMillis(long millis)
-    '''
-def get():
-    '''public final int get(final int field)
-    '''
-def set():
-    '''public final void set(final int field, final int value)
-    public final void set(final int year, final int month, final int date)
-    public final void set(final int year, final int month, final int date, final int hour, final int minute)
-    public final void set(final int year, final int month, final int date, final int hour, final int minute, final int second)
-    '''
-def getRelatedYear():
-    '''public final int getRelatedYear()
-    '''
-def setRelatedYear():
-    '''public final void setRelatedYear(int year)
-    '''
-def clear():
-    '''public final void clear()
-    public final void clear(final int field)
-    '''
-def isSet():
-    '''public final boolean isSet(final int field)
+    '''returns None\n\n
+    setTimeInMillis(long millis)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def isEquivalentTo():
-    '''public boolean isEquivalentTo(final Calendar other)
+    '''returns boolean\n\n
+    isEquivalentTo(final Calendar other)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def before():
-    '''public boolean before(final Object when)
+    '''returns boolean\n\n
+    before(final Object when)\n
     '''
 def after():
-    '''public boolean after(final Object when)
+    '''returns boolean\n\n
+    after(final Object when)\n
     '''
 def getActualMaximum():
-    '''public int getActualMaximum(final int field)
+    '''returns int\n\n
+    getActualMaximum(final int field)\n
     '''
 def getActualMinimum():
-    '''public int getActualMinimum(final int field)
+    '''returns int\n\n
+    getActualMinimum(final int field)\n
     '''
 def roll():
-    '''public final void roll(final int field, final boolean up)
-    public void roll(final int field, int amount)
+    '''returns None\n\n
+    roll(final int field, final int amount)\n
     '''
 def add():
-    '''public void add(final int field, int amount)
+    '''returns None\n\n
+    add(final int field, final int amount)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName(final Locale loc)
-    public String getDisplayName(final ULocale loc)
+    '''returns String\n\n
+    getDisplayName(final Locale loc)\n
+    getDisplayName(final ULocale loc)\n
     '''
 def compareTo():
-    '''public int compareTo(final Calendar that)
+    '''returns int\n\n
+    compareTo(final Calendar that)\n
     '''
 def getDateTimeFormat():
-    '''public DateFormat getDateTimeFormat(final int dateStyle, final int timeStyle, final Locale loc)
-    public DateFormat getDateTimeFormat(final int dateStyle, final int timeStyle, final ULocale loc)
-    '''
-def getDateTimePattern():
-    '''public static String getDateTimePattern(final Calendar cal, final ULocale uLocale, final int dateStyle)
+    '''returns DateFormat\n\n
+    getDateTimeFormat(final int dateStyle, final int timeStyle, final Locale loc)\n
+    getDateTimeFormat(final int dateStyle, final int timeStyle, final ULocale loc)\n
     '''
 def fieldDifference():
-    '''public int fieldDifference(final Date when, final int field)
+    '''returns int\n\n
+    fieldDifference(final Date when, final int field)\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone value)
+    '''returns None\n\n
+    setTimeZone(final TimeZone value)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def setLenient():
-    '''public void setLenient(final boolean lenient)
+    '''returns None\n\n
+    setLenient(final boolean lenient)\n
     '''
 def isLenient():
-    '''public boolean isLenient()
-    '''
-def setRepeatedWallTimeOption():
-    '''public void setRepeatedWallTimeOption(final int option)
-    '''
-def getRepeatedWallTimeOption():
-    '''public int getRepeatedWallTimeOption()
-    '''
-def setSkippedWallTimeOption():
-    '''public void setSkippedWallTimeOption(final int option)
-    '''
-def getSkippedWallTimeOption():
-    '''public int getSkippedWallTimeOption()
+    '''returns boolean\n\n
+    isLenient()\n
     '''
 def setFirstDayOfWeek():
-    '''public void setFirstDayOfWeek(final int value)
+    '''returns None\n\n
+    setFirstDayOfWeek(final int value)\n
     '''
 def getFirstDayOfWeek():
-    '''public int getFirstDayOfWeek()
+    '''returns int\n\n
+    getFirstDayOfWeek()\n
     '''
 def setMinimalDaysInFirstWeek():
-    '''public void setMinimalDaysInFirstWeek(int value)
+    '''returns None\n\n
+    setMinimalDaysInFirstWeek(int value)\n
     '''
 def getMinimalDaysInFirstWeek():
-    '''public int getMinimalDaysInFirstWeek()
-    '''
-def getMinimum():
-    '''public final int getMinimum(final int field)
-    '''
-def getMaximum():
-    '''public final int getMaximum(final int field)
-    '''
-def getGreatestMinimum():
-    '''public final int getGreatestMinimum(final int field)
-    '''
-def getLeastMaximum():
-    '''public final int getLeastMaximum(final int field)
+    '''returns int\n\n
+    getMinimalDaysInFirstWeek()\n
     '''
 def getDayOfWeekType():
-    '''public int getDayOfWeekType(final int dayOfWeek)
+    '''returns int\n\n
+    getDayOfWeekType(final int dayOfWeek)\n
     '''
 def getWeekendTransition():
-    '''public int getWeekendTransition(final int dayOfWeek)
+    '''returns int\n\n
+    getWeekendTransition(final int dayOfWeek)\n
     '''
 def isWeekend():
-    '''public boolean isWeekend(final Date date)
-    public boolean isWeekend()
+    '''returns boolean\n\n
+    isWeekend(final Date date)\n
+    isWeekend()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def getWeekDataForRegion():
-    '''public static WeekData getWeekDataForRegion(final String region)
-    '''
-def getWeekData():
-    '''public WeekData getWeekData()
-    '''
-def setWeekData():
-    '''public Calendar setWeekData(final WeekData wdata)
-    '''
-def getFieldCount():
-    '''public final int getFieldCount()
+    '''returns String\n\n
+    toString()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
-def haveDefaultCentury():
-    '''public boolean haveDefaultCentury()
+def visible():
+    '''returns boolean\n\n
+    visible()\n
     '''
-def getLocale():
-    '''public final ULocale getLocale(final ULocale.Type type)
-    public ULocale getLocale()
+def createCalendar():
+    '''returns Calendar\n\n
+    createCalendar(final ULocale loc)\n
     '''
-def PatternData():
-    '''public PatternData(final String[] patterns, final String[] overrides)
+def ():
+    '''returns WeekData\n\n
+    (final String[] patterns, final String[] overrides)\n
+    (final int fdow, final int mdifw, final int weekendOnset, final int weekendOnsetMillis, final int weekendCease, final int weekendCeaseMillis, final ULocale actualLoc)\n
     '''
 def getPatternString():
-    '''public String getPatternString()
+    '''returns String\n\n
+    getPatternString()\n
     '''
 def getOverrideString():
-    '''public String getOverrideString()
+    '''returns String\n\n
+    getOverrideString()\n
     '''
 def getCalendar():
-    '''public Calendar getCalendar()
+    '''returns Calendar\n\n
+    getCalendar()\n
+    '''
+def getLocale():
+    '''returns ULocale\n\n
+    getLocale()\n
     '''
 def getDateFormatSymbols():
-    '''public DateFormatSymbols getDateFormatSymbols()
-    '''
-def WeekData():
-    '''public WeekData(final int fdow, final int mdifw, final int weekendOnset, final int weekendOnsetMillis, final int weekendCease, final int weekendCeaseMillis)
+    '''returns DateFormatSymbols\n\n
+    getDateFormatSymbols()\n
     '''

@@ -1,3 +1,4 @@
-def SKDDataValMsgSet():
-    '''public SKDDataValMsgSet(final MboServerInterface ms)
+def ():
+    '''returns SKDDataValMsgSet\n\n
+    (final MboServerInterface ms)\n
     '''

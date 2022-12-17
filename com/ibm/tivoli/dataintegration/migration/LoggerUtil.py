@@ -1,18 +1,24 @@
-def LoggerUtil():
-    '''public LoggerUtil(final Class<?> clazz)
+def ():
+    '''returns LoggerUtil\n\n
+    (final Class<?> clazz)\n
     '''
 def logExitError():
-    '''public void logExitError(final String sourceMethod, final String msg, final Throwable cause)
+    '''returns None\n\n
+    logExitError(final String sourceMethod, final String msg, final Throwable cause)\n
     '''
 def logNoteError():
-    '''public void logNoteError(final String sourceMethod, final String msg, final Throwable cause)
+    '''returns None\n\n
+    logNoteError(final String sourceMethod, final String msg, final Throwable cause)\n
     '''
 def logInfo():
-    '''public void logInfo(final String sourceMethod, final String msg)
+    '''returns None\n\n
+    logInfo(final String sourceMethod, final String msg)\n
     '''
 def logEnterMethod():
-    '''public void logEnterMethod(final String sourceMethod)
+    '''returns None\n\n
+    logEnterMethod(final String sourceMethod)\n
     '''
 def logExitMethod():
-    '''public void logExitMethod(final String sourceMethod)
+    '''returns None\n\n
+    logExitMethod(final String sourceMethod)\n
     '''

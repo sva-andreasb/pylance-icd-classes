@@ -1,3 +1,4 @@
-def RichTextSet():
-    '''public RichTextSet(final MboServerInterface ms)
+def ():
+    '''returns RichTextSet\n\n
+    (final MboServerInterface ms)\n
     '''

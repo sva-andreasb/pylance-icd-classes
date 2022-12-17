@@ -1,3 +1,4 @@
-def DateFormatPool():
-    '''public DateFormatPool(final String pattern)
+def ():
+    '''returns DateFormatPool\n\n
+    (final String pattern)\n
     '''

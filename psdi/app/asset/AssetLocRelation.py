@@ -1,64 +1,79 @@
 def clearLinearAssetFields():
-    '''public void clearLinearAssetFields(String attr)
+    '''returns None\n\n
+    clearLinearAssetFields(String attr)\n
     '''
-def AssetLocRelation():
-    '''public AssetLocRelation(final MboSet ms)
+def ():
+    '''returns RuleException\n\n
+    (final MboSet ms)\n
+    (final MboRemote groupMbo)\n
+    (final String eg, final String ek)\n
+    (final String eg, final String ek, final Object... args)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def checkDuplicateRelationships():
-    '''public void checkDuplicateRelationships(final String sourceassetnum, final String assetrelationnum, final String targetassetnum)
+    '''returns None\n\n
+    checkDuplicateRelationships(final String sourceassetnum, final String assetrelationnum, final String targetassetnum)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def setLinearAttrsREADONLYFlagOnSourceAsset():
-    '''public void setLinearAttrsREADONLYFlagOnSourceAsset()
+    '''returns None\n\n
+    setLinearAttrsREADONLYFlagOnSourceAsset()\n
     '''
 def setLinearAttrsREADONLYFlagOnTargetAsset():
-    '''public void setLinearAttrsREADONLYFlagOnTargetAsset()
+    '''returns None\n\n
+    setLinearAttrsREADONLYFlagOnTargetAsset()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''
 def createSourceAssetFeatureRec():
-    '''public void createSourceAssetFeatureRec()
+    '''returns None\n\n
+    createSourceAssetFeatureRec()\n
     '''
 def createTargetAssetFeatureRec():
-    '''public void createTargetAssetFeatureRec()
+    '''returns None\n\n
+    createTargetAssetFeatureRec()\n
     '''
 def recalAssetRelMesModify():
-    '''public void recalAssetRelMesModify()
+    '''returns None\n\n
+    recalAssetRelMesModify()\n
     '''
 def recalAssetRelFeatureMesModify():
-    '''public void recalAssetRelFeatureMesModify()
+    '''returns None\n\n
+    recalAssetRelFeatureMesModify()\n
     '''
 def validateRelationshipRules():
-    '''public void validateRelationshipRules()
-    '''
-def RuleGroup():
-    '''public RuleGroup(final MboRemote groupMbo)
-    '''
-def RuleException():
-    '''public RuleException(final String eg, final String ek)
-    public RuleException(final String eg, final String ek, final Object... args)
+    '''returns None\n\n
+    validateRelationshipRules()\n
     '''

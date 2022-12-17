@@ -1,37 +1,48 @@
-def CachedJarLoader():
-    '''public CachedJarLoader(final URL url, final boolean b)
+def ():
+    '''returns CachedJarLoader\n\n
+    (final URL url, final boolean b)\n
     '''
 def getJarSize():
-    '''public long getJarSize()
+    '''returns long\n\n
+    getJarSize()\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def setDataFile():
-    '''public void setDataFile(final File dataFile)
+    '''returns None\n\n
+    setDataFile(final File dataFile)\n
     '''
 def setIndexFile():
-    '''public void setIndexFile(final File indexFile)
+    '''returns None\n\n
+    setIndexFile(final File indexFile)\n
     '''
 def setLastModify():
-    '''public void setLastModify(final long lastModified)
+    '''returns None\n\n
+    setLastModify(final long lastModified)\n
     '''
 def setExpiration():
-    '''public void setExpiration(final long expiration)
+    '''returns None\n\n
+    setExpiration(final long expiration)\n
     '''
 def setVersion():
-    '''public void setVersion(final FileVersion version)
+    '''returns None\n\n
+    setVersion(final FileVersion version)\n
     '''
 def load():
-    '''public CachedJarFile load()
+    '''returns CachedJarFile\n\n
+    load()\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
-    public Object run()
-    public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def isVersionUpToDate():
-    '''public boolean isVersionUpToDate(final FileVersion fileVersion)
+    '''returns boolean\n\n
+    isVersionUpToDate(final FileVersion fileVersion)\n
     '''

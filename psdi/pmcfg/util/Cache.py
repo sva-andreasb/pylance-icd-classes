@@ -1,23 +1,30 @@
-def Cache():
-    '''public Cache()
-    public Cache(final Strategy<K, V> strategy, final boolean load)
-    public Cache(final Strategy<K, V> strategy)
+def ():
+    '''returns Cache\n\n
+    ()\n
+    (final Strategy<K, V> strategy, final boolean load)\n
+    (final Strategy<K, V> strategy)\n
     '''
 def setStrategy():
-    '''public void setStrategy(final Strategy<K, V> strategy)
+    '''returns None\n\n
+    setStrategy(final Strategy<K, V> strategy)\n
     '''
 def get():
-    '''public V get(final K key)
+    '''returns V\n\n
+    get(final K key)\n
     '''
 def reload():
-    '''public void reload()
+    '''returns None\n\n
+    reload()\n
     '''
 def write():
-    '''public void write(final K key, final V value)
+    '''returns None\n\n
+    write(final K key, final V value)\n
     '''
 def check():
-    '''public void check(final K key)
+    '''returns None\n\n
+    check(final K key)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

@@ -1,28 +1,37 @@
 MEDIA_NAME = "String  \"ScreenShare\""
-def ScreenShareMediaManager():
-    '''public ScreenShareMediaManager(final JingleTransportManager transportManager)
+def ():
+    '''returns ScreenShareMediaManager\n\n
+    (final JingleTransportManager transportManager)\n
     '''
 def getPayloads():
-    '''public List<PayloadType> getPayloads()
+    '''returns List<PayloadType>\n\n
+    getPayloads()\n
     '''
 def createMediaSession():
-    '''public JingleMediaSession createMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final JingleSession jingleSession)
+    '''returns JingleMediaSession\n\n
+    createMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final JingleSession jingleSession)\n
     '''
 def getPreferredPayloadType():
-    '''public PayloadType getPreferredPayloadType()
+    '''returns PayloadType\n\n
+    getPreferredPayloadType()\n
     '''
 def getDecoder():
-    '''public ImageDecoder getDecoder()
+    '''returns ImageDecoder\n\n
+    getDecoder()\n
     '''
 def setDecoder():
-    '''public void setDecoder(final ImageDecoder decoder)
+    '''returns None\n\n
+    setDecoder(final ImageDecoder decoder)\n
     '''
 def getEncoder():
-    '''public ImageEncoder getEncoder()
+    '''returns ImageEncoder\n\n
+    getEncoder()\n
     '''
 def setEncoder():
-    '''public void setEncoder(final ImageEncoder encoder)
+    '''returns None\n\n
+    setEncoder(final ImageEncoder encoder)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

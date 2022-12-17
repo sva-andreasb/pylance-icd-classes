@@ -1,6 +1,8 @@
-def NotFilter():
-    '''public NotFilter(final PacketFilter filter)
+def ():
+    '''returns NotFilter\n\n
+    (final PacketFilter filter)\n
     '''
 def accept():
-    '''public boolean accept(final Packet packet)
+    '''returns boolean\n\n
+    accept(final Packet packet)\n
     '''

@@ -1,23 +1,30 @@
-def BeanDeserializer():
-    '''public BeanDeserializer(final Class javaType, final QName xmlType)
-    public BeanDeserializer(final Class javaType, final QName xmlType, final TypeDesc typeDesc)
-    public BeanDeserializer(final Class javaType, final QName xmlType, final TypeDesc typeDesc, final Map propertyMap)
+def ():
+    '''returns BeanDeserializer\n\n
+    (final Class javaType, final QName xmlType)\n
+    (final Class javaType, final QName xmlType, final TypeDesc typeDesc)\n
+    (final Class javaType, final QName xmlType, final TypeDesc typeDesc, final Map propertyMap)\n
     '''
 def startElement():
-    '''public void startElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    startElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def onStartChild():
-    '''public SOAPHandler onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns SOAPHandler\n\n
+    onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def getAnyPropertyDesc():
-    '''public BeanPropertyDescriptor getAnyPropertyDesc()
+    '''returns BeanPropertyDescriptor\n\n
+    getAnyPropertyDesc()\n
     '''
 def onStartElement():
-    '''public void onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def characters():
-    '''public void characters(final char[] chars, final int start, final int end)
+    '''returns None\n\n
+    characters(final char[] chars, final int start, final int end)\n
     '''
 def onEndElement():
-    '''public void onEndElement(final String namespace, final String localName, final DeserializationContext context)
+    '''returns None\n\n
+    onEndElement(final String namespace, final String localName, final DeserializationContext context)\n
     '''

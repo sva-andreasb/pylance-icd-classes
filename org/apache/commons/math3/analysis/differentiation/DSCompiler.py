@@ -1,110 +1,141 @@
-def getCompiler():
-    '''public static DSCompiler getCompiler(final int parameters, final int order)
-    '''
 def getPartialDerivativeIndex():
-    '''public int getPartialDerivativeIndex(final int... orders)
+    '''returns int\n\n
+    getPartialDerivativeIndex(final int... orders)\n
     '''
 def getPartialDerivativeOrders():
-    '''public int[] getPartialDerivativeOrders(final int index)
+    '''returns int[]\n\n
+    getPartialDerivativeOrders(final int index)\n
     '''
 def getFreeParameters():
-    '''public int getFreeParameters()
+    '''returns int\n\n
+    getFreeParameters()\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def linearCombination():
-    '''public void linearCombination(final double a1, final double[] c1, final int offset1, final double a2, final double[] c2, final int offset2, final double[] result, final int resultOffset)
-    public void linearCombination(final double a1, final double[] c1, final int offset1, final double a2, final double[] c2, final int offset2, final double a3, final double[] c3, final int offset3, final double[] result, final int resultOffset)
-    public void linearCombination(final double a1, final double[] c1, final int offset1, final double a2, final double[] c2, final int offset2, final double a3, final double[] c3, final int offset3, final double a4, final double[] c4, final int offset4, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    linearCombination(final double a1, final double[] c1, final int offset1, final double a2, final double[] c2, final int offset2, final double[] result, final int resultOffset)\n
+    linearCombination(final double a1, final double[] c1, final int offset1, final double a2, final double[] c2, final int offset2, final double a3, final double[] c3, final int offset3, final double[] result, final int resultOffset)\n
+    linearCombination(final double a1, final double[] c1, final int offset1, final double a2, final double[] c2, final int offset2, final double a3, final double[] c3, final int offset3, final double a4, final double[] c4, final int offset4, final double[] result, final int resultOffset)\n
     '''
 def add():
-    '''public void add(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    add(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)\n
     '''
 def subtract():
-    '''public void subtract(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    subtract(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)\n
     '''
 def multiply():
-    '''public void multiply(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    multiply(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)\n
     '''
 def divide():
-    '''public void divide(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    divide(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)\n
     '''
 def remainder():
-    '''public void remainder(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    remainder(final double[] lhs, final int lhsOffset, final double[] rhs, final int rhsOffset, final double[] result, final int resultOffset)\n
     '''
 def pow():
-    '''public void pow(final double a, final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
-    public void pow(final double[] operand, final int operandOffset, final double p, final double[] result, final int resultOffset)
-    public void pow(final double[] operand, final int operandOffset, final int n, final double[] result, final int resultOffset)
-    public void pow(final double[] x, final int xOffset, final double[] y, final int yOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    pow(final double a, final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
+    pow(final double[] operand, final int operandOffset, final double p, final double[] result, final int resultOffset)\n
+    pow(final double[] operand, final int operandOffset, final int n, final double[] result, final int resultOffset)\n
+    pow(final double[] x, final int xOffset, final double[] y, final int yOffset, final double[] result, final int resultOffset)\n
     '''
 def rootN():
-    '''public void rootN(final double[] operand, final int operandOffset, final int n, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    rootN(final double[] operand, final int operandOffset, final int n, final double[] result, final int resultOffset)\n
     '''
 def exp():
-    '''public void exp(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    exp(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def expm1():
-    '''public void expm1(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    expm1(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def log():
-    '''public void log(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    log(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def log1p():
-    '''public void log1p(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    log1p(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def log10():
-    '''public void log10(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    log10(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def cos():
-    '''public void cos(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    cos(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def sin():
-    '''public void sin(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    sin(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def tan():
-    '''public void tan(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    tan(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def acos():
-    '''public void acos(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    acos(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def asin():
-    '''public void asin(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    asin(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def atan():
-    '''public void atan(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    atan(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def atan2():
-    '''public void atan2(final double[] y, final int yOffset, final double[] x, final int xOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    atan2(final double[] y, final int yOffset, final double[] x, final int xOffset, final double[] result, final int resultOffset)\n
     '''
 def cosh():
-    '''public void cosh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    cosh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def sinh():
-    '''public void sinh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    sinh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def tanh():
-    '''public void tanh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    tanh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def acosh():
-    '''public void acosh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    acosh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def asinh():
-    '''public void asinh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    asinh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def atanh():
-    '''public void atanh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    atanh(final double[] operand, final int operandOffset, final double[] result, final int resultOffset)\n
     '''
 def compose():
-    '''public void compose(final double[] operand, final int operandOffset, final double[] f, final double[] result, final int resultOffset)
+    '''returns None\n\n
+    compose(final double[] operand, final int operandOffset, final double[] f, final double[] result, final int resultOffset)\n
     '''
 def taylor():
-    '''public double taylor(final double[] ds, final int dsOffset, final double... delta)
+    '''returns double\n\n
+    taylor(final double[] ds, final int dsOffset, final double... delta)\n
     '''
 def checkCompatibility():
-    '''public void checkCompatibility(final DSCompiler compiler)
+    '''returns None\n\n
+    checkCompatibility(final DSCompiler compiler)\n
     '''

@@ -1,25 +1,33 @@
-def _EJSRemoteWrapper_Tie():
-    '''public _EJSRemoteWrapper_Tie()
+def ():
+    '''returns _EJSRemoteWrapper_Tie\n\n
+    ()\n
     '''
 def _ids():
-    '''public String[] _ids()
+    '''returns String[]\n\n
+    _ids()\n
     '''
 def _invoke():
-    '''public OutputStream _invoke(final String s, final InputStream inputStream, final ResponseHandler responseHandler)
+    '''returns OutputStream\n\n
+    _invoke(final String s, final InputStream inputStream, final ResponseHandler responseHandler)\n
     '''
 def _set_delegate():
-    '''public void _set_delegate(final Delegate delegate)
+    '''returns None\n\n
+    _set_delegate(final Delegate delegate)\n
     '''
 def deactivate():
-    '''public void deactivate()
+    '''returns None\n\n
+    deactivate()\n
     '''
 def getTarget():
-    '''public Remote getTarget()
+    '''returns Remote\n\n
+    getTarget()\n
     '''
 def orb():
-    '''public ORB orb()
-    public void orb(final ORB orb)
+    '''returns None\n\n
+    orb()\n
+    orb(final ORB orb)\n
     '''
 def setTarget():
-    '''public void setTarget(final Remote remote)
+    '''returns None\n\n
+    setTarget(final Remote remote)\n
     '''

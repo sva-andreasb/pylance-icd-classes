@@ -1,20 +1,14 @@
-def Type():
-    '''public Type()
-    '''
-def type():
-    '''public final int type()
-    '''
-def size():
-    '''public final int size()
-    '''
-def alignment():
-    '''public final int alignment()
+def ():
+    '''returns Type\n\n
+    ()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''

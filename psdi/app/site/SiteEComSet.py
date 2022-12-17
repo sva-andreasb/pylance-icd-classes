@@ -1,3 +1,4 @@
-def SiteEComSet():
-    '''public SiteEComSet(final MboServerInterface ms)
+def ():
+    '''returns SiteEComSet\n\n
+    (final MboServerInterface ms)\n
     '''

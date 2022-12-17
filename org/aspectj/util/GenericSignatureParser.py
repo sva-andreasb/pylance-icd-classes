@@ -1,6 +1,8 @@
-def GenericSignatureParser():
-    '''public GenericSignatureParser()
+def ():
+    '''returns GenericSignatureParser\n\n
+    ()\n
     '''
 def tokenize():
-    '''public String[] tokenize(final String signatureString)
+    '''returns String[]\n\n
+    tokenize(final String signatureString)\n
     '''

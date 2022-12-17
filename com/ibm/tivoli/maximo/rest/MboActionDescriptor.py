@@ -1,12 +1,12 @@
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getOperation():
-    '''public String getOperation()
-    '''
-def getParamMap():
-    '''public Map<String, String> getParamMap()
+    '''returns String\n\n
+    getOperation()\n
     '''
 def getCfgPropValue():
-    '''public String getCfgPropValue()
+    '''returns String\n\n
+    getCfgPropValue()\n
     '''

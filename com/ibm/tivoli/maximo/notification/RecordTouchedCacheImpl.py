@@ -1,19 +1,25 @@
-def RecordTouchedCacheImpl():
-    '''public RecordTouchedCacheImpl()
+def ():
+    '''returns RecordTouchedCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isRecordTouched():
-    '''public boolean isRecordTouched(final String osName, final Long objectid, final String personId)
+    '''returns boolean\n\n
+    isRecordTouched(final String osName, final Long objectid, final String personId)\n
     '''
 def isRecordInTouchLog():
-    '''public boolean isRecordInTouchLog(final String osName, final Long objectid)
+    '''returns boolean\n\n
+    isRecordInTouchLog(final String osName, final Long objectid)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

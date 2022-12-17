@@ -1,143 +1,190 @@
 CACHEKEY_ASSIGNMENTACTIVITYMAP = "String  \"CrewActivityDataManager-assignmentmap\""
-def CrewActivityDataManager():
-    '''public CrewActivityDataManager()
+def ():
+    '''returns CrewActivityDataManager\n\n
+    ()\n
     '''
 def initializeActivity():
-    '''public void initializeActivity(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)
+    '''returns None\n\n
+    initializeActivity(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)\n
     '''
 def populateActivities():
-    '''public void populateActivities(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateActivities(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def populateCrewActivities():
-    '''public void populateCrewActivities(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateCrewActivities(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def getAmcrewLaborExcludeQuery():
-    '''public String getAmcrewLaborExcludeQuery(final int dbType)
+    '''returns String\n\n
+    getAmcrewLaborExcludeQuery(final int dbType)\n
     '''
 def getAmcrewLaborRestrictQuery():
-    '''public String getAmcrewLaborRestrictQuery(final int dbType)
+    '''returns String\n\n
+    getAmcrewLaborRestrictQuery(final int dbType)\n
     '''
 def getAmcrewAssetExcludeQuery():
-    '''public String getAmcrewAssetExcludeQuery(final int dbType)
+    '''returns String\n\n
+    getAmcrewAssetExcludeQuery(final int dbType)\n
     '''
 def getAmcrewAssetRestrictQuery():
-    '''public String getAmcrewAssetRestrictQuery(final int dbType)
+    '''returns String\n\n
+    getAmcrewAssetRestrictQuery(final int dbType)\n
     '''
 def populateCrewLabActivities():
-    '''public void populateCrewLabActivities(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateCrewLabActivities(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def getOrgQuery():
-    '''public String getOrgQuery()
+    '''returns String\n\n
+    getOrgQuery()\n
     '''
 def getDateOnlyDBSqlString():
-    '''public String[] getDateOnlyDBSqlString(final int dbType)
+    '''returns String[]\n\n
+    getDateOnlyDBSqlString(final int dbType)\n
     '''
 def getSelectDateDBSqlString():
-    '''public String getSelectDateDBSqlString(final int dbType)
+    '''returns String\n\n
+    getSelectDateDBSqlString(final int dbType)\n
     '''
 def getDateDBSqlString():
-    '''public String[] getDateDBSqlString(final int dbType)
+    '''returns String[]\n\n
+    getDateDBSqlString(final int dbType)\n
     '''
 def populateCrewLabposActivities():
-    '''public void populateCrewLabposActivities(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateCrewLabposActivities(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def populateActivityPropertyDetails():
-    '''public void populateActivityPropertyDetails()
+    '''returns None\n\n
+    populateActivityPropertyDetails()\n
     '''
 def getCompleteQueryWhere():
-    '''public String getCompleteQueryWhere(final String objectName, final HashMap<String, ArrayList<String>> queryMap)
+    '''returns String\n\n
+    getCompleteQueryWhere(final String objectName, final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def getDefaultRestriction():
-    '''public String getDefaultRestriction(final String objectName)
+    '''returns String\n\n
+    getDefaultRestriction(final String objectName)\n
     '''
 def linkChildDummyNode():
-    '''public List<IlvActivity> linkChildDummyNode(final MXActivity activity, final MXGanttModel model, final SKDAppService.ActivityData activityData)
+    '''returns List<IlvActivity>\n\n
+    linkChildDummyNode(final MXActivity activity, final MXGanttModel model, final SKDAppService.ActivityData activityData)\n
     '''
 def loadActivity():
-    '''public void loadActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)
-    public void loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)
+    '''returns None\n\n
+    loadActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)\n
+    loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)\n
     '''
 def activityRecordCount():
-    '''public int activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns int\n\n
+    activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def saveActivities():
-    '''public void saveActivities(final IlvGeneralActivity activity, final MXTransaction txn)
+    '''returns None\n\n
+    saveActivities(final IlvGeneralActivity activity, final MXTransaction txn)\n
     '''
 def applyAssignmentChanges():
-    '''public void applyAssignmentChanges(final IlvGeneralActivity activity, final MXTransaction txn)
+    '''returns None\n\n
+    applyAssignmentChanges(final IlvGeneralActivity activity, final MXTransaction txn)\n
     '''
 def createAMCrewLabor():
-    '''public void createAMCrewLabor(final String position, final String laborCode, final String craft, final String skillLevel, final String vendor, final String contractNum, final String orgId, final MboRemote amCrew, final Date fromDateTime, final Date toDateTime, final MboSetRemote AssignSet)
+    '''returns None\n\n
+    createAMCrewLabor(final String position, final String laborCode, final String craft, final String skillLevel, final String vendor, final String contractNum, final String orgId, final MboRemote amCrew, final Date fromDateTime, final Date toDateTime, final MboSetRemote AssignSet)\n
     '''
 def replaceAMCrewLabor():
-    '''public void replaceAMCrewLabor(final String position, final String laborCode, final String toLaborCode, final String craft, final String skillLevel, final String vendor, final String contractNum, final String orgId, final MboRemote amCrew, final Date fromDateTime, final Date toDateTime, final MboSetRemote AssignSet)
+    '''returns None\n\n
+    replaceAMCrewLabor(final String position, final String laborCode, final String toLaborCode, final String craft, final String skillLevel, final String vendor, final String contractNum, final String orgId, final MboRemote amCrew, final Date fromDateTime, final Date toDateTime, final MboSetRemote AssignSet)\n
     '''
 def removeAMCrewLabor():
-    '''public void removeAMCrewLabor(final String laborCode, final String craft, final String skillLevel, final String vendor, final String contractNum, final String orgId, final MboRemote amCrew, final Date endDateTime, final Date returnDateTime, final MboSetRemote AssignSet)
+    '''returns None\n\n
+    removeAMCrewLabor(final String laborCode, final String craft, final String skillLevel, final String vendor, final String contractNum, final String orgId, final MboRemote amCrew, final Date endDateTime, final Date returnDateTime, final MboSetRemote AssignSet)\n
     '''
 def createAMCrewTool():
-    '''public void createAMCrewTool(final String amcrew, final String toolSeq, final String assetNum, final String siteid, final String itemNum, final String setid, final MboRemote amCrew, final Date fromDateTime, final Date toDateTime, final MboSetRemote AssignSet)
+    '''returns None\n\n
+    createAMCrewTool(final String amcrew, final String toolSeq, final String assetNum, final String siteid, final String itemNum, final String setid, final MboRemote amCrew, final Date fromDateTime, final Date toDateTime, final MboSetRemote AssignSet)\n
     '''
 def replaceAMCrewTool():
-    '''public void replaceAMCrewTool(final String amcrew, final String toolSeq, final String assetNum, final String toAssetNum, final String siteid, final String itemNum, final String setid, final MboRemote amCrew, final Date fromDateTime, final Date toDateTime, final MboSetRemote AssignSet)
+    '''returns None\n\n
+    replaceAMCrewTool(final String amcrew, final String toolSeq, final String assetNum, final String toAssetNum, final String siteid, final String itemNum, final String setid, final MboRemote amCrew, final Date fromDateTime, final Date toDateTime, final MboSetRemote AssignSet)\n
     '''
 def removeAMCrewTool():
-    '''public void removeAMCrewTool(final String amcrew, final String toolSeq, final String assetNum, final String siteid, final String itemNum, final String setid, final MboRemote amCrew, final Date origEndDateTime, final Date returnDateTime, final MboSetRemote AssignSet)
+    '''returns None\n\n
+    removeAMCrewTool(final String amcrew, final String toolSeq, final String assetNum, final String siteid, final String itemNum, final String setid, final MboRemote amCrew, final Date origEndDateTime, final Date returnDateTime, final MboSetRemote AssignSet)\n
     '''
 def applyActivityChange():
-    '''public void applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)
+    '''returns None\n\n
+    applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)\n
     '''
 def populateCrewToolSqActivities():
-    '''public void populateCrewToolSqActivities(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateCrewToolSqActivities(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def populateCrewToolActivities():
-    '''public void populateCrewToolActivities(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateCrewToolActivities(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def loadAdditionalActivities():
-    '''public void loadAdditionalActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)
+    '''returns None\n\n
+    loadAdditionalActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)\n
     '''
 def loadWorkAndNonWorkActivities():
-    '''public void loadWorkAndNonWorkActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)
+    '''returns None\n\n
+    loadWorkAndNonWorkActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)\n
     '''
 def getAMCrew():
-    '''public String getAMCrew()
+    '''returns String\n\n
+    getAMCrew()\n
     '''
 def setAMCrew():
-    '''public void setAMCrew(final String amcrew)
+    '''returns None\n\n
+    setAMCrew(final String amcrew)\n
     '''
 def getOrgId():
-    '''public String getOrgId()
+    '''returns String\n\n
+    getOrgId()\n
     '''
 def setOrgId():
-    '''public void setOrgId(final String orgId)
+    '''returns None\n\n
+    setOrgId(final String orgId)\n
     '''
 def getCalnum():
-    '''public String getCalnum()
+    '''returns String\n\n
+    getCalnum()\n
     '''
 def setCalnum():
-    '''public void setCalnum(final String calnum)
+    '''returns None\n\n
+    setCalnum(final String calnum)\n
     '''
 def getShiftnum():
-    '''public String getShiftnum()
+    '''returns String\n\n
+    getShiftnum()\n
     '''
 def setShiftnum():
-    '''public void setShiftnum(final String shiftnum)
+    '''returns None\n\n
+    setShiftnum(final String shiftnum)\n
     '''
 def getAssignDate():
-    '''public Date getAssignDate()
+    '''returns Date\n\n
+    getAssignDate()\n
     '''
 def setAssignDate():
-    '''public void setAssignDate(final Date assignDate)
+    '''returns None\n\n
+    setAssignDate(final Date assignDate)\n
     '''
 def getAssignSeqNo():
-    '''public int getAssignSeqNo()
+    '''returns int\n\n
+    getAssignSeqNo()\n
     '''
 def setAssignSeqNo():
-    '''public void setAssignSeqNo(final int assignSeqNo)
+    '''returns None\n\n
+    setAssignSeqNo(final int assignSeqNo)\n
     '''
 def getRemarks():
-    '''public String getRemarks()
+    '''returns String\n\n
+    getRemarks()\n
     '''
 def setRemarks():
-    '''public void setRemarks(final String remarks)
+    '''returns None\n\n
+    setRemarks(final String remarks)\n
     '''

@@ -1,6 +1,8 @@
-def FldCommodityOwner():
-    '''public FldCommodityOwner(final MboValue mbv)
+def ():
+    '''returns FldCommodityOwner\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

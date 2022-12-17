@@ -8,54 +8,64 @@ RID = "String  \"rid\""
 PREKEY = "String  \"prekey\""
 IV = "String  \"iv\""
 PAYLOAD = "String  \"payload\""
-def OmemoElement():
-    '''public OmemoElement(final OmemoHeader header, final byte[] payload)
+def ():
+    '''returns Key\n\n
+    (final OmemoHeader header, final byte[] payload)\n
+    (final int sid, final ArrayList<Key> keys, final byte[] iv)\n
+    (final byte[] data, final int id)\n
+    (final byte[] data, final int id, final boolean preKey)\n
     '''
 def getHeader():
-    '''public OmemoHeader getHeader()
+    '''returns OmemoHeader\n\n
+    getHeader()\n
     '''
 def getPayload():
-    '''public byte[] getPayload()
+    '''returns byte[]\n\n
+    getPayload()\n
     '''
 def isKeyTransportElement():
-    '''public boolean isKeyTransportElement()
+    '''returns boolean\n\n
+    isKeyTransportElement()\n
     '''
 def isMessageElement():
-    '''public boolean isMessageElement()
-    '''
-def OmemoHeader():
-    '''public OmemoHeader(final int sid, final ArrayList<Key> keys, final byte[] iv)
+    '''returns boolean\n\n
+    isMessageElement()\n
     '''
 def getSid():
-    '''public int getSid()
+    '''returns int\n\n
+    getSid()\n
     '''
 def getKeys():
-    '''public ArrayList<Key> getKeys()
+    '''returns ArrayList<Key>\n\n
+    getKeys()\n
     '''
 def getIv():
-    '''public byte[] getIv()
+    '''returns byte[]\n\n
+    getIv()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    '''
-def Key():
-    '''public Key(final byte[] data, final int id)
-    public Key(final byte[] data, final int id, final boolean preKey)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def isPreKey():
-    '''public boolean isPreKey()
+    '''returns boolean\n\n
+    isPreKey()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

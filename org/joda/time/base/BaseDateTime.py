@@ -1,19 +1,22 @@
-def BaseDateTime():
-    '''public BaseDateTime()
-    public BaseDateTime(final DateTimeZone dateTimeZone)
-    public BaseDateTime(final Chronology chronology)
-    public BaseDateTime(final long n)
-    public BaseDateTime(final long n, final DateTimeZone dateTimeZone)
-    public BaseDateTime(final long n, final Chronology chronology)
-    public BaseDateTime(final Object o, final DateTimeZone dateTimeZone)
-    public BaseDateTime(final Object o, final Chronology chronology)
-    public BaseDateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
-    public BaseDateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final DateTimeZone dateTimeZone)
-    public BaseDateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final Chronology chronology)
+def ():
+    '''returns BaseDateTime\n\n
+    ()\n
+    (final DateTimeZone dateTimeZone)\n
+    (final Chronology chronology)\n
+    (final long n)\n
+    (final long n, final DateTimeZone dateTimeZone)\n
+    (final long n, final Chronology chronology)\n
+    (final Object o, final DateTimeZone dateTimeZone)\n
+    (final Object o, final Chronology chronology)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final DateTimeZone dateTimeZone)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final Chronology chronology)\n
     '''
 def getMillis():
-    '''public long getMillis()
+    '''returns long\n\n
+    getMillis()\n
     '''
 def getChronology():
-    '''public Chronology getChronology()
+    '''returns Chronology\n\n
+    getChronology()\n
     '''

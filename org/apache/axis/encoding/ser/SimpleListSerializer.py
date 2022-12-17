@@ -1,16 +1,21 @@
-def SimpleListSerializer():
-    '''public SimpleListSerializer(final Class javaType, final QName xmlType)
-    public SimpleListSerializer(final Class javaType, final QName xmlType, final TypeDesc typeDesc)
+def ():
+    '''returns SimpleListSerializer\n\n
+    (final Class javaType, final QName xmlType)\n
+    (final Class javaType, final QName xmlType, final TypeDesc typeDesc)\n
     '''
 def serialize():
-    '''public void serialize(final QName name, Attributes attributes, final Object value, final SerializationContext context)
+    '''returns None\n\n
+    serialize(final QName name, Attributes attributes, final Object value, final SerializationContext context)\n
     '''
 def getValueAsString():
-    '''public String getValueAsString(final Object value, final SerializationContext context)
+    '''returns String\n\n
+    getValueAsString(final Object value, final SerializationContext context)\n
     '''
 def getMechanismType():
-    '''public String getMechanismType()
+    '''returns String\n\n
+    getMechanismType()\n
     '''
 def writeSchema():
-    '''public Element writeSchema(final Class javaType, final Types types)
+    '''returns Element\n\n
+    writeSchema(final Class javaType, final Types types)\n
     '''

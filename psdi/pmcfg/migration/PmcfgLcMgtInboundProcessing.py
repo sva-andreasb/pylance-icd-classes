@@ -1,10 +1,13 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmcfgLcMgtInboundProcessing():
-    '''public PmcfgLcMgtInboundProcessing()
+def ():
+    '''returns PmcfgLcMgtInboundProcessing\n\n
+    ()\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''
 def checkAdditionalRules():
-    '''public void checkAdditionalRules()
+    '''returns None\n\n
+    checkAdditionalRules()\n
     '''

@@ -1,79 +1,86 @@
 FOW_PRIME = "long  1099511628211L"
 def logActiveBeans():
-    '''public void logActiveBeans(final Logger logger)
+    '''returns None\n\n
+    logActiveBeans(final Logger logger)\n
     '''
-def MonitorAgentImpl():
-    '''public MonitorAgentImpl(final boolean isHttp_, final ControllerAgent httpCA_, final int n, final String monitorServerName_, final int portNumber_, final int interval, final ProxiedJdbcDataSource proxiedDataSource_, final String supportedKeyTypes_, final String s, final String s2, final String s3, final String s4)
+def ():
+    '''returns NewTimerAction\n\n
+    (final boolean isHttp_, final ControllerAgent httpCA_, final int n, final String monitorServerName_, final int portNumber_, final int interval, final ProxiedJdbcDataSource proxiedDataSource_, final String supportedKeyTypes_, final String s, final String s2, final String s3, final String s4)\n
+    (final boolean isDaemon_)\n
     '''
 def getConnection():
-    '''public void getConnection()
+    '''returns None\n\n
+    getConnection()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def isConnectionActive():
-    '''public boolean isConnectionActive()
+    '''returns boolean\n\n
+    isConnectionActive()\n
     '''
 def setReconnectFlag():
-    '''public void setReconnectFlag(final boolean tryReconect_)
+    '''returns None\n\n
+    setReconnectFlag(final boolean tryReconect_)\n
     '''
 def getReconnectFlag():
-    '''public boolean getReconnectFlag()
+    '''returns boolean\n\n
+    getReconnectFlag()\n
     '''
 def getProtocol():
-    '''public int getProtocol()
+    '''returns int\n\n
+    getProtocol()\n
     '''
 def reportFirstConnection():
-    '''public void reportFirstConnection(final DataBeanFirstConnection postConnectionBean_)
+    '''returns None\n\n
+    reportFirstConnection(final DataBeanFirstConnection postConnectionBean_)\n
     '''
 def reportPostTransaction():
-    '''public void reportPostTransaction(final DataBeanTransactionExecution dataBeanTransactionExecution)
-    '''
-def hashCodeFowler():
-    '''public synchronized long hashCodeFowler(final String s, final int n)
-    '''
-def getPostTransactionsToSend():
-    '''public synchronized List<DataBeanTransactionExecution> getPostTransactionsToSend()
+    '''returns None\n\n
+    reportPostTransaction(final DataBeanTransactionExecution dataBeanTransactionExecution)\n
     '''
 def unsynchronizedTransactionBeanClear():
-    '''public void unsynchronizedTransactionBeanClear()
-    '''
-def update():
-    '''public synchronized void update(final int n, final int n2, final String s, final int portNumber_, final int n3, final int interval, final String supportedKeyTypes_, final String s2, final String s3, final String s4, final String s5)
+    '''returns None\n\n
+    unsynchronizedTransactionBeanClear()\n
     '''
 def getMonitorInfo():
-    '''public String getMonitorInfo()
+    '''returns String\n\n
+    getMonitorInfo()\n
     '''
 def getNegotiatedVersion():
-    '''public int getNegotiatedVersion()
+    '''returns int\n\n
+    getNegotiatedVersion()\n
     '''
 def getServerVersion():
-    '''public int getServerVersion()
+    '''returns int\n\n
+    getServerVersion()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def maskClientInfo():
-    '''public void maskClientInfo(final String[] array)
+    '''returns None\n\n
+    maskClientInfo(final String[] array)\n
     '''
 def maskClientUser():
-    '''public String maskClientUser(final String s)
+    '''returns String\n\n
+    maskClientUser(final String s)\n
     '''
 def maskClientWorkstation():
-    '''public String maskClientWorkstation(final String s)
+    '''returns String\n\n
+    maskClientWorkstation(final String s)\n
     '''
 def maskClientApplicationInformation():
-    '''public String maskClientApplicationInformation(final String s)
+    '''returns String\n\n
+    maskClientApplicationInformation(final String s)\n
     '''
 def maskClientAccountingInformation():
-    '''public String maskClientAccountingInformation(final String s)
-    '''
-def updateIntervalSettings():
-    '''public synchronized void updateIntervalSettings(final int dispatchToken_, final int n)
-    '''
-def NewTimerAction():
-    '''public NewTimerAction(final boolean isDaemon_)
+    '''returns String\n\n
+    maskClientAccountingInformation(final String s)\n
     '''
 def run():
-    '''public Timer run()
+    '''returns Timer\n\n
+    run()\n
     '''

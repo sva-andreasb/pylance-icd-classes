@@ -1,54 +1,51 @@
-def on():
-    '''public static Splitter on(final char separator)
-    public static Splitter on(final CharMatcher separatorMatcher)
-    public static Splitter on(final String separator)
-    public static Splitter on(final Pattern separatorPattern)
-    '''
 def iterator():
-    '''public SplittingIterator iterator(final Splitter splitter, final CharSequence toSplit)
-    public SplittingIterator iterator(final Splitter splitter, final CharSequence toSplit)
-    public SplittingIterator iterator(final Splitter splitter, final CharSequence toSplit)
-    public SplittingIterator iterator(final Splitter splitter, final CharSequence toSplit)
-    public Iterator<String> iterator()
+    '''returns Iterator<String>\n\n
+    iterator(final Splitter splitter, final CharSequence toSplit)\n
+    iterator(final Splitter splitter, final CharSequence toSplit)\n
+    iterator(final Splitter splitter, final CharSequence toSplit)\n
+    iterator(final Splitter splitter, final CharSequence toSplit)\n
+    iterator()\n
     '''
 def separatorStart():
-    '''public int separatorStart(final int start)
-    public int separatorStart(final int start)
-    public int separatorStart(final int start)
+    '''returns int\n\n
+    separatorStart(final int start)\n
+    separatorStart(final int start)\n
+    separatorStart(final int start)\n
     '''
 def separatorEnd():
-    '''public int separatorEnd(final int separatorPosition)
-    public int separatorEnd(final int separatorPosition)
-    public int separatorEnd(final int separatorPosition)
-    '''
-def onPattern():
-    '''public static Splitter onPattern(final String separatorPattern)
-    '''
-def fixedLength():
-    '''public static Splitter fixedLength(final int length)
+    '''returns int\n\n
+    separatorEnd(final int separatorPosition)\n
+    separatorEnd(final int separatorPosition)\n
+    separatorEnd(final int separatorPosition)\n
     '''
 def omitEmptyStrings():
-    '''public Splitter omitEmptyStrings()
+    '''returns Splitter\n\n
+    omitEmptyStrings()\n
     '''
 def limit():
-    '''public Splitter limit(final int limit)
+    '''returns Splitter\n\n
+    limit(final int limit)\n
     '''
 def trimResults():
-    '''public Splitter trimResults()
-    public Splitter trimResults(final CharMatcher trimmer)
+    '''returns Splitter\n\n
+    trimResults()\n
+    trimResults(final CharMatcher trimmer)\n
     '''
 def split():
-    '''public Iterable<String> split(final CharSequence sequence)
-    public Map<String, String> split(final CharSequence sequence)
+    '''returns Iterable<String>\n\n
+    split(final CharSequence sequence)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def splitToList():
-    '''public List<String> splitToList(final CharSequence sequence)
+    '''returns List<String>\n\n
+    splitToList(final CharSequence sequence)\n
     '''
 def withKeyValueSeparator():
-    '''public MapSplitter withKeyValueSeparator(final String separator)
-    public MapSplitter withKeyValueSeparator(final char separator)
-    public MapSplitter withKeyValueSeparator(final Splitter keyValueSplitter)
+    '''returns MapSplitter\n\n
+    withKeyValueSeparator(final String separator)\n
+    withKeyValueSeparator(final char separator)\n
+    withKeyValueSeparator(final Splitter keyValueSplitter)\n
     '''

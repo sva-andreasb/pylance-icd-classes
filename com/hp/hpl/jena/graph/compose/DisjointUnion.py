@@ -1,15 +1,20 @@
-def DisjointUnion():
-    '''public DisjointUnion(final Graph L, final Graph R)
+def ():
+    '''returns DisjointUnion\n\n
+    (final Graph L, final Graph R)\n
     '''
 def graphBaseFind():
-    '''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch m)
+    '''returns ExtendedIterator<Triple>\n\n
+    graphBaseFind(final TripleMatch m)\n
     '''
 def graphBaseContains():
-    '''public boolean graphBaseContains(final Triple t)
+    '''returns boolean\n\n
+    graphBaseContains(final Triple t)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple t)
+    '''returns None\n\n
+    performDelete(final Triple t)\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''

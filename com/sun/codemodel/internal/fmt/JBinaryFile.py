@@ -1,9 +1,12 @@
-def JBinaryFile():
-    '''public JBinaryFile(final String name)
+def ():
+    '''returns JBinaryFile\n\n
+    (final String name)\n
     '''
 def getDataStore():
-    '''public OutputStream getDataStore()
+    '''returns OutputStream\n\n
+    getDataStore()\n
     '''
 def build():
-    '''public void build(final OutputStream os)
+    '''returns None\n\n
+    build(final OutputStream os)\n
     '''

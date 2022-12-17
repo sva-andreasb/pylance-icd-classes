@@ -1,13 +1,17 @@
-def SKDEditConstraintSet():
-    '''public SKDEditConstraintSet(final MboServerInterface ms)
+def ():
+    '''returns SKDEditConstraintSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def preSetValues():
-    '''public void preSetValues(final Hashtable htValues)
-    public void preSetValues(final List<Hashtable> htValuesList)
+    '''returns None\n\n
+    preSetValues(final Hashtable htValues)\n
+    preSetValues(final List<Hashtable> htValuesList)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

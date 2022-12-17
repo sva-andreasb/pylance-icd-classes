@@ -1,9 +1,12 @@
-def ActionsCfgSet():
-    '''public ActionsCfgSet(final MboServerInterface ms)
+def ():
+    '''returns ActionsCfgSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getFavoriteActions():
-    '''public ArrayList getFavoriteActions()
+    '''returns ArrayList\n\n
+    getFavoriteActions()\n
     '''
 def updateActions():
-    '''public void updateActions(final MboSetRemote dataSet)
+    '''returns None\n\n
+    updateActions(final MboSetRemote dataSet)\n
     '''

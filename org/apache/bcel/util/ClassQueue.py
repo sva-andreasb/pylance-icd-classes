@@ -1,15 +1,20 @@
-def ClassQueue():
-    '''public ClassQueue()
+def ():
+    '''returns ClassQueue\n\n
+    ()\n
     '''
 def enqueue():
-    '''public void enqueue(final JavaClass clazz)
+    '''returns None\n\n
+    enqueue(final JavaClass clazz)\n
     '''
 def dequeue():
-    '''public JavaClass dequeue()
+    '''returns JavaClass\n\n
+    dequeue()\n
     '''
 def empty():
-    '''public boolean empty()
+    '''returns boolean\n\n
+    empty()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

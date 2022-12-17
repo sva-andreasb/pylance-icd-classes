@@ -1,33 +1,43 @@
 STATE_ACTIVE = "String  \"ACTIVE\""
 STATE_INACTIVE = "String  \"INACTIVE\""
 STATE_VALIDATE = "String  \"VALIDATE\""
-def EditionInfo():
-    '''public EditionInfo(final String compositeName, final String cellName)
+def ():
+    '''returns EditionInfo\n\n
+    (final String compositeName, final String cellName)\n
     '''
 def getCellName():
-    '''public String getCellName()
+    '''returns String\n\n
+    getCellName()\n
     '''
 def getCompositeName():
-    '''public String getCompositeName()
+    '''returns String\n\n
+    getCompositeName()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def getEdition():
-    '''public String getEdition()
+    '''returns String\n\n
+    getEdition()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getEditionState():
-    '''public String getEditionState()
+    '''returns String\n\n
+    getEditionState()\n
     '''
 def setEditionState():
-    '''public void setEditionState(final String state)
+    '''returns None\n\n
+    setEditionState(final String state)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

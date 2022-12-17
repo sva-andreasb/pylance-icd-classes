@@ -1,3 +1,4 @@
-def FldSecurityRestrictConditionNum():
-    '''public FldSecurityRestrictConditionNum(final MboValue mbv)
+def ():
+    '''returns FldSecurityRestrictConditionNum\n\n
+    (final MboValue mbv)\n
     '''

@@ -6,73 +6,88 @@ FILE_PAGE = "int  4"
 NAMED_DEST = "int  5"
 LAUNCH = "int  6"
 SCREEN = "int  7"
-def Annotation():
-    '''public Annotation(final String title, final String text)
-    public Annotation(final String title, final String text, final float llx, final float lly, final float urx, final float ury)
-    public Annotation(final float llx, final float lly, final float urx, final float ury, final URL url)
-    public Annotation(final float llx, final float lly, final float urx, final float ury, final String url)
-    public Annotation(final float llx, final float lly, final float urx, final float ury, final String file, final String dest)
-    public Annotation(final float llx, final float lly, final float urx, final float ury, final String moviePath, final String mimeType, final boolean showOnDisplay)
-    public Annotation(final float llx, final float lly, final float urx, final float ury, final String file, final int page)
-    public Annotation(final float llx, final float lly, final float urx, final float ury, final int named)
-    public Annotation(final float llx, final float lly, final float urx, final float ury, final String application, final String parameters, final String operation, final String defaultdir)
-    public Annotation(final Properties attributes)
+def ():
+    '''returns Annotation\n\n
+    (final String title, final String text)\n
+    (final String title, final String text, final float llx, final float lly, final float urx, final float ury)\n
+    (final float llx, final float lly, final float urx, final float ury, final URL url)\n
+    (final float llx, final float lly, final float urx, final float ury, final String url)\n
+    (final float llx, final float lly, final float urx, final float ury, final String file, final String dest)\n
+    (final float llx, final float lly, final float urx, final float ury, final String moviePath, final String mimeType, final boolean showOnDisplay)\n
+    (final float llx, final float lly, final float urx, final float ury, final String file, final int page)\n
+    (final float llx, final float lly, final float urx, final float ury, final int named)\n
+    (final float llx, final float lly, final float urx, final float ury, final String application, final String parameters, final String operation, final String defaultdir)\n
+    (final Properties attributes)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def setDimensions():
-    '''public void setDimensions(final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    setDimensions(final float llx, final float lly, final float urx, final float ury)\n
     '''
 def llx():
-    '''public float llx()
-    public float llx(final float def)
+    '''returns float\n\n
+    llx()\n
+    llx(final float def)\n
     '''
 def lly():
-    '''public float lly()
-    public float lly(final float def)
+    '''returns float\n\n
+    lly()\n
+    lly(final float def)\n
     '''
 def urx():
-    '''public float urx()
-    public float urx(final float def)
+    '''returns float\n\n
+    urx()\n
+    urx(final float def)\n
     '''
 def ury():
-    '''public float ury()
-    public float ury(final float def)
+    '''returns float\n\n
+    ury()\n
+    ury(final float def)\n
     '''
 def annotationType():
-    '''public int annotationType()
+    '''returns int\n\n
+    annotationType()\n
     '''
 def title():
-    '''public String title()
+    '''returns String\n\n
+    title()\n
     '''
 def content():
-    '''public String content()
+    '''returns String\n\n
+    content()\n
     '''
 def attributes():
-    '''public HashMap attributes()
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns HashMap\n\n
+    attributes()\n
     '''
 def setMarkupAttribute():
-    '''public void setMarkupAttribute(final String name, final String value)
+    '''returns None\n\n
+    setMarkupAttribute(final String name, final String value)\n
     '''
 def setMarkupAttributes():
-    '''public void setMarkupAttributes(final Properties markupAttributes)
+    '''returns None\n\n
+    setMarkupAttributes(final Properties markupAttributes)\n
     '''
 def getMarkupAttribute():
-    '''public String getMarkupAttribute(final String name)
+    '''returns String\n\n
+    getMarkupAttribute(final String name)\n
     '''
 def getMarkupAttributeNames():
-    '''public Set getMarkupAttributeNames()
+    '''returns Set\n\n
+    getMarkupAttributeNames()\n
     '''
 def getMarkupAttributes():
-    '''public Properties getMarkupAttributes()
+    '''returns Properties\n\n
+    getMarkupAttributes()\n
     '''

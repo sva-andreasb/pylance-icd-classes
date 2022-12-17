@@ -1,12 +1,15 @@
 ELEMENT = "String  \"disable\""
 NAMESPACE = "String  \"urn:xmpp:push:0\""
-def DisablePushNotificationsIQ():
-    '''public DisablePushNotificationsIQ(final Jid jid, final String node)
-    public DisablePushNotificationsIQ(final Jid jid)
+def ():
+    '''returns DisablePushNotificationsIQ\n\n
+    (final Jid jid, final String node)\n
+    (final Jid jid)\n
     '''
 def getJid():
-    '''public Jid getJid()
+    '''returns Jid\n\n
+    getJid()\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''

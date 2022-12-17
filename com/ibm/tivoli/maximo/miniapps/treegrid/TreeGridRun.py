@@ -34,6 +34,3 @@ TYPE_Empty = "String  \"Empty\""
 TYPE_Nbsp = "String  \"Nbsp\""
 TYPE_Bound = "String  \"Bound\""
 TYPE_End = "String  \"End\""
-def newJSONRunItem():
-    '''public static JSONObject newJSONRunItem(final String id)
-    '''

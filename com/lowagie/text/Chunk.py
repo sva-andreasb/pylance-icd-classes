@@ -17,130 +17,157 @@ HYPHENATION = "String  \"HYPHENATION\""
 TEXTRENDERMODE = "String  \"TEXTRENDERMODE\""
 SKEW = "String  \"SKEW\""
 HSCALE = "String  \"HSCALE\""
-def Chunk():
-    '''public Chunk(final String content, final Font font)
-    public Chunk(final String content)
-    public Chunk(final char c, final Font font)
-    public Chunk(final char c)
-    public Chunk(final Image image, final float offsetX, final float offsetY)
-    public Chunk(final Image image, final float offsetX, final float offsetY, final boolean changeLeading)
-    public Chunk(final Properties attributes)
+def ():
+    '''returns Chunk\n\n
+    (final String content, final Font font)\n
+    (final String content)\n
+    (final char c, final Font font)\n
+    (final char c)\n
+    (final Image image, final float offsetX, final float offsetY)\n
+    (final Image image, final float offsetX, final float offsetY, final boolean changeLeading)\n
+    (final Properties attributes)\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def append():
-    '''public StringBuffer append(final String string)
+    '''returns StringBuffer\n\n
+    append(final String string)\n
     '''
 def font():
-    '''public Font font()
+    '''returns Font\n\n
+    font()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def content():
-    '''public String content()
+    '''returns String\n\n
+    content()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getWidthPoint():
-    '''public float getWidthPoint()
+    '''returns float\n\n
+    getWidthPoint()\n
     '''
 def setTextRise():
-    '''public Chunk setTextRise(final float rise)
+    '''returns Chunk\n\n
+    setTextRise(final float rise)\n
     '''
 def getTextRise():
-    '''public float getTextRise()
+    '''returns float\n\n
+    getTextRise()\n
     '''
 def setTextRenderMode():
-    '''public Chunk setTextRenderMode(final int mode, final float strokeWidth, final Color strokeColor)
+    '''returns Chunk\n\n
+    setTextRenderMode(final int mode, final float strokeWidth, final Color strokeColor)\n
     '''
 def setSkew():
-    '''public Chunk setSkew(float alpha, float beta)
+    '''returns Chunk\n\n
+    setSkew(float alpha, float beta)\n
     '''
 def setHorizontalScaling():
-    '''public Chunk setHorizontalScaling(final float scale)
+    '''returns Chunk\n\n
+    setHorizontalScaling(final float scale)\n
     '''
 def getHorizontalScaling():
-    '''public float getHorizontalScaling()
+    '''returns float\n\n
+    getHorizontalScaling()\n
     '''
 def setAction():
-    '''public Chunk setAction(final PdfAction action)
+    '''returns Chunk\n\n
+    setAction(final PdfAction action)\n
     '''
 def setAnchor():
-    '''public Chunk setAnchor(final URL url)
-    public Chunk setAnchor(final String url)
+    '''returns Chunk\n\n
+    setAnchor(final URL url)\n
+    setAnchor(final String url)\n
     '''
 def setLocalGoto():
-    '''public Chunk setLocalGoto(final String name)
+    '''returns Chunk\n\n
+    setLocalGoto(final String name)\n
     '''
 def setBackground():
-    '''public Chunk setBackground(final Color color)
-    public Chunk setBackground(final Color color, final float extraLeft, final float extraBottom, final float extraRight, final float extraTop)
+    '''returns Chunk\n\n
+    setBackground(final Color color)\n
+    setBackground(final Color color, final float extraLeft, final float extraBottom, final float extraRight, final float extraTop)\n
     '''
 def setUnderline():
-    '''public Chunk setUnderline(final float thickness, final float yPosition)
-    public Chunk setUnderline(final Color color, final float thickness, final float thicknessMul, final float yPosition, final float yPositionMul, final int cap)
-    '''
-def addToArray():
-    '''public static Object[][] addToArray(Object[][] original, final Object[] item)
+    '''returns Chunk\n\n
+    setUnderline(final float thickness, final float yPosition)\n
+    setUnderline(final Color color, final float thickness, final float thicknessMul, final float yPosition, final float yPositionMul, final int cap)\n
     '''
 def setAnnotation():
-    '''public Chunk setAnnotation(final PdfAnnotation annotation)
+    '''returns Chunk\n\n
+    setAnnotation(final PdfAnnotation annotation)\n
     '''
 def setHyphenation():
-    '''public Chunk setHyphenation(final HyphenationEvent hyphenation)
+    '''returns Chunk\n\n
+    setHyphenation(final HyphenationEvent hyphenation)\n
     '''
 def setRemoteGoto():
-    '''public Chunk setRemoteGoto(final String filename, final String name)
-    public Chunk setRemoteGoto(final String filename, final int page)
+    '''returns Chunk\n\n
+    setRemoteGoto(final String filename, final String name)\n
+    setRemoteGoto(final String filename, final int page)\n
     '''
 def setLocalDestination():
-    '''public Chunk setLocalDestination(final String name)
+    '''returns Chunk\n\n
+    setLocalDestination(final String name)\n
     '''
 def setGenericTag():
-    '''public Chunk setGenericTag(final String text)
+    '''returns Chunk\n\n
+    setGenericTag(final String text)\n
     '''
 def setSplitCharacter():
-    '''public Chunk setSplitCharacter(final SplitCharacter splitCharacter)
+    '''returns Chunk\n\n
+    setSplitCharacter(final SplitCharacter splitCharacter)\n
     '''
 def setNewPage():
-    '''public Chunk setNewPage()
+    '''returns Chunk\n\n
+    setNewPage()\n
     '''
 def getAttributes():
-    '''public HashMap getAttributes()
+    '''returns HashMap\n\n
+    getAttributes()\n
     '''
 def hasAttributes():
-    '''public boolean hasAttributes()
+    '''returns boolean\n\n
+    hasAttributes()\n
     '''
 def getImage():
-    '''public Image getImage()
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns Image\n\n
+    getImage()\n
     '''
 def setMarkupAttribute():
-    '''public void setMarkupAttribute(final String name, final String value)
+    '''returns None\n\n
+    setMarkupAttribute(final String name, final String value)\n
     '''
 def setMarkupAttributes():
-    '''public void setMarkupAttributes(final Properties markupAttributes)
+    '''returns None\n\n
+    setMarkupAttributes(final Properties markupAttributes)\n
     '''
 def getMarkupAttribute():
-    '''public String getMarkupAttribute(final String name)
+    '''returns String\n\n
+    getMarkupAttribute(final String name)\n
     '''
 def getMarkupAttributeNames():
-    '''public Set getMarkupAttributeNames()
+    '''returns Set\n\n
+    getMarkupAttributeNames()\n
     '''
 def getMarkupAttributes():
-    '''public Properties getMarkupAttributes()
-    '''
-def getKeySet():
-    '''public static Set getKeySet(final Hashtable table)
+    '''returns Properties\n\n
+    getMarkupAttributes()\n
     '''

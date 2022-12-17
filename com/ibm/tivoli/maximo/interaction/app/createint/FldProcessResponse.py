@@ -1,6 +1,8 @@
-def FldProcessResponse():
-    '''public FldProcessResponse(final MboValue mbv)
+def ():
+    '''returns FldProcessResponse\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

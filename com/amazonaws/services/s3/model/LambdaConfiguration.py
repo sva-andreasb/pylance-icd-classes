@@ -1,7 +1,9 @@
-def LambdaConfiguration():
-    '''public LambdaConfiguration(final String functionARN, final EnumSet<S3Event> events)
-    public LambdaConfiguration(final String functionARN, final String... events)
+def ():
+    '''returns LambdaConfiguration\n\n
+    (final String functionARN, final EnumSet<S3Event> events)\n
+    (final String functionARN, final String... events)\n
     '''
 def getFunctionARN():
-    '''public String getFunctionARN()
+    '''returns String\n\n
+    getFunctionARN()\n
     '''

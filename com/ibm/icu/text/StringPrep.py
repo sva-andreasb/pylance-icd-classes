@@ -14,16 +14,16 @@ RFC4013_SASLPREP = "int  10"
 RFC4505_TRACE = "int  11"
 RFC4518_LDAP = "int  12"
 RFC4518_LDAP_CI = "int  13"
-def StringPrep():
-    '''public StringPrep(final InputStream inputStream)
-    '''
-def getInstance():
-    '''public static StringPrep getInstance(final int profile)
+def ():
+    '''returns StringPrep\n\n
+    (final InputStream inputStream)\n
     '''
 def prepare():
-    '''public StringBuffer prepare(final UCharacterIterator src, final int options)
-    public String prepare(final String src, final int options)
+    '''returns String\n\n
+    prepare(final UCharacterIterator src, final int options)\n
+    prepare(final String src, final int options)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

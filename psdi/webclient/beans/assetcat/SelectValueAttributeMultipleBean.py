@@ -1,12 +1,16 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def attributeSearch():
-    '''public int attributeSearch()
+    '''returns int\n\n
+    attributeSearch()\n
     '''
 def multiSelectRecords():
-    '''public int multiSelectRecords()
+    '''returns int\n\n
+    multiSelectRecords()\n
     '''
 def featureCancel():
-    '''public int featureCancel()
+    '''returns int\n\n
+    featureCancel()\n
     '''

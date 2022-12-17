@@ -1,9 +1,12 @@
-def PmChgBlackOutConstraintUtil():
-    '''public PmChgBlackOutConstraintUtil(final Map<String, PmChgSchedulerTaskInfo> map)
+def ():
+    '''returns PmChgBlackOutConstraintUtil\n\n
+    (final Map<String, PmChgSchedulerTaskInfo> map)\n
     '''
 def applyBlackOutConstraints():
-    '''public void applyBlackOutConstraints(final MboRemote changeMbo, final Date startDate, final Date endDate)
+    '''returns None\n\n
+    applyBlackOutConstraints(final MboRemote changeMbo, final Date startDate, final Date endDate)\n
     '''
 def applyBlackOutConstraintsForImpTask():
-    '''public void applyBlackOutConstraintsForImpTask(final MboRemote taskMbo, final Date startDate, final Date endDate)
+    '''returns None\n\n
+    applyBlackOutConstraintsForImpTask(final MboRemote taskMbo, final Date startDate, final Date endDate)\n
     '''

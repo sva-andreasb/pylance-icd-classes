@@ -1,102 +1,128 @@
-def GanttConfigInfo():
-    '''public GanttConfigInfo()
+def ():
+    '''returns GanttConfigInfo\n\n
+    ()\n
     '''
 def addActivityPropertyInfo():
-    '''public void addActivityPropertyInfo(final IMXActivityPropertyInfo activityPropertyInfo)
+    '''returns None\n\n
+    addActivityPropertyInfo(final IMXActivityPropertyInfo activityPropertyInfo)\n
     '''
 def addResourcePropertyInfo():
-    '''public void addResourcePropertyInfo(final IMXResourcePropertyInfo resourcePropertyInfo)
+    '''returns None\n\n
+    addResourcePropertyInfo(final IMXResourcePropertyInfo resourcePropertyInfo)\n
     '''
 def setResourcePropertyInfo():
-    '''public void setResourcePropertyInfo(final List<IMXResourcePropertyInfo> resPropInfo, final Set<String> resourcePropNames)
+    '''returns None\n\n
+    setResourcePropertyInfo(final List<IMXResourcePropertyInfo> resPropInfo, final Set<String> resourcePropNames)\n
     '''
 def addReservationPropertyInfo():
-    '''public void addReservationPropertyInfo(final IMXReservationPropertyInfo reservationPropertyInfo)
+    '''returns None\n\n
+    addReservationPropertyInfo(final IMXReservationPropertyInfo reservationPropertyInfo)\n
     '''
 def addConstraintPropertyInfo():
-    '''public void addConstraintPropertyInfo(final IMXConstraintPropertyInfo constraintPropertyInfo)
+    '''returns None\n\n
+    addConstraintPropertyInfo(final IMXConstraintPropertyInfo constraintPropertyInfo)\n
     '''
 def getActivityPropertyNames():
-    '''public Iterator getActivityPropertyNames()
+    '''returns Iterator\n\n
+    getActivityPropertyNames()\n
     '''
 def getActivityPropertyInfo():
-    '''public IMXActivityPropertyInfo getActivityPropertyInfo(final String propertyName)
+    '''returns IMXActivityPropertyInfo\n\n
+    getActivityPropertyInfo(final String propertyName)\n
     '''
 def getResourcePropertyNames():
-    '''public Iterator getResourcePropertyNames()
+    '''returns Iterator\n\n
+    getResourcePropertyNames()\n
     '''
 def getResourcePropertyInfo():
-    '''public IMXResourcePropertyInfo getResourcePropertyInfo(final String propertyName)
+    '''returns IMXResourcePropertyInfo\n\n
+    getResourcePropertyInfo(final String propertyName)\n
     '''
 def getReservationPropertyNames():
-    '''public Iterator getReservationPropertyNames()
+    '''returns Iterator\n\n
+    getReservationPropertyNames()\n
     '''
 def getReservationPropertyInfo():
-    '''public IMXReservationPropertyInfo getReservationPropertyInfo(final String propertyName)
+    '''returns IMXReservationPropertyInfo\n\n
+    getReservationPropertyInfo(final String propertyName)\n
     '''
 def getConstraintPropertyNames():
-    '''public Iterator getConstraintPropertyNames()
+    '''returns Iterator\n\n
+    getConstraintPropertyNames()\n
     '''
 def getConstraintPropertyInfo():
-    '''public IMXConstraintPropertyInfo getConstraintPropertyInfo(final String propertyName)
+    '''returns IMXConstraintPropertyInfo\n\n
+    getConstraintPropertyInfo(final String propertyName)\n
     '''
 def getVSplitPaneDividerLocation():
-    '''public int getVSplitPaneDividerLocation()
+    '''returns int\n\n
+    getVSplitPaneDividerLocation()\n
     '''
 def setVSplitPaneDividerLocation():
-    '''public void setVSplitPaneDividerLocation(final int splitPaneDividerLocation)
+    '''returns None\n\n
+    setVSplitPaneDividerLocation(final int splitPaneDividerLocation)\n
     '''
 def getHSplitPaneDividerLocation():
-    '''public int getHSplitPaneDividerLocation()
+    '''returns int\n\n
+    getHSplitPaneDividerLocation()\n
     '''
 def setHSplitPaneDividerLocation():
-    '''public void setHSplitPaneDividerLocation(final int splitPaneDividerLocation)
+    '''returns None\n\n
+    setHSplitPaneDividerLocation(final int splitPaneDividerLocation)\n
     '''
 def getVisibleStartTime():
-    '''public long getVisibleStartTime()
+    '''returns long\n\n
+    getVisibleStartTime()\n
     '''
 def setVisibleStartTime():
-    '''public void setVisibleStartTime(final long visibleStartTime)
+    '''returns None\n\n
+    setVisibleStartTime(final long visibleStartTime)\n
     '''
 def getVisibleInterval():
-    '''public long getVisibleInterval()
+    '''returns long\n\n
+    getVisibleInterval()\n
     '''
 def setVisibleInterval():
-    '''public void setVisibleInterval(final long visibleInterval)
+    '''returns None\n\n
+    setVisibleInterval(final long visibleInterval)\n
     '''
 def getSelectedActivities():
-    '''public ArrayList<String> getSelectedActivities()
+    '''returns ArrayList<String>\n\n
+    getSelectedActivities()\n
     '''
 def setSelectedActivities():
-    '''public void setSelectedActivities(final ArrayList<String> selectedActivities)
+    '''returns None\n\n
+    setSelectedActivities(final ArrayList<String> selectedActivities)\n
     '''
 def getSelectedResources():
-    '''public ArrayList<String> getSelectedResources()
+    '''returns ArrayList<String>\n\n
+    getSelectedResources()\n
     '''
 def setVerticalScrollPosition():
-    '''public void setVerticalScrollPosition(final int vScrollPos)
+    '''returns None\n\n
+    setVerticalScrollPosition(final int vScrollPos)\n
     '''
 def getVerticalScrollPosition():
-    '''public int getVerticalScrollPosition()
+    '''returns int\n\n
+    getVerticalScrollPosition()\n
     '''
 def setSelectedResources():
-    '''public void setSelectedResources(final ArrayList<String> selectedResources)
-    '''
-def getPropertyData():
-    '''public HashMap<String, Object> getPropertyData()
+    '''returns None\n\n
+    setSelectedResources(final ArrayList<String> selectedResources)\n
     '''
 def setPropertyData():
-    '''public void setPropertyData(final HashMap<String, Object> propertyData)
-    '''
-def getSystemPropMap():
-    '''public HashMap<String, Object> getSystemPropMap()
+    '''returns None\n\n
+    setPropertyData(final HashMap<String, Object> propertyData)\n
     '''
 def setSystemPropMap():
-    '''public void setSystemPropMap(final HashMap<String, Object> map)
+    '''returns None\n\n
+    setSystemPropMap(final HashMap<String, Object> map)\n
     '''
 def getPropertyValue():
-    '''public Object getPropertyValue(final String propertyName)
+    '''returns Object\n\n
+    getPropertyValue(final String propertyName)\n
     '''
 def setPropertyValue():
-    '''public void setPropertyValue(final String propertyName, final Object value)
+    '''returns None\n\n
+    setPropertyValue(final String propertyName, final Object value)\n
     '''

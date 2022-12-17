@@ -1,7 +1,9 @@
-def ByWeekNoRule():
-    '''public ByWeekNoRule(final NumberList weekNoList, final Recur.Frequency frequency)
-    public ByWeekNoRule(final NumberList weekNoList, final Recur.Frequency frequency, final Optional<WeekDay.Day> weekStartDay)
+def ():
+    '''returns ByWeekNoRule\n\n
+    (final NumberList weekNoList, final Recur.Frequency frequency)\n
+    (final NumberList weekNoList, final Recur.Frequency frequency, final Optional<WeekDay.Day> weekStartDay)\n
     '''
 def transform():
-    '''public DateList transform(final DateList dates)
+    '''returns DateList\n\n
+    transform(final DateList dates)\n
     '''

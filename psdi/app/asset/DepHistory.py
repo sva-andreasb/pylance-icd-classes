@@ -1,15 +1,20 @@
-def DepHistory():
-    '''public DepHistory(final MboSet ms)
+def ():
+    '''returns DepHistory\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def configurePreviousAsset():
-    '''public void configurePreviousAsset(final AssetRemote asset)
+    '''returns None\n\n
+    configurePreviousAsset(final AssetRemote asset)\n
     '''
 def configureAsset():
-    '''public void configureAsset(final AssetRemote asset)
+    '''returns None\n\n
+    configureAsset(final AssetRemote asset)\n
     '''
 def moveSwapAssetData():
-    '''public void moveSwapAssetData(final AssetRemote asset, final boolean isSameOrg, final String newSite, final String oldSite)
+    '''returns None\n\n
+    moveSwapAssetData(final AssetRemote asset, final boolean isSameOrg, final String newSite, final String oldSite)\n
     '''

@@ -1,90 +1,120 @@
-def ExpBuilderObjectTreeSet():
-    '''public ExpBuilderObjectTreeSet(final MboServerInterface ms)
+def ():
+    '''returns ExpBuilderObjectTreeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setRelationshipTreeObject():
-    '''public void setRelationshipTreeObject(final String treeObject)
+    '''returns None\n\n
+    setRelationshipTreeObject(final String treeObject)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def isDotNotationOn():
-    '''public boolean isDotNotationOn()
+    '''returns boolean\n\n
+    isDotNotationOn()\n
     '''
 def isSubSelectsOn():
-    '''public boolean isSubSelectsOn()
+    '''returns boolean\n\n
+    isSubSelectsOn()\n
     '''
 def isRelationshipsOn():
-    '''public boolean isRelationshipsOn()
+    '''returns boolean\n\n
+    isRelationshipsOn()\n
     '''
 def isAttributesOn():
-    '''public boolean isAttributesOn()
+    '''returns boolean\n\n
+    isAttributesOn()\n
     '''
 def setIncludeNonpersistentAttributes():
-    '''public void setIncludeNonpersistentAttributes(final boolean flag)
+    '''returns None\n\n
+    setIncludeNonpersistentAttributes(final boolean flag)\n
     '''
 def getIncludeNonpersistentAttributes():
-    '''public boolean getIncludeNonpersistentAttributes()
+    '''returns boolean\n\n
+    getIncludeNonpersistentAttributes()\n
     '''
 def setDotNotation():
-    '''public void setDotNotation(final boolean flag)
+    '''returns None\n\n
+    setDotNotation(final boolean flag)\n
     '''
 def setSubSelects():
-    '''public void setSubSelects(final boolean flag)
+    '''returns None\n\n
+    setSubSelects(final boolean flag)\n
     '''
 def setRelationship():
-    '''public void setRelationship(final boolean flag)
+    '''returns None\n\n
+    setRelationship(final boolean flag)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final boolean flag)
+    '''returns None\n\n
+    setAttributes(final boolean flag)\n
     '''
 def getTreeControlProps():
-    '''public HashMap getTreeControlProps()
+    '''returns HashMap\n\n
+    getTreeControlProps()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getDotNotation():
-    '''public String getDotNotation(final int attTreeID)
+    '''returns String\n\n
+    getDotNotation(final int attTreeID)\n
     '''
 def getColonizedNodeValue():
-    '''public String getColonizedNodeValue(final int attTreeID)
+    '''returns String\n\n
+    getColonizedNodeValue(final int attTreeID)\n
     '''
 def getAttributeMboUniqueID():
-    '''public long getAttributeMboUniqueID(final int attTreeID)
+    '''returns long\n\n
+    getAttributeMboUniqueID(final int attTreeID)\n
     '''
 def getSelectedNode():
-    '''public String getSelectedNode(final String maxattributeid)
+    '''returns String\n\n
+    getSelectedNode(final String maxattributeid)\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def isTreeTop():
-    '''public boolean isTreeTop()
+    '''returns boolean\n\n
+    isTreeTop()\n
     '''
 def getAllHierarchies():
-    '''public MboValueData[][] getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getHierarchy():
-    '''public MboValueData[] getHierarchy(final String object, final String key)
+    '''returns MboValueData[]\n\n
+    getHierarchy(final String object, final String key)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String object, final String key, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String object, final String key, final String hierarchy)\n
     '''
 def getUniqueIDValue():
-    '''public MboValueData getUniqueIDValue(final String object, final String[] attributes, final String[] values)
+    '''returns MboValueData\n\n
+    getUniqueIDValue(final String object, final String[] attributes, final String[] values)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

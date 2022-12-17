@@ -1,13 +1,17 @@
-def DomainJSONWriter():
-    '''public DomainJSONWriter(final boolean paging, final int pageSize, final int pageno)
-    public DomainJSONWriter()
+def ():
+    '''returns DomainJSONWriter\n\n
+    (final boolean paging, final int pageSize, final int pageno)\n
+    ()\n
     '''
 def fillTableDomain():
-    '''public JSONObject fillTableDomain(final String dialogLookupName, final List<String> attributesMatch, final String lookupAttr, final MboSetRemote domainSetValues, final String searchValue)
+    '''returns JSONObject\n\n
+    fillTableDomain(final String dialogLookupName, final List<String> attributesMatch, final String lookupAttr, final MboSetRemote domainSetValues, final String searchValue)\n
     '''
 def fillDomain():
-    '''public JSONObject fillDomain(final MboSetRemote domainValuesSET)
+    '''returns JSONObject\n\n
+    fillDomain(final MboSetRemote domainValuesSET)\n
     '''
 def getLabel():
-    '''public String getLabel(final String app, final String id, final String langCode)
+    '''returns String\n\n
+    getLabel(final String app, final String id, final String langCode)\n
     '''

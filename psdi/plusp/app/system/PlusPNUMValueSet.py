@@ -1,3 +1,4 @@
-def PlusPNUMValueSet():
-    '''public PlusPNUMValueSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPNUMValueSet\n\n
+    (final MboServerInterface arg0)\n
     '''

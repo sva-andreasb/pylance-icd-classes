@@ -1,6 +1,8 @@
-def Reaper():
-    '''public Reaper()
+def ():
+    '''returns Reaper\n\n
+    ()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

@@ -1,41 +1,28 @@
 def setIntValue():
-    '''public void setIntValue(final int value)
+    '''returns None\n\n
+    setIntValue(final int value)\n
     '''
 def setIntValues():
-    '''public void setIntValues(final int... point)
+    '''returns None\n\n
+    setIntValues(final int... point)\n
     '''
 def setBytesValue():
-    '''public void setBytesValue(final BytesRef bytes)
+    '''returns None\n\n
+    setBytesValue(final BytesRef bytes)\n
     '''
 def numericValue():
-    '''public Number numericValue()
+    '''returns Number\n\n
+    numericValue()\n
     '''
-def pack():
-    '''public static BytesRef pack(final int... point)
-    '''
-def IntPoint():
-    '''public IntPoint(final String name, final int... point)
+def ():
+    '''returns IntPoint\n\n
+    (final String name, final int... point)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def encodeDimension():
-    '''public static void encodeDimension(final int value, final byte[] dest, final int offset)
-    '''
-def decodeDimension():
-    '''public static int decodeDimension(final byte[] value, final int offset)
-    '''
-def newExactQuery():
-    '''public static Query newExactQuery(final String field, final int value)
-    '''
-def newRangeQuery():
-    '''public static Query newRangeQuery(final String field, final int lowerValue, final int upperValue)
-    public static Query newRangeQuery(final String field, final int[] lowerValue, final int[] upperValue)
-    '''
-def newSetQuery():
-    '''public static Query newSetQuery(final String field, final int... values)
-    public static Query newSetQuery(final String field, final Collection<Integer> values)
+    '''returns String\n\n
+    toString()\n
     '''
 def next():
-    '''public BytesRef next()
+    '''returns BytesRef\n\n
+    next()\n
     '''

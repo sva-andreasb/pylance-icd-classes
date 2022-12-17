@@ -13,144 +13,191 @@ TYPE_BYTE = "String  \"Byte\""
 TYPE_DOUBLE = "String  \"Double\""
 TYPE_FLOAT = "String  \"Float\""
 TYPE_BOOLEAN = "String  \"Boolean\""
-def WSIOAttribute():
-    '''public WSIOAttribute()
+def ():
+    '''returns WSIOAttribute\n\n
+    ()\n
     '''
 def getFractionDigits():
-    '''public int getFractionDigits()
+    '''returns int\n\n
+    getFractionDigits()\n
     '''
 def setFractionDigits():
-    '''public void setFractionDigits(final int fractionDigits)
+    '''returns None\n\n
+    setFractionDigits(final int fractionDigits)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def setLength():
-    '''public void setLength(final int length)
+    '''returns None\n\n
+    setLength(final int length)\n
     '''
 def getMaxLength():
-    '''public int getMaxLength()
+    '''returns int\n\n
+    getMaxLength()\n
     '''
 def setMaxLength():
-    '''public void setMaxLength(final int maxLength)
+    '''returns None\n\n
+    setMaxLength(final int maxLength)\n
     '''
 def getMinLength():
-    '''public int getMinLength()
+    '''returns int\n\n
+    getMinLength()\n
     '''
 def setMinLength():
-    '''public void setMinLength(final int minLength)
+    '''returns None\n\n
+    setMinLength(final int minLength)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean readOnly)
+    '''returns None\n\n
+    setReadOnly(final boolean readOnly)\n
     '''
 def getTotalDigits():
-    '''public int getTotalDigits()
+    '''returns int\n\n
+    getTotalDigits()\n
     '''
 def setTotalDigits():
-    '''public void setTotalDigits(final int totalDigits)
+    '''returns None\n\n
+    setTotalDigits(final int totalDigits)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def isGenerated():
-    '''public boolean isGenerated()
+    '''returns boolean\n\n
+    isGenerated()\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String defaultValue)
+    '''returns None\n\n
+    setDefaultValue(final String defaultValue)\n
     '''
 def getEnumList():
-    '''public List<String> getEnumList()
+    '''returns List<String>\n\n
+    getEnumList()\n
     '''
 def setEnumList():
-    '''public void setEnumList(final List<String> enumList)
+    '''returns None\n\n
+    setEnumList(final List<String> enumList)\n
     '''
 def hasDefaultValue():
-    '''public boolean hasDefaultValue()
+    '''returns boolean\n\n
+    hasDefaultValue()\n
     '''
 def getPatterns():
-    '''public String[] getPatterns()
+    '''returns String[]\n\n
+    getPatterns()\n
     '''
 def setPatterns():
-    '''public void setPatterns(final String[] patterns)
+    '''returns None\n\n
+    setPatterns(final String[] patterns)\n
     '''
 def setContainerAttributeName():
-    '''public void setContainerAttributeName(final String parentAttrName)
+    '''returns None\n\n
+    setContainerAttributeName(final String parentAttrName)\n
     '''
 def getContainerAttributeName():
-    '''public String getContainerAttributeName()
+    '''returns String\n\n
+    getContainerAttributeName()\n
     '''
 def isMapToParent():
-    '''public boolean isMapToParent()
+    '''returns boolean\n\n
+    isMapToParent()\n
     '''
 def setMapToParent():
-    '''public void setMapToParent(final boolean mapToParent)
+    '''returns None\n\n
+    setMapToParent(final boolean mapToParent)\n
     '''
 def validate():
-    '''public void validate(final Object value)
+    '''returns None\n\n
+    validate(final Object value)\n
     '''
 def getContainerAttrId():
-    '''public int getContainerAttrId()
+    '''returns int\n\n
+    getContainerAttrId()\n
     '''
 def setContainerAttrId():
-    '''public void setContainerAttrId(final int parentAttrId)
+    '''returns None\n\n
+    setContainerAttrId(final int parentAttrId)\n
     '''
 def setMaxExclusive():
-    '''public void setMaxExclusive(final String maxExclusive)
+    '''returns None\n\n
+    setMaxExclusive(final String maxExclusive)\n
     '''
 def getMinExclusive():
-    '''public String getMinExclusive()
+    '''returns String\n\n
+    getMinExclusive()\n
     '''
 def setMinExclusive():
-    '''public void setMinExclusive(final String minExclusive)
+    '''returns None\n\n
+    setMinExclusive(final String minExclusive)\n
     '''
 def getMinInclusive():
-    '''public String getMinInclusive()
+    '''returns String\n\n
+    getMinInclusive()\n
     '''
 def setMinInclusive():
-    '''public void setMinInclusive(final String minInclusive)
+    '''returns None\n\n
+    setMinInclusive(final String minInclusive)\n
     '''
 def getMaxInclusive():
-    '''public String getMaxInclusive()
+    '''returns String\n\n
+    getMaxInclusive()\n
     '''
 def setMaxInclusive():
-    '''public void setMaxInclusive(final String maxInclusive)
+    '''returns None\n\n
+    setMaxInclusive(final String maxInclusive)\n
     '''
 def getMaxExclusive():
-    '''public String getMaxExclusive()
+    '''returns String\n\n
+    getMaxExclusive()\n
     '''
 def isXmlAttribute():
-    '''public boolean isXmlAttribute()
+    '''returns boolean\n\n
+    isXmlAttribute()\n
     '''
 def isNillable():
-    '''public boolean isNillable()
+    '''returns boolean\n\n
+    isNillable()\n
     '''
 def setNillable():
-    '''public void setNillable(final boolean nillable)
+    '''returns None\n\n
+    setNillable(final boolean nillable)\n
     '''
 def getParentWSIOName():
-    '''public String getParentWSIOName()
+    '''returns String\n\n
+    getParentWSIOName()\n
     '''
 def setParentWSIOName():
-    '''public void setParentWSIOName(final String parentWSIOName)
+    '''returns None\n\n
+    setParentWSIOName(final String parentWSIOName)\n
     '''
 def setEnumType():
-    '''public void setEnumType(final QName type)
+    '''returns None\n\n
+    setEnumType(final QName type)\n
     '''
 def getEnumType():
-    '''public QName getEnumType()
+    '''returns QName\n\n
+    getEnumType()\n
     '''

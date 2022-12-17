@@ -1,3 +1,4 @@
-def PlusPAppliesToLocSet():
-    '''public PlusPAppliesToLocSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPAppliesToLocSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''

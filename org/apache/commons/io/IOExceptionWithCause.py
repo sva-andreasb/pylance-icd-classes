@@ -1,4 +1,5 @@
-def IOExceptionWithCause():
-    '''public IOExceptionWithCause(final String message, final Throwable cause)
-    public IOExceptionWithCause(final Throwable cause)
+def ():
+    '''returns IOExceptionWithCause\n\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

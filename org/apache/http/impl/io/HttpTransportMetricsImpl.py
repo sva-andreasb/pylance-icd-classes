@@ -1,15 +1,20 @@
-def HttpTransportMetricsImpl():
-    '''public HttpTransportMetricsImpl()
+def ():
+    '''returns HttpTransportMetricsImpl\n\n
+    ()\n
     '''
 def getBytesTransferred():
-    '''public long getBytesTransferred()
+    '''returns long\n\n
+    getBytesTransferred()\n
     '''
 def setBytesTransferred():
-    '''public void setBytesTransferred(final long count)
+    '''returns None\n\n
+    setBytesTransferred(final long count)\n
     '''
 def incrementBytesTransferred():
-    '''public void incrementBytesTransferred(final long count)
+    '''returns None\n\n
+    incrementBytesTransferred(final long count)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

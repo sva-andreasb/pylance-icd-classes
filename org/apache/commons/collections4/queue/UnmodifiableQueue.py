@@ -1,31 +1,37 @@
-def unmodifiableQueue():
-    '''public static <E> Queue<E> unmodifiableQueue(final Queue<? extends E> queue)
-    '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def add():
-    '''public boolean add(final Object object)
+    '''returns boolean\n\n
+    add(final Object object)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
-    public E remove()
+    '''returns E\n\n
+    remove(final Object object)\n
+    remove()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def offer():
-    '''public boolean offer(final E obj)
+    '''returns boolean\n\n
+    offer(final E obj)\n
     '''
 def poll():
-    '''public E poll()
+    '''returns E\n\n
+    poll()\n
     '''

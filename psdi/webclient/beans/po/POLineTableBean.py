@@ -1,12 +1,16 @@
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def distcosts():
-    '''public int distcosts()
+    '''returns int\n\n
+    distcosts()\n
     '''
 def venitems():
-    '''public int venitems()
+    '''returns int\n\n
+    venitems()\n
     '''
 def contractitems():
-    '''public int contractitems()
+    '''returns int\n\n
+    contractitems()\n
     '''

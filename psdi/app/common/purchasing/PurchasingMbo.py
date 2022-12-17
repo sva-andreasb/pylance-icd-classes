@@ -1,84 +1,112 @@
-def PurchasingMbo():
-    '''public PurchasingMbo(final MboSet ms)
+def ():
+    '''returns PurchasingMbo\n\n
+    (final MboSet ms)\n
     '''
 def recalculateTotalCost():
-    '''public void recalculateTotalCost()
+    '''returns None\n\n
+    recalculateTotalCost()\n
     '''
 def recalculateTotalTax():
-    '''public double recalculateTotalTax()
+    '''returns double\n\n
+    recalculateTotalTax()\n
     '''
 def noLimitWhenApprove():
-    '''public void noLimitWhenApprove()
+    '''returns None\n\n
+    noLimitWhenApprove()\n
     '''
 def getInvoiceMgtMaxVar():
-    '''public boolean getInvoiceMgtMaxVar()
+    '''returns boolean\n\n
+    getInvoiceMgtMaxVar()\n
     '''
 def copyTerms():
-    '''public void copyTerms(final MboSetRemote termsSet)
+    '''returns None\n\n
+    copyTerms(final MboSetRemote termsSet)\n
     '''
 def copyAllTerms():
-    '''public void copyAllTerms(final MboSetRemote toTermsSet)
+    '''returns None\n\n
+    copyAllTerms(final MboSetRemote toTermsSet)\n
     '''
 def compareCopyTerms():
-    '''public void compareCopyTerms(final MboRemote fromMbo)
+    '''returns None\n\n
+    compareCopyTerms(final MboRemote fromMbo)\n
     '''
 def createContractHeader():
-    '''public MboRemote createContractHeader(final String contractNum, final String description, final String contractType)
+    '''returns MboRemote\n\n
+    createContractHeader(final String contractNum, final String description, final String contractType)\n
     '''
 def getExchangeRate():
-    '''public double getExchangeRate(final Date date)
+    '''returns double\n\n
+    getExchangeRate(final Date date)\n
     '''
 def getExchangeRate2():
-    '''public double getExchangeRate2(final Date date)
+    '''returns double\n\n
+    getExchangeRate2(final Date date)\n
     '''
 def copyFromContract():
-    '''public void copyFromContract(final MboRemote contractRemote, final MboRemote contractAuthFind)
+    '''returns None\n\n
+    copyFromContract(final MboRemote contractRemote, final MboRemote contractAuthFind)\n
     '''
 def getContractAuth():
-    '''public MboRemote getContractAuth(final MboRemote contractRemote)
+    '''returns MboRemote\n\n
+    getContractAuth(final MboRemote contractRemote)\n
     '''
 def getShowconswarningFlag():
-    '''public boolean getShowconswarningFlag()
+    '''returns boolean\n\n
+    getShowconswarningFlag()\n
     '''
 def setShowconswarningFlag():
-    '''public void setShowconswarningFlag(final boolean flag)
+    '''returns None\n\n
+    setShowconswarningFlag(final boolean flag)\n
     '''
 def copyContractToPOPR():
-    '''public void copyContractToPOPR(final MboSetRemote sourceContractLineSet)
+    '''returns None\n\n
+    copyContractToPOPR(final MboSetRemote sourceContractLineSet)\n
     '''
 def checkConsignmentItemsInContractSet():
-    '''public Vector<MboRemote> checkConsignmentItemsInContractSet(final MboSetRemote contractLineSetRemote, final String storeloc)
+    '''returns Vector<MboRemote>\n\n
+    checkConsignmentItemsInContractSet(final MboSetRemote contractLineSetRemote, final String storeloc)\n
     '''
 def checkConsignmentItems():
-    '''public Vector<MboRemote> checkConsignmentItems(final MboSetRemote itemSetRemote, final String storeloc)
+    '''returns Vector<MboRemote>\n\n
+    checkConsignmentItems(final MboSetRemote itemSetRemote, final String storeloc)\n
     '''
 def setPOPRLineSet():
-    '''public void setPOPRLineSet(final MboSetRemote mboLineSet)
+    '''returns None\n\n
+    setPOPRLineSet(final MboSetRemote mboLineSet)\n
     '''
 def getPOPRLineSet():
-    '''public MboSetRemote getPOPRLineSet()
+    '''returns MboSetRemote\n\n
+    getPOPRLineSet()\n
     '''
 def showConsVendorWarningMessageForContracts():
-    '''public void showConsVendorWarningMessageForContracts(final MboSetRemote mboLineSet)
+    '''returns None\n\n
+    showConsVendorWarningMessageForContracts(final MboSetRemote mboLineSet)\n
     '''
 def showConsVendorWarningMessage():
-    '''public Vector<MboRemote> showConsVendorWarningMessage(final MboSetRemote invVendorSetRemote, final Vector<MboRemote> vendorItemsVec, final String storeloc)
+    '''returns Vector<MboRemote>\n\n
+    showConsVendorWarningMessage(final MboSetRemote invVendorSetRemote, final Vector<MboRemote> vendorItemsVec, final String storeloc)\n
     '''
 def addConsignmentItems():
-    '''public void addConsignmentItems(final MboSetRemote mboLineSet, final Vector<MboRemote> itemsVec)
+    '''returns None\n\n
+    addConsignmentItems(final MboSetRemote mboLineSet, final Vector<MboRemote> itemsVec)\n
     '''
 def copyContarctTerm():
-    '''public void copyContarctTerm(final MboRemote contractRemote)
+    '''returns None\n\n
+    copyContarctTerm(final MboRemote contractRemote)\n
     '''
 def nullVendor():
-    '''public void nullVendor()
+    '''returns None\n\n
+    nullVendor()\n
     '''
 def nullVendorContract():
-    '''public void nullVendorContract()
+    '''returns None\n\n
+    nullVendorContract()\n
     '''
 def checkContractType():
-    '''public MboRemote checkContractType(final MboRemote contractRemote)
+    '''returns MboRemote\n\n
+    checkContractType(final MboRemote contractRemote)\n
     '''
 def checkInvalidItemStatus():
-    '''public boolean checkInvalidItemStatus(final MboSetRemote invVendorSetRemote)
+    '''returns boolean\n\n
+    checkInvalidItemStatus(final MboSetRemote invVendorSetRemote)\n
     '''

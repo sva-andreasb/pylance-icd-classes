@@ -1,3 +1,4 @@
-def CDUIIncidentLog():
-    '''public CDUIIncidentLog(final MboSet ms)
+def ():
+    '''returns CDUIIncidentLog\n\n
+    (final MboSet ms)\n
     '''

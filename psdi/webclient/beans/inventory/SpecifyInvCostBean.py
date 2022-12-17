@@ -1,9 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def refreshcostdate():
-    '''public int refreshcostdate()
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns int\n\n
+    refreshcostdate()\n
     '''

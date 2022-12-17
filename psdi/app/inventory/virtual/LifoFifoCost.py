@@ -1,9 +1,12 @@
-def LifoFifoCost():
-    '''public LifoFifoCost(final MboSet ms)
+def ():
+    '''returns LifoFifoCost\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getOwningMbo():
-    '''public MboRemote getOwningMbo()
+    '''returns MboRemote\n\n
+    getOwningMbo()\n
     '''

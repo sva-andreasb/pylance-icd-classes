@@ -1,189 +1,232 @@
 VALIDATION_LENGTH = "String  \"LENGTH\""
 VALIDATION_ALL = "String  \"ALL\""
 VALIDATION_PENDINGCHG = "String  \"PENDINGCHG\""
-def ConfigureService():
-    '''public ConfigureService()
-    public ConfigureService(final MXServer mxServer)
+def ():
+    '''returns ConfigDBThread\n\n
+    ()\n
+    (final MXServer mxServer)\n
+    ()\n
     '''
 def init():
-    '''public void init()
-    public void init(final int configLevel, final Util util, final ConnectionKey conKey, final UserInfo ui)
+    '''returns None\n\n
+    init()\n
+    init(final int configLevel, final Util util, final ConnectionKey conKey, final UserInfo ui)\n
     '''
 def isValidChar():
-    '''public boolean isValidChar(final String checkString)
+    '''returns boolean\n\n
+    isValidChar(final String checkString)\n
     '''
 def validateFormat():
-    '''public boolean validateFormat(final Locale locale, final TimeZone timezone, final String value, final String maxtype, final int length, final int scale, final boolean checkCase)
+    '''returns boolean\n\n
+    validateFormat(final Locale locale, final TimeZone timezone, final String value, final String maxtype, final int length, final int scale, final boolean checkCase)\n
     '''
 def convertToLocale():
-    '''public String convertToLocale(final String inputValue, final String maxtype, final Locale fromLocale, final TimeZone fromTimeZone, final Locale toLocale, final TimeZone toTimeZone)
+    '''returns String\n\n
+    convertToLocale(final String inputValue, final String maxtype, final Locale fromLocale, final TimeZone fromTimeZone, final Locale toLocale, final TimeZone toTimeZone)\n
     '''
 def removeChanges():
-    '''public void removeChanges()
+    '''returns None\n\n
+    removeChanges()\n
     '''
 def removeTenantChanges():
-    '''public void removeTenantChanges(final UserInfo tenantInfo, final int tenanatId)
+    '''returns None\n\n
+    removeTenantChanges(final UserInfo tenantInfo, final int tenanatId)\n
     '''
 def applyTenantChanges():
-    '''public void applyTenantChanges(final UserInfo tenantInfo, final int tenanatId)
-    public void applyTenantChanges(final UserInfo tenantInfo, final int tenantId, final boolean isPreview)
+    '''returns None\n\n
+    applyTenantChanges(final UserInfo tenantInfo, final int tenanatId)\n
+    applyTenantChanges(final UserInfo tenantInfo, final int tenantId, final boolean isPreview)\n
     '''
 def createSelectedExtensionViews():
-    '''public void createSelectedExtensionViews(final Map<String, Map<String, Map<String, String>>> objectNames, final Set<String> deleteObjects, final Connection masterCon, final int tenantId)
+    '''returns None\n\n
+    createSelectedExtensionViews(final Map<String, Map<String, Map<String, String>>> objectNames, final Set<String> deleteObjects, final Connection masterCon, final int tenantId)\n
     '''
 def createExtensionTable():
-    '''public boolean createExtensionTable(final UserInfo masterInfo, final String tableName)
+    '''returns boolean\n\n
+    createExtensionTable(final UserInfo masterInfo, final String tableName)\n
     '''
 def changeAmountFormat():
-    '''public void changeAmountFormat(final int newLength, final int newScale, final int origLength, final int origScale)
-    public void changeAmountFormat(final int newLength, final int newScale)
+    '''returns None\n\n
+    changeAmountFormat(final int newLength, final int newScale, final int origLength, final int origScale)\n
+    changeAmountFormat(final int newLength, final int newScale)\n
     '''
 def changeIntFormat():
-    '''public void changeIntFormat(final int newIntLength, final int newSmallintLength, final int origIntLength, final int origSmallintLength)
-    public void changeIntFormat(final int newIntLength, final int newSmallintLength)
+    '''returns None\n\n
+    changeIntFormat(final int newIntLength, final int newSmallintLength, final int origIntLength, final int origSmallintLength)\n
+    changeIntFormat(final int newIntLength, final int newSmallintLength)\n
     '''
 def updateStatistics():
-    '''public void updateStatistics(final MboSetRemote objectSet)
-    public void updateStatistics(String tablename)
+    '''returns None\n\n
+    updateStatistics(final MboSetRemote objectSet)\n
+    updateStatistics(String tablename)\n
     '''
 def refreshIndexMetadata():
-    '''public void refreshIndexMetadata(final MboSetRemote objectSet)
-    public void refreshIndexMetadata(String tablename)
+    '''returns None\n\n
+    refreshIndexMetadata(final MboSetRemote objectSet)\n
+    refreshIndexMetadata(String tablename)\n
     '''
 def getUnrestoredTables():
-    '''public MboSetRemote getUnrestoredTables(final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getUnrestoredTables(final UserInfo userInfo)\n
     '''
 def getOldBackupTables():
-    '''public MboSetRemote getOldBackupTables(final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getOldBackupTables(final UserInfo userInfo)\n
     '''
 def dropBackup():
-    '''public void dropBackup(final MboSetRemote tableSet)
-    public void dropBackup(String tablenames)
+    '''returns None\n\n
+    dropBackup(final MboSetRemote tableSet)\n
+    dropBackup(String tablenames)\n
     '''
 def getConfigLevel():
-    '''public int getConfigLevel()
-    public int getConfigLevel(final UserInfo ui)
+    '''returns int\n\n
+    getConfigLevel()\n
+    getConfigLevel(final UserInfo ui)\n
     '''
 def runConfigDB():
-    '''public void runConfigDB(final MboRemote listenerMbo)
-    public void runConfigDB(final MboRemote listenerMbo, final HashMap<String, String> params)
+    '''returns None\n\n
+    runConfigDB(final MboRemote listenerMbo)\n
+    runConfigDB(final MboRemote listenerMbo, final HashMap<String, String> params)\n
     '''
 def listenToConfigDB():
-    '''public void listenToConfigDB(final MboRemote listenerMbo, final boolean listen)
+    '''returns None\n\n
+    listenToConfigDB(final MboRemote listenerMbo, final boolean listen)\n
     '''
 def configIsRunning():
-    '''public boolean configIsRunning()
-    '''
-def addConfigMsg():
-    '''public synchronized void addConfigMsg(final String msg)
-    '''
-def setConfigStatus():
-    '''public synchronized void setConfigStatus(final int status)
+    '''returns boolean\n\n
+    configIsRunning()\n
     '''
 def getNumConfigMsgs():
-    '''public int getNumConfigMsgs()
+    '''returns int\n\n
+    getNumConfigMsgs()\n
     '''
 def getMaxColumnLength():
-    '''public int getMaxColumnLength(final String tablename, final String columnname)
+    '''returns int\n\n
+    getMaxColumnLength(final String tablename, final String columnname)\n
     '''
 def getGLMaxtypeLengthFromGLConfigure():
-    '''public int getGLMaxtypeLengthFromGLConfigure(final UserInfo userInfo)
+    '''returns int\n\n
+    getGLMaxtypeLengthFromGLConfigure(final UserInfo userInfo)\n
     '''
 def getDefaultStoragePartition():
-    '''public String getDefaultStoragePartition()
+    '''returns String\n\n
+    getDefaultStoragePartition()\n
     '''
 def nativeTableExists():
-    '''public boolean nativeTableExists(final String tablename)
+    '''returns boolean\n\n
+    nativeTableExists(final String tablename)\n
     '''
 def nativeViewExists():
-    '''public boolean nativeViewExists(final String viewname)
+    '''returns boolean\n\n
+    nativeViewExists(final String viewname)\n
     '''
 def descendingIndexesSupported():
-    '''public boolean descendingIndexesSupported()
+    '''returns boolean\n\n
+    descendingIndexesSupported()\n
     '''
 def getMaxLengthColumnInIndex():
-    '''public int getMaxLengthColumnInIndex()
+    '''returns int\n\n
+    getMaxLengthColumnInIndex()\n
     '''
 def getMaxLengthIndex():
-    '''public int getMaxLengthIndex()
+    '''returns int\n\n
+    getMaxLengthIndex()\n
     '''
 def spaceIsSysManaged():
-    '''public boolean spaceIsSysManaged(final String spaceName)
+    '''returns boolean\n\n
+    spaceIsSysManaged(final String spaceName)\n
     '''
 def getGrants():
-    '''public HashMap getGrants(final String dbUserID, final String entityname)
+    '''returns HashMap\n\n
+    getGrants(final String dbUserID, final String entityname)\n
     '''
 def grantNative():
-    '''public void grantNative(final String dbUserID, final String entityname, final String privilege, final boolean grant)
+    '''returns None\n\n
+    grantNative(final String dbUserID, final String entityname, final String privilege, final boolean grant)\n
     '''
 def getDBPlatform():
-    '''public int getDBPlatform()
+    '''returns int\n\n
+    getDBPlatform()\n
     '''
 def isReservedWord():
-    '''public boolean isReservedWord(final String testWord)
+    '''returns boolean\n\n
+    isReservedWord(final String testWord)\n
     '''
 def doSql():
-    '''public void doSql(final List list)
-    public void doSql(final String sql)
+    '''returns None\n\n
+    doSql(final List list)\n
+    doSql(final String sql)\n
     '''
 def getJoinAttributes():
-    '''public HashMap getJoinAttributes(final MboRemote object1, final MboSetRemote object1Attrs, final MboRemote object2, final MboSetRemote object2Attrs)
+    '''returns HashMap\n\n
+    getJoinAttributes(final MboRemote object1, final MboSetRemote object1Attrs, final MboRemote object2, final MboSetRemote object2Attrs)\n
     '''
 def getAllCommonAttributes():
-    '''public HashSet getAllCommonAttributes(final MboSetRemote object1Attrs, final MboSetRemote object2Attrs)
+    '''returns HashSet\n\n
+    getAllCommonAttributes(final MboSetRemote object1Attrs, final MboSetRemote object2Attrs)\n
     '''
 def getMaxtypeCategory():
-    '''public int getMaxtypeCategory(String maxtype)
+    '''returns int\n\n
+    getMaxtypeCategory(String maxtype)\n
     '''
 def nativeTypesAreCompatible():
-    '''public boolean nativeTypesAreCompatible(final String oldNativeType, final String newNativeType)
+    '''returns boolean\n\n
+    nativeTypesAreCompatible(final String oldNativeType, final String newNativeType)\n
     '''
 def logException():
-    '''public void logException(final Exception e)
+    '''returns None\n\n
+    logException(final Exception e)\n
     '''
 def checkDomainLinks():
-    '''public StringBuffer checkDomainLinks(final UserInfo ui, final HashSet<String> options)
-    public MXException checkDomainLinks(final UserInfo ui, final MaxAttributeCfgRemote mac, final MboSetRemote domainLinks)
+    '''returns MXException\n\n
+    checkDomainLinks(final UserInfo ui, final HashSet<String> options)\n
+    checkDomainLinks(final UserInfo ui, final MaxAttributeCfgRemote mac, final MboSetRemote domainLinks)\n
     '''
 def compare():
-    '''public MXException compare(final HashSet<String> byPass, final String object, final String attr, final HashSet<String> domsOnMeta, String[] domsByLink, final StringBuffer os, final UserInfo ui, final boolean genInsertStatement)
-    '''
-def loadDomainLinks():
-    '''public HashMap<String, String[]> loadDomainLinks(final UserInfo ui)
+    '''returns MXException\n\n
+    compare(final HashSet<String> byPass, final String object, final String attr, final HashSet<String> domsOnMeta, String[] domsByLink, final StringBuffer os, final UserInfo ui, final boolean genInsertStatement)\n
     '''
 def verifyView():
-    '''public void verifyView(String objectname)
+    '''returns None\n\n
+    verifyView(String objectname)\n
     '''
 def noDeltaRows():
-    '''public boolean noDeltaRows(final MboRemote masterMbo, final String validationType)
+    '''returns boolean\n\n
+    noDeltaRows(final MboRemote masterMbo, final String validationType)\n
     '''
 def pendingDeltaRowExist():
-    '''public boolean pendingDeltaRowExist()
+    '''returns boolean\n\n
+    pendingDeltaRowExist()\n
     '''
 def discardALLTenantDeltas():
-    '''public void discardALLTenantDeltas()
+    '''returns None\n\n
+    discardALLTenantDeltas()\n
     '''
 def isActiveExtTable():
-    '''public boolean isActiveExtTable(final String objectName)
+    '''returns boolean\n\n
+    isActiveExtTable(final String objectName)\n
     '''
 def canDeleteFromConfigExtTable():
-    '''public boolean canDeleteFromConfigExtTable(final String attributeName, final String objectName)
+    '''returns boolean\n\n
+    canDeleteFromConfigExtTable(final String attributeName, final String objectName)\n
     '''
 def areTenantsOnboarded():
-    '''public boolean areTenantsOnboarded()
-    '''
-def ConfigDBThread():
-    '''public ConfigDBThread()
+    '''returns boolean\n\n
+    areTenantsOnboarded()\n
     '''
 def setUserLangCode():
-    '''public void setUserLangCode(final String value)
+    '''returns None\n\n
+    setUserLangCode(final String value)\n
     '''
 def setParams():
-    '''public void setParams(final HashMap<String, String> params)
+    '''returns None\n\n
+    setParams(final HashMap<String, String> params)\n
     '''
 def setConnection():
-    '''public void setConnection(final Connection inCon, final UserInfo ui)
+    '''returns None\n\n
+    setConnection(final Connection inCon, final UserInfo ui)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

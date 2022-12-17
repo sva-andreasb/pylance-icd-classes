@@ -1,9 +1,12 @@
-def ServiceMethodResponseSerializer():
-    '''public ServiceMethodResponseSerializer()
+def ():
+    '''returns ServiceMethodResponseSerializer\n\n
+    ()\n
     '''
 def serialize():
-    '''public ResourceResponse serialize(final Resource res, final ResourceRequest req)
+    '''returns ResourceResponse\n\n
+    serialize(final Resource res, final ResourceRequest req)\n
     '''
 def serializeResource():
-    '''public ResourceResponse serializeResource(final Resource resource, final ResourceRequest request)
+    '''returns ResourceResponse\n\n
+    serializeResource(final Resource resource, final ResourceRequest request)\n
     '''

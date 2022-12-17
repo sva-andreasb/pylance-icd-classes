@@ -1,3 +1,4 @@
 def VALIDATE():
-    '''public int VALIDATE()
+    '''returns int\n\n
+    VALIDATE()\n
     '''

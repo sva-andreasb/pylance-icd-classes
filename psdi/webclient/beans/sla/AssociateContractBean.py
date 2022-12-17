@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def docancel():
-    '''public int docancel()
+    '''returns int\n\n
+    docancel()\n
     '''

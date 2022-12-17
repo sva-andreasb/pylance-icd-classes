@@ -1,21 +1,20 @@
-def ApnsSigningKey():
-    '''public ApnsSigningKey(final String keyId, final String teamId, final ECPrivateKey key)
+def ():
+    '''returns ApnsSigningKey\n\n
+    (final String keyId, final String teamId, final ECPrivateKey key)\n
     '''
 def getAlgorithm():
-    '''public String getAlgorithm()
+    '''returns String\n\n
+    getAlgorithm()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getEncoded():
-    '''public byte[] getEncoded()
+    '''returns byte[]\n\n
+    getEncoded()\n
     '''
 def getS():
-    '''public BigInteger getS()
-    '''
-def loadFromPkcs8File():
-    '''public static ApnsSigningKey loadFromPkcs8File(final File pkcs8File, final String teamId, final String keyId)
-    '''
-def loadFromInputStream():
-    '''public static ApnsSigningKey loadFromInputStream(final InputStream inputStream, final String teamId, final String keyId)
+    '''returns BigInteger\n\n
+    getS()\n
     '''

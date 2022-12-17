@@ -1,3 +1,4 @@
-def PlusPBSPreviewBillDates():
-    '''public PlusPBSPreviewBillDates(final MboSet ms)
+def ():
+    '''returns PlusPBSPreviewBillDates\n\n
+    (final MboSet ms)\n
     '''

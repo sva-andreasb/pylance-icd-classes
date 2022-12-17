@@ -1,56 +1,27 @@
 staticFlag = "boolean  false"
-def BeginToken():
-    '''public final char BeginToken()
-    '''
-def readChar():
-    '''public final char readChar()
-    '''
-def getColumn():
-    '''public final int getColumn()
-    '''
-def getLine():
-    '''public final int getLine()
-    '''
-def getEndColumn():
-    '''public final int getEndColumn()
-    '''
-def getEndLine():
-    '''public final int getEndLine()
-    '''
-def getBeginColumn():
-    '''public final int getBeginColumn()
-    '''
-def getBeginLine():
-    '''public final int getBeginLine()
-    '''
-def backup():
-    '''public final void backup(final int amount)
-    '''
-def JavaCharStream():
-    '''public JavaCharStream(final Reader dstream, final int startline, final int startcolumn, final int buffersize)
-    public JavaCharStream(final Reader dstream, final int startline, final int startcolumn)
-    public JavaCharStream(final Reader dstream)
-    public JavaCharStream(final InputStream dstream, final int startline, final int startcolumn, final int buffersize)
-    public JavaCharStream(final InputStream dstream, final int startline, final int startcolumn)
-    public JavaCharStream(final InputStream dstream)
+def ():
+    '''returns JavaCharStream\n\n
+    (final Reader dstream, final int startline, final int startcolumn, final int buffersize)\n
+    (final Reader dstream, final int startline, final int startcolumn)\n
+    (final Reader dstream)\n
+    (final InputStream dstream, final int startline, final int startcolumn, final int buffersize)\n
+    (final InputStream dstream, final int startline, final int startcolumn)\n
+    (final InputStream dstream)\n
     '''
 def ReInit():
-    '''public void ReInit(final Reader dstream, final int startline, final int startcolumn, final int buffersize)
-    public void ReInit(final Reader dstream, final int startline, final int startcolumn)
-    public void ReInit(final Reader dstream)
-    public void ReInit(final InputStream dstream, final int startline, final int startcolumn, final int buffersize)
-    public void ReInit(final InputStream dstream, final int startline, final int startcolumn)
-    public void ReInit(final InputStream dstream)
-    '''
-def GetImage():
-    '''public final String GetImage()
-    '''
-def GetSuffix():
-    '''public final char[] GetSuffix(final int len)
+    '''returns None\n\n
+    ReInit(final Reader dstream, final int startline, final int startcolumn, final int buffersize)\n
+    ReInit(final Reader dstream, final int startline, final int startcolumn)\n
+    ReInit(final Reader dstream)\n
+    ReInit(final InputStream dstream, final int startline, final int startcolumn, final int buffersize)\n
+    ReInit(final InputStream dstream, final int startline, final int startcolumn)\n
+    ReInit(final InputStream dstream)\n
     '''
 def Done():
-    '''public void Done()
+    '''returns None\n\n
+    Done()\n
     '''
 def adjustBeginLineColumn():
-    '''public void adjustBeginLineColumn(int newLine, final int newCol)
+    '''returns None\n\n
+    adjustBeginLineColumn(int newLine, final int newCol)\n
     '''

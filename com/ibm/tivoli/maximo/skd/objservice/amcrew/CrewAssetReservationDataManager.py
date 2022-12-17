@@ -1,10 +1,13 @@
 GRAPHASSIGN = "String  \"CGRPASSIGN\""
-def CrewAssetReservationDataManager():
-    '''public CrewAssetReservationDataManager()
+def ():
+    '''returns CrewAssetReservationDataManager\n\n
+    ()\n
     '''
 def populateReservations():
-    '''public void populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)
+    '''returns None\n\n
+    populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)\n
     '''
 def populateAssignedReservations():
-    '''public void populateAssignedReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)
+    '''returns None\n\n
+    populateAssignedReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)\n
     '''

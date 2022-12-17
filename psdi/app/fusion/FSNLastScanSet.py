@@ -1,3 +1,4 @@
-def FSNLastScanSet():
-    '''public FSNLastScanSet(final MboServerInterface ms)
+def ():
+    '''returns FSNLastScanSet\n\n
+    (final MboServerInterface ms)\n
     '''

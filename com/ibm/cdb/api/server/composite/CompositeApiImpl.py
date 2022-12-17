@@ -1,21 +1,28 @@
-def CompositeApiImpl():
-    '''public CompositeApiImpl()
+def ():
+    '''returns CompositeApiImpl\n\n
+    ()\n
     '''
 def setTopologyManager():
-    '''public void setTopologyManager(final TopologyManager tm)
+    '''returns None\n\n
+    setTopologyManager(final TopologyManager tm)\n
     '''
 def find():
-    '''public Composite find(final Composite _composite)
+    '''returns Composite\n\n
+    find(final Composite _composite)\n
     '''
 def translateQuery():
-    '''public String translateQuery(final String origQueryString)
+    '''returns String\n\n
+    translateQuery(final String origQueryString)\n
     '''
 def delete():
-    '''public boolean delete(final Composite _composite)
+    '''returns boolean\n\n
+    delete(final Composite _composite)\n
     '''
 def update():
-    '''public Guid update(final Composite _composite)
+    '''returns Guid\n\n
+    update(final Composite _composite)\n
     '''
 def compare():
-    '''public boolean compare(final Composite _composite1, final Composite _composite2)
+    '''returns boolean\n\n
+    compare(final Composite _composite1, final Composite _composite2)\n
     '''

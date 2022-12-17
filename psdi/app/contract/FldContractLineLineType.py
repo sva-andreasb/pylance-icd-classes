@@ -1,9 +1,12 @@
-def FldContractLineLineType():
-    '''public FldContractLineLineType(final MboValue mbv)
+def ():
+    '''returns FldContractLineLineType\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

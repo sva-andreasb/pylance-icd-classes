@@ -1,79 +1,104 @@
-def MaxMessage():
-    '''public MaxMessage(final String language)
+def ():
+    '''returns MaxMessage\n\n
+    (final String language)\n
     '''
 def setKey():
-    '''public void setKey(final String keyInput)
+    '''returns None\n\n
+    setKey(final String keyInput)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setGroup():
-    '''public void setGroup(final String groupInput)
+    '''returns None\n\n
+    setGroup(final String groupInput)\n
     '''
 def getGroup():
-    '''public String getGroup()
+    '''returns String\n\n
+    getGroup()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setValue():
-    '''public void setValue(final String msg)
+    '''returns None\n\n
+    setValue(final String msg)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setOptions():
-    '''public void setOptions(final int op)
+    '''returns None\n\n
+    setOptions(final int op)\n
     '''
 def getOptions():
-    '''public int getOptions()
+    '''returns int\n\n
+    getOptions()\n
     '''
 def setButtonText():
-    '''public void setButtonText(final String btInput)
+    '''returns None\n\n
+    setButtonText(final String btInput)\n
     '''
 def getButtonText():
-    '''public String getButtonText()
+    '''returns String\n\n
+    getButtonText()\n
     '''
 def setDisplayMethod():
-    '''public void setDisplayMethod(final String method)
+    '''returns None\n\n
+    setDisplayMethod(final String method)\n
     '''
 def getDisplaymethod():
-    '''public String getDisplaymethod()
+    '''returns String\n\n
+    getDisplaymethod()\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def setLanguage():
-    '''public void setLanguage(final String language)
+    '''returns None\n\n
+    setLanguage(final String language)\n
     '''
 def setMLInsensitivePart():
-    '''public void setMLInsensitivePart(final MaxMessageBase.MLInsensitivePart obj)
+    '''returns None\n\n
+    setMLInsensitivePart(final MaxMessageBase.MLInsensitivePart obj)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getMessage():
-    '''public String getMessage()
-    public String getMessage(final Object param)
-    public String getMessage(final Object[] params)
+    '''returns String\n\n
+    getMessage()\n
+    getMessage(final Object param)\n
+    getMessage(final Object[] params)\n
     '''
 def getTaggedMessage():
-    '''public String getTaggedMessage()
-    public String getTaggedMessage(final Object param)
-    public String getTaggedMessage(final Object[] params)
+    '''returns String\n\n
+    getTaggedMessage()\n
+    getTaggedMessage(final Object param)\n
+    getTaggedMessage(final Object[] params)\n
     '''
 def isPrefix():
-    '''public boolean isPrefix()
+    '''returns boolean\n\n
+    isPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final boolean prefix)
+    '''returns None\n\n
+    setPrefix(final boolean prefix)\n
     '''
 def getReference():
-    '''public MaxMessageBase getReference()
+    '''returns MaxMessageBase\n\n
+    getReference()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

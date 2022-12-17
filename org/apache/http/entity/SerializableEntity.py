@@ -1,19 +1,25 @@
-def SerializableEntity():
-    '''public SerializableEntity(final Serializable ser, final boolean bufferize)
-    public SerializableEntity(final Serializable ser)
+def ():
+    '''returns SerializableEntity\n\n
+    (final Serializable ser, final boolean bufferize)\n
+    (final Serializable ser)\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def isStreaming():
-    '''public boolean isStreaming()
+    '''returns boolean\n\n
+    isStreaming()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''

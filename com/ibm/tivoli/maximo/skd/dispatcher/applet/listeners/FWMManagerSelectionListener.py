@@ -1,6 +1,8 @@
-def FWMManagerSelectionListener():
-    '''public FWMManagerSelectionListener(final FWMActionsFacade actionsFacade)
+def ():
+    '''returns FWMManagerSelectionListener\n\n
+    (final FWMActionsFacade actionsFacade)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final ManagerSelectionChangedEvent event)
+    '''returns None\n\n
+    selectionChanged(final ManagerSelectionChangedEvent event)\n
     '''

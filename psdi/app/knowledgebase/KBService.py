@@ -1,4 +1,5 @@
-def KBService():
-    '''public KBService()
-    public KBService(final MXServer mx)
+def ():
+    '''returns KBService\n\n
+    ()\n
+    (final MXServer mx)\n
     '''

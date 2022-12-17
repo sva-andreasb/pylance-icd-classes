@@ -1,25 +1,32 @@
 OFF = "String  \"Off\""
 SUSPENDED = "String  \"Suspended\""
 ENABLED = "String  \"Enabled\""
-def BucketVersioningConfiguration():
-    '''public BucketVersioningConfiguration()
-    public BucketVersioningConfiguration(final String status)
+def ():
+    '''returns BucketVersioningConfiguration\n\n
+    ()\n
+    (final String status)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
+    '''returns None\n\n
+    setStatus(final String status)\n
     '''
 def withStatus():
-    '''public BucketVersioningConfiguration withStatus(final String status)
+    '''returns BucketVersioningConfiguration\n\n
+    withStatus(final String status)\n
     '''
 def isMfaDeleteEnabled():
-    '''public Boolean isMfaDeleteEnabled()
+    '''returns Boolean\n\n
+    isMfaDeleteEnabled()\n
     '''
 def setMfaDeleteEnabled():
-    '''public void setMfaDeleteEnabled(final Boolean mfaDeleteEnabled)
+    '''returns None\n\n
+    setMfaDeleteEnabled(final Boolean mfaDeleteEnabled)\n
     '''
 def withMfaDeleteEnabled():
-    '''public BucketVersioningConfiguration withMfaDeleteEnabled(final Boolean mfaDeleteEnabled)
+    '''returns BucketVersioningConfiguration\n\n
+    withMfaDeleteEnabled(final Boolean mfaDeleteEnabled)\n
     '''

@@ -1,9 +1,12 @@
 def mapDigestAlgoToOID():
-    '''public ASN1ObjectIdentifier mapDigestAlgoToOID(final HashAlgorithm digestAlgo)
+    '''returns ASN1ObjectIdentifier\n\n
+    mapDigestAlgoToOID(final HashAlgorithm digestAlgo)\n
     '''
 def timeStamp():
-    '''public byte[] timeStamp(final byte[] data, final RevocationData revocationData)
+    '''returns byte[]\n\n
+    timeStamp(final byte[] data, final RevocationData revocationData)\n
     '''
 def setSignatureConfig():
-    '''public void setSignatureConfig(final SignatureConfig signatureConfig)
+    '''returns None\n\n
+    setSignatureConfig(final SignatureConfig signatureConfig)\n
     '''

@@ -1,6 +1,8 @@
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

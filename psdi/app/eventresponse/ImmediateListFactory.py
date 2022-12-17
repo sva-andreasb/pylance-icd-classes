@@ -1,12 +1,12 @@
-def getInstance():
-    '''public static ImmediateListFactory getInstance()
-    '''
 def getImmediateList():
-    '''public ImmediateList getImmediateList()
+    '''returns ImmediateList\n\n
+    getImmediateList()\n
     '''
 def getLoadedTenants():
-    '''public Set<Integer> getLoadedTenants()
+    '''returns Set<Integer>\n\n
+    getLoadedTenants()\n
     '''
 def clearTenant():
-    '''public void clearTenant()
+    '''returns None\n\n
+    clearTenant()\n
     '''

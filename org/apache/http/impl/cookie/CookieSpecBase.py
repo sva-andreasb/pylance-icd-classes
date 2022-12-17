@@ -1,9 +1,12 @@
-def CookieSpecBase():
-    '''public CookieSpecBase()
+def ():
+    '''returns CookieSpecBase\n\n
+    ()\n
     '''
 def validate():
-    '''public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''returns None\n\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def match():
-    '''public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''returns boolean\n\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
     '''

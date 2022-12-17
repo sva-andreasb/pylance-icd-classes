@@ -1,3 +1,4 @@
 def settaxtype():
-    '''public int settaxtype()
+    '''returns int\n\n
+    settaxtype()\n
     '''

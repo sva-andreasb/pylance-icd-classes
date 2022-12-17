@@ -1,6 +1,8 @@
-def Messages_ro():
-    '''public Messages_ro()
+def ():
+    '''returns Messages_ro\n\n
+    ()\n
     '''
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

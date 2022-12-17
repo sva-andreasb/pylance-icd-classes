@@ -1,37 +1,45 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmChgWorkViewBean():
-    '''public PmChgWorkViewBean()
+def ():
+    '''returns PmChgWorkViewBean\n\n
+    ()\n
     '''
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''
 def createGanttModel():
-    '''public Future<MXGanttModel> createGanttModel()
+    '''returns Future<MXGanttModel>\n\n
+    createGanttModel()\n
     '''
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''
 def addActionMenuItems():
-    '''public void addActionMenuItems(final TMenu popupmenu, final String[] selectedactivitys, final Future<MXGanttModel> modelFutre, final IMXActivityPropertyInfo actproptinfo, final String projectId, final String propName, final String propValue, final String frame)
-    '''
-def loadProject():
-    '''public synchronized Future<MXGanttModel> loadProject(final JSONObject projectOptions)
+    '''returns None\n\n
+    addActionMenuItems(final TMenu popupmenu, final String[] selectedactivitys, final Future<MXGanttModel> modelFutre, final IMXActivityPropertyInfo actproptinfo, final String projectId, final String propName, final String propValue, final String frame)\n
     '''
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''
 def loadSchedulerProject():
-    '''public void loadSchedulerProject(final WebClientSession sess)
+    '''returns None\n\n
+    loadSchedulerProject(final WebClientSession sess)\n
     '''
 def processChange():
-    '''public void processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)
+    '''returns None\n\n
+    processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)\n
     '''
 def markAssignmentDelete():
-    '''public void markAssignmentDelete(final Future<MXGanttModel> modelFuture, final JSONObject obj, final MXActivity act)
+    '''returns None\n\n
+    markAssignmentDelete(final Future<MXGanttModel> modelFuture, final JSONObject obj, final MXActivity act)\n
     '''
 def getLastKnownState():
-    '''public String getLastKnownState()
+    '''returns String\n\n
+    getLastKnownState()\n
     '''
 def async_upload_state():
-    '''public JSONObject async_upload_state(final WebClientSession sess, @MXEventParam("cfgid") final String cfgid, @MXEventParam("cookie") final String cookie)
+    '''returns JSONObject\n\n
+    async_upload_state(final WebClientSession sess, @MXEventParam("cfgid") final String cfgid, @MXEventParam("cookie") final String cookie)\n
     '''

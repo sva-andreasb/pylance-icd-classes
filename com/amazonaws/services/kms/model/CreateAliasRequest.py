@@ -1,30 +1,40 @@
 def setAliasName():
-    '''public void setAliasName(final String aliasName)
+    '''returns None\n\n
+    setAliasName(final String aliasName)\n
     '''
 def getAliasName():
-    '''public String getAliasName()
+    '''returns String\n\n
+    getAliasName()\n
     '''
 def withAliasName():
-    '''public CreateAliasRequest withAliasName(final String aliasName)
+    '''returns CreateAliasRequest\n\n
+    withAliasName(final String aliasName)\n
     '''
 def setTargetKeyId():
-    '''public void setTargetKeyId(final String targetKeyId)
+    '''returns None\n\n
+    setTargetKeyId(final String targetKeyId)\n
     '''
 def getTargetKeyId():
-    '''public String getTargetKeyId()
+    '''returns String\n\n
+    getTargetKeyId()\n
     '''
 def withTargetKeyId():
-    '''public CreateAliasRequest withTargetKeyId(final String targetKeyId)
+    '''returns CreateAliasRequest\n\n
+    withTargetKeyId(final String targetKeyId)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public CreateAliasRequest clone()
+    '''returns CreateAliasRequest\n\n
+    clone()\n
     '''

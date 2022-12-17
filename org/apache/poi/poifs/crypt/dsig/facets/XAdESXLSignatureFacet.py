@@ -1,9 +1,8 @@
-def XAdESXLSignatureFacet():
-    '''public XAdESXLSignatureFacet()
+def ():
+    '''returns XAdESXLSignatureFacet\n\n
+    ()\n
     '''
 def postSign():
-    '''public void postSign(final Document document)
-    '''
-def getC14nValue():
-    '''public static byte[] getC14nValue(final List<Node> nodeList, final String c14nAlgoId)
+    '''returns None\n\n
+    postSign(final Document document)\n
     '''

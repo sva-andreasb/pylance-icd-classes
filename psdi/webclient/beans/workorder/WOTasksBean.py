@@ -1,15 +1,16 @@
 def needssave():
-    '''public int needssave()
+    '''returns int\n\n
+    needssave()\n
     '''
 def taskstatus():
-    '''public int taskstatus()
+    '''returns int\n\n
+    taskstatus()\n
     '''
 def insert():
-    '''public void insert(final int nRow)
-    '''
-def insertAtEnd():
-    '''public synchronized void insertAtEnd()
+    '''returns None\n\n
+    insert(final int nRow)\n
     '''
 def setInspFormNum():
-    '''public void setInspFormNum(final String inspformnum)
+    '''returns None\n\n
+    setInspFormNum(final String inspformnum)\n
     '''

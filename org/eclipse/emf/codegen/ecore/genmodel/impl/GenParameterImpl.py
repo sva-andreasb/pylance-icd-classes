@@ -1,55 +1,73 @@
 def getGenOperation():
-    '''public GenOperation getGenOperation()
+    '''returns GenOperation\n\n
+    getGenOperation()\n
     '''
 def setGenOperation():
-    '''public void setGenOperation(final GenOperation newGenOperation)
+    '''returns None\n\n
+    setGenOperation(final GenOperation newGenOperation)\n
     '''
 def getEcoreParameter():
-    '''public EParameter getEcoreParameter()
+    '''returns EParameter\n\n
+    getEcoreParameter()\n
     '''
 def basicGetEcoreParameter():
-    '''public EParameter basicGetEcoreParameter()
+    '''returns EParameter\n\n
+    basicGetEcoreParameter()\n
     '''
 def setEcoreParameter():
-    '''public void setEcoreParameter(final EParameter newEcoreParameter)
+    '''returns None\n\n
+    setEcoreParameter(final EParameter newEcoreParameter)\n
     '''
 def eInverseAdd():
-    '''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eBasicRemoveFromContainer():
-    '''public NotificationChain eBasicRemoveFromContainer(final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eBasicRemoveFromContainer(final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def getEcoreTypedElement():
-    '''public ETypedElement getEcoreTypedElement()
+    '''returns ETypedElement\n\n
+    getEcoreTypedElement()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getGenPackage():
-    '''public GenPackage getGenPackage()
+    '''returns GenPackage\n\n
+    getGenPackage()\n
     '''
 def initialize():
-    '''public void initialize(final EParameter eParameter)
+    '''returns None\n\n
+    initialize(final EParameter eParameter)\n
     '''
 def reconcile():
-    '''public boolean reconcile(final GenParameter oldGenParameterVersion)
-    public boolean reconcile()
+    '''returns boolean\n\n
+    reconcile(final GenParameter oldGenParameterVersion)\n
+    reconcile()\n
     '''
 def getQualifiedModelInfo():
-    '''public String getQualifiedModelInfo()
+    '''returns String\n\n
+    getQualifiedModelInfo()\n
     '''

@@ -1,241 +1,264 @@
 DEFAULT_BUFFER_SIZE = "int  2048"
 DEFAULT_XMLDECL_BUFFER_SIZE = "int  64"
 DEFAULT_INTERNAL_BUFFER_SIZE = "int  512"
-def XMLEntityManager():
-    '''public XMLEntityManager()
-    public XMLEntityManager(final XMLEntityManager xmlEntityManager)
+def ():
+    '''returns InternalEntity\n\n
+    ()\n
+    (final XMLEntityManager xmlEntityManager)\n
+    (final InputStream fInputStream)\n
+    (final String s, final XMLResourceIdentifier entityLocation, final InputStream stream, final Reader reader, final byte[] fByteBuffer, final String encoding, final boolean literal, final boolean mayReadChunks, final boolean isExternal)\n
+    ()\n
+    (final String name, final boolean inExternalSubset)\n
+    (final boolean isExternal, final int n)\n
+    (final int n, final int n2)\n
+    (final int fPoolSize, final int fExternalBufferSize, final int fInternalBufferSize)\n
+    (final int n)\n
+    (final int fPoolSize, final int fBufferSize)\n
+    ()\n
+    (final String s, final XMLResourceIdentifier entityLocation, final String notation, final boolean b)\n
+    ()\n
+    (final String s, final String text, final boolean b)\n
+    (final String s, final String s2, final boolean b, final int paramEntityRefs)\n
     '''
 def setStandalone():
-    '''public void setStandalone(final boolean fStandalone)
+    '''returns None\n\n
+    setStandalone(final boolean fStandalone)\n
     '''
 def isStandalone():
-    '''public boolean isStandalone()
+    '''returns boolean\n\n
+    isStandalone()\n
     '''
 def setEntityHandler():
-    '''public void setEntityHandler(final XMLEntityHandler fEntityHandler)
+    '''returns None\n\n
+    setEntityHandler(final XMLEntityHandler fEntityHandler)\n
     '''
 def getCurrentResourceIdentifier():
-    '''public XMLResourceIdentifier getCurrentResourceIdentifier()
+    '''returns XMLResourceIdentifier\n\n
+    getCurrentResourceIdentifier()\n
     '''
 def getCurrentEntity():
-    '''public ScannedEntity getCurrentEntity()
+    '''returns ScannedEntity\n\n
+    getCurrentEntity()\n
     '''
 def addInternalEntity():
-    '''public void addInternalEntity(final String s, final String s2, final int n)
-    public void addInternalEntity(final String s, final String s2)
+    '''returns None\n\n
+    addInternalEntity(final String s, final String s2, final int n)\n
+    addInternalEntity(final String s, final String s2)\n
     '''
 def getParamEntityRefCount():
-    '''public int getParamEntityRefCount(final String key)
+    '''returns int\n\n
+    getParamEntityRefCount(final String key)\n
     '''
 def addExternalEntity():
-    '''public void addExternalEntity(final String s, final String s2, final String s3, String s4)
+    '''returns None\n\n
+    addExternalEntity(final String s, final String s2, final String s3, String s4)\n
     '''
 def isExternalEntity():
-    '''public boolean isExternalEntity(final String key)
+    '''returns boolean\n\n
+    isExternalEntity(final String key)\n
     '''
 def isEntityDeclInExternalSubset():
-    '''public boolean isEntityDeclInExternalSubset(final String key)
-    public boolean isEntityDeclInExternalSubset()
+    '''returns boolean\n\n
+    isEntityDeclInExternalSubset(final String key)\n
+    isEntityDeclInExternalSubset()\n
     '''
 def addUnparsedEntity():
-    '''public void addUnparsedEntity(final String s, final String s2, final String s3, final String s4, final String s5)
+    '''returns None\n\n
+    addUnparsedEntity(final String s, final String s2, final String s3, final String s4, final String s5)\n
     '''
 def isUnparsedEntity():
-    '''public boolean isUnparsedEntity(final String key)
+    '''returns boolean\n\n
+    isUnparsedEntity(final String key)\n
     '''
 def isDeclaredEntity():
-    '''public boolean isDeclaredEntity(final String key)
+    '''returns boolean\n\n
+    isDeclaredEntity(final String key)\n
     '''
 def resolveEntity():
-    '''public XMLInputSource resolveEntity(final XMLResourceIdentifier xmlResourceIdentifier)
+    '''returns XMLInputSource\n\n
+    resolveEntity(final XMLResourceIdentifier xmlResourceIdentifier)\n
     '''
 def startEntity():
-    '''public void startEntity(final String str, final boolean b)
-    public void startEntity(final String s, final XMLInputSource xmlInputSource, final boolean b, final boolean b2)
+    '''returns None\n\n
+    startEntity(final String str, final boolean b)\n
+    startEntity(final String s, final XMLInputSource xmlInputSource, final boolean b, final boolean b2)\n
     '''
 def startDocumentEntity():
-    '''public void startDocumentEntity(final XMLInputSource xmlInputSource)
+    '''returns None\n\n
+    startDocumentEntity(final XMLInputSource xmlInputSource)\n
     '''
 def startDTDEntity():
-    '''public void startDTDEntity(final XMLInputSource xmlInputSource)
+    '''returns None\n\n
+    startDTDEntity(final XMLInputSource xmlInputSource)\n
     '''
 def startExternalSubset():
-    '''public void startExternalSubset()
+    '''returns None\n\n
+    startExternalSubset()\n
     '''
 def endExternalSubset():
-    '''public void endExternalSubset()
+    '''returns None\n\n
+    endExternalSubset()\n
     '''
 def setupCurrentEntity():
-    '''public String setupCurrentEntity(final String s, final XMLInputSource xmlInputSource, final boolean b, final boolean b2)
+    '''returns String\n\n
+    setupCurrentEntity(final String s, final XMLInputSource xmlInputSource, final boolean b, final boolean b2)\n
     '''
 def setScannerVersion():
-    '''public void setScannerVersion(final short n)
+    '''returns None\n\n
+    setScannerVersion(final short n)\n
     '''
 def getEntityScanner():
-    '''public XMLEntityScanner getEntityScanner()
+    '''returns XMLEntityScanner\n\n
+    getEntityScanner()\n
     '''
 def closeReaders():
-    '''public void closeReaders()
+    '''returns None\n\n
+    closeReaders()\n
     '''
 def reset():
-    '''public void reset(final XMLComponentManager xmlComponentManager)
-    public void reset()
-    public void reset()
+    '''returns None\n\n
+    reset(final XMLComponentManager xmlComponentManager)\n
+    reset()\n
+    reset()\n
     '''
 def getRecognizedFeatures():
-    '''public String[] getRecognizedFeatures()
+    '''returns String[]\n\n
+    getRecognizedFeatures()\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean fAllowJavaEncodings)
+    '''returns None\n\n
+    setFeature(final String s, final boolean fAllowJavaEncodings)\n
     '''
 def getRecognizedProperties():
-    '''public String[] getRecognizedProperties()
+    '''returns String[]\n\n
+    getRecognizedProperties()\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getFeatureDefault():
-    '''public Boolean getFeatureDefault(final String anObject)
+    '''returns Boolean\n\n
+    getFeatureDefault(final String anObject)\n
     '''
 def getPropertyDefault():
-    '''public Object getPropertyDefault(final String anObject)
-    '''
-def absolutizeAgainstUserDir():
-    '''public static void absolutizeAgainstUserDir(final URI uri)
-    '''
-def expandSystemId():
-    '''public static String expandSystemId(final String anObject, final String s, final boolean b)
-    '''
-def createOutputStream():
-    '''public static OutputStream createOutputStream(final String s)
+    '''returns Object\n\n
+    getPropertyDefault(final String anObject)\n
     '''
 def run():
-    '''public Object run()
-    '''
-def RewindableInputStream():
-    '''public RewindableInputStream(final InputStream fInputStream)
+    '''returns Object\n\n
+    run()\n
     '''
 def setStartOffset():
-    '''public void setStartOffset(final int fStartOffset)
+    '''returns None\n\n
+    setStartOffset(final int fStartOffset)\n
     '''
 def rewind():
-    '''public void rewind()
+    '''returns None\n\n
+    rewind()\n
     '''
 def readAndBuffer():
-    '''public int readAndBuffer()
+    '''returns int\n\n
+    readAndBuffer()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, int len)\n
     '''
 def skip():
-    '''public long skip(long n)
+    '''returns long\n\n
+    skip(long n)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def mark():
-    '''public void mark(final int n)
+    '''returns None\n\n
+    mark(final int n)\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def close():
-    '''public void close()
-    '''
-def ScannedEntity():
-    '''public ScannedEntity(final String s, final XMLResourceIdentifier entityLocation, final InputStream stream, final Reader reader, final byte[] fByteBuffer, final String encoding, final boolean literal, final boolean mayReadChunks, final boolean isExternal)
-    '''
-def isExternal():
-    '''public final boolean isExternal()
-    public final boolean isExternal()
-    public final boolean isExternal()
-    '''
-def isUnparsed():
-    '''public final boolean isUnparsed()
-    public final boolean isUnparsed()
-    public final boolean isUnparsed()
+    '''returns None\n\n
+    close()\n
     '''
 def setReader():
-    '''public void setReader(final InputStream inputStream, final String s, final Boolean b)
+    '''returns None\n\n
+    setReader(final InputStream inputStream, final String s, final Boolean b)\n
     '''
 def getExpandedSystemId():
-    '''public String getExpandedSystemId()
+    '''returns String\n\n
+    getExpandedSystemId()\n
     '''
 def getLiteralSystemId():
-    '''public String getLiteralSystemId()
+    '''returns String\n\n
+    getLiteralSystemId()\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''
 def getCharacterOffset():
-    '''public int getCharacterOffset()
+    '''returns int\n\n
+    getCharacterOffset()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def getXMLVersion():
-    '''public String getXMLVersion()
+    '''returns String\n\n
+    getXMLVersion()\n
     '''
 def isEncodingExternallySpecified():
-    '''public boolean isEncodingExternallySpecified()
+    '''returns boolean\n\n
+    isEncodingExternallySpecified()\n
     '''
 def setEncodingExternallySpecified():
-    '''public void setEncodingExternallySpecified(final boolean externallySpecifiedEncoding)
+    '''returns None\n\n
+    setEncodingExternallySpecified(final boolean externallySpecifiedEncoding)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def Entity():
-    '''public Entity()
-    public Entity(final String name, final boolean inExternalSubset)
+    '''returns String\n\n
+    toString()\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
+    clear()\n
     '''
 def setValues():
-    '''public void setValues(final Entity entity)
-    public void setValues(final Entity values)
-    public void setValues(final ExternalEntity values)
-    public void setValues(final Entity values)
-    public void setValues(final InternalEntity values)
-    '''
-def CharacterBuffer():
-    '''public CharacterBuffer(final boolean isExternal, final int n)
-    '''
-def CharacterBufferPool():
-    '''public CharacterBufferPool(final int n, final int n2)
-    public CharacterBufferPool(final int fPoolSize, final int fExternalBufferSize, final int fInternalBufferSize)
+    '''returns None\n\n
+    setValues(final Entity entity)\n
+    setValues(final Entity values)\n
+    setValues(final ExternalEntity values)\n
+    setValues(final Entity values)\n
+    setValues(final InternalEntity values)\n
     '''
 def getBuffer():
-    '''public CharacterBuffer getBuffer(final boolean b)
-    public byte[] getBuffer()
+    '''returns byte[]\n\n
+    getBuffer(final boolean b)\n
+    getBuffer()\n
     '''
 def returnBuffer():
-    '''public void returnBuffer(final CharacterBuffer characterBuffer)
-    public void returnBuffer(final byte[] array)
+    '''returns None\n\n
+    returnBuffer(final CharacterBuffer characterBuffer)\n
+    returnBuffer(final byte[] array)\n
     '''
 def setExternalBufferSize():
-    '''public void setExternalBufferSize(final int fExternalBufferSize)
-    '''
-def ByteBufferPool():
-    '''public ByteBufferPool(final int n)
-    public ByteBufferPool(final int fPoolSize, final int fBufferSize)
+    '''returns None\n\n
+    setExternalBufferSize(final int fExternalBufferSize)\n
     '''
 def setBufferSize():
-    '''public void setBufferSize(final int fBufferSize)
-    '''
-def ExternalEntity():
-    '''public ExternalEntity()
-    public ExternalEntity(final String s, final XMLResourceIdentifier entityLocation, final String notation, final boolean b)
-    '''
-def InternalEntity():
-    '''public InternalEntity()
-    public InternalEntity(final String s, final String text, final boolean b)
-    public InternalEntity(final String s, final String s2, final boolean b, final int paramEntityRefs)
+    '''returns None\n\n
+    setBufferSize(final int fBufferSize)\n
     '''

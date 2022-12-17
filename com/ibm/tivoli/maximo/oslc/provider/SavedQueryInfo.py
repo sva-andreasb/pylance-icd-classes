@@ -1,68 +1,86 @@
 def isFilter():
-    '''public boolean isFilter()
+    '''returns boolean\n\n
+    isFilter()\n
     '''
 def setFilter():
-    '''public void setFilter(final boolean filter)
+    '''returns None\n\n
+    setFilter(final boolean filter)\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def getRole():
-    '''public String getRole()
+    '''returns String\n\n
+    getRole()\n
     '''
 def setRole():
-    '''public void setRole(final String role)
+    '''returns None\n\n
+    setRole(final String role)\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
     '''
 def isPublic():
-    '''public boolean isPublic()
+    '''returns boolean\n\n
+    isPublic()\n
     '''
-def SavedQueryInfo():
-    '''public SavedQueryInfo(final String osName, final String clauseName, final String appName, final Set<String> usage, final String scriptName, final Method method, final Map<String, Class> parameterInfo, final boolean isPublic, final String clause, final String owner, final String role)
-    public SavedQueryInfo(final String osName, final String clauseName, final String appName, final String description, final String scriptName, final Method method, final Map<String, Class> parameterInfo, final boolean isPublic, final String clause, final String owner, final String role, final String qbeClause)
-    public SavedQueryInfo(final String clauseName, final String description, final boolean isDefault, final boolean isPublic)
+def ():
+    '''returns SavedQueryInfo\n\n
+    (final String osName, final String clauseName, final String appName, final Set<String> usage, final String scriptName, final Method method, final Map<String, Class> parameterInfo, final boolean isPublic, final String clause, final String owner, final String role)\n
+    (final String osName, final String clauseName, final String appName, final String description, final String scriptName, final Method method, final Map<String, Class> parameterInfo, final boolean isPublic, final String clause, final String owner, final String role, final String qbeClause)\n
+    (final String clauseName, final String description, final boolean isDefault, final boolean isPublic)\n
     '''
 def getQbeClause():
-    '''public String getQbeClause()
+    '''returns String\n\n
+    getQbeClause()\n
     '''
 def getOwner():
-    '''public String getOwner()
+    '''returns String\n\n
+    getOwner()\n
     '''
 def getClause():
-    '''public String getClause()
+    '''returns String\n\n
+    getClause()\n
     '''
 def hasClause():
-    '''public boolean hasClause()
+    '''returns boolean\n\n
+    hasClause()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isScript():
-    '''public boolean isScript()
+    '''returns boolean\n\n
+    isScript()\n
     '''
 def isOSMethod():
-    '''public boolean isOSMethod()
+    '''returns boolean\n\n
+    isOSMethod()\n
     '''
 def getClauseName():
-    '''public String getClauseName()
+    '''returns String\n\n
+    getClauseName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def getUsage():
-    '''public Set<String> getUsage()
+    '''returns Set<String>\n\n
+    getUsage()\n
     '''
 def getScriptName():
-    '''public String getScriptName()
-    '''
-def getParameterInfo():
-    '''public Map<String, Class> getParameterInfo()
+    '''returns String\n\n
+    getScriptName()\n
     '''

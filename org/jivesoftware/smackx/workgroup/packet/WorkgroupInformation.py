@@ -1,20 +1,26 @@
 ELEMENT_NAME = "String  \"workgroup\""
 NAMESPACE = "String  \"http://jabber.org/protocol/workgroup\""
-def WorkgroupInformation():
-    '''public WorkgroupInformation(final EntityBareJid workgroupJID)
+def ():
+    '''returns WorkgroupInformation\n\n
+    (final EntityBareJid workgroupJID)\n
     '''
 def getWorkgroupJID():
-    '''public EntityBareJid getWorkgroupJID()
+    '''returns EntityBareJid\n\n
+    getWorkgroupJID()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def parse():
-    '''public WorkgroupInformation parse(final XmlPullParser parser, final int initialDepth)
+    '''returns WorkgroupInformation\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

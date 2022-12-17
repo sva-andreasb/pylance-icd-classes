@@ -1,6 +1,8 @@
-def FldInvReserveOpLocation():
-    '''public FldInvReserveOpLocation(final MboValue mbv)
+def ():
+    '''returns FldInvReserveOpLocation\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

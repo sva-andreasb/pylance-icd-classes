@@ -1,39 +1,52 @@
-def CloudantMboSet():
-    '''public CloudantMboSet(final MboServerInterface ms)
+def ():
+    '''returns CloudantMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def getHTTPQueryMethod():
-    '''public String getHTTPQueryMethod()
+    '''returns String\n\n
+    getHTTPQueryMethod()\n
     '''
 def formatPostData():
-    '''public byte[] formatPostData(final int index, final boolean forCount)
+    '''returns byte[]\n\n
+    formatPostData(final int index, final boolean forCount)\n
     '''
 def formatPostDataForNextPage():
-    '''public byte[] formatPostDataForNextPage(final byte[] data, final int index)
+    '''returns byte[]\n\n
+    formatPostDataForNextPage(final byte[] data, final int index)\n
     '''
 def format():
-    '''public JSONQuery format(JSONQuery formater, final JSONResourceInfo resourceInfo, String where, final boolean forCount, final int index)
+    '''returns JSONQuery\n\n
+    format(JSONQuery formater, final JSONResourceInfo resourceInfo, String where, final boolean forCount, final int index)\n
     '''
 def addPaging():
-    '''public JSONQuery addPaging(JSONQuery formater, final int index, final boolean forCount)
+    '''returns JSONQuery\n\n
+    addPaging(JSONQuery formater, final int index, final boolean forCount)\n
     '''
 def formatQBE():
-    '''public JSONQuery formatQBE(JSONQuery formater, final JSONResourceInfo resourceInfo, final boolean forCount, final int index)
+    '''returns JSONQuery\n\n
+    formatQBE(JSONQuery formater, final JSONResourceInfo resourceInfo, final boolean forCount, final int index)\n
     '''
 def bulkUpdate():
-    '''public void bulkUpdate()
+    '''returns None\n\n
+    bulkUpdate()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboRemote mbo, final JSONObject jo)
+    '''returns None\n\n
+    setAdditionalData(final MboRemote mbo, final JSONObject jo)\n
     '''
 def getQualifiedWhere():
-    '''public String getQualifiedWhere()
+    '''returns String\n\n
+    getQualifiedWhere()\n
     '''
 def getUrl():
-    '''public String getUrl(final HTTPHandler handler, final boolean forCount)
+    '''returns String\n\n
+    getUrl(final HTTPHandler handler, final boolean forCount)\n
     '''
 def getStringQualifier():
-    '''public String getStringQualifier()
+    '''returns String\n\n
+    getStringQualifier()\n
     '''

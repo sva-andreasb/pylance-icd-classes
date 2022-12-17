@@ -1,9 +1,8 @@
 def startTimer():
-    '''public HttpRequestAbortTaskTracker startTimer(final HttpRequestBase apacheRequest, final int requestTimeoutMillis)
-    '''
-def shutdown():
-    '''public synchronized void shutdown()
+    '''returns HttpRequestAbortTaskTracker\n\n
+    startTimer(final HttpRequestBase apacheRequest, final int requestTimeoutMillis)\n
     '''
 def getExecutor():
-    '''public ScheduledThreadPoolExecutor getExecutor()
+    '''returns ScheduledThreadPoolExecutor\n\n
+    getExecutor()\n
     '''

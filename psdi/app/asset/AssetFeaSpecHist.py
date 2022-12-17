@@ -1,6 +1,8 @@
-def AssetFeaSpecHist():
-    '''public AssetFeaSpecHist(final MboSet ms)
+def ():
+    '''returns AssetFeaSpecHist\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

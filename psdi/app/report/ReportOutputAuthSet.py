@@ -1,9 +1,12 @@
-def ReportOutputAuthSet():
-    '''public ReportOutputAuthSet(final MboServerInterface ms)
+def ():
+    '''returns ReportOutputAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getRecipients():
-    '''public List<String> getRecipients()
+    '''returns List<String>\n\n
+    getRecipients()\n
     '''
 def getFormatedRecipients():
-    '''public String getFormatedRecipients()
+    '''returns String\n\n
+    getFormatedRecipients()\n
     '''

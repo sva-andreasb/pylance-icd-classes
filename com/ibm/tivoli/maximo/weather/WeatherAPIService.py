@@ -1,64 +1,41 @@
-def WeatherAPIService():
-    '''public WeatherAPIService(final MXServer mxServer)
-    public WeatherAPIService()
+def ():
+    '''returns WeatherAPIService\n\n
+    (final MXServer mxServer)\n
+    ()\n
     '''
 def init():
-    '''public void init()
-    '''
-def getCurrentWeatherForGeocode():
-    '''public Map<String, Object> getCurrentWeatherForGeocode(final UserInfo userInfo, final double latY, final double longX, final String productName)
-    '''
-def getDailyForecastForGeocode():
-    '''public Map<String, Object> getDailyForecastForGeocode(final UserInfo userInfo, final double latY, final double longX, final int duration, final String productName)
-    '''
-def getHourlyForecastForGeocode():
-    '''public Map<String, Object> getHourlyForecastForGeocode(final UserInfo userInfo, final double latY, final double longX, final String hours, final String productName)
-    '''
-def getHistoricalWeatherForGeocode():
-    '''public Map<String, Object> getHistoricalWeatherForGeocode(final UserInfo userInfo, final double latY, final double longX, final Date startDate, final Date endDate, final String productName)
-    '''
-def getWeatherAlertsForGeocode():
-    '''public Map<String, Object> getWeatherAlertsForGeocode(final UserInfo userInfo, final double latY, final double longX, final String productName)
-    '''
-def getWeatherAlertsDetails():
-    '''public Map<String, Object> getWeatherAlertsDetails(final UserInfo userInfo, final String detailKey, final String productName)
-    '''
-def getCurrentWeatherForLocation():
-    '''public Map<String, Object> getCurrentWeatherForLocation(final UserInfo userInfo, final String postalCode, String locationCode, final String country, final String productName)
-    '''
-def getDailyForecastForLocation():
-    '''public Map<String, Object> getDailyForecastForLocation(final UserInfo userInfo, final String postalCode, String locationCode, final String country, final int duration, final String productName)
-    '''
-def getHourlyForecastForLocation():
-    '''public Map<String, Object> getHourlyForecastForLocation(final UserInfo userInfo, final String postalCode, String locationCode, final String country, final String hours, final String productName)
-    '''
-def getHistoricalWeatherForLocation():
-    '''public Map<String, Object> getHistoricalWeatherForLocation(final UserInfo userInfo, final String postalCode, String locationCode, final String country, final Date startDate, final Date endDate, final String productName)
-    '''
-def getWeatherAlertsForLocation():
-    '''public Map<String, Object> getWeatherAlertsForLocation(final UserInfo userInfo, final String postalCode, String locationCode, final String country, final String productName)
+    '''returns None\n\n
+    init()\n
     '''
 def checkConnection():
-    '''public void checkConnection(@WSMboKey("WEATHERORG") final MboRemote weatherOrg)
+    '''returns None\n\n
+    checkConnection(@WSMboKey("WEATHERORG") final MboRemote weatherOrg)\n
     '''
 def getServiceAddresses():
-    '''public MboSetRemote getServiceAddresses()
+    '''returns MboSetRemote\n\n
+    getServiceAddresses()\n
     '''
 def registryEndPointsForAlerts():
-    '''public void registryEndPointsForAlerts(final boolean register)
+    '''returns None\n\n
+    registryEndPointsForAlerts(final boolean register)\n
     '''
 def processAssetsRegistry():
-    '''public void processAssetsRegistry(@WSMboKey("WEATHERZONE") final MboRemote weatherZone, final String actioncode)
+    '''returns None\n\n
+    processAssetsRegistry(@WSMboKey("WEATHERZONE") final MboRemote weatherZone, final String actioncode)\n
     '''
 def getProductCatalog():
-    '''public List<Object> getProductCatalog(final String org)
+    '''returns List<Object>\n\n
+    getProductCatalog(final String org)\n
     '''
 def isWeatherLicenseInstalled():
-    '''public boolean isWeatherLicenseInstalled(final String productName)
+    '''returns boolean\n\n
+    isWeatherLicenseInstalled(final String productName)\n
     '''
 def logWeatherAPICall():
-    '''public void logWeatherAPICall(String productName, final String resourceName, final UserInfo userInfo)
+    '''returns None\n\n
+    logWeatherAPICall(String productName, final String resourceName, final UserInfo userInfo)\n
     '''
 def distance():
-    '''public double distance(final double lat1, final double lon1, final double lat2, final double lon2, final String uom)
+    '''returns double\n\n
+    distance(final double lat1, final double lon1, final double lat2, final double lon2, final String uom)\n
     '''

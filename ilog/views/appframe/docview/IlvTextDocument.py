@@ -1,18 +1,24 @@
-def IlvTextDocument():
-    '''public IlvTextDocument()
+def ():
+    '''returns IlvTextDocument\n\n
+    ()\n
     '''
 def initializeDocument():
-    '''public boolean initializeDocument(final Object o)
+    '''returns boolean\n\n
+    initializeDocument(final Object o)\n
     '''
 def clean():
-    '''public void clean()
+    '''returns None\n\n
+    clean()\n
     '''
 def writeDocument():
-    '''public boolean writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)\n
     '''
 def getTextDocument():
-    '''public Document getTextDocument()
+    '''returns Document\n\n
+    getTextDocument()\n
     '''
 def undoableEditHappened():
-    '''public void undoableEditHappened(final UndoableEditEvent undoableEditEvent)
+    '''returns None\n\n
+    undoableEditHappened(final UndoableEditEvent undoableEditEvent)\n
     '''

@@ -1,19 +1,24 @@
-def UTF8Writer():
-    '''public UTF8Writer(final IOContext ctxt, final OutputStream out)
+def ():
+    '''returns UTF8Writer\n\n
+    (final IOContext ctxt, final OutputStream out)\n
     '''
 def append():
-    '''public Writer append(final char c)
+    '''returns Writer\n\n
+    append(final char c)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final char[] cbuf)
-    public void write(final char[] cbuf, int off, int len)
-    public void write(int c)
-    public void write(final String str)
-    public void write(final String str, int off, int len)
+    '''returns None\n\n
+    write(final char[] cbuf)\n
+    write(final char[] cbuf, int off, int len)\n
+    write(int c)\n
+    write(final String str)\n
+    write(final String str, int off, int len)\n
     '''

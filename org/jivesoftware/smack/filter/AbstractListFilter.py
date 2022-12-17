@@ -1,6 +1,4 @@
 def addFilter():
-    '''public void addFilter(final StanzaFilter filter)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns None\n\n
+    addFilter(final StanzaFilter filter)\n
     '''

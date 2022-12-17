@@ -1,26 +1,22 @@
-def JsonObjectParser():
-    '''public JsonObjectParser(final JsonFactory jsonFactory)
+def ():
+    '''returns Builder\n\n
+    (final JsonFactory jsonFactory)\n
+    (final JsonFactory jsonFactory)\n
     '''
 def parseAndClose():
-    '''public <T> T parseAndClose(final InputStream in, final Charset charset, final Class<T> dataClass)
-    public Object parseAndClose(final InputStream in, final Charset charset, final Type dataType)
-    public <T> T parseAndClose(final Reader reader, final Class<T> dataClass)
-    public Object parseAndClose(final Reader reader, final Type dataType)
-    '''
-def getJsonFactory():
-    '''public final JsonFactory getJsonFactory()
-    public final JsonFactory getJsonFactory()
+    '''returns Object\n\n
+    parseAndClose(final InputStream in, final Charset charset, final Type dataType)\n
+    parseAndClose(final Reader reader, final Type dataType)\n
     '''
 def getWrapperKeys():
-    '''public Set<String> getWrapperKeys()
-    public final Collection<String> getWrapperKeys()
-    '''
-def Builder():
-    '''public Builder(final JsonFactory jsonFactory)
+    '''returns Set<String>\n\n
+    getWrapperKeys()\n
     '''
 def build():
-    '''public JsonObjectParser build()
+    '''returns JsonObjectParser\n\n
+    build()\n
     '''
 def setWrapperKeys():
-    '''public Builder setWrapperKeys(final Collection<String> wrapperKeys)
+    '''returns Builder\n\n
+    setWrapperKeys(final Collection<String> wrapperKeys)\n
     '''

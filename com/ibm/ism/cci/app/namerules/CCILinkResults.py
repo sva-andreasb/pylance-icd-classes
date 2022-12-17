@@ -4,74 +4,98 @@ RT_NOMATCH = "int  4"
 RT_NOTSET = "int  0"
 RT_ALREADYSET = "int  8"
 def isDupLink():
-    '''public boolean isDupLink()
+    '''returns boolean\n\n
+    isDupLink()\n
     '''
 def setDupLink():
-    '''public void setDupLink(final boolean b)
+    '''returns None\n\n
+    setDupLink(final boolean b)\n
     '''
-def CCILinkResults():
-    '''public CCILinkResults()
+def ():
+    '''returns CCILinkResults\n\n
+    ()\n
     '''
 def setAlreadySet():
-    '''public void setAlreadySet()
+    '''returns None\n\n
+    setAlreadySet()\n
     '''
 def isAlreadySet():
-    '''public boolean isAlreadySet()
+    '''returns boolean\n\n
+    isAlreadySet()\n
     '''
 def setNoMatch():
-    '''public void setNoMatch(final boolean isNOMATCH)
+    '''returns None\n\n
+    setNoMatch(final boolean isNOMATCH)\n
     '''
 def isNoMatch():
-    '''public boolean isNoMatch()
+    '''returns boolean\n\n
+    isNoMatch()\n
     '''
 def isLinked():
-    '''public boolean isLinked()
+    '''returns boolean\n\n
+    isLinked()\n
     '''
 def isError():
-    '''public boolean isError()
+    '''returns boolean\n\n
+    isError()\n
     '''
 def setLinked():
-    '''public void setLinked(final boolean isLinked)
+    '''returns None\n\n
+    setLinked(final boolean isLinked)\n
     '''
 def setError():
-    '''public void setError(final boolean isError)
+    '''returns None\n\n
+    setError(final boolean isError)\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''
 def setException():
-    '''public void setException(final Exception e)
+    '''returns None\n\n
+    setException(final Exception e)\n
     '''
 def getCiNum():
-    '''public String getCiNum()
+    '''returns String\n\n
+    getCiNum()\n
     '''
 def setCiNum():
-    '''public void setCiNum(final String ciNum)
+    '''returns None\n\n
+    setCiNum(final String ciNum)\n
     '''
 def getCiClassStructureID():
-    '''public String getCiClassStructureID()
+    '''returns String\n\n
+    getCiClassStructureID()\n
     '''
 def setCiClassStructureID():
-    '''public void setCiClassStructureID(final String ciClassStructureID)
+    '''returns None\n\n
+    setCiClassStructureID(final String ciClassStructureID)\n
     '''
 def getActciNum():
-    '''public String getActciNum()
+    '''returns String\n\n
+    getActciNum()\n
     '''
 def setActciNum():
-    '''public void setActciNum(final String actciNum)
+    '''returns None\n\n
+    setActciNum(final String actciNum)\n
     '''
 def getActciClassStructureID():
-    '''public String getActciClassStructureID()
+    '''returns String\n\n
+    getActciClassStructureID()\n
     '''
 def setActciClassStructureID():
-    '''public void setActciClassStructureID(final String actciClassStructureID)
+    '''returns None\n\n
+    setActciClassStructureID(final String actciClassStructureID)\n
     '''
 def getNmInfo():
-    '''public NameRuleInfo getNmInfo()
+    '''returns NameRuleInfo\n\n
+    getNmInfo()\n
     '''
 def setNmInfo():
-    '''public void setNmInfo(final NameRuleInfo nmInfo)
+    '''returns None\n\n
+    setNmInfo(final NameRuleInfo nmInfo)\n
     '''
 def getResultsForDebug():
-    '''public String getResultsForDebug()
+    '''returns String\n\n
+    getResultsForDebug()\n
     '''

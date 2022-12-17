@@ -1,19 +1,20 @@
-def CachedObjectRepository():
-    '''public CachedObjectRepository(final boolean masterOnly)
+def ():
+    '''returns CachedObjectRepository\n\n
+    (final boolean masterOnly)\n
     '''
 def getResolvedInfo():
-    '''public CachedObject getResolvedInfo(final long id)
-    '''
-def cacheInfo():
-    '''public synchronized CachedObject cacheInfo(final CachedObject info)
-    '''
-def clearTenant():
-    '''public Map<Long, CachedObject> clearTenant()
-    public CachedObject clearTenant(final long id)
+    '''returns CachedObject\n\n
+    getResolvedInfo(final long id)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
+    '''
+def clearTenant():
+    '''returns CachedObject\n\n
+    clearTenant(final long id)\n
     '''
 def clearAllTenants():
-    '''public void clearAllTenants()
+    '''returns None\n\n
+    clearAllTenants()\n
     '''

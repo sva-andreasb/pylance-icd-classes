@@ -1,12 +1,16 @@
 def getClassParams():
-    '''public Class[] getClassParams()
+    '''returns Class[]\n\n
+    getClassParams()\n
     '''
 def getObjectParams():
-    '''public Object[] getObjectParams(final byte[] data, final Map<String, ?> metaData)
+    '''returns Object[]\n\n
+    getObjectParams(final byte[] data, final Map<String, ?> metaData)\n
     '''
 def responseError():
-    '''public void responseError(final Exception e)
+    '''returns None\n\n
+    responseError(final Exception e)\n
     '''
 def responseOk():
-    '''public byte[] responseOk(final Object reponse)
+    '''returns byte[]\n\n
+    responseOk(final Object reponse)\n
     '''

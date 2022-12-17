@@ -1,18 +1,20 @@
-def SMTP2HTTPBridge():
-    '''public SMTP2HTTPBridge(final long pollDelayMillis, final String pop3ServerHost, final String s, final String s2, final URL httpURL, final String smtpServerHost)
+def ():
+    '''returns SMTP2HTTPBridge\n\n
+    (final long pollDelayMillis, final String pop3ServerHost, final String s, final String s2, final URL httpURL, final String smtpServerHost)\n
     '''
 def messageReceived():
-    '''public void messageReceived(final MessageEvent messageEvent)
+    '''returns None\n\n
+    messageReceived(final MessageEvent messageEvent)\n
     '''
 def operationComplete():
-    '''public void operationComplete(final StatusEvent statusEvent)
+    '''returns None\n\n
+    operationComplete(final StatusEvent statusEvent)\n
     '''
 def processStatus():
-    '''public void processStatus(final StatusEvent statusEvent)
-    '''
-def main():
-    '''public static void main(final String[] array)
+    '''returns None\n\n
+    processStatus(final StatusEvent statusEvent)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

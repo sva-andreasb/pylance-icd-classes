@@ -1,4 +1,5 @@
-def DPAMSWSuiteService():
-    '''public DPAMSWSuiteService()
-    public DPAMSWSuiteService(final MXServer mxServer)
+def ():
+    '''returns DPAMSWSuiteService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

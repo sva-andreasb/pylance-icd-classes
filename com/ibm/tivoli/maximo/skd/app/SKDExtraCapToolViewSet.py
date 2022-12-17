@@ -1,3 +1,4 @@
-def SKDExtraCapToolViewSet():
-    '''public SKDExtraCapToolViewSet(final MboServerInterface ms)
+def ():
+    '''returns SKDExtraCapToolViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,36 +1,43 @@
-def BufferCache():
-    '''public BufferCache()
+def ():
+    '''returns CachedBuffer\n\n
+    ()\n
+    (final String value, final int ordinal)\n
     '''
 def add():
-    '''public CachedBuffer add(final String value, final int ordinal)
+    '''returns CachedBuffer\n\n
+    add(final String value, final int ordinal)\n
     '''
 def get():
-    '''public CachedBuffer get(final int ordinal)
-    public CachedBuffer get(final Buffer buffer)
-    public CachedBuffer get(final String value)
+    '''returns CachedBuffer\n\n
+    get(final int ordinal)\n
+    get(final Buffer buffer)\n
+    get(final String value)\n
     '''
 def lookup():
-    '''public Buffer lookup(final Buffer buffer)
-    public Buffer lookup(final String value)
+    '''returns Buffer\n\n
+    lookup(final Buffer buffer)\n
+    lookup(final String value)\n
     '''
 def getBest():
-    '''public CachedBuffer getBest(final byte[] value, final int offset, final int maxLength)
+    '''returns CachedBuffer\n\n
+    getBest(final byte[] value, final int offset, final int maxLength)\n
     '''
 def toString():
-    '''public String toString(final Buffer buffer)
-    public String toString()
+    '''returns String\n\n
+    toString(final Buffer buffer)\n
+    toString()\n
     '''
 def getOrdinal():
-    '''public int getOrdinal(final String value)
-    public int getOrdinal(Buffer buffer)
-    public int getOrdinal()
-    '''
-def CachedBuffer():
-    '''public CachedBuffer(final String value, final int ordinal)
+    '''returns int\n\n
+    getOrdinal(final String value)\n
+    getOrdinal(Buffer buffer)\n
+    getOrdinal()\n
     '''
 def getAssociate():
-    '''public CachedBuffer getAssociate(final Object key)
+    '''returns CachedBuffer\n\n
+    getAssociate(final Object key)\n
     '''
 def setAssociate():
-    '''public void setAssociate(final Object key, final CachedBuffer associate)
+    '''returns None\n\n
+    setAssociate(final Object key, final CachedBuffer associate)\n
     '''

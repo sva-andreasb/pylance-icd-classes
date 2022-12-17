@@ -1,16 +1,21 @@
 NAMESPACE = "String  \"http://jabber.org/protocol/chatstates\""
-def ChatStateExtension():
-    '''public ChatStateExtension(final ChatState state)
+def ():
+    '''returns ChatStateExtension\n\n
+    (final ChatState state)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getChatState():
-    '''public ChatState getChatState()
+    '''returns ChatState\n\n
+    getChatState()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

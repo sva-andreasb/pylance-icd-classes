@@ -1,36 +1,48 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setModelName():
-    '''public void setModelName(final String name)
+    '''returns None\n\n
+    setModelName(final String name)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final int version)
+    '''returns None\n\n
+    setVersion(final int version)\n
     '''
 def getModelType():
-    '''public ModelType getModelType()
+    '''returns ModelType\n\n
+    getModelType()\n
     '''
 def setModelType():
-    '''public void setModelType(final ModelType modelType)
+    '''returns None\n\n
+    setModelType(final ModelType modelType)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getProjectId():
-    '''public ObjectId getProjectId()
+    '''returns ObjectId\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final ObjectId projectId)
+    '''returns None\n\n
+    setProjectId(final ObjectId projectId)\n
     '''

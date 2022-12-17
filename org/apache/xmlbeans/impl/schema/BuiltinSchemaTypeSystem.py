@@ -1,81 +1,100 @@
-def get():
-    '''public static SchemaTypeSystem get()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isNamespaceDefined():
-    '''public boolean isNamespaceDefined(final String namespace)
+    '''returns boolean\n\n
+    isNamespaceDefined(final String namespace)\n
     '''
 def findType():
-    '''public SchemaType findType(final QName name)
+    '''returns SchemaType\n\n
+    findType(final QName name)\n
     '''
 def findDocumentType():
-    '''public SchemaType findDocumentType(final QName name)
+    '''returns SchemaType\n\n
+    findDocumentType(final QName name)\n
     '''
 def findAttributeType():
-    '''public SchemaType findAttributeType(final QName name)
+    '''returns SchemaType\n\n
+    findAttributeType(final QName name)\n
     '''
 def findElement():
-    '''public SchemaGlobalElement findElement(final QName name)
+    '''returns SchemaGlobalElement\n\n
+    findElement(final QName name)\n
     '''
 def findAttribute():
-    '''public SchemaGlobalAttribute findAttribute(final QName name)
+    '''returns SchemaGlobalAttribute\n\n
+    findAttribute(final QName name)\n
     '''
 def typeForClassname():
-    '''public SchemaType typeForClassname(final String classname)
+    '''returns SchemaType\n\n
+    typeForClassname(final String classname)\n
     '''
 def getSourceAsStream():
-    '''public InputStream getSourceAsStream(final String sourceName)
+    '''returns InputStream\n\n
+    getSourceAsStream(final String sourceName)\n
     '''
 def globalTypes():
-    '''public SchemaType[] globalTypes()
+    '''returns SchemaType[]\n\n
+    globalTypes()\n
     '''
 def documentTypes():
-    '''public SchemaType[] documentTypes()
+    '''returns SchemaType[]\n\n
+    documentTypes()\n
     '''
 def attributeTypes():
-    '''public SchemaType[] attributeTypes()
+    '''returns SchemaType[]\n\n
+    attributeTypes()\n
     '''
 def globalElements():
-    '''public SchemaGlobalElement[] globalElements()
+    '''returns SchemaGlobalElement[]\n\n
+    globalElements()\n
     '''
 def globalAttributes():
-    '''public SchemaGlobalAttribute[] globalAttributes()
+    '''returns SchemaGlobalAttribute[]\n\n
+    globalAttributes()\n
     '''
 def modelGroups():
-    '''public SchemaModelGroup[] modelGroups()
+    '''returns SchemaModelGroup[]\n\n
+    modelGroups()\n
     '''
 def attributeGroups():
-    '''public SchemaAttributeGroup[] attributeGroups()
+    '''returns SchemaAttributeGroup[]\n\n
+    attributeGroups()\n
     '''
 def annotations():
-    '''public SchemaAnnotation[] annotations()
+    '''returns SchemaAnnotation[]\n\n
+    annotations()\n
     '''
 def handleForType():
-    '''public String handleForType(final SchemaType type)
+    '''returns String\n\n
+    handleForType(final SchemaType type)\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''
 def saveToDirectory():
-    '''public void saveToDirectory(final File classDir)
+    '''returns None\n\n
+    saveToDirectory(final File classDir)\n
     '''
 def save():
-    '''public void save(final Filer filer)
+    '''returns None\n\n
+    save(final Filer filer)\n
     '''
 def resolve():
-    '''public void resolve()
+    '''returns None\n\n
+    resolve()\n
     '''
 def typeForHandle():
-    '''public SchemaType typeForHandle(final String handle)
+    '''returns SchemaType\n\n
+    typeForHandle(final String handle)\n
     '''
 def resolveHandle():
-    '''public SchemaComponent resolveHandle(final String handle)
+    '''returns SchemaComponent\n\n
+    resolveHandle(final String handle)\n
     '''
 def fillInType():
-    '''public void fillInType(final int btc)
-    '''
-def getNoType():
-    '''public static SchemaType getNoType()
+    '''returns None\n\n
+    fillInType(final int btc)\n
     '''

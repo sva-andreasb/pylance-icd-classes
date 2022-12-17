@@ -1,6 +1,8 @@
-def DepSchedHistorySet():
-    '''public DepSchedHistorySet(final MboServerInterface ms)
+def ():
+    '''returns DepSchedHistorySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def createDepSchedHistory():
-    '''public DepSchedHistoryRemote createDepSchedHistory(final DepSchedRemote depSched, final String historyType)
+    '''returns DepSchedHistoryRemote\n\n
+    createDepSchedHistory(final DepSchedRemote depSched, final String historyType)\n
     '''

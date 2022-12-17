@@ -1,17 +1,22 @@
 SERVICE_TYPE = "String  \"service:cmx\""
-def ControllerServerImpl():
-    '''public ControllerServerImpl(final int n, final boolean b)
-    public ControllerServerImpl(final int n, final boolean b, final String s)
+def ():
+    '''returns ControllerServerImpl\n\n
+    (final int n, final boolean b)\n
+    (final int n, final boolean b, final String s)\n
     '''
 def registerOverrideMonitor():
-    '''public void registerOverrideMonitor(final String s, final int i, final boolean b, final int j, final int k, final int[] array)
+    '''returns None\n\n
+    registerOverrideMonitor(final String s, final int i, final boolean b, final int j, final int k, final int[] array)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def isMulticastServiceActive():
-    '''public boolean isMulticastServiceActive()
+    '''returns boolean\n\n
+    isMulticastServiceActive()\n
     '''

@@ -1,29 +1,38 @@
-def SKDCriticalPathMethod():
-    '''public SKDCriticalPathMethod(final IlvGanttModel model)
+def ():
+    '''returns SKDCriticalPathMethod\n\n
+    (final IlvGanttModel model)\n
     '''
 def setModel():
-    '''public void setModel(final IlvGanttModel model)
+    '''returns None\n\n
+    setModel(final IlvGanttModel model)\n
     '''
 def setProjectStart():
-    '''public void setProjectStart(final Date projectStart)
+    '''returns None\n\n
+    setProjectStart(final Date projectStart)\n
     '''
 def getProjectStart():
-    '''public Date getProjectStart()
+    '''returns Date\n\n
+    getProjectStart()\n
     '''
 def setCriticalThreshold():
-    '''public void setCriticalThreshold(final IlvDuration ilvduration)
+    '''returns None\n\n
+    setCriticalThreshold(final IlvDuration ilvduration)\n
     '''
 def computeSchedule():
-    '''public void computeSchedule()
-    public void computeSchedule(final IlvActivity[] selectedActivities)
+    '''returns None\n\n
+    computeSchedule()\n
+    computeSchedule(final IlvActivity[] selectedActivities)\n
     '''
 def computeEarlyStartAndFinish():
-    '''public void computeEarlyStartAndFinish(final IlvActivity activity)
+    '''returns None\n\n
+    computeEarlyStartAndFinish(final IlvActivity activity)\n
     '''
 def computeLateStartAndFinish():
-    '''public void computeLateStartAndFinish(final IlvActivity activity)
-    public void computeLateStartAndFinish(final IlvActivity activity, final Date parentLatestFinish)
+    '''returns None\n\n
+    computeLateStartAndFinish(final IlvActivity activity)\n
+    computeLateStartAndFinish(final IlvActivity activity, final Date parentLatestFinish)\n
     '''
 def computeFloat():
-    '''public void computeFloat(final IlvActivity activity)
+    '''returns None\n\n
+    computeFloat(final IlvActivity activity)\n
     '''

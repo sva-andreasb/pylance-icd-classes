@@ -1,3 +1,4 @@
 def gotostartcenter():
-    '''public int gotostartcenter()
+    '''returns int\n\n
+    gotostartcenter()\n
     '''

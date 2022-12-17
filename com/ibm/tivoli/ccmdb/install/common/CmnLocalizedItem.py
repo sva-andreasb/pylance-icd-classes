@@ -1,16 +1,21 @@
-def CmnLocalizedItem():
-    '''public CmnLocalizedItem(final String label, final String resourceBundle, final String msgKey)
+def ():
+    '''returns CmnLocalizedItem\n\n
+    (final String label, final String resourceBundle, final String msgKey)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getResourceBundle():
-    '''public String getResourceBundle()
+    '''returns String\n\n
+    getResourceBundle()\n
     '''
 def getMsgKey():
-    '''public String getMsgKey()
+    '''returns String\n\n
+    getMsgKey()\n
     '''
 def toString():
-    '''public String toString(final Locale locale)
-    public String toString(final Locale locale, final ClassLoader classLoader)
+    '''returns String\n\n
+    toString(final Locale locale)\n
+    toString(final Locale locale, final ClassLoader classLoader)\n
     '''

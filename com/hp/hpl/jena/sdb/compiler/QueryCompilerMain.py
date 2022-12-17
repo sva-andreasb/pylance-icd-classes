@@ -1,12 +1,16 @@
-def QueryCompilerMain():
-    '''public QueryCompilerMain(final SDBRequest request)
+def ():
+    '''returns QueryCompilerMain\n\n
+    (final SDBRequest request)\n
     '''
 def compile():
-    '''public Op compile(Op op)
+    '''returns Op\n\n
+    compile(Op op)\n
     '''
 def getConditionCompiler():
-    '''public ConditionCompiler getConditionCompiler()
+    '''returns ConditionCompiler\n\n
+    getConditionCompiler()\n
     '''
 def visit():
-    '''public void visit(final OpExt op)
+    '''returns None\n\n
+    visit(final OpExt op)\n
     '''

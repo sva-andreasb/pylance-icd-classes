@@ -1,34 +1,44 @@
 NOCHANGESTATUSCHECK = "long  2097152L"
-def PmCfgStatusHandler():
-    '''public PmCfgStatusHandler(final CI ci)
+def ():
+    '''returns PmCfgStatusHandler\n\n
+    (final CI ci)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredStatus)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def preStatusChange():
-    '''public void preStatusChange(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    preStatusChange(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)\n
     '''
 def validate():
-    '''public void validate(final String status, final boolean checkRFC, final boolean useDefault)
-    public void validate()
-    public void validate(final boolean checkRFC, final boolean useDefault)
-    public void validate(final boolean useDefault)
+    '''returns None\n\n
+    validate(final String status, final boolean checkRFC, final boolean useDefault)\n
+    validate()\n
+    validate(final boolean checkRFC, final boolean useDefault)\n
+    validate(final boolean useDefault)\n
     '''
 def setDefaultStatus():
-    '''public void setDefaultStatus(final boolean isDefault)
+    '''returns None\n\n
+    setDefaultStatus(final boolean isDefault)\n
     '''
 def isProtected():
-    '''public boolean isProtected(final MboRemote lifecycle, final String status)
+    '''returns boolean\n\n
+    isProtected(final MboRemote lifecycle, final String status)\n
     '''
 def isDefault():
-    '''public boolean isDefault(final MboRemote lifecycle, final String status)
+    '''returns boolean\n\n
+    isDefault(final MboRemote lifecycle, final String status)\n
     '''
 def getDefaultStatus():
-    '''public String getDefaultStatus()
+    '''returns String\n\n
+    getDefaultStatus()\n
     '''

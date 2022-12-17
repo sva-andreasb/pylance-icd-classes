@@ -1,16 +1,21 @@
-def ReportEmailFileTypeInfo():
-    '''public ReportEmailFileTypeInfo(final String fileType, final int displayOrder)
+def ():
+    '''returns ReportEmailFileTypeInfo\n\n
+    (final String fileType, final int displayOrder)\n
     '''
 def getFileType():
-    '''public String getFileType()
+    '''returns String\n\n
+    getFileType()\n
     '''
 def getDisplayOrder():
-    '''public int getDisplayOrder()
+    '''returns int\n\n
+    getDisplayOrder()\n
     '''
 def getLabel():
-    '''public String getLabel(final String langCode)
-    public String getLabel(final UserInfo userInfo)
+    '''returns String\n\n
+    getLabel(final String langCode)\n
+    getLabel(final UserInfo userInfo)\n
     '''
 def addLabel():
-    '''public void addLabel(final String langCode, final String label)
+    '''returns None\n\n
+    addLabel(final String langCode, final String label)\n
     '''

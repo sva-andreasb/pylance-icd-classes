@@ -1,3 +1,4 @@
-def QuickPrint():
-    '''public QuickPrint(final MboSet ms)
+def ():
+    '''returns QuickPrint\n\n
+    (final MboSet ms)\n
     '''

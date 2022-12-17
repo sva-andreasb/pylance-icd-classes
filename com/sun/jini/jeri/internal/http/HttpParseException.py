@@ -1,4 +1,5 @@
-def HttpParseException():
-    '''public HttpParseException()
-    public HttpParseException(final String message)
+def ():
+    '''returns HttpParseException\n\n
+    ()\n
+    (final String message)\n
     '''

@@ -1,3 +1,4 @@
-def FldPurchByMaxLicPurchDet():
-    '''public FldPurchByMaxLicPurchDet(final MboValue mbv)
+def ():
+    '''returns FldPurchByMaxLicPurchDet\n\n
+    (final MboValue mbv)\n
     '''

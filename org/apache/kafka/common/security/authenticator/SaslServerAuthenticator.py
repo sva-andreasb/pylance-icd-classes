@@ -1,19 +1,25 @@
-def SaslServerAuthenticator():
-    '''public SaslServerAuthenticator(final Map<String, ?> configs, final String connectionId, final Map<String, JaasContext> jaasContexts, final Map<String, Subject> subjects, final KerberosShortNamer kerberosNameParser, final CredentialCache credentialCache, final ListenerName listenerName, final SecurityProtocol securityProtocol, final TransportLayer transportLayer, final DelegationTokenCache tokenCache)
+def ():
+    '''returns SaslServerAuthenticator\n\n
+    (final Map<String, ?> configs, final String connectionId, final Map<String, JaasContext> jaasContexts, final Map<String, Subject> subjects, final KerberosShortNamer kerberosNameParser, final CredentialCache credentialCache, final ListenerName listenerName, final SecurityProtocol securityProtocol, final TransportLayer transportLayer, final DelegationTokenCache tokenCache)\n
     '''
 def run():
-    '''public SaslServer run()
-    public SaslServer run()
+    '''returns SaslServer\n\n
+    run()\n
+    run()\n
     '''
 def authenticate():
-    '''public void authenticate()
+    '''returns None\n\n
+    authenticate()\n
     '''
 def principal():
-    '''public KafkaPrincipal principal()
+    '''returns KafkaPrincipal\n\n
+    principal()\n
     '''
 def complete():
-    '''public boolean complete()
+    '''returns boolean\n\n
+    complete()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

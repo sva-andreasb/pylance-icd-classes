@@ -1,3 +1,4 @@
-def FldMatRecTransManufacturer():
-    '''public FldMatRecTransManufacturer(final MboValue mbv)
+def ():
+    '''returns FldMatRecTransManufacturer\n\n
+    (final MboValue mbv)\n
     '''

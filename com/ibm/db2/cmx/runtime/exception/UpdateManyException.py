@@ -1,21 +1,28 @@
 def getUpdateCounts():
-    '''public int[] getUpdateCounts()
+    '''returns int[]\n\n
+    getUpdateCounts()\n
     '''
 def setUpdateCounts():
-    '''public void setUpdateCounts(final int[] updateCounts_)
+    '''returns None\n\n
+    setUpdateCounts(final int[] updateCounts_)\n
     '''
 def getHeterogeneousUpdateCounts():
-    '''public int[][] getHeterogeneousUpdateCounts()
+    '''returns int[][]\n\n
+    getHeterogeneousUpdateCounts()\n
     '''
 def setHeterogeneousUpdateCounts():
-    '''public void setHeterogeneousUpdateCounts(final int[][] heteroUpdateCounts_)
+    '''returns None\n\n
+    setHeterogeneousUpdateCounts(final int[][] heteroUpdateCounts_)\n
     '''
 def getHeteroBatchSQLExceptionArray():
-    '''public HeteroBatchSQLException[][] getHeteroBatchSQLExceptionArray()
+    '''returns HeteroBatchSQLException[][]\n\n
+    getHeteroBatchSQLExceptionArray()\n
     '''
 def getBatchSQLExceptionArray():
-    '''public HeteroBatchSQLException[] getBatchSQLExceptionArray()
+    '''returns HeteroBatchSQLException[]\n\n
+    getBatchSQLExceptionArray()\n
     '''
 def getBatchNonSpecificExceptions():
-    '''public HeteroBatchSQLException getBatchNonSpecificExceptions()
+    '''returns HeteroBatchSQLException\n\n
+    getBatchNonSpecificExceptions()\n
     '''

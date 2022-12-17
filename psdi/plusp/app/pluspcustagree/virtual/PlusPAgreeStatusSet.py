@@ -1,3 +1,4 @@
-def PlusPAgreeStatusSet():
-    '''public PlusPAgreeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAgreeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

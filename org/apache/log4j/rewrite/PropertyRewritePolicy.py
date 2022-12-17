@@ -1,9 +1,12 @@
-def PropertyRewritePolicy():
-    '''public PropertyRewritePolicy()
+def ():
+    '''returns PropertyRewritePolicy\n\n
+    ()\n
     '''
 def setProperties():
-    '''public void setProperties(final String properties)
+    '''returns None\n\n
+    setProperties(final String properties)\n
     '''
 def rewrite():
-    '''public LoggingEvent rewrite(final LoggingEvent source)
+    '''returns LoggingEvent\n\n
+    rewrite(final LoggingEvent source)\n
     '''

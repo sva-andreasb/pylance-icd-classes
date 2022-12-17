@@ -1,3 +1,4 @@
-def InvalidArnException():
-    '''public InvalidArnException(final String message)
+def ():
+    '''returns InvalidArnException\n\n
+    (final String message)\n
     '''

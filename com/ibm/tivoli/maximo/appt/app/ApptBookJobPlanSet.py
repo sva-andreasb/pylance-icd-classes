@@ -1,3 +1,4 @@
-def ApptBookJobPlanSet():
-    '''public ApptBookJobPlanSet(final MboServerInterface ms)
+def ():
+    '''returns ApptBookJobPlanSet\n\n
+    (final MboServerInterface ms)\n
     '''

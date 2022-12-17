@@ -1,42 +1,40 @@
 def getDefaultSigner():
-    '''public SignerConfigJsonHelper getDefaultSigner()
+    '''returns SignerConfigJsonHelper\n\n
+    getDefaultSigner()\n
     '''
 def setDefaultSigner():
-    '''public void setDefaultSigner(final SignerConfigJsonHelper defaultSigner)
-    '''
-def getServiceSigners():
-    '''public JsonIndex<SignerConfigJsonHelper, SignerConfig>[] getServiceSigners()
+    '''returns None\n\n
+    setDefaultSigner(final SignerConfigJsonHelper defaultSigner)\n
     '''
 def setServiceSigners():
-    '''public void setServiceSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... serviceSigners)
-    '''
-def getRegionSigners():
-    '''public JsonIndex<SignerConfigJsonHelper, SignerConfig>[] getRegionSigners()
+    '''returns None\n\n
+    setServiceSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... serviceSigners)\n
     '''
 def setRegionSigners():
-    '''public void setRegionSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... regionSigners)
-    '''
-def getServiceRegionSigners():
-    '''public JsonIndex<SignerConfigJsonHelper, SignerConfig>[] getServiceRegionSigners()
+    '''returns None\n\n
+    setRegionSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... regionSigners)\n
     '''
 def setServiceRegionSigners():
-    '''public void setServiceRegionSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... serviceRegionSigners)
-    '''
-def getHttpClients():
-    '''public JsonIndex<HttpClientConfigJsonHelper, HttpClientConfig>[] getHttpClients()
+    '''returns None\n\n
+    setServiceRegionSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... serviceRegionSigners)\n
     '''
 def setHttpClients():
-    '''public void setHttpClients(final JsonIndex<HttpClientConfigJsonHelper, HttpClientConfig>... httpClients)
+    '''returns None\n\n
+    setHttpClients(final JsonIndex<HttpClientConfigJsonHelper, HttpClientConfig>... httpClients)\n
     '''
 def getHostRegexToRegionMappings():
-    '''public HostRegexToRegionMappingJsonHelper[] getHostRegexToRegionMappings()
+    '''returns HostRegexToRegionMappingJsonHelper[]\n\n
+    getHostRegexToRegionMappings()\n
     '''
 def setHostRegexToRegionMappings():
-    '''public void setHostRegexToRegionMappings(final HostRegexToRegionMappingJsonHelper[] hostRegexToRegionMappings)
+    '''returns None\n\n
+    setHostRegexToRegionMappings(final HostRegexToRegionMappingJsonHelper[] hostRegexToRegionMappings)\n
     '''
 def getUserAgentTemplate():
-    '''public String getUserAgentTemplate()
+    '''returns String\n\n
+    getUserAgentTemplate()\n
     '''
 def setUserAgentTemplate():
-    '''public void setUserAgentTemplate(final String userAgentTemplate)
+    '''returns None\n\n
+    setUserAgentTemplate(final String userAgentTemplate)\n
     '''

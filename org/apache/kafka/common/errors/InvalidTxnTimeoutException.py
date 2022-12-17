@@ -1,4 +1,5 @@
-def InvalidTxnTimeoutException():
-    '''public InvalidTxnTimeoutException(final String message, final Throwable cause)
-    public InvalidTxnTimeoutException(final String message)
+def ():
+    '''returns InvalidTxnTimeoutException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
     '''

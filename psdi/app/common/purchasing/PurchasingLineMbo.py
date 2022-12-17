@@ -1,97 +1,129 @@
-def PurchasingLineMbo():
-    '''public PurchasingLineMbo(final MboSet ms)
+def ():
+    '''returns PurchasingLineMbo\n\n
+    (final MboSet ms)\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def setDefaultValues():
-    '''public void setDefaultValues()
+    '''returns None\n\n
+    setDefaultValues()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''
 def getTaxCodes():
-    '''public void getTaxCodes()
+    '''returns None\n\n
+    getTaxCodes()\n
     '''
 def getDefaultTaxExempt():
-    '''public void getDefaultTaxExempt(final MboRemote itemRemote, final MboRemote invVendor)
+    '''returns None\n\n
+    getDefaultTaxExempt(final MboRemote itemRemote, final MboRemote invVendor)\n
     '''
 def getDefaultTaxCodes():
-    '''public void getDefaultTaxCodes(final MboRemote itemRemote, final MboRemote invVendor)
+    '''returns None\n\n
+    getDefaultTaxCodes(final MboRemote itemRemote, final MboRemote invVendor)\n
     '''
 def setReceiptTolerance():
-    '''public void setReceiptTolerance(final MboRemote Itemorg, final MboRemote Invvendor)
+    '''returns None\n\n
+    setReceiptTolerance(final MboRemote Itemorg, final MboRemote Invvendor)\n
     '''
 def setMRPassedIn():
-    '''public void setMRPassedIn(final MRRemote mr)
+    '''returns None\n\n
+    setMRPassedIn(final MRRemote mr)\n
     '''
 def getMRPassedIn():
-    '''public MRRemote getMRPassedIn()
+    '''returns MRRemote\n\n
+    getMRPassedIn()\n
     '''
 def isValidMRIfAny():
-    '''public void isValidMRIfAny()
+    '''returns None\n\n
+    isValidMRIfAny()\n
     '''
 def setOrderUnit():
-    '''public void setOrderUnit(final MboRemote inventory, final String orderOrIssueUnitAttr)
+    '''returns None\n\n
+    setOrderUnit(final MboRemote inventory, final String orderOrIssueUnitAttr)\n
     '''
 def setDefaultOrderPrice():
-    '''public void setDefaultOrderPrice()
+    '''returns None\n\n
+    setDefaultOrderPrice()\n
     '''
 def getInvVendorValues():
-    '''public void getInvVendorValues()
-    public void getInvVendorValues(final boolean callingfromContition)
+    '''returns None\n\n
+    getInvVendorValues()\n
+    getInvVendorValues(final boolean callingfromContition)\n
     '''
 def setUnitCost():
-    '''public void setUnitCost(final boolean gettingPriceFromInvCost, double price)
+    '''returns None\n\n
+    setUnitCost(final boolean gettingPriceFromInvCost, double price)\n
     '''
 def createContractLine():
-    '''public void createContractLine(final MboRemote newContract)
+    '''returns None\n\n
+    createContractLine(final MboRemote newContract)\n
     '''
 def setPriceQtyFields():
-    '''public void setPriceQtyFields()
+    '''returns None\n\n
+    setPriceQtyFields()\n
     '''
 def isAddLinesOnUse():
-    '''public boolean isAddLinesOnUse(final MboRemote contractRemote)
+    '''returns boolean\n\n
+    isAddLinesOnUse(final MboRemote contractRemote)\n
     '''
 def foundOtherLines():
-    '''public boolean foundOtherLines()
+    '''returns boolean\n\n
+    foundOtherLines()\n
     '''
 def validateDeliveryDate():
-    '''public void validateDeliveryDate()
+    '''returns None\n\n
+    validateDeliveryDate()\n
     '''
 def compareContractWithPOPR():
-    '''public boolean compareContractWithPOPR(final MboRemote contractRemote, final MboRemote poprHeader, final MboRemote contractAuth)
+    '''returns boolean\n\n
+    compareContractWithPOPR(final MboRemote contractRemote, final MboRemote poprHeader, final MboRemote contractAuth)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def setConversionFactor():
-    '''public void setConversionFactor()
+    '''returns None\n\n
+    setConversionFactor()\n
     '''
 def setFieldsInitDuplicate():
-    '''public void setFieldsInitDuplicate()
+    '''returns None\n\n
+    setFieldsInitDuplicate()\n
     '''
 def copyLeaseSuspAcct():
-    '''public void copyLeaseSuspAcct(final MboRemote contractRemote)
+    '''returns None\n\n
+    copyLeaseSuspAcct(final MboRemote contractRemote)\n
     '''
 def isValidRefWOIfAny():
-    '''public void isValidRefWOIfAny()
+    '''returns None\n\n
+    isValidRefWOIfAny()\n
     '''
 def isValidAssetIfAny():
-    '''public void isValidAssetIfAny()
+    '''returns None\n\n
+    isValidAssetIfAny()\n
     '''
 def isValidLocationIfAny():
-    '''public void isValidLocationIfAny()
+    '''returns None\n\n
+    isValidLocationIfAny()\n
     '''
 def isValidStoreLocIfAny():
-    '''public void isValidStoreLocIfAny()
+    '''returns None\n\n
+    isValidStoreLocIfAny()\n
     '''
 def checkConsignment():
-    '''public void checkConsignment(final MboRemote lineMboRemote, final MboRemote inventoryRec)
+    '''returns None\n\n
+    checkConsignment(final MboRemote lineMboRemote, final MboRemote inventoryRec)\n
     '''
 def setRecentItemNum():
-    '''public void setRecentItemNum(final String itemNum)
+    '''returns None\n\n
+    setRecentItemNum(final String itemNum)\n
     '''
 def getRecentItemNum():
-    '''public String getRecentItemNum()
+    '''returns String\n\n
+    getRecentItemNum()\n
     '''

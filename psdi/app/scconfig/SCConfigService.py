@@ -1,35 +1,42 @@
-def SCConfigService():
-    '''public SCConfigService()
-    public SCConfigService(final MXServer mxServer)
+def ():
+    '''returns SCConfigService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def loadStartCenter():
-    '''public void loadStartCenter(final String groupName, final UserInfo ui)
+    '''returns None\n\n
+    loadStartCenter(final String groupName, final UserInfo ui)\n
     '''
 def loadStartCenterFromTemplate():
-    '''public long loadStartCenterFromTemplate(final String templateId, final String groupName, final UserInfo ui, final boolean modifyTemplate)
+    '''returns long\n\n
+    loadStartCenterFromTemplate(final String templateId, final String groupName, final UserInfo ui, final boolean modifyTemplate)\n
     '''
 def saveAsTemplate():
-    '''public void saveAsTemplate(final String startCenterToCopy, final UserInfo ui)
+    '''returns None\n\n
+    saveAsTemplate(final String startCenterToCopy, final UserInfo ui)\n
     '''
 def getStartCenters():
-    '''public Object[] getStartCenters(final UserInfo ui)
+    '''returns Object[]\n\n
+    getStartCenters(final UserInfo ui)\n
     '''
 def checkGroupAssociation():
-    '''public Hashtable checkGroupAssociation(final UserInfo ui)
-    public Hashtable checkGroupAssociation(final MboSetRemote scconfigSet)
-    '''
-def updateStartCenter():
-    '''public synchronized long updateStartCenter(final MboRemote startCenter)
+    '''returns Hashtable\n\n
+    checkGroupAssociation(final UserInfo ui)\n
+    checkGroupAssociation(final MboSetRemote scconfigSet)\n
     '''
 def doesAttributeExist():
-    '''public boolean doesAttributeExist(final MboSetRemote msr, final String attributeName)
+    '''returns boolean\n\n
+    doesAttributeExist(final MboSetRemote msr, final String attributeName)\n
     '''
 def getPortletControlNameMap():
-    '''public Hashtable getPortletControlNameMap(final UserInfo ui)
+    '''returns Hashtable\n\n
+    getPortletControlNameMap(final UserInfo ui)\n
     '''
 def templateBeingModified():
-    '''public boolean templateBeingModified(final UserInfo ui, final long templateID)
+    '''returns boolean\n\n
+    templateBeingModified(final UserInfo ui, final long templateID)\n
     '''
 def isTemplate():
-    '''public boolean isTemplate(final UserInfo ui, final long startCenterId)
+    '''returns boolean\n\n
+    isTemplate(final UserInfo ui, final long startCenterId)\n
     '''

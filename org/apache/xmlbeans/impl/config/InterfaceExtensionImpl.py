@@ -1,37 +1,45 @@
-def emitType():
-    '''public static String emitType(final JClass cls)
-    '''
 def contains():
-    '''public boolean contains(final String fullJavaName)
+    '''returns boolean\n\n
+    contains(final String fullJavaName)\n
     '''
 def getStaticHandler():
-    '''public String getStaticHandler()
+    '''returns String\n\n
+    getStaticHandler()\n
     '''
 def getInterface():
-    '''public String getInterface()
+    '''returns String\n\n
+    getInterface()\n
     '''
 def getMethods():
-    '''public MethodSignature[] getMethods()
+    '''returns MethodSignature[]\n\n
+    getMethods()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getReturnType():
-    '''public String getReturnType()
+    '''returns String\n\n
+    getReturnType()\n
     '''
 def getParameterTypes():
-    '''public String[] getParameterTypes()
+    '''returns String[]\n\n
+    getParameterTypes()\n
     '''
 def getExceptionTypes():
-    '''public String[] getExceptionTypes()
+    '''returns String[]\n\n
+    getExceptionTypes()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

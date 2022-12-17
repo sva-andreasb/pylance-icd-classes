@@ -1,3 +1,4 @@
-def DPAMAdaptMoveVariantSet():
-    '''public DPAMAdaptMoveVariantSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMAdaptMoveVariantSet\n\n
+    (final MboServerInterface ms)\n
     '''

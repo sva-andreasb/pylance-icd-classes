@@ -1,84 +1,112 @@
-def Java2WsdlAntTask():
-    '''public Java2WsdlAntTask()
+def ():
+    '''returns Java2WsdlAntTask\n\n
+    ()\n
     '''
 def traceParams():
-    '''public void traceParams(final int logLevel)
+    '''returns None\n\n
+    traceParams(final int logLevel)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def createClasspath():
-    '''public Path createClasspath()
+    '''returns Path\n\n
+    createClasspath()\n
     '''
 def setOutput():
-    '''public void setOutput(final File parameter)
+    '''returns None\n\n
+    setOutput(final File parameter)\n
     '''
 def setImportSchema():
-    '''public void setImportSchema(final File parameter)
+    '''returns None\n\n
+    setImportSchema(final File parameter)\n
     '''
 def setInput():
-    '''public void setInput(final File parameter)
+    '''returns None\n\n
+    setInput(final File parameter)\n
     '''
 def setOutputImpl():
-    '''public void setOutputImpl(final File parameter)
+    '''returns None\n\n
+    setOutputImpl(final File parameter)\n
     '''
 def setLocation():
-    '''public void setLocation(final String parameter)
+    '''returns None\n\n
+    setLocation(final String parameter)\n
     '''
 def setLocationImport():
-    '''public void setLocationImport(final String parameter)
+    '''returns None\n\n
+    setLocationImport(final String parameter)\n
     '''
 def setClassName():
-    '''public void setClassName(final String parameter)
+    '''returns None\n\n
+    setClassName(final String parameter)\n
     '''
 def setImplClass():
-    '''public void setImplClass(final String parameter)
+    '''returns None\n\n
+    setImplClass(final String parameter)\n
     '''
 def setServicePortName():
-    '''public void setServicePortName(final String parameter)
+    '''returns None\n\n
+    setServicePortName(final String parameter)\n
     '''
 def setPortTypeName():
-    '''public void setPortTypeName(final String parameter)
+    '''returns None\n\n
+    setPortTypeName(final String parameter)\n
     '''
 def setBindingName():
-    '''public void setBindingName(final String parameter)
+    '''returns None\n\n
+    setBindingName(final String parameter)\n
     '''
 def setNamespace():
-    '''public void setNamespace(final String parameter)
+    '''returns None\n\n
+    setNamespace(final String parameter)\n
     '''
 def setNamespaceImpl():
-    '''public void setNamespaceImpl(final String parameter)
+    '''returns None\n\n
+    setNamespaceImpl(final String parameter)\n
     '''
 def setUseInheritedMethods():
-    '''public void setUseInheritedMethods(final boolean parameter)
+    '''returns None\n\n
+    setUseInheritedMethods(final boolean parameter)\n
     '''
 def setExclude():
-    '''public void setExclude(final String exclude)
+    '''returns None\n\n
+    setExclude(final String exclude)\n
     '''
 def setStopClasses():
-    '''public void setStopClasses(final String stopClasses)
+    '''returns None\n\n
+    setStopClasses(final String stopClasses)\n
     '''
 def setStyle():
-    '''public void setStyle(final String style)
+    '''returns None\n\n
+    setStyle(final String style)\n
     '''
 def addMapping():
-    '''public void addMapping(final NamespaceMapping mapping)
+    '''returns None\n\n
+    addMapping(final NamespaceMapping mapping)\n
     '''
 def addMappingSet():
-    '''public void addMappingSet(final MappingSet mappingset)
+    '''returns None\n\n
+    addMappingSet(final MappingSet mappingset)\n
     '''
 def setTypeMappingVersion():
-    '''public void setTypeMappingVersion(final TypeMappingVersionEnum parameter)
+    '''returns None\n\n
+    setTypeMappingVersion(final TypeMappingVersionEnum parameter)\n
     '''
 def setMethods():
-    '''public void setMethods(final String methods)
+    '''returns None\n\n
+    setMethods(final String methods)\n
     '''
 def setUse():
-    '''public void setUse(final String use)
+    '''returns None\n\n
+    setUse(final String use)\n
     '''
 def setServiceElementName():
-    '''public void setServiceElementName(final String serviceElementName)
+    '''returns None\n\n
+    setServiceElementName(final String serviceElementName)\n
     '''
 def setExtraClasses():
-    '''public void setExtraClasses(final String extraClasses)
+    '''returns None\n\n
+    setExtraClasses(final String extraClasses)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPBSServListSet():
-    '''public PlusPBSServListSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPBSServListSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''

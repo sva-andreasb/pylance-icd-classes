@@ -1,30 +1,36 @@
-def SupportPersistenceManager():
-    '''public SupportPersistenceManager(final Connection conn, final Guid mssGuid)
+def ():
+    '''returns SupportPersistenceManager\n\n
+    (final Connection conn, final Guid mssGuid)\n
     '''
 def deleteMssClassSupport():
-    '''public void deleteMssClassSupport(final Collection<Guid> classGuids)
+    '''returns None\n\n
+    deleteMssClassSupport(final Collection<Guid> classGuids)\n
     '''
 def supportsClass():
-    '''public boolean supportsClass(final Guid classGuid)
+    '''returns boolean\n\n
+    supportsClass(final Guid classGuid)\n
     '''
 def insertMssOperations():
-    '''public void insertMssOperations(final Guid classGuid, final EnumSet<ClassOperation> operations)
+    '''returns None\n\n
+    insertMssOperations(final Guid classGuid, final EnumSet<ClassOperation> operations)\n
     '''
 def updateMssOperations():
-    '''public void updateMssOperations(final Guid classGuid, final EnumSet<ClassOperation> operations)
+    '''returns None\n\n
+    updateMssOperations(final Guid classGuid, final EnumSet<ClassOperation> operations)\n
     '''
 def getCurrentTS():
-    '''public Timestamp getCurrentTS()
-    '''
-def forEachTypeAttribute():
-    '''public static <E> E forEachTypeAttribute(final DataIntegrationServices dis, final String type, E context, final ObjectAttributeAction<E> action)
+    '''returns Timestamp\n\n
+    getCurrentTS()\n
     '''
 def registerSupportedAttributes():
-    '''public void registerSupportedAttributes(final DataIntegrationServices dis, final Guid classGuid, final String className, final List<String> attributes)
+    '''returns None\n\n
+    registerSupportedAttributes(final DataIntegrationServices dis, final Guid classGuid, final String className, final List<String> attributes)\n
     '''
 def execute():
-    '''public Integer execute(Integer batch, final ObjectAttribute attr)
+    '''returns Integer\n\n
+    execute(Integer batch, final ObjectAttribute attr)\n
     '''
 def fetchExistingClassAttributes():
-    '''public Set<Guid> fetchExistingClassAttributes(final Guid classGuid)
+    '''returns Set<Guid>\n\n
+    fetchExistingClassAttributes(final Guid classGuid)\n
     '''

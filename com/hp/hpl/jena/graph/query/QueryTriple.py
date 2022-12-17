@@ -1,31 +1,34 @@
-def QueryTriple():
-    '''public QueryTriple(final QueryNode S, final QueryNode P, final QueryNode O)
+def ():
+    '''returns QueryTriple\n\n
+    (final QueryNode S, final QueryNode P, final QueryNode O)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def classify():
-    '''public static QueryTriple[] classify(final QueryNodeFactory f, final Mapping m, final Triple[] t)
-    public static QueryTriple classify(final QueryNodeFactory f, final Mapping m, final Triple t)
+    '''returns String\n\n
+    toString()\n
     '''
 def createApplyer():
-    '''public Applyer createApplyer(final Graph g)
+    '''returns Applyer\n\n
+    createApplyer(final Graph g)\n
     '''
 def createMatcher():
-    '''public Matcher createMatcher()
+    '''returns Matcher\n\n
+    createMatcher()\n
     '''
 def match():
-    '''public boolean match(final Domain d, final Triple t)
-    public boolean match(final Domain d, final Triple t)
-    public boolean match(final Domain d, final Triple t)
-    public boolean match(final Domain d, final Triple t)
-    public boolean match(final Domain d, final Triple t)
-    public boolean match(final Domain d, final Triple t)
-    public boolean match(final Domain d, final Triple t)
+    '''returns boolean\n\n
+    match(final Domain d, final Triple t)\n
+    match(final Domain d, final Triple t)\n
+    match(final Domain d, final Triple t)\n
+    match(final Domain d, final Triple t)\n
+    match(final Domain d, final Triple t)\n
+    match(final Domain d, final Triple t)\n
+    match(final Domain d, final Triple t)\n
     '''
 def find():
-    '''public Iterator<Triple> find(final Domain d)
+    '''returns Iterator<Triple>\n\n
+    find(final Domain d)\n
     '''
 def applyToTriples():
-    '''public void applyToTriples(final Domain d, final Matcher m, final StageElement next)
+    '''returns None\n\n
+    applyToTriples(final Domain d, final Matcher m, final StageElement next)\n
     '''

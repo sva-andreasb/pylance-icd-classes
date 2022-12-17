@@ -7,265 +7,317 @@ PNG_FILTER_SUB = "int  1"
 PNG_FILTER_UP = "int  2"
 PNG_FILTER_AVERAGE = "int  3"
 PNG_FILTER_PAETH = "int  4"
-def PNGEncodeParam():
-    '''public PNGEncodeParam()
-    '''
-def getDefaultEncodeParam():
-    '''public static PNGEncodeParam getDefaultEncodeParam(final RenderedImage im)
+def ():
+    '''returns PNGEncodeParam\n\n
+    ()\n
     '''
 def getBitDepth():
-    '''public int getBitDepth()
+    '''returns int\n\n
+    getBitDepth()\n
     '''
 def unsetBitDepth():
-    '''public void unsetBitDepth()
+    '''returns None\n\n
+    unsetBitDepth()\n
     '''
 def setInterlacing():
-    '''public void setInterlacing(final boolean useInterlacing)
+    '''returns None\n\n
+    setInterlacing(final boolean useInterlacing)\n
     '''
 def getInterlacing():
-    '''public boolean getInterlacing()
+    '''returns boolean\n\n
+    getInterlacing()\n
     '''
 def unsetBackground():
-    '''public void unsetBackground()
-    public void unsetBackground()
-    public void unsetBackground()
-    public void unsetBackground()
+    '''returns None\n\n
+    unsetBackground()\n
+    unsetBackground()\n
+    unsetBackground()\n
+    unsetBackground()\n
     '''
 def isBackgroundSet():
-    '''public boolean isBackgroundSet()
-    public boolean isBackgroundSet()
-    public boolean isBackgroundSet()
-    public boolean isBackgroundSet()
+    '''returns boolean\n\n
+    isBackgroundSet()\n
+    isBackgroundSet()\n
+    isBackgroundSet()\n
+    isBackgroundSet()\n
     '''
 def setChromaticity():
-    '''public void setChromaticity(final float[] chromaticity)
-    public void setChromaticity(final float whitePointX, final float whitePointY, final float redX, final float redY, final float greenX, final float greenY, final float blueX, final float blueY)
+    '''returns None\n\n
+    setChromaticity(final float[] chromaticity)\n
+    setChromaticity(final float whitePointX, final float whitePointY, final float redX, final float redY, final float greenX, final float greenY, final float blueX, final float blueY)\n
     '''
 def getChromaticity():
-    '''public float[] getChromaticity()
+    '''returns float[]\n\n
+    getChromaticity()\n
     '''
 def unsetChromaticity():
-    '''public void unsetChromaticity()
+    '''returns None\n\n
+    unsetChromaticity()\n
     '''
 def isChromaticitySet():
-    '''public boolean isChromaticitySet()
+    '''returns boolean\n\n
+    isChromaticitySet()\n
     '''
 def setGamma():
-    '''public void setGamma(final float gamma)
+    '''returns None\n\n
+    setGamma(final float gamma)\n
     '''
 def getGamma():
-    '''public float getGamma()
+    '''returns float\n\n
+    getGamma()\n
     '''
 def unsetGamma():
-    '''public void unsetGamma()
+    '''returns None\n\n
+    unsetGamma()\n
     '''
 def isGammaSet():
-    '''public boolean isGammaSet()
+    '''returns boolean\n\n
+    isGammaSet()\n
     '''
 def setPaletteHistogram():
-    '''public void setPaletteHistogram(final int[] paletteHistogram)
+    '''returns None\n\n
+    setPaletteHistogram(final int[] paletteHistogram)\n
     '''
 def getPaletteHistogram():
-    '''public int[] getPaletteHistogram()
+    '''returns int[]\n\n
+    getPaletteHistogram()\n
     '''
 def unsetPaletteHistogram():
-    '''public void unsetPaletteHistogram()
+    '''returns None\n\n
+    unsetPaletteHistogram()\n
     '''
 def isPaletteHistogramSet():
-    '''public boolean isPaletteHistogramSet()
+    '''returns boolean\n\n
+    isPaletteHistogramSet()\n
     '''
 def setICCProfileData():
-    '''public void setICCProfileData(final byte[] iccProfileData)
+    '''returns None\n\n
+    setICCProfileData(final byte[] iccProfileData)\n
     '''
 def getICCProfileData():
-    '''public byte[] getICCProfileData()
+    '''returns byte[]\n\n
+    getICCProfileData()\n
     '''
 def unsetICCProfileData():
-    '''public void unsetICCProfileData()
+    '''returns None\n\n
+    unsetICCProfileData()\n
     '''
 def isICCProfileDataSet():
-    '''public boolean isICCProfileDataSet()
+    '''returns boolean\n\n
+    isICCProfileDataSet()\n
     '''
 def setPhysicalDimension():
-    '''public void setPhysicalDimension(final int[] physicalDimension)
-    public void setPhysicalDimension(final int xPixelsPerUnit, final int yPixelsPerUnit, final int unitSpecifier)
+    '''returns None\n\n
+    setPhysicalDimension(final int[] physicalDimension)\n
+    setPhysicalDimension(final int xPixelsPerUnit, final int yPixelsPerUnit, final int unitSpecifier)\n
     '''
 def getPhysicalDimension():
-    '''public int[] getPhysicalDimension()
+    '''returns int[]\n\n
+    getPhysicalDimension()\n
     '''
 def unsetPhysicalDimension():
-    '''public void unsetPhysicalDimension()
+    '''returns None\n\n
+    unsetPhysicalDimension()\n
     '''
 def isPhysicalDimensionSet():
-    '''public boolean isPhysicalDimensionSet()
+    '''returns boolean\n\n
+    isPhysicalDimensionSet()\n
     '''
 def setSuggestedPalette():
-    '''public void setSuggestedPalette(final PNGSuggestedPaletteEntry[] palette)
+    '''returns None\n\n
+    setSuggestedPalette(final PNGSuggestedPaletteEntry[] palette)\n
     '''
 def getSuggestedPalette():
-    '''public PNGSuggestedPaletteEntry[] getSuggestedPalette()
+    '''returns PNGSuggestedPaletteEntry[]\n\n
+    getSuggestedPalette()\n
     '''
 def unsetSuggestedPalette():
-    '''public void unsetSuggestedPalette()
+    '''returns None\n\n
+    unsetSuggestedPalette()\n
     '''
 def isSuggestedPaletteSet():
-    '''public boolean isSuggestedPaletteSet()
+    '''returns boolean\n\n
+    isSuggestedPaletteSet()\n
     '''
 def setSignificantBits():
-    '''public void setSignificantBits(final int[] significantBits)
+    '''returns None\n\n
+    setSignificantBits(final int[] significantBits)\n
     '''
 def getSignificantBits():
-    '''public int[] getSignificantBits()
+    '''returns int[]\n\n
+    getSignificantBits()\n
     '''
 def unsetSignificantBits():
-    '''public void unsetSignificantBits()
+    '''returns None\n\n
+    unsetSignificantBits()\n
     '''
 def isSignificantBitsSet():
-    '''public boolean isSignificantBitsSet()
+    '''returns boolean\n\n
+    isSignificantBitsSet()\n
     '''
 def setSRGBIntent():
-    '''public void setSRGBIntent(final int srgbIntent)
+    '''returns None\n\n
+    setSRGBIntent(final int srgbIntent)\n
     '''
 def getSRGBIntent():
-    '''public int getSRGBIntent()
+    '''returns int\n\n
+    getSRGBIntent()\n
     '''
 def unsetSRGBIntent():
-    '''public void unsetSRGBIntent()
+    '''returns None\n\n
+    unsetSRGBIntent()\n
     '''
 def isSRGBIntentSet():
-    '''public boolean isSRGBIntentSet()
+    '''returns boolean\n\n
+    isSRGBIntentSet()\n
     '''
 def setText():
-    '''public void setText(final String[] text)
+    '''returns None\n\n
+    setText(final String[] text)\n
     '''
 def getText():
-    '''public String[] getText()
+    '''returns String[]\n\n
+    getText()\n
     '''
 def unsetText():
-    '''public void unsetText()
+    '''returns None\n\n
+    unsetText()\n
     '''
 def isTextSet():
-    '''public boolean isTextSet()
+    '''returns boolean\n\n
+    isTextSet()\n
     '''
 def setModificationTime():
-    '''public void setModificationTime(final Date modificationTime)
+    '''returns None\n\n
+    setModificationTime(final Date modificationTime)\n
     '''
 def getModificationTime():
-    '''public Date getModificationTime()
+    '''returns Date\n\n
+    getModificationTime()\n
     '''
 def unsetModificationTime():
-    '''public void unsetModificationTime()
+    '''returns None\n\n
+    unsetModificationTime()\n
     '''
 def isModificationTimeSet():
-    '''public boolean isModificationTimeSet()
+    '''returns boolean\n\n
+    isModificationTimeSet()\n
     '''
 def unsetTransparency():
-    '''public void unsetTransparency()
+    '''returns None\n\n
+    unsetTransparency()\n
     '''
 def isTransparencySet():
-    '''public boolean isTransparencySet()
+    '''returns boolean\n\n
+    isTransparencySet()\n
     '''
 def setCompressedText():
-    '''public void setCompressedText(final String[] text)
+    '''returns None\n\n
+    setCompressedText(final String[] text)\n
     '''
 def getCompressedText():
-    '''public String[] getCompressedText()
+    '''returns String[]\n\n
+    getCompressedText()\n
     '''
 def unsetCompressedText():
-    '''public void unsetCompressedText()
+    '''returns None\n\n
+    unsetCompressedText()\n
     '''
 def isCompressedTextSet():
-    '''public boolean isCompressedTextSet()
-    '''
-def addPrivateChunk():
-    '''public synchronized void addPrivateChunk(final String type, final byte[] data)
-    '''
-def getNumPrivateChunks():
-    '''public synchronized int getNumPrivateChunks()
-    '''
-def getPrivateChunkType():
-    '''public synchronized String getPrivateChunkType(final int index)
-    '''
-def getPrivateChunkData():
-    '''public synchronized byte[] getPrivateChunkData(final int index)
-    '''
-def removeUnsafeToCopyPrivateChunks():
-    '''public synchronized void removeUnsafeToCopyPrivateChunks()
-    '''
-def removeAllPrivateChunks():
-    '''public synchronized void removeAllPrivateChunks()
-    '''
-def paethPredictor():
-    '''public static int paethPredictor(final int a, final int b, final int c)
+    '''returns boolean\n\n
+    isCompressedTextSet()\n
     '''
 def filterRow():
-    '''public int filterRow(final byte[] currRow, final byte[] prevRow, final byte[][] scratchRows, final int bytesPerRow, final int bytesPerPixel)
+    '''returns int\n\n
+    filterRow(final byte[] currRow, final byte[] prevRow, final byte[][] scratchRows, final int bytesPerRow, final int bytesPerPixel)\n
     '''
 def setBitDepth():
-    '''public void setBitDepth(final int bitDepth)
-    public void setBitDepth(final int bitDepth)
-    public void setBitDepth(final int bitDepth)
+    '''returns None\n\n
+    setBitDepth(final int bitDepth)\n
+    setBitDepth(final int bitDepth)\n
+    setBitDepth(final int bitDepth)\n
     '''
 def setPalette():
-    '''public void setPalette(final int[] rgb)
+    '''returns None\n\n
+    setPalette(final int[] rgb)\n
     '''
 def getPalette():
-    '''public int[] getPalette()
+    '''returns int[]\n\n
+    getPalette()\n
     '''
 def unsetPalette():
-    '''public void unsetPalette()
+    '''returns None\n\n
+    unsetPalette()\n
     '''
 def isPaletteSet():
-    '''public boolean isPaletteSet()
+    '''returns boolean\n\n
+    isPaletteSet()\n
     '''
 def setBackgroundPaletteIndex():
-    '''public void setBackgroundPaletteIndex(final int index)
+    '''returns None\n\n
+    setBackgroundPaletteIndex(final int index)\n
     '''
 def getBackgroundPaletteIndex():
-    '''public int getBackgroundPaletteIndex()
+    '''returns int\n\n
+    getBackgroundPaletteIndex()\n
     '''
 def setPaletteTransparency():
-    '''public void setPaletteTransparency(final byte[] alpha)
+    '''returns None\n\n
+    setPaletteTransparency(final byte[] alpha)\n
     '''
 def getPaletteTransparency():
-    '''public byte[] getPaletteTransparency()
+    '''returns byte[]\n\n
+    getPaletteTransparency()\n
     '''
 def setBackgroundGray():
-    '''public void setBackgroundGray(final int gray)
+    '''returns None\n\n
+    setBackgroundGray(final int gray)\n
     '''
 def getBackgroundGray():
-    '''public int getBackgroundGray()
+    '''returns int\n\n
+    getBackgroundGray()\n
     '''
 def setTransparentGray():
-    '''public void setTransparentGray(final int transparentGray)
+    '''returns None\n\n
+    setTransparentGray(final int transparentGray)\n
     '''
 def getTransparentGray():
-    '''public int getTransparentGray()
+    '''returns int\n\n
+    getTransparentGray()\n
     '''
 def setBitShift():
-    '''public void setBitShift(final int bitShift)
+    '''returns None\n\n
+    setBitShift(final int bitShift)\n
     '''
 def getBitShift():
-    '''public int getBitShift()
+    '''returns int\n\n
+    getBitShift()\n
     '''
 def unsetBitShift():
-    '''public void unsetBitShift()
+    '''returns None\n\n
+    unsetBitShift()\n
     '''
 def isBitShiftSet():
-    '''public boolean isBitShiftSet()
+    '''returns boolean\n\n
+    isBitShiftSet()\n
     '''
 def isBitDepthSet():
-    '''public boolean isBitDepthSet()
+    '''returns boolean\n\n
+    isBitDepthSet()\n
     '''
 def setBackgroundRGB():
-    '''public void setBackgroundRGB(final int[] rgb)
+    '''returns None\n\n
+    setBackgroundRGB(final int[] rgb)\n
     '''
 def getBackgroundRGB():
-    '''public int[] getBackgroundRGB()
+    '''returns int[]\n\n
+    getBackgroundRGB()\n
     '''
 def setTransparentRGB():
-    '''public void setTransparentRGB(final int[] transparentRGB)
+    '''returns None\n\n
+    setTransparentRGB(final int[] transparentRGB)\n
     '''
 def getTransparentRGB():
-    '''public int[] getTransparentRGB()
+    '''returns int[]\n\n
+    getTransparentRGB()\n
     '''

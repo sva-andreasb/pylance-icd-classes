@@ -3,53 +3,66 @@ ATTR_DSTADDR = "String  \"dstaddr\""
 ATTR_MODE = "String  \"mode\""
 ATTR_SID = "String  \"sid\""
 def getStreamId():
-    '''public String getStreamId()
+    '''returns String\n\n
+    getStreamId()\n
     '''
 def getDestinationAddress():
-    '''public String getDestinationAddress()
+    '''returns String\n\n
+    getDestinationAddress()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def hasCandidate():
-    '''public boolean hasCandidate(final String candidateId)
+    '''returns boolean\n\n
+    hasCandidate(final String candidateId)\n
     '''
 def getCandidate():
-    '''public JingleS5BTransportCandidate getCandidate(final String candidateId)
+    '''returns JingleS5BTransportCandidate\n\n
+    getCandidate(final String candidateId)\n
     '''
-def getBuilder():
-    '''public static Builder getBuilder()
-    '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def setStreamId():
-    '''public Builder setStreamId(final String sid)
+    '''returns Builder\n\n
+    setStreamId(final String sid)\n
     '''
 def setDestinationAddress():
-    '''public Builder setDestinationAddress(final String dstAddr)
+    '''returns Builder\n\n
+    setDestinationAddress(final String dstAddr)\n
     '''
 def setMode():
-    '''public Builder setMode(final Bytestream.Mode mode)
+    '''returns Builder\n\n
+    setMode(final Bytestream.Mode mode)\n
     '''
 def addTransportCandidate():
-    '''public Builder addTransportCandidate(final JingleS5BTransportCandidate candidate)
+    '''returns Builder\n\n
+    addTransportCandidate(final JingleS5BTransportCandidate candidate)\n
     '''
 def setTransportInfo():
-    '''public Builder setTransportInfo(final JingleContentTransportInfo info)
+    '''returns Builder\n\n
+    setTransportInfo(final JingleContentTransportInfo info)\n
     '''
 def setCandidateUsed():
-    '''public Builder setCandidateUsed(final String candidateId)
+    '''returns Builder\n\n
+    setCandidateUsed(final String candidateId)\n
     '''
 def setCandidateActivated():
-    '''public Builder setCandidateActivated(final String candidateId)
+    '''returns Builder\n\n
+    setCandidateActivated(final String candidateId)\n
     '''
 def setCandidateError():
-    '''public Builder setCandidateError()
+    '''returns Builder\n\n
+    setCandidateError()\n
     '''
 def setProxyError():
-    '''public Builder setProxyError()
+    '''returns Builder\n\n
+    setProxyError()\n
     '''
 def build():
-    '''public JingleS5BTransport build()
+    '''returns JingleS5BTransport\n\n
+    build()\n
     '''

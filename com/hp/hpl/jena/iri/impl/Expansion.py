@@ -1,3 +1,4 @@
-def Expansion():
-    '''public Expansion()
+def ():
+    '''returns Expansion\n\n
+    ()\n
     '''

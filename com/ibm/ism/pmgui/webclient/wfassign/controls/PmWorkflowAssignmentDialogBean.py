@@ -1,15 +1,16 @@
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def reassignto():
-    '''public int reassignto()
+    '''returns int\n\n
+    reassignto()\n
     '''
 def doreassign():
-    '''public int doreassign()
+    '''returns int\n\n
+    doreassign()\n
     '''
 def directorinput():
-    '''public int directorinput()
+    '''returns int\n\n
+    directorinput()\n
     '''

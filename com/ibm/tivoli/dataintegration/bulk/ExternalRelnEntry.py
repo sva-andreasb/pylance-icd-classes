@@ -1,24 +1,32 @@
 def setChildId():
-    '''public void setChildId(final String inId)
+    '''returns None\n\n
+    setChildId(final String inId)\n
     '''
 def getChildId():
-    '''public String getChildId()
+    '''returns String\n\n
+    getChildId()\n
     '''
 def setParentId():
-    '''public void setParentId(final String inId)
+    '''returns None\n\n
+    setParentId(final String inId)\n
     '''
 def getParentId():
-    '''public String getParentId()
+    '''returns String\n\n
+    getParentId()\n
     '''
 def setReln():
-    '''public void setReln(final String inReln)
+    '''returns None\n\n
+    setReln(final String inReln)\n
     '''
 def getReln():
-    '''public String getReln()
+    '''returns String\n\n
+    getReln()\n
     '''
 def setLocInArray():
-    '''public void setLocInArray(final int loc)
+    '''returns None\n\n
+    setLocInArray(final int loc)\n
     '''
 def getLocInArray():
-    '''public int getLocInArray()
+    '''returns int\n\n
+    getLocInArray()\n
     '''

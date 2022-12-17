@@ -1,142 +1,136 @@
-def STBase():
-    '''public STBase(final STSession stSession)
-    '''
-def addLoginListener():
-    '''public synchronized void addLoginListener(final LoginListener obj)
-    '''
-def removeLoginListener():
-    '''public synchronized void removeLoginListener(final LoginListener obj)
-    '''
-def addOTMServiceListener():
-    '''public synchronized void addOTMServiceListener(final OTMServiceListener obj)
-    '''
-def removeOTMServiceListener():
-    '''public synchronized void removeOTMServiceListener(final OTMServiceListener obj)
-    '''
-def addAdminMsgListener():
-    '''public synchronized void addAdminMsgListener(final AdminMsgListener obj)
-    '''
-def removeAdminMsgListener():
-    '''public synchronized void removeAdminMsgListener(final AdminMsgListener obj)
-    '''
-def addMultiCastListener():
-    '''public synchronized void addMultiCastListener(final MultiCastListener obj)
-    '''
-def removeMultiCastListener():
-    '''public synchronized void removeMultiCastListener(final MultiCastListener obj)
-    '''
-def addServiceListener():
-    '''public synchronized void addServiceListener(final ServiceListener obj)
-    '''
-def removeServiceListener():
-    '''public synchronized void removeServiceListener(final ServiceListener obj)
-    '''
-def addChannelServiceListener():
-    '''public synchronized void addChannelServiceListener(final ChannelServiceListener obj)
-    '''
-def removeChannelServiceListener():
-    '''public synchronized void removeChannelServiceListener(final ChannelServiceListener obj)
+def ():
+    '''returns STBase\n\n
+    (final STSession stSession)\n
     '''
 def addMultiChannelEventListener():
-    '''public void addMultiChannelEventListener(final MultiChannelEventListener obj)
+    '''returns None\n\n
+    addMultiChannelEventListener(final MultiChannelEventListener obj)\n
     '''
 def removeMultiChannelEventListener():
-    '''public void removeMultiChannelEventListener(final MultiChannelEventListener obj)
+    '''returns None\n\n
+    removeMultiChannelEventListener(final MultiChannelEventListener obj)\n
     '''
 def isLoggedIn():
-    '''public boolean isLoggedIn()
+    '''returns boolean\n\n
+    isLoggedIn()\n
     '''
 def setLoginType():
-    '''public void setLoginType(final short loginType)
+    '''returns None\n\n
+    setLoginType(final short loginType)\n
     '''
 def getLoginType():
-    '''public short getLoginType()
+    '''returns short\n\n
+    getLoginType()\n
     '''
 def getConnectionInfo():
-    '''public ConnectionInfo getConnectionInfo()
+    '''returns ConnectionInfo\n\n
+    getConnectionInfo()\n
     '''
 def getConnectionHandler():
-    '''public ConnectionHandler getConnectionHandler()
+    '''returns ConnectionHandler\n\n
+    getConnectionHandler()\n
     '''
 def setConnectivity():
-    '''public void setConnectivity(final Connection[] connectivity)
+    '''returns None\n\n
+    setConnectivity(final Connection[] connectivity)\n
     '''
 def setKeepAliveRate():
-    '''public void setKeepAliveRate(final long keepAliveRate)
+    '''returns None\n\n
+    setKeepAliveRate(final long keepAliveRate)\n
     '''
 def getLogin():
-    '''public Login getLogin()
+    '''returns Login\n\n
+    getLogin()\n
     '''
 def setLoginStatus():
-    '''public void setLoginStatus(final boolean b, final STUserStatus stUserStatus)
+    '''returns None\n\n
+    setLoginStatus(final boolean b, final STUserStatus stUserStatus)\n
     '''
 def loginByPassword():
-    '''public void loginByPassword(final String s, final String s2, final String s3)
-    public void loginByPassword(final String s, final String s2, final String s3, final String s4)
-    public void loginByPassword(final String s, final String s2, final String s3, final String s4, final InetAddress inetAddress, final String s5)
-    public void loginByPassword(final String s, final String s2, final ServerAppService serverAppService, final InetAddress inetAddress)
-    public void loginByPassword(final String s, final String s2, final String s3, final ServerAppService serverAppService, final InetAddress inetAddress)
-    public void loginByPassword(final String s, final String s2, final String s3, final ServerAppService serverAppService, final InetAddress inetAddress, final String s4)
+    '''returns None\n\n
+    loginByPassword(final String s, final String s2, final String s3)\n
+    loginByPassword(final String s, final String s2, final String s3, final String s4)\n
+    loginByPassword(final String s, final String s2, final String s3, final String s4, final InetAddress inetAddress, final String s5)\n
+    loginByPassword(final String s, final String s2, final ServerAppService serverAppService, final InetAddress inetAddress)\n
+    loginByPassword(final String s, final String s2, final String s3, final ServerAppService serverAppService, final InetAddress inetAddress)\n
+    loginByPassword(final String s, final String s2, final String s3, final ServerAppService serverAppService, final InetAddress inetAddress, final String s4)\n
     '''
 def loginByToken():
-    '''public void loginByToken(final String s, final String s2, final String s3)
-    public void loginByToken(final String s, final String s2, final String s3, final String s4)
-    public void loginByToken(final String s, final String s2, final String s3, final String s4, final InetAddress inetAddress, final String s5)
-    public void loginByToken(final String s, final String s2, final ServerAppService serverAppService, final InetAddress inetAddress)
-    public void loginByToken(final String s, final String s2, final String s3, final ServerAppService serverAppService, final InetAddress inetAddress, final String s4)
+    '''returns None\n\n
+    loginByToken(final String s, final String s2, final String s3)\n
+    loginByToken(final String s, final String s2, final String s3, final String s4)\n
+    loginByToken(final String s, final String s2, final String s3, final String s4, final InetAddress inetAddress, final String s5)\n
+    loginByToken(final String s, final String s2, final ServerAppService serverAppService, final InetAddress inetAddress)\n
+    loginByToken(final String s, final String s2, final String s3, final ServerAppService serverAppService, final InetAddress inetAddress, final String s4)\n
     '''
 def loginAsAnon():
-    '''public void loginAsAnon(final String s, final String s2)
-    public void loginAsAnon(final String s, final String s2, final String s3)
-    public void loginAsAnon(final String s, final String s2, final String s3, final InetAddress inetAddress, final String s4)
-    public void loginAsAnon(final String s, final ServerAppService serverAppService, final InetAddress inetAddress)
-    public void loginAsAnon(final String s, final ServerAppService serverAppService, final String s2, final InetAddress inetAddress, final String s3)
+    '''returns None\n\n
+    loginAsAnon(final String s, final String s2)\n
+    loginAsAnon(final String s, final String s2, final String s3)\n
+    loginAsAnon(final String s, final String s2, final String s3, final InetAddress inetAddress, final String s4)\n
+    loginAsAnon(final String s, final ServerAppService serverAppService, final InetAddress inetAddress)\n
+    loginAsAnon(final String s, final ServerAppService serverAppService, final String s2, final InetAddress inetAddress, final String s3)\n
     '''
 def loginAsServerApp():
-    '''public void loginAsServerApp(final String s, final short n, final String s2, final int[] array)
+    '''returns None\n\n
+    loginAsServerApp(final String s, final short n, final String s2, final int[] array)\n
     '''
 def logout():
-    '''public void logout()
+    '''returns None\n\n
+    logout()\n
     '''
 def senseService():
-    '''public void senseService(final int n)
+    '''returns None\n\n
+    senseService(final int n)\n
     '''
 def sendOTM():
-    '''public void sendOTM(final int value, final STId stId, final int n, final int n2, final int n3, final short n4, final byte[] array)
+    '''returns None\n\n
+    sendOTM(final int value, final STId stId, final int n, final int n2, final int n3, final short n4, final byte[] array)\n
     '''
 def denyOTM():
-    '''public void denyOTM(final int value, final STId stId, final int n)
+    '''returns None\n\n
+    denyOTM(final int value, final STId stId, final int n)\n
     '''
 def serviceUp():
-    '''public void serviceUp(final int[] array)
+    '''returns None\n\n
+    serviceUp(final int[] array)\n
     '''
 def serviceDown():
-    '''public void serviceDown(final int[] array)
+    '''returns None\n\n
+    serviceDown(final int[] array)\n
     '''
 def sendMultiCast():
-    '''public void sendMultiCast(final STObject[] array, final short n, final byte[] array2)
+    '''returns None\n\n
+    sendMultiCast(final STObject[] array, final short n, final byte[] array2)\n
     '''
 def sendOnChannels():
-    '''public void sendOnChannels(final Channel[] array, final short n, final byte[] array2, final boolean b)
+    '''returns None\n\n
+    sendOnChannels(final Channel[] array, final short n, final byte[] array2, final boolean b)\n
     '''
 def createChannel():
-    '''public Channel createChannel(final int n, final int n2, final int n3, final EncLevel encLevel, final byte[] array, final STId stId)
-    public Channel createChannel(final int n, final int n2, final int n3, final EncLevel encLevel, final byte[] array, final STId stId, final STUserInstance stUserInstance)
-    public Channel createChannel(final int n, final int n2, final int n3, final EncLevel encLevel, final byte[] array, final STId stId, byte b)
-    public Channel createChannel(final int n, final int n2, final int n3, final EncLevel encLevel, final byte[] array, final STId stId, byte b, final STUserInstance stUserInstance)
+    '''returns Channel\n\n
+    createChannel(final int n, final int n2, final int n3, final EncLevel encLevel, final byte[] array, final STId stId)\n
+    createChannel(final int n, final int n2, final int n3, final EncLevel encLevel, final byte[] array, final STId stId, final STUserInstance stUserInstance)\n
+    createChannel(final int n, final int n2, final int n3, final EncLevel encLevel, final byte[] array, final STId stId, byte b)\n
+    createChannel(final int n, final int n2, final int n3, final EncLevel encLevel, final byte[] array, final STId stId, byte b, final STUserInstance stUserInstance)\n
     '''
 def adminMsg():
-    '''public void adminMsg(final String s)
+    '''returns None\n\n
+    adminMsg(final String s)\n
     '''
 def enableAutomaticReconnect():
-    '''public void enableAutomaticReconnect(final int n, final long n2)
+    '''returns None\n\n
+    enableAutomaticReconnect(final int n, final long n2)\n
     '''
 def disableAutomaticReconnect():
-    '''public void disableAutomaticReconnect()
+    '''returns None\n\n
+    disableAutomaticReconnect()\n
     '''
 def createAwarenessPermissionManager():
-    '''public AwarenessPermissionManager createAwarenessPermissionManager()
+    '''returns AwarenessPermissionManager\n\n
+    createAwarenessPermissionManager()\n
     '''
 def getServerPovIp():
-    '''public InetAddress getServerPovIp()
+    '''returns InetAddress\n\n
+    getServerPovIp()\n
     '''

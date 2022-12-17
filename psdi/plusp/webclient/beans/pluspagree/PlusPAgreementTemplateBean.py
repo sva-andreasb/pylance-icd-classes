@@ -1,6 +1,8 @@
 def setFieldValues():
-    '''public void setFieldValues(final int n)
+    '''returns None\n\n
+    setFieldValues(final int n)\n
     '''
 def fireStructureChangedEvent():
-    '''public void fireStructureChangedEvent()
+    '''returns None\n\n
+    fireStructureChangedEvent()\n
     '''

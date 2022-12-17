@@ -1,16 +1,21 @@
-def SimplePayload():
-    '''public SimplePayload(final String xmlPayload)
-    public SimplePayload(final String elementName, final String namespace, final CharSequence xmlPayload)
+def ():
+    '''returns SimplePayload\n\n
+    (final String xmlPayload)\n
+    (final String elementName, final String namespace, final CharSequence xmlPayload)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

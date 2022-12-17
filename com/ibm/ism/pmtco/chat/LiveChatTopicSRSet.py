@@ -1,3 +1,4 @@
-def LiveChatTopicSRSet():
-    '''public LiveChatTopicSRSet(final MboServerInterface ms)
+def ():
+    '''returns LiveChatTopicSRSet\n\n
+    (final MboServerInterface ms)\n
     '''

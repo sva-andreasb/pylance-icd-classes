@@ -1,3 +1,4 @@
-def FldUserStatusChangeStatus():
-    '''public FldUserStatusChangeStatus(final MboValue mbv)
+def ():
+    '''returns FldUserStatusChangeStatus\n\n
+    (final MboValue mbv)\n
     '''

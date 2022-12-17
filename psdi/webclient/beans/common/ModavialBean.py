@@ -1,3 +1,4 @@
 def newrow():
-    '''public int newrow()
+    '''returns int\n\n
+    newrow()\n
     '''

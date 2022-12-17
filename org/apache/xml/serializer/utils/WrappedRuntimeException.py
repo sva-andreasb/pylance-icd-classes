@@ -1,7 +1,9 @@
-def WrappedRuntimeException():
-    '''public WrappedRuntimeException(final Exception e)
-    public WrappedRuntimeException(final String msg, final Exception e)
+def ():
+    '''returns WrappedRuntimeException\n\n
+    (final Exception e)\n
+    (final String msg, final Exception e)\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''

@@ -1,6 +1,8 @@
-def UpdateListener():
-    '''public UpdateListener(final Sync g)
+def ():
+    '''returns UpdateListener\n\n
+    (final Sync g)\n
     '''
 def notifyEvent():
-    '''public void notifyEvent(final Graph source, final Object value)
+    '''returns None\n\n
+    notifyEvent(final Graph source, final Object value)\n
     '''

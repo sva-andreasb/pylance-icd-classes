@@ -1,4 +1,5 @@
-def EscalationService():
-    '''public EscalationService()
-    public EscalationService(final MXServer mxServer)
+def ():
+    '''returns EscalationService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

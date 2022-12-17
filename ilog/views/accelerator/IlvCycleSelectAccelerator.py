@@ -1,54 +1,71 @@
-def IlvCycleSelectAccelerator():
-    '''public IlvCycleSelectAccelerator(final KeyStroke keyStroke, final boolean b)
-    public IlvCycleSelectAccelerator(final int n, final int n2, final char c, final int n3, final boolean b)
-    public IlvCycleSelectAccelerator(final int n, final int n2, final int n3, final boolean b)
-    public IlvCycleSelectAccelerator(final int n, final int n2, final int n3)
+def ():
+    '''returns IlvCycleSelectAccelerator\n\n
+    (final KeyStroke keyStroke, final boolean b)\n
+    (final int n, final int n2, final char c, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3)\n
     '''
 def isSelectNonNodesOrLinksAllowed():
-    '''public boolean isSelectNonNodesOrLinksAllowed()
+    '''returns boolean\n\n
+    isSelectNonNodesOrLinksAllowed()\n
     '''
 def setSelectNonNodesOrLinksAllowed():
-    '''public void setSelectNonNodesOrLinksAllowed(final boolean a)
+    '''returns None\n\n
+    setSelectNonNodesOrLinksAllowed(final boolean a)\n
     '''
 def isSelectNodesAllowed():
-    '''public boolean isSelectNodesAllowed()
+    '''returns boolean\n\n
+    isSelectNodesAllowed()\n
     '''
 def setSelectNodesAllowed():
-    '''public void setSelectNodesAllowed(final boolean b)
+    '''returns None\n\n
+    setSelectNodesAllowed(final boolean b)\n
     '''
 def isSelectLinksAllowed():
-    '''public boolean isSelectLinksAllowed()
+    '''returns boolean\n\n
+    isSelectLinksAllowed()\n
     '''
 def setSelectLinksAllowed():
-    '''public void setSelectLinksAllowed(final boolean c)
+    '''returns None\n\n
+    setSelectLinksAllowed(final boolean c)\n
     '''
 def isSelectExpandedSubgraphsAllowed():
-    '''public boolean isSelectExpandedSubgraphsAllowed()
+    '''returns boolean\n\n
+    isSelectExpandedSubgraphsAllowed()\n
     '''
 def setSelectExpandedSubgraphsAllowed():
-    '''public void setSelectExpandedSubgraphsAllowed(final boolean d)
+    '''returns None\n\n
+    setSelectExpandedSubgraphsAllowed(final boolean d)\n
     '''
 def isDescendIntoExpandedSubgraphsAllowed():
-    '''public boolean isDescendIntoExpandedSubgraphsAllowed()
+    '''returns boolean\n\n
+    isDescendIntoExpandedSubgraphsAllowed()\n
     '''
 def setDescendIntoExpandedSubgraphsAllowed():
-    '''public void setDescendIntoExpandedSubgraphsAllowed(final boolean e)
+    '''returns None\n\n
+    setDescendIntoExpandedSubgraphsAllowed(final boolean e)\n
     '''
 def isForward():
-    '''public boolean isForward()
+    '''returns boolean\n\n
+    isForward()\n
     '''
 def setForward():
-    '''public void setForward(final boolean f)
+    '''returns None\n\n
+    setForward(final boolean f)\n
     '''
 def isEnsureVisible():
-    '''public boolean isEnsureVisible()
+    '''returns boolean\n\n
+    isEnsureVisible()\n
     '''
 def setEnsureVisible():
-    '''public void setEnsureVisible(final boolean g)
+    '''returns None\n\n
+    setEnsureVisible(final boolean g)\n
     '''
 def getComparator():
-    '''public Comparator<IlvGraphic> getComparator()
+    '''returns Comparator<IlvGraphic>\n\n
+    getComparator()\n
     '''
 def setComparator():
-    '''public void setComparator(final Comparator<IlvGraphic> h)
+    '''returns None\n\n
+    setComparator(final Comparator<IlvGraphic> h)\n
     '''

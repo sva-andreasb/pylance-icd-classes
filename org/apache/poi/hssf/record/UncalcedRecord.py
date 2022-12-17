@@ -1,17 +1,18 @@
 sid = "short  94"
-def UncalcedRecord():
-    '''public UncalcedRecord()
-    public UncalcedRecord(final RecordInputStream in)
+def ():
+    '''returns UncalcedRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
-    '''
-def getStaticRecordSize():
-    '''public static int getStaticRecordSize()
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''

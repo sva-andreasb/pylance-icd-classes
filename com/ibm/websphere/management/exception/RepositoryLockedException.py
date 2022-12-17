@@ -1,6 +1,7 @@
-def RepositoryLockedException():
-    '''public RepositoryLockedException()
-    public RepositoryLockedException(final String msg)
-    public RepositoryLockedException(final Throwable th, final String msg)
-    public RepositoryLockedException(final Throwable th)
+def ():
+    '''returns RepositoryLockedException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

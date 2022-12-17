@@ -1,18 +1,16 @@
-def getInstance():
-    '''public static MaxVarsCacheFactory getInstance()
-    '''
 def getCache():
-    '''public MaxVars getCache()
-    '''
-def getMaxVarsType():
-    '''public Hashtable<String, String> getMaxVarsType()
+    '''returns MaxVars\n\n
+    getCache()\n
     '''
 def getMaxVarsSystemCache():
-    '''public MaxVarsSystem getMaxVarsSystemCache()
+    '''returns MaxVarsSystem\n\n
+    getMaxVarsSystemCache()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

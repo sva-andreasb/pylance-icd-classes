@@ -1,4 +1,5 @@
-def ServiceContractService():
-    '''public ServiceContractService()
-    public ServiceContractService(final MXServer mxServer)
+def ():
+    '''returns ServiceContractService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

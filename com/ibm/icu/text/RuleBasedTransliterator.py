@@ -1,18 +1,24 @@
 def toRules():
-    '''public String toRules(final boolean escapeUnprintable)
+    '''returns String\n\n
+    toRules(final boolean escapeUnprintable)\n
     '''
-def addSourceTargetSet():
-    '''public void addSourceTargetSet(final UnicodeSet filter, final UnicodeSet sourceSet, final UnicodeSet targetSet)
+def getTargetSet():
+    '''returns UnicodeSet\n\n
+    getTargetSet()\n
     '''
 def safeClone():
-    '''public Transliterator safeClone()
+    '''returns Transliterator\n\n
+    safeClone()\n
     '''
-def Data():
-    '''public Data()
+def ():
+    '''returns Data\n\n
+    ()\n
     '''
 def lookupMatcher():
-    '''public UnicodeMatcher lookupMatcher(final int standIn)
+    '''returns UnicodeMatcher\n\n
+    lookupMatcher(final int standIn)\n
     '''
 def lookupReplacer():
-    '''public UnicodeReplacer lookupReplacer(final int standIn)
+    '''returns UnicodeReplacer\n\n
+    lookupReplacer(final int standIn)\n
     '''

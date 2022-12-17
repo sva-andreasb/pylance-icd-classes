@@ -1,16 +1,20 @@
 def format():
-    '''public FormattedNumber format(final long input)
-    public FormattedNumber format(final double input)
-    public FormattedNumber format(final Number input)
-    public FormattedNumber format(final Measure input)
+    '''returns FormattedNumber\n\n
+    format(final long input)\n
+    format(final double input)\n
+    format(final Number input)\n
+    format(final Measure input)\n
     '''
 def toFormat():
-    '''public Format toFormat()
+    '''returns Format\n\n
+    toFormat()\n
     '''
 def formatImpl():
-    '''public void formatImpl(final DecimalQuantity fq, final FormattedStringBuilder string)
-    public void formatImpl(final DecimalQuantity fq, final MeasureUnit unit, final FormattedStringBuilder string)
+    '''returns None\n\n
+    formatImpl(final DecimalQuantity fq, final FormattedStringBuilder string)\n
+    formatImpl(final DecimalQuantity fq, final MeasureUnit unit, final FormattedStringBuilder string)\n
     '''
 def getAffixImpl():
-    '''public String getAffixImpl(final boolean isPrefix, final boolean isNegative)
+    '''returns String\n\n
+    getAffixImpl(final boolean isPrefix, final boolean isNegative)\n
     '''

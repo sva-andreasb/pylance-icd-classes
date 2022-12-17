@@ -1,9 +1,12 @@
-def JavascripURLInputStreamResolver():
-    '''public JavascripURLInputStreamResolver(final ILogApplet applet)
+def ():
+    '''returns JavascripURLInputStreamResolver\n\n
+    (final ILogApplet applet)\n
     '''
 def openStream():
-    '''public InputStream openStream(final URL url)
+    '''returns InputStream\n\n
+    openStream(final URL url)\n
     '''
 def onJavascriptResponse():
-    '''public void onJavascriptResponse(final int id, final String data)
+    '''returns None\n\n
+    onJavascriptResponse(final int id, final String data)\n
     '''

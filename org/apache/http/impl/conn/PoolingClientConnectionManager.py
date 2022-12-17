@@ -1,55 +1,72 @@
-def PoolingClientConnectionManager():
-    '''public PoolingClientConnectionManager(final SchemeRegistry schreg)
-    public PoolingClientConnectionManager(final SchemeRegistry schreg, final DnsResolver dnsResolver)
-    public PoolingClientConnectionManager()
-    public PoolingClientConnectionManager(final SchemeRegistry schemeRegistry, final long timeToLive, final TimeUnit tunit)
-    public PoolingClientConnectionManager(final SchemeRegistry schemeRegistry, final long timeToLive, final TimeUnit tunit, final DnsResolver dnsResolver)
+def ():
+    '''returns PoolingClientConnectionManager\n\n
+    (final SchemeRegistry schreg)\n
+    (final SchemeRegistry schreg, final DnsResolver dnsResolver)\n
+    ()\n
+    (final SchemeRegistry schemeRegistry, final long timeToLive, final TimeUnit tunit)\n
+    (final SchemeRegistry schemeRegistry, final long timeToLive, final TimeUnit tunit, final DnsResolver dnsResolver)\n
     '''
 def getSchemeRegistry():
-    '''public SchemeRegistry getSchemeRegistry()
+    '''returns SchemeRegistry\n\n
+    getSchemeRegistry()\n
     '''
 def requestConnection():
-    '''public ClientConnectionRequest requestConnection(final HttpRoute route, final Object state)
+    '''returns ClientConnectionRequest\n\n
+    requestConnection(final HttpRoute route, final Object state)\n
     '''
 def abortRequest():
-    '''public void abortRequest()
+    '''returns None\n\n
+    abortRequest()\n
     '''
 def getConnection():
-    '''public ManagedClientConnection getConnection(final long timeout, final TimeUnit tunit)
+    '''returns ManagedClientConnection\n\n
+    getConnection(final long timeout, final TimeUnit tunit)\n
     '''
 def releaseConnection():
-    '''public void releaseConnection(final ManagedClientConnection conn, final long keepalive, final TimeUnit tunit)
+    '''returns None\n\n
+    releaseConnection(final ManagedClientConnection conn, final long keepalive, final TimeUnit tunit)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idleTimeout, final TimeUnit tunit)
+    '''returns None\n\n
+    closeIdleConnections(final long idleTimeout, final TimeUnit tunit)\n
     '''
 def closeExpiredConnections():
-    '''public void closeExpiredConnections()
+    '''returns None\n\n
+    closeExpiredConnections()\n
     '''
 def getMaxTotal():
-    '''public int getMaxTotal()
+    '''returns int\n\n
+    getMaxTotal()\n
     '''
 def setMaxTotal():
-    '''public void setMaxTotal(final int max)
+    '''returns None\n\n
+    setMaxTotal(final int max)\n
     '''
 def getDefaultMaxPerRoute():
-    '''public int getDefaultMaxPerRoute()
+    '''returns int\n\n
+    getDefaultMaxPerRoute()\n
     '''
 def setDefaultMaxPerRoute():
-    '''public void setDefaultMaxPerRoute(final int max)
+    '''returns None\n\n
+    setDefaultMaxPerRoute(final int max)\n
     '''
 def getMaxPerRoute():
-    '''public int getMaxPerRoute(final HttpRoute route)
+    '''returns int\n\n
+    getMaxPerRoute(final HttpRoute route)\n
     '''
 def setMaxPerRoute():
-    '''public void setMaxPerRoute(final HttpRoute route, final int max)
+    '''returns None\n\n
+    setMaxPerRoute(final HttpRoute route, final int max)\n
     '''
 def getTotalStats():
-    '''public PoolStats getTotalStats()
+    '''returns PoolStats\n\n
+    getTotalStats()\n
     '''
 def getStats():
-    '''public PoolStats getStats(final HttpRoute route)
+    '''returns PoolStats\n\n
+    getStats(final HttpRoute route)\n
     '''

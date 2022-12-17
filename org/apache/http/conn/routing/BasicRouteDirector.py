@@ -1,3 +1,4 @@
 def nextStep():
-    '''public int nextStep(final RouteInfo plan, final RouteInfo fact)
+    '''returns int\n\n
+    nextStep(final RouteInfo plan, final RouteInfo fact)\n
     '''

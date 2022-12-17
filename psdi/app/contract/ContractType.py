@@ -1,21 +1,28 @@
-def ContractType():
-    '''public ContractType(final MboSet ms)
+def ():
+    '''returns ContractType\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessmodifier)
+    '''returns None\n\n
+    delete(final long accessmodifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def copyTerms():
-    '''public void copyTerms(final MboSetRemote termsSet)
+    '''returns None\n\n
+    copyTerms(final MboSetRemote termsSet)\n
     '''

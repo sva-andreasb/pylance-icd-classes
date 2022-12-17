@@ -1,9 +1,12 @@
-def IlvAbstractGanttGrid():
-    '''public IlvAbstractGanttGrid()
+def ():
+    '''returns IlvAbstractGanttGrid\n\n
+    ()\n
     '''
 def setForeground():
-    '''public void setForeground(final Color foreground)
+    '''returns None\n\n
+    setForeground(final Color foreground)\n
     '''
 def getForeground():
-    '''public Color getForeground()
+    '''returns Color\n\n
+    getForeground()\n
     '''

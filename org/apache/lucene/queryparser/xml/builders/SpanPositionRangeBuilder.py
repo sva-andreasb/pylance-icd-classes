@@ -1,6 +1,8 @@
-def SpanPositionRangeBuilder():
-    '''public SpanPositionRangeBuilder(final SpanQueryBuilder factory)
+def ():
+    '''returns SpanPositionRangeBuilder\n\n
+    (final SpanQueryBuilder factory)\n
     '''
 def getSpanQuery():
-    '''public SpanQuery getSpanQuery(final Element e)
+    '''returns SpanQuery\n\n
+    getSpanQuery(final Element e)\n
     '''

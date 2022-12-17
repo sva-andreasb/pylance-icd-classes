@@ -1,16 +1,21 @@
-def ContractService():
-    '''public ContractService()
-    public ContractService(final MXServer mxServer)
+def ():
+    '''returns ContractService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def findContracts():
-    '''public MboSetRemote findContracts(final MboRemote inputMbo, final MboRemote owningMbo)
+    '''returns MboSetRemote\n\n
+    findContracts(final MboRemote inputMbo, final MboRemote owningMbo)\n
     '''
 def findValidContracts():
-    '''public Vector findValidContracts(final MboRemote mboRemote, final String vendor, final String catalogCode, final boolean createRel)
+    '''returns Vector\n\n
+    findValidContracts(final MboRemote mboRemote, final String vendor, final String catalogCode, final boolean createRel)\n
     '''
 def findLeaseContracts():
-    '''public Vector findLeaseContracts(final MboRemote mboRemote, final String vendor, final String catalogCode)
+    '''returns Vector\n\n
+    findLeaseContracts(final MboRemote mboRemote, final String vendor, final String catalogCode)\n
     '''
 def getContractLine():
-    '''public MboSetRemote getContractLine(final MboRemote mboRemote)
+    '''returns MboSetRemote\n\n
+    getContractLine(final MboRemote mboRemote)\n
     '''

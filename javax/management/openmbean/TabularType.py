@@ -1,21 +1,28 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def isValue():
-    '''public boolean isValue(final Object o)
+    '''returns boolean\n\n
+    isValue(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getIndexNames():
-    '''public List getIndexNames()
+    '''returns List\n\n
+    getIndexNames()\n
     '''
 def getRowType():
-    '''public CompositeType getRowType()
+    '''returns CompositeType\n\n
+    getRowType()\n
     '''
-def TabularType():
-    '''public TabularType(final String s, final String s2, final CompositeType rowType, final String[] array)
+def ():
+    '''returns TabularType\n\n
+    (final String s, final String s2, final CompositeType rowType, final String[] array)\n
     '''

@@ -1,6 +1,8 @@
-def PmFldChangeStatus():
-    '''public PmFldChangeStatus(final MboValue mbv)
+def ():
+    '''returns PmFldChangeStatus\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

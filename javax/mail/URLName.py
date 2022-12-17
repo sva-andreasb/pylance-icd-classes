@@ -1,38 +1,50 @@
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getFile():
-    '''public String getFile()
+    '''returns String\n\n
+    getFile()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def getProtocol():
-    '''public String getProtocol()
+    '''returns String\n\n
+    getProtocol()\n
     '''
 def getRef():
-    '''public String getRef()
+    '''returns String\n\n
+    getRef()\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def URLName():
-    '''public URLName(final String url)
-    public URLName(final URL url)
-    public URLName(final String protocol, final String host, final int port, final String file, final String username, final String password)
+def ():
+    '''returns URLName\n\n
+    (final String url)\n
+    (final URL url)\n
+    (final String protocol, final String host, final int port, final String file, final String username, final String password)\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''

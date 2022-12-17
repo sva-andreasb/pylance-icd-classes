@@ -1,220 +1,284 @@
-def Table():
-    '''public Table(final int columns)
-    public Table(final int columns, final int rows)
-    public Table(final Properties attributes)
+def ():
+    '''returns Table\n\n
+    (final int columns)\n
+    (final int columns, final int rows)\n
+    (final Properties attributes)\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def setDebug():
-    '''public void setDebug(final boolean aDebug)
+    '''returns None\n\n
+    setDebug(final boolean aDebug)\n
     '''
 def setDefaultLayout():
-    '''public void setDefaultLayout(final Cell value)
+    '''returns None\n\n
+    setDefaultLayout(final Cell value)\n
     '''
 def setAutoFillEmptyCells():
-    '''public void setAutoFillEmptyCells(final boolean aDoAutoFill)
+    '''returns None\n\n
+    setAutoFillEmptyCells(final boolean aDoAutoFill)\n
     '''
 def setTableFitsPage():
-    '''public void setTableFitsPage(final boolean fitPage)
+    '''returns None\n\n
+    setTableFitsPage(final boolean fitPage)\n
     '''
 def setCellsFitPage():
-    '''public void setCellsFitPage(final boolean fitPage)
+    '''returns None\n\n
+    setCellsFitPage(final boolean fitPage)\n
     '''
 def hasToFitPageTable():
-    '''public boolean hasToFitPageTable()
+    '''returns boolean\n\n
+    hasToFitPageTable()\n
     '''
 def hasToFitPageCells():
-    '''public boolean hasToFitPageCells()
+    '''returns boolean\n\n
+    hasToFitPageCells()\n
     '''
 def setOffset():
-    '''public void setOffset(final float offset)
+    '''returns None\n\n
+    setOffset(final float offset)\n
     '''
 def getOffset():
-    '''public float getOffset()
+    '''returns float\n\n
+    getOffset()\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def addCell():
-    '''public void addCell(final Cell aCell, final int row, final int column)
-    public void addCell(final Cell aCell, final Point aLocation)
-    public void addCell(final Cell cell)
-    public void addCell(final Phrase content)
-    public void addCell(final Phrase content, final Point location)
-    public void addCell(final String content)
-    public void addCell(final String content, final Point location)
+    '''returns None\n\n
+    addCell(final Cell aCell, final int row, final int column)\n
+    addCell(final Cell aCell, final Point aLocation)\n
+    addCell(final Cell cell)\n
+    addCell(final Phrase content)\n
+    addCell(final Phrase content, final Point location)\n
+    addCell(final String content)\n
+    addCell(final String content, final Point location)\n
     '''
 def insertTable():
-    '''public void insertTable(final Table aTable)
-    public void insertTable(final Table aTable, final int row, final int column)
-    public void insertTable(final Table aTable, final Point aLocation)
+    '''returns None\n\n
+    insertTable(final Table aTable)\n
+    insertTable(final Table aTable, final int row, final int column)\n
+    insertTable(final Table aTable, final Point aLocation)\n
     '''
 def complete():
-    '''public void complete()
+    '''returns None\n\n
+    complete()\n
     '''
 def setDefaultCellBorder():
-    '''public void setDefaultCellBorder(final int value)
+    '''returns None\n\n
+    setDefaultCellBorder(final int value)\n
     '''
 def setDefaultCellBorderWidth():
-    '''public void setDefaultCellBorderWidth(final float value)
+    '''returns None\n\n
+    setDefaultCellBorderWidth(final float value)\n
     '''
 def setDefaultCellBorderColor():
-    '''public void setDefaultCellBorderColor(final Color color)
+    '''returns None\n\n
+    setDefaultCellBorderColor(final Color color)\n
     '''
 def setDefaultCellBackgroundColor():
-    '''public void setDefaultCellBackgroundColor(final Color color)
+    '''returns None\n\n
+    setDefaultCellBackgroundColor(final Color color)\n
     '''
 def setDefaultCellGrayFill():
-    '''public void setDefaultCellGrayFill(final float value)
+    '''returns None\n\n
+    setDefaultCellGrayFill(final float value)\n
     '''
 def setDefaultHorizontalAlignment():
-    '''public void setDefaultHorizontalAlignment(final int value)
+    '''returns None\n\n
+    setDefaultHorizontalAlignment(final int value)\n
     '''
 def setDefaultVerticalAlignment():
-    '''public void setDefaultVerticalAlignment(final int value)
+    '''returns None\n\n
+    setDefaultVerticalAlignment(final int value)\n
     '''
 def setDefaultRowspan():
-    '''public void setDefaultRowspan(final int value)
+    '''returns None\n\n
+    setDefaultRowspan(final int value)\n
     '''
 def setDefaultColspan():
-    '''public void setDefaultColspan(final int value)
+    '''returns None\n\n
+    setDefaultColspan(final int value)\n
     '''
 def deleteColumn():
-    '''public void deleteColumn(final int column)
+    '''returns None\n\n
+    deleteColumn(final int column)\n
     '''
 def deleteRow():
-    '''public boolean deleteRow(final int row)
+    '''returns boolean\n\n
+    deleteRow(final int row)\n
     '''
 def deleteAllRows():
-    '''public void deleteAllRows()
+    '''returns None\n\n
+    deleteAllRows()\n
     '''
 def deleteLastRow():
-    '''public boolean deleteLastRow()
+    '''returns boolean\n\n
+    deleteLastRow()\n
     '''
 def endHeaders():
-    '''public int endHeaders()
+    '''returns int\n\n
+    endHeaders()\n
     '''
 def setLastHeaderRow():
-    '''public void setLastHeaderRow(final int value)
+    '''returns None\n\n
+    setLastHeaderRow(final int value)\n
     '''
 def setAlignment():
-    '''public void setAlignment(final int value)
-    public void setAlignment(final String alignment)
+    '''returns None\n\n
+    setAlignment(final int value)\n
+    setAlignment(final String alignment)\n
     '''
 def setSpaceInsideCell():
-    '''public void setSpaceInsideCell(final float value)
+    '''returns None\n\n
+    setSpaceInsideCell(final float value)\n
     '''
 def setSpaceBetweenCells():
-    '''public void setSpaceBetweenCells(final float value)
+    '''returns None\n\n
+    setSpaceBetweenCells(final float value)\n
     '''
 def setPadding():
-    '''public void setPadding(final float value)
+    '''returns None\n\n
+    setPadding(final float value)\n
     '''
 def setSpacing():
-    '''public void setSpacing(final float value)
+    '''returns None\n\n
+    setSpacing(final float value)\n
     '''
 def setCellpadding():
-    '''public void setCellpadding(final float value)
+    '''returns None\n\n
+    setCellpadding(final float value)\n
     '''
 def setCellspacing():
-    '''public void setCellspacing(final float value)
+    '''returns None\n\n
+    setCellspacing(final float value)\n
     '''
 def setWidth():
-    '''public void setWidth(final float width)
+    '''returns None\n\n
+    setWidth(final float width)\n
     '''
 def setAbsWidth():
-    '''public void setAbsWidth(final String width)
+    '''returns None\n\n
+    setAbsWidth(final String width)\n
     '''
 def setWidths():
-    '''public void setWidths(final float[] widths)
-    public void setWidths(final int[] widths)
+    '''returns None\n\n
+    setWidths(final float[] widths)\n
+    setWidths(final int[] widths)\n
     '''
 def columns():
-    '''public int columns()
+    '''returns int\n\n
+    columns()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getProportionalWidths():
-    '''public float[] getProportionalWidths()
+    '''returns float[]\n\n
+    getProportionalWidths()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def alignment():
-    '''public int alignment()
+    '''returns int\n\n
+    alignment()\n
     '''
 def cellpadding():
-    '''public float cellpadding()
+    '''returns float\n\n
+    cellpadding()\n
     '''
 def cellspacing():
-    '''public float cellspacing()
+    '''returns float\n\n
+    cellspacing()\n
     '''
 def widthPercentage():
-    '''public float widthPercentage()
+    '''returns float\n\n
+    widthPercentage()\n
     '''
 def absWidth():
-    '''public String absWidth()
+    '''returns String\n\n
+    absWidth()\n
     '''
 def firstDataRow():
-    '''public int firstDataRow()
+    '''returns int\n\n
+    firstDataRow()\n
     '''
 def lastHeaderRow():
-    '''public int lastHeaderRow()
+    '''returns int\n\n
+    lastHeaderRow()\n
     '''
 def getDimension():
-    '''public Dimension getDimension()
+    '''returns Dimension\n\n
+    getDimension()\n
     '''
 def getElement():
-    '''public Object getElement(final int row, final int column)
+    '''returns Object\n\n
+    getElement(final int row, final int column)\n
     '''
 def addColumns():
-    '''public void addColumns(final int aColumns)
+    '''returns None\n\n
+    addColumns(final int aColumns)\n
     '''
 def getWidths():
-    '''public float[] getWidths(final float left, float totalWidth)
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns float[]\n\n
+    getWidths(final float left, float totalWidth)\n
     '''
 def setAlternatingRowAttribute():
-    '''public void setAlternatingRowAttribute(final String name, final String value0, final String value1)
+    '''returns None\n\n
+    setAlternatingRowAttribute(final String name, final String value0, final String value1)\n
     '''
 def top():
-    '''public float top()
-    public float top(final int margin)
+    '''returns float\n\n
+    top()\n
+    top(final int margin)\n
     '''
 def bottom():
-    '''public float bottom()
-    public float bottom(final int margin)
+    '''returns float\n\n
+    bottom()\n
+    bottom(final int margin)\n
     '''
 def left():
-    '''public float left()
-    public float left(final int margin)
+    '''returns float\n\n
+    left()\n
+    left(final int margin)\n
     '''
 def right():
-    '''public float right()
-    public float right(final int margin)
+    '''returns float\n\n
+    right()\n
+    right(final int margin)\n
     '''
 def setTop():
-    '''public void setTop(final int value)
+    '''returns None\n\n
+    setTop(final int value)\n
     '''
 def setBottom():
-    '''public void setBottom(final int value)
+    '''returns None\n\n
+    setBottom(final int value)\n
     '''
 def setLeft():
-    '''public void setLeft(final int value)
+    '''returns None\n\n
+    setLeft(final int value)\n
     '''
 def setRight():
-    '''public void setRight(final int value)
+    '''returns None\n\n
+    setRight(final int value)\n
     '''
 def getNextRow():
-    '''public int getNextRow()
+    '''returns int\n\n
+    getNextRow()\n
     '''
 def getNextColumn():
-    '''public int getNextColumn()
+    '''returns int\n\n
+    getNextColumn()\n
     '''

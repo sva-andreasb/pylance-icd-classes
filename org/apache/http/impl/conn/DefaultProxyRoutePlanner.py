@@ -1,4 +1,5 @@
-def DefaultProxyRoutePlanner():
-    '''public DefaultProxyRoutePlanner(final HttpHost proxy, final SchemePortResolver schemePortResolver)
-    public DefaultProxyRoutePlanner(final HttpHost proxy)
+def ():
+    '''returns DefaultProxyRoutePlanner\n\n
+    (final HttpHost proxy, final SchemePortResolver schemePortResolver)\n
+    (final HttpHost proxy)\n
     '''

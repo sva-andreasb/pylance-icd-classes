@@ -1,6 +1,8 @@
-def FldNodeType():
-    '''public FldNodeType(final MboValue mbv)
+def ():
+    '''returns FldNodeType\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

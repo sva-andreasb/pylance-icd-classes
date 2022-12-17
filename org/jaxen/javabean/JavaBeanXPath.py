@@ -1,6 +1,8 @@
-def JavaBeanXPath():
-    '''public JavaBeanXPath(final String xpathExpr)
+def ():
+    '''returns JavaBeanXPath\n\n
+    (final String xpathExpr)\n
     '''
 def evaluate():
-    '''public Object evaluate(final Object node)
+    '''returns Object\n\n
+    evaluate(final Object node)\n
     '''

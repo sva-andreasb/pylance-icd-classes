@@ -1,12 +1,16 @@
-def ReportAttributesSelectedBean():
-    '''public ReportAttributesSelectedBean()
+def ():
+    '''returns ReportAttributesSelectedBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def removeAttribute():
-    '''public int removeAttribute(final MboRemote attribute)
+    '''returns int\n\n
+    removeAttribute(final MboRemote attribute)\n
     '''
 def highlightrow():
-    '''public int highlightrow(final int row)
+    '''returns int\n\n
+    highlightrow(final int row)\n
     '''

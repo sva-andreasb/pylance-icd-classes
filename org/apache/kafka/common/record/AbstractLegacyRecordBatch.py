@@ -1,157 +1,204 @@
 def lastOffset():
-    '''public long lastOffset()
-    public long lastOffset()
+    '''returns long\n\n
+    lastOffset()\n
+    lastOffset()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def ensureValid():
-    '''public void ensureValid()
+    '''returns None\n\n
+    ensureValid()\n
     '''
 def keySize():
-    '''public int keySize()
+    '''returns int\n\n
+    keySize()\n
     '''
 def hasKey():
-    '''public boolean hasKey()
+    '''returns boolean\n\n
+    hasKey()\n
     '''
 def key():
-    '''public ByteBuffer key()
+    '''returns ByteBuffer\n\n
+    key()\n
     '''
 def valueSize():
-    '''public int valueSize()
+    '''returns int\n\n
+    valueSize()\n
     '''
 def hasValue():
-    '''public boolean hasValue()
+    '''returns boolean\n\n
+    hasValue()\n
     '''
 def value():
-    '''public ByteBuffer value()
+    '''returns ByteBuffer\n\n
+    value()\n
     '''
 def headers():
-    '''public Header[] headers()
+    '''returns Header[]\n\n
+    headers()\n
     '''
 def hasMagic():
-    '''public boolean hasMagic(final byte magic)
+    '''returns boolean\n\n
+    hasMagic(final byte magic)\n
     '''
 def hasTimestampType():
-    '''public boolean hasTimestampType(final TimestampType timestampType)
+    '''returns boolean\n\n
+    hasTimestampType(final TimestampType timestampType)\n
     '''
 def checksumOrNull():
-    '''public Long checksumOrNull()
+    '''returns Long\n\n
+    checksumOrNull()\n
     '''
 def checksum():
-    '''public long checksum()
+    '''returns long\n\n
+    checksum()\n
     '''
 def maxTimestamp():
-    '''public long maxTimestamp()
+    '''returns long\n\n
+    maxTimestamp()\n
     '''
 def timestamp():
-    '''public long timestamp()
+    '''returns long\n\n
+    timestamp()\n
     '''
 def timestampType():
-    '''public TimestampType timestampType()
+    '''returns TimestampType\n\n
+    timestampType()\n
     '''
 def baseOffset():
-    '''public long baseOffset()
-    public long baseOffset()
+    '''returns long\n\n
+    baseOffset()\n
+    baseOffset()\n
     '''
 def magic():
-    '''public byte magic()
+    '''returns byte\n\n
+    magic()\n
     '''
 def compressionType():
-    '''public CompressionType compressionType()
+    '''returns CompressionType\n\n
+    compressionType()\n
     '''
 def sizeInBytes():
-    '''public int sizeInBytes()
+    '''returns int\n\n
+    sizeInBytes()\n
     '''
 def countOrNull():
-    '''public Integer countOrNull()
-    public Integer countOrNull()
+    '''returns Integer\n\n
+    countOrNull()\n
+    countOrNull()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def writeTo():
-    '''public void writeTo(final ByteBuffer buffer)
-    public void writeTo(final ByteBufferOutputStream outputStream)
+    '''returns None\n\n
+    writeTo(final ByteBuffer buffer)\n
+    writeTo(final ByteBufferOutputStream outputStream)\n
     '''
 def producerId():
-    '''public long producerId()
-    public long producerId()
+    '''returns long\n\n
+    producerId()\n
+    producerId()\n
     '''
 def producerEpoch():
-    '''public short producerEpoch()
-    public short producerEpoch()
+    '''returns short\n\n
+    producerEpoch()\n
+    producerEpoch()\n
     '''
 def hasProducerId():
-    '''public boolean hasProducerId()
+    '''returns boolean\n\n
+    hasProducerId()\n
     '''
 def sequence():
-    '''public int sequence()
+    '''returns int\n\n
+    sequence()\n
     '''
 def baseSequence():
-    '''public int baseSequence()
-    public int baseSequence()
+    '''returns int\n\n
+    baseSequence()\n
+    baseSequence()\n
     '''
 def lastSequence():
-    '''public int lastSequence()
-    public int lastSequence()
+    '''returns int\n\n
+    lastSequence()\n
+    lastSequence()\n
     '''
 def isTransactional():
-    '''public boolean isTransactional()
-    public boolean isTransactional()
+    '''returns boolean\n\n
+    isTransactional()\n
+    isTransactional()\n
     '''
 def partitionLeaderEpoch():
-    '''public int partitionLeaderEpoch()
-    public int partitionLeaderEpoch()
+    '''returns int\n\n
+    partitionLeaderEpoch()\n
+    partitionLeaderEpoch()\n
     '''
 def isControlBatch():
-    '''public boolean isControlBatch()
-    public boolean isControlBatch()
+    '''returns boolean\n\n
+    isControlBatch()\n
+    isControlBatch()\n
     '''
 def iterator():
-    '''public Iterator<Record> iterator()
+    '''returns Iterator<Record>\n\n
+    iterator()\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Record next()
+    '''returns Record\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def streamingIterator():
-    '''public CloseableIterator<Record> streamingIterator(final BufferSupplier bufferSupplier)
+    '''returns CloseableIterator<Record>\n\n
+    streamingIterator(final BufferSupplier bufferSupplier)\n
     '''
 def nextBatch():
-    '''public AbstractLegacyRecordBatch nextBatch()
+    '''returns AbstractLegacyRecordBatch\n\n
+    nextBatch()\n
     '''
 def offset():
-    '''public long offset()
-    public long offset()
+    '''returns long\n\n
+    offset()\n
+    offset()\n
     '''
 def outerRecord():
-    '''public LegacyRecord outerRecord()
-    public LegacyRecord outerRecord()
+    '''returns LegacyRecord\n\n
+    outerRecord()\n
+    outerRecord()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def setLastOffset():
-    '''public void setLastOffset(final long offset)
+    '''returns None\n\n
+    setLastOffset(final long offset)\n
     '''
 def setMaxTimestamp():
-    '''public void setMaxTimestamp(final TimestampType timestampType, final long timestamp)
+    '''returns None\n\n
+    setMaxTimestamp(final TimestampType timestampType, final long timestamp)\n
     '''
 def setPartitionLeaderEpoch():
-    '''public void setPartitionLeaderEpoch(final int epoch)
+    '''returns None\n\n
+    setPartitionLeaderEpoch(final int epoch)\n
     '''

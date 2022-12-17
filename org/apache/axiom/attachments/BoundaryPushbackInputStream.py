@@ -1,14 +1,18 @@
-def BoundaryPushbackInputStream():
-    '''public BoundaryPushbackInputStream(final PushbackInputStream inStream, final byte[] boundary, final int pushBackSize)
+def ():
+    '''returns BoundaryPushbackInputStream\n\n
+    (final PushbackInputStream inStream, final byte[] boundary, final int pushBackSize)\n
     '''
 def read():
-    '''public int read(final byte[] b)
-    public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read(final byte[] b)\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def getBoundaryStatus():
-    '''public boolean getBoundaryStatus()
+    '''returns boolean\n\n
+    getBoundaryStatus()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

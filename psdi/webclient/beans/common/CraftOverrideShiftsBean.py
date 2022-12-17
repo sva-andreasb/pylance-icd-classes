@@ -1,21 +1,28 @@
 def massModifyShifts():
-    '''public int massModifyShifts()
+    '''returns int\n\n
+    massModifyShifts()\n
     '''
 def getOverrideShiftsTableName():
-    '''public String getOverrideShiftsTableName()
+    '''returns String\n\n
+    getOverrideShiftsTableName()\n
     '''
 def getCraftOverrideTableName():
-    '''public String getCraftOverrideTableName()
+    '''returns String\n\n
+    getCraftOverrideTableName()\n
     '''
 def getCrewTypeOverrideTableName():
-    '''public String getCrewTypeOverrideTableName()
+    '''returns String\n\n
+    getCrewTypeOverrideTableName()\n
     '''
 def getCraftOverrideAvailTableName():
-    '''public String getCraftOverrideAvailTableName()
+    '''returns String\n\n
+    getCraftOverrideAvailTableName()\n
     '''
 def modifySingleShiftFromCraft():
-    '''public int modifySingleShiftFromCraft()
+    '''returns int\n\n
+    modifySingleShiftFromCraft()\n
     '''
 def selectAllItems():
-    '''public int selectAllItems()
+    '''returns int\n\n
+    selectAllItems()\n
     '''

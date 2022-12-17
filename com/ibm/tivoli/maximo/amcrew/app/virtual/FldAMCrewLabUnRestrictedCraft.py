@@ -1,18 +1,24 @@
-def FldAMCrewLabUnRestrictedCraft():
-    '''public FldAMCrewLabUnRestrictedCraft(final MboValue mbv)
+def ():
+    '''returns FldAMCrewLabUnRestrictedCraft\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''
 def getSqlForEnteredFields():
-    '''public SqlFormat getSqlForEnteredFields()
+    '''returns SqlFormat\n\n
+    getSqlForEnteredFields()\n
     '''

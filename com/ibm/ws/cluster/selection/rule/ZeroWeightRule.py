@@ -1,9 +1,12 @@
-def ZeroWeightRule():
-    '''public ZeroWeightRule(final Identity clusterIdentity)
+def ():
+    '''returns ZeroWeightRule\n\n
+    (final Identity clusterIdentity)\n
     '''
 def subset():
-    '''public void subset(final List identities, final StringBuffer reason)
+    '''returns None\n\n
+    subset(final List identities, final StringBuffer reason)\n
     '''
 def registerRuleArbitrator():
-    '''public void registerRuleArbitrator(final RuleArbitrator coordinator)
+    '''returns None\n\n
+    registerRuleArbitrator(final RuleArbitrator coordinator)\n
     '''

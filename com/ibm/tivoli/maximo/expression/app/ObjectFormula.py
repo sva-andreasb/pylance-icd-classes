@@ -1,6 +1,8 @@
-def ObjectFormula():
-    '''public ObjectFormula(final MboSet ms)
+def ():
+    '''returns ObjectFormula\n\n
+    (final MboSet ms)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

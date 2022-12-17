@@ -1,4 +1,5 @@
-def StringMapBuilder():
-    '''public StringMapBuilder()
-    public StringMapBuilder(final String key, final String value)
+def ():
+    '''returns StringMapBuilder\n\n
+    ()\n
+    (final String key, final String value)\n
     '''

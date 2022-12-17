@@ -1,6 +1,8 @@
 def match():
-    '''public boolean match(final StringSegment segment, final ParsedNumber result)
+    '''returns boolean\n\n
+    match(final StringSegment segment, final ParsedNumber result)\n
     '''
 def smokeTest():
-    '''public boolean smokeTest(final StringSegment segment)
+    '''returns boolean\n\n
+    smokeTest(final StringSegment segment)\n
     '''

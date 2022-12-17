@@ -1,9 +1,12 @@
-def StyleSheetList():
-    '''public StyleSheetList(final int type, final DOMObject obj, final Node owner)
+def ():
+    '''returns StyleSheetList\n\n
+    (final int type, final DOMObject obj, final Node owner)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public StyleSheet item(final int n)
+    '''returns StyleSheet\n\n
+    item(final int n)\n
     '''

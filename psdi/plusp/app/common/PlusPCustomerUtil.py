@@ -1,56 +1,36 @@
-def PlusPCustomerUtil():
-    '''public PlusPCustomerUtil(final MboRemote currentMbo)
+def ():
+    '''returns PlusPCustomerUtil\n\n
+    (final MboRemote currentMbo)\n
     '''
 def changeAssetLocCi():
-    '''public void changeAssetLocCi()
+    '''returns None\n\n
+    changeAssetLocCi()\n
     '''
 def setCustomerFieldFlag():
-    '''public void setCustomerFieldFlag()
+    '''returns None\n\n
+    setCustomerFieldFlag()\n
     '''
 def isNotPrimaryAssociation():
-    '''public static boolean isNotPrimaryAssociation(final String s)
-    public boolean isNotPrimaryAssociation()
+    '''returns boolean\n\n
+    isNotPrimaryAssociation()\n
     '''
 def getCustomerField():
-    '''public String getCustomerField()
+    '''returns String\n\n
+    getCustomerField()\n
     '''
 def getCustomer():
-    '''public String getCustomer()
-    '''
-def setQbe():
-    '''public static void setQbe(final String s, final MboSetRemote mboSetRemote, final String s2)
-    public static void setQbe(final String s, final MboSetRemote mboSetRemote, final String s2, final boolean b)
+    '''returns String\n\n
+    getCustomer()\n
     '''
 def getCustomerFieldForDomainFilter():
-    '''public String getCustomerFieldForDomainFilter()
+    '''returns String\n\n
+    getCustomerFieldForDomainFilter()\n
     '''
 def getCustomerForDomainFilter():
-    '''public String getCustomerForDomainFilter()
+    '''returns String\n\n
+    getCustomerForDomainFilter()\n
     '''
 def showCustomerChangeWarning():
-    '''public void showCustomerChangeWarning(final String s)
-    '''
-def getRealCustAssocCount():
-    '''public static int getRealCustAssocCount(final MboSetRemote mboSetRemote)
-    '''
-def hasCustomer():
-    '''public static boolean hasCustomer(final MboRemote mboRemote)
-    '''
-def hasSameCustomer():
-    '''public static boolean hasSameCustomer(final MboRemote mboRemote, final MboRemote mboRemote2)
-    '''
-def copyCustomers():
-    '''public static int copyCustomers(final MboRemote mboRemote, final MboRemote mboRemote2)
-    '''
-def synchronizeAssetCICustomers():
-    '''public static int synchronizeAssetCICustomers(final String s, final UserInfo userInfo)
-    '''
-def setFieldNullIfHasCustomer():
-    '''public static boolean setFieldNullIfHasCustomer(final MboRemote mboRemote, final String s, final String s2)
-    '''
-def deletelIfHasCustomer():
-    '''public static boolean deletelIfHasCustomer(final MboRemote mboRemote, final String s)
-    '''
-def getWhereClauseForCustomerValidation():
-    '''public static String getWhereClauseForCustomerValidation(final String val, final String s, final String val2, final boolean b)
+    '''returns None\n\n
+    showCustomerChangeWarning(final String s)\n
     '''

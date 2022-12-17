@@ -1,48 +1,56 @@
-def Issue1972():
-    '''public Issue1972()
+def ():
+    '''returns Issue1972\n\n
+    ()\n
     '''
 def afterEachTest():
-    '''public void afterEachTest()
+    '''returns None\n\n
+    afterEachTest()\n
     '''
 def readStderr():
-    '''public void readStderr()
+    '''returns None\n\n
+    readStderr()\n
     '''
 def readStdout():
-    '''public void readStdout()
+    '''returns None\n\n
+    readStdout()\n
     '''
 def echoStdin():
-    '''public void echoStdin()
+    '''returns None\n\n
+    echoStdin()\n
     '''
 def echoStdinAsHex():
-    '''public void echoStdinAsHex()
+    '''returns None\n\n
+    echoStdinAsHex()\n
     '''
 def jythonSubprocess():
-    '''public void jythonSubprocess()
+    '''returns None\n\n
+    jythonSubprocess()\n
     '''
 def jythonNonInteractive():
-    '''public void jythonNonInteractive()
+    '''returns None\n\n
+    jythonNonInteractive()\n
     '''
 def jythonInteractive():
-    '''public void jythonInteractive()
+    '''returns None\n\n
+    jythonInteractive()\n
     '''
 def jythonJLineConsole():
-    '''public void jythonJLineConsole()
+    '''returns None\n\n
+    jythonJLineConsole()\n
     '''
 def jythonReadline():
-    '''public void jythonReadline()
-    '''
-def main():
-    '''public static void main(final String[] args)
-    '''
-def escape():
-    '''public static String escape(final byte[] b)
+    '''returns None\n\n
+    jythonReadline()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def asStrings():
-    '''public List<String> asStrings()
+    '''returns List<String>\n\n
+    asStrings()\n
     '''
 def asHexDump():
-    '''public List<String> asHexDump()
+    '''returns List<String>\n\n
+    asHexDump()\n
     '''

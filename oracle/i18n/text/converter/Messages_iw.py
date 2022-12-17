@@ -1,6 +1,8 @@
-def Messages_iw():
-    '''public Messages_iw()
+def ():
+    '''returns Messages_iw\n\n
+    ()\n
     '''
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

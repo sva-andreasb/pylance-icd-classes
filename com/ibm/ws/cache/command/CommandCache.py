@@ -1,49 +1,65 @@
-def CommandCache():
-    '''public CommandCache()
+def ():
+    '''returns CommandCache\n\n
+    ()\n
     '''
 def setCache():
-    '''public void setCache(final DCache cache)
+    '''returns None\n\n
+    setCache(final DCache cache)\n
     '''
 def setBatchUpdateDaemon():
-    '''public void setBatchUpdateDaemon(final BatchUpdateDaemon batchUpdateDaemon)
+    '''returns None\n\n
+    setBatchUpdateDaemon(final BatchUpdateDaemon batchUpdateDaemon)\n
     '''
 def setRemoteServices():
-    '''public void setRemoteServices(final RemoteServices remoteServices)
+    '''returns None\n\n
+    setRemoteServices(final RemoteServices remoteServices)\n
     '''
 def getCommandStoragePolicy():
-    '''public CommandStoragePolicy getCommandStoragePolicy()
+    '''returns CommandStoragePolicy\n\n
+    getCommandStoragePolicy()\n
     '''
 def setCommandStoragePolicy():
-    '''public void setCommandStoragePolicy(final Object commandStoragePolicy)
+    '''returns None\n\n
+    setCommandStoragePolicy(final Object commandStoragePolicy)\n
     '''
 def setDefaultPriority():
-    '''public void setDefaultPriority(final int defaultPriority)
+    '''returns None\n\n
+    setDefaultPriority(final int defaultPriority)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def getCommandLocally():
-    '''public CacheableCommand getCommandLocally(final CacheableCommand inputCommand, final boolean execute)
+    '''returns CacheableCommand\n\n
+    getCommandLocally(final CacheableCommand inputCommand, final boolean execute)\n
     '''
 def getCommand():
-    '''public CacheableCommand getCommand(final CacheableCommand inputCommand, final boolean execute)
+    '''returns CacheableCommand\n\n
+    getCommand(final CacheableCommand inputCommand, final boolean execute)\n
     '''
 def setCommand():
-    '''public void setCommand(final CacheableCommand command)
+    '''returns None\n\n
+    setCommand(final CacheableCommand command)\n
     '''
 def executeCommand():
-    '''public CacheableCommand executeCommand(final CacheableCommand command, final CommandTarget commandTarget)
+    '''returns CacheableCommand\n\n
+    executeCommand(final CacheableCommand command, final CommandTarget commandTarget)\n
     '''
 def isValid():
-    '''public boolean isValid(final String id)
+    '''returns boolean\n\n
+    isValid(final String id)\n
     '''
 def invalidateById():
-    '''public void invalidateById(final String id, final boolean waitOnInvalidation)
-    public void invalidateById(final String id, final int causeOfInvalidation, final boolean waitOnInvalidation)
+    '''returns None\n\n
+    invalidateById(final String id, final boolean waitOnInvalidation)\n
+    invalidateById(final String id, final int causeOfInvalidation, final boolean waitOnInvalidation)\n
     '''
 def invalidateByTemplate():
-    '''public void invalidateByTemplate(final String template, final boolean waitOnInvalidation)
+    '''returns None\n\n
+    invalidateByTemplate(final String template, final boolean waitOnInvalidation)\n
     '''
 def getCache():
-    '''public DCache getCache()
+    '''returns DCache\n\n
+    getCache()\n
     '''

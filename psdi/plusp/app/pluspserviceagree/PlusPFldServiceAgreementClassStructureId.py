@@ -1,6 +1,8 @@
-def PlusPFldServiceAgreementClassStructureId():
-    '''public PlusPFldServiceAgreementClassStructureId(final MboValue arg0)
+def ():
+    '''returns PlusPFldServiceAgreementClassStructureId\n\n
+    (final MboValue arg0)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

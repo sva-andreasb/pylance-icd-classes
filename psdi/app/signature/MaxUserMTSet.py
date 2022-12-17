@@ -1,3 +1,4 @@
-def MaxUserMTSet():
-    '''public MaxUserMTSet(final MboServerInterface ms)
+def ():
+    '''returns MaxUserMTSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -7,29 +7,38 @@ QUERY_ENTRIES_SUCCEEDED = "int  12"
 SERVICE_AVAILABLE = "int  13"
 SERVICE_UNAVAILABLE = "int  14"
 def getDirectories():
-    '''public Directory[] getDirectories()
+    '''returns Directory[]\n\n
+    getDirectories()\n
     '''
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def isAtStart():
-    '''public boolean isAtStart()
+    '''returns boolean\n\n
+    isAtStart()\n
     '''
 def isAtEnd():
-    '''public boolean isAtEnd()
+    '''returns boolean\n\n
+    isAtEnd()\n
     '''
 def getEntries():
-    '''public STObject[] getEntries()
+    '''returns STObject[]\n\n
+    getEntries()\n
     '''
 def getRequestId():
-    '''public Integer getRequestId()
+    '''returns Integer\n\n
+    getRequestId()\n
     '''
 def getDirectory():
-    '''public Directory getDirectory()
+    '''returns Directory\n\n
+    getDirectory()\n
     '''
 def getDirectorySize():
-    '''public int getDirectorySize()
+    '''returns int\n\n
+    getDirectorySize()\n
     '''
 def getChunkSize():
-    '''public short getChunkSize()
+    '''returns short\n\n
+    getChunkSize()\n
     '''

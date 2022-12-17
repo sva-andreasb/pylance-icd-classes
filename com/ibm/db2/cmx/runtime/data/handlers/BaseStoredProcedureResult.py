@@ -1,68 +1,65 @@
-def BaseStoredProcedureResult():
-    '''public BaseStoredProcedureResult()
-    public BaseStoredProcedureResult(final StatementDescriptorImpl statementDescriptor_, final CallableStatement cstmt_, final Object... parametersFromMethod_)
+def ():
+    '''returns BaseStoredProcedureResult\n\n
+    ()\n
+    (final StatementDescriptorImpl statementDescriptor_, final CallableStatement cstmt_, final Object... parametersFromMethod_)\n
     '''
 def getOutAndInOutParameters():
-    '''public void getOutAndInOutParameters(final CallableStatement cstmt_, final boolean b)
+    '''returns None\n\n
+    getOutAndInOutParameters(final CallableStatement cstmt_, final boolean b)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getStatementDescriptor():
-    '''public StatementDescriptorImpl getStatementDescriptor()
+    '''returns StatementDescriptorImpl\n\n
+    getStatementDescriptor()\n
     '''
 def setStatementDescriptor():
-    '''public void setStatementDescriptor(final StatementDescriptorImpl statementDescriptor_)
+    '''returns None\n\n
+    setStatementDescriptor(final StatementDescriptorImpl statementDescriptor_)\n
     '''
 def returnOutParameter():
-    '''public void returnOutParameter(final CallableStatement callableStatement, final int n, final Object o, final int n2)
+    '''returns None\n\n
+    returnOutParameter(final CallableStatement callableStatement, final int n, final Object o, final int n2)\n
     '''
 def getUserParameters():
-    '''public Object[] getUserParameters()
+    '''returns Object[]\n\n
+    getUserParameters()\n
     '''
 def setUserParameters():
-    '''public void setUserParameters(final Object[] parametersFromMethod_)
+    '''returns None\n\n
+    setUserParameters(final Object[] parametersFromMethod_)\n
     '''
 def setCallableStatement():
-    '''public void setCallableStatement(final CallableStatement cstmt_)
-    '''
-def getArray():
-    '''public Map<String, Object>[] getArray()
-    public <T> T[] getArray(final Class<T> componentType)
-    public <T> T[] getArray(final RowHandler<T> rowHandler)
-    public <T> T[] getArray(final Class<T> componentType, final RowHandler<T> rowHandler)
+    '''returns None\n\n
+    setCallableStatement(final CallableStatement cstmt_)\n
     '''
 def getCallStatement():
-    '''public CallableStatement getCallStatement()
-    '''
-def getIterator():
-    '''public Iterator<Map<String, Object>> getIterator()
-    public <T> Iterator<T> getIterator(final Class<T> clazz)
-    public <T> Iterator<T> getIterator(final RowHandler<T> rowHandler)
-    '''
-def getList():
-    '''public List<Map<String, Object>> getList()
-    public <T> List<T> getList(final Class<T> clazz)
-    public <T> List<T> getList(final RowHandler<T> rowHandler)
+    '''returns CallableStatement\n\n
+    getCallStatement()\n
     '''
 def getOutputParms():
-    '''public Object[] getOutputParms()
-    '''
-def getQuery():
-    '''public <T> T getQuery(final ResultHandler<T> resultHandler)
+    '''returns Object[]\n\n
+    getOutputParms()\n
     '''
 def getResults():
-    '''public ResultSet getResults()
+    '''returns ResultSet\n\n
+    getResults()\n
     '''
 def setupForResults():
-    '''public void setupForResults(final CallableStatement cstmt_)
+    '''returns None\n\n
+    setupForResults(final CallableStatement cstmt_)\n
     '''
 def moveToNext():
-    '''public boolean moveToNext()
+    '''returns boolean\n\n
+    moveToNext()\n
     '''
 def setCallStatement():
-    '''public void setCallStatement(final CallableStatement cstmt_)
+    '''returns None\n\n
+    setCallStatement(final CallableStatement cstmt_)\n
     '''
 def run():
-    '''public Method run()
+    '''returns Method\n\n
+    run()\n
     '''

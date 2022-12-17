@@ -1,15 +1,20 @@
-def Image():
-    '''public Image()
+def ():
+    '''returns Image\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def initializeMenuIcons():
-    '''public void initializeMenuIcons()
+    '''returns None\n\n
+    initializeMenuIcons()\n
     '''
 def getIcons():
-    '''public JSONArray getIcons()
+    '''returns JSONArray\n\n
+    getIcons()\n
     '''

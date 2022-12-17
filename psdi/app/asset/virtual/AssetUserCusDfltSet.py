@@ -1,6 +1,8 @@
-def AssetUserCusDfltSet():
-    '''public AssetUserCusDfltSet(final MboServerInterface ms)
+def ():
+    '''returns AssetUserCusDfltSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

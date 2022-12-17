@@ -1,9 +1,12 @@
-def StreamError():
-    '''public StreamError(final String code)
+def ():
+    '''returns StreamError\n\n
+    (final String code)\n
     '''
 def getCode():
-    '''public String getCode()
+    '''returns String\n\n
+    getCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

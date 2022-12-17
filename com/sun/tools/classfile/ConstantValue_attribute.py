@@ -1,7 +1,5 @@
-def ConstantValue_attribute():
-    '''public ConstantValue_attribute(final ConstantPool constantPool, final int n)
-    public ConstantValue_attribute(final int n, final int constantvalue_index)
-    '''
-def accept():
-    '''public <R, D> R accept(final Visitor<R, D> visitor, final D n)
+def ():
+    '''returns ConstantValue_attribute\n\n
+    (final ConstantPool constantPool, final int n)\n
+    (final int n, final int constantvalue_index)\n
     '''

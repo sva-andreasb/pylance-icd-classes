@@ -1,31 +1,31 @@
-def OP():
-    '''public OP(final InputStream inputStream)
-    public OP(final InputStream inputStream, final boolean b)
-    public OP(final InputStream inputStream, final a... array)
-    public OP(final InputStream inputStream, final boolean dp, final a... array)
+def ():
+    '''returns OP\n\n
+    (final InputStream inputStream)\n
+    (final InputStream inputStream, final boolean b)\n
+    (final InputStream inputStream, final a... array)\n
+    (final InputStream inputStream, final boolean dp, final a... array)\n
     '''
 def hasBOM():
-    '''public boolean hasBOM()
+    '''returns boolean\n\n
+    hasBOM()\n
     '''
 def a():
-    '''public boolean a(final a a)
-    public a a()
-    public int a(final a a, final a a2)
+    '''returns int\n\n
+    a(final a a)\n
+    a()\n
+    a(final a a, final a a2)\n
     '''
 def getBOMCharsetName():
-    '''public String getBOMCharsetName()
+    '''returns String\n\n
+    getBOMCharsetName()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] buf, int off, int len)
-    public int read(final byte[] buf)
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns int\n\n
+    read()\n
+    read(final byte[] buf, int off, int len)\n
+    read(final byte[] buf)\n
     '''
 def skip():
-    '''public long skip(long n)
+    '''returns long\n\n
+    skip(long n)\n
     '''

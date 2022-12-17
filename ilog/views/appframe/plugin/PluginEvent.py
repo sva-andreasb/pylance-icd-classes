@@ -4,14 +4,18 @@ PLUGIN_INSTALLED = "int  201"
 PLUGIN_UNINSTALLED = "int  202"
 PLUGIN_LAST = "int  202"
 def getPlugin():
-    '''public IlvPlugin getPlugin()
+    '''returns IlvPlugin\n\n
+    getPlugin()\n
     '''
 def getID():
-    '''public int getID()
+    '''returns int\n\n
+    getID()\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def getException():
-    '''public IlvPluginException getException()
+    '''returns IlvPluginException\n\n
+    getException()\n
     '''

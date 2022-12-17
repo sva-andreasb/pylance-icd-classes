@@ -1,4 +1,5 @@
 def getGuid():
-    '''public String getGuid(final String productName, final String mfName, final String hostName)
-    public String getGuid(final String mssName)
+    '''returns String\n\n
+    getGuid(final String productName, final String mfName, final String hostName)\n
+    getGuid(final String mssName)\n
     '''

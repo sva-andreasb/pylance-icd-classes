@@ -1,15 +1,20 @@
-def MyActivityBar():
-    '''public MyActivityBar()
+def ():
+    '''returns MyActivityBar\n\n
+    ()\n
     '''
 def draw():
-    '''public void draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns None\n\n
+    draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''
 def getToolTipCenterText():
-    '''public String getToolTipCenterText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipCenterText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def getToolTipStartText():
-    '''public String getToolTipStartText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipStartText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def getToolTipEndText():
-    '''public String getToolTipEndText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipEndText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''

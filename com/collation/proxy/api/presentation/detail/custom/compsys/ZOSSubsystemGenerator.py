@@ -1,3 +1,4 @@
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''

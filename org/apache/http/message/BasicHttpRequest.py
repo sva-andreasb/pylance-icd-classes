@@ -1,14 +1,18 @@
-def BasicHttpRequest():
-    '''public BasicHttpRequest(final String method, final String uri)
-    public BasicHttpRequest(final String method, final String uri, final ProtocolVersion ver)
-    public BasicHttpRequest(final RequestLine requestline)
+def ():
+    '''returns BasicHttpRequest\n\n
+    (final String method, final String uri)\n
+    (final String method, final String uri, final ProtocolVersion ver)\n
+    (final RequestLine requestline)\n
     '''
 def getProtocolVersion():
-    '''public ProtocolVersion getProtocolVersion()
+    '''returns ProtocolVersion\n\n
+    getProtocolVersion()\n
     '''
 def getRequestLine():
-    '''public RequestLine getRequestLine()
+    '''returns RequestLine\n\n
+    getRequestLine()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

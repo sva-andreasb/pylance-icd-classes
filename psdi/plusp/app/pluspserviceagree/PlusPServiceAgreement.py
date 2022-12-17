@@ -1,48 +1,63 @@
-def PlusPServiceAgreement():
-    '''public PlusPServiceAgreement(final MboSet ms)
+def ():
+    '''returns PlusPServiceAgreement\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
-    public MboRemote duplicate(final boolean b)
+    '''returns MboRemote\n\n
+    duplicate()\n
+    duplicate(final boolean b)\n
     '''
 def getIdField():
-    '''public String getIdField()
+    '''returns String\n\n
+    getIdField()\n
     '''
 def enableFields():
-    '''public void enableFields(final String s)
+    '''returns None\n\n
+    enableFields(final String s)\n
     '''
 def addAssets():
-    '''public void addAssets(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    addAssets(final MboSetRemote mboSetRemote)\n
     '''
 def addLocations():
-    '''public void addLocations(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    addLocations(final MboSetRemote mboSetRemote)\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def getObjectBaseName():
-    '''public String getObjectBaseName(final String s)
-    public String getObjectBaseName()
+    '''returns String\n\n
+    getObjectBaseName(final String s)\n
+    getObjectBaseName()\n
     '''
 def isTicketOrWO():
-    '''public boolean isTicketOrWO(final String s)
-    public boolean isTicketOrWO()
+    '''returns boolean\n\n
+    isTicketOrWO(final String s)\n
+    isTicketOrWO()\n
     '''
 def addRecordsToPoolItems():
-    '''public void addRecordsToPoolItems(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    addRecordsToPoolItems(final MboSetRemote mboSetRemote)\n
     '''

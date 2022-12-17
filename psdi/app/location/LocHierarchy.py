@@ -1,63 +1,84 @@
-def LocHierarchy():
-    '''public LocHierarchy(final MboSet ms)
+def ():
+    '''returns LocHierarchy\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def isNetworked():
-    '''public boolean isNetworked()
+    '''returns boolean\n\n
+    isNetworked()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def connectLocationAndChildrenToParent():
-    '''public void connectLocationAndChildrenToParent()
+    '''returns None\n\n
+    connectLocationAndChildrenToParent()\n
     '''
 def disconnectLocationAndChildrenFromSystem():
-    '''public void disconnectLocationAndChildrenFromSystem()
+    '''returns None\n\n
+    disconnectLocationAndChildrenFromSystem()\n
     '''
 def makeLocationTopLevel():
-    '''public void makeLocationTopLevel()
+    '''returns None\n\n
+    makeLocationTopLevel()\n
     '''
 def getOwningLocSystem():
-    '''public MboRemote getOwningLocSystem()
+    '''returns MboRemote\n\n
+    getOwningLocSystem()\n
     '''
 def changeSysToNetworked():
-    '''public void changeSysToNetworked()
+    '''returns None\n\n
+    changeSysToNetworked()\n
     '''
 def getParents():
-    '''public MboSetRemote getParents()
+    '''returns MboSetRemote\n\n
+    getParents()\n
     '''
 def getChildren():
-    '''public MboSetRemote getChildren()
+    '''returns MboSetRemote\n\n
+    getChildren()\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''
 def getHierarchies():
-    '''public String[] getHierarchies()
+    '''returns String[]\n\n
+    getHierarchies()\n
     '''
 def getTop():
-    '''public MboSetRemote getTop()
+    '''returns MboSetRemote\n\n
+    getTop()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

@@ -1,24 +1,28 @@
 sid = "short  237"
 ENCODED_SIZE = "int  8"
-def DrawingSelectionRecord():
-    '''public DrawingSelectionRecord(final RecordInputStream in)
+def ():
+    '''returns OfficeArtRecordHeader\n\n
+    (final RecordInputStream in)\n
+    (final LittleEndianInput in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
-    public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def clone():
-    '''public DrawingSelectionRecord clone()
+    '''returns DrawingSelectionRecord\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def OfficeArtRecordHeader():
-    '''public OfficeArtRecordHeader(final LittleEndianInput in)
+    '''returns String\n\n
+    toString()\n
     '''
 def debugFormatAsString():
-    '''public String debugFormatAsString()
+    '''returns String\n\n
+    debugFormatAsString()\n
     '''

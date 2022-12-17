@@ -1,10 +1,13 @@
-def MonthlyShiftBucketDataSet():
-    '''public MonthlyShiftBucketDataSet(final String name)
-    public MonthlyShiftBucketDataSet()
+def ():
+    '''returns MonthlyShiftBucketDataSet\n\n
+    (final String name)\n
+    ()\n
     '''
 def calculateKey():
-    '''public String calculateKey(final Date date)
+    '''returns String\n\n
+    calculateKey(final Date date)\n
     '''
 def getNextKey():
-    '''public String getNextKey(final String key)
+    '''returns String\n\n
+    getNextKey(final String key)\n
     '''

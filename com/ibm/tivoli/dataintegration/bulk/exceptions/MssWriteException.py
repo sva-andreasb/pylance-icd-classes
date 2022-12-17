@@ -1,6 +1,7 @@
-def MssWriteException():
-    '''public MssWriteException()
-    public MssWriteException(final String msg)
-    public MssWriteException(final Throwable t)
-    public MssWriteException(final String msg, final Throwable t)
+def ():
+    '''returns MssWriteException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable t)\n
+    (final String msg, final Throwable t)\n
     '''

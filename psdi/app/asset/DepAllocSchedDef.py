@@ -1,3 +1,4 @@
-def DepAllocSchedDef():
-    '''public DepAllocSchedDef(final MboSet ms)
+def ():
+    '''returns DepAllocSchedDef\n\n
+    (final MboSet ms)\n
     '''

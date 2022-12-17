@@ -1,3 +1,4 @@
-def WeatherAllProducts():
-    '''public WeatherAllProducts(final MboSet ms)
+def ():
+    '''returns WeatherAllProducts\n\n
+    (final MboSet ms)\n
     '''

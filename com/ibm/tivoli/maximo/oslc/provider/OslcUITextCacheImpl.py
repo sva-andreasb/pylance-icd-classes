@@ -1,28 +1,26 @@
-def OslcUITextCacheImpl():
-    '''public OslcUITextCacheImpl()
+def ():
+    '''returns OslcUITextCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getUITextForAppPropertyID():
-    '''public String getUITextForAppPropertyID(final String app, final String property, final String id, final UserInfo userInfo)
-    public String getUITextForAppPropertyID(final String app, final String property, final String id, final UserInfo userInfo, final String langcode)
+    '''returns String\n\n
+    getUITextForAppPropertyID(final String app, final String property, final String id, final UserInfo userInfo)\n
+    getUITextForAppPropertyID(final String app, final String property, final String id, final UserInfo userInfo, final String langcode)\n
     '''
 def isSupportedLangCode():
-    '''public boolean isSupportedLangCode(final String langCode)
-    '''
-def getUITextForAppProperty():
-    '''public Map<String, String> getUITextForAppProperty(final String app, final String property, final UserInfo userInfo)
-    public Map<String, String> getUITextForAppProperty(final String app, final String property, final UserInfo userInfo, final String langcode)
-    '''
-def getUITextForApp():
-    '''public Map<String, Map<String, String>> getUITextForApp(final String app, final UserInfo userInfo)
-    public Map<String, Map<String, String>> getUITextForApp(final String app, final UserInfo userInfo, final String langcode)
+    '''returns boolean\n\n
+    isSupportedLangCode(final String langCode)\n
     '''

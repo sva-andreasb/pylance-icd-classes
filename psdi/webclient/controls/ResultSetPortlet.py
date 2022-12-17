@@ -1,135 +1,180 @@
-def ResultSetPortlet():
-    '''public ResultSetPortlet()
+def ():
+    '''returns ResultSetPortlet\n\n
+    ()\n
     '''
 def getResultSet():
-    '''public MboSetData getResultSet()
+    '''returns MboSetData\n\n
+    getResultSet()\n
     '''
 def getResultMboSetInfo():
-    '''public MboSetInfo getResultMboSetInfo()
+    '''returns MboSetInfo\n\n
+    getResultMboSetInfo()\n
     '''
 def getConfigMboSetInfo():
-    '''public MboSetInfo getConfigMboSetInfo()
+    '''returns MboSetInfo\n\n
+    getConfigMboSetInfo()\n
     '''
 def generateGraphData():
-    '''public ArrayList generateGraphData()
+    '''returns ArrayList\n\n
+    generateGraphData()\n
     '''
 def getNoOfRecords():
-    '''public int getNoOfRecords()
+    '''returns int\n\n
+    getNoOfRecords()\n
     '''
 def getKeyColumn():
-    '''public String getKeyColumn()
+    '''returns String\n\n
+    getKeyColumn()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def getResultSetAttributes():
-    '''public Vector getResultSetAttributes()
+    '''returns Vector\n\n
+    getResultSetAttributes()\n
     '''
 def getSortAttribute():
-    '''public String getSortAttribute(final String sortIndex)
+    '''returns String\n\n
+    getSortAttribute(final String sortIndex)\n
     '''
 def getApp():
-    '''public String getApp()
+    '''returns String\n\n
+    getApp()\n
     '''
 def isSiteError():
-    '''public boolean isSiteError()
+    '''returns boolean\n\n
+    isSiteError()\n
     '''
 def getConditions():
-    '''public HashSet getConditions()
+    '''returns HashSet\n\n
+    getConditions()\n
     '''
 def getConditionAttribute():
-    '''public String getConditionAttribute()
+    '''returns String\n\n
+    getConditionAttribute()\n
     '''
 def getGroupByAttribute():
-    '''public String[] getGroupByAttribute()
+    '''returns String[]\n\n
+    getGroupByAttribute()\n
     '''
 def compareValues():
-    '''public String compareValues(final MboValueData mvd)
+    '''returns String\n\n
+    compareValues(final MboValueData mvd)\n
     '''
 def getGraphDetails():
-    '''public Properties getGraphDetails()
+    '''returns Properties\n\n
+    getGraphDetails()\n
     '''
 def getFilterWhere():
-    '''public String getFilterWhere(final String rsKey)
+    '''returns String\n\n
+    getFilterWhere(final String rsKey)\n
     '''
 def setUpDefaults():
-    '''public void setUpDefaults()
+    '''returns None\n\n
+    setUpDefaults()\n
     '''
 def setQbes():
-    '''public void setQbes(final String qbeKeyValuePair)
+    '''returns None\n\n
+    setQbes(final String qbeKeyValuePair)\n
     '''
 def getQbeSetting():
-    '''public String getQbeSetting(final String attribName)
+    '''returns String\n\n
+    getQbeSetting(final String attribName)\n
     '''
 def clearfilter():
-    '''public int clearfilter()
+    '''returns int\n\n
+    clearfilter()\n
     '''
 def isFilterSet():
-    '''public boolean isFilterSet()
+    '''returns boolean\n\n
+    isFilterSet()\n
     '''
 def queryExists():
-    '''public boolean queryExists()
+    '''returns boolean\n\n
+    queryExists()\n
     '''
 def getLabels():
-    '''public String[] getLabels()
+    '''returns String[]\n\n
+    getLabels()\n
     '''
 def changeview():
-    '''public void changeview()
+    '''returns None\n\n
+    changeview()\n
     '''
 def rsdisplay():
-    '''public int rsdisplay()
+    '''returns int\n\n
+    rsdisplay()\n
     '''
 def setqbeandfilter():
-    '''public void setqbeandfilter()
+    '''returns None\n\n
+    setqbeandfilter()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def hasViewChanged():
-    '''public boolean hasViewChanged()
+    '''returns boolean\n\n
+    hasViewChanged()\n
     '''
 def setViewChanged():
-    '''public void setViewChanged(final boolean flag)
+    '''returns None\n\n
+    setViewChanged(final boolean flag)\n
     '''
 def openrecord():
-    '''public void openrecord()
+    '''returns None\n\n
+    openrecord()\n
     '''
 def gotoportletapp():
-    '''public void gotoportletapp()
+    '''returns None\n\n
+    gotoportletapp()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def errorInPortlet():
-    '''public String errorInPortlet()
+    '''returns String\n\n
+    errorInPortlet()\n
     '''
 def getGraphError():
-    '''public String getGraphError()
+    '''returns String\n\n
+    getGraphError()\n
     '''
 def showrsdata():
-    '''public void showrsdata()
+    '''returns None\n\n
+    showrsdata()\n
     '''
 def togglefilter():
-    '''public void togglefilter()
+    '''returns None\n\n
+    togglefilter()\n
     '''
 def isFilterOpen():
-    '''public String isFilterOpen()
+    '''returns String\n\n
+    isFilterOpen()\n
     '''
 def setFilterToggled():
-    '''public void setFilterToggled(final boolean flag)
+    '''returns None\n\n
+    setFilterToggled(final boolean flag)\n
     '''
 def setErrorCondition():
-    '''public void setErrorCondition(final boolean flag)
+    '''returns None\n\n
+    setErrorCondition(final boolean flag)\n
     '''
 def getErrorCondition():
-    '''public boolean getErrorCondition()
+    '''returns boolean\n\n
+    getErrorCondition()\n
     '''
 def getNonPersistentColumns():
-    '''public ArrayList getNonPersistentColumns()
+    '''returns ArrayList\n\n
+    getNonPersistentColumns()\n
     '''
 def canDownloadcsv():
-    '''public Object canDownloadcsv()
+    '''returns Object\n\n
+    canDownloadcsv()\n
     '''
 def getQueryMboSet():
-    '''public MboSetRemote getQueryMboSet(final String orderby)
+    '''returns MboSetRemote\n\n
+    getQueryMboSet(final String orderby)\n
     '''

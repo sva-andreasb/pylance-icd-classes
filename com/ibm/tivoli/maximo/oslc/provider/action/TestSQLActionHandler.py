@@ -1,15 +1,16 @@
 def action():
-    '''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
+    '''returns OslcResourceResponse\n\n
+    action(final OslcRequest request, final byte[] actionData)\n
     '''
 def isGET():
-    '''public boolean isGET()
+    '''returns boolean\n\n
+    isGET()\n
     '''
 def getRequestSchema():
-    '''public JSONObject getRequestSchema()
-    '''
-def getRequestHeaders():
-    '''public Map<String, RESTParamInfo> getRequestHeaders()
+    '''returns JSONObject\n\n
+    getRequestSchema()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''

@@ -1,3 +1,4 @@
-def IQProviderInfo():
-    '''public IQProviderInfo(final String elementName, final String namespace, final IQProvider<IQ> iqProvider)
+def ():
+    '''returns IQProviderInfo\n\n
+    (final String elementName, final String namespace, final IQProvider<IQ> iqProvider)\n
     '''

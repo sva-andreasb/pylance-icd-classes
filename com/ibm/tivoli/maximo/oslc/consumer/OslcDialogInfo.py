@@ -1,15 +1,20 @@
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getHintWidth():
-    '''public String getHintWidth()
+    '''returns String\n\n
+    getHintWidth()\n
     '''
 def getHintHeight():
-    '''public String getHintHeight()
+    '''returns String\n\n
+    getHintHeight()\n
     '''
 def getUri():
-    '''public String getUri()
+    '''returns String\n\n
+    getUri()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''

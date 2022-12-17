@@ -1,3 +1,4 @@
-def MaxObjectSet():
-    '''public MaxObjectSet(final MboServerInterface ms)
+def ():
+    '''returns MaxObjectSet\n\n
+    (final MboServerInterface ms)\n
     '''

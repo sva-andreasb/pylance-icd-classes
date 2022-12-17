@@ -1,6 +1,8 @@
-def IMPDEP1():
-    '''public IMPDEP1()
+def ():
+    '''returns IMPDEP1\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

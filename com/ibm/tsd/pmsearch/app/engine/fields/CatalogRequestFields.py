@@ -1,19 +1,25 @@
 FIELDNAME = "String  \"PMSCCR\""
-def CatalogRequestFields():
-    '''public CatalogRequestFields()
+def ():
+    '''returns CatalogRequestFields\n\n
+    ()\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def getValues():
-    '''public Collection<String> getValues()
+    '''returns Collection<String>\n\n
+    getValues()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def hasAttachment():
-    '''public boolean hasAttachment()
+    '''returns boolean\n\n
+    hasAttachment()\n
     '''
 def isRTE():
-    '''public boolean isRTE(final String field)
+    '''returns boolean\n\n
+    isRTE(final String field)\n
     '''

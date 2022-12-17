@@ -46,6 +46,3 @@ SC_SERVICE_UNAVAILABLE = "int  503"
 SC_GATEWAY_TIMEOUT = "int  504"
 SC_HTTP_VERSION_NOT_SUPPORTED = "int  505"
 SC_INSUFFICIENT_STORAGE = "int  507"
-def getStatusText():
-    '''public static String getStatusText(final int statusCode)
-    '''

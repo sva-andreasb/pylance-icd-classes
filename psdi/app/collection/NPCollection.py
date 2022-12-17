@@ -1,6 +1,8 @@
-def NPCollection():
-    '''public NPCollection(final MboSet ms)
+def ():
+    '''returns NPCollection\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

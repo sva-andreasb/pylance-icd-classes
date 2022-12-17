@@ -1,39 +1,48 @@
-def CapabilityComp():
-    '''public CapabilityComp(final STSession stSession)
+def ():
+    '''returns CapabilityComp\n\n
+    (final STSession stSession)\n
     '''
 def removeCapabilitiesServiceListener():
-    '''public void removeCapabilitiesServiceListener(final CapabilitiesServiceListener obj)
-    '''
-def addCapabilitiesServiceListener():
-    '''public synchronized void addCapabilitiesServiceListener(final CapabilitiesServiceListener obj)
+    '''returns None\n\n
+    removeCapabilitiesServiceListener(final CapabilitiesServiceListener obj)\n
     '''
 def setMyCapability():
-    '''public void setMyCapability(final int i, final byte[] array)
+    '''returns None\n\n
+    setMyCapability(final int i, final byte[] array)\n
     '''
 def removeMyCapability():
-    '''public void removeMyCapability(final int i)
+    '''returns None\n\n
+    removeMyCapability(final int i)\n
     '''
 def subscribeToMyCapability():
-    '''public void subscribeToMyCapability(final int i)
+    '''returns None\n\n
+    subscribeToMyCapability(final int i)\n
     '''
 def unSubscribeFromMyCapability():
-    '''public void unSubscribeFromMyCapability(final int i)
+    '''returns None\n\n
+    unSubscribeFromMyCapability(final int i)\n
     '''
 def subscribeToUserCapability():
-    '''public void subscribeToUserCapability(final STUser obj, final int i)
+    '''returns None\n\n
+    subscribeToUserCapability(final STUser obj, final int i)\n
     '''
 def unSubscribeFromUserCapability():
-    '''public void unSubscribeFromUserCapability(final STUser obj, final int i)
+    '''returns None\n\n
+    unSubscribeFromUserCapability(final STUser obj, final int i)\n
     '''
 def subscribeToGroupCapability():
-    '''public void subscribeToGroupCapability(final STGroup stGroup, final int n)
+    '''returns None\n\n
+    subscribeToGroupCapability(final STGroup stGroup, final int n)\n
     '''
 def unSubscribeFromUser():
-    '''public void unSubscribeFromUser(final STUser stUser)
+    '''returns None\n\n
+    unSubscribeFromUser(final STUser stUser)\n
     '''
 def unSubscribeFromGroup():
-    '''public void unSubscribeFromGroup(final STGroup stGroup)
+    '''returns None\n\n
+    unSubscribeFromGroup(final STGroup stGroup)\n
     '''
 def unSubscribeFromGroupCapability():
-    '''public void unSubscribeFromGroupCapability(final STGroup stGroup, final int n)
+    '''returns None\n\n
+    unSubscribeFromGroupCapability(final STGroup stGroup, final int n)\n
     '''

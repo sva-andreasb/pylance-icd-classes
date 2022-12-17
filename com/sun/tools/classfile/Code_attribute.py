@@ -1,36 +1,44 @@
 def getByte():
-    '''public int getByte(final int n)
+    '''returns int\n\n
+    getByte(final int n)\n
     '''
 def getUnsignedByte():
-    '''public int getUnsignedByte(final int n)
+    '''returns int\n\n
+    getUnsignedByte(final int n)\n
     '''
 def getShort():
-    '''public int getShort(final int n)
+    '''returns int\n\n
+    getShort(final int n)\n
     '''
 def getUnsignedShort():
-    '''public int getUnsignedShort(final int n)
+    '''returns int\n\n
+    getUnsignedShort(final int n)\n
     '''
 def getInt():
-    '''public int getInt(final int n)
-    '''
-def accept():
-    '''public <R, D> R accept(final Visitor<R, D> visitor, final D n)
+    '''returns int\n\n
+    getInt(final int n)\n
     '''
 def getInstructions():
-    '''public Iterable<Instruction> getInstructions()
+    '''returns Iterable<Instruction>\n\n
+    getInstructions()\n
     '''
 def iterator():
-    '''public Iterator<Instruction> iterator()
+    '''returns Iterator<Instruction>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Instruction next()
+    '''returns Instruction\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

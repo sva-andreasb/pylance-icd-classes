@@ -1,9 +1,12 @@
-def CROSSOVERDomainInfo():
-    '''public CROSSOVERDomainInfo(final long id)
+def ():
+    '''returns CROSSOVERDomainInfo\n\n
+    (final long id)\n
     '''
 def getDomainObject():
-    '''public MboValueListener getDomainObject(final MboValue mbv)
+    '''returns MboValueListener\n\n
+    getDomainObject(final MboValue mbv)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

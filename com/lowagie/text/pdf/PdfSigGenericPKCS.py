@@ -1,30 +1,30 @@
-def PdfSigGenericPKCS():
-    '''public PdfSigGenericPKCS(final PdfName filter, final PdfName subFilter)
+def ():
+    '''returns PPKMS\n\n
+    (final PdfName filter, final PdfName subFilter)\n
+    ()\n
+    (final String provider)\n
+    ()\n
+    (final String provider)\n
+    ()\n
+    (final String provider)\n
     '''
 def setSignInfo():
-    '''public void setSignInfo(final PrivateKey privKey, final Certificate[] certChain, final CRL[] crlList)
+    '''returns None\n\n
+    setSignInfo(final PrivateKey privKey, final Certificate[] certChain, final CRL[] crlList)\n
     '''
 def setExternalDigest():
-    '''public void setExternalDigest(final byte[] digest, final byte[] RSAdata, final String digestEncryptionAlgorithm)
+    '''returns None\n\n
+    setExternalDigest(final byte[] digest, final byte[] RSAdata, final String digestEncryptionAlgorithm)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSigner():
-    '''public PdfPKCS7 getSigner()
+    '''returns PdfPKCS7\n\n
+    getSigner()\n
     '''
 def getSignerContents():
-    '''public byte[] getSignerContents()
-    '''
-def VeriSign():
-    '''public VeriSign()
-    public VeriSign(final String provider)
-    '''
-def PPKLite():
-    '''public PPKLite()
-    public PPKLite(final String provider)
-    '''
-def PPKMS():
-    '''public PPKMS()
-    public PPKMS(final String provider)
+    '''returns byte[]\n\n
+    getSignerContents()\n
     '''

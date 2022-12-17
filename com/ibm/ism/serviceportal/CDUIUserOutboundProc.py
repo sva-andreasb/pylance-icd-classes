@@ -1,18 +1,24 @@
-def CDUIUserOutboundProc():
-    '''public CDUIUserOutboundProc()
+def ():
+    '''returns CDUIUserOutboundProc\n\n
+    ()\n
     '''
 def filterByPerson():
-    '''public void filterByPerson(final MboSetRemote mboSet, final String statusList, final String text)
+    '''returns None\n\n
+    filterByPerson(final MboSetRemote mboSet, final String statusList, final String text)\n
     '''
 def filterByUser():
-    '''public void filterByUser(final MboSetRemote mboSet, final String userList, final String statusList, final String text)
+    '''returns None\n\n
+    filterByUser(final MboSetRemote mboSet, final String userList, final String statusList, final String text)\n
     '''
 def filterByNotUser():
-    '''public void filterByNotUser(final MboSetRemote mboSet, final String userList, final String statusList, final String text)
+    '''returns None\n\n
+    filterByNotUser(final MboSetRemote mboSet, final String userList, final String statusList, final String text)\n
     '''
 def updateUserInfo():
-    '''public void updateUserInfo(final MboSetRemote mboSet, final String langCode)
+    '''returns None\n\n
+    updateUserInfo(final MboSetRemote mboSet, final String langCode)\n
     '''
 def isSupportedLangCode():
-    '''public boolean isSupportedLangCode(final String langCode)
+    '''returns boolean\n\n
+    isSupportedLangCode(final String langCode)\n
     '''

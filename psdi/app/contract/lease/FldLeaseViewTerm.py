@@ -1,6 +1,8 @@
-def FldLeaseViewTerm():
-    '''public FldLeaseViewTerm(final MboValue mbv)
+def ():
+    '''returns FldLeaseViewTerm\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

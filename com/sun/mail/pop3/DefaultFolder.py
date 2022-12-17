@@ -1,60 +1,80 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getFullName():
-    '''public String getFullName()
+    '''returns String\n\n
+    getFullName()\n
     '''
 def getParent():
-    '''public Folder getParent()
+    '''returns Folder\n\n
+    getParent()\n
     '''
 def exists():
-    '''public boolean exists()
+    '''returns boolean\n\n
+    exists()\n
     '''
 def list():
-    '''public Folder[] list(final String s)
+    '''returns Folder[]\n\n
+    list(final String s)\n
     '''
 def getSeparator():
-    '''public char getSeparator()
+    '''returns char\n\n
+    getSeparator()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def create():
-    '''public boolean create(final int n)
+    '''returns boolean\n\n
+    create(final int n)\n
     '''
 def hasNewMessages():
-    '''public boolean hasNewMessages()
+    '''returns boolean\n\n
+    hasNewMessages()\n
     '''
 def getFolder():
-    '''public Folder getFolder(final String s)
+    '''returns Folder\n\n
+    getFolder(final String s)\n
     '''
 def delete():
-    '''public boolean delete(final boolean b)
+    '''returns boolean\n\n
+    delete(final boolean b)\n
     '''
 def renameTo():
-    '''public boolean renameTo(final Folder folder)
+    '''returns boolean\n\n
+    renameTo(final Folder folder)\n
     '''
 def open():
-    '''public void open(final int n)
+    '''returns None\n\n
+    open(final int n)\n
     '''
 def close():
-    '''public void close(final boolean b)
+    '''returns None\n\n
+    close(final boolean b)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def getPermanentFlags():
-    '''public Flags getPermanentFlags()
+    '''returns Flags\n\n
+    getPermanentFlags()\n
     '''
 def getMessageCount():
-    '''public int getMessageCount()
+    '''returns int\n\n
+    getMessageCount()\n
     '''
 def getMessage():
-    '''public Message getMessage(final int n)
+    '''returns Message\n\n
+    getMessage(final int n)\n
     '''
 def appendMessages():
-    '''public void appendMessages(final Message[] array)
+    '''returns None\n\n
+    appendMessages(final Message[] array)\n
     '''
 def expunge():
-    '''public Message[] expunge()
+    '''returns Message[]\n\n
+    expunge()\n
     '''

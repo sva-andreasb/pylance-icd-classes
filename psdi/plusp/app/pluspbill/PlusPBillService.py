@@ -1,46 +1,53 @@
-def PlusPBillService():
-    '''public PlusPBillService()
-    public PlusPBillService(final MXServer mxServer)
+def ():
+    '''returns PlusPBillService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def updateBillBatchStatus():
-    '''public PlusPBillBatchRemote updateBillBatchStatus(@WSMboKey("PLUSPBILLBATCH") final PlusPBillBatchRemote plusPBillBatchRemote, final String s, final String[] array, final boolean b)
+    '''returns PlusPBillBatchRemote\n\n
+    updateBillBatchStatus(@WSMboKey("PLUSPBILLBATCH") final PlusPBillBatchRemote plusPBillBatchRemote, final String s, final String[] array, final boolean b)\n
     '''
 def approveBillLines():
-    '''public PlusPBillBatchRemote approveBillLines(@WSMboKey("PLUSPBILLBATCH") final PlusPBillBatchRemote plusPBillBatchRemote, final String s)
+    '''returns PlusPBillBatchRemote\n\n
+    approveBillLines(@WSMboKey("PLUSPBILLBATCH") final PlusPBillBatchRemote plusPBillBatchRemote, final String s)\n
     '''
 def setLastWhereForGroupBy():
-    '''public PlusPBillBatchRemote setLastWhereForGroupBy(final PlusPBillBatchRemote plusPBillBatchRemote, final String anObject, final String val)
+    '''returns PlusPBillBatchRemote\n\n
+    setLastWhereForGroupBy(final PlusPBillBatchRemote plusPBillBatchRemote, final String anObject, final String val)\n
     '''
 def addCopyThread():
-    '''public void addCopyThread(final long l, final ExecutorService value)
+    '''returns None\n\n
+    addCopyThread(final long l, final ExecutorService value)\n
     '''
 def stopCopyThread():
-    '''public void stopCopyThread(final long l, final String value)
+    '''returns None\n\n
+    stopCopyThread(final long l, final String value)\n
     '''
 def getResetRequestedBy():
-    '''public String getResetRequestedBy(final long l)
+    '''returns String\n\n
+    getResetRequestedBy(final long l)\n
     '''
 def finishBackgroundCopy():
-    '''public ExecutorService finishBackgroundCopy(final long l)
+    '''returns ExecutorService\n\n
+    finishBackgroundCopy(final long l)\n
     '''
 def warnIfValueInBatchGrouped():
-    '''public void warnIfValueInBatchGrouped(final MboValue mboValue, final String anObject)
+    '''returns None\n\n
+    warnIfValueInBatchGrouped(final MboValue mboValue, final String anObject)\n
     '''
 def billedPriceAdjustment():
-    '''public double billedPriceAdjustment(final double n, final double n2)
-    '''
-def agreementHasOpenBB():
-    '''public static boolean agreementHasOpenBB(final String val, final String val2, final UserInfo user)
-    '''
-def changeMboReadOnlyByAllFieldsReadOnly():
-    '''public static void changeMboReadOnlyByAllFieldsReadOnly(final MboRemote mboRemote)
+    '''returns double\n\n
+    billedPriceAdjustment(final double n, final double n2)\n
     '''
 def validateOrdersListToCreateBillBatch():
-    '''public void validateOrdersListToCreateBillBatch(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    validateOrdersListToCreateBillBatch(final MboSetRemote mboSetRemote)\n
     '''
 def validateOrderToCreateBillBatch():
-    '''public void validateOrderToCreateBillBatch(final MboRemote mboRemote)
+    '''returns None\n\n
+    validateOrderToCreateBillBatch(final MboRemote mboRemote)\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("PLUSPBILLBATCH") final PlusPBillBatchRemote plusPBillBatchRemote, final String s, final Date date, final String s2)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("PLUSPBILLBATCH") final PlusPBillBatchRemote plusPBillBatchRemote, final String s, final Date date, final String s2)\n
     '''

@@ -1,27 +1,36 @@
-def CSSIdCondition():
-    '''public CSSIdCondition(final String ns, final String ln, final String value)
+def ():
+    '''returns CSSIdCondition\n\n
+    (final String ns, final String ln, final String value)\n
     '''
 def getConditionType():
-    '''public short getConditionType()
+    '''returns short\n\n
+    getConditionType()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def getSpecified():
-    '''public boolean getSpecified()
+    '''returns boolean\n\n
+    getSpecified()\n
     '''
 def match():
-    '''public boolean match(final Element e, final String pseudoE)
+    '''returns boolean\n\n
+    match(final Element e, final String pseudoE)\n
     '''
 def fillAttributeSet():
-    '''public void fillAttributeSet(final Set attrSet)
+    '''returns None\n\n
+    fillAttributeSet(final Set attrSet)\n
     '''
 def getSpecificity():
-    '''public int getSpecificity()
+    '''returns int\n\n
+    getSpecificity()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

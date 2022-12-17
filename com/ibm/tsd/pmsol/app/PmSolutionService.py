@@ -1,4 +1,5 @@
-def PmSolutionService():
-    '''public PmSolutionService()
-    public PmSolutionService(final MXServer mxServer)
+def ():
+    '''returns PmSolutionService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

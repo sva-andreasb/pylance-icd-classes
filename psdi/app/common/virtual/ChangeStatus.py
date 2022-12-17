@@ -1,10 +1,13 @@
-def ChangeStatus():
-    '''public ChangeStatus(final MboSet ms)
+def ():
+    '''returns ChangeStatus\n\n
+    (final MboSet ms)\n
     '''
 def sigopGranted():
-    '''public boolean sigopGranted(final String optionname)
-    public boolean sigopGranted(final String app, final String optionname)
+    '''returns boolean\n\n
+    sigopGranted(final String optionname)\n
+    sigopGranted(final String app, final String optionname)\n
     '''
 def getSiteOrg():
-    '''public String[] getSiteOrg()
+    '''returns String[]\n\n
+    getSiteOrg()\n
     '''

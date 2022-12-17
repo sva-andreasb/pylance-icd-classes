@@ -1,37 +1,49 @@
-def InvCost():
-    '''public InvCost(final MboSet ms)
+def ():
+    '''returns InvCost\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def updateAverageCost():
-    '''public void updateAverageCost(final double quantity, final double totalvalue, final double exr)
-    public void updateAverageCost(final double quantity, final double totalvalue, final double exr, final boolean transferWithinStore)
+    '''returns None\n\n
+    updateAverageCost(final double quantity, final double totalvalue, final double exr)\n
+    updateAverageCost(final double quantity, final double totalvalue, final double exr, final boolean transferWithinStore)\n
     '''
 def updateLastCost():
-    '''public void updateLastCost(final double value)
+    '''returns None\n\n
+    updateLastCost(final double value)\n
     '''
 def adjustAverageCost():
-    '''public MboRemote adjustAverageCost(final double newcost)
+    '''returns MboRemote\n\n
+    adjustAverageCost(final double newcost)\n
     '''
 def adjustStandardCost():
-    '''public MboRemote adjustStandardCost(final double newcost)
+    '''returns MboRemote\n\n
+    adjustStandardCost(final double newcost)\n
     '''
 def createInvTrans():
-    '''public MboRemote createInvTrans(final double old_cost, final double newcost, final String costType)
+    '''returns MboRemote\n\n
+    createInvTrans(final double old_cost, final double newcost, final String costType)\n
     '''
 def getDefaultIssueCost():
-    '''public double getDefaultIssueCost()
+    '''returns double\n\n
+    getDefaultIssueCost()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''

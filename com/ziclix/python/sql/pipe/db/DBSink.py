@@ -1,12 +1,16 @@
-def DBSink():
-    '''public DBSink(final PyConnection connection, final Class dataHandler, final String tableName, final PyObject exclude, final PyObject bindings, final int batchsize)
+def ():
+    '''returns DBSink\n\n
+    (final PyConnection connection, final Class dataHandler, final String tableName, final PyObject exclude, final PyObject bindings, final int batchsize)\n
     '''
 def row():
-    '''public void row(final PyObject row)
+    '''returns None\n\n
+    row(final PyObject row)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

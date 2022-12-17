@@ -1,24 +1,23 @@
 ELEMENT = "String  \"stanza-id\""
 ATTR_BY = "String  \"by\""
-def StanzaIdElement():
-    '''public StanzaIdElement(final String by)
-    public StanzaIdElement(final String id, final String by)
-    '''
-def hasStanzaId():
-    '''public static boolean hasStanzaId(final Message message)
-    '''
-def getStanzaId():
-    '''public static StanzaIdElement getStanzaId(final Message message)
+def ():
+    '''returns StanzaIdElement\n\n
+    (final String by)\n
+    (final String id, final String by)\n
     '''
 def getBy():
-    '''public String getBy()
+    '''returns String\n\n
+    getBy()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

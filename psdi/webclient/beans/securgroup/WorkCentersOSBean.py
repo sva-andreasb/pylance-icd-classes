@@ -1,9 +1,8 @@
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-    '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def allsigoauthorized():
-    '''public int allsigoauthorized()
+    '''returns int\n\n
+    allsigoauthorized()\n
     '''

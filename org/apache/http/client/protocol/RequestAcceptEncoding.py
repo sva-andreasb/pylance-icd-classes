@@ -1,7 +1,9 @@
-def RequestAcceptEncoding():
-    '''public RequestAcceptEncoding(final List<String> encodings)
-    public RequestAcceptEncoding()
+def ():
+    '''returns RequestAcceptEncoding\n\n
+    (final List<String> encodings)\n
+    ()\n
     '''
 def process():
-    '''public void process(final HttpRequest request, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpRequest request, final HttpContext context)\n
     '''

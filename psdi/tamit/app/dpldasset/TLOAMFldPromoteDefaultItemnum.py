@@ -1,6 +1,8 @@
-def TLOAMFldPromoteDefaultItemnum():
-    '''public TLOAMFldPromoteDefaultItemnum(final MboValue mbv)
+def ():
+    '''returns TLOAMFldPromoteDefaultItemnum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

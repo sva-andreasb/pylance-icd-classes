@@ -1,3 +1,4 @@
-def POSet():
-    '''public POSet(final MboServerInterface ms)
+def ():
+    '''returns POSet\n\n
+    (final MboServerInterface ms)\n
     '''

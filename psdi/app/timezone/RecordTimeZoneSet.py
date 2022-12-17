@@ -1,3 +1,4 @@
-def RecordTimeZoneSet():
-    '''public RecordTimeZoneSet(final MboServerInterface ms)
+def ():
+    '''returns RecordTimeZoneSet\n\n
+    (final MboServerInterface ms)\n
     '''

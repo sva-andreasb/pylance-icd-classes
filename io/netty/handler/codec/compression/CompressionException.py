@@ -1,6 +1,7 @@
-def CompressionException():
-    '''public CompressionException()
-    public CompressionException(final String message, final Throwable cause)
-    public CompressionException(final String message)
-    public CompressionException(final Throwable cause)
+def ():
+    '''returns CompressionException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

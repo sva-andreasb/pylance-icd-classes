@@ -1,3 +1,4 @@
 def testSingle():
-    '''public void testSingle()
+    '''returns None\n\n
+    testSingle()\n
     '''

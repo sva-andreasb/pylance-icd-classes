@@ -1,9 +1,12 @@
-def TABLESWITCH():
-    '''public TABLESWITCH(final int[] match, final InstructionHandle[] targets, final InstructionHandle defaultTarget)
+def ():
+    '''returns TABLESWITCH\n\n
+    (final int[] match, final InstructionHandle[] targets, final InstructionHandle defaultTarget)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

@@ -1,13 +1,17 @@
-def BatchChangesManager():
-    '''public BatchChangesManager(final SKDAppServiceBeanRemote serviceBean, final String projectId, final GanttModelChanges changes, final DataBean appBean)
-    public BatchChangesManager(final SKDAppServiceBeanRemote serviceBean, final String projectId, final DataBean appBean)
+def ():
+    '''returns BatchChangesManager\n\n
+    (final SKDAppServiceBeanRemote serviceBean, final String projectId, final GanttModelChanges changes, final DataBean appBean)\n
+    (final SKDAppServiceBeanRemote serviceBean, final String projectId, final DataBean appBean)\n
     '''
 def getModelChanges():
-    '''public GanttModelChanges getModelChanges()
+    '''returns GanttModelChanges\n\n
+    getModelChanges()\n
     '''
 def pushChanges():
-    '''public void pushChanges()
+    '''returns None\n\n
+    pushChanges()\n
     '''
 def hasChanges():
-    '''public boolean hasChanges()
+    '''returns boolean\n\n
+    hasChanges()\n
     '''

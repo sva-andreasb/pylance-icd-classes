@@ -1,26 +1,34 @@
-def JSON2Mbo():
-    '''public JSON2Mbo(final MboSchemaInfo schemaInfo)
-    public JSON2Mbo()
+def ():
+    '''returns JSON2Mbo\n\n
+    (final MboSchemaInfo schemaInfo)\n
+    ()\n
     '''
 def jsonToMbo():
-    '''public void jsonToMbo(final JSONObject jo, final MboRemote mbo, final boolean contentLocalized)
-    public void jsonToMbo(final JSONObject jo, final MboRemote mbo, final Iterator columns, final boolean contentLocalized, final MboSchemaInfo mboSchemaInfo)
+    '''returns None\n\n
+    jsonToMbo(final JSONObject jo, final MboRemote mbo, final boolean contentLocalized)\n
+    jsonToMbo(final JSONObject jo, final MboRemote mbo, final Iterator columns, final boolean contentLocalized, final MboSchemaInfo mboSchemaInfo)\n
     '''
 def getKeyValues():
-    '''public String[] getKeyValues(final MboSetInfo mboSetInfo, final String[] keys, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)
+    '''returns String[]\n\n
+    getKeyValues(final MboSetInfo mboSetInfo, final String[] keys, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)\n
     '''
 def getKeyValue():
-    '''public String getKeyValue(final String name, final JSONObject jo, final int maxType, final boolean contentLocalized, final UserInfo userInfo)
+    '''returns String\n\n
+    getKeyValue(final String name, final JSONObject jo, final int maxType, final boolean contentLocalized, final UserInfo userInfo)\n
     '''
 def getCurrentDataAsDate():
-    '''public Date getCurrentDataAsDate(final String col, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)
+    '''returns Date\n\n
+    getCurrentDataAsDate(final String col, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)\n
     '''
 def getCurrentDataAsLong():
-    '''public long getCurrentDataAsLong(final String col, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)
+    '''returns long\n\n
+    getCurrentDataAsLong(final String col, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)\n
     '''
 def getCurrentDataAsDouble():
-    '''public double getCurrentDataAsDouble(final String col, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)
+    '''returns double\n\n
+    getCurrentDataAsDouble(final String col, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)\n
     '''
 def getCurrentDataAsBoolean():
-    '''public boolean getCurrentDataAsBoolean(final String col, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)
+    '''returns boolean\n\n
+    getCurrentDataAsBoolean(final String col, final JSONObject jo, final boolean contentLocalized, final UserInfo userInfo)\n
     '''

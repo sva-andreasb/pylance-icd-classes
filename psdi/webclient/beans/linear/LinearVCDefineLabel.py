@@ -1,3 +1,4 @@
-def LinearVCDefineLabel():
-    '''public LinearVCDefineLabel()
+def ():
+    '''returns LinearVCDefineLabel\n\n
+    ()\n
     '''

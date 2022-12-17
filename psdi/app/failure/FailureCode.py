@@ -1,9 +1,12 @@
-def FailureCode():
-    '''public FailureCode(final MboSet ms)
+def ():
+    '''returns FailureCode\n\n
+    (final MboSet ms)\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

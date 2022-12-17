@@ -1,6 +1,7 @@
-def ICUUncheckedIOException():
-    '''public ICUUncheckedIOException()
-    public ICUUncheckedIOException(final String message)
-    public ICUUncheckedIOException(final Throwable cause)
-    public ICUUncheckedIOException(final String message, final Throwable cause)
+def ():
+    '''returns ICUUncheckedIOException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

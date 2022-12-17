@@ -1,45 +1,59 @@
-def MimeType():
-    '''public MimeType()
-    public MimeType(final String rawdata)
-    public MimeType(final String primary, final String sub)
+def ():
+    '''returns MimeType\n\n
+    ()\n
+    (final String rawdata)\n
+    (final String primary, final String sub)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def getBaseType():
-    '''public String getBaseType()
+    '''returns String\n\n
+    getBaseType()\n
     '''
 def getPrimaryType():
-    '''public String getPrimaryType()
+    '''returns String\n\n
+    getPrimaryType()\n
     '''
 def getSubType():
-    '''public String getSubType()
+    '''returns String\n\n
+    getSubType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def removeParameter():
-    '''public void removeParameter(final String name)
+    '''returns None\n\n
+    removeParameter(final String name)\n
     '''
 def setPrimaryType():
-    '''public void setPrimaryType(final String primary)
+    '''returns None\n\n
+    setPrimaryType(final String primary)\n
     '''
 def setSubType():
-    '''public void setSubType(final String sub)
+    '''returns None\n\n
+    setSubType(final String sub)\n
     '''
 def match():
-    '''public boolean match(final String rawdata)
-    public boolean match(final MimeType type)
+    '''returns boolean\n\n
+    match(final String rawdata)\n
+    match(final MimeType type)\n
     '''
 def getParameters():
-    '''public MimeTypeParameterList getParameters()
+    '''returns MimeTypeParameterList\n\n
+    getParameters()\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def setParameter():
-    '''public void setParameter(final String name, final String value)
+    '''returns None\n\n
+    setParameter(final String name, final String value)\n
     '''

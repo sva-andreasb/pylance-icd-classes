@@ -1,238 +1,312 @@
 def getAssociatedServiceCount():
-    '''public Long getAssociatedServiceCount()
+    '''returns Long\n\n
+    getAssociatedServiceCount()\n
     '''
 def setAssociatedServiceCount():
-    '''public void setAssociatedServiceCount(final Long associatedServiceCount)
+    '''returns None\n\n
+    setAssociatedServiceCount(final Long associatedServiceCount)\n
     '''
 def getLoadBalancerVirtualIpAddresses():
-    '''public List<VirtualIpAddress> getLoadBalancerVirtualIpAddresses()
+    '''returns List<VirtualIpAddress>\n\n
+    getLoadBalancerVirtualIpAddresses()\n
     '''
 def getCertificate():
-    '''public String getCertificate()
+    '''returns String\n\n
+    getCertificate()\n
     '''
 def setCertificate():
-    '''public void setCertificate(final String certificate)
+    '''returns None\n\n
+    setCertificate(final String certificate)\n
     '''
 def isCertificateSpecified():
-    '''public boolean isCertificateSpecified()
+    '''returns boolean\n\n
+    isCertificateSpecified()\n
     '''
 def unsetCertificate():
-    '''public void unsetCertificate()
+    '''returns None\n\n
+    unsetCertificate()\n
     '''
 def getCertificateSigningRequest():
-    '''public String getCertificateSigningRequest()
+    '''returns String\n\n
+    getCertificateSigningRequest()\n
     '''
 def setCertificateSigningRequest():
-    '''public void setCertificateSigningRequest(final String certificateSigningRequest)
+    '''returns None\n\n
+    setCertificateSigningRequest(final String certificateSigningRequest)\n
     '''
 def isCertificateSigningRequestSpecified():
-    '''public boolean isCertificateSigningRequestSpecified()
+    '''returns boolean\n\n
+    isCertificateSigningRequestSpecified()\n
     '''
 def unsetCertificateSigningRequest():
-    '''public void unsetCertificateSigningRequest()
+    '''returns None\n\n
+    unsetCertificateSigningRequest()\n
     '''
 def getCommonName():
-    '''public String getCommonName()
+    '''returns String\n\n
+    getCommonName()\n
     '''
 def setCommonName():
-    '''public void setCommonName(final String commonName)
+    '''returns None\n\n
+    setCommonName(final String commonName)\n
     '''
 def isCommonNameSpecified():
-    '''public boolean isCommonNameSpecified()
+    '''returns boolean\n\n
+    isCommonNameSpecified()\n
     '''
 def unsetCommonName():
-    '''public void unsetCommonName()
+    '''returns None\n\n
+    unsetCommonName()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getIntermediateCertificate():
-    '''public String getIntermediateCertificate()
+    '''returns String\n\n
+    getIntermediateCertificate()\n
     '''
 def setIntermediateCertificate():
-    '''public void setIntermediateCertificate(final String intermediateCertificate)
+    '''returns None\n\n
+    setIntermediateCertificate(final String intermediateCertificate)\n
     '''
 def isIntermediateCertificateSpecified():
-    '''public boolean isIntermediateCertificateSpecified()
+    '''returns boolean\n\n
+    isIntermediateCertificateSpecified()\n
     '''
 def unsetIntermediateCertificate():
-    '''public void unsetIntermediateCertificate()
+    '''returns None\n\n
+    unsetIntermediateCertificate()\n
     '''
 def getKeySize():
-    '''public Long getKeySize()
+    '''returns Long\n\n
+    getKeySize()\n
     '''
 def setKeySize():
-    '''public void setKeySize(final Long keySize)
+    '''returns None\n\n
+    setKeySize(final Long keySize)\n
     '''
 def isKeySizeSpecified():
-    '''public boolean isKeySizeSpecified()
+    '''returns boolean\n\n
+    isKeySizeSpecified()\n
     '''
 def unsetKeySize():
-    '''public void unsetKeySize()
+    '''returns None\n\n
+    unsetKeySize()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getOrganizationName():
-    '''public String getOrganizationName()
+    '''returns String\n\n
+    getOrganizationName()\n
     '''
 def setOrganizationName():
-    '''public void setOrganizationName(final String organizationName)
+    '''returns None\n\n
+    setOrganizationName(final String organizationName)\n
     '''
 def isOrganizationNameSpecified():
-    '''public boolean isOrganizationNameSpecified()
+    '''returns boolean\n\n
+    isOrganizationNameSpecified()\n
     '''
 def unsetOrganizationName():
-    '''public void unsetOrganizationName()
+    '''returns None\n\n
+    unsetOrganizationName()\n
     '''
 def getPrivateKey():
-    '''public String getPrivateKey()
+    '''returns String\n\n
+    getPrivateKey()\n
     '''
 def setPrivateKey():
-    '''public void setPrivateKey(final String privateKey)
+    '''returns None\n\n
+    setPrivateKey(final String privateKey)\n
     '''
 def isPrivateKeySpecified():
-    '''public boolean isPrivateKeySpecified()
+    '''returns boolean\n\n
+    isPrivateKeySpecified()\n
     '''
 def unsetPrivateKey():
-    '''public void unsetPrivateKey()
+    '''returns None\n\n
+    unsetPrivateKey()\n
     '''
 def getValidityBegin():
-    '''public GregorianCalendar getValidityBegin()
+    '''returns GregorianCalendar\n\n
+    getValidityBegin()\n
     '''
 def setValidityBegin():
-    '''public void setValidityBegin(final GregorianCalendar validityBegin)
+    '''returns None\n\n
+    setValidityBegin(final GregorianCalendar validityBegin)\n
     '''
 def isValidityBeginSpecified():
-    '''public boolean isValidityBeginSpecified()
+    '''returns boolean\n\n
+    isValidityBeginSpecified()\n
     '''
 def unsetValidityBegin():
-    '''public void unsetValidityBegin()
+    '''returns None\n\n
+    unsetValidityBegin()\n
     '''
 def getValidityDays():
-    '''public Long getValidityDays()
+    '''returns Long\n\n
+    getValidityDays()\n
     '''
 def setValidityDays():
-    '''public void setValidityDays(final Long validityDays)
+    '''returns None\n\n
+    setValidityDays(final Long validityDays)\n
     '''
 def isValidityDaysSpecified():
-    '''public boolean isValidityDaysSpecified()
+    '''returns boolean\n\n
+    isValidityDaysSpecified()\n
     '''
 def unsetValidityDays():
-    '''public void unsetValidityDays()
+    '''returns None\n\n
+    unsetValidityDays()\n
     '''
 def getValidityEnd():
-    '''public GregorianCalendar getValidityEnd()
+    '''returns GregorianCalendar\n\n
+    getValidityEnd()\n
     '''
 def setValidityEnd():
-    '''public void setValidityEnd(final GregorianCalendar validityEnd)
+    '''returns None\n\n
+    setValidityEnd(final GregorianCalendar validityEnd)\n
     '''
 def isValidityEndSpecified():
-    '''public boolean isValidityEndSpecified()
+    '''returns boolean\n\n
+    isValidityEndSpecified()\n
     '''
 def unsetValidityEnd():
-    '''public void unsetValidityEnd()
+    '''returns None\n\n
+    unsetValidityEnd()\n
     '''
 def getLoadBalancerVirtualIpAddressCount():
-    '''public Long getLoadBalancerVirtualIpAddressCount()
+    '''returns Long\n\n
+    getLoadBalancerVirtualIpAddressCount()\n
     '''
 def setLoadBalancerVirtualIpAddressCount():
-    '''public void setLoadBalancerVirtualIpAddressCount(final Long loadBalancerVirtualIpAddressCount)
+    '''returns None\n\n
+    setLoadBalancerVirtualIpAddressCount(final Long loadBalancerVirtualIpAddressCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def associatedServiceCount():
-    '''public Mask associatedServiceCount()
+    '''returns Mask\n\n
+    associatedServiceCount()\n
     '''
 def certificate():
-    '''public Mask certificate()
+    '''returns Mask\n\n
+    certificate()\n
     '''
 def certificateSigningRequest():
-    '''public Mask certificateSigningRequest()
+    '''returns Mask\n\n
+    certificateSigningRequest()\n
     '''
 def commonName():
-    '''public Mask commonName()
+    '''returns Mask\n\n
+    commonName()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def intermediateCertificate():
-    '''public Mask intermediateCertificate()
+    '''returns Mask\n\n
+    intermediateCertificate()\n
     '''
 def keySize():
-    '''public Mask keySize()
+    '''returns Mask\n\n
+    keySize()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def organizationName():
-    '''public Mask organizationName()
+    '''returns Mask\n\n
+    organizationName()\n
     '''
 def privateKey():
-    '''public Mask privateKey()
+    '''returns Mask\n\n
+    privateKey()\n
     '''
 def validityBegin():
-    '''public Mask validityBegin()
+    '''returns Mask\n\n
+    validityBegin()\n
     '''
 def validityDays():
-    '''public Mask validityDays()
+    '''returns Mask\n\n
+    validityDays()\n
     '''
 def validityEnd():
-    '''public Mask validityEnd()
+    '''returns Mask\n\n
+    validityEnd()\n
     '''
 def loadBalancerVirtualIpAddressCount():
-    '''public Mask loadBalancerVirtualIpAddressCount()
+    '''returns Mask\n\n
+    loadBalancerVirtualIpAddressCount()\n
     '''

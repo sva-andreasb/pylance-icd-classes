@@ -1,30 +1,37 @@
-def SKDMultiShiftMerger():
-    '''public SKDMultiShiftMerger(final Locale l, final TimeZone tz)
+def ():
+    '''returns Interval\n\n
+    (final Locale l, final TimeZone tz)\n
+    (final Date s, final Date e)\n
     '''
 def mergeShifts():
-    '''public ArrayList<Date> mergeShifts(final HashMap<String, SKDCalendarInfo> calInfoMap, final boolean forWorkingHours)
+    '''returns ArrayList<Date>\n\n
+    mergeShifts(final HashMap<String, SKDCalendarInfo> calInfoMap, final boolean forWorkingHours)\n
     '''
 def mergeShiftsNew():
-    '''public ArrayList<Date> mergeShiftsNew(final HashMap<String, SKDCalendarInfo> calInfoMap, final boolean forWorkingHours)
+    '''returns ArrayList<Date>\n\n
+    mergeShiftsNew(final HashMap<String, SKDCalendarInfo> calInfoMap, final boolean forWorkingHours)\n
     '''
 def mergeShiftsOLD():
-    '''public ArrayList<Date> mergeShiftsOLD(final HashMap<String, SKDCalendarInfo> calInfoMap, final boolean forWorkingHours)
+    '''returns ArrayList<Date>\n\n
+    mergeShiftsOLD(final HashMap<String, SKDCalendarInfo> calInfoMap, final boolean forWorkingHours)\n
     '''
 def getShiftWorkTime():
-    '''public Date[] getShiftWorkTime(final ArrayList<Date> workperiods, final int index)
+    '''returns Date[]\n\n
+    getShiftWorkTime(final ArrayList<Date> workperiods, final int index)\n
     '''
 def insertWorkTime():
-    '''public void insertWorkTime(final ArrayList<Date> workperiods, final int index, final Date[] workTime)
+    '''returns None\n\n
+    insertWorkTime(final ArrayList<Date> workperiods, final int index, final Date[] workTime)\n
     '''
 def updateWorkTime():
-    '''public void updateWorkTime(final ArrayList<Date> workperiods, final int index, final Date[] workTime)
-    '''
-def Interval():
-    '''public Interval(final Date s, final Date e)
+    '''returns None\n\n
+    updateWorkTime(final ArrayList<Date> workperiods, final int index, final Date[] workTime)\n
     '''
 def compareTo():
-    '''public int compareTo(final Interval o)
+    '''returns int\n\n
+    compareTo(final Interval o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

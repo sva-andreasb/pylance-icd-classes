@@ -1,57 +1,72 @@
-def getJmsManager():
-    '''public static JmsManager getJmsManager(final String name, final Properties jndiProperties, final String connectionFactoryName, final String destinationName, final String userName, final char[] password, final boolean immediateFail, final long reconnectIntervalMillis)
-    '''
 def createMessage():
-    '''public Message createMessage(final Serializable object)
+    '''returns Message\n\n
+    createMessage(final Serializable object)\n
     '''
 def createMessageConsumer():
-    '''public MessageConsumer createMessageConsumer()
+    '''returns MessageConsumer\n\n
+    createMessageConsumer()\n
     '''
 def createMessageProducer():
-    '''public MessageProducer createMessageProducer(final Session session, final Destination destination)
+    '''returns MessageProducer\n\n
+    createMessageProducer(final Session session, final Destination destination)\n
     '''
 def getJmsManagerConfiguration():
-    '''public JmsManagerConfiguration getJmsManagerConfiguration()
+    '''returns JmsManagerConfiguration\n\n
+    getJmsManagerConfiguration()\n
     '''
 def getConnectionFactoryName():
-    '''public String getConnectionFactoryName()
+    '''returns String\n\n
+    getConnectionFactoryName()\n
     '''
 def getDestinationName():
-    '''public String getDestinationName()
+    '''returns String\n\n
+    getDestinationName()\n
     '''
 def getJndiManager():
-    '''public JndiManager getJndiManager()
+    '''returns JndiManager\n\n
+    getJndiManager()\n
     '''
 def getJndiProperties():
-    '''public Properties getJndiProperties()
+    '''returns Properties\n\n
+    getJndiProperties()\n
     '''
 def getPassword():
-    '''public char[] getPassword()
+    '''returns char[]\n\n
+    getPassword()\n
     '''
 def getReconnectIntervalMillis():
-    '''public long getReconnectIntervalMillis()
+    '''returns long\n\n
+    getReconnectIntervalMillis()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def isImmediateFail():
-    '''public boolean isImmediateFail()
+    '''returns boolean\n\n
+    isImmediateFail()\n
     '''
 def isRetry():
-    '''public boolean isRetry()
+    '''returns boolean\n\n
+    isRetry()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def createManager():
-    '''public JmsManager createManager(final String name, final JmsManagerConfiguration data)
+    '''returns JmsManager\n\n
+    createManager(final String name, final JmsManagerConfiguration data)\n
     '''
 def latch():
-    '''public void latch()
+    '''returns None\n\n
+    latch()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

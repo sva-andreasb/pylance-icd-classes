@@ -1,3 +1,4 @@
 def getChart():
-    '''public Chart getChart(final ChartRequestOptions options)
+    '''returns Chart\n\n
+    getChart(final ChartRequestOptions options)\n
     '''

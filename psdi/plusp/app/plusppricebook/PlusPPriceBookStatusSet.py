@@ -1,3 +1,4 @@
-def PlusPPriceBookStatusSet():
-    '''public PlusPPriceBookStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPriceBookStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

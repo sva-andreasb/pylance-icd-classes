@@ -1,18 +1,16 @@
-def getFactory():
-    '''public final JsonFactory getFactory()
-    '''
-def setFactory():
-    '''public final void setFactory(final JsonFactory factory)
-    '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toPrettyString():
-    '''public String toPrettyString()
+    '''returns String\n\n
+    toPrettyString()\n
     '''
 def clone():
-    '''public GenericJson clone()
+    '''returns GenericJson\n\n
+    clone()\n
     '''
 def set():
-    '''public GenericJson set(final String fieldName, final Object value)
+    '''returns GenericJson\n\n
+    set(final String fieldName, final Object value)\n
     '''

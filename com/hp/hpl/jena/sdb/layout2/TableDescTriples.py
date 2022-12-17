@@ -1,6 +1,4 @@
-def name():
-    '''public static String name()
-    '''
-def TableDescTriples():
-    '''public TableDescTriples()
+def ():
+    '''returns TableDescTriples\n\n
+    ()\n
     '''

@@ -1,9 +1,12 @@
-def FldCommonModified():
-    '''public FldCommonModified(final MboValue mbv)
+def ():
+    '''returns FldCommonModified\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

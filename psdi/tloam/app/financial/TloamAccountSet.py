@@ -1,3 +1,4 @@
-def TloamAccountSet():
-    '''public TloamAccountSet(final MboServerInterface ms)
+def ():
+    '''returns TloamAccountSet\n\n
+    (final MboServerInterface ms)\n
     '''

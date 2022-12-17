@@ -1,11 +1,14 @@
-def DERConstructedSet():
-    '''public DERConstructedSet()
-    public DERConstructedSet(final DEREncodable obj)
-    public DERConstructedSet(final DEREncodableVector v)
+def ():
+    '''returns DERConstructedSet\n\n
+    ()\n
+    (final DEREncodable obj)\n
+    (final DEREncodableVector v)\n
     '''
 def addObject():
-    '''public void addObject(final DEREncodable obj)
+    '''returns None\n\n
+    addObject(final DEREncodable obj)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''

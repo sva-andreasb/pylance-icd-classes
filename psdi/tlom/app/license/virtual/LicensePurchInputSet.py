@@ -1,18 +1,24 @@
-def LicensePurchInputSet():
-    '''public LicensePurchInputSet(final MboServerInterface ms)
+def ():
+    '''returns LicensePurchInputSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def createPurchDoc():
-    '''public MboRemote createPurchDoc()
+    '''returns MboRemote\n\n
+    createPurchDoc()\n
     '''
 def setPurchLineType():
-    '''public void setPurchLineType(final String source)
+    '''returns None\n\n
+    setPurchLineType(final String source)\n
     '''
 def setAutoKey():
-    '''public void setAutoKey()
+    '''returns None\n\n
+    setAutoKey()\n
     '''

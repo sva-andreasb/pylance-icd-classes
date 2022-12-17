@@ -1,0 +1,3 @@
+END_STYLE_OPEN = "int  0"
+END_STYLE_CLOSED = "int  1"
+END_STYLE_INTRA_DAY = "int  2"

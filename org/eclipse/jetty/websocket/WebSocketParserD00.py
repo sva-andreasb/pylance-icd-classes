@@ -2,18 +2,23 @@ STATE_START = "int  0"
 STATE_SENTINEL_DATA = "int  1"
 STATE_LENGTH = "int  2"
 STATE_DATA = "int  3"
-def WebSocketParserD00():
-    '''public WebSocketParserD00(final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler)
+def ():
+    '''returns WebSocketParserD00\n\n
+    (final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler)\n
     '''
 def isBufferEmpty():
-    '''public boolean isBufferEmpty()
+    '''returns boolean\n\n
+    isBufferEmpty()\n
     '''
 def getBuffer():
-    '''public Buffer getBuffer()
+    '''returns Buffer\n\n
+    getBuffer()\n
     '''
 def parseNext():
-    '''public int parseNext()
+    '''returns int\n\n
+    parseNext()\n
     '''
 def fill():
-    '''public void fill(final Buffer buffer)
+    '''returns None\n\n
+    fill(final Buffer buffer)\n
     '''

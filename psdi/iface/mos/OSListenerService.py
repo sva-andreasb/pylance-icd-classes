@@ -1,15 +1,15 @@
-def getInstance():
-    '''public static OSListenerService getInstance()
-    '''
 def subscribeOSEvents():
-    '''public void subscribeOSEvents(final String osName, final OSListener osListener, final String subscriptionId)
-    public void subscribeOSEvents(final String osName, final OSListener osListener, final String subscriptionId, final boolean enforceOSRelation)
-    public void subscribeOSEvents(final String osName, final OSListener osListener, final String subscriptionId, final Set<String> objNames)
-    public void subscribeOSEvents(final String osName, final OSListener osListener, final String subscriptionId, final Set<String> objNames, final boolean enforceOSRelation)
+    '''returns None\n\n
+    subscribeOSEvents(final String osName, final OSListener osListener, final String subscriptionId)\n
+    subscribeOSEvents(final String osName, final OSListener osListener, final String subscriptionId, final boolean enforceOSRelation)\n
+    subscribeOSEvents(final String osName, final OSListener osListener, final String subscriptionId, final Set<String> objNames)\n
+    subscribeOSEvents(final String osName, final OSListener osListener, final String subscriptionId, final Set<String> objNames, final boolean enforceOSRelation)\n
     '''
 def unsubscribeOSEvents():
-    '''public void unsubscribeOSEvents(final String subscriptionId)
+    '''returns None\n\n
+    unsubscribeOSEvents(final String subscriptionId)\n
     '''
 def reload():
-    '''public void reload()
+    '''returns None\n\n
+    reload()\n
     '''

@@ -1,3 +1,4 @@
-def SKDActGanttProp():
-    '''public SKDActGanttProp(final MboSet ms)
+def ():
+    '''returns SKDActGanttProp\n\n
+    (final MboSet ms)\n
     '''

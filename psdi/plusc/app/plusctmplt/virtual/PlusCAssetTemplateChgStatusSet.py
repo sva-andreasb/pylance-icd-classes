@@ -1,3 +1,4 @@
-def PlusCAssetTemplateChgStatusSet():
-    '''public PlusCAssetTemplateChgStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCAssetTemplateChgStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

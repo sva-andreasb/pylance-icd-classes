@@ -1,3 +1,4 @@
 def getVariableInfo():
-    '''public VariableInfo[] getVariableInfo(final TagData tagData)
+    '''returns VariableInfo[]\n\n
+    getVariableInfo(final TagData tagData)\n
     '''

@@ -1,12 +1,16 @@
-def MaxApiInvProcess():
-    '''public MaxApiInvProcess()
+def ():
+    '''returns MaxApiInvProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def copyParentKey():
-    '''public void copyParentKey(final String attributeName, final String value)
+    '''returns None\n\n
+    copyParentKey(final String attributeName, final String value)\n
     '''

@@ -1,15 +1,18 @@
-def InvalidLexicalValueException():
-    '''public InvalidLexicalValueException()
-    public InvalidLexicalValueException(final String msg)
-    public InvalidLexicalValueException(final String msg, final Throwable cause)
-    public InvalidLexicalValueException(final Throwable cause)
-    public InvalidLexicalValueException(final String msg, final Location location)
-    public InvalidLexicalValueException(final String msg, final Throwable cause, final Location location)
-    public InvalidLexicalValueException(final Throwable cause, final Location location)
+def ():
+    '''returns InvalidLexicalValueException\n\n
+    ()\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
+    (final Throwable cause)\n
+    (final String msg, final Location location)\n
+    (final String msg, final Throwable cause, final Location location)\n
+    (final Throwable cause, final Location location)\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final Location location)
+    '''returns None\n\n
+    setLocation(final Location location)\n
     '''

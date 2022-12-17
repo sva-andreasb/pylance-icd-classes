@@ -1,15 +1,16 @@
-def ParserBase():
-    '''public ParserBase()
+def ():
+    '''returns ParserBase\n\n
+    ()\n
     '''
 def setBaseURI():
-    '''public void setBaseURI(final String u)
+    '''returns None\n\n
+    setBaseURI(final String u)\n
     '''
 def getPrefixMapping():
-    '''public PrefixMapping getPrefixMapping()
+    '''returns PrefixMapping\n\n
+    getPrefixMapping()\n
     '''
 def setEventHandler():
-    '''public void setEventHandler(final TurtleEventHandler h)
-    '''
-def unescapeStr():
-    '''public static String unescapeStr(final String s)
+    '''returns None\n\n
+    setEventHandler(final TurtleEventHandler h)\n
     '''

@@ -1,12 +1,16 @@
-def AssignmentBean():
-    '''public AssignmentBean()
+def ():
+    '''returns AssignmentBean\n\n
+    ()\n
     '''
 def assignlabor():
-    '''public int assignlabor()
+    '''returns int\n\n
+    assignlabor()\n
     '''
 def crwassign():
-    '''public int crwassign()
+    '''returns int\n\n
+    crwassign()\n
     '''
 def complete():
-    '''public int complete()
+    '''returns int\n\n
+    complete()\n
     '''

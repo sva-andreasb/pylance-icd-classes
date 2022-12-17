@@ -1,16 +1,18 @@
+def ():
+    '''returns a\n\n
+    (final InputStream inputStream, final FromCellsOptions a)\n
+    (final ILoader<O, F> a, final T h)\n
+    '''
 def a():
-    '''public a(final InputStream inputStream, final FromCellsOptions a)
-    public hU a()
-    public FromCellsOptions a()
-    public a(final ILoader<O, F> a, final T h)
-    public static void a(final InputStream input, final OutputStream output, final FileType fileType)
+    '''returns FromCellsOptions\n\n
+    a()\n
+    a()\n
     '''
 def getPagesCount():
-    '''public int getPagesCount()
-    '''
-def bindSaveOptions():
-    '''public ILoader<hU, FromCellsOptions> bindSaveOptions(final SaveOptions saveOptions)
+    '''returns int\n\n
+    getPagesCount()\n
     '''
 def ag():
-    '''public int ag()
+    '''returns int\n\n
+    ag()\n
     '''

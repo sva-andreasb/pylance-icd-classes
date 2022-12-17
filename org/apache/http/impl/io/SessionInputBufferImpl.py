@@ -1,43 +1,56 @@
-def SessionInputBufferImpl():
-    '''public SessionInputBufferImpl(final HttpTransportMetricsImpl metrics, final int buffersize, final int minChunkLimit, final MessageConstraints constraints, final CharsetDecoder chardecoder)
-    public SessionInputBufferImpl(final HttpTransportMetricsImpl metrics, final int buffersize)
+def ():
+    '''returns SessionInputBufferImpl\n\n
+    (final HttpTransportMetricsImpl metrics, final int buffersize, final int minChunkLimit, final MessageConstraints constraints, final CharsetDecoder chardecoder)\n
+    (final HttpTransportMetricsImpl metrics, final int buffersize)\n
     '''
 def bind():
-    '''public void bind(final InputStream instream)
+    '''returns None\n\n
+    bind(final InputStream instream)\n
     '''
 def isBound():
-    '''public boolean isBound()
+    '''returns boolean\n\n
+    isBound()\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def fillBuffer():
-    '''public int fillBuffer()
+    '''returns int\n\n
+    fillBuffer()\n
     '''
 def hasBufferedData():
-    '''public boolean hasBufferedData()
+    '''returns boolean\n\n
+    hasBufferedData()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
-    public int read(final byte[] b)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
+    read(final byte[] b)\n
     '''
 def readLine():
-    '''public int readLine(final CharArrayBuffer charbuffer)
-    public String readLine()
+    '''returns String\n\n
+    readLine(final CharArrayBuffer charbuffer)\n
+    readLine()\n
     '''
 def isDataAvailable():
-    '''public boolean isDataAvailable(final int timeout)
+    '''returns boolean\n\n
+    isDataAvailable(final int timeout)\n
     '''
 def getMetrics():
-    '''public HttpTransportMetrics getMetrics()
+    '''returns HttpTransportMetrics\n\n
+    getMetrics()\n
     '''

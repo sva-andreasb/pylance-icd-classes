@@ -1,42 +1,52 @@
-def getDefault():
-    '''public static BasicPeriodFormatterFactory getDefault()
-    '''
 def setLocale():
-    '''public PeriodFormatterFactory setLocale(final String localeName)
+    '''returns PeriodFormatterFactory\n\n
+    setLocale(final String localeName)\n
     '''
 def setDisplayLimit():
-    '''public PeriodFormatterFactory setDisplayLimit(final boolean display)
+    '''returns PeriodFormatterFactory\n\n
+    setDisplayLimit(final boolean display)\n
     '''
 def getDisplayLimit():
-    '''public boolean getDisplayLimit()
+    '''returns boolean\n\n
+    getDisplayLimit()\n
     '''
 def setDisplayPastFuture():
-    '''public PeriodFormatterFactory setDisplayPastFuture(final boolean display)
+    '''returns PeriodFormatterFactory\n\n
+    setDisplayPastFuture(final boolean display)\n
     '''
 def getDisplayPastFuture():
-    '''public boolean getDisplayPastFuture()
+    '''returns boolean\n\n
+    getDisplayPastFuture()\n
     '''
 def setSeparatorVariant():
-    '''public PeriodFormatterFactory setSeparatorVariant(final int variant)
+    '''returns PeriodFormatterFactory\n\n
+    setSeparatorVariant(final int variant)\n
     '''
 def getSeparatorVariant():
-    '''public int getSeparatorVariant()
+    '''returns int\n\n
+    getSeparatorVariant()\n
     '''
 def setUnitVariant():
-    '''public PeriodFormatterFactory setUnitVariant(final int variant)
+    '''returns PeriodFormatterFactory\n\n
+    setUnitVariant(final int variant)\n
     '''
 def getUnitVariant():
-    '''public int getUnitVariant()
+    '''returns int\n\n
+    getUnitVariant()\n
     '''
 def setCountVariant():
-    '''public PeriodFormatterFactory setCountVariant(final int variant)
+    '''returns PeriodFormatterFactory\n\n
+    setCountVariant(final int variant)\n
     '''
 def getCountVariant():
-    '''public int getCountVariant()
+    '''returns int\n\n
+    getCountVariant()\n
     '''
 def getFormatter():
-    '''public PeriodFormatter getFormatter()
+    '''returns PeriodFormatter\n\n
+    getFormatter()\n
     '''
 def copy():
-    '''public Customizations copy()
+    '''returns Customizations\n\n
+    copy()\n
     '''

@@ -1,3 +1,4 @@
-def ChannelPromiseAggregator():
-    '''public ChannelPromiseAggregator(final ChannelPromise aggregatePromise)
+def ():
+    '''returns ChannelPromiseAggregator\n\n
+    (final ChannelPromise aggregatePromise)\n
     '''

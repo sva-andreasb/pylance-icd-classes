@@ -1,6 +1,8 @@
-def PlusPFldMatUseTransItemNum():
-    '''public PlusPFldMatUseTransItemNum(final MboValue arg0)
+def ():
+    '''returns PlusPFldMatUseTransItemNum\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

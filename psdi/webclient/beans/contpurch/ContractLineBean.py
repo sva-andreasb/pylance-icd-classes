@@ -1,6 +1,8 @@
 def pmtsched():
-    '''public int pmtsched()
+    '''returns int\n\n
+    pmtsched()\n
     '''
 def venitems():
-    '''public int venitems()
+    '''returns int\n\n
+    venitems()\n
     '''

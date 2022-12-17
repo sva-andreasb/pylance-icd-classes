@@ -1,8 +1,10 @@
-def XmlLayoutBuilder():
-    '''public XmlLayoutBuilder()
-    public XmlLayoutBuilder(final String prefix, final Properties props)
+def ():
+    '''returns XmlLayoutBuilder\n\n
+    ()\n
+    (final String prefix, final Properties props)\n
     '''
 def parseLayout():
-    '''public Layout parseLayout(final Element layoutElement, final XmlConfiguration config)
-    public Layout parseLayout(final PropertiesConfiguration config)
+    '''returns Layout\n\n
+    parseLayout(final Element layoutElement, final XmlConfiguration config)\n
+    parseLayout(final PropertiesConfiguration config)\n
     '''

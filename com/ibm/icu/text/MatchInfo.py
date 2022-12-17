@@ -1,15 +1,20 @@
-def MatchInfo():
-    '''public MatchInfo(final NameType nameType, final String tzID, final String mzID, final int matchLength)
+def ():
+    '''returns MatchInfo\n\n
+    (final NameType nameType, final String tzID, final String mzID, final int matchLength)\n
     '''
 def tzID():
-    '''public String tzID()
+    '''returns String\n\n
+    tzID()\n
     '''
 def mzID():
-    '''public String mzID()
+    '''returns String\n\n
+    mzID()\n
     '''
 def nameType():
-    '''public NameType nameType()
+    '''returns NameType\n\n
+    nameType()\n
     '''
 def matchLength():
-    '''public int matchLength()
+    '''returns int\n\n
+    matchLength()\n
     '''

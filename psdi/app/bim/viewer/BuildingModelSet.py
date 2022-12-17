@@ -1,6 +1,8 @@
-def BuildingModelSet():
-    '''public BuildingModelSet(final MboServerInterface ms)
+def ():
+    '''returns BuildingModelSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getVieweerTypeList():
-    '''public String getVieweerTypeList(final String siteId, final String orgId)
+    '''returns String\n\n
+    getVieweerTypeList(final String siteId, final String orgId)\n
     '''

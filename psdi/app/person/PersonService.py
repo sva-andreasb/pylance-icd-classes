@@ -1,21 +1,28 @@
-def PersonService():
-    '''public PersonService(final MXServer mxServer)
+def ():
+    '''returns PersonService\n\n
+    (final MXServer mxServer)\n
     '''
 def getDefaultDisplayName():
-    '''public String getDefaultDisplayName(String firstName, String lastName, final UserInfo userInfo)
+    '''returns String\n\n
+    getDefaultDisplayName(String firstName, String lastName, final UserInfo userInfo)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def setDfltApp():
-    '''public String setDfltApp(final String newdfltapp, final String personid)
+    '''returns String\n\n
+    setDfltApp(final String newdfltapp, final String personid)\n
     '''
 def deactivateUser():
-    '''public void deactivateUser(@WSMboKey("PERSON") final MboRemote person, final String memo)
+    '''returns None\n\n
+    deactivateUser(@WSMboKey("PERSON") final MboRemote person, final String memo)\n
     '''
 def activateUser():
-    '''public void activateUser(@WSMboKey("PERSON") final MboRemote person, final String memo, final MXTransaction mxTran)
+    '''returns None\n\n
+    activateUser(@WSMboKey("PERSON") final MboRemote person, final String memo, final MXTransaction mxTran)\n
     '''

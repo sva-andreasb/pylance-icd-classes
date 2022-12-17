@@ -1,6 +1,8 @@
-def FldLaborQualOriginalYear():
-    '''public FldLaborQualOriginalYear(final MboValue mbv)
+def ():
+    '''returns FldLaborQualOriginalYear\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

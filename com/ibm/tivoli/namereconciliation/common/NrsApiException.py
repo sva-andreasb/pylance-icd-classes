@@ -60,15 +60,15 @@ NULL_DRIVER = "int  6009"
 ERROR_TEXT_NULL_DRIVER = "String  \"ERROR: Parameter 'driver' for the database was not found!\""
 ERROR_DRIVER = "int  6010"
 ERROR_TEXT_ERROR_DRIVER = "String  \"ERROR: The driver property is not set correctly.\""
-def NrsApiException():
-    '''public NrsApiException(final int errorCode, final String errorDetails)
+def ():
+    '''returns NrsApiException\n\n
+    (final int errorCode, final String errorDetails)\n
     '''
 def getErrorDetails():
-    '''public String getErrorDetails()
-    '''
-def getErrorText():
-    '''public static String getErrorText(final int errorCode)
+    '''returns String\n\n
+    getErrorDetails()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

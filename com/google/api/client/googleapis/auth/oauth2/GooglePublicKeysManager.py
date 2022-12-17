@@ -1,40 +1,21 @@
-def GooglePublicKeysManager():
-    '''public GooglePublicKeysManager(final HttpTransport transport, final JsonFactory jsonFactory)
-    '''
-def getTransport():
-    '''public final HttpTransport getTransport()
-    public final HttpTransport getTransport()
-    '''
-def getJsonFactory():
-    '''public final JsonFactory getJsonFactory()
-    public final JsonFactory getJsonFactory()
-    '''
-def getPublicCertsEncodedUrl():
-    '''public final String getPublicCertsEncodedUrl()
-    public final String getPublicCertsEncodedUrl()
-    '''
-def getClock():
-    '''public final Clock getClock()
-    public final Clock getClock()
-    '''
-def getPublicKeys():
-    '''public final List<PublicKey> getPublicKeys()
-    '''
-def getExpirationTimeMilliseconds():
-    '''public final long getExpirationTimeMilliseconds()
+def ():
+    '''returns Builder\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory)\n
+    (final HttpTransport transport, final JsonFactory jsonFactory)\n
     '''
 def refresh():
-    '''public GooglePublicKeysManager refresh()
-    '''
-def Builder():
-    '''public Builder(final HttpTransport transport, final JsonFactory jsonFactory)
+    '''returns GooglePublicKeysManager\n\n
+    refresh()\n
     '''
 def build():
-    '''public GooglePublicKeysManager build()
+    '''returns GooglePublicKeysManager\n\n
+    build()\n
     '''
 def setPublicCertsEncodedUrl():
-    '''public Builder setPublicCertsEncodedUrl(final String publicCertsEncodedUrl)
+    '''returns Builder\n\n
+    setPublicCertsEncodedUrl(final String publicCertsEncodedUrl)\n
     '''
 def setClock():
-    '''public Builder setClock(final Clock clock)
+    '''returns Builder\n\n
+    setClock(final Clock clock)\n
     '''

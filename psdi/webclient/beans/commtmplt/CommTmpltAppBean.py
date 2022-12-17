@@ -1,15 +1,8 @@
-def save():
-    '''public synchronized void save()
-    '''
 def relationshiptree():
-    '''public int relationshiptree()
+    '''returns int\n\n
+    relationshiptree()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
-    '''
-def setValue():
-    '''public synchronized void setValue(final String attribute, final MboRemote mboRemote)
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo()
+    '''returns None\n\n
+    initializeApp()\n
     '''

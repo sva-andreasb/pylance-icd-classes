@@ -1,32 +1,41 @@
-def DirectNIOBuffer():
-    '''public DirectNIOBuffer(final int size)
-    public DirectNIOBuffer(final ByteBuffer buffer, final boolean immutable)
-    public DirectNIOBuffer(final File file)
+def ():
+    '''returns DirectNIOBuffer\n\n
+    (final int size)\n
+    (final ByteBuffer buffer, final boolean immutable)\n
+    (final File file)\n
     '''
 def isDirect():
-    '''public boolean isDirect()
+    '''returns boolean\n\n
+    isDirect()\n
     '''
 def array():
-    '''public byte[] array()
+    '''returns byte[]\n\n
+    array()\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def peek():
-    '''public byte peek(final int position)
-    public int peek(final int index, final byte[] b, final int offset, final int length)
+    '''returns int\n\n
+    peek(final int position)\n
+    peek(final int index, final byte[] b, final int offset, final int length)\n
     '''
 def poke():
-    '''public void poke(final int index, final byte b)
-    public int poke(final int index, final Buffer src)
-    public int poke(final int index, final byte[] b, final int offset, int length)
+    '''returns int\n\n
+    poke(final int index, final byte b)\n
+    poke(final int index, final Buffer src)\n
+    poke(final int index, final byte[] b, final int offset, int length)\n
     '''
 def getByteBuffer():
-    '''public ByteBuffer getByteBuffer()
+    '''returns ByteBuffer\n\n
+    getByteBuffer()\n
     '''
 def readFrom():
-    '''public int readFrom(final InputStream in, int max)
+    '''returns int\n\n
+    readFrom(final InputStream in, int max)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''

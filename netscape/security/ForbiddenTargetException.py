@@ -1,4 +1,5 @@
-def ForbiddenTargetException():
-    '''public ForbiddenTargetException()
-    public ForbiddenTargetException(final String message)
+def ():
+    '''returns ForbiddenTargetException\n\n
+    ()\n
+    (final String message)\n
     '''

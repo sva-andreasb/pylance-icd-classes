@@ -1,3 +1,4 @@
 def processActionResponse():
-    '''public void processActionResponse(final Object responseObject)
+    '''returns None\n\n
+    processActionResponse(final Object responseObject)\n
     '''

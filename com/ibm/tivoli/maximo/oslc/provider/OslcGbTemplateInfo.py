@@ -1,66 +1,80 @@
-def OslcGbTemplateInfo():
-    '''public OslcGbTemplateInfo(final String templatename, final String savedQueryName, final String havingClause, final String relprop, final String description, final String osname)
+def ():
+    '''returns OslcGbTemplateInfo\n\n
+    (final String templatename, final String savedQueryName, final String havingClause, final String relprop, final String description, final String osname)\n
     '''
 def getTemplatename():
-    '''public String getTemplatename()
+    '''returns String\n\n
+    getTemplatename()\n
     '''
 def setTemplatename():
-    '''public void setTemplatename(final String templatename)
+    '''returns None\n\n
+    setTemplatename(final String templatename)\n
     '''
 def getHavingClause():
-    '''public String getHavingClause()
+    '''returns String\n\n
+    getHavingClause()\n
     '''
 def setHavingClause():
-    '''public void setHavingClause(final String havingClause)
+    '''returns None\n\n
+    setHavingClause(final String havingClause)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getOsname():
-    '''public String getOsname()
+    '''returns String\n\n
+    getOsname()\n
     '''
 def setOsname():
-    '''public void setOsname(final String osname)
-    '''
-def getCfgGroupByMap():
-    '''public Map<String, OslcGbTemplateCfgInfo> getCfgGroupByMap()
+    '''returns None\n\n
+    setOsname(final String osname)\n
     '''
 def getCfgGroupByInfo():
-    '''public OslcGbTemplateCfgInfo getCfgGroupByInfo(final String name)
+    '''returns OslcGbTemplateCfgInfo\n\n
+    getCfgGroupByInfo(final String name)\n
     '''
 def getCfgGroupByNames():
-    '''public String getCfgGroupByNames()
+    '''returns String\n\n
+    getCfgGroupByNames()\n
     '''
 def getCfgSortByNames():
-    '''public String getCfgSortByNames()
+    '''returns String\n\n
+    getCfgSortByNames()\n
     '''
 def getSavedQueryName():
-    '''public String getSavedQueryName()
+    '''returns String\n\n
+    getSavedQueryName()\n
     '''
 def setSavedQueryName():
-    '''public void setSavedQueryName(final String savedQueryName)
+    '''returns None\n\n
+    setSavedQueryName(final String savedQueryName)\n
     '''
 def getRelProperties():
-    '''public String getRelProperties()
+    '''returns String\n\n
+    getRelProperties()\n
     '''
 def setRelprop():
-    '''public void setRelprop(final String relprop)
+    '''returns None\n\n
+    setRelprop(final String relprop)\n
     '''
 def setCfgGroupByMap():
-    '''public void setCfgGroupByMap(final String index, final OslcGbTemplateCfgInfo cfgInfo)
+    '''returns None\n\n
+    setCfgGroupByMap(final String index, final OslcGbTemplateCfgInfo cfgInfo)\n
     '''
 def setCfgSoryByMap():
-    '''public void setCfgSoryByMap(final String index, final OslcGbTemplateCfgInfo cfgInfo)
-    '''
-def getCondMap():
-    '''public Map<String, OslcGbTemplateCondInfo> getCondMap()
+    '''returns None\n\n
+    setCfgSoryByMap(final String index, final OslcGbTemplateCfgInfo cfgInfo)\n
     '''
 def getCondInfo():
-    '''public OslcGbTemplateCondInfo getCondInfo(final String name)
+    '''returns OslcGbTemplateCondInfo\n\n
+    getCondInfo(final String name)\n
     '''
 def setCondMap():
-    '''public void setCondMap(final String name, final OslcGbTemplateCondInfo condInfo)
+    '''returns None\n\n
+    setCondMap(final String name, final OslcGbTemplateCondInfo condInfo)\n
     '''

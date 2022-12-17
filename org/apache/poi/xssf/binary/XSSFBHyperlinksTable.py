@@ -1,15 +1,16 @@
-def XSSFBHyperlinksTable():
-    '''public XSSFBHyperlinksTable(final PackagePart sheetPart)
-    '''
-def getHyperLinks():
-    '''public Map<CellAddress, List<XSSFHyperlinkRecord>> getHyperLinks()
+def ():
+    '''returns XSSFBHyperlinksTable\n\n
+    (final PackagePart sheetPart)\n
     '''
 def findHyperlinkRecord():
-    '''public List<XSSFHyperlinkRecord> findHyperlinkRecord(final CellAddress cellAddress)
+    '''returns List<XSSFHyperlinkRecord>\n\n
+    findHyperlinkRecord(final CellAddress cellAddress)\n
     '''
 def handleRecord():
-    '''public void handleRecord(final int recordType, final byte[] data)
+    '''returns None\n\n
+    handleRecord(final int recordType, final byte[] data)\n
     '''
 def compare():
-    '''public int compare(final CellAddress o1, final CellAddress o2)
+    '''returns int\n\n
+    compare(final CellAddress o1, final CellAddress o2)\n
     '''

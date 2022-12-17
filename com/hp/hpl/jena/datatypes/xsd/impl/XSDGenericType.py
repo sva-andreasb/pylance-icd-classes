@@ -1,3 +1,4 @@
-def XSDGenericType():
-    '''public XSDGenericType(final XSSimpleType xstype, final String namespace)
+def ():
+    '''returns XSDGenericType\n\n
+    (final XSSimpleType xstype, final String namespace)\n
     '''

@@ -1,573 +1,757 @@
 def getPrefixGen():
-    '''public String getPrefixGen()
+    '''returns String\n\n
+    getPrefixGen()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String newPrefix)
+    '''returns None\n\n
+    setPrefix(final String newPrefix)\n
     '''
 def getBasePackageGen():
-    '''public String getBasePackageGen()
+    '''returns String\n\n
+    getBasePackageGen()\n
     '''
 def getBasePackage():
-    '''public String getBasePackage()
+    '''returns String\n\n
+    getBasePackage()\n
     '''
 def setBasePackage():
-    '''public void setBasePackage(final String newBasePackage)
+    '''returns None\n\n
+    setBasePackage(final String newBasePackage)\n
     '''
 def getResource():
-    '''public GenResourceKind getResource()
+    '''returns GenResourceKind\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final GenResourceKind newResource)
+    '''returns None\n\n
+    setResource(final GenResourceKind newResource)\n
     '''
 def isDisposableProviderFactory():
-    '''public boolean isDisposableProviderFactory()
+    '''returns boolean\n\n
+    isDisposableProviderFactory()\n
     '''
 def setDisposableProviderFactory():
-    '''public void setDisposableProviderFactory(final boolean newDisposableProviderFactory)
+    '''returns None\n\n
+    setDisposableProviderFactory(final boolean newDisposableProviderFactory)\n
     '''
 def isAdapterFactory():
-    '''public boolean isAdapterFactory()
+    '''returns boolean\n\n
+    isAdapterFactory()\n
     '''
 def setAdapterFactory():
-    '''public void setAdapterFactory(final boolean newAdapterFactory)
+    '''returns None\n\n
+    setAdapterFactory(final boolean newAdapterFactory)\n
     '''
 def isLoadInitialization():
-    '''public boolean isLoadInitialization()
+    '''returns boolean\n\n
+    isLoadInitialization()\n
     '''
 def setLoadInitialization():
-    '''public void setLoadInitialization(final boolean newLoadInitialization)
+    '''returns None\n\n
+    setLoadInitialization(final boolean newLoadInitialization)\n
     '''
 def getInterfacePackageSuffix():
-    '''public String getInterfacePackageSuffix()
+    '''returns String\n\n
+    getInterfacePackageSuffix()\n
     '''
 def setInterfacePackageSuffix():
-    '''public void setInterfacePackageSuffix(final String newInterfacePackageSuffix)
+    '''returns None\n\n
+    setInterfacePackageSuffix(final String newInterfacePackageSuffix)\n
     '''
 def getClassPackageSuffix():
-    '''public String getClassPackageSuffix()
+    '''returns String\n\n
+    getClassPackageSuffix()\n
     '''
 def setClassPackageSuffix():
-    '''public void setClassPackageSuffix(final String newClassPackageSuffix)
+    '''returns None\n\n
+    setClassPackageSuffix(final String newClassPackageSuffix)\n
     '''
 def getUtilityPackageSuffix():
-    '''public String getUtilityPackageSuffix()
+    '''returns String\n\n
+    getUtilityPackageSuffix()\n
     '''
 def setUtilityPackageSuffix():
-    '''public void setUtilityPackageSuffix(final String newUtilityPackageSuffix)
+    '''returns None\n\n
+    setUtilityPackageSuffix(final String newUtilityPackageSuffix)\n
     '''
 def getProviderPackageSuffix():
-    '''public String getProviderPackageSuffix()
+    '''returns String\n\n
+    getProviderPackageSuffix()\n
     '''
 def setProviderPackageSuffix():
-    '''public void setProviderPackageSuffix(final String newProviderPackageSuffix)
+    '''returns None\n\n
+    setProviderPackageSuffix(final String newProviderPackageSuffix)\n
     '''
 def getPresentationPackageSuffix():
-    '''public String getPresentationPackageSuffix()
+    '''returns String\n\n
+    getPresentationPackageSuffix()\n
     '''
 def setPresentationPackageSuffix():
-    '''public void setPresentationPackageSuffix(final String newPresentationPackageSuffix)
+    '''returns None\n\n
+    setPresentationPackageSuffix(final String newPresentationPackageSuffix)\n
     '''
 def getTestsPackageSuffix():
-    '''public String getTestsPackageSuffix()
+    '''returns String\n\n
+    getTestsPackageSuffix()\n
     '''
 def setTestsPackageSuffix():
-    '''public void setTestsPackageSuffix(final String newTestsPackageSuffix)
+    '''returns None\n\n
+    setTestsPackageSuffix(final String newTestsPackageSuffix)\n
     '''
 def isGenerateExampleClass():
-    '''public boolean isGenerateExampleClass()
+    '''returns boolean\n\n
+    isGenerateExampleClass()\n
     '''
 def setGenerateExampleClass():
-    '''public void setGenerateExampleClass(final boolean newGenerateExampleClass)
+    '''returns None\n\n
+    setGenerateExampleClass(final boolean newGenerateExampleClass)\n
     '''
 def getEcoreModelElement():
-    '''public EModelElement getEcoreModelElement()
+    '''returns EModelElement\n\n
+    getEcoreModelElement()\n
     '''
 def getEcorePackage():
-    '''public EPackage getEcorePackage()
+    '''returns EPackage\n\n
+    getEcorePackage()\n
     '''
 def basicGetEcorePackage():
-    '''public EPackage basicGetEcorePackage()
+    '''returns EPackage\n\n
+    basicGetEcorePackage()\n
     '''
 def setEcorePackage():
-    '''public void setEcorePackage(final EPackage newEcorePackage)
+    '''returns None\n\n
+    setEcorePackage(final EPackage newEcorePackage)\n
     '''
 def getGenModel():
-    '''public GenModel getGenModel()
+    '''returns GenModel\n\n
+    getGenModel()\n
     '''
 def getGenModelGen():
-    '''public GenModel getGenModelGen()
+    '''returns GenModel\n\n
+    getGenModelGen()\n
     '''
 def setGenModel():
-    '''public void setGenModel(final GenModel newGenModel)
+    '''returns None\n\n
+    setGenModel(final GenModel newGenModel)\n
     '''
 def getGenEnums():
-    '''public EList getGenEnums()
+    '''returns EList\n\n
+    getGenEnums()\n
     '''
 def getGenDataTypes():
-    '''public EList getGenDataTypes()
+    '''returns EList\n\n
+    getGenDataTypes()\n
     '''
 def getGenClasses():
-    '''public EList getGenClasses()
+    '''returns EList\n\n
+    getGenClasses()\n
     '''
 def getNestedGenPackages():
-    '''public EList getNestedGenPackages()
+    '''returns EList\n\n
+    getNestedGenPackages()\n
     '''
 def getGenClassifiers():
-    '''public EList getGenClassifiers()
+    '''returns EList\n\n
+    getGenClassifiers()\n
     '''
 def eInverseAdd():
-    '''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eBasicRemoveFromContainer():
-    '''public NotificationChain eBasicRemoveFromContainer(final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eBasicRemoveFromContainer(final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPackageName():
-    '''public String getPackageName()
+    '''returns String\n\n
+    getPackageName()\n
     '''
 def getInterfacePackageName():
-    '''public String getInterfacePackageName()
+    '''returns String\n\n
+    getInterfacePackageName()\n
     '''
 def getClassPackageName():
-    '''public String getClassPackageName()
+    '''returns String\n\n
+    getClassPackageName()\n
     '''
 def getUtilitiesPackageName():
-    '''public String getUtilitiesPackageName()
+    '''returns String\n\n
+    getUtilitiesPackageName()\n
     '''
 def getTestsPackageName():
-    '''public String getTestsPackageName()
+    '''returns String\n\n
+    getTestsPackageName()\n
     '''
 def getPackageID():
-    '''public String getPackageID()
+    '''returns String\n\n
+    getPackageID()\n
     '''
 def getNSName():
-    '''public String getNSName()
+    '''returns String\n\n
+    getNSName()\n
     '''
 def getNSURI():
-    '''public String getNSURI()
+    '''returns String\n\n
+    getNSURI()\n
     '''
 def getPackageInterfaceName():
-    '''public String getPackageInterfaceName()
+    '''returns String\n\n
+    getPackageInterfaceName()\n
     '''
 def getQualifiedPackageInterfaceName():
-    '''public String getQualifiedPackageInterfaceName()
+    '''returns String\n\n
+    getQualifiedPackageInterfaceName()\n
     '''
 def getImportedPackageInterfaceName():
-    '''public String getImportedPackageInterfaceName()
+    '''returns String\n\n
+    getImportedPackageInterfaceName()\n
     '''
 def getUncapPackageInterfaceName():
-    '''public String getUncapPackageInterfaceName()
+    '''returns String\n\n
+    getUncapPackageInterfaceName()\n
     '''
 def getPackageClassName():
-    '''public String getPackageClassName()
+    '''returns String\n\n
+    getPackageClassName()\n
     '''
 def getQualifiedPackageClassName():
-    '''public String getQualifiedPackageClassName()
+    '''returns String\n\n
+    getQualifiedPackageClassName()\n
     '''
 def getImportedPackageClassName():
-    '''public String getImportedPackageClassName()
+    '''returns String\n\n
+    getImportedPackageClassName()\n
     '''
 def getFactoryInterfaceName():
-    '''public String getFactoryInterfaceName()
+    '''returns String\n\n
+    getFactoryInterfaceName()\n
     '''
 def getQualifiedFactoryInterfaceName():
-    '''public String getQualifiedFactoryInterfaceName()
+    '''returns String\n\n
+    getQualifiedFactoryInterfaceName()\n
     '''
 def getImportedFactoryInterfaceName():
-    '''public String getImportedFactoryInterfaceName()
+    '''returns String\n\n
+    getImportedFactoryInterfaceName()\n
     '''
 def getUncapFactoryInterfaceName():
-    '''public String getUncapFactoryInterfaceName()
+    '''returns String\n\n
+    getUncapFactoryInterfaceName()\n
     '''
 def getFactoryClassName():
-    '''public String getFactoryClassName()
+    '''returns String\n\n
+    getFactoryClassName()\n
     '''
 def getQualifiedFactoryClassName():
-    '''public String getQualifiedFactoryClassName()
+    '''returns String\n\n
+    getQualifiedFactoryClassName()\n
     '''
 def getImportedFactoryClassName():
-    '''public String getImportedFactoryClassName()
+    '''returns String\n\n
+    getImportedFactoryClassName()\n
     '''
 def getAdapterFactoryClassName():
-    '''public String getAdapterFactoryClassName()
+    '''returns String\n\n
+    getAdapterFactoryClassName()\n
     '''
 def getQualifiedAdapterFactoryClassName():
-    '''public String getQualifiedAdapterFactoryClassName()
+    '''returns String\n\n
+    getQualifiedAdapterFactoryClassName()\n
     '''
 def getImportedAdapterFactoryClassName():
-    '''public String getImportedAdapterFactoryClassName()
+    '''returns String\n\n
+    getImportedAdapterFactoryClassName()\n
     '''
 def getUncapAdapterFactoryClassName():
-    '''public String getUncapAdapterFactoryClassName()
+    '''returns String\n\n
+    getUncapAdapterFactoryClassName()\n
     '''
 def getSwitchClassName():
-    '''public String getSwitchClassName()
+    '''returns String\n\n
+    getSwitchClassName()\n
     '''
 def getTestSuiteClassName():
-    '''public String getTestSuiteClassName()
+    '''returns String\n\n
+    getTestSuiteClassName()\n
     '''
 def getExampleClassName():
-    '''public String getExampleClassName()
+    '''returns String\n\n
+    getExampleClassName()\n
     '''
 def getQualifiedTestSuiteClassName():
-    '''public String getQualifiedTestSuiteClassName()
+    '''returns String\n\n
+    getQualifiedTestSuiteClassName()\n
     '''
 def getImportedTestSuiteClassName():
-    '''public String getImportedTestSuiteClassName()
+    '''returns String\n\n
+    getImportedTestSuiteClassName()\n
     '''
 def hasConstraints():
-    '''public boolean hasConstraints()
+    '''returns boolean\n\n
+    hasConstraints()\n
     '''
 def getValidatorClassName():
-    '''public String getValidatorClassName()
+    '''returns String\n\n
+    getValidatorClassName()\n
     '''
 def getImportedValidatorClassName():
-    '''public String getImportedValidatorClassName()
+    '''returns String\n\n
+    getImportedValidatorClassName()\n
     '''
 def getAllGenDataTypes():
-    '''public List getAllGenDataTypes()
+    '''returns List\n\n
+    getAllGenDataTypes()\n
     '''
 def getOrderedGenClasses():
-    '''public List getOrderedGenClasses()
+    '''returns List\n\n
+    getOrderedGenClasses()\n
     '''
 def getOrderedGenClassifiers():
-    '''public List getOrderedGenClassifiers()
+    '''returns List\n\n
+    getOrderedGenClassifiers()\n
     '''
 def getClassifierID():
-    '''public String getClassifierID(final GenClassifier genClassifier)
+    '''returns String\n\n
+    getClassifierID(final GenClassifier genClassifier)\n
     '''
 def getClassifierValue():
-    '''public int getClassifierValue(final GenClassifier genClassifier)
+    '''returns int\n\n
+    getClassifierValue(final GenClassifier genClassifier)\n
     '''
 def getLocalClassifierIndex():
-    '''public int getLocalClassifierIndex(final GenClassifier genClassifier)
+    '''returns int\n\n
+    getLocalClassifierIndex(final GenClassifier genClassifier)\n
     '''
 def getPackageSimpleDependencies():
-    '''public List getPackageSimpleDependencies()
+    '''returns List\n\n
+    getPackageSimpleDependencies()\n
     '''
 def getPackageInterDependencies():
-    '''public List getPackageInterDependencies()
+    '''returns List\n\n
+    getPackageInterDependencies()\n
     '''
 def getPackageLoadInterDependencies():
-    '''public List getPackageLoadInterDependencies()
+    '''returns List\n\n
+    getPackageLoadInterDependencies()\n
     '''
 def getPackageBuildInterDependencies():
-    '''public List getPackageBuildInterDependencies()
+    '''returns List\n\n
+    getPackageBuildInterDependencies()\n
     '''
 def getPackageInitializationDependencies():
-    '''public List getPackageInitializationDependencies()
+    '''returns List\n\n
+    getPackageInitializationDependencies()\n
     '''
 def getPackageInstanceVariable():
-    '''public String getPackageInstanceVariable(final GenPackage genPackage)
+    '''returns String\n\n
+    getPackageInstanceVariable(final GenPackage genPackage)\n
     '''
 def getSubGenPackages():
-    '''public List getSubGenPackages()
+    '''returns List\n\n
+    getSubGenPackages()\n
     '''
 def getSuperGenPackage():
-    '''public GenPackage getSuperGenPackage()
+    '''returns GenPackage\n\n
+    getSuperGenPackage()\n
     '''
 def getRootGenPackage():
-    '''public GenPackage getRootGenPackage()
+    '''returns GenPackage\n\n
+    getRootGenPackage()\n
     '''
 def isLoadingInitialization():
-    '''public boolean isLoadingInitialization()
+    '''returns boolean\n\n
+    isLoadingInitialization()\n
     '''
 def isLoadedInitialization():
-    '''public boolean isLoadedInitialization()
+    '''returns boolean\n\n
+    isLoadedInitialization()\n
     '''
 def isEcorePackage():
-    '''public boolean isEcorePackage()
+    '''returns boolean\n\n
+    isEcorePackage()\n
     '''
 def hasJavaLangConflict():
-    '''public boolean hasJavaLangConflict()
+    '''returns boolean\n\n
+    hasJavaLangConflict()\n
     '''
 def getJavaLangConflicts():
-    '''public List getJavaLangConflicts()
+    '''returns List\n\n
+    getJavaLangConflicts()\n
     '''
 def hasInterfaceImplConflict():
-    '''public boolean hasInterfaceImplConflict()
+    '''returns boolean\n\n
+    hasInterfaceImplConflict()\n
     '''
 def getAllSwitchGenClasses():
-    '''public List getAllSwitchGenClasses()
+    '''returns List\n\n
+    getAllSwitchGenClasses()\n
     '''
 def getClassUniqueName():
-    '''public String getClassUniqueName(final GenClass genClass)
+    '''returns String\n\n
+    getClassUniqueName(final GenClass genClass)\n
     '''
 def getAllValidatorBaseGenPackages():
-    '''public List getAllValidatorBaseGenPackages()
+    '''returns List\n\n
+    getAllValidatorBaseGenPackages()\n
     '''
 def getValidatorPackageUniqueSafeName():
-    '''public String getValidatorPackageUniqueSafeName(final GenPackage genPackage)
+    '''returns String\n\n
+    getValidatorPackageUniqueSafeName(final GenPackage genPackage)\n
     '''
 def initialize():
-    '''public void initialize(final EPackage ePackage)
+    '''returns None\n\n
+    initialize(final EPackage ePackage)\n
     '''
 def generate():
-    '''public void generate(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generate(final IProgressMonitor progressMonitor)\n
     '''
 def generateSchema():
-    '''public void generateSchema()
-    public void generateSchema(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateSchema()\n
+    generateSchema(final IProgressMonitor progressMonitor)\n
     '''
 def canGenerateSchema():
-    '''public boolean canGenerateSchema()
+    '''returns boolean\n\n
+    canGenerateSchema()\n
     '''
 def generatePackageSerialization():
-    '''public void generatePackageSerialization(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generatePackageSerialization(final IProgressMonitor progressMonitor)\n
     '''
 def getProviderPackageName():
-    '''public String getProviderPackageName()
+    '''returns String\n\n
+    getProviderPackageName()\n
     '''
 def getPresentationPackageName():
-    '''public String getPresentationPackageName()
+    '''returns String\n\n
+    getPresentationPackageName()\n
     '''
 def getQualifiedPackageName():
-    '''public String getQualifiedPackageName()
+    '''returns String\n\n
+    getQualifiedPackageName()\n
     '''
 def getItemProviderAdapterFactoryClassName():
-    '''public String getItemProviderAdapterFactoryClassName()
+    '''returns String\n\n
+    getItemProviderAdapterFactoryClassName()\n
     '''
 def getQualifiedItemProviderAdapterFactoryClassName():
-    '''public String getQualifiedItemProviderAdapterFactoryClassName()
+    '''returns String\n\n
+    getQualifiedItemProviderAdapterFactoryClassName()\n
     '''
 def getImportedItemProviderAdapterFactoryClassName():
-    '''public String getImportedItemProviderAdapterFactoryClassName()
+    '''returns String\n\n
+    getImportedItemProviderAdapterFactoryClassName()\n
     '''
 def getEditorClassName():
-    '''public String getEditorClassName()
+    '''returns String\n\n
+    getEditorClassName()\n
     '''
 def getQualifiedEditorClassName():
-    '''public String getQualifiedEditorClassName()
+    '''returns String\n\n
+    getQualifiedEditorClassName()\n
     '''
 def getImportedEditorClassName():
-    '''public String getImportedEditorClassName()
+    '''returns String\n\n
+    getImportedEditorClassName()\n
     '''
 def getModelWizardClassName():
-    '''public String getModelWizardClassName()
+    '''returns String\n\n
+    getModelWizardClassName()\n
     '''
 def getQualifiedModelWizardClassName():
-    '''public String getQualifiedModelWizardClassName()
+    '''returns String\n\n
+    getQualifiedModelWizardClassName()\n
     '''
 def getImportedModelWizardClassName():
-    '''public String getImportedModelWizardClassName()
+    '''returns String\n\n
+    getImportedModelWizardClassName()\n
     '''
 def getActionBarContributorClassName():
-    '''public String getActionBarContributorClassName()
+    '''returns String\n\n
+    getActionBarContributorClassName()\n
     '''
 def getQualifiedActionBarContributorClassName():
-    '''public String getQualifiedActionBarContributorClassName()
+    '''returns String\n\n
+    getQualifiedActionBarContributorClassName()\n
     '''
 def getImportedActionBarContributorClassName():
-    '''public String getImportedActionBarContributorClassName()
+    '''returns String\n\n
+    getImportedActionBarContributorClassName()\n
     '''
 def getAdapterFactoryDelegateName():
-    '''public String getAdapterFactoryDelegateName(final GenPackage genDelegate)
+    '''returns String\n\n
+    getAdapterFactoryDelegateName(final GenPackage genDelegate)\n
     '''
 def getUncapAdapterFactoryDelegateName():
-    '''public String getUncapAdapterFactoryDelegateName(final GenPackage genDelegate)
+    '''returns String\n\n
+    getUncapAdapterFactoryDelegateName(final GenPackage genDelegate)\n
     '''
 def getEditPluginClassName():
-    '''public String getEditPluginClassName()
+    '''returns String\n\n
+    getEditPluginClassName()\n
     '''
 def getQualifiedEditPluginClassName():
-    '''public String getQualifiedEditPluginClassName()
+    '''returns String\n\n
+    getQualifiedEditPluginClassName()\n
     '''
 def getImportedEditPluginClassName():
-    '''public String getImportedEditPluginClassName()
+    '''returns String\n\n
+    getImportedEditPluginClassName()\n
     '''
 def getEditorPluginClassName():
-    '''public String getEditorPluginClassName()
+    '''returns String\n\n
+    getEditorPluginClassName()\n
     '''
 def getQualifiedEditorPluginClassName():
-    '''public String getQualifiedEditorPluginClassName()
+    '''returns String\n\n
+    getQualifiedEditorPluginClassName()\n
     '''
 def getImportedEditorPluginClassName():
-    '''public String getImportedEditorPluginClassName()
+    '''returns String\n\n
+    getImportedEditorPluginClassName()\n
     '''
 def getCapPackageID():
-    '''public String getCapPackageID()
+    '''returns String\n\n
+    getCapPackageID()\n
     '''
 def getAllGenFeatures():
-    '''public List getAllGenFeatures()
+    '''returns List\n\n
+    getAllGenFeatures()\n
     '''
 def getFilteredAllGenFeatures():
-    '''public List getFilteredAllGenFeatures()
+    '''returns List\n\n
+    getFilteredAllGenFeatures()\n
     '''
 def getAdapterDelegatePackages():
-    '''public List getAdapterDelegatePackages()
+    '''returns List\n\n
+    getAdapterDelegatePackages()\n
     '''
 def getAdapterDelegateSuperClasses():
-    '''public List getAdapterDelegateSuperClasses()
+    '''returns List\n\n
+    getAdapterDelegateSuperClasses()\n
     '''
 def hasStatefulProvider():
-    '''public boolean hasStatefulProvider()
+    '''returns boolean\n\n
+    hasStatefulProvider()\n
     '''
 def generateEdit():
-    '''public void generateEdit(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateEdit(final IProgressMonitor progressMonitor)\n
     '''
 def generateEditor():
-    '''public void generateEditor(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateEditor(final IProgressMonitor progressMonitor)\n
     '''
 def hasTests():
-    '''public boolean hasTests()
+    '''returns boolean\n\n
+    hasTests()\n
     '''
 def canGenerateTests():
-    '''public boolean canGenerateTests()
+    '''returns boolean\n\n
+    canGenerateTests()\n
     '''
 def generateTests():
-    '''public void generateTests(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateTests(final IProgressMonitor progressMonitor)\n
     '''
 def getModelIconFileName():
-    '''public String getModelIconFileName()
+    '''returns String\n\n
+    getModelIconFileName()\n
     '''
 def getModelWizardIconFileName():
-    '''public String getModelWizardIconFileName()
+    '''returns String\n\n
+    getModelWizardIconFileName()\n
     '''
 def hasClassifiers():
-    '''public boolean hasClassifiers()
-    public boolean hasClassifiers(final boolean traverseNestedPackages)
+    '''returns boolean\n\n
+    hasClassifiers()\n
+    hasClassifiers(final boolean traverseNestedPackages)\n
     '''
 def getModelInfo():
-    '''public String getModelInfo()
+    '''returns String\n\n
+    getModelInfo()\n
     '''
 def reconcile():
-    '''public boolean reconcile(final GenPackage oldGenPackageVersion)
-    public boolean reconcile()
+    '''returns boolean\n\n
+    reconcile(final GenPackage oldGenPackageVersion)\n
+    reconcile()\n
     '''
 def getAnnotationSources():
-    '''public List getAnnotationSources()
+    '''returns List\n\n
+    getAnnotationSources()\n
     '''
 def getAnnotationSourceIdentifier():
-    '''public String getAnnotationSourceIdentifier(final String annotationSource)
+    '''returns String\n\n
+    getAnnotationSourceIdentifier(final String annotationSource)\n
     '''
 def getAllAnnotations():
-    '''public List getAllAnnotations()
+    '''returns List\n\n
+    getAllAnnotations()\n
     '''
 def getAnnotatedModelElementAccessor():
-    '''public String getAnnotatedModelElementAccessor(final EAnnotation eAnnotation)
+    '''returns String\n\n
+    getAnnotatedModelElementAccessor(final EAnnotation eAnnotation)\n
     '''
 def caseEPackage():
-    '''public Object caseEPackage(final EPackage ePackage)
+    '''returns Object\n\n
+    caseEPackage(final EPackage ePackage)\n
     '''
 def caseEClassifier():
-    '''public Object caseEClassifier(final EClassifier eClassifier)
+    '''returns Object\n\n
+    caseEClassifier(final EClassifier eClassifier)\n
     '''
 def caseEStructuralFeature():
-    '''public Object caseEStructuralFeature(final EStructuralFeature eStructuralFeature)
+    '''returns Object\n\n
+    caseEStructuralFeature(final EStructuralFeature eStructuralFeature)\n
     '''
 def caseEOperation():
-    '''public Object caseEOperation(final EOperation eOperation)
+    '''returns Object\n\n
+    caseEOperation(final EOperation eOperation)\n
     '''
 def caseEEnumLiteral():
-    '''public Object caseEEnumLiteral(final EEnumLiteral eEnumLiteral)
+    '''returns Object\n\n
+    caseEEnumLiteral(final EEnumLiteral eEnumLiteral)\n
     '''
 def caseEParameter():
-    '''public Object caseEParameter(final EParameter eParameter)
+    '''returns Object\n\n
+    caseEParameter(final EParameter eParameter)\n
     '''
 def getResourceClassName():
-    '''public String getResourceClassName()
+    '''returns String\n\n
+    getResourceClassName()\n
     '''
 def getQualifiedResourceClassName():
-    '''public String getQualifiedResourceClassName()
+    '''returns String\n\n
+    getQualifiedResourceClassName()\n
     '''
 def getImportedResourceClassName():
-    '''public String getImportedResourceClassName()
+    '''returns String\n\n
+    getImportedResourceClassName()\n
     '''
 def getImportedResourceBaseClassName():
-    '''public String getImportedResourceBaseClassName()
+    '''returns String\n\n
+    getImportedResourceBaseClassName()\n
     '''
 def getResourceFactoryClassName():
-    '''public String getResourceFactoryClassName()
+    '''returns String\n\n
+    getResourceFactoryClassName()\n
     '''
 def getQualifiedResourceFactoryClassName():
-    '''public String getQualifiedResourceFactoryClassName()
+    '''returns String\n\n
+    getQualifiedResourceFactoryClassName()\n
     '''
 def getImportedResourceFactoryClassName():
-    '''public String getImportedResourceFactoryClassName()
+    '''returns String\n\n
+    getImportedResourceFactoryClassName()\n
     '''
 def getImportedResourceFactoryBaseClassName():
-    '''public String getImportedResourceFactoryBaseClassName()
+    '''returns String\n\n
+    getImportedResourceFactoryBaseClassName()\n
     '''
 def hasDocumentRoot():
-    '''public boolean hasDocumentRoot()
+    '''returns boolean\n\n
+    hasDocumentRoot()\n
     '''
 def hasExtendedMetaData():
-    '''public boolean hasExtendedMetaData()
+    '''returns boolean\n\n
+    hasExtendedMetaData()\n
     '''
 def hasXMLMap():
-    '''public boolean hasXMLMap()
+    '''returns boolean\n\n
+    hasXMLMap()\n
     '''
 def hasTargetNamespace():
-    '''public boolean hasTargetNamespace()
+    '''returns boolean\n\n
+    hasTargetNamespace()\n
     '''
 def getSerializedPackageFilename():
-    '''public String getSerializedPackageFilename()
+    '''returns String\n\n
+    getSerializedPackageFilename()\n
     '''
 def getProviderSupportedTypes():
-    '''public List getProviderSupportedTypes()
+    '''returns List\n\n
+    getProviderSupportedTypes()\n
     '''
 def getRootClass():
-    '''public GenClass getRootClass()
+    '''returns GenClass\n\n
+    getRootClass()\n
     '''
 def getRootFeature():
-    '''public GenFeature getRootFeature()
+    '''returns GenFeature\n\n
+    getRootFeature()\n
     '''
 def hasConcreteClasses():
-    '''public boolean hasConcreteClasses()
+    '''returns boolean\n\n
+    hasConcreteClasses()\n
     '''
-def DependencyHelper():
-    '''public DependencyHelper()
+def ():
+    '''returns ValidatorHelper\n\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def getSimpleDependencies():
-    '''public List getSimpleDependencies()
+    '''returns List\n\n
+    getSimpleDependencies()\n
     '''
 def getInterDependencies():
-    '''public List getInterDependencies()
+    '''returns List\n\n
+    getInterDependencies()\n
     '''
 def getLoadInterDependencies():
-    '''public List getLoadInterDependencies()
+    '''returns List\n\n
+    getLoadInterDependencies()\n
     '''
 def getBuildInterDependencies():
-    '''public List getBuildInterDependencies()
+    '''returns List\n\n
+    getBuildInterDependencies()\n
     '''
 def getInitializationDependencies():
-    '''public List getInitializationDependencies()
-    '''
-def SwitchHelper():
-    '''public SwitchHelper()
+    '''returns List\n\n
+    getInitializationDependencies()\n
     '''
 def getAllGenClasses():
-    '''public List getAllGenClasses()
-    '''
-def ValidatorHelper():
-    '''public ValidatorHelper()
+    '''returns List\n\n
+    getAllGenClasses()\n
     '''
 def getAllBaseGenPackages():
-    '''public List getAllBaseGenPackages()
+    '''returns List\n\n
+    getAllBaseGenPackages()\n
     '''
 def getPackageUniqueSafeName():
-    '''public String getPackageUniqueSafeName(final GenPackage genPackage)
+    '''returns String\n\n
+    getPackageUniqueSafeName(final GenPackage genPackage)\n
     '''

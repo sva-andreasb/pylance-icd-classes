@@ -1,3 +1,4 @@
 def clearListTable():
-    '''public int clearListTable()
+    '''returns int\n\n
+    clearListTable()\n
     '''

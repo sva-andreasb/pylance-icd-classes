@@ -1,3 +1,4 @@
-def GetBucketAccelerateConfigurationRequest():
-    '''public GetBucketAccelerateConfigurationRequest(final String bucketName)
+def ():
+    '''returns GetBucketAccelerateConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

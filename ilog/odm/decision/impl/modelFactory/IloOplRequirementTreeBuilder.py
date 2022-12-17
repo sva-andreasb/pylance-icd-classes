@@ -1,47 +1,62 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloOplRequirementTreeBuilder():
-    '''public IloOplRequirementTreeBuilder(final IloOplSubModelController controller, final IloCompiledOptimDesc optimDesc)
-    public IloOplRequirementTreeBuilder(final IloOplCplexController controller, final IloOptimDesc desc)
+def ():
+    '''returns IloOplRequirementTreeBuilder\n\n
+    (final IloOplSubModelController controller, final IloCompiledOptimDesc optimDesc)\n
+    (final IloOplCplexController controller, final IloOptimDesc desc)\n
     '''
 def setLabelScriptEvaluator():
-    '''public void setLabelScriptEvaluator(final OPLScriptExpressionEvaluator scriptEvaluator)
+    '''returns None\n\n
+    setLabelScriptEvaluator(final OPLScriptExpressionEvaluator scriptEvaluator)\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def setIndexTupleEvaluator():
-    '''public void setIndexTupleEvaluator(final MapIndexEvaluator indexTupleEvaluator)
+    '''returns None\n\n
+    setIndexTupleEvaluator(final MapIndexEvaluator indexTupleEvaluator)\n
     '''
 def isEvalutingKey():
-    '''public boolean isEvalutingKey()
+    '''returns boolean\n\n
+    isEvalutingKey()\n
     '''
 def publishGoalsBreakdown():
-    '''public void publishGoalsBreakdown()
+    '''returns None\n\n
+    publishGoalsBreakdown()\n
     '''
 def makeGoals():
-    '''public void makeGoals()
+    '''returns None\n\n
+    makeGoals()\n
     '''
 def registerTree():
-    '''public void registerTree()
+    '''returns None\n\n
+    registerTree()\n
     '''
 def updateControllerModelName():
-    '''public void updateControllerModelName()
+    '''returns None\n\n
+    updateControllerModelName()\n
     '''
 def getOplModelAccessor():
-    '''public IloOplModelAccessor getOplModelAccessor()
+    '''returns IloOplModelAccessor\n\n
+    getOplModelAccessor()\n
     '''
 def evaluateMapIndex():
-    '''public Object evaluateMapIndex(final IloOplObject value, final boolean canReturnTuple)
+    '''returns Object\n\n
+    evaluateMapIndex(final IloOplObject value, final boolean canReturnTuple)\n
     '''
 def isInLabelCallback():
-    '''public boolean isInLabelCallback()
+    '''returns boolean\n\n
+    isInLabelCallback()\n
     '''
 def evaluate():
-    '''public Object evaluate(final IloOplScriptExpression expr, final Parameter elts, final IloStringArray cachedArray, final boolean canReturnTuple)
+    '''returns Object\n\n
+    evaluate(final IloOplScriptExpression expr, final Parameter elts, final IloStringArray cachedArray, final boolean canReturnTuple)\n
     '''
 def setEvaluatingKey():
-    '''public void setEvaluatingKey(final boolean isEvaluatingKey)
+    '''returns None\n\n
+    setEvaluatingKey(final boolean isEvaluatingKey)\n
     '''
 def getEvaluatorContext():
-    '''public IloOplArgumentDescEvaluatorContext getEvaluatorContext()
+    '''returns IloOplArgumentDescEvaluatorContext\n\n
+    getEvaluatorContext()\n
     '''

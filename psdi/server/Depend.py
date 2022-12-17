@@ -1,12 +1,16 @@
-def Depend():
-    '''public Depend()
+def ():
+    '''returns Depend\n\n
+    ()\n
     '''
 def setSleep():
-    '''public void setSleep(final int value)
+    '''returns None\n\n
+    setSleep(final int value)\n
     '''
 def getSleep():
-    '''public int getSleep()
+    '''returns int\n\n
+    getSleep()\n
     '''
 def on():
-    '''public void on(final String serviceName, final String[] serviceNames)
+    '''returns None\n\n
+    on(final String serviceName, final String[] serviceNames)\n
     '''

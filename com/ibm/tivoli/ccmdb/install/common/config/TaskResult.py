@@ -1,50 +1,66 @@
-def TaskResult():
-    '''public TaskResult(final Status s, final int rc, final String message)
-    public TaskResult(final int rc, final String message)
-    public TaskResult()
+def ():
+    '''returns TaskResult\n\n
+    (final Status s, final int rc, final String message)\n
+    (final int rc, final String message)\n
+    ()\n
     '''
 def setStatus():
-    '''public TaskResult setStatus(final Status s)
+    '''returns TaskResult\n\n
+    setStatus(final Status s)\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def isSuccess():
-    '''public boolean isSuccess()
+    '''returns boolean\n\n
+    isSuccess()\n
     '''
 def isFailure():
-    '''public boolean isFailure()
+    '''returns boolean\n\n
+    isFailure()\n
     '''
 def isWarning():
-    '''public boolean isWarning()
+    '''returns boolean\n\n
+    isWarning()\n
     '''
 def getReturnCode():
-    '''public int getReturnCode()
+    '''returns int\n\n
+    getReturnCode()\n
     '''
 def setReturnCode():
-    '''public void setReturnCode(final int rc)
+    '''returns None\n\n
+    setReturnCode(final int rc)\n
     '''
 def getCompletionMessage():
-    '''public String getCompletionMessage()
+    '''returns String\n\n
+    getCompletionMessage()\n
     '''
 def setCompletionMessage():
-    '''public void setCompletionMessage(final String message)
+    '''returns None\n\n
+    setCompletionMessage(final String message)\n
     '''
 def getStdOut():
-    '''public String getStdOut()
+    '''returns String\n\n
+    getStdOut()\n
     '''
 def updateStdOut():
-    '''public void updateStdOut(final String stdout)
+    '''returns None\n\n
+    updateStdOut(final String stdout)\n
     '''
 def getStdErr():
-    '''public String getStdErr()
+    '''returns String\n\n
+    getStdErr()\n
     '''
 def updateStdErr():
-    '''public void updateStdErr(final String stderr)
+    '''returns None\n\n
+    updateStdErr(final String stderr)\n
     '''
 def publish():
-    '''public TaskResult publish()
+    '''returns TaskResult\n\n
+    publish()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

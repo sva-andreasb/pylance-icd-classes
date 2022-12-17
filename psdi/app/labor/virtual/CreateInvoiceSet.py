@@ -1,21 +1,28 @@
-def CreateInvoiceSet():
-    '''public CreateInvoiceSet(final MboServerInterface ms)
+def ():
+    '''returns CreateInvoiceSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def createInvoiceInput():
-    '''public MboSetRemote createInvoiceInput(final MboSetRemote labTransSet)
+    '''returns MboSetRemote\n\n
+    createInvoiceInput(final MboSetRemote labTransSet)\n
     '''
 def getAutoKey():
-    '''public String getAutoKey()
+    '''returns String\n\n
+    getAutoKey()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def createInvoicesByWO():
-    '''public void createInvoicesByWO(final MboSetRemote labTransSet, final MboRemote createInvoice)
+    '''returns None\n\n
+    createInvoicesByWO(final MboSetRemote labTransSet, final MboRemote createInvoice)\n
     '''
 def createInvoicesByLabTrans():
-    '''public void createInvoicesByLabTrans(final MboSetRemote labTransSet, final MboRemote createInvoice)
+    '''returns None\n\n
+    createInvoicesByLabTrans(final MboSetRemote labTransSet, final MboRemote createInvoice)\n
     '''

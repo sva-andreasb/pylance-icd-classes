@@ -1,6 +1,8 @@
-def FldCommonContractPreTaxTotal():
-    '''public FldCommonContractPreTaxTotal(final MboValue mbv)
+def ():
+    '''returns FldCommonContractPreTaxTotal\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

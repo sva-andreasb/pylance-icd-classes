@@ -1,84 +1,110 @@
-def AdminClientImpl():
-    '''public AdminClientImpl(final InvocationHandler handler)
-    public AdminClientImpl(final AdminServiceProxy proxy)
+def ():
+    '''returns AdminClientImpl\n\n
+    (final InvocationHandler handler)\n
+    (final AdminServiceProxy proxy)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getConnectorProperties():
-    '''public Properties getConnectorProperties()
+    '''returns Properties\n\n
+    getConnectorProperties()\n
     '''
 def isAlive():
-    '''public Session isAlive()
-    public Session isAlive(final int timeout)
+    '''returns Session\n\n
+    isAlive()\n
+    isAlive(final int timeout)\n
     '''
 def queryNames():
-    '''public Set queryNames(final ObjectName name, final QueryExp query)
+    '''returns Set\n\n
+    queryNames(final ObjectName name, final QueryExp query)\n
     '''
 def getMBeanCount():
-    '''public Integer getMBeanCount()
+    '''returns Integer\n\n
+    getMBeanCount()\n
     '''
 def getDomainName():
-    '''public String getDomainName()
+    '''returns String\n\n
+    getDomainName()\n
     '''
 def getDefaultDomain():
-    '''public String getDefaultDomain()
+    '''returns String\n\n
+    getDefaultDomain()\n
     '''
 def getServerMBean():
-    '''public ObjectName getServerMBean()
+    '''returns ObjectName\n\n
+    getServerMBean()\n
     '''
 def getMBeanInfo():
-    '''public MBeanInfo getMBeanInfo(final ObjectName name)
+    '''returns MBeanInfo\n\n
+    getMBeanInfo(final ObjectName name)\n
     '''
 def isInstanceOf():
-    '''public boolean isInstanceOf(final ObjectName name, final String className)
+    '''returns boolean\n\n
+    isInstanceOf(final ObjectName name, final String className)\n
     '''
 def isRegistered():
-    '''public boolean isRegistered(final ObjectName name)
+    '''returns boolean\n\n
+    isRegistered(final ObjectName name)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final ObjectName name, final String attribute)
+    '''returns Object\n\n
+    getAttribute(final ObjectName name, final String attribute)\n
     '''
 def getAttributes():
-    '''public AttributeList getAttributes(final ObjectName name, final String[] attributes)
+    '''returns AttributeList\n\n
+    getAttributes(final ObjectName name, final String[] attributes)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final ObjectName name, final Attribute attribute)
+    '''returns None\n\n
+    setAttribute(final ObjectName name, final Attribute attribute)\n
     '''
 def setAttributes():
-    '''public AttributeList setAttributes(final ObjectName name, final AttributeList attributes)
+    '''returns AttributeList\n\n
+    setAttributes(final ObjectName name, final AttributeList attributes)\n
     '''
 def invoke():
-    '''public Object invoke(final ObjectName name, final String operationName, final Object[] params, final String[] signature)
+    '''returns Object\n\n
+    invoke(final ObjectName name, final String operationName, final Object[] params, final String[] signature)\n
     '''
 def addNotificationListener():
-    '''public void addNotificationListener(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)
-    public void addNotificationListener(final ObjectName name, final ObjectName listener, final NotificationFilter filter, final Object handback)
+    '''returns None\n\n
+    addNotificationListener(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)\n
+    addNotificationListener(final ObjectName name, final ObjectName listener, final NotificationFilter filter, final Object handback)\n
     '''
 def addNotificationListenerExtended():
-    '''public void addNotificationListenerExtended(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)
+    '''returns None\n\n
+    addNotificationListenerExtended(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)\n
     '''
 def removeNotificationListener():
-    '''public void removeNotificationListener(final ObjectName name, final NotificationListener listener)
-    public void removeNotificationListener(final ObjectName name, final ObjectName listener)
-    public void removeNotificationListener(final ObjectName name, final ObjectName listener, final NotificationFilter filter, final Object handback)
+    '''returns None\n\n
+    removeNotificationListener(final ObjectName name, final NotificationListener listener)\n
+    removeNotificationListener(final ObjectName name, final ObjectName listener)\n
+    removeNotificationListener(final ObjectName name, final ObjectName listener, final NotificationFilter filter, final Object handback)\n
     '''
 def removeNotificationListenerExtended():
-    '''public void removeNotificationListenerExtended(final ObjectName name, final NotificationListener listener)
-    public void removeNotificationListenerExtended(final NotificationListener listener)
+    '''returns None\n\n
+    removeNotificationListenerExtended(final ObjectName name, final NotificationListener listener)\n
+    removeNotificationListenerExtended(final NotificationListener listener)\n
     '''
 def getProxy():
-    '''public AdminServiceProxy getProxy()
+    '''returns AdminServiceProxy\n\n
+    getProxy()\n
     '''
 def queryMBeans():
-    '''public Set queryMBeans(final ObjectName name, final QueryExp query)
+    '''returns Set\n\n
+    queryMBeans(final ObjectName name, final QueryExp query)\n
     '''
 def getObjectInstance():
-    '''public ObjectInstance getObjectInstance(final ObjectName objectName)
+    '''returns ObjectInstance\n\n
+    getObjectInstance(final ObjectName objectName)\n
     '''
 def getClassLoaderFor():
-    '''public ClassLoader getClassLoaderFor(final ObjectName name)
+    '''returns ClassLoader\n\n
+    getClassLoaderFor(final ObjectName name)\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader(final ObjectName name)
+    '''returns ClassLoader\n\n
+    getClassLoader(final ObjectName name)\n
     '''

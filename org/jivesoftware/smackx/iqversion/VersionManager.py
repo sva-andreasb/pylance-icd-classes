@@ -1,29 +1,25 @@
-def setDefaultVersion():
-    '''public static void setDefaultVersion(final String name, final String version)
-    public static void setDefaultVersion(final String name, final String version, final String os)
-    '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
-    '''
-def getInstanceFor():
-    '''public static synchronized VersionManager getInstanceFor(final XMPPConnection connection)
-    '''
-def setAutoAppendSmackVersion():
-    '''public static void setAutoAppendSmackVersion(final boolean autoAppendSmackVersion)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def setVersion():
-    '''public void setVersion(final String name, final String version)
-    public void setVersion(final String name, final String version, final String os)
+    '''returns None\n\n
+    setVersion(final String name, final String version)\n
+    setVersion(final String name, final String version, final String os)\n
     '''
 def unsetVersion():
-    '''public void unsetVersion()
+    '''returns None\n\n
+    unsetVersion()\n
     '''
 def isSupported():
-    '''public boolean isSupported(final Jid jid)
+    '''returns boolean\n\n
+    isSupported(final Jid jid)\n
     '''
 def getVersion():
-    '''public Version getVersion(final Jid jid)
+    '''returns Version\n\n
+    getVersion(final Jid jid)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

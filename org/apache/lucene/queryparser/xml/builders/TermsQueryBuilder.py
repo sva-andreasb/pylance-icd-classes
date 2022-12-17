@@ -1,6 +1,8 @@
-def TermsQueryBuilder():
-    '''public TermsQueryBuilder(final Analyzer analyzer)
+def ():
+    '''returns TermsQueryBuilder\n\n
+    (final Analyzer analyzer)\n
     '''
 def getQuery():
-    '''public Query getQuery(final Element e)
+    '''returns Query\n\n
+    getQuery(final Element e)\n
     '''

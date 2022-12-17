@@ -1,29 +1,38 @@
-def DSMLReader():
-    '''public DSMLReader(final String fileName)
-    public DSMLReader(final InputStream in)
-    public DSMLReader(final Reader characterStream)
+def ():
+    '''returns DSMLReader\n\n
+    (final String fileName)\n
+    (final InputStream in)\n
+    (final Reader characterStream)\n
     '''
 def readMessage():
-    '''public LDAPMessage readMessage()
+    '''returns LDAPMessage\n\n
+    readMessage()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def isRequest():
-    '''public boolean isRequest()
+    '''returns boolean\n\n
+    isRequest()\n
     '''
 def getBatchRequestID():
-    '''public String getBatchRequestID()
+    '''returns String\n\n
+    getBatchRequestID()\n
     '''
 def isParallelProcessing():
-    '''public boolean isParallelProcessing()
+    '''returns boolean\n\n
+    isParallelProcessing()\n
     '''
 def isResponseUnordered():
-    '''public boolean isResponseUnordered()
+    '''returns boolean\n\n
+    isResponseUnordered()\n
     '''
 def isResumeOnError():
-    '''public boolean isResumeOnError()
+    '''returns boolean\n\n
+    isResumeOnError()\n
     '''
 def getErrors():
-    '''public ArrayList getErrors()
+    '''returns ArrayList\n\n
+    getErrors()\n
     '''

@@ -1,25 +1,32 @@
-def StringEntity():
-    '''public StringEntity(final String string, final ContentType contentType)
-    public StringEntity(final String string, final String mimeType, final String charset)
-    public StringEntity(final String string, final String charset)
-    public StringEntity(final String string, final Charset charset)
-    public StringEntity(final String string)
+def ():
+    '''returns StringEntity\n\n
+    (final String string, final ContentType contentType)\n
+    (final String string, final String mimeType, final String charset)\n
+    (final String string, final String charset)\n
+    (final String string, final Charset charset)\n
+    (final String string)\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''
 def isStreaming():
-    '''public boolean isStreaming()
+    '''returns boolean\n\n
+    isStreaming()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

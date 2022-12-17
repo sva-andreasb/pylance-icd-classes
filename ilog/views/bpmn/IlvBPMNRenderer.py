@@ -1,13 +1,17 @@
-def IlvBPMNRenderer():
-    '''public IlvBPMNRenderer(final IlvSDMRenderer ilvSDMRenderer)
-    public IlvBPMNRenderer()
+def ():
+    '''returns IlvBPMNRenderer\n\n
+    (final IlvSDMRenderer ilvSDMRenderer)\n
+    ()\n
     '''
 def nodeGraphicAdded():
-    '''public void nodeGraphicAdded(final IlvSDMEngine ilvSDMEngine, final Object o, final IlvGraphic ilvGraphic, final boolean b)
+    '''returns None\n\n
+    nodeGraphicAdded(final IlvSDMEngine ilvSDMEngine, final Object o, final IlvGraphic ilvGraphic, final boolean b)\n
     '''
 def managerCollapsed():
-    '''public void managerCollapsed(final ManagerExpansionEvent managerExpansionEvent)
+    '''returns None\n\n
+    managerCollapsed(final ManagerExpansionEvent managerExpansionEvent)\n
     '''
 def managerExpanded():
-    '''public void managerExpanded(final ManagerExpansionEvent managerExpansionEvent)
+    '''returns None\n\n
+    managerExpanded(final ManagerExpansionEvent managerExpansionEvent)\n
     '''

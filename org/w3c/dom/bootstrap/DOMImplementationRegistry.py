@@ -1,24 +1,27 @@
 PROPERTY = "String  \"org.w3c.dom.DOMImplementationSourceList\""
-def newInstance():
-    '''public static DOMImplementationRegistry newInstance()
-    '''
 def getDOMImplementation():
-    '''public DOMImplementation getDOMImplementation(final String s)
+    '''returns DOMImplementation\n\n
+    getDOMImplementation(final String s)\n
     '''
 def getDOMImplementationList():
-    '''public DOMImplementationList getDOMImplementationList(final String s)
+    '''returns DOMImplementationList\n\n
+    getDOMImplementationList(final String s)\n
     '''
 def item():
-    '''public DOMImplementation item(final int index)
+    '''returns DOMImplementation\n\n
+    item(final int index)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def addSource():
-    '''public void addSource(final DOMImplementationSource domImplementationSource)
+    '''returns None\n\n
+    addSource(final DOMImplementationSource domImplementationSource)\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
+    run()\n
     '''

@@ -7,37 +7,48 @@ PROPERTY_SAVE_ATTRIBUTES = "String  \"save-attributes\""
 PROPERTY_STORE_COOKIES = "String  \"store-cookies\""
 PROPERTY_IGNORE_GET_POST = "String  \"ignore-get-post\""
 PROPERTY_IGNORE_CHAR_ENCODING = "String  \"ignore-char-encoding\""
-def FragmentCacheProcessor():
-    '''public FragmentCacheProcessor()
+def ():
+    '''returns FragmentCacheProcessor\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset(final ConfigEntry ce)
+    '''returns None\n\n
+    reset(final ConfigEntry ce)\n
     '''
 def preProcess():
-    '''public boolean preProcess(final ConfigEntry configEntry)
-    public boolean preProcess(final CacheId cacheId)
+    '''returns boolean\n\n
+    preProcess(final ConfigEntry configEntry)\n
+    preProcess(final CacheId cacheId)\n
     '''
 def processCacheIdProperties():
-    '''public void processCacheIdProperties(final CacheId cacheid)
+    '''returns None\n\n
+    processCacheIdProperties(final CacheId cacheid)\n
     '''
 def processConfigEntryProperties():
-    '''public void processConfigEntryProperties()
+    '''returns None\n\n
+    processConfigEntryProperties()\n
     '''
 def getBaseName():
-    '''public String getBaseName()
+    '''returns String\n\n
+    getBaseName()\n
     '''
 def populateFragmentInfo():
-    '''public void populateFragmentInfo(final FragmentInfo fi)
+    '''returns None\n\n
+    populateFragmentInfo(final FragmentInfo fi)\n
     '''
 def execute():
-    '''public boolean execute(final CacheProxyRequest request, final CacheProxyResponse response, final Servlet servlet)
+    '''returns boolean\n\n
+    execute(final CacheProxyRequest request, final CacheProxyResponse response, final Servlet servlet)\n
     '''
 def getESICacheId():
-    '''public String getESICacheId(final ConfigEntry ce)
+    '''returns String\n\n
+    getESICacheId(final ConfigEntry ce)\n
     '''
 def getESIQueryString():
-    '''public String getESIQueryString(final CacheId ci)
+    '''returns String\n\n
+    getESIQueryString(final CacheId ci)\n
     '''
 def getESIRule():
-    '''public void getESIRule(final CacheId ci, final StringBuffer sb, final String identifier)
+    '''returns None\n\n
+    getESIRule(final CacheId ci, final StringBuffer sb, final String identifier)\n
     '''

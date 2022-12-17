@@ -1,24 +1,32 @@
-def EntityEnclosingRequestWrapper():
-    '''public EntityEnclosingRequestWrapper(final HttpEntityEnclosingRequest request)
+def ():
+    '''returns EntityEnclosingRequestWrapper\n\n
+    (final HttpEntityEnclosingRequest request)\n
     '''
 def getEntity():
-    '''public HttpEntity getEntity()
+    '''returns HttpEntity\n\n
+    getEntity()\n
     '''
 def setEntity():
-    '''public void setEntity(final HttpEntity entity)
+    '''returns None\n\n
+    setEntity(final HttpEntity entity)\n
     '''
 def expectContinue():
-    '''public boolean expectContinue()
+    '''returns boolean\n\n
+    expectContinue()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def consumeContent():
-    '''public void consumeContent()
+    '''returns None\n\n
+    consumeContent()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''

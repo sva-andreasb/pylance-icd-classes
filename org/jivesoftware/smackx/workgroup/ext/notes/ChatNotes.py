@@ -1,23 +1,26 @@
 ELEMENT_NAME = "String  \"chat-notes\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
-def ChatNotes():
-    '''public ChatNotes()
+def ():
+    '''returns ChatNotes\n\n
+    ()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def setSessionID():
-    '''public void setSessionID(final String sessionID)
+    '''returns None\n\n
+    setSessionID(final String sessionID)\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
-    '''
-def replace():
-    '''public static final String replace(final String string, final String oldString, final String newString)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def parse():
-    '''public ChatNotes parse(final XmlPullParser parser, final int initialDepth)
+    '''returns ChatNotes\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

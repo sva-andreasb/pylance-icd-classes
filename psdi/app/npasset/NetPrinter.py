@@ -1,6 +1,8 @@
-def NetPrinter():
-    '''public NetPrinter(final MboSet ms)
+def ():
+    '''returns NetPrinter\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''

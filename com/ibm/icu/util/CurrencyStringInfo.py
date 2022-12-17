@@ -1,9 +1,12 @@
-def CurrencyStringInfo():
-    '''public CurrencyStringInfo(final String isoCode, final String currencyString)
+def ():
+    '''returns CurrencyStringInfo\n\n
+    (final String isoCode, final String currencyString)\n
     '''
 def getISOCode():
-    '''public String getISOCode()
+    '''returns String\n\n
+    getISOCode()\n
     '''
 def getCurrencyString():
-    '''public String getCurrencyString()
+    '''returns String\n\n
+    getCurrencyString()\n
     '''

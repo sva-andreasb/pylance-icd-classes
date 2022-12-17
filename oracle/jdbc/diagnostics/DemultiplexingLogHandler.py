@@ -1,13 +1,16 @@
-def DemultiplexingLogHandler():
-    '''public DemultiplexingLogHandler()
-    public DemultiplexingLogHandler(final String s)
-    public DemultiplexingLogHandler(final String s, final boolean append)
-    public DemultiplexingLogHandler(final String s, final int limit, final int count)
-    public DemultiplexingLogHandler(final String s, final int limit, final int count, final boolean append)
+def ():
+    '''returns DemultiplexingLogHandler\n\n
+    ()\n
+    (final String s)\n
+    (final String s, final boolean append)\n
+    (final String s, final int limit, final int count)\n
+    (final String s, final int limit, final int count, final boolean append)\n
     '''
 def publish():
-    '''public void publish(final LogRecord record)
+    '''returns None\n\n
+    publish(final LogRecord record)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

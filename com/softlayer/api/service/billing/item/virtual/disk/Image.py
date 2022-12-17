@@ -1,18 +1,24 @@
 def setResource():
-    '''public void setResource(final com.softlayer.api.service.virtual.disk.Image resource)
+    '''returns None\n\n
+    setResource(final com.softlayer.api.service.virtual.disk.Image resource)\n
     '''
 def getResourceTableId():
-    '''public Long getResourceTableId()
+    '''returns Long\n\n
+    getResourceTableId()\n
     '''
 def setResourceTableId():
-    '''public void setResourceTableId(final Long resourceTableId)
+    '''returns None\n\n
+    setResourceTableId(final Long resourceTableId)\n
     '''
 def isResourceTableIdSpecified():
-    '''public boolean isResourceTableIdSpecified()
+    '''returns boolean\n\n
+    isResourceTableIdSpecified()\n
     '''
 def unsetResourceTableId():
-    '''public void unsetResourceTableId()
+    '''returns None\n\n
+    unsetResourceTableId()\n
     '''
 def resourceTableId():
-    '''public Mask resourceTableId()
+    '''returns Mask\n\n
+    resourceTableId()\n
     '''

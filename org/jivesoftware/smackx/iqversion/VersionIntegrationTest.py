@@ -1,6 +1,8 @@
-def VersionIntegrationTest():
-    '''public VersionIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns VersionIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def testVersion():
-    '''public void testVersion()
+    '''returns None\n\n
+    testVersion()\n
     '''

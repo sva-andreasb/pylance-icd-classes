@@ -1,15 +1,20 @@
-def AcknowledgedMessagesClientExtension():
-    '''public AcknowledgedMessagesClientExtension(final ServerSession session)
+def ():
+    '''returns AcknowledgedMessagesClientExtension\n\n
+    (final ServerSession session)\n
     '''
 def rcv():
-    '''public boolean rcv(final ServerSession from, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    rcv(final ServerSession from, final ServerMessage.Mutable message)\n
     '''
 def rcvMeta():
-    '''public boolean rcvMeta(final ServerSession session, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    rcvMeta(final ServerSession session, final ServerMessage.Mutable message)\n
     '''
 def send():
-    '''public ServerMessage send(final ServerSession to, final ServerMessage message)
+    '''returns ServerMessage\n\n
+    send(final ServerSession to, final ServerMessage message)\n
     '''
 def sendMeta():
-    '''public boolean sendMeta(final ServerSession to, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    sendMeta(final ServerSession to, final ServerMessage.Mutable message)\n
     '''

@@ -1,47 +1,62 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
-def LDAPConstraints():
-    '''public LDAPConstraints()
-    public LDAPConstraints(final int timeLimit, final boolean referralFollowing, final org.ietf.ldap.LDAPReferralHandler referralHandler, final int hopLimit)
+def ():
+    '''returns LDAPConstraints\n\n
+    ()\n
+    (final int timeLimit, final boolean referralFollowing, final org.ietf.ldap.LDAPReferralHandler referralHandler, final int hopLimit)\n
     '''
 def getHopLimit():
-    '''public int getHopLimit()
+    '''returns int\n\n
+    getHopLimit()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def getReferralFollowing():
-    '''public boolean getReferralFollowing()
+    '''returns boolean\n\n
+    getReferralFollowing()\n
     '''
 def getTimeLimit():
-    '''public int getTimeLimit()
+    '''returns int\n\n
+    getTimeLimit()\n
     '''
 def setHopLimit():
-    '''public void setHopLimit(final int hopLimit)
+    '''returns None\n\n
+    setHopLimit(final int hopLimit)\n
     '''
 def setReferralHandler():
-    '''public void setReferralHandler(final org.ietf.ldap.LDAPReferralHandler ldapReferralHandler)
+    '''returns None\n\n
+    setReferralHandler(final org.ietf.ldap.LDAPReferralHandler ldapReferralHandler)\n
     '''
 def setReferralFollowing():
-    '''public void setReferralFollowing(final boolean referralFollowing)
+    '''returns None\n\n
+    setReferralFollowing(final boolean referralFollowing)\n
     '''
 def setTimeLimit():
-    '''public void setTimeLimit(final int timeLimit)
+    '''returns None\n\n
+    setTimeLimit(final int timeLimit)\n
     '''
 def getControls():
-    '''public LDAPControl[] getControls()
+    '''returns LDAPControl[]\n\n
+    getControls()\n
     '''
 def setControls():
-    '''public void setControls(final LDAPControl controls)
-    public void setControls(final LDAPControl[] controls)
+    '''returns None\n\n
+    setControls(final LDAPControl controls)\n
+    setControls(final LDAPControl[] controls)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getAuthProvider():
-    '''public LDAPAuthProvider getAuthProvider(final String s, final int n)
+    '''returns LDAPAuthProvider\n\n
+    getAuthProvider(final String s, final int n)\n
     '''
 def bind():
-    '''public LDAPConnection bind(final String[] array, final LDAPConnection ldapConnection)
+    '''returns LDAPConnection\n\n
+    bind(final String[] array, final LDAPConnection ldapConnection)\n
     '''

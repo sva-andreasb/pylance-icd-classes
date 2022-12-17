@@ -1,9 +1,12 @@
-def SurveySet():
-    '''public SurveySet(final MboServerInterface ms)
+def ():
+    '''returns SurveySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

@@ -1,14 +1,18 @@
-def KeyValue():
-    '''public KeyValue(final String[] keyVals)
-    public KeyValue(final String s)
+def ():
+    '''returns KeyValue\n\n
+    (final String[] keyVals)\n
+    (final String s)\n
     '''
 def equals():
-    '''public boolean equals(final String[] keys)
-    public boolean equals(final KeyValue kv)
+    '''returns boolean\n\n
+    equals(final String[] keys)\n
+    equals(final KeyValue kv)\n
     '''
 def getAsString():
-    '''public String[] getAsString()
+    '''returns String[]\n\n
+    getAsString()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

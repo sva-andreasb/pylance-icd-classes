@@ -1,16 +1,21 @@
-def AttributeValueExp():
-    '''public AttributeValueExp()
-    public AttributeValueExp(final String attr)
+def ():
+    '''returns AttributeValueExp\n\n
+    ()\n
+    (final String attr)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setMBeanServer():
-    '''public void setMBeanServer(final MBeanServer mBeanServer)
+    '''returns None\n\n
+    setMBeanServer(final MBeanServer mBeanServer)\n
     '''
 def apply():
-    '''public ValueExp apply(final ObjectName objectName)
+    '''returns ValueExp\n\n
+    apply(final ObjectName objectName)\n
     '''

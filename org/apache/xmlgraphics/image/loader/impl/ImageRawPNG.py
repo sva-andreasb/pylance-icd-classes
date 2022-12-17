@@ -1,27 +1,36 @@
-def ImageRawPNG():
-    '''public ImageRawPNG(final ImageInfo info, final InputStream in, final ColorModel colorModel, final int bitDepth, final ICC_Profile iccProfile)
+def ():
+    '''returns ImageRawPNG\n\n
+    (final ImageInfo info, final InputStream in, final ColorModel colorModel, final int bitDepth, final ICC_Profile iccProfile)\n
     '''
 def getBitDepth():
-    '''public int getBitDepth()
+    '''returns int\n\n
+    getBitDepth()\n
     '''
 def getICCProfile():
-    '''public ICC_Profile getICCProfile()
+    '''returns ICC_Profile\n\n
+    getICCProfile()\n
     '''
 def getColorModel():
-    '''public ColorModel getColorModel()
+    '''returns ColorModel\n\n
+    getColorModel()\n
     '''
 def getColorSpace():
-    '''public ColorSpace getColorSpace()
+    '''returns ColorSpace\n\n
+    getColorSpace()\n
     '''
 def isTransparent():
-    '''public boolean isTransparent()
+    '''returns boolean\n\n
+    isTransparent()\n
     '''
 def getTransparentColor():
-    '''public Color getTransparentColor()
+    '''returns Color\n\n
+    getTransparentColor()\n
     '''
 def setRenderingIntent():
-    '''public void setRenderingIntent(final int intent)
+    '''returns None\n\n
+    setRenderingIntent(final int intent)\n
     '''
 def getRenderingIntent():
-    '''public int getRenderingIntent()
+    '''returns int\n\n
+    getRenderingIntent()\n
     '''

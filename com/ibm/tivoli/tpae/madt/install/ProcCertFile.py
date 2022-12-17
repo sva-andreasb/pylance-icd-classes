@@ -1,45 +1,60 @@
-def ProcCertFile():
-    '''public ProcCertFile()
+def ():
+    '''returns ProcCertFile\n\n
+    ()\n
     '''
 def getIndSolnVersion():
-    '''public String getIndSolnVersion()
+    '''returns String\n\n
+    getIndSolnVersion()\n
     '''
 def getIndSolnMaxVersion():
-    '''public String getIndSolnMaxVersion()
+    '''returns String\n\n
+    getIndSolnMaxVersion()\n
     '''
 def isMaxVersion():
-    '''public boolean isMaxVersion()
+    '''returns boolean\n\n
+    isMaxVersion()\n
     '''
 def isIndSolnInCertFile():
-    '''public boolean isIndSolnInCertFile()
+    '''returns boolean\n\n
+    isIndSolnInCertFile()\n
     '''
 def isIndSolnVersionInCertFile():
-    '''public boolean isIndSolnVersionInCertFile()
+    '''returns boolean\n\n
+    isIndSolnVersionInCertFile()\n
     '''
 def getIndSolnUUID():
-    '''public String[] getIndSolnUUID()
+    '''returns String[]\n\n
+    getIndSolnUUID()\n
     '''
 def getIndSolnLongName():
-    '''public String getIndSolnLongName()
+    '''returns String\n\n
+    getIndSolnLongName()\n
     '''
 def getIndSolnNeedUpdateDB():
-    '''public String getIndSolnNeedUpdateDB()
+    '''returns String\n\n
+    getIndSolnNeedUpdateDB()\n
     '''
 def getIndSolnNeedTDT():
-    '''public String getIndSolnNeedTDT()
+    '''returns String\n\n
+    getIndSolnNeedTDT()\n
     '''
 def getIndSolnNeedBuild():
-    '''public String getIndSolnNeedBuild()
+    '''returns String\n\n
+    getIndSolnNeedBuild()\n
     '''
 def getIndSolnNeedDeploy():
-    '''public String getIndSolnNeedDeploy()
+    '''returns String\n\n
+    getIndSolnNeedDeploy()\n
     '''
 def getIndSolnSupportMultitenancy():
-    '''public String getIndSolnSupportMultitenancy()
+    '''returns String\n\n
+    getIndSolnSupportMultitenancy()\n
     '''
 def getIndSolnInstActions():
-    '''public String[] getIndSolnInstActions()
+    '''returns String[]\n\n
+    getIndSolnInstActions()\n
     '''
 def procIndSolnCertFile():
-    '''public void procIndSolnCertFile(final String[] array)
+    '''returns None\n\n
+    procIndSolnCertFile(final String[] array)\n
     '''

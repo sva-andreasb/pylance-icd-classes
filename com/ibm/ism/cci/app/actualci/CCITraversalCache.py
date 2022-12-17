@@ -1,156 +1,176 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 CACHE_CLASS_SPECS = "long  1L"
 CACHE_CUSTOMERS = "long  2L"
-def generateCache():
-    '''public static CCITraversalCache generateCache(final String topAuthCIClass, final long cacheOptions)
-    '''
 def getHierarchyPath():
-    '''public String getHierarchyPath(final String classId)
+    '''returns String\n\n
+    getHierarchyPath(final String classId)\n
     '''
 def isClassGlobal():
-    '''public boolean isClassGlobal(final String classId)
+    '''returns boolean\n\n
+    isClassGlobal(final String classId)\n
     '''
 def getCustomers():
-    '''public List<String> getCustomers(final String classId)
-    public List<String> getCustomers()
+    '''returns List<String>\n\n
+    getCustomers(final String classId)\n
+    getCustomers()\n
     '''
 def getRelationRulesForClassID():
-    '''public ArrayList<RelationRuleInfo> getRelationRulesForClassID(final String authClassID, final boolean isSource)
+    '''returns ArrayList<RelationRuleInfo>\n\n
+    getRelationRulesForClassID(final String authClassID, final boolean isSource)\n
     '''
 def getRelationRulesForActClassID():
-    '''public ArrayList<RelationRuleInfo> getRelationRulesForActClassID(final String actClassID, final boolean isSource)
-    '''
-def getTemplateCache():
-    '''public HashMap<String, ArrayList<String>> getTemplateCache()
+    '''returns ArrayList<RelationRuleInfo>\n\n
+    getRelationRulesForActClassID(final String actClassID, final boolean isSource)\n
     '''
 def populateTopLevelActCICustomers():
-    '''public void populateTopLevelActCICustomers(final MboRemote topLevelActCI)
+    '''returns None\n\n
+    populateTopLevelActCICustomers(final MboRemote topLevelActCI)\n
     '''
 def isPropagateCustomerToActCI():
-    '''public boolean isPropagateCustomerToActCI()
+    '''returns boolean\n\n
+    isPropagateCustomerToActCI()\n
     '''
-def getTopLevelActCICustomers():
-    '''public HashMap<String, List<CustomerInfo>> getTopLevelActCICustomers()
-    '''
-def getTopLevelActualCIPrimaryCustomers():
-    '''public HashMap<String, String> getTopLevelActualCIPrimaryCustomers()
-    '''
-def getClassSpecs():
-    '''public HashMap<String, HashMap<String, ClassSpecInfo>> getClassSpecs()
-    '''
-def getClassSpecUseWiths():
-    '''public HashMap<String, HashMap<String, ClassSpecUseWithInfo>> getClassSpecUseWiths()
-    '''
-def RelationRuleHashObject():
-    '''public RelationRuleHashObject()
+def ():
+    '''returns ClassSpecUseWithInfo\n\n
+    ()\n
+    (final ClassSpecRemote csr)\n
+    (final ClassSpecUseWithRemote csuwr)\n
     '''
 def getClassIsASourceList():
-    '''public ArrayList<RelationRuleInfo> getClassIsASourceList()
+    '''returns ArrayList<RelationRuleInfo>\n\n
+    getClassIsASourceList()\n
     '''
 def getClassIsATargetList():
-    '''public ArrayList<RelationRuleInfo> getClassIsATargetList()
-    '''
-def ClassSpecInfo():
-    '''public ClassSpecInfo(final ClassSpecRemote csr)
+    '''returns ArrayList<RelationRuleInfo>\n\n
+    getClassIsATargetList()\n
     '''
 def getSection():
-    '''public String getSection()
+    '''returns String\n\n
+    getSection()\n
     '''
 def setSection():
-    '''public void setSection(final String section)
+    '''returns None\n\n
+    setSection(final String section)\n
     '''
 def getClassSpecID():
-    '''public long getClassSpecID()
-    public Double getClassSpecID()
+    '''returns Double\n\n
+    getClassSpecID()\n
+    getClassSpecID()\n
     '''
 def setClassSpecID():
-    '''public void setClassSpecID(final int classSpecID)
-    public void setClassSpecID(final Double classSpecID)
+    '''returns None\n\n
+    setClassSpecID(final int classSpecID)\n
+    setClassSpecID(final Double classSpecID)\n
     '''
 def getLinearType():
-    '''public String getLinearType()
+    '''returns String\n\n
+    getLinearType()\n
     '''
 def setLinearType():
-    '''public void setLinearType(final String linearType)
+    '''returns None\n\n
+    setLinearType(final String linearType)\n
     '''
 def getAssetAttrID():
-    '''public String getAssetAttrID()
+    '''returns String\n\n
+    getAssetAttrID()\n
     '''
 def setAssetAttrID():
-    '''public void setAssetAttrID(final String assetAttrID)
+    '''returns None\n\n
+    setAssetAttrID(final String assetAttrID)\n
     '''
 def getClassStructureID():
-    '''public String getClassStructureID()
+    '''returns String\n\n
+    getClassStructureID()\n
     '''
 def setClassStructureID():
-    '''public void setClassStructureID(final String classStructureID)
+    '''returns None\n\n
+    setClassStructureID(final String classStructureID)\n
     '''
 def getMeasureUnitID():
-    '''public String getMeasureUnitID()
+    '''returns String\n\n
+    getMeasureUnitID()\n
     '''
 def setMeasureUnitID():
-    '''public void setMeasureUnitID(final String measureUnitID)
+    '''returns None\n\n
+    setMeasureUnitID(final String measureUnitID)\n
     '''
 def getPluspIsGlobal():
-    '''public boolean getPluspIsGlobal()
+    '''returns boolean\n\n
+    getPluspIsGlobal()\n
     '''
 def setPluspIsGlobal():
-    '''public void setPluspIsGlobal(final boolean pluspIsGlobal)
+    '''returns None\n\n
+    setPluspIsGlobal(final boolean pluspIsGlobal)\n
     '''
 def setCustomers():
-    '''public void setCustomers(final List<String> customers)
-    '''
-def ClassSpecUseWithInfo():
-    '''public ClassSpecUseWithInfo(final ClassSpecUseWithRemote csuwr)
+    '''returns None\n\n
+    setCustomers(final List<String> customers)\n
     '''
 def isUseInSpec():
-    '''public boolean isUseInSpec()
+    '''returns boolean\n\n
+    isUseInSpec()\n
     '''
 def setUseInSpec():
-    '''public void setUseInSpec(final boolean useInSpec)
+    '''returns None\n\n
+    setUseInSpec(final boolean useInSpec)\n
     '''
 def getSiteID():
-    '''public String getSiteID()
+    '''returns String\n\n
+    getSiteID()\n
     '''
 def setSiteID():
-    '''public void setSiteID(final String siteID)
+    '''returns None\n\n
+    setSiteID(final String siteID)\n
     '''
 def getSequence():
-    '''public Double getSequence()
+    '''returns Double\n\n
+    getSequence()\n
     '''
 def setSequence():
-    '''public void setSequence(final Double sequence)
+    '''returns None\n\n
+    setSequence(final Double sequence)\n
     '''
 def getMandatory():
-    '''public Boolean getMandatory()
+    '''returns Boolean\n\n
+    getMandatory()\n
     '''
 def setMandatory():
-    '''public void setMandatory(final Boolean mandatory)
+    '''returns None\n\n
+    setMandatory(final Boolean mandatory)\n
     '''
 def getDefaultAlnValue():
-    '''public String getDefaultAlnValue()
+    '''returns String\n\n
+    getDefaultAlnValue()\n
     '''
 def setDefaultAlnValue():
-    '''public void setDefaultAlnValue(final String defaultAlnValue)
+    '''returns None\n\n
+    setDefaultAlnValue(final String defaultAlnValue)\n
     '''
 def getDefaultNumValue():
-    '''public Double getDefaultNumValue()
+    '''returns Double\n\n
+    getDefaultNumValue()\n
     '''
 def setDefaultNumValue():
-    '''public void setDefaultNumValue(final Double defaultNumValue)
+    '''returns None\n\n
+    setDefaultNumValue(final Double defaultNumValue)\n
     '''
 def getDefaultTableValue():
-    '''public String getDefaultTableValue()
+    '''returns String\n\n
+    getDefaultTableValue()\n
     '''
 def setDefaultTableValue():
-    '''public void setDefaultTableValue(final String defaultTableValue)
+    '''returns None\n\n
+    setDefaultTableValue(final String defaultTableValue)\n
     '''
 def isDefaultAlnValueNull():
-    '''public boolean isDefaultAlnValueNull()
+    '''returns boolean\n\n
+    isDefaultAlnValueNull()\n
     '''
 def isDefaultNumValueNull():
-    '''public boolean isDefaultNumValueNull()
+    '''returns boolean\n\n
+    isDefaultNumValueNull()\n
     '''
 def isDefaultTableValueNull():
-    '''public boolean isDefaultTableValueNull()
+    '''returns boolean\n\n
+    isDefaultTableValueNull()\n
     '''

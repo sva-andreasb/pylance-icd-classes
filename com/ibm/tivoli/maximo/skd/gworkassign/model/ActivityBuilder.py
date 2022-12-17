@@ -1,9 +1,8 @@
-def ActivityBuilder():
-    '''public ActivityBuilder(final MXServer mxServer, final boolean adjustActivityTimes)
+def ():
+    '''returns ActivityBuilder\n\n
+    (final MXServer mxServer, final boolean adjustActivityTimes)\n
     '''
 def build():
-    '''public Activity build(final MboRemote projectMbo, final GWASchedule schedule, final ResultSet resultSet, final Map<String, String> objectColumnsMap, final Map<String, SKDPropertyInfo> relPropertyInfoMap, final int dbType)
-    '''
-def populatePropertyValue():
-    '''public static void populatePropertyValue(final Activity activity, final String propertyName, final int maxtype, final MboRemote assign, final String attributeName)
+    '''returns Activity\n\n
+    build(final MboRemote projectMbo, final GWASchedule schedule, final ResultSet resultSet, final Map<String, String> objectColumnsMap, final Map<String, SKDPropertyInfo> relPropertyInfoMap, final int dbType)\n
     '''

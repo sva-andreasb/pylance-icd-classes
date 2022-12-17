@@ -1,6 +1,8 @@
-def FldMaxDomainLength():
-    '''public FldMaxDomainLength(final MboValue mbv)
+def ():
+    '''returns FldMaxDomainLength\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

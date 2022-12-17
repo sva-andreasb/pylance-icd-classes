@@ -1,12 +1,16 @@
-def DefaultLangCondition():
-    '''public DefaultLangCondition(final String lang)
+def ():
+    '''returns DefaultLangCondition\n\n
+    (final String lang)\n
     '''
 def getConditionType():
-    '''public short getConditionType()
+    '''returns short\n\n
+    getConditionType()\n
     '''
 def getLang():
-    '''public String getLang()
+    '''returns String\n\n
+    getLang()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

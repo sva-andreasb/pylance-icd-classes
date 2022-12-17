@@ -1,18 +1,24 @@
-def PlusCWODSSet():
-    '''public PlusCWODSSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCWODSSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def checkForLocale():
-    '''public boolean checkForLocale()
+    '''returns boolean\n\n
+    checkForLocale()\n
     '''
 def getPlusCLocale():
-    '''public String getPlusCLocale()
+    '''returns String\n\n
+    getPlusCLocale()\n
     '''
 def applyRequiredRules():
-    '''public void applyRequiredRules(final boolean changeValue)
+    '''returns None\n\n
+    applyRequiredRules(final boolean changeValue)\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int ind)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int ind)\n
     '''

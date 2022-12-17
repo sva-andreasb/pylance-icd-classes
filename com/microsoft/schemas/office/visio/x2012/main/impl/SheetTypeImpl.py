@@ -1,126 +1,166 @@
-def SheetTypeImpl():
-    '''public SheetTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns SheetTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getCellList():
-    '''public List<CellType> getCellList()
+    '''returns List<CellType>\n\n
+    getCellList()\n
     '''
 def getCellArray():
-    '''public CellType[] getCellArray()
-    public CellType getCellArray(final int n)
+    '''returns CellType\n\n
+    getCellArray()\n
+    getCellArray(final int n)\n
     '''
 def sizeOfCellArray():
-    '''public int sizeOfCellArray()
+    '''returns int\n\n
+    sizeOfCellArray()\n
     '''
 def setCellArray():
-    '''public void setCellArray(final CellType[] array)
-    public void setCellArray(final int n, final CellType cellType)
+    '''returns None\n\n
+    setCellArray(final CellType[] array)\n
+    setCellArray(final int n, final CellType cellType)\n
     '''
 def insertNewCell():
-    '''public CellType insertNewCell(final int n)
+    '''returns CellType\n\n
+    insertNewCell(final int n)\n
     '''
 def addNewCell():
-    '''public CellType addNewCell()
+    '''returns CellType\n\n
+    addNewCell()\n
     '''
 def removeCell():
-    '''public void removeCell(final int n)
+    '''returns None\n\n
+    removeCell(final int n)\n
     '''
 def getTriggerList():
-    '''public List<TriggerType> getTriggerList()
+    '''returns List<TriggerType>\n\n
+    getTriggerList()\n
     '''
 def getTriggerArray():
-    '''public TriggerType[] getTriggerArray()
-    public TriggerType getTriggerArray(final int n)
+    '''returns TriggerType\n\n
+    getTriggerArray()\n
+    getTriggerArray(final int n)\n
     '''
 def sizeOfTriggerArray():
-    '''public int sizeOfTriggerArray()
+    '''returns int\n\n
+    sizeOfTriggerArray()\n
     '''
 def setTriggerArray():
-    '''public void setTriggerArray(final TriggerType[] array)
-    public void setTriggerArray(final int n, final TriggerType triggerType)
+    '''returns None\n\n
+    setTriggerArray(final TriggerType[] array)\n
+    setTriggerArray(final int n, final TriggerType triggerType)\n
     '''
 def insertNewTrigger():
-    '''public TriggerType insertNewTrigger(final int n)
+    '''returns TriggerType\n\n
+    insertNewTrigger(final int n)\n
     '''
 def addNewTrigger():
-    '''public TriggerType addNewTrigger()
+    '''returns TriggerType\n\n
+    addNewTrigger()\n
     '''
 def removeTrigger():
-    '''public void removeTrigger(final int n)
+    '''returns None\n\n
+    removeTrigger(final int n)\n
     '''
 def getSectionList():
-    '''public List<SectionType> getSectionList()
+    '''returns List<SectionType>\n\n
+    getSectionList()\n
     '''
 def getSectionArray():
-    '''public SectionType[] getSectionArray()
-    public SectionType getSectionArray(final int n)
+    '''returns SectionType\n\n
+    getSectionArray()\n
+    getSectionArray(final int n)\n
     '''
 def sizeOfSectionArray():
-    '''public int sizeOfSectionArray()
+    '''returns int\n\n
+    sizeOfSectionArray()\n
     '''
 def setSectionArray():
-    '''public void setSectionArray(final SectionType[] array)
-    public void setSectionArray(final int n, final SectionType sectionType)
+    '''returns None\n\n
+    setSectionArray(final SectionType[] array)\n
+    setSectionArray(final int n, final SectionType sectionType)\n
     '''
 def insertNewSection():
-    '''public SectionType insertNewSection(final int n)
+    '''returns SectionType\n\n
+    insertNewSection(final int n)\n
     '''
 def addNewSection():
-    '''public SectionType addNewSection()
+    '''returns SectionType\n\n
+    addNewSection()\n
     '''
 def removeSection():
-    '''public void removeSection(final int n)
+    '''returns None\n\n
+    removeSection(final int n)\n
     '''
 def getLineStyle():
-    '''public long getLineStyle()
+    '''returns long\n\n
+    getLineStyle()\n
     '''
 def xgetLineStyle():
-    '''public XmlUnsignedInt xgetLineStyle()
+    '''returns XmlUnsignedInt\n\n
+    xgetLineStyle()\n
     '''
 def isSetLineStyle():
-    '''public boolean isSetLineStyle()
+    '''returns boolean\n\n
+    isSetLineStyle()\n
     '''
 def setLineStyle():
-    '''public void setLineStyle(final long longValue)
+    '''returns None\n\n
+    setLineStyle(final long longValue)\n
     '''
 def xsetLineStyle():
-    '''public void xsetLineStyle(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetLineStyle(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def unsetLineStyle():
-    '''public void unsetLineStyle()
+    '''returns None\n\n
+    unsetLineStyle()\n
     '''
 def getFillStyle():
-    '''public long getFillStyle()
+    '''returns long\n\n
+    getFillStyle()\n
     '''
 def xgetFillStyle():
-    '''public XmlUnsignedInt xgetFillStyle()
+    '''returns XmlUnsignedInt\n\n
+    xgetFillStyle()\n
     '''
 def isSetFillStyle():
-    '''public boolean isSetFillStyle()
+    '''returns boolean\n\n
+    isSetFillStyle()\n
     '''
 def setFillStyle():
-    '''public void setFillStyle(final long longValue)
+    '''returns None\n\n
+    setFillStyle(final long longValue)\n
     '''
 def xsetFillStyle():
-    '''public void xsetFillStyle(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetFillStyle(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def unsetFillStyle():
-    '''public void unsetFillStyle()
+    '''returns None\n\n
+    unsetFillStyle()\n
     '''
 def getTextStyle():
-    '''public long getTextStyle()
+    '''returns long\n\n
+    getTextStyle()\n
     '''
 def xgetTextStyle():
-    '''public XmlUnsignedInt xgetTextStyle()
+    '''returns XmlUnsignedInt\n\n
+    xgetTextStyle()\n
     '''
 def isSetTextStyle():
-    '''public boolean isSetTextStyle()
+    '''returns boolean\n\n
+    isSetTextStyle()\n
     '''
 def setTextStyle():
-    '''public void setTextStyle(final long longValue)
+    '''returns None\n\n
+    setTextStyle(final long longValue)\n
     '''
 def xsetTextStyle():
-    '''public void xsetTextStyle(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetTextStyle(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def unsetTextStyle():
-    '''public void unsetTextStyle()
+    '''returns None\n\n
+    unsetTextStyle()\n
     '''

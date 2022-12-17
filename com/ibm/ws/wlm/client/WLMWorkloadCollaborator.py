@@ -1,3 +1,4 @@
 def voteOnRequest():
-    '''public boolean voteOnRequest(final ServerRequestInfo sri)
+    '''returns boolean\n\n
+    voteOnRequest(final ServerRequestInfo sri)\n
     '''

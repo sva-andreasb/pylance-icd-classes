@@ -1,19 +1,17 @@
-def getInstance():
-    '''public static TranslateCacheFactory getInstance()
-    '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getCache():
-    '''public Translate getCache()
+    '''returns Translate\n\n
+    getCache()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getDomainFactoryName():
-    '''public static String getDomainFactoryName(final String domainType)
+    '''returns String\n\n
+    getName()\n
     '''

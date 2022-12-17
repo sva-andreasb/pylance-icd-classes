@@ -1,10 +1,13 @@
 NULL = "char  '\0'"
-def AssetNumCharNode():
-    '''public AssetNumCharNode(final char key)
+def ():
+    '''returns AssetNumCharNode\n\n
+    (final char key)\n
     '''
 def addChild():
-    '''public void addChild(final AssetNumCharNode child)
+    '''returns None\n\n
+    addChild(final AssetNumCharNode child)\n
     '''
 def getChild():
-    '''public AssetNumCharNode getChild(final Character childKey)
+    '''returns AssetNumCharNode\n\n
+    getChild(final Character childKey)\n
     '''

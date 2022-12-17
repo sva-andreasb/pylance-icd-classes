@@ -1,28 +1,37 @@
-def HashedTripleBunch():
-    '''public HashedTripleBunch(final TripleBunch b)
+def ():
+    '''returns HashedTripleBunch\n\n
+    (final TripleBunch b)\n
     '''
 def contains():
-    '''public boolean contains(final Triple t)
+    '''returns boolean\n\n
+    contains(final Triple t)\n
     '''
 def containsBySameValueAs():
-    '''public boolean containsBySameValueAs(final Triple t)
+    '''returns boolean\n\n
+    containsBySameValueAs(final Triple t)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def currentCapacity():
-    '''public int currentCapacity()
+    '''returns int\n\n
+    currentCapacity()\n
     '''
 def add():
-    '''public void add(final Triple t)
+    '''returns None\n\n
+    add(final Triple t)\n
     '''
 def remove():
-    '''public void remove(final Triple t)
+    '''returns None\n\n
+    remove(final Triple t)\n
     '''
 def iterator():
-    '''public ExtendedIterator<Triple> iterator()
-    public ExtendedIterator<Triple> iterator(final NotifyEmpty container)
+    '''returns ExtendedIterator<Triple>\n\n
+    iterator()\n
+    iterator(final NotifyEmpty container)\n
     '''
 def app():
-    '''public void app(final Domain d, final StageElement next, final MatchOrBind s)
+    '''returns None\n\n
+    app(final Domain d, final StageElement next, final MatchOrBind s)\n
     '''

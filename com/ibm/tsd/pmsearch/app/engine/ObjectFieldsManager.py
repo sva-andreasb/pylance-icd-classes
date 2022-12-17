@@ -1,49 +1,53 @@
-def ObjectFieldsManager():
-    '''public ObjectFieldsManager(final String workingDirectory)
+def ():
+    '''returns ObjectFieldsManager\n\n
+    (final String workingDirectory)\n
     '''
 def getObjectList():
-    '''public Collection<String> getObjectList()
-    '''
-def getAllObjectsFields():
-    '''public Map<String, ObjectFields> getAllObjectsFields()
+    '''returns Collection<String>\n\n
+    getObjectList()\n
     '''
 def getSolutionField():
-    '''public ObjectFields getSolutionField()
+    '''returns ObjectFields\n\n
+    getSolutionField()\n
     '''
 def getBBField():
-    '''public ObjectFields getBBField()
+    '''returns ObjectFields\n\n
+    getBBField()\n
     '''
 def getOfferingField():
-    '''public ObjectFields getOfferingField()
+    '''returns ObjectFields\n\n
+    getOfferingField()\n
     '''
 def getTicketTemplateField():
-    '''public ObjectFields getTicketTemplateField()
+    '''returns ObjectFields\n\n
+    getTicketTemplateField()\n
     '''
 def getCatalogRequestField():
-    '''public ObjectFields getCatalogRequestField()
+    '''returns ObjectFields\n\n
+    getCatalogRequestField()\n
     '''
 def getSRField():
-    '''public ObjectFields getSRField()
+    '''returns ObjectFields\n\n
+    getSRField()\n
     '''
 def getProblemField():
-    '''public ObjectFields getProblemField()
+    '''returns ObjectFields\n\n
+    getProblemField()\n
     '''
 def getIncidentField():
-    '''public ObjectFields getIncidentField()
+    '''returns ObjectFields\n\n
+    getIncidentField()\n
     '''
 def existFileTemplate():
-    '''public boolean existFileTemplate()
+    '''returns boolean\n\n
+    existFileTemplate()\n
     '''
 def createUpdateFileTemplate():
-    '''public void createUpdateFileTemplate()
-    public void createUpdateFileTemplate(final Map<String, String[]> objectToFieldsMap)
+    '''returns None\n\n
+    createUpdateFileTemplate()\n
+    createUpdateFileTemplate(final Map<String, String[]> objectToFieldsMap)\n
     '''
 def storeFileTemplate():
-    '''public void storeFileTemplate(final Properties prop)
-    '''
-def createCommaString():
-    '''public static String createCommaString(final Iterable<String> items)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    storeFileTemplate(final Properties prop)\n
     '''

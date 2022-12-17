@@ -1,31 +1,35 @@
-def SKDScheduleCostChart():
-    '''public SKDScheduleCostChart(final IlvScheduleChart scheduleChart, final IlvGanttChart gChart)
+def ():
+    '''returns EstimatedDataSet\n\n
+    (final IlvScheduleChart scheduleChart, final IlvGanttChart gChart)\n
+    (final IlvGanttModel model, final IlvResource resource, final IlvReservationDataPolicy policy)\n
+    (final IlvGanttModel model, final IlvResource resource, final IlvReservationDataPolicy policy)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent e)\n
     '''
 def setAppletGanttModel():
-    '''public void setAppletGanttModel(final AppletGanttModel model)
+    '''returns None\n\n
+    setAppletGanttModel(final AppletGanttModel model)\n
     '''
 def createDataSet():
-    '''public IlvResourceDataSet createDataSet(final IlvResource resource, final IlvReservationDataPolicy dataPolicy)
+    '''returns IlvResourceDataSet\n\n
+    createDataSet(final IlvResource resource, final IlvReservationDataPolicy dataPolicy)\n
     '''
 def loadCostTypeReservation():
-    '''public void loadCostTypeReservation(final MXGanttModel model)
+    '''returns None\n\n
+    loadCostTypeReservation(final MXGanttModel model)\n
     '''
 def sync():
-    '''public void sync()
+    '''returns None\n\n
+    sync()\n
     '''
 def unsync():
-    '''public void unsync()
-    '''
-def ActualDataSet():
-    '''public ActualDataSet(final IlvGanttModel model, final IlvResource resource, final IlvReservationDataPolicy policy)
+    '''returns None\n\n
+    unsync()\n
     '''
 def setName():
-    '''public void setName(final String name)
-    public void setName(final String name)
-    '''
-def EstimatedDataSet():
-    '''public EstimatedDataSet(final IlvGanttModel model, final IlvResource resource, final IlvReservationDataPolicy policy)
+    '''returns None\n\n
+    setName(final String name)\n
+    setName(final String name)\n
     '''

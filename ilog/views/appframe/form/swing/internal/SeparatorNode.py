@@ -1,12 +1,16 @@
 def getControl():
-    '''public Object getControl()
+    '''returns Object\n\n
+    getControl()\n
     '''
 def setControl():
-    '''public void setControl(final Object o)
+    '''returns None\n\n
+    setControl(final Object o)\n
     '''
 def createControl():
-    '''public Object createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)
+    '''returns Object\n\n
+    createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)\n
     '''
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''

@@ -1,3 +1,4 @@
 def returnwithvalue():
-    '''public int returnwithvalue()
+    '''returns int\n\n
+    returnwithvalue()\n
     '''

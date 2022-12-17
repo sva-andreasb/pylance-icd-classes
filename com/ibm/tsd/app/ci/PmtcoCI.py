@@ -1,6 +1,8 @@
-def PmtcoCI():
-    '''public PmtcoCI(final MboSet ms)
+def ():
+    '''returns PmtcoCI\n\n
+    (final MboSet ms)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

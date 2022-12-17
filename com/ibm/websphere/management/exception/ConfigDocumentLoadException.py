@@ -1,9 +1,12 @@
-def ConfigDocumentLoadException():
-    '''public ConfigDocumentLoadException(final String documentUri, final Exception cause)
+def ():
+    '''returns ConfigDocumentLoadException\n\n
+    (final String documentUri, final Exception cause)\n
     '''
 def getDocumentUri():
-    '''public String getDocumentUri()
+    '''returns String\n\n
+    getDocumentUri()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

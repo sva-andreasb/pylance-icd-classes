@@ -1,7 +1,9 @@
-def MeasurePointSet():
-    '''public MeasurePointSet(final MboServerInterface ms)
+def ():
+    '''returns MeasurePointSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def generateWorkOrdersForSet():
-    '''public void generateWorkOrdersForSet(final Date effectiveDate, final String memo, final boolean useActionCriteria)
-    public void generateWorkOrdersForSet(final Date effectiveDate, final String memo, final boolean useActionCriteria, final boolean calledByCronTask)
+    '''returns None\n\n
+    generateWorkOrdersForSet(final Date effectiveDate, final String memo, final boolean useActionCriteria)\n
+    generateWorkOrdersForSet(final Date effectiveDate, final String memo, final boolean useActionCriteria, final boolean calledByCronTask)\n
     '''

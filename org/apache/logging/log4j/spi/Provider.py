@@ -1,32 +1,41 @@
 FACTORY_PRIORITY = "String  \"FactoryPriority\""
 THREAD_CONTEXT_MAP = "String  \"ThreadContextMap\""
 LOGGER_CONTEXT_FACTORY = "String  \"LoggerContextFactory\""
-def Provider():
-    '''public Provider(final Properties props, final URL url, final ClassLoader classLoader)
-    public Provider(final Integer priority, final String versions, final Class<? extends LoggerContextFactory> loggerContextFactoryClass)
-    public Provider(final Integer priority, final String versions, final Class<? extends LoggerContextFactory> loggerContextFactoryClass, final Class<? extends ThreadContextMap> threadContextMapClass)
+def ():
+    '''returns Provider\n\n
+    (final Properties props, final URL url, final ClassLoader classLoader)\n
+    (final Integer priority, final String versions, final Class<? extends LoggerContextFactory> loggerContextFactoryClass)\n
+    (final Integer priority, final String versions, final Class<? extends LoggerContextFactory> loggerContextFactoryClass, final Class<? extends ThreadContextMap> threadContextMapClass)\n
     '''
 def getVersions():
-    '''public String getVersions()
+    '''returns String\n\n
+    getVersions()\n
     '''
 def getPriority():
-    '''public Integer getPriority()
+    '''returns Integer\n\n
+    getPriority()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getThreadContextMap():
-    '''public String getThreadContextMap()
+    '''returns String\n\n
+    getThreadContextMap()\n
     '''
 def getUrl():
-    '''public URL getUrl()
+    '''returns URL\n\n
+    getUrl()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

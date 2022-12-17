@@ -1,6 +1,7 @@
-def DocumentNotFoundException():
-    '''public DocumentNotFoundException()
-    public DocumentNotFoundException(final String msg)
-    public DocumentNotFoundException(final Throwable th, final String msg)
-    public DocumentNotFoundException(final Throwable th)
+def ():
+    '''returns DocumentNotFoundException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

@@ -1,3 +1,4 @@
-def DatastoreButton():
-    '''public DatastoreButton(final MboSet ms)
+def ():
+    '''returns DatastoreButton\n\n
+    (final MboSet ms)\n
     '''

@@ -2,28 +2,36 @@ HOSTNAME = "String  \"HOSTNAME\""
 PORT = "String  \"PORT\""
 USERNAME = "String  \"USERNAME\""
 PASSWORD = "String  \"PASSWORD\""
-def TADDMHandler():
-    '''public TADDMHandler(final MaxEndPointInfo endPointInfo)
-    public TADDMHandler()
+def ():
+    '''returns TADDMHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData, byte[] data)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def getCollectionGuidByName():
-    '''public Guid getCollectionGuidByName(final String colName)
+    '''returns Guid\n\n
+    getCollectionGuidByName(final String colName)\n
     '''
 def addMembersToCollection():
-    '''public void addMembersToCollection(final Guid collection, final Guid[] members)
+    '''returns None\n\n
+    addMembersToCollection(final Guid collection, final Guid[] members)\n
     '''
 def removeMembersToCollection():
-    '''public void removeMembersToCollection(final Guid collection, final Guid[] members)
+    '''returns None\n\n
+    removeMembersToCollection(final Guid collection, final Guid[] members)\n
     '''
 def addAccessCollection():
-    '''public Guid addAccessCollection(final Guid mssGuid, final String collectionName)
+    '''returns Guid\n\n
+    addAccessCollection(final Guid mssGuid, final String collectionName)\n
     '''
 def deleteAccessCollection():
-    '''public int deleteAccessCollection(final Guid mssGuid, final Guid collectionGuid)
+    '''returns int\n\n
+    deleteAccessCollection(final Guid mssGuid, final Guid collectionGuid)\n
     '''

@@ -1,22 +1,29 @@
-def BlendedWeightFeedback():
-    '''public BlendedWeightFeedback()
+def ():
+    '''returns BlendedWeightFeedback\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final Identity clusterKey, final SelectionAlgorithm algorithm)
+    '''returns None\n\n
+    init(final Identity clusterKey, final SelectionAlgorithm algorithm)\n
     '''
 def applyStructuralUpdate():
-    '''public void applyStructuralUpdate(final Identity[] memberArray)
+    '''returns None\n\n
+    applyStructuralUpdate(final Identity[] memberArray)\n
     '''
 def applyWorkloadUpdate():
-    '''public void applyWorkloadUpdate(final Identity member, final int weight)
+    '''returns None\n\n
+    applyWorkloadUpdate(final Identity member, final int weight)\n
     '''
 def applyExceptionUpdate():
-    '''public void applyExceptionUpdate(final Identity member, final int exceptionIncrement)
+    '''returns None\n\n
+    applyExceptionUpdate(final Identity member, final int exceptionIncrement)\n
     '''
 def handleNotification():
-    '''public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
+    '''returns None\n\n
+    handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

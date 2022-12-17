@@ -1,55 +1,53 @@
-def AsynchRequest():
-    '''public AsynchRequest()
-    public AsynchRequest(final String name, final SearchPathSingleObject objectPath, final Option[] options, final ParameterValue[] parameters, final AsynchSpecification[] specification, final XmlEncodedXML stateData)
+def ():
+    '''returns AsynchRequest\n\n
+    ()\n
+    (final String name, final SearchPathSingleObject objectPath, final Option[] options, final ParameterValue[] parameters, final AsynchSpecification[] specification, final XmlEncodedXML stateData)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getObjectPath():
-    '''public SearchPathSingleObject getObjectPath()
+    '''returns SearchPathSingleObject\n\n
+    getObjectPath()\n
     '''
 def setObjectPath():
-    '''public void setObjectPath(final SearchPathSingleObject objectPath)
+    '''returns None\n\n
+    setObjectPath(final SearchPathSingleObject objectPath)\n
     '''
 def getOptions():
-    '''public Option[] getOptions()
+    '''returns Option[]\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final Option[] options)
+    '''returns None\n\n
+    setOptions(final Option[] options)\n
     '''
 def getParameters():
-    '''public ParameterValue[] getParameters()
+    '''returns ParameterValue[]\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ParameterValue[] parameters)
+    '''returns None\n\n
+    setParameters(final ParameterValue[] parameters)\n
     '''
 def getSpecification():
-    '''public AsynchSpecification[] getSpecification()
+    '''returns AsynchSpecification[]\n\n
+    getSpecification()\n
     '''
 def setSpecification():
-    '''public void setSpecification(final AsynchSpecification[] specification)
+    '''returns None\n\n
+    setSpecification(final AsynchSpecification[] specification)\n
     '''
 def getStateData():
-    '''public XmlEncodedXML getStateData()
+    '''returns XmlEncodedXML\n\n
+    getStateData()\n
     '''
 def setStateData():
-    '''public void setStateData(final XmlEncodedXML stateData)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setStateData(final XmlEncodedXML stateData)\n
     '''

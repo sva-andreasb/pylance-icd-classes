@@ -1,3 +1,4 @@
-def PlusPRespDupSet():
-    '''public PlusPRespDupSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPRespDupSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,24 +1,32 @@
 def getDocument():
-    '''public URI getDocument()
+    '''returns URI\n\n
+    getDocument()\n
     '''
 def getHintHeight():
-    '''public String getHintHeight()
+    '''returns String\n\n
+    getHintHeight()\n
     '''
 def getHintWidth():
-    '''public String getHintWidth()
+    '''returns String\n\n
+    getHintWidth()\n
     '''
 def getInitialHeight():
-    '''public String getInitialHeight()
+    '''returns String\n\n
+    getInitialHeight()\n
     '''
 def setDocument():
-    '''public void setDocument(final URI document)
+    '''returns None\n\n
+    setDocument(final URI document)\n
     '''
 def setHintHeight():
-    '''public void setHintHeight(final String hintHeight)
+    '''returns None\n\n
+    setHintHeight(final String hintHeight)\n
     '''
 def setHintWidth():
-    '''public void setHintWidth(final String hintWidth)
+    '''returns None\n\n
+    setHintWidth(final String hintWidth)\n
     '''
 def setInitialHeight():
-    '''public void setInitialHeight(final String initialHeight)
+    '''returns None\n\n
+    setInitialHeight(final String initialHeight)\n
     '''

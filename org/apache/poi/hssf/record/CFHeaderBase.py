@@ -1,36 +1,48 @@
 def getNumberOfConditionalFormats():
-    '''public int getNumberOfConditionalFormats()
+    '''returns int\n\n
+    getNumberOfConditionalFormats()\n
     '''
 def setNumberOfConditionalFormats():
-    '''public void setNumberOfConditionalFormats(final int n)
+    '''returns None\n\n
+    setNumberOfConditionalFormats(final int n)\n
     '''
 def getNeedRecalculation():
-    '''public boolean getNeedRecalculation()
+    '''returns boolean\n\n
+    getNeedRecalculation()\n
     '''
 def setNeedRecalculation():
-    '''public void setNeedRecalculation(final boolean b)
+    '''returns None\n\n
+    setNeedRecalculation(final boolean b)\n
     '''
 def getID():
-    '''public int getID()
+    '''returns int\n\n
+    getID()\n
     '''
 def setID():
-    '''public void setID(final int id)
+    '''returns None\n\n
+    setID(final int id)\n
     '''
 def getEnclosingCellRange():
-    '''public CellRangeAddress getEnclosingCellRange()
+    '''returns CellRangeAddress\n\n
+    getEnclosingCellRange()\n
     '''
 def setEnclosingCellRange():
-    '''public void setEnclosingCellRange(final CellRangeAddress cr)
+    '''returns None\n\n
+    setEnclosingCellRange(final CellRangeAddress cr)\n
     '''
 def setCellRanges():
-    '''public void setCellRanges(final CellRangeAddress[] cellRanges)
+    '''returns None\n\n
+    setCellRanges(final CellRangeAddress[] cellRanges)\n
     '''
 def getCellRanges():
-    '''public CellRangeAddress[] getCellRanges()
+    '''returns CellRangeAddress[]\n\n
+    getCellRanges()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''

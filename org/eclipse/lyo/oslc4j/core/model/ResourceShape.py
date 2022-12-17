@@ -1,31 +1,41 @@
-def ResourceShape():
-    '''public ResourceShape()
-    public ResourceShape(final URI about)
+def ():
+    '''returns ResourceShape\n\n
+    ()\n
+    (final URI about)\n
     '''
 def addDescribeItem():
-    '''public void addDescribeItem(final URI describeItem)
+    '''returns None\n\n
+    addDescribeItem(final URI describeItem)\n
     '''
 def addProperty():
-    '''public void addProperty(final Property property)
+    '''returns None\n\n
+    addProperty(final Property property)\n
     '''
 def getProperty():
-    '''public Property getProperty(final URI definition)
+    '''returns Property\n\n
+    getProperty(final URI definition)\n
     '''
 def getDescribes():
-    '''public URI[] getDescribes()
+    '''returns URI[]\n\n
+    getDescribes()\n
     '''
 def getProperties():
-    '''public Property[] getProperties()
+    '''returns Property[]\n\n
+    getProperties()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setDescribes():
-    '''public void setDescribes(final URI[] describes)
+    '''returns None\n\n
+    setDescribes(final URI[] describes)\n
     '''
 def setProperties():
-    '''public void setProperties(final Property[] properties)
+    '''returns None\n\n
+    setProperties(final Property[] properties)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''

@@ -1,3 +1,4 @@
-def InvalidAliasNameException():
-    '''public InvalidAliasNameException(final String message)
+def ():
+    '''returns InvalidAliasNameException\n\n
+    (final String message)\n
     '''

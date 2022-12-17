@@ -1,28 +1,36 @@
-def ResolvingXMLFilter():
-    '''public ResolvingXMLFilter()
-    public ResolvingXMLFilter(final XMLReader parent)
-    public ResolvingXMLFilter(final CatalogManager manager)
-    public ResolvingXMLFilter(final XMLReader parent, final CatalogManager manager)
+def ():
+    '''returns ResolvingXMLFilter\n\n
+    ()\n
+    (final XMLReader parent)\n
+    (final CatalogManager manager)\n
+    (final XMLReader parent, final CatalogManager manager)\n
     '''
 def getCatalog():
-    '''public Catalog getCatalog()
+    '''returns Catalog\n\n
+    getCatalog()\n
     '''
 def parse():
-    '''public void parse(final InputSource input)
-    public void parse(final String systemId)
+    '''returns None\n\n
+    parse(final InputSource input)\n
+    parse(final String systemId)\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''
 def notationDecl():
-    '''public void notationDecl(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    notationDecl(final String name, final String publicId, final String systemId)\n
     '''
 def unparsedEntityDecl():
-    '''public void unparsedEntityDecl(final String name, final String publicId, final String systemId, final String notationName)
+    '''returns None\n\n
+    unparsedEntityDecl(final String name, final String publicId, final String systemId, final String notationName)\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String qName, final Attributes atts)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String qName, final Attributes atts)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String pidata)
+    '''returns None\n\n
+    processingInstruction(final String target, final String pidata)\n
     '''

@@ -1,3 +1,4 @@
-def SLAChangeStatus():
-    '''public SLAChangeStatus(final MboSet ms)
+def ():
+    '''returns SLAChangeStatus\n\n
+    (final MboSet ms)\n
     '''

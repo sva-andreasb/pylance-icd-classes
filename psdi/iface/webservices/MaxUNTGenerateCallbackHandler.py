@@ -1,13 +1,12 @@
-def isTrue():
-    '''public static boolean isTrue(String flag)
-    '''
-def MaxUNTGenerateCallbackHandler():
-    '''public MaxUNTGenerateCallbackHandler(final Map<Object, Object> properties)
-    public MaxUNTGenerateCallbackHandler(final String userid, final String password)
-    public MaxUNTGenerateCallbackHandler(final String userid, final String password, final boolean setNonce, final boolean setCreatedTimestamp)
-    public MaxUNTGenerateCallbackHandler(final boolean useRunAsSubject, final boolean sendRealm)
-    public MaxUNTGenerateCallbackHandler(final boolean useIdentityAssertion)
+def ():
+    '''returns MaxUNTGenerateCallbackHandler\n\n
+    (final Map<Object, Object> properties)\n
+    (final String userid, final String password)\n
+    (final String userid, final String password, final boolean setNonce, final boolean setCreatedTimestamp)\n
+    (final boolean useRunAsSubject, final boolean sendRealm)\n
+    (final boolean useIdentityAssertion)\n
     '''
 def handle():
-    '''public void handle(final Callback[] callbacks)
+    '''returns None\n\n
+    handle(final Callback[] callbacks)\n
     '''

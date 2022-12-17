@@ -1,109 +1,143 @@
-def DefaultHelpBroker():
-    '''public DefaultHelpBroker(final HelpSet set)
-    public DefaultHelpBroker()
+def ():
+    '''returns DefaultHelpBroker\n\n
+    (final HelpSet set)\n
+    ()\n
     '''
 def getWindowPresentation():
-    '''public WindowPresentation getWindowPresentation()
+    '''returns WindowPresentation\n\n
+    getWindowPresentation()\n
     '''
 def getHelpSet():
-    '''public HelpSet getHelpSet()
+    '''returns HelpSet\n\n
+    getHelpSet()\n
     '''
 def setHelpSet():
-    '''public void setHelpSet(final HelpSet helpSet)
+    '''returns None\n\n
+    setHelpSet(final HelpSet helpSet)\n
     '''
 def setHelpSetPresentation():
-    '''public void setHelpSetPresentation(final HelpSet.Presentation helpSetPresentation)
+    '''returns None\n\n
+    setHelpSetPresentation(final HelpSet.Presentation helpSetPresentation)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def setCurrentView():
-    '''public void setCurrentView(final String currentView)
+    '''returns None\n\n
+    setCurrentView(final String currentView)\n
     '''
 def getCurrentView():
-    '''public String getCurrentView()
+    '''returns String\n\n
+    getCurrentView()\n
     '''
 def initPresentation():
-    '''public void initPresentation()
+    '''returns None\n\n
+    initPresentation()\n
     '''
 def setDisplayed():
-    '''public void setDisplayed(final boolean displayed)
+    '''returns None\n\n
+    setDisplayed(final boolean displayed)\n
     '''
 def isDisplayed():
-    '''public boolean isDisplayed()
+    '''returns boolean\n\n
+    isDisplayed()\n
     '''
 def setLocation():
-    '''public void setLocation(final Point location)
+    '''returns None\n\n
+    setLocation(final Point location)\n
     '''
 def getLocation():
-    '''public Point getLocation()
+    '''returns Point\n\n
+    getLocation()\n
     '''
 def setSize():
-    '''public void setSize(final Dimension size)
+    '''returns None\n\n
+    setSize(final Dimension size)\n
     '''
 def getSize():
-    '''public Dimension getSize()
+    '''returns Dimension\n\n
+    getSize()\n
     '''
 def setScreen():
-    '''public void setScreen(final int screen)
+    '''returns None\n\n
+    setScreen(final int screen)\n
     '''
 def getScreen():
-    '''public int getScreen()
+    '''returns int\n\n
+    getScreen()\n
     '''
 def setViewDisplayed():
-    '''public void setViewDisplayed(final boolean viewDisplayed)
+    '''returns None\n\n
+    setViewDisplayed(final boolean viewDisplayed)\n
     '''
 def isViewDisplayed():
-    '''public boolean isViewDisplayed()
+    '''returns boolean\n\n
+    isViewDisplayed()\n
     '''
 def showID():
-    '''public void showID(final String currentID, final String s, final String s2)
-    public void showID(final Map.ID currentID, final String s, final String s2)
+    '''returns None\n\n
+    showID(final String currentID, final String s, final String s2)\n
+    showID(final Map.ID currentID, final String s, final String s2)\n
     '''
 def setCurrentID():
-    '''public void setCurrentID(final String currentID)
-    public void setCurrentID(final Map.ID currentID)
+    '''returns None\n\n
+    setCurrentID(final String currentID)\n
+    setCurrentID(final Map.ID currentID)\n
     '''
 def setCurrentURL():
-    '''public void setCurrentURL(final URL currentURL)
+    '''returns None\n\n
+    setCurrentURL(final URL currentURL)\n
     '''
 def getCurrentURL():
-    '''public URL getCurrentURL()
+    '''returns URL\n\n
+    getCurrentURL()\n
     '''
 def enableHelpKey():
-    '''public void enableHelpKey(final Component component, final String s, final HelpSet set)
-    public void enableHelpKey(final Component component, final String s, final HelpSet helpKeyHS, final String helpKeyPresentation, final String helpKeyPresentationName)
+    '''returns None\n\n
+    enableHelpKey(final Component component, final String s, final HelpSet set)\n
+    enableHelpKey(final Component component, final String s, final HelpSet helpKeyHS, final String helpKeyPresentation, final String helpKeyPresentationName)\n
     '''
 def keyTyped():
-    '''public void keyTyped(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyTyped(final KeyEvent keyEvent)\n
     '''
 def keyPressed():
-    '''public void keyPressed(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyPressed(final KeyEvent keyEvent)\n
     '''
 def keyReleased():
-    '''public void keyReleased(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyReleased(final KeyEvent keyEvent)\n
     '''
 def enableHelp():
-    '''public void enableHelp(final Component component, final String s, final HelpSet set)
-    public void enableHelp(final MenuItem menuItem, final String s, final HelpSet set)
+    '''returns None\n\n
+    enableHelp(final Component component, final String s, final HelpSet set)\n
+    enableHelp(final MenuItem menuItem, final String s, final HelpSet set)\n
     '''
 def enableHelpOnButton():
-    '''public void enableHelpOnButton(final Component component, final String s, final HelpSet set)
-    public void enableHelpOnButton(final MenuItem menuItem, final String s, final HelpSet set)
-    public void enableHelpOnButton(final Object o, final String s, final HelpSet set, final String s2, final String s3)
+    '''returns None\n\n
+    enableHelpOnButton(final Component component, final String s, final HelpSet set)\n
+    enableHelpOnButton(final MenuItem menuItem, final String s, final HelpSet set)\n
+    enableHelpOnButton(final Object o, final String s, final HelpSet set, final String s2, final String s3)\n
     '''
 def setActivationObject():
-    '''public void setActivationObject(final Object activationObject)
+    '''returns None\n\n
+    setActivationObject(final Object activationObject)\n
     '''
 def setActivationWindow():
-    '''public void setActivationWindow(final Window activationWindow)
+    '''returns None\n\n
+    setActivationWindow(final Window activationWindow)\n
     '''

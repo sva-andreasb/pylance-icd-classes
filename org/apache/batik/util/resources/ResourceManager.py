@@ -1,20 +1,26 @@
-def ResourceManager():
-    '''public ResourceManager(final ResourceBundle rb)
+def ():
+    '''returns ResourceManager\n\n
+    (final ResourceBundle rb)\n
     '''
 def getString():
-    '''public String getString(final String key)
+    '''returns String\n\n
+    getString(final String key)\n
     '''
 def getStringList():
-    '''public List getStringList(final String key)
-    public List getStringList(final String key, final String delim)
-    public List getStringList(final String key, final String delim, final boolean returnDelims)
+    '''returns List\n\n
+    getStringList(final String key)\n
+    getStringList(final String key, final String delim)\n
+    getStringList(final String key, final String delim, final boolean returnDelims)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String key)
+    '''returns boolean\n\n
+    getBoolean(final String key)\n
     '''
 def getInteger():
-    '''public int getInteger(final String key)
+    '''returns int\n\n
+    getInteger(final String key)\n
     '''
 def getCharacter():
-    '''public int getCharacter(final String key)
+    '''returns int\n\n
+    getCharacter(final String key)\n
     '''

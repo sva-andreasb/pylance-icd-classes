@@ -1,25 +1,17 @@
-def ConstantClass():
-    '''public ConstantClass(final ConstantClass c)
-    public ConstantClass(final int name_index)
+def ():
+    '''returns ConstantClass\n\n
+    (final ConstantClass c)\n
+    (final int name_index)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def getNameIndex():
-    '''public final int getNameIndex()
-    '''
-def setNameIndex():
-    '''public final void setNameIndex(final int name_index)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''
 def getConstantValue():
-    '''public Object getConstantValue(final ConstantPool cp)
+    '''returns Object\n\n
+    getConstantValue(final ConstantPool cp)\n
     '''
 def getBytes():
-    '''public String getBytes(final ConstantPool cp)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns String\n\n
+    getBytes(final ConstantPool cp)\n
     '''

@@ -1,46 +1,36 @@
-def read():
-    '''public final void read(final DataInputStream dataInputStream, final int n)
-    '''
-def write():
-    '''public final void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-    '''
-def equals():
-    '''public final boolean equals(final Object o)
-    '''
-def hashCode():
-    '''public final int hashCode()
-    '''
 def getClrtag():
-    '''public short getClrtag()
+    '''returns short\n\n
+    getClrtag()\n
     '''
 def getCpos():
-    '''public short getCpos()
+    '''returns short\n\n
+    getCpos()\n
     '''
 def getPOS():
-    '''public int getPOS()
-    public static short getPOS(final int n)
-    '''
-def getPOSbyCPOS():
-    '''public static int getPOSbyCPOS(final int n)
+    '''returns int\n\n
+    getPOS()\n
     '''
 def getUser():
-    '''public int getUser()
+    '''returns int\n\n
+    getUser()\n
     '''
 def setClrtag():
-    '''public void setClrtag(final int n)
+    '''returns None\n\n
+    setClrtag(final int n)\n
     '''
 def setCpos():
-    '''public void setCpos(final int n)
+    '''returns None\n\n
+    setCpos(final int n)\n
     '''
 def setFreq():
-    '''public void setFreq(final int freq)
+    '''returns None\n\n
+    setFreq(final int freq)\n
     '''
 def setKwetag():
-    '''public void setKwetag(final int n)
+    '''returns None\n\n
+    setKwetag(final int n)\n
     '''
 def setUser():
-    '''public void setUser(final int n)
-    '''
-def getType():
-    '''public final int getType()
+    '''returns None\n\n
+    setUser(final int n)\n
     '''

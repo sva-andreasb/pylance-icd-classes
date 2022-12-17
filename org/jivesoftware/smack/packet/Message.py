@@ -1,85 +1,105 @@
-def Message():
-    '''public Message()
-    public Message(final String to)
-    public Message(final String to, final Type type)
+def ():
+    '''returns Message\n\n
+    ()\n
+    (final String to)\n
+    (final String to, final Type type)\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final Type type)
+    '''returns None\n\n
+    setType(final Type type)\n
     '''
 def getSubject():
-    '''public String getSubject()
-    public String getSubject(final String language)
-    public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
+    getSubject(final String language)\n
+    getSubject()\n
     '''
 def getSubjects():
-    '''public Collection<Subject> getSubjects()
+    '''returns Collection<Subject>\n\n
+    getSubjects()\n
     '''
 def setSubject():
-    '''public void setSubject(final String subject)
+    '''returns None\n\n
+    setSubject(final String subject)\n
     '''
 def addSubject():
-    '''public Subject addSubject(String language, final String subject)
+    '''returns Subject\n\n
+    addSubject(String language, final String subject)\n
     '''
 def removeSubject():
-    '''public boolean removeSubject(String language)
-    public boolean removeSubject(final Subject subject)
+    '''returns boolean\n\n
+    removeSubject(String language)\n
+    removeSubject(final Subject subject)\n
     '''
 def getSubjectLanguages():
-    '''public Collection<String> getSubjectLanguages()
+    '''returns Collection<String>\n\n
+    getSubjectLanguages()\n
     '''
 def getBody():
-    '''public String getBody()
-    public String getBody(final String language)
+    '''returns String\n\n
+    getBody()\n
+    getBody(final String language)\n
     '''
 def getBodies():
-    '''public Collection<Body> getBodies()
+    '''returns Collection<Body>\n\n
+    getBodies()\n
     '''
 def setBody():
-    '''public void setBody(final String body)
+    '''returns None\n\n
+    setBody(final String body)\n
     '''
 def addBody():
-    '''public Body addBody(String language, final String body)
+    '''returns Body\n\n
+    addBody(String language, final String body)\n
     '''
 def removeBody():
-    '''public boolean removeBody(String language)
-    public boolean removeBody(final Body body)
+    '''returns boolean\n\n
+    removeBody(String language)\n
+    removeBody(final Body body)\n
     '''
 def getBodyLanguages():
-    '''public Collection<String> getBodyLanguages()
+    '''returns Collection<String>\n\n
+    getBodyLanguages()\n
     '''
 def getThread():
-    '''public String getThread()
+    '''returns String\n\n
+    getThread()\n
     '''
 def setThread():
-    '''public void setThread(final String thread)
+    '''returns None\n\n
+    setThread(final String thread)\n
     '''
 def getLanguage():
-    '''public String getLanguage()
-    public String getLanguage()
-    public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
+    getLanguage()\n
+    getLanguage()\n
     '''
 def setLanguage():
-    '''public void setLanguage(final String language)
+    '''returns None\n\n
+    setLanguage(final String language)\n
     '''
 def toXML():
-    '''public String toXML()
+    '''returns String\n\n
+    toXML()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object o)\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
+    hashCode()\n
     '''
 def getMessage():
-    '''public String getMessage()
-    '''
-def fromString():
-    '''public static Type fromString(final String name)
+    '''returns String\n\n
+    getMessage()\n
     '''

@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def applyPrice():
-    '''public int applyPrice()
+    '''returns int\n\n
+    applyPrice()\n
     '''

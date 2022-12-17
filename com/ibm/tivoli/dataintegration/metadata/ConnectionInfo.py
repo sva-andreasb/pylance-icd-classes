@@ -1,56 +1,74 @@
-def ConnectionInfo():
-    '''public ConnectionInfo()
-    public ConnectionInfo(final String jdbcUrl, final String userName)
-    public ConnectionInfo(final int version, final int release, final int modifier, final long created, final long modified)
+def ():
+    '''returns ConnectionInfo\n\n
+    ()\n
+    (final String jdbcUrl, final String userName)\n
+    (final int version, final int release, final int modifier, final long created, final long modified)\n
     '''
 def getJdbcUrl():
-    '''public String getJdbcUrl()
+    '''returns String\n\n
+    getJdbcUrl()\n
     '''
 def setJdbcUrl():
-    '''public void setJdbcUrl(final String jdbcUrl)
+    '''returns None\n\n
+    setJdbcUrl(final String jdbcUrl)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final int version)
+    '''returns None\n\n
+    setVersion(final int version)\n
     '''
 def getRelease():
-    '''public int getRelease()
+    '''returns int\n\n
+    getRelease()\n
     '''
 def setRelease():
-    '''public void setRelease(final int release)
+    '''returns None\n\n
+    setRelease(final int release)\n
     '''
 def getModifier():
-    '''public int getModifier()
+    '''returns int\n\n
+    getModifier()\n
     '''
 def setModifier():
-    '''public void setModifier(final int modifier)
+    '''returns None\n\n
+    setModifier(final int modifier)\n
     '''
 def getCreated():
-    '''public long getCreated()
+    '''returns long\n\n
+    getCreated()\n
     '''
 def setCreated():
-    '''public void setCreated(final long created)
+    '''returns None\n\n
+    setCreated(final long created)\n
     '''
 def getModified():
-    '''public long getModified()
+    '''returns long\n\n
+    getModified()\n
     '''
 def setModified():
-    '''public void setModified(final long modified)
+    '''returns None\n\n
+    setModified(final long modified)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

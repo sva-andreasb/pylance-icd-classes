@@ -1,12 +1,16 @@
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def getResponseControls():
-    '''public LDAPControl[] getResponseControls()
+    '''returns LDAPControl[]\n\n
+    getResponseControls()\n
     '''
 def hasMore():
-    '''public boolean hasMore()
+    '''returns boolean\n\n
+    hasMore()\n
     '''
 def next():
-    '''public LDAPEntry next()
+    '''returns LDAPEntry\n\n
+    next()\n
     '''

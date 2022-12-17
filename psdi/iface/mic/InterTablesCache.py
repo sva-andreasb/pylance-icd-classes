@@ -1,15 +1,16 @@
-def getInstance():
-    '''public static synchronized InterTablesCache getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getServicesForTable():
-    '''public List<String> getServicesForTable(final String ifaceTbName)
+    '''returns List<String>\n\n
+    getServicesForTable(final String ifaceTbName)\n
     '''
 def getChannelsForTable():
-    '''public List<String> getChannelsForTable(final String ifaceTbName)
+    '''returns List<String>\n\n
+    getChannelsForTable(final String ifaceTbName)\n
     '''
 def getMosNameForTable():
-    '''public String getMosNameForTable(final String ifaceTbName)
+    '''returns String\n\n
+    getMosNameForTable(final String ifaceTbName)\n
     '''

@@ -1,30 +1,36 @@
-def LogInfo():
-    '''public LogInfo(final String contextName, final boolean sendEmail, final String user, final String emailId, final String appenderType, final boolean enabledAllLoggers)
+def ():
+    '''returns LogInfo\n\n
+    (final String contextName, final boolean sendEmail, final String user, final String emailId, final String appenderType, final boolean enabledAllLoggers)\n
     '''
 def isEnableAllLoggers():
-    '''public boolean isEnableAllLoggers()
+    '''returns boolean\n\n
+    isEnableAllLoggers()\n
     '''
 def isSendEmail():
-    '''public boolean isSendEmail()
+    '''returns boolean\n\n
+    isSendEmail()\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def getEmailId():
-    '''public String getEmailId()
-    '''
-def getLoggers():
-    '''public Map<String, String> getLoggers()
+    '''returns String\n\n
+    getEmailId()\n
     '''
 def addLogger():
-    '''public void addLogger(final String logger, final String level)
+    '''returns None\n\n
+    addLogger(final String logger, final String level)\n
     '''
 def getContextId():
-    '''public String getContextId()
+    '''returns String\n\n
+    getContextId()\n
     '''
 def isAddTimeStamp():
-    '''public boolean isAddTimeStamp()
+    '''returns boolean\n\n
+    isAddTimeStamp()\n
     '''
 def getAppenderType():
-    '''public String getAppenderType()
+    '''returns String\n\n
+    getAppenderType()\n
     '''

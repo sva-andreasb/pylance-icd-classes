@@ -1,58 +1,77 @@
-def HttpEventListenerWrapper():
-    '''public HttpEventListenerWrapper()
-    public HttpEventListenerWrapper(final HttpEventListener eventListener, final boolean delegating)
+def ():
+    '''returns HttpEventListenerWrapper\n\n
+    ()\n
+    (final HttpEventListener eventListener, final boolean delegating)\n
     '''
 def getEventListener():
-    '''public HttpEventListener getEventListener()
+    '''returns HttpEventListener\n\n
+    getEventListener()\n
     '''
 def setEventListener():
-    '''public void setEventListener(final HttpEventListener listener)
+    '''returns None\n\n
+    setEventListener(final HttpEventListener listener)\n
     '''
 def isDelegatingRequests():
-    '''public boolean isDelegatingRequests()
+    '''returns boolean\n\n
+    isDelegatingRequests()\n
     '''
 def isDelegatingResponses():
-    '''public boolean isDelegatingResponses()
+    '''returns boolean\n\n
+    isDelegatingResponses()\n
     '''
 def setDelegatingRequests():
-    '''public void setDelegatingRequests(final boolean delegating)
+    '''returns None\n\n
+    setDelegatingRequests(final boolean delegating)\n
     '''
 def setDelegatingResponses():
-    '''public void setDelegatingResponses(final boolean delegating)
+    '''returns None\n\n
+    setDelegatingResponses(final boolean delegating)\n
     '''
 def setDelegationResult():
-    '''public void setDelegationResult(final boolean result)
+    '''returns None\n\n
+    setDelegationResult(final boolean result)\n
     '''
 def onConnectionFailed():
-    '''public void onConnectionFailed(final Throwable ex)
+    '''returns None\n\n
+    onConnectionFailed(final Throwable ex)\n
     '''
 def onException():
-    '''public void onException(final Throwable ex)
+    '''returns None\n\n
+    onException(final Throwable ex)\n
     '''
 def onExpire():
-    '''public void onExpire()
+    '''returns None\n\n
+    onExpire()\n
     '''
 def onRequestCommitted():
-    '''public void onRequestCommitted()
+    '''returns None\n\n
+    onRequestCommitted()\n
     '''
 def onRequestComplete():
-    '''public void onRequestComplete()
+    '''returns None\n\n
+    onRequestComplete()\n
     '''
 def onResponseComplete():
-    '''public void onResponseComplete()
+    '''returns None\n\n
+    onResponseComplete()\n
     '''
 def onResponseContent():
-    '''public void onResponseContent(final Buffer content)
+    '''returns None\n\n
+    onResponseContent(final Buffer content)\n
     '''
 def onResponseHeader():
-    '''public void onResponseHeader(final Buffer name, final Buffer value)
+    '''returns None\n\n
+    onResponseHeader(final Buffer name, final Buffer value)\n
     '''
 def onResponseHeaderComplete():
-    '''public void onResponseHeaderComplete()
+    '''returns None\n\n
+    onResponseHeaderComplete()\n
     '''
 def onResponseStatus():
-    '''public void onResponseStatus(final Buffer version, final int status, final Buffer reason)
+    '''returns None\n\n
+    onResponseStatus(final Buffer version, final int status, final Buffer reason)\n
     '''
 def onRetry():
-    '''public void onRetry()
+    '''returns None\n\n
+    onRetry()\n
     '''

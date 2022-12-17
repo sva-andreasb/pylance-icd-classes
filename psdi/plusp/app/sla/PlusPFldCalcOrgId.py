@@ -1,9 +1,12 @@
-def PlusPFldCalcOrgId():
-    '''public PlusPFldCalcOrgId(final MboValue arg0)
+def ():
+    '''returns PlusPFldCalcOrgId\n\n
+    (final MboValue arg0)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

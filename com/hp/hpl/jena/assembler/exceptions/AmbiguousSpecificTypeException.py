@@ -1,6 +1,8 @@
-def AmbiguousSpecificTypeException():
-    '''public AmbiguousSpecificTypeException(final Resource root, final ArrayList<Resource> types)
+def ():
+    '''returns AmbiguousSpecificTypeException\n\n
+    (final Resource root, final ArrayList<Resource> types)\n
     '''
 def getTypes():
-    '''public List<Resource> getTypes()
+    '''returns List<Resource>\n\n
+    getTypes()\n
     '''

@@ -1,66 +1,87 @@
-def InvBalances():
-    '''public InvBalances(final MboSet ms)
+def ():
+    '''returns InvBalances\n\n
+    (final MboSet ms)\n
     '''
 def updateCurrentBalance():
-    '''public void updateCurrentBalance(final double quantity)
+    '''returns None\n\n
+    updateCurrentBalance(final double quantity)\n
     '''
 def getPhysicalCount():
-    '''public double getPhysicalCount()
+    '''returns double\n\n
+    getPhysicalCount()\n
     '''
 def getCurrentBalance():
-    '''public double getCurrentBalance()
+    '''returns double\n\n
+    getCurrentBalance()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def adjustPhysicalCount():
-    '''public MboRemote adjustPhysicalCount(final double quantity, final Date pCountDate)
+    '''returns MboRemote\n\n
+    adjustPhysicalCount(final double quantity, final Date pCountDate)\n
     '''
 def adjustCurrentBalance():
-    '''public MboRemote adjustCurrentBalance(final double newBalance)
-    public MboRemote adjustCurrentBalance(final double newBalance, final String controlacc, final String shrinkageacc)
+    '''returns MboRemote\n\n
+    adjustCurrentBalance(final double newBalance)\n
+    adjustCurrentBalance(final double newBalance, final String controlacc, final String shrinkageacc)\n
     '''
 def reconcileBalances():
-    '''public MboRemote reconcileBalances()
+    '''returns MboRemote\n\n
+    reconcileBalances()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def setAutoCreateInvLot():
-    '''public void setAutoCreateInvLot(final boolean flag)
+    '''returns None\n\n
+    setAutoCreateInvLot(final boolean flag)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def adjustLifoFifoCurrentBalance():
-    '''public void adjustLifoFifoCurrentBalance(final double newBalance)
+    '''returns None\n\n
+    adjustLifoFifoCurrentBalance(final double newBalance)\n
     '''
 def createInvTrans():
-    '''public MboRemote createInvTrans(final double quantity, final double unitcost, final boolean isreconcile)
+    '''returns MboRemote\n\n
+    createInvTrans(final double quantity, final double unitcost, final boolean isreconcile)\n
     '''
 def getNewBalanceForReconcile():
-    '''public double getNewBalanceForReconcile()
+    '''returns double\n\n
+    getNewBalanceForReconcile()\n
     '''
 def reconcileBalancesLifoFifo():
-    '''public void reconcileBalancesLifoFifo(final String controlacc, final String shrinkageacc, final String remark)
+    '''returns None\n\n
+    reconcileBalancesLifoFifo(final String controlacc, final String shrinkageacc, final String remark)\n
     '''
 def updateLifoFifoQtyAndCreateInvTrans():
-    '''public void updateLifoFifoQtyAndCreateInvTrans(final boolean isreconcile)
-    public void updateLifoFifoQtyAndCreateInvTrans(final HashMap<String, Vector<MboRemote>> condBalMap, final boolean isreconcile)
-    public void updateLifoFifoQtyAndCreateInvTrans(final Vector<MboRemote> invBalanceVec, final String conditionCode, final boolean isreconcile)
+    '''returns None\n\n
+    updateLifoFifoQtyAndCreateInvTrans(final boolean isreconcile)\n
+    updateLifoFifoQtyAndCreateInvTrans(final HashMap<String, Vector<MboRemote>> condBalMap, final boolean isreconcile)\n
+    updateLifoFifoQtyAndCreateInvTrans(final Vector<MboRemote> invBalanceVec, final String conditionCode, final boolean isreconcile)\n
     '''
 def reconcileLifoFifoCurrentBalance():
-    '''public void reconcileLifoFifoCurrentBalance(final double physcnt)
+    '''returns None\n\n
+    reconcileLifoFifoCurrentBalance(final double physcnt)\n
     '''
 def checkWMATStatus():
-    '''public boolean checkWMATStatus()
+    '''returns boolean\n\n
+    checkWMATStatus()\n
     '''
 def previewReconcileBalances():
-    '''public MboRemote previewReconcileBalances()
+    '''returns MboRemote\n\n
+    previewReconcileBalances()\n
     '''

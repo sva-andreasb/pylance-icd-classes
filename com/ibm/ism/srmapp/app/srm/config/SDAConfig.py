@@ -1,33 +1,44 @@
-def SDAConfig():
-    '''public SDAConfig(final MboSet ms)
+def ():
+    '''returns SDAConfig\n\n
+    (final MboSet ms)\n
     '''
 def setRanConfig():
-    '''public void setRanConfig(final boolean hasRun)
+    '''returns None\n\n
+    setRanConfig(final boolean hasRun)\n
     '''
 def validateProperties():
-    '''public void validateProperties(final String[] propertyNames, final String type)
+    '''returns None\n\n
+    validateProperties(final String[] propertyNames, final String type)\n
     '''
 def validateOrg():
-    '''public void validateOrg(final Mbo propMbo, final String propertyName, final String propertyValue)
+    '''returns None\n\n
+    validateOrg(final Mbo propMbo, final String propertyName, final String propertyValue)\n
     '''
 def validateMSAD():
-    '''public void validateMSAD(final Mbo propMbo, final String propertyName, final String propertyValue, final String attrTitle)
+    '''returns None\n\n
+    validateMSAD(final Mbo propMbo, final String propertyName, final String propertyValue, final String attrTitle)\n
     '''
 def validateSC():
-    '''public void validateSC(final Mbo propMbo, final String propertyName, final String propertyValue, final String attrTitle)
+    '''returns None\n\n
+    validateSC(final Mbo propMbo, final String propertyName, final String propertyValue, final String attrTitle)\n
     '''
 def checkConfigDBRunning():
-    '''public void checkConfigDBRunning()
+    '''returns None\n\n
+    checkConfigDBRunning()\n
     '''
 def setLDAPScriptSuccessStatus():
-    '''public void setLDAPScriptSuccessStatus(final boolean success)
+    '''returns None\n\n
+    setLDAPScriptSuccessStatus(final boolean success)\n
     '''
 def getLDAPScriptSuccessStatus():
-    '''public boolean getLDAPScriptSuccessStatus()
+    '''returns boolean\n\n
+    getLDAPScriptSuccessStatus()\n
     '''
 def setSCScriptSuccessStatus():
-    '''public void setSCScriptSuccessStatus(final boolean success)
+    '''returns None\n\n
+    setSCScriptSuccessStatus(final boolean success)\n
     '''
 def getSCScriptSuccessStatus():
-    '''public boolean getSCScriptSuccessStatus()
+    '''returns boolean\n\n
+    getSCScriptSuccessStatus()\n
     '''

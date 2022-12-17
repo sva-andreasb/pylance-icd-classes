@@ -1,48 +1,64 @@
 def amCrewRefresh():
-    '''public int amCrewRefresh()
+    '''returns int\n\n
+    amCrewRefresh()\n
     '''
 def modavailcrew():
-    '''public int modavailcrew()
+    '''returns int\n\n
+    modavailcrew()\n
     '''
 def setPageStartIndex():
-    '''public boolean setPageStartIndex(final int nRow)
+    '''returns boolean\n\n
+    setPageStartIndex(final int nRow)\n
     '''
 def assigncrewgrid1():
-    '''public int assigncrewgrid1()
+    '''returns int\n\n
+    assigncrewgrid1()\n
     '''
 def assigncrewgrid2():
-    '''public int assigncrewgrid2()
+    '''returns int\n\n
+    assigncrewgrid2()\n
     '''
 def assigncrewgrid3():
-    '''public int assigncrewgrid3()
+    '''returns int\n\n
+    assigncrewgrid3()\n
     '''
 def assigncrewgrid4():
-    '''public int assigncrewgrid4()
+    '''returns int\n\n
+    assigncrewgrid4()\n
     '''
 def assigncrewgrid5():
-    '''public int assigncrewgrid5()
+    '''returns int\n\n
+    assigncrewgrid5()\n
     '''
 def assigncrewgrid6():
-    '''public int assigncrewgrid6()
+    '''returns int\n\n
+    assigncrewgrid6()\n
     '''
 def assigncrewgrid7():
-    '''public int assigncrewgrid7()
+    '''returns int\n\n
+    assigncrewgrid7()\n
     '''
 def assigncrewgrid():
-    '''public int assigncrewgrid(final String theDay)
+    '''returns int\n\n
+    assigncrewgrid(final String theDay)\n
     '''
 def AMSetCurrentRow():
-    '''public void AMSetCurrentRow(final int nRow)
+    '''returns None\n\n
+    AMSetCurrentRow(final int nRow)\n
     '''
 def AMSetTableFlag():
-    '''public void AMSetTableFlag(final long flag, final boolean value)
+    '''returns None\n\n
+    AMSetTableFlag(final long flag, final boolean value)\n
     '''
 def AMSetCurrentQueryName():
-    '''public void AMSetCurrentQueryName(final String queryName)
+    '''returns None\n\n
+    AMSetCurrentQueryName(final String queryName)\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def getRemoteForDownload():
-    '''public MboSetRemote getRemoteForDownload()
+    '''returns MboSetRemote\n\n
+    getRemoteForDownload()\n
     '''

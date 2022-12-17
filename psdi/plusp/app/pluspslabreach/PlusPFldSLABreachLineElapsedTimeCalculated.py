@@ -1,6 +1,8 @@
-def PlusPFldSLABreachLineElapsedTimeCalculated():
-    '''public PlusPFldSLABreachLineElapsedTimeCalculated(final MboValue mbv)
+def ():
+    '''returns PlusPFldSLABreachLineElapsedTimeCalculated\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

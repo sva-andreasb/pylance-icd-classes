@@ -1,40 +1,44 @@
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''
 def setLimit():
-    '''public void setLimit(final int limit)
+    '''returns None\n\n
+    setLimit(final int limit)\n
     '''
 def clear():
-    '''public void clear()
-    '''
-def addLogListener():
-    '''public synchronized boolean addLogListener(final LogListener l)
-    '''
-def removeListener():
-    '''public synchronized boolean removeListener(final LogListener l)
+    '''returns None\n\n
+    clear()\n
     '''
 def getLevel():
-    '''public Level getLevel(final Category category)
+    '''returns Level\n\n
+    getLevel(final Category category)\n
     '''
 def getEffectiveLevel():
-    '''public Level getEffectiveLevel(final Category category)
+    '''returns Level\n\n
+    getEffectiveLevel(final Category category)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Level level, final Category category)
+    '''returns boolean\n\n
+    isEnabled(final Level level, final Category category)\n
     '''
 def setLevel():
-    '''public void setLevel(final Category category, final Level level)
+    '''returns None\n\n
+    setLevel(final Category category, final Level level)\n
     '''
 def clearLevel():
-    '''public void clearLevel(final Category category)
+    '''returns None\n\n
+    clearLevel(final Category category)\n
     '''
 def log():
-    '''public void log(final Level level, final Throwable t)
-    public void log(final Level level, final Category category, final Throwable t)
-    public void log(final Level level, final Category category, final String message)
-    public void log(final Level level, final Category category, final String message, final String detail)
-    public void log(final Level level, final Category category, final String message, final Throwable t)
+    '''returns None\n\n
+    log(final Level level, final Throwable t)\n
+    log(final Level level, final Category category, final Throwable t)\n
+    log(final Level level, final Category category, final String message)\n
+    log(final Level level, final Category category, final String message, final String detail)\n
+    log(final Level level, final Category category, final String message, final Throwable t)\n
     '''
 def getEntries():
-    '''public LogEntry[] getEntries()
+    '''returns LogEntry[]\n\n
+    getEntries()\n
     '''

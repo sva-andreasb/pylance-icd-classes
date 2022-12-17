@@ -1,12 +1,16 @@
-def FTPClient():
-    '''public FTPClient(final String ftpUrl, final String username, final String password, final String changeToDir, final boolean makeDir)
+def ():
+    '''returns FTPClient\n\n
+    (final String ftpUrl, final String username, final String password, final String changeToDir, final boolean makeDir)\n
     '''
 def put():
-    '''public void put(final String serverFileName, final byte[] fileData)
+    '''returns None\n\n
+    put(final String serverFileName, final byte[] fileData)\n
     '''
 def get():
-    '''public byte[] get(final String serverFileName, final boolean delete)
+    '''returns byte[]\n\n
+    get(final String serverFileName, final boolean delete)\n
     '''
 def getAllFiles():
-    '''public List getAllFiles(final int batchSize, final boolean delete)
+    '''returns List\n\n
+    getAllFiles(final int batchSize, final boolean delete)\n
     '''

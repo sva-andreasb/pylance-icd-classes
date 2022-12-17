@@ -1,78 +1,102 @@
-def Workgroup():
-    '''public Workgroup(final EntityBareJid workgroupJID, final XMPPConnection connection)
+def ():
+    '''returns Workgroup\n\n
+    (final EntityBareJid workgroupJID, final XMPPConnection connection)\n
     '''
 def joinedQueue():
-    '''public void joinedQueue()
+    '''returns None\n\n
+    joinedQueue()\n
     '''
 def departedQueue():
-    '''public void departedQueue()
+    '''returns None\n\n
+    departedQueue()\n
     '''
 def queuePositionUpdated():
-    '''public void queuePositionUpdated(final int currentPosition)
+    '''returns None\n\n
+    queuePositionUpdated(final int currentPosition)\n
     '''
 def queueWaitTimeUpdated():
-    '''public void queueWaitTimeUpdated(final int secondsRemaining)
+    '''returns None\n\n
+    queueWaitTimeUpdated(final int secondsRemaining)\n
     '''
 def invitationReceived():
-    '''public void invitationReceived(final XMPPConnection conn, final MultiUserChat room, final EntityJid inviter, final String reason, final String password, final Message message, final MUCUser.Invite invitation)
+    '''returns None\n\n
+    invitationReceived(final XMPPConnection conn, final MultiUserChat room, final EntityJid inviter, final String reason, final String password, final Message message, final MUCUser.Invite invitation)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
     '''
 def getWorkgroupJID():
-    '''public EntityBareJid getWorkgroupJID()
+    '''returns EntityBareJid\n\n
+    getWorkgroupJID()\n
     '''
 def isInQueue():
-    '''public boolean isInQueue()
+    '''returns boolean\n\n
+    isInQueue()\n
     '''
 def isAvailable():
-    '''public boolean isAvailable()
+    '''returns boolean\n\n
+    isAvailable()\n
     '''
 def getQueuePosition():
-    '''public int getQueuePosition()
+    '''returns int\n\n
+    getQueuePosition()\n
     '''
 def getQueueRemainingTime():
-    '''public int getQueueRemainingTime()
+    '''returns int\n\n
+    getQueueRemainingTime()\n
     '''
 def joinQueue():
-    '''public void joinQueue()
-    public void joinQueue(final Form answerForm)
-    public void joinQueue(final Form answerForm, final Jid userID)
-    public void joinQueue(final Map<String, Object> metadata, final Jid userID)
+    '''returns None\n\n
+    joinQueue()\n
+    joinQueue(final Form answerForm)\n
+    joinQueue(final Form answerForm, final Jid userID)\n
+    joinQueue(final Map<String, Object> metadata, final Jid userID)\n
     '''
 def departQueue():
-    '''public void departQueue()
+    '''returns None\n\n
+    departQueue()\n
     '''
 def addQueueListener():
-    '''public void addQueueListener(final QueueListener queueListener)
+    '''returns None\n\n
+    addQueueListener(final QueueListener queueListener)\n
     '''
 def removeQueueListener():
-    '''public void removeQueueListener(final QueueListener queueListener)
-    public void removeQueueListener(final WorkgroupInvitationListener invitationListener)
+    '''returns None\n\n
+    removeQueueListener(final QueueListener queueListener)\n
+    removeQueueListener(final WorkgroupInvitationListener invitationListener)\n
     '''
 def addInvitationListener():
-    '''public void addInvitationListener(final WorkgroupInvitationListener invitationListener)
+    '''returns None\n\n
+    addInvitationListener(final WorkgroupInvitationListener invitationListener)\n
     '''
 def getChatSetting():
-    '''public ChatSetting getChatSetting(final String key)
+    '''returns ChatSetting\n\n
+    getChatSetting(final String key)\n
     '''
 def getChatSettings():
-    '''public ChatSettings getChatSettings(final int type)
-    public ChatSettings getChatSettings()
+    '''returns ChatSettings\n\n
+    getChatSettings(final int type)\n
+    getChatSettings()\n
     '''
 def isEmailAvailable():
-    '''public boolean isEmailAvailable()
+    '''returns boolean\n\n
+    isEmailAvailable()\n
     '''
 def getOfflineSettings():
-    '''public OfflineSettings getOfflineSettings()
+    '''returns OfflineSettings\n\n
+    getOfflineSettings()\n
     '''
 def getSoundSettings():
-    '''public SoundSettings getSoundSettings()
+    '''returns SoundSettings\n\n
+    getSoundSettings()\n
     '''
 def getWorkgroupProperties():
-    '''public WorkgroupProperties getWorkgroupProperties()
-    public WorkgroupProperties getWorkgroupProperties(final String jid)
+    '''returns WorkgroupProperties\n\n
+    getWorkgroupProperties()\n
+    getWorkgroupProperties(final String jid)\n
     '''
 def getWorkgroupForm():
-    '''public Form getWorkgroupForm()
+    '''returns Form\n\n
+    getWorkgroupForm()\n
     '''

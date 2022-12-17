@@ -1,6 +1,8 @@
-def AbstractParsedURLProtocolHandler():
-    '''public AbstractParsedURLProtocolHandler(final String protocol)
+def ():
+    '''returns AbstractParsedURLProtocolHandler\n\n
+    (final String protocol)\n
     '''
 def getProtocolHandled():
-    '''public String getProtocolHandled()
+    '''returns String\n\n
+    getProtocolHandled()\n
     '''

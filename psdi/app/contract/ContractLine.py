@@ -1,78 +1,104 @@
-def ContractLine():
-    '''public ContractLine(final MboSet ms)
+def ():
+    '''returns ContractLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def copyPurchContractLine():
-    '''public MboRemote copyPurchContractLine(final MboRemote releasePOLineRemote, final MboRemote createRelInput)
+    '''returns MboRemote\n\n
+    copyPurchContractLine(final MboRemote releasePOLineRemote, final MboRemote createRelInput)\n
     '''
 def getInternalLineStatus():
-    '''public String getInternalLineStatus()
+    '''returns String\n\n
+    getInternalLineStatus()\n
     '''
 def getInternalContractType():
-    '''public String getInternalContractType()
+    '''returns String\n\n
+    getInternalContractType()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def getInternalRevStatus():
-    '''public String getInternalRevStatus()
+    '''returns String\n\n
+    getInternalRevStatus()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''
 def createSchedule():
-    '''public void createSchedule()
+    '''returns None\n\n
+    createSchedule()\n
     '''
 def canCreateSchedule():
-    '''public void canCreateSchedule()
+    '''returns None\n\n
+    canCreateSchedule()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def getInternalLineType():
-    '''public String getInternalLineType()
+    '''returns String\n\n
+    getInternalLineType()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def isServiceType():
-    '''public boolean isServiceType()
+    '''returns boolean\n\n
+    isServiceType()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def getInvVendorRemote():
-    '''public MboRemote getInvVendorRemote()
+    '''returns MboRemote\n\n
+    getInvVendorRemote()\n
     '''
 def changeLineStatus():
-    '''public void changeLineStatus(final String lineStatus)
+    '''returns None\n\n
+    changeLineStatus(final String lineStatus)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def setVendorItem():
-    '''public void setVendorItem(final boolean value)
+    '''returns None\n\n
+    setVendorItem(final boolean value)\n
     '''
 def getVendorItem():
-    '''public boolean getVendorItem()
+    '''returns boolean\n\n
+    getVendorItem()\n
     '''
 def isContractReferencedOnPOLine():
-    '''public boolean isContractReferencedOnPOLine()
+    '''returns boolean\n\n
+    isContractReferencedOnPOLine()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''

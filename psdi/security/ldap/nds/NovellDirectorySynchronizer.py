@@ -1,4 +1,5 @@
 MODIFYTIMESTAMP = "String  \"modifyTimeStamp\""
-def NovellDirectorySynchronizer():
-    '''public NovellDirectorySynchronizer()
+def ():
+    '''returns NovellDirectorySynchronizer\n\n
+    ()\n
     '''

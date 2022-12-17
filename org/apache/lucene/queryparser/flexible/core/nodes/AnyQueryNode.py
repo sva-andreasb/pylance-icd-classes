@@ -1,24 +1,32 @@
-def AnyQueryNode():
-    '''public AnyQueryNode(final List<QueryNode> clauses, final CharSequence field, final int minimumMatchingElements)
+def ():
+    '''returns AnyQueryNode\n\n
+    (final List<QueryNode> clauses, final CharSequence field, final int minimumMatchingElements)\n
     '''
 def getMinimumMatchingElements():
-    '''public int getMinimumMatchingElements()
+    '''returns int\n\n
+    getMinimumMatchingElements()\n
     '''
 def getField():
-    '''public CharSequence getField()
+    '''returns CharSequence\n\n
+    getField()\n
     '''
 def getFieldAsString():
-    '''public String getFieldAsString()
+    '''returns String\n\n
+    getFieldAsString()\n
     '''
 def setField():
-    '''public void setField(final CharSequence field)
+    '''returns None\n\n
+    setField(final CharSequence field)\n
     '''
 def cloneTree():
-    '''public QueryNode cloneTree()
+    '''returns QueryNode\n\n
+    cloneTree()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escapeSyntaxParser)\n
     '''

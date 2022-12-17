@@ -1,12 +1,16 @@
-def CharacterSection():
-    '''public CharacterSection(final SectionType section, final XDGFSheet containingSheet)
+def ():
+    '''returns CharacterSection\n\n
+    (final SectionType section, final XDGFSheet containingSheet)\n
     '''
 def getFontSize():
-    '''public Double getFontSize()
+    '''returns Double\n\n
+    getFontSize()\n
     '''
 def getFontColor():
-    '''public Color getFontColor()
+    '''returns Color\n\n
+    getFontColor()\n
     '''
 def setupMaster():
-    '''public void setupMaster(final XDGFSection section)
+    '''returns None\n\n
+    setupMaster(final XDGFSection section)\n
     '''

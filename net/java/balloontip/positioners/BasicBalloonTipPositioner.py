@@ -1,48 +1,64 @@
-def BasicBalloonTipPositioner():
-    '''public BasicBalloonTipPositioner(final int hO, final int vO)
+def ():
+    '''returns BasicBalloonTipPositioner\n\n
+    (final int hO, final int vO)\n
     '''
 def getPreferredHorizontalOffset():
-    '''public int getPreferredHorizontalOffset()
+    '''returns int\n\n
+    getPreferredHorizontalOffset()\n
     '''
 def setPreferredHorizontalOffset():
-    '''public void setPreferredHorizontalOffset(final int preferredHorizontalOffset)
+    '''returns None\n\n
+    setPreferredHorizontalOffset(final int preferredHorizontalOffset)\n
     '''
 def getPreferredVerticalOffset():
-    '''public int getPreferredVerticalOffset()
+    '''returns int\n\n
+    getPreferredVerticalOffset()\n
     '''
 def setPreferredVerticalOffset():
-    '''public void setPreferredVerticalOffset(final int preferredVerticalOffset)
+    '''returns None\n\n
+    setPreferredVerticalOffset(final int preferredVerticalOffset)\n
     '''
 def isOffsetCorrected():
-    '''public boolean isOffsetCorrected()
+    '''returns boolean\n\n
+    isOffsetCorrected()\n
     '''
 def enableOffsetCorrection():
-    '''public void enableOffsetCorrection(final boolean offsetCorrection)
+    '''returns None\n\n
+    enableOffsetCorrection(final boolean offsetCorrection)\n
     '''
 def isOrientationCorrected():
-    '''public boolean isOrientationCorrected()
+    '''returns boolean\n\n
+    isOrientationCorrected()\n
     '''
 def enableOrientationCorrection():
-    '''public void enableOrientationCorrection(final boolean orientationCorrection)
+    '''returns None\n\n
+    enableOrientationCorrection(final boolean orientationCorrection)\n
     '''
 def isFixedAttachLocation():
-    '''public boolean isFixedAttachLocation()
+    '''returns boolean\n\n
+    isFixedAttachLocation()\n
     '''
 def enableFixedAttachLocation():
-    '''public void enableFixedAttachLocation(final boolean fixedAttachLocation)
+    '''returns None\n\n
+    enableFixedAttachLocation(final boolean fixedAttachLocation)\n
     '''
 def getAttachLocationX():
-    '''public float getAttachLocationX()
+    '''returns float\n\n
+    getAttachLocationX()\n
     '''
 def getAttachLocationY():
-    '''public float getAttachLocationY()
+    '''returns float\n\n
+    getAttachLocationY()\n
     '''
 def setAttachLocation():
-    '''public void setAttachLocation(final float attachLocationX, final float attachLocationY)
+    '''returns None\n\n
+    setAttachLocation(final float attachLocationX, final float attachLocationY)\n
     '''
 def getTipLocation():
-    '''public Point getTipLocation()
+    '''returns Point\n\n
+    getTipLocation()\n
     '''
 def determineAndSetLocation():
-    '''public void determineAndSetLocation(final Rectangle attached)
+    '''returns None\n\n
+    determineAndSetLocation(final Rectangle attached)\n
     '''

@@ -1,45 +1,60 @@
 def setProtocol():
-    '''public void setProtocol(final String protocol)
+    '''returns None\n\n
+    setProtocol(final String protocol)\n
     '''
 def getprotocol():
-    '''public String getprotocol()
+    '''returns String\n\n
+    getprotocol()\n
     '''
 def withProtocol():
-    '''public RedirectRule withProtocol(final String protocol)
+    '''returns RedirectRule\n\n
+    withProtocol(final String protocol)\n
     '''
 def setHostName():
-    '''public void setHostName(final String hostName)
+    '''returns None\n\n
+    setHostName(final String hostName)\n
     '''
 def getHostName():
-    '''public String getHostName()
+    '''returns String\n\n
+    getHostName()\n
     '''
 def withHostName():
-    '''public RedirectRule withHostName(final String hostName)
+    '''returns RedirectRule\n\n
+    withHostName(final String hostName)\n
     '''
 def setReplaceKeyPrefixWith():
-    '''public void setReplaceKeyPrefixWith(final String replaceKeyPrefixWith)
+    '''returns None\n\n
+    setReplaceKeyPrefixWith(final String replaceKeyPrefixWith)\n
     '''
 def getReplaceKeyPrefixWith():
-    '''public String getReplaceKeyPrefixWith()
+    '''returns String\n\n
+    getReplaceKeyPrefixWith()\n
     '''
 def withReplaceKeyPrefixWith():
-    '''public RedirectRule withReplaceKeyPrefixWith(final String replaceKeyPrefixWith)
+    '''returns RedirectRule\n\n
+    withReplaceKeyPrefixWith(final String replaceKeyPrefixWith)\n
     '''
 def setReplaceKeyWith():
-    '''public void setReplaceKeyWith(final String replaceKeyWith)
+    '''returns None\n\n
+    setReplaceKeyWith(final String replaceKeyWith)\n
     '''
 def getReplaceKeyWith():
-    '''public String getReplaceKeyWith()
+    '''returns String\n\n
+    getReplaceKeyWith()\n
     '''
 def withReplaceKeyWith():
-    '''public RedirectRule withReplaceKeyWith(final String replaceKeyWith)
+    '''returns RedirectRule\n\n
+    withReplaceKeyWith(final String replaceKeyWith)\n
     '''
 def setHttpRedirectCode():
-    '''public void setHttpRedirectCode(final String httpRedirectCode)
+    '''returns None\n\n
+    setHttpRedirectCode(final String httpRedirectCode)\n
     '''
 def getHttpRedirectCode():
-    '''public String getHttpRedirectCode()
+    '''returns String\n\n
+    getHttpRedirectCode()\n
     '''
 def withHttpRedirectCode():
-    '''public RedirectRule withHttpRedirectCode(final String httpRedirectCode)
+    '''returns RedirectRule\n\n
+    withHttpRedirectCode(final String httpRedirectCode)\n
     '''

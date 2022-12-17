@@ -1,84 +1,93 @@
-def getInstance():
-    '''public static RelativeDateTimeFormatter getInstance()
-    public static RelativeDateTimeFormatter getInstance(final ULocale locale)
-    public static RelativeDateTimeFormatter getInstance(final Locale locale)
-    public static RelativeDateTimeFormatter getInstance(final ULocale locale, final NumberFormat nf)
-    public static RelativeDateTimeFormatter getInstance(final ULocale locale, NumberFormat nf, final Style style, final DisplayContext capitalizationContext)
-    public static RelativeDateTimeFormatter getInstance(final Locale locale, final NumberFormat nf)
-    '''
 def format():
-    '''public String format(final double quantity, final Direction direction, final RelativeUnit unit)
-    public String format(final Direction direction, final AbsoluteUnit unit)
-    public String format(final double offset, final RelativeDateTimeUnit unit)
+    '''returns String\n\n
+    format(final double quantity, final Direction direction, final RelativeUnit unit)\n
+    format(final Direction direction, final AbsoluteUnit unit)\n
+    format(final double offset, final RelativeDateTimeUnit unit)\n
     '''
 def formatToValue():
-    '''public FormattedRelativeDateTime formatToValue(final double quantity, final Direction direction, final RelativeUnit unit)
-    public FormattedRelativeDateTime formatToValue(final Direction direction, final AbsoluteUnit unit)
-    public FormattedRelativeDateTime formatToValue(final double offset, final RelativeDateTimeUnit unit)
+    '''returns FormattedRelativeDateTime\n\n
+    formatToValue(final double quantity, final Direction direction, final RelativeUnit unit)\n
+    formatToValue(final Direction direction, final AbsoluteUnit unit)\n
+    formatToValue(final double offset, final RelativeDateTimeUnit unit)\n
     '''
 def formatNumeric():
-    '''public String formatNumeric(final double offset, final RelativeDateTimeUnit unit)
+    '''returns String\n\n
+    formatNumeric(final double offset, final RelativeDateTimeUnit unit)\n
     '''
 def formatNumericToValue():
-    '''public FormattedRelativeDateTime formatNumericToValue(final double offset, final RelativeDateTimeUnit unit)
+    '''returns FormattedRelativeDateTime\n\n
+    formatNumericToValue(final double offset, final RelativeDateTimeUnit unit)\n
     '''
 def combineDateAndTime():
-    '''public String combineDateAndTime(final String relativeDateString, final String timeString)
+    '''returns String\n\n
+    combineDateAndTime(final String relativeDateString, final String timeString)\n
     '''
 def getNumberFormat():
-    '''public NumberFormat getNumberFormat()
+    '''returns NumberFormat\n\n
+    getNumberFormat()\n
     '''
 def getCapitalizationContext():
-    '''public DisplayContext getCapitalizationContext()
+    '''returns DisplayContext\n\n
+    getCapitalizationContext()\n
     '''
 def getFormatStyle():
-    '''public Style getFormatStyle()
+    '''returns Style\n\n
+    getFormatStyle()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
-    '''
-def appendTo():
-    '''public <A extends Appendable> A appendTo(final A appendable)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''
 def nextPosition():
-    '''public boolean nextPosition(final ConstrainedFieldPosition cfpos)
+    '''returns boolean\n\n
+    nextPosition(final ConstrainedFieldPosition cfpos)\n
     '''
 def toCharacterIterator():
-    '''public AttributedCharacterIterator toCharacterIterator()
+    '''returns AttributedCharacterIterator\n\n
+    toCharacterIterator()\n
     '''
-def RelativeDateTimeFormatterData():
-    '''public RelativeDateTimeFormatterData(final EnumMap<Style, EnumMap<AbsoluteUnit, EnumMap<Direction, String>>> qualitativeUnitMap, final EnumMap<Style, EnumMap<RelativeUnit, String[][]>> relUnitPatternMap, final String dateTimePattern)
+def ():
+    '''returns Loader\n\n
+    (final EnumMap<Style, EnumMap<AbsoluteUnit, EnumMap<Direction, String>>> qualitativeUnitMap, final EnumMap<Style, EnumMap<RelativeUnit, String[][]>> relUnitPatternMap, final String dateTimePattern)\n
+    (final ULocale ulocale)\n
     '''
 def get():
-    '''public RelativeDateTimeFormatterData get(final ULocale locale)
+    '''returns RelativeDateTimeFormatterData\n\n
+    get(final ULocale locale)\n
     '''
 def consumeTableRelative():
-    '''public void consumeTableRelative(final UResource.Key key, final UResource.Value value)
+    '''returns None\n\n
+    consumeTableRelative(final UResource.Key key, final UResource.Value value)\n
     '''
 def consumeTableRelativeTime():
-    '''public void consumeTableRelativeTime(final UResource.Key key, final UResource.Value value)
+    '''returns None\n\n
+    consumeTableRelativeTime(final UResource.Key key, final UResource.Value value)\n
     '''
 def consumeTimeDetail():
-    '''public void consumeTimeDetail(final UResource.Key key, final UResource.Value value)
+    '''returns None\n\n
+    consumeTimeDetail(final UResource.Key key, final UResource.Value value)\n
     '''
 def consumeTimeUnit():
-    '''public void consumeTimeUnit(final UResource.Key key, final UResource.Value value)
+    '''returns None\n\n
+    consumeTimeUnit(final UResource.Key key, final UResource.Value value)\n
     '''
 def put():
-    '''public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
-    '''
-def Loader():
-    '''public Loader(final ULocale ulocale)
+    '''returns None\n\n
+    put(final UResource.Key key, final UResource.Value value, final boolean noFallback)\n
     '''
 def load():
-    '''public RelativeDateTimeFormatterData load()
+    '''returns RelativeDateTimeFormatterData\n\n
+    load()\n
     '''

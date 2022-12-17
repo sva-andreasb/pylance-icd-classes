@@ -1,56 +1,64 @@
 NODENAME = "String  \"payload-type\""
-def PayloadType():
-    '''public PayloadType(final int id, final String name, final int channels)
-    public PayloadType()
-    public PayloadType(final int id, final String name)
-    public PayloadType(final PayloadType pt)
+def ():
+    '''returns Audio\n\n
+    (final int id, final String name, final int channels)\n
+    ()\n
+    (final int id, final String name)\n
+    (final PayloadType pt)\n
+    (final int id, final String name, final int channels, final int rate)\n
+    (final int id, final String name, final int rate)\n
+    ()\n
+    (final int id, final String name)\n
+    (final PayloadType pt)\n
+    (final Audio pt)\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final int id)
+    '''returns None\n\n
+    setId(final int id)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getChannels():
-    '''public int getChannels()
+    '''returns int\n\n
+    getChannels()\n
     '''
 def setChannels():
-    '''public void setChannels(final int channels)
+    '''returns None\n\n
+    setChannels(final int channels)\n
     '''
 def isNull():
-    '''public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
-    '''
-def getElementName():
-    '''public static String getElementName()
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def toXML():
-    '''public String toXML()
-    '''
-def Audio():
-    '''public Audio(final int id, final String name, final int channels, final int rate)
-    public Audio(final int id, final String name, final int rate)
-    public Audio()
-    public Audio(final int id, final String name)
-    public Audio(final PayloadType pt)
-    public Audio(final Audio pt)
+    '''returns String\n\n
+    toXML()\n
     '''
 def getClockRate():
-    '''public int getClockRate()
+    '''returns int\n\n
+    getClockRate()\n
     '''
 def setClockRate():
-    '''public void setClockRate(final int rate)
+    '''returns None\n\n
+    setClockRate(final int rate)\n
     '''

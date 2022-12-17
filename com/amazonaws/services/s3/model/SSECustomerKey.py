@@ -1,29 +1,34 @@
-def SSECustomerKey():
-    '''public SSECustomerKey(final String base64EncodedKey)
-    public SSECustomerKey(final byte[] rawKeyMaterial)
-    public SSECustomerKey(final SecretKey key)
+def ():
+    '''returns SSECustomerKey\n\n
+    (final String base64EncodedKey)\n
+    (final byte[] rawKeyMaterial)\n
+    (final SecretKey key)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getAlgorithm():
-    '''public String getAlgorithm()
+    '''returns String\n\n
+    getAlgorithm()\n
     '''
 def setAlgorithm():
-    '''public void setAlgorithm(final String algorithm)
+    '''returns None\n\n
+    setAlgorithm(final String algorithm)\n
     '''
 def withAlgorithm():
-    '''public SSECustomerKey withAlgorithm(final String algorithm)
+    '''returns SSECustomerKey\n\n
+    withAlgorithm(final String algorithm)\n
     '''
 def getMd5():
-    '''public String getMd5()
+    '''returns String\n\n
+    getMd5()\n
     '''
 def setMd5():
-    '''public void setMd5(final String md5Digest)
+    '''returns None\n\n
+    setMd5(final String md5Digest)\n
     '''
 def withMd5():
-    '''public SSECustomerKey withMd5(final String md5Digest)
-    '''
-def generateSSECustomerKeyForPresignUrl():
-    '''public static SSECustomerKey generateSSECustomerKeyForPresignUrl(final String algorithm)
+    '''returns SSECustomerKey\n\n
+    withMd5(final String md5Digest)\n
     '''

@@ -1,33 +1,44 @@
-def WPToolSet():
-    '''public WPToolSet(final MboServerInterface ms)
+def ():
+    '''returns WPToolSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def createInvReserves():
-    '''public void createInvReserves(final Date asOfDate, final boolean createInit)
+    '''returns None\n\n
+    createInvReserves(final Date asOfDate, final boolean createInit)\n
     '''
 def deleteInvReserves():
-    '''public void deleteInvReserves()
+    '''returns None\n\n
+    deleteInvReserves()\n
     '''
 def findReservation():
-    '''public MboRemote findReservation(final WPTool wpt)
+    '''returns MboRemote\n\n
+    findReservation(final WPTool wpt)\n
     '''
 def updateInvReserve():
-    '''public void updateInvReserve(final WPTool wpt)
+    '''returns None\n\n
+    updateInvReserve(final WPTool wpt)\n
     '''
 def findByAttributeTool():
-    '''public MboRemote findByAttributeTool(final String attrValue, final boolean tobedeleted)
+    '''returns MboRemote\n\n
+    findByAttributeTool(final String attrValue, final boolean tobedeleted)\n
     '''
 def findByAttributeToolsForWPLabor():
-    '''public Vector findByAttributeToolsForWPLabor(final String wplaboruid)
+    '''returns Vector\n\n
+    findByAttributeToolsForWPLabor(final String wplaboruid)\n
     '''
 def findByAttributeToolForCrew():
-    '''public MboRemote findByAttributeToolForCrew(final String attrValue, final boolean tobedeleted, final String crew, final String wplaboruid)
+    '''returns MboRemote\n\n
+    findByAttributeToolForCrew(final String attrValue, final boolean tobedeleted, final String crew, final String wplaboruid)\n
     '''
 def findByAttributeToolNotForCrew():
-    '''public MboRemote findByAttributeToolNotForCrew(final String attrValue, final boolean tobedeleted, final String crew)
+    '''returns MboRemote\n\n
+    findByAttributeToolNotForCrew(final String attrValue, final boolean tobedeleted, final String crew)\n
     '''
 def findByAttributeToolNotForCrewType():
-    '''public MboRemote findByAttributeToolNotForCrewType(final String attrValue, final boolean tobedeleted, final String crewtype)
+    '''returns MboRemote\n\n
+    findByAttributeToolNotForCrewType(final String attrValue, final boolean tobedeleted, final String crewtype)\n
     '''
 def findByAttributeToolForCrewType():
-    '''public MboRemote findByAttributeToolForCrewType(final String attrValue, final boolean tobedeleted, final String crewtype, final String wplaboruid)
+    '''returns MboRemote\n\n
+    findByAttributeToolForCrewType(final String attrValue, final boolean tobedeleted, final String crewtype, final String wplaboruid)\n
     '''

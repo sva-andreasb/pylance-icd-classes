@@ -1,3 +1,4 @@
-def JsonResultsReaderException():
-    '''public JsonResultsReaderException(final String message, final Object... parameters)
+def ():
+    '''returns JsonResultsReaderException\n\n
+    (final String message, final Object... parameters)\n
     '''

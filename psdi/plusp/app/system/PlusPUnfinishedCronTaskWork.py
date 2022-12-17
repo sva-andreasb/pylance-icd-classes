@@ -1,3 +1,4 @@
-def PlusPUnfinishedCronTaskWork():
-    '''public PlusPUnfinishedCronTaskWork(final MboSet ms)
+def ():
+    '''returns PlusPUnfinishedCronTaskWork\n\n
+    (final MboSet ms)\n
     '''

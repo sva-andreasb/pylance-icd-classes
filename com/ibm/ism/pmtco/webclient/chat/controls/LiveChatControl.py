@@ -1,24 +1,32 @@
 def getGreetingMsg():
-    '''public String getGreetingMsg()
+    '''returns String\n\n
+    getGreetingMsg()\n
     '''
 def getMyChatDisplayName():
-    '''public String getMyChatDisplayName()
+    '''returns String\n\n
+    getMyChatDisplayName()\n
     '''
 def fetchChatStartInfo():
-    '''public int fetchChatStartInfo()
+    '''returns int\n\n
+    fetchChatStartInfo()\n
     '''
 def getKeepSessionAliveInterval():
-    '''public long getKeepSessionAliveInterval()
+    '''returns long\n\n
+    getKeepSessionAliveInterval()\n
     '''
 def getCometdLoggingLevel():
-    '''public String getCometdLoggingLevel()
+    '''returns String\n\n
+    getCometdLoggingLevel()\n
     '''
 def getMaxDisconnectsAllowed():
-    '''public int getMaxDisconnectsAllowed()
+    '''returns int\n\n
+    getMaxDisconnectsAllowed()\n
     '''
 def isGrabFocusOnNewChat():
-    '''public boolean isGrabFocusOnNewChat()
+    '''returns boolean\n\n
+    isGrabFocusOnNewChat()\n
     '''
 def getChatDisplayName():
-    '''public String getChatDisplayName(final String personId)
+    '''returns String\n\n
+    getChatDisplayName(final String personId)\n
     '''

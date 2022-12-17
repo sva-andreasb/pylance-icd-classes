@@ -1,3 +1,4 @@
-def MaxUserNPS():
-    '''public MaxUserNPS(final MboSet ms)
+def ():
+    '''returns MaxUserNPS\n\n
+    (final MboSet ms)\n
     '''

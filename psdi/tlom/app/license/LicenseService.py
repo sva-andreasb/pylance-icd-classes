@@ -1,4 +1,5 @@
-def LicenseService():
-    '''public LicenseService(final MXServer mxServer)
-    public LicenseService()
+def ():
+    '''returns LicenseService\n\n
+    (final MXServer mxServer)\n
+    ()\n
     '''

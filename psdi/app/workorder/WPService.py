@@ -1,30 +1,40 @@
-def WPService():
-    '''public WPService(final MboSet ms)
+def ():
+    '''returns WPService\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def updateEstimateTotal():
-    '''public void updateEstimateTotal(final double delta)
+    '''returns None\n\n
+    updateEstimateTotal(final double delta)\n
     '''
 def setEstCost():
-    '''public void setEstCost(final MboRemote wo, final double lineCost)
+    '''returns None\n\n
+    setEstCost(final MboRemote wo, final double lineCost)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def setBaseCurrencyUnitCost():
-    '''public void setBaseCurrencyUnitCost(final double vendorunitcost)
+    '''returns None\n\n
+    setBaseCurrencyUnitCost(final double vendorunitcost)\n
     '''
 def setFieldsFlagInDuplicate():
-    '''public void setFieldsFlagInDuplicate()
+    '''returns None\n\n
+    setFieldsFlagInDuplicate()\n
     '''
 def copyPlan():
-    '''public void copyPlan(final MboRemote source)
+    '''returns None\n\n
+    copyPlan(final MboRemote source)\n
     '''

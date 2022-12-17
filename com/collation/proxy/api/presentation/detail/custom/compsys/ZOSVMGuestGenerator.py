@@ -1,6 +1,8 @@
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''
 def addRow():
-    '''public DetailTableData addRow(final ModelObjectLite zos, final String LPARID, final String ZVMGuest, final String ZVM)
+    '''returns DetailTableData\n\n
+    addRow(final ModelObjectLite zos, final String LPARID, final String ZVMGuest, final String ZVM)\n
     '''

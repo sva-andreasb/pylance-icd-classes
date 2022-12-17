@@ -1,49 +1,65 @@
-def PmProblem():
-    '''public PmProblem(final MboSet ms)
+def ():
+    '''returns PmProblem\n\n
+    (final MboSet ms)\n
     '''
 def changeStatus():
-    '''public void changeStatus(String status, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(String status, final Date date, final String memo, final long accessModifier)\n
     '''
 def canEnterMeterReadings():
-    '''public void canEnterMeterReadings()
-    public void canEnterMeterReadings(final Mbo mbo)
+    '''returns None\n\n
+    canEnterMeterReadings()\n
+    canEnterMeterReadings(final Mbo mbo)\n
     '''
 def canReportDowntime():
-    '''public void canReportDowntime()
+    '''returns None\n\n
+    canReportDowntime()\n
     '''
 def getStatusHistory():
-    '''public MboSetRemote getStatusHistory()
+    '''returns MboSetRemote\n\n
+    getStatusHistory()\n
     '''
 def applyTemplate():
-    '''public void applyTemplate(final MboRemote templateMbo)
+    '''returns None\n\n
+    applyTemplate(final MboRemote templateMbo)\n
     '''
 def canTemplateApply():
-    '''public void canTemplateApply()
+    '''returns None\n\n
+    canTemplateApply()\n
     '''
 def tkChangeMaxStatus():
-    '''public void tkChangeMaxStatus(final String maxstatus)
+    '''returns None\n\n
+    tkChangeMaxStatus(final String maxstatus)\n
     '''
 def ownership():
-    '''public void ownership()
+    '''returns None\n\n
+    ownership()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def createSolution():
-    '''public MboRemote createSolution()
+    '''returns MboRemote\n\n
+    createSolution()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

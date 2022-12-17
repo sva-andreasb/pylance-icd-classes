@@ -1,9 +1,12 @@
-def ClassFunctions():
-    '''public ClassFunctions(final Class functionClass, final String namespace)
+def ():
+    '''returns ClassFunctions\n\n
+    (final Class functionClass, final String namespace)\n
     '''
 def getUsedNamespaces():
-    '''public Set getUsedNamespaces()
+    '''returns Set\n\n
+    getUsedNamespaces()\n
     '''
 def getFunction():
-    '''public Function getFunction(final String namespace, final String name, Object[] parameters)
+    '''returns Function\n\n
+    getFunction(final String namespace, final String name, Object[] parameters)\n
     '''

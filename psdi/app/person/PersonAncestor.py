@@ -1,3 +1,4 @@
-def PersonAncestor():
-    '''public PersonAncestor(final MboSet ms)
+def ():
+    '''returns PersonAncestor\n\n
+    (final MboSet ms)\n
     '''

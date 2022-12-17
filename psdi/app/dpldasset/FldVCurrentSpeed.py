@@ -1,6 +1,8 @@
-def FldVCurrentSpeed():
-    '''public FldVCurrentSpeed(final MboValue mbv)
+def ():
+    '''returns FldVCurrentSpeed\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

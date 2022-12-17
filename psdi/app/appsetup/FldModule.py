@@ -1,3 +1,4 @@
-def FldModule():
-    '''public FldModule(final MboValue mbv)
+def ():
+    '''returns FldModule\n\n
+    (final MboValue mbv)\n
     '''

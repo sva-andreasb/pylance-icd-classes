@@ -1,6 +1,8 @@
-def ListAliasesRequestMarshaller():
-    '''public ListAliasesRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns ListAliasesRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<ListAliasesRequest> marshall(final ListAliasesRequest listAliasesRequest)
+    '''returns Request<ListAliasesRequest>\n\n
+    marshall(final ListAliasesRequest listAliasesRequest)\n
     '''

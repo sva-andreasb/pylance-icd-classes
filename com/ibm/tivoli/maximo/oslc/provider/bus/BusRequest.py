@@ -1,24 +1,28 @@
 def isLeanJson():
-    '''public boolean isLeanJson()
+    '''returns boolean\n\n
+    isLeanJson()\n
     '''
 def getOslcRequest():
-    '''public OslcRequest getOslcRequest()
+    '''returns OslcRequest\n\n
+    getOslcRequest()\n
     '''
-def BusRequest():
-    '''public BusRequest(final OslcRequest request)
+def ():
+    '''returns BusRequest\n\n
+    (final OslcRequest request)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
-    '''
-def getWhere():
-    '''public Map<String, String[]> getWhere()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''
 def getTenantCode():
-    '''public String getTenantCode()
+    '''returns String\n\n
+    getTenantCode()\n
     '''
 def getApps():
-    '''public String getApps()
+    '''returns String\n\n
+    getApps()\n
     '''

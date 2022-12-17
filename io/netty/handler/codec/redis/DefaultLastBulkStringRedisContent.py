@@ -1,23 +1,30 @@
-def DefaultLastBulkStringRedisContent():
-    '''public DefaultLastBulkStringRedisContent(final ByteBuf content)
+def ():
+    '''returns DefaultLastBulkStringRedisContent\n\n
+    (final ByteBuf content)\n
     '''
 def copy():
-    '''public LastBulkStringRedisContent copy()
+    '''returns LastBulkStringRedisContent\n\n
+    copy()\n
     '''
 def duplicate():
-    '''public LastBulkStringRedisContent duplicate()
+    '''returns LastBulkStringRedisContent\n\n
+    duplicate()\n
     '''
 def retainedDuplicate():
-    '''public LastBulkStringRedisContent retainedDuplicate()
+    '''returns LastBulkStringRedisContent\n\n
+    retainedDuplicate()\n
     '''
 def replace():
-    '''public LastBulkStringRedisContent replace(final ByteBuf content)
+    '''returns LastBulkStringRedisContent\n\n
+    replace(final ByteBuf content)\n
     '''
 def retain():
-    '''public LastBulkStringRedisContent retain()
-    public LastBulkStringRedisContent retain(final int increment)
+    '''returns LastBulkStringRedisContent\n\n
+    retain()\n
+    retain(final int increment)\n
     '''
 def touch():
-    '''public LastBulkStringRedisContent touch()
-    public LastBulkStringRedisContent touch(final Object hint)
+    '''returns LastBulkStringRedisContent\n\n
+    touch()\n
+    touch(final Object hint)\n
     '''

@@ -1,3 +1,4 @@
-def VpkMsgSetOldPrivacyList():
-    '''public VpkMsgSetOldPrivacyList(final int n, final STPrivacyList list)
+def ():
+    '''returns VpkMsgSetOldPrivacyList\n\n
+    (final int n, final STPrivacyList list)\n
     '''

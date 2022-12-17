@@ -2,67 +2,86 @@ CACHEKEY_PMRESERVATION_FORECASTDATALOADED = "String  \"PMReservationDataManager-
 CACHEKEY_PMRESERVATION_FORECASTJPLOAD = "String  \"PMReservationDataManager-forecastjpload\""
 CACHEKEY_PMRESERVATION_FORECASTLOAD = "String  \"PMReservationDataManager-forecastload\""
 def populate():
-    '''public boolean populate()
+    '''returns boolean\n\n
+    populate()\n
     '''
 def populateReservations():
-    '''public void populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)
+    '''returns None\n\n
+    populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)\n
     '''
 def populateReservationsRoute():
-    '''public void populateReservationsRoute(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList, final String routestopid)
+    '''returns None\n\n
+    populateReservationsRoute(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList, final String routestopid)\n
     '''
 def loadReservation():
-    '''public void loadReservation(final MXReservation reservation, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    loadReservation(final MXReservation reservation, final String objectName, final MboRemote mboObject)\n
     '''
 def reservationRecordCount():
-    '''public int reservationRecordCount(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)
+    '''returns int\n\n
+    reservationRecordCount(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)\n
     '''
 def getActivityId():
-    '''public String getActivityId()
-    public String getActivityId()
+    '''returns String\n\n
+    getActivityId()\n
+    getActivityId()\n
     '''
 def setActivityId():
-    '''public void setActivityId(final String activityId)
-    public void setActivityId(final String activityId)
+    '''returns None\n\n
+    setActivityId(final String activityId)\n
+    setActivityId(final String activityId)\n
     '''
 def getResourceId():
-    '''public String getResourceId()
-    public String getResourceId()
+    '''returns String\n\n
+    getResourceId()\n
+    getResourceId()\n
     '''
 def setResourceId():
-    '''public void setResourceId(final String resourceId)
-    public void setResourceId(final String resourceId)
+    '''returns None\n\n
+    setResourceId(final String resourceId)\n
+    setResourceId(final String resourceId)\n
     '''
 def getForecastSeqNo():
-    '''public int getForecastSeqNo()
-    public int getForecastSeqNo()
+    '''returns int\n\n
+    getForecastSeqNo()\n
+    getForecastSeqNo()\n
     '''
 def setForecastSeqNo():
-    '''public void setForecastSeqNo(final int forecastSeqNo)
-    public void setForecastSeqNo(final int forecastSeqNo)
+    '''returns None\n\n
+    setForecastSeqNo(final int forecastSeqNo)\n
+    setForecastSeqNo(final int forecastSeqNo)\n
     '''
 def getCraftLoad():
-    '''public int getCraftLoad()
+    '''returns int\n\n
+    getCraftLoad()\n
     '''
 def setCraftLoad():
-    '''public void setCraftLoad(final int craftLoad)
+    '''returns None\n\n
+    setCraftLoad(final int craftLoad)\n
     '''
 def getCraftLoadHrs():
-    '''public double getCraftLoadHrs()
+    '''returns double\n\n
+    getCraftLoadHrs()\n
     '''
 def setCraftLoadHrs():
-    '''public void setCraftLoadHrs(final double craftLoadHrs)
+    '''returns None\n\n
+    setCraftLoadHrs(final double craftLoadHrs)\n
     '''
 def getStartDate():
-    '''public Date getStartDate()
-    public Date getStartDate()
+    '''returns Date\n\n
+    getStartDate()\n
+    getStartDate()\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date startDate)
-    public void setStartDate(final Date startDate)
+    '''returns None\n\n
+    setStartDate(final Date startDate)\n
+    setStartDate(final Date startDate)\n
     '''
 def getEndDate():
-    '''public Date getEndDate()
+    '''returns Date\n\n
+    getEndDate()\n
     '''
 def setEndDate():
-    '''public void setEndDate(final Date endDate)
+    '''returns None\n\n
+    setEndDate(final Date endDate)\n
     '''

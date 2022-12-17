@@ -1,9 +1,12 @@
 def registerMetricAdminMBean():
-    '''public boolean registerMetricAdminMBean(final String objectName)
+    '''returns boolean\n\n
+    registerMetricAdminMBean(final String objectName)\n
     '''
 def unregisterMBean():
-    '''public boolean unregisterMBean(final String objectName)
+    '''returns boolean\n\n
+    unregisterMBean(final String objectName)\n
     '''
 def isMBeanRegistered():
-    '''public boolean isMBeanRegistered(final String objectName)
+    '''returns boolean\n\n
+    isMBeanRegistered(final String objectName)\n
     '''

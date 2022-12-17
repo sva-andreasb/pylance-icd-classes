@@ -1,66 +1,88 @@
-def ListPartsRequest():
-    '''public ListPartsRequest(final String bucketName, final String key, final String uploadId)
+def ():
+    '''returns ListPartsRequest\n\n
+    (final String bucketName, final String key, final String uploadId)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public ListPartsRequest withBucketName(final String bucketName)
+    '''returns ListPartsRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public ListPartsRequest withKey(final String key)
+    '''returns ListPartsRequest\n\n
+    withKey(final String key)\n
     '''
 def getUploadId():
-    '''public String getUploadId()
+    '''returns String\n\n
+    getUploadId()\n
     '''
 def setUploadId():
-    '''public void setUploadId(final String uploadId)
+    '''returns None\n\n
+    setUploadId(final String uploadId)\n
     '''
 def withUploadId():
-    '''public ListPartsRequest withUploadId(final String uploadId)
+    '''returns ListPartsRequest\n\n
+    withUploadId(final String uploadId)\n
     '''
 def getMaxParts():
-    '''public Integer getMaxParts()
+    '''returns Integer\n\n
+    getMaxParts()\n
     '''
 def setMaxParts():
-    '''public void setMaxParts(final int maxParts)
+    '''returns None\n\n
+    setMaxParts(final int maxParts)\n
     '''
 def withMaxParts():
-    '''public ListPartsRequest withMaxParts(final int maxParts)
+    '''returns ListPartsRequest\n\n
+    withMaxParts(final int maxParts)\n
     '''
 def getPartNumberMarker():
-    '''public Integer getPartNumberMarker()
+    '''returns Integer\n\n
+    getPartNumberMarker()\n
     '''
 def setPartNumberMarker():
-    '''public void setPartNumberMarker(final Integer partNumberMarker)
+    '''returns None\n\n
+    setPartNumberMarker(final Integer partNumberMarker)\n
     '''
 def withPartNumberMarker():
-    '''public ListPartsRequest withPartNumberMarker(final Integer partNumberMarker)
+    '''returns ListPartsRequest\n\n
+    withPartNumberMarker(final Integer partNumberMarker)\n
     '''
 def getEncodingType():
-    '''public String getEncodingType()
+    '''returns String\n\n
+    getEncodingType()\n
     '''
 def setEncodingType():
-    '''public void setEncodingType(final String encodingType)
+    '''returns None\n\n
+    setEncodingType(final String encodingType)\n
     '''
 def withEncodingType():
-    '''public ListPartsRequest withEncodingType(final String encodingType)
+    '''returns ListPartsRequest\n\n
+    withEncodingType(final String encodingType)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public ListPartsRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns ListPartsRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

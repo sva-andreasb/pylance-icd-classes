@@ -1,13 +1,13 @@
-def main():
-    '''public static void main(final String... args)
-    '''
 def a():
-    '''public String a(final g g)
-    public void a(final j j, final int n)
+    '''returns None\n\n
+    a(final g g)\n
+    a(final j j, final int n)\n
     '''
 def b():
-    '''public void b(final j j, final int n)
+    '''returns None\n\n
+    b(final j j, final int n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -2,57 +2,59 @@ FILLED_SQUARE_SHAPE = "int  0"
 SQUARE_SHAPE = "int  1"
 FILLED_CIRCLE_SHAPE = "int  2"
 CIRCLE_SHAPE = "int  3"
-def IlvHandlesSelection():
-    '''public IlvHandlesSelection(final IlvGraphic ilvGraphic)
+def ():
+    '''returns IlvHandlesSelection\n\n
+    (final IlvGraphic ilvGraphic)\n
     '''
 def getHandlesColor():
-    '''public Color getHandlesColor()
+    '''returns Color\n\n
+    getHandlesColor()\n
     '''
 def setHandlesColor():
-    '''public void setHandlesColor(final Color c)
+    '''returns None\n\n
+    setHandlesColor(final Color c)\n
     '''
 def getActiveHandlesColor():
-    '''public Color getActiveHandlesColor()
+    '''returns Color\n\n
+    getActiveHandlesColor()\n
     '''
 def setActiveHandlesColor():
-    '''public void setActiveHandlesColor(final Color d)
+    '''returns None\n\n
+    setActiveHandlesColor(final Color d)\n
     '''
 def isActive():
-    '''public boolean isActive()
-    '''
-def getHandlesSize():
-    '''public final float getHandlesSize()
-    '''
-def setHandlesSize():
-    '''public final void setHandlesSize(final float b)
-    '''
-def getHandlesShape():
-    '''public final int getHandlesShape()
-    '''
-def setHandlesShape():
-    '''public final void setHandlesShape(final int a)
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def getHandle():
-    '''public int getHandle(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns int\n\n
+    getHandle(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''
 def contains():
-    '''public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns boolean\n\n
+    contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def drawWithoutHandles():
-    '''public void drawWithoutHandles(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    drawWithoutHandles(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def zoomable():
-    '''public boolean zoomable()
+    '''returns boolean\n\n
+    zoomable()\n
     '''
 def boundingBox():
-    '''public IlvRect boundingBox(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    boundingBox(final IlvTransformer ilvTransformer)\n
     '''
 def onEnter():
-    '''public void onEnter(final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    onEnter(final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def onExit():
-    '''public void onExit(final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    onExit(final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''

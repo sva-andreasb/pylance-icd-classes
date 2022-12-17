@@ -5,11 +5,14 @@ FILE_TRANSFER_STOPPED = "int  4"
 FILE_TRANSFER_DECLINED = "int  5"
 BYTES_TRANSFERRED_UPDATE = "int  6"
 def getFileTransfer():
-    '''public FileTransfer getFileTransfer()
+    '''returns FileTransfer\n\n
+    getFileTransfer()\n
     '''
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def getExtendedErrorString():
-    '''public String getExtendedErrorString()
+    '''returns String\n\n
+    getExtendedErrorString()\n
     '''

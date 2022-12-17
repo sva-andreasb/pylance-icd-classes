@@ -1,15 +1,16 @@
-def getChartIds():
-    '''public Map<String, String> getChartIds()
-    '''
 def getSupportedChartTypes():
-    '''public JSONArray getSupportedChartTypes()
+    '''returns JSONArray\n\n
+    getSupportedChartTypes()\n
     '''
 def configureChartType():
-    '''public ChartType configureChartType(final String chartType)
+    '''returns ChartType\n\n
+    configureChartType(final String chartType)\n
     '''
 def getSupportedChartThemes():
-    '''public JSONArray getSupportedChartThemes()
+    '''returns JSONArray\n\n
+    getSupportedChartThemes()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''

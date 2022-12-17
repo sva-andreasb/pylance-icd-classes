@@ -1,3 +1,4 @@
-def TAMITCustomerSet():
-    '''public TAMITCustomerSet(final MboServerInterface ms)
+def ():
+    '''returns TAMITCustomerSet\n\n
+    (final MboServerInterface ms)\n
     '''

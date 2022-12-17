@@ -11,36 +11,47 @@ ATT_TICKETWO_SITEID = "String  \"SITEID\""
 ATT_TICKETWO_ORGID = "String  \"ORGID\""
 RECONTICKET_MSG_GROUP = "String  \"reconresults\""
 RECONTICKET_MSG_KEY_SITEID_MISSING = "String  \"DefaultSiteIDIsRequired\""
-def PmcfgReconCIResult():
-    '''public PmcfgReconCIResult(final MboSet ms)
+def ():
+    '''returns PmcfgReconCIResult\n\n
+    (final MboSet ms)\n
     '''
 def createTicket():
-    '''public void createTicket(final MboRemote tkMbo)
+    '''returns None\n\n
+    createTicket(final MboRemote tkMbo)\n
     '''
 def createWO():
-    '''public void createWO(final MboRemote workorderMbo)
+    '''returns None\n\n
+    createWO(final MboRemote workorderMbo)\n
     '''
 def createServiceRequest():
-    '''public MboRemote createServiceRequest(final String ticketTemplateID)
+    '''returns MboRemote\n\n
+    createServiceRequest(final String ticketTemplateID)\n
     '''
 def createProcessRequest():
-    '''public MboRemote createProcessRequest(final String ticketTemplateID)
+    '''returns MboRemote\n\n
+    createProcessRequest(final String ticketTemplateID)\n
     '''
 def createProblem():
-    '''public MboRemote createProblem(final String ticketTemplateID)
+    '''returns MboRemote\n\n
+    createProblem(final String ticketTemplateID)\n
     '''
 def createIncident():
-    '''public MboRemote createIncident(final String ticketTemplateID)
+    '''returns MboRemote\n\n
+    createIncident(final String ticketTemplateID)\n
     '''
 def createWorkorder():
-    '''public MboRemote createWorkorder(final String jobPlan)
+    '''returns MboRemote\n\n
+    createWorkorder(final String jobPlan)\n
     '''
 def createChange():
-    '''public MboRemote createChange(final String jobPlan)
+    '''returns MboRemote\n\n
+    createChange(final String jobPlan)\n
     '''
 def createRelease():
-    '''public MboRemote createRelease(final String jobPlan)
+    '''returns MboRemote\n\n
+    createRelease(final String jobPlan)\n
     '''
 def validateWOSiteID():
-    '''public void validateWOSiteID(final MboRemote workOrderMbo)
+    '''returns None\n\n
+    validateWOSiteID(final MboRemote workOrderMbo)\n
     '''

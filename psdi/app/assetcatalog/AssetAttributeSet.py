@@ -1,6 +1,8 @@
-def AssetAttributeSet():
-    '''public AssetAttributeSet(final MboServerInterface ms)
+def ():
+    '''returns AssetAttributeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getNewAttributeVector():
-    '''public Vector getNewAttributeVector()
+    '''returns Vector\n\n
+    getNewAttributeVector()\n
     '''

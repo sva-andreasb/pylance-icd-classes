@@ -1,10 +1,13 @@
-def ShapeRenderer():
-    '''public ShapeRenderer()
-    public ShapeRenderer(final Graphics2D g)
+def ():
+    '''returns ShapeRenderer\n\n
+    ()\n
+    (final Graphics2D g)\n
     '''
 def setGraphics():
-    '''public void setGraphics(final Graphics2D g)
+    '''returns None\n\n
+    setGraphics(final Graphics2D g)\n
     '''
 def visit():
-    '''public void visit(final XDGFShape shape, final AffineTransform globalTransform, final int level)
+    '''returns None\n\n
+    visit(final XDGFShape shape, final AffineTransform globalTransform, final int level)\n
     '''

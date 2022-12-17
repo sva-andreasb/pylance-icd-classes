@@ -1,13 +1,17 @@
-def TimeZoneLoader():
-    '''public TimeZoneLoader(final String resourcePrefix)
-    public TimeZoneLoader(final String resourcePrefix, final TimeZoneCache cache)
+def ():
+    '''returns TimeZoneLoader\n\n
+    (final String resourcePrefix)\n
+    (final String resourcePrefix, final TimeZoneCache cache)\n
     '''
 def loadVTimeZone():
-    '''public VTimeZone loadVTimeZone(final String id)
+    '''returns VTimeZone\n\n
+    loadVTimeZone(final String id)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

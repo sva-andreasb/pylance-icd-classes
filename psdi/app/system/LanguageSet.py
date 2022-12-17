@@ -1,3 +1,4 @@
-def LanguageSet():
-    '''public LanguageSet(final MboServerInterface ms)
+def ():
+    '''returns LanguageSet\n\n
+    (final MboServerInterface ms)\n
     '''

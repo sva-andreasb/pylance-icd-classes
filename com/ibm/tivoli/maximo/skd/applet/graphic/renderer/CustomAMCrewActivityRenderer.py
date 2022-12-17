@@ -1,42 +1,39 @@
-def CustomAMCrewActivityRenderer():
-    '''public CustomAMCrewActivityRenderer()
-    public CustomAMCrewActivityRenderer(final boolean addComplianceBars)
-    public CustomAMCrewActivityRenderer(final IlvActivity activity)
+def ():
+    '''returns DeleteWorkActionListener\n\n
+    ()\n
+    (final boolean addComplianceBars)\n
+    (final IlvActivity activity)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
+    (final IlvReservation reservation)\n
     '''
 def createSelection():
-    '''public IlvSelection createSelection(final IlvActivityGraphic g, final String[] properties)
+    '''returns IlvSelection\n\n
+    createSelection(final IlvActivityGraphic g, final String[] properties)\n
     '''
 def draw():
-    '''public void draw(final Graphics arg0, final IlvActivityGraphic arg1, final IlvTransformer arg2)
+    '''returns None\n\n
+    draw(final Graphics arg0, final IlvActivityGraphic arg1, final IlvTransformer arg2)\n
     '''
 def reattachmodel():
-    '''public void reattachmodel()
+    '''returns None\n\n
+    reattachmodel()\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer arg2, final IlvManagerView view, final IlvPopupMenuManager arg4)
+    '''returns JPopupMenu\n\n
+    getPopupMenu(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer arg2, final IlvManagerView view, final IlvPopupMenuManager arg4)\n
     '''
 def createNewAssignment():
-    '''public MXActivity createNewAssignment(final SortGanttModel model, final IlvActivity activity, final IlvReservation reservation, final long start, final long end, final int selectedseg, final boolean activityIsParent)
-    '''
-def Split2ActionListener():
-    '''public Split2ActionListener(final IlvReservation reservation)
+    '''returns MXActivity\n\n
+    createNewAssignment(final SortGanttModel model, final IlvActivity activity, final IlvReservation reservation, final long start, final long end, final int selectedseg, final boolean activityIsParent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    '''
-def SplitActionListener():
-    '''public SplitActionListener(final IlvReservation reservation)
-    '''
-def SplitShiftActionListener():
-    '''public SplitShiftActionListener(final IlvReservation reservation)
-    '''
-def NewWorkActionListener():
-    '''public NewWorkActionListener(final IlvReservation reservation)
-    '''
-def DeleteWorkActionListener():
-    '''public DeleteWorkActionListener(final IlvReservation reservation)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''

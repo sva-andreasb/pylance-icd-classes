@@ -44,51 +44,47 @@ PID_DOCVERSION = "int  29"
 PID_MAX = "int  31"
 PID_LOCALE = "int  Integer.MIN_VALUE"
 PID_BEHAVIOUR = "int  -2147483645"
-def getSummaryInformationProperties():
-    '''public static synchronized PropertyIDMap getSummaryInformationProperties()
-    '''
-def getDocumentSummaryInformationProperties():
-    '''public static synchronized PropertyIDMap getDocumentSummaryInformationProperties()
-    '''
-def getFallbackProperties():
-    '''public static synchronized PropertyIDMap getFallbackProperties()
-    '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def get():
-    '''public String get(final Object key)
+    '''returns String\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public String put(final Long key, final String value)
+    '''returns String\n\n
+    put(final Long key, final String value)\n
     '''
 def remove():
-    '''public String remove(final Object key)
+    '''returns String\n\n
+    remove(final Object key)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends Long, ? extends String> m)
+    '''returns None\n\n
+    putAll(final Map<? extends Long, ? extends String> m)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def keySet():
-    '''public Set<Long> keySet()
+    '''returns Set<Long>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<String> values()
-    '''
-def entrySet():
-    '''public Set<Entry<Long, String>> entrySet()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns Collection<String>\n\n
+    values()\n
     '''

@@ -1,3 +1,4 @@
-def WeatherCfgAttr():
-    '''public WeatherCfgAttr(final MboSet ms)
+def ():
+    '''returns WeatherCfgAttr\n\n
+    (final MboSet ms)\n
     '''

@@ -1,6 +1,8 @@
-def Messages_zh_CN():
-    '''public Messages_zh_CN()
+def ():
+    '''returns Messages_zh_CN\n\n
+    ()\n
     '''
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

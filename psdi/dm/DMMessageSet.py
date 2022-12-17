@@ -1,3 +1,4 @@
-def DMMessageSet():
-    '''public DMMessageSet(final MboServerInterface ms)
+def ():
+    '''returns DMMessageSet\n\n
+    (final MboServerInterface ms)\n
     '''

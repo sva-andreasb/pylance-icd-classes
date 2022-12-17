@@ -1,30 +1,40 @@
-def ValueEventData():
-    '''public ValueEventData(final ASN1Object asn1Object)
+def ():
+    '''returns ValueEventData\n\n
+    (final ASN1Object asn1Object)\n
     '''
 def getAttribute():
-    '''public String getAttribute()
+    '''returns String\n\n
+    getAttribute()\n
     '''
 def getClassid():
-    '''public String getClassid()
+    '''returns String\n\n
+    getClassid()\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def getEntry():
-    '''public String getEntry()
+    '''returns String\n\n
+    getEntry()\n
     '''
 def getPrepetratorDN():
-    '''public String getPrepetratorDN()
+    '''returns String\n\n
+    getPrepetratorDN()\n
     '''
 def getSyntax():
-    '''public String getSyntax()
+    '''returns String\n\n
+    getSyntax()\n
     '''
 def getTimeStamp():
-    '''public DSETimeStamp getTimeStamp()
+    '''returns DSETimeStamp\n\n
+    getTimeStamp()\n
     '''
 def getVerb():
-    '''public int getVerb()
+    '''returns int\n\n
+    getVerb()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

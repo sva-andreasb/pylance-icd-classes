@@ -1,6 +1,8 @@
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def refreshselected():
-    '''public int refreshselected()
+    '''returns int\n\n
+    refreshselected()\n
     '''

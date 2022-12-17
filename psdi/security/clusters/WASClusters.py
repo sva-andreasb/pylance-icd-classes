@@ -3,18 +3,23 @@ resume = "String  \"start\""
 Active = "int  1"
 Inactive = "int  2"
 Stopped = "int  3"
-def WASClusters():
-    '''public WASClusters(final AdminService service)
+def ():
+    '''returns WASClusters\n\n
+    (final AdminService service)\n
     '''
 def getMembersEligibleForStartStop():
-    '''public HashSet getMembersEligibleForStartStop(final String operation)
+    '''returns HashSet\n\n
+    getMembersEligibleForStartStop(final String operation)\n
     '''
 def stop():
-    '''public int stop()
+    '''returns int\n\n
+    stop()\n
     '''
 def start():
-    '''public int start()
+    '''returns int\n\n
+    start()\n
     '''
 def cleanUp():
-    '''public int cleanUp()
+    '''returns int\n\n
+    cleanUp()\n
     '''

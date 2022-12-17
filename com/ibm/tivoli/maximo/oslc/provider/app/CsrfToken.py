@@ -1,3 +1,4 @@
-def CsrfToken():
-    '''public CsrfToken(final MboSet ms)
+def ():
+    '''returns CsrfToken\n\n
+    (final MboSet ms)\n
     '''

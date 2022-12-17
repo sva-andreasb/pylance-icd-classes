@@ -1,6 +1,8 @@
-def GenerateRandomRequestMarshaller():
-    '''public GenerateRandomRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns GenerateRandomRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<GenerateRandomRequest> marshall(final GenerateRandomRequest generateRandomRequest)
+    '''returns Request<GenerateRandomRequest>\n\n
+    marshall(final GenerateRandomRequest generateRandomRequest)\n
     '''

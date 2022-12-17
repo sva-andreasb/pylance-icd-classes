@@ -1,245 +1,308 @@
 def getModel():
-    '''public AsmManager getModel()
+    '''returns AsmManager\n\n
+    getModel()\n
     '''
-def ProgramElement():
-    '''public ProgramElement()
-    public ProgramElement(final AsmManager asm, final String name, final Kind kind, final List<IProgramElement> children)
-    public ProgramElement(final AsmManager asm, final String name, final Kind kind, final ISourceLocation sourceLocation, final int modifiers, final String comment, final List<IProgramElement> children)
+def ():
+    '''returns ProgramElement\n\n
+    ()\n
+    (final AsmManager asm, final String name, final Kind kind, final List<IProgramElement> children)\n
+    (final AsmManager asm, final String name, final Kind kind, final ISourceLocation sourceLocation, final int modifiers, final String comment, final List<IProgramElement> children)\n
     '''
 def getRawModifiers():
-    '''public int getRawModifiers()
+    '''returns int\n\n
+    getRawModifiers()\n
     '''
 def getModifiers():
-    '''public List<Modifiers> getModifiers()
+    '''returns List<Modifiers>\n\n
+    getModifiers()\n
     '''
 def getAccessibility():
-    '''public Accessibility getAccessibility()
+    '''returns Accessibility\n\n
+    getAccessibility()\n
     '''
 def setDeclaringType():
-    '''public void setDeclaringType(final String t)
+    '''returns None\n\n
+    setDeclaringType(final String t)\n
     '''
 def getDeclaringType():
-    '''public String getDeclaringType()
+    '''returns String\n\n
+    getDeclaringType()\n
     '''
 def getPackageName():
-    '''public String getPackageName()
+    '''returns String\n\n
+    getPackageName()\n
     '''
 def getKind():
-    '''public Kind getKind()
+    '''returns Kind\n\n
+    getKind()\n
     '''
 def isCode():
-    '''public boolean isCode()
+    '''returns boolean\n\n
+    isCode()\n
     '''
 def getSourceLocation():
-    '''public ISourceLocation getSourceLocation()
+    '''returns ISourceLocation\n\n
+    getSourceLocation()\n
     '''
 def setSourceLocation():
-    '''public void setSourceLocation(final ISourceLocation sourceLocation)
+    '''returns None\n\n
+    setSourceLocation(final ISourceLocation sourceLocation)\n
     '''
 def getMessage():
-    '''public IMessage getMessage()
+    '''returns IMessage\n\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final IMessage message)
+    '''returns None\n\n
+    setMessage(final IMessage message)\n
     '''
 def getParent():
-    '''public IProgramElement getParent()
+    '''returns IProgramElement\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final IProgramElement parent)
+    '''returns None\n\n
+    setParent(final IProgramElement parent)\n
     '''
 def isMemberKind():
-    '''public boolean isMemberKind()
+    '''returns boolean\n\n
+    isMemberKind()\n
     '''
 def setRunnable():
-    '''public void setRunnable(final boolean value)
+    '''returns None\n\n
+    setRunnable(final boolean value)\n
     '''
 def isRunnable():
-    '''public boolean isRunnable()
+    '''returns boolean\n\n
+    isRunnable()\n
     '''
 def isImplementor():
-    '''public boolean isImplementor()
+    '''returns boolean\n\n
+    isImplementor()\n
     '''
 def setImplementor():
-    '''public void setImplementor(final boolean value)
+    '''returns None\n\n
+    setImplementor(final boolean value)\n
     '''
 def isOverrider():
-    '''public boolean isOverrider()
+    '''returns boolean\n\n
+    isOverrider()\n
     '''
 def setOverrider():
-    '''public void setOverrider(final boolean value)
+    '''returns None\n\n
+    setOverrider(final boolean value)\n
     '''
 def getFormalComment():
-    '''public String getFormalComment()
+    '''returns String\n\n
+    getFormalComment()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def genAccessibility():
-    '''public static Accessibility genAccessibility(final int modifiers)
+    '''returns String\n\n
+    toString()\n
     '''
 def getBytecodeName():
-    '''public String getBytecodeName()
+    '''returns String\n\n
+    getBytecodeName()\n
     '''
 def setBytecodeName():
-    '''public void setBytecodeName(final String s)
+    '''returns None\n\n
+    setBytecodeName(final String s)\n
     '''
 def setBytecodeSignature():
-    '''public void setBytecodeSignature(final String s)
+    '''returns None\n\n
+    setBytecodeSignature(final String s)\n
     '''
 def getBytecodeSignature():
-    '''public String getBytecodeSignature()
+    '''returns String\n\n
+    getBytecodeSignature()\n
     '''
 def getSourceSignature():
-    '''public String getSourceSignature()
+    '''returns String\n\n
+    getSourceSignature()\n
     '''
 def setSourceSignature():
-    '''public void setSourceSignature(final String string)
+    '''returns None\n\n
+    setSourceSignature(final String string)\n
     '''
 def setKind():
-    '''public void setKind(final Kind kind)
+    '''returns None\n\n
+    setKind(final Kind kind)\n
     '''
 def setCorrespondingType():
-    '''public void setCorrespondingType(final String s)
+    '''returns None\n\n
+    setCorrespondingType(final String s)\n
     '''
 def setParentTypes():
-    '''public void setParentTypes(final List<String> ps)
+    '''returns None\n\n
+    setParentTypes(final List<String> ps)\n
     '''
 def getParentTypes():
-    '''public List<String> getParentTypes()
+    '''returns List<String>\n\n
+    getParentTypes()\n
     '''
 def setAnnotationType():
-    '''public void setAnnotationType(final String fullyQualifiedAnnotationType)
+    '''returns None\n\n
+    setAnnotationType(final String fullyQualifiedAnnotationType)\n
     '''
 def setAnnotationRemover():
-    '''public void setAnnotationRemover(final boolean isRemover)
+    '''returns None\n\n
+    setAnnotationRemover(final boolean isRemover)\n
     '''
 def getAnnotationType():
-    '''public String getAnnotationType()
+    '''returns String\n\n
+    getAnnotationType()\n
     '''
 def isAnnotationRemover():
-    '''public boolean isAnnotationRemover()
+    '''returns boolean\n\n
+    isAnnotationRemover()\n
     '''
 def getRemovedAnnotationTypes():
-    '''public String[] getRemovedAnnotationTypes()
+    '''returns String[]\n\n
+    getRemovedAnnotationTypes()\n
     '''
 def getCorrespondingType():
-    '''public String getCorrespondingType()
-    public String getCorrespondingType(final boolean getFullyQualifiedType)
+    '''returns String\n\n
+    getCorrespondingType()\n
+    getCorrespondingType(final boolean getFullyQualifiedType)\n
     '''
 def getCorrespondingTypeSignature():
-    '''public String getCorrespondingTypeSignature()
-    '''
-def nameToSignature():
-    '''public static String nameToSignature(final String name)
-    '''
-def trim():
-    '''public static String trim(final String fqname)
+    '''returns String\n\n
+    getCorrespondingTypeSignature()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getChildren():
-    '''public List<IProgramElement> getChildren()
+    '''returns List<IProgramElement>\n\n
+    getChildren()\n
     '''
 def setChildren():
-    '''public void setChildren(final List<IProgramElement> children)
+    '''returns None\n\n
+    setChildren(final List<IProgramElement> children)\n
     '''
 def addChild():
-    '''public void addChild(final IProgramElement child)
-    public void addChild(final int position, final IProgramElement child)
+    '''returns None\n\n
+    addChild(final IProgramElement child)\n
+    addChild(final int position, final IProgramElement child)\n
     '''
 def removeChild():
-    '''public boolean removeChild(final IProgramElement child)
+    '''returns boolean\n\n
+    removeChild(final IProgramElement child)\n
     '''
 def setName():
-    '''public void setName(final String string)
+    '''returns None\n\n
+    setName(final String string)\n
     '''
 def walk():
-    '''public IProgramElement walk(final HierarchyWalker walker)
+    '''returns IProgramElement\n\n
+    walk(final HierarchyWalker walker)\n
     '''
 def toLongString():
-    '''public String toLongString()
+    '''returns String\n\n
+    toLongString()\n
     '''
 def preProcess():
-    '''public void preProcess(final IProgramElement node)
+    '''returns None\n\n
+    preProcess(final IProgramElement node)\n
     '''
 def postProcess():
-    '''public void postProcess(final IProgramElement node)
+    '''returns None\n\n
+    postProcess(final IProgramElement node)\n
     '''
 def setModifiers():
-    '''public void setModifiers(final int i)
+    '''returns None\n\n
+    setModifiers(final int i)\n
     '''
 def addModifiers():
-    '''public void addModifiers(final Modifiers newModifier)
+    '''returns None\n\n
+    addModifiers(final Modifiers newModifier)\n
     '''
 def toSignatureString():
-    '''public String toSignatureString()
-    public String toSignatureString(final boolean getFullyQualifiedArgTypes)
+    '''returns String\n\n
+    toSignatureString()\n
+    toSignatureString(final boolean getFullyQualifiedArgTypes)\n
     '''
 def toLinkLabelString():
-    '''public String toLinkLabelString()
-    public String toLinkLabelString(final boolean getFullyQualifiedArgTypes)
+    '''returns String\n\n
+    toLinkLabelString()\n
+    toLinkLabelString(final boolean getFullyQualifiedArgTypes)\n
     '''
 def toLabelString():
-    '''public String toLabelString()
-    public String toLabelString(final boolean getFullyQualifiedArgTypes)
+    '''returns String\n\n
+    toLabelString()\n
+    toLabelString(final boolean getFullyQualifiedArgTypes)\n
     '''
 def getHandleIdentifier():
-    '''public String getHandleIdentifier()
-    public String getHandleIdentifier(final boolean create)
+    '''returns String\n\n
+    getHandleIdentifier()\n
+    getHandleIdentifier(final boolean create)\n
     '''
 def setHandleIdentifier():
-    '''public void setHandleIdentifier(final String handle)
+    '''returns None\n\n
+    setHandleIdentifier(final String handle)\n
     '''
 def getParameterNames():
-    '''public List<String> getParameterNames()
+    '''returns List<String>\n\n
+    getParameterNames()\n
     '''
 def setParameterNames():
-    '''public void setParameterNames(final List<String> list)
+    '''returns None\n\n
+    setParameterNames(final List<String> list)\n
     '''
 def getParameterTypes():
-    '''public List<char[]> getParameterTypes()
+    '''returns List<char[]>\n\n
+    getParameterTypes()\n
     '''
 def getParameterSignatures():
-    '''public List<char[]> getParameterSignatures()
+    '''returns List<char[]>\n\n
+    getParameterSignatures()\n
     '''
 def getParameterSignaturesSourceRefs():
-    '''public List<String> getParameterSignaturesSourceRefs()
+    '''returns List<String>\n\n
+    getParameterSignaturesSourceRefs()\n
     '''
 def setParameterSignatures():
-    '''public void setParameterSignatures(final List<char[]> list, final List<String> sourceRefs)
+    '''returns None\n\n
+    setParameterSignatures(final List<char[]> list, final List<String> sourceRefs)\n
     '''
 def getDetails():
-    '''public String getDetails()
+    '''returns String\n\n
+    getDetails()\n
     '''
 def setDetails():
-    '''public void setDetails(final String string)
+    '''returns None\n\n
+    setDetails(final String string)\n
     '''
 def setFormalComment():
-    '''public void setFormalComment(final String txt)
+    '''returns None\n\n
+    setFormalComment(final String txt)\n
     '''
 def setExtraInfo():
-    '''public void setExtraInfo(final ExtraInformation info)
+    '''returns None\n\n
+    setExtraInfo(final ExtraInformation info)\n
     '''
 def getExtraInfo():
-    '''public ExtraInformation getExtraInfo()
+    '''returns ExtraInformation\n\n
+    getExtraInfo()\n
     '''
 def isAnnotationStyleDeclaration():
-    '''public boolean isAnnotationStyleDeclaration()
+    '''returns boolean\n\n
+    isAnnotationStyleDeclaration()\n
     '''
 def setAnnotationStyleDeclaration():
-    '''public void setAnnotationStyleDeclaration(final boolean b)
-    '''
-def getDeclareParentsMap():
-    '''public Map<String, List<String>> getDeclareParentsMap()
+    '''returns None\n\n
+    setAnnotationStyleDeclaration(final boolean b)\n
     '''
 def setDeclareParentsMap():
-    '''public void setDeclareParentsMap(final Map<String, List<String>> newmap)
+    '''returns None\n\n
+    setDeclareParentsMap(final Map<String, List<String>> newmap)\n
     '''
 def addFullyQualifiedName():
-    '''public void addFullyQualifiedName(final String fqname)
+    '''returns None\n\n
+    addFullyQualifiedName(final String fqname)\n
     '''
 def getFullyQualifiedName():
-    '''public String getFullyQualifiedName()
+    '''returns String\n\n
+    getFullyQualifiedName()\n
     '''

@@ -1,42 +1,56 @@
-def ElementDesc():
-    '''public ElementDesc()
+def ():
+    '''returns ElementDesc\n\n
+    ()\n
     '''
 def isMinOccursZero():
-    '''public boolean isMinOccursZero()
+    '''returns boolean\n\n
+    isMinOccursZero()\n
     '''
 def getMinOccurs():
-    '''public int getMinOccurs()
+    '''returns int\n\n
+    getMinOccurs()\n
     '''
 def setMinOccurs():
-    '''public void setMinOccurs(final int minOccurs)
+    '''returns None\n\n
+    setMinOccurs(final int minOccurs)\n
     '''
 def getMaxOccurs():
-    '''public int getMaxOccurs()
+    '''returns int\n\n
+    getMaxOccurs()\n
     '''
 def setMaxOccurs():
-    '''public void setMaxOccurs(final int maxOccurs)
+    '''returns None\n\n
+    setMaxOccurs(final int maxOccurs)\n
     '''
 def setMaxOccursUnbounded():
-    '''public void setMaxOccursUnbounded(final boolean ubnd)
+    '''returns None\n\n
+    setMaxOccursUnbounded(final boolean ubnd)\n
     '''
 def isMaxOccursUnbounded():
-    '''public boolean isMaxOccursUnbounded()
+    '''returns boolean\n\n
+    isMaxOccursUnbounded()\n
     '''
 def isNillable():
-    '''public boolean isNillable()
+    '''returns boolean\n\n
+    isNillable()\n
     '''
 def setNillable():
-    '''public void setNillable(final boolean nillable)
+    '''returns None\n\n
+    setNillable(final boolean nillable)\n
     '''
 def getArrayType():
-    '''public QName getArrayType()
+    '''returns QName\n\n
+    getArrayType()\n
     '''
 def setArrayType():
-    '''public void setArrayType(final QName arrayType)
+    '''returns None\n\n
+    setArrayType(final QName arrayType)\n
     '''
 def getItemQName():
-    '''public QName getItemQName()
+    '''returns QName\n\n
+    getItemQName()\n
     '''
 def setItemQName():
-    '''public void setItemQName(final QName itemQName)
+    '''returns None\n\n
+    setItemQName(final QName itemQName)\n
     '''

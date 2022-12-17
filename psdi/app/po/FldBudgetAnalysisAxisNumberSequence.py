@@ -1,6 +1,8 @@
-def FldBudgetAnalysisAxisNumberSequence():
-    '''public FldBudgetAnalysisAxisNumberSequence(final MboValue mv)
+def ():
+    '''returns FldBudgetAnalysisAxisNumberSequence\n\n
+    (final MboValue mv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

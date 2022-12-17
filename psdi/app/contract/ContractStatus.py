@@ -1,15 +1,20 @@
-def ContractStatus():
-    '''public ContractStatus(final MboSet ms)
+def ():
+    '''returns ContractStatus\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getContractStatusRecord():
-    '''public Vector getContractStatusRecord()
+    '''returns Vector\n\n
+    getContractStatusRecord()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''

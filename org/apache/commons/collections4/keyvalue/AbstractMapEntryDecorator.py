@@ -1,21 +1,28 @@
-def AbstractMapEntryDecorator():
-    '''public AbstractMapEntryDecorator(final Map.Entry<K, V> entry)
+def ():
+    '''returns AbstractMapEntryDecorator\n\n
+    (final Map.Entry<K, V> entry)\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V object)
+    '''returns V\n\n
+    setValue(final V object)\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

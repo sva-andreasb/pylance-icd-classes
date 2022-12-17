@@ -1,96 +1,128 @@
 def init():
-    '''public void init(final InputStream inputStream, final String charSetEncoding, final String url, final String contentType)
+    '''returns None\n\n
+    init(final InputStream inputStream, final String charSetEncoding, final String url, final String contentType)\n
     '''
 def setOMBuilderFactory():
-    '''public void setOMBuilderFactory(final OMFactory ombuilderFactory)
+    '''returns None\n\n
+    setOMBuilderFactory(final OMFactory ombuilderFactory)\n
     '''
 def reset():
-    '''public void reset(final OMNode node)
+    '''returns None\n\n
+    reset(final OMNode node)\n
     '''
 def discard():
-    '''public void discard(final OMElement element)
+    '''returns None\n\n
+    discard(final OMElement element)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getNamespaceCount():
-    '''public int getNamespaceCount()
+    '''returns int\n\n
+    getNamespaceCount()\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final int index)
+    '''returns String\n\n
+    getNamespacePrefix(final int index)\n
     '''
 def getNamespaceUri():
-    '''public String getNamespaceUri(final int index)
+    '''returns String\n\n
+    getNamespaceUri(final int index)\n
     '''
 def setCache():
-    '''public void setCache(final boolean b)
+    '''returns None\n\n
+    setCache(final boolean b)\n
     '''
 def isCache():
-    '''public boolean isCache()
+    '''returns boolean\n\n
+    isCache()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getAttributeNamespace():
-    '''public String getAttributeNamespace(final int arg)
+    '''returns String\n\n
+    getAttributeNamespace(final int arg)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName(final int arg)
+    '''returns String\n\n
+    getAttributeName(final int arg)\n
     '''
 def getAttributePrefix():
-    '''public String getAttributePrefix(final int arg)
+    '''returns String\n\n
+    getAttributePrefix(final int arg)\n
     '''
 def getParser():
-    '''public Object getParser()
+    '''returns Object\n\n
+    getParser()\n
     '''
 def isCompleted():
-    '''public boolean isCompleted()
+    '''returns boolean\n\n
+    isCompleted()\n
     '''
 def registerCustomBuilder():
-    '''public CustomBuilder registerCustomBuilder(final QName qName, final int maxDepth, final CustomBuilder customBuilder)
+    '''returns CustomBuilder\n\n
+    registerCustomBuilder(final QName qName, final int maxDepth, final CustomBuilder customBuilder)\n
     '''
 def registerCustomBuilderForPayload():
-    '''public CustomBuilder registerCustomBuilderForPayload(final CustomBuilder customBuilder)
+    '''returns CustomBuilder\n\n
+    registerCustomBuilderForPayload(final CustomBuilder customBuilder)\n
     '''
 def getBuilderType():
-    '''public short getBuilderType()
+    '''returns short\n\n
+    getBuilderType()\n
     '''
 def registerExternalContentHandler():
-    '''public void registerExternalContentHandler(final Object obj)
+    '''returns None\n\n
+    registerExternalContentHandler(final Object obj)\n
     '''
 def getRegisteredContentHandler():
-    '''public Object getRegisteredContentHandler()
+    '''returns Object\n\n
+    getRegisteredContentHandler()\n
     '''
 def getDocument():
-    '''public OMDocument getDocument()
+    '''returns OMDocument\n\n
+    getDocument()\n
     '''
 def getCharsetEncoding():
-    '''public String getCharsetEncoding()
+    '''returns String\n\n
+    getCharsetEncoding()\n
     '''
 def getLastNode():
-    '''public OMNode getLastNode()
+    '''returns OMNode\n\n
+    getLastNode()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getReaderProperty():
-    '''public Object getReaderProperty(final String name)
+    '''returns Object\n\n
+    getReaderProperty(final String name)\n
     '''
 def getCharacterEncoding():
-    '''public String getCharacterEncoding()
+    '''returns String\n\n
+    getCharacterEncoding()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def releaseParserOnClose():
-    '''public void releaseParserOnClose(final boolean value)
+    '''returns None\n\n
+    releaseParserOnClose(final boolean value)\n
     '''

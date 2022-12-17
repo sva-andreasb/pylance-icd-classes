@@ -1,24 +1,32 @@
-def DebugEventData():
-    '''public DebugEventData(final ASN1Object asn1Object)
+def ():
+    '''returns DebugEventData\n\n
+    (final ASN1Object asn1Object)\n
     '''
 def getMilliSeconds():
-    '''public int getMilliSeconds()
+    '''returns int\n\n
+    getMilliSeconds()\n
     '''
 def getParameters():
-    '''public List getParameters()
+    '''returns List\n\n
+    getParameters()\n
     '''
 def getPerpetratorDN():
-    '''public String getPerpetratorDN()
+    '''returns String\n\n
+    getPerpetratorDN()\n
     '''
 def getVerb():
-    '''public int getVerb()
+    '''returns int\n\n
+    getVerb()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDsTime():
-    '''public int getDsTime()
+    '''returns int\n\n
+    getDsTime()\n
     '''
 def getFormatString():
-    '''public String getFormatString()
+    '''returns String\n\n
+    getFormatString()\n
     '''

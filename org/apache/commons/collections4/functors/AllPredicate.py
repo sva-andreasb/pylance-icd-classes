@@ -1,10 +1,8 @@
-def allPredicate():
-    '''public static <T> Predicate<T> allPredicate(final Predicate<? super T>... predicates)
-    public static <T> Predicate<T> allPredicate(final Collection<? extends Predicate<? super T>> predicates)
-    '''
-def AllPredicate():
-    '''public AllPredicate(final Predicate<? super T>... predicates)
+def ():
+    '''returns AllPredicate\n\n
+    (final Predicate<? super T>... predicates)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T object)
+    '''returns boolean\n\n
+    evaluate(final T object)\n
     '''

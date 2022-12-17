@@ -1,6 +1,7 @@
-def DocumentIOException():
-    '''public DocumentIOException()
-    public DocumentIOException(final String msg)
-    public DocumentIOException(final Throwable th, final String msg)
-    public DocumentIOException(final Throwable th)
+def ():
+    '''returns DocumentIOException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

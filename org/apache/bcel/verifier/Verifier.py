@@ -1,24 +1,24 @@
 def doPass1():
-    '''public VerificationResult doPass1()
+    '''returns VerificationResult\n\n
+    doPass1()\n
     '''
 def doPass2():
-    '''public VerificationResult doPass2()
+    '''returns VerificationResult\n\n
+    doPass2()\n
     '''
 def doPass3a():
-    '''public VerificationResult doPass3a(final int method_no)
+    '''returns VerificationResult\n\n
+    doPass3a(final int method_no)\n
     '''
 def doPass3b():
-    '''public VerificationResult doPass3b(final int method_no)
-    '''
-def getClassName():
-    '''public final String getClassName()
+    '''returns VerificationResult\n\n
+    doPass3b(final int method_no)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def getMessages():
-    '''public String[] getMessages()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String[]\n\n
+    getMessages()\n
     '''

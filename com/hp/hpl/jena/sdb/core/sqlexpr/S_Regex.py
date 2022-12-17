@@ -1,15 +1,20 @@
-def S_Regex():
-    '''public S_Regex(final SqlExpr expr, final String pattern, final String flags)
+def ():
+    '''returns S_Regex\n\n
+    (final SqlExpr expr, final String pattern, final String flags)\n
     '''
 def getExpr():
-    '''public SqlExpr getExpr()
+    '''returns SqlExpr\n\n
+    getExpr()\n
     '''
 def getFlags():
-    '''public String getFlags()
+    '''returns String\n\n
+    getFlags()\n
     '''
 def getPattern():
-    '''public String getPattern()
+    '''returns String\n\n
+    getPattern()\n
     '''
 def visit():
-    '''public void visit(final SqlExprVisitor visitor)
+    '''returns None\n\n
+    visit(final SqlExprVisitor visitor)\n
     '''

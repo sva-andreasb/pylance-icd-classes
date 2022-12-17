@@ -1,99 +1,120 @@
 PROPERTY_COMPARE_NEW = "String  \"__COMPARE_NEW\""
 PROPERTY_COMPARE_MODIFIED = "String  \"__COMPARE_MODIFIED\""
 COMPARE_SCENARIOS_EVENT_NAME = "String  \"compare_scenarios\""
-def CompareView():
-    '''public CompareView(final Viewer viewer)
+def ():
+    '''returns Entry\n\n
+    (final Viewer viewer)\n
+    (final Class viewClass, final String label)\n
+    (final IlvHierarchyChart chart1, final IlvHierarchyChart chart2)\n
+    (final IlvHierarchyChart chart2, final IlvHierarchyNode node2)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent evt)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent evt)\n
     '''
 def currentViewChanged():
-    '''public void currentViewChanged(final CurrentViewChangedEvent event)
+    '''returns None\n\n
+    currentViewChanged(final CurrentViewChangedEvent event)\n
     '''
 def handleMessage():
-    '''public void handleMessage(final String msgId, final Object... args)
-    public void handleMessage(final String msgId, final Object... args)
+    '''returns None\n\n
+    handleMessage(final String msgId, final Object... args)\n
+    handleMessage(final String msgId, final Object... args)\n
     '''
 def setAsCurrentView():
-    '''public void setAsCurrentView()
+    '''returns None\n\n
+    setAsCurrentView()\n
     '''
 def doInBackground():
-    '''public Void doInBackground()
+    '''returns Void\n\n
+    doInBackground()\n
     '''
 def runOnUI():
-    '''public void runOnUI(final Void nothing)
+    '''returns None\n\n
+    runOnUI(final Void nothing)\n
     '''
 def insertUpdate():
-    '''public void insertUpdate(final DocumentEvent e)
+    '''returns None\n\n
+    insertUpdate(final DocumentEvent e)\n
     '''
 def removeUpdate():
-    '''public void removeUpdate(final DocumentEvent e)
+    '''returns None\n\n
+    removeUpdate(final DocumentEvent e)\n
     '''
 def changedUpdate():
-    '''public void changedUpdate(final DocumentEvent e)
+    '''returns None\n\n
+    changedUpdate(final DocumentEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def stateChanged():
-    '''public void stateChanged(final ChangeEvent e)
+    '''returns None\n\n
+    stateChanged(final ChangeEvent e)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent e)
+    '''returns None\n\n
+    componentResized(final ComponentEvent e)\n
     '''
 def onSuccess():
-    '''public void onSuccess(final IlvGanttModel data)
+    '''returns None\n\n
+    onSuccess(final IlvGanttModel data)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def onError():
-    '''public void onError(final Throwable t)
+    '''returns None\n\n
+    onError(final Throwable t)\n
     '''
 def performAction():
-    '''public void performAction(final ViewerAbstractAction action, final ActionEvent event)
+    '''returns None\n\n
+    performAction(final ViewerAbstractAction action, final ActionEvent event)\n
     '''
 def getInterval():
-    '''public IlvTimeInterval getInterval(final IlvGanttModel paramIlvGanttModel)
+    '''returns IlvTimeInterval\n\n
+    getInterval(final IlvGanttModel paramIlvGanttModel)\n
     '''
 def getSecondaryComponent():
-    '''public JComponent getSecondaryComponent()
+    '''returns JComponent\n\n
+    getSecondaryComponent()\n
     '''
 def compare():
-    '''public void compare(final String p1id, final String p1name, final String p2id, final String p2name, final Class compareItemType)
+    '''returns None\n\n
+    compare(final String p1id, final String p1name, final String p2id, final String p2name, final Class compareItemType)\n
     '''
 def swapCharts():
-    '''public void swapCharts()
+    '''returns None\n\n
+    swapCharts()\n
     '''
 def previous():
-    '''public void previous()
+    '''returns None\n\n
+    previous()\n
     '''
 def next():
-    '''public void next()
+    '''returns None\n\n
+    next()\n
     '''
 def isChartsLoaded():
-    '''public boolean isChartsLoaded()
+    '''returns boolean\n\n
+    isChartsLoaded()\n
     '''
 def navigate():
-    '''public void navigate(final int dir)
-    '''
-def View():
-    '''public View(final Class viewClass, final String label)
-    '''
-def DiffManager():
-    '''public DiffManager(final IlvHierarchyChart chart1, final IlvHierarchyChart chart2)
+    '''returns None\n\n
+    navigate(final int dir)\n
     '''
 def getNode():
-    '''public Entry getNode(final IlvHierarchyNode node)
+    '''returns Entry\n\n
+    getNode(final IlvHierarchyNode node)\n
     '''
 def getOtherNode():
-    '''public Entry getOtherNode(final IlvHierarchyNode node)
-    '''
-def Entry():
-    '''public Entry(final IlvHierarchyChart chart2, final IlvHierarchyNode node2)
+    '''returns Entry\n\n
+    getOtherNode(final IlvHierarchyNode node)\n
     '''

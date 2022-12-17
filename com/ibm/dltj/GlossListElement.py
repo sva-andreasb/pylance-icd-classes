@@ -1,23 +1,30 @@
-def GlossListElement():
-    '''public GlossListElement()
-    public GlossListElement(final Gloss gloss, final GlossListElement glossListElement)
-    public GlossListElement(final Gloss gloss, final GlossListElement next, final Dictionary ownerDictionary)
+def ():
+    '''returns GlossListElement\n\n
+    ()\n
+    (final Gloss gloss, final GlossListElement glossListElement)\n
+    (final Gloss gloss, final GlossListElement next, final Dictionary ownerDictionary)\n
     '''
 def getGloss():
-    '''public Gloss getGloss()
+    '''returns Gloss\n\n
+    getGloss()\n
     '''
 def getNext():
-    '''public GlossListElement getNext()
+    '''returns GlossListElement\n\n
+    getNext()\n
     '''
 def getOwnerDictionary():
-    '''public Dictionary getOwnerDictionary()
+    '''returns Dictionary\n\n
+    getOwnerDictionary()\n
     '''
 def setOwnerDictionary():
-    '''public void setOwnerDictionary(final Dictionary ownerDictionary)
+    '''returns None\n\n
+    setOwnerDictionary(final Dictionary ownerDictionary)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

@@ -1,20 +1,26 @@
 sid = "short  218"
-def BookBoolRecord():
-    '''public BookBoolRecord()
-    public BookBoolRecord(final RecordInputStream in)
+def ():
+    '''returns BookBoolRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setSaveLinkValues():
-    '''public void setSaveLinkValues(final short flag)
+    '''returns None\n\n
+    setSaveLinkValues(final short flag)\n
     '''
 def getSaveLinkValues():
-    '''public short getSaveLinkValues()
+    '''returns short\n\n
+    getSaveLinkValues()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

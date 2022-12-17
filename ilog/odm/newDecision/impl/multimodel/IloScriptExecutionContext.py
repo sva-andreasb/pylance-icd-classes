@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloScriptExecutionContext():
-    '''public IloScriptExecutionContext(final IloMultiModelDecisionEngine mainEngine, final IloApplicationContext applicationContext)
+def ():
+    '''returns IloScriptExecutionContext\n\n
+    (final IloMultiModelDecisionEngine mainEngine, final IloApplicationContext applicationContext)\n
     '''
 def getMainEngine():
-    '''public IloMultiModelDecisionEngine getMainEngine()
+    '''returns IloMultiModelDecisionEngine\n\n
+    getMainEngine()\n
     '''
 def getApplicationContext():
-    '''public IloApplicationContext getApplicationContext()
+    '''returns IloApplicationContext\n\n
+    getApplicationContext()\n
     '''

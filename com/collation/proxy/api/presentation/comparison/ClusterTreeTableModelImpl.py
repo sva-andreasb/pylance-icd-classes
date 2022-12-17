@@ -1,9 +1,12 @@
-def ClusterTreeTableModelImpl():
-    '''public ClusterTreeTableModelImpl(final CompareResults[] results, final OneToManyCompareResults oneToManyCompareResults, final long version)
+def ():
+    '''returns ClusterTreeTableModelImpl\n\n
+    (final CompareResults[] results, final OneToManyCompareResults oneToManyCompareResults, final long version)\n
     '''
 def setLength():
-    '''public void setLength(final OneToManyCompareResults oneToManyCompareResults)
+    '''returns None\n\n
+    setLength(final OneToManyCompareResults oneToManyCompareResults)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int col)
+    '''returns String\n\n
+    getColumnName(final int col)\n
     '''

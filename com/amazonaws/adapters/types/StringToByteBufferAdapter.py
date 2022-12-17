@@ -1,3 +1,4 @@
 def adapt():
-    '''public ByteBuffer adapt(final String source)
+    '''returns ByteBuffer\n\n
+    adapt(final String source)\n
     '''

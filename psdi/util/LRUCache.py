@@ -1,27 +1,36 @@
-def LRUCache():
-    '''public LRUCache(final int initial, final int limit)
+def ():
+    '''returns LRUCache\n\n
+    (final int initial, final int limit)\n
     '''
 def setCapacity():
-    '''public void setCapacity(final int size)
+    '''returns None\n\n
+    setCapacity(final int size)\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> map)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> map)\n
     '''
 def remove():
-    '''public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''

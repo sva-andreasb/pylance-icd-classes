@@ -1,3 +1,4 @@
-def MouseoverAttributeTreeBean():
-    '''public MouseoverAttributeTreeBean()
+def ():
+    '''returns MouseoverAttributeTreeBean\n\n
+    ()\n
     '''

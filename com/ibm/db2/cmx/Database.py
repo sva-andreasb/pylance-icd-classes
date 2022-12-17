@@ -1,24 +1,32 @@
-def Database():
-    '''public Database(final String logicalName_, final long version_, final String serverName_, final int port_, final String databaseName_, final long versionOfLastPhysicalLocationChange_, final Profile.Database databaseProfile_)
+def ():
+    '''returns Database\n\n
+    (final String logicalName_, final long version_, final String serverName_, final int port_, final String databaseName_, final long versionOfLastPhysicalLocationChange_, final Profile.Database databaseProfile_)\n
     '''
 def updateToNewVersion():
-    '''public void updateToNewVersion(final Database database)
+    '''returns None\n\n
+    updateToNewVersion(final Database database)\n
     '''
 def getLogicalName():
-    '''public String getLogicalName()
+    '''returns String\n\n
+    getLogicalName()\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def getVersionOfLastPhysicalLocationChange():
-    '''public long getVersionOfLastPhysicalLocationChange()
+    '''returns long\n\n
+    getVersionOfLastPhysicalLocationChange()\n
     '''
 def getServerName():
-    '''public String getServerName()
+    '''returns String\n\n
+    getServerName()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getDatabaseName():
-    '''public String getDatabaseName()
+    '''returns String\n\n
+    getDatabaseName()\n
     '''

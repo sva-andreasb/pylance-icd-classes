@@ -1,3 +1,4 @@
-def LBSLocationSet():
-    '''public LBSLocationSet(final MboServerInterface ms)
+def ():
+    '''returns LBSLocationSet\n\n
+    (final MboServerInterface ms)\n
     '''

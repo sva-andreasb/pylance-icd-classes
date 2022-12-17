@@ -1,17 +1,17 @@
-def getInstance():
-    '''public static DERGeneralizedTime getInstance(final Object obj)
-    public static DERGeneralizedTime getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def DERGeneralizedTime():
-    '''public DERGeneralizedTime(final String time)
-    public DERGeneralizedTime(final Date time)
+def ():
+    '''returns DERGeneralizedTime\n\n
+    (final String time)\n
+    (final Date time)\n
     '''
 def getTime():
-    '''public String getTime()
+    '''returns String\n\n
+    getTime()\n
     '''
 def getDate():
-    '''public Date getDate()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

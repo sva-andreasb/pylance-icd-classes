@@ -1,6 +1,8 @@
-def OSLCBusResourceSet():
-    '''public OSLCBusResourceSet(final MboServerInterface ms)
+def ():
+    '''returns OSLCBusResourceSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

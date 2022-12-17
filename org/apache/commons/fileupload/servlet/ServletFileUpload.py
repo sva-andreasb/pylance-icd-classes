@@ -1,16 +1,13 @@
-def isMultipartContent():
-    '''public static final boolean isMultipartContent(final HttpServletRequest request)
-    '''
-def ServletFileUpload():
-    '''public ServletFileUpload()
-    public ServletFileUpload(final FileItemFactory fileItemFactory)
+def ():
+    '''returns ServletFileUpload\n\n
+    ()\n
+    (final FileItemFactory fileItemFactory)\n
     '''
 def parseRequest():
-    '''public List<FileItem> parseRequest(final HttpServletRequest request)
-    '''
-def parseParameterMap():
-    '''public Map<String, List<FileItem>> parseParameterMap(final HttpServletRequest request)
+    '''returns List<FileItem>\n\n
+    parseRequest(final HttpServletRequest request)\n
     '''
 def getItemIterator():
-    '''public FileItemIterator getItemIterator(final HttpServletRequest request)
+    '''returns FileItemIterator\n\n
+    getItemIterator(final HttpServletRequest request)\n
     '''

@@ -1,237 +1,316 @@
-def PageTypeImpl():
-    '''public PageTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns PageTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getPageSheet():
-    '''public PageSheetType getPageSheet()
+    '''returns PageSheetType\n\n
+    getPageSheet()\n
     '''
 def isSetPageSheet():
-    '''public boolean isSetPageSheet()
+    '''returns boolean\n\n
+    isSetPageSheet()\n
     '''
 def setPageSheet():
-    '''public void setPageSheet(final PageSheetType pageSheetType)
+    '''returns None\n\n
+    setPageSheet(final PageSheetType pageSheetType)\n
     '''
 def addNewPageSheet():
-    '''public PageSheetType addNewPageSheet()
+    '''returns PageSheetType\n\n
+    addNewPageSheet()\n
     '''
 def unsetPageSheet():
-    '''public void unsetPageSheet()
+    '''returns None\n\n
+    unsetPageSheet()\n
     '''
 def getRel():
-    '''public RelType getRel()
+    '''returns RelType\n\n
+    getRel()\n
     '''
 def setRel():
-    '''public void setRel(final RelType relType)
+    '''returns None\n\n
+    setRel(final RelType relType)\n
     '''
 def addNewRel():
-    '''public RelType addNewRel()
+    '''returns RelType\n\n
+    addNewRel()\n
     '''
 def getID():
-    '''public long getID()
+    '''returns long\n\n
+    getID()\n
     '''
 def xgetID():
-    '''public XmlUnsignedInt xgetID()
+    '''returns XmlUnsignedInt\n\n
+    xgetID()\n
     '''
 def setID():
-    '''public void setID(final long longValue)
+    '''returns None\n\n
+    setID(final long longValue)\n
     '''
 def xsetID():
-    '''public void xsetID(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetID(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def xgetName():
-    '''public XmlString xgetName()
+    '''returns XmlString\n\n
+    xgetName()\n
     '''
 def isSetName():
-    '''public boolean isSetName()
+    '''returns boolean\n\n
+    isSetName()\n
     '''
 def setName():
-    '''public void setName(final String stringValue)
+    '''returns None\n\n
+    setName(final String stringValue)\n
     '''
 def xsetName():
-    '''public void xsetName(final XmlString xmlString)
+    '''returns None\n\n
+    xsetName(final XmlString xmlString)\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getNameU():
-    '''public String getNameU()
+    '''returns String\n\n
+    getNameU()\n
     '''
 def xgetNameU():
-    '''public XmlString xgetNameU()
+    '''returns XmlString\n\n
+    xgetNameU()\n
     '''
 def isSetNameU():
-    '''public boolean isSetNameU()
+    '''returns boolean\n\n
+    isSetNameU()\n
     '''
 def setNameU():
-    '''public void setNameU(final String stringValue)
+    '''returns None\n\n
+    setNameU(final String stringValue)\n
     '''
 def xsetNameU():
-    '''public void xsetNameU(final XmlString xmlString)
+    '''returns None\n\n
+    xsetNameU(final XmlString xmlString)\n
     '''
 def unsetNameU():
-    '''public void unsetNameU()
+    '''returns None\n\n
+    unsetNameU()\n
     '''
 def getIsCustomName():
-    '''public boolean getIsCustomName()
+    '''returns boolean\n\n
+    getIsCustomName()\n
     '''
 def xgetIsCustomName():
-    '''public XmlBoolean xgetIsCustomName()
+    '''returns XmlBoolean\n\n
+    xgetIsCustomName()\n
     '''
 def isSetIsCustomName():
-    '''public boolean isSetIsCustomName()
+    '''returns boolean\n\n
+    isSetIsCustomName()\n
     '''
 def setIsCustomName():
-    '''public void setIsCustomName(final boolean booleanValue)
+    '''returns None\n\n
+    setIsCustomName(final boolean booleanValue)\n
     '''
 def xsetIsCustomName():
-    '''public void xsetIsCustomName(final XmlBoolean xmlBoolean)
+    '''returns None\n\n
+    xsetIsCustomName(final XmlBoolean xmlBoolean)\n
     '''
 def unsetIsCustomName():
-    '''public void unsetIsCustomName()
+    '''returns None\n\n
+    unsetIsCustomName()\n
     '''
 def getIsCustomNameU():
-    '''public boolean getIsCustomNameU()
+    '''returns boolean\n\n
+    getIsCustomNameU()\n
     '''
 def xgetIsCustomNameU():
-    '''public XmlBoolean xgetIsCustomNameU()
+    '''returns XmlBoolean\n\n
+    xgetIsCustomNameU()\n
     '''
 def isSetIsCustomNameU():
-    '''public boolean isSetIsCustomNameU()
+    '''returns boolean\n\n
+    isSetIsCustomNameU()\n
     '''
 def setIsCustomNameU():
-    '''public void setIsCustomNameU(final boolean booleanValue)
+    '''returns None\n\n
+    setIsCustomNameU(final boolean booleanValue)\n
     '''
 def xsetIsCustomNameU():
-    '''public void xsetIsCustomNameU(final XmlBoolean xmlBoolean)
+    '''returns None\n\n
+    xsetIsCustomNameU(final XmlBoolean xmlBoolean)\n
     '''
 def unsetIsCustomNameU():
-    '''public void unsetIsCustomNameU()
+    '''returns None\n\n
+    unsetIsCustomNameU()\n
     '''
 def getBackground():
-    '''public boolean getBackground()
+    '''returns boolean\n\n
+    getBackground()\n
     '''
 def xgetBackground():
-    '''public XmlBoolean xgetBackground()
+    '''returns XmlBoolean\n\n
+    xgetBackground()\n
     '''
 def isSetBackground():
-    '''public boolean isSetBackground()
+    '''returns boolean\n\n
+    isSetBackground()\n
     '''
 def setBackground():
-    '''public void setBackground(final boolean booleanValue)
+    '''returns None\n\n
+    setBackground(final boolean booleanValue)\n
     '''
 def xsetBackground():
-    '''public void xsetBackground(final XmlBoolean xmlBoolean)
+    '''returns None\n\n
+    xsetBackground(final XmlBoolean xmlBoolean)\n
     '''
 def unsetBackground():
-    '''public void unsetBackground()
+    '''returns None\n\n
+    unsetBackground()\n
     '''
 def getBackPage():
-    '''public long getBackPage()
+    '''returns long\n\n
+    getBackPage()\n
     '''
 def xgetBackPage():
-    '''public XmlUnsignedInt xgetBackPage()
+    '''returns XmlUnsignedInt\n\n
+    xgetBackPage()\n
     '''
 def isSetBackPage():
-    '''public boolean isSetBackPage()
+    '''returns boolean\n\n
+    isSetBackPage()\n
     '''
 def setBackPage():
-    '''public void setBackPage(final long longValue)
+    '''returns None\n\n
+    setBackPage(final long longValue)\n
     '''
 def xsetBackPage():
-    '''public void xsetBackPage(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetBackPage(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def unsetBackPage():
-    '''public void unsetBackPage()
+    '''returns None\n\n
+    unsetBackPage()\n
     '''
 def getViewScale():
-    '''public double getViewScale()
+    '''returns double\n\n
+    getViewScale()\n
     '''
 def xgetViewScale():
-    '''public XmlDouble xgetViewScale()
+    '''returns XmlDouble\n\n
+    xgetViewScale()\n
     '''
 def isSetViewScale():
-    '''public boolean isSetViewScale()
+    '''returns boolean\n\n
+    isSetViewScale()\n
     '''
 def setViewScale():
-    '''public void setViewScale(final double doubleValue)
+    '''returns None\n\n
+    setViewScale(final double doubleValue)\n
     '''
 def xsetViewScale():
-    '''public void xsetViewScale(final XmlDouble xmlDouble)
+    '''returns None\n\n
+    xsetViewScale(final XmlDouble xmlDouble)\n
     '''
 def unsetViewScale():
-    '''public void unsetViewScale()
+    '''returns None\n\n
+    unsetViewScale()\n
     '''
 def getViewCenterX():
-    '''public double getViewCenterX()
+    '''returns double\n\n
+    getViewCenterX()\n
     '''
 def xgetViewCenterX():
-    '''public XmlDouble xgetViewCenterX()
+    '''returns XmlDouble\n\n
+    xgetViewCenterX()\n
     '''
 def isSetViewCenterX():
-    '''public boolean isSetViewCenterX()
+    '''returns boolean\n\n
+    isSetViewCenterX()\n
     '''
 def setViewCenterX():
-    '''public void setViewCenterX(final double doubleValue)
+    '''returns None\n\n
+    setViewCenterX(final double doubleValue)\n
     '''
 def xsetViewCenterX():
-    '''public void xsetViewCenterX(final XmlDouble xmlDouble)
+    '''returns None\n\n
+    xsetViewCenterX(final XmlDouble xmlDouble)\n
     '''
 def unsetViewCenterX():
-    '''public void unsetViewCenterX()
+    '''returns None\n\n
+    unsetViewCenterX()\n
     '''
 def getViewCenterY():
-    '''public double getViewCenterY()
+    '''returns double\n\n
+    getViewCenterY()\n
     '''
 def xgetViewCenterY():
-    '''public XmlDouble xgetViewCenterY()
+    '''returns XmlDouble\n\n
+    xgetViewCenterY()\n
     '''
 def isSetViewCenterY():
-    '''public boolean isSetViewCenterY()
+    '''returns boolean\n\n
+    isSetViewCenterY()\n
     '''
 def setViewCenterY():
-    '''public void setViewCenterY(final double doubleValue)
+    '''returns None\n\n
+    setViewCenterY(final double doubleValue)\n
     '''
 def xsetViewCenterY():
-    '''public void xsetViewCenterY(final XmlDouble xmlDouble)
+    '''returns None\n\n
+    xsetViewCenterY(final XmlDouble xmlDouble)\n
     '''
 def unsetViewCenterY():
-    '''public void unsetViewCenterY()
+    '''returns None\n\n
+    unsetViewCenterY()\n
     '''
 def getReviewerID():
-    '''public long getReviewerID()
+    '''returns long\n\n
+    getReviewerID()\n
     '''
 def xgetReviewerID():
-    '''public XmlUnsignedInt xgetReviewerID()
+    '''returns XmlUnsignedInt\n\n
+    xgetReviewerID()\n
     '''
 def isSetReviewerID():
-    '''public boolean isSetReviewerID()
+    '''returns boolean\n\n
+    isSetReviewerID()\n
     '''
 def setReviewerID():
-    '''public void setReviewerID(final long longValue)
+    '''returns None\n\n
+    setReviewerID(final long longValue)\n
     '''
 def xsetReviewerID():
-    '''public void xsetReviewerID(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetReviewerID(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def unsetReviewerID():
-    '''public void unsetReviewerID()
+    '''returns None\n\n
+    unsetReviewerID()\n
     '''
 def getAssociatedPage():
-    '''public long getAssociatedPage()
+    '''returns long\n\n
+    getAssociatedPage()\n
     '''
 def xgetAssociatedPage():
-    '''public XmlUnsignedInt xgetAssociatedPage()
+    '''returns XmlUnsignedInt\n\n
+    xgetAssociatedPage()\n
     '''
 def isSetAssociatedPage():
-    '''public boolean isSetAssociatedPage()
+    '''returns boolean\n\n
+    isSetAssociatedPage()\n
     '''
 def setAssociatedPage():
-    '''public void setAssociatedPage(final long longValue)
+    '''returns None\n\n
+    setAssociatedPage(final long longValue)\n
     '''
 def xsetAssociatedPage():
-    '''public void xsetAssociatedPage(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetAssociatedPage(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def unsetAssociatedPage():
-    '''public void unsetAssociatedPage()
+    '''returns None\n\n
+    unsetAssociatedPage()\n
     '''

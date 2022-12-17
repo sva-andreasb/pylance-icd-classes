@@ -1,15 +1,17 @@
-def SKDResourceLoadCalculator():
-    '''public SKDResourceLoadCalculator(final SKDProject skdProject)
+def ():
+    '''returns ResourceLoadAndAvailResult\n\n
+    (final SKDProject skdProject)\n
+    ()\n
     '''
 def deleteSKDLaborHrs():
-    '''public void deleteSKDLaborHrs(final long SKDProjectId, final ConnectionKey connectionKey)
+    '''returns None\n\n
+    deleteSKDLaborHrs(final long SKDProjectId, final ConnectionKey connectionKey)\n
     '''
 def calculateLaborHrs():
-    '''public List<ListDataSets> calculateLaborHrs()
+    '''returns List<ListDataSets>\n\n
+    calculateLaborHrs()\n
     '''
 def deleteSKDLaborHours():
-    '''public void deleteSKDLaborHours()
-    '''
-def ResourceLoadAndAvailResult():
-    '''public ResourceLoadAndAvailResult()
+    '''returns None\n\n
+    deleteSKDLaborHours()\n
     '''

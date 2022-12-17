@@ -1,13 +1,17 @@
-def InvalidRAScopeException():
-    '''public InvalidRAScopeException(final String raScope)
-    public InvalidRAScopeException(final String raScope, final String exceptionMsg)
+def ():
+    '''returns InvalidRAScopeException\n\n
+    (final String raScope)\n
+    (final String raScope, final String exceptionMsg)\n
     '''
 def getScope():
-    '''public String getScope()
+    '''returns String\n\n
+    getScope()\n
     '''
 def getSxope():
-    '''public String getSxope()
+    '''returns String\n\n
+    getSxope()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

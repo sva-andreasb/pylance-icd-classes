@@ -1,22 +1,25 @@
 NAMESPACE = "String  \"urn:xmpp:bob\""
-def getInstanceFor():
-    '''public static synchronized BoBManager getInstanceFor(final XMPPConnection connection)
-    '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def isSupportedByServer():
-    '''public boolean isSupportedByServer()
+    '''returns boolean\n\n
+    isSupportedByServer()\n
     '''
 def requestBoB():
-    '''public BoBData requestBoB(final Jid to, final BoBHash bobHash)
+    '''returns BoBData\n\n
+    requestBoB(final Jid to, final BoBHash bobHash)\n
     '''
 def addBoB():
-    '''public BoBInfo addBoB(final BoBData bobData)
+    '''returns BoBInfo\n\n
+    addBoB(final BoBData bobData)\n
     '''
 def removeBoB():
-    '''public BoBInfo removeBoB(final BoBHash bobHash)
+    '''returns BoBInfo\n\n
+    removeBoB(final BoBHash bobHash)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

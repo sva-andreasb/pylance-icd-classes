@@ -1,3 +1,4 @@
-def PlusPBatchStatusSet():
-    '''public PlusPBatchStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBatchStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

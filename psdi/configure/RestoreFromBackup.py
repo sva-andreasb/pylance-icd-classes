@@ -1,43 +1,53 @@
-def RestoreFromBackup():
-    '''public RestoreFromBackup()
-    public RestoreFromBackup(final MXServer server)
+def ():
+    '''returns RestoreFromBackup\n\n
+    ()\n
+    (final MXServer server)\n
     '''
 def setUpgradeCallout():
-    '''public void setUpgradeCallout(final String val)
+    '''returns None\n\n
+    setUpgradeCallout(final String val)\n
     '''
 def process():
-    '''public void process()
+    '''returns None\n\n
+    process()\n
     '''
 def loadMaximoTable():
-    '''public void loadMaximoTable(final String tbname, final String tempTbName)
+    '''returns None\n\n
+    loadMaximoTable(final String tbname, final String tempTbName)\n
     '''
 def addMTPermissions():
-    '''public void addMTPermissions(final String tablename, final String uniqueColumnName, final MTStorageType storageType)
+    '''returns None\n\n
+    addMTPermissions(final String tablename, final String uniqueColumnName, final MTStorageType storageType)\n
     '''
 def updateMeta():
-    '''public void updateMeta(final String tbname)
+    '''returns None\n\n
+    updateMeta(final String tbname)\n
     '''
 def dropTemp():
-    '''public void dropTemp(final String tempTbName)
+    '''returns None\n\n
+    dropTemp(final String tempTbName)\n
     '''
 def setBypassTextSearchForUpgrade():
-    '''public void setBypassTextSearchForUpgrade(final boolean value)
+    '''returns None\n\n
+    setBypassTextSearchForUpgrade(final boolean value)\n
     '''
 def doLastSql():
-    '''public void doLastSql()
+    '''returns None\n\n
+    doLastSql()\n
     '''
 def showMsg():
-    '''public void showMsg(final String str)
+    '''returns None\n\n
+    showMsg(final String str)\n
     '''
 def upgradeCallout():
-    '''public boolean upgradeCallout(String methodName, final String methodPlace, String tbname)
+    '''returns boolean\n\n
+    upgradeCallout(String methodName, final String methodPlace, String tbname)\n
     '''
 def endSetupInstance():
-    '''public void endSetupInstance(final String outdir, final String outfile, final HashMap params)
+    '''returns None\n\n
+    endSetupInstance(final String outdir, final String outfile, final HashMap params)\n
     '''
 def endProcessInstance():
-    '''public void endProcessInstance()
-    '''
-def main():
-    '''public static void main(final String[] argv)
+    '''returns None\n\n
+    endProcessInstance()\n
     '''

@@ -1,15 +1,20 @@
-def EndpointInternalsPermission():
-    '''public EndpointInternalsPermission()
+def ():
+    '''returns EndpointInternalsPermission\n\n
+    ()\n
     '''
 def getActions():
-    '''public String getActions()
+    '''returns String\n\n
+    getActions()\n
     '''
 def implies():
-    '''public boolean implies(final Permission permission)
+    '''returns boolean\n\n
+    implies(final Permission permission)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

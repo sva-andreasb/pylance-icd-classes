@@ -1,13 +1,17 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloSubModelHandler():
-    '''public IloSubModelHandler(final IloDefaultRecursiveHandler previous, final IloSubModelCollectionDesc modelsDesc, final Attributes attrs)
+def ():
+    '''returns IloSubModelHandler\n\n
+    (final IloDefaultRecursiveHandler previous, final IloSubModelCollectionDesc modelsDesc, final Attributes attrs)\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''
 def getSubModelDesc():
-    '''public IloSubModelDesc getSubModelDesc()
+    '''returns IloSubModelDesc\n\n
+    getSubModelDesc()\n
     '''

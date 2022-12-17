@@ -1,18 +1,24 @@
-def ToggleStateFilter():
-    '''public ToggleStateFilter(final IlvAbstractFilter<T> filter, final boolean isEnabled, final boolean defaultStateWhenDisabled)
+def ():
+    '''returns ToggleStateFilter\n\n
+    (final IlvAbstractFilter<T> filter, final boolean isEnabled, final boolean defaultStateWhenDisabled)\n
     '''
 def filterChanged():
-    '''public void filterChanged(final FilterEvent paramFilterEvent)
+    '''returns None\n\n
+    filterChanged(final FilterEvent paramFilterEvent)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T paramT)
+    '''returns boolean\n\n
+    evaluate(final T paramT)\n
     '''
 def filter():
-    '''public IlvAbstractFilter<T> filter()
+    '''returns IlvAbstractFilter<T>\n\n
+    filter()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
     '''

@@ -1,83 +1,104 @@
 def attributeEntry():
-    '''public AttributeEntry attributeEntry()
-    public AttributeEntry attributeEntry(final InterfaceEntry interfaceEntry, final IDLID idlid)
+    '''returns AttributeEntry\n\n
+    attributeEntry()\n
+    attributeEntry(final InterfaceEntry interfaceEntry, final IDLID idlid)\n
     '''
 def constEntry():
-    '''public ConstEntry constEntry()
-    public ConstEntry constEntry(final SymtabEntry symtabEntry, final IDLID idlid)
+    '''returns ConstEntry\n\n
+    constEntry()\n
+    constEntry(final SymtabEntry symtabEntry, final IDLID idlid)\n
     '''
 def nativeEntry():
-    '''public NativeEntry nativeEntry()
-    public NativeEntry nativeEntry(final SymtabEntry symtabEntry, final IDLID idlid)
+    '''returns NativeEntry\n\n
+    nativeEntry()\n
+    nativeEntry(final SymtabEntry symtabEntry, final IDLID idlid)\n
     '''
 def enumEntry():
-    '''public EnumEntry enumEntry()
-    public EnumEntry enumEntry(final SymtabEntry symtabEntry, final IDLID idlid)
+    '''returns EnumEntry\n\n
+    enumEntry()\n
+    enumEntry(final SymtabEntry symtabEntry, final IDLID idlid)\n
     '''
 def exceptionEntry():
-    '''public ExceptionEntry exceptionEntry()
-    public ExceptionEntry exceptionEntry(final SymtabEntry symtabEntry, final IDLID idlid)
+    '''returns ExceptionEntry\n\n
+    exceptionEntry()\n
+    exceptionEntry(final SymtabEntry symtabEntry, final IDLID idlid)\n
     '''
 def forwardEntry():
-    '''public ForwardEntry forwardEntry()
-    public ForwardEntry forwardEntry(final ModuleEntry moduleEntry, final IDLID idlid)
+    '''returns ForwardEntry\n\n
+    forwardEntry()\n
+    forwardEntry(final ModuleEntry moduleEntry, final IDLID idlid)\n
     '''
 def forwardValueEntry():
-    '''public ForwardValueEntry forwardValueEntry()
-    public ForwardValueEntry forwardValueEntry(final ModuleEntry moduleEntry, final IDLID idlid)
+    '''returns ForwardValueEntry\n\n
+    forwardValueEntry()\n
+    forwardValueEntry(final ModuleEntry moduleEntry, final IDLID idlid)\n
     '''
 def includeEntry():
-    '''public IncludeEntry includeEntry()
-    public IncludeEntry includeEntry(final SymtabEntry symtabEntry)
+    '''returns IncludeEntry\n\n
+    includeEntry()\n
+    includeEntry(final SymtabEntry symtabEntry)\n
     '''
 def interfaceEntry():
-    '''public InterfaceEntry interfaceEntry()
-    public InterfaceEntry interfaceEntry(final ModuleEntry moduleEntry, final IDLID idlid)
+    '''returns InterfaceEntry\n\n
+    interfaceEntry()\n
+    interfaceEntry(final ModuleEntry moduleEntry, final IDLID idlid)\n
     '''
 def valueEntry():
-    '''public ValueEntry valueEntry()
-    public ValueEntry valueEntry(final ModuleEntry moduleEntry, final IDLID idlid)
+    '''returns ValueEntry\n\n
+    valueEntry()\n
+    valueEntry(final ModuleEntry moduleEntry, final IDLID idlid)\n
     '''
 def valueBoxEntry():
-    '''public ValueBoxEntry valueBoxEntry()
-    public ValueBoxEntry valueBoxEntry(final ModuleEntry moduleEntry, final IDLID idlid)
+    '''returns ValueBoxEntry\n\n
+    valueBoxEntry()\n
+    valueBoxEntry(final ModuleEntry moduleEntry, final IDLID idlid)\n
     '''
 def methodEntry():
-    '''public MethodEntry methodEntry()
-    public MethodEntry methodEntry(final InterfaceEntry interfaceEntry, final IDLID idlid)
+    '''returns MethodEntry\n\n
+    methodEntry()\n
+    methodEntry(final InterfaceEntry interfaceEntry, final IDLID idlid)\n
     '''
 def moduleEntry():
-    '''public ModuleEntry moduleEntry()
-    public ModuleEntry moduleEntry(final ModuleEntry moduleEntry, final IDLID idlid)
+    '''returns ModuleEntry\n\n
+    moduleEntry()\n
+    moduleEntry(final ModuleEntry moduleEntry, final IDLID idlid)\n
     '''
 def parameterEntry():
-    '''public ParameterEntry parameterEntry()
-    public ParameterEntry parameterEntry(final MethodEntry methodEntry, final IDLID idlid)
+    '''returns ParameterEntry\n\n
+    parameterEntry()\n
+    parameterEntry(final MethodEntry methodEntry, final IDLID idlid)\n
     '''
 def pragmaEntry():
-    '''public PragmaEntry pragmaEntry()
-    public PragmaEntry pragmaEntry(final SymtabEntry symtabEntry)
+    '''returns PragmaEntry\n\n
+    pragmaEntry()\n
+    pragmaEntry(final SymtabEntry symtabEntry)\n
     '''
 def primitiveEntry():
-    '''public PrimitiveEntry primitiveEntry()
-    public PrimitiveEntry primitiveEntry(final String s)
+    '''returns PrimitiveEntry\n\n
+    primitiveEntry()\n
+    primitiveEntry(final String s)\n
     '''
 def sequenceEntry():
-    '''public SequenceEntry sequenceEntry()
-    public SequenceEntry sequenceEntry(final SymtabEntry symtabEntry, final IDLID idlid)
+    '''returns SequenceEntry\n\n
+    sequenceEntry()\n
+    sequenceEntry(final SymtabEntry symtabEntry, final IDLID idlid)\n
     '''
 def stringEntry():
-    '''public StringEntry stringEntry()
+    '''returns StringEntry\n\n
+    stringEntry()\n
     '''
 def structEntry():
-    '''public StructEntry structEntry()
-    public StructEntry structEntry(final SymtabEntry symtabEntry, final IDLID idlid)
+    '''returns StructEntry\n\n
+    structEntry()\n
+    structEntry(final SymtabEntry symtabEntry, final IDLID idlid)\n
     '''
 def typedefEntry():
-    '''public TypedefEntry typedefEntry()
-    public TypedefEntry typedefEntry(final SymtabEntry symtabEntry, final IDLID idlid)
+    '''returns TypedefEntry\n\n
+    typedefEntry()\n
+    typedefEntry(final SymtabEntry symtabEntry, final IDLID idlid)\n
     '''
 def unionEntry():
-    '''public UnionEntry unionEntry()
-    public UnionEntry unionEntry(final SymtabEntry symtabEntry, final IDLID idlid)
+    '''returns UnionEntry\n\n
+    unionEntry()\n
+    unionEntry(final SymtabEntry symtabEntry, final IDLID idlid)\n
     '''

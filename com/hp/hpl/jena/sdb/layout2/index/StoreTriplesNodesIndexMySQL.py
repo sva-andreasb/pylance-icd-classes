@@ -1,4 +1,5 @@
-def StoreTriplesNodesIndexMySQL():
-    '''public StoreTriplesNodesIndexMySQL(final SDBConnection connection, final StoreDesc desc)
-    public StoreTriplesNodesIndexMySQL(final SDBConnection connection, final StoreDesc desc, final MySQLEngineType tableType)
+def ():
+    '''returns StoreTriplesNodesIndexMySQL\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
+    (final SDBConnection connection, final StoreDesc desc, final MySQLEngineType tableType)\n
     '''

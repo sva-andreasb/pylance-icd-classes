@@ -1,12 +1,16 @@
 def parse():
-    '''public Cookie[] parse(String host, final int port, String path, final boolean secure, final String header)
+    '''returns Cookie[]\n\n
+    parse(String host, final int port, String path, final boolean secure, final String header)\n
     '''
 def parseAttribute():
-    '''public void parseAttribute(final NameValuePair attribute, final Cookie cookie)
+    '''returns None\n\n
+    parseAttribute(final NameValuePair attribute, final Cookie cookie)\n
     '''
 def domainMatch():
-    '''public boolean domainMatch(final String host, final String domain)
+    '''returns boolean\n\n
+    domainMatch(final String host, final String domain)\n
     '''
 def validate():
-    '''public void validate(final String host, final int port, final String path, final boolean secure, final Cookie cookie)
+    '''returns None\n\n
+    validate(final String host, final int port, final String path, final boolean secure, final Cookie cookie)\n
     '''

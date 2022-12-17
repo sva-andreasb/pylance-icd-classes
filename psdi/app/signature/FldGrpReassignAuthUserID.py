@@ -1,3 +1,4 @@
-def FldGrpReassignAuthUserID():
-    '''public FldGrpReassignAuthUserID(final MboValue mbv)
+def ():
+    '''returns FldGrpReassignAuthUserID\n\n
+    (final MboValue mbv)\n
     '''

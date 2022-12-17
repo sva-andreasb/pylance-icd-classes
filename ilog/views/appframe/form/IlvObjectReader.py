@@ -1,72 +1,64 @@
 def readObject():
-    '''public Object readObject(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns Object\n\n
+    readObject(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def createObject():
-    '''public Object createObject(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns Object\n\n
+    createObject(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def readObjectContent():
-    '''public void readObjectContent(final Object parentObject, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns None\n\n
+    readObjectContent(final Object parentObject, final Element element, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getInt():
-    '''public int getInt(final Element element, final String s, final int n, final IlvFormReaderContext ilvFormReaderContext)
-    '''
-def ConvertToValue():
-    '''public static Object ConvertToValue(final String s, final Class clazz, final IlvFormReaderContext ilvFormReaderContext)
-    '''
-def ConvertToInt():
-    '''public static int ConvertToInt(final String s, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns int\n\n
+    getInt(final Element element, final String s, final int n, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getFloat():
-    '''public float getFloat(final Element element, final String s, final float n, final IlvFormReaderContext ilvFormReaderContext)
-    '''
-def ConvertToFloat():
-    '''public static float ConvertToFloat(final String s, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns float\n\n
+    getFloat(final Element element, final String s, final float n, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getDouble():
-    '''public double getDouble(final Element element, final String s, final double n, final IlvFormReaderContext ilvFormReaderContext)
-    '''
-def ConvertToDouble():
-    '''public static double ConvertToDouble(final String s, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns double\n\n
+    getDouble(final Element element, final String s, final double n, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getShort():
-    '''public short getShort(final Element element, final String s, final short n, final IlvFormReaderContext ilvFormReaderContext)
-    '''
-def ConvertToShort():
-    '''public static short ConvertToShort(final String s, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns short\n\n
+    getShort(final Element element, final String s, final short n, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getLong():
-    '''public long getLong(final Element element, final String s, final long n, final IlvFormReaderContext ilvFormReaderContext)
-    '''
-def ConvertToLong():
-    '''public static long ConvertToLong(final String s, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns long\n\n
+    getLong(final Element element, final String s, final long n, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getByte():
-    '''public byte getByte(final Element element, final String s, final byte b, final IlvFormReaderContext ilvFormReaderContext)
-    '''
-def ConvertToByte():
-    '''public static byte ConvertToByte(final String s, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns byte\n\n
+    getByte(final Element element, final String s, final byte b, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final Element element, final String s, final boolean b, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns boolean\n\n
+    getBoolean(final Element element, final String s, final boolean b, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def ConvertToBoolean():
-    '''public boolean ConvertToBoolean(final String s, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns boolean\n\n
+    ConvertToBoolean(final String s, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getColor():
-    '''public Color getColor(final Element element, final String s, final Color color, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns Color\n\n
+    getColor(final Element element, final String s, final Color color, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def ConvertToColor():
-    '''public Color ConvertToColor(final String s, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns Color\n\n
+    ConvertToColor(final String s, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getFont():
-    '''public Font getFont(final Element element, final String s, final Font font, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns Font\n\n
+    getFont(final Element element, final String s, final Font font, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
-def ConvertToFont():
-    '''public static Font ConvertToFont(final String s, final IlvFormReaderContext ilvFormReaderContext)
-    '''
-def PropertyLocaleListener():
-    '''public PropertyLocaleListener(final PropertyIntrospector.PropertyAccessor a, final Object b, final String c)
+def ():
+    '''returns PropertyLocaleListener\n\n
+    (final PropertyIntrospector.PropertyAccessor a, final Object b, final String c)\n
     '''
 def localeChanged():
-    '''public void localeChanged(final FormLocaleEvent formLocaleEvent)
+    '''returns None\n\n
+    localeChanged(final FormLocaleEvent formLocaleEvent)\n
     '''

@@ -1,3 +1,4 @@
-def FldPurSupervisor():
-    '''public FldPurSupervisor(final MboValue mbv)
+def ():
+    '''returns FldPurSupervisor\n\n
+    (final MboValue mbv)\n
     '''

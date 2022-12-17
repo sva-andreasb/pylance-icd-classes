@@ -1,10 +1,13 @@
-def PossibilityFilter():
-    '''public PossibilityFilter()
-    public PossibilityFilter(final int size)
+def ():
+    '''returns PossibilityFilter\n\n
+    ()\n
+    (final int size)\n
     '''
 def train():
-    '''public void train(final Object validationValue)
+    '''returns None\n\n
+    train(final Object validationValue)\n
     '''
 def isPossible():
-    '''public boolean isPossible(final Object testValue)
+    '''returns boolean\n\n
+    isPossible(final Object testValue)\n
     '''

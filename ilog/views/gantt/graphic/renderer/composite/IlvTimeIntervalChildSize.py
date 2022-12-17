@@ -1,31 +1,41 @@
 ANCHOR_INTERVAL = "int  2"
-def IlvTimeIntervalChildSize():
-    '''public IlvTimeIntervalChildSize()
+def ():
+    '''returns IlvTimeIntervalChildSize\n\n
+    ()\n
     '''
 def getStartDate():
-    '''public Date getStartDate()
+    '''returns Date\n\n
+    getStartDate()\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date a)
+    '''returns None\n\n
+    setStartDate(final Date a)\n
     '''
 def getEndDate():
-    '''public Date getEndDate()
+    '''returns Date\n\n
+    getEndDate()\n
     '''
 def setEndDate():
-    '''public void setEndDate(final Date b)
+    '''returns None\n\n
+    setEndDate(final Date b)\n
     '''
 def getDueDate():
-    '''public Date getDueDate()
+    '''returns Date\n\n
+    getDueDate()\n
     '''
 def setDueDate():
-    '''public void setDueDate(final Date c)
+    '''returns None\n\n
+    setDueDate(final Date c)\n
     '''
 def getReferenceDate():
-    '''public Date getReferenceDate()
+    '''returns Date\n\n
+    getReferenceDate()\n
     '''
 def setReferenceDate():
-    '''public void setReferenceDate(final Date d)
+    '''returns None\n\n
+    setReferenceDate(final Date d)\n
     '''
 def getSize():
-    '''public IlvPoint getSize(final IlvRect ilvRect, final IlvRect ilvRect2)
+    '''returns IlvPoint\n\n
+    getSize(final IlvRect ilvRect, final IlvRect ilvRect2)\n
     '''

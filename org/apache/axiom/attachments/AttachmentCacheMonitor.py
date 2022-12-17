@@ -1,23 +1,18 @@
 ATTACHMENT_TIMEOUT_PROPERTY = "String  \"org.apache.axiom.attachments.tempfile.expiration\""
-def getAttachmentCacheMonitor():
-    '''public static synchronized AttachmentCacheMonitor getAttachmentCacheMonitor()
-    '''
-def getTimeout():
-    '''public synchronized int getTimeout()
-    '''
-def setTimeout():
-    '''public synchronized void setTimeout(final int timeout)
-    '''
 def register():
-    '''public void register(final String fileName)
+    '''returns None\n\n
+    register(final String fileName)\n
     '''
 def access():
-    '''public void access(final String fileName)
+    '''returns None\n\n
+    access(final String fileName)\n
     '''
 def checkForAgedFiles():
-    '''public void checkForAgedFiles()
+    '''returns None\n\n
+    checkForAgedFiles()\n
     '''
 def run():
-    '''public Object run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''

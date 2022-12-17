@@ -1,15 +1,20 @@
-def SoftCache():
-    '''public SoftCache()
+def ():
+    '''returns SoftCache\n\n
+    ()\n
     '''
 def put():
-    '''public Object put(final Object o, final Object o2)
+    '''returns Object\n\n
+    put(final Object o, final Object o2)\n
     '''
 def get():
-    '''public Object get(final Object o)
+    '''returns Object\n\n
+    get(final Object o)\n
     '''
 def remove():
-    '''public Object remove(final Object o)
+    '''returns Object\n\n
+    remove(final Object o)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

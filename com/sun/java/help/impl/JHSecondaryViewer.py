@@ -1,102 +1,136 @@
-def JHSecondaryViewer():
-    '''public JHSecondaryViewer()
+def ():
+    '''returns JHSecondaryViewer\n\n
+    ()\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent mouseEvent)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent mouseEvent)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseExited(final MouseEvent mouseEvent)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mousePressed(final MouseEvent mouseEvent)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent mouseEvent)\n
     '''
 def setViewData():
-    '''public void setViewData(final View myView)
+    '''returns None\n\n
+    setViewData(final View myView)\n
     '''
 def setContent():
-    '''public void setContent(final String content)
+    '''returns None\n\n
+    setContent(final String content)\n
     '''
 def getContent():
-    '''public String getContent()
+    '''returns String\n\n
+    getContent()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setViewerName():
-    '''public void setViewerName(final String viewerName)
+    '''returns None\n\n
+    setViewerName(final String viewerName)\n
     '''
 def getViewerName():
-    '''public String getViewerName()
+    '''returns String\n\n
+    getViewerName()\n
     '''
 def setViewerActivator():
-    '''public void setViewerActivator(final String s)
+    '''returns None\n\n
+    setViewerActivator(final String s)\n
     '''
 def getViewerActivator():
-    '''public String getViewerActivator()
+    '''returns String\n\n
+    getViewerActivator()\n
     '''
 def setViewerStyle():
-    '''public void setViewerStyle(final String s)
+    '''returns None\n\n
+    setViewerStyle(final String s)\n
     '''
 def getViewerStyle():
-    '''public String getViewerStyle()
+    '''returns String\n\n
+    getViewerStyle()\n
     '''
 def setViewerLocation():
-    '''public void setViewerLocation(final String s)
+    '''returns None\n\n
+    setViewerLocation(final String s)\n
     '''
 def getViewerLocation():
-    '''public String getViewerLocation()
+    '''returns String\n\n
+    getViewerLocation()\n
     '''
 def setViewerSize():
-    '''public void setViewerSize(final String s)
+    '''returns None\n\n
+    setViewerSize(final String s)\n
     '''
 def getViewerSize():
-    '''public String getViewerSize()
+    '''returns String\n\n
+    getViewerSize()\n
     '''
 def setIconByName():
-    '''public void setIconByName(final String spec)
+    '''returns None\n\n
+    setIconByName(final String spec)\n
     '''
 def setIconByID():
-    '''public void setIconByID(final String s)
+    '''returns None\n\n
+    setIconByID(final String s)\n
     '''
 def setTextFontFamily():
-    '''public void setTextFontFamily(final String value)
+    '''returns None\n\n
+    setTextFontFamily(final String value)\n
     '''
 def getTextFontFamily():
-    '''public String getTextFontFamily()
+    '''returns String\n\n
+    getTextFontFamily()\n
     '''
 def setTextFontSize():
-    '''public void setTextFontSize(final String size)
+    '''returns None\n\n
+    setTextFontSize(final String size)\n
     '''
 def getTextFontSize():
-    '''public String getTextFontSize()
+    '''returns String\n\n
+    getTextFontSize()\n
     '''
 def setTextFontWeight():
-    '''public void setTextFontWeight(final String s)
+    '''returns None\n\n
+    setTextFontWeight(final String s)\n
     '''
 def getTextFontWeight():
-    '''public String getTextFontWeight()
+    '''returns String\n\n
+    getTextFontWeight()\n
     '''
 def setTextFontStyle():
-    '''public void setTextFontStyle(final String s)
+    '''returns None\n\n
+    setTextFontStyle(final String s)\n
     '''
 def getTextFontStyle():
-    '''public String getTextFontStyle()
+    '''returns String\n\n
+    getTextFontStyle()\n
     '''
 def setTextColor():
-    '''public void setTextColor(final String s)
+    '''returns None\n\n
+    setTextColor(final String s)\n
     '''
 def getTextColor():
-    '''public String getTextColor()
+    '''returns String\n\n
+    getTextColor()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''

@@ -1,34 +1,45 @@
 def construct():
-    '''public void construct(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    construct(final IlvEditionContext ilvEditionContext)\n
     '''
 def connectModel():
-    '''public void connectModel(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectModel(final IlvEditionContext ilvEditionContext)\n
     '''
 def modelConnected():
-    '''public void modelConnected(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    modelConnected(final IlvEditionContext ilvEditionContext)\n
     '''
 def connectUI():
-    '''public void connectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def initializeUI():
-    '''public void initializeUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    initializeUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def commitChanges():
-    '''public void commitChanges(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    commitChanges(final IlvEditionContext ilvEditionContext)\n
     '''
 def addEditor():
-    '''public void addEditor(final IlvFormEditor ilvFormEditor)
+    '''returns None\n\n
+    addEditor(final IlvFormEditor ilvFormEditor)\n
     '''
 def removeEditor():
-    '''public boolean removeEditor(final IlvFormEditor ilvFormEditor)
+    '''returns boolean\n\n
+    removeEditor(final IlvFormEditor ilvFormEditor)\n
     '''
 def getEditorCount():
-    '''public int getEditorCount()
+    '''returns int\n\n
+    getEditorCount()\n
     '''
 def getEditor():
-    '''public IlvFormEditor getEditor(final int n)
-    public IlvFormEditor getEditor(final String s)
+    '''returns IlvFormEditor\n\n
+    getEditor(final int n)\n
+    getEditor(final String s)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''

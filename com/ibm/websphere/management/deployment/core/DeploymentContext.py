@@ -1,33 +1,44 @@
-def DeploymentContext():
-    '''public DeploymentContext()
+def ():
+    '''returns DeploymentContext\n\n
+    ()\n
     '''
 def getRootTypeName():
-    '''public String getRootTypeName()
+    '''returns String\n\n
+    getRootTypeName()\n
     '''
 def getOperationName():
-    '''public String getOperationName()
+    '''returns String\n\n
+    getOperationName()\n
     '''
 def getCurrentPhaseName():
-    '''public String getCurrentPhaseName()
+    '''returns String\n\n
+    getCurrentPhaseName()\n
     '''
 def getCurrentStepName():
-    '''public String getCurrentStepName()
+    '''returns String\n\n
+    getCurrentStepName()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getParams():
-    '''public List getParams()
+    '''returns List\n\n
+    getParams()\n
     '''
 def getTempDir():
-    '''public String getTempDir()
+    '''returns String\n\n
+    getTempDir()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getPrefs():
-    '''public Hashtable getPrefs()
+    '''returns Hashtable\n\n
+    getPrefs()\n
     '''
 def getContextData():
-    '''public Hashtable getContextData()
+    '''returns Hashtable\n\n
+    getContextData()\n
     '''

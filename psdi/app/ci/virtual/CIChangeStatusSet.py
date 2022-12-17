@@ -1,3 +1,4 @@
-def CIChangeStatusSet():
-    '''public CIChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns CIChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

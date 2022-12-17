@@ -3,51 +3,65 @@ END_HEADERS = "short  4"
 ACK = "short  1"
 PADDED = "short  8"
 PRIORITY = "short  32"
-def Http2Flags():
-    '''public Http2Flags()
-    public Http2Flags(final short value)
+def ():
+    '''returns Http2Flags\n\n
+    ()\n
+    (final short value)\n
     '''
 def value():
-    '''public short value()
+    '''returns short\n\n
+    value()\n
     '''
 def endOfStream():
-    '''public boolean endOfStream()
-    public Http2Flags endOfStream(final boolean endOfStream)
+    '''returns Http2Flags\n\n
+    endOfStream()\n
+    endOfStream(final boolean endOfStream)\n
     '''
 def endOfHeaders():
-    '''public boolean endOfHeaders()
-    public Http2Flags endOfHeaders(final boolean endOfHeaders)
+    '''returns Http2Flags\n\n
+    endOfHeaders()\n
+    endOfHeaders(final boolean endOfHeaders)\n
     '''
 def priorityPresent():
-    '''public boolean priorityPresent()
-    public Http2Flags priorityPresent(final boolean priorityPresent)
+    '''returns Http2Flags\n\n
+    priorityPresent()\n
+    priorityPresent(final boolean priorityPresent)\n
     '''
 def ack():
-    '''public boolean ack()
-    public Http2Flags ack(final boolean ack)
+    '''returns Http2Flags\n\n
+    ack()\n
+    ack(final boolean ack)\n
     '''
 def paddingPresent():
-    '''public boolean paddingPresent()
-    public Http2Flags paddingPresent(final boolean paddingPresent)
+    '''returns Http2Flags\n\n
+    paddingPresent()\n
+    paddingPresent(final boolean paddingPresent)\n
     '''
 def getNumPriorityBytes():
-    '''public int getNumPriorityBytes()
+    '''returns int\n\n
+    getNumPriorityBytes()\n
     '''
 def getPaddingPresenceFieldLength():
-    '''public int getPaddingPresenceFieldLength()
+    '''returns int\n\n
+    getPaddingPresenceFieldLength()\n
     '''
 def setFlag():
-    '''public Http2Flags setFlag(final boolean on, final short mask)
+    '''returns Http2Flags\n\n
+    setFlag(final boolean on, final short mask)\n
     '''
 def isFlagSet():
-    '''public boolean isFlagSet(final short mask)
+    '''returns boolean\n\n
+    isFlagSet(final short mask)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

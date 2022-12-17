@@ -1,6 +1,8 @@
-def FldCronTackInstance():
-    '''public FldCronTackInstance(final MboValue mbv)
+def ():
+    '''returns FldCronTackInstance\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

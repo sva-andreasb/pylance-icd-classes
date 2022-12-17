@@ -1,3 +1,4 @@
-def PlusPAppliesToService():
-    '''public PlusPAppliesToService(final MboSet set)
+def ():
+    '''returns PlusPAppliesToService\n\n
+    (final MboSet set)\n
     '''

@@ -1,3 +1,4 @@
-def DPAMSWUsageSet():
-    '''public DPAMSWUsageSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMSWUsageSet\n\n
+    (final MboServerInterface ms)\n
     '''

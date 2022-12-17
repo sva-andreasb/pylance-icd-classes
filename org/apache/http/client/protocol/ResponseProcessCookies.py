@@ -1,6 +1,8 @@
-def ResponseProcessCookies():
-    '''public ResponseProcessCookies()
+def ():
+    '''returns ResponseProcessCookies\n\n
+    ()\n
     '''
 def process():
-    '''public void process(final HttpResponse response, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpResponse response, final HttpContext context)\n
     '''

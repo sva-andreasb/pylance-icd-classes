@@ -1,12 +1,16 @@
-def URLConnectionResponse():
-    '''public URLConnectionResponse(final HttpMessage request, final String requestHeaders, final byte[] requestExcerpt, final URLConnection connection)
+def ():
+    '''returns URLConnectionResponse\n\n
+    (final HttpMessage request, final String requestHeaders, final byte[] requestExcerpt, final URLConnection connection)\n
     '''
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''
 def openBody():
-    '''public InputStream openBody()
+    '''returns InputStream\n\n
+    openBody()\n
     '''
 def dump():
-    '''public void dump(final Map<String, Object> into)
+    '''returns None\n\n
+    dump(final Map<String, Object> into)\n
     '''

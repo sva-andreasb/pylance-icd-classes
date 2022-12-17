@@ -1,42 +1,47 @@
-def RepositoryInputStream():
-    '''public RepositoryInputStream()
-    public RepositoryInputStream(final File file)
+def ():
+    '''returns RepositoryInputStream\n\n
+    ()\n
+    (final File file)\n
     '''
 def setStream():
-    '''public void setStream(final InputStream stream)
+    '''returns None\n\n
+    setStream(final InputStream stream)\n
     '''
 def getStream():
-    '''public InputStream getStream()
+    '''returns InputStream\n\n
+    getStream()\n
     '''
 def getSrcPath():
-    '''public String getSrcPath()
+    '''returns String\n\n
+    getSrcPath()\n
     '''
 def setSrcPath():
-    '''public void setSrcPath(final String srcPath)
+    '''returns None\n\n
+    setSrcPath(final String srcPath)\n
     '''
 def connect():
-    '''public void connect()
+    '''returns None\n\n
+    connect()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] buf)
-    public int read(final byte[] buf, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] buf)\n
+    read(final byte[] buf, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(final long l)
+    '''returns long\n\n
+    skip(final long l)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int i)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

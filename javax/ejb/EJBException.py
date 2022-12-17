@@ -1,17 +1,21 @@
-def EJBException():
-    '''public EJBException()
-    public EJBException(final Exception ex)
-    public EJBException(final String message)
-    public EJBException(final String message, final Exception ex)
+def ():
+    '''returns EJBException\n\n
+    ()\n
+    (final Exception ex)\n
+    (final String message)\n
+    (final String message, final Exception ex)\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream ps)
-    public void printStackTrace(final PrintWriter pw)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream ps)\n
+    printStackTrace(final PrintWriter pw)\n
     '''
 def getCausedByException():
-    '''public Exception getCausedByException()
+    '''returns Exception\n\n
+    getCausedByException()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

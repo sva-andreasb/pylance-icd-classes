@@ -1,9 +1,12 @@
-def WLMClientInitializer():
-    '''public WLMClientInitializer()
+def ():
+    '''returns WLMClientInitializer\n\n
+    ()\n
     '''
 def pre_init():
-    '''public void pre_init(final ORBInitInfo info)
+    '''returns None\n\n
+    pre_init(final ORBInitInfo info)\n
     '''
 def post_init():
-    '''public void post_init(final ORBInitInfo info)
+    '''returns None\n\n
+    post_init(final ORBInitInfo info)\n
     '''

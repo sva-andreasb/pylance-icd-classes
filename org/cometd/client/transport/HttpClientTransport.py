@@ -1,54 +1,69 @@
 def setURL():
-    '''public void setURL(final String url)
+    '''returns None\n\n
+    setURL(final String url)\n
     '''
 def setCookieProvider():
-    '''public void setCookieProvider(final CookieProvider cookieProvider)
+    '''returns None\n\n
+    setCookieProvider(final CookieProvider cookieProvider)\n
     '''
-def Cookie():
-    '''public Cookie(final String name, final String value, final String domain, final String path, final int maxAge, final boolean secure, final int version, final String comment)
+def ():
+    '''returns StandardCookieProvider\n\n
+    (final String name, final String value, final String domain, final String path, final int maxAge, final boolean secure, final int version, final String comment)\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def getMaxAge():
-    '''public int getMaxAge()
+    '''returns int\n\n
+    getMaxAge()\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getComment():
-    '''public String getComment()
+    '''returns String\n\n
+    getComment()\n
     '''
 def isExpired():
-    '''public boolean isExpired(final long timeNanos)
+    '''returns boolean\n\n
+    isExpired(final long timeNanos)\n
     '''
 def asString():
-    '''public String asString()
-    '''
-def StandardCookieProvider():
-    '''public StandardCookieProvider()
+    '''returns String\n\n
+    asString()\n
     '''
 def getCookie():
-    '''public Cookie getCookie(final String name)
+    '''returns Cookie\n\n
+    getCookie(final String name)\n
     '''
 def setCookie():
-    '''public void setCookie(final Cookie cookie)
+    '''returns None\n\n
+    setCookie(final Cookie cookie)\n
     '''
 def getCookies():
-    '''public List<Cookie> getCookies()
+    '''returns List<Cookie>\n\n
+    getCookies()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

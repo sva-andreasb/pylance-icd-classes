@@ -1,52 +1,31 @@
-def getPlatform():
-    '''public static final Platform getPlatform()
-    '''
-def getOS():
-    '''public final OS getOS()
-    '''
-def getCPU():
-    '''public final CPU getCPU()
-    '''
-def getJavaMajorVersion():
-    '''public final int getJavaMajorVersion()
-    '''
-def addressSize():
-    '''public final int addressSize()
-    '''
-def addressMask():
-    '''public final long addressMask()
-    '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def mapLibraryName():
-    '''public String mapLibraryName(final String libName)
-    public String mapLibraryName(final String libName)
+    '''returns String\n\n
+    mapLibraryName(final String libName)\n
+    mapLibraryName(final String libName)\n
     '''
 def getLibraryNamePattern():
-    '''public String getLibraryNamePattern()
-    public String getLibraryNamePattern()
-    public String getLibraryNamePattern()
+    '''returns String\n\n
+    getLibraryNamePattern()\n
+    getLibraryNamePattern()\n
+    getLibraryNamePattern()\n
     '''
 def isSupported():
-    '''public boolean isSupported()
+    '''returns boolean\n\n
+    isSupported()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
-def Default():
-    '''public Default(final OS os)
-    '''
-def longSize():
-    '''public final int longSize()
-    public final int longSize()
-    public final int longSize()
-    '''
-def Darwin():
-    '''public Darwin()
-    '''
-def Windows():
-    '''public Windows()
+def ():
+    '''returns Windows\n\n
+    (final OS os)\n
+    ()\n
+    ()\n
     '''

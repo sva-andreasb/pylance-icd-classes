@@ -1,6 +1,8 @@
-def PushNotificationFuture():
-    '''public PushNotificationFuture(final P pushNotification)
+def ():
+    '''returns PushNotificationFuture\n\n
+    (final P pushNotification)\n
     '''
 def getPushNotification():
-    '''public P getPushNotification()
+    '''returns P\n\n
+    getPushNotification()\n
     '''

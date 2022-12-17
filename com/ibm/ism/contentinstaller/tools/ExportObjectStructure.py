@@ -1,26 +1,30 @@
-def ExportObjectStructure():
-    '''public ExportObjectStructure()
-    public ExportObjectStructure(final MaximoResolver mxeResolver)
+def ():
+    '''returns ExportObjectStructure\n\n
+    ()\n
+    (final MaximoResolver mxeResolver)\n
     '''
 def getObjects():
-    '''public void getObjects(final Connection c)
+    '''returns None\n\n
+    getObjects(final Connection c)\n
     '''
 def getSequences():
-    '''public void getSequences(final Connection c, final String tablename, final Element parentElement)
+    '''returns None\n\n
+    getSequences(final Connection c, final String tablename, final Element parentElement)\n
     '''
 def getParentValue():
-    '''public void getParentValue(final Element element, final String columnName, String parentColumnName)
+    '''returns None\n\n
+    getParentValue(final Element element, final String columnName, String parentColumnName)\n
     '''
 def getParentSequence():
-    '''public void getParentSequence(final Connection c, final Element element, final String parentTable, final String columnName)
+    '''returns None\n\n
+    getParentSequence(final Connection c, final Element element, final String parentTable, final String columnName)\n
     '''
 def listRelatedTables():
-    '''public void listRelatedTables(final Connection c, final Element parentElement, final int indent)
+    '''returns None\n\n
+    listRelatedTables(final Connection c, final Element parentElement, final int indent)\n
     '''
 def exportObjectStructure():
-    '''public void exportObjectStructure(final String objectName, final int maxDepth, final String outFileName, final boolean addKeyColumns)
-    public Document exportObjectStructure(String objectName, final int maxDepth, final boolean addKeyColumns)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns Document\n\n
+    exportObjectStructure(final String objectName, final int maxDepth, final String outFileName, final boolean addKeyColumns)\n
+    exportObjectStructure(String objectName, final int maxDepth, final boolean addKeyColumns)\n
     '''

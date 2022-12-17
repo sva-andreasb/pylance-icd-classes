@@ -1,4 +1,5 @@
-def DPAMOSYSService():
-    '''public DPAMOSYSService()
-    public DPAMOSYSService(final MXServer mxServer)
+def ():
+    '''returns DPAMOSYSService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

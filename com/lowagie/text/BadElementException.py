@@ -1,4 +1,5 @@
-def BadElementException():
-    '''public BadElementException(final Exception ex)
-    public BadElementException(final String message)
+def ():
+    '''returns BadElementException\n\n
+    (final Exception ex)\n
+    (final String message)\n
     '''

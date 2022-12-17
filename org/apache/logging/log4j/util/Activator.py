@@ -1,9 +1,12 @@
 def start():
-    '''public void start(final BundleContext bundleContext)
+    '''returns None\n\n
+    start(final BundleContext bundleContext)\n
     '''
 def stop():
-    '''public void stop(final BundleContext bundleContext)
+    '''returns None\n\n
+    stop(final BundleContext bundleContext)\n
     '''
 def bundleChanged():
-    '''public void bundleChanged(final BundleEvent event)
+    '''returns None\n\n
+    bundleChanged(final BundleEvent event)\n
     '''

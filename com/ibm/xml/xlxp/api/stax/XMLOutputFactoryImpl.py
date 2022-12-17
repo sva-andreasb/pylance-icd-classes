@@ -1,206 +1,231 @@
-def XMLOutputFactoryImpl():
-    '''public XMLOutputFactoryImpl()
+def ():
+    '''returns XMLStreamWriterTracer\n\n
+    ()\n
+    (final XMLStreamWriter fStreamWriter, final boolean fRecycleOnEndDocument)\n
+    (final XMLStreamWriter xmlStreamWriter, final boolean b)\n
     '''
 def createXMLStreamWriter():
-    '''public XMLStreamWriter createXMLStreamWriter(final Writer writer)
-    public XMLStreamWriter createXMLStreamWriter(final OutputStream outputStream)
-    public XMLStreamWriter createXMLStreamWriter(final OutputStream outputStream, final String s)
-    public XMLStreamWriter createXMLStreamWriter(final Result result)
+    '''returns XMLStreamWriter\n\n
+    createXMLStreamWriter(final Writer writer)\n
+    createXMLStreamWriter(final OutputStream outputStream)\n
+    createXMLStreamWriter(final OutputStream outputStream, final String s)\n
+    createXMLStreamWriter(final Result result)\n
     '''
 def createXMLEventWriter():
-    '''public XMLEventWriter createXMLEventWriter(final Result result)
-    public XMLEventWriter createXMLEventWriter(final OutputStream outputStream)
-    public XMLEventWriter createXMLEventWriter(final OutputStream outputStream, final String s)
-    public XMLEventWriter createXMLEventWriter(final Writer writer)
+    '''returns XMLEventWriter\n\n
+    createXMLEventWriter(final Result result)\n
+    createXMLEventWriter(final OutputStream outputStream)\n
+    createXMLEventWriter(final OutputStream outputStream, final String s)\n
+    createXMLEventWriter(final Writer writer)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
-    public Object getProperty(final String s)
-    public Object getProperty(final String s)
-    public Object getProperty(final String s)
-    public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
+    getProperty(final String s)\n
+    getProperty(final String s)\n
+    getProperty(final String s)\n
+    getProperty(final String s)\n
     '''
 def isPropertySupported():
-    '''public boolean isPropertySupported(final String s)
-    '''
-def XMLStreamWriterProxy():
-    '''public XMLStreamWriterProxy(final XMLStreamWriter fStreamWriter, final boolean fRecycleOnEndDocument)
+    '''returns boolean\n\n
+    isPropertySupported(final String s)\n
     '''
 def writeStartElement():
-    '''public void writeStartElement(final String s)
-    public void writeStartElement(final String s, final String s2)
-    public void writeStartElement(final String s, final String s2, final String s3)
-    public void writeStartElement(final String s)
-    public void writeStartElement(final String s, final String s2)
-    public void writeStartElement(final String s, final String s2, final String s3)
-    public void writeStartElement(final String s)
-    public void writeStartElement(final String s, final String s2)
-    public void writeStartElement(final String s, final String s2, final String s3)
-    public void writeStartElement(final String s)
-    public void writeStartElement(final String s, final String s2)
-    public void writeStartElement(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    writeStartElement(final String s)\n
+    writeStartElement(final String s, final String s2)\n
+    writeStartElement(final String s, final String s2, final String s3)\n
+    writeStartElement(final String s)\n
+    writeStartElement(final String s, final String s2)\n
+    writeStartElement(final String s, final String s2, final String s3)\n
+    writeStartElement(final String s)\n
+    writeStartElement(final String s, final String s2)\n
+    writeStartElement(final String s, final String s2, final String s3)\n
+    writeStartElement(final String s)\n
+    writeStartElement(final String s, final String s2)\n
+    writeStartElement(final String s, final String s2, final String s3)\n
     '''
 def writeEmptyElement():
-    '''public void writeEmptyElement(final String s, final String s2)
-    public void writeEmptyElement(final String s, final String s2, final String s3)
-    public void writeEmptyElement(final String s)
-    public void writeEmptyElement(final String s, final String s2)
-    public void writeEmptyElement(final String s, final String s2, final String s3)
-    public void writeEmptyElement(final String s)
-    public void writeEmptyElement(final String s, final String s2)
-    public void writeEmptyElement(final String s, final String s2, final String s3)
-    public void writeEmptyElement(final String s)
-    public void writeEmptyElement(final String s, final String s2)
-    public void writeEmptyElement(final String s, final String s2, final String s3)
-    public void writeEmptyElement(final String s)
+    '''returns None\n\n
+    writeEmptyElement(final String s, final String s2)\n
+    writeEmptyElement(final String s, final String s2, final String s3)\n
+    writeEmptyElement(final String s)\n
+    writeEmptyElement(final String s, final String s2)\n
+    writeEmptyElement(final String s, final String s2, final String s3)\n
+    writeEmptyElement(final String s)\n
+    writeEmptyElement(final String s, final String s2)\n
+    writeEmptyElement(final String s, final String s2, final String s3)\n
+    writeEmptyElement(final String s)\n
+    writeEmptyElement(final String s, final String s2)\n
+    writeEmptyElement(final String s, final String s2, final String s3)\n
+    writeEmptyElement(final String s)\n
     '''
 def writeEndElement():
-    '''public void writeEndElement()
-    public void writeEndElement()
-    public void writeEndElement()
-    public void writeEndElement()
+    '''returns None\n\n
+    writeEndElement()\n
+    writeEndElement()\n
+    writeEndElement()\n
+    writeEndElement()\n
     '''
 def writeEndDocument():
-    '''public void writeEndDocument()
-    public void writeEndDocument()
-    public void writeEndDocument()
-    public void writeEndDocument()
+    '''returns None\n\n
+    writeEndDocument()\n
+    writeEndDocument()\n
+    writeEndDocument()\n
+    writeEndDocument()\n
     '''
 def close():
-    '''public void close()
-    public void close()
-    public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
+    close()\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
-    public void flush()
-    public void flush()
-    public void flush()
+    '''returns None\n\n
+    flush()\n
+    flush()\n
+    flush()\n
+    flush()\n
     '''
 def writeAttribute():
-    '''public void writeAttribute(final String s, final String s2)
-    public void writeAttribute(final String s, final String s2, final String s3, final String s4)
-    public void writeAttribute(final String s, final String s2, final String s3)
-    public void writeAttribute(final String s, final String s2)
-    public void writeAttribute(final String s, final String s2, final String s3, final String s4)
-    public void writeAttribute(final String s, final String s2, final String s3)
-    public void writeAttribute(final String s, final String s2)
-    public void writeAttribute(final String s, final String s2, final String s3, final String s4)
-    public void writeAttribute(final String s, final String s2, final String s3)
-    public void writeAttribute(final String s, final String s2)
-    public void writeAttribute(final String s, final String s2, final String s3, final String s4)
-    public void writeAttribute(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    writeAttribute(final String s, final String s2)\n
+    writeAttribute(final String s, final String s2, final String s3, final String s4)\n
+    writeAttribute(final String s, final String s2, final String s3)\n
+    writeAttribute(final String s, final String s2)\n
+    writeAttribute(final String s, final String s2, final String s3, final String s4)\n
+    writeAttribute(final String s, final String s2, final String s3)\n
+    writeAttribute(final String s, final String s2)\n
+    writeAttribute(final String s, final String s2, final String s3, final String s4)\n
+    writeAttribute(final String s, final String s2, final String s3)\n
+    writeAttribute(final String s, final String s2)\n
+    writeAttribute(final String s, final String s2, final String s3, final String s4)\n
+    writeAttribute(final String s, final String s2, final String s3)\n
     '''
 def writeNamespace():
-    '''public void writeNamespace(final String s, final String s2)
-    public void writeNamespace(final String s, final String s2)
-    public void writeNamespace(final String s, final String s2)
-    public void writeNamespace(final String s, final String s2)
+    '''returns None\n\n
+    writeNamespace(final String s, final String s2)\n
+    writeNamespace(final String s, final String s2)\n
+    writeNamespace(final String s, final String s2)\n
+    writeNamespace(final String s, final String s2)\n
     '''
 def writeDefaultNamespace():
-    '''public void writeDefaultNamespace(final String s)
-    public void writeDefaultNamespace(final String s)
-    public void writeDefaultNamespace(final String s)
-    public void writeDefaultNamespace(final String s)
+    '''returns None\n\n
+    writeDefaultNamespace(final String s)\n
+    writeDefaultNamespace(final String s)\n
+    writeDefaultNamespace(final String s)\n
+    writeDefaultNamespace(final String s)\n
     '''
 def writeComment():
-    '''public void writeComment(final String s)
-    public void writeComment(final String s)
-    public void writeComment(final String s)
-    public void writeComment(final String s)
+    '''returns None\n\n
+    writeComment(final String s)\n
+    writeComment(final String s)\n
+    writeComment(final String s)\n
+    writeComment(final String s)\n
     '''
 def writeProcessingInstruction():
-    '''public void writeProcessingInstruction(final String s)
-    public void writeProcessingInstruction(final String s, final String s2)
-    public void writeProcessingInstruction(final String s)
-    public void writeProcessingInstruction(final String s, final String s2)
-    public void writeProcessingInstruction(final String s)
-    public void writeProcessingInstruction(final String s, final String s2)
-    public void writeProcessingInstruction(final String s)
-    public void writeProcessingInstruction(final String s, final String s2)
+    '''returns None\n\n
+    writeProcessingInstruction(final String s)\n
+    writeProcessingInstruction(final String s, final String s2)\n
+    writeProcessingInstruction(final String s)\n
+    writeProcessingInstruction(final String s, final String s2)\n
+    writeProcessingInstruction(final String s)\n
+    writeProcessingInstruction(final String s, final String s2)\n
+    writeProcessingInstruction(final String s)\n
+    writeProcessingInstruction(final String s, final String s2)\n
     '''
 def writeCData():
-    '''public void writeCData(final String s)
-    public void writeCData(final String s)
-    public void writeCData(final String s)
-    public void writeCData(final String s)
+    '''returns None\n\n
+    writeCData(final String s)\n
+    writeCData(final String s)\n
+    writeCData(final String s)\n
+    writeCData(final String s)\n
     '''
 def writeDTD():
-    '''public void writeDTD(final String s)
-    public void writeDTD(final String s)
-    public void writeDTD(final String s)
-    public void writeDTD(final String s)
+    '''returns None\n\n
+    writeDTD(final String s)\n
+    writeDTD(final String s)\n
+    writeDTD(final String s)\n
+    writeDTD(final String s)\n
     '''
 def writeEntityRef():
-    '''public void writeEntityRef(final String s)
-    public void writeEntityRef(final String s)
-    public void writeEntityRef(final String s)
-    public void writeEntityRef(final String s)
+    '''returns None\n\n
+    writeEntityRef(final String s)\n
+    writeEntityRef(final String s)\n
+    writeEntityRef(final String s)\n
+    writeEntityRef(final String s)\n
     '''
 def writeStartDocument():
-    '''public void writeStartDocument()
-    public void writeStartDocument(final String s)
-    public void writeStartDocument(final String s, final String s2)
-    public void writeStartDocument()
-    public void writeStartDocument(final String s)
-    public void writeStartDocument(final String s, final String s2)
-    public void writeStartDocument()
-    public void writeStartDocument(final String s)
-    public void writeStartDocument(final String s, final String s2)
-    public void writeStartDocument()
-    public void writeStartDocument(final String s)
-    public void writeStartDocument(final String s, final String s2)
+    '''returns None\n\n
+    writeStartDocument()\n
+    writeStartDocument(final String s)\n
+    writeStartDocument(final String s, final String s2)\n
+    writeStartDocument()\n
+    writeStartDocument(final String s)\n
+    writeStartDocument(final String s, final String s2)\n
+    writeStartDocument()\n
+    writeStartDocument(final String s)\n
+    writeStartDocument(final String s, final String s2)\n
+    writeStartDocument()\n
+    writeStartDocument(final String s)\n
+    writeStartDocument(final String s, final String s2)\n
     '''
 def writeCharacters():
-    '''public void writeCharacters(final String s)
-    public void writeCharacters(final char[] array, final int n, final int n2)
-    public void writeCharacters(final String s)
-    public void writeCharacters(final char[] array, final int n, final int n2)
-    public void writeCharacters(final String s)
-    public void writeCharacters(final char[] array, final int n, final int n2)
-    public void writeCharacters(final String s)
-    public void writeCharacters(final char[] array, final int value, final int value2)
+    '''returns None\n\n
+    writeCharacters(final String s)\n
+    writeCharacters(final char[] array, final int n, final int n2)\n
+    writeCharacters(final String s)\n
+    writeCharacters(final char[] array, final int n, final int n2)\n
+    writeCharacters(final String s)\n
+    writeCharacters(final char[] array, final int n, final int n2)\n
+    writeCharacters(final String s)\n
+    writeCharacters(final char[] array, final int value, final int value2)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String s)
-    public String getPrefix(final String s)
-    public String getPrefix(final String s)
-    public String getPrefix(final String s)
+    '''returns String\n\n
+    getPrefix(final String s)\n
+    getPrefix(final String s)\n
+    getPrefix(final String s)\n
+    getPrefix(final String s)\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String s, final String s2)
-    public void setPrefix(final String s, final String s2)
-    public void setPrefix(final String s, final String s2)
-    public void setPrefix(final String s, final String s2)
+    '''returns None\n\n
+    setPrefix(final String s, final String s2)\n
+    setPrefix(final String s, final String s2)\n
+    setPrefix(final String s, final String s2)\n
+    setPrefix(final String s, final String s2)\n
     '''
 def setDefaultNamespace():
-    '''public void setDefaultNamespace(final String defaultNamespace)
-    public void setDefaultNamespace(final String s)
-    public void setDefaultNamespace(final String s)
-    public void setDefaultNamespace(final String defaultNamespace)
+    '''returns None\n\n
+    setDefaultNamespace(final String defaultNamespace)\n
+    setDefaultNamespace(final String s)\n
+    setDefaultNamespace(final String s)\n
+    setDefaultNamespace(final String defaultNamespace)\n
     '''
 def setNamespaceContext():
-    '''public void setNamespaceContext(final NamespaceContext namespaceContext)
-    public void setNamespaceContext(final NamespaceContext namespaceContext)
-    public void setNamespaceContext(final NamespaceContext namespaceContext)
-    public void setNamespaceContext(final NamespaceContext namespaceContext)
+    '''returns None\n\n
+    setNamespaceContext(final NamespaceContext namespaceContext)\n
+    setNamespaceContext(final NamespaceContext namespaceContext)\n
+    setNamespaceContext(final NamespaceContext namespaceContext)\n
+    setNamespaceContext(final NamespaceContext namespaceContext)\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
-    public NamespaceContext getNamespaceContext()
-    public NamespaceContext getNamespaceContext()
-    public NamespaceContext getNamespaceContext()
-    '''
-def XMLStreamWriterTracer():
-    '''public XMLStreamWriterTracer(final XMLStreamWriter xmlStreamWriter, final boolean b)
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
+    getNamespaceContext()\n
+    getNamespaceContext()\n
+    getNamespaceContext()\n
     '''
 def writeStAXProfile():
-    '''public void writeStAXProfile(final String s)
+    '''returns None\n\n
+    writeStAXProfile(final String s)\n
     '''
 def writeReadableProfile():
-    '''public void writeReadableProfile(final String s)
+    '''returns None\n\n
+    writeReadableProfile(final String s)\n
     '''

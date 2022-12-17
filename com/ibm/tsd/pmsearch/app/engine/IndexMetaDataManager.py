@@ -1,15 +1,16 @@
-def IndexMetaDataManager():
-    '''public IndexMetaDataManager(final String indexDir, final Collection<String> objects)
+def ():
+    '''returns IndexMetaDataManager\n\n
+    (final String indexDir, final Collection<String> objects)\n
     '''
 def existMetaData():
-    '''public boolean existMetaData()
+    '''returns boolean\n\n
+    existMetaData()\n
     '''
 def getFields():
-    '''public String[] getFields(final String object)
-    '''
-def getAllObjectsFields():
-    '''public Map<String, String[]> getAllObjectsFields()
+    '''returns String[]\n\n
+    getFields(final String object)\n
     '''
 def createUpdateMetaData():
-    '''public void createUpdateMetaData(final Map<String, ObjectFields> objectToFieldsMap, final IndexWriter writer)
+    '''returns None\n\n
+    createUpdateMetaData(final Map<String, ObjectFields> objectToFieldsMap, final IndexWriter writer)\n
     '''

@@ -1,18 +1,24 @@
-def MaxViewColumnCfg():
-    '''public MaxViewColumnCfg(final MboSet ms)
+def ():
+    '''returns MaxViewColumnCfg\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getCurrentViewColumn():
-    '''public MboRemote getCurrentViewColumn()
+    '''returns MboRemote\n\n
+    getCurrentViewColumn()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

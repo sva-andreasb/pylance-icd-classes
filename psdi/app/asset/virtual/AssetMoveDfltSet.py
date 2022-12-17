@@ -1,30 +1,40 @@
-def AssetMoveDfltSet():
-    '''public AssetMoveDfltSet(final MboServerInterface ms)
+def ():
+    '''returns AssetMoveDfltSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setAsyncProcess():
-    '''public MboRemote setAsyncProcess()
+    '''returns MboRemote\n\n
+    setAsyncProcess()\n
     '''
 def takeObjectSnapshot():
-    '''public void takeObjectSnapshot(final String jobnum)
+    '''returns None\n\n
+    takeObjectSnapshot(final String jobnum)\n
     '''
 def takeRelatedObjectSnapShot():
-    '''public void takeRelatedObjectSnapShot(final String jobnum, final MboSetRemote ObjectSet, final String ObjectName, final String Relationship)
+    '''returns None\n\n
+    takeRelatedObjectSnapShot(final String jobnum, final MboSetRemote ObjectSet, final String ObjectName, final String Relationship)\n
     '''
 def getParameters():
-    '''public ArrayList<String[]> getParameters()
+    '''returns ArrayList<String[]>\n\n
+    getParameters()\n
     '''
 def setAssetMoveSet():
-    '''public void setAssetMoveSet(final AssetSetRemote AssetSet)
+    '''returns None\n\n
+    setAssetMoveSet(final AssetSetRemote AssetSet)\n
     '''
 def setAssetMoveUserCustodianSet():
-    '''public void setAssetMoveUserCustodianSet(final MboSetRemote AssetLocUserCustSet)
+    '''returns None\n\n
+    setAssetMoveUserCustodianSet(final MboSetRemote AssetLocUserCustSet)\n
     '''
 def setAssetMoveAttrsSet():
-    '''public void setAssetMoveAttrsSet(final MboSetRemote AttributeSet)
+    '''returns None\n\n
+    setAssetMoveAttrsSet(final MboSetRemote AttributeSet)\n
     '''
 def setAssetMovePersonGroupsSet():
-    '''public void setAssetMovePersonGroupsSet(final MboSetRemote PersonGroupSet)
+    '''returns None\n\n
+    setAssetMovePersonGroupsSet(final MboSetRemote PersonGroupSet)\n
     '''

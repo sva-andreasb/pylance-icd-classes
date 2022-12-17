@@ -1,12 +1,16 @@
-def CdmAttribute():
-    '''public CdmAttribute(final String className, final String attributeName)
+def ():
+    '''returns CdmAttribute\n\n
+    (final String className, final String attributeName)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

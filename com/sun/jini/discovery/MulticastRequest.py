@@ -1,18 +1,24 @@
-def MulticastRequest():
-    '''public MulticastRequest(final String host, final int n, String[] array, ServiceID[] array2)
+def ():
+    '''returns MulticastRequest\n\n
+    (final String host, final int n, String[] array, ServiceID[] array2)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getGroups():
-    '''public String[] getGroups()
+    '''returns String[]\n\n
+    getGroups()\n
     '''
 def getServiceIDs():
-    '''public ServiceID[] getServiceIDs()
+    '''returns ServiceID[]\n\n
+    getServiceIDs()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

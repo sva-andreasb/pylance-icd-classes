@@ -1,9 +1,11 @@
-def RegexFileFilter():
-    '''public RegexFileFilter(final String pattern)
-    public RegexFileFilter(final String pattern, final IOCase caseSensitivity)
-    public RegexFileFilter(final String pattern, final int flags)
-    public RegexFileFilter(final Pattern pattern)
+def ():
+    '''returns RegexFileFilter\n\n
+    (final String pattern)\n
+    (final String pattern, final IOCase caseSensitivity)\n
+    (final String pattern, final int flags)\n
+    (final Pattern pattern)\n
     '''
 def accept():
-    '''public boolean accept(final File dir, final String name)
+    '''returns boolean\n\n
+    accept(final File dir, final String name)\n
     '''

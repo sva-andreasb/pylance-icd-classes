@@ -1,6 +1,8 @@
-def ResourceIDPredicate():
-    '''public ResourceIDPredicate(final String id)
+def ():
+    '''returns ResourceIDPredicate\n\n
+    (final String id)\n
     '''
 def test():
-    '''public boolean test(final IlvResource in)
+    '''returns boolean\n\n
+    test(final IlvResource in)\n
     '''

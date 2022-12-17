@@ -1,4 +1,5 @@
-def StringHolder():
-    '''public StringHolder()
-    public StringHolder(final String value)
+def ():
+    '''returns StringHolder\n\n
+    ()\n
+    (final String myString)\n
     '''

@@ -1,9 +1,12 @@
-def FixedRecvByteBufAllocator():
-    '''public FixedRecvByteBufAllocator(final int bufferSize)
+def ():
+    '''returns FixedRecvByteBufAllocator\n\n
+    (final int bufferSize)\n
     '''
 def respectMaybeMoreData():
-    '''public FixedRecvByteBufAllocator respectMaybeMoreData(final boolean respectMaybeMoreData)
+    '''returns FixedRecvByteBufAllocator\n\n
+    respectMaybeMoreData(final boolean respectMaybeMoreData)\n
     '''
 def guess():
-    '''public int guess()
+    '''returns int\n\n
+    guess()\n
     '''

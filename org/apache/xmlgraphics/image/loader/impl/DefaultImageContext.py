@@ -1,6 +1,8 @@
-def DefaultImageContext():
-    '''public DefaultImageContext()
+def ():
+    '''returns DefaultImageContext\n\n
+    ()\n
     '''
 def getSourceResolution():
-    '''public float getSourceResolution()
+    '''returns float\n\n
+    getSourceResolution()\n
     '''

@@ -1,81 +1,80 @@
 DEFAULT_LOG_NAME = "String  \"maximo.service.PMCFGLCSVC\""
 def getIdString():
-    '''public String getIdString()
+    '''returns String\n\n
+    getIdString()\n
     '''
 def setIdString():
-    '''public void setIdString(final String idString)
+    '''returns None\n\n
+    setIdString(final String idString)\n
     '''
-def PmCfgLogger():
-    '''public PmCfgLogger(final Class cls, final String logName)
-    public PmCfgLogger(final Class cls)
-    public PmCfgLogger(final Class cls, final MXLogger logger)
-    '''
-def isDebugEnabled():
-    '''public final boolean isDebugEnabled()
-    '''
-def isInfoEnabled():
-    '''public final boolean isInfoEnabled()
-    '''
-def isWarnEnabled():
-    '''public final boolean isWarnEnabled()
-    '''
-def isErrorEnabled():
-    '''public final boolean isErrorEnabled()
-    '''
-def isFatalEnabled():
-    '''public final boolean isFatalEnabled()
+def ():
+    '''returns PmCfgLogger\n\n
+    (final Class cls, final String logName)\n
+    (final Class cls)\n
+    (final Class cls, final MXLogger logger)\n
     '''
 def logException():
-    '''public void logException(final Throwable exc)
+    '''returns None\n\n
+    logException(final Throwable exc)\n
     '''
 def debug():
-    '''public void debug(final Object... msgs)
+    '''returns None\n\n
+    debug(final Object... msgs)\n
     '''
 def debugExc():
-    '''public void debugExc(String msg, final Throwable exc)
+    '''returns None\n\n
+    debugExc(String msg, final Throwable exc)\n
     '''
 def enter():
-    '''public void enter(final String method, final Object... args)
+    '''returns None\n\n
+    enter(final String method, final Object... args)\n
     '''
 def argsToString():
-    '''public String argsToString(final Object[] args)
+    '''returns String\n\n
+    argsToString(final Object[] args)\n
     '''
 def exit():
-    '''public <T> T exit(final T returnVal)
-    public void exit()
-    '''
-def throwExc():
-    '''public <T extends Throwable> void throwExc(final T exc)
+    '''returns None\n\n
+    exit()\n
     '''
 def warn():
-    '''public void warn(String msg)
-    public void warn(final String msg, final Throwable exc)
+    '''returns None\n\n
+    warn(String msg)\n
+    warn(final String msg, final Throwable exc)\n
     '''
 def error():
-    '''public void error(String msg)
-    public void error(final String msg, final Throwable exc)
+    '''returns None\n\n
+    error(String msg)\n
+    error(final String msg, final Throwable exc)\n
     '''
 def fatal():
-    '''public void fatal(String msg)
-    public void fatal(final String msg, final Throwable exc)
+    '''returns None\n\n
+    fatal(String msg)\n
+    fatal(final String msg, final Throwable exc)\n
     '''
 def info():
-    '''public void info(String msg)
-    public void info(String msg, final Throwable exc)
+    '''returns None\n\n
+    info(String msg)\n
+    info(String msg, final Throwable exc)\n
     '''
 def getLogClass():
-    '''public Class getLogClass()
+    '''returns Class\n\n
+    getLogClass()\n
     '''
 def setLogger():
-    '''public void setLogger(final String logName)
-    public void setLogger(final MXLogger logger)
+    '''returns None\n\n
+    setLogger(final String logName)\n
+    setLogger(final MXLogger logger)\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def setMethod():
-    '''public void setMethod(final String method)
+    '''returns None\n\n
+    setMethod(final String method)\n
     '''

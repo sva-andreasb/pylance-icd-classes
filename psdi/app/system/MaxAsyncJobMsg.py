@@ -1,3 +1,4 @@
-def MaxAsyncJobMsg():
-    '''public MaxAsyncJobMsg(final MboSet ms)
+def ():
+    '''returns MaxAsyncJobMsg\n\n
+    (final MboSet ms)\n
     '''

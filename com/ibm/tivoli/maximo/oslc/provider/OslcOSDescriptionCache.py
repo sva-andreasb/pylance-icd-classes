@@ -1,15 +1,12 @@
-def getInstance():
-    '''public static final OslcOSDescriptionCache getInstance()
-    '''
-def getDescMap():
-    '''public Map<String, Map<String, String>> getDescMap()
-    '''
 def getDescForOS():
-    '''public String getDescForOS(final String osName, final UserInfo userInfo)
+    '''returns String\n\n
+    getDescForOS(final String osName, final UserInfo userInfo)\n
     '''
 def reload():
-    '''public void reload()
+    '''returns None\n\n
+    reload()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

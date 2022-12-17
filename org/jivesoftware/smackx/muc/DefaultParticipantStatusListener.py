@@ -1,45 +1,60 @@
 def joined():
-    '''public void joined(final EntityFullJid participant)
+    '''returns None\n\n
+    joined(final EntityFullJid participant)\n
     '''
 def left():
-    '''public void left(final EntityFullJid participant)
+    '''returns None\n\n
+    left(final EntityFullJid participant)\n
     '''
 def kicked():
-    '''public void kicked(final EntityFullJid participant, final Jid actor, final String reason)
+    '''returns None\n\n
+    kicked(final EntityFullJid participant, final Jid actor, final String reason)\n
     '''
 def voiceGranted():
-    '''public void voiceGranted(final EntityFullJid participant)
+    '''returns None\n\n
+    voiceGranted(final EntityFullJid participant)\n
     '''
 def voiceRevoked():
-    '''public void voiceRevoked(final EntityFullJid participant)
+    '''returns None\n\n
+    voiceRevoked(final EntityFullJid participant)\n
     '''
 def banned():
-    '''public void banned(final EntityFullJid participant, final Jid actor, final String reason)
+    '''returns None\n\n
+    banned(final EntityFullJid participant, final Jid actor, final String reason)\n
     '''
 def membershipGranted():
-    '''public void membershipGranted(final EntityFullJid participant)
+    '''returns None\n\n
+    membershipGranted(final EntityFullJid participant)\n
     '''
 def membershipRevoked():
-    '''public void membershipRevoked(final EntityFullJid participant)
+    '''returns None\n\n
+    membershipRevoked(final EntityFullJid participant)\n
     '''
 def moderatorGranted():
-    '''public void moderatorGranted(final EntityFullJid participant)
+    '''returns None\n\n
+    moderatorGranted(final EntityFullJid participant)\n
     '''
 def moderatorRevoked():
-    '''public void moderatorRevoked(final EntityFullJid participant)
+    '''returns None\n\n
+    moderatorRevoked(final EntityFullJid participant)\n
     '''
 def ownershipGranted():
-    '''public void ownershipGranted(final EntityFullJid participant)
+    '''returns None\n\n
+    ownershipGranted(final EntityFullJid participant)\n
     '''
 def ownershipRevoked():
-    '''public void ownershipRevoked(final EntityFullJid participant)
+    '''returns None\n\n
+    ownershipRevoked(final EntityFullJid participant)\n
     '''
 def adminGranted():
-    '''public void adminGranted(final EntityFullJid participant)
+    '''returns None\n\n
+    adminGranted(final EntityFullJid participant)\n
     '''
 def adminRevoked():
-    '''public void adminRevoked(final EntityFullJid participant)
+    '''returns None\n\n
+    adminRevoked(final EntityFullJid participant)\n
     '''
 def nicknameChanged():
-    '''public void nicknameChanged(final EntityFullJid participant, final Resourcepart newNickname)
+    '''returns None\n\n
+    nicknameChanged(final EntityFullJid participant, final Resourcepart newNickname)\n
     '''

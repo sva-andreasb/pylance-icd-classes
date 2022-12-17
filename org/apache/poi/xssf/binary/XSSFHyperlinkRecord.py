@@ -1,21 +1,28 @@
 def getRelId():
-    '''public String getRelId()
+    '''returns String\n\n
+    getRelId()\n
     '''
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''
 def getToolTip():
-    '''public String getToolTip()
+    '''returns String\n\n
+    getToolTip()\n
     '''
 def getDisplay():
-    '''public String getDisplay()
+    '''returns String\n\n
+    getDisplay()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

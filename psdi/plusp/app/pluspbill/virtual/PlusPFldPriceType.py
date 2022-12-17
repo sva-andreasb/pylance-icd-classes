@@ -1,4 +1,5 @@
-def PlusPFldPriceType():
-    '''public PlusPFldPriceType()
-    public PlusPFldPriceType(final MboValue mbv)
+def ():
+    '''returns PlusPFldPriceType\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''

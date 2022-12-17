@@ -1,15 +1,19 @@
-def ProxyClient():
-    '''public ProxyClient(final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final ConnectionConfig connectionConfig, final RequestConfig requestConfig)
-    public ProxyClient(final HttpParams params)
-    public ProxyClient(final RequestConfig requestConfig)
-    public ProxyClient()
+def ():
+    '''returns ProxyClient\n\n
+    (final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final ConnectionConfig connectionConfig, final RequestConfig requestConfig)\n
+    (final HttpParams params)\n
+    (final RequestConfig requestConfig)\n
+    ()\n
     '''
 def getParams():
-    '''public HttpParams getParams()
+    '''returns HttpParams\n\n
+    getParams()\n
     '''
 def getAuthSchemeRegistry():
-    '''public AuthSchemeRegistry getAuthSchemeRegistry()
+    '''returns AuthSchemeRegistry\n\n
+    getAuthSchemeRegistry()\n
     '''
 def tunnel():
-    '''public Socket tunnel(final HttpHost proxy, final HttpHost target, final Credentials credentials)
+    '''returns Socket\n\n
+    tunnel(final HttpHost proxy, final HttpHost target, final Credentials credentials)\n
     '''

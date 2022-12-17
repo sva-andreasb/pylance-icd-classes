@@ -1,46 +1,57 @@
-def NodeToTriplesMapFaster():
-    '''public NodeToTriplesMapFaster(final Triple.Field indexField, final Triple.Field f2, final Triple.Field f3)
+def ():
+    '''returns NotifyMe\n\n
+    (final Triple.Field indexField, final Triple.Field f2, final Triple.Field f3)\n
+    (final Object key)\n
     '''
 def add():
-    '''public boolean add(final Triple t)
+    '''returns boolean\n\n
+    add(final Triple t)\n
     '''
 def remove():
-    '''public boolean remove(final Triple t)
+    '''returns boolean\n\n
+    remove(final Triple t)\n
     '''
 def iterator():
-    '''public Iterator<Triple> iterator(final Object o, final HashCommon.NotifyEmpty container)
-    public ExtendedIterator<Triple> iterator(final Node index, final Node n2, final Node n3)
+    '''returns ExtendedIterator<Triple>\n\n
+    iterator(final Object o, final HashCommon.NotifyEmpty container)\n
+    iterator(final Node index, final Node n2, final Node n3)\n
     '''
 def contains():
-    '''public boolean contains(final Triple t)
+    '''returns boolean\n\n
+    contains(final Triple t)\n
     '''
 def containsBySameValueAs():
-    '''public boolean containsBySameValueAs(final Triple t)
+    '''returns boolean\n\n
+    containsBySameValueAs(final Triple t)\n
     '''
 def createFixedOApplyer():
-    '''public Applyer createFixedOApplyer(final ProcessedTriple Q)
+    '''returns Applyer\n\n
+    createFixedOApplyer(final ProcessedTriple Q)\n
     '''
 def applyToTriples():
-    '''public void applyToTriples(final Domain d, final Matcher m, final StageElement next)
-    public void applyToTriples(final Domain d, final Matcher m, final StageElement next)
-    public void applyToTriples(final Domain d, final Matcher m, final StageElement next)
-    public void applyToTriples(final Domain d, final Matcher m, final StageElement next)
+    '''returns None\n\n
+    applyToTriples(final Domain d, final Matcher m, final StageElement next)\n
+    applyToTriples(final Domain d, final Matcher m, final StageElement next)\n
+    applyToTriples(final Domain d, final Matcher m, final StageElement next)\n
+    applyToTriples(final Domain d, final Matcher m, final StageElement next)\n
     '''
 def createBoundOApplyer():
-    '''public Applyer createBoundOApplyer(final ProcessedTriple pt)
+    '''returns Applyer\n\n
+    createBoundOApplyer(final ProcessedTriple pt)\n
     '''
 def createBoundSApplyer():
-    '''public Applyer createBoundSApplyer(final ProcessedTriple pt)
+    '''returns Applyer\n\n
+    createBoundSApplyer(final ProcessedTriple pt)\n
     '''
 def createFixedSApplyer():
-    '''public Applyer createFixedSApplyer(final ProcessedTriple Q)
+    '''returns Applyer\n\n
+    createFixedSApplyer(final ProcessedTriple Q)\n
     '''
 def iteratorForIndexed():
-    '''public Iterator<Triple> iteratorForIndexed(final Object y)
-    '''
-def NotifyMe():
-    '''public NotifyMe(final Object key)
+    '''returns Iterator<Triple>\n\n
+    iteratorForIndexed(final Object y)\n
     '''
 def emptied():
-    '''public void emptied()
+    '''returns None\n\n
+    emptied()\n
     '''

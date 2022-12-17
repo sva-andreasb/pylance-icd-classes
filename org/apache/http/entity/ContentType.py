@@ -1,40 +1,25 @@
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def getCharset():
-    '''public Charset getCharset()
+    '''returns Charset\n\n
+    getCharset()\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def create():
-    '''public static ContentType create(final String mimeType, final Charset charset)
-    public static ContentType create(final String mimeType)
-    public static ContentType create(final String mimeType, final String charset)
-    public static ContentType create(final String mimeType, final NameValuePair... params)
-    '''
-def parse():
-    '''public static ContentType parse(final String s)
-    '''
-def get():
-    '''public static ContentType get(final HttpEntity entity)
-    '''
-def getLenient():
-    '''public static ContentType getLenient(final HttpEntity entity)
-    '''
-def getOrDefault():
-    '''public static ContentType getOrDefault(final HttpEntity entity)
-    '''
-def getLenientOrDefault():
-    '''public static ContentType getLenientOrDefault(final HttpEntity entity)
+    '''returns String\n\n
+    toString()\n
     '''
 def withCharset():
-    '''public ContentType withCharset(final Charset charset)
-    public ContentType withCharset(final String charset)
+    '''returns ContentType\n\n
+    withCharset(final Charset charset)\n
+    withCharset(final String charset)\n
     '''
 def withParameters():
-    '''public ContentType withParameters(final NameValuePair... params)
+    '''returns ContentType\n\n
+    withParameters(final NameValuePair... params)\n
     '''

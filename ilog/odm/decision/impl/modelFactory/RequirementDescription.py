@@ -1,13 +1,17 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def RequirementDescription():
-    '''public RequirementDescription(final Object desc, final Parameter param)
+def ():
+    '''returns RequirementDescription\n\n
+    (final Object desc, final Parameter param)\n
     '''
 def publishRequirement():
-    '''public void publishRequirement(final IloConcertController controller, final IloRequirement requirement)
+    '''returns None\n\n
+    publishRequirement(final IloConcertController controller, final IloRequirement requirement)\n
     '''
 def getDesc():
-    '''public Object getDesc()
+    '''returns Object\n\n
+    getDesc()\n
     '''
 def getParam():
-    '''public Parameter getParam()
+    '''returns Parameter\n\n
+    getParam()\n
     '''

@@ -6,62 +6,51 @@ PROCMODE_ALLCASE = "int  1"
 PROCMODE_LOWERCASE = "int  3"
 PROCMODE_MW_PROCESSING = "int  3"
 PROCMODE_MW_BUILDING = "int  4"
-def Session():
-    '''public Session(final String s)
-    public Session(final Locale locale)
+def ():
+    '''returns Session\n\n
+    (final String s)\n
+    (final Locale locale)\n
     '''
 def setBreakIteratorByLocaleString():
-    '''public void setBreakIteratorByLocaleString(final String breakIteratorByLocaleString)
+    '''returns None\n\n
+    setBreakIteratorByLocaleString(final String breakIteratorByLocaleString)\n
     '''
 def setBreakIteratorByFilename():
-    '''public void setBreakIteratorByFilename(final String breakIteratorByFilename)
+    '''returns None\n\n
+    setBreakIteratorByFilename(final String breakIteratorByFilename)\n
     '''
 def setProcessingMode():
-    '''public void setProcessingMode(final int processingMode)
+    '''returns None\n\n
+    setProcessingMode(final int processingMode)\n
     '''
 def setCaseStrictMode():
-    '''public void setCaseStrictMode(final boolean caseStrictMode)
+    '''returns None\n\n
+    setCaseStrictMode(final boolean caseStrictMode)\n
     '''
 def setGuessingMode():
-    '''public void setGuessingMode(final int guessingMode)
+    '''returns None\n\n
+    setGuessingMode(final int guessingMode)\n
     '''
 def setTransliteratorRuleByFilename():
-    '''public void setTransliteratorRuleByFilename(final String transliteratorRuleByFilename)
+    '''returns None\n\n
+    setTransliteratorRuleByFilename(final String transliteratorRuleByFilename)\n
     '''
 def setDictionaries():
-    '''public void setDictionaries(final Dictionary[] array, final Dictionary[] array2, final Dictionary[] array3)
-    public void setDictionaries(final Dictionary[] array, final Dictionary[] array2, final Dictionary[] array3, final Dictionary[] array4)
+    '''returns None\n\n
+    setDictionaries(final Dictionary[] array, final Dictionary[] array2, final Dictionary[] array3)\n
+    setDictionaries(final Dictionary[] array, final Dictionary[] array2, final Dictionary[] array3, final Dictionary[] array4)\n
     '''
 def open():
-    '''public void open(final Dictionary[] array, final int n)
-    public void open(final Dictionary[] array, final int n, final int n2, final int n3)
-    public synchronized void open(final Dictionary[] array, final int n, final int n2, final int n3, final int sessionType)
-    public void open(final int n, final int n2, final int n3)
-    '''
-def processText():
-    '''public synchronized LPS processText(final String text)
-    public synchronized LPS processText(final CharacterIterator characterIterator)
-    public synchronized void processText(final CharacterIterator characterIterator, final ParsingStream parsingStream)
-    public synchronized void processText(final CharacterIterator characterIterator, final LemmaParsingStream lemmaParsingStream)
-    public synchronized void processText(final CharacterIterator characterIterator, final ClassificationParsingStream classificationParsingStream)
-    '''
-def delayProcessedText():
-    '''public synchronized void delayProcessedText(final CharacterIterator characterIterator, final LemmaParsingStream lemmaParsingStream, final int n)
-    public synchronized void delayProcessedText(final CharacterIterator characterIterator, final LemmaParsingStream lemmaParsingStream)
-    '''
-def processTextMW():
-    '''public synchronized void processTextMW(final CharacterIterator characterIterator, final ParsingStream parsingStream)
-    public synchronized void processTextMW(final CharacterIterator characterIterator, final ClassificationParsingStream classificationParsingStream)
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns None\n\n
+    open(final Dictionary[] array, final int n)\n
+    open(final Dictionary[] array, final int n, final int n2, final int n3)\n
+    open(final int n, final int n2, final int n3)\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''
 def valid():
-    '''public boolean valid()
-    '''
-def processTextBuffered():
-    '''public synchronized void processTextBuffered(final char[] value, final int n, final int end, final ParsingStream parsingStream)
+    '''returns boolean\n\n
+    valid()\n
     '''

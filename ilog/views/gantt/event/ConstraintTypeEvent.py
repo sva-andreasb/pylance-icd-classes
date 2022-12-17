@@ -1,12 +1,16 @@
-def ConstraintTypeEvent():
-    '''public ConstraintTypeEvent(final IlvConstraint ilvConstraint, final IlvConstraintType ilvConstraintType, final IlvConstraintType ilvConstraintType2, final boolean b)
+def ():
+    '''returns ConstraintTypeEvent\n\n
+    (final IlvConstraint ilvConstraint, final IlvConstraintType ilvConstraintType, final IlvConstraintType ilvConstraintType2, final boolean b)\n
     '''
 def getOldType():
-    '''public IlvConstraintType getOldType()
+    '''returns IlvConstraintType\n\n
+    getOldType()\n
     '''
 def getNewType():
-    '''public IlvConstraintType getNewType()
+    '''returns IlvConstraintType\n\n
+    getNewType()\n
     '''
 def setNewType():
-    '''public void setNewType(final IlvConstraintType newValue)
+    '''returns None\n\n
+    setNewType(final IlvConstraintType newValue)\n
     '''

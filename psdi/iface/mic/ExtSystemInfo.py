@@ -1,48 +1,64 @@
 def getBidiConfig():
-    '''public String getBidiConfig()
+    '''returns String\n\n
+    getBidiConfig()\n
     '''
 def setBidiConfig():
-    '''public void setBidiConfig(final String config)
+    '''returns None\n\n
+    setBidiConfig(final String config)\n
     '''
 def getSystemName():
-    '''public String getSystemName()
+    '''returns String\n\n
+    getSystemName()\n
     '''
 def setSystemName():
-    '''public void setSystemName(final String n)
+    '''returns None\n\n
+    setSystemName(final String n)\n
     '''
 def setEnabled():
-    '''public void setEnabled(final int e)
+    '''returns None\n\n
+    setEnabled(final int e)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def setQueueNameOut():
-    '''public void setQueueNameOut(final String queueNameOut)
+    '''returns None\n\n
+    setQueueNameOut(final String queueNameOut)\n
     '''
 def getQueueNameOut():
-    '''public String getQueueNameOut()
+    '''returns String\n\n
+    getQueueNameOut()\n
     '''
 def setQueueNameInSeq():
-    '''public void setQueueNameInSeq(final String q)
+    '''returns None\n\n
+    setQueueNameInSeq(final String q)\n
     '''
 def getQueueNameInSeq():
-    '''public String getQueueNameInSeq()
+    '''returns String\n\n
+    getQueueNameInSeq()\n
     '''
 def setQueueNameInCont():
-    '''public void setQueueNameInCont(final String q)
+    '''returns None\n\n
+    setQueueNameInCont(final String q)\n
     '''
 def getQueueNameInCont():
-    '''public String getQueueNameInCont()
+    '''returns String\n\n
+    getQueueNameInCont()\n
     '''
 def setEndPointName():
-    '''public void setEndPointName(final String endPointName)
+    '''returns None\n\n
+    setEndPointName(final String endPointName)\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def setJMSMessageEncoding():
-    '''public void setJMSMessageEncoding(final String jmsmsgenc)
+    '''returns None\n\n
+    setJMSMessageEncoding(final String jmsmsgenc)\n
     '''
 def getJMSMessageEncoding():
-    '''public String getJMSMessageEncoding()
+    '''returns String\n\n
+    getJMSMessageEncoding()\n
     '''

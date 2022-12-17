@@ -1,48 +1,60 @@
 def getFormModel():
-    '''public IlvFormModel getFormModel()
+    '''returns IlvFormModel\n\n
+    getFormModel()\n
     '''
 def setFormModel():
-    '''public void setFormModel(final IlvFormModel a)
+    '''returns None\n\n
+    setFormModel(final IlvFormModel a)\n
     '''
 def getForm():
-    '''public IlvForm getForm()
+    '''returns IlvForm\n\n
+    getForm()\n
     '''
 def setForm():
-    '''public void setForm(final IlvForm c)
+    '''returns None\n\n
+    setForm(final IlvForm c)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def getServicesProvider():
-    '''public IlvServicesProvider getServicesProvider()
+    '''returns IlvServicesProvider\n\n
+    getServicesProvider()\n
     '''
 def setServicesProvider():
-    '''public IlvServicesProvider setServicesProvider(final IlvServicesProvider ilvServicesProvider)
+    '''returns IlvServicesProvider\n\n
+    setServicesProvider(final IlvServicesProvider ilvServicesProvider)\n
     '''
 def getEditionContext():
-    '''public IlvEditionContext getEditionContext()
+    '''returns IlvEditionContext\n\n
+    getEditionContext()\n
     '''
 def setEditionContext():
-    '''public void setEditionContext(final IlvEditionContext f)
+    '''returns None\n\n
+    setEditionContext(final IlvEditionContext f)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def addValidationError():
-    '''public void addValidationError(final IlvValidationError ilvValidationError)
+    '''returns None\n\n
+    addValidationError(final IlvValidationError ilvValidationError)\n
     '''
 def removeValidationError():
-    '''public void removeValidationError(final IlvValidationError ilvValidationError)
+    '''returns None\n\n
+    removeValidationError(final IlvValidationError ilvValidationError)\n
     '''
 def addValidationListener():
-    '''public void addValidationListener(final ValidationListener validationListener)
+    '''returns None\n\n
+    addValidationListener(final ValidationListener validationListener)\n
     '''
 def removeValidationListener():
-    '''public boolean removeValidationListener(final ValidationListener validationListener)
-    '''
-def GetFormController():
-    '''public static IlvFormController GetFormController(final IlvForm ilvForm)
+    '''returns boolean\n\n
+    removeValidationListener(final ValidationListener validationListener)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''

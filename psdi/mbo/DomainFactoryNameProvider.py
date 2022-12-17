@@ -1,6 +1,8 @@
 def getDomainFactoryName():
-    '''public String getDomainFactoryName(final String domainType)
+    '''returns String\n\n
+    getDomainFactoryName(final String domainType)\n
     '''
 def getTranslator():
-    '''public Translate getTranslator()
+    '''returns Translate\n\n
+    getTranslator()\n
     '''

@@ -2,14 +2,18 @@ EVENT_STOP_ALL = "int  0"
 EVENT_HANDLED = "int  1"
 EVENT_CONTINUE = "int  2"
 def setId():
-    '''public void setId(final String string)
+    '''returns None\n\n
+    setId(final String string)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getCreator():
-    '''public ControlInstance getCreator()
+    '''returns ControlInstance\n\n
+    getCreator()\n
     '''
 def setCreator():
-    '''public void setCreator(final ControlInstance handler)
+    '''returns None\n\n
+    setCreator(final ControlInstance handler)\n
     '''

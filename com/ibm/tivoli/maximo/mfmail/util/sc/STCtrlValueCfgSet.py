@@ -1,12 +1,16 @@
-def STCtrlValueCfgSet():
-    '''public STCtrlValueCfgSet(final MboServerInterface ms)
+def ():
+    '''returns STCtrlValueCfgSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def activate():
-    '''public void activate(final boolean isActive)
+    '''returns None\n\n
+    activate(final boolean isActive)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def undeleteAll():
-    '''public void undeleteAll()
+    '''returns None\n\n
+    undeleteAll()\n
     '''

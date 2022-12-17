@@ -1,78 +1,104 @@
 def getString():
-    '''public String getString(final ResultSet set, final int n)
+    '''returns String\n\n
+    getString(final ResultSet set, final int n)\n
     '''
 def getLong():
-    '''public long getLong(final ResultSet set, final int n)
+    '''returns long\n\n
+    getLong(final ResultSet set, final int n)\n
     '''
 def getLongObject():
-    '''public Long getLongObject(final ResultSet set, final int n)
+    '''returns Long\n\n
+    getLongObject(final ResultSet set, final int n)\n
     '''
 def getBytes():
-    '''public byte[] getBytes(final ResultSet set, final int n)
+    '''returns byte[]\n\n
+    getBytes(final ResultSet set, final int n)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final ResultSet set, final int n)
+    '''returns boolean\n\n
+    getBoolean(final ResultSet set, final int n)\n
     '''
 def getBooleanObject():
-    '''public Boolean getBooleanObject(final ResultSet set, final int n)
+    '''returns Boolean\n\n
+    getBooleanObject(final ResultSet set, final int n)\n
     '''
 def getBlob():
-    '''public Blob getBlob(final ResultSet set, final int n)
+    '''returns Blob\n\n
+    getBlob(final ResultSet set, final int n)\n
     '''
 def getClob():
-    '''public Clob getClob(final ResultSet set, final int n)
+    '''returns Clob\n\n
+    getClob(final ResultSet set, final int n)\n
     '''
 def getDate():
-    '''public Date getDate(final ResultSet set, final int n)
+    '''returns Date\n\n
+    getDate(final ResultSet set, final int n)\n
     '''
 def getBigDecimal():
-    '''public BigDecimal getBigDecimal(final ResultSet set, final int n)
+    '''returns BigDecimal\n\n
+    getBigDecimal(final ResultSet set, final int n)\n
     '''
 def getDouble():
-    '''public double getDouble(final ResultSet set, final int n)
+    '''returns double\n\n
+    getDouble(final ResultSet set, final int n)\n
     '''
 def getDoubleObject():
-    '''public Double getDoubleObject(final ResultSet set, final int n)
+    '''returns Double\n\n
+    getDoubleObject(final ResultSet set, final int n)\n
     '''
 def getInt():
-    '''public int getInt(final ResultSet set, final int n)
+    '''returns int\n\n
+    getInt(final ResultSet set, final int n)\n
     '''
 def getIntObject():
-    '''public Integer getIntObject(final ResultSet set, final int n)
+    '''returns Integer\n\n
+    getIntObject(final ResultSet set, final int n)\n
     '''
 def getFloat():
-    '''public float getFloat(final ResultSet set, final int n)
+    '''returns float\n\n
+    getFloat(final ResultSet set, final int n)\n
     '''
 def getFloatObject():
-    '''public Float getFloatObject(final ResultSet set, final int n)
+    '''returns Float\n\n
+    getFloatObject(final ResultSet set, final int n)\n
     '''
 def getShort():
-    '''public short getShort(final ResultSet set, final int n)
+    '''returns short\n\n
+    getShort(final ResultSet set, final int n)\n
     '''
 def getShortObject():
-    '''public Short getShortObject(final ResultSet set, final int n)
+    '''returns Short\n\n
+    getShortObject(final ResultSet set, final int n)\n
     '''
 def getTime():
-    '''public Time getTime(final ResultSet set, final int n)
+    '''returns Time\n\n
+    getTime(final ResultSet set, final int n)\n
     '''
 def getTimestamp():
-    '''public Timestamp getTimestamp(final ResultSet set, final int n)
+    '''returns Timestamp\n\n
+    getTimestamp(final ResultSet set, final int n)\n
     '''
 def getDBTimestamp():
-    '''public DBTimestamp getDBTimestamp(final ResultSet set, final int n)
+    '''returns DBTimestamp\n\n
+    getDBTimestamp(final ResultSet set, final int n)\n
     '''
 def getByte():
-    '''public byte getByte(final ResultSet set, final int n)
+    '''returns byte\n\n
+    getByte(final ResultSet set, final int n)\n
     '''
 def getByteObject():
-    '''public Byte getByteObject(final ResultSet set, final int n)
+    '''returns Byte\n\n
+    getByteObject(final ResultSet set, final int n)\n
     '''
 def getObject():
-    '''public Object getObject(final ResultSet set, final int n)
+    '''returns Object\n\n
+    getObject(final ResultSet set, final int n)\n
     '''
 def getBinaryStream():
-    '''public InputStream getBinaryStream(final ResultSet set, final int n)
+    '''returns InputStream\n\n
+    getBinaryStream(final ResultSet set, final int n)\n
     '''
 def getCharacterStream():
-    '''public Reader getCharacterStream(final ResultSet set, final int n)
+    '''returns Reader\n\n
+    getCharacterStream(final ResultSet set, final int n)\n
     '''

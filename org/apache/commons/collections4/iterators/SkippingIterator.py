@@ -1,9 +1,12 @@
-def SkippingIterator():
-    '''public SkippingIterator(final Iterator<E> iterator, final long offset)
+def ():
+    '''returns SkippingIterator\n\n
+    (final Iterator<E> iterator, final long offset)\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

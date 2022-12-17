@@ -1,4 +1,5 @@
-def CommandValidationException():
-    '''public CommandValidationException(final String msg)
-    public CommandValidationException(final Throwable th, final String msg)
+def ():
+    '''returns CommandValidationException\n\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
     '''

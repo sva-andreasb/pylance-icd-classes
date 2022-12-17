@@ -1,9 +1,11 @@
 METHOD_NAME = "String  \"HEAD\""
-def HttpHead():
-    '''public HttpHead()
-    public HttpHead(final URI uri)
-    public HttpHead(final String uri)
+def ():
+    '''returns HttpHead\n\n
+    ()\n
+    (final URI uri)\n
+    (final String uri)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''

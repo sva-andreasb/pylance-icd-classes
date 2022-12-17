@@ -1,9 +1,12 @@
-def URIResolverAdapter():
-    '''public URIResolverAdapter(final URIResolver resolver)
+def ():
+    '''returns URIResolverAdapter\n\n
+    (final URIResolver resolver)\n
     '''
 def getResource():
-    '''public Resource getResource(final URI uri)
+    '''returns Resource\n\n
+    getResource(final URI uri)\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream(final URI uri)
+    '''returns OutputStream\n\n
+    getOutputStream(final URI uri)\n
     '''

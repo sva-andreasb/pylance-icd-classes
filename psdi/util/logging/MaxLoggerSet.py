@@ -1,3 +1,4 @@
-def MaxLoggerSet():
-    '''public MaxLoggerSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLoggerSet\n\n
+    (final MboServerInterface ms)\n
     '''

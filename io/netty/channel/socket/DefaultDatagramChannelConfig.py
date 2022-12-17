@@ -1,96 +1,120 @@
-def DefaultDatagramChannelConfig():
-    '''public DefaultDatagramChannelConfig(final DatagramChannel channel, final DatagramSocket javaSocket)
-    '''
-def getOption():
-    '''public <T> T getOption(final ChannelOption<T> option)
-    '''
-def setOption():
-    '''public <T> boolean setOption(final ChannelOption<T> option, final T value)
+def ():
+    '''returns DefaultDatagramChannelConfig\n\n
+    (final DatagramChannel channel, final DatagramSocket javaSocket)\n
     '''
 def isBroadcast():
-    '''public boolean isBroadcast()
+    '''returns boolean\n\n
+    isBroadcast()\n
     '''
 def setBroadcast():
-    '''public DatagramChannelConfig setBroadcast(final boolean broadcast)
+    '''returns DatagramChannelConfig\n\n
+    setBroadcast(final boolean broadcast)\n
     '''
 def getInterface():
-    '''public InetAddress getInterface()
+    '''returns InetAddress\n\n
+    getInterface()\n
     '''
 def setInterface():
-    '''public DatagramChannelConfig setInterface(final InetAddress interfaceAddress)
+    '''returns DatagramChannelConfig\n\n
+    setInterface(final InetAddress interfaceAddress)\n
     '''
 def isLoopbackModeDisabled():
-    '''public boolean isLoopbackModeDisabled()
+    '''returns boolean\n\n
+    isLoopbackModeDisabled()\n
     '''
 def setLoopbackModeDisabled():
-    '''public DatagramChannelConfig setLoopbackModeDisabled(final boolean loopbackModeDisabled)
+    '''returns DatagramChannelConfig\n\n
+    setLoopbackModeDisabled(final boolean loopbackModeDisabled)\n
     '''
 def getNetworkInterface():
-    '''public NetworkInterface getNetworkInterface()
+    '''returns NetworkInterface\n\n
+    getNetworkInterface()\n
     '''
 def setNetworkInterface():
-    '''public DatagramChannelConfig setNetworkInterface(final NetworkInterface networkInterface)
+    '''returns DatagramChannelConfig\n\n
+    setNetworkInterface(final NetworkInterface networkInterface)\n
     '''
 def isReuseAddress():
-    '''public boolean isReuseAddress()
+    '''returns boolean\n\n
+    isReuseAddress()\n
     '''
 def setReuseAddress():
-    '''public DatagramChannelConfig setReuseAddress(final boolean reuseAddress)
+    '''returns DatagramChannelConfig\n\n
+    setReuseAddress(final boolean reuseAddress)\n
     '''
 def getReceiveBufferSize():
-    '''public int getReceiveBufferSize()
+    '''returns int\n\n
+    getReceiveBufferSize()\n
     '''
 def setReceiveBufferSize():
-    '''public DatagramChannelConfig setReceiveBufferSize(final int receiveBufferSize)
+    '''returns DatagramChannelConfig\n\n
+    setReceiveBufferSize(final int receiveBufferSize)\n
     '''
 def getSendBufferSize():
-    '''public int getSendBufferSize()
+    '''returns int\n\n
+    getSendBufferSize()\n
     '''
 def setSendBufferSize():
-    '''public DatagramChannelConfig setSendBufferSize(final int sendBufferSize)
+    '''returns DatagramChannelConfig\n\n
+    setSendBufferSize(final int sendBufferSize)\n
     '''
 def getTimeToLive():
-    '''public int getTimeToLive()
+    '''returns int\n\n
+    getTimeToLive()\n
     '''
 def setTimeToLive():
-    '''public DatagramChannelConfig setTimeToLive(final int ttl)
+    '''returns DatagramChannelConfig\n\n
+    setTimeToLive(final int ttl)\n
     '''
 def getTrafficClass():
-    '''public int getTrafficClass()
+    '''returns int\n\n
+    getTrafficClass()\n
     '''
 def setTrafficClass():
-    '''public DatagramChannelConfig setTrafficClass(final int trafficClass)
+    '''returns DatagramChannelConfig\n\n
+    setTrafficClass(final int trafficClass)\n
     '''
 def setWriteSpinCount():
-    '''public DatagramChannelConfig setWriteSpinCount(final int writeSpinCount)
+    '''returns DatagramChannelConfig\n\n
+    setWriteSpinCount(final int writeSpinCount)\n
     '''
 def setConnectTimeoutMillis():
-    '''public DatagramChannelConfig setConnectTimeoutMillis(final int connectTimeoutMillis)
+    '''returns DatagramChannelConfig\n\n
+    setConnectTimeoutMillis(final int connectTimeoutMillis)\n
     '''
 def setMaxMessagesPerRead():
-    '''public DatagramChannelConfig setMaxMessagesPerRead(final int maxMessagesPerRead)
+    '''returns DatagramChannelConfig\n\n
+    setMaxMessagesPerRead(final int maxMessagesPerRead)\n
     '''
 def setAllocator():
-    '''public DatagramChannelConfig setAllocator(final ByteBufAllocator allocator)
+    '''returns DatagramChannelConfig\n\n
+    setAllocator(final ByteBufAllocator allocator)\n
     '''
 def setRecvByteBufAllocator():
-    '''public DatagramChannelConfig setRecvByteBufAllocator(final RecvByteBufAllocator allocator)
+    '''returns DatagramChannelConfig\n\n
+    setRecvByteBufAllocator(final RecvByteBufAllocator allocator)\n
     '''
 def setAutoRead():
-    '''public DatagramChannelConfig setAutoRead(final boolean autoRead)
+    '''returns DatagramChannelConfig\n\n
+    setAutoRead(final boolean autoRead)\n
     '''
 def setAutoClose():
-    '''public DatagramChannelConfig setAutoClose(final boolean autoClose)
+    '''returns DatagramChannelConfig\n\n
+    setAutoClose(final boolean autoClose)\n
     '''
 def setWriteBufferHighWaterMark():
-    '''public DatagramChannelConfig setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)
+    '''returns DatagramChannelConfig\n\n
+    setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)\n
     '''
 def setWriteBufferLowWaterMark():
-    '''public DatagramChannelConfig setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)
+    '''returns DatagramChannelConfig\n\n
+    setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)\n
     '''
 def setWriteBufferWaterMark():
-    '''public DatagramChannelConfig setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)
+    '''returns DatagramChannelConfig\n\n
+    setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)\n
     '''
 def setMessageSizeEstimator():
-    '''public DatagramChannelConfig setMessageSizeEstimator(final MessageSizeEstimator estimator)
+    '''returns DatagramChannelConfig\n\n
+    setMessageSizeEstimator(final MessageSizeEstimator estimator)\n
     '''

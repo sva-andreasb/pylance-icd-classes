@@ -1,6 +1,8 @@
-def FldPersonCalIsPrimary():
-    '''public FldPersonCalIsPrimary(final MboValue mbv)
+def ():
+    '''returns FldPersonCalIsPrimary\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

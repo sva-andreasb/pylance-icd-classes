@@ -1,4 +1,5 @@
-def PlusCFldClass():
-    '''public PlusCFldClass()
-    public PlusCFldClass(final MboValue mbv)
+def ():
+    '''returns PlusCFldClass\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''

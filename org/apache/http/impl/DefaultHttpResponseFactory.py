@@ -1,8 +1,10 @@
-def DefaultHttpResponseFactory():
-    '''public DefaultHttpResponseFactory(final ReasonPhraseCatalog catalog)
-    public DefaultHttpResponseFactory()
+def ():
+    '''returns DefaultHttpResponseFactory\n\n
+    (final ReasonPhraseCatalog catalog)\n
+    ()\n
     '''
 def newHttpResponse():
-    '''public HttpResponse newHttpResponse(final ProtocolVersion ver, final int status, final HttpContext context)
-    public HttpResponse newHttpResponse(final StatusLine statusline, final HttpContext context)
+    '''returns HttpResponse\n\n
+    newHttpResponse(final ProtocolVersion ver, final int status, final HttpContext context)\n
+    newHttpResponse(final StatusLine statusline, final HttpContext context)\n
     '''

@@ -1,30 +1,40 @@
 def setExtSysName():
-    '''public void setExtSysName(final String extSysName)
+    '''returns None\n\n
+    setExtSysName(final String extSysName)\n
     '''
 def getExtSysName():
-    '''public String getExtSysName()
+    '''returns String\n\n
+    getExtSysName()\n
     '''
 def getInterface():
-    '''public String getInterface()
+    '''returns String\n\n
+    getInterface()\n
     '''
 def setInterface():
-    '''public void setInterface(final String e)
+    '''returns None\n\n
+    setInterface(final String e)\n
     '''
 def getIntegrationService():
-    '''public List<EnterpriseServiceInfo> getIntegrationService()
+    '''returns List<EnterpriseServiceInfo>\n\n
+    getIntegrationService()\n
     '''
 def setIntegrationService():
-    '''public void setIntegrationService(final List<EnterpriseServiceInfo> e)
+    '''returns None\n\n
+    setIntegrationService(final List<EnterpriseServiceInfo> e)\n
     '''
 def setEnabled():
-    '''public void setEnabled(final int e)
+    '''returns None\n\n
+    setEnabled(final int e)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def isContinuous():
-    '''public boolean isContinuous()
+    '''returns boolean\n\n
+    isContinuous()\n
     '''
 def setIsContinuous():
-    '''public void setIsContinuous(final int e)
+    '''returns None\n\n
+    setIsContinuous(final int e)\n
     '''

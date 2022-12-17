@@ -1,12 +1,16 @@
 def before():
-    '''public void before()
+    '''returns None\n\n
+    before()\n
     '''
-def OmemoInitializationTest():
-    '''public OmemoInitializationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns OmemoInitializationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def initializationTest():
-    '''public void initializationTest()
+    '''returns None\n\n
+    initializationTest()\n
     '''
 def after():
-    '''public void after()
+    '''returns None\n\n
+    after()\n
     '''

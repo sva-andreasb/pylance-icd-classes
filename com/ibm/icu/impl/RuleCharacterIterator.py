@@ -2,36 +2,47 @@ DONE = "int  -1"
 PARSE_VARIABLES = "int  1"
 PARSE_ESCAPES = "int  2"
 SKIP_WHITESPACE = "int  4"
-def RuleCharacterIterator():
-    '''public RuleCharacterIterator(final String text, final SymbolTable sym, final ParsePosition pos)
+def ():
+    '''returns RuleCharacterIterator\n\n
+    (final String text, final SymbolTable sym, final ParsePosition pos)\n
     '''
 def atEnd():
-    '''public boolean atEnd()
+    '''returns boolean\n\n
+    atEnd()\n
     '''
 def next():
-    '''public int next(final int options)
+    '''returns int\n\n
+    next(final int options)\n
     '''
 def isEscaped():
-    '''public boolean isEscaped()
+    '''returns boolean\n\n
+    isEscaped()\n
     '''
 def inVariable():
-    '''public boolean inVariable()
+    '''returns boolean\n\n
+    inVariable()\n
     '''
 def getPos():
-    '''public Object getPos(final Object p)
+    '''returns Object\n\n
+    getPos(final Object p)\n
     '''
 def setPos():
-    '''public void setPos(final Object p)
+    '''returns None\n\n
+    setPos(final Object p)\n
     '''
 def skipIgnored():
-    '''public void skipIgnored(final int options)
+    '''returns None\n\n
+    skipIgnored(final int options)\n
     '''
 def lookahead():
-    '''public String lookahead()
+    '''returns String\n\n
+    lookahead()\n
     '''
 def jumpahead():
-    '''public void jumpahead(final int count)
+    '''returns None\n\n
+    jumpahead(final int count)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

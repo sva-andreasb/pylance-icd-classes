@@ -1,9 +1,12 @@
-def ConfigurableFTPFileEntryParserImpl():
-    '''public ConfigurableFTPFileEntryParserImpl(final String regex)
+def ():
+    '''returns ConfigurableFTPFileEntryParserImpl\n\n
+    (final String regex)\n
     '''
 def parseTimestamp():
-    '''public Calendar parseTimestamp(final String timestampStr)
+    '''returns Calendar\n\n
+    parseTimestamp(final String timestampStr)\n
     '''
 def configure():
-    '''public void configure(final FTPClientConfig config)
+    '''returns None\n\n
+    configure(final FTPClientConfig config)\n
     '''

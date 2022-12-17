@@ -1,15 +1,20 @@
-def FldJpAssetSpLinkItemnum():
-    '''public FldJpAssetSpLinkItemnum(final MboValue mbv)
+def ():
+    '''returns FldJpAssetSpLinkItemnum\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def buildListCriteria():
-    '''public String buildListCriteria()
+    '''returns String\n\n
+    buildListCriteria()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

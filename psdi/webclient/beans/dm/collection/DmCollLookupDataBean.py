@@ -1,3 +1,4 @@
 def showrecords():
-    '''public int showrecords()
+    '''returns int\n\n
+    showrecords()\n
     '''

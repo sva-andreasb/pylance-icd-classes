@@ -1,18 +1,20 @@
-def PmSolutionAppBean():
-    '''public PmSolutionAppBean()
+def ():
+    '''returns PmSolutionAppBean\n\n
+    ()\n
     '''
 def applyRTF():
-    '''public void applyRTF(final String val, final String fld, final int option)
-    '''
-def getConditionalProperties():
-    '''public HashMap<String, String> getConditionalProperties(final int row, final String sigOption)
+    '''returns None\n\n
+    applyRTF(final String val, final String fld, final int option)\n
     '''
 def OWNERSHIP():
-    '''public int OWNERSHIP()
+    '''returns int\n\n
+    OWNERSHIP()\n
     '''
 def OWNER():
-    '''public int OWNER()
+    '''returns int\n\n
+    OWNER()\n
     '''
 def openranksolution():
-    '''public void openranksolution()
+    '''returns None\n\n
+    openranksolution()\n
     '''

@@ -1,3 +1,4 @@
 def build():
-    '''public FuzzyQuery build(final QueryNode queryNode)
+    '''returns FuzzyQuery\n\n
+    build(final QueryNode queryNode)\n
     '''

@@ -1,6 +1,8 @@
 def setCookieInfo():
-    '''public void setCookieInfo(final String str, final String s)
+    '''returns None\n\n
+    setCookieInfo(final String str, final String s)\n
     '''
 def getCookieInfo():
-    '''public String getCookieInfo(final String str)
+    '''returns String\n\n
+    getCookieInfo(final String str)\n
     '''

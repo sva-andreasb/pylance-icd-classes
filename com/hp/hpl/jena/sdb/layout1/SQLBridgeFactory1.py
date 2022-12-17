@@ -1,6 +1,8 @@
-def SQLBridgeFactory1():
-    '''public SQLBridgeFactory1(final EncoderDecoder codec)
+def ():
+    '''returns SQLBridgeFactory1\n\n
+    (final EncoderDecoder codec)\n
     '''
 def create():
-    '''public SQLBridge create(final SDBRequest request, final SqlNode sqlNode, final List<Var> projectVars)
+    '''returns SQLBridge\n\n
+    create(final SDBRequest request, final SqlNode sqlNode, final List<Var> projectVars)\n
     '''

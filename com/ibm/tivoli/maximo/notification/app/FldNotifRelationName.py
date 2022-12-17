@@ -1,6 +1,8 @@
-def FldNotifRelationName():
-    '''public FldNotifRelationName(final MboValue mbv)
+def ():
+    '''returns FldNotifRelationName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

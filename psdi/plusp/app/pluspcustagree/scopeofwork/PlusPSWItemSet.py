@@ -1,3 +1,4 @@
-def PlusPSWItemSet():
-    '''public PlusPSWItemSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPSWItemSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,4 +1,5 @@
-def InvalidRegistrationKeyException():
-    '''public InvalidRegistrationKeyException()
-    public InvalidRegistrationKeyException(final String message)
+def ():
+    '''returns InvalidRegistrationKeyException\n\n
+    ()\n
+    (final String message)\n
     '''

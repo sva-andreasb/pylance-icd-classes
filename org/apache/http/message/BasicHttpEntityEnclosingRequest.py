@@ -1,14 +1,18 @@
-def BasicHttpEntityEnclosingRequest():
-    '''public BasicHttpEntityEnclosingRequest(final String method, final String uri)
-    public BasicHttpEntityEnclosingRequest(final String method, final String uri, final ProtocolVersion ver)
-    public BasicHttpEntityEnclosingRequest(final RequestLine requestline)
+def ():
+    '''returns BasicHttpEntityEnclosingRequest\n\n
+    (final String method, final String uri)\n
+    (final String method, final String uri, final ProtocolVersion ver)\n
+    (final RequestLine requestline)\n
     '''
 def getEntity():
-    '''public HttpEntity getEntity()
+    '''returns HttpEntity\n\n
+    getEntity()\n
     '''
 def setEntity():
-    '''public void setEntity(final HttpEntity entity)
+    '''returns None\n\n
+    setEntity(final HttpEntity entity)\n
     '''
 def expectContinue():
-    '''public boolean expectContinue()
+    '''returns boolean\n\n
+    expectContinue()\n
     '''

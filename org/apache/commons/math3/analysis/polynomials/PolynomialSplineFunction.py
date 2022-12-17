@@ -1,25 +1,33 @@
-def PolynomialSplineFunction():
-    '''public PolynomialSplineFunction(final double[] knots, final PolynomialFunction[] polynomials)
+def ():
+    '''returns PolynomialSplineFunction\n\n
+    (final double[] knots, final PolynomialFunction[] polynomials)\n
     '''
 def value():
-    '''public double value(final double v)
-    public DerivativeStructure value(final DerivativeStructure t)
+    '''returns DerivativeStructure\n\n
+    value(final double v)\n
+    value(final DerivativeStructure t)\n
     '''
 def derivative():
-    '''public UnivariateFunction derivative()
+    '''returns UnivariateFunction\n\n
+    derivative()\n
     '''
 def polynomialSplineDerivative():
-    '''public PolynomialSplineFunction polynomialSplineDerivative()
+    '''returns PolynomialSplineFunction\n\n
+    polynomialSplineDerivative()\n
     '''
 def getN():
-    '''public int getN()
+    '''returns int\n\n
+    getN()\n
     '''
 def getPolynomials():
-    '''public PolynomialFunction[] getPolynomials()
+    '''returns PolynomialFunction[]\n\n
+    getPolynomials()\n
     '''
 def getKnots():
-    '''public double[] getKnots()
+    '''returns double[]\n\n
+    getKnots()\n
     '''
 def isValidPoint():
-    '''public boolean isValidPoint(final double x)
+    '''returns boolean\n\n
+    isValidPoint(final double x)\n
     '''

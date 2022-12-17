@@ -1,9 +1,12 @@
 def getList():
-    '''public SelectiveStatusList getList()
+    '''returns SelectiveStatusList\n\n
+    getList()\n
     '''
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def getListId():
-    '''public String getListId()
+    '''returns String\n\n
+    getListId()\n
     '''

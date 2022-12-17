@@ -1,3 +1,4 @@
-def MessageHubPropSet():
-    '''public MessageHubPropSet(final MboServerInterface ms)
+def ():
+    '''returns MessageHubPropSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,12 +1,16 @@
-def BaseFileLoaderImpl():
-    '''public BaseFileLoaderImpl(final boolean preview, final boolean fromClient, final boolean isFileExtract, final String fileName)
+def ():
+    '''returns BaseFileLoaderImpl\n\n
+    (final boolean preview, final boolean fromClient, final boolean isFileExtract, final String fileName)\n
     '''
 def setStopOnError():
-    '''public void setStopOnError(final boolean stopOnError)
+    '''returns None\n\n
+    setStopOnError(final boolean stopOnError)\n
     '''
 def setImportRow():
-    '''public void setImportRow(final MboRemote fileimportqueueRow)
+    '''returns None\n\n
+    setImportRow(final MboRemote fileimportqueueRow)\n
     '''
 def processData():
-    '''public void processData(final InputStream btIn, final String extSystemName, final String entServiceName, final boolean fromClient)
+    '''returns None\n\n
+    processData(final InputStream btIn, final String extSystemName, final String entServiceName, final boolean fromClient)\n
     '''

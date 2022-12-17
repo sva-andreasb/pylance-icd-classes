@@ -1,6 +1,8 @@
-def LASTORE():
-    '''public LASTORE()
+def ():
+    '''returns LASTORE\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

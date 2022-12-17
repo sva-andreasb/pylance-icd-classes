@@ -1,15 +1,18 @@
-def OK():
-    '''public OK(final String s)
-    public OK(final String s, final m m)
-    public OK(final String[] array)
-    public OK(final String[] array, final m m)
-    public OK(final List<String> list)
-    public OK(final List<String> list, final m m)
+def ():
+    '''returns OK\n\n
+    (final String s)\n
+    (final String s, final m m)\n
+    (final String[] array)\n
+    (final String[] array, final m m)\n
+    (final List<String> list)\n
+    (final List<String> list, final m m)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File file, final String name)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File file, final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

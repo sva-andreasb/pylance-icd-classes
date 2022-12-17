@@ -1,36 +1,38 @@
-def ArgParser():
-    '''public ArgParser(final String[] args, final String[] argList)
-    public ArgParser(final String[] args, final String[] argList, final boolean allArgParams)
-    public ArgParser(final String[] args, final String[] argList, boolean[] argParams)
+def ():
+    '''returns ArgParser\n\n
+    (final String[] args, final String[] argList)\n
+    (final String[] args, final String[] argList, final boolean allArgParams)\n
+    (final String[] args, final String[] argList, boolean[] argParams)\n
     '''
 def getArg():
-    '''public String getArg(final String argToGet)
+    '''returns String\n\n
+    getArg(final String argToGet)\n
     '''
 def getArgExists():
-    '''public boolean getArgExists(final String argToGet)
+    '''returns boolean\n\n
+    getArgExists(final String argToGet)\n
     '''
 def isExtraArgs():
-    '''public boolean isExtraArgs()
+    '''returns boolean\n\n
+    isExtraArgs()\n
     '''
 def getExtraArgs():
-    '''public Hashtable getExtraArgs()
+    '''returns Hashtable\n\n
+    getExtraArgs()\n
     '''
 def getArgumentWords():
-    '''public Vector getArgumentWords()
+    '''returns Vector\n\n
+    getArgumentWords()\n
     '''
 def getArgumentWordCount():
-    '''public int getArgumentWordCount()
+    '''returns int\n\n
+    getArgumentWordCount()\n
     '''
 def getArgumentWord():
-    '''public String getArgumentWord(final int position)
+    '''returns String\n\n
+    getArgumentWord(final int position)\n
     '''
 def getArgumentCount():
-    '''public int getArgumentCount()
-    '''
-def tokenize():
-    '''public static String[] tokenize(final String in)
-    public static String[] tokenize(String in, final boolean includeCmd)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns int\n\n
+    getArgumentCount()\n
     '''

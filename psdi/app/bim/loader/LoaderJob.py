@@ -1,30 +1,40 @@
-def LoaderJob():
-    '''public LoaderJob(final ModelLoaderBase loader)
+def ():
+    '''returns LoaderJob\n\n
+    (final ModelLoaderBase loader)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemJOB job, final MboSetRemote jobPlanSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemJOB job, final MboSetRemote jobPlanSet)\n
     '''
 def addItem():
-    '''public MboRemote addItem(final ItemJOB job, final MboSetRemote jobPlanSet)
+    '''returns MboRemote\n\n
+    addItem(final ItemJOB job, final MboSetRemote jobPlanSet)\n
     '''
 def set():
-    '''public void set(final MboRemote mbo, final ItemJOB job)
+    '''returns None\n\n
+    set(final MboRemote mbo, final ItemJOB job)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo, final ItemJOB job)
+    '''returns None\n\n
+    update(final MboRemote mbo, final ItemJOB job)\n
     '''
 def validateItem():
-    '''public void validateItem(final ItemJOB job, final MboSetRemote mboSet)
+    '''returns None\n\n
+    validateItem(final ItemJOB job, final MboSetRemote mboSet)\n
     '''
 def addAttributeValues():
-    '''public int addAttributeValues(final MboRemote jobMbo, final ItemJOB job)
+    '''returns int\n\n
+    addAttributeValues(final MboRemote jobMbo, final ItemJOB job)\n
     '''
 def convertDurationToHours():
-    '''public double convertDurationToHours(final String duration, final int units, final ItemJOB job)
+    '''returns double\n\n
+    convertDurationToHours(final String duration, final int units, final ItemJOB job)\n
     '''

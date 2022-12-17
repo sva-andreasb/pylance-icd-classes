@@ -1,6 +1,8 @@
 def installExtension():
-    '''public boolean installExtension(final ExtensionInfo extensionInfo, final ExtensionInfo extensionInfo2)
+    '''returns boolean\n\n
+    installExtension(final ExtensionInfo extensionInfo, final ExtensionInfo extensionInfo2)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

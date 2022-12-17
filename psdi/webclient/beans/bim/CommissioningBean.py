@@ -4,15 +4,19 @@ CTRL_COMM_CANCEL_BTN = "String  \"commission_cancel\""
 CTRL_COMM_CLOSE_BTN = "String  \"commission_close\""
 CTRL_COMM_TAB_GROUP = "String  \"commission_tabs\""
 CTRL_COMM_LOG_TAB = "String  \"commission_log_tab\""
-def CommissioningBean():
-    '''public CommissioningBean()
+def ():
+    '''returns CommissioningBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def commission():
-    '''public int commission()
+    '''returns int\n\n
+    commission()\n
     '''
 def refreshLogs():
-    '''public int refreshLogs()
+    '''returns int\n\n
+    refreshLogs()\n
     '''

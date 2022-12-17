@@ -1,18 +1,24 @@
-def PoolStats():
-    '''public PoolStats(final int leased, final int pending, final int free, final int max)
+def ():
+    '''returns PoolStats\n\n
+    (final int leased, final int pending, final int free, final int max)\n
     '''
 def getLeased():
-    '''public int getLeased()
+    '''returns int\n\n
+    getLeased()\n
     '''
 def getPending():
-    '''public int getPending()
+    '''returns int\n\n
+    getPending()\n
     '''
 def getAvailable():
-    '''public int getAvailable()
+    '''returns int\n\n
+    getAvailable()\n
     '''
 def getMax():
-    '''public int getMax()
+    '''returns int\n\n
+    getMax()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

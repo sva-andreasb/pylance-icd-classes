@@ -1,3 +1,4 @@
-def FldMapTipSigOption():
-    '''public FldMapTipSigOption(final MboValue mbv)
+def ():
+    '''returns FldMapTipSigOption\n\n
+    (final MboValue mbv)\n
     '''

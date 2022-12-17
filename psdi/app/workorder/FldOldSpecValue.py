@@ -1,9 +1,12 @@
-def FldOldSpecValue():
-    '''public FldOldSpecValue(final MboValue mbv)
+def ():
+    '''returns FldOldSpecValue\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def removeZeroes():
-    '''public String removeZeroes(final String val)
+    '''returns String\n\n
+    removeZeroes(final String val)\n
     '''

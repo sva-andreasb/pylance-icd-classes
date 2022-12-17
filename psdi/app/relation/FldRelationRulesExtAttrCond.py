@@ -1,6 +1,8 @@
-def FldRelationRulesExtAttrCond():
-    '''public FldRelationRulesExtAttrCond(final MboValue mbv)
+def ():
+    '''returns FldRelationRulesExtAttrCond\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

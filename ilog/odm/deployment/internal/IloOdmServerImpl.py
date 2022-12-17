@@ -1,47 +1,58 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def checkConnection():
-    '''public ConnectionInfo checkConnection()
-    public long checkConnection(final boolean checkDB)
+    '''returns long\n\n
+    checkConnection()\n
+    checkConnection(final boolean checkDB)\n
     '''
 def getDeployedApplicationsKeys():
-    '''public Set<IloOdmApplicationKey> getDeployedApplicationsKeys()
+    '''returns Set<IloOdmApplicationKey>\n\n
+    getDeployedApplicationsKeys()\n
     '''
 def uninstall():
-    '''public void uninstall(final IloOdmApplicationKey appDesc)
-    '''
-def getParameters():
-    '''public Map<String, String> getParameters(final IloOdmApplicationKey appDesc)
+    '''returns None\n\n
+    uninstall(final IloOdmApplicationKey appDesc)\n
     '''
 def setParameters():
-    '''public void setParameters(final IloOdmApplicationKey appDesc, final Map<String, String> parameters)
+    '''returns None\n\n
+    setParameters(final IloOdmApplicationKey appDesc, final Map<String, String> parameters)\n
     '''
 def exportApplication():
-    '''public IloOdmApplication exportApplication(final IloOdmApplicationKey appDesc)
+    '''returns IloOdmApplication\n\n
+    exportApplication(final IloOdmApplicationKey appDesc)\n
     '''
 def getCredentials():
-    '''public IloCredential getCredentials()
+    '''returns IloCredential\n\n
+    getCredentials()\n
     '''
 def getTrustManager():
-    '''public X509TrustManager getTrustManager()
+    '''returns X509TrustManager\n\n
+    getTrustManager()\n
     '''
-def DeploymentManager():
-    '''public DeploymentManager()
+def ():
+    '''returns DeploymentManager\n\n
+    ()\n
     '''
 def deploy():
-    '''public String deploy(final IloDeploymentArchive deploymentArchive)
+    '''returns String\n\n
+    deploy(final IloDeploymentArchive deploymentArchive)\n
     '''
 def isDeployed():
-    '''public boolean isDeployed(final String archiveChecksum)
+    '''returns boolean\n\n
+    isDeployed(final String archiveChecksum)\n
     '''
 def getODMApplicationsKeys():
-    '''public Set<IloOdmApplicationKey> getODMApplicationsKeys()
+    '''returns Set<IloOdmApplicationKey>\n\n
+    getODMApplicationsKeys()\n
     '''
 def undeploy():
-    '''public void undeploy(final IloOdmApplicationKey appDesc)
+    '''returns None\n\n
+    undeploy(final IloOdmApplicationKey appDesc)\n
     '''
 def getServerNanoTime():
-    '''public long getServerNanoTime()
+    '''returns long\n\n
+    getServerNanoTime()\n
     '''

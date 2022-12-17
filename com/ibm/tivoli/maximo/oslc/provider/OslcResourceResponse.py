@@ -1,92 +1,112 @@
-def OslcResourceResponse():
-    '''public OslcResourceResponse()
-    public OslcResourceResponse(final JSONArray jsonArray)
-    public OslcResourceResponse(final JSONObject jsonObject, final String resourceURI)
-    public OslcResourceResponse(final JSONObject jsonObject)
-    public OslcResourceResponse(final byte[] resourceData, final String mimeType, final String resourceURI)
-    public OslcResourceResponse(final InputStream resourceDataStream, final String mimeType, final String resourceURI, final File fileToDelete)
-    public OslcResourceResponse(final byte[] resourceData, final String mimeType, final int maxAge, final String eTag)
-    public OslcResourceResponse(final byte[] resourceData, final String mimeType)
-    public OslcResourceResponse(final byte[] resourceData, final String mimeType, final String resourceURI, final boolean disableCache, final int maxAge, final String eTag)
+def ():
+    '''returns OslcResourceResponse\n\n
+    ()\n
+    (final JSONArray jsonArray)\n
+    (final JSONObject jsonObject, final String resourceURI)\n
+    (final JSONObject jsonObject)\n
+    (final byte[] resourceData, final String mimeType, final String resourceURI)\n
+    (final InputStream resourceDataStream, final String mimeType, final String resourceURI, final File fileToDelete)\n
+    (final byte[] resourceData, final String mimeType, final int maxAge, final String eTag)\n
+    (final byte[] resourceData, final String mimeType)\n
+    (final byte[] resourceData, final String mimeType, final String resourceURI, final boolean disableCache, final int maxAge, final String eTag)\n
     '''
 def setMimeTypeJSON():
-    '''public void setMimeTypeJSON()
+    '''returns None\n\n
+    setMimeTypeJSON()\n
     '''
 def setMaxAge():
-    '''public void setMaxAge(final int age)
+    '''returns None\n\n
+    setMaxAge(final int age)\n
     '''
 def setETag():
-    '''public void setETag(final String etag)
+    '''returns None\n\n
+    setETag(final String etag)\n
     '''
 def setETagWithVary():
-    '''public void setETagWithVary(final String etag)
+    '''returns None\n\n
+    setETagWithVary(final String etag)\n
     '''
 def setMaxAgeWithVary():
-    '''public void setMaxAgeWithVary(final int age)
+    '''returns None\n\n
+    setMaxAgeWithVary(final int age)\n
     '''
 def setLocation():
-    '''public void setLocation(final String uri)
+    '''returns None\n\n
+    setLocation(final String uri)\n
     '''
 def hasLocationHeader():
-    '''public boolean hasLocationHeader()
+    '''returns boolean\n\n
+    hasLocationHeader()\n
     '''
 def addCookie():
-    '''public void addCookie(final String cookie, final String value)
+    '''returns None\n\n
+    addCookie(final String cookie, final String value)\n
     '''
 def setCookies():
-    '''public void setCookies(final Map<String, String> respCookies)
-    '''
-def getCookies():
-    '''public Map<String, String> getCookies()
+    '''returns None\n\n
+    setCookies(final Map<String, String> respCookies)\n
     '''
 def getJSONData():
-    '''public JSONArtifact getJSONData()
-    '''
-def getHeaders():
-    '''public Map<String, String> getHeaders()
+    '''returns JSONArtifact\n\n
+    getJSONData()\n
     '''
 def setHeaders():
-    '''public void setHeaders(final Map<String, String> headers)
+    '''returns None\n\n
+    setHeaders(final Map<String, String> headers)\n
     '''
 def getResponseCode():
-    '''public int getResponseCode()
+    '''returns int\n\n
+    getResponseCode()\n
     '''
 def setResponseCode():
-    '''public void setResponseCode(final int responseCode)
+    '''returns None\n\n
+    setResponseCode(final int responseCode)\n
     '''
 def addHeader():
-    '''public void addHeader(final String header, final String value)
+    '''returns None\n\n
+    addHeader(final String header, final String value)\n
     '''
 def setResourceNotModifed():
-    '''public void setResourceNotModifed()
+    '''returns None\n\n
+    setResourceNotModifed()\n
     '''
 def isResourceModified():
-    '''public boolean isResourceModified()
+    '''returns boolean\n\n
+    isResourceModified()\n
     '''
 def getResourceData():
-    '''public byte[] getResourceData()
+    '''returns byte[]\n\n
+    getResourceData()\n
     '''
 def getResourceStream():
-    '''public InputStream getResourceStream()
+    '''returns InputStream\n\n
+    getResourceStream()\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def getResourceURI():
-    '''public String getResourceURI()
+    '''returns String\n\n
+    getResourceURI()\n
     '''
 def isDisableCache():
-    '''public boolean isDisableCache()
+    '''returns boolean\n\n
+    isDisableCache()\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def getMaxAge():
-    '''public int getMaxAge()
+    '''returns int\n\n
+    getMaxAge()\n
     '''
 def setContentDisposition():
-    '''public void setContentDisposition(final String disp)
+    '''returns None\n\n
+    setContentDisposition(final String disp)\n
     '''
 def getFileToDelete():
-    '''public File getFileToDelete()
+    '''returns File\n\n
+    getFileToDelete()\n
     '''

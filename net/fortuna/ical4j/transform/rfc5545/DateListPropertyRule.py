@@ -1,6 +1,8 @@
 def applyTo():
-    '''public void applyTo(final DateListProperty element)
+    '''returns None\n\n
+    applyTo(final DateListProperty element)\n
     '''
 def getSupportedType():
-    '''public Class<DateListProperty> getSupportedType()
+    '''returns Class<DateListProperty>\n\n
+    getSupportedType()\n
     '''

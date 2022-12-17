@@ -1,6 +1,8 @@
-def ZTriggerCleanup():
-    '''public ZTriggerCleanup(final List<String> zTriggerList, final Connection con)
+def ():
+    '''returns ZTriggerCleanup\n\n
+    (final List<String> zTriggerList, final Connection con)\n
     '''
 def doRepair():
-    '''public void doRepair()
+    '''returns None\n\n
+    doRepair()\n
     '''

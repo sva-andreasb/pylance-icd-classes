@@ -1,15 +1,20 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def readResolve():
-    '''public Object readResolve()
+    '''returns Object\n\n
+    readResolve()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def isValue():
-    '''public boolean isValue(final Object o)
+    '''returns boolean\n\n
+    isValue(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

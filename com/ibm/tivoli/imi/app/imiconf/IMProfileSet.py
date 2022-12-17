@@ -1,3 +1,4 @@
-def IMProfileSet():
-    '''public IMProfileSet(final MboServerInterface ms)
+def ():
+    '''returns IMProfileSet\n\n
+    (final MboServerInterface ms)\n
     '''

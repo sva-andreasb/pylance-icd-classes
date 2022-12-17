@@ -1,15 +1,20 @@
-def ProcessingInstructionImpl():
-    '''public ProcessingInstructionImpl(final CoreDocumentImpl coreDocumentImpl, final String target, final String s)
+def ():
+    '''returns ProcessingInstructionImpl\n\n
+    (final CoreDocumentImpl coreDocumentImpl, final String target, final String s)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def getBaseURI():
-    '''public String getBaseURI()
+    '''returns String\n\n
+    getBaseURI()\n
     '''

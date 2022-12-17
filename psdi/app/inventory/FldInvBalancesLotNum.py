@@ -1,13 +1,17 @@
-def FldInvBalancesLotNum():
-    '''public FldInvBalancesLotNum(final MboValue mbv)
-    public FldInvBalancesLotNum(final MboValue mbv, final String itemnum, final String location)
+def ():
+    '''returns FldInvBalancesLotNum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String itemnum, final String location)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

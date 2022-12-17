@@ -1,6 +1,8 @@
 def addStatementEventListener():
-    '''public void addStatementEventListener(final StatementEventListener listener)
+    '''returns None\n\n
+    addStatementEventListener(final StatementEventListener listener)\n
     '''
 def removeStatementEventListener():
-    '''public void removeStatementEventListener(final StatementEventListener listener)
+    '''returns None\n\n
+    removeStatementEventListener(final StatementEventListener listener)\n
     '''

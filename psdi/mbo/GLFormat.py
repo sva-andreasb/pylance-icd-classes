@@ -1,59 +1,73 @@
-def GLFormat():
-    '''public GLFormat(final String value, final boolean full, final String orgId)
-    public GLFormat(final String value, final String orgId)
-    public GLFormat(final String value, final boolean full)
-    public GLFormat(final String value)
-    public GLFormat(final String[] segs)
-    public GLFormat(final String[] segs, final String orgId)
+def ():
+    '''returns GLFormat\n\n
+    (final String value, final boolean full, final String orgId)\n
+    (final String value, final String orgId)\n
+    (final String value, final boolean full)\n
+    (final String value)\n
+    (final String[] segs)\n
+    (final String[] segs, final String orgId)\n
     '''
 def getSegments():
-    '''public String[] getSegments()
+    '''returns String[]\n\n
+    getSegments()\n
     '''
 def segmentPlaceHolder():
-    '''public String segmentPlaceHolder(final int segno)
+    '''returns String\n\n
+    segmentPlaceHolder(final int segno)\n
     '''
 def checkType():
-    '''public String checkType(final int segno, String val)
+    '''returns String\n\n
+    checkType(final int segno, String val)\n
     '''
 def toQueryString():
-    '''public String toQueryString()
+    '''returns String\n\n
+    toQueryString()\n
     '''
 def toDisplayString():
-    '''public String toDisplayString()
+    '''returns String\n\n
+    toDisplayString()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toStorageString():
-    '''public String toStorageString()
+    '''returns String\n\n
+    toStorageString()\n
     '''
 def mergeString():
-    '''public void mergeString(final String val)
+    '''returns None\n\n
+    mergeString(final String val)\n
     '''
 def getSegmentCount():
-    '''public int getSegmentCount()
+    '''returns int\n\n
+    getSegmentCount()\n
     '''
 def getSegmentName():
-    '''public String getSegmentName(final int segno)
+    '''returns String\n\n
+    getSegmentName(final int segno)\n
     '''
 def getSegmentLength():
-    '''public int getSegmentLength(final int segno)
+    '''returns int\n\n
+    getSegmentLength(final int segno)\n
     '''
 def getSegmentType():
-    '''public int getSegmentType(final int segno)
+    '''returns int\n\n
+    getSegmentType(final int segno)\n
     '''
 def isSegmentRequired():
-    '''public boolean isSegmentRequired(final int segno)
+    '''returns boolean\n\n
+    isSegmentRequired(final int segno)\n
     '''
 def getScreenDelimiter():
-    '''public char getScreenDelimiter(final int segno)
+    '''returns char\n\n
+    getScreenDelimiter(final int segno)\n
     '''
 def getPlaceHolder():
-    '''public String getPlaceHolder()
+    '''returns String\n\n
+    getPlaceHolder()\n
     '''
 def isFullySpecified():
-    '''public boolean isFullySpecified()
-    '''
-def getPropertyAsBoolean():
-    '''public static boolean getPropertyAsBoolean(final Connection con, final String name)
+    '''returns boolean\n\n
+    isFullySpecified()\n
     '''

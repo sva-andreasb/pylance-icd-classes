@@ -1,0 +1,5 @@
+ACC_BRIDGE = "int  64"
+ACC_VARARGS = "int  128"
+RUNTIME_LEVEL_12 = "String  \"1.2\""
+RUNTIME_LEVEL_15 = "String  \"1.5\""
+RUNTIME_LEVEL_DEFAULT = "String  \"1.5\""

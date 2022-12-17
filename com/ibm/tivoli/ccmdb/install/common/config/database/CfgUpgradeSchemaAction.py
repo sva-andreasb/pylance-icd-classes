@@ -1,15 +1,12 @@
 def existsAndIsConfigured():
-    '''public boolean existsAndIsConfigured()
+    '''returns boolean\n\n
+    existsAndIsConfigured()\n
     '''
 def performAction():
-    '''public TaskResult performAction()
+    '''returns TaskResult\n\n
+    performAction()\n
     '''
 def undoAction():
-    '''public TaskResult undoAction()
-    '''
-def getInstance():
-    '''public static ICfgConfigurationAction getInstance()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns TaskResult\n\n
+    undoAction()\n
     '''

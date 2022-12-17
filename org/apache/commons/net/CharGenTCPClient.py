@@ -3,9 +3,11 @@ NETSTAT_PORT = "int  15"
 QUOTE_OF_DAY_PORT = "int  17"
 CHARGEN_PORT = "int  19"
 DEFAULT_PORT = "int  19"
-def CharGenTCPClient():
-    '''public CharGenTCPClient()
+def ():
+    '''returns CharGenTCPClient\n\n
+    ()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''

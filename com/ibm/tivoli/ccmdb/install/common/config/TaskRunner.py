@@ -1,34 +1,28 @@
-def getInstance():
-    '''public static TaskRunner getInstance()
-    public static TaskRunner getInstance(final CfgTaskRunnerRestartEnum startType)
-    '''
 def addTask():
-    '''public void addTask(final Task task)
+    '''returns None\n\n
+    addTask(final Task task)\n
     '''
 def removeTask():
-    '''public void removeTask(final Task task)
+    '''returns None\n\n
+    removeTask(final Task task)\n
     '''
 def setStopOnError():
-    '''public void setStopOnError(final boolean flag)
+    '''returns None\n\n
+    setStopOnError(final boolean flag)\n
     '''
 def stopProcessingTasks():
-    '''public Task stopProcessingTasks()
-    '''
-def runSingleTask():
-    '''public synchronized Task runSingleTask(final Task task)
-    '''
-def runTaskList():
-    '''public synchronized List<Task> runTaskList()
+    '''returns Task\n\n
+    stopProcessingTasks()\n
     '''
 def getTaskList():
-    '''public List<Task> getTaskList()
+    '''returns List<Task>\n\n
+    getTaskList()\n
     '''
 def resetTaskStore():
-    '''public void resetTaskStore()
+    '''returns None\n\n
+    resetTaskStore()\n
     '''
 def resetTaskList():
-    '''public void resetTaskList()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    resetTaskList()\n
     '''

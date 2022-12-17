@@ -1,6 +1,8 @@
-def FldLocSystemNetwork():
-    '''public FldLocSystemNetwork(final MboValue mbv)
+def ():
+    '''returns FldLocSystemNetwork\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

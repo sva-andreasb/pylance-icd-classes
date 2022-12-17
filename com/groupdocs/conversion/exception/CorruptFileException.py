@@ -1,4 +1,5 @@
-def CorruptFileException():
-    '''public CorruptFileException(final String fileName)
-    public CorruptFileException(final String fileName, final Throwable cause)
+def ():
+    '''returns CorruptFileException\n\n
+    (final String fileName)\n
+    (final String fileName, final Throwable cause)\n
     '''

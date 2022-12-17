@@ -1,49 +1,47 @@
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getReadTimeout():
-    '''public int getReadTimeout()
+    '''returns int\n\n
+    getReadTimeout()\n
     '''
 def setReadTimeout():
-    '''public void setReadTimeout(final int timeout)
+    '''returns None\n\n
+    setReadTimeout(final int timeout)\n
     '''
 def isCloseBothStreamsEnabled():
-    '''public boolean isCloseBothStreamsEnabled()
+    '''returns boolean\n\n
+    isCloseBothStreamsEnabled()\n
     '''
 def setCloseBothStreamsEnabled():
-    '''public void setCloseBothStreamsEnabled(final boolean closeBothStreamsEnabled)
+    '''returns None\n\n
+    setCloseBothStreamsEnabled(final boolean closeBothStreamsEnabled)\n
     '''
 def close():
-    '''public void close()
-    public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
+    close()\n
     '''
 def processIQPacket():
-    '''public void processIQPacket(final Data data)
-    '''
-def read():
-    '''public synchronized int read()
-    public synchronized int read(final byte[] b, final int off, int len)
-    public synchronized int read(final byte[] b)
+    '''returns None\n\n
+    processIQPacket(final Data data)\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
     '''
 def accept():
-    '''public boolean accept(final Stanza packet)
-    '''
-def write():
-    '''public synchronized void write(final int b)
-    public synchronized void write(final byte[] b, final int off, final int len)
-    public synchronized void write(final byte[] b)
-    '''
-def flush():
-    '''public synchronized void flush()
+    '''returns boolean\n\n
+    accept(final Stanza packet)\n
     '''

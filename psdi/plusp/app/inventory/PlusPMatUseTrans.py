@@ -1,18 +1,24 @@
-def PlusPMatUseTrans():
-    '''public PlusPMatUseTrans(final MboSet arg0)
+def ():
+    '''returns PlusPMatUseTrans\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def updateActualMatUsePrice():
-    '''public void updateActualMatUsePrice()
+    '''returns None\n\n
+    updateActualMatUsePrice()\n
     '''
 def updatePrice():
-    '''public void updatePrice()
+    '''returns None\n\n
+    updatePrice()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

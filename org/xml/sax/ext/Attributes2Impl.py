@@ -1,29 +1,37 @@
-def Attributes2Impl():
-    '''public Attributes2Impl()
-    public Attributes2Impl(final Attributes attributes)
+def ():
+    '''returns Attributes2Impl\n\n
+    ()\n
+    (final Attributes attributes)\n
     '''
 def isDeclared():
-    '''public boolean isDeclared(final int i)
-    public boolean isDeclared(final String str, final String str2)
-    public boolean isDeclared(final String str)
+    '''returns boolean\n\n
+    isDeclared(final int i)\n
+    isDeclared(final String str, final String str2)\n
+    isDeclared(final String str)\n
     '''
 def isSpecified():
-    '''public boolean isSpecified(final int i)
-    public boolean isSpecified(final String str, final String str2)
-    public boolean isSpecified(final String str)
+    '''returns boolean\n\n
+    isSpecified(final int i)\n
+    isSpecified(final String str, final String str2)\n
+    isSpecified(final String str)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final Attributes attributes)
+    '''returns None\n\n
+    setAttributes(final Attributes attributes)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String s, final String s2, final String s3, final String anObject, final String s4)
+    '''returns None\n\n
+    addAttribute(final String s, final String s2, final String s3, final String anObject, final String s4)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final int n)
+    '''returns None\n\n
+    removeAttribute(final int n)\n
     '''
 def setDeclared():
-    '''public void setDeclared(final int i, final boolean b)
+    '''returns None\n\n
+    setDeclared(final int i, final boolean b)\n
     '''
 def setSpecified():
-    '''public void setSpecified(final int i, final boolean b)
+    '''returns None\n\n
+    setSpecified(final int i, final boolean b)\n
     '''

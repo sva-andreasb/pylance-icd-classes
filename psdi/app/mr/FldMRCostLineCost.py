@@ -1,6 +1,8 @@
-def FldMRCostLineCost():
-    '''public FldMRCostLineCost(final MboValue mbv)
+def ():
+    '''returns FldMRCostLineCost\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

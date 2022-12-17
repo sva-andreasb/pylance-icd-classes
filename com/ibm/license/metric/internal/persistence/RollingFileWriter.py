@@ -1,15 +1,20 @@
-def RollingFileWriter():
-    '''public RollingFileWriter(final String fileBaseName, final String fileExtension, final File parentDir, final int maxFileNumber, final int maxFileSize, final String charset, final String fileBeginningSection)
+def ():
+    '''returns RollingFileWriter\n\n
+    (final String fileBaseName, final String fileExtension, final File parentDir, final int maxFileNumber, final int maxFileSize, final String charset, final String fileBeginningSection)\n
     '''
 def write():
-    '''public void write(final String text)
+    '''returns None\n\n
+    write(final String text)\n
     '''
 def setParentDir():
-    '''public void setParentDir(final File parentDir)
+    '''returns None\n\n
+    setParentDir(final File parentDir)\n
     '''
 def setMaxFileNumber():
-    '''public void setMaxFileNumber(final int maxFileNumber)
+    '''returns None\n\n
+    setMaxFileNumber(final int maxFileNumber)\n
     '''
 def setMaxFileSize():
-    '''public void setMaxFileSize(final int maxFileSize)
+    '''returns None\n\n
+    setMaxFileSize(final int maxFileSize)\n
     '''

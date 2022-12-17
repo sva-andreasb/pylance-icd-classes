@@ -1,42 +1,28 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def ApiVersionsResponse():
-    '''public ApiVersionsResponse(final Errors error, final List<ApiVersion> apiVersions)
-    public ApiVersionsResponse(final int throttleTimeMs, final Errors error, final List<ApiVersion> apiVersions)
-    public ApiVersionsResponse(final Struct struct)
-    '''
-def apiVersionsResponse():
-    '''public static ApiVersionsResponse apiVersionsResponse(final int throttleTimeMs, final byte maxMagic)
+def ():
+    '''returns ApiVersion\n\n
+    (final Errors error, final List<ApiVersion> apiVersions)\n
+    (final int throttleTimeMs, final Errors error, final List<ApiVersion> apiVersions)\n
+    (final Struct struct)\n
+    (final ApiKeys apiKey)\n
+    (final short apiKey, final short minVersion, final short maxVersion)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def apiVersions():
-    '''public Collection<ApiVersion> apiVersions()
+    '''returns Collection<ApiVersion>\n\n
+    apiVersions()\n
     '''
 def apiVersion():
-    '''public ApiVersion apiVersion(final short apiKey)
+    '''returns ApiVersion\n\n
+    apiVersion(final short apiKey)\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static ApiVersionsResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def createApiVersionsResponse():
-    '''public static ApiVersionsResponse createApiVersionsResponse(final int throttleTimeMs, final byte minMagic)
-    '''
-def defaultApiVersionsResponse():
-    '''public static ApiVersionsResponse defaultApiVersionsResponse()
-    '''
-def ApiVersion():
-    '''public ApiVersion(final ApiKeys apiKey)
-    public ApiVersion(final short apiKey, final short minVersion, final short maxVersion)
+    '''returns Errors\n\n
+    error()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

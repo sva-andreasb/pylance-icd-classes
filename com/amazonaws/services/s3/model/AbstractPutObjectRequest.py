@@ -1,114 +1,102 @@
-def AbstractPutObjectRequest():
-    '''public AbstractPutObjectRequest(final String bucketName, final String key, final File file)
-    public AbstractPutObjectRequest(final String bucketName, final String key, final String redirectLocation)
+def ():
+    '''returns AbstractPutObjectRequest\n\n
+    (final String bucketName, final String key, final File file)\n
+    (final String bucketName, final String key, final String redirectLocation)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
-    '''
-def withBucketName():
-    '''public <T extends AbstractPutObjectRequest> T withBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
-    '''
-def withKey():
-    '''public <T extends AbstractPutObjectRequest> T withKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def getStorageClass():
-    '''public String getStorageClass()
+    '''returns String\n\n
+    getStorageClass()\n
     '''
 def setStorageClass():
-    '''public void setStorageClass(final String storageClass)
-    public void setStorageClass(final StorageClass storageClass)
-    '''
-def withStorageClass():
-    '''public <T extends AbstractPutObjectRequest> T withStorageClass(final String storageClass)
-    public <T extends AbstractPutObjectRequest> T withStorageClass(final StorageClass storageClass)
+    '''returns None\n\n
+    setStorageClass(final String storageClass)\n
+    setStorageClass(final StorageClass storageClass)\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def setFile():
-    '''public void setFile(final File file)
-    '''
-def withFile():
-    '''public <T extends AbstractPutObjectRequest> T withFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def getMetadata():
-    '''public ObjectMetadata getMetadata()
+    '''returns ObjectMetadata\n\n
+    getMetadata()\n
     '''
 def setMetadata():
-    '''public void setMetadata(final ObjectMetadata metadata)
-    '''
-def withMetadata():
-    '''public <T extends AbstractPutObjectRequest> T withMetadata(final ObjectMetadata metadata)
+    '''returns None\n\n
+    setMetadata(final ObjectMetadata metadata)\n
     '''
 def getCannedAcl():
-    '''public CannedAccessControlList getCannedAcl()
+    '''returns CannedAccessControlList\n\n
+    getCannedAcl()\n
     '''
 def setCannedAcl():
-    '''public void setCannedAcl(final CannedAccessControlList cannedAcl)
-    '''
-def withCannedAcl():
-    '''public <T extends AbstractPutObjectRequest> T withCannedAcl(final CannedAccessControlList cannedAcl)
+    '''returns None\n\n
+    setCannedAcl(final CannedAccessControlList cannedAcl)\n
     '''
 def getAccessControlList():
-    '''public AccessControlList getAccessControlList()
+    '''returns AccessControlList\n\n
+    getAccessControlList()\n
     '''
 def setAccessControlList():
-    '''public void setAccessControlList(final AccessControlList accessControlList)
-    '''
-def withAccessControlList():
-    '''public <T extends AbstractPutObjectRequest> T withAccessControlList(final AccessControlList accessControlList)
+    '''returns None\n\n
+    setAccessControlList(final AccessControlList accessControlList)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def setInputStream():
-    '''public void setInputStream(final InputStream inputStream)
-    '''
-def withInputStream():
-    '''public <T extends AbstractPutObjectRequest> T withInputStream(final InputStream inputStream)
+    '''returns None\n\n
+    setInputStream(final InputStream inputStream)\n
     '''
 def setRedirectLocation():
-    '''public void setRedirectLocation(final String redirectLocation)
+    '''returns None\n\n
+    setRedirectLocation(final String redirectLocation)\n
     '''
 def getRedirectLocation():
-    '''public String getRedirectLocation()
-    '''
-def withRedirectLocation():
-    '''public <T extends AbstractPutObjectRequest> T withRedirectLocation(final String redirectLocation)
+    '''returns String\n\n
+    getRedirectLocation()\n
     '''
 def getSSECustomerKey():
-    '''public SSECustomerKey getSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getSSECustomerKey()\n
     '''
 def setSSECustomerKey():
-    '''public void setSSECustomerKey(final SSECustomerKey sseKey)
-    '''
-def withSSECustomerKey():
-    '''public <T extends AbstractPutObjectRequest> T withSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns None\n\n
+    setSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def setProgressListener():
-    '''public void setProgressListener(final ProgressListener progressListener)
+    '''returns None\n\n
+    setProgressListener(final ProgressListener progressListener)\n
     '''
 def getProgressListener():
-    '''public ProgressListener getProgressListener()
-    '''
-def withProgressListener():
-    '''public <T extends AbstractPutObjectRequest> T withProgressListener(final ProgressListener progressListener)
+    '''returns ProgressListener\n\n
+    getProgressListener()\n
     '''
 def getSSEAwsKeyManagementParams():
-    '''public SSEAwsKeyManagementParams getSSEAwsKeyManagementParams()
+    '''returns SSEAwsKeyManagementParams\n\n
+    getSSEAwsKeyManagementParams()\n
     '''
 def setSSEAwsKeyManagementParams():
-    '''public void setSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams params)
-    '''
-def withSSEAwsKeyManagementParams():
-    '''public <T extends AbstractPutObjectRequest> T withSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams sseAwsKeyManagementParams)
+    '''returns None\n\n
+    setSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams params)\n
     '''

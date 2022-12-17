@@ -1,33 +1,44 @@
-def AuthenticatedAccessToken():
-    '''public AuthenticatedAccessToken()
+def ():
+    '''returns AuthenticatedAccessToken\n\n
+    ()\n
     '''
 def getMaximoBindingName():
-    '''public String getMaximoBindingName()
+    '''returns String\n\n
+    getMaximoBindingName()\n
     '''
 def setMaximoBindingName():
-    '''public void setMaximoBindingName(final String string)
+    '''returns None\n\n
+    setMaximoBindingName(final String string)\n
     '''
 def getSessionCreationTime():
-    '''public long getSessionCreationTime()
+    '''returns long\n\n
+    getSessionCreationTime()\n
     '''
 def setSessionCreationTime():
-    '''public void setSessionCreationTime(final long l)
+    '''returns None\n\n
+    setSessionCreationTime(final long l)\n
     '''
 def getSessionData():
-    '''public byte[] getSessionData()
+    '''returns byte[]\n\n
+    getSessionData()\n
     '''
 def setSessionData():
-    '''public void setSessionData(final byte[] bs)
+    '''returns None\n\n
+    setSessionData(final byte[] bs)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String string)
+    '''returns None\n\n
+    setUserName(final String string)\n
     '''
 def getTenant():
-    '''public String getTenant()
+    '''returns String\n\n
+    getTenant()\n
     '''
 def setTenant():
-    '''public void setTenant(final String tenant)
+    '''returns None\n\n
+    setTenant(final String tenant)\n
     '''

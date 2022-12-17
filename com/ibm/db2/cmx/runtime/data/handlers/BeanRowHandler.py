@@ -1,11 +1,14 @@
-def BeanRowHandler():
-    '''public BeanRowHandler(final Class<T> beanClass_)
-    public BeanRowHandler(final Class<T> beanClass_, final BeanInformation beanInformation_)
+def ():
+    '''returns BeanRowHandler\n\n
+    (final Class<T> beanClass_)\n
+    (final Class<T> beanClass_, final BeanInformation beanInformation_)\n
     '''
 def handle():
-    '''public T handle(final ResultSet set, T instance)
+    '''returns T\n\n
+    handle(final ResultSet set, T instance)\n
     '''
 def run():
-    '''public ClassLoader run()
-    public Method run()
+    '''returns Method\n\n
+    run()\n
+    run()\n
     '''

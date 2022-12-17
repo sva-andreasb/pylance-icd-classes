@@ -1,9 +1,8 @@
-def Toolbox():
-    '''public Toolbox()
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns Toolbox\n\n
+    ()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent evt)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent evt)\n
     '''

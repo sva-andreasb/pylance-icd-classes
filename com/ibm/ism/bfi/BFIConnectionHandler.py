@@ -1,21 +1,28 @@
-def BFIConnectionHandler():
-    '''public BFIConnectionHandler()
+def ():
+    '''returns BFIConnectionHandler\n\n
+    ()\n
     '''
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''
 def checkClientTrusted():
-    '''public void checkClientTrusted(final X509Certificate[] arg0, final String arg1)
+    '''returns None\n\n
+    checkClientTrusted(final X509Certificate[] arg0, final String arg1)\n
     '''
 def checkServerTrusted():
-    '''public void checkServerTrusted(final X509Certificate[] arg0, final String arg1)
+    '''returns None\n\n
+    checkServerTrusted(final X509Certificate[] arg0, final String arg1)\n
     '''
 def verify():
-    '''public boolean verify(final String hostname, final SSLSession session)
+    '''returns boolean\n\n
+    verify(final String hostname, final SSLSession session)\n
     '''
 def update():
-    '''public void update(final String product_id, final String metric_id, final String bundle_id, final String threshold, final String customFieldProp, final String customField)
+    '''returns None\n\n
+    update(final String product_id, final String metric_id, final String bundle_id, final String threshold, final String customFieldProp, final String customField)\n
     '''
 def load():
-    '''public JSONObject load(final String apiUrl)
+    '''returns JSONObject\n\n
+    load(final String apiUrl)\n
     '''

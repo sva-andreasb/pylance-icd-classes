@@ -1,15 +1,20 @@
-def MaxAppsHaveTables():
-    '''public MaxAppsHaveTables(final DatabaseInformation di, final ReportCollector rc, final ValidateLogger vl)
+def ():
+    '''returns MaxAppsHaveTables\n\n
+    (final DatabaseInformation di, final ReportCollector rc, final ValidateLogger vl)\n
     '''
 def getTitle():
-    '''public MXException getTitle()
+    '''returns MXException\n\n
+    getTitle()\n
     '''
 def conditionsCheck():
-    '''public boolean conditionsCheck()
+    '''returns boolean\n\n
+    conditionsCheck()\n
     '''
 def prerequisitesCheck():
-    '''public boolean prerequisitesCheck()
+    '''returns boolean\n\n
+    prerequisitesCheck()\n
     '''
 def checkPerConnection():
-    '''public void checkPerConnection(final Connection dc, final ValidateLogger vl)
+    '''returns None\n\n
+    checkPerConnection(final Connection dc, final ValidateLogger vl)\n
     '''

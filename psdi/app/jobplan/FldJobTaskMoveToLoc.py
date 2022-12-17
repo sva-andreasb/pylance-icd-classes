@@ -1,3 +1,4 @@
-def FldJobTaskMoveToLoc():
-    '''public FldJobTaskMoveToLoc(final MboValue mbv)
+def ():
+    '''returns FldJobTaskMoveToLoc\n\n
+    (final MboValue mbv)\n
     '''

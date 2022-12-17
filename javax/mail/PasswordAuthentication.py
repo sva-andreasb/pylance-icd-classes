@@ -1,9 +1,12 @@
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
-def PasswordAuthentication():
-    '''public PasswordAuthentication(final String userName, final String password)
+def ():
+    '''returns PasswordAuthentication\n\n
+    (final String userName, final String password)\n
     '''

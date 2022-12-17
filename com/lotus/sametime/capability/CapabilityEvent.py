@@ -1,18 +1,24 @@
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def getSTUser():
-    '''public STUser getSTUser()
+    '''returns STUser\n\n
+    getSTUser()\n
     '''
 def getSTGroup():
-    '''public STGroup getSTGroup()
+    '''returns STGroup\n\n
+    getSTGroup()\n
     '''
 def getValue():
-    '''public byte[] getValue()
+    '''returns byte[]\n\n
+    getValue()\n
     '''
 def getCapabilities():
-    '''public Capability[] getCapabilities()
+    '''returns Capability[]\n\n
+    getCapabilities()\n
     '''
 def getCapabilityId():
-    '''public int getCapabilityId()
+    '''returns int\n\n
+    getCapabilityId()\n
     '''

@@ -1,4 +1,5 @@
-def DuplicatePolicyRuleException():
-    '''public DuplicatePolicyRuleException(final String message)
-    public DuplicatePolicyRuleException(final String message, final Throwable root)
+def ():
+    '''returns DuplicatePolicyRuleException\n\n
+    (final String message)\n
+    (final String message, final Throwable root)\n
     '''

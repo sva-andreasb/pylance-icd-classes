@@ -1,18 +1,24 @@
 def fieldsout():
-    '''public int fieldsout()
+    '''returns int\n\n
+    fieldsout()\n
     '''
 def fieldsin():
-    '''public int fieldsin()
+    '''returns int\n\n
+    fieldsin()\n
     '''
 def fieldsobjin():
-    '''public int fieldsobjin()
+    '''returns int\n\n
+    fieldsobjin()\n
     '''
 def condout():
-    '''public int condout()
+    '''returns int\n\n
+    condout()\n
     '''
 def condin():
-    '''public int condin()
+    '''returns int\n\n
+    condin()\n
     '''
 def condobjin():
-    '''public int condobjin()
+    '''returns int\n\n
+    condobjin()\n
     '''

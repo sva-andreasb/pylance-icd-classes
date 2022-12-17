@@ -1,7 +1,9 @@
 NAMESPACE_V5 = "String  \"urn:xmpp:jingle:apps:file-transfer:5\""
-def JingleFileTransfer():
-    '''public JingleFileTransfer(final List<JingleContentDescriptionChildElement> payloads)
+def ():
+    '''returns JingleFileTransfer\n\n
+    (final List<JingleContentDescriptionChildElement> payloads)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''

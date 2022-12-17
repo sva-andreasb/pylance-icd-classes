@@ -1,6 +1,8 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getKeyAttribute():
-    '''public String getKeyAttribute()
+    '''returns String\n\n
+    getKeyAttribute()\n
     '''

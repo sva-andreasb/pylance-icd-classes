@@ -3,31 +3,40 @@ INVALID_WSDL = "String  \"INVALID_WSDL\""
 PARSER_ERROR = "String  \"PARSER_ERROR\""
 OTHER_ERROR = "String  \"OTHER_ERROR\""
 CONFIGURATION_ERROR = "String  \"CONFIGURATION_ERROR\""
-def WSDLException():
-    '''public WSDLException(final String faultCode, final String message, final Throwable targetException)
-    public WSDLException(final String s, final String s2)
+def ():
+    '''returns WSDLException\n\n
+    (final String faultCode, final String message, final Throwable targetException)\n
+    (final String s, final String s2)\n
     '''
 def setFaultCode():
-    '''public void setFaultCode(final String faultCode)
+    '''returns None\n\n
+    setFaultCode(final String faultCode)\n
     '''
 def getFaultCode():
-    '''public String getFaultCode()
+    '''returns String\n\n
+    getFaultCode()\n
     '''
 def setTargetException():
-    '''public void setTargetException(final Throwable targetThrowable)
+    '''returns None\n\n
+    setTargetException(final Throwable targetThrowable)\n
     '''
 def getTargetException():
-    '''public Throwable getTargetException()
+    '''returns Throwable\n\n
+    getTargetException()\n
     '''
 def setLocation():
-    '''public void setLocation(final String location)
+    '''returns None\n\n
+    setLocation(final String location)\n
     '''
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

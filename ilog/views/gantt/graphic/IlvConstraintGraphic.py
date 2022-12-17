@@ -2,79 +2,104 @@ DEFAULT_HORIZONTAL_EXTREMITY_SEGMENT_LENGTH = "float  10.0f"
 DEFAULT_VERTICAL_EXTREMITY_SEGMENT_LENGTH = "float  10.0f"
 TIME_INTERVAL_CONNECTION = "int  0"
 BOUNDING_BOX_CONNECTION = "int  1"
-def IlvConstraintGraphic():
-    '''public IlvConstraintGraphic()
-    public IlvConstraintGraphic(final IlvActivityGraphic ilvActivityGraphic, final IlvActivityGraphic ilvActivityGraphic2, final IlvConstraint b)
+def ():
+    '''returns IlvConstraintGraphic\n\n
+    ()\n
+    (final IlvActivityGraphic ilvActivityGraphic, final IlvActivityGraphic ilvActivityGraphic2, final IlvConstraint b)\n
     '''
 def getConstraint():
-    '''public IlvConstraint getConstraint()
+    '''returns IlvConstraint\n\n
+    getConstraint()\n
     '''
 def setConstraint():
-    '''public void setConstraint(final IlvConstraint b)
+    '''returns None\n\n
+    setConstraint(final IlvConstraint b)\n
     '''
 def getGanttSheet():
-    '''public IlvGanttSheet getGanttSheet()
+    '''returns IlvGanttSheet\n\n
+    getGanttSheet()\n
     '''
 def getHorizontalExtremitySegmentLength():
-    '''public float getHorizontalExtremitySegmentLength()
+    '''returns float\n\n
+    getHorizontalExtremitySegmentLength()\n
     '''
 def setHorizontalExtremitySegmentLength():
-    '''public void setHorizontalExtremitySegmentLength(final float c)
+    '''returns None\n\n
+    setHorizontalExtremitySegmentLength(final float c)\n
     '''
 def getConnectionPoints():
-    '''public void getConnectionPoints(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    getConnectionPoints(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def getPointsCardinal():
-    '''public int getPointsCardinal()
+    '''returns int\n\n
+    getPointsCardinal()\n
     '''
 def getPointAt():
-    '''public IlvPoint getPointAt(final int n, final IlvTransformer ilvTransformer)
+    '''returns IlvPoint\n\n
+    getPointAt(final int n, final IlvTransformer ilvTransformer)\n
     '''
 def getLinkPoints():
-    '''public IlvPoint[] getLinkPoints(final IlvTransformer ilvTransformer)
+    '''returns IlvPoint[]\n\n
+    getLinkPoints(final IlvTransformer ilvTransformer)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def allowsPointInsertion():
-    '''public boolean allowsPointInsertion()
+    '''returns boolean\n\n
+    allowsPointInsertion()\n
     '''
 def allowsPointRemoval():
-    '''public boolean allowsPointRemoval()
+    '''returns boolean\n\n
+    allowsPointRemoval()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def zoomable():
-    '''public boolean zoomable()
+    '''returns boolean\n\n
+    zoomable()\n
     '''
 def getArrowSize():
-    '''public float getArrowSize()
+    '''returns float\n\n
+    getArrowSize()\n
     '''
 def setArrowSize():
-    '''public void setArrowSize(final float f)
+    '''returns None\n\n
+    setArrowSize(final float f)\n
     '''
 def getConnectionType():
-    '''public int getConnectionType()
+    '''returns int\n\n
+    getConnectionType()\n
     '''
 def setConnectionType():
-    '''public void setConnectionType(final int a)
+    '''returns None\n\n
+    setConnectionType(final int a)\n
     '''
 def getEndCap():
-    '''public int getEndCap()
+    '''returns int\n\n
+    getEndCap()\n
     '''
 def getLineJoin():
-    '''public int getLineJoin()
+    '''returns int\n\n
+    getLineJoin()\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection()
+    '''returns IlvSelection\n\n
+    makeSelection()\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns String\n\n
+    getToolTipText(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)
+    '''returns JPopupMenu\n\n
+    getPopupMenu(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)\n
     '''
 def copy():
-    '''public IlvGraphic copy()
+    '''returns IlvGraphic\n\n
+    copy()\n
     '''

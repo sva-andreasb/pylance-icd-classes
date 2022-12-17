@@ -1,6 +1,4 @@
-def execute():
-    '''public synchronized int execute()
-    '''
 def getOptimizationService():
-    '''public String getOptimizationService(final UserInfo userInfo)
+    '''returns String\n\n
+    getOptimizationService(final UserInfo userInfo)\n
     '''

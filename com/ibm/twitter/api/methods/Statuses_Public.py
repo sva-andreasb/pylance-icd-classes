@@ -1,6 +1,8 @@
-def Statuses_Public():
-    '''public Statuses_Public()
+def ():
+    '''returns Statuses_Public\n\n
+    ()\n
     '''
 def getResult():
-    '''public List<Status> getResult()
+    '''returns List<Status>\n\n
+    getResult()\n
     '''

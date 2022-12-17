@@ -1,45 +1,60 @@
-def KPI():
-    '''public KPI(final MboSet ms)
+def ():
+    '''returns KPI\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def validateSQL():
-    '''public void validateSQL()
+    '''returns None\n\n
+    validateSQL()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def kpiInfo():
-    '''public Vector kpiInfo()
+    '''returns Vector\n\n
+    kpiInfo()\n
     '''
 def getComparisionKPIs():
-    '''public ArrayList getComparisionKPIs()
+    '''returns ArrayList\n\n
+    getComparisionKPIs()\n
     '''
 def getCustomDates():
-    '''public Date getCustomDates(final boolean from)
+    '''returns Date\n\n
+    getCustomDates(final boolean from)\n
     '''
 def getTrendRange():
-    '''public String getTrendRange()
+    '''returns String\n\n
+    getTrendRange()\n
     '''
 def validateTrendInfo():
-    '''public void validateTrendInfo()
+    '''returns None\n\n
+    validateTrendInfo()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def isClearRelatedKPI():
-    '''public boolean isClearRelatedKPI()
+    '''returns boolean\n\n
+    isClearRelatedKPI()\n
     '''
 def setClearRelatedKPI():
-    '''public void setClearRelatedKPI(final boolean clearRelatedKPI)
+    '''returns None\n\n
+    setClearRelatedKPI(final boolean clearRelatedKPI)\n
     '''
 def updateTrend():
-    '''public void updateTrend()
+    '''returns None\n\n
+    updateTrend()\n
     '''

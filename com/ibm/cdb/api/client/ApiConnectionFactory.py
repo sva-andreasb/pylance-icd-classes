@@ -1,13 +1,17 @@
-def ApiConnectionFactory():
-    '''public ApiConnectionFactory(final String connectionClass)
+def ():
+    '''returns ApiConnectionFactory\n\n
+    (final String connectionClass)\n
     '''
 def getConnection():
-    '''public ApiConnection getConnection()
+    '''returns ApiConnection\n\n
+    getConnection()\n
     '''
 def setConnection():
-    '''public void setConnection(final ApiConnection connection)
+    '''returns None\n\n
+    setConnection(final ApiConnection connection)\n
     '''
 def getApiConnection():
-    '''public ApiConnection getApiConnection(final String host, final int port, final String trustStoreLocation, final boolean useSSL)
-    public ApiConnection getApiConnection()
+    '''returns ApiConnection\n\n
+    getApiConnection(final String host, final int port, final String trustStoreLocation, final boolean useSSL)\n
+    getApiConnection()\n
     '''

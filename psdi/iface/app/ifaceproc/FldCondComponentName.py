@@ -1,6 +1,8 @@
-def FldCondComponentName():
-    '''public FldCondComponentName(final MboValue mbv)
+def ():
+    '''returns FldCondComponentName\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

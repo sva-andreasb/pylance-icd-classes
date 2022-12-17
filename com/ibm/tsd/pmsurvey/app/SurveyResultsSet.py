@@ -1,3 +1,4 @@
-def SurveyResultsSet():
-    '''public SurveyResultsSet(final MboServerInterface ms)
+def ():
+    '''returns SurveyResultsSet\n\n
+    (final MboServerInterface ms)\n
     '''

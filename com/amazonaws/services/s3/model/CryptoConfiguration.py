@@ -1,78 +1,100 @@
-def CryptoConfiguration():
-    '''public CryptoConfiguration()
-    public CryptoConfiguration(final CryptoMode cryptoMode)
+def ():
+    '''returns CryptoConfiguration\n\n
+    ()\n
+    (final CryptoMode cryptoMode)\n
     '''
 def setStorageMode():
-    '''public void setStorageMode(final CryptoStorageMode storageMode)
-    public void setStorageMode(final CryptoStorageMode storageMode)
+    '''returns None\n\n
+    setStorageMode(final CryptoStorageMode storageMode)\n
+    setStorageMode(final CryptoStorageMode storageMode)\n
     '''
 def withStorageMode():
-    '''public CryptoConfiguration withStorageMode(final CryptoStorageMode storageMode)
-    public CryptoConfiguration withStorageMode(final CryptoStorageMode storageMode)
+    '''returns CryptoConfiguration\n\n
+    withStorageMode(final CryptoStorageMode storageMode)\n
+    withStorageMode(final CryptoStorageMode storageMode)\n
     '''
 def getStorageMode():
-    '''public CryptoStorageMode getStorageMode()
+    '''returns CryptoStorageMode\n\n
+    getStorageMode()\n
     '''
 def setCryptoProvider():
-    '''public void setCryptoProvider(final Provider cryptoProvider)
-    public void setCryptoProvider(final Provider cryptoProvider)
+    '''returns None\n\n
+    setCryptoProvider(final Provider cryptoProvider)\n
+    setCryptoProvider(final Provider cryptoProvider)\n
     '''
 def withCryptoProvider():
-    '''public CryptoConfiguration withCryptoProvider(final Provider cryptoProvider)
-    public CryptoConfiguration withCryptoProvider(final Provider cryptoProvider)
+    '''returns CryptoConfiguration\n\n
+    withCryptoProvider(final Provider cryptoProvider)\n
+    withCryptoProvider(final Provider cryptoProvider)\n
     '''
 def getCryptoProvider():
-    '''public Provider getCryptoProvider()
+    '''returns Provider\n\n
+    getCryptoProvider()\n
     '''
 def getCryptoMode():
-    '''public CryptoMode getCryptoMode()
+    '''returns CryptoMode\n\n
+    getCryptoMode()\n
     '''
 def setCryptoMode():
-    '''public void setCryptoMode(final CryptoMode cryptoMode)
-    public void setCryptoMode(final CryptoMode cryptoMode)
+    '''returns None\n\n
+    setCryptoMode(final CryptoMode cryptoMode)\n
+    setCryptoMode(final CryptoMode cryptoMode)\n
     '''
 def withCryptoMode():
-    '''public CryptoConfiguration withCryptoMode(final CryptoMode cryptoMode)
-    public CryptoConfiguration withCryptoMode(final CryptoMode cryptoMode)
+    '''returns CryptoConfiguration\n\n
+    withCryptoMode(final CryptoMode cryptoMode)\n
+    withCryptoMode(final CryptoMode cryptoMode)\n
     '''
 def isIgnoreMissingInstructionFile():
-    '''public boolean isIgnoreMissingInstructionFile()
+    '''returns boolean\n\n
+    isIgnoreMissingInstructionFile()\n
     '''
 def setIgnoreMissingInstructionFile():
-    '''public void setIgnoreMissingInstructionFile(final boolean ignoreMissingInstructionFile)
-    public void setIgnoreMissingInstructionFile(final boolean ignoreMissingInstructionFile)
+    '''returns None\n\n
+    setIgnoreMissingInstructionFile(final boolean ignoreMissingInstructionFile)\n
+    setIgnoreMissingInstructionFile(final boolean ignoreMissingInstructionFile)\n
     '''
 def withIgnoreMissingInstructionFile():
-    '''public CryptoConfiguration withIgnoreMissingInstructionFile(final boolean ignoreMissingInstructionFile)
-    public CryptoConfiguration withIgnoreMissingInstructionFile(final boolean ignoreMissingInstructionFile)
+    '''returns CryptoConfiguration\n\n
+    withIgnoreMissingInstructionFile(final boolean ignoreMissingInstructionFile)\n
+    withIgnoreMissingInstructionFile(final boolean ignoreMissingInstructionFile)\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
-    public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
+    isReadOnly()\n
     '''
 def readOnly():
-    '''public CryptoConfiguration readOnly()
+    '''returns CryptoConfiguration\n\n
+    readOnly()\n
     '''
 def clone():
-    '''public CryptoConfiguration clone()
+    '''returns CryptoConfiguration\n\n
+    clone()\n
     '''
 def getKmsRegion():
-    '''public Regions getKmsRegion()
+    '''returns Regions\n\n
+    getKmsRegion()\n
     '''
 def setKmsRegion():
-    '''public void setKmsRegion(final Regions kmsRegion)
-    public void setKmsRegion(final Regions kmsRegion)
+    '''returns None\n\n
+    setKmsRegion(final Regions kmsRegion)\n
+    setKmsRegion(final Regions kmsRegion)\n
     '''
 def withKmsRegion():
-    '''public CryptoConfiguration withKmsRegion(final Regions kmsRegion)
-    public CryptoConfiguration withKmsRegion(final Regions kmsRegion)
+    '''returns CryptoConfiguration\n\n
+    withKmsRegion(final Regions kmsRegion)\n
+    withKmsRegion(final Regions kmsRegion)\n
     '''
 def getAwsKmsRegion():
-    '''public Region getAwsKmsRegion()
+    '''returns Region\n\n
+    getAwsKmsRegion()\n
     '''
 def setAwsKmsRegion():
-    '''public void setAwsKmsRegion(final Region awsKmsRegion)
+    '''returns None\n\n
+    setAwsKmsRegion(final Region awsKmsRegion)\n
     '''
 def withAwsKmsRegion():
-    '''public CryptoConfiguration withAwsKmsRegion(final Region awsKmsRegion)
+    '''returns CryptoConfiguration\n\n
+    withAwsKmsRegion(final Region awsKmsRegion)\n
     '''

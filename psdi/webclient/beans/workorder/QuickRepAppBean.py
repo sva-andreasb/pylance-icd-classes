@@ -1,12 +1,16 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def INSERT():
-    '''public int INSERT()
+    '''returns int\n\n
+    INSERT()\n
     '''
 def CLEAR():
-    '''public int CLEAR()
+    '''returns int\n\n
+    CLEAR()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

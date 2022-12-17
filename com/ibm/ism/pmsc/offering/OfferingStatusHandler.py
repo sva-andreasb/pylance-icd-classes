@@ -1,6 +1,8 @@
-def OfferingStatusHandler():
-    '''public OfferingStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns OfferingStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def postStatusChange():
-    '''public void postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)\n
     '''

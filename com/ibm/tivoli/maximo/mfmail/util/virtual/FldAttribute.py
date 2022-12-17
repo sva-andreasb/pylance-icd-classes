@@ -1,6 +1,8 @@
-def FldAttribute():
-    '''public FldAttribute(final MboValue mbv)
+def ():
+    '''returns FldAttribute\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

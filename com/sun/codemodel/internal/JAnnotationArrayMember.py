@@ -1,32 +1,33 @@
 def param():
-    '''public JAnnotationArrayMember param(final String value)
-    public JAnnotationArrayMember param(final boolean value)
-    public JAnnotationArrayMember param(final byte value)
-    public JAnnotationArrayMember param(final char value)
-    public JAnnotationArrayMember param(final double value)
-    public JAnnotationArrayMember param(final long value)
-    public JAnnotationArrayMember param(final short value)
-    public JAnnotationArrayMember param(final int value)
-    public JAnnotationArrayMember param(final float value)
-    public JAnnotationArrayMember param(final Enum<?> value)
-    public JAnnotationArrayMember param(final JEnumConstant value)
-    public JAnnotationArrayMember param(final JExpression value)
-    public JAnnotationArrayMember param(final Class<?> value)
-    public JAnnotationArrayMember param(final JType type)
-    public JAnnotationArrayMember param(final JAnnotationUse value)
+    '''returns JAnnotationArrayMember\n\n
+    param(final String value)\n
+    param(final boolean value)\n
+    param(final byte value)\n
+    param(final char value)\n
+    param(final double value)\n
+    param(final long value)\n
+    param(final short value)\n
+    param(final int value)\n
+    param(final float value)\n
+    param(final Enum<?> value)\n
+    param(final JEnumConstant value)\n
+    param(final JExpression value)\n
+    param(final Class<?> value)\n
+    param(final JType type)\n
+    param(final JAnnotationUse value)\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
-    public void generate(final JFormatter f)
-    public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
+    generate(final JFormatter f)\n
+    generate(final JFormatter f)\n
     '''
 def annotate():
-    '''public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
-    public JAnnotationUse annotate(final JClass clazz)
-    '''
-def annotate2():
-    '''public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
+    '''returns JAnnotationUse\n\n
+    annotate(final Class<? extends Annotation> clazz)\n
+    annotate(final JClass clazz)\n
     '''
 def annotations():
-    '''public Collection<JAnnotationUse> annotations()
+    '''returns Collection<JAnnotationUse>\n\n
+    annotations()\n
     '''

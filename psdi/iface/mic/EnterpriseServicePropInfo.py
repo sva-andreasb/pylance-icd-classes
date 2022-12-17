@@ -1,18 +1,24 @@
-def EnterpriseServicePropInfo():
-    '''public EnterpriseServicePropInfo(final int isXMLTag, final String param, final String value)
+def ():
+    '''returns EnterpriseServicePropInfo\n\n
+    (final int isXMLTag, final String param, final String value)\n
     '''
 def setIfaceName():
-    '''public void setIfaceName(final String in)
+    '''returns None\n\n
+    setIfaceName(final String in)\n
     '''
 def getIfaceName():
-    '''public String getIfaceName()
+    '''returns String\n\n
+    getIfaceName()\n
     '''
 def getParam():
-    '''public String getParam()
+    '''returns String\n\n
+    getParam()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def isXmlTag():
-    '''public boolean isXmlTag()
+    '''returns boolean\n\n
+    isXmlTag()\n
     '''

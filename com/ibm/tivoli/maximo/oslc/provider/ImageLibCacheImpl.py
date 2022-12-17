@@ -1,16 +1,21 @@
-def ImageLibCacheImpl():
-    '''public ImageLibCacheImpl()
+def ():
+    '''returns ImageLibCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getImageId():
-    '''public Long getImageId(final String objectName, final long id)
+    '''returns Long\n\n
+    getImageId(final String objectName, final long id)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

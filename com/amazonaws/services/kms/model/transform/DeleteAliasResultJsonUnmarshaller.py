@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public DeleteAliasResult unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static DeleteAliasResultJsonUnmarshaller getInstance()
+    '''returns DeleteAliasResult\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

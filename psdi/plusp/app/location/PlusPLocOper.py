@@ -1,3 +1,4 @@
-def PlusPLocOper():
-    '''public PlusPLocOper(final MboSet arg0)
+def ():
+    '''returns PlusPLocOper\n\n
+    (final MboSet arg0)\n
     '''

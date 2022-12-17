@@ -1,6 +1,8 @@
-def ReportOutputCnt():
-    '''public ReportOutputCnt(final MboSet ms)
+def ():
+    '''returns ReportOutputCnt\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

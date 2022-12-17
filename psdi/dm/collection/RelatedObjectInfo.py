@@ -1,3 +1,4 @@
-def RelatedObjectInfo():
-    '''public RelatedObjectInfo()
+def ():
+    '''returns RelatedObjectInfo\n\n
+    ()\n
     '''

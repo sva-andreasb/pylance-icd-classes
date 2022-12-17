@@ -1,27 +1,36 @@
-def PartitionRegionImpl():
-    '''public PartitionRegionImpl(final String region, final Partition p)
+def ():
+    '''returns PartitionRegionImpl\n\n
+    (final String region, final Partition p)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def getPartition():
-    '''public String getPartition()
+    '''returns String\n\n
+    getPartition()\n
     '''
 def getServiceEndpoint():
-    '''public String getServiceEndpoint(final String serviceName)
+    '''returns String\n\n
+    getServiceEndpoint(final String serviceName)\n
     '''
 def isServiceSupported():
-    '''public boolean isServiceSupported(final String serviceName)
+    '''returns boolean\n\n
+    isServiceSupported(final String serviceName)\n
     '''
 def hasHttpsEndpoint():
-    '''public boolean hasHttpsEndpoint(final String serviceName)
+    '''returns boolean\n\n
+    hasHttpsEndpoint(final String serviceName)\n
     '''
 def hasHttpEndpoint():
-    '''public boolean hasHttpEndpoint(final String serviceName)
+    '''returns boolean\n\n
+    hasHttpEndpoint(final String serviceName)\n
     '''
 def getAvailableEndpoints():
-    '''public Collection<String> getAvailableEndpoints()
+    '''returns Collection<String>\n\n
+    getAvailableEndpoints()\n
     '''

@@ -1,6 +1,4 @@
-def LowerCaseFilter():
-    '''public LowerCaseFilter(final TokenStream in)
-    '''
-def incrementToken():
-    '''public final boolean incrementToken()
+def ():
+    '''returns LowerCaseFilter\n\n
+    (final TokenStream in)\n
     '''

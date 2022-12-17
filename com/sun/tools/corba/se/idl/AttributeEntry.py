@@ -1,13 +1,17 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def generate():
-    '''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(final Hashtable hashtable, final PrintWriter printWriter)\n
     '''
 def generator():
-    '''public Generator generator()
+    '''returns Generator\n\n
+    generator()\n
     '''
 def readOnly():
-    '''public boolean readOnly()
-    public void readOnly(final boolean readOnly)
+    '''returns None\n\n
+    readOnly()\n
+    readOnly(final boolean readOnly)\n
     '''

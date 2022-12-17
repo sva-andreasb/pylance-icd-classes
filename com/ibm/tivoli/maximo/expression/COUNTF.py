@@ -1,15 +1,20 @@
-def COUNTF():
-    '''public COUNTF(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns COUNTF\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def eval():
-    '''public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval(final List<BigDecimal> parameters)\n
     '''
 def count():
-    '''public BigDecimal count(final MboRemote mbo, final String relName, final String timeLineAttrName, final BigDecimal limitDuration)
+    '''returns BigDecimal\n\n
+    count(final MboRemote mbo, final String relName, final String timeLineAttrName, final BigDecimal limitDuration)\n
     '''
 def getRelation():
-    '''public String getRelation(String relation)
+    '''returns String\n\n
+    getRelation(String relation)\n
     '''
 def getEvalMbo():
-    '''public MboRemote getEvalMbo(String relation, final MboRemote mbo, final MboSetRemote msr)
+    '''returns MboRemote\n\n
+    getEvalMbo(String relation, final MboRemote mbo, final MboSetRemote msr)\n
     '''

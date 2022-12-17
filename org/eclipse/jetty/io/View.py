@@ -1,52 +1,63 @@
-def View():
-    '''public View(final Buffer buffer, final int mark, final int get, final int put, final int access)
-    public View(final Buffer buffer)
-    public View()
+def ():
+    '''returns CaseInsensitive\n\n
+    (final Buffer buffer, final int mark, final int get, final int put, final int access)\n
+    (final Buffer buffer)\n
+    ()\n
+    ()\n
+    (final Buffer buffer, final int mark, final int get, final int put, final int access)\n
+    (final Buffer buffer)\n
     '''
 def update():
-    '''public void update(final Buffer buffer)
-    public void update(final int get, final int put)
+    '''returns None\n\n
+    update(final Buffer buffer)\n
+    update(final int get, final int put)\n
     '''
 def array():
-    '''public byte[] array()
+    '''returns byte[]\n\n
+    array()\n
     '''
 def buffer():
-    '''public Buffer buffer()
+    '''returns Buffer\n\n
+    buffer()\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def compact():
-    '''public void compact()
+    '''returns None\n\n
+    compact()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def isVolatile():
-    '''public boolean isVolatile()
+    '''returns boolean\n\n
+    isVolatile()\n
     '''
 def peek():
-    '''public byte peek(final int index)
-    public int peek(final int index, final byte[] b, final int offset, final int length)
-    public Buffer peek(final int index, final int length)
+    '''returns Buffer\n\n
+    peek(final int index)\n
+    peek(final int index, final byte[] b, final int offset, final int length)\n
+    peek(final int index, final int length)\n
     '''
 def poke():
-    '''public int poke(final int index, final Buffer src)
-    public void poke(final int index, final byte b)
-    public int poke(final int index, final byte[] b, final int offset, final int length)
+    '''returns int\n\n
+    poke(final int index, final Buffer src)\n
+    poke(final int index, final byte b)\n
+    poke(final int index, final byte[] b, final int offset, final int length)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def CaseInsensitive():
-    '''public CaseInsensitive()
-    public CaseInsensitive(final Buffer buffer, final int mark, final int get, final int put, final int access)
-    public CaseInsensitive(final Buffer buffer)
+    '''returns String\n\n
+    toString()\n
     '''

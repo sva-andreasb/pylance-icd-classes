@@ -1,18 +1,24 @@
-def LDAPEntryChangeControl():
-    '''public LDAPEntryChangeControl(final String s, final boolean b, final byte[] array)
+def ():
+    '''returns LDAPEntryChangeControl\n\n
+    (final String s, final boolean b, final byte[] array)\n
     '''
 def getHasChangeNumber():
-    '''public boolean getHasChangeNumber()
+    '''returns boolean\n\n
+    getHasChangeNumber()\n
     '''
 def getChangeNumber():
-    '''public int getChangeNumber()
+    '''returns int\n\n
+    getChangeNumber()\n
     '''
 def getChangeType():
-    '''public int getChangeType()
+    '''returns int\n\n
+    getChangeType()\n
     '''
 def getPreviousDN():
-    '''public String getPreviousDN()
+    '''returns String\n\n
+    getPreviousDN()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,37 +1,44 @@
 STATEMENT_STATIC = "int  2"
 STATEMENT_PREPARED = "int  4"
 STATEMENT_CALLABLE = "int  8"
-def PyStatement():
-    '''public PyStatement(final Statement statement, final Object sql, final int style)
-    public PyStatement(final Statement statement, final Procedure procedure)
+def ():
+    '''returns PyStatement\n\n
+    (final Statement statement, final Object sql, final int style)\n
+    (final Statement statement, final Procedure procedure)\n
     '''
 def __unicode__():
-    '''public PyUnicode __unicode__()
+    '''returns PyUnicode\n\n
+    __unicode__()\n
     '''
 def __str__():
-    '''public PyString __str__()
+    '''returns PyString\n\n
+    __str__()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def __findattr_ex__():
-    '''public PyObject __findattr_ex__(final String name)
-    '''
-def classDictInit():
-    '''public static void classDictInit(final PyObject dict)
+    '''returns PyObject\n\n
+    __findattr_ex__(final String name)\n
     '''
 def __del__():
-    '''public void __del__()
+    '''returns None\n\n
+    __del__()\n
     '''
 def execute():
-    '''public void execute(final PyCursor cursor, final PyObject params, final PyObject bindings)
+    '''returns None\n\n
+    execute(final PyCursor cursor, final PyObject params, final PyObject bindings)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def traverse():
-    '''public int traverse(final Visitproc visit, final Object arg)
+    '''returns int\n\n
+    traverse(final Visitproc visit, final Object arg)\n
     '''
 def refersDirectlyTo():
-    '''public boolean refersDirectlyTo(final PyObject ob)
+    '''returns boolean\n\n
+    refersDirectlyTo(final PyObject ob)\n
     '''

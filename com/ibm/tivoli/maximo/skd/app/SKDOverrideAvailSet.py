@@ -1,3 +1,4 @@
-def SKDOverrideAvailSet():
-    '''public SKDOverrideAvailSet(final MboServerInterface ms)
+def ():
+    '''returns SKDOverrideAvailSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,42 +1,55 @@
 ACTION_PREVIOUS = "String  \"PREVIOUS\""
 ACTION_NEXT = "String  \"NEXT\""
 ACTION_STRECLOCK = "String  \"STRECLOCK\""
-def ToolbarButton():
-    '''public ToolbarButton()
+def ():
+    '''returns ToolbarButton\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def isDisabled():
-    '''public boolean isDisabled()
+    '''returns boolean\n\n
+    isDisabled()\n
     '''
 def needsSep():
-    '''public boolean needsSep()
+    '''returns boolean\n\n
+    needsSep()\n
     '''
 def addSep():
-    '''public void addSep()
+    '''returns None\n\n
+    addSep()\n
     '''
 def preRender():
-    '''public boolean preRender()
+    '''returns boolean\n\n
+    preRender()\n
     '''
 def dynamicButtonHandling():
-    '''public void dynamicButtonHandling()
+    '''returns None\n\n
+    dynamicButtonHandling()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def eventCheck():
-    '''public void eventCheck()
+    '''returns None\n\n
+    eventCheck()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def setVisibility():
-    '''public void setVisibility(final boolean visible)
+    '''returns None\n\n
+    setVisibility(final boolean visible)\n
     '''
 def isFirstButton():
-    '''public boolean isFirstButton()
+    '''returns boolean\n\n
+    isFirstButton()\n
     '''
 def setIsFirstButton():
-    '''public void setIsFirstButton(final boolean aBool)
+    '''returns None\n\n
+    setIsFirstButton(final boolean aBool)\n
     '''

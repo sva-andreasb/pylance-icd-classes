@@ -1,66 +1,83 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public GenerateDataKeyWithoutPlaintextRequest withKeyId(final String keyId)
-    '''
-def getEncryptionContext():
-    '''public Map<String, String> getEncryptionContext()
+    '''returns GenerateDataKeyWithoutPlaintextRequest\n\n
+    withKeyId(final String keyId)\n
     '''
 def setEncryptionContext():
-    '''public void setEncryptionContext(final Map<String, String> encryptionContext)
+    '''returns None\n\n
+    setEncryptionContext(final Map<String, String> encryptionContext)\n
     '''
 def withEncryptionContext():
-    '''public GenerateDataKeyWithoutPlaintextRequest withEncryptionContext(final Map<String, String> encryptionContext)
+    '''returns GenerateDataKeyWithoutPlaintextRequest\n\n
+    withEncryptionContext(final Map<String, String> encryptionContext)\n
     '''
 def addEncryptionContextEntry():
-    '''public GenerateDataKeyWithoutPlaintextRequest addEncryptionContextEntry(final String key, final String value)
+    '''returns GenerateDataKeyWithoutPlaintextRequest\n\n
+    addEncryptionContextEntry(final String key, final String value)\n
     '''
 def clearEncryptionContextEntries():
-    '''public GenerateDataKeyWithoutPlaintextRequest clearEncryptionContextEntries()
+    '''returns GenerateDataKeyWithoutPlaintextRequest\n\n
+    clearEncryptionContextEntries()\n
     '''
 def setKeySpec():
-    '''public void setKeySpec(final String keySpec)
-    public void setKeySpec(final DataKeySpec keySpec)
+    '''returns None\n\n
+    setKeySpec(final String keySpec)\n
+    setKeySpec(final DataKeySpec keySpec)\n
     '''
 def getKeySpec():
-    '''public String getKeySpec()
+    '''returns String\n\n
+    getKeySpec()\n
     '''
 def withKeySpec():
-    '''public GenerateDataKeyWithoutPlaintextRequest withKeySpec(final String keySpec)
-    public GenerateDataKeyWithoutPlaintextRequest withKeySpec(final DataKeySpec keySpec)
+    '''returns GenerateDataKeyWithoutPlaintextRequest\n\n
+    withKeySpec(final String keySpec)\n
+    withKeySpec(final DataKeySpec keySpec)\n
     '''
 def setNumberOfBytes():
-    '''public void setNumberOfBytes(final Integer numberOfBytes)
+    '''returns None\n\n
+    setNumberOfBytes(final Integer numberOfBytes)\n
     '''
 def getNumberOfBytes():
-    '''public Integer getNumberOfBytes()
+    '''returns Integer\n\n
+    getNumberOfBytes()\n
     '''
 def withNumberOfBytes():
-    '''public GenerateDataKeyWithoutPlaintextRequest withNumberOfBytes(final Integer numberOfBytes)
+    '''returns GenerateDataKeyWithoutPlaintextRequest\n\n
+    withNumberOfBytes(final Integer numberOfBytes)\n
     '''
 def getGrantTokens():
-    '''public List<String> getGrantTokens()
+    '''returns List<String>\n\n
+    getGrantTokens()\n
     '''
 def setGrantTokens():
-    '''public void setGrantTokens(final Collection<String> grantTokens)
+    '''returns None\n\n
+    setGrantTokens(final Collection<String> grantTokens)\n
     '''
 def withGrantTokens():
-    '''public GenerateDataKeyWithoutPlaintextRequest withGrantTokens(final String... grantTokens)
-    public GenerateDataKeyWithoutPlaintextRequest withGrantTokens(final Collection<String> grantTokens)
+    '''returns GenerateDataKeyWithoutPlaintextRequest\n\n
+    withGrantTokens(final String... grantTokens)\n
+    withGrantTokens(final Collection<String> grantTokens)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public GenerateDataKeyWithoutPlaintextRequest clone()
+    '''returns GenerateDataKeyWithoutPlaintextRequest\n\n
+    clone()\n
     '''

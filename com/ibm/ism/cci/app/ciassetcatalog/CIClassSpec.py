@@ -1,21 +1,28 @@
-def CIClassSpec():
-    '''public CIClassSpec(final MboSet ms)
+def ():
+    '''returns CIClassSpec\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def isUseWithObject():
-    '''public boolean isUseWithObject(final String objectName)
+    '''returns boolean\n\n
+    isUseWithObject(final String objectName)\n
     '''
 def getClassSpecUseWithForObject():
-    '''public MboRemote getClassSpecUseWithForObject(final String objectName)
+    '''returns MboRemote\n\n
+    getClassSpecUseWithForObject(final String objectName)\n
     '''
 def getCustomersAndChildren():
-    '''public String getCustomersAndChildren(final MboSetRemote parentSet)
+    '''returns String\n\n
+    getCustomersAndChildren(final MboSetRemote parentSet)\n
     '''

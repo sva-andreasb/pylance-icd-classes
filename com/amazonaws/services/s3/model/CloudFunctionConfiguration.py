@@ -1,10 +1,13 @@
-def CloudFunctionConfiguration():
-    '''public CloudFunctionConfiguration(final String invocationRole, final String function, final EnumSet<S3Event> events)
-    public CloudFunctionConfiguration(final String invocationRole, final String function, final String... events)
+def ():
+    '''returns CloudFunctionConfiguration\n\n
+    (final String invocationRole, final String function, final EnumSet<S3Event> events)\n
+    (final String invocationRole, final String function, final String... events)\n
     '''
 def getInvocationRoleARN():
-    '''public String getInvocationRoleARN()
+    '''returns String\n\n
+    getInvocationRoleARN()\n
     '''
 def getCloudFunctionARN():
-    '''public String getCloudFunctionARN()
+    '''returns String\n\n
+    getCloudFunctionARN()\n
     '''

@@ -1,6 +1,8 @@
 def addSecurityRealm():
-    '''public void addSecurityRealm(final Realm realm)
+    '''returns None\n\n
+    addSecurityRealm(final Realm realm)\n
     '''
 def getRealm():
-    '''public Realm getRealm(final String realmName, final HttpDestination destination, final String path)
+    '''returns Realm\n\n
+    getRealm(final String realmName, final HttpDestination destination, final String path)\n
     '''

@@ -1,5 +1,6 @@
-def MalformedChallengeException():
-    '''public MalformedChallengeException()
-    public MalformedChallengeException(final String message)
-    public MalformedChallengeException(final String message, final Throwable cause)
+def ():
+    '''returns MalformedChallengeException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

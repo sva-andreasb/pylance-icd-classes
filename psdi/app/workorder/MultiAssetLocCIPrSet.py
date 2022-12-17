@@ -1,3 +1,4 @@
-def MultiAssetLocCIPrSet():
-    '''public MultiAssetLocCIPrSet(final MboServerInterface ms)
+def ():
+    '''returns MultiAssetLocCIPrSet\n\n
+    (final MboServerInterface ms)\n
     '''

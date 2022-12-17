@@ -1,3 +1,4 @@
-def DuplicateSequenceException():
-    '''public DuplicateSequenceException(final String message)
+def ():
+    '''returns DuplicateSequenceException\n\n
+    (final String message)\n
     '''

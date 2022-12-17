@@ -1,3 +1,4 @@
 def getExceptionLocation():
-    '''public int getExceptionLocation()
+    '''returns int\n\n
+    getExceptionLocation()\n
     '''

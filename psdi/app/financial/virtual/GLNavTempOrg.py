@@ -1,3 +1,4 @@
-def GLNavTempOrg():
-    '''public GLNavTempOrg(final MboSet ms)
+def ():
+    '''returns GLNavTempOrg\n\n
+    (final MboSet ms)\n
     '''

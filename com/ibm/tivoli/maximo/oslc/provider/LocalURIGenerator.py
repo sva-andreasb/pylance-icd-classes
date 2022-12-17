@@ -1,20 +1,25 @@
-def LocalURIGenerator():
-    '''public LocalURIGenerator()
+def ():
+    '''returns LocalURIGenerator\n\n
+    ()\n
     '''
 def getURI():
-    '''public String getURI(final MboRemote srcMbo, final String linkedOSName, final Map<String, String> keyMap, final Map<String, Object> keyValueMap)
-    public String getURI(final MboRemote mbo, final OslcResourceInfo oslcResInfo)
-    public String getURI(final String subjectURI, final MboRemote mbo, final OslcResourceInfo oslcResInfo)
-    public String getURI(final String subjectURI, final int index, final OslcResourceInfo oslcResInfo)
-    public String getURI(final Map<String, Object> keyValueMap, final String osName)
+    '''returns String\n\n
+    getURI(final MboRemote srcMbo, final String linkedOSName, final Map<String, String> keyMap, final Map<String, Object> keyValueMap)\n
+    getURI(final MboRemote mbo, final OslcResourceInfo oslcResInfo)\n
+    getURI(final String subjectURI, final MboRemote mbo, final OslcResourceInfo oslcResInfo)\n
+    getURI(final String subjectURI, final int index, final OslcResourceInfo oslcResInfo)\n
+    getURI(final Map<String, Object> keyValueMap, final String osName)\n
     '''
 def getEncodedMboID():
-    '''public String getEncodedMboID(final MboRemote mbo, final OslcResourceInfo oslcResInfo)
-    public String getEncodedMboID(final Map<String, Object> keyValueMap, final String osName)
+    '''returns String\n\n
+    getEncodedMboID(final MboRemote mbo, final OslcResourceInfo oslcResInfo)\n
+    getEncodedMboID(final Map<String, Object> keyValueMap, final String osName)\n
     '''
 def getClearTextMboID():
-    '''public String getClearTextMboID(final MboRemote mbo, final MosDetailInfo mosDetailInfo)
+    '''returns String\n\n
+    getClearTextMboID(final MboRemote mbo, final MosDetailInfo mosDetailInfo)\n
     '''
 def genURI():
-    '''public String genURI(final String osName, final JSONObject keys)
+    '''returns String\n\n
+    genURI(final String osName, final JSONObject keys)\n
     '''

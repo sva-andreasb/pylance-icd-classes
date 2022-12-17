@@ -1,15 +1,20 @@
-def PlusCFldTmpltAssetnum():
-    '''public PlusCFldTmpltAssetnum(final MboValue mbovalue)
+def ():
+    '''returns PlusCFldTmpltAssetnum\n\n
+    (final MboValue mbovalue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def buildListCriteria():
-    '''public String buildListCriteria()
+    '''returns String\n\n
+    buildListCriteria()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

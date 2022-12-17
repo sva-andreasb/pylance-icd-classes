@@ -6,31 +6,40 @@ FLAG_HAS_DECIMAL_SEPARATOR = "int  32"
 FLAG_NAN = "int  64"
 FLAG_INFINITY = "int  128"
 FLAG_FAIL = "int  256"
-def ParsedNumber():
-    '''public ParsedNumber()
+def ():
+    '''returns ParsedNumber\n\n
+    ()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def copyFrom():
-    '''public void copyFrom(final ParsedNumber other)
+    '''returns None\n\n
+    copyFrom(final ParsedNumber other)\n
     '''
 def setCharsConsumed():
-    '''public void setCharsConsumed(final StringSegment segment)
+    '''returns None\n\n
+    setCharsConsumed(final StringSegment segment)\n
     '''
 def postProcess():
-    '''public void postProcess()
+    '''returns None\n\n
+    postProcess()\n
     '''
 def success():
-    '''public boolean success()
+    '''returns boolean\n\n
+    success()\n
     '''
 def seenNumber():
-    '''public boolean seenNumber()
+    '''returns boolean\n\n
+    seenNumber()\n
     '''
 def getNumber():
-    '''public Number getNumber()
-    public Number getNumber(final int parseFlags)
+    '''returns Number\n\n
+    getNumber()\n
+    getNumber(final int parseFlags)\n
     '''
 def compare():
-    '''public int compare(final ParsedNumber o1, final ParsedNumber o2)
+    '''returns int\n\n
+    compare(final ParsedNumber o1, final ParsedNumber o2)\n
     '''

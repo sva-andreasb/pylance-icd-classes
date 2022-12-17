@@ -1,18 +1,24 @@
-def DMCfgObject():
-    '''public DMCfgObject(final MboSet ms)
+def ():
+    '''returns DMCfgObject\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getRootMboName():
-    '''public String getRootMboName()
+    '''returns String\n\n
+    getRootMboName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setExpObject():
-    '''public void setExpObject()
+    '''returns None\n\n
+    setExpObject()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

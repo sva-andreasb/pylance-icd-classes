@@ -1,31 +1,21 @@
-def AsynchDetailPromptPage():
-    '''public AsynchDetailPromptPage()
-    public AsynchDetailPromptPage(final BaseParameter[] parameters, final XmlEncodedXML promptPage)
+def ():
+    '''returns AsynchDetailPromptPage\n\n
+    ()\n
+    (final BaseParameter[] parameters, final XmlEncodedXML promptPage)\n
     '''
 def getParameters():
-    '''public BaseParameter[] getParameters()
+    '''returns BaseParameter[]\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final BaseParameter[] parameters)
+    '''returns None\n\n
+    setParameters(final BaseParameter[] parameters)\n
     '''
 def getPromptPage():
-    '''public XmlEncodedXML getPromptPage()
+    '''returns XmlEncodedXML\n\n
+    getPromptPage()\n
     '''
 def setPromptPage():
-    '''public void setPromptPage(final XmlEncodedXML promptPage)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setPromptPage(final XmlEncodedXML promptPage)\n
     '''

@@ -1,35 +1,45 @@
-def QuadTable():
-    '''public QuadTable(final TupleIndex[] indexes, final NodeTable nodeTable)
+def ():
+    '''returns QuadTable\n\n
+    (final TupleIndex[] indexes, final NodeTable nodeTable)\n
     '''
 def add():
-    '''public boolean add(final Quad quad)
-    public boolean add(final Node gn, final Triple triple)
-    public boolean add(final Node g, final Node s, final Node p, final Node o)
+    '''returns boolean\n\n
+    add(final Quad quad)\n
+    add(final Node gn, final Triple triple)\n
+    add(final Node g, final Node s, final Node p, final Node o)\n
     '''
 def delete():
-    '''public boolean delete(final Quad quad)
-    public boolean delete(final Node gn, final Triple triple)
-    public boolean delete(final Node g, final Node s, final Node p, final Node o)
+    '''returns boolean\n\n
+    delete(final Quad quad)\n
+    delete(final Node gn, final Triple triple)\n
+    delete(final Node g, final Node s, final Node p, final Node o)\n
     '''
 def find():
-    '''public Iterator<Quad> find(final Node g, final Node s, final Node p, final Node o)
+    '''returns Iterator<Quad>\n\n
+    find(final Node g, final Node s, final Node p, final Node o)\n
     '''
 def getNodeTupleTable():
-    '''public NodeTupleTable getNodeTupleTable()
+    '''returns NodeTupleTable\n\n
+    getNodeTupleTable()\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def clearQuads():
-    '''public void clearQuads()
+    '''returns None\n\n
+    clearQuads()\n
     '''
 def convert():
-    '''public Quad convert(final Tuple<Node> item)
+    '''returns Quad\n\n
+    convert(final Tuple<Node> item)\n
     '''

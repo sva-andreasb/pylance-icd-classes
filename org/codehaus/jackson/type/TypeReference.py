@@ -1,6 +1,8 @@
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def compareTo():
-    '''public int compareTo(final TypeReference<T> o)
+    '''returns int\n\n
+    compareTo(final TypeReference<T> o)\n
     '''

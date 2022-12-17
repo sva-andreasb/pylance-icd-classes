@@ -1,7 +1,9 @@
-def ResourcesInsertedEvent():
-    '''public ResourcesInsertedEvent(final IlvGanttModel ilvGanttModel, final IlvResource ilvResource, final int[] array)
-    public ResourcesInsertedEvent(final IlvGanttModel ilvGanttModel, final IlvResource ilvResource, final List<? extends IlvResource> list)
+def ():
+    '''returns ResourcesInsertedEvent\n\n
+    (final IlvGanttModel ilvGanttModel, final IlvResource ilvResource, final int[] array)\n
+    (final IlvGanttModel ilvGanttModel, final IlvResource ilvResource, final List<? extends IlvResource> list)\n
     '''
 def getResource():
-    '''public IlvResource getResource()
+    '''returns IlvResource\n\n
+    getResource()\n
     '''

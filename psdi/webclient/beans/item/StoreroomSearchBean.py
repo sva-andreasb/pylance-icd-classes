@@ -1,6 +1,8 @@
 def apply():
-    '''public int apply()
+    '''returns int\n\n
+    apply()\n
     '''
 def reverseSeletion():
-    '''public void reverseSeletion()
+    '''returns None\n\n
+    reverseSeletion()\n
     '''

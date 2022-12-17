@@ -1,3 +1,4 @@
 def instanciate():
-    '''public Object instanciate(final String javaClass)
+    '''returns Object\n\n
+    instanciate(final String javaClass)\n
     '''

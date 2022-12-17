@@ -1,15 +1,18 @@
-def OE():
-    '''public OE(final String s)
-    public OE(final String s, final m m)
-    public OE(final String[] array)
-    public OE(final String[] array, final m m)
-    public OE(final List<String> list)
-    public OE(final List<String> list, final m m)
+def ():
+    '''returns OE\n\n
+    (final String s)\n
+    (final String s, final m m)\n
+    (final String[] array)\n
+    (final String[] array, final m m)\n
+    (final List<String> list)\n
+    (final List<String> list, final m m)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File dir, final String name)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File dir, final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

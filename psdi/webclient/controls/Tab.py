@@ -1,30 +1,40 @@
 def click():
-    '''public int click()
+    '''returns int\n\n
+    click()\n
     '''
 def select():
-    '''public int select()
+    '''returns int\n\n
+    select()\n
     '''
 def isCurrent():
-    '''public boolean isCurrent()
+    '''returns boolean\n\n
+    isCurrent()\n
     '''
 def setDesignerSelected():
-    '''public ControlInstance setDesignerSelected(final boolean selected)
+    '''returns ControlInstance\n\n
+    setDesignerSelected(final boolean selected)\n
     '''
 def canRemove():
-    '''public boolean canRemove()
+    '''returns boolean\n\n
+    canRemove()\n
     '''
 def renderChildren():
-    '''public void renderChildren()
+    '''returns None\n\n
+    renderChildren()\n
     '''
 def setAttributeError():
-    '''public void setAttributeError(final UIERMBoundControl boundControl, final ERMAttributeError attributeError)
+    '''returns None\n\n
+    setAttributeError(final UIERMBoundControl boundControl, final ERMAttributeError attributeError)\n
     '''
 def getErrorLevel():
-    '''public int getErrorLevel()
+    '''returns int\n\n
+    getErrorLevel()\n
     '''
 def broadcastAttributeErrors():
-    '''public void broadcastAttributeErrors()
+    '''returns None\n\n
+    broadcastAttributeErrors()\n
     '''
 def clearErrors():
-    '''public void clearErrors()
+    '''returns None\n\n
+    clearErrors()\n
     '''

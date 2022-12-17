@@ -1,6 +1,8 @@
-def FixedDecimalRange():
-    '''public FixedDecimalRange(final FixedDecimal start, final FixedDecimal end)
+def ():
+    '''returns FixedDecimalRange\n\n
+    (final FixedDecimal start, final FixedDecimal end)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

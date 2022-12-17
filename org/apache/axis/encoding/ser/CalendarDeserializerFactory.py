@@ -1,3 +1,4 @@
-def CalendarDeserializerFactory():
-    '''public CalendarDeserializerFactory(final Class javaType, final QName xmlType)
+def ():
+    '''returns CalendarDeserializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

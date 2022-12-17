@@ -1,10 +1,13 @@
-def FileUpload():
-    '''public FileUpload()
-    public FileUpload(final FileItemFactory fileItemFactory)
+def ():
+    '''returns FileUpload\n\n
+    ()\n
+    (final FileItemFactory fileItemFactory)\n
     '''
 def getFileItemFactory():
-    '''public FileItemFactory getFileItemFactory()
+    '''returns FileItemFactory\n\n
+    getFileItemFactory()\n
     '''
 def setFileItemFactory():
-    '''public void setFileItemFactory(final FileItemFactory factory)
+    '''returns None\n\n
+    setFileItemFactory(final FileItemFactory factory)\n
     '''

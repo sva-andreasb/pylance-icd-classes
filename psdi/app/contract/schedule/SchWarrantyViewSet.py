@@ -1,3 +1,4 @@
-def SchWarrantyViewSet():
-    '''public SchWarrantyViewSet(final MboServerInterface ms)
+def ():
+    '''returns SchWarrantyViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

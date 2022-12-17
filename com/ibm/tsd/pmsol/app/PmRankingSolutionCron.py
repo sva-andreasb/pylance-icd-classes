@@ -1,6 +1,8 @@
-def PmRankingSolutionCron():
-    '''public PmRankingSolutionCron()
+def ():
+    '''returns PmRankingSolutionCron\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''

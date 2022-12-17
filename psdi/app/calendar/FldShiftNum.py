@@ -1,3 +1,4 @@
-def FldShiftNum():
-    '''public FldShiftNum(final MboValue mbv)
+def ():
+    '''returns FldShiftNum\n\n
+    (final MboValue mbv)\n
     '''

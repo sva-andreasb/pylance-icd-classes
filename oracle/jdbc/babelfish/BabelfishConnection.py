@@ -1,39 +1,41 @@
 def prepareStatement():
-    '''public PreparedStatement prepareStatement(final String s)
-    public PreparedStatement prepareStatement(final String s, final int n)
-    public PreparedStatement prepareStatement(final String s, final int[] array)
-    public PreparedStatement prepareStatement(final String s, final String[] array)
-    public PreparedStatement prepareStatement(final String s, final int n, final int n2)
-    public PreparedStatement prepareStatement(final String s, final int n, final int n2, final int n3)
-    public PreparedStatement prepareStatement(final String s, final boolean b)
-    public PreparedStatement prepareStatement(final String s, final int n, final boolean b)
-    public PreparedStatement prepareStatement(final String s, final int[] array, final boolean b)
-    public PreparedStatement prepareStatement(final String s, final String[] array, final boolean b)
-    public PreparedStatement prepareStatement(final String s, final int n, final int n2, final boolean b)
-    public PreparedStatement prepareStatement(final String s, final int n, final int n2, final int n3, final boolean b)
+    '''returns PreparedStatement\n\n
+    prepareStatement(final String s)\n
+    prepareStatement(final String s, final int n)\n
+    prepareStatement(final String s, final int[] array)\n
+    prepareStatement(final String s, final String[] array)\n
+    prepareStatement(final String s, final int n, final int n2)\n
+    prepareStatement(final String s, final int n, final int n2, final int n3)\n
+    prepareStatement(final String s, final boolean b)\n
+    prepareStatement(final String s, final int n, final boolean b)\n
+    prepareStatement(final String s, final int[] array, final boolean b)\n
+    prepareStatement(final String s, final String[] array, final boolean b)\n
+    prepareStatement(final String s, final int n, final int n2, final boolean b)\n
+    prepareStatement(final String s, final int n, final int n2, final int n3, final boolean b)\n
     '''
 def prepareCall():
-    '''public CallableStatement prepareCall(final String s)
-    public CallableStatement prepareCall(final String s, final int n, final int n2)
-    public CallableStatement prepareCall(final String s, final int n, final int n2, final int n3)
-    public CallableStatement prepareCall(final String s, final boolean b)
-    public CallableStatement prepareCall(final String s, final int n, final int n2, final boolean b)
-    public CallableStatement prepareCall(final String s, final int n, final int n2, final int n3, final boolean b)
+    '''returns CallableStatement\n\n
+    prepareCall(final String s)\n
+    prepareCall(final String s, final int n, final int n2)\n
+    prepareCall(final String s, final int n, final int n2, final int n3)\n
+    prepareCall(final String s, final boolean b)\n
+    prepareCall(final String s, final int n, final int n2, final boolean b)\n
+    prepareCall(final String s, final int n, final int n2, final int n3, final boolean b)\n
     '''
 def nativeSQL():
-    '''public String nativeSQL(final String s)
+    '''returns String\n\n
+    nativeSQL(final String s)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def createStatement():
-    '''public Statement createStatement()
-    public Statement createStatement(final boolean b)
-    public Statement createStatement(final int n, final int n2)
-    public Statement createStatement(final int n, final int n2, final boolean b)
-    public Statement createStatement(final int n, final int n2, final int n3)
-    public Statement createStatement(final int n, final int n2, final int n3, final boolean b)
-    '''
-def getSqlTranslationVersions():
-    '''public Map<SqlTranslationVersion, String> getSqlTranslationVersions(final String s, final boolean b)
+    '''returns Statement\n\n
+    createStatement()\n
+    createStatement(final boolean b)\n
+    createStatement(final int n, final int n2)\n
+    createStatement(final int n, final int n2, final boolean b)\n
+    createStatement(final int n, final int n2, final int n3)\n
+    createStatement(final int n, final int n2, final int n3, final boolean b)\n
     '''

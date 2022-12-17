@@ -1,35 +1,42 @@
-def SystemService():
-    '''public SystemService()
-    public SystemService(final MXServer mxServer)
+def ():
+    '''returns SystemService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getLookupKeyMap():
-    '''public Object[] getLookupKeyMap(final String target, final String source, final String attr, final UserInfo ui)
-    public Object[] getLookupKeyMap(final String target, final String attr, final UserInfo ui)
+    '''returns Object[]\n\n
+    getLookupKeyMap(final String target, final String source, final String attr, final UserInfo ui)\n
+    getLookupKeyMap(final String target, final String attr, final UserInfo ui)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getMXServerVersion():
-    '''public String[] getMXServerVersion(final UserInfo userInfo)
+    '''returns String[]\n\n
+    getMXServerVersion(final UserInfo userInfo)\n
     '''
 def getDate():
-    '''public Date getDate()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def getProperty():
-    '''public String getProperty(final String propName, final UserInfo userInfo)
-    '''
-def getProperties():
-    '''public Map<String, Object> getProperties(final List<String> propNames, final UserInfo userInfo)
+    '''returns String\n\n
+    getProperty(final String propName, final UserInfo userInfo)\n
     '''
 def getPropertyNames():
-    '''public List<String> getPropertyNames(final UserInfo userInfo)
+    '''returns List<String>\n\n
+    getPropertyNames(final UserInfo userInfo)\n
     '''
 def setProperty():
-    '''public void setProperty(final String propName, final String serverName, final String serverHost, final String propValue, final UserInfo userInfo)
+    '''returns None\n\n
+    setProperty(final String propName, final String serverName, final String serverHost, final String propValue, final UserInfo userInfo)\n
     '''
 def getDeploymentMgrURL():
-    '''public String getDeploymentMgrURL()
+    '''returns String\n\n
+    getDeploymentMgrURL()\n
     '''

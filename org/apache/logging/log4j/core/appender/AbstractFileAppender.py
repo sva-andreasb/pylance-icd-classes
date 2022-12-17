@@ -1,61 +1,81 @@
 def getFileName():
-    '''public String getFileName()
-    public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
+    getFileName()\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def getAdvertiseUri():
-    '''public String getAdvertiseUri()
+    '''returns String\n\n
+    getAdvertiseUri()\n
     '''
 def isAdvertise():
-    '''public boolean isAdvertise()
+    '''returns boolean\n\n
+    isAdvertise()\n
     '''
 def isAppend():
-    '''public boolean isAppend()
+    '''returns boolean\n\n
+    isAppend()\n
     '''
 def isCreateOnDemand():
-    '''public boolean isCreateOnDemand()
+    '''returns boolean\n\n
+    isCreateOnDemand()\n
     '''
 def isLocking():
-    '''public boolean isLocking()
+    '''returns boolean\n\n
+    isLocking()\n
     '''
 def getFilePermissions():
-    '''public String getFilePermissions()
+    '''returns String\n\n
+    getFilePermissions()\n
     '''
 def getFileOwner():
-    '''public String getFileOwner()
+    '''returns String\n\n
+    getFileOwner()\n
     '''
 def getFileGroup():
-    '''public String getFileGroup()
+    '''returns String\n\n
+    getFileGroup()\n
     '''
 def withAdvertise():
-    '''public B withAdvertise(final boolean advertise)
+    '''returns B\n\n
+    withAdvertise(final boolean advertise)\n
     '''
 def withAdvertiseUri():
-    '''public B withAdvertiseUri(final String advertiseUri)
+    '''returns B\n\n
+    withAdvertiseUri(final String advertiseUri)\n
     '''
 def withAppend():
-    '''public B withAppend(final boolean append)
+    '''returns B\n\n
+    withAppend(final boolean append)\n
     '''
 def withFileName():
-    '''public B withFileName(final String fileName)
+    '''returns B\n\n
+    withFileName(final String fileName)\n
     '''
 def withCreateOnDemand():
-    '''public B withCreateOnDemand(final boolean createOnDemand)
+    '''returns B\n\n
+    withCreateOnDemand(final boolean createOnDemand)\n
     '''
 def withLocking():
-    '''public B withLocking(final boolean locking)
+    '''returns B\n\n
+    withLocking(final boolean locking)\n
     '''
 def withFilePermissions():
-    '''public B withFilePermissions(final String filePermissions)
+    '''returns B\n\n
+    withFilePermissions(final String filePermissions)\n
     '''
 def withFileOwner():
-    '''public B withFileOwner(final String fileOwner)
+    '''returns B\n\n
+    withFileOwner(final String fileOwner)\n
     '''
 def withFileGroup():
-    '''public B withFileGroup(final String fileGroup)
+    '''returns B\n\n
+    withFileGroup(final String fileGroup)\n
     '''

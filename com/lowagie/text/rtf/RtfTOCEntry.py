@@ -1,13 +1,17 @@
-def RtfTOCEntry():
-    '''public RtfTOCEntry(final String content, final Font contentFont)
-    public RtfTOCEntry(final String content, final Font contentFont, final String entryName, final Font entryFont)
+def ():
+    '''returns RtfTOCEntry\n\n
+    (final String content, final Font contentFont)\n
+    (final String content, final Font contentFont, final String entryName, final Font entryFont)\n
     '''
 def write():
-    '''public void write(final RtfWriter writer, final OutputStream out)
+    '''returns None\n\n
+    write(final RtfWriter writer, final OutputStream out)\n
     '''
 def hideText():
-    '''public void hideText()
+    '''returns None\n\n
+    hideText()\n
     '''
 def hidePageNumber():
-    '''public void hidePageNumber()
+    '''returns None\n\n
+    hidePageNumber()\n
     '''

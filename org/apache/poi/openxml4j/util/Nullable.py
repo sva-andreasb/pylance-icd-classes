@@ -1,13 +1,17 @@
-def Nullable():
-    '''public Nullable()
-    public Nullable(final E value)
+def ():
+    '''returns Nullable\n\n
+    ()\n
+    (final E value)\n
     '''
 def getValue():
-    '''public E getValue()
+    '''returns E\n\n
+    getValue()\n
     '''
 def hasValue():
-    '''public boolean hasValue()
+    '''returns boolean\n\n
+    hasValue()\n
     '''
 def nullify():
-    '''public void nullify()
+    '''returns None\n\n
+    nullify()\n
     '''

@@ -1,14 +1,18 @@
 VISIBLE = "boolean  true"
 INVISIBLE = "boolean  false"
 def create():
-    '''public Object create(final Key key, final ICUService service)
+    '''returns Object\n\n
+    create(final Key key, final ICUService service)\n
     '''
 def updateVisibleIDs():
-    '''public void updateVisibleIDs(final Map<String, Factory> result)
+    '''returns None\n\n
+    updateVisibleIDs(final Map<String, Factory> result)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName(final String id, final ULocale locale)
+    '''returns String\n\n
+    getDisplayName(final String id, final ULocale locale)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

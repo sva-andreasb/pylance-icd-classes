@@ -1,7 +1,8 @@
-def UTFEncoding():
-    '''public UTFEncoding(final String s)
+def ():
+    '''returns UTFEncoding\n\n
+    (final String s)\n
     '''
 def isEncodable():
-    '''public final boolean isEncodable(final char c)
-    public boolean isEncodable(final char c, final char c2)
+    '''returns boolean\n\n
+    isEncodable(final char c, final char c2)\n
     '''

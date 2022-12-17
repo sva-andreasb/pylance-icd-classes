@@ -1,27 +1,36 @@
-def PmActivitiesBean():
-    '''public PmActivitiesBean()
+def ():
+    '''returns PmActivitiesBean\n\n
+    ()\n
     '''
 def tsdowner():
-    '''public int tsdowner()
+    '''returns int\n\n
+    tsdowner()\n
     '''
 def activityapplysla():
-    '''public int activityapplysla()
+    '''returns int\n\n
+    activityapplysla()\n
     '''
 def activitychangestatus():
-    '''public int activitychangestatus()
+    '''returns int\n\n
+    activitychangestatus()\n
     '''
 def doApplySLA():
-    '''public int doApplySLA(final WOActivityRemote mbo, final WebClientEvent event, final DataBean appBean, final Set set, int appliedcount)
+    '''returns int\n\n
+    doApplySLA(final WOActivityRemote mbo, final WebClientEvent event, final DataBean appBean, final Set set, int appliedcount)\n
     '''
 def displayMessage():
-    '''public void displayMessage(final int count, final WebClientEvent event, final Set set)
+    '''returns None\n\n
+    displayMessage(final int count, final WebClientEvent event, final Set set)\n
     '''
 def tsdrouteworkflow():
-    '''public int tsdrouteworkflow()
+    '''returns int\n\n
+    tsdrouteworkflow()\n
     '''
 def selectMbo():
-    '''public boolean selectMbo(final String method)
+    '''returns boolean\n\n
+    selectMbo(final String method)\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''

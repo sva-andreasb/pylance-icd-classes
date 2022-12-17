@@ -1,49 +1,49 @@
-def createFromSerialized():
-    '''public static Trie2 createFromSerialized(final InputStream is)
-    '''
-def getVersion():
-    '''public static int getVersion(final InputStream is, final boolean littleEndianOk)
-    '''
-def equals():
-    '''public final boolean equals(final Object other)
-    public boolean equals(final Object other)
-    '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def iterator():
-    '''public Iterator<Range> iterator()
-    public Iterator<Range> iterator(final ValueMapper mapper)
+    '''returns Iterator<Range>\n\n
+    iterator()\n
+    iterator(final ValueMapper mapper)\n
     '''
 def iteratorForLeadSurrogate():
-    '''public Iterator<Range> iteratorForLeadSurrogate(final char lead, final ValueMapper mapper)
-    public Iterator<Range> iteratorForLeadSurrogate(final char lead)
+    '''returns Iterator<Range>\n\n
+    iteratorForLeadSurrogate(final char lead, final ValueMapper mapper)\n
+    iteratorForLeadSurrogate(final char lead)\n
     '''
 def charSequenceIterator():
-    '''public CharSequenceIterator charSequenceIterator(final CharSequence text, final int index)
+    '''returns CharSequenceIterator\n\n
+    charSequenceIterator(final CharSequence text, final int index)\n
     '''
 def map():
-    '''public int map(final int in)
+    '''returns int\n\n
+    map(final int in)\n
+    '''
+def equals():
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def set():
-    '''public void set(final int i)
-    '''
-def hasNext():
-    '''public final boolean hasNext()
-    public boolean hasNext()
-    '''
-def hasPrevious():
-    '''public final boolean hasPrevious()
+    '''returns None\n\n
+    set(final int i)\n
     '''
 def next():
-    '''public CharSequenceValues next()
-    public Range next()
+    '''returns Range\n\n
+    next()\n
+    next()\n
     '''
 def previous():
-    '''public CharSequenceValues previous()
+    '''returns CharSequenceValues\n\n
+    previous()\n
     '''
 def remove():
-    '''public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove()\n
+    remove()\n
+    '''
+def hasNext():
+    '''returns boolean\n\n
+    hasNext()\n
     '''

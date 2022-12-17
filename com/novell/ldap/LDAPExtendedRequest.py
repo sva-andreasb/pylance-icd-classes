@@ -1,7 +1,9 @@
-def LDAPExtendedRequest():
-    '''public LDAPExtendedRequest()
-    public LDAPExtendedRequest(final LDAPExtendedOperation ldapExtendedOperation, final LDAPControl[] array)
+def ():
+    '''returns LDAPExtendedRequest\n\n
+    ()\n
+    (final LDAPExtendedOperation ldapExtendedOperation, final LDAPControl[] array)\n
     '''
 def getExtendedOperation():
-    '''public LDAPExtendedOperation getExtendedOperation()
+    '''returns LDAPExtendedOperation\n\n
+    getExtendedOperation()\n
     '''

@@ -1,6 +1,8 @@
-def OmemoDeviceListVAxolotlElement():
-    '''public OmemoDeviceListVAxolotlElement(final Set<Integer> deviceIds)
+def ():
+    '''returns OmemoDeviceListVAxolotlElement\n\n
+    (final Set<Integer> deviceIds)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''

@@ -1,7 +1,9 @@
-def FieldTarget():
-    '''public FieldTarget(final Object targetObject, final Field targetField)
-    public FieldTarget(final Object targetObject, final String fieldName)
+def ():
+    '''returns FieldTarget\n\n
+    (final Object targetObject, final Field targetField)\n
+    (final Object targetObject, final String fieldName)\n
     '''
 def set():
-    '''public void set(final Object value)
+    '''returns None\n\n
+    set(final Object value)\n
     '''

@@ -1,9 +1,12 @@
-def CSSOMViewCSS():
-    '''public CSSOMViewCSS(final CSSEngine engine)
+def ():
+    '''returns CSSOMViewCSS\n\n
+    (final CSSEngine engine)\n
     '''
 def getDocument():
-    '''public DocumentView getDocument()
+    '''returns DocumentView\n\n
+    getDocument()\n
     '''
 def getComputedStyle():
-    '''public CSSStyleDeclaration getComputedStyle(final Element elt, final String pseudoElt)
+    '''returns CSSStyleDeclaration\n\n
+    getComputedStyle(final Element elt, final String pseudoElt)\n
     '''

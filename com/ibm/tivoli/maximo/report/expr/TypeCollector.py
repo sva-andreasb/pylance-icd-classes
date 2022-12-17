@@ -1,7 +1,9 @@
-def TypeCollector():
-    '''public TypeCollector(final int type)
-    public TypeCollector(final int type, final Mode mode)
+def ():
+    '''returns TypeCollector\n\n
+    (final int type)\n
+    (final int type, final Mode mode)\n
     '''
 def accept():
-    '''public boolean accept(final Node n)
+    '''returns boolean\n\n
+    accept(final Node n)\n
     '''

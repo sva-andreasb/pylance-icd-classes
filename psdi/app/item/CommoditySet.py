@@ -1,30 +1,40 @@
-def CommoditySet():
-    '''public CommoditySet(final MboServerInterface ms)
+def ():
+    '''returns CommoditySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def isService():
-    '''public boolean isService()
+    '''returns boolean\n\n
+    isService()\n
     '''
 def getParentApp():
-    '''public String getParentApp()
+    '''returns String\n\n
+    getParentApp()\n
     '''
 def getCommodityGroupSet():
-    '''public void getCommodityGroupSet()
+    '''returns None\n\n
+    getCommodityGroupSet()\n
     '''
 def getCommodityCodeSet():
-    '''public void getCommodityCodeSet(final String parent)
+    '''returns None\n\n
+    getCommodityCodeSet(final String parent)\n
     '''
 def getCompCommodityCodeSet():
-    '''public void getCompCommodityCodeSet(final String company, final String parent)
+    '''returns None\n\n
+    getCompCommodityCodeSet(final String company, final String parent)\n
     '''
 def getCompCommodityGroupCodeSet():
-    '''public void getCompCommodityGroupCodeSet(final String company)
+    '''returns None\n\n
+    getCompCommodityGroupCodeSet(final String company)\n
     '''
 def emptyCommoditySet():
-    '''public void emptyCommoditySet()
+    '''returns None\n\n
+    emptyCommoditySet()\n
     '''
 def setParentApp():
-    '''public void setParentApp(final String parentApplication)
+    '''returns None\n\n
+    setParentApp(final String parentApplication)\n
     '''

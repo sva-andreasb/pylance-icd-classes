@@ -11,9 +11,7 @@ STD_TIME_ZONE = "int  10"
 STD_INET_ADDRESS = "int  11"
 STD_INET_SOCKET_ADDRESS = "int  12"
 STD_STRING_BUILDER = "int  13"
-def findDeserializer():
-    '''public static Std findDeserializer(final Class<?> rawType)
-    '''
 def deserialize():
-    '''public T deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''returns T\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
     '''

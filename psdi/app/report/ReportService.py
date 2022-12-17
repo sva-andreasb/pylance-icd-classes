@@ -1,20 +1,26 @@
-def ReportService():
-    '''public ReportService()
-    public ReportService(final MXServer mxServer)
+def ():
+    '''returns ReportService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canRunThisReport():
-    '''public boolean canRunThisReport(final UserInfo userInfo, final String reportName, final String appName)
-    public boolean canRunThisReport(final String userId, final String reportName, final String appName, final UserInfo userInfo)
+    '''returns boolean\n\n
+    canRunThisReport(final UserInfo userInfo, final String reportName, final String appName)\n
+    canRunThisReport(final String userId, final String reportName, final String appName, final UserInfo userInfo)\n
     '''
 def applyDefaultYesNoValues():
-    '''public void applyDefaultYesNoValues(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    applyDefaultYesNoValues(final MboSetRemote mboSetRemote)\n
     '''
 def getAccessibleReports():
-    '''public MboSetRemote getAccessibleReports(final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getAccessibleReports(final UserInfo userInfo)\n
     '''
 def getAccessibleReportsCollection():
-    '''public ArrayList getAccessibleReportsCollection(final UserInfo userInfo)
+    '''returns ArrayList\n\n
+    getAccessibleReportsCollection(final UserInfo userInfo)\n
     '''

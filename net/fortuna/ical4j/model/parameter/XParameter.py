@@ -1,12 +1,9 @@
-def XParameter():
-    '''public XParameter(final String aName, final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
-    '''
-def Factory():
-    '''public Factory(final String name)
+def ():
+    '''returns Factory\n\n
+    (final String aName, final String aValue)\n
+    (final String name)\n
     '''
 def createParameter():
-    '''public Parameter createParameter(final String value)
+    '''returns Parameter\n\n
+    createParameter(final String value)\n
     '''

@@ -1,4 +1,5 @@
-def FldCrossSiteLocation():
-    '''public FldCrossSiteLocation(final MboValue mbv)
-    public FldCrossSiteLocation(final MboValue mbv, String criteriaName)
+def ():
+    '''returns FldCrossSiteLocation\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, String criteriaName)\n
     '''

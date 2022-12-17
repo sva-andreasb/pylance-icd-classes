@@ -1,9 +1,12 @@
-def PlusPFldTKAssetnum():
-    '''public PlusPFldTKAssetnum(final MboValue arg0)
+def ():
+    '''returns PlusPFldTKAssetnum\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

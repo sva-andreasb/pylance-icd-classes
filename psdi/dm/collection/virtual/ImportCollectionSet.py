@@ -1,3 +1,4 @@
-def ImportCollectionSet():
-    '''public ImportCollectionSet(final MboServerInterface ms)
+def ():
+    '''returns ImportCollectionSet\n\n
+    (final MboServerInterface ms)\n
     '''

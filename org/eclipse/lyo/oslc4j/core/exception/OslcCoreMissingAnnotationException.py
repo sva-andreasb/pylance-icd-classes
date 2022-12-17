@@ -1,3 +1,4 @@
-def OslcCoreMissingAnnotationException():
-    '''public OslcCoreMissingAnnotationException(final Class<?> resourceClass, final Class<?> annotationClass)
+def ():
+    '''returns OslcCoreMissingAnnotationException\n\n
+    (final Class<?> resourceClass, final Class<?> annotationClass)\n
     '''

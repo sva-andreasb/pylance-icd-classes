@@ -1,7 +1,9 @@
-def EndDocumentImpl():
-    '''public EndDocumentImpl()
-    public EndDocumentImpl(final Location location)
+def ():
+    '''returns EndDocumentImpl\n\n
+    ()\n
+    (final Location location)\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final Writer writer)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final Writer writer)\n
     '''

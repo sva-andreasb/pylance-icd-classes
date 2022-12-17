@@ -1,30 +1,32 @@
-def GanttTextResolver():
-    '''public GanttTextResolver(final T act, final IMXGanttModel model, final UserInfo info)
+def ():
+    '''returns GanttTextResolver\n\n
+    (final T act, final IMXGanttModel model, final UserInfo info)\n
     '''
 def setData():
-    '''public void setData(final String key, final Object value)
+    '''returns None\n\n
+    setData(final String key, final Object value)\n
     '''
 def addFunction():
-    '''public void addFunction(final String id, final TextFunction func)
+    '''returns None\n\n
+    addFunction(final String id, final TextFunction func)\n
     '''
 def addFunctions():
-    '''public void addFunctions(final Map<String, TextFunction> funcs)
-    '''
-def getFunctions():
-    '''public Map<String, TextFunction> getFunctions()
-    '''
-def getFunction():
-    '''public <F extends TextFunction> F getFunction(final String id)
+    '''returns None\n\n
+    addFunctions(final Map<String, TextFunction> funcs)\n
     '''
 def resolve():
-    '''public String resolve(final String in)
+    '''returns String\n\n
+    resolve(final String in)\n
     '''
 def getData():
-    '''public T getData()
+    '''returns T\n\n
+    getData()\n
     '''
 def getModel():
-    '''public IMXGanttModel getModel()
+    '''returns IMXGanttModel\n\n
+    getModel()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

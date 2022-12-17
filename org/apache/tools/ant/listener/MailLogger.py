@@ -1,58 +1,73 @@
-def MailLogger():
-    '''public MailLogger()
+def ():
+    '''returns MailLogger\n\n
+    ()\n
     '''
 def buildFinished():
-    '''public void buildFinished(final BuildEvent event)
+    '''returns None\n\n
+    buildFinished(final BuildEvent event)\n
     '''
 def mailhost():
-    '''public String mailhost()
-    public Values mailhost(final String mailhost)
+    '''returns Values\n\n
+    mailhost()\n
+    mailhost(final String mailhost)\n
     '''
 def port():
-    '''public int port()
-    public Values port(final int port)
+    '''returns Values\n\n
+    port()\n
+    port(final int port)\n
     '''
 def user():
-    '''public String user()
-    public Values user(final String user)
+    '''returns Values\n\n
+    user()\n
+    user(final String user)\n
     '''
 def password():
-    '''public String password()
-    public Values password(final String password)
+    '''returns Values\n\n
+    password()\n
+    password(final String password)\n
     '''
 def ssl():
-    '''public boolean ssl()
-    public Values ssl(final boolean ssl)
+    '''returns Values\n\n
+    ssl()\n
+    ssl(final boolean ssl)\n
     '''
 def from():
-    '''public String from()
-    public Values from(final String from)
+    '''returns Values\n\n
+    from()\n
+    from(final String from)\n
     '''
 def replytoList():
-    '''public String replytoList()
-    public Values replytoList(final String replytoList)
+    '''returns Values\n\n
+    replytoList()\n
+    replytoList(final String replytoList)\n
     '''
 def toList():
-    '''public String toList()
-    public Values toList(final String toList)
+    '''returns Values\n\n
+    toList()\n
+    toList(final String toList)\n
     '''
 def subject():
-    '''public String subject()
-    public Values subject(final String subject)
+    '''returns Values\n\n
+    subject()\n
+    subject(final String subject)\n
     '''
 def charset():
-    '''public String charset()
-    public Values charset(final String charset)
+    '''returns Values\n\n
+    charset()\n
+    charset(final String charset)\n
     '''
 def mimeType():
-    '''public String mimeType()
-    public Values mimeType(final String mimeType)
+    '''returns Values\n\n
+    mimeType()\n
+    mimeType(final String mimeType)\n
     '''
 def body():
-    '''public String body()
-    public Values body(final String body)
+    '''returns Values\n\n
+    body()\n
+    body(final String body)\n
     '''
 def starttls():
-    '''public boolean starttls()
-    public Values starttls(final boolean starttls)
+    '''returns Values\n\n
+    starttls()\n
+    starttls(final boolean starttls)\n
     '''

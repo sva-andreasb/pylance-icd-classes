@@ -1,15 +1,16 @@
-def BoBExtension():
-    '''public BoBExtension(final BoBHash bobHash, final String alt, final String paragraph)
+def ():
+    '''returns BoBExtension\n\n
+    (final BoBHash bobHash, final String alt, final String paragraph)\n
     '''
 def getBoBHash():
-    '''public BoBHash getBoBHash()
+    '''returns BoBHash\n\n
+    getBoBHash()\n
     '''
 def getAlt():
-    '''public String getAlt()
+    '''returns String\n\n
+    getAlt()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static BoBExtension from(final Message message)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

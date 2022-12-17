@@ -1,6 +1,8 @@
-def FldLaborCertHistValidationDate():
-    '''public FldLaborCertHistValidationDate(final MboValue mbv)
+def ():
+    '''returns FldLaborCertHistValidationDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

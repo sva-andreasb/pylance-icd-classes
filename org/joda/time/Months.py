@@ -1,48 +1,46 @@
-def months():
-    '''public static Months months(final int n)
-    '''
-def monthsBetween():
-    '''public static Months monthsBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public static Months monthsBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
-    '''
-def monthsIn():
-    '''public static Months monthsIn(final ReadableInterval readableInterval)
-    '''
-def parseMonths():
-    '''public static Months parseMonths(final String s)
-    '''
 def getFieldType():
-    '''public DurationFieldType getFieldType()
+    '''returns DurationFieldType\n\n
+    getFieldType()\n
     '''
 def getPeriodType():
-    '''public PeriodType getPeriodType()
+    '''returns PeriodType\n\n
+    getPeriodType()\n
     '''
 def getMonths():
-    '''public int getMonths()
+    '''returns int\n\n
+    getMonths()\n
     '''
 def plus():
-    '''public Months plus(final int n)
-    public Months plus(final Months months)
+    '''returns Months\n\n
+    plus(final int n)\n
+    plus(final Months months)\n
     '''
 def minus():
-    '''public Months minus(final int n)
-    public Months minus(final Months months)
+    '''returns Months\n\n
+    minus(final int n)\n
+    minus(final Months months)\n
     '''
 def multipliedBy():
-    '''public Months multipliedBy(final int n)
+    '''returns Months\n\n
+    multipliedBy(final int n)\n
     '''
 def dividedBy():
-    '''public Months dividedBy(final int n)
+    '''returns Months\n\n
+    dividedBy(final int n)\n
     '''
 def negated():
-    '''public Months negated()
+    '''returns Months\n\n
+    negated()\n
     '''
 def isGreaterThan():
-    '''public boolean isGreaterThan(final Months months)
+    '''returns boolean\n\n
+    isGreaterThan(final Months months)\n
     '''
 def isLessThan():
-    '''public boolean isLessThan(final Months months)
+    '''returns boolean\n\n
+    isLessThan(final Months months)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

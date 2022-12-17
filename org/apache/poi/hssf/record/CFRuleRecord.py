@@ -1,20 +1,21 @@
 sid = "short  433"
-def create():
-    '''public static CFRuleRecord create(final HSSFSheet sheet, final String formulaText)
-    public static CFRuleRecord create(final HSSFSheet sheet, final byte comparisonOperation, final String formulaText1, final String formulaText2)
-    '''
-def CFRuleRecord():
-    '''public CFRuleRecord(final RecordInputStream in)
+def ():
+    '''returns CFRuleRecord\n\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public CFRuleRecord clone()
+    '''returns CFRuleRecord\n\n
+    clone()\n
     '''

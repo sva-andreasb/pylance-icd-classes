@@ -1,23 +1,30 @@
-def Report():
-    '''public Report(final ICMessage message, final DatabaseInformation di)
-    public Report(final ICMessage message, final DatabaseInformation di, final Repair repair)
-    public Report(final ICMessage message, final DatabaseInformation di, final Repair repair, final ValidateLogger vl)
+def ():
+    '''returns Report\n\n
+    (final ICMessage message, final DatabaseInformation di)\n
+    (final ICMessage message, final DatabaseInformation di, final Repair repair)\n
+    (final ICMessage message, final DatabaseInformation di, final Repair repair, final ValidateLogger vl)\n
     '''
 def setValidateLogger():
-    '''public void setValidateLogger(final ValidateLogger logger)
+    '''returns None\n\n
+    setValidateLogger(final ValidateLogger logger)\n
     '''
 def logReport():
-    '''public void logReport()
+    '''returns None\n\n
+    logReport()\n
     '''
 def getMessage():
-    '''public ICMessage getMessage()
+    '''returns ICMessage\n\n
+    getMessage()\n
     '''
 def getRepair():
-    '''public Repair getRepair()
+    '''returns Repair\n\n
+    getRepair()\n
     '''
 def getLevel():
-    '''public Level getLevel()
+    '''returns Level\n\n
+    getLevel()\n
     '''
 def setRepair():
-    '''public void setRepair(final TenantSpecificRepair tsr)
+    '''returns None\n\n
+    setRepair(final TenantSpecificRepair tsr)\n
     '''

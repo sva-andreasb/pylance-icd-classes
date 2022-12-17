@@ -1,38 +1,38 @@
-def unmodifiableMultiValuedMap():
-    '''public static <K, V> UnmodifiableMultiValuedMap<K, V> unmodifiableMultiValuedMap(final MultiValuedMap<? extends K, ? extends V> map)
-    '''
 def remove():
-    '''public Collection<V> remove(final Object key)
+    '''returns Collection<V>\n\n
+    remove(final Object key)\n
     '''
 def removeMapping():
-    '''public boolean removeMapping(final Object key, final Object item)
+    '''returns boolean\n\n
+    removeMapping(final Object key, final Object item)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def get():
-    '''public Collection<V> get(final K key)
+    '''returns Collection<V>\n\n
+    get(final K key)\n
     '''
 def put():
-    '''public boolean put(final K key, final V value)
+    '''returns boolean\n\n
+    put(final K key, final V value)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def keys():
-    '''public MultiSet<K> keys()
+    '''returns MultiSet<K>\n\n
+    keys()\n
     '''
 def values():
-    '''public Collection<V> values()
-    '''
-def asMap():
-    '''public Map<K, Collection<V>> asMap()
-    '''
-def mapIterator():
-    '''public MapIterator<K, V> mapIterator()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def putAll():
-    '''public boolean putAll(final K key, final Iterable<? extends V> values)
-    public boolean putAll(final Map<? extends K, ? extends V> map)
-    public boolean putAll(final MultiValuedMap<? extends K, ? extends V> map)
+    '''returns boolean\n\n
+    putAll(final K key, final Iterable<? extends V> values)\n
+    putAll(final Map<? extends K, ? extends V> map)\n
+    putAll(final MultiValuedMap<? extends K, ? extends V> map)\n
     '''

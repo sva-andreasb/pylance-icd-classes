@@ -1,3 +1,4 @@
-def StoreSimpleDerby():
-    '''public StoreSimpleDerby(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreSimpleDerby\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

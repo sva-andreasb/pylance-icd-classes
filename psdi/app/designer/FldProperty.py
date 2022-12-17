@@ -1,6 +1,8 @@
-def FldProperty():
-    '''public FldProperty(final MboValue mbv)
+def ():
+    '''returns FldProperty\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

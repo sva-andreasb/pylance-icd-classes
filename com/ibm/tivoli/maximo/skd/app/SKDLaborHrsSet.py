@@ -1,172 +1,213 @@
-def SKDLaborHrsSet():
-    '''public SKDLaborHrsSet(final MboServerInterface ms)
+def ():
+    '''returns WOActivity\n\n
+    (final MboServerInterface ms)\n
+    (final String shiftNum, final Date shiftStartDate, final Date shiftEndDate)\n
+    (final Date activityStartDate, final Date activityEndDate, final double duration, final double hours, final String craft, final boolean interruptibleFlag, final String intShift)\n
     '''
 def populate():
-    '''public void populate(final boolean isResourceDataPersistedInScheduler)
-    public void populate(final String startWeekDay, final long SKDProjectId, final boolean isResourceDataPersistedInScheduler)
+    '''returns None\n\n
+    populate(final boolean isResourceDataPersistedInScheduler)\n
+    populate(final String startWeekDay, final long SKDProjectId, final boolean isResourceDataPersistedInScheduler)\n
     '''
 def recalculateSKDLaborHrsTemp():
-    '''public void recalculateSKDLaborHrsTemp(final long SKDProjectId, final HashMap<String, HashMap<String, Double>> craftWorkHoursMap, final HashMap<String, HashMap<String, Double>> craftNonWorkHoursMap)
+    '''returns None\n\n
+    recalculateSKDLaborHrsTemp(final long SKDProjectId, final HashMap<String, HashMap<String, Double>> craftWorkHoursMap, final HashMap<String, HashMap<String, Double>> craftNonWorkHoursMap)\n
     '''
 def getWeekHrs():
-    '''public double getWeekHrs(final Date actStartWeekDate, final HashMap<String, HashMap<String, Double>> crafHoursMap, final String craft, final Date minActDate, final Date maxActDate)
+    '''returns double\n\n
+    getWeekHrs(final Date actStartWeekDate, final HashMap<String, HashMap<String, Double>> crafHoursMap, final String craft, final Date minActDate, final Date maxActDate)\n
     '''
 def getMonthHrs():
-    '''public double getMonthHrs(final String year, final String actTimePeriod, final HashMap<String, HashMap<String, Double>> crafHoursMap, final String craft, final Date minActDate, final Date maxActDate)
-    '''
-def getResourceAvailData():
-    '''public HashMap<String, HashMap<String, Double>> getResourceAvailData(final Long projectId, final boolean workTime, final boolean isResourceDataPersistedInScheduler)
-    '''
-def getCrewAvailData():
-    '''public HashMap<String, HashMap<String, Double>> getCrewAvailData(final Long projectId, final boolean workTime)
+    '''returns double\n\n
+    getMonthHrs(final String year, final String actTimePeriod, final HashMap<String, HashMap<String, Double>> crafHoursMap, final String craft, final Date minActDate, final Date maxActDate)\n
     '''
 def deleteSKDLaborHours():
-    '''public void deleteSKDLaborHours()
+    '''returns None\n\n
+    deleteSKDLaborHours()\n
     '''
 def deleteSKDLaborHrs():
-    '''public void deleteSKDLaborHrs(final long SKDProjectId)
+    '''returns None\n\n
+    deleteSKDLaborHrs(final long SKDProjectId)\n
     '''
 def deleteSKDLaborHrsTemp():
-    '''public void deleteSKDLaborHrsTemp()
-    public void deleteSKDLaborHrsTemp(final long SKDProjectId)
+    '''returns None\n\n
+    deleteSKDLaborHrsTemp()\n
+    deleteSKDLaborHrsTemp(final long SKDProjectId)\n
     '''
 def populateLaborHrs():
-    '''public void populateLaborHrs()
+    '''returns None\n\n
+    populateLaborHrs()\n
     '''
 def populatePlannedAvblHrs():
-    '''public void populatePlannedAvblHrs(final String startWeekDay, final long SKDProjectId, final boolean isResourceDataPersistedInScheduler)
+    '''returns None\n\n
+    populatePlannedAvblHrs(final String startWeekDay, final long SKDProjectId, final boolean isResourceDataPersistedInScheduler)\n
     '''
 def populatePlannedLaborHrsDaily():
-    '''public void populatePlannedLaborHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate, final boolean isResourceDataPersistedInScheduler)
+    '''returns None\n\n
+    populatePlannedLaborHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate, final boolean isResourceDataPersistedInScheduler)\n
     '''
 def addSKDLaborHrsTemp():
-    '''public void addSKDLaborHrsTemp(final long SKDProjectId, final HashMap<String, ArrayList<WOActivity>> craftActivityListMap, final String cond)
+    '''returns None\n\n
+    addSKDLaborHrsTemp(final long SKDProjectId, final HashMap<String, ArrayList<WOActivity>> craftActivityListMap, final String cond)\n
     '''
 def populatePMPlannedLaborHrsDaily():
-    '''public void populatePMPlannedLaborHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate, final String newdatesql)
+    '''returns None\n\n
+    populatePMPlannedLaborHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate, final String newdatesql)\n
     '''
 def populatePlannedCrewHrsDaily():
-    '''public void populatePlannedCrewHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate, final boolean isResourceDataPersisted)
+    '''returns None\n\n
+    populatePlannedCrewHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate, final boolean isResourceDataPersisted)\n
     '''
 def populatePMPlannedCrewHrsDaily():
-    '''public void populatePMPlannedCrewHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate, final String newdatesql)
+    '''returns None\n\n
+    populatePMPlannedCrewHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate, final String newdatesql)\n
     '''
 def populatePlannedHrsWeeklyMonthy():
-    '''public void populatePlannedHrsWeeklyMonthy(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate)
+    '''returns None\n\n
+    populatePlannedHrsWeeklyMonthy(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String workDate)\n
     '''
 def populateAvblLaborHrsDaily():
-    '''public void populateAvblLaborHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate)
+    '''returns None\n\n
+    populateAvblLaborHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate)\n
     '''
 def populatePMAvblLaborHrsDaily():
-    '''public void populatePMAvblLaborHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate, final String newdatesql)
+    '''returns None\n\n
+    populatePMAvblLaborHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate, final String newdatesql)\n
     '''
 def populateAvblCrewHrsDaily():
-    '''public void populateAvblCrewHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate)
+    '''returns None\n\n
+    populateAvblCrewHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate)\n
     '''
 def populatePMAvblCrewHrsDaily():
-    '''public void populatePMAvblCrewHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate, final String newdatesql)
+    '''returns None\n\n
+    populatePMAvblCrewHrsDaily(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate, final String newdatesql)\n
     '''
 def populateAvblHrsWeeklyMonthly():
-    '''public void populateAvblHrsWeeklyMonthly(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate)
+    '''returns None\n\n
+    populateAvblHrsWeeklyMonthly(final long SKDProjectId, final String yearDate, final String monthDate, final String monthDateP, final String weekDate, final String dayDate, final String startWeekDate, final String actDate, final String workDate)\n
     '''
 def updateSKDTemp():
-    '''public void updateSKDTemp()
-    public void updateSKDTemp(final long SKDProjectId)
+    '''returns None\n\n
+    updateSKDTemp()\n
+    updateSKDTemp(final long SKDProjectId)\n
     '''
 def isSKDTempEmpty():
-    '''public boolean isSKDTempEmpty()
-    public boolean isSKDTempEmpty(final long SKDProjectId)
+    '''returns boolean\n\n
+    isSKDTempEmpty()\n
+    isSKDTempEmpty(final long SKDProjectId)\n
     '''
 def populateSKDLaborHrs():
-    '''public void populateSKDLaborHrs()
-    public void populateSKDLaborHrs(final long SKDProjectId)
+    '''returns None\n\n
+    populateSKDLaborHrs()\n
+    populateSKDLaborHrs(final long SKDProjectId)\n
     '''
 def updateTimePeriod():
-    '''public void updateTimePeriod()
-    public void updateTimePeriod(final long SKDProjectId)
+    '''returns None\n\n
+    updateTimePeriod()\n
+    updateTimePeriod(final long SKDProjectId)\n
     '''
 def executeStatement():
-    '''public void executeStatement(final String sqlStatement)
+    '''returns None\n\n
+    executeStatement(final String sqlStatement)\n
     '''
 def isOverlaping():
-    '''public boolean isOverlaping(final WOActivity activity, final Shift shift)
+    '''returns boolean\n\n
+    isOverlaping(final WOActivity activity, final Shift shift)\n
     '''
 def loadShiftData():
-    '''public void loadShiftData(final Long SKDProjectId)
-    '''
-def Shift():
-    '''public Shift(final String shiftNum, final Date shiftStartDate, final Date shiftEndDate)
+    '''returns None\n\n
+    loadShiftData(final Long SKDProjectId)\n
     '''
 def getShiftStartDate():
-    '''public Date getShiftStartDate()
+    '''returns Date\n\n
+    getShiftStartDate()\n
     '''
 def setShiftStartDate():
-    '''public void setShiftStartDate(final Date shiftStartDate)
+    '''returns None\n\n
+    setShiftStartDate(final Date shiftStartDate)\n
     '''
 def getShiftEndDate():
-    '''public Date getShiftEndDate()
+    '''returns Date\n\n
+    getShiftEndDate()\n
     '''
 def setShiftEndDate():
-    '''public void setShiftEndDate(final Date shiftEndDate)
+    '''returns None\n\n
+    setShiftEndDate(final Date shiftEndDate)\n
     '''
 def getShiftNum():
-    '''public String getShiftNum()
+    '''returns String\n\n
+    getShiftNum()\n
     '''
 def setShiftNum():
-    '''public void setShiftNum(final String shiftNum)
+    '''returns None\n\n
+    setShiftNum(final String shiftNum)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
-    public int compareTo(final Object obj)
+    '''returns int\n\n
+    compareTo(final Object obj)\n
+    compareTo(final Object obj)\n
     '''
 def getOverlappingShifts():
-    '''public ArrayList<Shift> getOverlappingShifts()
-    '''
-def WOActivity():
-    '''public WOActivity(final Date activityStartDate, final Date activityEndDate, final double duration, final double hours, final String craft, final boolean interruptibleFlag, final String intShift)
+    '''returns ArrayList<Shift>\n\n
+    getOverlappingShifts()\n
     '''
 def getInterruptible():
-    '''public boolean getInterruptible()
+    '''returns boolean\n\n
+    getInterruptible()\n
     '''
 def getActivityStartDate():
-    '''public Date getActivityStartDate()
+    '''returns Date\n\n
+    getActivityStartDate()\n
     '''
 def setActivityStartDate():
-    '''public void setActivityStartDate(final Date activityStartDate)
+    '''returns None\n\n
+    setActivityStartDate(final Date activityStartDate)\n
     '''
 def getActivityEndDate():
-    '''public Date getActivityEndDate()
+    '''returns Date\n\n
+    getActivityEndDate()\n
     '''
 def setActivityEndDate():
-    '''public void setActivityEndDate(final Date activityEndDate)
+    '''returns None\n\n
+    setActivityEndDate(final Date activityEndDate)\n
     '''
 def getHours():
-    '''public double getHours()
+    '''returns double\n\n
+    getHours()\n
     '''
 def getDuration():
-    '''public double getDuration()
+    '''returns double\n\n
+    getDuration()\n
     '''
 def getCraft():
-    '''public String getCraft()
+    '''returns String\n\n
+    getCraft()\n
     '''
 def getHoursInShift0():
-    '''public double getHoursInShift0(final Date shiftStartDate)
+    '''returns double\n\n
+    getHoursInShift0(final Date shiftStartDate)\n
     '''
 def getHoursInShift():
-    '''public double getHoursInShift(final Date shiftStartDate)
+    '''returns double\n\n
+    getHoursInShift(final Date shiftStartDate)\n
     '''
 def setHours():
-    '''public void setHours(final double hours)
+    '''returns None\n\n
+    setHours(final double hours)\n
     '''
 def addOverlappingShifts():
-    '''public void addOverlappingShifts(final Shift shift)
+    '''returns None\n\n
+    addOverlappingShifts(final Shift shift)\n
     '''
 def getShift():
-    '''public Shift getShift(final Date shiftStartDate)
+    '''returns Shift\n\n
+    getShift(final Date shiftStartDate)\n
     '''
 def getFractionOverlap():
-    '''public double getFractionOverlap(final Date shiftStartDate)
+    '''returns double\n\n
+    getFractionOverlap(final Date shiftStartDate)\n
     '''
 def getFractionOverlap0():
-    '''public double getFractionOverlap0(final Date shiftStartDate)
+    '''returns double\n\n
+    getFractionOverlap0(final Date shiftStartDate)\n
     '''

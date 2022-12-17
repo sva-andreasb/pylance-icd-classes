@@ -1,10 +1,13 @@
-def FileArgument():
-    '''public FileArgument(final AbstractTool tool, final String name, final String description, final boolean newFile, final FileFilter filter)
-    public FileArgument(final AbstractTool tool, final String name, final String description, final boolean newFile)
+def ():
+    '''returns FileArgument\n\n
+    (final AbstractTool tool, final String name, final String description, final boolean newFile, final FileFilter filter)\n
+    (final AbstractTool tool, final String name, final String description, final boolean newFile)\n
     '''
 def getArgument():
-    '''public Object getArgument()
+    '''returns Object\n\n
+    getArgument()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

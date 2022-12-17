@@ -1,141 +1,188 @@
-def FragmentInfo():
-    '''public FragmentInfo()
+def ():
+    '''returns FragmentInfo\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getESICacheId():
-    '''public String getESICacheId()
+    '''returns String\n\n
+    getESICacheId()\n
     '''
 def setESICacheId():
-    '''public void setESICacheId(final String s)
+    '''returns None\n\n
+    setESICacheId(final String s)\n
     '''
 def getESIQueryString():
-    '''public String getESIQueryString()
+    '''returns String\n\n
+    getESIQueryString()\n
     '''
 def setESIQueryString():
-    '''public void setESIQueryString(final String l)
+    '''returns None\n\n
+    setESIQueryString(final String l)\n
     '''
 def isEdgeable():
-    '''public boolean isEdgeable()
+    '''returns boolean\n\n
+    isEdgeable()\n
     '''
 def setEdgeable():
-    '''public void setEdgeable(final boolean s)
+    '''returns None\n\n
+    setEdgeable(final boolean s)\n
     '''
 def setAlternateUrl():
-    '''public void setAlternateUrl(final String url)
+    '''returns None\n\n
+    setAlternateUrl(final String url)\n
     '''
 def getAlternateUrl():
-    '''public String getAlternateUrl()
+    '''returns String\n\n
+    getAlternateUrl()\n
     '''
 def setBuildEsiInclude():
-    '''public void setBuildEsiInclude(final boolean b)
+    '''returns None\n\n
+    setBuildEsiInclude(final boolean b)\n
     '''
 def getBuildEsiInclude():
-    '''public boolean getBuildEsiInclude()
+    '''returns boolean\n\n
+    getBuildEsiInclude()\n
     '''
 def setStoreAttributes():
-    '''public void setStoreAttributes(final boolean b)
+    '''returns None\n\n
+    setStoreAttributes(final boolean b)\n
     '''
 def getStoreAttributes():
-    '''public boolean getStoreAttributes()
+    '''returns boolean\n\n
+    getStoreAttributes()\n
     '''
 def setStoreCookies():
-    '''public void setStoreCookies(final boolean b)
+    '''returns None\n\n
+    setStoreCookies(final boolean b)\n
     '''
 def getStoreCookies():
-    '''public boolean getStoreCookies()
+    '''returns boolean\n\n
+    getStoreCookies()\n
     '''
 def isUncacheable():
-    '''public boolean isUncacheable()
+    '''returns boolean\n\n
+    isUncacheable()\n
     '''
 def setUncacheable():
-    '''public void setUncacheable(final boolean uncacheable)
+    '''returns None\n\n
+    setUncacheable(final boolean uncacheable)\n
     '''
 def getConsumeSubfragments():
-    '''public boolean getConsumeSubfragments()
+    '''returns boolean\n\n
+    getConsumeSubfragments()\n
     '''
 def setConsumeSubfragments():
-    '''public void setConsumeSubfragments(final boolean consumeSubfragments)
+    '''returns None\n\n
+    setConsumeSubfragments(final boolean consumeSubfragments)\n
     '''
 def getDoNotConsume():
-    '''public boolean getDoNotConsume()
+    '''returns boolean\n\n
+    getDoNotConsume()\n
     '''
 def setDoNotConsume():
-    '''public void setDoNotConsume(final boolean doNotConsume)
+    '''returns None\n\n
+    setDoNotConsume(final boolean doNotConsume)\n
     '''
 def setExternalCacheGroupId():
-    '''public void setExternalCacheGroupId(final String externalCacheGroupId)
+    '''returns None\n\n
+    setExternalCacheGroupId(final String externalCacheGroupId)\n
     '''
 def wasExternalCacheGroupIdSet():
-    '''public boolean wasExternalCacheGroupIdSet()
+    '''returns boolean\n\n
+    wasExternalCacheGroupIdSet()\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def setURI():
-    '''public void setURI(final String uri)
+    '''returns None\n\n
+    setURI(final String uri)\n
     '''
 def wasURISet():
-    '''public boolean wasURISet()
+    '''returns boolean\n\n
+    wasURISet()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def setAttributeExcludeList():
-    '''public void setAttributeExcludeList(final String[] excludeList)
+    '''returns None\n\n
+    setAttributeExcludeList(final String[] excludeList)\n
     '''
 def getAttributeExcludeList():
-    '''public String[] getAttributeExcludeList()
+    '''returns String[]\n\n
+    getAttributeExcludeList()\n
     '''
 def setCookieExcludeList():
-    '''public void setCookieExcludeList(final String[] excludeList)
+    '''returns None\n\n
+    setCookieExcludeList(final String[] excludeList)\n
     '''
 def getCookieExcludeList():
-    '''public String[] getCookieExcludeList()
+    '''returns String[]\n\n
+    getCookieExcludeList()\n
     '''
 def setConsumeExcludeList():
-    '''public void setConsumeExcludeList(final String[] consumeExcludeList)
+    '''returns None\n\n
+    setConsumeExcludeList(final String[] consumeExcludeList)\n
     '''
 def getConsumeExcludeList():
-    '''public String[] getConsumeExcludeList()
+    '''returns String[]\n\n
+    getConsumeExcludeList()\n
     '''
 def setInstanceName():
-    '''public void setInstanceName(final String instanceName)
+    '''returns None\n\n
+    setInstanceName(final String instanceName)\n
     '''
 def getInstanceName():
-    '''public String getInstanceName()
+    '''returns String\n\n
+    getInstanceName()\n
     '''
 def setIgnoreGetPost():
-    '''public void setIgnoreGetPost(final boolean b)
+    '''returns None\n\n
+    setIgnoreGetPost(final boolean b)\n
     '''
 def setIgnoreCharEnc():
-    '''public void setIgnoreCharEnc(final boolean b)
+    '''returns None\n\n
+    setIgnoreCharEnc(final boolean b)\n
     '''
 def isIgnoreGetPost():
-    '''public boolean isIgnoreGetPost()
+    '''returns boolean\n\n
+    isIgnoreGetPost()\n
     '''
 def isIgnoreCharEncoding():
-    '''public boolean isIgnoreCharEncoding()
+    '''returns boolean\n\n
+    isIgnoreCharEncoding()\n
     '''
 def setSkipCacheAttribute():
-    '''public void setSkipCacheAttribute(final String skipCacheAttribute)
+    '''returns None\n\n
+    setSkipCacheAttribute(final String skipCacheAttribute)\n
     '''
 def getSkipCacheAttribute():
-    '''public String getSkipCacheAttribute()
+    '''returns String\n\n
+    getSkipCacheAttribute()\n
     '''
 def setDoNotCache():
-    '''public void setDoNotCache(final boolean b)
+    '''returns None\n\n
+    setDoNotCache(final boolean b)\n
     '''
 def getDoNotCache():
-    '''public boolean getDoNotCache()
+    '''returns boolean\n\n
+    getDoNotCache()\n
     '''
 def setHasCacheableConsumingParent():
-    '''public void setHasCacheableConsumingParent(final boolean b)
+    '''returns None\n\n
+    setHasCacheableConsumingParent(final boolean b)\n
     '''
 def getHasCacheableConsumingParent():
-    '''public boolean getHasCacheableConsumingParent()
+    '''returns boolean\n\n
+    getHasCacheableConsumingParent()\n
     '''
 def getExternalCacheGroupId():
-    '''public String getExternalCacheGroupId()
+    '''returns String\n\n
+    getExternalCacheGroupId()\n
     '''

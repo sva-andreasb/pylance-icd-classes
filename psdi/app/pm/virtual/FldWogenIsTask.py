@@ -1,6 +1,8 @@
-def FldWogenIsTask():
-    '''public FldWogenIsTask(final MboValue mbv)
+def ():
+    '''returns FldWogenIsTask\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

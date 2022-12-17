@@ -1,4 +1,5 @@
-def FldLocation():
-    '''public FldLocation(final MboValue mbv)
-    public FldLocation(final MboValue mbv, String criteriaName)
+def ():
+    '''returns FldLocation\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, String criteriaName)\n
     '''

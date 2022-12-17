@@ -1,3 +1,4 @@
-def S_Not():
-    '''public S_Not(final SqlExpr expr)
+def ():
+    '''returns S_Not\n\n
+    (final SqlExpr expr)\n
     '''

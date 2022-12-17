@@ -1,15 +1,20 @@
-def BayeuxServerImplMBean():
-    '''public BayeuxServerImplMBean(final Object managedObject)
+def ():
+    '''returns BayeuxServerImplMBean\n\n
+    (final Object managedObject)\n
     '''
 def getSessions():
-    '''public int getSessions()
+    '''returns int\n\n
+    getSessions()\n
     '''
 def getChannels():
-    '''public Set<String> getChannels()
+    '''returns Set<String>\n\n
+    getChannels()\n
     '''
 def getAllowedTransports():
-    '''public List<String> getAllowedTransports()
+    '''returns List<String>\n\n
+    getAllowedTransports()\n
     '''
 def getKnownTransportNames():
-    '''public Set<String> getKnownTransportNames()
+    '''returns Set<String>\n\n
+    getKnownTransportNames()\n
     '''

@@ -1,15 +1,20 @@
-def WOMaterialStatusUpdateCronTask():
-    '''public WOMaterialStatusUpdateCronTask()
+def ():
+    '''returns WOMaterialStatusUpdateCronTask\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def updateWOStatus():
-    '''public void updateWOStatus()
+    '''returns None\n\n
+    updateWOStatus()\n
     '''
 def refreshWorkPackHierarchy():
-    '''public void refreshWorkPackHierarchy(final WORemote mbo)
+    '''returns None\n\n
+    refreshWorkPackHierarchy(final WORemote mbo)\n
     '''
 def parentMbo():
-    '''public MboRemote parentMbo(final String wonum, final String site)
+    '''returns MboRemote\n\n
+    parentMbo(final String wonum, final String site)\n
     '''

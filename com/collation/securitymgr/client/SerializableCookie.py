@@ -1,6 +1,8 @@
-def SerializableCookie():
-    '''public SerializableCookie(final Cookie cookie)
+def ():
+    '''returns SerializableCookie\n\n
+    (final Cookie cookie)\n
     '''
 def toCookie():
-    '''public Cookie toCookie()
+    '''returns Cookie\n\n
+    toCookie()\n
     '''

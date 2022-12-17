@@ -1,8 +1,10 @@
-def ErrorHandlerAdapter():
-    '''public ErrorHandlerAdapter(final org.apache.log4j.spi.ErrorHandler errorHandler)
+def ():
+    '''returns ErrorHandlerAdapter\n\n
+    (final org.apache.log4j.spi.ErrorHandler errorHandler)\n
     '''
 def error():
-    '''public void error(final String msg)
-    public void error(final String msg, final Throwable t)
-    public void error(final String msg, final LogEvent event, final Throwable t)
+    '''returns None\n\n
+    error(final String msg)\n
+    error(final String msg, final Throwable t)\n
+    error(final String msg, final LogEvent event, final Throwable t)\n
     '''

@@ -1,9 +1,12 @@
-def PrintSetupAction():
-    '''public PrintSetupAction(final Object o)
+def ():
+    '''returns PrintSetupAction\n\n
+    (final Object o)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''

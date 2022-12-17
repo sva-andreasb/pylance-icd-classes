@@ -1,18 +1,24 @@
-def ReportExpressionsBean():
-    '''public ReportExpressionsBean()
+def ():
+    '''returns ReportExpressionsBean\n\n
+    ()\n
     '''
 def editExpression():
-    '''public int editExpression()
+    '''returns int\n\n
+    editExpression()\n
     '''
 def deleteExpression():
-    '''public int deleteExpression()
+    '''returns int\n\n
+    deleteExpression()\n
     '''
 def isEditMode():
-    '''public boolean isEditMode()
+    '''returns boolean\n\n
+    isEditMode()\n
     '''
 def setEditMode():
-    '''public void setEditMode(final boolean mode)
+    '''returns None\n\n
+    setEditMode(final boolean mode)\n
     '''
 def updateExpression():
-    '''public void updateExpression(final String expression, final String expName, final String expOrder, final String dataType)
+    '''returns None\n\n
+    updateExpression(final String expression, final String expName, final String expOrder, final String dataType)\n
     '''

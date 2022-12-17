@@ -2,14 +2,18 @@ REFLECTOR_LIST_CHANGED = "int  1"
 REFLECTOR_ID_AVAILABLE = "int  2"
 REFLECTOR_PATHID_AVAILABLE = "int  3"
 def getReflectorList():
-    '''public ReflectorInfo[] getReflectorList()
+    '''returns ReflectorInfo[]\n\n
+    getReflectorList()\n
     '''
 def getReflectorsWithIds():
-    '''public ReflectorInfoWithId[] getReflectorsWithIds()
+    '''returns ReflectorInfoWithId[]\n\n
+    getReflectorsWithIds()\n
     '''
 def getReflectorPathId():
-    '''public int getReflectorPathId()
+    '''returns int\n\n
+    getReflectorPathId()\n
     '''
 def getIpAddress():
-    '''public String getIpAddress()
+    '''returns String\n\n
+    getIpAddress()\n
     '''

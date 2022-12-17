@@ -1,26 +1,34 @@
-def ImageCache():
-    '''public ImageCache()
-    public ImageCache(final TimeStampProvider timeStampProvider, final ExpirationPolicy invalidURIExpirationPolicy)
+def ():
+    '''returns ImageCache\n\n
+    ()\n
+    (final TimeStampProvider timeStampProvider, final ExpirationPolicy invalidURIExpirationPolicy)\n
     '''
 def setCacheListener():
-    '''public void setCacheListener(final ImageCacheListener listener)
+    '''returns None\n\n
+    setCacheListener(final ImageCacheListener listener)\n
     '''
 def needImageInfo():
-    '''public ImageInfo needImageInfo(final String uri, final ImageSessionContext session, final ImageManager manager)
+    '''returns ImageInfo\n\n
+    needImageInfo(final String uri, final ImageSessionContext session, final ImageManager manager)\n
     '''
 def isInvalidURI():
-    '''public boolean isInvalidURI(final String uri)
+    '''returns boolean\n\n
+    isInvalidURI(final String uri)\n
     '''
 def getImage():
-    '''public Image getImage(final ImageInfo info, final ImageFlavor flavor)
-    public Image getImage(final String uri, final ImageFlavor flavor)
+    '''returns Image\n\n
+    getImage(final ImageInfo info, final ImageFlavor flavor)\n
+    getImage(final String uri, final ImageFlavor flavor)\n
     '''
 def putImage():
-    '''public void putImage(final Image img)
+    '''returns None\n\n
+    putImage(final Image img)\n
     '''
 def clearCache():
-    '''public void clearCache()
+    '''returns None\n\n
+    clearCache()\n
     '''
 def doHouseKeeping():
-    '''public void doHouseKeeping()
+    '''returns None\n\n
+    doHouseKeeping()\n
     '''

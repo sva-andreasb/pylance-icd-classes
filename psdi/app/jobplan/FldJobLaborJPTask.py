@@ -1,6 +1,8 @@
-def FldJobLaborJPTask():
-    '''public FldJobLaborJPTask(final MboValue mbv)
+def ():
+    '''returns FldJobLaborJPTask\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

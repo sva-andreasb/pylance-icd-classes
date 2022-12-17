@@ -1,3 +1,4 @@
-def SKDOPASCPSAlert():
-    '''public SKDOPASCPSAlert(final MboSet ms)
+def ():
+    '''returns SKDOPASCPSAlert\n\n
+    (final MboSet ms)\n
     '''

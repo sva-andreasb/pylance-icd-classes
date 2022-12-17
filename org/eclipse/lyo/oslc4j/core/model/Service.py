@@ -1,46 +1,61 @@
-def Service():
-    '''public Service()
-    public Service(final URI domain)
+def ():
+    '''returns Service\n\n
+    ()\n
+    (final URI domain)\n
     '''
 def addCreationDialog():
-    '''public void addCreationDialog(final Dialog dialog)
+    '''returns None\n\n
+    addCreationDialog(final Dialog dialog)\n
     '''
 def addCreationFactory():
-    '''public void addCreationFactory(final CreationFactory creationFactory)
+    '''returns None\n\n
+    addCreationFactory(final CreationFactory creationFactory)\n
     '''
 def addQueryCapability():
-    '''public void addQueryCapability(final QueryCapability queryCapability)
+    '''returns None\n\n
+    addQueryCapability(final QueryCapability queryCapability)\n
     '''
 def addSelectionDialog():
-    '''public void addSelectionDialog(final Dialog dialog)
+    '''returns None\n\n
+    addSelectionDialog(final Dialog dialog)\n
     '''
 def getCreationDialogs():
-    '''public Dialog[] getCreationDialogs()
+    '''returns Dialog[]\n\n
+    getCreationDialogs()\n
     '''
 def getCreationFactories():
-    '''public CreationFactory[] getCreationFactories()
+    '''returns CreationFactory[]\n\n
+    getCreationFactories()\n
     '''
 def getDomain():
-    '''public URI getDomain()
+    '''returns URI\n\n
+    getDomain()\n
     '''
 def getQueryCapabilities():
-    '''public QueryCapability[] getQueryCapabilities()
+    '''returns QueryCapability[]\n\n
+    getQueryCapabilities()\n
     '''
 def getSelectionDialogs():
-    '''public Dialog[] getSelectionDialogs()
+    '''returns Dialog[]\n\n
+    getSelectionDialogs()\n
     '''
 def setCreationDialogs():
-    '''public void setCreationDialogs(final Dialog[] creationDialogs)
+    '''returns None\n\n
+    setCreationDialogs(final Dialog[] creationDialogs)\n
     '''
 def setCreationFactories():
-    '''public void setCreationFactories(final CreationFactory[] creationFactories)
+    '''returns None\n\n
+    setCreationFactories(final CreationFactory[] creationFactories)\n
     '''
 def setDomain():
-    '''public void setDomain(final URI domain)
+    '''returns None\n\n
+    setDomain(final URI domain)\n
     '''
 def setQueryCapabilities():
-    '''public void setQueryCapabilities(final QueryCapability[] queryCapabilities)
+    '''returns None\n\n
+    setQueryCapabilities(final QueryCapability[] queryCapabilities)\n
     '''
 def setSelectionDialogs():
-    '''public void setSelectionDialogs(final Dialog[] selectionDialogs)
+    '''returns None\n\n
+    setSelectionDialogs(final Dialog[] selectionDialogs)\n
     '''

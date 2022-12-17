@@ -1,27 +1,32 @@
-def getWrappedField():
-    '''public final DateTimeField getWrappedField()
-    '''
 def isLenient():
-    '''public boolean isLenient()
+    '''returns boolean\n\n
+    isLenient()\n
     '''
 def get():
-    '''public int get(final long n)
+    '''returns int\n\n
+    get(final long n)\n
     '''
 def set():
-    '''public long set(final long n, final int n2)
+    '''returns long\n\n
+    set(final long n, final int n2)\n
     '''
 def getDurationField():
-    '''public DurationField getDurationField()
+    '''returns DurationField\n\n
+    getDurationField()\n
     '''
 def getRangeDurationField():
-    '''public DurationField getRangeDurationField()
+    '''returns DurationField\n\n
+    getRangeDurationField()\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue()
+    '''returns int\n\n
+    getMinimumValue()\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue()
+    '''returns int\n\n
+    getMaximumValue()\n
     '''
 def roundFloor():
-    '''public long roundFloor(final long n)
+    '''returns long\n\n
+    roundFloor(final long n)\n
     '''

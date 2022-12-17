@@ -1,21 +1,28 @@
-def HTMLAugmentations():
-    '''public HTMLAugmentations()
+def ():
+    '''returns HTMLAugmentations\n\n
+    ()\n
     '''
 def removeAllItems():
-    '''public void removeAllItems()
+    '''returns None\n\n
+    removeAllItems()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def putItem():
-    '''public Object putItem(final String key, final Object item)
+    '''returns Object\n\n
+    putItem(final String key, final Object item)\n
     '''
 def getItem():
-    '''public Object getItem(final String key)
+    '''returns Object\n\n
+    getItem(final String key)\n
     '''
 def removeItem():
-    '''public Object removeItem(final String key)
+    '''returns Object\n\n
+    removeItem(final String key)\n
     '''
 def keys():
-    '''public Enumeration keys()
+    '''returns Enumeration\n\n
+    keys()\n
     '''

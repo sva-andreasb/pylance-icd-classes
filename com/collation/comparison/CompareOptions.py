@@ -1,7 +1,9 @@
-def CompareOptions():
-    '''public CompareOptions()
-    public CompareOptions(final boolean deep)
+def ():
+    '''returns CompareOptions\n\n
+    ()\n
+    (final boolean deep)\n
     '''
 def isDeep():
-    '''public boolean isDeep()
+    '''returns boolean\n\n
+    isDeep()\n
     '''

@@ -1,54 +1,72 @@
-def StopWatch():
-    '''public StopWatch()
+def ():
+    '''returns StopWatch\n\n
+    ()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def split():
-    '''public void split()
+    '''returns None\n\n
+    split()\n
     '''
 def unsplit():
-    '''public void unsplit()
+    '''returns None\n\n
+    unsplit()\n
     '''
 def suspend():
-    '''public void suspend()
+    '''returns None\n\n
+    suspend()\n
     '''
 def resume():
-    '''public void resume()
+    '''returns None\n\n
+    resume()\n
     '''
 def getTime():
-    '''public long getTime()
+    '''returns long\n\n
+    getTime()\n
     '''
 def getNanoTime():
-    '''public long getNanoTime()
+    '''returns long\n\n
+    getNanoTime()\n
     '''
 def getSplitTime():
-    '''public long getSplitTime()
+    '''returns long\n\n
+    getSplitTime()\n
     '''
 def getSplitNanoTime():
-    '''public long getSplitNanoTime()
+    '''returns long\n\n
+    getSplitNanoTime()\n
     '''
 def getStartTime():
-    '''public long getStartTime()
+    '''returns long\n\n
+    getStartTime()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toSplitString():
-    '''public String toSplitString()
+    '''returns String\n\n
+    toSplitString()\n
     '''
 def isStarted():
-    '''public boolean isStarted()
+    '''returns boolean\n\n
+    isStarted()\n
     '''
 def isSuspended():
-    '''public boolean isSuspended()
+    '''returns boolean\n\n
+    isSuspended()\n
     '''
 def isStopped():
-    '''public boolean isStopped()
+    '''returns boolean\n\n
+    isStopped()\n
     '''

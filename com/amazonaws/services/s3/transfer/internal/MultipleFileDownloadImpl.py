@@ -1,15 +1,20 @@
-def MultipleFileDownloadImpl():
-    '''public MultipleFileDownloadImpl(final String description, final TransferProgress transferProgress, final ProgressListenerChain progressListenerChain, final String keyPrefix, final String bucketName, final Collection<? extends Download> downloads)
+def ():
+    '''returns MultipleFileDownloadImpl\n\n
+    (final String description, final TransferProgress transferProgress, final ProgressListenerChain progressListenerChain, final String keyPrefix, final String bucketName, final Collection<? extends Download> downloads)\n
     '''
 def getKeyPrefix():
-    '''public String getKeyPrefix()
+    '''returns String\n\n
+    getKeyPrefix()\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def waitForCompletion():
-    '''public void waitForCompletion()
+    '''returns None\n\n
+    waitForCompletion()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''

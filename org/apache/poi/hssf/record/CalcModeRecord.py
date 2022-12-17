@@ -2,25 +2,32 @@ sid = "short  13"
 MANUAL = "short  0"
 AUTOMATIC = "short  1"
 AUTOMATIC_EXCEPT_TABLES = "short  -1"
-def CalcModeRecord():
-    '''public CalcModeRecord()
-    public CalcModeRecord(final RecordInputStream in)
+def ():
+    '''returns CalcModeRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setCalcMode():
-    '''public void setCalcMode(final short calcmode)
+    '''returns None\n\n
+    setCalcMode(final short calcmode)\n
     '''
 def getCalcMode():
-    '''public short getCalcMode()
+    '''returns short\n\n
+    getCalcMode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public CalcModeRecord clone()
+    '''returns CalcModeRecord\n\n
+    clone()\n
     '''

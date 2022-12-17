@@ -1,31 +1,41 @@
-def PlusPCopySOService():
-    '''public PlusPCopySOService()
-    public PlusPCopySOService(final MXServer mxServer)
+def ():
+    '''returns PlusPCopySOService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getUniqueWhereClause():
-    '''public String getUniqueWhereClause()
+    '''returns String\n\n
+    getUniqueWhereClause()\n
     '''
 def getBillLineWhereClause():
-    '''public String getBillLineWhereClause()
+    '''returns String\n\n
+    getBillLineWhereClause()\n
     '''
 def getMessageKey():
-    '''public String getMessageKey()
+    '''returns String\n\n
+    getMessageKey()\n
     '''
 def populateObjectSpecificFields():
-    '''public void populateObjectSpecificFields(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''returns None\n\n
+    populateObjectSpecificFields(final MboRemote mboRemote, final MboRemote mboRemote2)\n
     '''
 def populateAgreementFields():
-    '''public void populateAgreementFields(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''returns None\n\n
+    populateAgreementFields(final MboRemote mboRemote, final MboRemote mboRemote2)\n
     '''
 def populateBillBatchFields():
-    '''public void populateBillBatchFields(final PlusPBillLineRemote plusPBillLineRemote, final MboRemote mboRemote)
+    '''returns None\n\n
+    populateBillBatchFields(final PlusPBillLineRemote plusPBillLineRemote, final MboRemote mboRemote)\n
     '''
 def getObjectBillLineRelationship():
-    '''public String getObjectBillLineRelationship()
+    '''returns String\n\n
+    getObjectBillLineRelationship()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getObjectSet():
-    '''public MboSetRemote getObjectSet(final PlusPCopyUtil plusPCopyUtil)
+    '''returns MboSetRemote\n\n
+    getObjectSet(final PlusPCopyUtil plusPCopyUtil)\n
     '''

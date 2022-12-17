@@ -1,112 +1,142 @@
 FRAGMENT_CONTEXT_STACK = "String  \"http://cyberneko.org/html/properties/balance-tags/fragment-context-stack\""
-def HTMLTagBalancer():
-    '''public HTMLTagBalancer()
+def ():
+    '''returns InfoStack\n\n
+    ()\n
+    (final HTMLElements.Element element, final QName qname)\n
+    (final HTMLElements.Element element, final QName qname, final XMLAttributes attributes)\n
+    ()\n
     '''
 def getFeatureDefault():
-    '''public Boolean getFeatureDefault(final String featureId)
+    '''returns Boolean\n\n
+    getFeatureDefault(final String featureId)\n
     '''
 def getPropertyDefault():
-    '''public Object getPropertyDefault(final String propertyId)
+    '''returns Object\n\n
+    getPropertyDefault(final String propertyId)\n
     '''
 def getRecognizedFeatures():
-    '''public String[] getRecognizedFeatures()
+    '''returns String[]\n\n
+    getRecognizedFeatures()\n
     '''
 def getRecognizedProperties():
-    '''public String[] getRecognizedProperties()
+    '''returns String[]\n\n
+    getRecognizedProperties()\n
     '''
 def reset():
-    '''public void reset(final XMLComponentManager manager)
+    '''returns None\n\n
+    reset(final XMLComponentManager manager)\n
     '''
 def setFeature():
-    '''public void setFeature(final String featureId, final boolean state)
+    '''returns None\n\n
+    setFeature(final String featureId, final boolean state)\n
     '''
 def setProperty():
-    '''public void setProperty(final String propertyId, final Object value)
+    '''returns None\n\n
+    setProperty(final String propertyId, final Object value)\n
     '''
 def setDocumentHandler():
-    '''public void setDocumentHandler(final XMLDocumentHandler handler)
+    '''returns None\n\n
+    setDocumentHandler(final XMLDocumentHandler handler)\n
     '''
 def getDocumentHandler():
-    '''public XMLDocumentHandler getDocumentHandler()
+    '''returns XMLDocumentHandler\n\n
+    getDocumentHandler()\n
     '''
 def startDocument():
-    '''public void startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)
-    public void startDocument(final XMLLocator locator, final String encoding, final Augmentations augs)
+    '''returns None\n\n
+    startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)\n
+    startDocument(final XMLLocator locator, final String encoding, final Augmentations augs)\n
     '''
 def xmlDecl():
-    '''public void xmlDecl(final String version, final String encoding, final String standalone, final Augmentations augs)
+    '''returns None\n\n
+    xmlDecl(final String version, final String encoding, final String standalone, final Augmentations augs)\n
     '''
 def doctypeDecl():
-    '''public void doctypeDecl(final String rootElementName, final String publicId, final String systemId, final Augmentations augs)
+    '''returns None\n\n
+    doctypeDecl(final String rootElementName, final String publicId, final String systemId, final Augmentations augs)\n
     '''
 def endDocument():
-    '''public void endDocument(final Augmentations augs)
+    '''returns None\n\n
+    endDocument(final Augmentations augs)\n
     '''
 def comment():
-    '''public void comment(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    comment(final XMLString text, final Augmentations augs)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final XMLString data, final Augmentations augs)
+    '''returns None\n\n
+    processingInstruction(final String target, final XMLString data, final Augmentations augs)\n
     '''
 def startElement():
-    '''public void startElement(final QName elem, XMLAttributes attrs, final Augmentations augs)
+    '''returns None\n\n
+    startElement(final QName elem, XMLAttributes attrs, final Augmentations augs)\n
     '''
 def emptyElement():
-    '''public void emptyElement(final QName element, final XMLAttributes attrs, final Augmentations augs)
+    '''returns None\n\n
+    emptyElement(final QName element, final XMLAttributes attrs, final Augmentations augs)\n
     '''
 def startGeneralEntity():
-    '''public void startGeneralEntity(final String name, final XMLResourceIdentifier id, final String encoding, final Augmentations augs)
+    '''returns None\n\n
+    startGeneralEntity(final String name, final XMLResourceIdentifier id, final String encoding, final Augmentations augs)\n
     '''
 def textDecl():
-    '''public void textDecl(final String version, final String encoding, final Augmentations augs)
+    '''returns None\n\n
+    textDecl(final String version, final String encoding, final Augmentations augs)\n
     '''
 def endGeneralEntity():
-    '''public void endGeneralEntity(final String name, final Augmentations augs)
+    '''returns None\n\n
+    endGeneralEntity(final String name, final Augmentations augs)\n
     '''
 def startCDATA():
-    '''public void startCDATA(final Augmentations augs)
+    '''returns None\n\n
+    startCDATA(final Augmentations augs)\n
     '''
 def endCDATA():
-    '''public void endCDATA(final Augmentations augs)
+    '''returns None\n\n
+    endCDATA(final Augmentations augs)\n
     '''
 def characters():
-    '''public void characters(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    characters(final XMLString text, final Augmentations augs)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    ignorableWhitespace(final XMLString text, final Augmentations augs)\n
     '''
 def endElement():
-    '''public void endElement(final QName element, final Augmentations augs)
+    '''returns None\n\n
+    endElement(final QName element, final Augmentations augs)\n
     '''
 def setDocumentSource():
-    '''public void setDocumentSource(final XMLDocumentSource source)
+    '''returns None\n\n
+    setDocumentSource(final XMLDocumentSource source)\n
     '''
 def getDocumentSource():
-    '''public XMLDocumentSource getDocumentSource()
+    '''returns XMLDocumentSource\n\n
+    getDocumentSource()\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri, final Augmentations augs)
+    '''returns None\n\n
+    startPrefixMapping(final String prefix, final String uri, final Augmentations augs)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix, final Augmentations augs)
-    '''
-def Info():
-    '''public Info(final HTMLElements.Element element, final QName qname)
-    public Info(final HTMLElements.Element element, final QName qname, final XMLAttributes attributes)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix, final Augmentations augs)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def InfoStack():
-    '''public InfoStack()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def push():
-    '''public void push(final Info info)
+    '''returns None\n\n
+    push(final Info info)\n
     '''
 def peek():
-    '''public Info peek()
+    '''returns Info\n\n
+    peek()\n
     '''
 def pop():
-    '''public Info pop()
+    '''returns Info\n\n
+    pop()\n
     '''

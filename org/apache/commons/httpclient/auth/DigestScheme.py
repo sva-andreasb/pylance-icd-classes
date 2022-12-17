@@ -1,26 +1,30 @@
-def DigestScheme():
-    '''public DigestScheme()
-    public DigestScheme(final String challenge)
+def ():
+    '''returns DigestScheme\n\n
+    ()\n
+    (final String challenge)\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def processChallenge():
-    '''public void processChallenge(final String challenge)
+    '''returns None\n\n
+    processChallenge(final String challenge)\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def getSchemeName():
-    '''public String getSchemeName()
+    '''returns String\n\n
+    getSchemeName()\n
     '''
 def isConnectionBased():
-    '''public boolean isConnectionBased()
+    '''returns boolean\n\n
+    isConnectionBased()\n
     '''
 def authenticate():
-    '''public String authenticate(final Credentials credentials, final String method, final String uri)
-    public String authenticate(final Credentials credentials, final HttpMethod method)
-    '''
-def createCnonce():
-    '''public static String createCnonce()
+    '''returns String\n\n
+    authenticate(final Credentials credentials, final String method, final String uri)\n
+    authenticate(final Credentials credentials, final HttpMethod method)\n
     '''

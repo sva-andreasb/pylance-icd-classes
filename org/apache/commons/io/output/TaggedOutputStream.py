@@ -1,9 +1,12 @@
-def TaggedOutputStream():
-    '''public TaggedOutputStream(final OutputStream proxy)
+def ():
+    '''returns TaggedOutputStream\n\n
+    (final OutputStream proxy)\n
     '''
 def isCauseOf():
-    '''public boolean isCauseOf(final Exception exception)
+    '''returns boolean\n\n
+    isCauseOf(final Exception exception)\n
     '''
 def throwIfCauseOf():
-    '''public void throwIfCauseOf(final Exception exception)
+    '''returns None\n\n
+    throwIfCauseOf(final Exception exception)\n
     '''

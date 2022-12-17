@@ -1,18 +1,24 @@
-def ResultMetaImpl():
-    '''public ResultMetaImpl(final ResultMetaDatum[] info)
+def ():
+    '''returns ResultMetaImpl\n\n
+    (final ResultMetaDatum[] info)\n
     '''
 def getAttrCount():
-    '''public int getAttrCount()
+    '''returns int\n\n
+    getAttrCount()\n
     '''
 def getAttrType():
-    '''public int getAttrType(final int attributeIndex)
+    '''returns int\n\n
+    getAttrType(final int attributeIndex)\n
     '''
 def getAttrName():
-    '''public String getAttrName(final int attributeIndex)
+    '''returns String\n\n
+    getAttrName(final int attributeIndex)\n
     '''
 def isArray():
-    '''public boolean isArray(final int attributeIndex)
+    '''returns boolean\n\n
+    isArray(final int attributeIndex)\n
     '''
 def getAttrObjectTypeName():
-    '''public String getAttrObjectTypeName(final int attributeIndex)
+    '''returns String\n\n
+    getAttrObjectTypeName(final int attributeIndex)\n
     '''

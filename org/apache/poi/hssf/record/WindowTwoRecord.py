@@ -1,131 +1,174 @@
 sid = "short  574"
-def WindowTwoRecord():
-    '''public WindowTwoRecord()
-    public WindowTwoRecord(final RecordInputStream in)
+def ():
+    '''returns WindowTwoRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setOptions():
-    '''public void setOptions(final short options)
+    '''returns None\n\n
+    setOptions(final short options)\n
     '''
 def setDisplayFormulas():
-    '''public void setDisplayFormulas(final boolean formulas)
+    '''returns None\n\n
+    setDisplayFormulas(final boolean formulas)\n
     '''
 def setDisplayGridlines():
-    '''public void setDisplayGridlines(final boolean gridlines)
+    '''returns None\n\n
+    setDisplayGridlines(final boolean gridlines)\n
     '''
 def setDisplayRowColHeadings():
-    '''public void setDisplayRowColHeadings(final boolean headings)
+    '''returns None\n\n
+    setDisplayRowColHeadings(final boolean headings)\n
     '''
 def setFreezePanes():
-    '''public void setFreezePanes(final boolean freezepanes)
+    '''returns None\n\n
+    setFreezePanes(final boolean freezepanes)\n
     '''
 def setDisplayZeros():
-    '''public void setDisplayZeros(final boolean zeros)
+    '''returns None\n\n
+    setDisplayZeros(final boolean zeros)\n
     '''
 def setDefaultHeader():
-    '''public void setDefaultHeader(final boolean header)
+    '''returns None\n\n
+    setDefaultHeader(final boolean header)\n
     '''
 def setArabic():
-    '''public void setArabic(final boolean isarabic)
+    '''returns None\n\n
+    setArabic(final boolean isarabic)\n
     '''
 def setDisplayGuts():
-    '''public void setDisplayGuts(final boolean guts)
+    '''returns None\n\n
+    setDisplayGuts(final boolean guts)\n
     '''
 def setFreezePanesNoSplit():
-    '''public void setFreezePanesNoSplit(final boolean freeze)
+    '''returns None\n\n
+    setFreezePanesNoSplit(final boolean freeze)\n
     '''
 def setSelected():
-    '''public void setSelected(final boolean sel)
+    '''returns None\n\n
+    setSelected(final boolean sel)\n
     '''
 def setActive():
-    '''public void setActive(final boolean p)
+    '''returns None\n\n
+    setActive(final boolean p)\n
     '''
 def setSavedInPageBreakPreview():
-    '''public void setSavedInPageBreakPreview(final boolean p)
+    '''returns None\n\n
+    setSavedInPageBreakPreview(final boolean p)\n
     '''
 def setTopRow():
-    '''public void setTopRow(final short topRow)
+    '''returns None\n\n
+    setTopRow(final short topRow)\n
     '''
 def setLeftCol():
-    '''public void setLeftCol(final short leftCol)
+    '''returns None\n\n
+    setLeftCol(final short leftCol)\n
     '''
 def setHeaderColor():
-    '''public void setHeaderColor(final int color)
+    '''returns None\n\n
+    setHeaderColor(final int color)\n
     '''
 def setPageBreakZoom():
-    '''public void setPageBreakZoom(final short zoom)
+    '''returns None\n\n
+    setPageBreakZoom(final short zoom)\n
     '''
 def setNormalZoom():
-    '''public void setNormalZoom(final short zoom)
+    '''returns None\n\n
+    setNormalZoom(final short zoom)\n
     '''
 def setReserved():
-    '''public void setReserved(final int reserved)
+    '''returns None\n\n
+    setReserved(final int reserved)\n
     '''
 def getOptions():
-    '''public short getOptions()
+    '''returns short\n\n
+    getOptions()\n
     '''
 def getDisplayFormulas():
-    '''public boolean getDisplayFormulas()
+    '''returns boolean\n\n
+    getDisplayFormulas()\n
     '''
 def getDisplayGridlines():
-    '''public boolean getDisplayGridlines()
+    '''returns boolean\n\n
+    getDisplayGridlines()\n
     '''
 def getDisplayRowColHeadings():
-    '''public boolean getDisplayRowColHeadings()
+    '''returns boolean\n\n
+    getDisplayRowColHeadings()\n
     '''
 def getFreezePanes():
-    '''public boolean getFreezePanes()
+    '''returns boolean\n\n
+    getFreezePanes()\n
     '''
 def getDisplayZeros():
-    '''public boolean getDisplayZeros()
+    '''returns boolean\n\n
+    getDisplayZeros()\n
     '''
 def getDefaultHeader():
-    '''public boolean getDefaultHeader()
+    '''returns boolean\n\n
+    getDefaultHeader()\n
     '''
 def getArabic():
-    '''public boolean getArabic()
+    '''returns boolean\n\n
+    getArabic()\n
     '''
 def getDisplayGuts():
-    '''public boolean getDisplayGuts()
+    '''returns boolean\n\n
+    getDisplayGuts()\n
     '''
 def getFreezePanesNoSplit():
-    '''public boolean getFreezePanesNoSplit()
+    '''returns boolean\n\n
+    getFreezePanesNoSplit()\n
     '''
 def getSelected():
-    '''public boolean getSelected()
+    '''returns boolean\n\n
+    getSelected()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def getSavedInPageBreakPreview():
-    '''public boolean getSavedInPageBreakPreview()
+    '''returns boolean\n\n
+    getSavedInPageBreakPreview()\n
     '''
 def getTopRow():
-    '''public short getTopRow()
+    '''returns short\n\n
+    getTopRow()\n
     '''
 def getLeftCol():
-    '''public short getLeftCol()
+    '''returns short\n\n
+    getLeftCol()\n
     '''
 def getHeaderColor():
-    '''public int getHeaderColor()
+    '''returns int\n\n
+    getHeaderColor()\n
     '''
 def getPageBreakZoom():
-    '''public short getPageBreakZoom()
+    '''returns short\n\n
+    getPageBreakZoom()\n
     '''
 def getNormalZoom():
-    '''public short getNormalZoom()
+    '''returns short\n\n
+    getNormalZoom()\n
     '''
 def getReserved():
-    '''public int getReserved()
+    '''returns int\n\n
+    getReserved()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

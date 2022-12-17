@@ -1,6 +1,8 @@
-def FldKeyAttribute():
-    '''public FldKeyAttribute(final MboValue mbv)
+def ():
+    '''returns FldKeyAttribute\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

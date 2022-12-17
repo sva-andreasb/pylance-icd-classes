@@ -1,12 +1,16 @@
-def Link():
-    '''public Link(final String sourceCiNum, final String relation2, final String targetCiNum)
+def ():
+    '''returns Link\n\n
+    (final String sourceCiNum, final String relation2, final String targetCiNum)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def compareTo():
-    '''public int compareTo(final Link o)
+    '''returns int\n\n
+    compareTo(final Link o)\n
     '''

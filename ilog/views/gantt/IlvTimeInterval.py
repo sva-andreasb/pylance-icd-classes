@@ -1,50 +1,66 @@
-def IlvTimeInterval():
-    '''public IlvTimeInterval(final Date a, final Date b)
-    public IlvTimeInterval(final Date date, final IlvDuration ilvDuration)
+def ():
+    '''returns IlvTimeInterval\n\n
+    (final Date a, final Date b)\n
+    (final Date date, final IlvDuration ilvDuration)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getStart():
-    '''public Date getStart()
+    '''returns Date\n\n
+    getStart()\n
     '''
 def setStart():
-    '''public void setStart(final Date a)
+    '''returns None\n\n
+    setStart(final Date a)\n
     '''
 def getEnd():
-    '''public Date getEnd()
+    '''returns Date\n\n
+    getEnd()\n
     '''
 def setEnd():
-    '''public void setEnd(final Date b)
+    '''returns None\n\n
+    setEnd(final Date b)\n
     '''
 def setInterval():
-    '''public void setInterval(final Date a, final Date b)
-    public void setInterval(final Date date, final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setInterval(final Date a, final Date b)\n
+    setInterval(final Date date, final IlvDuration ilvDuration)\n
     '''
 def getDuration():
-    '''public IlvDuration getDuration()
+    '''returns IlvDuration\n\n
+    getDuration()\n
     '''
 def setDuration():
-    '''public void setDuration(final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setDuration(final IlvDuration ilvDuration)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def overlaps():
-    '''public boolean overlaps(final IlvTimeInterval ilvTimeInterval)
+    '''returns boolean\n\n
+    overlaps(final IlvTimeInterval ilvTimeInterval)\n
     '''
 def intersection():
-    '''public IlvTimeInterval intersection(final IlvTimeInterval ilvTimeInterval)
+    '''returns IlvTimeInterval\n\n
+    intersection(final IlvTimeInterval ilvTimeInterval)\n
     '''
 def union():
-    '''public IlvTimeInterval union(final IlvTimeInterval ilvTimeInterval)
+    '''returns IlvTimeInterval\n\n
+    union(final IlvTimeInterval ilvTimeInterval)\n
     '''
 def contains():
-    '''public boolean contains(final Date date)
+    '''returns boolean\n\n
+    contains(final Date date)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,26 +1,34 @@
 def setMessage():
-    '''public void setMessage(final String value)
+    '''returns None\n\n
+    setMessage(final String value)\n
     '''
 def setIf():
-    '''public void setIf(final Object c)
-    public void setIf(final String c)
+    '''returns None\n\n
+    setIf(final Object c)\n
+    setIf(final String c)\n
     '''
 def setUnless():
-    '''public void setUnless(final Object c)
-    public void setUnless(final String c)
+    '''returns None\n\n
+    setUnless(final Object c)\n
+    setUnless(final String c)\n
     '''
 def setStatus():
-    '''public void setStatus(final int i)
+    '''returns None\n\n
+    setStatus(final int i)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def addText():
-    '''public void addText(final String msg)
+    '''returns None\n\n
+    addText(final String msg)\n
     '''
 def createCondition():
-    '''public ConditionBase createCondition()
+    '''returns ConditionBase\n\n
+    createCondition()\n
     '''
 def eval():
-    '''public boolean eval()
+    '''returns boolean\n\n
+    eval()\n
     '''

@@ -1,6 +1,8 @@
-def FldCommLogTmpltId():
-    '''public FldCommLogTmpltId(final MboValue mbv)
+def ():
+    '''returns FldCommLogTmpltId\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

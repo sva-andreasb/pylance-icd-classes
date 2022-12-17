@@ -1,9 +1,12 @@
-def TagMatcher():
-    '''public TagMatcher(final Iterable<String> allowedValues)
+def ():
+    '''returns TagMatcher\n\n
+    (final Iterable<String> allowedValues)\n
     '''
 def matches():
-    '''public boolean matches(final String tagName)
+    '''returns boolean\n\n
+    matches(final String tagName)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

@@ -1,6 +1,8 @@
-def ClientPermissionChecker():
-    '''public ClientPermissionChecker(final Permission permission)
+def ():
+    '''returns ClientPermissionChecker\n\n
+    (final Permission permission)\n
     '''
 def checkClientSubject():
-    '''public void checkClientSubject(final Subject subject)
+    '''returns None\n\n
+    checkClientSubject(final Subject subject)\n
     '''

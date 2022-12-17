@@ -1,126 +1,168 @@
-def BulletinBoard():
-    '''public BulletinBoard()
+def ():
+    '''returns BulletinBoard\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getResultSet():
-    '''public MboSetData getResultSet()
+    '''returns MboSetData\n\n
+    getResultSet()\n
     '''
 def setQbes():
-    '''public void setQbes(final String qbeKeyValuePair)
+    '''returns None\n\n
+    setQbes(final String qbeKeyValuePair)\n
     '''
 def isFilterSet():
-    '''public boolean isFilterSet()
+    '''returns boolean\n\n
+    isFilterSet()\n
     '''
 def setqbeandfilter():
-    '''public void setqbeandfilter()
+    '''returns None\n\n
+    setqbeandfilter()\n
     '''
 def getLabels():
-    '''public String[] getLabels()
+    '''returns String[]\n\n
+    getLabels()\n
     '''
 def hasData():
-    '''public boolean hasData()
+    '''returns boolean\n\n
+    hasData()\n
     '''
 def deleteportlet():
-    '''public int deleteportlet()
+    '''returns int\n\n
+    deleteportlet()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def setIconProperties():
-    '''public void setIconProperties()
+    '''returns None\n\n
+    setIconProperties()\n
     '''
 def getData():
-    '''public MboSetData getData()
+    '''returns MboSetData\n\n
+    getData()\n
     '''
 def getData_old():
-    '''public MboSetData getData_old()
+    '''returns MboSetData\n\n
+    getData_old()\n
     '''
 def refreshbytimer():
-    '''public int refreshbytimer()
+    '''returns int\n\n
+    refreshbytimer()\n
     '''
 def refreshedByTimer():
-    '''public boolean refreshedByTimer()
+    '''returns boolean\n\n
+    refreshedByTimer()\n
     '''
 def refreshdata():
-    '''public int refreshdata()
+    '''returns int\n\n
+    refreshdata()\n
     '''
 def setRefreshedByTimer():
-    '''public void setRefreshedByTimer(final boolean flag)
+    '''returns None\n\n
+    setRefreshedByTimer(final boolean flag)\n
     '''
 def getBBSetName():
-    '''public String getBBSetName()
+    '''returns String\n\n
+    getBBSetName()\n
     '''
 def getResultSetAttributes():
-    '''public Vector getResultSetAttributes()
+    '''returns Vector\n\n
+    getResultSetAttributes()\n
     '''
 def getQbeSetting():
-    '''public String getQbeSetting(final String attribName)
+    '''returns String\n\n
+    getQbeSetting(final String attribName)\n
     '''
 def isFiltered():
-    '''public boolean isFiltered()
+    '''returns boolean\n\n
+    isFiltered()\n
     '''
 def setFiltered():
-    '''public void setFiltered(final boolean newFlag)
+    '''returns None\n\n
+    setFiltered(final boolean newFlag)\n
     '''
 def clearfilter():
-    '''public int clearfilter()
+    '''returns int\n\n
+    clearfilter()\n
     '''
 def bbmsgviewed():
-    '''public void bbmsgviewed()
+    '''returns None\n\n
+    bbmsgviewed()\n
     '''
 def getViewedMessageIdList():
-    '''public List getViewedMessageIdList()
+    '''returns List\n\n
+    getViewedMessageIdList()\n
     '''
 def getUnViewedMessages():
-    '''public List getUnViewedMessages()
+    '''returns List\n\n
+    getUnViewedMessages()\n
     '''
 def getIsViewedValue():
-    '''public String getIsViewedValue()
+    '''returns String\n\n
+    getIsViewedValue()\n
     '''
 def setIsViewedValue():
-    '''public void setIsViewedValue(final String isViewedValue)
+    '''returns None\n\n
+    setIsViewedValue(final String isViewedValue)\n
     '''
 def getNoOfRecords():
-    '''public int getNoOfRecords()
+    '''returns int\n\n
+    getNoOfRecords()\n
     '''
 def msgCountForIcon():
-    '''public int msgCountForIcon()
+    '''returns int\n\n
+    msgCountForIcon()\n
     '''
 def isFilterToggled():
-    '''public boolean isFilterToggled()
+    '''returns boolean\n\n
+    isFilterToggled()\n
     '''
 def togglefilter():
-    '''public void togglefilter()
+    '''returns None\n\n
+    togglefilter()\n
     '''
 def isFilterOpen():
-    '''public String isFilterOpen()
+    '''returns String\n\n
+    isFilterOpen()\n
     '''
 def setFilterToggled():
-    '''public void setFilterToggled(final boolean flag)
+    '''returns None\n\n
+    setFilterToggled(final boolean flag)\n
     '''
 def isPortletStateChanged():
-    '''public boolean isPortletStateChanged()
+    '''returns boolean\n\n
+    isPortletStateChanged()\n
     '''
 def setPortletStateChanged():
-    '''public void setPortletStateChanged(final boolean newPortletState)
+    '''returns None\n\n
+    setPortletStateChanged(final boolean newPortletState)\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def resetflags():
-    '''public void resetflags()
+    '''returns None\n\n
+    resetflags()\n
     '''
 def getRenderData():
-    '''public MboSetData getRenderData()
+    '''returns MboSetData\n\n
+    getRenderData()\n
     '''
 def filter():
-    '''public void filter()
+    '''returns None\n\n
+    filter()\n
     '''
 def getStateManager():
-    '''public PortletStateImpl getStateManager()
+    '''returns PortletStateImpl\n\n
+    getStateManager()\n
     '''
 def isPortlet():
-    '''public boolean isPortlet()
+    '''returns boolean\n\n
+    isPortlet()\n
     '''

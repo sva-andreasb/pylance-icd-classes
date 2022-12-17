@@ -1,41 +1,54 @@
 sid = "short  512"
-def DimensionsRecord():
-    '''public DimensionsRecord()
-    public DimensionsRecord(final RecordInputStream in)
+def ():
+    '''returns DimensionsRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setFirstRow():
-    '''public void setFirstRow(final int row)
+    '''returns None\n\n
+    setFirstRow(final int row)\n
     '''
 def setLastRow():
-    '''public void setLastRow(final int row)
+    '''returns None\n\n
+    setLastRow(final int row)\n
     '''
 def setFirstCol():
-    '''public void setFirstCol(final short col)
+    '''returns None\n\n
+    setFirstCol(final short col)\n
     '''
 def setLastCol():
-    '''public void setLastCol(final short col)
+    '''returns None\n\n
+    setLastCol(final short col)\n
     '''
 def getFirstRow():
-    '''public int getFirstRow()
+    '''returns int\n\n
+    getFirstRow()\n
     '''
 def getLastRow():
-    '''public int getLastRow()
+    '''returns int\n\n
+    getLastRow()\n
     '''
 def getFirstCol():
-    '''public short getFirstCol()
+    '''returns short\n\n
+    getFirstCol()\n
     '''
 def getLastCol():
-    '''public short getLastCol()
+    '''returns short\n\n
+    getLastCol()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public DimensionsRecord clone()
+    '''returns DimensionsRecord\n\n
+    clone()\n
     '''

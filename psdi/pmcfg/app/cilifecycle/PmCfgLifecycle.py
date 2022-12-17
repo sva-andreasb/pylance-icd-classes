@@ -1,54 +1,72 @@
-def PmCfgLifecycle():
-    '''public PmCfgLifecycle(final MboSet ms)
+def ():
+    '''returns PmCfgLifecycle\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getLifecycleStates():
-    '''public PmCfgLifecycleStateSetRemote getLifecycleStates()
+    '''returns PmCfgLifecycleStateSetRemote\n\n
+    getLifecycleStates()\n
     '''
 def getLifecycleStateNames():
-    '''public Collection<String> getLifecycleStateNames()
+    '''returns Collection<String>\n\n
+    getLifecycleStateNames()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getLCName():
-    '''public String getLCName()
+    '''returns String\n\n
+    getLCName()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def setDefault():
-    '''public void setDefault(final boolean deflt)
+    '''returns None\n\n
+    setDefault(final boolean deflt)\n
     '''
 def setDescription():
-    '''public void setDescription(final String desc)
+    '''returns None\n\n
+    setDescription(final String desc)\n
     '''
 def setLCName():
-    '''public void setLCName(final String name)
+    '''returns None\n\n
+    setLCName(final String name)\n
     '''
 def getDefaultLifecycle():
-    '''public PmCfgLifecycleRemote getDefaultLifecycle()
+    '''returns PmCfgLifecycleRemote\n\n
+    getDefaultLifecycle()\n
     '''
 def getDefaultLifecycleState():
-    '''public PmCfgLifecycleStateRemote getDefaultLifecycleState()
+    '''returns PmCfgLifecycleStateRemote\n\n
+    getDefaultLifecycleState()\n
     '''
 def getLifecycleAssignments():
-    '''public PmCfgLifecycleAssignmentSetRemote getLifecycleAssignments()
+    '''returns PmCfgLifecycleAssignmentSetRemote\n\n
+    getLifecycleAssignments()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

@@ -1,56 +1,74 @@
-def MutablePatternModifier():
-    '''public MutablePatternModifier(final boolean isStrong)
+def ():
+    '''returns MutablePatternModifier\n\n
+    (final boolean isStrong)\n
     '''
 def setPatternInfo():
-    '''public void setPatternInfo(final AffixPatternProvider patternInfo, final NumberFormat.Field field)
+    '''returns None\n\n
+    setPatternInfo(final AffixPatternProvider patternInfo, final NumberFormat.Field field)\n
     '''
 def setPatternAttributes():
-    '''public void setPatternAttributes(final NumberFormatter.SignDisplay signDisplay, final boolean perMille)
+    '''returns None\n\n
+    setPatternAttributes(final NumberFormatter.SignDisplay signDisplay, final boolean perMille)\n
     '''
 def setSymbols():
-    '''public void setSymbols(final DecimalFormatSymbols symbols, final Currency currency, final NumberFormatter.UnitWidth unitWidth, final PluralRules rules)
+    '''returns None\n\n
+    setSymbols(final DecimalFormatSymbols symbols, final Currency currency, final NumberFormatter.UnitWidth unitWidth, final PluralRules rules)\n
     '''
 def setNumberProperties():
-    '''public void setNumberProperties(final Signum signum, final StandardPlural plural)
+    '''returns None\n\n
+    setNumberProperties(final Signum signum, final StandardPlural plural)\n
     '''
 def needsPlurals():
-    '''public boolean needsPlurals()
+    '''returns boolean\n\n
+    needsPlurals()\n
     '''
 def createImmutable():
-    '''public ImmutablePatternModifier createImmutable()
+    '''returns ImmutablePatternModifier\n\n
+    createImmutable()\n
     '''
 def addToChain():
-    '''public MicroPropsGenerator addToChain(final MicroPropsGenerator parent)
-    public ImmutablePatternModifier addToChain(final MicroPropsGenerator parent)
+    '''returns ImmutablePatternModifier\n\n
+    addToChain(final MicroPropsGenerator parent)\n
+    addToChain(final MicroPropsGenerator parent)\n
     '''
 def processQuantity():
-    '''public MicroProps processQuantity(final DecimalQuantity fq)
-    public MicroProps processQuantity(final DecimalQuantity quantity)
+    '''returns MicroProps\n\n
+    processQuantity(final DecimalQuantity fq)\n
+    processQuantity(final DecimalQuantity quantity)\n
     '''
 def apply():
-    '''public int apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)
+    '''returns int\n\n
+    apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)\n
     '''
 def getPrefixLength():
-    '''public int getPrefixLength()
+    '''returns int\n\n
+    getPrefixLength()\n
     '''
 def getCodePointCount():
-    '''public int getCodePointCount()
+    '''returns int\n\n
+    getCodePointCount()\n
     '''
 def isStrong():
-    '''public boolean isStrong()
+    '''returns boolean\n\n
+    isStrong()\n
     '''
 def containsField():
-    '''public boolean containsField(final Format.Field field)
+    '''returns boolean\n\n
+    containsField(final Format.Field field)\n
     '''
 def getParameters():
-    '''public Parameters getParameters()
+    '''returns Parameters\n\n
+    getParameters()\n
     '''
 def semanticallyEquivalent():
-    '''public boolean semanticallyEquivalent(final Modifier other)
+    '''returns boolean\n\n
+    semanticallyEquivalent(final Modifier other)\n
     '''
 def getSymbol():
-    '''public CharSequence getSymbol(final int type)
+    '''returns CharSequence\n\n
+    getSymbol(final int type)\n
     '''
 def applyToMicros():
-    '''public void applyToMicros(final MicroProps micros, final DecimalQuantity quantity)
+    '''returns None\n\n
+    applyToMicros(final MicroProps micros, final DecimalQuantity quantity)\n
     '''

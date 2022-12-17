@@ -1,3 +1,4 @@
-def EscalationStatus():
-    '''public EscalationStatus(final MboSet ms)
+def ():
+    '''returns EscalationStatus\n\n
+    (final MboSet ms)\n
     '''

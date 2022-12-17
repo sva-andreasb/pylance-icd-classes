@@ -1,6 +1,8 @@
-def RtfListItem():
-    '''public RtfListItem(final RtfDocument doc, final ListItem listItem)
+def ():
+    '''returns RtfListItem\n\n
+    (final RtfDocument doc, final ListItem listItem)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

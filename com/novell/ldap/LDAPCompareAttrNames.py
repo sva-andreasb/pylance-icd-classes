@@ -1,18 +1,23 @@
-def LDAPCompareAttrNames():
-    '''public LDAPCompareAttrNames(final String s)
-    public LDAPCompareAttrNames(final String s, final boolean b)
-    public LDAPCompareAttrNames(final String[] array)
-    public LDAPCompareAttrNames(final String[] array, final boolean[] array2)
+def ():
+    '''returns LDAPCompareAttrNames\n\n
+    (final String s)\n
+    (final String s, final boolean b)\n
+    (final String[] array)\n
+    (final String[] array, final boolean[] array2)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def compare():
-    '''public int compare(final Object o, final Object o2)
+    '''returns int\n\n
+    compare(final Object o, final Object o2)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

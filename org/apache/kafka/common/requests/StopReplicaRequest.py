@@ -1,33 +1,33 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def StopReplicaRequest():
-    '''public StopReplicaRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final int controllerId, final int controllerEpoch, final boolean deletePartitions, final Set<TopicPartition> partitions)\n
     '''
 def getErrorResponse():
-    '''public StopReplicaResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns StopReplicaResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def controllerId():
-    '''public int controllerId()
+    '''returns int\n\n
+    controllerId()\n
     '''
 def controllerEpoch():
-    '''public int controllerEpoch()
+    '''returns int\n\n
+    controllerEpoch()\n
     '''
 def deletePartitions():
-    '''public boolean deletePartitions()
+    '''returns boolean\n\n
+    deletePartitions()\n
     '''
 def partitions():
-    '''public Set<TopicPartition> partitions()
-    '''
-def parse():
-    '''public static StopReplicaRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final int controllerId, final int controllerEpoch, final boolean deletePartitions, final Set<TopicPartition> partitions)
+    '''returns Set<TopicPartition>\n\n
+    partitions()\n
     '''
 def build():
-    '''public StopReplicaRequest build(final short version)
+    '''returns StopReplicaRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

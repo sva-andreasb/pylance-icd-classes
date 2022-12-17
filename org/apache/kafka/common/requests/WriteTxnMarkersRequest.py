@@ -1,50 +1,52 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def WriteTxnMarkersRequest():
-    '''public WriteTxnMarkersRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final long producerId, final short producerEpoch, final int coordinatorEpoch, final TransactionResult result, final List<TopicPartition> partitions)\n
+    (final List<TxnMarkerEntry> markers)\n
     '''
 def markers():
-    '''public List<TxnMarkerEntry> markers()
+    '''returns List<TxnMarkerEntry>\n\n
+    markers()\n
     '''
 def getErrorResponse():
-    '''public WriteTxnMarkersResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static WriteTxnMarkersRequest parse(final ByteBuffer buffer, final short version)
+    '''returns WriteTxnMarkersResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    '''
-def TxnMarkerEntry():
-    '''public TxnMarkerEntry(final long producerId, final short producerEpoch, final int coordinatorEpoch, final TransactionResult result, final List<TopicPartition> partitions)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def producerId():
-    '''public long producerId()
+    '''returns long\n\n
+    producerId()\n
     '''
 def producerEpoch():
-    '''public short producerEpoch()
+    '''returns short\n\n
+    producerEpoch()\n
     '''
 def coordinatorEpoch():
-    '''public int coordinatorEpoch()
+    '''returns int\n\n
+    coordinatorEpoch()\n
     '''
 def transactionResult():
-    '''public TransactionResult transactionResult()
+    '''returns TransactionResult\n\n
+    transactionResult()\n
     '''
 def partitions():
-    '''public List<TopicPartition> partitions()
+    '''returns List<TopicPartition>\n\n
+    partitions()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def Builder():
-    '''public Builder(final List<TxnMarkerEntry> markers)
+    '''returns String\n\n
+    toString()\n
     '''
 def build():
-    '''public WriteTxnMarkersRequest build(final short version)
+    '''returns WriteTxnMarkersRequest\n\n
+    build(final short version)\n
     '''

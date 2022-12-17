@@ -1,111 +1,148 @@
-def HTMLObjectElement():
-    '''public HTMLObjectElement(final DOMObject domObject, final HTMLDocument htmlDocument)
+def ():
+    '''returns HTMLObjectElement\n\n
+    (final DOMObject domObject, final HTMLDocument htmlDocument)\n
     '''
 def getForm():
-    '''public HTMLFormElement getForm()
+    '''returns HTMLFormElement\n\n
+    getForm()\n
     '''
 def getCode():
-    '''public String getCode()
+    '''returns String\n\n
+    getCode()\n
     '''
 def setCode():
-    '''public void setCode(final String s)
+    '''returns None\n\n
+    setCode(final String s)\n
     '''
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getArchive():
-    '''public String getArchive()
+    '''returns String\n\n
+    getArchive()\n
     '''
 def setArchive():
-    '''public void setArchive(final String s)
+    '''returns None\n\n
+    setArchive(final String s)\n
     '''
 def getBorder():
-    '''public String getBorder()
+    '''returns String\n\n
+    getBorder()\n
     '''
 def setBorder():
-    '''public void setBorder(final String s)
+    '''returns None\n\n
+    setBorder(final String s)\n
     '''
 def getCodeBase():
-    '''public String getCodeBase()
+    '''returns String\n\n
+    getCodeBase()\n
     '''
 def setCodeBase():
-    '''public void setCodeBase(final String s)
+    '''returns None\n\n
+    setCodeBase(final String s)\n
     '''
 def getCodeType():
-    '''public String getCodeType()
+    '''returns String\n\n
+    getCodeType()\n
     '''
 def setCodeType():
-    '''public void setCodeType(final String s)
+    '''returns None\n\n
+    setCodeType(final String s)\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def setData():
-    '''public void setData(final String s)
+    '''returns None\n\n
+    setData(final String s)\n
     '''
 def getDeclare():
-    '''public boolean getDeclare()
+    '''returns boolean\n\n
+    getDeclare()\n
     '''
 def setDeclare():
-    '''public void setDeclare(final boolean b)
+    '''returns None\n\n
+    setDeclare(final boolean b)\n
     '''
 def getHeight():
-    '''public String getHeight()
+    '''returns String\n\n
+    getHeight()\n
     '''
 def setHeight():
-    '''public void setHeight(final String s)
+    '''returns None\n\n
+    setHeight(final String s)\n
     '''
 def getHspace():
-    '''public String getHspace()
+    '''returns String\n\n
+    getHspace()\n
     '''
 def setHspace():
-    '''public void setHspace(final String s)
+    '''returns None\n\n
+    setHspace(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getStandby():
-    '''public String getStandby()
+    '''returns String\n\n
+    getStandby()\n
     '''
 def setStandby():
-    '''public void setStandby(final String s)
+    '''returns None\n\n
+    setStandby(final String s)\n
     '''
 def getTabIndex():
-    '''public int getTabIndex()
+    '''returns int\n\n
+    getTabIndex()\n
     '''
 def setTabIndex():
-    '''public void setTabIndex(final int n)
+    '''returns None\n\n
+    setTabIndex(final int n)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String s)
+    '''returns None\n\n
+    setType(final String s)\n
     '''
 def getUseMap():
-    '''public String getUseMap()
+    '''returns String\n\n
+    getUseMap()\n
     '''
 def setUseMap():
-    '''public void setUseMap(final String s)
+    '''returns None\n\n
+    setUseMap(final String s)\n
     '''
 def getVspace():
-    '''public String getVspace()
+    '''returns String\n\n
+    getVspace()\n
     '''
 def setVspace():
-    '''public void setVspace(final String s)
+    '''returns None\n\n
+    setVspace(final String s)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final String s)
+    '''returns None\n\n
+    setWidth(final String s)\n
     '''
 def getContentDocument():
-    '''public Document getContentDocument()
+    '''returns Document\n\n
+    getContentDocument()\n
     '''

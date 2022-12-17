@@ -1,14 +1,18 @@
-def HeaderParser():
-    '''public HeaderParser(final String raw)
+def ():
+    '''returns HeaderParser\n\n
+    (final String raw)\n
     '''
 def findKey():
-    '''public String findKey(final int n)
+    '''returns String\n\n
+    findKey(final int n)\n
     '''
 def findValue():
-    '''public String findValue(final int n)
-    public String findValue(final String s)
-    public String findValue(final String s, final String s2)
+    '''returns String\n\n
+    findValue(final int n)\n
+    findValue(final String s)\n
+    findValue(final String s, final String s2)\n
     '''
 def findInt():
-    '''public int findInt(final String s, final int i)
+    '''returns int\n\n
+    findInt(final String s, final int i)\n
     '''

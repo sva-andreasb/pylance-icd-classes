@@ -1,75 +1,79 @@
 SIMPLE_FILE_SERVLET = "String  \"com.ibm.ws.webcontainer.servlet.SimpleFileServlet.class\""
 DEFAULT_EXTENSION_PROCESSOR_IMPL = "String  \"com.ibm.ws.webcontainer.extension.DefaultExtensionProcessorImpl.class\""
-def getInstance():
-    '''public static ConfigManager getInstance()
-    '''
-def addConfigChangeListener():
-    '''public synchronized void addConfigChangeListener(final ConfigChangeListener changeListener)
-    '''
-def removeConfigChangeListener():
-    '''public synchronized void removeConfigChangeListener(final ConfigChangeListener changeListener)
-    '''
-def fireChangedEvent():
-    '''public synchronized void fireChangedEvent()
-    '''
 def setReloadInterval():
-    '''public void setReloadInterval(final int reloadInterval)
-    '''
-def setPropertiesDirectory():
-    '''public static void setPropertiesDirectory(final String dirName)
+    '''returns None\n\n
+    setReloadInterval(final int reloadInterval)\n
     '''
 def alarm():
-    '''public void alarm(final Object alarmContext)
+    '''returns None\n\n
+    alarm(final Object alarmContext)\n
     '''
 def addLegacyCacheEntry():
-    '''public void addLegacyCacheEntry(final ConfigEntry ce)
+    '''returns None\n\n
+    addLegacyCacheEntry(final ConfigEntry ce)\n
     '''
 def getJaxRpcConfigEntry():
-    '''public ConfigEntry getJaxRpcConfigEntry(final String name)
+    '''returns ConfigEntry\n\n
+    getJaxRpcConfigEntry(final String name)\n
     '''
 def getServletCacheEntry():
-    '''public ConfigEntry getServletCacheEntry(final Object s, final String uri, final String contextRoot)
+    '''returns ConfigEntry\n\n
+    getServletCacheEntry(final Object s, final String uri, final String contextRoot)\n
     '''
 def getPortletCacheEntry():
-    '''public ConfigEntry getPortletCacheEntry(final Object s, final String uri, final String contextRoot)
+    '''returns ConfigEntry\n\n
+    getPortletCacheEntry(final Object s, final String uri, final String contextRoot)\n
     '''
 def getCacheEntry():
-    '''public ConfigEntry getCacheEntry(final Object s, final String name, final String contextRoot)
-    public ConfigEntry getCacheEntry(final Object s, final String name)
+    '''returns ConfigEntry\n\n
+    getCacheEntry(final Object s, final String name, final String contextRoot)\n
+    getCacheEntry(final Object s, final String name)\n
     '''
 def getCacheProcessor():
-    '''public CacheProcessor getCacheProcessor(final ConfigEntry ce)
+    '''returns CacheProcessor\n\n
+    getCacheProcessor(final ConfigEntry ce)\n
     '''
 def returnCacheProcessor():
-    '''public void returnCacheProcessor(final CacheProcessor cp)
+    '''returns None\n\n
+    returnCacheProcessor(final CacheProcessor cp)\n
     '''
 def loadConfig():
-    '''public boolean loadConfig(String fileName, final boolean isWarFile, final boolean isModule, final String appName, final HashMap appContext)
+    '''returns boolean\n\n
+    loadConfig(String fileName, final boolean isWarFile, final boolean isModule, final String appName, final HashMap appContext)\n
     '''
 def unloadEJBJarConfig():
-    '''public void unloadEJBJarConfig(final String fileName)
+    '''returns None\n\n
+    unloadEJBJarConfig(final String fileName)\n
     '''
 def loadEJBJarConfig():
-    '''public boolean loadEJBJarConfig(final String fileName, final String appName, final HashMap appContext)
+    '''returns boolean\n\n
+    loadEJBJarConfig(final String fileName, final String appName, final HashMap appContext)\n
     '''
 def getCacheInstances():
-    '''public ArrayList getCacheInstances()
+    '''returns ArrayList\n\n
+    getCacheInstances()\n
     '''
 def getEntries():
-    '''public ArrayList getEntries()
+    '''returns ArrayList\n\n
+    getEntries()\n
     '''
 def getCacheEntries():
-    '''public ArrayList getCacheEntries(final String instanceName)
+    '''returns ArrayList\n\n
+    getCacheEntries(final String instanceName)\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''
-def CacheProcessorPool():
-    '''public CacheProcessorPool(final int size, final String className)
+def ():
+    '''returns CacheProcessorPool\n\n
+    (final int size, final String className)\n
     '''
 def add():
-    '''public boolean add(final CacheProcessor cp)
+    '''returns boolean\n\n
+    add(final CacheProcessor cp)\n
     '''
 def addPool():
-    '''public void addPool(final int index, final String className)
+    '''returns None\n\n
+    addPool(final int index, final String className)\n
     '''

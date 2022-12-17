@@ -1,33 +1,44 @@
-def InbxConfigSet():
-    '''public InbxConfigSet(final MboServerInterface ms)
+def ():
+    '''returns InbxConfigSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setInboxColumns():
-    '''public void setInboxColumns()
+    '''returns None\n\n
+    setInboxColumns()\n
     '''
 def getColumns():
-    '''public Vector getColumns()
+    '''returns Vector\n\n
+    getColumns()\n
     '''
 def getAssignments():
-    '''public MboValueData[][] getAssignments(final int start, final int rowcount, final String sortBy)
+    '''returns MboValueData[][]\n\n
+    getAssignments(final int start, final int rowcount, final String sortBy)\n
     '''
 def getInboxColumns():
-    '''public Vector getInboxColumns()
+    '''returns Vector\n\n
+    getInboxColumns()\n
     '''
 def resetInboxColumns():
-    '''public void resetInboxColumns()
+    '''returns None\n\n
+    resetInboxColumns()\n
     '''
 def getKeyAttributeData():
-    '''public MboValueData[][] getKeyAttributeData()
+    '''returns MboValueData[][]\n\n
+    getKeyAttributeData()\n
     '''
 def getNoOfAssignments():
-    '''public int getNoOfAssignments()
+    '''returns int\n\n
+    getNoOfAssignments()\n
     '''
 def latestDate():
-    '''public String latestDate()
+    '''returns String\n\n
+    latestDate()\n
     '''
 def getInboxDescTitle():
-    '''public String getInboxDescTitle()
+    '''returns String\n\n
+    getInboxDescTitle()\n
     '''
 def getNonPersistentAttributes():
-    '''public ArrayList getNonPersistentAttributes()
+    '''returns ArrayList\n\n
+    getNonPersistentAttributes()\n
     '''

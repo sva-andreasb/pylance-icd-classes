@@ -1,52 +1,51 @@
 AUTO_CREATE_FEATURE = "String  \"http://jabber.org/protocol/pubsub#auto-create\""
-def getInstance():
-    '''public static PubSubManager getInstance(final XMPPConnection connection)
-    public static synchronized PubSubManager getInstance(final XMPPConnection connection, final BareJid pubSubService)
-    '''
 def createNode():
-    '''public LeafNode createNode()
-    public LeafNode createNode(final String nodeId)
-    public Node createNode(final String nodeId, final Form config)
-    '''
-def getNode():
-    '''public <T extends Node> T getNode(final String id)
+    '''returns Node\n\n
+    createNode()\n
+    createNode(final String nodeId)\n
+    createNode(final String nodeId, final Form config)\n
     '''
 def getOrCreateLeafNode():
-    '''public LeafNode getOrCreateLeafNode(final String id)
+    '''returns LeafNode\n\n
+    getOrCreateLeafNode(final String id)\n
     '''
 def getLeafNode():
-    '''public LeafNode getLeafNode(final String id)
-    '''
-def tryToPublishAndPossibleAutoCreate():
-    '''public <I extends Item> LeafNode tryToPublishAndPossibleAutoCreate(final String id, final I item)
+    '''returns LeafNode\n\n
+    getLeafNode(final String id)\n
     '''
 def discoverNodes():
-    '''public DiscoverItems discoverNodes(final String nodeId)
+    '''returns DiscoverItems\n\n
+    discoverNodes(final String nodeId)\n
     '''
 def getSubscriptions():
-    '''public List<Subscription> getSubscriptions()
+    '''returns List<Subscription>\n\n
+    getSubscriptions()\n
     '''
 def getAffiliations():
-    '''public List<Affiliation> getAffiliations()
+    '''returns List<Affiliation>\n\n
+    getAffiliations()\n
     '''
 def deleteNode():
-    '''public void deleteNode(final String nodeId)
+    '''returns None\n\n
+    deleteNode(final String nodeId)\n
     '''
 def getDefaultConfiguration():
-    '''public ConfigureForm getDefaultConfiguration()
+    '''returns ConfigureForm\n\n
+    getDefaultConfiguration()\n
     '''
 def getServiceJid():
-    '''public BareJid getServiceJid()
+    '''returns BareJid\n\n
+    getServiceJid()\n
     '''
 def getSupportedFeatures():
-    '''public DiscoverInfo getSupportedFeatures()
+    '''returns DiscoverInfo\n\n
+    getSupportedFeatures()\n
     '''
 def supportsAutomaticNodeCreation():
-    '''public boolean supportsAutomaticNodeCreation()
+    '''returns boolean\n\n
+    supportsAutomaticNodeCreation()\n
     '''
 def canCreateNodesAndPublishItems():
-    '''public boolean canCreateNodesAndPublishItems()
-    '''
-def getPubSubService():
-    '''public static DomainBareJid getPubSubService(final XMPPConnection connection)
+    '''returns boolean\n\n
+    canCreateNodesAndPublishItems()\n
     '''

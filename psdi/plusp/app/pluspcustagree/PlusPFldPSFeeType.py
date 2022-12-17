@@ -1,9 +1,12 @@
-def PlusPFldPSFeeType():
-    '''public PlusPFldPSFeeType(final MboValue mv)
+def ():
+    '''returns PlusPFldPSFeeType\n\n
+    (final MboValue mv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

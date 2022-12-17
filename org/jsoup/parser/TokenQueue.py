@@ -1,87 +1,111 @@
-def TokenQueue():
-    '''public TokenQueue(final String data)
+def ():
+    '''returns TokenQueue\n\n
+    (final String data)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def peek():
-    '''public char peek()
+    '''returns char\n\n
+    peek()\n
     '''
 def addFirst():
-    '''public void addFirst(final Character c)
-    public void addFirst(final String seq)
+    '''returns None\n\n
+    addFirst(final Character c)\n
+    addFirst(final String seq)\n
     '''
 def matches():
-    '''public boolean matches(final String seq)
+    '''returns boolean\n\n
+    matches(final String seq)\n
     '''
 def matchesCS():
-    '''public boolean matchesCS(final String seq)
+    '''returns boolean\n\n
+    matchesCS(final String seq)\n
     '''
 def matchesAny():
-    '''public boolean matchesAny(final String... seq)
-    public boolean matchesAny(final char... seq)
+    '''returns boolean\n\n
+    matchesAny(final String... seq)\n
+    matchesAny(final char... seq)\n
     '''
 def matchesStartTag():
-    '''public boolean matchesStartTag()
+    '''returns boolean\n\n
+    matchesStartTag()\n
     '''
 def matchChomp():
-    '''public boolean matchChomp(final String seq)
+    '''returns boolean\n\n
+    matchChomp(final String seq)\n
     '''
 def matchesWhitespace():
-    '''public boolean matchesWhitespace()
+    '''returns boolean\n\n
+    matchesWhitespace()\n
     '''
 def matchesWord():
-    '''public boolean matchesWord()
+    '''returns boolean\n\n
+    matchesWord()\n
     '''
 def advance():
-    '''public void advance()
+    '''returns None\n\n
+    advance()\n
     '''
 def consume():
-    '''public char consume()
-    public void consume(final String seq)
+    '''returns None\n\n
+    consume()\n
+    consume(final String seq)\n
     '''
 def consumeTo():
-    '''public String consumeTo(final String seq)
+    '''returns String\n\n
+    consumeTo(final String seq)\n
     '''
 def consumeToIgnoreCase():
-    '''public String consumeToIgnoreCase(final String seq)
+    '''returns String\n\n
+    consumeToIgnoreCase(final String seq)\n
     '''
 def consumeToAny():
-    '''public String consumeToAny(final String... seq)
+    '''returns String\n\n
+    consumeToAny(final String... seq)\n
     '''
 def chompTo():
-    '''public String chompTo(final String seq)
+    '''returns String\n\n
+    chompTo(final String seq)\n
     '''
 def chompToIgnoreCase():
-    '''public String chompToIgnoreCase(final String seq)
+    '''returns String\n\n
+    chompToIgnoreCase(final String seq)\n
     '''
 def chompBalanced():
-    '''public String chompBalanced(final char open, final char close)
-    '''
-def unescape():
-    '''public static String unescape(final String in)
+    '''returns String\n\n
+    chompBalanced(final char open, final char close)\n
     '''
 def consumeWhitespace():
-    '''public boolean consumeWhitespace()
+    '''returns boolean\n\n
+    consumeWhitespace()\n
     '''
 def consumeWord():
-    '''public String consumeWord()
+    '''returns String\n\n
+    consumeWord()\n
     '''
 def consumeTagName():
-    '''public String consumeTagName()
+    '''returns String\n\n
+    consumeTagName()\n
     '''
 def consumeElementSelector():
-    '''public String consumeElementSelector()
+    '''returns String\n\n
+    consumeElementSelector()\n
     '''
 def consumeCssIdentifier():
-    '''public String consumeCssIdentifier()
+    '''returns String\n\n
+    consumeCssIdentifier()\n
     '''
 def consumeAttributeKey():
-    '''public String consumeAttributeKey()
+    '''returns String\n\n
+    consumeAttributeKey()\n
     '''
 def remainder():
-    '''public String remainder()
+    '''returns String\n\n
+    remainder()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

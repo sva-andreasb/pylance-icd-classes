@@ -1,3 +1,4 @@
-def PmCfgCISet():
-    '''public PmCfgCISet(final MboServerInterface ms)
+def ():
+    '''returns PmCfgCISet\n\n
+    (final MboServerInterface ms)\n
     '''

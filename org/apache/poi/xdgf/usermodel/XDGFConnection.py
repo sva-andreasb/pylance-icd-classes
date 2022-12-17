@@ -21,27 +21,35 @@ visGuideY = "int  2"
 visWholeShape = "int  3"
 visGuideIntersect = "int  4"
 visToAngle = "int  7"
-def XDGFConnection():
-    '''public XDGFConnection(final ConnectType connect, final XDGFShape from, final XDGFShape to)
+def ():
+    '''returns XDGFConnection\n\n
+    (final ConnectType connect, final XDGFShape from, final XDGFShape to)\n
     '''
 def getFromShape():
-    '''public XDGFShape getFromShape()
+    '''returns XDGFShape\n\n
+    getFromShape()\n
     '''
 def getFromCell():
-    '''public XDGFCell getFromCell()
+    '''returns XDGFCell\n\n
+    getFromCell()\n
     '''
 def getFromCellName():
-    '''public String getFromCellName()
+    '''returns String\n\n
+    getFromCellName()\n
     '''
 def getToShape():
-    '''public XDGFShape getToShape()
+    '''returns XDGFShape\n\n
+    getToShape()\n
     '''
 def getToCellName():
-    '''public String getToCellName()
+    '''returns String\n\n
+    getToCellName()\n
     '''
 def getFromPart():
-    '''public Integer getFromPart()
+    '''returns Integer\n\n
+    getFromPart()\n
     '''
 def getToPart():
-    '''public Integer getToPart()
+    '''returns Integer\n\n
+    getToPart()\n
     '''

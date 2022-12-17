@@ -1,3 +1,4 @@
-def FactoryInjectionComponent():
-    '''public FactoryInjectionComponent()
+def ():
+    '''returns FactoryInjectionComponent\n\n
+    ()\n
     '''

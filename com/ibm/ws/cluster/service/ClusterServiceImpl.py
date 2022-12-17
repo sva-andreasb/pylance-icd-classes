@@ -1,54 +1,68 @@
-def ClusterServiceImpl():
-    '''public ClusterServiceImpl()
+def ():
+    '''returns ClusterObserverWeakReference\n\n
+    ()\n
+    (final Object obj)\n
+    (final Object obj, final ReferenceQueue refQ)\n
     '''
 def getCoidentifiers():
-    '''public Map getCoidentifiers()
+    '''returns Map\n\n
+    getCoidentifiers()\n
     '''
 def getIdentity():
-    '''public Identity getIdentity(final Map nameValuePairs)
+    '''returns Identity\n\n
+    getIdentity(final Map nameValuePairs)\n
     '''
 def getClusterScopedData():
-    '''public byte[] getClusterScopedData(final Identity clusterIdentity, final Identity dataIdentity)
+    '''returns byte[]\n\n
+    getClusterScopedData(final Identity clusterIdentity, final Identity dataIdentity)\n
     '''
 def getMemberScopedData():
-    '''public byte[] getMemberScopedData(final Identity memberIdentity, final Identity dataIdentity)
+    '''returns byte[]\n\n
+    getMemberScopedData(final Identity memberIdentity, final Identity dataIdentity)\n
     '''
 def getClientClusterContextListener():
-    '''public ClientClusterContext getClientClusterContextListener(final List clusters)
+    '''returns ClientClusterContext\n\n
+    getClientClusterContextListener(final List clusters)\n
     '''
 def registerInterest():
-    '''public void registerInterest(final ClusterObserver observer, final Identity identifier, final String type)
+    '''returns None\n\n
+    registerInterest(final ClusterObserver observer, final Identity identifier, final String type)\n
     '''
 def deregisterInterest():
-    '''public void deregisterInterest(final ClusterObserver observer, final Identity identifier, final String type)
+    '''returns None\n\n
+    deregisterInterest(final ClusterObserver observer, final Identity identifier, final String type)\n
     '''
 def getMemberIdentities():
-    '''public Identity[] getMemberIdentities(final Identity clusterIdentity)
+    '''returns Identity[]\n\n
+    getMemberIdentities(final Identity clusterIdentity)\n
     '''
 def handleNotification():
-    '''public void handleNotification(final DescriptionKey key, String type, Object data, final Object handback)
+    '''returns None\n\n
+    handleNotification(final DescriptionKey key, String type, Object data, final Object handback)\n
     '''
 def matchEndPoints():
-    '''public EndPoint[] matchEndPoints(final Identity owningIdentity, final Map matchProperties)
-    public EndPoint[] matchEndPoints(final Map endPoints, final Map propertyNames)
+    '''returns EndPoint[]\n\n
+    matchEndPoints(final Identity owningIdentity, final Map matchProperties)\n
+    matchEndPoints(final Map endPoints, final Map propertyNames)\n
     '''
 def identityToString():
-    '''public String identityToString(final Identity identity)
+    '''returns String\n\n
+    identityToString(final Identity identity)\n
     '''
 def stringToIdentity():
-    '''public Identity stringToIdentity(final String identityString)
+    '''returns Identity\n\n
+    stringToIdentity(final String identityString)\n
     '''
 def getActiveClusterSet():
-    '''public Set getActiveClusterSet()
-    public Set getActiveClusterSet(final String cellName)
-    '''
-def ClusterObserverWeakReference():
-    '''public ClusterObserverWeakReference(final Object obj)
-    public ClusterObserverWeakReference(final Object obj, final ReferenceQueue refQ)
+    '''returns Set\n\n
+    getActiveClusterSet()\n
+    getActiveClusterSet(final String cellName)\n
     '''
 def equals():
-    '''public boolean equals(final Object b)
+    '''returns boolean\n\n
+    equals(final Object b)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

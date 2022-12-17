@@ -1,10 +1,13 @@
-def OSDefnScriptContext():
-    '''public OSDefnScriptContext(final String scriptName, final String launchPointName, final Mbo mbo)
+def ():
+    '''returns OSDefnScriptContext\n\n
+    (final String scriptName, final String launchPointName, final Mbo mbo)\n
     '''
 def overrideCol():
-    '''public void overrideCol(final String colName, final Object value)
+    '''returns None\n\n
+    overrideCol(final String colName, final Object value)\n
     '''
 def skipCol():
-    '''public void skipCol(final String col)
-    public void skipCol(final String... cols)
+    '''returns None\n\n
+    skipCol(final String col)\n
+    skipCol(final String... cols)\n
     '''

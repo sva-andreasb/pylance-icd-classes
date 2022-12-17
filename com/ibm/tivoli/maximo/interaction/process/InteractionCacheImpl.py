@@ -1,21 +1,22 @@
-def InteractionCacheImpl():
-    '''public InteractionCacheImpl()
+def ():
+    '''returns InteractionCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public synchronized void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getAllInteractions():
-    '''public Map<String, InteractionInfo> getAllInteractions()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInteractionInfo():
-    '''public InteractionInfo getInteractionInfo(final String name)
-    public InteractionInfo getInteractionInfo(final String sigoption, final String appname)
-    public InteractionInfo getInteractionInfo(final String mainObjectName, final String relation, final String topObject)
+    '''returns InteractionInfo\n\n
+    getInteractionInfo(final String name)\n
+    getInteractionInfo(final String sigoption, final String appname)\n
+    getInteractionInfo(final String mainObjectName, final String relation, final String topObject)\n
     '''

@@ -1,22 +1,25 @@
-def getInstanceFor():
-    '''public static synchronized IoTDataManager getInstanceFor(final XMPPConnection connection)
-    '''
 def handleIoTIqRequest():
-    '''public IQ handleIoTIqRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIoTIqRequest(final IQ iqRequest)\n
     '''
 def momentaryReadOut():
-    '''public void momentaryReadOut(final List<? extends IoTDataField> results)
+    '''returns None\n\n
+    momentaryReadOut(final List<? extends IoTDataField> results)\n
     '''
 def installThing():
-    '''public void installThing(final Thing thing)
+    '''returns None\n\n
+    installThing(final Thing thing)\n
     '''
 def uninstallThing():
-    '''public Thing uninstallThing(final Thing thing)
-    public Thing uninstallThing(final NodeInfo nodeInfo)
+    '''returns Thing\n\n
+    uninstallThing(final Thing thing)\n
+    uninstallThing(final NodeInfo nodeInfo)\n
     '''
 def requestMomentaryValuesReadOut():
-    '''public List<IoTFieldsExtension> requestMomentaryValuesReadOut(final EntityFullJid jid)
+    '''returns List<IoTFieldsExtension>\n\n
+    requestMomentaryValuesReadOut(final EntityFullJid jid)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

@@ -1,35 +1,46 @@
 SCHEDULER_MSG_GROUP = "String  \"scheduler\""
 def label():
-    '''public String label(final String key)
+    '''returns String\n\n
+    label(final String key)\n
     '''
 def filterCss():
-    '''public String filterCss(final String css, final MiniAppControl control)
+    '''returns String\n\n
+    filterCss(final String css, final MiniAppControl control)\n
     '''
 def getBaseImageUrl():
-    '''public String getBaseImageUrl()
+    '''returns String\n\n
+    getBaseImageUrl()\n
     '''
 def getPresentationOptions():
-    '''public JSONObject getPresentationOptions()
+    '''returns JSONObject\n\n
+    getPresentationOptions()\n
     '''
 def discoverWeather():
-    '''public JSONObject discoverWeather()
+    '''returns JSONObject\n\n
+    discoverWeather()\n
     '''
 def discoverWeatherWithOptions():
-    '''public JSONObject discoverWeatherWithOptions(@MXEventParam("options") final JSONObject options)
+    '''returns JSONObject\n\n
+    discoverWeatherWithOptions(@MXEventParam("options") final JSONObject options)\n
     '''
 def jsonError():
-    '''public JSONObject jsonError(final int code, final String text)
-    public JSONObject jsonError(final int code, final String text, final Throwable t)
+    '''returns JSONObject\n\n
+    jsonError(final int code, final String text)\n
+    jsonError(final int code, final String text, final Throwable t)\n
     '''
 def getCurrentWeather():
-    '''public JSONObject getCurrentWeather(@MXEventParam("lat") final double lat, @MXEventParam("lng") final double lng)
+    '''returns JSONObject\n\n
+    getCurrentWeather(@MXEventParam("lat") final double lat, @MXEventParam("lng") final double lng)\n
     '''
 def getDailyWeather():
-    '''public JSONObject getDailyWeather(@MXEventParam("lat") final double lat, @MXEventParam("lng") final double lng)
+    '''returns JSONObject\n\n
+    getDailyWeather(@MXEventParam("lat") final double lat, @MXEventParam("lng") final double lng)\n
     '''
 def getHourlyWeather():
-    '''public JSONObject getHourlyWeather(@MXEventParam("lat") final double lat, @MXEventParam("lng") final double lng)
+    '''returns JSONObject\n\n
+    getHourlyWeather(@MXEventParam("lat") final double lat, @MXEventParam("lng") final double lng)\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''

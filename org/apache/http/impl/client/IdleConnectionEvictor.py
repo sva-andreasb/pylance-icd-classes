@@ -1,23 +1,30 @@
-def IdleConnectionEvictor():
-    '''public IdleConnectionEvictor(final HttpClientConnectionManager connectionManager, final ThreadFactory threadFactory, final long sleepTime, final TimeUnit sleepTimeUnit, final long maxIdleTime, final TimeUnit maxIdleTimeUnit)
-    public IdleConnectionEvictor(final HttpClientConnectionManager connectionManager, final long sleepTime, final TimeUnit sleepTimeUnit, final long maxIdleTime, final TimeUnit maxIdleTimeUnit)
-    public IdleConnectionEvictor(final HttpClientConnectionManager connectionManager, final long maxIdleTime, final TimeUnit maxIdleTimeUnit)
+def ():
+    '''returns IdleConnectionEvictor\n\n
+    (final HttpClientConnectionManager connectionManager, final ThreadFactory threadFactory, final long sleepTime, final TimeUnit sleepTimeUnit, final long maxIdleTime, final TimeUnit maxIdleTimeUnit)\n
+    (final HttpClientConnectionManager connectionManager, final long sleepTime, final TimeUnit sleepTimeUnit, final long maxIdleTime, final TimeUnit maxIdleTimeUnit)\n
+    (final HttpClientConnectionManager connectionManager, final long maxIdleTime, final TimeUnit maxIdleTimeUnit)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def isRunning():
-    '''public boolean isRunning()
+    '''returns boolean\n\n
+    isRunning()\n
     '''
 def awaitTermination():
-    '''public void awaitTermination(final long time, final TimeUnit tunit)
+    '''returns None\n\n
+    awaitTermination(final long time, final TimeUnit tunit)\n
     '''
 def newThread():
-    '''public Thread newThread(final Runnable r)
+    '''returns Thread\n\n
+    newThread(final Runnable r)\n
     '''

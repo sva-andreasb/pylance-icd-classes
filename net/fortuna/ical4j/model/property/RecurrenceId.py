@@ -1,19 +1,16 @@
-def RecurrenceId():
-    '''public RecurrenceId()
-    public RecurrenceId(final TimeZone timezone)
-    public RecurrenceId(final String value)
-    public RecurrenceId(final String value, final TimeZone timezone)
-    public RecurrenceId(final ParameterList aList, final String aValue)
-    public RecurrenceId(final Date aDate)
-    public RecurrenceId(final ParameterList aList, final Date aDate)
-    '''
-def validate():
-    '''public final void validate()
-    '''
-def Factory():
-    '''public Factory()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final TimeZone timezone)\n
+    (final String value)\n
+    (final String value, final TimeZone timezone)\n
+    (final ParameterList aList, final String aValue)\n
+    (final Date aDate)\n
+    (final ParameterList aList, final Date aDate)\n
+    ()\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

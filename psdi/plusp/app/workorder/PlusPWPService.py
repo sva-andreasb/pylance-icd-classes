@@ -1,24 +1,32 @@
-def PlusPWPService():
-    '''public PlusPWPService(final MboSet arg0)
+def ():
+    '''returns PlusPWPService\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''
 def updatePrice():
-    '''public void updatePrice()
+    '''returns None\n\n
+    updatePrice()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def copyPlan():
-    '''public void copyPlan(final MboRemote source)
+    '''returns None\n\n
+    copyPlan(final MboRemote source)\n
     '''
 def isDirectReq():
-    '''public boolean isDirectReq()
+    '''returns boolean\n\n
+    isDirectReq()\n
     '''

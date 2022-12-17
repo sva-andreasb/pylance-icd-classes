@@ -1,3 +1,4 @@
-def DoctypesSet():
-    '''public DoctypesSet(final MboServerInterface ms)
+def ():
+    '''returns DoctypesSet\n\n
+    (final MboServerInterface ms)\n
     '''

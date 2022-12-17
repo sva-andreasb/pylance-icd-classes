@@ -1,15 +1,20 @@
-def PlusPPriceSchedRevDup():
-    '''public PlusPPriceSchedRevDup(final MboSet ms)
+def ():
+    '''returns PlusPPriceSchedRevDup\n\n
+    (final MboSet ms)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String s, final String s2)
+    '''returns None\n\n
+    propagateKeyValue(final String s, final String s2)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

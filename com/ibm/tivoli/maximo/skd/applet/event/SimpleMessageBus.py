@@ -1,21 +1,24 @@
-def SimpleMessageBus():
-    '''public SimpleMessageBus()
-    '''
-def getInstance():
-    '''public static SimpleMessageBus getInstance()
+def ():
+    '''returns SimpleMessageBus\n\n
+    ()\n
     '''
 def registerListener():
-    '''public void registerListener(final String id, final MessageHandler handler, final boolean single)
+    '''returns None\n\n
+    registerListener(final String id, final MessageHandler handler, final boolean single)\n
     '''
 def postMessage():
-    '''public void postMessage(final String msgId, final Object... args)
+    '''returns None\n\n
+    postMessage(final String msgId, final Object... args)\n
     '''
 def removeListener():
-    '''public void removeListener(final String msgId, final MessageHandler handler)
+    '''returns None\n\n
+    removeListener(final String msgId, final MessageHandler handler)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getHandlers():
-    '''public List<MessageHandler> getHandlers(final String id)
+    '''returns List<MessageHandler>\n\n
+    getHandlers(final String id)\n
     '''

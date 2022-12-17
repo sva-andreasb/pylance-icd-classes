@@ -1,20 +1,26 @@
-def HttpGZIPResponseStream():
-    '''public HttpGZIPResponseStream(final HttpServletResponse response)
+def ():
+    '''returns HttpGZIPResponseStream\n\n
+    (final HttpServletResponse response)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b)
-    public void write(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b)\n
+    write(final byte[] b, final int off, final int len)\n
     '''
 def closed():
-    '''public boolean closed()
+    '''returns boolean\n\n
+    closed()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

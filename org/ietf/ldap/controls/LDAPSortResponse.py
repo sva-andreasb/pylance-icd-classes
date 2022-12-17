@@ -1,9 +1,12 @@
-def LDAPSortResponse():
-    '''public LDAPSortResponse(final String s, final boolean b, final byte[] array)
+def ():
+    '''returns LDAPSortResponse\n\n
+    (final String s, final boolean b, final byte[] array)\n
     '''
 def getFailedAttribute():
-    '''public String getFailedAttribute()
+    '''returns String\n\n
+    getFailedAttribute()\n
     '''
 def getResultCode():
-    '''public int getResultCode()
+    '''returns int\n\n
+    getResultCode()\n
     '''

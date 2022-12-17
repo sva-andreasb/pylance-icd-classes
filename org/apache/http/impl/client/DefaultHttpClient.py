@@ -1,9 +1,7 @@
-def DefaultHttpClient():
-    '''public DefaultHttpClient(final ClientConnectionManager conman, final HttpParams params)
-    public DefaultHttpClient(final ClientConnectionManager conman)
-    public DefaultHttpClient(final HttpParams params)
-    public DefaultHttpClient()
-    '''
-def setDefaultHttpParams():
-    '''public static void setDefaultHttpParams(final HttpParams params)
+def ():
+    '''returns DefaultHttpClient\n\n
+    (final ClientConnectionManager conman, final HttpParams params)\n
+    (final ClientConnectionManager conman)\n
+    (final HttpParams params)\n
+    ()\n
     '''

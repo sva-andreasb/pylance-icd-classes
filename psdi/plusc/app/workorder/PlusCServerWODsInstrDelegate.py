@@ -1,6 +1,8 @@
-def PlusCServerWODsInstrDelegate():
-    '''public PlusCServerWODsInstrDelegate(final MboAdapter mbo)
+def ():
+    '''returns PlusCServerWODsInstrDelegate\n\n
+    (final MboAdapter mbo)\n
     '''
 def getWODsPointSet():
-    '''public MboSetAdapter getWODsPointSet(final boolean fromMemory)
+    '''returns MboSetAdapter\n\n
+    getWODsPointSet(final boolean fromMemory)\n
     '''

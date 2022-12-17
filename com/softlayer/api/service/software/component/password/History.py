@@ -1,81 +1,108 @@
 def getSoftwareComponent():
-    '''public Component getSoftwareComponent()
+    '''returns Component\n\n
+    getSoftwareComponent()\n
     '''
 def setSoftwareComponent():
-    '''public void setSoftwareComponent(final Component softwareComponent)
+    '''returns None\n\n
+    setSoftwareComponent(final Component softwareComponent)\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def isPasswordSpecified():
-    '''public boolean isPasswordSpecified()
+    '''returns boolean\n\n
+    isPasswordSpecified()\n
     '''
 def unsetPassword():
-    '''public void unsetPassword()
+    '''returns None\n\n
+    unsetPassword()\n
     '''
 def getSoftwareComponentId():
-    '''public Long getSoftwareComponentId()
+    '''returns Long\n\n
+    getSoftwareComponentId()\n
     '''
 def setSoftwareComponentId():
-    '''public void setSoftwareComponentId(final Long softwareComponentId)
+    '''returns None\n\n
+    setSoftwareComponentId(final Long softwareComponentId)\n
     '''
 def isSoftwareComponentIdSpecified():
-    '''public boolean isSoftwareComponentIdSpecified()
+    '''returns boolean\n\n
+    isSoftwareComponentIdSpecified()\n
     '''
 def unsetSoftwareComponentId():
-    '''public void unsetSoftwareComponentId()
+    '''returns None\n\n
+    unsetSoftwareComponentId()\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def setUsername():
-    '''public void setUsername(final String username)
+    '''returns None\n\n
+    setUsername(final String username)\n
     '''
 def isUsernameSpecified():
-    '''public boolean isUsernameSpecified()
+    '''returns boolean\n\n
+    isUsernameSpecified()\n
     '''
 def unsetUsername():
-    '''public void unsetUsername()
+    '''returns None\n\n
+    unsetUsername()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def password():
-    '''public Mask password()
+    '''returns Mask\n\n
+    password()\n
     '''
 def softwareComponentId():
-    '''public Mask softwareComponentId()
+    '''returns Mask\n\n
+    softwareComponentId()\n
     '''
 def username():
-    '''public Mask username()
+    '''returns Mask\n\n
+    username()\n
     '''

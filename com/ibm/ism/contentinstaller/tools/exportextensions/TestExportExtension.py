@@ -1,6 +1,8 @@
-def TestExportExtension():
-    '''public TestExportExtension()
+def ():
+    '''returns TestExportExtension\n\n
+    ()\n
     '''
 def processObject():
-    '''public boolean processObject(final Connection con, final PrintStream log, final Element e, final int mode)
+    '''returns boolean\n\n
+    processObject(final Connection con, final PrintStream log, final Element e, final int mode)\n
     '''

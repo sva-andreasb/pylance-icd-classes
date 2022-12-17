@@ -1,69 +1,91 @@
 CLASS = "String  \"class\""
-def ObjectSearchAppBean():
-    '''public ObjectSearchAppBean()
+def ():
+    '''returns ObjectSearchAppBean\n\n
+    ()\n
     '''
 def copyField():
-    '''public int copyField()
+    '''returns int\n\n
+    copyField()\n
     '''
 def incidentTabSelected():
-    '''public int incidentTabSelected()
+    '''returns int\n\n
+    incidentTabSelected()\n
     '''
 def newincidentsearch():
-    '''public int newincidentsearch()
+    '''returns int\n\n
+    newincidentsearch()\n
     '''
 def srTabSelected():
-    '''public int srTabSelected()
+    '''returns int\n\n
+    srTabSelected()\n
     '''
 def newsrsearch():
-    '''public int newsrsearch()
+    '''returns int\n\n
+    newsrsearch()\n
     '''
 def problemTabSelected():
-    '''public int problemTabSelected()
+    '''returns int\n\n
+    problemTabSelected()\n
     '''
 def newproblemsearch():
-    '''public int newproblemsearch()
+    '''returns int\n\n
+    newproblemsearch()\n
     '''
 def solutionTabSelected():
-    '''public int solutionTabSelected()
+    '''returns int\n\n
+    solutionTabSelected()\n
     '''
 def newsolutionsearch():
-    '''public int newsolutionsearch()
+    '''returns int\n\n
+    newsolutionsearch()\n
     '''
 def newkmsearch():
-    '''public int newkmsearch()
+    '''returns int\n\n
+    newkmsearch()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
-    public void setQbe(final String attribute, final MboSetRemote expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
+    setQbe(final String attribute, final MboSetRemote expression)\n
     '''
 def setQbeNoPropagate():
-    '''public void setQbeNoPropagate(final String arg0, final MboSetRemote arg1)
-    public void setQbeNoPropagate(final String arg0, final String arg1)
+    '''returns None\n\n
+    setQbeNoPropagate(final String arg0, final MboSetRemote arg1)\n
+    setQbeNoPropagate(final String arg0, final String arg1)\n
     '''
 def applySolution():
-    '''public int applySolution()
+    '''returns int\n\n
+    applySolution()\n
     '''
 def relateTicket():
-    '''public int relateTicket()
+    '''returns int\n\n
+    relateTicket()\n
     '''
 def relateMultipleTickets():
-    '''public int relateMultipleTickets()
+    '''returns int\n\n
+    relateMultipleTickets()\n
     '''
 def relateSolution():
-    '''public int relateSolution()
+    '''returns int\n\n
+    relateSolution()\n
     '''
 def refresh():
-    '''public int refresh()
+    '''returns int\n\n
+    refresh()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def clearfilterOld():
-    '''public int clearfilterOld()
+    '''returns int\n\n
+    clearfilterOld()\n
     '''
 def doClearfilter():
-    '''public int doClearfilter()
+    '''returns int\n\n
+    doClearfilter()\n
     '''
 def getExtendedToolTip():
-    '''public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''returns JSONObject\n\n
+    getExtendedToolTip(final JSONObject definition)\n
     '''

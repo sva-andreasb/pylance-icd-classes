@@ -1,11 +1,14 @@
-def NumberDateFormat():
-    '''public NumberDateFormat(final DateFormat dateFormat)
+def ():
+    '''returns NumberDateFormat\n\n
+    (final DateFormat dateFormat)\n
     '''
 def format():
-    '''public StringBuffer format(final double number, final StringBuffer toAppendTo, final FieldPosition pos)
-    public StringBuffer format(final long number, final StringBuffer toAppendTo, final FieldPosition pos)
-    public StringBuffer format(final Object number, final StringBuffer toAppendTo, final FieldPosition pos)
+    '''returns StringBuffer\n\n
+    format(final double number, final StringBuffer toAppendTo, final FieldPosition pos)\n
+    format(final long number, final StringBuffer toAppendTo, final FieldPosition pos)\n
+    format(final Object number, final StringBuffer toAppendTo, final FieldPosition pos)\n
     '''
 def parse():
-    '''public Number parse(final String source, final ParsePosition parsePosition)
+    '''returns Number\n\n
+    parse(final String source, final ParsePosition parsePosition)\n
     '''

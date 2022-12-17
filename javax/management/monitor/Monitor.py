@@ -1,48 +1,44 @@
-def getGranularityPeriod():
-    '''public synchronized long getGranularityPeriod()
-    '''
-def Monitor():
-    '''public Monitor()
+def ():
+    '''returns Monitor\n\n
+    ()\n
     '''
 def postDeregister():
-    '''public void postDeregister()
+    '''returns None\n\n
+    postDeregister()\n
     '''
 def preDeregister():
-    '''public void preDeregister()
-    '''
-def isActive():
-    '''public synchronized boolean isActive()
-    '''
-def setGranularityPeriod():
-    '''public synchronized void setGranularityPeriod(final long granularityPeriod)
+    '''returns None\n\n
+    preDeregister()\n
     '''
 def postRegister():
-    '''public void postRegister(final Boolean b)
+    '''returns None\n\n
+    postRegister(final Boolean b)\n
     '''
 def getObservedAttribute():
-    '''public String getObservedAttribute()
+    '''returns String\n\n
+    getObservedAttribute()\n
     '''
 def setObservedAttribute():
-    '''public void setObservedAttribute(final String observedAttribute)
+    '''returns None\n\n
+    setObservedAttribute(final String observedAttribute)\n
     '''
 def getObservedObject():
-    '''public ObjectName getObservedObject()
+    '''returns ObjectName\n\n
+    getObservedObject()\n
     '''
 def getObservedObjects():
-    '''public ObjectName[] getObservedObjects()
-    '''
-def addObservedObject():
-    '''public synchronized void addObservedObject(final ObjectName objectName)
+    '''returns ObjectName[]\n\n
+    getObservedObjects()\n
     '''
 def removeObservedObject():
-    '''public void removeObservedObject(final ObjectName objectName)
-    '''
-def setObservedObject():
-    '''public synchronized void setObservedObject(final ObjectName objectName)
+    '''returns None\n\n
+    removeObservedObject(final ObjectName objectName)\n
     '''
 def containsObservedObject():
-    '''public boolean containsObservedObject(final ObjectName objectName)
+    '''returns boolean\n\n
+    containsObservedObject(final ObjectName objectName)\n
     '''
 def preRegister():
-    '''public ObjectName preRegister(final MBeanServer server, final ObjectName objectName)
+    '''returns ObjectName\n\n
+    preRegister(final MBeanServer server, final ObjectName objectName)\n
     '''

@@ -1,41 +1,35 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def forAllPartitions():
-    '''public static OffsetFetchRequest forAllPartitions(final String groupId)
-    '''
-def OffsetFetchRequest():
-    '''public OffsetFetchRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final String groupId, final List<TopicPartition> partitions)\n
     '''
 def getErrorResponse():
-    '''public OffsetFetchResponse getErrorResponse(final Errors error)
-    public OffsetFetchResponse getErrorResponse(final int throttleTimeMs, final Errors error)
-    public OffsetFetchResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns OffsetFetchResponse\n\n
+    getErrorResponse(final Errors error)\n
+    getErrorResponse(final int throttleTimeMs, final Errors error)\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def groupId():
-    '''public String groupId()
+    '''returns String\n\n
+    groupId()\n
     '''
 def partitions():
-    '''public List<TopicPartition> partitions()
-    '''
-def parse():
-    '''public static OffsetFetchRequest parse(final ByteBuffer buffer, final short version)
+    '''returns List<TopicPartition>\n\n
+    partitions()\n
     '''
 def isAllPartitions():
-    '''public boolean isAllPartitions()
-    '''
-def Builder():
-    '''public Builder(final String groupId, final List<TopicPartition> partitions)
-    '''
-def allTopicPartitions():
-    '''public static Builder allTopicPartitions(final String groupId)
+    '''returns boolean\n\n
+    isAllPartitions()\n
     '''
 def isAllTopicPartitions():
-    '''public boolean isAllTopicPartitions()
+    '''returns boolean\n\n
+    isAllTopicPartitions()\n
     '''
 def build():
-    '''public OffsetFetchRequest build(final short version)
+    '''returns OffsetFetchRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

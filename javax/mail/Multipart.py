@@ -1,23 +1,25 @@
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def removeBodyPart():
-    '''public void removeBodyPart(final int index)
-    public boolean removeBodyPart(final BodyPart part)
+    '''returns boolean\n\n
+    removeBodyPart(final int index)\n
+    removeBodyPart(final BodyPart part)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getBodyPart():
-    '''public BodyPart getBodyPart(final int index)
-    '''
-def addBodyPart():
-    '''public synchronized void addBodyPart(final BodyPart part)
-    public synchronized void addBodyPart(final BodyPart part, final int index)
+    '''returns BodyPart\n\n
+    getBodyPart(final int index)\n
     '''
 def getParent():
-    '''public Part getParent()
+    '''returns Part\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final Part parent)
+    '''returns None\n\n
+    setParent(final Part parent)\n
     '''

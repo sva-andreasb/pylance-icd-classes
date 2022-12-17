@@ -1,33 +1,40 @@
-def NodeToTriplesMapBase():
-    '''public NodeToTriplesMapBase(final Triple.Field indexField, final Triple.Field f2, final Triple.Field f3)
-    '''
-def domain():
-    '''public final Iterator<Object> domain()
+def ():
+    '''returns NodeToTriplesMapBase\n\n
+    (final Triple.Field indexField, final Triple.Field f2, final Triple.Field f3)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def removedOneViaIterator():
-    '''public void removedOneViaIterator()
+    '''returns None\n\n
+    removedOneViaIterator()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def iterateAll():
-    '''public ExtendedIterator<Triple> iterateAll()
+    '''returns ExtendedIterator<Triple>\n\n
+    iterateAll()\n
     '''
 def next():
-    '''public Triple next()
+    '''returns Triple\n\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def emptied():
-    '''public void emptied()
+    '''returns None\n\n
+    emptied()\n
     '''

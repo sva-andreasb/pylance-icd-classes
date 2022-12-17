@@ -1,43 +1,57 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def selectmoreassets():
-    '''public int selectmoreassets()
+    '''returns int\n\n
+    selectmoreassets()\n
     '''
 def searchClassificationMultipleAssets():
-    '''public int searchClassificationMultipleAssets()
+    '''returns int\n\n
+    searchClassificationMultipleAssets()\n
     '''
 def searchAttributeMultipleAssets():
-    '''public int searchAttributeMultipleAssets()
+    '''returns int\n\n
+    searchAttributeMultipleAssets()\n
     '''
 def selectlocations():
-    '''public int selectlocations()
+    '''returns int\n\n
+    selectlocations()\n
     '''
 def searchClassificationMultipleLocations():
-    '''public int searchClassificationMultipleLocations()
+    '''returns int\n\n
+    searchClassificationMultipleLocations()\n
     '''
 def searchAttributeMultipleLocations():
-    '''public int searchAttributeMultipleLocations()
+    '''returns int\n\n
+    searchAttributeMultipleLocations()\n
     '''
 def selectcis():
-    '''public int selectcis()
+    '''returns int\n\n
+    selectcis()\n
     '''
 def searchClassificationMultipleCIs():
-    '''public int searchClassificationMultipleCIs()
+    '''returns int\n\n
+    searchClassificationMultipleCIs()\n
     '''
 def searchAttributeMultipleCIs():
-    '''public int searchAttributeMultipleCIs()
+    '''returns int\n\n
+    searchAttributeMultipleCIs()\n
     '''
 def selectfromroutes():
-    '''public int selectfromroutes()
+    '''returns int\n\n
+    selectfromroutes()\n
     '''
 def selectfromcollections():
-    '''public int selectfromcollections()
+    '''returns int\n\n
+    selectfromcollections()\n
     '''
 def selectfromhierachyrels():
-    '''public int selectfromhierachyrels()
+    '''returns int\n\n
+    selectfromhierachyrels()\n
     '''
 def clearall():
-    '''public int clearall()
+    '''returns int\n\n
+    clearall()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

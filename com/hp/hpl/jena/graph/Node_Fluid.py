@@ -1,3 +1,4 @@
 def isConcrete():
-    '''public boolean isConcrete()
+    '''returns boolean\n\n
+    isConcrete()\n
     '''

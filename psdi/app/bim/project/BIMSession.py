@@ -182,88 +182,116 @@ WARRANTY_PARTS = "int  1"
 WARRANTY_LABOR = "int  2"
 WARRANTY_SHORT = "int  3"
 WARRANTY_LONG = "int  4"
-def BIMSession():
-    '''public BIMSession(final MboSet ms)
+def ():
+    '''returns BIMSession\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def cleanUploadDir():
-    '''public void cleanUploadDir()
+    '''returns None\n\n
+    cleanUploadDir()\n
     '''
 def exportToCOBie():
-    '''public void exportToCOBie()
+    '''returns None\n\n
+    exportToCOBie()\n
     '''
 def getInitialAssetStatus():
-    '''public String getInitialAssetStatus()
+    '''returns String\n\n
+    getInitialAssetStatus()\n
     '''
 def getInitialAssetType():
-    '''public String getInitialAssetType()
+    '''returns String\n\n
+    getInitialAssetType()\n
     '''
 def getInitialJobPlanStatus():
-    '''public String getInitialJobPlanStatus()
+    '''returns String\n\n
+    getInitialJobPlanStatus()\n
     '''
 def getInitialLocationStatus():
-    '''public String getInitialLocationStatus()
+    '''returns String\n\n
+    getInitialLocationStatus()\n
     '''
 def getInitialProductStatus():
-    '''public String getInitialProductStatus()
+    '''returns String\n\n
+    getInitialProductStatus()\n
     '''
 def getComponentAttributeLocation():
-    '''public long getComponentAttributeLocation()
+    '''returns long\n\n
+    getComponentAttributeLocation()\n
     '''
 def getContactTreatment():
-    '''public int getContactTreatment()
+    '''returns int\n\n
+    getContactTreatment()\n
     '''
 def getExportIdType():
-    '''public int getExportIdType()
+    '''returns int\n\n
+    getExportIdType()\n
     '''
 def getSessionType():
-    '''public int getSessionType()
-    public int getSessionType(String sessionType)
+    '''returns int\n\n
+    getSessionType()\n
+    getSessionType(String sessionType)\n
     '''
 def getAttribTypeIdCalc():
-    '''public int getAttribTypeIdCalc()
+    '''returns int\n\n
+    getAttribTypeIdCalc()\n
     '''
 def getFacilityrIdCalc():
-    '''public int getFacilityrIdCalc()
+    '''returns int\n\n
+    getFacilityrIdCalc()\n
     '''
 def getFloorIdCalc():
-    '''public int getFloorIdCalc()
+    '''returns int\n\n
+    getFloorIdCalc()\n
     '''
 def getSpaceIdCalc():
-    '''public int getSpaceIdCalc()
+    '''returns int\n\n
+    getSpaceIdCalc()\n
     '''
 def getOperatingLocIdCalc():
-    '''public int getOperatingLocIdCalc()
+    '''returns int\n\n
+    getOperatingLocIdCalc()\n
     '''
 def getComponentIdCalc():
-    '''public int getComponentIdCalc()
+    '''returns int\n\n
+    getComponentIdCalc()\n
     '''
 def getObjectLevel():
-    '''public int getObjectLevel(final String objectName)
+    '''returns int\n\n
+    getObjectLevel(final String objectName)\n
     '''
 def getUnitTreatment():
-    '''public int getUnitTreatment()
+    '''returns int\n\n
+    getUnitTreatment()\n
     '''
 def getUpdateBehavior():
-    '''public int getUpdateBehavior()
+    '''returns int\n\n
+    getUpdateBehavior()\n
     '''
 def getWarrantyCalcMethod():
-    '''public int getWarrantyCalcMethod()
+    '''returns int\n\n
+    getWarrantyCalcMethod()\n
     '''
 def setOptionsReadOnly():
-    '''public void setOptionsReadOnly()
+    '''returns None\n\n
+    setOptionsReadOnly()\n
     '''
 def getUploadDirectory():
-    '''public String getUploadDirectory()
+    '''returns String\n\n
+    getUploadDirectory()\n
     '''
 def setWriteStatusForFacilityFields():
-    '''public void setWriteStatusForFacilityFields(final boolean status)
+    '''returns None\n\n
+    setWriteStatusForFacilityFields(final boolean status)\n
     '''

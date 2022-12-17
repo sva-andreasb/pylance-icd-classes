@@ -1,6 +1,8 @@
-def GenericSection():
-    '''public GenericSection(final SectionType section, final XDGFSheet containingSheet)
+def ():
+    '''returns GenericSection\n\n
+    (final SectionType section, final XDGFSheet containingSheet)\n
     '''
 def setupMaster():
-    '''public void setupMaster(final XDGFSection section)
+    '''returns None\n\n
+    setupMaster(final XDGFSection section)\n
     '''

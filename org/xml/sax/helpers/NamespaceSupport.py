@@ -1,39 +1,51 @@
 XMLNS = "String  \"http://www.w3.org/XML/1998/namespace\""
 NSDECL = "String  \"http://www.w3.org/xmlns/2000/\""
-def NamespaceSupport():
-    '''public NamespaceSupport()
+def ():
+    '''returns NamespaceSupport\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def pushContext():
-    '''public void pushContext()
+    '''returns None\n\n
+    pushContext()\n
     '''
 def popContext():
-    '''public void popContext()
+    '''returns None\n\n
+    popContext()\n
     '''
 def declarePrefix():
-    '''public boolean declarePrefix(final String s, final String s2)
+    '''returns boolean\n\n
+    declarePrefix(final String s, final String s2)\n
     '''
 def processName():
-    '''public String[] processName(final String s, final String[] array, final boolean b)
+    '''returns String[]\n\n
+    processName(final String s, final String[] array, final boolean b)\n
     '''
 def getURI():
-    '''public String getURI(final String s)
+    '''returns String\n\n
+    getURI(final String s)\n
     '''
 def getPrefixes():
-    '''public Enumeration getPrefixes()
-    public Enumeration getPrefixes(final String s)
+    '''returns Enumeration\n\n
+    getPrefixes()\n
+    getPrefixes(final String s)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String s)
+    '''returns String\n\n
+    getPrefix(final String s)\n
     '''
 def getDeclaredPrefixes():
-    '''public Enumeration getDeclaredPrefixes()
+    '''returns Enumeration\n\n
+    getDeclaredPrefixes()\n
     '''
 def setNamespaceDeclUris():
-    '''public void setNamespaceDeclUris(final boolean namespaceDeclUris)
+    '''returns None\n\n
+    setNamespaceDeclUris(final boolean namespaceDeclUris)\n
     '''
 def isNamespaceDeclUris():
-    '''public boolean isNamespaceDeclUris()
+    '''returns boolean\n\n
+    isNamespaceDeclUris()\n
     '''

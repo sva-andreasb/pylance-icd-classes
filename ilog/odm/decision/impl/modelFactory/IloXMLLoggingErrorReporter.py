@@ -1,32 +1,41 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloXMLLoggingErrorReporter():
-    '''public IloXMLLoggingErrorReporter()
+def ():
+    '''returns IloXMLLoggingErrorReporter\n\n
+    ()\n
     '''
 def setOutputStream():
-    '''public void setOutputStream(final OutputStream outputStream)
+    '''returns None\n\n
+    setOutputStream(final OutputStream outputStream)\n
     '''
 def raiseError():
-    '''public void raiseError(final IloXMLLocation location, final String msg)
+    '''returns None\n\n
+    raiseError(final IloXMLLocation location, final String msg)\n
     '''
 def resetContext():
-    '''public void resetContext()
+    '''returns None\n\n
+    resetContext()\n
     '''
 def printContext():
-    '''public void printContext()
+    '''returns None\n\n
+    printContext()\n
     '''
 def error():
-    '''public void error(final String msg, final Object[] param)
-    public void error(final Throwable e)
-    public void error(final String key)
+    '''returns None\n\n
+    error(final String msg, final Object[] param)\n
+    error(final Throwable e)\n
+    error(final String key)\n
     '''
 def warning():
-    '''public void warning(final String msg, final Object[] param)
-    public void warning(final String key)
+    '''returns None\n\n
+    warning(final String msg, final Object[] param)\n
+    warning(final String key)\n
     '''
 def info():
-    '''public void info(final String key, final Object[] params)
-    public void info(final String key)
+    '''returns None\n\n
+    info(final String key, final Object[] params)\n
+    info(final String key)\n
     '''
 def setProcessingContext():
-    '''public void setProcessingContext(final IloProcessingContext ctx)
+    '''returns None\n\n
+    setProcessingContext(final IloProcessingContext ctx)\n
     '''

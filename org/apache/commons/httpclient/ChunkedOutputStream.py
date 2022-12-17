@@ -1,18 +1,23 @@
-def ChunkedOutputStream():
-    '''public ChunkedOutputStream(final OutputStream stream, final int bufferSize)
-    public ChunkedOutputStream(final OutputStream stream)
+def ():
+    '''returns ChunkedOutputStream\n\n
+    (final OutputStream stream, final int bufferSize)\n
+    (final OutputStream stream)\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b)
-    public void write(final byte[] src, final int off, final int len)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b)\n
+    write(final byte[] src, final int off, final int len)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

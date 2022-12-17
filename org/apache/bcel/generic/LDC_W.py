@@ -1,3 +1,4 @@
-def LDC_W():
-    '''public LDC_W(final int index)
+def ():
+    '''returns LDC_W\n\n
+    (final int index)\n
     '''

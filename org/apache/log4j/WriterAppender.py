@@ -1,35 +1,34 @@
-def WriterAppender():
-    '''public WriterAppender()
-    public WriterAppender(final Layout layout, final OutputStream os)
-    public WriterAppender(final Layout layout, final Writer writer)
+def ():
+    '''returns WriterAppender\n\n
+    ()\n
+    (final Layout layout, final OutputStream os)\n
+    (final Layout layout, final Writer writer)\n
     '''
 def getImmediateFlush():
-    '''public boolean getImmediateFlush()
+    '''returns boolean\n\n
+    getImmediateFlush()\n
     '''
 def setImmediateFlush():
-    '''public void setImmediateFlush(final boolean value)
+    '''returns None\n\n
+    setImmediateFlush(final boolean value)\n
     '''
 def activateOptions():
-    '''public void activateOptions()
+    '''returns None\n\n
+    activateOptions()\n
     '''
 def append():
-    '''public void append(final LoggingEvent event)
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns None\n\n
+    append(final LoggingEvent event)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String value)
-    '''
-def setErrorHandler():
-    '''public synchronized void setErrorHandler(final ErrorHandler eh)
-    '''
-def setWriter():
-    '''public synchronized void setWriter(final Writer writer)
+    '''returns None\n\n
+    setEncoding(final String value)\n
     '''
 def requiresLayout():
-    '''public boolean requiresLayout()
+    '''returns boolean\n\n
+    requiresLayout()\n
     '''

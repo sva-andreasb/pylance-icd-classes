@@ -1,12 +1,15 @@
-def DiscoveryException():
-    '''public DiscoveryException()
-    public DiscoveryException(final String message)
-    public DiscoveryException(final Throwable cause)
-    public DiscoveryException(final String message, final Throwable cause)
+def ():
+    '''returns DiscoveryException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

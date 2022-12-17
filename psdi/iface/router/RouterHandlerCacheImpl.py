@@ -1,20 +1,26 @@
 NAME = "String  \"ROUTER\""
-def RouterHandlerCacheImpl():
-    '''public RouterHandlerCacheImpl()
+def ():
+    '''returns RouterHandlerCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getHandlerClass():
-    '''public String getHandlerClass(final String handlerName)
+    '''returns String\n\n
+    getHandlerClass(final String handlerName)\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''

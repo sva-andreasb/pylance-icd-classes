@@ -1,42 +1,56 @@
-def AbstractDebugger():
-    '''public AbstractDebugger(final XMPPConnection connection)
+def ():
+    '''returns AbstractDebugger\n\n
+    (final XMPPConnection connection)\n
     '''
 def read():
-    '''public void read(final String str)
+    '''returns None\n\n
+    read(final String str)\n
     '''
 def write():
-    '''public void write(final String str)
+    '''returns None\n\n
+    write(final String str)\n
     '''
 def connected():
-    '''public void connected(final XMPPConnection connection)
+    '''returns None\n\n
+    connected(final XMPPConnection connection)\n
     '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def connectionClosed():
-    '''public void connectionClosed()
+    '''returns None\n\n
+    connectionClosed()\n
     '''
 def connectionClosedOnError():
-    '''public void connectionClosedOnError(final Exception e)
+    '''returns None\n\n
+    connectionClosedOnError(final Exception e)\n
     '''
 def reconnectionFailed():
-    '''public void reconnectionFailed(final Exception e)
+    '''returns None\n\n
+    reconnectionFailed(final Exception e)\n
     '''
 def reconnectingIn():
-    '''public void reconnectingIn(final int seconds)
+    '''returns None\n\n
+    reconnectingIn(final int seconds)\n
     '''
 def newConnectionReader():
-    '''public Reader newConnectionReader(final Reader newReader)
+    '''returns Reader\n\n
+    newConnectionReader(final Reader newReader)\n
     '''
 def newConnectionWriter():
-    '''public Writer newConnectionWriter(final Writer newWriter)
+    '''returns Writer\n\n
+    newConnectionWriter(final Writer newWriter)\n
     '''
 def userHasLogged():
-    '''public void userHasLogged(final EntityFullJid user)
+    '''returns None\n\n
+    userHasLogged(final EntityFullJid user)\n
     '''
 def onIncomingStreamElement():
-    '''public void onIncomingStreamElement(final TopLevelStreamElement streamElement)
+    '''returns None\n\n
+    onIncomingStreamElement(final TopLevelStreamElement streamElement)\n
     '''
 def onOutgoingStreamElement():
-    '''public void onOutgoingStreamElement(final TopLevelStreamElement streamElement)
+    '''returns None\n\n
+    onOutgoingStreamElement(final TopLevelStreamElement streamElement)\n
     '''

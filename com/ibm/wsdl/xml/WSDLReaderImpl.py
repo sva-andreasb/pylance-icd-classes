@@ -1,29 +1,37 @@
-def WSDLReaderImpl():
-    '''public WSDLReaderImpl()
+def ():
+    '''returns WSDLReaderImpl\n\n
+    ()\n
     '''
 def setFeature():
-    '''public void setFeature(final String str, final boolean b)
+    '''returns None\n\n
+    setFeature(final String str, final boolean b)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String str)
+    '''returns boolean\n\n
+    getFeature(final String str)\n
     '''
 def setExtensionRegistry():
-    '''public void setExtensionRegistry(final ExtensionRegistry extReg)
+    '''returns None\n\n
+    setExtensionRegistry(final ExtensionRegistry extReg)\n
     '''
 def getExtensionRegistry():
-    '''public ExtensionRegistry getExtensionRegistry()
+    '''returns ExtensionRegistry\n\n
+    getExtensionRegistry()\n
     '''
 def setFactoryImplName():
-    '''public void setFactoryImplName(final String factoryImplName)
+    '''returns None\n\n
+    setFactoryImplName(final String factoryImplName)\n
     '''
 def getFactoryImplName():
-    '''public String getFactoryImplName()
+    '''returns String\n\n
+    getFactoryImplName()\n
     '''
 def readWSDL():
-    '''public Definition readWSDL(final String s)
-    public Definition readWSDL(final String str, final String s)
-    public Definition readWSDL(final String s, final Element element)
-    public Definition readWSDL(final String s, final Document document)
-    public Definition readWSDL(final String s, final InputSource inputSource)
-    public Definition readWSDL(final WSDLLocator loc)
+    '''returns Definition\n\n
+    readWSDL(final String s)\n
+    readWSDL(final String str, final String s)\n
+    readWSDL(final String s, final Element element)\n
+    readWSDL(final String s, final Document document)\n
+    readWSDL(final String s, final InputSource inputSource)\n
+    readWSDL(final WSDLLocator loc)\n
     '''

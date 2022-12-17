@@ -1,12 +1,16 @@
 def getTopClassImpl():
-    '''public String getTopClassImpl()
+    '''returns String\n\n
+    getTopClassImpl()\n
     '''
 def setTopClassImpl():
-    '''public void setTopClassImpl(final String topClassImpl)
+    '''returns None\n\n
+    setTopClassImpl(final String topClassImpl)\n
     '''
 def getBottomClassImpl():
-    '''public String getBottomClassImpl()
+    '''returns String\n\n
+    getBottomClassImpl()\n
     '''
 def setBottomClassImpl():
-    '''public void setBottomClassImpl(final String bottomClassImpl)
+    '''returns None\n\n
+    setBottomClassImpl(final String bottomClassImpl)\n
     '''

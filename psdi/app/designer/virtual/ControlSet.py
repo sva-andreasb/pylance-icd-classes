@@ -1,3 +1,4 @@
-def ControlSet():
-    '''public ControlSet(final MboServerInterface ms)
+def ():
+    '''returns ControlSet\n\n
+    (final MboServerInterface ms)\n
     '''

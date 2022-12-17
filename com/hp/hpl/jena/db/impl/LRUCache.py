@@ -1,21 +1,28 @@
-def LRUCache():
-    '''public LRUCache(final int max)
+def ():
+    '''returns LRUCache\n\n
+    (final int max)\n
     '''
 def get():
-    '''public T get(final K id)
+    '''returns T\n\n
+    get(final K id)\n
     '''
 def getByValue():
-    '''public Object getByValue(final String val)
+    '''returns Object\n\n
+    getByValue(final String val)\n
     '''
 def put():
-    '''public void put(final K id, final T val)
+    '''returns None\n\n
+    put(final K id, final T val)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def setLimit():
-    '''public void setLimit(final int max)
+    '''returns None\n\n
+    setLimit(final int max)\n
     '''
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''

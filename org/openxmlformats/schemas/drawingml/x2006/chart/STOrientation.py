@@ -1,0 +1,5 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STOrientation.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"storientationc326type\")"
+MAX_MIN = "Enum  Enum.forString(\"maxMin\")"
+MIN_MAX = "Enum  Enum.forString(\"minMax\")"
+INT_MAX_MIN = "int  1"
+INT_MIN_MAX = "int  2"

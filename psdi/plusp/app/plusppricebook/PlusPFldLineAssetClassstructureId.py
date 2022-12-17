@@ -1,12 +1,16 @@
-def PlusPFldLineAssetClassstructureId():
-    '''public PlusPFldLineAssetClassstructureId(final MboValue mbv)
+def ():
+    '''returns PlusPFldLineAssetClassstructureId\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

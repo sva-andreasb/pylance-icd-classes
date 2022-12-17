@@ -1,34 +1,45 @@
 serialVersionUID = "long  1L"
-def ServiceImpl():
-    '''public ServiceImpl()
+def ():
+    '''returns ServiceImpl\n\n
+    ()\n
     '''
 def setQName():
-    '''public void setQName(final QName name)
+    '''returns None\n\n
+    setQName(final QName name)\n
     '''
 def getQName():
-    '''public QName getQName()
+    '''returns QName\n\n
+    getQName()\n
     '''
 def addPort():
-    '''public void addPort(final Port port)
+    '''returns None\n\n
+    addPort(final Port port)\n
     '''
 def getPort():
-    '''public Port getPort(final String s)
+    '''returns Port\n\n
+    getPort(final String s)\n
     '''
 def getPorts():
-    '''public Map getPorts()
+    '''returns Map\n\n
+    getPorts()\n
     '''
 def setDocumentationElement():
-    '''public void setDocumentationElement(final Element docEl)
+    '''returns None\n\n
+    setDocumentationElement(final Element docEl)\n
     '''
 def getDocumentationElement():
-    '''public Element getDocumentationElement()
+    '''returns Element\n\n
+    getDocumentationElement()\n
     '''
 def addExtensibilityElement():
-    '''public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''returns None\n\n
+    addExtensibilityElement(final ExtensibilityElement extensibilityElement)\n
     '''
 def getExtensibilityElements():
-    '''public List getExtensibilityElements()
+    '''returns List\n\n
+    getExtensibilityElements()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

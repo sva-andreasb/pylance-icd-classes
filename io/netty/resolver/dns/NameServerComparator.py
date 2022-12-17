@@ -1,6 +1,8 @@
-def NameServerComparator():
-    '''public NameServerComparator(final Class<? extends InetAddress> preferredAddressType)
+def ():
+    '''returns NameServerComparator\n\n
+    (final Class<? extends InetAddress> preferredAddressType)\n
     '''
 def compare():
-    '''public int compare(final InetSocketAddress addr1, final InetSocketAddress addr2)
+    '''returns int\n\n
+    compare(final InetSocketAddress addr1, final InetSocketAddress addr2)\n
     '''

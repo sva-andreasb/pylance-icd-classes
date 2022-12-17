@@ -1,48 +1,64 @@
-def LinearMiniAppBean():
-    '''public LinearMiniAppBean()
+def ():
+    '''returns LinearMiniAppBean\n\n
+    ()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''
 def loadLocalizedData():
-    '''public JSONObject loadLocalizedData()
+    '''returns JSONObject\n\n
+    loadLocalizedData()\n
     '''
 def createUI():
-    '''public JSONObject createUI()
+    '''returns JSONObject\n\n
+    createUI()\n
     '''
 def getRootData():
-    '''public JSONObject getRootData()
+    '''returns JSONObject\n\n
+    getRootData()\n
     '''
 def getChildData():
-    '''public JSONObject getChildData()
+    '''returns JSONObject\n\n
+    getChildData()\n
     '''
 def getRefreshedData():
-    '''public JSONObject getRefreshedData(final String[] tokens)
+    '''returns JSONObject\n\n
+    getRefreshedData(final String[] tokens)\n
     '''
 def loadResource():
-    '''public String loadResource(final String path)
+    '''returns String\n\n
+    loadResource(final String path)\n
     '''
 def buildChildItems():
-    '''public void buildChildItems(final DataRow root, final JSONArray rootArray, JSONObject defaultAttLabels, final String defaultElementLabelAttribute)
+    '''returns None\n\n
+    buildChildItems(final DataRow root, final JSONArray rootArray, JSONObject defaultAttLabels, final String defaultElementLabelAttribute)\n
     '''
 def buildChildElements():
-    '''public void buildChildElements(final DataRow childRow, final JSONObject rootChild, final JSONObject defaultAttLabels, final String defaultElementLabelAttribute)
+    '''returns None\n\n
+    buildChildElements(final DataRow childRow, final JSONObject rootChild, final JSONObject defaultAttLabels, final String defaultElementLabelAttribute)\n
     '''
 def buildChildInfo():
-    '''public void buildChildInfo(final JSONObject attLabelObj, final String defaultElementLabelAttribute, final JSONObject rootChild, final JSONObject child, final DataRow child1)
+    '''returns None\n\n
+    buildChildInfo(final JSONObject attLabelObj, final String defaultElementLabelAttribute, final JSONObject rootChild, final JSONObject child, final DataRow child1)\n
     '''
 def sortData():
-    '''public JSONArray sortData(final JSONArray runData)
+    '''returns JSONArray\n\n
+    sortData(final JSONArray runData)\n
     '''
 def compare():
-    '''public int compare(final Object[] entry1, final Object[] entry2)
+    '''returns int\n\n
+    compare(final Object[] entry1, final Object[] entry2)\n
     '''

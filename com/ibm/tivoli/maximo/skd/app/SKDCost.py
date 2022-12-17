@@ -1,3 +1,4 @@
-def SKDCost():
-    '''public SKDCost(final MboSet ms)
+def ():
+    '''returns SKDCost\n\n
+    (final MboSet ms)\n
     '''

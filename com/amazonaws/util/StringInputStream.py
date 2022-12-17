@@ -1,6 +1,8 @@
-def StringInputStream():
-    '''public StringInputStream(final String s)
+def ():
+    '''returns StringInputStream\n\n
+    (final String s)\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''

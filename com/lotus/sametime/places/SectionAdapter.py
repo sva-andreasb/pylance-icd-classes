@@ -1,12 +1,16 @@
 def usersEntered():
-    '''public void usersEntered(final SectionEvent sectionEvent)
+    '''returns None\n\n
+    usersEntered(final SectionEvent sectionEvent)\n
     '''
 def userLeft():
-    '''public void userLeft(final SectionEvent sectionEvent)
+    '''returns None\n\n
+    userLeft(final SectionEvent sectionEvent)\n
     '''
 def addAllowedUsersFailed():
-    '''public void addAllowedUsersFailed(final SectionEvent sectionEvent)
+    '''returns None\n\n
+    addAllowedUsersFailed(final SectionEvent sectionEvent)\n
     '''
 def removeAllowedUsersFailed():
-    '''public void removeAllowedUsersFailed(final SectionEvent sectionEvent)
+    '''returns None\n\n
+    removeAllowedUsersFailed(final SectionEvent sectionEvent)\n
     '''

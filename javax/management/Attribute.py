@@ -1,12 +1,16 @@
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
-def Attribute():
-    '''public Attribute(final String name, final Object value)
+def ():
+    '''returns Attribute\n\n
+    (final String name, final Object value)\n
     '''

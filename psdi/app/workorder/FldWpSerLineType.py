@@ -1,6 +1,8 @@
-def FldWpSerLineType():
-    '''public FldWpSerLineType(final MboValue mbv)
+def ():
+    '''returns FldWpSerLineType\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

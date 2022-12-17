@@ -1,22 +1,29 @@
-def IlvActivityLabel():
-    '''public IlvActivityLabel()
-    public IlvActivityLabel(final IlvActivityRenderer ilvActivityRenderer)
+def ():
+    '''returns IlvActivityLabel\n\n
+    ()\n
+    (final IlvActivityRenderer ilvActivityRenderer)\n
     '''
 def setLabel():
-    '''public void setLabel(final String a)
+    '''returns None\n\n
+    setLabel(final String a)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getDisplayedProperty():
-    '''public IlvStringProperty getDisplayedProperty()
+    '''returns IlvStringProperty\n\n
+    getDisplayedProperty()\n
     '''
 def setDisplayedProperty():
-    '''public void setDisplayedProperty(final IlvStringProperty b)
+    '''returns None\n\n
+    setDisplayedProperty(final IlvStringProperty b)\n
     '''
 def getBounds():
-    '''public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''
 def isRelayoutNeeded():
-    '''public boolean isRelayoutNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)
+    '''returns boolean\n\n
+    isRelayoutNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)\n
     '''

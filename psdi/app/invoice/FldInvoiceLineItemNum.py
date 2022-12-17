@@ -1,24 +1,32 @@
-def FldInvoiceLineItemNum():
-    '''public FldInvoiceLineItemNum(final MboValue mbv)
+def ():
+    '''returns FldInvoiceLineItemNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def isAddLinesOnUse():
-    '''public boolean isAddLinesOnUse(final MboRemote contractRemote)
+    '''returns boolean\n\n
+    isAddLinesOnUse(final MboRemote contractRemote)\n
     '''
 def setContractOrderPrice():
-    '''public void setContractOrderPrice()
+    '''returns None\n\n
+    setContractOrderPrice()\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''
 def getGLDebitAcct():
-    '''public void getGLDebitAcct(final MboRemote invCost)
+    '''returns None\n\n
+    getGLDebitAcct(final MboRemote invCost)\n
     '''

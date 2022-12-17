@@ -1,6 +1,8 @@
-def FldMapSitesLatitudeY():
-    '''public FldMapSitesLatitudeY(final MboValue mbv)
+def ():
+    '''returns FldMapSitesLatitudeY\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

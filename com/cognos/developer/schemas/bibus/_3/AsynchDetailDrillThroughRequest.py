@@ -1,61 +1,61 @@
-def AsynchDetailDrillThroughRequest():
-    '''public AsynchDetailDrillThroughRequest()
-    public AsynchDetailDrillThroughRequest(final String action, final String bookmarkText, final Option[] options, final ParameterValue[] parameters, final String recipient, final SearchPathSingleObject target, final String targetURI)
+def ():
+    '''returns AsynchDetailDrillThroughRequest\n\n
+    ()\n
+    (final String action, final String bookmarkText, final Option[] options, final ParameterValue[] parameters, final String recipient, final SearchPathSingleObject target, final String targetURI)\n
     '''
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''
 def setAction():
-    '''public void setAction(final String action)
+    '''returns None\n\n
+    setAction(final String action)\n
     '''
 def getBookmarkText():
-    '''public String getBookmarkText()
+    '''returns String\n\n
+    getBookmarkText()\n
     '''
 def setBookmarkText():
-    '''public void setBookmarkText(final String bookmarkText)
+    '''returns None\n\n
+    setBookmarkText(final String bookmarkText)\n
     '''
 def getOptions():
-    '''public Option[] getOptions()
+    '''returns Option[]\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final Option[] options)
+    '''returns None\n\n
+    setOptions(final Option[] options)\n
     '''
 def getParameters():
-    '''public ParameterValue[] getParameters()
+    '''returns ParameterValue[]\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ParameterValue[] parameters)
+    '''returns None\n\n
+    setParameters(final ParameterValue[] parameters)\n
     '''
 def getRecipient():
-    '''public String getRecipient()
+    '''returns String\n\n
+    getRecipient()\n
     '''
 def setRecipient():
-    '''public void setRecipient(final String recipient)
+    '''returns None\n\n
+    setRecipient(final String recipient)\n
     '''
 def getTarget():
-    '''public SearchPathSingleObject getTarget()
+    '''returns SearchPathSingleObject\n\n
+    getTarget()\n
     '''
 def setTarget():
-    '''public void setTarget(final SearchPathSingleObject target)
+    '''returns None\n\n
+    setTarget(final SearchPathSingleObject target)\n
     '''
 def getTargetURI():
-    '''public String getTargetURI()
+    '''returns String\n\n
+    getTargetURI()\n
     '''
 def setTargetURI():
-    '''public void setTargetURI(final String targetURI)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setTargetURI(final String targetURI)\n
     '''

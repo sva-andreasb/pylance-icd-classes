@@ -1,7 +1,9 @@
-def TMenuItem():
-    '''public TMenuItem()
-    public TMenuItem(final String label, final String value)
+def ():
+    '''returns TMenuItem\n\n
+    ()\n
+    (final String label, final String value)\n
     '''
 def newItem():
-    '''public TMenuItem newItem(final String title, final String actionName)
+    '''returns TMenuItem\n\n
+    newItem(final String title, final String actionName)\n
     '''

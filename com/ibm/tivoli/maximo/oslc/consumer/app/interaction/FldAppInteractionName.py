@@ -1,3 +1,4 @@
-def FldAppInteractionName():
-    '''public FldAppInteractionName(final MboValue mbv)
+def ():
+    '''returns FldAppInteractionName\n\n
+    (final MboValue mbv)\n
     '''

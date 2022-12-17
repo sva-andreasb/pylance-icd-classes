@@ -1,3 +1,4 @@
 def handleInput():
-    '''public void handleInput(final InputRequest request)
+    '''returns None\n\n
+    handleInput(final InputRequest request)\n
     '''

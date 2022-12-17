@@ -1,55 +1,69 @@
-def Fault():
-    '''public Fault()
-    public Fault(final SOAPException ex)
+def ():
+    '''returns Fault\n\n
+    ()\n
+    (final SOAPException ex)\n
     '''
 def declareNamespace():
-    '''public void declareNamespace(final String s, final String s2)
+    '''returns None\n\n
+    declareNamespace(final String s, final String s2)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final QName qName)
+    '''returns String\n\n
+    getAttribute(final QName qName)\n
     '''
 def getDetailEntries():
-    '''public Vector getDetailEntries()
+    '''returns Vector\n\n
+    getDetailEntries()\n
     '''
 def getFaultActorURI():
-    '''public String getFaultActorURI()
+    '''returns String\n\n
+    getFaultActorURI()\n
     '''
 def getFaultCode():
-    '''public String getFaultCode()
+    '''returns String\n\n
+    getFaultCode()\n
     '''
 def getFaultEntries():
-    '''public Vector getFaultEntries()
+    '''returns Vector\n\n
+    getFaultEntries()\n
     '''
 def getFaultString():
-    '''public String getFaultString()
+    '''returns String\n\n
+    getFaultString()\n
     '''
 def marshall():
-    '''public void marshall(final String s, final Writer writer, final NSStack nsStack, final XMLJavaMappingRegistry xmlJavaMappingRegistry, final SOAPContext soapContext)
+    '''returns None\n\n
+    marshall(final String s, final Writer writer, final NSStack nsStack, final XMLJavaMappingRegistry xmlJavaMappingRegistry, final SOAPContext soapContext)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final QName qName)
+    '''returns None\n\n
+    removeAttribute(final QName qName)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final QName qName, final String s)
+    '''returns None\n\n
+    setAttribute(final QName qName, final String s)\n
     '''
 def setDetailEntries():
-    '''public void setDetailEntries(final Vector detailEntries)
+    '''returns None\n\n
+    setDetailEntries(final Vector detailEntries)\n
     '''
 def setFaultActorURI():
-    '''public void setFaultActorURI(final String faultActorURI)
+    '''returns None\n\n
+    setFaultActorURI(final String faultActorURI)\n
     '''
 def setFaultCode():
-    '''public void setFaultCode(final String faultCode)
+    '''returns None\n\n
+    setFaultCode(final String faultCode)\n
     '''
 def setFaultEntries():
-    '''public void setFaultEntries(final Vector faultEntries)
+    '''returns None\n\n
+    setFaultEntries(final Vector faultEntries)\n
     '''
 def setFaultString():
-    '''public void setFaultString(final String faultString)
+    '''returns None\n\n
+    setFaultString(final String faultString)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def unmarshall():
-    '''public static Fault unmarshall(final String s, final Node node, final XMLJavaMappingRegistry xmlJavaMappingRegistry, final SOAPContext soapContext)
+    '''returns String\n\n
+    toString()\n
     '''

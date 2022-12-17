@@ -1,3 +1,4 @@
-def ReportAdHocSum():
-    '''public ReportAdHocSum(final MboSet ms)
+def ():
+    '''returns ReportAdHocSum\n\n
+    (final MboSet ms)\n
     '''

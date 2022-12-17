@@ -1,13 +1,9 @@
-def getResource():
-    '''public static URL getResource(final String name, final ClassLoader loader)
-    '''
-def getProperties():
-    '''public static Properties getProperties(final URL source)
-    '''
-def ConsumerProperties():
-    '''public ConsumerProperties(final String resourceName, final ClassLoader loader)
-    public ConsumerProperties(final Properties consumerProperties)
+def ():
+    '''returns ConsumerProperties\n\n
+    (final String resourceName, final ClassLoader loader)\n
+    (final Properties consumerProperties)\n
     '''
 def getConsumer():
-    '''public OAuthConsumer getConsumer(final String name)
+    '''returns OAuthConsumer\n\n
+    getConsumer(final String name)\n
     '''

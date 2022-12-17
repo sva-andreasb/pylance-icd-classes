@@ -1,41 +1,50 @@
-def IlvDiagrammerPaletteBar():
-    '''public IlvDiagrammerPaletteBar(final URL a, final URL b, final int n)
-    public IlvDiagrammerPaletteBar()
-    public IlvDiagrammerPaletteBar(final boolean automatic, final int n)
+def ():
+    '''returns IlvDiagrammerPaletteBar\n\n
+    (final URL a, final URL b, final int n)\n
+    ()\n
+    (final boolean automatic, final int n)\n
     '''
 def isAutomatic():
-    '''public boolean isAutomatic()
+    '''returns boolean\n\n
+    isAutomatic()\n
     '''
 def setAutomatic():
-    '''public void setAutomatic(final boolean c)
+    '''returns None\n\n
+    setAutomatic(final boolean c)\n
     '''
 def addNotify():
-    '''public void addNotify()
+    '''returns None\n\n
+    addNotify()\n
     '''
 def removeNotify():
-    '''public void removeNotify()
+    '''returns None\n\n
+    removeNotify()\n
     '''
 def getHashFunction():
-    '''public IlvDiagrammerHashFunction getHashFunction()
+    '''returns IlvDiagrammerHashFunction\n\n
+    getHashFunction()\n
     '''
 def setHashFunction():
-    '''public void setHashFunction(final IlvDiagrammerHashFunction d)
+    '''returns None\n\n
+    setHashFunction(final IlvDiagrammerHashFunction d)\n
     '''
 def getPaletteURL():
-    '''public URL getPaletteURL()
+    '''returns URL\n\n
+    getPaletteURL()\n
     '''
 def setPaletteURL():
-    '''public void setPaletteURL(final URL a)
+    '''returns None\n\n
+    setPaletteURL(final URL a)\n
     '''
 def getStyleSheet():
-    '''public URL getStyleSheet()
+    '''returns URL\n\n
+    getStyleSheet()\n
     '''
 def setStyleSheet():
-    '''public void setStyleSheet(final URL b)
-    '''
-def getActions():
-    '''public static IlvDiagrammerAction[] getActions(final IlvDiagrammer ilvDiagrammer, final IlvDiagrammerHashFunction ilvDiagrammerHashFunction)
+    '''returns None\n\n
+    setStyleSheet(final URL b)\n
     '''
 def targetChanged():
-    '''public void targetChanged(final ComponentContextEvent componentContextEvent)
+    '''returns None\n\n
+    targetChanged(final ComponentContextEvent componentContextEvent)\n
     '''

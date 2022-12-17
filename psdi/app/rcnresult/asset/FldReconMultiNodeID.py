@@ -1,6 +1,8 @@
-def FldReconMultiNodeID():
-    '''public FldReconMultiNodeID(final MboValue mbv)
+def ():
+    '''returns FldReconMultiNodeID\n\n
+    (final MboValue mbv)\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''

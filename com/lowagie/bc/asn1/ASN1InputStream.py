@@ -1,6 +1,8 @@
-def ASN1InputStream():
-    '''public ASN1InputStream(final InputStream is)
+def ():
+    '''returns ASN1InputStream\n\n
+    (final InputStream is)\n
     '''
 def readObject():
-    '''public DERObject readObject()
+    '''returns DERObject\n\n
+    readObject()\n
     '''

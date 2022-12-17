@@ -1,26 +1,34 @@
 INDEX_SHARED = "int  0"
 INDEX_FIRST = "int  1"
-def CompareMaxModelHelper():
-    '''public CompareMaxModelHelper(final IMXGanttModel leftModelFuture, final IMXGanttModel rightModelFuture, final ModelHelper helper, final MXSession session)
+def ():
+    '''returns CompareMaxModelHelper\n\n
+    (final IMXGanttModel leftModelFuture, final IMXGanttModel rightModelFuture, final ModelHelper helper, final MXSession session)\n
     '''
 def loadMissingNodes():
-    '''public void loadMissingNodes()
+    '''returns None\n\n
+    loadMissingNodes()\n
     '''
 def processModels():
-    '''public void processModels(final int pageNumber)
+    '''returns None\n\n
+    processModels(final int pageNumber)\n
     '''
 def processMismatchModels():
-    '''public void processMismatchModels()
+    '''returns None\n\n
+    processMismatchModels()\n
     '''
 def setNodeEmitter():
-    '''public void setNodeEmitter(final NodeEmitter nodeEmitter)
+    '''returns None\n\n
+    setNodeEmitter(final NodeEmitter nodeEmitter)\n
     '''
 def getTotalDifferencesCount():
-    '''public int getTotalDifferencesCount()
+    '''returns int\n\n
+    getTotalDifferencesCount()\n
     '''
 def getMissingLeftTasks():
-    '''public List<IMXActivity> getMissingLeftTasks()
+    '''returns List<IMXActivity>\n\n
+    getMissingLeftTasks()\n
     '''
 def getMissingRightTasks():
-    '''public List<IMXActivity> getMissingRightTasks()
+    '''returns List<IMXActivity>\n\n
+    getMissingRightTasks()\n
     '''

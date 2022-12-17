@@ -1,39 +1,48 @@
-def DojoTreeBean():
-    '''public DojoTreeBean()
+def ():
+    '''returns DojoTreeBean\n\n
+    ()\n
     '''
 def getRootMbo():
-    '''public MboRemote getRootMbo()
-    '''
-def getDropableObjects():
-    '''public Map<String, List<String>> getDropableObjects()
+    '''returns MboRemote\n\n
+    getRootMbo()\n
     '''
 def prepareMboSet():
-    '''public void prepareMboSet(final MboSetRemote toPrepare)
+    '''returns None\n\n
+    prepareMboSet(final MboSetRemote toPrepare)\n
     '''
 def onCopyMbo():
-    '''public void onCopyMbo(final MboRemote mbo)
+    '''returns None\n\n
+    onCopyMbo(final MboRemote mbo)\n
     '''
 def onPaste():
-    '''public void onPaste(final MboRemote targetParentMbo)
+    '''returns None\n\n
+    onPaste(final MboRemote targetParentMbo)\n
     '''
 def resetCopiedMbo():
-    '''public void resetCopiedMbo()
+    '''returns None\n\n
+    resetCopiedMbo()\n
     '''
 def onSelect():
-    '''public void onSelect(final MboRemote selectedMbo, final String eventValue)
+    '''returns None\n\n
+    onSelect(final MboRemote selectedMbo, final String eventValue)\n
     '''
 def getCopiedMbo():
-    '''public MboRemote getCopiedMbo()
+    '''returns MboRemote\n\n
+    getCopiedMbo()\n
     '''
 def getNodesToOpen():
-    '''public List<Object[]> getNodesToOpen()
+    '''returns List<Object[]>\n\n
+    getNodesToOpen()\n
     '''
 def clearNodesToOpen():
-    '''public void clearNodesToOpen()
+    '''returns None\n\n
+    clearNodesToOpen()\n
     '''
 def onCheck():
-    '''public void onCheck(final MboRemote mbo, final boolean state)
+    '''returns None\n\n
+    onCheck(final MboRemote mbo, final boolean state)\n
     '''
 def getCheckedNodes():
-    '''public List<MboRemote> getCheckedNodes()
+    '''returns List<MboRemote>\n\n
+    getCheckedNodes()\n
     '''

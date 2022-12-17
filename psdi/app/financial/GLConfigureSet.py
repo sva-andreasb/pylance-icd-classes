@@ -1,48 +1,64 @@
-def GLConfigureSet():
-    '''public GLConfigureSet(final MboServerInterface ms)
+def ():
+    '''returns GLConfigureSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getGLConfigureForOrg():
-    '''public MboSetRemote getGLConfigureForOrg(final String orgId)
+    '''returns MboSetRemote\n\n
+    getGLConfigureForOrg(final String orgId)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getGLMaxtypeLength():
-    '''public int getGLMaxtypeLength()
+    '''returns int\n\n
+    getGLMaxtypeLength()\n
     '''
 def setConfigureMboName():
-    '''public void setConfigureMboName(final String mboName)
+    '''returns None\n\n
+    setConfigureMboName(final String mboName)\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def processActiveChanges():
-    '''public boolean processActiveChanges(final MboRemote orgMbo)
+    '''returns boolean\n\n
+    processActiveChanges(final MboRemote orgMbo)\n
     '''
 def getAcctToActivateSet():
-    '''public MboSetRemote getAcctToActivateSet()
+    '''returns MboSetRemote\n\n
+    getAcctToActivateSet()\n
     '''
 def activateChanges():
-    '''public void activateChanges()
+    '''returns None\n\n
+    activateChanges()\n
     '''
 def setValidate():
-    '''public void setValidate(final boolean validate)
+    '''returns None\n\n
+    setValidate(final boolean validate)\n
     '''
 def deleteGLconfiguration():
-    '''public void deleteGLconfiguration()
+    '''returns None\n\n
+    deleteGLconfiguration()\n
     '''
 def resetGLOrder():
-    '''public void resetGLOrder()
+    '''returns None\n\n
+    resetGLOrder()\n
     '''
 def createOrgGLConfigure():
-    '''public void createOrgGLConfigure(final MboRemote orgMbo)
+    '''returns None\n\n
+    createOrgGLConfigure(final MboRemote orgMbo)\n
     '''
 def setApp():
-    '''public void setApp(final String appName)
+    '''returns None\n\n
+    setApp(final String appName)\n
     '''

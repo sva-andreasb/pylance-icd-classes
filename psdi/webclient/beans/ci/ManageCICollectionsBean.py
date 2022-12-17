@@ -1,6 +1,8 @@
-def ManageCICollectionsBean():
-    '''public ManageCICollectionsBean()
+def ():
+    '''returns ManageCICollectionsBean\n\n
+    ()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

@@ -1,3 +1,4 @@
-def PmSrvClassStructure():
-    '''public PmSrvClassStructure(final MboSet ms)
+def ():
+    '''returns PmSrvClassStructure\n\n
+    (final MboSet ms)\n
     '''

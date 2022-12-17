@@ -1,36 +1,45 @@
-def ComputeCredential():
-    '''public ComputeCredential(final HttpTransport transport, final JsonFactory jsonFactory)
-    '''
-def Builder():
-    '''public Builder(final HttpTransport transport, final JsonFactory jsonFactory)
+def ():
+    '''returns Builder\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory)\n
+    (final HttpTransport transport, final JsonFactory jsonFactory)\n
     '''
 def build():
-    '''public ComputeCredential build()
+    '''returns ComputeCredential\n\n
+    build()\n
     '''
 def setTransport():
-    '''public Builder setTransport(final HttpTransport transport)
+    '''returns Builder\n\n
+    setTransport(final HttpTransport transport)\n
     '''
 def setClock():
-    '''public Builder setClock(final Clock clock)
+    '''returns Builder\n\n
+    setClock(final Clock clock)\n
     '''
 def setJsonFactory():
-    '''public Builder setJsonFactory(final JsonFactory jsonFactory)
+    '''returns Builder\n\n
+    setJsonFactory(final JsonFactory jsonFactory)\n
     '''
 def setTokenServerUrl():
-    '''public Builder setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''returns Builder\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setTokenServerEncodedUrl():
-    '''public Builder setTokenServerEncodedUrl(final String tokenServerEncodedUrl)
+    '''returns Builder\n\n
+    setTokenServerEncodedUrl(final String tokenServerEncodedUrl)\n
     '''
 def setClientAuthentication():
-    '''public Builder setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''returns Builder\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def setRequestInitializer():
-    '''public Builder setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''returns Builder\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def addRefreshListener():
-    '''public Builder addRefreshListener(final CredentialRefreshListener refreshListener)
+    '''returns Builder\n\n
+    addRefreshListener(final CredentialRefreshListener refreshListener)\n
     '''
 def setRefreshListeners():
-    '''public Builder setRefreshListeners(final Collection<CredentialRefreshListener> refreshListeners)
+    '''returns Builder\n\n
+    setRefreshListeners(final Collection<CredentialRefreshListener> refreshListeners)\n
     '''

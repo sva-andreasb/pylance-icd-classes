@@ -1,86 +1,114 @@
 def addCalculationOrder():
-    '''public void addCalculationOrder(final PdfFormField formField)
+    '''returns None\n\n
+    addCalculationOrder(final PdfFormField formField)\n
     '''
 def setSigFlags():
-    '''public void setSigFlags(final int f)
+    '''returns None\n\n
+    setSigFlags(final int f)\n
     '''
 def addFormField():
-    '''public void addFormField(final PdfFormField formField)
+    '''returns None\n\n
+    addFormField(final PdfFormField formField)\n
     '''
 def addHtmlPostButton():
-    '''public PdfFormField addHtmlPostButton(final String name, final String caption, final String value, final String url, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addHtmlPostButton(final String name, final String caption, final String value, final String url, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def addResetButton():
-    '''public PdfFormField addResetButton(final String name, final String caption, final String value, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addResetButton(final String name, final String caption, final String value, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def addMap():
-    '''public PdfFormField addMap(final String name, final String value, final String url, final PdfContentByte appearance, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addMap(final String name, final String value, final String url, final PdfContentByte appearance, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def setButtonParams():
-    '''public void setButtonParams(final PdfFormField button, final int characteristics, final String name, final String value)
+    '''returns None\n\n
+    setButtonParams(final PdfFormField button, final int characteristics, final String name, final String value)\n
     '''
 def drawButton():
-    '''public void drawButton(final PdfFormField button, final String caption, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    drawButton(final PdfFormField button, final String caption, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def addHiddenField():
-    '''public PdfFormField addHiddenField(final String name, final String value)
+    '''returns PdfFormField\n\n
+    addHiddenField(final String name, final String value)\n
     '''
 def addSingleLineTextField():
-    '''public PdfFormField addSingleLineTextField(final String name, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addSingleLineTextField(final String name, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def addMultiLineTextField():
-    '''public PdfFormField addMultiLineTextField(final String name, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addMultiLineTextField(final String name, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def addSingleLinePasswordField():
-    '''public PdfFormField addSingleLinePasswordField(final String name, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addSingleLinePasswordField(final String name, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def setTextFieldParams():
-    '''public void setTextFieldParams(final PdfFormField field, final String text, final String name, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    setTextFieldParams(final PdfFormField field, final String text, final String name, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def drawSingleLineOfText():
-    '''public void drawSingleLineOfText(final PdfFormField field, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    drawSingleLineOfText(final PdfFormField field, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def drawMultiLineOfText():
-    '''public void drawMultiLineOfText(final PdfFormField field, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    drawMultiLineOfText(final PdfFormField field, final String text, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def addCheckBox():
-    '''public PdfFormField addCheckBox(final String name, final String value, final boolean status, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addCheckBox(final String name, final String value, final boolean status, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def setCheckBoxParams():
-    '''public void setCheckBoxParams(final PdfFormField field, final String name, final String value, final boolean status, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    setCheckBoxParams(final PdfFormField field, final String name, final String value, final boolean status, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def drawCheckBoxAppearences():
-    '''public void drawCheckBoxAppearences(final PdfFormField field, final String value, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    drawCheckBoxAppearences(final PdfFormField field, final String value, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def getRadioGroup():
-    '''public PdfFormField getRadioGroup(final String name, final String defaultValue, final boolean noToggleToOff)
+    '''returns PdfFormField\n\n
+    getRadioGroup(final String name, final String defaultValue, final boolean noToggleToOff)\n
     '''
 def addRadioGroup():
-    '''public void addRadioGroup(final PdfFormField radiogroup)
+    '''returns None\n\n
+    addRadioGroup(final PdfFormField radiogroup)\n
     '''
 def addRadioButton():
-    '''public PdfFormField addRadioButton(final PdfFormField radiogroup, final String value, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addRadioButton(final PdfFormField radiogroup, final String value, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def drawRadioAppearences():
-    '''public void drawRadioAppearences(final PdfFormField field, final String value, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    drawRadioAppearences(final PdfFormField field, final String value, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def addSelectList():
-    '''public PdfFormField addSelectList(final String name, final String[] options, final String defaultValue, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
-    public PdfFormField addSelectList(final String name, final String[][] options, final String defaultValue, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addSelectList(final String name, final String[] options, final String defaultValue, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
+    addSelectList(final String name, final String[][] options, final String defaultValue, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def addComboBox():
-    '''public PdfFormField addComboBox(final String name, final String[] options, String defaultValue, final boolean editable, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
-    public PdfFormField addComboBox(final String name, final String[][] options, final String defaultValue, final boolean editable, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addComboBox(final String name, final String[] options, String defaultValue, final boolean editable, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
+    addComboBox(final String name, final String[][] options, final String defaultValue, final boolean editable, final BaseFont font, final float fontSize, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def setChoiceParams():
-    '''public void setChoiceParams(final PdfFormField field, final String name, final String defaultValue, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    setChoiceParams(final PdfFormField field, final String name, final String defaultValue, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def addSignature():
-    '''public PdfFormField addSignature(final String name, final float llx, final float lly, final float urx, final float ury)
+    '''returns PdfFormField\n\n
+    addSignature(final String name, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def setSignatureParams():
-    '''public void setSignatureParams(final PdfFormField field, final String name, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    setSignatureParams(final PdfFormField field, final String name, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def drawSignatureAppearences():
-    '''public void drawSignatureAppearences(final PdfFormField field, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    drawSignatureAppearences(final PdfFormField field, final float llx, final float lly, final float urx, final float ury)\n
     '''

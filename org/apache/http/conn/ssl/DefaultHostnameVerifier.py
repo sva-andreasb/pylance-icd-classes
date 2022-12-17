@@ -1,8 +1,10 @@
-def DefaultHostnameVerifier():
-    '''public DefaultHostnameVerifier(final PublicSuffixMatcher publicSuffixMatcher)
-    public DefaultHostnameVerifier()
+def ():
+    '''returns DefaultHostnameVerifier\n\n
+    (final PublicSuffixMatcher publicSuffixMatcher)\n
+    ()\n
     '''
 def verify():
-    '''public boolean verify(final String host, final SSLSession session)
-    public void verify(final String host, final X509Certificate cert)
+    '''returns None\n\n
+    verify(final String host, final SSLSession session)\n
+    verify(final String host, final X509Certificate cert)\n
     '''

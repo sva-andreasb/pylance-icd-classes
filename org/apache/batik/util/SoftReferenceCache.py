@@ -1,9 +1,8 @@
-def flush():
-    '''public synchronized void flush()
-    '''
-def SoftRefKey():
-    '''public SoftRefKey(final Object o, final Object key)
+def ():
+    '''returns SoftRefKey\n\n
+    (final Object o, final Object key)\n
     '''
 def cleared():
-    '''public void cleared()
+    '''returns None\n\n
+    cleared()\n
     '''

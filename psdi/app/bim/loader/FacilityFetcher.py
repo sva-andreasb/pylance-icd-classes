@@ -1,12 +1,16 @@
-def FacilityFetcher():
-    '''public FacilityFetcher(final ImportBaseRemote importBase, final String facility)
+def ():
+    '''returns FacilityFetcher\n\n
+    (final ImportBaseRemote importBase, final String facility)\n
     '''
 def getOrgId():
-    '''public String getOrgId()
+    '''returns String\n\n
+    getOrgId()\n
     '''
 def getSiteId():
-    '''public String getSiteId()
+    '''returns String\n\n
+    getSiteId()\n
     '''
 def getTranslator():
-    '''public Translate getTranslator()
+    '''returns Translate\n\n
+    getTranslator()\n
     '''

@@ -1,15 +1,20 @@
-def ImageRawJPEG():
-    '''public ImageRawJPEG(final ImageInfo info, final InputStream in, final int sofType, final ColorSpace colorSpace, final ICC_Profile iccProfile, final boolean invertImage)
+def ():
+    '''returns ImageRawJPEG\n\n
+    (final ImageInfo info, final InputStream in, final int sofType, final ColorSpace colorSpace, final ICC_Profile iccProfile, final boolean invertImage)\n
     '''
 def getSOFType():
-    '''public int getSOFType()
+    '''returns int\n\n
+    getSOFType()\n
     '''
 def getICCProfile():
-    '''public ICC_Profile getICCProfile()
+    '''returns ICC_Profile\n\n
+    getICCProfile()\n
     '''
 def isInverted():
-    '''public boolean isInverted()
+    '''returns boolean\n\n
+    isInverted()\n
     '''
 def getColorSpace():
-    '''public ColorSpace getColorSpace()
+    '''returns ColorSpace\n\n
+    getColorSpace()\n
     '''

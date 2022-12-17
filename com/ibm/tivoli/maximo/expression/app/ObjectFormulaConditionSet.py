@@ -1,3 +1,4 @@
-def ObjectFormulaConditionSet():
-    '''public ObjectFormulaConditionSet(final MboServerInterface ms)
+def ():
+    '''returns ObjectFormulaConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''

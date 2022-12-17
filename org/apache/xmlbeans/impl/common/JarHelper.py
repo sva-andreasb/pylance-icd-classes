@@ -1,18 +1,20 @@
-def JarHelper():
-    '''public JarHelper()
+def ():
+    '''returns JarHelper\n\n
+    ()\n
     '''
 def jarDir():
-    '''public void jarDir(final File dirOrFile2Jar, final File destJar)
+    '''returns None\n\n
+    jarDir(final File dirOrFile2Jar, final File destJar)\n
     '''
 def unjarDir():
-    '''public void unjarDir(final File jarFile, final File destDir)
+    '''returns None\n\n
+    unjarDir(final File jarFile, final File destDir)\n
     '''
 def unjar():
-    '''public void unjar(final InputStream in, final File destDir)
+    '''returns None\n\n
+    unjar(final InputStream in, final File destDir)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean b)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    setVerbose(final boolean b)\n
     '''

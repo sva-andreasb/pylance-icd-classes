@@ -1,21 +1,24 @@
-def BaseResourceHandler():
-    '''public BaseResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns BaseResourceHandler\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def getBusMember():
-    '''public BusMemberService getBusMember()
-    '''
-def handleResourceRequest():
-    '''public final BusResource handleResourceRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusMemberService\n\n
+    getBusMember()\n
     '''
 def printContext():
-    '''public void printContext(final ResourceContext resCtx)
+    '''returns None\n\n
+    printContext(final ResourceContext resCtx)\n
     '''
 def printProps():
-    '''public void printProps(final BusResource res)
+    '''returns None\n\n
+    printProps(final BusResource res)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''
 def createURI():
-    '''public String createURI(final List<String> resPath)
+    '''returns String\n\n
+    createURI(final List<String> resPath)\n
     '''

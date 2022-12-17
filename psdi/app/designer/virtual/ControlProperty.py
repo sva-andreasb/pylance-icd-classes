@@ -1,3 +1,4 @@
-def ControlProperty():
-    '''public ControlProperty(final MboSet ms)
+def ():
+    '''returns ControlProperty\n\n
+    (final MboSet ms)\n
     '''

@@ -1,30 +1,24 @@
-def BIMUploadTableBean():
-    '''public BIMUploadTableBean()
-    '''
-def execute():
-    '''public synchronized int execute()
-    '''
-def cancelDialog():
-    '''public synchronized int cancelDialog()
+def ():
+    '''returns BIMUploadTableBean\n\n
+    ()\n
     '''
 def addrow():
-    '''public int addrow()
-    '''
-def setCurrentRow():
-    '''public synchronized boolean setCurrentRow(final int nRow)
-    '''
-def dataChangedEvent():
-    '''public synchronized void dataChangedEvent(final DataBean speaker)
+    '''returns int\n\n
+    addrow()\n
     '''
 def setupnewrow():
-    '''public int setupnewrow()
+    '''returns int\n\n
+    setupnewrow()\n
     '''
 def setServerFileName():
-    '''public void setServerFileName(final MboRemote targetMbo, final String enentSource, final String fileName)
+    '''returns None\n\n
+    setServerFileName(final MboRemote targetMbo, final String enentSource, final String fileName)\n
     '''
 def setClientFileName():
-    '''public void setClientFileName(final MboRemote targetMbo, final String enentSource, final String fileName)
+    '''returns None\n\n
+    setClientFileName(final MboRemote targetMbo, final String enentSource, final String fileName)\n
     '''
 def getDirectoryPath():
-    '''public String getDirectoryPath(final String enentSource)
+    '''returns String\n\n
+    getDirectoryPath(final String enentSource)\n
     '''

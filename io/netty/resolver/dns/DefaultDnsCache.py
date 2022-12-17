@@ -1,31 +1,40 @@
-def DefaultDnsCache():
-    '''public DefaultDnsCache()
-    public DefaultDnsCache(final int minTtl, final int maxTtl, final int negativeTtl)
+def ():
+    '''returns DefaultDnsCache\n\n
+    ()\n
+    (final int minTtl, final int maxTtl, final int negativeTtl)\n
     '''
 def minTtl():
-    '''public int minTtl()
+    '''returns int\n\n
+    minTtl()\n
     '''
 def maxTtl():
-    '''public int maxTtl()
+    '''returns int\n\n
+    maxTtl()\n
     '''
 def negativeTtl():
-    '''public int negativeTtl()
+    '''returns int\n\n
+    negativeTtl()\n
     '''
 def clear():
-    '''public void clear()
-    public boolean clear(final String hostname)
+    '''returns boolean\n\n
+    clear()\n
+    clear(final String hostname)\n
     '''
 def cache():
-    '''public DnsCacheEntry cache(final String hostname, final DnsRecord[] additionals, final InetAddress address, final long originalTtl, final EventLoop loop)
-    public DnsCacheEntry cache(final String hostname, final DnsRecord[] additionals, final Throwable cause, final EventLoop loop)
+    '''returns DnsCacheEntry\n\n
+    cache(final String hostname, final DnsRecord[] additionals, final InetAddress address, final long originalTtl, final EventLoop loop)\n
+    cache(final String hostname, final DnsRecord[] additionals, final Throwable cause, final EventLoop loop)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def address():
-    '''public InetAddress address()
+    '''returns InetAddress\n\n
+    address()\n
     '''
 def cause():
-    '''public Throwable cause()
+    '''returns Throwable\n\n
+    cause()\n
     '''

@@ -1,62 +1,65 @@
 STATIC_VARIABLES_KEY = "String  \"staticVariables\""
-def newBuilder():
-    '''public static <B extends Builder<B>> B newBuilder()
-    '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def append():
-    '''public void append(LogEvent event)
-    '''
-def getAppenders():
-    '''public Map<String, AppenderControl> getAppenders()
+    '''returns None\n\n
+    append(LogEvent event)\n
     '''
 def deleteAppender():
-    '''public void deleteAppender(final String key)
-    '''
-def createAppender():
-    '''public static RoutingAppender createAppender(final String name, final String ignore, final Routes routes, final Configuration config, final RewritePolicy rewritePolicy, final PurgePolicy purgePolicy, final Filter filter)
+    '''returns None\n\n
+    deleteAppender(final String key)\n
     '''
 def getDefaultRoute():
-    '''public Route getDefaultRoute()
+    '''returns Route\n\n
+    getDefaultRoute()\n
     '''
 def getDefaultRouteScript():
-    '''public AbstractScript getDefaultRouteScript()
-    public AbstractScript getDefaultRouteScript()
+    '''returns AbstractScript\n\n
+    getDefaultRouteScript()\n
+    getDefaultRouteScript()\n
     '''
 def getPurgePolicy():
-    '''public PurgePolicy getPurgePolicy()
-    public PurgePolicy getPurgePolicy()
+    '''returns PurgePolicy\n\n
+    getPurgePolicy()\n
+    getPurgePolicy()\n
     '''
 def getRewritePolicy():
-    '''public RewritePolicy getRewritePolicy()
-    public RewritePolicy getRewritePolicy()
+    '''returns RewritePolicy\n\n
+    getRewritePolicy()\n
+    getRewritePolicy()\n
     '''
 def getRoutes():
-    '''public Routes getRoutes()
-    public Routes getRoutes()
+    '''returns Routes\n\n
+    getRoutes()\n
+    getRoutes()\n
     '''
 def getConfiguration():
-    '''public Configuration getConfiguration()
-    '''
-def getScriptStaticVariables():
-    '''public ConcurrentMap<Object, Object> getScriptStaticVariables()
+    '''returns Configuration\n\n
+    getConfiguration()\n
     '''
 def build():
-    '''public RoutingAppender build()
+    '''returns RoutingAppender\n\n
+    build()\n
     '''
 def withRoutes():
-    '''public B withRoutes(final Routes routes)
+    '''returns B\n\n
+    withRoutes(final Routes routes)\n
     '''
 def withDefaultRouteScript():
-    '''public B withDefaultRouteScript(final AbstractScript defaultRouteScript)
+    '''returns B\n\n
+    withDefaultRouteScript(final AbstractScript defaultRouteScript)\n
     '''
 def withRewritePolicy():
-    '''public B withRewritePolicy(final RewritePolicy rewritePolicy)
+    '''returns B\n\n
+    withRewritePolicy(final RewritePolicy rewritePolicy)\n
     '''
 def withPurgePolicy():
-    '''public void withPurgePolicy(final PurgePolicy purgePolicy)
+    '''returns None\n\n
+    withPurgePolicy(final PurgePolicy purgePolicy)\n
     '''

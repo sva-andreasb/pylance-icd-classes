@@ -1,3 +1,4 @@
-def ActCIRelationSet():
-    '''public ActCIRelationSet(final MboServerInterface ms)
+def ():
+    '''returns ActCIRelationSet\n\n
+    (final MboServerInterface ms)\n
     '''

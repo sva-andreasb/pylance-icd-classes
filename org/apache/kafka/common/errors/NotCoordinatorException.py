@@ -1,4 +1,5 @@
-def NotCoordinatorException():
-    '''public NotCoordinatorException(final String message)
-    public NotCoordinatorException(final String message, final Throwable cause)
+def ():
+    '''returns NotCoordinatorException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

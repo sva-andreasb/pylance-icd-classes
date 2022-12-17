@@ -1,9 +1,12 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def saveandclose():
-    '''public int saveandclose()
+    '''returns int\n\n
+    saveandclose()\n
     '''
 def saveandcreate():
-    '''public int saveandcreate()
+    '''returns int\n\n
+    saveandcreate()\n
     '''

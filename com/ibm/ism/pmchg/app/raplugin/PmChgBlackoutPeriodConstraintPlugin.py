@@ -1,16 +1,21 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmChgBlackoutPeriodConstraintPlugin():
-    '''public PmChgBlackoutPeriodConstraintPlugin()
+def ():
+    '''returns PmChgBlackoutPeriodConstraintPlugin\n\n
+    ()\n
     '''
 def setCategoryId():
-    '''public void setCategoryId(final String categoryId)
+    '''returns None\n\n
+    setCategoryId(final String categoryId)\n
     '''
 def initCategoryService():
-    '''public void initCategoryService(final ConstraintModelContext context)
+    '''returns None\n\n
+    initCategoryService(final ConstraintModelContext context)\n
     '''
 def createPopulatedCategory():
-    '''public TimeWindowSet createPopulatedCategory(final MboRemote workorderMbo, final ConstraintModelContext context)
+    '''returns TimeWindowSet\n\n
+    createPopulatedCategory(final MboRemote workorderMbo, final ConstraintModelContext context)\n
     '''
 def createEmptyCategory():
-    '''public TimeWindowSet createEmptyCategory(final ConstraintModelContext context)
+    '''returns TimeWindowSet\n\n
+    createEmptyCategory(final ConstraintModelContext context)\n
     '''

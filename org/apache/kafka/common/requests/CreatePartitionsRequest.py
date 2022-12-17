@@ -1,33 +1,29 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def CreatePartitionsRequest():
-    '''public CreatePartitionsRequest(final Struct struct, final short apiVersion)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short apiVersion)\n
+    (final Map<String, NewPartitions> newPartitions, final int timeout, final boolean validateOnly)\n
     '''
 def duplicates():
-    '''public Set<String> duplicates()
-    '''
-def newPartitions():
-    '''public Map<String, NewPartitions> newPartitions()
+    '''returns Set<String>\n\n
+    duplicates()\n
     '''
 def timeout():
-    '''public int timeout()
+    '''returns int\n\n
+    timeout()\n
     '''
 def validateOnly():
-    '''public boolean validateOnly()
+    '''returns boolean\n\n
+    validateOnly()\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static CreatePartitionsRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final Map<String, NewPartitions> newPartitions, final int timeout, final boolean validateOnly)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def build():
-    '''public CreatePartitionsRequest build(final short version)
+    '''returns CreatePartitionsRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

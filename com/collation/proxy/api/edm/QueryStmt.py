@@ -1,24 +1,32 @@
-def QueryStmt():
-    '''public QueryStmt(final ArrayList attribute_list, final ArrayList classname_list, final QueryFilter where_clause, final String root, final String[] domains, final boolean exclude_subclass)
+def ():
+    '''returns QueryStmt\n\n
+    (final ArrayList attribute_list, final ArrayList classname_list, final QueryFilter where_clause, final String root, final String[] domains, final boolean exclude_subclass)\n
     '''
 def getAttribute_list():
-    '''public ArrayList getAttribute_list()
+    '''returns ArrayList\n\n
+    getAttribute_list()\n
     '''
 def getClassname_list():
-    '''public ArrayList getClassname_list()
+    '''returns ArrayList\n\n
+    getClassname_list()\n
     '''
 def getDomains():
-    '''public String[] getDomains()
+    '''returns String[]\n\n
+    getDomains()\n
     '''
 def getWhere_clause():
-    '''public QueryFilter getWhere_clause()
+    '''returns QueryFilter\n\n
+    getWhere_clause()\n
     '''
 def getRoot():
-    '''public String getRoot()
+    '''returns String\n\n
+    getRoot()\n
     '''
 def getExcludeSubclass():
-    '''public boolean getExcludeSubclass()
+    '''returns boolean\n\n
+    getExcludeSubclass()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

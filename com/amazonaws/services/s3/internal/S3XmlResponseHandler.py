@@ -1,9 +1,8 @@
-def S3XmlResponseHandler():
-    '''public S3XmlResponseHandler(final Unmarshaller<T, InputStream> responseUnmarshaller)
+def ():
+    '''returns S3XmlResponseHandler\n\n
+    (final Unmarshaller<T, InputStream> responseUnmarshaller)\n
     '''
 def handle():
-    '''public AmazonWebServiceResponse<T> handle(final HttpResponse response)
-    '''
-def getResponseHeaders():
-    '''public Map<String, String> getResponseHeaders()
+    '''returns AmazonWebServiceResponse<T>\n\n
+    handle(final HttpResponse response)\n
     '''

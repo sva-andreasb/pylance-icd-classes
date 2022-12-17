@@ -1,12 +1,16 @@
-def Snappy():
-    '''public Snappy()
+def ():
+    '''returns Snappy\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def encode():
-    '''public void encode(final ByteBuf in, final ByteBuf out, final int length)
+    '''returns None\n\n
+    encode(final ByteBuf in, final ByteBuf out, final int length)\n
     '''
 def decode():
-    '''public void decode(final ByteBuf in, final ByteBuf out)
+    '''returns None\n\n
+    decode(final ByteBuf in, final ByteBuf out)\n
     '''

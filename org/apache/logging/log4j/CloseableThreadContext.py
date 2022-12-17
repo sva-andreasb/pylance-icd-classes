@@ -1,21 +1,21 @@
 def push():
-    '''public static Instance push(final String message)
-    public static Instance push(final String message, final Object... args)
-    public Instance push(final String message)
-    public Instance push(final String message, final Object[] args)
+    '''returns Instance\n\n
+    push(final String message)\n
+    push(final String message, final Object[] args)\n
     '''
 def put():
-    '''public static Instance put(final String key, final String value)
-    public Instance put(final String key, final String value)
-    '''
-def pushAll():
-    '''public static Instance pushAll(final List<String> messages)
-    public Instance pushAll(final List<String> messages)
+    '''returns Instance\n\n
+    put(final String key, final String value)\n
     '''
 def putAll():
-    '''public static Instance putAll(final Map<String, String> values)
-    public Instance putAll(final Map<String, String> values)
+    '''returns Instance\n\n
+    putAll(final Map<String, String> values)\n
+    '''
+def pushAll():
+    '''returns Instance\n\n
+    pushAll(final List<String> messages)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

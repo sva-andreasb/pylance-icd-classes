@@ -1,18 +1,24 @@
-def TloamLicTransFromSet():
-    '''public TloamLicTransFromSet(final MboServerInterface ms)
+def ():
+    '''returns TloamLicTransFromSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def transferLicense():
-    '''public void transferLicense()
+    '''returns None\n\n
+    transferLicense()\n
     '''
 def getClearingAcct():
-    '''public String getClearingAcct(final MboRemote mbo, final String orgid)
+    '''returns String\n\n
+    getClearingAcct(final MboRemote mbo, final String orgid)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''

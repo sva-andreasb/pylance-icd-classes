@@ -1,24 +1,30 @@
-def SegmentedStringWriter():
-    '''public SegmentedStringWriter(final BufferRecycler br)
+def ():
+    '''returns SegmentedStringWriter\n\n
+    (final BufferRecycler br)\n
     '''
 def append():
-    '''public Writer append(final char c)
-    public Writer append(final CharSequence csq)
-    public Writer append(final CharSequence csq, final int start, final int end)
+    '''returns Writer\n\n
+    append(final char c)\n
+    append(final CharSequence csq)\n
+    append(final CharSequence csq, final int start, final int end)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final char[] cbuf)
-    public void write(final char[] cbuf, final int off, final int len)
-    public void write(final int c)
-    public void write(final String str)
-    public void write(final String str, final int off, final int len)
+    '''returns None\n\n
+    write(final char[] cbuf)\n
+    write(final char[] cbuf, final int off, final int len)\n
+    write(final int c)\n
+    write(final String str)\n
+    write(final String str, final int off, final int len)\n
     '''
 def getAndClear():
-    '''public String getAndClear()
+    '''returns String\n\n
+    getAndClear()\n
     '''

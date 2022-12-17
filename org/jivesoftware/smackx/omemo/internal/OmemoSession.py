@@ -1,23 +1,29 @@
-def OmemoSession():
-    '''public OmemoSession(final OmemoManager omemoManager, final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore, final OmemoDevice remoteDevice, final T_IdKey identityKey)
-    public OmemoSession(final OmemoManager omemoManager, final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore, final OmemoDevice remoteDevice)
+def ():
+    '''returns OmemoSession\n\n
+    (final OmemoManager omemoManager, final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore, final OmemoDevice remoteDevice, final T_IdKey identityKey)\n
+    (final OmemoManager omemoManager, final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore, final OmemoDevice remoteDevice)\n
     '''
 def decryptTransportedKey():
-    '''public CipherAndAuthTag decryptTransportedKey(final OmemoElement element, final int keyId)
+    '''returns CipherAndAuthTag\n\n
+    decryptTransportedKey(final OmemoElement element, final int keyId)\n
     '''
 def decryptMessageElement():
-    '''public static Message decryptMessageElement(final OmemoElement element, final CipherAndAuthTag cipherAndAuthTag)
-    public Message decryptMessageElement(final OmemoElement element, final int keyId)
+    '''returns Message\n\n
+    decryptMessageElement(final OmemoElement element, final int keyId)\n
     '''
 def getPreKeyId():
-    '''public int getPreKeyId()
+    '''returns int\n\n
+    getPreKeyId()\n
     '''
 def getIdentityKey():
-    '''public T_IdKey getIdentityKey()
+    '''returns T_IdKey\n\n
+    getIdentityKey()\n
     '''
 def setIdentityKey():
-    '''public void setIdentityKey(final T_IdKey identityKey)
+    '''returns None\n\n
+    setIdentityKey(final T_IdKey identityKey)\n
     '''
 def getFingerprint():
-    '''public OmemoFingerprint getFingerprint()
+    '''returns OmemoFingerprint\n\n
+    getFingerprint()\n
     '''

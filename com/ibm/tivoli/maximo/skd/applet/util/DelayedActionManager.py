@@ -1,10 +1,9 @@
-def DelayedActionManager():
-    '''public DelayedActionManager(final long waitFor)
-    '''
-def execute():
-    '''public synchronized void execute()
+def ():
+    '''returns DelayedActionManager\n\n
+    (final long waitFor)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''

@@ -1,3 +1,4 @@
-def FldLASEndFeatureLabel():
-    '''public FldLASEndFeatureLabel(final MboValue mbv)
+def ():
+    '''returns FldLASEndFeatureLabel\n\n
+    (final MboValue mbv)\n
     '''

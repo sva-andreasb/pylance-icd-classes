@@ -1,27 +1,36 @@
 def getPartNumber():
-    '''public int getPartNumber()
+    '''returns int\n\n
+    getPartNumber()\n
     '''
 def setPartNumber():
-    '''public void setPartNumber(final int partNumber)
+    '''returns None\n\n
+    setPartNumber(final int partNumber)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def setETag():
-    '''public void setETag(final String etag)
+    '''returns None\n\n
+    setETag(final String etag)\n
     '''
 def getPartETag():
-    '''public PartETag getPartETag()
+    '''returns PartETag\n\n
+    getPartETag()\n
     '''
 def getLastModifiedDate():
-    '''public Date getLastModifiedDate()
+    '''returns Date\n\n
+    getLastModifiedDate()\n
     '''
 def setLastModifiedDate():
-    '''public void setLastModifiedDate(final Date lastModifiedDate)
+    '''returns None\n\n
+    setLastModifiedDate(final Date lastModifiedDate)\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
     '''

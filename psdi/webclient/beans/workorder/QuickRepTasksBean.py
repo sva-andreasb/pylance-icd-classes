@@ -1,12 +1,12 @@
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def taskstatus():
-    '''public int taskstatus()
+    '''returns int\n\n
+    taskstatus()\n
     '''
 def insert():
-    '''public void insert(final int nRow)
-    '''
-def insertAtEnd():
-    '''public synchronized void insertAtEnd()
+    '''returns None\n\n
+    insert(final int nRow)\n
     '''

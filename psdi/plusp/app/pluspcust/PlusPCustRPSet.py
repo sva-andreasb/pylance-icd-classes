@@ -1,3 +1,4 @@
-def PlusPCustRPSet():
-    '''public PlusPCustRPSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustRPSet\n\n
+    (final MboServerInterface ms)\n
     '''

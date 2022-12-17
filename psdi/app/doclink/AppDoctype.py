@@ -1,6 +1,8 @@
-def AppDoctype():
-    '''public AppDoctype(final MboSet ms)
+def ():
+    '''returns AppDoctype\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

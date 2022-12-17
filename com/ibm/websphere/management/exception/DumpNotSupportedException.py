@@ -1,15 +1,20 @@
-def DumpNotSupportedException():
-    '''public DumpNotSupportedException(final String msg, final boolean platformProblem)
+def ():
+    '''returns DumpNotSupportedException\n\n
+    (final String msg, final boolean platformProblem)\n
     '''
 def setPlatformProblem():
-    '''public void setPlatformProblem(final boolean b)
+    '''returns None\n\n
+    setPlatformProblem(final boolean b)\n
     '''
 def isPlatformProblem():
-    '''public boolean isPlatformProblem()
+    '''returns boolean\n\n
+    isPlatformProblem()\n
     '''
 def setConfigProblem():
-    '''public void setConfigProblem(final boolean b)
+    '''returns None\n\n
+    setConfigProblem(final boolean b)\n
     '''
 def isConfigProblem():
-    '''public boolean isConfigProblem()
+    '''returns boolean\n\n
+    isConfigProblem()\n
     '''

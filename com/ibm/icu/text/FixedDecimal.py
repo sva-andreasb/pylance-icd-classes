@@ -1,79 +1,96 @@
 def getSource():
-    '''public double getSource()
+    '''returns double\n\n
+    getSource()\n
     '''
 def getVisibleDecimalDigitCount():
-    '''public int getVisibleDecimalDigitCount()
+    '''returns int\n\n
+    getVisibleDecimalDigitCount()\n
     '''
 def getVisibleDecimalDigitCountWithoutTrailingZeros():
-    '''public int getVisibleDecimalDigitCountWithoutTrailingZeros()
+    '''returns int\n\n
+    getVisibleDecimalDigitCountWithoutTrailingZeros()\n
     '''
 def getDecimalDigits():
-    '''public long getDecimalDigits()
+    '''returns long\n\n
+    getDecimalDigits()\n
     '''
 def getDecimalDigitsWithoutTrailingZeros():
-    '''public long getDecimalDigitsWithoutTrailingZeros()
+    '''returns long\n\n
+    getDecimalDigitsWithoutTrailingZeros()\n
     '''
 def getIntegerValue():
-    '''public long getIntegerValue()
+    '''returns long\n\n
+    getIntegerValue()\n
     '''
 def isHasIntegerValue():
-    '''public boolean isHasIntegerValue()
+    '''returns boolean\n\n
+    isHasIntegerValue()\n
     '''
 def isNegative():
-    '''public boolean isNegative()
+    '''returns boolean\n\n
+    isNegative()\n
     '''
 def getBaseFactor():
-    '''public int getBaseFactor()
+    '''returns int\n\n
+    getBaseFactor()\n
     '''
-def FixedDecimal():
-    '''public FixedDecimal(final double n, final int v, final long f)
-    public FixedDecimal(final double n, final int v)
-    public FixedDecimal(final double n)
-    public FixedDecimal(final long n)
-    public FixedDecimal(final String n)
-    '''
-def decimals():
-    '''public static int decimals(double n)
+def ():
+    '''returns FixedDecimal\n\n
+    (final double n, final int v, final long f)\n
+    (final double n, final int v)\n
+    (final double n)\n
+    (final long n)\n
+    (final String n)\n
     '''
 def getPluralOperand():
-    '''public double getPluralOperand(final Operand operand)
-    '''
-def getOperand():
-    '''public static Operand getOperand(final String t)
+    '''returns double\n\n
+    getPluralOperand(final Operand operand)\n
     '''
 def compareTo():
-    '''public int compareTo(final FixedDecimal other)
+    '''returns int\n\n
+    compareTo(final FixedDecimal other)\n
     '''
 def equals():
-    '''public boolean equals(final Object arg0)
+    '''returns boolean\n\n
+    equals(final Object arg0)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hasIntegerValue():
-    '''public boolean hasIntegerValue()
+    '''returns boolean\n\n
+    hasIntegerValue()\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def getShiftedValue():
-    '''public long getShiftedValue()
+    '''returns long\n\n
+    getShiftedValue()\n
     '''
 def isNaN():
-    '''public boolean isNaN()
+    '''returns boolean\n\n
+    isNaN()\n
     '''
 def isInfinite():
-    '''public boolean isInfinite()
+    '''returns boolean\n\n
+    isInfinite()\n
     '''

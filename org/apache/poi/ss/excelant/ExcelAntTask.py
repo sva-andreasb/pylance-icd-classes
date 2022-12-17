@@ -1,22 +1,29 @@
 VERSION = "String  \"0.5.0\""
-def ExcelAntTask():
-    '''public ExcelAntTask()
+def ():
+    '''returns ExcelAntTask\n\n
+    ()\n
     '''
 def addPrecision():
-    '''public void addPrecision(final ExcelAntPrecision prec)
+    '''returns None\n\n
+    addPrecision(final ExcelAntPrecision prec)\n
     '''
 def setFailOnError():
-    '''public void setFailOnError(final boolean value)
+    '''returns None\n\n
+    setFailOnError(final boolean value)\n
     '''
 def setFileName():
-    '''public void setFileName(final String fileName)
+    '''returns None\n\n
+    setFileName(final String fileName)\n
     '''
 def addTest():
-    '''public void addTest(final ExcelAntTest testElement)
+    '''returns None\n\n
+    addTest(final ExcelAntTest testElement)\n
     '''
 def addUdf():
-    '''public void addUdf(final ExcelAntUserDefinedFunction def)
+    '''returns None\n\n
+    addUdf(final ExcelAntUserDefinedFunction def)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

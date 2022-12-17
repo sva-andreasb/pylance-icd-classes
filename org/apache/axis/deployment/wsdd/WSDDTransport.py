@@ -1,10 +1,13 @@
-def WSDDTransport():
-    '''public WSDDTransport()
-    public WSDDTransport(final Element e)
+def ():
+    '''returns WSDDTransport\n\n
+    ()\n
+    (final Element e)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def deployToRegistry():
-    '''public void deployToRegistry(final WSDDDeployment registry)
+    '''returns None\n\n
+    deployToRegistry(final WSDDDeployment registry)\n
     '''

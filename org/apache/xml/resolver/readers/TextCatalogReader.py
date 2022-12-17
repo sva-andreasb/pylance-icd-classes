@@ -1,13 +1,17 @@
-def TextCatalogReader():
-    '''public TextCatalogReader()
+def ():
+    '''returns TextCatalogReader\n\n
+    ()\n
     '''
 def setCaseSensitive():
-    '''public void setCaseSensitive(final boolean isCaseSensitive)
+    '''returns None\n\n
+    setCaseSensitive(final boolean isCaseSensitive)\n
     '''
 def getCaseSensitive():
-    '''public boolean getCaseSensitive()
+    '''returns boolean\n\n
+    getCaseSensitive()\n
     '''
 def readCatalog():
-    '''public void readCatalog(final Catalog catalog, final String fileUrl)
-    public void readCatalog(final Catalog catalog, final InputStream is)
+    '''returns None\n\n
+    readCatalog(final Catalog catalog, final String fileUrl)\n
+    readCatalog(final Catalog catalog, final InputStream is)\n
     '''

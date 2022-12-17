@@ -1,3 +1,4 @@
-def ConcurrentTransactionsException():
-    '''public ConcurrentTransactionsException(final String message)
+def ():
+    '''returns ConcurrentTransactionsException\n\n
+    (final String message)\n
     '''

@@ -1,12 +1,16 @@
 def getDataHandler():
-    '''public DataHandler getDataHandler()
+    '''returns DataHandler\n\n
+    getDataHandler()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''

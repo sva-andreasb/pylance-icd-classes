@@ -1,19 +1,21 @@
 COPY_ALWAYS = "boolean  true"
 COPY_ONLY_ON_CHANGE = "boolean  false"
-def SqlTransformCopy():
-    '''public SqlTransformCopy()
-    public SqlTransformCopy(final boolean alwaysDuplicate)
+def ():
+    '''returns SqlTransformCopy\n\n
+    ()\n
+    (final boolean alwaysDuplicate)\n
     '''
 def transform():
-    '''public SqlNode transform(final SqlProject sqlProject, final SqlNode subNode)
-    public SqlNode transform(final SqlDistinct sqlDistinct, final SqlNode subNode)
-    public SqlNode transform(final SqlRestrict sqlRestrict, final SqlNode subNode)
-    public SqlNode transform(final SqlSlice sqlSlice, final SqlNode subNode)
-    public SqlNode transform(final SqlSelectBlock sqlSelectBlock, final SqlNode subNode)
-    public SqlNode transform(final SqlJoinInner sqlJoinInner, final SqlNode left, final SqlNode right)
-    public SqlNode transform(final SqlJoinLeftOuter sqlJoinLeftOuter, final SqlNode left, final SqlNode right)
-    public SqlNode transform(final SqlUnion sqlUnion, final SqlNode left, final SqlNode right)
-    public SqlNode transform(final SqlTable sqlTable)
-    public SqlNode transform(final SqlRename sqlRename, final SqlNode subNode)
-    public SqlNode transform(final SqlCoalesce sqlCoalesce, final SqlNode subNode)
+    '''returns SqlNode\n\n
+    transform(final SqlProject sqlProject, final SqlNode subNode)\n
+    transform(final SqlDistinct sqlDistinct, final SqlNode subNode)\n
+    transform(final SqlRestrict sqlRestrict, final SqlNode subNode)\n
+    transform(final SqlSlice sqlSlice, final SqlNode subNode)\n
+    transform(final SqlSelectBlock sqlSelectBlock, final SqlNode subNode)\n
+    transform(final SqlJoinInner sqlJoinInner, final SqlNode left, final SqlNode right)\n
+    transform(final SqlJoinLeftOuter sqlJoinLeftOuter, final SqlNode left, final SqlNode right)\n
+    transform(final SqlUnion sqlUnion, final SqlNode left, final SqlNode right)\n
+    transform(final SqlTable sqlTable)\n
+    transform(final SqlRename sqlRename, final SqlNode subNode)\n
+    transform(final SqlCoalesce sqlCoalesce, final SqlNode subNode)\n
     '''

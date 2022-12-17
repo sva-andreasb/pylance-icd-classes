@@ -1,3 +1,4 @@
-def OMQualifiedNameFilterIterator():
-    '''public OMQualifiedNameFilterIterator(final Iterator parent, final String qualifiedName)
+def ():
+    '''returns OMQualifiedNameFilterIterator\n\n
+    (final Iterator parent, final String qualifiedName)\n
     '''

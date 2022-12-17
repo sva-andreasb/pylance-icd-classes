@@ -1,130 +1,160 @@
-def MetadataService():
-    '''public MetadataService()
+def ():
+    '''returns MetadataService\n\n
+    ()\n
     '''
 def fetchCdmVersionInfo():
-    '''public ConnectionInfo fetchCdmVersionInfo(final Connection conn)
+    '''returns ConnectionInfo\n\n
+    fetchCdmVersionInfo(final Connection conn)\n
     '''
 def init():
-    '''public void init(final Connection connection, final String jdbcDriver, final String databaseURL, final String userID, final String userPassword)
+    '''returns None\n\n
+    init(final Connection connection, final String jdbcDriver, final String databaseURL, final String userID, final String userPassword)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def getNamingPolicies():
-    '''public HashMap getNamingPolicies(final String classType)
-    '''
-def getAllNamingPolicies():
-    '''public Map<String, Map<String, Guid>> getAllNamingPolicies()
-    '''
-def getAllNamingRules():
-    '''public Map<Guid, List<Map<String, Object>>> getAllNamingRules()
-    '''
-def getAllNamingRuleIdentifiers():
-    '''public Map<Guid, List<Map<String, Object>>> getAllNamingRuleIdentifiers()
+    '''returns HashMap\n\n
+    getNamingPolicies(final String classType)\n
     '''
 def getModelLevel():
-    '''public String getModelLevel()
+    '''returns String\n\n
+    getModelLevel()\n
     '''
 def getDerivedClasses():
-    '''public String[] getDerivedClasses(final String className)
-    public Guid[] getDerivedClasses(final Guid classGuid)
+    '''returns Guid[]\n\n
+    getDerivedClasses(final String className)\n
+    getDerivedClasses(final Guid classGuid)\n
     '''
 def isRelated():
-    '''public int isRelated(final Guid class1, final Guid class2)
-    public int isRelated(final String class1, final String class2)
+    '''returns int\n\n
+    isRelated(final Guid class1, final Guid class2)\n
+    isRelated(final String class1, final String class2)\n
     '''
 def isDesiredClass():
-    '''public boolean isDesiredClass(final String className)
+    '''returns boolean\n\n
+    isDesiredClass(final String className)\n
     '''
 def registerDesiredRelationships():
-    '''public void registerDesiredRelationships(Guid mssGUID, final String[] desiredRelationships)
+    '''returns None\n\n
+    registerDesiredRelationships(Guid mssGUID, final String[] desiredRelationships)\n
     '''
 def isDesiredRelationship():
-    '''public boolean isDesiredRelationship(final String relType, final String sourceClass, final String targetClass)
+    '''returns boolean\n\n
+    isDesiredRelationship(final String relType, final String sourceClass, final String targetClass)\n
     '''
 def registerDesiredClasses():
-    '''public void registerDesiredClasses(Guid mssGUID, final String[] desiredClasses)
+    '''returns None\n\n
+    registerDesiredClasses(Guid mssGUID, final String[] desiredClasses)\n
     '''
 def registerFederatedClasses():
-    '''public void registerFederatedClasses(final Guid mssGUID, final String[] federatedClasses)
+    '''returns None\n\n
+    registerFederatedClasses(final Guid mssGUID, final String[] federatedClasses)\n
     '''
 def registerFederatedAttributes():
-    '''public void registerFederatedAttributes(final Guid mssGUID, final String[] federatedAttributes, final String nameSpace)
+    '''returns None\n\n
+    registerFederatedAttributes(final Guid mssGUID, final String[] federatedAttributes, final String nameSpace)\n
     '''
 def registerFederatedRelationships():
-    '''public void registerFederatedRelationships(final Guid mssGUID, final String[] federatedRelationships)
+    '''returns None\n\n
+    registerFederatedRelationships(final Guid mssGUID, final String[] federatedRelationships)\n
     '''
 def getFederatedClasses():
-    '''public HashMap getFederatedClasses(final Guid mssGUID)
+    '''returns HashMap\n\n
+    getFederatedClasses(final Guid mssGUID)\n
     '''
 def getFederatedAttributes():
-    '''public HashMap getFederatedAttributes(final Guid mssGuid)
+    '''returns HashMap\n\n
+    getFederatedAttributes(final Guid mssGuid)\n
     '''
 def getFederatedRelationships():
-    '''public HashMap getFederatedRelationships(final Guid mssGuid)
+    '''returns HashMap\n\n
+    getFederatedRelationships(final Guid mssGuid)\n
     '''
 def registerDesiredAttributes():
-    '''public void registerDesiredAttributes(Guid mssGUID, final String[] desiredAttributes, final String nameSpace)
+    '''returns None\n\n
+    registerDesiredAttributes(Guid mssGUID, final String[] desiredAttributes, final String nameSpace)\n
     '''
 def isDesiredAttribute():
-    '''public boolean isDesiredAttribute(final String className, final String attributeName)
+    '''returns boolean\n\n
+    isDesiredAttribute(final String className, final String attributeName)\n
     '''
 def getClassTypes():
-    '''public HashMap[] getClassTypes(final String className)
-    public HashMap[] getClassTypes(final Guid classGuid)
+    '''returns HashMap[]\n\n
+    getClassTypes(final String className)\n
+    getClassTypes(final Guid classGuid)\n
     '''
 def getAttributeTypes():
-    '''public HashMap[] getAttributeTypes(final int type, final String name)
+    '''returns HashMap[]\n\n
+    getAttributeTypes(final int type, final String name)\n
     '''
 def getParentClasses():
-    '''public Guid[] getParentClasses(final Guid classGuid)
-    public String[] getParentClasses(final String className)
+    '''returns String[]\n\n
+    getParentClasses(final Guid classGuid)\n
+    getParentClasses(final String className)\n
     '''
 def setAttributePriorities():
-    '''public void setAttributePriorities(final HashMap attributePriorities, final Guid[] mssGuids)
+    '''returns None\n\n
+    setAttributePriorities(final HashMap attributePriorities, final Guid[] mssGuids)\n
     '''
 def getAttributePriorities():
-    '''public HashMap getAttributePriorities(final String[] attributeTypes)
+    '''returns HashMap\n\n
+    getAttributePriorities(final String[] attributeTypes)\n
     '''
 def getEnumerations():
-    '''public HashMap getEnumerations(final String[] enumNames)
+    '''returns HashMap\n\n
+    getEnumerations(final String[] enumNames)\n
     '''
 def getValidRelationships():
-    '''public HashMap[] getValidRelationships(final String relType, final String sourceClass, final String targetClass)
+    '''returns HashMap[]\n\n
+    getValidRelationships(final String relType, final String sourceClass, final String targetClass)\n
     '''
 def getDesiredClasses():
-    '''public HashMap getDesiredClasses(Guid mssGuid)
+    '''returns HashMap\n\n
+    getDesiredClasses(Guid mssGuid)\n
     '''
 def getDesiredAttributes():
-    '''public HashMap getDesiredAttributes(Guid mssGuid, final String className)
+    '''returns HashMap\n\n
+    getDesiredAttributes(Guid mssGuid, final String className)\n
     '''
 def getDesiredRelationships():
-    '''public HashMap getDesiredRelationships(Guid mssGuid, final String relType, final String sourceClass, final String targetClass)
+    '''returns HashMap\n\n
+    getDesiredRelationships(Guid mssGuid, final String relType, final String sourceClass, final String targetClass)\n
     '''
 def getNamingContexts():
-    '''public HashMap getNamingContexts(final String[] classTypes)
+    '''returns HashMap\n\n
+    getNamingContexts(final String[] classTypes)\n
     '''
 def isDerivedFromClass():
-    '''public boolean isDerivedFromClass(final Guid class1Guid, final Guid class2Guid)
+    '''returns boolean\n\n
+    isDerivedFromClass(final Guid class1Guid, final Guid class2Guid)\n
     '''
 def isDerivedClass():
-    '''public boolean isDerivedClass(final String class1, final String class2)
+    '''returns boolean\n\n
+    isDerivedClass(final String class1, final String class2)\n
     '''
 def lockCache():
-    '''public void lockCache(final DisReadWriteLock.Usage usage)
+    '''returns None\n\n
+    lockCache(final DisReadWriteLock.Usage usage)\n
     '''
 def unlockCache():
-    '''public void unlockCache(final DisReadWriteLock.Usage usage)
+    '''returns None\n\n
+    unlockCache(final DisReadWriteLock.Usage usage)\n
     '''
 def refreshCache():
-    '''public void refreshCache()
+    '''returns None\n\n
+    refreshCache()\n
     '''
 def hasMetadataChanged():
-    '''public boolean hasMetadataChanged(final Date since)
+    '''returns boolean\n\n
+    hasMetadataChanged(final Date since)\n
     '''
 def buildShortName():
-    '''public String buildShortName(final String className)
+    '''returns String\n\n
+    buildShortName(final String className)\n
     '''
 def isDuplicateClass():
-    '''public boolean isDuplicateClass(final String className)
+    '''returns boolean\n\n
+    isDuplicateClass(final String className)\n
     '''

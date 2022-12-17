@@ -1,21 +1,28 @@
-def PolyLineTo():
-    '''public PolyLineTo(final RowType row)
+def ():
+    '''returns PolyLineTo\n\n
+    (final RowType row)\n
     '''
 def getDel():
-    '''public boolean getDel()
+    '''returns boolean\n\n
+    getDel()\n
     '''
 def getX():
-    '''public Double getX()
+    '''returns Double\n\n
+    getX()\n
     '''
 def getY():
-    '''public Double getY()
+    '''returns Double\n\n
+    getY()\n
     '''
 def getA():
-    '''public String getA()
+    '''returns String\n\n
+    getA()\n
     '''
 def setupMaster():
-    '''public void setupMaster(final GeometryRow row)
+    '''returns None\n\n
+    setupMaster(final GeometryRow row)\n
     '''
 def addToPath():
-    '''public void addToPath(final Path2D.Double path, final XDGFShape parent)
+    '''returns None\n\n
+    addToPath(final Path2D.Double path, final XDGFShape parent)\n
     '''

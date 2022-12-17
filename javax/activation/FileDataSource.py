@@ -1,22 +1,29 @@
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
-def FileDataSource():
-    '''public FileDataSource(final File file)
-    public FileDataSource(final String name)
+def ():
+    '''returns FileDataSource\n\n
+    (final File file)\n
+    (final String name)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setFileTypeMap():
-    '''public void setFileTypeMap(final FileTypeMap map)
+    '''returns None\n\n
+    setFileTypeMap(final FileTypeMap map)\n
     '''

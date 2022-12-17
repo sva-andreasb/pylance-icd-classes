@@ -1,3 +1,4 @@
-def NioUdtByteRendezvousChannel():
-    '''public NioUdtByteRendezvousChannel()
+def ():
+    '''returns NioUdtByteRendezvousChannel\n\n
+    ()\n
     '''

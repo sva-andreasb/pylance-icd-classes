@@ -1,3 +1,4 @@
-def ReportOutputSet():
-    '''public ReportOutputSet(final MboServerInterface ms)
+def ():
+    '''returns ReportOutputSet\n\n
+    (final MboServerInterface ms)\n
     '''

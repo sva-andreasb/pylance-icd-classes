@@ -1,22 +1,29 @@
-def ConcatFilter():
-    '''public ConcatFilter()
-    public ConcatFilter(final Reader in)
+def ():
+    '''returns ConcatFilter\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def setPrepend():
-    '''public void setPrepend(final File prepend)
+    '''returns None\n\n
+    setPrepend(final File prepend)\n
     '''
 def getPrepend():
-    '''public File getPrepend()
+    '''returns File\n\n
+    getPrepend()\n
     '''
 def setAppend():
-    '''public void setAppend(final File append)
+    '''returns None\n\n
+    setAppend(final File append)\n
     '''
 def getAppend():
-    '''public File getAppend()
+    '''returns File\n\n
+    getAppend()\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''

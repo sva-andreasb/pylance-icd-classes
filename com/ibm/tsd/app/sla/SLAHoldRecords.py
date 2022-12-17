@@ -1,3 +1,4 @@
-def SLAHoldRecords():
-    '''public SLAHoldRecords(final MboSet ms)
+def ():
+    '''returns SLAHoldRecords\n\n
+    (final MboSet ms)\n
     '''

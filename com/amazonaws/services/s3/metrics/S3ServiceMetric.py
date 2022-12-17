@@ -1,16 +1,13 @@
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
-    '''
-def values():
-    '''public static S3ServiceMetric[] values()
-    '''
-def valueOf():
-    '''public static S3ServiceMetric valueOf(final String name)
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getByteCountMetricType():
-    '''public ServiceMetricType getByteCountMetricType()
-    public ServiceMetricType getByteCountMetricType()
+    '''returns ServiceMetricType\n\n
+    getByteCountMetricType()\n
+    getByteCountMetricType()\n
     '''

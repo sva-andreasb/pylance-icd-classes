@@ -1,12 +1,8 @@
-def NoMerge():
-    '''public NoMerge(final NavigatorView navigatorView, final NavigatorView navigatorView2)
+def ():
+    '''returns NoMerge\n\n
+    (final NavigatorView navigatorView, final NavigatorView navigatorView2)\n
     '''
 def processMerge():
-    '''public TreeNode processMerge(final TreeNode treeNode)
-    '''
-def mergeNodes():
-    '''public static void mergeNodes(final TreeNode treeNode, final TreeNode treeNode2)
-    '''
-def mergeNodeChildren():
-    '''public static void mergeNodeChildren(final TreeNode treeNode)
+    '''returns TreeNode\n\n
+    processMerge(final TreeNode treeNode)\n
     '''

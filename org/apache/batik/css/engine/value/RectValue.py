@@ -1,24 +1,32 @@
-def RectValue():
-    '''public RectValue(final Value t, final Value r, final Value b, final Value l)
+def ():
+    '''returns RectValue\n\n
+    (final Value t, final Value r, final Value b, final Value l)\n
     '''
 def getPrimitiveType():
-    '''public short getPrimitiveType()
+    '''returns short\n\n
+    getPrimitiveType()\n
     '''
 def getCssText():
-    '''public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
     '''
 def getTop():
-    '''public Value getTop()
+    '''returns Value\n\n
+    getTop()\n
     '''
 def getRight():
-    '''public Value getRight()
+    '''returns Value\n\n
+    getRight()\n
     '''
 def getBottom():
-    '''public Value getBottom()
+    '''returns Value\n\n
+    getBottom()\n
     '''
 def getLeft():
-    '''public Value getLeft()
+    '''returns Value\n\n
+    getLeft()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

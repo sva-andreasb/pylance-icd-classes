@@ -1,6 +1,8 @@
-def UnassignedDateFilter():
-    '''public UnassignedDateFilter(final MboSet ms)
+def ():
+    '''returns UnassignedDateFilter\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

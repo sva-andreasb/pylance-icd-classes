@@ -1,3 +1,4 @@
-def FldITAsset():
-    '''public FldITAsset(final MboValue mbv)
+def ():
+    '''returns FldITAsset\n\n
+    (final MboValue mbv)\n
     '''

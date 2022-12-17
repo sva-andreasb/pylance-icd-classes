@@ -1,20 +1,26 @@
-def OmemoMessageSendingTest():
-    '''public OmemoMessageSendingTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns OmemoMessageSendingTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def before():
-    '''public void before()
+    '''returns None\n\n
+    before()\n
     '''
 def messageSendingTest():
-    '''public void messageSendingTest()
+    '''returns None\n\n
+    messageSendingTest()\n
     '''
 def onOmemoMessageReceived():
-    '''public void onOmemoMessageReceived(final String decryptedBody, final Message encryptedMessage, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)
-    public void onOmemoMessageReceived(final String decryptedBody, final Message encryptedMessage, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)
+    '''returns None\n\n
+    onOmemoMessageReceived(final String decryptedBody, final Message encryptedMessage, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)\n
+    onOmemoMessageReceived(final String decryptedBody, final Message encryptedMessage, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)\n
     '''
 def onOmemoKeyTransportReceived():
-    '''public void onOmemoKeyTransportReceived(final CipherAndAuthTag cipherAndAuthTag, final Message message, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)
-    public void onOmemoKeyTransportReceived(final CipherAndAuthTag cipherAndAuthTag, final Message message, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)
+    '''returns None\n\n
+    onOmemoKeyTransportReceived(final CipherAndAuthTag cipherAndAuthTag, final Message message, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)\n
+    onOmemoKeyTransportReceived(final CipherAndAuthTag cipherAndAuthTag, final Message message, final Message wrappingMessage, final OmemoMessageInformation omemoInformation)\n
     '''
 def after():
-    '''public void after()
+    '''returns None\n\n
+    after()\n
     '''

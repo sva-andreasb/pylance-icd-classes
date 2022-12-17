@@ -1,4 +1,5 @@
-def MfMailService():
-    '''public MfMailService()
-    public MfMailService(final MXServer mxServer)
+def ():
+    '''returns MfMailService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

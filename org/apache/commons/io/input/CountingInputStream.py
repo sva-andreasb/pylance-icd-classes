@@ -1,18 +1,12 @@
-def CountingInputStream():
-    '''public CountingInputStream(final InputStream in)
-    '''
-def skip():
-    '''public synchronized long skip(final long length)
+def ():
+    '''returns CountingInputStream\n\n
+    (final InputStream in)\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def resetCount():
-    '''public int resetCount()
-    '''
-def getByteCount():
-    '''public synchronized long getByteCount()
-    '''
-def resetByteCount():
-    '''public synchronized long resetByteCount()
+    '''returns int\n\n
+    resetCount()\n
     '''

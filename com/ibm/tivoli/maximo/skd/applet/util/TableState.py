@@ -1,3 +1,4 @@
-def TableState():
-    '''public TableState()
+def ():
+    '''returns TableState\n\n
+    ()\n
     '''

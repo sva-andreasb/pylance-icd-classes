@@ -1,12 +1,16 @@
 def postSign():
-    '''public void postSign(final Document document)
+    '''returns None\n\n
+    postSign(final Document document)\n
     '''
 def getAlgorithm():
-    '''public String getAlgorithm()
+    '''returns String\n\n
+    getAlgorithm()\n
     '''
 def getEncoded():
-    '''public byte[] getEncoded()
+    '''returns byte[]\n\n
+    getEncoded()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''

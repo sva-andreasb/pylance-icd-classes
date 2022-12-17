@@ -1,18 +1,24 @@
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def saveYesNoCheck():
-    '''public boolean saveYesNoCheck()
+    '''returns boolean\n\n
+    saveYesNoCheck()\n
     '''
 def APPLYPS():
-    '''public int APPLYPS()
+    '''returns int\n\n
+    APPLYPS()\n
     '''
 def VIEWCOSTPR():
-    '''public int VIEWCOSTPR()
+    '''returns int\n\n
+    VIEWCOSTPR()\n
     '''
 def MODIFYPS():
-    '''public int MODIFYPS()
+    '''returns int\n\n
+    MODIFYPS()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''

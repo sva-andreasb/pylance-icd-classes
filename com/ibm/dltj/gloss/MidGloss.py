@@ -1,37 +1,49 @@
-def MidGloss():
-    '''public MidGloss()
-    public MidGloss(final Gloss[] array)
+def ():
+    '''returns MidGloss\n\n
+    ()\n
+    (final Gloss[] array)\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getLemmaGloss():
-    '''public LemmaGenerator getLemmaGloss()
+    '''returns LemmaGenerator\n\n
+    getLemmaGloss()\n
     '''
 def getStemGloss():
-    '''public LemmaGenerator getStemGloss()
+    '''returns LemmaGenerator\n\n
+    getStemGloss()\n
     '''
 def getFeatureGloss():
-    '''public FeatureSetGloss getFeatureGloss()
+    '''returns FeatureSetGloss\n\n
+    getFeatureGloss()\n
     '''
 def getGrammarGloss():
-    '''public GrammarGloss getGrammarGloss()
+    '''returns GrammarGloss\n\n
+    getGrammarGloss()\n
     '''
 def getGlosses():
-    '''public Gloss[] getGlosses()
+    '''returns Gloss[]\n\n
+    getGlosses()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

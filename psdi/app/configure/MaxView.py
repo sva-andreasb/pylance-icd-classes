@@ -1,3 +1,4 @@
-def MaxView():
-    '''public MaxView(final MboSet ms)
+def ():
+    '''returns MaxView\n\n
+    (final MboSet ms)\n
     '''

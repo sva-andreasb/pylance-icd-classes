@@ -1,6 +1,8 @@
-def FldJobPlanClassWOClass():
-    '''public FldJobPlanClassWOClass(final MboValue mbv)
+def ():
+    '''returns FldJobPlanClassWOClass\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

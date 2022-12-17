@@ -1,12 +1,12 @@
-def ConnectionDescription():
-    '''public ConnectionDescription(final String subject, final String dbURL, final String dbUser, final String dbPassword, final String dbType)
+def ():
+    '''returns ConnectionDescription\n\n
+    (final String subject, final String dbURL, final String dbUser, final String dbPassword, final String dbType)\n
     '''
 def getConnection():
-    '''public IDBConnection getConnection()
-    '''
-def create():
-    '''public static ConnectionDescription create(final String subject, final String dbURL, final String dbUser, final String dbPassword, final String dbType)
+    '''returns IDBConnection\n\n
+    getConnection()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

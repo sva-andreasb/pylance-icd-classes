@@ -1,39 +1,44 @@
 def isProxyEnabled():
-    '''public boolean isProxyEnabled()
+    '''returns boolean\n\n
+    isProxyEnabled()\n
     '''
 def getProxyInfo():
-    '''public ProxyInfo getProxyInfo()
+    '''returns ProxyInfo\n\n
+    getProxyInfo()\n
     '''
 def getProxyAddress():
-    '''public String getProxyAddress()
+    '''returns String\n\n
+    getProxyAddress()\n
     '''
 def getProxyPort():
-    '''public int getProxyPort()
+    '''returns int\n\n
+    getProxyPort()\n
     '''
 def isUsingHTTPS():
-    '''public boolean isUsingHTTPS()
+    '''returns boolean\n\n
+    isUsingHTTPS()\n
     '''
 def getURI():
-    '''public URI getURI()
-    '''
-def getHttpHeaders():
-    '''public Map<String, String> getHttpHeaders()
-    '''
-def builder():
-    '''public static Builder builder()
+    '''returns URI\n\n
+    getURI()\n
     '''
 def setUseHttps():
-    '''public Builder setUseHttps(final boolean useHttps)
+    '''returns Builder\n\n
+    setUseHttps(final boolean useHttps)\n
     '''
 def useHttps():
-    '''public Builder useHttps()
+    '''returns Builder\n\n
+    useHttps()\n
     '''
 def setFile():
-    '''public Builder setFile(final String file)
+    '''returns Builder\n\n
+    setFile(final String file)\n
     '''
 def addHttpHeader():
-    '''public Builder addHttpHeader(final String name, final String value)
+    '''returns Builder\n\n
+    addHttpHeader(final String name, final String value)\n
     '''
 def build():
-    '''public BOSHConfiguration build()
+    '''returns BOSHConfiguration\n\n
+    build()\n
     '''

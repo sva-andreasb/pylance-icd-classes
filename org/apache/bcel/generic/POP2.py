@@ -1,6 +1,8 @@
-def POP2():
-    '''public POP2()
+def ():
+    '''returns POP2\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

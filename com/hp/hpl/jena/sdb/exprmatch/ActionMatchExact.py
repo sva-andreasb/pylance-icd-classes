@@ -1,7 +1,9 @@
-def ActionMatchExact():
-    '''public ActionMatchExact(final String exprStr)
-    public ActionMatchExact(final Expr expr)
+def ():
+    '''returns ActionMatchExact\n\n
+    (final String exprStr)\n
+    (final Expr expr)\n
     '''
 def match():
-    '''public boolean match(final Var var, final Expr expr, final MapResult resultMap)
+    '''returns boolean\n\n
+    match(final Var var, final Expr expr, final MapResult resultMap)\n
     '''

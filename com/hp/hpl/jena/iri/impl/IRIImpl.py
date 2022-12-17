@@ -1,6 +1,8 @@
-def IRIImpl():
-    '''public IRIImpl(final IRIFactory f)
+def ():
+    '''returns IRIImpl\n\n
+    (final IRIFactory f)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

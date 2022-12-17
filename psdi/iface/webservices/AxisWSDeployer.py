@@ -1,21 +1,27 @@
 def loadWebServices():
-    '''public void loadWebServices()
-    public void loadWebServices(final ConfigurationContext configContext)
+    '''returns None\n\n
+    loadWebServices()\n
+    loadWebServices(final ConfigurationContext configContext)\n
     '''
 def deployWebService():
-    '''public void deployWebService(final MboRemote service)
-    public void deployWebService(final WSRegistryInfo regInfo)
+    '''returns None\n\n
+    deployWebService(final MboRemote service)\n
+    deployWebService(final WSRegistryInfo regInfo)\n
     '''
 def undeployWebService():
-    '''public void undeployWebService(final MboRemote service)
-    public void undeployWebService(final String name)
+    '''returns None\n\n
+    undeployWebService(final MboRemote service)\n
+    undeployWebService(final String name)\n
     '''
 def isServiceExists():
-    '''public boolean isServiceExists(final String name)
+    '''returns boolean\n\n
+    isServiceExists(final String name)\n
     '''
 def getAxis2Config():
-    '''public AxisConfiguration getAxis2Config()
+    '''returns AxisConfiguration\n\n
+    getAxis2Config()\n
     '''
 def getAxis2ConfigContext():
-    '''public ConfigurationContext getAxis2ConfigContext()
+    '''returns ConfigurationContext\n\n
+    getAxis2ConfigContext()\n
     '''

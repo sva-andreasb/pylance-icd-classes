@@ -1,140 +1,182 @@
 def getUserAgent():
-    '''public String getUserAgent()
+    '''returns String\n\n
+    getUserAgent()\n
     '''
 def setUserAgent():
-    '''public void setUserAgent(final String userAgent)
+    '''returns None\n\n
+    setUserAgent(final String userAgent)\n
     '''
 def getSubscriptions():
-    '''public Set<ServerChannel> getSubscriptions()
+    '''returns Set<ServerChannel>\n\n
+    getSubscriptions()\n
     '''
 def addExtension():
-    '''public void addExtension(final ServerSession.Extension extension)
+    '''returns None\n\n
+    addExtension(final ServerSession.Extension extension)\n
     '''
 def removeExtension():
-    '''public void removeExtension(final ServerSession.Extension extension)
+    '''returns None\n\n
+    removeExtension(final ServerSession.Extension extension)\n
     '''
 def batch():
-    '''public void batch(final Runnable batch)
+    '''returns None\n\n
+    batch(final Runnable batch)\n
     '''
 def deliver():
-    '''public void deliver(final Session from, final ServerMessage.Mutable message)
-    public void deliver(final Session from, final String channelId, final Object data, final String id)
+    '''returns None\n\n
+    deliver(final Session from, final ServerMessage.Mutable message)\n
+    deliver(final Session from, final String channelId, final Object data, final String id)\n
     '''
 def expired():
-    '''public void expired()
+    '''returns None\n\n
+    expired()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def endBatch():
-    '''public boolean endBatch()
+    '''returns boolean\n\n
+    endBatch()\n
     '''
 def getLocalSession():
-    '''public LocalSession getLocalSession()
+    '''returns LocalSession\n\n
+    getLocalSession()\n
     '''
 def isLocalSession():
-    '''public boolean isLocalSession()
+    '''returns boolean\n\n
+    isLocalSession()\n
     '''
 def startBatch():
-    '''public void startBatch()
+    '''returns None\n\n
+    startBatch()\n
     '''
 def addListener():
-    '''public void addListener(final ServerSession.ServerSessionListener listener)
+    '''returns None\n\n
+    addListener(final ServerSession.ServerSessionListener listener)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getLock():
-    '''public Object getLock()
+    '''returns Object\n\n
+    getLock()\n
     '''
 def getQueue():
-    '''public Queue<ServerMessage> getQueue()
+    '''returns Queue<ServerMessage>\n\n
+    getQueue()\n
     '''
 def isQueueEmpty():
-    '''public boolean isQueueEmpty()
+    '''returns boolean\n\n
+    isQueueEmpty()\n
     '''
 def replaceQueue():
-    '''public void replaceQueue(final List<ServerMessage> queue)
+    '''returns None\n\n
+    replaceQueue(final List<ServerMessage> queue)\n
     '''
 def takeQueue():
-    '''public List<ServerMessage> takeQueue()
+    '''returns List<ServerMessage>\n\n
+    takeQueue()\n
     '''
 def removeListener():
-    '''public void removeListener(final ServerSession.ServerSessionListener listener)
+    '''returns None\n\n
+    removeListener(final ServerSession.ServerSessionListener listener)\n
     '''
 def setScheduler():
-    '''public void setScheduler(final AbstractServerTransport.Scheduler newScheduler)
+    '''returns None\n\n
+    setScheduler(final AbstractServerTransport.Scheduler newScheduler)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def flushLazy():
-    '''public void flushLazy()
+    '''returns None\n\n
+    flushLazy()\n
     '''
 def cancelSchedule():
-    '''public void cancelSchedule()
+    '''returns None\n\n
+    cancelSchedule()\n
     '''
 def cancelIntervalTimeout():
-    '''public void cancelIntervalTimeout()
+    '''returns None\n\n
+    cancelIntervalTimeout()\n
     '''
 def startIntervalTimeout():
-    '''public void startIntervalTimeout(final long defaultInterval)
+    '''returns None\n\n
+    startIntervalTimeout(final long defaultInterval)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def getAttributeNames():
-    '''public Set<String> getAttributeNames()
+    '''returns Set<String>\n\n
+    getAttributeNames()\n
     '''
 def removeAttribute():
-    '''public Object removeAttribute(final String name)
+    '''returns Object\n\n
+    removeAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final Object value)
+    '''returns None\n\n
+    setAttribute(final String name, final Object value)\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def isHandshook():
-    '''public boolean isHandshook()
+    '''returns boolean\n\n
+    isHandshook()\n
     '''
 def reAdvise():
-    '''public void reAdvise()
-    '''
-def takeAdvice():
-    '''public Map<String, Object> takeAdvice()
+    '''returns None\n\n
+    reAdvise()\n
     '''
 def getTimeout():
-    '''public long getTimeout()
+    '''returns long\n\n
+    getTimeout()\n
     '''
 def getInterval():
-    '''public long getInterval()
+    '''returns long\n\n
+    getInterval()\n
     '''
 def setTimeout():
-    '''public void setTimeout(final long timeoutMS)
+    '''returns None\n\n
+    setTimeout(final long timeoutMS)\n
     '''
 def setInterval():
-    '''public void setInterval(final long intervalMS)
+    '''returns None\n\n
+    setInterval(final long intervalMS)\n
     '''
 def setMetaConnectDeliveryOnly():
-    '''public void setMetaConnectDeliveryOnly(final boolean meta)
+    '''returns None\n\n
+    setMetaConnectDeliveryOnly(final boolean meta)\n
     '''
 def isMetaConnectDeliveryOnly():
-    '''public boolean isMetaConnectDeliveryOnly()
+    '''returns boolean\n\n
+    isMetaConnectDeliveryOnly()\n
     '''
 def calculateTimeout():
-    '''public long calculateTimeout(final long defaultTimeout)
+    '''returns long\n\n
+    calculateTimeout(final long defaultTimeout)\n
     '''
 def calculateInterval():
-    '''public long calculateInterval(final long defaultInterval)
+    '''returns long\n\n
+    calculateInterval(final long defaultInterval)\n
     '''
 def updateTransientTimeout():
-    '''public void updateTransientTimeout(final long timeout)
+    '''returns None\n\n
+    updateTransientTimeout(final long timeout)\n
     '''
 def updateTransientInterval():
-    '''public void updateTransientInterval(final long interval)
+    '''returns None\n\n
+    updateTransientInterval(final long interval)\n
     '''

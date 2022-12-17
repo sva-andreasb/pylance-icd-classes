@@ -1,3 +1,4 @@
-def AddressSet():
-    '''public AddressSet(final MboServerInterface ms)
+def ():
+    '''returns AddressSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,12 +1,12 @@
-def CobieParser():
-    '''public CobieParser(final Parser project, final String sheetName, final InputFile cobieFile)
+def ():
+    '''returns CobieParser\n\n
+    (final Parser project, final String sheetName, final InputFile cobieFile)\n
     '''
 def parse():
-    '''public void parse(final Parser parser, final IdFactory idFactory, final Hashtable<String, Page> parseTree, String[] list, final String packageName, final long flags)
+    '''returns None\n\n
+    parse(final Parser parser, final IdFactory idFactory, final Hashtable<String, Page> parseTree, String[] list, final String packageName, final long flags)\n
     '''
 def close():
-    '''public void close()
-    '''
-def msgFromException():
-    '''public static String msgFromException(final Exception e)
+    '''returns None\n\n
+    close()\n
     '''

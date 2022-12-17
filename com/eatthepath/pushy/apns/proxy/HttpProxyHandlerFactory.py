@@ -1,13 +1,13 @@
-def fromSystemProxies():
-    '''public static HttpProxyHandlerFactory fromSystemProxies(final String apnsHost)
-    '''
-def HttpProxyHandlerFactory():
-    '''public HttpProxyHandlerFactory(final SocketAddress proxyAddress)
-    public HttpProxyHandlerFactory(final SocketAddress proxyAddress, final String username, final String password)
+def ():
+    '''returns HttpProxyHandlerFactory\n\n
+    (final SocketAddress proxyAddress)\n
+    (final SocketAddress proxyAddress, final String username, final String password)\n
     '''
 def createProxyHandler():
-    '''public ProxyHandler createProxyHandler()
+    '''returns ProxyHandler\n\n
+    createProxyHandler()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
-def ReportAuthSet():
-    '''public ReportAuthSet(final MboServerInterface ms)
+def ():
+    '''returns ReportAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''

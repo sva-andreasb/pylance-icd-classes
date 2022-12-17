@@ -1,15 +1,20 @@
-def ServletCacheUnitImpl():
-    '''public ServletCacheUnitImpl()
+def ():
+    '''returns ServletCacheUnitImpl\n\n
+    ()\n
     '''
 def getJaxRpcCache():
-    '''public DCache getJaxRpcCache(final String cacheName)
+    '''returns DCache\n\n
+    getJaxRpcCache(final String cacheName)\n
     '''
 def addExternalCacheAdapter():
-    '''public void addExternalCacheAdapter(final String groupId, final String address, final String beanName)
+    '''returns None\n\n
+    addExternalCacheAdapter(final String groupId, final String address, final String beanName)\n
     '''
 def removeExternalCacheAdapter():
-    '''public void removeExternalCacheAdapter(final String groupId, final String address)
+    '''returns None\n\n
+    removeExternalCacheAdapter(final String groupId, final String address)\n
     '''
 def invalidateExternalCaches():
-    '''public void invalidateExternalCaches(final HashMap invalidateIdEvents, final HashMap invalidateTemplateEvents)
+    '''returns None\n\n
+    invalidateExternalCaches(final HashMap invalidateIdEvents, final HashMap invalidateTemplateEvents)\n
     '''

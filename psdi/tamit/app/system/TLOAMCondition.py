@@ -1,3 +1,4 @@
-def TLOAMCondition():
-    '''public TLOAMCondition(final MboSet ms)
+def ():
+    '''returns TLOAMCondition\n\n
+    (final MboSet ms)\n
     '''

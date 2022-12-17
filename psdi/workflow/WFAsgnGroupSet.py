@@ -1,6 +1,8 @@
-def WFAsgnGroupSet():
-    '''public WFAsgnGroupSet(final MboServerInterface ms)
+def ():
+    '''returns WFAsgnGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def deactivate():
-    '''public void deactivate()
+    '''returns None\n\n
+    deactivate()\n
     '''

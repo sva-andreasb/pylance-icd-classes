@@ -1,3 +1,4 @@
-def WeatherZoneSet():
-    '''public WeatherZoneSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherZoneSet\n\n
+    (final MboServerInterface ms)\n
     '''

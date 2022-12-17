@@ -1,9 +1,12 @@
-def WMAResourceManager():
-    '''public WMAResourceManager(final MXServer mxServer)
+def ():
+    '''returns WMAResourceManager\n\n
+    (final MXServer mxServer)\n
     '''
 def loadResources():
-    '''public JSONArray loadResources(final GWASchedule schedule, final String type, final String activityWhere)
+    '''returns JSONArray\n\n
+    loadResources(final GWASchedule schedule, final String type, final String activityWhere)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

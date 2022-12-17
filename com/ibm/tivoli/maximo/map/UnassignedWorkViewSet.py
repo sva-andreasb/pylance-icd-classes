@@ -1,3 +1,4 @@
-def UnassignedWorkViewSet():
-    '''public UnassignedWorkViewSet(final MboServerInterface ms)
+def ():
+    '''returns UnassignedWorkViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

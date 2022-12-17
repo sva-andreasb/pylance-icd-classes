@@ -1,156 +1,190 @@
-def MaxUser():
-    '''public MaxUser(final MboSet ms)
+def ():
+    '''returns MaxUser\n\n
+    (final MboSet ms)\n
     '''
 def getProcess():
-    '''public String getProcess()
+    '''returns String\n\n
+    getProcess()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getDbIn():
-    '''public int getDbIn()
+    '''returns int\n\n
+    getDbIn()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def deleteThisUser():
-    '''public boolean deleteThisUser()
-    public boolean deleteThisUser(final long accessModifier)
+    '''returns boolean\n\n
+    deleteThisUser()\n
+    deleteThisUser(final long accessModifier)\n
     '''
 def undeleteThisUser():
-    '''public void undeleteThisUser()
+    '''returns None\n\n
+    undeleteThisUser()\n
     '''
 def maxUserCanDelete():
-    '''public void maxUserCanDelete()
+    '''returns None\n\n
+    maxUserCanDelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def userWasDuplicated():
-    '''public boolean userWasDuplicated()
+    '''returns boolean\n\n
+    userWasDuplicated()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def resetNativeEsigKey():
-    '''public void resetNativeEsigKey()
+    '''returns None\n\n
+    resetNativeEsigKey()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def recheckPasswordAuthority():
-    '''public void recheckPasswordAuthority()
+    '''returns None\n\n
+    recheckPasswordAuthority()\n
     '''
 def encryptEsigPassword():
-    '''public String encryptEsigPassword(final String esigPass)
+    '''returns String\n\n
+    encryptEsigPassword(final String esigPass)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def isInactive():
-    '''public boolean isInactive()
+    '''returns boolean\n\n
+    isInactive()\n
     '''
 def isBlocked():
-    '''public boolean isBlocked()
+    '''returns boolean\n\n
+    isBlocked()\n
     '''
 def setBlocked():
-    '''public void setBlocked(final String memo)
+    '''returns None\n\n
+    setBlocked(final String memo)\n
     '''
 def isDeleted():
-    '''public boolean isDeleted()
+    '''returns boolean\n\n
+    isDeleted()\n
     '''
 def addLoginTracking():
-    '''public void addLoginTracking(final boolean attemptResult)
-    public void addLoginTracking(final boolean attemptResult, final String app, final String reason, final String transid, final String[] keyvalue)
-    public void addLoginTracking(final boolean attemptResult, final String app, final String reason, final String transid, final String[] keyvalue, final String ownerTable, final String ownerId)
-    public MboRemote addLoginTracking(final String attemptResult)
-    public MboRemote addLoginTracking(final String attemptResult, final boolean updateStatus)
+    '''returns MboRemote\n\n
+    addLoginTracking(final boolean attemptResult)\n
+    addLoginTracking(final boolean attemptResult, final String app, final String reason, final String transid, final String[] keyvalue)\n
+    addLoginTracking(final boolean attemptResult, final String app, final String reason, final String transid, final String[] keyvalue, final String ownerTable, final String ownerId)\n
+    addLoginTracking(final String attemptResult)\n
+    addLoginTracking(final String attemptResult, final boolean updateStatus)\n
     '''
 def addMaxSession():
-    '''public MboRemote addMaxSession()
+    '''returns MboRemote\n\n
+    addMaxSession()\n
     '''
 def addServerSession():
-    '''public void addServerSession()
+    '''returns None\n\n
+    addServerSession()\n
     '''
 def isPasswordValid():
-    '''public boolean isPasswordValid()
+    '''returns boolean\n\n
+    isPasswordValid()\n
     '''
 def isDBPasswordValid():
-    '''public void isDBPasswordValid()
-    '''
-def addDBUser():
-    '''public final void addDBUser(final String dbuserid)
-    '''
-def deleteDBUser():
-    '''public final void deleteDBUser(final String deleteID)
+    '''returns None\n\n
+    isDBPasswordValid()\n
     '''
 def canChangePassword():
-    '''public boolean canChangePassword()
-    '''
-def changeDBPassword():
-    '''public final void changeDBPassword()
-    '''
-def userExistsOnDB():
-    '''public final boolean userExistsOnDB(Connection con, final String checkID)
+    '''returns boolean\n\n
+    canChangePassword()\n
     '''
 def addGroupUser():
-    '''public void addGroupUser()
+    '''returns None\n\n
+    addGroupUser()\n
     '''
 def createPersonMbo():
-    '''public MboRemote createPersonMbo(final String personID, final MboSetRemote personSet)
-    public MboRemote createPersonMbo(final String personID, final MboSetRemote personSet, final boolean doAutokey)
+    '''returns MboRemote\n\n
+    createPersonMbo(final String personID, final MboSetRemote personSet)\n
+    createPersonMbo(final String personID, final MboSetRemote personSet, final boolean doAutokey)\n
     '''
 def openMainRecordDialog():
-    '''public void openMainRecordDialog(String id)
+    '''returns None\n\n
+    openMainRecordDialog(String id)\n
     '''
 def cancelMainRecordDialog():
-    '''public void cancelMainRecordDialog(String id)
+    '''returns None\n\n
+    cancelMainRecordDialog(String id)\n
     '''
 def clearUserProfileHierarchySet():
-    '''public void clearUserProfileHierarchySet()
+    '''returns None\n\n
+    clearUserProfileHierarchySet()\n
     '''
 def showProfileWarning():
-    '''public boolean showProfileWarning()
+    '''returns boolean\n\n
+    showProfileWarning()\n
     '''
 def setLoginIdDefault():
-    '''public void setLoginIdDefault()
+    '''returns None\n\n
+    setLoginIdDefault()\n
     '''
 def setValue():
-    '''public void setValue(String attributeName, String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(String attributeName, String val, final long accessModifier)\n
     '''
 def authorizeGroups():
-    '''public void authorizeGroups(final MboSetRemote groupSet, final String relationship)
+    '''returns None\n\n
+    authorizeGroups(final MboSetRemote groupSet, final String relationship)\n
     '''
 def clearGenPswdInfo():
-    '''public void clearGenPswdInfo()
+    '''returns None\n\n
+    clearGenPswdInfo()\n
     '''
 def generatePassword():
-    '''public void generatePassword()
+    '''returns None\n\n
+    generatePassword()\n
     '''
 def addGrpReassignAuthForUserInsert():
-    '''public void addGrpReassignAuthForUserInsert()
+    '''returns None\n\n
+    addGrpReassignAuthForUserInsert()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def getOldLoginID():
-    '''public String getOldLoginID()
+    '''returns String\n\n
+    getOldLoginID()\n
     '''
 def setOldLoginID():
-    '''public void setOldLoginID(final String oldLoginID)
+    '''returns None\n\n
+    setOldLoginID(final String oldLoginID)\n
     '''

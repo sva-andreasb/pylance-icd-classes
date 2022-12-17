@@ -1,42 +1,52 @@
-def createUI():
-    '''public static ComponentUI createUI(final JComponent component)
-    '''
-def BasicGlossaryNavigatorUI():
-    '''public BasicGlossaryNavigatorUI(final JHelpGlossaryNavigator helpGlossaryNavigator)
+def ():
+    '''returns BasicGlossaryNavigatorUI\n\n
+    (final JHelpGlossaryNavigator helpGlossaryNavigator)\n
     '''
 def installUI():
-    '''public void installUI(final JComponent component)
+    '''returns None\n\n
+    installUI(final JComponent component)\n
     '''
 def uninstallUI():
-    '''public void uninstallUI(final JComponent component)
+    '''returns None\n\n
+    uninstallUI(final JComponent component)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize(final JComponent component)
+    '''returns Dimension\n\n
+    getPreferredSize(final JComponent component)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMinimumSize(final JComponent component)\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMaximumSize(final JComponent component)\n
     '''
 def doMerge():
-    '''public void doMerge(final NavigatorView navigatorView)
+    '''returns None\n\n
+    doMerge(final NavigatorView navigatorView)\n
     '''
 def merge():
-    '''public void merge(final NavigatorView navigatorView)
+    '''returns None\n\n
+    merge(final NavigatorView navigatorView)\n
     '''
 def remove():
-    '''public void remove(final NavigatorView obj)
+    '''returns None\n\n
+    remove(final NavigatorView obj)\n
     '''
 def idChanged():
-    '''public void idChanged(final HelpModelEvent obj)
+    '''returns None\n\n
+    idChanged(final HelpModelEvent obj)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final TreeSelectionEvent obj)
+    '''returns None\n\n
+    valueChanged(final TreeSelectionEvent obj)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''

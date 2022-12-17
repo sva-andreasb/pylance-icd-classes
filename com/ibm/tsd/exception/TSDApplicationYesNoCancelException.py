@@ -1,6 +1,7 @@
-def TSDApplicationYesNoCancelException():
-    '''public TSDApplicationYesNoCancelException(final String id, final TSDMessage message)
-    public TSDApplicationYesNoCancelException(final String id, final TSDMessage message, final Object[] params)
-    public TSDApplicationYesNoCancelException(final String id, final TSDMessage message, final Throwable t)
-    public TSDApplicationYesNoCancelException(final String id, final TSDMessage message, final Object[] p, final Throwable t)
+def ():
+    '''returns TSDApplicationYesNoCancelException\n\n
+    (final String id, final TSDMessage message)\n
+    (final String id, final TSDMessage message, final Object[] params)\n
+    (final String id, final TSDMessage message, final Throwable t)\n
+    (final String id, final TSDMessage message, final Object[] p, final Throwable t)\n
     '''

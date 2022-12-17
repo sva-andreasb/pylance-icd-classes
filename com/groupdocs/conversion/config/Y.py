@@ -1,3 +1,4 @@
-def Y():
-    '''public Y(final InputStream inputStream)
+def ():
+    '''returns Y\n\n
+    (final InputStream inputStream)\n
     '''

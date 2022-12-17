@@ -1,6 +1,8 @@
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''
 def toList():
-    '''public ArrayList toList(final Collection col)
+    '''returns ArrayList\n\n
+    toList(final Collection col)\n
     '''

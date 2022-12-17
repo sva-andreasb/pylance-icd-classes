@@ -1,12 +1,16 @@
-def FldContractLineLineCost():
-    '''public FldContractLineLineCost(final MboValue mbv)
+def ():
+    '''returns FldContractLineLineCost\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def updateScheduleCosts():
-    '''public void updateScheduleCosts()
+    '''returns None\n\n
+    updateScheduleCosts()\n
     '''

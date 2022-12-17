@@ -1,9 +1,12 @@
-def RangeMacroProps():
-    '''public RangeMacroProps()
+def ():
+    '''returns RangeMacroProps\n\n
+    ()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object _other)
+    '''returns boolean\n\n
+    equals(final Object _other)\n
     '''

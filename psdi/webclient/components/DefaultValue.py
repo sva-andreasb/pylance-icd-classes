@@ -1,42 +1,56 @@
-def DefaultValue():
-    '''public DefaultValue()
+def ():
+    '''returns DefaultValue\n\n
+    ()\n
     '''
 def hasChanged():
-    '''public boolean hasChanged()
+    '''returns boolean\n\n
+    hasChanged()\n
     '''
 def hasDataChanged():
-    '''public boolean hasDataChanged()
+    '''returns boolean\n\n
+    hasDataChanged()\n
     '''
 def hasLongDescChanged():
-    '''public boolean hasLongDescChanged()
+    '''returns boolean\n\n
+    hasLongDescChanged()\n
     '''
 def hasReadonlyChanged():
-    '''public boolean hasReadonlyChanged()
+    '''returns boolean\n\n
+    hasReadonlyChanged()\n
     '''
 def hasRequiredChanged():
-    '''public boolean hasRequiredChanged()
+    '''returns boolean\n\n
+    hasRequiredChanged()\n
     '''
 def setDataValid():
-    '''public void setDataValid(final boolean isDataValid)
+    '''returns None\n\n
+    setDataValid(final boolean isDataValid)\n
     '''
 def isDataValid():
-    '''public boolean isDataValid()
+    '''returns boolean\n\n
+    isDataValid()\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def getLongDescription():
-    '''public String getLongDescription()
+    '''returns String\n\n
+    getLongDescription()\n
     '''
 def hasLongDescription():
-    '''public boolean hasLongDescription()
+    '''returns boolean\n\n
+    hasLongDescription()\n
     '''

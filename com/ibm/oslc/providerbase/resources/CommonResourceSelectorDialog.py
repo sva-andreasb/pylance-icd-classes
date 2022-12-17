@@ -1,9 +1,12 @@
 def getResource():
-    '''public void getResource(@Context final HttpServletRequest request, @Context final HttpServletResponse response)
+    '''returns None\n\n
+    getResource(@Context final HttpServletRequest request, @Context final HttpServletResponse response)\n
     '''
 def createInstance():
-    '''public Response createInstance(@Context final HttpServletRequest request, final Template templateInstance)
+    '''returns Response\n\n
+    createInstance(@Context final HttpServletRequest request, final Template templateInstance)\n
     '''
 def deleteInstance():
-    '''public void deleteInstance(@Context final HttpServletRequest request, @Context final HttpServletResponse response)
+    '''returns None\n\n
+    deleteInstance(@Context final HttpServletRequest request, @Context final HttpServletResponse response)\n
     '''

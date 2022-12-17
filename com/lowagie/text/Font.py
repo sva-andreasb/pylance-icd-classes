@@ -11,86 +11,102 @@ STRIKETHRU = "int  8"
 BOLDITALIC = "int  3"
 UNDEFINED = "int  -1"
 DEFAULTSIZE = "int  12"
-def Font():
-    '''public Font(final Font other)
-    public Font(final int family, final float size, final int style, final Color color)
-    public Font(final BaseFont bf, final float size, final int style, final Color color)
-    public Font(final BaseFont bf, final float size, final int style)
-    public Font(final BaseFont bf, final float size)
-    public Font(final BaseFont bf)
-    public Font(final int family, final float size, final int style)
-    public Font(final int family, final float size)
-    public Font(final int family)
-    public Font()
+def ():
+    '''returns Font\n\n
+    (final Font other)\n
+    (final int family, final float size, final int style, final Color color)\n
+    (final BaseFont bf, final float size, final int style, final Color color)\n
+    (final BaseFont bf, final float size, final int style)\n
+    (final BaseFont bf, final float size)\n
+    (final BaseFont bf)\n
+    (final int family, final float size, final int style)\n
+    (final int family, final float size)\n
+    (final int family)\n
+    ()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object object)
+    '''returns int\n\n
+    compareTo(final Object object)\n
     '''
 def setFamily():
-    '''public void setFamily(final String family)
-    '''
-def getFamilyIndex():
-    '''public static int getFamilyIndex(final String family)
+    '''returns None\n\n
+    setFamily(final String family)\n
     '''
 def getFamilyname():
-    '''public String getFamilyname()
+    '''returns String\n\n
+    getFamilyname()\n
     '''
 def setSize():
-    '''public void setSize(final float size)
+    '''returns None\n\n
+    setSize(final float size)\n
     '''
 def setStyle():
-    '''public void setStyle(final String style)
-    public void setStyle(final int style)
-    '''
-def getStyleValue():
-    '''public static int getStyleValue(final String style)
+    '''returns None\n\n
+    setStyle(final String style)\n
+    setStyle(final int style)\n
     '''
 def setColor():
-    '''public void setColor(final Color color)
-    public void setColor(final int red, final int green, final int blue)
+    '''returns None\n\n
+    setColor(final Color color)\n
+    setColor(final int red, final int green, final int blue)\n
     '''
 def leading():
-    '''public float leading(final float linespacing)
+    '''returns float\n\n
+    leading(final float linespacing)\n
     '''
 def isStandardFont():
-    '''public boolean isStandardFont()
+    '''returns boolean\n\n
+    isStandardFont()\n
     '''
 def difference():
-    '''public Font difference(final Font font)
+    '''returns Font\n\n
+    difference(final Font font)\n
     '''
 def family():
-    '''public int family()
+    '''returns int\n\n
+    family()\n
     '''
 def size():
-    '''public float size()
+    '''returns float\n\n
+    size()\n
     '''
 def style():
-    '''public int style()
+    '''returns int\n\n
+    style()\n
     '''
 def isBold():
-    '''public boolean isBold()
+    '''returns boolean\n\n
+    isBold()\n
     '''
 def isItalic():
-    '''public boolean isItalic()
+    '''returns boolean\n\n
+    isItalic()\n
     '''
 def isUnderlined():
-    '''public boolean isUnderlined()
+    '''returns boolean\n\n
+    isUnderlined()\n
     '''
 def isStrikethru():
-    '''public boolean isStrikethru()
+    '''returns boolean\n\n
+    isStrikethru()\n
     '''
 def color():
-    '''public Color color()
+    '''returns Color\n\n
+    color()\n
     '''
 def getBaseFont():
-    '''public BaseFont getBaseFont()
+    '''returns BaseFont\n\n
+    getBaseFont()\n
     '''
 def getCalculatedBaseFont():
-    '''public BaseFont getCalculatedBaseFont(final boolean specialEncoding)
+    '''returns BaseFont\n\n
+    getCalculatedBaseFont(final boolean specialEncoding)\n
     '''
 def getCalculatedStyle():
-    '''public int getCalculatedStyle()
+    '''returns int\n\n
+    getCalculatedStyle()\n
     '''
 def getCalculatedSize():
-    '''public float getCalculatedSize()
+    '''returns float\n\n
+    getCalculatedSize()\n
     '''

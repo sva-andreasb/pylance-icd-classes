@@ -1,13 +1,17 @@
-def DBPrefixMappingImpl():
-    '''public DBPrefixMappingImpl(final DBPropGraph graphProperties)
+def ():
+    '''returns DBPrefixMappingImpl\n\n
+    (final DBPropGraph graphProperties)\n
     '''
 def removeNsPrefix():
-    '''public PrefixMapping removeNsPrefix(final String prefix)
+    '''returns PrefixMapping\n\n
+    removeNsPrefix(final String prefix)\n
     '''
 def setNsPrefix():
-    '''public PrefixMapping setNsPrefix(final String prefix, final String uri)
+    '''returns PrefixMapping\n\n
+    setNsPrefix(final String prefix, final String uri)\n
     '''
 def setNsPrefixes():
-    '''public PrefixMapping setNsPrefixes(final PrefixMapping other)
-    public PrefixMapping setNsPrefixes(final Map<String, String> other)
+    '''returns PrefixMapping\n\n
+    setNsPrefixes(final PrefixMapping other)\n
+    setNsPrefixes(final Map<String, String> other)\n
     '''

@@ -1,6 +1,8 @@
-def CheckResult():
-    '''public CheckResult()
+def ():
+    '''returns CheckResult\n\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

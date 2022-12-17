@@ -1,19 +1,21 @@
-def createSubRecord():
-    '''public static SubRecord createSubRecord(final LittleEndianInput in, final int cmoOt)
-    '''
 def serialize():
-    '''public byte[] serialize()
-    public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize()\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def isTerminating():
-    '''public boolean isTerminating()
+    '''returns boolean\n\n
+    isTerminating()\n
     '''
-def UnknownSubRecord():
-    '''public UnknownSubRecord(final LittleEndianInput in, final int sid, final int size)
+def ():
+    '''returns UnknownSubRecord\n\n
+    (final LittleEndianInput in, final int sid, final int size)\n
     '''
 def clone():
-    '''public UnknownSubRecord clone()
+    '''returns UnknownSubRecord\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

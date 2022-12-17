@@ -1,12 +1,16 @@
-def DeviceInfo():
-    '''public DeviceInfo(final String deviceId, final String type, final boolean active)
+def ():
+    '''returns DeviceInfo\n\n
+    (final String deviceId, final String type, final boolean active)\n
     '''
 def getDeviceId():
-    '''public String getDeviceId()
+    '''returns String\n\n
+    getDeviceId()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''

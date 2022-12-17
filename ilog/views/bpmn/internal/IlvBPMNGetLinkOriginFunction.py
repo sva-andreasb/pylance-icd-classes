@@ -1,6 +1,8 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def call():
-    '''public Object call(final Object[] array, final Class clazz, final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
+    '''returns Object\n\n
+    call(final Object[] array, final Class clazz, final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
     '''

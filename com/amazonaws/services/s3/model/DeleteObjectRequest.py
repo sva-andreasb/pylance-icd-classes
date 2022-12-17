@@ -1,30 +1,40 @@
-def DeleteObjectRequest():
-    '''public DeleteObjectRequest(final String bucketName, final String key)
+def ():
+    '''returns DeleteObjectRequest\n\n
+    (final String bucketName, final String key)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public DeleteObjectRequest withBucketName(final String bucketName)
+    '''returns DeleteObjectRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public DeleteObjectRequest withKey(final String key)
+    '''returns DeleteObjectRequest\n\n
+    withKey(final String key)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public DeleteObjectRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns DeleteObjectRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

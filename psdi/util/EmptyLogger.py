@@ -1,44 +1,57 @@
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def isErrorEnabled():
-    '''public boolean isErrorEnabled()
+    '''returns boolean\n\n
+    isErrorEnabled()\n
     '''
 def isFatalEnabled():
-    '''public boolean isFatalEnabled()
+    '''returns boolean\n\n
+    isFatalEnabled()\n
     '''
 def isInfoEnabled():
-    '''public boolean isInfoEnabled()
+    '''returns boolean\n\n
+    isInfoEnabled()\n
     '''
 def isWarnEnabled():
-    '''public boolean isWarnEnabled()
+    '''returns boolean\n\n
+    isWarnEnabled()\n
     '''
 def debug():
-    '''public void debug(final Object message)
-    public void debug(final Object message, final Throwable t)
+    '''returns None\n\n
+    debug(final Object message)\n
+    debug(final Object message, final Throwable t)\n
     '''
 def info():
-    '''public void info(final Object message)
-    public void info(final Object message, final Throwable t)
+    '''returns None\n\n
+    info(final Object message)\n
+    info(final Object message, final Throwable t)\n
     '''
 def warn():
-    '''public void warn(final Object message)
-    public void warn(final Object message, final Throwable t)
+    '''returns None\n\n
+    warn(final Object message)\n
+    warn(final Object message, final Throwable t)\n
     '''
 def error():
-    '''public void error(final Object message)
-    public void error(final Object message, final Throwable t)
+    '''returns None\n\n
+    error(final Object message)\n
+    error(final Object message, final Throwable t)\n
     '''
 def fatal():
-    '''public void fatal(final Object message)
-    public void fatal(final Object message, final Throwable t)
+    '''returns None\n\n
+    fatal(final Object message)\n
+    fatal(final Object message, final Throwable t)\n
     '''
 def setLevel():
-    '''public void setLevel(final Level level)
+    '''returns None\n\n
+    setLevel(final Level level)\n
     '''
 def getLevel():
-    '''public Level getLevel()
+    '''returns Level\n\n
+    getLevel()\n
     '''
 def logDisregardLevel():
-    '''public void logDisregardLevel(final String msgGroup, final String msgKey, final Object[] params)
+    '''returns None\n\n
+    logDisregardLevel(final String msgGroup, final String msgKey, final Object[] params)\n
     '''

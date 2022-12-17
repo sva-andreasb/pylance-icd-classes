@@ -1,25 +1,33 @@
-def EnumElementValue():
-    '''public EnumElementValue(final ObjectType t, final String value, final ConstantPool cpool)
-    public EnumElementValue(final EnumElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)
+def ():
+    '''returns EnumElementValue\n\n
+    (final ObjectType t, final String value, final ConstantPool cpool)\n
+    (final EnumElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream dos)
+    '''returns None\n\n
+    dump(final DataOutputStream dos)\n
     '''
 def stringifyValue():
-    '''public String stringifyValue()
+    '''returns String\n\n
+    stringifyValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getEnumTypeString():
-    '''public String getEnumTypeString()
+    '''returns String\n\n
+    getEnumTypeString()\n
     '''
 def getEnumValueString():
-    '''public String getEnumValueString()
+    '''returns String\n\n
+    getEnumValueString()\n
     '''
 def getValueIndex():
-    '''public int getValueIndex()
+    '''returns int\n\n
+    getValueIndex()\n
     '''
 def getTypeIndex():
-    '''public int getTypeIndex()
+    '''returns int\n\n
+    getTypeIndex()\n
     '''

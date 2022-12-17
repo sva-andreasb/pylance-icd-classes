@@ -1,4 +1,5 @@
-def XSDByteType():
-    '''public XSDByteType(final String typeName)
-    public XSDByteType(final String typeName, final Class<?> javaClass)
+def ():
+    '''returns XSDByteType\n\n
+    (final String typeName)\n
+    (final String typeName, final Class<?> javaClass)\n
     '''

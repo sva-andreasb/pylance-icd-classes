@@ -1,3 +1,4 @@
-def FSNObjPropertySet():
-    '''public FSNObjPropertySet(final MboServerInterface ms)
+def ():
+    '''returns FSNObjPropertySet\n\n
+    (final MboServerInterface ms)\n
     '''

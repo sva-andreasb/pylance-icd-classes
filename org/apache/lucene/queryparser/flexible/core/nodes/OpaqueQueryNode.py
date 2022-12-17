@@ -1,18 +1,24 @@
-def OpaqueQueryNode():
-    '''public OpaqueQueryNode(final CharSequence schema, final CharSequence value)
+def ():
+    '''returns OpaqueQueryNode\n\n
+    (final CharSequence schema, final CharSequence value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escapeSyntaxParser)\n
     '''
 def cloneTree():
-    '''public QueryNode cloneTree()
+    '''returns QueryNode\n\n
+    cloneTree()\n
     '''
 def getSchema():
-    '''public CharSequence getSchema()
+    '''returns CharSequence\n\n
+    getSchema()\n
     '''
 def getValue():
-    '''public CharSequence getValue()
+    '''returns CharSequence\n\n
+    getValue()\n
     '''

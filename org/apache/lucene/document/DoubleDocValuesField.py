@@ -1,9 +1,12 @@
-def DoubleDocValuesField():
-    '''public DoubleDocValuesField(final String name, final double value)
+def ():
+    '''returns DoubleDocValuesField\n\n
+    (final String name, final double value)\n
     '''
 def setDoubleValue():
-    '''public void setDoubleValue(final double value)
+    '''returns None\n\n
+    setDoubleValue(final double value)\n
     '''
 def setLongValue():
-    '''public void setLongValue(final long value)
+    '''returns None\n\n
+    setLongValue(final long value)\n
     '''

@@ -1,24 +1,32 @@
-def AssignCrewSet():
-    '''public AssignCrewSet(final MboServerInterface ms)
+def ():
+    '''returns AssignCrewSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setRefresh():
-    '''public void setRefresh(final boolean refresh)
+    '''returns None\n\n
+    setRefresh(final boolean refresh)\n
     '''
 def getCrewSet():
-    '''public MboSetRemote getCrewSet()
+    '''returns MboSetRemote\n\n
+    getCrewSet()\n
     '''
 def setFromSKD():
-    '''public void setFromSKD(final boolean fromSKD)
+    '''returns None\n\n
+    setFromSKD(final boolean fromSKD)\n
     '''
 def getFromSKD():
-    '''public boolean getFromSKD()
+    '''returns boolean\n\n
+    getFromSKD()\n
     '''
 def setRestrictCrewClause():
-    '''public void setRestrictCrewClause(final String restrictCrewClause)
+    '''returns None\n\n
+    setRestrictCrewClause(final String restrictCrewClause)\n
     '''
 def setWO():
-    '''public void setWO(final WO wo)
+    '''returns None\n\n
+    setWO(final WO wo)\n
     '''
 def getWO():
-    '''public WO getWO()
+    '''returns WO\n\n
+    getWO()\n
     '''

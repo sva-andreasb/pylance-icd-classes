@@ -1,9 +1,12 @@
-def RBAJavascriptURLInputStreamResolver():
-    '''public RBAJavascriptURLInputStreamResolver(final ILOGCanvasApplet applet)
+def ():
+    '''returns RBAJavascriptURLInputStreamResolver\n\n
+    (final ILOGCanvasApplet applet)\n
     '''
 def onJavascriptResponse():
-    '''public void onJavascriptResponse(final int id, final String data)
+    '''returns None\n\n
+    onJavascriptResponse(final int id, final String data)\n
     '''
 def openStream():
-    '''public InputStream openStream(final URL url)
+    '''returns InputStream\n\n
+    openStream(final URL url)\n
     '''

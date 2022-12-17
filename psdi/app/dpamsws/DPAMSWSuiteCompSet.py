@@ -1,3 +1,4 @@
-def DPAMSWSuiteCompSet():
-    '''public DPAMSWSuiteCompSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMSWSuiteCompSet\n\n
+    (final MboServerInterface ms)\n
     '''

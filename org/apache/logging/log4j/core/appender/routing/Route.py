@@ -1,15 +1,16 @@
 def getNode():
-    '''public Node getNode()
+    '''returns Node\n\n
+    getNode()\n
     '''
 def getAppenderRef():
-    '''public String getAppenderRef()
+    '''returns String\n\n
+    getAppenderRef()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def createRoute():
-    '''public static Route createRoute(@PluginAttribute("ref") final String appenderRef, @PluginAttribute("key") final String key, @PluginNode final Node node)
+    '''returns String\n\n
+    toString()\n
     '''

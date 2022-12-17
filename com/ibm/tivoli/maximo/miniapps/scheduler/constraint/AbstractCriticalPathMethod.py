@@ -1,13 +1,17 @@
-def AbstractCriticalPathMethod():
-    '''public AbstractCriticalPathMethod(final Object model, final UserInfo userInfo)
+def ():
+    '''returns AbstractCriticalPathMethod\n\n
+    (final Object model, final UserInfo userInfo)\n
     '''
 def setProjectStart():
-    '''public void setProjectStart(final Date projectStart)
+    '''returns None\n\n
+    setProjectStart(final Date projectStart)\n
     '''
 def setProjectEnd():
-    '''public void setProjectEnd(final Date projectEnd)
+    '''returns None\n\n
+    setProjectEnd(final Date projectEnd)\n
     '''
 def computeSchedule():
-    '''public boolean computeSchedule()
-    public IMXActivity[] computeSchedule(final IMXActivity[] selectedActivities)
+    '''returns IMXActivity[]\n\n
+    computeSchedule()\n
+    computeSchedule(final IMXActivity[] selectedActivities)\n
     '''

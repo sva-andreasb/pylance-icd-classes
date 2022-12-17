@@ -1,10 +1,13 @@
-def SocketInputStream():
-    '''public SocketInputStream(final Socket socket, final InputStream is)
-    public SocketInputStream(final InputStream stream)
+def ():
+    '''returns SocketInputStream\n\n
+    (final Socket socket, final InputStream is)\n
+    (final InputStream stream)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def finalize():
-    '''public void finalize()
+    '''returns None\n\n
+    finalize()\n
     '''

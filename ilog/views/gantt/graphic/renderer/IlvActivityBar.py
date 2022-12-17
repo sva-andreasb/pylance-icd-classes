@@ -1,30 +1,40 @@
-def IlvActivityBar():
-    '''public IlvActivityBar()
+def ():
+    '''returns IlvActivityBar\n\n
+    ()\n
     '''
 def setLabel():
-    '''public void setLabel(final String a)
+    '''returns None\n\n
+    setLabel(final String a)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setDisplayedProperty():
-    '''public void setDisplayedProperty(final IlvStringProperty b)
+    '''returns None\n\n
+    setDisplayedProperty(final IlvStringProperty b)\n
     '''
 def getDisplayedProperty():
-    '''public IlvStringProperty getDisplayedProperty()
+    '''returns IlvStringProperty\n\n
+    getDisplayedProperty()\n
     '''
 def getToolTipDateFormat():
-    '''public DateFormat getToolTipDateFormat()
+    '''returns DateFormat\n\n
+    getToolTipDateFormat()\n
     '''
 def setToolTipDateFormat():
-    '''public void setToolTipDateFormat(final DateFormat c)
+    '''returns None\n\n
+    setToolTipDateFormat(final DateFormat c)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''
 def isRedrawNeeded():
-    '''public boolean isRedrawNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)
+    '''returns boolean\n\n
+    isRedrawNeeded(final IlvActivityGraphic ilvActivityGraphic, final ActivityEvent activityEvent)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''

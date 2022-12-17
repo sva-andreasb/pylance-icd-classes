@@ -1,10 +1,13 @@
-def CCIFldActCINum():
-    '''public CCIFldActCINum(final MboValue mbv)
-    public CCIFldActCINum(final MboValue mbv, final String criteriaName)
+def ():
+    '''returns CCIFldActCINum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String criteriaName)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

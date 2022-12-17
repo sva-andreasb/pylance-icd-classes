@@ -1,4 +1,5 @@
-def CreateException():
-    '''public CreateException()
-    public CreateException(final String message)
+def ():
+    '''returns CreateException\n\n
+    ()\n
+    (final String message)\n
     '''

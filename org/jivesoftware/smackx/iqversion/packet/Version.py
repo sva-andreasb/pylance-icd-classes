@@ -1,24 +1,26 @@
 ELEMENT = "String  \"query\""
 NAMESPACE = "String  \"jabber:iq:version\""
-def Version():
-    '''public Version()
-    public Version(final Jid to)
-    public Version(final String name, final String version)
-    public Version(final String name, final String version, final String os)
-    public Version(final Version original)
+def ():
+    '''returns Version\n\n
+    ()\n
+    (final Jid to)\n
+    (final String name, final String version)\n
+    (final String name, final String version, final String os)\n
+    (final Version original)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def getOs():
-    '''public String getOs()
+    '''returns String\n\n
+    getOs()\n
     '''
 def setOs():
-    '''public void setOs(final String os)
-    '''
-def createResultFor():
-    '''public static Version createResultFor(final Stanza request, final Version version)
+    '''returns None\n\n
+    setOs(final String os)\n
     '''

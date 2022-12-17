@@ -1,33 +1,35 @@
-def OZ():
-    '''public OZ(final long n)
-    public OZ(final long size, final boolean dt, final boolean ds)
+def ():
+    '''returns OZ\n\n
+    (final long n)\n
+    (final long size, final boolean dt, final boolean ds)\n
     '''
 def getPosition():
-    '''public long getPosition()
+    '''returns long\n\n
+    getPosition()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] bytes)
-    public int read(final byte[] bytes, final int offset, final int length)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns int\n\n
+    read()\n
+    read(final byte[] bytes)\n
+    read(final byte[] bytes, final int offset, final int length)\n
     '''
 def skip():
-    '''public long skip(final long numberOfBytes)
+    '''returns long\n\n
+    skip(final long numberOfBytes)\n
     '''

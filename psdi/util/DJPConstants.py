@@ -20,8 +20,6 @@ CALCMETHOD_LEVEL = "String  \"LEVEL\""
 CALCMETHOD_PROPORTIONAL_ATTRIBUTE = "String  \"ATTR_PROP\""
 CALCMETHOD_LEVEL_ATTRIBUTE = "String  \"ATTR_LVL\""
 def toString():
-    '''public String toString()
-    '''
-def fromStringTo():
-    '''public static CalcApplyTo fromStringTo(final String val)
+    '''returns String\n\n
+    toString()\n
     '''

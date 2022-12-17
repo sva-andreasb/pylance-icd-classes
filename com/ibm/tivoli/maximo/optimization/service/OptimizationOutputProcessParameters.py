@@ -1,15 +1,20 @@
-def OptimizationOutputProcessParameters():
-    '''public OptimizationOutputProcessParameters()
+def ():
+    '''returns OptimizationOutputProcessParameters\n\n
+    ()\n
     '''
 def setOutputProcessParameter():
-    '''public void setOutputProcessParameter(final String parameterName, final String value)
+    '''returns None\n\n
+    setOutputProcessParameter(final String parameterName, final String value)\n
     '''
 def getOutputProcessParameter():
-    '''public String getOutputProcessParameter(final String parameterName)
+    '''returns String\n\n
+    getOutputProcessParameter(final String parameterName)\n
     '''
 def setOutputProcessUserInfo():
-    '''public void setOutputProcessUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setOutputProcessUserInfo(final UserInfo userInfo)\n
     '''
 def getOutputProcessUserInfo():
-    '''public UserInfo getOutputProcessUserInfo()
+    '''returns UserInfo\n\n
+    getOutputProcessUserInfo()\n
     '''

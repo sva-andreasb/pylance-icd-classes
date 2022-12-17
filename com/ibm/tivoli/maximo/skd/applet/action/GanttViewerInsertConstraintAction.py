@@ -1,22 +1,29 @@
 ID = "String  \"Action.InsertConstraint\""
-def GanttViewerInsertConstraintAction():
-    '''public GanttViewerInsertConstraintAction(final Viewer viewer)
+def ():
+    '''returns GanttViewerInsertConstraintAction\n\n
+    (final Viewer viewer)\n
     '''
 def getContextualAction():
-    '''public IlvAction getContextualAction(final Object component)
+    '''returns IlvAction\n\n
+    getContextualAction(final Object component)\n
     '''
 def getAccelerator():
-    '''public KeyStroke getAccelerator()
+    '''returns KeyStroke\n\n
+    getAccelerator()\n
     '''
 def getShortDescription():
-    '''public String getShortDescription()
+    '''returns String\n\n
+    getShortDescription()\n
     '''
 def getLongDescription():
-    '''public String getLongDescription()
+    '''returns String\n\n
+    getLongDescription()\n
     '''
 def setShortDescription():
-    '''public void setShortDescription(final String shortDesc)
+    '''returns None\n\n
+    setShortDescription(final String shortDesc)\n
     '''
 def setLongDescription():
-    '''public void setLongDescription(final String longDesc)
+    '''returns None\n\n
+    setLongDescription(final String longDesc)\n
     '''

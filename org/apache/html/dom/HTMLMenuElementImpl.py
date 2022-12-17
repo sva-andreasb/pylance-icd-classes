@@ -1,9 +1,12 @@
 def getCompact():
-    '''public boolean getCompact()
+    '''returns boolean\n\n
+    getCompact()\n
     '''
 def setCompact():
-    '''public void setCompact(final boolean b)
+    '''returns None\n\n
+    setCompact(final boolean b)\n
     '''
-def HTMLMenuElementImpl():
-    '''public HTMLMenuElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLMenuElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

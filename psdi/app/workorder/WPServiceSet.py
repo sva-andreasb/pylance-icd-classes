@@ -1,3 +1,4 @@
-def WPServiceSet():
-    '''public WPServiceSet(final MboServerInterface ms)
+def ():
+    '''returns WPServiceSet\n\n
+    (final MboServerInterface ms)\n
     '''

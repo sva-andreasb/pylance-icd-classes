@@ -1,3 +1,4 @@
-def MaxComponentSet():
-    '''public MaxComponentSet(final MboServerInterface ms)
+def ():
+    '''returns MaxComponentSet\n\n
+    (final MboServerInterface ms)\n
     '''

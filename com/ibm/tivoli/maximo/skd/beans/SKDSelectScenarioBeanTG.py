@@ -1,10 +1,9 @@
 COMPARE_EVENT_ID = "String  \"skd.compare.scenarios\""
 def skdcomparescenario():
-    '''public int skdcomparescenario()
+    '''returns int\n\n
+    skdcomparescenario()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
-    '''
-def toJsonObject():
-    '''public static JSONObject toJsonObject(final MboRemote mbo)
+    '''returns int\n\n
+    cancelDialog()\n
     '''

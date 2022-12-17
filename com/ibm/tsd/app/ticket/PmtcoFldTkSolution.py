@@ -1,9 +1,12 @@
-def PmtcoFldTkSolution():
-    '''public PmtcoFldTkSolution(final MboValue mbv)
+def ():
+    '''returns PmtcoFldTkSolution\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setFlagSolStatus():
-    '''public void setFlagSolStatus(final boolean readonly, final MboRemote ticketMbo)
+    '''returns None\n\n
+    setFlagSolStatus(final boolean readonly, final MboRemote ticketMbo)\n
     '''

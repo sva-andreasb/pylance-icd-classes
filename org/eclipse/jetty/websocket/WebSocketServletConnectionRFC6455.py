@@ -1,9 +1,12 @@
-def WebSocketServletConnectionRFC6455():
-    '''public WebSocketServletConnectionRFC6455(final WebSocketFactory factory, final WebSocket websocket, final EndPoint endpoint, final WebSocketBuffers buffers, final long timestamp, final int maxIdleTime, final String protocol, final List<Extension> extensions, final int draft)
+def ():
+    '''returns WebSocketServletConnectionRFC6455\n\n
+    (final WebSocketFactory factory, final WebSocket websocket, final EndPoint endpoint, final WebSocketBuffers buffers, final long timestamp, final int maxIdleTime, final String protocol, final List<Extension> extensions, final int draft)\n
     '''
 def handshake():
-    '''public void handshake(final HttpServletRequest request, final HttpServletResponse response, final String subprotocol)
+    '''returns None\n\n
+    handshake(final HttpServletRequest request, final HttpServletResponse response, final String subprotocol)\n
     '''
 def onClose():
-    '''public void onClose()
+    '''returns None\n\n
+    onClose()\n
     '''

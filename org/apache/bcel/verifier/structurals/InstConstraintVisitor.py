@@ -1,504 +1,672 @@
-def InstConstraintVisitor():
-    '''public InstConstraintVisitor()
+def ():
+    '''returns InstConstraintVisitor\n\n
+    ()\n
     '''
 def setFrame():
-    '''public void setFrame(final Frame f)
+    '''returns None\n\n
+    setFrame(final Frame f)\n
     '''
 def setConstantPoolGen():
-    '''public void setConstantPoolGen(final ConstantPoolGen cpg)
+    '''returns None\n\n
+    setConstantPoolGen(final ConstantPoolGen cpg)\n
     '''
 def setMethodGen():
-    '''public void setMethodGen(final MethodGen mg)
+    '''returns None\n\n
+    setMethodGen(final MethodGen mg)\n
     '''
 def visitLoadClass():
-    '''public void visitLoadClass(final LoadClass o)
+    '''returns None\n\n
+    visitLoadClass(final LoadClass o)\n
     '''
 def visitStackConsumer():
-    '''public void visitStackConsumer(final StackConsumer o)
+    '''returns None\n\n
+    visitStackConsumer(final StackConsumer o)\n
     '''
 def visitStackProducer():
-    '''public void visitStackProducer(final StackProducer o)
+    '''returns None\n\n
+    visitStackProducer(final StackProducer o)\n
     '''
 def visitCPInstruction():
-    '''public void visitCPInstruction(final CPInstruction o)
+    '''returns None\n\n
+    visitCPInstruction(final CPInstruction o)\n
     '''
 def visitFieldInstruction():
-    '''public void visitFieldInstruction(final FieldInstruction o)
+    '''returns None\n\n
+    visitFieldInstruction(final FieldInstruction o)\n
     '''
 def visitInvokeInstruction():
-    '''public void visitInvokeInstruction(final InvokeInstruction o)
+    '''returns None\n\n
+    visitInvokeInstruction(final InvokeInstruction o)\n
     '''
 def visitStackInstruction():
-    '''public void visitStackInstruction(final StackInstruction o)
+    '''returns None\n\n
+    visitStackInstruction(final StackInstruction o)\n
     '''
 def visitLocalVariableInstruction():
-    '''public void visitLocalVariableInstruction(final LocalVariableInstruction o)
+    '''returns None\n\n
+    visitLocalVariableInstruction(final LocalVariableInstruction o)\n
     '''
 def visitLoadInstruction():
-    '''public void visitLoadInstruction(final LoadInstruction o)
+    '''returns None\n\n
+    visitLoadInstruction(final LoadInstruction o)\n
     '''
 def visitStoreInstruction():
-    '''public void visitStoreInstruction(final StoreInstruction o)
+    '''returns None\n\n
+    visitStoreInstruction(final StoreInstruction o)\n
     '''
 def visitReturnInstruction():
-    '''public void visitReturnInstruction(final ReturnInstruction o)
+    '''returns None\n\n
+    visitReturnInstruction(final ReturnInstruction o)\n
     '''
 def visitAALOAD():
-    '''public void visitAALOAD(final AALOAD o)
+    '''returns None\n\n
+    visitAALOAD(final AALOAD o)\n
     '''
 def visitAASTORE():
-    '''public void visitAASTORE(final AASTORE o)
+    '''returns None\n\n
+    visitAASTORE(final AASTORE o)\n
     '''
 def visitACONST_NULL():
-    '''public void visitACONST_NULL(final ACONST_NULL o)
+    '''returns None\n\n
+    visitACONST_NULL(final ACONST_NULL o)\n
     '''
 def visitALOAD():
-    '''public void visitALOAD(final ALOAD o)
+    '''returns None\n\n
+    visitALOAD(final ALOAD o)\n
     '''
 def visitANEWARRAY():
-    '''public void visitANEWARRAY(final ANEWARRAY o)
+    '''returns None\n\n
+    visitANEWARRAY(final ANEWARRAY o)\n
     '''
 def visitARETURN():
-    '''public void visitARETURN(final ARETURN o)
+    '''returns None\n\n
+    visitARETURN(final ARETURN o)\n
     '''
 def visitARRAYLENGTH():
-    '''public void visitARRAYLENGTH(final ARRAYLENGTH o)
+    '''returns None\n\n
+    visitARRAYLENGTH(final ARRAYLENGTH o)\n
     '''
 def visitASTORE():
-    '''public void visitASTORE(final ASTORE o)
+    '''returns None\n\n
+    visitASTORE(final ASTORE o)\n
     '''
 def visitATHROW():
-    '''public void visitATHROW(final ATHROW o)
+    '''returns None\n\n
+    visitATHROW(final ATHROW o)\n
     '''
 def visitBALOAD():
-    '''public void visitBALOAD(final BALOAD o)
+    '''returns None\n\n
+    visitBALOAD(final BALOAD o)\n
     '''
 def visitBASTORE():
-    '''public void visitBASTORE(final BASTORE o)
+    '''returns None\n\n
+    visitBASTORE(final BASTORE o)\n
     '''
 def visitBIPUSH():
-    '''public void visitBIPUSH(final BIPUSH o)
+    '''returns None\n\n
+    visitBIPUSH(final BIPUSH o)\n
     '''
 def visitBREAKPOINT():
-    '''public void visitBREAKPOINT(final BREAKPOINT o)
+    '''returns None\n\n
+    visitBREAKPOINT(final BREAKPOINT o)\n
     '''
 def visitCALOAD():
-    '''public void visitCALOAD(final CALOAD o)
+    '''returns None\n\n
+    visitCALOAD(final CALOAD o)\n
     '''
 def visitCASTORE():
-    '''public void visitCASTORE(final CASTORE o)
+    '''returns None\n\n
+    visitCASTORE(final CASTORE o)\n
     '''
 def visitCHECKCAST():
-    '''public void visitCHECKCAST(final CHECKCAST o)
+    '''returns None\n\n
+    visitCHECKCAST(final CHECKCAST o)\n
     '''
 def visitD2F():
-    '''public void visitD2F(final D2F o)
+    '''returns None\n\n
+    visitD2F(final D2F o)\n
     '''
 def visitD2I():
-    '''public void visitD2I(final D2I o)
+    '''returns None\n\n
+    visitD2I(final D2I o)\n
     '''
 def visitD2L():
-    '''public void visitD2L(final D2L o)
+    '''returns None\n\n
+    visitD2L(final D2L o)\n
     '''
 def visitDADD():
-    '''public void visitDADD(final DADD o)
+    '''returns None\n\n
+    visitDADD(final DADD o)\n
     '''
 def visitDALOAD():
-    '''public void visitDALOAD(final DALOAD o)
+    '''returns None\n\n
+    visitDALOAD(final DALOAD o)\n
     '''
 def visitDASTORE():
-    '''public void visitDASTORE(final DASTORE o)
+    '''returns None\n\n
+    visitDASTORE(final DASTORE o)\n
     '''
 def visitDCMPG():
-    '''public void visitDCMPG(final DCMPG o)
+    '''returns None\n\n
+    visitDCMPG(final DCMPG o)\n
     '''
 def visitDCMPL():
-    '''public void visitDCMPL(final DCMPL o)
+    '''returns None\n\n
+    visitDCMPL(final DCMPL o)\n
     '''
 def visitDCONST():
-    '''public void visitDCONST(final DCONST o)
+    '''returns None\n\n
+    visitDCONST(final DCONST o)\n
     '''
 def visitDDIV():
-    '''public void visitDDIV(final DDIV o)
+    '''returns None\n\n
+    visitDDIV(final DDIV o)\n
     '''
 def visitDLOAD():
-    '''public void visitDLOAD(final DLOAD o)
+    '''returns None\n\n
+    visitDLOAD(final DLOAD o)\n
     '''
 def visitDMUL():
-    '''public void visitDMUL(final DMUL o)
+    '''returns None\n\n
+    visitDMUL(final DMUL o)\n
     '''
 def visitDNEG():
-    '''public void visitDNEG(final DNEG o)
+    '''returns None\n\n
+    visitDNEG(final DNEG o)\n
     '''
 def visitDREM():
-    '''public void visitDREM(final DREM o)
+    '''returns None\n\n
+    visitDREM(final DREM o)\n
     '''
 def visitDRETURN():
-    '''public void visitDRETURN(final DRETURN o)
+    '''returns None\n\n
+    visitDRETURN(final DRETURN o)\n
     '''
 def visitDSTORE():
-    '''public void visitDSTORE(final DSTORE o)
+    '''returns None\n\n
+    visitDSTORE(final DSTORE o)\n
     '''
 def visitDSUB():
-    '''public void visitDSUB(final DSUB o)
+    '''returns None\n\n
+    visitDSUB(final DSUB o)\n
     '''
 def visitDUP():
-    '''public void visitDUP(final DUP o)
+    '''returns None\n\n
+    visitDUP(final DUP o)\n
     '''
 def visitDUP_X1():
-    '''public void visitDUP_X1(final DUP_X1 o)
+    '''returns None\n\n
+    visitDUP_X1(final DUP_X1 o)\n
     '''
 def visitDUP_X2():
-    '''public void visitDUP_X2(final DUP_X2 o)
+    '''returns None\n\n
+    visitDUP_X2(final DUP_X2 o)\n
     '''
 def visitDUP2():
-    '''public void visitDUP2(final DUP2 o)
+    '''returns None\n\n
+    visitDUP2(final DUP2 o)\n
     '''
 def visitDUP2_X1():
-    '''public void visitDUP2_X1(final DUP2_X1 o)
+    '''returns None\n\n
+    visitDUP2_X1(final DUP2_X1 o)\n
     '''
 def visitDUP2_X2():
-    '''public void visitDUP2_X2(final DUP2_X2 o)
+    '''returns None\n\n
+    visitDUP2_X2(final DUP2_X2 o)\n
     '''
 def visitF2D():
-    '''public void visitF2D(final F2D o)
+    '''returns None\n\n
+    visitF2D(final F2D o)\n
     '''
 def visitF2I():
-    '''public void visitF2I(final F2I o)
+    '''returns None\n\n
+    visitF2I(final F2I o)\n
     '''
 def visitF2L():
-    '''public void visitF2L(final F2L o)
+    '''returns None\n\n
+    visitF2L(final F2L o)\n
     '''
 def visitFADD():
-    '''public void visitFADD(final FADD o)
+    '''returns None\n\n
+    visitFADD(final FADD o)\n
     '''
 def visitFALOAD():
-    '''public void visitFALOAD(final FALOAD o)
+    '''returns None\n\n
+    visitFALOAD(final FALOAD o)\n
     '''
 def visitFASTORE():
-    '''public void visitFASTORE(final FASTORE o)
+    '''returns None\n\n
+    visitFASTORE(final FASTORE o)\n
     '''
 def visitFCMPG():
-    '''public void visitFCMPG(final FCMPG o)
+    '''returns None\n\n
+    visitFCMPG(final FCMPG o)\n
     '''
 def visitFCMPL():
-    '''public void visitFCMPL(final FCMPL o)
+    '''returns None\n\n
+    visitFCMPL(final FCMPL o)\n
     '''
 def visitFCONST():
-    '''public void visitFCONST(final FCONST o)
+    '''returns None\n\n
+    visitFCONST(final FCONST o)\n
     '''
 def visitFDIV():
-    '''public void visitFDIV(final FDIV o)
+    '''returns None\n\n
+    visitFDIV(final FDIV o)\n
     '''
 def visitFLOAD():
-    '''public void visitFLOAD(final FLOAD o)
+    '''returns None\n\n
+    visitFLOAD(final FLOAD o)\n
     '''
 def visitFMUL():
-    '''public void visitFMUL(final FMUL o)
+    '''returns None\n\n
+    visitFMUL(final FMUL o)\n
     '''
 def visitFNEG():
-    '''public void visitFNEG(final FNEG o)
+    '''returns None\n\n
+    visitFNEG(final FNEG o)\n
     '''
 def visitFREM():
-    '''public void visitFREM(final FREM o)
+    '''returns None\n\n
+    visitFREM(final FREM o)\n
     '''
 def visitFRETURN():
-    '''public void visitFRETURN(final FRETURN o)
+    '''returns None\n\n
+    visitFRETURN(final FRETURN o)\n
     '''
 def visitFSTORE():
-    '''public void visitFSTORE(final FSTORE o)
+    '''returns None\n\n
+    visitFSTORE(final FSTORE o)\n
     '''
 def visitFSUB():
-    '''public void visitFSUB(final FSUB o)
+    '''returns None\n\n
+    visitFSUB(final FSUB o)\n
     '''
 def visitGETFIELD():
-    '''public void visitGETFIELD(final GETFIELD o)
+    '''returns None\n\n
+    visitGETFIELD(final GETFIELD o)\n
     '''
 def visitGETSTATIC():
-    '''public void visitGETSTATIC(final GETSTATIC o)
+    '''returns None\n\n
+    visitGETSTATIC(final GETSTATIC o)\n
     '''
 def visitGOTO():
-    '''public void visitGOTO(final GOTO o)
+    '''returns None\n\n
+    visitGOTO(final GOTO o)\n
     '''
 def visitGOTO_W():
-    '''public void visitGOTO_W(final GOTO_W o)
+    '''returns None\n\n
+    visitGOTO_W(final GOTO_W o)\n
     '''
 def visitI2B():
-    '''public void visitI2B(final I2B o)
+    '''returns None\n\n
+    visitI2B(final I2B o)\n
     '''
 def visitI2C():
-    '''public void visitI2C(final I2C o)
+    '''returns None\n\n
+    visitI2C(final I2C o)\n
     '''
 def visitI2D():
-    '''public void visitI2D(final I2D o)
+    '''returns None\n\n
+    visitI2D(final I2D o)\n
     '''
 def visitI2F():
-    '''public void visitI2F(final I2F o)
+    '''returns None\n\n
+    visitI2F(final I2F o)\n
     '''
 def visitI2L():
-    '''public void visitI2L(final I2L o)
+    '''returns None\n\n
+    visitI2L(final I2L o)\n
     '''
 def visitI2S():
-    '''public void visitI2S(final I2S o)
+    '''returns None\n\n
+    visitI2S(final I2S o)\n
     '''
 def visitIADD():
-    '''public void visitIADD(final IADD o)
+    '''returns None\n\n
+    visitIADD(final IADD o)\n
     '''
 def visitIALOAD():
-    '''public void visitIALOAD(final IALOAD o)
+    '''returns None\n\n
+    visitIALOAD(final IALOAD o)\n
     '''
 def visitIAND():
-    '''public void visitIAND(final IAND o)
+    '''returns None\n\n
+    visitIAND(final IAND o)\n
     '''
 def visitIASTORE():
-    '''public void visitIASTORE(final IASTORE o)
+    '''returns None\n\n
+    visitIASTORE(final IASTORE o)\n
     '''
 def visitICONST():
-    '''public void visitICONST(final ICONST o)
+    '''returns None\n\n
+    visitICONST(final ICONST o)\n
     '''
 def visitIDIV():
-    '''public void visitIDIV(final IDIV o)
+    '''returns None\n\n
+    visitIDIV(final IDIV o)\n
     '''
 def visitIF_ACMPEQ():
-    '''public void visitIF_ACMPEQ(final IF_ACMPEQ o)
+    '''returns None\n\n
+    visitIF_ACMPEQ(final IF_ACMPEQ o)\n
     '''
 def visitIF_ACMPNE():
-    '''public void visitIF_ACMPNE(final IF_ACMPNE o)
+    '''returns None\n\n
+    visitIF_ACMPNE(final IF_ACMPNE o)\n
     '''
 def visitIF_ICMPEQ():
-    '''public void visitIF_ICMPEQ(final IF_ICMPEQ o)
+    '''returns None\n\n
+    visitIF_ICMPEQ(final IF_ICMPEQ o)\n
     '''
 def visitIF_ICMPGE():
-    '''public void visitIF_ICMPGE(final IF_ICMPGE o)
+    '''returns None\n\n
+    visitIF_ICMPGE(final IF_ICMPGE o)\n
     '''
 def visitIF_ICMPGT():
-    '''public void visitIF_ICMPGT(final IF_ICMPGT o)
+    '''returns None\n\n
+    visitIF_ICMPGT(final IF_ICMPGT o)\n
     '''
 def visitIF_ICMPLE():
-    '''public void visitIF_ICMPLE(final IF_ICMPLE o)
+    '''returns None\n\n
+    visitIF_ICMPLE(final IF_ICMPLE o)\n
     '''
 def visitIF_ICMPLT():
-    '''public void visitIF_ICMPLT(final IF_ICMPLT o)
+    '''returns None\n\n
+    visitIF_ICMPLT(final IF_ICMPLT o)\n
     '''
 def visitIF_ICMPNE():
-    '''public void visitIF_ICMPNE(final IF_ICMPNE o)
+    '''returns None\n\n
+    visitIF_ICMPNE(final IF_ICMPNE o)\n
     '''
 def visitIFEQ():
-    '''public void visitIFEQ(final IFEQ o)
+    '''returns None\n\n
+    visitIFEQ(final IFEQ o)\n
     '''
 def visitIFGE():
-    '''public void visitIFGE(final IFGE o)
+    '''returns None\n\n
+    visitIFGE(final IFGE o)\n
     '''
 def visitIFGT():
-    '''public void visitIFGT(final IFGT o)
+    '''returns None\n\n
+    visitIFGT(final IFGT o)\n
     '''
 def visitIFLE():
-    '''public void visitIFLE(final IFLE o)
+    '''returns None\n\n
+    visitIFLE(final IFLE o)\n
     '''
 def visitIFLT():
-    '''public void visitIFLT(final IFLT o)
+    '''returns None\n\n
+    visitIFLT(final IFLT o)\n
     '''
 def visitIFNE():
-    '''public void visitIFNE(final IFNE o)
+    '''returns None\n\n
+    visitIFNE(final IFNE o)\n
     '''
 def visitIFNONNULL():
-    '''public void visitIFNONNULL(final IFNONNULL o)
+    '''returns None\n\n
+    visitIFNONNULL(final IFNONNULL o)\n
     '''
 def visitIFNULL():
-    '''public void visitIFNULL(final IFNULL o)
+    '''returns None\n\n
+    visitIFNULL(final IFNULL o)\n
     '''
 def visitIINC():
-    '''public void visitIINC(final IINC o)
+    '''returns None\n\n
+    visitIINC(final IINC o)\n
     '''
 def visitILOAD():
-    '''public void visitILOAD(final ILOAD o)
+    '''returns None\n\n
+    visitILOAD(final ILOAD o)\n
     '''
 def visitIMPDEP1():
-    '''public void visitIMPDEP1(final IMPDEP1 o)
+    '''returns None\n\n
+    visitIMPDEP1(final IMPDEP1 o)\n
     '''
 def visitIMPDEP2():
-    '''public void visitIMPDEP2(final IMPDEP2 o)
+    '''returns None\n\n
+    visitIMPDEP2(final IMPDEP2 o)\n
     '''
 def visitIMUL():
-    '''public void visitIMUL(final IMUL o)
+    '''returns None\n\n
+    visitIMUL(final IMUL o)\n
     '''
 def visitINEG():
-    '''public void visitINEG(final INEG o)
+    '''returns None\n\n
+    visitINEG(final INEG o)\n
     '''
 def visitINSTANCEOF():
-    '''public void visitINSTANCEOF(final INSTANCEOF o)
+    '''returns None\n\n
+    visitINSTANCEOF(final INSTANCEOF o)\n
     '''
 def visitINVOKEINTERFACE():
-    '''public void visitINVOKEINTERFACE(final INVOKEINTERFACE o)
+    '''returns None\n\n
+    visitINVOKEINTERFACE(final INVOKEINTERFACE o)\n
     '''
 def visitINVOKESPECIAL():
-    '''public void visitINVOKESPECIAL(final INVOKESPECIAL o)
+    '''returns None\n\n
+    visitINVOKESPECIAL(final INVOKESPECIAL o)\n
     '''
 def visitINVOKESTATIC():
-    '''public void visitINVOKESTATIC(final INVOKESTATIC o)
+    '''returns None\n\n
+    visitINVOKESTATIC(final INVOKESTATIC o)\n
     '''
 def visitINVOKEVIRTUAL():
-    '''public void visitINVOKEVIRTUAL(final INVOKEVIRTUAL o)
+    '''returns None\n\n
+    visitINVOKEVIRTUAL(final INVOKEVIRTUAL o)\n
     '''
 def visitIOR():
-    '''public void visitIOR(final IOR o)
+    '''returns None\n\n
+    visitIOR(final IOR o)\n
     '''
 def visitIREM():
-    '''public void visitIREM(final IREM o)
+    '''returns None\n\n
+    visitIREM(final IREM o)\n
     '''
 def visitIRETURN():
-    '''public void visitIRETURN(final IRETURN o)
+    '''returns None\n\n
+    visitIRETURN(final IRETURN o)\n
     '''
 def visitISHL():
-    '''public void visitISHL(final ISHL o)
+    '''returns None\n\n
+    visitISHL(final ISHL o)\n
     '''
 def visitISHR():
-    '''public void visitISHR(final ISHR o)
+    '''returns None\n\n
+    visitISHR(final ISHR o)\n
     '''
 def visitISTORE():
-    '''public void visitISTORE(final ISTORE o)
+    '''returns None\n\n
+    visitISTORE(final ISTORE o)\n
     '''
 def visitISUB():
-    '''public void visitISUB(final ISUB o)
+    '''returns None\n\n
+    visitISUB(final ISUB o)\n
     '''
 def visitIUSHR():
-    '''public void visitIUSHR(final IUSHR o)
+    '''returns None\n\n
+    visitIUSHR(final IUSHR o)\n
     '''
 def visitIXOR():
-    '''public void visitIXOR(final IXOR o)
+    '''returns None\n\n
+    visitIXOR(final IXOR o)\n
     '''
 def visitJSR():
-    '''public void visitJSR(final JSR o)
+    '''returns None\n\n
+    visitJSR(final JSR o)\n
     '''
 def visitJSR_W():
-    '''public void visitJSR_W(final JSR_W o)
+    '''returns None\n\n
+    visitJSR_W(final JSR_W o)\n
     '''
 def visitL2D():
-    '''public void visitL2D(final L2D o)
+    '''returns None\n\n
+    visitL2D(final L2D o)\n
     '''
 def visitL2F():
-    '''public void visitL2F(final L2F o)
+    '''returns None\n\n
+    visitL2F(final L2F o)\n
     '''
 def visitL2I():
-    '''public void visitL2I(final L2I o)
+    '''returns None\n\n
+    visitL2I(final L2I o)\n
     '''
 def visitLADD():
-    '''public void visitLADD(final LADD o)
+    '''returns None\n\n
+    visitLADD(final LADD o)\n
     '''
 def visitLALOAD():
-    '''public void visitLALOAD(final LALOAD o)
+    '''returns None\n\n
+    visitLALOAD(final LALOAD o)\n
     '''
 def visitLAND():
-    '''public void visitLAND(final LAND o)
+    '''returns None\n\n
+    visitLAND(final LAND o)\n
     '''
 def visitLASTORE():
-    '''public void visitLASTORE(final LASTORE o)
+    '''returns None\n\n
+    visitLASTORE(final LASTORE o)\n
     '''
 def visitLCMP():
-    '''public void visitLCMP(final LCMP o)
+    '''returns None\n\n
+    visitLCMP(final LCMP o)\n
     '''
 def visitLCONST():
-    '''public void visitLCONST(final LCONST o)
+    '''returns None\n\n
+    visitLCONST(final LCONST o)\n
     '''
 def visitLDC():
-    '''public void visitLDC(final LDC o)
+    '''returns None\n\n
+    visitLDC(final LDC o)\n
     '''
 def visitLDC_W():
-    '''public void visitLDC_W(final LDC_W o)
+    '''returns None\n\n
+    visitLDC_W(final LDC_W o)\n
     '''
 def visitLDC2_W():
-    '''public void visitLDC2_W(final LDC2_W o)
+    '''returns None\n\n
+    visitLDC2_W(final LDC2_W o)\n
     '''
 def visitLDIV():
-    '''public void visitLDIV(final LDIV o)
+    '''returns None\n\n
+    visitLDIV(final LDIV o)\n
     '''
 def visitLLOAD():
-    '''public void visitLLOAD(final LLOAD o)
+    '''returns None\n\n
+    visitLLOAD(final LLOAD o)\n
     '''
 def visitLMUL():
-    '''public void visitLMUL(final LMUL o)
+    '''returns None\n\n
+    visitLMUL(final LMUL o)\n
     '''
 def visitLNEG():
-    '''public void visitLNEG(final LNEG o)
+    '''returns None\n\n
+    visitLNEG(final LNEG o)\n
     '''
 def visitLOOKUPSWITCH():
-    '''public void visitLOOKUPSWITCH(final LOOKUPSWITCH o)
+    '''returns None\n\n
+    visitLOOKUPSWITCH(final LOOKUPSWITCH o)\n
     '''
 def visitLOR():
-    '''public void visitLOR(final LOR o)
+    '''returns None\n\n
+    visitLOR(final LOR o)\n
     '''
 def visitLREM():
-    '''public void visitLREM(final LREM o)
+    '''returns None\n\n
+    visitLREM(final LREM o)\n
     '''
 def visitLRETURN():
-    '''public void visitLRETURN(final LRETURN o)
+    '''returns None\n\n
+    visitLRETURN(final LRETURN o)\n
     '''
 def visitLSHL():
-    '''public void visitLSHL(final LSHL o)
+    '''returns None\n\n
+    visitLSHL(final LSHL o)\n
     '''
 def visitLSHR():
-    '''public void visitLSHR(final LSHR o)
+    '''returns None\n\n
+    visitLSHR(final LSHR o)\n
     '''
 def visitLSTORE():
-    '''public void visitLSTORE(final LSTORE o)
+    '''returns None\n\n
+    visitLSTORE(final LSTORE o)\n
     '''
 def visitLSUB():
-    '''public void visitLSUB(final LSUB o)
+    '''returns None\n\n
+    visitLSUB(final LSUB o)\n
     '''
 def visitLUSHR():
-    '''public void visitLUSHR(final LUSHR o)
+    '''returns None\n\n
+    visitLUSHR(final LUSHR o)\n
     '''
 def visitLXOR():
-    '''public void visitLXOR(final LXOR o)
+    '''returns None\n\n
+    visitLXOR(final LXOR o)\n
     '''
 def visitMONITORENTER():
-    '''public void visitMONITORENTER(final MONITORENTER o)
+    '''returns None\n\n
+    visitMONITORENTER(final MONITORENTER o)\n
     '''
 def visitMONITOREXIT():
-    '''public void visitMONITOREXIT(final MONITOREXIT o)
+    '''returns None\n\n
+    visitMONITOREXIT(final MONITOREXIT o)\n
     '''
 def visitMULTIANEWARRAY():
-    '''public void visitMULTIANEWARRAY(final MULTIANEWARRAY o)
+    '''returns None\n\n
+    visitMULTIANEWARRAY(final MULTIANEWARRAY o)\n
     '''
 def visitNEW():
-    '''public void visitNEW(final NEW o)
+    '''returns None\n\n
+    visitNEW(final NEW o)\n
     '''
 def visitNEWARRAY():
-    '''public void visitNEWARRAY(final NEWARRAY o)
+    '''returns None\n\n
+    visitNEWARRAY(final NEWARRAY o)\n
     '''
 def visitNOP():
-    '''public void visitNOP(final NOP o)
+    '''returns None\n\n
+    visitNOP(final NOP o)\n
     '''
 def visitPOP():
-    '''public void visitPOP(final POP o)
+    '''returns None\n\n
+    visitPOP(final POP o)\n
     '''
 def visitPOP2():
-    '''public void visitPOP2(final POP2 o)
+    '''returns None\n\n
+    visitPOP2(final POP2 o)\n
     '''
 def visitPUTFIELD():
-    '''public void visitPUTFIELD(final PUTFIELD o)
+    '''returns None\n\n
+    visitPUTFIELD(final PUTFIELD o)\n
     '''
 def visitPUTSTATIC():
-    '''public void visitPUTSTATIC(final PUTSTATIC o)
+    '''returns None\n\n
+    visitPUTSTATIC(final PUTSTATIC o)\n
     '''
 def visitRET():
-    '''public void visitRET(final RET o)
+    '''returns None\n\n
+    visitRET(final RET o)\n
     '''
 def visitRETURN():
-    '''public void visitRETURN(final RETURN o)
+    '''returns None\n\n
+    visitRETURN(final RETURN o)\n
     '''
 def visitSALOAD():
-    '''public void visitSALOAD(final SALOAD o)
+    '''returns None\n\n
+    visitSALOAD(final SALOAD o)\n
     '''
 def visitSASTORE():
-    '''public void visitSASTORE(final SASTORE o)
+    '''returns None\n\n
+    visitSASTORE(final SASTORE o)\n
     '''
 def visitSIPUSH():
-    '''public void visitSIPUSH(final SIPUSH o)
+    '''returns None\n\n
+    visitSIPUSH(final SIPUSH o)\n
     '''
 def visitSWAP():
-    '''public void visitSWAP(final SWAP o)
+    '''returns None\n\n
+    visitSWAP(final SWAP o)\n
     '''
 def visitTABLESWITCH():
-    '''public void visitTABLESWITCH(final TABLESWITCH o)
+    '''returns None\n\n
+    visitTABLESWITCH(final TABLESWITCH o)\n
     '''

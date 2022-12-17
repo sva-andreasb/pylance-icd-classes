@@ -1,6 +1,8 @@
-def MaxMenu():
-    '''public MaxMenu(final MboSet ms)
+def ():
+    '''returns MaxMenu\n\n
+    (final MboSet ms)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''

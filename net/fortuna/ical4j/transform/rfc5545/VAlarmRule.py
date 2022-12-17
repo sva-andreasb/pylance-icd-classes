@@ -1,6 +1,8 @@
 def applyTo():
-    '''public void applyTo(final VAlarm element)
+    '''returns None\n\n
+    applyTo(final VAlarm element)\n
     '''
 def getSupportedType():
-    '''public Class<VAlarm> getSupportedType()
+    '''returns Class<VAlarm>\n\n
+    getSupportedType()\n
     '''

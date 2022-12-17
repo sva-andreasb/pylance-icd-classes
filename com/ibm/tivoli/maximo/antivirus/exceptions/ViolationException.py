@@ -1,4 +1,5 @@
-def ViolationException():
-    '''public ViolationException(final String error)
-    public ViolationException(final String error, final Throwable exception)
+def ():
+    '''returns ViolationException\n\n
+    (final String error)\n
+    (final String error, final Throwable exception)\n
     '''

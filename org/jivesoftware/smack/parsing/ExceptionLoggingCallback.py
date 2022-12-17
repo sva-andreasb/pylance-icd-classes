@@ -1,3 +1,4 @@
 def handleUnparsableStanza():
-    '''public void handleUnparsableStanza(final UnparseableStanza unparsed)
+    '''returns None\n\n
+    handleUnparsableStanza(final UnparseableStanza unparsed)\n
     '''

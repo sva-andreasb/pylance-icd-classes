@@ -1,4 +1,5 @@
-def CraftService():
-    '''public CraftService()
-    public CraftService(final MXServer mxServer)
+def ():
+    '''returns CraftService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

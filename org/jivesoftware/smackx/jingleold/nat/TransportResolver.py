@@ -1,49 +1,57 @@
 CHECK_TIMEOUT = "int  3000"
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final Type type)
+    '''returns None\n\n
+    setType(final Type type)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def isResolving():
-    '''public boolean isResolving()
+    '''returns boolean\n\n
+    isResolving()\n
     '''
 def isResolved():
-    '''public boolean isResolved()
-    '''
-def setInitialized():
-    '''public synchronized void setInitialized()
-    '''
-def isInitialized():
-    '''public synchronized boolean isInitialized()
+    '''returns boolean\n\n
+    isResolved()\n
     '''
 def addListener():
-    '''public void addListener(final TransportResolverListener li)
+    '''returns None\n\n
+    addListener(final TransportResolverListener li)\n
     '''
 def removeListener():
-    '''public void removeListener(final TransportResolverListener li)
+    '''returns None\n\n
+    removeListener(final TransportResolverListener li)\n
     '''
 def getListenersList():
-    '''public ArrayList<TransportResolverListener> getListenersList()
+    '''returns ArrayList<TransportResolverListener>\n\n
+    getListenersList()\n
     '''
 def getCandidates():
-    '''public Iterator<TransportCandidate> getCandidates()
+    '''returns Iterator<TransportCandidate>\n\n
+    getCandidates()\n
     '''
 def getPreferredCandidate():
-    '''public TransportCandidate getPreferredCandidate()
+    '''returns TransportCandidate\n\n
+    getPreferredCandidate()\n
     '''
 def getCandidateCount():
-    '''public int getCandidateCount()
+    '''returns int\n\n
+    getCandidateCount()\n
     '''
 def getCandidatesList():
-    '''public List<TransportCandidate> getCandidatesList()
+    '''returns List<TransportCandidate>\n\n
+    getCandidatesList()\n
     '''
 def getCandidate():
-    '''public TransportCandidate getCandidate(final int i)
+    '''returns TransportCandidate\n\n
+    getCandidate(final int i)\n
     '''
 def initializeAndWait():
-    '''public void initializeAndWait()
+    '''returns None\n\n
+    initializeAndWait()\n
     '''

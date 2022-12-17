@@ -1,12 +1,16 @@
-def ShowWFWaitSet():
-    '''public ShowWFWaitSet(final MboServerInterface ms)
+def ():
+    '''returns ShowWFWaitSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def copyFrom():
-    '''public void copyFrom(final MboRemote destMbo1, final MboRemote destMbo2, final MboRemote fromMbo)
+    '''returns None\n\n
+    copyFrom(final MboRemote destMbo1, final MboRemote destMbo2, final MboRemote fromMbo)\n
     '''
 def copyTo():
-    '''public void copyTo(final MboRemote srcMbo1, final MboRemote srcMbo2, final MboRemote toMbo)
+    '''returns None\n\n
+    copyTo(final MboRemote srcMbo1, final MboRemote srcMbo2, final MboRemote toMbo)\n
     '''

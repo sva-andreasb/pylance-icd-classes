@@ -1,3 +1,4 @@
-def MaxLookupMapSet():
-    '''public MaxLookupMapSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLookupMapSet\n\n
+    (final MboServerInterface ms)\n
     '''

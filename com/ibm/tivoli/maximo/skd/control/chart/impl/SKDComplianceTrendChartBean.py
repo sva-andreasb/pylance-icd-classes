@@ -1,6 +1,8 @@
 def getChart():
-    '''public Chart getChart(final ChartRequestOptions options)
+    '''returns Chart\n\n
+    getChart(final ChartRequestOptions options)\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''

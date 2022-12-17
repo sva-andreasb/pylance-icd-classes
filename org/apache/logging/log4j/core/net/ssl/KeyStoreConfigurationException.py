@@ -1,3 +1,4 @@
-def KeyStoreConfigurationException():
-    '''public KeyStoreConfigurationException(final Exception e)
+def ():
+    '''returns KeyStoreConfigurationException\n\n
+    (final Exception e)\n
     '''

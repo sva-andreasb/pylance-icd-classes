@@ -9,32 +9,42 @@ CHANNEL_DESTROYED = "int  -2147483645"
 CHANNEL_SENT = "int  -2147483644"
 MULTI_CHANNEL_SENT = "int  -2147483643"
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def getDestroyData():
-    '''public byte[] getDestroyData()
+    '''returns byte[]\n\n
+    getDestroyData()\n
     '''
 def getMessageType():
-    '''public short getMessageType()
+    '''returns short\n\n
+    getMessageType()\n
     '''
 def isEncrypted():
-    '''public boolean isEncrypted()
+    '''returns boolean\n\n
+    isEncrypted()\n
     '''
 def getChannel():
-    '''public Channel getChannel()
+    '''returns Channel\n\n
+    getChannel()\n
     '''
 def getPriority():
-    '''public byte getPriority()
+    '''returns byte\n\n
+    getPriority()\n
     '''
 def getCreator():
-    '''public STUserInstance getCreator()
+    '''returns STUserInstance\n\n
+    getCreator()\n
     '''
 def getAccpetor():
-    '''public STUserInstance getAccpetor()
+    '''returns STUserInstance\n\n
+    getAccpetor()\n
     '''
 def getToUser():
-    '''public STUser getToUser()
+    '''returns STUser\n\n
+    getToUser()\n
     '''

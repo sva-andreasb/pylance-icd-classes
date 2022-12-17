@@ -1,6 +1,8 @@
-def RequestClientConnControl():
-    '''public RequestClientConnControl()
+def ():
+    '''returns RequestClientConnControl\n\n
+    ()\n
     '''
 def process():
-    '''public void process(final HttpRequest request, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpRequest request, final HttpContext context)\n
     '''

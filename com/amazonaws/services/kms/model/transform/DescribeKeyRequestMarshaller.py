@@ -1,6 +1,8 @@
-def DescribeKeyRequestMarshaller():
-    '''public DescribeKeyRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns DescribeKeyRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<DescribeKeyRequest> marshall(final DescribeKeyRequest describeKeyRequest)
+    '''returns Request<DescribeKeyRequest>\n\n
+    marshall(final DescribeKeyRequest describeKeyRequest)\n
     '''

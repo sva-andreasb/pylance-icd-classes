@@ -1,6 +1,8 @@
-def JdkIdn():
-    '''public JdkIdn()
+def ():
+    '''returns JdkIdn\n\n
+    ()\n
     '''
 def toUnicode():
-    '''public String toUnicode(final String punycode)
+    '''returns String\n\n
+    toUnicode(final String punycode)\n
     '''

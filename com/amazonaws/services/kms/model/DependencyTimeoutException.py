@@ -1,3 +1,4 @@
-def DependencyTimeoutException():
-    '''public DependencyTimeoutException(final String message)
+def ():
+    '''returns DependencyTimeoutException\n\n
+    (final String message)\n
     '''

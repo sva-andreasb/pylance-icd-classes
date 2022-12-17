@@ -1,3 +1,4 @@
 def CONFIGOBJS():
-    '''public int CONFIGOBJS()
+    '''returns int\n\n
+    CONFIGOBJS()\n
     '''

@@ -1,15 +1,20 @@
-def ProfileLogger():
-    '''public ProfileLogger()
+def ():
+    '''returns ProfileLogger\n\n
+    ()\n
     '''
 def targetStarted():
-    '''public void targetStarted(final BuildEvent event)
+    '''returns None\n\n
+    targetStarted(final BuildEvent event)\n
     '''
 def targetFinished():
-    '''public void targetFinished(final BuildEvent event)
+    '''returns None\n\n
+    targetFinished(final BuildEvent event)\n
     '''
 def taskStarted():
-    '''public void taskStarted(final BuildEvent event)
+    '''returns None\n\n
+    taskStarted(final BuildEvent event)\n
     '''
 def taskFinished():
-    '''public void taskFinished(final BuildEvent event)
+    '''returns None\n\n
+    taskFinished(final BuildEvent event)\n
     '''

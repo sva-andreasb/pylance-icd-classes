@@ -1,51 +1,68 @@
-def JEMessage():
-    '''public JEMessage()
+def ():
+    '''returns JEMessage\n\n
+    ()\n
     '''
 def getMessageKey():
-    '''public String getMessageKey()
+    '''returns String\n\n
+    getMessageKey()\n
     '''
 def setMessageKey():
-    '''public void setMessageKey(final String messageKey)
+    '''returns None\n\n
+    setMessageKey(final String messageKey)\n
     '''
 def getMessageValue():
-    '''public String getMessageValue()
+    '''returns String\n\n
+    getMessageValue()\n
     '''
 def setMessageValue():
-    '''public void setMessageValue(final String value)
+    '''returns None\n\n
+    setMessageValue(final String value)\n
     '''
 def getTaggedMessageValue():
-    '''public String getTaggedMessageValue()
+    '''returns String\n\n
+    getTaggedMessageValue()\n
     '''
 def setTaggedMessageValue():
-    '''public void setTaggedMessageValue(final String value)
+    '''returns None\n\n
+    setTaggedMessageValue(final String value)\n
     '''
 def getButtonText():
-    '''public String getButtonText()
+    '''returns String\n\n
+    getButtonText()\n
     '''
 def setButtonText():
-    '''public void setButtonText(final String buttonText)
+    '''returns None\n\n
+    setButtonText(final String buttonText)\n
     '''
 def getMessageId():
-    '''public String getMessageId()
+    '''returns String\n\n
+    getMessageId()\n
     '''
 def setMessageId():
-    '''public void setMessageId(final String id)
+    '''returns None\n\n
+    setMessageId(final String id)\n
     '''
 def getDisplayMethod():
-    '''public String getDisplayMethod()
+    '''returns String\n\n
+    getDisplayMethod()\n
     '''
 def setDisplayMethod():
-    '''public void setDisplayMethod(final String displayMethod)
+    '''returns None\n\n
+    setDisplayMethod(final String displayMethod)\n
     '''
 def getOptions():
-    '''public int getOptions()
+    '''returns int\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final int options)
+    '''returns None\n\n
+    setOptions(final int options)\n
     '''
 def getMessagePrefix():
-    '''public Boolean getMessagePrefix()
+    '''returns Boolean\n\n
+    getMessagePrefix()\n
     '''
 def setMessagePrefix():
-    '''public void setMessagePrefix(final Boolean messagePrefix)
+    '''returns None\n\n
+    setMessagePrefix(final Boolean messagePrefix)\n
     '''

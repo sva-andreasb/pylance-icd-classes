@@ -1,15 +1,20 @@
-def ActivatorAppletAudioClipRef():
-    '''public ActivatorAppletAudioClipRef(final URL url)
+def ():
+    '''returns ActivatorAppletAudioClipRef\n\n
+    (final URL url)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def reconstitute():
-    '''public Object reconstitute()
+    '''returns Object\n\n
+    reconstitute()\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def setDoDownload():
-    '''public void setDoDownload(final boolean doDownload)
+    '''returns None\n\n
+    setDoDownload(final boolean doDownload)\n
     '''

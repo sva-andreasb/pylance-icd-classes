@@ -1,70 +1,93 @@
-def PMSet():
-    '''public PMSet(final MboServerInterface ms)
+def ():
+    '''returns PMSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canGenerateWork():
-    '''public void canGenerateWork()
+    '''returns None\n\n
+    canGenerateWork()\n
     '''
 def generateWork():
-    '''public void generateWork(final boolean useFreqCrit, final int leadTime)
-    public void generateWork(final boolean useFreqCrit, final int leadTime, final boolean isCalledFromCrontask)
+    '''returns None\n\n
+    generateWork(final boolean useFreqCrit, final int leadTime)\n
+    generateWork(final boolean useFreqCrit, final int leadTime, final boolean isCalledFromCrontask)\n
     '''
 def resetMeterReadings():
-    '''public void resetMeterReadings()
+    '''returns None\n\n
+    resetMeterReadings()\n
     '''
 def onlyTopLevels():
-    '''public void onlyTopLevels()
+    '''returns None\n\n
+    onlyTopLevels()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def checkWFEnabled():
-    '''public boolean checkWFEnabled()
+    '''returns boolean\n\n
+    checkWFEnabled()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def generateWorkPMAlerts():
-    '''public void generateWorkPMAlerts()
+    '''returns None\n\n
+    generateWorkPMAlerts()\n
     '''
 def filterByLinearAsset():
-    '''public void filterByLinearAsset(final MboSetRemote fltrSet)
+    '''returns None\n\n
+    filterByLinearAsset(final MboSetRemote fltrSet)\n
     '''
 def getOriginalPMQbe():
-    '''public Hashtable getOriginalPMQbe()
+    '''returns Hashtable\n\n
+    getOriginalPMQbe()\n
     '''
 def getOriginalPMUserWhere():
-    '''public String getOriginalPMUserWhere()
+    '''returns String\n\n
+    getOriginalPMUserWhere()\n
     '''
 def setOriginalPMUserWhere():
-    '''public void setOriginalPMUserWhere(final String inWhere)
+    '''returns None\n\n
+    setOriginalPMUserWhere(final String inWhere)\n
     '''
 def setOriginalPMQbe():
-    '''public void setOriginalPMQbe(final Hashtable inQbe)
+    '''returns None\n\n
+    setOriginalPMQbe(final Hashtable inQbe)\n
     '''
 def generateForecast():
-    '''public void generateForecast(final int genDuration)
+    '''returns None\n\n
+    generateForecast(final int genDuration)\n
     '''
 def deleteForecast():
-    '''public void deleteForecast()
+    '''returns None\n\n
+    deleteForecast()\n
     '''
 def lockUnlockForecast():
-    '''public void lockUnlockForecast(final boolean lockForecast)
+    '''returns None\n\n
+    lockUnlockForecast(final boolean lockForecast)\n
     '''
 def getTopPMFromVector():
-    '''public PM getTopPMFromVector(final MboRemote oneTop)
+    '''returns PM\n\n
+    getTopPMFromVector(final MboRemote oneTop)\n
     '''
 def getPMsChangeStatusVector():
-    '''public Vector getPMsChangeStatusVector()
+    '''returns Vector\n\n
+    getPMsChangeStatusVector()\n
     '''
 def resetEsigCounter():
-    '''public void resetEsigCounter()
+    '''returns None\n\n
+    resetEsigCounter()\n
     '''
 def isESigNeeded():
-    '''public boolean isESigNeeded(final String optionName)
+    '''returns boolean\n\n
+    isESigNeeded(final String optionName)\n
     '''
 def setEsigSinged():
-    '''public void setEsigSinged(final boolean signed)
+    '''returns None\n\n
+    setEsigSinged(final boolean signed)\n
     '''

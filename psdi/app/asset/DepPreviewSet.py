@@ -1,3 +1,4 @@
-def DepPreviewSet():
-    '''public DepPreviewSet(final MboServerInterface ms)
+def ():
+    '''returns DepPreviewSet\n\n
+    (final MboServerInterface ms)\n
     '''

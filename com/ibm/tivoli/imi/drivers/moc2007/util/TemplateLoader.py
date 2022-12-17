@@ -1,10 +1,13 @@
-def TemplateLoader():
-    '''public TemplateLoader(final String s)
+def ():
+    '''returns TemplateLoader\n\n
+    (final String s)\n
     '''
 def setProperty():
-    '''public void setProperty(final String str, final long l)
-    public void setProperty(final String str, final String s)
+    '''returns None\n\n
+    setProperty(final String str, final long l)\n
+    setProperty(final String str, final String s)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

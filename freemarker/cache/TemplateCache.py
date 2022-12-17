@@ -1,71 +1,88 @@
-def TemplateCache():
-    '''public TemplateCache()
-    public TemplateCache(final TemplateLoader templateLoader)
-    public TemplateCache(final TemplateLoader templateLoader, final CacheStorage cacheStorage)
-    public TemplateCache(final TemplateLoader templateLoader, final Configuration config)
-    public TemplateCache(final TemplateLoader templateLoader, final CacheStorage cacheStorage, final Configuration config)
-    public TemplateCache(final TemplateLoader templateLoader, final CacheStorage cacheStorage, final TemplateLookupStrategy templateLookupStrategy, final TemplateNameFormat templateNameFormat, final Configuration config)
+def ():
+    '''returns TemplateCache\n\n
+    ()\n
+    (final TemplateLoader templateLoader)\n
+    (final TemplateLoader templateLoader, final CacheStorage cacheStorage)\n
+    (final TemplateLoader templateLoader, final Configuration config)\n
+    (final TemplateLoader templateLoader, final CacheStorage cacheStorage, final Configuration config)\n
+    (final TemplateLoader templateLoader, final CacheStorage cacheStorage, final TemplateLookupStrategy templateLookupStrategy, final TemplateNameFormat templateNameFormat, final Configuration config)\n
     '''
 def setConfiguration():
-    '''public void setConfiguration(final Configuration config)
+    '''returns None\n\n
+    setConfiguration(final Configuration config)\n
     '''
 def getTemplateLoader():
-    '''public TemplateLoader getTemplateLoader()
+    '''returns TemplateLoader\n\n
+    getTemplateLoader()\n
     '''
 def getCacheStorage():
-    '''public CacheStorage getCacheStorage()
+    '''returns CacheStorage\n\n
+    getCacheStorage()\n
     '''
 def getTemplateLookupStrategy():
-    '''public TemplateLookupStrategy getTemplateLookupStrategy()
+    '''returns TemplateLookupStrategy\n\n
+    getTemplateLookupStrategy()\n
     '''
 def getTemplateNameFormat():
-    '''public TemplateNameFormat getTemplateNameFormat()
+    '''returns TemplateNameFormat\n\n
+    getTemplateNameFormat()\n
     '''
 def getTemplate():
-    '''public MaybeMissingTemplate getTemplate(String name, final Locale locale, final Object customLookupCondition, final String encoding, final boolean parseAsFTL)
-    public Template getTemplate(final String name, final Locale locale, final String encoding, final boolean parseAsFTL)
-    public Template getTemplate()
+    '''returns Template\n\n
+    getTemplate(String name, final Locale locale, final Object customLookupCondition, final String encoding, final boolean parseAsFTL)\n
+    getTemplate(final String name, final Locale locale, final String encoding, final boolean parseAsFTL)\n
+    getTemplate()\n
     '''
 def getDelay():
-    '''public long getDelay()
+    '''returns long\n\n
+    getDelay()\n
     '''
 def setDelay():
-    '''public void setDelay(final long delay)
+    '''returns None\n\n
+    setDelay(final long delay)\n
     '''
 def getLocalizedLookup():
-    '''public boolean getLocalizedLookup()
+    '''returns boolean\n\n
+    getLocalizedLookup()\n
     '''
 def setLocalizedLookup():
-    '''public void setLocalizedLookup(final boolean localizedLookup)
+    '''returns None\n\n
+    setLocalizedLookup(final boolean localizedLookup)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def removeTemplate():
-    '''public void removeTemplate(final String name, final Locale locale, final String encoding, final boolean parse)
-    public void removeTemplate(String name, final Locale locale, final Object customLookupCondition, final String encoding, final boolean parse)
-    '''
-def getFullTemplatePath():
-    '''public static String getFullTemplatePath(final Environment env, final String baseName, final String targetName)
+    '''returns None\n\n
+    removeTemplate(final String name, final Locale locale, final String encoding, final boolean parse)\n
+    removeTemplate(String name, final Locale locale, final Object customLookupCondition, final String encoding, final boolean parse)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def cloneCachedTemplate():
-    '''public CachedTemplate cloneCachedTemplate()
+    '''returns CachedTemplate\n\n
+    cloneCachedTemplate()\n
     '''
 def lookupWithAcquisitionStrategy():
-    '''public TemplateLookupResult lookupWithAcquisitionStrategy(final String name)
+    '''returns TemplateLookupResult\n\n
+    lookupWithAcquisitionStrategy(final String name)\n
     '''
 def lookupWithLocalizedThenAcquisitionStrategy():
-    '''public TemplateLookupResult lookupWithLocalizedThenAcquisitionStrategy(final String templateName, final Locale templateLocale)
+    '''returns TemplateLookupResult\n\n
+    lookupWithLocalizedThenAcquisitionStrategy(final String templateName, final Locale templateLocale)\n
     '''
 def getMissingTemplateReason():
-    '''public String getMissingTemplateReason()
+    '''returns String\n\n
+    getMissingTemplateReason()\n
     '''
 def getMissingTemplateNormalizedName():
-    '''public String getMissingTemplateNormalizedName()
+    '''returns String\n\n
+    getMissingTemplateNormalizedName()\n
     '''

@@ -3,43 +3,51 @@ CODEBASE_REGEXP = "int  2"
 CERT = "int  3"
 CERT_FINGERPRINT = "int  4"
 CERT_KEY = "int  5"
-def Principal():
-    '''public Principal()
-    public Principal(final URL url)
-    public Principal(final int type, final String s)
-    public Principal(final int type, final byte[] array)
-    public Principal(final int type, final byte[] array, final Class clazz)
+def ():
+    '''returns Principal\n\n
+    ()\n
+    (final URL url)\n
+    (final int type, final String s)\n
+    (final int type, final byte[] array)\n
+    (final int type, final byte[] array, final Class clazz)\n
     '''
 def isCodebase():
-    '''public boolean isCodebase()
+    '''returns boolean\n\n
+    isCodebase()\n
     '''
 def isCodebaseExact():
-    '''public boolean isCodebaseExact()
+    '''returns boolean\n\n
+    isCodebaseExact()\n
     '''
 def isCodebaseRegexp():
-    '''public boolean isCodebaseRegexp()
+    '''returns boolean\n\n
+    isCodebaseRegexp()\n
     '''
 def isCert():
-    '''public boolean isCert()
+    '''returns boolean\n\n
+    isCert()\n
     '''
 def isCertFingerprint():
-    '''public boolean isCertFingerprint()
+    '''returns boolean\n\n
+    isCertFingerprint()\n
     '''
 def toVerboseString():
-    '''public String toVerboseString()
+    '''returns String\n\n
+    toVerboseString()\n
     '''
 def getVendor():
-    '''public String getVendor()
+    '''returns String\n\n
+    getVendor()\n
     '''
 def toVerboseHtml():
-    '''public String toVerboseHtml()
+    '''returns String\n\n
+    toVerboseHtml()\n
     '''
 def getNickname():
-    '''public String getNickname()
+    '''returns String\n\n
+    getNickname()\n
     '''
 def isSystemPrincipal():
-    '''public boolean isSystemPrincipal()
-    '''
-def getZigPtr():
-    '''public static int getZigPtr(final Class clazz)
+    '''returns boolean\n\n
+    isSystemPrincipal()\n
     '''

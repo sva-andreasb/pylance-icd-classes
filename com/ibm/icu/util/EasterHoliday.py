@@ -1,5 +1,6 @@
-def EasterHoliday():
-    '''public EasterHoliday(final String name)
-    public EasterHoliday(final int daysAfter, final String name)
-    public EasterHoliday(final int daysAfter, final boolean orthodox, final String name)
+def ():
+    '''returns EasterHoliday\n\n
+    (final String name)\n
+    (final int daysAfter, final String name)\n
+    (final int daysAfter, final boolean orthodox, final String name)\n
     '''

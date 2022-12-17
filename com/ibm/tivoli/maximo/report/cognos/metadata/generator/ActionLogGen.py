@@ -1,87 +1,113 @@
 ROS_SITEORGTYPE = "String  \"SITEORGTYPE\""
 ROS_APP = "String  \"APP\""
-def ActionLogGen():
-    '''public ActionLogGen(final PrintWriter out)
+def ():
+    '''returns ActionLogGen\n\n
+    (final PrintWriter out)\n
     '''
 def generateScriptHeader():
-    '''public void generateScriptHeader()
+    '''returns None\n\n
+    generateScriptHeader()\n
     '''
 def generateScriptTail():
-    '''public void generateScriptTail()
+    '''returns None\n\n
+    generateScriptTail()\n
     '''
 def generateTransactionHeader():
-    '''public void generateTransactionHeader()
-    public void generateTransactionHeader(final boolean useSavedAttribute)
+    '''returns None\n\n
+    generateTransactionHeader()\n
+    generateTransactionHeader(final boolean useSavedAttribute)\n
     '''
 def generateTransactionTail():
-    '''public void generateTransactionTail()
+    '''returns None\n\n
+    generateTransactionTail()\n
     '''
 def generateProjectInitialization():
-    '''public void generateProjectInitialization(final String projectName, final String topLevelNamespace)
-    public void generateProjectInitialization(final String projectName, final String topLevelNamespace, final String defaultLocale)
-    public void generateProjectInitialization(final String projectName, final String topLevelNamespace, final String defaultLocale, final String queryMode)
+    '''returns None\n\n
+    generateProjectInitialization(final String projectName, final String topLevelNamespace)\n
+    generateProjectInitialization(final String projectName, final String topLevelNamespace, final String defaultLocale)\n
+    generateProjectInitialization(final String projectName, final String topLevelNamespace, final String defaultLocale, final String queryMode)\n
     '''
 def generateCreateNamespace():
-    '''public void generateCreateNamespace(final String namespace, final String parentNamespace)
+    '''returns None\n\n
+    generateCreateNamespace(final String namespace, final String parentNamespace)\n
     '''
 def generateDBImport():
-    '''public void generateDBImport(final String parentNamespace, final String databaseType, final String dataSourceName, final String schema, final Set<MXObject> tables, final Set<MXObject> views, final String databaseName)
+    '''returns None\n\n
+    generateDBImport(final String parentNamespace, final String databaseType, final String dataSourceName, final String schema, final Set<MXObject> tables, final Set<MXObject> views, final String databaseName)\n
     '''
 def generateModelQuerySubject():
-    '''public void generateModelQuerySubject(final String parentNamespace, final String querySubjectName)
-    public void generateModelQuerySubject(final String parentNamespace, final String querySubjectName, final String defaultLocale)
+    '''returns None\n\n
+    generateModelQuerySubject(final String parentNamespace, final String querySubjectName)\n
+    generateModelQuerySubject(final String parentNamespace, final String querySubjectName, final String defaultLocale)\n
     '''
 def generateModelQueryItem():
-    '''public void generateModelQueryItem(final String parentNamespace, final String querySubjectName, final String queryItemName, final String basedOnNamespace, final String sourceQuerySubjectName, final String queryItemDescription, final String dataSourceQueryItemName)
-    public void generateModelQueryItem(final String parentNamespace, final String querySubjectName, final String queryItemName, final String basedOnNamespace, final String sourceQuerySubjectName, final String queryItemDescription, final String dataSourceQueryItemName, final String defaultLocale)
+    '''returns None\n\n
+    generateModelQueryItem(final String parentNamespace, final String querySubjectName, final String queryItemName, final String basedOnNamespace, final String sourceQuerySubjectName, final String queryItemDescription, final String dataSourceQueryItemName)\n
+    generateModelQueryItem(final String parentNamespace, final String querySubjectName, final String queryItemName, final String basedOnNamespace, final String sourceQuerySubjectName, final String queryItemDescription, final String dataSourceQueryItemName, final String defaultLocale)\n
     '''
 def generateHideQueryItem():
-    '''public void generateHideQueryItem(final String parentNamespace, final String querySubjectName, final String queryItemName)
+    '''returns None\n\n
+    generateHideQueryItem(final String parentNamespace, final String querySubjectName, final String queryItemName)\n
     '''
 def generateEvaluateQuerySubject():
-    '''public void generateEvaluateQuerySubject(final String parentNamespace, final String querySubjectName)
+    '''returns None\n\n
+    generateEvaluateQuerySubject(final String parentNamespace, final String querySubjectName)\n
     '''
 def generateReorderByNameQuerySubject():
-    '''public void generateReorderByNameQuerySubject(final String parentNamespace, final String querySubjectName)
+    '''returns None\n\n
+    generateReorderByNameQuerySubject(final String parentNamespace, final String querySubjectName)\n
     '''
 def generateRelationship():
-    '''public void generateRelationship(final String topLevelNamespace, final String parentNamespace, final String leftQuerySubjectName, final String leftMinCardinality, final String leftMaxCardinality, final String rightQuerySubjectName, final String rightMinCardinality, final String rightMaxCardinality, final String relationshipName, final List<String> leftQueryItems, final List<String> rightQueryItems)
-    public void generateRelationship(final String topLevelNamespace, final String parentNamespace, final String leftQuerySubjectName, final String leftMinCardinality, final String leftMaxCardinality, final String rightQuerySubjectName, final String rightMinCardinality, final String rightMaxCardinality, final String relationshipName, final String cognosRelationship)
+    '''returns None\n\n
+    generateRelationship(final String topLevelNamespace, final String parentNamespace, final String leftQuerySubjectName, final String leftMinCardinality, final String leftMaxCardinality, final String rightQuerySubjectName, final String rightMinCardinality, final String rightMaxCardinality, final String relationshipName, final List<String> leftQueryItems, final List<String> rightQueryItems)\n
+    generateRelationship(final String topLevelNamespace, final String parentNamespace, final String leftQuerySubjectName, final String leftMinCardinality, final String leftMaxCardinality, final String rightQuerySubjectName, final String rightMinCardinality, final String rightMaxCardinality, final String relationshipName, final String cognosRelationship)\n
     '''
 def generateAllowCrossProductJoin():
-    '''public void generateAllowCrossProductJoin()
+    '''returns None\n\n
+    generateAllowCrossProductJoin()\n
     '''
 def generateSetQueryProcessingToLocal():
-    '''public void generateSetQueryProcessingToLocal(final String dataSourceName)
+    '''returns None\n\n
+    generateSetQueryProcessingToLocal(final String dataSourceName)\n
     '''
 def generateCreatePackage():
-    '''public void generateCreatePackage(final String packageName, final String excludedNamespace, final String topLevelNamespace)
-    public void generateCreatePackage(final String packageName, final String excludedNamespace, final String topLevelNamespace, final String defaultLocale, final List<String> languages)
+    '''returns None\n\n
+    generateCreatePackage(final String packageName, final String excludedNamespace, final String topLevelNamespace)\n
+    generateCreatePackage(final String packageName, final String excludedNamespace, final String topLevelNamespace, final String defaultLocale, final List<String> languages)\n
     '''
 def generatePublishPackage():
-    '''public void generatePublishPackage(final String packageName, final String contentStorePackageLocation)
+    '''returns None\n\n
+    generatePublishPackage(final String packageName, final String contentStorePackageLocation)\n
     '''
 def generateAddProjectLocale():
-    '''public void generateAddProjectLocale(final String locale, final String defaultLocale)
+    '''returns None\n\n
+    generateAddProjectLocale(final String locale, final String defaultLocale)\n
     '''
 def generatePackageNameTranslations():
-    '''public void generatePackageNameTranslations(final String packageName, final String nameTranslation, final int localeIndex)
+    '''returns None\n\n
+    generatePackageNameTranslations(final String packageName, final String nameTranslation, final int localeIndex)\n
     '''
 def generateModelNameTranslation():
-    '''public void generateModelNameTranslation(final String modelName, final String nameTranslation, final int localeIndex)
+    '''returns None\n\n
+    generateModelNameTranslation(final String modelName, final String nameTranslation, final int localeIndex)\n
     '''
 def generateNamespaceTranslation():
-    '''public void generateNamespaceTranslation(final String namespace, final String nameTranslation, final int localeIndex)
+    '''returns None\n\n
+    generateNamespaceTranslation(final String namespace, final String nameTranslation, final int localeIndex)\n
     '''
 def generateModelQuerySubjectTranslations():
-    '''public void generateModelQuerySubjectTranslations(final String parentNamespace, final String querySubjectName, final String nameTranslation, final int localeIndex)
+    '''returns None\n\n
+    generateModelQuerySubjectTranslations(final String parentNamespace, final String querySubjectName, final String nameTranslation, final int localeIndex)\n
     '''
 def generateModelQueryItemNameTranslation():
-    '''public void generateModelQueryItemNameTranslation(final String parentNamespace, final String querySubjectName, final String queryItemName, final String nameTranslation, final int localeIndex)
+    '''returns None\n\n
+    generateModelQueryItemNameTranslation(final String parentNamespace, final String querySubjectName, final String queryItemName, final String nameTranslation, final int localeIndex)\n
     '''
 def generateModelQueryItemDescTranslation():
-    '''public void generateModelQueryItemDescTranslation(final String parentNamespace, final String querySubjectName, final String queryItemName, final String descTranslation, final int localeIndex)
+    '''returns None\n\n
+    generateModelQueryItemDescTranslation(final String parentNamespace, final String querySubjectName, final String queryItemName, final String descTranslation, final int localeIndex)\n
     '''
 def getQuerySubjectSequence():
-    '''public int getQuerySubjectSequence()
+    '''returns int\n\n
+    getQuerySubjectSequence()\n
     '''

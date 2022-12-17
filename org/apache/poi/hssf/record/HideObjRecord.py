@@ -2,22 +2,28 @@ sid = "short  141"
 HIDE_ALL = "short  2"
 SHOW_PLACEHOLDERS = "short  1"
 SHOW_ALL = "short  0"
-def HideObjRecord():
-    '''public HideObjRecord()
-    public HideObjRecord(final RecordInputStream in)
+def ():
+    '''returns HideObjRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setHideObj():
-    '''public void setHideObj(final short hide)
+    '''returns None\n\n
+    setHideObj(final short hide)\n
     '''
 def getHideObj():
-    '''public short getHideObj()
+    '''returns short\n\n
+    getHideObj()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

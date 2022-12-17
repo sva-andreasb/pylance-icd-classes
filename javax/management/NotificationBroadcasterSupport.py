@@ -1,19 +1,22 @@
-def NotificationBroadcasterSupport():
-    '''public NotificationBroadcasterSupport()
+def ():
+    '''returns ListenerInfo\n\n
+    ()\n
+    (final NotificationListener listener, final NotificationFilter filter, final Object handback)\n
     '''
 def getNotificationInfo():
-    '''public MBeanNotificationInfo[] getNotificationInfo()
+    '''returns MBeanNotificationInfo[]\n\n
+    getNotificationInfo()\n
     '''
 def sendNotification():
-    '''public void sendNotification(final Notification notification)
+    '''returns None\n\n
+    sendNotification(final Notification notification)\n
     '''
 def removeNotificationListener():
-    '''public void removeNotificationListener(final NotificationListener notificationListener)
-    public void removeNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
+    '''returns None\n\n
+    removeNotificationListener(final NotificationListener notificationListener)\n
+    removeNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)\n
     '''
 def addNotificationListener():
-    '''public void addNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
-    '''
-def ListenerInfo():
-    '''public ListenerInfo(final NotificationListener listener, final NotificationFilter filter, final Object handback)
+    '''returns None\n\n
+    addNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)\n
     '''

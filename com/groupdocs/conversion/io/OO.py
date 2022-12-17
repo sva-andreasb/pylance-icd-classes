@@ -1,6 +1,8 @@
-def OO():
-    '''public OO(final InputStream inputStream)
+def ():
+    '''returns OO\n\n
+    (final InputStream inputStream)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

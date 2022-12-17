@@ -1,78 +1,103 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public CreateGrantRequest withKeyId(final String keyId)
+    '''returns CreateGrantRequest\n\n
+    withKeyId(final String keyId)\n
     '''
 def setGranteePrincipal():
-    '''public void setGranteePrincipal(final String granteePrincipal)
+    '''returns None\n\n
+    setGranteePrincipal(final String granteePrincipal)\n
     '''
 def getGranteePrincipal():
-    '''public String getGranteePrincipal()
+    '''returns String\n\n
+    getGranteePrincipal()\n
     '''
 def withGranteePrincipal():
-    '''public CreateGrantRequest withGranteePrincipal(final String granteePrincipal)
+    '''returns CreateGrantRequest\n\n
+    withGranteePrincipal(final String granteePrincipal)\n
     '''
 def setRetiringPrincipal():
-    '''public void setRetiringPrincipal(final String retiringPrincipal)
+    '''returns None\n\n
+    setRetiringPrincipal(final String retiringPrincipal)\n
     '''
 def getRetiringPrincipal():
-    '''public String getRetiringPrincipal()
+    '''returns String\n\n
+    getRetiringPrincipal()\n
     '''
 def withRetiringPrincipal():
-    '''public CreateGrantRequest withRetiringPrincipal(final String retiringPrincipal)
+    '''returns CreateGrantRequest\n\n
+    withRetiringPrincipal(final String retiringPrincipal)\n
     '''
 def getOperations():
-    '''public List<String> getOperations()
+    '''returns List<String>\n\n
+    getOperations()\n
     '''
 def setOperations():
-    '''public void setOperations(final Collection<String> operations)
+    '''returns None\n\n
+    setOperations(final Collection<String> operations)\n
     '''
 def withOperations():
-    '''public CreateGrantRequest withOperations(final String... operations)
-    public CreateGrantRequest withOperations(final Collection<String> operations)
-    public CreateGrantRequest withOperations(final GrantOperation... operations)
+    '''returns CreateGrantRequest\n\n
+    withOperations(final String... operations)\n
+    withOperations(final Collection<String> operations)\n
+    withOperations(final GrantOperation... operations)\n
     '''
 def setConstraints():
-    '''public void setConstraints(final GrantConstraints constraints)
+    '''returns None\n\n
+    setConstraints(final GrantConstraints constraints)\n
     '''
 def getConstraints():
-    '''public GrantConstraints getConstraints()
+    '''returns GrantConstraints\n\n
+    getConstraints()\n
     '''
 def withConstraints():
-    '''public CreateGrantRequest withConstraints(final GrantConstraints constraints)
+    '''returns CreateGrantRequest\n\n
+    withConstraints(final GrantConstraints constraints)\n
     '''
 def getGrantTokens():
-    '''public List<String> getGrantTokens()
+    '''returns List<String>\n\n
+    getGrantTokens()\n
     '''
 def setGrantTokens():
-    '''public void setGrantTokens(final Collection<String> grantTokens)
+    '''returns None\n\n
+    setGrantTokens(final Collection<String> grantTokens)\n
     '''
 def withGrantTokens():
-    '''public CreateGrantRequest withGrantTokens(final String... grantTokens)
-    public CreateGrantRequest withGrantTokens(final Collection<String> grantTokens)
+    '''returns CreateGrantRequest\n\n
+    withGrantTokens(final String... grantTokens)\n
+    withGrantTokens(final Collection<String> grantTokens)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def withName():
-    '''public CreateGrantRequest withName(final String name)
+    '''returns CreateGrantRequest\n\n
+    withName(final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public CreateGrantRequest clone()
+    '''returns CreateGrantRequest\n\n
+    clone()\n
     '''

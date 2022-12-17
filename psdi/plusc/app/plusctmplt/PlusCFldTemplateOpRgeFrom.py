@@ -1,4 +1,5 @@
-def PlusCFldTemplateOpRgeFrom():
-    '''public PlusCFldTemplateOpRgeFrom()
-    public PlusCFldTemplateOpRgeFrom(final MboValue mbv)
+def ():
+    '''returns PlusCFldTemplateOpRgeFrom\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''

@@ -1,3 +1,4 @@
-def JodaTimePermission():
-    '''public JodaTimePermission(final String name)
+def ():
+    '''returns JodaTimePermission\n\n
+    (final String name)\n
     '''

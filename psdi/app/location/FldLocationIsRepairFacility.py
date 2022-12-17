@@ -1,9 +1,12 @@
-def FldLocationIsRepairFacility():
-    '''public FldLocationIsRepairFacility(final MboValue mbv)
+def ():
+    '''returns FldLocationIsRepairFacility\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

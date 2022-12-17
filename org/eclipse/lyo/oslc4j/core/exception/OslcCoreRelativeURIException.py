@@ -1,9 +1,12 @@
-def OslcCoreRelativeURIException():
-    '''public OslcCoreRelativeURIException(final Class<?> resourceClass, final String methodName, final URI relativeURI)
+def ():
+    '''returns OslcCoreRelativeURIException\n\n
+    (final Class<?> resourceClass, final String methodName, final URI relativeURI)\n
     '''
 def getMethodName():
-    '''public String getMethodName()
+    '''returns String\n\n
+    getMethodName()\n
     '''
 def getRelativeURI():
-    '''public URI getRelativeURI()
+    '''returns URI\n\n
+    getRelativeURI()\n
     '''

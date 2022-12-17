@@ -1,70 +1,93 @@
-def HTMLConfiguration():
-    '''public HTMLConfiguration()
+def ():
+    '''returns HTMLConfiguration\n\n
+    ()\n
     '''
 def pushInputSource():
-    '''public void pushInputSource(final XMLInputSource inputSource)
+    '''returns None\n\n
+    pushInputSource(final XMLInputSource inputSource)\n
     '''
 def evaluateInputSource():
-    '''public void evaluateInputSource(final XMLInputSource inputSource)
+    '''returns None\n\n
+    evaluateInputSource(final XMLInputSource inputSource)\n
     '''
 def setFeature():
-    '''public void setFeature(final String featureId, final boolean state)
+    '''returns None\n\n
+    setFeature(final String featureId, final boolean state)\n
     '''
 def setProperty():
-    '''public void setProperty(final String propertyId, final Object value)
+    '''returns None\n\n
+    setProperty(final String propertyId, final Object value)\n
     '''
 def setDocumentHandler():
-    '''public void setDocumentHandler(final XMLDocumentHandler handler)
+    '''returns None\n\n
+    setDocumentHandler(final XMLDocumentHandler handler)\n
     '''
 def getDocumentHandler():
-    '''public XMLDocumentHandler getDocumentHandler()
+    '''returns XMLDocumentHandler\n\n
+    getDocumentHandler()\n
     '''
 def setDTDHandler():
-    '''public void setDTDHandler(final XMLDTDHandler handler)
+    '''returns None\n\n
+    setDTDHandler(final XMLDTDHandler handler)\n
     '''
 def getDTDHandler():
-    '''public XMLDTDHandler getDTDHandler()
+    '''returns XMLDTDHandler\n\n
+    getDTDHandler()\n
     '''
 def setDTDContentModelHandler():
-    '''public void setDTDContentModelHandler(final XMLDTDContentModelHandler handler)
+    '''returns None\n\n
+    setDTDContentModelHandler(final XMLDTDContentModelHandler handler)\n
     '''
 def getDTDContentModelHandler():
-    '''public XMLDTDContentModelHandler getDTDContentModelHandler()
+    '''returns XMLDTDContentModelHandler\n\n
+    getDTDContentModelHandler()\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final XMLErrorHandler handler)
+    '''returns None\n\n
+    setErrorHandler(final XMLErrorHandler handler)\n
     '''
 def getErrorHandler():
-    '''public XMLErrorHandler getErrorHandler()
+    '''returns XMLErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def setEntityResolver():
-    '''public void setEntityResolver(final XMLEntityResolver resolver)
+    '''returns None\n\n
+    setEntityResolver(final XMLEntityResolver resolver)\n
     '''
 def getEntityResolver():
-    '''public XMLEntityResolver getEntityResolver()
+    '''returns XMLEntityResolver\n\n
+    getEntityResolver()\n
     '''
 def setLocale():
-    '''public void setLocale(Locale locale)
+    '''returns None\n\n
+    setLocale(Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def parse():
-    '''public void parse(final XMLInputSource source)
-    public boolean parse(final boolean complete)
+    '''returns boolean\n\n
+    parse(final XMLInputSource source)\n
+    parse(final boolean complete)\n
     '''
 def setInputSource():
-    '''public void setInputSource(final XMLInputSource inputSource)
+    '''returns None\n\n
+    setInputSource(final XMLInputSource inputSource)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def formatMessage():
-    '''public String formatMessage(final String key, final Object[] args)
+    '''returns String\n\n
+    formatMessage(final String key, final Object[] args)\n
     '''
 def reportWarning():
-    '''public void reportWarning(final String key, final Object[] args)
+    '''returns None\n\n
+    reportWarning(final String key, final Object[] args)\n
     '''
 def reportError():
-    '''public void reportError(final String key, final Object[] args)
+    '''returns None\n\n
+    reportError(final String key, final Object[] args)\n
     '''

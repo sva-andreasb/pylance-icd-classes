@@ -1,15 +1,20 @@
-def HttpWatcher():
-    '''public HttpWatcher(final Configuration configuration, final Reconfigurable reconfigurable, final List<ConfigurationListener> configurationListeners, final long lastModifiedMillis)
+def ():
+    '''returns HttpWatcher\n\n
+    (final Configuration configuration, final Reconfigurable reconfigurable, final List<ConfigurationListener> configurationListeners, final long lastModifiedMillis)\n
     '''
 def getLastModified():
-    '''public long getLastModified()
+    '''returns long\n\n
+    getLastModified()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def watching():
-    '''public void watching(final Source source)
+    '''returns None\n\n
+    watching(final Source source)\n
     '''
 def newWatcher():
-    '''public Watcher newWatcher(final Reconfigurable reconfigurable, final List<ConfigurationListener> listeners, final long lastModifiedMillis)
+    '''returns Watcher\n\n
+    newWatcher(final Reconfigurable reconfigurable, final List<ConfigurationListener> listeners, final long lastModifiedMillis)\n
     '''

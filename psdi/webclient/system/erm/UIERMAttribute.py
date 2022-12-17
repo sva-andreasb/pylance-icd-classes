@@ -1,51 +1,68 @@
-def UIERMAttribute():
-    '''public UIERMAttribute(final String dataAttr)
+def ():
+    '''returns UIERMAttribute\n\n
+    (final String dataAttr)\n
     '''
 def addControl():
-    '''public void addControl(final UIERMBoundControl control)
+    '''returns None\n\n
+    addControl(final UIERMBoundControl control)\n
     '''
 def getControls():
-    '''public List<UIERMBoundControl> getControls()
+    '''returns List<UIERMBoundControl>\n\n
+    getControls()\n
     '''
 def getLabelForAttribute():
-    '''public String getLabelForAttribute(final WebClientSession wcs)
+    '''returns String\n\n
+    getLabelForAttribute(final WebClientSession wcs)\n
     '''
 def setSigOption():
-    '''public void setSigOption(final String sigOption, final UIERMEntity sigOptEntity)
+    '''returns None\n\n
+    setSigOption(final String sigOption, final UIERMEntity sigOptEntity)\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def isPresentationRequired():
-    '''public boolean isPresentationRequired()
+    '''returns boolean\n\n
+    isPresentationRequired()\n
     '''
 def getSigOption():
-    '''public String getSigOption()
+    '''returns String\n\n
+    getSigOption()\n
     '''
 def getSigOptEntity():
-    '''public UIERMEntity getSigOptEntity()
+    '''returns UIERMEntity\n\n
+    getSigOptEntity()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def getDataStoreInfo():
-    '''public DataStoreInfo getDataStoreInfo()
+    '''returns DataStoreInfo\n\n
+    getDataStoreInfo()\n
     '''
 def setDataStoreInfo():
-    '''public void setDataStoreInfo(final DataStoreInfo dataStoreInfo)
+    '''returns None\n\n
+    setDataStoreInfo(final DataStoreInfo dataStoreInfo)\n
     '''
 def createTakesValueList():
-    '''public JSONArray createTakesValueList(final PageInstance page)
+    '''returns JSONArray\n\n
+    createTakesValueList(final PageInstance page)\n
     '''
 def isCloned():
-    '''public boolean isCloned()
+    '''returns boolean\n\n
+    isCloned()\n
     '''
 def setIsCloned():
-    '''public void setIsCloned(final boolean aBool)
+    '''returns None\n\n
+    setIsCloned(final boolean aBool)\n
     '''
 def clone():
-    '''public UIERMAttribute clone()
+    '''returns UIERMAttribute\n\n
+    clone()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

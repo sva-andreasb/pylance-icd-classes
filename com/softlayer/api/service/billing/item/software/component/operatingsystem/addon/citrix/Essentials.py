@@ -1,6 +1,8 @@
 def getResource():
-    '''public Component getResource()
+    '''returns Component\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final Component resource)
+    '''returns None\n\n
+    setResource(final Component resource)\n
     '''

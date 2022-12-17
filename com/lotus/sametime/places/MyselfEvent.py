@@ -3,26 +3,34 @@ DATA_RECEIVED = "int  -2147483646"
 SECTION_CHANGED = "int  -2147483645"
 CHANGE_SECTION_FAILED = "int  -2147483644"
 def getMyself():
-    '''public MyselfInPlace getMyself()
+    '''returns MyselfInPlace\n\n
+    getMyself()\n
     '''
 def getSection():
-    '''public Section getSection()
+    '''returns Section\n\n
+    getSection()\n
     '''
 def getSender():
-    '''public PlaceMember getSender()
+    '''returns PlaceMember\n\n
+    getSender()\n
     '''
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getDataType():
-    '''public int getDataType()
+    '''returns int\n\n
+    getDataType()\n
     '''
 def getScope():
-    '''public int getScope()
+    '''returns int\n\n
+    getScope()\n
     '''

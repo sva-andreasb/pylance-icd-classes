@@ -13,12 +13,15 @@ FIELD_SYSTEMCLASSIFICATIONID = "String  \"SYSTEMCLASSIFICATIONID\""
 FIELD_ZONECLASSIFICATIONID = "String  \"ZONECLASSIFICATIONID\""
 FIELD_PRODUCTSEQ = "String  \"PRODUCTSEQ\""
 FIELD_ATTRIBSEQ = "String  \"ATTRIBSEQ\""
-def BIMConfiguration():
-    '''public BIMConfiguration(final MboSet ms)
+def ():
+    '''returns BIMConfiguration\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

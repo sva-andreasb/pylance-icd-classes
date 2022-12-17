@@ -1,6 +1,8 @@
-def FldVCurrentExpression():
-    '''public FldVCurrentExpression(final MboValue mbv)
+def ():
+    '''returns FldVCurrentExpression\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

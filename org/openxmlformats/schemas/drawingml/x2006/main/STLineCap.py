@@ -1,0 +1,7 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STLineCap.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"stlinecapcddftype\")"
+RND = "Enum  Enum.forString(\"rnd\")"
+SQ = "Enum  Enum.forString(\"sq\")"
+FLAT = "Enum  Enum.forString(\"flat\")"
+INT_RND = "int  1"
+INT_SQ = "int  2"
+INT_FLAT = "int  3"

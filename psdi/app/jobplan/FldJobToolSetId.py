@@ -1,9 +1,12 @@
-def FldJobToolSetId():
-    '''public FldJobToolSetId(final MboValue mbv)
+def ():
+    '''returns FldJobToolSetId\n\n
+    (final MboValue mbv)\n
     '''
 def getCriteria():
-    '''public String getCriteria()
+    '''returns String\n\n
+    getCriteria()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

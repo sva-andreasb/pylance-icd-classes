@@ -1,12 +1,16 @@
-def StringStream():
-    '''public StringStream(final String text)
+def ():
+    '''returns StringStream\n\n
+    (final String text)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

@@ -1,3 +1,4 @@
-def LiveChatOort():
-    '''public LiveChatOort(final MboSet ms)
+def ():
+    '''returns LiveChatOort\n\n
+    (final MboSet ms)\n
     '''

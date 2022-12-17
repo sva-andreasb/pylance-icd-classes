@@ -1,3 +1,4 @@
-def MultiFieldQueryNodeProcessor():
-    '''public MultiFieldQueryNodeProcessor()
+def ():
+    '''returns MultiFieldQueryNodeProcessor\n\n
+    ()\n
     '''

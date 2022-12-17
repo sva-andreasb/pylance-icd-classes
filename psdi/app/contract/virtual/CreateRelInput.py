@@ -1,15 +1,20 @@
-def CreateRelInput():
-    '''public CreateRelInput(final MboSet ms)
+def ():
+    '''returns CreateRelInput\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setPOAutoKey():
-    '''public void setPOAutoKey()
+    '''returns None\n\n
+    setPOAutoKey()\n
     '''
 def setRFQAutoKey():
-    '''public void setRFQAutoKey()
+    '''returns None\n\n
+    setRFQAutoKey()\n
     '''

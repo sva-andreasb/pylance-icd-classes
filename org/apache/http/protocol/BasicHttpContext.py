@@ -1,19 +1,25 @@
-def BasicHttpContext():
-    '''public BasicHttpContext()
-    public BasicHttpContext(final HttpContext parentContext)
+def ():
+    '''returns BasicHttpContext\n\n
+    ()\n
+    (final HttpContext parentContext)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String id)
+    '''returns Object\n\n
+    getAttribute(final String id)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String id, final Object obj)
+    '''returns None\n\n
+    setAttribute(final String id, final Object obj)\n
     '''
 def removeAttribute():
-    '''public Object removeAttribute(final String id)
+    '''returns Object\n\n
+    removeAttribute(final String id)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

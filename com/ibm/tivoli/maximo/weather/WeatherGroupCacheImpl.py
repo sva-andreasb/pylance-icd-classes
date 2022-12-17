@@ -1,22 +1,29 @@
-def WeatherGroupCacheImpl():
-    '''public WeatherGroupCacheImpl()
+def ():
+    '''returns WeatherGroupCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOrgInfo():
-    '''public WeatherOrgInfo getOrgInfo()
+    '''returns WeatherOrgInfo\n\n
+    getOrgInfo()\n
     '''
 def getOrgInfoForGroup():
-    '''public WeatherOrgInfo getOrgInfoForGroup(final String groupName)
+    '''returns WeatherOrgInfo\n\n
+    getOrgInfoForGroup(final String groupName)\n
     '''
 def getGroupInfo():
-    '''public WeatherGroupInfo getGroupInfo(final String groupName)
+    '''returns WeatherGroupInfo\n\n
+    getGroupInfo(final String groupName)\n
     '''

@@ -1,44 +1,56 @@
-def DefaultHttp2Headers():
-    '''public DefaultHttp2Headers()
-    public DefaultHttp2Headers(final boolean validate)
-    public DefaultHttp2Headers(final boolean validate, final int arraySizeHint)
+def ():
+    '''returns DefaultHttp2Headers\n\n
+    ()\n
+    (final boolean validate)\n
+    (final boolean validate, final int arraySizeHint)\n
     '''
 def clear():
-    '''public Http2Headers clear()
+    '''returns Http2Headers\n\n
+    clear()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def method():
-    '''public Http2Headers method(final CharSequence value)
-    public CharSequence method()
+    '''returns CharSequence\n\n
+    method(final CharSequence value)\n
+    method()\n
     '''
 def scheme():
-    '''public Http2Headers scheme(final CharSequence value)
-    public CharSequence scheme()
+    '''returns CharSequence\n\n
+    scheme(final CharSequence value)\n
+    scheme()\n
     '''
 def authority():
-    '''public Http2Headers authority(final CharSequence value)
-    public CharSequence authority()
+    '''returns CharSequence\n\n
+    authority(final CharSequence value)\n
+    authority()\n
     '''
 def path():
-    '''public Http2Headers path(final CharSequence value)
-    public CharSequence path()
+    '''returns CharSequence\n\n
+    path(final CharSequence value)\n
+    path()\n
     '''
 def status():
-    '''public Http2Headers status(final CharSequence value)
-    public CharSequence status()
+    '''returns CharSequence\n\n
+    status(final CharSequence value)\n
+    status()\n
     '''
 def contains():
-    '''public boolean contains(final CharSequence name, final CharSequence value)
-    public boolean contains(final CharSequence name, final CharSequence value, final boolean caseInsensitive)
+    '''returns boolean\n\n
+    contains(final CharSequence name, final CharSequence value)\n
+    contains(final CharSequence name, final CharSequence value, final boolean caseInsensitive)\n
     '''
 def process():
-    '''public boolean process(final byte value)
+    '''returns boolean\n\n
+    process(final byte value)\n
     '''
 def validateName():
-    '''public void validateName(final CharSequence name)
+    '''returns None\n\n
+    validateName(final CharSequence name)\n
     '''

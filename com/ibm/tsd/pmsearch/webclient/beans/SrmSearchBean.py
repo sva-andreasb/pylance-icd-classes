@@ -8,24 +8,31 @@ FR2CODE = "String  \"fr2code_longdescription\""
 DESCRIPTION_LD = "String  \"description_longdescription\""
 TICKETID = "String  \"ticketid\""
 CLASS = "String  \"class\""
-def SrmSearchBean():
-    '''public SrmSearchBean()
+def ():
+    '''returns SrmSearchBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def search():
-    '''public int search()
+    '''returns int\n\n
+    search()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def getSearchEngine():
-    '''public SrmSearchEngine getSearchEngine()
+    '''returns SrmSearchEngine\n\n
+    getSearchEngine()\n
     '''

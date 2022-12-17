@@ -1,3 +1,4 @@
 def applysla():
-    '''public int applysla()
+    '''returns int\n\n
+    applysla()\n
     '''

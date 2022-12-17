@@ -1,9 +1,12 @@
-def BinaryBlock():
-    '''public BinaryBlock(final byte[] data, final boolean isBigEndian)
+def ():
+    '''returns BinaryBlock\n\n
+    (final byte[] data, final boolean isBigEndian)\n
     '''
 def getShort():
-    '''public short getShort(final int n)
+    '''returns short\n\n
+    getShort(final int n)\n
     '''
 def setShort():
-    '''public void setShort(final int n, final short n2)
+    '''returns None\n\n
+    setShort(final int n, final short n2)\n
     '''

@@ -1,3 +1,4 @@
-def FldEscRoleID():
-    '''public FldEscRoleID(final MboValue mbv)
+def ():
+    '''returns FldEscRoleID\n\n
+    (final MboValue mbv)\n
     '''

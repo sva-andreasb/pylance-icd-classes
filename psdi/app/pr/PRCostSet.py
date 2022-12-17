@@ -1,3 +1,4 @@
-def PRCostSet():
-    '''public PRCostSet(final MboServerInterface ms)
+def ():
+    '''returns PRCostSet\n\n
+    (final MboServerInterface ms)\n
     '''

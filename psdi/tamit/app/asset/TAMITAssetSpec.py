@@ -1,6 +1,8 @@
-def TAMITAssetSpec():
-    '''public TAMITAssetSpec(final MboSet ms)
+def ():
+    '''returns TAMITAssetSpec\n\n
+    (final MboSet ms)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

@@ -1,60 +1,80 @@
-def MaxIntObject():
-    '''public MaxIntObject(final MboSet ms)
+def ():
+    '''returns MaxIntObject\n\n
+    (final MboSet ms)\n
     '''
 def createXML():
-    '''public void createXML()
+    '''returns None\n\n
+    createXML()\n
     '''
 def generateSchema():
-    '''public void generateSchema()
+    '''returns None\n\n
+    generateSchema()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def handleAliasNP():
-    '''public void handleAliasNP()
+    '''returns None\n\n
+    handleAliasNP()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def deleteApplicationEntries():
-    '''public void deleteApplicationEntries()
+    '''returns None\n\n
+    deleteApplicationEntries()\n
     '''
 def generateApplicationEntries():
-    '''public void generateApplicationEntries(final boolean fromSave)
+    '''returns None\n\n
+    generateApplicationEntries(final boolean fromSave)\n
     '''
 def addServiceOptions():
-    '''public void addServiceOptions(final MboSetRemote sigOptionSet)
+    '''returns None\n\n
+    addServiceOptions(final MboSetRemote sigOptionSet)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def handleIncludeExcludeNP():
-    '''public void handleIncludeExcludeNP()
+    '''returns None\n\n
+    handleIncludeExcludeNP()\n
     '''
 def handleAdvanceCfg():
-    '''public void handleAdvanceCfg()
+    '''returns None\n\n
+    handleAdvanceCfg()\n
     '''
 def copySigOption():
-    '''public void copySigOption(final Vector selected)
+    '''returns None\n\n
+    copySigOption(final Vector selected)\n
     '''
 def createNewOption():
-    '''public void createNewOption(final MboRemote sourceMbo, final MboSetRemote sigOptionSet, final boolean copyAuth)
+    '''returns None\n\n
+    createNewOption(final MboRemote sourceMbo, final MboSetRemote sigOptionSet, final boolean copyAuth)\n
     '''
 def validateDescription():
-    '''public void validateDescription()
+    '''returns None\n\n
+    validateDescription()\n
     '''

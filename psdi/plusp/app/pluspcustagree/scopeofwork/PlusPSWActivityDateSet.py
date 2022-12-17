@@ -1,3 +1,4 @@
-def PlusPSWActivityDateSet():
-    '''public PlusPSWActivityDateSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPSWActivityDateSet\n\n
+    (final MboServerInterface ms)\n
     '''

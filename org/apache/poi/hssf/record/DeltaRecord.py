@@ -1,21 +1,27 @@
 sid = "short  16"
 DEFAULT_VALUE = "double  0.001"
-def DeltaRecord():
-    '''public DeltaRecord(final double maxChange)
-    public DeltaRecord(final RecordInputStream in)
+def ():
+    '''returns DeltaRecord\n\n
+    (final double maxChange)\n
+    (final RecordInputStream in)\n
     '''
 def getMaxChange():
-    '''public double getMaxChange()
+    '''returns double\n\n
+    getMaxChange()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public DeltaRecord clone()
+    '''returns DeltaRecord\n\n
+    clone()\n
     '''

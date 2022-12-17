@@ -2,31 +2,36 @@ sid = "short  146"
 STANDARD_PALETTE_SIZE = "byte  56"
 FIRST_COLOR_INDEX = "short  8"
 ENCODED_SIZE = "short  4"
-def PaletteRecord():
-    '''public PaletteRecord()
-    public PaletteRecord(final RecordInputStream in)
+def ():
+    '''returns PColor\n\n
+    ()\n
+    (final RecordInputStream in)\n
+    (final int red, final int green, final int blue)\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
-    public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getColor():
-    '''public byte[] getColor(final int byteIndex)
+    '''returns byte[]\n\n
+    getColor(final int byteIndex)\n
     '''
 def setColor():
-    '''public void setColor(final short byteIndex, final byte red, final byte green, final byte blue)
-    '''
-def PColor():
-    '''public PColor(final int red, final int green, final int blue)
-    public PColor(final RecordInputStream in)
+    '''returns None\n\n
+    setColor(final short byteIndex, final byte red, final byte green, final byte blue)\n
     '''
 def getTriplet():
-    '''public byte[] getTriplet()
+    '''returns byte[]\n\n
+    getTriplet()\n
     '''

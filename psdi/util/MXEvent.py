@@ -1,13 +1,17 @@
-def MXEvent():
-    '''public MXEvent(final Object src)
-    public MXEvent(final Object src, final int event)
+def ():
+    '''returns MXEvent\n\n
+    (final Object src)\n
+    (final Object src, final int event)\n
     '''
 def getSource():
-    '''public Object getSource()
+    '''returns Object\n\n
+    getSource()\n
     '''
 def getEventID():
-    '''public int getEventID()
+    '''returns int\n\n
+    getEventID()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

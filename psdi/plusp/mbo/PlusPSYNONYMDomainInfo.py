@@ -1,36 +1,41 @@
-def PlusPSYNONYMDomainInfo():
-    '''public PlusPSYNONYMDomainInfo(final String name)
+def ():
+    '''returns Detail\n\n
+    (final String name)\n
+    ()\n
     '''
 def getDomainObject():
-    '''public MboValueListener getDomainObject(final MboValue mv)
+    '''returns MboValueListener\n\n
+    getDomainObject(final MboValue mv)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def initPlusPDetailObject():
-    '''public Detail initPlusPDetailObject()
+    '''returns Detail\n\n
+    initPlusPDetailObject()\n
     '''
 def setDetail():
-    '''public void setDetail(final String s, final String s2, final String s3, final Object value)
-    '''
-def getKey():
-    '''public static String getKey(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    setDetail(final String s, final String s2, final String s3, final Object value)\n
     '''
 def getSiteOrgWhere():
-    '''public String getSiteOrgWhere(final ALNDomain domain)
+    '''returns String\n\n
+    getSiteOrgWhere(final ALNDomain domain)\n
     '''
 def getDetailCustomer():
-    '''public String getDetailCustomer(final ALNDomain alnDomain)
+    '''returns String\n\n
+    getDetailCustomer(final ALNDomain alnDomain)\n
     '''
 def getSignature():
-    '''public Object[] getSignature(final MboValue value)
+    '''returns Object[]\n\n
+    getSignature(final MboValue value)\n
     '''
 def getDetail():
-    '''public Object getDetail(final Object[] array)
+    '''returns Object\n\n
+    getDetail(final Object[] array)\n
     '''
 def getAllInfoHashmapBykey():
-    '''public Object getAllInfoHashmapBykey(final String key)
-    '''
-def Detail():
-    '''public Detail()
+    '''returns Object\n\n
+    getAllInfoHashmapBykey(final String key)\n
     '''

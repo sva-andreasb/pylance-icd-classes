@@ -1,9 +1,12 @@
 def canHandle():
-    '''public boolean canHandle(final Object o)
+    '''returns boolean\n\n
+    canHandle(final Object o)\n
     '''
 def getDocument():
-    '''public Document getDocument(final Object o)
+    '''returns Document\n\n
+    getDocument(final Object o)\n
     '''
 def getDOMImplementation():
-    '''public DOMImplementation getDOMImplementation()
+    '''returns DOMImplementation\n\n
+    getDOMImplementation()\n
     '''

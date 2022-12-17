@@ -1,40 +1,49 @@
-def NodeEvaluatorWrapper():
-    '''public NodeEvaluatorWrapper(final long cPtr, final boolean cMemoryOwn)
-    public NodeEvaluatorWrapper()
-    '''
-def getCPtr():
-    '''public static long getCPtr(final NodeEvaluatorWrapper obj)
+def ():
+    '''returns NodeEvaluatorWrapper\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    ()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def evaluate():
-    '''public double evaluate()
+    '''returns double\n\n
+    evaluate()\n
     '''
 def duplicateEvaluator():
-    '''public IloCplex__NodeEvaluatorI duplicateEvaluator()
+    '''returns IloCplex__NodeEvaluatorI\n\n
+    duplicateEvaluator()\n
     '''
 def subsume():
-    '''public boolean subsume(final double evalBest, final double evalCurrent)
+    '''returns boolean\n\n
+    subsume(final double evalBest, final double evalCurrent)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getBranchVar():
-    '''public IloNumVar getBranchVar()
+    '''returns IloNumVar\n\n
+    getBranchVar()\n
     '''
 def getDepth():
-    '''public double getDepth()
+    '''returns double\n\n
+    getDepth()\n
     '''
 def getEstimatedObjValue():
-    '''public double getEstimatedObjValue()
+    '''returns double\n\n
+    getEstimatedObjValue()\n
     '''
 def getInfeasibilitySum():
-    '''public double getInfeasibilitySum()
+    '''returns double\n\n
+    getInfeasibilitySum()\n
     '''
 def getNinfeasibilities():
-    '''public int getNinfeasibilities()
+    '''returns int\n\n
+    getNinfeasibilities()\n
     '''
 def getObjValue():
-    '''public double getObjValue()
+    '''returns double\n\n
+    getObjValue()\n
     '''

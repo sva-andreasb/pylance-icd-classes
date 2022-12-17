@@ -1,56 +1,74 @@
-def OBPSchemaElement():
-    '''public OBPSchemaElement(final SchemaParticle particle)
-    public OBPSchemaElement(final SchemaLocalElement element)
-    public OBPSchemaElement(final SchemaLocalElement element, final boolean root)
+def ():
+    '''returns OBPSchemaElement\n\n
+    (final SchemaParticle particle)\n
+    (final SchemaLocalElement element)\n
+    (final SchemaLocalElement element, final boolean root)\n
     '''
 def getDefaultText():
-    '''public String getDefaultText()
+    '''returns String\n\n
+    getDefaultText()\n
     '''
 def getMaxOccurs():
-    '''public BigInteger getMaxOccurs()
+    '''returns BigInteger\n\n
+    getMaxOccurs()\n
     '''
 def getMinOccurs():
-    '''public BigInteger getMinOccurs()
+    '''returns BigInteger\n\n
+    getMinOccurs()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getType():
-    '''public SchemaType getType()
+    '''returns SchemaType\n\n
+    getType()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def isFixed():
-    '''public boolean isFixed()
+    '''returns boolean\n\n
+    isFixed()\n
     '''
 def isNillable():
-    '''public boolean isNillable()
+    '''returns boolean\n\n
+    isNillable()\n
     '''
 def setCombinedMaxOccurs():
-    '''public void setCombinedMaxOccurs(final int combinedMaxOccurs)
+    '''returns None\n\n
+    setCombinedMaxOccurs(final int combinedMaxOccurs)\n
     '''
 def setCombinedMinOccurs():
-    '''public void setCombinedMinOccurs(final int combinedMinOccurs)
+    '''returns None\n\n
+    setCombinedMinOccurs(final int combinedMinOccurs)\n
     '''
 def getCombinedMaxOccurs():
-    '''public int getCombinedMaxOccurs()
+    '''returns int\n\n
+    getCombinedMaxOccurs()\n
     '''
 def getCombinedMinOccurs():
-    '''public int getCombinedMinOccurs()
+    '''returns int\n\n
+    getCombinedMinOccurs()\n
     '''
 def setXmlRequired():
-    '''public void setXmlRequired(final boolean xmlRequired)
+    '''returns None\n\n
+    setXmlRequired(final boolean xmlRequired)\n
     '''
 def isXmlRequired():
-    '''public boolean isXmlRequired()
+    '''returns boolean\n\n
+    isXmlRequired()\n
     '''
 def hasCombinedMaxOccurs():
-    '''public boolean hasCombinedMaxOccurs()
+    '''returns boolean\n\n
+    hasCombinedMaxOccurs()\n
     '''
 def isRoot():
-    '''public boolean isRoot()
+    '''returns boolean\n\n
+    isRoot()\n
     '''
 def isAttribute():
-    '''public boolean isAttribute()
+    '''returns boolean\n\n
+    isAttribute()\n
     '''

@@ -1,9 +1,8 @@
-def notPredicate():
-    '''public static <T> Predicate<T> notPredicate(final Predicate<? super T> predicate)
-    '''
-def NotPredicate():
-    '''public NotPredicate(final Predicate<? super T> predicate)
+def ():
+    '''returns NotPredicate\n\n
+    (final Predicate<? super T> predicate)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T object)
+    '''returns boolean\n\n
+    evaluate(final T object)\n
     '''

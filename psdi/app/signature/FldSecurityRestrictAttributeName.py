@@ -1,3 +1,4 @@
-def FldSecurityRestrictAttributeName():
-    '''public FldSecurityRestrictAttributeName(final MboValue mbv)
+def ():
+    '''returns FldSecurityRestrictAttributeName\n\n
+    (final MboValue mbv)\n
     '''

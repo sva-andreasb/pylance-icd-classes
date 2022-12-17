@@ -1,91 +1,116 @@
 def getGuest():
-    '''public Guest getGuest()
+    '''returns Guest\n\n
+    getGuest()\n
     '''
 def setGuest():
-    '''public void setGuest(final Guest guest)
+    '''returns None\n\n
+    setGuest(final Guest guest)\n
     '''
 def setGuestBootParameterType():
-    '''public void setGuestBootParameterType(final com.softlayer.api.service.virtual.guest.boot.parameter.Type guestBootParameterType)
+    '''returns None\n\n
+    setGuestBootParameterType(final com.softlayer.api.service.virtual.guest.boot.parameter.Type guestBootParameterType)\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getGuestBootParameterTypeId():
-    '''public Long getGuestBootParameterTypeId()
+    '''returns Long\n\n
+    getGuestBootParameterTypeId()\n
     '''
 def setGuestBootParameterTypeId():
-    '''public void setGuestBootParameterTypeId(final Long guestBootParameterTypeId)
+    '''returns None\n\n
+    setGuestBootParameterTypeId(final Long guestBootParameterTypeId)\n
     '''
 def isGuestBootParameterTypeIdSpecified():
-    '''public boolean isGuestBootParameterTypeIdSpecified()
+    '''returns boolean\n\n
+    isGuestBootParameterTypeIdSpecified()\n
     '''
 def unsetGuestBootParameterTypeId():
-    '''public void unsetGuestBootParameterTypeId()
+    '''returns None\n\n
+    unsetGuestBootParameterTypeId()\n
     '''
 def getGuestId():
-    '''public Long getGuestId()
+    '''returns Long\n\n
+    getGuestId()\n
     '''
 def setGuestId():
-    '''public void setGuestId(final Long guestId)
+    '''returns None\n\n
+    setGuestId(final Long guestId)\n
     '''
 def isGuestIdSpecified():
-    '''public boolean isGuestIdSpecified()
+    '''returns boolean\n\n
+    isGuestIdSpecified()\n
     '''
 def unsetGuestId():
-    '''public void unsetGuestId()
+    '''returns None\n\n
+    unsetGuestId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def guestBootParameterTypeId():
-    '''public Mask guestBootParameterTypeId()
+    '''returns Mask\n\n
+    guestBootParameterTypeId()\n
     '''
 def guestId():
-    '''public Mask guestId()
+    '''returns Mask\n\n
+    guestId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''

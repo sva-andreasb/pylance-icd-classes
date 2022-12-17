@@ -1,6 +1,8 @@
-def PlusPFldAllEstReady():
-    '''public PlusPFldAllEstReady(final MboValue mbv)
+def ():
+    '''returns PlusPFldAllEstReady\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

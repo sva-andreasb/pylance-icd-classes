@@ -1,6 +1,8 @@
-def FldCondition():
-    '''public FldCondition(final MboValue mbv)
+def ():
+    '''returns FldCondition\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

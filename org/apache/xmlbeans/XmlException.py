@@ -1,15 +1,18 @@
-def XmlException():
-    '''public XmlException(final String m)
-    public XmlException(final String m, final Throwable t)
-    public XmlException(final Throwable t)
-    public XmlException(final XmlError error)
-    public XmlException(final String m, final Throwable t, final XmlError error)
-    public XmlException(final String m, final Throwable t, final Collection errors)
-    public XmlException(final XmlRuntimeException xmlRuntimeException)
+def ():
+    '''returns XmlException\n\n
+    (final String m)\n
+    (final String m, final Throwable t)\n
+    (final Throwable t)\n
+    (final XmlError error)\n
+    (final String m, final Throwable t, final XmlError error)\n
+    (final String m, final Throwable t, final Collection errors)\n
+    (final XmlRuntimeException xmlRuntimeException)\n
     '''
 def getError():
-    '''public XmlError getError()
+    '''returns XmlError\n\n
+    getError()\n
     '''
 def getErrors():
-    '''public Collection getErrors()
+    '''returns Collection\n\n
+    getErrors()\n
     '''

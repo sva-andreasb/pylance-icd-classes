@@ -1,34 +1,37 @@
-def AbstractCharVectorGloss():
-    '''public AbstractCharVectorGloss()
-    public AbstractCharVectorGloss(final String s)
-    '''
-def read_():
-    '''public final void read_(final DataInputStream dataInputStream, final int capacity)
+def ():
+    '''returns AbstractCharVectorGloss\n\n
+    ()\n
+    (final String s)\n
     '''
 def write_():
-    '''public void write_(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-    '''
-def hashCode_():
-    '''public final int hashCode_()
+    '''returns None\n\n
+    write_(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final AbstractCharVectorGloss abstractCharVectorGloss)
+    '''returns int\n\n
+    compareTo(final AbstractCharVectorGloss abstractCharVectorGloss)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getRtData():
-    '''public int getRtData()
+    '''returns int\n\n
+    getRtData()\n
     '''
 def setRtData():
-    '''public int setRtData(final int rtData)
+    '''returns int\n\n
+    setRtData(final int rtData)\n
     '''

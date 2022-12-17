@@ -1,32 +1,16 @@
-def MockHttpTransport():
-    '''public MockHttpTransport()
+def ():
+    '''returns MockHttpTransport\n\n
+    ()\n
     '''
 def supportsMethod():
-    '''public boolean supportsMethod(final String method)
+    '''returns boolean\n\n
+    supportsMethod(final String method)\n
     '''
 def buildRequest():
-    '''public LowLevelHttpRequest buildRequest(final String method, final String url)
-    '''
-def getSupportedMethods():
-    '''public final Set<String> getSupportedMethods()
-    public final Set<String> getSupportedMethods()
-    '''
-def getLowLevelHttpRequest():
-    '''public final MockLowLevelHttpRequest getLowLevelHttpRequest()
-    public final MockLowLevelHttpRequest getLowLevelHttpRequest()
-    '''
-def builder():
-    '''public static Builder builder()
+    '''returns LowLevelHttpRequest\n\n
+    buildRequest(final String method, final String url)\n
     '''
 def build():
-    '''public MockHttpTransport build()
-    '''
-def setSupportedMethods():
-    '''public final Builder setSupportedMethods(final Set<String> supportedMethods)
-    '''
-def setLowLevelHttpRequest():
-    '''public final Builder setLowLevelHttpRequest(final MockLowLevelHttpRequest lowLevelHttpRequest)
-    '''
-def setLowLevelHttpResponse():
-    '''public final Builder setLowLevelHttpResponse(final MockLowLevelHttpResponse lowLevelHttpResponse)
+    '''returns MockHttpTransport\n\n
+    build()\n
     '''

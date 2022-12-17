@@ -1,3 +1,4 @@
-def KBLinkedArticlesSet():
-    '''public KBLinkedArticlesSet(final MboServerInterface ms)
+def ():
+    '''returns KBLinkedArticlesSet\n\n
+    (final MboServerInterface ms)\n
     '''

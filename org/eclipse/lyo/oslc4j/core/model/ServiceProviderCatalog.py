@@ -1,63 +1,84 @@
-def ServiceProviderCatalog():
-    '''public ServiceProviderCatalog()
+def ():
+    '''returns ServiceProviderCatalog\n\n
+    ()\n
     '''
 def addDomain():
-    '''public void addDomain(final URI domain)
+    '''returns None\n\n
+    addDomain(final URI domain)\n
     '''
 def addDomains():
-    '''public void addDomains(final Collection<URI> domains)
+    '''returns None\n\n
+    addDomains(final Collection<URI> domains)\n
     '''
 def addServiceProvider():
-    '''public void addServiceProvider(final ServiceProvider serviceProvider)
+    '''returns None\n\n
+    addServiceProvider(final ServiceProvider serviceProvider)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getDomains():
-    '''public URI[] getDomains()
+    '''returns URI[]\n\n
+    getDomains()\n
     '''
 def getOauthConfiguration():
-    '''public OAuthConfiguration getOauthConfiguration()
+    '''returns OAuthConfiguration\n\n
+    getOauthConfiguration()\n
     '''
 def getPublisher():
-    '''public Publisher getPublisher()
+    '''returns Publisher\n\n
+    getPublisher()\n
     '''
 def getReferencedServiceProviderCatalogs():
-    '''public URI[] getReferencedServiceProviderCatalogs()
+    '''returns URI[]\n\n
+    getReferencedServiceProviderCatalogs()\n
     '''
 def getServiceProviders():
-    '''public ServiceProvider[] getServiceProviders()
+    '''returns ServiceProvider[]\n\n
+    getServiceProviders()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def removeDomain():
-    '''public void removeDomain(final URI domain)
+    '''returns None\n\n
+    removeDomain(final URI domain)\n
     '''
 def removeDomains():
-    '''public void removeDomains(final Collection<URI> domains)
+    '''returns None\n\n
+    removeDomains(final Collection<URI> domains)\n
     '''
 def removeServiceProvider():
-    '''public void removeServiceProvider(final ServiceProvider serviceProvider)
+    '''returns None\n\n
+    removeServiceProvider(final ServiceProvider serviceProvider)\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def setDomains():
-    '''public void setDomains(final URI[] domains)
+    '''returns None\n\n
+    setDomains(final URI[] domains)\n
     '''
 def setOauthConfiguration():
-    '''public void setOauthConfiguration(final OAuthConfiguration oauthConfiguration)
+    '''returns None\n\n
+    setOauthConfiguration(final OAuthConfiguration oauthConfiguration)\n
     '''
 def setPublisher():
-    '''public void setPublisher(final Publisher publisher)
+    '''returns None\n\n
+    setPublisher(final Publisher publisher)\n
     '''
 def setReferencedServiceProviderCatalogs():
-    '''public void setReferencedServiceProviderCatalogs(final URI[] referencedServiceProviderCatalogs)
+    '''returns None\n\n
+    setReferencedServiceProviderCatalogs(final URI[] referencedServiceProviderCatalogs)\n
     '''
 def setServiceProviders():
-    '''public void setServiceProviders(final ServiceProvider[] serviceProviders)
+    '''returns None\n\n
+    setServiceProviders(final ServiceProvider[] serviceProviders)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''

@@ -1,105 +1,139 @@
-def IlvDashboardEditor():
-    '''public IlvDashboardEditor()
-    public IlvDashboardEditor(final ResourceBundle resourceBundle, final String[] z)
+def ():
+    '''returns IlvDashboardEditor\n\n
+    ()\n
+    (final ResourceBundle resourceBundle, final String[] z)\n
     '''
 def getFrame():
-    '''public IlvDashboardEditorFrame getFrame()
+    '''returns IlvDashboardEditorFrame\n\n
+    getFrame()\n
     '''
 def getDialogParent():
-    '''public Component getDialogParent()
+    '''returns Component\n\n
+    getDialogParent()\n
     '''
 def getLinkManager():
-    '''public IlvDashboardLinkManager getLinkManager()
+    '''returns IlvDashboardLinkManager\n\n
+    getLinkManager()\n
     '''
 def setLinkManager():
-    '''public void setLinkManager(final IlvDashboardLinkManager a)
+    '''returns None\n\n
+    setLinkManager(final IlvDashboardLinkManager a)\n
     '''
 def getEditManager():
-    '''public IlvDashboardEditManager getEditManager()
+    '''returns IlvDashboardEditManager\n\n
+    getEditManager()\n
     '''
 def setEditManager():
-    '''public void setEditManager(final IlvDashboardEditManager b)
+    '''returns None\n\n
+    setEditManager(final IlvDashboardEditManager b)\n
     '''
 def init():
-    '''public void init(final String[] array)
+    '''returns None\n\n
+    init(final String[] array)\n
     '''
 def perform():
-    '''public void perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)
-    public void perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)
-    public void perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)
+    '''returns None\n\n
+    perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)\n
+    perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)\n
+    perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def exit():
-    '''public void exit()
+    '''returns None\n\n
+    exit()\n
     '''
 def getDashboardContainer():
-    '''public IlvDashboardContainer getDashboardContainer()
+    '''returns IlvDashboardContainer\n\n
+    getDashboardContainer()\n
     '''
 def setDashboardContainer():
-    '''public void setDashboardContainer(final IlvDashboardContainer i)
+    '''returns None\n\n
+    setDashboardContainer(final IlvDashboardContainer i)\n
     '''
 def getCurrentDashboardDiagram():
-    '''public IlvDashboardDiagram getCurrentDashboardDiagram()
+    '''returns IlvDashboardDiagram\n\n
+    getCurrentDashboardDiagram()\n
     '''
 def setCurrentDashboardDiagram():
-    '''public void setCurrentDashboardDiagram(final IlvDashboardDiagram ilvDashboardDiagram)
+    '''returns None\n\n
+    setCurrentDashboardDiagram(final IlvDashboardDiagram ilvDashboardDiagram)\n
     '''
 def getDiagrams():
-    '''public IlvDashboardDiagramIterator getDiagrams()
+    '''returns IlvDashboardDiagramIterator\n\n
+    getDiagrams()\n
     '''
 def getDiagramCount():
-    '''public int getDiagramCount()
+    '''returns int\n\n
+    getDiagramCount()\n
     '''
 def setPaletteViewer():
-    '''public void setPaletteViewer(final IlvPaletteManagerViewer f)
+    '''returns None\n\n
+    setPaletteViewer(final IlvPaletteManagerViewer f)\n
     '''
 def isGeneralPathEnabled():
-    '''public boolean isGeneralPathEnabled()
+    '''returns boolean\n\n
+    isGeneralPathEnabled()\n
     '''
 def setGeneralPathEnabled():
-    '''public void setGeneralPathEnabled(final boolean g)
+    '''returns None\n\n
+    setGeneralPathEnabled(final boolean g)\n
     '''
 def setStatusViewer():
-    '''public void setStatusViewer(final IlvDashboardStatusViewer h)
+    '''returns None\n\n
+    setStatusViewer(final IlvDashboardStatusViewer h)\n
     '''
 def getStatusViewer():
-    '''public IlvDashboardStatusViewer getStatusViewer()
+    '''returns IlvDashboardStatusViewer\n\n
+    getStatusViewer()\n
     '''
 def showStatus():
-    '''public void showStatus(final String s)
+    '''returns None\n\n
+    showStatus(final String s)\n
     '''
 def getPanel():
-    '''public IlvDashboardPanel getPanel(final String s)
+    '''returns IlvDashboardPanel\n\n
+    getPanel(final String s)\n
     '''
 def setPreferences():
-    '''public void setPreferences(final IlvDashboardPreferences n)
+    '''returns None\n\n
+    setPreferences(final IlvDashboardPreferences n)\n
     '''
 def getPreferences():
-    '''public IlvDashboardPreferences getPreferences()
+    '''returns IlvDashboardPreferences\n\n
+    getPreferences()\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)
+    '''returns None\n\n
+    selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)\n
     '''
 def categorySelected():
-    '''public void categorySelected(final PaletteViewerEvent paletteViewerEvent)
+    '''returns None\n\n
+    categorySelected(final PaletteViewerEvent paletteViewerEvent)\n
     '''
 def symbolSelected():
-    '''public void symbolSelected(final PaletteViewerEvent paletteViewerEvent)
+    '''returns None\n\n
+    symbolSelected(final PaletteViewerEvent paletteViewerEvent)\n
     '''
 def categoryDeselected():
-    '''public void categoryDeselected(final PaletteViewerEvent paletteViewerEvent)
+    '''returns None\n\n
+    categoryDeselected(final PaletteViewerEvent paletteViewerEvent)\n
     '''
 def symbolDeselected():
-    '''public void symbolDeselected(final PaletteViewerEvent paletteViewerEvent)
+    '''returns None\n\n
+    symbolDeselected(final PaletteViewerEvent paletteViewerEvent)\n
     '''
 def actionDescribed():
-    '''public void actionDescribed(final IlvDiagrammerAction.StatusEvent statusEvent)
+    '''returns None\n\n
+    actionDescribed(final IlvDiagrammerAction.StatusEvent statusEvent)\n
     '''
 def actionFinished():
-    '''public void actionFinished(final IlvDiagrammerAction.StatusEvent statusEvent)
+    '''returns None\n\n
+    actionFinished(final IlvDiagrammerAction.StatusEvent statusEvent)\n
     '''
 def actionStarted():
-    '''public void actionStarted(final IlvDiagrammerAction.StatusEvent statusEvent)
+    '''returns None\n\n
+    actionStarted(final IlvDiagrammerAction.StatusEvent statusEvent)\n
     '''

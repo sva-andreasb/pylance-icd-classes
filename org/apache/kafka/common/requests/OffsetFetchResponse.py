@@ -1,35 +1,26 @@
 INVALID_OFFSET = "long  -1L"
 NO_METADATA = "String  \"\""
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def OffsetFetchResponse():
-    '''public OffsetFetchResponse(final Errors error, final Map<TopicPartition, PartitionData> responseData)
-    public OffsetFetchResponse(final int throttleTimeMs, final Errors error, final Map<TopicPartition, PartitionData> responseData)
-    public OffsetFetchResponse(final Struct struct)
+def ():
+    '''returns PartitionData\n\n
+    (final Errors error, final Map<TopicPartition, PartitionData> responseData)\n
+    (final int throttleTimeMs, final Errors error, final Map<TopicPartition, PartitionData> responseData)\n
+    (final Struct struct)\n
+    (final long offset, final String metadata, final Errors error)\n
     '''
 def maybeThrowFirstPartitionError():
-    '''public void maybeThrowFirstPartitionError()
+    '''returns None\n\n
+    maybeThrowFirstPartitionError()\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def hasError():
-    '''public boolean hasError()
-    public boolean hasError()
+    '''returns boolean\n\n
+    hasError()\n
+    hasError()\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def responseData():
-    '''public Map<TopicPartition, PartitionData> responseData()
-    '''
-def parse():
-    '''public static OffsetFetchResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def PartitionData():
-    '''public PartitionData(final long offset, final String metadata, final Errors error)
+    '''returns Errors\n\n
+    error()\n
     '''

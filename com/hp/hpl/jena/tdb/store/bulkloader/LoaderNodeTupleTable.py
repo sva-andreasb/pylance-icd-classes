@@ -1,31 +1,41 @@
-def LoaderNodeTupleTable():
-    '''public LoaderNodeTupleTable(final NodeTupleTable nodeTupleTable, final String itemsName, final LoadMonitor monitor)
+def ():
+    '''returns LoaderNodeTupleTable\n\n
+    (final NodeTupleTable nodeTupleTable, final String itemsName, final LoadMonitor monitor)\n
     '''
 def loadStart():
-    '''public void loadStart()
+    '''returns None\n\n
+    loadStart()\n
     '''
 def loadFinish():
-    '''public void loadFinish()
+    '''returns None\n\n
+    loadFinish()\n
     '''
 def loadDataStart():
-    '''public void loadDataStart()
+    '''returns None\n\n
+    loadDataStart()\n
     '''
 def load():
-    '''public void load(final Node... nodes)
+    '''returns None\n\n
+    load(final Node... nodes)\n
     '''
 def loadDataFinish():
-    '''public void loadDataFinish()
+    '''returns None\n\n
+    loadDataFinish()\n
     '''
 def loadIndexStart():
-    '''public void loadIndexStart()
+    '''returns None\n\n
+    loadIndexStart()\n
     '''
 def loadIndexFinish():
-    '''public void loadIndexFinish()
+    '''returns None\n\n
+    loadIndexFinish()\n
     '''
 def sync():
-    '''public void sync(final boolean force)
-    public void sync()
+    '''returns None\n\n
+    sync(final boolean force)\n
+    sync()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,27 +1,36 @@
-def GeneralDSEventData():
-    '''public GeneralDSEventData(final ASN1Object asn1Object)
+def ():
+    '''returns GeneralDSEventData\n\n
+    (final ASN1Object asn1Object)\n
     '''
 def getCurrentProcess():
-    '''public int getCurrentProcess()
+    '''returns int\n\n
+    getCurrentProcess()\n
     '''
 def getDsTime():
-    '''public int getDsTime()
+    '''returns int\n\n
+    getDsTime()\n
     '''
 def getIntegerValues():
-    '''public int[] getIntegerValues()
+    '''returns int[]\n\n
+    getIntegerValues()\n
     '''
 def getMilliSeconds():
-    '''public int getMilliSeconds()
+    '''returns int\n\n
+    getMilliSeconds()\n
     '''
 def getPerpetratorDN():
-    '''public String getPerpetratorDN()
+    '''returns String\n\n
+    getPerpetratorDN()\n
     '''
 def getStringValues():
-    '''public String[] getStringValues()
+    '''returns String[]\n\n
+    getStringValues()\n
     '''
 def getVerb():
-    '''public int getVerb()
+    '''returns int\n\n
+    getVerb()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,239 +1,270 @@
 DEFAULT_MAX_HOST_CONNECTIONS = "int  2"
 DEFAULT_MAX_TOTAL_CONNECTIONS = "int  20"
-def shutdownAll():
-    '''public static void shutdownAll()
-    '''
-def MultiThreadedHttpConnectionManager():
-    '''public MultiThreadedHttpConnectionManager()
-    '''
-def shutdown():
-    '''public synchronized void shutdown()
-    public synchronized void shutdown()
-    public void shutdown()
+def ():
+    '''returns HttpConnectionAdapter\n\n
+    ()\n
+    ()\n
+    (final HostConfiguration hostConfiguration)\n
+    (final HttpConnection connection)\n
     '''
 def isConnectionStaleCheckingEnabled():
-    '''public boolean isConnectionStaleCheckingEnabled()
+    '''returns boolean\n\n
+    isConnectionStaleCheckingEnabled()\n
     '''
 def setConnectionStaleCheckingEnabled():
-    '''public void setConnectionStaleCheckingEnabled(final boolean connectionStaleCheckingEnabled)
+    '''returns None\n\n
+    setConnectionStaleCheckingEnabled(final boolean connectionStaleCheckingEnabled)\n
     '''
 def setMaxConnectionsPerHost():
-    '''public void setMaxConnectionsPerHost(final int maxHostConnections)
+    '''returns None\n\n
+    setMaxConnectionsPerHost(final int maxHostConnections)\n
     '''
 def getMaxConnectionsPerHost():
-    '''public int getMaxConnectionsPerHost()
+    '''returns int\n\n
+    getMaxConnectionsPerHost()\n
     '''
 def setMaxTotalConnections():
-    '''public void setMaxTotalConnections(final int maxTotalConnections)
+    '''returns None\n\n
+    setMaxTotalConnections(final int maxTotalConnections)\n
     '''
 def getMaxTotalConnections():
-    '''public int getMaxTotalConnections()
+    '''returns int\n\n
+    getMaxTotalConnections()\n
     '''
 def getConnection():
-    '''public HttpConnection getConnection(final HostConfiguration hostConfiguration)
-    public HttpConnection getConnection(final HostConfiguration hostConfiguration, final long timeout)
+    '''returns HttpConnection\n\n
+    getConnection(final HostConfiguration hostConfiguration)\n
+    getConnection(final HostConfiguration hostConfiguration, final long timeout)\n
     '''
 def getConnectionWithTimeout():
-    '''public HttpConnection getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)
+    '''returns HttpConnection\n\n
+    getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)\n
     '''
 def getConnectionsInPool():
-    '''public int getConnectionsInPool(final HostConfiguration hostConfiguration)
-    public int getConnectionsInPool()
+    '''returns int\n\n
+    getConnectionsInPool(final HostConfiguration hostConfiguration)\n
+    getConnectionsInPool()\n
     '''
 def getConnectionsInUse():
-    '''public int getConnectionsInUse(final HostConfiguration hostConfiguration)
-    public int getConnectionsInUse()
+    '''returns int\n\n
+    getConnectionsInUse(final HostConfiguration hostConfiguration)\n
+    getConnectionsInUse()\n
     '''
 def deleteClosedConnections():
-    '''public void deleteClosedConnections()
-    public synchronized void deleteClosedConnections()
+    '''returns None\n\n
+    deleteClosedConnections()\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idleTimeout)
-    public synchronized void closeIdleConnections(final long idleTimeout)
+    '''returns None\n\n
+    closeIdleConnections(final long idleTimeout)\n
     '''
 def releaseConnection():
-    '''public void releaseConnection(HttpConnection conn)
-    public void releaseConnection()
+    '''returns None\n\n
+    releaseConnection(HttpConnection conn)\n
+    releaseConnection()\n
     '''
 def getParams():
-    '''public HttpConnectionManagerParams getParams()
-    public HttpConnectionParams getParams()
+    '''returns HttpConnectionParams\n\n
+    getParams()\n
+    getParams()\n
     '''
 def setParams():
-    '''public void setParams(final HttpConnectionManagerParams params)
-    public void setParams(final HttpConnectionParams params)
-    '''
-def createConnection():
-    '''public synchronized HttpConnection createConnection(final HostConfiguration hostConfiguration)
-    '''
-def handleLostConnection():
-    '''public synchronized void handleLostConnection(final HostConfiguration config)
-    '''
-def getHostPool():
-    '''public synchronized HostConnectionPool getHostPool(final HostConfiguration hostConfiguration, final boolean create)
-    '''
-def getFreeConnection():
-    '''public synchronized HttpConnection getFreeConnection(final HostConfiguration hostConfiguration)
-    '''
-def deleteLeastUsedConnection():
-    '''public synchronized void deleteLeastUsedConnection()
-    '''
-def notifyWaitingThread():
-    '''public synchronized void notifyWaitingThread(final HostConfiguration configuration)
-    public synchronized void notifyWaitingThread(final HostConnectionPool hostPool)
+    '''returns None\n\n
+    setParams(final HttpConnectionManagerParams params)\n
+    setParams(final HttpConnectionParams params)\n
     '''
 def freeConnection():
-    '''public void freeConnection(final HttpConnection conn)
+    '''returns None\n\n
+    freeConnection(final HttpConnection conn)\n
     '''
-def ReferenceQueueThread():
-    '''public ReferenceQueueThread()
+def shutdown():
+    '''returns None\n\n
+    shutdown()\n
     '''
 def run():
-    '''public void run()
-    '''
-def HttpConnectionWithReference():
-    '''public HttpConnectionWithReference(final HostConfiguration hostConfiguration)
-    '''
-def HttpConnectionAdapter():
-    '''public HttpConnectionAdapter(final HttpConnection connection)
+    '''returns None\n\n
+    run()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def isStaleCheckingEnabled():
-    '''public boolean isStaleCheckingEnabled()
+    '''returns boolean\n\n
+    isStaleCheckingEnabled()\n
     '''
 def setLocalAddress():
-    '''public void setLocalAddress(final InetAddress localAddress)
+    '''returns None\n\n
+    setLocalAddress(final InetAddress localAddress)\n
     '''
 def setStaleCheckingEnabled():
-    '''public void setStaleCheckingEnabled(final boolean staleCheckEnabled)
+    '''returns None\n\n
+    setStaleCheckingEnabled(final boolean staleCheckEnabled)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getHttpConnectionManager():
-    '''public HttpConnectionManager getHttpConnectionManager()
+    '''returns HttpConnectionManager\n\n
+    getHttpConnectionManager()\n
     '''
 def getLastResponseInputStream():
-    '''public InputStream getLastResponseInputStream()
+    '''returns InputStream\n\n
+    getLastResponseInputStream()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getProtocol():
-    '''public Protocol getProtocol()
+    '''returns Protocol\n\n
+    getProtocol()\n
     '''
 def getProxyHost():
-    '''public String getProxyHost()
+    '''returns String\n\n
+    getProxyHost()\n
     '''
 def getProxyPort():
-    '''public int getProxyPort()
+    '''returns int\n\n
+    getProxyPort()\n
     '''
 def getRequestOutputStream():
-    '''public OutputStream getRequestOutputStream()
+    '''returns OutputStream\n\n
+    getRequestOutputStream()\n
     '''
 def getResponseInputStream():
-    '''public InputStream getResponseInputStream()
+    '''returns InputStream\n\n
+    getResponseInputStream()\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def closeIfStale():
-    '''public boolean closeIfStale()
+    '''returns boolean\n\n
+    closeIfStale()\n
     '''
 def isProxied():
-    '''public boolean isProxied()
+    '''returns boolean\n\n
+    isProxied()\n
     '''
 def isResponseAvailable():
-    '''public boolean isResponseAvailable()
-    public boolean isResponseAvailable(final int timeout)
+    '''returns boolean\n\n
+    isResponseAvailable()\n
+    isResponseAvailable(final int timeout)\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''
 def isTransparent():
-    '''public boolean isTransparent()
+    '''returns boolean\n\n
+    isTransparent()\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def print():
-    '''public void print(final String data)
-    public void print(final String data, final String charset)
+    '''returns None\n\n
+    print(final String data)\n
+    print(final String data, final String charset)\n
     '''
 def printLine():
-    '''public void printLine()
-    public void printLine(final String data)
-    public void printLine(final String data, final String charset)
+    '''returns None\n\n
+    printLine()\n
+    printLine(final String data)\n
+    printLine(final String data, final String charset)\n
     '''
 def readLine():
-    '''public String readLine()
-    public String readLine(final String charset)
+    '''returns String\n\n
+    readLine()\n
+    readLine(final String charset)\n
     '''
 def setConnectionTimeout():
-    '''public void setConnectionTimeout(final int timeout)
+    '''returns None\n\n
+    setConnectionTimeout(final int timeout)\n
     '''
 def setHost():
-    '''public void setHost(final String host)
+    '''returns None\n\n
+    setHost(final String host)\n
     '''
 def setHttpConnectionManager():
-    '''public void setHttpConnectionManager(final HttpConnectionManager httpConnectionManager)
+    '''returns None\n\n
+    setHttpConnectionManager(final HttpConnectionManager httpConnectionManager)\n
     '''
 def setLastResponseInputStream():
-    '''public void setLastResponseInputStream(final InputStream inStream)
+    '''returns None\n\n
+    setLastResponseInputStream(final InputStream inStream)\n
     '''
 def setPort():
-    '''public void setPort(final int port)
+    '''returns None\n\n
+    setPort(final int port)\n
     '''
 def setProtocol():
-    '''public void setProtocol(final Protocol protocol)
+    '''returns None\n\n
+    setProtocol(final Protocol protocol)\n
     '''
 def setProxyHost():
-    '''public void setProxyHost(final String host)
+    '''returns None\n\n
+    setProxyHost(final String host)\n
     '''
 def setProxyPort():
-    '''public void setProxyPort(final int port)
+    '''returns None\n\n
+    setProxyPort(final int port)\n
     '''
 def setSoTimeout():
-    '''public void setSoTimeout(final int timeout)
+    '''returns None\n\n
+    setSoTimeout(final int timeout)\n
     '''
 def shutdownOutput():
-    '''public void shutdownOutput()
+    '''returns None\n\n
+    shutdownOutput()\n
     '''
 def tunnelCreated():
-    '''public void tunnelCreated()
+    '''returns None\n\n
+    tunnelCreated()\n
     '''
 def write():
-    '''public void write(final byte[] data, final int offset, final int length)
-    public void write(final byte[] data)
+    '''returns None\n\n
+    write(final byte[] data, final int offset, final int length)\n
+    write(final byte[] data)\n
     '''
 def writeLine():
-    '''public void writeLine()
-    public void writeLine(final byte[] data)
+    '''returns None\n\n
+    writeLine()\n
+    writeLine(final byte[] data)\n
     '''
 def flushRequestOutputStream():
-    '''public void flushRequestOutputStream()
+    '''returns None\n\n
+    flushRequestOutputStream()\n
     '''
 def getSoTimeout():
-    '''public int getSoTimeout()
+    '''returns int\n\n
+    getSoTimeout()\n
     '''
 def getVirtualHost():
-    '''public String getVirtualHost()
+    '''returns String\n\n
+    getVirtualHost()\n
     '''
 def setVirtualHost():
-    '''public void setVirtualHost(final String host)
+    '''returns None\n\n
+    setVirtualHost(final String host)\n
     '''
 def getSendBufferSize():
-    '''public int getSendBufferSize()
+    '''returns int\n\n
+    getSendBufferSize()\n
     '''
 def setSendBufferSize():
-    '''public void setSendBufferSize(final int sendBufferSize)
+    '''returns None\n\n
+    setSendBufferSize(final int sendBufferSize)\n
     '''
 def setSocketTimeout():
-    '''public void setSocketTimeout(final int timeout)
+    '''returns None\n\n
+    setSocketTimeout(final int timeout)\n
     '''

@@ -1,3 +1,4 @@
-def QuestionSet():
-    '''public QuestionSet(final MboServerInterface ms)
+def ():
+    '''returns QuestionSet\n\n
+    (final MboServerInterface ms)\n
     '''

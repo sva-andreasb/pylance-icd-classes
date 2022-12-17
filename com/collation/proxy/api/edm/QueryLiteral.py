@@ -1,28 +1,37 @@
-def QueryLiteral():
-    '''public QueryLiteral(final String lit)
-    public QueryLiteral(final String lit, final boolean isNumber)
+def ():
+    '''returns QueryLiteral\n\n
+    (final String lit)\n
+    (final String lit, final boolean isNumber)\n
     '''
 def getLiteral():
-    '''public String getLiteral()
+    '''returns String\n\n
+    getLiteral()\n
     '''
 def isNumber():
-    '''public boolean isNumber()
+    '''returns boolean\n\n
+    isNumber()\n
     '''
 def setIsNumber():
-    '''public void setIsNumber(final boolean isNum)
+    '''returns None\n\n
+    setIsNumber(final boolean isNum)\n
     '''
 def getLeft():
-    '''public QueryFilter getLeft()
+    '''returns QueryFilter\n\n
+    getLeft()\n
     '''
 def getOp():
-    '''public QueryOp getOp()
+    '''returns QueryOp\n\n
+    getOp()\n
     '''
 def getRight():
-    '''public QueryFilter getRight()
+    '''returns QueryFilter\n\n
+    getRight()\n
     '''
 def genString():
-    '''public String genString(final QueryContext qc, final DataView view)
+    '''returns String\n\n
+    genString(final QueryContext qc, final DataView view)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

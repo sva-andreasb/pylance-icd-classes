@@ -1,5 +1,6 @@
-def DimeBodyPart():
-    '''public DimeBodyPart(final byte[] data, final DimeTypeNameFormat format, final String type, final String id)
-    public DimeBodyPart(final DataHandler dh, final DimeTypeNameFormat format, String type, final String id)
-    public DimeBodyPart(final DataHandler dh, final String id)
+def ():
+    '''returns DimeBodyPart\n\n
+    (final byte[] data, final DimeTypeNameFormat format, final String type, final String id)\n
+    (final DataHandler dh, final DimeTypeNameFormat format, String type, final String id)\n
+    (final DataHandler dh, final String id)\n
     '''

@@ -1,30 +1,40 @@
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getRoute():
-    '''public HttpRoute getRoute()
+    '''returns HttpRoute\n\n
+    getRoute()\n
     '''
 def open():
-    '''public void open(final HttpRoute route, final HttpContext context, final HttpParams params)
+    '''returns None\n\n
+    open(final HttpRoute route, final HttpContext context, final HttpParams params)\n
     '''
 def tunnelTarget():
-    '''public void tunnelTarget(final boolean secure, final HttpParams params)
+    '''returns None\n\n
+    tunnelTarget(final boolean secure, final HttpParams params)\n
     '''
 def tunnelProxy():
-    '''public void tunnelProxy(final HttpHost next, final boolean secure, final HttpParams params)
+    '''returns None\n\n
+    tunnelProxy(final HttpHost next, final boolean secure, final HttpParams params)\n
     '''
 def layerProtocol():
-    '''public void layerProtocol(final HttpContext context, final HttpParams params)
+    '''returns None\n\n
+    layerProtocol(final HttpContext context, final HttpParams params)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def getState():
-    '''public Object getState()
+    '''returns Object\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final Object state)
+    '''returns None\n\n
+    setState(final Object state)\n
     '''

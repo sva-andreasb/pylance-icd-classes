@@ -1,16 +1,17 @@
-def TagSet():
-    '''public TagSet()
-    public TagSet(final Map<String, String> tags)
+def ():
+    '''returns TagSet\n\n
+    ()\n
+    (final Map<String, String> tags)\n
     '''
 def getTag():
-    '''public String getTag(final String key)
+    '''returns String\n\n
+    getTag(final String key)\n
     '''
 def setTag():
-    '''public void setTag(final String key, final String value)
-    '''
-def getAllTags():
-    '''public Map<String, String> getAllTags()
+    '''returns None\n\n
+    setTag(final String key, final String value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

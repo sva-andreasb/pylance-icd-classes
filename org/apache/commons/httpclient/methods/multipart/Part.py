@@ -1,23 +1,16 @@
-def getBoundary():
-    '''public static String getBoundary()
-    '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def send():
-    '''public void send(final OutputStream out)
+    '''returns None\n\n
+    send(final OutputStream out)\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def sendParts():
-    '''public static void sendParts(final OutputStream out, final Part[] parts)
-    public static void sendParts(final OutputStream out, final Part[] parts, final byte[] partBoundary)
-    '''
-def getLengthOfParts():
-    '''public static long getLengthOfParts(final Part[] parts)
-    public static long getLengthOfParts(final Part[] parts, final byte[] partBoundary)
+    '''returns String\n\n
+    toString()\n
     '''

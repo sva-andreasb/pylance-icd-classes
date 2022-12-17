@@ -1,0 +1,6 @@
+IF = "int  1"
+SUM = "int  4"
+OFFSET = "int  78"
+CHOOSE = "int  100"
+INDIRECT = "int  148"
+EXTERNAL_FUNC = "int  255"

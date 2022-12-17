@@ -1,6 +1,7 @@
-def ClusterException():
-    '''public ClusterException()
-    public ClusterException(final String message)
-    public ClusterException(final Throwable cause)
-    public ClusterException(final String message, final Throwable cause)
+def ():
+    '''returns ClusterException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

@@ -1,108 +1,144 @@
-def DiagramConfiguration():
-    '''public DiagramConfiguration()
+def ():
+    '''returns DiagramConfiguration\n\n
+    ()\n
     '''
 def getLineColor():
-    '''public Color getLineColor()
+    '''returns Color\n\n
+    getLineColor()\n
     '''
 def setLineColor():
-    '''public void setLineColor(final Color lineColor)
+    '''returns None\n\n
+    setLineColor(final Color lineColor)\n
     '''
 def getSelectedLineColor():
-    '''public Color getSelectedLineColor()
+    '''returns Color\n\n
+    getSelectedLineColor()\n
     '''
 def setSelectedLineColor():
-    '''public void setSelectedLineColor(final Color selectedLineColor)
+    '''returns None\n\n
+    setSelectedLineColor(final Color selectedLineColor)\n
     '''
 def getNegativeLineColor():
-    '''public Color getNegativeLineColor()
+    '''returns Color\n\n
+    getNegativeLineColor()\n
     '''
 def setNegativeLineColor():
-    '''public void setNegativeLineColor(final Color negativeLineColor)
+    '''returns None\n\n
+    setNegativeLineColor(final Color negativeLineColor)\n
     '''
 def getForeground():
-    '''public Color getForeground()
+    '''returns Color\n\n
+    getForeground()\n
     '''
 def setForeground():
-    '''public void setForeground(final Color foreground)
+    '''returns None\n\n
+    setForeground(final Color foreground)\n
     '''
 def getBackground():
-    '''public Color getBackground()
+    '''returns Color\n\n
+    getBackground()\n
     '''
 def setBackground():
-    '''public void setBackground(final Color background)
+    '''returns None\n\n
+    setBackground(final Color background)\n
     '''
 def getSelectedForeground():
-    '''public Color getSelectedForeground()
+    '''returns Color\n\n
+    getSelectedForeground()\n
     '''
 def setSelectedForeground():
-    '''public void setSelectedForeground(final Color selectedForeground)
+    '''returns None\n\n
+    setSelectedForeground(final Color selectedForeground)\n
     '''
 def getSelectedBackground():
-    '''public Color getSelectedBackground()
+    '''returns Color\n\n
+    getSelectedBackground()\n
     '''
 def setSelectedBackground():
-    '''public void setSelectedBackground(final Color selectedBackground)
+    '''returns None\n\n
+    setSelectedBackground(final Color selectedBackground)\n
     '''
 def getCurrentNodeColor():
-    '''public Color getCurrentNodeColor()
+    '''returns Color\n\n
+    getCurrentNodeColor()\n
     '''
 def setCurrentNodeColor():
-    '''public void setCurrentNodeColor(final Color currentNodeColor)
+    '''returns None\n\n
+    setCurrentNodeColor(final Color currentNodeColor)\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def getVerticalLineSpacing():
-    '''public int getVerticalLineSpacing()
+    '''returns int\n\n
+    getVerticalLineSpacing()\n
     '''
 def setVerticalLineSpacing():
-    '''public void setVerticalLineSpacing(final int verticalLineSpacing)
+    '''returns None\n\n
+    setVerticalLineSpacing(final int verticalLineSpacing)\n
     '''
 def getHorizontalLineSpacing():
-    '''public int getHorizontalLineSpacing()
+    '''returns int\n\n
+    getHorizontalLineSpacing()\n
     '''
 def setHorizontalLineSpacing():
-    '''public void setHorizontalLineSpacing(final int horizontalLineSpacing)
+    '''returns None\n\n
+    setHorizontalLineSpacing(final int horizontalLineSpacing)\n
     '''
 def getArrowHeight():
-    '''public int getArrowHeight()
+    '''returns int\n\n
+    getArrowHeight()\n
     '''
 def setArrowHeight():
-    '''public void setArrowHeight(final int arrowHeight)
+    '''returns None\n\n
+    setArrowHeight(final int arrowHeight)\n
     '''
 def getNodeInsets():
-    '''public Insets getNodeInsets()
+    '''returns Insets\n\n
+    getNodeInsets()\n
     '''
 def setNodeInsets():
-    '''public void setNodeInsets(final Insets nodeInsets)
+    '''returns None\n\n
+    setNodeInsets(final Insets nodeInsets)\n
     '''
 def setNodeBorderInsets():
-    '''public void setNodeBorderInsets(final Insets nodeBorderInsets)
+    '''returns None\n\n
+    setNodeBorderInsets(final Insets nodeBorderInsets)\n
     '''
 def getNodeBorderInsets():
-    '''public Insets getNodeBorderInsets()
+    '''returns Insets\n\n
+    getNodeBorderInsets()\n
     '''
 def getEmptyRowHeight():
-    '''public int getEmptyRowHeight()
+    '''returns int\n\n
+    getEmptyRowHeight()\n
     '''
 def setEmptyRowHeight():
-    '''public void setEmptyRowHeight(final int emptyRowHeight)
+    '''returns None\n\n
+    setEmptyRowHeight(final int emptyRowHeight)\n
     '''
 def getEmptyColumnWidth():
-    '''public int getEmptyColumnWidth()
+    '''returns int\n\n
+    getEmptyColumnWidth()\n
     '''
 def setEmptyColumnWidth():
-    '''public void setEmptyColumnWidth(final int emptyColumnWidth)
+    '''returns None\n\n
+    setEmptyColumnWidth(final int emptyColumnWidth)\n
     '''
 def getImageScaleFactor():
-    '''public int getImageScaleFactor()
+    '''returns int\n\n
+    getImageScaleFactor()\n
     '''
 def setImageScaleFactor():
-    '''public void setImageScaleFactor(final int imageScaleFactor)
+    '''returns None\n\n
+    setImageScaleFactor(final int imageScaleFactor)\n
     '''
 def scale():
-    '''public DiagramConfiguration scale(final int scaleFactor)
+    '''returns DiagramConfiguration\n\n
+    scale(final int scaleFactor)\n
     '''

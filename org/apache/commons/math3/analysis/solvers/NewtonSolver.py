@@ -1,7 +1,9 @@
-def NewtonSolver():
-    '''public NewtonSolver()
-    public NewtonSolver(final double absoluteAccuracy)
+def ():
+    '''returns NewtonSolver\n\n
+    ()\n
+    (final double absoluteAccuracy)\n
     '''
 def solve():
-    '''public double solve(final int maxEval, final DifferentiableUnivariateFunction f, final double min, final double max)
+    '''returns double\n\n
+    solve(final int maxEval, final DifferentiableUnivariateFunction f, final double min, final double max)\n
     '''

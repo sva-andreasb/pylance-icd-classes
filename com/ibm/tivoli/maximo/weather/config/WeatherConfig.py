@@ -1,51 +1,64 @@
-def WeatherConfig():
-    '''public WeatherConfig()
+def ():
+    '''returns WeatherConfig\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getFields():
-    '''public List<WeatherField> getFields()
+    '''returns List<WeatherField>\n\n
+    getFields()\n
     '''
 def setFields():
-    '''public void setFields(final List<WeatherField> fields)
-    '''
-def getUOM():
-    '''public Map<String, String> getUOM(final UOM_LOCALE code)
+    '''returns None\n\n
+    setFields(final List<WeatherField> fields)\n
     '''
 def isShowCurrent():
-    '''public boolean isShowCurrent()
+    '''returns boolean\n\n
+    isShowCurrent()\n
     '''
 def setShowCurrent():
-    '''public void setShowCurrent(final boolean showCurrent)
+    '''returns None\n\n
+    setShowCurrent(final boolean showCurrent)\n
     '''
 def isShowHourly():
-    '''public boolean isShowHourly()
+    '''returns boolean\n\n
+    isShowHourly()\n
     '''
 def setShowHourly():
-    '''public void setShowHourly(final boolean showHourly)
+    '''returns None\n\n
+    setShowHourly(final boolean showHourly)\n
     '''
 def isShowDaily():
-    '''public boolean isShowDaily()
+    '''returns boolean\n\n
+    isShowDaily()\n
     '''
 def setShowDaily():
-    '''public void setShowDaily(final boolean showDaily)
+    '''returns None\n\n
+    setShowDaily(final boolean showDaily)\n
     '''
 def getShowMoreFields():
-    '''public List<WeatherField> getShowMoreFields()
+    '''returns List<WeatherField>\n\n
+    getShowMoreFields()\n
     '''
 def isShowMoreEnabled():
-    '''public boolean isShowMoreEnabled()
+    '''returns boolean\n\n
+    isShowMoreEnabled()\n
     '''
 def setShowMoreEnabled():
-    '''public void setShowMoreEnabled(final boolean showAll)
+    '''returns None\n\n
+    setShowMoreEnabled(final boolean showAll)\n
     '''
 def isShowWeather():
-    '''public boolean isShowWeather()
+    '''returns boolean\n\n
+    isShowWeather()\n
     '''
 def setShowWeather():
-    '''public void setShowWeather(final boolean showWeather)
+    '''returns None\n\n
+    setShowWeather(final boolean showWeather)\n
     '''

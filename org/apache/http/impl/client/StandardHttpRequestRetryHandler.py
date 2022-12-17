@@ -1,4 +1,5 @@
-def StandardHttpRequestRetryHandler():
-    '''public StandardHttpRequestRetryHandler(final int retryCount, final boolean requestSentRetryEnabled)
-    public StandardHttpRequestRetryHandler()
+def ():
+    '''returns StandardHttpRequestRetryHandler\n\n
+    (final int retryCount, final boolean requestSentRetryEnabled)\n
+    ()\n
     '''

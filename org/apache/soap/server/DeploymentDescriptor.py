@@ -7,112 +7,139 @@ PROVIDER_JAVA = "byte  0"
 PROVIDER_SCRIPT_FILE = "byte  1"
 PROVIDER_SCRIPT_STRING = "byte  2"
 PROVIDER_USER_DEFINED = "byte  3"
-def DeploymentDescriptor():
-    '''public DeploymentDescriptor()
+def ():
+    '''returns DeploymentDescriptor\n\n
+    ()\n
     '''
 def buildFaultRouter():
-    '''public SOAPFaultRouter buildFaultRouter(final SOAPContext soapContext)
-    '''
-def buildSOAPMappingRegistry():
-    '''public static SOAPMappingRegistry buildSOAPMappingRegistry(final DeploymentDescriptor deploymentDescriptor, final SOAPContext soapContext)
-    '''
-def fromXML():
-    '''public static DeploymentDescriptor fromXML(final Reader characterStream)
-    public static DeploymentDescriptor fromXML(final Element element)
+    '''returns SOAPFaultRouter\n\n
+    buildFaultRouter(final SOAPContext soapContext)\n
     '''
 def getCheckMustUnderstands():
-    '''public boolean getCheckMustUnderstands()
+    '''returns boolean\n\n
+    getCheckMustUnderstands()\n
     '''
 def getDefaultSMRClass():
-    '''public String getDefaultSMRClass()
+    '''returns String\n\n
+    getDefaultSMRClass()\n
     '''
 def getFaultListener():
-    '''public String[] getFaultListener()
+    '''returns String[]\n\n
+    getFaultListener()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getIsStatic():
-    '''public boolean getIsStatic()
+    '''returns boolean\n\n
+    getIsStatic()\n
     '''
 def getMappings():
-    '''public TypeMapping[] getMappings()
+    '''returns TypeMapping[]\n\n
+    getMappings()\n
     '''
 def getMethods():
-    '''public String[] getMethods()
+    '''returns String[]\n\n
+    getMethods()\n
     '''
 def getProps():
-    '''public Hashtable getProps()
+    '''returns Hashtable\n\n
+    getProps()\n
     '''
 def getProviderClass():
-    '''public String getProviderClass()
+    '''returns String\n\n
+    getProviderClass()\n
     '''
 def getProviderType():
-    '''public byte getProviderType()
+    '''returns byte\n\n
+    getProviderType()\n
     '''
 def getScope():
-    '''public int getScope()
+    '''returns int\n\n
+    getScope()\n
     '''
 def getScriptFilenameOrString():
-    '''public String getScriptFilenameOrString()
+    '''returns String\n\n
+    getScriptFilenameOrString()\n
     '''
 def getScriptLanguage():
-    '''public String getScriptLanguage()
+    '''returns String\n\n
+    getScriptLanguage()\n
     '''
 def getServiceClass():
-    '''public String getServiceClass()
+    '''returns String\n\n
+    getServiceClass()\n
     '''
 def getServiceType():
-    '''public int getServiceType()
+    '''returns int\n\n
+    getServiceType()\n
     '''
 def setCheckMustUnderstands():
-    '''public void setCheckMustUnderstands(final boolean checkMustUnderstands)
+    '''returns None\n\n
+    setCheckMustUnderstands(final boolean checkMustUnderstands)\n
     '''
 def setDefaultSMRClass():
-    '''public void setDefaultSMRClass(final String defaultSMRClass)
+    '''returns None\n\n
+    setDefaultSMRClass(final String defaultSMRClass)\n
     '''
 def setFaultListener():
-    '''public void setFaultListener(final String[] faultListener)
+    '''returns None\n\n
+    setFaultListener(final String[] faultListener)\n
     '''
 def setID():
-    '''public void setID(final String id)
+    '''returns None\n\n
+    setID(final String id)\n
     '''
 def setIsStatic():
-    '''public void setIsStatic(final boolean isStatic)
+    '''returns None\n\n
+    setIsStatic(final boolean isStatic)\n
     '''
 def setMappings():
-    '''public void setMappings(final TypeMapping[] mappings)
+    '''returns None\n\n
+    setMappings(final TypeMapping[] mappings)\n
     '''
 def setMethods():
-    '''public void setMethods(final String[] methods)
+    '''returns None\n\n
+    setMethods(final String[] methods)\n
     '''
 def setProps():
-    '''public void setProps(final Hashtable props)
+    '''returns None\n\n
+    setProps(final Hashtable props)\n
     '''
 def setProviderClass():
-    '''public void setProviderClass(final String providerClass)
+    '''returns None\n\n
+    setProviderClass(final String providerClass)\n
     '''
 def setProviderType():
-    '''public void setProviderType(final byte providerType)
+    '''returns None\n\n
+    setProviderType(final byte providerType)\n
     '''
 def setScope():
-    '''public void setScope(final int scope)
+    '''returns None\n\n
+    setScope(final int scope)\n
     '''
 def setScriptFilenameOrString():
-    '''public void setScriptFilenameOrString(final String scriptFilenameOrString)
+    '''returns None\n\n
+    setScriptFilenameOrString(final String scriptFilenameOrString)\n
     '''
 def setScriptLanguage():
-    '''public void setScriptLanguage(final String scriptLanguage)
+    '''returns None\n\n
+    setScriptLanguage(final String scriptLanguage)\n
     '''
 def setServiceClass():
-    '''public void setServiceClass(final String serviceClass)
+    '''returns None\n\n
+    setServiceClass(final String serviceClass)\n
     '''
 def setServiceType():
-    '''public void setServiceType(final int serviceType)
+    '''returns None\n\n
+    setServiceType(final int serviceType)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toXML():
-    '''public void toXML(final Writer out)
+    '''returns None\n\n
+    toXML(final Writer out)\n
     '''

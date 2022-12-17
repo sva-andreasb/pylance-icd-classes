@@ -1,9 +1,12 @@
-def AssignmentFilterStateSessionModel():
-    '''public AssignmentFilterStateSessionModel(final AbstractTreeGridMiniAppBean bean)
+def ():
+    '''returns AssignmentFilterStateSessionModel\n\n
+    (final AbstractTreeGridMiniAppBean bean)\n
     '''
 def getModel():
-    '''public JSONObject getModel()
+    '''returns JSONObject\n\n
+    getModel()\n
     '''
 def storeModel():
-    '''public void storeModel(final JSONObject model)
+    '''returns None\n\n
+    storeModel(final JSONObject model)\n
     '''

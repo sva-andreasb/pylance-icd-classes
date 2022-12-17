@@ -1,6 +1,8 @@
-def FldMasterPMSeqJpnum():
-    '''public FldMasterPMSeqJpnum(final MboValue mbv)
+def ():
+    '''returns FldMasterPMSeqJpnum\n\n
+    (final MboValue mbv)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''

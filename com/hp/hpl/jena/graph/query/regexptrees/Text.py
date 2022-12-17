@@ -1,20 +1,20 @@
-def create():
-    '''public static Text create(final String s)
-    public static Text create(final char ch)
-    '''
 def getString():
-    '''public String getString()
-    public String getString()
+    '''returns String\n\n
+    getString()\n
+    getString()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object x)
-    public boolean equals(final Object x)
+    '''returns boolean\n\n
+    equals(final Object x)\n
+    equals(final Object x)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''

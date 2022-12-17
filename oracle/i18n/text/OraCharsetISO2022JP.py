@@ -1,25 +1,33 @@
 def newDecoder():
-    '''public CharsetDecoder newDecoder()
+    '''returns CharsetDecoder\n\n
+    newDecoder()\n
     '''
 def newEncoder():
-    '''public CharsetEncoder newEncoder()
+    '''returns CharsetEncoder\n\n
+    newEncoder()\n
     '''
 def toString():
-    '''public String toString(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toString(final byte[] array, final int n, final int n2)\n
     '''
 def toStringWithReplacement():
-    '''public String toStringWithReplacement(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toStringWithReplacement(final byte[] array, final int n, final int n2)\n
     '''
 def convert():
-    '''public byte[] convert(final String s)
+    '''returns byte[]\n\n
+    convert(final String s)\n
     '''
 def convertWithReplacement():
-    '''public byte[] convertWithReplacement(final String s)
+    '''returns byte[]\n\n
+    convertWithReplacement(final String s)\n
     '''
-def CharacterConverterBehavior():
-    '''public CharacterConverterBehavior()
+def ():
+    '''returns CharacterConverterBehavior\n\n
+    ()\n
     '''
 def onFailConversion():
-    '''public void onFailConversion(final int inputLength)
-    public void onFailConversion(final int n)
+    '''returns None\n\n
+    onFailConversion(final int inputLength)\n
+    onFailConversion(final int n)\n
     '''

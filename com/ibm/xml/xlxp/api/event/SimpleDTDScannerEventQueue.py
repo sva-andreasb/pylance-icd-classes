@@ -1,80 +1,64 @@
-def SimpleDTDScannerEventQueue():
-    '''public SimpleDTDScannerEventQueue()
-    public SimpleDTDScannerEventQueue(final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory)
-    public SimpleDTDScannerEventQueue(final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory, final SymbolTable symbolTable)
+def ():
+    '''returns EntityProducer\n\n
+    ()\n
+    (final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory)\n
+    (final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory, final SymbolTable symbolTable)\n
+    ()\n
+    ()\n
+    (final int n)\n
+    (final int n)\n
     '''
 def setEntityContent():
-    '''public void setEntityContent(final ParsedEntity entityContent)
+    '''returns None\n\n
+    setEntityContent(final ParsedEntity entityContent)\n
     '''
 def setNSDeclURI():
-    '''public void setNSDeclURI(final int n, final int n2)
+    '''returns None\n\n
+    setNSDeclURI(final int n, final int n2)\n
     '''
 def addDefaultNSDecl():
-    '''public boolean addDefaultNSDecl(final QName qName, final XMLString xmlString)
+    '''returns boolean\n\n
+    addDefaultNSDecl(final QName qName, final XMLString xmlString)\n
     '''
 def addDefaultAttribute():
-    '''public boolean addDefaultAttribute(final QName values, final int n, final XMLString values2)
+    '''returns boolean\n\n
+    addDefaultAttribute(final QName values, final int n, final XMLString values2)\n
     '''
 def setGrammar():
-    '''public void setGrammar(final DTDGrammar fdtdGrammar)
+    '''returns None\n\n
+    setGrammar(final DTDGrammar fdtdGrammar)\n
     '''
 def popElement():
-    '''public QName popElement()
-    '''
-def rootElementTypeToProduce():
-    '''public final XMLString rootElementTypeToProduce()
-    '''
-def publicIDToProduce():
-    '''public final XMLString publicIDToProduce()
-    '''
-def systemIDToProduce():
-    '''public final XMLString systemIDToProduce()
-    '''
-def produceDoctypeEvent():
-    '''public final boolean produceDoctypeEvent(final boolean b)
-    '''
-def produceStartEntityEvent():
-    '''public final boolean produceStartEntityEvent()
-    '''
-def produceEndEntityEvent():
-    '''public final boolean produceEndEntityEvent()
-    '''
-def produceEntityReferenceEvent():
-    '''public final boolean produceEntityReferenceEvent()
-    '''
-def DoctypeEvent():
-    '''public DoctypeEvent()
+    '''returns QName\n\n
+    popElement()\n
     '''
 def rootElementType():
-    '''public XMLString rootElementType()
-    public XMLString rootElementType()
+    '''returns XMLString\n\n
+    rootElementType()\n
+    rootElementType()\n
     '''
 def publicID():
-    '''public XMLString publicID()
-    public XMLString publicID()
+    '''returns XMLString\n\n
+    publicID()\n
+    publicID()\n
     '''
 def systemID():
-    '''public XMLString systemID()
-    public XMLString systemID()
+    '''returns XMLString\n\n
+    systemID()\n
+    systemID()\n
     '''
 def internalSubset():
-    '''public boolean internalSubset()
-    public boolean internalSubset()
-    '''
-def DoctypeProducer():
-    '''public DoctypeProducer()
-    '''
-def EntityEvent():
-    '''public EntityEvent(final int n)
+    '''returns boolean\n\n
+    internalSubset()\n
+    internalSubset()\n
     '''
 def nsContext():
-    '''public int nsContext()
-    public int nsContext()
+    '''returns int\n\n
+    nsContext()\n
+    nsContext()\n
     '''
 def entityName():
-    '''public XMLString entityName()
-    public XMLString entityName()
-    '''
-def EntityProducer():
-    '''public EntityProducer(final int n)
+    '''returns XMLString\n\n
+    entityName()\n
+    entityName()\n
     '''

@@ -1,6 +1,8 @@
-def PlusPFldPersonCustVndName():
-    '''public PlusPFldPersonCustVndName(final MboValue mbv)
+def ():
+    '''returns PlusPFldPersonCustVndName\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

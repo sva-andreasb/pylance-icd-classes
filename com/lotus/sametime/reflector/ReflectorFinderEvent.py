@@ -1,4 +1,5 @@
 REFLECTOR_LIST_CHANGED = "int  1"
 def getReflectorList():
-    '''public ReflectorInfo[] getReflectorList()
+    '''returns ReflectorInfo[]\n\n
+    getReflectorList()\n
     '''

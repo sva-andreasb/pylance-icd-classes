@@ -1,8 +1,10 @@
-def QNameCache():
-    '''public QNameCache(final int initialCapacity, final float loadFactor)
-    public QNameCache(final int initialCapacity)
+def ():
+    '''returns QNameCache\n\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final int initialCapacity)\n
     '''
 def getName():
-    '''public QName getName(final String uri, final String localName)
-    public QName getName(String uri, final String localName, String prefix)
+    '''returns QName\n\n
+    getName(final String uri, final String localName)\n
+    getName(String uri, final String localName, String prefix)\n
     '''

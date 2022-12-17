@@ -1,20 +1,26 @@
-def CutPasteGloss():
-    '''public CutPasteGloss()
-    public CutPasteGloss(final String s, final String s2)
-    public CutPasteGloss(final String s, final int n, final byte b, final byte b2)
+def ():
+    '''returns CutPasteGloss\n\n
+    ()\n
+    (final String s, final String s2)\n
+    (final String s, final int n, final byte b, final byte b2)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

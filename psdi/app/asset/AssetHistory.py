@@ -1,9 +1,12 @@
-def AssetHistory():
-    '''public AssetHistory(final MboSet ms)
+def ():
+    '''returns AssetHistory\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

@@ -1,15 +1,20 @@
-def CDUICatalogAttributeLoader():
-    '''public CDUICatalogAttributeLoader(final CDUICatalogServiceRequest cduiService)
+def ():
+    '''returns CDUICatalogAttributeLoader\n\n
+    (final CDUICatalogServiceRequest cduiService)\n
     '''
 def getAllAttributeData():
-    '''public JSONArray getAllAttributeData(final List<CDUICatalogAttribute> attributes)
+    '''returns JSONArray\n\n
+    getAllAttributeData(final List<CDUICatalogAttribute> attributes)\n
     '''
 def getCustomAttributeData():
-    '''public JSONObject getCustomAttributeData(final CDUICatalogAttribute ca, final boolean paging, final int pageSize, final int pageNum, final String searchValueInTable, final boolean loadDomain)
+    '''returns JSONObject\n\n
+    getCustomAttributeData(final CDUICatalogAttribute ca, final boolean paging, final int pageSize, final int pageNum, final String searchValueInTable, final boolean loadDomain)\n
     '''
 def getTableAttributeData():
-    '''public JSONArray getTableAttributeData(final List<CDUICatalogTableAttribute> attributes)
+    '''returns JSONArray\n\n
+    getTableAttributeData(final List<CDUICatalogTableAttribute> attributes)\n
     '''
 def getSpecAttributeData():
-    '''public JSONObject getSpecAttributeData(final CDUICatalogAttribute attribute, final boolean paging, final int pageSize, final int pageno, final String searchValue, final boolean loadDomain)
+    '''returns JSONObject\n\n
+    getSpecAttributeData(final CDUICatalogAttribute attribute, final boolean paging, final int pageSize, final int pageno, final String searchValue, final boolean loadDomain)\n
     '''

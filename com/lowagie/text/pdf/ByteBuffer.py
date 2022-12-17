@@ -1,54 +1,55 @@
-def ByteBuffer():
-    '''public ByteBuffer()
-    public ByteBuffer(int size)
-    '''
-def setCacheSize():
-    '''public static void setCacheSize(int size)
-    '''
-def fillCache():
-    '''public static void fillCache(final int decimals)
+def ():
+    '''returns ByteBuffer\n\n
+    ()\n
+    (int size)\n
     '''
 def append_i():
-    '''public ByteBuffer append_i(final int b)
+    '''returns ByteBuffer\n\n
+    append_i(final int b)\n
     '''
 def append():
-    '''public ByteBuffer append(final byte[] b, final int off, final int len)
-    public ByteBuffer append(final byte[] b)
-    public ByteBuffer append(final String str)
-    public ByteBuffer append(final char c)
-    public ByteBuffer append(final ByteBuffer buf)
-    public ByteBuffer append(final int i)
-    public ByteBuffer append(final byte b)
-    public ByteBuffer append(final float i)
-    public ByteBuffer append(final double d)
+    '''returns ByteBuffer\n\n
+    append(final byte[] b, final int off, final int len)\n
+    append(final byte[] b)\n
+    append(final String str)\n
+    append(final char c)\n
+    append(final ByteBuffer buf)\n
+    append(final int i)\n
+    append(final byte b)\n
+    append(final float i)\n
+    append(final double d)\n
     '''
 def appendHex():
-    '''public ByteBuffer appendHex(final byte b)
-    '''
-def formatDouble():
-    '''public static String formatDouble(final double d)
-    public static String formatDouble(double d, final ByteBuffer buf)
+    '''returns ByteBuffer\n\n
+    appendHex(final byte b)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray()
+    '''returns byte[]\n\n
+    toByteArray()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String enc)
+    '''returns String\n\n
+    toString()\n
+    toString(final String enc)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b, final int off, final int len)\n
     '''
 def getBuffer():
-    '''public byte[] getBuffer()
+    '''returns byte[]\n\n
+    getBuffer()\n
     '''

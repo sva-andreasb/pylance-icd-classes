@@ -3,182 +3,212 @@ DEFAULT_UA = "String  \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWeb
 CONTENT_TYPE = "String  \"Content-Type\""
 MULTIPART_FORM_DATA = "String  \"multipart/form-data\""
 FORM_URL_ENCODED = "String  \"application/x-www-form-urlencoded\""
-def connect():
-    '''public static Connection connect(final String url)
-    public static Connection connect(final URL url)
-    '''
-def HttpConnection():
-    '''public HttpConnection()
+def ():
+    '''returns HttpConnection\n\n
+    ()\n
     '''
 def url():
-    '''public Connection url(final URL url)
-    public Connection url(final String url)
-    public URL url()
-    public T url(final URL url)
+    '''returns T\n\n
+    url(final URL url)\n
+    url(final String url)\n
+    url()\n
+    url(final URL url)\n
     '''
 def proxy():
-    '''public Connection proxy(final Proxy proxy)
-    public Connection proxy(final String host, final int port)
-    public Proxy proxy()
-    public Request proxy(final Proxy proxy)
-    public Request proxy(final String host, final int port)
+    '''returns Request\n\n
+    proxy(final Proxy proxy)\n
+    proxy(final String host, final int port)\n
+    proxy()\n
+    proxy(final Proxy proxy)\n
+    proxy(final String host, final int port)\n
     '''
 def userAgent():
-    '''public Connection userAgent(final String userAgent)
+    '''returns Connection\n\n
+    userAgent(final String userAgent)\n
     '''
 def timeout():
-    '''public Connection timeout(final int millis)
-    public int timeout()
-    public Request timeout(final int millis)
+    '''returns Request\n\n
+    timeout(final int millis)\n
+    timeout()\n
+    timeout(final int millis)\n
     '''
 def maxBodySize():
-    '''public Connection maxBodySize(final int bytes)
-    public int maxBodySize()
+    '''returns int\n\n
+    maxBodySize(final int bytes)\n
+    maxBodySize()\n
     '''
 def followRedirects():
-    '''public Connection followRedirects(final boolean followRedirects)
-    public boolean followRedirects()
+    '''returns boolean\n\n
+    followRedirects(final boolean followRedirects)\n
+    followRedirects()\n
     '''
 def referrer():
-    '''public Connection referrer(final String referrer)
+    '''returns Connection\n\n
+    referrer(final String referrer)\n
     '''
 def method():
-    '''public Connection method(final Method method)
-    public Method method()
-    public T method(final Method method)
+    '''returns T\n\n
+    method(final Method method)\n
+    method()\n
+    method(final Method method)\n
     '''
 def ignoreHttpErrors():
-    '''public Connection ignoreHttpErrors(final boolean ignoreHttpErrors)
-    public boolean ignoreHttpErrors()
+    '''returns boolean\n\n
+    ignoreHttpErrors(final boolean ignoreHttpErrors)\n
+    ignoreHttpErrors()\n
     '''
 def ignoreContentType():
-    '''public Connection ignoreContentType(final boolean ignoreContentType)
-    public boolean ignoreContentType()
+    '''returns boolean\n\n
+    ignoreContentType(final boolean ignoreContentType)\n
+    ignoreContentType()\n
     '''
 def data():
-    '''public Connection data(final String key, final String value)
-    public Connection data(final String key, final String filename, final InputStream inputStream)
-    public Connection data(final String key, final String filename, final InputStream inputStream, final String contentType)
-    public Connection data(final Map<String, String> data)
-    public Connection data(final String... keyvals)
-    public Connection data(final Collection<Connection.KeyVal> data)
-    public Request data(final Connection.KeyVal keyval)
+    '''returns Request\n\n
+    data(final String key, final String value)\n
+    data(final String key, final String filename, final InputStream inputStream)\n
+    data(final String key, final String filename, final InputStream inputStream, final String contentType)\n
+    data(final Map<String, String> data)\n
+    data(final String... keyvals)\n
+    data(final Collection<Connection.KeyVal> data)\n
+    data(final Connection.KeyVal keyval)\n
     '''
 def sslSocketFactory():
-    '''public Connection sslSocketFactory(final SSLSocketFactory sslSocketFactory)
-    public SSLSocketFactory sslSocketFactory()
-    public void sslSocketFactory(final SSLSocketFactory sslSocketFactory)
+    '''returns None\n\n
+    sslSocketFactory(final SSLSocketFactory sslSocketFactory)\n
+    sslSocketFactory()\n
+    sslSocketFactory(final SSLSocketFactory sslSocketFactory)\n
     '''
 def requestBody():
-    '''public Connection requestBody(final String body)
-    public String requestBody()
+    '''returns String\n\n
+    requestBody(final String body)\n
+    requestBody()\n
     '''
 def header():
-    '''public Connection header(final String name, final String value)
-    public String header(final String name)
-    public T header(final String name, final String value)
+    '''returns T\n\n
+    header(final String name, final String value)\n
+    header(final String name)\n
+    header(final String name, final String value)\n
     '''
 def headers():
-    '''public Connection headers(final Map<String, String> headers)
-    public List<String> headers(final String name)
-    public Map<String, String> headers()
+    '''returns List<String>\n\n
+    headers(final Map<String, String> headers)\n
+    headers(final String name)\n
     '''
 def cookie():
-    '''public Connection cookie(final String name, final String value)
-    public String cookie(final String name)
-    public T cookie(final String name, final String value)
+    '''returns T\n\n
+    cookie(final String name, final String value)\n
+    cookie(final String name)\n
+    cookie(final String name, final String value)\n
     '''
 def cookies():
-    '''public Connection cookies(final Map<String, String> cookies)
-    public Map<String, String> cookies()
+    '''returns Connection\n\n
+    cookies(final Map<String, String> cookies)\n
     '''
 def parser():
-    '''public Connection parser(final Parser parser)
-    public Request parser(final Parser parser)
-    public Parser parser()
+    '''returns Parser\n\n
+    parser(final Parser parser)\n
+    parser(final Parser parser)\n
+    parser()\n
     '''
 def get():
-    '''public Document get()
+    '''returns Document\n\n
+    get()\n
     '''
 def post():
-    '''public Document post()
+    '''returns Document\n\n
+    post()\n
     '''
 def request():
-    '''public Connection request(final Connection.Request request)
+    '''returns Connection\n\n
+    request(final Connection.Request request)\n
     '''
 def response():
-    '''public Connection response(final Connection.Response response)
+    '''returns Connection\n\n
+    response(final Connection.Response response)\n
     '''
 def postDataCharset():
-    '''public Connection postDataCharset(final String charset)
-    public String postDataCharset()
+    '''returns String\n\n
+    postDataCharset(final String charset)\n
+    postDataCharset()\n
     '''
 def addHeader():
-    '''public T addHeader(final String name, String value)
+    '''returns T\n\n
+    addHeader(final String name, String value)\n
     '''
 def hasHeader():
-    '''public boolean hasHeader(final String name)
+    '''returns boolean\n\n
+    hasHeader(final String name)\n
     '''
 def hasHeaderWithValue():
-    '''public boolean hasHeaderWithValue(final String name, final String value)
+    '''returns boolean\n\n
+    hasHeaderWithValue(final String name, final String value)\n
     '''
 def removeHeader():
-    '''public T removeHeader(final String name)
-    '''
-def multiHeaders():
-    '''public Map<String, List<String>> multiHeaders()
+    '''returns T\n\n
+    removeHeader(final String name)\n
     '''
 def hasCookie():
-    '''public boolean hasCookie(final String name)
+    '''returns boolean\n\n
+    hasCookie(final String name)\n
     '''
 def removeCookie():
-    '''public T removeCookie(final String name)
+    '''returns T\n\n
+    removeCookie(final String name)\n
     '''
 def statusCode():
-    '''public int statusCode()
+    '''returns int\n\n
+    statusCode()\n
     '''
 def statusMessage():
-    '''public String statusMessage()
+    '''returns String\n\n
+    statusMessage()\n
     '''
 def charset():
-    '''public String charset()
-    public Response charset(final String charset)
+    '''returns Response\n\n
+    charset()\n
+    charset(final String charset)\n
     '''
 def contentType():
-    '''public String contentType()
-    public String contentType()
+    '''returns String\n\n
+    contentType()\n
+    contentType()\n
     '''
 def parse():
-    '''public Document parse()
+    '''returns Document\n\n
+    parse()\n
     '''
 def body():
-    '''public String body()
+    '''returns String\n\n
+    body()\n
     '''
 def bodyAsBytes():
-    '''public byte[] bodyAsBytes()
+    '''returns byte[]\n\n
+    bodyAsBytes()\n
     '''
 def bodyStream():
-    '''public BufferedInputStream bodyStream()
-    '''
-def create():
-    '''public static KeyVal create(final String key, final String value)
-    public static KeyVal create(final String key, final String filename, final InputStream stream)
+    '''returns BufferedInputStream\n\n
+    bodyStream()\n
     '''
 def key():
-    '''public KeyVal key(final String key)
-    public String key()
+    '''returns String\n\n
+    key(final String key)\n
+    key()\n
     '''
 def value():
-    '''public KeyVal value(final String value)
-    public String value()
+    '''returns String\n\n
+    value(final String value)\n
+    value()\n
     '''
 def inputStream():
-    '''public KeyVal inputStream(final InputStream inputStream)
-    public InputStream inputStream()
+    '''returns InputStream\n\n
+    inputStream(final InputStream inputStream)\n
+    inputStream()\n
     '''
 def hasInputStream():
-    '''public boolean hasInputStream()
+    '''returns boolean\n\n
+    hasInputStream()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

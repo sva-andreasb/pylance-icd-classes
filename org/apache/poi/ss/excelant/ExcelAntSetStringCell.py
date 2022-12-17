@@ -1,9 +1,12 @@
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getCellValue():
-    '''public String getCellValue()
+    '''returns String\n\n
+    getCellValue()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

@@ -1,3 +1,4 @@
-def PmScComplexItemSet():
-    '''public PmScComplexItemSet(final MboServerInterface ms)
+def ():
+    '''returns PmScComplexItemSet\n\n
+    (final MboServerInterface ms)\n
     '''

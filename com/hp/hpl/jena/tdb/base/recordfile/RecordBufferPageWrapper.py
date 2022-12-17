@@ -1,33 +1,20 @@
-def RecordBufferPageWrapper():
-    '''public RecordBufferPageWrapper(final RecordBufferPage page)
-    '''
-def getRecordBufferPage():
-    '''public final RecordBufferPage getRecordBufferPage()
-    '''
-def isFull():
-    '''public final boolean isFull()
-    '''
-def isEmpty():
-    '''public final boolean isEmpty()
+def ():
+    '''returns RecordBufferPageWrapper\n\n
+    (final RecordBufferPage page)\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
-    '''
-def getMaxSize():
-    '''public final int getMaxSize()
-    '''
-def getCount():
-    '''public final int getCount()
-    '''
-def setCount():
-    '''public final void setCount(final int count)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
     '''
 def getBackingByteBuffer():
-    '''public ByteBuffer getBackingByteBuffer()
+    '''returns ByteBuffer\n\n
+    getBackingByteBuffer()\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final int id)
+    '''returns None\n\n
+    setId(final int id)\n
     '''

@@ -1,30 +1,40 @@
-def Driver_Oracle_LOB():
-    '''public Driver_Oracle_LOB()
+def ():
+    '''returns Driver_Oracle_LOB\n\n
+    ()\n
     '''
 def setConnection():
-    '''public void setConnection(final IDBConnection dbcon)
+    '''returns None\n\n
+    setConnection(final IDBConnection dbcon)\n
     '''
 def graphIdAlloc():
-    '''public int graphIdAlloc(final String graphName)
+    '''returns int\n\n
+    graphIdAlloc(final String graphName)\n
     '''
 def graphIdDealloc():
-    '''public void graphIdDealloc(final int graphId)
+    '''returns None\n\n
+    graphIdDealloc(final int graphId)\n
     '''
 def addRDBLongObject():
-    '''public DBIDInt addRDBLongObject(final RDBLongObject lobj, final String table)
+    '''returns DBIDInt\n\n
+    addRDBLongObject(final RDBLongObject lobj, final String table)\n
     '''
 def clearSequences():
-    '''public void clearSequences()
+    '''returns None\n\n
+    clearSequences()\n
     '''
 def genSQLStringMatchLHS_IC():
-    '''public String genSQLStringMatchLHS_IC(final String var)
+    '''returns String\n\n
+    genSQLStringMatchLHS_IC(final String var)\n
     '''
 def genSQLStringMatchRHS_IC():
-    '''public String genSQLStringMatchRHS_IC(final String strToMatch)
+    '''returns String\n\n
+    genSQLStringMatchRHS_IC(final String strToMatch)\n
     '''
 def stringMatchEscapeChar():
-    '''public String stringMatchEscapeChar()
+    '''returns String\n\n
+    stringMatchEscapeChar()\n
     '''
 def genSQLStringMatchEscape():
-    '''public String genSQLStringMatchEscape()
+    '''returns String\n\n
+    genSQLStringMatchEscape()\n
     '''

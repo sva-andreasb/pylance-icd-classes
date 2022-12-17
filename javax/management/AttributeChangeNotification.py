@@ -1,16 +1,21 @@
 ATTRIBUTE_CHANGE = "String  \"jmx.attribute.change\""
 def getNewValue():
-    '''public Object getNewValue()
+    '''returns Object\n\n
+    getNewValue()\n
     '''
 def getOldValue():
-    '''public Object getOldValue()
+    '''returns Object\n\n
+    getOldValue()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def getAttributeType():
-    '''public String getAttributeType()
+    '''returns String\n\n
+    getAttributeType()\n
     '''
-def AttributeChangeNotification():
-    '''public AttributeChangeNotification(final Object o, final long n, final long n2, final String s, final String attributeName, final String attributeType, final Object oldValue, final Object newValue)
+def ():
+    '''returns AttributeChangeNotification\n\n
+    (final Object o, final long n, final long n2, final String s, final String attributeName, final String attributeType, final Object oldValue, final Object newValue)\n
     '''

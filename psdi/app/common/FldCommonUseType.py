@@ -1,3 +1,4 @@
-def FldCommonUseType():
-    '''public FldCommonUseType(final MboValue mbv)
+def ():
+    '''returns FldCommonUseType\n\n
+    (final MboValue mbv)\n
     '''

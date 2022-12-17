@@ -1,69 +1,92 @@
-def InboundComm():
-    '''public InboundComm(final MboSet ms)
+def ():
+    '''returns InboundComm\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setFormatMode():
-    '''public void setFormatMode(final int type)
+    '''returns None\n\n
+    setFormatMode(final int type)\n
     '''
 def getFormatMode():
-    '''public int getFormatMode()
+    '''returns int\n\n
+    getFormatMode()\n
     '''
 def setSenderSecurityType():
-    '''public void setSenderSecurityType(final int type)
+    '''returns None\n\n
+    setSenderSecurityType(final int type)\n
     '''
 def getSenderSecurityType():
-    '''public int getSenderSecurityType()
+    '''returns int\n\n
+    getSenderSecurityType()\n
     '''
 def setFreeFormAction():
-    '''public void setFreeFormAction(final String action)
+    '''returns None\n\n
+    setFreeFormAction(final String action)\n
     '''
 def getFreeFormAction():
-    '''public String getFreeFormAction()
+    '''returns String\n\n
+    getFreeFormAction()\n
     '''
 def setQueryWhereClause():
-    '''public void setQueryWhereClause(final String str)
+    '''returns None\n\n
+    setQueryWhereClause(final String str)\n
     '''
 def getQueryWhereClause():
-    '''public String getQueryWhereClause()
+    '''returns String\n\n
+    getQueryWhereClause()\n
     '''
 def setResultColumn():
-    '''public void setResultColumn(final String str)
+    '''returns None\n\n
+    setResultColumn(final String str)\n
     '''
 def getResultColumn():
-    '''public String getResultColumn()
+    '''returns String\n\n
+    getResultColumn()\n
     '''
 def setAppName():
-    '''public void setAppName(final String str)
+    '''returns None\n\n
+    setAppName(final String str)\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def setNewStatusValue():
-    '''public void setNewStatusValue(final String str)
+    '''returns None\n\n
+    setNewStatusValue(final String str)\n
     '''
 def getNewStatusValue():
-    '''public String getNewStatusValue()
+    '''returns String\n\n
+    getNewStatusValue()\n
     '''
 def setAttrHash():
-    '''public void setAttrHash(final Hashtable ht)
+    '''returns None\n\n
+    setAttrHash(final Hashtable ht)\n
     '''
 def getAttrHash():
-    '''public Hashtable getAttrHash()
+    '''returns Hashtable\n\n
+    getAttrHash()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getCommLogOwnerNameAndUniqueId():
-    '''public Object[] getCommLogOwnerNameAndUniqueId()
+    '''returns Object[]\n\n
+    getCommLogOwnerNameAndUniqueId()\n
     '''
 def setCommLogOwnerNameAndUniqueId():
-    '''public void setCommLogOwnerNameAndUniqueId(final Object[] obj)
+    '''returns None\n\n
+    setCommLogOwnerNameAndUniqueId(final Object[] obj)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

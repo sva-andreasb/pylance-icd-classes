@@ -1,227 +1,301 @@
-def PO():
-    '''public PO(final MboSet ms)
+def ():
+    '''returns PO\n\n
+    (final MboSet ms)\n
     '''
 def getProcess():
-    '''public String getProcess()
+    '''returns String\n\n
+    getProcess()\n
     '''
 def setCancelFlag():
-    '''public void setCancelFlag(final boolean po)
+    '''returns None\n\n
+    setCancelFlag(final boolean po)\n
     '''
 def getCancelFlag():
-    '''public boolean getCancelFlag()
+    '''returns boolean\n\n
+    getCancelFlag()\n
     '''
 def resetCancelFlag():
-    '''public void resetCancelFlag()
+    '''returns None\n\n
+    resetCancelFlag()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def isApproved():
-    '''public boolean isApproved()
+    '''returns boolean\n\n
+    isApproved()\n
     '''
 def isInternal():
-    '''public boolean isInternal()
+    '''returns boolean\n\n
+    isInternal()\n
     '''
 def createReceipt():
-    '''public MboRemote createReceipt(final MboSetRemote existingReceiptSet, final long polinenum, final String ownersysid)
+    '''returns MboRemote\n\n
+    createReceipt(final MboSetRemote existingReceiptSet, final long polinenum, final String ownersysid)\n
     '''
 def createReturn():
-    '''public MboRemote createReturn(final MatRecTransSet existingReceiptSet, final long polinenum, final MboRemote matRecTransMbo)
-    public MboRemote createReturn(final MboSetRemote existingReceiptSet, final long polinenum, final String ownersysid)
+    '''returns MboRemote\n\n
+    createReturn(final MatRecTransSet existingReceiptSet, final long polinenum, final MboRemote matRecTransMbo)\n
+    createReturn(final MboSetRemote existingReceiptSet, final long polinenum, final String ownersysid)\n
     '''
 def receive():
-    '''public void receive(final MboSetRemote receiptSet, final int lineNumber, final double quantity, final String binnum)
+    '''returns None\n\n
+    receive(final MboSetRemote receiptSet, final int lineNumber, final double quantity, final String binnum)\n
     '''
 def receiveRotatingItemOnInternalPO():
-    '''public void receiveRotatingItemOnInternalPO(final MboSetRemote receiptSet, final int lineNumber, final String binnum, final String assetnum)
+    '''returns None\n\n
+    receiveRotatingItemOnInternalPO(final MboSetRemote receiptSet, final int lineNumber, final String binnum, final String assetnum)\n
     '''
 def determineReceiptStatus():
-    '''public void determineReceiptStatus()
-    public void determineReceiptStatus(final POLineRemote poLine)
+    '''returns None\n\n
+    determineReceiptStatus()\n
+    determineReceiptStatus(final POLineRemote poLine)\n
     '''
 def validatePO():
-    '''public void validatePO()
+    '''returns None\n\n
+    validatePO()\n
     '''
 def setTotalCost():
-    '''public void setTotalCost()
+    '''returns None\n\n
+    setTotalCost()\n
     '''
 def canCreateChangeOrder():
-    '''public void canCreateChangeOrder()
+    '''returns None\n\n
+    canCreateChangeOrder()\n
     '''
 def hasReceipts():
-    '''public void hasReceipts()
+    '''returns None\n\n
+    hasReceipts()\n
     '''
 def prorateServices():
-    '''public void prorateServices()
+    '''returns None\n\n
+    prorateServices()\n
     '''
 def getAvailableFunds():
-    '''public double getAvailableFunds()
+    '''returns double\n\n
+    getAvailableFunds()\n
     '''
 def createPOLineFromPR():
-    '''public MboRemote createPOLineFromPR(final MboRemote fromPR, final MboRemote fromPRLine, final MboSetRemote poLines)
+    '''returns MboRemote\n\n
+    createPOLineFromPR(final MboRemote fromPR, final MboRemote fromPRLine, final MboSetRemote poLines)\n
     '''
 def copySelectedLinesToRelease():
-    '''public void copySelectedLinesToRelease(final PORemote toPOMbo)
+    '''returns None\n\n
+    copySelectedLinesToRelease(final PORemote toPOMbo)\n
     '''
 def copyBlanketLinesToRelease():
-    '''public void copyBlanketLinesToRelease(final PORemote toPOMbo)
+    '''returns None\n\n
+    copyBlanketLinesToRelease(final PORemote toPOMbo)\n
     '''
 def deleteDistributions():
-    '''public void deleteDistributions()
+    '''returns None\n\n
+    deleteDistributions()\n
     '''
 def isPOBuyAhead():
-    '''public boolean isPOBuyAhead()
+    '''returns boolean\n\n
+    isPOBuyAhead()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def isPOStatusAPPR():
-    '''public boolean isPOStatusAPPR()
+    '''returns boolean\n\n
+    isPOStatusAPPR()\n
     '''
 def isPOStatusINPRG():
-    '''public boolean isPOStatusINPRG()
+    '''returns boolean\n\n
+    isPOStatusINPRG()\n
     '''
 def getPORecord():
-    '''public Vector getPORecord()
+    '''returns Vector\n\n
+    getPORecord()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def createChangeOrder():
-    '''public MboRemote createChangeOrder(final String ponum, final String description)
+    '''returns MboRemote\n\n
+    createChangeOrder(final String ponum, final String description)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def setRelatedMboEditibility():
-    '''public void setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)\n
     '''
 def poSentToVendor():
-    '''public void poSentToVendor()
+    '''returns None\n\n
+    poSentToVendor()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def copyPRToCurrentPO():
-    '''public void copyPRToCurrentPO(final MboSetRemote sourcePRLineSet)
+    '''returns None\n\n
+    copyPRToCurrentPO(final MboSetRemote sourcePRLineSet)\n
     '''
 def copyPRToNewPO():
-    '''public void copyPRToNewPO(final MboSetRemote sourcePRLineSet)
+    '''returns None\n\n
+    copyPRToNewPO(final MboSetRemote sourcePRLineSet)\n
     '''
 def copySpareParts():
-    '''public void copySpareParts(final MboSetRemote sparePartSet)
+    '''returns None\n\n
+    copySpareParts(final MboSetRemote sparePartSet)\n
     '''
 def addInvVendorItemsToPOLine():
-    '''public void addInvVendorItemsToPOLine(final MboSetRemote invVendorSetRemote)
+    '''returns None\n\n
+    addInvVendorItemsToPOLine(final MboSetRemote invVendorSetRemote)\n
     '''
 def canDuplicate():
-    '''public void canDuplicate()
+    '''returns None\n\n
+    canDuplicate()\n
     '''
 def addToReceiptVector():
-    '''public void addToReceiptVector(final MboRemote receiptRemote)
+    '''returns None\n\n
+    addToReceiptVector(final MboRemote receiptRemote)\n
     '''
 def addToInvoiceLineVector():
-    '''public void addToInvoiceLineVector(final MboRemote invoiceLineRemote)
+    '''returns None\n\n
+    addToInvoiceLineVector(final MboRemote invoiceLineRemote)\n
     '''
 def getReceiptVector():
-    '''public Vector getReceiptVector()
+    '''returns Vector\n\n
+    getReceiptVector()\n
     '''
 def getInvoiceLineVector():
-    '''public Vector getInvoiceLineVector()
+    '''returns Vector\n\n
+    getInvoiceLineVector()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
     '''
 def createContractFromPO():
-    '''public void createContractFromPO(final String contractNum, final String description, final String contractType)
+    '''returns None\n\n
+    createContractFromPO(final String contractNum, final String description, final String contractType)\n
     '''
 def checkingBeforeCreateContract():
-    '''public void checkingBeforeCreateContract()
+    '''returns None\n\n
+    checkingBeforeCreateContract()\n
     '''
 def checkWAPPRStatus():
-    '''public void checkWAPPRStatus()
+    '''returns None\n\n
+    checkWAPPRStatus()\n
     '''
 def copyDefaultTerms():
-    '''public void copyDefaultTerms()
+    '''returns None\n\n
+    copyDefaultTerms()\n
     '''
 def updateReleasePO():
-    '''public void updateReleasePO(final MboRemote contractRemote)
+    '''returns None\n\n
+    updateReleasePO(final MboRemote contractRemote)\n
     '''
 def createInvoicesForSchedule():
-    '''public void createInvoicesForSchedule()
+    '''returns None\n\n
+    createInvoicesForSchedule()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def checkingBeforeCompleteReceipts():
-    '''public void checkingBeforeCompleteReceipts()
+    '''returns None\n\n
+    checkingBeforeCompleteReceipts()\n
     '''
 def getSharedWorkorder():
-    '''public MboRemote getSharedWorkorder(final MboRemote mboRemote, final String wonum)
+    '''returns MboRemote\n\n
+    getSharedWorkorder(final MboRemote mboRemote, final String wonum)\n
     '''
 def setFromOnePO():
-    '''public void setFromOnePO(final boolean flag)
+    '''returns None\n\n
+    setFromOnePO(final boolean flag)\n
     '''
 def getFromOnePO():
-    '''public boolean getFromOnePO()
+    '''returns boolean\n\n
+    getFromOnePO()\n
     '''
 def generateWO():
-    '''public void generateWO()
+    '''returns None\n\n
+    generateWO()\n
     '''
 def createSoftwareContractHeader():
-    '''public MboRemote createSoftwareContractHeader(final String contractNum, final String description, final String contractType)
+    '''returns MboRemote\n\n
+    createSoftwareContractHeader(final String contractNum, final String description, final String contractType)\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def canRevisePO():
-    '''public void canRevisePO()
+    '''returns None\n\n
+    canRevisePO()\n
     '''
 def revisePO():
-    '''public MboRemote revisePO()
-    public MboRemote revisePO(final String revDescription)
-    public MboRemote revisePO(final String revDescription, boolean allowReceipt)
+    '''returns MboRemote\n\n
+    revisePO()\n
+    revisePO(final String revDescription)\n
+    revisePO(final String revDescription, boolean allowReceipt)\n
     '''
 def getNextRevision():
-    '''public MboRemote getNextRevision()
+    '''returns MboRemote\n\n
+    getNextRevision()\n
     '''
 def getPreviousRevision():
-    '''public MboRemote getPreviousRevision()
+    '''returns MboRemote\n\n
+    getPreviousRevision()\n
     '''
 def getApprRevision():
-    '''public MboRemote getApprRevision()
+    '''returns MboRemote\n\n
+    getApprRevision()\n
     '''
 def updatePndRevPO():
-    '''public void updatePndRevPO()
+    '''returns None\n\n
+    updatePndRevPO()\n
     '''
 def checkPOLineQtyCost():
-    '''public void checkPOLineQtyCost(final MboRemote pndrevPOLine)
-    public void checkPOLineQtyCost(final MboRemote apprPOLine, final MboRemote pndrevPOLine)
+    '''returns None\n\n
+    checkPOLineQtyCost(final MboRemote pndrevPOLine)\n
+    checkPOLineQtyCost(final MboRemote apprPOLine, final MboRemote pndrevPOLine)\n
     '''
 def useLineOrLoadedCost():
-    '''public String useLineOrLoadedCost()
+    '''returns String\n\n
+    useLineOrLoadedCost()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def setDontCheckCompleteFlag():
-    '''public void setDontCheckCompleteFlag(final boolean flag)
+    '''returns None\n\n
+    setDontCheckCompleteFlag(final boolean flag)\n
     '''
 def getDontCheckCompleteFlag():
-    '''public boolean getDontCheckCompleteFlag()
+    '''returns boolean\n\n
+    getDontCheckCompleteFlag()\n
     '''

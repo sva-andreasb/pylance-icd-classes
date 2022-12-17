@@ -1,12 +1,16 @@
-def POChangeStatus():
-    '''public POChangeStatus(final MboSet ms)
+def ():
+    '''returns POChangeStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setFromResult():
-    '''public void setFromResult(final boolean flag)
+    '''returns None\n\n
+    setFromResult(final boolean flag)\n
     '''
 def getFromResult():
-    '''public boolean getFromResult()
+    '''returns boolean\n\n
+    getFromResult()\n
     '''

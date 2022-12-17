@@ -1,21 +1,28 @@
-def ActiveUsersInfo():
-    '''public ActiveUsersInfo(final String loginId, final String tenantCode, final int tenantid)
+def ():
+    '''returns ActiveUsersInfo\n\n
+    (final String loginId, final String tenantCode, final int tenantid)\n
     '''
 def getTenantCode():
-    '''public String getTenantCode()
+    '''returns String\n\n
+    getTenantCode()\n
     '''
 def addUser():
-    '''public void addUser(final int id)
+    '''returns None\n\n
+    addUser(final int id)\n
     '''
 def hasTenant():
-    '''public boolean hasTenant(final int tenantid)
+    '''returns boolean\n\n
+    hasTenant(final int tenantid)\n
     '''
 def isConsultantUser():
-    '''public boolean isConsultantUser()
+    '''returns boolean\n\n
+    isConsultantUser()\n
     '''
 def getTenantID():
-    '''public int getTenantID()
+    '''returns int\n\n
+    getTenantID()\n
     '''
 def getAllTenantsForLoginID():
-    '''public List<String> getAllTenantsForLoginID()
+    '''returns List<String>\n\n
+    getAllTenantsForLoginID()\n
     '''

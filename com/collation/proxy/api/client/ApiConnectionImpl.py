@@ -1,56 +1,60 @@
-def ApiConnectionImpl():
-    '''public ApiConnectionImpl()
-    '''
-def getConnection():
-    '''public static ApiConnection getConnection(final String host, final int port, final boolean useSSL)
-    public static ApiConnection getConnection(final String host, final int port, final String trustStoreLocation, final boolean useSSL)
-    public static ApiConnection getConnection(final String host, final boolean useSSL)
-    '''
-def enableSSLDebug():
-    '''public static void enableSSLDebug()
+def ():
+    '''returns ApiConnectionImpl\n\n
+    ()\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def close():
-    '''public void close()
-    '''
-def closeAll():
-    '''public static void closeAll()
+    '''returns None\n\n
+    close()\n
     '''
 def init():
-    '''public void init(final String host, int port, final boolean ssl, final String trustStore)
+    '''returns None\n\n
+    init(final String host, int port, final boolean ssl, final String trustStore)\n
     '''
 def getPresentationApi():
-    '''public ApiServerInterface getPresentationApi()
+    '''returns ApiServerInterface\n\n
+    getPresentationApi()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isSSL():
-    '''public boolean isSSL()
+    '''returns boolean\n\n
+    isSSL()\n
     '''
 def getTrustStore():
-    '''public String getTrustStore()
+    '''returns String\n\n
+    getTrustStore()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getFingerPrint():
-    '''public long getFingerPrint()
+    '''returns long\n\n
+    getFingerPrint()\n
     '''
 def addSession():
-    '''public void addSession(final ApiSession session)
+    '''returns None\n\n
+    addSession(final ApiSession session)\n
     '''
 def removeSession():
-    '''public void removeSession(final ApiSession session)
+    '''returns None\n\n
+    removeSession(final ApiSession session)\n
     '''

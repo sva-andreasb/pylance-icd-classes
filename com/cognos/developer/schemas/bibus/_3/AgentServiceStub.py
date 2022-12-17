@@ -1,23 +1,30 @@
-def AgentServiceStub():
-    '''public AgentServiceStub()
-    public AgentServiceStub(final URL endpointURL, final Service service)
-    public AgentServiceStub(final Service service)
+def ():
+    '''returns AgentServiceStub\n\n
+    ()\n
+    (final URL endpointURL, final Service service)\n
+    (final Service service)\n
     '''
 def cancel():
-    '''public void cancel(final AsynchRequest conversation)
+    '''returns None\n\n
+    cancel(final AsynchRequest conversation)\n
     '''
 def deleteHotList():
-    '''public void deleteHotList(final SearchPathSingleObject objectPath)
+    '''returns None\n\n
+    deleteHotList(final SearchPathSingleObject objectPath)\n
     '''
 def release():
-    '''public void release(final AsynchRequest conversation)
+    '''returns None\n\n
+    release(final AsynchRequest conversation)\n
     '''
 def run():
-    '''public AsynchReply run(final SearchPathSingleObject objectPath, final ParameterValue[] parameterValues, final Option[] options)
+    '''returns AsynchReply\n\n
+    run(final SearchPathSingleObject objectPath, final ParameterValue[] parameterValues, final Option[] options)\n
     '''
 def runSpecification():
-    '''public AsynchReply runSpecification(final AsynchSpecification specification, final ParameterValue[] parameterValues, final Option[] options)
+    '''returns AsynchReply\n\n
+    runSpecification(final AsynchSpecification specification, final ParameterValue[] parameterValues, final Option[] options)\n
     '''
 def wait():
-    '''public AsynchReply wait(final AsynchRequest conversation, final ParameterValue[] parameterValues, final Option[] options)
+    '''returns AsynchReply\n\n
+    wait(final AsynchRequest conversation, final ParameterValue[] parameterValues, final Option[] options)\n
     '''

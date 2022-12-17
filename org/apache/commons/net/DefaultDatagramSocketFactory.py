@@ -1,5 +1,6 @@
 def createDatagramSocket():
-    '''public DatagramSocket createDatagramSocket()
-    public DatagramSocket createDatagramSocket(final int port)
-    public DatagramSocket createDatagramSocket(final int port, final InetAddress laddr)
+    '''returns DatagramSocket\n\n
+    createDatagramSocket()\n
+    createDatagramSocket(final int port)\n
+    createDatagramSocket(final int port, final InetAddress laddr)\n
     '''

@@ -1,10 +1,13 @@
-def ProgressTracker():
-    '''public ProgressTracker()
+def ():
+    '''returns ProgressTracker\n\n
+    ()\n
     '''
 def progressChanged():
-    '''public void progressChanged(final ProgressEvent progressEvent)
-    public void progressChanged(final ProgressEvent progressEvent)
+    '''returns None\n\n
+    progressChanged(final ProgressEvent progressEvent)\n
+    progressChanged(final ProgressEvent progressEvent)\n
     '''
 def getProgress():
-    '''public Progress getProgress()
+    '''returns Progress\n\n
+    getProgress()\n
     '''

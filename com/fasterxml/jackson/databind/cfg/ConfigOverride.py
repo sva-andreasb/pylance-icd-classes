@@ -1,9 +1,8 @@
-def empty():
-    '''public static ConfigOverride empty()
-    '''
 def getIsIgnoredType():
-    '''public Boolean getIsIgnoredType()
+    '''returns Boolean\n\n
+    getIsIgnoredType()\n
     '''
 def getMergeable():
-    '''public Boolean getMergeable()
+    '''returns Boolean\n\n
+    getMergeable()\n
     '''

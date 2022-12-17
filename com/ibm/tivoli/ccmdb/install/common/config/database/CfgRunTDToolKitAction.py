@@ -1,33 +1,36 @@
-def CfgRunTDToolKitAction():
-    '''public CfgRunTDToolKitAction()
+def ():
+    '''returns CfgRunTDToolKitAction\n\n
+    ()\n
     '''
 def existsAndIsConfigured():
-    '''public boolean existsAndIsConfigured()
+    '''returns boolean\n\n
+    existsAndIsConfigured()\n
     '''
 def performAction():
-    '''public TaskResult performAction()
+    '''returns TaskResult\n\n
+    performAction()\n
     '''
 def undoAction():
-    '''public TaskResult undoAction()
-    '''
-def getInstance():
-    '''public static ICfgConfigurationAction getInstance()
+    '''returns TaskResult\n\n
+    undoAction()\n
     '''
 def expandDatabase():
-    '''public TaskResult expandDatabase(final String base, final String addl, final String pmps)
+    '''returns TaskResult\n\n
+    expandDatabase(final String base, final String addl, final String pmps)\n
     '''
 def aMaximoUpgradeHasOccurred():
-    '''public boolean aMaximoUpgradeHasOccurred()
+    '''returns boolean\n\n
+    aMaximoUpgradeHasOccurred()\n
     '''
 def queryIMTrackingInfo():
-    '''public TaskResult queryIMTrackingInfo()
+    '''returns TaskResult\n\n
+    queryIMTrackingInfo()\n
     '''
 def unzipMaximoXliffs():
-    '''public TaskResult unzipMaximoXliffs(final String xliffLocale)
+    '''returns TaskResult\n\n
+    unzipMaximoXliffs(final String xliffLocale)\n
     '''
 def unzipXliffFile():
-    '''public TaskResult unzipXliffFile(final String fileName, final String maximoDir)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns TaskResult\n\n
+    unzipXliffFile(final String fileName, final String maximoDir)\n
     '''

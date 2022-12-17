@@ -1,12 +1,16 @@
-def TransferRequest():
-    '''public TransferRequest(final String inviter, final String room, final String reason)
+def ():
+    '''returns TransferRequest\n\n
+    (final String inviter, final String room, final String reason)\n
     '''
 def getInviter():
-    '''public String getInviter()
+    '''returns String\n\n
+    getInviter()\n
     '''
 def getRoom():
-    '''public String getRoom()
+    '''returns String\n\n
+    getRoom()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''

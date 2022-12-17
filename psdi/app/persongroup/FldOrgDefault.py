@@ -1,6 +1,8 @@
-def FldOrgDefault():
-    '''public FldOrgDefault(final MboValue mbv)
+def ():
+    '''returns FldOrgDefault\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

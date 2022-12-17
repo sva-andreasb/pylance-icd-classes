@@ -1,3 +1,4 @@
-def StoreTriplesNodesIndexSQLServer():
-    '''public StoreTriplesNodesIndexSQLServer(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreTriplesNodesIndexSQLServer\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

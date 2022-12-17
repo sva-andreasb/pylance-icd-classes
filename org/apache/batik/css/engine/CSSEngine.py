@@ -1,197 +1,246 @@
-def getCSSParentNode():
-    '''public static Node getCSSParentNode(final Node n)
-    '''
-def getParentCSSStylableElement():
-    '''public static CSSStylableElement getParentCSSStylableElement(final Element elt)
-    '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''
 def getCSSContext():
-    '''public CSSContext getCSSContext()
+    '''returns CSSContext\n\n
+    getCSSContext()\n
     '''
 def getDocument():
-    '''public Document getDocument()
+    '''returns Document\n\n
+    getDocument()\n
     '''
 def getFontSizeIndex():
-    '''public int getFontSizeIndex()
+    '''returns int\n\n
+    getFontSizeIndex()\n
     '''
 def getLineHeightIndex():
-    '''public int getLineHeightIndex()
+    '''returns int\n\n
+    getLineHeightIndex()\n
     '''
 def getColorIndex():
-    '''public int getColorIndex()
+    '''returns int\n\n
+    getColorIndex()\n
     '''
 def getNumberOfProperties():
-    '''public int getNumberOfProperties()
+    '''returns int\n\n
+    getNumberOfProperties()\n
     '''
 def getPropertyIndex():
-    '''public int getPropertyIndex(final String name)
+    '''returns int\n\n
+    getPropertyIndex(final String name)\n
     '''
 def getShorthandIndex():
-    '''public int getShorthandIndex(final String name)
+    '''returns int\n\n
+    getShorthandIndex(final String name)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName(final int idx)
+    '''returns String\n\n
+    getPropertyName(final int idx)\n
     '''
 def setCSSEngineUserAgent():
-    '''public void setCSSEngineUserAgent(final CSSEngineUserAgent userAgent)
+    '''returns None\n\n
+    setCSSEngineUserAgent(final CSSEngineUserAgent userAgent)\n
     '''
 def getCSSEngineUserAgent():
-    '''public CSSEngineUserAgent getCSSEngineUserAgent()
+    '''returns CSSEngineUserAgent\n\n
+    getCSSEngineUserAgent()\n
     '''
 def setUserAgentStyleSheet():
-    '''public void setUserAgentStyleSheet(final StyleSheet ss)
+    '''returns None\n\n
+    setUserAgentStyleSheet(final StyleSheet ss)\n
     '''
 def setUserStyleSheet():
-    '''public void setUserStyleSheet(final StyleSheet ss)
+    '''returns None\n\n
+    setUserStyleSheet(final StyleSheet ss)\n
     '''
 def getValueManagers():
-    '''public ValueManager[] getValueManagers()
+    '''returns ValueManager[]\n\n
+    getValueManagers()\n
     '''
 def getShorthandManagers():
-    '''public ShorthandManager[] getShorthandManagers()
+    '''returns ShorthandManager[]\n\n
+    getShorthandManagers()\n
     '''
 def getFontFaces():
-    '''public List getFontFaces()
+    '''returns List\n\n
+    getFontFaces()\n
     '''
 def setMedia():
-    '''public void setMedia(final String str)
+    '''returns None\n\n
+    setMedia(final String str)\n
     '''
 def setAlternateStyleSheet():
-    '''public void setAlternateStyleSheet(final String str)
+    '''returns None\n\n
+    setAlternateStyleSheet(final String str)\n
     '''
 def importCascadedStyleMaps():
-    '''public void importCascadedStyleMaps(final Element src, final CSSEngine srceng, final Element dest)
+    '''returns None\n\n
+    importCascadedStyleMaps(final Element src, final CSSEngine srceng, final Element dest)\n
     '''
 def getCSSBaseURI():
-    '''public ParsedURL getCSSBaseURI()
+    '''returns ParsedURL\n\n
+    getCSSBaseURI()\n
     '''
 def getCascadedStyleMap():
-    '''public StyleMap getCascadedStyleMap(final CSSStylableElement elt, final String pseudo)
+    '''returns StyleMap\n\n
+    getCascadedStyleMap(final CSSStylableElement elt, final String pseudo)\n
     '''
 def property():
-    '''public void property(final String pname, final LexicalUnit lu, final boolean important)
-    public void property(final String pname, final LexicalUnit lu, final boolean important)
-    public void property(final String name, final LexicalUnit value, final boolean important)
-    public void property(final String name, final LexicalUnit value, final boolean important)
-    public void property(final String name, final LexicalUnit value, final boolean important)
-    public void property(final String name, final LexicalUnit value, final boolean important)
-    public void property(final String name, final LexicalUnit value, final boolean important)
+    '''returns None\n\n
+    property(final String pname, final LexicalUnit lu, final boolean important)\n
+    property(final String pname, final LexicalUnit lu, final boolean important)\n
+    property(final String name, final LexicalUnit value, final boolean important)\n
+    property(final String name, final LexicalUnit value, final boolean important)\n
+    property(final String name, final LexicalUnit value, final boolean important)\n
+    property(final String name, final LexicalUnit value, final boolean important)\n
+    property(final String name, final LexicalUnit value, final boolean important)\n
     '''
 def getComputedStyle():
-    '''public Value getComputedStyle(final CSSStylableElement elt, final String pseudo, final int propidx)
+    '''returns Value\n\n
+    getComputedStyle(final CSSStylableElement elt, final String pseudo, final int propidx)\n
     '''
 def getStyleSheetNodes():
-    '''public List getStyleSheetNodes()
+    '''returns List\n\n
+    getStyleSheetNodes()\n
     '''
 def setMainProperties():
-    '''public void setMainProperties(final CSSStylableElement elt, final MainPropertyReceiver dst, final String pname, final String value, final boolean important)
+    '''returns None\n\n
+    setMainProperties(final CSSStylableElement elt, final MainPropertyReceiver dst, final String pname, final String value, final boolean important)\n
     '''
 def parsePropertyValue():
-    '''public Value parsePropertyValue(final CSSStylableElement elt, final String prop, final String value)
+    '''returns Value\n\n
+    parsePropertyValue(final CSSStylableElement elt, final String prop, final String value)\n
     '''
 def parseStyleDeclaration():
-    '''public StyleDeclaration parseStyleDeclaration(final CSSStylableElement elt, final String value)
+    '''returns StyleDeclaration\n\n
+    parseStyleDeclaration(final CSSStylableElement elt, final String value)\n
     '''
 def parseStyleSheet():
-    '''public StyleSheet parseStyleSheet(final ParsedURL uri, final String media)
-    public StyleSheet parseStyleSheet(final InputSource is, final ParsedURL uri, final String media)
-    public void parseStyleSheet(final StyleSheet ss, final ParsedURL uri)
-    public StyleSheet parseStyleSheet(final String rules, final ParsedURL uri, final String media)
-    public void parseStyleSheet(final StyleSheet ss, final String rules, final ParsedURL uri)
+    '''returns None\n\n
+    parseStyleSheet(final ParsedURL uri, final String media)\n
+    parseStyleSheet(final InputSource is, final ParsedURL uri, final String media)\n
+    parseStyleSheet(final StyleSheet ss, final ParsedURL uri)\n
+    parseStyleSheet(final String rules, final ParsedURL uri, final String media)\n
+    parseStyleSheet(final StyleSheet ss, final String rules, final ParsedURL uri)\n
     '''
 def addCSSEngineListener():
-    '''public void addCSSEngineListener(final CSSEngineListener l)
+    '''returns None\n\n
+    addCSSEngineListener(final CSSEngineListener l)\n
     '''
 def removeCSSEngineListener():
-    '''public void removeCSSEngineListener(final CSSEngineListener l)
+    '''returns None\n\n
+    removeCSSEngineListener(final CSSEngineListener l)\n
     '''
 def startDocument():
-    '''public void startDocument(final InputSource source)
-    public void startDocument(final InputSource source)
+    '''returns None\n\n
+    startDocument(final InputSource source)\n
+    startDocument(final InputSource source)\n
     '''
 def endDocument():
-    '''public void endDocument(final InputSource source)
-    public void endDocument(final InputSource source)
+    '''returns None\n\n
+    endDocument(final InputSource source)\n
+    endDocument(final InputSource source)\n
     '''
 def ignorableAtRule():
-    '''public void ignorableAtRule(final String atRule)
-    public void ignorableAtRule(final String atRule)
+    '''returns None\n\n
+    ignorableAtRule(final String atRule)\n
+    ignorableAtRule(final String atRule)\n
     '''
 def importStyle():
-    '''public void importStyle(final String uri, final SACMediaList media, final String defaultNamespaceURI)
-    public void importStyle(final String uri, final SACMediaList media, final String defaultNamespaceURI)
+    '''returns None\n\n
+    importStyle(final String uri, final SACMediaList media, final String defaultNamespaceURI)\n
+    importStyle(final String uri, final SACMediaList media, final String defaultNamespaceURI)\n
     '''
 def startMedia():
-    '''public void startMedia(final SACMediaList media)
-    public void startMedia(final SACMediaList media)
+    '''returns None\n\n
+    startMedia(final SACMediaList media)\n
+    startMedia(final SACMediaList media)\n
     '''
 def endMedia():
-    '''public void endMedia(final SACMediaList media)
-    public void endMedia(final SACMediaList media)
+    '''returns None\n\n
+    endMedia(final SACMediaList media)\n
+    endMedia(final SACMediaList media)\n
     '''
 def startPage():
-    '''public void startPage(final String name, final String pseudo_page)
-    public void startPage(final String name, final String pseudo_page)
+    '''returns None\n\n
+    startPage(final String name, final String pseudo_page)\n
+    startPage(final String name, final String pseudo_page)\n
     '''
 def endPage():
-    '''public void endPage(final String name, final String pseudo_page)
-    public void endPage(final String name, final String pseudo_page)
+    '''returns None\n\n
+    endPage(final String name, final String pseudo_page)\n
+    endPage(final String name, final String pseudo_page)\n
     '''
 def startFontFace():
-    '''public void startFontFace()
-    public void startFontFace()
+    '''returns None\n\n
+    startFontFace()\n
+    startFontFace()\n
     '''
 def endFontFace():
-    '''public void endFontFace()
-    public void endFontFace()
+    '''returns None\n\n
+    endFontFace()\n
+    endFontFace()\n
     '''
 def startSelector():
-    '''public void startSelector(final SelectorList selectors)
-    public void startSelector(final SelectorList selectors)
+    '''returns None\n\n
+    startSelector(final SelectorList selectors)\n
+    startSelector(final SelectorList selectors)\n
     '''
 def endSelector():
-    '''public void endSelector(final SelectorList selectors)
-    public void endSelector(final SelectorList selectors)
+    '''returns None\n\n
+    endSelector(final SelectorList selectors)\n
+    endSelector(final SelectorList selectors)\n
     '''
 def comment():
-    '''public void comment(final String text)
+    '''returns None\n\n
+    comment(final String text)\n
     '''
 def namespaceDeclaration():
-    '''public void namespaceDeclaration(final String prefix, final String uri)
+    '''returns None\n\n
+    namespaceDeclaration(final String prefix, final String uri)\n
     '''
 def nodeInserted():
-    '''public void nodeInserted(final Node newNode)
+    '''returns None\n\n
+    nodeInserted(final Node newNode)\n
     '''
 def nodeToBeRemoved():
-    '''public void nodeToBeRemoved(final Node oldNode)
+    '''returns None\n\n
+    nodeToBeRemoved(final Node oldNode)\n
     '''
 def subtreeModified():
-    '''public void subtreeModified(final Node rootOfModifications)
+    '''returns None\n\n
+    subtreeModified(final Node rootOfModifications)\n
     '''
 def characterDataModified():
-    '''public void characterDataModified(final Node text)
+    '''returns None\n\n
+    characterDataModified(final Node text)\n
     '''
 def attrModified():
-    '''public void attrModified(final Element e, final Attr attr, final short attrChange, final String prevValue, final String newValue)
+    '''returns None\n\n
+    attrModified(final Element e, final Attr attr, final short attrChange, final String prevValue, final String newValue)\n
     '''
 def overrideStyleTextChanged():
-    '''public void overrideStyleTextChanged(final CSSStylableElement elt, final String text)
+    '''returns None\n\n
+    overrideStyleTextChanged(final CSSStylableElement elt, final String text)\n
     '''
 def overrideStylePropertyRemoved():
-    '''public void overrideStylePropertyRemoved(final CSSStylableElement elt, final String name)
+    '''returns None\n\n
+    overrideStylePropertyRemoved(final CSSStylableElement elt, final String name)\n
     '''
 def overrideStylePropertyChanged():
-    '''public void overrideStylePropertyChanged(final CSSStylableElement elt, final String name, final String val, final String prio)
+    '''returns None\n\n
+    overrideStylePropertyChanged(final CSSStylableElement elt, final String name, final String val, final String prio)\n
     '''
 def setMainProperty():
-    '''public void setMainProperty(final String name, final Value v, final boolean important)
+    '''returns None\n\n
+    setMainProperty(final String name, final Value v, final boolean important)\n
     '''
 def handleEvent():
-    '''public void handleEvent(final Event evt)
-    public void handleEvent(final Event evt)
-    public void handleEvent(final Event evt)
-    public void handleEvent(final Event evt)
-    public void handleEvent(final Event evt)
+    '''returns None\n\n
+    handleEvent(final Event evt)\n
+    handleEvent(final Event evt)\n
+    handleEvent(final Event evt)\n
+    handleEvent(final Event evt)\n
+    handleEvent(final Event evt)\n
     '''

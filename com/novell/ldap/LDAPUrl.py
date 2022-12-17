@@ -1,58 +1,64 @@
-def LDAPUrl():
-    '''public LDAPUrl()
-    public LDAPUrl(final String s)
-    public LDAPUrl(final String host, final int port, final String dn)
-    public LDAPUrl(final String host, final int port, final String dn, final String[] array, final int scope, final String filter, final String[] array2)
-    public LDAPUrl(final String host, final int port, final String dn, final String[] attrs, final int scope, final String filter, final String[] array, final boolean secure)
+def ():
+    '''returns LDAPUrl\n\n
+    ()\n
+    (final String s)\n
+    (final String host, final int port, final String dn)\n
+    (final String host, final int port, final String dn, final String[] array, final int scope, final String filter, final String[] array2)\n
+    (final String host, final int port, final String dn, final String[] attrs, final int scope, final String filter, final String[] array, final boolean secure)\n
     '''
 def clone():
-    '''public Object clone()
-    '''
-def decode():
-    '''public static String decode(final String s)
-    '''
-def encode():
-    '''public static String encode(final String s)
+    '''returns Object\n\n
+    clone()\n
     '''
 def getAttributeArray():
-    '''public String[] getAttributeArray()
+    '''returns String[]\n\n
+    getAttributeArray()\n
     '''
 def getAttributes():
-    '''public Enumeration getAttributes()
+    '''returns Enumeration\n\n
+    getAttributes()\n
     '''
 def getDN():
-    '''public String getDN()
+    '''returns String\n\n
+    getDN()\n
     '''
 def getExtensions():
-    '''public String[] getExtensions()
+    '''returns String[]\n\n
+    getExtensions()\n
     '''
 def getFilter():
-    '''public String getFilter()
+    '''returns String\n\n
+    getFilter()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getScope():
-    '''public int getScope()
+    '''returns int\n\n
+    getScope()\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def writeDSML():
-    '''public void writeDSML(final OutputStream out)
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns None\n\n
+    writeDSML(final OutputStream out)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput objectOutput)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput objectOutput)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput objectInput)
+    '''returns None\n\n
+    readExternal(final ObjectInput objectInput)\n
     '''

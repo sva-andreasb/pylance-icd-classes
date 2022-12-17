@@ -1,19 +1,25 @@
-def CommandHistory():
-    '''public CommandHistory()
-    public CommandHistory(final int initSize)
+def ():
+    '''returns CommandHistory\n\n
+    ()\n
+    (final int initSize)\n
     '''
 def add():
-    '''public void add(final CommandData adminCmdData)
+    '''returns None\n\n
+    add(final CommandData adminCmdData)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getHistory():
-    '''public Collection getHistory()
+    '''returns Collection\n\n
+    getHistory()\n
     '''
 def save():
-    '''public void save(final OutputStream os)
+    '''returns None\n\n
+    save(final OutputStream os)\n
     '''
 def load():
-    '''public void load(final InputStream is)
+    '''returns None\n\n
+    load(final InputStream is)\n
     '''

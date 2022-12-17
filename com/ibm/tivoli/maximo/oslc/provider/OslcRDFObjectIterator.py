@@ -1,13 +1,17 @@
-def OslcRDFObjectIterator():
-    '''public OslcRDFObjectIterator()
-    public OslcRDFObjectIterator(final Iterator<Statement> c, final String osName, final String objectPath, final String messageType, final UserInfo userInfo)
+def ():
+    '''returns OslcRDFObjectIterator\n\n
+    ()\n
+    (final Iterator<Statement> c, final String osName, final String objectPath, final String messageType, final UserInfo userInfo)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

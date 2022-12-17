@@ -2,47 +2,62 @@ TYPE_TEMPLATE = "int  1"
 TYPE_IMPORTED = "int  2"
 TYPE_PATTERN = "int  3"
 def setWidth():
-    '''public void setWidth(final float width)
+    '''returns None\n\n
+    setWidth(final float width)\n
     '''
 def setHeight():
-    '''public void setHeight(final float height)
+    '''returns None\n\n
+    setHeight(final float height)\n
     '''
 def getWidth():
-    '''public float getWidth()
+    '''returns float\n\n
+    getWidth()\n
     '''
 def getHeight():
-    '''public float getHeight()
+    '''returns float\n\n
+    getHeight()\n
     '''
 def getBoundingBox():
-    '''public Rectangle getBoundingBox()
+    '''returns Rectangle\n\n
+    getBoundingBox()\n
     '''
 def setBoundingBox():
-    '''public void setBoundingBox(final Rectangle bBox)
+    '''returns None\n\n
+    setBoundingBox(final Rectangle bBox)\n
     '''
 def setLayer():
-    '''public void setLayer(final PdfOCG layer)
+    '''returns None\n\n
+    setLayer(final PdfOCG layer)\n
     '''
 def getLayer():
-    '''public PdfOCG getLayer()
+    '''returns PdfOCG\n\n
+    getLayer()\n
     '''
 def setMatrix():
-    '''public void setMatrix(final float a, final float b, final float c, final float d, final float e, final float f)
+    '''returns None\n\n
+    setMatrix(final float a, final float b, final float c, final float d, final float e, final float f)\n
     '''
 def beginVariableText():
-    '''public void beginVariableText()
+    '''returns None\n\n
+    beginVariableText()\n
     '''
 def endVariableText():
-    '''public void endVariableText()
+    '''returns None\n\n
+    endVariableText()\n
     '''
 def getDuplicate():
-    '''public PdfContentByte getDuplicate()
+    '''returns PdfContentByte\n\n
+    getDuplicate()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getGroup():
-    '''public PdfTransparencyGroup getGroup()
+    '''returns PdfTransparencyGroup\n\n
+    getGroup()\n
     '''
 def setGroup():
-    '''public void setGroup(final PdfTransparencyGroup group)
+    '''returns None\n\n
+    setGroup(final PdfTransparencyGroup group)\n
     '''

@@ -7,106 +7,140 @@ U_SINGLE = "byte  1"
 U_DOUBLE = "byte  2"
 U_SINGLE_ACCOUNTING = "byte  33"
 U_DOUBLE_ACCOUNTING = "byte  34"
-def FontRecord():
-    '''public FontRecord()
-    public FontRecord(final RecordInputStream in)
+def ():
+    '''returns FontRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setFontHeight():
-    '''public void setFontHeight(final short height)
+    '''returns None\n\n
+    setFontHeight(final short height)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final short attributes)
+    '''returns None\n\n
+    setAttributes(final short attributes)\n
     '''
 def setItalic():
-    '''public void setItalic(final boolean italics)
+    '''returns None\n\n
+    setItalic(final boolean italics)\n
     '''
 def setStrikeout():
-    '''public void setStrikeout(final boolean strike)
+    '''returns None\n\n
+    setStrikeout(final boolean strike)\n
     '''
 def setMacoutline():
-    '''public void setMacoutline(final boolean mac)
+    '''returns None\n\n
+    setMacoutline(final boolean mac)\n
     '''
 def setMacshadow():
-    '''public void setMacshadow(final boolean mac)
+    '''returns None\n\n
+    setMacshadow(final boolean mac)\n
     '''
 def setColorPaletteIndex():
-    '''public void setColorPaletteIndex(final short cpi)
+    '''returns None\n\n
+    setColorPaletteIndex(final short cpi)\n
     '''
 def setBoldWeight():
-    '''public void setBoldWeight(final short bw)
+    '''returns None\n\n
+    setBoldWeight(final short bw)\n
     '''
 def setSuperSubScript():
-    '''public void setSuperSubScript(final short sss)
+    '''returns None\n\n
+    setSuperSubScript(final short sss)\n
     '''
 def setUnderline():
-    '''public void setUnderline(final byte u)
+    '''returns None\n\n
+    setUnderline(final byte u)\n
     '''
 def setFamily():
-    '''public void setFamily(final byte f)
+    '''returns None\n\n
+    setFamily(final byte f)\n
     '''
 def setCharset():
-    '''public void setCharset(final byte charset)
+    '''returns None\n\n
+    setCharset(final byte charset)\n
     '''
 def setFontName():
-    '''public void setFontName(final String fn)
+    '''returns None\n\n
+    setFontName(final String fn)\n
     '''
 def getFontHeight():
-    '''public short getFontHeight()
+    '''returns short\n\n
+    getFontHeight()\n
     '''
 def getAttributes():
-    '''public short getAttributes()
+    '''returns short\n\n
+    getAttributes()\n
     '''
 def isItalic():
-    '''public boolean isItalic()
+    '''returns boolean\n\n
+    isItalic()\n
     '''
 def isStruckout():
-    '''public boolean isStruckout()
+    '''returns boolean\n\n
+    isStruckout()\n
     '''
 def isMacoutlined():
-    '''public boolean isMacoutlined()
+    '''returns boolean\n\n
+    isMacoutlined()\n
     '''
 def isMacshadowed():
-    '''public boolean isMacshadowed()
+    '''returns boolean\n\n
+    isMacshadowed()\n
     '''
 def getColorPaletteIndex():
-    '''public short getColorPaletteIndex()
+    '''returns short\n\n
+    getColorPaletteIndex()\n
     '''
 def getBoldWeight():
-    '''public short getBoldWeight()
+    '''returns short\n\n
+    getBoldWeight()\n
     '''
 def getSuperSubScript():
-    '''public short getSuperSubScript()
+    '''returns short\n\n
+    getSuperSubScript()\n
     '''
 def getUnderline():
-    '''public byte getUnderline()
+    '''returns byte\n\n
+    getUnderline()\n
     '''
 def getFamily():
-    '''public byte getFamily()
+    '''returns byte\n\n
+    getFamily()\n
     '''
 def getCharset():
-    '''public byte getCharset()
+    '''returns byte\n\n
+    getCharset()\n
     '''
 def getFontName():
-    '''public String getFontName()
+    '''returns String\n\n
+    getFontName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def cloneStyleFrom():
-    '''public void cloneStyleFrom(final FontRecord source)
+    '''returns None\n\n
+    cloneStyleFrom(final FontRecord source)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def sameProperties():
-    '''public boolean sameProperties(final FontRecord other)
+    '''returns boolean\n\n
+    sameProperties(final FontRecord other)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

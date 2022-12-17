@@ -1,12 +1,16 @@
 def newDefinition():
-    '''public Definition newDefinition()
+    '''returns Definition\n\n
+    newDefinition()\n
     '''
 def newWSDLReader():
-    '''public WSDLReader newWSDLReader()
+    '''returns WSDLReader\n\n
+    newWSDLReader()\n
     '''
 def newWSDLWriter():
-    '''public WSDLWriter newWSDLWriter()
+    '''returns WSDLWriter\n\n
+    newWSDLWriter()\n
     '''
 def newPopulatedExtensionRegistry():
-    '''public ExtensionRegistry newPopulatedExtensionRegistry()
+    '''returns ExtensionRegistry\n\n
+    newPopulatedExtensionRegistry()\n
     '''

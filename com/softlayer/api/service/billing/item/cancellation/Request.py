@@ -1,163 +1,212 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getItems():
-    '''public List<Item> getItems()
+    '''returns List<Item>\n\n
+    getItems()\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final Status status)
+    '''returns None\n\n
+    setStatus(final Status status)\n
     '''
 def getTicket():
-    '''public Ticket getTicket()
+    '''returns Ticket\n\n
+    getTicket()\n
     '''
 def setTicket():
-    '''public void setTicket(final Ticket ticket)
+    '''returns None\n\n
+    setTicket(final Ticket ticket)\n
     '''
 def getUser():
-    '''public Customer getUser()
+    '''returns Customer\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final Customer user)
+    '''returns None\n\n
+    setUser(final Customer user)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getBillingCancelReasonId():
-    '''public Long getBillingCancelReasonId()
+    '''returns Long\n\n
+    getBillingCancelReasonId()\n
     '''
 def setBillingCancelReasonId():
-    '''public void setBillingCancelReasonId(final Long billingCancelReasonId)
+    '''returns None\n\n
+    setBillingCancelReasonId(final Long billingCancelReasonId)\n
     '''
 def isBillingCancelReasonIdSpecified():
-    '''public boolean isBillingCancelReasonIdSpecified()
+    '''returns boolean\n\n
+    isBillingCancelReasonIdSpecified()\n
     '''
 def unsetBillingCancelReasonId():
-    '''public void unsetBillingCancelReasonId()
+    '''returns None\n\n
+    unsetBillingCancelReasonId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getStatusId():
-    '''public Long getStatusId()
+    '''returns Long\n\n
+    getStatusId()\n
     '''
 def setStatusId():
-    '''public void setStatusId(final Long statusId)
+    '''returns None\n\n
+    setStatusId(final Long statusId)\n
     '''
 def isStatusIdSpecified():
-    '''public boolean isStatusIdSpecified()
+    '''returns boolean\n\n
+    isStatusIdSpecified()\n
     '''
 def unsetStatusId():
-    '''public void unsetStatusId()
+    '''returns None\n\n
+    unsetStatusId()\n
     '''
 def getTicketId():
-    '''public Long getTicketId()
+    '''returns Long\n\n
+    getTicketId()\n
     '''
 def setTicketId():
-    '''public void setTicketId(final Long ticketId)
+    '''returns None\n\n
+    setTicketId(final Long ticketId)\n
     '''
 def isTicketIdSpecified():
-    '''public boolean isTicketIdSpecified()
+    '''returns boolean\n\n
+    isTicketIdSpecified()\n
     '''
 def unsetTicketId():
-    '''public void unsetTicketId()
+    '''returns None\n\n
+    unsetTicketId()\n
     '''
 def getItemCount():
-    '''public Long getItemCount()
+    '''returns Long\n\n
+    getItemCount()\n
     '''
 def setItemCount():
-    '''public void setItemCount(final Long itemCount)
+    '''returns None\n\n
+    setItemCount(final Long itemCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def billingCancelReasonId():
-    '''public Mask billingCancelReasonId()
+    '''returns Mask\n\n
+    billingCancelReasonId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def statusId():
-    '''public Mask statusId()
+    '''returns Mask\n\n
+    statusId()\n
     '''
 def ticketId():
-    '''public Mask ticketId()
+    '''returns Mask\n\n
+    ticketId()\n
     '''
 def itemCount():
-    '''public Mask itemCount()
+    '''returns Mask\n\n
+    itemCount()\n
     '''

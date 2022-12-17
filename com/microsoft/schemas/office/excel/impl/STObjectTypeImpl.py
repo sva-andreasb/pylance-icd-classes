@@ -1,3 +1,4 @@
-def STObjectTypeImpl():
-    '''public STObjectTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns STObjectTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''

@@ -1,3 +1,4 @@
-def SASLExternalMechanism():
-    '''public SASLExternalMechanism(final SASLAuthentication saslAuthentication)
+def ():
+    '''returns SASLExternalMechanism\n\n
+    (final SASLAuthentication saslAuthentication)\n
     '''

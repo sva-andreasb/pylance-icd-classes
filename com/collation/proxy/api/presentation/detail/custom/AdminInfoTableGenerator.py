@@ -1,6 +1,8 @@
-def AdminInfoTableGenerator():
-    '''public AdminInfoTableGenerator(final Guid id, final long version, final TableContent tableContentDataType)
+def ():
+    '''returns AdminInfoTableGenerator\n\n
+    (final Guid id, final long version, final TableContent tableContentDataType)\n
     '''
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''

@@ -1,3 +1,4 @@
 def process():
-    '''public IProgramElement process(final IProgramElement node)
+    '''returns IProgramElement\n\n
+    process(final IProgramElement node)\n
     '''

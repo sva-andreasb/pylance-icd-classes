@@ -1,9 +1,12 @@
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def request():
-    '''public Message request(final Message message)
+    '''returns Message\n\n
+    request(final Message message)\n
     '''
-def QueueRequestor():
-    '''public QueueRequestor(final QueueSession session, final Queue queue)
+def ():
+    '''returns QueueRequestor\n\n
+    (final QueueSession session, final Queue queue)\n
     '''

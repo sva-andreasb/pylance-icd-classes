@@ -1,3 +1,4 @@
-def POChangeStatusSet():
-    '''public POChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns POChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

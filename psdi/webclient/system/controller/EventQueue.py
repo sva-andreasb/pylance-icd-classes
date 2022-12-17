@@ -1,23 +1,30 @@
 PROCESS_NEXT_EVENT = "int  1"
 CANCEL_ALL = "int  0"
-def EventQueue():
-    '''public EventQueue()
+def ():
+    '''returns EventQueue\n\n
+    ()\n
     '''
 def push():
-    '''public void push(final WebClientEvent event)
+    '''returns None\n\n
+    push(final WebClientEvent event)\n
     '''
 def pop():
-    '''public WebClientEvent pop()
+    '''returns WebClientEvent\n\n
+    pop()\n
     '''
 def hasMoreEvents():
-    '''public boolean hasMoreEvents()
+    '''returns boolean\n\n
+    hasMoreEvents()\n
     '''
 def peek():
-    '''public WebClientEvent peek()
+    '''returns WebClientEvent\n\n
+    peek()\n
     '''
 def removeEventFromQueue():
-    '''public boolean removeEventFromQueue(final String eventType, final String targetID)
+    '''returns boolean\n\n
+    removeEventFromQueue(final String eventType, final String targetID)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

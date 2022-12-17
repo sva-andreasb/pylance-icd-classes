@@ -1,33 +1,41 @@
-def MockGoogleJsonClient():
-    '''public MockGoogleJsonClient(final HttpTransport transport, final JsonFactory jsonFactory, final String rootUrl, final String servicePath, final HttpRequestInitializer httpRequestInitializer, final boolean legacyDataWrapper)
-    '''
-def Builder():
-    '''public Builder(final HttpTransport transport, final JsonFactory jsonFactory, final String rootUrl, final String servicePath, final HttpRequestInitializer httpRequestInitializer, final boolean legacyDataWrapper)
+def ():
+    '''returns Builder\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final String rootUrl, final String servicePath, final HttpRequestInitializer httpRequestInitializer, final boolean legacyDataWrapper)\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final String rootUrl, final String servicePath, final HttpRequestInitializer httpRequestInitializer, final boolean legacyDataWrapper)\n
     '''
 def build():
-    '''public MockGoogleJsonClient build()
+    '''returns MockGoogleJsonClient\n\n
+    build()\n
     '''
 def setRootUrl():
-    '''public Builder setRootUrl(final String rootUrl)
+    '''returns Builder\n\n
+    setRootUrl(final String rootUrl)\n
     '''
 def setServicePath():
-    '''public Builder setServicePath(final String servicePath)
+    '''returns Builder\n\n
+    setServicePath(final String servicePath)\n
     '''
 def setGoogleClientRequestInitializer():
-    '''public Builder setGoogleClientRequestInitializer(final GoogleClientRequestInitializer googleClientRequestInitializer)
+    '''returns Builder\n\n
+    setGoogleClientRequestInitializer(final GoogleClientRequestInitializer googleClientRequestInitializer)\n
     '''
 def setHttpRequestInitializer():
-    '''public Builder setHttpRequestInitializer(final HttpRequestInitializer httpRequestInitializer)
+    '''returns Builder\n\n
+    setHttpRequestInitializer(final HttpRequestInitializer httpRequestInitializer)\n
     '''
 def setApplicationName():
-    '''public Builder setApplicationName(final String applicationName)
+    '''returns Builder\n\n
+    setApplicationName(final String applicationName)\n
     '''
 def setSuppressPatternChecks():
-    '''public Builder setSuppressPatternChecks(final boolean suppressPatternChecks)
+    '''returns Builder\n\n
+    setSuppressPatternChecks(final boolean suppressPatternChecks)\n
     '''
 def setSuppressRequiredParameterChecks():
-    '''public Builder setSuppressRequiredParameterChecks(final boolean suppressRequiredParameterChecks)
+    '''returns Builder\n\n
+    setSuppressRequiredParameterChecks(final boolean suppressRequiredParameterChecks)\n
     '''
 def setSuppressAllChecks():
-    '''public Builder setSuppressAllChecks(final boolean suppressAllChecks)
+    '''returns Builder\n\n
+    setSuppressAllChecks(final boolean suppressAllChecks)\n
     '''

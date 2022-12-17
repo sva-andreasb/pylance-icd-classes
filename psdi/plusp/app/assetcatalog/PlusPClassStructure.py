@@ -1,55 +1,73 @@
-def PlusPClassStructure():
-    '''public PlusPClassStructure(final MboSet arg0)
+def ():
+    '''returns PlusPClassStructure\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def adjustCustomerReadOnly():
-    '''public void adjustCustomerReadOnly()
+    '''returns None\n\n
+    adjustCustomerReadOnly()\n
     '''
 def canAddCustomer():
-    '''public void canAddCustomer()
-    public void canAddCustomer(final String s)
+    '''returns None\n\n
+    canAddCustomer()\n
+    canAddCustomer(final String s)\n
     '''
 def setRollUpCustomerAction():
-    '''public void setRollUpCustomerAction(final boolean rollUpCustomerAction)
+    '''returns None\n\n
+    setRollUpCustomerAction(final boolean rollUpCustomerAction)\n
     '''
 def setRollUpCaller():
-    '''public void setRollUpCaller(final long rollUpCaller, final HashMap<String, Integer> dialogAnswers)
+    '''returns None\n\n
+    setRollUpCaller(final long rollUpCaller, final HashMap<String, Integer> dialogAnswers)\n
     '''
 def getDialogAnswer():
-    '''public int getDialogAnswer(final String key)
+    '''returns int\n\n
+    getDialogAnswer(final String key)\n
     '''
 def putDialogAnswer():
-    '''public void putDialogAnswer(final String key, final Integer value)
+    '''returns None\n\n
+    putDialogAnswer(final String key, final Integer value)\n
     '''
 def postAddCustomer():
-    '''public void postAddCustomer(final MboRemote mboRemote)
+    '''returns None\n\n
+    postAddCustomer(final MboRemote mboRemote)\n
     '''
 def postRemoveCustomer():
-    '''public void postRemoveCustomer(final MboRemote mboRemote)
+    '''returns None\n\n
+    postRemoveCustomer(final MboRemote mboRemote)\n
     '''
 def getDirectParent():
-    '''public MboRemote getDirectParent()
+    '''returns MboRemote\n\n
+    getDirectParent()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def cancelAddModifyCustDialog():
-    '''public void cancelAddModifyCustDialog(final boolean b)
+    '''returns None\n\n
+    cancelAddModifyCustDialog(final boolean b)\n
     '''
 def getCustomerListToRestrictCommonLookups():
-    '''public String getCustomerListToRestrictCommonLookups()
+    '''returns String\n\n
+    getCustomerListToRestrictCommonLookups()\n
     '''
 def getUseWith():
-    '''public MboRemote getUseWith(final String objectName)
+    '''returns MboRemote\n\n
+    getUseWith(final String objectName)\n
     '''

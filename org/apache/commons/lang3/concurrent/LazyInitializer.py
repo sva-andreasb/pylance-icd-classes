@@ -1,3 +1,4 @@
 def get():
-    '''public T get()
+    '''returns T\n\n
+    get()\n
     '''

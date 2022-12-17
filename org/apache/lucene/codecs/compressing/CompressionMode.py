@@ -1,33 +1,40 @@
 def newCompressor():
-    '''public Compressor newCompressor()
-    public Compressor newCompressor()
-    public Compressor newCompressor()
+    '''returns Compressor\n\n
+    newCompressor()\n
+    newCompressor()\n
+    newCompressor()\n
     '''
 def newDecompressor():
-    '''public Decompressor newDecompressor()
-    public Decompressor newDecompressor()
-    public Decompressor newDecompressor()
+    '''returns Decompressor\n\n
+    newDecompressor()\n
+    newDecompressor()\n
+    newDecompressor()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def decompress():
-    '''public void decompress(final DataInput in, final int originalLength, final int offset, final int length, final BytesRef bytes)
-    public void decompress(final DataInput in, final int originalLength, final int offset, final int length, final BytesRef bytes)
+    '''returns None\n\n
+    decompress(final DataInput in, final int originalLength, final int offset, final int length, final BytesRef bytes)\n
+    decompress(final DataInput in, final int originalLength, final int offset, final int length, final BytesRef bytes)\n
     '''
 def clone():
-    '''public Decompressor clone()
-    public Decompressor clone()
+    '''returns Decompressor\n\n
+    clone()\n
+    clone()\n
     '''
 def compress():
-    '''public void compress(final byte[] bytes, final int off, final int len, final DataOutput out)
-    public void compress(final byte[] bytes, final int off, final int len, final DataOutput out)
-    public void compress(final byte[] bytes, final int off, final int len, final DataOutput out)
+    '''returns None\n\n
+    compress(final byte[] bytes, final int off, final int len, final DataOutput out)\n
+    compress(final byte[] bytes, final int off, final int len, final DataOutput out)\n
+    compress(final byte[] bytes, final int off, final int len, final DataOutput out)\n
     '''
 def close():
-    '''public void close()
-    public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
+    close()\n
     '''

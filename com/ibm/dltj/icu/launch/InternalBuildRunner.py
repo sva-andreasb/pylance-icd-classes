@@ -1,9 +1,8 @@
-def main():
-    '''public static void main(final String[] array)
-    '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

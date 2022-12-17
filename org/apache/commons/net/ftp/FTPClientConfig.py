@@ -4,50 +4,53 @@ SYST_NT = "String  \"WINDOWS\""
 SYST_OS2 = "String  \"OS/2\""
 SYST_OS400 = "String  \"OS/400\""
 SYST_MVS = "String  \"MVS\""
-def FTPClientConfig():
-    '''public FTPClientConfig(final String systemKey)
-    public FTPClientConfig()
-    public FTPClientConfig(final String systemKey, final String defaultDateFormatStr, final String recentDateFormatStr, final String serverLanguageCode, final String shortMonthNames, final String serverTimeZoneId)
+def ():
+    '''returns FTPClientConfig\n\n
+    (final String systemKey)\n
+    ()\n
+    (final String systemKey, final String defaultDateFormatStr, final String recentDateFormatStr, final String serverLanguageCode, final String shortMonthNames, final String serverTimeZoneId)\n
     '''
 def getServerSystemKey():
-    '''public String getServerSystemKey()
+    '''returns String\n\n
+    getServerSystemKey()\n
     '''
 def getDefaultDateFormatStr():
-    '''public String getDefaultDateFormatStr()
+    '''returns String\n\n
+    getDefaultDateFormatStr()\n
     '''
 def getRecentDateFormatStr():
-    '''public String getRecentDateFormatStr()
+    '''returns String\n\n
+    getRecentDateFormatStr()\n
     '''
 def getServerTimeZoneId():
-    '''public String getServerTimeZoneId()
+    '''returns String\n\n
+    getServerTimeZoneId()\n
     '''
 def getShortMonthNames():
-    '''public String getShortMonthNames()
+    '''returns String\n\n
+    getShortMonthNames()\n
     '''
 def getServerLanguageCode():
-    '''public String getServerLanguageCode()
+    '''returns String\n\n
+    getServerLanguageCode()\n
     '''
 def setDefaultDateFormatStr():
-    '''public void setDefaultDateFormatStr(final String defaultDateFormatStr)
+    '''returns None\n\n
+    setDefaultDateFormatStr(final String defaultDateFormatStr)\n
     '''
 def setRecentDateFormatStr():
-    '''public void setRecentDateFormatStr(final String recentDateFormatStr)
+    '''returns None\n\n
+    setRecentDateFormatStr(final String recentDateFormatStr)\n
     '''
 def setServerTimeZoneId():
-    '''public void setServerTimeZoneId(final String serverTimeZoneId)
+    '''returns None\n\n
+    setServerTimeZoneId(final String serverTimeZoneId)\n
     '''
 def setShortMonthNames():
-    '''public void setShortMonthNames(final String shortMonthNames)
+    '''returns None\n\n
+    setShortMonthNames(final String shortMonthNames)\n
     '''
 def setServerLanguageCode():
-    '''public void setServerLanguageCode(final String serverLanguageCode)
-    '''
-def lookupDateFormatSymbols():
-    '''public static DateFormatSymbols lookupDateFormatSymbols(final String languageCode)
-    '''
-def getDateFormatSymbols():
-    '''public static DateFormatSymbols getDateFormatSymbols(final String shortmonths)
-    '''
-def getSupportedLanguageCodes():
-    '''public static Collection getSupportedLanguageCodes()
+    '''returns None\n\n
+    setServerLanguageCode(final String serverLanguageCode)\n
     '''

@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def OptimResultUpdateData():
-    '''public OptimResultUpdateData()
+def ():
+    '''returns OptimResultUpdateData\n\n
+    ()\n
     '''
 def getOptimResultStatus():
-    '''public InMemoryOptimResultStatus getOptimResultStatus()
+    '''returns InMemoryOptimResultStatus\n\n
+    getOptimResultStatus()\n
     '''
 def getGoalReport():
-    '''public InMemoryGoalReport getGoalReport()
+    '''returns InMemoryGoalReport\n\n
+    getGoalReport()\n
     '''

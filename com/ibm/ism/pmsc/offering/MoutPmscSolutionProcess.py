@@ -1,9 +1,12 @@
-def MoutPmscSolutionProcess():
-    '''public MoutPmscSolutionProcess()
+def ():
+    '''returns MoutPmscSolutionProcess\n\n
+    ()\n
     '''
 def getColumnsToSkip():
-    '''public Set<String> getColumnsToSkip(final MboRemote mbo)
+    '''returns Set<String>\n\n
+    getColumnsToSkip(final MboRemote mbo)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''returns int\n\n
+    checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)\n
     '''

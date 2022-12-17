@@ -1,3 +1,4 @@
 def cancelAMAssignCrewDialog():
-    '''public int cancelAMAssignCrewDialog()
+    '''returns int\n\n
+    cancelAMAssignCrewDialog()\n
     '''

@@ -1,6 +1,8 @@
-def ZoomToActionListener():
-    '''public ZoomToActionListener(final IlvTimeScrollController controller)
+def ():
+    '''returns ZoomToActionListener\n\n
+    (final IlvTimeScrollController controller)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

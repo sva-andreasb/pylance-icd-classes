@@ -1,6 +1,8 @@
-def FldMenuType():
-    '''public FldMenuType(final MboValue mbv)
+def ():
+    '''returns FldMenuType\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

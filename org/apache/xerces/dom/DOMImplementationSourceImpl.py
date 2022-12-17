@@ -1,6 +1,8 @@
 def getDOMImplementation():
-    '''public DOMImplementation getDOMImplementation(final String s)
+    '''returns DOMImplementation\n\n
+    getDOMImplementation(final String s)\n
     '''
 def getDOMImplementationList():
-    '''public DOMImplementationList getDOMImplementationList(final String s)
+    '''returns DOMImplementationList\n\n
+    getDOMImplementationList(final String s)\n
     '''

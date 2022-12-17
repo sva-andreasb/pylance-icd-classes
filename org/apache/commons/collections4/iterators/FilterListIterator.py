@@ -1,39 +1,51 @@
-def FilterListIterator():
-    '''public FilterListIterator()
-    public FilterListIterator(final ListIterator<? extends E> iterator)
-    public FilterListIterator(final ListIterator<? extends E> iterator, final Predicate<? super E> predicate)
-    public FilterListIterator(final Predicate<? super E> predicate)
+def ():
+    '''returns FilterListIterator\n\n
+    ()\n
+    (final ListIterator<? extends E> iterator)\n
+    (final ListIterator<? extends E> iterator, final Predicate<? super E> predicate)\n
+    (final Predicate<? super E> predicate)\n
     '''
 def add():
-    '''public void add(final E o)
+    '''returns None\n\n
+    add(final E o)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def nextIndex():
-    '''public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
     '''
 def previous():
-    '''public E previous()
+    '''returns E\n\n
+    previous()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def set():
-    '''public void set(final E o)
+    '''returns None\n\n
+    set(final E o)\n
     '''
 def setListIterator():
-    '''public void setListIterator(final ListIterator<? extends E> iterator)
+    '''returns None\n\n
+    setListIterator(final ListIterator<? extends E> iterator)\n
     '''
 def setPredicate():
-    '''public void setPredicate(final Predicate<? super E> predicate)
+    '''returns None\n\n
+    setPredicate(final Predicate<? super E> predicate)\n
     '''

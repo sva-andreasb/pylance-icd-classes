@@ -1,3 +1,4 @@
-def S_And():
-    '''public S_And(final SqlExpr left, final SqlExpr right)
+def ():
+    '''returns S_And\n\n
+    (final SqlExpr left, final SqlExpr right)\n
     '''

@@ -1,9 +1,11 @@
 ACTION_NAME = "String  \"imageModeAction\""
-def IlvFacesGanttSelectionSupport():
-    '''public IlvFacesGanttSelectionSupport(final IlvGanttServletSupport ilvGanttServletSupport)
+def ():
+    '''returns IlvFacesGanttSelectionSupport\n\n
+    (final IlvGanttServletSupport ilvGanttServletSupport)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ServerActionEvent serverActionEvent)
-    public void actionPerformed(final ServerActionEvent serverActionEvent)
-    public void actionPerformed(final ServerActionEvent serverActionEvent)
+    '''returns None\n\n
+    actionPerformed(final ServerActionEvent serverActionEvent)\n
+    actionPerformed(final ServerActionEvent serverActionEvent)\n
+    actionPerformed(final ServerActionEvent serverActionEvent)\n
     '''

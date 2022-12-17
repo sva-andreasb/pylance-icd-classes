@@ -1,9 +1,12 @@
-def Response():
-    '''public Response(final T response, final HttpResponse httpResponse)
+def ():
+    '''returns Response\n\n
+    (final T response, final HttpResponse httpResponse)\n
     '''
 def getAwsResponse():
-    '''public T getAwsResponse()
+    '''returns T\n\n
+    getAwsResponse()\n
     '''
 def getHttpResponse():
-    '''public HttpResponse getHttpResponse()
+    '''returns HttpResponse\n\n
+    getHttpResponse()\n
     '''

@@ -1,3 +1,4 @@
-def TaxSet():
-    '''public TaxSet(final MboServerInterface ms)
+def ():
+    '''returns TaxSet\n\n
+    (final MboServerInterface ms)\n
     '''

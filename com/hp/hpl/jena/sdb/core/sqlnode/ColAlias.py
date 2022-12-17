@@ -1,15 +1,20 @@
-def ColAlias():
-    '''public ColAlias(final SqlColumn column, final SqlColumn alias)
+def ():
+    '''returns ColAlias\n\n
+    (final SqlColumn column, final SqlColumn alias)\n
     '''
 def getColumn():
-    '''public SqlColumn getColumn()
+    '''returns SqlColumn\n\n
+    getColumn()\n
     '''
 def getAlias():
-    '''public SqlColumn getAlias()
+    '''returns SqlColumn\n\n
+    getAlias()\n
     '''
 def check():
-    '''public void check(final String requiredName)
+    '''returns None\n\n
+    check(final String requiredName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

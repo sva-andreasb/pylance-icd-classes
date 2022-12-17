@@ -1,44 +1,58 @@
-def JobSubscriptionImpl():
-    '''public JobSubscriptionImpl()
-    public JobSubscriptionImpl(final String subscriptionType, final String subscriptionId)
-    public JobSubscriptionImpl(final String subscriptionType, final String subscriptionId, final String customerId, final String customerIBMid, final int maxNumberOfParallelSolves, final String planId, final String bluemixRegion)
+def ():
+    '''returns JobSubscriptionImpl\n\n
+    ()\n
+    (final String subscriptionType, final String subscriptionId)\n
+    (final String subscriptionType, final String subscriptionId, final String customerId, final String customerIBMid, final int maxNumberOfParallelSolves, final String planId, final String bluemixRegion)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getCustomerId():
-    '''public String getCustomerId()
+    '''returns String\n\n
+    getCustomerId()\n
     '''
 def getMaxNumberOfParallelSolves():
-    '''public int getMaxNumberOfParallelSolves()
+    '''returns int\n\n
+    getMaxNumberOfParallelSolves()\n
     '''
 def setMaxNumberOfParallelSolves():
-    '''public void setMaxNumberOfParallelSolves(final int maxNumberOfParallelSolves)
+    '''returns None\n\n
+    setMaxNumberOfParallelSolves(final int maxNumberOfParallelSolves)\n
     '''
 def getCustomerIBMId():
-    '''public String getCustomerIBMId()
+    '''returns String\n\n
+    getCustomerIBMId()\n
     '''
 def getPlanId():
-    '''public String getPlanId()
+    '''returns String\n\n
+    getPlanId()\n
     '''
 def setPlanId():
-    '''public void setPlanId(final String planId)
+    '''returns None\n\n
+    setPlanId(final String planId)\n
     '''
 def getBluemixRegion():
-    '''public String getBluemixRegion()
+    '''returns String\n\n
+    getBluemixRegion()\n
     '''
 def setBluemixRegion():
-    '''public void setBluemixRegion(final String bluemixRegion)
+    '''returns None\n\n
+    setBluemixRegion(final String bluemixRegion)\n
     '''

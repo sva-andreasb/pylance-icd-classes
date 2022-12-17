@@ -1,21 +1,25 @@
-def FldVMMSyncCronXML():
-    '''public FldVMMSyncCronXML(final MboValue mbv)
+def ():
+    '''returns XMLEntityResolver\n\n
+    (final MboValue mbv)\n
+    (final String inDTD)\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def XMLEntityResolver():
-    '''public XMLEntityResolver(final String inDTD)
+    '''returns None\n\n
+    validate()\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''
 def error():
-    '''public void error(final SAXParseException e)
+    '''returns None\n\n
+    error(final SAXParseException e)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException e)
+    '''returns None\n\n
+    fatalError(final SAXParseException e)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException e)
+    '''returns None\n\n
+    warning(final SAXParseException e)\n
     '''

@@ -1,123 +1,156 @@
-def CompressingTermVectorsReader():
-    '''public CompressingTermVectorsReader(final Directory d, final SegmentInfo si, final String segmentSuffix, final FieldInfos fn, final IOContext context, final String formatName, final CompressionMode compressionMode)
+def ():
+    '''returns TVFields\n\n
+    (final Directory d, final SegmentInfo si, final String segmentSuffix, final FieldInfos fn, final IOContext context, final String formatName, final CompressionMode compressionMode)\n
+    (final int[] fieldNums, final int[] fieldFlags, final int[] fieldNumOffs, final int[] numTerms, final int[] fieldLengths, final int[][] prefixLengths, final int[][] suffixLengths, final int[][] termFreqs, final int[][] positionIndex, final int[][] positions, final int[][] startOffsets, final int[][] lengths, final BytesRef payloadBytes, final int[][] payloadIndex, final BytesRef suffixBytes)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def clone():
-    '''public TermVectorsReader clone()
+    '''returns TermVectorsReader\n\n
+    clone()\n
     '''
 def get():
-    '''public Fields get(final int doc)
+    '''returns Fields\n\n
+    get(final int doc)\n
     '''
 def ramBytesUsed():
-    '''public long ramBytesUsed()
+    '''returns long\n\n
+    ramBytesUsed()\n
     '''
 def getChildResources():
-    '''public Collection<Accountable> getChildResources()
+    '''returns Collection<Accountable>\n\n
+    getChildResources()\n
     '''
 def checkIntegrity():
-    '''public void checkIntegrity()
+    '''returns None\n\n
+    checkIntegrity()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def TVFields():
-    '''public TVFields(final int[] fieldNums, final int[] fieldFlags, final int[] fieldNumOffs, final int[] numTerms, final int[] fieldLengths, final int[][] prefixLengths, final int[][] suffixLengths, final int[][] termFreqs, final int[][] positionIndex, final int[][] positions, final int[][] startOffsets, final int[][] lengths, final BytesRef payloadBytes, final int[][] payloadIndex, final BytesRef suffixBytes)
+    '''returns String\n\n
+    toString()\n
     '''
 def iterator():
-    '''public Iterator<String> iterator()
-    public TermsEnum iterator()
+    '''returns TermsEnum\n\n
+    iterator()\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public String next()
-    public BytesRef next()
+    '''returns BytesRef\n\n
+    next()\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def terms():
-    '''public Terms terms(final String field)
+    '''returns Terms\n\n
+    terms(final String field)\n
     '''
 def size():
-    '''public int size()
-    public long size()
+    '''returns long\n\n
+    size()\n
+    size()\n
     '''
 def getSumTotalTermFreq():
-    '''public long getSumTotalTermFreq()
+    '''returns long\n\n
+    getSumTotalTermFreq()\n
     '''
 def getSumDocFreq():
-    '''public long getSumDocFreq()
+    '''returns long\n\n
+    getSumDocFreq()\n
     '''
 def getDocCount():
-    '''public int getDocCount()
+    '''returns int\n\n
+    getDocCount()\n
     '''
 def hasFreqs():
-    '''public boolean hasFreqs()
+    '''returns boolean\n\n
+    hasFreqs()\n
     '''
 def hasOffsets():
-    '''public boolean hasOffsets()
+    '''returns boolean\n\n
+    hasOffsets()\n
     '''
 def hasPositions():
-    '''public boolean hasPositions()
+    '''returns boolean\n\n
+    hasPositions()\n
     '''
 def hasPayloads():
-    '''public boolean hasPayloads()
+    '''returns boolean\n\n
+    hasPayloads()\n
     '''
 def seekCeil():
-    '''public SeekStatus seekCeil(final BytesRef text)
+    '''returns SeekStatus\n\n
+    seekCeil(final BytesRef text)\n
     '''
 def seekExact():
-    '''public void seekExact(final long ord)
+    '''returns None\n\n
+    seekExact(final long ord)\n
     '''
 def term():
-    '''public BytesRef term()
+    '''returns BytesRef\n\n
+    term()\n
     '''
 def ord():
-    '''public long ord()
+    '''returns long\n\n
+    ord()\n
     '''
 def docFreq():
-    '''public int docFreq()
+    '''returns int\n\n
+    docFreq()\n
     '''
 def totalTermFreq():
-    '''public long totalTermFreq()
-    '''
-def postings():
-    '''public final PostingsEnum postings(final PostingsEnum reuse, final int flags)
+    '''returns long\n\n
+    totalTermFreq()\n
     '''
 def impacts():
-    '''public ImpactsEnum impacts(final int flags)
+    '''returns ImpactsEnum\n\n
+    impacts(final int flags)\n
     '''
 def reset():
-    '''public void reset(final int freq, final int positionIndex, final int[] positions, final int[] startOffsets, final int[] lengths, final BytesRef payloads, final int[] payloadIndex)
+    '''returns None\n\n
+    reset(final int freq, final int positionIndex, final int[] positions, final int[] startOffsets, final int[] lengths, final BytesRef payloads, final int[] payloadIndex)\n
     '''
 def nextPosition():
-    '''public int nextPosition()
+    '''returns int\n\n
+    nextPosition()\n
     '''
 def startOffset():
-    '''public int startOffset()
+    '''returns int\n\n
+    startOffset()\n
     '''
 def endOffset():
-    '''public int endOffset()
+    '''returns int\n\n
+    endOffset()\n
     '''
 def getPayload():
-    '''public BytesRef getPayload()
+    '''returns BytesRef\n\n
+    getPayload()\n
     '''
 def freq():
-    '''public int freq()
+    '''returns int\n\n
+    freq()\n
     '''
 def docID():
-    '''public int docID()
+    '''returns int\n\n
+    docID()\n
     '''
 def nextDoc():
-    '''public int nextDoc()
+    '''returns int\n\n
+    nextDoc()\n
     '''
 def advance():
-    '''public int advance(final int target)
+    '''returns int\n\n
+    advance(final int target)\n
     '''
 def cost():
-    '''public long cost()
+    '''returns long\n\n
+    cost()\n
     '''

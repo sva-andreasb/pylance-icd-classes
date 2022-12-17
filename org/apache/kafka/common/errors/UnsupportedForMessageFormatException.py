@@ -1,4 +1,5 @@
-def UnsupportedForMessageFormatException():
-    '''public UnsupportedForMessageFormatException(final String message)
-    public UnsupportedForMessageFormatException(final String message, final Throwable cause)
+def ():
+    '''returns UnsupportedForMessageFormatException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

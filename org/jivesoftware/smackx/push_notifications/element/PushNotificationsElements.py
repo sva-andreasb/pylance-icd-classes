@@ -1,23 +1,26 @@
 NAMESPACE = "String  \"http://jabber.org/protocol/pubsub\""
 ELEMENT = "String  \"pubsub\""
-def RemoteDisablingExtension():
-    '''public RemoteDisablingExtension(final String node, final Jid userJid)
+def ():
+    '''returns RemoteDisablingExtension\n\n
+    (final String node, final Jid userJid)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''
 def getUserJid():
-    '''public Jid getUserJid()
+    '''returns Jid\n\n
+    getUserJid()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static RemoteDisablingExtension from(final Message message)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''

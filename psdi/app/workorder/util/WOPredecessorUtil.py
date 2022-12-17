@@ -1,51 +1,68 @@
-def WOPredecessorUtil():
-    '''public WOPredecessorUtil()
+def ():
+    '''returns WOPredecessorUtil\n\n
+    ()\n
     '''
 def getExcludedList():
-    '''public List<String> getExcludedList()
+    '''returns List<String>\n\n
+    getExcludedList()\n
     '''
 def setExcludedList():
-    '''public void setExcludedList(final List<String> excludedList)
+    '''returns None\n\n
+    setExcludedList(final List<String> excludedList)\n
     '''
 def getChildList():
-    '''public List<String> getChildList()
+    '''returns List<String>\n\n
+    getChildList()\n
     '''
 def setChildList():
-    '''public void setChildList(final List<String> childList)
+    '''returns None\n\n
+    setChildList(final List<String> childList)\n
     '''
 def getLinkList():
-    '''public List<String> getLinkList()
+    '''returns List<String>\n\n
+    getLinkList()\n
     '''
 def setLinkList():
-    '''public void setLinkList(final List<String> linkList)
+    '''returns None\n\n
+    setLinkList(final List<String> linkList)\n
     '''
 def validateLink():
-    '''public boolean validateLink(final MboRemote workorder, final String wonum, final String target)
+    '''returns boolean\n\n
+    validateLink(final MboRemote workorder, final String wonum, final String target)\n
     '''
 def getRelationshipsUp():
-    '''public void getRelationshipsUp(final UserInfo userInfo, final String wonum)
+    '''returns None\n\n
+    getRelationshipsUp(final UserInfo userInfo, final String wonum)\n
     '''
 def getRelationshipsDown():
-    '''public void getRelationshipsDown(final UserInfo userInfo, final String predwonum)
+    '''returns None\n\n
+    getRelationshipsDown(final UserInfo userInfo, final String predwonum)\n
     '''
 def checkDirectRelationship():
-    '''public boolean checkDirectRelationship(final MboRemote workorder, final String wonum, final String target)
+    '''returns boolean\n\n
+    checkDirectRelationship(final MboRemote workorder, final String wonum, final String target)\n
     '''
 def getParent():
-    '''public String getParent(final MboRemote workorder, final String wonum)
+    '''returns String\n\n
+    getParent(final MboRemote workorder, final String wonum)\n
     '''
 def getAllChildrenToExclude():
-    '''public void getAllChildrenToExclude(final MboRemote workorder, final String wonum)
+    '''returns None\n\n
+    getAllChildrenToExclude(final MboRemote workorder, final String wonum)\n
     '''
 def getAllChildren():
-    '''public void getAllChildren(final MboRemote workorder, final String wonum)
+    '''returns None\n\n
+    getAllChildren(final MboRemote workorder, final String wonum)\n
     '''
 def getWOMboFromWonum():
-    '''public MboRemote getWOMboFromWonum(final String wonum, final UserInfo userinfo)
+    '''returns MboRemote\n\n
+    getWOMboFromWonum(final String wonum, final UserInfo userinfo)\n
     '''
 def isALinked():
-    '''public boolean isALinked(final MboRemote workorder, final String wonum)
+    '''returns boolean\n\n
+    isALinked(final MboRemote workorder, final String wonum)\n
     '''
 def hasALink():
-    '''public boolean hasALink(final MboRemote workorder, final String wonum)
+    '''returns boolean\n\n
+    hasALink(final MboRemote workorder, final String wonum)\n
     '''

@@ -1,7 +1,9 @@
-def NestedAdminException():
-    '''public NestedAdminException(final Throwable error)
-    public NestedAdminException(final Throwable error, final String msg)
+def ():
+    '''returns NestedAdminException\n\n
+    (final Throwable error)\n
+    (final Throwable error, final String msg)\n
     '''
 def getNestedException():
-    '''public Throwable getNestedException()
+    '''returns Throwable\n\n
+    getNestedException()\n
     '''

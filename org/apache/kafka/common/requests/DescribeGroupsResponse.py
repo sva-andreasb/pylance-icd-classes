@@ -1,66 +1,55 @@
 UNKNOWN_STATE = "String  \"\""
 UNKNOWN_PROTOCOL_TYPE = "String  \"\""
 UNKNOWN_PROTOCOL = "String  \"\""
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DescribeGroupsResponse():
-    '''public DescribeGroupsResponse(final Map<String, GroupMetadata> groups)
-    public DescribeGroupsResponse(final int throttleTimeMs, final Map<String, GroupMetadata> groups)
-    public DescribeGroupsResponse(final Struct struct)
+def ():
+    '''returns GroupMember\n\n
+    (final Map<String, GroupMetadata> groups)\n
+    (final int throttleTimeMs, final Map<String, GroupMetadata> groups)\n
+    (final Struct struct)\n
+    (final Errors error, final String state, final String protocolType, final String protocol, final List<GroupMember> members)\n
+    (final String memberId, final String clientId, final String clientHost, final ByteBuffer memberMetadata, final ByteBuffer memberAssignment)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
-    '''
-def groups():
-    '''public Map<String, GroupMetadata> groups()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def fromError():
-    '''public static DescribeGroupsResponse fromError(final Errors error, final List<String> groupIds)
-    public static DescribeGroupsResponse fromError(final int throttleTimeMs, final Errors error, final List<String> groupIds)
-    '''
-def parse():
-    '''public static DescribeGroupsResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def GroupMetadata():
-    '''public GroupMetadata(final Errors error, final String state, final String protocolType, final String protocol, final List<GroupMember> members)
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def error():
-    '''public Errors error()
+    '''returns Errors\n\n
+    error()\n
     '''
 def state():
-    '''public String state()
+    '''returns String\n\n
+    state()\n
     '''
 def protocolType():
-    '''public String protocolType()
+    '''returns String\n\n
+    protocolType()\n
     '''
 def protocol():
-    '''public String protocol()
+    '''returns String\n\n
+    protocol()\n
     '''
 def members():
-    '''public List<GroupMember> members()
-    '''
-def forError():
-    '''public static GroupMetadata forError(final Errors error)
-    '''
-def GroupMember():
-    '''public GroupMember(final String memberId, final String clientId, final String clientHost, final ByteBuffer memberMetadata, final ByteBuffer memberAssignment)
+    '''returns List<GroupMember>\n\n
+    members()\n
     '''
 def memberId():
-    '''public String memberId()
+    '''returns String\n\n
+    memberId()\n
     '''
 def clientId():
-    '''public String clientId()
+    '''returns String\n\n
+    clientId()\n
     '''
 def clientHost():
-    '''public String clientHost()
+    '''returns String\n\n
+    clientHost()\n
     '''
 def memberMetadata():
-    '''public ByteBuffer memberMetadata()
+    '''returns ByteBuffer\n\n
+    memberMetadata()\n
     '''
 def memberAssignment():
-    '''public ByteBuffer memberAssignment()
+    '''returns ByteBuffer\n\n
+    memberAssignment()\n
     '''

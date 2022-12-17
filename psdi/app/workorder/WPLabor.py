@@ -1,61 +1,80 @@
-def WPLabor():
-    '''public WPLabor(final MboSet ms)
+def ():
+    '''returns WPLabor\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def refreshRate():
-    '''public void refreshRate()
+    '''returns None\n\n
+    refreshRate()\n
     '''
 def calculatetotalcost():
-    '''public double calculatetotalcost()
+    '''returns double\n\n
+    calculatetotalcost()\n
     '''
 def copyPlan():
-    '''public void copyPlan(final MboRemote source)
+    '''returns None\n\n
+    copyPlan(final MboRemote source)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def findAssignments():
-    '''public List findAssignments()
+    '''returns List\n\n
+    findAssignments()\n
     '''
 def updateAssignments():
-    '''public void updateAssignments(final int newQty)
-    public void updateAssignments(final String attr, final String value)
+    '''returns None\n\n
+    updateAssignments(final int newQty)\n
+    updateAssignments(final String attr, final String value)\n
     '''
 def updateTotals():
-    '''public void updateTotals(final MboRemote wo, final boolean isGain)
+    '''returns None\n\n
+    updateTotals(final MboRemote wo, final boolean isGain)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def deleteAssociatedTool():
-    '''public void deleteAssociatedTool()
-    public void deleteAssociatedTool(final String assoc)
-    public void deleteAssociatedTool(final MboValue value)
-    public void deleteAssociatedTool(final String attributename, final String svalue)
+    '''returns None\n\n
+    deleteAssociatedTool()\n
+    deleteAssociatedTool(final String assoc)\n
+    deleteAssociatedTool(final MboValue value)\n
+    deleteAssociatedTool(final String attributename, final String svalue)\n
     '''
 def updateAssociatedToolData():
-    '''public void updateAssociatedToolData()
+    '''returns None\n\n
+    updateAssociatedToolData()\n
     '''
 def undeleteAddAssociatedTool():
-    '''public void undeleteAddAssociatedTool()
+    '''returns None\n\n
+    undeleteAddAssociatedTool()\n
     '''
 def UpdateAssignmentSet():
-    '''public void UpdateAssignmentSet(final boolean apptRequired, final String laborid)
+    '''returns None\n\n
+    UpdateAssignmentSet(final boolean apptRequired, final String laborid)\n
     '''

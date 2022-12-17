@@ -1,47 +1,54 @@
-def Resource():
-    '''public Resource()
+def ():
+    '''returns Resource\n\n
+    ()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String prop)
+    '''returns Object\n\n
+    getProperty(final String prop)\n
     '''
 def getInt():
-    '''public int getInt(final String prop)
+    '''returns int\n\n
+    getInt(final String prop)\n
     '''
 def getLong():
-    '''public long getLong(final String prop)
+    '''returns long\n\n
+    getLong(final String prop)\n
     '''
 def getFloat():
-    '''public float getFloat(final String prop)
+    '''returns float\n\n
+    getFloat(final String prop)\n
     '''
 def getDouble():
-    '''public double getDouble(final String prop)
+    '''returns double\n\n
+    getDouble(final String prop)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String prop)
+    '''returns boolean\n\n
+    getBoolean(final String prop)\n
     '''
 def getString():
-    '''public String getString(final String prop)
-    public String getString(final String prop, final String defValue)
+    '''returns String\n\n
+    getString(final String prop)\n
+    getString(final String prop, final String defValue)\n
     '''
 def getDate():
-    '''public Date getDate(final String prop)
+    '''returns Date\n\n
+    getDate(final String prop)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String prop, final Object value)
-    public Object setProperty(final String prop, final Object value, final boolean ignoreChangeTracking)
+    '''returns Object\n\n
+    setProperty(final String prop, final Object value)\n
+    setProperty(final String prop, final Object value, final boolean ignoreChangeTracking)\n
     '''
 def getID():
-    '''public String getID()
-    '''
-def getUserData():
-    '''public <T> T getUserData(final String key)
-    '''
-def setUserData():
-    '''public <T> void setUserData(final String key, final T data)
+    '''returns String\n\n
+    getID()\n
     '''
 def getQuantity():
-    '''public float getQuantity()
+    '''returns float\n\n
+    getQuantity()\n
     '''
 def getPropertyNames():
-    '''public Collection<String> getPropertyNames()
+    '''returns Collection<String>\n\n
+    getPropertyNames()\n
     '''

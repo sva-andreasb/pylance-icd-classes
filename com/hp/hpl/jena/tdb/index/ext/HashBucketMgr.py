@@ -1,18 +1,24 @@
-def HashBucketMgr():
-    '''public HashBucketMgr(final RecordFactory factory, final BlockMgr blockMgr)
+def ():
+    '''returns HashBucketMgr\n\n
+    (final RecordFactory factory, final BlockMgr blockMgr)\n
     '''
 def create():
-    '''public HashBucket create(final int id, final int hash, final int hashBitLen)
+    '''returns HashBucket\n\n
+    create(final int id, final int hash, final int hashBitLen)\n
     '''
 def get():
-    '''public HashBucket get(final int id)
+    '''returns HashBucket\n\n
+    get(final int id)\n
     '''
 def createFromByteBuffer():
-    '''public HashBucket createFromByteBuffer(final ByteBuffer bb, final BlockType blkType)
+    '''returns HashBucket\n\n
+    createFromByteBuffer(final ByteBuffer bb, final BlockType blkType)\n
     '''
 def fromByteBuffer():
-    '''public HashBucket fromByteBuffer(final ByteBuffer byteBuffer)
+    '''returns HashBucket\n\n
+    fromByteBuffer(final ByteBuffer byteBuffer)\n
     '''
 def toByteBuffer():
-    '''public ByteBuffer toByteBuffer(final HashBucket bucket)
+    '''returns ByteBuffer\n\n
+    toByteBuffer(final HashBucket bucket)\n
     '''

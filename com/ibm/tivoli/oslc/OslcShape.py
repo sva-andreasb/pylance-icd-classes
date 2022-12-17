@@ -1,40 +1,53 @@
-def OslcShape():
-    '''public OslcShape(final Model oslcModel, final String resType, final String shapeURI)
+def ():
+    '''returns OslcShape\n\n
+    (final Model oslcModel, final String resType, final String shapeURI)\n
     '''
 def setMaxSize():
-    '''public void setMaxSize(final Resource property, final String size)
+    '''returns None\n\n
+    setMaxSize(final Resource property, final String size)\n
     '''
 def setOccurs():
-    '''public void setOccurs(final Resource property, final String occursURI)
+    '''returns None\n\n
+    setOccurs(final Resource property, final String occursURI)\n
     '''
 def setPropertyName():
-    '''public void setPropertyName(final Resource property, final String propName)
+    '''returns None\n\n
+    setPropertyName(final Resource property, final String propName)\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final Resource property, final String defValue)
+    '''returns None\n\n
+    setDefaultValue(final Resource property, final String defValue)\n
     '''
 def setPropertyDefinition():
-    '''public void setPropertyDefinition(final Resource property, final String propNsURI)
+    '''returns None\n\n
+    setPropertyDefinition(final Resource property, final String propNsURI)\n
     '''
 def setValueType():
-    '''public void setValueType(final Resource property)
-    public void setValueType(final Resource property, final String valueType)
+    '''returns None\n\n
+    setValueType(final Resource property)\n
+    setValueType(final Resource property, final String valueType)\n
     '''
 def setRepresentation():
-    '''public void setRepresentation(final Resource property, final String repURI)
+    '''returns None\n\n
+    setRepresentation(final Resource property, final String repURI)\n
     '''
 def setRange():
-    '''public void setRange(final Resource property, final String rangeURI)
+    '''returns None\n\n
+    setRange(final Resource property, final String rangeURI)\n
     '''
 def setTitle():
-    '''public void setTitle(final Resource property, final String title)
+    '''returns None\n\n
+    setTitle(final Resource property, final String title)\n
     '''
 def setUsage():
-    '''public void setUsage(final Resource Property, final Set<String> usageURISet)
+    '''returns None\n\n
+    setUsage(final Resource Property, final Set<String> usageURISet)\n
     '''
 def createResourceProperty():
-    '''public Resource createResourceProperty(String occursURI, final String propName, final String propNs, final String valueTypeURI, final String rangeURI, final String valueShapeURI, final String title, final Set<String> usageURIs, final String representationURI)
+    '''returns Resource\n\n
+    createResourceProperty(String occursURI, final String propName, final String propNs, final String valueTypeURI, final String rangeURI, final String valueShapeURI, final String title, final Set<String> usageURIs, final String representationURI)\n
     '''
 def createLiteralProperty():
-    '''public void createLiteralProperty(String occursURI, final String propName, final String propNs, String valueTypeURI, final String title, String defaultValue, final int maxSize)
+    '''returns None\n\n
+    createLiteralProperty(String occursURI, final String propName, final String propNs, String valueTypeURI, final String title, String defaultValue, final int maxSize)\n
     '''

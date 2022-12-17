@@ -1,12 +1,12 @@
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def toggleselectrow():
-    '''public int toggleselectrow()
-    '''
-def OK_ACTION():
-    '''public synchronized int OK_ACTION()
+    '''returns int\n\n
+    toggleselectrow()\n
     '''
 def REFRESH_PREVIEW():
-    '''public int REFRESH_PREVIEW()
+    '''returns int\n\n
+    REFRESH_PREVIEW()\n
     '''

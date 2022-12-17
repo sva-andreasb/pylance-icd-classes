@@ -1,16 +1,21 @@
-def PrefixDefinition():
-    '''public PrefixDefinition()
-    public PrefixDefinition(final String prefix, final URI prefixBase)
+def ():
+    '''returns PrefixDefinition\n\n
+    ()\n
+    (final String prefix, final URI prefixBase)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getPrefixBase():
-    '''public URI getPrefixBase()
+    '''returns URI\n\n
+    getPrefixBase()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def setPrefixBase():
-    '''public void setPrefixBase(final URI prefixBase)
+    '''returns None\n\n
+    setPrefixBase(final URI prefixBase)\n
     '''

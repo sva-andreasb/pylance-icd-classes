@@ -1,3 +1,4 @@
-def DeployedAssetView():
-    '''public DeployedAssetView(final MboSet ms)
+def ():
+    '''returns DeployedAssetView\n\n
+    (final MboSet ms)\n
     '''

@@ -1,12 +1,16 @@
-def DPAMSWSuite():
-    '''public DPAMSWSuite(final MboSet ms)
+def ():
+    '''returns DPAMSWSuite\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

@@ -1,43 +1,45 @@
-def connect():
-    '''public synchronized void connect()
-    '''
 def disconnect():
-    '''public void disconnect()
-    '''
-def getMboSet():
-    '''public synchronized MboSetRemote getMboSet(final String name)
-    '''
-def getMXServerRemote():
-    '''public synchronized MXServerRemote getMXServerRemote()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def getProfile():
-    '''public ProfileRemote getProfile()
+    '''returns ProfileRemote\n\n
+    getProfile()\n
     '''
 def lookup():
-    '''public ServiceRemote lookup(final String name)
+    '''returns ServiceRemote\n\n
+    lookup(final String name)\n
     '''
 def isSupportedLangCode():
-    '''public boolean isSupportedLangCode(final String langCode)
+    '''returns boolean\n\n
+    isSupportedLangCode(final String langCode)\n
     '''
 def getBaseLang():
-    '''public String getBaseLang()
+    '''returns String\n\n
+    getBaseLang()\n
     '''
 def getLanguageList():
-    '''public String[][] getLanguageList()
+    '''returns String[][]\n\n
+    getLanguageList()\n
     '''
 def getMessage():
-    '''public String getMessage(final String group, final String key)
-    public String getMessage(final MXException mxe)
+    '''returns String\n\n
+    getMessage(final String group, final String key)\n
+    getMessage(final MXException mxe)\n
     '''
 def getMessages():
-    '''public String[] getMessages(final String group, final String[] key)
+    '''returns String[]\n\n
+    getMessages(final String group, final String[] key)\n
     '''
 def getTaggedMessage():
-    '''public String getTaggedMessage(final MXException mxe)
+    '''returns String\n\n
+    getTaggedMessage(final MXException mxe)\n
     '''
 def getProperty():
-    '''public String getProperty(final String propName)
+    '''returns String\n\n
+    getProperty(final String propName)\n
     '''
 def getBranding():
-    '''public int getBranding()
+    '''returns int\n\n
+    getBranding()\n
     '''

@@ -1,72 +1,96 @@
 def getEmployee():
-    '''public Employee getEmployee()
+    '''returns Employee\n\n
+    getEmployee()\n
     '''
 def setEmployee():
-    '''public void setEmployee(final Employee employee)
+    '''returns None\n\n
+    setEmployee(final Employee employee)\n
     '''
 def getNotificationOccurrenceEvent():
-    '''public Event getNotificationOccurrenceEvent()
+    '''returns Event\n\n
+    getNotificationOccurrenceEvent()\n
     '''
 def setNotificationOccurrenceEvent():
-    '''public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
+    '''returns None\n\n
+    setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)\n
     '''
 def getContents():
-    '''public String getContents()
+    '''returns String\n\n
+    getContents()\n
     '''
 def setContents():
-    '''public void setContents(final String contents)
+    '''returns None\n\n
+    setContents(final String contents)\n
     '''
 def isContentsSpecified():
-    '''public boolean isContentsSpecified()
+    '''returns boolean\n\n
+    isContentsSpecified()\n
     '''
 def unsetContents():
-    '''public void unsetContents()
+    '''returns None\n\n
+    unsetContents()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getEndDate():
-    '''public GregorianCalendar getEndDate()
+    '''returns GregorianCalendar\n\n
+    getEndDate()\n
     '''
 def setEndDate():
-    '''public void setEndDate(final GregorianCalendar endDate)
+    '''returns None\n\n
+    setEndDate(final GregorianCalendar endDate)\n
     '''
 def isEndDateSpecified():
-    '''public boolean isEndDateSpecified()
+    '''returns boolean\n\n
+    isEndDateSpecified()\n
     '''
 def unsetEndDate():
-    '''public void unsetEndDate()
+    '''returns None\n\n
+    unsetEndDate()\n
     '''
 def getStartDate():
-    '''public GregorianCalendar getStartDate()
+    '''returns GregorianCalendar\n\n
+    getStartDate()\n
     '''
 def setStartDate():
-    '''public void setStartDate(final GregorianCalendar startDate)
+    '''returns None\n\n
+    setStartDate(final GregorianCalendar startDate)\n
     '''
 def isStartDateSpecified():
-    '''public boolean isStartDateSpecified()
+    '''returns boolean\n\n
+    isStartDateSpecified()\n
     '''
 def unsetStartDate():
-    '''public void unsetStartDate()
+    '''returns None\n\n
+    unsetStartDate()\n
     '''
 def contents():
-    '''public Mask contents()
+    '''returns Mask\n\n
+    contents()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def endDate():
-    '''public Mask endDate()
+    '''returns Mask\n\n
+    endDate()\n
     '''
 def startDate():
-    '''public Mask startDate()
+    '''returns Mask\n\n
+    startDate()\n
     '''

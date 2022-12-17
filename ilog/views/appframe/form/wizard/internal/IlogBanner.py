@@ -1,12 +1,16 @@
-def IlogBanner():
-    '''public IlogBanner()
+def ():
+    '''returns IlogBanner\n\n
+    ()\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def getAlpha():
-    '''public String getAlpha()
+    '''returns String\n\n
+    getAlpha()\n
     '''
 def setAlpha():
-    '''public void setAlpha(final String s)
+    '''returns None\n\n
+    setAlpha(final String s)\n
     '''

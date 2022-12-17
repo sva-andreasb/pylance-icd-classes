@@ -1,33 +1,36 @@
-def getIdToken():
-    '''public final String getIdToken()
-    '''
 def setIdToken():
-    '''public IdTokenResponse setIdToken(final String idToken)
+    '''returns IdTokenResponse\n\n
+    setIdToken(final String idToken)\n
     '''
 def setAccessToken():
-    '''public IdTokenResponse setAccessToken(final String accessToken)
+    '''returns IdTokenResponse\n\n
+    setAccessToken(final String accessToken)\n
     '''
 def setTokenType():
-    '''public IdTokenResponse setTokenType(final String tokenType)
+    '''returns IdTokenResponse\n\n
+    setTokenType(final String tokenType)\n
     '''
 def setExpiresInSeconds():
-    '''public IdTokenResponse setExpiresInSeconds(final Long expiresIn)
+    '''returns IdTokenResponse\n\n
+    setExpiresInSeconds(final Long expiresIn)\n
     '''
 def setRefreshToken():
-    '''public IdTokenResponse setRefreshToken(final String refreshToken)
+    '''returns IdTokenResponse\n\n
+    setRefreshToken(final String refreshToken)\n
     '''
 def setScope():
-    '''public IdTokenResponse setScope(final String scope)
+    '''returns IdTokenResponse\n\n
+    setScope(final String scope)\n
     '''
 def parseIdToken():
-    '''public IdToken parseIdToken()
-    '''
-def execute():
-    '''public static IdTokenResponse execute(final TokenRequest tokenRequest)
+    '''returns IdToken\n\n
+    parseIdToken()\n
     '''
 def set():
-    '''public IdTokenResponse set(final String fieldName, final Object value)
+    '''returns IdTokenResponse\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public IdTokenResponse clone()
+    '''returns IdTokenResponse\n\n
+    clone()\n
     '''

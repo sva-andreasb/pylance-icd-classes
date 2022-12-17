@@ -1,48 +1,64 @@
-def ExtendedPropertyHandler():
-    '''public ExtendedPropertyHandler(final boolean showHidden, final boolean dropNulls, final boolean leanJson, final OslcRequest oslcRequest)
+def ():
+    '''returns ExtendedPropertyHandler\n\n
+    (final boolean showHidden, final boolean dropNulls, final boolean leanJson, final OslcRequest oslcRequest)\n
     '''
 def setLinkedCache():
-    '''public void setLinkedCache(final Map<String, JSONObject> linkedCache)
+    '''returns None\n\n
+    setLinkedCache(final Map<String, JSONObject> linkedCache)\n
     '''
 def setLinkedCacheTemp():
-    '''public void setLinkedCacheTemp(final Map<String, JSONObject> linkedCacheTemp)
+    '''returns None\n\n
+    setLinkedCacheTemp(final Map<String, JSONObject> linkedCacheTemp)\n
     '''
 def setAddLocalizedRep():
-    '''public void setAddLocalizedRep(final boolean addLocalizedRep)
+    '''returns None\n\n
+    setAddLocalizedRep(final boolean addLocalizedRep)\n
     '''
 def setSetLocalizedRep():
-    '''public void setSetLocalizedRep(final boolean setLocalizedRep)
+    '''returns None\n\n
+    setSetLocalizedRep(final boolean setLocalizedRep)\n
     '''
 def handleFormulas():
-    '''public void handleFormulas(final JSONObject mboOjo, final MboRemote pmbo, final String formulaProp)
+    '''returns None\n\n
+    handleFormulas(final JSONObject mboOjo, final MboRemote pmbo, final String formulaProp)\n
     '''
 def handleExternalResources():
-    '''public void handleExternalResources(final JSONObject mboOjo, final MboRemote pmbo, final String extResName)
+    '''returns None\n\n
+    handleExternalResources(final JSONObject mboOjo, final MboRemote pmbo, final String extResName)\n
     '''
 def handleMaxvar():
-    '''public void handleMaxvar(final JSONObject mboOjo, final MboRemote pmbo, final String propName)
+    '''returns None\n\n
+    handleMaxvar(final JSONObject mboOjo, final MboRemote pmbo, final String propName)\n
     '''
 def handleRelatedMbos():
-    '''public void handleRelatedMbos(final JSONObject mboOjo, final MboRemote pmbo, String relation, final OslcResourceProperty oslcResProp)
+    '''returns None\n\n
+    handleRelatedMbos(final JSONObject mboOjo, final MboRemote pmbo, String relation, final OslcResourceProperty oslcResProp)\n
     '''
 def handleSigoption():
-    '''public void handleSigoption(final JSONObject jo, final MboRemote mbo, String optionName)
+    '''returns None\n\n
+    handleSigoption(final JSONObject jo, final MboRemote mbo, String optionName)\n
     '''
 def handleCondition():
-    '''public void handleCondition(final JSONObject jo, final MboRemote mbo, String conditionName)
+    '''returns None\n\n
+    handleCondition(final JSONObject jo, final MboRemote mbo, String conditionName)\n
     '''
 def handleScriptAttrs():
-    '''public void handleScriptAttrs(final JSONObject jo, final MboRemote mbo, String scriptName)
+    '''returns None\n\n
+    handleScriptAttrs(final JSONObject jo, final MboRemote mbo, String scriptName)\n
     '''
 def setImageRef():
-    '''public void setImageRef(final JSONObject mboOjo, final MboRemote mbo, final String alias)
+    '''returns None\n\n
+    setImageRef(final JSONObject mboOjo, final MboRemote mbo, final String alias)\n
     '''
 def setEventSubscriptions():
-    '''public void setEventSubscriptions(final JSONObject mboOjo, final MboRemote mbo, final String osName)
+    '''returns None\n\n
+    setEventSubscriptions(final JSONObject mboOjo, final MboRemote mbo, final String osName)\n
     '''
 def setExtendedMboColumnElement():
-    '''public void setExtendedMboColumnElement(JSONObject mboOjo, final String extAttrName, final String alias, final MboRemote mbo)
+    '''returns None\n\n
+    setExtendedMboColumnElement(JSONObject mboOjo, final String extAttrName, final String alias, final MboRemote mbo)\n
     '''
 def handleCachedResources():
-    '''public void handleCachedResources(final JSONObject mboOjo, final MboRemote mbo, final String cachedRes)
+    '''returns None\n\n
+    handleCachedResources(final JSONObject mboOjo, final MboRemote mbo, final String cachedRes)\n
     '''

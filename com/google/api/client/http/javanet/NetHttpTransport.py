@@ -1,39 +1,52 @@
-def NetHttpTransport():
-    '''public NetHttpTransport()
+def ():
+    '''returns NetHttpTransport\n\n
+    ()\n
     '''
 def supportsMethod():
-    '''public boolean supportsMethod(final String method)
+    '''returns boolean\n\n
+    supportsMethod(final String method)\n
     '''
 def setProxy():
-    '''public Builder setProxy(final Proxy proxy)
+    '''returns Builder\n\n
+    setProxy(final Proxy proxy)\n
     '''
 def setConnectionFactory():
-    '''public Builder setConnectionFactory(final ConnectionFactory connectionFactory)
+    '''returns Builder\n\n
+    setConnectionFactory(final ConnectionFactory connectionFactory)\n
     '''
 def trustCertificatesFromJavaKeyStore():
-    '''public Builder trustCertificatesFromJavaKeyStore(final InputStream keyStoreStream, final String storePass)
+    '''returns Builder\n\n
+    trustCertificatesFromJavaKeyStore(final InputStream keyStoreStream, final String storePass)\n
     '''
 def trustCertificatesFromStream():
-    '''public Builder trustCertificatesFromStream(final InputStream certificateStream)
+    '''returns Builder\n\n
+    trustCertificatesFromStream(final InputStream certificateStream)\n
     '''
 def trustCertificates():
-    '''public Builder trustCertificates(final KeyStore trustStore)
+    '''returns Builder\n\n
+    trustCertificates(final KeyStore trustStore)\n
     '''
 def doNotValidateCertificate():
-    '''public Builder doNotValidateCertificate()
+    '''returns Builder\n\n
+    doNotValidateCertificate()\n
     '''
 def getSslSocketFactory():
-    '''public SSLSocketFactory getSslSocketFactory()
+    '''returns SSLSocketFactory\n\n
+    getSslSocketFactory()\n
     '''
 def setSslSocketFactory():
-    '''public Builder setSslSocketFactory(final SSLSocketFactory sslSocketFactory)
+    '''returns Builder\n\n
+    setSslSocketFactory(final SSLSocketFactory sslSocketFactory)\n
     '''
 def getHostnameVerifier():
-    '''public HostnameVerifier getHostnameVerifier()
+    '''returns HostnameVerifier\n\n
+    getHostnameVerifier()\n
     '''
 def setHostnameVerifier():
-    '''public Builder setHostnameVerifier(final HostnameVerifier hostnameVerifier)
+    '''returns Builder\n\n
+    setHostnameVerifier(final HostnameVerifier hostnameVerifier)\n
     '''
 def build():
-    '''public NetHttpTransport build()
+    '''returns NetHttpTransport\n\n
+    build()\n
     '''

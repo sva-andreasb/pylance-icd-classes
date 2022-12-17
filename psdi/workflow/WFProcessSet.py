@@ -1,9 +1,12 @@
-def WFProcessSet():
-    '''public WFProcessSet(final MboServerInterface ms)
+def ():
+    '''returns WFProcessSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getWFProcessRevisionByID():
-    '''public WFProcessRemote getWFProcessRevisionByID(final String mainProcess, final int revision, final String subProcessName)
+    '''returns WFProcessRemote\n\n
+    getWFProcessRevisionByID(final String mainProcess, final int revision, final String subProcessName)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

@@ -1,3 +1,4 @@
-def FldMapTipTemplate():
-    '''public FldMapTipTemplate(final MboValue mbv)
+def ():
+    '''returns FldMapTipTemplate\n\n
+    (final MboValue mbv)\n
     '''

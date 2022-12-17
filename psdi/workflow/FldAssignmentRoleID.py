@@ -1,9 +1,12 @@
-def FldAssignmentRoleID():
-    '''public FldAssignmentRoleID(final MboValue mbv)
+def ():
+    '''returns FldAssignmentRoleID\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

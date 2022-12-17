@@ -1,3 +1,4 @@
-def FldInventoryIssueUnit():
-    '''public FldInventoryIssueUnit(final MboValue mbv)
+def ():
+    '''returns FldInventoryIssueUnit\n\n
+    (final MboValue mbv)\n
     '''

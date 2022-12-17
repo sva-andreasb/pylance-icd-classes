@@ -1,3 +1,4 @@
 def register():
-    '''public void register(final String name, final ParameterFactory factory)
+    '''returns None\n\n
+    register(final String name, final ParameterFactory factory)\n
     '''

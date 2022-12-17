@@ -1,3 +1,4 @@
-def SKDWorkOrderVal():
-    '''public SKDWorkOrderVal(final MboSet ms)
+def ():
+    '''returns SKDWorkOrderVal\n\n
+    (final MboSet ms)\n
     '''

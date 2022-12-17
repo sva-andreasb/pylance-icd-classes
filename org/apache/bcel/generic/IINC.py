@@ -1,24 +1,20 @@
-def IINC():
-    '''public IINC(final int n, final int c)
+def ():
+    '''returns IINC\n\n
+    (final int n, final int c)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    '''
-def setIndex():
-    '''public final void setIndex(final int n)
-    '''
-def getIncrement():
-    '''public final int getIncrement()
-    '''
-def setIncrement():
-    '''public final void setIncrement(final int c)
+    '''returns String\n\n
+    toString(final boolean verbose)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cp)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cp)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

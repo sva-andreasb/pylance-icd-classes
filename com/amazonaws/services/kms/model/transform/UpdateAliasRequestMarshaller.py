@@ -1,6 +1,8 @@
-def UpdateAliasRequestMarshaller():
-    '''public UpdateAliasRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns UpdateAliasRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<UpdateAliasRequest> marshall(final UpdateAliasRequest updateAliasRequest)
+    '''returns Request<UpdateAliasRequest>\n\n
+    marshall(final UpdateAliasRequest updateAliasRequest)\n
     '''

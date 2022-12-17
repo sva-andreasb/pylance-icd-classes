@@ -1,6 +1,7 @@
-def OMStreamingException():
-    '''public OMStreamingException()
-    public OMStreamingException(final String message)
-    public OMStreamingException(final String message, final Throwable cause)
-    public OMStreamingException(final Throwable cause)
+def ():
+    '''returns OMStreamingException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

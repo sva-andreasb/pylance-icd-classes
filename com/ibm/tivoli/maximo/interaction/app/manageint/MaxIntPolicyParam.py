@@ -1,6 +1,8 @@
-def MaxIntPolicyParam():
-    '''public MaxIntPolicyParam(final MboSet ms)
+def ():
+    '''returns MaxIntPolicyParam\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

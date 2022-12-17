@@ -1,9 +1,12 @@
-def FldWFProcessDesc():
-    '''public FldWFProcessDesc(final MboValue mbv)
+def ():
+    '''returns FldWFProcessDesc\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

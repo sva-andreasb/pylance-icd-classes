@@ -1,44 +1,41 @@
 UNKNOWN_PROTOCOL = "String  \"\""
 UNKNOWN_GENERATION_ID = "int  -1"
 UNKNOWN_MEMBER_ID = "String  \"\""
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def JoinGroupResponse():
-    '''public JoinGroupResponse(final Errors error, final int generationId, final String groupProtocol, final String memberId, final String leaderId, final Map<String, ByteBuffer> groupMembers)
-    public JoinGroupResponse(final int throttleTimeMs, final Errors error, final int generationId, final String groupProtocol, final String memberId, final String leaderId, final Map<String, ByteBuffer> groupMembers)
-    public JoinGroupResponse(final Struct struct)
+def ():
+    '''returns JoinGroupResponse\n\n
+    (final Errors error, final int generationId, final String groupProtocol, final String memberId, final String leaderId, final Map<String, ByteBuffer> groupMembers)\n
+    (final int throttleTimeMs, final Errors error, final int generationId, final String groupProtocol, final String memberId, final String leaderId, final Map<String, ByteBuffer> groupMembers)\n
+    (final Struct struct)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
+    '''returns Errors\n\n
+    error()\n
     '''
 def generationId():
-    '''public int generationId()
+    '''returns int\n\n
+    generationId()\n
     '''
 def groupProtocol():
-    '''public String groupProtocol()
+    '''returns String\n\n
+    groupProtocol()\n
     '''
 def memberId():
-    '''public String memberId()
+    '''returns String\n\n
+    memberId()\n
     '''
 def leaderId():
-    '''public String leaderId()
+    '''returns String\n\n
+    leaderId()\n
     '''
 def isLeader():
-    '''public boolean isLeader()
-    '''
-def members():
-    '''public Map<String, ByteBuffer> members()
-    '''
-def parse():
-    '''public static JoinGroupResponse parse(final ByteBuffer buffer, final short version)
+    '''returns boolean\n\n
+    isLeader()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,14 +1,18 @@
-def AnnotationElementValue():
-    '''public AnnotationElementValue(final AnnotationGen a, final ConstantPool cpool)
-    public AnnotationElementValue(final int type, final AnnotationGen annotation, final ConstantPool cpool)
-    public AnnotationElementValue(final AnnotationElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)
+def ():
+    '''returns AnnotationElementValue\n\n
+    (final AnnotationGen a, final ConstantPool cpool)\n
+    (final int type, final AnnotationGen annotation, final ConstantPool cpool)\n
+    (final AnnotationElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream dos)
+    '''returns None\n\n
+    dump(final DataOutputStream dos)\n
     '''
 def stringifyValue():
-    '''public String stringifyValue()
+    '''returns String\n\n
+    stringifyValue()\n
     '''
 def getAnnotation():
-    '''public AnnotationGen getAnnotation()
+    '''returns AnnotationGen\n\n
+    getAnnotation()\n
     '''

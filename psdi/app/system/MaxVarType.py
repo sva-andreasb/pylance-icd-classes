@@ -1,6 +1,8 @@
-def MaxVarType():
-    '''public MaxVarType(final MboSet ms)
+def ():
+    '''returns MaxVarType\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

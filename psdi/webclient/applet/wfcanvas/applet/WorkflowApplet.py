@@ -5,132 +5,171 @@ NONE = "String  \"NONE\""
 LRE = "String  \"\u202a\""
 RLE = "String  \"\u202b\""
 PDF = "String  \"\u202c\""
-def WorkflowApplet():
-    '''public WorkflowApplet()
+def ():
+    '''returns WorkflowApplet\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setMaxvalueNodeTypes():
-    '''public void setMaxvalueNodeTypes(final String types)
+    '''returns None\n\n
+    setMaxvalueNodeTypes(final String types)\n
     '''
 def setTranslatedNodeTypes():
-    '''public void setTranslatedNodeTypes(final String types)
+    '''returns None\n\n
+    setTranslatedNodeTypes(final String types)\n
     '''
 def setupProcess():
-    '''public void setupProcess(final String id, final String name, final boolean editable, final int zoomLevel)
+    '''returns None\n\n
+    setupProcess(final String id, final String name, final boolean editable, final int zoomLevel)\n
     '''
 def addNode():
-    '''public void addNode(final String id, final String row, final String type, final String x, final String y, String title, final boolean tobedeleted)
+    '''returns None\n\n
+    addNode(final String id, final String row, final String type, final String x, final String y, String title, final boolean tobedeleted)\n
     '''
 def addAction():
-    '''public void addAction(final String id, final String row, final String ownerrow, final String ownerid, final String memberid, final String ispositive, final boolean tobedeleted)
+    '''returns None\n\n
+    addAction(final String id, final String row, final String ownerrow, final String ownerid, final String memberid, final String ispositive, final boolean tobedeleted)\n
     '''
 def setupApplet():
-    '''public void setupApplet()
+    '''returns None\n\n
+    setupApplet()\n
     '''
 def diagramChanged():
-    '''public void diagramChanged(final DiagramEvent e)
+    '''returns None\n\n
+    diagramChanged(final DiagramEvent e)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def setCursor():
-    '''public void setCursor(final boolean on)
-    public void setCursor(final Cursor cursor)
+    '''returns None\n\n
+    setCursor(final boolean on)\n
+    setCursor(final Cursor cursor)\n
     '''
 def movenode():
-    '''public void movenode()
+    '''returns None\n\n
+    movenode()\n
     '''
 def newnode():
-    '''public void newnode(final String id, final int row)
+    '''returns None\n\n
+    newnode(final String id, final int row)\n
     '''
 def moveaction():
-    '''public void moveaction()
+    '''returns None\n\n
+    moveaction()\n
     '''
 def newaction():
-    '''public void newaction(final String id, final int row)
+    '''returns None\n\n
+    newaction(final String id, final int row)\n
     '''
 def deleteEntity():
-    '''public void deleteEntity()
+    '''returns None\n\n
+    deleteEntity()\n
     '''
 def select():
-    '''public void select(final Object ent)
-    public void select()
+    '''returns None\n\n
+    select(final Object ent)\n
+    select()\n
     '''
 def workflowChanged():
-    '''public void workflowChanged(final WorkflowEditEvent e)
+    '''returns None\n\n
+    workflowChanged(final WorkflowEditEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def openWorkflow():
-    '''public void openWorkflow(final int zoomLevel, int nodeRow, int actionRow, final String selected, final boolean reload)
+    '''returns None\n\n
+    openWorkflow(final int zoomLevel, int nodeRow, int actionRow, final String selected, final boolean reload)\n
     '''
 def showError():
-    '''public void showError(final String errorText)
-    public void showError(final Hashtable appletResources, final String errorText)
-    public void showError(final Hashtable appletResources)
+    '''returns None\n\n
+    showError(final String errorText)\n
+    showError(final Hashtable appletResources, final String errorText)\n
+    showError(final Hashtable appletResources)\n
     '''
 def itemStateChanged():
-    '''public void itemStateChanged(final ItemEvent e)
+    '''returns None\n\n
+    itemStateChanged(final ItemEvent e)\n
     '''
 def setBidiEnabled():
-    '''public void setBidiEnabled(final boolean enabled)
+    '''returns None\n\n
+    setBidiEnabled(final boolean enabled)\n
     '''
 def isBidiEnabled():
-    '''public boolean isBidiEnabled()
+    '''returns boolean\n\n
+    isBidiEnabled()\n
     '''
 def setMaximoTextDirection():
-    '''public void setMaximoTextDirection(final String dir)
+    '''returns None\n\n
+    setMaximoTextDirection(final String dir)\n
     '''
 def getMaximoTextDirection():
-    '''public String getMaximoTextDirection()
+    '''returns String\n\n
+    getMaximoTextDirection()\n
     '''
 def enforceBidiDirection():
-    '''public String enforceBidiDirection(String str, final String bidiDirection)
+    '''returns String\n\n
+    enforceBidiDirection(String str, final String bidiDirection)\n
     '''
 def sendEvent():
-    '''public void sendEvent(final String event, final WorkflowEntity entity)
-    public void sendEvent(final String event, final WorkflowEntity entity, final Hashtable values)
-    public void sendEvent(final String event, final Object value)
-    public void sendEvent(final String event, final String target, final Hashtable values)
-    public void sendEvent(final String event, final Hashtable values)
+    '''returns None\n\n
+    sendEvent(final String event, final WorkflowEntity entity)\n
+    sendEvent(final String event, final WorkflowEntity entity, final Hashtable values)\n
+    sendEvent(final String event, final Object value)\n
+    sendEvent(final String event, final String target, final Hashtable values)\n
+    sendEvent(final String event, final Hashtable values)\n
     '''
 def getProxy():
-    '''public Transferable getProxy(final DiagramWorkflowNode node)
+    '''returns Transferable\n\n
+    getProxy(final DiagramWorkflowNode node)\n
     '''
 def isDropSupported():
-    '''public boolean isDropSupported()
+    '''returns boolean\n\n
+    isDropSupported()\n
     '''
 def dropComplete():
-    '''public void dropComplete(final WorkflowNode sourceNode, final WorkflowNode dropNode)
+    '''returns None\n\n
+    dropComplete(final WorkflowNode sourceNode, final WorkflowNode dropNode)\n
     '''
 def clearCursor():
-    '''public void clearCursor()
+    '''returns None\n\n
+    clearCursor()\n
     '''
 def mouseMoved():
-    '''public void mouseMoved(final MouseEvent e)
+    '''returns None\n\n
+    mouseMoved(final MouseEvent e)\n
     '''
 def mouseDragged():
-    '''public void mouseDragged(final MouseEvent e)
+    '''returns None\n\n
+    mouseDragged(final MouseEvent e)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent e)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent e)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent e)
+    '''returns None\n\n
+    mouseExited(final MouseEvent e)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
     '''

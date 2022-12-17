@@ -1,6 +1,8 @@
-def GWACrewAssignmentBean():
-    '''public GWACrewAssignmentBean()
+def ():
+    '''returns GWACrewAssignmentBean\n\n
+    ()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

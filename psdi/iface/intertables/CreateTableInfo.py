@@ -1,42 +1,56 @@
-def CreateTableInfo():
-    '''public CreateTableInfo(final UserInfo userInfo, final Connection rConn, final Connection cConn, final boolean remoteDatabase, final boolean backup)
+def ():
+    '''returns CreateTableInfo\n\n
+    (final UserInfo userInfo, final Connection rConn, final Connection cConn, final boolean remoteDatabase, final boolean backup)\n
     '''
 def ifMxInExists():
-    '''public boolean ifMxInExists()
+    '''returns boolean\n\n
+    ifMxInExists()\n
     '''
 def setMxInExists():
-    '''public void setMxInExists(final boolean mxInExists)
+    '''returns None\n\n
+    setMxInExists(final boolean mxInExists)\n
     '''
 def ifMxOutExists():
-    '''public boolean ifMxOutExists()
+    '''returns boolean\n\n
+    ifMxOutExists()\n
     '''
 def setMxOutExists():
-    '''public void setMxOutExists(final boolean mxOutExists)
+    '''returns None\n\n
+    setMxOutExists(final boolean mxOutExists)\n
     '''
 def ifCreateInMaximo():
-    '''public boolean ifCreateInMaximo()
+    '''returns boolean\n\n
+    ifCreateInMaximo()\n
     '''
 def getCreateDBType():
-    '''public String getCreateDBType()
+    '''returns String\n\n
+    getCreateDBType()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getCreateConn():
-    '''public Connection getCreateConn()
+    '''returns Connection\n\n
+    getCreateConn()\n
     '''
 def ifBackupTable():
-    '''public boolean ifBackupTable()
+    '''returns boolean\n\n
+    ifBackupTable()\n
     '''
 def getRegisterConn():
-    '''public Connection getRegisterConn()
+    '''returns Connection\n\n
+    getRegisterConn()\n
     '''
 def getSelStmtMaxCols():
-    '''public PreparedStatement getSelStmtMaxCols()
+    '''returns PreparedStatement\n\n
+    getSelStmtMaxCols()\n
     '''
 def getSelStmtMaxSequence():
-    '''public PreparedStatement getSelStmtMaxSequence()
+    '''returns PreparedStatement\n\n
+    getSelStmtMaxSequence()\n
     '''
 def getUpdStmtMaxSequence():
-    '''public PreparedStatement getUpdStmtMaxSequence()
+    '''returns PreparedStatement\n\n
+    getUpdStmtMaxSequence()\n
     '''

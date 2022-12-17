@@ -1,64 +1,67 @@
-def getInstanceFor():
-    '''public static synchronized PingManager getInstanceFor(final XMPPConnection connection)
-    '''
-def setDefaultPingInterval():
-    '''public static void setDefaultPingInterval(final int interval)
-    '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def connectionTerminated():
-    '''public void connectionTerminated()
-    '''
-def pingAsync():
-    '''public SmackFuture<Boolean, Exception> pingAsync(final Jid jid)
-    public SmackFuture<Boolean, Exception> pingAsync(final Jid jid, final long pongTimeout)
+    '''returns None\n\n
+    connectionTerminated()\n
     '''
 def handleStanza():
-    '''public void handleStanza(final Stanza packet)
+    '''returns None\n\n
+    handleStanza(final Stanza packet)\n
     '''
 def isNonFatalException():
-    '''public boolean isNonFatalException(final Exception exception)
+    '''returns boolean\n\n
+    isNonFatalException(final Exception exception)\n
     '''
 def onSuccess():
-    '''public void onSuccess(final IQ result)
+    '''returns None\n\n
+    onSuccess(final IQ result)\n
     '''
 def processException():
-    '''public void processException(final Exception exception)
+    '''returns None\n\n
+    processException(final Exception exception)\n
     '''
 def ping():
-    '''public boolean ping(final Jid jid, final long pingTimeout)
-    public boolean ping(final Jid jid)
+    '''returns boolean\n\n
+    ping(final Jid jid, final long pingTimeout)\n
+    ping(final Jid jid)\n
     '''
 def isPingSupported():
-    '''public boolean isPingSupported(final Jid jid)
+    '''returns boolean\n\n
+    isPingSupported(final Jid jid)\n
     '''
 def pingMyServer():
-    '''public boolean pingMyServer()
-    public boolean pingMyServer(final boolean notifyListeners)
-    public boolean pingMyServer(final boolean notifyListeners, final long pingTimeout)
+    '''returns boolean\n\n
+    pingMyServer()\n
+    pingMyServer(final boolean notifyListeners)\n
+    pingMyServer(final boolean notifyListeners, final long pingTimeout)\n
     '''
 def setPingInterval():
-    '''public void setPingInterval(final int pingInterval)
+    '''returns None\n\n
+    setPingInterval(final int pingInterval)\n
     '''
 def getPingInterval():
-    '''public int getPingInterval()
+    '''returns int\n\n
+    getPingInterval()\n
     '''
 def registerPingFailedListener():
-    '''public void registerPingFailedListener(final PingFailedListener listener)
+    '''returns None\n\n
+    registerPingFailedListener(final PingFailedListener listener)\n
     '''
 def unregisterPingFailedListener():
-    '''public void unregisterPingFailedListener(final PingFailedListener listener)
-    '''
-def pingServerIfNecessary():
-    '''public synchronized void pingServerIfNecessary()
+    '''returns None\n\n
+    unregisterPingFailedListener(final PingFailedListener listener)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

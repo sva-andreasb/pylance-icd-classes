@@ -1,6 +1,8 @@
-def FldReconcmpruleDataSet1():
-    '''public FldReconcmpruleDataSet1(final MboValue mbv)
+def ():
+    '''returns FldReconcmpruleDataSet1\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

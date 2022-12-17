@@ -1,22 +1,29 @@
-def WOTaskRelation():
-    '''public WOTaskRelation(final MboSet ms)
+def ():
+    '''returns WOTaskRelation\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def updateTotals():
-    '''public void updateTotals(final MboRemote wo, final boolean isGain)
+    '''returns None\n\n
+    updateTotals(final MboRemote wo, final boolean isGain)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def copyPlan():
-    '''public void copyPlan(final MboRemote source, final Map<String, WO> operWoLookup)
-    public void copyPlan(final MboRemote source)
+    '''returns None\n\n
+    copyPlan(final MboRemote source, final Map<String, WO> operWoLookup)\n
+    copyPlan(final MboRemote source)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

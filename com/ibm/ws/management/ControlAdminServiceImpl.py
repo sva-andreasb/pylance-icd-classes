@@ -1,53 +1,62 @@
-def ControlAdminServiceImpl():
-    '''public ControlAdminServiceImpl(final MBeanFactory localMBeanFactory)
-    '''
-def getInstance():
-    '''public static ControlAdminServiceImpl getInstance()
+def ():
+    '''returns ControlAdminServiceImpl\n\n
+    (final MBeanFactory localMBeanFactory)\n
     '''
 def currentAdjuncts():
-    '''public Set currentAdjuncts()
+    '''returns Set\n\n
+    currentAdjuncts()\n
     '''
 def currentServants():
-    '''public Set currentServants()
+    '''returns Set\n\n
+    currentServants()\n
     '''
 def currentWLMServants():
-    '''public Set currentWLMServants()
+    '''returns Set\n\n
+    currentWLMServants()\n
     '''
 def activateProxyMBean():
-    '''public Serializable activateProxyMBean(final String type, final String configId, final String descriptor, final Properties keyProperties, final String stoken, final ObjectName objName, final byte[] descriptorBytes)
-    public Serializable activateProxyMBean(final ModelMBeanInfo info, final ObjectName objName, final String stoken)
-    public ObjectName activateProxyMBean(final String type, final String configId, final String descriptor, final Properties keyProperties, final String stoken, final ObjectName objName)
+    '''returns ObjectName\n\n
+    activateProxyMBean(final String type, final String configId, final String descriptor, final Properties keyProperties, final String stoken, final ObjectName objName, final byte[] descriptorBytes)\n
+    activateProxyMBean(final ModelMBeanInfo info, final ObjectName objName, final String stoken)\n
+    activateProxyMBean(final String type, final String configId, final String descriptor, final Properties keyProperties, final String stoken, final ObjectName objName)\n
     '''
 def removeListener():
-    '''public void removeListener(final ObjectName proxyObjectName)
+    '''returns None\n\n
+    removeListener(final ObjectName proxyObjectName)\n
     '''
 def deactivateProxyMBean():
-    '''public void deactivateProxyMBean(final ObjectName objName, final String stoken)
+    '''returns None\n\n
+    deactivateProxyMBean(final ObjectName objName, final String stoken)\n
     '''
 def cleanupAdjunctJVM():
-    '''public void cleanupAdjunctJVM(final String stoken)
+    '''returns None\n\n
+    cleanupAdjunctJVM(final String stoken)\n
     '''
 def cleanupServantJVM():
-    '''public void cleanupServantJVM(final String stoken)
+    '''returns None\n\n
+    cleanupServantJVM(final String stoken)\n
     '''
 def startupAdjunctJVM():
-    '''public void startupAdjunctJVM(final String stoken)
+    '''returns None\n\n
+    startupAdjunctJVM(final String stoken)\n
     '''
 def startupServantJVM():
-    '''public void startupServantJVM(final String stoken)
+    '''returns None\n\n
+    startupServantJVM(final String stoken)\n
     '''
 def servantWLMQueueable():
-    '''public void servantWLMQueueable(final String stoken)
+    '''returns None\n\n
+    servantWLMQueueable(final String stoken)\n
     '''
 def remoteListenerAdded():
-    '''public void remoteListenerAdded(final ObjectName name)
+    '''returns None\n\n
+    remoteListenerAdded(final ObjectName name)\n
     '''
 def remoteListenerRemoved():
-    '''public void remoteListenerRemoved(final ObjectName name)
+    '''returns None\n\n
+    remoteListenerRemoved(final ObjectName name)\n
     '''
 def handleServantNotifications():
-    '''public void handleServantNotifications(final Notification[] notifications)
-    '''
-def getControllerStringIOR():
-    '''public synchronized String getControllerStringIOR()
+    '''returns None\n\n
+    handleServantNotifications(final Notification[] notifications)\n
     '''

@@ -1,59 +1,60 @@
 def create():
-    '''public static Store create(final String filename)
-    public static Store create(final SDBConnection sdb, final LayoutType layout, final DatabaseType dbType)
-    public static Store create(final LayoutType layout, final DatabaseType dbType)
-    public static Store create(final StoreDesc desc)
-    public static Store create(final StoreDesc desc, final SDBConnection sdb)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
-    public Store create(final SDBConnection conn, final StoreDesc desc)
+    '''returns Store\n\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
+    create(final SDBConnection conn, final StoreDesc desc)\n
     '''
-def register():
-    '''public static void register(final DatabaseType dbType, final LayoutType layoutType, final StoreMaker factory)
-    '''
-def MapK2():
-    '''public MapK2()
-    public MapK2(final Map<Pair<K1, K2>, V> map)
+def ():
+    '''returns MapK2\n\n
+    ()\n
+    (final Map<Pair<K1, K2>, V> map)\n
     '''
 def get():
-    '''public V get(final K1 key1, final K2 key2)
+    '''returns V\n\n
+    get(final K1 key1, final K2 key2)\n
     '''
 def put():
-    '''public void put(final K1 key1, final K2 key2, final V value)
+    '''returns None\n\n
+    put(final K1 key1, final K2 key2, final V value)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final K1 key1, final K2 key2)
+    '''returns boolean\n\n
+    containsKey(final K1 key1, final K2 key2)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final V value)
+    '''returns boolean\n\n
+    containsValue(final V value)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

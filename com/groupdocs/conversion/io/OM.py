@@ -1,15 +1,18 @@
-def OM():
-    '''public OM(final String s)
-    public OM(final String s, final m m)
-    public OM(final String[] array)
-    public OM(final String[] array, final m m)
-    public OM(final List<String> list)
-    public OM(final List<String> list, final m m)
+def ():
+    '''returns OM\n\n
+    (final String s)\n
+    (final String s, final m m)\n
+    (final String[] array)\n
+    (final String[] array, final m m)\n
+    (final List<String> list)\n
+    (final List<String> list, final m m)\n
     '''
 def accept():
-    '''public boolean accept(final File dir, final String name)
-    public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File dir, final String name)\n
+    accept(final File file)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

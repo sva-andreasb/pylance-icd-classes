@@ -1,10 +1,13 @@
-def StaticEncryptionMaterialsProvider():
-    '''public StaticEncryptionMaterialsProvider(final EncryptionMaterials materials)
+def ():
+    '''returns StaticEncryptionMaterialsProvider\n\n
+    (final EncryptionMaterials materials)\n
     '''
 def getEncryptionMaterials():
-    '''public EncryptionMaterials getEncryptionMaterials()
-    public EncryptionMaterials getEncryptionMaterials(final Map<String, String> materialDescIn)
+    '''returns EncryptionMaterials\n\n
+    getEncryptionMaterials()\n
+    getEncryptionMaterials(final Map<String, String> materialDescIn)\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''

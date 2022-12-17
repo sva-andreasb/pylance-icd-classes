@@ -1,21 +1,28 @@
-def RESTMboStAXStructure():
-    '''public RESTMboStAXStructure(final boolean dropNullCols, final boolean retainMbos, final Set<String> cols, final boolean exclude, final boolean locale, final boolean metaData, final boolean calculateEtag, final boolean glcomp, final boolean validateXmlTextFromReq, final Map<String, String> relatedAttributes, final boolean useTotalCount, final boolean keys)
+def ():
+    '''returns RESTMboStAXStructure\n\n
+    (final boolean dropNullCols, final boolean retainMbos, final Set<String> cols, final boolean exclude, final boolean locale, final boolean metaData, final boolean calculateEtag, final boolean glcomp, final boolean validateXmlTextFromReq, final Map<String, String> relatedAttributes, final boolean useTotalCount, final boolean keys)\n
     '''
 def getMboValueInfoForAttribute():
-    '''public MboValueInfo getMboValueInfoForAttribute(final Mbo mbo, final String attributeName)
+    '''returns MboValueInfo\n\n
+    getMboValueInfoForAttribute(final Mbo mbo, final String attributeName)\n
     '''
 def setResolvedTotalCount():
-    '''public void setResolvedTotalCount(final int resolvedTotalCount)
+    '''returns None\n\n
+    setResolvedTotalCount(final int resolvedTotalCount)\n
     '''
 def setResolvedStartCount():
-    '''public void setResolvedStartCount(final int resolvedStartCount)
+    '''returns None\n\n
+    setResolvedStartCount(final int resolvedStartCount)\n
     '''
 def setInitialResolvedCount():
-    '''public void setInitialResolvedCount(final int initialResolvedCount)
+    '''returns None\n\n
+    setInitialResolvedCount(final int initialResolvedCount)\n
     '''
 def getCalculatedEtag():
-    '''public String getCalculatedEtag()
+    '''returns String\n\n
+    getCalculatedEtag()\n
     '''
 def isKey():
-    '''public boolean isKey(final MboRemote mbo, final String mboAttrName)
+    '''returns boolean\n\n
+    isKey(final MboRemote mbo, final String mboAttrName)\n
     '''

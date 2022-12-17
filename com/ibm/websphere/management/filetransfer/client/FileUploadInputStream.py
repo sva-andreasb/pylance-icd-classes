@@ -1,16 +1,21 @@
-def FileUploadInputStream():
-    '''public FileUploadInputStream()
-    public FileUploadInputStream(final String srcPath)
+def ():
+    '''returns FileUploadInputStream\n\n
+    ()\n
+    (final String srcPath)\n
     '''
 def getStream():
-    '''public InputStream getStream()
+    '''returns InputStream\n\n
+    getStream()\n
     '''
 def connect():
-    '''public void connect()
+    '''returns None\n\n
+    connect()\n
     '''
 def getDelete():
-    '''public boolean getDelete()
+    '''returns boolean\n\n
+    getDelete()\n
     '''
 def setDelete():
-    '''public void setDelete(final boolean delete)
+    '''returns None\n\n
+    setDelete(final boolean delete)\n
     '''

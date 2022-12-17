@@ -1,27 +1,35 @@
-def ProxyInfo():
-    '''public ProxyInfo(final String s)
-    public ProxyInfo(String substring, final String socksProxy)
-    public ProxyInfo(final String s, final int n)
-    public ProxyInfo(final String proxy, final int port, final String socksProxy, final int socksPort)
+def ():
+    '''returns ProxyInfo\n\n
+    (final String s)\n
+    (String substring, final String socksProxy)\n
+    (final String s, final int n)\n
+    (final String proxy, final int port, final String socksProxy, final int socksPort)\n
     '''
 def getProxy():
-    '''public String getProxy()
+    '''returns String\n\n
+    getProxy()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getSocksProxy():
-    '''public String getSocksProxy()
+    '''returns String\n\n
+    getSocksProxy()\n
     '''
 def getSocksPort():
-    '''public int getSocksPort()
+    '''returns int\n\n
+    getSocksPort()\n
     '''
 def isProxyUsed():
-    '''public boolean isProxyUsed()
+    '''returns boolean\n\n
+    isProxyUsed()\n
     '''
 def isSocksUsed():
-    '''public boolean isSocksUsed()
+    '''returns boolean\n\n
+    isSocksUsed()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

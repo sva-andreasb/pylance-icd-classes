@@ -1,35 +1,45 @@
-def EditableDiagramWorkflowNode():
-    '''public EditableDiagramWorkflowNode(final WorkflowNode node, final DiagramConfiguration configuration, final DnDContainer container)
-    public EditableDiagramWorkflowNode(final WorkflowNode node, final DiagramConfiguration configuration, final boolean inToolbar, final DnDContainer container)
+def ():
+    '''returns EditableDiagramWorkflowNode\n\n
+    (final WorkflowNode node, final DiagramConfiguration configuration, final DnDContainer container)\n
+    (final WorkflowNode node, final DiagramConfiguration configuration, final boolean inToolbar, final DnDContainer container)\n
     '''
 def isDragOk():
-    '''public boolean isDragOk(final DropTargetDragEvent event)
+    '''returns boolean\n\n
+    isDragOk(final DropTargetDragEvent event)\n
     '''
 def dragGestureRecognized():
-    '''public void dragGestureRecognized(final DragGestureEvent event)
+    '''returns None\n\n
+    dragGestureRecognized(final DragGestureEvent event)\n
     '''
 def dragDropEnd():
-    '''public void dragDropEnd(final DragSourceDropEvent event)
+    '''returns None\n\n
+    dragDropEnd(final DragSourceDropEvent event)\n
     '''
 def dragEnter():
-    '''public void dragEnter(final DragSourceDragEvent event)
-    public void dragEnter(final DropTargetDragEvent event)
+    '''returns None\n\n
+    dragEnter(final DragSourceDragEvent event)\n
+    dragEnter(final DropTargetDragEvent event)\n
     '''
 def dragExit():
-    '''public void dragExit(final DragSourceEvent event)
-    public void dragExit(final DropTargetEvent event)
+    '''returns None\n\n
+    dragExit(final DragSourceEvent event)\n
+    dragExit(final DropTargetEvent event)\n
     '''
 def dragOver():
-    '''public void dragOver(final DragSourceDragEvent event)
-    public void dragOver(final DropTargetDragEvent event)
+    '''returns None\n\n
+    dragOver(final DragSourceDragEvent event)\n
+    dragOver(final DropTargetDragEvent event)\n
     '''
 def dropActionChanged():
-    '''public void dropActionChanged(final DragSourceDragEvent event)
-    public void dropActionChanged(final DropTargetDragEvent event)
+    '''returns None\n\n
+    dropActionChanged(final DragSourceDragEvent event)\n
+    dropActionChanged(final DropTargetDragEvent event)\n
     '''
 def setDragCursor():
-    '''public void setDragCursor(final DragSourceDragEvent event)
+    '''returns None\n\n
+    setDragCursor(final DragSourceDragEvent event)\n
     '''
 def drop():
-    '''public void drop(final DropTargetDropEvent event)
+    '''returns None\n\n
+    drop(final DropTargetDropEvent event)\n
     '''

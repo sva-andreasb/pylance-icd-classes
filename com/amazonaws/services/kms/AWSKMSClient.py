@@ -1,104 +1,135 @@
-def AWSKMSClient():
-    '''public AWSKMSClient()
-    public AWSKMSClient(final ClientConfiguration clientConfiguration)
-    public AWSKMSClient(final AWSCredentials awsCredentials)
-    public AWSKMSClient(final AWSCredentials awsCredentials, final ClientConfiguration clientConfiguration)
-    public AWSKMSClient(final AWSCredentialsProvider awsCredentialsProvider)
-    public AWSKMSClient(final AWSCredentialsProvider awsCredentialsProvider, final ClientConfiguration clientConfiguration)
-    public AWSKMSClient(final AWSCredentialsProvider awsCredentialsProvider, final ClientConfiguration clientConfiguration, final RequestMetricCollector requestMetricCollector)
+def ():
+    '''returns AWSKMSClient\n\n
+    ()\n
+    (final ClientConfiguration clientConfiguration)\n
+    (final AWSCredentials awsCredentials)\n
+    (final AWSCredentials awsCredentials, final ClientConfiguration clientConfiguration)\n
+    (final AWSCredentialsProvider awsCredentialsProvider)\n
+    (final AWSCredentialsProvider awsCredentialsProvider, final ClientConfiguration clientConfiguration)\n
+    (final AWSCredentialsProvider awsCredentialsProvider, final ClientConfiguration clientConfiguration, final RequestMetricCollector requestMetricCollector)\n
     '''
 def cancelKeyDeletion():
-    '''public CancelKeyDeletionResult cancelKeyDeletion(final CancelKeyDeletionRequest cancelKeyDeletionRequest)
+    '''returns CancelKeyDeletionResult\n\n
+    cancelKeyDeletion(final CancelKeyDeletionRequest cancelKeyDeletionRequest)\n
     '''
 def createAlias():
-    '''public CreateAliasResult createAlias(final CreateAliasRequest createAliasRequest)
+    '''returns CreateAliasResult\n\n
+    createAlias(final CreateAliasRequest createAliasRequest)\n
     '''
 def createGrant():
-    '''public CreateGrantResult createGrant(final CreateGrantRequest createGrantRequest)
+    '''returns CreateGrantResult\n\n
+    createGrant(final CreateGrantRequest createGrantRequest)\n
     '''
 def createKey():
-    '''public CreateKeyResult createKey(final CreateKeyRequest createKeyRequest)
-    public CreateKeyResult createKey()
+    '''returns CreateKeyResult\n\n
+    createKey(final CreateKeyRequest createKeyRequest)\n
+    createKey()\n
     '''
 def decrypt():
-    '''public DecryptResult decrypt(final DecryptRequest decryptRequest)
+    '''returns DecryptResult\n\n
+    decrypt(final DecryptRequest decryptRequest)\n
     '''
 def deleteAlias():
-    '''public DeleteAliasResult deleteAlias(final DeleteAliasRequest deleteAliasRequest)
+    '''returns DeleteAliasResult\n\n
+    deleteAlias(final DeleteAliasRequest deleteAliasRequest)\n
     '''
 def describeKey():
-    '''public DescribeKeyResult describeKey(final DescribeKeyRequest describeKeyRequest)
+    '''returns DescribeKeyResult\n\n
+    describeKey(final DescribeKeyRequest describeKeyRequest)\n
     '''
 def disableKey():
-    '''public DisableKeyResult disableKey(final DisableKeyRequest disableKeyRequest)
+    '''returns DisableKeyResult\n\n
+    disableKey(final DisableKeyRequest disableKeyRequest)\n
     '''
 def disableKeyRotation():
-    '''public DisableKeyRotationResult disableKeyRotation(final DisableKeyRotationRequest disableKeyRotationRequest)
+    '''returns DisableKeyRotationResult\n\n
+    disableKeyRotation(final DisableKeyRotationRequest disableKeyRotationRequest)\n
     '''
 def enableKey():
-    '''public EnableKeyResult enableKey(final EnableKeyRequest enableKeyRequest)
+    '''returns EnableKeyResult\n\n
+    enableKey(final EnableKeyRequest enableKeyRequest)\n
     '''
 def enableKeyRotation():
-    '''public EnableKeyRotationResult enableKeyRotation(final EnableKeyRotationRequest enableKeyRotationRequest)
+    '''returns EnableKeyRotationResult\n\n
+    enableKeyRotation(final EnableKeyRotationRequest enableKeyRotationRequest)\n
     '''
 def encrypt():
-    '''public EncryptResult encrypt(final EncryptRequest encryptRequest)
+    '''returns EncryptResult\n\n
+    encrypt(final EncryptRequest encryptRequest)\n
     '''
 def generateDataKey():
-    '''public GenerateDataKeyResult generateDataKey(final GenerateDataKeyRequest generateDataKeyRequest)
+    '''returns GenerateDataKeyResult\n\n
+    generateDataKey(final GenerateDataKeyRequest generateDataKeyRequest)\n
     '''
 def generateDataKeyWithoutPlaintext():
-    '''public GenerateDataKeyWithoutPlaintextResult generateDataKeyWithoutPlaintext(final GenerateDataKeyWithoutPlaintextRequest generateDataKeyWithoutPlaintextRequest)
+    '''returns GenerateDataKeyWithoutPlaintextResult\n\n
+    generateDataKeyWithoutPlaintext(final GenerateDataKeyWithoutPlaintextRequest generateDataKeyWithoutPlaintextRequest)\n
     '''
 def generateRandom():
-    '''public GenerateRandomResult generateRandom(final GenerateRandomRequest generateRandomRequest)
-    public GenerateRandomResult generateRandom()
+    '''returns GenerateRandomResult\n\n
+    generateRandom(final GenerateRandomRequest generateRandomRequest)\n
+    generateRandom()\n
     '''
 def getKeyPolicy():
-    '''public GetKeyPolicyResult getKeyPolicy(final GetKeyPolicyRequest getKeyPolicyRequest)
+    '''returns GetKeyPolicyResult\n\n
+    getKeyPolicy(final GetKeyPolicyRequest getKeyPolicyRequest)\n
     '''
 def getKeyRotationStatus():
-    '''public GetKeyRotationStatusResult getKeyRotationStatus(final GetKeyRotationStatusRequest getKeyRotationStatusRequest)
+    '''returns GetKeyRotationStatusResult\n\n
+    getKeyRotationStatus(final GetKeyRotationStatusRequest getKeyRotationStatusRequest)\n
     '''
 def listAliases():
-    '''public ListAliasesResult listAliases(final ListAliasesRequest listAliasesRequest)
-    public ListAliasesResult listAliases()
+    '''returns ListAliasesResult\n\n
+    listAliases(final ListAliasesRequest listAliasesRequest)\n
+    listAliases()\n
     '''
 def listGrants():
-    '''public ListGrantsResult listGrants(final ListGrantsRequest listGrantsRequest)
+    '''returns ListGrantsResult\n\n
+    listGrants(final ListGrantsRequest listGrantsRequest)\n
     '''
 def listKeyPolicies():
-    '''public ListKeyPoliciesResult listKeyPolicies(final ListKeyPoliciesRequest listKeyPoliciesRequest)
+    '''returns ListKeyPoliciesResult\n\n
+    listKeyPolicies(final ListKeyPoliciesRequest listKeyPoliciesRequest)\n
     '''
 def listKeys():
-    '''public ListKeysResult listKeys(final ListKeysRequest listKeysRequest)
-    public ListKeysResult listKeys()
+    '''returns ListKeysResult\n\n
+    listKeys(final ListKeysRequest listKeysRequest)\n
+    listKeys()\n
     '''
 def listRetirableGrants():
-    '''public ListRetirableGrantsResult listRetirableGrants(final ListRetirableGrantsRequest listRetirableGrantsRequest)
+    '''returns ListRetirableGrantsResult\n\n
+    listRetirableGrants(final ListRetirableGrantsRequest listRetirableGrantsRequest)\n
     '''
 def putKeyPolicy():
-    '''public PutKeyPolicyResult putKeyPolicy(final PutKeyPolicyRequest putKeyPolicyRequest)
+    '''returns PutKeyPolicyResult\n\n
+    putKeyPolicy(final PutKeyPolicyRequest putKeyPolicyRequest)\n
     '''
 def reEncrypt():
-    '''public ReEncryptResult reEncrypt(final ReEncryptRequest reEncryptRequest)
+    '''returns ReEncryptResult\n\n
+    reEncrypt(final ReEncryptRequest reEncryptRequest)\n
     '''
 def retireGrant():
-    '''public RetireGrantResult retireGrant(final RetireGrantRequest retireGrantRequest)
-    public RetireGrantResult retireGrant()
+    '''returns RetireGrantResult\n\n
+    retireGrant(final RetireGrantRequest retireGrantRequest)\n
+    retireGrant()\n
     '''
 def revokeGrant():
-    '''public RevokeGrantResult revokeGrant(final RevokeGrantRequest revokeGrantRequest)
+    '''returns RevokeGrantResult\n\n
+    revokeGrant(final RevokeGrantRequest revokeGrantRequest)\n
     '''
 def scheduleKeyDeletion():
-    '''public ScheduleKeyDeletionResult scheduleKeyDeletion(final ScheduleKeyDeletionRequest scheduleKeyDeletionRequest)
+    '''returns ScheduleKeyDeletionResult\n\n
+    scheduleKeyDeletion(final ScheduleKeyDeletionRequest scheduleKeyDeletionRequest)\n
     '''
 def updateAlias():
-    '''public UpdateAliasResult updateAlias(final UpdateAliasRequest updateAliasRequest)
+    '''returns UpdateAliasResult\n\n
+    updateAlias(final UpdateAliasRequest updateAliasRequest)\n
     '''
 def updateKeyDescription():
-    '''public UpdateKeyDescriptionResult updateKeyDescription(final UpdateKeyDescriptionRequest updateKeyDescriptionRequest)
+    '''returns UpdateKeyDescriptionResult\n\n
+    updateKeyDescription(final UpdateKeyDescriptionRequest updateKeyDescriptionRequest)\n
     '''
 def getCachedResponseMetadata():
-    '''public ResponseMetadata getCachedResponseMetadata(final AmazonWebServiceRequest request)
+    '''returns ResponseMetadata\n\n
+    getCachedResponseMetadata(final AmazonWebServiceRequest request)\n
     '''

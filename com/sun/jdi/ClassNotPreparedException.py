@@ -1,4 +1,5 @@
-def ClassNotPreparedException():
-    '''public ClassNotPreparedException()
-    public ClassNotPreparedException(final String message)
+def ():
+    '''returns ClassNotPreparedException\n\n
+    ()\n
+    (final String message)\n
     '''

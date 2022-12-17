@@ -1,3 +1,4 @@
-def SoftwareCatalogService():
-    '''public SoftwareCatalogService(final MXServer mxServer)
+def ():
+    '''returns SoftwareCatalogService\n\n
+    (final MXServer mxServer)\n
     '''

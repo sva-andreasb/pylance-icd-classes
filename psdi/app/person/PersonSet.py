@@ -1,6 +1,8 @@
-def PersonSet():
-    '''public PersonSet(final MboServerInterface ms)
+def ():
+    '''returns PersonSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addPersonWarning():
-    '''public void addPersonWarning(final MXException e)
+    '''returns None\n\n
+    addPersonWarning(final MXException e)\n
     '''

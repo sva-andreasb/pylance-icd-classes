@@ -1,12 +1,16 @@
 def getValue():
-    '''public Duration getValue()
+    '''returns Duration\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Duration value)
+    '''returns None\n\n
+    setValue(final Duration value)\n
     '''
 def getBehavior():
-    '''public String getBehavior()
+    '''returns String\n\n
+    getBehavior()\n
     '''
 def setBehavior():
-    '''public void setBehavior(final String value)
+    '''returns None\n\n
+    setBehavior(final String value)\n
     '''

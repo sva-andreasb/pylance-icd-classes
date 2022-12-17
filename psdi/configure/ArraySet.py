@@ -1,3 +1,4 @@
-def ArraySet():
-    '''public ArraySet(final T... values)
+def ():
+    '''returns ArraySet\n\n
+    (final T... values)\n
     '''

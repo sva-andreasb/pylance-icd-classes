@@ -1,3 +1,4 @@
-def FldWhereUsedAssetnum():
-    '''public FldWhereUsedAssetnum(final MboValue mbv)
+def ():
+    '''returns FldWhereUsedAssetnum\n\n
+    (final MboValue mbv)\n
     '''

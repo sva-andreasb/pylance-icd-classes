@@ -9,22 +9,28 @@ CF_METAFILEPICT = "int  3"
 CF_DIB = "int  8"
 CF_ENHMETAFILE = "int  14"
 CF_BITMAP = "int  2"
-def Thumbnail():
-    '''public Thumbnail()
-    public Thumbnail(final byte[] thumbnailData)
+def ():
+    '''returns Thumbnail\n\n
+    ()\n
+    (final byte[] thumbnailData)\n
     '''
 def getThumbnail():
-    '''public byte[] getThumbnail()
+    '''returns byte[]\n\n
+    getThumbnail()\n
     '''
 def setThumbnail():
-    '''public void setThumbnail(final byte[] thumbnail)
+    '''returns None\n\n
+    setThumbnail(final byte[] thumbnail)\n
     '''
 def getClipboardFormatTag():
-    '''public long getClipboardFormatTag()
+    '''returns long\n\n
+    getClipboardFormatTag()\n
     '''
 def getClipboardFormat():
-    '''public long getClipboardFormat()
+    '''returns long\n\n
+    getClipboardFormat()\n
     '''
 def getThumbnailAsWMF():
-    '''public byte[] getThumbnailAsWMF()
+    '''returns byte[]\n\n
+    getThumbnailAsWMF()\n
     '''

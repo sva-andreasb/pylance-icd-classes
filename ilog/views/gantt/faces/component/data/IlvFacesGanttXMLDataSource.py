@@ -1,24 +1,28 @@
-def getComponentType():
-    '''public static String getComponentType()
-    '''
 def getFamily():
-    '''public String getFamily()
+    '''returns String\n\n
+    getFamily()\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''
 def setFilename():
-    '''public void setFilename(final String s)
+    '''returns None\n\n
+    setFilename(final String s)\n
     '''
 def writeModel():
-    '''public void writeModel()
+    '''returns None\n\n
+    writeModel()\n
     '''
 def updateModel():
-    '''public void updateModel(final FacesContext facesContext)
+    '''returns None\n\n
+    updateModel(final FacesContext facesContext)\n
     '''
 def saveState():
-    '''public Object saveState(final FacesContext facesContext)
+    '''returns Object\n\n
+    saveState(final FacesContext facesContext)\n
     '''
 def restoreState():
-    '''public void restoreState(final FacesContext facesContext, final Object o)
+    '''returns None\n\n
+    restoreState(final FacesContext facesContext, final Object o)\n
     '''

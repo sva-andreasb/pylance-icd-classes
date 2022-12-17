@@ -1,9 +1,12 @@
 def bylaborcheckaclabor():
-    '''public int bylaborcheckaclabor()
+    '''returns int\n\n
+    bylaborcheckaclabor()\n
     '''
 def wocheckaclaborwo():
-    '''public int wocheckaclaborwo()
+    '''returns int\n\n
+    wocheckaclaborwo()\n
     '''
 def wocheckselectlaboronactuals():
-    '''public int wocheckselectlaboronactuals()
+    '''returns int\n\n
+    wocheckselectlaboronactuals()\n
     '''

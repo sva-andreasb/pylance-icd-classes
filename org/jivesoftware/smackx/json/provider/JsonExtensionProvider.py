@@ -1,3 +1,4 @@
 def from():
-    '''public AbstractJsonPacketExtension from(final String json)
+    '''returns AbstractJsonPacketExtension\n\n
+    from(final String json)\n
     '''

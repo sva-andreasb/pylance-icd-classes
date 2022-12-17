@@ -1,3 +1,4 @@
-def IEMSiteMboSet():
-    '''public IEMSiteMboSet(final MboServerInterface ms)
+def ():
+    '''returns IEMSiteMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

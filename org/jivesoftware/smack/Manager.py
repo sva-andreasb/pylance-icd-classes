@@ -1,3 +1,4 @@
-def Manager():
-    '''public Manager(final XMPPConnection connection)
+def ():
+    '''returns Manager\n\n
+    (final XMPPConnection connection)\n
     '''

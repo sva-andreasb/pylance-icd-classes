@@ -1,34 +1,45 @@
-def ContextSupport():
-    '''public ContextSupport()
-    public ContextSupport(final NamespaceContext namespaceContext, final FunctionContext functionContext, final VariableContext variableContext, final Navigator navigator)
+def ():
+    '''returns ContextSupport\n\n
+    ()\n
+    (final NamespaceContext namespaceContext, final FunctionContext functionContext, final VariableContext variableContext, final Navigator navigator)\n
     '''
 def setNamespaceContext():
-    '''public void setNamespaceContext(final NamespaceContext namespaceContext)
+    '''returns None\n\n
+    setNamespaceContext(final NamespaceContext namespaceContext)\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
     '''
 def setFunctionContext():
-    '''public void setFunctionContext(final FunctionContext functionContext)
+    '''returns None\n\n
+    setFunctionContext(final FunctionContext functionContext)\n
     '''
 def getFunctionContext():
-    '''public FunctionContext getFunctionContext()
+    '''returns FunctionContext\n\n
+    getFunctionContext()\n
     '''
 def setVariableContext():
-    '''public void setVariableContext(final VariableContext variableContext)
+    '''returns None\n\n
+    setVariableContext(final VariableContext variableContext)\n
     '''
 def getVariableContext():
-    '''public VariableContext getVariableContext()
+    '''returns VariableContext\n\n
+    getVariableContext()\n
     '''
 def getNavigator():
-    '''public Navigator getNavigator()
+    '''returns Navigator\n\n
+    getNavigator()\n
     '''
 def translateNamespacePrefixToUri():
-    '''public String translateNamespacePrefixToUri(final String prefix)
+    '''returns String\n\n
+    translateNamespacePrefixToUri(final String prefix)\n
     '''
 def getVariableValue():
-    '''public Object getVariableValue(final String namespaceURI, final String prefix, final String localName)
+    '''returns Object\n\n
+    getVariableValue(final String namespaceURI, final String prefix, final String localName)\n
     '''
 def getFunction():
-    '''public Function getFunction(final String namespaceURI, final String prefix, final String localName)
+    '''returns Function\n\n
+    getFunction(final String namespaceURI, final String prefix, final String localName)\n
     '''

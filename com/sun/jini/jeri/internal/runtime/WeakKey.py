@@ -1,10 +1,13 @@
-def WeakKey():
-    '''public WeakKey(final Object referent)
-    public WeakKey(final Object referent, final ReferenceQueue q)
+def ():
+    '''returns WeakKey\n\n
+    (final Object referent)\n
+    (final Object referent, final ReferenceQueue q)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

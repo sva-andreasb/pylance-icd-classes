@@ -1,15 +1,20 @@
 def createToolBarButtons():
-    '''public void createToolBarButtons(final JToolBar toolBar)
+    '''returns None\n\n
+    createToolBarButtons(final JToolBar toolBar)\n
     '''
 def getCPMExtension():
-    '''public SKDCPMExtension getCPMExtension()
+    '''returns SKDCPMExtension\n\n
+    getCPMExtension()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getRendererForActivityBar():
-    '''public SKDActivityBar getRendererForActivityBar()
+    '''returns SKDActivityBar\n\n
+    getRendererForActivityBar()\n
     '''
 def getRendererForActivityMilestone():
-    '''public SKDActivityMilestone getRendererForActivityMilestone()
+    '''returns SKDActivityMilestone\n\n
+    getRendererForActivityMilestone()\n
     '''

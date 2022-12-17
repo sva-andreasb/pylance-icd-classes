@@ -1,41 +1,50 @@
-def InstructionBranch():
-    '''public InstructionBranch(final short opcode, final InstructionHandle target)
-    public InstructionBranch(final short opcode, final int index)
-    public InstructionBranch(final short opcode)
+def ():
+    '''returns InstructionBranch\n\n
+    (final short opcode, final InstructionHandle target)\n
+    (final short opcode, final int index)\n
+    (final short opcode)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    '''
-def getIndex():
-    '''public final int getIndex()
+    '''returns String\n\n
+    toString(final boolean verbose)\n
     '''
 def getTarget():
-    '''public InstructionHandle getTarget()
+    '''returns InstructionHandle\n\n
+    getTarget()\n
     '''
 def setTarget():
-    '''public void setTarget(final InstructionHandle target)
+    '''returns None\n\n
+    setTarget(final InstructionHandle target)\n
     '''
 def updateTarget():
-    '''public void updateTarget(final InstructionHandle oldHandle, final InstructionHandle newHandle)
+    '''returns None\n\n
+    updateTarget(final InstructionHandle oldHandle, final InstructionHandle newHandle)\n
     '''
 def containsTarget():
-    '''public boolean containsTarget(final InstructionHandle ih)
+    '''returns boolean\n\n
+    containsTarget(final InstructionHandle ih)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPool cp)
+    '''returns Type\n\n
+    getType(final ConstantPool cp)\n
     '''
 def physicalSuccessor():
-    '''public InstructionHandle physicalSuccessor()
+    '''returns InstructionHandle\n\n
+    physicalSuccessor()\n
     '''
 def isIfInstruction():
-    '''public boolean isIfInstruction()
+    '''returns boolean\n\n
+    isIfInstruction()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

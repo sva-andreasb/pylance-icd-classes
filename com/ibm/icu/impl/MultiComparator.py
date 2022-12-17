@@ -1,6 +1,8 @@
-def MultiComparator():
-    '''public MultiComparator(final Comparator<T>... comparators)
+def ():
+    '''returns MultiComparator\n\n
+    (final Comparator<T>... comparators)\n
     '''
 def compare():
-    '''public int compare(final T arg0, final T arg1)
+    '''returns int\n\n
+    compare(final T arg0, final T arg1)\n
     '''

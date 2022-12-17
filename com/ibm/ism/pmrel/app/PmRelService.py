@@ -1,31 +1,41 @@
-def PmRelService():
-    '''public PmRelService()
-    public PmRelService(final MXServer mxServer)
+def ():
+    '''returns PmRelService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def publishChangesToSelectedRelease():
-    '''public void publishChangesToSelectedRelease(final List<String> changeIDs, final String releaseId, final String siteid)
+    '''returns None\n\n
+    publishChangesToSelectedRelease(final List<String> changeIDs, final String releaseId, final String siteid)\n
     '''
 def publishChangeToSelectedRelease():
-    '''public void publishChangeToSelectedRelease(final String changeId, final String releaseId, final String siteid)
+    '''returns None\n\n
+    publishChangeToSelectedRelease(final String changeId, final String releaseId, final String siteid)\n
     '''
 def publishChangesToRelease():
-    '''public void publishChangesToRelease(final List<String> changeIDs, final String siteid)
+    '''returns None\n\n
+    publishChangesToRelease(final List<String> changeIDs, final String siteid)\n
     '''
 def publishChangeToRelease():
-    '''public void publishChangeToRelease(final String changeId, final String siteid)
+    '''returns None\n\n
+    publishChangeToRelease(final String changeId, final String siteid)\n
     '''
 def removeChangeFromRelease():
-    '''public void removeChangeFromRelease(final String changeId, final String siteid)
+    '''returns None\n\n
+    removeChangeFromRelease(final String changeId, final String siteid)\n
     '''
 def removeChangesFromRelease():
-    '''public void removeChangesFromRelease(final List<String> changeIDs, final String siteid)
+    '''returns None\n\n
+    removeChangesFromRelease(final List<String> changeIDs, final String siteid)\n
     '''
 def queryReleaseStatus():
-    '''public String queryReleaseStatus(final String releaseID, final String siteid)
+    '''returns String\n\n
+    queryReleaseStatus(final String releaseID, final String siteid)\n
     '''
 def queryAvailableReleases():
-    '''public List<String> queryAvailableReleases(final String siteid)
+    '''returns List<String>\n\n
+    queryAvailableReleases(final String siteid)\n
     '''

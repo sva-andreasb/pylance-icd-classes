@@ -1,19 +1,25 @@
-def FldActualTaskID():
-    '''public FldActualTaskID(final MboValue mbv)
-    public FldActualTaskID(final MboValue mbv, final String wonumName, final String refwoName, final String criteriaName)
+def ():
+    '''returns FldActualTaskID\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String wonumName, final String refwoName, final String criteriaName)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def isValidWO():
-    '''public boolean isValidWO(final MboRemote wo)
+    '''returns boolean\n\n
+    isValidWO(final MboRemote wo)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

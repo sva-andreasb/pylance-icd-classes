@@ -1,27 +1,35 @@
-def LazyStringBuilder():
-    '''public LazyStringBuilder()
+def ():
+    '''returns LazyStringBuilder\n\n
+    ()\n
     '''
 def append():
-    '''public LazyStringBuilder append(final LazyStringBuilder lsb)
-    public LazyStringBuilder append(final CharSequence csq)
-    public LazyStringBuilder append(final CharSequence csq, final int start, final int end)
-    public LazyStringBuilder append(final char c)
+    '''returns LazyStringBuilder\n\n
+    append(final LazyStringBuilder lsb)\n
+    append(final CharSequence csq)\n
+    append(final CharSequence csq, final int start, final int end)\n
+    append(final char c)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(int index)
+    '''returns char\n\n
+    charAt(int index)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def safeToStringBuilder():
-    '''public StringBuilder safeToStringBuilder()
+    '''returns StringBuilder\n\n
+    safeToStringBuilder()\n
     '''
 def getAsList():
-    '''public List<CharSequence> getAsList()
+    '''returns List<CharSequence>\n\n
+    getAsList()\n
     '''

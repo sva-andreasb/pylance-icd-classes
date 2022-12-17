@@ -1,33 +1,44 @@
-def MRStatusHandler():
-    '''public MRStatusHandler(final MR sm)
+def ():
+    '''returns MRStatusHandler\n\n
+    (final MR sm)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def canUnapprove():
-    '''public void canUnapprove(final String currentInternalStatus)
+    '''returns None\n\n
+    canUnapprove(final String currentInternalStatus)\n
     '''
 def canApprove():
-    '''public void canApprove(final String currentInternalStatus)
+    '''returns None\n\n
+    canApprove(final String currentInternalStatus)\n
     '''
 def canClose():
-    '''public void canClose(final String currentInternalStatus)
+    '''returns None\n\n
+    canClose(final String currentInternalStatus)\n
     '''
 def canCancel():
-    '''public void canCancel(final String currentInternalStatus)
+    '''returns None\n\n
+    canCancel(final String currentInternalStatus)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredExternalStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredExternalStatus)\n
     '''
 def checkUserSecurity():
-    '''public void checkUserSecurity(final String desiredMaxStatus)
+    '''returns None\n\n
+    checkUserSecurity(final String desiredMaxStatus)\n
     '''
 def updateMboForStatus():
-    '''public void updateMboForStatus(final String status)
+    '''returns None\n\n
+    updateMboForStatus(final String status)\n
     '''
 def canAddInvReserve():
-    '''public boolean canAddInvReserve(final MboRemote mrlineMbo)
+    '''returns boolean\n\n
+    canAddInvReserve(final MboRemote mrlineMbo)\n
     '''

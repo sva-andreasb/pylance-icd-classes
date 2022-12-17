@@ -1,0 +1,1 @@
+distinction = "String[]  { \"IIOPClusterMemberDescriptionDistinction\", \"iiop\" }"

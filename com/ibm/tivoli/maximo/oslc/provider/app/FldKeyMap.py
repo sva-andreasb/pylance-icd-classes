@@ -1,6 +1,8 @@
-def FldKeyMap():
-    '''public FldKeyMap(final MboValue mbv)
+def ():
+    '''returns FldKeyMap\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

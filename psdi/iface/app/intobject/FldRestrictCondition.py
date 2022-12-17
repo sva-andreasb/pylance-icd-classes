@@ -1,3 +1,4 @@
-def FldRestrictCondition():
-    '''public FldRestrictCondition(final MboValue mbv)
+def ():
+    '''returns FldRestrictCondition\n\n
+    (final MboValue mbv)\n
     '''

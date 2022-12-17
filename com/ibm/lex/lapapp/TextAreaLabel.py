@@ -1,22 +1,28 @@
-def TextAreaLabel():
-    '''public TextAreaLabel()
-    public TextAreaLabel(final String[] inputLines)
-    public TextAreaLabel(final String s)
-    public TextAreaLabel(final String text, final int rows, final int columns, final int n)
+def ():
+    '''returns TextAreaLabel\n\n
+    ()\n
+    (final String[] inputLines)\n
+    (final String s)\n
+    (final String text, final int rows, final int columns, final int n)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize()
+    '''returns Dimension\n\n
+    getMinimumSize()\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def paint():
-    '''public void paint(final Graphics graphics)
+    '''returns None\n\n
+    paint(final Graphics graphics)\n
     '''
 def setBounds():
-    '''public void setBounds(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    setBounds(final int x, final int y, final int width, final int height)\n
     '''
 def setText():
-    '''public void setText(final String[] inputLines)
-    public void setText(final String s)
+    '''returns None\n\n
+    setText(final String[] inputLines)\n
+    setText(final String s)\n
     '''

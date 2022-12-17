@@ -1,4 +1,5 @@
-def SessionInfoException():
-    '''public SessionInfoException()
-    public SessionInfoException(final String message)
+def ():
+    '''returns SessionInfoException\n\n
+    ()\n
+    (final String message)\n
     '''

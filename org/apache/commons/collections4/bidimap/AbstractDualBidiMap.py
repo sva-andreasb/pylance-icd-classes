@@ -1,98 +1,117 @@
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> map)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> map)\n
     '''
 def remove():
-    '''public V remove(final Object key)
-    public boolean remove(final Object key)
-    public void remove()
-    public boolean remove(final Object value)
-    public void remove()
-    public boolean remove(final Object obj)
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final Object key)\n
+    remove(final Object key)\n
+    remove()\n
+    remove(final Object value)\n
+    remove()\n
+    remove(final Object obj)\n
+    remove()\n
+    remove()\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
-    '''
-def mapIterator():
-    '''public MapIterator<K, V> mapIterator()
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def getKey():
-    '''public K getKey(final Object value)
-    public K getKey()
+    '''returns K\n\n
+    getKey(final Object value)\n
+    getKey()\n
     '''
 def removeValue():
-    '''public K removeValue(final Object value)
-    '''
-def inverseBidiMap():
-    '''public BidiMap<V, K> inverseBidiMap()
+    '''returns K\n\n
+    removeValue(final Object value)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Set<V> values()
+    '''returns Set<V>\n\n
+    values()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def iterator():
-    '''public Iterator<K> iterator()
-    public Iterator<V> iterator()
+    '''returns Iterator<V>\n\n
+    iterator()\n
+    iterator()\n
     '''
 def contains():
-    '''public boolean contains(final Object key)
-    public boolean contains(final Object value)
+    '''returns boolean\n\n
+    contains(final Object key)\n
+    contains(final Object value)\n
     '''
 def next():
-    '''public K next()
-    public V next()
-    public K next()
+    '''returns K\n\n
+    next()\n
+    next()\n
+    next()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
-    public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
+    setValue(final V value)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

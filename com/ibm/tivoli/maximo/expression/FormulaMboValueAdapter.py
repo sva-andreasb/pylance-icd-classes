@@ -1,9 +1,12 @@
-def FormulaMboValueAdapter():
-    '''public FormulaMboValueAdapter(final MboValue mboValue)
+def ():
+    '''returns FormulaMboValueAdapter\n\n
+    (final MboValue mboValue)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

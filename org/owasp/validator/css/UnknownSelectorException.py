@@ -1,6 +1,8 @@
-def UnknownSelectorException():
-    '''public UnknownSelectorException(final String selectorName)
+def ():
+    '''returns UnknownSelectorException\n\n
+    (final String selectorName)\n
     '''
 def getSelectorName():
-    '''public String getSelectorName()
+    '''returns String\n\n
+    getSelectorName()\n
     '''

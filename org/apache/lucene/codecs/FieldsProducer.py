@@ -1,3 +1,4 @@
 def getMergeInstance():
-    '''public FieldsProducer getMergeInstance()
+    '''returns FieldsProducer\n\n
+    getMergeInstance()\n
     '''

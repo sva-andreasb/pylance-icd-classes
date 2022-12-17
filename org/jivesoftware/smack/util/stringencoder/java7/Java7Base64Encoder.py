@@ -1,13 +1,13 @@
-def getInstance():
-    '''public static Java7Base64Encoder getInstance()
-    '''
 def decode():
-    '''public byte[] decode(final String string)
-    public byte[] decode(final byte[] input, final int offset, final int len)
+    '''returns byte[]\n\n
+    decode(final String string)\n
+    decode(final byte[] input, final int offset, final int len)\n
     '''
 def encodeToString():
-    '''public String encodeToString(final byte[] input, final int offset, final int len)
+    '''returns String\n\n
+    encodeToString(final byte[] input, final int offset, final int len)\n
     '''
 def encode():
-    '''public byte[] encode(final byte[] input, final int offset, final int len)
+    '''returns byte[]\n\n
+    encode(final byte[] input, final int offset, final int len)\n
     '''

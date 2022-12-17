@@ -1,3 +1,4 @@
-def FldObjappAppName():
-    '''public FldObjappAppName(final MboValue mbv)
+def ():
+    '''returns FldObjappAppName\n\n
+    (final MboValue mbv)\n
     '''

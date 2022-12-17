@@ -1,71 +1,81 @@
-def blank():
-    '''public static SDBConnectionDesc blank()
-    '''
-def none():
-    '''public static SDBConnectionDesc none()
-    '''
-def read():
-    '''public static SDBConnectionDesc read(final String filename)
-    public static SDBConnectionDesc read(final Model m)
-    '''
 def getDriver():
-    '''public String getDriver()
+    '''returns String\n\n
+    getDriver()\n
     '''
 def setDriver():
-    '''public void setDriver(final String driver)
+    '''returns None\n\n
+    setDriver(final String driver)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def setHost():
-    '''public void setHost(final String host)
+    '''returns None\n\n
+    setHost(final String host)\n
     '''
 def getJdbcURL():
-    '''public String getJdbcURL()
+    '''returns String\n\n
+    getJdbcURL()\n
     '''
 def setJdbcURL():
-    '''public void setJdbcURL(final String jdbcURL)
+    '''returns None\n\n
+    setJdbcURL(final String jdbcURL)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def getPoolSize():
-    '''public int getPoolSize()
+    '''returns int\n\n
+    getPoolSize()\n
     '''
 def setPoolSize():
-    '''public void setPoolSize(final int size)
-    public void setPoolSize(final String str)
+    '''returns None\n\n
+    setPoolSize(final int size)\n
+    setPoolSize(final String str)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def getRdbType():
-    '''public String getRdbType()
+    '''returns String\n\n
+    getRdbType()\n
     '''
 def setRdbType():
-    '''public void setRdbType(final String rdbType)
+    '''returns None\n\n
+    setRdbType(final String rdbType)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final String user)
+    '''returns None\n\n
+    setUser(final String user)\n
     '''

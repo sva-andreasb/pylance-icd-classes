@@ -1,3 +1,4 @@
 def setitemunitprice():
-    '''public void setitemunitprice()
+    '''returns None\n\n
+    setitemunitprice()\n
     '''

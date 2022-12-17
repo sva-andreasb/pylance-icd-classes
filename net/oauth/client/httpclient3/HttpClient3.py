@@ -1,7 +1,9 @@
-def HttpClient3():
-    '''public HttpClient3()
-    public HttpClient3(final HttpClientPool clientPool)
+def ():
+    '''returns HttpClient3\n\n
+    ()\n
+    (final HttpClientPool clientPool)\n
     '''
 def execute():
-    '''public HttpResponseMessage execute(final HttpMessage request, final Map<String, Object> parameters)
+    '''returns HttpResponseMessage\n\n
+    execute(final HttpMessage request, final Map<String, Object> parameters)\n
     '''

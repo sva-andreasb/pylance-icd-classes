@@ -1,58 +1,77 @@
 def setString():
-    '''public void setString(final PreparedStatement preparedStatement, final int n, final int n2, final String s)
+    '''returns None\n\n
+    setString(final PreparedStatement preparedStatement, final int n, final int n2, final String s)\n
     '''
 def setLong():
-    '''public void setLong(final PreparedStatement preparedStatement, final int n, final int n2, final Long n3)
+    '''returns None\n\n
+    setLong(final PreparedStatement preparedStatement, final int n, final int n2, final Long n3)\n
     '''
 def setBytes():
-    '''public void setBytes(final PreparedStatement preparedStatement, final int n, final int n2, final byte[] array)
+    '''returns None\n\n
+    setBytes(final PreparedStatement preparedStatement, final int n, final int n2, final byte[] array)\n
     '''
 def setBoolean():
-    '''public void setBoolean(final PreparedStatement preparedStatement, final int n, final int n2, final Boolean b)
+    '''returns None\n\n
+    setBoolean(final PreparedStatement preparedStatement, final int n, final int n2, final Boolean b)\n
     '''
 def setBlob():
-    '''public void setBlob(final PreparedStatement preparedStatement, final int n, final int n2, final Blob blob)
+    '''returns None\n\n
+    setBlob(final PreparedStatement preparedStatement, final int n, final int n2, final Blob blob)\n
     '''
 def setClob():
-    '''public void setClob(final PreparedStatement preparedStatement, final int n, final int n2, final Clob clob)
+    '''returns None\n\n
+    setClob(final PreparedStatement preparedStatement, final int n, final int n2, final Clob clob)\n
     '''
 def setDate():
-    '''public void setDate(final PreparedStatement preparedStatement, final int n, final int n2, final Date date)
+    '''returns None\n\n
+    setDate(final PreparedStatement preparedStatement, final int n, final int n2, final Date date)\n
     '''
 def setBigDecimal():
-    '''public void setBigDecimal(final PreparedStatement preparedStatement, final int n, final int n2, final BigDecimal bigDecimal)
+    '''returns None\n\n
+    setBigDecimal(final PreparedStatement preparedStatement, final int n, final int n2, final BigDecimal bigDecimal)\n
     '''
 def setDouble():
-    '''public void setDouble(final PreparedStatement preparedStatement, final int n, final int n2, final Double n3)
+    '''returns None\n\n
+    setDouble(final PreparedStatement preparedStatement, final int n, final int n2, final Double n3)\n
     '''
 def setInteger():
-    '''public void setInteger(final PreparedStatement preparedStatement, final int n, final int n2, final Integer n3)
+    '''returns None\n\n
+    setInteger(final PreparedStatement preparedStatement, final int n, final int n2, final Integer n3)\n
     '''
 def setFloat():
-    '''public void setFloat(final PreparedStatement preparedStatement, final int n, final int n2, final Float n3)
+    '''returns None\n\n
+    setFloat(final PreparedStatement preparedStatement, final int n, final int n2, final Float n3)\n
     '''
 def setShort():
-    '''public void setShort(final PreparedStatement preparedStatement, final int n, final int n2, final Short n3)
+    '''returns None\n\n
+    setShort(final PreparedStatement preparedStatement, final int n, final int n2, final Short n3)\n
     '''
 def setTime():
-    '''public void setTime(final PreparedStatement preparedStatement, final int n, final int n2, final Time time)
+    '''returns None\n\n
+    setTime(final PreparedStatement preparedStatement, final int n, final int n2, final Time time)\n
     '''
 def setDBTimestamp():
-    '''public void setDBTimestamp(final PreparedStatement preparedStatement, final int n, final int n2, final Object o)
+    '''returns None\n\n
+    setDBTimestamp(final PreparedStatement preparedStatement, final int n, final int n2, final Object o)\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final PreparedStatement preparedStatement, final int n, final int n2, final Timestamp timestamp)
+    '''returns None\n\n
+    setTimestamp(final PreparedStatement preparedStatement, final int n, final int n2, final Timestamp timestamp)\n
     '''
 def setByte():
-    '''public void setByte(final PreparedStatement preparedStatement, final int n, final int n2, final Byte b)
+    '''returns None\n\n
+    setByte(final PreparedStatement preparedStatement, final int n, final int n2, final Byte b)\n
     '''
 def setObject():
-    '''public void setObject(final PreparedStatement preparedStatement, final int n, final int n2, final Object o, final int n3)
+    '''returns None\n\n
+    setObject(final PreparedStatement preparedStatement, final int n, final int n2, final Object o, final int n3)\n
     '''
 def registerOutParameter():
-    '''public void registerOutParameter(final PreparedStatement preparedStatement, final int n, final int n2)
-    public void registerOutParameter(final PreparedStatement preparedStatement, final int n, final int n2, final int n3)
+    '''returns None\n\n
+    registerOutParameter(final PreparedStatement preparedStatement, final int n, final int n2)\n
+    registerOutParameter(final PreparedStatement preparedStatement, final int n, final int n2, final int n3)\n
     '''
 def checkForRequiredInput():
-    '''public void checkForRequiredInput(final Object o, final String s)
+    '''returns None\n\n
+    checkForRequiredInput(final Object o, final String s)\n
     '''

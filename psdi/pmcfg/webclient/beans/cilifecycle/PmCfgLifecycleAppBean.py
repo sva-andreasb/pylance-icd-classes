@@ -1,23 +1,30 @@
-def PmCfgLifecycleAppBean():
-    '''public PmCfgLifecycleAppBean()
+def ():
+    '''returns PmCfgLifecycleAppBean\n\n
+    ()\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''
 def register():
-    '''public void register(final Object key, final DataBean bean)
-    public void register(final PmCfgLifecycleAssignmentBean asgnBean)
-    public void register(final PmCfgLifecycleStateBean stateBean)
+    '''returns None\n\n
+    register(final Object key, final DataBean bean)\n
+    register(final PmCfgLifecycleAssignmentBean asgnBean)\n
+    register(final PmCfgLifecycleStateBean stateBean)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def setTransitions():
-    '''public int setTransitions()
+    '''returns int\n\n
+    setTransitions()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def getCIsForLC():
-    '''public Collection<CIRemote> getCIsForLC(final PmCfgLifecycleRemote lc)
+    '''returns Collection<CIRemote>\n\n
+    getCIsForLC(final PmCfgLifecycleRemote lc)\n
     '''

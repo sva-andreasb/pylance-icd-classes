@@ -1,7 +1,9 @@
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
-def StreamThread():
-    '''public StreamThread(final InputStream inputStream, final OutputStream outputStream)
+def ():
+    '''returns StreamThread\n\n
+    (final InputStream inputStream, final OutputStream outputStream)\n
     '''

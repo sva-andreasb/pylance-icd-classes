@@ -1,36 +1,37 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def EndTxnRequest():
-    '''public EndTxnRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final String transactionalId, final long producerId, final short producerEpoch, final TransactionResult result)\n
     '''
 def transactionalId():
-    '''public String transactionalId()
+    '''returns String\n\n
+    transactionalId()\n
     '''
 def producerId():
-    '''public long producerId()
+    '''returns long\n\n
+    producerId()\n
     '''
 def producerEpoch():
-    '''public short producerEpoch()
+    '''returns short\n\n
+    producerEpoch()\n
     '''
 def command():
-    '''public TransactionResult command()
+    '''returns TransactionResult\n\n
+    command()\n
     '''
 def getErrorResponse():
-    '''public EndTxnResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static EndTxnRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final String transactionalId, final long producerId, final short producerEpoch, final TransactionResult result)
+    '''returns EndTxnResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def result():
-    '''public TransactionResult result()
+    '''returns TransactionResult\n\n
+    result()\n
     '''
 def build():
-    '''public EndTxnRequest build(final short version)
+    '''returns EndTxnRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

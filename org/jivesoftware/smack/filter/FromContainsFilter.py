@@ -1,6 +1,8 @@
-def FromContainsFilter():
-    '''public FromContainsFilter(final String from)
+def ():
+    '''returns FromContainsFilter\n\n
+    (final String from)\n
     '''
 def accept():
-    '''public boolean accept(final Packet packet)
+    '''returns boolean\n\n
+    accept(final Packet packet)\n
     '''

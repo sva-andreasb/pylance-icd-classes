@@ -1,23 +1,30 @@
 def sizeAccurate():
-    '''public boolean sizeAccurate()
+    '''returns boolean\n\n
+    sizeAccurate()\n
     '''
 def addAllowed():
-    '''public boolean addAllowed()
-    public boolean addAllowed(final boolean every)
+    '''returns boolean\n\n
+    addAllowed()\n
+    addAllowed(final boolean every)\n
     '''
 def deleteAllowed():
-    '''public boolean deleteAllowed()
-    public boolean deleteAllowed(final boolean every)
+    '''returns boolean\n\n
+    deleteAllowed()\n
+    deleteAllowed(final boolean every)\n
     '''
 def canBeEmpty():
-    '''public boolean canBeEmpty()
+    '''returns boolean\n\n
+    canBeEmpty()\n
     '''
 def iteratorRemoveAllowed():
-    '''public boolean iteratorRemoveAllowed()
+    '''returns boolean\n\n
+    iteratorRemoveAllowed()\n
     '''
 def findContractSafe():
-    '''public boolean findContractSafe()
+    '''returns boolean\n\n
+    findContractSafe()\n
     '''
 def handlesLiteralTyping():
-    '''public boolean handlesLiteralTyping()
+    '''returns boolean\n\n
+    handlesLiteralTyping()\n
     '''

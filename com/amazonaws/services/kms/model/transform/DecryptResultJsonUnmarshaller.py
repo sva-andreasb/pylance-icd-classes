@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public DecryptResult unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static DecryptResultJsonUnmarshaller getInstance()
+    '''returns DecryptResult\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

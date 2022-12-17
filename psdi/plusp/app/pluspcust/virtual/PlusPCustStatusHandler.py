@@ -1,22 +1,29 @@
 CUSTOMER_STATUS_LIST = "String  \"PLUSPCUSTSTATUS\""
-def PlusPCustStatusHandler():
-    '''public PlusPCustStatusHandler(final StatefulMbo statefulMbo)
+def ():
+    '''returns PlusPCustStatusHandler\n\n
+    (final StatefulMbo statefulMbo)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String s)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String s)\n
     '''
 def toInternalStatus():
-    '''public String toInternalStatus(final String value)
+    '''returns String\n\n
+    toInternalStatus(final String value)\n
     '''
 def possibleStatusChange():
-    '''public void possibleStatusChange(final String s, final String s2)
+    '''returns None\n\n
+    possibleStatusChange(final String s, final String s2)\n
     '''
 def verifyCustomerAssociation():
-    '''public boolean verifyCustomerAssociation(final DBShortcut dbShortcut, final SqlFormat sqlFormat)
+    '''returns boolean\n\n
+    verifyCustomerAssociation(final DBShortcut dbShortcut, final SqlFormat sqlFormat)\n
     '''
 def canChangeCustomerStatus():
-    '''public void canChangeCustomerStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeCustomerStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String s, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String s, final Date date, final String memo)\n
     '''

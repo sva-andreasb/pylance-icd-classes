@@ -1,24 +1,31 @@
 SAX_NAMESPACES_FEATURE = "String  \"http://xml.org/sax/features/namespaces\""
 SAX_NAMESPACES_PREFIXES_FEATURE = "String  \"http://xml.org/sax/features/namespace-prefixes\""
 SAX_VALIDATION_FEATURE = "String  \"http://xml.org/sax/features/validation\""
-def SAXParserImpl():
-    '''public SAXParserImpl(final SAXParserFactory saxParserFactory, final Hashtable hashtable)
+def ():
+    '''returns SAXParserImpl\n\n
+    (final SAXParserFactory saxParserFactory, final Hashtable hashtable)\n
     '''
 def getParser():
-    '''public Parser getParser()
+    '''returns Parser\n\n
+    getParser()\n
     '''
 def getXMLReader():
-    '''public XMLReader getXMLReader()
+    '''returns XMLReader\n\n
+    getXMLReader()\n
     '''
 def isNamespaceAware():
-    '''public boolean isNamespaceAware()
+    '''returns boolean\n\n
+    isNamespaceAware()\n
     '''
 def isValidating():
-    '''public boolean isValidating()
+    '''returns boolean\n\n
+    isValidating()\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''

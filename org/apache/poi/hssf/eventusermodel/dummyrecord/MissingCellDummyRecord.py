@@ -1,9 +1,12 @@
-def MissingCellDummyRecord():
-    '''public MissingCellDummyRecord(final int row, final int column)
+def ():
+    '''returns MissingCellDummyRecord\n\n
+    (final int row, final int column)\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''

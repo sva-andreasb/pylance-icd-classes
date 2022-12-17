@@ -1,20 +1,26 @@
-def EofSensorInputStream():
-    '''public EofSensorInputStream(final InputStream in, final EofSensorWatcher watcher)
+def ():
+    '''returns EofSensorInputStream\n\n
+    (final InputStream in, final EofSensorWatcher watcher)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
-    public int read(final byte[] b)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
+    read(final byte[] b)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def releaseConnection():
-    '''public void releaseConnection()
+    '''returns None\n\n
+    releaseConnection()\n
     '''
 def abortConnection():
-    '''public void abortConnection()
+    '''returns None\n\n
+    abortConnection()\n
     '''

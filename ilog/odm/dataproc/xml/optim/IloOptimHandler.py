@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloOptimHandler():
-    '''public IloOptimHandler(final IloDefaultRecursiveHandler previous, final IloNameSpaceProfileManager ns)
+def ():
+    '''returns IloOptimHandler\n\n
+    (final IloDefaultRecursiveHandler previous, final IloNameSpaceProfileManager ns)\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String qName, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String qName, final Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String uri, final String localName, final String qName)\n
     '''
 def getOptimDesc():
-    '''public IloOptimDesc getOptimDesc()
+    '''returns IloOptimDesc\n\n
+    getOptimDesc()\n
     '''
 def getNameSpaceProfileManager():
-    '''public IloNameSpaceProfileManager getNameSpaceProfileManager()
+    '''returns IloNameSpaceProfileManager\n\n
+    getNameSpaceProfileManager()\n
     '''

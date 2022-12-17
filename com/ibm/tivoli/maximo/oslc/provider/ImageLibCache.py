@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final ImageLibCache getInstance()
-    '''
 def getImageId():
-    '''public Long getImageId(final String objectName, final long id)
+    '''returns Long\n\n
+    getImageId(final String objectName, final long id)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

@@ -1,3 +1,4 @@
-def MasterPmWorkTypeSet():
-    '''public MasterPmWorkTypeSet(final MboServerInterface ms)
+def ():
+    '''returns MasterPmWorkTypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

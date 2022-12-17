@@ -1,36 +1,48 @@
-def LaborCraftRateSet():
-    '''public LaborCraftRateSet(final MboServerInterface ms)
+def ():
+    '''returns LaborCraftRateSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def filterByWork():
-    '''public void filterByWork(final MboSetRemote matchSet)
+    '''returns None\n\n
+    filterByWork(final MboSetRemote matchSet)\n
     '''
 def getOriginalLaborQbe():
-    '''public Hashtable getOriginalLaborQbe()
+    '''returns Hashtable\n\n
+    getOriginalLaborQbe()\n
     '''
 def getOriginalLaborUserWhere():
-    '''public String getOriginalLaborUserWhere()
+    '''returns String\n\n
+    getOriginalLaborUserWhere()\n
     '''
 def setOriginalLaborUserWhere():
-    '''public void setOriginalLaborUserWhere(final String inWhere)
+    '''returns None\n\n
+    setOriginalLaborUserWhere(final String inWhere)\n
     '''
 def setOriginalLaborQbe():
-    '''public void setOriginalLaborQbe(final Hashtable inQbe)
+    '''returns None\n\n
+    setOriginalLaborQbe(final Hashtable inQbe)\n
     '''
 def setClientWorkDate():
-    '''public void setClientWorkDate(final Date ClientWorkDate)
+    '''returns None\n\n
+    setClientWorkDate(final Date ClientWorkDate)\n
     '''
 def getClientWorkDate():
-    '''public Date getClientWorkDate()
+    '''returns Date\n\n
+    getClientWorkDate()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def useGroupRestriction():
-    '''public void useGroupRestriction(final boolean useRes)
+    '''returns None\n\n
+    useGroupRestriction(final boolean useRes)\n
     '''
 def isLookup():
-    '''public boolean isLookup()
+    '''returns boolean\n\n
+    isLookup()\n
     '''

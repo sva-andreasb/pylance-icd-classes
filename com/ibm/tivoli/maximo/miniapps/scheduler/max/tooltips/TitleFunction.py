@@ -1,6 +1,8 @@
-def TitleFunction():
-    '''public TitleFunction(final TableConfig config)
+def ():
+    '''returns TitleFunction\n\n
+    (final TableConfig config)\n
     '''
 def resolve():
-    '''public String resolve(final MapResolver resolver, final String functionName, final String arg1)
+    '''returns String\n\n
+    resolve(final MapResolver resolver, final String functionName, final String arg1)\n
     '''

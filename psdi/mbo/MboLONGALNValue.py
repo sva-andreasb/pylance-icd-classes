@@ -1,64 +1,69 @@
-def MboLONGALNValue():
-    '''public MboLONGALNValue()
+def ():
+    '''returns MboLONGALNValue\n\n
+    ()\n
     '''
 def construct():
-    '''public void construct(final Mbo mbo, final MboValueInfo mvInfo)
+    '''returns None\n\n
+    construct(final Mbo mbo, final MboValueInfo mvInfo)\n
     '''
 def _getString():
-    '''public String _getString()
+    '''returns String\n\n
+    _getString()\n
     '''
 def _getLocaleString():
-    '''public String _getLocaleString()
+    '''returns String\n\n
+    _getLocaleString()\n
     '''
 def _setValue():
-    '''public void _setValue(final String value)
-    public void _setValue(final String value, final long accessModifier)
-    public void _setValue(final boolean val)
-    public void _setValue(final byte val)
-    public void _setValue(final int val)
-    public void _setValue(final long val)
-    public void _setValue(final float val)
-    public void _setValue(final double val)
-    public void _setValue(final Date val)
-    public void _setValue(final byte[] val)
+    '''returns None\n\n
+    _setValue(final String value)\n
+    _setValue(final String value, final long accessModifier)\n
+    _setValue(final boolean val)\n
+    _setValue(final byte val)\n
+    _setValue(final int val)\n
+    _setValue(final long val)\n
+    _setValue(final float val)\n
+    _setValue(final double val)\n
+    _setValue(final Date val)\n
+    _setValue(final byte[] val)\n
     '''
 def isValidLongDescription():
-    '''public boolean isValidLongDescription()
+    '''returns boolean\n\n
+    isValidLongDescription()\n
     '''
 def getType():
-    '''public int getType()
-    '''
-def _setValueNull():
-    '''public synchronized void _setValueNull()
-    public synchronized void _setValueNull(final long accessModifier)
-    '''
-def isNull():
-    '''public synchronized boolean isNull()
-    '''
-def isModified():
-    '''public synchronized boolean isModified()
+    '''returns int\n\n
+    getType()\n
     '''
 def _getBoolean():
-    '''public boolean _getBoolean()
+    '''returns boolean\n\n
+    _getBoolean()\n
     '''
 def _getByte():
-    '''public byte _getByte()
+    '''returns byte\n\n
+    _getByte()\n
     '''
 def _getInt():
-    '''public int _getInt()
+    '''returns int\n\n
+    _getInt()\n
     '''
 def _getLong():
-    '''public long _getLong()
+    '''returns long\n\n
+    _getLong()\n
     '''
 def _getFloat():
-    '''public float _getFloat()
+    '''returns float\n\n
+    _getFloat()\n
     '''
 def _getDouble():
-    '''public double _getDouble()
+    '''returns double\n\n
+    _getDouble()\n
     '''
 def _getDate():
-    '''public Date _getDate()
+    '''returns Date\n\n
+    _getDate()\n
     '''
 def _getBytes():
-    '''public byte[] _getBytes()
+    '''returns byte[]\n\n
+    _getBytes()\n
     '''

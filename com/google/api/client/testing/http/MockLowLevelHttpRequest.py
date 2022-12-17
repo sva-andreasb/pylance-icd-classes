@@ -1,34 +1,41 @@
-def MockLowLevelHttpRequest():
-    '''public MockLowLevelHttpRequest()
-    public MockLowLevelHttpRequest(final String url)
+def ():
+    '''returns MockLowLevelHttpRequest\n\n
+    ()\n
+    (final String url)\n
     '''
 def addHeader():
-    '''public void addHeader(String name, final String value)
+    '''returns None\n\n
+    addHeader(String name, final String value)\n
     '''
 def execute():
-    '''public LowLevelHttpResponse execute()
+    '''returns LowLevelHttpResponse\n\n
+    execute()\n
     '''
 def getUrl():
-    '''public String getUrl()
-    '''
-def getHeaders():
-    '''public Map<String, List<String>> getHeaders()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def getFirstHeaderValue():
-    '''public String getFirstHeaderValue(final String name)
+    '''returns String\n\n
+    getFirstHeaderValue(final String name)\n
     '''
 def getHeaderValues():
-    '''public List<String> getHeaderValues(final String name)
+    '''returns List<String>\n\n
+    getHeaderValues(final String name)\n
     '''
 def setUrl():
-    '''public MockLowLevelHttpRequest setUrl(final String url)
+    '''returns MockLowLevelHttpRequest\n\n
+    setUrl(final String url)\n
     '''
 def getContentAsString():
-    '''public String getContentAsString()
+    '''returns String\n\n
+    getContentAsString()\n
     '''
 def getResponse():
-    '''public MockLowLevelHttpResponse getResponse()
+    '''returns MockLowLevelHttpResponse\n\n
+    getResponse()\n
     '''
 def setResponse():
-    '''public MockLowLevelHttpRequest setResponse(final MockLowLevelHttpResponse response)
+    '''returns MockLowLevelHttpRequest\n\n
+    setResponse(final MockLowLevelHttpResponse response)\n
     '''

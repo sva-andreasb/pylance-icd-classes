@@ -1,3 +1,4 @@
-def FldToolQualQualificationID():
-    '''public FldToolQualQualificationID(final MboValue mbv)
+def ():
+    '''returns FldToolQualQualificationID\n\n
+    (final MboValue mbv)\n
     '''

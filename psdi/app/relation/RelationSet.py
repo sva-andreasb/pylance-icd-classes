@@ -1,3 +1,4 @@
-def RelationSet():
-    '''public RelationSet(final MboServerInterface ms)
+def ():
+    '''returns RelationSet\n\n
+    (final MboServerInterface ms)\n
     '''

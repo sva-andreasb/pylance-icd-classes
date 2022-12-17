@@ -1,9 +1,12 @@
-def OslcCoreInvalidPropertyDefinitionException():
-    '''public OslcCoreInvalidPropertyDefinitionException(final Class<?> resourceClass, final Method method, final OslcPropertyDefinition oslcPropertyDefinition)
+def ():
+    '''returns OslcCoreInvalidPropertyDefinitionException\n\n
+    (final Class<?> resourceClass, final Method method, final OslcPropertyDefinition oslcPropertyDefinition)\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
     '''
 def getOslcPropertyDefinition():
-    '''public OslcPropertyDefinition getOslcPropertyDefinition()
+    '''returns OslcPropertyDefinition\n\n
+    getOslcPropertyDefinition()\n
     '''

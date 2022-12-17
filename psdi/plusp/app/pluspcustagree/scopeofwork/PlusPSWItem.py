@@ -1,15 +1,20 @@
-def PlusPSWItem():
-    '''public PlusPSWItem(final MboSet set)
+def ():
+    '''returns PlusPSWItem\n\n
+    (final MboSet set)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def isItemInTable():
-    '''public boolean isItemInTable(final String s)
+    '''returns boolean\n\n
+    isItemInTable(final String s)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

@@ -1,3 +1,4 @@
 def nextResourceName():
-    '''public String nextResourceName()
+    '''returns String\n\n
+    nextResourceName()\n
     '''

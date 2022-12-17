@@ -1,34 +1,45 @@
-def HintableTextBoxPanel():
-    '''public HintableTextBoxPanel(final JTextField textBox, final String hintText, final String hintMessage)
-    public HintableTextBoxPanel(final JTextField textBox, final String hintText, final String hintMessage, final String disabledText, final String disabedMessage)
+def ():
+    '''returns HintableTextBoxPanel\n\n
+    (final JTextField textBox, final String hintText, final String hintMessage)\n
+    (final JTextField textBox, final String hintText, final String hintMessage, final String disabledText, final String disabedMessage)\n
     '''
 def removeUpdate():
-    '''public void removeUpdate(final DocumentEvent e)
+    '''returns None\n\n
+    removeUpdate(final DocumentEvent e)\n
     '''
 def insertUpdate():
-    '''public void insertUpdate(final DocumentEvent e)
+    '''returns None\n\n
+    insertUpdate(final DocumentEvent e)\n
     '''
 def changedUpdate():
-    '''public void changedUpdate(final DocumentEvent e)
+    '''returns None\n\n
+    changedUpdate(final DocumentEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent e)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent e)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent e)
+    '''returns None\n\n
+    mouseExited(final MouseEvent e)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final String value)
+    '''returns None\n\n
+    setText(final String value)\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText()
+    '''returns String\n\n
+    getToolTipText()\n
     '''

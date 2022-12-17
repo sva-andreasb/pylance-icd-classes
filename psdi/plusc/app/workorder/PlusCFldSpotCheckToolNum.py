@@ -1,3 +1,4 @@
-def PlusCFldSpotCheckToolNum():
-    '''public PlusCFldSpotCheckToolNum(final MboValue mbv)
+def ():
+    '''returns PlusCFldSpotCheckToolNum\n\n
+    (final MboValue mbv)\n
     '''

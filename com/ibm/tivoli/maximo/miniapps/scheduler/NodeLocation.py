@@ -1,3 +1,4 @@
-def NodeLocation():
-    '''public NodeLocation()
+def ():
+    '''returns NodeLocation\n\n
+    ()\n
     '''

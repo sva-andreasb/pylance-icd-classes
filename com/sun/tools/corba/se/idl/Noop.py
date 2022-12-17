@@ -1,86 +1,108 @@
 def generate():
-    '''public void generate(final Hashtable hashtable, final AttributeEntry attributeEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final ConstEntry constEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final EnumEntry enumEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final ExceptionEntry exceptionEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final ForwardEntry forwardEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final ForwardValueEntry forwardValueEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final IncludeEntry includeEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final InterfaceEntry interfaceEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final ValueEntry valueEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final ValueBoxEntry valueBoxEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final MethodEntry methodEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final ModuleEntry moduleEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final ParameterEntry parameterEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final PragmaEntry pragmaEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final PrimitiveEntry primitiveEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final SequenceEntry sequenceEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final StringEntry stringEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final StructEntry structEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final TypedefEntry typedefEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final UnionEntry unionEntry, final PrintWriter printWriter)
-    public void generate(final Hashtable hashtable, final NativeEntry nativeEntry, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(final Hashtable hashtable, final AttributeEntry attributeEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final ConstEntry constEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final EnumEntry enumEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final ExceptionEntry exceptionEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final ForwardEntry forwardEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final ForwardValueEntry forwardValueEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final IncludeEntry includeEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final InterfaceEntry interfaceEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final ValueEntry valueEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final ValueBoxEntry valueBoxEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final MethodEntry methodEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final ModuleEntry moduleEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final ParameterEntry parameterEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final PragmaEntry pragmaEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final PrimitiveEntry primitiveEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final SequenceEntry sequenceEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final StringEntry stringEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final StructEntry structEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final TypedefEntry typedefEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final UnionEntry unionEntry, final PrintWriter printWriter)\n
+    generate(final Hashtable hashtable, final NativeEntry nativeEntry, final PrintWriter printWriter)\n
     '''
 def createAttributeGen():
-    '''public AttributeGen createAttributeGen()
+    '''returns AttributeGen\n\n
+    createAttributeGen()\n
     '''
 def createConstGen():
-    '''public ConstGen createConstGen()
+    '''returns ConstGen\n\n
+    createConstGen()\n
     '''
 def createEnumGen():
-    '''public EnumGen createEnumGen()
+    '''returns EnumGen\n\n
+    createEnumGen()\n
     '''
 def createExceptionGen():
-    '''public ExceptionGen createExceptionGen()
+    '''returns ExceptionGen\n\n
+    createExceptionGen()\n
     '''
 def createForwardGen():
-    '''public ForwardGen createForwardGen()
+    '''returns ForwardGen\n\n
+    createForwardGen()\n
     '''
 def createForwardValueGen():
-    '''public ForwardValueGen createForwardValueGen()
+    '''returns ForwardValueGen\n\n
+    createForwardValueGen()\n
     '''
 def createIncludeGen():
-    '''public IncludeGen createIncludeGen()
+    '''returns IncludeGen\n\n
+    createIncludeGen()\n
     '''
 def createInterfaceGen():
-    '''public InterfaceGen createInterfaceGen()
+    '''returns InterfaceGen\n\n
+    createInterfaceGen()\n
     '''
 def createValueGen():
-    '''public ValueGen createValueGen()
+    '''returns ValueGen\n\n
+    createValueGen()\n
     '''
 def createValueBoxGen():
-    '''public ValueBoxGen createValueBoxGen()
+    '''returns ValueBoxGen\n\n
+    createValueBoxGen()\n
     '''
 def createMethodGen():
-    '''public MethodGen createMethodGen()
+    '''returns MethodGen\n\n
+    createMethodGen()\n
     '''
 def createModuleGen():
-    '''public ModuleGen createModuleGen()
+    '''returns ModuleGen\n\n
+    createModuleGen()\n
     '''
 def createNativeGen():
-    '''public NativeGen createNativeGen()
+    '''returns NativeGen\n\n
+    createNativeGen()\n
     '''
 def createParameterGen():
-    '''public ParameterGen createParameterGen()
+    '''returns ParameterGen\n\n
+    createParameterGen()\n
     '''
 def createPragmaGen():
-    '''public PragmaGen createPragmaGen()
+    '''returns PragmaGen\n\n
+    createPragmaGen()\n
     '''
 def createPrimitiveGen():
-    '''public PrimitiveGen createPrimitiveGen()
+    '''returns PrimitiveGen\n\n
+    createPrimitiveGen()\n
     '''
 def createSequenceGen():
-    '''public SequenceGen createSequenceGen()
+    '''returns SequenceGen\n\n
+    createSequenceGen()\n
     '''
 def createStringGen():
-    '''public StringGen createStringGen()
+    '''returns StringGen\n\n
+    createStringGen()\n
     '''
 def createStructGen():
-    '''public StructGen createStructGen()
+    '''returns StructGen\n\n
+    createStructGen()\n
     '''
 def createTypedefGen():
-    '''public TypedefGen createTypedefGen()
+    '''returns TypedefGen\n\n
+    createTypedefGen()\n
     '''
 def createUnionGen():
-    '''public UnionGen createUnionGen()
+    '''returns UnionGen\n\n
+    createUnionGen()\n
     '''

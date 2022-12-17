@@ -1,3 +1,4 @@
 def getClassContext():
-    '''public Class[] getClassContext()
+    '''returns Class[]\n\n
+    getClassContext()\n
     '''

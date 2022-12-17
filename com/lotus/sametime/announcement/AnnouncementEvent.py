@@ -1,10 +1,13 @@
 MSG_RECEIVED = "int  -2147483647"
 def getSender():
-    '''public STUser getSender()
+    '''returns STUser\n\n
+    getSender()\n
     '''
 def getMsgText():
-    '''public String getMsgText()
+    '''returns String\n\n
+    getMsgText()\n
     '''
 def isResponseAllowed():
-    '''public boolean isResponseAllowed()
+    '''returns boolean\n\n
+    isResponseAllowed()\n
     '''

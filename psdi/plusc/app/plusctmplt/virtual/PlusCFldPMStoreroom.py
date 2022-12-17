@@ -1,6 +1,8 @@
-def PlusCFldPMStoreroom():
-    '''public PlusCFldPMStoreroom(final MboValue mbv)
+def ():
+    '''returns PlusCFldPMStoreroom\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

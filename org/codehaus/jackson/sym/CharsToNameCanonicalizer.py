@@ -1,53 +1,58 @@
 HASH_MULT = "int  33"
-def createRoot():
-    '''public static CharsToNameCanonicalizer createRoot()
-    '''
-def makeChild():
-    '''public synchronized CharsToNameCanonicalizer makeChild(final boolean canonicalize, final boolean intern)
-    '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def bucketCount():
-    '''public int bucketCount()
+    '''returns int\n\n
+    bucketCount()\n
     '''
 def maybeDirty():
-    '''public boolean maybeDirty()
+    '''returns boolean\n\n
+    maybeDirty()\n
     '''
 def hashSeed():
-    '''public int hashSeed()
+    '''returns int\n\n
+    hashSeed()\n
     '''
 def collisionCount():
-    '''public int collisionCount()
+    '''returns int\n\n
+    collisionCount()\n
     '''
 def maxCollisionLength():
-    '''public int maxCollisionLength()
+    '''returns int\n\n
+    maxCollisionLength()\n
     '''
 def findSymbol():
-    '''public String findSymbol(final char[] buffer, final int start, final int len, final int h)
-    '''
-def _hashToIndex():
-    '''public final int _hashToIndex(int rawHash)
+    '''returns String\n\n
+    findSymbol(final char[] buffer, final int start, final int len, final int h)\n
     '''
 def calcHash():
-    '''public int calcHash(final char[] buffer, final int start, final int len)
-    public int calcHash(final String key)
+    '''returns int\n\n
+    calcHash(final char[] buffer, final int start, final int len)\n
+    calcHash(final String key)\n
     '''
-def Bucket():
-    '''public Bucket(final String symbol, final Bucket next)
+def ():
+    '''returns Bucket\n\n
+    (final String symbol, final Bucket next)\n
     '''
 def getSymbol():
-    '''public String getSymbol()
+    '''returns String\n\n
+    getSymbol()\n
     '''
 def getNext():
-    '''public Bucket getNext()
+    '''returns Bucket\n\n
+    getNext()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def find():
-    '''public String find(final char[] buf, final int start, final int len)
+    '''returns String\n\n
+    find(final char[] buf, final int start, final int len)\n
     '''

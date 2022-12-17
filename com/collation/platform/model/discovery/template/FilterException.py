@@ -1,6 +1,7 @@
-def FilterException():
-    '''public FilterException()
-    public FilterException(final String message)
-    public FilterException(final String message, final Throwable cause)
-    public FilterException(final Throwable cause)
+def ():
+    '''returns FilterException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

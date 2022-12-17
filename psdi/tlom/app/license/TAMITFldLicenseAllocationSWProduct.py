@@ -1,6 +1,8 @@
-def TAMITFldLicenseAllocationSWProduct():
-    '''public TAMITFldLicenseAllocationSWProduct(final MboValue mbv)
+def ():
+    '''returns TAMITFldLicenseAllocationSWProduct\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

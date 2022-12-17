@@ -1,3 +1,4 @@
-def NonworktimeSet():
-    '''public NonworktimeSet(final MboServerInterface ms)
+def ():
+    '''returns NonworktimeSet\n\n
+    (final MboServerInterface ms)\n
     '''

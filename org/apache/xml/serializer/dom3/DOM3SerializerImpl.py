@@ -1,27 +1,36 @@
-def DOM3SerializerImpl():
-    '''public DOM3SerializerImpl(final SerializationHandler handler)
+def ():
+    '''returns DOM3SerializerImpl\n\n
+    (final SerializationHandler handler)\n
     '''
 def getErrorHandler():
-    '''public DOMErrorHandler getErrorHandler()
+    '''returns DOMErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def getNodeFilter():
-    '''public LSSerializerFilter getNodeFilter()
+    '''returns LSSerializerFilter\n\n
+    getNodeFilter()\n
     '''
 def getNewLine():
-    '''public char[] getNewLine()
+    '''returns char[]\n\n
+    getNewLine()\n
     '''
 def serializeDOM3():
-    '''public void serializeDOM3(final Node node)
+    '''returns None\n\n
+    serializeDOM3(final Node node)\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final DOMErrorHandler handler)
+    '''returns None\n\n
+    setErrorHandler(final DOMErrorHandler handler)\n
     '''
 def setNodeFilter():
-    '''public void setNodeFilter(final LSSerializerFilter filter)
+    '''returns None\n\n
+    setNodeFilter(final LSSerializerFilter filter)\n
     '''
 def setSerializationHandler():
-    '''public void setSerializationHandler(final SerializationHandler handler)
+    '''returns None\n\n
+    setSerializationHandler(final SerializationHandler handler)\n
     '''
 def setNewLine():
-    '''public void setNewLine(final char[] newLine)
+    '''returns None\n\n
+    setNewLine(final char[] newLine)\n
     '''

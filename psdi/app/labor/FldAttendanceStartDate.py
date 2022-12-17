@@ -1,6 +1,8 @@
-def FldAttendanceStartDate():
-    '''public FldAttendanceStartDate(final MboValue mbv)
+def ():
+    '''returns FldAttendanceStartDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

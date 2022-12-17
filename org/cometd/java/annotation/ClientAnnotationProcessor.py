@@ -1,26 +1,31 @@
-def ClientAnnotationProcessor():
-    '''public ClientAnnotationProcessor(final ClientSession clientSession)
-    public ClientAnnotationProcessor(final ClientSession clientSession, final Object... injectables)
+def ():
+    '''returns SubscriptionCallback\n\n
+    (final ClientSession clientSession)\n
+    (final ClientSession clientSession, final Object... injectables)\n
+    (final ClientSession clientSession, final Object target, final Method method, final String channel)\n
     '''
 def process():
-    '''public boolean process(final Object bean)
+    '''returns boolean\n\n
+    process(final Object bean)\n
     '''
 def processPostConstruct():
-    '''public boolean processPostConstruct(final Object bean)
+    '''returns boolean\n\n
+    processPostConstruct(final Object bean)\n
     '''
 def deprocess():
-    '''public boolean deprocess(final Object bean)
+    '''returns boolean\n\n
+    deprocess(final Object bean)\n
     '''
 def deprocessCallbacks():
-    '''public boolean deprocessCallbacks(final Object bean)
+    '''returns boolean\n\n
+    deprocessCallbacks(final Object bean)\n
     '''
 def processPreDestroy():
-    '''public boolean processPreDestroy(final Object bean)
+    '''returns boolean\n\n
+    processPreDestroy(final Object bean)\n
     '''
 def onMessage():
-    '''public void onMessage(final ClientSessionChannel channel, final Message message)
-    public void onMessage(final ClientSessionChannel channel, final Message message)
-    '''
-def SubscriptionCallback():
-    '''public SubscriptionCallback(final ClientSession clientSession, final Object target, final Method method, final String channel)
+    '''returns None\n\n
+    onMessage(final ClientSessionChannel channel, final Message message)\n
+    onMessage(final ClientSessionChannel channel, final Message message)\n
     '''

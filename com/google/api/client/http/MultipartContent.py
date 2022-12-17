@@ -1,53 +1,59 @@
-def MultipartContent():
-    '''public MultipartContent()
+def ():
+    '''returns Part\n\n
+    ()\n
+    ()\n
+    (final HttpContent content)\n
+    (final HttpHeaders headers, final HttpContent content)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def retrySupported():
-    '''public boolean retrySupported()
+    '''returns boolean\n\n
+    retrySupported()\n
     '''
 def setMediaType():
-    '''public MultipartContent setMediaType(final HttpMediaType mediaType)
-    '''
-def getParts():
-    '''public final Collection<Part> getParts()
+    '''returns MultipartContent\n\n
+    setMediaType(final HttpMediaType mediaType)\n
     '''
 def addPart():
-    '''public MultipartContent addPart(final Part part)
+    '''returns MultipartContent\n\n
+    addPart(final Part part)\n
     '''
 def setParts():
-    '''public MultipartContent setParts(final Collection<Part> parts)
+    '''returns MultipartContent\n\n
+    setParts(final Collection<Part> parts)\n
     '''
 def setContentParts():
-    '''public MultipartContent setContentParts(final Collection<? extends HttpContent> contentParts)
-    '''
-def getBoundary():
-    '''public final String getBoundary()
+    '''returns MultipartContent\n\n
+    setContentParts(final Collection<? extends HttpContent> contentParts)\n
     '''
 def setBoundary():
-    '''public MultipartContent setBoundary(final String boundary)
-    '''
-def Part():
-    '''public Part()
-    public Part(final HttpContent content)
-    public Part(final HttpHeaders headers, final HttpContent content)
+    '''returns MultipartContent\n\n
+    setBoundary(final String boundary)\n
     '''
 def setContent():
-    '''public Part setContent(final HttpContent content)
+    '''returns Part\n\n
+    setContent(final HttpContent content)\n
     '''
 def getContent():
-    '''public HttpContent getContent()
+    '''returns HttpContent\n\n
+    getContent()\n
     '''
 def setHeaders():
-    '''public Part setHeaders(final HttpHeaders headers)
+    '''returns Part\n\n
+    setHeaders(final HttpHeaders headers)\n
     '''
 def getHeaders():
-    '''public HttpHeaders getHeaders()
+    '''returns HttpHeaders\n\n
+    getHeaders()\n
     '''
 def setEncoding():
-    '''public Part setEncoding(final HttpEncoding encoding)
+    '''returns Part\n\n
+    setEncoding(final HttpEncoding encoding)\n
     '''
 def getEncoding():
-    '''public HttpEncoding getEncoding()
+    '''returns HttpEncoding\n\n
+    getEncoding()\n
     '''

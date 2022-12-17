@@ -1,6 +1,8 @@
-def CopyImpl():
-    '''public CopyImpl(final String description, final TransferProgress transferProgress, final ProgressListenerChain progressListenerChain, final TransferStateChangeListener stateChangeListener)
+def ():
+    '''returns CopyImpl\n\n
+    (final String description, final TransferProgress transferProgress, final ProgressListenerChain progressListenerChain, final TransferStateChangeListener stateChangeListener)\n
     '''
 def waitForCopyResult():
-    '''public CopyResult waitForCopyResult()
+    '''returns CopyResult\n\n
+    waitForCopyResult()\n
     '''

@@ -1,3 +1,4 @@
-def FldGroupName():
-    '''public FldGroupName(final MboValue mbv)
+def ():
+    '''returns FldGroupName\n\n
+    (final MboValue mbv)\n
     '''

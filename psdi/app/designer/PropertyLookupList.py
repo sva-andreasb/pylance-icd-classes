@@ -1,3 +1,4 @@
-def PropertyLookupList():
-    '''public PropertyLookupList(final MboSet ms)
+def ():
+    '''returns PropertyLookupList\n\n
+    (final MboSet ms)\n
     '''

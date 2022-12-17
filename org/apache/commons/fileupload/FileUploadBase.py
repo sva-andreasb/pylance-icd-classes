@@ -7,114 +7,121 @@ MULTIPART = "String  \"multipart/\""
 MULTIPART_FORM_DATA = "String  \"multipart/form-data\""
 MULTIPART_MIXED = "String  \"multipart/mixed\""
 MAX_HEADER_SIZE = "int  1024"
-def FileUploadBase():
-    '''public FileUploadBase()
-    '''
-def isMultipartContent():
-    '''public static final boolean isMultipartContent(final RequestContext ctx)
-    public static boolean isMultipartContent(final HttpServletRequest req)
+def ():
+    '''returns FileSizeLimitExceededException\n\n
+    ()\n
+    (final FileUploadException pCause)\n
+    ()\n
+    (final String message)\n
+    (final String msg, final Throwable cause)\n
+    (final String pMsg, final IOException pException)\n
+    ()\n
+    (final String message)\n
+    ()\n
+    (final String message)\n
+    (final String message, final long actual, final long permitted)\n
+    (final String message, final long actual, final long permitted)\n
     '''
 def getSizeMax():
-    '''public long getSizeMax()
+    '''returns long\n\n
+    getSizeMax()\n
     '''
 def setSizeMax():
-    '''public void setSizeMax(final long sizeMax)
+    '''returns None\n\n
+    setSizeMax(final long sizeMax)\n
     '''
 def getFileSizeMax():
-    '''public long getFileSizeMax()
+    '''returns long\n\n
+    getFileSizeMax()\n
     '''
 def setFileSizeMax():
-    '''public void setFileSizeMax(final long fileSizeMax)
+    '''returns None\n\n
+    setFileSizeMax(final long fileSizeMax)\n
     '''
 def getHeaderEncoding():
-    '''public String getHeaderEncoding()
+    '''returns String\n\n
+    getHeaderEncoding()\n
     '''
 def setHeaderEncoding():
-    '''public void setHeaderEncoding(final String encoding)
+    '''returns None\n\n
+    setHeaderEncoding(final String encoding)\n
     '''
 def parseRequest():
-    '''public List<FileItem> parseRequest(final HttpServletRequest req)
-    public List<FileItem> parseRequest(final RequestContext ctx)
+    '''returns List<FileItem>\n\n
+    parseRequest(final HttpServletRequest req)\n
+    parseRequest(final RequestContext ctx)\n
     '''
 def getItemIterator():
-    '''public FileItemIterator getItemIterator(final RequestContext ctx)
-    '''
-def parseParameterMap():
-    '''public Map<String, List<FileItem>> parseParameterMap(final RequestContext ctx)
+    '''returns FileItemIterator\n\n
+    getItemIterator(final RequestContext ctx)\n
     '''
 def getProgressListener():
-    '''public ProgressListener getProgressListener()
+    '''returns ProgressListener\n\n
+    getProgressListener()\n
     '''
 def setProgressListener():
-    '''public void setProgressListener(final ProgressListener pListener)
+    '''returns None\n\n
+    setProgressListener(final ProgressListener pListener)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public FileItemStream next()
+    '''returns FileItemStream\n\n
+    next()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getFieldName():
-    '''public String getFieldName()
-    public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
+    getFieldName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isFormField():
-    '''public boolean isFormField()
+    '''returns boolean\n\n
+    isFormField()\n
     '''
 def openStream():
-    '''public InputStream openStream()
+    '''returns InputStream\n\n
+    openStream()\n
     '''
 def getHeaders():
-    '''public FileItemHeaders getHeaders()
+    '''returns FileItemHeaders\n\n
+    getHeaders()\n
     '''
 def setHeaders():
-    '''public void setHeaders(final FileItemHeaders pHeaders)
-    '''
-def FileUploadIOException():
-    '''public FileUploadIOException(final FileUploadException pCause)
+    '''returns None\n\n
+    setHeaders(final FileItemHeaders pHeaders)\n
     '''
 def getCause():
-    '''public Throwable getCause()
-    public Throwable getCause()
-    '''
-def InvalidContentTypeException():
-    '''public InvalidContentTypeException()
-    public InvalidContentTypeException(final String message)
-    public InvalidContentTypeException(final String msg, final Throwable cause)
-    '''
-def IOFileUploadException():
-    '''public IOFileUploadException(final String pMsg, final IOException pException)
+    '''returns Throwable\n\n
+    getCause()\n
+    getCause()\n
     '''
 def getActualSize():
-    '''public long getActualSize()
+    '''returns long\n\n
+    getActualSize()\n
     '''
 def getPermittedSize():
-    '''public long getPermittedSize()
-    '''
-def UnknownSizeException():
-    '''public UnknownSizeException()
-    public UnknownSizeException(final String message)
-    '''
-def SizeLimitExceededException():
-    '''public SizeLimitExceededException()
-    public SizeLimitExceededException(final String message)
-    public SizeLimitExceededException(final String message, final long actual, final long permitted)
-    '''
-def FileSizeLimitExceededException():
-    '''public FileSizeLimitExceededException(final String message, final long actual, final long permitted)
+    '''returns long\n\n
+    getPermittedSize()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def setFileName():
-    '''public void setFileName(final String pFileName)
+    '''returns None\n\n
+    setFileName(final String pFileName)\n
     '''
 def setFieldName():
-    '''public void setFieldName(final String pFieldName)
+    '''returns None\n\n
+    setFieldName(final String pFieldName)\n
     '''

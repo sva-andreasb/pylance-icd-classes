@@ -1,6 +1,8 @@
-def ECAOutputStream():
-    '''public ECAOutputStream(final OutputStream out)
+def ():
+    '''returns ECAOutputStream\n\n
+    (final OutputStream out)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

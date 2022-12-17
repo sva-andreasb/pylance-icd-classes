@@ -1,111 +1,144 @@
-def CreateReportInputInfo():
-    '''public CreateReportInputInfo()
+def ():
+    '''returns CreateReportInputInfo\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final String displayName)
+    '''returns None\n\n
+    setDisplayName(final String displayName)\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def setMboName():
-    '''public void setMboName(final String mboName)
+    '''returns None\n\n
+    setMboName(final String mboName)\n
     '''
 def getEntityName():
-    '''public String getEntityName()
+    '''returns String\n\n
+    getEntityName()\n
     '''
 def setEntityName():
-    '''public void setEntityName(final String entityName)
+    '''returns None\n\n
+    setEntityName(final String entityName)\n
     '''
 def getMlEntityName():
-    '''public String getMlEntityName()
+    '''returns String\n\n
+    getMlEntityName()\n
     '''
 def setMlEntityName():
-    '''public void setMlEntityName(final String mlEntityName)
+    '''returns None\n\n
+    setMlEntityName(final String mlEntityName)\n
     '''
 def getMLRelationship():
-    '''public String getMLRelationship()
+    '''returns String\n\n
+    getMLRelationship()\n
     '''
 def setMLRelationship():
-    '''public void setMLRelationship(final String MLRelationship)
+    '''returns None\n\n
+    setMLRelationship(final String MLRelationship)\n
     '''
 def isToBeSaved():
-    '''public boolean isToBeSaved()
+    '''returns boolean\n\n
+    isToBeSaved()\n
     '''
 def setToBeSaved():
-    '''public void setToBeSaved(final boolean toBeSaved)
+    '''returns None\n\n
+    setToBeSaved(final boolean toBeSaved)\n
     '''
 def isPublic():
-    '''public boolean isPublic()
+    '''returns boolean\n\n
+    isPublic()\n
     '''
 def setIsPublic():
-    '''public void setIsPublic(final boolean isPublic)
+    '''returns None\n\n
+    setIsPublic(final boolean isPublic)\n
     '''
 def getRecordLimit():
-    '''public Integer getRecordLimit()
+    '''returns Integer\n\n
+    getRecordLimit()\n
     '''
 def setRecordLimit():
-    '''public void setRecordLimit(final Integer recordLimit)
-    '''
-def getMessages():
-    '''public HashMap<String, String> getMessages()
+    '''returns None\n\n
+    setRecordLimit(final Integer recordLimit)\n
     '''
 def setMessages():
-    '''public void setMessages(final HashMap<String, String> messages)
+    '''returns None\n\n
+    setMessages(final HashMap<String, String> messages)\n
     '''
 def addListReportInputInfo():
-    '''public void addListReportInputInfo(final CreateListReportInputInfo listReportInfo)
+    '''returns None\n\n
+    addListReportInputInfo(final CreateListReportInputInfo listReportInfo)\n
     '''
 def getAllListReportInputInfo():
-    '''public Iterator getAllListReportInputInfo()
+    '''returns Iterator\n\n
+    getAllListReportInputInfo()\n
     '''
 def setBidiProperties():
-    '''public void setBidiProperties(final String layoutOrient, final String textDir)
+    '''returns None\n\n
+    setBidiProperties(final String layoutOrient, final String textDir)\n
     '''
 def getBidiProperties():
-    '''public String[] getBidiProperties()
+    '''returns String[]\n\n
+    getBidiProperties()\n
     '''
 def getListReportCount():
-    '''public int getListReportCount()
+    '''returns int\n\n
+    getListReportCount()\n
     '''
 def addImportParamInfo():
-    '''public void addImportParamInfo(final ReportImportParamInfo designParamInfo)
+    '''returns None\n\n
+    addImportParamInfo(final ReportImportParamInfo designParamInfo)\n
     '''
 def getAllImportParamInfo():
-    '''public Iterator getAllImportParamInfo()
+    '''returns Iterator\n\n
+    getAllImportParamInfo()\n
     '''
 def addDesignParamInfo():
-    '''public void addDesignParamInfo(final ReportParameterInfo importParamInfo)
+    '''returns None\n\n
+    addDesignParamInfo(final ReportParameterInfo importParamInfo)\n
     '''
 def getAllDesignParamInfo():
-    '''public Iterator getAllDesignParamInfo()
+    '''returns Iterator\n\n
+    getAllDesignParamInfo()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

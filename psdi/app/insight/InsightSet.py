@@ -1,3 +1,4 @@
-def InsightSet():
-    '''public InsightSet(final MboServerInterface ms)
+def ():
+    '''returns InsightSet\n\n
+    (final MboServerInterface ms)\n
     '''

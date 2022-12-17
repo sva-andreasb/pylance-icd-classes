@@ -1,15 +1,20 @@
-def DefaultCommentNodeStep():
-    '''public DefaultCommentNodeStep(final IterableAxis axis, final PredicateSet predicateSet)
+def ():
+    '''returns DefaultCommentNodeStep\n\n
+    (final IterableAxis axis, final PredicateSet predicateSet)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def matches():
-    '''public boolean matches(final Object node, final ContextSupport contextSupport)
+    '''returns boolean\n\n
+    matches(final Object node, final ContextSupport contextSupport)\n
     '''
 def accept():
-    '''public void accept(final Visitor visitor)
+    '''returns None\n\n
+    accept(final Visitor visitor)\n
     '''

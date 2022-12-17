@@ -1,6 +1,8 @@
-def FldJobMaterialLineCost():
-    '''public FldJobMaterialLineCost(final MboValue mbv)
+def ():
+    '''returns FldJobMaterialLineCost\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

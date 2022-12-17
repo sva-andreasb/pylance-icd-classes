@@ -1,19 +1,25 @@
 FIELDNAME = "String  \"SOLUTION\""
-def SolutionFields():
-    '''public SolutionFields()
+def ():
+    '''returns SolutionFields\n\n
+    ()\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getMLFieldName():
-    '''public String getMLFieldName()
+    '''returns String\n\n
+    getMLFieldName()\n
     '''
 def hasAttachment():
-    '''public boolean hasAttachment()
+    '''returns boolean\n\n
+    hasAttachment()\n
     '''
 def isRTE():
-    '''public boolean isRTE(final String field)
+    '''returns boolean\n\n
+    isRTE(final String field)\n
     '''

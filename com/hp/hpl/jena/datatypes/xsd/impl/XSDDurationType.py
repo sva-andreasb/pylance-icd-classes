@@ -1,6 +1,8 @@
-def XSDDurationType():
-    '''public XSDDurationType()
+def ():
+    '''returns XSDDurationType\n\n
+    ()\n
     '''
 def parseValidated():
-    '''public Object parseValidated(final String str)
+    '''returns Object\n\n
+    parseValidated(final String str)\n
     '''

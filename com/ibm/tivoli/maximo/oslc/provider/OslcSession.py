@@ -1,53 +1,66 @@
 OSLCSESSION = "String  \"oslcsession\""
-def OslcSession():
-    '''public OslcSession()
+def ():
+    '''returns OslcSession\n\n
+    ()\n
     '''
 def getCsrfToken():
-    '''public String getCsrfToken()
+    '''returns String\n\n
+    getCsrfToken()\n
     '''
 def setCsrfToken():
-    '''public void setCsrfToken()
-    public void setCsrfToken(final String csrfToken)
+    '''returns None\n\n
+    setCsrfToken()\n
+    setCsrfToken(final String csrfToken)\n
     '''
 def getMXToken():
-    '''public String getMXToken()
+    '''returns String\n\n
+    getMXToken()\n
     '''
 def setMXSession():
-    '''public void setMXSession(final MXSession mxSession)
+    '''returns None\n\n
+    setMXSession(final MXSession mxSession)\n
     '''
 def isLeanJSON():
-    '''public boolean isLeanJSON()
+    '''returns boolean\n\n
+    isLeanJSON()\n
     '''
 def setLeanJSON():
-    '''public void setLeanJSON(final boolean leanJSON)
+    '''returns None\n\n
+    setLeanJSON(final boolean leanJSON)\n
     '''
 def setRelativeURI():
-    '''public void setRelativeURI(final boolean relativeURI)
+    '''returns None\n\n
+    setRelativeURI(final boolean relativeURI)\n
     '''
 def isRelativeURI():
-    '''public boolean isRelativeURI()
+    '''returns boolean\n\n
+    isRelativeURI()\n
     '''
 def setPublicURI():
-    '''public void setPublicURI(final String publicURI)
+    '''returns None\n\n
+    setPublicURI(final String publicURI)\n
     '''
 def getPublicURI():
-    '''public String getPublicURI()
-    '''
-def getMbosInSession():
-    '''public Map<String, MboRemote> getMbosInSession()
+    '''returns String\n\n
+    getPublicURI()\n
     '''
 def addStableId():
-    '''public void addStableId(final String stableId)
+    '''returns None\n\n
+    addStableId(final String stableId)\n
     '''
 def bindMbo():
-    '''public String bindMbo(final String osName, final MboRemote mbo)
+    '''returns String\n\n
+    bindMbo(final String osName, final MboRemote mbo)\n
     '''
 def unbindMbo():
-    '''public MboRemote unbindMbo(final MboRemote mbo)
+    '''returns MboRemote\n\n
+    unbindMbo(final MboRemote mbo)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def getBoundMbo():
-    '''public MboRemote getBoundMbo(final String esid)
+    '''returns MboRemote\n\n
+    getBoundMbo(final String esid)\n
     '''

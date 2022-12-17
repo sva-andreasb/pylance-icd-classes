@@ -1,6 +1,8 @@
-def PubSubIntegrationTest():
-    '''public PubSubIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns PubSubIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def simplePubSubNodeTest():
-    '''public void simplePubSubNodeTest()
+    '''returns None\n\n
+    simplePubSubNodeTest()\n
     '''

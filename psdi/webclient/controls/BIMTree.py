@@ -1,18 +1,24 @@
-def BIMTree():
-    '''public BIMTree()
+def ():
+    '''returns BIMTree\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def createNodes():
-    '''public void createNodes()
+    '''returns None\n\n
+    createNodes()\n
     '''
 def setSelectedNode():
-    '''public void setSelectedNode(final String uid)
+    '''returns None\n\n
+    setSelectedNode(final String uid)\n
     '''
 def isAutoselect():
-    '''public boolean isAutoselect()
+    '''returns boolean\n\n
+    isAutoselect()\n
     '''
 def setAutoselect():
-    '''public void setAutoselect(final boolean autoselect)
+    '''returns None\n\n
+    setAutoselect(final boolean autoselect)\n
     '''

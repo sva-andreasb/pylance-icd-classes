@@ -1,12 +1,15 @@
-def MagicNumberFileFilter():
-    '''public MagicNumberFileFilter(final byte[] magicNumber)
-    public MagicNumberFileFilter(final String magicNumber)
-    public MagicNumberFileFilter(final String magicNumber, final long offset)
-    public MagicNumberFileFilter(final byte[] magicNumber, final long offset)
+def ():
+    '''returns MagicNumberFileFilter\n\n
+    (final byte[] magicNumber)\n
+    (final String magicNumber)\n
+    (final String magicNumber, final long offset)\n
+    (final byte[] magicNumber, final long offset)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

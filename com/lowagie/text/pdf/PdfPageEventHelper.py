@@ -1,33 +1,44 @@
 def onOpenDocument():
-    '''public void onOpenDocument(final PdfWriter writer, final Document document)
+    '''returns None\n\n
+    onOpenDocument(final PdfWriter writer, final Document document)\n
     '''
 def onStartPage():
-    '''public void onStartPage(final PdfWriter writer, final Document document)
+    '''returns None\n\n
+    onStartPage(final PdfWriter writer, final Document document)\n
     '''
 def onEndPage():
-    '''public void onEndPage(final PdfWriter writer, final Document document)
+    '''returns None\n\n
+    onEndPage(final PdfWriter writer, final Document document)\n
     '''
 def onCloseDocument():
-    '''public void onCloseDocument(final PdfWriter writer, final Document document)
+    '''returns None\n\n
+    onCloseDocument(final PdfWriter writer, final Document document)\n
     '''
 def onParagraph():
-    '''public void onParagraph(final PdfWriter writer, final Document document, final float paragraphPosition)
+    '''returns None\n\n
+    onParagraph(final PdfWriter writer, final Document document, final float paragraphPosition)\n
     '''
 def onParagraphEnd():
-    '''public void onParagraphEnd(final PdfWriter writer, final Document document, final float paragraphPosition)
+    '''returns None\n\n
+    onParagraphEnd(final PdfWriter writer, final Document document, final float paragraphPosition)\n
     '''
 def onChapter():
-    '''public void onChapter(final PdfWriter writer, final Document document, final float paragraphPosition, final Paragraph title)
+    '''returns None\n\n
+    onChapter(final PdfWriter writer, final Document document, final float paragraphPosition, final Paragraph title)\n
     '''
 def onChapterEnd():
-    '''public void onChapterEnd(final PdfWriter writer, final Document document, final float position)
+    '''returns None\n\n
+    onChapterEnd(final PdfWriter writer, final Document document, final float position)\n
     '''
 def onSection():
-    '''public void onSection(final PdfWriter writer, final Document document, final float paragraphPosition, final int depth, final Paragraph title)
+    '''returns None\n\n
+    onSection(final PdfWriter writer, final Document document, final float paragraphPosition, final int depth, final Paragraph title)\n
     '''
 def onSectionEnd():
-    '''public void onSectionEnd(final PdfWriter writer, final Document document, final float position)
+    '''returns None\n\n
+    onSectionEnd(final PdfWriter writer, final Document document, final float position)\n
     '''
 def onGenericTag():
-    '''public void onGenericTag(final PdfWriter writer, final Document document, final Rectangle rect, final String text)
+    '''returns None\n\n
+    onGenericTag(final PdfWriter writer, final Document document, final Rectangle rect, final String text)\n
     '''

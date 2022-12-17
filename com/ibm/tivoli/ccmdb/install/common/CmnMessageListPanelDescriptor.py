@@ -1,51 +1,67 @@
-def CmnMessageListPanelDescriptor():
-    '''public CmnMessageListPanelDescriptor(final String panelTitleText, final String panelInstructionText, final String messageTableBorderText, final List<String> messageList)
-    public CmnMessageListPanelDescriptor(final String messageBundle, final String panelTitleTextKey, final String panelInstructionTextKey, final String messageTableBorderTextKey, final List<String> messageList)
-    public CmnMessageListPanelDescriptor(final String panelTitleTextKey, final String panelInstructionTextKey, final String messageTableBorderTextKey, final List<String> messageList, final boolean previousButtonEnabled, final boolean nextButtonEnabled, final boolean nextButtonActionCancel)
-    public CmnMessageListPanelDescriptor(final String messageBundle, final String panelTitleTextKey, final String panelInstructionTextKey, final String messageTableBorderTextKey, final List<String> messageList, final boolean previousButtonEnabled, final boolean nextButtonEnabled, final boolean nextButtonActionCancel)
+def ():
+    '''returns CmnMessageListPanelDescriptor\n\n
+    (final String panelTitleText, final String panelInstructionText, final String messageTableBorderText, final List<String> messageList)\n
+    (final String messageBundle, final String panelTitleTextKey, final String panelInstructionTextKey, final String messageTableBorderTextKey, final List<String> messageList)\n
+    (final String panelTitleTextKey, final String panelInstructionTextKey, final String messageTableBorderTextKey, final List<String> messageList, final boolean previousButtonEnabled, final boolean nextButtonEnabled, final boolean nextButtonActionCancel)\n
+    (final String messageBundle, final String panelTitleTextKey, final String panelInstructionTextKey, final String messageTableBorderTextKey, final List<String> messageList, final boolean previousButtonEnabled, final boolean nextButtonEnabled, final boolean nextButtonActionCancel)\n
     '''
 def getPanelTitleText():
-    '''public String getPanelTitleText()
+    '''returns String\n\n
+    getPanelTitleText()\n
     '''
 def setPanelTitleText():
-    '''public void setPanelTitleText(final String panelTitleText)
+    '''returns None\n\n
+    setPanelTitleText(final String panelTitleText)\n
     '''
 def getPanelInstructionText():
-    '''public String getPanelInstructionText()
+    '''returns String\n\n
+    getPanelInstructionText()\n
     '''
 def setPanelInstructionText():
-    '''public void setPanelInstructionText(final String panelInstructionText)
+    '''returns None\n\n
+    setPanelInstructionText(final String panelInstructionText)\n
     '''
 def getMessageTableBorderText():
-    '''public String getMessageTableBorderText()
+    '''returns String\n\n
+    getMessageTableBorderText()\n
     '''
 def setMessageTableBorderText():
-    '''public void setMessageTableBorderText(final String messageTableBorderText)
+    '''returns None\n\n
+    setMessageTableBorderText(final String messageTableBorderText)\n
     '''
 def getMessageList():
-    '''public List<String> getMessageList()
+    '''returns List<String>\n\n
+    getMessageList()\n
     '''
 def setMessageList():
-    '''public void setMessageList(final List<String> messageList)
+    '''returns None\n\n
+    setMessageList(final List<String> messageList)\n
     '''
 def getNextButtonDisplay():
-    '''public boolean getNextButtonDisplay()
+    '''returns boolean\n\n
+    getNextButtonDisplay()\n
     '''
 def setNextButtonDisplay():
-    '''public void setNextButtonDisplay(final boolean nextButtonEnabled)
+    '''returns None\n\n
+    setNextButtonDisplay(final boolean nextButtonEnabled)\n
     '''
 def getNextButtonCancelAction():
-    '''public boolean getNextButtonCancelAction()
+    '''returns boolean\n\n
+    getNextButtonCancelAction()\n
     '''
 def setNextButtonCancelAction():
-    '''public void setNextButtonCancelAction(final boolean nextButtonActionCancel)
+    '''returns None\n\n
+    setNextButtonCancelAction(final boolean nextButtonActionCancel)\n
     '''
 def getPreviousButtonDisplay():
-    '''public boolean getPreviousButtonDisplay()
+    '''returns boolean\n\n
+    getPreviousButtonDisplay()\n
     '''
 def setPreviousButtonDisplay():
-    '''public void setPreviousButtonDisplay(final boolean previousButtonEnabled)
+    '''returns None\n\n
+    setPreviousButtonDisplay(final boolean previousButtonEnabled)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

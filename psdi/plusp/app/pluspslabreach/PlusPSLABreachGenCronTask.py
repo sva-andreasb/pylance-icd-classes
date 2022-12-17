@@ -1,4 +1,5 @@
 MAXIMUMDAYSINPAST = "String  \"MAXIMUMDAYSINPAST\""
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''

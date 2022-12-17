@@ -1,5 +1,6 @@
-def MutableSection():
-    '''public MutableSection()
-    public MutableSection(final Section s)
-    public MutableSection(final byte[] src, final int offset)
+def ():
+    '''returns MutableSection\n\n
+    ()\n
+    (final Section s)\n
+    (final byte[] src, final int offset)\n
     '''

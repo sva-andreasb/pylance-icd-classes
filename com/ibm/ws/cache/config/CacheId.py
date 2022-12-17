@@ -1,12 +1,16 @@
-def CacheId():
-    '''public CacheId()
+def ():
+    '''returns CacheId\n\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def fancyFormat():
-    '''public String fancyFormat(final int level)
+    '''returns String\n\n
+    fancyFormat(final int level)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

@@ -1,58 +1,77 @@
-def PdfDictionary():
-    '''public PdfDictionary()
-    public PdfDictionary(final PdfName type)
+def ():
+    '''returns PdfDictionary\n\n
+    ()\n
+    (final PdfName type)\n
     '''
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''
 def put():
-    '''public PdfObject put(final PdfName key, final PdfObject value)
+    '''returns PdfObject\n\n
+    put(final PdfName key, final PdfObject value)\n
     '''
 def putEx():
-    '''public PdfObject putEx(final PdfName key, final PdfObject value)
+    '''returns PdfObject\n\n
+    putEx(final PdfName key, final PdfObject value)\n
     '''
 def putDel():
-    '''public PdfObject putDel(final PdfName key, final PdfObject value)
+    '''returns PdfObject\n\n
+    putDel(final PdfName key, final PdfObject value)\n
     '''
 def remove():
-    '''public PdfObject remove(final PdfName key)
+    '''returns PdfObject\n\n
+    remove(final PdfName key)\n
     '''
 def get():
-    '''public PdfObject get(final PdfName key)
+    '''returns PdfObject\n\n
+    get(final PdfName key)\n
     '''
 def isDictionaryType():
-    '''public boolean isDictionaryType(final PdfName type)
+    '''returns boolean\n\n
+    isDictionaryType(final PdfName type)\n
     '''
 def isFont():
-    '''public boolean isFont()
+    '''returns boolean\n\n
+    isFont()\n
     '''
 def isPage():
-    '''public boolean isPage()
+    '''returns boolean\n\n
+    isPage()\n
     '''
 def isPages():
-    '''public boolean isPages()
+    '''returns boolean\n\n
+    isPages()\n
     '''
 def isCatalog():
-    '''public boolean isCatalog()
+    '''returns boolean\n\n
+    isCatalog()\n
     '''
 def isOutlineTree():
-    '''public boolean isOutlineTree()
+    '''returns boolean\n\n
+    isOutlineTree()\n
     '''
 def merge():
-    '''public void merge(final PdfDictionary other)
+    '''returns None\n\n
+    merge(final PdfDictionary other)\n
     '''
 def mergeDifferent():
-    '''public void mergeDifferent(final PdfDictionary other)
+    '''returns None\n\n
+    mergeDifferent(final PdfDictionary other)\n
     '''
 def getKeys():
-    '''public Set getKeys()
+    '''returns Set\n\n
+    getKeys()\n
     '''
 def putAll():
-    '''public void putAll(final PdfDictionary dic)
+    '''returns None\n\n
+    putAll(final PdfDictionary dic)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def contains():
-    '''public boolean contains(final PdfName key)
+    '''returns boolean\n\n
+    contains(final PdfName key)\n
     '''

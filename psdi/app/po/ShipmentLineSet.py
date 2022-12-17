@@ -1,3 +1,4 @@
-def ShipmentLineSet():
-    '''public ShipmentLineSet(final MboServerInterface ms)
+def ():
+    '''returns ShipmentLineSet\n\n
+    (final MboServerInterface ms)\n
     '''

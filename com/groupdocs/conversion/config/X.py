@@ -1,9 +1,12 @@
 def c():
-    '''public int c(final boolean b)
+    '''returns int\n\n
+    c(final boolean b)\n
     '''
 def b():
-    '''public boolean b(final Integer n)
+    '''returns boolean\n\n
+    b(final Integer n)\n
     '''
 def ao():
-    '''public boolean ao()
+    '''returns boolean\n\n
+    ao()\n
     '''

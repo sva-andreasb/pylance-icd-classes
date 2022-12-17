@@ -1,30 +1,39 @@
-def ReadOnlySharedStringsTable():
-    '''public ReadOnlySharedStringsTable(final OPCPackage pkg)
-    public ReadOnlySharedStringsTable(final OPCPackage pkg, final boolean includePhoneticRuns)
-    public ReadOnlySharedStringsTable(final PackagePart part)
-    public ReadOnlySharedStringsTable(final PackagePart part, final boolean includePhoneticRuns)
+def ():
+    '''returns ReadOnlySharedStringsTable\n\n
+    (final OPCPackage pkg)\n
+    (final OPCPackage pkg, final boolean includePhoneticRuns)\n
+    (final PackagePart part)\n
+    (final PackagePart part, final boolean includePhoneticRuns)\n
     '''
 def readFrom():
-    '''public void readFrom(final InputStream is)
+    '''returns None\n\n
+    readFrom(final InputStream is)\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def getUniqueCount():
-    '''public int getUniqueCount()
+    '''returns int\n\n
+    getUniqueCount()\n
     '''
 def getEntryAt():
-    '''public String getEntryAt(final int idx)
+    '''returns String\n\n
+    getEntryAt(final int idx)\n
     '''
 def getItems():
-    '''public List<String> getItems()
+    '''returns List<String>\n\n
+    getItems()\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String name, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String name, final Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String localName, final String name)
+    '''returns None\n\n
+    endElement(final String uri, final String localName, final String name)\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''

@@ -1,4 +1,5 @@
-def PrecedenceQueryParser():
-    '''public PrecedenceQueryParser()
-    public PrecedenceQueryParser(final Analyzer analyer)
+def ():
+    '''returns PrecedenceQueryParser\n\n
+    ()\n
+    (final Analyzer analyer)\n
     '''

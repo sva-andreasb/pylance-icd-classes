@@ -1,21 +1,20 @@
-def transformingQueue():
-    '''public static <E> TransformedQueue<E> transformingQueue(final Queue<E> queue, final Transformer<? super E, ? extends E> transformer)
-    '''
-def transformedQueue():
-    '''public static <E> TransformedQueue<E> transformedQueue(final Queue<E> queue, final Transformer<? super E, ? extends E> transformer)
-    '''
 def offer():
-    '''public boolean offer(final E obj)
+    '''returns boolean\n\n
+    offer(final E obj)\n
     '''
 def poll():
-    '''public E poll()
+    '''returns E\n\n
+    poll()\n
     '''
 def peek():
-    '''public E peek()
+    '''returns E\n\n
+    peek()\n
     '''
 def element():
-    '''public E element()
+    '''returns E\n\n
+    element()\n
     '''
 def remove():
-    '''public E remove()
+    '''returns E\n\n
+    remove()\n
     '''

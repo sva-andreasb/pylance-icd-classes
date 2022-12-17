@@ -1,6 +1,8 @@
-def FldSimulationUnitId():
-    '''public FldSimulationUnitId(final MboValue mbv)
+def ():
+    '''returns FldSimulationUnitId\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

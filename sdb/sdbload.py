@@ -1,39 +1,48 @@
-def main():
-    '''public static void main(final String... argv)
-    '''
-def sdbload():
-    '''public sdbload(final String... args)
+def ():
+    '''returns sdbload\n\n
+    (final String... args)\n
     '''
 def notifyAddTriple():
-    '''public void notifyAddTriple(final Graph g, final Triple t)
+    '''returns None\n\n
+    notifyAddTriple(final Graph g, final Triple t)\n
     '''
 def notifyAddArray():
-    '''public void notifyAddArray(final Graph g, final Triple[] triples)
+    '''returns None\n\n
+    notifyAddArray(final Graph g, final Triple[] triples)\n
     '''
 def notifyAddList():
-    '''public void notifyAddList(final Graph g, final List triples)
+    '''returns None\n\n
+    notifyAddList(final Graph g, final List triples)\n
     '''
 def notifyAddIterator():
-    '''public void notifyAddIterator(final Graph g, final Iterator it)
+    '''returns None\n\n
+    notifyAddIterator(final Graph g, final Iterator it)\n
     '''
 def notifyAddGraph():
-    '''public void notifyAddGraph(final Graph g, final Graph added)
+    '''returns None\n\n
+    notifyAddGraph(final Graph g, final Graph added)\n
     '''
 def notifyDeleteTriple():
-    '''public void notifyDeleteTriple(final Graph g, final Triple t)
+    '''returns None\n\n
+    notifyDeleteTriple(final Graph g, final Triple t)\n
     '''
 def notifyDeleteList():
-    '''public void notifyDeleteList(final Graph g, final List L)
+    '''returns None\n\n
+    notifyDeleteList(final Graph g, final List L)\n
     '''
 def notifyDeleteArray():
-    '''public void notifyDeleteArray(final Graph g, final Triple[] triples)
+    '''returns None\n\n
+    notifyDeleteArray(final Graph g, final Triple[] triples)\n
     '''
 def notifyDeleteIterator():
-    '''public void notifyDeleteIterator(final Graph g, final Iterator it)
+    '''returns None\n\n
+    notifyDeleteIterator(final Graph g, final Iterator it)\n
     '''
 def notifyDeleteGraph():
-    '''public void notifyDeleteGraph(final Graph g, final Graph removed)
+    '''returns None\n\n
+    notifyDeleteGraph(final Graph g, final Graph removed)\n
     '''
 def notifyEvent():
-    '''public void notifyEvent(final Graph source, final Object value)
+    '''returns None\n\n
+    notifyEvent(final Graph source, final Object value)\n
     '''

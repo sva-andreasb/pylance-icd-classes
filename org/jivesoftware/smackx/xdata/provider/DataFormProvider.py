@@ -1,3 +1,4 @@
 def parse():
-    '''public DataForm parse(final XmlPullParser parser, final int initialDepth)
+    '''returns DataForm\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

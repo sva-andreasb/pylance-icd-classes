@@ -1,31 +1,41 @@
-def StringContextIterator():
-    '''public StringContextIterator(final CharSequence src)
-    public StringContextIterator(final CharSequence src, final int cpStart, final int cpLimit)
+def ():
+    '''returns StringContextIterator\n\n
+    (final CharSequence src)\n
+    (final CharSequence src, final int cpStart, final int cpLimit)\n
     '''
 def setLimit():
-    '''public void setLimit(final int lim)
+    '''returns None\n\n
+    setLimit(final int lim)\n
     '''
 def moveToLimit():
-    '''public void moveToLimit()
+    '''returns None\n\n
+    moveToLimit()\n
     '''
 def nextCaseMapCP():
-    '''public int nextCaseMapCP()
+    '''returns int\n\n
+    nextCaseMapCP()\n
     '''
 def setCPStartAndLimit():
-    '''public void setCPStartAndLimit(final int s, final int l)
+    '''returns None\n\n
+    setCPStartAndLimit(final int s, final int l)\n
     '''
 def getCPStart():
-    '''public int getCPStart()
+    '''returns int\n\n
+    getCPStart()\n
     '''
 def getCPLimit():
-    '''public int getCPLimit()
+    '''returns int\n\n
+    getCPLimit()\n
     '''
 def getCPLength():
-    '''public int getCPLength()
+    '''returns int\n\n
+    getCPLength()\n
     '''
 def reset():
-    '''public void reset(final int direction)
+    '''returns None\n\n
+    reset(final int direction)\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''

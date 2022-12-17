@@ -1,18 +1,24 @@
 def getExtendedError():
-    '''public ExtendedError getExtendedError()
+    '''returns ExtendedError\n\n
+    getExtendedError()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getStatusCode():
-    '''public String getStatusCode()
+    '''returns String\n\n
+    getStatusCode()\n
     '''
 def setExtendedError():
-    '''public void setExtendedError(final ExtendedError extendedError)
+    '''returns None\n\n
+    setExtendedError(final ExtendedError extendedError)\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def setStatusCode():
-    '''public void setStatusCode(final String statusCode)
+    '''returns None\n\n
+    setStatusCode(final String statusCode)\n
     '''

@@ -1,12 +1,8 @@
-def PrioritorizedList():
-    '''public PrioritorizedList()
-    '''
-def add():
-    '''public synchronized void add(final Object handler, final int priority)
-    '''
-def toArray():
-    '''public synchronized Object[] toArray()
+def ():
+    '''returns PrioritorizedList\n\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

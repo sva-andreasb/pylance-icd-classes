@@ -1,9 +1,11 @@
 BUCKET_SIZE = "String  \"BUCKETSIZE\""
 DATABASE_NAME = "String  \"DATABASENAME\""
-def IoTCloudantHTTPHandler():
-    '''public IoTCloudantHTTPHandler(final MaxEndPointInfo endPointInfo)
-    public IoTCloudantHTTPHandler()
+def ():
+    '''returns IoTCloudantHTTPHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''

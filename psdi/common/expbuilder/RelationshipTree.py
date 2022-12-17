@@ -1,15 +1,19 @@
-def RelationshipTree():
-    '''public RelationshipTree()
-    public RelationshipTree(final int initialCapacity)
-    public RelationshipTree(final int initialCapacity, final float loadFactor)
-    public RelationshipTree(final Map m)
+def ():
+    '''returns RelationshipTree\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final Map m)\n
     '''
 def getNodeData():
-    '''public RelationshipNodeData getNodeData(final long uniqueID)
+    '''returns RelationshipNodeData\n\n
+    getNodeData(final long uniqueID)\n
     '''
 def getNewNodeData():
-    '''public RelationshipNodeData getNewNodeData(final long uniqueID)
+    '''returns RelationshipNodeData\n\n
+    getNewNodeData(final long uniqueID)\n
     '''
 def put():
-    '''public void put(final RelationshipNodeData node)
+    '''returns None\n\n
+    put(final RelationshipNodeData node)\n
     '''

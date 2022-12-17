@@ -1,15 +1,20 @@
-def ResValidationHelper():
-    '''public ResValidationHelper()
+def ():
+    '''returns ResValidationHelper\n\n
+    ()\n
     '''
 def gatherJNDINames():
-    '''public void gatherJNDINames(final AppDeploymentController controller, final String cellName, final WorkSpace ws)
+    '''returns None\n\n
+    gatherJNDINames(final AppDeploymentController controller, final String cellName, final WorkSpace ws)\n
     '''
 def getResourceJndiNames():
-    '''public ArrayList getResourceJndiNames(final AppDeploymentController controller, final String resourceType)
+    '''returns ArrayList\n\n
+    getResourceJndiNames(final AppDeploymentController controller, final String resourceType)\n
     '''
 def resourceValidation():
-    '''public Map resourceValidation(final AppDeploymentController controller, final String taskName)
+    '''returns Map\n\n
+    resourceValidation(final AppDeploymentController controller, final String taskName)\n
     '''
 def resValidation():
-    '''public Vector resValidation(final String earFile, final String cellName, final WorkSpace ws, final Hashtable tbl)
+    '''returns Vector\n\n
+    resValidation(final String earFile, final String cellName, final WorkSpace ws, final Hashtable tbl)\n
     '''

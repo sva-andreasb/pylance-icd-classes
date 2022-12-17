@@ -1,4 +1,5 @@
-def ResourceAccessException():
-    '''public ResourceAccessException(final Object[] params, final OperationException e)
-    public ResourceAccessException(final String id, final String resource)
+def ():
+    '''returns ResourceAccessException\n\n
+    (final Object[] params, final OperationException e)\n
+    (final String id, final String resource)\n
     '''

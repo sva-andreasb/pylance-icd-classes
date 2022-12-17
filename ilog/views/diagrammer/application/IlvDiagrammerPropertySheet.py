@@ -1,151 +1,177 @@
-def IlvDiagrammerPropertySheet():
-    '''public IlvDiagrammerPropertySheet()
-    public IlvDiagrammerPropertySheet(final ResourceBundle resourceBundle)
-    '''
-def allowUserDefinedType():
-    '''public static void allowUserDefinedType(final boolean l)
+def ():
+    '''returns MyCellRenderer\n\n
+    ()\n
+    (final ResourceBundle resourceBundle)\n
+    (final TableCellRenderer tableCellRenderer)\n
+    ()\n
+    (final IlvSDMModel a, final Object b, final String c)\n
+    (final TableCellEditor a)\n
+    (final TableCellRenderer tableCellRenderer)\n
     '''
 def perform():
-    '''public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
+    '''returns None\n\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
     '''
 def addNotify():
-    '''public void addNotify()
+    '''returns None\n\n
+    addNotify()\n
     '''
 def removeNotify():
-    '''public void removeNotify()
+    '''returns None\n\n
+    removeNotify()\n
     '''
 def getToolbar():
-    '''public IlvDiagrammerToolBar getToolbar()
+    '''returns IlvDiagrammerToolBar\n\n
+    getToolbar()\n
     '''
 def setTarget():
-    '''public void setTarget(final Object target)
+    '''returns None\n\n
+    setTarget(final Object target)\n
     '''
 def getTable():
-    '''public JTable getTable()
+    '''returns JTable\n\n
+    getTable()\n
     '''
 def getDiagrammer():
-    '''public IlvDiagrammer getDiagrammer()
+    '''returns IlvDiagrammer\n\n
+    getDiagrammer()\n
     '''
 def setDiagrammer():
-    '''public void setDiagrammer(final IlvDiagrammer c)
+    '''returns None\n\n
+    setDiagrammer(final IlvDiagrammer c)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getIcon():
-    '''public Icon getIcon()
+    '''returns Icon\n\n
+    getIcon()\n
     '''
 def addTargetPropertyChangeListener():
-    '''public void addTargetPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
-    '''
-def removeTargetPropertyChangeListener():
-    '''public final void removeTargetPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
-    '''
-def BidiCellRenderer():
-    '''public BidiCellRenderer(final TableCellRenderer tableCellRenderer)
+    '''returns None\n\n
+    addTargetPropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def getTableCellRendererComponent():
-    '''public Component getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int n, final int n2)
-    public Component getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int row, final int n)
+    '''returns Component\n\n
+    getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int n, final int n2)\n
+    getTableCellRendererComponent(final JTable table, final Object o, final boolean b, final boolean b2, final int row, final int n)\n
     '''
 def setBaseTextDirection():
-    '''public void setBaseTextDirection(final String textDirection)
+    '''returns None\n\n
+    setBaseTextDirection(final String textDirection)\n
     '''
 def getBaseTextDirection():
-    '''public String getBaseTextDirection()
-    '''
-def PropertySheetDelegate():
-    '''public PropertySheetDelegate()
+    '''returns String\n\n
+    getBaseTextDirection()\n
     '''
 def getPropertyDescriptors():
-    '''public IlvPropertyDescriptor[] getPropertyDescriptors(final Object o)
+    '''returns IlvPropertyDescriptor[]\n\n
+    getPropertyDescriptors(final Object o)\n
     '''
 def mustConvertToString():
-    '''public boolean mustConvertToString(final SDMPropertyDescriptor sdmPropertyDescriptor, final Object o)
-    '''
-def SDMPropertyDescriptor():
-    '''public SDMPropertyDescriptor(final IlvSDMModel a, final Object b, final String c)
+    '''returns boolean\n\n
+    mustConvertToString(final SDMPropertyDescriptor sdmPropertyDescriptor, final Object o)\n
     '''
 def isPublic():
-    '''public boolean isPublic()
+    '''returns boolean\n\n
+    isPublic()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def getShortDescription():
-    '''public String getShortDescription()
+    '''returns String\n\n
+    getShortDescription()\n
     '''
 def getPropertyType():
-    '''public Class getPropertyType()
+    '''returns Class\n\n
+    getPropertyType()\n
     '''
 def getPropertyEditorClass():
-    '''public Class getPropertyEditorClass()
+    '''returns Class\n\n
+    getPropertyEditorClass()\n
     '''
 def setPropertyEditorClass():
-    '''public void setPropertyEditorClass(final Class clazz)
+    '''returns None\n\n
+    setPropertyEditorClass(final Class clazz)\n
     '''
 def get():
-    '''public Object get(final Object o)
+    '''returns Object\n\n
+    get(final Object o)\n
     '''
 def set():
-    '''public void set(final Object o, Object convert)
+    '''returns None\n\n
+    set(final Object o, Object convert)\n
     '''
 def getGetDocumentation():
-    '''public String getGetDocumentation()
+    '''returns String\n\n
+    getGetDocumentation()\n
     '''
 def getSetDocumentation():
-    '''public String getSetDocumentation()
-    '''
-def BidiCellEditor():
-    '''public BidiCellEditor(final TableCellEditor a)
+    '''returns String\n\n
+    getSetDocumentation()\n
     '''
 def addCellEditorListener():
-    '''public void addCellEditorListener(final CellEditorListener cellEditorListener)
+    '''returns None\n\n
+    addCellEditorListener(final CellEditorListener cellEditorListener)\n
     '''
 def cancelCellEditing():
-    '''public void cancelCellEditing()
+    '''returns None\n\n
+    cancelCellEditing()\n
     '''
 def getCellEditorValue():
-    '''public Object getCellEditorValue()
+    '''returns Object\n\n
+    getCellEditorValue()\n
     '''
 def isCellEditable():
-    '''public boolean isCellEditable(final EventObject eventObject)
+    '''returns boolean\n\n
+    isCellEditable(final EventObject eventObject)\n
     '''
 def removeCellEditorListener():
-    '''public void removeCellEditorListener(final CellEditorListener cellEditorListener)
+    '''returns None\n\n
+    removeCellEditorListener(final CellEditorListener cellEditorListener)\n
     '''
 def shouldSelectCell():
-    '''public boolean shouldSelectCell(final EventObject eventObject)
+    '''returns boolean\n\n
+    shouldSelectCell(final EventObject eventObject)\n
     '''
 def stopCellEditing():
-    '''public boolean stopCellEditing()
+    '''returns boolean\n\n
+    stopCellEditing()\n
     '''
 def getTableCellEditorComponent():
-    '''public Component getTableCellEditorComponent(final JTable table, final Object o, final boolean b, final int row, final int n)
-    '''
-def MyCellRenderer():
-    '''public MyCellRenderer(final TableCellRenderer tableCellRenderer)
+    '''returns Component\n\n
+    getTableCellEditorComponent(final JTable table, final Object o, final boolean b, final int row, final int n)\n
     '''
 def getAdditionalBeanInfo():
-    '''public BeanInfo[] getAdditionalBeanInfo()
+    '''returns BeanInfo[]\n\n
+    getAdditionalBeanInfo()\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)
+    '''returns None\n\n
+    selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)\n
     '''
 def propertyChanged():
-    '''public void propertyChanged(final SDMPropertyChangeEvent sdmPropertyChangeEvent)
+    '''returns None\n\n
+    propertyChanged(final SDMPropertyChangeEvent sdmPropertyChangeEvent)\n
     '''
 def adjustmentFinished():
-    '''public void adjustmentFinished(final SDMModelEvent sdmModelEvent)
+    '''returns None\n\n
+    adjustmentFinished(final SDMModelEvent sdmModelEvent)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent listSelectionEvent)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent listSelectionEvent)\n
     '''
 def targetChanged():
-    '''public void targetChanged(final ComponentContextEvent componentContextEvent)
+    '''returns None\n\n
+    targetChanged(final ComponentContextEvent componentContextEvent)\n
     '''

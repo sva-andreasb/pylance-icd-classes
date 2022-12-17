@@ -1,27 +1,23 @@
 def checkUnicastDiscoveryConstraints():
-    '''public void checkUnicastDiscoveryConstraints(InvocationConstraints empty)
+    '''returns None\n\n
+    checkUnicastDiscoveryConstraints(InvocationConstraints empty)\n
     '''
 def handleUnicastDiscovery():
-    '''public void handleUnicastDiscovery(final UnicastResponse unicastResponse, final Socket socket, InvocationConstraints empty, final ClientSubjectChecker clientSubjectChecker, final Collection collection, final ByteBuffer byteBuffer, final ByteBuffer byteBuffer2)
-    '''
-def handleConnection():
-    '''public synchronized void handleConnection(final ServerConnection conn, final RequestDispatcher requestDispatcher)
+    '''returns None\n\n
+    handleUnicastDiscovery(final UnicastResponse unicastResponse, final Socket socket, InvocationConstraints empty, final ClientSubjectChecker clientSubjectChecker, final Collection collection, final ByteBuffer byteBuffer, final ByteBuffer byteBuffer2)\n
     '''
 def dispatch():
-    '''public void dispatch(final InboundRequest inboundRequest)
-    '''
-def accept():
-    '''public synchronized Socket accept()
+    '''returns None\n\n
+    dispatch(final InboundRequest inboundRequest)\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def createServerSocket():
-    '''public ServerSocket createServerSocket()
-    public ServerSocket createServerSocket(final int n)
-    public ServerSocket createServerSocket(final int n, final int n2)
-    public ServerSocket createServerSocket(final int n, final int n2, final InetAddress inetAddress)
+    '''returns ServerSocket\n\n
+    createServerSocket()\n
+    createServerSocket(final int n)\n
+    createServerSocket(final int n, final int n2)\n
+    createServerSocket(final int n, final int n2, final InetAddress inetAddress)\n
     '''

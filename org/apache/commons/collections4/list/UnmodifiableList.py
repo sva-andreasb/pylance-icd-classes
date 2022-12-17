@@ -1,40 +1,48 @@
-def unmodifiableList():
-    '''public static <E> List<E> unmodifiableList(final List<? extends E> list)
-    '''
-def UnmodifiableList():
-    '''public UnmodifiableList(final List<? extends E> list)
+def ():
+    '''returns UnmodifiableList\n\n
+    (final List<? extends E> list)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def add():
-    '''public boolean add(final Object object)
-    public void add(final int index, final E object)
+    '''returns None\n\n
+    add(final Object object)\n
+    add(final int index, final E object)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
-    public boolean addAll(final int index, final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
+    addAll(final int index, final Collection<? extends E> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
-    public E remove(final int index)
+    '''returns E\n\n
+    remove(final Object object)\n
+    remove(final int index)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def listIterator():
-    '''public ListIterator<E> listIterator()
-    public ListIterator<E> listIterator(final int index)
+    '''returns ListIterator<E>\n\n
+    listIterator()\n
+    listIterator(final int index)\n
     '''
 def set():
-    '''public E set(final int index, final E object)
+    '''returns E\n\n
+    set(final int index, final E object)\n
     '''
 def subList():
-    '''public List<E> subList(final int fromIndex, final int toIndex)
+    '''returns List<E>\n\n
+    subList(final int fromIndex, final int toIndex)\n
     '''

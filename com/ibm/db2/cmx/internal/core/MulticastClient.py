@@ -1,6 +1,8 @@
 def locate():
-    '''public String locate(final int n, final String s)
+    '''returns String\n\n
+    locate(final int n, final String s)\n
     '''
 def run():
-    '''public InetAddress run()
+    '''returns InetAddress\n\n
+    run()\n
     '''

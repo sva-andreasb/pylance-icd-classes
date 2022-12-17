@@ -1,39 +1,48 @@
-def DatabaseUtils():
-    '''public DatabaseUtils(final boolean debug, final ImportDocumentHandler handler)
-    '''
-def isNull():
-    '''public static boolean isNull(final String a)
+def ():
+    '''returns DatabaseUtils\n\n
+    (final boolean debug, final ImportDocumentHandler handler)\n
     '''
 def doDbUpdate():
-    '''public int doDbUpdate(final Connection con, final XMLObject objectElement)
+    '''returns int\n\n
+    doDbUpdate(final Connection con, final XMLObject objectElement)\n
     '''
 def doDbInsert():
-    '''public int doDbInsert(final Connection con, final XMLObject objectElement)
+    '''returns int\n\n
+    doDbInsert(final Connection con, final XMLObject objectElement)\n
     '''
 def getColumnValue():
-    '''public String getColumnValue(final XMLColumn elem)
+    '''returns String\n\n
+    getColumnValue(final XMLColumn elem)\n
     '''
 def getColumnOriginalValue():
-    '''public String getColumnOriginalValue(final XMLColumn elem)
+    '''returns String\n\n
+    getColumnOriginalValue(final XMLColumn elem)\n
     '''
 def getValueText():
-    '''public String getValueText(final XMLColumn column, final String nodename)
+    '''returns String\n\n
+    getValueText(final XMLColumn column, final String nodename)\n
     '''
 def substituteQueryParameters():
-    '''public String substituteQueryParameters(final XMLObject e, String query)
+    '''returns String\n\n
+    substituteQueryParameters(final XMLObject e, String query)\n
     '''
 def forThisDatabase():
-    '''public boolean forThisDatabase(final String dbtype)
+    '''returns boolean\n\n
+    forThisDatabase(final String dbtype)\n
     '''
 def runExtension():
-    '''public boolean runExtension(final String extensionNames, final int mode, final Connection con, final Processable object)
+    '''returns boolean\n\n
+    runExtension(final String extensionNames, final int mode, final Connection con, final Processable object)\n
     '''
 def closeJDBCConnection():
-    '''public void closeJDBCConnection(final Connection conn)
+    '''returns None\n\n
+    closeJDBCConnection(final Connection conn)\n
     '''
 def closeJDBCStatement():
-    '''public void closeJDBCStatement(final Statement stmt)
+    '''returns None\n\n
+    closeJDBCStatement(final Statement stmt)\n
     '''
 def closeJDBCResultSet():
-    '''public void closeJDBCResultSet(final ResultSet aResultSet)
+    '''returns None\n\n
+    closeJDBCResultSet(final ResultSet aResultSet)\n
     '''

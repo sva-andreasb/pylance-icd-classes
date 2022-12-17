@@ -1,3 +1,4 @@
-def CommTemplateSet():
-    '''public CommTemplateSet(final MboServerInterface ms)
+def ():
+    '''returns CommTemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

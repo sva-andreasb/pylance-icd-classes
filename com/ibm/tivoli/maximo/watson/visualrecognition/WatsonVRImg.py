@@ -1,9 +1,12 @@
-def WatsonVRImg():
-    '''public WatsonVRImg(final MboSet ms)
+def ():
+    '''returns WatsonVRImg\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

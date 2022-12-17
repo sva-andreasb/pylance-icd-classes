@@ -1,30 +1,40 @@
-def AspectInstanceVar():
-    '''public AspectInstanceVar(final ResolvedType type)
+def ():
+    '''returns AspectInstanceVar\n\n
+    (final ResolvedType type)\n
     '''
 def createLoad():
-    '''public Instruction createLoad(final InstructionFactory fact)
+    '''returns Instruction\n\n
+    createLoad(final InstructionFactory fact)\n
     '''
 def createStore():
-    '''public Instruction createStore(final InstructionFactory fact)
+    '''returns Instruction\n\n
+    createStore(final InstructionFactory fact)\n
     '''
 def appendStore():
-    '''public void appendStore(final InstructionList il, final InstructionFactory fact)
+    '''returns None\n\n
+    appendStore(final InstructionList il, final InstructionFactory fact)\n
     '''
 def appendLoad():
-    '''public void appendLoad(final InstructionList il, final InstructionFactory fact)
+    '''returns None\n\n
+    appendLoad(final InstructionList il, final InstructionFactory fact)\n
     '''
 def appendLoadAndConvert():
-    '''public void appendLoadAndConvert(final InstructionList il, final InstructionFactory fact, final ResolvedType toType)
+    '''returns None\n\n
+    appendLoadAndConvert(final InstructionList il, final InstructionFactory fact, final ResolvedType toType)\n
     '''
 def insertLoad():
-    '''public void insertLoad(final InstructionList il, final InstructionFactory fact)
+    '''returns None\n\n
+    insertLoad(final InstructionList il, final InstructionFactory fact)\n
     '''
 def createCopyFrom():
-    '''public InstructionList createCopyFrom(final InstructionFactory fact, final int oldSlot)
+    '''returns InstructionList\n\n
+    createCopyFrom(final InstructionFactory fact, final int oldSlot)\n
     '''
 def getPositionInAroundState():
-    '''public int getPositionInAroundState()
+    '''returns int\n\n
+    getPositionInAroundState()\n
     '''
 def setPositionInAroundState():
-    '''public void setPositionInAroundState(final int positionInAroundState)
+    '''returns None\n\n
+    setPositionInAroundState(final int positionInAroundState)\n
     '''

@@ -1,6 +1,8 @@
-def ExatctMatchEventFilter():
-    '''public ExatctMatchEventFilter(final PublishInfo pubInfo)
+def ():
+    '''returns ExatctMatchEventFilter\n\n
+    (final PublishInfo pubInfo)\n
     '''
 def filterEvent():
-    '''public boolean filterEvent(final MboRemote mbo)
+    '''returns boolean\n\n
+    filterEvent(final MboRemote mbo)\n
     '''

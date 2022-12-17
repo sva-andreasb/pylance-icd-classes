@@ -1,21 +1,26 @@
-def PE():
-    '''public PE(final Writer out)
+def ():
+    '''returns PE\n\n
+    (final Writer out)\n
     '''
 def append():
-    '''public Writer append(final char c)
-    public Writer append(final CharSequence csq, final int start, final int end)
-    public Writer append(final CharSequence csq)
+    '''returns Writer\n\n
+    append(final char c)\n
+    append(final CharSequence csq, final int start, final int end)\n
+    append(final CharSequence csq)\n
     '''
 def write():
-    '''public void write(final int idx)
-    public void write(final char[] chr)
-    public void write(final char[] chr, final int st, final int len)
-    public void write(final String str)
-    public void write(final String str, final int st, final int len)
+    '''returns None\n\n
+    write(final int idx)\n
+    write(final char[] chr)\n
+    write(final char[] chr, final int st, final int len)\n
+    write(final String str)\n
+    write(final String str, final int st, final int len)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

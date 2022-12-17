@@ -1,15 +1,20 @@
-def SKDDateInterval():
-    '''public SKDDateInterval(final Date skdStartDate, final Date skdEndDate)
+def ():
+    '''returns SKDDateInterval\n\n
+    (final Date skdStartDate, final Date skdEndDate)\n
     '''
 def getSKDStartDate():
-    '''public Date getSKDStartDate()
+    '''returns Date\n\n
+    getSKDStartDate()\n
     '''
 def setSKDStartDate():
-    '''public void setSKDStartDate(final Date skdStartDate)
+    '''returns None\n\n
+    setSKDStartDate(final Date skdStartDate)\n
     '''
 def getSKDEndDate():
-    '''public Date getSKDEndDate()
+    '''returns Date\n\n
+    getSKDEndDate()\n
     '''
 def setSKDEndDate():
-    '''public void setSKDEndDate(final Date skdEndDate)
+    '''returns None\n\n
+    setSKDEndDate(final Date skdEndDate)\n
     '''

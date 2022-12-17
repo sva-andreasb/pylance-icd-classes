@@ -1,9 +1,12 @@
-def PoolManager():
-    '''public PoolManager(final String s, final int n, final int n2, final int n3, final LDAPSocketFactory ldapSocketFactory)
+def ():
+    '''returns PoolManager\n\n
+    (final String s, final int n, final int n2, final int n3, final LDAPSocketFactory ldapSocketFactory)\n
     '''
 def getBoundConnection():
-    '''public LDAPConnection getBoundConnection(final String dn, final byte[] pw)
+    '''returns LDAPConnection\n\n
+    getBoundConnection(final String dn, final byte[] pw)\n
     '''
 def makeConnectionAvailable():
-    '''public void makeConnectionAvailable(final LDAPConnection ldapConnection)
+    '''returns None\n\n
+    makeConnectionAvailable(final LDAPConnection ldapConnection)\n
     '''

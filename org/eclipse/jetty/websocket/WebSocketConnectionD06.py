@@ -1,130 +1,155 @@
-def WebSocketConnectionD06():
-    '''public WebSocketConnectionD06(final WebSocket websocket, final EndPoint endpoint, final WebSocketBuffers buffers, final long timestamp, final int maxIdleTime, final String protocol)
+def ():
+    '''returns WebSocketConnectionD06\n\n
+    (final WebSocket websocket, final EndPoint endpoint, final WebSocketBuffers buffers, final long timestamp, final int maxIdleTime, final String protocol)\n
     '''
 def handle():
-    '''public Connection handle()
+    '''returns Connection\n\n
+    handle()\n
     '''
 def onInputShutdown():
-    '''public void onInputShutdown()
+    '''returns None\n\n
+    onInputShutdown()\n
     '''
 def isIdle():
-    '''public boolean isIdle()
+    '''returns boolean\n\n
+    isIdle()\n
     '''
 def onIdleExpired():
-    '''public void onIdleExpired(final long idleForMs)
+    '''returns None\n\n
+    onIdleExpired(final long idleForMs)\n
     '''
 def isSuspended():
-    '''public boolean isSuspended()
+    '''returns boolean\n\n
+    isSuspended()\n
     '''
 def onClose():
-    '''public void onClose()
-    '''
-def closeIn():
-    '''public synchronized void closeIn(final int code, final String message)
-    '''
-def closeOut():
-    '''public synchronized void closeOut(int code, final String message)
+    '''returns None\n\n
+    onClose()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def fillBuffersFrom():
-    '''public void fillBuffersFrom(final Buffer buffer)
+    '''returns None\n\n
+    fillBuffersFrom(final Buffer buffer)\n
     '''
 def getExtensions():
-    '''public List<Extension> getExtensions()
-    '''
-def hashKey():
-    '''public static String hashKey(final String key)
-    '''
-def sendMessage():
-    '''public synchronized void sendMessage(final String content)
-    public synchronized void sendMessage(final byte[] content, final int offset, final int length)
+    '''returns List<Extension>\n\n
+    getExtensions()\n
     '''
 def sendFrame():
-    '''public void sendFrame(final byte flags, final byte opcode, final byte[] content, final int offset, final int length)
+    '''returns None\n\n
+    sendFrame(final byte flags, final byte opcode, final byte[] content, final int offset, final int length)\n
     '''
 def sendControl():
-    '''public void sendControl(final byte control, final byte[] data, final int offset, final int length)
+    '''returns None\n\n
+    sendControl(final byte control, final byte[] data, final int offset, final int length)\n
     '''
 def isMessageComplete():
-    '''public boolean isMessageComplete(final byte flags)
+    '''returns boolean\n\n
+    isMessageComplete(final byte flags)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def close():
-    '''public void close(final int code, final String message)
-    public void close()
-    public void close(final int code, final String message)
+    '''returns None\n\n
+    close(final int code, final String message)\n
+    close()\n
+    close(final int code, final String message)\n
     '''
 def setMaxIdleTime():
-    '''public void setMaxIdleTime(final int ms)
+    '''returns None\n\n
+    setMaxIdleTime(final int ms)\n
     '''
 def setMaxTextMessageSize():
-    '''public void setMaxTextMessageSize(final int size)
+    '''returns None\n\n
+    setMaxTextMessageSize(final int size)\n
     '''
 def setMaxBinaryMessageSize():
-    '''public void setMaxBinaryMessageSize(final int size)
+    '''returns None\n\n
+    setMaxBinaryMessageSize(final int size)\n
     '''
 def getMaxTextMessageSize():
-    '''public int getMaxTextMessageSize()
+    '''returns int\n\n
+    getMaxTextMessageSize()\n
     '''
 def getMaxIdleTime():
-    '''public int getMaxIdleTime()
+    '''returns int\n\n
+    getMaxIdleTime()\n
     '''
 def getMaxBinaryMessageSize():
-    '''public int getMaxBinaryMessageSize()
+    '''returns int\n\n
+    getMaxBinaryMessageSize()\n
     '''
 def getProtocol():
-    '''public String getProtocol()
+    '''returns String\n\n
+    getProtocol()\n
     '''
 def binaryOpcode():
-    '''public byte binaryOpcode()
+    '''returns byte\n\n
+    binaryOpcode()\n
     '''
 def textOpcode():
-    '''public byte textOpcode()
+    '''returns byte\n\n
+    textOpcode()\n
     '''
 def continuationOpcode():
-    '''public byte continuationOpcode()
+    '''returns byte\n\n
+    continuationOpcode()\n
     '''
 def finMask():
-    '''public byte finMask()
+    '''returns byte\n\n
+    finMask()\n
     '''
 def isControl():
-    '''public boolean isControl(final byte opcode)
+    '''returns boolean\n\n
+    isControl(final byte opcode)\n
     '''
 def isText():
-    '''public boolean isText(final byte opcode)
+    '''returns boolean\n\n
+    isText(final byte opcode)\n
     '''
 def isBinary():
-    '''public boolean isBinary(final byte opcode)
+    '''returns boolean\n\n
+    isBinary(final byte opcode)\n
     '''
 def isContinuation():
-    '''public boolean isContinuation(final byte opcode)
+    '''returns boolean\n\n
+    isContinuation(final byte opcode)\n
     '''
 def isClose():
-    '''public boolean isClose(final byte opcode)
+    '''returns boolean\n\n
+    isClose(final byte opcode)\n
     '''
 def isPing():
-    '''public boolean isPing(final byte opcode)
+    '''returns boolean\n\n
+    isPing(final byte opcode)\n
     '''
 def isPong():
-    '''public boolean isPong(final byte opcode)
+    '''returns boolean\n\n
+    isPong(final byte opcode)\n
     '''
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def setAllowFrameFragmentation():
-    '''public void setAllowFrameFragmentation(final boolean allowFragmentation)
+    '''returns None\n\n
+    setAllowFrameFragmentation(final boolean allowFragmentation)\n
     '''
 def isAllowFrameFragmentation():
-    '''public boolean isAllowFrameFragmentation()
+    '''returns boolean\n\n
+    isAllowFrameFragmentation()\n
     '''
 def onFrame():
-    '''public void onFrame(final byte flags, final byte opcode, final Buffer buffer)
+    '''returns None\n\n
+    onFrame(final byte flags, final byte opcode, final Buffer buffer)\n
     '''

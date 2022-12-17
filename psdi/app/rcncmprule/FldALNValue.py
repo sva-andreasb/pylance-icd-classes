@@ -1,6 +1,8 @@
-def FldALNValue():
-    '''public FldALNValue(final MboValue mbv)
+def ():
+    '''returns FldALNValue\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

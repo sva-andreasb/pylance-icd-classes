@@ -1,13 +1,17 @@
-def FilePartSource():
-    '''public FilePartSource(final File file)
-    public FilePartSource(final String fileName, final File file)
+def ():
+    '''returns FilePartSource\n\n
+    (final File file)\n
+    (final String fileName, final File file)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def createInputStream():
-    '''public InputStream createInputStream()
+    '''returns InputStream\n\n
+    createInputStream()\n
     '''

@@ -1,43 +1,41 @@
-def PoolEntry():
-    '''public PoolEntry(final String id, final T route, final C conn, final long timeToLive, final TimeUnit tunit)
-    public PoolEntry(final String id, final T route, final C conn)
+def ():
+    '''returns PoolEntry\n\n
+    (final String id, final T route, final C conn, final long timeToLive, final TimeUnit tunit)\n
+    (final String id, final T route, final C conn)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getRoute():
-    '''public T getRoute()
+    '''returns T\n\n
+    getRoute()\n
     '''
 def getConnection():
-    '''public C getConnection()
+    '''returns C\n\n
+    getConnection()\n
     '''
 def getCreated():
-    '''public long getCreated()
+    '''returns long\n\n
+    getCreated()\n
     '''
 def getValidityDeadline():
-    '''public long getValidityDeadline()
+    '''returns long\n\n
+    getValidityDeadline()\n
     '''
 def getValidUnit():
-    '''public long getValidUnit()
+    '''returns long\n\n
+    getValidUnit()\n
     '''
 def getState():
-    '''public Object getState()
+    '''returns Object\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final Object state)
-    '''
-def getUpdated():
-    '''public synchronized long getUpdated()
-    '''
-def getExpiry():
-    '''public synchronized long getExpiry()
-    '''
-def updateExpiry():
-    '''public synchronized void updateExpiry(final long time, final TimeUnit tunit)
-    '''
-def isExpired():
-    '''public synchronized boolean isExpired(final long now)
+    '''returns None\n\n
+    setState(final Object state)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

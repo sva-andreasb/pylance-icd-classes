@@ -1,6 +1,8 @@
 def myPrivacyChanged():
-    '''public void myPrivacyChanged(final MyPrivacyEvent myPrivacyEvent)
+    '''returns None\n\n
+    myPrivacyChanged(final MyPrivacyEvent myPrivacyEvent)\n
     '''
 def changeMyPrivacyDenied():
-    '''public void changeMyPrivacyDenied(final MyPrivacyEvent myPrivacyEvent)
+    '''returns None\n\n
+    changeMyPrivacyDenied(final MyPrivacyEvent myPrivacyEvent)\n
     '''

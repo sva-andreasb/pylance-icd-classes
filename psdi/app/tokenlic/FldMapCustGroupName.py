@@ -1,3 +1,4 @@
-def FldMapCustGroupName():
-    '''public FldMapCustGroupName(final MboValue mbv)
+def ():
+    '''returns FldMapCustGroupName\n\n
+    (final MboValue mbv)\n
     '''

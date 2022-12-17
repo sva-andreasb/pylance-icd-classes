@@ -1,9 +1,12 @@
-def ConvertedRecords():
-    '''public ConvertedRecords(final T records, final RecordsProcessingStats recordsProcessingStats)
+def ():
+    '''returns ConvertedRecords\n\n
+    (final T records, final RecordsProcessingStats recordsProcessingStats)\n
     '''
 def records():
-    '''public T records()
+    '''returns T\n\n
+    records()\n
     '''
 def recordsProcessingStats():
-    '''public RecordsProcessingStats recordsProcessingStats()
+    '''returns RecordsProcessingStats\n\n
+    recordsProcessingStats()\n
     '''

@@ -1,0 +1,5 @@
+NO_OVERLAPS = "int  -1"
+OVERLAPS_1_MINOR = "int  0"
+OVERLAPS_2_MINOR = "int  1"
+OVERLAPS_1_WRAPS = "int  2"
+OVERLAPS_2_WRAPS = "int  3"

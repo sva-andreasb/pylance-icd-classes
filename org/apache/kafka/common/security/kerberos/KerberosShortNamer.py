@@ -1,12 +1,12 @@
-def KerberosShortNamer():
-    '''public KerberosShortNamer(final List<KerberosRule> principalToLocalRules)
-    '''
-def fromUnparsedRules():
-    '''public static KerberosShortNamer fromUnparsedRules(final String defaultRealm, final List<String> principalToLocalRules)
+def ():
+    '''returns KerberosShortNamer\n\n
+    (final List<KerberosRule> principalToLocalRules)\n
     '''
 def shortName():
-    '''public String shortName(final KerberosName kerberosName)
+    '''returns String\n\n
+    shortName(final KerberosName kerberosName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

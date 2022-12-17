@@ -1,19 +1,22 @@
 SWING_DEVICE_NAME = "String  \"Swing\""
-def IlvSwingFormDevice():
-    '''public IlvSwingFormDevice()
+def ():
+    '''returns IlvSwingFormDevice\n\n
+    ()\n
     '''
 def createControlNode():
-    '''public AbstractControlNode createControlNode(final String s, final Class clazz)
-    public AbstractControlNode createControlNode(final String s, final Class clazz)
-    public AbstractControlNode createControlNode(final String s, final Class clazz)
-    public AbstractControlNode createControlNode(final String s, final Class clazz)
-    public AbstractControlNode createControlNode(final String s, final Class clazz)
-    public AbstractControlNode createControlNode(final String s, final Class clazz)
-    public AbstractControlNode createControlNode(final String s, final Class clazz)
-    public AbstractControlNode createControlNode(final String s, final Class clazz)
-    public AbstractControlNode createControlNode(final String s, final Class clazz)
-    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    '''returns AbstractControlNode\n\n
+    createControlNode(final String s, final Class clazz)\n
+    createControlNode(final String s, final Class clazz)\n
+    createControlNode(final String s, final Class clazz)\n
+    createControlNode(final String s, final Class clazz)\n
+    createControlNode(final String s, final Class clazz)\n
+    createControlNode(final String s, final Class clazz)\n
+    createControlNode(final String s, final Class clazz)\n
+    createControlNode(final String s, final Class clazz)\n
+    createControlNode(final String s, final Class clazz)\n
+    createControlNode(final String s, final Class clazz)\n
     '''
 def createForm():
-    '''public IlvForm createForm()
+    '''returns IlvForm\n\n
+    createForm()\n
     '''

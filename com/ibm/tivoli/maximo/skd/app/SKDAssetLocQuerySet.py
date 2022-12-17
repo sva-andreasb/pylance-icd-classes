@@ -1,3 +1,4 @@
-def SKDAssetLocQuerySet():
-    '''public SKDAssetLocQuerySet(final MboServerInterface ms)
+def ():
+    '''returns SKDAssetLocQuerySet\n\n
+    (final MboServerInterface ms)\n
     '''

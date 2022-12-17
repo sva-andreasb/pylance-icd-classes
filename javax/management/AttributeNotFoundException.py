@@ -1,4 +1,5 @@
-def AttributeNotFoundException():
-    '''public AttributeNotFoundException()
-    public AttributeNotFoundException(final String s)
+def ():
+    '''returns AttributeNotFoundException\n\n
+    ()\n
+    (final String s)\n
     '''

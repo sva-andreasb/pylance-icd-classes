@@ -1,9 +1,8 @@
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def append():
-    '''public void append(LogEvent event)
-    '''
-def createAppender():
-    '''public static RewriteAppender createAppender(@PluginAttribute("name") final String name, @PluginAttribute("ignoreExceptions") final String ignore, @PluginElement("AppenderRef") final AppenderRef[] appenderRefs, @PluginConfiguration final Configuration config, @PluginElement("RewritePolicy") final RewritePolicy rewritePolicy, @PluginElement("Filter") final Filter filter)
+    '''returns None\n\n
+    append(LogEvent event)\n
     '''

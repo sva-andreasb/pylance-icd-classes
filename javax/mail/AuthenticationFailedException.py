@@ -1,4 +1,5 @@
-def AuthenticationFailedException():
-    '''public AuthenticationFailedException()
-    public AuthenticationFailedException(final String message)
+def ():
+    '''returns AuthenticationFailedException\n\n
+    ()\n
+    (final String message)\n
     '''

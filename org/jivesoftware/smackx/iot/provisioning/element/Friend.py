@@ -1,20 +1,22 @@
 ELEMENT = "String  \"friend\""
 NAMESPACE = "String  \"urn:xmpp:iot:provisioning\""
-def Friend():
-    '''public Friend(final BareJid friend)
+def ():
+    '''returns Friend\n\n
+    (final BareJid friend)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getFriend():
-    '''public BareJid getFriend()
-    '''
-def from():
-    '''public static Friend from(final Message message)
+    '''returns BareJid\n\n
+    getFriend()\n
     '''

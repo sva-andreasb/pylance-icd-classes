@@ -1,6 +1,8 @@
-def GRCrewAssignmentBean():
-    '''public GRCrewAssignmentBean()
+def ():
+    '''returns GRCrewAssignmentBean\n\n
+    ()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

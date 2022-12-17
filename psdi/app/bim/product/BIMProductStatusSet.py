@@ -1,3 +1,4 @@
-def BIMProductStatusSet():
-    '''public BIMProductStatusSet(final MboServerInterface ms)
+def ():
+    '''returns BIMProductStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

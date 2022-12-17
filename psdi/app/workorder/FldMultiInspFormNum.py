@@ -1,9 +1,12 @@
-def FldMultiInspFormNum():
-    '''public FldMultiInspFormNum(final MboValue mbv)
+def ():
+    '''returns FldMultiInspFormNum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

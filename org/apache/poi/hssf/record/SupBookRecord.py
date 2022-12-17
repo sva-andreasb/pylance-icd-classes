@@ -1,47 +1,50 @@
 sid = "short  430"
-def createInternalReferences():
-    '''public static SupBookRecord createInternalReferences(final short numberOfSheets)
-    '''
-def createAddInFunctions():
-    '''public static SupBookRecord createAddInFunctions()
-    '''
-def createExternalReferences():
-    '''public static SupBookRecord createExternalReferences(final String url, final String[] sheetNames)
-    '''
-def SupBookRecord():
-    '''public SupBookRecord(final String url, final String[] sheetNames)
-    public SupBookRecord(final RecordInputStream in)
+def ():
+    '''returns SupBookRecord\n\n
+    (final String url, final String[] sheetNames)\n
+    (final RecordInputStream in)\n
     '''
 def isExternalReferences():
-    '''public boolean isExternalReferences()
+    '''returns boolean\n\n
+    isExternalReferences()\n
     '''
 def isInternalReferences():
-    '''public boolean isInternalReferences()
+    '''returns boolean\n\n
+    isInternalReferences()\n
     '''
 def isAddInFunctions():
-    '''public boolean isAddInFunctions()
+    '''returns boolean\n\n
+    isAddInFunctions()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def setNumberOfSheets():
-    '''public void setNumberOfSheets(final short number)
+    '''returns None\n\n
+    setNumberOfSheets(final short number)\n
     '''
 def getNumberOfSheets():
-    '''public short getNumberOfSheets()
+    '''returns short\n\n
+    getNumberOfSheets()\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def getSheetNames():
-    '''public String[] getSheetNames()
+    '''returns String[]\n\n
+    getSheetNames()\n
     '''
 def setURL():
-    '''public void setURL(final String pUrl)
+    '''returns None\n\n
+    setURL(final String pUrl)\n
     '''

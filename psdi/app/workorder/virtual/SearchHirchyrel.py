@@ -1,9 +1,12 @@
-def SearchHirchyrel():
-    '''public SearchHirchyrel(final MboSet ms)
+def ():
+    '''returns SearchHirchyrel\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setShowFlags():
-    '''public void setShowFlags()
+    '''returns None\n\n
+    setShowFlags()\n
     '''

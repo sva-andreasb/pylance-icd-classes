@@ -1,3 +1,4 @@
-def WFInstanceSet():
-    '''public WFInstanceSet(final MboServerInterface ms)
+def ():
+    '''returns WFInstanceSet\n\n
+    (final MboServerInterface ms)\n
     '''

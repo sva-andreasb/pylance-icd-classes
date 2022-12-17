@@ -11,17 +11,22 @@ ASK_FOR_COMMIT = "int  109"
 TITLE_CHANGED = "int  110"
 WIZARD_PANEL_LAST = "int  110"
 def getWizardPanel():
-    '''public IlvWizardPanel getWizardPanel()
+    '''returns IlvWizardPanel\n\n
+    getWizardPanel()\n
     '''
 def getID():
-    '''public int getID()
+    '''returns int\n\n
+    getID()\n
     '''
 def getWizardPage():
-    '''public IlvWizardPage getWizardPage()
+    '''returns IlvWizardPage\n\n
+    getWizardPage()\n
     '''
 def getOppositeWizardPage():
-    '''public IlvWizardPage getOppositeWizardPage()
+    '''returns IlvWizardPage\n\n
+    getOppositeWizardPage()\n
     '''
 def getError():
-    '''public IlvWizardError getError()
+    '''returns IlvWizardError\n\n
+    getError()\n
     '''

@@ -1,15 +1,20 @@
-def RtfChunk():
-    '''public RtfChunk(final RtfDocument doc, final Chunk chunk)
+def ():
+    '''returns RtfChunk\n\n
+    (final RtfDocument doc, final Chunk chunk)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''
 def setRtfDocument():
-    '''public void setRtfDocument(final RtfDocument doc)
+    '''returns None\n\n
+    setRtfDocument(final RtfDocument doc)\n
     '''
 def setSoftLineBreaks():
-    '''public void setSoftLineBreaks(final boolean softLineBreaks)
+    '''returns None\n\n
+    setSoftLineBreaks(final boolean softLineBreaks)\n
     '''
 def getSoftLineBreaks():
-    '''public boolean getSoftLineBreaks()
+    '''returns boolean\n\n
+    getSoftLineBreaks()\n
     '''

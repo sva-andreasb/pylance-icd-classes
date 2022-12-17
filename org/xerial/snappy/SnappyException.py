@@ -1,15 +1,15 @@
-def SnappyException():
-    '''public SnappyException(final int n)
-    public SnappyException(final SnappyErrorCode errorCode)
-    public SnappyException(final SnappyErrorCode errorCode, final Exception cause)
-    public SnappyException(final SnappyErrorCode errorCode, final String message)
+def ():
+    '''returns SnappyException\n\n
+    (final int n)\n
+    (final SnappyErrorCode errorCode)\n
+    (final SnappyErrorCode errorCode, final Exception cause)\n
+    (final SnappyErrorCode errorCode, final String message)\n
     '''
 def getErrorCode():
-    '''public SnappyErrorCode getErrorCode()
-    '''
-def throwException():
-    '''public static void throwException(final int n)
+    '''returns SnappyErrorCode\n\n
+    getErrorCode()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

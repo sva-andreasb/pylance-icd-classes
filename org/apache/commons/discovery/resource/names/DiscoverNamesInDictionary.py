@@ -1,23 +1,26 @@
-def setLog():
-    '''public static void setLog(final Log _log)
-    '''
-def DiscoverNamesInDictionary():
-    '''public DiscoverNamesInDictionary()
-    public DiscoverNamesInDictionary(final Dictionary dictionary)
+def ():
+    '''returns DiscoverNamesInDictionary\n\n
+    ()\n
+    (final Dictionary dictionary)\n
     '''
 def setDictionary():
-    '''public void setDictionary(final Dictionary table)
+    '''returns None\n\n
+    setDictionary(final Dictionary table)\n
     '''
 def addResource():
-    '''public void addResource(final String resourceName, final String resource)
-    public void addResource(final String resourceName, final String[] resources)
+    '''returns None\n\n
+    addResource(final String resourceName, final String resource)\n
+    addResource(final String resourceName, final String[] resources)\n
     '''
 def findResourceNames():
-    '''public ResourceNameIterator findResourceNames(final String resourceName)
+    '''returns ResourceNameIterator\n\n
+    findResourceNames(final String resourceName)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def nextResourceName():
-    '''public String nextResourceName()
+    '''returns String\n\n
+    nextResourceName()\n
     '''

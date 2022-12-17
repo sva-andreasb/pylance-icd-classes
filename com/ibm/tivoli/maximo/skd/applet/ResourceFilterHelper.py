@@ -1,35 +1,46 @@
 EVENT_FILTER_REFRESHED = "String  \"filter_refreshed\""
-def ResourceFilterHelper():
-    '''public ResourceFilterHelper(final AbstractResourceView view, final IlvScheduleChart resourceChart, final CraftResourceFilter filter, final ResourceActivityFilter activityFilter)
+def ():
+    '''returns ResourceFilterHelper\n\n
+    (final AbstractResourceView view, final IlvScheduleChart resourceChart, final CraftResourceFilter filter, final ResourceActivityFilter activityFilter)\n
     '''
 def handleMessage():
-    '''public void handleMessage(final String msgId, final Object... args)
-    public void handleMessage(final String msgId, final Object... args)
+    '''returns None\n\n
+    handleMessage(final String msgId, final Object... args)\n
+    handleMessage(final String msgId, final Object... args)\n
     '''
 def addFilterRefreshedEvent():
-    '''public void addFilterRefreshedEvent(final SimpleMessageBus.MessageHandler handler)
+    '''returns None\n\n
+    addFilterRefreshedEvent(final SimpleMessageBus.MessageHandler handler)\n
     '''
 def setSuspended():
-    '''public void setSuspended(final boolean suspended)
+    '''returns None\n\n
+    setSuspended(final boolean suspended)\n
     '''
 def visit():
-    '''public void visit(final IlvActivity item, final IlvGanttChart chart, final Void nostate)
+    '''returns None\n\n
+    visit(final IlvActivity item, final IlvGanttChart chart, final Void nostate)\n
     '''
 def activate():
-    '''public void activate()
+    '''returns None\n\n
+    activate()\n
     '''
 def deactivate():
-    '''public void deactivate()
+    '''returns None\n\n
+    deactivate()\n
     '''
 def setFilter():
-    '''public void setFilter(final CraftResourceFilter resourceFilter)
+    '''returns None\n\n
+    setFilter(final CraftResourceFilter resourceFilter)\n
     '''
 def setActivityFilter():
-    '''public void setActivityFilter(final ResourceActivityFilter activityFilter)
+    '''returns None\n\n
+    setActivityFilter(final ResourceActivityFilter activityFilter)\n
     '''
 def getFilter():
-    '''public CraftResourceFilter getFilter()
+    '''returns CraftResourceFilter\n\n
+    getFilter()\n
     '''
 def getActivityFilter():
-    '''public ResourceActivityFilter getActivityFilter()
+    '''returns ResourceActivityFilter\n\n
+    getActivityFilter()\n
     '''

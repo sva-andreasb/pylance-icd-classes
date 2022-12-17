@@ -1,9 +1,12 @@
 def getPlugins():
-    '''public String getPlugins()
+    '''returns String\n\n
+    getPlugins()\n
     '''
 def getExtraPlugins():
-    '''public String getExtraPlugins()
+    '''returns String\n\n
+    getExtraPlugins()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''

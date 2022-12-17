@@ -1,9 +1,12 @@
-def QNameDeserializer():
-    '''public QNameDeserializer(final Class javaType, final QName xmlType)
+def ():
+    '''returns QNameDeserializer\n\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def makeValue():
-    '''public Object makeValue(String source)
+    '''returns Object\n\n
+    makeValue(String source)\n
     '''
 def onStartElement():
-    '''public void onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''

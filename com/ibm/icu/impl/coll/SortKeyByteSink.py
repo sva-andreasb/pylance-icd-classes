@@ -1,19 +1,25 @@
-def SortKeyByteSink():
-    '''public SortKeyByteSink(final byte[] dest)
+def ():
+    '''returns SortKeyByteSink\n\n
+    (final byte[] dest)\n
     '''
 def setBufferAndAppended():
-    '''public void setBufferAndAppended(final byte[] dest, final int app)
+    '''returns None\n\n
+    setBufferAndAppended(final byte[] dest, final int app)\n
     '''
 def Append():
-    '''public void Append(final byte[] bytes, final int n)
-    public void Append(final int b)
+    '''returns None\n\n
+    Append(final byte[] bytes, final int n)\n
+    Append(final int b)\n
     '''
 def NumberOfBytesAppended():
-    '''public int NumberOfBytesAppended()
+    '''returns int\n\n
+    NumberOfBytesAppended()\n
     '''
 def GetRemainingCapacity():
-    '''public int GetRemainingCapacity()
+    '''returns int\n\n
+    GetRemainingCapacity()\n
     '''
 def Overflowed():
-    '''public boolean Overflowed()
+    '''returns boolean\n\n
+    Overflowed()\n
     '''

@@ -1,7 +1,9 @@
-def ActivitiesInsertedEvent():
-    '''public ActivitiesInsertedEvent(final IlvGanttModel ilvGanttModel, final IlvActivity ilvActivity, final int[] array)
-    public ActivitiesInsertedEvent(final IlvGanttModel ilvGanttModel, final IlvActivity ilvActivity, final List<? extends IlvActivity> list)
+def ():
+    '''returns ActivitiesInsertedEvent\n\n
+    (final IlvGanttModel ilvGanttModel, final IlvActivity ilvActivity, final int[] array)\n
+    (final IlvGanttModel ilvGanttModel, final IlvActivity ilvActivity, final List<? extends IlvActivity> list)\n
     '''
 def getActivity():
-    '''public IlvActivity getActivity()
+    '''returns IlvActivity\n\n
+    getActivity()\n
     '''

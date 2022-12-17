@@ -1,6 +1,8 @@
-def FldWarrantyContractNum():
-    '''public FldWarrantyContractNum(final MboValue mbv)
+def ():
+    '''returns FldWarrantyContractNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

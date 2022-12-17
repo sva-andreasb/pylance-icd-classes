@@ -1,7 +1,9 @@
-def InvalidParameterException():
-    '''public InvalidParameterException(final Object[] params, final OperationException e)
-    public InvalidParameterException(final String parameter, final String value)
+def ():
+    '''returns InvalidParameterException\n\n
+    (final Object[] params, final OperationException e)\n
+    (final String parameter, final String value)\n
     '''
 def getRestStatusCode():
-    '''public int getRestStatusCode()
+    '''returns int\n\n
+    getRestStatusCode()\n
     '''

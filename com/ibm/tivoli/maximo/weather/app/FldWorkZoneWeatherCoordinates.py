@@ -1,6 +1,8 @@
-def FldWorkZoneWeatherCoordinates():
-    '''public FldWorkZoneWeatherCoordinates(final MboValue mbv)
+def ():
+    '''returns FldWorkZoneWeatherCoordinates\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

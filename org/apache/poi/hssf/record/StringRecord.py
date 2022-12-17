@@ -1,20 +1,26 @@
 sid = "short  519"
-def StringRecord():
-    '''public StringRecord()
-    public StringRecord(final RecordInputStream in)
+def ():
+    '''returns StringRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def setString():
-    '''public void setString(final String string)
+    '''returns None\n\n
+    setString(final String string)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

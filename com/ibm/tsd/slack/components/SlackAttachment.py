@@ -1,78 +1,104 @@
 def setColor():
-    '''public void setColor(final String color)
+    '''returns None\n\n
+    setColor(final String color)\n
     '''
 def setPretext():
-    '''public void setPretext(final String pretext)
+    '''returns None\n\n
+    setPretext(final String pretext)\n
     '''
 def setAuthorName():
-    '''public void setAuthorName(final String authorName)
+    '''returns None\n\n
+    setAuthorName(final String authorName)\n
     '''
 def setAuthorLink():
-    '''public void setAuthorLink(final String authorLink)
+    '''returns None\n\n
+    setAuthorLink(final String authorLink)\n
     '''
 def setAuthorIcon():
-    '''public void setAuthorIcon(final String authorIcon)
+    '''returns None\n\n
+    setAuthorIcon(final String authorIcon)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setTitleLink():
-    '''public void setTitleLink(final String titleLink)
+    '''returns None\n\n
+    setTitleLink(final String titleLink)\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def setFields():
-    '''public void setFields(final JSONArray fields)
+    '''returns None\n\n
+    setFields(final JSONArray fields)\n
     '''
 def setThumUrl():
-    '''public void setThumUrl(final String thumUrl)
+    '''returns None\n\n
+    setThumUrl(final String thumUrl)\n
     '''
 def setFooter():
-    '''public void setFooter(final String footer)
+    '''returns None\n\n
+    setFooter(final String footer)\n
     '''
 def setFooterIcon():
-    '''public void setFooterIcon(final String footerIcon)
+    '''returns None\n\n
+    setFooterIcon(final String footerIcon)\n
     '''
 def setTS():
-    '''public void setTS(final int ts)
+    '''returns None\n\n
+    setTS(final int ts)\n
     '''
 def getColor():
-    '''public String getColor()
+    '''returns String\n\n
+    getColor()\n
     '''
 def getPretext():
-    '''public String getPretext()
+    '''returns String\n\n
+    getPretext()\n
     '''
 def getAuthorName():
-    '''public String getAuthorName()
+    '''returns String\n\n
+    getAuthorName()\n
     '''
 def getAuthorLink():
-    '''public String getAuthorLink()
+    '''returns String\n\n
+    getAuthorLink()\n
     '''
 def getAuthorIcon():
-    '''public String getAuthorIcon()
+    '''returns String\n\n
+    getAuthorIcon()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getTitleLink():
-    '''public String getTitleLink()
+    '''returns String\n\n
+    getTitleLink()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getFields():
-    '''public String getFields()
+    '''returns String\n\n
+    getFields()\n
     '''
 def getThumUrl():
-    '''public String getThumUrl()
+    '''returns String\n\n
+    getThumUrl()\n
     '''
 def getFooter():
-    '''public String getFooter()
+    '''returns String\n\n
+    getFooter()\n
     '''
 def getFooterIcon():
-    '''public String getFooterIcon()
+    '''returns String\n\n
+    getFooterIcon()\n
     '''
 def getTS():
-    '''public String getTS()
+    '''returns String\n\n
+    getTS()\n
     '''

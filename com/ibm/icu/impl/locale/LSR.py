@@ -6,21 +6,23 @@ EXPLICIT_REGION = "int  1"
 IMPLICIT_LSR = "int  0"
 DONT_CARE_FLAGS = "int  0"
 DEBUG_OUTPUT = "boolean  false"
-def LSR():
-    '''public LSR(final String language, final String script, final String region, final int flags)
-    '''
-def indexForRegion():
-    '''public static final int indexForRegion(final String region)
+def ():
+    '''returns LSR\n\n
+    (final String language, final String script, final String region, final int flags)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isEquivalentTo():
-    '''public boolean isEquivalentTo(final LSR other)
+    '''returns boolean\n\n
+    isEquivalentTo(final LSR other)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

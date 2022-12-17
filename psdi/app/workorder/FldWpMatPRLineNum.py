@@ -1,3 +1,4 @@
-def FldWpMatPRLineNum():
-    '''public FldWpMatPRLineNum(final MboValue mbv)
+def ():
+    '''returns FldWpMatPRLineNum\n\n
+    (final MboValue mbv)\n
     '''

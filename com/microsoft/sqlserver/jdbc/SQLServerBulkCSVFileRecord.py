@@ -1,15 +1,19 @@
-def SQLServerBulkCSVFileRecord():
-    '''public SQLServerBulkCSVFileRecord(final String fileToParse, final String encoding, final String delimiter, final boolean firstLineIsColumnNames)
-    public SQLServerBulkCSVFileRecord(final InputStream fileToParse, final String encoding, final String delimiter, final boolean firstLineIsColumnNames)
-    public SQLServerBulkCSVFileRecord(final String fileToParse, final String encoding, final boolean firstLineIsColumnNames)
-    public SQLServerBulkCSVFileRecord(final String fileToParse, final boolean firstLineIsColumnNames)
+def ():
+    '''returns SQLServerBulkCSVFileRecord\n\n
+    (final String fileToParse, final String encoding, final String delimiter, final boolean firstLineIsColumnNames)\n
+    (final InputStream fileToParse, final String encoding, final String delimiter, final boolean firstLineIsColumnNames)\n
+    (final String fileToParse, final String encoding, final boolean firstLineIsColumnNames)\n
+    (final String fileToParse, final boolean firstLineIsColumnNames)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getRowData():
-    '''public Object[] getRowData()
+    '''returns Object[]\n\n
+    getRowData()\n
     '''
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''

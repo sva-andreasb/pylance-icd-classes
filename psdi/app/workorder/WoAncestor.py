@@ -1,3 +1,4 @@
-def WoAncestor():
-    '''public WoAncestor(final MboSet ms)
+def ():
+    '''returns WoAncestor\n\n
+    (final MboSet ms)\n
     '''

@@ -1,10 +1,13 @@
-def ConfigurationJdoKey():
-    '''public ConfigurationJdoKey()
-    public ConfigurationJdoKey(final String pk)
+def ():
+    '''returns ConfigurationJdoKey\n\n
+    ()\n
+    (final String pk)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

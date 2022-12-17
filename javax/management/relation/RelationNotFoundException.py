@@ -1,4 +1,5 @@
-def RelationNotFoundException():
-    '''public RelationNotFoundException()
-    public RelationNotFoundException(final String s)
+def ():
+    '''returns RelationNotFoundException\n\n
+    ()\n
+    (final String s)\n
     '''

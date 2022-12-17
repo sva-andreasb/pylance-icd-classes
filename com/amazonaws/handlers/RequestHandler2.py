@@ -1,18 +1,20 @@
 def beforeMarshalling():
-    '''public AmazonWebServiceRequest beforeMarshalling(final AmazonWebServiceRequest request)
+    '''returns AmazonWebServiceRequest\n\n
+    beforeMarshalling(final AmazonWebServiceRequest request)\n
     '''
 def beforeRequest():
-    '''public void beforeRequest(final Request<?> request)
+    '''returns None\n\n
+    beforeRequest(final Request<?> request)\n
     '''
 def beforeUnmarshalling():
-    '''public HttpResponse beforeUnmarshalling(final Request<?> request, final HttpResponse httpResponse)
+    '''returns HttpResponse\n\n
+    beforeUnmarshalling(final Request<?> request, final HttpResponse httpResponse)\n
     '''
 def afterResponse():
-    '''public void afterResponse(final Request<?> request, final Response<?> response)
+    '''returns None\n\n
+    afterResponse(final Request<?> request, final Response<?> response)\n
     '''
 def afterError():
-    '''public void afterError(final Request<?> request, final Response<?> response, final Exception e)
-    '''
-def adapt():
-    '''public static RequestHandler2 adapt(final RequestHandler old)
+    '''returns None\n\n
+    afterError(final Request<?> request, final Response<?> response, final Exception e)\n
     '''

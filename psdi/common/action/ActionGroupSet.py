@@ -1,18 +1,24 @@
-def ActionGroupSet():
-    '''public ActionGroupSet(final MboServerInterface ms)
+def ():
+    '''returns ActionGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def initSequence():
-    '''public void initSequence()
+    '''returns None\n\n
+    initSequence()\n
     '''
 def getLastSequence():
-    '''public int getLastSequence()
+    '''returns int\n\n
+    getLastSequence()\n
     '''
 def setLastSequence():
-    '''public int setLastSequence(final int sequence)
+    '''returns int\n\n
+    setLastSequence(final int sequence)\n
     '''
 def getMboSetData():
-    '''public MboSetData getMboSetData(final int row, final int count, final String[] attributes)
+    '''returns MboSetData\n\n
+    getMboSetData(final int row, final int count, final String[] attributes)\n
     '''

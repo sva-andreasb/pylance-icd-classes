@@ -1,13 +1,17 @@
-def EnumDeserializer():
-    '''public EnumDeserializer(final EnumResolver byNameResolver, final Boolean caseInsensitive)
-    public EnumDeserializer(final EnumResolver byNameResolver)
+def ():
+    '''returns EnumDeserializer\n\n
+    (final EnumResolver byNameResolver, final Boolean caseInsensitive)\n
+    (final EnumResolver byNameResolver)\n
     '''
 def withResolved():
-    '''public EnumDeserializer withResolved(final Boolean caseInsensitive)
+    '''returns EnumDeserializer\n\n
+    withResolved(final Boolean caseInsensitive)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def deserialize():
-    '''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
     '''

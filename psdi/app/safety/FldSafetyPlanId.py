@@ -1,3 +1,4 @@
-def FldSafetyPlanId():
-    '''public FldSafetyPlanId(final MboValue mbv)
+def ():
+    '''returns FldSafetyPlanId\n\n
+    (final MboValue mbv)\n
     '''

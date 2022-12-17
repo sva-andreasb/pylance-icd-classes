@@ -1,12 +1,16 @@
-def PermutationIterator():
-    '''public PermutationIterator(final Collection<? extends E> coll)
+def ():
+    '''returns PermutationIterator\n\n
+    (final Collection<? extends E> coll)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public List<E> next()
+    '''returns List<E>\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

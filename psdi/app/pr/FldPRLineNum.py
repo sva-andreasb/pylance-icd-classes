@@ -1,7 +1,9 @@
-def FldPRLineNum():
-    '''public FldPRLineNum(final MboValue mbv, final String columnName)
-    public FldPRLineNum(final MboValue mbv)
+def ():
+    '''returns FldPRLineNum\n\n
+    (final MboValue mbv, final String columnName)\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

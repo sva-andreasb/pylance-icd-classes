@@ -1,27 +1,36 @@
 def isRootRequest():
-    '''public boolean isRootRequest()
+    '''returns boolean\n\n
+    isRootRequest()\n
     '''
 def setRootRequest():
-    '''public void setRootRequest(final boolean rootRequest)
+    '''returns None\n\n
+    setRootRequest(final boolean rootRequest)\n
     '''
-def ResourceContext():
-    '''public ResourceContext(final List<String> resourcePath, final BusResource parentResource)
+def ():
+    '''returns ResourceContext\n\n
+    (final List<String> resourcePath, final BusResource parentResource)\n
     '''
 def setParentResource():
-    '''public void setParentResource(final BusResource parentResource)
+    '''returns None\n\n
+    setParentResource(final BusResource parentResource)\n
     '''
 def getThisContext():
-    '''public String getThisContext()
+    '''returns String\n\n
+    getThisContext()\n
     '''
 def getAbsolutePath():
-    '''public List<String> getAbsolutePath()
+    '''returns List<String>\n\n
+    getAbsolutePath()\n
     '''
 def getResourcePath():
-    '''public List<String> getResourcePath()
+    '''returns List<String>\n\n
+    getResourcePath()\n
     '''
 def getParentResource():
-    '''public BusResource getParentResource(final BusRequest request)
+    '''returns BusResource\n\n
+    getParentResource(final BusRequest request)\n
     '''
 def getParentContext():
-    '''public ResourceContext getParentContext()
+    '''returns ResourceContext\n\n
+    getParentContext()\n
     '''

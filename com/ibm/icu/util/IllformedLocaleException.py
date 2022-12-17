@@ -1,8 +1,9 @@
-def IllformedLocaleException():
-    '''public IllformedLocaleException()
-    public IllformedLocaleException(final String message)
-    public IllformedLocaleException(final String message, final int errorIndex)
+def ():
+    '''returns IllformedLocaleException\n\n
+    (final String msg)\n
+    (final String msg, final int errIdx)\n
     '''
 def getErrorIndex():
-    '''public int getErrorIndex()
+    '''returns int\n\n
+    getErrorIndex()\n
     '''

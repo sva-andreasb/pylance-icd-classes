@@ -1,6 +1,8 @@
-def DPAMManufacturerSet():
-    '''public DPAMManufacturerSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMManufacturerSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMaxAppsWhere():
-    '''public String getMaxAppsWhere()
+    '''returns String\n\n
+    getMaxAppsWhere()\n
     '''

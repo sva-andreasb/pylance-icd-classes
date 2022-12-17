@@ -1,6 +1,7 @@
-def KafkaException():
-    '''public KafkaException(final String message, final Throwable cause)
-    public KafkaException(final String message)
-    public KafkaException(final Throwable cause)
-    public KafkaException()
+def ():
+    '''returns KafkaException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
+    ()\n
     '''

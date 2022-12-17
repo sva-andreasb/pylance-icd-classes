@@ -1,39 +1,22 @@
 def setQueryManager():
-    '''public void setQueryManager(final IOslcQueryManager queryManager)
+    '''returns None\n\n
+    setQueryManager(final IOslcQueryManager queryManager)\n
     '''
-def searchTerms():
-    '''public final void searchTerms()
-    '''
-def search_terms():
-    '''public final void search_terms()
-    '''
-def string_esc():
-    '''public final void string_esc()
-    '''
-def OslcSearchTermsParser():
-    '''public OslcSearchTermsParser(final InputStream stream)
-    public OslcSearchTermsParser(final InputStream stream, final String encoding)
-    public OslcSearchTermsParser(final Reader stream)
-    public OslcSearchTermsParser(final OslcSearchTermsParserTokenManager tm)
+def ():
+    '''returns OslcSearchTermsParser\n\n
+    (final InputStream stream)\n
+    (final InputStream stream, final String encoding)\n
+    (final Reader stream)\n
+    (final OslcSearchTermsParserTokenManager tm)\n
     '''
 def ReInit():
-    '''public void ReInit(final InputStream stream)
-    public void ReInit(final InputStream stream, final String encoding)
-    public void ReInit(final Reader stream)
-    public void ReInit(final OslcSearchTermsParserTokenManager tm)
-    '''
-def getNextToken():
-    '''public final Token getNextToken()
-    '''
-def getToken():
-    '''public final Token getToken(final int index)
+    '''returns None\n\n
+    ReInit(final InputStream stream)\n
+    ReInit(final InputStream stream, final String encoding)\n
+    ReInit(final Reader stream)\n
+    ReInit(final OslcSearchTermsParserTokenManager tm)\n
     '''
 def generateParseException():
-    '''public ParseException generateParseException()
-    '''
-def enable_tracing():
-    '''public final void enable_tracing()
-    '''
-def disable_tracing():
-    '''public final void disable_tracing()
+    '''returns ParseException\n\n
+    generateParseException()\n
     '''

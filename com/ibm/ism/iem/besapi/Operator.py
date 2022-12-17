@@ -1,78 +1,104 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
     '''
 def getID():
-    '''public BigInteger getID()
+    '''returns BigInteger\n\n
+    getID()\n
     '''
 def setID():
-    '''public void setID(final BigInteger value)
+    '''returns None\n\n
+    setID(final BigInteger value)\n
     '''
 def getLastLoginTime():
-    '''public String getLastLoginTime()
+    '''returns String\n\n
+    getLastLoginTime()\n
     '''
 def setLastLoginTime():
-    '''public void setLastLoginTime(final String value)
+    '''returns None\n\n
+    setLastLoginTime(final String value)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String value)
+    '''returns None\n\n
+    setPassword(final String value)\n
     '''
 def getLDAPServerID():
-    '''public BigInteger getLDAPServerID()
+    '''returns BigInteger\n\n
+    getLDAPServerID()\n
     '''
 def setLDAPServerID():
-    '''public void setLDAPServerID(final BigInteger value)
+    '''returns None\n\n
+    setLDAPServerID(final BigInteger value)\n
     '''
 def getLDAPDN():
-    '''public String getLDAPDN()
+    '''returns String\n\n
+    getLDAPDN()\n
     '''
 def setLDAPDN():
-    '''public void setLDAPDN(final String value)
+    '''returns None\n\n
+    setLDAPDN(final String value)\n
     '''
 def isMasterOperator():
-    '''public Boolean isMasterOperator()
+    '''returns Boolean\n\n
+    isMasterOperator()\n
     '''
 def setMasterOperator():
-    '''public void setMasterOperator(final Boolean value)
+    '''returns None\n\n
+    setMasterOperator(final Boolean value)\n
     '''
 def isCustomContent():
-    '''public Boolean isCustomContent()
+    '''returns Boolean\n\n
+    isCustomContent()\n
     '''
 def setCustomContent():
-    '''public void setCustomContent(final Boolean value)
+    '''returns None\n\n
+    setCustomContent(final Boolean value)\n
     '''
 def isShowOtherActions():
-    '''public Boolean isShowOtherActions()
+    '''returns Boolean\n\n
+    isShowOtherActions()\n
     '''
 def setShowOtherActions():
-    '''public void setShowOtherActions(final Boolean value)
+    '''returns None\n\n
+    setShowOtherActions(final Boolean value)\n
     '''
 def getLoginPermission():
-    '''public String getLoginPermission()
+    '''returns String\n\n
+    getLoginPermission()\n
     '''
 def setLoginPermission():
-    '''public void setLoginPermission(final String value)
+    '''returns None\n\n
+    setLoginPermission(final String value)\n
     '''
 def getUnmanagedAssetPrivilege():
-    '''public String getUnmanagedAssetPrivilege()
+    '''returns String\n\n
+    getUnmanagedAssetPrivilege()\n
     '''
 def setUnmanagedAssetPrivilege():
-    '''public void setUnmanagedAssetPrivilege(final String value)
+    '''returns None\n\n
+    setUnmanagedAssetPrivilege(final String value)\n
     '''
 def getApproverRoleID():
-    '''public BigInteger getApproverRoleID()
+    '''returns BigInteger\n\n
+    getApproverRoleID()\n
     '''
 def setApproverRoleID():
-    '''public void setApproverRoleID(final BigInteger value)
+    '''returns None\n\n
+    setApproverRoleID(final BigInteger value)\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String value)
+    '''returns None\n\n
+    setResource(final String value)\n
     '''

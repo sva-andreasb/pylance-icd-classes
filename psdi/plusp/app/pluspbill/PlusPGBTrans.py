@@ -1,76 +1,101 @@
-def PlusPGBTrans():
-    '''public PlusPGBTrans(final MboSet ms)
+def ():
+    '''returns PlusPGBTrans\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long n)
+    '''returns None\n\n
+    delete(final long n)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def copy():
-    '''public MboRemote copy()
+    '''returns MboRemote\n\n
+    copy()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String anotherString, final String val)
+    '''returns None\n\n
+    propagateKeyValue(final String anotherString, final String val)\n
     '''
 def isRecalculateTotals():
-    '''public boolean isRecalculateTotals()
+    '''returns boolean\n\n
+    isRecalculateTotals()\n
     '''
 def setRecalculateTotals():
-    '''public void setRecalculateTotals(final boolean recalculateTotals)
+    '''returns None\n\n
+    setRecalculateTotals(final boolean recalculateTotals)\n
     '''
 def getLineOwer():
-    '''public MboRemote getLineOwer()
+    '''returns MboRemote\n\n
+    getLineOwer()\n
     '''
 def applyPS():
-    '''public void applyPS()
+    '''returns None\n\n
+    applyPS()\n
     '''
 def deselectPS():
-    '''public void deselectPS()
-    public void deselectPS(final MboRemote mbo, final MboRemote mboRemote)
+    '''returns None\n\n
+    deselectPS()\n
+    deselectPS(final MboRemote mbo, final MboRemote mboRemote)\n
     '''
 def updateLinePrice():
-    '''public void updateLinePrice()
+    '''returns None\n\n
+    updateLinePrice()\n
     '''
 def getChild():
-    '''public MboRemote getChild(final MboSetRemote mboSetRemote)
+    '''returns MboRemote\n\n
+    getChild(final MboSetRemote mboSetRemote)\n
     '''
 def hasChild():
-    '''public boolean hasChild(final MboSetRemote mboSetRemote)
+    '''returns boolean\n\n
+    hasChild(final MboSetRemote mboSetRemote)\n
     '''
 def getParent():
-    '''public MboRemote getParent(final MboSetRemote mboSetRemote)
+    '''returns MboRemote\n\n
+    getParent(final MboSetRemote mboSetRemote)\n
     '''
 def hasParent():
-    '''public boolean hasParent(final MboSetRemote mboSetRemote)
+    '''returns boolean\n\n
+    hasParent(final MboSetRemote mboSetRemote)\n
     '''
 def setFieldsReadOnly():
-    '''public void setFieldsReadOnly(final boolean b)
+    '''returns None\n\n
+    setFieldsReadOnly(final boolean b)\n
     '''
 def isPossibleToDelete():
-    '''public boolean isPossibleToDelete()
+    '''returns boolean\n\n
+    isPossibleToDelete()\n
     '''
 def setSaleTypeFieldFlags():
-    '''public void setSaleTypeFieldFlags()
+    '''returns None\n\n
+    setSaleTypeFieldFlags()\n
     '''
 def setRentTypeFieldFlags():
-    '''public void setRentTypeFieldFlags()
+    '''returns None\n\n
+    setRentTypeFieldFlags()\n
     '''
 def setQuoteRelatedFieldFlags():
-    '''public void setQuoteRelatedFieldFlags(final String s)
+    '''returns None\n\n
+    setQuoteRelatedFieldFlags(final String s)\n
     '''
 def setLinePriceBasedOnRent():
-    '''public boolean setLinePriceBasedOnRent()
+    '''returns boolean\n\n
+    setLinePriceBasedOnRent()\n
     '''

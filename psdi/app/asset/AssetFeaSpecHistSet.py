@@ -1,3 +1,4 @@
-def AssetFeaSpecHistSet():
-    '''public AssetFeaSpecHistSet(final MboServerInterface ms)
+def ():
+    '''returns AssetFeaSpecHistSet\n\n
+    (final MboServerInterface ms)\n
     '''

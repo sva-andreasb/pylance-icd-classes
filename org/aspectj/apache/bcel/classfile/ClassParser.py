@@ -1,8 +1,10 @@
-def ClassParser():
-    '''public ClassParser(final InputStream file, final String filename)
-    public ClassParser(final ByteArrayInputStream baos, final String filename)
-    public ClassParser(final String file_name)
+def ():
+    '''returns ClassParser\n\n
+    (final InputStream file, final String filename)\n
+    (final ByteArrayInputStream baos, final String filename)\n
+    (final String file_name)\n
     '''
 def parse():
-    '''public JavaClass parse()
+    '''returns JavaClass\n\n
+    parse()\n
     '''

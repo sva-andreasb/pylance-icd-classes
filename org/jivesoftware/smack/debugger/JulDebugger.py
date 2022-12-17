@@ -1,3 +1,4 @@
-def JulDebugger():
-    '''public JulDebugger(final XMPPConnection connection)
+def ():
+    '''returns JulDebugger\n\n
+    (final XMPPConnection connection)\n
     '''

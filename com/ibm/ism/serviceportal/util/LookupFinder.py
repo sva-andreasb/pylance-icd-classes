@@ -1,15 +1,20 @@
-def LookupFinder():
-    '''public LookupFinder(final String lookup)
+def ():
+    '''returns LookupFinder\n\n
+    (final String lookup)\n
     '''
 def buildLookup():
-    '''public List<LookupData> buildLookup()
+    '''returns List<LookupData>\n\n
+    buildLookup()\n
     '''
 def getWhereClause():
-    '''public String getWhereClause()
+    '''returns String\n\n
+    getWhereClause()\n
     '''
 def buildLookupByApp():
-    '''public List<LookupData> buildLookupByApp(final String app)
+    '''returns List<LookupData>\n\n
+    buildLookupByApp(final String app)\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String qName, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String qName, final Attributes attributes)\n
     '''

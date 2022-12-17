@@ -1,4 +1,5 @@
-def CalendarException():
-    '''public CalendarException(final String message)
-    public CalendarException(final Throwable cause)
+def ():
+    '''returns CalendarException\n\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

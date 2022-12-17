@@ -1,3 +1,4 @@
-def ChatOpsMbo():
-    '''public ChatOpsMbo(final MboSet ms)
+def ():
+    '''returns ChatOpsMbo\n\n
+    (final MboSet ms)\n
     '''

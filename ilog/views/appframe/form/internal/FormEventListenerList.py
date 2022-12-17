@@ -1,16 +1,13 @@
 def getListeners():
-    '''public FormListener[] getListeners(final Class clazz)
+    '''returns FormListener[]\n\n
+    getListeners(final Class clazz)\n
     '''
 def getListenerCount():
-    '''public int getListenerCount()
-    public int getListenerCount(final Class clazz)
+    '''returns int\n\n
+    getListenerCount()\n
+    getListenerCount(final Class clazz)\n
     '''
-def add():
-    '''public synchronized void add(final Class obj, final FormListener obj2, final Object o)
-    '''
-def remove():
-    '''public synchronized Object remove(final Class obj, final FormListener formListener)
-    '''
-def ListenerPair():
-    '''public ListenerPair(final FormListener formListener, final Object deviceListener)
+def ():
+    '''returns ListenerPair\n\n
+    (final FormListener formListener, final Object deviceListener)\n
     '''

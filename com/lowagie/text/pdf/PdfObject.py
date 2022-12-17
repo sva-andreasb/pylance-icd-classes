@@ -11,53 +11,70 @@ NOTHING = "String  \"\""
 TEXT_PDFDOCENCODING = "String  \"PDF\""
 TEXT_UNICODE = "String  \"UnicodeBig\""
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def canBeInObjStm():
-    '''public boolean canBeInObjStm()
+    '''returns boolean\n\n
+    canBeInObjStm()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def isNull():
-    '''public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
     '''
 def isBoolean():
-    '''public boolean isBoolean()
+    '''returns boolean\n\n
+    isBoolean()\n
     '''
 def isNumber():
-    '''public boolean isNumber()
+    '''returns boolean\n\n
+    isNumber()\n
     '''
 def isString():
-    '''public boolean isString()
+    '''returns boolean\n\n
+    isString()\n
     '''
 def isName():
-    '''public boolean isName()
+    '''returns boolean\n\n
+    isName()\n
     '''
 def isArray():
-    '''public boolean isArray()
+    '''returns boolean\n\n
+    isArray()\n
     '''
 def isDictionary():
-    '''public boolean isDictionary()
+    '''returns boolean\n\n
+    isDictionary()\n
     '''
 def isStream():
-    '''public boolean isStream()
+    '''returns boolean\n\n
+    isStream()\n
     '''
 def isIndirect():
-    '''public boolean isIndirect()
+    '''returns boolean\n\n
+    isIndirect()\n
     '''
 def getIndRef():
-    '''public PRIndirectReference getIndRef()
+    '''returns PRIndirectReference\n\n
+    getIndRef()\n
     '''
 def setIndRef():
-    '''public void setIndRef(final PRIndirectReference indRef)
+    '''returns None\n\n
+    setIndRef(final PRIndirectReference indRef)\n
     '''

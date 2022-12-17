@@ -1,6 +1,8 @@
 def sync():
-    '''public void sync(final boolean force)
+    '''returns None\n\n
+    sync(final boolean force)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

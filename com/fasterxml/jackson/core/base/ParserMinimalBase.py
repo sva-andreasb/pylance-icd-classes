@@ -1,57 +1,75 @@
 def currentToken():
-    '''public JsonToken currentToken()
+    '''returns JsonToken\n\n
+    currentToken()\n
     '''
 def currentTokenId():
-    '''public int currentTokenId()
+    '''returns int\n\n
+    currentTokenId()\n
     '''
 def getCurrentToken():
-    '''public JsonToken getCurrentToken()
+    '''returns JsonToken\n\n
+    getCurrentToken()\n
     '''
 def getCurrentTokenId():
-    '''public int getCurrentTokenId()
+    '''returns int\n\n
+    getCurrentTokenId()\n
     '''
 def hasCurrentToken():
-    '''public boolean hasCurrentToken()
+    '''returns boolean\n\n
+    hasCurrentToken()\n
     '''
 def hasTokenId():
-    '''public boolean hasTokenId(final int id)
+    '''returns boolean\n\n
+    hasTokenId(final int id)\n
     '''
 def hasToken():
-    '''public boolean hasToken(final JsonToken t)
+    '''returns boolean\n\n
+    hasToken(final JsonToken t)\n
     '''
 def isExpectedStartArrayToken():
-    '''public boolean isExpectedStartArrayToken()
+    '''returns boolean\n\n
+    isExpectedStartArrayToken()\n
     '''
 def isExpectedStartObjectToken():
-    '''public boolean isExpectedStartObjectToken()
+    '''returns boolean\n\n
+    isExpectedStartObjectToken()\n
     '''
 def nextValue():
-    '''public JsonToken nextValue()
+    '''returns JsonToken\n\n
+    nextValue()\n
     '''
 def skipChildren():
-    '''public JsonParser skipChildren()
+    '''returns JsonParser\n\n
+    skipChildren()\n
     '''
 def clearCurrentToken():
-    '''public void clearCurrentToken()
+    '''returns None\n\n
+    clearCurrentToken()\n
     '''
 def getLastClearedToken():
-    '''public JsonToken getLastClearedToken()
+    '''returns JsonToken\n\n
+    getLastClearedToken()\n
     '''
 def getValueAsBoolean():
-    '''public boolean getValueAsBoolean(final boolean defaultValue)
+    '''returns boolean\n\n
+    getValueAsBoolean(final boolean defaultValue)\n
     '''
 def getValueAsInt():
-    '''public int getValueAsInt()
-    public int getValueAsInt(final int defaultValue)
+    '''returns int\n\n
+    getValueAsInt()\n
+    getValueAsInt(final int defaultValue)\n
     '''
 def getValueAsLong():
-    '''public long getValueAsLong()
-    public long getValueAsLong(final long defaultValue)
+    '''returns long\n\n
+    getValueAsLong()\n
+    getValueAsLong(final long defaultValue)\n
     '''
 def getValueAsDouble():
-    '''public double getValueAsDouble(final double defaultValue)
+    '''returns double\n\n
+    getValueAsDouble(final double defaultValue)\n
     '''
 def getValueAsString():
-    '''public String getValueAsString()
-    public String getValueAsString(final String defaultValue)
+    '''returns String\n\n
+    getValueAsString()\n
+    getValueAsString(final String defaultValue)\n
     '''

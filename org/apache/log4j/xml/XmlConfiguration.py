@@ -5,57 +5,71 @@ VALUE_ATTR = "String  \"value\""
 FILTER_TAG = "String  \"filter\""
 REF_ATTR = "String  \"ref\""
 DEFAULT_DELAY = "long  60000L"
-def XmlConfiguration():
-    '''public XmlConfiguration(final LoggerContext loggerContext, final ConfigurationSource source, final int monitorIntervalSeconds)
+def ():
+    '''returns XmlConfiguration\n\n
+    (final LoggerContext loggerContext, final ConfigurationSource source, final int monitorIntervalSeconds)\n
     '''
 def addAppenderIfAbsent():
-    '''public void addAppenderIfAbsent(final Appender appender)
+    '''returns None\n\n
+    addAppenderIfAbsent(final Appender appender)\n
     '''
 def doConfigure():
-    '''public void doConfigure()
+    '''returns None\n\n
+    doConfigure()\n
     '''
 def parse():
-    '''public Document parse(final DocumentBuilder parser)
+    '''returns Document\n\n
+    parse(final DocumentBuilder parser)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def reconfigure():
-    '''public Configuration reconfigure()
+    '''returns Configuration\n\n
+    reconfigure()\n
     '''
 def subst():
-    '''public String subst(final String value, final Properties props)
+    '''returns String\n\n
+    subst(final String value, final Properties props)\n
     '''
 def setParameter():
-    '''public void setParameter(final Element elem, final PropertySetter propSetter, final Properties props)
+    '''returns None\n\n
+    setParameter(final Element elem, final PropertySetter propSetter, final Properties props)\n
     '''
 def parseElement():
-    '''public Object parseElement(final Element element, final Properties props, final Class expectedClass)
+    '''returns Object\n\n
+    parseElement(final Element element, final Properties props, final Class expectedClass)\n
     '''
 def findAppenderByReference():
-    '''public Appender findAppenderByReference(final Element appenderRef)
+    '''returns Appender\n\n
+    findAppenderByReference(final Element appenderRef)\n
     '''
 def parseAppender():
-    '''public Appender parseAppender(final Element appenderElement)
+    '''returns Appender\n\n
+    parseAppender(final Element appenderElement)\n
     '''
 def parseRewritePolicy():
-    '''public RewritePolicy parseRewritePolicy(final Element rewritePolicyElement)
+    '''returns RewritePolicy\n\n
+    parseRewritePolicy(final Element rewritePolicyElement)\n
     '''
 def parseFilters():
-    '''public Filter parseFilters(final Element filterElement)
+    '''returns Filter\n\n
+    parseFilters(final Element filterElement)\n
     '''
 def parseLayout():
-    '''public Layout parseLayout(final Element layoutElement)
-    '''
-def forEachElement():
-    '''public static void forEachElement(final NodeList list, final Consumer<Element> consumer)
+    '''returns Layout\n\n
+    parseLayout(final Element layoutElement)\n
     '''
 def error():
-    '''public void error(final SAXParseException ex)
+    '''returns None\n\n
+    error(final SAXParseException ex)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException ex)
+    '''returns None\n\n
+    fatalError(final SAXParseException ex)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException ex)
+    '''returns None\n\n
+    warning(final SAXParseException ex)\n
     '''

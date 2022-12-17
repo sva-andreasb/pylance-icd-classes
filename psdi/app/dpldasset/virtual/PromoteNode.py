@@ -1,46 +1,61 @@
 MSG_GROUP_PROMOTION = "String  \"tloampromote\""
-def PromoteNode():
-    '''public PromoteNode(final MboSet ms)
+def ():
+    '''returns PromoteNode\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def promote():
-    '''public int promote(final PromoteValuesRemote defaults, final boolean topLevelSelection, final boolean promotedByParent)
+    '''returns int\n\n
+    promote(final PromoteValuesRemote defaults, final boolean topLevelSelection, final boolean promotedByParent)\n
     '''
 def setPromotedTrue():
-    '''public void setPromotedTrue()
+    '''returns None\n\n
+    setPromotedTrue()\n
     '''
 def getLinkedAsset():
-    '''public AssetRemote getLinkedAsset()
+    '''returns AssetRemote\n\n
+    getLinkedAsset()\n
     '''
 def setLinkedAsset():
-    '''public void setLinkedAsset(final AssetRemote assetMbo)
+    '''returns None\n\n
+    setLinkedAsset(final AssetRemote assetMbo)\n
     '''
 def setDeployedAsset():
-    '''public void setDeployedAsset(final DeployedAssetRemote deployedAsset)
+    '''returns None\n\n
+    setDeployedAsset(final DeployedAssetRemote deployedAsset)\n
     '''
 def setLinkedParentAsset():
-    '''public void setLinkedParentAsset(final AssetRemote assetMbo)
+    '''returns None\n\n
+    setLinkedParentAsset(final AssetRemote assetMbo)\n
     '''
 def getLinkedParentAsset():
-    '''public AssetRemote getLinkedParentAsset(final boolean promoting)
+    '''returns AssetRemote\n\n
+    getLinkedParentAsset(final boolean promoting)\n
     '''
 def getDeployedAsset():
-    '''public DeployedAssetRemote getDeployedAsset()
+    '''returns DeployedAssetRemote\n\n
+    getDeployedAsset()\n
     '''
 def setDefaults():
-    '''public int setDefaults(final PromoteValuesRemote defaults, final boolean fromApplyDefaultsButton)
+    '''returns int\n\n
+    setDefaults(final PromoteValuesRemote defaults, final boolean fromApplyDefaultsButton)\n
     '''
 def addCreatedMemo():
-    '''public void addCreatedMemo()
+    '''returns None\n\n
+    addCreatedMemo()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def setAttributeFlags():
-    '''public void setAttributeFlags()
+    '''returns None\n\n
+    setAttributeFlags()\n
     '''
 def assetLinkedSetReadOnlyAttr():
-    '''public void assetLinkedSetReadOnlyAttr()
+    '''returns None\n\n
+    assetLinkedSetReadOnlyAttr()\n
     '''

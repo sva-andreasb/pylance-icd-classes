@@ -1,6 +1,8 @@
-def FldQueryName():
-    '''public FldQueryName(final MboValue mbv)
+def ():
+    '''returns FldQueryName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

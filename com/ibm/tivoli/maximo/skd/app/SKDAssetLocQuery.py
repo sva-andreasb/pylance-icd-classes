@@ -1,12 +1,16 @@
-def SKDAssetLocQuery():
-    '''public SKDAssetLocQuery(final MboSet ms)
+def ():
+    '''returns SKDAssetLocQuery\n\n
+    (final MboSet ms)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

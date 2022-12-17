@@ -1,39 +1,52 @@
 def getAnySingle():
-    '''public RegexpTree getAnySingle()
+    '''returns RegexpTree\n\n
+    getAnySingle()\n
     '''
 def getStartOfLine():
-    '''public RegexpTree getStartOfLine()
+    '''returns RegexpTree\n\n
+    getStartOfLine()\n
     '''
 def getEndOfLine():
-    '''public RegexpTree getEndOfLine()
+    '''returns RegexpTree\n\n
+    getEndOfLine()\n
     '''
 def getNothing():
-    '''public RegexpTree getNothing()
+    '''returns RegexpTree\n\n
+    getNothing()\n
     '''
 def getText():
-    '''public RegexpTree getText(final char ch)
+    '''returns RegexpTree\n\n
+    getText(final char ch)\n
     '''
 def getZeroOrMore():
-    '''public RegexpTree getZeroOrMore(final RegexpTree d)
+    '''returns RegexpTree\n\n
+    getZeroOrMore(final RegexpTree d)\n
     '''
 def getOneOrMore():
-    '''public RegexpTree getOneOrMore(final RegexpTree d)
+    '''returns RegexpTree\n\n
+    getOneOrMore(final RegexpTree d)\n
     '''
 def getOptional():
-    '''public RegexpTree getOptional(final RegexpTree d)
+    '''returns RegexpTree\n\n
+    getOptional(final RegexpTree d)\n
     '''
 def getSequence():
-    '''public RegexpTree getSequence(final List<? extends RegexpTree> operands)
+    '''returns RegexpTree\n\n
+    getSequence(final List<? extends RegexpTree> operands)\n
     '''
 def getAlternatives():
-    '''public RegexpTree getAlternatives(final List<? extends RegexpTree> operands)
+    '''returns RegexpTree\n\n
+    getAlternatives(final List<? extends RegexpTree> operands)\n
     '''
 def getBackReference():
-    '''public RegexpTree getBackReference(final int n)
+    '''returns RegexpTree\n\n
+    getBackReference(final int n)\n
     '''
 def getClass():
-    '''public RegexpTree getClass(final String chars, final boolean reject)
+    '''returns RegexpTree\n\n
+    getClass(final String chars, final boolean reject)\n
     '''
 def getParen():
-    '''public RegexpTree getParen(final RegexpTree operand, final int index)
+    '''returns RegexpTree\n\n
+    getParen(final RegexpTree operand, final int index)\n
     '''

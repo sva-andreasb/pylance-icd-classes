@@ -1,142 +1,184 @@
 def getCreateEmployee():
-    '''public Employee getCreateEmployee()
+    '''returns Employee\n\n
+    getCreateEmployee()\n
     '''
 def setCreateEmployee():
-    '''public void setCreateEmployee(final Employee createEmployee)
+    '''returns None\n\n
+    setCreateEmployee(final Employee createEmployee)\n
     '''
 def getCreateUser():
-    '''public Customer getCreateUser()
+    '''returns Customer\n\n
+    getCreateUser()\n
     '''
 def setCreateUser():
-    '''public void setCreateUser(final Customer createUser)
+    '''returns None\n\n
+    setCreateUser(final Customer createUser)\n
     '''
 def getModifyEmployee():
-    '''public Employee getModifyEmployee()
+    '''returns Employee\n\n
+    getModifyEmployee()\n
     '''
 def setModifyEmployee():
-    '''public void setModifyEmployee(final Employee modifyEmployee)
+    '''returns None\n\n
+    setModifyEmployee(final Employee modifyEmployee)\n
     '''
 def getModifyUser():
-    '''public Customer getModifyUser()
+    '''returns Customer\n\n
+    getModifyUser()\n
     '''
 def setModifyUser():
-    '''public void setModifyUser(final Customer modifyUser)
+    '''returns None\n\n
+    setModifyUser(final Customer modifyUser)\n
     '''
 def getShipment():
-    '''public Shipment getShipment()
+    '''returns Shipment\n\n
+    getShipment()\n
     '''
 def setShipment():
-    '''public void setShipment(final Shipment shipment)
+    '''returns None\n\n
+    setShipment(final Shipment shipment)\n
     '''
 def getCreateUserId():
-    '''public Long getCreateUserId()
+    '''returns Long\n\n
+    getCreateUserId()\n
     '''
 def setCreateUserId():
-    '''public void setCreateUserId(final Long createUserId)
+    '''returns None\n\n
+    setCreateUserId(final Long createUserId)\n
     '''
 def isCreateUserIdSpecified():
-    '''public boolean isCreateUserIdSpecified()
+    '''returns boolean\n\n
+    isCreateUserIdSpecified()\n
     '''
 def unsetCreateUserId():
-    '''public void unsetCreateUserId()
+    '''returns None\n\n
+    unsetCreateUserId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyUserId():
-    '''public Long getModifyUserId()
+    '''returns Long\n\n
+    getModifyUserId()\n
     '''
 def setModifyUserId():
-    '''public void setModifyUserId(final Long modifyUserId)
+    '''returns None\n\n
+    setModifyUserId(final Long modifyUserId)\n
     '''
 def isModifyUserIdSpecified():
-    '''public boolean isModifyUserIdSpecified()
+    '''returns boolean\n\n
+    isModifyUserIdSpecified()\n
     '''
 def unsetModifyUserId():
-    '''public void unsetModifyUserId()
+    '''returns None\n\n
+    unsetModifyUserId()\n
     '''
 def getPackageId():
-    '''public Long getPackageId()
+    '''returns Long\n\n
+    getPackageId()\n
     '''
 def setPackageId():
-    '''public void setPackageId(final Long packageId)
+    '''returns None\n\n
+    setPackageId(final Long packageId)\n
     '''
 def isPackageIdSpecified():
-    '''public boolean isPackageIdSpecified()
+    '''returns boolean\n\n
+    isPackageIdSpecified()\n
     '''
 def unsetPackageId():
-    '''public void unsetPackageId()
+    '''returns None\n\n
+    unsetPackageId()\n
     '''
 def getSequence():
-    '''public Long getSequence()
+    '''returns Long\n\n
+    getSequence()\n
     '''
 def setSequence():
-    '''public void setSequence(final Long sequence)
+    '''returns None\n\n
+    setSequence(final Long sequence)\n
     '''
 def isSequenceSpecified():
-    '''public boolean isSequenceSpecified()
+    '''returns boolean\n\n
+    isSequenceSpecified()\n
     '''
 def unsetSequence():
-    '''public void unsetSequence()
+    '''returns None\n\n
+    unsetSequence()\n
     '''
 def getShipmentId():
-    '''public Long getShipmentId()
+    '''returns Long\n\n
+    getShipmentId()\n
     '''
 def setShipmentId():
-    '''public void setShipmentId(final Long shipmentId)
+    '''returns None\n\n
+    setShipmentId(final Long shipmentId)\n
     '''
 def isShipmentIdSpecified():
-    '''public boolean isShipmentIdSpecified()
+    '''returns boolean\n\n
+    isShipmentIdSpecified()\n
     '''
 def unsetShipmentId():
-    '''public void unsetShipmentId()
+    '''returns None\n\n
+    unsetShipmentId()\n
     '''
 def getTrackingData():
-    '''public String getTrackingData()
+    '''returns String\n\n
+    getTrackingData()\n
     '''
 def setTrackingData():
-    '''public void setTrackingData(final String trackingData)
+    '''returns None\n\n
+    setTrackingData(final String trackingData)\n
     '''
 def isTrackingDataSpecified():
-    '''public boolean isTrackingDataSpecified()
+    '''returns boolean\n\n
+    isTrackingDataSpecified()\n
     '''
 def unsetTrackingData():
-    '''public void unsetTrackingData()
+    '''returns None\n\n
+    unsetTrackingData()\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def createUserId():
-    '''public Mask createUserId()
+    '''returns Mask\n\n
+    createUserId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyUserId():
-    '''public Mask modifyUserId()
+    '''returns Mask\n\n
+    modifyUserId()\n
     '''
 def packageId():
-    '''public Mask packageId()
+    '''returns Mask\n\n
+    packageId()\n
     '''
 def sequence():
-    '''public Mask sequence()
+    '''returns Mask\n\n
+    sequence()\n
     '''
 def shipmentId():
-    '''public Mask shipmentId()
+    '''returns Mask\n\n
+    shipmentId()\n
     '''
 def trackingData():
-    '''public Mask trackingData()
+    '''returns Mask\n\n
+    trackingData()\n
     '''

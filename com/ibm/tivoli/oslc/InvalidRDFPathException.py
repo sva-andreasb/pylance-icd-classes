@@ -1,6 +1,8 @@
-def InvalidRDFPathException():
-    '''public InvalidRDFPathException(final String path)
+def ():
+    '''returns InvalidRDFPathException\n\n
+    (final String path)\n
     '''
 def getRDFPath():
-    '''public String getRDFPath()
+    '''returns String\n\n
+    getRDFPath()\n
     '''

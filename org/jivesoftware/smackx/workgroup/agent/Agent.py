@@ -1,12 +1,12 @@
-def getWorkgroups():
-    '''public static Collection<String> getWorkgroups(final Jid serviceJID, final Jid agentJID, final XMPPConnection connection)
-    '''
 def getUser():
-    '''public Jid getUser()
+    '''returns Jid\n\n
+    getUser()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String newName)
+    '''returns None\n\n
+    setName(final String newName)\n
     '''

@@ -1,6 +1,8 @@
-def FldAncestorClassID():
-    '''public FldAncestorClassID(final MboValue mbv)
+def ():
+    '''returns FldAncestorClassID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

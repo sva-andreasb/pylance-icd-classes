@@ -1,8 +1,10 @@
-def IterativeLegendreGaussIntegrator():
-    '''public IterativeLegendreGaussIntegrator(final int n, final double relativeAccuracy, final double absoluteAccuracy, final int minimalIterationCount, final int maximalIterationCount)
-    public IterativeLegendreGaussIntegrator(final int n, final double relativeAccuracy, final double absoluteAccuracy)
-    public IterativeLegendreGaussIntegrator(final int n, final int minimalIterationCount, final int maximalIterationCount)
+def ():
+    '''returns IterativeLegendreGaussIntegrator\n\n
+    (final int n, final double relativeAccuracy, final double absoluteAccuracy, final int minimalIterationCount, final int maximalIterationCount)\n
+    (final int n, final double relativeAccuracy, final double absoluteAccuracy)\n
+    (final int n, final int minimalIterationCount, final int maximalIterationCount)\n
     '''
 def value():
-    '''public double value(final double x)
+    '''returns double\n\n
+    value(final double x)\n
     '''

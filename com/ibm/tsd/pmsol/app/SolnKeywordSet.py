@@ -1,3 +1,4 @@
-def SolnKeywordSet():
-    '''public SolnKeywordSet(final MboServerInterface ms)
+def ():
+    '''returns SolnKeywordSet\n\n
+    (final MboServerInterface ms)\n
     '''

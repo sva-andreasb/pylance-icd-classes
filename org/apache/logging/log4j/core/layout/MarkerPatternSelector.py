@@ -1,42 +1,45 @@
-def MarkerPatternSelector():
-    '''public MarkerPatternSelector(final PatternMatch[] properties, final String defaultPattern, final boolean alwaysWriteExceptions, final boolean noConsoleNoAnsi, final Configuration config)
+def ():
+    '''returns Builder\n\n
+    (final PatternMatch[] properties, final String defaultPattern, final boolean alwaysWriteExceptions, final boolean noConsoleNoAnsi, final Configuration config)\n
+    ()\n
     '''
 def requiresLocation():
-    '''public boolean requiresLocation()
+    '''returns boolean\n\n
+    requiresLocation()\n
     '''
 def getFormatters():
-    '''public PatternFormatter[] getFormatters(final LogEvent event)
-    '''
-def newBuilder():
-    '''public static Builder newBuilder()
-    '''
-def createSelector():
-    '''public static MarkerPatternSelector createSelector(final PatternMatch[] properties, final String defaultPattern, final boolean alwaysWriteExceptions, final boolean noConsoleNoAnsi, final Configuration configuration)
+    '''returns PatternFormatter[]\n\n
+    getFormatters(final LogEvent event)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def Builder():
-    '''public Builder()
+    '''returns String\n\n
+    toString()\n
     '''
 def build():
-    '''public MarkerPatternSelector build()
+    '''returns MarkerPatternSelector\n\n
+    build()\n
     '''
 def setProperties():
-    '''public Builder setProperties(final PatternMatch[] properties)
+    '''returns Builder\n\n
+    setProperties(final PatternMatch[] properties)\n
     '''
 def setDefaultPattern():
-    '''public Builder setDefaultPattern(final String defaultPattern)
+    '''returns Builder\n\n
+    setDefaultPattern(final String defaultPattern)\n
     '''
 def setAlwaysWriteExceptions():
-    '''public Builder setAlwaysWriteExceptions(final boolean alwaysWriteExceptions)
+    '''returns Builder\n\n
+    setAlwaysWriteExceptions(final boolean alwaysWriteExceptions)\n
     '''
 def setDisableAnsi():
-    '''public Builder setDisableAnsi(final boolean disableAnsi)
+    '''returns Builder\n\n
+    setDisableAnsi(final boolean disableAnsi)\n
     '''
 def setNoConsoleNoAnsi():
-    '''public Builder setNoConsoleNoAnsi(final boolean noConsoleNoAnsi)
+    '''returns Builder\n\n
+    setNoConsoleNoAnsi(final boolean noConsoleNoAnsi)\n
     '''
 def setConfiguration():
-    '''public Builder setConfiguration(final Configuration configuration)
+    '''returns Builder\n\n
+    setConfiguration(final Configuration configuration)\n
     '''

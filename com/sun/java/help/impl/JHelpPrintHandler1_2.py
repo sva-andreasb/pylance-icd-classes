@@ -1,3 +1,4 @@
-def JHelpPrintHandler1_2():
-    '''public JHelpPrintHandler1_2(final JHelp help)
+def ():
+    '''returns JHelpPrintHandler1_2\n\n
+    (final JHelp help)\n
     '''

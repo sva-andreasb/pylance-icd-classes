@@ -1,3 +1,4 @@
-def ShowWFInput():
-    '''public ShowWFInput(final MboSet ms)
+def ():
+    '''returns ShowWFInput\n\n
+    (final MboSet ms)\n
     '''

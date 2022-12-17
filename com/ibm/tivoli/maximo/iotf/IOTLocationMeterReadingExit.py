@@ -1,9 +1,12 @@
-def IOTLocationMeterReadingExit():
-    '''public IOTLocationMeterReadingExit()
+def ():
+    '''returns IOTLocationMeterReadingExit\n\n
+    ()\n
     '''
 def mapRTIData():
-    '''public StructureData mapRTIData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTFDeviceTypeInfo deviceTypeInfo)
+    '''returns StructureData\n\n
+    mapRTIData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTFDeviceTypeInfo deviceTypeInfo)\n
     '''
 def mapHistorianData():
-    '''public StructureData mapHistorianData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTFDeviceTypeInfo deviceTypeInfo)
+    '''returns StructureData\n\n
+    mapHistorianData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTFDeviceTypeInfo deviceTypeInfo)\n
     '''

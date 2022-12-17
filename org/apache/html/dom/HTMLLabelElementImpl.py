@@ -1,15 +1,20 @@
 def getAccessKey():
-    '''public String getAccessKey()
+    '''returns String\n\n
+    getAccessKey()\n
     '''
 def setAccessKey():
-    '''public void setAccessKey(String substring)
+    '''returns None\n\n
+    setAccessKey(String substring)\n
     '''
 def getHtmlFor():
-    '''public String getHtmlFor()
+    '''returns String\n\n
+    getHtmlFor()\n
     '''
 def setHtmlFor():
-    '''public void setHtmlFor(final String s)
+    '''returns None\n\n
+    setHtmlFor(final String s)\n
     '''
-def HTMLLabelElementImpl():
-    '''public HTMLLabelElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLLabelElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

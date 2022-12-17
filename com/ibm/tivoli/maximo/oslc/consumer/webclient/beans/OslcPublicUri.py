@@ -1,9 +1,8 @@
-def OslcPublicUri():
-    '''public OslcPublicUri()
-    '''
-def insert():
-    '''public synchronized void insert()
+def ():
+    '''returns OslcPublicUri\n\n
+    ()\n
     '''
 def changepublicuri():
-    '''public int changepublicuri()
+    '''returns int\n\n
+    changepublicuri()\n
     '''

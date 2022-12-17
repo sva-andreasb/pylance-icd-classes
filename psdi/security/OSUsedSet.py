@@ -1,6 +1,8 @@
-def OSUsedSet():
-    '''public OSUsedSet(final MboServerInterface ms)
+def ():
+    '''returns OSUsedSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

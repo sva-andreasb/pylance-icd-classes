@@ -1,36 +1,48 @@
-def SplitUseLineSet():
-    '''public SplitUseLineSet(final MboServerInterface ms)
+def ():
+    '''returns SplitUseLineSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setSplitUseLineSet():
-    '''public MboSetRemote setSplitUseLineSet()
+    '''returns MboSetRemote\n\n
+    setSplitUseLineSet()\n
     '''
 def getSplitUseLineSet():
-    '''public MboSetRemote getSplitUseLineSet(final MboSetRemote tempSetRemote)
+    '''returns MboSetRemote\n\n
+    getSplitUseLineSet(final MboSetRemote tempSetRemote)\n
     '''
 def autoSplitRecordSet():
-    '''public MboSetRemote autoSplitRecordSet()
+    '''returns MboSetRemote\n\n
+    autoSplitRecordSet()\n
     '''
 def validateSplitLines():
-    '''public void validateSplitLines()
+    '''returns None\n\n
+    validateSplitLines()\n
     '''
 def addInvUseLineSplitRecords():
-    '''public void addInvUseLineSplitRecords()
+    '''returns None\n\n
+    addInvUseLineSplitRecords()\n
     '''
 def calculateAvailableQty():
-    '''public double calculateAvailableQty(final MboRemote invUseLine)
+    '''returns double\n\n
+    calculateAvailableQty(final MboRemote invUseLine)\n
     '''
 def calculateRQtyNotStaged():
-    '''public double calculateRQtyNotStaged(final MboRemote invUseLine)
+    '''returns double\n\n
+    calculateRQtyNotStaged(final MboRemote invUseLine)\n
     '''
 def calculateAvailableQtyforLottedItems():
-    '''public double calculateAvailableQtyforLottedItems(final MboRemote invUseLine)
+    '''returns double\n\n
+    calculateAvailableQtyforLottedItems(final MboRemote invUseLine)\n
     '''
 def calculateRQtyNotStagedforLottedItems():
-    '''public double calculateRQtyNotStagedforLottedItems(final MboRemote invUseLine)
+    '''returns double\n\n
+    calculateRQtyNotStagedforLottedItems(final MboRemote invUseLine)\n
     '''
 def getInvUseLineIdList():
-    '''public ArrayList<Long> getInvUseLineIdList()
+    '''returns ArrayList<Long>\n\n
+    getInvUseLineIdList()\n
     '''
 def chkPickListMbo():
-    '''public boolean chkPickListMbo(final MboRemote owner)
+    '''returns boolean\n\n
+    chkPickListMbo(final MboRemote owner)\n
     '''

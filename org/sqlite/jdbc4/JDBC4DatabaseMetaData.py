@@ -1,33 +1,40 @@
-def JDBC4DatabaseMetaData():
-    '''public JDBC4DatabaseMetaData(final SQLiteConnection conn)
-    '''
-def unwrap():
-    '''public <T> T unwrap(final Class<T> iface)
+def ():
+    '''returns JDBC4DatabaseMetaData\n\n
+    (final SQLiteConnection conn)\n
     '''
 def isWrapperFor():
-    '''public boolean isWrapperFor(final Class<?> iface)
+    '''returns boolean\n\n
+    isWrapperFor(final Class<?> iface)\n
     '''
 def getRowIdLifetime():
-    '''public RowIdLifetime getRowIdLifetime()
+    '''returns RowIdLifetime\n\n
+    getRowIdLifetime()\n
     '''
 def getSchemas():
-    '''public ResultSet getSchemas(final String catalog, final String schemaPattern)
+    '''returns ResultSet\n\n
+    getSchemas(final String catalog, final String schemaPattern)\n
     '''
 def supportsStoredFunctionsUsingCallSyntax():
-    '''public boolean supportsStoredFunctionsUsingCallSyntax()
+    '''returns boolean\n\n
+    supportsStoredFunctionsUsingCallSyntax()\n
     '''
 def autoCommitFailureClosesAllResultSets():
-    '''public boolean autoCommitFailureClosesAllResultSets()
+    '''returns boolean\n\n
+    autoCommitFailureClosesAllResultSets()\n
     '''
 def getClientInfoProperties():
-    '''public ResultSet getClientInfoProperties()
+    '''returns ResultSet\n\n
+    getClientInfoProperties()\n
     '''
 def getFunctions():
-    '''public ResultSet getFunctions(final String catalog, final String schemaPattern, final String functionNamePattern)
+    '''returns ResultSet\n\n
+    getFunctions(final String catalog, final String schemaPattern, final String functionNamePattern)\n
     '''
 def getPseudoColumns():
-    '''public ResultSet getPseudoColumns(final String catalog, final String schemaPattern, final String tableNamePattern, final String columnNamePattern)
+    '''returns ResultSet\n\n
+    getPseudoColumns(final String catalog, final String schemaPattern, final String tableNamePattern, final String columnNamePattern)\n
     '''
 def generatedKeyAlwaysReturned():
-    '''public boolean generatedKeyAlwaysReturned()
+    '''returns boolean\n\n
+    generatedKeyAlwaysReturned()\n
     '''

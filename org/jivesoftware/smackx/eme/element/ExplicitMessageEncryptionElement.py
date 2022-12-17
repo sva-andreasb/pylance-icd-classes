@@ -1,31 +1,34 @@
 ELEMENT = "String  \"encryption\""
 NAMESPACE = "String  \"urn:xmpp:eme:0\""
-def ExplicitMessageEncryptionElement():
-    '''public ExplicitMessageEncryptionElement(final ExplicitMessageEncryptionProtocol protocol)
-    public ExplicitMessageEncryptionElement(final String encryptionNamespace)
-    public ExplicitMessageEncryptionElement(final String encryptionNamespace, final String name)
+def ():
+    '''returns ExplicitMessageEncryptionElement\n\n
+    (final ExplicitMessageEncryptionProtocol protocol)\n
+    (final String encryptionNamespace)\n
+    (final String encryptionNamespace, final String name)\n
     '''
 def getProtocol():
-    '''public ExplicitMessageEncryptionProtocol getProtocol()
+    '''returns ExplicitMessageEncryptionProtocol\n\n
+    getProtocol()\n
     '''
 def getEncryptionNamespace():
-    '''public String getEncryptionNamespace()
+    '''returns String\n\n
+    getEncryptionNamespace()\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static ExplicitMessageEncryptionElement from(final Message message)
-    public static ExplicitMessageEncryptionProtocol from(final String namespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

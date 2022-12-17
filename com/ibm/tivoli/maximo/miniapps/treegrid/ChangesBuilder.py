@@ -1,24 +1,30 @@
-def ChangesBuilder():
-    '''public ChangesBuilder()
-    public ChangesBuilder(final Map data)
+def ():
+    '''returns ChangesBuilder\n\n
+    ()\n
+    (final Map data)\n
     '''
 def Changes():
-    '''public JSONArray Changes()
+    '''returns JSONArray\n\n
+    Changes()\n
     '''
 def addDeleted():
-    '''public JSONObject addDeleted(final String id)
-    public JSONObject addDeleted(final String id, final boolean newRow)
+    '''returns JSONObject\n\n
+    addDeleted(final String id)\n
+    addDeleted(final String id, final boolean newRow)\n
     '''
 def addChange():
-    '''public JSONObject addChange(final String id)
-    public JSONObject addChange(final String id, final String field, final Object value)
-    public JSONObject addChange(final String id, final JSONObject change)
+    '''returns JSONObject\n\n
+    addChange(final String id)\n
+    addChange(final String id, final String field, final Object value)\n
+    addChange(final String id, final JSONObject change)\n
     '''
 def addNewRow():
-    '''public JSONObject addNewRow(final String id, final JSONObject change)
-    public JSONObject addNewRow(final String id, final boolean forceNewRow)
-    public JSONObject addNewRow(final String id)
+    '''returns JSONObject\n\n
+    addNewRow(final String id, final JSONObject change)\n
+    addNewRow(final String id, final boolean forceNewRow)\n
+    addNewRow(final String id)\n
     '''
 def findChange():
-    '''public JSONObject findChange(final String id)
+    '''returns JSONObject\n\n
+    findChange(final String id)\n
     '''

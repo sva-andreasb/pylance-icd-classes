@@ -1,4 +1,5 @@
-def BlobCompareResults():
-    '''public BlobCompareResults(final BaseJdoInterface left, final BaseJdoInterface right)
-    public BlobCompareResults(final Object left, final Object right)
+def ():
+    '''returns BlobCompareResults\n\n
+    (final BaseJdoInterface left, final BaseJdoInterface right)\n
+    (final Object left, final Object right)\n
     '''

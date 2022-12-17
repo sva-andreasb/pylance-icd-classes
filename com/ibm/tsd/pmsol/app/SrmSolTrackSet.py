@@ -1,3 +1,4 @@
-def SrmSolTrackSet():
-    '''public SrmSolTrackSet(final MboServerInterface ms)
+def ():
+    '''returns SrmSolTrackSet\n\n
+    (final MboServerInterface ms)\n
     '''

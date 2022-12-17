@@ -1,101 +1,132 @@
 def getName():
-    '''public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
     '''
 def getID():
-    '''public BigInteger getID()
+    '''returns BigInteger\n\n
+    getID()\n
     '''
 def setID():
-    '''public void setID(final BigInteger value)
+    '''returns None\n\n
+    setID(final BigInteger value)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String value)
+    '''returns None\n\n
+    setDescription(final String value)\n
     '''
 def isMasterOperator():
-    '''public Boolean isMasterOperator()
+    '''returns Boolean\n\n
+    isMasterOperator()\n
     '''
 def setMasterOperator():
-    '''public void setMasterOperator(final Boolean value)
+    '''returns None\n\n
+    setMasterOperator(final Boolean value)\n
     '''
 def isCustomContent():
-    '''public Boolean isCustomContent()
+    '''returns Boolean\n\n
+    isCustomContent()\n
     '''
 def setCustomContent():
-    '''public void setCustomContent(final Boolean value)
+    '''returns None\n\n
+    setCustomContent(final Boolean value)\n
     '''
 def isShowOtherActions():
-    '''public Boolean isShowOtherActions()
+    '''returns Boolean\n\n
+    isShowOtherActions()\n
     '''
 def setShowOtherActions():
-    '''public void setShowOtherActions(final Boolean value)
+    '''returns None\n\n
+    setShowOtherActions(final Boolean value)\n
     '''
 def getUnmanagedAssetPrivilege():
-    '''public String getUnmanagedAssetPrivilege()
+    '''returns String\n\n
+    getUnmanagedAssetPrivilege()\n
     '''
 def setUnmanagedAssetPrivilege():
-    '''public void setUnmanagedAssetPrivilege(final String value)
+    '''returns None\n\n
+    setUnmanagedAssetPrivilege(final String value)\n
     '''
 def getOperators():
-    '''public Operators getOperators()
+    '''returns Operators\n\n
+    getOperators()\n
     '''
 def setOperators():
-    '''public void setOperators(final Operators value)
+    '''returns None\n\n
+    setOperators(final Operators value)\n
     '''
 def getLDAPGroups():
-    '''public LDAPGroups getLDAPGroups()
+    '''returns LDAPGroups\n\n
+    getLDAPGroups()\n
     '''
 def setLDAPGroups():
-    '''public void setLDAPGroups(final LDAPGroups value)
+    '''returns None\n\n
+    setLDAPGroups(final LDAPGroups value)\n
     '''
 def getSites():
-    '''public Sites getSites()
+    '''returns Sites\n\n
+    getSites()\n
     '''
 def setSites():
-    '''public void setSites(final Sites value)
+    '''returns None\n\n
+    setSites(final Sites value)\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String value)
+    '''returns None\n\n
+    setResource(final String value)\n
     '''
 def getGroup():
-    '''public List<Group> getGroup()
+    '''returns List<Group>\n\n
+    getGroup()\n
     '''
 def getDN():
-    '''public String getDN()
+    '''returns String\n\n
+    getDN()\n
     '''
 def setDN():
-    '''public void setDN(final String value)
+    '''returns None\n\n
+    setDN(final String value)\n
     '''
 def getServerID():
-    '''public String getServerID()
+    '''returns String\n\n
+    getServerID()\n
     '''
 def setServerID():
-    '''public void setServerID(final String value)
+    '''returns None\n\n
+    setServerID(final String value)\n
     '''
 def getExplicitOrInherited():
-    '''public List<JAXBElement<String>> getExplicitOrInherited()
+    '''returns List<JAXBElement<String>>\n\n
+    getExplicitOrInherited()\n
     '''
 def getCustomSiteOrExternalSite():
-    '''public List<Object> getCustomSiteOrExternalSite()
+    '''returns List<Object>\n\n
+    getCustomSiteOrExternalSite()\n
     '''
 def getPermission():
-    '''public SitePermissionString getPermission()
-    public SitePermissionString getPermission()
+    '''returns SitePermissionString\n\n
+    getPermission()\n
+    getPermission()\n
     '''
 def setPermission():
-    '''public void setPermission(final SitePermissionString value)
-    public void setPermission(final SitePermissionString value)
+    '''returns None\n\n
+    setPermission(final SitePermissionString value)\n
+    setPermission(final SitePermissionString value)\n
     '''

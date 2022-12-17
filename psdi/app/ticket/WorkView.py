@@ -1,15 +1,20 @@
-def WorkView():
-    '''public WorkView(final MboSet ms)
+def ():
+    '''returns WorkView\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def update():
-    '''public void update()
+    '''returns None\n\n
+    update()\n
     '''
 def validateKeyUniqueness():
-    '''public void validateKeyUniqueness()
+    '''returns None\n\n
+    validateKeyUniqueness()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''

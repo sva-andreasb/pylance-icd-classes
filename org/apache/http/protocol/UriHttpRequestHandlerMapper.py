@@ -1,12 +1,16 @@
-def UriHttpRequestHandlerMapper():
-    '''public UriHttpRequestHandlerMapper()
+def ():
+    '''returns UriHttpRequestHandlerMapper\n\n
+    ()\n
     '''
 def register():
-    '''public void register(final String pattern, final HttpRequestHandler handler)
+    '''returns None\n\n
+    register(final String pattern, final HttpRequestHandler handler)\n
     '''
 def unregister():
-    '''public void unregister(final String pattern)
+    '''returns None\n\n
+    unregister(final String pattern)\n
     '''
 def lookup():
-    '''public HttpRequestHandler lookup(final HttpRequest request)
+    '''returns HttpRequestHandler\n\n
+    lookup(final HttpRequest request)\n
     '''

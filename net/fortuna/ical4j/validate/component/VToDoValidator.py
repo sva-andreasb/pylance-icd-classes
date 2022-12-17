@@ -1,7 +1,9 @@
-def VToDoValidator():
-    '''public VToDoValidator(final ValidationRule... rules)
-    public VToDoValidator(final boolean alarmsAllowed, final ValidationRule... rules)
+def ():
+    '''returns VToDoValidator\n\n
+    (final ValidationRule... rules)\n
+    (final boolean alarmsAllowed, final ValidationRule... rules)\n
     '''
 def validate():
-    '''public void validate(final VToDo target)
+    '''returns None\n\n
+    validate(final VToDo target)\n
     '''

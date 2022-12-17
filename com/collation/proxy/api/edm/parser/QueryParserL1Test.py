@@ -1,12 +1,16 @@
-def QueryParserL1Test():
-    '''public QueryParserL1Test(final String testName)
+def ():
+    '''returns QueryParserL1Test\n\n
+    (final String testName)\n
     '''
 def test1():
-    '''public void test1()
+    '''returns None\n\n
+    test1()\n
     '''
 def testNegative1():
-    '''public void testNegative1()
+    '''returns None\n\n
+    testNegative1()\n
     '''
 def testAttrs():
-    '''public void testAttrs()
+    '''returns None\n\n
+    testAttrs()\n
     '''

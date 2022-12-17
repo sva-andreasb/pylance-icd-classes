@@ -1,6 +1,8 @@
-def MaxVariantProcess():
-    '''public MaxVariantProcess()
+def ():
+    '''returns MaxVariantProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''

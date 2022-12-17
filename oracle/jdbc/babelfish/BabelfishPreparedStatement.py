@@ -1,106 +1,135 @@
 def setArray():
-    '''public void setArray(final int i, final Array array)
+    '''returns None\n\n
+    setArray(final int i, final Array array)\n
     '''
 def setAsciiStream():
-    '''public void setAsciiStream(final int i, final InputStream inputStream)
-    public void setAsciiStream(final int i, final InputStream inputStream, final int n)
-    public void setAsciiStream(final int i, final InputStream inputStream, final long n)
+    '''returns None\n\n
+    setAsciiStream(final int i, final InputStream inputStream)\n
+    setAsciiStream(final int i, final InputStream inputStream, final int n)\n
+    setAsciiStream(final int i, final InputStream inputStream, final long n)\n
     '''
 def setBigDecimal():
-    '''public void setBigDecimal(final int i, final BigDecimal bigDecimal)
+    '''returns None\n\n
+    setBigDecimal(final int i, final BigDecimal bigDecimal)\n
     '''
 def setBinaryStream():
-    '''public void setBinaryStream(final int i, final InputStream inputStream)
-    public void setBinaryStream(final int i, final InputStream inputStream, final int n)
-    public void setBinaryStream(final int i, final InputStream inputStream, final long n)
+    '''returns None\n\n
+    setBinaryStream(final int i, final InputStream inputStream)\n
+    setBinaryStream(final int i, final InputStream inputStream, final int n)\n
+    setBinaryStream(final int i, final InputStream inputStream, final long n)\n
     '''
 def setBlob():
-    '''public void setBlob(final int i, final Blob blob)
-    public void setBlob(final int i, final InputStream inputStream)
-    public void setBlob(final int i, final InputStream inputStream, final long n)
+    '''returns None\n\n
+    setBlob(final int i, final Blob blob)\n
+    setBlob(final int i, final InputStream inputStream)\n
+    setBlob(final int i, final InputStream inputStream, final long n)\n
     '''
 def setBoolean():
-    '''public void setBoolean(final int i, final boolean b)
+    '''returns None\n\n
+    setBoolean(final int i, final boolean b)\n
     '''
 def setByte():
-    '''public void setByte(final int i, final byte b)
+    '''returns None\n\n
+    setByte(final int i, final byte b)\n
     '''
 def setBytes():
-    '''public void setBytes(final int i, final byte[] array)
+    '''returns None\n\n
+    setBytes(final int i, final byte[] array)\n
     '''
 def setCharacterStream():
-    '''public void setCharacterStream(final int i, final Reader reader)
-    public void setCharacterStream(final int i, final Reader reader, final int n)
-    public void setCharacterStream(final int i, final Reader reader, final long n)
+    '''returns None\n\n
+    setCharacterStream(final int i, final Reader reader)\n
+    setCharacterStream(final int i, final Reader reader, final int n)\n
+    setCharacterStream(final int i, final Reader reader, final long n)\n
     '''
 def setClob():
-    '''public void setClob(final int i, final Clob clob)
-    public void setClob(final int i, final Reader reader)
-    public void setClob(final int i, final Reader reader, final long n)
+    '''returns None\n\n
+    setClob(final int i, final Clob clob)\n
+    setClob(final int i, final Reader reader)\n
+    setClob(final int i, final Reader reader, final long n)\n
     '''
 def setDate():
-    '''public void setDate(final int i, final Date date)
-    public void setDate(final int i, final Date date, final Calendar calendar)
+    '''returns None\n\n
+    setDate(final int i, final Date date)\n
+    setDate(final int i, final Date date, final Calendar calendar)\n
     '''
 def setDouble():
-    '''public void setDouble(final int i, final double n)
+    '''returns None\n\n
+    setDouble(final int i, final double n)\n
     '''
 def setFloat():
-    '''public void setFloat(final int i, final float n)
+    '''returns None\n\n
+    setFloat(final int i, final float n)\n
     '''
 def setInt():
-    '''public void setInt(final int i, final int n)
+    '''returns None\n\n
+    setInt(final int i, final int n)\n
     '''
 def setLong():
-    '''public void setLong(final int i, final long n)
+    '''returns None\n\n
+    setLong(final int i, final long n)\n
     '''
 def setNCharacterStream():
-    '''public void setNCharacterStream(final int i, final Reader reader)
-    public void setNCharacterStream(final int i, final Reader reader, final long n)
+    '''returns None\n\n
+    setNCharacterStream(final int i, final Reader reader)\n
+    setNCharacterStream(final int i, final Reader reader, final long n)\n
     '''
 def setNClob():
-    '''public void setNClob(final int i, final NClob nClob)
-    public void setNClob(final int i, final Reader reader)
-    public void setNClob(final int i, final Reader reader, final long n)
+    '''returns None\n\n
+    setNClob(final int i, final NClob nClob)\n
+    setNClob(final int i, final Reader reader)\n
+    setNClob(final int i, final Reader reader, final long n)\n
     '''
 def setNString():
-    '''public void setNString(final int i, final String s)
+    '''returns None\n\n
+    setNString(final int i, final String s)\n
     '''
 def setNull():
-    '''public void setNull(final int i, final int n)
-    public void setNull(final int i, final int n, final String s)
+    '''returns None\n\n
+    setNull(final int i, final int n)\n
+    setNull(final int i, final int n, final String s)\n
     '''
 def setObject():
-    '''public void setObject(final int i, final Object o)
-    public void setObject(final int i, final Object o, final int n)
-    public void setObject(final int i, final Object o, final int n, final int n2)
+    '''returns None\n\n
+    setObject(final int i, final Object o)\n
+    setObject(final int i, final Object o, final int n)\n
+    setObject(final int i, final Object o, final int n, final int n2)\n
     '''
 def setRef():
-    '''public void setRef(final int i, final Ref ref)
+    '''returns None\n\n
+    setRef(final int i, final Ref ref)\n
     '''
 def setRowId():
-    '''public void setRowId(final int i, final RowId rowId)
+    '''returns None\n\n
+    setRowId(final int i, final RowId rowId)\n
     '''
 def setShort():
-    '''public void setShort(final int i, final short n)
+    '''returns None\n\n
+    setShort(final int i, final short n)\n
     '''
 def setSQLXML():
-    '''public void setSQLXML(final int i, final SQLXML sqlxml)
+    '''returns None\n\n
+    setSQLXML(final int i, final SQLXML sqlxml)\n
     '''
 def setString():
-    '''public void setString(final int i, final String s)
+    '''returns None\n\n
+    setString(final int i, final String s)\n
     '''
 def setTime():
-    '''public void setTime(final int i, final Time time)
-    public void setTime(final int i, final Time time, final Calendar calendar)
+    '''returns None\n\n
+    setTime(final int i, final Time time)\n
+    setTime(final int i, final Time time, final Calendar calendar)\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final int i, final Timestamp timestamp)
-    public void setTimestamp(final int i, final Timestamp timestamp, final Calendar calendar)
+    '''returns None\n\n
+    setTimestamp(final int i, final Timestamp timestamp)\n
+    setTimestamp(final int i, final Timestamp timestamp, final Calendar calendar)\n
     '''
 def setUnicodeStream():
-    '''public void setUnicodeStream(final int i, final InputStream inputStream, final int n)
+    '''returns None\n\n
+    setUnicodeStream(final int i, final InputStream inputStream, final int n)\n
     '''
 def setURL():
-    '''public void setURL(final int i, final URL url)
+    '''returns None\n\n
+    setURL(final int i, final URL url)\n
     '''

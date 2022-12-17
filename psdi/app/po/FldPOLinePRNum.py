@@ -1,6 +1,8 @@
-def FldPOLinePRNum():
-    '''public FldPOLinePRNum(final MboValue mbv)
+def ():
+    '''returns FldPOLinePRNum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

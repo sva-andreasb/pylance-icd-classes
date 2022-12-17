@@ -1,0 +1,1 @@
+DEFAULT_CHARSET_NAME = "String  \"UTF-8\""

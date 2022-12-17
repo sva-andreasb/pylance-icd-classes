@@ -1,6 +1,8 @@
-def PlusPFldDomainOrgId():
-    '''public PlusPFldDomainOrgId(final MboValue arg0)
+def ():
+    '''returns PlusPFldDomainOrgId\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

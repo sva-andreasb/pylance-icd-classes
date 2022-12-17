@@ -1,6 +1,8 @@
-def DMCompJob():
-    '''public DMCompJob(final MboSet ms)
+def ():
+    '''returns DMCompJob\n\n
+    (final MboSet ms)\n
     '''
 def addCompareResultToCollection():
-    '''public void addCompareResultToCollection()
+    '''returns None\n\n
+    addCompareResultToCollection()\n
     '''

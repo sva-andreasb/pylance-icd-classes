@@ -1,6 +1,8 @@
-def IlvDashboardMenuBar():
-    '''public IlvDashboardMenuBar(final IlvDashboardEditor a)
+def ():
+    '''returns IlvDashboardMenuBar\n\n
+    (final IlvDashboardEditor a)\n
     '''
 def getToolsMenu():
-    '''public IlvDiagrammerMenu getToolsMenu()
+    '''returns IlvDiagrammerMenu\n\n
+    getToolsMenu()\n
     '''

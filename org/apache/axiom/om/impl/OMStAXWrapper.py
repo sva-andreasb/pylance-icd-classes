@@ -1,40 +1,53 @@
-def OMStAXWrapper():
-    '''public OMStAXWrapper(final OMXMLParserWrapper builder, final OMElement startNode)
-    public OMStAXWrapper(final OMXMLParserWrapper builder, final OMElement startNode, final boolean cache)
+def ():
+    '''returns OMStAXWrapper\n\n
+    (final OMXMLParserWrapper builder, final OMElement startNode)\n
+    (final OMXMLParserWrapper builder, final OMElement startNode, final boolean cache)\n
     '''
 def isInlineMTOM():
-    '''public boolean isInlineMTOM()
+    '''returns boolean\n\n
+    isInlineMTOM()\n
     '''
 def setInlineMTOM():
-    '''public void setInlineMTOM(final boolean value)
+    '''returns None\n\n
+    setInlineMTOM(final boolean value)\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler(String contentID)
+    '''returns DataHandler\n\n
+    getDataHandler(String contentID)\n
     '''
 def getBuilder():
-    '''public OMXMLParserWrapper getBuilder()
+    '''returns OMXMLParserWrapper\n\n
+    getBuilder()\n
     '''
 def isAllowSwitching():
-    '''public boolean isAllowSwitching()
+    '''returns boolean\n\n
+    isAllowSwitching()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def releaseParserOnClose():
-    '''public void releaseParserOnClose(final boolean value)
+    '''returns None\n\n
+    releaseParserOnClose(final boolean value)\n
     '''
 def setAllowSwitching():
-    '''public void setAllowSwitching(final boolean b)
+    '''returns None\n\n
+    setAllowSwitching(final boolean b)\n
     '''
 def setParser():
-    '''public void setParser(final XMLStreamReader parser)
+    '''returns None\n\n
+    setParser(final XMLStreamReader parser)\n
     '''
 def setNamespaceURIInterning():
-    '''public void setNamespaceURIInterning(final boolean b)
+    '''returns None\n\n
+    setNamespaceURIInterning(final boolean b)\n
     '''
 def getDataSource():
-    '''public OMDataSource getDataSource()
+    '''returns OMDataSource\n\n
+    getDataSource()\n
     '''
 def enableDataSourceEvents():
-    '''public void enableDataSourceEvents(final boolean value)
+    '''returns None\n\n
+    enableDataSourceEvents(final boolean value)\n
     '''

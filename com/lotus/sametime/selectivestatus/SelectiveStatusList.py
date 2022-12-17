@@ -1,57 +1,24 @@
-def addUser():
-    '''public synchronized void addUser(final STUser value)
-    '''
-def addGroup():
-    '''public synchronized void addGroup(final STGroup value)
-    '''
-def addUsers():
-    '''public synchronized void addUsers(final STUser[] array)
-    '''
-def addGroups():
-    '''public synchronized void addGroups(final STGroup[] array)
-    '''
-def removeUser():
-    '''public synchronized void removeUser(final STUser stUser)
-    '''
-def removeGroup():
-    '''public synchronized void removeGroup(final STGroup stGroup)
-    '''
-def removeUsers():
-    '''public synchronized void removeUsers(final STUser[] array)
-    '''
-def removeGroups():
-    '''public synchronized void removeGroups(final STGroup[] array)
-    '''
-def removeAll():
-    '''public synchronized void removeAll()
-    '''
 def getListId():
-    '''public String getListId()
+    '''returns String\n\n
+    getListId()\n
     '''
 def getTriggerStatus():
-    '''public short getTriggerStatus()
+    '''returns short\n\n
+    getTriggerStatus()\n
     '''
 def getDisplayStatus():
-    '''public short getDisplayStatus()
+    '''returns short\n\n
+    getDisplayStatus()\n
     '''
 def getCount():
-    '''public int getCount()
-    '''
-def getAll():
-    '''public synchronized STObject[] getAll()
-    '''
-def getUsers():
-    '''public synchronized STUser[] getUsers()
-    '''
-def getGroups():
-    '''public synchronized STGroup[] getGroups()
+    '''returns int\n\n
+    getCount()\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def isPrivacyOverridden():
-    '''public boolean isPrivacyOverridden()
-    '''
-def toString():
-    '''public synchronized String toString()
+    '''returns boolean\n\n
+    isPrivacyOverridden()\n
     '''

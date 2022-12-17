@@ -1,38 +1,50 @@
-def MaxSysIndexes():
-    '''public MaxSysIndexes(final MboSet ms)
+def ():
+    '''returns MaxSysIndexes\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canUndelete():
-    '''public void canUndelete()
+    '''returns None\n\n
+    canUndelete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def nativeIndexExists():
-    '''public boolean nativeIndexExists()
-    public boolean nativeIndexExists(final String name)
-    public boolean nativeIndexExists(final String name, final String tbname)
+    '''returns boolean\n\n
+    nativeIndexExists()\n
+    nativeIndexExists(final String name)\n
+    nativeIndexExists(final String name, final String tbname)\n
     '''
 def indexMetaExistsForOtherTable():
-    '''public boolean indexMetaExistsForOtherTable(final String name)
+    '''returns boolean\n\n
+    indexMetaExistsForOtherTable(final String name)\n
     '''
 def checkForDups():
-    '''public void checkForDups()
+    '''returns None\n\n
+    checkForDups()\n
     '''
 def getMboValue():
-    '''public MboValue getMboValue(final String nameInput)
+    '''returns MboValue\n\n
+    getMboValue(final String nameInput)\n
     '''

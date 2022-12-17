@@ -1,51 +1,67 @@
-def NamedColorSpace():
-    '''public NamedColorSpace(final String name, final float[] xyz)
-    public NamedColorSpace(final String name, final float[] xyz, final String profileName, final String profileURI)
-    public NamedColorSpace(final String name, final Color color, final String profileName, final String profileURI)
-    public NamedColorSpace(final String name, final Color color)
+def ():
+    '''returns NamedColorSpace\n\n
+    (final String name, final float[] xyz)\n
+    (final String name, final float[] xyz, final String profileName, final String profileURI)\n
+    (final String name, final Color color, final String profileName, final String profileURI)\n
+    (final String name, final Color color)\n
     '''
 def getColorName():
-    '''public String getColorName()
+    '''returns String\n\n
+    getColorName()\n
     '''
 def getProfileName():
-    '''public String getProfileName()
+    '''returns String\n\n
+    getProfileName()\n
     '''
 def getProfileURI():
-    '''public String getProfileURI()
+    '''returns String\n\n
+    getProfileURI()\n
     '''
 def getXYZ():
-    '''public float[] getXYZ()
+    '''returns float[]\n\n
+    getXYZ()\n
     '''
 def getRGBColor():
-    '''public Color getRGBColor()
+    '''returns Color\n\n
+    getRGBColor()\n
     '''
 def getMinValue():
-    '''public float getMinValue(final int component)
+    '''returns float\n\n
+    getMinValue(final int component)\n
     '''
 def getMaxValue():
-    '''public float getMaxValue(final int component)
+    '''returns float\n\n
+    getMaxValue(final int component)\n
     '''
 def getName():
-    '''public String getName(final int component)
+    '''returns String\n\n
+    getName(final int component)\n
     '''
 def fromCIEXYZ():
-    '''public float[] fromCIEXYZ(final float[] colorvalue)
+    '''returns float[]\n\n
+    fromCIEXYZ(final float[] colorvalue)\n
     '''
 def fromRGB():
-    '''public float[] fromRGB(final float[] rgbvalue)
+    '''returns float[]\n\n
+    fromRGB(final float[] rgbvalue)\n
     '''
 def toCIEXYZ():
-    '''public float[] toCIEXYZ(final float[] colorvalue)
+    '''returns float[]\n\n
+    toCIEXYZ(final float[] colorvalue)\n
     '''
 def toRGB():
-    '''public float[] toRGB(final float[] colorvalue)
+    '''returns float[]\n\n
+    toRGB(final float[] colorvalue)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

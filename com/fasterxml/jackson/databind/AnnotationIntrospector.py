@@ -1,194 +1,242 @@
-def nopInstance():
-    '''public static AnnotationIntrospector nopInstance()
-    '''
-def pair():
-    '''public static AnnotationIntrospector pair(final AnnotationIntrospector a1, final AnnotationIntrospector a2)
-    '''
 def allIntrospectors():
-    '''public Collection<AnnotationIntrospector> allIntrospectors()
-    public Collection<AnnotationIntrospector> allIntrospectors(final Collection<AnnotationIntrospector> result)
+    '''returns Collection<AnnotationIntrospector>\n\n
+    allIntrospectors()\n
+    allIntrospectors(final Collection<AnnotationIntrospector> result)\n
     '''
 def isAnnotationBundle():
-    '''public boolean isAnnotationBundle(final Annotation ann)
+    '''returns boolean\n\n
+    isAnnotationBundle(final Annotation ann)\n
     '''
 def findObjectIdInfo():
-    '''public ObjectIdInfo findObjectIdInfo(final Annotated ann)
+    '''returns ObjectIdInfo\n\n
+    findObjectIdInfo(final Annotated ann)\n
     '''
 def findObjectReferenceInfo():
-    '''public ObjectIdInfo findObjectReferenceInfo(final Annotated ann, final ObjectIdInfo objectIdInfo)
+    '''returns ObjectIdInfo\n\n
+    findObjectReferenceInfo(final Annotated ann, final ObjectIdInfo objectIdInfo)\n
     '''
 def findRootName():
-    '''public PropertyName findRootName(final AnnotatedClass ac)
+    '''returns PropertyName\n\n
+    findRootName(final AnnotatedClass ac)\n
     '''
 def isIgnorableType():
-    '''public Boolean isIgnorableType(final AnnotatedClass ac)
+    '''returns Boolean\n\n
+    isIgnorableType(final AnnotatedClass ac)\n
     '''
 def findFilterId():
-    '''public Object findFilterId(final Annotated ann)
+    '''returns Object\n\n
+    findFilterId(final Annotated ann)\n
     '''
 def findNamingStrategy():
-    '''public Object findNamingStrategy(final AnnotatedClass ac)
+    '''returns Object\n\n
+    findNamingStrategy(final AnnotatedClass ac)\n
     '''
 def findClassDescription():
-    '''public String findClassDescription(final AnnotatedClass ac)
+    '''returns String\n\n
+    findClassDescription(final AnnotatedClass ac)\n
     '''
 def findPropertiesToIgnore():
-    '''public String[] findPropertiesToIgnore(final Annotated ac, final boolean forSerialization)
-    public String[] findPropertiesToIgnore(final Annotated ac)
+    '''returns String[]\n\n
+    findPropertiesToIgnore(final Annotated ac, final boolean forSerialization)\n
+    findPropertiesToIgnore(final Annotated ac)\n
     '''
 def findIgnoreUnknownProperties():
-    '''public Boolean findIgnoreUnknownProperties(final AnnotatedClass ac)
+    '''returns Boolean\n\n
+    findIgnoreUnknownProperties(final AnnotatedClass ac)\n
     '''
 def findSubtypes():
-    '''public List<NamedType> findSubtypes(final Annotated a)
+    '''returns List<NamedType>\n\n
+    findSubtypes(final Annotated a)\n
     '''
 def findTypeName():
-    '''public String findTypeName(final AnnotatedClass ac)
+    '''returns String\n\n
+    findTypeName(final AnnotatedClass ac)\n
     '''
 def isTypeId():
-    '''public Boolean isTypeId(final AnnotatedMember member)
+    '''returns Boolean\n\n
+    isTypeId(final AnnotatedMember member)\n
     '''
 def findReferenceType():
-    '''public ReferenceProperty findReferenceType(final AnnotatedMember member)
+    '''returns ReferenceProperty\n\n
+    findReferenceType(final AnnotatedMember member)\n
     '''
 def findUnwrappingNameTransformer():
-    '''public NameTransformer findUnwrappingNameTransformer(final AnnotatedMember member)
+    '''returns NameTransformer\n\n
+    findUnwrappingNameTransformer(final AnnotatedMember member)\n
     '''
 def hasIgnoreMarker():
-    '''public boolean hasIgnoreMarker(final AnnotatedMember m)
+    '''returns boolean\n\n
+    hasIgnoreMarker(final AnnotatedMember m)\n
     '''
 def hasRequiredMarker():
-    '''public Boolean hasRequiredMarker(final AnnotatedMember m)
+    '''returns Boolean\n\n
+    hasRequiredMarker(final AnnotatedMember m)\n
     '''
 def findWrapperName():
-    '''public PropertyName findWrapperName(final Annotated ann)
+    '''returns PropertyName\n\n
+    findWrapperName(final Annotated ann)\n
     '''
 def findPropertyDefaultValue():
-    '''public String findPropertyDefaultValue(final Annotated ann)
+    '''returns String\n\n
+    findPropertyDefaultValue(final Annotated ann)\n
     '''
 def findPropertyDescription():
-    '''public String findPropertyDescription(final Annotated ann)
+    '''returns String\n\n
+    findPropertyDescription(final Annotated ann)\n
     '''
 def findPropertyIndex():
-    '''public Integer findPropertyIndex(final Annotated ann)
+    '''returns Integer\n\n
+    findPropertyIndex(final Annotated ann)\n
     '''
 def findImplicitPropertyName():
-    '''public String findImplicitPropertyName(final AnnotatedMember member)
+    '''returns String\n\n
+    findImplicitPropertyName(final AnnotatedMember member)\n
     '''
 def findPropertyAliases():
-    '''public List<PropertyName> findPropertyAliases(final Annotated ann)
+    '''returns List<PropertyName>\n\n
+    findPropertyAliases(final Annotated ann)\n
     '''
 def resolveSetterConflict():
-    '''public AnnotatedMethod resolveSetterConflict(final MapperConfig<?> config, final AnnotatedMethod setter1, final AnnotatedMethod setter2)
+    '''returns AnnotatedMethod\n\n
+    resolveSetterConflict(final MapperConfig<?> config, final AnnotatedMethod setter1, final AnnotatedMethod setter2)\n
     '''
 def findInjectableValueId():
-    '''public Object findInjectableValueId(final AnnotatedMember m)
+    '''returns Object\n\n
+    findInjectableValueId(final AnnotatedMember m)\n
     '''
 def findSerializer():
-    '''public Object findSerializer(final Annotated am)
+    '''returns Object\n\n
+    findSerializer(final Annotated am)\n
     '''
 def findKeySerializer():
-    '''public Object findKeySerializer(final Annotated am)
+    '''returns Object\n\n
+    findKeySerializer(final Annotated am)\n
     '''
 def findContentSerializer():
-    '''public Object findContentSerializer(final Annotated am)
+    '''returns Object\n\n
+    findContentSerializer(final Annotated am)\n
     '''
 def findNullSerializer():
-    '''public Object findNullSerializer(final Annotated am)
+    '''returns Object\n\n
+    findNullSerializer(final Annotated am)\n
     '''
 def findSerializationConverter():
-    '''public Object findSerializationConverter(final Annotated a)
+    '''returns Object\n\n
+    findSerializationConverter(final Annotated a)\n
     '''
 def findSerializationContentConverter():
-    '''public Object findSerializationContentConverter(final AnnotatedMember a)
+    '''returns Object\n\n
+    findSerializationContentConverter(final AnnotatedMember a)\n
     '''
 def refineSerializationType():
-    '''public JavaType refineSerializationType(final MapperConfig<?> config, final Annotated a, final JavaType baseType)
+    '''returns JavaType\n\n
+    refineSerializationType(final MapperConfig<?> config, final Annotated a, final JavaType baseType)\n
     '''
 def findSerializationPropertyOrder():
-    '''public String[] findSerializationPropertyOrder(final AnnotatedClass ac)
+    '''returns String[]\n\n
+    findSerializationPropertyOrder(final AnnotatedClass ac)\n
     '''
 def findSerializationSortAlphabetically():
-    '''public Boolean findSerializationSortAlphabetically(final Annotated ann)
+    '''returns Boolean\n\n
+    findSerializationSortAlphabetically(final Annotated ann)\n
     '''
 def findAndAddVirtualProperties():
-    '''public void findAndAddVirtualProperties(final MapperConfig<?> config, final AnnotatedClass ac, final List<BeanPropertyWriter> properties)
+    '''returns None\n\n
+    findAndAddVirtualProperties(final MapperConfig<?> config, final AnnotatedClass ac, final List<BeanPropertyWriter> properties)\n
     '''
 def findNameForSerialization():
-    '''public PropertyName findNameForSerialization(final Annotated a)
+    '''returns PropertyName\n\n
+    findNameForSerialization(final Annotated a)\n
     '''
 def hasAsValue():
-    '''public Boolean hasAsValue(final Annotated a)
+    '''returns Boolean\n\n
+    hasAsValue(final Annotated a)\n
     '''
 def hasAnyGetter():
-    '''public Boolean hasAnyGetter(final Annotated a)
+    '''returns Boolean\n\n
+    hasAnyGetter(final Annotated a)\n
     '''
 def findEnumValues():
-    '''public String[] findEnumValues(final Class<?> enumType, final Enum<?>[] enumValues, final String[] names)
+    '''returns String[]\n\n
+    findEnumValues(final Class<?> enumType, final Enum<?>[] enumValues, final String[] names)\n
     '''
 def findEnumValue():
-    '''public String findEnumValue(final Enum<?> value)
+    '''returns String\n\n
+    findEnumValue(final Enum<?> value)\n
     '''
 def hasAsValueAnnotation():
-    '''public boolean hasAsValueAnnotation(final AnnotatedMethod am)
+    '''returns boolean\n\n
+    hasAsValueAnnotation(final AnnotatedMethod am)\n
     '''
 def hasAnyGetterAnnotation():
-    '''public boolean hasAnyGetterAnnotation(final AnnotatedMethod am)
+    '''returns boolean\n\n
+    hasAnyGetterAnnotation(final AnnotatedMethod am)\n
     '''
 def findDeserializer():
-    '''public Object findDeserializer(final Annotated am)
+    '''returns Object\n\n
+    findDeserializer(final Annotated am)\n
     '''
 def findKeyDeserializer():
-    '''public Object findKeyDeserializer(final Annotated am)
+    '''returns Object\n\n
+    findKeyDeserializer(final Annotated am)\n
     '''
 def findContentDeserializer():
-    '''public Object findContentDeserializer(final Annotated am)
+    '''returns Object\n\n
+    findContentDeserializer(final Annotated am)\n
     '''
 def findDeserializationConverter():
-    '''public Object findDeserializationConverter(final Annotated a)
+    '''returns Object\n\n
+    findDeserializationConverter(final Annotated a)\n
     '''
 def findDeserializationContentConverter():
-    '''public Object findDeserializationContentConverter(final AnnotatedMember a)
+    '''returns Object\n\n
+    findDeserializationContentConverter(final AnnotatedMember a)\n
     '''
 def refineDeserializationType():
-    '''public JavaType refineDeserializationType(final MapperConfig<?> config, final Annotated a, final JavaType baseType)
+    '''returns JavaType\n\n
+    refineDeserializationType(final MapperConfig<?> config, final Annotated a, final JavaType baseType)\n
     '''
 def findValueInstantiator():
-    '''public Object findValueInstantiator(final AnnotatedClass ac)
+    '''returns Object\n\n
+    findValueInstantiator(final AnnotatedClass ac)\n
     '''
 def findNameForDeserialization():
-    '''public PropertyName findNameForDeserialization(final Annotated a)
+    '''returns PropertyName\n\n
+    findNameForDeserialization(final Annotated a)\n
     '''
 def hasAnySetter():
-    '''public Boolean hasAnySetter(final Annotated a)
+    '''returns Boolean\n\n
+    hasAnySetter(final Annotated a)\n
     '''
 def findMergeInfo():
-    '''public Boolean findMergeInfo(final Annotated a)
+    '''returns Boolean\n\n
+    findMergeInfo(final Annotated a)\n
     '''
 def hasCreatorAnnotation():
-    '''public boolean hasCreatorAnnotation(final Annotated a)
+    '''returns boolean\n\n
+    hasCreatorAnnotation(final Annotated a)\n
     '''
 def hasAnySetterAnnotation():
-    '''public boolean hasAnySetterAnnotation(final AnnotatedMethod am)
+    '''returns boolean\n\n
+    hasAnySetterAnnotation(final AnnotatedMethod am)\n
     '''
-def ReferenceProperty():
-    '''public ReferenceProperty(final Type t, final String n)
-    '''
-def managed():
-    '''public static ReferenceProperty managed(final String name)
-    '''
-def back():
-    '''public static ReferenceProperty back(final String name)
+def ():
+    '''returns ReferenceProperty\n\n
+    (final Type t, final String n)\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isManagedReference():
-    '''public boolean isManagedReference()
+    '''returns boolean\n\n
+    isManagedReference()\n
     '''
 def isBackReference():
-    '''public boolean isBackReference()
+    '''returns boolean\n\n
+    isBackReference()\n
     '''

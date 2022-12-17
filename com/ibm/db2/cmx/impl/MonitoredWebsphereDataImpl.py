@@ -1,12 +1,12 @@
 def getNumberInUseConnection():
-    '''public int getNumberInUseConnection()
+    '''returns int\n\n
+    getNumberInUseConnection()\n
     '''
 def getNumberFreeConnection():
-    '''public int getNumberFreeConnection()
+    '''returns int\n\n
+    getNumberFreeConnection()\n
     '''
 def getMaxWaitTime():
-    '''public int getMaxWaitTime()
-    '''
-def parseMonitoredWebsphereData():
-    '''public static MonitoredWebsphereData parseMonitoredWebsphereData(final JSONArray jsonArray)
+    '''returns int\n\n
+    getMaxWaitTime()\n
     '''

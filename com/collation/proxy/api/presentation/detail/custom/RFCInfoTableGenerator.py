@@ -1,6 +1,8 @@
-def RFCInfoTableGenerator():
-    '''public RFCInfoTableGenerator(final Guid guid, final long version, final TableContent content, final SessionContext session)
+def ():
+    '''returns RFCInfoTableGenerator\n\n
+    (final Guid guid, final long version, final TableContent content, final SessionContext session)\n
     '''
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''

@@ -1,30 +1,40 @@
-def ComponentDescriptor():
-    '''public ComponentDescriptor()
+def ():
+    '''returns ComponentDescriptor\n\n
+    ()\n
     '''
 def getInstanceTemplate():
-    '''public ComponentDescriptor getInstanceTemplate(final Element compElement)
+    '''returns ComponentDescriptor\n\n
+    getInstanceTemplate(final Element compElement)\n
     '''
 def getInstance():
-    '''public BaseInstance getInstance(final WebClientSession wcs, final ControlInstance control)
+    '''returns BaseInstance\n\n
+    getInstance(final WebClientSession wcs, final ControlInstance control)\n
     '''
 def addChild():
-    '''public void addChild(final ComponentDescriptor child)
+    '''returns None\n\n
+    addChild(final ComponentDescriptor child)\n
     '''
 def getChildren():
-    '''public List<ComponentDescriptor> getChildren()
+    '''returns List<ComponentDescriptor>\n\n
+    getChildren()\n
     '''
 def getParent():
-    '''public ComponentDescriptor getParent()
+    '''returns ComponentDescriptor\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final ComponentDescriptor parent)
+    '''returns None\n\n
+    setParent(final ComponentDescriptor parent)\n
     '''
 def setControlDescriptor():
-    '''public void setControlDescriptor(final ControlDescriptor parent)
+    '''returns None\n\n
+    setControlDescriptor(final ControlDescriptor parent)\n
     '''
 def getControlDescriptor():
-    '''public ControlDescriptor getControlDescriptor()
+    '''returns ControlDescriptor\n\n
+    getControlDescriptor()\n
     '''
 def getJSPFileName():
-    '''public String getJSPFileName()
+    '''returns String\n\n
+    getJSPFileName()\n
     '''

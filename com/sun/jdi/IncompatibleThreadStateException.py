@@ -1,4 +1,5 @@
-def IncompatibleThreadStateException():
-    '''public IncompatibleThreadStateException()
-    public IncompatibleThreadStateException(final String message)
+def ():
+    '''returns IncompatibleThreadStateException\n\n
+    ()\n
+    (final String message)\n
     '''

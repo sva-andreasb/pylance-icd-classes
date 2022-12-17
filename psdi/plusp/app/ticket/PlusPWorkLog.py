@@ -1,27 +1,36 @@
-def PlusPWorkLog():
-    '''public PlusPWorkLog(final MboSet arg0)
+def ():
+    '''returns PlusPWorkLog\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def setWorkLogEstimateDetailsForkWorkOrder():
-    '''public void setWorkLogEstimateDetailsForkWorkOrder(final MboRemote price)
+    '''returns None\n\n
+    setWorkLogEstimateDetailsForkWorkOrder(final MboRemote price)\n
     '''
 def setPrice():
-    '''public void setPrice(final MboRemote mboRemote)
+    '''returns None\n\n
+    setPrice(final MboRemote mboRemote)\n
     '''
 def getInternalEstimateStatus():
-    '''public String getInternalEstimateStatus()
+    '''returns String\n\n
+    getInternalEstimateStatus()\n
     '''
 def changeEstimateStatus():
-    '''public void changeEstimateStatus(final String value)
+    '''returns None\n\n
+    changeEstimateStatus(final String value)\n
     '''
 def reworkEstimate():
-    '''public void reworkEstimate(final boolean b)
+    '''returns None\n\n
+    reworkEstimate(final boolean b)\n
     '''

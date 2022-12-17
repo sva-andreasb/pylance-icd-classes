@@ -1,21 +1,28 @@
-def NodeInfo():
-    '''public NodeInfo(final String nodeId, final String sourceId, final String cacheType)
+def ():
+    '''returns NodeInfo\n\n
+    (final String nodeId, final String sourceId, final String cacheType)\n
     '''
 def getNodeId():
-    '''public String getNodeId()
+    '''returns String\n\n
+    getNodeId()\n
     '''
 def getSourceId():
-    '''public String getSourceId()
+    '''returns String\n\n
+    getSourceId()\n
     '''
 def getCacheType():
-    '''public String getCacheType()
+    '''returns String\n\n
+    getCacheType()\n
     '''
 def appendTo():
-    '''public void appendTo(final XmlStringBuilder xml)
+    '''returns None\n\n
+    appendTo(final XmlStringBuilder xml)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

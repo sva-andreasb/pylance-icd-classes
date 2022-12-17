@@ -1,6 +1,8 @@
 def loadData():
-    '''public int loadData()
+    '''returns int\n\n
+    loadData()\n
     '''
 def loadGranted():
-    '''public int loadGranted()
+    '''returns int\n\n
+    loadGranted()\n
     '''

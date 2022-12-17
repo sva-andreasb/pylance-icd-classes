@@ -1,3 +1,4 @@
-def PlusCFldMasterPMNum():
-    '''public PlusCFldMasterPMNum(final MboValue mbv)
+def ():
+    '''returns PlusCFldMasterPMNum\n\n
+    (final MboValue mbv)\n
     '''

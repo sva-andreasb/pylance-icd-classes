@@ -1,100 +1,125 @@
-def PreferenceManager():
-    '''public PreferenceManager(final String prefFileName)
-    public PreferenceManager(final String prefFileName, final Map defaults)
-    '''
-def setPreferenceDirectory():
-    '''public static void setPreferenceDirectory(final String dir)
-    '''
-def getPreferenceDirectory():
-    '''public static String getPreferenceDirectory()
+def ():
+    '''returns PreferenceManager\n\n
+    (final String prefFileName)\n
+    (final String prefFileName, final Map defaults)\n
     '''
 def load():
-    '''public void load()
+    '''returns None\n\n
+    load()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def getRectangle():
-    '''public Rectangle getRectangle(final String key)
+    '''returns Rectangle\n\n
+    getRectangle(final String key)\n
     '''
 def getDimension():
-    '''public Dimension getDimension(final String key)
+    '''returns Dimension\n\n
+    getDimension(final String key)\n
     '''
 def getPoint():
-    '''public Point getPoint(final String key)
+    '''returns Point\n\n
+    getPoint(final String key)\n
     '''
 def getColor():
-    '''public Color getColor(final String key)
+    '''returns Color\n\n
+    getColor(final String key)\n
     '''
 def getFont():
-    '''public Font getFont(final String key)
+    '''returns Font\n\n
+    getFont(final String key)\n
     '''
 def getString():
-    '''public String getString(final String key)
+    '''returns String\n\n
+    getString(final String key)\n
     '''
 def getStrings():
-    '''public String[] getStrings(final String mkey)
+    '''returns String[]\n\n
+    getStrings(final String mkey)\n
     '''
 def getURL():
-    '''public URL getURL(final String key)
+    '''returns URL\n\n
+    getURL(final String key)\n
     '''
 def getURLs():
-    '''public URL[] getURLs(final String mkey)
+    '''returns URL[]\n\n
+    getURLs(final String mkey)\n
     '''
 def getFile():
-    '''public File getFile(final String key)
+    '''returns File\n\n
+    getFile(final String key)\n
     '''
 def getFiles():
-    '''public File[] getFiles(final String mkey)
+    '''returns File[]\n\n
+    getFiles(final String mkey)\n
     '''
 def getInteger():
-    '''public int getInteger(final String key)
+    '''returns int\n\n
+    getInteger(final String key)\n
     '''
 def getFloat():
-    '''public float getFloat(final String key)
+    '''returns float\n\n
+    getFloat(final String key)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String key)
+    '''returns boolean\n\n
+    getBoolean(final String key)\n
     '''
 def setRectangle():
-    '''public void setRectangle(final String key, final Rectangle value)
+    '''returns None\n\n
+    setRectangle(final String key, final Rectangle value)\n
     '''
 def setDimension():
-    '''public void setDimension(final String key, final Dimension value)
+    '''returns None\n\n
+    setDimension(final String key, final Dimension value)\n
     '''
 def setPoint():
-    '''public void setPoint(final String key, final Point value)
+    '''returns None\n\n
+    setPoint(final String key, final Point value)\n
     '''
 def setColor():
-    '''public void setColor(final String key, final Color value)
+    '''returns None\n\n
+    setColor(final String key, final Color value)\n
     '''
 def setFont():
-    '''public void setFont(final String key, final Font value)
+    '''returns None\n\n
+    setFont(final String key, final Font value)\n
     '''
 def setString():
-    '''public void setString(final String key, final String value)
+    '''returns None\n\n
+    setString(final String key, final String value)\n
     '''
 def setStrings():
-    '''public void setStrings(final String mkey, final String[] values)
+    '''returns None\n\n
+    setStrings(final String mkey, final String[] values)\n
     '''
 def setURL():
-    '''public void setURL(final String key, final URL value)
+    '''returns None\n\n
+    setURL(final String key, final URL value)\n
     '''
 def setURLs():
-    '''public void setURLs(final String mkey, final URL[] values)
+    '''returns None\n\n
+    setURLs(final String mkey, final URL[] values)\n
     '''
 def setFile():
-    '''public void setFile(final String key, final File value)
+    '''returns None\n\n
+    setFile(final String key, final File value)\n
     '''
 def setFiles():
-    '''public void setFiles(final String mkey, final File[] values)
+    '''returns None\n\n
+    setFiles(final String mkey, final File[] values)\n
     '''
 def setInteger():
-    '''public void setInteger(final String key, final int value)
+    '''returns None\n\n
+    setInteger(final String key, final int value)\n
     '''
 def setFloat():
-    '''public void setFloat(final String key, final float value)
+    '''returns None\n\n
+    setFloat(final String key, final float value)\n
     '''
 def setBoolean():
-    '''public void setBoolean(final String key, final boolean value)
+    '''returns None\n\n
+    setBoolean(final String key, final boolean value)\n
     '''

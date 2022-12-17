@@ -1,105 +1,140 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getCreditCardLastFourDigits():
-    '''public Long getCreditCardLastFourDigits()
+    '''returns Long\n\n
+    getCreditCardLastFourDigits()\n
     '''
 def setCreditCardLastFourDigits():
-    '''public void setCreditCardLastFourDigits(final Long creditCardLastFourDigits)
+    '''returns None\n\n
+    setCreditCardLastFourDigits(final Long creditCardLastFourDigits)\n
     '''
 def getCreditCardRequestId():
-    '''public String getCreditCardRequestId()
+    '''returns String\n\n
+    getCreditCardRequestId()\n
     '''
 def setCreditCardRequestId():
-    '''public void setCreditCardRequestId(final String creditCardRequestId)
+    '''returns None\n\n
+    setCreditCardRequestId(final String creditCardRequestId)\n
     '''
 def getCreditCardTransaction():
-    '''public Transaction getCreditCardTransaction()
+    '''returns Transaction\n\n
+    getCreditCardTransaction()\n
     '''
 def setCreditCardTransaction():
-    '''public void setCreditCardTransaction(final Transaction creditCardTransaction)
+    '''returns None\n\n
+    setCreditCardTransaction(final Transaction creditCardTransaction)\n
     '''
 def getExchangeRate():
-    '''public ExchangeRate getExchangeRate()
+    '''returns ExchangeRate\n\n
+    getExchangeRate()\n
     '''
 def setExchangeRate():
-    '''public void setExchangeRate(final ExchangeRate exchangeRate)
+    '''returns None\n\n
+    setExchangeRate(final ExchangeRate exchangeRate)\n
     '''
 def getInvoice():
-    '''public Invoice getInvoice()
+    '''returns Invoice\n\n
+    getInvoice()\n
     '''
 def setInvoice():
-    '''public void setInvoice(final Invoice invoice)
+    '''returns None\n\n
+    setInvoice(final Invoice invoice)\n
     '''
 def setPaypalTransaction():
-    '''public void setPaypalTransaction(final com.softlayer.api.service.billing.payment.paypal.Transaction paypalTransaction)
+    '''returns None\n\n
+    setPaypalTransaction(final com.softlayer.api.service.billing.payment.paypal.Transaction paypalTransaction)\n
     '''
 def getAmount():
-    '''public BigDecimal getAmount()
+    '''returns BigDecimal\n\n
+    getAmount()\n
     '''
 def setAmount():
-    '''public void setAmount(final BigDecimal amount)
+    '''returns None\n\n
+    setAmount(final BigDecimal amount)\n
     '''
 def isAmountSpecified():
-    '''public boolean isAmountSpecified()
+    '''returns boolean\n\n
+    isAmountSpecified()\n
     '''
 def unsetAmount():
-    '''public void unsetAmount()
+    '''returns None\n\n
+    unsetAmount()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getInvoiceId():
-    '''public Long getInvoiceId()
+    '''returns Long\n\n
+    getInvoiceId()\n
     '''
 def setInvoiceId():
-    '''public void setInvoiceId(final Long invoiceId)
+    '''returns None\n\n
+    setInvoiceId(final Long invoiceId)\n
     '''
 def isInvoiceIdSpecified():
-    '''public boolean isInvoiceIdSpecified()
+    '''returns boolean\n\n
+    isInvoiceIdSpecified()\n
     '''
 def unsetInvoiceId():
-    '''public void unsetInvoiceId()
+    '''returns None\n\n
+    unsetInvoiceId()\n
     '''
 def getTypeCode():
-    '''public String getTypeCode()
+    '''returns String\n\n
+    getTypeCode()\n
     '''
 def setTypeCode():
-    '''public void setTypeCode(final String typeCode)
+    '''returns None\n\n
+    setTypeCode(final String typeCode)\n
     '''
 def isTypeCodeSpecified():
-    '''public boolean isTypeCodeSpecified()
+    '''returns boolean\n\n
+    isTypeCodeSpecified()\n
     '''
 def unsetTypeCode():
-    '''public void unsetTypeCode()
+    '''returns None\n\n
+    unsetTypeCode()\n
     '''
 def creditCardLastFourDigits():
-    '''public Mask creditCardLastFourDigits()
+    '''returns Mask\n\n
+    creditCardLastFourDigits()\n
     '''
 def creditCardRequestId():
-    '''public Mask creditCardRequestId()
+    '''returns Mask\n\n
+    creditCardRequestId()\n
     '''
 def amount():
-    '''public Mask amount()
+    '''returns Mask\n\n
+    amount()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def invoiceId():
-    '''public Mask invoiceId()
+    '''returns Mask\n\n
+    invoiceId()\n
     '''
 def typeCode():
-    '''public Mask typeCode()
+    '''returns Mask\n\n
+    typeCode()\n
     '''

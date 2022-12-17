@@ -1,6 +1,8 @@
-def IEMTaskMbo():
-    '''public IEMTaskMbo(final MboSet ms)
+def ():
+    '''returns IEMTaskMbo\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

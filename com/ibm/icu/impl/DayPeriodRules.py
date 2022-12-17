@@ -1,19 +1,21 @@
-def getInstance():
-    '''public static DayPeriodRules getInstance(final ULocale locale)
-    '''
 def getMidPointForDayPeriod():
-    '''public double getMidPointForDayPeriod(final DayPeriod dayPeriod)
+    '''returns double\n\n
+    getMidPointForDayPeriod(final DayPeriod dayPeriod)\n
     '''
 def hasMidnight():
-    '''public boolean hasMidnight()
+    '''returns boolean\n\n
+    hasMidnight()\n
     '''
 def hasNoon():
-    '''public boolean hasNoon()
+    '''returns boolean\n\n
+    hasNoon()\n
     '''
 def getDayPeriodForHour():
-    '''public DayPeriod getDayPeriodForHour(final int hour)
+    '''returns DayPeriod\n\n
+    getDayPeriodForHour(final int hour)\n
     '''
 def put():
-    '''public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
-    public void put(final UResource.Key key, final UResource.Value value, final boolean noFallback)
+    '''returns None\n\n
+    put(final UResource.Key key, final UResource.Value value, final boolean noFallback)\n
+    put(final UResource.Key key, final UResource.Value value, final boolean noFallback)\n
     '''

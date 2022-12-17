@@ -1,12 +1,16 @@
 def createCoreStackMemberInfo():
-    '''public CoreStackMemberInfo createCoreStackMemberInfo()
+    '''returns CoreStackMemberInfo\n\n
+    createCoreStackMemberInfo()\n
     '''
 def createCoreStackInfo():
-    '''public CoreStackInfo createCoreStackInfo()
+    '''returns CoreStackInfo\n\n
+    createCoreStackInfo()\n
     '''
 def createCoreStack():
-    '''public CoreStack createCoreStack(final CoreStackInfo stackInfo, final CoreStackMemberInfo[] members, final CoreStackListener listener, final Map properties)
+    '''returns CoreStack\n\n
+    createCoreStack(final CoreStackInfo stackInfo, final CoreStackMemberInfo[] members, final CoreStackListener listener, final Map properties)\n
     '''
 def createDefaultCoreStack():
-    '''public CoreStack createDefaultCoreStack(final CoreStackInfo stackInfo, final CoreStackMemberInfo[] members, final CoreStackListener csl, final StateExchangeListener sel, final StateBlob blob, final Set bridges)
+    '''returns CoreStack\n\n
+    createDefaultCoreStack(final CoreStackInfo stackInfo, final CoreStackMemberInfo[] members, final CoreStackListener csl, final StateExchangeListener sel, final StateBlob blob, final Set bridges)\n
     '''

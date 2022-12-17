@@ -1,15 +1,18 @@
-def PrefixFileFilter():
-    '''public PrefixFileFilter(final String prefix)
-    public PrefixFileFilter(final String prefix, final IOCase caseSensitivity)
-    public PrefixFileFilter(final String[] prefixes)
-    public PrefixFileFilter(final String[] prefixes, final IOCase caseSensitivity)
-    public PrefixFileFilter(final List<String> prefixes)
-    public PrefixFileFilter(final List<String> prefixes, final IOCase caseSensitivity)
+def ():
+    '''returns PrefixFileFilter\n\n
+    (final String prefix)\n
+    (final String prefix, final IOCase caseSensitivity)\n
+    (final String[] prefixes)\n
+    (final String[] prefixes, final IOCase caseSensitivity)\n
+    (final List<String> prefixes)\n
+    (final List<String> prefixes, final IOCase caseSensitivity)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File file, final String name)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File file, final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

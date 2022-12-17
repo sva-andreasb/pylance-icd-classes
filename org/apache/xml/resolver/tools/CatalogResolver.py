@@ -1,17 +1,22 @@
-def CatalogResolver():
-    '''public CatalogResolver()
-    public CatalogResolver(final boolean privateCatalog)
-    public CatalogResolver(final CatalogManager manager)
+def ():
+    '''returns CatalogResolver\n\n
+    ()\n
+    (final boolean privateCatalog)\n
+    (final CatalogManager manager)\n
     '''
 def getCatalog():
-    '''public Catalog getCatalog()
+    '''returns Catalog\n\n
+    getCatalog()\n
     '''
 def getResolvedEntity():
-    '''public String getResolvedEntity(final String publicId, final String systemId)
+    '''returns String\n\n
+    getResolvedEntity(final String publicId, final String systemId)\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''
 def resolve():
-    '''public Source resolve(final String href, final String base)
+    '''returns Source\n\n
+    resolve(final String href, final String base)\n
     '''

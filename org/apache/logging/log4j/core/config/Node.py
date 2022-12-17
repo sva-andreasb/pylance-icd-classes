@@ -1,46 +1,51 @@
 CATEGORY = "String  \"Core\""
-def Node():
-    '''public Node(final Node parent, final String name, final PluginType<?> type)
-    public Node()
-    public Node(final Node node)
+def ():
+    '''returns Node\n\n
+    (final Node parent, final String name, final PluginType<?> type)\n
+    ()\n
+    (final Node node)\n
     '''
 def setParent():
-    '''public void setParent(final Node parent)
-    '''
-def getAttributes():
-    '''public Map<String, String> getAttributes()
+    '''returns None\n\n
+    setParent(final Node parent)\n
     '''
 def getChildren():
-    '''public List<Node> getChildren()
+    '''returns List<Node>\n\n
+    getChildren()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getParent():
-    '''public Node getParent()
+    '''returns Node\n\n
+    getParent()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isRoot():
-    '''public boolean isRoot()
+    '''returns boolean\n\n
+    isRoot()\n
     '''
 def setObject():
-    '''public void setObject(final Object obj)
-    '''
-def getObject():
-    '''public <T> T getObject()
-    public <T> T getObject(final Class<T> clazz)
+    '''returns None\n\n
+    setObject(final Object obj)\n
     '''
 def isInstanceOf():
-    '''public boolean isInstanceOf(final Class<?> clazz)
+    '''returns boolean\n\n
+    isInstanceOf(final Class<?> clazz)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

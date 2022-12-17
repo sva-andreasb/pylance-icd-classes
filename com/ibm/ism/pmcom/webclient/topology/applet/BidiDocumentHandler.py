@@ -1,9 +1,12 @@
 def insertString():
-    '''public void insertString(final FilterBypass fb, final int offset, final String str, final AttributeSet attr)
+    '''returns None\n\n
+    insertString(final FilterBypass fb, final int offset, final String str, final AttributeSet attr)\n
     '''
 def remove():
-    '''public void remove(final FilterBypass fb, final int offset, final int length)
+    '''returns None\n\n
+    remove(final FilterBypass fb, final int offset, final int length)\n
     '''
 def replace():
-    '''public void replace(final FilterBypass fb, final int offset, final int length, final String str, final AttributeSet attr)
+    '''returns None\n\n
+    replace(final FilterBypass fb, final int offset, final int length, final String str, final AttributeSet attr)\n
     '''

@@ -1,7 +1,9 @@
-def FileLockException():
-    '''public FileLockException(final Throwable t)
-    public FileLockException(final String msg)
+def ():
+    '''returns FileLockException\n\n
+    (final Throwable t)\n
+    (final String msg)\n
     '''
 def isRetryable():
-    '''public boolean isRetryable()
+    '''returns boolean\n\n
+    isRetryable()\n
     '''

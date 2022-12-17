@@ -1,3 +1,4 @@
-def ReportAdHocCalc():
-    '''public ReportAdHocCalc(final MboSet ms)
+def ():
+    '''returns ReportAdHocCalc\n\n
+    (final MboSet ms)\n
     '''

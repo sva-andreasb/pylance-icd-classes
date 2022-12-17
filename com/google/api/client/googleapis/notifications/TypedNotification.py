@@ -1,37 +1,45 @@
-def TypedNotification():
-    '''public TypedNotification(final long messageNumber, final String resourceState, final String resourceId, final String resourceUri, final String channelId)
-    public TypedNotification(final UnparsedNotification sourceNotification)
-    '''
-def getContent():
-    '''public final T getContent()
+def ():
+    '''returns TypedNotification\n\n
+    (final long messageNumber, final String resourceState, final String resourceId, final String resourceUri, final String channelId)\n
+    (final UnparsedNotification sourceNotification)\n
     '''
 def setContent():
-    '''public TypedNotification<T> setContent(final T content)
+    '''returns TypedNotification<T>\n\n
+    setContent(final T content)\n
     '''
 def setMessageNumber():
-    '''public TypedNotification<T> setMessageNumber(final long messageNumber)
+    '''returns TypedNotification<T>\n\n
+    setMessageNumber(final long messageNumber)\n
     '''
 def setResourceState():
-    '''public TypedNotification<T> setResourceState(final String resourceState)
+    '''returns TypedNotification<T>\n\n
+    setResourceState(final String resourceState)\n
     '''
 def setResourceId():
-    '''public TypedNotification<T> setResourceId(final String resourceId)
+    '''returns TypedNotification<T>\n\n
+    setResourceId(final String resourceId)\n
     '''
 def setResourceUri():
-    '''public TypedNotification<T> setResourceUri(final String resourceUri)
+    '''returns TypedNotification<T>\n\n
+    setResourceUri(final String resourceUri)\n
     '''
 def setChannelId():
-    '''public TypedNotification<T> setChannelId(final String channelId)
+    '''returns TypedNotification<T>\n\n
+    setChannelId(final String channelId)\n
     '''
 def setChannelExpiration():
-    '''public TypedNotification<T> setChannelExpiration(final String channelExpiration)
+    '''returns TypedNotification<T>\n\n
+    setChannelExpiration(final String channelExpiration)\n
     '''
 def setChannelToken():
-    '''public TypedNotification<T> setChannelToken(final String channelToken)
+    '''returns TypedNotification<T>\n\n
+    setChannelToken(final String channelToken)\n
     '''
 def setChanged():
-    '''public TypedNotification<T> setChanged(final String changed)
+    '''returns TypedNotification<T>\n\n
+    setChanged(final String changed)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

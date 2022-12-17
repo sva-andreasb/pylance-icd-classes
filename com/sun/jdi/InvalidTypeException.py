@@ -1,4 +1,5 @@
-def InvalidTypeException():
-    '''public InvalidTypeException()
-    public InvalidTypeException(final String message)
+def ():
+    '''returns InvalidTypeException\n\n
+    ()\n
+    (final String message)\n
     '''

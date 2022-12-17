@@ -2,42 +2,47 @@ sid = "int  19"
 STYLE_COMBO_DROPDOWN = "int  0"
 STYLE_COMBO_EDIT_DROPDOWN = "int  1"
 STYLE_COMBO_SIMPLE_DROPDOWN = "int  2"
-def LbsDataSubRecord():
-    '''public LbsDataSubRecord(final LittleEndianInput in, final int cbFContinued, final int cmoOt)
-    '''
-def newAutoFilterInstance():
-    '''public static LbsDataSubRecord newAutoFilterInstance()
+def ():
+    '''returns LbsDropData\n\n
+    (final LittleEndianInput in, final int cbFContinued, final int cmoOt)\n
+    ()\n
+    (final LittleEndianInput in)\n
     '''
 def isTerminating():
-    '''public boolean isTerminating()
+    '''returns boolean\n\n
+    isTerminating()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
-    public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def clone():
-    '''public LbsDataSubRecord clone()
+    '''returns LbsDataSubRecord\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getFormula():
-    '''public Ptg getFormula()
+    '''returns Ptg\n\n
+    getFormula()\n
     '''
 def getNumberOfItems():
-    '''public int getNumberOfItems()
-    '''
-def LbsDropData():
-    '''public LbsDropData()
-    public LbsDropData(final LittleEndianInput in)
+    '''returns int\n\n
+    getNumberOfItems()\n
     '''
 def setStyle():
-    '''public void setStyle(final int style)
+    '''returns None\n\n
+    setStyle(final int style)\n
     '''
 def setNumLines():
-    '''public void setNumLines(final int num)
+    '''returns None\n\n
+    setNumLines(final int num)\n
     '''
 def getDataSize():
-    '''public int getDataSize()
+    '''returns int\n\n
+    getDataSize()\n
     '''

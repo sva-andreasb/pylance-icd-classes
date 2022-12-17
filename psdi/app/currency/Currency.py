@@ -1,15 +1,20 @@
-def Currency():
-    '''public Currency(final MboSet ms)
+def ():
+    '''returns Currency\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getCurrencyCost():
-    '''public double getCurrencyCost(final String currencyCodeTo, final double value, final Date exchangeDate, final String orgId)
+    '''returns double\n\n
+    getCurrencyCost(final String currencyCodeTo, final double value, final Date exchangeDate, final String orgId)\n
     '''

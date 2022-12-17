@@ -1,22 +1,29 @@
-def OmemoFingerprint():
-    '''public OmemoFingerprint(final String fingerprintString)
+def ():
+    '''returns OmemoFingerprint\n\n
+    (final String fingerprintString)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
-    public CharSequence subSequence(final int start)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
+    subSequence(final int start)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

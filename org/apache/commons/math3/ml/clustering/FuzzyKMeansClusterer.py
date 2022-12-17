@@ -1,35 +1,46 @@
-def FuzzyKMeansClusterer():
-    '''public FuzzyKMeansClusterer(final int k, final double fuzziness)
-    public FuzzyKMeansClusterer(final int k, final double fuzziness, final int maxIterations, final DistanceMeasure measure)
-    public FuzzyKMeansClusterer(final int k, final double fuzziness, final int maxIterations, final DistanceMeasure measure, final double epsilon, final RandomGenerator random)
+def ():
+    '''returns FuzzyKMeansClusterer\n\n
+    (final int k, final double fuzziness)\n
+    (final int k, final double fuzziness, final int maxIterations, final DistanceMeasure measure)\n
+    (final int k, final double fuzziness, final int maxIterations, final DistanceMeasure measure, final double epsilon, final RandomGenerator random)\n
     '''
 def getK():
-    '''public int getK()
+    '''returns int\n\n
+    getK()\n
     '''
 def getFuzziness():
-    '''public double getFuzziness()
+    '''returns double\n\n
+    getFuzziness()\n
     '''
 def getMaxIterations():
-    '''public int getMaxIterations()
+    '''returns int\n\n
+    getMaxIterations()\n
     '''
 def getEpsilon():
-    '''public double getEpsilon()
+    '''returns double\n\n
+    getEpsilon()\n
     '''
 def getRandomGenerator():
-    '''public RandomGenerator getRandomGenerator()
+    '''returns RandomGenerator\n\n
+    getRandomGenerator()\n
     '''
 def getMembershipMatrix():
-    '''public RealMatrix getMembershipMatrix()
+    '''returns RealMatrix\n\n
+    getMembershipMatrix()\n
     '''
 def getDataPoints():
-    '''public List<T> getDataPoints()
+    '''returns List<T>\n\n
+    getDataPoints()\n
     '''
 def getClusters():
-    '''public List<CentroidCluster<T>> getClusters()
+    '''returns List<CentroidCluster<T>>\n\n
+    getClusters()\n
     '''
 def getObjectiveFunctionValue():
-    '''public double getObjectiveFunctionValue()
+    '''returns double\n\n
+    getObjectiveFunctionValue()\n
     '''
 def cluster():
-    '''public List<CentroidCluster<T>> cluster(final Collection<T> dataPoints)
+    '''returns List<CentroidCluster<T>>\n\n
+    cluster(final Collection<T> dataPoints)\n
     '''

@@ -1,3 +1,4 @@
-def PlusCAssetTemplateSet():
-    '''public PlusCAssetTemplateSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCAssetTemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

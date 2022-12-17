@@ -1,15 +1,20 @@
 def parse():
-    '''public void parse(final SetCookie cookie, final String domain)
+    '''returns None\n\n
+    parse(final SetCookie cookie, final String domain)\n
     '''
 def domainMatch():
-    '''public boolean domainMatch(final String host, final String domain)
+    '''returns boolean\n\n
+    domainMatch(final String host, final String domain)\n
     '''
 def validate():
-    '''public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''returns None\n\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def match():
-    '''public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''returns boolean\n\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''

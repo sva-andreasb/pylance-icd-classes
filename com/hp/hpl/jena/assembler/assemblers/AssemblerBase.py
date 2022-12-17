@@ -1,20 +1,13 @@
-def open():
-    '''public final Object open(final Resource root)
-    public final Object open(final Assembler a, final Resource root)
-    '''
 def openModel():
-    '''public Model openModel(final Resource root, final Mode mode)
-    public Model openModel(final Resource root)
+    '''returns Model\n\n
+    openModel(final Resource root, final Mode mode)\n
+    openModel(final Resource root)\n
     '''
-def getRequiredResource():
-    '''public static Resource getRequiredResource(final Resource root, final Property p)
-    '''
-def getOptionalClassName():
-    '''public static String getOptionalClassName(final Resource root, final Property classProperty)
-    '''
-def MapObjectToContent():
-    '''public MapObjectToContent(final Assembler a)
+def ():
+    '''returns MapObjectToContent\n\n
+    (final Assembler a)\n
     '''
 def map1():
-    '''public Content map1(final Statement o)
+    '''returns Content\n\n
+    map1(final Statement o)\n
     '''

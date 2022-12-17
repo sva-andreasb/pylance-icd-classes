@@ -1,6 +1,8 @@
-def DUP_X1():
-    '''public DUP_X1()
+def ():
+    '''returns DUP_X1\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

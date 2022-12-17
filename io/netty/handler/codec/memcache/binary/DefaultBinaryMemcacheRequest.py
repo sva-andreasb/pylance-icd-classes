@@ -1,20 +1,25 @@
 REQUEST_MAGIC_BYTE = "byte  Byte.MIN_VALUE"
-def DefaultBinaryMemcacheRequest():
-    '''public DefaultBinaryMemcacheRequest()
-    public DefaultBinaryMemcacheRequest(final ByteBuf key)
-    public DefaultBinaryMemcacheRequest(final ByteBuf key, final ByteBuf extras)
+def ():
+    '''returns DefaultBinaryMemcacheRequest\n\n
+    ()\n
+    (final ByteBuf key)\n
+    (final ByteBuf key, final ByteBuf extras)\n
     '''
 def reserved():
-    '''public short reserved()
+    '''returns short\n\n
+    reserved()\n
     '''
 def setReserved():
-    '''public BinaryMemcacheRequest setReserved(final short reserved)
+    '''returns BinaryMemcacheRequest\n\n
+    setReserved(final short reserved)\n
     '''
 def retain():
-    '''public BinaryMemcacheRequest retain()
-    public BinaryMemcacheRequest retain(final int increment)
+    '''returns BinaryMemcacheRequest\n\n
+    retain()\n
+    retain(final int increment)\n
     '''
 def touch():
-    '''public BinaryMemcacheRequest touch()
-    public BinaryMemcacheRequest touch(final Object hint)
+    '''returns BinaryMemcacheRequest\n\n
+    touch()\n
+    touch(final Object hint)\n
     '''

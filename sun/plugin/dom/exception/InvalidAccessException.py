@@ -1,3 +1,4 @@
-def InvalidAccessException():
-    '''public InvalidAccessException(final String message)
+def ():
+    '''returns InvalidAccessException\n\n
+    (final String message)\n
     '''

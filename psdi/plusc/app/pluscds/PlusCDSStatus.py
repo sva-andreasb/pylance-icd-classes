@@ -1,12 +1,16 @@
-def PlusCDSStatus():
-    '''public PlusCDSStatus(final MboSet mboset)
+def ():
+    '''returns PlusCDSStatus\n\n
+    (final MboSet mboset)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getPlusDSStatusRecord():
-    '''public Vector getPlusDSStatusRecord()
+    '''returns Vector\n\n
+    getPlusDSStatusRecord()\n
     '''

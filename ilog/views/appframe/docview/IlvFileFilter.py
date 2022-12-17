@@ -1,21 +1,27 @@
 READ = "int  1"
 WRITE = "int  2"
-def IlvFileFilter():
-    '''public IlvFileFilter(final IlvFileDocumentTemplate d, final String s, final String b)
+def ():
+    '''returns IlvFileFilter\n\n
+    (final IlvFileDocumentTemplate d, final String s, final String b)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final String s)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final String s)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getExtension():
-    '''public String getExtension()
+    '''returns String\n\n
+    getExtension()\n
     '''
 def getAccessMode():
-    '''public int getAccessMode()
+    '''returns int\n\n
+    getAccessMode()\n
     '''
 def setAccessMode():
-    '''public void setAccessMode(final int c)
+    '''returns None\n\n
+    setAccessMode(final int c)\n
     '''

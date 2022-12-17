@@ -1,9 +1,12 @@
-def IQResultReplyFilter():
-    '''public IQResultReplyFilter(final IQ iqPacket, final XMPPConnection conn)
+def ():
+    '''returns IQResultReplyFilter\n\n
+    (final IQ iqPacket, final XMPPConnection conn)\n
     '''
 def accept():
-    '''public boolean accept(final Stanza packet)
+    '''returns boolean\n\n
+    accept(final Stanza packet)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

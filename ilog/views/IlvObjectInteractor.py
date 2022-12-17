@@ -1,18 +1,16 @@
 def handleExpose():
-    '''public void handleExpose(final IlvGraphic ilvGraphic, final Graphics graphics, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    handleExpose(final IlvGraphic ilvGraphic, final Graphics graphics, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def onEnter():
-    '''public void onEnter(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    onEnter(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def onExit():
-    '''public void onExit(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)
-    '''
-def Get():
-    '''public static IlvObjectInteractor Get(String str)
-    '''
-def Put():
-    '''public static void Put(final String key, final IlvObjectInteractor value)
+    '''returns None\n\n
+    onExit(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def stopUse():
-    '''public void stopUse(final ClassLoaderLifetimeEvent classLoaderLifetimeEvent)
+    '''returns None\n\n
+    stopUse(final ClassLoaderLifetimeEvent classLoaderLifetimeEvent)\n
     '''

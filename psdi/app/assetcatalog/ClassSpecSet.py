@@ -1,39 +1,52 @@
-def ClassSpecSet():
-    '''public ClassSpecSet(final MboServerInterface ms)
+def ():
+    '''returns ClassSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getSequenceHastable():
-    '''public Hashtable getSequenceHastable()
+    '''returns Hashtable\n\n
+    getSequenceHastable()\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def insertLargeQuantitySpecs():
-    '''public void insertLargeQuantitySpecs()
+    '''returns None\n\n
+    insertLargeQuantitySpecs()\n
     '''
 def storeSpecInsertStatement():
-    '''public void storeSpecInsertStatement(final Object preparedInsert)
+    '''returns None\n\n
+    storeSpecInsertStatement(final Object preparedInsert)\n
     '''
 def storeSpecDeleteStatement():
-    '''public void storeSpecDeleteStatement(final String preparedInsert)
+    '''returns None\n\n
+    storeSpecDeleteStatement(final String preparedInsert)\n
     '''
 def deleteLargeQuantitySpecs():
-    '''public void deleteLargeQuantitySpecs()
+    '''returns None\n\n
+    deleteLargeQuantitySpecs()\n
     '''
 def getCounterForAttributeAdded():
-    '''public int getCounterForAttributeAdded()
+    '''returns int\n\n
+    getCounterForAttributeAdded()\n
     '''
 def incrCounterForAttributeAdded():
-    '''public void incrCounterForAttributeAdded()
+    '''returns None\n\n
+    incrCounterForAttributeAdded()\n
     '''
 def getNewAssetSpecReserved():
-    '''public long getNewAssetSpecReserved()
+    '''returns long\n\n
+    getNewAssetSpecReserved()\n
     '''
 def setNewAssetSpecReserved():
-    '''public void setNewAssetSpecReserved(final long nextMXReserved)
+    '''returns None\n\n
+    setNewAssetSpecReserved(final long nextMXReserved)\n
     '''
 def getNewAssetSpecHistReserved():
-    '''public long getNewAssetSpecHistReserved()
+    '''returns long\n\n
+    getNewAssetSpecHistReserved()\n
     '''
 def setNewAssetSpecHistReserved():
-    '''public void setNewAssetSpecHistReserved(final long nextMXReserved)
+    '''returns None\n\n
+    setNewAssetSpecHistReserved(final long nextMXReserved)\n
     '''

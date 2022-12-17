@@ -1,3 +1,4 @@
 def APPLYALLUSER():
-    '''public int APPLYALLUSER()
+    '''returns int\n\n
+    APPLYALLUSER()\n
     '''

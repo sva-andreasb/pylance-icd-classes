@@ -1,78 +1,104 @@
-def RangeImpl():
-    '''public RangeImpl(final DocumentImpl fEndContainer)
+def ():
+    '''returns RangeImpl\n\n
+    (final DocumentImpl fEndContainer)\n
     '''
 def getStartContainer():
-    '''public Node getStartContainer()
+    '''returns Node\n\n
+    getStartContainer()\n
     '''
 def getStartOffset():
-    '''public int getStartOffset()
+    '''returns int\n\n
+    getStartOffset()\n
     '''
 def getEndContainer():
-    '''public Node getEndContainer()
+    '''returns Node\n\n
+    getEndContainer()\n
     '''
 def getEndOffset():
-    '''public int getEndOffset()
+    '''returns int\n\n
+    getEndOffset()\n
     '''
 def getCollapsed():
-    '''public boolean getCollapsed()
+    '''returns boolean\n\n
+    getCollapsed()\n
     '''
 def getCommonAncestorContainer():
-    '''public Node getCommonAncestorContainer()
+    '''returns Node\n\n
+    getCommonAncestorContainer()\n
     '''
 def setStart():
-    '''public void setStart(final Node fStartContainer, final int fStartOffset)
+    '''returns None\n\n
+    setStart(final Node fStartContainer, final int fStartOffset)\n
     '''
 def setEnd():
-    '''public void setEnd(final Node fEndContainer, final int fEndOffset)
+    '''returns None\n\n
+    setEnd(final Node fEndContainer, final int fEndOffset)\n
     '''
 def setStartBefore():
-    '''public void setStartBefore(final Node node)
+    '''returns None\n\n
+    setStartBefore(final Node node)\n
     '''
 def setStartAfter():
-    '''public void setStartAfter(final Node node)
+    '''returns None\n\n
+    setStartAfter(final Node node)\n
     '''
 def setEndBefore():
-    '''public void setEndBefore(final Node node)
+    '''returns None\n\n
+    setEndBefore(final Node node)\n
     '''
 def setEndAfter():
-    '''public void setEndAfter(final Node node)
+    '''returns None\n\n
+    setEndAfter(final Node node)\n
     '''
 def collapse():
-    '''public void collapse(final boolean b)
+    '''returns None\n\n
+    collapse(final boolean b)\n
     '''
 def selectNode():
-    '''public void selectNode(final Node node)
+    '''returns None\n\n
+    selectNode(final Node node)\n
     '''
 def selectNodeContents():
-    '''public void selectNodeContents(final Node node)
+    '''returns None\n\n
+    selectNodeContents(final Node node)\n
     '''
 def compareBoundaryPoints():
-    '''public short compareBoundaryPoints(final short n, final Range range)
+    '''returns short\n\n
+    compareBoundaryPoints(final short n, final Range range)\n
     '''
 def deleteContents():
-    '''public void deleteContents()
+    '''returns None\n\n
+    deleteContents()\n
     '''
 def extractContents():
-    '''public DocumentFragment extractContents()
+    '''returns DocumentFragment\n\n
+    extractContents()\n
     '''
 def cloneContents():
-    '''public DocumentFragment cloneContents()
+    '''returns DocumentFragment\n\n
+    cloneContents()\n
     '''
 def insertNode():
-    '''public void insertNode(final Node node)
+    '''returns None\n\n
+    insertNode(final Node node)\n
     '''
 def surroundContents():
-    '''public void surroundContents(final Node node)
+    '''returns None\n\n
+    surroundContents(final Node node)\n
     '''
 def cloneRange():
-    '''public Range cloneRange()
+    '''returns Range\n\n
+    cloneRange()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def detach():
-    '''public void detach()
+    '''returns None\n\n
+    detach()\n
     '''
 def insertedNodeFromDOM():
-    '''public void insertedNodeFromDOM(final Node node)
+    '''returns None\n\n
+    insertedNodeFromDOM(final Node node)\n
     '''

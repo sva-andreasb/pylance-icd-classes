@@ -1,17 +1,18 @@
-def getSingleton():
-    '''public static synchronized CmnWASClientConsole getSingleton()
-    '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setupSystemOut():
-    '''public void setupSystemOut()
+    '''returns None\n\n
+    setupSystemOut()\n
     '''
 def println():
-    '''public void println(final String aString)
-    public void println(final char aChar)
-    public void println()
+    '''returns None\n\n
+    println(final String aString)\n
+    println(final char aChar)\n
+    println()\n
     '''
 def printlnErr():
-    '''public void printlnErr(final String aString)
+    '''returns None\n\n
+    printlnErr(final String aString)\n
     '''

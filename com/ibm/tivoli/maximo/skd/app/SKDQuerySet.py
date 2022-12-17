@@ -1,3 +1,4 @@
-def SKDQuerySet():
-    '''public SKDQuerySet(final MboServerInterface ms)
+def ():
+    '''returns SKDQuerySet\n\n
+    (final MboServerInterface ms)\n
     '''

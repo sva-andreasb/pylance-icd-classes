@@ -1,3 +1,4 @@
-def ReconCILink():
-    '''public ReconCILink(final MboSet ms)
+def ():
+    '''returns ReconCILink\n\n
+    (final MboSet ms)\n
     '''

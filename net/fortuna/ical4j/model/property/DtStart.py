@@ -1,17 +1,17 @@
-def DtStart():
-    '''public DtStart()
-    public DtStart(final TimeZone timezone)
-    public DtStart(final String aValue)
-    public DtStart(final String value, final TimeZone timezone)
-    public DtStart(final ParameterList aList, final String aValue)
-    public DtStart(final Date aDate)
-    public DtStart(final Date time, final boolean utc)
-    public DtStart(final ParameterList aList, final Date aDate)
-    '''
-def Factory():
-    '''public Factory()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final TimeZone timezone)\n
+    (final String aValue)\n
+    (final String value, final TimeZone timezone)\n
+    (final ParameterList aList, final String aValue)\n
+    (final Date aDate)\n
+    (final Date time, final boolean utc)\n
+    (final ParameterList aList, final Date aDate)\n
+    ()\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

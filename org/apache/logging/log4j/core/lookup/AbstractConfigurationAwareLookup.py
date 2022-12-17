@@ -1,3 +1,4 @@
 def setConfiguration():
-    '''public void setConfiguration(final Configuration configuration)
+    '''returns None\n\n
+    setConfiguration(final Configuration configuration)\n
     '''

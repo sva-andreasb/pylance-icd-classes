@@ -1,16 +1,21 @@
-def DefaultInboundXMLSplitter():
-    '''public DefaultInboundXMLSplitter(final ExtSystemInfo extInfo, final MaxExtIfaceInInfo extInInfo, final boolean preview, final boolean fromClient, final RecoveryService recService, final MboRemote npMbo, final boolean isFileExtract, final String fileName, final String processOwner)
+def ():
+    '''returns DefaultInboundXMLSplitter\n\n
+    (final ExtSystemInfo extInfo, final MaxExtIfaceInInfo extInInfo, final boolean preview, final boolean fromClient, final RecoveryService recService, final MboRemote npMbo, final boolean isFileExtract, final String fileName, final String processOwner)\n
     '''
 def splitStart():
-    '''public void splitStart()
+    '''returns None\n\n
+    splitStart()\n
     '''
 def splitPerformed():
-    '''public boolean splitPerformed(final byte[] splitXMLData, final int splitIndex)
+    '''returns boolean\n\n
+    splitPerformed(final byte[] splitXMLData, final int splitIndex)\n
     '''
 def splitEnd():
-    '''public void splitEnd()
-    public void splitEnd(final Throwable t)
+    '''returns None\n\n
+    splitEnd()\n
+    splitEnd(final Throwable t)\n
     '''
 def getExtractOutputFile():
-    '''public String getExtractOutputFile()
+    '''returns String\n\n
+    getExtractOutputFile()\n
     '''

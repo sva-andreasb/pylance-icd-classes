@@ -1,11 +1,14 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def Parameter():
-    '''public Parameter(final String[] indexes, final Object[] values)
-    public Parameter(final Parameter param1, final Parameter param2)
+def ():
+    '''returns Parameter\n\n
+    (final String[] indexes, final Object[] values)\n
+    (final Parameter param1, final Parameter param2)\n
     '''
 def getIndexes():
-    '''public String[] getIndexes()
+    '''returns String[]\n\n
+    getIndexes()\n
     '''
 def getValues():
-    '''public Object[] getValues()
+    '''returns Object[]\n\n
+    getValues()\n
     '''

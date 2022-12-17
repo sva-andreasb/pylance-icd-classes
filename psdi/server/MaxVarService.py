@@ -1,62 +1,82 @@
-def MaxVarService():
-    '''public MaxVarService(final MXServer mxServer)
-    public MaxVarService(final String url, final MXServer mxServer)
+def ():
+    '''returns MaxVarService\n\n
+    (final MXServer mxServer)\n
+    (final String url, final MXServer mxServer)\n
     '''
 def configure():
-    '''public void configure(final Properties configData)
+    '''returns None\n\n
+    configure(final Properties configData)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getString():
-    '''public String getString(final String key, final String orgSite)
-    public String getString(final String key, final String org, final String site)
+    '''returns String\n\n
+    getString(final String key, final String orgSite)\n
+    getString(final String key, final String org, final String site)\n
     '''
 def getStringList():
-    '''public String[] getStringList(final String key, final String orgSite)
+    '''returns String[]\n\n
+    getStringList(final String key, final String orgSite)\n
     '''
 def getInt():
-    '''public int getInt(final String key, final String orgSite)
+    '''returns int\n\n
+    getInt(final String key, final String orgSite)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String key, final String orgSite)
+    '''returns boolean\n\n
+    getBoolean(final String key, final String orgSite)\n
     '''
 def getDouble():
-    '''public double getDouble(final String key, final String orgSite)
+    '''returns double\n\n
+    getDouble(final String key, final String orgSite)\n
     '''
 def getFloat():
-    '''public float getFloat(final String key, final String orgSite)
+    '''returns float\n\n
+    getFloat(final String key, final String orgSite)\n
     '''
 def getLong():
-    '''public long getLong(final String key, final String orgSite)
+    '''returns long\n\n
+    getLong(final String key, final String orgSite)\n
     '''
 def isNull():
-    '''public boolean isNull(final String key, final String orgSite)
+    '''returns boolean\n\n
+    isNull(final String key, final String orgSite)\n
     '''
 def put():
-    '''public Object put(final String key, final String orgSiteId, final Object value)
+    '''returns Object\n\n
+    put(final String key, final String orgSiteId, final Object value)\n
     '''
 def remove():
-    '''public Object remove(final String key, final String orgSiteId)
+    '''returns Object\n\n
+    remove(final String key, final String orgSiteId)\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def setURL():
-    '''public void setURL(final String url)
+    '''returns None\n\n
+    setURL(final String url)\n
     '''
 def getLoad():
-    '''public int getLoad()
+    '''returns int\n\n
+    getLoad()\n
     '''
 def isAppService():
-    '''public boolean isAppService()
+    '''returns boolean\n\n
+    isAppService()\n
     '''
 def isSingletonService():
-    '''public boolean isSingletonService()
+    '''returns boolean\n\n
+    isSingletonService()\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def getMaxVarType():
-    '''public String getMaxVarType(final String key)
+    '''returns String\n\n
+    getMaxVarType(final String key)\n
     '''

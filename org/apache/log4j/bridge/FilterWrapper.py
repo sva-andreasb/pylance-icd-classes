@@ -1,6 +1,8 @@
-def FilterWrapper():
-    '''public FilterWrapper(final org.apache.logging.log4j.core.Filter filter)
+def ():
+    '''returns FilterWrapper\n\n
+    (final org.apache.logging.log4j.core.Filter filter)\n
     '''
 def decide():
-    '''public int decide(final LoggingEvent event)
+    '''returns int\n\n
+    decide(final LoggingEvent event)\n
     '''

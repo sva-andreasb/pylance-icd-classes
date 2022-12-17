@@ -1,3 +1,4 @@
-def PlusCDSStatusSet():
-    '''public PlusCDSStatusSet(final MboServerInterface mboserverinterface)
+def ():
+    '''returns PlusCDSStatusSet\n\n
+    (final MboServerInterface mboserverinterface)\n
     '''

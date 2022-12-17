@@ -1,42 +1,49 @@
-def getNumberType():
-    '''public static NumberType getNumberType(final Class<?> clazz)
-    public NumberType getNumberType()
-    '''
-def JSONPojoConvertor():
-    '''public JSONPojoConvertor(final Class<?> pojoClass)
-    public JSONPojoConvertor(final Class<?> pojoClass, final String[] excluded)
-    public JSONPojoConvertor(final Class<?> pojoClass, final Set<String> excluded)
-    public JSONPojoConvertor(final Class<?> pojoClass, final Set<String> excluded, final boolean fromJSON)
-    public JSONPojoConvertor(final Class<?> pojoClass, final boolean fromJSON)
+def ():
+    '''returns Setter\n\n
+    (final Class<?> pojoClass)\n
+    (final Class<?> pojoClass, final String[] excluded)\n
+    (final Class<?> pojoClass, final Set<String> excluded)\n
+    (final Class<?> pojoClass, final Set<String> excluded, final boolean fromJSON)\n
+    (final Class<?> pojoClass, final boolean fromJSON)\n
+    (final String propertyName, final Method method)\n
     '''
 def fromJSON():
-    '''public Object fromJSON(final Map object)
+    '''returns Object\n\n
+    fromJSON(final Map object)\n
     '''
 def setProps():
-    '''public int setProps(final Object obj, final Map<?, ?> props)
+    '''returns int\n\n
+    setProps(final Object obj, final Map<?, ?> props)\n
     '''
 def toJSON():
-    '''public void toJSON(final Object obj, final JSON.Output out)
+    '''returns None\n\n
+    toJSON(final Object obj, final JSON.Output out)\n
     '''
 def getActualValue():
-    '''public Object getActualValue(final Number number)
-    public Object getActualValue(final Number number)
-    public Object getActualValue(final Number number)
-    public Object getActualValue(final Number number)
-    public Object getActualValue(final Number number)
-    '''
-def Setter():
-    '''public Setter(final String propertyName, final Method method)
+    '''returns Object\n\n
+    getActualValue(final Number number)\n
+    getActualValue(final Number number)\n
+    getActualValue(final Number number)\n
+    getActualValue(final Number number)\n
+    getActualValue(final Number number)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
+    '''
+def getNumberType():
+    '''returns NumberType\n\n
+    getNumberType()\n
     '''
 def isPropertyNumber():
-    '''public boolean isPropertyNumber()
+    '''returns boolean\n\n
+    isPropertyNumber()\n
     '''
 def invoke():
-    '''public void invoke(final Object obj, final Object value)
+    '''returns None\n\n
+    invoke(final Object obj, final Object value)\n
     '''

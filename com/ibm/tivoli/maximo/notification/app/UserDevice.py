@@ -1,3 +1,4 @@
-def UserDevice():
-    '''public UserDevice(final MboSet ms)
+def ():
+    '''returns UserDevice\n\n
+    (final MboSet ms)\n
     '''

@@ -1,37 +1,49 @@
 PREEMPTIVE_AUTH_SCHEME = "String  \"basic\""
-def AuthState():
-    '''public AuthState()
+def ():
+    '''returns AuthState\n\n
+    ()\n
     '''
 def invalidate():
-    '''public void invalidate()
+    '''returns None\n\n
+    invalidate()\n
     '''
 def isAuthRequested():
-    '''public boolean isAuthRequested()
+    '''returns boolean\n\n
+    isAuthRequested()\n
     '''
 def setAuthRequested():
-    '''public void setAuthRequested(final boolean challengeReceived)
+    '''returns None\n\n
+    setAuthRequested(final boolean challengeReceived)\n
     '''
 def isAuthAttempted():
-    '''public boolean isAuthAttempted()
+    '''returns boolean\n\n
+    isAuthAttempted()\n
     '''
 def setAuthAttempted():
-    '''public void setAuthAttempted(final boolean challengeResponded)
+    '''returns None\n\n
+    setAuthAttempted(final boolean challengeResponded)\n
     '''
 def setPreemptive():
-    '''public void setPreemptive()
+    '''returns None\n\n
+    setPreemptive()\n
     '''
 def isPreemptive():
-    '''public boolean isPreemptive()
+    '''returns boolean\n\n
+    isPreemptive()\n
     '''
 def setAuthScheme():
-    '''public void setAuthScheme(final AuthScheme authScheme)
+    '''returns None\n\n
+    setAuthScheme(final AuthScheme authScheme)\n
     '''
 def getAuthScheme():
-    '''public AuthScheme getAuthScheme()
+    '''returns AuthScheme\n\n
+    getAuthScheme()\n
     '''
 def getRealm():
-    '''public String getRealm()
+    '''returns String\n\n
+    getRealm()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

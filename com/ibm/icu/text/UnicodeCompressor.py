@@ -1,11 +1,12 @@
-def UnicodeCompressor():
-    '''public UnicodeCompressor()
+def ():
+    '''returns UnicodeCompressor\n\n
+    ()\n
     '''
 def compress():
-    '''public static byte[] compress(final String buffer)
-    public static byte[] compress(final char[] buffer, final int start, final int limit)
-    public int compress(final char[] charBuffer, final int charBufferStart, final int charBufferLimit, final int[] charsRead, final byte[] byteBuffer, final int byteBufferStart, final int byteBufferLimit)
+    '''returns int\n\n
+    compress(final char[] charBuffer, final int charBufferStart, final int charBufferLimit, final int[] charsRead, final byte[] byteBuffer, final int byteBufferStart, final int byteBufferLimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

@@ -1,9 +1,12 @@
-def MaxToolItemProcess():
-    '''public MaxToolItemProcess()
+def ():
+    '''returns MaxToolItemProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
+    '''returns None\n\n
+    changeStatus(final MboRemote setMbo, final String stat, final String memo)\n
     '''

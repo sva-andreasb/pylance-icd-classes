@@ -1,6 +1,8 @@
-def XDGFPages():
-    '''public XDGFPages(final PackagePart part, final XDGFDocument document)
+def ():
+    '''returns XDGFPages\n\n
+    (final PackagePart part, final XDGFDocument document)\n
     '''
 def getPageList():
-    '''public List<XDGFPage> getPageList()
+    '''returns List<XDGFPage>\n\n
+    getPageList()\n
     '''

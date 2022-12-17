@@ -1,56 +1,71 @@
-def LoaderTuplesNodes():
-    '''public LoaderTuplesNodes(final SDBConnection connection, final Class<? extends TupleLoader> tupleLoaderClass)
+def ():
+    '''returns TupleChange\n\n
+    (final SDBConnection connection, final Class<? extends TupleLoader> tupleLoaderClass)\n
+    (final boolean toAdd, final TableDesc table, final Node... tuple)\n
+    ()\n
     '''
 def setStore():
-    '''public void setStore(final Store store)
+    '''returns None\n\n
+    setStore(final Store store)\n
     '''
 def startBulkUpdate():
-    '''public void startBulkUpdate()
+    '''returns None\n\n
+    startBulkUpdate()\n
     '''
 def finishBulkUpdate():
-    '''public void finishBulkUpdate()
+    '''returns None\n\n
+    finishBulkUpdate()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def addTriple():
-    '''public void addTriple(final Triple triple)
+    '''returns None\n\n
+    addTriple(final Triple triple)\n
     '''
 def deleteTriple():
-    '''public void deleteTriple(final Triple triple)
+    '''returns None\n\n
+    deleteTriple(final Triple triple)\n
     '''
 def addQuad():
-    '''public void addQuad(final Node g, final Node s, final Node p, final Node o)
+    '''returns None\n\n
+    addQuad(final Node g, final Node s, final Node p, final Node o)\n
     '''
 def addTuple():
-    '''public void addTuple(final TableDesc t, final Node... nodes)
+    '''returns None\n\n
+    addTuple(final TableDesc t, final Node... nodes)\n
     '''
 def deleteQuad():
-    '''public void deleteQuad(final Node g, final Node s, final Node p, final Node o)
+    '''returns None\n\n
+    deleteQuad(final Node g, final Node s, final Node p, final Node o)\n
     '''
 def deleteTuple():
-    '''public void deleteTuple(final TableDesc t, final Node... nodes)
+    '''returns None\n\n
+    deleteTuple(final TableDesc t, final Node... nodes)\n
     '''
 def deleteAll():
-    '''public void deleteAll()
-    public void deleteAll(final Node graph)
+    '''returns None\n\n
+    deleteAll()\n
+    deleteAll(final Node graph)\n
     '''
 def setChunkSize():
-    '''public void setChunkSize(final int chunkSize)
+    '''returns None\n\n
+    setChunkSize(final int chunkSize)\n
     '''
 def getChunkSize():
-    '''public int getChunkSize()
+    '''returns int\n\n
+    getChunkSize()\n
     '''
 def setUseThreading():
-    '''public void setUseThreading(final boolean useThreading)
+    '''returns None\n\n
+    setUseThreading(final boolean useThreading)\n
     '''
 def getUseThreading():
-    '''public boolean getUseThreading()
-    '''
-def TupleChange():
-    '''public TupleChange(final boolean toAdd, final TableDesc table, final Node... tuple)
-    public TupleChange()
+    '''returns boolean\n\n
+    getUseThreading()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

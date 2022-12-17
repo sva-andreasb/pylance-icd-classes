@@ -1,3 +1,4 @@
-def MappingObjectsNP():
-    '''public MappingObjectsNP(final MboSet ms)
+def ():
+    '''returns MappingObjectsNP\n\n
+    (final MboSet ms)\n
     '''

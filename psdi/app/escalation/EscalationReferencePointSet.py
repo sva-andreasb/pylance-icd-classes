@@ -1,6 +1,8 @@
-def EscalationReferencePointSet():
-    '''public EscalationReferencePointSet(final MboServerInterface ms)
+def ():
+    '''returns EscalationReferencePointSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

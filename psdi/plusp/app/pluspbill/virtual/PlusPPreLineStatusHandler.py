@@ -1,6 +1,8 @@
-def PlusPPreLineStatusHandler():
-    '''public PlusPPreLineStatusHandler(final StatefulMbo statefulMbo)
+def ():
+    '''returns PlusPPreLineStatusHandler\n\n
+    (final StatefulMbo statefulMbo)\n
     '''
 def possibleStatusChange():
-    '''public void possibleStatusChange(final String s, final String s2)
+    '''returns None\n\n
+    possibleStatusChange(final String s, final String s2)\n
     '''

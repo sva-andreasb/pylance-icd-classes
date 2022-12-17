@@ -1,39 +1,48 @@
-def PdfCopy():
-    '''public PdfCopy(final Document document, final OutputStream os)
+def ():
+    '''returns PdfCopy\n\n
+    (final Document document, final OutputStream os)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def getImportedPage():
-    '''public PdfImportedPage getImportedPage(final PdfReader reader, final int pageNumber)
+    '''returns PdfImportedPage\n\n
+    getImportedPage(final PdfReader reader, final int pageNumber)\n
     '''
 def addPage():
-    '''public void addPage(final PdfImportedPage iPage)
+    '''returns None\n\n
+    addPage(final PdfImportedPage iPage)\n
     '''
 def getPageReference():
-    '''public PdfIndirectReference getPageReference(final int page)
+    '''returns PdfIndirectReference\n\n
+    getPageReference(final int page)\n
     '''
 def copyAcroForm():
-    '''public void copyAcroForm(final PdfReader reader)
+    '''returns None\n\n
+    copyAcroForm(final PdfReader reader)\n
     '''
 def setOutlines():
-    '''public void setOutlines(final List outlines)
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns None\n\n
+    setOutlines(final List outlines)\n
     '''
 def add():
-    '''public PdfIndirectReference add(final PdfOutline outline)
+    '''returns PdfIndirectReference\n\n
+    add(final PdfOutline outline)\n
     '''
 def addAnnotation():
-    '''public void addAnnotation(final PdfAnnotation annot)
+    '''returns None\n\n
+    addAnnotation(final PdfAnnotation annot)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,41 +1,53 @@
-def PackageRelationshipCollection():
-    '''public PackageRelationshipCollection(final PackageRelationshipCollection coll, final String filter)
-    public PackageRelationshipCollection(final OPCPackage container)
-    public PackageRelationshipCollection(final PackagePart part)
-    public PackageRelationshipCollection(final OPCPackage container, final PackagePart part)
+def ():
+    '''returns PackageRelationshipCollection\n\n
+    (final PackageRelationshipCollection coll, final String filter)\n
+    (final OPCPackage container)\n
+    (final PackagePart part)\n
+    (final OPCPackage container, final PackagePart part)\n
     '''
 def addRelationship():
-    '''public void addRelationship(final PackageRelationship relPart)
-    public PackageRelationship addRelationship(final URI targetUri, final TargetMode targetMode, final String relationshipType, String id)
+    '''returns PackageRelationship\n\n
+    addRelationship(final PackageRelationship relPart)\n
+    addRelationship(final URI targetUri, final TargetMode targetMode, final String relationshipType, String id)\n
     '''
 def removeRelationship():
-    '''public void removeRelationship(final String id)
+    '''returns None\n\n
+    removeRelationship(final String id)\n
     '''
 def getRelationship():
-    '''public PackageRelationship getRelationship(final int index)
+    '''returns PackageRelationship\n\n
+    getRelationship(final int index)\n
     '''
 def getRelationshipByID():
-    '''public PackageRelationship getRelationshipByID(final String id)
+    '''returns PackageRelationship\n\n
+    getRelationshipByID(final String id)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def parseRelationshipsPart():
-    '''public void parseRelationshipsPart(final PackagePart relPart)
+    '''returns None\n\n
+    parseRelationshipsPart(final PackagePart relPart)\n
     '''
 def getRelationships():
-    '''public PackageRelationshipCollection getRelationships(final String typeFilter)
+    '''returns PackageRelationshipCollection\n\n
+    getRelationships(final String typeFilter)\n
     '''
 def iterator():
-    '''public Iterator<PackageRelationship> iterator()
-    public Iterator<PackageRelationship> iterator(final String typeFilter)
+    '''returns Iterator<PackageRelationship>\n\n
+    iterator()\n
+    iterator(final String typeFilter)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def findExistingInternalRelation():
-    '''public PackageRelationship findExistingInternalRelation(final PackagePart packagePart)
+    '''returns PackageRelationship\n\n
+    findExistingInternalRelation(final PackagePart packagePart)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

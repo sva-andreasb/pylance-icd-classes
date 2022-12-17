@@ -1,3 +1,4 @@
-def PmRelDslFldClassStructid():
-    '''public PmRelDslFldClassStructid(final MboValue mbv)
+def ():
+    '''returns PmRelDslFldClassStructid\n\n
+    (final MboValue mbv)\n
     '''

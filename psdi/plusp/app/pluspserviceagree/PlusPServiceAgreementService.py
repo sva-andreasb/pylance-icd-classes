@@ -1,4 +1,5 @@
-def PlusPServiceAgreementService():
-    '''public PlusPServiceAgreementService()
-    public PlusPServiceAgreementService(final MXServer mxServer)
+def ():
+    '''returns PlusPServiceAgreementService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

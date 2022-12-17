@@ -1,6 +1,8 @@
-def VTimeZoneValidator():
-    '''public VTimeZoneValidator(final ValidationRule... rules)
+def ():
+    '''returns VTimeZoneValidator\n\n
+    (final ValidationRule... rules)\n
     '''
 def validate():
-    '''public void validate(final VTimeZone target)
+    '''returns None\n\n
+    validate(final VTimeZone target)\n
     '''

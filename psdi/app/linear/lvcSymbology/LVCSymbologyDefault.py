@@ -1,3 +1,4 @@
-def LVCSymbologyDefault():
-    '''public LVCSymbologyDefault(final MboSet ms)
+def ():
+    '''returns LVCSymbologyDefault\n\n
+    (final MboSet ms)\n
     '''

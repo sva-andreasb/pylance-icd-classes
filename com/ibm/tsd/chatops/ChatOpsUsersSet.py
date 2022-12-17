@@ -1,3 +1,4 @@
-def ChatOpsUsersSet():
-    '''public ChatOpsUsersSet(final MboServerInterface ms)
+def ():
+    '''returns ChatOpsUsersSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,24 +1,32 @@
-def WoHazardPrec():
-    '''public WoHazardPrec(final MboSet ms)
+def ():
+    '''returns WoHazardPrec\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def copyAttributesFromPrecaution():
-    '''public void copyAttributesFromPrecaution(final MboRemote precMbo)
+    '''returns None\n\n
+    copyAttributesFromPrecaution(final MboRemote precMbo)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

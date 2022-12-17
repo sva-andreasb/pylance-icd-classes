@@ -1,15 +1,20 @@
 def getChartId():
-    '''public String getChartId()
+    '''returns String\n\n
+    getChartId()\n
     '''
 def setChartId():
-    '''public void setChartId(final String chartId)
+    '''returns None\n\n
+    setChartId(final String chartId)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setChartType():
-    '''public void setChartType(final String chartType)
+    '''returns None\n\n
+    setChartType(final String chartType)\n
     '''
 def getChartType():
-    '''public String getChartType()
+    '''returns String\n\n
+    getChartType()\n
     '''

@@ -1,6 +1,8 @@
-def PlusPFldBillLaborTotalHours():
-    '''public PlusPFldBillLaborTotalHours(final MboValue mbv)
+def ():
+    '''returns PlusPFldBillLaborTotalHours\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

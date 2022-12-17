@@ -1,52 +1,69 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TreeInTableAdapter():
-    '''public TreeInTableAdapter(final JTree tree, final TreeInTableModel model)
+def ():
+    '''returns TreeInTableAdapter\n\n
+    (final JTree tree, final TreeInTableModel model)\n
     '''
 def setTreeInTableModel():
-    '''public void setTreeInTableModel(final TreeInTableModel model)
+    '''returns None\n\n
+    setTreeInTableModel(final TreeInTableModel model)\n
     '''
 def getTreeInTableModel():
-    '''public TreeInTableModel getTreeInTableModel()
+    '''returns TreeInTableModel\n\n
+    getTreeInTableModel()\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def getValueAt():
-    '''public Object getValueAt(final int row, final int column)
+    '''returns Object\n\n
+    getValueAt(final int row, final int column)\n
     '''
 def setValueAt():
-    '''public void setValueAt(final Object aValue, final int rowIndex, final int columnIndex)
+    '''returns None\n\n
+    setValueAt(final Object aValue, final int rowIndex, final int columnIndex)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int column)
+    '''returns String\n\n
+    getColumnName(final int column)\n
     '''
 def isCellEditable():
-    '''public boolean isCellEditable(final int row, final int column)
+    '''returns boolean\n\n
+    isCellEditable(final int row, final int column)\n
     '''
 def getTreeNodeForRow():
-    '''public Object getTreeNodeForRow(final int row)
+    '''returns Object\n\n
+    getTreeNodeForRow(final int row)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def treeCollapsed():
-    '''public void treeCollapsed(final TreeExpansionEvent arg0)
+    '''returns None\n\n
+    treeCollapsed(final TreeExpansionEvent arg0)\n
     '''
 def treeExpanded():
-    '''public void treeExpanded(final TreeExpansionEvent arg0)
+    '''returns None\n\n
+    treeExpanded(final TreeExpansionEvent arg0)\n
     '''
 def treeNodesChanged():
-    '''public void treeNodesChanged(final TreeModelEvent arg0)
+    '''returns None\n\n
+    treeNodesChanged(final TreeModelEvent arg0)\n
     '''
 def treeNodesInserted():
-    '''public void treeNodesInserted(final TreeModelEvent arg0)
+    '''returns None\n\n
+    treeNodesInserted(final TreeModelEvent arg0)\n
     '''
 def treeNodesRemoved():
-    '''public void treeNodesRemoved(final TreeModelEvent arg0)
+    '''returns None\n\n
+    treeNodesRemoved(final TreeModelEvent arg0)\n
     '''
 def treeStructureChanged():
-    '''public void treeStructureChanged(final TreeModelEvent arg0)
+    '''returns None\n\n
+    treeStructureChanged(final TreeModelEvent arg0)\n
     '''

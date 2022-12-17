@@ -1,6 +1,4 @@
-def BudgetAnalysisAxesBean():
-    '''public BudgetAnalysisAxesBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns BudgetAnalysisAxesBean\n\n
+    ()\n
     '''

@@ -1,13 +1,17 @@
-def SqlConstant():
-    '''public SqlConstant(final String str)
-    public SqlConstant(final long number)
+def ():
+    '''returns SqlConstant\n\n
+    (final String str)\n
+    (final long number)\n
     '''
 def asSqlString():
-    '''public String asSqlString()
+    '''returns String\n\n
+    asSqlString()\n
     '''
 def isConstant():
-    '''public boolean isConstant()
+    '''returns boolean\n\n
+    isConstant()\n
     '''
 def visit():
-    '''public void visit(final SqlExprVisitor visitor)
+    '''returns None\n\n
+    visit(final SqlExprVisitor visitor)\n
     '''

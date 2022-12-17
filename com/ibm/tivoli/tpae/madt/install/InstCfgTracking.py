@@ -1,51 +1,44 @@
-def InstCfgTracking():
-    '''public InstCfgTracking()
+def ():
+    '''returns InstCfgTracking\n\n
+    ()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def getState():
-    '''public String getState()
+    '''returns String\n\n
+    getState()\n
     '''
 def getPrevVersion():
-    '''public String getPrevVersion()
+    '''returns String\n\n
+    getPrevVersion()\n
     '''
 def getNeedUpdateDB():
-    '''public String getNeedUpdateDB()
+    '''returns String\n\n
+    getNeedUpdateDB()\n
     '''
 def getNeedTDT():
-    '''public String getNeedTDT()
+    '''returns String\n\n
+    getNeedTDT()\n
     '''
 def getNeedBuild():
-    '''public String getNeedBuild()
+    '''returns String\n\n
+    getNeedBuild()\n
     '''
 def getNeedDeploy():
-    '''public String getNeedDeploy()
+    '''returns String\n\n
+    getNeedDeploy()\n
     '''
 def getVmmGroups():
-    '''public String getVmmGroups()
+    '''returns String\n\n
+    getVmmGroups()\n
     '''
 def run():
-    '''public void run(final String[] array)
+    '''returns None\n\n
+    run(final String[] array)\n
     '''
 def findProduct():
-    '''public boolean findProduct(final String str, final String s)
-    '''
-def buildProductEntry():
-    '''public static String buildProductEntry()
-    public static String buildProductEntry(final Document document, final String s, final boolean b, final String textContent, final String textContent2, final String textContent3, final String textContent4, final String textContent5, final String textContent6, final String textContent7, final String textContent8, final String textContent9)
-    public static String buildProductEntry(final Document document, final String s, final String textContent, final String textContent2, final String textContent3, final String textContent4, final String textContent5, final boolean b, final boolean b2, final String textContent6, final String textContent7, final String textContent8, final String textContent9, final String textContent10, final ArrayList<String> list)
-    '''
-def getProductEntryFromXML():
-    '''public static String getProductEntryFromXML(final Document document, final String s, final String s2)
-    '''
-def updateProductEntry():
-    '''public static String updateProductEntry(final Document document, final String s, final String s2, final String s3)
-    public static String updateProductEntry(final Document document, final Node node, final String anObject, final String s)
-    '''
-def getXmlString():
-    '''public static String getXmlString(final Document document)
-    '''
-def getProductNode():
-    '''public static Node getProductNode(final Document document, final String s)
+    '''returns boolean\n\n
+    findProduct(final String str, final String s)\n
     '''

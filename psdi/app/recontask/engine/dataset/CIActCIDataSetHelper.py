@@ -1,9 +1,12 @@
-def CIActCIDataSetHelper():
-    '''public CIActCIDataSetHelper(final String tableName, final String relTablename, final String idAttributeName, final String numAttributeName)
+def ():
+    '''returns CIActCIDataSetHelper\n\n
+    (final String tableName, final String relTablename, final String idAttributeName, final String numAttributeName)\n
     '''
 def getFixedTaskFitler():
-    '''public String getFixedTaskFitler(final DataSetContext context)
+    '''returns String\n\n
+    getFixedTaskFitler(final DataSetContext context)\n
     '''
 def getTableJoinWhereClauseForComparison():
-    '''public String getTableJoinWhereClauseForComparison(final DataSetContext context, final Map uidKeys)
+    '''returns String\n\n
+    getTableJoinWhereClauseForComparison(final DataSetContext context, final Map uidKeys)\n
     '''

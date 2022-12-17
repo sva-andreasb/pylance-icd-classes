@@ -1,143 +1,187 @@
-def MTOMXMLStreamWriter():
-    '''public MTOMXMLStreamWriter(final XMLStreamWriter xmlWriter)
-    public MTOMXMLStreamWriter(final OutputStream outStream, final OMOutputFormat format)
+def ():
+    '''returns MTOMXMLStreamWriter\n\n
+    (final XMLStreamWriter xmlWriter)\n
+    (final OutputStream outStream, final OMOutputFormat format)\n
     '''
 def generateContentID():
-    '''public String generateContentID(final String existingContentID)
+    '''returns String\n\n
+    generateContentID(final String existingContentID)\n
     '''
 def writeStartElement():
-    '''public void writeStartElement(final String string)
-    public void writeStartElement(final String string, final String string1)
-    public void writeStartElement(final String string, final String string1, final String string2)
+    '''returns None\n\n
+    writeStartElement(final String string)\n
+    writeStartElement(final String string, final String string1)\n
+    writeStartElement(final String string, final String string1, final String string2)\n
     '''
 def writeEmptyElement():
-    '''public void writeEmptyElement(final String string, final String string1)
-    public void writeEmptyElement(final String string, final String string1, final String string2)
-    public void writeEmptyElement(final String string)
+    '''returns None\n\n
+    writeEmptyElement(final String string, final String string1)\n
+    writeEmptyElement(final String string, final String string1, final String string2)\n
+    writeEmptyElement(final String string)\n
     '''
 def writeEndElement():
-    '''public void writeEndElement()
+    '''returns None\n\n
+    writeEndElement()\n
     '''
 def writeEndDocument():
-    '''public void writeEndDocument()
+    '''returns None\n\n
+    writeEndDocument()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def writeAttribute():
-    '''public void writeAttribute(final String string, final String string1)
-    public void writeAttribute(final String string, final String string1, final String string2, final String string3)
-    public void writeAttribute(final String string, final String string1, final String string2)
+    '''returns None\n\n
+    writeAttribute(final String string, final String string1)\n
+    writeAttribute(final String string, final String string1, final String string2, final String string3)\n
+    writeAttribute(final String string, final String string1, final String string2)\n
     '''
 def writeNamespace():
-    '''public void writeNamespace(final String string, final String string1)
+    '''returns None\n\n
+    writeNamespace(final String string, final String string1)\n
     '''
 def writeDefaultNamespace():
-    '''public void writeDefaultNamespace(final String string)
+    '''returns None\n\n
+    writeDefaultNamespace(final String string)\n
     '''
 def writeComment():
-    '''public void writeComment(final String string)
+    '''returns None\n\n
+    writeComment(final String string)\n
     '''
 def writeProcessingInstruction():
-    '''public void writeProcessingInstruction(final String string)
-    public void writeProcessingInstruction(final String string, final String string1)
+    '''returns None\n\n
+    writeProcessingInstruction(final String string)\n
+    writeProcessingInstruction(final String string, final String string1)\n
     '''
 def writeCData():
-    '''public void writeCData(final String string)
+    '''returns None\n\n
+    writeCData(final String string)\n
     '''
 def writeDTD():
-    '''public void writeDTD(final String string)
+    '''returns None\n\n
+    writeDTD(final String string)\n
     '''
 def writeEntityRef():
-    '''public void writeEntityRef(final String string)
+    '''returns None\n\n
+    writeEntityRef(final String string)\n
     '''
 def writeStartDocument():
-    '''public void writeStartDocument()
-    public void writeStartDocument(final String string)
-    public void writeStartDocument(final String string, final String string1)
+    '''returns None\n\n
+    writeStartDocument()\n
+    writeStartDocument(final String string)\n
+    writeStartDocument(final String string, final String string1)\n
     '''
 def writeCharacters():
-    '''public void writeCharacters(final String string)
-    public void writeCharacters(final char[] chars, final int i, final int i1)
+    '''returns None\n\n
+    writeCharacters(final String string)\n
+    writeCharacters(final char[] chars, final int i, final int i1)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String string)
+    '''returns String\n\n
+    getPrefix(final String string)\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String string, final String string1)
+    '''returns None\n\n
+    setPrefix(final String string, final String string1)\n
     '''
 def setDefaultNamespace():
-    '''public void setDefaultNamespace(final String string)
+    '''returns None\n\n
+    setDefaultNamespace(final String string)\n
     '''
 def setNamespaceContext():
-    '''public void setNamespaceContext(final NamespaceContext namespaceContext)
+    '''returns None\n\n
+    setNamespaceContext(final NamespaceContext namespaceContext)\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String string)
+    '''returns Object\n\n
+    getProperty(final String string)\n
     '''
 def isOptimized():
-    '''public boolean isOptimized()
+    '''returns boolean\n\n
+    isOptimized()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def writeOptimized():
-    '''public void writeOptimized(final OMText node)
+    '''returns None\n\n
+    writeOptimized(final OMText node)\n
     '''
 def isOptimizedThreshold():
-    '''public boolean isOptimizedThreshold(final OMText node)
+    '''returns boolean\n\n
+    isOptimizedThreshold(final OMText node)\n
     '''
 def setXmlStreamWriter():
-    '''public void setXmlStreamWriter(final XMLStreamWriter xmlWriter)
+    '''returns None\n\n
+    setXmlStreamWriter(final XMLStreamWriter xmlWriter)\n
     '''
 def getXmlStreamWriter():
-    '''public XMLStreamWriter getXmlStreamWriter()
+    '''returns XMLStreamWriter\n\n
+    getXmlStreamWriter()\n
     '''
 def getMimeBoundary():
-    '''public String getMimeBoundary()
+    '''returns String\n\n
+    getMimeBoundary()\n
     '''
 def getRootContentId():
-    '''public String getRootContentId()
+    '''returns String\n\n
+    getRootContentId()\n
     '''
 def getNextContentId():
-    '''public String getNextContentId()
+    '''returns String\n\n
+    getNextContentId()\n
     '''
 def getCharSetEncoding():
-    '''public String getCharSetEncoding()
+    '''returns String\n\n
+    getCharSetEncoding()\n
     '''
 def setCharSetEncoding():
-    '''public void setCharSetEncoding(final String charSetEncoding)
+    '''returns None\n\n
+    setCharSetEncoding(final String charSetEncoding)\n
     '''
 def getXmlVersion():
-    '''public String getXmlVersion()
+    '''returns String\n\n
+    getXmlVersion()\n
     '''
 def setXmlVersion():
-    '''public void setXmlVersion(final String xmlVersion)
+    '''returns None\n\n
+    setXmlVersion(final String xmlVersion)\n
     '''
 def setSoap11():
-    '''public void setSoap11(final boolean b)
+    '''returns None\n\n
+    setSoap11(final boolean b)\n
     '''
 def isIgnoreXMLDeclaration():
-    '''public boolean isIgnoreXMLDeclaration()
+    '''returns boolean\n\n
+    isIgnoreXMLDeclaration()\n
     '''
 def setIgnoreXMLDeclaration():
-    '''public void setIgnoreXMLDeclaration(final boolean ignoreXMLDeclaration)
+    '''returns None\n\n
+    setIgnoreXMLDeclaration(final boolean ignoreXMLDeclaration)\n
     '''
 def setDoOptimize():
-    '''public void setDoOptimize(final boolean b)
+    '''returns None\n\n
+    setDoOptimize(final boolean b)\n
     '''
 def getOutputFormat():
-    '''public OMOutputFormat getOutputFormat()
+    '''returns OMOutputFormat\n\n
+    getOutputFormat()\n
     '''
 def setOutputFormat():
-    '''public void setOutputFormat(final OMOutputFormat format)
+    '''returns None\n\n
+    setOutputFormat(final OMOutputFormat format)\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''

@@ -1,16 +1,21 @@
-def ModFormat():
-    '''public ModFormat()
+def ():
+    '''returns ModFormat\n\n
+    ()\n
     '''
 def processArgs():
-    '''public void processArgs(final CmdArgModule cmdline)
+    '''returns None\n\n
+    processArgs(final CmdArgModule cmdline)\n
     '''
 def registerWith():
-    '''public void registerWith(final CmdGeneral cmdLine)
+    '''returns None\n\n
+    registerWith(final CmdGeneral cmdLine)\n
     '''
 def checkCommandLine():
-    '''public void checkCommandLine(final CmdArgModule cmdLine)
+    '''returns None\n\n
+    checkCommandLine(final CmdArgModule cmdLine)\n
     '''
 def getFormat():
-    '''public String getFormat()
-    public String getFormat(final String defaultFormat)
+    '''returns String\n\n
+    getFormat()\n
+    getFormat(final String defaultFormat)\n
     '''

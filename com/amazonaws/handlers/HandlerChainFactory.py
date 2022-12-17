@@ -1,6 +1,8 @@
 def newRequestHandlerChain():
-    '''public List<RequestHandler2> newRequestHandlerChain(final String resource)
+    '''returns List<RequestHandler2>\n\n
+    newRequestHandlerChain(final String resource)\n
     '''
 def newRequestHandler2Chain():
-    '''public List<RequestHandler2> newRequestHandler2Chain(final String resource)
+    '''returns List<RequestHandler2>\n\n
+    newRequestHandler2Chain(final String resource)\n
     '''

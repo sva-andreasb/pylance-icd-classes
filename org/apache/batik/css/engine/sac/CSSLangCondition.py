@@ -1,24 +1,32 @@
-def CSSLangCondition():
-    '''public CSSLangCondition(final String lang)
+def ():
+    '''returns CSSLangCondition\n\n
+    (final String lang)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getConditionType():
-    '''public short getConditionType()
+    '''returns short\n\n
+    getConditionType()\n
     '''
 def getLang():
-    '''public String getLang()
+    '''returns String\n\n
+    getLang()\n
     '''
 def getSpecificity():
-    '''public int getSpecificity()
+    '''returns int\n\n
+    getSpecificity()\n
     '''
 def match():
-    '''public boolean match(final Element e, final String pseudoE)
+    '''returns boolean\n\n
+    match(final Element e, final String pseudoE)\n
     '''
 def fillAttributeSet():
-    '''public void fillAttributeSet(final Set attrSet)
+    '''returns None\n\n
+    fillAttributeSet(final Set attrSet)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

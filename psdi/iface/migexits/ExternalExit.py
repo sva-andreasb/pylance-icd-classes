@@ -1,27 +1,24 @@
-def ExternalExit():
-    '''public ExternalExit()
-    '''
-def callExitsOut():
-    '''public final StructureData callExitsOut(final String extSystem, final String mosName, final String extIfaceName, final StructureData userExitData, final MXTransaction mxtran, final UserInfo userInfo, final String ifaceType, final String messageType)
-    '''
-def mapExitsOut():
-    '''public final StructureData mapExitsOut(final String extSystem, final String mosName, final String extIfaceName, final StructureData userExitData, final MXTransaction mxtran, final UserInfo userInfo, final String ifaceType, final String MessageType)
+def ():
+    '''returns ExternalExit\n\n
+    ()\n
     '''
 def setDataOut():
-    '''public StructureData setDataOut(final StructureData userExitData)
+    '''returns StructureData\n\n
+    setDataOut(final StructureData userExitData)\n
     '''
 def callExitsIn():
-    '''public StructureData callExitsIn(final UserInfo userInfo, final String extSystem, final String ifaceName, final String ifaceType, final String maxIfaceName, final StructureData data, final MXTransaction mxTrans, final String messageType)
-    '''
-def mapExitsIn():
-    '''public final StructureData mapExitsIn(final UserInfo userInfo, final String extSystem, final String ifaceName, final String ifaceType, final String mosName, final StructureData data, final MXTransaction mxTrans, final String messageType)
+    '''returns StructureData\n\n
+    callExitsIn(final UserInfo userInfo, final String extSystem, final String ifaceName, final String ifaceType, final String maxIfaceName, final StructureData data, final MXTransaction mxTrans, final String messageType)\n
     '''
 def setDataIn():
-    '''public StructureData setDataIn(final StructureData data)
+    '''returns StructureData\n\n
+    setDataIn(final StructureData data)\n
     '''
 def mapDataIn():
-    '''public StructureData mapDataIn(final StructureData data)
+    '''returns StructureData\n\n
+    mapDataIn(final StructureData data)\n
     '''
 def mapDataOut():
-    '''public StructureData mapDataOut(final StructureData data)
+    '''returns StructureData\n\n
+    mapDataOut(final StructureData data)\n
     '''

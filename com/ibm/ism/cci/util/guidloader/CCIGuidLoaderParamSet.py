@@ -1,3 +1,4 @@
-def CCIGuidLoaderParamSet():
-    '''public CCIGuidLoaderParamSet(final MboServerInterface ms)
+def ():
+    '''returns CCIGuidLoaderParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

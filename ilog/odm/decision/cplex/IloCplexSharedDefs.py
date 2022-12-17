@@ -1,23 +1,30 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCplexSharedDefs():
-    '''public IloCplexSharedDefs(final IloCplexReqPropsDef reqProps, final IloCplexObjPropsDef objProps, final IloVarPropsDef varProps)
-    public IloCplexSharedDefs()
+def ():
+    '''returns IloCplexSharedDefs\n\n
+    (final IloCplexReqPropsDef reqProps, final IloCplexObjPropsDef objProps, final IloVarPropsDef varProps)\n
+    ()\n
     '''
 def exportRequirementTemplate():
-    '''public void exportRequirementTemplate(final IloRequirementTemplate template)
+    '''returns None\n\n
+    exportRequirementTemplate(final IloRequirementTemplate template)\n
     '''
 def getObjectivePropsDef():
-    '''public IloPropertiesDef getObjectivePropsDef()
+    '''returns IloPropertiesDef\n\n
+    getObjectivePropsDef()\n
     '''
 def getRequirementPropsDef():
-    '''public IloReqPropertiesDef getRequirementPropsDef()
+    '''returns IloReqPropertiesDef\n\n
+    getRequirementPropsDef()\n
     '''
 def getCplexObjPropsDef():
-    '''public IloCplexObjPropsDef getCplexObjPropsDef()
+    '''returns IloCplexObjPropsDef\n\n
+    getCplexObjPropsDef()\n
     '''
 def getCplexReqPropsDef():
-    '''public IloCplexReqPropsDef getCplexReqPropsDef()
+    '''returns IloCplexReqPropsDef\n\n
+    getCplexReqPropsDef()\n
     '''
 def getDecisionVarPropsDef():
-    '''public IloPropertiesDef getDecisionVarPropsDef()
+    '''returns IloPropertiesDef\n\n
+    getDecisionVarPropsDef()\n
     '''

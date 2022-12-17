@@ -1,24 +1,32 @@
 def getHintHeight():
-    '''public String getHintHeight()
+    '''returns String\n\n
+    getHintHeight()\n
     '''
 def getHintWidth():
-    '''public String getHintWidth()
+    '''returns String\n\n
+    getHintWidth()\n
     '''
 def getMoreInfo():
-    '''public URI getMoreInfo()
+    '''returns URI\n\n
+    getMoreInfo()\n
     '''
 def getRel():
-    '''public String getRel()
+    '''returns String\n\n
+    getRel()\n
     '''
 def setHintHeight():
-    '''public void setHintHeight(final String hintHeight)
+    '''returns None\n\n
+    setHintHeight(final String hintHeight)\n
     '''
 def setHintWidth():
-    '''public void setHintWidth(final String hintWidth)
+    '''returns None\n\n
+    setHintWidth(final String hintWidth)\n
     '''
 def setMoreInfo():
-    '''public void setMoreInfo(final URI moreInfo)
+    '''returns None\n\n
+    setMoreInfo(final URI moreInfo)\n
     '''
 def setRel():
-    '''public void setRel(final String rel)
+    '''returns None\n\n
+    setRel(final String rel)\n
     '''

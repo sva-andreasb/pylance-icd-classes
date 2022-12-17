@@ -1,3 +1,4 @@
 def checkQuery():
-    '''public void checkQuery(final DataBean results)
+    '''returns None\n\n
+    checkQuery(final DataBean results)\n
     '''

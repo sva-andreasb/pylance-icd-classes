@@ -1,28 +1,28 @@
-def JSONArray():
-    '''public JSONArray()
-    public JSONArray(final int initialCapacity)
+def ():
+    '''returns JSONArray\n\n
+    ()\n
+    (final int initialCapacity)\n
     '''
 def add():
-    '''public void add(final int index, final Object element)
-    public boolean add(final Object e)
+    '''returns boolean\n\n
+    add(final int index, final Object element)\n
+    add(final Object e)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection c)
-    public boolean addAll(final int index, final Collection c)
+    '''returns boolean\n\n
+    addAll(final Collection c)\n
+    addAll(final int index, final Collection c)\n
     '''
 def set():
-    '''public Object set(final int index, final Object element)
-    '''
-def parse():
-    '''public static JSONArray parse(final InputStream inputStream)
-    public static JSONArray parse(final Reader reader)
-    public static JSONArray parse(final String s)
+    '''returns Object\n\n
+    set(final int index, final Object element)\n
     '''
 def serialize():
-    '''public void serialize(final OutputStream outputStream)
-    public void serialize(final OutputStream out, final boolean b)
-    public void serialize(final Writer writer)
-    public void serialize(Writer out, final boolean b)
-    public String serialize(final boolean b)
-    public String serialize()
+    '''returns String\n\n
+    serialize(final OutputStream outputStream)\n
+    serialize(final OutputStream out, final boolean b)\n
+    serialize(final Writer writer)\n
+    serialize(Writer out, final boolean b)\n
+    serialize(final boolean b)\n
+    serialize()\n
     '''

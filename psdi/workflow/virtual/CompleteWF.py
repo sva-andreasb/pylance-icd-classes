@@ -1,9 +1,12 @@
-def CompleteWF():
-    '''public CompleteWF(final MboSet ms)
+def ():
+    '''returns CompleteWF\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''

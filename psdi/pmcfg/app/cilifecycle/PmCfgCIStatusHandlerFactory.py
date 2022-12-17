@@ -1,11 +1,6 @@
-def newStatusHandler():
-    '''public static StatusHandler newStatusHandler(final PmCfgCI ci)
-    '''
-def getStatusValidator():
-    '''public static PmCfgCIStatusValidator getStatusValidator(final StatusHandler handler)
-    '''
 def validate():
-    '''public void validate()
-    public void validate(final boolean b)
-    public void validate(final boolean a, final boolean b)
+    '''returns None\n\n
+    validate()\n
+    validate(final boolean b)\n
+    validate(final boolean a, final boolean b)\n
     '''

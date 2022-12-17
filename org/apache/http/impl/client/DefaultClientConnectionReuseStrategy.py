@@ -1,3 +1,4 @@
 def keepAlive():
-    '''public boolean keepAlive(final HttpResponse response, final HttpContext context)
+    '''returns boolean\n\n
+    keepAlive(final HttpResponse response, final HttpContext context)\n
     '''

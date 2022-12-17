@@ -1,9 +1,12 @@
 def properties():
-    '''public int properties()
+    '''returns int\n\n
+    properties()\n
     '''
 def addPositiveAction():
-    '''public int addPositiveAction()
+    '''returns int\n\n
+    addPositiveAction()\n
     '''
 def addNegativeAction():
-    '''public int addNegativeAction()
+    '''returns int\n\n
+    addNegativeAction()\n
     '''

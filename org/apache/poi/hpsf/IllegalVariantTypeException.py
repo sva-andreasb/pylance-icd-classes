@@ -1,4 +1,5 @@
-def IllegalVariantTypeException():
-    '''public IllegalVariantTypeException(final long variantType, final Object value, final String msg)
-    public IllegalVariantTypeException(final long variantType, final Object value)
+def ():
+    '''returns IllegalVariantTypeException\n\n
+    (final long variantType, final Object value, final String msg)\n
+    (final long variantType, final Object value)\n
     '''

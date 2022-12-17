@@ -1,6 +1,8 @@
-def InteractionRequestBinder():
-    '''public InteractionRequestBinder(final String interactionName)
+def ():
+    '''returns InteractionRequestBinder\n\n
+    (final String interactionName)\n
     '''
 def bind():
-    '''public void bind(final MboSetRemote interactionSet, final MboRemote mainMbo, final boolean isResponse)
+    '''returns None\n\n
+    bind(final MboSetRemote interactionSet, final MboRemote mainMbo, final boolean isResponse)\n
     '''

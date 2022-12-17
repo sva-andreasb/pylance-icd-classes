@@ -1,25 +1,29 @@
-def IlvLogarithmicAxisTransformer():
-    '''public IlvLogarithmicAxisTransformer()
-    public IlvLogarithmicAxisTransformer(final double logBase)
-    '''
-def getLogBase():
-    '''public final double getLogBase()
+def ():
+    '''returns IlvLogarithmicAxisTransformer\n\n
+    ()\n
+    (final double logBase)\n
     '''
 def setLogBase():
-    '''public void setLogBase(final double n)
+    '''returns None\n\n
+    setLogBase(final double n)\n
     '''
 def isRoundingToPowers():
-    '''public boolean isRoundingToPowers()
+    '''returns boolean\n\n
+    isRoundingToPowers()\n
     '''
 def setRoundingToPowers():
-    '''public void setRoundingToPowers(final boolean c)
+    '''returns None\n\n
+    setRoundingToPowers(final boolean c)\n
     '''
 def apply():
-    '''public double apply(final double a)
+    '''returns double\n\n
+    apply(final double a)\n
     '''
 def inverse():
-    '''public double inverse(final double n)
+    '''returns double\n\n
+    inverse(final double n)\n
     '''
 def validateInterval():
-    '''public boolean validateInterval(final IlvDataInterval ilvDataInterval)
+    '''returns boolean\n\n
+    validateInterval(final IlvDataInterval ilvDataInterval)\n
     '''

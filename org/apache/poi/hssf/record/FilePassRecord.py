@@ -1,20 +1,26 @@
 sid = "short  47"
-def FilePassRecord():
-    '''public FilePassRecord(final EncryptionMode encryptionMode)
-    public FilePassRecord(final RecordInputStream in)
+def ():
+    '''returns FilePassRecord\n\n
+    (final EncryptionMode encryptionMode)\n
+    (final RecordInputStream in)\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getEncryptionInfo():
-    '''public EncryptionInfo getEncryptionInfo()
+    '''returns EncryptionInfo\n\n
+    getEncryptionInfo()\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public FilePassRecord clone()
+    '''returns FilePassRecord\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

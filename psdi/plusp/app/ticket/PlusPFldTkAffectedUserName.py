@@ -1,9 +1,12 @@
-def PlusPFldTkAffectedUserName():
-    '''public PlusPFldTkAffectedUserName(final MboValue arg0)
+def ():
+    '''returns PlusPFldTkAffectedUserName\n\n
+    (final MboValue arg0)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

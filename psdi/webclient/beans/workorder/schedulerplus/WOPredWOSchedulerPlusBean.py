@@ -1,24 +1,28 @@
-def WOPredWOSchedulerPlusBean():
-    '''public WOPredWOSchedulerPlusBean()
+def ():
+    '''returns WOPredWOSchedulerPlusBean\n\n
+    ()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def loadParents():
-    '''public void loadParents(final String wonum, final Map<String, String> parents)
+    '''returns None\n\n
+    loadParents(final String wonum, final Map<String, String> parents)\n
     '''
 def closeDialog():
-    '''public void closeDialog()
+    '''returns None\n\n
+    closeDialog()\n
     '''
 def setAttributePredessorTask():
-    '''public int setAttributePredessorTask()
+    '''returns int\n\n
+    setAttributePredessorTask()\n
     '''
 def getAllLinks():
-    '''public void getAllLinks(final String wonum)
-    '''
-def getWoClassMboSet():
-    '''public static String getWoClassMboSet(final String woClass)
+    '''returns None\n\n
+    getAllLinks(final String wonum)\n
     '''
 def getOriginParentList():
-    '''public void getOriginParentList(String origin)
+    '''returns None\n\n
+    getOriginParentList(String origin)\n
     '''

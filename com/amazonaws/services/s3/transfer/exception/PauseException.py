@@ -1,9 +1,12 @@
-def PauseException():
-    '''public PauseException(final PauseStatus status)
+def ():
+    '''returns PauseException\n\n
+    (final PauseStatus status)\n
     '''
 def getPauseStatus():
-    '''public PauseStatus getPauseStatus()
+    '''returns PauseStatus\n\n
+    getPauseStatus()\n
     '''
 def isRetryable():
-    '''public boolean isRetryable()
+    '''returns boolean\n\n
+    isRetryable()\n
     '''

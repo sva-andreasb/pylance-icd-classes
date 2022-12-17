@@ -1,213 +1,215 @@
 def execute():
-    '''public void execute(final Runnable runnable)
+    '''returns None\n\n
+    execute(final Runnable runnable)\n
     '''
 def getConfiguration():
-    '''public ConnectionConfiguration getConfiguration()
+    '''returns ConnectionConfiguration\n\n
+    getConfiguration()\n
     '''
 def getXMPPServiceDomain():
-    '''public DomainBareJid getXMPPServiceDomain()
+    '''returns DomainBareJid\n\n
+    getXMPPServiceDomain()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
-    '''
-def connect():
-    '''public synchronized AbstractXMPPConnection connect()
-    '''
-def login():
-    '''public synchronized void login()
-    public synchronized void login(final CharSequence username, final String password)
-    public synchronized void login(final CharSequence username, final String password, final Resourcepart resource)
-    '''
-def isConnected():
-    '''public final boolean isConnected()
-    '''
-def isAuthenticated():
-    '''public final boolean isAuthenticated()
-    '''
-def getUser():
-    '''public final EntityFullJid getUser()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getStreamId():
-    '''public String getStreamId()
-    '''
-def isAnonymous():
-    '''public final boolean isAnonymous()
-    '''
-def getUsedSaslMechansism():
-    '''public final String getUsedSaslMechansism()
+    '''returns String\n\n
+    getStreamId()\n
     '''
 def sendStanza():
-    '''public void sendStanza(final Stanza stanza)
+    '''returns None\n\n
+    sendStanza(final Stanza stanza)\n
     '''
 def disconnect():
-    '''public void disconnect()
-    public synchronized void disconnect(final Presence unavailablePresence)
+    '''returns None\n\n
+    disconnect()\n
     '''
 def addConnectionListener():
-    '''public void addConnectionListener(final ConnectionListener connectionListener)
+    '''returns None\n\n
+    addConnectionListener(final ConnectionListener connectionListener)\n
     '''
 def removeConnectionListener():
-    '''public void removeConnectionListener(final ConnectionListener connectionListener)
-    '''
-def sendIqRequestAndWaitForResponse():
-    '''public <I extends IQ> I sendIqRequestAndWaitForResponse(final IQ request)
+    '''returns None\n\n
+    removeConnectionListener(final ConnectionListener connectionListener)\n
     '''
 def createStanzaCollectorAndSend():
-    '''public StanzaCollector createStanzaCollectorAndSend(final IQ packet)
-    public StanzaCollector createStanzaCollectorAndSend(final StanzaFilter packetFilter, final Stanza packet)
+    '''returns StanzaCollector\n\n
+    createStanzaCollectorAndSend(final IQ packet)\n
+    createStanzaCollectorAndSend(final StanzaFilter packetFilter, final Stanza packet)\n
     '''
 def createStanzaCollector():
-    '''public StanzaCollector createStanzaCollector(final StanzaFilter packetFilter)
-    public StanzaCollector createStanzaCollector(final StanzaCollector.Configuration configuration)
+    '''returns StanzaCollector\n\n
+    createStanzaCollector(final StanzaFilter packetFilter)\n
+    createStanzaCollector(final StanzaCollector.Configuration configuration)\n
     '''
 def removeStanzaCollector():
-    '''public void removeStanzaCollector(final StanzaCollector collector)
+    '''returns None\n\n
+    removeStanzaCollector(final StanzaCollector collector)\n
     '''
 def addSyncStanzaListener():
-    '''public void addSyncStanzaListener(final StanzaListener packetListener, final StanzaFilter packetFilter)
+    '''returns None\n\n
+    addSyncStanzaListener(final StanzaListener packetListener, final StanzaFilter packetFilter)\n
     '''
 def removeSyncStanzaListener():
-    '''public boolean removeSyncStanzaListener(final StanzaListener packetListener)
+    '''returns boolean\n\n
+    removeSyncStanzaListener(final StanzaListener packetListener)\n
     '''
 def addAsyncStanzaListener():
-    '''public void addAsyncStanzaListener(final StanzaListener packetListener, final StanzaFilter packetFilter)
+    '''returns None\n\n
+    addAsyncStanzaListener(final StanzaListener packetListener, final StanzaFilter packetFilter)\n
     '''
 def removeAsyncStanzaListener():
-    '''public boolean removeAsyncStanzaListener(final StanzaListener packetListener)
+    '''returns boolean\n\n
+    removeAsyncStanzaListener(final StanzaListener packetListener)\n
     '''
 def addPacketSendingListener():
-    '''public void addPacketSendingListener(final StanzaListener packetListener, final StanzaFilter packetFilter)
+    '''returns None\n\n
+    addPacketSendingListener(final StanzaListener packetListener, final StanzaFilter packetFilter)\n
     '''
 def addStanzaSendingListener():
-    '''public void addStanzaSendingListener(final StanzaListener packetListener, final StanzaFilter packetFilter)
+    '''returns None\n\n
+    addStanzaSendingListener(final StanzaListener packetListener, final StanzaFilter packetFilter)\n
     '''
 def removePacketSendingListener():
-    '''public void removePacketSendingListener(final StanzaListener packetListener)
+    '''returns None\n\n
+    removePacketSendingListener(final StanzaListener packetListener)\n
     '''
 def removeStanzaSendingListener():
-    '''public void removeStanzaSendingListener(final StanzaListener packetListener)
+    '''returns None\n\n
+    removeStanzaSendingListener(final StanzaListener packetListener)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def addPacketInterceptor():
-    '''public void addPacketInterceptor(final StanzaListener packetInterceptor, final StanzaFilter packetFilter)
+    '''returns None\n\n
+    addPacketInterceptor(final StanzaListener packetInterceptor, final StanzaFilter packetFilter)\n
     '''
 def addStanzaInterceptor():
-    '''public void addStanzaInterceptor(final StanzaListener packetInterceptor, final StanzaFilter packetFilter)
+    '''returns None\n\n
+    addStanzaInterceptor(final StanzaListener packetInterceptor, final StanzaFilter packetFilter)\n
     '''
 def removePacketInterceptor():
-    '''public void removePacketInterceptor(final StanzaListener packetInterceptor)
+    '''returns None\n\n
+    removePacketInterceptor(final StanzaListener packetInterceptor)\n
     '''
 def removeStanzaInterceptor():
-    '''public void removeStanzaInterceptor(final StanzaListener packetInterceptor)
+    '''returns None\n\n
+    removeStanzaInterceptor(final StanzaListener packetInterceptor)\n
     '''
 def getReplyTimeout():
-    '''public long getReplyTimeout()
+    '''returns long\n\n
+    getReplyTimeout()\n
     '''
 def setReplyTimeout():
-    '''public void setReplyTimeout(final long timeout)
+    '''returns None\n\n
+    setReplyTimeout(final long timeout)\n
     '''
 def setUnknownIqRequestReplyMode():
-    '''public void setUnknownIqRequestReplyMode(final SmackConfiguration.UnknownIqRequestReplyMode unknownIqRequestReplyMode)
+    '''returns None\n\n
+    setUnknownIqRequestReplyMode(final SmackConfiguration.UnknownIqRequestReplyMode unknownIqRequestReplyMode)\n
     '''
 def getConnectionCounter():
-    '''public int getConnectionCounter()
+    '''returns int\n\n
+    getConnectionCounter()\n
     '''
 def setFromMode():
-    '''public void setFromMode(final FromMode fromMode)
+    '''returns None\n\n
+    setFromMode(final FromMode fromMode)\n
     '''
 def getFromMode():
-    '''public FromMode getFromMode()
-    '''
-def getFeature():
-    '''public <F extends ExtensionElement> F getFeature(final String element, final String namespace)
+    '''returns FromMode\n\n
+    getFromMode()\n
     '''
 def hasFeature():
-    '''public boolean hasFeature(final String element, final String namespace)
+    '''returns boolean\n\n
+    hasFeature(final String element, final String namespace)\n
     '''
 def sendStanzaWithResponseCallback():
-    '''public void sendStanzaWithResponseCallback(final Stanza stanza, final StanzaFilter replyFilter, final StanzaListener callback)
-    public void sendStanzaWithResponseCallback(final Stanza stanza, final StanzaFilter replyFilter, final StanzaListener callback, final ExceptionCallback exceptionCallback)
-    public void sendStanzaWithResponseCallback(final Stanza stanza, final StanzaFilter replyFilter, final StanzaListener callback, final ExceptionCallback exceptionCallback, final long timeout)
-    '''
-def sendIqRequestAsync():
-    '''public SmackFuture<IQ, Exception> sendIqRequestAsync(final IQ request)
-    public SmackFuture<IQ, Exception> sendIqRequestAsync(final IQ request, final long timeout)
-    '''
-def sendAsync():
-    '''public <S extends Stanza> SmackFuture<S, Exception> sendAsync(final S stanza, final StanzaFilter replyFilter)
-    public <S extends Stanza> SmackFuture<S, Exception> sendAsync(final S stanza, final StanzaFilter replyFilter, final long timeout)
+    '''returns None\n\n
+    sendStanzaWithResponseCallback(final Stanza stanza, final StanzaFilter replyFilter, final StanzaListener callback)\n
+    sendStanzaWithResponseCallback(final Stanza stanza, final StanzaFilter replyFilter, final StanzaListener callback, final ExceptionCallback exceptionCallback)\n
+    sendStanzaWithResponseCallback(final Stanza stanza, final StanzaFilter replyFilter, final StanzaListener callback, final ExceptionCallback exceptionCallback, final long timeout)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza stanza)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza stanza)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
     '''
 def sendIqWithResponseCallback():
-    '''public void sendIqWithResponseCallback(final IQ iqRequest, final StanzaListener callback)
-    public void sendIqWithResponseCallback(final IQ iqRequest, final StanzaListener callback, final ExceptionCallback exceptionCallback)
-    public void sendIqWithResponseCallback(final IQ iqRequest, final StanzaListener callback, final ExceptionCallback exceptionCallback, final long timeout)
+    '''returns None\n\n
+    sendIqWithResponseCallback(final IQ iqRequest, final StanzaListener callback)\n
+    sendIqWithResponseCallback(final IQ iqRequest, final StanzaListener callback, final ExceptionCallback exceptionCallback)\n
+    sendIqWithResponseCallback(final IQ iqRequest, final StanzaListener callback, final ExceptionCallback exceptionCallback, final long timeout)\n
     '''
 def addOneTimeSyncCallback():
-    '''public void addOneTimeSyncCallback(final StanzaListener callback, final StanzaFilter packetFilter)
+    '''returns None\n\n
+    addOneTimeSyncCallback(final StanzaListener callback, final StanzaFilter packetFilter)\n
     '''
 def registerIQRequestHandler():
-    '''public IQRequestHandler registerIQRequestHandler(final IQRequestHandler iqRequestHandler)
+    '''returns IQRequestHandler\n\n
+    registerIQRequestHandler(final IQRequestHandler iqRequestHandler)\n
     '''
 def unregisterIQRequestHandler():
-    '''public final IQRequestHandler unregisterIQRequestHandler(final IQRequestHandler iqRequestHandler)
-    public IQRequestHandler unregisterIQRequestHandler(final String element, final String namespace, final IQ.Type type)
+    '''returns IQRequestHandler\n\n
+    unregisterIQRequestHandler(final String element, final String namespace, final IQ.Type type)\n
     '''
 def getLastStanzaReceived():
-    '''public long getLastStanzaReceived()
-    '''
-def getAuthenticatedConnectionInitiallyEstablishedTimestamp():
-    '''public final long getAuthenticatedConnectionInitiallyEstablishedTimestamp()
+    '''returns long\n\n
+    getLastStanzaReceived()\n
     '''
 def setParsingExceptionCallback():
-    '''public void setParsingExceptionCallback(final ParsingExceptionCallback callback)
+    '''returns None\n\n
+    setParsingExceptionCallback(final ParsingExceptionCallback callback)\n
     '''
 def getParsingExceptionCallback():
-    '''public ParsingExceptionCallback getParsingExceptionCallback()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns ParsingExceptionCallback\n\n
+    getParsingExceptionCallback()\n
     '''
 def setMaxAsyncOperations():
-    '''public void setMaxAsyncOperations(final int maxAsyncOperations)
+    '''returns None\n\n
+    setMaxAsyncOperations(final int maxAsyncOperations)\n
     '''
 def newThread():
-    '''public Thread newThread(final Runnable runnable)
-    public Thread newThread(final Runnable runnable)
+    '''returns Thread\n\n
+    newThread(final Runnable runnable)\n
+    newThread(final Runnable runnable)\n
     '''
 def uncaughtException():
-    '''public void uncaughtException(final Thread t, final Throwable e)
+    '''returns None\n\n
+    uncaughtException(final Thread t, final Throwable e)\n
     '''
-def ListenerWrapper():
-    '''public ListenerWrapper(final StanzaListener packetListener, final StanzaFilter packetFilter)
+def ():
+    '''returns InterceptorWrapper\n\n
+    (final StanzaListener packetListener, final StanzaFilter packetFilter)\n
+    (final StanzaListener packetInterceptor, final StanzaFilter packetFilter)\n
     '''
 def filterMatches():
-    '''public boolean filterMatches(final Stanza packet)
-    public boolean filterMatches(final Stanza packet)
+    '''returns boolean\n\n
+    filterMatches(final Stanza packet)\n
+    filterMatches(final Stanza packet)\n
     '''
 def getListener():
-    '''public StanzaListener getListener()
-    '''
-def InterceptorWrapper():
-    '''public InterceptorWrapper(final StanzaListener packetInterceptor, final StanzaFilter packetFilter)
+    '''returns StanzaListener\n\n
+    getListener()\n
     '''
 def getInterceptor():
-    '''public StanzaListener getInterceptor()
+    '''returns StanzaListener\n\n
+    getInterceptor()\n
     '''

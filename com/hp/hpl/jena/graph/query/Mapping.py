@@ -1,22 +1,29 @@
-def Mapping():
-    '''public Mapping(final Node[] preDeclare)
+def ():
+    '''returns Mapping\n\n
+    (final Node[] preDeclare)\n
     '''
 def indexOf():
-    '''public int indexOf(final Node v)
-    public int indexOf(final String name)
+    '''returns int\n\n
+    indexOf(final Node v)\n
+    indexOf(final String name)\n
     '''
 def lookUp():
-    '''public int lookUp(final Node v)
+    '''returns int\n\n
+    lookUp(final Node v)\n
     '''
 def newIndex():
-    '''public int newIndex(final Node v)
+    '''returns int\n\n
+    newIndex(final Node v)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def hasBound():
-    '''public boolean hasBound(final Node v)
+    '''returns boolean\n\n
+    hasBound(final Node v)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

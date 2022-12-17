@@ -1,22 +1,29 @@
 TAG_ALTERNATE_IIOP_ADDRESS = "int  3"
-def LSDAddress():
-    '''public LSDAddress(final String lsdHost, final int lsdPort, final int securePort, final int ccPort)
+def ():
+    '''returns LSDAddress\n\n
+    (final String lsdHost, final int lsdPort, final int securePort, final int ccPort)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getSSLPort():
-    '''public int getSSLPort()
+    '''returns int\n\n
+    getSSLPort()\n
     '''
 def getSSLCCPort():
-    '''public int getSSLCCPort()
+    '''returns int\n\n
+    getSSLCCPort()\n
     '''
 def getAlternateIIOPAddress():
-    '''public AlternateIIOPAddress getAlternateIIOPAddress()
+    '''returns AlternateIIOPAddress\n\n
+    getAlternateIIOPAddress()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

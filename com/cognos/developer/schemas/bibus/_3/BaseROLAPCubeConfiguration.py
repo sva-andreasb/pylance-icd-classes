@@ -1,61 +1,61 @@
-def BaseROLAPCubeConfiguration():
-    '''public BaseROLAPCubeConfiguration()
-    public BaseROLAPCubeConfiguration(final int dataCacheSizeLimit, final String dataSourceName, final boolean disabled, final boolean disableResultSetCache, final int multiDimensionalQuerySizeLimit, final int resultSetCacheSizeLimit, final String startupTriggerName)
+def ():
+    '''returns BaseROLAPCubeConfiguration\n\n
+    ()\n
+    (final int dataCacheSizeLimit, final String dataSourceName, final boolean disabled, final boolean disableResultSetCache, final int multiDimensionalQuerySizeLimit, final int resultSetCacheSizeLimit, final String startupTriggerName)\n
     '''
 def getDataCacheSizeLimit():
-    '''public int getDataCacheSizeLimit()
+    '''returns int\n\n
+    getDataCacheSizeLimit()\n
     '''
 def setDataCacheSizeLimit():
-    '''public void setDataCacheSizeLimit(final int dataCacheSizeLimit)
+    '''returns None\n\n
+    setDataCacheSizeLimit(final int dataCacheSizeLimit)\n
     '''
 def getDataSourceName():
-    '''public String getDataSourceName()
+    '''returns String\n\n
+    getDataSourceName()\n
     '''
 def setDataSourceName():
-    '''public void setDataSourceName(final String dataSourceName)
+    '''returns None\n\n
+    setDataSourceName(final String dataSourceName)\n
     '''
 def isDisabled():
-    '''public boolean isDisabled()
+    '''returns boolean\n\n
+    isDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean disabled)
+    '''returns None\n\n
+    setDisabled(final boolean disabled)\n
     '''
 def isDisableResultSetCache():
-    '''public boolean isDisableResultSetCache()
+    '''returns boolean\n\n
+    isDisableResultSetCache()\n
     '''
 def setDisableResultSetCache():
-    '''public void setDisableResultSetCache(final boolean disableResultSetCache)
+    '''returns None\n\n
+    setDisableResultSetCache(final boolean disableResultSetCache)\n
     '''
 def getMultiDimensionalQuerySizeLimit():
-    '''public int getMultiDimensionalQuerySizeLimit()
+    '''returns int\n\n
+    getMultiDimensionalQuerySizeLimit()\n
     '''
 def setMultiDimensionalQuerySizeLimit():
-    '''public void setMultiDimensionalQuerySizeLimit(final int multiDimensionalQuerySizeLimit)
+    '''returns None\n\n
+    setMultiDimensionalQuerySizeLimit(final int multiDimensionalQuerySizeLimit)\n
     '''
 def getResultSetCacheSizeLimit():
-    '''public int getResultSetCacheSizeLimit()
+    '''returns int\n\n
+    getResultSetCacheSizeLimit()\n
     '''
 def setResultSetCacheSizeLimit():
-    '''public void setResultSetCacheSizeLimit(final int resultSetCacheSizeLimit)
+    '''returns None\n\n
+    setResultSetCacheSizeLimit(final int resultSetCacheSizeLimit)\n
     '''
 def getStartupTriggerName():
-    '''public String getStartupTriggerName()
+    '''returns String\n\n
+    getStartupTriggerName()\n
     '''
 def setStartupTriggerName():
-    '''public void setStartupTriggerName(final String startupTriggerName)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setStartupTriggerName(final String startupTriggerName)\n
     '''

@@ -1,6 +1,8 @@
-def SumOfClusterVariances():
-    '''public SumOfClusterVariances(final DistanceMeasure measure)
+def ():
+    '''returns SumOfClusterVariances\n\n
+    (final DistanceMeasure measure)\n
     '''
 def score():
-    '''public double score(final List<? extends Cluster<T>> clusters)
+    '''returns double\n\n
+    score(final List<? extends Cluster<T>> clusters)\n
     '''

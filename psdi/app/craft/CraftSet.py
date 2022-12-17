@@ -1,3 +1,4 @@
-def CraftSet():
-    '''public CraftSet(final MboServerInterface ms)
+def ():
+    '''returns CraftSet\n\n
+    (final MboServerInterface ms)\n
     '''

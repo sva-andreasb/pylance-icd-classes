@@ -1,42 +1,56 @@
-def IlvVerticalScrollController():
-    '''public IlvVerticalScrollController()
+def ():
+    '''returns IlvVerticalScrollController\n\n
+    ()\n
     '''
 def addVerticalScrollable():
-    '''public void addVerticalScrollable(final IlvVerticalScrollable ilvVerticalScrollable)
+    '''returns None\n\n
+    addVerticalScrollable(final IlvVerticalScrollable ilvVerticalScrollable)\n
     '''
 def removeVerticalScrollable():
-    '''public void removeVerticalScrollable(final IlvVerticalScrollable ilvVerticalScrollable)
+    '''returns None\n\n
+    removeVerticalScrollable(final IlvVerticalScrollable ilvVerticalScrollable)\n
     '''
 def getMaxVerticalPosition():
-    '''public int getMaxVerticalPosition()
+    '''returns int\n\n
+    getMaxVerticalPosition()\n
     '''
 def setMaxVerticalPosition():
-    '''public void setMaxVerticalPosition(final int n)
+    '''returns None\n\n
+    setMaxVerticalPosition(final int n)\n
     '''
 def getVerticalPosition():
-    '''public int getVerticalPosition()
+    '''returns int\n\n
+    getVerticalPosition()\n
     '''
 def setVerticalPosition():
-    '''public void setVerticalPosition(final int n)
+    '''returns None\n\n
+    setVerticalPosition(final int n)\n
     '''
 def getVerticalExtent():
-    '''public int getVerticalExtent()
+    '''returns int\n\n
+    getVerticalExtent()\n
     '''
 def setVerticalExtent():
-    '''public void setVerticalExtent(final int n)
+    '''returns None\n\n
+    setVerticalExtent(final int n)\n
     '''
 def addVerticalScrollListener():
-    '''public void addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''returns None\n\n
+    addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)\n
     '''
 def removeVerticalScrollListener():
-    '''public void removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''returns None\n\n
+    removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)\n
     '''
 def verticalPositionChanged():
-    '''public void verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def verticalExtentChanged():
-    '''public void verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def maxVerticalPositionChanged():
-    '''public void maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''

@@ -1,25 +1,29 @@
-def StatusConfiguration():
-    '''public StatusConfiguration()
+def ():
+    '''returns StatusConfiguration\n\n
+    ()\n
     '''
 def error():
-    '''public void error(final String message)
+    '''returns None\n\n
+    error(final String message)\n
     '''
 def withDestination():
-    '''public StatusConfiguration withDestination(final String destination)
+    '''returns StatusConfiguration\n\n
+    withDestination(final String destination)\n
     '''
 def withStatus():
-    '''public StatusConfiguration withStatus(final String status)
-    public StatusConfiguration withStatus(final Level status)
+    '''returns StatusConfiguration\n\n
+    withStatus(final String status)\n
+    withStatus(final Level status)\n
     '''
 def withVerbosity():
-    '''public StatusConfiguration withVerbosity(final String verbosity)
+    '''returns StatusConfiguration\n\n
+    withVerbosity(final String verbosity)\n
     '''
 def withVerboseClasses():
-    '''public StatusConfiguration withVerboseClasses(final String... verboseClasses)
+    '''returns StatusConfiguration\n\n
+    withVerboseClasses(final String... verboseClasses)\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def toVerbosity():
-    '''public static Verbosity toVerbosity(final String value)
+    '''returns None\n\n
+    initialize()\n
     '''

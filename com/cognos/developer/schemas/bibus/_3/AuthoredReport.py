@@ -1,79 +1,85 @@
-def AuthoredReport():
-    '''public AuthoredReport()
-    public AuthoredReport(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final BooleanProp allowNotification, final BooleanProp allowSubscription, final BaseClassArrayProp contact, final StringProp contactEMail, final NmtokenArrayProp defaultOutputFormat, final BaseReportActionEnumProp defaultPortalAction, final BaseClassArrayProp executionPageDefinition, final BaseClassArrayProp notificationList, final BooleanProp notificationListIsEmpty, final OptionArrayProp options, final AnyTypeProp ownerPassport, final StringProp packageBase, final ParameterValueArrayProp parameters, final RetentionRuleArrayProp retentions, final StringProp routingServerGroup, final StringProp routingServerGroupEdition, final BooleanProp runAsOwner, final StringProp serverGroup, final BooleanProp canBurst, final StringProp defaultTriggerDescription, final BaseClassArrayProp metadataModel, final BaseClassArrayProp metadataModelPackage, final NavigationPathArrayProp paths, final AnyURIProp queryMode, final BooleanProp runWithOwnerCapabilities, final AnyTypeProp specification, final MultilingualStringProp triggerDescription, final StringProp triggerName)
+def ():
+    '''returns AuthoredReport\n\n
+    ()\n
+    (final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final BooleanProp allowNotification, final BooleanProp allowSubscription, final BaseClassArrayProp contact, final StringProp contactEMail, final NmtokenArrayProp defaultOutputFormat, final BaseReportActionEnumProp defaultPortalAction, final BaseClassArrayProp executionPageDefinition, final BaseClassArrayProp notificationList, final BooleanProp notificationListIsEmpty, final OptionArrayProp options, final AnyTypeProp ownerPassport, final StringProp packageBase, final ParameterValueArrayProp parameters, final RetentionRuleArrayProp retentions, final StringProp routingServerGroup, final StringProp routingServerGroupEdition, final BooleanProp runAsOwner, final StringProp serverGroup, final BooleanProp canBurst, final StringProp defaultTriggerDescription, final BaseClassArrayProp metadataModel, final BaseClassArrayProp metadataModelPackage, final NavigationPathArrayProp paths, final AnyURIProp queryMode, final BooleanProp runWithOwnerCapabilities, final AnyTypeProp specification, final MultilingualStringProp triggerDescription, final StringProp triggerName)\n
     '''
 def getCanBurst():
-    '''public BooleanProp getCanBurst()
+    '''returns BooleanProp\n\n
+    getCanBurst()\n
     '''
 def setCanBurst():
-    '''public void setCanBurst(final BooleanProp canBurst)
+    '''returns None\n\n
+    setCanBurst(final BooleanProp canBurst)\n
     '''
 def getDefaultTriggerDescription():
-    '''public StringProp getDefaultTriggerDescription()
+    '''returns StringProp\n\n
+    getDefaultTriggerDescription()\n
     '''
 def setDefaultTriggerDescription():
-    '''public void setDefaultTriggerDescription(final StringProp defaultTriggerDescription)
+    '''returns None\n\n
+    setDefaultTriggerDescription(final StringProp defaultTriggerDescription)\n
     '''
 def getMetadataModel():
-    '''public BaseClassArrayProp getMetadataModel()
+    '''returns BaseClassArrayProp\n\n
+    getMetadataModel()\n
     '''
 def setMetadataModel():
-    '''public void setMetadataModel(final BaseClassArrayProp metadataModel)
+    '''returns None\n\n
+    setMetadataModel(final BaseClassArrayProp metadataModel)\n
     '''
 def getMetadataModelPackage():
-    '''public BaseClassArrayProp getMetadataModelPackage()
+    '''returns BaseClassArrayProp\n\n
+    getMetadataModelPackage()\n
     '''
 def setMetadataModelPackage():
-    '''public void setMetadataModelPackage(final BaseClassArrayProp metadataModelPackage)
+    '''returns None\n\n
+    setMetadataModelPackage(final BaseClassArrayProp metadataModelPackage)\n
     '''
 def getPaths():
-    '''public NavigationPathArrayProp getPaths()
+    '''returns NavigationPathArrayProp\n\n
+    getPaths()\n
     '''
 def setPaths():
-    '''public void setPaths(final NavigationPathArrayProp paths)
+    '''returns None\n\n
+    setPaths(final NavigationPathArrayProp paths)\n
     '''
 def getQueryMode():
-    '''public AnyURIProp getQueryMode()
+    '''returns AnyURIProp\n\n
+    getQueryMode()\n
     '''
 def setQueryMode():
-    '''public void setQueryMode(final AnyURIProp queryMode)
+    '''returns None\n\n
+    setQueryMode(final AnyURIProp queryMode)\n
     '''
 def getRunWithOwnerCapabilities():
-    '''public BooleanProp getRunWithOwnerCapabilities()
+    '''returns BooleanProp\n\n
+    getRunWithOwnerCapabilities()\n
     '''
 def setRunWithOwnerCapabilities():
-    '''public void setRunWithOwnerCapabilities(final BooleanProp runWithOwnerCapabilities)
+    '''returns None\n\n
+    setRunWithOwnerCapabilities(final BooleanProp runWithOwnerCapabilities)\n
     '''
 def getSpecification():
-    '''public AnyTypeProp getSpecification()
+    '''returns AnyTypeProp\n\n
+    getSpecification()\n
     '''
 def setSpecification():
-    '''public void setSpecification(final AnyTypeProp specification)
+    '''returns None\n\n
+    setSpecification(final AnyTypeProp specification)\n
     '''
 def getTriggerDescription():
-    '''public MultilingualStringProp getTriggerDescription()
+    '''returns MultilingualStringProp\n\n
+    getTriggerDescription()\n
     '''
 def setTriggerDescription():
-    '''public void setTriggerDescription(final MultilingualStringProp triggerDescription)
+    '''returns None\n\n
+    setTriggerDescription(final MultilingualStringProp triggerDescription)\n
     '''
 def getTriggerName():
-    '''public StringProp getTriggerName()
+    '''returns StringProp\n\n
+    getTriggerName()\n
     '''
 def setTriggerName():
-    '''public void setTriggerName(final StringProp triggerName)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setTriggerName(final StringProp triggerName)\n
     '''

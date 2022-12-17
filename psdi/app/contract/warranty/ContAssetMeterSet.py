@@ -1,3 +1,4 @@
-def ContAssetMeterSet():
-    '''public ContAssetMeterSet(final MboServerInterface ms)
+def ():
+    '''returns ContAssetMeterSet\n\n
+    (final MboServerInterface ms)\n
     '''

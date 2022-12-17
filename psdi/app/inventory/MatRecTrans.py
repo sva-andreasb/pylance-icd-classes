@@ -1,221 +1,294 @@
-def MatRecTrans():
-    '''public MatRecTrans(final MboSet ms)
+def ():
+    '''returns MatRecTrans\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getBinNumFlag():
-    '''public boolean getBinNumFlag()
+    '''returns boolean\n\n
+    getBinNumFlag()\n
     '''
 def setBinNumFlag():
-    '''public void setBinNumFlag(final boolean binNumFlag)
+    '''returns None\n\n
+    setBinNumFlag(final boolean binNumFlag)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def isTransfer():
-    '''public boolean isTransfer()
+    '''returns boolean\n\n
+    isTransfer()\n
     '''
 def isPicksTransfer():
-    '''public boolean isPicksTransfer()
+    '''returns boolean\n\n
+    isPicksTransfer()\n
     '''
 def isPickRestock():
-    '''public boolean isPickRestock()
+    '''returns boolean\n\n
+    isPickRestock()\n
     '''
 def isShipReceipt():
-    '''public boolean isShipReceipt()
+    '''returns boolean\n\n
+    isShipReceipt()\n
     '''
 def isTransferNoPO():
-    '''public boolean isTransferNoPO()
+    '''returns boolean\n\n
+    isTransferNoPO()\n
     '''
 def isReceipt():
-    '''public boolean isReceipt()
+    '''returns boolean\n\n
+    isReceipt()\n
     '''
 def isReturn():
-    '''public boolean isReturn()
+    '''returns boolean\n\n
+    isReturn()\n
     '''
 def isInvoice():
-    '''public boolean isInvoice()
+    '''returns boolean\n\n
+    isInvoice()\n
     '''
 def isMisclReceipt():
-    '''public boolean isMisclReceipt()
+    '''returns boolean\n\n
+    isMisclReceipt()\n
     '''
 def isVoidReceipt():
-    '''public boolean isVoidReceipt()
+    '''returns boolean\n\n
+    isVoidReceipt()\n
     '''
 def hasVoidReceipt():
-    '''public boolean hasVoidReceipt()
+    '''returns boolean\n\n
+    hasVoidReceipt()\n
     '''
 def isHolding():
-    '''public boolean isHolding()
+    '''returns boolean\n\n
+    isHolding()\n
     '''
 def getHoldingLocationForSite():
-    '''public MboRemote getHoldingLocationForSite(final String siteid)
+    '''returns MboRemote\n\n
+    getHoldingLocationForSite(final String siteid)\n
     '''
 def isReject():
-    '''public boolean isReject()
+    '''returns boolean\n\n
+    isReject()\n
     '''
 def isShipReject():
-    '''public boolean isShipReject()
+    '''returns boolean\n\n
+    isShipReject()\n
     '''
 def getReceiptStatus():
-    '''public String getReceiptStatus()
+    '''returns String\n\n
+    getReceiptStatus()\n
     '''
 def getClearingAcct():
-    '''public MboRemote getClearingAcct()
+    '''returns MboRemote\n\n
+    getClearingAcct()\n
     '''
 def approve():
-    '''public void approve(Date statusDate)
-    public void approve(final MboSetRemote assetInputSet)
+    '''returns None\n\n
+    approve(Date statusDate)\n
+    approve(final MboSetRemote assetInputSet)\n
     '''
 def updateInventory():
-    '''public void updateInventory(final InventoryRemote invmbo, final PORemote poMbo, final InvCost invcost)
+    '''returns None\n\n
+    updateInventory(final InventoryRemote invmbo, final PORemote poMbo, final InvCost invcost)\n
     '''
 def addRotatingAsset():
-    '''public void addRotatingAsset(final String assetnum)
+    '''returns None\n\n
+    addRotatingAsset(final String assetnum)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def createInvoiceOnConsumption():
-    '''public void createInvoiceOnConsumption()
+    '''returns None\n\n
+    createInvoiceOnConsumption()\n
     '''
 def updateInvReserveActualQty():
-    '''public void updateInvReserveActualQty(final MboRemote invUseLine)
+    '''returns None\n\n
+    updateInvReserveActualQty(final MboRemote invUseLine)\n
     '''
 def getReceiptForThisReturn():
-    '''public MboRemote getReceiptForThisReturn()
+    '''returns MboRemote\n\n
+    getReceiptForThisReturn()\n
     '''
 def getshipTransferForThisShipReceipt():
-    '''public MboRemote getshipTransferForThisShipReceipt()
+    '''returns MboRemote\n\n
+    getshipTransferForThisShipReceipt()\n
     '''
 def setAproveAfterCreatingAssets():
-    '''public void setAproveAfterCreatingAssets(final boolean flag)
+    '''returns None\n\n
+    setAproveAfterCreatingAssets(final boolean flag)\n
     '''
 def getApproveAfterCreatingAssets():
-    '''public boolean getApproveAfterCreatingAssets()
+    '''returns boolean\n\n
+    getApproveAfterCreatingAssets()\n
     '''
 def rejectsForRotatingShipments():
-    '''public void rejectsForRotatingShipments()
+    '''returns None\n\n
+    rejectsForRotatingShipments()\n
     '''
 def transferForRotatingShipments():
-    '''public void transferForRotatingShipments()
+    '''returns None\n\n
+    transferForRotatingShipments()\n
     '''
 def approveShipReceipt():
-    '''public void approveShipReceipt()
+    '''returns None\n\n
+    approveShipReceipt()\n
     '''
 def approveCrossSiteShipment():
-    '''public void approveCrossSiteShipment(final MboSetRemote assetInputSet, final MboRemote oneAssetInput)
+    '''returns None\n\n
+    approveCrossSiteShipment(final MboSetRemote assetInputSet, final MboRemote oneAssetInput)\n
     '''
 def setInspectionRequiredEditibilityFlags():
-    '''public void setInspectionRequiredEditibilityFlags(final boolean flag)
+    '''returns None\n\n
+    setInspectionRequiredEditibilityFlags(final boolean flag)\n
     '''
 def canApprove():
-    '''public void canApprove()
+    '''returns None\n\n
+    canApprove()\n
     '''
 def onlyPayOnReceipt():
-    '''public void onlyPayOnReceipt(final PORemote poMbo, final POLineRemote poLineMbo)
+    '''returns None\n\n
+    onlyPayOnReceipt(final PORemote poMbo, final POLineRemote poLineMbo)\n
     '''
 def setToInvBalUpdated():
-    '''public void setToInvBalUpdated()
+    '''returns None\n\n
+    setToInvBalUpdated()\n
     '''
 def setFromInvBalUpdated():
-    '''public void setFromInvBalUpdated()
+    '''returns None\n\n
+    setFromInvBalUpdated()\n
     '''
 def getCourierLaborTransientMatRec():
-    '''public MboRemote getCourierLaborTransientMatRec()
+    '''returns MboRemote\n\n
+    getCourierLaborTransientMatRec()\n
     '''
 def getSharedInventory():
-    '''public MboRemote getSharedInventory(final String storeLoc, final String siteid)
+    '''returns MboRemote\n\n
+    getSharedInventory(final String storeLoc, final String siteid)\n
     '''
 def calculateUnInvoicedQtyCost():
-    '''public double[] calculateUnInvoicedQtyCost()
+    '''returns double[]\n\n
+    calculateUnInvoicedQtyCost()\n
     '''
 def createReturn():
-    '''public void createReturn(final MatRecTransRemote matrec)
+    '''returns None\n\n
+    createReturn(final MatRecTransRemote matrec)\n
     '''
 def getInvCostRecord():
-    '''public MboRemote getInvCostRecord(final MboRemote toInventory)
+    '''returns MboRemote\n\n
+    getInvCostRecord(final MboRemote toInventory)\n
     '''
 def updateInventoryCostAndBalances():
-    '''public void updateInventoryCostAndBalances()
+    '''returns None\n\n
+    updateInventoryCostAndBalances()\n
     '''
 def isSwitchoffWOUpdate():
-    '''public boolean isSwitchoffWOUpdate()
+    '''returns boolean\n\n
+    isSwitchoffWOUpdate()\n
     '''
 def setSwitchoffWOUpdate():
-    '''public void setSwitchoffWOUpdate(final boolean switchoffWOUpdate)
+    '''returns None\n\n
+    setSwitchoffWOUpdate(final boolean switchoffWOUpdate)\n
     '''
 def setInvReserveUpdatedFlag():
-    '''public void setInvReserveUpdatedFlag(final boolean updated)
+    '''returns None\n\n
+    setInvReserveUpdatedFlag(final boolean updated)\n
     '''
 def setCheckNegBalance():
-    '''public void setCheckNegBalance(final boolean updated)
+    '''returns None\n\n
+    setCheckNegBalance(final boolean updated)\n
     '''
 def getPOLineUpdated():
-    '''public boolean getPOLineUpdated()
+    '''returns boolean\n\n
+    getPOLineUpdated()\n
     '''
 def setPOLineUpdated():
-    '''public void setPOLineUpdated()
+    '''returns None\n\n
+    setPOLineUpdated()\n
     '''
 def isStageTransfer():
-    '''public boolean isStageTransfer()
+    '''returns boolean\n\n
+    isStageTransfer()\n
     '''
 def isShipTransfer():
-    '''public boolean isShipTransfer()
+    '''returns boolean\n\n
+    isShipTransfer()\n
     '''
 def isShipCancel():
-    '''public boolean isShipCancel()
+    '''returns boolean\n\n
+    isShipCancel()\n
     '''
 def isShipReturn():
-    '''public boolean isShipReturn()
+    '''returns boolean\n\n
+    isShipReturn()\n
     '''
 def isVoidShipReceipt():
-    '''public boolean isVoidShipReceipt()
+    '''returns boolean\n\n
+    isVoidShipReceipt()\n
     '''
 def createMatRecTransRecordforLifoFifo():
-    '''public void createMatRecTransRecordforLifoFifo(final MboRemote inv)
+    '''returns None\n\n
+    createMatRecTransRecordforLifoFifo(final MboRemote inv)\n
     '''
 def canBeReturned():
-    '''public boolean canBeReturned()
+    '''returns boolean\n\n
+    canBeReturned()\n
     '''
 def setShipmentMap():
-    '''public void setShipmentMap()
+    '''returns None\n\n
+    setShipmentMap()\n
     '''
 def isDirectIssueConversion():
-    '''public boolean isDirectIssueConversion()
-    public boolean isDirectIssueConversion(final boolean includeStoreroom)
+    '''returns boolean\n\n
+    isDirectIssueConversion()\n
+    isDirectIssueConversion(final boolean includeStoreroom)\n
     '''
 def getDirectIssueConversion():
-    '''public double getDirectIssueConversion()
+    '''returns double\n\n
+    getDirectIssueConversion()\n
     '''
 def createStdRecAdjOnRotAssetTransferIn():
-    '''public void createStdRecAdjOnRotAssetTransferIn()
+    '''returns None\n\n
+    createStdRecAdjOnRotAssetTransferIn()\n
     '''
 def isSameStoreTransfer():
-    '''public boolean isSameStoreTransfer()
+    '''returns boolean\n\n
+    isSameStoreTransfer()\n
     '''
 def setOriginalCostDate():
-    '''public void setOriginalCostDate(final Date costDate)
+    '''returns None\n\n
+    setOriginalCostDate(final Date costDate)\n
     '''
 def getOriginalCostDate():
-    '''public Date getOriginalCostDate()
+    '''returns Date\n\n
+    getOriginalCostDate()\n
     '''
 def setWorkOrderUpdatedFlag():
-    '''public void setWorkOrderUpdatedFlag(final boolean updated)
+    '''returns None\n\n
+    setWorkOrderUpdatedFlag(final boolean updated)\n
     '''
 def getWorkOrderUpdatedFlag():
-    '''public boolean getWorkOrderUpdatedFlag()
+    '''returns boolean\n\n
+    getWorkOrderUpdatedFlag()\n
     '''
 def isRejectedReturn():
-    '''public boolean isRejectedReturn()
+    '''returns boolean\n\n
+    isRejectedReturn()\n
     '''
 def createShipReceiptRecordsforLifoFifo():
-    '''public void createShipReceiptRecordsforLifoFifo()
+    '''returns None\n\n
+    createShipReceiptRecordsforLifoFifo()\n
     '''

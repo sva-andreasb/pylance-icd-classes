@@ -1,4 +1,5 @@
-def CompMasterService():
-    '''public CompMasterService()
-    public CompMasterService(final MXServer mxServer)
+def ():
+    '''returns CompMasterService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

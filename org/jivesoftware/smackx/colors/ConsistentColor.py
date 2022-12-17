@@ -1,11 +1,9 @@
-def RGBFrom():
-    '''public static float[] RGBFrom(final CharSequence input)
-    public static float[] RGBFrom(final CharSequence input, final ConsistentColorSettings settings)
-    '''
-def ConsistentColorSettings():
-    '''public ConsistentColorSettings()
-    public ConsistentColorSettings(final Deficiency deficiency)
+def ():
+    '''returns ConsistentColorSettings\n\n
+    ()\n
+    (final Deficiency deficiency)\n
     '''
 def getDeficiency():
-    '''public Deficiency getDeficiency()
+    '''returns Deficiency\n\n
+    getDeficiency()\n
     '''

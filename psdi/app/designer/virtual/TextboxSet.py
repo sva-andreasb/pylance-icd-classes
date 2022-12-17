@@ -1,3 +1,4 @@
-def TextboxSet():
-    '''public TextboxSet(final MboServerInterface ms)
+def ():
+    '''returns TextboxSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,27 +1,32 @@
-def getHttpSettings():
-    '''public static HttpSettings getHttpSettings()
-    '''
 def getHttpProxyHost():
-    '''public String getHttpProxyHost(final String s)
+    '''returns String\n\n
+    getHttpProxyHost(final String s)\n
     '''
 def getHttpProxyPort():
-    '''public int getHttpProxyPort(final int n)
+    '''returns int\n\n
+    getHttpProxyPort(final int n)\n
     '''
 def getHttpsProxyHost():
-    '''public String getHttpsProxyHost(final String defaultValue)
+    '''returns String\n\n
+    getHttpsProxyHost(final String defaultValue)\n
     '''
 def getHttpsProxyPort():
-    '''public int getHttpsProxyPort(final int n)
+    '''returns int\n\n
+    getHttpsProxyPort(final int n)\n
     '''
 def getResponseAckTimeout():
-    '''public long getResponseAckTimeout(final long n)
+    '''returns long\n\n
+    getResponseAckTimeout(final long n)\n
     '''
 def getConnectionTimeout():
-    '''public long getConnectionTimeout(final long n)
+    '''returns long\n\n
+    getConnectionTimeout(final long n)\n
     '''
 def getServerConnectionTimeout():
-    '''public long getServerConnectionTimeout(final long n)
+    '''returns long\n\n
+    getServerConnectionTimeout(final long n)\n
     '''
 def nonProxied():
-    '''public boolean nonProxied(final String input, final boolean b)
+    '''returns boolean\n\n
+    nonProxied(final String input, final boolean b)\n
     '''

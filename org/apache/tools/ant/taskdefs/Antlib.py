@@ -1,13 +1,13 @@
 TAG = "String  \"antlib\""
-def Antlib():
-    '''public Antlib()
-    '''
-def createAntlib():
-    '''public static Antlib createAntlib(final Project project, final URL antlibUrl, final String uri)
+def ():
+    '''returns Antlib\n\n
+    ()\n
     '''
 def addTask():
-    '''public void addTask(final Task nestedTask)
+    '''returns None\n\n
+    addTask(final Task nestedTask)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

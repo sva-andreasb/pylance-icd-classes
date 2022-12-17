@@ -1,36 +1,48 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def INIT():
-    '''public int INIT()
+    '''returns int\n\n
+    INIT()\n
     '''
 def APPR():
-    '''public int APPR()
+    '''returns int\n\n
+    APPR()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def saveYesNoCheck():
-    '''public boolean saveYesNoCheck()
+    '''returns boolean\n\n
+    saveYesNoCheck()\n
     '''
 def APPLYPS():
-    '''public int APPLYPS()
+    '''returns int\n\n
+    APPLYPS()\n
     '''
 def VIEWCOSTPR():
-    '''public int VIEWCOSTPR()
+    '''returns int\n\n
+    VIEWCOSTPR()\n
     '''
 def UPDTQUOTE():
-    '''public int UPDTQUOTE()
+    '''returns int\n\n
+    UPDTQUOTE()\n
     '''
 def copyQuoteFields():
-    '''public int copyQuoteFields()
+    '''returns int\n\n
+    copyQuoteFields()\n
     '''
 def undoQuoteChanges():
-    '''public int undoQuoteChanges()
+    '''returns int\n\n
+    undoQuoteChanges()\n
     '''
 def MODIFYPS():
-    '''public int MODIFYPS()
+    '''returns int\n\n
+    MODIFYPS()\n
     '''
 def setStreetAddress():
-    '''public int setStreetAddress()
+    '''returns int\n\n
+    setStreetAddress()\n
     '''

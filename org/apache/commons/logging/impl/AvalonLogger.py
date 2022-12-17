@@ -1,52 +1,63 @@
-def AvalonLogger():
-    '''public AvalonLogger(final Logger logger)
-    public AvalonLogger(final String name)
+def ():
+    '''returns AvalonLogger\n\n
+    (final Logger logger)\n
+    (final String name)\n
     '''
 def getLogger():
-    '''public Logger getLogger()
-    '''
-def setDefaultLogger():
-    '''public static void setDefaultLogger(final Logger logger)
+    '''returns Logger\n\n
+    getLogger()\n
     '''
 def debug():
-    '''public void debug(final Object message, final Throwable t)
-    public void debug(final Object message)
+    '''returns None\n\n
+    debug(final Object message, final Throwable t)\n
+    debug(final Object message)\n
     '''
 def error():
-    '''public void error(final Object message, final Throwable t)
-    public void error(final Object message)
+    '''returns None\n\n
+    error(final Object message, final Throwable t)\n
+    error(final Object message)\n
     '''
 def fatal():
-    '''public void fatal(final Object message, final Throwable t)
-    public void fatal(final Object message)
+    '''returns None\n\n
+    fatal(final Object message, final Throwable t)\n
+    fatal(final Object message)\n
     '''
 def info():
-    '''public void info(final Object message, final Throwable t)
-    public void info(final Object message)
+    '''returns None\n\n
+    info(final Object message, final Throwable t)\n
+    info(final Object message)\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def isErrorEnabled():
-    '''public boolean isErrorEnabled()
+    '''returns boolean\n\n
+    isErrorEnabled()\n
     '''
 def isFatalEnabled():
-    '''public boolean isFatalEnabled()
+    '''returns boolean\n\n
+    isFatalEnabled()\n
     '''
 def isInfoEnabled():
-    '''public boolean isInfoEnabled()
+    '''returns boolean\n\n
+    isInfoEnabled()\n
     '''
 def isTraceEnabled():
-    '''public boolean isTraceEnabled()
+    '''returns boolean\n\n
+    isTraceEnabled()\n
     '''
 def isWarnEnabled():
-    '''public boolean isWarnEnabled()
+    '''returns boolean\n\n
+    isWarnEnabled()\n
     '''
 def trace():
-    '''public void trace(final Object message, final Throwable t)
-    public void trace(final Object message)
+    '''returns None\n\n
+    trace(final Object message, final Throwable t)\n
+    trace(final Object message)\n
     '''
 def warn():
-    '''public void warn(final Object message, final Throwable t)
-    public void warn(final Object message)
+    '''returns None\n\n
+    warn(final Object message, final Throwable t)\n
+    warn(final Object message)\n
     '''

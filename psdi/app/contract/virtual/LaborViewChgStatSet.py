@@ -1,3 +1,4 @@
-def LaborViewChgStatSet():
-    '''public LaborViewChgStatSet(final MboServerInterface ms)
+def ():
+    '''returns LaborViewChgStatSet\n\n
+    (final MboServerInterface ms)\n
     '''

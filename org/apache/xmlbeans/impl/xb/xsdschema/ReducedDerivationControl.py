@@ -1,0 +1,5 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(((ReducedDerivationControl$1.class$org$apache$xmlbeans$impl$xb$xsdschema$ReducedDerivationControl == null) ? (ReducedDerivationControl$1.class$org$apache$xmlbeans$impl$xb$xsdschema$ReducedDerivationControl = ReducedDerivationControl$1.class$(\"org.apache.xmlbeans.impl.xb.xsdschema.ReducedDerivationControl\")) : ReducedDerivationControl$1.class$org$apache$xmlbeans$impl$xb$xsdschema$ReducedDerivationControl).getClassLoader(), \"schemaorg_apache_xmlbeans.system.sXMLSCHEMA\").resolveHandle(\"reducedderivationcontrole1cbtype\")"
+EXTENSION = "Enum  DerivationControl.EXTENSION"
+RESTRICTION = "Enum  DerivationControl.RESTRICTION"
+INT_EXTENSION = "int  2"
+INT_RESTRICTION = "int  3"

@@ -1,14 +1,18 @@
-def LDAPSortKey():
-    '''public LDAPSortKey(final String s)
-    public LDAPSortKey(final String s, final boolean b)
-    public LDAPSortKey(final String key, final boolean reverse, final String matchRule)
+def ():
+    '''returns LDAPSortKey\n\n
+    (final String s)\n
+    (final String s, final boolean b)\n
+    (final String key, final boolean reverse, final String matchRule)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getReverse():
-    '''public boolean getReverse()
+    '''returns boolean\n\n
+    getReverse()\n
     '''
 def getMatchRule():
-    '''public String getMatchRule()
+    '''returns String\n\n
+    getMatchRule()\n
     '''

@@ -1,28 +1,26 @@
-def MessageDispatcher():
-    '''public MessageDispatcher()
-    public MessageDispatcher(final DispatchingThreadPool pool)
+def ():
+    '''returns DispatchEvent\n\n
+    ()\n
+    (final DispatchingThreadPool pool)\n
+    (final STEvent event)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def sendEvent():
-    '''public void sendEvent(final STEvent stEvent)
-    '''
-def addSTEventListener():
-    '''public synchronized void addSTEventListener(final STEventListener stEventListener)
-    '''
-def removeSTEventListener():
-    '''public synchronized void removeSTEventListener(final STEventListener stEventListener)
+    '''returns None\n\n
+    sendEvent(final STEvent stEvent)\n
     '''
 def getThreadPool():
-    '''public DispatchingThreadPool getThreadPool()
+    '''returns DispatchingThreadPool\n\n
+    getThreadPool()\n
     '''
 def setSwingThreadingEnabled():
-    '''public void setSwingThreadingEnabled(final boolean swingThreadingEnabled)
-    '''
-def DispatchEvent():
-    '''public DispatchEvent(final STEvent event)
+    '''returns None\n\n
+    setSwingThreadingEnabled(final boolean swingThreadingEnabled)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

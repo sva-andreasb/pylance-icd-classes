@@ -1,30 +1,37 @@
-def ValidationResult():
-    '''public ValidationResult()
+def ():
+    '''returns ValidationMessage\n\n
+    ()\n
+    (final String msg, final Object targetObject, final int severity, final int lineNo)\n
     '''
 def addMessage():
-    '''public void addMessage(final String documentUri, final String validator, final ValidationMessage msg)
+    '''returns None\n\n
+    addMessage(final String documentUri, final String validator, final ValidationMessage msg)\n
     '''
 def getValidationMessages():
-    '''public List getValidationMessages(final String documentUri, final String validator)
+    '''returns List\n\n
+    getValidationMessages(final String documentUri, final String validator)\n
     '''
 def getValidators():
-    '''public Set getValidators(final String documentUri)
+    '''returns Set\n\n
+    getValidators(final String documentUri)\n
     '''
 def getDocuments():
-    '''public Set getDocuments()
-    '''
-def ValidationMessage():
-    '''public ValidationMessage(final String msg, final Object targetObject, final int severity, final int lineNo)
+    '''returns Set\n\n
+    getDocuments()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getTargetObject():
-    '''public Object getTargetObject()
+    '''returns Object\n\n
+    getTargetObject()\n
     '''
 def getSeverity():
-    '''public int getSeverity()
+    '''returns int\n\n
+    getSeverity()\n
     '''
 def getLineNo():
-    '''public int getLineNo()
+    '''returns int\n\n
+    getLineNo()\n
     '''

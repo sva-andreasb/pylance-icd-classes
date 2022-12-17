@@ -1,9 +1,8 @@
-def FldSwKbtCronTempDir():
-    '''public FldSwKbtCronTempDir(final MboValue mbv)
+def ():
+    '''returns FldSwKbtCronTempDir\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def fileTest():
-    '''public static void fileTest(final String dir, final Object[] errorParams)
+    '''returns None\n\n
+    validate()\n
     '''

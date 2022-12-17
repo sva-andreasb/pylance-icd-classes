@@ -1,18 +1,24 @@
 def _ids():
-    '''public String[] _ids()
+    '''returns String[]\n\n
+    _ids()\n
     '''
 def flow():
-    '''public String flow(final String s)
+    '''returns String\n\n
+    flow(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def send():
-    '''public void send(final String s)
+    '''returns None\n\n
+    send(final String s)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

@@ -1,21 +1,28 @@
-def ReconExpressionToken():
-    '''public ReconExpressionToken(final int tokenType, final String tokenValue, final String tokenUnit, final ReconOperator operator)
+def ():
+    '''returns ReconExpressionToken\n\n
+    (final int tokenType, final String tokenValue, final String tokenUnit, final ReconOperator operator)\n
     '''
 def isRightAssociativeOperator():
-    '''public boolean isRightAssociativeOperator()
+    '''returns boolean\n\n
+    isRightAssociativeOperator()\n
     '''
 def getOperatorPrecedence():
-    '''public int getOperatorPrecedence()
+    '''returns int\n\n
+    getOperatorPrecedence()\n
     '''
 def isOperand():
-    '''public boolean isOperand()
+    '''returns boolean\n\n
+    isOperand()\n
     '''
 def isOperator():
-    '''public boolean isOperator()
+    '''returns boolean\n\n
+    isOperator()\n
     '''
 def isLeftParenthesis():
-    '''public boolean isLeftParenthesis()
+    '''returns boolean\n\n
+    isLeftParenthesis()\n
     '''
 def isRightParenthesis():
-    '''public boolean isRightParenthesis()
+    '''returns boolean\n\n
+    isRightParenthesis()\n
     '''

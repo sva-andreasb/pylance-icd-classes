@@ -1,4 +1,5 @@
-def RelationServiceNotRegisteredException():
-    '''public RelationServiceNotRegisteredException()
-    public RelationServiceNotRegisteredException(final String s)
+def ():
+    '''returns RelationServiceNotRegisteredException\n\n
+    ()\n
+    (final String s)\n
     '''

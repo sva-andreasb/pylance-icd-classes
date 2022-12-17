@@ -1,13 +1,13 @@
-def v():
-    '''public v(final InputStream inputStream, final FromPdfsOptions a)
+def ():
+    '''returns v\n\n
+    (final InputStream inputStream, final FromPdfsOptions a)\n
     '''
 def a():
-    '''public ay a()
-    public FromPdfsOptions a()
+    '''returns FromPdfsOptions\n\n
+    a()\n
+    a()\n
     '''
 def getPagesCount():
-    '''public int getPagesCount()
-    '''
-def bindSaveOptions():
-    '''public ILoader<ay, FromPdfsOptions> bindSaveOptions(final SaveOptions saveOptions)
+    '''returns int\n\n
+    getPagesCount()\n
     '''

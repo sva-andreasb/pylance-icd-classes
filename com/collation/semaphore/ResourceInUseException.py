@@ -1,6 +1,8 @@
-def ResourceInUseException():
-    '''public ResourceInUseException(final String message)
+def ():
+    '''returns ResourceInUseException\n\n
+    (final String message)\n
     '''
 def whoLocked():
-    '''public String whoLocked()
+    '''returns String\n\n
+    whoLocked()\n
     '''

@@ -1,18 +1,20 @@
-def Match():
-    '''public Match()
-    '''
-def clone():
-    '''public synchronized Object clone()
+def ():
+    '''returns Match\n\n
+    ()\n
     '''
 def getNumberOfGroups():
-    '''public int getNumberOfGroups()
+    '''returns int\n\n
+    getNumberOfGroups()\n
     '''
 def getBeginning():
-    '''public int getBeginning(final int index)
+    '''returns int\n\n
+    getBeginning(final int index)\n
     '''
 def getEnd():
-    '''public int getEnd(final int index)
+    '''returns int\n\n
+    getEnd(final int index)\n
     '''
 def getCapturedText():
-    '''public String getCapturedText(final int index)
+    '''returns String\n\n
+    getCapturedText(final int index)\n
     '''

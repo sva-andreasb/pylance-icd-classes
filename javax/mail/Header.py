@@ -1,9 +1,12 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
-def Header():
-    '''public Header(final String name, final String value)
+def ():
+    '''returns Header\n\n
+    (final String name, final String value)\n
     '''

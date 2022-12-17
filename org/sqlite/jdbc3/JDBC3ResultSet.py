@@ -1,202 +1,262 @@
 def findColumn():
-    '''public int findColumn(final String col)
+    '''returns int\n\n
+    findColumn(final String col)\n
     '''
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getFetchSize():
-    '''public int getFetchSize()
+    '''returns int\n\n
+    getFetchSize()\n
     '''
 def setFetchSize():
-    '''public void setFetchSize(final int rows)
+    '''returns None\n\n
+    setFetchSize(final int rows)\n
     '''
 def getFetchDirection():
-    '''public int getFetchDirection()
+    '''returns int\n\n
+    getFetchDirection()\n
     '''
 def setFetchDirection():
-    '''public void setFetchDirection(final int d)
+    '''returns None\n\n
+    setFetchDirection(final int d)\n
     '''
 def isAfterLast():
-    '''public boolean isAfterLast()
+    '''returns boolean\n\n
+    isAfterLast()\n
     '''
 def isBeforeFirst():
-    '''public boolean isBeforeFirst()
+    '''returns boolean\n\n
+    isBeforeFirst()\n
     '''
 def isFirst():
-    '''public boolean isFirst()
+    '''returns boolean\n\n
+    isFirst()\n
     '''
 def isLast():
-    '''public boolean isLast()
+    '''returns boolean\n\n
+    isLast()\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def wasNull():
-    '''public boolean wasNull()
+    '''returns boolean\n\n
+    wasNull()\n
     '''
 def getBigDecimal():
-    '''public BigDecimal getBigDecimal(final int col)
-    public BigDecimal getBigDecimal(final String col)
+    '''returns BigDecimal\n\n
+    getBigDecimal(final int col)\n
+    getBigDecimal(final String col)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final int col)
-    public boolean getBoolean(final String col)
+    '''returns boolean\n\n
+    getBoolean(final int col)\n
+    getBoolean(final String col)\n
     '''
 def getBinaryStream():
-    '''public InputStream getBinaryStream(final int col)
-    public InputStream getBinaryStream(final String col)
+    '''returns InputStream\n\n
+    getBinaryStream(final int col)\n
+    getBinaryStream(final String col)\n
     '''
 def getByte():
-    '''public byte getByte(final int col)
-    public byte getByte(final String col)
+    '''returns byte\n\n
+    getByte(final int col)\n
+    getByte(final String col)\n
     '''
 def getBytes():
-    '''public byte[] getBytes(final int col)
-    public byte[] getBytes(final String col)
+    '''returns byte[]\n\n
+    getBytes(final int col)\n
+    getBytes(final String col)\n
     '''
 def getCharacterStream():
-    '''public Reader getCharacterStream(final int col)
-    public Reader getCharacterStream(final String col)
+    '''returns Reader\n\n
+    getCharacterStream(final int col)\n
+    getCharacterStream(final String col)\n
     '''
 def getDate():
-    '''public Date getDate(final int col)
-    public Date getDate(final int col, final Calendar cal)
-    public Date getDate(final String col)
-    public Date getDate(final String col, final Calendar cal)
+    '''returns Date\n\n
+    getDate(final int col)\n
+    getDate(final int col, final Calendar cal)\n
+    getDate(final String col)\n
+    getDate(final String col, final Calendar cal)\n
     '''
 def getDouble():
-    '''public double getDouble(final int col)
-    public double getDouble(final String col)
+    '''returns double\n\n
+    getDouble(final int col)\n
+    getDouble(final String col)\n
     '''
 def getFloat():
-    '''public float getFloat(final int col)
-    public float getFloat(final String col)
+    '''returns float\n\n
+    getFloat(final int col)\n
+    getFloat(final String col)\n
     '''
 def getInt():
-    '''public int getInt(final int col)
-    public int getInt(final String col)
+    '''returns int\n\n
+    getInt(final int col)\n
+    getInt(final String col)\n
     '''
 def getLong():
-    '''public long getLong(final int col)
-    public long getLong(final String col)
+    '''returns long\n\n
+    getLong(final int col)\n
+    getLong(final String col)\n
     '''
 def getShort():
-    '''public short getShort(final int col)
-    public short getShort(final String col)
+    '''returns short\n\n
+    getShort(final int col)\n
+    getShort(final String col)\n
     '''
 def getString():
-    '''public String getString(final int col)
-    public String getString(final String col)
+    '''returns String\n\n
+    getString(final int col)\n
+    getString(final String col)\n
     '''
 def getTime():
-    '''public Time getTime(final int col)
-    public Time getTime(final int col, final Calendar cal)
-    public Time getTime(final String col)
-    public Time getTime(final String col, final Calendar cal)
+    '''returns Time\n\n
+    getTime(final int col)\n
+    getTime(final int col, final Calendar cal)\n
+    getTime(final String col)\n
+    getTime(final String col, final Calendar cal)\n
     '''
 def getTimestamp():
-    '''public Timestamp getTimestamp(final int col)
-    public Timestamp getTimestamp(final int col, final Calendar cal)
-    public Timestamp getTimestamp(final String col)
-    public Timestamp getTimestamp(final String c, final Calendar ca)
+    '''returns Timestamp\n\n
+    getTimestamp(final int col)\n
+    getTimestamp(final int col, final Calendar cal)\n
+    getTimestamp(final String col)\n
+    getTimestamp(final String c, final Calendar ca)\n
     '''
 def getObject():
-    '''public Object getObject(final int col)
-    public Object getObject(final String col)
+    '''returns Object\n\n
+    getObject(final int col)\n
+    getObject(final String col)\n
     '''
 def getStatement():
-    '''public Statement getStatement()
+    '''returns Statement\n\n
+    getStatement()\n
     '''
 def getCursorName():
-    '''public String getCursorName()
+    '''returns String\n\n
+    getCursorName()\n
     '''
 def getWarnings():
-    '''public SQLWarning getWarnings()
+    '''returns SQLWarning\n\n
+    getWarnings()\n
     '''
 def clearWarnings():
-    '''public void clearWarnings()
+    '''returns None\n\n
+    clearWarnings()\n
     '''
 def getMetaData():
-    '''public ResultSetMetaData getMetaData()
+    '''returns ResultSetMetaData\n\n
+    getMetaData()\n
     '''
 def getCatalogName():
-    '''public String getCatalogName(final int col)
+    '''returns String\n\n
+    getCatalogName(final int col)\n
     '''
 def getColumnClassName():
-    '''public String getColumnClassName(final int col)
+    '''returns String\n\n
+    getColumnClassName(final int col)\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getColumnDisplaySize():
-    '''public int getColumnDisplaySize(final int col)
+    '''returns int\n\n
+    getColumnDisplaySize(final int col)\n
     '''
 def getColumnLabel():
-    '''public String getColumnLabel(final int col)
+    '''returns String\n\n
+    getColumnLabel(final int col)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int col)
+    '''returns String\n\n
+    getColumnName(final int col)\n
     '''
 def getColumnType():
-    '''public int getColumnType(final int col)
+    '''returns int\n\n
+    getColumnType(final int col)\n
     '''
 def getColumnTypeName():
-    '''public String getColumnTypeName(final int col)
+    '''returns String\n\n
+    getColumnTypeName(final int col)\n
     '''
 def getPrecision():
-    '''public int getPrecision(final int col)
+    '''returns int\n\n
+    getPrecision(final int col)\n
     '''
 def getScale():
-    '''public int getScale(final int col)
+    '''returns int\n\n
+    getScale(final int col)\n
     '''
 def getSchemaName():
-    '''public String getSchemaName(final int col)
+    '''returns String\n\n
+    getSchemaName(final int col)\n
     '''
 def getTableName():
-    '''public String getTableName(final int col)
+    '''returns String\n\n
+    getTableName(final int col)\n
     '''
 def isNullable():
-    '''public int isNullable(final int col)
+    '''returns int\n\n
+    isNullable(final int col)\n
     '''
 def isAutoIncrement():
-    '''public boolean isAutoIncrement(final int col)
+    '''returns boolean\n\n
+    isAutoIncrement(final int col)\n
     '''
 def isCaseSensitive():
-    '''public boolean isCaseSensitive(final int col)
+    '''returns boolean\n\n
+    isCaseSensitive(final int col)\n
     '''
 def isCurrency():
-    '''public boolean isCurrency(final int col)
+    '''returns boolean\n\n
+    isCurrency(final int col)\n
     '''
 def isDefinitelyWritable():
-    '''public boolean isDefinitelyWritable(final int col)
+    '''returns boolean\n\n
+    isDefinitelyWritable(final int col)\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly(final int col)
+    '''returns boolean\n\n
+    isReadOnly(final int col)\n
     '''
 def isSearchable():
-    '''public boolean isSearchable(final int col)
+    '''returns boolean\n\n
+    isSearchable(final int col)\n
     '''
 def isSigned():
-    '''public boolean isSigned(final int col)
+    '''returns boolean\n\n
+    isSigned(final int col)\n
     '''
 def isWritable():
-    '''public boolean isWritable(final int col)
+    '''returns boolean\n\n
+    isWritable(final int col)\n
     '''
 def getConcurrency():
-    '''public int getConcurrency()
+    '''returns int\n\n
+    getConcurrency()\n
     '''
 def rowDeleted():
-    '''public boolean rowDeleted()
+    '''returns boolean\n\n
+    rowDeleted()\n
     '''
 def rowInserted():
-    '''public boolean rowInserted()
+    '''returns boolean\n\n
+    rowInserted()\n
     '''
 def rowUpdated():
-    '''public boolean rowUpdated()
+    '''returns boolean\n\n
+    rowUpdated()\n
     '''
 def checkCalendar():
-    '''public void checkCalendar(final Calendar cal)
+    '''returns None\n\n
+    checkCalendar(final Calendar cal)\n
     '''

@@ -1,6 +1,8 @@
 def loadImage():
-    '''public Image loadImage(final ImageInfo info, final ImageSessionContext session)
+    '''returns Image\n\n
+    loadImage(final ImageInfo info, final ImageSessionContext session)\n
     '''
 def getUsagePenalty():
-    '''public int getUsagePenalty()
+    '''returns int\n\n
+    getUsagePenalty()\n
     '''

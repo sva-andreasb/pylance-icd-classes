@@ -1,7 +1,9 @@
-def ByteArrayStreamingContent():
-    '''public ByteArrayStreamingContent(final byte[] byteArray)
-    public ByteArrayStreamingContent(final byte[] byteArray, final int offset, final int length)
+def ():
+    '''returns ByteArrayStreamingContent\n\n
+    (final byte[] byteArray)\n
+    (final byte[] byteArray, final int offset, final int length)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''

@@ -1,34 +1,45 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloMultiModelDecisionEngine():
-    '''public IloMultiModelDecisionEngine(final IloOptimDesc optimDesc, final IloScenario scenario, final IloApplicationContext applicationContext)
+def ():
+    '''returns IloMultiModelDecisionEngine\n\n
+    (final IloOptimDesc optimDesc, final IloScenario scenario, final IloApplicationContext applicationContext)\n
     '''
 def getObjectiveValue():
-    '''public double getObjectiveValue()
+    '''returns double\n\n
+    getObjectiveValue()\n
     '''
 def makeModelAndEngine():
-    '''public IloOplModel makeModelAndEngine(final IloOplFactory factory, final IloOplModelDefinition def)
+    '''returns IloOplModel\n\n
+    makeModelAndEngine(final IloOplFactory factory, final IloOplModelDefinition def)\n
     '''
 def runEngine():
-    '''public boolean runEngine()
+    '''returns boolean\n\n
+    runEngine()\n
     '''
 def postProcessResult():
-    '''public void postProcessResult()
+    '''returns None\n\n
+    postProcessResult()\n
     '''
 def generateSubModel():
-    '''public boolean generateSubModel(final IloOplModel model)
+    '''returns boolean\n\n
+    generateSubModel(final IloOplModel model)\n
     '''
 def solveSubModel():
-    '''public boolean solveSubModel(final IloOplModel model)
+    '''returns boolean\n\n
+    solveSubModel(final IloOplModel model)\n
     '''
 def addDecisionVariableConstraints():
-    '''public void addDecisionVariableConstraints()
+    '''returns None\n\n
+    addDecisionVariableConstraints()\n
     '''
 def buildObjective():
-    '''public void buildObjective()
+    '''returns None\n\n
+    buildObjective()\n
     '''
 def hasEngineSolution():
-    '''public boolean hasEngineSolution()
+    '''returns boolean\n\n
+    hasEngineSolution()\n
     '''
 def publishEngineResultsState():
-    '''public void publishEngineResultsState()
+    '''returns None\n\n
+    publishEngineResultsState()\n
     '''

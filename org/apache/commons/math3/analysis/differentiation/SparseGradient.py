@@ -1,187 +1,232 @@
-def createConstant():
-    '''public static SparseGradient createConstant(final double value)
-    '''
-def createVariable():
-    '''public static SparseGradient createVariable(final int idx, final double value)
-    '''
 def numVars():
-    '''public int numVars()
+    '''returns int\n\n
+    numVars()\n
     '''
 def getDerivative():
-    '''public double getDerivative(final int index)
+    '''returns double\n\n
+    getDerivative(final int index)\n
     '''
 def getValue():
-    '''public double getValue()
+    '''returns double\n\n
+    getValue()\n
     '''
 def getReal():
-    '''public double getReal()
+    '''returns double\n\n
+    getReal()\n
     '''
 def add():
-    '''public SparseGradient add(final SparseGradient a)
-    public SparseGradient add(final double c)
+    '''returns SparseGradient\n\n
+    add(final SparseGradient a)\n
+    add(final double c)\n
     '''
 def addInPlace():
-    '''public void addInPlace(final SparseGradient a)
+    '''returns None\n\n
+    addInPlace(final SparseGradient a)\n
     '''
 def subtract():
-    '''public SparseGradient subtract(final SparseGradient a)
-    public SparseGradient subtract(final double c)
+    '''returns SparseGradient\n\n
+    subtract(final SparseGradient a)\n
+    subtract(final double c)\n
     '''
 def multiply():
-    '''public SparseGradient multiply(final SparseGradient a)
-    public SparseGradient multiply(final double c)
-    public SparseGradient multiply(final int n)
+    '''returns SparseGradient\n\n
+    multiply(final SparseGradient a)\n
+    multiply(final double c)\n
+    multiply(final int n)\n
     '''
 def multiplyInPlace():
-    '''public void multiplyInPlace(final SparseGradient a)
+    '''returns None\n\n
+    multiplyInPlace(final SparseGradient a)\n
     '''
 def divide():
-    '''public SparseGradient divide(final SparseGradient a)
-    public SparseGradient divide(final double c)
+    '''returns SparseGradient\n\n
+    divide(final SparseGradient a)\n
+    divide(final double c)\n
     '''
 def negate():
-    '''public SparseGradient negate()
+    '''returns SparseGradient\n\n
+    negate()\n
     '''
 def getField():
-    '''public Field<SparseGradient> getField()
+    '''returns Field<SparseGradient>\n\n
+    getField()\n
     '''
 def getZero():
-    '''public SparseGradient getZero()
+    '''returns SparseGradient\n\n
+    getZero()\n
     '''
 def getOne():
-    '''public SparseGradient getOne()
+    '''returns SparseGradient\n\n
+    getOne()\n
     '''
 def remainder():
-    '''public SparseGradient remainder(final double a)
-    public SparseGradient remainder(final SparseGradient a)
+    '''returns SparseGradient\n\n
+    remainder(final double a)\n
+    remainder(final SparseGradient a)\n
     '''
 def abs():
-    '''public SparseGradient abs()
+    '''returns SparseGradient\n\n
+    abs()\n
     '''
 def ceil():
-    '''public SparseGradient ceil()
+    '''returns SparseGradient\n\n
+    ceil()\n
     '''
 def floor():
-    '''public SparseGradient floor()
+    '''returns SparseGradient\n\n
+    floor()\n
     '''
 def rint():
-    '''public SparseGradient rint()
+    '''returns SparseGradient\n\n
+    rint()\n
     '''
 def round():
-    '''public long round()
+    '''returns long\n\n
+    round()\n
     '''
 def signum():
-    '''public SparseGradient signum()
+    '''returns SparseGradient\n\n
+    signum()\n
     '''
 def copySign():
-    '''public SparseGradient copySign(final SparseGradient sign)
-    public SparseGradient copySign(final double sign)
+    '''returns SparseGradient\n\n
+    copySign(final SparseGradient sign)\n
+    copySign(final double sign)\n
     '''
 def scalb():
-    '''public SparseGradient scalb(final int n)
+    '''returns SparseGradient\n\n
+    scalb(final int n)\n
     '''
 def hypot():
-    '''public SparseGradient hypot(final SparseGradient y)
-    public static SparseGradient hypot(final SparseGradient x, final SparseGradient y)
+    '''returns SparseGradient\n\n
+    hypot(final SparseGradient y)\n
     '''
 def reciprocal():
-    '''public SparseGradient reciprocal()
+    '''returns SparseGradient\n\n
+    reciprocal()\n
     '''
 def sqrt():
-    '''public SparseGradient sqrt()
+    '''returns SparseGradient\n\n
+    sqrt()\n
     '''
 def cbrt():
-    '''public SparseGradient cbrt()
+    '''returns SparseGradient\n\n
+    cbrt()\n
     '''
 def rootN():
-    '''public SparseGradient rootN(final int n)
+    '''returns SparseGradient\n\n
+    rootN(final int n)\n
     '''
 def pow():
-    '''public SparseGradient pow(final double p)
-    public SparseGradient pow(final int n)
-    public SparseGradient pow(final SparseGradient e)
-    public static SparseGradient pow(final double a, final SparseGradient x)
+    '''returns SparseGradient\n\n
+    pow(final double p)\n
+    pow(final int n)\n
+    pow(final SparseGradient e)\n
     '''
 def exp():
-    '''public SparseGradient exp()
+    '''returns SparseGradient\n\n
+    exp()\n
     '''
 def expm1():
-    '''public SparseGradient expm1()
+    '''returns SparseGradient\n\n
+    expm1()\n
     '''
 def log():
-    '''public SparseGradient log()
+    '''returns SparseGradient\n\n
+    log()\n
     '''
 def log10():
-    '''public SparseGradient log10()
+    '''returns SparseGradient\n\n
+    log10()\n
     '''
 def log1p():
-    '''public SparseGradient log1p()
+    '''returns SparseGradient\n\n
+    log1p()\n
     '''
 def cos():
-    '''public SparseGradient cos()
+    '''returns SparseGradient\n\n
+    cos()\n
     '''
 def sin():
-    '''public SparseGradient sin()
+    '''returns SparseGradient\n\n
+    sin()\n
     '''
 def tan():
-    '''public SparseGradient tan()
+    '''returns SparseGradient\n\n
+    tan()\n
     '''
 def acos():
-    '''public SparseGradient acos()
+    '''returns SparseGradient\n\n
+    acos()\n
     '''
 def asin():
-    '''public SparseGradient asin()
+    '''returns SparseGradient\n\n
+    asin()\n
     '''
 def atan():
-    '''public SparseGradient atan()
+    '''returns SparseGradient\n\n
+    atan()\n
     '''
 def atan2():
-    '''public SparseGradient atan2(final SparseGradient x)
-    public static SparseGradient atan2(final SparseGradient y, final SparseGradient x)
+    '''returns SparseGradient\n\n
+    atan2(final SparseGradient x)\n
     '''
 def cosh():
-    '''public SparseGradient cosh()
+    '''returns SparseGradient\n\n
+    cosh()\n
     '''
 def sinh():
-    '''public SparseGradient sinh()
+    '''returns SparseGradient\n\n
+    sinh()\n
     '''
 def tanh():
-    '''public SparseGradient tanh()
+    '''returns SparseGradient\n\n
+    tanh()\n
     '''
 def acosh():
-    '''public SparseGradient acosh()
+    '''returns SparseGradient\n\n
+    acosh()\n
     '''
 def asinh():
-    '''public SparseGradient asinh()
+    '''returns SparseGradient\n\n
+    asinh()\n
     '''
 def atanh():
-    '''public SparseGradient atanh()
+    '''returns SparseGradient\n\n
+    atanh()\n
     '''
 def toDegrees():
-    '''public SparseGradient toDegrees()
+    '''returns SparseGradient\n\n
+    toDegrees()\n
     '''
 def toRadians():
-    '''public SparseGradient toRadians()
+    '''returns SparseGradient\n\n
+    toRadians()\n
     '''
 def taylor():
-    '''public double taylor(final double... delta)
+    '''returns double\n\n
+    taylor(final double... delta)\n
     '''
 def compose():
-    '''public SparseGradient compose(final double f0, final double f1)
+    '''returns SparseGradient\n\n
+    compose(final double f0, final double f1)\n
     '''
 def linearCombination():
-    '''public SparseGradient linearCombination(final SparseGradient[] a, final SparseGradient[] b)
-    public SparseGradient linearCombination(final double[] a, final SparseGradient[] b)
-    public SparseGradient linearCombination(final SparseGradient a1, final SparseGradient b1, final SparseGradient a2, final SparseGradient b2)
-    public SparseGradient linearCombination(final double a1, final SparseGradient b1, final double a2, final SparseGradient b2)
-    public SparseGradient linearCombination(final SparseGradient a1, final SparseGradient b1, final SparseGradient a2, final SparseGradient b2, final SparseGradient a3, final SparseGradient b3)
-    public SparseGradient linearCombination(final double a1, final SparseGradient b1, final double a2, final SparseGradient b2, final double a3, final SparseGradient b3)
-    public SparseGradient linearCombination(final SparseGradient a1, final SparseGradient b1, final SparseGradient a2, final SparseGradient b2, final SparseGradient a3, final SparseGradient b3, final SparseGradient a4, final SparseGradient b4)
-    public SparseGradient linearCombination(final double a1, final SparseGradient b1, final double a2, final SparseGradient b2, final double a3, final SparseGradient b3, final double a4, final SparseGradient b4)
+    '''returns SparseGradient\n\n
+    linearCombination(final SparseGradient[] a, final SparseGradient[] b)\n
+    linearCombination(final double[] a, final SparseGradient[] b)\n
+    linearCombination(final SparseGradient a1, final SparseGradient b1, final SparseGradient a2, final SparseGradient b2)\n
+    linearCombination(final double a1, final SparseGradient b1, final double a2, final SparseGradient b2)\n
+    linearCombination(final SparseGradient a1, final SparseGradient b1, final SparseGradient a2, final SparseGradient b2, final SparseGradient a3, final SparseGradient b3)\n
+    linearCombination(final double a1, final SparseGradient b1, final double a2, final SparseGradient b2, final double a3, final SparseGradient b3)\n
+    linearCombination(final SparseGradient a1, final SparseGradient b1, final SparseGradient a2, final SparseGradient b2, final SparseGradient a3, final SparseGradient b3, final SparseGradient a4, final SparseGradient b4)\n
+    linearCombination(final double a1, final SparseGradient b1, final double a2, final SparseGradient b2, final double a3, final SparseGradient b3, final double a4, final SparseGradient b4)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

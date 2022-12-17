@@ -1,21 +1,28 @@
-def DBInfoObjectView():
-    '''public DBInfoObjectView(final MboSet ms)
+def ():
+    '''returns DBInfoObjectView\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean readOnly)
+    '''returns None\n\n
+    setReadOnly(final boolean readOnly)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def validateChanges():
-    '''public void validateChanges()
+    '''returns None\n\n
+    validateChanges()\n
     '''
 def hasPendingMasterChanges():
-    '''public boolean hasPendingMasterChanges()
+    '''returns boolean\n\n
+    hasPendingMasterChanges()\n
     '''

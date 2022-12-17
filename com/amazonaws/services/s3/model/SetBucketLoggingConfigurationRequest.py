@@ -1,21 +1,28 @@
-def SetBucketLoggingConfigurationRequest():
-    '''public SetBucketLoggingConfigurationRequest(final String bucketName, final BucketLoggingConfiguration loggingConfiguration)
+def ():
+    '''returns SetBucketLoggingConfigurationRequest\n\n
+    (final String bucketName, final BucketLoggingConfiguration loggingConfiguration)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public SetBucketLoggingConfigurationRequest withBucketName(final String bucketName)
+    '''returns SetBucketLoggingConfigurationRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getLoggingConfiguration():
-    '''public BucketLoggingConfiguration getLoggingConfiguration()
+    '''returns BucketLoggingConfiguration\n\n
+    getLoggingConfiguration()\n
     '''
 def setLoggingConfiguration():
-    '''public void setLoggingConfiguration(final BucketLoggingConfiguration loggingConfiguration)
+    '''returns None\n\n
+    setLoggingConfiguration(final BucketLoggingConfiguration loggingConfiguration)\n
     '''
 def withLoggingConfiguration():
-    '''public SetBucketLoggingConfigurationRequest withLoggingConfiguration(final BucketLoggingConfiguration loggingConfiguration)
+    '''returns SetBucketLoggingConfigurationRequest\n\n
+    withLoggingConfiguration(final BucketLoggingConfiguration loggingConfiguration)\n
     '''

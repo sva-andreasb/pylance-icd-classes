@@ -1,120 +1,155 @@
 def getKmsCmkId():
-    '''public String getKmsCmkId()
+    '''returns String\n\n
+    getKmsCmkId()\n
     '''
 def setKmsCmkId():
-    '''public void setKmsCmkId(final String kmsCmkId)
+    '''returns None\n\n
+    setKmsCmkId(final String kmsCmkId)\n
     '''
 def withKmsCmkId():
-    '''public GeneratePresignedUrlRequest withKmsCmkId(final String kmsCmkId)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withKmsCmkId(final String kmsCmkId)\n
     '''
 def getSSEAlgorithm():
-    '''public String getSSEAlgorithm()
+    '''returns String\n\n
+    getSSEAlgorithm()\n
     '''
 def setSSEAlgorithm():
-    '''public void setSSEAlgorithm(final String sseAlgorithm)
-    public void setSSEAlgorithm(final SSEAlgorithm sseAlgorithm)
+    '''returns None\n\n
+    setSSEAlgorithm(final String sseAlgorithm)\n
+    setSSEAlgorithm(final SSEAlgorithm sseAlgorithm)\n
     '''
 def withSSEAlgorithm():
-    '''public GeneratePresignedUrlRequest withSSEAlgorithm(final String sseAlgorithm)
-    public GeneratePresignedUrlRequest withSSEAlgorithm(final SSEAlgorithm sseAlgorithm)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withSSEAlgorithm(final String sseAlgorithm)\n
+    withSSEAlgorithm(final SSEAlgorithm sseAlgorithm)\n
     '''
-def GeneratePresignedUrlRequest():
-    '''public GeneratePresignedUrlRequest(final String bucketName, final String key)
-    public GeneratePresignedUrlRequest(final String bucketName, final String key, final HttpMethod method)
+def ():
+    '''returns GeneratePresignedUrlRequest\n\n
+    (final String bucketName, final String key)\n
+    (final String bucketName, final String key, final HttpMethod method)\n
     '''
 def getMethod():
-    '''public HttpMethod getMethod()
+    '''returns HttpMethod\n\n
+    getMethod()\n
     '''
 def setMethod():
-    '''public void setMethod(final HttpMethod method)
+    '''returns None\n\n
+    setMethod(final HttpMethod method)\n
     '''
 def withMethod():
-    '''public GeneratePresignedUrlRequest withMethod(final HttpMethod method)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withMethod(final HttpMethod method)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public GeneratePresignedUrlRequest withBucketName(final String bucketName)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public GeneratePresignedUrlRequest withKey(final String key)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withKey(final String key)\n
     '''
 def getExpiration():
-    '''public Date getExpiration()
+    '''returns Date\n\n
+    getExpiration()\n
     '''
 def setExpiration():
-    '''public void setExpiration(final Date expiration)
+    '''returns None\n\n
+    setExpiration(final Date expiration)\n
     '''
 def withExpiration():
-    '''public GeneratePresignedUrlRequest withExpiration(final Date expiration)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withExpiration(final Date expiration)\n
     '''
 def addRequestParameter():
-    '''public void addRequestParameter(final String key, final String value)
-    '''
-def getRequestParameters():
-    '''public Map<String, String> getRequestParameters()
+    '''returns None\n\n
+    addRequestParameter(final String key, final String value)\n
     '''
 def getResponseHeaders():
-    '''public ResponseHeaderOverrides getResponseHeaders()
+    '''returns ResponseHeaderOverrides\n\n
+    getResponseHeaders()\n
     '''
 def setResponseHeaders():
-    '''public void setResponseHeaders(final ResponseHeaderOverrides responseHeaders)
+    '''returns None\n\n
+    setResponseHeaders(final ResponseHeaderOverrides responseHeaders)\n
     '''
 def withResponseHeaders():
-    '''public GeneratePresignedUrlRequest withResponseHeaders(final ResponseHeaderOverrides responseHeaders)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withResponseHeaders(final ResponseHeaderOverrides responseHeaders)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def withContentType():
-    '''public GeneratePresignedUrlRequest withContentType(final String contentType)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withContentType(final String contentType)\n
     '''
 def getContentMd5():
-    '''public String getContentMd5()
+    '''returns String\n\n
+    getContentMd5()\n
     '''
 def setContentMd5():
-    '''public void setContentMd5(final String contentMd5)
+    '''returns None\n\n
+    setContentMd5(final String contentMd5)\n
     '''
 def withContentMd5():
-    '''public GeneratePresignedUrlRequest withContentMd5(final String contentMd5)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withContentMd5(final String contentMd5)\n
     '''
 def getSSECustomerKey():
-    '''public SSECustomerKey getSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getSSECustomerKey()\n
     '''
 def setSSECustomerKey():
-    '''public void setSSECustomerKey(final SSECustomerKey sseCustomerKey)
+    '''returns None\n\n
+    setSSECustomerKey(final SSECustomerKey sseCustomerKey)\n
     '''
 def withSSECustomerKey():
-    '''public GeneratePresignedUrlRequest withSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def setSSECustomerKeyAlgorithm():
-    '''public void setSSECustomerKeyAlgorithm(final SSEAlgorithm sseAlgorithm)
+    '''returns None\n\n
+    setSSECustomerKeyAlgorithm(final SSEAlgorithm sseAlgorithm)\n
     '''
 def withSSECustomerKeyAlgorithm():
-    '''public GeneratePresignedUrlRequest withSSECustomerKeyAlgorithm(final SSEAlgorithm algorithm)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withSSECustomerKeyAlgorithm(final SSEAlgorithm algorithm)\n
     '''
 def isZeroByteContent():
-    '''public boolean isZeroByteContent()
+    '''returns boolean\n\n
+    isZeroByteContent()\n
     '''
 def setZeroByteContent():
-    '''public void setZeroByteContent(final boolean zeroByteContent)
+    '''returns None\n\n
+    setZeroByteContent(final boolean zeroByteContent)\n
     '''
 def withZeroByteContent():
-    '''public GeneratePresignedUrlRequest withZeroByteContent(final boolean zeroByteContent)
+    '''returns GeneratePresignedUrlRequest\n\n
+    withZeroByteContent(final boolean zeroByteContent)\n
     '''
 def rejectIllegalArguments():
-    '''public void rejectIllegalArguments()
+    '''returns None\n\n
+    rejectIllegalArguments()\n
     '''

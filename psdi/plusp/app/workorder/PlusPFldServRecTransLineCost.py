@@ -1,6 +1,8 @@
-def PlusPFldServRecTransLineCost():
-    '''public PlusPFldServRecTransLineCost(final MboValue arg0)
+def ():
+    '''returns PlusPFldServRecTransLineCost\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

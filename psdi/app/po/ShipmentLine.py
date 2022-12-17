@@ -1,15 +1,20 @@
-def ShipmentLine():
-    '''public ShipmentLine(final MboSet ms)
+def ():
+    '''returns ShipmentLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def createMatRecTrans():
-    '''public void createMatRecTrans(final MboSetRemote matReceiptsSet)
+    '''returns None\n\n
+    createMatRecTrans(final MboSetRemote matReceiptsSet)\n
     '''

@@ -1,18 +1,20 @@
 def enableConnectionGC():
-    '''public void enableConnectionGC()
-    '''
-def getEntry():
-    '''public final BasicPoolEntry getEntry(final HttpRoute route, final Object state, final long timeout, final TimeUnit tunit)
+    '''returns None\n\n
+    enableConnectionGC()\n
     '''
 def handleReference():
-    '''public void handleReference(final Reference<?> ref)
+    '''returns None\n\n
+    handleReference(final Reference<?> ref)\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idletime, final TimeUnit tunit)
+    '''returns None\n\n
+    closeIdleConnections(final long idletime, final TimeUnit tunit)\n
     '''
 def closeExpiredConnections():
-    '''public void closeExpiredConnections()
+    '''returns None\n\n
+    closeExpiredConnections()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

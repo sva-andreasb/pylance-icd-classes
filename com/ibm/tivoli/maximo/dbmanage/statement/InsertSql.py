@@ -1,33 +1,44 @@
-def InsertSql():
-    '''public InsertSql(final String table, final Connection connection)
+def ():
+    '''returns InsertSql\n\n
+    (final String table, final Connection connection)\n
     '''
 def addColumnValue():
-    '''public void addColumnValue(final String column, final Object value)
+    '''returns None\n\n
+    addColumnValue(final String column, final Object value)\n
     '''
 def addColumnStringValue():
-    '''public void addColumnStringValue(final String column, final String value)
+    '''returns None\n\n
+    addColumnStringValue(final String column, final String value)\n
     '''
 def generateInsertSql():
-    '''public String generateInsertSql()
+    '''returns String\n\n
+    generateInsertSql()\n
     '''
 def generateInsertSelectSql():
-    '''public String generateInsertSelectSql()
+    '''returns String\n\n
+    generateInsertSelectSql()\n
     '''
 def changeTable():
-    '''public void changeTable(final String table)
+    '''returns None\n\n
+    changeTable(final String table)\n
     '''
 def setColumnValues():
-    '''public void setColumnValues(final AttributeStorage sequenceDef)
+    '''returns None\n\n
+    setColumnValues(final AttributeStorage sequenceDef)\n
     '''
 def addHexColumnValue():
-    '''public void addHexColumnValue(final String column, final String value)
+    '''returns None\n\n
+    addHexColumnValue(final String column, final String value)\n
     '''
 def addedUniqueIdPosition():
-    '''public Integer addedUniqueIdPosition()
+    '''returns Integer\n\n
+    addedUniqueIdPosition()\n
     '''
 def getAddedUidSequence():
-    '''public String getAddedUidSequence()
+    '''returns String\n\n
+    getAddedUidSequence()\n
     '''
 def getAddedUid():
-    '''public String getAddedUid()
+    '''returns String\n\n
+    getAddedUid()\n
     '''

@@ -1,21 +1,28 @@
 def getDisabled():
-    '''public boolean getDisabled()
+    '''returns boolean\n\n
+    getDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean b)
+    '''returns None\n\n
+    setDisabled(final boolean b)\n
     '''
 def getMedia():
-    '''public String getMedia()
+    '''returns String\n\n
+    getMedia()\n
     '''
 def setMedia():
-    '''public void setMedia(final String s)
+    '''returns None\n\n
+    setMedia(final String s)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String s)
+    '''returns None\n\n
+    setType(final String s)\n
     '''
-def HTMLStyleElementImpl():
-    '''public HTMLStyleElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLStyleElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

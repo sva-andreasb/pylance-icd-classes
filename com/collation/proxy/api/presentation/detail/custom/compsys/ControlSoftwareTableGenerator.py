@@ -1,6 +1,8 @@
-def ControlSoftwareTableGenerator():
-    '''public ControlSoftwareTableGenerator()
+def ():
+    '''returns ControlSoftwareTableGenerator\n\n
+    ()\n
     '''
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''

@@ -1,12 +1,16 @@
-def MastersDocumentImpl():
-    '''public MastersDocumentImpl(final SchemaType schemaType)
+def ():
+    '''returns MastersDocumentImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getMasters():
-    '''public MastersType getMasters()
+    '''returns MastersType\n\n
+    getMasters()\n
     '''
 def setMasters():
-    '''public void setMasters(final MastersType mastersType)
+    '''returns None\n\n
+    setMasters(final MastersType mastersType)\n
     '''
 def addNewMasters():
-    '''public MastersType addNewMasters()
+    '''returns MastersType\n\n
+    addNewMasters()\n
     '''

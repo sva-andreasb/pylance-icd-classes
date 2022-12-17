@@ -1,27 +1,24 @@
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
-    '''
-def getManager():
-    '''public static <M extends AbstractManager, T> M getManager(final String name, final ManagerFactory<M, T> factory, final T data)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def updateData():
-    '''public void updateData(final Object data)
-    '''
-def hasManager():
-    '''public static boolean hasManager(final String name)
+    '''returns None\n\n
+    updateData(final Object data)\n
     '''
 def getLoggerContext():
-    '''public LoggerContext getLoggerContext()
+    '''returns LoggerContext\n\n
+    getLoggerContext()\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getContentFormat():
-    '''public Map<String, String> getContentFormat()
+    '''returns String\n\n
+    getName()\n
     '''

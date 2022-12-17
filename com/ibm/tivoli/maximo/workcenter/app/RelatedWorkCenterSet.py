@@ -1,3 +1,4 @@
-def RelatedWorkCenterSet():
-    '''public RelatedWorkCenterSet(final MboServerInterface ms)
+def ():
+    '''returns RelatedWorkCenterSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,73 +1,77 @@
-def AgentTaskDefinition():
-    '''public AgentTaskDefinition()
-    public AgentTaskDefinition(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final StringArrayProp eventKey, final EventTypeEnumArrayProp eventTypes, final MetadataModelItemNameProp filterDataItemName, final OptionArrayProp options, final StringProp packageBase, final BaseParameterAssignmentArrayProp parameterAssignments, final ParameterValueArrayProp parameters, final RunConditionEnumProp runCondition, final BaseClassArrayProp taskObject)
+def ():
+    '''returns AgentTaskDefinition\n\n
+    ()\n
+    (final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final StringArrayProp eventKey, final EventTypeEnumArrayProp eventTypes, final MetadataModelItemNameProp filterDataItemName, final OptionArrayProp options, final StringProp packageBase, final BaseParameterAssignmentArrayProp parameterAssignments, final ParameterValueArrayProp parameters, final RunConditionEnumProp runCondition, final BaseClassArrayProp taskObject)\n
     '''
 def getEventKey():
-    '''public StringArrayProp getEventKey()
+    '''returns StringArrayProp\n\n
+    getEventKey()\n
     '''
 def setEventKey():
-    '''public void setEventKey(final StringArrayProp eventKey)
+    '''returns None\n\n
+    setEventKey(final StringArrayProp eventKey)\n
     '''
 def getEventTypes():
-    '''public EventTypeEnumArrayProp getEventTypes()
+    '''returns EventTypeEnumArrayProp\n\n
+    getEventTypes()\n
     '''
 def setEventTypes():
-    '''public void setEventTypes(final EventTypeEnumArrayProp eventTypes)
+    '''returns None\n\n
+    setEventTypes(final EventTypeEnumArrayProp eventTypes)\n
     '''
 def getFilterDataItemName():
-    '''public MetadataModelItemNameProp getFilterDataItemName()
+    '''returns MetadataModelItemNameProp\n\n
+    getFilterDataItemName()\n
     '''
 def setFilterDataItemName():
-    '''public void setFilterDataItemName(final MetadataModelItemNameProp filterDataItemName)
+    '''returns None\n\n
+    setFilterDataItemName(final MetadataModelItemNameProp filterDataItemName)\n
     '''
 def getOptions():
-    '''public OptionArrayProp getOptions()
+    '''returns OptionArrayProp\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final OptionArrayProp options)
+    '''returns None\n\n
+    setOptions(final OptionArrayProp options)\n
     '''
 def getPackageBase():
-    '''public StringProp getPackageBase()
+    '''returns StringProp\n\n
+    getPackageBase()\n
     '''
 def setPackageBase():
-    '''public void setPackageBase(final StringProp packageBase)
+    '''returns None\n\n
+    setPackageBase(final StringProp packageBase)\n
     '''
 def getParameterAssignments():
-    '''public BaseParameterAssignmentArrayProp getParameterAssignments()
+    '''returns BaseParameterAssignmentArrayProp\n\n
+    getParameterAssignments()\n
     '''
 def setParameterAssignments():
-    '''public void setParameterAssignments(final BaseParameterAssignmentArrayProp parameterAssignments)
+    '''returns None\n\n
+    setParameterAssignments(final BaseParameterAssignmentArrayProp parameterAssignments)\n
     '''
 def getParameters():
-    '''public ParameterValueArrayProp getParameters()
+    '''returns ParameterValueArrayProp\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ParameterValueArrayProp parameters)
+    '''returns None\n\n
+    setParameters(final ParameterValueArrayProp parameters)\n
     '''
 def getRunCondition():
-    '''public RunConditionEnumProp getRunCondition()
+    '''returns RunConditionEnumProp\n\n
+    getRunCondition()\n
     '''
 def setRunCondition():
-    '''public void setRunCondition(final RunConditionEnumProp runCondition)
+    '''returns None\n\n
+    setRunCondition(final RunConditionEnumProp runCondition)\n
     '''
 def getTaskObject():
-    '''public BaseClassArrayProp getTaskObject()
+    '''returns BaseClassArrayProp\n\n
+    getTaskObject()\n
     '''
 def setTaskObject():
-    '''public void setTaskObject(final BaseClassArrayProp taskObject)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setTaskObject(final BaseClassArrayProp taskObject)\n
     '''

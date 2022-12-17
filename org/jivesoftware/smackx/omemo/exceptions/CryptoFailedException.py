@@ -1,4 +1,5 @@
-def CryptoFailedException():
-    '''public CryptoFailedException(final String message)
-    public CryptoFailedException(final Exception e)
+def ():
+    '''returns CryptoFailedException\n\n
+    (final String message)\n
+    (final Exception e)\n
     '''

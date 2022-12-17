@@ -1,9 +1,12 @@
-def FldSKDValMsgFilterBy():
-    '''public FldSKDValMsgFilterBy(final MboValue mbv)
+def ():
+    '''returns FldSKDValMsgFilterBy\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

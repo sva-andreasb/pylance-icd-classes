@@ -1,22 +1,29 @@
-def BucketLoggingConfiguration():
-    '''public BucketLoggingConfiguration()
-    public BucketLoggingConfiguration(final String destinationBucketName, final String logFilePrefix)
+def ():
+    '''returns BucketLoggingConfiguration\n\n
+    ()\n
+    (final String destinationBucketName, final String logFilePrefix)\n
     '''
 def isLoggingEnabled():
-    '''public boolean isLoggingEnabled()
+    '''returns boolean\n\n
+    isLoggingEnabled()\n
     '''
 def getLogFilePrefix():
-    '''public String getLogFilePrefix()
+    '''returns String\n\n
+    getLogFilePrefix()\n
     '''
 def setLogFilePrefix():
-    '''public void setLogFilePrefix(String logFilePrefix)
+    '''returns None\n\n
+    setLogFilePrefix(String logFilePrefix)\n
     '''
 def getDestinationBucketName():
-    '''public String getDestinationBucketName()
+    '''returns String\n\n
+    getDestinationBucketName()\n
     '''
 def setDestinationBucketName():
-    '''public void setDestinationBucketName(final String destinationBucketName)
+    '''returns None\n\n
+    setDestinationBucketName(final String destinationBucketName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

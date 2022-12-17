@@ -3,13 +3,16 @@ JNDINAME = "String  \"JNDINAME\""
 PROVIDERURL = "String  \"PROVIDERURL\""
 CONTEXTFACTORY = "String  \"CONTEXTFACTORY\""
 METHODNAME = "String  \"METHODNAME\""
-def EJBHandler():
-    '''public EJBHandler(final MaxEndPointInfo endPointInfo)
-    public EJBHandler()
+def ():
+    '''returns EJBHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map<String, ?> metaData, byte[] data)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''

@@ -5,74 +5,98 @@ CASE_FIRST_AND_UPPER_MASK = "int  768"
 CASE_LEVEL = "int  1024"
 BACKWARD_SECONDARY = "int  2048"
 def clone():
-    '''public CollationSettings clone()
+    '''returns CollationSettings\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def resetReordering():
-    '''public void resetReordering()
+    '''returns None\n\n
+    resetReordering()\n
     '''
 def setReordering():
-    '''public void setReordering(final CollationData data, final int[] codes)
+    '''returns None\n\n
+    setReordering(final CollationData data, final int[] codes)\n
     '''
 def copyReorderingFrom():
-    '''public void copyReorderingFrom(final CollationSettings other)
+    '''returns None\n\n
+    copyReorderingFrom(final CollationSettings other)\n
     '''
 def hasReordering():
-    '''public boolean hasReordering()
+    '''returns boolean\n\n
+    hasReordering()\n
     '''
 def reorder():
-    '''public long reorder(final long p)
+    '''returns long\n\n
+    reorder(final long p)\n
     '''
 def setStrength():
-    '''public void setStrength(final int value)
+    '''returns None\n\n
+    setStrength(final int value)\n
     '''
 def setStrengthDefault():
-    '''public void setStrengthDefault(final int defaultOptions)
+    '''returns None\n\n
+    setStrengthDefault(final int defaultOptions)\n
     '''
 def getStrength():
-    '''public int getStrength()
+    '''returns int\n\n
+    getStrength()\n
     '''
 def setFlag():
-    '''public void setFlag(final int bit, final boolean value)
+    '''returns None\n\n
+    setFlag(final int bit, final boolean value)\n
     '''
 def setFlagDefault():
-    '''public void setFlagDefault(final int bit, final int defaultOptions)
+    '''returns None\n\n
+    setFlagDefault(final int bit, final int defaultOptions)\n
     '''
 def getFlag():
-    '''public boolean getFlag(final int bit)
+    '''returns boolean\n\n
+    getFlag(final int bit)\n
     '''
 def setCaseFirst():
-    '''public void setCaseFirst(final int value)
+    '''returns None\n\n
+    setCaseFirst(final int value)\n
     '''
 def setCaseFirstDefault():
-    '''public void setCaseFirstDefault(final int defaultOptions)
+    '''returns None\n\n
+    setCaseFirstDefault(final int defaultOptions)\n
     '''
 def getCaseFirst():
-    '''public int getCaseFirst()
+    '''returns int\n\n
+    getCaseFirst()\n
     '''
 def setAlternateHandlingShifted():
-    '''public void setAlternateHandlingShifted(final boolean value)
+    '''returns None\n\n
+    setAlternateHandlingShifted(final boolean value)\n
     '''
 def setAlternateHandlingDefault():
-    '''public void setAlternateHandlingDefault(final int defaultOptions)
+    '''returns None\n\n
+    setAlternateHandlingDefault(final int defaultOptions)\n
     '''
 def getAlternateHandling():
-    '''public boolean getAlternateHandling()
+    '''returns boolean\n\n
+    getAlternateHandling()\n
     '''
 def setMaxVariable():
-    '''public void setMaxVariable(final int value, final int defaultOptions)
+    '''returns None\n\n
+    setMaxVariable(final int value, final int defaultOptions)\n
     '''
 def getMaxVariable():
-    '''public int getMaxVariable()
+    '''returns int\n\n
+    getMaxVariable()\n
     '''
 def dontCheckFCD():
-    '''public boolean dontCheckFCD()
+    '''returns boolean\n\n
+    dontCheckFCD()\n
     '''
 def isNumeric():
-    '''public boolean isNumeric()
+    '''returns boolean\n\n
+    isNumeric()\n
     '''

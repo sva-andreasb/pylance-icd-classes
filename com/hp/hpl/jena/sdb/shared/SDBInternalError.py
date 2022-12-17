@@ -1,4 +1,5 @@
-def SDBInternalError():
-    '''public SDBInternalError(final String msg)
-    public SDBInternalError(final String msg, final Throwable th)
+def ():
+    '''returns SDBInternalError\n\n
+    (final String msg)\n
+    (final String msg, final Throwable th)\n
     '''

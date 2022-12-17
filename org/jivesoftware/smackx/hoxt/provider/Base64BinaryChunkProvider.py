@@ -1,3 +1,4 @@
 def parse():
-    '''public Base64BinaryChunk parse(final XmlPullParser parser, final int initialDepth)
+    '''returns Base64BinaryChunk\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

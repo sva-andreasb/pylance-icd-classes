@@ -1,60 +1,80 @@
-def FragmentComposerMemento():
-    '''public FragmentComposerMemento()
+def ():
+    '''returns FragmentComposerMemento\n\n
+    ()\n
     '''
 def getConsumeSubfragments():
-    '''public boolean getConsumeSubfragments()
+    '''returns boolean\n\n
+    getConsumeSubfragments()\n
     '''
 def setConsumeSubfragments():
-    '''public void setConsumeSubfragments(final boolean consumeSubfragments)
+    '''returns None\n\n
+    setConsumeSubfragments(final boolean consumeSubfragments)\n
     '''
 def setContainsESIContent():
-    '''public void setContainsESIContent(final boolean b)
+    '''returns None\n\n
+    setContainsESIContent(final boolean b)\n
     '''
 def setOutputStyle():
-    '''public void setOutputStyle(final int outputStyle)
+    '''returns None\n\n
+    setOutputStyle(final int outputStyle)\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def setCharacterEncoding():
-    '''public void setCharacterEncoding(final String charEnc)
+    '''returns None\n\n
+    setCharacterEncoding(final String charEnc)\n
     '''
 def getContainsESIContent():
-    '''public boolean getContainsESIContent()
+    '''returns boolean\n\n
+    getContainsESIContent()\n
     '''
 def addContents():
-    '''public void addContents(final Object[] contents)
+    '''returns None\n\n
+    addContents(final Object[] contents)\n
     '''
 def addAttributes():
-    '''public void addAttributes(final CacheProxyRequest.Attribute[] changedAttrs)
+    '''returns None\n\n
+    addAttributes(final CacheProxyRequest.Attribute[] changedAttrs)\n
     '''
 def addAttributeBytes():
-    '''public void addAttributeBytes(final byte[] changedAttrBytes)
+    '''returns None\n\n
+    addAttributeBytes(final byte[] changedAttrBytes)\n
     '''
 def displayPage():
-    '''public void displayPage(final Servlet s, final CacheProxyRequest request, final CacheProxyResponse response)
+    '''returns None\n\n
+    displayPage(final Servlet s, final CacheProxyRequest request, final CacheProxyResponse response)\n
     '''
 def displayFragment():
-    '''public void displayFragment(final Servlet s, final CacheProxyRequest request, final CacheProxyResponse response, OutputStream outputStream, PrintWriter printWriter, final Object[] contents)
+    '''returns None\n\n
+    displayFragment(final Servlet s, final CacheProxyRequest request, final CacheProxyResponse response, OutputStream outputStream, PrintWriter printWriter, final Object[] contents)\n
     '''
 def viewContents():
-    '''public void viewContents(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    viewContents(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def generateContents():
-    '''public byte[] generateContents()
+    '''returns byte[]\n\n
+    generateContents()\n
     '''
 def getExternalCacheFragment():
-    '''public ExternalCacheFragment getExternalCacheFragment()
+    '''returns ExternalCacheFragment\n\n
+    getExternalCacheFragment()\n
     '''
 def setExternalCacheFragment():
-    '''public void setExternalCacheFragment(final ExternalCacheFragment externalCacheFragment)
+    '''returns None\n\n
+    setExternalCacheFragment(final ExternalCacheFragment externalCacheFragment)\n
     '''
 def getExternalCacheGroupId():
-    '''public String getExternalCacheGroupId()
+    '''returns String\n\n
+    getExternalCacheGroupId()\n
     '''
 def setExternalCacheGroupId():
-    '''public void setExternalCacheGroupId(final String externalCacheGroupId)
+    '''returns None\n\n
+    setExternalCacheGroupId(final String externalCacheGroupId)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

@@ -1,9 +1,12 @@
 def getPrompt():
-    '''public String getPrompt()
+    '''returns String\n\n
+    getPrompt()\n
     '''
 def setPrompt():
-    '''public void setPrompt(final String s)
+    '''returns None\n\n
+    setPrompt(final String s)\n
     '''
-def HTMLIsIndexElementImpl():
-    '''public HTMLIsIndexElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLIsIndexElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

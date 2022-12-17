@@ -1,6 +1,8 @@
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def startScheduleCompliance():
-    '''public void startScheduleCompliance()
+    '''returns None\n\n
+    startScheduleCompliance()\n
     '''

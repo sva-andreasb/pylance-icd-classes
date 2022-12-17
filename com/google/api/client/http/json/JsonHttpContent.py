@@ -1,21 +1,16 @@
-def JsonHttpContent():
-    '''public JsonHttpContent(final JsonFactory jsonFactory, final Object data)
+def ():
+    '''returns JsonHttpContent\n\n
+    (final JsonFactory jsonFactory, final Object data)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def setMediaType():
-    '''public JsonHttpContent setMediaType(final HttpMediaType mediaType)
-    '''
-def getData():
-    '''public final Object getData()
-    '''
-def getJsonFactory():
-    '''public final JsonFactory getJsonFactory()
-    '''
-def getWrapperKey():
-    '''public final String getWrapperKey()
+    '''returns JsonHttpContent\n\n
+    setMediaType(final HttpMediaType mediaType)\n
     '''
 def setWrapperKey():
-    '''public JsonHttpContent setWrapperKey(final String wrapperKey)
+    '''returns JsonHttpContent\n\n
+    setWrapperKey(final String wrapperKey)\n
     '''

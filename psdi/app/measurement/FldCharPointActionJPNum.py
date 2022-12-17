@@ -1,3 +1,4 @@
-def FldCharPointActionJPNum():
-    '''public FldCharPointActionJPNum(final MboValue mbv)
+def ():
+    '''returns FldCharPointActionJPNum\n\n
+    (final MboValue mbv)\n
     '''

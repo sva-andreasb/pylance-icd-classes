@@ -1,3 +1,4 @@
-def WorkZoneSet():
-    '''public WorkZoneSet(final MboServerInterface ms)
+def ():
+    '''returns WorkZoneSet\n\n
+    (final MboServerInterface ms)\n
     '''

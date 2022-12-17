@@ -1,42 +1,56 @@
-def IlvDashboardEditorFrame():
-    '''public IlvDashboardEditorFrame(final IlvDashboardEditor a)
+def ():
+    '''returns IlvDashboardEditorFrame\n\n
+    (final IlvDashboardEditor a)\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''
 def getEditor():
-    '''public IlvDashboardEditor getEditor()
+    '''returns IlvDashboardEditor\n\n
+    getEditor()\n
     '''
 def getTopToolBarArea():
-    '''public JComponent getTopToolBarArea()
+    '''returns JComponent\n\n
+    getTopToolBarArea()\n
     '''
 def setTopToolBarArea():
-    '''public void setTopToolBarArea(final JComponent component)
+    '''returns None\n\n
+    setTopToolBarArea(final JComponent component)\n
     '''
 def getStatusBar():
-    '''public JComponent getStatusBar()
+    '''returns JComponent\n\n
+    getStatusBar()\n
     '''
 def setStatusBar():
-    '''public void setStatusBar(final JComponent component)
+    '''returns None\n\n
+    setStatusBar(final JComponent component)\n
     '''
 def setLeftArea():
-    '''public void setLeftArea(final JComponent component)
+    '''returns None\n\n
+    setLeftArea(final JComponent component)\n
     '''
 def getLeftArea():
-    '''public JComponent getLeftArea()
+    '''returns JComponent\n\n
+    getLeftArea()\n
     '''
 def getRightArea():
-    '''public JComponent getRightArea()
+    '''returns JComponent\n\n
+    getRightArea()\n
     '''
 def setRightArea():
-    '''public void setRightArea(final JComponent component)
+    '''returns None\n\n
+    setRightArea(final JComponent component)\n
     '''
 def getCenterArea():
-    '''public JComponent getCenterArea()
+    '''returns JComponent\n\n
+    getCenterArea()\n
     '''
 def setCenterArea():
-    '''public void setCenterArea(final JComponent component)
+    '''returns None\n\n
+    setCenterArea(final JComponent component)\n
     '''
 def savePreferences():
-    '''public void savePreferences()
+    '''returns None\n\n
+    savePreferences()\n
     '''

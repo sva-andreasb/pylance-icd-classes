@@ -1,15 +1,20 @@
 def columnAdded():
-    '''public void columnAdded(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnAdded(final TableColumnModelEvent e)\n
     '''
 def columnRemoved():
-    '''public void columnRemoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnRemoved(final TableColumnModelEvent e)\n
     '''
 def columnMoved():
-    '''public void columnMoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnMoved(final TableColumnModelEvent e)\n
     '''
 def columnMarginChanged():
-    '''public void columnMarginChanged(final ChangeEvent e)
+    '''returns None\n\n
+    columnMarginChanged(final ChangeEvent e)\n
     '''
 def columnSelectionChanged():
-    '''public void columnSelectionChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    columnSelectionChanged(final ListSelectionEvent e)\n
     '''

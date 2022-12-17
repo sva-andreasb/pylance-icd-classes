@@ -1,3 +1,4 @@
-def PlusPAppliesToAssetSet():
-    '''public PlusPAppliesToAssetSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPAppliesToAssetSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''

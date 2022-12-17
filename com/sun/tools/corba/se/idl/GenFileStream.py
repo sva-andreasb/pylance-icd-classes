@@ -1,9 +1,12 @@
-def GenFileStream():
-    '''public GenFileStream(final String name)
+def ():
+    '''returns GenFileStream\n\n
+    (final String name)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''

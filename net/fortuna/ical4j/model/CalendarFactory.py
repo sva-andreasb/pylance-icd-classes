@@ -1,9 +1,12 @@
-def CalendarFactory():
-    '''public CalendarFactory()
+def ():
+    '''returns CalendarFactory\n\n
+    ()\n
     '''
 def newInstance():
-    '''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''returns Object\n\n
+    newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)\n
     '''
 def setChild():
-    '''public void setChild(final FactoryBuilderSupport build, final Object parent, final Object child)
+    '''returns None\n\n
+    setChild(final FactoryBuilderSupport build, final Object parent, final Object child)\n
     '''

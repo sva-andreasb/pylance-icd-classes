@@ -1,123 +1,160 @@
-def MXGanttPropertyInfo():
-    '''public MXGanttPropertyInfo()
+def ():
+    '''returns MXGanttPropertyInfo\n\n
+    ()\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def setPropertyName():
-    '''public void setPropertyName(final String propertyName)
+    '''returns None\n\n
+    setPropertyName(final String propertyName)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getAttrName():
-    '''public String getAttrName(final String objectName)
+    '''returns String\n\n
+    getAttrName(final String objectName)\n
     '''
 def setAttrName():
-    '''public void setAttrName(final String objectName, final String attrName)
+    '''returns None\n\n
+    setAttrName(final String objectName, final String attrName)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def setLength():
-    '''public void setLength(final int length)
+    '''returns None\n\n
+    setLength(final int length)\n
     '''
 def getScale():
-    '''public int getScale()
+    '''returns int\n\n
+    getScale()\n
     '''
 def setScale():
-    '''public void setScale(final int scale)
+    '''returns None\n\n
+    setScale(final int scale)\n
     '''
 def getDataType():
-    '''public int getDataType()
+    '''returns int\n\n
+    getDataType()\n
     '''
 def setDataType():
-    '''public void setDataType(final int dataType)
+    '''returns None\n\n
+    setDataType(final int dataType)\n
     '''
 def isNumeric():
-    '''public boolean isNumeric()
+    '''returns boolean\n\n
+    isNumeric()\n
     '''
 def setNumeric():
-    '''public void setNumeric(final boolean isNumeric)
+    '''returns None\n\n
+    setNumeric(final boolean isNumeric)\n
     '''
 def hasApplink():
-    '''public boolean hasApplink()
+    '''returns boolean\n\n
+    hasApplink()\n
     '''
 def setApplink():
-    '''public void setApplink(final boolean hasApplink)
+    '''returns None\n\n
+    setApplink(final boolean hasApplink)\n
     '''
 def showTable():
-    '''public boolean showTable()
+    '''returns boolean\n\n
+    showTable()\n
     '''
 def setShowTable():
-    '''public void setShowTable(final boolean showTable)
+    '''returns None\n\n
+    setShowTable(final boolean showTable)\n
     '''
 def isFilterable():
-    '''public boolean isFilterable()
+    '''returns boolean\n\n
+    isFilterable()\n
     '''
 def setFilterable():
-    '''public void setFilterable(final boolean filterable)
-    '''
-def getApplinkAppList():
-    '''public HashMap<String, String> getApplinkAppList(final String objectName)
+    '''returns None\n\n
+    setFilterable(final boolean filterable)\n
     '''
 def setApplinkAppList():
-    '''public void setApplinkAppList(final String objectName, final HashMap<String, String> applinkAppMap)
+    '''returns None\n\n
+    setApplinkAppList(final String objectName, final HashMap<String, String> applinkAppMap)\n
     '''
 def getApplinkObject():
-    '''public String getApplinkObject(final String objectName)
+    '''returns String\n\n
+    getApplinkObject(final String objectName)\n
     '''
 def setApplinkObject():
-    '''public void setApplinkObject(final String objectName, final String applinkObject)
+    '''returns None\n\n
+    setApplinkObject(final String objectName, final String applinkObject)\n
     '''
 def isInternal():
-    '''public boolean isInternal()
+    '''returns boolean\n\n
+    isInternal()\n
     '''
 def setInternal():
-    '''public void setInternal(final boolean isInternal)
+    '''returns None\n\n
+    setInternal(final boolean isInternal)\n
     '''
 def isAlwaysVisible():
-    '''public boolean isAlwaysVisible()
+    '''returns boolean\n\n
+    isAlwaysVisible()\n
     '''
 def setAlwaysVisible():
-    '''public void setAlwaysVisible(final boolean alwaysVisible)
+    '''returns None\n\n
+    setAlwaysVisible(final boolean alwaysVisible)\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def setOrder():
-    '''public void setOrder(final int order)
+    '''returns None\n\n
+    setOrder(final int order)\n
     '''
 def getTextDirection():
-    '''public String getTextDirection()
+    '''returns String\n\n
+    getTextDirection()\n
     '''
 def setTextDirection():
-    '''public void setTextDirection(final String dir)
+    '''returns None\n\n
+    setTextDirection(final String dir)\n
     '''
 def canBeSorted():
-    '''public boolean canBeSorted()
+    '''returns boolean\n\n
+    canBeSorted()\n
     '''
 def setCanBeSorted():
-    '''public void setCanBeSorted(final boolean canBeSorted)
+    '''returns None\n\n
+    setCanBeSorted(final boolean canBeSorted)\n
     '''
 def canBeGrouped():
-    '''public boolean canBeGrouped()
+    '''returns boolean\n\n
+    canBeGrouped()\n
     '''
 def setCanBeGrouped():
-    '''public void setCanBeGrouped(final boolean canBeGrouped)
+    '''returns None\n\n
+    setCanBeGrouped(final boolean canBeGrouped)\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final int width)
+    '''returns None\n\n
+    setWidth(final int width)\n
     '''
 def canEdit():
-    '''public boolean canEdit()
+    '''returns boolean\n\n
+    canEdit()\n
     '''
 def setCanEdit():
-    '''public void setCanEdit(final boolean b)
+    '''returns None\n\n
+    setCanEdit(final boolean b)\n
     '''

@@ -1,3 +1,4 @@
-def ShowWFWait():
-    '''public ShowWFWait(final MboSet ms)
+def ():
+    '''returns ShowWFWait\n\n
+    (final MboSet ms)\n
     '''

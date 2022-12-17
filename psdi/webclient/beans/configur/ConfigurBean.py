@@ -1,48 +1,60 @@
-def ConfigurBean():
-    '''public ConfigurBean()
-    '''
-def save():
-    '''public synchronized void save()
+def ():
+    '''returns ConfigurBean\n\n
+    ()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def LOADDBCON():
-    '''public int LOADDBCON()
+    '''returns int\n\n
+    LOADDBCON()\n
     '''
 def CONFIGURE():
-    '''public int CONFIGURE()
+    '''returns int\n\n
+    CONFIGURE()\n
     '''
 def REMOVE():
-    '''public int REMOVE()
+    '''returns int\n\n
+    REMOVE()\n
     '''
 def remove_longOp():
-    '''public int remove_longOp()
+    '''returns int\n\n
+    remove_longOp()\n
     '''
 def STATISTICS():
-    '''public int STATISTICS()
+    '''returns int\n\n
+    STATISTICS()\n
     '''
 def statistics_longOp():
-    '''public int statistics_longOp()
+    '''returns int\n\n
+    statistics_longOp()\n
     '''
 def REFRESHIND():
-    '''public int REFRESHIND()
+    '''returns int\n\n
+    REFRESHIND()\n
     '''
 def refreshind_longOp():
-    '''public int refreshind_longOp()
+    '''returns int\n\n
+    refreshind_longOp()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def TAXDATA():
-    '''public int TAXDATA()
+    '''returns int\n\n
+    TAXDATA()\n
     '''
 def NUMTAX():
-    '''public int NUMTAX()
+    '''returns int\n\n
+    NUMTAX()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def EXTTABLE():
-    '''public int EXTTABLE()
+    '''returns int\n\n
+    EXTTABLE()\n
     '''

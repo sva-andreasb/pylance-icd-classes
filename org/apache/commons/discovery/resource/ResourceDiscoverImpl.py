@@ -1,23 +1,30 @@
-def ResourceDiscoverImpl():
-    '''public ResourceDiscoverImpl()
-    public ResourceDiscoverImpl(final ClassLoaders classLoaders)
+def ():
+    '''returns ResourceDiscoverImpl\n\n
+    ()\n
+    (final ClassLoaders classLoaders)\n
     '''
 def setClassLoaders():
-    '''public void setClassLoaders(final ClassLoaders loaders)
+    '''returns None\n\n
+    setClassLoaders(final ClassLoaders loaders)\n
     '''
 def addClassLoader():
-    '''public void addClassLoader(final ClassLoader loader)
+    '''returns None\n\n
+    addClassLoader(final ClassLoader loader)\n
     '''
 def findResourceNames():
-    '''public ResourceNameIterator findResourceNames(final String resourceName)
-    public ResourceNameIterator findResourceNames(final ResourceNameIterator resourceNames)
+    '''returns ResourceNameIterator\n\n
+    findResourceNames(final String resourceName)\n
+    findResourceNames(final ResourceNameIterator resourceNames)\n
     '''
 def findResources():
-    '''public ResourceIterator findResources(final ResourceNameIterator inputNames)
+    '''returns ResourceIterator\n\n
+    findResources(final ResourceNameIterator inputNames)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def nextResource():
-    '''public Resource nextResource()
+    '''returns Resource\n\n
+    nextResource()\n
     '''

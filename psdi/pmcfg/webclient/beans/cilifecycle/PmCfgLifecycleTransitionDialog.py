@@ -1,9 +1,8 @@
 def initialize():
-    '''public void initialize()
-    '''
-def structureChangedEvent():
-    '''public synchronized void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    initialize()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

@@ -1,23 +1,29 @@
 def getScriptDescriptor():
-    '''public IlvScriptDescriptor getScriptDescriptor()
+    '''returns IlvScriptDescriptor\n\n
+    getScriptDescriptor()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def encodeBegin():
-    '''public void encodeBegin(final FacesContext facesContext, final UIComponent uiComponent)
+    '''returns None\n\n
+    encodeBegin(final FacesContext facesContext, final UIComponent uiComponent)\n
     '''
 def decode():
-    '''public void decode(final FacesContext facesContext, final UIComponent uiComponent)
+    '''returns None\n\n
+    decode(final FacesContext facesContext, final UIComponent uiComponent)\n
     '''
 def getDecodedObject():
-    '''public Object getDecodedObject(final String s)
+    '''returns Object\n\n
+    getDecodedObject(final String s)\n
     '''
 def createArray():
-    '''public Object createArray(final int n)
+    '''returns Object\n\n
+    createArray(final int n)\n
     '''

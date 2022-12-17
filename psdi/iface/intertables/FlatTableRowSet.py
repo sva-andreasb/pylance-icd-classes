@@ -1,9 +1,12 @@
-def FlatTableRowSet():
-    '''public FlatTableRowSet(final ResultSet rset, final String dbName)
+def ():
+    '''returns FlatTableRowSet\n\n
+    (final ResultSet rset, final String dbName)\n
     '''
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''
 def getFieldValue():
-    '''public String getFieldValue(final String columnName, final MboValueInfo columnInfo)
+    '''returns String\n\n
+    getFieldValue(final String columnName, final MboValueInfo columnInfo)\n
     '''

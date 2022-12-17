@@ -1,15 +1,19 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 CONTROLLER_ID = "String  \"IloController\""
 CONTROLLER = "IloObjectHandle  new ObjectId(\"IloController\")"
-def ObjectId():
-    '''public ObjectId(final String id)
+def ():
+    '''returns ObjectId\n\n
+    (final String id)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

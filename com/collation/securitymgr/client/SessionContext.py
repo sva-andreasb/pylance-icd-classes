@@ -1,24 +1,32 @@
-def SessionContext():
-    '''public SessionContext()
+def ():
+    '''returns SessionContext\n\n
+    ()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def isRegularUser():
-    '''public boolean isRegularUser()
+    '''returns boolean\n\n
+    isRegularUser()\n
     '''
 def setSessionId():
-    '''public void setSessionId(final long sid)
+    '''returns None\n\n
+    setSessionId(final long sid)\n
     '''
 def getSessionId():
-    '''public long getSessionId()
+    '''returns long\n\n
+    getSessionId()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''

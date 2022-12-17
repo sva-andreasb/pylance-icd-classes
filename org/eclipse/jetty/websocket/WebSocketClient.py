@@ -1,87 +1,105 @@
-def WebSocketClient():
-    '''public WebSocketClient()
-    public WebSocketClient(final WebSocketClientFactory factory)
+def ():
+    '''returns WebSocketClient\n\n
+    ()\n
+    (final WebSocketClientFactory factory)\n
     '''
 def getFactory():
-    '''public WebSocketClientFactory getFactory()
+    '''returns WebSocketClientFactory\n\n
+    getFactory()\n
     '''
 def getBindAddress():
-    '''public SocketAddress getBindAddress()
+    '''returns SocketAddress\n\n
+    getBindAddress()\n
     '''
 def setBindAddress():
-    '''public void setBindAddress(final SocketAddress bindAddress)
+    '''returns None\n\n
+    setBindAddress(final SocketAddress bindAddress)\n
     '''
 def getMaxIdleTime():
-    '''public int getMaxIdleTime()
-    public int getMaxIdleTime()
+    '''returns int\n\n
+    getMaxIdleTime()\n
+    getMaxIdleTime()\n
     '''
 def setMaxIdleTime():
-    '''public void setMaxIdleTime(final int maxIdleTime)
+    '''returns None\n\n
+    setMaxIdleTime(final int maxIdleTime)\n
     '''
 def getProtocol():
-    '''public String getProtocol()
-    public String getProtocol()
+    '''returns String\n\n
+    getProtocol()\n
+    getProtocol()\n
     '''
 def setProtocol():
-    '''public void setProtocol(final String protocol)
+    '''returns None\n\n
+    setProtocol(final String protocol)\n
     '''
 def getOrigin():
-    '''public String getOrigin()
-    public String getOrigin()
+    '''returns String\n\n
+    getOrigin()\n
+    getOrigin()\n
     '''
 def setOrigin():
-    '''public void setOrigin(final String origin)
-    '''
-def getCookies():
-    '''public Map<String, String> getCookies()
-    public Map<String, String> getCookies()
+    '''returns None\n\n
+    setOrigin(final String origin)\n
     '''
 def getExtensions():
-    '''public List<String> getExtensions()
+    '''returns List<String>\n\n
+    getExtensions()\n
     '''
 def getMaskGen():
-    '''public MaskGen getMaskGen()
-    public MaskGen getMaskGen()
+    '''returns MaskGen\n\n
+    getMaskGen()\n
+    getMaskGen()\n
     '''
 def setMaskGen():
-    '''public void setMaskGen(final MaskGen maskGen)
+    '''returns None\n\n
+    setMaskGen(final MaskGen maskGen)\n
     '''
 def getMaxTextMessageSize():
-    '''public int getMaxTextMessageSize()
+    '''returns int\n\n
+    getMaxTextMessageSize()\n
     '''
 def setMaxTextMessageSize():
-    '''public void setMaxTextMessageSize(final int maxTextMessageSize)
+    '''returns None\n\n
+    setMaxTextMessageSize(final int maxTextMessageSize)\n
     '''
 def getMaxBinaryMessageSize():
-    '''public int getMaxBinaryMessageSize()
+    '''returns int\n\n
+    getMaxBinaryMessageSize()\n
     '''
 def setMaxBinaryMessageSize():
-    '''public void setMaxBinaryMessageSize(final int maxBinaryMessageSize)
-    '''
-def toSocketAddress():
-    '''public static InetSocketAddress toSocketAddress(final URI uri)
+    '''returns None\n\n
+    setMaxBinaryMessageSize(final int maxBinaryMessageSize)\n
     '''
 def onConnection():
-    '''public void onConnection(final WebSocketConnection connection)
+    '''returns None\n\n
+    onConnection(final WebSocketConnection connection)\n
     '''
 def handshakeFailed():
-    '''public void handshakeFailed(final Throwable ex)
+    '''returns None\n\n
+    handshakeFailed(final Throwable ex)\n
     '''
 def getWebSocket():
-    '''public WebSocket getWebSocket()
+    '''returns WebSocket\n\n
+    getWebSocket()\n
     '''
 def getURI():
-    '''public URI getURI()
+    '''returns URI\n\n
+    getURI()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def cancel():
-    '''public boolean cancel(final boolean mayInterruptIfRunning)
+    '''returns boolean\n\n
+    cancel(final boolean mayInterruptIfRunning)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def isDone():
-    '''public boolean isDone()
+    '''returns boolean\n\n
+    isDone()\n
     '''

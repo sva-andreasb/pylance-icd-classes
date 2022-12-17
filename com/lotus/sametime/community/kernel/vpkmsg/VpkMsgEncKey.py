@@ -1,3 +1,4 @@
-def VpkMsgEncKey():
-    '''public VpkMsgEncKey(final byte[] array)
+def ():
+    '''returns VpkMsgEncKey\n\n
+    (final byte[] array)\n
     '''

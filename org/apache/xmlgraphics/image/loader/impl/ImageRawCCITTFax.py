@@ -1,9 +1,12 @@
-def ImageRawCCITTFax():
-    '''public ImageRawCCITTFax(final ImageInfo info, final InputStream in, final int compression)
+def ():
+    '''returns ImageRawCCITTFax\n\n
+    (final ImageInfo info, final InputStream in, final int compression)\n
     '''
 def getColorSpace():
-    '''public ColorSpace getColorSpace()
+    '''returns ColorSpace\n\n
+    getColorSpace()\n
     '''
 def getCompression():
-    '''public int getCompression()
+    '''returns int\n\n
+    getCompression()\n
     '''

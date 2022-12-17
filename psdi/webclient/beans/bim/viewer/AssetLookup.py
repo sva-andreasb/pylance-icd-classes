@@ -1,9 +1,12 @@
-def AssetLookup():
-    '''public AssetLookup()
+def ():
+    '''returns AssetLookup\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def setReturnValue():
-    '''public void setReturnValue(final DataBean sourceDataBean, final String field, final String value)
+    '''returns None\n\n
+    setReturnValue(final DataBean sourceDataBean, final String field, final String value)\n
     '''

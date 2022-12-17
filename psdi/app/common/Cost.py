@@ -1,18 +1,24 @@
 def calcLoadedCost():
-    '''public double calcLoadedCost(final UserInfo user, final double linecost, final double proratecost, final double[] tax, final boolean issue, final String orgID, final MboRemote mbo)
+    '''returns double\n\n
+    calcLoadedCost(final UserInfo user, final double linecost, final double proratecost, final double[] tax, final boolean issue, final String orgID, final MboRemote mbo)\n
     '''
 def calcMatRecProrateCost():
-    '''public double calcMatRecProrateCost(final MboRemote mbo)
+    '''returns double\n\n
+    calcMatRecProrateCost(final MboRemote mbo)\n
     '''
 def calcServRecProrateCost():
-    '''public double calcServRecProrateCost(final MboRemote mbo)
+    '''returns double\n\n
+    calcServRecProrateCost(final MboRemote mbo)\n
     '''
 def prorateServices():
-    '''public void prorateServices(final MboSetRemote lines)
+    '''returns None\n\n
+    prorateServices(final MboSetRemote lines)\n
     '''
 def determineLoadedCostIfProrated():
-    '''public double determineLoadedCostIfProrated(final MboRemote mbo)
+    '''returns double\n\n
+    determineLoadedCostIfProrated(final MboRemote mbo)\n
     '''
 def calcProrateCost():
-    '''public double calcProrateCost(final MboRemote mbo, final double receiptLineCost)
+    '''returns double\n\n
+    calcProrateCost(final MboRemote mbo, final double receiptLineCost)\n
     '''

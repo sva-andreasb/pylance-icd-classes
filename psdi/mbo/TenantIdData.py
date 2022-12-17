@@ -1,9 +1,12 @@
-def TenantIdData():
-    '''public TenantIdData(final TenantIdInfo tenantIdInfo)
+def ():
+    '''returns TenantIdData\n\n
+    (final TenantIdInfo tenantIdInfo)\n
     '''
 def addTenantId():
-    '''public void addTenantId(final String tableName, final int tenantIdValue)
+    '''returns None\n\n
+    addTenantId(final String tableName, final int tenantIdValue)\n
     '''
 def getTenantIdValue():
-    '''public int getTenantIdValue(final String tableName)
+    '''returns int\n\n
+    getTenantIdValue(final String tableName)\n
     '''

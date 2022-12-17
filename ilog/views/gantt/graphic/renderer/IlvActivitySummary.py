@@ -1,24 +1,32 @@
-def IlvActivitySummary():
-    '''public IlvActivitySummary()
+def ():
+    '''returns IlvActivitySummary\n\n
+    ()\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''
 def getMainBar():
-    '''public IlvActivityRenderer getMainBar()
+    '''returns IlvActivityRenderer\n\n
+    getMainBar()\n
     '''
 def setMainBar():
-    '''public void setMainBar(final IlvActivityRenderer ilvActivityRenderer)
+    '''returns None\n\n
+    setMainBar(final IlvActivityRenderer ilvActivityRenderer)\n
     '''
 def getStartSymbol():
-    '''public IlvActivityRenderer getStartSymbol()
+    '''returns IlvActivityRenderer\n\n
+    getStartSymbol()\n
     '''
 def setStartSymbol():
-    '''public void setStartSymbol(final IlvActivityRenderer ilvActivityRenderer)
+    '''returns None\n\n
+    setStartSymbol(final IlvActivityRenderer ilvActivityRenderer)\n
     '''
 def getEndSymbol():
-    '''public IlvActivityRenderer getEndSymbol()
+    '''returns IlvActivityRenderer\n\n
+    getEndSymbol()\n
     '''
 def setEndSymbol():
-    '''public void setEndSymbol(final IlvActivityRenderer ilvActivityRenderer)
+    '''returns None\n\n
+    setEndSymbol(final IlvActivityRenderer ilvActivityRenderer)\n
     '''

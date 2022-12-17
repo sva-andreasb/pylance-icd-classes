@@ -1,3 +1,4 @@
 def execute():
-    '''public int execute(final MboSetRemote invvendorSet)
+    '''returns int\n\n
+    execute(final MboSetRemote invvendorSet)\n
     '''

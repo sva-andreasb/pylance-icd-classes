@@ -1,3 +1,4 @@
-def TloamGLComponentsSet():
-    '''public TloamGLComponentsSet(final MboServerInterface ms)
+def ():
+    '''returns TloamGLComponentsSet\n\n
+    (final MboServerInterface ms)\n
     '''

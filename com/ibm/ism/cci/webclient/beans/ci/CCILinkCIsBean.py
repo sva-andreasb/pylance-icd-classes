@@ -1,6 +1,8 @@
 def dolink():
-    '''public int dolink()
+    '''returns int\n\n
+    dolink()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

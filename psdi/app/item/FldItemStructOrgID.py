@@ -1,6 +1,8 @@
-def FldItemStructOrgID():
-    '''public FldItemStructOrgID(final MboValue mbv)
+def ():
+    '''returns FldItemStructOrgID\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

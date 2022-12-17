@@ -1,43 +1,57 @@
-def LocationPathPattern():
-    '''public LocationPathPattern()
-    public LocationPathPattern(final NodeTest nodeTest)
+def ():
+    '''returns LocationPathPattern\n\n
+    ()\n
+    (final NodeTest nodeTest)\n
     '''
 def simplify():
-    '''public Pattern simplify()
+    '''returns Pattern\n\n
+    simplify()\n
     '''
 def addFilter():
-    '''public void addFilter(final FilterExpr filter)
+    '''returns None\n\n
+    addFilter(final FilterExpr filter)\n
     '''
 def setParentPattern():
-    '''public void setParentPattern(final Pattern parentPattern)
+    '''returns None\n\n
+    setParentPattern(final Pattern parentPattern)\n
     '''
 def setAncestorPattern():
-    '''public void setAncestorPattern(final Pattern ancestorPattern)
+    '''returns None\n\n
+    setAncestorPattern(final Pattern ancestorPattern)\n
     '''
 def setNodeTest():
-    '''public void setNodeTest(final NodeTest nodeTest)
+    '''returns None\n\n
+    setNodeTest(final NodeTest nodeTest)\n
     '''
 def matches():
-    '''public boolean matches(final Object node, final Context context)
+    '''returns boolean\n\n
+    matches(final Object node, final Context context)\n
     '''
 def getPriority():
-    '''public double getPriority()
+    '''returns double\n\n
+    getPriority()\n
     '''
 def getMatchType():
-    '''public short getMatchType()
+    '''returns short\n\n
+    getMatchType()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isAbsolute():
-    '''public boolean isAbsolute()
+    '''returns boolean\n\n
+    isAbsolute()\n
     '''
 def setAbsolute():
-    '''public void setAbsolute(final boolean absolute)
+    '''returns None\n\n
+    setAbsolute(final boolean absolute)\n
     '''
 def hasAnyNodeTest():
-    '''public boolean hasAnyNodeTest()
+    '''returns boolean\n\n
+    hasAnyNodeTest()\n
     '''

@@ -1,18 +1,24 @@
-def IMResolveEvent():
-    '''public IMResolveEvent(final Object o, final IMSession imSession, final String userDisplayName, final ResultType resultType, final List<IMUser> imUsers)
+def ():
+    '''returns IMResolveEvent\n\n
+    (final Object o, final IMSession imSession, final String userDisplayName, final ResultType resultType, final List<IMUser> imUsers)\n
     '''
 def getUserDisplayName():
-    '''public String getUserDisplayName()
+    '''returns String\n\n
+    getUserDisplayName()\n
     '''
 def getResultType():
-    '''public ResultType getResultType()
+    '''returns ResultType\n\n
+    getResultType()\n
     '''
 def getContent():
-    '''public IMUser getContent()
+    '''returns IMUser\n\n
+    getContent()\n
     '''
 def getResolvedUser():
-    '''public IMUser getResolvedUser()
+    '''returns IMUser\n\n
+    getResolvedUser()\n
     '''
 def getResolveconflictUsers():
-    '''public List<IMUser> getResolveconflictUsers()
+    '''returns List<IMUser>\n\n
+    getResolveconflictUsers()\n
     '''

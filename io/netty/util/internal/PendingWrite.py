@@ -1,24 +1,28 @@
-def newInstance():
-    '''public static PendingWrite newInstance(final Object msg, final Promise<Void> promise)
-    '''
 def recycle():
-    '''public boolean recycle()
+    '''returns boolean\n\n
+    recycle()\n
     '''
 def failAndRecycle():
-    '''public boolean failAndRecycle(final Throwable cause)
+    '''returns boolean\n\n
+    failAndRecycle(final Throwable cause)\n
     '''
 def successAndRecycle():
-    '''public boolean successAndRecycle()
+    '''returns boolean\n\n
+    successAndRecycle()\n
     '''
 def msg():
-    '''public Object msg()
+    '''returns Object\n\n
+    msg()\n
     '''
 def promise():
-    '''public Promise<Void> promise()
+    '''returns Promise<Void>\n\n
+    promise()\n
     '''
 def recycleAndGet():
-    '''public Promise<Void> recycleAndGet()
+    '''returns Promise<Void>\n\n
+    recycleAndGet()\n
     '''
 def newObject():
-    '''public PendingWrite newObject(final ObjectPool.Handle<PendingWrite> handle)
+    '''returns PendingWrite\n\n
+    newObject(final ObjectPool.Handle<PendingWrite> handle)\n
     '''

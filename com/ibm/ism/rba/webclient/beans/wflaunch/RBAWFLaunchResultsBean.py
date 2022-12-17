@@ -1,9 +1,12 @@
 def LAUNCH():
-    '''public int LAUNCH()
+    '''returns int\n\n
+    LAUNCH()\n
     '''
 def launchWorkflow():
-    '''public int launchWorkflow(final RBAWFProcess proc, final WebClientEvent event)
+    '''returns int\n\n
+    launchWorkflow(final RBAWFProcess proc, final WebClientEvent event)\n
     '''
 def queryAllRecs():
-    '''public void queryAllRecs()
+    '''returns None\n\n
+    queryAllRecs()\n
     '''

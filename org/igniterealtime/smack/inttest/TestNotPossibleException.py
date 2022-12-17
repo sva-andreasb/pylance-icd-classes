@@ -1,3 +1,4 @@
-def TestNotPossibleException():
-    '''public TestNotPossibleException(final String reason)
+def ():
+    '''returns TestNotPossibleException\n\n
+    (final String reason)\n
     '''

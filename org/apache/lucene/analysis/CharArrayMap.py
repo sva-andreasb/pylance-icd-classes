@@ -1,98 +1,101 @@
-def CharArrayMap():
-    '''public CharArrayMap(final int startSize, final boolean ignoreCase)
-    public CharArrayMap(final Map<?, ? extends V> c, final boolean ignoreCase)
+def ():
+    '''returns CharArrayMap\n\n
+    (final int startSize, final boolean ignoreCase)\n
+    (final Map<?, ? extends V> c, final boolean ignoreCase)\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
+    clear()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final char[] text, final int off, final int len)
-    public boolean containsKey(final CharSequence cs)
-    public boolean containsKey(final Object o)
-    public boolean containsKey(final char[] text, final int off, final int len)
-    public boolean containsKey(final CharSequence cs)
-    public boolean containsKey(final Object o)
+    '''returns boolean\n\n
+    containsKey(final char[] text, final int off, final int len)\n
+    containsKey(final CharSequence cs)\n
+    containsKey(final Object o)\n
+    containsKey(final char[] text, final int off, final int len)\n
+    containsKey(final CharSequence cs)\n
+    containsKey(final Object o)\n
     '''
 def get():
-    '''public V get(final char[] text, final int off, final int len)
-    public V get(final CharSequence cs)
-    public V get(final Object o)
-    public V get(final char[] text, final int off, final int len)
-    public V get(final CharSequence cs)
-    public V get(final Object o)
+    '''returns V\n\n
+    get(final char[] text, final int off, final int len)\n
+    get(final CharSequence cs)\n
+    get(final Object o)\n
+    get(final char[] text, final int off, final int len)\n
+    get(final CharSequence cs)\n
+    get(final Object o)\n
     '''
 def put():
-    '''public V put(final CharSequence text, final V value)
-    public V put(final Object o, final V value)
-    public V put(final String text, final V value)
-    public V put(final char[] text, final V value)
-    public V put(final Object o, final V val)
-    public V put(final char[] text, final V val)
-    public V put(final CharSequence text, final V val)
-    public V put(final String text, final V val)
+    '''returns V\n\n
+    put(final CharSequence text, final V value)\n
+    put(final Object o, final V value)\n
+    put(final String text, final V value)\n
+    put(final char[] text, final V value)\n
+    put(final Object o, final V val)\n
+    put(final char[] text, final V val)\n
+    put(final CharSequence text, final V val)\n
+    put(final String text, final V val)\n
     '''
 def remove():
-    '''public V remove(final Object key)
-    public void remove()
-    public boolean remove(final Object o)
-    public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
+    remove()\n
+    remove(final Object o)\n
+    remove(final Object key)\n
     '''
 def size():
-    '''public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def entrySet():
-    '''public final EntrySet entrySet()
-    '''
-def keySet():
-    '''public final CharArraySet keySet()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def add():
-    '''public boolean add(final Object o)
-    public boolean add(final CharSequence text)
-    public boolean add(final String text)
-    public boolean add(final char[] text)
-    '''
-def unmodifiableMap():
-    '''public static <V> CharArrayMap<V> unmodifiableMap(final CharArrayMap<V> map)
-    '''
-def copy():
-    '''public static <V> CharArrayMap<V> copy(final Map<?, ? extends V> map)
-    '''
-def emptyMap():
-    '''public static <V> CharArrayMap<V> emptyMap()
+    '''returns boolean\n\n
+    add(final Object o)\n
+    add(final CharSequence text)\n
+    add(final String text)\n
+    add(final char[] text)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def nextKey():
-    '''public char[] nextKey()
+    '''returns char[]\n\n
+    nextKey()\n
     '''
 def nextKeyString():
-    '''public String nextKeyString()
+    '''returns String\n\n
+    nextKeyString()\n
     '''
 def currentValue():
-    '''public V currentValue()
+    '''returns V\n\n
+    currentValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
-    public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
+    setValue(final V value)\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def iterator():
-    '''public EntryIterator iterator()
+    '''returns EntryIterator\n\n
+    iterator()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''

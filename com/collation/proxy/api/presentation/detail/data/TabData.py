@@ -1,12 +1,16 @@
 def setDisplayName():
-    '''public void setDisplayName(final String s)
+    '''returns None\n\n
+    setDisplayName(final String s)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String v)
+    '''returns None\n\n
+    setName(final String v)\n
     '''

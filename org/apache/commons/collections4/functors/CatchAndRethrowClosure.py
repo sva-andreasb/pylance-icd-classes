@@ -1,3 +1,4 @@
 def execute():
-    '''public void execute(final E input)
+    '''returns None\n\n
+    execute(final E input)\n
     '''

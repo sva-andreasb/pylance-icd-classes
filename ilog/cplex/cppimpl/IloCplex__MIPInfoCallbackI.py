@@ -1,72 +1,90 @@
-def IloCplex__MIPInfoCallbackI():
-    '''public IloCplex__MIPInfoCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__MIPInfoCallbackI obj)
+def ():
+    '''returns IloCplex__MIPInfoCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getBestObjValue():
-    '''public double getBestObjValue()
+    '''returns double\n\n
+    getBestObjValue()\n
     '''
 def getMIPRelativeGap():
-    '''public double getMIPRelativeGap()
+    '''returns double\n\n
+    getMIPRelativeGap()\n
     '''
 def getIncumbentObjValue():
-    '''public double getIncumbentObjValue()
+    '''returns double\n\n
+    getIncumbentObjValue()\n
     '''
 def getIncumbentValue():
-    '''public double getIncumbentValue(final IloNumVar var)
-    public double getIncumbentValue(final IloIntVar var)
-    public double getIncumbentValue(final SWIGTYPE_p_IloExprArg expr)
+    '''returns double\n\n
+    getIncumbentValue(final IloNumVar var)\n
+    getIncumbentValue(final IloIntVar var)\n
+    getIncumbentValue(final SWIGTYPE_p_IloExprArg expr)\n
     '''
 def getIncumbentValues():
-    '''public void getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)
-    public void getIncumbentValues(final IloNumArray val, final IloIntVarArray vars)
+    '''returns None\n\n
+    getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)\n
+    getIncumbentValues(final IloNumArray val, final IloIntVarArray vars)\n
     '''
 def getIncumbentSlack():
-    '''public double getIncumbentSlack(final IloRange rng)
-    public double getIncumbentSlack(final IloForAllRange rng)
+    '''returns double\n\n
+    getIncumbentSlack(final IloRange rng)\n
+    getIncumbentSlack(final IloForAllRange rng)\n
     '''
 def getIncumbentSlacks():
-    '''public void getIncumbentSlacks(final IloNumArray vals, final IloRangeArray cons)
-    public void getIncumbentSlacks(final IloNumArray vals, final IloForAllRangeArray cons)
+    '''returns None\n\n
+    getIncumbentSlacks(final IloNumArray vals, final IloRangeArray cons)\n
+    getIncumbentSlacks(final IloNumArray vals, final IloForAllRangeArray cons)\n
     '''
 def getNcuts():
-    '''public int getNcuts(final SWIGTYPE_p_IloCplex__CutType which)
+    '''returns int\n\n
+    getNcuts(final SWIGTYPE_p_IloCplex__CutType which)\n
     '''
 def getMyThreadNum():
-    '''public int getMyThreadNum()
+    '''returns int\n\n
+    getMyThreadNum()\n
     '''
 def hasIncumbent():
-    '''public boolean hasIncumbent()
+    '''returns boolean\n\n
+    hasIncumbent()\n
     '''
 def getNnodes64():
-    '''public long getNnodes64()
+    '''returns long\n\n
+    getNnodes64()\n
     '''
 def getNnodes():
-    '''public int getNnodes()
+    '''returns int\n\n
+    getNnodes()\n
     '''
 def getNremainingNodes64():
-    '''public long getNremainingNodes64()
+    '''returns long\n\n
+    getNremainingNodes64()\n
     '''
 def getNremainingNodes():
-    '''public int getNremainingNodes()
+    '''returns int\n\n
+    getNremainingNodes()\n
     '''
 def getNiterations64():
-    '''public long getNiterations64()
+    '''returns long\n\n
+    getNiterations64()\n
     '''
 def getNiterations():
-    '''public int getNiterations()
+    '''returns int\n\n
+    getNiterations()\n
     '''
 def getCutoff():
-    '''public double getCutoff()
+    '''returns double\n\n
+    getCutoff()\n
     '''
 def getPriority():
-    '''public double getPriority(final IloNumVar sos)
-    public double getPriority(final IloIntVar sos)
+    '''returns double\n\n
+    getPriority(final IloNumVar sos)\n
+    getPriority(final IloIntVar sos)\n
     '''
 def getQuality():
-    '''public double getQuality(final SWIGTYPE_p_IloCplex__Quality q)
+    '''returns double\n\n
+    getQuality(final SWIGTYPE_p_IloCplex__Quality q)\n
     '''

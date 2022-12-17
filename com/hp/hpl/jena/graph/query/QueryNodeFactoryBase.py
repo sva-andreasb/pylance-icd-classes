@@ -1,21 +1,28 @@
 def createAny():
-    '''public QueryNode createAny()
+    '''returns QueryNode\n\n
+    createAny()\n
     '''
 def createFixed():
-    '''public QueryNode createFixed(final Node n)
+    '''returns QueryNode\n\n
+    createFixed(final Node n)\n
     '''
 def createBind():
-    '''public QueryNode createBind(final Node node, final int i)
+    '''returns QueryNode\n\n
+    createBind(final Node node, final int i)\n
     '''
 def createJustBound():
-    '''public QueryNode createJustBound(final Node node, final int i)
+    '''returns QueryNode\n\n
+    createJustBound(final Node node, final int i)\n
     '''
 def createBound():
-    '''public QueryNode createBound(final Node node, final int i)
+    '''returns QueryNode\n\n
+    createBound(final Node node, final int i)\n
     '''
 def createTriple():
-    '''public QueryTriple createTriple(final QueryNode S, final QueryNode P, final QueryNode O)
+    '''returns QueryTriple\n\n
+    createTriple(final QueryNode S, final QueryNode P, final QueryNode O)\n
     '''
 def createArray():
-    '''public QueryTriple[] createArray(final int size)
+    '''returns QueryTriple[]\n\n
+    createArray(final int size)\n
     '''

@@ -1,52 +1,64 @@
-def at():
-    '''public static Period at(final float count, final TimeUnit unit)
-    public Period at()
-    '''
-def moreThan():
-    '''public static Period moreThan(final float count, final TimeUnit unit)
-    public Period moreThan()
-    '''
-def lessThan():
-    '''public static Period lessThan(final float count, final TimeUnit unit)
-    public Period lessThan()
-    '''
 def and():
-    '''public Period and(final float count, final TimeUnit unit)
+    '''returns Period\n\n
+    and(final float count, final TimeUnit unit)\n
     '''
 def omit():
-    '''public Period omit(final TimeUnit unit)
+    '''returns Period\n\n
+    omit(final TimeUnit unit)\n
+    '''
+def at():
+    '''returns Period\n\n
+    at()\n
+    '''
+def moreThan():
+    '''returns Period\n\n
+    moreThan()\n
+    '''
+def lessThan():
+    '''returns Period\n\n
+    lessThan()\n
     '''
 def inFuture():
-    '''public Period inFuture()
-    public Period inFuture(final boolean future)
+    '''returns Period\n\n
+    inFuture()\n
+    inFuture(final boolean future)\n
     '''
 def inPast():
-    '''public Period inPast()
-    public Period inPast(final boolean past)
+    '''returns Period\n\n
+    inPast()\n
+    inPast(final boolean past)\n
     '''
 def isSet():
-    '''public boolean isSet()
-    public boolean isSet(final TimeUnit unit)
+    '''returns boolean\n\n
+    isSet()\n
+    isSet(final TimeUnit unit)\n
     '''
 def getCount():
-    '''public float getCount(final TimeUnit unit)
+    '''returns float\n\n
+    getCount(final TimeUnit unit)\n
     '''
 def isInFuture():
-    '''public boolean isInFuture()
+    '''returns boolean\n\n
+    isInFuture()\n
     '''
 def isInPast():
-    '''public boolean isInPast()
+    '''returns boolean\n\n
+    isInPast()\n
     '''
 def isMoreThan():
-    '''public boolean isMoreThan()
+    '''returns boolean\n\n
+    isMoreThan()\n
     '''
 def isLessThan():
-    '''public boolean isLessThan()
+    '''returns boolean\n\n
+    isLessThan()\n
     '''
 def equals():
-    '''public boolean equals(final Object rhs)
-    public boolean equals(final Period rhs)
+    '''returns boolean\n\n
+    equals(final Object rhs)\n
+    equals(final Period rhs)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

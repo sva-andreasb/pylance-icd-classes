@@ -1,16 +1,13 @@
 HTTP_SEPARATORS = "String  \" ,;=()<>@:\\\\"/[]?{}\t\""
-def BasicTokenIterator():
-    '''public BasicTokenIterator(final HeaderIterator headerIterator)
+def ():
+    '''returns BasicTokenIterator\n\n
+    (final HeaderIterator headerIterator)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def nextToken():
-    '''public String nextToken()
-    '''
-def next():
-    '''public final Object next()
-    '''
-def remove():
-    '''public final void remove()
+    '''returns String\n\n
+    nextToken()\n
     '''

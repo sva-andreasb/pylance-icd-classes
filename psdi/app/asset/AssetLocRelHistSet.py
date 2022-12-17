@@ -1,3 +1,4 @@
-def AssetLocRelHistSet():
-    '''public AssetLocRelHistSet(final MboServerInterface ms)
+def ():
+    '''returns AssetLocRelHistSet\n\n
+    (final MboServerInterface ms)\n
     '''

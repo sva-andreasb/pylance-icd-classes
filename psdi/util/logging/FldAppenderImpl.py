@@ -1,6 +1,8 @@
-def FldAppenderImpl():
-    '''public FldAppenderImpl(final MboValue mbv)
+def ():
+    '''returns FldAppenderImpl\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

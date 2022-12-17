@@ -1,18 +1,21 @@
-def ReplacementValuesManager():
-    '''public ReplacementValuesManager()
+def ():
+    '''returns Query\n\n
+    ()\n
+    (final String id, final String name, final String query, final String value, final boolean pkgDefault)\n
     '''
 def addReplacementQueryTag():
-    '''public void addReplacementQueryTag(final Element element)
+    '''returns None\n\n
+    addReplacementQueryTag(final Element element)\n
     '''
 def setReplacementsForRef():
-    '''public void setReplacementsForRef(final String refName, final BaseTag baseTag)
+    '''returns None\n\n
+    setReplacementsForRef(final String refName, final BaseTag baseTag)\n
     '''
 def setAllReplacements():
-    '''public void setAllReplacements(final BaseTag baseTag)
+    '''returns None\n\n
+    setAllReplacements(final BaseTag baseTag)\n
     '''
 def preloadReplacementQueries():
-    '''public boolean preloadReplacementQueries(final MaximoResolver maximoResolver, final IProgressMonitor monitor)
-    '''
-def Query():
-    '''public Query(final String id, final String name, final String query, final String value, final boolean pkgDefault)
+    '''returns boolean\n\n
+    preloadReplacementQueries(final MaximoResolver maximoResolver, final IProgressMonitor monitor)\n
     '''

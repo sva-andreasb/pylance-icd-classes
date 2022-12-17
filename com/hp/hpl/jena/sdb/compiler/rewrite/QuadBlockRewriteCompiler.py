@@ -1,9 +1,12 @@
-def QuadBlockRewriteCompiler():
-    '''public QuadBlockRewriteCompiler(final SDBRequest request, final QuadBlockCompiler baseCompiler)
+def ():
+    '''returns QuadBlockRewriteCompiler\n\n
+    (final SDBRequest request, final QuadBlockCompiler baseCompiler)\n
     '''
 def compile():
-    '''public SqlNode compile(QuadBlock quads)
+    '''returns SqlNode\n\n
+    compile(QuadBlock quads)\n
     '''
 def getSlotCompiler():
-    '''public SlotCompiler getSlotCompiler()
+    '''returns SlotCompiler\n\n
+    getSlotCompiler()\n
     '''

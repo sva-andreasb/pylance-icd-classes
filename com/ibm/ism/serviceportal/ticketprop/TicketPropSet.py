@@ -1,3 +1,4 @@
-def TicketPropSet():
-    '''public TicketPropSet(final MboServerInterface ms)
+def ():
+    '''returns TicketPropSet\n\n
+    (final MboServerInterface ms)\n
     '''

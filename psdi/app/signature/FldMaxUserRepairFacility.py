@@ -1,6 +1,8 @@
-def FldMaxUserRepairFacility():
-    '''public FldMaxUserRepairFacility(final MboValue mbv)
+def ():
+    '''returns FldMaxUserRepairFacility\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

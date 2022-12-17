@@ -1,203 +1,264 @@
-def ClassWriter():
-    '''public ClassWriter()
+def ():
+    '''returns ClassOutputStream\n\n
+    ()\n
+    ()\n
     '''
 def write():
-    '''public void write(final ClassFile classFile, final File file)
-    public void write(final ClassFile classFile, final OutputStream out)
-    public void write(final Attributes attributes, final ClassOutputStream classOutputStream)
-    public void write(final Attribute attribute, final ClassOutputStream classOutputStream)
-    public void write(final StackMapTable_attribute.stack_map_frame stack_map_frame, final ClassOutputStream classOutputStream)
-    public void write(final Annotation[] array, final ClassOutputStream classOutputStream)
-    public void write(final TypeAnnotation[] array, final ClassOutputStream classOutputStream)
-    public void write(final Annotation annotation, final ClassOutputStream classOutputStream)
-    public void write(final TypeAnnotation typeAnnotation, final ClassOutputStream classOutputStream)
-    public void write(final Annotation.element_value_pair element_value_pair, final ClassOutputStream classOutputStream)
-    public void write(final Annotation.element_value element_value, final ClassOutputStream classOutputStream)
-    '''
-def ClassOutputStream():
-    '''public ClassOutputStream()
+    '''returns None\n\n
+    write(final ClassFile classFile, final File file)\n
+    write(final ClassFile classFile, final OutputStream out)\n
+    write(final Attributes attributes, final ClassOutputStream classOutputStream)\n
+    write(final Attribute attribute, final ClassOutputStream classOutputStream)\n
+    write(final StackMapTable_attribute.stack_map_frame stack_map_frame, final ClassOutputStream classOutputStream)\n
+    write(final Annotation[] array, final ClassOutputStream classOutputStream)\n
+    write(final TypeAnnotation[] array, final ClassOutputStream classOutputStream)\n
+    write(final Annotation annotation, final ClassOutputStream classOutputStream)\n
+    write(final TypeAnnotation typeAnnotation, final ClassOutputStream classOutputStream)\n
+    write(final Annotation.element_value_pair element_value_pair, final ClassOutputStream classOutputStream)\n
+    write(final Annotation.element_value element_value, final ClassOutputStream classOutputStream)\n
     '''
 def writeByte():
-    '''public void writeByte(final int v)
+    '''returns None\n\n
+    writeByte(final int v)\n
     '''
 def writeShort():
-    '''public void writeShort(final int v)
+    '''returns None\n\n
+    writeShort(final int v)\n
     '''
 def writeInt():
-    '''public void writeInt(final int v)
+    '''returns None\n\n
+    writeInt(final int v)\n
     '''
 def writeLong():
-    '''public void writeLong(final long v)
+    '''returns None\n\n
+    writeLong(final long v)\n
     '''
 def writeFloat():
-    '''public void writeFloat(final float v)
+    '''returns None\n\n
+    writeFloat(final float v)\n
     '''
 def writeDouble():
-    '''public void writeDouble(final double v)
+    '''returns None\n\n
+    writeDouble(final double v)\n
     '''
 def writeUTF():
-    '''public void writeUTF(final String str)
+    '''returns None\n\n
+    writeUTF(final String str)\n
     '''
 def writeTo():
-    '''public void writeTo(final ClassOutputStream out)
+    '''returns None\n\n
+    writeTo(final ClassOutputStream out)\n
     '''
 def visitClass():
-    '''public Integer visitClass(final ConstantPool.CONSTANT_Class_info constant_Class_info, final ClassOutputStream classOutputStream)
-    public Void visitClass(final Annotation.Class_element_value class_element_value, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitClass(final ConstantPool.CONSTANT_Class_info constant_Class_info, final ClassOutputStream classOutputStream)\n
+    visitClass(final Annotation.Class_element_value class_element_value, final ClassOutputStream classOutputStream)\n
     '''
 def visitDouble():
-    '''public Integer visitDouble(final ConstantPool.CONSTANT_Double_info constant_Double_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitDouble(final ConstantPool.CONSTANT_Double_info constant_Double_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitFieldref():
-    '''public Integer visitFieldref(final ConstantPool.CONSTANT_Fieldref_info constant_Fieldref_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitFieldref(final ConstantPool.CONSTANT_Fieldref_info constant_Fieldref_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitFloat():
-    '''public Integer visitFloat(final ConstantPool.CONSTANT_Float_info constant_Float_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitFloat(final ConstantPool.CONSTANT_Float_info constant_Float_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitInteger():
-    '''public Integer visitInteger(final ConstantPool.CONSTANT_Integer_info constant_Integer_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitInteger(final ConstantPool.CONSTANT_Integer_info constant_Integer_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitInterfaceMethodref():
-    '''public Integer visitInterfaceMethodref(final ConstantPool.CONSTANT_InterfaceMethodref_info constant_InterfaceMethodref_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitInterfaceMethodref(final ConstantPool.CONSTANT_InterfaceMethodref_info constant_InterfaceMethodref_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitInvokeDynamic():
-    '''public Integer visitInvokeDynamic(final ConstantPool.CONSTANT_InvokeDynamic_info constant_InvokeDynamic_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitInvokeDynamic(final ConstantPool.CONSTANT_InvokeDynamic_info constant_InvokeDynamic_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitLong():
-    '''public Integer visitLong(final ConstantPool.CONSTANT_Long_info constant_Long_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitLong(final ConstantPool.CONSTANT_Long_info constant_Long_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitNameAndType():
-    '''public Integer visitNameAndType(final ConstantPool.CONSTANT_NameAndType_info constant_NameAndType_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitNameAndType(final ConstantPool.CONSTANT_NameAndType_info constant_NameAndType_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitMethodHandle():
-    '''public Integer visitMethodHandle(final ConstantPool.CONSTANT_MethodHandle_info constant_MethodHandle_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitMethodHandle(final ConstantPool.CONSTANT_MethodHandle_info constant_MethodHandle_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitMethodType():
-    '''public Integer visitMethodType(final ConstantPool.CONSTANT_MethodType_info constant_MethodType_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitMethodType(final ConstantPool.CONSTANT_MethodType_info constant_MethodType_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitMethodref():
-    '''public Integer visitMethodref(final ConstantPool.CONSTANT_Methodref_info constant_Methodref_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitMethodref(final ConstantPool.CONSTANT_Methodref_info constant_Methodref_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitString():
-    '''public Integer visitString(final ConstantPool.CONSTANT_String_info constant_String_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitString(final ConstantPool.CONSTANT_String_info constant_String_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitUtf8():
-    '''public Integer visitUtf8(final ConstantPool.CONSTANT_Utf8_info constant_Utf8_info, final ClassOutputStream classOutputStream)
+    '''returns Integer\n\n
+    visitUtf8(final ConstantPool.CONSTANT_Utf8_info constant_Utf8_info, final ClassOutputStream classOutputStream)\n
     '''
 def visitDefault():
-    '''public Void visitDefault(final DefaultAttribute defaultAttribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitDefault(final DefaultAttribute defaultAttribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitAnnotationDefault():
-    '''public Void visitAnnotationDefault(final AnnotationDefault_attribute annotationDefault_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitAnnotationDefault(final AnnotationDefault_attribute annotationDefault_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitBootstrapMethods():
-    '''public Void visitBootstrapMethods(final BootstrapMethods_attribute bootstrapMethods_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitBootstrapMethods(final BootstrapMethods_attribute bootstrapMethods_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitCharacterRangeTable():
-    '''public Void visitCharacterRangeTable(final CharacterRangeTable_attribute characterRangeTable_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitCharacterRangeTable(final CharacterRangeTable_attribute characterRangeTable_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitCode():
-    '''public Void visitCode(final Code_attribute code_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitCode(final Code_attribute code_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitCompilationID():
-    '''public Void visitCompilationID(final CompilationID_attribute compilationID_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitCompilationID(final CompilationID_attribute compilationID_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitConstantValue():
-    '''public Void visitConstantValue(final ConstantValue_attribute constantValue_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitConstantValue(final ConstantValue_attribute constantValue_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitDeprecated():
-    '''public Void visitDeprecated(final Deprecated_attribute deprecated_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitDeprecated(final Deprecated_attribute deprecated_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitEnclosingMethod():
-    '''public Void visitEnclosingMethod(final EnclosingMethod_attribute enclosingMethod_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitEnclosingMethod(final EnclosingMethod_attribute enclosingMethod_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitExceptions():
-    '''public Void visitExceptions(final Exceptions_attribute exceptions_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitExceptions(final Exceptions_attribute exceptions_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitInnerClasses():
-    '''public Void visitInnerClasses(final InnerClasses_attribute innerClasses_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitInnerClasses(final InnerClasses_attribute innerClasses_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitLineNumberTable():
-    '''public Void visitLineNumberTable(final LineNumberTable_attribute lineNumberTable_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitLineNumberTable(final LineNumberTable_attribute lineNumberTable_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitLocalVariableTable():
-    '''public Void visitLocalVariableTable(final LocalVariableTable_attribute localVariableTable_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitLocalVariableTable(final LocalVariableTable_attribute localVariableTable_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitLocalVariableTypeTable():
-    '''public Void visitLocalVariableTypeTable(final LocalVariableTypeTable_attribute localVariableTypeTable_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitLocalVariableTypeTable(final LocalVariableTypeTable_attribute localVariableTypeTable_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitMethodParameters():
-    '''public Void visitMethodParameters(final MethodParameters_attribute methodParameters_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitMethodParameters(final MethodParameters_attribute methodParameters_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitRuntimeVisibleAnnotations():
-    '''public Void visitRuntimeVisibleAnnotations(final RuntimeVisibleAnnotations_attribute runtimeVisibleAnnotations_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitRuntimeVisibleAnnotations(final RuntimeVisibleAnnotations_attribute runtimeVisibleAnnotations_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitRuntimeInvisibleAnnotations():
-    '''public Void visitRuntimeInvisibleAnnotations(final RuntimeInvisibleAnnotations_attribute runtimeInvisibleAnnotations_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitRuntimeInvisibleAnnotations(final RuntimeInvisibleAnnotations_attribute runtimeInvisibleAnnotations_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitRuntimeVisibleTypeAnnotations():
-    '''public Void visitRuntimeVisibleTypeAnnotations(final RuntimeVisibleTypeAnnotations_attribute runtimeVisibleTypeAnnotations_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitRuntimeVisibleTypeAnnotations(final RuntimeVisibleTypeAnnotations_attribute runtimeVisibleTypeAnnotations_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitRuntimeInvisibleTypeAnnotations():
-    '''public Void visitRuntimeInvisibleTypeAnnotations(final RuntimeInvisibleTypeAnnotations_attribute runtimeInvisibleTypeAnnotations_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitRuntimeInvisibleTypeAnnotations(final RuntimeInvisibleTypeAnnotations_attribute runtimeInvisibleTypeAnnotations_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitRuntimeVisibleParameterAnnotations():
-    '''public Void visitRuntimeVisibleParameterAnnotations(final RuntimeVisibleParameterAnnotations_attribute runtimeVisibleParameterAnnotations_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitRuntimeVisibleParameterAnnotations(final RuntimeVisibleParameterAnnotations_attribute runtimeVisibleParameterAnnotations_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitRuntimeInvisibleParameterAnnotations():
-    '''public Void visitRuntimeInvisibleParameterAnnotations(final RuntimeInvisibleParameterAnnotations_attribute runtimeInvisibleParameterAnnotations_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitRuntimeInvisibleParameterAnnotations(final RuntimeInvisibleParameterAnnotations_attribute runtimeInvisibleParameterAnnotations_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitSignature():
-    '''public Void visitSignature(final Signature_attribute signature_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitSignature(final Signature_attribute signature_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitSourceDebugExtension():
-    '''public Void visitSourceDebugExtension(final SourceDebugExtension_attribute sourceDebugExtension_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitSourceDebugExtension(final SourceDebugExtension_attribute sourceDebugExtension_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitSourceFile():
-    '''public Void visitSourceFile(final SourceFile_attribute sourceFile_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitSourceFile(final SourceFile_attribute sourceFile_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitSourceID():
-    '''public Void visitSourceID(final SourceID_attribute sourceID_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitSourceID(final SourceID_attribute sourceID_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitStackMap():
-    '''public Void visitStackMap(final StackMap_attribute stackMap_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitStackMap(final StackMap_attribute stackMap_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitStackMapTable():
-    '''public Void visitStackMapTable(final StackMapTable_attribute stackMapTable_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitStackMapTable(final StackMapTable_attribute stackMapTable_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visitSynthetic():
-    '''public Void visitSynthetic(final Synthetic_attribute synthetic_attribute, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitSynthetic(final Synthetic_attribute synthetic_attribute, final ClassOutputStream classOutputStream)\n
     '''
 def visit_same_frame():
-    '''public Void visit_same_frame(final StackMapTable_attribute.same_frame same_frame, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visit_same_frame(final StackMapTable_attribute.same_frame same_frame, final ClassOutputStream classOutputStream)\n
     '''
 def visit_same_locals_1_stack_item_frame():
-    '''public Void visit_same_locals_1_stack_item_frame(final StackMapTable_attribute.same_locals_1_stack_item_frame same_locals_1_stack_item_frame, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visit_same_locals_1_stack_item_frame(final StackMapTable_attribute.same_locals_1_stack_item_frame same_locals_1_stack_item_frame, final ClassOutputStream classOutputStream)\n
     '''
 def visit_same_locals_1_stack_item_frame_extended():
-    '''public Void visit_same_locals_1_stack_item_frame_extended(final StackMapTable_attribute.same_locals_1_stack_item_frame_extended same_locals_1_stack_item_frame_extended, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visit_same_locals_1_stack_item_frame_extended(final StackMapTable_attribute.same_locals_1_stack_item_frame_extended same_locals_1_stack_item_frame_extended, final ClassOutputStream classOutputStream)\n
     '''
 def visit_chop_frame():
-    '''public Void visit_chop_frame(final StackMapTable_attribute.chop_frame chop_frame, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visit_chop_frame(final StackMapTable_attribute.chop_frame chop_frame, final ClassOutputStream classOutputStream)\n
     '''
 def visit_same_frame_extended():
-    '''public Void visit_same_frame_extended(final StackMapTable_attribute.same_frame_extended same_frame_extended, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visit_same_frame_extended(final StackMapTable_attribute.same_frame_extended same_frame_extended, final ClassOutputStream classOutputStream)\n
     '''
 def visit_append_frame():
-    '''public Void visit_append_frame(final StackMapTable_attribute.append_frame append_frame, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visit_append_frame(final StackMapTable_attribute.append_frame append_frame, final ClassOutputStream classOutputStream)\n
     '''
 def visit_full_frame():
-    '''public Void visit_full_frame(final StackMapTable_attribute.full_frame full_frame, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visit_full_frame(final StackMapTable_attribute.full_frame full_frame, final ClassOutputStream classOutputStream)\n
     '''
 def visitPrimitive():
-    '''public Void visitPrimitive(final Annotation.Primitive_element_value primitive_element_value, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitPrimitive(final Annotation.Primitive_element_value primitive_element_value, final ClassOutputStream classOutputStream)\n
     '''
 def visitEnum():
-    '''public Void visitEnum(final Annotation.Enum_element_value enum_element_value, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitEnum(final Annotation.Enum_element_value enum_element_value, final ClassOutputStream classOutputStream)\n
     '''
 def visitAnnotation():
-    '''public Void visitAnnotation(final Annotation.Annotation_element_value annotation_element_value, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitAnnotation(final Annotation.Annotation_element_value annotation_element_value, final ClassOutputStream classOutputStream)\n
     '''
 def visitArray():
-    '''public Void visitArray(final Annotation.Array_element_value array_element_value, final ClassOutputStream classOutputStream)
+    '''returns Void\n\n
+    visitArray(final Annotation.Array_element_value array_element_value, final ClassOutputStream classOutputStream)\n
     '''

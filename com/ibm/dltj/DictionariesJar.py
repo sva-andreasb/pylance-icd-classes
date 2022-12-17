@@ -5,44 +5,57 @@ CACHE_HARD = "int  3"
 LANGUAGEWARE_PREFIX = "String  \"LanguageWare-\""
 LANGUAGEWARE_DICTIONARY_PREFIX = "String  \"LanguageWare-Dictionary-\""
 STANDARD = "String  \"Std\""
-def DictionariesJar():
-    '''public DictionariesJar(final File file)
-    public DictionariesJar(final File file, final boolean b, final int n)
-    public DictionariesJar(final File file, final boolean verify, final int dictionaryCacheType, final int loadFlags)
+def ():
+    '''returns DictionariesJar\n\n
+    (final File file)\n
+    (final File file, final boolean b, final int n)\n
+    (final File file, final boolean verify, final int dictionaryCacheType, final int loadFlags)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def clearCache():
-    '''public void clearCache()
+    '''returns None\n\n
+    clearCache()\n
     '''
 def getGenericTypes():
-    '''public String[] getGenericTypes()
+    '''returns String[]\n\n
+    getGenericTypes()\n
     '''
 def getGenericTypeEntryNames():
-    '''public String[] getGenericTypeEntryNames(final String s)
+    '''returns String[]\n\n
+    getGenericTypeEntryNames(final String s)\n
     '''
 def getGenericTypeEntryInputStreams():
-    '''public InputStream[] getGenericTypeEntryInputStreams(final String s, final String s2)
+    '''returns InputStream[]\n\n
+    getGenericTypeEntryInputStreams(final String s, final String s2)\n
     '''
 def getProperties():
-    '''public Properties getProperties(final String s)
+    '''returns Properties\n\n
+    getProperties(final String s)\n
     '''
 def getPropertiesTypes():
-    '''public String[] getPropertiesTypes()
+    '''returns String[]\n\n
+    getPropertiesTypes()\n
     '''
 def getDictionaryTypes():
-    '''public String[] getDictionaryTypes()
+    '''returns String[]\n\n
+    getDictionaryTypes()\n
     '''
 def getDictionaryNames():
-    '''public String[] getDictionaryNames(final String s)
+    '''returns String[]\n\n
+    getDictionaryNames(final String s)\n
     '''
 def getDictionaries():
-    '''public Dictionary[] getDictionaries(final String s)
+    '''returns Dictionary[]\n\n
+    getDictionaries(final String s)\n
     '''
 def getDictionary():
-    '''public Dictionary getDictionary(final String name)
+    '''returns Dictionary\n\n
+    getDictionary(final String name)\n
     '''
 def compare():
-    '''public int compare(final Object o, final Object o2)
+    '''returns int\n\n
+    compare(final Object o, final Object o2)\n
     '''

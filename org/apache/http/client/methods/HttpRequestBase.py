@@ -1,30 +1,40 @@
 def setProtocolVersion():
-    '''public void setProtocolVersion(final ProtocolVersion version)
+    '''returns None\n\n
+    setProtocolVersion(final ProtocolVersion version)\n
     '''
 def getProtocolVersion():
-    '''public ProtocolVersion getProtocolVersion()
+    '''returns ProtocolVersion\n\n
+    getProtocolVersion()\n
     '''
 def getURI():
-    '''public URI getURI()
+    '''returns URI\n\n
+    getURI()\n
     '''
 def getRequestLine():
-    '''public RequestLine getRequestLine()
+    '''returns RequestLine\n\n
+    getRequestLine()\n
     '''
 def getConfig():
-    '''public RequestConfig getConfig()
+    '''returns RequestConfig\n\n
+    getConfig()\n
     '''
 def setConfig():
-    '''public void setConfig(final RequestConfig config)
+    '''returns None\n\n
+    setConfig(final RequestConfig config)\n
     '''
 def setURI():
-    '''public void setURI(final URI uri)
+    '''returns None\n\n
+    setURI(final URI uri)\n
     '''
 def started():
-    '''public void started()
+    '''returns None\n\n
+    started()\n
     '''
 def releaseConnection():
-    '''public void releaseConnection()
+    '''returns None\n\n
+    releaseConnection()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

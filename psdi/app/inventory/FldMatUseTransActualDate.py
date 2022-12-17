@@ -1,3 +1,4 @@
-def FldMatUseTransActualDate():
-    '''public FldMatUseTransActualDate(final MboValue mbv)
+def ():
+    '''returns FldMatUseTransActualDate\n\n
+    (final MboValue mbv)\n
     '''

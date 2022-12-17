@@ -1,6 +1,8 @@
-def IoTRestEndPointsSet():
-    '''public IoTRestEndPointsSet(final MboServerInterface ms)
+def ():
+    '''returns IoTRestEndPointsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

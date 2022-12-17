@@ -1,26 +1,26 @@
-def LZ4FrameInputStream():
-    '''public LZ4FrameInputStream(final InputStream in)
-    public LZ4FrameInputStream(final InputStream in, final LZ4SafeDecompressor decompressor, final XXHash32 checksum)
+def ():
+    '''returns LZ4FrameInputStream\n\n
+    (final InputStream in)\n
+    (final InputStream in, final LZ4SafeDecompressor decompressor, final XXHash32 checksum)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, int len)\n
     '''
 def skip():
-    '''public long skip(long n)
+    '''returns long\n\n
+    skip(long n)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

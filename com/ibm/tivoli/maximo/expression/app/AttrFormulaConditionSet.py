@@ -1,3 +1,4 @@
-def AttrFormulaConditionSet():
-    '''public AttrFormulaConditionSet(final MboServerInterface ms)
+def ():
+    '''returns AttrFormulaConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''

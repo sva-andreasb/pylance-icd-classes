@@ -1,151 +1,196 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getBillingItem():
-    '''public Item getBillingItem()
+    '''returns Item\n\n
+    getBillingItem()\n
     '''
 def setBillingItem():
-    '''public void setBillingItem(final Item billingItem)
+    '''returns None\n\n
+    setBillingItem(final Item billingItem)\n
     '''
 def getDatacenter():
-    '''public Location getDatacenter()
+    '''returns Location\n\n
+    getDatacenter()\n
     '''
 def setDatacenter():
-    '''public void setDatacenter(final Location datacenter)
+    '''returns None\n\n
+    setDatacenter(final Location datacenter)\n
     '''
 def getDiskImages():
-    '''public List<Image> getDiskImages()
+    '''returns List<Image>\n\n
+    getDiskImages()\n
     '''
 def getGuests():
-    '''public List<Guest> getGuests()
+    '''returns List<Guest>\n\n
+    getGuests()\n
     '''
 def setMetricTrackingObject():
-    '''public void setMetricTrackingObject(final com.softlayer.api.service.metric.tracking.object.virtual.storage.Repository metricTrackingObject)
+    '''returns None\n\n
+    setMetricTrackingObject(final com.softlayer.api.service.metric.tracking.object.virtual.storage.Repository metricTrackingObject)\n
     '''
 def getPublicImageBillingItem():
-    '''public Item getPublicImageBillingItem()
+    '''returns Item\n\n
+    getPublicImageBillingItem()\n
     '''
 def setPublicImageBillingItem():
-    '''public void setPublicImageBillingItem(final Item publicImageBillingItem)
+    '''returns None\n\n
+    setPublicImageBillingItem(final Item publicImageBillingItem)\n
     '''
 def setType():
-    '''public void setType(final com.softlayer.api.service.virtual.storage.repository.Type type)
+    '''returns None\n\n
+    setType(final com.softlayer.api.service.virtual.storage.repository.Type type)\n
     '''
 def getCapacity():
-    '''public BigDecimal getCapacity()
+    '''returns BigDecimal\n\n
+    getCapacity()\n
     '''
 def setCapacity():
-    '''public void setCapacity(final BigDecimal capacity)
+    '''returns None\n\n
+    setCapacity(final BigDecimal capacity)\n
     '''
 def isCapacitySpecified():
-    '''public boolean isCapacitySpecified()
+    '''returns boolean\n\n
+    isCapacitySpecified()\n
     '''
 def unsetCapacity():
-    '''public void unsetCapacity()
+    '''returns None\n\n
+    unsetCapacity()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isNameSpecified():
-    '''public boolean isNameSpecified()
+    '''returns boolean\n\n
+    isNameSpecified()\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getPublicFlag():
-    '''public Long getPublicFlag()
+    '''returns Long\n\n
+    getPublicFlag()\n
     '''
 def setPublicFlag():
-    '''public void setPublicFlag(final Long publicFlag)
+    '''returns None\n\n
+    setPublicFlag(final Long publicFlag)\n
     '''
 def isPublicFlagSpecified():
-    '''public boolean isPublicFlagSpecified()
+    '''returns boolean\n\n
+    isPublicFlagSpecified()\n
     '''
 def unsetPublicFlag():
-    '''public void unsetPublicFlag()
+    '''returns None\n\n
+    unsetPublicFlag()\n
     '''
 def getTypeId():
-    '''public Long getTypeId()
+    '''returns Long\n\n
+    getTypeId()\n
     '''
 def setTypeId():
-    '''public void setTypeId(final Long typeId)
+    '''returns None\n\n
+    setTypeId(final Long typeId)\n
     '''
 def isTypeIdSpecified():
-    '''public boolean isTypeIdSpecified()
+    '''returns boolean\n\n
+    isTypeIdSpecified()\n
     '''
 def unsetTypeId():
-    '''public void unsetTypeId()
+    '''returns None\n\n
+    unsetTypeId()\n
     '''
 def getDiskImageCount():
-    '''public Long getDiskImageCount()
+    '''returns Long\n\n
+    getDiskImageCount()\n
     '''
 def setDiskImageCount():
-    '''public void setDiskImageCount(final Long diskImageCount)
+    '''returns None\n\n
+    setDiskImageCount(final Long diskImageCount)\n
     '''
 def getGuestCount():
-    '''public Long getGuestCount()
+    '''returns Long\n\n
+    getGuestCount()\n
     '''
 def setGuestCount():
-    '''public void setGuestCount(final Long guestCount)
+    '''returns None\n\n
+    setGuestCount(final Long guestCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def capacity():
-    '''public Mask capacity()
+    '''returns Mask\n\n
+    capacity()\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def name():
-    '''public Mask name()
+    '''returns Mask\n\n
+    name()\n
     '''
 def publicFlag():
-    '''public Mask publicFlag()
+    '''returns Mask\n\n
+    publicFlag()\n
     '''
 def typeId():
-    '''public Mask typeId()
+    '''returns Mask\n\n
+    typeId()\n
     '''
 def diskImageCount():
-    '''public Mask diskImageCount()
+    '''returns Mask\n\n
+    diskImageCount()\n
     '''
 def guestCount():
-    '''public Mask guestCount()
+    '''returns Mask\n\n
+    guestCount()\n
     '''

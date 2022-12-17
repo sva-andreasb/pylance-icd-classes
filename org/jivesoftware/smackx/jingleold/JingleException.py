@@ -1,8 +1,10 @@
-def JingleException():
-    '''public JingleException()
-    public JingleException(final String msg)
-    public JingleException(final JingleError error)
+def ():
+    '''returns JingleException\n\n
+    ()\n
+    (final String msg)\n
+    (final JingleError error)\n
     '''
 def getError():
-    '''public JingleError getError()
+    '''returns JingleError\n\n
+    getError()\n
     '''

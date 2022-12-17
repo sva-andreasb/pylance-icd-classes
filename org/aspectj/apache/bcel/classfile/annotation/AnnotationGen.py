@@ -1,40 +1,49 @@
-def AnnotationGen():
-    '''public AnnotationGen(final AnnotationGen a, final ConstantPool cpool, final boolean copyPoolEntries)
-    public AnnotationGen(final ObjectType type, final List<NameValuePair> pairs, final boolean runtimeVisible, final ConstantPool cpool)
-    '''
-def read():
-    '''public static AnnotationGen read(final DataInputStream dis, final ConstantPool cpool, final boolean b)
+def ():
+    '''returns AnnotationGen\n\n
+    (final AnnotationGen a, final ConstantPool cpool, final boolean copyPoolEntries)\n
+    (final ObjectType type, final List<NameValuePair> pairs, final boolean runtimeVisible, final ConstantPool cpool)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream dos)
+    '''returns None\n\n
+    dump(final DataOutputStream dos)\n
     '''
 def addElementNameValuePair():
-    '''public void addElementNameValuePair(final NameValuePair evp)
+    '''returns None\n\n
+    addElementNameValuePair(final NameValuePair evp)\n
     '''
 def getTypeIndex():
-    '''public int getTypeIndex()
+    '''returns int\n\n
+    getTypeIndex()\n
     '''
 def getTypeSignature():
-    '''public String getTypeSignature()
+    '''returns String\n\n
+    getTypeSignature()\n
     '''
 def getTypeName():
-    '''public String getTypeName()
+    '''returns String\n\n
+    getTypeName()\n
     '''
 def getValues():
-    '''public List<NameValuePair> getValues()
+    '''returns List<NameValuePair>\n\n
+    getValues()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toShortString():
-    '''public String toShortString()
+    '''returns String\n\n
+    toShortString()\n
     '''
 def isRuntimeVisible():
-    '''public boolean isRuntimeVisible()
+    '''returns boolean\n\n
+    isRuntimeVisible()\n
     '''
 def hasNameValuePair():
-    '''public boolean hasNameValuePair(final String name, final String value)
+    '''returns boolean\n\n
+    hasNameValuePair(final String name, final String value)\n
     '''
 def hasNamedValue():
-    '''public boolean hasNamedValue(final String name)
+    '''returns boolean\n\n
+    hasNamedValue(final String name)\n
     '''

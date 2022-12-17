@@ -1,12 +1,16 @@
-def AMCrewToolSqSet():
-    '''public AMCrewToolSqSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewToolSqSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findByQualId():
-    '''public MboRemote findByQualId(final String qualId)
+    '''returns MboRemote\n\n
+    findByQualId(final String qualId)\n
     '''
 def findByKeyValue():
-    '''public MboRemote findByKeyValue(final String keyName, final String keyValue)
+    '''returns MboRemote\n\n
+    findByKeyValue(final String keyName, final String keyValue)\n
     '''
 def updateRequirementStatus():
-    '''public void updateRequirementStatus()
+    '''returns None\n\n
+    updateRequirementStatus()\n
     '''

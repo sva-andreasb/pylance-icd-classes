@@ -1,0 +1,7 @@
+QUORUM_UNKNOWN = "int  -1"
+QUORUM_DISABLED = "int  0"
+QUORUM_WAITING = "int  1"
+QUORUM_ACHIEVED = "int  2"
+QUORUM_FORCED = "int  3"
+GROUP_STATE_OK = "int  0"
+GROUP_STATE_ERROR = "int  1"

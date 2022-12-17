@@ -1,19 +1,21 @@
 EVENT_ON_GANTT_CONFIG_CHANGES_CHANGED = "String  \"OnGanttConfigChangesChanged\""
-def GanttConfigManager():
-    '''public GanttConfigManager()
-    '''
-def getGanttConfigManager():
-    '''public static GanttConfigManager getGanttConfigManager()
+def ():
+    '''returns GanttConfigManager\n\n
+    ()\n
     '''
 def getGanttConfigChanges():
-    '''public GanttConfigChanges getGanttConfigChanges()
+    '''returns GanttConfigChanges\n\n
+    getGanttConfigChanges()\n
     '''
 def setGanttConfigChanges():
-    '''public void setGanttConfigChanges(final GanttConfigChanges ganttConfigChanges)
+    '''returns None\n\n
+    setGanttConfigChanges(final GanttConfigChanges ganttConfigChanges)\n
     '''
 def setSKDViewerConfigQThread():
-    '''public void setSKDViewerConfigQThread(final SKDViewerConfigQThread viewerConfigQThread)
+    '''returns None\n\n
+    setSKDViewerConfigQThread(final SKDViewerConfigQThread viewerConfigQThread)\n
     '''
 def applyChanges():
-    '''public void applyChanges()
+    '''returns None\n\n
+    applyChanges()\n
     '''

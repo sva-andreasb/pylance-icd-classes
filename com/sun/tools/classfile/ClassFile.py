@@ -1,32 +1,32 @@
-def read():
-    '''public static ClassFile read(final File file)
-    public static ClassFile read(final Path path)
-    public static ClassFile read(final Path path, final Attribute.Factory factory)
-    public static ClassFile read(final File file, final Attribute.Factory factory)
-    public static ClassFile read(final InputStream inputStream)
-    public static ClassFile read(final InputStream inputStream, final Attribute.Factory factory)
-    '''
-def ClassFile():
-    '''public ClassFile(final int magic, final int minor_version, final int major_version, final ConstantPool constant_pool, final AccessFlags access_flags, final int this_class, final int super_class, final int[] interfaces, final Field[] fields, final Method[] methods, final Attributes attributes)
+def ():
+    '''returns ClassFile\n\n
+    (final int magic, final int minor_version, final int major_version, final ConstantPool constant_pool, final AccessFlags access_flags, final int this_class, final int super_class, final int[] interfaces, final Field[] fields, final Method[] methods, final Attributes attributes)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSuperclassName():
-    '''public String getSuperclassName()
+    '''returns String\n\n
+    getSuperclassName()\n
     '''
 def getInterfaceName():
-    '''public String getInterfaceName(final int n)
+    '''returns String\n\n
+    getInterfaceName(final int n)\n
     '''
 def getAttribute():
-    '''public Attribute getAttribute(final String s)
+    '''returns Attribute\n\n
+    getAttribute(final String s)\n
     '''
 def isClass():
-    '''public boolean isClass()
+    '''returns boolean\n\n
+    isClass()\n
     '''
 def isInterface():
-    '''public boolean isInterface()
+    '''returns boolean\n\n
+    isInterface()\n
     '''
 def byteLength():
-    '''public int byteLength()
+    '''returns int\n\n
+    byteLength()\n
     '''

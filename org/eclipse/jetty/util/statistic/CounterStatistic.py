@@ -1,28 +1,37 @@
-def CounterStatistic():
-    '''public CounterStatistic()
+def ():
+    '''returns CounterStatistic\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
-    public void reset(final long value)
+    '''returns None\n\n
+    reset()\n
+    reset(final long value)\n
     '''
 def add():
-    '''public void add(final long delta)
+    '''returns None\n\n
+    add(final long delta)\n
     '''
 def subtract():
-    '''public void subtract(final long delta)
+    '''returns None\n\n
+    subtract(final long delta)\n
     '''
 def increment():
-    '''public void increment()
+    '''returns None\n\n
+    increment()\n
     '''
 def decrement():
-    '''public void decrement()
+    '''returns None\n\n
+    decrement()\n
     '''
 def getMax():
-    '''public long getMax()
+    '''returns long\n\n
+    getMax()\n
     '''
 def getCurrent():
-    '''public long getCurrent()
+    '''returns long\n\n
+    getCurrent()\n
     '''
 def getTotal():
-    '''public long getTotal()
+    '''returns long\n\n
+    getTotal()\n
     '''

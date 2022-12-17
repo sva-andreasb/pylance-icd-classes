@@ -1,126 +1,168 @@
-def PortletDataInstance():
-    '''public PortletDataInstance()
+def ():
+    '''returns PortletDataInstance\n\n
+    ()\n
     '''
 def getPortletCacheId():
-    '''public String getPortletCacheId()
+    '''returns String\n\n
+    getPortletCacheId()\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getAppId():
-    '''public String getAppId()
+    '''returns String\n\n
+    getAppId()\n
     '''
 def createRenderData():
-    '''public void createRenderData()
+    '''returns None\n\n
+    createRenderData()\n
     '''
 def hasData():
-    '''public boolean hasData()
+    '''returns boolean\n\n
+    hasData()\n
     '''
 def setHasData():
-    '''public void setHasData(final boolean newFlag)
+    '''returns None\n\n
+    setHasData(final boolean newFlag)\n
     '''
 def isPortletVisible():
-    '''public String isPortletVisible(final String sMinOrMax)
+    '''returns String\n\n
+    isPortletVisible(final String sMinOrMax)\n
     '''
 def getKPIImage():
-    '''public String getKPIImage(final String status, final String trend)
+    '''returns String\n\n
+    getKPIImage(final String status, final String trend)\n
     '''
 def percentKPIMark():
-    '''public String percentKPIMark()
+    '''returns String\n\n
+    percentKPIMark()\n
     '''
 def formatNumber():
-    '''public String formatNumber(final Object objNumber)
+    '''returns String\n\n
+    formatNumber(final Object objNumber)\n
     '''
 def getLabels():
-    '''public String[] getLabels(final String group, final String[] keys)
+    '''returns String[]\n\n
+    getLabels(final String group, final String[] keys)\n
     '''
 def getAppBean():
-    '''public StartCenterAppBean getAppBean()
+    '''returns StartCenterAppBean\n\n
+    getAppBean()\n
     '''
 def deleteportlet():
-    '''public int deleteportlet()
+    '''returns int\n\n
+    deleteportlet()\n
     '''
 def editportlet():
-    '''public void editportlet()
+    '''returns None\n\n
+    editportlet()\n
     '''
 def getStartCenterPane():
-    '''public StartCenterPane getStartCenterPane()
+    '''returns StartCenterPane\n\n
+    getStartCenterPane()\n
     '''
 def toggleportlet():
-    '''public void toggleportlet()
+    '''returns None\n\n
+    toggleportlet()\n
     '''
 def togglefilter():
-    '''public void togglefilter()
+    '''returns None\n\n
+    togglefilter()\n
     '''
 def filter():
-    '''public void filter()
+    '''returns None\n\n
+    filter()\n
     '''
 def refreshdata():
-    '''public void refreshdata()
+    '''returns None\n\n
+    refreshdata()\n
     '''
 def sort():
-    '''public int sort()
+    '''returns int\n\n
+    sort()\n
     '''
 def getSortAttribute():
-    '''public String getSortAttribute(final String colIndex)
+    '''returns String\n\n
+    getSortAttribute(final String colIndex)\n
     '''
 def scroll():
-    '''public void scroll()
+    '''returns None\n\n
+    scroll()\n
     '''
 def isMaximised():
-    '''public String isMaximised()
+    '''returns String\n\n
+    isMaximised()\n
     '''
 def isFilterOpen():
-    '''public String isFilterOpen()
+    '''returns String\n\n
+    isFilterOpen()\n
     '''
 def isFilterToggled():
-    '''public boolean isFilterToggled()
+    '''returns boolean\n\n
+    isFilterToggled()\n
     '''
 def setFilterToggled():
-    '''public void setFilterToggled(final boolean flag)
+    '''returns None\n\n
+    setFilterToggled(final boolean flag)\n
     '''
 def isFiltered():
-    '''public boolean isFiltered()
+    '''returns boolean\n\n
+    isFiltered()\n
     '''
 def setFiltered():
-    '''public void setFiltered(final boolean newFlag)
+    '''returns None\n\n
+    setFiltered(final boolean newFlag)\n
     '''
 def isPortletStateChanged():
-    '''public boolean isPortletStateChanged()
+    '''returns boolean\n\n
+    isPortletStateChanged()\n
     '''
 def setPortletStateChanged():
-    '''public void setPortletStateChanged(final boolean newPortletState)
+    '''returns None\n\n
+    setPortletStateChanged(final boolean newPortletState)\n
     '''
 def openrecord():
-    '''public int openrecord(final String gotoApp, final String uniqueId)
+    '''returns int\n\n
+    openrecord(final String gotoApp, final String uniqueId)\n
     '''
 def setHasLinkedReportsOrKPIs():
-    '''public void setHasLinkedReportsOrKPIs(final Vector kpis)
+    '''returns None\n\n
+    setHasLinkedReportsOrKPIs(final Vector kpis)\n
     '''
 def isLinkedToReport():
-    '''public boolean isLinkedToReport()
+    '''returns boolean\n\n
+    isLinkedToReport()\n
     '''
 def isLinkedToKPI():
-    '''public boolean isLinkedToKPI()
+    '''returns boolean\n\n
+    isLinkedToKPI()\n
     '''
 def openreport():
-    '''public int openreport()
+    '''returns int\n\n
+    openreport()\n
     '''
 def isPortletUpdated():
-    '''public boolean isPortletUpdated()
+    '''returns boolean\n\n
+    isPortletUpdated()\n
     '''
 def setPortletUpdated():
-    '''public void setPortletUpdated(final boolean portletUpdated)
+    '''returns None\n\n
+    setPortletUpdated(final boolean portletUpdated)\n
     '''
 def checkOrStoreCachedProperty():
-    '''public String checkOrStoreCachedProperty(String cacheId, final String prop)
+    '''returns String\n\n
+    checkOrStoreCachedProperty(String cacheId, final String prop)\n
     '''
 def getStateManager():
-    '''public PortletStateImpl getStateManager()
+    '''returns PortletStateImpl\n\n
+    getStateManager()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

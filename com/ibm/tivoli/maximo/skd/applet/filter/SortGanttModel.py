@@ -1,80 +1,98 @@
-def SortGanttModel():
-    '''public SortGanttModel(final IlvGanttModel filteredModel, final IlvFilter activityFilter, final IlvFilter resourceFilter)
+def ():
+    '''returns CustomActivityComparator\n\n
+    (final IlvGanttModel filteredModel, final IlvFilter activityFilter, final IlvFilter resourceFilter)\n
+    ()\n
+    (final String attrName)\n
     '''
 def initSKDUtil():
-    '''public void initSKDUtil()
+    '''returns None\n\n
+    initSKDUtil()\n
     '''
 def setFilteredModel():
-    '''public void setFilteredModel(final IlvGanttModel model)
+    '''returns None\n\n
+    setFilteredModel(final IlvGanttModel model)\n
     '''
 def activityPreorderIterator():
-    '''public Iterator activityPreorderIterator()
-    public Iterator activityPreorderIterator(final IlvActivity activity)
+    '''returns Iterator\n\n
+    activityPreorderIterator()\n
+    activityPreorderIterator(final IlvActivity activity)\n
     '''
 def reInitCache():
-    '''public void reInitCache()
+    '''returns None\n\n
+    reInitCache()\n
     '''
 def getActivityComparator():
-    '''public ActivityComparator getActivityComparator()
+    '''returns ActivityComparator\n\n
+    getActivityComparator()\n
     '''
 def setActivityComparator():
-    '''public void setActivityComparator(final ActivityComparator activityComparator)
+    '''returns None\n\n
+    setActivityComparator(final ActivityComparator activityComparator)\n
     '''
 def addActivity():
-    '''public void addActivity(final IlvActivity newActivity, final IlvActivity parent, final int index)
+    '''returns None\n\n
+    addActivity(final IlvActivity newActivity, final IlvActivity parent, final int index)\n
     '''
 def removeActivity():
-    '''public void removeActivity(final IlvActivity parent, final int index)
-    public void removeActivity(final IlvActivity activity)
+    '''returns None\n\n
+    removeActivity(final IlvActivity parent, final int index)\n
+    removeActivity(final IlvActivity activity)\n
     '''
 def moveActivity():
-    '''public void moveActivity(final IlvActivity activity, final IlvActivity newParent, final int newIndex)
+    '''returns None\n\n
+    moveActivity(final IlvActivity activity, final IlvActivity newParent, final int newIndex)\n
     '''
 def getParentActivityIndex():
-    '''public int getParentActivityIndex(final IlvActivity activity)
+    '''returns int\n\n
+    getParentActivityIndex(final IlvActivity activity)\n
     '''
 def getParentActivity():
-    '''public IlvActivity getParentActivity(final IlvActivity activity)
+    '''returns IlvActivity\n\n
+    getParentActivity(final IlvActivity activity)\n
     '''
 def contains():
-    '''public boolean contains(final IlvHierarchyNode arg0)
+    '''returns boolean\n\n
+    contains(final IlvHierarchyNode arg0)\n
     '''
 def getChildActivity():
-    '''public IlvActivity getChildActivity(final IlvActivity parent, final int index)
+    '''returns IlvActivity\n\n
+    getChildActivity(final IlvActivity parent, final int index)\n
     '''
 def getChildActivityIndex():
-    '''public int getChildActivityIndex(final IlvActivity parent, final IlvActivity child)
+    '''returns int\n\n
+    getChildActivityIndex(final IlvActivity parent, final IlvActivity child)\n
     '''
 def reservationIterator():
-    '''public Iterator<IlvReservation> reservationIterator(final IlvActivity arg0)
-    '''
-def ActivityNameComparator():
-    '''public ActivityNameComparator()
+    '''returns Iterator<IlvReservation>\n\n
+    reservationIterator(final IlvActivity arg0)\n
     '''
 def compare():
-    '''public int compare(final IlvActivity a1, final IlvActivity a2)
-    public int compare(final IlvActivity a1, final IlvActivity a2)
-    public int compare(final IlvActivity a1, final IlvActivity a2)
-    public int compare(final IlvActivity a1, final IlvActivity a2)
+    '''returns int\n\n
+    compare(final IlvActivity a1, final IlvActivity a2)\n
+    compare(final IlvActivity a1, final IlvActivity a2)\n
+    compare(final IlvActivity a1, final IlvActivity a2)\n
+    compare(final IlvActivity a1, final IlvActivity a2)\n
     '''
 def changesSortOrder():
-    '''public boolean changesSortOrder(final ActivityPropertyEvent event)
-    public boolean changesSortOrder(final ActivityPropertyEvent event)
-    public boolean changesSortOrder(final ActivityPropertyEvent event)
-    public boolean changesSortOrder(final ActivityPropertyEvent event)
-    '''
-def CustomActivityComparator():
-    '''public CustomActivityComparator(final String attrName)
+    '''returns boolean\n\n
+    changesSortOrder(final ActivityPropertyEvent event)\n
+    changesSortOrder(final ActivityPropertyEvent event)\n
+    changesSortOrder(final ActivityPropertyEvent event)\n
+    changesSortOrder(final ActivityPropertyEvent event)\n
     '''
 def activityChanged():
-    '''public void activityChanged(final ActivityEvent event)
+    '''returns None\n\n
+    activityChanged(final ActivityEvent event)\n
     '''
 def activitiesInserted():
-    '''public void activitiesInserted(final ActivitiesInsertedEvent event)
+    '''returns None\n\n
+    activitiesInserted(final ActivitiesInsertedEvent event)\n
     '''
 def activitiesRemoved():
-    '''public void activitiesRemoved(final ActivitiesRemovedEvent event)
+    '''returns None\n\n
+    activitiesRemoved(final ActivitiesRemovedEvent event)\n
     '''
 def activityMoved():
-    '''public void activityMoved(final ActivityMovedEvent event)
+    '''returns None\n\n
+    activityMoved(final ActivityMovedEvent event)\n
     '''

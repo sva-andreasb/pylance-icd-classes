@@ -1,92 +1,114 @@
-def ListTest():
-    '''public ListTest()
-    '''
-def getArrayListTest():
-    '''public static ListTest getArrayListTest(final boolean makeReadOnly)
+def ():
+    '''returns ListTest\n\n
+    ()\n
     '''
 def newInstance():
-    '''public List<Object> newInstance(final Collection<Object> c)
-    public List<Object> newInstance(final Collection<Object> c)
+    '''returns List<Object>\n\n
+    newInstance(final Collection<Object> c)\n
+    newInstance(final Collection<Object> c)\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
-    public boolean isReadOnly()
-    '''
-def verifyImutability():
-    '''public static void verifyImutability(final List<Object> l)
+    '''returns boolean\n\n
+    isReadOnly()\n
+    isReadOnly()\n
     '''
 def testAll():
-    '''public void testAll()
+    '''returns None\n\n
+    testAll()\n
     '''
 def test_get():
-    '''public void test_get()
+    '''returns None\n\n
+    test_get()\n
     '''
 def test_set():
-    '''public void test_set()
+    '''returns None\n\n
+    test_set()\n
     '''
 def test_add():
-    '''public void test_add()
+    '''returns None\n\n
+    test_add()\n
     '''
 def test_isEmpty():
-    '''public void test_isEmpty()
+    '''returns None\n\n
+    test_isEmpty()\n
     '''
 def test_size():
-    '''public void test_size()
+    '''returns None\n\n
+    test_size()\n
     '''
 def test_add_index():
-    '''public void test_add_index()
+    '''returns None\n\n
+    test_add_index()\n
     '''
 def test_equals():
-    '''public void test_equals()
+    '''returns None\n\n
+    test_equals()\n
     '''
 def test_addAll():
-    '''public void test_addAll()
+    '''returns None\n\n
+    test_addAll()\n
     '''
 def test_indexOf():
-    '''public void test_indexOf()
+    '''returns None\n\n
+    test_indexOf()\n
     '''
 def test_contains():
-    '''public void test_contains()
+    '''returns None\n\n
+    test_contains()\n
     '''
 def test_remove():
-    '''public void test_remove()
+    '''returns None\n\n
+    test_remove()\n
     '''
 def test_remove_index():
-    '''public void test_remove_index()
+    '''returns None\n\n
+    test_remove_index()\n
     '''
 def test_lastIndexOf():
-    '''public void test_lastIndexOf()
+    '''returns None\n\n
+    test_lastIndexOf()\n
     '''
 def test_removeAll():
-    '''public void test_removeAll()
+    '''returns None\n\n
+    test_removeAll()\n
     '''
 def test_addAll_index():
-    '''public void test_addAll_index()
+    '''returns None\n\n
+    test_addAll_index()\n
     '''
 def test_hashCode():
-    '''public void test_hashCode()
+    '''returns None\n\n
+    test_hashCode()\n
     '''
 def test_clear():
-    '''public void test_clear()
+    '''returns None\n\n
+    test_clear()\n
     '''
 def test_subList():
-    '''public void test_subList()
+    '''returns None\n\n
+    test_subList()\n
     '''
 def test_retainAll():
-    '''public void test_retainAll()
+    '''returns None\n\n
+    test_retainAll()\n
     '''
 def test_containsAll():
-    '''public void test_containsAll()
+    '''returns None\n\n
+    test_containsAll()\n
     '''
 def test_iterator():
-    '''public void test_iterator()
+    '''returns None\n\n
+    test_iterator()\n
     '''
 def test_listIterator():
-    '''public void test_listIterator()
+    '''returns None\n\n
+    test_listIterator()\n
     '''
 def test_toArray():
-    '''public void test_toArray()
+    '''returns None\n\n
+    test_toArray()\n
     '''
 def test_toArray_typed():
-    '''public void test_toArray_typed()
+    '''returns None\n\n
+    test_toArray_typed()\n
     '''

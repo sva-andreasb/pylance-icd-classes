@@ -1,9 +1,11 @@
-def P():
-    '''public P(final ILoader<mn, FromSlidesOptions> loader, final ToPdfOptions toPdfOptions)
-    public P(final M m)
+def ():
+    '''returns P\n\n
+    (final ILoader<mn, FromSlidesOptions> loader, final ToPdfOptions toPdfOptions)\n
+    (final M m)\n
     '''
 def toPdf():
-    '''public void toPdf(final OutputStream outputStream)
-    public void toPdf(final String savePath)
-    public void toPdf(final IStreamCallback<InputStream> dataCallback)
+    '''returns None\n\n
+    toPdf(final OutputStream outputStream)\n
+    toPdf(final String savePath)\n
+    toPdf(final IStreamCallback<InputStream> dataCallback)\n
     '''

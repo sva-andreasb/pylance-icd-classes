@@ -1,6 +1,8 @@
-def DigestAuthentication():
-    '''public DigestAuthentication(final Realm realm, final Map details)
+def ():
+    '''returns DigestAuthentication\n\n
+    (final Realm realm, final Map details)\n
     '''
 def setCredentials():
-    '''public void setCredentials(final HttpExchange exchange)
+    '''returns None\n\n
+    setCredentials(final HttpExchange exchange)\n
     '''

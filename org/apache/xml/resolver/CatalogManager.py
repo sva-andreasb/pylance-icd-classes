@@ -1,97 +1,125 @@
-def CatalogManager():
-    '''public CatalogManager()
-    public CatalogManager(final String propertyFile)
+def ():
+    '''returns CatalogManager\n\n
+    ()\n
+    (final String propertyFile)\n
     '''
 def setBootstrapResolver():
-    '''public void setBootstrapResolver(final BootstrapResolver resolver)
+    '''returns None\n\n
+    setBootstrapResolver(final BootstrapResolver resolver)\n
     '''
 def getBootstrapResolver():
-    '''public BootstrapResolver getBootstrapResolver()
-    '''
-def getStaticManager():
-    '''public static CatalogManager getStaticManager()
+    '''returns BootstrapResolver\n\n
+    getBootstrapResolver()\n
     '''
 def getIgnoreMissingProperties():
-    '''public boolean getIgnoreMissingProperties()
+    '''returns boolean\n\n
+    getIgnoreMissingProperties()\n
     '''
 def setIgnoreMissingProperties():
-    '''public void setIgnoreMissingProperties(final boolean ignore)
+    '''returns None\n\n
+    setIgnoreMissingProperties(final boolean ignore)\n
     '''
 def ignoreMissingProperties():
-    '''public void ignoreMissingProperties(final boolean ignore)
+    '''returns None\n\n
+    ignoreMissingProperties(final boolean ignore)\n
     '''
 def getVerbosity():
-    '''public int getVerbosity()
+    '''returns int\n\n
+    getVerbosity()\n
     '''
 def setVerbosity():
-    '''public void setVerbosity(final int verbosity)
+    '''returns None\n\n
+    setVerbosity(final int verbosity)\n
     '''
 def verbosity():
-    '''public int verbosity()
+    '''returns int\n\n
+    verbosity()\n
     '''
 def getRelativeCatalogs():
-    '''public boolean getRelativeCatalogs()
+    '''returns boolean\n\n
+    getRelativeCatalogs()\n
     '''
 def setRelativeCatalogs():
-    '''public void setRelativeCatalogs(final boolean relative)
+    '''returns None\n\n
+    setRelativeCatalogs(final boolean relative)\n
     '''
 def relativeCatalogs():
-    '''public boolean relativeCatalogs()
+    '''returns boolean\n\n
+    relativeCatalogs()\n
     '''
 def getCatalogFiles():
-    '''public Vector getCatalogFiles()
+    '''returns Vector\n\n
+    getCatalogFiles()\n
     '''
 def setCatalogFiles():
-    '''public void setCatalogFiles(final String fileList)
+    '''returns None\n\n
+    setCatalogFiles(final String fileList)\n
     '''
 def catalogFiles():
-    '''public Vector catalogFiles()
+    '''returns Vector\n\n
+    catalogFiles()\n
     '''
 def getPreferPublic():
-    '''public boolean getPreferPublic()
+    '''returns boolean\n\n
+    getPreferPublic()\n
     '''
 def setPreferPublic():
-    '''public void setPreferPublic(final boolean preferPublic)
+    '''returns None\n\n
+    setPreferPublic(final boolean preferPublic)\n
     '''
 def preferPublic():
-    '''public boolean preferPublic()
+    '''returns boolean\n\n
+    preferPublic()\n
     '''
 def getUseStaticCatalog():
-    '''public boolean getUseStaticCatalog()
+    '''returns boolean\n\n
+    getUseStaticCatalog()\n
     '''
 def setUseStaticCatalog():
-    '''public void setUseStaticCatalog(final boolean useStatic)
+    '''returns None\n\n
+    setUseStaticCatalog(final boolean useStatic)\n
     '''
 def staticCatalog():
-    '''public boolean staticCatalog()
+    '''returns boolean\n\n
+    staticCatalog()\n
     '''
 def getPrivateCatalog():
-    '''public Catalog getPrivateCatalog()
+    '''returns Catalog\n\n
+    getPrivateCatalog()\n
     '''
 def getCatalog():
-    '''public Catalog getCatalog()
+    '''returns Catalog\n\n
+    getCatalog()\n
     '''
 def queryAllowOasisXMLCatalogPI():
-    '''public boolean queryAllowOasisXMLCatalogPI()
+    '''returns boolean\n\n
+    queryAllowOasisXMLCatalogPI()\n
     '''
 def getAllowOasisXMLCatalogPI():
-    '''public boolean getAllowOasisXMLCatalogPI()
+    '''returns boolean\n\n
+    getAllowOasisXMLCatalogPI()\n
     '''
 def setAllowOasisXMLCatalogPI():
-    '''public void setAllowOasisXMLCatalogPI(final boolean allowPI)
+    '''returns None\n\n
+    setAllowOasisXMLCatalogPI(final boolean allowPI)\n
     '''
 def allowOasisXMLCatalogPI():
-    '''public boolean allowOasisXMLCatalogPI()
+    '''returns boolean\n\n
+    allowOasisXMLCatalogPI()\n
     '''
 def queryCatalogClassName():
-    '''public String queryCatalogClassName()
+    '''returns String\n\n
+    queryCatalogClassName()\n
     '''
 def getCatalogClassName():
-    '''public String getCatalogClassName()
+    '''returns String\n\n
+    getCatalogClassName()\n
     '''
 def setCatalogClassName():
-    '''public void setCatalogClassName(final String className)
+    '''returns None\n\n
+    setCatalogClassName(final String className)\n
     '''
 def catalogClassName():
-    '''public String catalogClassName()
+    '''returns String\n\n
+    catalogClassName()\n
     '''

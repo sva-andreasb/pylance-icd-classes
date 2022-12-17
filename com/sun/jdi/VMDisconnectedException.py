@@ -1,4 +1,5 @@
-def VMDisconnectedException():
-    '''public VMDisconnectedException()
-    public VMDisconnectedException(final String message)
+def ():
+    '''returns VMDisconnectedException\n\n
+    ()\n
+    (final String message)\n
     '''

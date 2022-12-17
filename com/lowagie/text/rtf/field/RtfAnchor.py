@@ -1,3 +1,4 @@
-def RtfAnchor():
-    '''public RtfAnchor(final RtfDocument doc, final Anchor anchor)
+def ():
+    '''returns RtfAnchor\n\n
+    (final RtfDocument doc, final Anchor anchor)\n
     '''

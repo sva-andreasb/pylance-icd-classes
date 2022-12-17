@@ -1,22 +1,16 @@
-def License():
-    '''public License(final String laPath)
-    '''
-def copyLicense():
-    '''public static void copyLicense(final String name, final String name2, final String name3, final String charsetName)
+def ():
+    '''returns License\n\n
+    (final String laPath)\n
     '''
 def getLicense():
-    '''public String[] getLicense(final Locale locale)
-    '''
-def getLocale():
-    '''public static Locale getLocale(final String str)
+    '''returns String[]\n\n
+    getLicense(final Locale locale)\n
     '''
 def isLicenseAvailable():
-    '''public boolean isLicenseAvailable(final Locale locale)
+    '''returns boolean\n\n
+    isLicenseAvailable(final Locale locale)\n
     '''
 def licenseExists():
-    '''public boolean licenseExists(final Locale[] array)
-    '''
-def writeLicense():
-    '''public static void writeLicense(final LAP lap, final String s, final String s2, final String s3)
-    public static void writeLicense(final LAP lap, final String s, final String s2, final String baseName, final boolean b)
+    '''returns boolean\n\n
+    licenseExists(final Locale[] array)\n
     '''

@@ -1,120 +1,158 @@
-def SectionTypeImpl():
-    '''public SectionTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns SectionTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getCellList():
-    '''public List<CellType> getCellList()
+    '''returns List<CellType>\n\n
+    getCellList()\n
     '''
 def getCellArray():
-    '''public CellType[] getCellArray()
-    public CellType getCellArray(final int n)
+    '''returns CellType\n\n
+    getCellArray()\n
+    getCellArray(final int n)\n
     '''
 def sizeOfCellArray():
-    '''public int sizeOfCellArray()
+    '''returns int\n\n
+    sizeOfCellArray()\n
     '''
 def setCellArray():
-    '''public void setCellArray(final CellType[] array)
-    public void setCellArray(final int n, final CellType cellType)
+    '''returns None\n\n
+    setCellArray(final CellType[] array)\n
+    setCellArray(final int n, final CellType cellType)\n
     '''
 def insertNewCell():
-    '''public CellType insertNewCell(final int n)
+    '''returns CellType\n\n
+    insertNewCell(final int n)\n
     '''
 def addNewCell():
-    '''public CellType addNewCell()
+    '''returns CellType\n\n
+    addNewCell()\n
     '''
 def removeCell():
-    '''public void removeCell(final int n)
+    '''returns None\n\n
+    removeCell(final int n)\n
     '''
 def getTriggerList():
-    '''public List<TriggerType> getTriggerList()
+    '''returns List<TriggerType>\n\n
+    getTriggerList()\n
     '''
 def getTriggerArray():
-    '''public TriggerType[] getTriggerArray()
-    public TriggerType getTriggerArray(final int n)
+    '''returns TriggerType\n\n
+    getTriggerArray()\n
+    getTriggerArray(final int n)\n
     '''
 def sizeOfTriggerArray():
-    '''public int sizeOfTriggerArray()
+    '''returns int\n\n
+    sizeOfTriggerArray()\n
     '''
 def setTriggerArray():
-    '''public void setTriggerArray(final TriggerType[] array)
-    public void setTriggerArray(final int n, final TriggerType triggerType)
+    '''returns None\n\n
+    setTriggerArray(final TriggerType[] array)\n
+    setTriggerArray(final int n, final TriggerType triggerType)\n
     '''
 def insertNewTrigger():
-    '''public TriggerType insertNewTrigger(final int n)
+    '''returns TriggerType\n\n
+    insertNewTrigger(final int n)\n
     '''
 def addNewTrigger():
-    '''public TriggerType addNewTrigger()
+    '''returns TriggerType\n\n
+    addNewTrigger()\n
     '''
 def removeTrigger():
-    '''public void removeTrigger(final int n)
+    '''returns None\n\n
+    removeTrigger(final int n)\n
     '''
 def getRowList():
-    '''public List<RowType> getRowList()
+    '''returns List<RowType>\n\n
+    getRowList()\n
     '''
 def getRowArray():
-    '''public RowType[] getRowArray()
-    public RowType getRowArray(final int n)
+    '''returns RowType\n\n
+    getRowArray()\n
+    getRowArray(final int n)\n
     '''
 def sizeOfRowArray():
-    '''public int sizeOfRowArray()
+    '''returns int\n\n
+    sizeOfRowArray()\n
     '''
 def setRowArray():
-    '''public void setRowArray(final RowType[] array)
-    public void setRowArray(final int n, final RowType rowType)
+    '''returns None\n\n
+    setRowArray(final RowType[] array)\n
+    setRowArray(final int n, final RowType rowType)\n
     '''
 def insertNewRow():
-    '''public RowType insertNewRow(final int n)
+    '''returns RowType\n\n
+    insertNewRow(final int n)\n
     '''
 def addNewRow():
-    '''public RowType addNewRow()
+    '''returns RowType\n\n
+    addNewRow()\n
     '''
 def removeRow():
-    '''public void removeRow(final int n)
+    '''returns None\n\n
+    removeRow(final int n)\n
     '''
 def getN():
-    '''public String getN()
+    '''returns String\n\n
+    getN()\n
     '''
 def xgetN():
-    '''public XmlString xgetN()
+    '''returns XmlString\n\n
+    xgetN()\n
     '''
 def setN():
-    '''public void setN(final String stringValue)
+    '''returns None\n\n
+    setN(final String stringValue)\n
     '''
 def xsetN():
-    '''public void xsetN(final XmlString xmlString)
+    '''returns None\n\n
+    xsetN(final XmlString xmlString)\n
     '''
 def getDel():
-    '''public boolean getDel()
+    '''returns boolean\n\n
+    getDel()\n
     '''
 def xgetDel():
-    '''public XmlBoolean xgetDel()
+    '''returns XmlBoolean\n\n
+    xgetDel()\n
     '''
 def isSetDel():
-    '''public boolean isSetDel()
+    '''returns boolean\n\n
+    isSetDel()\n
     '''
 def setDel():
-    '''public void setDel(final boolean booleanValue)
+    '''returns None\n\n
+    setDel(final boolean booleanValue)\n
     '''
 def xsetDel():
-    '''public void xsetDel(final XmlBoolean xmlBoolean)
+    '''returns None\n\n
+    xsetDel(final XmlBoolean xmlBoolean)\n
     '''
 def unsetDel():
-    '''public void unsetDel()
+    '''returns None\n\n
+    unsetDel()\n
     '''
 def getIX():
-    '''public long getIX()
+    '''returns long\n\n
+    getIX()\n
     '''
 def xgetIX():
-    '''public XmlUnsignedInt xgetIX()
+    '''returns XmlUnsignedInt\n\n
+    xgetIX()\n
     '''
 def isSetIX():
-    '''public boolean isSetIX()
+    '''returns boolean\n\n
+    isSetIX()\n
     '''
 def setIX():
-    '''public void setIX(final long longValue)
+    '''returns None\n\n
+    setIX(final long longValue)\n
     '''
 def xsetIX():
-    '''public void xsetIX(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetIX(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def unsetIX():
-    '''public void unsetIX()
+    '''returns None\n\n
+    unsetIX()\n
     '''

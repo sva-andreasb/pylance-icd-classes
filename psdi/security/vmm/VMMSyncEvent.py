@@ -3,41 +3,53 @@ SYNC_USER = "int  200"
 SYNC_GROUP = "int  300"
 SYNC_GROUPMEMBERS = "int  500"
 SYNC_ENDED = "int  600"
-def VMMSyncEvent():
-    '''public VMMSyncEvent(final int eventId, final Connection con, final MXLogger logger, final MXLogger sqlLogger, final UserInfo userInfo)
-    public VMMSyncEvent(final int eventId, final VMMDataMap dataMap, final VMMSyncData syncData)
-    public VMMSyncEvent(final int eventId, final MemberDataMap memberDataMap, final VMMSyncData syncData, final Set members)
+def ():
+    '''returns VMMSyncEvent\n\n
+    (final int eventId, final Connection con, final MXLogger logger, final MXLogger sqlLogger, final UserInfo userInfo)\n
+    (final int eventId, final VMMDataMap dataMap, final VMMSyncData syncData)\n
+    (final int eventId, final MemberDataMap memberDataMap, final VMMSyncData syncData, final Set members)\n
     '''
 def getEventType():
-    '''public int getEventType()
+    '''returns int\n\n
+    getEventType()\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def getSqlLogger():
-    '''public MXLogger getSqlLogger()
+    '''returns MXLogger\n\n
+    getSqlLogger()\n
     '''
 def getUserSyncData():
-    '''public VMMSyncData getUserSyncData()
+    '''returns VMMSyncData\n\n
+    getUserSyncData()\n
     '''
 def getUserDataMap():
-    '''public VMMDataMap getUserDataMap()
+    '''returns VMMDataMap\n\n
+    getUserDataMap()\n
     '''
 def getGroupSyncData():
-    '''public VMMSyncData getGroupSyncData()
+    '''returns VMMSyncData\n\n
+    getGroupSyncData()\n
     '''
 def getGroupDataMap():
-    '''public VMMDataMap getGroupDataMap()
+    '''returns VMMDataMap\n\n
+    getGroupDataMap()\n
     '''
 def getGroupMemberDataMap():
-    '''public MemberDataMap getGroupMemberDataMap()
+    '''returns MemberDataMap\n\n
+    getGroupMemberDataMap()\n
     '''
 def getGroupMembers():
-    '''public Set getGroupMembers()
+    '''returns Set\n\n
+    getGroupMembers()\n
     '''

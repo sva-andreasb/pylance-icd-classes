@@ -1,21 +1,28 @@
 def getDimension():
-    '''public int getDimension()
+    '''returns int\n\n
+    getDimension()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def isValue():
-    '''public boolean isValue(final Object o)
+    '''returns boolean\n\n
+    isValue(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getElementOpenType():
-    '''public OpenType getElementOpenType()
+    '''returns OpenType\n\n
+    getElementOpenType()\n
     '''
-def ArrayType():
-    '''public ArrayType(final int n, final OpenType elementType)
+def ():
+    '''returns ArrayType\n\n
+    (final int n, final OpenType elementType)\n
     '''

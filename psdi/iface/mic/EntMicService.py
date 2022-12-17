@@ -1,101 +1,128 @@
-def EntMicService():
-    '''public EntMicService()
-    public EntMicService(final MXServer mxServer)
+def ():
+    '''returns EntMicService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def configure():
-    '''public void configure(final Properties configData)
+    '''returns None\n\n
+    configure(final Properties configData)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def query():
-    '''public byte[] query(final byte[] data, final String serviceName, final String extSystem, final UserInfo userInfo)
-    public byte[] query(final Document data, final String serviceName, final String extSystem, final UserInfo userInfo)
-    public byte[] query(final byte[] queryXml, final String mosName, final UserInfo userInfo)
-    public byte[] query(final Document queryXml, final String mosName, final UserInfo userInfo)
+    '''returns byte[]\n\n
+    query(final byte[] data, final String serviceName, final String extSystem, final UserInfo userInfo)\n
+    query(final Document data, final String serviceName, final String extSystem, final UserInfo userInfo)\n
+    query(final byte[] queryXml, final String mosName, final UserInfo userInfo)\n
+    query(final Document queryXml, final String mosName, final UserInfo userInfo)\n
     '''
 def deleteQueueData():
-    '''public int deleteQueueData(final String queueName, String selector, final int count, UserInfo userInfo)
+    '''returns int\n\n
+    deleteQueueData(final String queueName, String selector, final int count, UserInfo userInfo)\n
     '''
 def tryObjectStructure():
-    '''public void tryObjectStructure(final String mosName, final String where, final UserInfo userInfo)
+    '''returns None\n\n
+    tryObjectStructure(final String mosName, final String where, final UserInfo userInfo)\n
     '''
 def deleteErrorFileAndTableRow():
-    '''public void deleteErrorFileAndTableRow(final Map<String, String> propMap, final boolean inbound, final String queueName, final UserInfo userInfo)
+    '''returns None\n\n
+    deleteErrorFileAndTableRow(final Map<String, String> propMap, final boolean inbound, final String queueName, final UserInfo userInfo)\n
     '''
 def processJMSRecovery():
-    '''public void processJMSRecovery(final String queueName, final UserInfo userInfo)
+    '''returns None\n\n
+    processJMSRecovery(final String queueName, final UserInfo userInfo)\n
     '''
 def viewQueueData():
-    '''public int viewQueueData(final String queueName, final String selector, final int count, final UserInfo userInfo, final boolean countOnly)
-    public int viewQueueData(final String queueName, String selector, final int count, final UserInfo userInfo, final boolean countOnly, final List<String> viewFilesList)
-    public void viewQueueData(final String queueName, final String selector, final int count, final UserInfo userInfo)
+    '''returns None\n\n
+    viewQueueData(final String queueName, final String selector, final int count, final UserInfo userInfo, final boolean countOnly)\n
+    viewQueueData(final String queueName, String selector, final int count, final UserInfo userInfo, final boolean countOnly, final List<String> viewFilesList)\n
+    viewQueueData(final String queueName, final String selector, final int count, final UserInfo userInfo)\n
     '''
 def viewQueueDataApi():
-    '''public void viewQueueDataApi(final String queueName, final String selector, final int count, final UserInfo userInfo)
+    '''returns None\n\n
+    viewQueueDataApi(final String queueName, final String selector, final int count, final UserInfo userInfo)\n
     '''
 def setIfaceTableUserInfo():
-    '''public void setIfaceTableUserInfo(final UserInfo info)
-    '''
-def getIfaceTableUserInfo():
-    '''public synchronized UserInfo getIfaceTableUserInfo()
+    '''returns None\n\n
+    setIfaceTableUserInfo(final UserInfo info)\n
     '''
 def exportData():
-    '''public void exportData(final String ifaceName, final String sender, final String where, final UserInfo userInfo, final int maxcount)
-    public void exportData(final String ifaceName, final String sender, final String where, final String orderBy, final int pageSize, final UserInfo userInfo, int maxcount)
+    '''returns None\n\n
+    exportData(final String ifaceName, final String sender, final String where, final UserInfo userInfo, final int maxcount)\n
+    exportData(final String ifaceName, final String sender, final String where, final String orderBy, final int pageSize, final UserInfo userInfo, int maxcount)\n
     '''
 def loadSystemData():
-    '''public void loadSystemData(final String directory, final String intLevel, final UserInfo userInfo)
+    '''returns None\n\n
+    loadSystemData(final String directory, final String intLevel, final UserInfo userInfo)\n
     '''
 def processExternalData():
-    '''public byte[] processExternalData(final byte[] data, final String sender, final String ifaceName, final UserInfo info, final MXTransaction trans)
-    public byte[] processExternalData(final byte[] data, final String sender, final String ifaceName, final UserInfo userInfo, final MXTransaction trans, final boolean fromQueue)
+    '''returns byte[]\n\n
+    processExternalData(final byte[] data, final String sender, final String ifaceName, final UserInfo info, final MXTransaction trans)\n
+    processExternalData(final byte[] data, final String sender, final String ifaceName, final UserInfo userInfo, final MXTransaction trans, final boolean fromQueue)\n
     '''
 def processDataIn():
-    '''public byte[] processDataIn(final StructureData irData, final EnterpriseServiceInfo detailInfo, final String extSystem, final UserInfo info, final MXTransaction mxTrans)
+    '''returns byte[]\n\n
+    processDataIn(final StructureData irData, final EnterpriseServiceInfo detailInfo, final String extSystem, final UserInfo info, final MXTransaction mxTrans)\n
     '''
 def internalProcessExternalData():
-    '''public byte[] internalProcessExternalData(final byte[] data, final String sender, final String ifaceName, final UserInfo info, final MXTransaction trans)
+    '''returns byte[]\n\n
+    internalProcessExternalData(final byte[] data, final String sender, final String ifaceName, final UserInfo info, final MXTransaction trans)\n
     '''
 def getOSNameForIfaceTable():
-    '''public String getOSNameForIfaceTable(final String entityName)
+    '''returns String\n\n
+    getOSNameForIfaceTable(final String entityName)\n
     '''
 def populateQueueList():
-    '''public List<String> populateQueueList(final HashSet<String> validateAgainst, final String nqDescription)
+    '''returns List<String>\n\n
+    populateQueueList(final HashSet<String> validateAgainst, final String nqDescription)\n
     '''
 def getTargetWindow():
-    '''public String[] getTargetWindow(final String launchEntryName, final MboRemote mainMbo)
+    '''returns String[]\n\n
+    getTargetWindow(final String launchEntryName, final MboRemote mainMbo)\n
     '''
 def invokeChannel():
-    '''public void invokeChannel(final String channelName, final MboRemote mbo)
+    '''returns None\n\n
+    invokeChannel(final String channelName, final MboRemote mbo)\n
     '''
 def wsinteraction():
-    '''public void wsinteraction(final String interactionName, final MboRemote mbo)
+    '''returns None\n\n
+    wsinteraction(final String interactionName, final MboRemote mbo)\n
     '''
 def bidiTransformData():
-    '''public byte[] bidiTransformData(final Map<String, ?> metaData, byte[] data)
+    '''returns byte[]\n\n
+    bidiTransformData(final Map<String, ?> metaData, byte[] data)\n
     '''
 def getEndPointName():
-    '''public String getEndPointName(final String extSysName, final String pubChannelName)
+    '''returns String\n\n
+    getEndPointName(final String extSysName, final String pubChannelName)\n
     '''
 def getQueueToWrite():
-    '''public String getQueueToWrite()
+    '''returns String\n\n
+    getQueueToWrite()\n
     '''
 def writeDataToNotificationQueue():
-    '''public void writeDataToNotificationQueue(final MXTransaction mxtran, final String eventForUser, final Map<String, String> properties, final UserInfo userInfo, final byte[] queueData, final String textData, final boolean syntheticEvent)
+    '''returns None\n\n
+    writeDataToNotificationQueue(final MXTransaction mxtran, final String eventForUser, final Map<String, String> properties, final UserInfo userInfo, final byte[] queueData, final String textData, final boolean syntheticEvent)\n
     '''
 def getNormalizedName():
-    '''public String getNormalizedName(final String queueName)
+    '''returns String\n\n
+    getNormalizedName(final String queueName)\n
     '''
 def getMosNameForPubChannel():
-    '''public String getMosNameForPubChannel(final String channelName)
+    '''returns String\n\n
+    getMosNameForPubChannel(final String channelName)\n
     '''
 def getBidiData():
-    '''public byte[] getBidiData(final byte[] responseBody, final String bidiFormat)
+    '''returns byte[]\n\n
+    getBidiData(final byte[] responseBody, final String bidiFormat)\n
     '''
 def getLaunchURL():
-    '''public String getLaunchURL(final String launchEntryName, final MboRemote mainMbo)
+    '''returns String\n\n
+    getLaunchURL(final String launchEntryName, final MboRemote mainMbo)\n
     '''
 def checkStatus():
-    '''public boolean checkStatus(final StructureData irData, final String extSystem, final String sendListName, final String orgId, final String siteId, final boolean sendUpdates)
+    '''returns boolean\n\n
+    checkStatus(final StructureData irData, final String extSystem, final String sendListName, final String orgId, final String siteId, final boolean sendUpdates)\n
     '''

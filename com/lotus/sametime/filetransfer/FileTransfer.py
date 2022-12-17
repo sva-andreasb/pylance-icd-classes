@@ -1,58 +1,65 @@
-def addFileTransferListener():
-    '''public synchronized void addFileTransferListener(final FileTransferListener obj)
-    '''
-def removeFileTransferListener():
-    '''public synchronized void removeFileTransferListener(final FileTransferListener obj)
-    '''
-def start():
-    '''public synchronized void start()
-    '''
 def accept():
-    '''public void accept(final OutputStream outStream)
+    '''returns None\n\n
+    accept(final OutputStream outStream)\n
     '''
 def decline():
-    '''public void decline()
-    public void decline(final int n)
+    '''returns None\n\n
+    decline()\n
+    decline(final int n)\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def getFileSize():
-    '''public int getFileSize()
+    '''returns int\n\n
+    getFileSize()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getFileDesc():
-    '''public String getFileDesc()
+    '''returns String\n\n
+    getFileDesc()\n
     '''
 def getPartner():
-    '''public STUser getPartner()
+    '''returns STUser\n\n
+    getPartner()\n
     '''
 def getNumOfByteTransferred():
-    '''public long getNumOfByteTransferred()
+    '''returns long\n\n
+    getNumOfByteTransferred()\n
     '''
 def setUpdateInterval():
-    '''public void setUpdateInterval(final int i)
+    '''returns None\n\n
+    setUpdateInterval(final int i)\n
     '''
 def channelOpened():
-    '''public void channelOpened(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpened(final ChannelEvent channelEvent)\n
     '''
 def channelOpenFailed():
-    '''public void channelOpenFailed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelOpenFailed(final ChannelEvent channelEvent)\n
     '''
 def channelClosed():
-    '''public void channelClosed(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelClosed(final ChannelEvent channelEvent)\n
     '''
 def channelMsgReceived():
-    '''public void channelMsgReceived(final ChannelEvent channelEvent)
+    '''returns None\n\n
+    channelMsgReceived(final ChannelEvent channelEvent)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getTransferType():
-    '''public String getTransferType()
+    '''returns String\n\n
+    getTransferType()\n
     '''
 def getTransferID():
-    '''public Integer getTransferID()
+    '''returns Integer\n\n
+    getTransferID()\n
     '''

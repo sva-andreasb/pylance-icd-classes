@@ -1,57 +1,76 @@
 def getOrderItem():
-    '''public Item getOrderItem()
+    '''returns Item\n\n
+    getOrderItem()\n
     '''
 def setOrderItem():
-    '''public void setOrderItem(final Item orderItem)
+    '''returns None\n\n
+    setOrderItem(final Item orderItem)\n
     '''
 def getQuestion():
-    '''public Question getQuestion()
+    '''returns Question\n\n
+    getQuestion()\n
     '''
 def setQuestion():
-    '''public void setQuestion(final Question question)
+    '''returns None\n\n
+    setQuestion(final Question question)\n
     '''
 def getAnswer():
-    '''public String getAnswer()
+    '''returns String\n\n
+    getAnswer()\n
     '''
 def setAnswer():
-    '''public void setAnswer(final String answer)
+    '''returns None\n\n
+    setAnswer(final String answer)\n
     '''
 def isAnswerSpecified():
-    '''public boolean isAnswerSpecified()
+    '''returns boolean\n\n
+    isAnswerSpecified()\n
     '''
 def unsetAnswer():
-    '''public void unsetAnswer()
+    '''returns None\n\n
+    unsetAnswer()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getQuestionId():
-    '''public Long getQuestionId()
+    '''returns Long\n\n
+    getQuestionId()\n
     '''
 def setQuestionId():
-    '''public void setQuestionId(final Long questionId)
+    '''returns None\n\n
+    setQuestionId(final Long questionId)\n
     '''
 def isQuestionIdSpecified():
-    '''public boolean isQuestionIdSpecified()
+    '''returns boolean\n\n
+    isQuestionIdSpecified()\n
     '''
 def unsetQuestionId():
-    '''public void unsetQuestionId()
+    '''returns None\n\n
+    unsetQuestionId()\n
     '''
 def answer():
-    '''public Mask answer()
+    '''returns Mask\n\n
+    answer()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def questionId():
-    '''public Mask questionId()
+    '''returns Mask\n\n
+    questionId()\n
     '''

@@ -1,21 +1,28 @@
-def CfgTaskStatusEvent():
-    '''public CfgTaskStatusEvent(final String msg, final int totalTime, final int totalCompleted)
+def ():
+    '''returns CfgTaskStatusEvent\n\n
+    (final String msg, final int totalTime, final int totalCompleted)\n
     '''
 def setMessage():
-    '''public void setMessage(final String msg)
+    '''returns None\n\n
+    setMessage(final String msg)\n
     '''
 def setTotalTaskWeight():
-    '''public void setTotalTaskWeight(final int time)
+    '''returns None\n\n
+    setTotalTaskWeight(final int time)\n
     '''
 def getTotalTaskWeight():
-    '''public int getTotalTaskWeight()
+    '''returns int\n\n
+    getTotalTaskWeight()\n
     '''
 def getTotalTaskCompletedWeight():
-    '''public int getTotalTaskCompletedWeight()
+    '''returns int\n\n
+    getTotalTaskCompletedWeight()\n
     '''
 def setTotalTaskCompletedWeight():
-    '''public void setTotalTaskCompletedWeight(final int time)
+    '''returns None\n\n
+    setTotalTaskCompletedWeight(final int time)\n
     '''
 def getEventMessage():
-    '''public String getEventMessage()
+    '''returns String\n\n
+    getEventMessage()\n
     '''

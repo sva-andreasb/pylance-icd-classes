@@ -1,15 +1,20 @@
-def SKDTimeScrollListener():
-    '''public SKDTimeScrollListener(final IlvScheduleChart scheduleChart)
+def ():
+    '''returns SKDTimeScrollListener\n\n
+    (final IlvScheduleChart scheduleChart)\n
     '''
 def visibleTimeChanged():
-    '''public void visibleTimeChanged(final VisibleTimeChangedEvent evt)
+    '''returns None\n\n
+    visibleTimeChanged(final VisibleTimeChangedEvent evt)\n
     '''
 def visibleDurationChanged():
-    '''public void visibleDurationChanged(final VisibleDurationChangedEvent evt)
+    '''returns None\n\n
+    visibleDurationChanged(final VisibleDurationChangedEvent evt)\n
     '''
 def minVisibleTimeChanged():
-    '''public void minVisibleTimeChanged(final TimeChangedEvent evt)
+    '''returns None\n\n
+    minVisibleTimeChanged(final TimeChangedEvent evt)\n
     '''
 def maxVisibleTimeChanged():
-    '''public void maxVisibleTimeChanged(final TimeChangedEvent evt)
+    '''returns None\n\n
+    maxVisibleTimeChanged(final TimeChangedEvent evt)\n
     '''

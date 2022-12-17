@@ -1,15 +1,15 @@
 ELEMENT = "String  \"enable\""
 NAMESPACE = "String  \"urn:xmpp:push:0\""
-def EnablePushNotificationsIQ():
-    '''public EnablePushNotificationsIQ(final Jid jid, final String node, final HashMap<String, String> publishOptions)
-    public EnablePushNotificationsIQ(final Jid jid, final String node)
+def ():
+    '''returns EnablePushNotificationsIQ\n\n
+    (final Jid jid, final String node, final HashMap<String, String> publishOptions)\n
+    (final Jid jid, final String node)\n
     '''
 def getJid():
-    '''public Jid getJid()
+    '''returns Jid\n\n
+    getJid()\n
     '''
 def getNode():
-    '''public String getNode()
-    '''
-def getPublishOptions():
-    '''public HashMap<String, String> getPublishOptions()
+    '''returns String\n\n
+    getNode()\n
     '''

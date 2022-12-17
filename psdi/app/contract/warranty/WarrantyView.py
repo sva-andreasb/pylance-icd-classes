@@ -1,48 +1,64 @@
-def WarrantyView():
-    '''public WarrantyView(final MboSet ms)
+def ():
+    '''returns WarrantyView\n\n
+    (final MboSet ms)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def nullVendor():
-    '''public void nullVendor()
+    '''returns None\n\n
+    nullVendor()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def canCreateSchedule():
-    '''public void canCreateSchedule()
+    '''returns None\n\n
+    canCreateSchedule()\n
     '''
 def createSchedule():
-    '''public void createSchedule()
+    '''returns None\n\n
+    createSchedule()\n
     '''
 def cancelInvoicesForSchedule():
-    '''public void cancelInvoicesForSchedule()
+    '''returns None\n\n
+    cancelInvoicesForSchedule()\n
     '''
 def createInvoicesForSchedule():
-    '''public void createInvoicesForSchedule()
+    '''returns None\n\n
+    createInvoicesForSchedule()\n
     '''
 def copyContractTermsToInvoice():
-    '''public void copyContractTermsToInvoice(final MboSetRemote contractTermsSetRemote, final MboSetRemote invoiceTermSetRemote)
+    '''returns None\n\n
+    copyContractTermsToInvoice(final MboSetRemote contractTermsSetRemote, final MboSetRemote invoiceTermSetRemote)\n
     '''
 def copyAssetsToContractAsset():
-    '''public void copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)
+    '''returns None\n\n
+    copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)\n
     '''
 def copyLocationsToContractAsset():
-    '''public void copyLocationsToContractAsset(final LocationSetRemote locationSetRemote)
+    '''returns None\n\n
+    copyLocationsToContractAsset(final LocationSetRemote locationSetRemote)\n
     '''
 def reCalcLeaseViewCost():
-    '''public double reCalcLeaseViewCost()
+    '''returns double\n\n
+    reCalcLeaseViewCost()\n
     '''
 def canAddAssetToContractAsset():
-    '''public void canAddAssetToContractAsset()
+    '''returns None\n\n
+    canAddAssetToContractAsset()\n
     '''
 def reviseContract():
-    '''public MboRemote reviseContract(final String revDescription)
+    '''returns MboRemote\n\n
+    reviseContract(final String revDescription)\n
     '''

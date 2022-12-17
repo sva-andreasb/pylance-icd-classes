@@ -1,15 +1,20 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
-def AgreementInput():
-    '''public AgreementInput(final MboSet ms)
+def ():
+    '''returns AgreementInput\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def copyToPOLine():
-    '''public void copyToPOLine(final MboRemote poLineRemote, final MboRemote poRemote)
+    '''returns None\n\n
+    copyToPOLine(final MboRemote poLineRemote, final MboRemote poRemote)\n
     '''
 def copyFromContractToCurrentPO():
-    '''public void copyFromContractToCurrentPO(final MboRemote poRemote, final MboRemote contractRemote, final MboRemote contractAuth)
+    '''returns None\n\n
+    copyFromContractToCurrentPO(final MboRemote poRemote, final MboRemote contractRemote, final MboRemote contractAuth)\n
     '''

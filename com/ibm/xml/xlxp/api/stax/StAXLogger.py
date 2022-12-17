@@ -61,56 +61,50 @@ FLUSH = "int  115"
 SET_PREFIX = "int  116"
 SET_DEFAULT_NAMESPACE = "int  117"
 SET_NAMESPACE_CONTEXT = "int  118"
-def translateToMethodName():
-    '''public static String translateToMethodName(final int n)
-    '''
-def translateToCodeString():
-    '''public static String translateToCodeString(final int n)
-    '''
-def StAXLogger():
-    '''public StAXLogger()
+def ():
+    '''returns MethodCallObjects\n\n
+    ()\n
+    (final int fCode)\n
+    (final int n, final int fArg)\n
+    (final int n, final String fArg)\n
+    (final int n, final Object[] fArgs)\n
     '''
 def log():
-    '''public void log(final int n)
-    public void log(final int n, final int n2)
-    public void log(final int n, final String s)
-    public void log(final int n, final String s, final String s2)
-    public void log(final int n, final String s, final String s2, final String s3)
-    public void log(final int n, final Object[] array)
+    '''returns None\n\n
+    log(final int n)\n
+    log(final int n, final int n2)\n
+    log(final int n, final String s)\n
+    log(final int n, final String s, final String s2)\n
+    log(final int n, final String s, final String s2, final String s3)\n
+    log(final int n, final Object[] array)\n
     '''
 def logReturn():
-    '''public void logReturn()
-    public void logReturn(final int value)
-    public void logReturn(final boolean value)
-    public void logReturn(final Object o)
+    '''returns None\n\n
+    logReturn()\n
+    logReturn(final int value)\n
+    logReturn(final boolean value)\n
+    logReturn(final Object o)\n
     '''
 def logException():
-    '''public void logException(final Exception ex)
+    '''returns None\n\n
+    logException(final Exception ex)\n
     '''
 def writeReadableProfile():
-    '''public void writeReadableProfile(final String s)
+    '''returns None\n\n
+    writeReadableProfile(final String s)\n
     '''
 def writeStAXProfile():
-    '''public void writeStAXProfile(final String s)
-    '''
-def MethodCall():
-    '''public MethodCall(final int fCode)
+    '''returns None\n\n
+    writeStAXProfile(final String s)\n
     '''
 def addReturn():
-    '''public void addReturn(final Object fReturnVal)
+    '''returns None\n\n
+    addReturn(final Object fReturnVal)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    '''
-def MethodCallInt():
-    '''public MethodCallInt(final int n, final int fArg)
-    '''
-def MethodCallString():
-    '''public MethodCallString(final int n, final String fArg)
-    '''
-def MethodCallObjects():
-    '''public MethodCallObjects(final int n, final Object[] fArgs)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

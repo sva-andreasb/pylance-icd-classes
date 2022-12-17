@@ -1,9 +1,12 @@
-def MaxCOAProcess():
-    '''public MaxCOAProcess()
+def ():
+    '''returns MaxCOAProcess\n\n
+    ()\n
     '''
 def createMboSet():
-    '''public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo micInfo, final String processTable)
+    '''returns MboSetRemote\n\n
+    createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo micInfo, final String processTable)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''

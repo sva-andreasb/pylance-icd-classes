@@ -1,4 +1,5 @@
-def PlusPSLABreachService():
-    '''public PlusPSLABreachService()
-    public PlusPSLABreachService(final MXServer mxServer)
+def ():
+    '''returns PlusPSLABreachService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

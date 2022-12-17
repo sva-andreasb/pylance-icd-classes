@@ -1,3 +1,4 @@
-def SKDTooltip():
-    '''public SKDTooltip(final MboSet ms)
+def ():
+    '''returns SKDTooltip\n\n
+    (final MboSet ms)\n
     '''

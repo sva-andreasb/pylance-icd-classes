@@ -1,6 +1,8 @@
-def OslcNSPrefixSet():
-    '''public OslcNSPrefixSet(final MboServerInterface ms)
+def ():
+    '''returns OslcNSPrefixSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

@@ -1,6 +1,8 @@
-def TimeDeserializer():
-    '''public TimeDeserializer(final Class javaType, final QName xmlType)
+def ():
+    '''returns TimeDeserializer\n\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def makeValue():
-    '''public Object makeValue(final String source)
+    '''returns Object\n\n
+    makeValue(final String source)\n
     '''

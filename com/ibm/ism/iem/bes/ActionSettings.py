@@ -1,6 +1,8 @@
 def getSettings():
-    '''public ActionSettingsType getSettings()
+    '''returns ActionSettingsType\n\n
+    getSettings()\n
     '''
 def setSettings():
-    '''public void setSettings(final ActionSettingsType value)
+    '''returns None\n\n
+    setSettings(final ActionSettingsType value)\n
     '''

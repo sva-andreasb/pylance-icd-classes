@@ -1,6 +1,8 @@
-def PlusPWOReleaseSet():
-    '''public PlusPWOReleaseSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPWOReleaseSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

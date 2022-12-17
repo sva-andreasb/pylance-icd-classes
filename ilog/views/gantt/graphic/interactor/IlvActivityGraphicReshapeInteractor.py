@@ -1,15 +1,12 @@
-def IlvActivityGraphicReshapeInteractor():
-    '''public IlvActivityGraphicReshapeInteractor()
-    '''
-def addActivityGraphicInteractorListener():
-    '''public static void addActivityGraphicInteractorListener(final IlvGanttSheet ilvGanttSheet, final ActivityGraphicInteractorListener activityGraphicInteractorListener)
-    '''
-def removeActivityGraphicInteractorListener():
-    '''public static void removeActivityGraphicInteractorListener(final IlvGanttSheet ilvGanttSheet, final ActivityGraphicInteractorListener activityGraphicInteractorListener)
+def ():
+    '''returns IlvActivityGraphicReshapeInteractor\n\n
+    ()\n
     '''
 def getCursor():
-    '''public Cursor getCursor(final int n)
+    '''returns Cursor\n\n
+    getCursor(final int n)\n
     '''
 def abort():
-    '''public void abort(final EventObject eventObject)
+    '''returns None\n\n
+    abort(final EventObject eventObject)\n
     '''

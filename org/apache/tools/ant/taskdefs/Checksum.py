@@ -1,67 +1,81 @@
-def Checksum():
-    '''public Checksum()
+def ():
+    '''returns Checksum\n\n
+    ()\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def setTodir():
-    '''public void setTodir(final File todir)
+    '''returns None\n\n
+    setTodir(final File todir)\n
     '''
 def setAlgorithm():
-    '''public void setAlgorithm(final String algorithm)
+    '''returns None\n\n
+    setAlgorithm(final String algorithm)\n
     '''
 def setProvider():
-    '''public void setProvider(final String provider)
+    '''returns None\n\n
+    setProvider(final String provider)\n
     '''
 def setFileext():
-    '''public void setFileext(final String fileext)
+    '''returns None\n\n
+    setFileext(final String fileext)\n
     '''
 def setProperty():
-    '''public void setProperty(final String property)
+    '''returns None\n\n
+    setProperty(final String property)\n
     '''
 def setTotalproperty():
-    '''public void setTotalproperty(final String totalproperty)
+    '''returns None\n\n
+    setTotalproperty(final String totalproperty)\n
     '''
 def setVerifyproperty():
-    '''public void setVerifyproperty(final String verifyProperty)
+    '''returns None\n\n
+    setVerifyproperty(final String verifyProperty)\n
     '''
 def setForceOverwrite():
-    '''public void setForceOverwrite(final boolean forceOverwrite)
+    '''returns None\n\n
+    setForceOverwrite(final boolean forceOverwrite)\n
     '''
 def setReadBufferSize():
-    '''public void setReadBufferSize(final int size)
+    '''returns None\n\n
+    setReadBufferSize(final int size)\n
     '''
 def setFormat():
-    '''public void setFormat(final FormatElement e)
+    '''returns None\n\n
+    setFormat(final FormatElement e)\n
     '''
 def setPattern():
-    '''public void setPattern(final String p)
+    '''returns None\n\n
+    setPattern(final String p)\n
     '''
 def addFileset():
-    '''public void addFileset(final FileSet set)
+    '''returns None\n\n
+    addFileset(final FileSet set)\n
     '''
 def add():
-    '''public void add(final ResourceCollection rc)
-    public void add(final ResourceCollection rc)
+    '''returns None\n\n
+    add(final ResourceCollection rc)\n
+    add(final ResourceCollection rc)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def eval():
-    '''public boolean eval()
+    '''returns boolean\n\n
+    eval()\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
-    '''
-def decodeHex():
-    '''public static byte[] decodeHex(final char[] data)
-    '''
-def getDefault():
-    '''public static FormatElement getDefault()
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''
 def getFormat():
-    '''public MessageFormat getFormat()
+    '''returns MessageFormat\n\n
+    getFormat()\n
     '''
 def getValues():
-    '''public String[] getValues()
+    '''returns String[]\n\n
+    getValues()\n
     '''

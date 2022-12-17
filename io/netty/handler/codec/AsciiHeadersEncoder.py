@@ -1,7 +1,9 @@
-def AsciiHeadersEncoder():
-    '''public AsciiHeadersEncoder(final ByteBuf buf)
-    public AsciiHeadersEncoder(final ByteBuf buf, final SeparatorType separatorType, final NewlineType newlineType)
+def ():
+    '''returns AsciiHeadersEncoder\n\n
+    (final ByteBuf buf)\n
+    (final ByteBuf buf, final SeparatorType separatorType, final NewlineType newlineType)\n
     '''
 def encode():
-    '''public void encode(final Map.Entry<CharSequence, CharSequence> entry)
+    '''returns None\n\n
+    encode(final Map.Entry<CharSequence, CharSequence> entry)\n
     '''

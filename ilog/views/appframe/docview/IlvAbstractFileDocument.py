@@ -1,26 +1,34 @@
 PATHNAME_PROPERTY = "String  \"Pathname\""
-def IlvAbstractFileDocument():
-    '''public IlvAbstractFileDocument()
+def ():
+    '''returns IlvAbstractFileDocument\n\n
+    ()\n
     '''
 def getPathName():
-    '''public URL getPathName()
+    '''returns URL\n\n
+    getPathName()\n
     '''
 def setPathName():
-    '''public void setPathName(final URL a)
+    '''returns None\n\n
+    setPathName(final URL a)\n
     '''
 def readDocument():
-    '''public boolean readDocument(final URL url, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    readDocument(final URL url, final IlvFileFilter ilvFileFilter)\n
     '''
 def readStreamDocument():
-    '''public boolean readStreamDocument(final Reader reader, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    readStreamDocument(final Reader reader, final IlvFileFilter ilvFileFilter)\n
     '''
 def writeDocument():
-    '''public boolean writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)
-    public boolean writeDocument(final URL url, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)\n
+    writeDocument(final URL url, final IlvFileFilter ilvFileFilter)\n
     '''
 def writeStreamDocument():
-    '''public boolean writeStreamDocument(final Writer writer, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    writeStreamDocument(final Writer writer, final IlvFileFilter ilvFileFilter)\n
     '''
 def activated():
-    '''public void activated(final boolean b)
+    '''returns None\n\n
+    activated(final boolean b)\n
     '''

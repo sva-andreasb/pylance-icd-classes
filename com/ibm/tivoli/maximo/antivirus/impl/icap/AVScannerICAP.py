@@ -1,6 +1,8 @@
-def AVScannerICAP():
-    '''public AVScannerICAP(final String servername, final int port)
+def ():
+    '''returns AVScannerICAP\n\n
+    (final String servername, final int port)\n
     '''
 def scan():
-    '''public AVScannerResult scan(final InputStream in)
+    '''returns AVScannerResult\n\n
+    scan(final InputStream in)\n
     '''

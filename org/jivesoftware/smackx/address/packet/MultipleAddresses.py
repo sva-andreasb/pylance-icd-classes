@@ -1,43 +1,56 @@
 NAMESPACE = "String  \"http://jabber.org/protocol/address\""
 ELEMENT = "String  \"address\""
-def MultipleAddresses():
-    '''public MultipleAddresses()
+def ():
+    '''returns MultipleAddresses\n\n
+    ()\n
     '''
 def addAddress():
-    '''public void addAddress(final Type type, final Jid jid, final String node, final String desc, final boolean delivered, final String uri)
+    '''returns None\n\n
+    addAddress(final Type type, final Jid jid, final String node, final String desc, final boolean delivered, final String uri)\n
     '''
 def setNoReply():
-    '''public void setNoReply()
+    '''returns None\n\n
+    setNoReply()\n
     '''
 def getAddressesOfType():
-    '''public List<Address> getAddressesOfType(final Type type)
+    '''returns List<Address>\n\n
+    getAddressesOfType(final Type type)\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getJid():
-    '''public Jid getJid()
+    '''returns Jid\n\n
+    getJid()\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def isDelivered():
-    '''public boolean isDelivered()
+    '''returns boolean\n\n
+    isDelivered()\n
     '''
 def getUri():
-    '''public String getUri()
+    '''returns String\n\n
+    getUri()\n
     '''

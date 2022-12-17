@@ -1,20 +1,26 @@
-def UnicodeSetIterator():
-    '''public UnicodeSetIterator(final UnicodeSet set)
-    public UnicodeSetIterator()
+def ():
+    '''returns UnicodeSetIterator\n\n
+    (final UnicodeSet set)\n
+    ()\n
     '''
 def next():
-    '''public boolean next()
+    '''returns boolean\n\n
+    next()\n
     '''
 def nextRange():
-    '''public boolean nextRange()
+    '''returns boolean\n\n
+    nextRange()\n
     '''
 def reset():
-    '''public void reset(final UnicodeSet uset)
-    public void reset()
+    '''returns None\n\n
+    reset(final UnicodeSet uset)\n
+    reset()\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def getSet():
-    '''public UnicodeSet getSet()
+    '''returns UnicodeSet\n\n
+    getSet()\n
     '''

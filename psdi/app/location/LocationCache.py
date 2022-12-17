@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final LocationCache getInstance()
-    '''
 def getDescForLocSite():
-    '''public String getDescForLocSite(final String siteid, final String location, final UserInfo userInfo)
+    '''returns String\n\n
+    getDescForLocSite(final String siteid, final String location, final UserInfo userInfo)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

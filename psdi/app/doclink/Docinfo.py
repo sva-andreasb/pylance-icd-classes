@@ -1,30 +1,40 @@
-def Docinfo():
-    '''public Docinfo(final MboSet ms)
+def ():
+    '''returns Docinfo\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def appValidateUpload():
-    '''public void appValidateUpload()
+    '''returns None\n\n
+    appValidateUpload()\n
     '''
 def addDocinfoAndLinks():
-    '''public void addDocinfoAndLinks(final String urlname, final String description, final String[] urlparam, final String doctype, final String urltype, final String keytable, final String keycolumn, final String[] keyvalue, final boolean forceAutokey, final String application)
+    '''returns None\n\n
+    addDocinfoAndLinks(final String urlname, final String description, final String[] urlparam, final String doctype, final String urltype, final String keytable, final String keycolumn, final String[] keyvalue, final boolean forceAutokey, final String application)\n
     '''
 def addDoclinks():
-    '''public void addDoclinks(String doctype, final String keytable, final String keycolumn, final String[] keyvalue)
+    '''returns None\n\n
+    addDoclinks(String doctype, final String keytable, final String keycolumn, final String[] keyvalue)\n
     '''

@@ -1,3 +1,4 @@
-def MaxLicPrdKeyListSet():
-    '''public MaxLicPrdKeyListSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLicPrdKeyListSet\n\n
+    (final MboServerInterface ms)\n
     '''

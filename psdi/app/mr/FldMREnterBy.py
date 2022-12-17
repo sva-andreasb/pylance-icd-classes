@@ -1,3 +1,4 @@
-def FldMREnterBy():
-    '''public FldMREnterBy(final MboValue mbv)
+def ():
+    '''returns FldMREnterBy\n\n
+    (final MboValue mbv)\n
     '''

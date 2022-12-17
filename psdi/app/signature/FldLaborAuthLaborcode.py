@@ -1,3 +1,4 @@
-def FldLaborAuthLaborcode():
-    '''public FldLaborAuthLaborcode(final MboValue mbv)
+def ():
+    '''returns FldLaborAuthLaborcode\n\n
+    (final MboValue mbv)\n
     '''

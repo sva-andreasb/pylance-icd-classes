@@ -1,15 +1,20 @@
-def SLACommitments():
-    '''public SLACommitments(final MboSet ms)
+def ():
+    '''returns SLACommitments\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def enableFields():
-    '''public void enableFields()
+    '''returns None\n\n
+    enableFields()\n
     '''

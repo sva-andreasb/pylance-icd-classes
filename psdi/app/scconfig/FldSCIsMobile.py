@@ -1,6 +1,8 @@
-def FldSCIsMobile():
-    '''public FldSCIsMobile(final MboValue mbv)
+def ():
+    '''returns FldSCIsMobile\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

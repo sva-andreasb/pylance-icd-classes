@@ -1,30 +1,40 @@
-def BasicDomain():
-    '''public BasicDomain(final MboValue mbv)
+def ():
+    '''returns BasicDomain\n\n
+    (final MboValue mbv)\n
     '''
 def chooseActualDomainValues():
-    '''public void chooseActualDomainValues()
+    '''returns None\n\n
+    chooseActualDomainValues()\n
     '''
 def resetDomainValues():
-    '''public void resetDomainValues()
+    '''returns None\n\n
+    resetDomainValues()\n
     '''
 def resetConditionValueFilter():
-    '''public void resetConditionValueFilter()
+    '''returns None\n\n
+    resetConditionValueFilter()\n
     '''
 def setConditionalValWhere():
-    '''public void setConditionalValWhere(final String where)
+    '''returns None\n\n
+    setConditionalValWhere(final String where)\n
     '''
 def getConditionalValWhere():
-    '''public String getConditionalValWhere()
+    '''returns String\n\n
+    getConditionalValWhere()\n
     '''
 def getConditionResult():
-    '''public boolean[] getConditionResult()
+    '''returns boolean[]\n\n
+    getConditionResult()\n
     '''
 def setDomainId():
-    '''public void setDomainId(final String dom)
+    '''returns None\n\n
+    setDomainId(final String dom)\n
     '''
 def getDomainId():
-    '''public String getDomainId()
+    '''returns String\n\n
+    getDomainId()\n
     '''
 def getDomainInfo():
-    '''public DomainInfo getDomainInfo()
+    '''returns DomainInfo\n\n
+    getDomainInfo()\n
     '''

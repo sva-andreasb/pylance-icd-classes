@@ -1,31 +1,41 @@
-def MaxIntObjectDetailSet():
-    '''public MaxIntObjectDetailSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIntObjectDetailSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
-    public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows, final String cardinality)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows, final String cardinality)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def setOriginatingMosName():
-    '''public void setOriginatingMosName(final String origMosName)
+    '''returns None\n\n
+    setOriginatingMosName(final String origMosName)\n
     '''
 def setOriginatingMbo():
-    '''public void setOriginatingMbo(final MboRemote origMbo)
+    '''returns None\n\n
+    setOriginatingMbo(final MboRemote origMbo)\n
     '''

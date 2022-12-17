@@ -1,3 +1,4 @@
 def parse():
-    '''public SubscriptionPreApproval parse(final XmlPullParser parser, final int initialDepth)
+    '''returns SubscriptionPreApproval\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

@@ -1,13 +1,17 @@
-def WildcardQueryNode():
-    '''public WildcardQueryNode(final CharSequence field, final CharSequence text, final int begin, final int end)
-    public WildcardQueryNode(final FieldQueryNode fqn)
+def ():
+    '''returns WildcardQueryNode\n\n
+    (final CharSequence field, final CharSequence text, final int begin, final int end)\n
+    (final FieldQueryNode fqn)\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escaper)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escaper)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def cloneTree():
-    '''public WildcardQueryNode cloneTree()
+    '''returns WildcardQueryNode\n\n
+    cloneTree()\n
     '''

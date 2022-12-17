@@ -1,86 +1,95 @@
 WALL_TIME = "int  0"
 STANDARD_TIME = "int  1"
 UTC_TIME = "int  2"
-def SimpleTimeZone():
-    '''public SimpleTimeZone(final int rawOffset, final String ID)
-    public SimpleTimeZone(final int rawOffset, final String ID, final int startMonth, final int startDay, final int startDayOfWeek, final int startTime, final int endMonth, final int endDay, final int endDayOfWeek, final int endTime)
-    public SimpleTimeZone(final int rawOffset, final String ID, final int startMonth, final int startDay, final int startDayOfWeek, final int startTime, final int startTimeMode, final int endMonth, final int endDay, final int endDayOfWeek, final int endTime, final int endTimeMode, final int dstSavings)
-    public SimpleTimeZone(final int rawOffset, final String ID, final int startMonth, final int startDay, final int startDayOfWeek, final int startTime, final int endMonth, final int endDay, final int endDayOfWeek, final int endTime, final int dstSavings)
+def ():
+    '''returns SimpleTimeZone\n\n
+    (final int rawOffset, final String ID)\n
+    (final int rawOffset, final String ID, final int startMonth, final int startDay, final int startDayOfWeek, final int startTime, final int endMonth, final int endDay, final int endDayOfWeek, final int endTime)\n
+    (final int rawOffset, final String ID, final int startMonth, final int startDay, final int startDayOfWeek, final int startTime, final int startTimeMode, final int endMonth, final int endDay, final int endDayOfWeek, final int endTime, final int endTimeMode, final int dstSavings)\n
+    (final int rawOffset, final String ID, final int startMonth, final int startDay, final int startDayOfWeek, final int startTime, final int endMonth, final int endDay, final int endDayOfWeek, final int endTime, final int dstSavings)\n
     '''
 def setID():
-    '''public void setID(final String ID)
+    '''returns None\n\n
+    setID(final String ID)\n
     '''
 def setRawOffset():
-    '''public void setRawOffset(final int offsetMillis)
+    '''returns None\n\n
+    setRawOffset(final int offsetMillis)\n
     '''
 def getRawOffset():
-    '''public int getRawOffset()
+    '''returns int\n\n
+    getRawOffset()\n
     '''
 def setStartYear():
-    '''public void setStartYear(final int year)
+    '''returns None\n\n
+    setStartYear(final int year)\n
     '''
 def setStartRule():
-    '''public void setStartRule(final int month, final int dayOfWeekInMonth, final int dayOfWeek, final int time)
-    public void setStartRule(final int month, final int dayOfMonth, final int time)
-    public void setStartRule(final int month, final int dayOfMonth, final int dayOfWeek, final int time, final boolean after)
+    '''returns None\n\n
+    setStartRule(final int month, final int dayOfWeekInMonth, final int dayOfWeek, final int time)\n
+    setStartRule(final int month, final int dayOfMonth, final int time)\n
+    setStartRule(final int month, final int dayOfMonth, final int dayOfWeek, final int time, final boolean after)\n
     '''
 def setEndRule():
-    '''public void setEndRule(final int month, final int dayOfWeekInMonth, final int dayOfWeek, final int time)
-    public void setEndRule(final int month, final int dayOfMonth, final int time)
-    public void setEndRule(final int month, final int dayOfMonth, final int dayOfWeek, final int time, final boolean after)
+    '''returns None\n\n
+    setEndRule(final int month, final int dayOfWeekInMonth, final int dayOfWeek, final int time)\n
+    setEndRule(final int month, final int dayOfMonth, final int time)\n
+    setEndRule(final int month, final int dayOfMonth, final int dayOfWeek, final int time, final boolean after)\n
     '''
 def setDSTSavings():
-    '''public void setDSTSavings(final int millisSavedDuringDST)
+    '''returns None\n\n
+    setDSTSavings(final int millisSavedDuringDST)\n
     '''
 def getDSTSavings():
-    '''public int getDSTSavings()
+    '''returns int\n\n
+    getDSTSavings()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getOffset():
-    '''public int getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int millis)
-    public int getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int millis, final int monthLength)
+    '''returns int\n\n
+    getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int millis)\n
+    getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int millis, final int monthLength)\n
     '''
 def getOffsetFromLocal():
-    '''public void getOffsetFromLocal(long date, final int nonExistingTimeOpt, final int duplicatedTimeOpt, final int[] offsets)
+    '''returns None\n\n
+    getOffsetFromLocal(long date, final int nonExistingTimeOpt, final int duplicatedTimeOpt, final int[] offsets)\n
     '''
 def useDaylightTime():
-    '''public boolean useDaylightTime()
-    '''
-def observesDaylightTime():
-    '''public boolean observesDaylightTime()
+    '''returns boolean\n\n
+    useDaylightTime()\n
     '''
 def inDaylightTime():
-    '''public boolean inDaylightTime(final Date date)
+    '''returns boolean\n\n
+    inDaylightTime(final Date date)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def hasSameRules():
-    '''public boolean hasSameRules(final TimeZone othr)
+    '''returns boolean\n\n
+    hasSameRules(final TimeZone othr)\n
     '''
 def getNextTransition():
-    '''public TimeZoneTransition getNextTransition(final long base, final boolean inclusive)
+    '''returns TimeZoneTransition\n\n
+    getNextTransition(final long base, final boolean inclusive)\n
     '''
 def getPreviousTransition():
-    '''public TimeZoneTransition getPreviousTransition(final long base, final boolean inclusive)
+    '''returns TimeZoneTransition\n\n
+    getPreviousTransition(final long base, final boolean inclusive)\n
     '''
 def getTimeZoneRules():
-    '''public TimeZoneRule[] getTimeZoneRules()
-    '''
-def isFrozen():
-    '''public boolean isFrozen()
-    '''
-def freeze():
-    '''public TimeZone freeze()
-    '''
-def cloneAsThawed():
-    '''public TimeZone cloneAsThawed()
+    '''returns TimeZoneRule[]\n\n
+    getTimeZoneRules()\n
     '''

@@ -1,18 +1,24 @@
-def ProtocolCommandSupport():
-    '''public ProtocolCommandSupport(final Object source)
+def ():
+    '''returns ProtocolCommandSupport\n\n
+    (final Object source)\n
     '''
 def fireCommandSent():
-    '''public void fireCommandSent(final String command, final String message)
+    '''returns None\n\n
+    fireCommandSent(final String command, final String message)\n
     '''
 def fireReplyReceived():
-    '''public void fireReplyReceived(final int replyCode, final String message)
+    '''returns None\n\n
+    fireReplyReceived(final int replyCode, final String message)\n
     '''
 def addProtocolCommandListener():
-    '''public void addProtocolCommandListener(final ProtocolCommandListener listener)
+    '''returns None\n\n
+    addProtocolCommandListener(final ProtocolCommandListener listener)\n
     '''
 def removeProtocolCommandListener():
-    '''public void removeProtocolCommandListener(final ProtocolCommandListener listener)
+    '''returns None\n\n
+    removeProtocolCommandListener(final ProtocolCommandListener listener)\n
     '''
 def getListenerCount():
-    '''public int getListenerCount()
+    '''returns int\n\n
+    getListenerCount()\n
     '''

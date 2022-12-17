@@ -1,43 +1,54 @@
-def QuadBlock():
-    '''public QuadBlock()
-    public QuadBlock(final QuadBlock other)
-    public QuadBlock(final OpQuadPattern quadPattern)
+def ():
+    '''returns QuadBlock\n\n
+    ()\n
+    (final QuadBlock other)\n
+    (final OpQuadPattern quadPattern)\n
     '''
 def clone():
-    '''public QuadBlock clone()
+    '''returns QuadBlock\n\n
+    clone()\n
     '''
 def asArray():
-    '''public Quad[] asArray()
+    '''returns Quad[]\n\n
+    asArray()\n
     '''
 def getGraphNode():
-    '''public Node getGraphNode()
+    '''returns Node\n\n
+    getGraphNode()\n
     '''
 def contains():
-    '''public boolean contains(final Quad pattern)
-    public boolean contains(final Node g, final Node s, final Node p, final Node o)
+    '''returns boolean\n\n
+    contains(final Quad pattern)\n
+    contains(final Node g, final Node s, final Node p, final Node o)\n
     '''
 def findFirst():
-    '''public int findFirst(final Quad pattern)
-    public int findFirst(final Node g, final Node s, final Node p, final Node o)
-    public int findFirst(final int start, final Quad pattern)
-    public int findFirst(final int start, Node g, Node s, Node p, Node o)
+    '''returns int\n\n
+    findFirst(final Quad pattern)\n
+    findFirst(final Node g, final Node s, final Node p, final Node o)\n
+    findFirst(final int start, final Quad pattern)\n
+    findFirst(final int start, Node g, Node s, Node p, Node o)\n
     '''
 def subBlock():
-    '''public QuadBlock subBlock(final int fromIndex, final int toIndex)
-    public QuadBlock subBlock(final int fromIndex)
+    '''returns QuadBlock\n\n
+    subBlock(final int fromIndex, final int toIndex)\n
+    subBlock(final int fromIndex)\n
     '''
 def find():
-    '''public Iterable<Quad> find(final Quad pattern)
-    public Iterable<Quad> find(Node g, Node s, Node p, Node o)
+    '''returns Iterable<Quad>\n\n
+    find(final Quad pattern)\n
+    find(Node g, Node s, Node p, Node o)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final PrefixMapping prefixMapping)
+    '''returns String\n\n
+    toString()\n
+    toString(final PrefixMapping prefixMapping)\n
     '''
 def output():
-    '''public void output(final IndentedWriter out, final SerializationContext sCxt)
-    public void output(final IndentedWriter out)
+    '''returns None\n\n
+    output(final IndentedWriter out, final SerializationContext sCxt)\n
+    output(final IndentedWriter out)\n
     '''
 def apply():
-    '''public void apply(final Quad quad)
+    '''returns None\n\n
+    apply(final Quad quad)\n
     '''

@@ -1,7 +1,9 @@
-def FldQueueNumWaitChats():
-    '''public FldQueueNumWaitChats()
-    public FldQueueNumWaitChats(final MboValue mbv)
+def ():
+    '''returns FldQueueNumWaitChats\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

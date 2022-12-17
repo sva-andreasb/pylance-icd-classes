@@ -1,36 +1,44 @@
 def VIEWXML():
-    '''public int VIEWXML()
+    '''returns int\n\n
+    VIEWXML()\n
     '''
 def ALIAS():
-    '''public int ALIAS()
+    '''returns int\n\n
+    ALIAS()\n
     '''
 def APPIMPORT():
-    '''public int APPIMPORT()
+    '''returns int\n\n
+    APPIMPORT()\n
     '''
 def ADDOSAPP():
-    '''public int ADDOSAPP()
+    '''returns int\n\n
+    ADDOSAPP()\n
     '''
 def handlecancel():
-    '''public int handlecancel()
+    '''returns int\n\n
+    handlecancel()\n
     '''
 def OSLCACTION():
-    '''public int OSLCACTION()
+    '''returns int\n\n
+    OSLCACTION()\n
     '''
 def INTQUERY():
-    '''public int INTQUERY()
+    '''returns int\n\n
+    INTQUERY()\n
     '''
 def APPEXPORT():
-    '''public int APPEXPORT()
+    '''returns int\n\n
+    APPEXPORT()\n
     '''
 def handletree():
-    '''public int handletree()
+    '''returns int\n\n
+    handletree()\n
     '''
 def copySigOption():
-    '''public void copySigOption()
+    '''returns None\n\n
+    copySigOption()\n
     '''
 def PUBLISH():
-    '''public int PUBLISH()
-    '''
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''returns int\n\n
+    PUBLISH()\n
     '''

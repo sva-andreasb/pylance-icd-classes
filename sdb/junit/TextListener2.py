@@ -1,15 +1,20 @@
-def TextListener2():
-    '''public TextListener2(final PrintStream writer)
+def ():
+    '''returns TextListener2\n\n
+    (final PrintStream writer)\n
     '''
 def testRunStarted():
-    '''public void testRunStarted(final Description description)
+    '''returns None\n\n
+    testRunStarted(final Description description)\n
     '''
 def testStarted():
-    '''public void testStarted(final Description description)
+    '''returns None\n\n
+    testStarted(final Description description)\n
     '''
 def testFailure():
-    '''public void testFailure(final Failure failure)
+    '''returns None\n\n
+    testFailure(final Failure failure)\n
     '''
 def testIgnored():
-    '''public void testIgnored(final Description description)
+    '''returns None\n\n
+    testIgnored(final Description description)\n
     '''

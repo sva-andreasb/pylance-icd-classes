@@ -1,78 +1,103 @@
-def MboValueData():
-    '''public MboValueData(final MboValueInfo mvi)
-    public MboValueData(final MboValue mv)
-    public MboValueData(final MboValue mv, final boolean ignoreFieldFlags)
+def ():
+    '''returns MboValueData\n\n
+    (final MboValueInfo mvi)\n
+    (final MboValue mv)\n
+    (final MboValue mv, final boolean ignoreFieldFlags)\n
     '''
 def isNumeric():
-    '''public boolean isNumeric()
+    '''returns boolean\n\n
+    isNumeric()\n
     '''
 def getTypeAsInt():
-    '''public int getTypeAsInt()
+    '''returns int\n\n
+    getTypeAsInt()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def getDataAsObject():
-    '''public Object getDataAsObject()
-    public Object getDataAsObject(final int dataType)
+    '''returns Object\n\n
+    getDataAsObject()\n
+    getDataAsObject(final int dataType)\n
     '''
 def getDataAsBoolean():
-    '''public boolean getDataAsBoolean()
+    '''returns boolean\n\n
+    getDataAsBoolean()\n
     '''
 def getDataAsDate():
-    '''public Date getDataAsDate()
+    '''returns Date\n\n
+    getDataAsDate()\n
     '''
 def getDataAsDouble():
-    '''public double getDataAsDouble()
+    '''returns double\n\n
+    getDataAsDouble()\n
     '''
 def getDataAsFloat():
-    '''public float getDataAsFloat()
+    '''returns float\n\n
+    getDataAsFloat()\n
     '''
 def getDataAsInt():
-    '''public int getDataAsInt()
+    '''returns int\n\n
+    getDataAsInt()\n
     '''
 def getDataAsLong():
-    '''public long getDataAsLong()
+    '''returns long\n\n
+    getDataAsLong()\n
     '''
 def isNull():
-    '''public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def isHidden():
-    '''public boolean isHidden()
+    '''returns boolean\n\n
+    isHidden()\n
     '''
 def hasLongDescription():
-    '''public boolean hasLongDescription()
+    '''returns boolean\n\n
+    hasLongDescription()\n
     '''
 def getClonedMaxType():
-    '''public MaxType getClonedMaxType()
+    '''returns MaxType\n\n
+    getClonedMaxType()\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''
 def overrideStringData():
-    '''public void overrideStringData(final String newValue)
+    '''returns None\n\n
+    overrideStringData(final String newValue)\n
     '''
 def getProcessValue():
-    '''public String getProcessValue()
+    '''returns String\n\n
+    getProcessValue()\n
     '''
 def getApplicationError():
-    '''public ApplicationError getApplicationError()
+    '''returns ApplicationError\n\n
+    getApplicationError()\n
     '''
 def isApplicationRequired():
-    '''public boolean isApplicationRequired()
+    '''returns boolean\n\n
+    isApplicationRequired()\n
     '''

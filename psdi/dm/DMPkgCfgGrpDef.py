@@ -1,15 +1,20 @@
-def DMPkgCfgGrpDef():
-    '''public DMPkgCfgGrpDef(final MboSet ms)
+def ():
+    '''returns DMPkgCfgGrpDef\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setWhereClauses():
-    '''public void setWhereClauses(final boolean init)
+    '''returns None\n\n
+    setWhereClauses(final boolean init)\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

@@ -1,81 +1,108 @@
 def getAgentDetails():
-    '''public Details getAgentDetails()
+    '''returns Details\n\n
+    getAgentDetails()\n
     '''
 def setAgentDetails():
-    '''public void setAgentDetails(final Details agentDetails)
+    '''returns None\n\n
+    setAgentDetails(final Details agentDetails)\n
     '''
 def getCurrentAntivirusPolicy():
-    '''public Long getCurrentAntivirusPolicy()
+    '''returns Long\n\n
+    getCurrentAntivirusPolicy()\n
     '''
 def setCurrentAntivirusPolicy():
-    '''public void setCurrentAntivirusPolicy(final Long currentAntivirusPolicy)
+    '''returns None\n\n
+    setCurrentAntivirusPolicy(final Long currentAntivirusPolicy)\n
     '''
 def getDataFileVersion():
-    '''public Properties getDataFileVersion()
+    '''returns Properties\n\n
+    getDataFileVersion()\n
     '''
 def setDataFileVersion():
-    '''public void setDataFileVersion(final Properties dataFileVersion)
+    '''returns None\n\n
+    setDataFileVersion(final Properties dataFileVersion)\n
     '''
 def getLatestAccessProtectionEvents():
-    '''public List<Event> getLatestAccessProtectionEvents()
+    '''returns List<Event>\n\n
+    getLatestAccessProtectionEvents()\n
     '''
 def getLatestAntivirusEvents():
-    '''public List<Event> getLatestAntivirusEvents()
+    '''returns List<Event>\n\n
+    getLatestAntivirusEvents()\n
     '''
 def getLatestSpywareEvents():
-    '''public List<Event> getLatestSpywareEvents()
+    '''returns List<Event>\n\n
+    getLatestSpywareEvents()\n
     '''
 def getTransactionStatus():
-    '''public String getTransactionStatus()
+    '''returns String\n\n
+    getTransactionStatus()\n
     '''
 def setTransactionStatus():
-    '''public void setTransactionStatus(final String transactionStatus)
+    '''returns None\n\n
+    setTransactionStatus(final String transactionStatus)\n
     '''
 def getEpoVersion():
-    '''public String getEpoVersion()
+    '''returns String\n\n
+    getEpoVersion()\n
     '''
 def setEpoVersion():
-    '''public void setEpoVersion(final String epoVersion)
+    '''returns None\n\n
+    setEpoVersion(final String epoVersion)\n
     '''
 def isEpoVersionSpecified():
-    '''public boolean isEpoVersionSpecified()
+    '''returns boolean\n\n
+    isEpoVersionSpecified()\n
     '''
 def unsetEpoVersion():
-    '''public void unsetEpoVersion()
+    '''returns None\n\n
+    unsetEpoVersion()\n
     '''
 def getLatestAccessProtectionEventCount():
-    '''public Long getLatestAccessProtectionEventCount()
+    '''returns Long\n\n
+    getLatestAccessProtectionEventCount()\n
     '''
 def setLatestAccessProtectionEventCount():
-    '''public void setLatestAccessProtectionEventCount(final Long latestAccessProtectionEventCount)
+    '''returns None\n\n
+    setLatestAccessProtectionEventCount(final Long latestAccessProtectionEventCount)\n
     '''
 def getLatestAntivirusEventCount():
-    '''public Long getLatestAntivirusEventCount()
+    '''returns Long\n\n
+    getLatestAntivirusEventCount()\n
     '''
 def setLatestAntivirusEventCount():
-    '''public void setLatestAntivirusEventCount(final Long latestAntivirusEventCount)
+    '''returns None\n\n
+    setLatestAntivirusEventCount(final Long latestAntivirusEventCount)\n
     '''
 def getLatestSpywareEventCount():
-    '''public Long getLatestSpywareEventCount()
+    '''returns Long\n\n
+    getLatestSpywareEventCount()\n
     '''
 def setLatestSpywareEventCount():
-    '''public void setLatestSpywareEventCount(final Long latestSpywareEventCount)
+    '''returns None\n\n
+    setLatestSpywareEventCount(final Long latestSpywareEventCount)\n
     '''
 def currentAntivirusPolicy():
-    '''public Mask currentAntivirusPolicy()
+    '''returns Mask\n\n
+    currentAntivirusPolicy()\n
     '''
 def transactionStatus():
-    '''public Mask transactionStatus()
+    '''returns Mask\n\n
+    transactionStatus()\n
     '''
 def epoVersion():
-    '''public Mask epoVersion()
+    '''returns Mask\n\n
+    epoVersion()\n
     '''
 def latestAccessProtectionEventCount():
-    '''public Mask latestAccessProtectionEventCount()
+    '''returns Mask\n\n
+    latestAccessProtectionEventCount()\n
     '''
 def latestAntivirusEventCount():
-    '''public Mask latestAntivirusEventCount()
+    '''returns Mask\n\n
+    latestAntivirusEventCount()\n
     '''
 def latestSpywareEventCount():
-    '''public Mask latestSpywareEventCount()
+    '''returns Mask\n\n
+    latestSpywareEventCount()\n
     '''

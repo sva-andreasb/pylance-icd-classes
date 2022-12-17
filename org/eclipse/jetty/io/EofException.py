@@ -1,5 +1,6 @@
-def EofException():
-    '''public EofException()
-    public EofException(final String reason)
-    public EofException(final Throwable th)
+def ():
+    '''returns EofException\n\n
+    ()\n
+    (final String reason)\n
+    (final Throwable th)\n
     '''

@@ -1,3 +1,4 @@
-def SKDActivityQBESet():
-    '''public SKDActivityQBESet(final MboServerInterface ms)
+def ():
+    '''returns SKDActivityQBESet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,9 +1,12 @@
-def RepFacAuthSet():
-    '''public RepFacAuthSet(final MboServerInterface ms)
+def ():
+    '''returns RepFacAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def deleteAndRemove():
-    '''public void deleteAndRemove(final int pos, final long accessModifier)
+    '''returns None\n\n
+    deleteAndRemove(final int pos, final long accessModifier)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

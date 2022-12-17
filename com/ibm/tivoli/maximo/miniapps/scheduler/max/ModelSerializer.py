@@ -1,25 +1,33 @@
-def ModelSerializer():
-    '''public ModelSerializer(final Supplier<UIOptions> optionsSupplier, final MaxSerializationHelper helper)
+def ():
+    '''returns ModelSerializer\n\n
+    (final Supplier<UIOptions> optionsSupplier, final MaxSerializationHelper helper)\n
     '''
 def serializeChildren():
-    '''public JSONObject serializeChildren(final Schedule schedule, final String activityID)
-    public JSONObject serializeChildren(final Schedule schedule, final String activityID, final int level)
+    '''returns JSONObject\n\n
+    serializeChildren(final Schedule schedule, final String activityID)\n
+    serializeChildren(final Schedule schedule, final String activityID, final int level)\n
     '''
 def serializePage():
-    '''public JSONObject serializePage(final Schedule schedule, final int p)
+    '''returns JSONObject\n\n
+    serializePage(final Schedule schedule, final int p)\n
     '''
 def serializeHierarchy():
-    '''public JSONObject serializeHierarchy(final Schedule schedule, String activityID)
+    '''returns JSONObject\n\n
+    serializeHierarchy(final Schedule schedule, String activityID)\n
     '''
 def serializeCircularDependencies():
-    '''public JSONObject serializeCircularDependencies(final Schedule schedule, final List<String> activityIDs)
+    '''returns JSONObject\n\n
+    serializeCircularDependencies(final Schedule schedule, final List<String> activityIDs)\n
     '''
 def serializeCompareRootPages():
-    '''public JSONObject serializeCompareRootPages(final Schedule leftSchedule, final Schedule rightSchedule)
+    '''returns JSONObject\n\n
+    serializeCompareRootPages(final Schedule leftSchedule, final Schedule rightSchedule)\n
     '''
 def serializeRootPages():
-    '''public JSONObject serializeRootPages(final Schedule schedule)
+    '''returns JSONObject\n\n
+    serializeRootPages(final Schedule schedule)\n
     '''
 def serializeAllRecords():
-    '''public JSONObject serializeAllRecords(final Schedule schedule)
+    '''returns JSONObject\n\n
+    serializeAllRecords(final Schedule schedule)\n
     '''

@@ -1,18 +1,24 @@
-def MaxVarsSet():
-    '''public MaxVarsSet(final MboServerInterface ms)
+def ():
+    '''returns MaxVarsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addSiteOrgMaxvars():
-    '''public void addSiteOrgMaxvars()
+    '''returns None\n\n
+    addSiteOrgMaxvars()\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def setRefreshCache():
-    '''public void setRefreshCache(final boolean value)
+    '''returns None\n\n
+    setRefreshCache(final boolean value)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def save():
-    '''public void save(final long flags)
+    '''returns None\n\n
+    save(final long flags)\n
     '''

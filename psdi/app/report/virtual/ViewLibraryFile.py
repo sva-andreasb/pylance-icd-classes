@@ -1,3 +1,4 @@
-def ViewLibraryFile():
-    '''public ViewLibraryFile(final MboSet ms)
+def ():
+    '''returns ViewLibraryFile\n\n
+    (final MboSet ms)\n
     '''

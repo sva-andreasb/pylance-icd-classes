@@ -1,9 +1,8 @@
-def ItemChangeStatusBean():
-    '''public ItemChangeStatusBean()
+def ():
+    '''returns ItemChangeStatusBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(final String option)
+    '''returns int\n\n
+    execute()\n
     '''

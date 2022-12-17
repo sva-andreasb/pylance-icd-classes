@@ -1,29 +1,30 @@
 SCRIPT_LOGGER = "String  \"maximo.script\""
-def getInstance():
-    '''public static final ScriptCache getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getScriptInfo():
-    '''public ScriptInfo getScriptInfo(final String name)
+    '''returns ScriptInfo\n\n
+    getScriptInfo(final String name)\n
     '''
 def fireNPSetupEvent():
-    '''public MboRemote fireNPSetupEvent(final NonPersistentMboSet npSet)
+    '''returns MboRemote\n\n
+    fireNPSetupEvent(final NonPersistentMboSet npSet)\n
     '''
 def fireNPExecuteEvent():
-    '''public void fireNPExecuteEvent(final NonPersistentMboSet npSet, final MboRemote mboToWorkOn)
-    public void fireNPExecuteEvent(final NonPersistentMboSet npSet)
+    '''returns None\n\n
+    fireNPExecuteEvent(final NonPersistentMboSet npSet, final MboRemote mboToWorkOn)\n
+    fireNPExecuteEvent(final NonPersistentMboSet npSet)\n
     '''
 def fireAfterDuplicateEvent():
-    '''public void fireAfterDuplicateEvent(final MboRemote mbo, final MboRemote dupMbo)
+    '''returns None\n\n
+    fireAfterDuplicateEvent(final MboRemote mbo, final MboRemote dupMbo)\n
     '''
 def getObjectScriptAndLPFor():
-    '''public String[] getObjectScriptAndLPFor(final String objectName, final long objectEvent)
-    '''
-def getAllScripts():
-    '''public Map<String, ScriptInfo> getAllScripts()
+    '''returns String[]\n\n
+    getObjectScriptAndLPFor(final String objectName, final long objectEvent)\n
     '''
 def zombieInit():
-    '''public void zombieInit(final EventMessage msg)
+    '''returns None\n\n
+    zombieInit(final EventMessage msg)\n
     '''

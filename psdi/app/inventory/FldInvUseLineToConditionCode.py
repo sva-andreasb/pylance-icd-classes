@@ -1,6 +1,8 @@
-def FldInvUseLineToConditionCode():
-    '''public FldInvUseLineToConditionCode(final MboValue mbv)
+def ():
+    '''returns FldInvUseLineToConditionCode\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

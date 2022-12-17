@@ -1,5 +1,6 @@
-def ConnectTimeoutException():
-    '''public ConnectTimeoutException()
-    public ConnectTimeoutException(final String message)
-    public ConnectTimeoutException(final String message, final Throwable cause)
+def ():
+    '''returns ConnectTimeoutException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

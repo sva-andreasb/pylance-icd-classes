@@ -1,58 +1,73 @@
-def ContinuousCallbackWrapper():
-    '''public ContinuousCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
-    public ContinuousCallbackWrapper(final IloEnv env)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final ContinuousCallbackWrapper obj)
+def ():
+    '''returns ContinuousCallbackWrapper\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final IloEnv env)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def main_cpp():
-    '''public void main_cpp()
+    '''returns None\n\n
+    main_cpp()\n
     '''
 def duplicateCallback():
-    '''public IloCplex__CallbackI duplicateCallback()
+    '''returns IloCplex__CallbackI\n\n
+    duplicateCallback()\n
     '''
 def callbackImpl():
-    '''public void callbackImpl()
+    '''returns None\n\n
+    callbackImpl()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def getEnv():
-    '''public IloEnv getEnv()
+    '''returns IloEnv\n\n
+    getEnv()\n
     '''
 def getModel():
-    '''public IloModel getModel()
+    '''returns IloModel\n\n
+    getModel()\n
     '''
 def getNcols():
-    '''public int getNcols()
+    '''returns int\n\n
+    getNcols()\n
     '''
 def getNrows():
-    '''public int getNrows()
+    '''returns int\n\n
+    getNrows()\n
     '''
 def getNQCs():
-    '''public int getNQCs()
+    '''returns int\n\n
+    getNQCs()\n
     '''
 def getObjValue():
-    '''public double getObjValue()
+    '''returns double\n\n
+    getObjValue()\n
     '''
 def getInfeasibility():
-    '''public double getInfeasibility()
+    '''returns double\n\n
+    getInfeasibility()\n
     '''
 def getDualInfeasibility():
-    '''public double getDualInfeasibility()
+    '''returns double\n\n
+    getDualInfeasibility()\n
     '''
 def isFeasible():
-    '''public boolean isFeasible()
+    '''returns boolean\n\n
+    isFeasible()\n
     '''
 def isDualFeasible():
-    '''public boolean isDualFeasible()
+    '''returns boolean\n\n
+    isDualFeasible()\n
     '''
 def getNiterations():
-    '''public int getNiterations()
+    '''returns int\n\n
+    getNiterations()\n
     '''
 def getNiterations64():
-    '''public long getNiterations64()
+    '''returns long\n\n
+    getNiterations64()\n
     '''

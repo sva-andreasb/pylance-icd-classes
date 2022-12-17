@@ -1,13 +1,17 @@
 def updateReadonlyActivityGraphic():
-    '''public void updateReadonlyActivityGraphic(final IlvReservationGraphic ag)
+    '''returns None\n\n
+    updateReadonlyActivityGraphic(final IlvReservationGraphic ag)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def createNewAssignment():
-    '''public MXActivity createNewAssignment(final SortGanttModel model, final IlvActivity activity, final long start, final long end)
+    '''returns MXActivity\n\n
+    createNewAssignment(final SortGanttModel model, final IlvActivity activity, final long start, final long end)\n
     '''
 def ReAssignAssignment():
-    '''public void ReAssignAssignment(final SortGanttModel model, final IlvActivity activity)
+    '''returns None\n\n
+    ReAssignAssignment(final SortGanttModel model, final IlvActivity activity)\n
     '''

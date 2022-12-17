@@ -1,60 +1,80 @@
-def HttpBuffersImpl():
-    '''public HttpBuffersImpl()
+def ():
+    '''returns HttpBuffersImpl\n\n
+    ()\n
     '''
 def getRequestBufferSize():
-    '''public int getRequestBufferSize()
+    '''returns int\n\n
+    getRequestBufferSize()\n
     '''
 def setRequestBufferSize():
-    '''public void setRequestBufferSize(final int requestBufferSize)
+    '''returns None\n\n
+    setRequestBufferSize(final int requestBufferSize)\n
     '''
 def getRequestHeaderSize():
-    '''public int getRequestHeaderSize()
+    '''returns int\n\n
+    getRequestHeaderSize()\n
     '''
 def setRequestHeaderSize():
-    '''public void setRequestHeaderSize(final int requestHeaderSize)
+    '''returns None\n\n
+    setRequestHeaderSize(final int requestHeaderSize)\n
     '''
 def getResponseBufferSize():
-    '''public int getResponseBufferSize()
+    '''returns int\n\n
+    getResponseBufferSize()\n
     '''
 def setResponseBufferSize():
-    '''public void setResponseBufferSize(final int responseBufferSize)
+    '''returns None\n\n
+    setResponseBufferSize(final int responseBufferSize)\n
     '''
 def getResponseHeaderSize():
-    '''public int getResponseHeaderSize()
+    '''returns int\n\n
+    getResponseHeaderSize()\n
     '''
 def setResponseHeaderSize():
-    '''public void setResponseHeaderSize(final int responseHeaderSize)
+    '''returns None\n\n
+    setResponseHeaderSize(final int responseHeaderSize)\n
     '''
 def setRequestBufferType():
-    '''public void setRequestBufferType(final Buffers.Type requestBufferType)
+    '''returns None\n\n
+    setRequestBufferType(final Buffers.Type requestBufferType)\n
     '''
 def setRequestHeaderType():
-    '''public void setRequestHeaderType(final Buffers.Type requestHeaderType)
+    '''returns None\n\n
+    setRequestHeaderType(final Buffers.Type requestHeaderType)\n
     '''
 def setResponseBufferType():
-    '''public void setResponseBufferType(final Buffers.Type responseBufferType)
+    '''returns None\n\n
+    setResponseBufferType(final Buffers.Type responseBufferType)\n
     '''
 def setResponseHeaderType():
-    '''public void setResponseHeaderType(final Buffers.Type responseHeaderType)
+    '''returns None\n\n
+    setResponseHeaderType(final Buffers.Type responseHeaderType)\n
     '''
 def setRequestBuffers():
-    '''public void setRequestBuffers(final Buffers requestBuffers)
+    '''returns None\n\n
+    setRequestBuffers(final Buffers requestBuffers)\n
     '''
 def setResponseBuffers():
-    '''public void setResponseBuffers(final Buffers responseBuffers)
+    '''returns None\n\n
+    setResponseBuffers(final Buffers responseBuffers)\n
     '''
 def getRequestBuffers():
-    '''public Buffers getRequestBuffers()
+    '''returns Buffers\n\n
+    getRequestBuffers()\n
     '''
 def getResponseBuffers():
-    '''public Buffers getResponseBuffers()
+    '''returns Buffers\n\n
+    getResponseBuffers()\n
     '''
 def setMaxBuffers():
-    '''public void setMaxBuffers(final int maxBuffers)
+    '''returns None\n\n
+    setMaxBuffers(final int maxBuffers)\n
     '''
 def getMaxBuffers():
-    '''public int getMaxBuffers()
+    '''returns int\n\n
+    getMaxBuffers()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

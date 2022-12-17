@@ -1,9 +1,12 @@
 def PROMOTE():
-    '''public int PROMOTE()
+    '''returns int\n\n
+    PROMOTE()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def deleteAll():
-    '''public void deleteAll(final MboSetRemote setToDelete)
+    '''returns None\n\n
+    deleteAll(final MboSetRemote setToDelete)\n
     '''

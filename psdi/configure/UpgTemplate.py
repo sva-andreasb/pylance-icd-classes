@@ -1,49 +1,32 @@
-def UpgTemplate():
-    '''public UpgTemplate(final CommonShell shell)
+def ():
+    '''returns UpgTemplate\n\n
+    (final CommonShell shell)\n
     '''
 def doSql():
-    '''public void doSql(final AbstractList list)
-    public void doSql(final String sql)
+    '''returns None\n\n
+    doSql(final AbstractList list)\n
+    doSql(final String sql)\n
     '''
 def buildRenameColumnStatement():
-    '''public ArrayList buildRenameColumnStatement(final String tableName, final String oldColumnName, final String newColumnName)
+    '''returns ArrayList\n\n
+    buildRenameColumnStatement(final String tableName, final String oldColumnName, final String newColumnName)\n
     '''
 def showMXException():
-    '''public void showMXException(final MXApplicationException e, final boolean infoOnly, final boolean hideErrorKey)
-    public void showMXException(final MXApplicationException e)
+    '''returns None\n\n
+    showMXException(final MXApplicationException e, final boolean infoOnly, final boolean hideErrorKey)\n
+    showMXException(final MXApplicationException e)\n
     '''
 def getDisplayMessage():
-    '''public String getDisplayMessage(final String errorkey, final Object[] params)
-    public String getDisplayMessage(final String errorgroup, final String errorkey, final Object[] params)
-    public String getDisplayMessage(final String errorkey)
-    '''
-def showMsg():
-    '''public final void showMsg(final String str)
-    '''
-def getDbIn():
-    '''public final int getDbIn()
-    '''
-def getDbConnection():
-    '''public final Connection getDbConnection()
-    '''
-def getLogStream():
-    '''public final PrintStream getLogStream()
-    '''
-def getUtil():
-    '''public final Util getUtil()
-    '''
-def getSchemaOwner():
-    '''public final String getSchemaOwner()
-    '''
-def isLoggingSql():
-    '''public final boolean isLoggingSql()
-    '''
-def isExecutingSql():
-    '''public final boolean isExecutingSql()
+    '''returns String\n\n
+    getDisplayMessage(final String errorkey, final Object[] params)\n
+    getDisplayMessage(final String errorgroup, final String errorkey, final Object[] params)\n
+    getDisplayMessage(final String errorkey)\n
     '''
 def updateStatistics():
-    '''public void updateStatistics(final ArrayList tables, final TreeMap indexes)
+    '''returns None\n\n
+    updateStatistics(final ArrayList tables, final TreeMap indexes)\n
     '''
 def doSqlProcedure():
-    '''public void doSqlProcedure(final String storedProcedure, final LinkedHashMap<Object, Integer> parameters)
+    '''returns None\n\n
+    doSqlProcedure(final String storedProcedure, final LinkedHashMap<Object, Integer> parameters)\n
     '''

@@ -1,101 +1,58 @@
-def isAssignable():
-    '''public static boolean isAssignable(final Type type, final Type toType)
-    '''
-def isInstance():
-    '''public static boolean isInstance(final Object value, final Type type)
-    '''
-def normalizeUpperBounds():
-    '''public static Type[] normalizeUpperBounds(final Type[] bounds)
-    '''
-def getImplicitBounds():
-    '''public static Type[] getImplicitBounds(final TypeVariable<?> typeVariable)
-    '''
-def getImplicitUpperBounds():
-    '''public static Type[] getImplicitUpperBounds(final WildcardType wildcardType)
-    '''
-def getImplicitLowerBounds():
-    '''public static Type[] getImplicitLowerBounds(final WildcardType wildcardType)
-    '''
-def typesSatisfyVariables():
-    '''public static boolean typesSatisfyVariables(final Map<TypeVariable<?>, Type> typeVarAssigns)
-    '''
-def isArrayType():
-    '''public static boolean isArrayType(final Type type)
-    '''
-def getArrayComponentType():
-    '''public static Type getArrayComponentType(final Type type)
-    '''
-def unrollVariables():
-    '''public static Type unrollVariables(Map<TypeVariable<?>, Type> typeArguments, final Type type)
-    '''
-def containsTypeVariables():
-    '''public static boolean containsTypeVariables(final Type type)
-    '''
-def parameterize():
-    '''public static final ParameterizedType parameterize(final Class<?> raw, final Type... typeArguments)
-    public static final ParameterizedType parameterize(final Class<?> raw, final Map<TypeVariable<?>, Type> typeArgMappings)
-    '''
-def parameterizeWithOwner():
-    '''public static final ParameterizedType parameterizeWithOwner(final Type owner, final Class<?> raw, final Type... typeArguments)
-    public static final ParameterizedType parameterizeWithOwner(final Type owner, final Class<?> raw, final Map<TypeVariable<?>, Type> typeArgMappings)
-    '''
-def wildcardType():
-    '''public static WildcardTypeBuilder wildcardType()
-    '''
-def genericArrayType():
-    '''public static GenericArrayType genericArrayType(final Type componentType)
-    '''
-def equals():
-    '''public static boolean equals(final Type t1, final Type t2)
-    public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
-    '''
-def toString():
-    '''public static String toString(final Type type)
-    public String toString()
-    public String toString()
-    public String toString()
-    '''
-def toLongString():
-    '''public static String toLongString(final TypeVariable<?> var)
-    '''
-def wrap():
-    '''public static <T> Typed<T> wrap(final Type type)
-    public static <T> Typed<T> wrap(final Class<T> type)
-    '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def withUpperBounds():
-    '''public WildcardTypeBuilder withUpperBounds(final Type... bounds)
+    '''returns WildcardTypeBuilder\n\n
+    withUpperBounds(final Type... bounds)\n
     '''
 def withLowerBounds():
-    '''public WildcardTypeBuilder withLowerBounds(final Type... bounds)
+    '''returns WildcardTypeBuilder\n\n
+    withLowerBounds(final Type... bounds)\n
     '''
 def build():
-    '''public WildcardType build()
+    '''returns WildcardType\n\n
+    build()\n
     '''
 def getGenericComponentType():
-    '''public Type getGenericComponentType()
+    '''returns Type\n\n
+    getGenericComponentType()\n
+    '''
+def toString():
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    '''
+def equals():
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
+    hashCode()\n
     '''
 def getRawType():
-    '''public Type getRawType()
+    '''returns Type\n\n
+    getRawType()\n
     '''
 def getOwnerType():
-    '''public Type getOwnerType()
+    '''returns Type\n\n
+    getOwnerType()\n
     '''
 def getActualTypeArguments():
-    '''public Type[] getActualTypeArguments()
+    '''returns Type[]\n\n
+    getActualTypeArguments()\n
     '''
 def getUpperBounds():
-    '''public Type[] getUpperBounds()
+    '''returns Type[]\n\n
+    getUpperBounds()\n
     '''
 def getLowerBounds():
-    '''public Type[] getLowerBounds()
+    '''returns Type[]\n\n
+    getLowerBounds()\n
     '''

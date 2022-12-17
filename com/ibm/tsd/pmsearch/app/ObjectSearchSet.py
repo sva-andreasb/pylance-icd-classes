@@ -1,6 +1,8 @@
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
-def ObjectSearchSet():
-    '''public ObjectSearchSet(final MboServerInterface ms)
+def ():
+    '''returns ObjectSearchSet\n\n
+    (final MboServerInterface ms)\n
     '''

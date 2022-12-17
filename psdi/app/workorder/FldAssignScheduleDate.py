@@ -1,27 +1,36 @@
-def FldAssignScheduleDate():
-    '''public FldAssignScheduleDate(final MboValue mbv)
+def ():
+    '''returns FldAssignScheduleDate\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setAssignWorkDate():
-    '''public void setAssignWorkDate(final Assignment assignMbo)
+    '''returns None\n\n
+    setAssignWorkDate(final Assignment assignMbo)\n
     '''
 def isWPMidnightSpanning():
-    '''public boolean isWPMidnightSpanning(final MboRemote workTimeMbo)
+    '''returns boolean\n\n
+    isWPMidnightSpanning(final MboRemote workTimeMbo)\n
     '''
 def isAssignMidnightSpanning():
-    '''public boolean isAssignMidnightSpanning(final Assignment assignMbo)
+    '''returns boolean\n\n
+    isAssignMidnightSpanning(final Assignment assignMbo)\n
     '''
 def assignAndWPOverlap():
-    '''public boolean assignAndWPOverlap(final Assignment assignMbo, final MboRemote workTimeMbo, final GregorianCalendar scratchCal, final AvailCalc availCalc)
+    '''returns boolean\n\n
+    assignAndWPOverlap(final Assignment assignMbo, final MboRemote workTimeMbo, final GregorianCalendar scratchCal, final AvailCalc availCalc)\n
     '''
 def getWorkDatePlusDifference():
-    '''public Date getWorkDatePlusDifference(final Date wpWorkDate, final GregorianCalendar scratchCal, final int offset)
+    '''returns Date\n\n
+    getWorkDatePlusDifference(final Date wpWorkDate, final GregorianCalendar scratchCal, final int offset)\n
     '''
 def getAvailableMbo():
-    '''public MboRemote getAvailableMbo(final MboRemote resMbo, final Date wpWorkDate, final String orgID, final AvailCalc availCalc)
+    '''returns MboRemote\n\n
+    getAvailableMbo(final MboRemote resMbo, final Date wpWorkDate, final String orgID, final AvailCalc availCalc)\n
     '''
 def getResourceMbo():
-    '''public MboRemote getResourceMbo(final MboRemote mbo, final Resource resourceName)
+    '''returns MboRemote\n\n
+    getResourceMbo(final MboRemote mbo, final Resource resourceName)\n
     '''

@@ -1,41 +1,54 @@
 NAMESPACE = "String  \"storage:bookmarks\""
 ELEMENT = "String  \"storage\""
-def Bookmarks():
-    '''public Bookmarks()
+def ():
+    '''returns Bookmarks\n\n
+    ()\n
     '''
 def addBookmarkedURL():
-    '''public void addBookmarkedURL(final BookmarkedURL bookmarkedURL)
+    '''returns None\n\n
+    addBookmarkedURL(final BookmarkedURL bookmarkedURL)\n
     '''
 def removeBookmarkedURL():
-    '''public void removeBookmarkedURL(final BookmarkedURL bookmarkedURL)
+    '''returns None\n\n
+    removeBookmarkedURL(final BookmarkedURL bookmarkedURL)\n
     '''
 def clearBookmarkedURLS():
-    '''public void clearBookmarkedURLS()
+    '''returns None\n\n
+    clearBookmarkedURLS()\n
     '''
 def addBookmarkedConference():
-    '''public void addBookmarkedConference(final BookmarkedConference bookmarkedConference)
+    '''returns None\n\n
+    addBookmarkedConference(final BookmarkedConference bookmarkedConference)\n
     '''
 def removeBookmarkedConference():
-    '''public void removeBookmarkedConference(final BookmarkedConference bookmarkedConference)
+    '''returns None\n\n
+    removeBookmarkedConference(final BookmarkedConference bookmarkedConference)\n
     '''
 def clearBookmarkedConferences():
-    '''public void clearBookmarkedConferences()
+    '''returns None\n\n
+    clearBookmarkedConferences()\n
     '''
 def getBookmarkedURLS():
-    '''public List<BookmarkedURL> getBookmarkedURLS()
+    '''returns List<BookmarkedURL>\n\n
+    getBookmarkedURLS()\n
     '''
 def getBookmarkedConferences():
-    '''public List<BookmarkedConference> getBookmarkedConferences()
+    '''returns List<BookmarkedConference>\n\n
+    getBookmarkedConferences()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML()
+    '''returns XmlStringBuilder\n\n
+    toXML()\n
     '''
 def parsePrivateData():
-    '''public PrivateData parsePrivateData(final XmlPullParser parser)
+    '''returns PrivateData\n\n
+    parsePrivateData(final XmlPullParser parser)\n
     '''

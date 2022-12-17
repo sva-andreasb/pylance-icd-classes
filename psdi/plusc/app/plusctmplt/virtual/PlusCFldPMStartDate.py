@@ -1,7 +1,9 @@
-def PlusCFldPMStartDate():
-    '''public PlusCFldPMStartDate()
-    public PlusCFldPMStartDate(final MboValue mbv)
+def ():
+    '''returns PlusCFldPMStartDate\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

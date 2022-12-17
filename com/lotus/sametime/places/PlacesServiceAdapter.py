@@ -1,6 +1,8 @@
 def serviceAvailable():
-    '''public void serviceAvailable(final PlacesServiceEvent placesServiceEvent)
+    '''returns None\n\n
+    serviceAvailable(final PlacesServiceEvent placesServiceEvent)\n
     '''
 def serviceUnavailable():
-    '''public void serviceUnavailable(final PlacesServiceEvent placesServiceEvent)
+    '''returns None\n\n
+    serviceUnavailable(final PlacesServiceEvent placesServiceEvent)\n
     '''

@@ -1,19 +1,25 @@
-def CompareResultEntry():
-    '''public CompareResultEntry(final String attrName, final Object left, final Object right)
-    public CompareResultEntry(final String attrName, final CompareResults results)
+def ():
+    '''returns CompareResultEntry\n\n
+    (final String attrName, final Object left, final Object right)\n
+    (final String attrName, final CompareResults results)\n
     '''
 def getAttrName():
-    '''public String getAttrName()
+    '''returns String\n\n
+    getAttrName()\n
     '''
 def getLeft():
-    '''public Object getLeft()
+    '''returns Object\n\n
+    getLeft()\n
     '''
 def getRight():
-    '''public Object getRight()
+    '''returns Object\n\n
+    getRight()\n
     '''
 def getResults():
-    '''public CompareResults getResults()
+    '''returns CompareResults\n\n
+    getResults()\n
     '''
 def hasNestedResults():
-    '''public boolean hasNestedResults()
+    '''returns boolean\n\n
+    hasNestedResults()\n
     '''

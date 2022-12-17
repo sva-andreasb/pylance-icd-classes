@@ -1,6 +1,8 @@
-def PmtcoCICRTV():
-    '''public PmtcoCICRTV(final MboSet ms)
+def ():
+    '''returns PmtcoCICRTV\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

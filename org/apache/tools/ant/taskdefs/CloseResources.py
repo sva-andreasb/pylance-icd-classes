@@ -1,9 +1,12 @@
-def CloseResources():
-    '''public CloseResources()
+def ():
+    '''returns CloseResources\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final ResourceCollection rc)
+    '''returns None\n\n
+    add(final ResourceCollection rc)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

@@ -1,0 +1,1 @@
+eINSTANCE = "EcoreFactory  new EcoreFactoryImpl()"

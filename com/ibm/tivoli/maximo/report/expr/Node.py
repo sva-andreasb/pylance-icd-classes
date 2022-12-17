@@ -6,47 +6,60 @@ Number = "int  4"
 Group = "int  5"
 GroupSeparator = "int  6"
 Operand = "int  7"
-def Node():
-    '''public Node(final int type)
-    public Node(final int type, final String value)
-    public Node(final Node parent, final int type, final String value)
+def ():
+    '''returns Node\n\n
+    (final int type)\n
+    (final int type, final String value)\n
+    (final Node parent, final int type, final String value)\n
     '''
 def addChild():
-    '''public void addChild(final Node node)
+    '''returns None\n\n
+    addChild(final Node node)\n
     '''
 def removeChild():
-    '''public void removeChild(final Node node)
+    '''returns None\n\n
+    removeChild(final Node node)\n
     '''
 def nextSibling():
-    '''public Node nextSibling()
+    '''returns Node\n\n
+    nextSibling()\n
     '''
 def prevSibling():
-    '''public Node prevSibling()
+    '''returns Node\n\n
+    prevSibling()\n
     '''
 def dump():
-    '''public void dump(final PrintStream writer)
-    public void dump(final PrintWriter writer)
+    '''returns None\n\n
+    dump(final PrintStream writer)\n
+    dump(final PrintWriter writer)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toFormattedString():
-    '''public String toFormattedString()
-    public String toFormattedString(final ToStringVisitor.Transformer transformer)
+    '''returns String\n\n
+    toFormattedString()\n
+    toFormattedString(final ToStringVisitor.Transformer transformer)\n
     '''
 def toFormattedStringChildrenOnly():
-    '''public String toFormattedStringChildrenOnly()
-    public String toFormattedStringChildrenOnly(final ToStringVisitor.Transformer transformer)
+    '''returns String\n\n
+    toFormattedStringChildrenOnly()\n
+    toFormattedStringChildrenOnly(final ToStringVisitor.Transformer transformer)\n
     '''
 def child():
-    '''public Node child(final int i)
+    '''returns Node\n\n
+    child(final int i)\n
     '''
 def find():
-    '''public Collector find(final Collector c)
+    '''returns Collector\n\n
+    find(final Collector c)\n
     '''
 def addChildren():
-    '''public void addChildren(final List<Node> children2)
+    '''returns None\n\n
+    addChildren(final List<Node> children2)\n
     '''
 def last():
-    '''public Node last()
+    '''returns Node\n\n
+    last()\n
     '''

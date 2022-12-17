@@ -1,58 +1,68 @@
-def listOrderedSet():
-    '''public static <E> ListOrderedSet<E> listOrderedSet(final Set<E> set, final List<E> list)
-    public static <E> ListOrderedSet<E> listOrderedSet(final Set<E> set)
-    public static <E> ListOrderedSet<E> listOrderedSet(final List<E> list)
-    '''
-def ListOrderedSet():
-    '''public ListOrderedSet()
+def ():
+    '''returns ListOrderedSet\n\n
+    ()\n
     '''
 def asList():
-    '''public List<E> asList()
+    '''returns List<E>\n\n
+    asList()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def iterator():
-    '''public OrderedIterator<E> iterator()
+    '''returns OrderedIterator<E>\n\n
+    iterator()\n
     '''
 def add():
-    '''public boolean add(final E object)
-    public void add(final int index, final E object)
+    '''returns None\n\n
+    add(final E object)\n
+    add(final int index, final E object)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
-    public boolean addAll(final int index, final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
+    addAll(final int index, final Collection<? extends E> coll)\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
-    public E remove(final int index)
-    public void remove()
+    '''returns None\n\n
+    remove(final Object object)\n
+    remove(final int index)\n
+    remove()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] a)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def get():
-    '''public E get(final int index)
+    '''returns E\n\n
+    get(final int index)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object object)
+    '''returns int\n\n
+    indexOf(final Object object)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public E previous()
+    '''returns E\n\n
+    previous()\n
     '''

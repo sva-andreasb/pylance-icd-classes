@@ -1,19 +1,25 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
-def PmScAllDraftCRsBean():
-    '''public PmScAllDraftCRsBean()
+def ():
+    '''returns PmScAllDraftCRsBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def viewcartforcurrentcr():
-    '''public int viewcartforcurrentcr()
+    '''returns int\n\n
+    viewcartforcurrentcr()\n
     '''
 def gotocrdr():
-    '''public int gotocrdr()
+    '''returns int\n\n
+    gotocrdr()\n
     '''
 def makeCartCurrent():
-    '''public void makeCartCurrent()
+    '''returns None\n\n
+    makeCartCurrent()\n
     '''
 def deleteCartandSRs():
-    '''public int deleteCartandSRs()
+    '''returns int\n\n
+    deleteCartandSRs()\n
     '''

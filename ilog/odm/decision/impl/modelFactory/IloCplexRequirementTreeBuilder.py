@@ -1,58 +1,77 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCplexRequirementTreeBuilder():
-    '''public IloCplexRequirementTreeBuilder(final IloCplexController controller, final IloOptimDesc desc)
+def ():
+    '''returns IloCplexRequirementTreeBuilder\n\n
+    (final IloCplexController controller, final IloOptimDesc desc)\n
     '''
 def addConstraint():
-    '''public IloRequirement addConstraint(final String ctLabel, final IloConstraint ct, final String[] indexNames, final Object[] indexValues)
+    '''returns IloRequirement\n\n
+    addConstraint(final String ctLabel, final IloConstraint ct, final String[] indexNames, final Object[] indexValues)\n
     '''
 def getDynamicConstraintDesc():
-    '''public IloConstraintDesc getDynamicConstraintDesc(final String label)
+    '''returns IloConstraintDesc\n\n
+    getDynamicConstraintDesc(final String label)\n
     '''
 def getDexprDesc():
-    '''public DexprDesc getDexprDesc(final String dexpr)
+    '''returns DexprDesc\n\n
+    getDexprDesc(final String dexpr)\n
     '''
 def registerTree():
-    '''public void registerTree()
+    '''returns None\n\n
+    registerTree()\n
     '''
 def setConstants():
-    '''public void setConstants(final String[] constantNames, final Object[] constantValues)
+    '''returns None\n\n
+    setConstants(final String[] constantNames, final Object[] constantValues)\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def addLeafDecisionVariableValue():
-    '''public void addLeafDecisionVariableValue(final IloBreakdownVariable rootVariable, final DexprDesc desc, final Parameter parameter, final double value)
+    '''returns None\n\n
+    addLeafDecisionVariableValue(final IloBreakdownVariable rootVariable, final DexprDesc desc, final Parameter parameter, final double value)\n
     '''
 def makeTopDecisionVariableValue():
-    '''public IloBreakdownVariable makeTopDecisionVariableValue(final DexprDesc desc, final double value)
+    '''returns IloBreakdownVariable\n\n
+    makeTopDecisionVariableValue(final DexprDesc desc, final double value)\n
     '''
 def getOptimFileName():
-    '''public String getOptimFileName()
+    '''returns String\n\n
+    getOptimFileName()\n
     '''
 def getModelDesc():
-    '''public SubModelDesc getModelDesc()
+    '''returns SubModelDesc\n\n
+    getModelDesc()\n
     '''
 def setModelDesc():
-    '''public void setModelDesc(final SubModelDesc modelDesc)
+    '''returns None\n\n
+    setModelDesc(final SubModelDesc modelDesc)\n
     '''
 def getOptimModelDescription():
-    '''public IloOptimDesc getOptimModelDescription()
+    '''returns IloOptimDesc\n\n
+    getOptimModelDescription()\n
     '''
 def getCplexController():
-    '''public IloCplexController getCplexController()
+    '''returns IloCplexController\n\n
+    getCplexController()\n
     '''
 def updateControllerModelName():
-    '''public void updateControllerModelName()
+    '''returns None\n\n
+    updateControllerModelName()\n
     '''
 def getValueAccessor():
-    '''public IloValueAccessor getValueAccessor()
+    '''returns IloValueAccessor\n\n
+    getValueAccessor()\n
     '''
 def getIssueReporter():
-    '''public IloIssueReporter getIssueReporter()
+    '''returns IloIssueReporter\n\n
+    getIssueReporter()\n
     '''
 def getModelName():
-    '''public String getModelName()
+    '''returns String\n\n
+    getModelName()\n
     '''
 def getCompiledOptimModelDescription():
-    '''public IloCompiledOptimDesc getCompiledOptimModelDescription()
+    '''returns IloCompiledOptimDesc\n\n
+    getCompiledOptimModelDescription()\n
     '''

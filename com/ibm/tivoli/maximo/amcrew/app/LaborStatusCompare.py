@@ -1,6 +1,8 @@
-def LaborStatusCompare():
-    '''public LaborStatusCompare(final MboRemote currentLabor)
+def ():
+    '''returns LaborStatusCompare\n\n
+    (final MboRemote currentLabor)\n
     '''
 def compareTo():
-    '''public int compareTo(final LaborStatusCompare compareLabor)
+    '''returns int\n\n
+    compareTo(final LaborStatusCompare compareLabor)\n
     '''

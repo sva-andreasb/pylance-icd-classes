@@ -1,6 +1,8 @@
-def FldWorkTypeWorkType():
-    '''public FldWorkTypeWorkType(final MboValue mbv)
+def ():
+    '''returns FldWorkTypeWorkType\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

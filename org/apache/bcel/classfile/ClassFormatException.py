@@ -1,4 +1,5 @@
-def ClassFormatException():
-    '''public ClassFormatException()
-    public ClassFormatException(final String s)
+def ():
+    '''returns ClassFormatException\n\n
+    ()\n
+    (final String s)\n
     '''

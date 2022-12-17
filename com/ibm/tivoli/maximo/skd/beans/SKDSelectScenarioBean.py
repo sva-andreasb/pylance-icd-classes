@@ -1,3 +1,4 @@
 def skdcomparescenario():
-    '''public int skdcomparescenario()
+    '''returns int\n\n
+    skdcomparescenario()\n
     '''

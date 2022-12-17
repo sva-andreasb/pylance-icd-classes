@@ -19,20 +19,3 @@ DISSOLVE = "int  17"
 DST_IN = "int  18"
 ALPHA = "int  19"
 ALPHA_TO_GRAY = "int  20"
-def clamp():
-    '''public static int clamp(final int c)
-    '''
-def interpolate():
-    '''public static int interpolate(final int v1, final int v2, final float f)
-    '''
-def brightness():
-    '''public static int brightness(final int rgb)
-    '''
-def nearColors():
-    '''public static boolean nearColors(final int rgb1, final int rgb2, final int tolerance)
-    '''
-def combinePixels():
-    '''public static int combinePixels(final int rgb1, final int rgb2, final int op)
-    public static int combinePixels(final int rgb1, final int rgb2, final int op, final int extraAlpha, final int channelMask)
-    public static int combinePixels(int rgb1, final int rgb2, final int op, final int extraAlpha)
-    '''

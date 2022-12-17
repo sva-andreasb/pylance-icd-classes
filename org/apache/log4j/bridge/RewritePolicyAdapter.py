@@ -1,6 +1,8 @@
-def RewritePolicyAdapter():
-    '''public RewritePolicyAdapter(final org.apache.log4j.rewrite.RewritePolicy policy)
+def ():
+    '''returns RewritePolicyAdapter\n\n
+    (final org.apache.log4j.rewrite.RewritePolicy policy)\n
     '''
 def rewrite():
-    '''public LogEvent rewrite(final LogEvent source)
+    '''returns LogEvent\n\n
+    rewrite(final LogEvent source)\n
     '''

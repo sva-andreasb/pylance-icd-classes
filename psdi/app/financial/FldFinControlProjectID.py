@@ -1,6 +1,8 @@
-def FldFinControlProjectID():
-    '''public FldFinControlProjectID(final MboValue mbv)
+def ():
+    '''returns FldFinControlProjectID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

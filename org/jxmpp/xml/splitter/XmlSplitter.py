@@ -1,18 +1,19 @@
-def XmlSplitter():
-    '''public XmlSplitter(final int bufferSize, final CompleteElementCallback completeElementCallback, final DeclarationCallback declarationCallback, final ProcessingInstructionCallback processingInstructionCallback)
-    public XmlSplitter(final int bufferSize, final CompleteElementCallback completeElementCallback, final XmlPrinter xmlPrinter)
-    public XmlSplitter(final int bufferSize, final CompleteElementCallback completeElementCallback)
-    public XmlSplitter(int bufferSize, final CompleteElementCallback completeElementCallback, final DeclarationCallback declarationCallback, final ProcessingInstructionCallback processingInstructionCallback, final XmlPrinter xmlPrinter)
+def ():
+    '''returns XmlSplitter\n\n
+    (final int bufferSize, final CompleteElementCallback completeElementCallback, final DeclarationCallback declarationCallback, final ProcessingInstructionCallback processingInstructionCallback)\n
+    (final int bufferSize, final CompleteElementCallback completeElementCallback, final XmlPrinter xmlPrinter)\n
+    (final int bufferSize, final CompleteElementCallback completeElementCallback)\n
+    (int bufferSize, final CompleteElementCallback completeElementCallback, final DeclarationCallback declarationCallback, final ProcessingInstructionCallback processingInstructionCallback, final XmlPrinter xmlPrinter)\n
     '''
 def write():
-    '''public void write(final char[] cbuf, final int off, final int len)
+    '''returns None\n\n
+    write(final char[] cbuf, final int off, final int len)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
-    '''
-def getCurrentSplittedPartSize():
-    '''public final int getCurrentSplittedPartSize()
+    '''returns None\n\n
+    close()\n
     '''

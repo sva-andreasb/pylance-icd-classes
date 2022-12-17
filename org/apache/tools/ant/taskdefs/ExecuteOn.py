@@ -1,57 +1,75 @@
 FILE = "String  \"file\""
 DIR = "String  \"dir\""
-def ExecuteOn():
-    '''public ExecuteOn()
+def ():
+    '''returns ExecuteOn\n\n
+    ()\n
     '''
 def addFileset():
-    '''public void addFileset(final FileSet set)
+    '''returns None\n\n
+    addFileset(final FileSet set)\n
     '''
 def addDirset():
-    '''public void addDirset(final DirSet set)
+    '''returns None\n\n
+    addDirset(final DirSet set)\n
     '''
 def addFilelist():
-    '''public void addFilelist(final FileList list)
+    '''returns None\n\n
+    addFilelist(final FileList list)\n
     '''
 def add():
-    '''public void add(final ResourceCollection rc)
-    public void add(final FileNameMapper fileNameMapper)
+    '''returns None\n\n
+    add(final ResourceCollection rc)\n
+    add(final FileNameMapper fileNameMapper)\n
     '''
 def setRelative():
-    '''public void setRelative(final boolean relative)
+    '''returns None\n\n
+    setRelative(final boolean relative)\n
     '''
 def setParallel():
-    '''public void setParallel(final boolean parallel)
+    '''returns None\n\n
+    setParallel(final boolean parallel)\n
     '''
 def setType():
-    '''public void setType(final FileDirBoth type)
+    '''returns None\n\n
+    setType(final FileDirBoth type)\n
     '''
 def setSkipEmptyFilesets():
-    '''public void setSkipEmptyFilesets(final boolean skip)
+    '''returns None\n\n
+    setSkipEmptyFilesets(final boolean skip)\n
     '''
 def setDest():
-    '''public void setDest(final File destDir)
+    '''returns None\n\n
+    setDest(final File destDir)\n
     '''
 def setForwardslash():
-    '''public void setForwardslash(final boolean forwardSlash)
+    '''returns None\n\n
+    setForwardslash(final boolean forwardSlash)\n
     '''
 def setMaxParallel():
-    '''public void setMaxParallel(final int max)
+    '''returns None\n\n
+    setMaxParallel(final int max)\n
     '''
 def setAddsourcefile():
-    '''public void setAddsourcefile(final boolean b)
+    '''returns None\n\n
+    setAddsourcefile(final boolean b)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean b)
+    '''returns None\n\n
+    setVerbose(final boolean b)\n
     '''
 def setIgnoremissing():
-    '''public void setIgnoremissing(final boolean b)
+    '''returns None\n\n
+    setIgnoremissing(final boolean b)\n
     '''
 def setForce():
-    '''public void setForce(final boolean b)
+    '''returns None\n\n
+    setForce(final boolean b)\n
     '''
 def createMapper():
-    '''public Mapper createMapper()
+    '''returns Mapper\n\n
+    createMapper()\n
     '''
 def getValues():
-    '''public String[] getValues()
+    '''returns String[]\n\n
+    getValues()\n
     '''

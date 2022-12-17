@@ -1,43 +1,53 @@
-def Presentation():
-    '''public Presentation()
-    '''
-def getPresentation():
-    '''public static Presentation getPresentation(final HelpSet set, final String s)
+def ():
+    '''returns Presentation\n\n
+    ()\n
     '''
 def setHelpSetPresentation():
-    '''public void setHelpSetPresentation(final HelpSet.Presentation presentation)
+    '''returns None\n\n
+    setHelpSetPresentation(final HelpSet.Presentation presentation)\n
     '''
 def setCurrentID():
-    '''public void setCurrentID(final String s)
-    public void setCurrentID(final Map.ID currentID)
+    '''returns None\n\n
+    setCurrentID(final String s)\n
+    setCurrentID(final Map.ID currentID)\n
     '''
 def getCurrentURL():
-    '''public URL getCurrentURL()
+    '''returns URL\n\n
+    getCurrentURL()\n
     '''
 def setCurrentURL():
-    '''public void setCurrentURL(final URL currentURL)
+    '''returns None\n\n
+    setCurrentURL(final URL currentURL)\n
     '''
 def getHelpSet():
-    '''public HelpSet getHelpSet()
+    '''returns HelpSet\n\n
+    getHelpSet()\n
     '''
 def setHelpSet():
-    '''public void setHelpSet(final HelpSet helpset)
+    '''returns None\n\n
+    setHelpSet(final HelpSet helpset)\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getSize():
-    '''public Dimension getSize()
+    '''returns Dimension\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final Dimension dimension)
+    '''returns None\n\n
+    setSize(final Dimension dimension)\n
     '''

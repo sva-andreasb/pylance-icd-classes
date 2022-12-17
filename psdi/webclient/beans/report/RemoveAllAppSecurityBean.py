@@ -1,6 +1,4 @@
 def initialize():
-    '''public void initialize()
-    '''
-def okevent():
-    '''public synchronized int okevent()
+    '''returns None\n\n
+    initialize()\n
     '''

@@ -1,18 +1,24 @@
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def setMboName():
-    '''public void setMboName(final String mboName)
+    '''returns None\n\n
+    setMboName(final String mboName)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getOsName():
-    '''public String getOsName()
+    '''returns String\n\n
+    getOsName()\n
     '''
 def setOsName():
-    '''public void setOsName(final String osName)
+    '''returns None\n\n
+    setOsName(final String osName)\n
     '''

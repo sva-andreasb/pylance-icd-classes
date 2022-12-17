@@ -1,31 +1,41 @@
-def MboSetIterable():
-    '''public MboSetIterable(final MboSetRemote mboSet)
-    public MboSetIterable()
+def ():
+    '''returns MboSetIterable\n\n
+    (final MboSetRemote mboSet)\n
+    ()\n
     '''
 def setMboSet():
-    '''public void setMboSet(final MboSetRemote mboSet)
+    '''returns None\n\n
+    setMboSet(final MboSetRemote mboSet)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''
 def throwException():
-    '''public void throwException()
+    '''returns None\n\n
+    throwException()\n
     '''

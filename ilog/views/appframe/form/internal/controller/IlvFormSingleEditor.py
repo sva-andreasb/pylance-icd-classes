@@ -1,48 +1,64 @@
-def IlvFormSingleEditor():
-    '''public IlvFormSingleEditor()
+def ():
+    '''returns IlvFormSingleEditor\n\n
+    ()\n
     '''
 def connectModel():
-    '''public void connectModel(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectModel(final IlvEditionContext ilvEditionContext)\n
     '''
 def initializeUI():
-    '''public void initializeUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    initializeUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def connectUI():
-    '''public void connectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def focusGained():
-    '''public void focusGained(final FocusEvent focusEvent)
+    '''returns None\n\n
+    focusGained(final FocusEvent focusEvent)\n
     '''
 def focusLost():
-    '''public void focusLost(final FocusEvent focusEvent)
+    '''returns None\n\n
+    focusLost(final FocusEvent focusEvent)\n
     '''
 def disconnectUI():
-    '''public void disconnectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def getDisplayedValue():
-    '''public String getDisplayedValue()
+    '''returns String\n\n
+    getDisplayedValue()\n
     '''
 def setDisplayedValue():
-    '''public void setDisplayedValue(final String s)
+    '''returns None\n\n
+    setDisplayedValue(final String s)\n
     '''
 def setModelValue():
-    '''public void setModelValue(final String str, final boolean b)
+    '''returns None\n\n
+    setModelValue(final String str, final boolean b)\n
     '''
 def getControl():
-    '''public Object getControl()
+    '''returns Object\n\n
+    getControl()\n
     '''
 def read():
-    '''public void read(final Element element)
+    '''returns None\n\n
+    read(final Element element)\n
     '''
 def getValueEncoder():
-    '''public IlvStringEvaluator getValueEncoder()
+    '''returns IlvStringEvaluator\n\n
+    getValueEncoder()\n
     '''
 def setValueEncoder():
-    '''public void setValueEncoder(final IlvStringEvaluator b)
+    '''returns None\n\n
+    setValueEncoder(final IlvStringEvaluator b)\n
     '''
 def getValueDecoder():
-    '''public IlvStringEvaluator getValueDecoder()
+    '''returns IlvStringEvaluator\n\n
+    getValueDecoder()\n
     '''
 def setValueDecoder():
-    '''public void setValueDecoder(final IlvStringEvaluator c)
+    '''returns None\n\n
+    setValueDecoder(final IlvStringEvaluator c)\n
     '''

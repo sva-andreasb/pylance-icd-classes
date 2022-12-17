@@ -1,54 +1,71 @@
 def getOffset():
-    '''public int getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int milliseconds)
-    public int getOffset(final int era, int year, final int month, final int dom, final int dow, final int millis, final int monthLength)
-    public void getOffset(final long date, final boolean local, final int[] offsets)
+    '''returns None\n\n
+    getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int milliseconds)\n
+    getOffset(final int era, int year, final int month, final int dom, final int dow, final int millis, final int monthLength)\n
+    getOffset(final long date, final boolean local, final int[] offsets)\n
     '''
 def setRawOffset():
-    '''public void setRawOffset(final int offsetMillis)
+    '''returns None\n\n
+    setRawOffset(final int offsetMillis)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getOffsetFromLocal():
-    '''public void getOffsetFromLocal(final long date, final int nonExistingTimeOpt, final int duplicatedTimeOpt, final int[] offsets)
+    '''returns None\n\n
+    getOffsetFromLocal(final long date, final int nonExistingTimeOpt, final int duplicatedTimeOpt, final int[] offsets)\n
     '''
 def getRawOffset():
-    '''public int getRawOffset()
+    '''returns int\n\n
+    getRawOffset()\n
     '''
 def useDaylightTime():
-    '''public boolean useDaylightTime()
+    '''returns boolean\n\n
+    useDaylightTime()\n
     '''
 def getDSTSavings():
-    '''public int getDSTSavings()
+    '''returns int\n\n
+    getDSTSavings()\n
     '''
 def inDaylightTime():
-    '''public boolean inDaylightTime(final Date date)
+    '''returns boolean\n\n
+    inDaylightTime(final Date date)\n
     '''
 def hasSameRules():
-    '''public boolean hasSameRules(final TimeZone other)
+    '''returns boolean\n\n
+    hasSameRules(final TimeZone other)\n
     '''
-def OlsonTimeZone():
-    '''public OlsonTimeZone(final UResourceBundle top, final UResourceBundle res)
-    public OlsonTimeZone(final String id)
+def ():
+    '''returns OlsonTimeZone\n\n
+    (final UResourceBundle top, final UResourceBundle res)\n
+    (final String id)\n
     '''
 def setID():
-    '''public void setID(final String id)
+    '''returns None\n\n
+    setID(final String id)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getNextTransition():
-    '''public TimeZoneTransition getNextTransition(final long base, final boolean inclusive)
+    '''returns TimeZoneTransition\n\n
+    getNextTransition(final long base, final boolean inclusive)\n
     '''
 def getPreviousTransition():
-    '''public TimeZoneTransition getPreviousTransition(final long base, final boolean inclusive)
+    '''returns TimeZoneTransition\n\n
+    getPreviousTransition(final long base, final boolean inclusive)\n
     '''
 def getTimeZoneRules():
-    '''public TimeZoneRule[] getTimeZoneRules()
+    '''returns TimeZoneRule[]\n\n
+    getTimeZoneRules()\n
     '''

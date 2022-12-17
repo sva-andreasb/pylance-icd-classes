@@ -1,38 +1,45 @@
 FORMAT_DOT = "int  1"
 FORMAT_DASH_SPACE = "int  2"
 ALL_LEVELS = "int  Integer.MAX_VALUE"
-def OmniClassNumber():
-    '''public OmniClassNumber(String number)
+def ():
+    '''returns OmniClassNumber\n\n
+    (String number)\n
     '''
 def getLevel():
-    '''public int getLevel()
+    '''returns int\n\n
+    getLevel()\n
     '''
 def getNumber():
-    '''public String getNumber(final int level)
+    '''returns String\n\n
+    getNumber(final int level)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final int level)
+    '''returns String\n\n
+    getPrefix(final int level)\n
     '''
 def getTable():
-    '''public int getTable()
+    '''returns int\n\n
+    getTable()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def format():
-    '''public String format()
-    public String format(final int format, final boolean zeroPad)
-    public String format(final int format, final boolean zeroPad, final int numberOfLevels)
+    '''returns String\n\n
+    format()\n
+    format(final int format, final boolean zeroPad)\n
+    format(final int format, final boolean zeroPad, final int numberOfLevels)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,7 +1,9 @@
-def IlvLayerVisibilityFilter():
-    '''public IlvLayerVisibilityFilter()
-    public IlvLayerVisibilityFilter(final IlvInputStream ilvInputStream)
+def ():
+    '''returns IlvLayerVisibilityFilter\n\n
+    ()\n
+    (final IlvInputStream ilvInputStream)\n
     '''
 def write():
-    '''public void write(final IlvOutputStream ilvOutputStream)
+    '''returns None\n\n
+    write(final IlvOutputStream ilvOutputStream)\n
     '''

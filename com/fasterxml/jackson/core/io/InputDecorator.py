@@ -1,3 +1,4 @@
 def decorate():
-    '''public DataInput decorate(final IOContext ctxt, final DataInput input)
+    '''returns DataInput\n\n
+    decorate(final IOContext ctxt, final DataInput input)\n
     '''

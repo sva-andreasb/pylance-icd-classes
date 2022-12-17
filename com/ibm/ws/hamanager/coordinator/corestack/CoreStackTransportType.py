@@ -1,15 +1,20 @@
-def CoreStackTransportType():
-    '''public CoreStackTransportType()
+def ():
+    '''returns CoreStackTransportType\n\n
+    ()\n
     '''
 def equals():
-    '''public boolean equals(final Object r)
+    '''returns boolean\n\n
+    equals(final Object r)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''

@@ -1,11 +1,14 @@
 AWS_REQUEST_ID = "String  \"AWS_REQUEST_ID\""
-def ResponseMetadata():
-    '''public ResponseMetadata(final Map<String, String> metadata)
-    public ResponseMetadata(final ResponseMetadata originalResponseMetadata)
+def ():
+    '''returns ResponseMetadata\n\n
+    (final Map<String, String> metadata)\n
+    (final ResponseMetadata originalResponseMetadata)\n
     '''
 def getRequestId():
-    '''public String getRequestId()
+    '''returns String\n\n
+    getRequestId()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

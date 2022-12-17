@@ -1,5 +1,6 @@
-def StoreConfigurationException():
-    '''public StoreConfigurationException(final Exception e)
-    public StoreConfigurationException(final String message)
-    public StoreConfigurationException(final String message, final Exception e)
+def ():
+    '''returns StoreConfigurationException\n\n
+    (final Exception e)\n
+    (final String message)\n
+    (final String message, final Exception e)\n
     '''

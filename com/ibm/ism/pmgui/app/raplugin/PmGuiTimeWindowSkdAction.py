@@ -1,29 +1,38 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmGuiTimeWindowSkdAction():
-    '''public PmGuiTimeWindowSkdAction()
+def ():
+    '''returns PmGuiTimeWindowSkdAction\n\n
+    ()\n
     '''
 def executeAction():
-    '''public Object executeAction(final Object actionObject)
+    '''returns Object\n\n
+    executeAction(final Object actionObject)\n
     '''
 def setSKDActionContext():
-    '''public void setSKDActionContext(final SKDActionContext context)
+    '''returns None\n\n
+    setSKDActionContext(final SKDActionContext context)\n
     '''
 def getSKDActionContext():
-    '''public SKDActionContext getSKDActionContext()
-    public SKDActionContext getSKDActionContext()
+    '''returns SKDActionContext\n\n
+    getSKDActionContext()\n
+    getSKDActionContext()\n
     '''
 def getConstraintExpireDate():
-    '''public Date getConstraintExpireDate()
+    '''returns Date\n\n
+    getConstraintExpireDate()\n
     '''
 def generateTimeWindowSetId():
-    '''public String generateTimeWindowSetId(final MboRemote mbo)
+    '''returns String\n\n
+    generateTimeWindowSetId(final MboRemote mbo)\n
     '''
 def setTimeWindowProperties():
-    '''public void setTimeWindowProperties(final MboRemote mbo, final TimeWindowSet twSet)
+    '''returns None\n\n
+    setTimeWindowProperties(final MboRemote mbo, final TimeWindowSet twSet)\n
     '''
 def isActivityInProject():
-    '''public boolean isActivityInProject(final String id)
+    '''returns boolean\n\n
+    isActivityInProject(final String id)\n
     '''
 def getRefObjectName():
-    '''public String getRefObjectName()
+    '''returns String\n\n
+    getRefObjectName()\n
     '''

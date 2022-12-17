@@ -1,16 +1,21 @@
-def PlusPCompanyService():
-    '''public PlusPCompanyService()
-    public PlusPCompanyService(final MXServer arg0)
+def ():
+    '''returns PlusPCompanyService\n\n
+    ()\n
+    (final MXServer arg0)\n
     '''
 def getVendorCustomerFilterWhere():
-    '''public String getVendorCustomerFilterWhere()
+    '''returns String\n\n
+    getVendorCustomerFilterWhere()\n
     '''
 def getDefVendorCustomerWhere():
-    '''public String getDefVendorCustomerWhere(final String val, final String val2, final String val3)
+    '''returns String\n\n
+    getDefVendorCustomerWhere(final String val, final String val2, final String val3)\n
     '''
 def getDefVendorCustomerWhereForJp():
-    '''public String getDefVendorCustomerWhereForJp(final MboRemote mr, final MboRemote mboRemote, final String val, final String val2)
+    '''returns String\n\n
+    getDefVendorCustomerWhereForJp(final MboRemote mr, final MboRemote mboRemote, final String val, final String val2)\n
     '''
 def hasMessageInMboSet():
-    '''public boolean hasMessageInMboSet(final MboSetRemote mboSetRemote, final String anotherString, final String anotherString2)
+    '''returns boolean\n\n
+    hasMessageInMboSet(final MboSetRemote mboSetRemote, final String anotherString, final String anotherString2)\n
     '''

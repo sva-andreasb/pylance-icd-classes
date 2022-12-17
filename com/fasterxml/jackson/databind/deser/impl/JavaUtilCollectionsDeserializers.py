@@ -1,10 +1,13 @@
 TYPE_AS_LIST = "int  7"
 def convert():
-    '''public Object convert(final Object value)
+    '''returns Object\n\n
+    convert(final Object value)\n
     '''
 def getInputType():
-    '''public JavaType getInputType(final TypeFactory typeFactory)
+    '''returns JavaType\n\n
+    getInputType(final TypeFactory typeFactory)\n
     '''
 def getOutputType():
-    '''public JavaType getOutputType(final TypeFactory typeFactory)
+    '''returns JavaType\n\n
+    getOutputType(final TypeFactory typeFactory)\n
     '''

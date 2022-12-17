@@ -1,3 +1,4 @@
-def ReorderCronParamSet():
-    '''public ReorderCronParamSet(final MboServerInterface ms)
+def ():
+    '''returns ReorderCronParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

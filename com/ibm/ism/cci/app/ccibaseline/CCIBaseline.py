@@ -1,101 +1,134 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def CCIBaseline():
-    '''public CCIBaseline(final MboSet ms)
+def ():
+    '''returns CCIBaseline\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def newcopy():
-    '''public MboRemote newcopy()
+    '''returns MboRemote\n\n
+    newcopy()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete(final long accessModifier)
+    '''returns None\n\n
+    undelete(final long accessModifier)\n
     '''
 def activate():
-    '''public boolean activate()
+    '''returns boolean\n\n
+    activate()\n
     '''
 def copySelectedCollectionMembers():
-    '''public int copySelectedCollectionMembers(final MboSetRemote collMbo)
+    '''returns int\n\n
+    copySelectedCollectionMembers(final MboSetRemote collMbo)\n
     '''
 def copySelectedRelTargetMembers():
-    '''public int copySelectedRelTargetMembers(final MboSetRemote collMbo)
+    '''returns int\n\n
+    copySelectedRelTargetMembers(final MboSetRemote collMbo)\n
     '''
 def copySelectedRelSourceMembers():
-    '''public int copySelectedRelSourceMembers(final MboSetRemote collMbo)
+    '''returns int\n\n
+    copySelectedRelSourceMembers(final MboSetRemote collMbo)\n
     '''
 def validateBaseline():
-    '''public void validateBaseline(final boolean forActivate)
+    '''returns None\n\n
+    validateBaseline(final boolean forActivate)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def createOrUpdateCollection():
-    '''public Object[] createOrUpdateCollection(final String selectedCollection)
+    '''returns Object[]\n\n
+    createOrUpdateCollection(final String selectedCollection)\n
     '''
 def hasUnauthorizedMembers():
-    '''public boolean hasUnauthorizedMembers()
+    '''returns boolean\n\n
+    hasUnauthorizedMembers()\n
     '''
 def compareToActual():
-    '''public long compareToActual()
+    '''returns long\n\n
+    compareToActual()\n
     '''
 def getMembersFromDatabase():
-    '''public MboSetRemote getMembersFromDatabase()
-    public MboSetRemote getMembersFromDatabase(final boolean readOnly)
+    '''returns MboSetRemote\n\n
+    getMembersFromDatabase()\n
+    getMembersFromDatabase(final boolean readOnly)\n
     '''
 def setAuthorizedMembersWhere():
-    '''public void setAuthorizedMembersWhere(final MboSetRemote members)
+    '''returns None\n\n
+    setAuthorizedMembersWhere(final MboSetRemote members)\n
     '''
 def setUnauthorizedMembersWhere():
-    '''public void setUnauthorizedMembersWhere(final MboSetRemote members)
+    '''returns None\n\n
+    setUnauthorizedMembersWhere(final MboSetRemote members)\n
     '''
 def getAuthorizedMembers():
-    '''public MboSetRemote getAuthorizedMembers()
+    '''returns MboSetRemote\n\n
+    getAuthorizedMembers()\n
     '''
 def getUnauthorizedMembers():
-    '''public MboSetRemote getUnauthorizedMembers()
+    '''returns MboSetRemote\n\n
+    getUnauthorizedMembers()\n
     '''
 def isAuthorizedMemberSetInitialized():
-    '''public boolean isAuthorizedMemberSetInitialized()
+    '''returns boolean\n\n
+    isAuthorizedMemberSetInitialized()\n
     '''
 def setAuthorizedMemberSetInitialized():
-    '''public void setAuthorizedMemberSetInitialized(final boolean authorizedMemberSetInitialized)
+    '''returns None\n\n
+    setAuthorizedMemberSetInitialized(final boolean authorizedMemberSetInitialized)\n
     '''
 def getAuthorizedMembersWhereCondition():
-    '''public String getAuthorizedMembersWhereCondition()
+    '''returns String\n\n
+    getAuthorizedMembersWhereCondition()\n
     '''
 def setAuthorizedMembersWhereCondition():
-    '''public void setAuthorizedMembersWhereCondition(final String authorizedMembersWhereCondition)
+    '''returns None\n\n
+    setAuthorizedMembersWhereCondition(final String authorizedMembersWhereCondition)\n
     '''
 def isBuiltWhereConditions():
-    '''public boolean isBuiltWhereConditions()
+    '''returns boolean\n\n
+    isBuiltWhereConditions()\n
     '''
 def setBuiltWhereConditions():
-    '''public void setBuiltWhereConditions(final boolean builtWhereConditions)
+    '''returns None\n\n
+    setBuiltWhereConditions(final boolean builtWhereConditions)\n
     '''
 def isUnauthorizedMemberSetInitialized():
-    '''public boolean isUnauthorizedMemberSetInitialized()
+    '''returns boolean\n\n
+    isUnauthorizedMemberSetInitialized()\n
     '''
 def setUnauthorizedMemberSetInitialized():
-    '''public void setUnauthorizedMemberSetInitialized(final boolean unauthorizedMemberSetInitialized)
+    '''returns None\n\n
+    setUnauthorizedMemberSetInitialized(final boolean unauthorizedMemberSetInitialized)\n
     '''
 def getUnauthorizedMembersWhereCondition():
-    '''public String getUnauthorizedMembersWhereCondition()
+    '''returns String\n\n
+    getUnauthorizedMembersWhereCondition()\n
     '''
 def setUnauthorizedMembersWhereCondition():
-    '''public void setUnauthorizedMembersWhereCondition(final String unauthorizedMembersWhereCondition)
+    '''returns None\n\n
+    setUnauthorizedMembersWhereCondition(final String unauthorizedMembersWhereCondition)\n
     '''
 def markActCIRelationsWithBaselineDate():
-    '''public void markActCIRelationsWithBaselineDate(final CCIBaselineMemberRemote aBaselineMember, final Date asOf)
+    '''returns None\n\n
+    markActCIRelationsWithBaselineDate(final CCIBaselineMemberRemote aBaselineMember, final Date asOf)\n
     '''
 def getWhereclauseForCIsPromotedWithMember():
-    '''public String getWhereclauseForCIsPromotedWithMember(final CCIBaselineMemberRemote member)
+    '''returns String\n\n
+    getWhereclauseForCIsPromotedWithMember(final CCIBaselineMemberRemote member)\n
     '''

@@ -1,56 +1,60 @@
-def ExcelExtractor():
-    '''public ExcelExtractor(final HSSFWorkbook wb)
-    public ExcelExtractor(final POIFSFileSystem fs)
-    public ExcelExtractor(final DirectoryNode dir)
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns CommandArgs\n\n
+    (final HSSFWorkbook wb)\n
+    (final POIFSFileSystem fs)\n
+    (final DirectoryNode dir)\n
+    (final String msg)\n
+    (final String[] args)\n
     '''
 def setIncludeSheetNames():
-    '''public void setIncludeSheetNames(final boolean includeSheetNames)
+    '''returns None\n\n
+    setIncludeSheetNames(final boolean includeSheetNames)\n
     '''
 def setFormulasNotResults():
-    '''public void setFormulasNotResults(final boolean formulasNotResults)
+    '''returns None\n\n
+    setFormulasNotResults(final boolean formulasNotResults)\n
     '''
 def setIncludeCellComments():
-    '''public void setIncludeCellComments(final boolean includeCellComments)
+    '''returns None\n\n
+    setIncludeCellComments(final boolean includeCellComments)\n
     '''
 def setIncludeBlankCells():
-    '''public void setIncludeBlankCells(final boolean includeBlankCells)
+    '''returns None\n\n
+    setIncludeBlankCells(final boolean includeBlankCells)\n
     '''
 def setIncludeHeadersFooters():
-    '''public void setIncludeHeadersFooters(final boolean includeHeadersFooters)
+    '''returns None\n\n
+    setIncludeHeadersFooters(final boolean includeHeadersFooters)\n
     '''
 def getText():
-    '''public String getText()
-    '''
-def _extractHeaderFooter():
-    '''public static String _extractHeaderFooter(final HeaderFooter hf)
-    '''
-def CommandParseException():
-    '''public CommandParseException(final String msg)
-    '''
-def CommandArgs():
-    '''public CommandArgs(final String[] args)
+    '''returns String\n\n
+    getText()\n
     '''
 def isRequestHelp():
-    '''public boolean isRequestHelp()
+    '''returns boolean\n\n
+    isRequestHelp()\n
     '''
 def getInputFile():
-    '''public File getInputFile()
+    '''returns File\n\n
+    getInputFile()\n
     '''
 def shouldShowSheetNames():
-    '''public boolean shouldShowSheetNames()
+    '''returns boolean\n\n
+    shouldShowSheetNames()\n
     '''
 def shouldEvaluateFormulas():
-    '''public boolean shouldEvaluateFormulas()
+    '''returns boolean\n\n
+    shouldEvaluateFormulas()\n
     '''
 def shouldShowCellComments():
-    '''public boolean shouldShowCellComments()
+    '''returns boolean\n\n
+    shouldShowCellComments()\n
     '''
 def shouldShowBlankCells():
-    '''public boolean shouldShowBlankCells()
+    '''returns boolean\n\n
+    shouldShowBlankCells()\n
     '''
 def shouldIncludeHeadersFooters():
-    '''public boolean shouldIncludeHeadersFooters()
+    '''returns boolean\n\n
+    shouldIncludeHeadersFooters()\n
     '''

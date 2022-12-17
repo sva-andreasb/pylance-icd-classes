@@ -1,3 +1,4 @@
-def KBSet():
-    '''public KBSet(final MboServerInterface ms)
+def ():
+    '''returns KBSet\n\n
+    (final MboServerInterface ms)\n
     '''

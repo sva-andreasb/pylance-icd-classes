@@ -1,3 +1,4 @@
-def InternalException():
-    '''public InternalException(final String message, final Throwable cause)
+def ():
+    '''returns InternalException\n\n
+    (final String message, final Throwable cause)\n
     '''

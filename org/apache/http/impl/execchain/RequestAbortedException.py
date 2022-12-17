@@ -1,4 +1,5 @@
-def RequestAbortedException():
-    '''public RequestAbortedException(final String message)
-    public RequestAbortedException(final String message, final Throwable cause)
+def ():
+    '''returns RequestAbortedException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

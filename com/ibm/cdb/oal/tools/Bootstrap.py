@@ -1,6 +1,4 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
 def initDb():
-    '''public void initDb(final TopomgrProps props)
+    '''returns None\n\n
+    initDb(final TopomgrProps props)\n
     '''

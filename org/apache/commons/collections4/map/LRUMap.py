@@ -1,28 +1,30 @@
-def LRUMap():
-    '''public LRUMap()
-    public LRUMap(final int maxSize)
-    public LRUMap(final int maxSize, final int initialSize)
-    public LRUMap(final int maxSize, final boolean scanUntilRemovable)
-    public LRUMap(final int maxSize, final float loadFactor)
-    public LRUMap(final int maxSize, final int initialSize, final float loadFactor)
-    public LRUMap(final int maxSize, final float loadFactor, final boolean scanUntilRemovable)
-    public LRUMap(final int maxSize, final int initialSize, final float loadFactor, final boolean scanUntilRemovable)
-    public LRUMap(final Map<? extends K, ? extends V> map)
-    public LRUMap(final Map<? extends K, ? extends V> map, final boolean scanUntilRemovable)
+def ():
+    '''returns LRUMap\n\n
+    ()\n
+    (final int maxSize)\n
+    (final int maxSize, final int initialSize)\n
+    (final int maxSize, final boolean scanUntilRemovable)\n
+    (final int maxSize, final float loadFactor)\n
+    (final int maxSize, final int initialSize, final float loadFactor)\n
+    (final int maxSize, final float loadFactor, final boolean scanUntilRemovable)\n
+    (final int maxSize, final int initialSize, final float loadFactor, final boolean scanUntilRemovable)\n
+    (final Map<? extends K, ? extends V> map)\n
+    (final Map<? extends K, ? extends V> map, final boolean scanUntilRemovable)\n
     '''
 def get():
-    '''public V get(final Object key)
-    public V get(final Object key, final boolean updateToMRU)
+    '''returns V\n\n
+    get(final Object key)\n
+    get(final Object key, final boolean updateToMRU)\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def maxSize():
-    '''public int maxSize()
+    '''returns int\n\n
+    maxSize()\n
     '''
 def isScanUntilRemovable():
-    '''public boolean isScanUntilRemovable()
-    '''
-def clone():
-    '''public LRUMap<K, V> clone()
+    '''returns boolean\n\n
+    isScanUntilRemovable()\n
     '''

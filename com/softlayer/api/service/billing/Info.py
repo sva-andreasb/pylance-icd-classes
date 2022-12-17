@@ -1,325 +1,428 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getAchInformation():
-    '''public List<Ach> getAchInformation()
+    '''returns List<Ach>\n\n
+    getAchInformation()\n
     '''
 def getCurrency():
-    '''public Currency getCurrency()
+    '''returns Currency\n\n
+    getCurrency()\n
     '''
 def setCurrency():
-    '''public void setCurrency(final Currency currency)
+    '''returns None\n\n
+    setCurrency(final Currency currency)\n
     '''
 def getCurrentBillingCycle():
-    '''public Cycle getCurrentBillingCycle()
+    '''returns Cycle\n\n
+    getCurrentBillingCycle()\n
     '''
 def setCurrentBillingCycle():
-    '''public void setCurrentBillingCycle(final Cycle currentBillingCycle)
+    '''returns None\n\n
+    setCurrentBillingCycle(final Cycle currentBillingCycle)\n
     '''
 def getLastBillDate():
-    '''public GregorianCalendar getLastBillDate()
+    '''returns GregorianCalendar\n\n
+    getLastBillDate()\n
     '''
 def setLastBillDate():
-    '''public void setLastBillDate(final GregorianCalendar lastBillDate)
+    '''returns None\n\n
+    setLastBillDate(final GregorianCalendar lastBillDate)\n
     '''
 def getNextBillDate():
-    '''public GregorianCalendar getNextBillDate()
+    '''returns GregorianCalendar\n\n
+    getNextBillDate()\n
     '''
 def setNextBillDate():
-    '''public void setNextBillDate(final GregorianCalendar nextBillDate)
+    '''returns None\n\n
+    setNextBillDate(final GregorianCalendar nextBillDate)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getAnniversaryDayOfMonth():
-    '''public Long getAnniversaryDayOfMonth()
+    '''returns Long\n\n
+    getAnniversaryDayOfMonth()\n
     '''
 def setAnniversaryDayOfMonth():
-    '''public void setAnniversaryDayOfMonth(final Long anniversaryDayOfMonth)
+    '''returns None\n\n
+    setAnniversaryDayOfMonth(final Long anniversaryDayOfMonth)\n
     '''
 def isAnniversaryDayOfMonthSpecified():
-    '''public boolean isAnniversaryDayOfMonthSpecified()
+    '''returns boolean\n\n
+    isAnniversaryDayOfMonthSpecified()\n
     '''
 def unsetAnniversaryDayOfMonth():
-    '''public void unsetAnniversaryDayOfMonth()
+    '''returns None\n\n
+    unsetAnniversaryDayOfMonth()\n
     '''
 def getCardAccountNumber():
-    '''public String getCardAccountNumber()
+    '''returns String\n\n
+    getCardAccountNumber()\n
     '''
 def setCardAccountNumber():
-    '''public void setCardAccountNumber(final String cardAccountNumber)
+    '''returns None\n\n
+    setCardAccountNumber(final String cardAccountNumber)\n
     '''
 def isCardAccountNumberSpecified():
-    '''public boolean isCardAccountNumberSpecified()
+    '''returns boolean\n\n
+    isCardAccountNumberSpecified()\n
     '''
 def unsetCardAccountNumber():
-    '''public void unsetCardAccountNumber()
+    '''returns None\n\n
+    unsetCardAccountNumber()\n
     '''
 def getCardExpirationMonth():
-    '''public Long getCardExpirationMonth()
+    '''returns Long\n\n
+    getCardExpirationMonth()\n
     '''
 def setCardExpirationMonth():
-    '''public void setCardExpirationMonth(final Long cardExpirationMonth)
+    '''returns None\n\n
+    setCardExpirationMonth(final Long cardExpirationMonth)\n
     '''
 def isCardExpirationMonthSpecified():
-    '''public boolean isCardExpirationMonthSpecified()
+    '''returns boolean\n\n
+    isCardExpirationMonthSpecified()\n
     '''
 def unsetCardExpirationMonth():
-    '''public void unsetCardExpirationMonth()
+    '''returns None\n\n
+    unsetCardExpirationMonth()\n
     '''
 def getCardExpirationYear():
-    '''public Long getCardExpirationYear()
+    '''returns Long\n\n
+    getCardExpirationYear()\n
     '''
 def setCardExpirationYear():
-    '''public void setCardExpirationYear(final Long cardExpirationYear)
+    '''returns None\n\n
+    setCardExpirationYear(final Long cardExpirationYear)\n
     '''
 def isCardExpirationYearSpecified():
-    '''public boolean isCardExpirationYearSpecified()
+    '''returns boolean\n\n
+    isCardExpirationYearSpecified()\n
     '''
 def unsetCardExpirationYear():
-    '''public void unsetCardExpirationYear()
+    '''returns None\n\n
+    unsetCardExpirationYear()\n
     '''
 def getCardNickname():
-    '''public String getCardNickname()
+    '''returns String\n\n
+    getCardNickname()\n
     '''
 def setCardNickname():
-    '''public void setCardNickname(final String cardNickname)
+    '''returns None\n\n
+    setCardNickname(final String cardNickname)\n
     '''
 def isCardNicknameSpecified():
-    '''public boolean isCardNicknameSpecified()
+    '''returns boolean\n\n
+    isCardNicknameSpecified()\n
     '''
 def unsetCardNickname():
-    '''public void unsetCardNickname()
+    '''returns None\n\n
+    unsetCardNickname()\n
     '''
 def getCardType():
-    '''public String getCardType()
+    '''returns String\n\n
+    getCardType()\n
     '''
 def setCardType():
-    '''public void setCardType(final String cardType)
+    '''returns None\n\n
+    setCardType(final String cardType)\n
     '''
 def isCardTypeSpecified():
-    '''public boolean isCardTypeSpecified()
+    '''returns boolean\n\n
+    isCardTypeSpecified()\n
     '''
 def unsetCardType():
-    '''public void unsetCardType()
+    '''returns None\n\n
+    unsetCardType()\n
     '''
 def getCardVerificationNumber():
-    '''public String getCardVerificationNumber()
+    '''returns String\n\n
+    getCardVerificationNumber()\n
     '''
 def setCardVerificationNumber():
-    '''public void setCardVerificationNumber(final String cardVerificationNumber)
+    '''returns None\n\n
+    setCardVerificationNumber(final String cardVerificationNumber)\n
     '''
 def isCardVerificationNumberSpecified():
-    '''public boolean isCardVerificationNumberSpecified()
+    '''returns boolean\n\n
+    isCardVerificationNumberSpecified()\n
     '''
 def unsetCardVerificationNumber():
-    '''public void unsetCardVerificationNumber()
+    '''returns None\n\n
+    unsetCardVerificationNumber()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getLastFourPaymentCardDigits():
-    '''public Long getLastFourPaymentCardDigits()
+    '''returns Long\n\n
+    getLastFourPaymentCardDigits()\n
     '''
 def setLastFourPaymentCardDigits():
-    '''public void setLastFourPaymentCardDigits(final Long lastFourPaymentCardDigits)
+    '''returns None\n\n
+    setLastFourPaymentCardDigits(final Long lastFourPaymentCardDigits)\n
     '''
 def isLastFourPaymentCardDigitsSpecified():
-    '''public boolean isLastFourPaymentCardDigitsSpecified()
+    '''returns boolean\n\n
+    isLastFourPaymentCardDigitsSpecified()\n
     '''
 def unsetLastFourPaymentCardDigits():
-    '''public void unsetLastFourPaymentCardDigits()
+    '''returns None\n\n
+    unsetLastFourPaymentCardDigits()\n
     '''
 def getLastPaymentDate():
-    '''public GregorianCalendar getLastPaymentDate()
+    '''returns GregorianCalendar\n\n
+    getLastPaymentDate()\n
     '''
 def setLastPaymentDate():
-    '''public void setLastPaymentDate(final GregorianCalendar lastPaymentDate)
+    '''returns None\n\n
+    setLastPaymentDate(final GregorianCalendar lastPaymentDate)\n
     '''
 def isLastPaymentDateSpecified():
-    '''public boolean isLastPaymentDateSpecified()
+    '''returns boolean\n\n
+    isLastPaymentDateSpecified()\n
     '''
 def unsetLastPaymentDate():
-    '''public void unsetLastPaymentDate()
+    '''returns None\n\n
+    unsetLastPaymentDate()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getPaymentTerms():
-    '''public Long getPaymentTerms()
+    '''returns Long\n\n
+    getPaymentTerms()\n
     '''
 def setPaymentTerms():
-    '''public void setPaymentTerms(final Long paymentTerms)
+    '''returns None\n\n
+    setPaymentTerms(final Long paymentTerms)\n
     '''
 def isPaymentTermsSpecified():
-    '''public boolean isPaymentTermsSpecified()
+    '''returns boolean\n\n
+    isPaymentTermsSpecified()\n
     '''
 def unsetPaymentTerms():
-    '''public void unsetPaymentTerms()
+    '''returns None\n\n
+    unsetPaymentTerms()\n
     '''
 def getPercentDiscountOnetime():
-    '''public Long getPercentDiscountOnetime()
+    '''returns Long\n\n
+    getPercentDiscountOnetime()\n
     '''
 def setPercentDiscountOnetime():
-    '''public void setPercentDiscountOnetime(final Long percentDiscountOnetime)
+    '''returns None\n\n
+    setPercentDiscountOnetime(final Long percentDiscountOnetime)\n
     '''
 def isPercentDiscountOnetimeSpecified():
-    '''public boolean isPercentDiscountOnetimeSpecified()
+    '''returns boolean\n\n
+    isPercentDiscountOnetimeSpecified()\n
     '''
 def unsetPercentDiscountOnetime():
-    '''public void unsetPercentDiscountOnetime()
+    '''returns None\n\n
+    unsetPercentDiscountOnetime()\n
     '''
 def getPercentDiscountRecurring():
-    '''public Long getPercentDiscountRecurring()
+    '''returns Long\n\n
+    getPercentDiscountRecurring()\n
     '''
 def setPercentDiscountRecurring():
-    '''public void setPercentDiscountRecurring(final Long percentDiscountRecurring)
+    '''returns None\n\n
+    setPercentDiscountRecurring(final Long percentDiscountRecurring)\n
     '''
 def isPercentDiscountRecurringSpecified():
-    '''public boolean isPercentDiscountRecurringSpecified()
+    '''returns boolean\n\n
+    isPercentDiscountRecurringSpecified()\n
     '''
 def unsetPercentDiscountRecurring():
-    '''public void unsetPercentDiscountRecurring()
+    '''returns None\n\n
+    unsetPercentDiscountRecurring()\n
     '''
 def getSparePoolAmount():
-    '''public Long getSparePoolAmount()
+    '''returns Long\n\n
+    getSparePoolAmount()\n
     '''
 def setSparePoolAmount():
-    '''public void setSparePoolAmount(final Long sparePoolAmount)
+    '''returns None\n\n
+    setSparePoolAmount(final Long sparePoolAmount)\n
     '''
 def isSparePoolAmountSpecified():
-    '''public boolean isSparePoolAmountSpecified()
+    '''returns boolean\n\n
+    isSparePoolAmountSpecified()\n
     '''
 def unsetSparePoolAmount():
-    '''public void unsetSparePoolAmount()
+    '''returns None\n\n
+    unsetSparePoolAmount()\n
     '''
 def getVatId():
-    '''public String getVatId()
+    '''returns String\n\n
+    getVatId()\n
     '''
 def setVatId():
-    '''public void setVatId(final String vatId)
+    '''returns None\n\n
+    setVatId(final String vatId)\n
     '''
 def isVatIdSpecified():
-    '''public boolean isVatIdSpecified()
+    '''returns boolean\n\n
+    isVatIdSpecified()\n
     '''
 def unsetVatId():
-    '''public void unsetVatId()
+    '''returns None\n\n
+    unsetVatId()\n
     '''
 def getAchInformationCount():
-    '''public Long getAchInformationCount()
+    '''returns Long\n\n
+    getAchInformationCount()\n
     '''
 def setAchInformationCount():
-    '''public void setAchInformationCount(final Long achInformationCount)
+    '''returns None\n\n
+    setAchInformationCount(final Long achInformationCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def lastBillDate():
-    '''public Mask lastBillDate()
+    '''returns Mask\n\n
+    lastBillDate()\n
     '''
 def nextBillDate():
-    '''public Mask nextBillDate()
+    '''returns Mask\n\n
+    nextBillDate()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def anniversaryDayOfMonth():
-    '''public Mask anniversaryDayOfMonth()
+    '''returns Mask\n\n
+    anniversaryDayOfMonth()\n
     '''
 def cardAccountNumber():
-    '''public Mask cardAccountNumber()
+    '''returns Mask\n\n
+    cardAccountNumber()\n
     '''
 def cardExpirationMonth():
-    '''public Mask cardExpirationMonth()
+    '''returns Mask\n\n
+    cardExpirationMonth()\n
     '''
 def cardExpirationYear():
-    '''public Mask cardExpirationYear()
+    '''returns Mask\n\n
+    cardExpirationYear()\n
     '''
 def cardNickname():
-    '''public Mask cardNickname()
+    '''returns Mask\n\n
+    cardNickname()\n
     '''
 def cardType():
-    '''public Mask cardType()
+    '''returns Mask\n\n
+    cardType()\n
     '''
 def cardVerificationNumber():
-    '''public Mask cardVerificationNumber()
+    '''returns Mask\n\n
+    cardVerificationNumber()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def lastFourPaymentCardDigits():
-    '''public Mask lastFourPaymentCardDigits()
+    '''returns Mask\n\n
+    lastFourPaymentCardDigits()\n
     '''
 def lastPaymentDate():
-    '''public Mask lastPaymentDate()
+    '''returns Mask\n\n
+    lastPaymentDate()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def paymentTerms():
-    '''public Mask paymentTerms()
+    '''returns Mask\n\n
+    paymentTerms()\n
     '''
 def percentDiscountOnetime():
-    '''public Mask percentDiscountOnetime()
+    '''returns Mask\n\n
+    percentDiscountOnetime()\n
     '''
 def percentDiscountRecurring():
-    '''public Mask percentDiscountRecurring()
+    '''returns Mask\n\n
+    percentDiscountRecurring()\n
     '''
 def sparePoolAmount():
-    '''public Mask sparePoolAmount()
+    '''returns Mask\n\n
+    sparePoolAmount()\n
     '''
 def vatId():
-    '''public Mask vatId()
+    '''returns Mask\n\n
+    vatId()\n
     '''
 def achInformationCount():
-    '''public Mask achInformationCount()
+    '''returns Mask\n\n
+    achInformationCount()\n
     '''

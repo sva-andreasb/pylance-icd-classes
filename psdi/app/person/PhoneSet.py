@@ -1,3 +1,4 @@
-def PhoneSet():
-    '''public PhoneSet(final MboServerInterface ms)
+def ():
+    '''returns PhoneSet\n\n
+    (final MboServerInterface ms)\n
     '''

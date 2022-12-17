@@ -1,21 +1,28 @@
-def BooleanClassDescriptionImpl():
-    '''public BooleanClassDescriptionImpl(final Node n, final EnhGraph g)
+def ():
+    '''returns BooleanClassDescriptionImpl\n\n
+    (final Node n, final EnhGraph g)\n
     '''
 def setOperands():
-    '''public void setOperands(final RDFList operands)
+    '''returns None\n\n
+    setOperands(final RDFList operands)\n
     '''
 def addOperand():
-    '''public void addOperand(final Resource cls)
+    '''returns None\n\n
+    addOperand(final Resource cls)\n
     '''
 def addOperands():
-    '''public void addOperands(final Iterator<? extends Resource> classes)
+    '''returns None\n\n
+    addOperands(final Iterator<? extends Resource> classes)\n
     '''
 def getOperands():
-    '''public RDFList getOperands()
+    '''returns RDFList\n\n
+    getOperands()\n
     '''
 def hasOperand():
-    '''public boolean hasOperand(final Resource cls)
+    '''returns boolean\n\n
+    hasOperand(final Resource cls)\n
     '''
 def removeOperand():
-    '''public void removeOperand(final Resource res)
+    '''returns None\n\n
+    removeOperand(final Resource res)\n
     '''

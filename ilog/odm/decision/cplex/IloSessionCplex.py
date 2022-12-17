@@ -1,28 +1,37 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloSessionCplex():
-    '''public IloSessionCplex(final IloCplex cplex)
+def ():
+    '''returns IloSessionCplex\n\n
+    (final IloCplex cplex)\n
     '''
 def createRangeActivation():
-    '''public IloRangeActivation createRangeActivation()
+    '''returns IloRangeActivation\n\n
+    createRangeActivation()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def deactivateRange():
-    '''public void deactivateRange(final IloConstraint range)
+    '''returns None\n\n
+    deactivateRange(final IloConstraint range)\n
     '''
 def reactivateRange():
-    '''public void reactivateRange(final IloConstraint range)
+    '''returns None\n\n
+    reactivateRange(final IloConstraint range)\n
     '''
 def removeObjective():
-    '''public void removeObjective()
+    '''returns None\n\n
+    removeObjective()\n
     '''
 def getObjValue():
-    '''public double getObjValue()
+    '''returns double\n\n
+    getObjValue()\n
     '''
 def getExprValue():
-    '''public double getExprValue(final IloNumExpr expr)
+    '''returns double\n\n
+    getExprValue(final IloNumExpr expr)\n
     '''
 def getValue():
-    '''public double getValue(final IloNumVar arg0)
+    '''returns double\n\n
+    getValue(final IloNumVar arg0)\n
     '''

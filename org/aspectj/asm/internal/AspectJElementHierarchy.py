@@ -1,88 +1,117 @@
-def AspectJElementHierarchy():
-    '''public AspectJElementHierarchy(final AsmManager asm)
+def ():
+    '''returns AspectJElementHierarchy\n\n
+    (final AsmManager asm)\n
     '''
 def getElement():
-    '''public IProgramElement getElement(final String handle)
+    '''returns IProgramElement\n\n
+    getElement(final String handle)\n
     '''
 def setAsmManager():
-    '''public void setAsmManager(final AsmManager asm)
+    '''returns None\n\n
+    setAsmManager(final AsmManager asm)\n
     '''
 def getRoot():
-    '''public IProgramElement getRoot()
+    '''returns IProgramElement\n\n
+    getRoot()\n
     '''
 def toSummaryString():
-    '''public String toSummaryString()
+    '''returns String\n\n
+    toSummaryString()\n
     '''
 def setRoot():
-    '''public void setRoot(final IProgramElement root)
+    '''returns None\n\n
+    setRoot(final IProgramElement root)\n
     '''
 def addToFileMap():
-    '''public void addToFileMap(final String key, final IProgramElement value)
+    '''returns None\n\n
+    addToFileMap(final String key, final IProgramElement value)\n
     '''
 def removeFromFileMap():
-    '''public boolean removeFromFileMap(final String canonicalFilePath)
+    '''returns boolean\n\n
+    removeFromFileMap(final String canonicalFilePath)\n
     '''
 def setFileMap():
-    '''public void setFileMap(final HashMap<String, IProgramElement> fileMap)
+    '''returns None\n\n
+    setFileMap(final HashMap<String, IProgramElement> fileMap)\n
     '''
 def findInFileMap():
-    '''public Object findInFileMap(final Object key)
+    '''returns Object\n\n
+    findInFileMap(final Object key)\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def findElementForSignature():
-    '''public IProgramElement findElementForSignature(final IProgramElement parent, final IProgramElement.Kind kind, final String signature)
+    '''returns IProgramElement\n\n
+    findElementForSignature(final IProgramElement parent, final IProgramElement.Kind kind, final String signature)\n
     '''
 def findElementForLabel():
-    '''public IProgramElement findElementForLabel(final IProgramElement parent, final IProgramElement.Kind kind, final String label)
+    '''returns IProgramElement\n\n
+    findElementForLabel(final IProgramElement parent, final IProgramElement.Kind kind, final String label)\n
     '''
 def findElementForType():
-    '''public IProgramElement findElementForType(final String packageName, final String typeName)
+    '''returns IProgramElement\n\n
+    findElementForType(final String packageName, final String typeName)\n
     '''
 def findMatchingPackages():
-    '''public List<IProgramElement> findMatchingPackages(final String packagename)
+    '''returns List<IProgramElement>\n\n
+    findMatchingPackages(final String packagename)\n
     '''
 def findElementForSourceFile():
-    '''public IProgramElement findElementForSourceFile(final String sourceFile)
+    '''returns IProgramElement\n\n
+    findElementForSourceFile(final String sourceFile)\n
     '''
 def findElementForSourceLine():
-    '''public IProgramElement findElementForSourceLine(final ISourceLocation location)
-    public IProgramElement findElementForSourceLine(final String sourceFilePath, final int lineNumber)
+    '''returns IProgramElement\n\n
+    findElementForSourceLine(final ISourceLocation location)\n
+    findElementForSourceLine(final String sourceFilePath, final int lineNumber)\n
     '''
 def findNodeForSourceFile():
-    '''public IProgramElement findNodeForSourceFile(final IProgramElement node, final String sourcefilePath)
+    '''returns IProgramElement\n\n
+    findNodeForSourceFile(final IProgramElement node, final String sourcefilePath)\n
     '''
 def findElementForOffSet():
-    '''public IProgramElement findElementForOffSet(final String sourceFilePath, final int lineNumber, final int offSet)
+    '''returns IProgramElement\n\n
+    findElementForOffSet(final String sourceFilePath, final int lineNumber, final int offSet)\n
     '''
 def findCloserMatchForLineNumber():
-    '''public IProgramElement findCloserMatchForLineNumber(final IProgramElement node, final int lineno)
+    '''returns IProgramElement\n\n
+    findCloserMatchForLineNumber(final IProgramElement node, final int lineno)\n
     '''
 def getConfigFile():
-    '''public String getConfigFile()
+    '''returns String\n\n
+    getConfigFile()\n
     '''
 def setConfigFile():
-    '''public void setConfigFile(final String configFile)
+    '''returns None\n\n
+    setConfigFile(final String configFile)\n
     '''
 def findElementForHandle():
-    '''public IProgramElement findElementForHandle(final String handle)
+    '''returns IProgramElement\n\n
+    findElementForHandle(final String handle)\n
     '''
 def findElementForHandleOrCreate():
-    '''public IProgramElement findElementForHandleOrCreate(final String handle, final boolean create)
+    '''returns IProgramElement\n\n
+    findElementForHandleOrCreate(final String handle, final boolean create)\n
     '''
 def flushTypeMap():
-    '''public void flushTypeMap()
+    '''returns None\n\n
+    flushTypeMap()\n
     '''
 def flushHandleMap():
-    '''public void flushHandleMap()
+    '''returns None\n\n
+    flushHandleMap()\n
     '''
 def flushFileMap():
-    '''public void flushFileMap()
+    '''returns None\n\n
+    flushFileMap()\n
     '''
 def forget():
-    '''public void forget(final IProgramElement compilationUnitNode, final IProgramElement typeNode)
+    '''returns None\n\n
+    forget(final IProgramElement compilationUnitNode, final IProgramElement typeNode)\n
     '''
 def updateHandleMap():
-    '''public void updateHandleMap(final Set<String> deletedFiles)
+    '''returns None\n\n
+    updateHandleMap(final Set<String> deletedFiles)\n
     '''

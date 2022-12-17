@@ -1,18 +1,24 @@
 def handleRequest():
-    '''public OslcResourceResponse handleRequest(final OslcRequest request)
+    '''returns OslcResourceResponse\n\n
+    handleRequest(final OslcRequest request)\n
     '''
 def compare():
-    '''public int compare(final KeyValuePair<String, Double> e1, final KeyValuePair<String, Double> e2)
+    '''returns int\n\n
+    compare(final KeyValuePair<String, Double> e1, final KeyValuePair<String, Double> e2)\n
     '''
-def KeyValuePair():
-    '''public KeyValuePair(final K key, final V value)
+def ():
+    '''returns KeyValuePair\n\n
+    (final K key, final V value)\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''

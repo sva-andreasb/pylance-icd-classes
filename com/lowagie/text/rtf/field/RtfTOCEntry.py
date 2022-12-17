@@ -1,9 +1,12 @@
-def RtfTOCEntry():
-    '''public RtfTOCEntry(final String entry, final Font font)
+def ():
+    '''returns RtfTOCEntry\n\n
+    (final String entry, final Font font)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''
 def setShowPageNumber():
-    '''public void setShowPageNumber(final boolean showPageNumber)
+    '''returns None\n\n
+    setShowPageNumber(final boolean showPageNumber)\n
     '''

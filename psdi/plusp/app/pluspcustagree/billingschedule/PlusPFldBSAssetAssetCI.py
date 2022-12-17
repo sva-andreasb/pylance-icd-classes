@@ -1,12 +1,16 @@
-def PlusPFldBSAssetAssetCI():
-    '''public PlusPFldBSAssetAssetCI(final MboValue mv)
+def ():
+    '''returns PlusPFldBSAssetAssetCI\n\n
+    (final MboValue mv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

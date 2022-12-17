@@ -1,9 +1,12 @@
-def IoTPayloadProps():
-    '''public IoTPayloadProps(final MboSet ms)
+def ():
+    '''returns IoTPayloadProps\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''

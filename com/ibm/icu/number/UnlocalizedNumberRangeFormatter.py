@@ -1,4 +1,5 @@
 def locale():
-    '''public LocalizedNumberRangeFormatter locale(final Locale locale)
-    public LocalizedNumberRangeFormatter locale(final ULocale locale)
+    '''returns LocalizedNumberRangeFormatter\n\n
+    locale(final Locale locale)\n
+    locale(final ULocale locale)\n
     '''

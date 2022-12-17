@@ -1,3 +1,4 @@
-def BooleanModifierNode():
-    '''public BooleanModifierNode(final QueryNode node, final Modifier mod)
+def ():
+    '''returns BooleanModifierNode\n\n
+    (final QueryNode node, final Modifier mod)\n
     '''

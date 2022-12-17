@@ -1,3 +1,4 @@
-def BaseSchedulerTooltipModel():
-    '''public BaseSchedulerTooltipModel(final AbstractTreeGridMiniAppBean bean)
+def ():
+    '''returns BaseSchedulerTooltipModel\n\n
+    (final AbstractTreeGridMiniAppBean bean)\n
     '''

@@ -1,25 +1,25 @@
-def getInstance():
-    '''public static synchronized EnhancedDebuggerWindow getInstance()
-    '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent evt)
+    '''returns None\n\n
+    windowClosing(final WindowEvent evt)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean visible)
+    '''returns None\n\n
+    setVisible(final boolean visible)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
-    '''
-def waitUntilClosed():
-    '''public synchronized void waitUntilClosed()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
     '''

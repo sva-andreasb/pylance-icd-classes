@@ -1,6 +1,8 @@
 def dosync():
-    '''public int dosync()
+    '''returns int\n\n
+    dosync()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

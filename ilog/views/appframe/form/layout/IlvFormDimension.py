@@ -1,7 +1,9 @@
-def IlvFormDimension():
-    '''public IlvFormDimension(final float width, final float height)
-    public IlvFormDimension(final Dimension dimension)
+def ():
+    '''returns IlvFormDimension\n\n
+    (final float width, final float height)\n
+    (final Dimension dimension)\n
     '''
 def getDimension():
-    '''public Dimension getDimension()
+    '''returns Dimension\n\n
+    getDimension()\n
     '''

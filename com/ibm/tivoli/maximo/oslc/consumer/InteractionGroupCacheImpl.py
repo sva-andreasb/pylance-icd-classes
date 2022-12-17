@@ -1,22 +1,24 @@
-def InteractionGroupCacheImpl():
-    '''public InteractionGroupCacheImpl()
+def ():
+    '''returns InteractionGroupCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public synchronized void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getAllInteractionGroups():
-    '''public Map<String, InteractionGroupInfo> getAllInteractionGroups()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInteractionGroupInfo():
-    '''public InteractionGroupInfo getInteractionGroupInfo(final String name)
+    '''returns InteractionGroupInfo\n\n
+    getInteractionGroupInfo(final String name)\n
     '''
 def getAllGroupsForInteraction():
-    '''public List<String> getAllGroupsForInteraction(final String name)
+    '''returns List<String>\n\n
+    getAllGroupsForInteraction(final String name)\n
     '''

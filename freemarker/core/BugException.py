@@ -1,7 +1,8 @@
-def BugException():
-    '''public BugException()
-    public BugException(final String message)
-    public BugException(final Throwable cause)
-    public BugException(final String message, final Throwable cause)
-    public BugException(final int value)
+def ():
+    '''returns BugException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
+    (final int value)\n
     '''

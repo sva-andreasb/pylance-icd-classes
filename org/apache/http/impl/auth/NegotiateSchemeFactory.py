@@ -1,14 +1,18 @@
-def NegotiateSchemeFactory():
-    '''public NegotiateSchemeFactory(final SpnegoTokenGenerator spengoGenerator, final boolean stripPort)
-    public NegotiateSchemeFactory(final SpnegoTokenGenerator spengoGenerator)
-    public NegotiateSchemeFactory()
+def ():
+    '''returns NegotiateSchemeFactory\n\n
+    (final SpnegoTokenGenerator spengoGenerator, final boolean stripPort)\n
+    (final SpnegoTokenGenerator spengoGenerator)\n
+    ()\n
     '''
 def newInstance():
-    '''public AuthScheme newInstance(final HttpParams params)
+    '''returns AuthScheme\n\n
+    newInstance(final HttpParams params)\n
     '''
 def isStripPort():
-    '''public boolean isStripPort()
+    '''returns boolean\n\n
+    isStripPort()\n
     '''
 def getSpengoGenerator():
-    '''public SpnegoTokenGenerator getSpengoGenerator()
+    '''returns SpnegoTokenGenerator\n\n
+    getSpengoGenerator()\n
     '''

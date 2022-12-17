@@ -1,9 +1,12 @@
 def populate():
-    '''public boolean populate()
+    '''returns boolean\n\n
+    populate()\n
     '''
 def loadReservation():
-    '''public void loadReservation(final MXReservation reservation, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    loadReservation(final MXReservation reservation, final String objectName, final MboRemote mboObject)\n
     '''
 def populateReservations():
-    '''public void populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)
+    '''returns None\n\n
+    populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)\n
     '''

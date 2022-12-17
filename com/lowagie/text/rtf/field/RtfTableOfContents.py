@@ -1,3 +1,4 @@
-def RtfTableOfContents():
-    '''public RtfTableOfContents(final String defaultText, final Font font)
+def ():
+    '''returns RtfTableOfContents\n\n
+    (final String defaultText, final Font font)\n
     '''

@@ -1,9 +1,12 @@
-def AttrFormula():
-    '''public AttrFormula(final MboSet ms)
+def ():
+    '''returns AttrFormula\n\n
+    (final MboSet ms)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

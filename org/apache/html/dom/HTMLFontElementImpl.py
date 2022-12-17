@@ -1,21 +1,28 @@
 def getColor():
-    '''public String getColor()
+    '''returns String\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final String s)
+    '''returns None\n\n
+    setColor(final String s)\n
     '''
 def getFace():
-    '''public String getFace()
+    '''returns String\n\n
+    getFace()\n
     '''
 def setFace():
-    '''public void setFace(final String s)
+    '''returns None\n\n
+    setFace(final String s)\n
     '''
 def getSize():
-    '''public String getSize()
+    '''returns String\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final String s)
+    '''returns None\n\n
+    setSize(final String s)\n
     '''
-def HTMLFontElementImpl():
-    '''public HTMLFontElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLFontElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

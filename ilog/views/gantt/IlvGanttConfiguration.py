@@ -1,390 +1,507 @@
 ACTIVITY_ROWS = "int  0"
 RESOURCE_ROWS = "int  1"
 DEFAULT_ROW_HEIGHT = "int  20"
-def IlvGanttConfiguration():
-    '''public IlvGanttConfiguration(final int i)
-    public IlvGanttConfiguration(final IlvGanttModel ganttModel, final int n)
+def ():
+    '''returns IlvGanttConfiguration\n\n
+    (final int i)\n
+    (final IlvGanttModel ganttModel, final int n)\n
     '''
 def rowsInserted():
-    '''public void rowsInserted(final RowsInsertedEvent rowsInsertedEvent)
+    '''returns None\n\n
+    rowsInserted(final RowsInsertedEvent rowsInsertedEvent)\n
     '''
 def rowsRemoved():
-    '''public void rowsRemoved(final RowsRemovedEvent rowsRemovedEvent)
+    '''returns None\n\n
+    rowsRemoved(final RowsRemovedEvent rowsRemovedEvent)\n
     '''
 def rowMoved():
-    '''public void rowMoved(final RowMovedEvent rowMovedEvent)
+    '''returns None\n\n
+    rowMoved(final RowMovedEvent rowMovedEvent)\n
     '''
 def rowExpanded():
-    '''public void rowExpanded(final RowExpandedEvent rowExpandedEvent)
+    '''returns None\n\n
+    rowExpanded(final RowExpandedEvent rowExpandedEvent)\n
     '''
 def rowCollapsed():
-    '''public void rowCollapsed(final RowCollapsedEvent rowCollapsedEvent)
+    '''returns None\n\n
+    rowCollapsed(final RowCollapsedEvent rowCollapsedEvent)\n
     '''
 def rowHeightChanged():
-    '''public void rowHeightChanged(final RowHeightChangedEvent rowHeightChangedEvent)
+    '''returns None\n\n
+    rowHeightChanged(final RowHeightChangedEvent rowHeightChangedEvent)\n
     '''
 def rootRowVisibilityChanged():
-    '''public void rootRowVisibilityChanged(final RootRowVisibilityChangedEvent rootRowVisibilityChangedEvent)
+    '''returns None\n\n
+    rootRowVisibilityChanged(final RootRowVisibilityChangedEvent rootRowVisibilityChangedEvent)\n
     '''
 def verticalPositionChanged():
-    '''public void verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def verticalExtentChanged():
-    '''public void verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def maxVerticalPositionChanged():
-    '''public void maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent selectionEvent)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent selectionEvent)\n
     '''
 def visibleTimeChanged():
-    '''public void visibleTimeChanged(final VisibleTimeChangedEvent visibleTimeChangedEvent)
+    '''returns None\n\n
+    visibleTimeChanged(final VisibleTimeChangedEvent visibleTimeChangedEvent)\n
     '''
 def visibleDurationChanged():
-    '''public void visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''returns None\n\n
+    visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)\n
     '''
 def minVisibleTimeChanged():
-    '''public void minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''returns None\n\n
+    minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)\n
     '''
 def maxVisibleTimeChanged():
-    '''public void maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''returns None\n\n
+    maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)\n
     '''
 def minVisibleDurationChanged():
-    '''public void minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''returns None\n\n
+    minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)\n
     '''
 def getGanttModel():
-    '''public IlvGanttModel getGanttModel()
+    '''returns IlvGanttModel\n\n
+    getGanttModel()\n
     '''
 def setGanttModel():
-    '''public void setGanttModel(final IlvGanttModel ilvGanttModel)
+    '''returns None\n\n
+    setGanttModel(final IlvGanttModel ilvGanttModel)\n
     '''
 def addGanttModelListener():
-    '''public void addGanttModelListener(final GanttModelListener ganttModelListener)
+    '''returns None\n\n
+    addGanttModelListener(final GanttModelListener ganttModelListener)\n
     '''
 def removeGanttModelListener():
-    '''public void removeGanttModelListener(final GanttModelListener ganttModelListener)
+    '''returns None\n\n
+    removeGanttModelListener(final GanttModelListener ganttModelListener)\n
     '''
 def getVerticalDisplayController():
-    '''public IlvVerticalDisplayController getVerticalDisplayController()
+    '''returns IlvVerticalDisplayController\n\n
+    getVerticalDisplayController()\n
     '''
 def getRowType():
-    '''public int getRowType()
+    '''returns int\n\n
+    getRowType()\n
     '''
 def getRootRow():
-    '''public IlvHierarchyNode getRootRow()
+    '''returns IlvHierarchyNode\n\n
+    getRootRow()\n
     '''
 def isRowExpanded():
-    '''public boolean isRowExpanded(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns boolean\n\n
+    isRowExpanded(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def expandRow():
-    '''public void expandRow(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns None\n\n
+    expandRow(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def expandAllRows():
-    '''public void expandAllRows(final IlvHierarchyNode ilvHierarchyNode)
-    public void expandAllRows()
+    '''returns None\n\n
+    expandAllRows(final IlvHierarchyNode ilvHierarchyNode)\n
+    expandAllRows()\n
     '''
 def collapseRow():
-    '''public void collapseRow(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns None\n\n
+    collapseRow(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def validateRowHeights():
-    '''public void validateRowHeights()
+    '''returns None\n\n
+    validateRowHeights()\n
     '''
 def isFixedRowHeight():
-    '''public boolean isFixedRowHeight()
+    '''returns boolean\n\n
+    isFixedRowHeight()\n
     '''
 def getRowHeight():
-    '''public int getRowHeight()
-    public int getRowHeight(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns int\n\n
+    getRowHeight()\n
+    getRowHeight(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def setRowHeight():
-    '''public void setRowHeight(final int rowHeight)
-    public void setRowHeight(final IlvHierarchyNode ilvHierarchyNode, final int n)
+    '''returns None\n\n
+    setRowHeight(final int rowHeight)\n
+    setRowHeight(final IlvHierarchyNode ilvHierarchyNode, final int n)\n
     '''
 def getRootVisibleRow():
-    '''public IlvHierarchyNode getRootVisibleRow()
+    '''returns IlvHierarchyNode\n\n
+    getRootVisibleRow()\n
     '''
 def getFirstVisibleRow():
-    '''public IlvHierarchyNode getFirstVisibleRow()
+    '''returns IlvHierarchyNode\n\n
+    getFirstVisibleRow()\n
     '''
 def isRootRowVisible():
-    '''public boolean isRootRowVisible()
+    '''returns boolean\n\n
+    isRootRowVisible()\n
     '''
 def setRootRowVisible():
-    '''public void setRootRowVisible(final boolean rootNodeVisible)
+    '''returns None\n\n
+    setRootRowVisible(final boolean rootNodeVisible)\n
     '''
 def getRowIndex():
-    '''public int getRowIndex(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns int\n\n
+    getRowIndex(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def getRow():
-    '''public IlvHierarchyNode getRow(final int n)
+    '''returns IlvHierarchyNode\n\n
+    getRow(final int n)\n
     '''
 def getVisibleRowCount():
-    '''public int getVisibleRowCount()
+    '''returns int\n\n
+    getVisibleRowCount()\n
     '''
 def isRowVisible():
-    '''public boolean isRowVisible(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns boolean\n\n
+    isRowVisible(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def visibleRowsIterator():
-    '''public Iterator<IlvHierarchyNode> visibleRowsIterator(final IlvHierarchyNode ilvHierarchyNode)
-    public Iterator<IlvHierarchyNode> visibleRowsIterator()
+    '''returns Iterator<IlvHierarchyNode>\n\n
+    visibleRowsIterator(final IlvHierarchyNode ilvHierarchyNode)\n
+    visibleRowsIterator()\n
     '''
 def makeRowVisible():
-    '''public void makeRowVisible(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns None\n\n
+    makeRowVisible(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def getVisibleRowBounds():
-    '''public Rectangle getVisibleRowBounds(final int n)
-    public Rectangle getVisibleRowBounds(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns Rectangle\n\n
+    getVisibleRowBounds(final int n)\n
+    getVisibleRowBounds(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def getVisibleRowIndexAtPosition():
-    '''public int getVisibleRowIndexAtPosition(final int n)
+    '''returns int\n\n
+    getVisibleRowIndexAtPosition(final int n)\n
     '''
 def getVisibleRowAtPosition():
-    '''public IlvHierarchyNode getVisibleRowAtPosition(final int n)
+    '''returns IlvHierarchyNode\n\n
+    getVisibleRowAtPosition(final int n)\n
     '''
 def getDisplayedRowIndexAtPosition():
-    '''public int getDisplayedRowIndexAtPosition(final int n)
+    '''returns int\n\n
+    getDisplayedRowIndexAtPosition(final int n)\n
     '''
 def getDisplayedRowAtPosition():
-    '''public IlvHierarchyNode getDisplayedRowAtPosition(final int n)
+    '''returns IlvHierarchyNode\n\n
+    getDisplayedRowAtPosition(final int n)\n
     '''
 def makeRowDisplayed():
-    '''public void makeRowDisplayed(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns None\n\n
+    makeRowDisplayed(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def computeVerticalScrollPosition():
-    '''public int computeVerticalScrollPosition(final int n)
+    '''returns int\n\n
+    computeVerticalScrollPosition(final int n)\n
     '''
 def addVerticalExpandable():
-    '''public void addVerticalExpandable(final IlvVerticalExpandable ilvVerticalExpandable)
+    '''returns None\n\n
+    addVerticalExpandable(final IlvVerticalExpandable ilvVerticalExpandable)\n
     '''
 def removeVerticalExpandable():
-    '''public void removeVerticalExpandable(final IlvVerticalExpandable ilvVerticalExpandable)
+    '''returns None\n\n
+    removeVerticalExpandable(final IlvVerticalExpandable ilvVerticalExpandable)\n
     '''
 def setVerticalExpansionMaster():
-    '''public void setVerticalExpansionMaster(final IlvVerticalExpansionMaster verticalExpansionMaster)
+    '''returns None\n\n
+    setVerticalExpansionMaster(final IlvVerticalExpansionMaster verticalExpansionMaster)\n
     '''
 def addVerticalExpansionListener():
-    '''public void addVerticalExpansionListener(final VerticalExpansionListener verticalExpansionListener)
+    '''returns None\n\n
+    addVerticalExpansionListener(final VerticalExpansionListener verticalExpansionListener)\n
     '''
 def removeVerticalExpansionListener():
-    '''public void removeVerticalExpansionListener(final VerticalExpansionListener verticalExpansionListener)
+    '''returns None\n\n
+    removeVerticalExpansionListener(final VerticalExpansionListener verticalExpansionListener)\n
     '''
 def getMaxVerticalPosition():
-    '''public int getMaxVerticalPosition()
+    '''returns int\n\n
+    getMaxVerticalPosition()\n
     '''
 def setMaxVerticalPosition():
-    '''public void setMaxVerticalPosition(final int maxPosition)
+    '''returns None\n\n
+    setMaxVerticalPosition(final int maxPosition)\n
     '''
 def getVerticalPosition():
-    '''public int getVerticalPosition()
+    '''returns int\n\n
+    getVerticalPosition()\n
     '''
 def setVerticalPosition():
-    '''public void setVerticalPosition(final int position)
+    '''returns None\n\n
+    setVerticalPosition(final int position)\n
     '''
 def getVerticalExtent():
-    '''public int getVerticalExtent()
+    '''returns int\n\n
+    getVerticalExtent()\n
     '''
 def setVerticalExtent():
-    '''public void setVerticalExtent(final int extent)
+    '''returns None\n\n
+    setVerticalExtent(final int extent)\n
     '''
 def addVerticalScrollable():
-    '''public void addVerticalScrollable(final IlvVerticalScrollable ilvVerticalScrollable)
+    '''returns None\n\n
+    addVerticalScrollable(final IlvVerticalScrollable ilvVerticalScrollable)\n
     '''
 def removeVerticalScrollable():
-    '''public void removeVerticalScrollable(final IlvVerticalScrollable ilvVerticalScrollable)
+    '''returns None\n\n
+    removeVerticalScrollable(final IlvVerticalScrollable ilvVerticalScrollable)\n
     '''
 def addVerticalScrollListener():
-    '''public void addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''returns None\n\n
+    addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)\n
     '''
 def removeVerticalScrollListener():
-    '''public void removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''returns None\n\n
+    removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)\n
     '''
 def getMinVisibleTime():
-    '''public Date getMinVisibleTime()
+    '''returns Date\n\n
+    getMinVisibleTime()\n
     '''
 def setMinVisibleTime():
-    '''public void setMinVisibleTime(final Date minVisibleTime)
+    '''returns None\n\n
+    setMinVisibleTime(final Date minVisibleTime)\n
     '''
 def getMaxVisibleTime():
-    '''public Date getMaxVisibleTime()
+    '''returns Date\n\n
+    getMaxVisibleTime()\n
     '''
 def setMaxVisibleTime():
-    '''public void setMaxVisibleTime(final Date maxVisibleTime)
+    '''returns None\n\n
+    setMaxVisibleTime(final Date maxVisibleTime)\n
     '''
 def getMinVisibleDuration():
-    '''public IlvDuration getMinVisibleDuration()
+    '''returns IlvDuration\n\n
+    getMinVisibleDuration()\n
     '''
 def setMinVisibleDuration():
-    '''public void setMinVisibleDuration(final IlvDuration minVisibleDuration)
+    '''returns None\n\n
+    setMinVisibleDuration(final IlvDuration minVisibleDuration)\n
     '''
 def getVisibleTime():
-    '''public Date getVisibleTime()
+    '''returns Date\n\n
+    getVisibleTime()\n
     '''
 def setVisibleTime():
-    '''public void setVisibleTime(final Date visibleTime)
+    '''returns None\n\n
+    setVisibleTime(final Date visibleTime)\n
     '''
 def getVisibleDuration():
-    '''public IlvDuration getVisibleDuration()
+    '''returns IlvDuration\n\n
+    getVisibleDuration()\n
     '''
 def setVisibleDuration():
-    '''public void setVisibleDuration(final IlvDuration visibleDuration)
+    '''returns None\n\n
+    setVisibleDuration(final IlvDuration visibleDuration)\n
     '''
 def getVisibleInterval():
-    '''public IlvTimeInterval getVisibleInterval()
+    '''returns IlvTimeInterval\n\n
+    getVisibleInterval()\n
     '''
 def setVisibleInterval():
-    '''public void setVisibleInterval(final Date date, final IlvDuration ilvDuration)
-    '''
-def getVisibleIntervalAnimationSteps():
-    '''public final int getVisibleIntervalAnimationSteps()
-    '''
-def setVisibleIntervalAnimationSteps():
-    '''public final void setVisibleIntervalAnimationSteps(final int animationSteps)
+    '''returns None\n\n
+    setVisibleInterval(final Date date, final IlvDuration ilvDuration)\n
     '''
 def addTimeScrollable():
-    '''public void addTimeScrollable(final IlvTimeScrollable ilvTimeScrollable)
+    '''returns None\n\n
+    addTimeScrollable(final IlvTimeScrollable ilvTimeScrollable)\n
     '''
 def removeTimeScrollable():
-    '''public void removeTimeScrollable(final IlvTimeScrollable ilvTimeScrollable)
+    '''returns None\n\n
+    removeTimeScrollable(final IlvTimeScrollable ilvTimeScrollable)\n
     '''
 def addTimeScrollListener():
-    '''public void addTimeScrollListener(final TimeScrollListener timeScrollListener)
+    '''returns None\n\n
+    addTimeScrollListener(final TimeScrollListener timeScrollListener)\n
     '''
 def removeTimeScrollListener():
-    '''public void removeTimeScrollListener(final TimeScrollListener timeScrollListener)
+    '''returns None\n\n
+    removeTimeScrollListener(final TimeScrollListener timeScrollListener)\n
     '''
 def getCacheManager():
-    '''public IlvCacheManager getCacheManager()
+    '''returns IlvCacheManager\n\n
+    getCacheManager()\n
     '''
 def isReservationCachingEnabled():
-    '''public boolean isReservationCachingEnabled()
+    '''returns boolean\n\n
+    isReservationCachingEnabled()\n
     '''
 def setReservationCachingEnabled():
-    '''public void setReservationCachingEnabled(final boolean reservationCachingEnabled)
+    '''returns None\n\n
+    setReservationCachingEnabled(final boolean reservationCachingEnabled)\n
     '''
 def getReservationCacheLoadThreshold():
-    '''public float getReservationCacheLoadThreshold()
+    '''returns float\n\n
+    getReservationCacheLoadThreshold()\n
     '''
 def setReservationCacheLoadThreshold():
-    '''public void setReservationCacheLoadThreshold(final float reservationCacheLoadThreshold)
+    '''returns None\n\n
+    setReservationCacheLoadThreshold(final float reservationCacheLoadThreshold)\n
     '''
 def getReservationCacheLoadFactor():
-    '''public float getReservationCacheLoadFactor()
+    '''returns float\n\n
+    getReservationCacheLoadFactor()\n
     '''
 def setReservationCacheLoadFactor():
-    '''public void setReservationCacheLoadFactor(final float reservationCacheLoadFactor)
+    '''returns None\n\n
+    setReservationCacheLoadFactor(final float reservationCacheLoadFactor)\n
     '''
 def cacheAllReservations():
-    '''public void cacheAllReservations()
+    '''returns None\n\n
+    cacheAllReservations()\n
     '''
 def addSelectable():
-    '''public void addSelectable(final IlvJTree ilvJTree)
-    public void addSelectable(final IlvJTable ilvJTable)
-    public void addSelectable(final IlvGanttSheet ilvGanttSheet)
+    '''returns None\n\n
+    addSelectable(final IlvJTree ilvJTree)\n
+    addSelectable(final IlvJTable ilvJTable)\n
+    addSelectable(final IlvGanttSheet ilvGanttSheet)\n
     '''
 def removeSelectable():
-    '''public void removeSelectable(final IlvJTree ilvJTree)
-    public void removeSelectable(final IlvJTable ilvJTable)
-    public void removeSelectable(final IlvGanttSheet ilvGanttSheet)
+    '''returns None\n\n
+    removeSelectable(final IlvJTree ilvJTree)\n
+    removeSelectable(final IlvJTable ilvJTable)\n
+    removeSelectable(final IlvGanttSheet ilvGanttSheet)\n
     '''
 def isRowSelected():
-    '''public boolean isRowSelected(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns boolean\n\n
+    isRowSelected(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def selectRow():
-    '''public void selectRow(final int n, final boolean b)
-    public void selectRow(final IlvHierarchyNode ilvHierarchyNode, final boolean b)
+    '''returns None\n\n
+    selectRow(final int n, final boolean b)\n
+    selectRow(final IlvHierarchyNode ilvHierarchyNode, final boolean b)\n
     '''
 def isSelectionAdjusting():
-    '''public boolean isSelectionAdjusting()
+    '''returns boolean\n\n
+    isSelectionAdjusting()\n
     '''
 def setSelectionAdjusting():
-    '''public void setSelectionAdjusting(final boolean selectionAdjusting)
+    '''returns None\n\n
+    setSelectionAdjusting(final boolean selectionAdjusting)\n
     '''
 def deSelectAllRows():
-    '''public void deSelectAllRows()
+    '''returns None\n\n
+    deSelectAllRows()\n
     '''
 def getSelectedRows():
-    '''public IlvHierarchyNode[] getSelectedRows()
+    '''returns IlvHierarchyNode[]\n\n
+    getSelectedRows()\n
     '''
 def selectedRowsIterator():
-    '''public Iterator<IlvHierarchyNode> selectedRowsIterator()
+    '''returns Iterator<IlvHierarchyNode>\n\n
+    selectedRowsIterator()\n
     '''
 def selectedGraphicsIterator():
-    '''public Iterator<IlvGraphic> selectedGraphicsIterator()
+    '''returns Iterator<IlvGraphic>\n\n
+    selectedGraphicsIterator()\n
     '''
 def getSelectedGraphics():
-    '''public IlvGraphic[] getSelectedGraphics()
+    '''returns IlvGraphic[]\n\n
+    getSelectedGraphics()\n
     '''
 def isGraphicSelected():
-    '''public boolean isGraphicSelected(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    isGraphicSelected(final IlvGraphic ilvGraphic)\n
     '''
 def getSelectedConstraints():
-    '''public IlvConstraint[] getSelectedConstraints()
+    '''returns IlvConstraint[]\n\n
+    getSelectedConstraints()\n
     '''
 def getSelectedReservations():
-    '''public IlvReservation[] getSelectedReservations()
+    '''returns IlvReservation[]\n\n
+    getSelectedReservations()\n
     '''
 def addSelectionListener():
-    '''public void addSelectionListener(final SelectionListener selectionListener)
+    '''returns None\n\n
+    addSelectionListener(final SelectionListener selectionListener)\n
     '''
 def removeSelectionListener():
-    '''public void removeSelectionListener(final SelectionListener selectionListener)
+    '''returns None\n\n
+    removeSelectionListener(final SelectionListener selectionListener)\n
     '''
 def addListener():
-    '''public void addListener(final GenericEventListener genericEventListener)
-    public void addListener(final GenericEventListener genericEventListener, final Class clazz)
+    '''returns None\n\n
+    addListener(final GenericEventListener genericEventListener)\n
+    addListener(final GenericEventListener genericEventListener, final Class clazz)\n
     '''
 def addActivityHierarchyListener():
-    '''public void addActivityHierarchyListener(final ActivityHierarchyListener activityHierarchyListener)
+    '''returns None\n\n
+    addActivityHierarchyListener(final ActivityHierarchyListener activityHierarchyListener)\n
     '''
 def addActivityListener():
-    '''public void addActivityListener(final ActivityListener activityListener)
+    '''returns None\n\n
+    addActivityListener(final ActivityListener activityListener)\n
     '''
 def addResourceHierarchyListener():
-    '''public void addResourceHierarchyListener(final ResourceHierarchyListener resourceHierarchyListener)
+    '''returns None\n\n
+    addResourceHierarchyListener(final ResourceHierarchyListener resourceHierarchyListener)\n
     '''
 def addResourceListener():
-    '''public void addResourceListener(final ResourceListener resourceListener)
+    '''returns None\n\n
+    addResourceListener(final ResourceListener resourceListener)\n
     '''
 def addConstraintListener():
-    '''public void addConstraintListener(final ConstraintListener constraintListener)
+    '''returns None\n\n
+    addConstraintListener(final ConstraintListener constraintListener)\n
     '''
 def addReservationListener():
-    '''public void addReservationListener(final ReservationListener reservationListener)
+    '''returns None\n\n
+    addReservationListener(final ReservationListener reservationListener)\n
     '''
 def removeListener():
-    '''public void removeListener(final EventListener eventListener)
+    '''returns None\n\n
+    removeListener(final EventListener eventListener)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def activitiesInserted():
-    '''public void activitiesInserted(final ActivitiesInsertedEvent activitiesInsertedEvent)
+    '''returns None\n\n
+    activitiesInserted(final ActivitiesInsertedEvent activitiesInsertedEvent)\n
     '''
 def activitiesRemoved():
-    '''public void activitiesRemoved(final ActivitiesRemovedEvent activitiesRemovedEvent)
+    '''returns None\n\n
+    activitiesRemoved(final ActivitiesRemovedEvent activitiesRemovedEvent)\n
     '''
 def activityMoved():
-    '''public void activityMoved(final ActivityMovedEvent activityMovedEvent)
+    '''returns None\n\n
+    activityMoved(final ActivityMovedEvent activityMovedEvent)\n
     '''
 def activityChanged():
-    '''public void activityChanged(final ActivityEvent activityEvent)
+    '''returns None\n\n
+    activityChanged(final ActivityEvent activityEvent)\n
     '''
 def resourcesInserted():
-    '''public void resourcesInserted(final ResourcesInsertedEvent resourcesInsertedEvent)
+    '''returns None\n\n
+    resourcesInserted(final ResourcesInsertedEvent resourcesInsertedEvent)\n
     '''
 def resourcesRemoved():
-    '''public void resourcesRemoved(final ResourcesRemovedEvent resourcesRemovedEvent)
+    '''returns None\n\n
+    resourcesRemoved(final ResourcesRemovedEvent resourcesRemovedEvent)\n
     '''
 def resourceMoved():
-    '''public void resourceMoved(final ResourceMovedEvent resourceMovedEvent)
+    '''returns None\n\n
+    resourceMoved(final ResourceMovedEvent resourceMovedEvent)\n
     '''
 def resourceChanged():
-    '''public void resourceChanged(final ResourceEvent resourceEvent)
+    '''returns None\n\n
+    resourceChanged(final ResourceEvent resourceEvent)\n
     '''
 def constraintChanged():
-    '''public void constraintChanged(final ConstraintEvent constraintEvent)
+    '''returns None\n\n
+    constraintChanged(final ConstraintEvent constraintEvent)\n
     '''
 def reservationChanged():
-    '''public void reservationChanged(final ReservationEvent reservationEvent)
+    '''returns None\n\n
+    reservationChanged(final ReservationEvent reservationEvent)\n
     '''

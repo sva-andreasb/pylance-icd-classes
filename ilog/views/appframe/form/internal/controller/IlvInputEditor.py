@@ -1,40 +1,53 @@
 EDITABLE_PROPERTY = "String  \"Editable\""
-def IlvInputEditor():
-    '''public IlvInputEditor()
+def ():
+    '''returns IlvInputEditor\n\n
+    ()\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def connectModel():
-    '''public void connectModel(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectModel(final IlvEditionContext ilvEditionContext)\n
     '''
 def connectUI():
-    '''public void connectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def initializeUI():
-    '''public void initializeUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    initializeUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def disconnectUI():
-    '''public void disconnectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def getInputText():
-    '''public String getInputText()
+    '''returns String\n\n
+    getInputText()\n
     '''
 def setInputText():
-    '''public void setInputText(final String inputText)
+    '''returns None\n\n
+    setInputText(final String inputText)\n
     '''
 def isEditable():
-    '''public boolean isEditable()
+    '''returns boolean\n\n
+    isEditable()\n
     '''
 def setEditable():
-    '''public void setEditable(final boolean b)
+    '''returns None\n\n
+    setEditable(final boolean b)\n
     '''
 def read():
-    '''public void read(final Element element)
+    '''returns None\n\n
+    read(final Element element)\n
     '''
 def inputActivated():
-    '''public void inputActivated(final InputEvent inputEvent)
+    '''returns None\n\n
+    inputActivated(final InputEvent inputEvent)\n
     '''
 def inputTextChanged():
-    '''public void inputTextChanged(final InputEvent inputEvent)
+    '''returns None\n\n
+    inputTextChanged(final InputEvent inputEvent)\n
     '''

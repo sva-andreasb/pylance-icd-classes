@@ -1,3 +1,4 @@
-def FldQueueType():
-    '''public FldQueueType(final MboValue mbv)
+def ():
+    '''returns FldQueueType\n\n
+    (final MboValue mbv)\n
     '''

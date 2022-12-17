@@ -1,110 +1,138 @@
 def isRunning():
-    '''public boolean isRunning()
+    '''returns boolean\n\n
+    isRunning()\n
     '''
 def setRunning():
-    '''public void setRunning(final boolean value)
+    '''returns None\n\n
+    setRunning(final boolean value)\n
     '''
-def AppService():
-    '''public AppService()
-    public AppService(final MXServer mxServer)
+def ():
+    '''returns AppService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def configure():
-    '''public void configure(final Properties cf)
+    '''returns None\n\n
+    configure(final Properties cf)\n
     '''
 def setProxy():
-    '''public void setProxy(final Remote proxy)
+    '''returns None\n\n
+    setProxy(final Remote proxy)\n
     '''
 def getProxy():
-    '''public Remote getProxy()
+    '''returns Remote\n\n
+    getProxy()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getMXServer():
-    '''public MXServer getMXServer()
+    '''returns MXServer\n\n
+    getMXServer()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def setURL():
-    '''public void setURL(final String url)
+    '''returns None\n\n
+    setURL(final String url)\n
     '''
 def getLoad():
-    '''public int getLoad()
+    '''returns int\n\n
+    getLoad()\n
     '''
 def isAppService():
-    '''public boolean isAppService()
+    '''returns boolean\n\n
+    isAppService()\n
     '''
 def isSingletonService():
-    '''public boolean isSingletonService()
+    '''returns boolean\n\n
+    isSingletonService()\n
     '''
 def getServiceInfo():
-    '''public String getServiceInfo()
+    '''returns String\n\n
+    getServiceInfo()\n
     '''
 def getMaxVar():
-    '''public MaxVarServiceRemote getMaxVar()
+    '''returns MaxVarServiceRemote\n\n
+    getMaxVar()\n
     '''
 def getProfile():
-    '''public ProfileRemote getProfile(final UserInfo userInfo)
+    '''returns ProfileRemote\n\n
+    getProfile(final UserInfo userInfo)\n
     '''
 def getMaximoDD():
-    '''public MaximoDD getMaximoDD()
+    '''returns MaximoDD\n\n
+    getMaximoDD()\n
     '''
 def getSchemaOwner():
-    '''public String getSchemaOwner()
+    '''returns String\n\n
+    getSchemaOwner()\n
     '''
 def getSetFromKeys():
-    '''public MboSetRemote getSetFromKeys(final String setName, final String[] keyNames, final String[][] keyValues, final UserInfo user)
+    '''returns MboSetRemote\n\n
+    getSetFromKeys(final String setName, final String[] keyNames, final String[][] keyValues, final UserInfo user)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String setName, final UserInfo user)
-    '''
-def freeMboSet():
-    '''public synchronized void freeMboSet()
-    '''
-def getLiveObjCount():
-    '''public synchronized int getLiveObjCount()
+    '''returns MboSetRemote\n\n
+    getMboSet(final String setName, final UserInfo user)\n
     '''
 def getDBConnection():
-    '''public Connection getDBConnection(final ConnectionKey conKey)
+    '''returns Connection\n\n
+    getDBConnection(final ConnectionKey conKey)\n
     '''
 def freeDBConnection():
-    '''public void freeDBConnection(final ConnectionKey conKey)
+    '''returns None\n\n
+    freeDBConnection(final ConnectionKey conKey)\n
     '''
 def getCurrentState():
-    '''public String getCurrentState()
+    '''returns String\n\n
+    getCurrentState()\n
     '''
 def getStateList():
-    '''public String[] getStateList()
+    '''returns String[]\n\n
+    getStateList()\n
     '''
 def getStateCmdList():
-    '''public String[] getStateCmdList()
+    '''returns String[]\n\n
+    getStateCmdList()\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def initCriteriaList():
-    '''public void initCriteriaList(final Hashtable criteriaTable)
+    '''returns None\n\n
+    initCriteriaList(final Hashtable criteriaTable)\n
     '''
 def getCriteria():
-    '''public String getCriteria(final String criteriaName)
+    '''returns String\n\n
+    getCriteria(final String criteriaName)\n
     '''
 def verifyUser():
-    '''public void verifyUser(final String loginCheck, final String passCheck, final UserInfo userinfo)
-    public boolean verifyUser(final String loginCheck, final String passCheck, final UserInfo userinfo, final String app, final String reason, final String transid, final String[] keyvalue)
+    '''returns boolean\n\n
+    verifyUser(final String loginCheck, final String passCheck, final UserInfo userinfo)\n
+    verifyUser(final String loginCheck, final String passCheck, final UserInfo userinfo, final String app, final String reason, final String transid, final String[] keyvalue)\n
     '''
 def getSetForRelationship():
-    '''public MboSetRemote getSetForRelationship(final String relOwner, final String relName, final String[] relColumn, final String[] relValue, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getSetForRelationship(final String relOwner, final String relName, final String[] relColumn, final String[] relValue, final UserInfo userInfo)\n
     '''
 def getServiceLogger():
-    '''public MXLogger getServiceLogger()
+    '''returns MXLogger\n\n
+    getServiceLogger()\n
     '''
 def checkSecurity():
-    '''public boolean checkSecurity(final String methodname, final UserInfo userInfo)
+    '''returns boolean\n\n
+    checkSecurity(final String methodname, final UserInfo userInfo)\n
     '''

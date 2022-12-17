@@ -1,5 +1,6 @@
-def NoSuchEntityException():
-    '''public NoSuchEntityException()
-    public NoSuchEntityException(final Exception ex)
-    public NoSuchEntityException(final String message)
+def ():
+    '''returns NoSuchEntityException\n\n
+    ()\n
+    (final Exception ex)\n
+    (final String message)\n
     '''

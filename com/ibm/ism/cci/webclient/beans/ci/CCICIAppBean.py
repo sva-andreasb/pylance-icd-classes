@@ -1,79 +1,98 @@
-def CCICIAppBean():
-    '''public CCICIAppBean()
+def ():
+    '''returns MboSetIterable\n\n
+    ()\n
+    (final MboSetRemote mboSet)\n
+    ()\n
     '''
 def CCISYNCCI():
-    '''public int CCISYNCCI()
+    '''returns int\n\n
+    CCISYNCCI()\n
     '''
 def CCISYNCCIS():
-    '''public int CCISYNCCIS()
+    '''returns int\n\n
+    CCISYNCCIS()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def LAUNCHENTRY():
-    '''public int LAUNCHENTRY()
+    '''returns int\n\n
+    LAUNCHENTRY()\n
     '''
 def CREATESR():
-    '''public int CREATESR()
+    '''returns int\n\n
+    CREATESR()\n
     '''
 def CREATEPROB():
-    '''public int CREATEPROB()
+    '''returns int\n\n
+    CREATEPROB()\n
     '''
 def CREATEINC():
-    '''public int CREATEINC()
+    '''returns int\n\n
+    CREATEINC()\n
     '''
 def CREATEWO():
-    '''public int CREATEWO()
+    '''returns int\n\n
+    CREATEWO()\n
     '''
 def CREATECHNG():
-    '''public int CREATECHNG()
+    '''returns int\n\n
+    CREATECHNG()\n
     '''
 def CREATEREL():
-    '''public int CREATEREL()
+    '''returns int\n\n
+    CREATEREL()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def CCILINKCIS():
-    '''public int CCILINKCIS()
+    '''returns int\n\n
+    CCILINKCIS()\n
     '''
 def CCILINKCI():
-    '''public int CCILINKCI()
+    '''returns int\n\n
+    CCILINKCI()\n
     '''
 def STATUS():
-    '''public int STATUS()
-    '''
-def getChangeStatusLists():
-    '''public static Object[] getChangeStatusLists(final UserInfo userInfo)
-    '''
-def MboSetIterable():
-    '''public MboSetIterable(final MboSetRemote mboSet)
-    public MboSetIterable()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def setMboSet():
-    '''public void setMboSet(final MboSetRemote mboSet)
+    '''returns None\n\n
+    setMboSet(final MboSetRemote mboSet)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''
 def throwException():
-    '''public void throwException()
+    '''returns None\n\n
+    throwException()\n
     '''

@@ -1,66 +1,88 @@
-def JobCreationDataImpl():
-    '''public JobCreationDataImpl()
+def ():
+    '''returns JobCreationDataImpl\n\n
+    ()\n
     '''
 def getModelName():
-    '''public String getModelName()
+    '''returns String\n\n
+    getModelName()\n
     '''
 def setModelName():
-    '''public void setModelName(final String modelName)
+    '''returns None\n\n
+    setModelName(final String modelName)\n
     '''
 def getModelVersion():
-    '''public int getModelVersion()
+    '''returns int\n\n
+    getModelVersion()\n
     '''
 def setModelVersion():
-    '''public void setModelVersion(final int modelVersion)
+    '''returns None\n\n
+    setModelVersion(final int modelVersion)\n
     '''
 def getParameters():
-    '''public JobParameters getParameters()
+    '''returns JobParameters\n\n
+    getParameters()\n
     '''
 def getAttachments():
-    '''public List<JobAttachmentCreationData> getAttachments()
+    '''returns List<JobAttachmentCreationData>\n\n
+    getAttachments()\n
     '''
 def getImplAttachments():
-    '''public List<JobAttachmentImpl> getImplAttachments()
+    '''returns List<JobAttachmentImpl>\n\n
+    getImplAttachments()\n
     '''
 def addJobAttachment():
-    '''public JobAttachmentImpl addJobAttachment(final String name)
+    '''returns JobAttachmentImpl\n\n
+    addJobAttachment(final String name)\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserEmail():
-    '''public void setUserEmail(final String userEmail)
+    '''returns None\n\n
+    setUserEmail(final String userEmail)\n
     '''
 def getUserEmail():
-    '''public String getUserEmail()
+    '''returns String\n\n
+    getUserEmail()\n
     '''
 def setScenarioName():
-    '''public void setScenarioName(final String scenarioName)
+    '''returns None\n\n
+    setScenarioName(final String scenarioName)\n
     '''
 def getScenarioName():
-    '''public String getScenarioName()
+    '''returns String\n\n
+    getScenarioName()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String projectId)
+    '''returns None\n\n
+    setProjectId(final String projectId)\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def isIgnoreJobCount():
-    '''public boolean isIgnoreJobCount()
+    '''returns boolean\n\n
+    isIgnoreJobCount()\n
     '''
 def setIgnoreJobCount():
-    '''public void setIgnoreJobCount(final boolean ignoreJobCount)
+    '''returns None\n\n
+    setIgnoreJobCount(final boolean ignoreJobCount)\n
     '''
 def getAttachment():
-    '''public JobAttachmentImpl getAttachment(final String name)
+    '''returns JobAttachmentImpl\n\n
+    getAttachment(final String name)\n
     '''
 def getAttachmentsProperties():
-    '''public JobAttachmentsProperties getAttachmentsProperties()
+    '''returns JobAttachmentsProperties\n\n
+    getAttachmentsProperties()\n
     '''
 def setAttachmentsProperties():
-    '''public void setAttachmentsProperties(final JobAttachmentsProperties attachmentsProperties)
+    '''returns None\n\n
+    setAttachmentsProperties(final JobAttachmentsProperties attachmentsProperties)\n
     '''

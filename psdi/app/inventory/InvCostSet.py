@@ -1,36 +1,48 @@
-def InvCostSet():
-    '''public InvCostSet(final MboServerInterface ms)
+def ():
+    '''returns InvCostSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def OneHundrePercentFound():
-    '''public boolean OneHundrePercentFound(final MboRemote currentMbo)
+    '''returns boolean\n\n
+    OneHundrePercentFound(final MboRemote currentMbo)\n
     '''
 def getOneHundredPerCentCost():
-    '''public MboRemote getOneHundredPerCentCost()
+    '''returns MboRemote\n\n
+    getOneHundredPerCentCost()\n
     '''
 def OneAndOnlyOne100PercentRate():
-    '''public int OneAndOnlyOne100PercentRate()
+    '''returns int\n\n
+    OneAndOnlyOne100PercentRate()\n
     '''
 def adjustStandardCost():
-    '''public void adjustStandardCost()
+    '''returns None\n\n
+    adjustStandardCost()\n
     '''
 def adjustAverageCost():
-    '''public void adjustAverageCost()
+    '''returns None\n\n
+    adjustAverageCost()\n
     '''
 def increaseErrorCount():
-    '''public void increaseErrorCount()
+    '''returns None\n\n
+    increaseErrorCount()\n
     '''
 def totalStdCostErrors():
-    '''public void totalStdCostErrors()
+    '''returns None\n\n
+    totalStdCostErrors()\n
     '''
 def totalAvgCostErrors():
-    '''public void totalAvgCostErrors()
+    '''returns None\n\n
+    totalAvgCostErrors()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int ind)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int ind)\n
     '''

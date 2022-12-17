@@ -1,7 +1,9 @@
-def ResponseInfoCollection():
-    '''public ResponseInfoCollection(final Collection<T> collection, final Map<String, Object> properties, final int totalCount, final String nextPage)
-    public ResponseInfoCollection(final Collection<T> collection, final Map<String, Object> properties, final int totalCount, final URI nextPage)
+def ():
+    '''returns ResponseInfoCollection\n\n
+    (final Collection<T> collection, final Map<String, Object> properties, final int totalCount, final String nextPage)\n
+    (final Collection<T> collection, final Map<String, Object> properties, final int totalCount, final URI nextPage)\n
     '''
 def collection():
-    '''public Collection<T> collection()
+    '''returns Collection<T>\n\n
+    collection()\n
     '''

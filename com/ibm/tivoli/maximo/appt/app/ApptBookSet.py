@@ -1,3 +1,4 @@
-def ApptBookSet():
-    '''public ApptBookSet(final MboServerInterface ms)
+def ():
+    '''returns ApptBookSet\n\n
+    (final MboServerInterface ms)\n
     '''

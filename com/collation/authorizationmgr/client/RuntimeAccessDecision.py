@@ -1,21 +1,28 @@
-def RuntimeAccessDecision():
-    '''public RuntimeAccessDecision(final String permission, final boolean decision)
+def ():
+    '''returns RuntimeAccessDecision\n\n
+    (final String permission, final boolean decision)\n
     '''
 def getRuntimeAccessDecision():
-    '''public boolean getRuntimeAccessDecision()
+    '''returns boolean\n\n
+    getRuntimeAccessDecision()\n
     '''
 def setRuntimeAccessDecision():
-    '''public void setRuntimeAccessDecision(final boolean decision)
+    '''returns None\n\n
+    setRuntimeAccessDecision(final boolean decision)\n
     '''
 def getPermission():
-    '''public String getPermission()
+    '''returns String\n\n
+    getPermission()\n
     '''
 def setPermission():
-    '''public void setPermission(final String permission)
+    '''returns None\n\n
+    setPermission(final String permission)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

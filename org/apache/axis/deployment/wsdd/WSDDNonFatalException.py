@@ -1,4 +1,5 @@
-def WSDDNonFatalException():
-    '''public WSDDNonFatalException(final String msg)
-    public WSDDNonFatalException(final Exception e)
+def ():
+    '''returns WSDDNonFatalException\n\n
+    (final String msg)\n
+    (final Exception e)\n
     '''

@@ -1,10 +1,13 @@
-def CognosComplexExpressionBuilder():
-    '''public CognosComplexExpressionBuilder(final String relationshipName, final String childName, final String parentName, final String dataSourceViewNamespace, final String databaseType)
-    public CognosComplexExpressionBuilder(final String relationshipName, final String childName, final String parentName, final String databaseType)
+def ():
+    '''returns CognosComplexExpressionBuilder\n\n
+    (final String relationshipName, final String childName, final String parentName, final String dataSourceViewNamespace, final String databaseType)\n
+    (final String relationshipName, final String childName, final String parentName, final String databaseType)\n
     '''
 def buildComplexExpression():
-    '''public Node buildComplexExpression(final String whereClause)
+    '''returns Node\n\n
+    buildComplexExpression(final String whereClause)\n
     '''
 def evaluateNode():
-    '''public Node evaluateNode(final Node parent, final Node current)
+    '''returns Node\n\n
+    evaluateNode(final Node parent, final Node current)\n
     '''

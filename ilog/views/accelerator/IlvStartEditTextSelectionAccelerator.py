@@ -1,5 +1,6 @@
-def IlvStartEditTextSelectionAccelerator():
-    '''public IlvStartEditTextSelectionAccelerator(final int n, final int n2, final char c, final int n3, final boolean b)
-    public IlvStartEditTextSelectionAccelerator(final int n, final int n2, final int n3, final boolean b)
-    public IlvStartEditTextSelectionAccelerator(final int n, final int n2, final int n3)
+def ():
+    '''returns IlvStartEditTextSelectionAccelerator\n\n
+    (final int n, final int n2, final char c, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3)\n
     '''

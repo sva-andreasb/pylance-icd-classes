@@ -1,7 +1,9 @@
 anon = "String  \"<this>\""
-def NamedTripleBunches():
-    '''public NamedTripleBunches()
+def ():
+    '''returns NamedTripleBunches\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final String name, final Triple pattern)
+    '''returns None\n\n
+    add(final String name, final Triple pattern)\n
     '''

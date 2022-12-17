@@ -1,9 +1,12 @@
-def AbstractNoSqlConnection():
-    '''public AbstractNoSqlConnection()
+def ():
+    '''returns AbstractNoSqlConnection\n\n
+    ()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''

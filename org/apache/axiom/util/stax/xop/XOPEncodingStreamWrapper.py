@@ -1,12 +1,16 @@
-def XOPEncodingStreamWrapper():
-    '''public XOPEncodingStreamWrapper(final ContentIDGenerator contentIDGenerator, final OptimizationPolicy optimizationPolicy)
+def ():
+    '''returns XOPEncodingStreamWrapper\n\n
+    (final ContentIDGenerator contentIDGenerator, final OptimizationPolicy optimizationPolicy)\n
     '''
 def getContentIDs():
-    '''public Set getContentIDs()
+    '''returns Set\n\n
+    getContentIDs()\n
     '''
 def isLoaded():
-    '''public boolean isLoaded(final String contentID)
+    '''returns boolean\n\n
+    isLoaded(final String contentID)\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler(final String contentID)
+    '''returns DataHandler\n\n
+    getDataHandler(final String contentID)\n
     '''

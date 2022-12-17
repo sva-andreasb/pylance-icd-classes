@@ -1,54 +1,72 @@
 def getRoom():
-    '''public EntityBareJid getRoom()
+    '''returns EntityBareJid\n\n
+    getRoom()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getSubject():
-    '''public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
     '''
 def getOccupantsCount():
-    '''public int getOccupantsCount()
+    '''returns int\n\n
+    getOccupantsCount()\n
     '''
 def isMembersOnly():
-    '''public boolean isMembersOnly()
+    '''returns boolean\n\n
+    isMembersOnly()\n
     '''
 def isModerated():
-    '''public boolean isModerated()
+    '''returns boolean\n\n
+    isModerated()\n
     '''
 def isNonanonymous():
-    '''public boolean isNonanonymous()
+    '''returns boolean\n\n
+    isNonanonymous()\n
     '''
 def isPasswordProtected():
-    '''public boolean isPasswordProtected()
+    '''returns boolean\n\n
+    isPasswordProtected()\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def getMaxHistoryFetch():
-    '''public int getMaxHistoryFetch()
+    '''returns int\n\n
+    getMaxHistoryFetch()\n
     '''
 def getContactJids():
-    '''public List<EntityBareJid> getContactJids()
+    '''returns List<EntityBareJid>\n\n
+    getContactJids()\n
     '''
 def getLang():
-    '''public String getLang()
+    '''returns String\n\n
+    getLang()\n
     '''
 def getLdapGroup():
-    '''public String getLdapGroup()
+    '''returns String\n\n
+    getLdapGroup()\n
     '''
 def isSubjectModifiable():
-    '''public Boolean isSubjectModifiable()
+    '''returns Boolean\n\n
+    isSubjectModifiable()\n
     '''
 def getPubSub():
-    '''public String getPubSub()
+    '''returns String\n\n
+    getPubSub()\n
     '''
 def getLogsUrl():
-    '''public URL getLogsUrl()
+    '''returns URL\n\n
+    getLogsUrl()\n
     '''
 def getForm():
-    '''public Form getForm()
+    '''returns Form\n\n
+    getForm()\n
     '''

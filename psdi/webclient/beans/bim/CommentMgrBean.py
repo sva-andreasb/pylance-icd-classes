@@ -1,18 +1,24 @@
-def CommentMgrBean():
-    '''public CommentMgrBean()
+def ():
+    '''returns CommentMgrBean\n\n
+    ()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def selectNode():
-    '''public void selectNode(final long uid)
+    '''returns None\n\n
+    selectNode(final long uid)\n
     '''
 def newComment():
-    '''public int newComment()
+    '''returns int\n\n
+    newComment()\n
     '''
 def reply():
-    '''public int reply()
+    '''returns int\n\n
+    reply()\n
     '''

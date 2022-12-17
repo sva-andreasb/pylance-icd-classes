@@ -1,30 +1,38 @@
 ELEMENT = "String  \"range\""
 ATTR_OFFSET = "String  \"offset\""
 ATTR_LENGTH = "String  \"length\""
-def Range():
-    '''public Range()
-    public Range(final int length)
-    public Range(final int offset, final int length)
-    public Range(final int offset, final int length, final HashElement hash)
+def ():
+    '''returns Range\n\n
+    ()\n
+    (final int length)\n
+    (final int offset, final int length)\n
+    (final int offset, final int length, final HashElement hash)\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getHash():
-    '''public HashElement getHash()
+    '''returns HashElement\n\n
+    getHash()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

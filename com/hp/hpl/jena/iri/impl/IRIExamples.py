@@ -1,9 +1,12 @@
-def IRIExamples():
-    '''public IRIExamples(final String[] badExamples, final String[] goodExamples)
+def ():
+    '''returns IRIExamples\n\n
+    (final String[] badExamples, final String[] goodExamples)\n
     '''
 def getBadExamples():
-    '''public String[] getBadExamples()
+    '''returns String[]\n\n
+    getBadExamples()\n
     '''
 def getGoodExamples():
-    '''public String[] getGoodExamples()
+    '''returns String[]\n\n
+    getGoodExamples()\n
     '''

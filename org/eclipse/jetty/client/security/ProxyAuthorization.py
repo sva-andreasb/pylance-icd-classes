@@ -1,6 +1,8 @@
-def ProxyAuthorization():
-    '''public ProxyAuthorization(final String username, final String password)
+def ():
+    '''returns ProxyAuthorization\n\n
+    (final String username, final String password)\n
     '''
 def setCredentials():
-    '''public void setCredentials(final HttpExchange exchange)
+    '''returns None\n\n
+    setCredentials(final HttpExchange exchange)\n
     '''

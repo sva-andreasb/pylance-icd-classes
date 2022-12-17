@@ -1,3 +1,4 @@
 def distributepkg():
-    '''public int distributepkg()
+    '''returns int\n\n
+    distributepkg()\n
     '''

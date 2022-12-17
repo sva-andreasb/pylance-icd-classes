@@ -1,9 +1,8 @@
-def ChatopsPostToChannelBean():
-    '''public ChatopsPostToChannelBean()
+def ():
+    '''returns ChatopsPostToChannelBean\n\n
+    ()\n
     '''
 def loadChannels():
-    '''public void loadChannels(final int teamPosition)
-    '''
-def postToChannel():
-    '''public synchronized int postToChannel()
+    '''returns None\n\n
+    loadChannels(final int teamPosition)\n
     '''

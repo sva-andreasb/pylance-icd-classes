@@ -1,116 +1,145 @@
 WHOLE_COLLECTION = "int  Integer.MIN_VALUE"
 UNKNOWN_NAMESPACE = "String  \"<<unknown namespace>>\""
-def newNodePointer():
-    '''public static NodePointer newNodePointer(final QName name, final Object bean, final Locale locale)
-    '''
-def newChildNodePointer():
-    '''public static NodePointer newChildNodePointer(final NodePointer parent, final QName name, final Object bean)
-    '''
 def getParent():
-    '''public NodePointer getParent()
+    '''returns NodePointer\n\n
+    getParent()\n
     '''
 def setAttribute():
-    '''public void setAttribute(final boolean attribute)
+    '''returns None\n\n
+    setAttribute(final boolean attribute)\n
     '''
 def isAttribute():
-    '''public boolean isAttribute()
+    '''returns boolean\n\n
+    isAttribute()\n
     '''
 def isRoot():
-    '''public boolean isRoot()
+    '''returns boolean\n\n
+    isRoot()\n
     '''
 def isNode():
-    '''public boolean isNode()
+    '''returns boolean\n\n
+    isNode()\n
     '''
 def isContainer():
-    '''public boolean isContainer()
+    '''returns boolean\n\n
+    isContainer()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def getValuePointer():
-    '''public NodePointer getValuePointer()
+    '''returns NodePointer\n\n
+    getValuePointer()\n
     '''
 def getImmediateValuePointer():
-    '''public NodePointer getImmediateValuePointer()
+    '''returns NodePointer\n\n
+    getImmediateValuePointer()\n
     '''
 def isActual():
-    '''public boolean isActual()
+    '''returns boolean\n\n
+    isActual()\n
     '''
 def getNodeValue():
-    '''public Object getNodeValue()
+    '''returns Object\n\n
+    getNodeValue()\n
     '''
 def getNode():
-    '''public Object getNode()
+    '''returns Object\n\n
+    getNode()\n
     '''
 def getRootNode():
-    '''public Object getRootNode()
+    '''returns Object\n\n
+    getRootNode()\n
     '''
 def testNode():
-    '''public boolean testNode(final NodeTest test)
+    '''returns boolean\n\n
+    testNode(final NodeTest test)\n
     '''
 def createPath():
-    '''public NodePointer createPath(final JXPathContext context, final Object value)
-    public NodePointer createPath(final JXPathContext context)
+    '''returns NodePointer\n\n
+    createPath(final JXPathContext context, final Object value)\n
+    createPath(final JXPathContext context)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def createChild():
-    '''public NodePointer createChild(final JXPathContext context, final QName name, final int index, final Object value)
-    public NodePointer createChild(final JXPathContext context, final QName name, final int index)
+    '''returns NodePointer\n\n
+    createChild(final JXPathContext context, final QName name, final int index, final Object value)\n
+    createChild(final JXPathContext context, final QName name, final int index)\n
     '''
 def createAttribute():
-    '''public NodePointer createAttribute(final JXPathContext context, final QName name)
+    '''returns NodePointer\n\n
+    createAttribute(final JXPathContext context, final QName name)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def isLanguage():
-    '''public boolean isLanguage(final String lang)
+    '''returns boolean\n\n
+    isLanguage(final String lang)\n
     '''
 def childIterator():
-    '''public NodeIterator childIterator(final NodeTest test, final boolean reverse, final NodePointer startWith)
+    '''returns NodeIterator\n\n
+    childIterator(final NodeTest test, final boolean reverse, final NodePointer startWith)\n
     '''
 def attributeIterator():
-    '''public NodeIterator attributeIterator(final QName qname)
+    '''returns NodeIterator\n\n
+    attributeIterator(final QName qname)\n
     '''
 def namespaceIterator():
-    '''public NodeIterator namespaceIterator()
+    '''returns NodeIterator\n\n
+    namespaceIterator()\n
     '''
 def namespacePointer():
-    '''public NodePointer namespacePointer(final String namespace)
+    '''returns NodePointer\n\n
+    namespacePointer(final String namespace)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI(final String prefix)
-    public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI(final String prefix)\n
+    getNamespaceURI()\n
     '''
 def getExpandedName():
-    '''public QName getExpandedName()
+    '''returns QName\n\n
+    getExpandedName()\n
     '''
 def getPointerByID():
-    '''public Pointer getPointerByID(final JXPathContext context, final String id)
+    '''returns Pointer\n\n
+    getPointerByID(final JXPathContext context, final String id)\n
     '''
 def getPointerByKey():
-    '''public Pointer getPointerByKey(final JXPathContext context, final String key, final String value)
+    '''returns Pointer\n\n
+    getPointerByKey(final JXPathContext context, final String key, final String value)\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object object)
+    '''returns int\n\n
+    compareTo(final Object object)\n
     '''
 def printPointerChain():
-    '''public void printPointerChain()
+    '''returns None\n\n
+    printPointerChain()\n
     '''

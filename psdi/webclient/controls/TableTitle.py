@@ -1,9 +1,12 @@
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def setVisibility():
-    '''public void setVisibility(final boolean visible)
+    '''returns None\n\n
+    setVisibility(final boolean visible)\n
     '''
 def maintainControlId():
-    '''public boolean maintainControlId()
+    '''returns boolean\n\n
+    maintainControlId()\n
     '''

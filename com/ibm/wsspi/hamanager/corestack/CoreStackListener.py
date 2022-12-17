@@ -1,0 +1,3 @@
+NORMAL = "int  0"
+INTERNAL_ERROR = "int  1"
+UNDEFINED_MEMBER = "int  2"

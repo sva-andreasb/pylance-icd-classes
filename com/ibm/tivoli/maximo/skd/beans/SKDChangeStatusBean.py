@@ -1,6 +1,8 @@
-def SKDChangeStatusBean():
-    '''public SKDChangeStatusBean()
+def ():
+    '''returns SKDChangeStatusBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

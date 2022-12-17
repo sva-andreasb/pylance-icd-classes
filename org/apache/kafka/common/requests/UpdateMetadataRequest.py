@@ -1,45 +1,35 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def UpdateMetadataRequest():
-    '''public UpdateMetadataRequest(final Struct struct, final short versionId)
+def ():
+    '''returns EndPoint\n\n
+    (final Struct struct, final short versionId)\n
+    (final short version, final int controllerId, final int controllerEpoch, final Map<TopicPartition, PartitionState> partitionStates, final Set<Broker> liveBrokers)\n
+    (final int controllerEpoch, final int leader, final int leaderEpoch, final List<Integer> isr, final int zkVersion, final List<Integer> replicas, final List<Integer> offlineReplicas)\n
+    (final int id, final List<EndPoint> endPoints, final String rack)\n
+    (final String host, final int port, final SecurityProtocol securityProtocol, final ListenerName listenerName)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def controllerId():
-    '''public int controllerId()
+    '''returns int\n\n
+    controllerId()\n
     '''
 def controllerEpoch():
-    '''public int controllerEpoch()
-    '''
-def partitionStates():
-    '''public Map<TopicPartition, PartitionState> partitionStates()
+    '''returns int\n\n
+    controllerEpoch()\n
     '''
 def liveBrokers():
-    '''public Set<Broker> liveBrokers()
-    '''
-def parse():
-    '''public static UpdateMetadataRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final short version, final int controllerId, final int controllerEpoch, final Map<TopicPartition, PartitionState> partitionStates, final Set<Broker> liveBrokers)
+    '''returns Set<Broker>\n\n
+    liveBrokers()\n
     '''
 def build():
-    '''public UpdateMetadataRequest build(final short version)
+    '''returns UpdateMetadataRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    '''
-def PartitionState():
-    '''public PartitionState(final int controllerEpoch, final int leader, final int leaderEpoch, final List<Integer> isr, final int zkVersion, final List<Integer> replicas, final List<Integer> offlineReplicas)
-    '''
-def Broker():
-    '''public Broker(final int id, final List<EndPoint> endPoints, final String rack)
-    '''
-def EndPoint():
-    '''public EndPoint(final String host, final int port, final SecurityProtocol securityProtocol, final ListenerName listenerName)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

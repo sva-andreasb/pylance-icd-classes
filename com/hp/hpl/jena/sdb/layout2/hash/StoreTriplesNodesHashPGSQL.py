@@ -1,3 +1,4 @@
-def StoreTriplesNodesHashPGSQL():
-    '''public StoreTriplesNodesHashPGSQL(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreTriplesNodesHashPGSQL\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

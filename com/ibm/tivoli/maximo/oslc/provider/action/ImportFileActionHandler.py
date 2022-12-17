@@ -1,3 +1,4 @@
 def action():
-    '''public OslcResourceResponse action(final OslcRequest request, byte[] actionData)
+    '''returns OslcResourceResponse\n\n
+    action(final OslcRequest request, byte[] actionData)\n
     '''

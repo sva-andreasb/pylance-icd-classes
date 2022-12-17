@@ -1,15 +1,20 @@
-def PortletDisplaySet():
-    '''public PortletDisplaySet(final MboServerInterface ms)
+def ():
+    '''returns PortletDisplaySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getConditions():
-    '''public HashSet getConditions(final String layoutId)
+    '''returns HashSet\n\n
+    getConditions(final String layoutId)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def isSkipValidation():
-    '''public boolean isSkipValidation()
+    '''returns boolean\n\n
+    isSkipValidation()\n
     '''
 def setSkipValidation():
-    '''public void setSkipValidation(final boolean skipValidation)
+    '''returns None\n\n
+    setSkipValidation(final boolean skipValidation)\n
     '''

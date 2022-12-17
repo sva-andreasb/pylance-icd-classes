@@ -1,11 +1,14 @@
 ACCEPT_ENCODING = "String  \"HTTP.header.Accept-Encoding\""
 ACCESSOR_SECRET = "String  \"oauth_accessor_secret\""
-def OAuthConsumer():
-    '''public OAuthConsumer(final String callbackURL, final String consumerKey, final String consumerSecret, final OAuthServiceProvider serviceProvider)
+def ():
+    '''returns OAuthConsumer\n\n
+    (final String callbackURL, final String consumerKey, final String consumerSecret, final OAuthServiceProvider serviceProvider)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''

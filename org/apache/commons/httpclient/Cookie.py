@@ -1,76 +1,100 @@
-def Cookie():
-    '''public Cookie()
-    public Cookie(final String domain, final String name, final String value)
-    public Cookie(final String domain, final String name, final String value, final String path, final Date expires, final boolean secure)
-    public Cookie(final String domain, final String name, final String value, final String path, final int maxAge, final boolean secure)
+def ():
+    '''returns Cookie\n\n
+    ()\n
+    (final String domain, final String name, final String value)\n
+    (final String domain, final String name, final String value, final String path, final Date expires, final boolean secure)\n
+    (final String domain, final String name, final String value, final String path, final int maxAge, final boolean secure)\n
     '''
 def getComment():
-    '''public String getComment()
+    '''returns String\n\n
+    getComment()\n
     '''
 def setComment():
-    '''public void setComment(final String comment)
+    '''returns None\n\n
+    setComment(final String comment)\n
     '''
 def getExpiryDate():
-    '''public Date getExpiryDate()
+    '''returns Date\n\n
+    getExpiryDate()\n
     '''
 def setExpiryDate():
-    '''public void setExpiryDate(final Date expiryDate)
+    '''returns None\n\n
+    setExpiryDate(final Date expiryDate)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def setDomain():
-    '''public void setDomain(String domain)
+    '''returns None\n\n
+    setDomain(String domain)\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def setPath():
-    '''public void setPath(final String path)
+    '''returns None\n\n
+    setPath(final String path)\n
     '''
 def getSecure():
-    '''public boolean getSecure()
+    '''returns boolean\n\n
+    getSecure()\n
     '''
 def setSecure():
-    '''public void setSecure(final boolean secure)
+    '''returns None\n\n
+    setSecure(final boolean secure)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final int version)
+    '''returns None\n\n
+    setVersion(final int version)\n
     '''
 def isExpired():
-    '''public boolean isExpired()
-    public boolean isExpired(final Date now)
+    '''returns boolean\n\n
+    isExpired()\n
+    isExpired(final Date now)\n
     '''
 def setPathAttributeSpecified():
-    '''public void setPathAttributeSpecified(final boolean value)
+    '''returns None\n\n
+    setPathAttributeSpecified(final boolean value)\n
     '''
 def isPathAttributeSpecified():
-    '''public boolean isPathAttributeSpecified()
+    '''returns boolean\n\n
+    isPathAttributeSpecified()\n
     '''
 def setDomainAttributeSpecified():
-    '''public void setDomainAttributeSpecified(final boolean value)
+    '''returns None\n\n
+    setDomainAttributeSpecified(final boolean value)\n
     '''
 def isDomainAttributeSpecified():
-    '''public boolean isDomainAttributeSpecified()
+    '''returns boolean\n\n
+    isDomainAttributeSpecified()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toExternalForm():
-    '''public String toExternalForm()
+    '''returns String\n\n
+    toExternalForm()\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

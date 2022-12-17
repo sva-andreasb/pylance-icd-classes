@@ -1,51 +1,68 @@
 def getGUID():
-    '''public byte[] getGUID()
+    '''returns byte[]\n\n
+    getGUID()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getRelType():
-    '''public String getRelType()
+    '''returns String\n\n
+    getRelType()\n
     '''
 def getSourceGUID():
-    '''public byte[] getSourceGUID()
+    '''returns byte[]\n\n
+    getSourceGUID()\n
     '''
 def getSourceClassGUID():
-    '''public byte[] getSourceClassGUID()
+    '''returns byte[]\n\n
+    getSourceClassGUID()\n
     '''
 def getTargetGUID():
-    '''public byte[] getTargetGUID()
+    '''returns byte[]\n\n
+    getTargetGUID()\n
     '''
 def getTargetClassGUID():
-    '''public byte[] getTargetClassGUID()
+    '''returns byte[]\n\n
+    getTargetClassGUID()\n
     '''
 def getCreateTimestamp():
-    '''public Timestamp getCreateTimestamp()
+    '''returns Timestamp\n\n
+    getCreateTimestamp()\n
     '''
 def setGUID():
-    '''public void setGUID(final byte[] guid)
+    '''returns None\n\n
+    setGUID(final byte[] guid)\n
     '''
 def setLabel():
-    '''public void setLabel(final String string)
+    '''returns None\n\n
+    setLabel(final String string)\n
     '''
 def setRelType():
-    '''public void setRelType(final String type)
+    '''returns None\n\n
+    setRelType(final String type)\n
     '''
 def setSourceGUID():
-    '''public void setSourceGUID(final byte[] guid)
+    '''returns None\n\n
+    setSourceGUID(final byte[] guid)\n
     '''
 def setSourceClassGUID():
-    '''public void setSourceClassGUID(final byte[] guid)
+    '''returns None\n\n
+    setSourceClassGUID(final byte[] guid)\n
     '''
 def setTargetGUID():
-    '''public void setTargetGUID(final byte[] guid)
+    '''returns None\n\n
+    setTargetGUID(final byte[] guid)\n
     '''
 def setTargetClassGUID():
-    '''public void setTargetClassGUID(final byte[] guid)
+    '''returns None\n\n
+    setTargetClassGUID(final byte[] guid)\n
     '''
 def setCreateTimestamp():
-    '''public void setCreateTimestamp(final Timestamp timestamp)
+    '''returns None\n\n
+    setCreateTimestamp(final Timestamp timestamp)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

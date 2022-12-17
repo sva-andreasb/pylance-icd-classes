@@ -1,3 +1,4 @@
-def EscalationSet():
-    '''public EscalationSet(final MboServerInterface ms)
+def ():
+    '''returns EscalationSet\n\n
+    (final MboServerInterface ms)\n
     '''

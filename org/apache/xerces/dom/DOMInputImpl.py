@@ -1,55 +1,72 @@
-def DOMInputImpl():
-    '''public DOMInputImpl()
-    public DOMInputImpl(final String fPublicId, final String fSystemId, final String fBaseSystemId)
-    public DOMInputImpl(final String fPublicId, final String fSystemId, final String fBaseSystemId, final InputStream fByteStream, final String fEncoding)
-    public DOMInputImpl(final String fPublicId, final String fSystemId, final String fBaseSystemId, final Reader fCharStream, final String fEncoding)
-    public DOMInputImpl(final String fPublicId, final String fSystemId, final String fBaseSystemId, final String fData, final String fEncoding)
+def ():
+    '''returns DOMInputImpl\n\n
+    ()\n
+    (final String fPublicId, final String fSystemId, final String fBaseSystemId)\n
+    (final String fPublicId, final String fSystemId, final String fBaseSystemId, final InputStream fByteStream, final String fEncoding)\n
+    (final String fPublicId, final String fSystemId, final String fBaseSystemId, final Reader fCharStream, final String fEncoding)\n
+    (final String fPublicId, final String fSystemId, final String fBaseSystemId, final String fData, final String fEncoding)\n
     '''
 def getByteStream():
-    '''public InputStream getByteStream()
+    '''returns InputStream\n\n
+    getByteStream()\n
     '''
 def setByteStream():
-    '''public void setByteStream(final InputStream fByteStream)
+    '''returns None\n\n
+    setByteStream(final InputStream fByteStream)\n
     '''
 def getCharacterStream():
-    '''public Reader getCharacterStream()
+    '''returns Reader\n\n
+    getCharacterStream()\n
     '''
 def setCharacterStream():
-    '''public void setCharacterStream(final Reader fCharStream)
+    '''returns None\n\n
+    setCharacterStream(final Reader fCharStream)\n
     '''
 def getStringData():
-    '''public String getStringData()
+    '''returns String\n\n
+    getStringData()\n
     '''
 def setStringData():
-    '''public void setStringData(final String fData)
+    '''returns None\n\n
+    setStringData(final String fData)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String fEncoding)
+    '''returns None\n\n
+    setEncoding(final String fEncoding)\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def setPublicId():
-    '''public void setPublicId(final String fPublicId)
+    '''returns None\n\n
+    setPublicId(final String fPublicId)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String fSystemId)
+    '''returns None\n\n
+    setSystemId(final String fSystemId)\n
     '''
 def getBaseURI():
-    '''public String getBaseURI()
+    '''returns String\n\n
+    getBaseURI()\n
     '''
 def setBaseURI():
-    '''public void setBaseURI(final String fBaseSystemId)
+    '''returns None\n\n
+    setBaseURI(final String fBaseSystemId)\n
     '''
 def getCertifiedText():
-    '''public boolean getCertifiedText()
+    '''returns boolean\n\n
+    getCertifiedText()\n
     '''
 def setCertifiedText():
-    '''public void setCertifiedText(final boolean fCertifiedText)
+    '''returns None\n\n
+    setCertifiedText(final boolean fCertifiedText)\n
     '''

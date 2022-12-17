@@ -1,3 +1,4 @@
 def verify():
-    '''public boolean verify(final String hostname, final SSLSession session)
+    '''returns boolean\n\n
+    verify(final String hostname, final SSLSession session)\n
     '''

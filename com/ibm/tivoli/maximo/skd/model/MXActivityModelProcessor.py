@@ -1,25 +1,33 @@
-def MXActivityModelProcessor():
-    '''public MXActivityModelProcessor(final MXGanttModel model)
+def ():
+    '''returns MXActivityModelProcessor\n\n
+    (final MXGanttModel model)\n
     '''
 def getModel():
-    '''public IMXGanttModel getModel()
+    '''returns IMXGanttModel\n\n
+    getModel()\n
     '''
 def getRootActivity():
-    '''public IMXActivity getRootActivity()
+    '''returns IMXActivity\n\n
+    getRootActivity()\n
     '''
 def activityPreorderIterator():
-    '''public Iterator<IMXActivity> activityPreorderIterator()
-    public Iterator<IMXActivity> activityPreorderIterator(final IMXActivity activity)
+    '''returns Iterator<IMXActivity>\n\n
+    activityPreorderIterator()\n
+    activityPreorderIterator(final IMXActivity activity)\n
     '''
 def childActivityIterator():
-    '''public Iterator<IMXActivity> childActivityIterator(final IMXActivity activity)
+    '''returns Iterator<IMXActivity>\n\n
+    childActivityIterator(final IMXActivity activity)\n
     '''
 def getChildActivityCount():
-    '''public int getChildActivityCount(final IMXActivity activity)
+    '''returns int\n\n
+    getChildActivityCount(final IMXActivity activity)\n
     '''
 def constraintIterator():
-    '''public Iterator<IMXConstraint> constraintIterator(final IMXActivity activity)
+    '''returns Iterator<IMXConstraint>\n\n
+    constraintIterator(final IMXActivity activity)\n
     '''
 def getItemById():
-    '''public IMXActivity getItemById(final String id)
+    '''returns IMXActivity\n\n
+    getItemById(final String id)\n
     '''

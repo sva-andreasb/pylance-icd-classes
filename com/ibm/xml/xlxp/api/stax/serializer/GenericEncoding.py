@@ -1,20 +1,19 @@
-def GenericEncoding():
-    '''public GenericEncoding(final String charsetName)
+def ():
+    '''returns EncodingNode\n\n
+    (final String charsetName)\n
+    (final int value)\n
+    (final int fLow, final int fHigh)\n
     '''
 def isEncodable():
-    '''public final boolean isEncodable(final char c)
-    public boolean isEncodable(final char c, final char c2)
-    public boolean isEncodable(final int n)
-    '''
-def MyInteger():
-    '''public MyInteger(final int value)
+    '''returns boolean\n\n
+    isEncodable(final char c, final char c2)\n
+    isEncodable(final int n)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def EncodingNode():
-    '''public EncodingNode(final int fLow, final int fHigh)
+    '''returns int\n\n
+    hashCode()\n
     '''

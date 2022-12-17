@@ -1,11 +1,14 @@
 sid = "short  26"
-def VerticalPageBreakRecord():
-    '''public VerticalPageBreakRecord()
-    public VerticalPageBreakRecord(final RecordInputStream in)
+def ():
+    '''returns VerticalPageBreakRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

@@ -1,29 +1,38 @@
-def ObjectArrayListIterator():
-    '''public ObjectArrayListIterator(final E... array)
-    public ObjectArrayListIterator(final E[] array, final int start)
-    public ObjectArrayListIterator(final E[] array, final int start, final int end)
+def ():
+    '''returns ObjectArrayListIterator\n\n
+    (final E... array)\n
+    (final E[] array, final int start)\n
+    (final E[] array, final int start, final int end)\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public E previous()
+    '''returns E\n\n
+    previous()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def nextIndex():
-    '''public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''
 def add():
-    '''public void add(final E obj)
+    '''returns None\n\n
+    add(final E obj)\n
     '''
 def set():
-    '''public void set(final E obj)
+    '''returns None\n\n
+    set(final E obj)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

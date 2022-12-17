@@ -1,9 +1,8 @@
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def createConnectionSource():
-    '''public static DataSourceConnectionSource createConnectionSource(@PluginAttribute("jndiName") final String jndiName)
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,18 +1,24 @@
-def EnumSetDeserializer():
-    '''public EnumSetDeserializer(final JavaType enumType, final JsonDeserializer<?> deser)
+def ():
+    '''returns EnumSetDeserializer\n\n
+    (final JavaType enumType, final JsonDeserializer<?> deser)\n
     '''
 def withDeserializer():
-    '''public EnumSetDeserializer withDeserializer(final JsonDeserializer<?> deser)
+    '''returns EnumSetDeserializer\n\n
+    withDeserializer(final JsonDeserializer<?> deser)\n
     '''
 def withResolved():
-    '''public EnumSetDeserializer withResolved(final JsonDeserializer<?> deser, final Boolean unwrapSingle)
+    '''returns EnumSetDeserializer\n\n
+    withResolved(final JsonDeserializer<?> deser, final Boolean unwrapSingle)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''

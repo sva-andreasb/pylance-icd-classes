@@ -1,513 +1,628 @@
 def getName():
-    '''public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
-    public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
+    setName(final String value)\n
     '''
 def getID():
-    '''public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
-    public BigInteger getID()
+    '''returns BigInteger\n\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
+    getID()\n
     '''
 def setID():
-    '''public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
-    public void setID(final BigInteger value)
+    '''returns None\n\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
+    setID(final BigInteger value)\n
     '''
 def getResource():
-    '''public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
-    public String getResource()
+    '''returns String\n\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
-    public void setResource(final String value)
+    '''returns None\n\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
+    setResource(final String value)\n
     '''
 def getLastModified():
-    '''public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
-    public String getLastModified()
+    '''returns String\n\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
+    getLastModified()\n
     '''
 def setLastModified():
-    '''public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
-    public void setLastModified(final String value)
+    '''returns None\n\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
+    setLastModified(final String value)\n
     '''
 def getActionID():
-    '''public BigInteger getActionID()
-    public BigInteger getActionID()
+    '''returns BigInteger\n\n
+    getActionID()\n
+    getActionID()\n
     '''
 def setActionID():
-    '''public void setActionID(final BigInteger value)
-    public void setActionID(final BigInteger value)
+    '''returns None\n\n
+    setActionID(final BigInteger value)\n
+    setActionID(final BigInteger value)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String value)
+    '''returns None\n\n
+    setStatus(final String value)\n
     '''
 def getComputer():
-    '''public List<ComputerResultType> getComputer()
-    public List<ComputerResultType> getComputer()
+    '''returns List<ComputerResultType>\n\n
+    getComputer()\n
+    getComputer()\n
     '''
 def getMemberActionResult():
-    '''public List<MemberActionResult> getMemberActionResult()
+    '''returns List<MemberActionResult>\n\n
+    getMemberActionResult()\n
     '''
 def getValue():
-    '''public String getValue()
-    public String getValue()
-    public String getValue()
+    '''returns String\n\n
+    getValue()\n
+    getValue()\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
-    public void setValue(final String value)
-    public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
+    setValue(final String value)\n
+    setValue(final String value)\n
     '''
 def getEncryptionStatus():
-    '''public String getEncryptionStatus()
+    '''returns String\n\n
+    getEncryptionStatus()\n
     '''
 def setEncryptionStatus():
-    '''public void setEncryptionStatus(final String value)
+    '''returns None\n\n
+    setEncryptionStatus(final String value)\n
     '''
 def getDetails():
-    '''public String getDetails()
+    '''returns String\n\n
+    getDetails()\n
     '''
 def setDetails():
-    '''public void setDetails(final String value)
+    '''returns None\n\n
+    setDetails(final String value)\n
     '''
 def getKeySize():
-    '''public String getKeySize()
+    '''returns String\n\n
+    getKeySize()\n
     '''
 def setKeySize():
-    '''public void setKeySize(final String value)
+    '''returns None\n\n
+    setKeySize(final String value)\n
     '''
 def getLastReportTime():
-    '''public String getLastReportTime()
+    '''returns String\n\n
+    getLastReportTime()\n
     '''
 def setLastReportTime():
-    '''public void setLastReportTime(final String value)
+    '''returns None\n\n
+    setLastReportTime(final String value)\n
     '''
 def getPropertyOrSetting():
-    '''public List<Object> getPropertyOrSetting()
+    '''returns List<Object>\n\n
+    getPropertyOrSetting()\n
     '''
 def getSHA1():
-    '''public String getSHA1()
-    public String getSHA1()
+    '''returns String\n\n
+    getSHA1()\n
+    getSHA1()\n
     '''
 def setSHA1():
-    '''public void setSHA1(final String value)
-    public void setSHA1(final String value)
+    '''returns None\n\n
+    setSHA1(final String value)\n
+    setSHA1(final String value)\n
     '''
 def getSize():
-    '''public String getSize()
-    public BigInteger getSize()
+    '''returns BigInteger\n\n
+    getSize()\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final String value)
-    public void setSize(final BigInteger value)
+    '''returns None\n\n
+    setSize(final String value)\n
+    setSize(final BigInteger value)\n
     '''
 def getTimestamp():
-    '''public String getTimestamp()
+    '''returns String\n\n
+    getTimestamp()\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final String value)
+    '''returns None\n\n
+    setTimestamp(final String value)\n
     '''
 def getTargetComputers():
-    '''public TargetComputers getTargetComputers()
+    '''returns TargetComputers\n\n
+    getTargetComputers()\n
     '''
 def setTargetComputers():
-    '''public void setTargetComputers(final TargetComputers value)
+    '''returns None\n\n
+    setTargetComputers(final TargetComputers value)\n
     '''
 def getSetting():
-    '''public List<ComputerSetting> getSetting()
+    '''returns List<ComputerSetting>\n\n
+    getSetting()\n
     '''
 def getComputerID():
-    '''public List<BigInteger> getComputerID()
+    '''returns List<BigInteger>\n\n
+    getComputerID()\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
-    public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
+    getDisplayName()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final String value)
-    public void setDisplayName(final String value)
+    '''returns None\n\n
+    setDisplayName(final String value)\n
+    setDisplayName(final String value)\n
     '''
 def getDashboard():
-    '''public String getDashboard()
+    '''returns String\n\n
+    getDashboard()\n
     '''
 def setDashboard():
-    '''public void setDashboard(final String value)
+    '''returns None\n\n
+    setDashboard(final String value)\n
     '''
 def isIsPrivate():
-    '''public Boolean isIsPrivate()
+    '''returns Boolean\n\n
+    isIsPrivate()\n
     '''
 def setIsPrivate():
-    '''public void setIsPrivate(final Boolean value)
+    '''returns None\n\n
+    setIsPrivate(final Boolean value)\n
     '''
 def getUser():
-    '''public String getUser()
-    public String getUser()
+    '''returns String\n\n
+    getUser()\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final String value)
-    public void setUser(final String value)
+    '''returns None\n\n
+    setUser(final String value)\n
+    setUser(final String value)\n
     '''
 def getURL():
-    '''public String getURL()
-    public String getURL()
+    '''returns String\n\n
+    getURL()\n
+    getURL()\n
     '''
 def setURL():
-    '''public void setURL(final String value)
-    public void setURL(final String value)
+    '''returns None\n\n
+    setURL(final String value)\n
+    setURL(final String value)\n
     '''
 def isIsActiveDirectory():
-    '''public Boolean isIsActiveDirectory()
+    '''returns Boolean\n\n
+    isIsActiveDirectory()\n
     '''
 def setIsActiveDirectory():
-    '''public void setIsActiveDirectory(final Boolean value)
+    '''returns None\n\n
+    setIsActiveDirectory(final Boolean value)\n
     '''
 def isIsGlobalCatalog():
-    '''public Boolean isIsGlobalCatalog()
+    '''returns Boolean\n\n
+    isIsGlobalCatalog()\n
     '''
 def setIsGlobalCatalog():
-    '''public void setIsGlobalCatalog(final Boolean value)
+    '''returns None\n\n
+    setIsGlobalCatalog(final Boolean value)\n
     '''
 def isUseSSL():
-    '''public Boolean isUseSSL()
+    '''returns Boolean\n\n
+    isUseSSL()\n
     '''
 def setUseSSL():
-    '''public void setUseSSL(final Boolean value)
+    '''returns None\n\n
+    setUseSSL(final Boolean value)\n
     '''
 def isAllowEmptyPasswords():
-    '''public Boolean isAllowEmptyPasswords()
+    '''returns Boolean\n\n
+    isAllowEmptyPasswords()\n
     '''
 def setAllowEmptyPasswords():
-    '''public void setAllowEmptyPasswords(final Boolean value)
+    '''returns None\n\n
+    setAllowEmptyPasswords(final Boolean value)\n
     '''
 def getBaseDN():
-    '''public String getBaseDN()
+    '''returns String\n\n
+    getBaseDN()\n
     '''
 def setBaseDN():
-    '''public void setBaseDN(final String value)
+    '''returns None\n\n
+    setBaseDN(final String value)\n
     '''
 def getUIDAttribute():
-    '''public String getUIDAttribute()
+    '''returns String\n\n
+    getUIDAttribute()\n
     '''
 def setUIDAttribute():
-    '''public void setUIDAttribute(final String value)
+    '''returns None\n\n
+    setUIDAttribute(final String value)\n
     '''
 def getUserFilter():
-    '''public String getUserFilter()
+    '''returns String\n\n
+    getUserFilter()\n
     '''
 def setUserFilter():
-    '''public void setUserFilter(final String value)
+    '''returns None\n\n
+    setUserFilter(final String value)\n
     '''
 def getGroupFilter():
-    '''public String getGroupFilter()
+    '''returns String\n\n
+    getGroupFilter()\n
     '''
 def setGroupFilter():
-    '''public void setGroupFilter(final String value)
+    '''returns None\n\n
+    setGroupFilter(final String value)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String value)
+    '''returns None\n\n
+    setPassword(final String value)\n
     '''
 def getServers():
-    '''public Servers getServers()
+    '''returns Servers\n\n
+    getServers()\n
     '''
 def setServers():
-    '''public void setServers(final Servers value)
+    '''returns None\n\n
+    setServers(final Servers value)\n
     '''
 def getServer():
-    '''public List<LDAPServer> getServer()
+    '''returns List<LDAPServer>\n\n
+    getServer()\n
     '''
 def getPortNumber():
-    '''public String getPortNumber()
+    '''returns String\n\n
+    getPortNumber()\n
     '''
 def setPortNumber():
-    '''public void setPortNumber(final String value)
+    '''returns None\n\n
+    setPortNumber(final String value)\n
     '''
 def getGatherInterval():
-    '''public MastheadGatherInterval getGatherInterval()
+    '''returns MastheadGatherInterval\n\n
+    getGatherInterval()\n
     '''
 def setGatherInterval():
-    '''public void setGatherInterval(final MastheadGatherInterval value)
+    '''returns None\n\n
+    setGatherInterval(final MastheadGatherInterval value)\n
     '''
 def getController():
-    '''public MastheadController getController()
+    '''returns MastheadController\n\n
+    getController()\n
     '''
 def setController():
-    '''public void setController(final MastheadController value)
+    '''returns None\n\n
+    setController(final MastheadController value)\n
     '''
 def getInitialLockState():
-    '''public MastheadLockState getInitialLockState()
+    '''returns MastheadLockState\n\n
+    getInitialLockState()\n
     '''
 def setInitialLockState():
-    '''public void setInitialLockState(final MastheadLockState value)
+    '''returns None\n\n
+    setInitialLockState(final MastheadLockState value)\n
     '''
 def getInitialLockDuration():
-    '''public BigInteger getInitialLockDuration()
+    '''returns BigInteger\n\n
+    getInitialLockDuration()\n
     '''
 def setInitialLockDuration():
-    '''public void setInitialLockDuration(final BigInteger value)
+    '''returns None\n\n
+    setInitialLockDuration(final BigInteger value)\n
     '''
 def getActionLockExemptionURL():
-    '''public String getActionLockExemptionURL()
+    '''returns String\n\n
+    getActionLockExemptionURL()\n
     '''
 def setActionLockExemptionURL():
-    '''public void setActionLockExemptionURL(final String value)
+    '''returns None\n\n
+    setActionLockExemptionURL(final String value)\n
     '''
 def isRequireFIPSCompliantCrypto():
-    '''public Boolean isRequireFIPSCompliantCrypto()
+    '''returns Boolean\n\n
+    isRequireFIPSCompliantCrypto()\n
     '''
 def setRequireFIPSCompliantCrypto():
-    '''public void setRequireFIPSCompliantCrypto(final Boolean value)
+    '''returns None\n\n
+    setRequireFIPSCompliantCrypto(final Boolean value)\n
     '''
 def isIsReserved():
-    '''public Boolean isIsReserved()
+    '''returns Boolean\n\n
+    isIsReserved()\n
     '''
 def setIsReserved():
-    '''public void setIsReserved(final Boolean value)
+    '''returns None\n\n
+    setIsReserved(final Boolean value)\n
     '''
 def getResult():
-    '''public RelevanceResult getResult()
+    '''returns RelevanceResult\n\n
+    getResult()\n
     '''
 def setResult():
-    '''public void setResult(final RelevanceResult value)
+    '''returns None\n\n
+    setResult(final RelevanceResult value)\n
     '''
 def getEvaluation():
-    '''public Evaluation getEvaluation()
+    '''returns Evaluation\n\n
+    getEvaluation()\n
     '''
 def setEvaluation():
-    '''public void setEvaluation(final Evaluation value)
+    '''returns None\n\n
+    setEvaluation(final Evaluation value)\n
     '''
 def getError():
-    '''public String getError()
+    '''returns String\n\n
+    getError()\n
     '''
 def setError():
-    '''public void setError(final String value)
+    '''returns None\n\n
+    setError(final String value)\n
     '''
 def getTime():
-    '''public String getTime()
+    '''returns String\n\n
+    getTime()\n
     '''
 def setTime():
-    '''public void setTime(final String value)
+    '''returns None\n\n
+    setTime(final String value)\n
     '''
 def getPlurality():
-    '''public RelevancePlurality getPlurality()
+    '''returns RelevancePlurality\n\n
+    getPlurality()\n
     '''
 def setPlurality():
-    '''public void setPlurality(final RelevancePlurality value)
+    '''returns None\n\n
+    setPlurality(final RelevancePlurality value)\n
     '''
 def getServerID():
-    '''public BigInteger getServerID()
+    '''returns BigInteger\n\n
+    getServerID()\n
     '''
 def setServerID():
-    '''public void setServerID(final BigInteger value)
+    '''returns None\n\n
+    setServerID(final BigInteger value)\n
     '''
 def getDNS():
-    '''public String getDNS()
+    '''returns String\n\n
+    getDNS()\n
     '''
 def setDNS():
-    '''public void setDNS(final String value)
+    '''returns None\n\n
+    setDNS(final String value)\n
     '''
 def getReplicationIntervalSeconds():
-    '''public BigInteger getReplicationIntervalSeconds()
+    '''returns BigInteger\n\n
+    getReplicationIntervalSeconds()\n
     '''
 def setReplicationIntervalSeconds():
-    '''public void setReplicationIntervalSeconds(final BigInteger value)
+    '''returns None\n\n
+    setReplicationIntervalSeconds(final BigInteger value)\n
     '''
 def getReplicationLink():
-    '''public List<ReplicationLinkType> getReplicationLink()
+    '''returns List<ReplicationLinkType>\n\n
+    getReplicationLink()\n
     '''
 def getPermission():
-    '''public List<SitePermissionString> getPermission()
-    public SitePermissionString getPermission()
+    '''returns SitePermissionString\n\n
+    getPermission()\n
+    getPermission()\n
     '''
 def getFileSize():
-    '''public BigInteger getFileSize()
+    '''returns BigInteger\n\n
+    getFileSize()\n
     '''
 def setFileSize():
-    '''public void setFileSize(final BigInteger value)
+    '''returns None\n\n
+    setFileSize(final BigInteger value)\n
     '''
 def isIsClientFile():
-    '''public Boolean isIsClientFile()
+    '''returns Boolean\n\n
+    isIsClientFile()\n
     '''
 def setIsClientFile():
-    '''public void setIsClientFile(final Boolean value)
+    '''returns None\n\n
+    setIsClientFile(final Boolean value)\n
     '''
 def getLastModifiedx():
-    '''public String getLastModifiedx()
+    '''returns String\n\n
+    getLastModifiedx()\n
     '''
 def setLastModifiedx():
-    '''public void setLastModifiedx(final String value)
+    '''returns None\n\n
+    setLastModifiedx(final String value)\n
     '''
 def setPermission():
-    '''public void setPermission(final SitePermissionString value)
+    '''returns None\n\n
+    setPermission(final SitePermissionString value)\n
     '''
 def getOperator():
-    '''public StringWithReference getOperator()
+    '''returns StringWithReference\n\n
+    getOperator()\n
     '''
 def setOperator():
-    '''public void setOperator(final StringWithReference value)
+    '''returns None\n\n
+    setOperator(final StringWithReference value)\n
     '''
 def getRole():
-    '''public IntegerWithReference getRole()
+    '''returns IntegerWithReference\n\n
+    getRole()\n
     '''
 def setRole():
-    '''public void setRole(final IntegerWithReference value)
+    '''returns None\n\n
+    setRole(final IntegerWithReference value)\n
     '''
 def getMinimumRefreshSeconds():
-    '''public BigInteger getMinimumRefreshSeconds()
+    '''returns BigInteger\n\n
+    getMinimumRefreshSeconds()\n
     '''
 def setMinimumRefreshSeconds():
-    '''public void setMinimumRefreshSeconds(final BigInteger value)
+    '''returns None\n\n
+    setMinimumRefreshSeconds(final BigInteger value)\n
     '''
 def getDefaultFixletVisibility():
-    '''public DefaultFixletVisibilityType getDefaultFixletVisibility()
+    '''returns DefaultFixletVisibilityType\n\n
+    getDefaultFixletVisibility()\n
     '''
 def setDefaultFixletVisibility():
-    '''public void setDefaultFixletVisibility(final DefaultFixletVisibilityType value)
+    '''returns None\n\n
+    setDefaultFixletVisibility(final DefaultFixletVisibilityType value)\n
     '''

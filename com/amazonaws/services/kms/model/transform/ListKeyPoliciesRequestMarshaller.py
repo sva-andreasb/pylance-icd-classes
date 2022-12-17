@@ -1,6 +1,8 @@
-def ListKeyPoliciesRequestMarshaller():
-    '''public ListKeyPoliciesRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns ListKeyPoliciesRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<ListKeyPoliciesRequest> marshall(final ListKeyPoliciesRequest listKeyPoliciesRequest)
+    '''returns Request<ListKeyPoliciesRequest>\n\n
+    marshall(final ListKeyPoliciesRequest listKeyPoliciesRequest)\n
     '''

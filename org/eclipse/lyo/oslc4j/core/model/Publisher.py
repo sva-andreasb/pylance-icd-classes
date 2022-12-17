@@ -1,28 +1,37 @@
-def Publisher():
-    '''public Publisher()
-    public Publisher(final String title, final String identifier)
+def ():
+    '''returns Publisher\n\n
+    ()\n
+    (final String title, final String identifier)\n
     '''
 def getIcon():
-    '''public URI getIcon()
+    '''returns URI\n\n
+    getIcon()\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setIcon():
-    '''public void setIcon(final URI icon)
+    '''returns None\n\n
+    setIcon(final URI icon)\n
     '''
 def setIdentifier():
-    '''public void setIdentifier(final String identifier)
+    '''returns None\n\n
+    setIdentifier(final String identifier)\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''

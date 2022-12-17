@@ -1,6 +1,8 @@
-def PlusPFldWpLaborCode():
-    '''public PlusPFldWpLaborCode(final MboValue arg0)
+def ():
+    '''returns PlusPFldWpLaborCode\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

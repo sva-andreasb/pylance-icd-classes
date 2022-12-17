@@ -1,3 +1,4 @@
-def FldChildBName():
-    '''public FldChildBName(final MboValue mbv)
+def ():
+    '''returns FldChildBName\n\n
+    (final MboValue mbv)\n
     '''

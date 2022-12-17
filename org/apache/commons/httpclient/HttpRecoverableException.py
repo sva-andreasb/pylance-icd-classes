@@ -1,4 +1,5 @@
-def HttpRecoverableException():
-    '''public HttpRecoverableException()
-    public HttpRecoverableException(final String message)
+def ():
+    '''returns HttpRecoverableException\n\n
+    ()\n
+    (final String message)\n
     '''

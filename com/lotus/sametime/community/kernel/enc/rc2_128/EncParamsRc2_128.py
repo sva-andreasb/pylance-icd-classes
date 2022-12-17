@@ -1,24 +1,32 @@
-def EncParamsRc2_128():
-    '''public EncParamsRc2_128(final EncMethodRc2_128 encMethodRc2_128)
+def ():
+    '''returns EncParamsRc2_128\n\n
+    (final EncMethodRc2_128 encMethodRc2_128)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''
 def generateLocalKeys():
-    '''public void generateLocalKeys()
+    '''returns None\n\n
+    generateLocalKeys()\n
     '''
 def calculateAgreedKey():
-    '''public void calculateAgreedKey(final EncParamsRc2_128 encParamsRc2_128)
+    '''returns None\n\n
+    calculateAgreedKey(final EncParamsRc2_128 encParamsRc2_128)\n
     '''
 def getPublicKey():
-    '''public byte[] getPublicKey()
+    '''returns byte[]\n\n
+    getPublicKey()\n
     '''
 def getEncryptionCipher():
-    '''public RC2Cipher getEncryptionCipher()
+    '''returns RC2Cipher\n\n
+    getEncryptionCipher()\n
     '''
 def getDecryptionCipher():
-    '''public RC2Cipher getDecryptionCipher()
+    '''returns RC2Cipher\n\n
+    getDecryptionCipher()\n
     '''

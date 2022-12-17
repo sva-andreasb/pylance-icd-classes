@@ -1,6 +1,8 @@
-def FldReportSchedType():
-    '''public FldReportSchedType(final MboValue mbv)
+def ():
+    '''returns FldReportSchedType\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

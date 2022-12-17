@@ -1,12 +1,16 @@
-def DefaultImageSessionContext():
-    '''public DefaultImageSessionContext(final ImageContext context, final File baseDir)
+def ():
+    '''returns DefaultImageSessionContext\n\n
+    (final ImageContext context, final File baseDir)\n
     '''
 def getParentContext():
-    '''public ImageContext getParentContext()
+    '''returns ImageContext\n\n
+    getParentContext()\n
     '''
 def getBaseDir():
-    '''public File getBaseDir()
+    '''returns File\n\n
+    getBaseDir()\n
     '''
 def getTargetResolution():
-    '''public float getTargetResolution()
+    '''returns float\n\n
+    getTargetResolution()\n
     '''

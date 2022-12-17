@@ -1,48 +1,64 @@
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getColumn():
-    '''public String getColumn()
+    '''returns String\n\n
+    getColumn()\n
     '''
 def setColumn():
-    '''public void setColumn(final String column)
+    '''returns None\n\n
+    setColumn(final String column)\n
     '''
 def isEnforce():
-    '''public boolean isEnforce()
+    '''returns boolean\n\n
+    isEnforce()\n
     '''
 def setEnforce():
-    '''public void setEnforce(final boolean enforce)
+    '''returns None\n\n
+    setEnforce(final boolean enforce)\n
     '''
 def getQuery():
-    '''public String getQuery()
+    '''returns String\n\n
+    getQuery()\n
     '''
 def setQuery():
-    '''public void setQuery(final String query)
+    '''returns None\n\n
+    setQuery(final String query)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getPattern():
-    '''public String getPattern()
+    '''returns String\n\n
+    getPattern()\n
     '''
 def setPattern():
-    '''public void setPattern(final String pattern)
+    '''returns None\n\n
+    setPattern(final String pattern)\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String defaultValue)
+    '''returns None\n\n
+    setDefaultValue(final String defaultValue)\n
     '''

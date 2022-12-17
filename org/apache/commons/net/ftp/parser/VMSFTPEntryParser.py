@@ -1,13 +1,17 @@
-def VMSFTPEntryParser():
-    '''public VMSFTPEntryParser()
-    public VMSFTPEntryParser(final FTPClientConfig config)
+def ():
+    '''returns VMSFTPEntryParser\n\n
+    ()\n
+    (final FTPClientConfig config)\n
     '''
 def parseFileList():
-    '''public FTPFile[] parseFileList(final InputStream listStream)
+    '''returns FTPFile[]\n\n
+    parseFileList(final InputStream listStream)\n
     '''
 def parseFTPEntry():
-    '''public FTPFile parseFTPEntry(final String entry)
+    '''returns FTPFile\n\n
+    parseFTPEntry(final String entry)\n
     '''
 def readNextEntry():
-    '''public String readNextEntry(final BufferedReader reader)
+    '''returns String\n\n
+    readNextEntry(final BufferedReader reader)\n
     '''

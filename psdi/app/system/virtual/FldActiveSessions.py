@@ -1,6 +1,8 @@
-def FldActiveSessions():
-    '''public FldActiveSessions(final MboValue mbv)
+def ():
+    '''returns FldActiveSessions\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

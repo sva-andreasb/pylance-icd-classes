@@ -1,26 +1,30 @@
 RENDERED_COLOR = "String  \"ACTIVITY_RENDER_COLOR\""
 FONT_COLOR = "String  \"ACTIVITY_FONT_COLOR\""
-def DispatchUtil():
-    '''public DispatchUtil(final DispatchViewBean bean)
+def ():
+    '''returns DispatchUtil\n\n
+    (final DispatchViewBean bean)\n
     '''
 def getViewerProperty():
-    '''public String getViewerProperty(final String propertyName, final String string)
+    '''returns String\n\n
+    getViewerProperty(final String propertyName, final String string)\n
     '''
 def fixupModel():
-    '''public void fixupModel(final MXGanttModel theModel)
+    '''returns None\n\n
+    fixupModel(final MXGanttModel theModel)\n
     '''
 def getFontcolormap():
-    '''public List<String> getFontcolormap()
+    '''returns List<String>\n\n
+    getFontcolormap()\n
     '''
 def getColormap():
-    '''public List<String> getColormap()
+    '''returns List<String>\n\n
+    getColormap()\n
     '''
 def getTravelTimeConstraintForToActivity():
-    '''public MXTravelTimeConstraint getTravelTimeConstraintForToActivity(final MXGanttModel theModel, final IlvActivity activity)
+    '''returns MXTravelTimeConstraint\n\n
+    getTravelTimeConstraintForToActivity(final MXGanttModel theModel, final IlvActivity activity)\n
     '''
 def updateResources():
-    '''public void updateResources(final IlvGanttModel newModel, final IlvGanttModel existingModel)
-    '''
-def isLaborOrCrew():
-    '''public static boolean isLaborOrCrew(final MXResource mxresource)
+    '''returns None\n\n
+    updateResources(final IlvGanttModel newModel, final IlvGanttModel existingModel)\n
     '''

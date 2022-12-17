@@ -3,12 +3,15 @@ BY_FILE = "int  1"
 MANIFEST_RULES = "String  \"Rules\""
 MANIFEST_TAGS = "String  \"Tags\""
 EXT_RULES_JAR = "String  \".jar\""
-def BreakIteratorManager():
-    '''public BreakIteratorManager()
+def ():
+    '''returns BreakIteratorManager\n\n
+    ()\n
     '''
 def setConstrMethod():
-    '''public void setConstrMethod(final int constrMethod)
+    '''returns None\n\n
+    setConstrMethod(final int constrMethod)\n
     '''
 def constructBreakIterator():
-    '''public RuleBasedBreakIterator constructBreakIterator(String s)
+    '''returns RuleBasedBreakIterator\n\n
+    constructBreakIterator(String s)\n
     '''

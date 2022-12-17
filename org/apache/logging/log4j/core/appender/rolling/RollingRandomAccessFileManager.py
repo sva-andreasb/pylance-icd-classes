@@ -1,41 +1,39 @@
 DEFAULT_BUFFER_SIZE = "int  262144"
-def RollingRandomAccessFileManager():
-    '''public RollingRandomAccessFileManager(final LoggerContext loggerContext, final RandomAccessFile raf, final String fileName, final String pattern, final OutputStream os, final boolean append, final boolean immediateFlush, final int bufferSize, final long size, final long time, final TriggeringPolicy policy, final RolloverStrategy strategy, final String advertiseURI, final Layout<? extends Serializable> layout, final boolean writeHeader)
-    public RollingRandomAccessFileManager(final LoggerContext loggerContext, final RandomAccessFile raf, final String fileName, final String pattern, final OutputStream os, final boolean append, final boolean immediateFlush, final int bufferSize, final long size, final long initialTime, final TriggeringPolicy policy, final RolloverStrategy strategy, final String advertiseURI, final Layout<? extends Serializable> layout, final String filePermissions, final String fileOwner, final String fileGroup, final boolean writeHeader)
-    '''
-def getRollingRandomAccessFileManager():
-    '''public static RollingRandomAccessFileManager getRollingRandomAccessFileManager(final String fileName, final String filePattern, final boolean isAppend, final boolean immediateFlush, final int bufferSize, final TriggeringPolicy policy, final RolloverStrategy strategy, final String advertiseURI, final Layout<? extends Serializable> layout, final String filePermissions, final String fileOwner, final String fileGroup, final Configuration configuration)
+def ():
+    '''returns FactoryData\n\n
+    (final LoggerContext loggerContext, final RandomAccessFile raf, final String fileName, final String pattern, final OutputStream os, final boolean append, final boolean immediateFlush, final int bufferSize, final long size, final long time, final TriggeringPolicy policy, final RolloverStrategy strategy, final String advertiseURI, final Layout<? extends Serializable> layout, final boolean writeHeader)\n
+    (final LoggerContext loggerContext, final RandomAccessFile raf, final String fileName, final String pattern, final OutputStream os, final boolean append, final boolean immediateFlush, final int bufferSize, final long size, final long initialTime, final TriggeringPolicy policy, final RolloverStrategy strategy, final String advertiseURI, final Layout<? extends Serializable> layout, final String filePermissions, final String fileOwner, final String fileGroup, final boolean writeHeader)\n
+    (final String fileName, final String pattern, final boolean append, final boolean immediateFlush, final int bufferSize, final TriggeringPolicy policy, final RolloverStrategy strategy, final String advertiseURI, final Layout<? extends Serializable> layout, final String filePermissions, final String fileOwner, final String fileGroup, final Configuration configuration)\n
     '''
 def isEndOfBatch():
-    '''public Boolean isEndOfBatch()
+    '''returns Boolean\n\n
+    isEndOfBatch()\n
     '''
 def setEndOfBatch():
-    '''public void setEndOfBatch(final boolean endOfBatch)
-    '''
-def flush():
-    '''public synchronized void flush()
-    '''
-def closeOutputStream():
-    '''public synchronized boolean closeOutputStream()
+    '''returns None\n\n
+    setEndOfBatch(final boolean endOfBatch)\n
     '''
 def getBufferSize():
-    '''public int getBufferSize()
+    '''returns int\n\n
+    getBufferSize()\n
     '''
 def updateData():
-    '''public void updateData(final Object data)
+    '''returns None\n\n
+    updateData(final Object data)\n
     '''
 def createManager():
-    '''public RollingRandomAccessFileManager createManager(final String name, final FactoryData data)
-    '''
-def FactoryData():
-    '''public FactoryData(final String fileName, final String pattern, final boolean append, final boolean immediateFlush, final int bufferSize, final TriggeringPolicy policy, final RolloverStrategy strategy, final String advertiseURI, final Layout<? extends Serializable> layout, final String filePermissions, final String fileOwner, final String fileGroup, final Configuration configuration)
+    '''returns RollingRandomAccessFileManager\n\n
+    createManager(final String name, final FactoryData data)\n
     '''
 def getPattern():
-    '''public String getPattern()
+    '''returns String\n\n
+    getPattern()\n
     '''
 def getTriggeringPolicy():
-    '''public TriggeringPolicy getTriggeringPolicy()
+    '''returns TriggeringPolicy\n\n
+    getTriggeringPolicy()\n
     '''
 def getRolloverStrategy():
-    '''public RolloverStrategy getRolloverStrategy()
+    '''returns RolloverStrategy\n\n
+    getRolloverStrategy()\n
     '''

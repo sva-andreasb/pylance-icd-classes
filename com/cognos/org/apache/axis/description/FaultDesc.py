@@ -1,44 +1,58 @@
-def FaultDesc():
-    '''public FaultDesc()
-    public FaultDesc(final QName qname, final String className, final QName xmlType, final boolean complex)
+def ():
+    '''returns FaultDesc\n\n
+    ()\n
+    (final QName qname, final String className, final QName xmlType, final boolean complex)\n
     '''
 def getQName():
-    '''public QName getQName()
+    '''returns QName\n\n
+    getQName()\n
     '''
 def setQName():
-    '''public void setQName(final QName name)
+    '''returns None\n\n
+    setQName(final QName name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getParameters():
-    '''public ArrayList getParameters()
+    '''returns ArrayList\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ArrayList parameters)
+    '''returns None\n\n
+    setParameters(final ArrayList parameters)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def isComplex():
-    '''public boolean isComplex()
+    '''returns boolean\n\n
+    isComplex()\n
     '''
 def setComplex():
-    '''public void setComplex(final boolean complex)
+    '''returns None\n\n
+    setComplex(final boolean complex)\n
     '''
 def getXmlType():
-    '''public QName getXmlType()
+    '''returns QName\n\n
+    getXmlType()\n
     '''
 def setXmlType():
-    '''public void setXmlType(final QName xmlType)
+    '''returns None\n\n
+    setXmlType(final QName xmlType)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String indent)
+    '''returns String\n\n
+    toString()\n
+    toString(final String indent)\n
     '''

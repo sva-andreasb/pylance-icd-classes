@@ -6,125 +6,163 @@ NO_SSH_SERVER = "int  2"
 UNSUPPORTED_VERSION = "int  3"
 CONNECTION_FAILED = "int  4"
 AUTHENTICATION_FAILED = "int  5"
-def SecureSession():
-    '''public SecureSession()
+def ():
+    '''returns SecureSession\n\n
+    ()\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
-    public Object run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def setDebugEnabled():
-    '''public void setDebugEnabled(final boolean debugEnabled, final Handler handler)
+    '''returns None\n\n
+    setDebugEnabled(final boolean debugEnabled, final Handler handler)\n
     '''
 def connect():
-    '''public int connect(final InetAddress address, final AuthMethod authMethod)
-    public int connect(final InetSocketAddress inetSocketAddress, final int timeout, final AuthMethod authMethod, final Locale locale)
+    '''returns int\n\n
+    connect(final InetAddress address, final AuthMethod authMethod)\n
+    connect(final InetSocketAddress inetSocketAddress, final int timeout, final AuthMethod authMethod, final Locale locale)\n
     '''
 def retryAuth():
-    '''public int retryAuth(final AuthMethod authMethod)
+    '''returns int\n\n
+    retryAuth(final AuthMethod authMethod)\n
     '''
 def getClientVersion():
-    '''public String getClientVersion()
+    '''returns String\n\n
+    getClientVersion()\n
     '''
 def getServerVersion():
-    '''public String getServerVersion()
+    '''returns String\n\n
+    getServerVersion()\n
     '''
 def getClientKexList():
-    '''public String[] getClientKexList()
+    '''returns String[]\n\n
+    getClientKexList()\n
     '''
 def getServerKexList():
-    '''public String[] getServerKexList()
+    '''returns String[]\n\n
+    getServerKexList()\n
     '''
 def getDecidedKex():
-    '''public String getDecidedKex()
+    '''returns String\n\n
+    getDecidedKex()\n
     '''
 def getClientHostKeyList():
-    '''public String[] getClientHostKeyList()
+    '''returns String[]\n\n
+    getClientHostKeyList()\n
     '''
 def getServerHostKeyList():
-    '''public String[] getServerHostKeyList()
+    '''returns String[]\n\n
+    getServerHostKeyList()\n
     '''
 def getDecidedServerHostKey():
-    '''public String getDecidedServerHostKey()
+    '''returns String\n\n
+    getDecidedServerHostKey()\n
     '''
 def getClientEncryptionList():
-    '''public String[] getClientEncryptionList()
+    '''returns String[]\n\n
+    getClientEncryptionList()\n
     '''
 def getServerEncryptionLocalList():
-    '''public String[] getServerEncryptionLocalList()
+    '''returns String[]\n\n
+    getServerEncryptionLocalList()\n
     '''
 def getDecidedLocalEncryption():
-    '''public String getDecidedLocalEncryption()
+    '''returns String\n\n
+    getDecidedLocalEncryption()\n
     '''
 def getServerEncryptionRemoteList():
-    '''public String[] getServerEncryptionRemoteList()
+    '''returns String[]\n\n
+    getServerEncryptionRemoteList()\n
     '''
 def getDecidedRemoteEncryption():
-    '''public String getDecidedRemoteEncryption()
+    '''returns String\n\n
+    getDecidedRemoteEncryption()\n
     '''
 def getClientMacList():
-    '''public String[] getClientMacList()
+    '''returns String[]\n\n
+    getClientMacList()\n
     '''
 def getServerMacLocalList():
-    '''public String[] getServerMacLocalList()
+    '''returns String[]\n\n
+    getServerMacLocalList()\n
     '''
 def getDecidedLocalMac():
-    '''public String getDecidedLocalMac()
+    '''returns String\n\n
+    getDecidedLocalMac()\n
     '''
 def getServerMacRemoteList():
-    '''public String[] getServerMacRemoteList()
+    '''returns String[]\n\n
+    getServerMacRemoteList()\n
     '''
 def getDecidedRemoteMac():
-    '''public String getDecidedRemoteMac()
+    '''returns String\n\n
+    getDecidedRemoteMac()\n
     '''
 def getClientCompressionList():
-    '''public String[] getClientCompressionList()
+    '''returns String[]\n\n
+    getClientCompressionList()\n
     '''
 def getServerCompressionLocalList():
-    '''public String[] getServerCompressionLocalList()
+    '''returns String[]\n\n
+    getServerCompressionLocalList()\n
     '''
 def getDecidedLocalCompression():
-    '''public String getDecidedLocalCompression()
+    '''returns String\n\n
+    getDecidedLocalCompression()\n
     '''
 def getServerCompressionRemoteList():
-    '''public String[] getServerCompressionRemoteList()
+    '''returns String[]\n\n
+    getServerCompressionRemoteList()\n
     '''
 def getDecidedRemoteCompression():
-    '''public String getDecidedRemoteCompression()
+    '''returns String\n\n
+    getDecidedRemoteCompression()\n
     '''
 def getServerLanguageLocalList():
-    '''public String[] getServerLanguageLocalList()
+    '''returns String[]\n\n
+    getServerLanguageLocalList()\n
     '''
 def getServerLanguageRemoteList():
-    '''public String[] getServerLanguageRemoteList()
+    '''returns String[]\n\n
+    getServerLanguageRemoteList()\n
     '''
 def getFingerprint():
-    '''public Fingerprint getFingerprint()
+    '''returns Fingerprint\n\n
+    getFingerprint()\n
     '''
 def executeCommand():
-    '''public SecureProcess executeCommand(final String command)
-    public SecureProcess executeCommand(final String command, final boolean usePty)
-    public SecureProcess executeCommand(final String command, final String terminal, final int rows, final int columns, final String[] environment)
+    '''returns SecureProcess\n\n
+    executeCommand(final String command)\n
+    executeCommand(final String command, final boolean usePty)\n
+    executeCommand(final String command, final String terminal, final int rows, final int columns, final String[] environment)\n
     '''
 def openShell():
-    '''public SecureShell openShell()
-    public SecureShell openShell(final String terminal, final int rows, final int columns, final String[] environment)
+    '''returns SecureShell\n\n
+    openShell()\n
+    openShell(final String terminal, final int rows, final int columns, final String[] environment)\n
     '''
 def openSFTP():
-    '''public SecureFTP openSFTP()
+    '''returns SecureFTP\n\n
+    openSFTP()\n
     '''
 def forwardLocalPort():
-    '''public boolean forwardLocalPort(final InetSocketAddress originAddress, final InetSocketAddress hostAddress)
+    '''returns boolean\n\n
+    forwardLocalPort(final InetSocketAddress originAddress, final InetSocketAddress hostAddress)\n
     '''
 def openPublicKeyExchange():
-    '''public SecurePublicKeyExchange openPublicKeyExchange()
+    '''returns SecurePublicKeyExchange\n\n
+    openPublicKeyExchange()\n
     '''
 def disconnect():
-    '''public void disconnect()
-    public void disconnect(final int reasonCode, final String description)
+    '''returns None\n\n
+    disconnect()\n
+    disconnect(final int reasonCode, final String description)\n
     '''
 def getConnectionStatus():
-    '''public int getConnectionStatus()
+    '''returns int\n\n
+    getConnectionStatus()\n
     '''

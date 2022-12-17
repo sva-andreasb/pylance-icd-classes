@@ -1,19 +1,21 @@
-def OSSubscriptionCacheImpl():
-    '''public OSSubscriptionCacheImpl()
+def ():
+    '''returns OSSubscriptionCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isUserSubscribed():
-    '''public boolean isUserSubscribed(final String osName, final Long id, final UserInfo userInfo)
-    '''
-def getListenersForResource():
-    '''public Map<String, Map<String, OSSubscriptionInfo>> getListenersForResource(final String osName, final Long objectid)
+    '''returns boolean\n\n
+    isUserSubscribed(final String osName, final Long id, final UserInfo userInfo)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

@@ -1,12 +1,12 @@
 def initialize():
-    '''public void initialize(final RollingFileManager manager)
+    '''returns None\n\n
+    initialize(final RollingFileManager manager)\n
     '''
 def isTriggeringEvent():
-    '''public boolean isTriggeringEvent(final LogEvent event)
+    '''returns boolean\n\n
+    isTriggeringEvent(final LogEvent event)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def createPolicy():
-    '''public static OnStartupTriggeringPolicy createPolicy(@PluginAttribute(value = "minSize", defaultLong = 1L) final long minSize)
+    '''returns String\n\n
+    toString()\n
     '''

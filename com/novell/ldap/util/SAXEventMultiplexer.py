@@ -1,24 +1,32 @@
-def SAXEventMultiplexer():
-    '''public SAXEventMultiplexer()
+def ():
+    '''returns SAXEventMultiplexer\n\n
+    ()\n
     '''
 def setLDAPXMLHandler():
-    '''public void setLDAPXMLHandler(final LDAPXMLHandler defaulthandler)
+    '''returns None\n\n
+    setLDAPXMLHandler(final LDAPXMLHandler defaulthandler)\n
     '''
 def characters():
-    '''public void characters(final char[] str, final int offset, final int len)
+    '''returns None\n\n
+    characters(final char[] str, final int offset, final int len)\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String uri, final String localName, final String qName)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String s, final String qName, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String uri, final String s, final String qName, final Attributes attributes)\n
     '''
 def parseXML():
-    '''public Object parseXML(final InputStream in)
+    '''returns Object\n\n
+    parseXML(final InputStream in)\n
     '''

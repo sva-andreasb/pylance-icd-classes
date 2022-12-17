@@ -1,38 +1,42 @@
-def RemoteInvalidator():
-    '''public RemoteInvalidator()
+def ():
+    '''returns RemoteInvalidator\n\n
+    ()\n
     '''
 def invalidateTemplate():
-    '''public void invalidateTemplate(final InvalidateByTemplateEvent ie)
+    '''returns None\n\n
+    invalidateTemplate(final InvalidateByTemplateEvent ie)\n
     '''
 def clear():
-    '''public void clear(final InvalidateByTemplateEvent ie)
-    public void clear()
+    '''returns None\n\n
+    clear(final InvalidateByTemplateEvent ie)\n
+    clear()\n
     '''
 def invalidateIds():
-    '''public void invalidateIds(final HashMap idsToInvEventsMap)
-    public void invalidateIds(final Iterator ids)
+    '''returns None\n\n
+    invalidateIds(final HashMap idsToInvEventsMap)\n
+    invalidateIds(final Iterator ids)\n
     '''
 def invalidatePages():
-    '''public void invalidatePages(final Iterator urls)
+    '''returns None\n\n
+    invalidatePages(final Iterator urls)\n
     '''
 def postInvoke():
-    '''public void postInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)
+    '''returns None\n\n
+    postInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)\n
     '''
 def preInvoke():
-    '''public void preInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)
+    '''returns None\n\n
+    preInvoke(final ServletCacheRequest sreq, final HttpServletResponse sresp)\n
     '''
 def setAddress():
-    '''public void setAddress(final String address)
+    '''returns None\n\n
+    setAddress(final String address)\n
     '''
 def writePages():
-    '''public void writePages(final Iterator externalCacheEntries)
+    '''returns None\n\n
+    writePages(final Iterator externalCacheEntries)\n
     '''
 def alarm():
-    '''public void alarm(final Object o)
-    '''
-def setEJBMessageProcessorActive():
-    '''public static void setEJBMessageProcessorActive()
-    '''
-def setRemoteInvalidatorActive():
-    '''public static void setRemoteInvalidatorActive()
+    '''returns None\n\n
+    alarm(final Object o)\n
     '''

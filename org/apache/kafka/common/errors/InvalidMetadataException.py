@@ -1,6 +1,7 @@
-def InvalidMetadataException():
-    '''public InvalidMetadataException()
-    public InvalidMetadataException(final String message)
-    public InvalidMetadataException(final String message, final Throwable cause)
-    public InvalidMetadataException(final Throwable cause)
+def ():
+    '''returns InvalidMetadataException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

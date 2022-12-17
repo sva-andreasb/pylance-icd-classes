@@ -1,3 +1,4 @@
 def longopstillinprogress():
-    '''public int longopstillinprogress()
+    '''returns int\n\n
+    longopstillinprogress()\n
     '''

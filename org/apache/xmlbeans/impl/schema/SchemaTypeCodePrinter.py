@@ -1,22 +1,17 @@
 INDEX_CLASSNAME = "String  \"TypeSystemHolder\""
-def printTypeImpl():
-    '''public static void printTypeImpl(final Writer writer, final SchemaType sType, final XmlOptions opt)
-    public void printTypeImpl(final Writer writer, final SchemaType sType)
+def ():
+    '''returns SchemaTypeCodePrinter\n\n
+    (final XmlOptions opt)\n
     '''
 def printType():
-    '''public static void printType(final Writer writer, final SchemaType sType, final XmlOptions opt)
-    public void printType(final Writer writer, final SchemaType sType)
+    '''returns None\n\n
+    printType(final Writer writer, final SchemaType sType)\n
+    '''
+def printTypeImpl():
+    '''returns None\n\n
+    printTypeImpl(final Writer writer, final SchemaType sType)\n
     '''
 def printLoader():
-    '''public static void printLoader(final Writer writer, final SchemaTypeSystem system, final XmlOptions opt)
-    public void printLoader(final Writer writer, final SchemaTypeSystem system)
-    '''
-def SchemaTypeCodePrinter():
-    '''public SchemaTypeCodePrinter(final XmlOptions opt)
-    '''
-def indexClassForSystem():
-    '''public static String indexClassForSystem(final SchemaTypeSystem system)
-    '''
-def javaStringEscape():
-    '''public static String javaStringEscape(final String str)
+    '''returns None\n\n
+    printLoader(final Writer writer, final SchemaTypeSystem system)\n
     '''

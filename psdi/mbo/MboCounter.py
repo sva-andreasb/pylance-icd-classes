@@ -1,9 +1,12 @@
-def MboCounter():
-    '''public MboCounter(final Mbo mbo, final ReferenceQueue phantomQueue)
+def ():
+    '''returns MboCounter\n\n
+    (final Mbo mbo, final ReferenceQueue phantomQueue)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getTenantID():
-    '''public int getTenantID()
+    '''returns int\n\n
+    getTenantID()\n
     '''

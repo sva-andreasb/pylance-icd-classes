@@ -1,53 +1,64 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def normalName():
-    '''public String normalName()
-    '''
-def valueOf():
-    '''public static Tag valueOf(String tagName, final ParseSettings settings)
-    public static Tag valueOf(final String tagName)
+    '''returns String\n\n
+    normalName()\n
     '''
 def isBlock():
-    '''public boolean isBlock()
+    '''returns boolean\n\n
+    isBlock()\n
     '''
 def formatAsBlock():
-    '''public boolean formatAsBlock()
+    '''returns boolean\n\n
+    formatAsBlock()\n
     '''
 def canContainBlock():
-    '''public boolean canContainBlock()
+    '''returns boolean\n\n
+    canContainBlock()\n
     '''
 def isInline():
-    '''public boolean isInline()
+    '''returns boolean\n\n
+    isInline()\n
     '''
 def isData():
-    '''public boolean isData()
+    '''returns boolean\n\n
+    isData()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def isSelfClosing():
-    '''public boolean isSelfClosing()
+    '''returns boolean\n\n
+    isSelfClosing()\n
     '''
 def isKnownTag():
-    '''public boolean isKnownTag()
-    public static boolean isKnownTag(final String tagName)
+    '''returns boolean\n\n
+    isKnownTag()\n
     '''
 def preserveWhitespace():
-    '''public boolean preserveWhitespace()
+    '''returns boolean\n\n
+    preserveWhitespace()\n
     '''
 def isFormListed():
-    '''public boolean isFormListed()
+    '''returns boolean\n\n
+    isFormListed()\n
     '''
 def isFormSubmittable():
-    '''public boolean isFormSubmittable()
+    '''returns boolean\n\n
+    isFormSubmittable()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
 def associateOSLCRelationship():
-    '''public void associateOSLCRelationship()
+    '''returns None\n\n
+    associateOSLCRelationship()\n
     '''

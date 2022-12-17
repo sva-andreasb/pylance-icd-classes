@@ -1,7 +1,9 @@
-def FldPointFeature():
-    '''public FldPointFeature(final MboValue mbv)
-    public FldPointFeature(final MboValue mbv, final String criteriaName)
+def ():
+    '''returns FldPointFeature\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String criteriaName)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

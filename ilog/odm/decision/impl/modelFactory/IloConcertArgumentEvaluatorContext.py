@@ -1,37 +1,49 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloConcertArgumentEvaluatorContext():
-    '''public IloConcertArgumentEvaluatorContext(final IloConcertEngine concertEngine)
+def ():
+    '''returns IloConcertArgumentEvaluatorContext\n\n
+    (final IloConcertEngine concertEngine)\n
     '''
 def isInLabelCallback():
-    '''public boolean isInLabelCallback()
+    '''returns boolean\n\n
+    isInLabelCallback()\n
     '''
 def setLabelScriptEvaluator():
-    '''public void setLabelScriptEvaluator(final OPLScriptExpressionEvaluator callback)
+    '''returns None\n\n
+    setLabelScriptEvaluator(final OPLScriptExpressionEvaluator callback)\n
     '''
 def evaluate():
-    '''public Object evaluate(final IloOplScriptExpression expr, final Parameter elts, final IloStringArray cachedArray, final boolean canReturnTuple)
+    '''returns Object\n\n
+    evaluate(final IloOplScriptExpression expr, final Parameter elts, final IloStringArray cachedArray, final boolean canReturnTuple)\n
     '''
 def evaluateMapIndex():
-    '''public Object evaluateMapIndex(final IloOplObject value, final boolean canReturnTuple)
+    '''returns Object\n\n
+    evaluateMapIndex(final IloOplObject value, final boolean canReturnTuple)\n
     '''
 def getOptimModelDescription():
-    '''public IloOptimDesc getOptimModelDescription()
+    '''returns IloOptimDesc\n\n
+    getOptimModelDescription()\n
     '''
 def setEvaluatingKey():
-    '''public void setEvaluatingKey(final boolean isEvaluatingKey)
+    '''returns None\n\n
+    setEvaluatingKey(final boolean isEvaluatingKey)\n
     '''
 def getOptimFileName():
-    '''public String getOptimFileName()
+    '''returns String\n\n
+    getOptimFileName()\n
     '''
 def getValueAccessor():
-    '''public IloValueAccessor getValueAccessor()
+    '''returns IloValueAccessor\n\n
+    getValueAccessor()\n
     '''
 def getIssueReporter():
-    '''public IloIssueReporter getIssueReporter()
+    '''returns IloIssueReporter\n\n
+    getIssueReporter()\n
     '''
 def getOplModelAccessor():
-    '''public IloOplModelAccessor getOplModelAccessor()
+    '''returns IloOplModelAccessor\n\n
+    getOplModelAccessor()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

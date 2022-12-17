@@ -1,9 +1,12 @@
-def EncParamsRc2_40():
-    '''public EncParamsRc2_40(final EncMethodRc2_40 encMethodRc2_40)
+def ():
+    '''returns EncParamsRc2_40\n\n
+    (final EncMethodRc2_40 encMethodRc2_40)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''

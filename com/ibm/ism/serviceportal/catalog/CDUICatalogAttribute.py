@@ -1,114 +1,152 @@
-def CDUICatalogAttribute():
-    '''public CDUICatalogAttribute(final String attributeName)
+def ():
+    '''returns CDUICatalogAttribute\n\n
+    (final String attributeName)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def setAttributeName():
-    '''public void setAttributeName(final String attributeName)
+    '''returns None\n\n
+    setAttributeName(final String attributeName)\n
     '''
 def getCurrentValue():
-    '''public String getCurrentValue()
+    '''returns String\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final String currentValue)
+    '''returns None\n\n
+    setCurrentValue(final String currentValue)\n
     '''
 def getNewValue():
-    '''public String getNewValue()
+    '''returns String\n\n
+    getNewValue()\n
     '''
 def setNewValue():
-    '''public void setNewValue(final String newValue)
+    '''returns None\n\n
+    setNewValue(final String newValue)\n
     '''
 def getSigOption():
-    '''public String getSigOption()
+    '''returns String\n\n
+    getSigOption()\n
     '''
 def setSigOption():
-    '''public void setSigOption(final String sigOption)
+    '''returns None\n\n
+    setSigOption(final String sigOption)\n
     '''
 def getLookup():
-    '''public String getLookup()
+    '''returns String\n\n
+    getLookup()\n
     '''
 def setLookup():
-    '''public void setLookup(final String lookup)
+    '''returns None\n\n
+    setLookup(final String lookup)\n
     '''
 def isReadonly():
-    '''public boolean isReadonly()
+    '''returns boolean\n\n
+    isReadonly()\n
     '''
 def setReadonly():
-    '''public void setReadonly(final boolean isreadonly)
+    '''returns None\n\n
+    setReadonly(final boolean isreadonly)\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean isRequired)
+    '''returns None\n\n
+    setRequired(final boolean isRequired)\n
     '''
 def isDefaultRequired():
-    '''public boolean isDefaultRequired()
+    '''returns boolean\n\n
+    isDefaultRequired()\n
     '''
 def setDefaultRequired():
-    '''public void setDefaultRequired(final boolean isDefaultRequired)
+    '''returns None\n\n
+    setDefaultRequired(final boolean isDefaultRequired)\n
     '''
 def isHidden():
-    '''public boolean isHidden()
+    '''returns boolean\n\n
+    isHidden()\n
     '''
 def setHidden():
-    '''public void setHidden(final boolean isHidden)
+    '''returns None\n\n
+    setHidden(final boolean isHidden)\n
     '''
 def isDefaultReadonly():
-    '''public boolean isDefaultReadonly()
+    '''returns boolean\n\n
+    isDefaultReadonly()\n
     '''
 def setDefaultReadonly():
-    '''public void setDefaultReadonly(final boolean isDefaultreadonly)
+    '''returns None\n\n
+    setDefaultReadonly(final boolean isDefaultreadonly)\n
     '''
 def isDefaultHidden():
-    '''public boolean isDefaultHidden()
+    '''returns boolean\n\n
+    isDefaultHidden()\n
     '''
 def setDefaultHidden():
-    '''public void setDefaultHidden(final boolean isDefaultHidden)
+    '''returns None\n\n
+    setDefaultHidden(final boolean isDefaultHidden)\n
     '''
 def getXmlId():
-    '''public String getXmlId()
+    '''returns String\n\n
+    getXmlId()\n
     '''
 def setXmlId():
-    '''public void setXmlId(final String xmlId)
+    '''returns None\n\n
+    setXmlId(final String xmlId)\n
     '''
 def isCustom():
-    '''public boolean isCustom()
+    '''returns boolean\n\n
+    isCustom()\n
     '''
 def getDataSource():
-    '''public String getDataSource()
+    '''returns String\n\n
+    getDataSource()\n
     '''
 def getAttributeNameForCustom():
-    '''public String getAttributeNameForCustom()
+    '''returns String\n\n
+    getAttributeNameForCustom()\n
     '''
 def getDataSrcRelationship():
-    '''public String getDataSrcRelationship()
+    '''returns String\n\n
+    getDataSrcRelationship()\n
     '''
 def setDataSrcRelationship():
-    '''public void setDataSrcRelationship(final String dataSrcRelationship)
+    '''returns None\n\n
+    setDataSrcRelationship(final String dataSrcRelationship)\n
     '''
 def getCustom():
-    '''public boolean getCustom()
+    '''returns boolean\n\n
+    getCustom()\n
     '''
 def setCustom():
-    '''public void setCustom(final boolean isCustom)
+    '''returns None\n\n
+    setCustom(final boolean isCustom)\n
     '''
 def getPageSize():
-    '''public int getPageSize()
+    '''returns int\n\n
+    getPageSize()\n
     '''
 def setPageSize():
-    '''public void setPageSize(final int pageSize)
+    '''returns None\n\n
+    setPageSize(final int pageSize)\n
     '''
 def getPageNum():
-    '''public int getPageNum()
+    '''returns int\n\n
+    getPageNum()\n
     '''
 def setPageNum():
-    '''public void setPageNum(final int pageNum)
+    '''returns None\n\n
+    setPageNum(final int pageNum)\n
     '''
 def getCustomRelationships():
-    '''public String getCustomRelationships()
+    '''returns String\n\n
+    getCustomRelationships()\n
     '''
 def setCustomRelationships():
-    '''public void setCustomRelationships(final String customRelationships)
+    '''returns None\n\n
+    setCustomRelationships(final String customRelationships)\n
     '''

@@ -1,9 +1,12 @@
-def FldMeterMeterName():
-    '''public FldMeterMeterName(final MboValue mbv)
+def ():
+    '''returns FldMeterMeterName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''

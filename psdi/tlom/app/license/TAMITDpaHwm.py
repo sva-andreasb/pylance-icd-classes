@@ -1,27 +1,36 @@
-def TAMITDpaHwm():
-    '''public TAMITDpaHwm(final MboSet ms)
+def ():
+    '''returns TAMITDpaHwm\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def validateDuplicateKey():
-    '''public void validateDuplicateKey()
+    '''returns None\n\n
+    validateDuplicateKey()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getDpaSoftwareListWhereClause():
-    '''public String getDpaSoftwareListWhereClause()
+    '''returns String\n\n
+    getDpaSoftwareListWhereClause()\n
     '''
 def validateKey():
-    '''public void validateKey(final String attrKeyID, final String attrKeyName)
+    '''returns None\n\n
+    validateKey(final String attrKeyID, final String attrKeyName)\n
     '''

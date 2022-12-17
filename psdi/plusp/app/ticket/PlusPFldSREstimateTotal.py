@@ -1,9 +1,8 @@
-def PlusPFldSREstimateTotal():
-    '''public PlusPFldSREstimateTotal(final MboValue mbv)
+def ():
+    '''returns PlusPFldSREstimateTotal\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
-    '''
-def separateTotalsFromMixedEstimate():
-    '''public static double separateTotalsFromMixedEstimate(final MboRemote mboRemote, final boolean b)
+    '''returns None\n\n
+    initValue()\n
     '''

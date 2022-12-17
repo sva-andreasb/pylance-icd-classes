@@ -1,15 +1,20 @@
 def getNewValue():
-    '''public String getNewValue()
+    '''returns String\n\n
+    getNewValue()\n
     '''
 def setNewValue():
-    '''public void setNewValue(final String c)
+    '''returns None\n\n
+    setNewValue(final String c)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String c)
+    '''returns None\n\n
+    setValue(final String c)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

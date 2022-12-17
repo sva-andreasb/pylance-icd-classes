@@ -1,3 +1,4 @@
-def FldMethodName():
-    '''public FldMethodName(final MboValue mbv)
+def ():
+    '''returns FldMethodName\n\n
+    (final MboValue mbv)\n
     '''

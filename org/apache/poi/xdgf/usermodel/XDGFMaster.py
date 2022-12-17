@@ -1,18 +1,24 @@
-def XDGFMaster():
-    '''public XDGFMaster(final MasterType master, final XDGFMasterContents content, final XDGFDocument document)
+def ():
+    '''returns XDGFMaster\n\n
+    (final MasterType master, final XDGFMasterContents content, final XDGFDocument document)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getID():
-    '''public long getID()
+    '''returns long\n\n
+    getID()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getContent():
-    '''public XDGFMasterContents getContent()
+    '''returns XDGFMasterContents\n\n
+    getContent()\n
     '''
 def getPageSheet():
-    '''public XDGFSheet getPageSheet()
+    '''returns XDGFSheet\n\n
+    getPageSheet()\n
     '''

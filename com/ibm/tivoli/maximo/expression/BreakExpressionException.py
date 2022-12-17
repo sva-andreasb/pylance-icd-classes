@@ -1,9 +1,11 @@
-def BreakExpressionException():
-    '''public BreakExpressionException(final String message)
-    public BreakExpressionException()
-    public BreakExpressionException(final Exception e)
-    public BreakExpressionException(final Exception e, final boolean throwException)
+def ():
+    '''returns BreakExpressionException\n\n
+    (final String message)\n
+    ()\n
+    (final Exception e)\n
+    (final Exception e, final boolean throwException)\n
     '''
 def isThrowException():
-    '''public boolean isThrowException()
+    '''returns boolean\n\n
+    isThrowException()\n
     '''

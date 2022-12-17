@@ -1,3 +1,4 @@
-def FldAssetMeterEndFeatureLabel():
-    '''public FldAssetMeterEndFeatureLabel(final MboValue mbv)
+def ():
+    '''returns FldAssetMeterEndFeatureLabel\n\n
+    (final MboValue mbv)\n
     '''

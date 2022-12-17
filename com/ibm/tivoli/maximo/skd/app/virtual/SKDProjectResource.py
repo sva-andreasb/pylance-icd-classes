@@ -1,9 +1,12 @@
-def SKDProjectResource():
-    '''public SKDProjectResource(final MboSet ms)
+def ():
+    '''returns SKDProjectResource\n\n
+    (final MboSet ms)\n
     '''
 def initValues():
-    '''public void initValues()
+    '''returns None\n\n
+    initValues()\n
     '''
 def getSkdDataValResultSet():
-    '''public MboSetRemote getSkdDataValResultSet()
+    '''returns MboSetRemote\n\n
+    getSkdDataValResultSet()\n
     '''

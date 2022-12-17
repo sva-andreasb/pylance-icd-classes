@@ -1,215 +1,262 @@
 TESTIDS_ENABLED_PROPERTY = "String  \"mxe.skd.automationids.enabled\""
 SKD_BUILD_ID = "String  \"20200715-0100\""
 SCHEDULER_MSG_GROUP = "String  \"scheduler\""
-def AbstractTreeGridMiniAppBean():
-    '''public AbstractTreeGridMiniAppBean()
+def ():
+    '''returns AbstractTreeGridMiniAppBean\n\n
+    ()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def addQuickSearch():
-    '''public void addQuickSearch(final UIOptions opts)
+    '''returns None\n\n
+    addQuickSearch(final UIOptions opts)\n
     '''
 def addToggleDependencies():
-    '''public void addToggleDependencies(final UIOptions opts, final boolean create)
+    '''returns None\n\n
+    addToggleDependencies(final UIOptions opts, final boolean create)\n
     '''
 def addLinkToWorkViewFilter():
-    '''public void addLinkToWorkViewFilter(final UIOptions opts, final boolean create, final boolean initialState)
+    '''returns None\n\n
+    addLinkToWorkViewFilter(final UIOptions opts, final boolean create, final boolean initialState)\n
     '''
 def addFilterToggle():
-    '''public void addFilterToggle(final UIOptions opts)
+    '''returns None\n\n
+    addFilterToggle(final UIOptions opts)\n
     '''
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''
 def getCurrentProjectId():
-    '''public String getCurrentProjectId()
+    '''returns String\n\n
+    getCurrentProjectId()\n
     '''
 def isGUIMirrored():
-    '''public boolean isGUIMirrored()
+    '''returns boolean\n\n
+    isGUIMirrored()\n
     '''
 def setGridTitleInUIOptions():
-    '''public void setGridTitleInUIOptions(final UIOptions opts, final boolean readOnly)
+    '''returns None\n\n
+    setGridTitleInUIOptions(final UIOptions opts, final boolean readOnly)\n
     '''
 def async_export_echo():
-    '''public void async_export_echo(final WebClientSession sess)
+    '''returns None\n\n
+    async_export_echo(final WebClientSession sess)\n
     '''
 def getLastKnownState():
-    '''public String getLastKnownState()
+    '''returns String\n\n
+    getLastKnownState()\n
     '''
 def async_upload_state():
-    '''public JSONObject async_upload_state(final WebClientSession sess, @MXEventParam("cfgid") final String cfgid, @MXEventParam("cookie") final String cookie)
+    '''returns JSONObject\n\n
+    async_upload_state(final WebClientSession sess, @MXEventParam("cfgid") final String cfgid, @MXEventParam("cookie") final String cookie)\n
     '''
 def async_load_text():
-    '''public JSONObject async_load_text(final WebClientSession sess)
+    '''returns JSONObject\n\n
+    async_load_text(final WebClientSession sess)\n
     '''
 def loadSKDUIInfo():
-    '''public SKDUIInfo loadSKDUIInfo()
+    '''returns SKDUIInfo\n\n
+    loadSKDUIInfo()\n
     '''
 def async_get_table_context_menu():
-    '''public TMenu async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String id, @MXEventParam("col") final String column, @MXEventParam("value") String value)
+    '''returns TMenu\n\n
+    async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String id, @MXEventParam("col") final String column, @MXEventParam("value") String value)\n
     '''
 def on_handle_applink_menu_item():
-    '''public Object on_handle_applink_menu_item(final WebClientSession sess, @MXEventParam("id") final String id, @MXEventParam("value") final String action, @MXEventParam("values") final String values)
+    '''returns Object\n\n
+    on_handle_applink_menu_item(final WebClientSession sess, @MXEventParam("id") final String id, @MXEventParam("value") final String action, @MXEventParam("values") final String values)\n
     '''
 def callMethod():
-    '''public Object callMethod(final String methodName, final Class<?>[] paramTypes, final Object[] params)
+    '''returns Object\n\n
+    callMethod(final String methodName, final Class<?>[] paramTypes, final Object[] params)\n
     '''
 def callBeanMethod():
-    '''public Object callBeanMethod(final String method, final Class<?>[] paramTypes, final Object[] params)
+    '''returns Object\n\n
+    callBeanMethod(final String method, final Class<?>[] paramTypes, final Object[] params)\n
     '''
 def async_upload_changes():
-    '''public ReplyBuilder async_upload_changes(final WebClientSession sess)
+    '''returns ReplyBuilder\n\n
+    async_upload_changes(final WebClientSession sess)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def getTooltipForPoint():
-    '''public DynamicTooltip getTooltipForPoint(@MXEventParam("id") final String id, @MXEventParam("point_index") final int pointIndex)
+    '''returns DynamicTooltip\n\n
+    getTooltipForPoint(@MXEventParam("id") final String id, @MXEventParam("point_index") final int pointIndex)\n
     '''
 def async_push_client_message():
-    '''public void async_push_client_message()
+    '''returns None\n\n
+    async_push_client_message()\n
     '''
 def sendEventToTreeGrid():
-    '''public void sendEventToTreeGrid(final String eventId, final String eventArg)
+    '''returns None\n\n
+    sendEventToTreeGrid(final String eventId, final String eventArg)\n
     '''
 def getPresentationOptions():
-    '''public JSONObject getPresentationOptions()
+    '''returns JSONObject\n\n
+    getPresentationOptions()\n
     '''
 def isShowingWeather():
-    '''public boolean isShowingWeather()
+    '''returns boolean\n\n
+    isShowingWeather()\n
     '''
 def label():
-    '''public String label(final String key)
-    public String label(final String key, final String def)
-    '''
-def sortSKDAction():
-    '''public HashMap<String, SKDActionInfo> sortSKDAction(final HashMap<String, SKDActionInfo> skdActivityActions, final String frame)
+    '''returns String\n\n
+    label(final String key)\n
+    label(final String key, final String def)\n
     '''
 def appendCss():
-    '''public void appendCss(final StringBuilder sb, final String key, final String value)
+    '''returns None\n\n
+    appendCss(final StringBuilder sb, final String key, final String value)\n
     '''
 def filterCss():
-    '''public String filterCss(String css, final MiniAppControl control)
+    '''returns String\n\n
+    filterCss(String css, final MiniAppControl control)\n
     '''
 def getBaseImageUrl():
-    '''public String getBaseImageUrl()
+    '''returns String\n\n
+    getBaseImageUrl()\n
     '''
 def loadMiniAppResource():
-    '''public String loadMiniAppResource(final String path)
+    '''returns String\n\n
+    loadMiniAppResource(final String path)\n
     '''
 def getSchedulerProperties():
-    '''public Properties getSchedulerProperties()
+    '''returns Properties\n\n
+    getSchedulerProperties()\n
     '''
 def loadTemplate():
-    '''public String loadTemplate(final String id)
+    '''returns String\n\n
+    loadTemplate(final String id)\n
     '''
 def loadTooltip():
-    '''public String loadTooltip(final String id)
+    '''returns String\n\n
+    loadTooltip(final String id)\n
     '''
 def getSKDAppServiceBean():
-    '''public SKDAppServiceBeanRemote getSKDAppServiceBean()
-    public static SKDAppServiceBeanRemote getSKDAppServiceBean(final WebClientSession wcs)
-    '''
-def isAiviationLicensePresent():
-    '''public static boolean isAiviationLicensePresent(final WebClientSession sess)
-    '''
-def isAiviationMROLicensePresent():
-    '''public static boolean isAiviationMROLicensePresent(final WebClientSession sess)
-    '''
-def isLicensePresent():
-    '''public static boolean isLicensePresent(final WebClientSession sess, final String lic)
-    public static boolean isLicensePresent(final String lic)
+    '''returns SKDAppServiceBeanRemote\n\n
+    getSKDAppServiceBean()\n
     '''
 def resolveTemplate():
-    '''public String resolveTemplate(final String templateName, final MboRemote projectMbo)
+    '''returns String\n\n
+    resolveTemplate(final String templateName, final MboRemote projectMbo)\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def initializeProjectData():
-    '''public void initializeProjectData()
+    '''returns None\n\n
+    initializeProjectData()\n
     '''
 def getUIOptions():
-    '''public UIOptions getUIOptions()
+    '''returns UIOptions\n\n
+    getUIOptions()\n
     '''
 def setSerializationHelper():
-    '''public void setSerializationHelper(final MXSerializationHelper mxSerializationHelper)
+    '''returns None\n\n
+    setSerializationHelper(final MXSerializationHelper mxSerializationHelper)\n
     '''
 def clearSavedState():
-    '''public void clearSavedState()
+    '''returns None\n\n
+    clearSavedState()\n
     '''
 def getApplicationResource():
-    '''public String getApplicationResource(final String path)
+    '''returns String\n\n
+    getApplicationResource(final String path)\n
     '''
 def getShiftWorkPeriodInfoForDate():
-    '''public List<ShiftInfo> getShiftWorkPeriodInfoForDate(final IMXGanttModel sched, final Properties props, final Date d)
-    public ShiftInfo getShiftWorkPeriodInfoForDate(final IMXGanttModel model, final Date d)
-    public ShiftInfo getShiftWorkPeriodInfoForDate(final IMXResource mxr, final IMXGanttModel model, final Date d)
+    '''returns ShiftInfo\n\n
+    getShiftWorkPeriodInfoForDate(final IMXGanttModel sched, final Properties props, final Date d)\n
+    getShiftWorkPeriodInfoForDate(final IMXGanttModel model, final Date d)\n
+    getShiftWorkPeriodInfoForDate(final IMXResource mxr, final IMXGanttModel model, final Date d)\n
     '''
 def getTooltipForDateInSchedule():
-    '''public DynamicTooltip getTooltipForDateInSchedule(final IMXGanttModel schedule, final Properties props, final long date)
+    '''returns DynamicTooltip\n\n
+    getTooltipForDateInSchedule(final IMXGanttModel schedule, final Properties props, final long date)\n
     '''
 def getClientSession():
-    '''public WebClientSession getClientSession()
+    '''returns WebClientSession\n\n
+    getClientSession()\n
     '''
 def beanSupplier():
-    '''public Supplier<AbstractTreeGridMiniAppBean> beanSupplier()
+    '''returns Supplier<AbstractTreeGridMiniAppBean>\n\n
+    beanSupplier()\n
     '''
 def uiOptionsSupplier():
-    '''public Supplier<UIOptions> uiOptionsSupplier()
+    '''returns Supplier<UIOptions>\n\n
+    uiOptionsSupplier()\n
     '''
 def get():
-    '''public UIOptions get()
+    '''returns UIOptions\n\n
+    get()\n
     '''
 def getModAvailForDate():
-    '''public IMXActivity getModAvailForDate(final IMXResource mxr, final IMXGanttModel model, final Date d)
+    '''returns IMXActivity\n\n
+    getModAvailForDate(final IMXResource mxr, final IMXGanttModel model, final Date d)\n
     '''
 def getShiftBreakInfoForDate():
-    '''public ShiftInfo getShiftBreakInfoForDate(final IMXResource mxr, final IMXGanttModel model, final Date d)
+    '''returns ShiftInfo\n\n
+    getShiftBreakInfoForDate(final IMXResource mxr, final IMXGanttModel model, final Date d)\n
     '''
 def updateDateTimeProperty():
-    '''public void updateDateTimeProperty(final String prop, final JSONObject obj, final IMXActivity act)
+    '''returns None\n\n
+    updateDateTimeProperty(final String prop, final JSONObject obj, final IMXActivity act)\n
     '''
 def updateStringProperty():
-    '''public void updateStringProperty(final String prop, final JSONObject obj, final IMXActivity act, final boolean acceptEmptyString)
+    '''returns None\n\n
+    updateStringProperty(final String prop, final JSONObject obj, final IMXActivity act, final boolean acceptEmptyString)\n
     '''
 def updateIntProperty():
-    '''public boolean updateIntProperty(final String prop, final JSONObject obj, final IMXActivity act)
+    '''returns boolean\n\n
+    updateIntProperty(final String prop, final JSONObject obj, final IMXActivity act)\n
     '''
 def updateBooleanProperty():
-    '''public void updateBooleanProperty(final String prop, final JSONObject obj, final IMXActivity act)
-    '''
-def CfgId():
-    '''public static String CfgId(final String base)
+    '''returns None\n\n
+    updateBooleanProperty(final String prop, final JSONObject obj, final IMXActivity act)\n
     '''
 def getProjectMbo():
-    '''public MboRemote getProjectMbo()
+    '''returns MboRemote\n\n
+    getProjectMbo()\n
     '''
 def getShiftWorkTime():
-    '''public SKDShiftWorkTime getShiftWorkTime()
+    '''returns SKDShiftWorkTime\n\n
+    getShiftWorkTime()\n
     '''
 def setShiftWorkTime():
-    '''public void setShiftWorkTime(final SKDShiftWorkTime shiftWorkTime)
+    '''returns None\n\n
+    setShiftWorkTime(final SKDShiftWorkTime shiftWorkTime)\n
     '''
 def getStart():
-    '''public Date getStart()
+    '''returns Date\n\n
+    getStart()\n
     '''
 def setStart():
-    '''public void setStart(final Date start)
+    '''returns None\n\n
+    setStart(final Date start)\n
     '''
 def getEnd():
-    '''public Date getEnd()
+    '''returns Date\n\n
+    getEnd()\n
     '''
 def setEnd():
-    '''public void setEnd(final Date end)
+    '''returns None\n\n
+    setEnd(final Date end)\n
     '''
 def getColor():
-    '''public String getColor()
+    '''returns String\n\n
+    getColor()\n
     '''
 def setColor():
-    '''public void setColor(final String color)
+    '''returns None\n\n
+    setColor(final String color)\n
     '''

@@ -1,3 +1,4 @@
-def CDUITemplateActionHandler():
-    '''public CDUITemplateActionHandler()
+def ():
+    '''returns CDUITemplateActionHandler\n\n
+    ()\n
     '''

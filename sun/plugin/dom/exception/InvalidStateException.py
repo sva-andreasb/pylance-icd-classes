@@ -1,3 +1,4 @@
-def InvalidStateException():
-    '''public InvalidStateException(final String message)
+def ():
+    '''returns InvalidStateException\n\n
+    (final String message)\n
     '''

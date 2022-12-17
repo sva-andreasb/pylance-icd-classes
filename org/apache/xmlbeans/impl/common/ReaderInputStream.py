@@ -1,7 +1,9 @@
-def ReaderInputStream():
-    '''public ReaderInputStream(final Reader reader, final String encoding)
-    public ReaderInputStream(final Reader reader, final String encoding, final int bufferSize)
+def ():
+    '''returns ReaderInputStream\n\n
+    (final Reader reader, final String encoding)\n
+    (final Reader reader, final String encoding, final int bufferSize)\n
     '''
 def fill():
-    '''public void fill(final int requestedBytes)
+    '''returns None\n\n
+    fill(final int requestedBytes)\n
     '''

@@ -1,6 +1,8 @@
-def CommLogDocSet():
-    '''public CommLogDocSet(final MboServerInterface ms)
+def ():
+    '''returns CommLogDocSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copyFromDocLinks():
-    '''public void copyFromDocLinks()
+    '''returns None\n\n
+    copyFromDocLinks()\n
     '''

@@ -1,15 +1,16 @@
-def CVSPass():
-    '''public CVSPass()
-    '''
-def execute():
-    '''public final void execute()
+def ():
+    '''returns CVSPass\n\n
+    ()\n
     '''
 def setCvsroot():
-    '''public void setCvsroot(final String cvsRoot)
+    '''returns None\n\n
+    setCvsroot(final String cvsRoot)\n
     '''
 def setPassfile():
-    '''public void setPassfile(final File passFile)
+    '''returns None\n\n
+    setPassfile(final File passFile)\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''

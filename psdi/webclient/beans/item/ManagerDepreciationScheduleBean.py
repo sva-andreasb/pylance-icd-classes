@@ -1,9 +1,8 @@
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    '''
-def OK_ACTION():
-    '''public synchronized int OK_ACTION()
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def generatePreview():
-    '''public int generatePreview()
+    '''returns int\n\n
+    generatePreview()\n
     '''

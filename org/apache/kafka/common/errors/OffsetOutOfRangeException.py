@@ -1,4 +1,5 @@
-def OffsetOutOfRangeException():
-    '''public OffsetOutOfRangeException(final String message)
-    public OffsetOutOfRangeException(final String message, final Throwable cause)
+def ():
+    '''returns OffsetOutOfRangeException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

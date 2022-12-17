@@ -1,6 +1,8 @@
-def PlusPBillActualUsageUtil():
-    '''public PlusPBillActualUsageUtil(final MboRemote agreement, final MboRemote billSched, final MboRemote billBatch, final PlusPLog plusPLog)
+def ():
+    '''returns PlusPBillActualUsageUtil\n\n
+    (final MboRemote agreement, final MboRemote billSched, final MboRemote billBatch, final PlusPLog plusPLog)\n
     '''
 def billActualUsage():
-    '''public ArrayList<MboRemote> billActualUsage()
+    '''returns ArrayList<MboRemote>\n\n
+    billActualUsage()\n
     '''

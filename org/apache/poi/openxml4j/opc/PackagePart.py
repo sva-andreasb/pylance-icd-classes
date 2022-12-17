@@ -1,82 +1,108 @@
-def PackagePart():
-    '''public PackagePart(final OPCPackage pack, final PackagePartName partName, final String contentType)
+def ():
+    '''returns PackagePart\n\n
+    (final OPCPackage pack, final PackagePartName partName, final String contentType)\n
     '''
 def findExistingRelation():
-    '''public PackageRelationship findExistingRelation(final PackagePart packagePart)
+    '''returns PackageRelationship\n\n
+    findExistingRelation(final PackagePart packagePart)\n
     '''
 def addExternalRelationship():
-    '''public PackageRelationship addExternalRelationship(final String target, final String relationshipType)
-    public PackageRelationship addExternalRelationship(final String target, final String relationshipType, final String id)
+    '''returns PackageRelationship\n\n
+    addExternalRelationship(final String target, final String relationshipType)\n
+    addExternalRelationship(final String target, final String relationshipType, final String id)\n
     '''
 def addRelationship():
-    '''public PackageRelationship addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType)
-    public PackageRelationship addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType, final String id)
-    public PackageRelationship addRelationship(final URI targetURI, final TargetMode targetMode, final String relationshipType)
-    public PackageRelationship addRelationship(final URI targetURI, final TargetMode targetMode, final String relationshipType, final String id)
+    '''returns PackageRelationship\n\n
+    addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType)\n
+    addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType, final String id)\n
+    addRelationship(final URI targetURI, final TargetMode targetMode, final String relationshipType)\n
+    addRelationship(final URI targetURI, final TargetMode targetMode, final String relationshipType, final String id)\n
     '''
 def clearRelationships():
-    '''public void clearRelationships()
+    '''returns None\n\n
+    clearRelationships()\n
     '''
 def removeRelationship():
-    '''public void removeRelationship(final String id)
+    '''returns None\n\n
+    removeRelationship(final String id)\n
     '''
 def getRelationships():
-    '''public PackageRelationshipCollection getRelationships()
+    '''returns PackageRelationshipCollection\n\n
+    getRelationships()\n
     '''
 def getRelationship():
-    '''public PackageRelationship getRelationship(final String id)
+    '''returns PackageRelationship\n\n
+    getRelationship(final String id)\n
     '''
 def getRelationshipsByType():
-    '''public PackageRelationshipCollection getRelationshipsByType(final String relationshipType)
+    '''returns PackageRelationshipCollection\n\n
+    getRelationshipsByType(final String relationshipType)\n
     '''
 def hasRelationships():
-    '''public boolean hasRelationships()
+    '''returns boolean\n\n
+    hasRelationships()\n
     '''
 def isRelationshipExists():
-    '''public boolean isRelationshipExists(final PackageRelationship rel)
+    '''returns boolean\n\n
+    isRelationshipExists(final PackageRelationship rel)\n
     '''
 def getRelatedPart():
-    '''public PackagePart getRelatedPart(final PackageRelationship rel)
+    '''returns PackagePart\n\n
+    getRelatedPart(final PackageRelationship rel)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getPartName():
-    '''public PackagePartName getPartName()
+    '''returns PackagePartName\n\n
+    getPartName()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getContentTypeDetails():
-    '''public ContentType getContentTypeDetails()
+    '''returns ContentType\n\n
+    getContentTypeDetails()\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def getPackage():
-    '''public OPCPackage getPackage()
+    '''returns OPCPackage\n\n
+    getPackage()\n
     '''
 def isRelationshipPart():
-    '''public boolean isRelationshipPart()
+    '''returns boolean\n\n
+    isRelationshipPart()\n
     '''
 def isDeleted():
-    '''public boolean isDeleted()
+    '''returns boolean\n\n
+    isDeleted()\n
     '''
 def setDeleted():
-    '''public void setDeleted(final boolean isDeleted)
+    '''returns None\n\n
+    setDeleted(final boolean isDeleted)\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final PackagePart other)
+    '''returns int\n\n
+    compareTo(final PackagePart other)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

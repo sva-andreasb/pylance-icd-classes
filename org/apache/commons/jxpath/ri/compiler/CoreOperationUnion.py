@@ -1,9 +1,12 @@
-def CoreOperationUnion():
-    '''public CoreOperationUnion(final Expression[] args)
+def ():
+    '''returns CoreOperationUnion\n\n
+    (final Expression[] args)\n
     '''
 def computeValue():
-    '''public Object computeValue(final EvalContext context)
+    '''returns Object\n\n
+    computeValue(final EvalContext context)\n
     '''
 def getSymbol():
-    '''public String getSymbol()
+    '''returns String\n\n
+    getSymbol()\n
     '''

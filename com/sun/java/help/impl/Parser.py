@@ -1,34 +1,37 @@
-def Parser():
-    '''public Parser(final Reader reader)
-    public Parser(final InputStream inputStream)
+def ():
+    '''returns Parser\n\n
+    (final Reader reader)\n
+    (final InputStream inputStream)\n
     '''
 def addParserListener():
-    '''public void addParserListener(final ParserListener parserListener)
+    '''returns None\n\n
+    addParserListener(final ParserListener parserListener)\n
     '''
 def removeParserListener():
-    '''public void removeParserListener(final ParserListener parserListener)
+    '''returns None\n\n
+    removeParserListener(final ParserListener parserListener)\n
     '''
 def tagFound():
-    '''public void tagFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    tagFound(final ParserEvent parserEvent)\n
     '''
 def piFound():
-    '''public void piFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    piFound(final ParserEvent parserEvent)\n
     '''
 def doctypeFound():
-    '''public void doctypeFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    doctypeFound(final ParserEvent parserEvent)\n
     '''
 def textFound():
-    '''public void textFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    textFound(final ParserEvent parserEvent)\n
     '''
 def commentFound():
-    '''public void commentFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    commentFound(final ParserEvent parserEvent)\n
     '''
 def errorFound():
-    '''public void errorFound(final ParserEvent parserEvent)
-    '''
-def add():
-    '''public static ParserListener add(final ParserListener parserListener, final ParserListener parserListener2)
-    '''
-def remove():
-    '''public static ParserListener remove(final ParserListener parserListener, final ParserListener parserListener2)
+    '''returns None\n\n
+    errorFound(final ParserEvent parserEvent)\n
     '''

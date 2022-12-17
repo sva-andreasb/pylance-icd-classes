@@ -1,18 +1,24 @@
-def ReconLinkRule():
-    '''public ReconLinkRule(final MboSet ms)
+def ():
+    '''returns ReconLinkRule\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def buildExpression():
-    '''public ReconLinkExpression buildExpression()
+    '''returns ReconLinkExpression\n\n
+    buildExpression()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

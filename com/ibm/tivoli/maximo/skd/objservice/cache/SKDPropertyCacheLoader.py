@@ -1,18 +1,24 @@
-def SKDPropertyCacheLoader():
-    '''public SKDPropertyCacheLoader(final Long projectID)
+def ():
+    '''returns SKDPropertyCacheLoader\n\n
+    (final Long projectID)\n
     '''
 def loadWorkOrderWeatherAlert():
-    '''public void loadWorkOrderWeatherAlert(final String orgid, final UserInfo userInfo)
+    '''returns None\n\n
+    loadWorkOrderWeatherAlert(final String orgid, final UserInfo userInfo)\n
     '''
 def loadWorkLog():
-    '''public void loadWorkLog(final String orgid, final UserInfo userInfo)
+    '''returns None\n\n
+    loadWorkLog(final String orgid, final UserInfo userInfo)\n
     '''
 def loadCrewType():
-    '''public void loadCrewType(final String orgID, final UserInfo userInfo)
+    '''returns None\n\n
+    loadCrewType(final String orgID, final UserInfo userInfo)\n
     '''
 def loadCraft():
-    '''public void loadCraft(final String orgID, final UserInfo userInfo)
+    '''returns None\n\n
+    loadCraft(final String orgID, final UserInfo userInfo)\n
     '''
 def loadRepairLocationDates():
-    '''public void loadRepairLocationDates(final String orgid, final UserInfo userInfo)
+    '''returns None\n\n
+    loadRepairLocationDates(final String orgid, final UserInfo userInfo)\n
     '''

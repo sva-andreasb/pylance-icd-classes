@@ -1,3 +1,4 @@
-def SKDProjectShiftsSet():
-    '''public SKDProjectShiftsSet(final MboServerInterface ms)
+def ():
+    '''returns SKDProjectShiftsSet\n\n
+    (final MboServerInterface ms)\n
     '''

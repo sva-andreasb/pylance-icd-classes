@@ -1,19 +1,20 @@
-def InteractionPolicyCacheImpl():
-    '''public InteractionPolicyCacheImpl()
+def ():
+    '''returns InteractionPolicyCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public synchronized void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getAllPolices():
-    '''public Map<String, PolicyInfo> getAllPolices()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPolicyInfo():
-    '''public PolicyInfo getPolicyInfo(final String id)
+    '''returns PolicyInfo\n\n
+    getPolicyInfo(final String id)\n
     '''

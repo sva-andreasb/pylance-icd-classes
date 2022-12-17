@@ -1,6 +1,8 @@
-def XSDDateTimeType():
-    '''public XSDDateTimeType(final String typename)
+def ():
+    '''returns XSDDateTimeType\n\n
+    (final String typename)\n
     '''
 def parseValidated():
-    '''public Object parseValidated(final String str)
+    '''returns Object\n\n
+    parseValidated(final String str)\n
     '''

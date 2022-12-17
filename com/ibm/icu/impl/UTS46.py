@@ -1,15 +1,20 @@
-def UTS46():
-    '''public UTS46(final int options)
+def ():
+    '''returns UTS46\n\n
+    (final int options)\n
     '''
 def labelToASCII():
-    '''public StringBuilder labelToASCII(final CharSequence label, final StringBuilder dest, final Info info)
+    '''returns StringBuilder\n\n
+    labelToASCII(final CharSequence label, final StringBuilder dest, final Info info)\n
     '''
 def labelToUnicode():
-    '''public StringBuilder labelToUnicode(final CharSequence label, final StringBuilder dest, final Info info)
+    '''returns StringBuilder\n\n
+    labelToUnicode(final CharSequence label, final StringBuilder dest, final Info info)\n
     '''
 def nameToASCII():
-    '''public StringBuilder nameToASCII(final CharSequence name, final StringBuilder dest, final Info info)
+    '''returns StringBuilder\n\n
+    nameToASCII(final CharSequence name, final StringBuilder dest, final Info info)\n
     '''
 def nameToUnicode():
-    '''public StringBuilder nameToUnicode(final CharSequence name, final StringBuilder dest, final Info info)
+    '''returns StringBuilder\n\n
+    nameToUnicode(final CharSequence name, final StringBuilder dest, final Info info)\n
     '''

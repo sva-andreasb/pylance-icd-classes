@@ -1,6 +1,8 @@
-def FldDatastoreId():
-    '''public FldDatastoreId(final MboValue mbv)
+def ():
+    '''returns FldDatastoreId\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

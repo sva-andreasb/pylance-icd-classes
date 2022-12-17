@@ -1,6 +1,8 @@
-def FldRevrelationship():
-    '''public FldRevrelationship(final MboValue mbv)
+def ():
+    '''returns FldRevrelationship\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

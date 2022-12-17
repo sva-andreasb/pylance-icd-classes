@@ -1,62 +1,82 @@
 sid = "short  446"
-def DVRecord():
-    '''public DVRecord(final int validationType, final int operator, final int errorStyle, final boolean emptyCellAllowed, final boolean suppressDropDownArrow, final boolean isExplicitList, final boolean showPromptBox, final String promptTitle, final String promptText, final boolean showErrorBox, final String errorTitle, final String errorText, final Ptg[] formula1, final Ptg[] formula2, final CellRangeAddressList regions)
-    public DVRecord(final RecordInputStream in)
+def ():
+    '''returns DVRecord\n\n
+    (final int validationType, final int operator, final int errorStyle, final boolean emptyCellAllowed, final boolean suppressDropDownArrow, final boolean isExplicitList, final boolean showPromptBox, final String promptTitle, final String promptText, final boolean showErrorBox, final String errorTitle, final String errorText, final Ptg[] formula1, final Ptg[] formula2, final CellRangeAddressList regions)\n
+    (final RecordInputStream in)\n
     '''
 def getDataType():
-    '''public int getDataType()
+    '''returns int\n\n
+    getDataType()\n
     '''
 def getErrorStyle():
-    '''public int getErrorStyle()
+    '''returns int\n\n
+    getErrorStyle()\n
     '''
 def getListExplicitFormula():
-    '''public boolean getListExplicitFormula()
+    '''returns boolean\n\n
+    getListExplicitFormula()\n
     '''
 def getEmptyCellAllowed():
-    '''public boolean getEmptyCellAllowed()
+    '''returns boolean\n\n
+    getEmptyCellAllowed()\n
     '''
 def getSuppressDropdownArrow():
-    '''public boolean getSuppressDropdownArrow()
+    '''returns boolean\n\n
+    getSuppressDropdownArrow()\n
     '''
 def getShowPromptOnCellSelected():
-    '''public boolean getShowPromptOnCellSelected()
+    '''returns boolean\n\n
+    getShowPromptOnCellSelected()\n
     '''
 def getShowErrorOnInvalidValue():
-    '''public boolean getShowErrorOnInvalidValue()
+    '''returns boolean\n\n
+    getShowErrorOnInvalidValue()\n
     '''
 def getConditionOperator():
-    '''public int getConditionOperator()
+    '''returns int\n\n
+    getConditionOperator()\n
     '''
 def getPromptTitle():
-    '''public String getPromptTitle()
+    '''returns String\n\n
+    getPromptTitle()\n
     '''
 def getErrorTitle():
-    '''public String getErrorTitle()
+    '''returns String\n\n
+    getErrorTitle()\n
     '''
 def getPromptText():
-    '''public String getPromptText()
+    '''returns String\n\n
+    getPromptText()\n
     '''
 def getErrorText():
-    '''public String getErrorText()
+    '''returns String\n\n
+    getErrorText()\n
     '''
 def getFormula1():
-    '''public Ptg[] getFormula1()
+    '''returns Ptg[]\n\n
+    getFormula1()\n
     '''
 def getFormula2():
-    '''public Ptg[] getFormula2()
+    '''returns Ptg[]\n\n
+    getFormula2()\n
     '''
 def getCellRangeAddress():
-    '''public CellRangeAddressList getCellRangeAddress()
+    '''returns CellRangeAddressList\n\n
+    getCellRangeAddress()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public DVRecord clone()
+    '''returns DVRecord\n\n
+    clone()\n
     '''

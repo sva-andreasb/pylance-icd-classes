@@ -1,7 +1,9 @@
-def CompareActivityRenderer():
-    '''public CompareActivityRenderer()
-    public CompareActivityRenderer(final boolean addComplianceBars)
+def ():
+    '''returns CompareActivityRenderer\n\n
+    ()\n
+    (final boolean addComplianceBars)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''

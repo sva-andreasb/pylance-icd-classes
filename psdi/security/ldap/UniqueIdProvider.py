@@ -1,9 +1,12 @@
 def construct():
-    '''public void construct(final Mbo mbo, final MboValueInfo mvInfo)
+    '''returns None\n\n
+    construct(final Mbo mbo, final MboValueInfo mvInfo)\n
     '''
 def getUniqueId():
-    '''public String getUniqueId(final Connection con, final String tableName, final String columnName)
+    '''returns String\n\n
+    getUniqueId(final Connection con, final String tableName, final String columnName)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

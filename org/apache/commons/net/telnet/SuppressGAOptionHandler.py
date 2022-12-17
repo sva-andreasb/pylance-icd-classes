@@ -1,13 +1,17 @@
-def SuppressGAOptionHandler():
-    '''public SuppressGAOptionHandler(final boolean initlocal, final boolean initremote, final boolean acceptlocal, final boolean acceptremote)
-    public SuppressGAOptionHandler()
+def ():
+    '''returns SuppressGAOptionHandler\n\n
+    (final boolean initlocal, final boolean initremote, final boolean acceptlocal, final boolean acceptremote)\n
+    ()\n
     '''
 def answerSubnegotiation():
-    '''public int[] answerSubnegotiation(final int[] suboptionData, final int suboptionLength)
+    '''returns int[]\n\n
+    answerSubnegotiation(final int[] suboptionData, final int suboptionLength)\n
     '''
 def startSubnegotiationLocal():
-    '''public int[] startSubnegotiationLocal()
+    '''returns int[]\n\n
+    startSubnegotiationLocal()\n
     '''
 def startSubnegotiationRemote():
-    '''public int[] startSubnegotiationRemote()
+    '''returns int[]\n\n
+    startSubnegotiationRemote()\n
     '''

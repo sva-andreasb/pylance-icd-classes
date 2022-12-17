@@ -1,6 +1,8 @@
 def properties():
-    '''public int properties()
+    '''returns int\n\n
+    properties()\n
     '''
 def getNodeIndex():
-    '''public int getNodeIndex(final int nodeid)
+    '''returns int\n\n
+    getNodeIndex(final int nodeid)\n
     '''

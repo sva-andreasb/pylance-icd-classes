@@ -1,7 +1,9 @@
-def FldIssueCurrentItemTaskID():
-    '''public FldIssueCurrentItemTaskID(final MboValue mbv)
-    public FldIssueCurrentItemTaskID(final MboValue mbv, final String wonumName, final String refwoName, final String criteriaName)
+def ():
+    '''returns FldIssueCurrentItemTaskID\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String wonumName, final String refwoName, final String criteriaName)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,24 +1,24 @@
-def unmodifiableMap():
-    '''public static <K, V> Map<K, V> unmodifiableMap(final Map<? extends K, ? extends V> map)
-    '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> mapToCopy)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> mapToCopy)\n
     '''
 def remove():
-    '''public V remove(final Object key)
-    '''
-def mapIterator():
-    '''public MapIterator<K, V> mapIterator()
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''

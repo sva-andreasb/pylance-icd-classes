@@ -1,18 +1,24 @@
-def Breadcrumbs():
-    '''public Breadcrumbs()
+def ():
+    '''returns Breadcrumbs\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getactiveCrumb():
-    '''public long getactiveCrumb()
+    '''returns long\n\n
+    getactiveCrumb()\n
     '''
 def setactiveCrumb():
-    '''public void setactiveCrumb(final long activeCrumb)
+    '''returns None\n\n
+    setactiveCrumb(final long activeCrumb)\n
     '''
 def selectbreadcrumb():
-    '''public int selectbreadcrumb()
+    '''returns int\n\n
+    selectbreadcrumb()\n
     '''

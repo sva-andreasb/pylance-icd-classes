@@ -1,3 +1,4 @@
-def PropertyDefaultSet():
-    '''public PropertyDefaultSet(final MboServerInterface ms)
+def ():
+    '''returns PropertyDefaultSet\n\n
+    (final MboServerInterface ms)\n
     '''

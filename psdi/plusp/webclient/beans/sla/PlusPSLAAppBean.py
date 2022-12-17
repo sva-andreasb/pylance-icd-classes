@@ -1,3 +1,4 @@
 def escalation():
-    '''public int escalation()
+    '''returns int\n\n
+    escalation()\n
     '''

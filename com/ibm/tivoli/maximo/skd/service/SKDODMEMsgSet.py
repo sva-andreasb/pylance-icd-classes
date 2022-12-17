@@ -1,3 +1,4 @@
-def SKDODMEMsgSet():
-    '''public SKDODMEMsgSet(final MboServerInterface ms)
+def ():
+    '''returns SKDODMEMsgSet\n\n
+    (final MboServerInterface ms)\n
     '''

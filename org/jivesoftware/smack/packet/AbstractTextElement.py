@@ -1,13 +1,9 @@
 ELEMENT = "String  \"text\""
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def getText():
-    '''public final String getText()
-    '''
-def getLang():
-    '''public final String getLang()
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

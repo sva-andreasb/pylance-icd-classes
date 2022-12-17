@@ -1,6 +1,8 @@
-def ParsingException():
-    '''public ParsingException(final Exception e, final String message)
+def ():
+    '''returns ParsingException\n\n
+    (final Exception e, final String message)\n
     '''
 def getRestStatusCode():
-    '''public int getRestStatusCode()
+    '''returns int\n\n
+    getRestStatusCode()\n
     '''

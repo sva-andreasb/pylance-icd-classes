@@ -1,6 +1,8 @@
-def PlusPAppliesToTableSet():
-    '''public PlusPAppliesToTableSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAppliesToTableSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

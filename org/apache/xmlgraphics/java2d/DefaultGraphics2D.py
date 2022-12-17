@@ -1,42 +1,55 @@
-def DefaultGraphics2D():
-    '''public DefaultGraphics2D(final boolean textAsShapes)
-    public DefaultGraphics2D(final DefaultGraphics2D g)
+def ():
+    '''returns DefaultGraphics2D\n\n
+    (final boolean textAsShapes)\n
+    (final DefaultGraphics2D g)\n
     '''
 def create():
-    '''public Graphics create()
+    '''returns Graphics\n\n
+    create()\n
     '''
 def drawImage():
-    '''public boolean drawImage(final Image img, final int x, final int y, final ImageObserver observer)
-    public boolean drawImage(final Image img, final int x, final int y, final int width, final int height, final ImageObserver observer)
+    '''returns boolean\n\n
+    drawImage(final Image img, final int x, final int y, final ImageObserver observer)\n
+    drawImage(final Image img, final int x, final int y, final int width, final int height, final ImageObserver observer)\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''
 def draw():
-    '''public void draw(final Shape s)
+    '''returns None\n\n
+    draw(final Shape s)\n
     '''
 def drawRenderedImage():
-    '''public void drawRenderedImage(final RenderedImage img, final AffineTransform xform)
+    '''returns None\n\n
+    drawRenderedImage(final RenderedImage img, final AffineTransform xform)\n
     '''
 def drawRenderableImage():
-    '''public void drawRenderableImage(final RenderableImage img, final AffineTransform xform)
+    '''returns None\n\n
+    drawRenderableImage(final RenderableImage img, final AffineTransform xform)\n
     '''
 def drawString():
-    '''public void drawString(final String s, final float x, final float y)
-    public void drawString(final AttributedCharacterIterator iterator, final float x, final float y)
+    '''returns None\n\n
+    drawString(final String s, final float x, final float y)\n
+    drawString(final AttributedCharacterIterator iterator, final float x, final float y)\n
     '''
 def fill():
-    '''public void fill(final Shape s)
+    '''returns None\n\n
+    fill(final Shape s)\n
     '''
 def getDeviceConfiguration():
-    '''public GraphicsConfiguration getDeviceConfiguration()
+    '''returns GraphicsConfiguration\n\n
+    getDeviceConfiguration()\n
     '''
 def getFontMetrics():
-    '''public FontMetrics getFontMetrics(final Font f)
+    '''returns FontMetrics\n\n
+    getFontMetrics(final Font f)\n
     '''
 def setXORMode():
-    '''public void setXORMode(final Color c1)
+    '''returns None\n\n
+    setXORMode(final Color c1)\n
     '''
 def copyArea():
-    '''public void copyArea(final int x, final int y, final int width, final int height, final int dx, final int dy)
+    '''returns None\n\n
+    copyArea(final int x, final int y, final int width, final int height, final int dx, final int dy)\n
     '''

@@ -1,87 +1,67 @@
-def GDurationBuilder():
-    '''public GDurationBuilder()
-    public GDurationBuilder(final String s)
-    public GDurationBuilder(final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
-    public GDurationBuilder(final GDurationSpecification gDuration)
+def ():
+    '''returns GDurationBuilder\n\n
+    ()\n
+    (final String s)\n
+    (final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)\n
+    (final GDurationSpecification gDuration)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toGDuration():
-    '''public GDuration toGDuration()
+    '''returns GDuration\n\n
+    toGDuration()\n
     '''
 def addGDuration():
-    '''public void addGDuration(final GDurationSpecification duration)
+    '''returns None\n\n
+    addGDuration(final GDurationSpecification duration)\n
     '''
 def subtractGDuration():
-    '''public void subtractGDuration(final GDurationSpecification duration)
-    '''
-def setSign():
-    '''public final void setSign(final int sign)
+    '''returns None\n\n
+    subtractGDuration(final GDurationSpecification duration)\n
     '''
 def setYear():
-    '''public void setYear(final int year)
+    '''returns None\n\n
+    setYear(final int year)\n
     '''
 def setMonth():
-    '''public void setMonth(final int month)
+    '''returns None\n\n
+    setMonth(final int month)\n
     '''
 def setDay():
-    '''public void setDay(final int day)
+    '''returns None\n\n
+    setDay(final int day)\n
     '''
 def setHour():
-    '''public void setHour(final int hour)
+    '''returns None\n\n
+    setHour(final int hour)\n
     '''
 def setMinute():
-    '''public void setMinute(final int minute)
+    '''returns None\n\n
+    setMinute(final int minute)\n
     '''
 def setSecond():
-    '''public void setSecond(final int second)
+    '''returns None\n\n
+    setSecond(final int second)\n
     '''
 def setFraction():
-    '''public void setFraction(final BigDecimal fraction)
-    '''
-def isImmutable():
-    '''public final boolean isImmutable()
-    '''
-def getSign():
-    '''public final int getSign()
-    '''
-def getYear():
-    '''public final int getYear()
-    '''
-def getMonth():
-    '''public final int getMonth()
-    '''
-def getDay():
-    '''public final int getDay()
-    '''
-def getHour():
-    '''public final int getHour()
-    '''
-def getMinute():
-    '''public final int getMinute()
-    '''
-def getSecond():
-    '''public final int getSecond()
+    '''returns None\n\n
+    setFraction(final BigDecimal fraction)\n
     '''
 def getFraction():
-    '''public BigDecimal getFraction()
+    '''returns BigDecimal\n\n
+    getFraction()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def normalize():
-    '''public void normalize()
-    '''
-def compareToGDuration():
-    '''public final int compareToGDuration(final GDurationSpecification duration)
+    '''returns None\n\n
+    normalize()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def toPlainString():
-    '''public static String toPlainString(final BigDecimal bd)
-    '''
-def stripTrailingZeros():
-    '''public static String stripTrailingZeros(final String s)
+    '''returns String\n\n
+    toString()\n
     '''

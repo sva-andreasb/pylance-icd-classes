@@ -1,108 +1,136 @@
-def MosDetailInfo():
-    '''public MosDetailInfo(final String intObectName)
+def ():
+    '''returns MosDetailInfo\n\n
+    (final String intObectName)\n
     '''
 def setIfaceTbKey():
-    '''public void setIfaceTbKey(final IfaceTbKey ifaceTbKey)
+    '''returns None\n\n
+    setIfaceTbKey(final IfaceTbKey ifaceTbKey)\n
     '''
 def getIfaceTbKey():
-    '''public IfaceTbKey getIfaceTbKey()
+    '''returns IfaceTbKey\n\n
+    getIfaceTbKey()\n
     '''
 def setIfaceTbExclusiveCols():
-    '''public void setIfaceTbExclusiveCols(final List<IfaceColumnInfo> ifaceTbExclusiveCols)
+    '''returns None\n\n
+    setIfaceTbExclusiveCols(final List<IfaceColumnInfo> ifaceTbExclusiveCols)\n
     '''
 def getIfaceTbExclusiveCols():
-    '''public List<IfaceColumnInfo> getIfaceTbExclusiveCols()
+    '''returns List<IfaceColumnInfo>\n\n
+    getIfaceTbExclusiveCols()\n
     '''
 def getIntObjectName():
-    '''public String getIntObjectName()
+    '''returns String\n\n
+    getIntObjectName()\n
     '''
 def getObjectOrder():
-    '''public int getObjectOrder()
+    '''returns int\n\n
+    getObjectOrder()\n
     '''
 def isPrimaryTable():
-    '''public boolean isPrimaryTable()
+    '''returns boolean\n\n
+    isPrimaryTable()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getObjectId():
-    '''public int getObjectId()
+    '''returns int\n\n
+    getObjectId()\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def getChildren():
-    '''public List<MosDetailInfo> getChildren()
+    '''returns List<MosDetailInfo>\n\n
+    getChildren()\n
     '''
 def getParentObjName():
-    '''public String getParentObjName()
+    '''returns String\n\n
+    getParentObjName()\n
     '''
 def getParentObjId():
-    '''public int getParentObjId()
+    '''returns int\n\n
+    getParentObjId()\n
     '''
 def getObjectPath():
-    '''public String getObjectPath()
+    '''returns String\n\n
+    getObjectPath()\n
     '''
 def getParentInfo():
-    '''public MosDetailInfo getParentInfo()
+    '''returns MosDetailInfo\n\n
+    getParentInfo()\n
     '''
 def getMosInfo():
-    '''public MosInfo getMosInfo()
+    '''returns MosInfo\n\n
+    getMosInfo()\n
     '''
 def getProcessOrder():
-    '''public int getProcessOrder()
-    '''
-def getColumns():
-    '''public Map<String, IfaceColumnInfo> getColumns()
-    '''
-def getKeyInfoMap():
-    '''public Map<String, IfaceColumnInfo> getKeyInfoMap()
+    '''returns int\n\n
+    getProcessOrder()\n
     '''
 def isAltKey():
-    '''public boolean isAltKey(final String key)
+    '''returns boolean\n\n
+    isAltKey(final String key)\n
     '''
 def getAltKeys():
-    '''public String[] getAltKeys()
+    '''returns String[]\n\n
+    getAltKeys()\n
     '''
 def getKeys():
-    '''public String[] getKeys()
+    '''returns String[]\n\n
+    getKeys()\n
     '''
 def getSortedKeyList():
-    '''public List<MboValueInfo> getSortedKeyList()
+    '''returns List<MboValueInfo>\n\n
+    getSortedKeyList()\n
     '''
 def getResponseKeys():
-    '''public String[] getResponseKeys()
+    '''returns String[]\n\n
+    getResponseKeys()\n
     '''
 def getAutokeyCols():
-    '''public List<String> getAutokeyCols()
+    '''returns List<String>\n\n
+    getAutokeyCols()\n
     '''
 def isExcludeParentKey():
-    '''public boolean isExcludeParentKey()
+    '''returns boolean\n\n
+    isExcludeParentKey()\n
     '''
 def isDeleteOnParentCreate():
-    '''public boolean isDeleteOnParentCreate()
+    '''returns boolean\n\n
+    isDeleteOnParentCreate()\n
     '''
 def propagateEvent():
-    '''public boolean propagateEvent()
+    '''returns boolean\n\n
+    propagateEvent()\n
     '''
 def getFederatedResources():
-    '''public String getFederatedResources()
+    '''returns String\n\n
+    getFederatedResources()\n
     '''
 def invokeExecute():
-    '''public boolean invokeExecute()
+    '''returns boolean\n\n
+    invokeExecute()\n
     '''
 def skipKeys():
-    '''public boolean skipKeys()
+    '''returns boolean\n\n
+    skipKeys()\n
     '''
 def isExcludeByDefault():
-    '''public boolean isExcludeByDefault()
+    '''returns boolean\n\n
+    isExcludeByDefault()\n
     '''
 def skipDeleteOnReplace():
-    '''public boolean skipDeleteOnReplace()
+    '''returns boolean\n\n
+    skipDeleteOnReplace()\n
     '''
 def getLicenseKeys():
-    '''public Set<String> getLicenseKeys()
+    '''returns Set<String>\n\n
+    getLicenseKeys()\n
     '''
 def setLicenseKeys():
-    '''public void setLicenseKeys(final Set<String> licenseKeys)
+    '''returns None\n\n
+    setLicenseKeys(final Set<String> licenseKeys)\n
     '''

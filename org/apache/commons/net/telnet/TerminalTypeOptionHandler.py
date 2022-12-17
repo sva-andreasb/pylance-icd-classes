@@ -1,13 +1,17 @@
-def TerminalTypeOptionHandler():
-    '''public TerminalTypeOptionHandler(final String termtype, final boolean initlocal, final boolean initremote, final boolean acceptlocal, final boolean acceptremote)
-    public TerminalTypeOptionHandler(final String termtype)
+def ():
+    '''returns TerminalTypeOptionHandler\n\n
+    (final String termtype, final boolean initlocal, final boolean initremote, final boolean acceptlocal, final boolean acceptremote)\n
+    (final String termtype)\n
     '''
 def answerSubnegotiation():
-    '''public int[] answerSubnegotiation(final int[] suboptionData, final int suboptionLength)
+    '''returns int[]\n\n
+    answerSubnegotiation(final int[] suboptionData, final int suboptionLength)\n
     '''
 def startSubnegotiationLocal():
-    '''public int[] startSubnegotiationLocal()
+    '''returns int[]\n\n
+    startSubnegotiationLocal()\n
     '''
 def startSubnegotiationRemote():
-    '''public int[] startSubnegotiationRemote()
+    '''returns int[]\n\n
+    startSubnegotiationRemote()\n
     '''

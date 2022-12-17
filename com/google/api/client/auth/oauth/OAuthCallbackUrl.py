@@ -1,3 +1,4 @@
-def OAuthCallbackUrl():
-    '''public OAuthCallbackUrl(final String encodedUrl)
+def ():
+    '''returns OAuthCallbackUrl\n\n
+    (final String encodedUrl)\n
     '''

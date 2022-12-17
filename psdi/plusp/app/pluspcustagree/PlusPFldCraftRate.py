@@ -1,6 +1,8 @@
-def PlusPFldCraftRate():
-    '''public PlusPFldCraftRate(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCraftRate\n\n
+    (final MboValue mboValue)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

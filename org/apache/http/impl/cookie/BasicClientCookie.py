@@ -1,84 +1,112 @@
-def BasicClientCookie():
-    '''public BasicClientCookie(final String name, final String value)
+def ():
+    '''returns BasicClientCookie\n\n
+    (final String name, final String value)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getComment():
-    '''public String getComment()
+    '''returns String\n\n
+    getComment()\n
     '''
 def setComment():
-    '''public void setComment(final String comment)
+    '''returns None\n\n
+    setComment(final String comment)\n
     '''
 def getCommentURL():
-    '''public String getCommentURL()
+    '''returns String\n\n
+    getCommentURL()\n
     '''
 def getExpiryDate():
-    '''public Date getExpiryDate()
+    '''returns Date\n\n
+    getExpiryDate()\n
     '''
 def setExpiryDate():
-    '''public void setExpiryDate(final Date expiryDate)
+    '''returns None\n\n
+    setExpiryDate(final Date expiryDate)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def setDomain():
-    '''public void setDomain(final String domain)
+    '''returns None\n\n
+    setDomain(final String domain)\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def setPath():
-    '''public void setPath(final String path)
+    '''returns None\n\n
+    setPath(final String path)\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''
 def setSecure():
-    '''public void setSecure(final boolean secure)
+    '''returns None\n\n
+    setSecure(final boolean secure)\n
     '''
 def getPorts():
-    '''public int[] getPorts()
+    '''returns int[]\n\n
+    getPorts()\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final int version)
+    '''returns None\n\n
+    setVersion(final int version)\n
     '''
 def isExpired():
-    '''public boolean isExpired(final Date date)
+    '''returns boolean\n\n
+    isExpired(final Date date)\n
     '''
 def getCreationDate():
-    '''public Date getCreationDate()
+    '''returns Date\n\n
+    getCreationDate()\n
     '''
 def setCreationDate():
-    '''public void setCreationDate(final Date creationDate)
+    '''returns None\n\n
+    setCreationDate(final Date creationDate)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final String value)
+    '''returns None\n\n
+    setAttribute(final String name, final String value)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final String name)
+    '''returns String\n\n
+    getAttribute(final String name)\n
     '''
 def containsAttribute():
-    '''public boolean containsAttribute(final String name)
+    '''returns boolean\n\n
+    containsAttribute(final String name)\n
     '''
 def removeAttribute():
-    '''public boolean removeAttribute(final String name)
+    '''returns boolean\n\n
+    removeAttribute(final String name)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

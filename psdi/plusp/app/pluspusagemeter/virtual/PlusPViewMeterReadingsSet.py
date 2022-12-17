@@ -1,3 +1,4 @@
-def PlusPViewMeterReadingsSet():
-    '''public PlusPViewMeterReadingsSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPViewMeterReadingsSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,19 +1,25 @@
-def StatusConsoleListener():
-    '''public StatusConsoleListener(final Level level)
-    public StatusConsoleListener(final Level level, final PrintStream stream)
+def ():
+    '''returns StatusConsoleListener\n\n
+    (final Level level)\n
+    (final Level level, final PrintStream stream)\n
     '''
 def setLevel():
-    '''public void setLevel(final Level level)
+    '''returns None\n\n
+    setLevel(final Level level)\n
     '''
 def getStatusLevel():
-    '''public Level getStatusLevel()
+    '''returns Level\n\n
+    getStatusLevel()\n
     '''
 def log():
-    '''public void log(final StatusData data)
+    '''returns None\n\n
+    log(final StatusData data)\n
     '''
 def setFilters():
-    '''public void setFilters(final String... filters)
+    '''returns None\n\n
+    setFilters(final String... filters)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

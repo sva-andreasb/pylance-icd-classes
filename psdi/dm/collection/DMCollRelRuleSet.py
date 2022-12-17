@@ -1,3 +1,4 @@
-def DMCollRelRuleSet():
-    '''public DMCollRelRuleSet(final MboServerInterface ms)
+def ():
+    '''returns DMCollRelRuleSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,71 +1,91 @@
 def getBeanDescriptor():
-    '''public BeanDescriptor getBeanDescriptor()
+    '''returns BeanDescriptor\n\n
+    getBeanDescriptor()\n
     '''
 def getAdditionalBeanInfo():
-    '''public BeanInfo[] getAdditionalBeanInfo()
+    '''returns BeanInfo[]\n\n
+    getAdditionalBeanInfo()\n
     '''
 def getPropertyDescriptors():
-    '''public PropertyDescriptor[] getPropertyDescriptors()
+    '''returns PropertyDescriptor[]\n\n
+    getPropertyDescriptors()\n
     '''
 def getIcon():
-    '''public Image getIcon(final int n)
+    '''returns Image\n\n
+    getIcon(final int n)\n
     '''
-def IlvActivityTileLayout():
-    '''public IlvActivityTileLayout()
-    public IlvActivityTileLayout(final IlvHierarchyChart ilvHierarchyChart)
-    public IlvActivityTileLayout(final boolean b, final boolean b2, final float n, final float n2, final float n3)
-    public IlvActivityTileLayout(final IlvHierarchyChart ilvHierarchyChart, final boolean b, final boolean b2, final float n, final float n2, final float n3)
-    public IlvActivityTileLayout(final TilingPolicy tilingPolicy, final boolean b, final boolean b2)
-    public IlvActivityTileLayout(final IlvHierarchyChart ilvHierarchyChart, final TilingPolicy tilingPolicy, final boolean b, final boolean b2)
-    public IlvActivityTileLayout(final TilingPolicy tilingPolicy, final boolean b, final boolean b2, final float n, final float n2, final float n3)
-    public IlvActivityTileLayout(final IlvHierarchyChart ilvHierarchyChart, final TilingPolicy tilingPolicy, final boolean b, final boolean b2, final float n, final float n2, final float n3)
-    public IlvActivityTileLayout(final IlvGanttSheet a, final TilingPolicy tilingPolicy, final boolean compareBoundingBoxes, final boolean constantRowHeight, final float n, final float n2, final float subrowPadding)
+def ():
+    '''returns IlvActivityTileLayout\n\n
+    ()\n
+    (final IlvHierarchyChart ilvHierarchyChart)\n
+    (final boolean b, final boolean b2, final float n, final float n2, final float n3)\n
+    (final IlvHierarchyChart ilvHierarchyChart, final boolean b, final boolean b2, final float n, final float n2, final float n3)\n
+    (final TilingPolicy tilingPolicy, final boolean b, final boolean b2)\n
+    (final IlvHierarchyChart ilvHierarchyChart, final TilingPolicy tilingPolicy, final boolean b, final boolean b2)\n
+    (final TilingPolicy tilingPolicy, final boolean b, final boolean b2, final float n, final float n2, final float n3)\n
+    (final IlvHierarchyChart ilvHierarchyChart, final TilingPolicy tilingPolicy, final boolean b, final boolean b2, final float n, final float n2, final float n3)\n
+    (final IlvGanttSheet a, final TilingPolicy tilingPolicy, final boolean compareBoundingBoxes, final boolean constantRowHeight, final float n, final float n2, final float subrowPadding)\n
     '''
 def getTilingPolicy():
-    '''public TilingPolicy getTilingPolicy()
+    '''returns TilingPolicy\n\n
+    getTilingPolicy()\n
     '''
 def setTilingPolicy():
-    '''public void setTilingPolicy(final TilingPolicy c)
+    '''returns None\n\n
+    setTilingPolicy(final TilingPolicy c)\n
     '''
 def isCompareBoundingBoxes():
-    '''public boolean isCompareBoundingBoxes()
+    '''returns boolean\n\n
+    isCompareBoundingBoxes()\n
     '''
 def setCompareBoundingBoxes():
-    '''public void setCompareBoundingBoxes(final boolean d)
+    '''returns None\n\n
+    setCompareBoundingBoxes(final boolean d)\n
     '''
 def isConstantRowHeight():
-    '''public boolean isConstantRowHeight()
+    '''returns boolean\n\n
+    isConstantRowHeight()\n
     '''
 def setConstantRowHeight():
-    '''public void setConstantRowHeight(final boolean e)
+    '''returns None\n\n
+    setConstantRowHeight(final boolean e)\n
     '''
 def getSubrowPadding():
-    '''public float getSubrowPadding()
+    '''returns float\n\n
+    getSubrowPadding()\n
     '''
 def setSubrowPadding():
-    '''public void setSubrowPadding(final float f)
+    '''returns None\n\n
+    setSubrowPadding(final float f)\n
     '''
 def arrange():
-    '''public void arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic[] array)
-    public void arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic ilvActivityGraphic)
+    '''returns None\n\n
+    arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic[] array)\n
+    arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def compare():
-    '''public int compare(final GraphicBounds obj, final GraphicBounds obj2)
-    public int compare(final GraphicBounds obj, final GraphicBounds obj2)
+    '''returns int\n\n
+    compare(final GraphicBounds obj, final GraphicBounds obj2)\n
+    compare(final GraphicBounds obj, final GraphicBounds obj2)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
+    equals(final Object o)\n
     '''
 def getActivityGraphic():
-    '''public IlvActivityGraphic getActivityGraphic()
+    '''returns IlvActivityGraphic\n\n
+    getActivityGraphic()\n
     '''
 def getActivity():
-    '''public IlvActivity getActivity()
+    '''returns IlvActivity\n\n
+    getActivity()\n
     '''
 def getBounds():
-    '''public IlvRect getBounds()
+    '''returns IlvRect\n\n
+    getBounds()\n
     '''
 def assignGraphicsToSubRows():
-    '''public List<List<GraphicBounds>> assignGraphicsToSubRows(final GraphicBounds[] array, final boolean b)
+    '''returns List<List<GraphicBounds>>\n\n
+    assignGraphicsToSubRows(final GraphicBounds[] array, final boolean b)\n
     '''

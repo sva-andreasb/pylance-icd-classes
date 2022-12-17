@@ -1,58 +1,69 @@
-def newBuilder():
-    '''public static Builder newBuilder()
-    '''
-def toKey():
-    '''public static String toKey(final String name)
-    '''
 def getLayout():
-    '''public StringLayout getLayout()
+    '''returns StringLayout\n\n
+    getLayout()\n
     '''
 def getLiteralValue():
-    '''public String getLiteralValue()
+    '''returns String\n\n
+    getLiteralValue()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getNameKey():
-    '''public String getNameKey()
+    '''returns String\n\n
+    getNameKey()\n
     '''
 def getParameter():
-    '''public String getParameter()
+    '''returns String\n\n
+    getParameter()\n
     '''
 def getSource():
-    '''public String getSource()
+    '''returns String\n\n
+    getSource()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def build():
-    '''public ColumnMapping build()
+    '''returns ColumnMapping\n\n
+    build()\n
     '''
 def setConfiguration():
-    '''public Builder setConfiguration(final Configuration configuration)
+    '''returns Builder\n\n
+    setConfiguration(final Configuration configuration)\n
     '''
 def setLayout():
-    '''public Builder setLayout(final StringLayout layout)
+    '''returns Builder\n\n
+    setLayout(final StringLayout layout)\n
     '''
 def setLiteral():
-    '''public Builder setLiteral(final String literal)
+    '''returns Builder\n\n
+    setLiteral(final String literal)\n
     '''
 def setName():
-    '''public Builder setName(final String name)
+    '''returns Builder\n\n
+    setName(final String name)\n
     '''
 def setParameter():
-    '''public Builder setParameter(final String parameter)
+    '''returns Builder\n\n
+    setParameter(final String parameter)\n
     '''
 def setPattern():
-    '''public Builder setPattern(final String pattern)
+    '''returns Builder\n\n
+    setPattern(final String pattern)\n
     '''
 def setSource():
-    '''public Builder setSource(final String source)
+    '''returns Builder\n\n
+    setSource(final String source)\n
     '''
 def setType():
-    '''public Builder setType(final Class<?> type)
+    '''returns Builder\n\n
+    setType(final Class<?> type)\n
     '''

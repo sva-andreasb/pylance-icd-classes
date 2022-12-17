@@ -1,24 +1,32 @@
-def ApptBook():
-    '''public ApptBook(final ModelLoader loader)
+def ():
+    '''returns ApptBook\n\n
+    (final ModelLoader loader)\n
     '''
 def loadAppointments():
-    '''public void loadAppointments(final Date start, final Date end)
+    '''returns None\n\n
+    loadAppointments(final Date start, final Date end)\n
     '''
 def addWindow():
-    '''public ApptWindow addWindow(final String name)
+    '''returns ApptWindow\n\n
+    addWindow(final String name)\n
     '''
 def getWindow():
-    '''public ApptWindow getWindow(final String name, final boolean create)
+    '''returns ApptWindow\n\n
+    getWindow(final String name, final boolean create)\n
     '''
 def getStart():
-    '''public Date getStart()
+    '''returns Date\n\n
+    getStart()\n
     '''
 def iterator():
-    '''public Iterator<ApptWindow> iterator()
+    '''returns Iterator<ApptWindow>\n\n
+    iterator()\n
     '''
 def sort():
-    '''public ApptBook sort()
+    '''returns ApptBook\n\n
+    sort()\n
     '''
 def compare():
-    '''public int compare(final ApptWindow o1, final ApptWindow o2)
+    '''returns int\n\n
+    compare(final ApptWindow o1, final ApptWindow o2)\n
     '''

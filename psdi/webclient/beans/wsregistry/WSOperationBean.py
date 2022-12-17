@@ -1,3 +1,4 @@
 def viewxml():
-    '''public int viewxml()
+    '''returns int\n\n
+    viewxml()\n
     '''

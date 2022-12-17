@@ -1,6 +1,8 @@
-def FldWOEstServCost():
-    '''public FldWOEstServCost(final MboValue mbv)
+def ():
+    '''returns FldWOEstServCost\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

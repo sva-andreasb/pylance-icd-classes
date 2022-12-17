@@ -1,18 +1,24 @@
-def CalendarBreak():
-    '''public CalendarBreak(final MboSet ms)
+def ():
+    '''returns CalendarBreak\n\n
+    (final MboSet ms)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setBreaksForAllPatternDays():
-    '''public void setBreaksForAllPatternDays(final ShiftPatternDaySetRemote days, final CalendarBreakSetRemote calendarBreakSet, final String currentDay)
+    '''returns None\n\n
+    setBreaksForAllPatternDays(final ShiftPatternDaySetRemote days, final CalendarBreakSetRemote calendarBreakSet, final String currentDay)\n
     '''
 def breakOutOfRange():
-    '''public boolean breakOutOfRange(final Date dayStartTime, final Date dayEndTime, final Date calendarBreakStartTime, final Date calendarBreakEndTime)
+    '''returns boolean\n\n
+    breakOutOfRange(final Date dayStartTime, final Date dayEndTime, final Date calendarBreakStartTime, final Date calendarBreakEndTime)\n
     '''
 def checkRequiredFields():
-    '''public void checkRequiredFields(final Mbo mbo)
+    '''returns None\n\n
+    checkRequiredFields(final Mbo mbo)\n
     '''

@@ -1,4 +1,5 @@
-def InvalidAttachmentsException():
-    '''public InvalidAttachmentsException(final Object[] params, final OperationException e)
-    public InvalidAttachmentsException(final String jobtype)
+def ():
+    '''returns InvalidAttachmentsException\n\n
+    (final Object[] params, final OperationException e)\n
+    (final String jobtype)\n
     '''

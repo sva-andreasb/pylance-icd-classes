@@ -1,98 +1,126 @@
-def IlvControlNode():
-    '''public IlvControlNode(final IlvFormLayout formLayout, final String s)
-    public IlvControlNode(final IlvFormLayout ilvFormLayout, final Object o, final String s, final boolean b)
+def ():
+    '''returns IlvControlNode\n\n
+    (final IlvFormLayout formLayout, final String s)\n
+    (final IlvFormLayout ilvFormLayout, final Object o, final String s, final boolean b)\n
     '''
 def getControlName():
-    '''public String getControlName()
+    '''returns String\n\n
+    getControlName()\n
     '''
 def getBounds():
-    '''public IlvFormRect getBounds()
+    '''returns IlvFormRect\n\n
+    getBounds()\n
     '''
 def setBounds():
-    '''public void setBounds(final IlvFormRect rect)
+    '''returns None\n\n
+    setBounds(final IlvFormRect rect)\n
     '''
 def getX():
-    '''public float getX()
+    '''returns float\n\n
+    getX()\n
     '''
 def setX():
-    '''public void setX(final float x)
+    '''returns None\n\n
+    setX(final float x)\n
     '''
 def getY():
-    '''public float getY()
+    '''returns float\n\n
+    getY()\n
     '''
 def setY():
-    '''public void setY(final float y)
+    '''returns None\n\n
+    setY(final float y)\n
     '''
 def getWidth():
-    '''public float getWidth()
+    '''returns float\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final float width)
+    '''returns None\n\n
+    setWidth(final float width)\n
     '''
 def getHeight():
-    '''public float getHeight()
+    '''returns float\n\n
+    getHeight()\n
     '''
 def setHeight():
-    '''public void setHeight(final float height)
+    '''returns None\n\n
+    setHeight(final float height)\n
     '''
 def getPreferredHeight():
-    '''public float getPreferredHeight()
+    '''returns float\n\n
+    getPreferredHeight()\n
     '''
 def setPreferredHeight():
-    '''public void setPreferredHeight(final float n)
+    '''returns None\n\n
+    setPreferredHeight(final float n)\n
     '''
 def getPreferredWidth():
-    '''public float getPreferredWidth()
+    '''returns float\n\n
+    getPreferredWidth()\n
     '''
 def setPreferredWidth():
-    '''public void setPreferredWidth(final float n)
+    '''returns None\n\n
+    setPreferredWidth(final float n)\n
     '''
 def isLeftToRight():
-    '''public boolean isLeftToRight()
-    '''
-def isParentContainer():
-    '''public final boolean isParentContainer()
+    '''returns boolean\n\n
+    isLeftToRight()\n
     '''
 def setParentContainer():
-    '''public void setParentContainer(final boolean c)
+    '''returns None\n\n
+    setParentContainer(final boolean c)\n
     '''
 def addAttachment():
-    '''public void addAttachment(final IlvAttachment ilvAttachment)
+    '''returns None\n\n
+    addAttachment(final IlvAttachment ilvAttachment)\n
     '''
 def getAttachment():
-    '''public IlvAttachment getAttachment(final int n)
+    '''returns IlvAttachment\n\n
+    getAttachment(final int n)\n
     '''
 def getAttachmentCount():
-    '''public int getAttachmentCount()
+    '''returns int\n\n
+    getAttachmentCount()\n
     '''
 def applyAttachments():
-    '''public void applyAttachments(final Object o, final IlvFormLayout ilvFormLayout, final int n)
+    '''returns None\n\n
+    applyAttachments(final Object o, final IlvFormLayout ilvFormLayout, final int n)\n
     '''
 def resetDepedencies():
-    '''public void resetDepedencies(final IlvFormLayout ilvFormLayout)
+    '''returns None\n\n
+    resetDepedencies(final IlvFormLayout ilvFormLayout)\n
     '''
 def initializeDepedencies():
-    '''public void initializeDepedencies(final IlvFormLayout ilvFormLayout)
+    '''returns None\n\n
+    initializeDepedencies(final IlvFormLayout ilvFormLayout)\n
     '''
 def initialize():
-    '''public void initialize(final Object control, final int n)
+    '''returns None\n\n
+    initialize(final Object control, final int n)\n
     '''
 def setControlName():
-    '''public void setControlName(final String controlName)
+    '''returns None\n\n
+    setControlName(final String controlName)\n
     '''
 def getComponentAnchor():
-    '''public IlvControlAnchor getComponentAnchor(final Anchor anchor)
-    public IlvControlAnchor getComponentAnchor(final String s)
+    '''returns IlvControlAnchor\n\n
+    getComponentAnchor(final Anchor anchor)\n
+    getComponentAnchor(final String s)\n
     '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
     '''
 def getControl():
-    '''public Object getControl()
+    '''returns Object\n\n
+    getControl()\n
     '''
 def setControl():
-    '''public void setControl(final Object control, final boolean c)
+    '''returns None\n\n
+    setControl(final Object control, final boolean c)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

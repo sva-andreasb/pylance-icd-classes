@@ -1,41 +1,54 @@
-def JobPlanSet():
-    '''public JobPlanSet(final MboServerInterface ms)
+def ():
+    '''returns JobPlanSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setJpLocation():
-    '''public void setJpLocation(final String location)
+    '''returns None\n\n
+    setJpLocation(final String location)\n
     '''
 def getJpLocation():
-    '''public String getJpLocation()
+    '''returns String\n\n
+    getJpLocation()\n
     '''
 def setJpAsset():
-    '''public void setJpAsset(final String assetnum)
+    '''returns None\n\n
+    setJpAsset(final String assetnum)\n
     '''
 def getJpAsset():
-    '''public String getJpAsset()
+    '''returns String\n\n
+    getJpAsset()\n
     '''
 def setJpItem():
-    '''public void setJpItem(final String itemnum, final String itemsetid)
+    '''returns None\n\n
+    setJpItem(final String itemnum, final String itemsetid)\n
     '''
 def getJpItem():
-    '''public String getJpItem()
+    '''returns String\n\n
+    getJpItem()\n
     '''
 def getJpItemSetID():
-    '''public String getJpItemSetID()
+    '''returns String\n\n
+    getJpItemSetID()\n
     '''
 def clearUserPref():
-    '''public void clearUserPref()
+    '''returns None\n\n
+    clearUserPref()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def getValidJobPlansForOrgAndSite():
-    '''public void getValidJobPlansForOrgAndSite(String orgid, String siteid)
+    '''returns None\n\n
+    getValidJobPlansForOrgAndSite(String orgid, String siteid)\n
     '''
 def getValidJobPlansForTaskGivenOrgAndSite():
-    '''public void getValidJobPlansForTaskGivenOrgAndSite(final String orgid, final String siteid, final String status, final Integer jobplanid)
-    public void getValidJobPlansForTaskGivenOrgAndSite(String orgid, String siteid, final String status, final Long jobplanid)
+    '''returns None\n\n
+    getValidJobPlansForTaskGivenOrgAndSite(final String orgid, final String siteid, final String status, final Integer jobplanid)\n
+    getValidJobPlansForTaskGivenOrgAndSite(String orgid, String siteid, final String status, final Long jobplanid)\n
     '''
 def getMultiSiteJobPlan():
-    '''public void getMultiSiteJobPlan(String jpnum, String orgid, String siteid)
-    public void getMultiSiteJobPlan(String jpnum, final String revisionNum, String orgid, String siteid)
+    '''returns None\n\n
+    getMultiSiteJobPlan(String jpnum, String orgid, String siteid)\n
+    getMultiSiteJobPlan(String jpnum, final String revisionNum, String orgid, String siteid)\n
     '''

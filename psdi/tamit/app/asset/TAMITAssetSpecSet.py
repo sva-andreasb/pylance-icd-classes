@@ -1,3 +1,4 @@
-def TAMITAssetSpecSet():
-    '''public TAMITAssetSpecSet(final MboServerInterface ms)
+def ():
+    '''returns TAMITAssetSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''

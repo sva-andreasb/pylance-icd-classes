@@ -7,17 +7,21 @@ n3WriterTriplesAlt = "String  \"N3-TRIPLE\""
 turtleWriter = "String  \"TURTLE\""
 turtleWriterAlt1 = "String  \"Turtle\""
 turtleWriterAlt2 = "String  \"TTL\""
-def N3JenaWriter():
-    '''public N3JenaWriter()
-    public N3JenaWriter(final N3JenaWriterCommon w)
+def ():
+    '''returns N3JenaWriter\n\n
+    ()\n
+    (final N3JenaWriterCommon w)\n
     '''
 def write():
-    '''public void write(final Model model, final Writer out, final String base)
-    public void write(final Model model, final OutputStream out, final String base)
+    '''returns None\n\n
+    write(final Model model, final Writer out, final String base)\n
+    write(final Model model, final OutputStream out, final String base)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String propName, final Object propValue)
+    '''returns Object\n\n
+    setProperty(final String propName, final Object propValue)\n
     '''
 def setErrorHandler():
-    '''public RDFErrorHandler setErrorHandler(final RDFErrorHandler errHandler)
+    '''returns RDFErrorHandler\n\n
+    setErrorHandler(final RDFErrorHandler errHandler)\n
     '''

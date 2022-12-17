@@ -1,6 +1,8 @@
-def FldWORepLocScheduleDate():
-    '''public FldWORepLocScheduleDate(final MboValue mbv)
+def ():
+    '''returns FldWORepLocScheduleDate\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

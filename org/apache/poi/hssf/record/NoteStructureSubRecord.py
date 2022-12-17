@@ -1,17 +1,22 @@
 sid = "short  13"
-def NoteStructureSubRecord():
-    '''public NoteStructureSubRecord()
-    public NoteStructureSubRecord(final LittleEndianInput in, final int size)
+def ():
+    '''returns NoteStructureSubRecord\n\n
+    ()\n
+    (final LittleEndianInput in, final int size)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public NoteStructureSubRecord clone()
+    '''returns NoteStructureSubRecord\n\n
+    clone()\n
     '''

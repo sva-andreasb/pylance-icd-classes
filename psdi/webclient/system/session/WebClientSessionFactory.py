@@ -1,18 +1,8 @@
-def getWebClientSessionFactory():
-    '''public static synchronized WebClientSessionFactory getWebClientSessionFactory()
-    '''
-def hasAvailableSessions():
-    '''public synchronized boolean hasAvailableSessions()
-    '''
-def createSession():
-    '''public synchronized WebClientSession createSession(final HttpServletRequest request, final HttpServletResponse response)
-    '''
 def sessionCount():
-    '''public int sessionCount()
-    '''
-def killSessions():
-    '''public synchronized void killSessions()
+    '''returns int\n\n
+    sessionCount()\n
     '''
 def cleanupDiscardedSessions():
-    '''public void cleanupDiscardedSessions()
+    '''returns None\n\n
+    cleanupDiscardedSessions()\n
     '''

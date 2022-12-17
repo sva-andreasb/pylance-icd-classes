@@ -1,7 +1,9 @@
 def Items():
-    '''public JSONArray Items()
+    '''returns JSONArray\n\n
+    Items()\n
     '''
 def addRow():
-    '''public DataRow addRow()
-    public DataRow addRow(final DataRow row)
+    '''returns DataRow\n\n
+    addRow()\n
+    addRow(final DataRow row)\n
     '''

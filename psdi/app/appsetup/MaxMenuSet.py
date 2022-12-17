@@ -1,12 +1,16 @@
-def MaxMenuSet():
-    '''public MaxMenuSet(final MboServerInterface ms)
+def ():
+    '''returns MaxMenuSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

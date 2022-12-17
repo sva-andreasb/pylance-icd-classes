@@ -1,4 +1,5 @@
-def InvalidOperation():
-    '''public InvalidOperation()
-    public InvalidOperation(final String message)
+def ():
+    '''returns InvalidOperation\n\n
+    ()\n
+    (final String message)\n
     '''

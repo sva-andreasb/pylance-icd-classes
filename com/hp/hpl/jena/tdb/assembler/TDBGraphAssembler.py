@@ -1,3 +1,4 @@
 def open():
-    '''public Model open(final Assembler a, final Resource root, final Mode mode)
+    '''returns Model\n\n
+    open(final Assembler a, final Resource root, final Mode mode)\n
     '''

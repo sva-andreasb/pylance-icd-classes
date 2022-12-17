@@ -1,6 +1,8 @@
-def FldWorkZone():
-    '''public FldWorkZone(final MboValue mbv)
+def ():
+    '''returns FldWorkZone\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

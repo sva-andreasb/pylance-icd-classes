@@ -1,6 +1,7 @@
-def DisconnectException():
-    '''public DisconnectException()
-    public DisconnectException(final String message, final Throwable cause)
-    public DisconnectException(final String message)
-    public DisconnectException(final Throwable cause)
+def ():
+    '''returns DisconnectException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

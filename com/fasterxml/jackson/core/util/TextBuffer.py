@@ -1,91 +1,120 @@
-def TextBuffer():
-    '''public TextBuffer(final BufferRecycler allocator)
+def ():
+    '''returns TextBuffer\n\n
+    (final BufferRecycler allocator)\n
     '''
 def releaseBuffers():
-    '''public void releaseBuffers()
+    '''returns None\n\n
+    releaseBuffers()\n
     '''
 def resetWithEmpty():
-    '''public void resetWithEmpty()
+    '''returns None\n\n
+    resetWithEmpty()\n
     '''
 def resetWith():
-    '''public void resetWith(final char ch)
+    '''returns None\n\n
+    resetWith(final char ch)\n
     '''
 def resetWithShared():
-    '''public void resetWithShared(final char[] buf, final int start, final int len)
+    '''returns None\n\n
+    resetWithShared(final char[] buf, final int start, final int len)\n
     '''
 def resetWithCopy():
-    '''public void resetWithCopy(final char[] buf, final int start, final int len)
-    public void resetWithCopy(final String text, final int start, final int len)
+    '''returns None\n\n
+    resetWithCopy(final char[] buf, final int start, final int len)\n
+    resetWithCopy(final String text, final int start, final int len)\n
     '''
 def resetWithString():
-    '''public void resetWithString(final String value)
+    '''returns None\n\n
+    resetWithString(final String value)\n
     '''
 def getBufferWithoutReset():
-    '''public char[] getBufferWithoutReset()
+    '''returns char[]\n\n
+    getBufferWithoutReset()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getTextOffset():
-    '''public int getTextOffset()
+    '''returns int\n\n
+    getTextOffset()\n
     '''
 def hasTextAsCharacters():
-    '''public boolean hasTextAsCharacters()
+    '''returns boolean\n\n
+    hasTextAsCharacters()\n
     '''
 def getTextBuffer():
-    '''public char[] getTextBuffer()
+    '''returns char[]\n\n
+    getTextBuffer()\n
     '''
 def contentsAsString():
-    '''public String contentsAsString()
+    '''returns String\n\n
+    contentsAsString()\n
     '''
 def contentsAsArray():
-    '''public char[] contentsAsArray()
+    '''returns char[]\n\n
+    contentsAsArray()\n
     '''
 def contentsAsDecimal():
-    '''public BigDecimal contentsAsDecimal()
+    '''returns BigDecimal\n\n
+    contentsAsDecimal()\n
     '''
 def contentsAsDouble():
-    '''public double contentsAsDouble()
+    '''returns double\n\n
+    contentsAsDouble()\n
     '''
 def contentsAsInt():
-    '''public int contentsAsInt(final boolean neg)
+    '''returns int\n\n
+    contentsAsInt(final boolean neg)\n
     '''
 def contentsAsLong():
-    '''public long contentsAsLong(final boolean neg)
+    '''returns long\n\n
+    contentsAsLong(final boolean neg)\n
     '''
 def contentsToWriter():
-    '''public int contentsToWriter(final Writer w)
+    '''returns int\n\n
+    contentsToWriter(final Writer w)\n
     '''
 def ensureNotShared():
-    '''public void ensureNotShared()
+    '''returns None\n\n
+    ensureNotShared()\n
     '''
 def append():
-    '''public void append(final char c)
-    public void append(final char[] c, int start, int len)
-    public void append(final String str, int offset, int len)
+    '''returns None\n\n
+    append(final char c)\n
+    append(final char[] c, int start, int len)\n
+    append(final String str, int offset, int len)\n
     '''
 def getCurrentSegment():
-    '''public char[] getCurrentSegment()
+    '''returns char[]\n\n
+    getCurrentSegment()\n
     '''
 def emptyAndGetCurrentSegment():
-    '''public char[] emptyAndGetCurrentSegment()
+    '''returns char[]\n\n
+    emptyAndGetCurrentSegment()\n
     '''
 def getCurrentSegmentSize():
-    '''public int getCurrentSegmentSize()
+    '''returns int\n\n
+    getCurrentSegmentSize()\n
     '''
 def setCurrentLength():
-    '''public void setCurrentLength(final int len)
+    '''returns None\n\n
+    setCurrentLength(final int len)\n
     '''
 def setCurrentAndReturn():
-    '''public String setCurrentAndReturn(final int len)
+    '''returns String\n\n
+    setCurrentAndReturn(final int len)\n
     '''
 def finishCurrentSegment():
-    '''public char[] finishCurrentSegment()
+    '''returns char[]\n\n
+    finishCurrentSegment()\n
     '''
 def expandCurrentSegment():
-    '''public char[] expandCurrentSegment()
-    public char[] expandCurrentSegment(final int minSize)
+    '''returns char[]\n\n
+    expandCurrentSegment()\n
+    expandCurrentSegment(final int minSize)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

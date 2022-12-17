@@ -1,42 +1,56 @@
 def setExtSysName():
-    '''public void setExtSysName(final String extSysName)
+    '''returns None\n\n
+    setExtSysName(final String extSysName)\n
     '''
 def getExtSysName():
-    '''public String getExtSysName()
+    '''returns String\n\n
+    getExtSysName()\n
     '''
 def getIfaceName():
-    '''public String getIfaceName()
+    '''returns String\n\n
+    getIfaceName()\n
     '''
 def setIfaceName():
-    '''public void setIfaceName(final String e)
+    '''returns None\n\n
+    setIfaceName(final String e)\n
     '''
 def getExitClassName():
-    '''public String getExitClassName()
+    '''returns String\n\n
+    getExitClassName()\n
     '''
 def setExitClassName():
-    '''public void setExitClassName(final String e)
+    '''returns None\n\n
+    setExitClassName(final String e)\n
     '''
 def setEnabled():
-    '''public void setEnabled(final int e)
+    '''returns None\n\n
+    setEnabled(final int e)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def getUserExitClassName():
-    '''public String getUserExitClassName()
+    '''returns String\n\n
+    getUserExitClassName()\n
     '''
 def setUserExitClassName():
-    '''public void setUserExitClassName(final String userExitClassName)
+    '''returns None\n\n
+    setUserExitClassName(final String userExitClassName)\n
     '''
 def getMapName():
-    '''public String getMapName()
+    '''returns String\n\n
+    getMapName()\n
     '''
 def setMapName():
-    '''public void setMapName(final String mapName)
+    '''returns None\n\n
+    setMapName(final String mapName)\n
     '''
 def getEndPoint():
-    '''public String getEndPoint()
+    '''returns String\n\n
+    getEndPoint()\n
     '''
 def setEndPoint():
-    '''public void setEndPoint(final String endPoint)
+    '''returns None\n\n
+    setEndPoint(final String endPoint)\n
     '''

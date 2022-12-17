@@ -1,12 +1,16 @@
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getType():
-    '''public RelevanceValueType getType()
+    '''returns RelevanceValueType\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final RelevanceValueType value)
+    '''returns None\n\n
+    setType(final RelevanceValueType value)\n
     '''

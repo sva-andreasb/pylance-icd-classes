@@ -1,25 +1,26 @@
-def PresentationParser():
-    '''public PresentationParser(final String xml)
-    public PresentationParser(final File file)
+def ():
+    '''returns ParameterizedSAXException\n\n
+    (final String xml)\n
+    (final File file)\n
+    (final String message, final String key, final Object... params)\n
     '''
 def getApplication():
-    '''public String getApplication()
-    '''
-def getLabels():
-    '''public Map<IdProperty, String> getLabels()
+    '''returns String\n\n
+    getApplication()\n
     '''
 def getTrimmedXML():
-    '''public String getTrimmedXML()
+    '''returns String\n\n
+    getTrimmedXML()\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String qName, final Attributes attributes)
-    '''
-def ParameterizedSAXException():
-    '''public ParameterizedSAXException(final String message, final String key, final Object... params)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String qName, final Attributes attributes)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getParams():
-    '''public Object[] getParams()
+    '''returns Object[]\n\n
+    getParams()\n
     '''

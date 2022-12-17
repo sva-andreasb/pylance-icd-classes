@@ -1,9 +1,12 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def parseStatus():
-    '''public String[] parseStatus(final String status)
+    '''returns String[]\n\n
+    parseStatus(final String status)\n
     '''

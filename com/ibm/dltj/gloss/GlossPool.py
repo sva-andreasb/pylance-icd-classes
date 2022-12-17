@@ -1,34 +1,38 @@
-def GlossPool():
-    '''public GlossPool()
-    public GlossPool(final Class clazz)
-    public GlossPool(final Class mainClass, final byte[] classBytes)
-    '''
-def instantiate():
-    '''public static GlossPool instantiate(final String s, final ClassLoader loader)
-    public static GlossPool instantiate(final String s, final BytesClassLoader bytesClassLoader, final byte[] array)
-    public static GlossPool instantiate(final int n)
+def ():
+    '''returns GlossPool\n\n
+    ()\n
+    (final Class clazz)\n
+    (final Class mainClass, final byte[] classBytes)\n
     '''
 def getGlossIterator():
-    '''public Iterator getGlossIterator()
+    '''returns Iterator\n\n
+    getGlossIterator()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getMainClass():
-    '''public Class getMainClass()
+    '''returns Class\n\n
+    getMainClass()\n
     '''
 def getMainClassBytes():
-    '''public byte[] getMainClassBytes()
+    '''returns byte[]\n\n
+    getMainClassBytes()\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def read():
-    '''public int read(final DataInputStream dataInputStream, final int n, final BackMapper backMapper)
+    '''returns int\n\n
+    read(final DataInputStream dataInputStream, final int n, final BackMapper backMapper)\n
     '''
 def checkIn():
-    '''public Gloss checkIn(final Gloss gloss)
+    '''returns Gloss\n\n
+    checkIn(final Gloss gloss)\n
     '''
 def internGlosses():
-    '''public void internGlosses()
+    '''returns None\n\n
+    internGlosses()\n
     '''

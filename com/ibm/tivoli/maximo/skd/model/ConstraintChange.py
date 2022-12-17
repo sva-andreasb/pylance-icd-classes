@@ -1,9 +1,12 @@
-def ConstraintChange():
-    '''public ConstraintChange()
+def ():
+    '''returns ConstraintChange\n\n
+    ()\n
     '''
 def getConstraint():
-    '''public IlvGeneralConstraint getConstraint()
+    '''returns IlvGeneralConstraint\n\n
+    getConstraint()\n
     '''
 def setConstraint():
-    '''public void setConstraint(final IlvGeneralConstraint constraint)
+    '''returns None\n\n
+    setConstraint(final IlvGeneralConstraint constraint)\n
     '''

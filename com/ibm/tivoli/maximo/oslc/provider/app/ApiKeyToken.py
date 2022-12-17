@@ -1,12 +1,16 @@
-def ApiKeyToken():
-    '''public ApiKeyToken(final MboSet ms)
+def ():
+    '''returns ApiKeyToken\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def encApiKey():
-    '''public String encApiKey(final String apikey)
+    '''returns String\n\n
+    encApiKey(final String apikey)\n
     '''

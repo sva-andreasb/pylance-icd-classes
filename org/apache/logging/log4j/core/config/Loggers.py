@@ -1,9 +1,8 @@
-def Loggers():
-    '''public Loggers(final ConcurrentMap<String, LoggerConfig> map, final LoggerConfig root)
-    '''
-def getMap():
-    '''public ConcurrentMap<String, LoggerConfig> getMap()
+def ():
+    '''returns Loggers\n\n
+    (final ConcurrentMap<String, LoggerConfig> map, final LoggerConfig root)\n
     '''
 def getRoot():
-    '''public LoggerConfig getRoot()
+    '''returns LoggerConfig\n\n
+    getRoot()\n
     '''

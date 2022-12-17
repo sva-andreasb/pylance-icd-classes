@@ -1,12 +1,16 @@
-def QuickPrintSet():
-    '''public QuickPrintSet(final MboServerInterface ms)
+def ():
+    '''returns QuickPrintSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMbo():
-    '''public MboRemote getMbo(final int index)
+    '''returns MboRemote\n\n
+    getMbo(final int index)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setDisableFlag():
-    '''public void setDisableFlag(final int flag)
+    '''returns None\n\n
+    setDisableFlag(final int flag)\n
     '''

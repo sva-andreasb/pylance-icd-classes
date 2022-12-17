@@ -1,0 +1,5 @@
+SEPARATOR_CHOICE = "short  0"
+SEPARATOR_SEQUENCE = "short  1"
+OCCURS_ZERO_OR_ONE = "short  2"
+OCCURS_ZERO_OR_MORE = "short  3"
+OCCURS_ONE_OR_MORE = "short  4"

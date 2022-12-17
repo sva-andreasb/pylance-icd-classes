@@ -1,14 +1,13 @@
-def equalPredicate():
-    '''public static <T> Predicate<T> equalPredicate(final T object)
-    public static <T> Predicate<T> equalPredicate(final T object, final Equator<T> equator)
-    '''
-def EqualPredicate():
-    '''public EqualPredicate(final T object)
-    public EqualPredicate(final T object, final Equator<T> equator)
+def ():
+    '''returns EqualPredicate\n\n
+    (final T object)\n
+    (final T object, final Equator<T> equator)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T object)
+    '''returns boolean\n\n
+    evaluate(final T object)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''

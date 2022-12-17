@@ -1,12 +1,16 @@
-def FollowingAxisIterator():
-    '''public FollowingAxisIterator(final Object contextNode, final Navigator navigator)
+def ():
+    '''returns FollowingAxisIterator\n\n
+    (final Object contextNode, final Navigator navigator)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

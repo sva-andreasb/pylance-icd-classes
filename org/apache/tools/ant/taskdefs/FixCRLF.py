@@ -1,125 +1,155 @@
 ERROR_FILE_AND_SRCDIR = "String  \"<fixcrlf> error: srcdir and file are mutually exclusive\""
-def FixCRLF():
-    '''public FixCRLF()
-    '''
-def chain():
-    '''public final Reader chain(final Reader rdr)
+def ():
+    '''returns BufferLine\n\n
+    ()\n
+    (final File srcFile)\n
+    (final String line, final String eolStr)\n
     '''
 def setSrcdir():
-    '''public void setSrcdir(final File srcDir)
+    '''returns None\n\n
+    setSrcdir(final File srcDir)\n
     '''
 def setDestdir():
-    '''public void setDestdir(final File destDir)
+    '''returns None\n\n
+    setDestdir(final File destDir)\n
     '''
 def setJavafiles():
-    '''public void setJavafiles(final boolean javafiles)
+    '''returns None\n\n
+    setJavafiles(final boolean javafiles)\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def setEol():
-    '''public void setEol(final CrLf attr)
+    '''returns None\n\n
+    setEol(final CrLf attr)\n
     '''
 def setCr():
-    '''public void setCr(final AddAsisRemove attr)
+    '''returns None\n\n
+    setCr(final AddAsisRemove attr)\n
     '''
 def setTab():
-    '''public void setTab(final AddAsisRemove attr)
+    '''returns None\n\n
+    setTab(final AddAsisRemove attr)\n
     '''
 def setTablength():
-    '''public void setTablength(final int tlength)
+    '''returns None\n\n
+    setTablength(final int tlength)\n
     '''
 def setEof():
-    '''public void setEof(final AddAsisRemove attr)
+    '''returns None\n\n
+    setEof(final AddAsisRemove attr)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def setOutputEncoding():
-    '''public void setOutputEncoding(final String outputEncoding)
+    '''returns None\n\n
+    setOutputEncoding(final String outputEncoding)\n
     '''
 def setFixlast():
-    '''public void setFixlast(final boolean fixlast)
+    '''returns None\n\n
+    setFixlast(final boolean fixlast)\n
     '''
 def setPreserveLastModified():
-    '''public void setPreserveLastModified(final boolean preserve)
+    '''returns None\n\n
+    setPreserveLastModified(final boolean preserve)\n
     '''
 def execute():
-    '''public void execute()
-    '''
-def OneLiner():
-    '''public OneLiner(final File srcFile)
+    '''returns None\n\n
+    execute()\n
     '''
 def getEofStr():
-    '''public String getEofStr()
+    '''returns String\n\n
+    getEofStr()\n
     '''
 def getState():
-    '''public int getState()
-    public int getState()
+    '''returns int\n\n
+    getState()\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final int state)
-    public void setState(final int state)
+    '''returns None\n\n
+    setState(final int state)\n
+    setState(final int state)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''
 def close():
-    '''public void close()
-    '''
-def BufferLine():
-    '''public BufferLine(final String line, final String eolStr)
+    '''returns None\n\n
+    close()\n
     '''
 def getNext():
-    '''public int getNext()
+    '''returns int\n\n
+    getNext()\n
     '''
 def setNext():
-    '''public void setNext(final int next)
+    '''returns None\n\n
+    setNext(final int next)\n
     '''
 def getLookahead():
-    '''public int getLookahead()
+    '''returns int\n\n
+    getLookahead()\n
     '''
 def setLookahead():
-    '''public void setLookahead(final int lookahead)
+    '''returns None\n\n
+    setLookahead(final int lookahead)\n
     '''
 def getChar():
-    '''public char getChar(final int i)
+    '''returns char\n\n
+    getChar(final int i)\n
     '''
 def getNextChar():
-    '''public char getNextChar()
+    '''returns char\n\n
+    getNextChar()\n
     '''
 def getNextCharInc():
-    '''public char getNextCharInc()
+    '''returns char\n\n
+    getNextCharInc()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def setColumn():
-    '''public void setColumn(final int col)
+    '''returns None\n\n
+    setColumn(final int col)\n
     '''
 def incColumn():
-    '''public int incColumn()
+    '''returns int\n\n
+    incColumn()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def getEolLength():
-    '''public int getEolLength()
+    '''returns int\n\n
+    getEolLength()\n
     '''
 def getLineString():
-    '''public String getLineString()
+    '''returns String\n\n
+    getLineString()\n
     '''
 def getEol():
-    '''public String getEol()
+    '''returns String\n\n
+    getEol()\n
     '''
 def substring():
-    '''public String substring(final int begin)
-    public String substring(final int begin, final int end)
+    '''returns String\n\n
+    substring(final int begin)\n
+    substring(final int begin, final int end)\n
     '''
 def getValues():
-    '''public String[] getValues()
-    public String[] getValues()
+    '''returns String[]\n\n
+    getValues()\n
+    getValues()\n
     '''

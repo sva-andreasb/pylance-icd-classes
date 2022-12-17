@@ -1,30 +1,40 @@
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def getInputText():
-    '''public String getInputText()
+    '''returns String\n\n
+    getInputText()\n
     '''
 def setInputText():
-    '''public void setInputText(final String text)
+    '''returns None\n\n
+    setInputText(final String text)\n
     '''
 def isInputEditable():
-    '''public boolean isInputEditable()
+    '''returns boolean\n\n
+    isInputEditable()\n
     '''
 def setInputEditable():
-    '''public void setInputEditable(final boolean b)
+    '''returns None\n\n
+    setInputEditable(final boolean b)\n
     '''
-def SwingInputListener():
-    '''public SwingInputListener(final InputListener a, final Component b)
+def ():
+    '''returns SwingInputListener\n\n
+    (final InputListener a, final Component b)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def insertUpdate():
-    '''public void insertUpdate(final DocumentEvent documentEvent)
+    '''returns None\n\n
+    insertUpdate(final DocumentEvent documentEvent)\n
     '''
 def removeUpdate():
-    '''public void removeUpdate(final DocumentEvent documentEvent)
+    '''returns None\n\n
+    removeUpdate(final DocumentEvent documentEvent)\n
     '''
 def changedUpdate():
-    '''public void changedUpdate(final DocumentEvent documentEvent)
+    '''returns None\n\n
+    changedUpdate(final DocumentEvent documentEvent)\n
     '''

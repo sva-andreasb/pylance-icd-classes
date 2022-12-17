@@ -1,3 +1,4 @@
-def CalendarPool():
-    '''public CalendarPool()
+def ():
+    '''returns CalendarPool\n\n
+    ()\n
     '''

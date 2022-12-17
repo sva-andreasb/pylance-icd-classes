@@ -1,65 +1,67 @@
-def setPathSpecSeparators():
-    '''public static void setPathSpecSeparators(final String s)
-    '''
-def PathMap():
-    '''public PathMap()
-    public PathMap(final boolean nodefault)
-    public PathMap(final int capacity)
-    public PathMap(final Map m)
+def ():
+    '''returns PathMap\n\n
+    ()\n
+    (final boolean nodefault)\n
+    (final int capacity)\n
+    (final Map m)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def put():
-    '''public Object put(final Object pathSpec, final Object object)
+    '''returns Object\n\n
+    put(final Object pathSpec, final Object object)\n
     '''
 def match():
-    '''public Object match(final String path)
-    public static boolean match(final String pathSpec, final String path)
-    public static boolean match(final String pathSpec, final String path, final boolean noDefault)
+    '''returns Object\n\n
+    match(final String path)\n
     '''
 def getMatch():
-    '''public Entry getMatch(final String path)
+    '''returns Entry\n\n
+    getMatch(final String path)\n
     '''
 def getLazyMatches():
-    '''public Object getLazyMatches(final String path)
+    '''returns Object\n\n
+    getLazyMatches(final String path)\n
     '''
 def getMatches():
-    '''public List getMatches(final String path)
+    '''returns List\n\n
+    getMatches(final String path)\n
     '''
 def containsMatch():
-    '''public boolean containsMatch(final String path)
+    '''returns boolean\n\n
+    containsMatch(final String path)\n
     '''
 def remove():
-    '''public Object remove(final Object pathSpec)
+    '''returns Object\n\n
+    remove(final Object pathSpec)\n
     '''
 def clear():
-    '''public void clear()
-    '''
-def pathMatch():
-    '''public static String pathMatch(final String pathSpec, final String path)
-    '''
-def pathInfo():
-    '''public static String pathInfo(final String pathSpec, final String path)
-    '''
-def relativePath():
-    '''public static String relativePath(final String base, final String pathSpec, String path)
+    '''returns None\n\n
+    clear()\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public Object setValue(final Object o)
+    '''returns Object\n\n
+    setValue(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getMapped():
-    '''public String getMapped()
+    '''returns String\n\n
+    getMapped()\n
     '''

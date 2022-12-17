@@ -1,57 +1,58 @@
-def Analyzer():
-    '''public Analyzer()
-    public Analyzer(final ReuseStrategy reuseStrategy)
-    '''
-def tokenStream():
-    '''public final TokenStream tokenStream(final String fieldName, final Reader reader)
-    public final TokenStream tokenStream(final String fieldName, final String text)
-    '''
-def normalize():
-    '''public final BytesRef normalize(final String fieldName, final String text)
+def ():
+    '''returns TokenStreamComponents\n\n
+    ()\n
+    (final ReuseStrategy reuseStrategy)\n
+    (final Consumer<Reader> source, final TokenStream result)\n
+    (final Tokenizer tokenizer, final TokenStream result)\n
+    (final Tokenizer tokenizer)\n
     '''
 def getPositionIncrementGap():
-    '''public int getPositionIncrementGap(final String fieldName)
+    '''returns int\n\n
+    getPositionIncrementGap(final String fieldName)\n
     '''
 def getOffsetGap():
-    '''public int getOffsetGap(final String fieldName)
-    '''
-def getReuseStrategy():
-    '''public final ReuseStrategy getReuseStrategy()
+    '''returns int\n\n
+    getOffsetGap(final String fieldName)\n
     '''
 def setVersion():
-    '''public void setVersion(final Version v)
+    '''returns None\n\n
+    setVersion(final Version v)\n
     '''
 def getVersion():
-    '''public Version getVersion()
+    '''returns Version\n\n
+    getVersion()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getReusableComponents():
-    '''public TokenStreamComponents getReusableComponents(final Analyzer analyzer, final String fieldName)
-    public TokenStreamComponents getReusableComponents(final Analyzer analyzer, final String fieldName)
+    '''returns TokenStreamComponents\n\n
+    getReusableComponents(final Analyzer analyzer, final String fieldName)\n
+    getReusableComponents(final Analyzer analyzer, final String fieldName)\n
     '''
 def setReusableComponents():
-    '''public void setReusableComponents(final Analyzer analyzer, final String fieldName, final TokenStreamComponents components)
-    public void setReusableComponents(final Analyzer analyzer, final String fieldName, final TokenStreamComponents components)
-    '''
-def TokenStreamComponents():
-    '''public TokenStreamComponents(final Consumer<Reader> source, final TokenStream result)
-    public TokenStreamComponents(final Tokenizer tokenizer, final TokenStream result)
-    public TokenStreamComponents(final Tokenizer tokenizer)
+    '''returns None\n\n
+    setReusableComponents(final Analyzer analyzer, final String fieldName, final TokenStreamComponents components)\n
+    setReusableComponents(final Analyzer analyzer, final String fieldName, final TokenStreamComponents components)\n
     '''
 def getTokenStream():
-    '''public TokenStream getTokenStream()
+    '''returns TokenStream\n\n
+    getTokenStream()\n
     '''
 def getSource():
-    '''public Consumer<Reader> getSource()
+    '''returns Consumer<Reader>\n\n
+    getSource()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def incrementToken():
-    '''public boolean incrementToken()
+    '''returns boolean\n\n
+    incrementToken()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

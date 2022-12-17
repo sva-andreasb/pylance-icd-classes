@@ -1,57 +1,60 @@
-def IloCplex__IncumbentCallbackI():
-    '''public IloCplex__IncumbentCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__IncumbentCallbackI obj)
+def ():
+    '''returns SolutionSource\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final String swigName, final int swigValue)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getSolutionSource():
-    '''public SolutionSource getSolutionSource()
+    '''returns SolutionSource\n\n
+    getSolutionSource()\n
     '''
 def getObjValue():
-    '''public double getObjValue()
+    '''returns double\n\n
+    getObjValue()\n
     '''
 def getValue():
-    '''public double getValue(final SWIGTYPE_p_IloExprArg expr)
-    public double getValue(final IloNumVar var)
-    public double getValue(final IloIntVar var)
+    '''returns double\n\n
+    getValue(final SWIGTYPE_p_IloExprArg expr)\n
+    getValue(final IloNumVar var)\n
+    getValue(final IloIntVar var)\n
     '''
 def getSlack():
-    '''public double getSlack(final IloRange rng)
+    '''returns double\n\n
+    getSlack(final IloRange rng)\n
     '''
 def getSlacks():
-    '''public void getSlacks(final IloNumArray val, final IloRangeArray con)
+    '''returns None\n\n
+    getSlacks(final IloNumArray val, final IloRangeArray con)\n
     '''
 def getNodeId():
-    '''public NodeId getNodeId()
+    '''returns NodeId\n\n
+    getNodeId()\n
     '''
 def getNodeData():
-    '''public SWIGTYPE_p_NodeData getNodeData()
+    '''returns SWIGTYPE_p_NodeData\n\n
+    getNodeData()\n
     '''
 def setNodeData():
-    '''public SWIGTYPE_p_NodeData setNodeData(final SWIGTYPE_p_NodeData data)
+    '''returns SWIGTYPE_p_NodeData\n\n
+    setNodeData(final SWIGTYPE_p_NodeData data)\n
     '''
 def getValues():
-    '''public void getValues(final IloNumArray val, final IloNumVarArray vars)
-    public void getValues(final IloNumArray val, final IloIntVarArray vars)
+    '''returns None\n\n
+    getValues(final IloNumArray val, final IloNumVarArray vars)\n
+    getValues(final IloNumArray val, final IloIntVarArray vars)\n
     '''
 def reject():
-    '''public void reject()
+    '''returns None\n\n
+    reject()\n
     '''
 def mySwigValue():
-    '''public int mySwigValue()
-    '''
-def swigValue():
-    '''public final int swigValue()
+    '''returns int\n\n
+    mySwigValue()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def swigToEnum():
-    '''public static SolutionSource swigToEnum(final int swigValue)
-    '''
-def SolutionSource():
-    '''public SolutionSource(final String swigName, final int swigValue)
+    '''returns String\n\n
+    toString()\n
     '''

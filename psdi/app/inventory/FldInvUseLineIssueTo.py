@@ -1,3 +1,4 @@
-def FldInvUseLineIssueTo():
-    '''public FldInvUseLineIssueTo(final MboValue mbv)
+def ():
+    '''returns FldInvUseLineIssueTo\n\n
+    (final MboValue mbv)\n
     '''

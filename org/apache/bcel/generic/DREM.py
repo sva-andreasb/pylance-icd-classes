@@ -1,6 +1,8 @@
-def DREM():
-    '''public DREM()
+def ():
+    '''returns DREM\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

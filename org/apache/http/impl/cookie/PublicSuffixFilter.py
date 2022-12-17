@@ -1,18 +1,24 @@
-def PublicSuffixFilter():
-    '''public PublicSuffixFilter(final CookieAttributeHandler wrapped)
+def ():
+    '''returns PublicSuffixFilter\n\n
+    (final CookieAttributeHandler wrapped)\n
     '''
 def setPublicSuffixes():
-    '''public void setPublicSuffixes(final Collection<String> suffixes)
+    '''returns None\n\n
+    setPublicSuffixes(final Collection<String> suffixes)\n
     '''
 def setExceptions():
-    '''public void setExceptions(final Collection<String> exceptions)
+    '''returns None\n\n
+    setExceptions(final Collection<String> exceptions)\n
     '''
 def match():
-    '''public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''returns boolean\n\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def parse():
-    '''public void parse(final SetCookie cookie, final String value)
+    '''returns None\n\n
+    parse(final SetCookie cookie, final String value)\n
     '''
 def validate():
-    '''public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''returns None\n\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
     '''

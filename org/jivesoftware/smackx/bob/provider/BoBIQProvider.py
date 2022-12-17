@@ -1,3 +1,4 @@
 def parse():
-    '''public BoBIQ parse(final XmlPullParser parser, final int initialDepth)
+    '''returns BoBIQ\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

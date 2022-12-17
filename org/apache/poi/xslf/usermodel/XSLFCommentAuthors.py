@@ -1,6 +1,8 @@
 def getCTCommentAuthorsList():
-    '''public CTCommentAuthorList getCTCommentAuthorsList()
+    '''returns CTCommentAuthorList\n\n
+    getCTCommentAuthorsList()\n
     '''
 def getAuthorById():
-    '''public CTCommentAuthor getAuthorById(final long id)
+    '''returns CTCommentAuthor\n\n
+    getAuthorById(final long id)\n
     '''

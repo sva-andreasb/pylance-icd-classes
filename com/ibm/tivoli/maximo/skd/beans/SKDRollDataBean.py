@@ -1,9 +1,12 @@
-def SKDRollDataBean():
-    '''public SKDRollDataBean()
+def ():
+    '''returns SKDRollDataBean\n\n
+    ()\n
     '''
 def saveroll():
-    '''public int saveroll()
+    '''returns int\n\n
+    saveroll()\n
     '''
 def runroll():
-    '''public int runroll()
+    '''returns int\n\n
+    runroll()\n
     '''

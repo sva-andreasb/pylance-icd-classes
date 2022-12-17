@@ -55,264 +55,351 @@ WARRANTY_PARTS = "int  1"
 WARRANTY_LABOR = "int  2"
 WARRANTY_SHORT = "int  3"
 WARRANTY_LONG = "int  4"
-def ModelLoaderOptions():
-    '''public ModelLoaderOptions(final BIMSessionRemote sessionMbo, final int updateMode)
+def ():
+    '''returns ModelLoaderOptions\n\n
+    (final BIMSessionRemote sessionMbo, final int updateMode)\n
     '''
 def filtersNames():
-    '''public Iterator<String> filtersNames()
+    '''returns Iterator<String>\n\n
+    filtersNames()\n
     '''
 def getAttributeMapName():
-    '''public String getAttributeMapName()
+    '''returns String\n\n
+    getAttributeMapName()\n
     '''
 def getAttribTypeIdConfig():
-    '''public int getAttribTypeIdConfig()
+    '''returns int\n\n
+    getAttribTypeIdConfig()\n
     '''
 def getAttributeTypeLevel():
-    '''public int getAttributeTypeLevel()
+    '''returns int\n\n
+    getAttributeTypeLevel()\n
     '''
 def getBarcodeAttribute():
-    '''public String getBarcodeAttribute()
+    '''returns String\n\n
+    getBarcodeAttribute()\n
     '''
 def getBillToAddress():
-    '''public String getBillToAddress()
+    '''returns String\n\n
+    getBillToAddress()\n
     '''
 def getChangeDateFilter():
-    '''public String getChangeDateFilter()
+    '''returns String\n\n
+    getChangeDateFilter()\n
     '''
 def getComponentAttribLoc():
-    '''public long getComponentAttribLoc()
+    '''returns long\n\n
+    getComponentAttribLoc()\n
     '''
 def getComponentIdConfig():
-    '''public int getComponentIdConfig()
+    '''returns int\n\n
+    getComponentIdConfig()\n
     '''
 def getContactTreatement():
-    '''public int getContactTreatement()
+    '''returns int\n\n
+    getContactTreatement()\n
     '''
 def getFacilityClassification():
-    '''public String getFacilityClassification()
+    '''returns String\n\n
+    getFacilityClassification()\n
     '''
 def getFacilityIdConfig():
-    '''public int getFacilityIdConfig()
+    '''returns int\n\n
+    getFacilityIdConfig()\n
     '''
 def getFloorIdConfig():
-    '''public int getFloorIdConfig()
+    '''returns int\n\n
+    getFloorIdConfig()\n
     '''
 def getGLAccount():
-    '''public String getGLAccount()
+    '''returns String\n\n
+    getGLAccount()\n
     '''
 def getIdSeperatorCharacter():
-    '''public String getIdSeperatorCharacter()
+    '''returns String\n\n
+    getIdSeperatorCharacter()\n
     '''
 def getInitialAssetStatus():
-    '''public String getInitialAssetStatus()
+    '''returns String\n\n
+    getInitialAssetStatus()\n
     '''
 def getInitialAssetType():
-    '''public String getInitialAssetType()
+    '''returns String\n\n
+    getInitialAssetType()\n
     '''
 def getInitialJobPlanStatus():
-    '''public String getInitialJobPlanStatus()
+    '''returns String\n\n
+    getInitialJobPlanStatus()\n
     '''
 def getInitialLocationStatus():
-    '''public String getInitialLocationStatus()
+    '''returns String\n\n
+    getInitialLocationStatus()\n
     '''
 def getInitialProductStatus():
-    '''public String getInitialProductStatus()
+    '''returns String\n\n
+    getInitialProductStatus()\n
     '''
 def getJobPlanLevel():
-    '''public int getJobPlanLevel()
+    '''returns int\n\n
+    getJobPlanLevel()\n
     '''
 def getLevelAttributeName():
-    '''public String getLevelAttributeName()
+    '''returns String\n\n
+    getLevelAttributeName()\n
     '''
 def getLogLevel():
-    '''public long getLogLevel()
+    '''returns long\n\n
+    getLogLevel()\n
     '''
 def getMergeFacility():
-    '''public String getMergeFacility()
+    '''returns String\n\n
+    getMergeFacility()\n
     '''
 def getOomniClassAttributeName():
-    '''public String getOomniClassAttributeName()
+    '''returns String\n\n
+    getOomniClassAttributeName()\n
     '''
 def getOperatingLocIdConfig():
-    '''public int getOperatingLocIdConfig()
+    '''returns int\n\n
+    getOperatingLocIdConfig()\n
     '''
 def getParserFlags():
-    '''public long getParserFlags()
+    '''returns long\n\n
+    getParserFlags()\n
     '''
 def getProjectAddress():
-    '''public String getProjectAddress()
+    '''returns String\n\n
+    getProjectAddress()\n
     '''
 def getServiceAddress():
-    '''public String getServiceAddress()
+    '''returns String\n\n
+    getServiceAddress()\n
     '''
 def getShipToAddress():
-    '''public String getShipToAddress()
+    '''returns String\n\n
+    getShipToAddress()\n
     '''
 def getSpaceIdConfig():
-    '''public int getSpaceIdConfig()
+    '''returns int\n\n
+    getSpaceIdConfig()\n
     '''
 def getSpaceAttributeName():
-    '''public String getSpaceAttributeName()
+    '''returns String\n\n
+    getSpaceAttributeName()\n
     '''
 def getSpecificationMapName():
-    '''public String getSpecificationMapName()
+    '''returns String\n\n
+    getSpecificationMapName()\n
     '''
 def getSystemNameAttributeName():
-    '''public String getSystemNameAttributeName()
+    '''returns String\n\n
+    getSystemNameAttributeName()\n
     '''
 def getTargetFacility():
-    '''public String getTargetFacility()
+    '''returns String\n\n
+    getTargetFacility()\n
     '''
 def getUnitTreatment():
-    '''public int getUnitTreatment()
+    '''returns int\n\n
+    getUnitTreatment()\n
     '''
 def getUpdateBehavior():
-    '''public int getUpdateBehavior()
+    '''returns int\n\n
+    getUpdateBehavior()\n
     '''
 def getVendorAttribute():
-    '''public String getVendorAttribute()
+    '''returns String\n\n
+    getVendorAttribute()\n
     '''
 def getWarrantyCalcMethod():
-    '''public int getWarrantyCalcMethod()
+    '''returns int\n\n
+    getWarrantyCalcMethod()\n
     '''
 def isAssocaiteAttributeTypes():
-    '''public boolean isAssocaiteAttributeTypes()
+    '''returns boolean\n\n
+    isAssocaiteAttributeTypes()\n
     '''
 def isAutoNumber():
-    '''public boolean isAutoNumber()
+    '''returns boolean\n\n
+    isAutoNumber()\n
     '''
 def isConvertGuid():
-    '''public boolean isConvertGuid()
+    '''returns boolean\n\n
+    isConvertGuid()\n
     '''
 def isConvertUniqueIds():
-    '''public boolean isConvertUniqueIds()
+    '''returns boolean\n\n
+    isConvertUniqueIds()\n
     '''
 def isCopyTypeAttribsToAsset():
-    '''public boolean isCopyTypeAttribsToAsset()
+    '''returns boolean\n\n
+    isCopyTypeAttribsToAsset()\n
     '''
 def isCopyTypeAttribsToItem():
-    '''public boolean isCopyTypeAttribsToItem()
+    '''returns boolean\n\n
+    isCopyTypeAttribsToItem()\n
     '''
 def isCopyDocsToAsset():
-    '''public boolean isCopyDocsToAsset()
+    '''returns boolean\n\n
+    isCopyDocsToAsset()\n
     '''
 def isCreateAttributeTypes():
-    '''public boolean isCreateAttributeTypes()
+    '''returns boolean\n\n
+    isCreateAttributeTypes()\n
     '''
 def isCreateClassifications():
-    '''public boolean isCreateClassifications()
+    '''returns boolean\n\n
+    isCreateClassifications()\n
     '''
 def isCreateCompanies():
-    '''public boolean isCreateCompanies()
+    '''returns boolean\n\n
+    isCreateCompanies()\n
     '''
 def isCreateCompanyMasters():
-    '''public boolean isCreateCompanyMasters()
+    '''returns boolean\n\n
+    isCreateCompanyMasters()\n
     '''
 def isCreateItemMaster():
-    '''public boolean isCreateItemMaster()
+    '''returns boolean\n\n
+    isCreateItemMaster()\n
     '''
 def isCreateMasterPM():
-    '''public boolean isCreateMasterPM()
+    '''returns boolean\n\n
+    isCreateMasterPM()\n
     '''
 def isCreatePM():
-    '''public boolean isCreatePM()
+    '''returns boolean\n\n
+    isCreatePM()\n
     '''
 def isCreateProduct():
-    '''public boolean isCreateProduct()
+    '''returns boolean\n\n
+    isCreateProduct()\n
     '''
 def isCreateOpperatingLocation():
-    '''public boolean isCreateOpperatingLocation()
+    '''returns boolean\n\n
+    isCreateOpperatingLocation()\n
     '''
 def isDeleteDocOnCopy():
-    '''public boolean isDeleteDocOnCopy()
+    '''returns boolean\n\n
+    isDeleteDocOnCopy()\n
     '''
 def isDeleteFiles():
-    '''public boolean isDeleteFiles()
+    '''returns boolean\n\n
+    isDeleteFiles()\n
     '''
 def isDeleteSystemMemebrs():
-    '''public boolean isDeleteSystemMemebrs()
+    '''returns boolean\n\n
+    isDeleteSystemMemebrs()\n
     '''
 def isExportFloor():
-    '''public boolean isExportFloor()
+    '''returns boolean\n\n
+    isExportFloor()\n
     '''
 def isExportSpace():
-    '''public boolean isExportSpace()
+    '''returns boolean\n\n
+    isExportSpace()\n
     '''
 def isExportComponent():
-    '''public boolean isExportComponent()
+    '''returns boolean\n\n
+    isExportComponent()\n
     '''
 def isExportType():
-    '''public boolean isExportType()
+    '''returns boolean\n\n
+    isExportType()\n
     '''
 def isExportSystem():
-    '''public boolean isExportSystem()
+    '''returns boolean\n\n
+    isExportSystem()\n
     '''
 def isExportZone():
-    '''public boolean isExportZone()
+    '''returns boolean\n\n
+    isExportZone()\n
     '''
 def isExportAttribute():
-    '''public boolean isExportAttribute()
+    '''returns boolean\n\n
+    isExportAttribute()\n
     '''
 def isExportContact():
-    '''public boolean isExportContact()
+    '''returns boolean\n\n
+    isExportContact()\n
     '''
 def isExportDocument():
-    '''public boolean isExportDocument()
+    '''returns boolean\n\n
+    isExportDocument()\n
     '''
 def isExportJob():
-    '''public boolean isExportJob()
+    '''returns boolean\n\n
+    isExportJob()\n
     '''
 def isExportResource():
-    '''public boolean isExportResource()
+    '''returns boolean\n\n
+    isExportResource()\n
     '''
 def isExportSpare():
-    '''public boolean isExportSpare()
+    '''returns boolean\n\n
+    isExportSpare()\n
     '''
 def isExportAssembly():
-    '''public boolean isExportAssembly()
+    '''returns boolean\n\n
+    isExportAssembly()\n
     '''
 def isExportNullAttributes():
-    '''public boolean isExportNullAttributes()
+    '''returns boolean\n\n
+    isExportNullAttributes()\n
     '''
 def isMapExtensionCols():
-    '''public boolean isMapExtensionCols()
+    '''returns boolean\n\n
+    isMapExtensionCols()\n
     '''
 def isInferLevels():
-    '''public boolean isInferLevels()
+    '''returns boolean\n\n
+    isInferLevels()\n
     '''
 def isInferOmniClass():
-    '''public boolean isInferOmniClass()
+    '''returns boolean\n\n
+    isInferOmniClass()\n
     '''
 def isInferSpaces():
-    '''public boolean isInferSpaces()
+    '''returns boolean\n\n
+    isInferSpaces()\n
     '''
 def isInferSystems():
-    '''public boolean isInferSystems()
+    '''returns boolean\n\n
+    isInferSystems()\n
     '''
 def isOverwriteAttachments():
-    '''public boolean isOverwriteAttachments()
+    '''returns boolean\n\n
+    isOverwriteAttachments()\n
     '''
 def isPersonNameIsEMail():
-    '''public boolean isPersonNameIsEMail()
+    '''returns boolean\n\n
+    isPersonNameIsEMail()\n
     '''
 def isPopulateSystemMap():
-    '''public boolean isPopulateSystemMap()
+    '''returns boolean\n\n
+    isPopulateSystemMap()\n
     '''
 def isPromoteComponents():
-    '''public boolean isPromoteComponents()
+    '''returns boolean\n\n
+    isPromoteComponents()\n
     '''
 def isPromoteSpaces():
-    '''public boolean isPromoteSpaces()
+    '''returns boolean\n\n
+    isPromoteSpaces()\n
     '''
 def isUpdateCategories():
-    '''public boolean isUpdateCategories()
+    '''returns boolean\n\n
+    isUpdateCategories()\n
     '''
 def isUpdateSpecs():
-    '''public boolean isUpdateSpecs()
+    '''returns boolean\n\n
+    isUpdateSpecs()\n
     '''
 def isSkipEmptySystems():
-    '''public boolean isSkipEmptySystems()
+    '''returns boolean\n\n
+    isSkipEmptySystems()\n
     '''
 def isTypesAreSpecs():
-    '''public boolean isTypesAreSpecs()
+    '''returns boolean\n\n
+    isTypesAreSpecs()\n
     '''

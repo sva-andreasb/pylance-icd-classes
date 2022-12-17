@@ -1,9 +1,12 @@
-def CDUICatalogTableDomain():
-    '''public CDUICatalogTableDomain(final MboSet ms)
+def ():
+    '''returns CDUICatalogTableDomain\n\n
+    (final MboSet ms)\n
     '''
 def evaluateDomain():
-    '''public String evaluateDomain(final String domainjson)
+    '''returns String\n\n
+    evaluateDomain(final String domainjson)\n
     '''
 def evaluateStandardDomain():
-    '''public String evaluateStandardDomain(final String objectName, final String objectID, final String attributeName)
+    '''returns String\n\n
+    evaluateStandardDomain(final String objectName, final String objectID, final String attributeName)\n
     '''

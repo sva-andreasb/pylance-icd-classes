@@ -1,6 +1,8 @@
 def refreshStatus():
-    '''public int refreshStatus()
+    '''returns int\n\n
+    refreshStatus()\n
     '''
 def dook():
-    '''public int dook()
+    '''returns int\n\n
+    dook()\n
     '''

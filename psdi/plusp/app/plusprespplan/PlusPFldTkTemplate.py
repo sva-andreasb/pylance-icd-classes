@@ -1,6 +1,8 @@
-def PlusPFldTkTemplate():
-    '''public PlusPFldTkTemplate(final MboValue arg0)
+def ():
+    '''returns PlusPFldTkTemplate\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

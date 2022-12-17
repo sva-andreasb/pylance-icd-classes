@@ -1,13 +1,16 @@
-def MIMEBodyPartInputStream():
-    '''public MIMEBodyPartInputStream(final PushbackInputStream inStream, final byte[] boundary)
-    public MIMEBodyPartInputStream(final PushbackInputStream inStream, final byte[] boundary, final Attachments parent)
-    public MIMEBodyPartInputStream(final PushbackInputStream inStream, final byte[] boundary, final Attachments parent, final int pushbacksize)
+def ():
+    '''returns MIMEBodyPartInputStream\n\n
+    (final PushbackInputStream inStream, final byte[] boundary)\n
+    (final PushbackInputStream inStream, final byte[] boundary, final Attachments parent)\n
+    (final PushbackInputStream inStream, final byte[] boundary, final Attachments parent, final int pushbacksize)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
-    public int read(final byte[] b)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
+    read(final byte[] b)\n
     '''
 def getBoundaryStatus():
-    '''public boolean getBoundaryStatus()
+    '''returns boolean\n\n
+    getBoundaryStatus()\n
     '''

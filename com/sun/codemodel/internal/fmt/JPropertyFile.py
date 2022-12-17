@@ -1,9 +1,12 @@
-def JPropertyFile():
-    '''public JPropertyFile(final String name)
+def ():
+    '''returns JPropertyFile\n\n
+    (final String name)\n
     '''
 def add():
-    '''public void add(final String key, final String value)
+    '''returns None\n\n
+    add(final String key, final String value)\n
     '''
 def build():
-    '''public void build(final OutputStream out)
+    '''returns None\n\n
+    build(final OutputStream out)\n
     '''

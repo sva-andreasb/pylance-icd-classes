@@ -1,26 +1,34 @@
 DEFAULT_DELAY = "long  60000L"
 DEBUG_KEY = "String  \"log4j.debug\""
-def PropertiesConfiguration():
-    '''public PropertiesConfiguration(final LoggerContext loggerContext, final ConfigurationSource source, final int monitorIntervalSeconds)
+def ():
+    '''returns PropertiesConfiguration\n\n
+    (final LoggerContext loggerContext, final ConfigurationSource source, final int monitorIntervalSeconds)\n
     '''
 def doConfigure():
-    '''public void doConfigure()
+    '''returns None\n\n
+    doConfigure()\n
     '''
 def reconfigure():
-    '''public Configuration reconfigure()
+    '''returns Configuration\n\n
+    reconfigure()\n
     '''
 def parseAppender():
-    '''public Appender parseAppender(final Properties props, final String appenderName)
+    '''returns Appender\n\n
+    parseAppender(final Properties props, final String appenderName)\n
     '''
 def parseLayout():
-    '''public Layout parseLayout(final String layoutPrefix, final String appenderName, final Properties props)
+    '''returns Layout\n\n
+    parseLayout(final String layoutPrefix, final String appenderName, final Properties props)\n
     '''
 def parseErrorHandler():
-    '''public ErrorHandler parseErrorHandler(final Properties props, final String errorHandlerPrefix, final String errorHandlerClass, final Appender appender)
+    '''returns ErrorHandler\n\n
+    parseErrorHandler(final Properties props, final String errorHandlerPrefix, final String errorHandlerClass, final Appender appender)\n
     '''
 def addProperties():
-    '''public void addProperties(final Object obj, final String[] keys, final Properties props, final String prefix)
+    '''returns None\n\n
+    addProperties(final Object obj, final String[] keys, final Properties props, final String prefix)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

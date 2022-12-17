@@ -1,18 +1,24 @@
-def EscalationTask():
-    '''public EscalationTask()
+def ():
+    '''returns EscalationTask\n\n
+    ()\n
     '''
 def performTask():
-    '''public void performTask(final String taskName, final String instanceName)
+    '''returns None\n\n
+    performTask(final String taskName, final String instanceName)\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def setLogger():
-    '''public void setLogger(final MXLogger logger)
+    '''returns None\n\n
+    setLogger(final MXLogger logger)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''

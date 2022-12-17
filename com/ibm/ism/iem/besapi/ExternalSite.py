@@ -1,24 +1,16 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
     '''
-def getDisplayName():
-    '''public String getDisplayName()
+def getPermission():
+    '''returns SitePermissionString\n\n
+    getPermission()\n
     '''
-def setDisplayName():
-    '''public void setDisplayName(final String value)
-    '''
-def getResource():
-    '''public String getResource()
-    '''
-def setResource():
-    '''public void setResource(final String value)
-    '''
-def getLastModified():
-    '''public String getLastModified()
-    '''
-def setLastModified():
-    '''public void setLastModified(final String value)
+def setPermission():
+    '''returns None\n\n
+    setPermission(final SitePermissionString value)\n
     '''

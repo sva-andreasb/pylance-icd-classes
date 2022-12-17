@@ -1,73 +1,97 @@
 CANDELETEPOINTAPPR = "String  \"CANDELETEPOINTAPPR\""
 def addPlusCDSConfig():
-    '''public void addPlusCDSConfig()
+    '''returns None\n\n
+    addPlusCDSConfig()\n
     '''
-def PlusCDS():
-    '''public PlusCDS(final MboSet ms)
+def ():
+    '''returns PlusCDS\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def duplicateforRevise():
-    '''public MboRemote duplicateforRevise(final boolean isRevising)
+    '''returns MboRemote\n\n
+    duplicateforRevise(final boolean isRevising)\n
     '''
 def copyDSInstrAndPoints():
-    '''public MboRemote copyDSInstrAndPoints(final MboRemote newDS)
+    '''returns MboRemote\n\n
+    copyDSInstrAndPoints(final MboRemote newDS)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def copyLocations():
-    '''public void copyLocations(final MboSetRemote locationset)
+    '''returns None\n\n
+    copyLocations(final MboSetRemote locationset)\n
     '''
 def copyAssets():
-    '''public void copyAssets(final MboSetRemote assetset)
+    '''returns None\n\n
+    copyAssets(final MboSetRemote assetset)\n
     '''
 def copyItems():
-    '''public void copyItems(final MboSetRemote itemset)
+    '''returns None\n\n
+    copyItems(final MboSetRemote itemset)\n
     '''
 def copyAcrossSite():
-    '''public MboRemote copyAcrossSite(final MboSetRemote mboset, final String toSiteId)
+    '''returns MboRemote\n\n
+    copyAcrossSite(final MboSetRemote mboset, final String toSiteId)\n
     '''
 def bulkCopyAcrossSite():
-    '''public String[] bulkCopyAcrossSite(final Vector selectedDS, final String toSiteId)
+    '''returns String[]\n\n
+    bulkCopyAcrossSite(final Vector selectedDS, final String toSiteId)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String newStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String newStatus, final Date date, final String memo)\n
     '''
 def reviseDataSheet():
-    '''public MboRemote reviseDataSheet(final String revDescription)
+    '''returns MboRemote\n\n
+    reviseDataSheet(final String revDescription)\n
     '''
 def canReviseDataSheet():
-    '''public void canReviseDataSheet()
+    '''returns None\n\n
+    canReviseDataSheet()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def checkStatus():
-    '''public void checkStatus()
+    '''returns None\n\n
+    checkStatus()\n
     '''
 def childHasChanged():
-    '''public void childHasChanged()
+    '''returns None\n\n
+    childHasChanged()\n
     '''

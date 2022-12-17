@@ -1,3 +1,4 @@
-def BooleanHolder():
-    '''public BooleanHolder(final boolean value)
+def ():
+    '''returns BooleanHolder\n\n
+    (final boolean value)\n
     '''

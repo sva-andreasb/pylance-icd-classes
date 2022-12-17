@@ -1,180 +1,226 @@
 ENABLED = "String  \"Enabled\""
 DISABLED = "String  \"Disabled\""
 def getRules():
-    '''public List<Rule> getRules()
+    '''returns List<Rule>\n\n
+    getRules()\n
     '''
 def setRules():
-    '''public void setRules(final List<Rule> rules)
+    '''returns None\n\n
+    setRules(final List<Rule> rules)\n
     '''
 def withRules():
-    '''public BucketLifecycleConfiguration withRules(final List<Rule> rules)
-    public BucketLifecycleConfiguration withRules(final Rule... rules)
+    '''returns BucketLifecycleConfiguration\n\n
+    withRules(final List<Rule> rules)\n
+    withRules(final Rule... rules)\n
     '''
-def BucketLifecycleConfiguration():
-    '''public BucketLifecycleConfiguration(final List<Rule> rules)
-    public BucketLifecycleConfiguration()
-    '''
-def Rule():
-    '''public Rule()
+def ():
+    '''returns NoncurrentVersionTransition\n\n
+    (final List<Rule> rules)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def setExpirationInDays():
-    '''public void setExpirationInDays(final int expirationInDays)
+    '''returns None\n\n
+    setExpirationInDays(final int expirationInDays)\n
     '''
 def setNoncurrentVersionExpirationInDays():
-    '''public void setNoncurrentVersionExpirationInDays(final int value)
+    '''returns None\n\n
+    setNoncurrentVersionExpirationInDays(final int value)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def withId():
-    '''public Rule withId(final String id)
+    '''returns Rule\n\n
+    withId(final String id)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def withPrefix():
-    '''public Rule withPrefix(final String prefix)
+    '''returns Rule\n\n
+    withPrefix(final String prefix)\n
     '''
 def getExpirationInDays():
-    '''public int getExpirationInDays()
+    '''returns int\n\n
+    getExpirationInDays()\n
     '''
 def withExpirationInDays():
-    '''public Rule withExpirationInDays(final int expirationInDays)
+    '''returns Rule\n\n
+    withExpirationInDays(final int expirationInDays)\n
     '''
 def getNoncurrentVersionExpirationInDays():
-    '''public int getNoncurrentVersionExpirationInDays()
+    '''returns int\n\n
+    getNoncurrentVersionExpirationInDays()\n
     '''
 def withNoncurrentVersionExpirationInDays():
-    '''public Rule withNoncurrentVersionExpirationInDays(final int value)
+    '''returns Rule\n\n
+    withNoncurrentVersionExpirationInDays(final int value)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
+    '''returns None\n\n
+    setStatus(final String status)\n
     '''
 def withStatus():
-    '''public Rule withStatus(final String status)
+    '''returns Rule\n\n
+    withStatus(final String status)\n
     '''
 def setExpirationDate():
-    '''public void setExpirationDate(final Date expirationDate)
+    '''returns None\n\n
+    setExpirationDate(final Date expirationDate)\n
     '''
 def getExpirationDate():
-    '''public Date getExpirationDate()
+    '''returns Date\n\n
+    getExpirationDate()\n
     '''
 def withExpirationDate():
-    '''public Rule withExpirationDate(final Date expirationDate)
+    '''returns Rule\n\n
+    withExpirationDate(final Date expirationDate)\n
     '''
 def setTransition():
-    '''public void setTransition(final Transition transition)
+    '''returns None\n\n
+    setTransition(final Transition transition)\n
     '''
 def getTransition():
-    '''public Transition getTransition()
+    '''returns Transition\n\n
+    getTransition()\n
     '''
 def withTransition():
-    '''public Rule withTransition(final Transition transition)
+    '''returns Rule\n\n
+    withTransition(final Transition transition)\n
     '''
 def setNoncurrentVersionTransition():
-    '''public void setNoncurrentVersionTransition(final NoncurrentVersionTransition nonCurrentVersionTransition)
+    '''returns None\n\n
+    setNoncurrentVersionTransition(final NoncurrentVersionTransition nonCurrentVersionTransition)\n
     '''
 def getNoncurrentVersionTransition():
-    '''public NoncurrentVersionTransition getNoncurrentVersionTransition()
+    '''returns NoncurrentVersionTransition\n\n
+    getNoncurrentVersionTransition()\n
     '''
 def withNoncurrentVersionTransition():
-    '''public Rule withNoncurrentVersionTransition(final NoncurrentVersionTransition nonCurrentVersionTransition)
+    '''returns Rule\n\n
+    withNoncurrentVersionTransition(final NoncurrentVersionTransition nonCurrentVersionTransition)\n
     '''
 def getTransitions():
-    '''public List<Transition> getTransitions()
+    '''returns List<Transition>\n\n
+    getTransitions()\n
     '''
 def setTransitions():
-    '''public void setTransitions(final List<Transition> transitions)
+    '''returns None\n\n
+    setTransitions(final List<Transition> transitions)\n
     '''
 def withTransitions():
-    '''public Rule withTransitions(final List<Transition> transitions)
+    '''returns Rule\n\n
+    withTransitions(final List<Transition> transitions)\n
     '''
 def addTransition():
-    '''public Rule addTransition(final Transition transition)
+    '''returns Rule\n\n
+    addTransition(final Transition transition)\n
     '''
 def getNoncurrentVersionTransitions():
-    '''public List<NoncurrentVersionTransition> getNoncurrentVersionTransitions()
+    '''returns List<NoncurrentVersionTransition>\n\n
+    getNoncurrentVersionTransitions()\n
     '''
 def setNoncurrentVersionTransitions():
-    '''public void setNoncurrentVersionTransitions(final List<NoncurrentVersionTransition> noncurrentVersionTransitions)
+    '''returns None\n\n
+    setNoncurrentVersionTransitions(final List<NoncurrentVersionTransition> noncurrentVersionTransitions)\n
     '''
 def withNoncurrentVersionTransitions():
-    '''public Rule withNoncurrentVersionTransitions(final List<NoncurrentVersionTransition> noncurrentVersionTransitions)
+    '''returns Rule\n\n
+    withNoncurrentVersionTransitions(final List<NoncurrentVersionTransition> noncurrentVersionTransitions)\n
     '''
 def addNoncurrentVersionTransition():
-    '''public Rule addNoncurrentVersionTransition(final NoncurrentVersionTransition noncurrentVersionTransition)
+    '''returns Rule\n\n
+    addNoncurrentVersionTransition(final NoncurrentVersionTransition noncurrentVersionTransition)\n
     '''
 def getAbortIncompleteMultipartUpload():
-    '''public AbortIncompleteMultipartUpload getAbortIncompleteMultipartUpload()
+    '''returns AbortIncompleteMultipartUpload\n\n
+    getAbortIncompleteMultipartUpload()\n
     '''
 def setAbortIncompleteMultipartUpload():
-    '''public void setAbortIncompleteMultipartUpload(final AbortIncompleteMultipartUpload abortIncompleteMultipartUpload)
+    '''returns None\n\n
+    setAbortIncompleteMultipartUpload(final AbortIncompleteMultipartUpload abortIncompleteMultipartUpload)\n
     '''
 def withAbortIncompleteMultipartUpload():
-    '''public Rule withAbortIncompleteMultipartUpload(final AbortIncompleteMultipartUpload abortIncompleteMultipartUpload)
+    '''returns Rule\n\n
+    withAbortIncompleteMultipartUpload(final AbortIncompleteMultipartUpload abortIncompleteMultipartUpload)\n
     '''
 def isExpiredObjectDeleteMarker():
-    '''public boolean isExpiredObjectDeleteMarker()
+    '''returns boolean\n\n
+    isExpiredObjectDeleteMarker()\n
     '''
 def setExpiredObjectDeleteMarker():
-    '''public void setExpiredObjectDeleteMarker(final boolean expiredObjectDeleteMarker)
+    '''returns None\n\n
+    setExpiredObjectDeleteMarker(final boolean expiredObjectDeleteMarker)\n
     '''
 def withExpiredObjectDeleteMarker():
-    '''public Rule withExpiredObjectDeleteMarker(final boolean expiredObjectDeleteMarker)
-    '''
-def Transition():
-    '''public Transition()
+    '''returns Rule\n\n
+    withExpiredObjectDeleteMarker(final boolean expiredObjectDeleteMarker)\n
     '''
 def setDays():
-    '''public void setDays(final int expirationInDays)
-    public void setDays(final int expirationInDays)
+    '''returns None\n\n
+    setDays(final int expirationInDays)\n
+    setDays(final int expirationInDays)\n
     '''
 def getDays():
-    '''public int getDays()
-    public int getDays()
+    '''returns int\n\n
+    getDays()\n
+    getDays()\n
     '''
 def withDays():
-    '''public Transition withDays(final int expirationInDays)
-    public NoncurrentVersionTransition withDays(final int expirationInDays)
+    '''returns NoncurrentVersionTransition\n\n
+    withDays(final int expirationInDays)\n
+    withDays(final int expirationInDays)\n
     '''
 def setStorageClass():
-    '''public void setStorageClass(final StorageClass storageClass)
-    public void setStorageClass(final String storageClass)
-    public void setStorageClass(final StorageClass storageClass)
-    public void setStorageClass(final String storageClass)
+    '''returns None\n\n
+    setStorageClass(final StorageClass storageClass)\n
+    setStorageClass(final String storageClass)\n
+    setStorageClass(final StorageClass storageClass)\n
+    setStorageClass(final String storageClass)\n
     '''
 def getStorageClass():
-    '''public StorageClass getStorageClass()
-    public StorageClass getStorageClass()
+    '''returns StorageClass\n\n
+    getStorageClass()\n
+    getStorageClass()\n
     '''
 def getStorageClassAsString():
-    '''public String getStorageClassAsString()
-    public String getStorageClassAsString()
+    '''returns String\n\n
+    getStorageClassAsString()\n
+    getStorageClassAsString()\n
     '''
 def withStorageClass():
-    '''public Transition withStorageClass(final StorageClass storageClass)
-    public Transition withStorageClass(final String storageClass)
-    public NoncurrentVersionTransition withStorageClass(final StorageClass storageClass)
-    public NoncurrentVersionTransition withStorageClass(final String storageClass)
+    '''returns NoncurrentVersionTransition\n\n
+    withStorageClass(final StorageClass storageClass)\n
+    withStorageClass(final String storageClass)\n
+    withStorageClass(final StorageClass storageClass)\n
+    withStorageClass(final String storageClass)\n
     '''
 def setDate():
-    '''public void setDate(final Date expirationDate)
+    '''returns None\n\n
+    setDate(final Date expirationDate)\n
     '''
 def getDate():
-    '''public Date getDate()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def withDate():
-    '''public Transition withDate(final Date expirationDate)
-    '''
-def NoncurrentVersionTransition():
-    '''public NoncurrentVersionTransition()
+    '''returns Transition\n\n
+    withDate(final Date expirationDate)\n
     '''

@@ -1,12 +1,16 @@
-def MaxIntMsgTrk():
-    '''public MaxIntMsgTrk(final MboSet ms)
+def ():
+    '''returns MaxIntMsgTrk\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def displayMsg():
-    '''public void displayMsg()
+    '''returns None\n\n
+    displayMsg()\n
     '''

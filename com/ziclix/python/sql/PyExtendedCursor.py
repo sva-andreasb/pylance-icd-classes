@@ -1,9 +1,8 @@
 def toString():
-    '''public String toString()
-    '''
-def classDictInit():
-    '''public static void classDictInit(final PyObject dict)
+    '''returns String\n\n
+    toString()\n
     '''
 def __findattr_ex__():
-    '''public PyObject __findattr_ex__(final String name)
+    '''returns PyObject\n\n
+    __findattr_ex__(final String name)\n
     '''

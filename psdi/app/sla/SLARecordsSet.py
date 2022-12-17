@@ -1,21 +1,28 @@
-def SLARecordsSet():
-    '''public SLARecordsSet(final MboServerInterface ms)
+def ():
+    '''returns SLARecordsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def applySLA():
-    '''public void applySLA()
+    '''returns None\n\n
+    applySLA()\n
     '''
 def modifySLA():
-    '''public void modifySLA()
+    '''returns None\n\n
+    modifySLA()\n
     '''
 def getSLAsToSelect():
-    '''public MboSetRemote getSLAsToSelect(final boolean showAll)
+    '''returns MboSetRemote\n\n
+    getSLAsToSelect(final boolean showAll)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def clearTargetDates():
-    '''public void clearTargetDates()
+    '''returns None\n\n
+    clearTargetDates()\n
     '''
 def canAddMoreSLAs():
-    '''public boolean canAddMoreSLAs()
+    '''returns boolean\n\n
+    canAddMoreSLAs()\n
     '''

@@ -1,9 +1,12 @@
-def NUMERICDomainInfo():
-    '''public NUMERICDomainInfo(final String name)
+def ():
+    '''returns NUMERICDomainInfo\n\n
+    (final String name)\n
     '''
 def getDomainObject():
-    '''public MboValueListener getDomainObject(final MboValue mbv)
+    '''returns MboValueListener\n\n
+    getDomainObject(final MboValue mbv)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

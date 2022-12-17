@@ -1,21 +1,12 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def start():
-    '''public void start()
-    '''
-def getJavaControlPanel():
-    '''public static ControlPanel getJavaControlPanel()
-    '''
-def isJavaControlPanelVisible():
-    '''public static boolean isJavaControlPanelVisible()
-    '''
-def showJavaControlPanel():
-    '''public static void showJavaControlPanel(final boolean visible)
-    '''
-def main():
-    '''public static void main(final String[] array)
+    '''returns None\n\n
+    start()\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''

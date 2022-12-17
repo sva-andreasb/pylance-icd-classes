@@ -1,3 +1,4 @@
-def FldPropMaintMaxType():
-    '''public FldPropMaintMaxType(final MboValue mbv)
+def ():
+    '''returns FldPropMaintMaxType\n\n
+    (final MboValue mbv)\n
     '''

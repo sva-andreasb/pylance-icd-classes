@@ -1,47 +1,28 @@
-def load():
-    '''public static void load(final DatasetGraphTDB dataset, final String url)
-    public static void load(final DatasetGraphTDB dataset, final String url, final boolean showProgress)
-    public static void load(final DatasetGraphTDB dataset, final List<String> urls)
-    public static void load(final DatasetGraphTDB dataset, final List<String> urls, final boolean showProgress)
-    public static void load(final DatasetGraphTDB dataset, final InputStream input, final boolean showProgress)
-    public static void load(final GraphTDB graph, final String url)
-    public static void load(final GraphTDB graph, final String url, final boolean showProgress)
-    public static void load(final GraphTDB graph, final List<String> urls)
-    public static void load(final GraphTDB graph, final List<String> urls, final boolean showProgress)
-    '''
-def loadModel():
-    '''public static void loadModel(final Model model, final String url)
-    public static void loadModel(final Model model, final String url, final boolean showProgress)
-    public static void loadModel(final Model model, final List<String> urls, final boolean showProgress)
-    '''
-def TDBLoader():
-    '''public TDBLoader()
+def ():
+    '''returns TDBLoader\n\n
+    ()\n
     '''
 def loadGraph():
-    '''public void loadGraph(final GraphTDB graph, final String url)
-    public void loadGraph(final GraphTDB graph, final List<String> urls)
-    public void loadGraph(final GraphTDB graph, final InputStream in)
+    '''returns None\n\n
+    loadGraph(final GraphTDB graph, final String url)\n
+    loadGraph(final GraphTDB graph, final List<String> urls)\n
+    loadGraph(final GraphTDB graph, final InputStream in)\n
     '''
 def loadDataset():
-    '''public void loadDataset(final DatasetGraphTDB dataset, final String url)
-    public void loadDataset(final DatasetGraphTDB dataset, final List<String> urls)
-    public void loadDataset(final DatasetGraphTDB dataset, final InputStream input)
+    '''returns None\n\n
+    loadDataset(final DatasetGraphTDB dataset, final String url)\n
+    loadDataset(final DatasetGraphTDB dataset, final List<String> urls)\n
+    loadDataset(final DatasetGraphTDB dataset, final InputStream input)\n
     '''
 def getChecking():
-    '''public boolean getChecking()
+    '''returns boolean\n\n
+    getChecking()\n
     '''
 def setChecking():
-    '''public void setChecking(final boolean checking)
+    '''returns None\n\n
+    setChecking(final boolean checking)\n
     '''
 def getShowProgress():
-    '''public boolean getShowProgress()
-    '''
-def setShowProgress():
-    '''public final void setShowProgress(final boolean showProgress)
-    '''
-def getGenerateStats():
-    '''public final boolean getGenerateStats()
-    '''
-def setGenerateStats():
-    '''public final void setGenerateStats(final boolean generateStats)
+    '''returns boolean\n\n
+    getShowProgress()\n
     '''

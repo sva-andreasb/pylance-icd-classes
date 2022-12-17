@@ -1,3 +1,4 @@
 def refreshactualshistory():
-    '''public int refreshactualshistory()
+    '''returns int\n\n
+    refreshactualshistory()\n
     '''

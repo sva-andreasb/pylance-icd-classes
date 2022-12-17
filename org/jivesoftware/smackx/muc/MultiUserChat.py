@@ -1,235 +1,286 @@
 def processStanza():
-    '''public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def getRoom():
-    '''public EntityBareJid getRoom()
-    '''
-def create():
-    '''public synchronized MucCreateConfigFormHandle create(final Resourcepart nickname)
+    '''returns EntityBareJid\n\n
+    getRoom()\n
     '''
 def createOrJoin():
-    '''public synchronized MucCreateConfigFormHandle createOrJoin(final Resourcepart nickname)
-    public MucCreateConfigFormHandle createOrJoin(final Resourcepart nickname, final String password, final DiscussionHistory history, final long timeout)
-    public synchronized MucCreateConfigFormHandle createOrJoin(final MucEnterConfiguration mucEnterConfiguration)
+    '''returns MucCreateConfigFormHandle\n\n
+    createOrJoin(final Resourcepart nickname, final String password, final DiscussionHistory history, final long timeout)\n
     '''
 def createOrJoinIfNecessary():
-    '''public MucCreateConfigFormHandle createOrJoinIfNecessary(final Resourcepart nickname, final String password)
+    '''returns MucCreateConfigFormHandle\n\n
+    createOrJoinIfNecessary(final Resourcepart nickname, final String password)\n
     '''
 def join():
-    '''public void join(final Resourcepart nickname)
-    public void join(final Resourcepart nickname, final String password)
-    public void join(final Resourcepart nickname, final String password, final DiscussionHistory history, final long timeout)
-    public synchronized void join(final MucEnterConfiguration mucEnterConfiguration)
+    '''returns None\n\n
+    join(final Resourcepart nickname)\n
+    join(final Resourcepart nickname, final String password)\n
+    join(final Resourcepart nickname, final String password, final DiscussionHistory history, final long timeout)\n
     '''
 def isJoined():
-    '''public boolean isJoined()
-    '''
-def leave():
-    '''public synchronized void leave()
-    '''
-def leaveSync():
-    '''public synchronized Presence leaveSync()
+    '''returns boolean\n\n
+    isJoined()\n
     '''
 def getConfigFormManager():
-    '''public MucConfigFormManager getConfigFormManager()
-    public MucConfigFormManager getConfigFormManager()
+    '''returns MucConfigFormManager\n\n
+    getConfigFormManager()\n
+    getConfigFormManager()\n
     '''
 def getConfigurationForm():
-    '''public Form getConfigurationForm()
+    '''returns Form\n\n
+    getConfigurationForm()\n
     '''
 def sendConfigurationForm():
-    '''public void sendConfigurationForm(final Form form)
+    '''returns None\n\n
+    sendConfigurationForm(final Form form)\n
     '''
 def getRegistrationForm():
-    '''public Form getRegistrationForm()
+    '''returns Form\n\n
+    getRegistrationForm()\n
     '''
 def sendRegistrationForm():
-    '''public void sendRegistrationForm(final Form form)
+    '''returns None\n\n
+    sendRegistrationForm(final Form form)\n
     '''
 def destroy():
-    '''public void destroy(final String reason, final EntityBareJid alternateJID)
+    '''returns None\n\n
+    destroy(final String reason, final EntityBareJid alternateJID)\n
     '''
 def invite():
-    '''public void invite(final EntityBareJid user, final String reason)
-    public void invite(final Message message, final EntityBareJid user, final String reason)
+    '''returns None\n\n
+    invite(final EntityBareJid user, final String reason)\n
+    invite(final Message message, final EntityBareJid user, final String reason)\n
     '''
 def addInvitationRejectionListener():
-    '''public boolean addInvitationRejectionListener(final InvitationRejectionListener listener)
+    '''returns boolean\n\n
+    addInvitationRejectionListener(final InvitationRejectionListener listener)\n
     '''
 def removeInvitationRejectionListener():
-    '''public boolean removeInvitationRejectionListener(final InvitationRejectionListener listener)
+    '''returns boolean\n\n
+    removeInvitationRejectionListener(final InvitationRejectionListener listener)\n
     '''
 def addSubjectUpdatedListener():
-    '''public boolean addSubjectUpdatedListener(final SubjectUpdatedListener listener)
+    '''returns boolean\n\n
+    addSubjectUpdatedListener(final SubjectUpdatedListener listener)\n
     '''
 def removeSubjectUpdatedListener():
-    '''public boolean removeSubjectUpdatedListener(final SubjectUpdatedListener listener)
+    '''returns boolean\n\n
+    removeSubjectUpdatedListener(final SubjectUpdatedListener listener)\n
     '''
 def addPresenceInterceptor():
-    '''public void addPresenceInterceptor(final PresenceListener presenceInterceptor)
+    '''returns None\n\n
+    addPresenceInterceptor(final PresenceListener presenceInterceptor)\n
     '''
 def removePresenceInterceptor():
-    '''public void removePresenceInterceptor(final PresenceListener presenceInterceptor)
+    '''returns None\n\n
+    removePresenceInterceptor(final PresenceListener presenceInterceptor)\n
     '''
 def getSubject():
-    '''public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
     '''
 def getReservedNickname():
-    '''public String getReservedNickname()
+    '''returns String\n\n
+    getReservedNickname()\n
     '''
 def getNickname():
-    '''public Resourcepart getNickname()
-    '''
-def changeNickname():
-    '''public synchronized void changeNickname(final Resourcepart nickname)
+    '''returns Resourcepart\n\n
+    getNickname()\n
     '''
 def changeAvailabilityStatus():
-    '''public void changeAvailabilityStatus(final String status, final Presence.Mode mode)
+    '''returns None\n\n
+    changeAvailabilityStatus(final String status, final Presence.Mode mode)\n
     '''
 def kickParticipant():
-    '''public void kickParticipant(final Resourcepart nickname, final String reason)
+    '''returns None\n\n
+    kickParticipant(final Resourcepart nickname, final String reason)\n
     '''
 def requestVoice():
-    '''public void requestVoice()
+    '''returns None\n\n
+    requestVoice()\n
     '''
 def grantVoice():
-    '''public void grantVoice(final Collection<Resourcepart> nicknames)
-    public void grantVoice(final Resourcepart nickname)
+    '''returns None\n\n
+    grantVoice(final Collection<Resourcepart> nicknames)\n
+    grantVoice(final Resourcepart nickname)\n
     '''
 def revokeVoice():
-    '''public void revokeVoice(final Collection<Resourcepart> nicknames)
-    public void revokeVoice(final Resourcepart nickname)
+    '''returns None\n\n
+    revokeVoice(final Collection<Resourcepart> nicknames)\n
+    revokeVoice(final Resourcepart nickname)\n
     '''
 def banUsers():
-    '''public void banUsers(final Collection<? extends Jid> jids)
+    '''returns None\n\n
+    banUsers(final Collection<? extends Jid> jids)\n
     '''
 def banUser():
-    '''public void banUser(final Jid jid, final String reason)
+    '''returns None\n\n
+    banUser(final Jid jid, final String reason)\n
     '''
 def grantMembership():
-    '''public void grantMembership(final Collection<? extends Jid> jids)
-    public void grantMembership(final Jid jid)
+    '''returns None\n\n
+    grantMembership(final Collection<? extends Jid> jids)\n
+    grantMembership(final Jid jid)\n
     '''
 def revokeMembership():
-    '''public void revokeMembership(final Collection<? extends Jid> jids)
-    public void revokeMembership(final Jid jid)
+    '''returns None\n\n
+    revokeMembership(final Collection<? extends Jid> jids)\n
+    revokeMembership(final Jid jid)\n
     '''
 def grantModerator():
-    '''public void grantModerator(final Collection<Resourcepart> nicknames)
-    public void grantModerator(final Resourcepart nickname)
+    '''returns None\n\n
+    grantModerator(final Collection<Resourcepart> nicknames)\n
+    grantModerator(final Resourcepart nickname)\n
     '''
 def revokeModerator():
-    '''public void revokeModerator(final Collection<Resourcepart> nicknames)
-    public void revokeModerator(final Resourcepart nickname)
+    '''returns None\n\n
+    revokeModerator(final Collection<Resourcepart> nicknames)\n
+    revokeModerator(final Resourcepart nickname)\n
     '''
 def grantOwnership():
-    '''public void grantOwnership(final Collection<? extends Jid> jids)
-    public void grantOwnership(final Jid jid)
+    '''returns None\n\n
+    grantOwnership(final Collection<? extends Jid> jids)\n
+    grantOwnership(final Jid jid)\n
     '''
 def revokeOwnership():
-    '''public void revokeOwnership(final Collection<? extends Jid> jids)
-    public void revokeOwnership(final Jid jid)
+    '''returns None\n\n
+    revokeOwnership(final Collection<? extends Jid> jids)\n
+    revokeOwnership(final Jid jid)\n
     '''
 def grantAdmin():
-    '''public void grantAdmin(final Collection<? extends Jid> jids)
-    public void grantAdmin(final Jid jid)
+    '''returns None\n\n
+    grantAdmin(final Collection<? extends Jid> jids)\n
+    grantAdmin(final Jid jid)\n
     '''
 def revokeAdmin():
-    '''public void revokeAdmin(final Collection<? extends Jid> jids)
-    public void revokeAdmin(final EntityJid jid)
+    '''returns None\n\n
+    revokeAdmin(final Collection<? extends Jid> jids)\n
+    revokeAdmin(final EntityJid jid)\n
     '''
 def getOccupantsCount():
-    '''public int getOccupantsCount()
+    '''returns int\n\n
+    getOccupantsCount()\n
     '''
 def getOccupants():
-    '''public List<EntityFullJid> getOccupants()
+    '''returns List<EntityFullJid>\n\n
+    getOccupants()\n
     '''
 def getOccupantPresence():
-    '''public Presence getOccupantPresence(final EntityFullJid user)
+    '''returns Presence\n\n
+    getOccupantPresence(final EntityFullJid user)\n
     '''
 def getOccupant():
-    '''public Occupant getOccupant(final EntityFullJid user)
+    '''returns Occupant\n\n
+    getOccupant(final EntityFullJid user)\n
     '''
 def addParticipantListener():
-    '''public boolean addParticipantListener(final PresenceListener listener)
+    '''returns boolean\n\n
+    addParticipantListener(final PresenceListener listener)\n
     '''
 def removeParticipantListener():
-    '''public boolean removeParticipantListener(final PresenceListener listener)
+    '''returns boolean\n\n
+    removeParticipantListener(final PresenceListener listener)\n
     '''
 def getOwners():
-    '''public List<Affiliate> getOwners()
+    '''returns List<Affiliate>\n\n
+    getOwners()\n
     '''
 def getAdmins():
-    '''public List<Affiliate> getAdmins()
+    '''returns List<Affiliate>\n\n
+    getAdmins()\n
     '''
 def getMembers():
-    '''public List<Affiliate> getMembers()
+    '''returns List<Affiliate>\n\n
+    getMembers()\n
     '''
 def getOutcasts():
-    '''public List<Affiliate> getOutcasts()
+    '''returns List<Affiliate>\n\n
+    getOutcasts()\n
     '''
 def getModerators():
-    '''public List<Occupant> getModerators()
+    '''returns List<Occupant>\n\n
+    getModerators()\n
     '''
 def getParticipants():
-    '''public List<Occupant> getParticipants()
+    '''returns List<Occupant>\n\n
+    getParticipants()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final String text)
-    public void sendMessage(final Message message)
+    '''returns None\n\n
+    sendMessage(final String text)\n
+    sendMessage(final Message message)\n
     '''
 def createPrivateChat():
-    '''public Chat createPrivateChat(final EntityFullJid occupant, final ChatMessageListener listener)
+    '''returns Chat\n\n
+    createPrivateChat(final EntityFullJid occupant, final ChatMessageListener listener)\n
     '''
 def createMessage():
-    '''public Message createMessage()
+    '''returns Message\n\n
+    createMessage()\n
     '''
 def pollMessage():
-    '''public Message pollMessage()
+    '''returns Message\n\n
+    pollMessage()\n
     '''
 def nextMessage():
-    '''public Message nextMessage()
-    public Message nextMessage(final long timeout)
+    '''returns Message\n\n
+    nextMessage()\n
+    nextMessage(final long timeout)\n
     '''
 def addMessageListener():
-    '''public boolean addMessageListener(final MessageListener listener)
+    '''returns boolean\n\n
+    addMessageListener(final MessageListener listener)\n
     '''
 def removeMessageListener():
-    '''public boolean removeMessageListener(final MessageListener listener)
+    '''returns boolean\n\n
+    removeMessageListener(final MessageListener listener)\n
     '''
 def changeSubject():
-    '''public void changeSubject(final String subject)
+    '''returns None\n\n
+    changeSubject(final String subject)\n
     '''
 def accept():
-    '''public boolean accept(final Stanza packet)
+    '''returns boolean\n\n
+    accept(final Stanza packet)\n
     '''
 def addUserStatusListener():
-    '''public boolean addUserStatusListener(final UserStatusListener listener)
+    '''returns boolean\n\n
+    addUserStatusListener(final UserStatusListener listener)\n
     '''
 def removeUserStatusListener():
-    '''public boolean removeUserStatusListener(final UserStatusListener listener)
+    '''returns boolean\n\n
+    removeUserStatusListener(final UserStatusListener listener)\n
     '''
 def addParticipantStatusListener():
-    '''public boolean addParticipantStatusListener(final ParticipantStatusListener listener)
+    '''returns boolean\n\n
+    addParticipantStatusListener(final ParticipantStatusListener listener)\n
     '''
 def removeParticipantStatusListener():
-    '''public boolean removeParticipantStatusListener(final ParticipantStatusListener listener)
+    '''returns boolean\n\n
+    removeParticipantStatusListener(final ParticipantStatusListener listener)\n
     '''
 def getXmppConnection():
-    '''public XMPPConnection getXmppConnection()
+    '''returns XMPPConnection\n\n
+    getXmppConnection()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def makeInstant():
-    '''public void makeInstant()
+    '''returns None\n\n
+    makeInstant()\n
     '''

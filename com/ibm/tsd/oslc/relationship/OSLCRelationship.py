@@ -1,3 +1,4 @@
-def OSLCRelationship():
-    '''public OSLCRelationship(final MboSet ms)
+def ():
+    '''returns OSLCRelationship\n\n
+    (final MboSet ms)\n
     '''

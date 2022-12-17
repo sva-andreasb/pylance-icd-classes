@@ -1,12 +1,16 @@
-def SKDActivityGraphicMoveInteractor():
-    '''public SKDActivityGraphicMoveInteractor(final IlvGanttSelectInteractor inter)
+def ():
+    '''returns SKDActivityGraphicMoveInteractor\n\n
+    (final IlvGanttSelectInteractor inter)\n
     '''
 def setupOverlapping():
-    '''public void setupOverlapping(final MXActivity pm, final CustomPMActivityRenderer pmGraphic)
+    '''returns None\n\n
+    setupOverlapping(final MXActivity pm, final CustomPMActivityRenderer pmGraphic)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvGraphicEnumeration ge)
+    '''returns String\n\n
+    getToolTipText(final IlvGraphicEnumeration ge)\n
     '''
 def getCurrentSelectionRenderer():
-    '''public IlvActivityGraphicRenderer getCurrentSelectionRenderer()
+    '''returns IlvActivityGraphicRenderer\n\n
+    getCurrentSelectionRenderer()\n
     '''

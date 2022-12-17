@@ -1,11 +1,14 @@
-def ListWithAutoConstructFlag():
-    '''public ListWithAutoConstructFlag()
-    public ListWithAutoConstructFlag(final Collection<? extends T> c)
-    public ListWithAutoConstructFlag(final int initialCapacity)
+def ():
+    '''returns ListWithAutoConstructFlag\n\n
+    ()\n
+    (final Collection<? extends T> c)\n
+    (final int initialCapacity)\n
     '''
 def setAutoConstruct():
-    '''public void setAutoConstruct(final boolean autoConstruct)
+    '''returns None\n\n
+    setAutoConstruct(final boolean autoConstruct)\n
     '''
 def isAutoConstruct():
-    '''public boolean isAutoConstruct()
+    '''returns boolean\n\n
+    isAutoConstruct()\n
     '''

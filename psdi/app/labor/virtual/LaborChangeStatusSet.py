@@ -1,3 +1,4 @@
-def LaborChangeStatusSet():
-    '''public LaborChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns LaborChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

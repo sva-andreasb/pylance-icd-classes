@@ -1,12 +1,16 @@
-def PmChgCalcScheduleUtil():
-    '''public PmChgCalcScheduleUtil(final MboRemote changeMbo, final Date startDate, final Date endDate, final long constFlags, final int contiguityInterval, final Map<String, PmChgSchedulerTaskInfo> tasksInfoMap)
+def ():
+    '''returns PmChgCalcScheduleUtil\n\n
+    (final MboRemote changeMbo, final Date startDate, final Date endDate, final long constFlags, final int contiguityInterval, final Map<String, PmChgSchedulerTaskInfo> tasksInfoMap)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date startDate)
+    '''returns None\n\n
+    setStartDate(final Date startDate)\n
     '''
 def calculateSchedule():
-    '''public void calculateSchedule()
+    '''returns None\n\n
+    calculateSchedule()\n
     '''

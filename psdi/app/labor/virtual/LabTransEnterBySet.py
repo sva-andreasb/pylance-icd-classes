@@ -1,22 +1,29 @@
-def LabTransEnterBySet():
-    '''public LabTransEnterBySet(final MboServerInterface ms)
+def ():
+    '''returns LabTransEnterBySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def copyPlannedLaborToLabTransSet():
-    '''public void copyPlannedLaborToLabTransSet(final MboSetRemote wmassignmentsSet)
+    '''returns None\n\n
+    copyPlannedLaborToLabTransSet(final MboSetRemote wmassignmentsSet)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setIsLookup():
-    '''public void setIsLookup(final boolean is)
+    '''returns None\n\n
+    setIsLookup(final boolean is)\n
     '''
 def isLookup():
-    '''public boolean isLookup()
+    '''returns boolean\n\n
+    isLookup()\n
     '''
 def saveScreen():
-    '''public void saveScreen(final AMCrewWoLabSetRemote labSet, final AMCrewWoTlSetRemote toolSet, final WMAssignTmpSetRemote assignSet, final LabTransEnterByRemote ownerMbo, final WORemote woRemote, final LabTransSetRemote labTransWOSet, final ToolTransSetRemote toolTransWOSet)
-    public void saveScreen(final AMCrewWoLabSetRemote labSet, final AMCrewWoTlSetRemote toolSet, final WMAssignTmpSetRemote assignSet, final LabTransEnterByRemote ownerMbo)
+    '''returns None\n\n
+    saveScreen(final AMCrewWoLabSetRemote labSet, final AMCrewWoTlSetRemote toolSet, final WMAssignTmpSetRemote assignSet, final LabTransEnterByRemote ownerMbo, final WORemote woRemote, final LabTransSetRemote labTransWOSet, final ToolTransSetRemote toolTransWOSet)\n
+    saveScreen(final AMCrewWoLabSetRemote labSet, final AMCrewWoTlSetRemote toolSet, final WMAssignTmpSetRemote assignSet, final LabTransEnterByRemote ownerMbo)\n
     '''

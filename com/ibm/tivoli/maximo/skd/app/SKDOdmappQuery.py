@@ -1,3 +1,4 @@
-def SKDOdmappQuery():
-    '''public SKDOdmappQuery(final MboSet ms)
+def ():
+    '''returns SKDOdmappQuery\n\n
+    (final MboSet ms)\n
     '''

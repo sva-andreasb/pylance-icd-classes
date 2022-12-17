@@ -1,3 +1,4 @@
-def AMCrewLabUnRestrictedSet():
-    '''public AMCrewLabUnRestrictedSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewLabUnRestrictedSet\n\n
+    (final MboServerInterface ms)\n
     '''

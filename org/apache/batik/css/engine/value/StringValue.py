@@ -1,19 +1,24 @@
-def getCssText():
-    '''public static String getCssText(final short type, final String value)
-    public String getCssText()
-    '''
-def StringValue():
-    '''public StringValue(final short type, final String s)
+def ():
+    '''returns StringValue\n\n
+    (final short type, final String s)\n
     '''
 def getPrimitiveType():
-    '''public short getPrimitiveType()
+    '''returns short\n\n
+    getPrimitiveType()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    '''
+def getCssText():
+    '''returns String\n\n
+    getCssText()\n
     '''
 def getStringValue():
-    '''public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

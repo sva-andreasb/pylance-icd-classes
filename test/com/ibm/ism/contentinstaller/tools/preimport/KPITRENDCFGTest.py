@@ -1,6 +1,8 @@
 def testProcessConnectionElement():
-    '''public void testProcessConnectionElement()
+    '''returns None\n\n
+    testProcessConnectionElement()\n
     '''
 def testProcessConnectionXMLObject():
-    '''public void testProcessConnectionXMLObject()
+    '''returns None\n\n
+    testProcessConnectionXMLObject()\n
     '''

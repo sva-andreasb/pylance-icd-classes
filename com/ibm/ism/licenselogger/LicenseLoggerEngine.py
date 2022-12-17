@@ -1,18 +1,24 @@
-def LicenseLoggerEngine():
-    '''public LicenseLoggerEngine()
+def ():
+    '''returns LicenseLoggerEngine\n\n
+    ()\n
     '''
 def executeLogging():
-    '''public void executeLogging(final CrontaskInstanceRemote crontaskInstance)
+    '''returns None\n\n
+    executeLogging(final CrontaskInstanceRemote crontaskInstance)\n
     '''
 def debug():
-    '''public void debug(final String arg0)
+    '''returns None\n\n
+    debug(final String arg0)\n
     '''
 def error():
-    '''public void error(final String arg0)
+    '''returns None\n\n
+    error(final String arg0)\n
     '''
 def info():
-    '''public void info(final String arg0)
+    '''returns None\n\n
+    info(final String arg0)\n
     '''
 def warn():
-    '''public void warn(final String arg0)
+    '''returns None\n\n
+    warn(final String arg0)\n
     '''

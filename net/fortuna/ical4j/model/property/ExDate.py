@@ -1,16 +1,13 @@
-def ExDate():
-    '''public ExDate()
-    public ExDate(final ParameterList aList, final String aValue)
-    public ExDate(final DateList dList)
-    public ExDate(final ParameterList aList, final DateList dList)
-    '''
-def validate():
-    '''public final void validate()
-    '''
-def Factory():
-    '''public Factory()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final ParameterList aList, final String aValue)\n
+    (final DateList dList)\n
+    (final ParameterList aList, final DateList dList)\n
+    ()\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

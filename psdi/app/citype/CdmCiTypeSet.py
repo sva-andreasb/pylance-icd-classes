@@ -1,3 +1,4 @@
-def CdmCiTypeSet():
-    '''public CdmCiTypeSet(final MboServerInterface ms)
+def ():
+    '''returns CdmCiTypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

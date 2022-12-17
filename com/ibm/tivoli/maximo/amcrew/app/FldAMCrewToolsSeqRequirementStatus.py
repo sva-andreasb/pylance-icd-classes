@@ -1,6 +1,8 @@
-def FldAMCrewToolsSeqRequirementStatus():
-    '''public FldAMCrewToolsSeqRequirementStatus(final MboValue mbv)
+def ():
+    '''returns FldAMCrewToolsSeqRequirementStatus\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

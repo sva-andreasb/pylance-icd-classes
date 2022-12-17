@@ -1,9 +1,12 @@
-def PlusPFldCustomerClassAgree():
-    '''public PlusPFldCustomerClassAgree(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCustomerClassAgree\n\n
+    (final MboValue mboValue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

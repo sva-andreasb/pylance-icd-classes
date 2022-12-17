@@ -1,45 +1,60 @@
 def getColumnName():
-    '''public String getColumnName()
+    '''returns String\n\n
+    getColumnName()\n
     '''
 def setColumnName():
-    '''public void setColumnName(final String string)
+    '''returns None\n\n
+    setColumnName(final String string)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def setLength():
-    '''public void setLength(final int length)
+    '''returns None\n\n
+    setLength(final int length)\n
     '''
 def getMaxType():
-    '''public String getMaxType()
+    '''returns String\n\n
+    getMaxType()\n
     '''
 def setMaxType():
-    '''public void setMaxType(final String datatype)
+    '''returns None\n\n
+    setMaxType(final String datatype)\n
     '''
 def isNullAllowed():
-    '''public boolean isNullAllowed()
+    '''returns boolean\n\n
+    isNullAllowed()\n
     '''
 def setNullAllowed():
-    '''public void setNullAllowed(final boolean nullAllowed)
+    '''returns None\n\n
+    setNullAllowed(final boolean nullAllowed)\n
     '''
 def getPrimaryKeyColSequence():
-    '''public int getPrimaryKeyColSequence()
+    '''returns int\n\n
+    getPrimaryKeyColSequence()\n
     '''
 def setPrimaryKeyColSequence():
-    '''public void setPrimaryKeyColSequence(final int sequenceNumber)
+    '''returns None\n\n
+    setPrimaryKeyColSequence(final int sequenceNumber)\n
     '''
 def getScale():
-    '''public int getScale()
+    '''returns int\n\n
+    getScale()\n
     '''
 def setScale():
-    '''public void setScale(final int scale)
+    '''returns None\n\n
+    setScale(final int scale)\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setTableName():
-    '''public void setTableName(final String tableName)
+    '''returns None\n\n
+    setTableName(final String tableName)\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

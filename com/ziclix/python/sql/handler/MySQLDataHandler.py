@@ -1,6 +1,8 @@
-def MySQLDataHandler():
-    '''public MySQLDataHandler(final DataHandler datahandler)
+def ():
+    '''returns MySQLDataHandler\n\n
+    (final DataHandler datahandler)\n
     '''
 def setJDBCObject():
-    '''public void setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object, final int type)
+    '''returns None\n\n
+    setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object, final int type)\n
     '''

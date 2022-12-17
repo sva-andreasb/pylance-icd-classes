@@ -1,3 +1,4 @@
-def MaxDataPrefixSet():
-    '''public MaxDataPrefixSet(final MboServerInterface ms)
+def ():
+    '''returns MaxDataPrefixSet\n\n
+    (final MboServerInterface ms)\n
     '''

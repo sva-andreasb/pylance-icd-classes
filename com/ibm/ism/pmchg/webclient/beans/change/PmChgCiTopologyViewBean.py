@@ -1,67 +1,69 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmChgCiTopologyViewBean():
-    '''public PmChgCiTopologyViewBean()
+def ():
+    '''returns PmChgCiTopologyViewBean\n\n
+    ()\n
     '''
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''
 def async_push_client_message():
-    '''public void async_push_client_message()
+    '''returns None\n\n
+    async_push_client_message()\n
     '''
 def sendEventToClient():
-    '''public void sendEventToClient(final String eventId, final String eventArg)
+    '''returns None\n\n
+    sendEventToClient(final String eventId, final String eventArg)\n
     '''
 def getPresentationOptions():
-    '''public JSONObject getPresentationOptions()
+    '''returns JSONObject\n\n
+    getPresentationOptions()\n
     '''
 def filterCss():
-    '''public String filterCss(String css, final MiniAppControl control)
+    '''returns String\n\n
+    filterCss(String css, final MiniAppControl control)\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def getApplicationResource():
-    '''public String getApplicationResource(final String path)
+    '''returns String\n\n
+    getApplicationResource(final String path)\n
     '''
 def getClientSession():
-    '''public WebClientSession getClientSession()
-    '''
-def getGloblizationData():
-    '''public Map<Integer, Map<String, String>> getGloblizationData()
-    '''
-def getConfigData():
-    '''public Map<Integer, Map<String, String>> getConfigData()
-    '''
-def getModelState():
-    '''public Map<Integer, Map<String, String>> getModelState()
+    '''returns WebClientSession\n\n
+    getClientSession()\n
     '''
 def setDepthValue():
-    '''public void setDepthValue(@MXEventParam("depth") final String depthStr)
+    '''returns None\n\n
+    setDepthValue(@MXEventParam("depth") final String depthStr)\n
     '''
 def setShowImpacted():
-    '''public void setShowImpacted(@MXEventParam("showImpact") final String impact)
+    '''returns None\n\n
+    setShowImpacted(@MXEventParam("showImpact") final String impact)\n
     '''
 def setDetailView():
-    '''public void setDetailView(@MXEventParam("showDetail") final String detail)
-    '''
-def getAllCIs():
-    '''public Map<Integer, Map<String, String>> getAllCIs(@MXEventParam("cinum") final String cinumValue)
+    '''returns None\n\n
+    setDetailView(@MXEventParam("showDetail") final String detail)\n
     '''
 def getAllClassifications():
-    '''public ArrayList<String> getAllClassifications(@MXEventParam("cinum") final String cinumValue)
+    '''returns ArrayList<String>\n\n
+    getAllClassifications(@MXEventParam("cinum") final String cinumValue)\n
     '''
 def getAllRelationship():
-    '''public ArrayList<String> getAllRelationship(@MXEventParam("cinum") final String cinumValue)
-    '''
-def getRelatedCIs():
-    '''public Map<Integer, Map<String, String>> getRelatedCIs(@MXEventParam("cinum") final String cinumValue)
+    '''returns ArrayList<String>\n\n
+    getAllRelationship(@MXEventParam("cinum") final String cinumValue)\n
     '''
 def getImpactChangeFiltersList():
-    '''public ArrayList<ImplTaskTargetHelper> getImpactChangeFiltersList()
+    '''returns ArrayList<ImplTaskTargetHelper>\n\n
+    getImpactChangeFiltersList()\n
     '''
 def nodeCountExceeded():
-    '''public boolean nodeCountExceeded()
+    '''returns boolean\n\n
+    nodeCountExceeded()\n
     '''
 def depthExceededExceeded():
-    '''public boolean depthExceededExceeded()
+    '''returns boolean\n\n
+    depthExceededExceeded()\n
     '''

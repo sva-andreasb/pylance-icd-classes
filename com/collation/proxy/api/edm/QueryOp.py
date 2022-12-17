@@ -20,16 +20,20 @@ OP_AND = "int  2000"
 OP_ARRAY_CONTAINS = "int  10000"
 OP_INSTANCEOF = "int  100000"
 OP_NOOP = "int  0"
-def QueryOp():
-    '''public QueryOp(final int op, final String arrayClass)
-    public QueryOp(final int op)
+def ():
+    '''returns QueryOp\n\n
+    (final int op, final String arrayClass)\n
+    (final int op)\n
     '''
 def getOp():
-    '''public int getOp()
+    '''returns int\n\n
+    getOp()\n
     '''
 def getArrayClass():
-    '''public String getArrayClass()
+    '''returns String\n\n
+    getArrayClass()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

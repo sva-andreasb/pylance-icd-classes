@@ -1,17 +1,18 @@
-def getInstanceFor():
-    '''public static synchronized IoTControlManager getInstanceFor(final XMPPConnection connection)
-    '''
 def handleIoTIqRequest():
-    '''public IQ handleIoTIqRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIoTIqRequest(final IQ iqRequest)\n
     '''
 def setUsingIq():
-    '''public IoTSetResponse setUsingIq(final FullJid jid, final SetData data)
-    public IoTSetResponse setUsingIq(final FullJid jid, final Collection<? extends SetData> data)
+    '''returns IoTSetResponse\n\n
+    setUsingIq(final FullJid jid, final SetData data)\n
+    setUsingIq(final FullJid jid, final Collection<? extends SetData> data)\n
     '''
 def installThing():
-    '''public void installThing(final Thing thing)
+    '''returns None\n\n
+    installThing(final Thing thing)\n
     '''
 def uninstallThing():
-    '''public Thing uninstallThing(final Thing thing)
-    public Thing uninstallThing(final NodeInfo nodeInfo)
+    '''returns Thing\n\n
+    uninstallThing(final Thing thing)\n
+    uninstallThing(final NodeInfo nodeInfo)\n
     '''

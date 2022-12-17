@@ -1,6 +1,8 @@
 def getConfiguration():
-    '''public Configuration getConfiguration()
+    '''returns Configuration\n\n
+    getConfiguration()\n
     '''
 def startup():
-    '''public void startup()
+    '''returns None\n\n
+    startup()\n
     '''

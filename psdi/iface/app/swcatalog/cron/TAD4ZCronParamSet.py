@@ -1,3 +1,4 @@
-def TAD4ZCronParamSet():
-    '''public TAD4ZCronParamSet(final MboServerInterface ms)
+def ():
+    '''returns TAD4ZCronParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

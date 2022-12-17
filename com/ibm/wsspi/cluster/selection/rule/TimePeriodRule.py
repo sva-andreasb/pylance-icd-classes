@@ -1,33 +1,40 @@
-def TimePeriodRule():
-    '''public TimePeriodRule(final Integer startHours, final Integer startMinutes, final Integer stopHours, final Integer stopMinutes, final List<Identity> clusterMembers, final boolean exclusive)
+def ():
+    '''returns TimePeriodRule\n\n
+    (final Integer startHours, final Integer startMinutes, final Integer stopHours, final Integer stopMinutes, final List<Identity> clusterMembers, final boolean exclusive)\n
     '''
 def subset():
-    '''public void subset(final List identities, final StringBuffer reason)
+    '''returns None\n\n
+    subset(final List identities, final StringBuffer reason)\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def alarm():
-    '''public void alarm(final Object alarmContext)
+    '''returns None\n\n
+    alarm(final Object alarmContext)\n
     '''
 def ruleActive():
-    '''public boolean ruleActive(final long currentMillis)
+    '''returns boolean\n\n
+    ruleActive(final long currentMillis)\n
     '''
 def isDisabled():
-    '''public boolean isDisabled()
+    '''returns boolean\n\n
+    isDisabled()\n
     '''
 def getMemberList():
-    '''public List<Identity> getMemberList()
+    '''returns List<Identity>\n\n
+    getMemberList()\n
     '''
 def setDestroy():
-    '''public void setDestroy()
-    '''
-def suppressErrors():
-    '''public static void suppressErrors()
+    '''returns None\n\n
+    setDestroy()\n
     '''

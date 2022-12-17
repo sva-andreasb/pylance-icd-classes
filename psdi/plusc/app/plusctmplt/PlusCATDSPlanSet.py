@@ -1,3 +1,4 @@
-def PlusCATDSPlanSet():
-    '''public PlusCATDSPlanSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCATDSPlanSet\n\n
+    (final MboServerInterface ms)\n
     '''

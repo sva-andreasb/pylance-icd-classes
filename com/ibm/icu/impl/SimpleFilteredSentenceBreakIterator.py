@@ -1,57 +1,72 @@
-def SimpleFilteredSentenceBreakIterator():
-    '''public SimpleFilteredSentenceBreakIterator(final BreakIterator adoptBreakIterator, final CharsTrie forwardsPartialTrie, final CharsTrie backwardsTrie)
+def ():
+    '''returns Builder\n\n
+    (final BreakIterator adoptBreakIterator, final CharsTrie forwardsPartialTrie, final CharsTrie backwardsTrie)\n
+    (final Locale loc)\n
+    (final ULocale loc)\n
+    ()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def first():
-    '''public int first()
+    '''returns int\n\n
+    first()\n
     '''
 def preceding():
-    '''public int preceding(final int offset)
+    '''returns int\n\n
+    preceding(final int offset)\n
     '''
 def previous():
-    '''public int previous()
+    '''returns int\n\n
+    previous()\n
     '''
 def current():
-    '''public int current()
+    '''returns int\n\n
+    current()\n
     '''
 def isBoundary():
-    '''public boolean isBoundary(final int offset)
+    '''returns boolean\n\n
+    isBoundary(final int offset)\n
     '''
 def next():
-    '''public int next()
-    public int next(final int n)
+    '''returns int\n\n
+    next()\n
+    next(final int n)\n
     '''
 def following():
-    '''public int following(final int offset)
+    '''returns int\n\n
+    following(final int offset)\n
     '''
 def last():
-    '''public int last()
+    '''returns int\n\n
+    last()\n
     '''
 def getText():
-    '''public CharacterIterator getText()
+    '''returns CharacterIterator\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final CharacterIterator newText)
-    '''
-def Builder():
-    '''public Builder(final Locale loc)
-    public Builder(final ULocale loc)
-    public Builder()
+    '''returns None\n\n
+    setText(final CharacterIterator newText)\n
     '''
 def suppressBreakAfter():
-    '''public boolean suppressBreakAfter(final CharSequence str)
+    '''returns boolean\n\n
+    suppressBreakAfter(final CharSequence str)\n
     '''
 def unsuppressBreakAfter():
-    '''public boolean unsuppressBreakAfter(final CharSequence str)
+    '''returns boolean\n\n
+    unsuppressBreakAfter(final CharSequence str)\n
     '''
 def wrapIteratorWithFilter():
-    '''public BreakIterator wrapIteratorWithFilter(final BreakIterator adoptBreakIterator)
+    '''returns BreakIterator\n\n
+    wrapIteratorWithFilter(final BreakIterator adoptBreakIterator)\n
     '''

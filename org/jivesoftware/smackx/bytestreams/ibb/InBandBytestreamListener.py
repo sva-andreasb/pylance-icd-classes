@@ -1,3 +1,4 @@
 def incomingBytestreamRequest():
-    '''public void incomingBytestreamRequest(final BytestreamRequest request)
+    '''returns None\n\n
+    incomingBytestreamRequest(final BytestreamRequest request)\n
     '''

@@ -1,6 +1,8 @@
-def DateSelectorDOW():
-    '''public DateSelectorDOW(final MboSet ms)
+def ():
+    '''returns DateSelectorDOW\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

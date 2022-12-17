@@ -1,18 +1,24 @@
-def Doctypes():
-    '''public Doctypes(final MboSet ms)
+def ():
+    '''returns Doctypes\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def associateFolder():
-    '''public void associateFolder(final String app)
+    '''returns None\n\n
+    associateFolder(final String app)\n
     '''

@@ -1,6 +1,7 @@
-def KeyWrapException():
-    '''public KeyWrapException()
-    public KeyWrapException(final String s)
-    public KeyWrapException(final String message, final Throwable cause)
-    public KeyWrapException(final Throwable cause)
+def ():
+    '''returns KeyWrapException\n\n
+    ()\n
+    (final String s)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

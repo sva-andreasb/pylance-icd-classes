@@ -1,3 +1,4 @@
-def FldPOLinePONum():
-    '''public FldPOLinePONum(final MboValue mbv)
+def ():
+    '''returns FldPOLinePONum\n\n
+    (final MboValue mbv)\n
     '''

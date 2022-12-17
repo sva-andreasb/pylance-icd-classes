@@ -1,3 +1,4 @@
-def ServiceItemSet():
-    '''public ServiceItemSet(final MboServerInterface ms)
+def ():
+    '''returns ServiceItemSet\n\n
+    (final MboServerInterface ms)\n
     '''

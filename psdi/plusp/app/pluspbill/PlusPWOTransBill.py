@@ -1,3 +1,4 @@
-def PlusPWOTransBill():
-    '''public PlusPWOTransBill(final MboSet ms)
+def ():
+    '''returns PlusPWOTransBill\n\n
+    (final MboSet ms)\n
     '''

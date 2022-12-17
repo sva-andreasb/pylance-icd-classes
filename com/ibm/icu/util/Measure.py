@@ -1,18 +1,20 @@
-def Measure():
-    '''public Measure(final Number number, final MeasureUnit unit)
-    '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getNumber():
-    '''public Number getNumber()
+    '''returns Number\n\n
+    getNumber()\n
     '''
 def getUnit():
-    '''public MeasureUnit getUnit()
+    '''returns MeasureUnit\n\n
+    getUnit()\n
     '''

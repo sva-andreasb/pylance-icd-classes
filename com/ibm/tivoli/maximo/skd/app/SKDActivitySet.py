@@ -1,9 +1,12 @@
-def SKDActivitySet():
-    '''public SKDActivitySet(final MboServerInterface ms)
+def ():
+    '''returns SKDActivitySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def isCommitInProgress():
-    '''public boolean isCommitInProgress()
+    '''returns boolean\n\n
+    isCommitInProgress()\n
     '''
 def setCommitInProgress():
-    '''public void setCommitInProgress(final boolean isCommitInProgress)
+    '''returns None\n\n
+    setCommitInProgress(final boolean isCommitInProgress)\n
     '''

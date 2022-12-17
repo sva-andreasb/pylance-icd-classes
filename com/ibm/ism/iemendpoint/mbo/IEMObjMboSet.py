@@ -1,3 +1,4 @@
-def IEMObjMboSet():
-    '''public IEMObjMboSet(final MboServerInterface ms)
+def ():
+    '''returns IEMObjMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,10 +1,13 @@
-def StanzaIdFilter():
-    '''public StanzaIdFilter(final Stanza stanza)
-    public StanzaIdFilter(final String stanzaID)
+def ():
+    '''returns StanzaIdFilter\n\n
+    (final Stanza stanza)\n
+    (final String stanzaID)\n
     '''
 def accept():
-    '''public boolean accept(final Stanza stanza)
+    '''returns boolean\n\n
+    accept(final Stanza stanza)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

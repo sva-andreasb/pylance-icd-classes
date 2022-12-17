@@ -1,40 +1,53 @@
-def CharacterDataImpl():
-    '''public CharacterDataImpl()
+def ():
+    '''returns CharacterDataImpl\n\n
+    ()\n
     '''
 def getChildNodes():
-    '''public NodeList getChildNodes()
+    '''returns NodeList\n\n
+    getChildNodes()\n
     '''
 def getNodeValue():
-    '''public String getNodeValue()
+    '''returns String\n\n
+    getNodeValue()\n
     '''
 def setNodeValue():
-    '''public void setNodeValue(final String nodeValueInternal)
+    '''returns None\n\n
+    setNodeValue(final String nodeValueInternal)\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def getLength():
-    '''public int getLength()
-    public int getLength()
+    '''returns int\n\n
+    getLength()\n
+    getLength()\n
     '''
 def appendData():
-    '''public void appendData(final String str)
+    '''returns None\n\n
+    appendData(final String str)\n
     '''
 def deleteData():
-    '''public void deleteData(final int n, final int n2)
+    '''returns None\n\n
+    deleteData(final int n, final int n2)\n
     '''
 def insertData():
-    '''public void insertData(final int n, final String s)
+    '''returns None\n\n
+    insertData(final int n, final String s)\n
     '''
 def replaceData():
-    '''public void replaceData(final int n, final int n2, final String s)
+    '''returns None\n\n
+    replaceData(final int n, final int n2, final String s)\n
     '''
 def setData():
-    '''public void setData(final String nodeValue)
+    '''returns None\n\n
+    setData(final String nodeValue)\n
     '''
 def substringData():
-    '''public String substringData(final int beginIndex, final int n)
+    '''returns String\n\n
+    substringData(final int beginIndex, final int n)\n
     '''
 def item():
-    '''public Node item(final int n)
+    '''returns Node\n\n
+    item(final int n)\n
     '''

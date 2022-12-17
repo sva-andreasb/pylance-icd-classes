@@ -2,71 +2,83 @@ LEVEL_ALL = "int  0"
 LEVEL_DEBUG = "int  1"
 LEVEL_INFO = "int  2"
 LEVEL_WARN = "int  3"
-def StdErrLog():
-    '''public StdErrLog()
-    public StdErrLog(final String name)
-    public StdErrLog(final String name, final Properties props)
-    '''
-def getLoggingLevel():
-    '''public static int getLoggingLevel(final Properties props, final String name)
+def ():
+    '''returns StdErrLog\n\n
+    ()\n
+    (final String name)\n
+    (final String name, final Properties props)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setPrintLongNames():
-    '''public void setPrintLongNames(final boolean printLongNames)
+    '''returns None\n\n
+    setPrintLongNames(final boolean printLongNames)\n
     '''
 def isPrintLongNames():
-    '''public boolean isPrintLongNames()
+    '''returns boolean\n\n
+    isPrintLongNames()\n
     '''
 def isHideStacks():
-    '''public boolean isHideStacks()
+    '''returns boolean\n\n
+    isHideStacks()\n
     '''
 def setHideStacks():
-    '''public void setHideStacks(final boolean hideStacks)
+    '''returns None\n\n
+    setHideStacks(final boolean hideStacks)\n
     '''
 def isSource():
-    '''public boolean isSource()
+    '''returns boolean\n\n
+    isSource()\n
     '''
 def setSource():
-    '''public void setSource(final boolean source)
+    '''returns None\n\n
+    setSource(final boolean source)\n
     '''
 def warn():
-    '''public void warn(final String msg, final Object... args)
-    public void warn(final Throwable thrown)
-    public void warn(final String msg, final Throwable thrown)
+    '''returns None\n\n
+    warn(final String msg, final Object... args)\n
+    warn(final Throwable thrown)\n
+    warn(final String msg, final Throwable thrown)\n
     '''
 def info():
-    '''public void info(final String msg, final Object... args)
-    public void info(final Throwable thrown)
-    public void info(final String msg, final Throwable thrown)
+    '''returns None\n\n
+    info(final String msg, final Object... args)\n
+    info(final Throwable thrown)\n
+    info(final String msg, final Throwable thrown)\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def setDebugEnabled():
-    '''public void setDebugEnabled(final boolean enabled)
+    '''returns None\n\n
+    setDebugEnabled(final boolean enabled)\n
     '''
 def getLevel():
-    '''public int getLevel()
+    '''returns int\n\n
+    getLevel()\n
     '''
 def setLevel():
-    '''public void setLevel(final int level)
+    '''returns None\n\n
+    setLevel(final int level)\n
     '''
 def setStdErrStream():
-    '''public void setStdErrStream(final PrintStream stream)
+    '''returns None\n\n
+    setStdErrStream(final PrintStream stream)\n
     '''
 def debug():
-    '''public void debug(final String msg, final Object... args)
-    public void debug(final Throwable thrown)
-    public void debug(final String msg, final Throwable thrown)
+    '''returns None\n\n
+    debug(final String msg, final Object... args)\n
+    debug(final Throwable thrown)\n
+    debug(final String msg, final Throwable thrown)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def setProperties():
-    '''public static void setProperties(final Properties props)
+    '''returns String\n\n
+    toString()\n
     '''
 def ignore():
-    '''public void ignore(final Throwable ignored)
+    '''returns None\n\n
+    ignore(final Throwable ignored)\n
     '''

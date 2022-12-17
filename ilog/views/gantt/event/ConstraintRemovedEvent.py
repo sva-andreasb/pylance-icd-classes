@@ -1,13 +1,17 @@
-def ConstraintRemovedEvent():
-    '''public ConstraintRemovedEvent(final IlvGanttModel source, final IlvConstraint a, final boolean b)
-    public ConstraintRemovedEvent(final IlvGanttModel ilvGanttModel, final IlvConstraint ilvConstraint)
+def ():
+    '''returns ConstraintRemovedEvent\n\n
+    (final IlvGanttModel source, final IlvConstraint a, final boolean b)\n
+    (final IlvGanttModel ilvGanttModel, final IlvConstraint ilvConstraint)\n
     '''
 def getGanttModel():
-    '''public IlvGanttModel getGanttModel()
+    '''returns IlvGanttModel\n\n
+    getGanttModel()\n
     '''
 def getConstraint():
-    '''public IlvConstraint getConstraint()
+    '''returns IlvConstraint\n\n
+    getConstraint()\n
     '''
 def isRemovingActivity():
-    '''public boolean isRemovingActivity()
+    '''returns boolean\n\n
+    isRemovingActivity()\n
     '''

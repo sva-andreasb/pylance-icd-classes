@@ -6,35 +6,45 @@ LT_MUX_APP_MASK = "short  16384"
 LT_SERVER_APP = "short  8192"
 LT_MUX_APP = "short  24576"
 LT_LIGHT_CLIENT_USER = "short  4106"
-def STUserInstance():
-    '''public STUserInstance(final STLoginId loginId, final short loginType, final STId stId, final String s, final String s2, final InetAddress ip, final STServer server)
-    public STUserInstance(final NdrInputStream ndrInputStream)
+def ():
+    '''returns STUserInstance\n\n
+    (final STLoginId loginId, final short loginType, final STId stId, final String s, final String s2, final InetAddress ip, final STServer server)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream, final boolean v)
-    public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream, final boolean v)\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getLoginType():
-    '''public short getLoginType()
+    '''returns short\n\n
+    getLoginType()\n
     '''
 def isAnon():
-    '''public boolean isAnon()
+    '''returns boolean\n\n
+    isAnon()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getCommunityName():
-    '''public String getCommunityName()
+    '''returns String\n\n
+    getCommunityName()\n
     '''
 def getServerId():
-    '''public STServer getServerId()
+    '''returns STServer\n\n
+    getServerId()\n
     '''
 def getLoginId():
-    '''public STLoginId getLoginId()
+    '''returns STLoginId\n\n
+    getLoginId()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

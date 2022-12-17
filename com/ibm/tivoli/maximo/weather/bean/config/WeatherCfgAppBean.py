@@ -1,6 +1,4 @@
 def weatherpreviewclick():
-    '''public int weatherpreviewclick()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns int\n\n
+    weatherpreviewclick()\n
     '''

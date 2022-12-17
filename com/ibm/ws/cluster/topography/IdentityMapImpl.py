@@ -1,65 +1,72 @@
-def IdentityMapImpl():
-    '''public IdentityMapImpl(final DescriptionKey key)
+def ():
+    '''returns MementoImpl\n\n
+    (final DescriptionKey key)\n
+    ()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
-    '''
-def get():
-    '''public synchronized Object get(final Object key)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def put():
-    '''public synchronized Object put(final Object key, final Object value)
-    public Object put(final Object key, final Object value, final int delay)
+    '''returns Object\n\n
+    put(final Object key, final Object value, final int delay)\n
     '''
 def remove():
-    '''public synchronized Object remove(final Object key)
-    public Object remove(final Object key, final int delay)
+    '''returns Object\n\n
+    remove(final Object key, final int delay)\n
     '''
 def putAll():
-    '''public void putAll(final Map t)
-    public void putAll(final Map t, final int delay)
+    '''returns None\n\n
+    putAll(final Map t)\n
+    putAll(final Map t, final int delay)\n
     '''
 def removeSet():
-    '''public void removeSet(final Set keys)
-    public void removeSet(final Set keys, final int delay)
+    '''returns None\n\n
+    removeSet(final Set keys)\n
+    removeSet(final Set keys, final int delay)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def keySet():
-    '''public Set keySet()
+    '''returns Set\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection values()
+    '''returns Collection\n\n
+    values()\n
     '''
 def entrySet():
-    '''public Set entrySet()
+    '''returns Set\n\n
+    entrySet()\n
     '''
 def getVersion602EntrySetForInterop():
-    '''public Set getVersion602EntrySetForInterop()
+    '''returns Set\n\n
+    getVersion602EntrySetForInterop()\n
     '''
 def getDefinitionKey():
-    '''public String getDefinitionKey()
-    '''
-def exportToStream():
-    '''public synchronized void exportToStream(final DataOutput out, final Format format)
+    '''returns String\n\n
+    getDefinitionKey()\n
     '''
 def setMemento():
-    '''public void setMemento(final Description.Memento memento)
+    '''returns None\n\n
+    setMemento(final Description.Memento memento)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def MementoImpl():
-    '''public MementoImpl()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

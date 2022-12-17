@@ -1,8 +1,10 @@
 DATA_EXTENSION = "String  \"dim\""
 INDEX_EXTENSION = "String  \"dii\""
 def fieldsWriter():
-    '''public PointsWriter fieldsWriter(final SegmentWriteState state)
+    '''returns PointsWriter\n\n
+    fieldsWriter(final SegmentWriteState state)\n
     '''
 def fieldsReader():
-    '''public PointsReader fieldsReader(final SegmentReadState state)
+    '''returns PointsReader\n\n
+    fieldsReader(final SegmentReadState state)\n
     '''

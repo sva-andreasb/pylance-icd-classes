@@ -1,40 +1,53 @@
-def IlvAbstractStaticViewContainer():
-    '''public IlvAbstractStaticViewContainer()
-    public IlvAbstractStaticViewContainer(final IlvDocumentView ilvDocumentView)
+def ():
+    '''returns IlvAbstractStaticViewContainer\n\n
+    ()\n
+    (final IlvDocumentView ilvDocumentView)\n
     '''
 def getViews():
-    '''public IlvDocumentView[] getViews()
+    '''returns IlvDocumentView[]\n\n
+    getViews()\n
     '''
 def isContainerVisible():
-    '''public boolean isContainerVisible()
+    '''returns boolean\n\n
+    isContainerVisible()\n
     '''
 def setContainerVisible():
-    '''public void setContainerVisible(final boolean b)
+    '''returns None\n\n
+    setContainerVisible(final boolean b)\n
     '''
 def updateAction():
-    '''public boolean updateAction(final Action action)
+    '''returns boolean\n\n
+    updateAction(final Action action)\n
     '''
 def isProcessingAction():
-    '''public boolean isProcessingAction(final String s)
+    '''returns boolean\n\n
+    isProcessingAction(final String s)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def addActionHandler():
-    '''public void addActionHandler(final ActionHandler actionHandler)
+    '''returns None\n\n
+    addActionHandler(final ActionHandler actionHandler)\n
     '''
 def removeActionHandler():
-    '''public boolean removeActionHandler(final ActionHandler actionHandler)
+    '''returns boolean\n\n
+    removeActionHandler(final ActionHandler actionHandler)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String s, final Object o)
+    '''returns Object\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''

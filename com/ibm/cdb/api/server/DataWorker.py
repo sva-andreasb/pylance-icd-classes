@@ -1,97 +1,125 @@
-def DataWorker():
-    '''public DataWorker(final TopologyManagerFactory topologyManagerFactory, final ApiProps props)
+def ():
+    '''returns DataWorker\n\n
+    (final TopologyManagerFactory topologyManagerFactory, final ApiProps props)\n
     '''
 def findXML():
-    '''public String findXML(final ApiServerBean apiServer, final String sessionId, final Guid object_id, final int depth, final int indent, final Guid mss, final String[] permissions)
-    public String findXML(final ApiServerBean apiServer, final String sessionId, final Guid[] objectIds, final int depth, final int indent, final Guid mss, final String[] permissions)
+    '''returns String\n\n
+    findXML(final ApiServerBean apiServer, final String sessionId, final Guid object_id, final int depth, final int indent, final Guid mss, final String[] permissions)\n
+    findXML(final ApiServerBean apiServer, final String sessionId, final Guid[] objectIds, final int depth, final int indent, final Guid mss, final String[] permissions)\n
     '''
 def findInitXML():
-    '''public void findInitXML(final ApiServerBean apiServer, final String sessionId, final String query, final Guid[] guids, final int depth, final int fetch_size, final int indent, final String jdoQuery, final String jdoVarDecl, final Guid mss, final String[] permissions, final String suppressList)
+    '''returns None\n\n
+    findInitXML(final ApiServerBean apiServer, final String sessionId, final String query, final Guid[] guids, final int depth, final int fetch_size, final int indent, final String jdoQuery, final String jdoVarDecl, final Guid mss, final String[] permissions, final String suppressList)\n
     '''
 def nextXML():
-    '''public String nextXML(final String sessionId)
+    '''returns String\n\n
+    nextXML(final String sessionId)\n
     '''
 def findInitCursor():
-    '''public String findInitCursor(final ApiServerBean apiServer, final String sessionId, final String query, final Guid mss, final String[] permissions)
+    '''returns String\n\n
+    findInitCursor(final ApiServerBean apiServer, final String sessionId, final String query, final Guid mss, final String[] permissions)\n
     '''
 def findInitData():
-    '''public void findInitData(final ApiServerBean apiServer, final String sessionId, final String query, final Guid[] guids, final String jdoQuery, final String jdoVarDecl, final Guid mss, final String[] permissions)
-    '''
-def extractClassNameFromQuery():
-    '''public static String extractClassNameFromQuery(String query)
+    '''returns None\n\n
+    findInitData(final ApiServerBean apiServer, final String sessionId, final String query, final Guid[] guids, final String jdoQuery, final String jdoVarDecl, final Guid mss, final String[] permissions)\n
     '''
 def nextDataCursor():
-    '''public ModelObject[] nextDataCursor(final String sessionId, final String cursorId, final int start, final int size, final int depth)
+    '''returns ModelObject[]\n\n
+    nextDataCursor(final String sessionId, final String cursorId, final int start, final int size, final int depth)\n
     '''
 def cursorSize():
-    '''public int cursorSize(final String sessionId, final String cursorId)
+    '''returns int\n\n
+    cursorSize(final String sessionId, final String cursorId)\n
     '''
 def closeCursor():
-    '''public void closeCursor(final String sessionId, final String cursorId)
+    '''returns None\n\n
+    closeCursor(final String sessionId, final String cursorId)\n
     '''
 def nextDataResult():
-    '''public ModelObject[] nextDataResult(final String sessionId, final int start, final int size, final int depth)
+    '''returns ModelObject[]\n\n
+    nextDataResult(final String sessionId, final int start, final int size, final int depth)\n
     '''
 def insert():
-    '''public Guid[] insert(final ApiServerBean bean, final String sessionId, final String xml, final boolean isImport, final Guid mss, final BulkloadInterface bulkloadInterface)
+    '''returns Guid[]\n\n
+    insert(final ApiServerBean bean, final String sessionId, final String xml, final boolean isImport, final Guid mss, final BulkloadInterface bulkloadInterface)\n
     '''
 def add():
-    '''public Guid[] add(final ApiServerBean bean, final String sessionId, final ModelObject[] objs, final Guid mss, final BulkloadInterface bulkloadInterface)
+    '''returns Guid[]\n\n
+    add(final ApiServerBean bean, final String sessionId, final ModelObject[] objs, final Guid mss, final BulkloadInterface bulkloadInterface)\n
     '''
 def update():
-    '''public Guid[] update(final ApiServerBean bean, final String sessionId, final ModelObject[] objs, final Guid mss, final BulkloadInterface bulkloadInterface)
+    '''returns Guid[]\n\n
+    update(final ApiServerBean bean, final String sessionId, final ModelObject[] objs, final Guid mss, final BulkloadInterface bulkloadInterface)\n
     '''
 def deleteById():
-    '''public int deleteById(final ApiServerBean apiServer, final String sessionId, final Guid objectId, final Guid mss, final BulkloadInterface bulkloadInterface)
+    '''returns int\n\n
+    deleteById(final ApiServerBean apiServer, final String sessionId, final Guid objectId, final Guid mss, final BulkloadInterface bulkloadInterface)\n
     '''
 def deleteMssObjLink():
-    '''public void deleteMssObjLink(final ApiServerBean apiServer, final String sessionId, final Guid objGuid, final Guid mssGuid)
+    '''returns None\n\n
+    deleteMssObjLink(final ApiServerBean apiServer, final String sessionId, final Guid objGuid, final Guid mssGuid)\n
     '''
 def getAttributesWithReplacementValues():
-    '''public String[] getAttributesWithReplacementValues(final ApiServerBean apiServer, final String session_id, final String fqModelObjectClass)
+    '''returns String[]\n\n
+    getAttributesWithReplacementValues(final ApiServerBean apiServer, final String session_id, final String fqModelObjectClass)\n
     '''
 def getReplacementValues():
-    '''public String[] getReplacementValues(final ApiServerBean bean, final String session_id, final String fqModelObjectClass, final String attribute)
+    '''returns String[]\n\n
+    getReplacementValues(final ApiServerBean bean, final String session_id, final String fqModelObjectClass, final String attribute)\n
     '''
 def find():
-    '''public ModelObject[] find(final ApiServerBean apiServer, final String sessionId, final Guid[] guids, final String query, final int depth, final String jdoQuery, final String jdoVardecl, final Guid mss, final String[] permissions)
+    '''returns ModelObject[]\n\n
+    find(final ApiServerBean apiServer, final String sessionId, final Guid[] guids, final String query, final int depth, final String jdoQuery, final String jdoVardecl, final Guid mss, final String[] permissions)\n
     '''
 def evaluateGuids():
-    '''public List evaluateGuids(final String sessionId, final ModelObject mo)
+    '''returns List\n\n
+    evaluateGuids(final String sessionId, final ModelObject mo)\n
     '''
 def getGuidAliases():
-    '''public List getGuidAliases(final ApiServerBean apiServer, final String sessionId, final Guid guid)
+    '''returns List\n\n
+    getGuidAliases(final ApiServerBean apiServer, final String sessionId, final Guid guid)\n
     '''
 def updateMerge():
-    '''public LinkedHashMap updateMerge(final ApiServerBean bean, final String sessionId, final ModelObject[] objs, final Guid mss, final BulkloadInterface bulkloadInterface)
+    '''returns LinkedHashMap\n\n
+    updateMerge(final ApiServerBean bean, final String sessionId, final ModelObject[] objs, final Guid mss, final BulkloadInterface bulkloadInterface)\n
     '''
 def getAttrPrioClassMeta():
-    '''public String getAttrPrioClassMeta()
+    '''returns String\n\n
+    getAttrPrioClassMeta()\n
     '''
 def getShortName():
-    '''public String getShortName(final String className)
+    '''returns String\n\n
+    getShortName(final String className)\n
     '''
 def getDataSources():
-    '''public ArrayList getDataSources(final ApiServerBean bean, final String sessionId)
+    '''returns ArrayList\n\n
+    getDataSources(final ApiServerBean bean, final String sessionId)\n
     '''
 def setDataSources():
-    '''public Guid[] setDataSources(final ApiServerBean bean, final String sessionId, final ArrayList dataSources)
+    '''returns Guid[]\n\n
+    setDataSources(final ApiServerBean bean, final String sessionId, final ArrayList dataSources)\n
     '''
 def removeDataSources():
-    '''public void removeDataSources(final ApiServerBean bean, final String sessionId, final ArrayList dataSources)
+    '''returns None\n\n
+    removeDataSources(final ApiServerBean bean, final String sessionId, final ArrayList dataSources)\n
     '''
 def getPriorityRules():
-    '''public ArrayList getPriorityRules(final ApiServerBean bean, final String sessionId)
+    '''returns ArrayList\n\n
+    getPriorityRules(final ApiServerBean bean, final String sessionId)\n
     '''
 def setPriorityRules():
-    '''public Guid[] setPriorityRules(final ApiServerBean bean, final String sessionId, final ArrayList priorityRules)
+    '''returns Guid[]\n\n
+    setPriorityRules(final ApiServerBean bean, final String sessionId, final ArrayList priorityRules)\n
     '''
 def removePriorityRules():
-    '''public void removePriorityRules(final ApiServerBean bean, final String sessionId, final ArrayList priorityRules)
+    '''returns None\n\n
+    removePriorityRules(final ApiServerBean bean, final String sessionId, final ArrayList priorityRules)\n
     '''
 def mergeObjects():
-    '''public int mergeObjects(final ApiServerBean bean, final String sessionId, final Guid durableGuid, final Guid transientGuid, final int mergeType)
+    '''returns int\n\n
+    mergeObjects(final ApiServerBean bean, final String sessionId, final Guid durableGuid, final Guid transientGuid, final int mergeType)\n
     '''
 def assignMssToDataSource():
-    '''public boolean assignMssToDataSource(final ApiServerBean bean, final String sessionId, final Guid mssGuid, final AttributePrioDataSources apds)
+    '''returns boolean\n\n
+    assignMssToDataSource(final ApiServerBean bean, final String sessionId, final Guid mssGuid, final AttributePrioDataSources apds)\n
     '''

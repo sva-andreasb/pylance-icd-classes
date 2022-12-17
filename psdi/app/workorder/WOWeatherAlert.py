@@ -1,3 +1,4 @@
-def WOWeatherAlert():
-    '''public WOWeatherAlert(final MboSet ms)
+def ():
+    '''returns WOWeatherAlert\n\n
+    (final MboSet ms)\n
     '''

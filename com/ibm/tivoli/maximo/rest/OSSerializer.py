@@ -1,6 +1,8 @@
-def OSSerializer():
-    '''public OSSerializer()
+def ():
+    '''returns OSSerializer\n\n
+    ()\n
     '''
 def serialize():
-    '''public ResourceResponse serialize(final Resource res, final ResourceRequest req)
+    '''returns ResourceResponse\n\n
+    serialize(final Resource res, final ResourceRequest req)\n
     '''

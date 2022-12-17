@@ -1,27 +1,36 @@
-def PartBase():
-    '''public PartBase(final String name, final String contentType, final String charSet, final String transferEncoding)
+def ():
+    '''returns PartBase\n\n
+    (final String name, final String contentType, final String charSet, final String transferEncoding)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getCharSet():
-    '''public String getCharSet()
+    '''returns String\n\n
+    getCharSet()\n
     '''
 def getTransferEncoding():
-    '''public String getTransferEncoding()
+    '''returns String\n\n
+    getTransferEncoding()\n
     '''
 def setCharSet():
-    '''public void setCharSet(final String charSet)
+    '''returns None\n\n
+    setCharSet(final String charSet)\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setTransferEncoding():
-    '''public void setTransferEncoding(final String transferEncoding)
+    '''returns None\n\n
+    setTransferEncoding(final String transferEncoding)\n
     '''

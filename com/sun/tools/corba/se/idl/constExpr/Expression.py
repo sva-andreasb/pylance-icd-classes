@@ -1,18 +1,23 @@
-def Expression():
-    '''public Expression()
+def ():
+    '''returns Expression\n\n
+    ()\n
     '''
 def value():
-    '''public void value(final Object value)
-    public Object value()
+    '''returns Object\n\n
+    value(final Object value)\n
+    value()\n
     '''
 def rep():
-    '''public void rep(final String rep)
-    public String rep()
+    '''returns String\n\n
+    rep(final String rep)\n
+    rep()\n
     '''
 def type():
-    '''public void type(final String type)
-    public String type()
+    '''returns String\n\n
+    type(final String type)\n
+    type()\n
     '''
 def coerceToTarget():
-    '''public Object coerceToTarget(final Object o)
+    '''returns Object\n\n
+    coerceToTarget(final Object o)\n
     '''

@@ -1,48 +1,64 @@
-def AssetGraph():
-    '''public AssetGraph()
+def ():
+    '''returns AssetGraph\n\n
+    ()\n
     '''
 def pushVisibleNodeStack():
-    '''public void pushVisibleNodeStack(final AssetNode node)
+    '''returns None\n\n
+    pushVisibleNodeStack(final AssetNode node)\n
     '''
 def popVisibleNodeStack():
-    '''public void popVisibleNodeStack()
+    '''returns None\n\n
+    popVisibleNodeStack()\n
     '''
 def getLastVisibleNode():
-    '''public AssetNode getLastVisibleNode()
+    '''returns AssetNode\n\n
+    getLastVisibleNode()\n
     '''
 def getVisibleNodeStackDepth():
-    '''public int getVisibleNodeStackDepth()
+    '''returns int\n\n
+    getVisibleNodeStackDepth()\n
     '''
 def notVisited():
-    '''public boolean notVisited(final String assetNum)
+    '''returns boolean\n\n
+    notVisited(final String assetNum)\n
     '''
 def pushNodeStack():
-    '''public void pushNodeStack(final AssetNode node)
+    '''returns None\n\n
+    pushNodeStack(final AssetNode node)\n
     '''
 def popNodeStack():
-    '''public void popNodeStack()
+    '''returns None\n\n
+    popNodeStack()\n
     '''
 def getNodeStackDepth():
-    '''public int getNodeStackDepth()
+    '''returns int\n\n
+    getNodeStackDepth()\n
     '''
 def getLastNode():
-    '''public AssetNode getLastNode()
+    '''returns AssetNode\n\n
+    getLastNode()\n
     '''
 def addNode():
-    '''public void addNode(final AssetNode n)
+    '''returns None\n\n
+    addNode(final AssetNode n)\n
     '''
 def addLInk():
-    '''public void addLInk(final AssetLink l)
+    '''returns None\n\n
+    addLInk(final AssetLink l)\n
     '''
 def getNodesSkipped():
-    '''public String getNodesSkipped(final AssetNode from, final AssetNode to)
+    '''returns String\n\n
+    getNodesSkipped(final AssetNode from, final AssetNode to)\n
     '''
 def printLinks():
-    '''public void printLinks(final String assetnum)
+    '''returns None\n\n
+    printLinks(final String assetnum)\n
     '''
 def getLinks():
-    '''public ArrayList<AssetLink> getLinks()
+    '''returns ArrayList<AssetLink>\n\n
+    getLinks()\n
     '''
 def setLinks():
-    '''public void setLinks(final ArrayList<AssetLink> links)
+    '''returns None\n\n
+    setLinks(final ArrayList<AssetLink> links)\n
     '''

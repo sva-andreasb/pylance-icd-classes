@@ -1,31 +1,33 @@
 DATATYPEFACTORY_PROPERTY = "String  \"javax.xml.datatype.DatatypeFactory\""
-def newInstance():
-    '''public static DatatypeFactory newInstance()
-    public static DatatypeFactory newInstance(final String s, ClassLoader contextClassLoader)
-    '''
 def newDuration():
-    '''public Duration newDuration(final boolean b, final int n, final int n2, final int n3, final int n4, final int n5, final int n6)
+    '''returns Duration\n\n
+    newDuration(final boolean b, final int n, final int n2, final int n3, final int n4, final int n5, final int n6)\n
     '''
 def newDurationDayTime():
-    '''public Duration newDurationDayTime(final String str)
-    public Duration newDurationDayTime(final long n)
-    public Duration newDurationDayTime(final boolean b, final BigInteger bigInteger, final BigInteger bigInteger2, final BigInteger bigInteger3, final BigInteger val)
-    public Duration newDurationDayTime(final boolean b, final int n, final int n2, final int n3, final int n4)
+    '''returns Duration\n\n
+    newDurationDayTime(final String str)\n
+    newDurationDayTime(final long n)\n
+    newDurationDayTime(final boolean b, final BigInteger bigInteger, final BigInteger bigInteger2, final BigInteger bigInteger3, final BigInteger val)\n
+    newDurationDayTime(final boolean b, final int n, final int n2, final int n3, final int n4)\n
     '''
 def newDurationYearMonth():
-    '''public Duration newDurationYearMonth(final String str)
-    public Duration newDurationYearMonth(final long n)
-    public Duration newDurationYearMonth(final boolean b, final BigInteger bigInteger, final BigInteger bigInteger2)
-    public Duration newDurationYearMonth(final boolean b, final int n, final int n2)
+    '''returns Duration\n\n
+    newDurationYearMonth(final String str)\n
+    newDurationYearMonth(final long n)\n
+    newDurationYearMonth(final boolean b, final BigInteger bigInteger, final BigInteger bigInteger2)\n
+    newDurationYearMonth(final boolean b, final int n, final int n2)\n
     '''
 def newXMLGregorianCalendar():
-    '''public XMLGregorianCalendar newXMLGregorianCalendar(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int i, final int n7)
+    '''returns XMLGregorianCalendar\n\n
+    newXMLGregorianCalendar(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int i, final int n7)\n
     '''
 def newXMLGregorianCalendarDate():
-    '''public XMLGregorianCalendar newXMLGregorianCalendarDate(final int n, final int n2, final int n3, final int n4)
+    '''returns XMLGregorianCalendar\n\n
+    newXMLGregorianCalendarDate(final int n, final int n2, final int n3, final int n4)\n
     '''
 def newXMLGregorianCalendarTime():
-    '''public XMLGregorianCalendar newXMLGregorianCalendarTime(final int n, final int n2, final int n3, final int n4)
-    public XMLGregorianCalendar newXMLGregorianCalendarTime(final int n, final int n2, final int n3, final BigDecimal bigDecimal, final int n4)
-    public XMLGregorianCalendar newXMLGregorianCalendarTime(final int n, final int n2, final int n3, final int i, final int n4)
+    '''returns XMLGregorianCalendar\n\n
+    newXMLGregorianCalendarTime(final int n, final int n2, final int n3, final int n4)\n
+    newXMLGregorianCalendarTime(final int n, final int n2, final int n3, final BigDecimal bigDecimal, final int n4)\n
+    newXMLGregorianCalendarTime(final int n, final int n2, final int n3, final int i, final int n4)\n
     '''

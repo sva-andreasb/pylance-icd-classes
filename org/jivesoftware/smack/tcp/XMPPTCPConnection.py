@@ -1,111 +1,125 @@
 QUEUE_SIZE = "int  500"
-def XMPPTCPConnection():
-    '''public XMPPTCPConnection(final XMPPTCPConnectionConfiguration config)
-    public XMPPTCPConnection(final CharSequence jid, final String password)
-    public XMPPTCPConnection(final CharSequence username, final String password, final String serviceName)
+def ():
+    '''returns XMPPTCPConnection\n\n
+    (final XMPPTCPConnectionConfiguration config)\n
+    (final CharSequence jid, final String password)\n
+    (final CharSequence username, final String password, final String serviceName)\n
     '''
 def connectionClosedOnError():
-    '''public void connectionClosedOnError(final Exception e)
+    '''returns None\n\n
+    connectionClosedOnError(final Exception e)\n
     '''
 def isSecureConnection():
-    '''public boolean isSecureConnection()
-    '''
-def instantShutdown():
-    '''public synchronized void instantShutdown()
+    '''returns boolean\n\n
+    isSecureConnection()\n
     '''
 def sendNonza():
-    '''public void sendNonza(final Nonza element)
+    '''returns None\n\n
+    sendNonza(final Nonza element)\n
     '''
 def isUsingCompression():
-    '''public boolean isUsingCompression()
+    '''returns boolean\n\n
+    isUsingCompression()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    '''
-def setUseStreamManagementDefault():
-    '''public static void setUseStreamManagementDefault(final boolean useSmDefault)
-    '''
-def setUseStreamManagementResumptiodDefault():
-    '''public static void setUseStreamManagementResumptiodDefault(final boolean useSmResumptionDefault)
-    '''
-def setUseStreamManagementResumptionDefault():
-    '''public static void setUseStreamManagementResumptionDefault(final boolean useSmResumptionDefault)
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def setUseStreamManagement():
-    '''public void setUseStreamManagement(final boolean useSm)
+    '''returns None\n\n
+    setUseStreamManagement(final boolean useSm)\n
     '''
 def setUseStreamManagementResumption():
-    '''public void setUseStreamManagementResumption(final boolean useSmResumption)
+    '''returns None\n\n
+    setUseStreamManagementResumption(final boolean useSmResumption)\n
     '''
 def setPreferredResumptionTime():
-    '''public void setPreferredResumptionTime(final int resumptionTime)
+    '''returns None\n\n
+    setPreferredResumptionTime(final int resumptionTime)\n
     '''
 def addRequestAckPredicate():
-    '''public boolean addRequestAckPredicate(final StanzaFilter predicate)
+    '''returns boolean\n\n
+    addRequestAckPredicate(final StanzaFilter predicate)\n
     '''
 def removeRequestAckPredicate():
-    '''public boolean removeRequestAckPredicate(final StanzaFilter predicate)
+    '''returns boolean\n\n
+    removeRequestAckPredicate(final StanzaFilter predicate)\n
     '''
 def removeAllRequestAckPredicates():
-    '''public void removeAllRequestAckPredicates()
+    '''returns None\n\n
+    removeAllRequestAckPredicates()\n
     '''
 def requestSmAcknowledgement():
-    '''public void requestSmAcknowledgement()
+    '''returns None\n\n
+    requestSmAcknowledgement()\n
     '''
 def sendSmAcknowledgement():
-    '''public void sendSmAcknowledgement()
+    '''returns None\n\n
+    sendSmAcknowledgement()\n
     '''
 def addStanzaAcknowledgedListener():
-    '''public void addStanzaAcknowledgedListener(final StanzaListener listener)
+    '''returns None\n\n
+    addStanzaAcknowledgedListener(final StanzaListener listener)\n
     '''
 def removeStanzaAcknowledgedListener():
-    '''public boolean removeStanzaAcknowledgedListener(final StanzaListener listener)
+    '''returns boolean\n\n
+    removeStanzaAcknowledgedListener(final StanzaListener listener)\n
     '''
 def removeAllStanzaAcknowledgedListeners():
-    '''public void removeAllStanzaAcknowledgedListeners()
+    '''returns None\n\n
+    removeAllStanzaAcknowledgedListeners()\n
     '''
 def addStanzaDroppedListener():
-    '''public void addStanzaDroppedListener(final StanzaListener listener)
+    '''returns None\n\n
+    addStanzaDroppedListener(final StanzaListener listener)\n
     '''
 def removeStanzaDroppedListener():
-    '''public boolean removeStanzaDroppedListener(final StanzaListener listener)
+    '''returns boolean\n\n
+    removeStanzaDroppedListener(final StanzaListener listener)\n
     '''
 def addStanzaIdAcknowledgedListener():
-    '''public StanzaListener addStanzaIdAcknowledgedListener(final String id, final StanzaListener listener)
+    '''returns StanzaListener\n\n
+    addStanzaIdAcknowledgedListener(final String id, final StanzaListener listener)\n
     '''
 def removeStanzaIdAcknowledgedListener():
-    '''public StanzaListener removeStanzaIdAcknowledgedListener(final String id)
+    '''returns StanzaListener\n\n
+    removeStanzaIdAcknowledgedListener(final String id)\n
     '''
 def removeAllStanzaIdAcknowledgedListeners():
-    '''public void removeAllStanzaIdAcknowledgedListeners()
+    '''returns None\n\n
+    removeAllStanzaIdAcknowledgedListeners()\n
     '''
 def isSmAvailable():
-    '''public boolean isSmAvailable()
+    '''returns boolean\n\n
+    isSmAvailable()\n
     '''
 def isSmEnabled():
-    '''public boolean isSmEnabled()
+    '''returns boolean\n\n
+    isSmEnabled()\n
     '''
 def streamWasResumed():
-    '''public boolean streamWasResumed()
+    '''returns boolean\n\n
+    streamWasResumed()\n
     '''
 def isDisconnectedButSmResumptionPossible():
-    '''public boolean isDisconnectedButSmResumptionPossible()
+    '''returns boolean\n\n
+    isDisconnectedButSmResumptionPossible()\n
     '''
 def isSmResumptionPossible():
-    '''public boolean isSmResumptionPossible()
+    '''returns boolean\n\n
+    isSmResumptionPossible()\n
     '''
 def getMaxSmResumptionTime():
-    '''public int getMaxSmResumptionTime()
-    '''
-def setDefaultBundleAndDeferCallback():
-    '''public static void setDefaultBundleAndDeferCallback(final BundleAndDeferCallback defaultBundleAndDeferCallback)
+    '''returns int\n\n
+    getMaxSmResumptionTime()\n
     '''
 def setBundleandDeferCallback():
-    '''public void setBundleandDeferCallback(final BundleAndDeferCallback bundleAndDeferCallback)
+    '''returns None\n\n
+    setBundleandDeferCallback(final BundleAndDeferCallback bundleAndDeferCallback)\n
     '''

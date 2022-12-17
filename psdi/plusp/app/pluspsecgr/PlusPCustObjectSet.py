@@ -1,12 +1,16 @@
-def PlusPCustObjectSet():
-    '''public PlusPCustObjectSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCustObjectSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setBypassCustomerRulesRecriation():
-    '''public void setBypassCustomerRulesRecriation(final boolean bypassCustomerRulesRecriation)
+    '''returns None\n\n
+    setBypassCustomerRulesRecriation(final boolean bypassCustomerRulesRecriation)\n
     '''
 def isBypassCustomerRulesRecriation():
-    '''public boolean isBypassCustomerRulesRecriation()
+    '''returns boolean\n\n
+    isBypassCustomerRulesRecriation()\n
     '''
 def hasNewCustObjCreated():
-    '''public boolean hasNewCustObjCreated()
+    '''returns boolean\n\n
+    hasNewCustObjCreated()\n
     '''

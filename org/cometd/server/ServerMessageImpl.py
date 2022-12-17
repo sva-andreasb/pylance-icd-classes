@@ -1,48 +1,52 @@
-def ServerMessageImpl():
-    '''public ServerMessageImpl()
+def ():
+    '''returns ServerMessageImpl\n\n
+    ()\n
     '''
 def setAssociated():
-    '''public void setAssociated(final ServerMessage.Mutable associated)
+    '''returns None\n\n
+    setAssociated(final ServerMessage.Mutable associated)\n
     '''
 def isLazy():
-    '''public boolean isLazy()
+    '''returns boolean\n\n
+    isLazy()\n
     '''
 def setLazy():
-    '''public void setLazy(final boolean lazy)
+    '''returns None\n\n
+    setLazy(final boolean lazy)\n
     '''
 def getJSON():
-    '''public String getJSON()
+    '''returns String\n\n
+    getJSON()\n
     '''
 def getData():
-    '''public Object getData()
+    '''returns Object\n\n
+    getData()\n
     '''
 def put():
-    '''public Object put(final String key, final Object value)
-    '''
-def getDataAsMap():
-    '''public Map<String, Object> getDataAsMap()
-    '''
-def getExt():
-    '''public Map<String, Object> getExt()
-    '''
-def getAdvice():
-    '''public Map<String, Object> getAdvice()
+    '''returns Object\n\n
+    put(final String key, final Object value)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public Object setValue(final Object value)
+    '''returns Object\n\n
+    setValue(final Object value)\n
     '''

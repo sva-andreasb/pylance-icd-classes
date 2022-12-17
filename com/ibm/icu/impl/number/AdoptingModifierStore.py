@@ -1,16 +1,21 @@
-def AdoptingModifierStore():
-    '''public AdoptingModifierStore(final Modifier positive, final Modifier posZero, final Modifier negZero, final Modifier negative)
-    public AdoptingModifierStore()
+def ():
+    '''returns AdoptingModifierStore\n\n
+    (final Modifier positive, final Modifier posZero, final Modifier negZero, final Modifier negative)\n
+    ()\n
     '''
 def setModifier():
-    '''public void setModifier(final Modifier.Signum signum, final StandardPlural plural, final Modifier mod)
+    '''returns None\n\n
+    setModifier(final Modifier.Signum signum, final StandardPlural plural, final Modifier mod)\n
     '''
 def freeze():
-    '''public void freeze()
+    '''returns None\n\n
+    freeze()\n
     '''
 def getModifierWithoutPlural():
-    '''public Modifier getModifierWithoutPlural(final Modifier.Signum signum)
+    '''returns Modifier\n\n
+    getModifierWithoutPlural(final Modifier.Signum signum)\n
     '''
 def getModifier():
-    '''public Modifier getModifier(final Modifier.Signum signum, final StandardPlural plural)
+    '''returns Modifier\n\n
+    getModifier(final Modifier.Signum signum, final StandardPlural plural)\n
     '''

@@ -1,13 +1,16 @@
 DEFAULT_PORT = "int  37"
 SECONDS_1900_TO_1970 = "long  2208988800L"
-def TimeUDPClient():
-    '''public TimeUDPClient()
+def ():
+    '''returns TimeUDPClient\n\n
+    ()\n
     '''
 def getTime():
-    '''public long getTime(final InetAddress host, final int port)
-    public long getTime(final InetAddress host)
+    '''returns long\n\n
+    getTime(final InetAddress host, final int port)\n
+    getTime(final InetAddress host)\n
     '''
 def getDate():
-    '''public Date getDate(final InetAddress host, final int port)
-    public Date getDate(final InetAddress host)
+    '''returns Date\n\n
+    getDate(final InetAddress host, final int port)\n
+    getDate(final InetAddress host)\n
     '''

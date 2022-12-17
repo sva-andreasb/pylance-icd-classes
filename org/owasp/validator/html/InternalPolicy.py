@@ -1,51 +1,68 @@
 def getEmbedTag():
-    '''public Tag getEmbedTag()
+    '''returns Tag\n\n
+    getEmbedTag()\n
     '''
 def getStyleTag():
-    '''public Tag getStyleTag()
+    '''returns Tag\n\n
+    getStyleTag()\n
     '''
 def isEmbedStyleSheets():
-    '''public boolean isEmbedStyleSheets()
+    '''returns boolean\n\n
+    isEmbedStyleSheets()\n
     '''
 def isPreserveComments():
-    '''public boolean isPreserveComments()
+    '''returns boolean\n\n
+    isPreserveComments()\n
     '''
 def getMaxInputSize():
-    '''public int getMaxInputSize()
+    '''returns int\n\n
+    getMaxInputSize()\n
     '''
 def isEntityEncodeIntlCharacters():
-    '''public boolean isEntityEncodeIntlCharacters()
+    '''returns boolean\n\n
+    isEntityEncodeIntlCharacters()\n
     '''
 def isNofollowAnchors():
-    '''public boolean isNofollowAnchors()
+    '''returns boolean\n\n
+    isNofollowAnchors()\n
     '''
 def isValidateParamAsEmbed():
-    '''public boolean isValidateParamAsEmbed()
+    '''returns boolean\n\n
+    isValidateParamAsEmbed()\n
     '''
 def isFormatOutput():
-    '''public boolean isFormatOutput()
+    '''returns boolean\n\n
+    isFormatOutput()\n
     '''
 def isPreserveSpace():
-    '''public boolean isPreserveSpace()
+    '''returns boolean\n\n
+    isPreserveSpace()\n
     '''
 def isOmitXmlDeclaration():
-    '''public boolean isOmitXmlDeclaration()
+    '''returns boolean\n\n
+    isOmitXmlDeclaration()\n
     '''
 def isUseXhtml():
-    '''public boolean isUseXhtml()
+    '''returns boolean\n\n
+    isUseXhtml()\n
     '''
 def isOmitDoctypeDeclaration():
-    '''public boolean isOmitDoctypeDeclaration()
+    '''returns boolean\n\n
+    isOmitDoctypeDeclaration()\n
     '''
 def getOnUnknownTag():
-    '''public String getOnUnknownTag()
+    '''returns String\n\n
+    getOnUnknownTag()\n
     '''
 def isEncodeUnknownTag():
-    '''public boolean isEncodeUnknownTag()
+    '''returns boolean\n\n
+    isEncodeUnknownTag()\n
     '''
 def isAllowDynamicAttributes():
-    '''public boolean isAllowDynamicAttributes()
+    '''returns boolean\n\n
+    isAllowDynamicAttributes()\n
     '''
 def determineMaxInputSize():
-    '''public int determineMaxInputSize()
+    '''returns int\n\n
+    determineMaxInputSize()\n
     '''

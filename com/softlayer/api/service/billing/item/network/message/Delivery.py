@@ -1,3 +1,4 @@
 def setResource():
-    '''public void setResource(final com.softlayer.api.service.network.message.Delivery resource)
+    '''returns None\n\n
+    setResource(final com.softlayer.api.service.network.message.Delivery resource)\n
     '''

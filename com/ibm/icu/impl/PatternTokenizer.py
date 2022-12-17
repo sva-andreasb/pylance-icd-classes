@@ -6,68 +6,89 @@ LITERAL = "int  2"
 BROKEN_QUOTE = "int  3"
 BROKEN_ESCAPE = "int  4"
 UNKNOWN = "int  5"
-def PatternTokenizer():
-    '''public PatternTokenizer()
+def ():
+    '''returns PatternTokenizer\n\n
+    ()\n
     '''
 def getIgnorableCharacters():
-    '''public UnicodeSet getIgnorableCharacters()
+    '''returns UnicodeSet\n\n
+    getIgnorableCharacters()\n
     '''
 def setIgnorableCharacters():
-    '''public PatternTokenizer setIgnorableCharacters(final UnicodeSet ignorableCharacters)
+    '''returns PatternTokenizer\n\n
+    setIgnorableCharacters(final UnicodeSet ignorableCharacters)\n
     '''
 def getSyntaxCharacters():
-    '''public UnicodeSet getSyntaxCharacters()
+    '''returns UnicodeSet\n\n
+    getSyntaxCharacters()\n
     '''
 def getExtraQuotingCharacters():
-    '''public UnicodeSet getExtraQuotingCharacters()
+    '''returns UnicodeSet\n\n
+    getExtraQuotingCharacters()\n
     '''
 def setSyntaxCharacters():
-    '''public PatternTokenizer setSyntaxCharacters(final UnicodeSet syntaxCharacters)
+    '''returns PatternTokenizer\n\n
+    setSyntaxCharacters(final UnicodeSet syntaxCharacters)\n
     '''
 def setExtraQuotingCharacters():
-    '''public PatternTokenizer setExtraQuotingCharacters(final UnicodeSet syntaxCharacters)
+    '''returns PatternTokenizer\n\n
+    setExtraQuotingCharacters(final UnicodeSet syntaxCharacters)\n
     '''
 def getEscapeCharacters():
-    '''public UnicodeSet getEscapeCharacters()
+    '''returns UnicodeSet\n\n
+    getEscapeCharacters()\n
     '''
 def setEscapeCharacters():
-    '''public PatternTokenizer setEscapeCharacters(final UnicodeSet escapeCharacters)
+    '''returns PatternTokenizer\n\n
+    setEscapeCharacters(final UnicodeSet escapeCharacters)\n
     '''
 def isUsingQuote():
-    '''public boolean isUsingQuote()
+    '''returns boolean\n\n
+    isUsingQuote()\n
     '''
 def setUsingQuote():
-    '''public PatternTokenizer setUsingQuote(final boolean usingQuote)
+    '''returns PatternTokenizer\n\n
+    setUsingQuote(final boolean usingQuote)\n
     '''
 def isUsingSlash():
-    '''public boolean isUsingSlash()
+    '''returns boolean\n\n
+    isUsingSlash()\n
     '''
 def setUsingSlash():
-    '''public PatternTokenizer setUsingSlash(final boolean usingSlash)
+    '''returns PatternTokenizer\n\n
+    setUsingSlash(final boolean usingSlash)\n
     '''
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''
 def setLimit():
-    '''public PatternTokenizer setLimit(final int limit)
+    '''returns PatternTokenizer\n\n
+    setLimit(final int limit)\n
     '''
 def getStart():
-    '''public int getStart()
+    '''returns int\n\n
+    getStart()\n
     '''
 def setStart():
-    '''public PatternTokenizer setStart(final int start)
+    '''returns PatternTokenizer\n\n
+    setStart(final int start)\n
     '''
 def setPattern():
-    '''public PatternTokenizer setPattern(final CharSequence pattern)
-    public PatternTokenizer setPattern(final String pattern)
+    '''returns PatternTokenizer\n\n
+    setPattern(final CharSequence pattern)\n
+    setPattern(final String pattern)\n
     '''
 def quoteLiteral():
-    '''public String quoteLiteral(final CharSequence string)
-    public String quoteLiteral(final String string)
+    '''returns String\n\n
+    quoteLiteral(final CharSequence string)\n
+    quoteLiteral(final String string)\n
     '''
 def normalize():
-    '''public String normalize()
+    '''returns String\n\n
+    normalize()\n
     '''
 def next():
-    '''public int next(final StringBuffer buffer)
+    '''returns int\n\n
+    next(final StringBuffer buffer)\n
     '''

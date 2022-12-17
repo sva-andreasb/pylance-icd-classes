@@ -1,9 +1,12 @@
-def CompareGroup():
-    '''public CompareGroup(final ObjectRef[] left, final ObjectRef[] right)
+def ():
+    '''returns CompareGroup\n\n
+    (final ObjectRef[] left, final ObjectRef[] right)\n
     '''
 def left():
-    '''public ObjectRef[] left()
+    '''returns ObjectRef[]\n\n
+    left()\n
     '''
 def right():
-    '''public ObjectRef[] right()
+    '''returns ObjectRef[]\n\n
+    right()\n
     '''

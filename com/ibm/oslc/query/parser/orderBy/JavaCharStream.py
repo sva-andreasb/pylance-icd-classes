@@ -1,62 +1,77 @@
 staticFlag = "boolean  false"
 def BeginToken():
-    '''public char BeginToken()
+    '''returns char\n\n
+    BeginToken()\n
     '''
 def readChar():
-    '''public char readChar()
+    '''returns char\n\n
+    readChar()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def getLine():
-    '''public int getLine()
+    '''returns int\n\n
+    getLine()\n
     '''
 def getEndColumn():
-    '''public int getEndColumn()
+    '''returns int\n\n
+    getEndColumn()\n
     '''
 def getEndLine():
-    '''public int getEndLine()
+    '''returns int\n\n
+    getEndLine()\n
     '''
 def getBeginColumn():
-    '''public int getBeginColumn()
+    '''returns int\n\n
+    getBeginColumn()\n
     '''
 def getBeginLine():
-    '''public int getBeginLine()
+    '''returns int\n\n
+    getBeginLine()\n
     '''
 def backup():
-    '''public void backup(final int amount)
+    '''returns None\n\n
+    backup(final int amount)\n
     '''
-def JavaCharStream():
-    '''public JavaCharStream(final Reader dstream, final int startline, final int startcolumn, final int buffersize)
-    public JavaCharStream(final Reader dstream, final int startline, final int startcolumn)
-    public JavaCharStream(final Reader dstream)
-    public JavaCharStream(final InputStream dstream, final String encoding, final int startline, final int startcolumn, final int buffersize)
-    public JavaCharStream(final InputStream dstream, final int startline, final int startcolumn, final int buffersize)
-    public JavaCharStream(final InputStream dstream, final String encoding, final int startline, final int startcolumn)
-    public JavaCharStream(final InputStream dstream, final int startline, final int startcolumn)
-    public JavaCharStream(final InputStream dstream, final String encoding)
-    public JavaCharStream(final InputStream dstream)
+def ():
+    '''returns JavaCharStream\n\n
+    (final Reader dstream, final int startline, final int startcolumn, final int buffersize)\n
+    (final Reader dstream, final int startline, final int startcolumn)\n
+    (final Reader dstream)\n
+    (final InputStream dstream, final String encoding, final int startline, final int startcolumn, final int buffersize)\n
+    (final InputStream dstream, final int startline, final int startcolumn, final int buffersize)\n
+    (final InputStream dstream, final String encoding, final int startline, final int startcolumn)\n
+    (final InputStream dstream, final int startline, final int startcolumn)\n
+    (final InputStream dstream, final String encoding)\n
+    (final InputStream dstream)\n
     '''
 def ReInit():
-    '''public void ReInit(final Reader dstream, final int startline, final int startcolumn, final int buffersize)
-    public void ReInit(final Reader dstream, final int startline, final int startcolumn)
-    public void ReInit(final Reader dstream)
-    public void ReInit(final InputStream dstream, final String encoding, final int startline, final int startcolumn, final int buffersize)
-    public void ReInit(final InputStream dstream, final int startline, final int startcolumn, final int buffersize)
-    public void ReInit(final InputStream dstream, final String encoding, final int startline, final int startcolumn)
-    public void ReInit(final InputStream dstream, final int startline, final int startcolumn)
-    public void ReInit(final InputStream dstream, final String encoding)
-    public void ReInit(final InputStream dstream)
+    '''returns None\n\n
+    ReInit(final Reader dstream, final int startline, final int startcolumn, final int buffersize)\n
+    ReInit(final Reader dstream, final int startline, final int startcolumn)\n
+    ReInit(final Reader dstream)\n
+    ReInit(final InputStream dstream, final String encoding, final int startline, final int startcolumn, final int buffersize)\n
+    ReInit(final InputStream dstream, final int startline, final int startcolumn, final int buffersize)\n
+    ReInit(final InputStream dstream, final String encoding, final int startline, final int startcolumn)\n
+    ReInit(final InputStream dstream, final int startline, final int startcolumn)\n
+    ReInit(final InputStream dstream, final String encoding)\n
+    ReInit(final InputStream dstream)\n
     '''
 def GetImage():
-    '''public String GetImage()
+    '''returns String\n\n
+    GetImage()\n
     '''
 def GetSuffix():
-    '''public char[] GetSuffix(final int len)
+    '''returns char[]\n\n
+    GetSuffix(final int len)\n
     '''
 def Done():
-    '''public void Done()
+    '''returns None\n\n
+    Done()\n
     '''
 def adjustBeginLineColumn():
-    '''public void adjustBeginLineColumn(int newLine, final int newCol)
+    '''returns None\n\n
+    adjustBeginLineColumn(int newLine, final int newCol)\n
     '''

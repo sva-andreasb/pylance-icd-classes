@@ -1,4 +1,5 @@
-def WSDDResponseFlow():
-    '''public WSDDResponseFlow()
-    public WSDDResponseFlow(final Element e)
+def ():
+    '''returns WSDDResponseFlow\n\n
+    ()\n
+    (final Element e)\n
     '''

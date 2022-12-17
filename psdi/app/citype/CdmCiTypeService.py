@@ -1,4 +1,5 @@
-def CdmCiTypeService():
-    '''public CdmCiTypeService()
-    public CdmCiTypeService(final MXServer mxServer)
+def ():
+    '''returns CdmCiTypeService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

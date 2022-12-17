@@ -1,3 +1,4 @@
-def BasicClientConfig():
-    '''public BasicClientConfig()
+def ():
+    '''returns BasicClientConfig\n\n
+    ()\n
     '''

@@ -1,51 +1,68 @@
-def Viewer():
-    '''public Viewer()
+def ():
+    '''returns Viewer\n\n
+    ()\n
     '''
 def registerAction():
-    '''public void registerAction(final ViewerAbstractAction action)
+    '''returns None\n\n
+    registerAction(final ViewerAbstractAction action)\n
     '''
 def unregisterAction():
-    '''public void unregisterAction(final ViewerAbstractAction action)
+    '''returns None\n\n
+    unregisterAction(final ViewerAbstractAction action)\n
     '''
 def getAction():
-    '''public ViewerAbstractAction getAction(final String actionID)
+    '''returns ViewerAbstractAction\n\n
+    getAction(final String actionID)\n
     '''
 def setAppletModel():
-    '''public void setAppletModel(final AppletGanttModel appletmodel)
+    '''returns None\n\n
+    setAppletModel(final AppletGanttModel appletmodel)\n
     '''
 def setModel():
-    '''public void setModel(final Object model)
+    '''returns None\n\n
+    setModel(final Object model)\n
     '''
 def setSelected():
-    '''public void setSelected(final Object obj, final boolean selected)
+    '''returns None\n\n
+    setSelected(final Object obj, final boolean selected)\n
     '''
 def deSelectAll():
-    '''public void deSelectAll()
+    '''returns None\n\n
+    deSelectAll()\n
     '''
 def getModel():
-    '''public Object getModel()
+    '''returns Object\n\n
+    getModel()\n
     '''
 def getAppletModel():
-    '''public AppletGanttModel getAppletModel()
+    '''returns AppletGanttModel\n\n
+    getAppletModel()\n
     '''
 def addCurrentViewListener():
-    '''public void addCurrentViewListener(final CurrentViewListener listener)
+    '''returns None\n\n
+    addCurrentViewListener(final CurrentViewListener listener)\n
     '''
 def removeCurrentViewListener():
-    '''public void removeCurrentViewListener(final CurrentViewListener listener)
+    '''returns None\n\n
+    removeCurrentViewListener(final CurrentViewListener listener)\n
     '''
 def getCurrentView():
-    '''public View getCurrentView()
+    '''returns View\n\n
+    getCurrentView()\n
     '''
 def isCurrentView():
-    '''public boolean isCurrentView(final View view)
+    '''returns boolean\n\n
+    isCurrentView(final View view)\n
     '''
 def setCurrentView():
-    '''public void setCurrentView(final View currentView)
+    '''returns None\n\n
+    setCurrentView(final View currentView)\n
     '''
 def views():
-    '''public Collection<View> views()
+    '''returns Collection<View>\n\n
+    views()\n
     '''
 def getView():
-    '''public View getView(final String iD)
+    '''returns View\n\n
+    getView(final String iD)\n
     '''

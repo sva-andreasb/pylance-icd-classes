@@ -1,3 +1,4 @@
 def selmats():
-    '''public int selmats()
+    '''returns int\n\n
+    selmats()\n
     '''

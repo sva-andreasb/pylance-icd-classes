@@ -1,27 +1,25 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DeleteTopicsRequest():
-    '''public DeleteTopicsRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final Set<String> topics, final Integer timeout)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def topics():
-    '''public Set<String> topics()
+    '''returns Set<String>\n\n
+    topics()\n
     '''
 def timeout():
-    '''public Integer timeout()
-    '''
-def parse():
-    '''public static DeleteTopicsRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final Set<String> topics, final Integer timeout)
+    '''returns Integer\n\n
+    timeout()\n
     '''
 def build():
-    '''public DeleteTopicsRequest build(final short version)
+    '''returns DeleteTopicsRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

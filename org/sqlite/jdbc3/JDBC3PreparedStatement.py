@@ -1,133 +1,174 @@
 def clearParameters():
-    '''public void clearParameters()
+    '''returns None\n\n
+    clearParameters()\n
     '''
 def execute():
-    '''public boolean execute()
-    public boolean execute(final String sql)
+    '''returns boolean\n\n
+    execute()\n
+    execute(final String sql)\n
     '''
 def executeQuery():
-    '''public ResultSet executeQuery()
-    public ResultSet executeQuery(final String sql)
+    '''returns ResultSet\n\n
+    executeQuery()\n
+    executeQuery(final String sql)\n
     '''
 def executeUpdate():
-    '''public int executeUpdate()
-    public int executeUpdate(final String sql)
+    '''returns int\n\n
+    executeUpdate()\n
+    executeUpdate(final String sql)\n
     '''
 def addBatch():
-    '''public void addBatch()
-    public void addBatch(final String sql)
+    '''returns None\n\n
+    addBatch()\n
+    addBatch(final String sql)\n
     '''
 def getParameterMetaData():
-    '''public ParameterMetaData getParameterMetaData()
+    '''returns ParameterMetaData\n\n
+    getParameterMetaData()\n
     '''
 def getParameterCount():
-    '''public int getParameterCount()
+    '''returns int\n\n
+    getParameterCount()\n
     '''
 def getParameterClassName():
-    '''public String getParameterClassName(final int param)
+    '''returns String\n\n
+    getParameterClassName(final int param)\n
     '''
 def getParameterTypeName():
-    '''public String getParameterTypeName(final int pos)
+    '''returns String\n\n
+    getParameterTypeName(final int pos)\n
     '''
 def getParameterType():
-    '''public int getParameterType(final int pos)
+    '''returns int\n\n
+    getParameterType(final int pos)\n
     '''
 def getParameterMode():
-    '''public int getParameterMode(final int pos)
+    '''returns int\n\n
+    getParameterMode(final int pos)\n
     '''
 def getPrecision():
-    '''public int getPrecision(final int pos)
+    '''returns int\n\n
+    getPrecision(final int pos)\n
     '''
 def getScale():
-    '''public int getScale(final int pos)
+    '''returns int\n\n
+    getScale(final int pos)\n
     '''
 def isNullable():
-    '''public int isNullable(final int pos)
+    '''returns int\n\n
+    isNullable(final int pos)\n
     '''
 def isSigned():
-    '''public boolean isSigned(final int pos)
+    '''returns boolean\n\n
+    isSigned(final int pos)\n
     '''
 def getStatement():
-    '''public Statement getStatement()
+    '''returns Statement\n\n
+    getStatement()\n
     '''
 def setBigDecimal():
-    '''public void setBigDecimal(final int pos, final BigDecimal value)
+    '''returns None\n\n
+    setBigDecimal(final int pos, final BigDecimal value)\n
     '''
 def setBinaryStream():
-    '''public void setBinaryStream(final int pos, final InputStream istream, final int length)
+    '''returns None\n\n
+    setBinaryStream(final int pos, final InputStream istream, final int length)\n
     '''
 def setAsciiStream():
-    '''public void setAsciiStream(final int pos, final InputStream istream, final int length)
+    '''returns None\n\n
+    setAsciiStream(final int pos, final InputStream istream, final int length)\n
     '''
 def setUnicodeStream():
-    '''public void setUnicodeStream(final int pos, final InputStream istream, final int length)
+    '''returns None\n\n
+    setUnicodeStream(final int pos, final InputStream istream, final int length)\n
     '''
 def setBoolean():
-    '''public void setBoolean(final int pos, final boolean value)
+    '''returns None\n\n
+    setBoolean(final int pos, final boolean value)\n
     '''
 def setByte():
-    '''public void setByte(final int pos, final byte value)
+    '''returns None\n\n
+    setByte(final int pos, final byte value)\n
     '''
 def setBytes():
-    '''public void setBytes(final int pos, final byte[] value)
+    '''returns None\n\n
+    setBytes(final int pos, final byte[] value)\n
     '''
 def setDouble():
-    '''public void setDouble(final int pos, final double value)
+    '''returns None\n\n
+    setDouble(final int pos, final double value)\n
     '''
 def setFloat():
-    '''public void setFloat(final int pos, final float value)
+    '''returns None\n\n
+    setFloat(final int pos, final float value)\n
     '''
 def setInt():
-    '''public void setInt(final int pos, final int value)
+    '''returns None\n\n
+    setInt(final int pos, final int value)\n
     '''
 def setLong():
-    '''public void setLong(final int pos, final long value)
+    '''returns None\n\n
+    setLong(final int pos, final long value)\n
     '''
 def setNull():
-    '''public void setNull(final int pos, final int u1)
-    public void setNull(final int pos, final int u1, final String u2)
+    '''returns None\n\n
+    setNull(final int pos, final int u1)\n
+    setNull(final int pos, final int u1, final String u2)\n
     '''
 def setObject():
-    '''public void setObject(final int pos, final Object value)
-    public void setObject(final int p, final Object v, final int t)
-    public void setObject(final int p, final Object v, final int t, final int s)
+    '''returns None\n\n
+    setObject(final int pos, final Object value)\n
+    setObject(final int p, final Object v, final int t)\n
+    setObject(final int p, final Object v, final int t, final int s)\n
     '''
 def setShort():
-    '''public void setShort(final int pos, final short value)
+    '''returns None\n\n
+    setShort(final int pos, final short value)\n
     '''
 def setString():
-    '''public void setString(final int pos, final String value)
+    '''returns None\n\n
+    setString(final int pos, final String value)\n
     '''
 def setCharacterStream():
-    '''public void setCharacterStream(final int pos, final Reader reader, final int length)
+    '''returns None\n\n
+    setCharacterStream(final int pos, final Reader reader, final int length)\n
     '''
 def setDate():
-    '''public void setDate(final int pos, final java.sql.Date x)
-    public void setDate(final int pos, final java.sql.Date x, final Calendar cal)
+    '''returns None\n\n
+    setDate(final int pos, final java.sql.Date x)\n
+    setDate(final int pos, final java.sql.Date x, final Calendar cal)\n
     '''
 def setTime():
-    '''public void setTime(final int pos, final Time x)
-    public void setTime(final int pos, final Time x, final Calendar cal)
+    '''returns None\n\n
+    setTime(final int pos, final Time x)\n
+    setTime(final int pos, final Time x, final Calendar cal)\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final int pos, final Timestamp x)
-    public void setTimestamp(final int pos, final Timestamp x, final Calendar cal)
+    '''returns None\n\n
+    setTimestamp(final int pos, final Timestamp x)\n
+    setTimestamp(final int pos, final Timestamp x, final Calendar cal)\n
     '''
 def getMetaData():
-    '''public ResultSetMetaData getMetaData()
+    '''returns ResultSetMetaData\n\n
+    getMetaData()\n
     '''
 def setArray():
-    '''public void setArray(final int i, final Array x)
+    '''returns None\n\n
+    setArray(final int i, final Array x)\n
     '''
 def setBlob():
-    '''public void setBlob(final int i, final Blob x)
+    '''returns None\n\n
+    setBlob(final int i, final Blob x)\n
     '''
 def setClob():
-    '''public void setClob(final int i, final Clob x)
+    '''returns None\n\n
+    setClob(final int i, final Clob x)\n
     '''
 def setRef():
-    '''public void setRef(final int i, final Ref x)
+    '''returns None\n\n
+    setRef(final int i, final Ref x)\n
     '''
 def setURL():
-    '''public void setURL(final int pos, final URL x)
+    '''returns None\n\n
+    setURL(final int pos, final URL x)\n
     '''

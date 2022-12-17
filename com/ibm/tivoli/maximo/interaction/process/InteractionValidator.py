@@ -1,15 +1,20 @@
-def InteractionValidator():
-    '''public InteractionValidator(final String name, final UserInfo userInfo)
+def ():
+    '''returns InteractionValidator\n\n
+    (final String name, final UserInfo userInfo)\n
     '''
 def validateInteraction():
-    '''public List<Object> validateInteraction(final boolean validateMenuOption, final boolean validateDialog, final MboSetRemote set)
+    '''returns List<Object>\n\n
+    validateInteraction(final boolean validateMenuOption, final boolean validateDialog, final MboSetRemote set)\n
     '''
 def validateObjectStructure():
-    '''public boolean validateObjectStructure(final String osName, boolean success, final MboSetRemote set)
+    '''returns boolean\n\n
+    validateObjectStructure(final String osName, boolean success, final MboSetRemote set)\n
     '''
 def validateEndPoint():
-    '''public boolean validateEndPoint(final String name, boolean success, final MboSetRemote set)
+    '''returns boolean\n\n
+    validateEndPoint(final String name, boolean success, final MboSetRemote set)\n
     '''
 def validateObjectAndRelations():
-    '''public boolean validateObjectAndRelations(final List<MosDetailInfo> list, boolean success, final MboSetRemote set)
+    '''returns boolean\n\n
+    validateObjectAndRelations(final List<MosDetailInfo> list, boolean success, final MboSetRemote set)\n
     '''

@@ -1,15 +1,20 @@
-def WebSocketBuffers():
-    '''public WebSocketBuffers(final int bufferSize)
+def ():
+    '''returns WebSocketBuffers\n\n
+    (final int bufferSize)\n
     '''
 def getBuffer():
-    '''public Buffer getBuffer()
+    '''returns Buffer\n\n
+    getBuffer()\n
     '''
 def getDirectBuffer():
-    '''public Buffer getDirectBuffer()
+    '''returns Buffer\n\n
+    getDirectBuffer()\n
     '''
 def returnBuffer():
-    '''public void returnBuffer(final Buffer buffer)
+    '''returns None\n\n
+    returnBuffer(final Buffer buffer)\n
     '''
 def getBufferSize():
-    '''public int getBufferSize()
+    '''returns int\n\n
+    getBufferSize()\n
     '''

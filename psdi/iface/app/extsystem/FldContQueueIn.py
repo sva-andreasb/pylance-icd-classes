@@ -1,3 +1,4 @@
-def FldContQueueIn():
-    '''public FldContQueueIn(final MboValue mbv)
+def ():
+    '''returns FldContQueueIn\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,18 +1,24 @@
-def IndexItemTag():
-    '''public IndexItemTag()
+def ():
+    '''returns IndexItemTag\n\n
+    ()\n
     '''
 def setIndexView():
-    '''public void setIndexView(final IndexView view)
+    '''returns None\n\n
+    setIndexView(final IndexView view)\n
     '''
 def setBaseID():
-    '''public void setBaseID(final String baseID)
+    '''returns None\n\n
+    setBaseID(final String baseID)\n
     '''
 def setHelpBroker():
-    '''public void setHelpBroker(final HelpBroker hb)
+    '''returns None\n\n
+    setHelpBroker(final HelpBroker hb)\n
     '''
 def doStartTag():
-    '''public int doStartTag()
+    '''returns int\n\n
+    doStartTag()\n
     '''
 def doAfterBody():
-    '''public int doAfterBody()
+    '''returns int\n\n
+    doAfterBody()\n
     '''

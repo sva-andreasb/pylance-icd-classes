@@ -1,21 +1,28 @@
 def getByteCount():
-    '''public long getByteCount()
+    '''returns long\n\n
+    getByteCount()\n
     '''
-def HttpThroughputResponseWrapper():
-    '''public HttpThroughputResponseWrapper(final HttpServletResponse response)
+def ():
+    '''returns HttpThroughputResponseWrapper\n\n
+    (final HttpServletResponse response)\n
     '''
 def createOutputStream():
-    '''public ServletOutputStream createOutputStream()
+    '''returns ServletOutputStream\n\n
+    createOutputStream()\n
     '''
 def finishResponse():
-    '''public void finishResponse()
+    '''returns None\n\n
+    finishResponse()\n
     '''
 def flushBuffer():
-    '''public void flushBuffer()
+    '''returns None\n\n
+    flushBuffer()\n
     '''
 def getOutputStream():
-    '''public ServletOutputStream getOutputStream()
+    '''returns ServletOutputStream\n\n
+    getOutputStream()\n
     '''
 def getWriter():
-    '''public PrintWriter getWriter()
+    '''returns PrintWriter\n\n
+    getWriter()\n
     '''

@@ -1,6 +1,8 @@
-def RtfChapter():
-    '''public RtfChapter(final RtfDocument doc, final Chapter chapter)
+def ():
+    '''returns RtfChapter\n\n
+    (final RtfDocument doc, final Chapter chapter)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

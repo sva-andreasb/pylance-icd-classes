@@ -1,6 +1,8 @@
-def FldKPIClause():
-    '''public FldKPIClause(final MboValue mbv)
+def ():
+    '''returns FldKPIClause\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

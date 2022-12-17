@@ -1,38 +1,46 @@
-def Query():
-    '''public Query()
-    public Query(final Graph pattern)
+def ():
+    '''returns UnboundVariableException\n\n
+    ()\n
+    (final Graph pattern)\n
+    (final Node n)\n
     '''
 def addMatch():
-    '''public Query addMatch(final Node s, final Node p, final Node o)
-    public Query addMatch(final Triple t)
+    '''returns Query\n\n
+    addMatch(final Node s, final Node p, final Node o)\n
+    addMatch(final Triple t)\n
     '''
 def getPattern():
-    '''public List<Triple> getPattern()
+    '''returns List<Triple>\n\n
+    getPattern()\n
     '''
 def getConstraints():
-    '''public ExpressionSet getConstraints()
+    '''returns ExpressionSet\n\n
+    getConstraints()\n
     '''
 def addConstraint():
-    '''public Query addConstraint(final Expression e)
+    '''returns Query\n\n
+    addConstraint(final Expression e)\n
     '''
 def executeBindings():
-    '''public ExtendedIterator<Domain> executeBindings(final Graph g, final Node[] results)
-    public ExtendedIterator<Domain> executeBindings(final Graph g, final List<Stage> stages, final Node[] results)
-    public ExtendedIterator<Domain> executeBindings(final NamedGraphMap args, final Node[] nodes)
-    public ExtendedIterator<Domain> executeBindings(final List<Stage> outStages, final NamedGraphMap args, final Node[] nodes)
+    '''returns ExtendedIterator<Domain>\n\n
+    executeBindings(final Graph g, final Node[] results)\n
+    executeBindings(final Graph g, final List<Stage> stages, final Node[] results)\n
+    executeBindings(final NamedGraphMap args, final Node[] nodes)\n
+    executeBindings(final List<Stage> outStages, final NamedGraphMap args, final Node[] nodes)\n
     '''
 def args():
-    '''public NamedGraphMap args()
+    '''returns NamedGraphMap\n\n
+    args()\n
     '''
 def getSorter():
-    '''public TripleSorter getSorter()
+    '''returns TripleSorter\n\n
+    getSorter()\n
     '''
 def setTripleSorter():
-    '''public void setTripleSorter(final TripleSorter ts)
+    '''returns None\n\n
+    setTripleSorter(final TripleSorter ts)\n
     '''
 def getVariableCount():
-    '''public int getVariableCount()
-    '''
-def UnboundVariableException():
-    '''public UnboundVariableException(final Node n)
+    '''returns int\n\n
+    getVariableCount()\n
     '''

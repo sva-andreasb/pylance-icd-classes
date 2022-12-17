@@ -1,54 +1,71 @@
-def Key():
-    '''public Key()
-    public Key(final String s)
+def ():
+    '''returns Key\n\n
+    ()\n
+    (final String s)\n
     '''
 def setBytes():
-    '''public Key setBytes(final byte[] keyBytes, final int keyOffset)
+    '''returns Key\n\n
+    setBytes(final byte[] keyBytes, final int keyOffset)\n
     '''
 def setToEmpty():
-    '''public Key setToEmpty()
+    '''returns Key\n\n
+    setToEmpty()\n
     '''
 def setString():
-    '''public Key setString(final String s)
+    '''returns Key\n\n
+    setString(final String s)\n
     '''
 def clone():
-    '''public Key clone()
+    '''returns Key\n\n
+    clone()\n
     '''
 def charAt():
-    '''public char charAt(final int i)
+    '''returns char\n\n
+    charAt(final int i)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def subSequence():
-    '''public Key subSequence(final int start, final int end)
+    '''returns Key\n\n
+    subSequence(final int start, final int end)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def substring():
-    '''public String substring(final int start)
-    public String substring(final int start, final int end)
+    '''returns String\n\n
+    substring(final int start)\n
+    substring(final int start, final int end)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def contentEquals():
-    '''public boolean contentEquals(final CharSequence cs)
+    '''returns boolean\n\n
+    contentEquals(final CharSequence cs)\n
     '''
 def startsWith():
-    '''public boolean startsWith(final CharSequence cs)
+    '''returns boolean\n\n
+    startsWith(final CharSequence cs)\n
     '''
 def endsWith():
-    '''public boolean endsWith(final CharSequence cs)
+    '''returns boolean\n\n
+    endsWith(final CharSequence cs)\n
     '''
 def regionMatches():
-    '''public boolean regionMatches(final int start, final CharSequence cs)
+    '''returns boolean\n\n
+    regionMatches(final int start, final CharSequence cs)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final Key other)
-    public int compareTo(final CharSequence cs)
+    '''returns int\n\n
+    compareTo(final Key other)\n
+    compareTo(final CharSequence cs)\n
     '''

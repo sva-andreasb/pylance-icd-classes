@@ -1,9 +1,12 @@
-def DepAllocSchedDefSet():
-    '''public DepAllocSchedDefSet(final MboServerInterface ms)
+def ():
+    '''returns DepAllocSchedDefSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

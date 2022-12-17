@@ -1,6 +1,8 @@
 def getSession():
-    '''public IMSession getSession()
+    '''returns IMSession\n\n
+    getSession()\n
     '''
 def getType():
-    '''public IMEventType getType()
+    '''returns IMEventType\n\n
+    getType()\n
     '''

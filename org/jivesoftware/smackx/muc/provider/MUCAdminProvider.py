@@ -1,3 +1,4 @@
 def parse():
-    '''public MUCAdmin parse(final XmlPullParser parser, final int initialDepth)
+    '''returns MUCAdmin\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

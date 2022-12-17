@@ -1,30 +1,40 @@
-def ExtDrillDown():
-    '''public ExtDrillDown(final MboSet ms)
+def ():
+    '''returns ExtDrillDown\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setPointedMbo():
-    '''public void setPointedMbo(final MboRemote mbo)
+    '''returns None\n\n
+    setPointedMbo(final MboRemote mbo)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def getOrgId():
-    '''public String getOrgId()
+    '''returns String\n\n
+    getOrgId()\n
     '''
 def getSiteId():
-    '''public String getSiteId()
+    '''returns String\n\n
+    getSiteId()\n
     '''
 def getPointedMbo():
-    '''public MboRemote getPointedMbo()
+    '''returns MboRemote\n\n
+    getPointedMbo()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getObjectValue():
-    '''public Long getObjectValue()
+    '''returns Long\n\n
+    getObjectValue()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''

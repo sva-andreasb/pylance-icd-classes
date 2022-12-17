@@ -1,9 +1,12 @@
-def ICSubLogger():
-    '''public ICSubLogger(final PrintStream... outputs)
+def ():
+    '''returns ICSubLogger\n\n
+    (final PrintStream... outputs)\n
     '''
 def doAppend():
-    '''public boolean doAppend(final LoggingEvent event)
+    '''returns boolean\n\n
+    doAppend(final LoggingEvent event)\n
     '''
 def info():
-    '''public boolean info(final String loggerName, final Object msg)
+    '''returns boolean\n\n
+    info(final String loggerName, final Object msg)\n
     '''

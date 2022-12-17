@@ -1,4 +1,5 @@
-def InvalidKeyException():
-    '''public InvalidKeyException()
-    public InvalidKeyException(final String s)
+def ():
+    '''returns InvalidKeyException\n\n
+    ()\n
+    (final String s)\n
     '''

@@ -1,21 +1,28 @@
-def SystemsBaseBean():
-    '''public SystemsBaseBean()
+def ():
+    '''returns SystemsBaseBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getViewer():
-    '''public BIMViewer getViewer()
+    '''returns BIMViewer\n\n
+    getViewer()\n
     '''
 def getModelLocation():
-    '''public String getModelLocation()
+    '''returns String\n\n
+    getModelLocation()\n
     '''
 def getTree():
-    '''public SystemsTreeBean getTree()
+    '''returns SystemsTreeBean\n\n
+    getTree()\n
     '''
 def lookupAllLocationsForSystem():
-    '''public MboSetRemote lookupAllLocationsForSystem(final String systemId, final String siteId)
+    '''returns MboSetRemote\n\n
+    lookupAllLocationsForSystem(final String systemId, final String siteId)\n
     '''
 def setSetStartingLoc():
-    '''public void setSetStartingLoc(final boolean setStartingLoc)
+    '''returns None\n\n
+    setSetStartingLoc(final boolean setStartingLoc)\n
     '''

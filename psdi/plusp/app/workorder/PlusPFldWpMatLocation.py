@@ -1,6 +1,8 @@
-def PlusPFldWpMatLocation():
-    '''public PlusPFldWpMatLocation(final MboValue arg0)
+def ():
+    '''returns PlusPFldWpMatLocation\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

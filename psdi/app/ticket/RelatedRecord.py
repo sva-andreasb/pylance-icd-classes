@@ -1,30 +1,40 @@
-def RelatedRecord():
-    '''public RelatedRecord(final MboSet ms)
+def ():
+    '''returns RelatedRecord\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def canEdit():
-    '''public void canEdit()
+    '''returns None\n\n
+    canEdit()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def delete():
-    '''public void delete(final long accesscheck)
+    '''returns None\n\n
+    delete(final long accesscheck)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def relateGlobal():
-    '''public void relateGlobal(final MboRemote ticketGlobal)
+    '''returns None\n\n
+    relateGlobal(final MboRemote ticketGlobal)\n
     '''
 def getMatchingRelateType():
-    '''public String getMatchingRelateType()
+    '''returns String\n\n
+    getMatchingRelateType()\n
     '''

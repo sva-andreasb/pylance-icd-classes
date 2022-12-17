@@ -1,12 +1,16 @@
-def AttributeSerializationContextImpl():
-    '''public AttributeSerializationContextImpl(final Writer writer, final SerializationContext parent)
+def ():
+    '''returns AttributeSerializationContextImpl\n\n
+    (final Writer writer, final SerializationContext parent)\n
     '''
 def startElement():
-    '''public void startElement(final QName qName, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final QName qName, final Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement()
+    '''returns None\n\n
+    endElement()\n
     '''
 def qName2String():
-    '''public String qName2String(final QName qname)
+    '''returns String\n\n
+    qName2String(final QName qname)\n
     '''

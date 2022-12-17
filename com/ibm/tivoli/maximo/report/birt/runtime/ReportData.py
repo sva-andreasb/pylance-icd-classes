@@ -1,27 +1,36 @@
-def ReportData():
-    '''public ReportData()
+def ():
+    '''returns ReportData\n\n
+    ()\n
     '''
 def getReportInfo():
-    '''public ReportInfo getReportInfo()
+    '''returns ReportInfo\n\n
+    getReportInfo()\n
     '''
 def setReportInfo():
-    '''public void setReportInfo(final ReportInfo reportInfo)
+    '''returns None\n\n
+    setReportInfo(final ReportInfo reportInfo)\n
     '''
 def getReportName():
-    '''public String getReportName()
+    '''returns String\n\n
+    getReportName()\n
     '''
 def setReportName():
-    '''public void setReportName(final String reportName)
+    '''returns None\n\n
+    setReportName(final String reportName)\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''
 def getReportParameterData():
-    '''public ReportParameterData getReportParameterData()
+    '''returns ReportParameterData\n\n
+    getReportParameterData()\n
     '''
 def setReportParameterData():
-    '''public void setReportParameterData(final ReportParameterData reportParameterData)
+    '''returns None\n\n
+    setReportParameterData(final ReportParameterData reportParameterData)\n
     '''

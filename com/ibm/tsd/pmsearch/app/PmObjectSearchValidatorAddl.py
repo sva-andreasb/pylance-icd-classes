@@ -1,7 +1,9 @@
-def PmObjectSearchValidatorAddl():
-    '''public PmObjectSearchValidatorAddl()
-    public PmObjectSearchValidatorAddl(final MboValue mbv)
+def ():
+    '''returns PmObjectSearchValidatorAddl\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

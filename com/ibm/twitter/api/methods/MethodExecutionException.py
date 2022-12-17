@@ -1,7 +1,9 @@
-def MethodExecutionException():
-    '''public MethodExecutionException(final String message, final int statusCode)
-    public MethodExecutionException(final String message, final int statusCode, final Throwable cause)
+def ():
+    '''returns MethodExecutionException\n\n
+    (final String message, final int statusCode)\n
+    (final String message, final int statusCode, final Throwable cause)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

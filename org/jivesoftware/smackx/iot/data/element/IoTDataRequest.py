@@ -1,11 +1,14 @@
 ELEMENT = "String  \"req\""
 NAMESPACE = "String  \"urn:xmpp:iot:sensordata\""
-def IoTDataRequest():
-    '''public IoTDataRequest(final int seqNr, final boolean momentary)
+def ():
+    '''returns IoTDataRequest\n\n
+    (final int seqNr, final boolean momentary)\n
     '''
 def getSequenceNr():
-    '''public int getSequenceNr()
+    '''returns int\n\n
+    getSequenceNr()\n
     '''
 def isMomentary():
-    '''public boolean isMomentary()
+    '''returns boolean\n\n
+    isMomentary()\n
     '''

@@ -1,31 +1,41 @@
 def handleUnknownProperty():
-    '''public boolean handleUnknownProperty(final DeserializationContext ctxt, final JsonParser p, final JsonDeserializer<?> deserializer, final Object beanOrClass, final String propertyName)
+    '''returns boolean\n\n
+    handleUnknownProperty(final DeserializationContext ctxt, final JsonParser p, final JsonDeserializer<?> deserializer, final Object beanOrClass, final String propertyName)\n
     '''
 def handleWeirdKey():
-    '''public Object handleWeirdKey(final DeserializationContext ctxt, final Class<?> rawKeyType, final String keyValue, final String failureMsg)
+    '''returns Object\n\n
+    handleWeirdKey(final DeserializationContext ctxt, final Class<?> rawKeyType, final String keyValue, final String failureMsg)\n
     '''
 def handleWeirdStringValue():
-    '''public Object handleWeirdStringValue(final DeserializationContext ctxt, final Class<?> targetType, final String valueToConvert, final String failureMsg)
+    '''returns Object\n\n
+    handleWeirdStringValue(final DeserializationContext ctxt, final Class<?> targetType, final String valueToConvert, final String failureMsg)\n
     '''
 def handleWeirdNumberValue():
-    '''public Object handleWeirdNumberValue(final DeserializationContext ctxt, final Class<?> targetType, final Number valueToConvert, final String failureMsg)
+    '''returns Object\n\n
+    handleWeirdNumberValue(final DeserializationContext ctxt, final Class<?> targetType, final Number valueToConvert, final String failureMsg)\n
     '''
 def handleWeirdNativeValue():
-    '''public Object handleWeirdNativeValue(final DeserializationContext ctxt, final JavaType targetType, final Object valueToConvert, final JsonParser p)
+    '''returns Object\n\n
+    handleWeirdNativeValue(final DeserializationContext ctxt, final JavaType targetType, final Object valueToConvert, final JsonParser p)\n
     '''
 def handleUnexpectedToken():
-    '''public Object handleUnexpectedToken(final DeserializationContext ctxt, final Class<?> targetType, final JsonToken t, final JsonParser p, final String failureMsg)
+    '''returns Object\n\n
+    handleUnexpectedToken(final DeserializationContext ctxt, final Class<?> targetType, final JsonToken t, final JsonParser p, final String failureMsg)\n
     '''
 def handleInstantiationProblem():
-    '''public Object handleInstantiationProblem(final DeserializationContext ctxt, final Class<?> instClass, final Object argument, final Throwable t)
+    '''returns Object\n\n
+    handleInstantiationProblem(final DeserializationContext ctxt, final Class<?> instClass, final Object argument, final Throwable t)\n
     '''
 def handleMissingInstantiator():
-    '''public Object handleMissingInstantiator(final DeserializationContext ctxt, final Class<?> instClass, final ValueInstantiator valueInsta, final JsonParser p, final String msg)
-    public Object handleMissingInstantiator(final DeserializationContext ctxt, final Class<?> instClass, final JsonParser p, final String msg)
+    '''returns Object\n\n
+    handleMissingInstantiator(final DeserializationContext ctxt, final Class<?> instClass, final ValueInstantiator valueInsta, final JsonParser p, final String msg)\n
+    handleMissingInstantiator(final DeserializationContext ctxt, final Class<?> instClass, final JsonParser p, final String msg)\n
     '''
 def handleUnknownTypeId():
-    '''public JavaType handleUnknownTypeId(final DeserializationContext ctxt, final JavaType baseType, final String subTypeId, final TypeIdResolver idResolver, final String failureMsg)
+    '''returns JavaType\n\n
+    handleUnknownTypeId(final DeserializationContext ctxt, final JavaType baseType, final String subTypeId, final TypeIdResolver idResolver, final String failureMsg)\n
     '''
 def handleMissingTypeId():
-    '''public JavaType handleMissingTypeId(final DeserializationContext ctxt, final JavaType baseType, final TypeIdResolver idResolver, final String failureMsg)
+    '''returns JavaType\n\n
+    handleMissingTypeId(final DeserializationContext ctxt, final JavaType baseType, final TypeIdResolver idResolver, final String failureMsg)\n
     '''

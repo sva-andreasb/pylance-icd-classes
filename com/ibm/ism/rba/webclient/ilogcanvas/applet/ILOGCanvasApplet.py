@@ -1,143 +1,161 @@
-def ILOGCanvasApplet():
-    '''public ILOGCanvasApplet()
+def ():
+    '''returns NodeLinkPopupMenu\n\n
+    ()\n
+    (final IlvBPMNModeler modeler)\n
+    (final IlvBPMNModeler arg0)\n
+    (final IlvDiagrammer diagrammer, final boolean isNode)\n
     '''
 def parseArgs():
-    '''public void parseArgs(String[] args)
+    '''returns None\n\n
+    parseArgs(String[] args)\n
     '''
 def createGUI():
-    '''public void createGUI()
+    '''returns None\n\n
+    createGUI()\n
     '''
 def perform():
-    '''public void perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)
-    public void perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)
-    public void perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)
-    public void perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)
-    public void perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)
-    public void perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)
-    public void perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)
+    '''returns None\n\n
+    perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)\n
+    perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)\n
+    perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)\n
+    perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)\n
+    perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)\n
+    perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)\n
+    perform(final IlvDiagrammerAction action, final IlvDiagrammer diagrammer, final ActionEvent event)\n
     '''
 def setPropertySheetVisible():
-    '''public void setPropertySheetVisible(final boolean visible)
+    '''returns None\n\n
+    setPropertySheetVisible(final boolean visible)\n
     '''
 def transformerChanged():
-    '''public void transformerChanged(final TransformerChangedEvent event)
+    '''returns None\n\n
+    transformerChanged(final TransformerChangedEvent event)\n
     '''
 def loadModel():
-    '''public void loadModel()
+    '''returns None\n\n
+    loadModel()\n
     '''
 def getNextNodeId():
-    '''public String getNextNodeId()
+    '''returns String\n\n
+    getNextNodeId()\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final ManagerSelectionChangedEvent event)
+    '''returns None\n\n
+    selectionChanged(final ManagerSelectionChangedEvent event)\n
     '''
 def getControlServletURL():
-    '''public URL getControlServletURL(final String[] argNames, final String[] argValues)
-    public URL getControlServletURL(final Hashtable<String, String[]> args)
-    '''
-def arrayToString():
-    '''public static String arrayToString(final String[] a, final String separator)
+    '''returns URL\n\n
+    getControlServletURL(final String[] argNames, final String[] argValues)\n
+    getControlServletURL(final Hashtable<String, String[]> args)\n
     '''
 def init():
-    '''public void init(final Container contentPane)
+    '''returns None\n\n
+    init(final Container contentPane)\n
     '''
 def run():
-    '''public void run()
-    public Object run()
-    public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def loadDataOnInit():
-    '''public boolean loadDataOnInit()
-    '''
-def loadData():
-    '''public final void loadData()
+    '''returns boolean\n\n
+    loadDataOnInit()\n
     '''
 def showWarnings():
-    '''public void showWarnings()
+    '''returns None\n\n
+    showWarnings()\n
     '''
 def sendEvent():
-    '''public void sendEvent(final String event)
-    public void sendEvent(final String event, final Hashtable values)
-    public void sendEvent(final String event, final String target)
-    public void sendEvent(final String event, final Object target, final Hashtable values)
+    '''returns None\n\n
+    sendEvent(final String event)\n
+    sendEvent(final String event, final Hashtable values)\n
+    sendEvent(final String event, final String target)\n
+    sendEvent(final String event, final Object target, final Hashtable values)\n
     '''
 def getNodes():
-    '''public String getNodes()
+    '''returns String\n\n
+    getNodes()\n
     '''
 def getActions():
-    '''public String getActions()
+    '''returns String\n\n
+    getActions()\n
     '''
 def createFrame():
-    '''public JFrame createFrame()
+    '''returns JFrame\n\n
+    createFrame()\n
     '''
 def isFloatable():
-    '''public boolean isFloatable()
+    '''returns boolean\n\n
+    isFloatable()\n
     '''
 def showMessage():
-    '''public void showMessage(final JApplet appletObject, final String title, final String message)
+    '''returns None\n\n
+    showMessage(final JApplet appletObject, final String title, final String message)\n
     '''
 def logMessage():
-    '''public void logMessage(final String msg)
+    '''returns None\n\n
+    logMessage(final String msg)\n
     '''
 def getBidiMarkers():
-    '''public String[] getBidiMarkers()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String[]\n\n
+    getBidiMarkers()\n
     '''
 def isTransforming():
-    '''public boolean isTransforming()
+    '''returns boolean\n\n
+    isTransforming()\n
     '''
 def isZooming():
-    '''public boolean isZooming()
+    '''returns boolean\n\n
+    isZooming()\n
     '''
 def getSdmEngine():
-    '''public IlvSDMEngine getSdmEngine()
+    '''returns IlvSDMEngine\n\n
+    getSdmEngine()\n
     '''
 def isLayingOutAllNodes():
-    '''public boolean isLayingOutAllNodes()
+    '''returns boolean\n\n
+    isLayingOutAllNodes()\n
     '''
 def getMsgBundle():
-    '''public ResourceBundle getMsgBundle()
+    '''returns ResourceBundle\n\n
+    getMsgBundle()\n
     '''
 def getModel():
-    '''public IlvDefaultSDMModel getModel()
+    '''returns IlvDefaultSDMModel\n\n
+    getModel()\n
     '''
 def isValidatingLink():
-    '''public boolean isValidatingLink()
+    '''returns boolean\n\n
+    isValidatingLink()\n
     '''
 def getDiagrammer():
-    '''public IlvDiagrammer getDiagrammer()
-    '''
-def getNodeHash():
-    '''public Hashtable<IlvDefaultSDMNode, ArrayList<IlvDefaultSDMLink>> getNodeHash()
+    '''returns IlvDiagrammer\n\n
+    getDiagrammer()\n
     '''
 def nextJavascriptCommunicationId():
-    '''public int nextJavascriptCommunicationId()
+    '''returns int\n\n
+    nextJavascriptCommunicationId()\n
     '''
 def setJavascriptHandler():
-    '''public void setJavascriptHandler(final int id, final JavascriptHandler handler)
+    '''returns None\n\n
+    setJavascriptHandler(final int id, final JavascriptHandler handler)\n
     '''
 def log():
-    '''public void log(final String string)
+    '''returns None\n\n
+    log(final String string)\n
     '''
 def newInputStreamResolver():
-    '''public RBAJavascriptURLInputStreamResolver newInputStreamResolver()
+    '''returns RBAJavascriptURLInputStreamResolver\n\n
+    newInputStreamResolver()\n
     '''
 def onJavascriptResponse():
-    '''public void onJavascriptResponse(final int id, final String data, final boolean encoded)
-    '''
-def CustomUtilitiesFactory():
-    '''public CustomUtilitiesFactory(final IlvBPMNModeler modeler)
+    '''returns None\n\n
+    onJavascriptResponse(final int id, final String data, final boolean encoded)\n
     '''
 def createMakeSDMLinkInteractor():
-    '''public IlvMakeSDMLinkInteractor createMakeSDMLinkInteractor(final IlvSDMEngine arg0, final IlvManagerView arg1)
-    '''
-def CustomLinkInteractor():
-    '''public CustomLinkInteractor(final IlvBPMNModeler arg0)
-    '''
-def NodeLinkPopupMenu():
-    '''public NodeLinkPopupMenu(final IlvDiagrammer diagrammer, final boolean isNode)
+    '''returns IlvMakeSDMLinkInteractor\n\n
+    createMakeSDMLinkInteractor(final IlvSDMEngine arg0, final IlvManagerView arg1)\n
     '''

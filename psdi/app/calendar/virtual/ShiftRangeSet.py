@@ -1,6 +1,8 @@
-def ShiftRangeSet():
-    '''public ShiftRangeSet(final MboServerInterface ms)
+def ():
+    '''returns ShiftRangeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def applySelectedShifts():
-    '''public void applySelectedShifts()
+    '''returns None\n\n
+    applySelectedShifts()\n
     '''

@@ -1,29 +1,32 @@
-def Principal():
-    '''public Principal(final Services service)
-    public Principal(final String accountId)
-    public Principal(final String provider, final String id)
-    public Principal(final String provider, final String id, final boolean stripHyphen)
-    public Principal(final WebIdentityProviders webIdentityProvider)
+def ():
+    '''returns Principal\n\n
+    (final Services service)\n
+    (final String accountId)\n
+    (final String provider, final String id)\n
+    (final String provider, final String id, final boolean stripHyphen)\n
+    (final WebIdentityProviders webIdentityProvider)\n
     '''
 def getProvider():
-    '''public String getProvider()
+    '''returns String\n\n
+    getProvider()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object principal)
+    '''returns boolean\n\n
+    equals(final Object principal)\n
     '''
 def getServiceId():
-    '''public String getServiceId()
-    '''
-def fromString():
-    '''public static Services fromString(final String serviceId)
-    public static WebIdentityProviders fromString(final String webIdentityProvider)
+    '''returns String\n\n
+    getServiceId()\n
     '''
 def getWebIdentityProvider():
-    '''public String getWebIdentityProvider()
+    '''returns String\n\n
+    getWebIdentityProvider()\n
     '''

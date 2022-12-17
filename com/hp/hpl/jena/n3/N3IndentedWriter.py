@@ -1,40 +1,53 @@
-def N3IndentedWriter():
-    '''public N3IndentedWriter(final Writer w)
+def ():
+    '''returns N3IndentedWriter\n\n
+    (final Writer w)\n
     '''
 def getWriter():
-    '''public Writer getWriter()
+    '''returns Writer\n\n
+    getWriter()\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def getCol():
-    '''public int getCol()
+    '''returns int\n\n
+    getCol()\n
     '''
 def getIndent():
-    '''public int getIndent()
+    '''returns int\n\n
+    getIndent()\n
     '''
 def incIndent():
-    '''public void incIndent(final int x)
+    '''returns None\n\n
+    incIndent(final int x)\n
     '''
 def decIndent():
-    '''public void decIndent(final int x)
+    '''returns None\n\n
+    decIndent(final int x)\n
     '''
 def setIndent():
-    '''public void setIndent(final int x)
+    '''returns None\n\n
+    setIndent(final int x)\n
     '''
 def print():
-    '''public void print(final String s)
+    '''returns None\n\n
+    print(final String s)\n
     '''
 def println():
-    '''public void println(final String s)
-    public void println()
+    '''returns None\n\n
+    println(final String s)\n
+    println()\n
     '''
 def padTo():
-    '''public void padTo()
+    '''returns None\n\n
+    padTo()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

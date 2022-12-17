@@ -1,12 +1,16 @@
 def getBillingItem():
-    '''public Item getBillingItem()
+    '''returns Item\n\n
+    getBillingItem()\n
     '''
 def setBillingItem():
-    '''public void setBillingItem(final Item billingItem)
+    '''returns None\n\n
+    setBillingItem(final Item billingItem)\n
     '''
 def getServiceProvider():
-    '''public Provider getServiceProvider()
+    '''returns Provider\n\n
+    getServiceProvider()\n
     '''
 def setServiceProvider():
-    '''public void setServiceProvider(final Provider serviceProvider)
+    '''returns None\n\n
+    setServiceProvider(final Provider serviceProvider)\n
     '''

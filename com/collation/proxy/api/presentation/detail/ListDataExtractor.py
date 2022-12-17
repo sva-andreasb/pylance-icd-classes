@@ -1,15 +1,20 @@
-def ListDataExtractor():
-    '''public ListDataExtractor(final Field field, final Map detailData, final Guid id, final TableContent tableContent, final DetailTableModel tableModel, final long version)
+def ():
+    '''returns ListDataExtractor\n\n
+    (final Field field, final Map detailData, final Guid id, final TableContent tableContent, final DetailTableModel tableModel, final long version)\n
     '''
 def generateData():
-    '''public List generateData()
+    '''returns List\n\n
+    generateData()\n
     '''
 def isPlain():
-    '''public boolean isPlain(final Field Field)
+    '''returns boolean\n\n
+    isPlain(final Field Field)\n
     '''
 def isNested():
-    '''public boolean isNested(final Field Field)
+    '''returns boolean\n\n
+    isNested(final Field Field)\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''

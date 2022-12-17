@@ -1,29 +1,38 @@
-def LDIFWriter():
-    '''public LDIFWriter(final OutputStream outputStream)
-    public LDIFWriter(final OutputStream outputStream, final String s, final boolean value)
+def ():
+    '''returns LDIFWriter\n\n
+    (final OutputStream outputStream)\n
+    (final OutputStream outputStream, final String s, final boolean value)\n
     '''
 def writeEntry():
-    '''public void writeEntry(final LDAPEntry ldapEntry)
-    public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)
+    '''returns None\n\n
+    writeEntry(final LDAPEntry ldapEntry)\n
+    writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)\n
     '''
 def writeMessage():
-    '''public void writeMessage(final LDAPMessage ldapMessage)
+    '''returns None\n\n
+    writeMessage(final LDAPMessage ldapMessage)\n
     '''
 def writeComments():
-    '''public void writeComments(final String s)
+    '''returns None\n\n
+    writeComments(final String s)\n
     '''
 def writeError():
-    '''public void writeError(final Exception ex)
+    '''returns None\n\n
+    writeError(final Exception ex)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def isRequest():
-    '''public boolean isRequest()
+    '''returns boolean\n\n
+    isRequest()\n
     '''
 def isPrintable():
-    '''public boolean isPrintable(final byte[] array)
+    '''returns boolean\n\n
+    isPrintable(final byte[] array)\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''

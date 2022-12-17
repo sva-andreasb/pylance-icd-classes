@@ -1,18 +1,20 @@
-def FldTKAssetnum():
-    '''public FldTKAssetnum(final MboValue mbv)
+def ():
+    '''returns FldTKAssetnum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def action():
-    '''public void action()
-    '''
-def getAssetWithoutSiteId():
-    '''public static MboRemote getAssetWithoutSiteId(final MboRemote ticket, final MboValue assetMbv, final Translate xlator)
+    '''returns None\n\n
+    action()\n
     '''
 def setCIForAsset():
-    '''public void setCIForAsset()
+    '''returns None\n\n
+    setCIForAsset()\n
     '''

@@ -1,6 +1,8 @@
-def SpanOrBuilder():
-    '''public SpanOrBuilder(final SpanQueryBuilder factory)
+def ():
+    '''returns SpanOrBuilder\n\n
+    (final SpanQueryBuilder factory)\n
     '''
 def getSpanQuery():
-    '''public SpanQuery getSpanQuery(final Element e)
+    '''returns SpanQuery\n\n
+    getSpanQuery(final Element e)\n
     '''

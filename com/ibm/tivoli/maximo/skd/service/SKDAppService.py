@@ -7,465 +7,461 @@ MAP_LOGGER = "String  \"maximo.map\""
 APPLINK_OBJECTNAME = "String  \"SKDAPPLINKOBJ\""
 APPLINK_APPNAME = "String  \"SKDAPPLINKAPP\""
 SKDACTIONINFOMAP_SEPARATOR = "String  \"\u00ef¿½\""
-def SKDAppService():
-    '''public SKDAppService(final MXServer mxServer)
+def ():
+    '''returns ObjectSeqComparator\n\n
+    (final MXServer mxServer)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    (final HashMap<String, SKDDataGroupInfo> groupInfoMap, final HashMap<String, SKDObjectInfo> objInfoMap)\n
+    (final HashMap<String, SKDObjectInfo> objInfoMap)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getSKDAppServiceBean():
-    '''public SKDAppServiceBeanRemote getSKDAppServiceBean(final UserInfo userInfo)
+    '''returns SKDAppServiceBeanRemote\n\n
+    getSKDAppServiceBean(final UserInfo userInfo)\n
     '''
 def populateProjectData():
-    '''public void populateProjectData(final UserInfo userInfo, final String projectId)
-    public void populateProjectData(final UserInfo userInfo, final MboRemote projectMbo)
+    '''returns None\n\n
+    populateProjectData(final UserInfo userInfo, final String projectId)\n
+    populateProjectData(final UserInfo userInfo, final MboRemote projectMbo)\n
     '''
 def refreshSelectedActivities():
-    '''public List<IMXActivity> refreshSelectedActivities(final IMXGanttModel model, final UserInfo userInfo, final MboRemote projectMbo, final List<IMXActivity> selectedActivities, final boolean preserveSkdData)
-    '''
-def runtTask():
-    '''public <T> Future<T> runtTask(final Callable<T> task)
+    '''returns List<IMXActivity>\n\n
+    refreshSelectedActivities(final IMXGanttModel model, final UserInfo userInfo, final MboRemote projectMbo, final List<IMXActivity> selectedActivities, final boolean preserveSkdData)\n
     '''
 def loadScheduleMax():
-    '''public Future<Schedule> loadScheduleMax(final String projectId, final IProjectManagerCallback helper)
+    '''returns Future<Schedule>\n\n
+    loadScheduleMax(final String projectId, final IProjectManagerCallback helper)\n
     '''
 def call():
-    '''public Schedule call()
-    public GWASchedule call()
-    public GRSchedule call()
-    public MXGanttModel call()
+    '''returns MXGanttModel\n\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
     '''
 def loadScheduleGWA():
-    '''public Future<GWASchedule> loadScheduleGWA(final String projectId, final IProjectManagerCallback helper)
+    '''returns Future<GWASchedule>\n\n
+    loadScheduleGWA(final String projectId, final IProjectManagerCallback helper)\n
     '''
 def loadScheduleGR():
-    '''public Future<GRSchedule> loadScheduleGR(final String projectId, final IProjectManagerCallback helper)
+    '''returns Future<GRSchedule>\n\n
+    loadScheduleGR(final String projectId, final IProjectManagerCallback helper)\n
     '''
 def getFutureModel():
-    '''public Future<MXGanttModel> getFutureModel(final UserInfo userInfo, final String projectId)
-    public Future<MXGanttModel> getFutureModel(final UserInfo userInfo, final String projectId, final SKDAppServiceCache appCache)
+    '''returns Future<MXGanttModel>\n\n
+    getFutureModel(final UserInfo userInfo, final String projectId)\n
+    getFutureModel(final UserInfo userInfo, final String projectId, final SKDAppServiceCache appCache)\n
     '''
 def removeCachedModels():
-    '''public void removeCachedModels(final UserInfo info)
+    '''returns None\n\n
+    removeCachedModels(final UserInfo info)\n
     '''
 def removeFutureModel():
-    '''public void removeFutureModel(final UserInfo info, final String projectId)
+    '''returns None\n\n
+    removeFutureModel(final UserInfo info, final String projectId)\n
     '''
 def removeCachedModel():
-    '''public void removeCachedModel(final UserInfo info)
+    '''returns None\n\n
+    removeCachedModel(final UserInfo info)\n
     '''
 def getModel():
-    '''public IlvGanttModel getModel(final UserInfo userInfo, final String projectId)
-    public IlvGanttModel getModel(final UserInfo userInfo, final MboRemote project, final UserInfo createdByUserInfo, final boolean getModelForCreatedUser)
+    '''returns IlvGanttModel\n\n
+    getModel(final UserInfo userInfo, final String projectId)\n
+    getModel(final UserInfo userInfo, final MboRemote project, final UserInfo createdByUserInfo, final boolean getModelForCreatedUser)\n
     '''
 def getActivitiesModel():
-    '''public MXGanttModel getActivitiesModel(final UserInfo userInfo, final String projectId)
+    '''returns MXGanttModel\n\n
+    getActivitiesModel(final UserInfo userInfo, final String projectId)\n
     '''
 def updateCalendarInfoInProject():
-    '''public void updateCalendarInfoInProject(final MboRemote project, final UserInfo userInfo, final IMXGanttModel model, final Date startDate, final Date endDate, final SKDAppServiceCache appCache, final boolean getModelForCreatedUser)
+    '''returns None\n\n
+    updateCalendarInfoInProject(final MboRemote project, final UserInfo userInfo, final IMXGanttModel model, final Date startDate, final Date endDate, final SKDAppServiceCache appCache, final boolean getModelForCreatedUser)\n
     '''
 def duplicateProjectData():
-    '''public void duplicateProjectData(final UserInfo userInfo, final String orgProjectId, final MboRemote duplicateProjectMbo)
+    '''returns None\n\n
+    duplicateProjectData(final UserInfo userInfo, final String orgProjectId, final MboRemote duplicateProjectMbo)\n
     '''
 def duplicateObjectData():
-    '''public void duplicateObjectData(final UserInfo userInfo, final String orgProjectId, final MboRemote duplicateProjectMbo)
+    '''returns None\n\n
+    duplicateObjectData(final UserInfo userInfo, final String orgProjectId, final MboRemote duplicateProjectMbo)\n
     '''
 def duplicateSKDAlternateAvail():
-    '''public void duplicateSKDAlternateAvail(final UserInfo userInfo, final String originalProjectID, final MboRemote duplicateProjectMbo)
+    '''returns None\n\n
+    duplicateSKDAlternateAvail(final UserInfo userInfo, final String originalProjectID, final MboRemote duplicateProjectMbo)\n
     '''
 def duplicateSKDData():
-    '''public void duplicateSKDData(final UserInfo userInfo, final String orgProjectId, final MboRemote duplicateProjectMbo)
-    '''
-def getSKDDataGroupTitle():
-    '''public HashMap<String, String> getSKDDataGroupTitle(final UserInfo userInfo, final String projectId, final String skdObjectName)
+    '''returns None\n\n
+    duplicateSKDData(final UserInfo userInfo, final String orgProjectId, final MboRemote duplicateProjectMbo)\n
     '''
 def populateSKDPropValue():
-    '''public void populateSKDPropValue(final IlvUserPropertyHolder propValue, final String propertyName, final int maxtype, final MboRemote mbo, final String attributeName)
+    '''returns None\n\n
+    populateSKDPropValue(final IlvUserPropertyHolder propValue, final String propertyName, final int maxtype, final MboRemote mbo, final String attributeName)\n
     '''
 def getNewMXActivityFactoryInstance():
-    '''public MXActivityFactory getNewMXActivityFactoryInstance()
+    '''returns MXActivityFactory\n\n
+    getNewMXActivityFactoryInstance()\n
     '''
 def getNewMXReservationFactoryInstance():
-    '''public MXReservationFactory getNewMXReservationFactoryInstance()
+    '''returns MXReservationFactory\n\n
+    getNewMXReservationFactoryInstance()\n
     '''
 def saveInitializedReservationChanges():
-    '''public void saveInitializedReservationChanges(final UserInfo userInfo, final MboRemote project, final ArrayList<MXReservation> modifiedReservations)
+    '''returns None\n\n
+    saveInitializedReservationChanges(final UserInfo userInfo, final MboRemote project, final ArrayList<MXReservation> modifiedReservations)\n
     '''
 def loadAdditionalReservations():
-    '''public void loadAdditionalReservations(final UserInfo userInfo, final MXGanttModel model, final MboRemote project, final ActivityData activityData, final ResourceData resourceData, final ReservationData reservationData)
+    '''returns None\n\n
+    loadAdditionalReservations(final UserInfo userInfo, final MXGanttModel model, final MboRemote project, final ActivityData activityData, final ResourceData resourceData, final ReservationData reservationData)\n
     '''
 def getSqlLogger():
-    '''public MXLogger getSqlLogger()
+    '''returns MXLogger\n\n
+    getSqlLogger()\n
     '''
 def getMapLogger():
-    '''public MXLogger getMapLogger()
-    '''
-def populateResourceUse():
-    '''public static void populateResourceUse(final Connection conn, final UserInfo userInfo, final String projectId, final MXLogger sqlLogger)
-    public static void populateResourceUse(final Connection conn, final UserInfo userInfo, final String projectId, final MXLogger sqlLogger, final String refObjName)
+    '''returns MXLogger\n\n
+    getMapLogger()\n
     '''
 def commitScenario():
-    '''public void commitScenario(final UserInfo userInfo, final String ScenarioProjectid)
-    public void commitScenario(final UserInfo userInfo, final String ScenarioProjectid, final String ids)
+    '''returns None\n\n
+    commitScenario(final UserInfo userInfo, final String ScenarioProjectid)\n
+    commitScenario(final UserInfo userInfo, final String ScenarioProjectid, final String ids)\n
     '''
 def commitModifiedModelChanges():
-    '''public void commitModifiedModelChanges(final UserInfo userInfo, final String projectId)
-    public void commitModifiedModelChanges(final UserInfo userInfo, final String projectId, final boolean commitConstraintsOnly)
-    public void commitModifiedModelChanges(final UserInfo userInfo, final String projectId, final String ids, final String objectName)
-    public void commitModifiedModelChanges(final UserInfo userInfo, final String projectId, String ids, final String objectName, final boolean commitConstraintsOnly)
+    '''returns None\n\n
+    commitModifiedModelChanges(final UserInfo userInfo, final String projectId)\n
+    commitModifiedModelChanges(final UserInfo userInfo, final String projectId, final boolean commitConstraintsOnly)\n
+    commitModifiedModelChanges(final UserInfo userInfo, final String projectId, final String ids, final String objectName)\n
+    commitModifiedModelChanges(final UserInfo userInfo, final String projectId, String ids, final String objectName, final boolean commitConstraintsOnly)\n
     '''
 def getGanttConfigInfo():
-    '''public GanttConfigInfo getGanttConfigInfo(final UserInfo userInfo, final String projectId)
-    public GanttConfigInfo getGanttConfigInfo(final UserInfo userInfo, final MboRemote project)
-    public GanttConfigInfo getGanttConfigInfo(final UserInfo userInfo, final MboRemote project, final ActivityData activityData, final ResourceData resourceData, final ReservationData reservationData, final ConstraintData constraintData, HashMap<String, String> appDescMap)
-    '''
-def loadSystemPropMap():
-    '''public HashMap<String, Object> loadSystemPropMap(final UserInfo ui)
+    '''returns GanttConfigInfo\n\n
+    getGanttConfigInfo(final UserInfo userInfo, final String projectId)\n
+    getGanttConfigInfo(final UserInfo userInfo, final MboRemote project)\n
+    getGanttConfigInfo(final UserInfo userInfo, final MboRemote project, final ActivityData activityData, final ResourceData resourceData, final ReservationData reservationData, final ConstraintData constraintData, HashMap<String, String> appDescMap)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
-    public int compare(final Object o1, final Object o2)
-    public int compare(final Object o1, final Object o2)
-    public int compare(final Object o1, final Object o2)
-    public int compare(final MXGanttPropertyInfo obj1, final MXGanttPropertyInfo obj2)
-    public int compare(final SKDObjectInfo info1, final SKDObjectInfo info2)
-    public int compare(final SKDDataGroupInfo info1, final SKDDataGroupInfo info2)
-    public int compare(final String objectName1, final String objectName2)
-    public int compare(final MXActivity act1, final MXActivity act2)
-    '''
-def getPropertyTitle():
-    '''public HashMap<String, String> getPropertyTitle(final UserInfo userInfo, final String skdObjectName)
-    '''
-def getActionTitle():
-    '''public HashMap<String, HashMap<String, SKDActionInfo>> getActionTitle(final UserInfo userInfo, final HashMap<String, HashMap<String, SKDActionInfo>> actionInfo, final String useWith)
-    public HashMap<String, HashMap<String, SKDActionInfo>> getActionTitle(final UserInfo userInfo, final HashMap<String, HashMap<String, SKDActionInfo>> actionInfo)
-    '''
-def getAuthAppDescMap():
-    '''public HashMap<String, String> getAuthAppDescMap(final UserInfo userInfo, final List<String> appList, final HashMap<String, String> appDescMap)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
+    compare(final Object o1, final Object o2)\n
+    compare(final Object o1, final Object o2)\n
+    compare(final Object o1, final Object o2)\n
+    compare(final MXGanttPropertyInfo obj1, final MXGanttPropertyInfo obj2)\n
+    compare(final SKDObjectInfo info1, final SKDObjectInfo info2)\n
+    compare(final SKDDataGroupInfo info1, final SKDDataGroupInfo info2)\n
+    compare(final String objectName1, final String objectName2)\n
+    compare(final MXActivity act1, final MXActivity act2)\n
     '''
 def getAppDescForApp():
-    '''public String getAppDescForApp(final String appName, final UserInfo userInfo)
+    '''returns String\n\n
+    getAppDescForApp(final String appName, final UserInfo userInfo)\n
     '''
 def getOriginalAppForApp():
-    '''public String getOriginalAppForApp(final String appName, final UserInfo userInfo)
+    '''returns String\n\n
+    getOriginalAppForApp(final String appName, final UserInfo userInfo)\n
     '''
 def getSKDUserLocaleData():
-    '''public SKDUserLocaleData getSKDUserLocaleData(final UserInfo userInfo)
+    '''returns SKDUserLocaleData\n\n
+    getSKDUserLocaleData(final UserInfo userInfo)\n
     '''
 def getSKDUIInfo():
-    '''public ISKDUIInfo getSKDUIInfo(final UserInfo userInfo)
-    public ISKDUIInfo getSKDUIInfo(final UserInfo userInfo, final String appName)
-    public ISKDUIInfo getSKDUIInfo(final UserInfo userInfo, final String appName, final String projectId)
+    '''returns ISKDUIInfo\n\n
+    getSKDUIInfo(final UserInfo userInfo)\n
+    getSKDUIInfo(final UserInfo userInfo, final String appName)\n
+    getSKDUIInfo(final UserInfo userInfo, final String appName, final String projectId)\n
     '''
 def isWorkorderSchedule():
-    '''public boolean isWorkorderSchedule(final UserInfo userInfo, final String skdProjectId)
+    '''returns boolean\n\n
+    isWorkorderSchedule(final UserInfo userInfo, final String skdProjectId)\n
     '''
 def getDisplayDateTimePattern():
-    '''public String getDisplayDateTimePattern(final UserInfo userInfo)
-    '''
-def getSKDMaxMessages():
-    '''public HashMap<String, SKDMessage> getSKDMaxMessages(final UserInfo userInfo)
-    '''
-def getWorkingHours():
-    '''public HashMap<String, SKDCalendarInfo> getWorkingHours(final MboRemote project, final boolean trimByProject)
-    public HashMap<String, SKDCalendarInfo> getWorkingHours(final MboRemote project, final Range<Date> range)
+    '''returns String\n\n
+    getDisplayDateTimePattern(final UserInfo userInfo)\n
     '''
 def getCalendarDates():
-    '''public DateRange getCalendarDates(final MboRemote project)
+    '''returns DateRange\n\n
+    getCalendarDates(final MboRemote project)\n
     '''
 def getProjectDates():
-    '''public DateRange getProjectDates(final MboRemote project)
+    '''returns DateRange\n\n
+    getProjectDates(final MboRemote project)\n
     '''
 def getProjectDatesAdjustedForCalendar():
-    '''public DateRange getProjectDatesAdjustedForCalendar(final MboRemote project, final DateRange calDates, final boolean trimByProject)
+    '''returns DateRange\n\n
+    getProjectDatesAdjustedForCalendar(final MboRemote project, final DateRange calDates, final boolean trimByProject)\n
     '''
 def getCalendarMbo():
-    '''public MboRemote getCalendarMbo(final MboRemote project)
+    '''returns MboRemote\n\n
+    getCalendarMbo(final MboRemote project)\n
     '''
 def getDataGroupInfoSet():
-    '''public TreeSet<SKDDataGroupInfo> getDataGroupInfoSet(final UserInfo userInfo, final String projectId, final String skdObjectName)
+    '''returns TreeSet<SKDDataGroupInfo>\n\n
+    getDataGroupInfoSet(final UserInfo userInfo, final String projectId, final String skdObjectName)\n
     '''
 def asyncCommitNeeded():
-    '''public boolean asyncCommitNeeded(final MboRemote projectMbo)
-    '''
-def logDebugStatementForTime():
-    '''public static void logDebugStatementForTime(final MXLogger sqlLogger, final UserInfo userInfo, final Connection connection, final String projectId, final long timeTaken, final String query)
-    '''
-def logDebugStatementForInfo():
-    '''public static void logDebugStatementForInfo(final MXLogger sqlLogger, final String msgId, final Object[] params)
+    '''returns boolean\n\n
+    asyncCommitNeeded(final MboRemote projectMbo)\n
     '''
 def performSkdAction():
-    '''public Object performSkdAction(final String projectId, final UserInfo ui, final String actionId, final Object actionObject, final boolean saveBeforeAction, final SKDAppServiceBeanRemote serviceBean)
+    '''returns Object\n\n
+    performSkdAction(final String projectId, final UserInfo ui, final String actionId, final Object actionObject, final boolean saveBeforeAction, final SKDAppServiceBeanRemote serviceBean)\n
     '''
 def deleteProjectData():
-    '''public void deleteProjectData(final UserInfo userInfo, final MboRemote projectMbo)
+    '''returns None\n\n
+    deleteProjectData(final UserInfo userInfo, final MboRemote projectMbo)\n
     '''
 def deleteSKDData():
-    '''public void deleteSKDData(final UserInfo userInfo, final MboRemote projectMbo)
+    '''returns None\n\n
+    deleteSKDData(final UserInfo userInfo, final MboRemote projectMbo)\n
     '''
 def deleteObjectData():
-    '''public void deleteObjectData(final UserInfo userInfo, final MboRemote projectMbo)
+    '''returns None\n\n
+    deleteObjectData(final UserInfo userInfo, final MboRemote projectMbo)\n
     '''
 def getServerDate():
-    '''public Date getServerDate()
+    '''returns Date\n\n
+    getServerDate()\n
     '''
 def getAsyncCount():
-    '''public int getAsyncCount(final MboRemote projectMbo, final MboSetRemote activitySet)
-    '''
-def isEAMSchedulerLicensePresent():
-    '''public static boolean isEAMSchedulerLicensePresent()
-    '''
-def isScheduler7510LicensePresent():
-    '''public static boolean isScheduler7510LicensePresent()
-    '''
-def isScheduler7520LicensePresent():
-    '''public static boolean isScheduler7520LicensePresent()
-    '''
-def isSchedulerAviationLicensePresent():
-    '''public static boolean isSchedulerAviationLicensePresent()
-    '''
-def isLicensePresent():
-    '''public static boolean isLicensePresent(final String lic)
+    '''returns int\n\n
+    getAsyncCount(final MboRemote projectMbo, final MboSetRemote activitySet)\n
     '''
 def getAvailabilities():
-    '''public ISKDAvailability getAvailabilities(final UserInfo ui, final String[] availParam)
+    '''returns ISKDAvailability\n\n
+    getAvailabilities(final UserInfo ui, final String[] availParam)\n
     '''
 def getItemAvailabilities():
-    '''public SKDItemAvailability getItemAvailabilities(final UserInfo ui, final String[] availParam)
+    '''returns SKDItemAvailability\n\n
+    getItemAvailabilities(final UserInfo ui, final String[] availParam)\n
     '''
 def getShiftInfoForDispatch():
-    '''public void getShiftInfoForDispatch(final UserInfo userInfo, final MXGanttModel model, final MboRemote project, final boolean trimByProject)
+    '''returns None\n\n
+    getShiftInfoForDispatch(final UserInfo userInfo, final MXGanttModel model, final MboRemote project, final boolean trimByProject)\n
     '''
 def activitiesInitialized():
-    '''public boolean activitiesInitialized(final MboRemote projectMbo)
+    '''returns boolean\n\n
+    activitiesInitialized(final MboRemote projectMbo)\n
     '''
 def getParentActivity():
-    '''public MboRemote getParentActivity(final MboRemote project, final String parentid)
+    '''returns MboRemote\n\n
+    getParentActivity(final MboRemote project, final String parentid)\n
     '''
 def getCapacityPlanningGapModel():
-    '''public IlvGanttModel getCapacityPlanningGapModel(final UserInfo userInfo, final SKDCapacityPlanningGapRequestParams params)
+    '''returns IlvGanttModel\n\n
+    getCapacityPlanningGapModel(final UserInfo userInfo, final SKDCapacityPlanningGapRequestParams params)\n
     '''
 def PopulateSKDOrigiDestMatrix():
-    '''public boolean PopulateSKDOrigiDestMatrix(final MboRemote projectMbo)
+    '''returns boolean\n\n
+    PopulateSKDOrigiDestMatrix(final MboRemote projectMbo)\n
     '''
 def getTaskSACodeList():
-    '''public HashMap getTaskSACodeList(final MboRemote projectMbo)
+    '''returns HashMap\n\n
+    getTaskSACodeList(final MboRemote projectMbo)\n
     '''
 def getResourceSACodeList():
-    '''public HashMap getResourceSACodeList(final MboRemote projectMbo)
+    '''returns HashMap\n\n
+    getResourceSACodeList(final MboRemote projectMbo)\n
     '''
 def getCrewResourceSACodeList():
-    '''public HashMap getCrewResourceSACodeList(final HashMap<String, HashMap<String, SKDMAPInputParamInfo>> laborResourceSACodeList, final MboRemote projectMbo)
+    '''returns HashMap\n\n
+    getCrewResourceSACodeList(final HashMap<String, HashMap<String, SKDMAPInputParamInfo>> laborResourceSACodeList, final MboRemote projectMbo)\n
     '''
 def updateTravelTimeMatrixFor():
-    '''public int updateTravelTimeMatrixFor(final String orgId, final Map<String, SKDMAPInputParamInfo> taskSACodeMap, final Map<String, SKDMAPInputParamInfo> onTheFlyWOIDMap, final Map<String, SKDMAPInputParamInfo> resourceStartSACodeMap, final Map<String, SKDMAPInputParamInfo> resourceEndSACodeMap, final UserInfo userInfo)
-    '''
-def secondsToDuration():
-    '''public static Double secondsToDuration(long seconds)
+    '''returns int\n\n
+    updateTravelTimeMatrixFor(final String orgId, final Map<String, SKDMAPInputParamInfo> taskSACodeMap, final Map<String, SKDMAPInputParamInfo> onTheFlyWOIDMap, final Map<String, SKDMAPInputParamInfo> resourceStartSACodeMap, final Map<String, SKDMAPInputParamInfo> resourceEndSACodeMap, final UserInfo userInfo)\n
     '''
 def dynamicScheduling():
-    '''public int dynamicScheduling(final UserInfo userInfo, final long skdprojectid, final String emQuery, final boolean autoassign)
+    '''returns int\n\n
+    dynamicScheduling(final UserInfo userInfo, final long skdprojectid, final String emQuery, final boolean autoassign)\n
     '''
 def deleteSuggestResourceListtoEMWO():
-    '''public void deleteSuggestResourceListtoEMWO(final long skdprojectid, final UserInfo userInfo, final String assignmentids)
+    '''returns None\n\n
+    deleteSuggestResourceListtoEMWO(final long skdprojectid, final UserInfo userInfo, final String assignmentids)\n
     '''
 def saveSuggestResourceListtoEMWO():
-    '''public void saveSuggestResourceListtoEMWO(final List resoureSet, final MboRemote wo, final MboRemote reqtoassign, final HashMap<String, HashMap<String, Double>> woandtraveltime, final long skdprojectid, final UserInfo userInfo)
+    '''returns None\n\n
+    saveSuggestResourceListtoEMWO(final List resoureSet, final MboRemote wo, final MboRemote reqtoassign, final HashMap<String, HashMap<String, Double>> woandtraveltime, final long skdprojectid, final UserInfo userInfo)\n
     '''
 def assignLaborCrewtoEMWO():
-    '''public void assignLaborCrewtoEMWO(final MboRemote wo, final MboRemote reqtoassign, final String assigncrew, final String assignlaborcode, final Date currentTime)
+    '''returns None\n\n
+    assignLaborCrewtoEMWO(final MboRemote wo, final MboRemote reqtoassign, final String assigncrew, final String assignlaborcode, final Date currentTime)\n
     '''
 def autoAssignLaborCrewtoEMWO():
-    '''public boolean autoAssignLaborCrewtoEMWO(final ResourceFinder resFinder, List resources, final String resourcetype, final MboRemote wo, final MboRemote req, final boolean assignedlist, final Date currentTime, final HashMap<String, MboRemote> AssignedEMResource)
+    '''returns boolean\n\n
+    autoAssignLaborCrewtoEMWO(final ResourceFinder resFinder, List resources, final String resourcetype, final MboRemote wo, final MboRemote req, final boolean assignedlist, final Date currentTime, final HashMap<String, MboRemote> AssignedEMResource)\n
     '''
 def assignLaborCrewFromSuggestSet():
-    '''public void assignLaborCrewFromSuggestSet(final MboSetRemote emWOAvailResSet, final UserInfo userInfo, final Date currentTime)
+    '''returns None\n\n
+    assignLaborCrewFromSuggestSet(final MboSetRemote emWOAvailResSet, final UserInfo userInfo, final Date currentTime)\n
     '''
 def removeAssignedEMResource():
-    '''public List removeAssignedEMResource(final List resoureSet, final String resourcetype, final HashMap<String, MboRemote> AssignedEMResource)
+    '''returns List\n\n
+    removeAssignedEMResource(final List resoureSet, final String resourcetype, final HashMap<String, MboRemote> AssignedEMResource)\n
     '''
 def getALLSKDViewerProperties():
-    '''public Properties getALLSKDViewerProperties()
+    '''returns Properties\n\n
+    getALLSKDViewerProperties()\n
     '''
 def getSKDViewerProperties():
-    '''public Properties getSKDViewerProperties()
+    '''returns Properties\n\n
+    getSKDViewerProperties()\n
     '''
 def getSKDDD():
-    '''public SKDDD getSKDDD()
+    '''returns SKDDD\n\n
+    getSKDDD()\n
     '''
 def saveState():
-    '''public void saveState(final SKDState lastSavedState)
+    '''returns None\n\n
+    saveState(final SKDState lastSavedState)\n
     '''
 def loadState():
-    '''public SKDState loadState(final SKDState lastSavedState)
+    '''returns SKDState\n\n
+    loadState(final SKDState lastSavedState)\n
     '''
 def getTemplatesMboSet():
-    '''public MboSetRemote getTemplatesMboSet(final String templateName, final MboRemote projectMbo)
+    '''returns MboSetRemote\n\n
+    getTemplatesMboSet(final String templateName, final MboRemote projectMbo)\n
     '''
 def loadTemplate():
-    '''public String loadTemplate(final String templateName, final MboRemote projectMbo, final SKDTemplateResolver alternateResolver)
-    '''
-def getAssetMntOpMap():
-    '''public HashMap<String, SKDCalendarInfo> getAssetMntOpMap(final MboRemote project, final Date startDate, final Date endDate, final String objectName, final HashMap<String, SKDCalendarInfo> shiftCalMap)
-    '''
-def getAssetMntOpMapPM():
-    '''public HashMap<String, SKDCalendarInfo> getAssetMntOpMapPM(final MboRemote project, final Date startDate, final Date endDate, final String objectName, final HashMap<String, SKDCalendarInfo> shiftCalMap)
-    '''
-def getLocationMntOpMap():
-    '''public HashMap<String, SKDCalendarInfo> getLocationMntOpMap(final MboRemote project, final Date startDate, final Date endDate, final String objectName, final HashMap<String, SKDCalendarInfo> shiftCalMap)
-    '''
-def getLocationMntOpMapPM():
-    '''public HashMap<String, SKDCalendarInfo> getLocationMntOpMapPM(final MboRemote project, final Date startDate, final Date endDate, final String objectName, final HashMap<String, SKDCalendarInfo> shiftCalMap)
-    '''
-def getOverlappingMntOpSchedule():
-    '''public HashMap<String, ArrayList<SKDDateInterval>> getOverlappingMntOpSchedule(final HashMap<String, SKDCalendarInfo> assetLocMntCalMap, final HashMap<String, SKDCalendarInfo> assetLocOpCalMap)
+    '''returns String\n\n
+    loadTemplate(final String templateName, final MboRemote projectMbo, final SKDTemplateResolver alternateResolver)\n
     '''
 def clearState():
-    '''public void clearState(final SKDState lastSavedState)
-    public void clearState(final String skdProjectId, final UserInfo info)
+    '''returns None\n\n
+    clearState(final SKDState lastSavedState)\n
+    clearState(final String skdProjectId, final UserInfo info)\n
     '''
 def commitMaxSchedule():
-    '''public void commitMaxSchedule(final UserInfo userInfo, final String projectid, final boolean commitConstraintsOnly)
-    public void commitMaxSchedule(final UserInfo userInfo, final String projectid, final String ids, final boolean commitConstraintsOnly)
+    '''returns None\n\n
+    commitMaxSchedule(final UserInfo userInfo, final String projectid, final boolean commitConstraintsOnly)\n
+    commitMaxSchedule(final UserInfo userInfo, final String projectid, final String ids, final boolean commitConstraintsOnly)\n
     '''
 def refreshModel():
-    '''public List<MXReservation> refreshModel(final UserInfo userInfo, final MboRemote project, final MXGanttModel model)
-    '''
-def reloadWorkOrders():
-    '''public Map<Long, MboRemote> reloadWorkOrders(final String projectID, final UserInfo userInfo)
+    '''returns List<MXReservation>\n\n
+    refreshModel(final UserInfo userInfo, final MboRemote project, final MXGanttModel model)\n
     '''
 def refreshActivity():
-    '''public void refreshActivity(final IMXActivity activity, final Map<Long, MboRemote> workOrdersByID)
+    '''returns None\n\n
+    refreshActivity(final IMXActivity activity, final Map<Long, MboRemote> workOrdersByID)\n
     '''
 def createNewAssignment():
-    '''public void createNewAssignment(final MboRemote assignment, final MboRemote workOrder, final MXGanttModel model, final UserInfo userInfo)
+    '''returns None\n\n
+    createNewAssignment(final MboRemote assignment, final MboRemote workOrder, final MXGanttModel model, final UserInfo userInfo)\n
     '''
 def deleteAssignment():
-    '''public void deleteAssignment(final long objectID, final UserInfo userInfo)
+    '''returns None\n\n
+    deleteAssignment(final long objectID, final UserInfo userInfo)\n
     '''
 def updateAssignment():
-    '''public void updateAssignment(final MboRemote assignment, final UserInfo userInfo)
+    '''returns None\n\n
+    updateAssignment(final MboRemote assignment, final UserInfo userInfo)\n
     '''
 def deleteUncommitedDuplicateConstraints():
-    '''public void deleteUncommitedDuplicateConstraints(final long skdProjectID, final UserInfo userInfo)
+    '''returns None\n\n
+    deleteUncommitedDuplicateConstraints(final long skdProjectID, final UserInfo userInfo)\n
     '''
 def getPopulateDataObjectsWhere():
-    '''public String getPopulateDataObjectsWhere(final SKDProject projectMbo)
+    '''returns String\n\n
+    getPopulateDataObjectsWhere(final SKDProject projectMbo)\n
     '''
 def clearPopulateDataObjectsWhere():
-    '''public void clearPopulateDataObjectsWhere()
-    '''
-def ActivityData():
-    '''public ActivityData()
-    '''
-def getObjectNames():
-    '''public HashMap<String, TreeSet<String>> getObjectNames()
-    public HashMap<String, TreeSet<String>> getObjectNames()
-    public HashMap<String, TreeSet<String>> getObjectNames()
-    public HashMap<String, TreeSet<String>> getObjectNames()
+    '''returns None\n\n
+    clearPopulateDataObjectsWhere()\n
     '''
 def getAllObjectNames():
-    '''public Set<String> getAllObjectNames()
-    public Set<String> getAllObjectNames()
-    public Set<String> getAllObjectNames()
-    public Set<String> getAllObjectNames()
+    '''returns Set<String>\n\n
+    getAllObjectNames()\n
+    getAllObjectNames()\n
+    getAllObjectNames()\n
+    getAllObjectNames()\n
     '''
 def setObjectNames():
-    '''public void setObjectNames(final HashMap<String, TreeSet<String>> objectNames)
-    public void setObjectNames(final HashMap<String, TreeSet<String>> objectNames)
-    public void setObjectNames(final HashMap<String, TreeSet<String>> objectNames)
-    public void setObjectNames(final HashMap<String, TreeSet<String>> objectNames)
-    '''
-def getActivityMap():
-    '''public HashMap<String, MXActivity> getActivityMap()
+    '''returns None\n\n
+    setObjectNames(final HashMap<String, TreeSet<String>> objectNames)\n
+    setObjectNames(final HashMap<String, TreeSet<String>> objectNames)\n
+    setObjectNames(final HashMap<String, TreeSet<String>> objectNames)\n
+    setObjectNames(final HashMap<String, TreeSet<String>> objectNames)\n
     '''
 def setActivityMap():
-    '''public void setActivityMap(final HashMap<String, MXActivity> activityMap)
+    '''returns None\n\n
+    setActivityMap(final HashMap<String, MXActivity> activityMap)\n
     '''
 def isInitializationNeeded():
-    '''public boolean isInitializationNeeded()
-    public boolean isInitializationNeeded()
-    public boolean isInitializationNeeded()
-    public boolean isInitializationNeeded()
+    '''returns boolean\n\n
+    isInitializationNeeded()\n
+    isInitializationNeeded()\n
+    isInitializationNeeded()\n
+    isInitializationNeeded()\n
     '''
 def setInitializationNeeded():
-    '''public void setInitializationNeeded(final boolean initializationNeeded)
-    public void setInitializationNeeded(final boolean initializationNeeded)
-    public void setInitializationNeeded(final boolean initializationNeeded)
-    public void setInitializationNeeded(final boolean initializationNeeded)
-    '''
-def getActivities():
-    '''public HashMap<Long, MXActivity> getActivities(final String activityObjectName)
-    '''
-def ResourceData():
-    '''public ResourceData()
-    '''
-def getResourceMap():
-    '''public HashMap<String, MXResource> getResourceMap()
+    '''returns None\n\n
+    setInitializationNeeded(final boolean initializationNeeded)\n
+    setInitializationNeeded(final boolean initializationNeeded)\n
+    setInitializationNeeded(final boolean initializationNeeded)\n
+    setInitializationNeeded(final boolean initializationNeeded)\n
     '''
 def setResourceMap():
-    '''public void setResourceMap(final HashMap<String, MXResource> resourceMap)
-    '''
-def getResources():
-    '''public HashMap<Long, MXResource> getResources(final String resObjectName)
-    '''
-def ReservationData():
-    '''public ReservationData()
+    '''returns None\n\n
+    setResourceMap(final HashMap<String, MXResource> resourceMap)\n
     '''
 def getReservationList():
-    '''public ArrayList<MXReservation> getReservationList()
+    '''returns ArrayList<MXReservation>\n\n
+    getReservationList()\n
     '''
 def setReservationList():
-    '''public void setReservationList(final ArrayList<MXReservation> reservationList)
-    '''
-def getReservations():
-    '''public HashMap<Long, ArrayList<MXReservation>> getReservations(final String reservationObjectName)
+    '''returns None\n\n
+    setReservationList(final ArrayList<MXReservation> reservationList)\n
     '''
 def getConstraintList():
-    '''public ArrayList<MXConstraint> getConstraintList()
+    '''returns ArrayList<MXConstraint>\n\n
+    getConstraintList()\n
     '''
 def setConstraintList():
-    '''public void setConstraintList(final ArrayList<MXConstraint> constraintList)
-    '''
-def getConstraints():
-    '''public HashMap<Long, MXConstraint> getConstraints(final String constraintObjectName)
+    '''returns None\n\n
+    setConstraintList(final ArrayList<MXConstraint> constraintList)\n
     '''
 def getNewConstraints():
-    '''public ArrayList<MXConstraint> getNewConstraints(final String constraintObjectName)
-    '''
-def comparePropertyInfo():
-    '''public comparePropertyInfo()
+    '''returns ArrayList<MXConstraint>\n\n
+    getNewConstraints(final String constraintObjectName)\n
     '''
 def setPatternStartDate():
-    '''public void setPatternStartDate(final Date date)
+    '''returns None\n\n
+    setPatternStartDate(final Date date)\n
     '''
 def getPatternStartDate():
-    '''public Date getPatternStartDate()
+    '''returns Date\n\n
+    getPatternStartDate()\n
     '''
 def setPatternStartIndex():
-    '''public void setPatternStartIndex(final int index)
+    '''returns None\n\n
+    setPatternStartIndex(final int index)\n
     '''
 def getPatternStartIndex():
-    '''public int getPatternStartIndex()
+    '''returns int\n\n
+    getPatternStartIndex()\n
     '''
 def setPatternStartDay():
-    '''public void setPatternStartDay(final int dayInt)
+    '''returns None\n\n
+    setPatternStartDay(final int dayInt)\n
     '''
 def getPatternStartDay():
-    '''public int getPatternStartDay()
+    '''returns int\n\n
+    getPatternStartDay()\n
     '''
 def setPatternEndDay():
-    '''public void setPatternEndDay(final int dayInt)
+    '''returns None\n\n
+    setPatternEndDay(final int dayInt)\n
     '''
 def getPatternEndDay():
-    '''public int getPatternEndDay()
-    '''
-def GroupAndObjectSeqComparator():
-    '''public GroupAndObjectSeqComparator(final HashMap<String, SKDDataGroupInfo> groupInfoMap, final HashMap<String, SKDObjectInfo> objInfoMap)
-    '''
-def ObjectSeqComparator():
-    '''public ObjectSeqComparator(final HashMap<String, SKDObjectInfo> objInfoMap)
+    '''returns int\n\n
+    getPatternEndDay()\n
     '''

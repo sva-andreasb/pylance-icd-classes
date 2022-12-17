@@ -1,18 +1,24 @@
-def AccessPermission():
-    '''public AccessPermission(final String actions)
+def ():
+    '''returns AccessPermission\n\n
+    (final String actions)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getActions():
-    '''public String getActions()
+    '''returns String\n\n
+    getActions()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def implies():
-    '''public boolean implies(final Permission permission)
+    '''returns boolean\n\n
+    implies(final Permission permission)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

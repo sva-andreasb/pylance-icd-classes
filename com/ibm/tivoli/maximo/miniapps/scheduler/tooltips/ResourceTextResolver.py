@@ -1,12 +1,16 @@
-def ResourceTextResolver():
-    '''public ResourceTextResolver(final IMXResource act, final IMXGanttModel model, final UserInfo info)
+def ():
+    '''returns ResourceTextResolver\n\n
+    (final IMXResource act, final IMXGanttModel model, final UserInfo info)\n
     '''
 def getProperty():
-    '''public Object getProperty(final IMXResource data, final String in)
+    '''returns Object\n\n
+    getProperty(final IMXResource data, final String in)\n
     '''
 def getColumnInfo():
-    '''public IMXGanttPropertyInfo getColumnInfo(final String in)
+    '''returns IMXGanttPropertyInfo\n\n
+    getColumnInfo(final String in)\n
     '''
 def getPropertyNames():
-    '''public Collection<String> getPropertyNames(final IMXResource data)
+    '''returns Collection<String>\n\n
+    getPropertyNames(final IMXResource data)\n
     '''

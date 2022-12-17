@@ -1,3 +1,4 @@
 def transform():
-    '''public String transform(final Node n)
+    '''returns String\n\n
+    transform(final Node n)\n
     '''

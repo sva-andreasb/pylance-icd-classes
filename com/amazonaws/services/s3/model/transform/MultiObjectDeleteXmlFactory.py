@@ -1,3 +1,4 @@
 def convertToXmlByteArray():
-    '''public byte[] convertToXmlByteArray(final DeleteObjectsRequest rq)
+    '''returns byte[]\n\n
+    convertToXmlByteArray(final DeleteObjectsRequest rq)\n
     '''

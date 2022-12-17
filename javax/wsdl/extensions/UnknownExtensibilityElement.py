@@ -1,25 +1,33 @@
 serialVersionUID = "long  1L"
-def UnknownExtensibilityElement():
-    '''public UnknownExtensibilityElement()
+def ():
+    '''returns UnknownExtensibilityElement\n\n
+    ()\n
     '''
 def setElementType():
-    '''public void setElementType(final QName elementType)
+    '''returns None\n\n
+    setElementType(final QName elementType)\n
     '''
 def getElementType():
-    '''public QName getElementType()
+    '''returns QName\n\n
+    getElementType()\n
     '''
 def setRequired():
-    '''public void setRequired(final Boolean required)
+    '''returns None\n\n
+    setRequired(final Boolean required)\n
     '''
 def getRequired():
-    '''public Boolean getRequired()
+    '''returns Boolean\n\n
+    getRequired()\n
     '''
 def setElement():
-    '''public void setElement(final Element element)
+    '''returns None\n\n
+    setElement(final Element element)\n
     '''
 def getElement():
-    '''public Element getElement()
+    '''returns Element\n\n
+    getElement()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

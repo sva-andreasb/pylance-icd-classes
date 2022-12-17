@@ -1,12 +1,16 @@
-def AssignLabor():
-    '''public AssignLabor(final MboSet ms)
+def ():
+    '''returns AssignLabor\n\n
+    (final MboSet ms)\n
     '''
 def getFirstTimeThrough():
-    '''public boolean getFirstTimeThrough()
+    '''returns boolean\n\n
+    getFirstTimeThrough()\n
     '''
 def setFirstTimeThrough():
-    '''public void setFirstTimeThrough(final boolean newValue)
+    '''returns None\n\n
+    setFirstTimeThrough(final boolean newValue)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

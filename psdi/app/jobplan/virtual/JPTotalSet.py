@@ -1,3 +1,4 @@
-def JPTotalSet():
-    '''public JPTotalSet(final MboServerInterface ms)
+def ():
+    '''returns JPTotalSet\n\n
+    (final MboServerInterface ms)\n
     '''

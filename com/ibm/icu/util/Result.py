@@ -1,24 +1,32 @@
 def getDesiredULocale():
-    '''public ULocale getDesiredULocale()
+    '''returns ULocale\n\n
+    getDesiredULocale()\n
     '''
 def getDesiredLocale():
-    '''public Locale getDesiredLocale()
+    '''returns Locale\n\n
+    getDesiredLocale()\n
     '''
 def getSupportedULocale():
-    '''public ULocale getSupportedULocale()
+    '''returns ULocale\n\n
+    getSupportedULocale()\n
     '''
 def getSupportedLocale():
-    '''public Locale getSupportedLocale()
+    '''returns Locale\n\n
+    getSupportedLocale()\n
     '''
 def getDesiredIndex():
-    '''public int getDesiredIndex()
+    '''returns int\n\n
+    getDesiredIndex()\n
     '''
 def getSupportedIndex():
-    '''public int getSupportedIndex()
+    '''returns int\n\n
+    getSupportedIndex()\n
     '''
 def makeResolvedULocale():
-    '''public ULocale makeResolvedULocale()
+    '''returns ULocale\n\n
+    makeResolvedULocale()\n
     '''
 def makeResolvedLocale():
-    '''public Locale makeResolvedLocale()
+    '''returns Locale\n\n
+    makeResolvedLocale()\n
     '''

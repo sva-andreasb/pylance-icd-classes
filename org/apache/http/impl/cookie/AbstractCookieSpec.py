@@ -1,6 +1,8 @@
-def AbstractCookieSpec():
-    '''public AbstractCookieSpec()
+def ():
+    '''returns AbstractCookieSpec\n\n
+    ()\n
     '''
 def registerAttribHandler():
-    '''public void registerAttribHandler(final String name, final CookieAttributeHandler handler)
+    '''returns None\n\n
+    registerAttribHandler(final String name, final CookieAttributeHandler handler)\n
     '''

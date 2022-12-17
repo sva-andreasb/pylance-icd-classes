@@ -1,39 +1,52 @@
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public ListKeyPoliciesRequest withKeyId(final String keyId)
+    '''returns ListKeyPoliciesRequest\n\n
+    withKeyId(final String keyId)\n
     '''
 def setLimit():
-    '''public void setLimit(final Integer limit)
+    '''returns None\n\n
+    setLimit(final Integer limit)\n
     '''
 def getLimit():
-    '''public Integer getLimit()
+    '''returns Integer\n\n
+    getLimit()\n
     '''
 def withLimit():
-    '''public ListKeyPoliciesRequest withLimit(final Integer limit)
+    '''returns ListKeyPoliciesRequest\n\n
+    withLimit(final Integer limit)\n
     '''
 def setMarker():
-    '''public void setMarker(final String marker)
+    '''returns None\n\n
+    setMarker(final String marker)\n
     '''
 def getMarker():
-    '''public String getMarker()
+    '''returns String\n\n
+    getMarker()\n
     '''
 def withMarker():
-    '''public ListKeyPoliciesRequest withMarker(final String marker)
+    '''returns ListKeyPoliciesRequest\n\n
+    withMarker(final String marker)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public ListKeyPoliciesRequest clone()
+    '''returns ListKeyPoliciesRequest\n\n
+    clone()\n
     '''

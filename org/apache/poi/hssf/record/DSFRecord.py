@@ -1,17 +1,22 @@
 sid = "short  353"
-def DSFRecord():
-    '''public DSFRecord(final boolean isBiff5BookStreamPresent)
-    public DSFRecord(final RecordInputStream in)
+def ():
+    '''returns DSFRecord\n\n
+    (final boolean isBiff5BookStreamPresent)\n
+    (final RecordInputStream in)\n
     '''
 def isBiff5BookStreamPresent():
-    '''public boolean isBiff5BookStreamPresent()
+    '''returns boolean\n\n
+    isBiff5BookStreamPresent()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

@@ -1,121 +1,96 @@
-def MessageFormat():
-    '''public MessageFormat(final String pattern)
-    public MessageFormat(final String pattern, final Locale locale)
-    public MessageFormat(final String pattern, final ULocale locale)
+def ():
+    '''returns MessageFormat\n\n
+    (final String pattern)\n
+    (final String pattern, final Locale locale)\n
+    (final String pattern, final ULocale locale)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
-    public void setLocale(final ULocale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
+    setLocale(final ULocale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def applyPattern():
-    '''public void applyPattern(final String pttrn)
-    public void applyPattern(final String pattern, final MessagePattern.ApostropheMode aposMode)
+    '''returns None\n\n
+    applyPattern(final String pttrn)\n
     '''
 def toPattern():
-    '''public String toPattern()
+    '''returns String\n\n
+    toPattern()\n
     '''
 def setFormatsByArgumentIndex():
-    '''public void setFormatsByArgumentIndex(final Format[] newFormats)
+    '''returns None\n\n
+    setFormatsByArgumentIndex(final Format[] newFormats)\n
     '''
 def setFormatsByArgumentName():
-    '''public void setFormatsByArgumentName(final Map<String, Format> newFormats)
+    '''returns None\n\n
+    setFormatsByArgumentName(final Map<String, Format> newFormats)\n
     '''
 def setFormats():
-    '''public void setFormats(final Format[] newFormats)
+    '''returns None\n\n
+    setFormats(final Format[] newFormats)\n
     '''
 def setFormatByArgumentIndex():
-    '''public void setFormatByArgumentIndex(final int argumentIndex, final Format newFormat)
+    '''returns None\n\n
+    setFormatByArgumentIndex(final int argumentIndex, final Format newFormat)\n
     '''
 def setFormatByArgumentName():
-    '''public void setFormatByArgumentName(final String argumentName, final Format newFormat)
+    '''returns None\n\n
+    setFormatByArgumentName(final String argumentName, final Format newFormat)\n
     '''
 def setFormat():
-    '''public void setFormat(final int formatElementIndex, final Format newFormat)
+    '''returns None\n\n
+    setFormat(final int formatElementIndex, final Format newFormat)\n
     '''
 def getFormatsByArgumentIndex():
-    '''public Format[] getFormatsByArgumentIndex()
+    '''returns Format[]\n\n
+    getFormatsByArgumentIndex()\n
     '''
 def getFormats():
-    '''public Format[] getFormats()
+    '''returns Format[]\n\n
+    getFormats()\n
     '''
-def getArgumentNames():
-    '''public Set<String> getArgumentNames()
+def getFormatArgumentNames():
+    '''returns Set<String>\n\n
+    getFormatArgumentNames()\n
     '''
 def getFormatByArgumentName():
-    '''public Format getFormatByArgumentName(final String argumentName)
-    '''
-def format():
-    '''public final StringBuffer format(final Object[] arguments, final StringBuffer result, final FieldPosition pos)
-    public final StringBuffer format(final Map<String, Object> arguments, final StringBuffer result, final FieldPosition pos)
-    public static String format(final String pattern, final Object... arguments)
-    public static String format(final String pattern, final Map<String, Object> arguments)
-    public final StringBuffer format(final Object arguments, final StringBuffer result, final FieldPosition pos)
+    '''returns Format\n\n
+    getFormatByArgumentName(final String argumentName)\n
     '''
 def usesNamedArguments():
-    '''public boolean usesNamedArguments()
+    '''returns boolean\n\n
+    usesNamedArguments()\n
     '''
 def formatToCharacterIterator():
-    '''public AttributedCharacterIterator formatToCharacterIterator(final Object arguments)
+    '''returns AttributedCharacterIterator\n\n
+    formatToCharacterIterator(final Object arguments)\n
     '''
 def parse():
-    '''public Object[] parse(final String source, final ParsePosition pos)
-    public Object[] parse(final String source)
-    '''
-def parseToMap():
-    '''public Map<String, Object> parseToMap(final String source, final ParsePosition pos)
-    public Map<String, Object> parseToMap(final String source)
+    '''returns Object[]\n\n
+    parse(final String source, final ParsePosition pos)\n
+    parse(final String source)\n
     '''
 def parseObject():
-    '''public Object parseObject(final String source, final ParsePosition pos)
+    '''returns Object\n\n
+    parseObject(final String source, final ParsePosition pos)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def autoQuoteApostrophe():
-    '''public static String autoQuoteApostrophe(final String pattern)
-    '''
-def toString():
-    '''public String toString()
-    '''
-def PluralSelectorProvider():
-    '''public PluralSelectorProvider(final MessageFormat mf, final PluralRules.PluralType type)
-    '''
-def select():
-    '''public String select(final Object ctx, final double number)
-    '''
-def AppendableWrapper():
-    '''public AppendableWrapper(final StringBuilder sb)
-    public AppendableWrapper(final StringBuffer sb)
-    '''
-def useAttributes():
-    '''public void useAttributes()
-    '''
-def append():
-    '''public void append(final CharSequence s)
-    public void append(final CharSequence s, final int start, final int limit)
-    public void append(final CharacterIterator iterator)
-    public static int append(final Appendable result, final CharacterIterator iterator)
-    '''
-def formatAndAppend():
-    '''public void formatAndAppend(final Format formatter, final Object arg)
-    public void formatAndAppend(final Format formatter, final Object arg, final String argString)
-    '''
-def AttributeAndPosition():
-    '''public AttributeAndPosition(final Object fieldValue, final int startIndex, final int limitIndex)
-    public AttributeAndPosition(final AttributedCharacterIterator.Attribute field, final Object fieldValue, final int startIndex, final int limitIndex)
-    '''
-def init():
-    '''public void init(final AttributedCharacterIterator.Attribute field, final Object fieldValue, final int startIndex, final int limitIndex)
+    '''returns int\n\n
+    hashCode()\n
     '''

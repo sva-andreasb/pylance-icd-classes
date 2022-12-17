@@ -1,30 +1,28 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DescribeConfigsRequest():
-    '''public DescribeConfigsRequest(final short version, final Map<Resource, Collection<String>> resourceToConfigNames, final boolean includeSynonyms)
-    public DescribeConfigsRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final short version, final Map<Resource, Collection<String>> resourceToConfigNames, final boolean includeSynonyms)\n
+    (final Struct struct, final short version)\n
+    (final Map<Resource, Collection<String>> resourceToConfigNames)\n
+    (final Collection<Resource> resources)\n
     '''
 def resources():
-    '''public Collection<Resource> resources()
+    '''returns Collection<Resource>\n\n
+    resources()\n
     '''
 def configNames():
-    '''public Collection<String> configNames(final Resource resource)
+    '''returns Collection<String>\n\n
+    configNames(final Resource resource)\n
     '''
 def includeSynonyms():
-    '''public boolean includeSynonyms()
-    public Builder includeSynonyms(final boolean includeSynonyms)
+    '''returns Builder\n\n
+    includeSynonyms()\n
+    includeSynonyms(final boolean includeSynonyms)\n
     '''
 def getErrorResponse():
-    '''public DescribeConfigsResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static DescribeConfigsRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final Map<Resource, Collection<String>> resourceToConfigNames)
-    public Builder(final Collection<Resource> resources)
+    '''returns DescribeConfigsResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def build():
-    '''public DescribeConfigsRequest build(final short version)
+    '''returns DescribeConfigsRequest\n\n
+    build(final short version)\n
     '''

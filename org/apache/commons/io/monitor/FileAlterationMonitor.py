@@ -1,30 +1,26 @@
-def FileAlterationMonitor():
-    '''public FileAlterationMonitor()
-    public FileAlterationMonitor(final long interval)
-    public FileAlterationMonitor(final long interval, final FileAlterationObserver... observers)
+def ():
+    '''returns FileAlterationMonitor\n\n
+    ()\n
+    (final long interval)\n
+    (final long interval, final FileAlterationObserver... observers)\n
     '''
 def getInterval():
-    '''public long getInterval()
-    '''
-def setThreadFactory():
-    '''public synchronized void setThreadFactory(final ThreadFactory threadFactory)
+    '''returns long\n\n
+    getInterval()\n
     '''
 def addObserver():
-    '''public void addObserver(final FileAlterationObserver observer)
+    '''returns None\n\n
+    addObserver(final FileAlterationObserver observer)\n
     '''
 def removeObserver():
-    '''public void removeObserver(final FileAlterationObserver observer)
+    '''returns None\n\n
+    removeObserver(final FileAlterationObserver observer)\n
     '''
 def getObservers():
-    '''public Iterable<FileAlterationObserver> getObservers()
-    '''
-def start():
-    '''public synchronized void start()
-    '''
-def stop():
-    '''public synchronized void stop()
-    public synchronized void stop(final long stopInterval)
+    '''returns Iterable<FileAlterationObserver>\n\n
+    getObservers()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

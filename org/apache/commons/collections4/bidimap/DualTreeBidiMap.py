@@ -1,79 +1,72 @@
-def DualTreeBidiMap():
-    '''public DualTreeBidiMap()
-    public DualTreeBidiMap(final Map<? extends K, ? extends V> map)
-    public DualTreeBidiMap(final Comparator<? super K> keyComparator, final Comparator<? super V> valueComparator)
+def ():
+    '''returns DualTreeBidiMap\n\n
+    ()\n
+    (final Map<? extends K, ? extends V> map)\n
+    (final Comparator<? super K> keyComparator, final Comparator<? super V> valueComparator)\n
     '''
 def firstKey():
-    '''public K firstKey()
+    '''returns K\n\n
+    firstKey()\n
     '''
 def lastKey():
-    '''public K lastKey()
+    '''returns K\n\n
+    lastKey()\n
     '''
 def nextKey():
-    '''public K nextKey(final K key)
-    public K nextKey(final K key)
+    '''returns K\n\n
+    nextKey(final K key)\n
+    nextKey(final K key)\n
     '''
 def previousKey():
-    '''public K previousKey(final K key)
-    public K previousKey(final K key)
-    '''
-def mapIterator():
-    '''public OrderedMapIterator<K, V> mapIterator()
-    '''
-def inverseSortedBidiMap():
-    '''public SortedBidiMap<V, K> inverseSortedBidiMap()
-    '''
-def inverseOrderedBidiMap():
-    '''public OrderedBidiMap<V, K> inverseOrderedBidiMap()
-    '''
-def headMap():
-    '''public SortedMap<K, V> headMap(final K toKey)
-    public SortedMap<K, V> headMap(final K toKey)
-    '''
-def tailMap():
-    '''public SortedMap<K, V> tailMap(final K fromKey)
-    public SortedMap<K, V> tailMap(final K fromKey)
-    '''
-def subMap():
-    '''public SortedMap<K, V> subMap(final K fromKey, final K toKey)
-    public SortedMap<K, V> subMap(final K fromKey, final K toKey)
-    '''
-def inverseBidiMap():
-    '''public SortedBidiMap<V, K> inverseBidiMap()
+    '''returns K\n\n
+    previousKey(final K key)\n
+    previousKey(final K key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public K next()
+    '''returns K\n\n
+    next()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public K previous()
+    '''returns K\n\n
+    previous()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

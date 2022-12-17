@@ -1,37 +1,49 @@
-def TextImpl():
-    '''public TextImpl()
-    public TextImpl(final CoreDocumentImpl coreDocumentImpl, final String s)
+def ():
+    '''returns TextImpl\n\n
+    ()\n
+    (final CoreDocumentImpl coreDocumentImpl, final String s)\n
     '''
 def setValues():
-    '''public void setValues(final CoreDocumentImpl ownerDocument, final String data)
+    '''returns None\n\n
+    setValues(final CoreDocumentImpl ownerDocument, final String data)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def setIgnorableWhitespace():
-    '''public void setIgnorableWhitespace(final boolean b)
+    '''returns None\n\n
+    setIgnorableWhitespace(final boolean b)\n
     '''
 def isElementContentWhitespace():
-    '''public boolean isElementContentWhitespace()
+    '''returns boolean\n\n
+    isElementContentWhitespace()\n
     '''
 def getWholeText():
-    '''public String getWholeText()
+    '''returns String\n\n
+    getWholeText()\n
     '''
 def replaceWholeText():
-    '''public Text replaceWholeText(final String data)
+    '''returns Text\n\n
+    replaceWholeText(final String data)\n
     '''
 def isIgnorableWhitespace():
-    '''public boolean isIgnorableWhitespace()
+    '''returns boolean\n\n
+    isIgnorableWhitespace()\n
     '''
 def splitText():
-    '''public Text splitText(final int n)
+    '''returns Text\n\n
+    splitText(final int n)\n
     '''
 def replaceData():
-    '''public void replaceData(final String data)
+    '''returns None\n\n
+    replaceData(final String data)\n
     '''
 def removeData():
-    '''public String removeData()
+    '''returns String\n\n
+    removeData()\n
     '''

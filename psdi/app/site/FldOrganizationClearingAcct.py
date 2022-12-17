@@ -1,6 +1,8 @@
-def FldOrganizationClearingAcct():
-    '''public FldOrganizationClearingAcct(final MboValue mbv)
+def ():
+    '''returns FldOrganizationClearingAcct\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

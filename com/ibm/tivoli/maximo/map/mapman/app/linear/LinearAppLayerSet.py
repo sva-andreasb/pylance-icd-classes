@@ -1,3 +1,4 @@
-def LinearAppLayerSet():
-    '''public LinearAppLayerSet(final MboServerInterface ms)
+def ():
+    '''returns LinearAppLayerSet\n\n
+    (final MboServerInterface ms)\n
     '''

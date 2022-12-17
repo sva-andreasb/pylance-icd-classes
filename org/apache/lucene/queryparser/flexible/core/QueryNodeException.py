@@ -1,18 +1,23 @@
-def QueryNodeException():
-    '''public QueryNodeException(final Message message)
-    public QueryNodeException(final Throwable throwable)
-    public QueryNodeException(final Message message, final Throwable throwable)
+def ():
+    '''returns QueryNodeException\n\n
+    (final Message message)\n
+    (final Throwable throwable)\n
+    (final Message message, final Throwable throwable)\n
     '''
 def getMessageObject():
-    '''public Message getMessageObject()
+    '''returns Message\n\n
+    getMessageObject()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
-    public String getLocalizedMessage(final Locale locale)
+    '''returns String\n\n
+    getLocalizedMessage()\n
+    getLocalizedMessage(final Locale locale)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

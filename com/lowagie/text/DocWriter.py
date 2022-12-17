@@ -7,66 +7,83 @@ QUOTE = "byte  34"
 GT = "byte  62"
 FORWARD = "byte  47"
 def add():
-    '''public boolean add(final Element element)
-    public boolean add(final Watermark watermark)
+    '''returns boolean\n\n
+    add(final Element element)\n
+    add(final Watermark watermark)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def setPageSize():
-    '''public boolean setPageSize(final Rectangle pageSize)
+    '''returns boolean\n\n
+    setPageSize(final Rectangle pageSize)\n
     '''
 def removeWatermark():
-    '''public void removeWatermark()
+    '''returns None\n\n
+    removeWatermark()\n
     '''
 def setMargins():
-    '''public boolean setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)
+    '''returns boolean\n\n
+    setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)\n
     '''
 def newPage():
-    '''public boolean newPage()
+    '''returns boolean\n\n
+    newPage()\n
     '''
 def setHeader():
-    '''public void setHeader(final HeaderFooter header)
+    '''returns None\n\n
+    setHeader(final HeaderFooter header)\n
     '''
 def resetHeader():
-    '''public void resetHeader()
+    '''returns None\n\n
+    resetHeader()\n
     '''
 def setFooter():
-    '''public void setFooter(final HeaderFooter footer)
+    '''returns None\n\n
+    setFooter(final HeaderFooter footer)\n
     '''
 def resetFooter():
-    '''public void resetFooter()
+    '''returns None\n\n
+    resetFooter()\n
     '''
 def resetPageCount():
-    '''public void resetPageCount()
+    '''returns None\n\n
+    resetPageCount()\n
     '''
 def setPageCount():
-    '''public void setPageCount(final int pageN)
+    '''returns None\n\n
+    setPageCount(final int pageN)\n
     '''
 def close():
-    '''public void close()
-    '''
-def getISOBytes():
-    '''public static final byte[] getISOBytes(final String text)
+    '''returns None\n\n
+    close()\n
     '''
 def pause():
-    '''public void pause()
+    '''returns None\n\n
+    pause()\n
     '''
 def resume():
-    '''public void resume()
+    '''returns None\n\n
+    resume()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def isCloseStream():
-    '''public boolean isCloseStream()
+    '''returns boolean\n\n
+    isCloseStream()\n
     '''
 def setCloseStream():
-    '''public void setCloseStream(final boolean closeStream)
+    '''returns None\n\n
+    setCloseStream(final boolean closeStream)\n
     '''
 def clearTextWrap():
-    '''public void clearTextWrap()
+    '''returns None\n\n
+    clearTextWrap()\n
     '''
 def setMarginMirroring():
-    '''public boolean setMarginMirroring(final boolean MarginMirroring)
+    '''returns boolean\n\n
+    setMarginMirroring(final boolean MarginMirroring)\n
     '''

@@ -1,13 +1,17 @@
-def SimpleNamespaceContext():
-    '''public SimpleNamespaceContext()
-    public SimpleNamespaceContext(final Map namespaces)
+def ():
+    '''returns SimpleNamespaceContext\n\n
+    ()\n
+    (final Map namespaces)\n
     '''
 def addElementNamespaces():
-    '''public void addElementNamespaces(final Navigator nav, final Object element)
+    '''returns None\n\n
+    addElementNamespaces(final Navigator nav, final Object element)\n
     '''
 def addNamespace():
-    '''public void addNamespace(final String prefix, final String URI)
+    '''returns None\n\n
+    addNamespace(final String prefix, final String URI)\n
     '''
 def translateNamespacePrefixToUri():
-    '''public String translateNamespacePrefixToUri(final String prefix)
+    '''returns String\n\n
+    translateNamespacePrefixToUri(final String prefix)\n
     '''

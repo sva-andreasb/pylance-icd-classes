@@ -1,23 +1,28 @@
-def UpdateHandlerSDB():
-    '''public UpdateHandlerSDB(final GraphSDB graph)
+def ():
+    '''returns UpdateHandlerSDB\n\n
+    (final GraphSDB graph)\n
     '''
 def add():
-    '''public void add(final Triple[] arg0)
-    public void add(final List arg0)
-    public void add(final Iterator arg0)
-    public void add(final Graph arg0)
-    public void add(final Graph arg0, final boolean arg1)
+    '''returns None\n\n
+    add(final Triple[] arg0)\n
+    add(final List arg0)\n
+    add(final Iterator arg0)\n
+    add(final Graph arg0)\n
+    add(final Graph arg0, final boolean arg1)\n
     '''
 def delete():
-    '''public void delete(final Triple[] arg0)
-    public void delete(final List arg0)
-    public void delete(final Iterator arg0)
-    public void delete(final Graph arg0)
-    public void delete(final Graph arg0, final boolean arg1)
+    '''returns None\n\n
+    delete(final Triple[] arg0)\n
+    delete(final List arg0)\n
+    delete(final Iterator arg0)\n
+    delete(final Graph arg0)\n
+    delete(final Graph arg0, final boolean arg1)\n
     '''
 def remove():
-    '''public void remove(final Node arg0, final Node arg1, final Node arg2)
+    '''returns None\n\n
+    remove(final Node arg0, final Node arg1, final Node arg2)\n
     '''
 def removeAll():
-    '''public void removeAll()
+    '''returns None\n\n
+    removeAll()\n
     '''

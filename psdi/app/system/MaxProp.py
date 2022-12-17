@@ -1,60 +1,80 @@
-def MaxProp():
-    '''public MaxProp(final MboSet ms)
+def ():
+    '''returns MaxProp\n\n
+    (final MboSet ms)\n
     '''
 def isSystemProperty():
-    '''public boolean isSystemProperty()
+    '''returns boolean\n\n
+    isSystemProperty()\n
     '''
 def isSystemLandlordProperty():
-    '''public boolean isSystemLandlordProperty()
+    '''returns boolean\n\n
+    isSystemLandlordProperty()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def isNullAllowed():
-    '''public boolean isNullAllowed()
+    '''returns boolean\n\n
+    isNullAllowed()\n
     '''
 def isInstanceOnly():
-    '''public boolean isInstanceOnly()
+    '''returns boolean\n\n
+    isInstanceOnly()\n
     '''
 def isEncrypted():
-    '''public boolean isEncrypted()
+    '''returns boolean\n\n
+    isEncrypted()\n
     '''
 def isOnlineAllowed():
-    '''public boolean isOnlineAllowed()
+    '''returns boolean\n\n
+    isOnlineAllowed()\n
     '''
 def isGlobalOnly():
-    '''public boolean isGlobalOnly()
+    '''returns boolean\n\n
+    isGlobalOnly()\n
     '''
 def isFileProperty():
-    '''public boolean isFileProperty()
+    '''returns boolean\n\n
+    isFileProperty()\n
     '''
 def isUserDefined():
-    '''public boolean isUserDefined()
+    '''returns boolean\n\n
+    isUserDefined()\n
     '''
 def checkDataTypeValid():
-    '''public void checkDataTypeValid(final String val)
+    '''returns None\n\n
+    checkDataTypeValid(final String val)\n
     '''
 def checkDomainValid():
-    '''public void checkDomainValid(final String val)
+    '''returns None\n\n
+    checkDomainValid(final String val)\n
     '''
 def setMasked():
-    '''public void setMasked(final boolean flag)
+    '''returns None\n\n
+    setMasked(final boolean flag)\n
     '''
 def isMasked():
-    '''public boolean isMasked()
+    '''returns boolean\n\n
+    isMasked()\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''

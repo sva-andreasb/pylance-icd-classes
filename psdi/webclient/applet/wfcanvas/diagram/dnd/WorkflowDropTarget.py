@@ -1,6 +1,4 @@
-def WorkflowDropTarget():
-    '''public WorkflowDropTarget(final Component c, final DropTargetListener dtl)
-    '''
-def actionPerformed():
-    '''public synchronized void actionPerformed(final ActionEvent e)
+def ():
+    '''returns WorkflowDropTarget\n\n
+    (final Component c, final DropTargetListener dtl)\n
     '''

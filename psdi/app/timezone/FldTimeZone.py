@@ -1,6 +1,8 @@
-def FldTimeZone():
-    '''public FldTimeZone(final MboValue mbv)
+def ():
+    '''returns FldTimeZone\n\n
+    (final MboValue mbv)\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''

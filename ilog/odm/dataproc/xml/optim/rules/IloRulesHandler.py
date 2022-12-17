@@ -1,13 +1,17 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloRulesHandler():
-    '''public IloRulesHandler(final IloOptimHandler previous)
+def ():
+    '''returns IloRulesHandler\n\n
+    (final IloOptimHandler previous)\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''
 def getRuleCategoryCollection():
-    '''public IloRuleCategories getRuleCategoryCollection()
+    '''returns IloRuleCategories\n\n
+    getRuleCategoryCollection()\n
     '''

@@ -1,6 +1,8 @@
 def getTypeName():
-    '''public String getTypeName()
+    '''returns String\n\n
+    getTypeName()\n
     '''
 def annotate():
-    '''public void annotate(final AnnotateContext annotateContext)
+    '''returns None\n\n
+    annotate(final AnnotateContext annotateContext)\n
     '''

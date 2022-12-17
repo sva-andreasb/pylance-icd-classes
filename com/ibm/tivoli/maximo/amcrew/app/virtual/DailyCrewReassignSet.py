@@ -1,3 +1,4 @@
-def DailyCrewReassignSet():
-    '''public DailyCrewReassignSet(final MboServerInterface ms)
+def ():
+    '''returns DailyCrewReassignSet\n\n
+    (final MboServerInterface ms)\n
     '''

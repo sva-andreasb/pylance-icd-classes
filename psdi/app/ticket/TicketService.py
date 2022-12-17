@@ -1,49 +1,65 @@
-def TicketService():
-    '''public TicketService()
-    public TicketService(final MXServer mxServer)
+def ():
+    '''returns TicketService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("TICKET") final TicketRemote ticket, final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("TICKET") final TicketRemote ticket, final String status, final Date date, final String memo)\n
     '''
 def createNewWorkorder():
-    '''public void createNewWorkorder(@WSMboKey("TICKET") final TicketRemote ticket)
+    '''returns None\n\n
+    createNewWorkorder(@WSMboKey("TICKET") final TicketRemote ticket)\n
     '''
 def createWorkorder():
-    '''public void createWorkorder(@WSMboKey("TICKET") final TicketRemote ticket, final String siteid)
+    '''returns None\n\n
+    createWorkorder(@WSMboKey("TICKET") final TicketRemote ticket, final String siteid)\n
     '''
 def getWorkLog():
-    '''public MboSetRemote getWorkLog(@WSMboKey("TICKET") final MboRemote ticket, Boolean viewSR)
+    '''returns MboSetRemote\n\n
+    getWorkLog(@WSMboKey("TICKET") final MboRemote ticket, Boolean viewSR)\n
     '''
 def createIssueToSR():
-    '''public void createIssueToSR(final String parent, final String description, final Integer order)
+    '''returns None\n\n
+    createIssueToSR(final String parent, final String description, final Integer order)\n
     '''
 def updateTicketTemplate():
-    '''public void updateTicketTemplate(@WSMboKey("tktemplate") final MboRemote tktemplate, final String description, final Integer sortOrder)
+    '''returns None\n\n
+    updateTicketTemplate(@WSMboKey("tktemplate") final MboRemote tktemplate, final String description, final Integer sortOrder)\n
     '''
 def managerSpecifications():
-    '''public void managerSpecifications(@WSMboKey("tktemplate") final MboRemote tktemplate, final String addAttributeList, final String removeAttributeList, final String updateAttributeList, final String instructions)
+    '''returns None\n\n
+    managerSpecifications(@WSMboKey("tktemplate") final MboRemote tktemplate, final String addAttributeList, final String removeAttributeList, final String updateAttributeList, final String instructions)\n
     '''
 def applyOwner():
-    '''public void applyOwner(@WSMboKey("TICKET") final MboRemote ticket, final String owner)
+    '''returns None\n\n
+    applyOwner(@WSMboKey("TICKET") final MboRemote ticket, final String owner)\n
     '''
 def applyOwnerGroup():
-    '''public void applyOwnerGroup(@WSMboKey("TICKET") final MboRemote ticket, final String ownergroup)
+    '''returns None\n\n
+    applyOwnerGroup(@WSMboKey("TICKET") final MboRemote ticket, final String ownergroup)\n
     '''
 def reprocessTkTemplateSortOrder():
-    '''public void reprocessTkTemplateSortOrder()
+    '''returns None\n\n
+    reprocessTkTemplateSortOrder()\n
     '''
 def managerDomainGuestUser():
-    '''public void managerDomainGuestUser(final String addDomainList, final String removeDomainList, final String updateDomainList)
+    '''returns None\n\n
+    managerDomainGuestUser(final String addDomainList, final String removeDomainList, final String updateDomainList)\n
     '''
 def managerEmailGuestUser():
-    '''public void managerEmailGuestUser(final String addEmailList, final String removeEmailList, final String updateEmailList)
+    '''returns None\n\n
+    managerEmailGuestUser(final String addEmailList, final String removeEmailList, final String updateEmailList)\n
     '''
 def createTicket():
-    '''public MboRemote createTicket(final String ticketClass, final String templateID, final UserInfo userInfo)
+    '''returns MboRemote\n\n
+    createTicket(final String ticketClass, final String templateID, final UserInfo userInfo)\n
     '''

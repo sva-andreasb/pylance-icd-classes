@@ -1,24 +1,27 @@
-def OaasException():
-    '''public OaasException(final String message, final Throwable cause, final Object... parameters)
-    public OaasException(final String message, final Object... parameters)
-    public OaasException(final Throwable cause)
+def ():
+    '''returns OaasException\n\n
+    (final String message, final Throwable cause, final Object... parameters)\n
+    (final String message, final Object... parameters)\n
+    (final Throwable cause)\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage(final String localeName)
-    public String getLocalizedMessage()
+    '''returns String\n\n
+    getLocalizedMessage(final String localeName)\n
+    getLocalizedMessage()\n
     '''
 def getMessage():
-    '''public String getMessage()
-    '''
-def getRootCause():
-    '''public static Throwable getRootCause(final Throwable throwable)
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getRestStatusCode():
-    '''public int getRestStatusCode()
+    '''returns int\n\n
+    getRestStatusCode()\n
     '''
 def getMessageCode():
-    '''public String getMessageCode()
+    '''returns String\n\n
+    getMessageCode()\n
     '''

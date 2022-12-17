@@ -1,49 +1,65 @@
-def UnreliableFilterInputStream():
-    '''public UnreliableFilterInputStream(final InputStream in, final boolean isFakeIOException)
+def ():
+    '''returns UnreliableFilterInputStream\n\n
+    (final InputStream in, final boolean isFakeIOException)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getCurrNumErrors():
-    '''public int getCurrNumErrors()
+    '''returns int\n\n
+    getCurrNumErrors()\n
     '''
 def getMaxNumErrors():
-    '''public int getMaxNumErrors()
+    '''returns int\n\n
+    getMaxNumErrors()\n
     '''
 def withMaxNumErrors():
-    '''public UnreliableFilterInputStream withMaxNumErrors(final int maxNumErrors)
+    '''returns UnreliableFilterInputStream\n\n
+    withMaxNumErrors(final int maxNumErrors)\n
     '''
 def withBytesReadBeforeException():
-    '''public UnreliableFilterInputStream withBytesReadBeforeException(final int bytesReadBeforeException)
+    '''returns UnreliableFilterInputStream\n\n
+    withBytesReadBeforeException(final int bytesReadBeforeException)\n
     '''
 def getBytesReadBeforeException():
-    '''public int getBytesReadBeforeException()
+    '''returns int\n\n
+    getBytesReadBeforeException()\n
     '''
 def withResetIntervalBeforeException():
-    '''public UnreliableFilterInputStream withResetIntervalBeforeException(final int resetIntervalBeforeException)
+    '''returns UnreliableFilterInputStream\n\n
+    withResetIntervalBeforeException(final int resetIntervalBeforeException)\n
     '''
 def getResetIntervalBeforeException():
-    '''public int getResetIntervalBeforeException()
+    '''returns int\n\n
+    getResetIntervalBeforeException()\n
     '''
 def getMarked():
-    '''public int getMarked()
+    '''returns int\n\n
+    getMarked()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def isFakeIOException():
-    '''public boolean isFakeIOException()
+    '''returns boolean\n\n
+    isFakeIOException()\n
     '''
 def getResetCount():
-    '''public int getResetCount()
+    '''returns int\n\n
+    getResetCount()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

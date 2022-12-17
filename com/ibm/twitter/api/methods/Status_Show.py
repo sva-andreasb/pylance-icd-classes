@@ -1,6 +1,8 @@
-def Status_Show():
-    '''public Status_Show(final int i)
+def ():
+    '''returns Status_Show\n\n
+    (final int i)\n
     '''
 def getResult():
-    '''public Status getResult()
+    '''returns Status\n\n
+    getResult()\n
     '''

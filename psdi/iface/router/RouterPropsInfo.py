@@ -1,21 +1,27 @@
-def RouterPropsInfo():
-    '''public RouterPropsInfo(final String propName)
-    public RouterPropsInfo(final String propName, final boolean crypto)
-    public RouterPropsInfo(final String propName, final boolean crypto, final String defualtValue)
-    public RouterPropsInfo(final String propName, final boolean crypto, final String defualtValue, final boolean allowOveride, final boolean required)
+def ():
+    '''returns RouterPropsInfo\n\n
+    (final String propName)\n
+    (final String propName, final boolean crypto)\n
+    (final String propName, final boolean crypto, final String defualtValue)\n
+    (final String propName, final boolean crypto, final String defualtValue, final boolean allowOveride, final boolean required)\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isCrypto():
-    '''public boolean isCrypto()
+    '''returns boolean\n\n
+    isCrypto()\n
     '''
 def isAllowOverride():
-    '''public boolean isAllowOverride()
+    '''returns boolean\n\n
+    isAllowOverride()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''

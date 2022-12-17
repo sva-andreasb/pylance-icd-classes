@@ -1,15 +1,16 @@
-def getFastNumericInvoker():
-    '''public static Invoker getFastNumericInvoker(final CallContext callContext, final long function)
-    '''
 def getMethodHandle():
-    '''public Object getMethodHandle()
+    '''returns Object\n\n
+    getMethodHandle()\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
     '''
 def unreflect():
-    '''public Object unreflect(final Method m)
+    '''returns Object\n\n
+    unreflect(final Method m)\n
     '''
 def insertArguments():
-    '''public Object insertArguments(final Object methodHandle, final int index, final Object... values)
+    '''returns Object\n\n
+    insertArguments(final Object methodHandle, final int index, final Object... values)\n
     '''

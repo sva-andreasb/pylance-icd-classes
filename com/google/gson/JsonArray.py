@@ -1,60 +1,80 @@
-def JsonArray():
-    '''public JsonArray()
+def ():
+    '''returns JsonArray\n\n
+    ()\n
     '''
 def add():
-    '''public void add(JsonElement element)
+    '''returns None\n\n
+    add(JsonElement element)\n
     '''
 def addAll():
-    '''public void addAll(final JsonArray array)
+    '''returns None\n\n
+    addAll(final JsonArray array)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def iterator():
-    '''public Iterator<JsonElement> iterator()
+    '''returns Iterator<JsonElement>\n\n
+    iterator()\n
     '''
 def get():
-    '''public JsonElement get(final int i)
+    '''returns JsonElement\n\n
+    get(final int i)\n
     '''
 def getAsNumber():
-    '''public Number getAsNumber()
+    '''returns Number\n\n
+    getAsNumber()\n
     '''
 def getAsString():
-    '''public String getAsString()
+    '''returns String\n\n
+    getAsString()\n
     '''
 def getAsDouble():
-    '''public double getAsDouble()
+    '''returns double\n\n
+    getAsDouble()\n
     '''
 def getAsBigDecimal():
-    '''public BigDecimal getAsBigDecimal()
+    '''returns BigDecimal\n\n
+    getAsBigDecimal()\n
     '''
 def getAsBigInteger():
-    '''public BigInteger getAsBigInteger()
+    '''returns BigInteger\n\n
+    getAsBigInteger()\n
     '''
 def getAsFloat():
-    '''public float getAsFloat()
+    '''returns float\n\n
+    getAsFloat()\n
     '''
 def getAsLong():
-    '''public long getAsLong()
+    '''returns long\n\n
+    getAsLong()\n
     '''
 def getAsInt():
-    '''public int getAsInt()
+    '''returns int\n\n
+    getAsInt()\n
     '''
 def getAsByte():
-    '''public byte getAsByte()
+    '''returns byte\n\n
+    getAsByte()\n
     '''
 def getAsCharacter():
-    '''public char getAsCharacter()
+    '''returns char\n\n
+    getAsCharacter()\n
     '''
 def getAsShort():
-    '''public short getAsShort()
+    '''returns short\n\n
+    getAsShort()\n
     '''
 def getAsBoolean():
-    '''public boolean getAsBoolean()
+    '''returns boolean\n\n
+    getAsBoolean()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

@@ -1,3 +1,4 @@
 def sort():
-    '''public Triple[] sort(final Triple[] ts)
+    '''returns Triple[]\n\n
+    sort(final Triple[] ts)\n
     '''

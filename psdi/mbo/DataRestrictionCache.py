@@ -1,44 +1,51 @@
-def DataRestrictionCache():
-    '''public DataRestrictionCache()
+def ():
+    '''returns RestrictionBundle\n\n
+    ()\n
+    ()\n
     '''
 def get():
-    '''public RestrictionBundle get(final int level, final MboSetRemote msr)
-    public RestrictionBundle get(final int level, final MboSetRemote msr, final String attrName)
-    '''
-def clearFromFastAccess():
-    '''public synchronized void clearFromFastAccess(final String userName)
+    '''returns RestrictionBundle\n\n
+    get(final int level, final MboSetRemote msr)\n
+    get(final int level, final MboSetRemote msr, final String attrName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
-    '''
-def RestrictionBundle():
-    '''public RestrictionBundle()
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getNoGrpNoAppRestriction():
-    '''public DataRestriction getNoGrpNoAppRestriction()
+    '''returns DataRestriction\n\n
+    getNoGrpNoAppRestriction()\n
     '''
 def getNoGrpWithAppRestriction():
-    '''public DataRestriction getNoGrpWithAppRestriction()
+    '''returns DataRestriction\n\n
+    getNoGrpWithAppRestriction()\n
     '''
 def getPerGrpRestrictions():
-    '''public ArrayList<Object[]> getPerGrpRestrictions()
+    '''returns ArrayList<Object[]>\n\n
+    getPerGrpRestrictions()\n
     '''
 def addGrpRestriction():
-    '''public void addGrpRestriction(final String grp, DataRestriction withOutApp, final DataRestriction withApp)
+    '''returns None\n\n
+    addGrpRestriction(final String grp, DataRestriction withOutApp, final DataRestriction withApp)\n
     '''
 def setGenericRestriction():
-    '''public void setGenericRestriction(final DataRestriction withOutApp, final DataRestriction withApp)
+    '''returns None\n\n
+    setGenericRestriction(final DataRestriction withOutApp, final DataRestriction withApp)\n
     '''
 def markGrpNoRestriction():
-    '''public void markGrpNoRestriction(final String grp)
+    '''returns None\n\n
+    markGrpNoRestriction(final String grp)\n
     '''

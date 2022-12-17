@@ -1,36 +1,42 @@
 def maxFramePayloadLength():
-    '''public int maxFramePayloadLength()
-    public Builder maxFramePayloadLength(final int maxFramePayloadLength)
+    '''returns Builder\n\n
+    maxFramePayloadLength()\n
+    maxFramePayloadLength(final int maxFramePayloadLength)\n
     '''
 def expectMaskedFrames():
-    '''public boolean expectMaskedFrames()
-    public Builder expectMaskedFrames(final boolean expectMaskedFrames)
+    '''returns Builder\n\n
+    expectMaskedFrames()\n
+    expectMaskedFrames(final boolean expectMaskedFrames)\n
     '''
 def allowMaskMismatch():
-    '''public boolean allowMaskMismatch()
-    public Builder allowMaskMismatch(final boolean allowMaskMismatch)
+    '''returns Builder\n\n
+    allowMaskMismatch()\n
+    allowMaskMismatch(final boolean allowMaskMismatch)\n
     '''
 def allowExtensions():
-    '''public boolean allowExtensions()
-    public Builder allowExtensions(final boolean allowExtensions)
+    '''returns Builder\n\n
+    allowExtensions()\n
+    allowExtensions(final boolean allowExtensions)\n
     '''
 def closeOnProtocolViolation():
-    '''public boolean closeOnProtocolViolation()
-    public Builder closeOnProtocolViolation(final boolean closeOnProtocolViolation)
+    '''returns Builder\n\n
+    closeOnProtocolViolation()\n
+    closeOnProtocolViolation(final boolean closeOnProtocolViolation)\n
     '''
 def withUTF8Validator():
-    '''public boolean withUTF8Validator()
-    public Builder withUTF8Validator(final boolean withUTF8Validator)
+    '''returns Builder\n\n
+    withUTF8Validator()\n
+    withUTF8Validator(final boolean withUTF8Validator)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toBuilder():
-    '''public Builder toBuilder()
-    '''
-def newBuilder():
-    '''public static Builder newBuilder()
+    '''returns Builder\n\n
+    toBuilder()\n
     '''
 def build():
-    '''public WebSocketDecoderConfig build()
+    '''returns WebSocketDecoderConfig\n\n
+    build()\n
     '''

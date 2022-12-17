@@ -1,3 +1,4 @@
-def MPWOGenCronParamSet():
-    '''public MPWOGenCronParamSet(final MboServerInterface ms)
+def ():
+    '''returns MPWOGenCronParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

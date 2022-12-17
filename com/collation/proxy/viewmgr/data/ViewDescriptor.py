@@ -1,65 +1,78 @@
-def ViewDescriptor():
-    '''public ViewDescriptor(final String vName, final long vers)
-    public ViewDescriptor(final String vName, final long vers, final Guid referrerId)
-    public ViewDescriptor(final String vName, final long vers, final ViewComponent rc, final int type)
+def ():
+    '''returns ViewDescriptor\n\n
+    (final String vName, final long vers)\n
+    (final String vName, final long vers, final Guid referrerId)\n
+    (final String vName, final long vers, final ViewComponent rc, final int type)\n
     '''
 def getViewName():
-    '''public String getViewName()
+    '''returns String\n\n
+    getViewName()\n
     '''
 def setViewName():
-    '''public void setViewName(final String vName)
+    '''returns None\n\n
+    setViewName(final String vName)\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final long vers)
+    '''returns None\n\n
+    setVersion(final long vers)\n
     '''
 def getReferringComponentId():
-    '''public Guid getReferringComponentId()
+    '''returns Guid\n\n
+    getReferringComponentId()\n
     '''
 def setReferringComponentId():
-    '''public void setReferringComponentId(final Guid refCompId)
+    '''returns None\n\n
+    setReferringComponentId(final Guid refCompId)\n
     '''
 def getReferringComponent():
-    '''public ViewComponent getReferringComponent()
+    '''returns ViewComponent\n\n
+    getReferringComponent()\n
     '''
 def setReferringComponent():
-    '''public void setReferringComponent(final ViewComponent rc)
+    '''returns None\n\n
+    setReferringComponent(final ViewComponent rc)\n
     '''
 def getViewType():
-    '''public int getViewType()
+    '''returns int\n\n
+    getViewType()\n
     '''
 def setViewType():
-    '''public void setViewType(final int vt)
+    '''returns None\n\n
+    setViewType(final int vt)\n
     '''
 def getIsCustomView():
-    '''public boolean getIsCustomView()
+    '''returns boolean\n\n
+    getIsCustomView()\n
     '''
 def setIsCustomView():
-    '''public void setIsCustomView(final boolean state)
+    '''returns None\n\n
+    setIsCustomView(final boolean state)\n
     '''
 def getIsEnableCache():
-    '''public boolean getIsEnableCache()
+    '''returns boolean\n\n
+    getIsEnableCache()\n
     '''
 def setIsEnableCache():
-    '''public void setIsEnableCache(final boolean cache)
+    '''returns None\n\n
+    setIsEnableCache(final boolean cache)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toShortString():
-    '''public String toShortString()
+    '''returns String\n\n
+    toShortString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def main():
-    '''public static void main(final String[] args)
-    '''
-def testViewDescriptor():
-    '''public static void testViewDescriptor()
+    '''returns int\n\n
+    hashCode()\n
     '''

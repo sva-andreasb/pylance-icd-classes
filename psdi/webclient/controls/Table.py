@@ -1,288 +1,383 @@
-def Table():
-    '''public Table()
+def ():
+    '''returns Table\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getHideSelectRows():
-    '''public boolean getHideSelectRows()
+    '''returns boolean\n\n
+    getHideSelectRows()\n
     '''
 def setHideSelectRows():
-    '''public void setHideSelectRows(final boolean hide)
+    '''returns None\n\n
+    setHideSelectRows(final boolean hide)\n
     '''
 def getMultiple():
-    '''public boolean getMultiple()
+    '''returns boolean\n\n
+    getMultiple()\n
     '''
 def addSelectAllRowControl():
-    '''public void addSelectAllRowControl(final ControlInstance selectRow)
+    '''returns None\n\n
+    addSelectAllRowControl(final ControlInstance selectRow)\n
     '''
 def addSelectRowControl():
-    '''public void addSelectRowControl(final ControlInstance selectRow)
+    '''returns None\n\n
+    addSelectRowControl(final ControlInstance selectRow)\n
     '''
 def setBody():
-    '''public void setBody(final TableBody body)
+    '''returns None\n\n
+    setBody(final TableBody body)\n
     '''
 def getBody():
-    '''public TableBody getBody()
+    '''returns TableBody\n\n
+    getBody()\n
     '''
 def getFlagValue():
-    '''public boolean getFlagValue(final int flag)
+    '''returns boolean\n\n
+    getFlagValue(final int flag)\n
     '''
 def needsRefresh():
-    '''public Object needsRefresh()
+    '''returns Object\n\n
+    needsRefresh()\n
     '''
 def isExpanded():
-    '''public Object isExpanded()
+    '''returns Object\n\n
+    isExpanded()\n
     '''
 def isFilterOpen():
-    '''public Object isFilterOpen()
+    '''returns Object\n\n
+    isFilterOpen()\n
     '''
 def isFilterable():
-    '''public Object isFilterable()
+    '''returns Object\n\n
+    isFilterable()\n
     '''
 def canDownload():
-    '''public Object canDownload()
+    '''returns Object\n\n
+    canDownload()\n
     '''
 def moreRowsBefore():
-    '''public String moreRowsBefore()
+    '''returns String\n\n
+    moreRowsBefore()\n
     '''
 def moreRowsAfter():
-    '''public String moreRowsAfter()
+    '''returns String\n\n
+    moreRowsAfter()\n
     '''
 def morePagesBefore():
-    '''public String morePagesBefore()
+    '''returns String\n\n
+    morePagesBefore()\n
     '''
 def morePagesAfter():
-    '''public String morePagesAfter()
+    '''returns String\n\n
+    morePagesAfter()\n
     '''
 def isFiltered():
-    '''public String isFiltered()
+    '''returns String\n\n
+    isFiltered()\n
     '''
 def isDetailsExpanded():
-    '''public String isDetailsExpanded()
+    '''returns String\n\n
+    isDetailsExpanded()\n
     '''
 def isTableStartEmpty():
-    '''public String isTableStartEmpty()
+    '''returns String\n\n
+    isTableStartEmpty()\n
     '''
 def isTableAllSelected():
-    '''public String isTableAllSelected()
+    '''returns String\n\n
+    isTableAllSelected()\n
     '''
 def isTableSelectRowsOpen():
-    '''public String isTableSelectRowsOpen()
+    '''returns String\n\n
+    isTableSelectRowsOpen()\n
     '''
 def getCurrentRow():
-    '''public int getCurrentRow()
+    '''returns int\n\n
+    getCurrentRow()\n
     '''
 def setOldCurrentRow():
-    '''public void setOldCurrentRow(final int row)
+    '''returns None\n\n
+    setOldCurrentRow(final int row)\n
     '''
 def getOldCurrentRow():
-    '''public int getOldCurrentRow()
+    '''returns int\n\n
+    getOldCurrentRow()\n
     '''
 def setCurrentRow():
-    '''public int setCurrentRow(final int row)
+    '''returns int\n\n
+    setCurrentRow(final int row)\n
     '''
 def togglefilter():
-    '''public int togglefilter()
+    '''returns int\n\n
+    togglefilter()\n
     '''
 def defaultRowFocus():
-    '''public void defaultRowFocus(final int row)
+    '''returns None\n\n
+    defaultRowFocus(final int row)\n
     '''
 def setDefaultFocus():
-    '''public void setDefaultFocus()
-    public void setDefaultFocus(final int row)
+    '''returns None\n\n
+    setDefaultFocus()\n
+    setDefaultFocus(final int row)\n
     '''
 def defaultDetailFocus():
-    '''public void defaultDetailFocus()
+    '''returns None\n\n
+    defaultDetailFocus()\n
     '''
 def toggledetails():
-    '''public int toggledetails(final boolean expanded)
-    public int toggledetails(final boolean expanded, final boolean setFocus)
+    '''returns int\n\n
+    toggledetails(final boolean expanded)\n
+    toggledetails(final boolean expanded, final boolean setFocus)\n
     '''
 def getDetails():
-    '''public ControlInstance getDetails()
+    '''returns ControlInstance\n\n
+    getDetails()\n
     '''
 def getExpandedRow():
-    '''public int getExpandedRow()
+    '''returns int\n\n
+    getExpandedRow()\n
     '''
 def setExpandedRow():
-    '''public int setExpandedRow(final int row)
+    '''returns int\n\n
+    setExpandedRow(final int row)\n
     '''
 def filtertable():
-    '''public int filtertable()
+    '''returns int\n\n
+    filtertable()\n
     '''
 def clearfilter():
-    '''public int clearfilter()
+    '''returns int\n\n
+    clearfilter()\n
     '''
 def columnFocus():
-    '''public void columnFocus()
+    '''returns None\n\n
+    columnFocus()\n
     '''
 def noRowFocus():
-    '''public void noRowFocus()
+    '''returns None\n\n
+    noRowFocus()\n
     '''
 def setFocusedCellId():
-    '''public void setFocusedCellId(final String id)
+    '''returns None\n\n
+    setFocusedCellId(final String id)\n
     '''
 def previousrow():
-    '''public int previousrow()
+    '''returns int\n\n
+    previousrow()\n
     '''
 def nextrow():
-    '''public int nextrow()
+    '''returns int\n\n
+    nextrow()\n
     '''
 def previouspage():
-    '''public int previouspage()
+    '''returns int\n\n
+    previouspage()\n
     '''
 def nextpage():
-    '''public int nextpage()
+    '''returns int\n\n
+    nextpage()\n
     '''
 def tablehelp():
-    '''public int tablehelp()
+    '''returns int\n\n
+    tablehelp()\n
     '''
 def togglecollapse():
-    '''public int togglecollapse()
+    '''returns int\n\n
+    togglecollapse()\n
     '''
 def toggleselectallrows():
-    '''public int toggleselectallrows()
+    '''returns int\n\n
+    toggleselectallrows()\n
     '''
 def toggleselectrecords():
-    '''public int toggleselectrecords()
+    '''returns int\n\n
+    toggleselectrecords()\n
     '''
 def getRowSelectVis():
-    '''public boolean getRowSelectVis()
+    '''returns boolean\n\n
+    getRowSelectVis()\n
     '''
 def wasTableFilterStateChanged():
-    '''public boolean wasTableFilterStateChanged()
+    '''returns boolean\n\n
+    wasTableFilterStateChanged()\n
     '''
 def wasTableDetailStateChanged():
-    '''public boolean wasTableDetailStateChanged()
+    '''returns boolean\n\n
+    wasTableDetailStateChanged()\n
     '''
 def wasTableCollapseStateChanged():
-    '''public boolean wasTableCollapseStateChanged()
+    '''returns boolean\n\n
+    wasTableCollapseStateChanged()\n
     '''
 def wasTableFilterCleared():
-    '''public boolean wasTableFilterCleared()
+    '''returns boolean\n\n
+    wasTableFilterCleared()\n
     '''
 def wasTableRowChanged():
-    '''public boolean wasTableRowChanged()
+    '''returns boolean\n\n
+    wasTableRowChanged()\n
     '''
 def rowChanged():
-    '''public boolean rowChanged()
+    '''returns boolean\n\n
+    rowChanged()\n
     '''
 def wasTablePageChanged():
-    '''public boolean wasTablePageChanged()
+    '''returns boolean\n\n
+    wasTablePageChanged()\n
     '''
 def shouldTableShowHelp():
-    '''public boolean shouldTableShowHelp()
+    '''returns boolean\n\n
+    shouldTableShowHelp()\n
     '''
 def wasTableSelectRowStateChanged():
-    '''public boolean wasTableSelectRowStateChanged()
+    '''returns boolean\n\n
+    wasTableSelectRowStateChanged()\n
     '''
 def setHasDetails():
-    '''public void setHasDetails(final boolean hasDetails)
+    '''returns None\n\n
+    setHasDetails(final boolean hasDetails)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean bean)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean bean)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean bean)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean bean)\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def preRender():
-    '''public boolean preRender()
+    '''returns boolean\n\n
+    preRender()\n
     '''
 def resetPreRender():
-    '''public void resetPreRender()
+    '''returns None\n\n
+    resetPreRender()\n
     '''
 def isLastColumn():
-    '''public boolean isLastColumn(final String colId)
+    '''returns boolean\n\n
+    isLastColumn(final String colId)\n
     '''
 def getColumnId():
-    '''public String getColumnId(final int colNum)
+    '''returns String\n\n
+    getColumnId(final int colNum)\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def sortColumn():
-    '''public void sortColumn()
+    '''returns None\n\n
+    sortColumn()\n
     '''
 def getSortLevel():
-    '''public String getSortLevel(final String sortAttribute)
+    '''returns String\n\n
+    getSortLevel(final String sortAttribute)\n
     '''
 def getSortOrder():
-    '''public String getSortOrder(String sortAttribute)
+    '''returns String\n\n
+    getSortOrder(String sortAttribute)\n
     '''
 def getRowControl():
-    '''public TableDataRow getRowControl()
+    '''returns TableDataRow\n\n
+    getRowControl()\n
     '''
 def increaseFilters():
-    '''public void increaseFilters()
+    '''returns None\n\n
+    increaseFilters()\n
     '''
 def getFilterCount():
-    '''public int getFilterCount()
+    '''returns int\n\n
+    getFilterCount()\n
     '''
 def getTableDownloadSheetName():
-    '''public String getTableDownloadSheetName()
+    '''returns String\n\n
+    getTableDownloadSheetName()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def showMXException():
-    '''public void showMXException(final MXException mxe)
+    '''returns None\n\n
+    showMXException(final MXException mxe)\n
     '''
 def showRemoteException():
-    '''public void showRemoteException(final RemoteException rme)
+    '''returns None\n\n
+    showRemoteException(final RemoteException rme)\n
     '''
 def forceFocusRow():
-    '''public void forceFocusRow(final String row)
-    public void forceFocusRow(final int row)
+    '''returns None\n\n
+    forceFocusRow(final String row)\n
+    forceFocusRow(final int row)\n
     '''
 def setFilterRow():
-    '''public void setFilterRow(final TableFilterRow tableFilterRow)
+    '''returns None\n\n
+    setFilterRow(final TableFilterRow tableFilterRow)\n
     '''
 def getFilterRow():
-    '''public TableFilterRow getFilterRow()
+    '''returns TableFilterRow\n\n
+    getFilterRow()\n
     '''
 def useNPMbo():
-    '''public boolean useNPMbo()
+    '''returns boolean\n\n
+    useNPMbo()\n
     '''
 def isListTabRetain():
-    '''public boolean isListTabRetain()
+    '''returns boolean\n\n
+    isListTabRetain()\n
     '''
 def errorLevelChanged():
-    '''public boolean errorLevelChanged()
+    '''returns boolean\n\n
+    errorLevelChanged()\n
     '''
 def childHasError():
-    '''public void childHasError(final BoundComponentInstance childWithError, final SetValueError newError)
+    '''returns None\n\n
+    childHasError(final BoundComponentInstance childWithError, final SetValueError newError)\n
     '''
 def getErrorLevelForRow():
-    '''public int getErrorLevelForRow(final int row)
+    '''returns int\n\n
+    getErrorLevelForRow(final int row)\n
     '''
 def getErrorLevel():
-    '''public int getErrorLevel()
+    '''returns int\n\n
+    getErrorLevel()\n
     '''
 def clearErrors():
-    '''public void clearErrors()
+    '''returns None\n\n
+    clearErrors()\n
     '''
 def resetNewRowNum():
-    '''public void resetNewRowNum()
+    '''returns None\n\n
+    resetNewRowNum()\n
     '''
 def getNewRowNum():
-    '''public int getNewRowNum()
+    '''returns int\n\n
+    getNewRowNum()\n
     '''
 def reset():
-    '''public int reset()
+    '''returns int\n\n
+    reset()\n
     '''
 def selectmockedrecord():
-    '''public void selectmockedrecord()
+    '''returns None\n\n
+    selectmockedrecord()\n
     '''
 def maintainControlId():
-    '''public boolean maintainControlId()
+    '''returns boolean\n\n
+    maintainControlId()\n
     '''
 def createRenderId():
-    '''public String createRenderId(final String id, final PageInstance page)
+    '''returns String\n\n
+    createRenderId(final String id, final PageInstance page)\n
     '''
 def isOnTable():
-    '''public boolean isOnTable()
+    '''returns boolean\n\n
+    isOnTable()\n
     '''

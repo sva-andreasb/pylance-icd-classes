@@ -1,26 +1,33 @@
-def DocumentImpl():
-    '''public DocumentImpl()
-    public DocumentImpl(final boolean b)
-    public DocumentImpl(final DocumentType documentType)
-    public DocumentImpl(final DocumentType documentType, final boolean b)
+def ():
+    '''returns DocumentImpl\n\n
+    ()\n
+    (final boolean b)\n
+    (final DocumentType documentType)\n
+    (final DocumentType documentType, final boolean b)\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
 def getImplementation():
-    '''public DOMImplementation getImplementation()
+    '''returns DOMImplementation\n\n
+    getImplementation()\n
     '''
 def createNodeIterator():
-    '''public NodeIterator createNodeIterator(final Node node, final short n, final NodeFilter nodeFilter)
-    public NodeIterator createNodeIterator(final Node node, final int n, final NodeFilter nodeFilter, final boolean b)
+    '''returns NodeIterator\n\n
+    createNodeIterator(final Node node, final short n, final NodeFilter nodeFilter)\n
+    createNodeIterator(final Node node, final int n, final NodeFilter nodeFilter, final boolean b)\n
     '''
 def createTreeWalker():
-    '''public TreeWalker createTreeWalker(final Node node, final short n, final NodeFilter nodeFilter)
-    public TreeWalker createTreeWalker(final Node node, final int n, final NodeFilter nodeFilter, final boolean b)
+    '''returns TreeWalker\n\n
+    createTreeWalker(final Node node, final short n, final NodeFilter nodeFilter)\n
+    createTreeWalker(final Node node, final int n, final NodeFilter nodeFilter, final boolean b)\n
     '''
 def createRange():
-    '''public Range createRange()
+    '''returns Range\n\n
+    createRange()\n
     '''
 def createEvent():
-    '''public Event createEvent(final String s)
+    '''returns Event\n\n
+    createEvent(final String s)\n
     '''

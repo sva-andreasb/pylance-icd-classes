@@ -1,9 +1,12 @@
-def EBPGenerator():
-    '''public EBPGenerator(final String interactionName)
+def ():
+    '''returns EBPGenerator\n\n
+    (final String interactionName)\n
     '''
 def createEndpoint():
-    '''public EndpointInfo createEndpoint(final WSDLInfo wsdlInfo, final String serviceName, final String portName, final String operationName)
+    '''returns EndpointInfo\n\n
+    createEndpoint(final WSDLInfo wsdlInfo, final String serviceName, final String portName, final String operationName)\n
     '''
 def toBytes():
-    '''public byte[] toBytes(final EndpointInfo endpointInfo)
+    '''returns byte[]\n\n
+    toBytes(final EndpointInfo endpointInfo)\n
     '''

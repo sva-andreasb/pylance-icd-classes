@@ -1,11 +1,10 @@
-def LDAPMatchingRuleUseSchema():
-    '''public LDAPMatchingRuleUseSchema()
-    public LDAPMatchingRuleUseSchema(final String[] array, final String oid, final String description, final boolean obsolete, final String[] array2)
-    public LDAPMatchingRuleUseSchema(final String s)
+def ():
+    '''returns LDAPMatchingRuleUseSchema\n\n
+    ()\n
+    (final String[] array, final String oid, final String description, final boolean obsolete, final String[] array2)\n
+    (final String s)\n
     '''
 def getAttributes():
-    '''public String[] getAttributes()
-    '''
-def readDSML():
-    '''public static Object readDSML(final InputStream inputStream)
+    '''returns String[]\n\n
+    getAttributes()\n
     '''

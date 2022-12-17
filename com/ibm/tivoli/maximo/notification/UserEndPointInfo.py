@@ -1,9 +1,12 @@
-def UserEndPointInfo():
-    '''public UserEndPointInfo(final String endpointName, final boolean defaultEp)
+def ():
+    '''returns UserEndPointInfo\n\n
+    (final String endpointName, final boolean defaultEp)\n
     '''
 def getEndpointName():
-    '''public String getEndpointName()
+    '''returns String\n\n
+    getEndpointName()\n
     '''
 def isDefaultEp():
-    '''public boolean isDefaultEp()
+    '''returns boolean\n\n
+    isDefaultEp()\n
     '''

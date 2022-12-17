@@ -1,12 +1,16 @@
-def SKDTooltipMgrAppBean():
-    '''public SKDTooltipMgrAppBean()
+def ():
+    '''returns SKDTooltipMgrAppBean\n\n
+    ()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def resettodefaultclick():
-    '''public int resettodefaultclick()
+    '''returns int\n\n
+    resettodefaultclick()\n
     '''
 def tootltippreviewclick():
-    '''public int tootltippreviewclick()
+    '''returns int\n\n
+    tootltippreviewclick()\n
     '''

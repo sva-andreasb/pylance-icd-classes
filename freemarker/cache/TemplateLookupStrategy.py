@@ -1,6 +1,8 @@
 def lookup():
-    '''public TemplateLookupResult lookup(final TemplateLookupContext ctx)
+    '''returns TemplateLookupResult\n\n
+    lookup(final TemplateLookupContext ctx)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

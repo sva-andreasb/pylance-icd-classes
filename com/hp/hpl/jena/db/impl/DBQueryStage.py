@@ -1,9 +1,12 @@
-def DBQueryStage():
-    '''public DBQueryStage(final GraphRDB graph, final SpecializedGraph sg, final List<VarDesc> varList, final List<DBPattern> dbPat, final ExpressionSet constraints)
+def ():
+    '''returns DBQueryStage\n\n
+    (final GraphRDB graph, final SpecializedGraph sg, final List<VarDesc> varList, final List<DBPattern> dbPat, final ExpressionSet constraints)\n
     '''
 def deliver():
-    '''public Pipe deliver(final Pipe result)
+    '''returns Pipe\n\n
+    deliver(final Pipe result)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

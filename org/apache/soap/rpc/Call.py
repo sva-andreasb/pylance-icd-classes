@@ -1,41 +1,46 @@
-def Call():
-    '''public Call()
-    public Call(final String s, final String s2, final Vector vector, final Header header, final String s3)
-    public Call(final String s, final String s2, final Vector vector, final Header header, final String s3, final SOAPContext soapContext)
+def ():
+    '''returns Call\n\n
+    ()\n
+    (final String s, final String s2, final Vector vector, final Header header, final String s3)\n
+    (final String s, final String s2, final Vector vector, final Header header, final String s3, final SOAPContext soapContext)\n
     '''
 def addBodyPart():
-    '''public void addBodyPart(final MimeBodyPart mimeBodyPart)
+    '''returns None\n\n
+    addBodyPart(final MimeBodyPart mimeBodyPart)\n
     '''
 def buildEnvelope():
-    '''public Envelope buildEnvelope()
-    '''
-def extractFromEnvelope():
-    '''public static Call extractFromEnvelope(final Envelope envelope, final ServiceManager serviceManager, final SOAPContext soapContext)
-    '''
-def getEnvelopeString():
-    '''public static String getEnvelopeString(final SOAPTransport soapTransport)
+    '''returns Envelope\n\n
+    buildEnvelope()\n
     '''
 def getSOAPMappingRegistry():
-    '''public SOAPMappingRegistry getSOAPMappingRegistry()
+    '''returns SOAPMappingRegistry\n\n
+    getSOAPMappingRegistry()\n
     '''
 def getSOAPTransport():
-    '''public SOAPTransport getSOAPTransport()
+    '''returns SOAPTransport\n\n
+    getSOAPTransport()\n
     '''
 def getTimeout():
-    '''public int getTimeout()
+    '''returns int\n\n
+    getTimeout()\n
     '''
 def invoke():
-    '''public Response invoke(final URL url, String s)
+    '''returns Response\n\n
+    invoke(final URL url, String s)\n
     '''
 def removeBodyPart():
-    '''public void removeBodyPart(final MimeBodyPart mimeBodyPart)
+    '''returns None\n\n
+    removeBodyPart(final MimeBodyPart mimeBodyPart)\n
     '''
 def setSOAPMappingRegistry():
-    '''public void setSOAPMappingRegistry(final SOAPMappingRegistry smr)
+    '''returns None\n\n
+    setSOAPMappingRegistry(final SOAPMappingRegistry smr)\n
     '''
 def setSOAPTransport():
-    '''public void setSOAPTransport(final SOAPTransport st)
+    '''returns None\n\n
+    setSOAPTransport(final SOAPTransport st)\n
     '''
 def setTimeout():
-    '''public void setTimeout(final int to)
+    '''returns None\n\n
+    setTimeout(final int to)\n
     '''

@@ -1,12 +1,16 @@
-def OslcInteractionGroupAppMenu():
-    '''public OslcInteractionGroupAppMenu(final MboSet ms)
+def ():
+    '''returns OslcInteractionGroupAppMenu\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def deleteGroupAppMenu():
-    '''public List<String> deleteGroupAppMenu(final byte[] presentataion, final byte[] menuPresentataion)
+    '''returns List<String>\n\n
+    deleteGroupAppMenu(final byte[] presentataion, final byte[] menuPresentataion)\n
     '''

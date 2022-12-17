@@ -1,20 +1,10 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DeleteTopicsResponse():
-    '''public DeleteTopicsResponse(final Map<String, Errors> errors)
-    public DeleteTopicsResponse(final int throttleTimeMs, final Map<String, Errors> errors)
-    public DeleteTopicsResponse(final Struct struct)
+def ():
+    '''returns DeleteTopicsResponse\n\n
+    (final Map<String, Errors> errors)\n
+    (final int throttleTimeMs, final Map<String, Errors> errors)\n
+    (final Struct struct)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
-    '''
-def errors():
-    '''public Map<String, Errors> errors()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static DeleteTopicsResponse parse(final ByteBuffer buffer, final short version)
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''

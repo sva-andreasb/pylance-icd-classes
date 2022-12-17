@@ -1,3 +1,4 @@
-def SwKbtCronParamSet():
-    '''public SwKbtCronParamSet(final MboServerInterface ms)
+def ():
+    '''returns SwKbtCronParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

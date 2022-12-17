@@ -1,16 +1,20 @@
-def getCssText():
-    '''public static String getCssText(final short unit, final float value)
-    public String getCssText()
-    '''
-def FloatValue():
-    '''public FloatValue(final short unitType, final float floatValue)
+def ():
+    '''returns FloatValue\n\n
+    (final short unitType, final float floatValue)\n
     '''
 def getPrimitiveType():
-    '''public short getPrimitiveType()
+    '''returns short\n\n
+    getPrimitiveType()\n
     '''
 def getFloatValue():
-    '''public float getFloatValue()
+    '''returns float\n\n
+    getFloatValue()\n
+    '''
+def getCssText():
+    '''returns String\n\n
+    getCssText()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

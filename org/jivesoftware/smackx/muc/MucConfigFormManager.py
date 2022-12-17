@@ -3,35 +3,46 @@ MUC_ROOMCONFIG_MEMBERSONLY = "String  \"muc#roomconfig_membersonly\""
 MUC_ROOMCONFIG_PASSWORDPROTECTEDROOM = "String  \"muc#roomconfig_passwordprotectedroom\""
 MUC_ROOMCONFIG_ROOMSECRET = "String  \"muc#roomconfig_roomsecret\""
 def supportsRoomOwners():
-    '''public boolean supportsRoomOwners()
+    '''returns boolean\n\n
+    supportsRoomOwners()\n
     '''
 def setRoomOwners():
-    '''public MucConfigFormManager setRoomOwners(final Collection<? extends Jid> newOwners)
+    '''returns MucConfigFormManager\n\n
+    setRoomOwners(final Collection<? extends Jid> newOwners)\n
     '''
 def supportsMembersOnly():
-    '''public boolean supportsMembersOnly()
+    '''returns boolean\n\n
+    supportsMembersOnly()\n
     '''
 def makeMembersOnly():
-    '''public MucConfigFormManager makeMembersOnly()
+    '''returns MucConfigFormManager\n\n
+    makeMembersOnly()\n
     '''
 def setMembersOnly():
-    '''public MucConfigFormManager setMembersOnly(final boolean isMembersOnly)
+    '''returns MucConfigFormManager\n\n
+    setMembersOnly(final boolean isMembersOnly)\n
     '''
 def supportsPasswordProtected():
-    '''public boolean supportsPasswordProtected()
+    '''returns boolean\n\n
+    supportsPasswordProtected()\n
     '''
 def setAndEnablePassword():
-    '''public MucConfigFormManager setAndEnablePassword(final String password)
+    '''returns MucConfigFormManager\n\n
+    setAndEnablePassword(final String password)\n
     '''
 def makePasswordProtected():
-    '''public MucConfigFormManager makePasswordProtected()
+    '''returns MucConfigFormManager\n\n
+    makePasswordProtected()\n
     '''
 def setIsPasswordProtected():
-    '''public MucConfigFormManager setIsPasswordProtected(final boolean isPasswordProtected)
+    '''returns MucConfigFormManager\n\n
+    setIsPasswordProtected(final boolean isPasswordProtected)\n
     '''
 def setRoomSecret():
-    '''public MucConfigFormManager setRoomSecret(final String secret)
+    '''returns MucConfigFormManager\n\n
+    setRoomSecret(final String secret)\n
     '''
 def submitConfigurationForm():
-    '''public void submitConfigurationForm()
+    '''returns None\n\n
+    submitConfigurationForm()\n
     '''

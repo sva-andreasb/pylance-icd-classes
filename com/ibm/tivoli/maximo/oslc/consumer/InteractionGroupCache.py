@@ -1,15 +1,12 @@
-def getInstance():
-    '''public static InteractionGroupCache getInstance()
-    '''
 def getName():
-    '''public String getName()
-    '''
-def getAllInteractionGroups():
-    '''public Map<String, InteractionGroupInfo> getAllInteractionGroups()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInteractionGroupInfo():
-    '''public InteractionGroupInfo getInteractionGroupInfo(final String name)
+    '''returns InteractionGroupInfo\n\n
+    getInteractionGroupInfo(final String name)\n
     '''
 def getAllGroupsForInteraction():
-    '''public List<String> getAllGroupsForInteraction(final String name)
+    '''returns List<String>\n\n
+    getAllGroupsForInteraction(final String name)\n
     '''

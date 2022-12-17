@@ -1,18 +1,24 @@
-def LaborWorkZone():
-    '''public LaborWorkZone(final MboSet ms)
+def ():
+    '''returns LaborWorkZone\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def makeOtherNotDefault():
-    '''public void makeOtherNotDefault()
+    '''returns None\n\n
+    makeOtherNotDefault()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

@@ -1,3 +1,4 @@
-def PRLineSet():
-    '''public PRLineSet(final MboServerInterface ms)
+def ():
+    '''returns PRLineSet\n\n
+    (final MboServerInterface ms)\n
     '''

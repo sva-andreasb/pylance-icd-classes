@@ -1,27 +1,32 @@
-def create():
-    '''public static SqlJoin create(final JoinType joinType, final SqlNode left, final SqlNode right)
-    '''
 def getJoinType():
-    '''public JoinType getJoinType()
+    '''returns JoinType\n\n
+    getJoinType()\n
     '''
 def isJoin():
-    '''public boolean isJoin()
+    '''returns boolean\n\n
+    isJoin()\n
     '''
 def asJoin():
-    '''public SqlJoin asJoin()
+    '''returns SqlJoin\n\n
+    asJoin()\n
     '''
 def getConditions():
-    '''public SqlExprList getConditions()
+    '''returns SqlExprList\n\n
+    getConditions()\n
     '''
 def addCondition():
-    '''public void addCondition(final SqlExpr e)
+    '''returns None\n\n
+    addCondition(final SqlExpr e)\n
     '''
 def addConditions():
-    '''public void addConditions(final SqlExprList exprs)
+    '''returns None\n\n
+    addConditions(final SqlExprList exprs)\n
     '''
 def getIdScope():
-    '''public Scope getIdScope()
+    '''returns Scope\n\n
+    getIdScope()\n
     '''
 def getNodeScope():
-    '''public Scope getNodeScope()
+    '''returns Scope\n\n
+    getNodeScope()\n
     '''

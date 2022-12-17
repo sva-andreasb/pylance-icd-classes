@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloDataServiceOptimListener():
-    '''public IloDataServiceOptimListener(final IloDecisionServiceProfile optimProfile)
+def ():
+    '''returns IloDataServiceOptimListener\n\n
+    (final IloDecisionServiceProfile optimProfile)\n
     '''
 def scenarioCreated():
-    '''public void scenarioCreated(final IloScenario scenario)
+    '''returns None\n\n
+    scenarioCreated(final IloScenario scenario)\n
     '''
 def scenarioMigrated():
-    '''public void scenarioMigrated(final IloScenario scenario)
+    '''returns None\n\n
+    scenarioMigrated(final IloScenario scenario)\n
     '''
 def scenarioUpdated():
-    '''public void scenarioUpdated(final IloScenario scenario)
+    '''returns None\n\n
+    scenarioUpdated(final IloScenario scenario)\n
     '''
 def scenarioChecked():
-    '''public void scenarioChecked(final IloScenario scenario)
+    '''returns None\n\n
+    scenarioChecked(final IloScenario scenario)\n
     '''

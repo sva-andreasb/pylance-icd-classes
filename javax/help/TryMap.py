@@ -1,42 +1,53 @@
-def TryMap():
-    '''public TryMap()
+def ():
+    '''returns TryEnumeration\n\n
+    ()\n
+    (final Enumeration e, final URL url)\n
     '''
 def add():
-    '''public void add(final Map obj)
+    '''returns None\n\n
+    add(final Map obj)\n
     '''
 def remove():
-    '''public boolean remove(final Map obj)
+    '''returns boolean\n\n
+    remove(final Map obj)\n
     '''
 def getMaps():
-    '''public Enumeration getMaps()
+    '''returns Enumeration\n\n
+    getMaps()\n
     '''
 def isValidID():
-    '''public boolean isValidID(final String str, final HelpSet set)
+    '''returns boolean\n\n
+    isValidID(final String str, final HelpSet set)\n
     '''
 def getAllIDs():
-    '''public Enumeration getAllIDs()
+    '''returns Enumeration\n\n
+    getAllIDs()\n
     '''
 def getURLFromID():
-    '''public URL getURLFromID(final ID obj)
+    '''returns URL\n\n
+    getURLFromID(final ID obj)\n
     '''
 def isID():
-    '''public boolean isID(final URL url)
+    '''returns boolean\n\n
+    isID(final URL url)\n
     '''
 def getIDFromURL():
-    '''public ID getIDFromURL(final URL obj)
+    '''returns ID\n\n
+    getIDFromURL(final URL obj)\n
     '''
 def getClosestID():
-    '''public ID getClosestID(final URL url)
+    '''returns ID\n\n
+    getClosestID(final URL url)\n
     '''
 def getIDs():
-    '''public Enumeration getIDs(final URL url)
-    '''
-def TryEnumeration():
-    '''public TryEnumeration(final Enumeration e, final URL url)
+    '''returns Enumeration\n\n
+    getIDs(final URL url)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''

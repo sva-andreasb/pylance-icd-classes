@@ -1,30 +1,40 @@
-def PmChgImpactTempRecord():
-    '''public PmChgImpactTempRecord()
+def ():
+    '''returns PmChgImpactTempRecord\n\n
+    ()\n
     '''
 def isCounted():
-    '''public boolean isCounted()
+    '''returns boolean\n\n
+    isCounted()\n
     '''
 def setCounted():
-    '''public void setCounted(final boolean counted)
+    '''returns None\n\n
+    setCounted(final boolean counted)\n
     '''
 def getCinum():
-    '''public String getCinum()
+    '''returns String\n\n
+    getCinum()\n
     '''
 def setCinum():
-    '''public void setCinum(final String cinum)
+    '''returns None\n\n
+    setCinum(final String cinum)\n
     '''
 def getCiDescription():
-    '''public String getCiDescription()
+    '''returns String\n\n
+    getCiDescription()\n
     '''
 def setCiDescription():
-    '''public void setCiDescription(final String ciDescription)
+    '''returns None\n\n
+    setCiDescription(final String ciDescription)\n
     '''
 def getImpactedCI():
-    '''public String getImpactedCI()
+    '''returns String\n\n
+    getImpactedCI()\n
     '''
 def setImpactedCI():
-    '''public void setImpactedCI(final String impactedCI)
+    '''returns None\n\n
+    setImpactedCI(final String impactedCI)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

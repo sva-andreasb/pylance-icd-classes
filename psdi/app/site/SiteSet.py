@@ -1,15 +1,20 @@
-def SiteSet():
-    '''public SiteSet(final MboServerInterface ms)
+def ():
+    '''returns SiteSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def getSitesForBBAudience():
-    '''public void getSitesForBBAudience(final String bbId)
+    '''returns None\n\n
+    getSitesForBBAudience(final String bbId)\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''

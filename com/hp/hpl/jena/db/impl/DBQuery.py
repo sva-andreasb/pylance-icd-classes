@@ -1,12 +1,16 @@
-def DBQuery():
-    '''public DBQuery(final SpecializedGraph sg, final List<VarDesc> varList, final boolean queryOnlyStmt, final boolean queryOnlyReif, final boolean queryFullReif)
+def ():
+    '''returns DBQuery\n\n
+    (final SpecializedGraph sg, final List<VarDesc> varList, final boolean queryOnlyStmt, final boolean queryOnlyReif, final boolean queryFullReif)\n
     '''
 def getBinding():
-    '''public VarDesc getBinding(final int i)
+    '''returns VarDesc\n\n
+    getBinding(final int i)\n
     '''
 def findBinding():
-    '''public VarDesc findBinding(final String v)
+    '''returns VarDesc\n\n
+    findBinding(final String v)\n
     '''
 def newAlias():
-    '''public void newAlias()
+    '''returns None\n\n
+    newAlias()\n
     '''

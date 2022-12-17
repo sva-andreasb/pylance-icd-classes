@@ -1,3 +1,4 @@
-def LiveChatMessage():
-    '''public LiveChatMessage(final MboSet ms)
+def ():
+    '''returns LiveChatMessage\n\n
+    (final MboSet ms)\n
     '''

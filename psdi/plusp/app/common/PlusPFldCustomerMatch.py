@@ -1,6 +1,8 @@
-def PlusPFldCustomerMatch():
-    '''public PlusPFldCustomerMatch(final MboValue mbv)
+def ():
+    '''returns PlusPFldCustomerMatch\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

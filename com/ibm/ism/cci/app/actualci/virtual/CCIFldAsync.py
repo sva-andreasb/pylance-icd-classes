@@ -1,7 +1,9 @@
-def CCIFldAsync():
-    '''public CCIFldAsync()
-    public CCIFldAsync(final MboValue mbv)
+def ():
+    '''returns CCIFldAsync\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,20 +1,26 @@
-def ConvertingWriter():
-    '''public ConvertingWriter(final Writer writer, final String lineSeparator)
+def ():
+    '''returns ConvertingWriter\n\n
+    (final Writer writer, final String lineSeparator)\n
     '''
 def write():
-    '''public void write(final char[] cbuf, final int off, final int len)
-    public void write(final int c)
-    public void write(final String str, final int off, final int len)
+    '''returns None\n\n
+    write(final char[] cbuf, final int off, final int len)\n
+    write(final int c)\n
+    write(final String str, final int off, final int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def getLineSeparator():
-    '''public String getLineSeparator()
+    '''returns String\n\n
+    getLineSeparator()\n
     '''
 def getWriter():
-    '''public Writer getWriter()
+    '''returns Writer\n\n
+    getWriter()\n
     '''

@@ -1,3 +1,4 @@
-def MaxDataPrefix():
-    '''public MaxDataPrefix(final MboSet ms)
+def ():
+    '''returns MaxDataPrefix\n\n
+    (final MboSet ms)\n
     '''

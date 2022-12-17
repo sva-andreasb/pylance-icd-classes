@@ -1,48 +1,64 @@
 def setSourceName():
-    '''public void setSourceName(final String sourceName)
+    '''returns None\n\n
+    setSourceName(final String sourceName)\n
     '''
 def getSourceName():
-    '''public String getSourceName()
+    '''returns String\n\n
+    getSourceName()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setVersion():
-    '''public void setVersion(final String version)
+    '''returns None\n\n
+    setVersion(final String version)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setStandalone():
-    '''public void setStandalone(final boolean standalone)
+    '''returns None\n\n
+    setStandalone(final boolean standalone)\n
     '''
 def getStandalone():
-    '''public boolean getStandalone()
+    '''returns boolean\n\n
+    getStandalone()\n
     '''
 def setDoctypeName():
-    '''public void setDoctypeName(final String doctypename)
+    '''returns None\n\n
+    setDoctypeName(final String doctypename)\n
     '''
 def getDoctypeName():
-    '''public String getDoctypeName()
+    '''returns String\n\n
+    getDoctypeName()\n
     '''
 def setDoctypePublicId():
-    '''public void setDoctypePublicId(final String publicid)
+    '''returns None\n\n
+    setDoctypePublicId(final String publicid)\n
     '''
 def getDoctypePublicId():
-    '''public String getDoctypePublicId()
+    '''returns String\n\n
+    getDoctypePublicId()\n
     '''
 def setDoctypeSystemId():
-    '''public void setDoctypeSystemId(final String systemid)
+    '''returns None\n\n
+    setDoctypeSystemId(final String systemid)\n
     '''
 def getDoctypeSystemId():
-    '''public String getDoctypeSystemId()
+    '''returns String\n\n
+    getDoctypeSystemId()\n
     '''
 def setMessageDigest():
-    '''public void setMessageDigest(final byte[] digest)
+    '''returns None\n\n
+    setMessageDigest(final byte[] digest)\n
     '''
 def getMessageDigest():
-    '''public byte[] getMessageDigest()
+    '''returns byte[]\n\n
+    getMessageDigest()\n
     '''

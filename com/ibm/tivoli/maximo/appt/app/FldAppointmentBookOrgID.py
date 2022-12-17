@@ -1,3 +1,4 @@
-def FldAppointmentBookOrgID():
-    '''public FldAppointmentBookOrgID(final MboValue mbv)
+def ():
+    '''returns FldAppointmentBookOrgID\n\n
+    (final MboValue mbv)\n
     '''

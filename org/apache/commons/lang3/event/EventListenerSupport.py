@@ -1,22 +1,25 @@
-def create():
-    '''public static <T> EventListenerSupport<T> create(final Class<T> listenerInterface)
-    '''
-def EventListenerSupport():
-    '''public EventListenerSupport(final Class<L> listenerInterface)
-    public EventListenerSupport(final Class<L> listenerInterface, final ClassLoader classLoader)
+def ():
+    '''returns EventListenerSupport\n\n
+    (final Class<L> listenerInterface)\n
+    (final Class<L> listenerInterface, final ClassLoader classLoader)\n
     '''
 def fire():
-    '''public L fire()
+    '''returns L\n\n
+    fire()\n
     '''
 def addListener():
-    '''public void addListener(final L listener)
+    '''returns None\n\n
+    addListener(final L listener)\n
     '''
 def removeListener():
-    '''public void removeListener(final L listener)
+    '''returns None\n\n
+    removeListener(final L listener)\n
     '''
 def getListeners():
-    '''public L[] getListeners()
+    '''returns L[]\n\n
+    getListeners()\n
     '''
 def invoke():
-    '''public Object invoke(final Object unusedProxy, final Method method, final Object[] args)
+    '''returns Object\n\n
+    invoke(final Object unusedProxy, final Method method, final Object[] args)\n
     '''

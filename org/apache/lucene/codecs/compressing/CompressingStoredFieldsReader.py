@@ -1,33 +1,44 @@
-def CompressingStoredFieldsReader():
-    '''public CompressingStoredFieldsReader(final Directory d, final SegmentInfo si, final String segmentSuffix, final FieldInfos fn, final IOContext context, final String formatName, final CompressionMode compressionMode)
+def ():
+    '''returns CompressingStoredFieldsReader\n\n
+    (final Directory d, final SegmentInfo si, final String segmentSuffix, final FieldInfos fn, final IOContext context, final String formatName, final CompressionMode compressionMode)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def visitDocument():
-    '''public void visitDocument(final int docID, final StoredFieldVisitor visitor)
+    '''returns None\n\n
+    visitDocument(final int docID, final StoredFieldVisitor visitor)\n
     '''
 def clone():
-    '''public StoredFieldsReader clone()
+    '''returns StoredFieldsReader\n\n
+    clone()\n
     '''
 def getMergeInstance():
-    '''public StoredFieldsReader getMergeInstance()
+    '''returns StoredFieldsReader\n\n
+    getMergeInstance()\n
     '''
 def ramBytesUsed():
-    '''public long ramBytesUsed()
+    '''returns long\n\n
+    ramBytesUsed()\n
     '''
 def getChildResources():
-    '''public Collection<Accountable> getChildResources()
+    '''returns Collection<Accountable>\n\n
+    getChildResources()\n
     '''
 def checkIntegrity():
-    '''public void checkIntegrity()
+    '''returns None\n\n
+    checkIntegrity()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def readByte():
-    '''public byte readByte()
+    '''returns byte\n\n
+    readByte()\n
     '''
 def readBytes():
-    '''public void readBytes(final byte[] b, int offset, int len)
+    '''returns None\n\n
+    readBytes(final byte[] b, int offset, int len)\n
     '''

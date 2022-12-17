@@ -1,6 +1,8 @@
-def HttpClient():
-    '''public HttpClient(final URL url, final String proxyHost, final int proxyPort, final boolean resolveProxy)
+def ():
+    '''returns HttpClient\n\n
+    (final URL url, final String proxyHost, final int proxyPort, final boolean resolveProxy)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

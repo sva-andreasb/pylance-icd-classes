@@ -1,6 +1,8 @@
-def LaborAuthSet():
-    '''public LaborAuthSet(final MboServerInterface ms)
+def ():
+    '''returns LaborAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

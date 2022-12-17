@@ -1,63 +1,80 @@
 def isDbSourceSet():
-    '''public boolean isDbSourceSet()
+    '''returns boolean\n\n
+    isDbSourceSet()\n
     '''
 def getNRS10DbDriver():
-    '''public String getNRS10DbDriver()
+    '''returns String\n\n
+    getNRS10DbDriver()\n
     '''
 def getNRS10DbURL():
-    '''public String getNRS10DbURL()
+    '''returns String\n\n
+    getNRS10DbURL()\n
     '''
 def getNRS10DbUser():
-    '''public String getNRS10DbUser()
+    '''returns String\n\n
+    getNRS10DbUser()\n
     '''
 def getNRS10DbPassword():
-    '''public String getNRS10DbPassword()
+    '''returns String\n\n
+    getNRS10DbPassword()\n
     '''
 def getMSSName():
-    '''public String getMSSName()
+    '''returns String\n\n
+    getMSSName()\n
     '''
 def getMSSHostName():
-    '''public String getMSSHostName()
+    '''returns String\n\n
+    getMSSHostName()\n
     '''
 def getMSSManufacurerName():
-    '''public String getMSSManufacurerName()
+    '''returns String\n\n
+    getMSSManufacurerName()\n
     '''
 def getMSSSubcomponentName():
-    '''public String getMSSSubcomponentName()
+    '''returns String\n\n
+    getMSSSubcomponentName()\n
     '''
 def getMSSSubcomponentInstanceName():
-    '''public String getMSSSubcomponentInstanceName()
+    '''returns String\n\n
+    getMSSSubcomponentInstanceName()\n
     '''
 def getMSSProductName():
-    '''public String getMSSProductName()
+    '''returns String\n\n
+    getMSSProductName()\n
     '''
 def getMSSAdminState():
-    '''public String getMSSAdminState()
+    '''returns String\n\n
+    getMSSAdminState()\n
     '''
 def getMSSUiPortNumber():
-    '''public String getMSSUiPortNumber()
+    '''returns String\n\n
+    getMSSUiPortNumber()\n
     '''
 def getMSSUiHostName():
-    '''public String getMSSUiHostName()
+    '''returns String\n\n
+    getMSSUiHostName()\n
     '''
 def getMSSSouceToken():
-    '''public String getMSSSouceToken()
+    '''returns String\n\n
+    getMSSSouceToken()\n
     '''
 def getMSSDisplayName():
-    '''public String getMSSDisplayName()
+    '''returns String\n\n
+    getMSSDisplayName()\n
     '''
 def getMSSDescription():
-    '''public String getMSSDescription()
+    '''returns String\n\n
+    getMSSDescription()\n
     '''
 def getMSSNameSpace():
-    '''public String getMSSNameSpace()
+    '''returns String\n\n
+    getMSSNameSpace()\n
     '''
 def getMSSLabel():
-    '''public String getMSSLabel()
+    '''returns String\n\n
+    getMSSLabel()\n
     '''
 def getMSSProductVerstion():
-    '''public String getMSSProductVerstion()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    getMSSProductVerstion()\n
     '''

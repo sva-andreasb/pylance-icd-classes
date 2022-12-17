@@ -1,15 +1,16 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
-def DeleteComposite():
-    '''public DeleteComposite(final TopologyManager tm)
+def ():
+    '''returns DeleteComposite\n\n
+    (final TopologyManager tm)\n
     '''
 def delete():
-    '''public boolean delete(final Composite composite)
+    '''returns boolean\n\n
+    delete(final Composite composite)\n
     '''
 def deleteModelObject():
-    '''public boolean deleteModelObject(final Guid guid)
+    '''returns boolean\n\n
+    deleteModelObject(final Guid guid)\n
     '''
 def testRemove():
-    '''public void testRemove(final ModelObject modelObj)
+    '''returns None\n\n
+    testRemove(final ModelObject modelObj)\n
     '''

@@ -1,18 +1,23 @@
-def OperationException():
-    '''public OperationException(final String operation, final String uri, final int code)
-    public OperationException(final String operation, final String uri, final int code, final ServerExceptionData data)
-    public OperationException(final String operation, final String uri, final int code, final Exception e)
-    public OperationException(final String operation, final String uri, final int code, final String gatewayMessage)
+def ():
+    '''returns OperationException\n\n
+    (final String operation, final String uri, final int code)\n
+    (final String operation, final String uri, final int code, final ServerExceptionData data)\n
+    (final String operation, final String uri, final int code, final Exception e)\n
+    (final String operation, final String uri, final int code, final String gatewayMessage)\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def getCode():
-    '''public int getCode()
+    '''returns int\n\n
+    getCode()\n
     '''
 def getOperation():
-    '''public String getOperation()
+    '''returns String\n\n
+    getOperation()\n
     '''
 def getServerExceptionData():
-    '''public ServerExceptionData getServerExceptionData()
+    '''returns ServerExceptionData\n\n
+    getServerExceptionData()\n
     '''

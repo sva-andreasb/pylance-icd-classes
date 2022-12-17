@@ -1,11 +1,14 @@
-def Sinc():
-    '''public Sinc()
-    public Sinc(final boolean normalized)
+def ():
+    '''returns Sinc\n\n
+    ()\n
+    (final boolean normalized)\n
     '''
 def value():
-    '''public double value(final double x)
-    public DerivativeStructure value(final DerivativeStructure t)
+    '''returns DerivativeStructure\n\n
+    value(final double x)\n
+    value(final DerivativeStructure t)\n
     '''
 def derivative():
-    '''public UnivariateFunction derivative()
+    '''returns UnivariateFunction\n\n
+    derivative()\n
     '''

@@ -1,72 +1,83 @@
-def EmailListnerTask():
-    '''public EmailListnerTask()
+def ():
+    '''returns EmailListnerTask\n\n
+    ()\n
     '''
 def performTask():
-    '''public void performTask(final String taskName, final String instanceName)
-    '''
-def getLogger():
-    '''public static MXLogger getLogger()
+    '''returns None\n\n
+    performTask(final String taskName, final String instanceName)\n
     '''
 def setLogger():
-    '''public void setLogger(final MXLogger logger)
+    '''returns None\n\n
+    setLogger(final MXLogger logger)\n
     '''
 def getRunAsUserInfo():
-    '''public UserInfo getRunAsUserInfo()
+    '''returns UserInfo\n\n
+    getRunAsUserInfo()\n
     '''
 def setRunAsUserInfo():
-    '''public void setRunAsUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setRunAsUserInfo(final UserInfo userInfo)\n
     '''
 def readMessagesFromMailServer():
-    '''public void readMessagesFromMailServer(final InboundCommCfgData cfgData, final MboRemote inboundCommCfgMbo)
+    '''returns None\n\n
+    readMessagesFromMailServer(final InboundCommCfgData cfgData, final MboRemote inboundCommCfgMbo)\n
     '''
 def processNEWStatusFromInboundComm():
-    '''public void processNEWStatusFromInboundComm(final MboRemote inboundCommCfgMbo)
+    '''returns None\n\n
+    processNEWStatusFromInboundComm(final MboRemote inboundCommCfgMbo)\n
     '''
 def processNewStatusMail():
-    '''public MboRemote processNewStatusMail(MboRemote inboundComm)
+    '''returns MboRemote\n\n
+    processNewStatusMail(MboRemote inboundComm)\n
     '''
 def getAppFromInbCommSecurity():
-    '''public String getAppFromInbCommSecurity(final MboRemote inboundComm, final String objectName)
+    '''returns String\n\n
+    getAppFromInbCommSecurity(final MboRemote inboundComm, final String objectName)\n
     '''
 def appExistForSecurityCheck():
-    '''public void appExistForSecurityCheck(MboRemote inboundComm, final int formatMode)
+    '''returns None\n\n
+    appExistForSecurityCheck(MboRemote inboundComm, final int formatMode)\n
     '''
 def getAppFromMaxApps():
-    '''public String getAppFromMaxApps(final String objectName)
+    '''returns String\n\n
+    getAppFromMaxApps(final String objectName)\n
     '''
 def parseFormattedMessage():
-    '''public void parseFormattedMessage(final MboRemote inboundComm, final LSNRParser parser, final int mode)
+    '''returns None\n\n
+    parseFormattedMessage(final MboRemote inboundComm, final LSNRParser parser, final int mode)\n
     '''
 def processMailForFreeformMode():
-    '''public MboRemote processMailForFreeformMode(final MboRemote inboundComm)
+    '''returns MboRemote\n\n
+    processMailForFreeformMode(final MboRemote inboundComm)\n
     '''
 def getObjectActionForFormattedMode():
-    '''public MboRemote getObjectActionForFormattedMode(MboRemote inboundComm, final LSNRParser parser, final int mode)
+    '''returns MboRemote\n\n
+    getObjectActionForFormattedMode(MboRemote inboundComm, final LSNRParser parser, final int mode)\n
     '''
 def getMultipartPart():
-    '''public MailData getMultipartPart(final MimeMultipart mp, final MailData md, final Vector<Object> vector)
+    '''returns MailData\n\n
+    getMultipartPart(final MimeMultipart mp, final MailData md, final Vector<Object> vector)\n
     '''
 def getTextPart():
-    '''public String getTextPart(final MimeBodyPart mbp, String text)
+    '''returns String\n\n
+    getTextPart(final MimeBodyPart mbp, String text)\n
     '''
 def writeIntoInboundComm():
-    '''public MboRemote writeIntoInboundComm(final MailData md, final InboundCommCfgData cfgData, final MboRemote inboundCommCfgMbo)
-    public MboRemote writeIntoInboundComm(final MailData md, final InboundCommCfgData cfgData, final MboRemote inboundCommCfgMbo, final Message m)
+    '''returns MboRemote\n\n
+    writeIntoInboundComm(final MailData md, final InboundCommCfgData cfgData, final MboRemote inboundCommCfgMbo)\n
+    writeIntoInboundComm(final MailData md, final InboundCommCfgData cfgData, final MboRemote inboundCommCfgMbo, final Message m)\n
     '''
 def writeToDocInfoAndDocLinks():
-    '''public void writeToDocInfoAndDocLinks(final MailData md, final String inbCommUser, final MboRemote inboundComm, final String attFileName, final String doclinkName, final boolean msgFirstLevel, final int msgLevel)
-    '''
-def getContentTypeFrom():
-    '''public static String getContentTypeFrom(final String fileName)
+    '''returns None\n\n
+    writeToDocInfoAndDocLinks(final MailData md, final String inbCommUser, final MboRemote inboundComm, final String attFileName, final String doclinkName, final boolean msgFirstLevel, final int msgLevel)\n
     '''
 def isNewMail():
-    '''public boolean isNewMail(final String mailId, final String emailAddress, final UserInfo ui)
-    public boolean isNewMail(final String mailId, final String emailAddress)
-    public boolean isNewMail(final String mailId)
+    '''returns boolean\n\n
+    isNewMail(final String mailId, final String emailAddress, final UserInfo ui)\n
+    isNewMail(final String mailId, final String emailAddress)\n
+    isNewMail(final String mailId)\n
     '''
 def deleteMailAfterAgeThreshold():
-    '''public void deleteMailAfterAgeThreshold(final Message m, final int age, final String ageUOM, final String emailAddress)
-    '''
-def getAccessToken():
-    '''public HashMap<String, Integer> getAccessToken(final String tokenUrl, final String clientId, final String clientSecret, final String refreshToken, final String grantType)
+    '''returns None\n\n
+    deleteMailAfterAgeThreshold(final Message m, final int age, final String ageUOM, final String emailAddress)\n
     '''

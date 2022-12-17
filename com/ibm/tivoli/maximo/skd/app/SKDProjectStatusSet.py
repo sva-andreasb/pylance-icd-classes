@@ -1,3 +1,4 @@
-def SKDProjectStatusSet():
-    '''public SKDProjectStatusSet(final MboServerInterface ms)
+def ():
+    '''returns SKDProjectStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

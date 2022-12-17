@@ -1,27 +1,36 @@
-def DmCompareDelAsyncJobSubmitter():
-    '''public DmCompareDelAsyncJobSubmitter(final MboServerInterface ms)
+def ():
+    '''returns DmCompareDelAsyncJobSubmitter\n\n
+    (final MboServerInterface ms)\n
     '''
 def getAsyncJobHandlerClassName():
-    '''public String getAsyncJobHandlerClassName()
+    '''returns String\n\n
+    getAsyncJobHandlerClassName()\n
     '''
 def getCompleteWhereClause():
-    '''public String getCompleteWhereClause()
+    '''returns String\n\n
+    getCompleteWhereClause()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getJobName():
-    '''public String getJobName()
+    '''returns String\n\n
+    getJobName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def isImmediate():
-    '''public boolean isImmediate()
+    '''returns boolean\n\n
+    isImmediate()\n
     '''
 def getEmail():
-    '''public boolean getEmail()
+    '''returns boolean\n\n
+    getEmail()\n
     '''
 def getEmailAddress():
-    '''public String getEmailAddress()
+    '''returns String\n\n
+    getEmailAddress()\n
     '''

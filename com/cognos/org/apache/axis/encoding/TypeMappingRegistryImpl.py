@@ -1,38 +1,50 @@
-def TypeMappingRegistryImpl():
-    '''public TypeMappingRegistryImpl(final TypeMappingImpl tm)
-    public TypeMappingRegistryImpl()
-    public TypeMappingRegistryImpl(final boolean registerDefaults)
+def ():
+    '''returns TypeMappingRegistryImpl\n\n
+    (final TypeMappingImpl tm)\n
+    ()\n
+    (final boolean registerDefaults)\n
     '''
 def delegate():
-    '''public void delegate(final TypeMappingRegistry secondaryTMR)
+    '''returns None\n\n
+    delegate(final TypeMappingRegistry secondaryTMR)\n
     '''
 def register():
-    '''public TypeMapping register(final String namespaceURI, final TypeMapping mapping)
+    '''returns TypeMapping\n\n
+    register(final String namespaceURI, final TypeMapping mapping)\n
     '''
 def registerDefault():
-    '''public void registerDefault(final TypeMapping mapping)
+    '''returns None\n\n
+    registerDefault(final TypeMapping mapping)\n
     '''
 def doRegisterFromVersion():
-    '''public void doRegisterFromVersion(final String version)
+    '''returns None\n\n
+    doRegisterFromVersion(final String version)\n
     '''
 def getTypeMapping():
-    '''public TypeMapping getTypeMapping(final String namespaceURI)
+    '''returns TypeMapping\n\n
+    getTypeMapping(final String namespaceURI)\n
     '''
 def unregisterTypeMapping():
-    '''public TypeMapping unregisterTypeMapping(final String namespaceURI)
+    '''returns TypeMapping\n\n
+    unregisterTypeMapping(final String namespaceURI)\n
     '''
 def removeTypeMapping():
-    '''public boolean removeTypeMapping(final TypeMapping mapping)
+    '''returns boolean\n\n
+    removeTypeMapping(final TypeMapping mapping)\n
     '''
 def createTypeMapping():
-    '''public TypeMapping createTypeMapping()
+    '''returns TypeMapping\n\n
+    createTypeMapping()\n
     '''
 def getRegisteredEncodingStyleURIs():
-    '''public String[] getRegisteredEncodingStyleURIs()
+    '''returns String[]\n\n
+    getRegisteredEncodingStyleURIs()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getDefaultTypeMapping():
-    '''public TypeMapping getDefaultTypeMapping()
+    '''returns TypeMapping\n\n
+    getDefaultTypeMapping()\n
     '''

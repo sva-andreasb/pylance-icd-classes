@@ -1,42 +1,48 @@
-def init():
-    '''public static void init()
-    '''
-def PoeStyleControlBlock():
-    '''public PoeStyleControlBlock(final byte[] array, final boolean b)
+def ():
+    '''returns PoeStyleControlBlock\n\n
+    (final byte[] array, final boolean b)\n
     '''
 def getFunctionCode():
-    '''public short getFunctionCode()
+    '''returns short\n\n
+    getFunctionCode()\n
     '''
 def getElementsCount():
-    '''public short getElementsCount()
+    '''returns short\n\n
+    getElementsCount()\n
     '''
 def getPOEStyleCodePage():
-    '''public short getPOEStyleCodePage()
+    '''returns short\n\n
+    getPOEStyleCodePage()\n
     '''
 def getCharsetName():
-    '''public String getCharsetName()
+    '''returns String\n\n
+    getCharsetName()\n
     '''
 def getDictTokens():
-    '''public byte[] getDictTokens()
+    '''returns byte[]\n\n
+    getDictTokens()\n
     '''
 def getDictFileName():
-    '''public String getDictFileName()
+    '''returns String\n\n
+    getDictFileName()\n
     '''
 def isLXBlockFormat():
-    '''public boolean isLXBlockFormat()
+    '''returns boolean\n\n
+    isLXBlockFormat()\n
     '''
 def setDelivered():
-    '''public void setDelivered(final int n)
+    '''returns None\n\n
+    setDelivered(final int n)\n
     '''
 def setReplyUsed():
-    '''public void setReplyUsed(final int n)
+    '''returns None\n\n
+    setReplyUsed(final int n)\n
     '''
 def setContReply():
-    '''public void setContReply()
+    '''returns None\n\n
+    setContReply()\n
     '''
 def getRequestType():
-    '''public short getRequestType()
-    '''
-def getPoeLangCode():
-    '''public static short getPoeLangCode(final String s)
+    '''returns short\n\n
+    getRequestType()\n
     '''

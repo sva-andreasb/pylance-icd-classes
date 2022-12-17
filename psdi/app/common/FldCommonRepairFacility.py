@@ -1,8 +1,10 @@
-def FldCommonRepairFacility():
-    '''public FldCommonRepairFacility(final MboValue mbv)
-    public FldCommonRepairFacility(final MboValue mbv, final String siteid)
-    public FldCommonRepairFacility(final MboValue mbv, final String siteid, final boolean inSecurityApp)
+def ():
+    '''returns FldCommonRepairFacility\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String siteid)\n
+    (final MboValue mbv, final String siteid, final boolean inSecurityApp)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,4 +1,5 @@
-def MethodNotSupportedException():
-    '''public MethodNotSupportedException(final String message)
-    public MethodNotSupportedException(final String message, final Throwable cause)
+def ():
+    '''returns MethodNotSupportedException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

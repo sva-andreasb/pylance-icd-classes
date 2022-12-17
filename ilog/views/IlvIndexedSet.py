@@ -1,112 +1,135 @@
-def IlvIndexedSet():
-    '''public IlvIndexedSet()
-    public IlvIndexedSet(final int g, final int e)
+def ():
+    '''returns BBoxCache\n\n
+    ()\n
+    (final int g, final int e)\n
+    ()\n
     '''
 def setQuadtreeEnabled():
-    '''public void setQuadtreeEnabled(final boolean b)
+    '''returns None\n\n
+    setQuadtreeEnabled(final boolean b)\n
     '''
 def isQuadtreeEnabled():
-    '''public boolean isQuadtreeEnabled()
+    '''returns boolean\n\n
+    isQuadtreeEnabled()\n
     '''
 def setZOrdering():
-    '''public void setZOrdering(final boolean h)
+    '''returns None\n\n
+    setZOrdering(final boolean h)\n
     '''
 def isZOrdering():
-    '''public boolean isZOrdering()
-    '''
-def SetInitialNumberOfObjectsCapacity():
-    '''public static void SetInitialNumberOfObjectsCapacity(final int a)
-    '''
-def SetInitialNumberOfNonZoomablesCapacity():
-    '''public static void SetInitialNumberOfNonZoomablesCapacity(final int b)
+    '''returns boolean\n\n
+    isZOrdering()\n
     '''
 def setSubsequentRemoveThreshold():
-    '''public void setSubsequentRemoveThreshold(final long b)
+    '''returns None\n\n
+    setSubsequentRemoveThreshold(final long b)\n
     '''
 def getSubsequentRemoveThreshold():
-    '''public long getSubsequentRemoveThreshold()
+    '''returns long\n\n
+    getSubsequentRemoveThreshold()\n
     '''
 def addObject():
-    '''public void addObject(final IlvGraphic ilvGraphic)
+    '''returns None\n\n
+    addObject(final IlvGraphic ilvGraphic)\n
     '''
 def removeObject():
-    '''public void removeObject(final IlvGraphic obj)
+    '''returns None\n\n
+    removeObject(final IlvGraphic obj)\n
     '''
 def getCardinal():
-    '''public int getCardinal()
+    '''returns int\n\n
+    getCardinal()\n
     '''
 def deleteAll():
-    '''public void deleteAll()
+    '''returns None\n\n
+    deleteAll()\n
     '''
 def getObject():
-    '''public IlvGraphic getObject(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
-    public IlvGraphic getObject(final int n)
+    '''returns IlvGraphic\n\n
+    getObject(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
+    getObject(final int n)\n
     '''
 def getSelectableObject():
-    '''public IlvGraphic getSelectableObject(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''returns IlvGraphic\n\n
+    getSelectableObject(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)\n
     '''
 def collectObjects():
-    '''public void collectObjects(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer, final IlvGraphicVector ilvGraphicVector)
+    '''returns None\n\n
+    collectObjects(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer, final IlvGraphicVector ilvGraphicVector)\n
     '''
 def collectSelectableObjects():
-    '''public void collectSelectableObjects(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer, final IlvGraphicVector ilvGraphicVector)
+    '''returns None\n\n
+    collectSelectableObjects(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer, final IlvGraphicVector ilvGraphicVector)\n
     '''
 def beforeUpdate():
-    '''public void beforeUpdate(final IlvGraphic ilvGraphic, final IlvRect ilvRect)
+    '''returns None\n\n
+    beforeUpdate(final IlvGraphic ilvGraphic, final IlvRect ilvRect)\n
     '''
 def afterUpdate():
-    '''public void afterUpdate(final IlvGraphic ilvGraphic, IlvRect a)
+    '''returns None\n\n
+    afterUpdate(final IlvGraphic ilvGraphic, IlvRect a)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''
 def getElements():
-    '''public IlvGraphicEnumeration getElements()
+    '''returns IlvGraphicEnumeration\n\n
+    getElements()\n
     '''
 def setIndex():
-    '''public void setIndex(final IlvGraphic ilvGraphic, final int n)
+    '''returns None\n\n
+    setIndex(final IlvGraphic ilvGraphic, final int n)\n
     '''
 def getIndex():
-    '''public int getIndex(final IlvGraphic ilvGraphic)
+    '''returns int\n\n
+    getIndex(final IlvGraphic ilvGraphic)\n
     '''
 def getManagers():
-    '''public IlvGraphicEnumeration getManagers()
+    '''returns IlvGraphicEnumeration\n\n
+    getManagers()\n
     '''
 def getManagersCount():
-    '''public int getManagersCount()
+    '''returns int\n\n
+    getManagersCount()\n
     '''
 def map():
-    '''public void map(final IlvApplyObject ilvApplyObject, final Object o)
+    '''returns None\n\n
+    map(final IlvApplyObject ilvApplyObject, final Object o)\n
     '''
 def mapInside():
-    '''public void mapInside(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvApplyObject ilvApplyObject, final Object o, final IlvTransformer ilvTransformer)
-    public void mapInside(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvApplyObject ilvApplyObject, final Object o, final IlvTransformer ilvTransformer, final boolean b)
+    '''returns None\n\n
+    mapInside(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvApplyObject ilvApplyObject, final Object o, final IlvTransformer ilvTransformer)\n
+    mapInside(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvApplyObject ilvApplyObject, final Object o, final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def mapIntersects():
-    '''public void mapIntersects(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvApplyObject ilvApplyObject, final Object o, final IlvTransformer ilvTransformer)
-    public void mapIntersects(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvApplyObject ilvApplyObject, final Object o, final IlvTransformer ilvTransformer, final boolean b)
+    '''returns None\n\n
+    mapIntersects(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvApplyObject ilvApplyObject, final Object o, final IlvTransformer ilvTransformer)\n
+    mapIntersects(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvApplyObject ilvApplyObject, final Object o, final IlvTransformer ilvTransformer, final boolean b)\n
     '''
 def computeBBox():
-    '''public IlvRect computeBBox(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    computeBBox(final IlvTransformer ilvTransformer)\n
     '''
 def accept():
-    '''public boolean accept(final IlvGraphic ilvGraphic)
-    public boolean accept(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    accept(final IlvGraphic ilvGraphic)\n
+    accept(final IlvGraphic ilvGraphic)\n
     '''
 def compare():
-    '''public int compare(final Object o, final Object o2)
-    public int compare(final Object o, final Object o2)
-    '''
-def BBoxCache():
-    '''public BBoxCache()
+    '''returns int\n\n
+    compare(final Object o, final Object o2)\n
+    compare(final Object o, final Object o2)\n
     '''
 def setInvalid():
-    '''public void setInvalid()
+    '''returns None\n\n
+    setInvalid()\n
     '''
 def boundingBox():
-    '''public IlvRect boundingBox()
+    '''returns IlvRect\n\n
+    boundingBox()\n
     '''

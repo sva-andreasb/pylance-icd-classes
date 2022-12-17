@@ -2,105 +2,139 @@ STATE_HEADER = "int  0"
 STATE_CONTENT = "int  2"
 STATE_FLUSHING = "int  3"
 STATE_END = "int  4"
-def AbstractGenerator():
-    '''public AbstractGenerator(final Buffers buffers, final EndPoint io)
+def ():
+    '''returns AbstractGenerator\n\n
+    (final Buffers buffers, final EndPoint io)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def returnBuffers():
-    '''public void returnBuffers()
+    '''returns None\n\n
+    returnBuffers()\n
     '''
 def resetBuffer():
-    '''public void resetBuffer()
+    '''returns None\n\n
+    resetBuffer()\n
     '''
 def getContentBufferSize():
-    '''public int getContentBufferSize()
+    '''returns int\n\n
+    getContentBufferSize()\n
     '''
 def increaseContentBufferSize():
-    '''public void increaseContentBufferSize(final int contentBufferSize)
+    '''returns None\n\n
+    increaseContentBufferSize(final int contentBufferSize)\n
     '''
 def getUncheckedBuffer():
-    '''public Buffer getUncheckedBuffer()
+    '''returns Buffer\n\n
+    getUncheckedBuffer()\n
     '''
 def getSendServerVersion():
-    '''public boolean getSendServerVersion()
+    '''returns boolean\n\n
+    getSendServerVersion()\n
     '''
 def setSendServerVersion():
-    '''public void setSendServerVersion(final boolean sendServerVersion)
+    '''returns None\n\n
+    setSendServerVersion(final boolean sendServerVersion)\n
     '''
 def getState():
-    '''public int getState()
+    '''returns int\n\n
+    getState()\n
     '''
 def isState():
-    '''public boolean isState(final int state)
+    '''returns boolean\n\n
+    isState(final int state)\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def isIdle():
-    '''public boolean isIdle()
+    '''returns boolean\n\n
+    isIdle()\n
     '''
 def isCommitted():
-    '''public boolean isCommitted()
+    '''returns boolean\n\n
+    isCommitted()\n
     '''
 def isHead():
-    '''public boolean isHead()
+    '''returns boolean\n\n
+    isHead()\n
     '''
 def setContentLength():
-    '''public void setContentLength(final long value)
+    '''returns None\n\n
+    setContentLength(final long value)\n
     '''
 def setHead():
-    '''public void setHead(final boolean head)
+    '''returns None\n\n
+    setHead(final boolean head)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def setPersistent():
-    '''public void setPersistent(final boolean persistent)
+    '''returns None\n\n
+    setPersistent(final boolean persistent)\n
     '''
 def setVersion():
-    '''public void setVersion(final int version)
+    '''returns None\n\n
+    setVersion(final int version)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def setDate():
-    '''public void setDate(final Buffer timeStampBuffer)
+    '''returns None\n\n
+    setDate(final Buffer timeStampBuffer)\n
     '''
 def setRequest():
-    '''public void setRequest(final String method, final String uri)
+    '''returns None\n\n
+    setRequest(final String method, final String uri)\n
     '''
 def setResponse():
-    '''public void setResponse(final int status, final String reason)
+    '''returns None\n\n
+    setResponse(final int status, final String reason)\n
     '''
 def completeUncheckedAddContent():
-    '''public void completeUncheckedAddContent()
+    '''returns None\n\n
+    completeUncheckedAddContent()\n
     '''
 def isBufferFull():
-    '''public boolean isBufferFull()
+    '''returns boolean\n\n
+    isBufferFull()\n
     '''
 def isWritten():
-    '''public boolean isWritten()
+    '''returns boolean\n\n
+    isWritten()\n
     '''
 def isAllContentWritten():
-    '''public boolean isAllContentWritten()
+    '''returns boolean\n\n
+    isAllContentWritten()\n
     '''
 def complete():
-    '''public void complete()
+    '''returns None\n\n
+    complete()\n
     '''
 def flush():
-    '''public void flush(final long maxIdleTime)
+    '''returns None\n\n
+    flush(final long maxIdleTime)\n
     '''
 def sendError():
-    '''public void sendError(final int code, final String reason, final String content, final boolean close)
+    '''returns None\n\n
+    sendError(final int code, final String reason, final String content, final boolean close)\n
     '''
 def getContentWritten():
-    '''public long getContentWritten()
+    '''returns long\n\n
+    getContentWritten()\n
     '''
 def blockForOutput():
-    '''public void blockForOutput(final long maxIdleTime)
+    '''returns None\n\n
+    blockForOutput(final long maxIdleTime)\n
     '''

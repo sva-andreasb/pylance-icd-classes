@@ -1,14 +1,18 @@
 JMENU_KEY = "String  \"assetTopoJMenuKey\""
 PARENT_JMENUITEM = "String  \"assetTopoParentJMenuItem\""
-def ActionReference():
-    '''public ActionReference(final ActionType actionType, final String parentKey, final Action action)
+def ():
+    '''returns ActionReference\n\n
+    (final ActionType actionType, final String parentKey, final Action action)\n
     '''
 def getParentKey():
-    '''public String getParentKey()
+    '''returns String\n\n
+    getParentKey()\n
     '''
 def getActionType():
-    '''public ActionType getActionType()
+    '''returns ActionType\n\n
+    getActionType()\n
     '''
 def getAction():
-    '''public Action getAction()
+    '''returns Action\n\n
+    getAction()\n
     '''

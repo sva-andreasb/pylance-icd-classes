@@ -1,18 +1,24 @@
-def ConsTransactionSet():
-    '''public ConsTransactionSet(final MboServerInterface ms)
+def ():
+    '''returns ConsTransactionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def setInventoryNextInvoiceDate():
-    '''public void setInventoryNextInvoiceDate(final MboSetRemote consTransactionSet)
+    '''returns None\n\n
+    setInventoryNextInvoiceDate(final MboSetRemote consTransactionSet)\n
     '''
 def getConsignmentTransactions():
-    '''public MboSetRemote getConsignmentTransactions(final String invGenType, final String vendor)
+    '''returns MboSetRemote\n\n
+    getConsignmentTransactions(final String invGenType, final String vendor)\n
     '''
 def addConsignmentTransactions():
-    '''public MboSetRemote addConsignmentTransactions(final MboRemote transMbo)
+    '''returns MboSetRemote\n\n
+    addConsignmentTransactions(final MboRemote transMbo)\n
     '''
 def setValuesFromTransactions():
-    '''public MboRemote setValuesFromTransactions(MboRemote consTransRemote, final MboSetRemote transSetRemote, final HashMap<Long, Double> matUseTransMap)
+    '''returns MboRemote\n\n
+    setValuesFromTransactions(MboRemote consTransRemote, final MboSetRemote transSetRemote, final HashMap<Long, Double> matUseTransMap)\n
     '''

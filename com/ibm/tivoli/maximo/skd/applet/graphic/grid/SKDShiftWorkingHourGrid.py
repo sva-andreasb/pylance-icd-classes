@@ -1,12 +1,16 @@
-def SKDShiftWorkingHourGrid():
-    '''public SKDShiftWorkingHourGrid()
+def ():
+    '''returns SKDShiftWorkingHourGrid\n\n
+    ()\n
     '''
 def setGanttChart():
-    '''public void setGanttChart(final IlvHierarchyChart gChart)
+    '''returns None\n\n
+    setGanttChart(final IlvHierarchyChart gChart)\n
     '''
 def draw():
-    '''public void draw(final Graphics dst, final IlvGanttGridContext context)
+    '''returns None\n\n
+    draw(final Graphics dst, final IlvGanttGridContext context)\n
     '''
 def setModel():
-    '''public void setModel(final AppletGanttModel appletGanttModel)
+    '''returns None\n\n
+    setModel(final AppletGanttModel appletGanttModel)\n
     '''

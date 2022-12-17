@@ -1,144 +1,192 @@
-def CopyPartRequest():
-    '''public CopyPartRequest()
+def ():
+    '''returns CopyPartRequest\n\n
+    ()\n
     '''
 def getUploadId():
-    '''public String getUploadId()
+    '''returns String\n\n
+    getUploadId()\n
     '''
 def setUploadId():
-    '''public void setUploadId(final String uploadId)
+    '''returns None\n\n
+    setUploadId(final String uploadId)\n
     '''
 def withUploadId():
-    '''public CopyPartRequest withUploadId(final String uploadId)
+    '''returns CopyPartRequest\n\n
+    withUploadId(final String uploadId)\n
     '''
 def getPartNumber():
-    '''public int getPartNumber()
+    '''returns int\n\n
+    getPartNumber()\n
     '''
 def setPartNumber():
-    '''public void setPartNumber(final int partNumber)
+    '''returns None\n\n
+    setPartNumber(final int partNumber)\n
     '''
 def withPartNumber():
-    '''public CopyPartRequest withPartNumber(final int partNumber)
+    '''returns CopyPartRequest\n\n
+    withPartNumber(final int partNumber)\n
     '''
 def getSourceBucketName():
-    '''public String getSourceBucketName()
+    '''returns String\n\n
+    getSourceBucketName()\n
     '''
 def setSourceBucketName():
-    '''public void setSourceBucketName(final String sourceBucketName)
+    '''returns None\n\n
+    setSourceBucketName(final String sourceBucketName)\n
     '''
 def withSourceBucketName():
-    '''public CopyPartRequest withSourceBucketName(final String sourceBucketName)
+    '''returns CopyPartRequest\n\n
+    withSourceBucketName(final String sourceBucketName)\n
     '''
 def getSourceKey():
-    '''public String getSourceKey()
+    '''returns String\n\n
+    getSourceKey()\n
     '''
 def setSourceKey():
-    '''public void setSourceKey(final String sourceKey)
+    '''returns None\n\n
+    setSourceKey(final String sourceKey)\n
     '''
 def withSourceKey():
-    '''public CopyPartRequest withSourceKey(final String sourceKey)
+    '''returns CopyPartRequest\n\n
+    withSourceKey(final String sourceKey)\n
     '''
 def getSourceVersionId():
-    '''public String getSourceVersionId()
+    '''returns String\n\n
+    getSourceVersionId()\n
     '''
 def setSourceVersionId():
-    '''public void setSourceVersionId(final String sourceVersionId)
+    '''returns None\n\n
+    setSourceVersionId(final String sourceVersionId)\n
     '''
 def withSourceVersionId():
-    '''public CopyPartRequest withSourceVersionId(final String sourceVersionId)
+    '''returns CopyPartRequest\n\n
+    withSourceVersionId(final String sourceVersionId)\n
     '''
 def getDestinationBucketName():
-    '''public String getDestinationBucketName()
+    '''returns String\n\n
+    getDestinationBucketName()\n
     '''
 def setDestinationBucketName():
-    '''public void setDestinationBucketName(final String destinationBucketName)
+    '''returns None\n\n
+    setDestinationBucketName(final String destinationBucketName)\n
     '''
 def withDestinationBucketName():
-    '''public CopyPartRequest withDestinationBucketName(final String destinationBucketName)
+    '''returns CopyPartRequest\n\n
+    withDestinationBucketName(final String destinationBucketName)\n
     '''
 def getDestinationKey():
-    '''public String getDestinationKey()
+    '''returns String\n\n
+    getDestinationKey()\n
     '''
 def setDestinationKey():
-    '''public void setDestinationKey(final String destinationKey)
+    '''returns None\n\n
+    setDestinationKey(final String destinationKey)\n
     '''
 def withDestinationKey():
-    '''public CopyPartRequest withDestinationKey(final String destinationKey)
+    '''returns CopyPartRequest\n\n
+    withDestinationKey(final String destinationKey)\n
     '''
 def getFirstByte():
-    '''public Long getFirstByte()
+    '''returns Long\n\n
+    getFirstByte()\n
     '''
 def setFirstByte():
-    '''public void setFirstByte(final Long firstByte)
+    '''returns None\n\n
+    setFirstByte(final Long firstByte)\n
     '''
 def withFirstByte():
-    '''public CopyPartRequest withFirstByte(final Long firstByte)
+    '''returns CopyPartRequest\n\n
+    withFirstByte(final Long firstByte)\n
     '''
 def getLastByte():
-    '''public Long getLastByte()
+    '''returns Long\n\n
+    getLastByte()\n
     '''
 def setLastByte():
-    '''public void setLastByte(final Long lastByte)
+    '''returns None\n\n
+    setLastByte(final Long lastByte)\n
     '''
 def withLastByte():
-    '''public CopyPartRequest withLastByte(final Long lastByte)
+    '''returns CopyPartRequest\n\n
+    withLastByte(final Long lastByte)\n
     '''
 def getMatchingETagConstraints():
-    '''public List<String> getMatchingETagConstraints()
+    '''returns List<String>\n\n
+    getMatchingETagConstraints()\n
     '''
 def setMatchingETagConstraints():
-    '''public void setMatchingETagConstraints(final List<String> eTagList)
+    '''returns None\n\n
+    setMatchingETagConstraints(final List<String> eTagList)\n
     '''
 def withMatchingETagConstraints():
-    '''public CopyPartRequest withMatchingETagConstraints(final List<String> eTagList)
+    '''returns CopyPartRequest\n\n
+    withMatchingETagConstraints(final List<String> eTagList)\n
     '''
 def withMatchingETagConstraint():
-    '''public CopyPartRequest withMatchingETagConstraint(final String eTag)
+    '''returns CopyPartRequest\n\n
+    withMatchingETagConstraint(final String eTag)\n
     '''
 def getNonmatchingETagConstraints():
-    '''public List<String> getNonmatchingETagConstraints()
+    '''returns List<String>\n\n
+    getNonmatchingETagConstraints()\n
     '''
 def setNonmatchingETagConstraints():
-    '''public void setNonmatchingETagConstraints(final List<String> eTagList)
+    '''returns None\n\n
+    setNonmatchingETagConstraints(final List<String> eTagList)\n
     '''
 def withNonmatchingETagConstraints():
-    '''public CopyPartRequest withNonmatchingETagConstraints(final List<String> eTagList)
+    '''returns CopyPartRequest\n\n
+    withNonmatchingETagConstraints(final List<String> eTagList)\n
     '''
 def withNonmatchingETagConstraint():
-    '''public CopyPartRequest withNonmatchingETagConstraint(final String eTag)
+    '''returns CopyPartRequest\n\n
+    withNonmatchingETagConstraint(final String eTag)\n
     '''
 def getUnmodifiedSinceConstraint():
-    '''public Date getUnmodifiedSinceConstraint()
+    '''returns Date\n\n
+    getUnmodifiedSinceConstraint()\n
     '''
 def setUnmodifiedSinceConstraint():
-    '''public void setUnmodifiedSinceConstraint(final Date date)
+    '''returns None\n\n
+    setUnmodifiedSinceConstraint(final Date date)\n
     '''
 def withUnmodifiedSinceConstraint():
-    '''public CopyPartRequest withUnmodifiedSinceConstraint(final Date date)
+    '''returns CopyPartRequest\n\n
+    withUnmodifiedSinceConstraint(final Date date)\n
     '''
 def getModifiedSinceConstraint():
-    '''public Date getModifiedSinceConstraint()
+    '''returns Date\n\n
+    getModifiedSinceConstraint()\n
     '''
 def setModifiedSinceConstraint():
-    '''public void setModifiedSinceConstraint(final Date date)
+    '''returns None\n\n
+    setModifiedSinceConstraint(final Date date)\n
     '''
 def withModifiedSinceConstraint():
-    '''public CopyPartRequest withModifiedSinceConstraint(final Date date)
+    '''returns CopyPartRequest\n\n
+    withModifiedSinceConstraint(final Date date)\n
     '''
 def getSourceSSECustomerKey():
-    '''public SSECustomerKey getSourceSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getSourceSSECustomerKey()\n
     '''
 def setSourceSSECustomerKey():
-    '''public void setSourceSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns None\n\n
+    setSourceSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def withSourceSSECustomerKey():
-    '''public CopyPartRequest withSourceSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns CopyPartRequest\n\n
+    withSourceSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def getDestinationSSECustomerKey():
-    '''public SSECustomerKey getDestinationSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getDestinationSSECustomerKey()\n
     '''
 def setDestinationSSECustomerKey():
-    '''public void setDestinationSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns None\n\n
+    setDestinationSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def withDestinationSSECustomerKey():
-    '''public CopyPartRequest withDestinationSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns CopyPartRequest\n\n
+    withDestinationSSECustomerKey(final SSECustomerKey sseKey)\n
     '''

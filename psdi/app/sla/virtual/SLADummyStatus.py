@@ -1,3 +1,4 @@
-def SLADummyStatus():
-    '''public SLADummyStatus(final MboSet ms)
+def ():
+    '''returns SLADummyStatus\n\n
+    (final MboSet ms)\n
     '''

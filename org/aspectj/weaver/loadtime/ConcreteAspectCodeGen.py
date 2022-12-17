@@ -1,9 +1,12 @@
 def validate():
-    '''public boolean validate()
+    '''returns boolean\n\n
+    validate()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''

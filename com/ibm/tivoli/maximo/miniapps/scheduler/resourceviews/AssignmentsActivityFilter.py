@@ -1,6 +1,8 @@
-def AssignmentsActivityFilter():
-    '''public AssignmentsActivityFilter(final List filter)
+def ():
+    '''returns AssignmentsActivityFilter\n\n
+    (final List filter)\n
     '''
 def canAccept():
-    '''public boolean canAccept(final IMXGanttModel model, final IMXActivity act)
+    '''returns boolean\n\n
+    canAccept(final IMXGanttModel model, final IMXActivity act)\n
     '''

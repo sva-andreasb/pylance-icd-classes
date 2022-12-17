@@ -3,162 +3,111 @@ SCROLLINSENSITIVE = "int  5"
 SCROLLSENSITIVE = "int  6"
 SCROLLSENSITIVEONE = "int  7"
 FASTFORWARD = "int  8"
-def getLock():
-    '''public synchronized Lock getLock(final Object connectionKey)
-    '''
-def DBManager():
-    '''public DBManager()
+def ():
+    '''returns ConnectionPoolThread\n\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def configure():
-    '''public void configure(final Properties properties)
+    '''returns None\n\n
+    configure(final Properties properties)\n
     '''
 def getSchemaOwner():
-    '''public String getSchemaOwner()
+    '''returns String\n\n
+    getSchemaOwner()\n
     '''
 def getProperties():
-    '''public Properties getProperties()
+    '''returns Properties\n\n
+    getProperties()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDatabaseProductName():
-    '''public String getDatabaseProductName()
+    '''returns String\n\n
+    getDatabaseProductName()\n
     '''
 def getDatabaseProductSimpleVersion():
-    '''public String getDatabaseProductSimpleVersion()
+    '''returns String\n\n
+    getDatabaseProductSimpleVersion()\n
     '''
 def getDatabaseProductVersion():
-    '''public String getDatabaseProductVersion()
-    '''
-def getSSDisableCursor():
-    '''public static boolean getSSDisableCursor()
-    '''
-def getSSFetchUse():
-    '''public static boolean getSSFetchUse()
-    '''
-def getSSFetchSize():
-    '''public static int getSSFetchSize()
-    '''
-def getSSCursorType():
-    '''public static int getSSCursorType()
-    '''
-def getDbSqlServerDriver():
-    '''public static int getDbSqlServerDriver()
-    '''
-def getDBPlatform():
-    '''public static int getDBPlatform()
-    '''
-def getDB2Version():
-    '''public static double getDB2Version()
+    '''returns String\n\n
+    getDatabaseProductVersion()\n
     '''
 def init():
-    '''public boolean init()
-    '''
-def destroy():
-    '''public synchronized void destroy()
+    '''returns boolean\n\n
+    init()\n
     '''
 def getConnection():
-    '''public Connection getConnection(final ConnectionKey conKey)
-    '''
-def printStackTraceNoMsg():
-    '''public static void printStackTraceNoMsg(final Throwable e)
+    '''returns Connection\n\n
+    getConnection(final ConnectionKey conKey)\n
     '''
 def freeConnection():
-    '''public void freeConnection(final ConnectionKey conKey)
-    public void freeConnection(final ConnectionKeyLight conKey)
+    '''returns None\n\n
+    freeConnection(final ConnectionKey conKey)\n
+    freeConnection(final ConnectionKeyLight conKey)\n
     '''
 def getSystemConnectionKey():
-    '''public ConnectionKey getSystemConnectionKey()
-    '''
-def getSequenceConnection():
-    '''public synchronized Connection getSequenceConnection()
+    '''returns ConnectionKey\n\n
+    getSystemConnectionKey()\n
     '''
 def getDBConnTotal():
-    '''public int getDBConnTotal()
+    '''returns int\n\n
+    getDBConnTotal()\n
     '''
 def getDBConnUsed():
-    '''public int getDBConnUsed()
+    '''returns int\n\n
+    getDBConnUsed()\n
     '''
 def getDBConnFree():
-    '''public int getDBConnFree()
+    '''returns int\n\n
+    getDBConnFree()\n
     '''
 def getDBAuthenticationType():
-    '''public int getDBAuthenticationType()
+    '''returns int\n\n
+    getDBAuthenticationType()\n
     '''
 def getCredentialHandler():
-    '''public DBCredentialHandler getCredentialHandler()
-    '''
-def getSQLTimeLimit():
-    '''public static long getSQLTimeLimit()
-    '''
-def needToLogSQLOnTimeLimit():
-    '''public static boolean needToLogSQLOnTimeLimit()
-    '''
-def reloadSQLTimeLimit():
-    '''public static synchronized void reloadSQLTimeLimit()
-    '''
-def needToLogSQLPlan():
-    '''public static boolean needToLogSQLPlan()
-    '''
-def reloadLogSQLPlan():
-    '''public static synchronized void reloadLogSQLPlan()
-    '''
-def reloadSQLScanExclude():
-    '''public static synchronized void reloadSQLScanExclude()
-    '''
-def reloadDBRowCount():
-    '''public synchronized void reloadDBRowCount()
-    '''
-def reloadDBRefCount():
-    '''public synchronized void reloadDBRefCount()
+    '''returns DBCredentialHandler\n\n
+    getCredentialHandler()\n
     '''
 def reloadProperties():
-    '''public void reloadProperties(final Properties props)
-    '''
-def readSQLTimeLimit():
-    '''public static void readSQLTimeLimit()
-    '''
-def sqlTableScanExclude():
-    '''public static Vector sqlTableScanExclude()
-    '''
-def logSQLPlan():
-    '''public static StringBuffer logSQLPlan(final Connection conn, final String sqlStatement)
-    '''
-def getSPID():
-    '''public static synchronized String getSPID(final Connection connection)
+    '''returns None\n\n
+    reloadProperties(final Properties props)\n
     '''
 def flushFreeConnections():
-    '''public void flushFreeConnections()
-    '''
-def getTenantUsedConnCount():
-    '''public HashMap<Integer, Integer> getTenantUsedConnCount(final UserInfo ui, final List<Integer> allTenants)
+    '''returns None\n\n
+    flushFreeConnections()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def finalization():
-    '''public void finalization()
-    public void finalization(final int timeMilli)
+    '''returns None\n\n
+    finalization()\n
+    finalization(final int timeMilli)\n
     '''
 def cleanupStatementQueue():
-    '''public void cleanupStatementQueue()
+    '''returns None\n\n
+    cleanupStatementQueue()\n
     '''
 def getReferenceQueue():
-    '''public ReferenceQueue getReferenceQueue()
-    '''
-def Lock():
-    '''public Lock()
-    '''
-def ConnectionPoolThread():
-    '''public ConnectionPoolThread()
+    '''returns ReferenceQueue\n\n
+    getReferenceQueue()\n
     '''
 def finishWork():
-    '''public void finishWork()
+    '''returns None\n\n
+    finishWork()\n
     '''
 def getRetryConnection():
-    '''public ConRef getRetryConnection()
+    '''returns ConRef\n\n
+    getRetryConnection()\n
     '''

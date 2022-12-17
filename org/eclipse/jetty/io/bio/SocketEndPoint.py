@@ -1,51 +1,68 @@
-def SocketEndPoint():
-    '''public SocketEndPoint(final Socket socket)
+def ():
+    '''returns SocketEndPoint\n\n
+    (final Socket socket)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def isInputShutdown():
-    '''public boolean isInputShutdown()
+    '''returns boolean\n\n
+    isInputShutdown()\n
     '''
 def isOutputShutdown():
-    '''public boolean isOutputShutdown()
+    '''returns boolean\n\n
+    isOutputShutdown()\n
     '''
 def shutdownOutput():
-    '''public void shutdownOutput()
+    '''returns None\n\n
+    shutdownOutput()\n
     '''
 def shutdownSocketInput():
-    '''public void shutdownSocketInput()
+    '''returns None\n\n
+    shutdownSocketInput()\n
     '''
 def shutdownInput():
-    '''public void shutdownInput()
+    '''returns None\n\n
+    shutdownInput()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getLocalAddr():
-    '''public String getLocalAddr()
+    '''returns String\n\n
+    getLocalAddr()\n
     '''
 def getLocalHost():
-    '''public String getLocalHost()
+    '''returns String\n\n
+    getLocalHost()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getRemoteAddr():
-    '''public String getRemoteAddr()
+    '''returns String\n\n
+    getRemoteAddr()\n
     '''
 def getRemoteHost():
-    '''public String getRemoteHost()
+    '''returns String\n\n
+    getRemoteHost()\n
     '''
 def getRemotePort():
-    '''public int getRemotePort()
+    '''returns int\n\n
+    getRemotePort()\n
     '''
 def getTransport():
-    '''public Object getTransport()
+    '''returns Object\n\n
+    getTransport()\n
     '''
 def setMaxIdleTime():
-    '''public void setMaxIdleTime(final int timeMs)
+    '''returns None\n\n
+    setMaxIdleTime(final int timeMs)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

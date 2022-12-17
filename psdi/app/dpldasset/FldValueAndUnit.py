@@ -1,6 +1,8 @@
-def FldValueAndUnit():
-    '''public FldValueAndUnit(final MboValue mbv)
+def ():
+    '''returns FldValueAndUnit\n\n
+    (final MboValue mbv)\n
     '''
 def setValueAndUnit():
-    '''public void setValueAndUnit(final String valueAttribute, final String unitAttribute)
+    '''returns None\n\n
+    setValueAndUnit(final String valueAttribute, final String unitAttribute)\n
     '''

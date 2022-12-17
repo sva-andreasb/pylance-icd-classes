@@ -1,12 +1,16 @@
 def allDirectoriesQueried():
-    '''public void allDirectoriesQueried(final DirectoryEvent directoryEvent)
+    '''returns None\n\n
+    allDirectoriesQueried(final DirectoryEvent directoryEvent)\n
     '''
 def allDirectoriesQueryFailed():
-    '''public void allDirectoriesQueryFailed(final DirectoryEvent directoryEvent)
+    '''returns None\n\n
+    allDirectoriesQueryFailed(final DirectoryEvent directoryEvent)\n
     '''
 def serviceAvailable():
-    '''public void serviceAvailable(final DirectoryEvent directoryEvent)
+    '''returns None\n\n
+    serviceAvailable(final DirectoryEvent directoryEvent)\n
     '''
 def serviceUnavailable():
-    '''public void serviceUnavailable(final DirectoryEvent directoryEvent)
+    '''returns None\n\n
+    serviceUnavailable(final DirectoryEvent directoryEvent)\n
     '''

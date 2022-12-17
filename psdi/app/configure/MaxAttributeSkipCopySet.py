@@ -1,12 +1,16 @@
-def MaxAttributeSkipCopySet():
-    '''public MaxAttributeSkipCopySet(final MboServerInterface ms)
+def ():
+    '''returns MaxAttributeSkipCopySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addObjectToReloadList():
-    '''public void addObjectToReloadList(final String maxObject)
+    '''returns None\n\n
+    addObjectToReloadList(final String maxObject)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

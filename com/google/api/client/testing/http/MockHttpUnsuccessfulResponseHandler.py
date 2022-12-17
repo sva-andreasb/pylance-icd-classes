@@ -1,9 +1,12 @@
-def MockHttpUnsuccessfulResponseHandler():
-    '''public MockHttpUnsuccessfulResponseHandler(final boolean successfullyHandleResponse)
+def ():
+    '''returns MockHttpUnsuccessfulResponseHandler\n\n
+    (final boolean successfullyHandleResponse)\n
     '''
 def isCalled():
-    '''public boolean isCalled()
+    '''returns boolean\n\n
+    isCalled()\n
     '''
 def handleResponse():
-    '''public boolean handleResponse(final HttpRequest request, final HttpResponse response, final boolean supportsRetry)
+    '''returns boolean\n\n
+    handleResponse(final HttpRequest request, final HttpResponse response, final boolean supportsRetry)\n
     '''

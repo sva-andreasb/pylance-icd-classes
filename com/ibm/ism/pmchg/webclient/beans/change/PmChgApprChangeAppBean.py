@@ -1,3 +1,4 @@
 def ROUTEACHGWF():
-    '''public int ROUTEACHGWF()
+    '''returns int\n\n
+    ROUTEACHGWF()\n
     '''

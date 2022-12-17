@@ -1,6 +1,8 @@
 def getAppDescForApp():
-    '''public String getAppDescForApp(final String appName, final UserInfo userInfo, final String gotoMsg)
+    '''returns String\n\n
+    getAppDescForApp(final String appName, final UserInfo userInfo, final String gotoMsg)\n
     '''
 def handleRequest():
-    '''public OslcResourceResponse handleRequest(final OslcRequest request)
+    '''returns OslcResourceResponse\n\n
+    handleRequest(final OslcRequest request)\n
     '''

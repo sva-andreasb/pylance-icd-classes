@@ -1,16 +1,21 @@
-def RESTAPIResponse():
-    '''public RESTAPIResponse(final HttpResponse response, final String content)
-    public RESTAPIResponse(final HttpResponse response, final String content, final HttpContext context)
+def ():
+    '''returns RESTAPIResponse\n\n
+    (final HttpResponse response, final String content)\n
+    (final HttpResponse response, final String content, final HttpContext context)\n
     '''
 def getResponse():
-    '''public HttpResponse getResponse()
+    '''returns HttpResponse\n\n
+    getResponse()\n
     '''
 def getContent():
-    '''public String getContent()
+    '''returns String\n\n
+    getContent()\n
     '''
 def getContext():
-    '''public HttpContext getContext()
+    '''returns HttpContext\n\n
+    getContext()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''

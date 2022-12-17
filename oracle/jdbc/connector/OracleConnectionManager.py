@@ -1,3 +1,4 @@
 def allocateConnection():
-    '''public Object allocateConnection(final ManagedConnectionFactory managedConnectionFactory, final ConnectionRequestInfo connectionRequestInfo)
+    '''returns Object\n\n
+    allocateConnection(final ManagedConnectionFactory managedConnectionFactory, final ConnectionRequestInfo connectionRequestInfo)\n
     '''

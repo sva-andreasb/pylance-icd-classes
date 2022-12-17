@@ -1,3 +1,4 @@
-def QualSet():
-    '''public QualSet(final MboServerInterface ms)
+def ():
+    '''returns QualSet\n\n
+    (final MboServerInterface ms)\n
     '''

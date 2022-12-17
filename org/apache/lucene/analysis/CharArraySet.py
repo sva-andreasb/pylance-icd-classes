@@ -1,33 +1,34 @@
-def CharArraySet():
-    '''public CharArraySet(final int startSize, final boolean ignoreCase)
-    public CharArraySet(final Collection<?> c, final boolean ignoreCase)
+def ():
+    '''returns CharArraySet\n\n
+    (final int startSize, final boolean ignoreCase)\n
+    (final Collection<?> c, final boolean ignoreCase)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final char[] text, final int off, final int len)
-    public boolean contains(final CharSequence cs)
-    public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final char[] text, final int off, final int len)\n
+    contains(final CharSequence cs)\n
+    contains(final Object o)\n
     '''
 def add():
-    '''public boolean add(final Object o)
-    public boolean add(final CharSequence text)
-    public boolean add(final String text)
-    public boolean add(final char[] text)
+    '''returns boolean\n\n
+    add(final Object o)\n
+    add(final CharSequence text)\n
+    add(final String text)\n
+    add(final char[] text)\n
     '''
 def size():
-    '''public int size()
-    '''
-def unmodifiableSet():
-    '''public static CharArraySet unmodifiableSet(final CharArraySet set)
-    '''
-def copy():
-    '''public static CharArraySet copy(final Set<?> set)
+    '''returns int\n\n
+    size()\n
     '''
 def iterator():
-    '''public Iterator<Object> iterator()
+    '''returns Iterator<Object>\n\n
+    iterator()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

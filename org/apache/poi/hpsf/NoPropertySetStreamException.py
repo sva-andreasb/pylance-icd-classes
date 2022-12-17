@@ -1,6 +1,7 @@
-def NoPropertySetStreamException():
-    '''public NoPropertySetStreamException()
-    public NoPropertySetStreamException(final String msg)
-    public NoPropertySetStreamException(final Throwable reason)
-    public NoPropertySetStreamException(final String msg, final Throwable reason)
+def ():
+    '''returns NoPropertySetStreamException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable reason)\n
+    (final String msg, final Throwable reason)\n
     '''

@@ -1,6 +1,8 @@
 def plusPAssociatePS():
-    '''public int plusPAssociatePS()
+    '''returns int\n\n
+    plusPAssociatePS()\n
     '''
 def removePS():
-    '''public int removePS()
+    '''returns int\n\n
+    removePS()\n
     '''

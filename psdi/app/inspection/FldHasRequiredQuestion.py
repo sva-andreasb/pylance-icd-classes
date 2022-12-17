@@ -1,6 +1,8 @@
-def FldHasRequiredQuestion():
-    '''public FldHasRequiredQuestion(final MboValue mbv)
+def ():
+    '''returns FldHasRequiredQuestion\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

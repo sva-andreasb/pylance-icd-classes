@@ -1,6 +1,8 @@
-def FldAssetMoveDfltNewLocationChkBox():
-    '''public FldAssetMoveDfltNewLocationChkBox(final MboValue mbv)
+def ():
+    '''returns FldAssetMoveDfltNewLocationChkBox\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

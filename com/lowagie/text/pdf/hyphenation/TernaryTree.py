@@ -1,60 +1,61 @@
 def insert():
-    '''public void insert(final String key, final char val)
-    public void insert(final char[] key, final int start, final char val)
-    '''
-def strcmp():
-    '''public static int strcmp(final char[] a, int startA, final char[] b, int startB)
-    public static int strcmp(final String str, final char[] a, final int start)
-    '''
-def strcpy():
-    '''public static void strcpy(final char[] dst, int di, final char[] src, int si)
-    '''
-def strlen():
-    '''public static int strlen(final char[] a, final int start)
-    public static int strlen(final char[] a)
+    '''returns None\n\n
+    insert(final String key, final char val)\n
+    insert(final char[] key, final int start, final char val)\n
     '''
 def find():
-    '''public int find(final String key)
-    public int find(final char[] key, final int start)
+    '''returns int\n\n
+    find(final String key)\n
+    find(final char[] key, final int start)\n
     '''
 def knows():
-    '''public boolean knows(final String key)
+    '''returns boolean\n\n
+    knows(final String key)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def clone():
-    '''public Object clone()
-    public Object clone()
+    '''returns Object\n\n
+    clone()\n
+    clone()\n
     '''
 def balance():
-    '''public void balance()
+    '''returns None\n\n
+    balance()\n
     '''
 def trimToSize():
-    '''public void trimToSize()
+    '''returns None\n\n
+    trimToSize()\n
     '''
 def keys():
-    '''public Enumeration keys()
+    '''returns Enumeration\n\n
+    keys()\n
     '''
 def printStats():
-    '''public void printStats()
+    '''returns None\n\n
+    printStats()\n
     '''
-def Iterator():
-    '''public Iterator()
+def ():
+    '''returns Item\n\n
+    ()\n
+    ()\n
+    (final char p, final char c)\n
     '''
 def rewind():
-    '''public void rewind()
+    '''returns None\n\n
+    rewind()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''
 def getValue():
-    '''public char getValue()
+    '''returns char\n\n
+    getValue()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
-    '''
-def Item():
-    '''public Item()
-    public Item(final char p, final char c)
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''

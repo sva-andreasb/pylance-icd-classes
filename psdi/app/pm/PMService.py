@@ -1,37 +1,45 @@
-def PMService():
-    '''public PMService()
-    public PMService(final MXServer mxServer)
+def ():
+    '''returns BackGroundWogen\n\n
+    ()\n
+    (final MXServer mxServer)\n
+    (final MboSetRemote mboset, final MboSetRemote warningSet, final UserInfo uInfo, final String assetnum)\n
+    (final MboSetRemote mboset, final MboSetRemote warningSet, final UserInfo uInfo, final String assetnum, final MboRemote assetLocMeterMbo)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def genPMsFromMasterAsset():
-    '''public PMSetRemote genPMsFromMasterAsset(final AssetRemote myAssetMbo)
+    '''returns PMSetRemote\n\n
+    genPMsFromMasterAsset(final AssetRemote myAssetMbo)\n
     '''
 def initCriteriaList():
-    '''public void initCriteriaList(final Hashtable criteriaTable)
+    '''returns None\n\n
+    initCriteriaList(final Hashtable criteriaTable)\n
     '''
 def generateWork():
-    '''public PMSetRemote generateWork(final UserInfo ui, final Enumeration enumit, final boolean useFreq, final int leadtime)
+    '''returns PMSetRemote\n\n
+    generateWork(final UserInfo ui, final Enumeration enumit, final boolean useFreq, final int leadtime)\n
     '''
 def generateWorkNoPMSetReturn():
-    '''public void generateWorkNoPMSetReturn(final UserInfo ui, final Enumeration enumit, final boolean useFreq, final int leadtime)
-    public void generateWorkNoPMSetReturn(final UserInfo ui, final Enumeration enumit, final boolean useFreq, final int leadtime, final String repairFac, final String repSite, final boolean useAssetDef)
+    '''returns None\n\n
+    generateWorkNoPMSetReturn(final UserInfo ui, final Enumeration enumit, final boolean useFreq, final int leadtime)\n
+    generateWorkNoPMSetReturn(final UserInfo ui, final Enumeration enumit, final boolean useFreq, final int leadtime, final String repairFac, final String repSite, final boolean useAssetDef)\n
     '''
 def meterBasedAutoWogen():
-    '''public void meterBasedAutoWogen(final MboRemote assetlocMbo, final MboRemote assetLocMeterMbo)
-    public void meterBasedAutoWogen(final MboRemote assetlocMbo)
+    '''returns None\n\n
+    meterBasedAutoWogen(final MboRemote assetlocMbo, final MboRemote assetLocMeterMbo)\n
+    meterBasedAutoWogen(final MboRemote assetlocMbo)\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("PM") final PM pm, final String status, final boolean rollToAllChildren)
-    '''
-def BackGroundWogen():
-    '''public BackGroundWogen(final MboSetRemote mboset, final MboSetRemote warningSet, final UserInfo uInfo, final String assetnum)
-    public BackGroundWogen(final MboSetRemote mboset, final MboSetRemote warningSet, final UserInfo uInfo, final String assetnum, final MboRemote assetLocMeterMbo)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("PM") final PM pm, final String status, final boolean rollToAllChildren)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

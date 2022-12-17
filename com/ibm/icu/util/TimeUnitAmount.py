@@ -1,7 +1,9 @@
-def TimeUnitAmount():
-    '''public TimeUnitAmount(final Number number, final TimeUnit unit)
-    public TimeUnitAmount(final double number, final TimeUnit unit)
+def ():
+    '''returns TimeUnitAmount\n\n
+    (final Number number, final TimeUnit unit)\n
+    (final double number, final TimeUnit unit)\n
     '''
 def getTimeUnit():
-    '''public TimeUnit getTimeUnit()
+    '''returns TimeUnit\n\n
+    getTimeUnit()\n
     '''

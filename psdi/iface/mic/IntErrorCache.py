@@ -1,22 +1,20 @@
-def getInstance():
-    '''public static synchronized IntErrorCache getInstance()
-    '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public synchronized void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getAllErrors():
-    '''public Map<String, MaxIntErrorInfo> getAllErrors()
+    '''returns String\n\n
+    getName()\n
     '''
 def getIntErrorInfo():
-    '''public MaxIntErrorInfo getIntErrorInfo(final String id)
+    '''returns MaxIntErrorInfo\n\n
+    getIntErrorInfo(final String id)\n
     '''
 def hasError():
-    '''public boolean hasError(final String id)
+    '''returns boolean\n\n
+    hasError(final String id)\n
     '''

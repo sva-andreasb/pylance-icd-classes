@@ -1,3 +1,4 @@
-def MaxWorkcenterSet():
-    '''public MaxWorkcenterSet(final MboServerInterface ms)
+def ():
+    '''returns MaxWorkcenterSet\n\n
+    (final MboServerInterface ms)\n
     '''

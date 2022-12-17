@@ -1,10 +1,13 @@
-def Http2StreamFrameToHttpObjectCodec():
-    '''public Http2StreamFrameToHttpObjectCodec(final boolean isServer, final boolean validateHeaders)
-    public Http2StreamFrameToHttpObjectCodec(final boolean isServer)
+def ():
+    '''returns Http2StreamFrameToHttpObjectCodec\n\n
+    (final boolean isServer, final boolean validateHeaders)\n
+    (final boolean isServer)\n
     '''
 def acceptInboundMessage():
-    '''public boolean acceptInboundMessage(final Object msg)
+    '''returns boolean\n\n
+    acceptInboundMessage(final Object msg)\n
     '''
 def handlerAdded():
-    '''public void handlerAdded(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerAdded(final ChannelHandlerContext ctx)\n
     '''

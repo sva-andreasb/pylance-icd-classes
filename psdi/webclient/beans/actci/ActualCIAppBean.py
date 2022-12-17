@@ -1,9 +1,12 @@
-def ActualCIAppBean():
-    '''public ActualCIAppBean()
+def ():
+    '''returns ActualCIAppBean\n\n
+    ()\n
     '''
 def CREATECI():
-    '''public int CREATECI()
+    '''returns int\n\n
+    CREATECI()\n
     '''
 def CREATECIS():
-    '''public int CREATECIS()
+    '''returns int\n\n
+    CREATECIS()\n
     '''

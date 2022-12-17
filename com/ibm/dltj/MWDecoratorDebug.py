@@ -1,3 +1,4 @@
-def MWDecoratorDebug():
-    '''public MWDecoratorDebug(final Dictionary[] array, final ParsingStream parsingStream)
+def ():
+    '''returns MWDecoratorDebug\n\n
+    (final Dictionary[] array, final ParsingStream parsingStream)\n
     '''

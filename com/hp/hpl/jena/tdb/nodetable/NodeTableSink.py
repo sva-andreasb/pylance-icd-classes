@@ -1,22 +1,25 @@
-def NodeTableSink():
-    '''public NodeTableSink()
+def ():
+    '''returns NodeTableSink\n\n
+    ()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getNodeIdForNode():
-    '''public NodeId getNodeIdForNode(final Node node)
+    '''returns NodeId\n\n
+    getNodeIdForNode(final Node node)\n
     '''
 def getNodeForNodeId():
-    '''public Node getNodeForNodeId(final NodeId id)
+    '''returns Node\n\n
+    getNodeForNodeId(final NodeId id)\n
     '''
 def getAllocateNodeId():
-    '''public NodeId getAllocateNodeId(final Node node)
-    '''
-def all():
-    '''public Iterator<Pair<NodeId, Node>> all()
+    '''returns NodeId\n\n
+    getAllocateNodeId(final Node node)\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''

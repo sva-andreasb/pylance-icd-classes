@@ -1,9 +1,8 @@
-def AssetDetailsBean():
-    '''public AssetDetailsBean()
+def ():
+    '''returns AssetDetailsBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    initialize()\n
     '''

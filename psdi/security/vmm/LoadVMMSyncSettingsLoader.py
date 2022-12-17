@@ -1,34 +1,42 @@
-def LoadVMMSyncSettingsLoader():
-    '''public LoadVMMSyncSettingsLoader()
-    public LoadVMMSyncSettingsLoader(final Connection connection, final UserInfo userInfo)
+def ():
+    '''returns XMLEntityResolver\n\n
+    ()\n
+    (final Connection connection, final UserInfo userInfo)\n
+    (final String inDTD)\n
     '''
 def load():
-    '''public LoadVMMSyncSettings load(final String task, final String taskInstance)
+    '''returns LoadVMMSyncSettings\n\n
+    load(final String task, final String taskInstance)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getTaskInstanceName():
-    '''public String getTaskInstanceName()
+    '''returns String\n\n
+    getTaskInstanceName()\n
     '''
 def getTaskName():
-    '''public String getTaskName()
-    '''
-def XMLEntityResolver():
-    '''public XMLEntityResolver(final String inDTD)
+    '''returns String\n\n
+    getTaskName()\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''
 def error():
-    '''public void error(final SAXParseException e)
+    '''returns None\n\n
+    error(final SAXParseException e)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException e)
+    '''returns None\n\n
+    fatalError(final SAXParseException e)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException exception)
+    '''returns None\n\n
+    warning(final SAXParseException exception)\n
     '''

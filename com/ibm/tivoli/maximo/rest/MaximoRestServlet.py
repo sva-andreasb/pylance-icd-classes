@@ -1,21 +1,28 @@
-def MaximoRestServlet():
-    '''public MaximoRestServlet()
+def ():
+    '''returns MaximoRestServlet\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final ServletConfig sc)
+    '''returns None\n\n
+    init(final ServletConfig sc)\n
     '''
 def doGet():
-    '''public void doGet(final HttpServletRequest request, final HttpServletResponse resp)
+    '''returns None\n\n
+    doGet(final HttpServletRequest request, final HttpServletResponse resp)\n
     '''
 def readFile():
-    '''public String readFile(final HttpServletResponse response, final String filepath, final int start, final int end)
+    '''returns String\n\n
+    readFile(final HttpServletResponse response, final String filepath, final int start, final int end)\n
     '''
 def doPost():
-    '''public void doPost(final HttpServletRequest request, final HttpServletResponse resp)
+    '''returns None\n\n
+    doPost(final HttpServletRequest request, final HttpServletResponse resp)\n
     '''
 def doPut():
-    '''public void doPut(final HttpServletRequest request, final HttpServletResponse resp)
+    '''returns None\n\n
+    doPut(final HttpServletRequest request, final HttpServletResponse resp)\n
     '''
 def doDelete():
-    '''public void doDelete(final HttpServletRequest request, final HttpServletResponse resp)
+    '''returns None\n\n
+    doDelete(final HttpServletRequest request, final HttpServletResponse resp)\n
     '''

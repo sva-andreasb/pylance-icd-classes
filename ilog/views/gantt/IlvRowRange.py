@@ -1,25 +1,33 @@
-def IlvRowRange():
-    '''public IlvRowRange(final int a, final int b)
-    public IlvRowRange()
+def ():
+    '''returns IlvRowRange\n\n
+    (final int a, final int b)\n
+    ()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def contains():
-    '''public boolean contains(final int n)
+    '''returns boolean\n\n
+    contains(final int n)\n
     '''
 def getFirst():
-    '''public int getFirst()
+    '''returns int\n\n
+    getFirst()\n
     '''
 def setRange():
-    '''public void setRange(final int a, final int b)
+    '''returns None\n\n
+    setRange(final int a, final int b)\n
     '''
 def getLast():
-    '''public int getLast()
+    '''returns int\n\n
+    getLast()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

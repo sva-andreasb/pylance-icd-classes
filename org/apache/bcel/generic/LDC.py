@@ -1,21 +1,24 @@
-def LDC():
-    '''public LDC(final int index)
+def ():
+    '''returns LDC\n\n
+    (final int index)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
-    '''
-def setIndex():
-    '''public final void setIndex(final int index)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def getValue():
-    '''public Object getValue(final ConstantPoolGen cpg)
+    '''returns Object\n\n
+    getValue(final ConstantPoolGen cpg)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cpg)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cpg)\n
     '''
 def getExceptions():
-    '''public Class[] getExceptions()
+    '''returns Class[]\n\n
+    getExceptions()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

@@ -1,131 +1,151 @@
-def open():
-    '''public static OPCPackage open(final String path)
-    public static OPCPackage open(final File file)
-    public static OPCPackage open(final ZipEntrySource zipEntry)
-    public static OPCPackage open(final String path, final PackageAccess access)
-    public static OPCPackage open(final File file, final PackageAccess access)
-    public static OPCPackage open(final InputStream in)
-    '''
-def openOrCreate():
-    '''public static OPCPackage openOrCreate(final File file)
-    '''
-def create():
-    '''public static OPCPackage create(final String path)
-    public static OPCPackage create(final File file)
-    public static OPCPackage create(final OutputStream output)
-    '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def revert():
-    '''public void revert()
+    '''returns None\n\n
+    revert()\n
     '''
 def addThumbnail():
-    '''public void addThumbnail(final String path)
-    public void addThumbnail(final String filename, final InputStream data)
+    '''returns None\n\n
+    addThumbnail(final String path)\n
+    addThumbnail(final String filename, final InputStream data)\n
     '''
 def getPackageProperties():
-    '''public PackageProperties getPackageProperties()
+    '''returns PackageProperties\n\n
+    getPackageProperties()\n
     '''
 def getPart():
-    '''public PackagePart getPart(final PackagePartName partName)
-    public PackagePart getPart(final PackageRelationship partRel)
+    '''returns PackagePart\n\n
+    getPart(final PackagePartName partName)\n
+    getPart(final PackageRelationship partRel)\n
     '''
 def getPartsByContentType():
-    '''public ArrayList<PackagePart> getPartsByContentType(final String contentType)
+    '''returns ArrayList<PackagePart>\n\n
+    getPartsByContentType(final String contentType)\n
     '''
 def getPartsByRelationshipType():
-    '''public ArrayList<PackagePart> getPartsByRelationshipType(final String relationshipType)
+    '''returns ArrayList<PackagePart>\n\n
+    getPartsByRelationshipType(final String relationshipType)\n
     '''
 def getPartsByName():
-    '''public List<PackagePart> getPartsByName(final Pattern namePattern)
+    '''returns List<PackagePart>\n\n
+    getPartsByName(final Pattern namePattern)\n
     '''
 def getParts():
-    '''public ArrayList<PackagePart> getParts()
+    '''returns ArrayList<PackagePart>\n\n
+    getParts()\n
     '''
 def createPart():
-    '''public PackagePart createPart(final PackagePartName partName, final String contentType)
-    public PackagePart createPart(final PackagePartName partName, final String contentType, final ByteArrayOutputStream content)
+    '''returns PackagePart\n\n
+    createPart(final PackagePartName partName, final String contentType)\n
+    createPart(final PackagePartName partName, final String contentType, final ByteArrayOutputStream content)\n
     '''
 def removePart():
-    '''public void removePart(final PackagePart part)
-    public void removePart(final PackagePartName partName)
+    '''returns None\n\n
+    removePart(final PackagePart part)\n
+    removePart(final PackagePartName partName)\n
     '''
 def removePartRecursive():
-    '''public void removePartRecursive(final PackagePartName partName)
+    '''returns None\n\n
+    removePartRecursive(final PackagePartName partName)\n
     '''
 def deletePart():
-    '''public void deletePart(final PackagePartName partName)
+    '''returns None\n\n
+    deletePart(final PackagePartName partName)\n
     '''
 def deletePartRecursive():
-    '''public void deletePartRecursive(final PackagePartName partName)
+    '''returns None\n\n
+    deletePartRecursive(final PackagePartName partName)\n
     '''
 def containPart():
-    '''public boolean containPart(final PackagePartName partName)
+    '''returns boolean\n\n
+    containPart(final PackagePartName partName)\n
     '''
 def addRelationship():
-    '''public PackageRelationship addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType, final String relID)
-    public PackageRelationship addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType)
+    '''returns PackageRelationship\n\n
+    addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType, final String relID)\n
+    addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType)\n
     '''
 def addExternalRelationship():
-    '''public PackageRelationship addExternalRelationship(final String target, final String relationshipType)
-    public PackageRelationship addExternalRelationship(final String target, final String relationshipType, final String id)
+    '''returns PackageRelationship\n\n
+    addExternalRelationship(final String target, final String relationshipType)\n
+    addExternalRelationship(final String target, final String relationshipType, final String id)\n
     '''
 def removeRelationship():
-    '''public void removeRelationship(final String id)
+    '''returns None\n\n
+    removeRelationship(final String id)\n
     '''
 def getRelationships():
-    '''public PackageRelationshipCollection getRelationships()
+    '''returns PackageRelationshipCollection\n\n
+    getRelationships()\n
     '''
 def getRelationshipsByType():
-    '''public PackageRelationshipCollection getRelationshipsByType(final String relationshipType)
+    '''returns PackageRelationshipCollection\n\n
+    getRelationshipsByType(final String relationshipType)\n
     '''
 def clearRelationships():
-    '''public void clearRelationships()
+    '''returns None\n\n
+    clearRelationships()\n
     '''
 def ensureRelationships():
-    '''public void ensureRelationships()
+    '''returns None\n\n
+    ensureRelationships()\n
     '''
 def getRelationship():
-    '''public PackageRelationship getRelationship(final String id)
+    '''returns PackageRelationship\n\n
+    getRelationship(final String id)\n
     '''
 def hasRelationships():
-    '''public boolean hasRelationships()
+    '''returns boolean\n\n
+    hasRelationships()\n
     '''
 def isRelationshipExists():
-    '''public boolean isRelationshipExists(final PackageRelationship rel)
+    '''returns boolean\n\n
+    isRelationshipExists(final PackageRelationship rel)\n
     '''
 def addMarshaller():
-    '''public void addMarshaller(final String contentType, final PartMarshaller marshaller)
+    '''returns None\n\n
+    addMarshaller(final String contentType, final PartMarshaller marshaller)\n
     '''
 def addUnmarshaller():
-    '''public void addUnmarshaller(final String contentType, final PartUnmarshaller unmarshaller)
+    '''returns None\n\n
+    addUnmarshaller(final String contentType, final PartUnmarshaller unmarshaller)\n
     '''
 def removeMarshaller():
-    '''public void removeMarshaller(final String contentType)
+    '''returns None\n\n
+    removeMarshaller(final String contentType)\n
     '''
 def removeUnmarshaller():
-    '''public void removeUnmarshaller(final String contentType)
+    '''returns None\n\n
+    removeUnmarshaller(final String contentType)\n
     '''
 def getPackageAccess():
-    '''public PackageAccess getPackageAccess()
+    '''returns PackageAccess\n\n
+    getPackageAccess()\n
     '''
 def validatePackage():
-    '''public boolean validatePackage(final OPCPackage pkg)
+    '''returns boolean\n\n
+    validatePackage(final OPCPackage pkg)\n
     '''
 def save():
-    '''public void save(final File targetFile)
-    public void save(final OutputStream outputStream)
+    '''returns None\n\n
+    save(final File targetFile)\n
+    save(final OutputStream outputStream)\n
     '''
 def replaceContentType():
-    '''public boolean replaceContentType(final String oldContentType, final String newContentType)
+    '''returns boolean\n\n
+    replaceContentType(final String oldContentType, final String newContentType)\n
     '''
 def registerPartAndContentType():
-    '''public void registerPartAndContentType(final PackagePart part)
+    '''returns None\n\n
+    registerPartAndContentType(final PackagePart part)\n
     '''
 def unregisterPartAndContentType():
-    '''public void unregisterPartAndContentType(final PackagePartName partName)
+    '''returns None\n\n
+    unregisterPartAndContentType(final PackagePartName partName)\n
     '''

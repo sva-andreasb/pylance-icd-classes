@@ -1,51 +1,66 @@
-def SpecializedGraphReifier_RDB():
-    '''public SpecializedGraphReifier_RDB(final IPSet pSet, final Integer dbGraphID)
+def ():
+    '''returns SpecializedGraphReifier_RDB\n\n
+    (final IPSet pSet, final Integer dbGraphID)\n
     '''
 def add():
-    '''public void add(final Node n, final Triple t, final SpecializedGraph.CompletionFlag complete)
-    public void add(final Graph g, final SpecializedGraph.CompletionFlag complete)
-    public void add(final Triple frag, final SpecializedGraph.CompletionFlag complete)
-    public void add(final List<Triple> triples, final SpecializedGraph.CompletionFlag complete)
+    '''returns None\n\n
+    add(final Node n, final Triple t, final SpecializedGraph.CompletionFlag complete)\n
+    add(final Graph g, final SpecializedGraph.CompletionFlag complete)\n
+    add(final Triple frag, final SpecializedGraph.CompletionFlag complete)\n
+    add(final List<Triple> triples, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def delete():
-    '''public void delete(final Node n, final Triple t, final SpecializedGraph.CompletionFlag complete)
-    public void delete(final Triple frag, final SpecializedGraph.CompletionFlag complete)
-    public void delete(final List<Triple> triples, final SpecializedGraph.CompletionFlag complete)
+    '''returns None\n\n
+    delete(final Node n, final Triple t, final SpecializedGraph.CompletionFlag complete)\n
+    delete(final Triple frag, final SpecializedGraph.CompletionFlag complete)\n
+    delete(final List<Triple> triples, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def contains():
-    '''public boolean contains(final Node n, final Triple t, final SpecializedGraph.CompletionFlag complete)
-    public boolean contains(final Triple t, final SpecializedGraph.CompletionFlag complete)
+    '''returns boolean\n\n
+    contains(final Node n, final Triple t, final SpecializedGraph.CompletionFlag complete)\n
+    contains(final Triple t, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def findReifiedNodes():
-    '''public ExtendedIterator<Node> findReifiedNodes(final Triple t, final SpecializedGraph.CompletionFlag complete)
+    '''returns ExtendedIterator<Node>\n\n
+    findReifiedNodes(final Triple t, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def findReifiedTriple():
-    '''public Triple findReifiedTriple(final Node n, final SpecializedGraph.CompletionFlag complete)
+    '''returns Triple\n\n
+    findReifiedTriple(final Node n, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def findReifiedTriples():
-    '''public ExtendedIterator<Triple> findReifiedTriples(final Node n, final SpecializedGraph.CompletionFlag complete)
+    '''returns ExtendedIterator<Triple>\n\n
+    findReifiedTriples(final Node n, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def tripleCount():
-    '''public int tripleCount()
+    '''returns int\n\n
+    tripleCount()\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final TripleMatch t, final SpecializedGraph.CompletionFlag complete)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final TripleMatch t, final SpecializedGraph.CompletionFlag complete)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getGraphId():
-    '''public int getGraphId()
+    '''returns int\n\n
+    getGraphId()\n
     '''
 def getPSet():
-    '''public IPSet getPSet()
+    '''returns IPSet\n\n
+    getPSet()\n
     '''
 def getDBPropLSet():
-    '''public DBPropLSet getDBPropLSet()
+    '''returns DBPropLSet\n\n
+    getDBPropLSet()\n
     '''
 def subsumes():
-    '''public char subsumes(final Triple pattern, final int reifBehavior)
+    '''returns char\n\n
+    subsumes(final Triple pattern, final int reifBehavior)\n
     '''

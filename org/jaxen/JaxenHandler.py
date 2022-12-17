@@ -1,143 +1,190 @@
-def JaxenHandler():
-    '''public JaxenHandler()
+def ():
+    '''returns JaxenHandler\n\n
+    ()\n
     '''
 def setXPathFactory():
-    '''public void setXPathFactory(final XPathFactory xpathFactory)
+    '''returns None\n\n
+    setXPathFactory(final XPathFactory xpathFactory)\n
     '''
 def getXPathFactory():
-    '''public XPathFactory getXPathFactory()
+    '''returns XPathFactory\n\n
+    getXPathFactory()\n
     '''
 def getXPathExpr():
-    '''public XPathExpr getXPathExpr()
-    public XPathExpr getXPathExpr(final boolean shouldSimplify)
+    '''returns XPathExpr\n\n
+    getXPathExpr()\n
+    getXPathExpr(final boolean shouldSimplify)\n
     '''
 def startXPath():
-    '''public void startXPath()
+    '''returns None\n\n
+    startXPath()\n
     '''
 def endXPath():
-    '''public void endXPath()
+    '''returns None\n\n
+    endXPath()\n
     '''
 def startPathExpr():
-    '''public void startPathExpr()
+    '''returns None\n\n
+    startPathExpr()\n
     '''
 def endPathExpr():
-    '''public void endPathExpr()
+    '''returns None\n\n
+    endPathExpr()\n
     '''
 def startAbsoluteLocationPath():
-    '''public void startAbsoluteLocationPath()
+    '''returns None\n\n
+    startAbsoluteLocationPath()\n
     '''
 def endAbsoluteLocationPath():
-    '''public void endAbsoluteLocationPath()
+    '''returns None\n\n
+    endAbsoluteLocationPath()\n
     '''
 def startRelativeLocationPath():
-    '''public void startRelativeLocationPath()
+    '''returns None\n\n
+    startRelativeLocationPath()\n
     '''
 def endRelativeLocationPath():
-    '''public void endRelativeLocationPath()
+    '''returns None\n\n
+    endRelativeLocationPath()\n
     '''
 def startNameStep():
-    '''public void startNameStep(final int axis, final String prefix, final String localName)
+    '''returns None\n\n
+    startNameStep(final int axis, final String prefix, final String localName)\n
     '''
 def endNameStep():
-    '''public void endNameStep()
+    '''returns None\n\n
+    endNameStep()\n
     '''
 def startTextNodeStep():
-    '''public void startTextNodeStep(final int axis)
+    '''returns None\n\n
+    startTextNodeStep(final int axis)\n
     '''
 def endTextNodeStep():
-    '''public void endTextNodeStep()
+    '''returns None\n\n
+    endTextNodeStep()\n
     '''
 def startCommentNodeStep():
-    '''public void startCommentNodeStep(final int axis)
+    '''returns None\n\n
+    startCommentNodeStep(final int axis)\n
     '''
 def endCommentNodeStep():
-    '''public void endCommentNodeStep()
+    '''returns None\n\n
+    endCommentNodeStep()\n
     '''
 def startAllNodeStep():
-    '''public void startAllNodeStep(final int axis)
+    '''returns None\n\n
+    startAllNodeStep(final int axis)\n
     '''
 def endAllNodeStep():
-    '''public void endAllNodeStep()
+    '''returns None\n\n
+    endAllNodeStep()\n
     '''
 def startProcessingInstructionNodeStep():
-    '''public void startProcessingInstructionNodeStep(final int axis, final String name)
+    '''returns None\n\n
+    startProcessingInstructionNodeStep(final int axis, final String name)\n
     '''
 def endProcessingInstructionNodeStep():
-    '''public void endProcessingInstructionNodeStep()
+    '''returns None\n\n
+    endProcessingInstructionNodeStep()\n
     '''
 def startPredicate():
-    '''public void startPredicate()
+    '''returns None\n\n
+    startPredicate()\n
     '''
 def endPredicate():
-    '''public void endPredicate()
+    '''returns None\n\n
+    endPredicate()\n
     '''
 def startFilterExpr():
-    '''public void startFilterExpr()
+    '''returns None\n\n
+    startFilterExpr()\n
     '''
 def endFilterExpr():
-    '''public void endFilterExpr()
+    '''returns None\n\n
+    endFilterExpr()\n
     '''
 def startOrExpr():
-    '''public void startOrExpr()
+    '''returns None\n\n
+    startOrExpr()\n
     '''
 def endOrExpr():
-    '''public void endOrExpr(final boolean create)
+    '''returns None\n\n
+    endOrExpr(final boolean create)\n
     '''
 def startAndExpr():
-    '''public void startAndExpr()
+    '''returns None\n\n
+    startAndExpr()\n
     '''
 def endAndExpr():
-    '''public void endAndExpr(final boolean create)
+    '''returns None\n\n
+    endAndExpr(final boolean create)\n
     '''
 def startEqualityExpr():
-    '''public void startEqualityExpr()
+    '''returns None\n\n
+    startEqualityExpr()\n
     '''
 def endEqualityExpr():
-    '''public void endEqualityExpr(final int operator)
+    '''returns None\n\n
+    endEqualityExpr(final int operator)\n
     '''
 def startRelationalExpr():
-    '''public void startRelationalExpr()
+    '''returns None\n\n
+    startRelationalExpr()\n
     '''
 def endRelationalExpr():
-    '''public void endRelationalExpr(final int operator)
+    '''returns None\n\n
+    endRelationalExpr(final int operator)\n
     '''
 def startAdditiveExpr():
-    '''public void startAdditiveExpr()
+    '''returns None\n\n
+    startAdditiveExpr()\n
     '''
 def endAdditiveExpr():
-    '''public void endAdditiveExpr(final int operator)
+    '''returns None\n\n
+    endAdditiveExpr(final int operator)\n
     '''
 def startMultiplicativeExpr():
-    '''public void startMultiplicativeExpr()
+    '''returns None\n\n
+    startMultiplicativeExpr()\n
     '''
 def endMultiplicativeExpr():
-    '''public void endMultiplicativeExpr(final int operator)
+    '''returns None\n\n
+    endMultiplicativeExpr(final int operator)\n
     '''
 def startUnaryExpr():
-    '''public void startUnaryExpr()
+    '''returns None\n\n
+    startUnaryExpr()\n
     '''
 def endUnaryExpr():
-    '''public void endUnaryExpr(final int operator)
+    '''returns None\n\n
+    endUnaryExpr(final int operator)\n
     '''
 def startUnionExpr():
-    '''public void startUnionExpr()
+    '''returns None\n\n
+    startUnionExpr()\n
     '''
 def endUnionExpr():
-    '''public void endUnionExpr(final boolean create)
+    '''returns None\n\n
+    endUnionExpr(final boolean create)\n
     '''
 def number():
-    '''public void number(final int number)
-    public void number(final double number)
+    '''returns None\n\n
+    number(final int number)\n
+    number(final double number)\n
     '''
 def literal():
-    '''public void literal(final String literal)
+    '''returns None\n\n
+    literal(final String literal)\n
     '''
 def variableReference():
-    '''public void variableReference(final String prefix, final String variableName)
+    '''returns None\n\n
+    variableReference(final String prefix, final String variableName)\n
     '''
 def startFunction():
-    '''public void startFunction(final String prefix, final String functionName)
+    '''returns None\n\n
+    startFunction(final String prefix, final String functionName)\n
     '''
 def endFunction():
-    '''public void endFunction()
+    '''returns None\n\n
+    endFunction()\n
     '''

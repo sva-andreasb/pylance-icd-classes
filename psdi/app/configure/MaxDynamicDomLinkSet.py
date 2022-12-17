@@ -1,3 +1,4 @@
-def MaxDynamicDomLinkSet():
-    '''public MaxDynamicDomLinkSet(final MboServerInterface ms)
+def ():
+    '''returns MaxDynamicDomLinkSet\n\n
+    (final MboServerInterface ms)\n
     '''

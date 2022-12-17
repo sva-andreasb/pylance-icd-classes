@@ -1,3 +1,4 @@
-def FldSimulationMultiAssetLocCILocation():
-    '''public FldSimulationMultiAssetLocCILocation(final MboValue mbv)
+def ():
+    '''returns FldSimulationMultiAssetLocCILocation\n\n
+    (final MboValue mbv)\n
     '''

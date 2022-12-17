@@ -1,9 +1,12 @@
-def TrioGuid():
-    '''public TrioGuid(final Guid originalInputGuid, final Guid currentInputGuid, final Guid superiorGuid)
+def ():
+    '''returns TrioGuid\n\n
+    (final Guid originalInputGuid, final Guid currentInputGuid, final Guid superiorGuid)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

@@ -2,81 +2,82 @@ SPELLOUT = "int  1"
 ORDINAL = "int  2"
 DURATION = "int  3"
 NUMBERING_SYSTEM = "int  4"
-def RuleBasedNumberFormat():
-    '''public RuleBasedNumberFormat(final String description)
-    public RuleBasedNumberFormat(final String description, final String[][] localizations)
-    public RuleBasedNumberFormat(final String description, final Locale locale)
-    public RuleBasedNumberFormat(final String description, final ULocale locale)
-    public RuleBasedNumberFormat(final String description, final String[][] localizations, final ULocale locale)
-    public RuleBasedNumberFormat(final Locale locale, final int format)
-    public RuleBasedNumberFormat(final ULocale locale, final int format)
-    public RuleBasedNumberFormat(final int format)
+def ():
+    '''returns RuleBasedNumberFormat\n\n
+    (final String description)\n
+    (final String description, final String[][] localizations)\n
+    (final String description, final Locale locale)\n
+    (final String description, final ULocale locale)\n
+    (final String description, final String[][] localizations, final ULocale locale)\n
+    (final Locale locale, final int format)\n
+    (final ULocale locale, final int format)\n
+    (final int format)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object that)
-    '''
-def hashCode():
-    '''public int hashCode()
+    '''returns boolean\n\n
+    equals(final Object that)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getRuleSetNames():
-    '''public String[] getRuleSetNames()
+    '''returns String[]\n\n
+    getRuleSetNames()\n
     '''
 def getRuleSetDisplayNameLocales():
-    '''public ULocale[] getRuleSetDisplayNameLocales()
+    '''returns ULocale[]\n\n
+    getRuleSetDisplayNameLocales()\n
     '''
 def getRuleSetDisplayNames():
-    '''public String[] getRuleSetDisplayNames(final ULocale loc)
-    public String[] getRuleSetDisplayNames()
+    '''returns String[]\n\n
+    getRuleSetDisplayNames(final ULocale loc)\n
+    getRuleSetDisplayNames()\n
     '''
 def getRuleSetDisplayName():
-    '''public String getRuleSetDisplayName(final String ruleSetName, final ULocale loc)
-    public String getRuleSetDisplayName(final String ruleSetName)
+    '''returns String\n\n
+    getRuleSetDisplayName(final String ruleSetName, final ULocale loc)\n
+    getRuleSetDisplayName(final String ruleSetName)\n
     '''
 def format():
-    '''public String format(final double number, final String ruleSet)
-    public String format(final long number, final String ruleSet)
-    public StringBuffer format(final double number, final StringBuffer toAppendTo, final FieldPosition ignore)
-    public StringBuffer format(final long number, final StringBuffer toAppendTo, final FieldPosition ignore)
-    public StringBuffer format(final BigInteger number, final StringBuffer toAppendTo, final FieldPosition pos)
-    public StringBuffer format(final java.math.BigDecimal number, final StringBuffer toAppendTo, final FieldPosition pos)
-    public StringBuffer format(final BigDecimal number, final StringBuffer toAppendTo, final FieldPosition pos)
+    '''returns StringBuffer\n\n
+    format(final double number, final String ruleSet)\n
+    format(final long number, final String ruleSet)\n
+    format(final double number, final StringBuffer toAppendTo, final FieldPosition ignore)\n
+    format(final long number, final StringBuffer toAppendTo, final FieldPosition ignore)\n
+    format(final BigInteger number, final StringBuffer toAppendTo, final FieldPosition pos)\n
+    format(final java.math.BigDecimal number, final StringBuffer toAppendTo, final FieldPosition pos)\n
+    format(final BigDecimal number, final StringBuffer toAppendTo, final FieldPosition pos)\n
     '''
 def parse():
-    '''public Number parse(final String text, final ParsePosition parsePosition)
+    '''returns Number\n\n
+    parse(final String text, final ParsePosition parsePosition)\n
     '''
 def setLenientParseMode():
-    '''public void setLenientParseMode(final boolean enabled)
+    '''returns None\n\n
+    setLenientParseMode(final boolean enabled)\n
     '''
 def lenientParseEnabled():
-    '''public boolean lenientParseEnabled()
+    '''returns boolean\n\n
+    lenientParseEnabled()\n
     '''
 def setLenientScannerProvider():
-    '''public void setLenientScannerProvider(final RbnfLenientScannerProvider scannerProvider)
+    '''returns None\n\n
+    setLenientScannerProvider(final RbnfLenientScannerProvider scannerProvider)\n
     '''
 def getLenientScannerProvider():
-    '''public RbnfLenientScannerProvider getLenientScannerProvider()
+    '''returns RbnfLenientScannerProvider\n\n
+    getLenientScannerProvider()\n
     '''
 def setDefaultRuleSet():
-    '''public void setDefaultRuleSet(final String ruleSetName)
+    '''returns None\n\n
+    setDefaultRuleSet(final String ruleSetName)\n
     '''
 def getDefaultRuleSetName():
-    '''public String getDefaultRuleSetName()
-    '''
-def setDecimalFormatSymbols():
-    '''public void setDecimalFormatSymbols(final DecimalFormatSymbols newSymbols)
-    '''
-def setContext():
-    '''public void setContext(final DisplayContext context)
-    '''
-def getRoundingMode():
-    '''public int getRoundingMode()
-    '''
-def setRoundingMode():
-    '''public void setRoundingMode(final int roundingMode)
+    '''returns String\n\n
+    getDefaultRuleSetName()\n
     '''

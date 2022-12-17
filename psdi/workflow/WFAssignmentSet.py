@@ -1,33 +1,43 @@
-def WFAssignmentSet():
-    '''public WFAssignmentSet(final MboServerInterface ms)
+def ():
+    '''returns WFAssignmentSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getInboxAssignments():
-    '''public void getInboxAssignments()
+    '''returns None\n\n
+    getInboxAssignments()\n
     '''
 def getCrontaskInboxAssignments():
-    '''public void getCrontaskInboxAssignments()
+    '''returns None\n\n
+    getCrontaskInboxAssignments()\n
     '''
 def getAllInboxAssignments():
-    '''public void getAllInboxAssignments()
+    '''returns None\n\n
+    getAllInboxAssignments()\n
     '''
 def getAssignment():
-    '''public WFAssignment getAssignment(final int assignid)
-    public WFAssignment getAssignment(final String assignid)
+    '''returns WFAssignment\n\n
+    getAssignment(final int assignid)\n
+    getAssignment(final String assignid)\n
     '''
 def hasActiveAssignments():
-    '''public boolean hasActiveAssignments()
-    public boolean hasActiveAssignments(final int groupNum)
+    '''returns boolean\n\n
+    hasActiveAssignments()\n
+    hasActiveAssignments(final int groupNum)\n
     '''
 def deactivateAssignments():
-    '''public void deactivateAssignments()
-    public void deactivateAssignments(final int groupNum)
+    '''returns None\n\n
+    deactivateAssignments()\n
+    deactivateAssignments(final int groupNum)\n
     '''
 def getExpiredAssignments():
-    '''public void getExpiredAssignments()
+    '''returns None\n\n
+    getExpiredAssignments()\n
     '''
 def wfValidate():
-    '''public void wfValidate(final Vector<MXException> errs)
+    '''returns None\n\n
+    wfValidate(final Vector<MXException> errs)\n
     '''
 def getNextAssignID():
-    '''public int getNextAssignID()
+    '''returns int\n\n
+    getNextAssignID()\n
     '''

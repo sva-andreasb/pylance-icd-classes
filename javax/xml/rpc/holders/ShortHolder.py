@@ -1,4 +1,5 @@
-def ShortHolder():
-    '''public ShortHolder()
-    public ShortHolder(final short value)
+def ():
+    '''returns ShortHolder\n\n
+    ()\n
+    (final short myshort)\n
     '''

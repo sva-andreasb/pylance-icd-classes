@@ -1,102 +1,136 @@
 def getItemReference():
-    '''public MboRemote getItemReference()
+    '''returns MboRemote\n\n
+    getItemReference()\n
     '''
-def MRLine():
-    '''public MRLine(final MboSet ms)
+def ():
+    '''returns MRLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def isNullQty():
-    '''public void isNullQty()
+    '''returns None\n\n
+    isNullQty()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def checkMRCostValidity():
-    '''public void checkMRCostValidity()
+    '''returns None\n\n
+    checkMRCostValidity()\n
     '''
 def validateCombination():
-    '''public void validateCombination()
+    '''returns None\n\n
+    validateCombination()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def updateGlAccount():
-    '''public void updateGlAccount()
+    '''returns None\n\n
+    updateGlAccount()\n
     '''
 def canHeaderUpdateLine():
-    '''public boolean canHeaderUpdateLine()
+    '''returns boolean\n\n
+    canHeaderUpdateLine()\n
     '''
 def setPriceDetails():
-    '''public void setPriceDetails()
+    '''returns None\n\n
+    setPriceDetails()\n
     '''
 def isStocked():
-    '''public boolean isStocked()
+    '''returns boolean\n\n
+    isStocked()\n
     '''
 def isNonStocked():
-    '''public boolean isNonStocked()
+    '''returns boolean\n\n
+    isNonStocked()\n
     '''
 def isSpecialOrder():
-    '''public boolean isSpecialOrder()
+    '''returns boolean\n\n
+    isSpecialOrder()\n
     '''
 def setLineCosts():
-    '''public void setLineCosts(final double lineCost)
+    '''returns None\n\n
+    setLineCosts(final double lineCost)\n
     '''
 def reCalculateTotalCost():
-    '''public double reCalculateTotalCost()
+    '''returns double\n\n
+    reCalculateTotalCost()\n
     '''
 def isTotalCostInBaseCurrency():
-    '''public boolean isTotalCostInBaseCurrency(final MboSetRemote mrLineSet)
+    '''returns boolean\n\n
+    isTotalCostInBaseCurrency(final MboSetRemote mrLineSet)\n
     '''
 def calBaseTotalCost():
-    '''public double calBaseTotalCost(final MboSetRemote mrLineSet, double totalCost)
+    '''returns double\n\n
+    calBaseTotalCost(final MboSetRemote mrLineSet, double totalCost)\n
     '''
 def afterAdd():
-    '''public void afterAdd()
+    '''returns None\n\n
+    afterAdd()\n
     '''
 def calBaseTotalCost2():
-    '''public double calBaseTotalCost2(final MboSetRemote mrLineSet, double totalCost)
+    '''returns double\n\n
+    calBaseTotalCost2(final MboSetRemote mrLineSet, double totalCost)\n
     '''
 def getTotalCostCurrencyCode():
-    '''public String getTotalCostCurrencyCode(final MboSetRemote mrLineSet)
+    '''returns String\n\n
+    getTotalCostCurrencyCode(final MboSetRemote mrLineSet)\n
     '''
 def canDeleteDoclinks():
-    '''public void canDeleteDoclinks()
+    '''returns None\n\n
+    canDeleteDoclinks()\n
     '''
 def setNullValuesToSomeMRLineAttributes():
-    '''public void setNullValuesToSomeMRLineAttributes()
+    '''returns None\n\n
+    setNullValuesToSomeMRLineAttributes()\n
     '''
 def isNullItemOrDescription():
-    '''public void isNullItemOrDescription()
+    '''returns None\n\n
+    isNullItemOrDescription()\n
     '''
 def canDistribute():
-    '''public void canDistribute()
+    '''returns None\n\n
+    canDistribute()\n
     '''
 def setInvReserveReference():
-    '''public void setInvReserveReference(final MboRemote invReserveRemote)
+    '''returns None\n\n
+    setInvReserveReference(final MboRemote invReserveRemote)\n
     '''
 def getInvReserveReference():
-    '''public MboRemote getInvReserveReference()
+    '''returns MboRemote\n\n
+    getInvReserveReference()\n
     '''
 def validateQty():
-    '''public void validateQty()
+    '''returns None\n\n
+    validateQty()\n
     '''
 def getInternalLineType():
-    '''public String getInternalLineType()
+    '''returns String\n\n
+    getInternalLineType()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''

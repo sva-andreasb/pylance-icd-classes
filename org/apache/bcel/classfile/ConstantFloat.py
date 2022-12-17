@@ -1,22 +1,13 @@
-def ConstantFloat():
-    '''public ConstantFloat(final float bytes)
-    public ConstantFloat(final ConstantFloat c)
+def ():
+    '''returns ConstantFloat\n\n
+    (final float bytes)\n
+    (final ConstantFloat c)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def getBytes():
-    '''public final float getBytes()
-    '''
-def setBytes():
-    '''public final void setBytes(final float bytes)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''
 def getConstantValue():
-    '''public Object getConstantValue(final ConstantPool cp)
+    '''returns Object\n\n
+    getConstantValue(final ConstantPool cp)\n
     '''

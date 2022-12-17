@@ -1,73 +1,92 @@
-def adapt():
-    '''public static HttpClientSettings adapt(final ClientConfiguration config, final boolean useBrowserCompatibleHostNameVerifier)
-    public static HttpClientSettings adapt(final ClientConfiguration config)
-    '''
 def useBrowserCompatibleHostNameVerifier():
-    '''public boolean useBrowserCompatibleHostNameVerifier()
+    '''returns boolean\n\n
+    useBrowserCompatibleHostNameVerifier()\n
     '''
 def getMaxConnections():
-    '''public int getMaxConnections()
+    '''returns int\n\n
+    getMaxConnections()\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def getProxyHost():
-    '''public String getProxyHost()
+    '''returns String\n\n
+    getProxyHost()\n
     '''
 def getProxyPort():
-    '''public int getProxyPort()
+    '''returns int\n\n
+    getProxyPort()\n
     '''
 def getProxyUsername():
-    '''public String getProxyUsername()
+    '''returns String\n\n
+    getProxyUsername()\n
     '''
 def getProxyPassword():
-    '''public String getProxyPassword()
+    '''returns String\n\n
+    getProxyPassword()\n
     '''
 def useReaper():
-    '''public boolean useReaper()
+    '''returns boolean\n\n
+    useReaper()\n
     '''
 def useGzip():
-    '''public boolean useGzip()
+    '''returns boolean\n\n
+    useGzip()\n
     '''
 def getDnsResolver():
-    '''public DnsResolver getDnsResolver()
+    '''returns DnsResolver\n\n
+    getDnsResolver()\n
     '''
 def getApacheHttpClientConfig():
-    '''public ApacheHttpClientConfig getApacheHttpClientConfig()
+    '''returns ApacheHttpClientConfig\n\n
+    getApacheHttpClientConfig()\n
     '''
 def getSocketTimeout():
-    '''public int getSocketTimeout()
+    '''returns int\n\n
+    getSocketTimeout()\n
     '''
 def getSocketBufferSize():
-    '''public int[] getSocketBufferSize()
+    '''returns int[]\n\n
+    getSocketBufferSize()\n
     '''
 def useTcpKeepAlive():
-    '''public boolean useTcpKeepAlive()
+    '''returns boolean\n\n
+    useTcpKeepAlive()\n
     '''
 def getSecureRandom():
-    '''public SecureRandom getSecureRandom()
+    '''returns SecureRandom\n\n
+    getSecureRandom()\n
     '''
 def getConnectionTimeout():
-    '''public int getConnectionTimeout()
+    '''returns int\n\n
+    getConnectionTimeout()\n
     '''
 def getConnectionPoolRequestTimeout():
-    '''public int getConnectionPoolRequestTimeout()
+    '''returns int\n\n
+    getConnectionPoolRequestTimeout()\n
     '''
 def getConnectionPoolTTL():
-    '''public long getConnectionPoolTTL()
+    '''returns long\n\n
+    getConnectionPoolTTL()\n
     '''
 def getMaxIdleConnectionTime():
-    '''public long getMaxIdleConnectionTime()
+    '''returns long\n\n
+    getMaxIdleConnectionTime()\n
     '''
 def getProxyWorkstation():
-    '''public String getProxyWorkstation()
+    '''returns String\n\n
+    getProxyWorkstation()\n
     '''
 def getProxyDomain():
-    '''public String getProxyDomain()
+    '''returns String\n\n
+    getProxyDomain()\n
     '''
 def isPreemptiveBasicProxyAuth():
-    '''public boolean isPreemptiveBasicProxyAuth()
+    '''returns boolean\n\n
+    isPreemptiveBasicProxyAuth()\n
     '''
 def isUseExpectContinue():
-    '''public boolean isUseExpectContinue()
+    '''returns boolean\n\n
+    isUseExpectContinue()\n
     '''

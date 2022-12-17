@@ -1,6 +1,8 @@
-def FldRightParenthesis():
-    '''public FldRightParenthesis(final MboValue mbv)
+def ():
+    '''returns FldRightParenthesis\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

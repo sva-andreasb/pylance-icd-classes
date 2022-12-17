@@ -1,33 +1,36 @@
-def inBucket():
-    '''public static S3Objects inBucket(final AmazonS3 s3, final String bucketName)
-    '''
-def withPrefix():
-    '''public static S3Objects withPrefix(final AmazonS3 s3, final String bucketName, final String prefix)
-    '''
 def withBatchSize():
-    '''public S3Objects withBatchSize(final int batchSize)
+    '''returns S3Objects\n\n
+    withBatchSize(final int batchSize)\n
     '''
 def getBatchSize():
-    '''public Integer getBatchSize()
+    '''returns Integer\n\n
+    getBatchSize()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def getS3():
-    '''public AmazonS3 getS3()
+    '''returns AmazonS3\n\n
+    getS3()\n
     '''
 def iterator():
-    '''public Iterator<S3ObjectSummary> iterator()
+    '''returns Iterator<S3ObjectSummary>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public S3ObjectSummary next()
+    '''returns S3ObjectSummary\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

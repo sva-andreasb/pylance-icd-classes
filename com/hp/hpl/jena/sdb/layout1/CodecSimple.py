@@ -1,10 +1,13 @@
-def CodecSimple():
-    '''public CodecSimple()
-    public CodecSimple(final PrefixMapping pMap)
+def ():
+    '''returns CodecSimple\n\n
+    ()\n
+    (final PrefixMapping pMap)\n
     '''
 def encode():
-    '''public String encode(final Node node)
+    '''returns String\n\n
+    encode(final Node node)\n
     '''
 def decode():
-    '''public Node decode(final String s)
+    '''returns Node\n\n
+    decode(final String s)\n
     '''

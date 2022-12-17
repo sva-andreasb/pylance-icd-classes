@@ -1,3 +1,4 @@
-def FldPmscAssetCIClass():
-    '''public FldPmscAssetCIClass(final MboValue mbv)
+def ():
+    '''returns FldPmscAssetCIClass\n\n
+    (final MboValue mbv)\n
     '''

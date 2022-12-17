@@ -1,34 +1,45 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def removeObjective():
-    '''public void removeObjective()
+    '''returns None\n\n
+    removeObjective()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def getOplFactory():
-    '''public IloOplFactory getOplFactory()
+    '''returns IloOplFactory\n\n
+    getOplFactory()\n
     '''
 def getOplModel():
-    '''public IloOplModel getOplModel()
+    '''returns IloOplModel\n\n
+    getOplModel()\n
     '''
 def buildModel():
-    '''public void buildModel(final IloTableContainer container)
+    '''returns None\n\n
+    buildModel(final IloTableContainer container)\n
     '''
 def mapDataAndPreProcessOplModel():
-    '''public void mapDataAndPreProcessOplModel()
+    '''returns None\n\n
+    mapDataAndPreProcessOplModel()\n
     '''
 def getMappingAccessor():
-    '''public IloOplMappingAccessor getMappingAccessor()
+    '''returns IloOplMappingAccessor\n\n
+    getMappingAccessor()\n
     '''
 def getOplModelAccessor():
-    '''public IloOplModelAccessor getOplModelAccessor()
+    '''returns IloOplModelAccessor\n\n
+    getOplModelAccessor()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def getExprValue():
-    '''public double getExprValue(final IloNumExpr expr)
+    '''returns double\n\n
+    getExprValue(final IloNumExpr expr)\n
     '''
 def setController():
-    '''public void setController(final IloOplCplexController controller)
+    '''returns None\n\n
+    setController(final IloOplCplexController controller)\n
     '''

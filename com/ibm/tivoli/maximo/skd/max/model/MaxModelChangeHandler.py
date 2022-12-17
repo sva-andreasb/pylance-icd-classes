@@ -1,6 +1,8 @@
-def MaxModelChangeHandler():
-    '''public MaxModelChangeHandler(final Schedule schedule)
+def ():
+    '''returns MaxModelChangeHandler\n\n
+    (final Schedule schedule)\n
     '''
 def handleModifiedActivity():
-    '''public void handleModifiedActivity(final IMXActivity activity)
+    '''returns None\n\n
+    handleModifiedActivity(final IMXActivity activity)\n
     '''

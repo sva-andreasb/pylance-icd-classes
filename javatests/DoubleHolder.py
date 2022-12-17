@@ -1,9 +1,12 @@
-def DoubleHolder():
-    '''public DoubleHolder()
+def ():
+    '''returns DoubleHolder\n\n
+    ()\n
     '''
 def getNumber():
-    '''public Double getNumber()
+    '''returns Double\n\n
+    getNumber()\n
     '''
 def setNumber():
-    '''public void setNumber(final Double number)
+    '''returns None\n\n
+    setNumber(final Double number)\n
     '''

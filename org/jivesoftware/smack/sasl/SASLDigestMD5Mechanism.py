@@ -1,3 +1,4 @@
-def SASLDigestMD5Mechanism():
-    '''public SASLDigestMD5Mechanism(final SASLAuthentication saslAuthentication)
+def ():
+    '''returns SASLDigestMD5Mechanism\n\n
+    (final SASLAuthentication saslAuthentication)\n
     '''

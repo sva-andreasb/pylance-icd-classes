@@ -1,15 +1,20 @@
-def AndFilter():
-    '''public AndFilter(final IlvAbstractFilter<T> f1, final IlvAbstractFilter<T> f2)
+def ():
+    '''returns AndFilter\n\n
+    (final IlvAbstractFilter<T> f1, final IlvAbstractFilter<T> f2)\n
     '''
 def filterChanged():
-    '''public void filterChanged(final FilterEvent paramFilterEvent)
+    '''returns None\n\n
+    filterChanged(final FilterEvent paramFilterEvent)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T paramT)
+    '''returns boolean\n\n
+    evaluate(final T paramT)\n
     '''
 def filter1():
-    '''public IlvAbstractFilter<T> filter1()
+    '''returns IlvAbstractFilter<T>\n\n
+    filter1()\n
     '''
 def filter2():
-    '''public IlvAbstractFilter<T> filter2()
+    '''returns IlvAbstractFilter<T>\n\n
+    filter2()\n
     '''

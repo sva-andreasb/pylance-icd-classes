@@ -1,6 +1,8 @@
-def I2F():
-    '''public I2F()
+def ():
+    '''returns I2F\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

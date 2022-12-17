@@ -1,12 +1,16 @@
-def ToolTipBalloonStyle():
-    '''public ToolTipBalloonStyle(final Color fillColor, final Color borderColor)
+def ():
+    '''returns ToolTipBalloonStyle\n\n
+    (final Color fillColor, final Color borderColor)\n
     '''
 def getBorderInsets():
-    '''public Insets getBorderInsets(final Component c)
+    '''returns Insets\n\n
+    getBorderInsets(final Component c)\n
     '''
 def isBorderOpaque():
-    '''public boolean isBorderOpaque()
+    '''returns boolean\n\n
+    isBorderOpaque()\n
     '''
 def paintBorder():
-    '''public void paintBorder(final Component c, final Graphics g, final int x, final int y, int width, int height)
+    '''returns None\n\n
+    paintBorder(final Component c, final Graphics g, final int x, final int y, int width, int height)\n
     '''

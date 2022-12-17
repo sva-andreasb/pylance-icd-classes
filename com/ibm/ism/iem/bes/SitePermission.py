@@ -1,12 +1,16 @@
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getPermission():
-    '''public SitePermissionString getPermission()
+    '''returns SitePermissionString\n\n
+    getPermission()\n
     '''
 def setPermission():
-    '''public void setPermission(final SitePermissionString value)
+    '''returns None\n\n
+    setPermission(final SitePermissionString value)\n
     '''

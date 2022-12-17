@@ -1,6 +1,8 @@
-def VMMPrivilagedGetAction():
-    '''public VMMPrivilagedGetAction(final Service srv, final DataObject root)
+def ():
+    '''returns VMMPrivilagedGetAction\n\n
+    (final Service srv, final DataObject root)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''

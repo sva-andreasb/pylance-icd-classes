@@ -1,3 +1,4 @@
-def PlusPBillUpdateCustRef():
-    '''public PlusPBillUpdateCustRef(final MboSet ms)
+def ():
+    '''returns PlusPBillUpdateCustRef\n\n
+    (final MboSet ms)\n
     '''

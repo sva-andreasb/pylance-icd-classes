@@ -1,36 +1,48 @@
-def OSTemplateInfo():
-    '''public OSTemplateInfo(final String templateName, final boolean list, final String userId, final int pageSize, final String savedQuery, final String app)
+def ():
+    '''returns OSTemplateInfo\n\n
+    (final String templateName, final boolean list, final String userId, final int pageSize, final String savedQuery, final String app)\n
     '''
 def getSelectClause():
-    '''public String getSelectClause()
+    '''returns String\n\n
+    getSelectClause()\n
     '''
 def setPageSize():
-    '''public void setPageSize(final int pageSize)
+    '''returns None\n\n
+    setPageSize(final int pageSize)\n
     '''
 def getPageSize():
-    '''public int getPageSize()
+    '''returns int\n\n
+    getPageSize()\n
     '''
 def getApp():
-    '''public String getApp()
+    '''returns String\n\n
+    getApp()\n
     '''
 def setApp():
-    '''public void setApp(final String app)
+    '''returns None\n\n
+    setApp(final String app)\n
     '''
 def getSavedQuery():
-    '''public String getSavedQuery()
+    '''returns String\n\n
+    getSavedQuery()\n
     '''
 def setSavedQuery():
-    '''public void setSavedQuery(final String savedQuery)
+    '''returns None\n\n
+    setSavedQuery(final String savedQuery)\n
     '''
 def getTemplateName():
-    '''public String getTemplateName()
+    '''returns String\n\n
+    getTemplateName()\n
     '''
 def isList():
-    '''public boolean isList()
+    '''returns boolean\n\n
+    isList()\n
     '''
 def getAttrList():
-    '''public List<String> getAttrList()
+    '''returns List<String>\n\n
+    getAttrList()\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''

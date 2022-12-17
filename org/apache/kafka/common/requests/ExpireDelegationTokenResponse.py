@@ -1,23 +1,18 @@
-def ExpireDelegationTokenResponse():
-    '''public ExpireDelegationTokenResponse(final int throttleTimeMs, final Errors error, final long expiryTimestamp)
-    public ExpireDelegationTokenResponse(final int throttleTimeMs, final Errors error)
-    public ExpireDelegationTokenResponse(final Struct struct)
-    '''
-def parse():
-    '''public static ExpireDelegationTokenResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
+def ():
+    '''returns ExpireDelegationTokenResponse\n\n
+    (final int throttleTimeMs, final Errors error, final long expiryTimestamp)\n
+    (final int throttleTimeMs, final Errors error)\n
+    (final Struct struct)\n
     '''
 def error():
-    '''public Errors error()
+    '''returns Errors\n\n
+    error()\n
     '''
 def expiryTimestamp():
-    '''public long expiryTimestamp()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
+    '''returns long\n\n
+    expiryTimestamp()\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''

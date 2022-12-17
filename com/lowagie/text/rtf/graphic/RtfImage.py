@@ -1,6 +1,8 @@
-def RtfImage():
-    '''public RtfImage(final RtfDocument doc, final Image image)
+def ():
+    '''returns RtfImage\n\n
+    (final RtfDocument doc, final Image image)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

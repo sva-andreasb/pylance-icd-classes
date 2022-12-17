@@ -1,37 +1,29 @@
-def AsynchSecondaryRequest():
-    '''public AsynchSecondaryRequest()
-    public AsynchSecondaryRequest(final String name, final Option[] options, final ParameterValue[] parameters)
+def ():
+    '''returns AsynchSecondaryRequest\n\n
+    ()\n
+    (final String name, final Option[] options, final ParameterValue[] parameters)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getOptions():
-    '''public Option[] getOptions()
+    '''returns Option[]\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final Option[] options)
+    '''returns None\n\n
+    setOptions(final Option[] options)\n
     '''
 def getParameters():
-    '''public ParameterValue[] getParameters()
+    '''returns ParameterValue[]\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ParameterValue[] parameters)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setParameters(final ParameterValue[] parameters)\n
     '''

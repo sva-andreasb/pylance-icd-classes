@@ -1,30 +1,39 @@
-def PrivilegeTable():
-    '''public PrivilegeTable()
+def ():
+    '''returns PrivilegeTable\n\n
+    ()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def keys():
-    '''public Enumeration keys()
+    '''returns Enumeration\n\n
+    keys()\n
     '''
 def elements():
-    '''public Enumeration elements()
+    '''returns Enumeration\n\n
+    elements()\n
     '''
 def get():
-    '''public Privilege get(final Object key)
-    public Privilege get(final Target target)
+    '''returns Privilege\n\n
+    get(final Object key)\n
+    get(final Target target)\n
     '''
 def put():
-    '''public Privilege put(final Object key, final Privilege value)
-    public Privilege put(final Target key, final Privilege value)
+    '''returns Privilege\n\n
+    put(final Object key, final Privilege value)\n
+    put(final Target key, final Privilege value)\n
     '''
 def remove():
-    '''public Privilege remove(final Object key)
-    public Privilege remove(final Target key)
+    '''returns Privilege\n\n
+    remove(final Object key)\n
+    remove(final Target key)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

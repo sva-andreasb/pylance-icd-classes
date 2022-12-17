@@ -1,15 +1,20 @@
-def Driver_Derby():
-    '''public Driver_Derby()
+def ():
+    '''returns Driver_Derby\n\n
+    ()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def graphIdAlloc():
-    '''public int graphIdAlloc(final String graphName)
+    '''returns int\n\n
+    graphIdAlloc(final String graphName)\n
     '''
 def graphIdDealloc():
-    '''public void graphIdDealloc(final int graphId)
+    '''returns None\n\n
+    graphIdDealloc(final int graphId)\n
     '''
 def setConnection():
-    '''public void setConnection(final IDBConnection dbcon)
+    '''returns None\n\n
+    setConnection(final IDBConnection dbcon)\n
     '''

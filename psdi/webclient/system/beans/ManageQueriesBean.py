@@ -1,24 +1,24 @@
-def ManageQueriesBean():
-    '''public ManageQueriesBean()
+def ():
+    '''returns ManageQueriesBean\n\n
+    ()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def filterrows():
-    '''public int filterrows()
+    '''returns int\n\n
+    filterrows()\n
     '''
 def sort():
-    '''public void sort(final String sOrderByClause)
-    '''
-def fetchTableData():
-    '''public synchronized int fetchTableData(final int startingRow)
-    '''
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''returns None\n\n
+    sort(final String sOrderByClause)\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

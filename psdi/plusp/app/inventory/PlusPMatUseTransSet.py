@@ -1,21 +1,28 @@
-def PlusPMatUseTransSet():
-    '''public PlusPMatUseTransSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPMatUseTransSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''
 def fireEventsBeforeDB():
-    '''public void fireEventsBeforeDB(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsBeforeDB(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def addItemSale():
-    '''public void addItemSale(final MboRemote mboRemote)
+    '''returns None\n\n
+    addItemSale(final MboRemote mboRemote)\n
     '''
 def removeAssetsInDeletedMatUseTransFromAssetsSoldList():
-    '''public void removeAssetsInDeletedMatUseTransFromAssetsSoldList()
+    '''returns None\n\n
+    removeAssetsInDeletedMatUseTransFromAssetsSoldList()\n
     '''
 def changeSoldAssetsToInactive():
-    '''public void changeSoldAssetsToInactive()
+    '''returns None\n\n
+    changeSoldAssetsToInactive()\n
     '''

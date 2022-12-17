@@ -1,30 +1,31 @@
 ELEMENT = "String  \"fields\""
 NAMESPACE = "String  \"urn:xmpp:iot:sensordata\""
-def IoTFieldsExtension():
-    '''public IoTFieldsExtension(final int seqNr, final boolean done, final NodeElement node)
-    public IoTFieldsExtension(final int seqNr, final boolean done, final List<NodeElement> nodes)
+def ():
+    '''returns IoTFieldsExtension\n\n
+    (final int seqNr, final boolean done, final NodeElement node)\n
+    (final int seqNr, final boolean done, final List<NodeElement> nodes)\n
     '''
 def getSequenceNr():
-    '''public int getSequenceNr()
+    '''returns int\n\n
+    getSequenceNr()\n
     '''
 def isDone():
-    '''public boolean isDone()
+    '''returns boolean\n\n
+    isDone()\n
     '''
 def getNodes():
-    '''public List<NodeElement> getNodes()
+    '''returns List<NodeElement>\n\n
+    getNodes()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def buildFor():
-    '''public static IoTFieldsExtension buildFor(final int seqNr, final boolean done, final NodeInfo nodeInfo, final List<? extends IoTDataField> data)
-    '''
-def from():
-    '''public static IoTFieldsExtension from(final Message message)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

@@ -1,16 +1,21 @@
-def DBIDInt():
-    '''public DBIDInt(final int id)
-    public DBIDInt(final Integer id)
+def ():
+    '''returns DBIDInt\n\n
+    (final int id)\n
+    (final Integer id)\n
     '''
 def _getID():
-    '''public Object _getID()
+    '''returns Object\n\n
+    _getID()\n
     '''
 def getIntID():
-    '''public int getIntID()
+    '''returns int\n\n
+    getIntID()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

@@ -5,51 +5,55 @@ VERSION2 = "int  2"
 VERSION3 = "int  3"
 VERSION4 = "int  4"
 CURRENTVERSION = "int  4"
-def WLMTaggedComponent():
-    '''public WLMTaggedComponent(final byte[] component_data)
+def ():
+    '''returns WLMTaggedComponent\n\n
+    (final byte[] component_data)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getClusterIdentity():
-    '''public Identity getClusterIdentity()
+    '''returns Identity\n\n
+    getClusterIdentity()\n
     '''
 def getAdminDomainName():
-    '''public String getAdminDomainName()
+    '''returns String\n\n
+    getAdminDomainName()\n
     '''
 def getLSDSSLPortList():
-    '''public short[] getLSDSSLPortList()
+    '''returns short[]\n\n
+    getLSDSSLPortList()\n
     '''
 def getMemberSSLPortList():
-    '''public int[] getMemberSSLPortList()
+    '''returns int[]\n\n
+    getMemberSSLPortList()\n
     '''
 def getLSDSSLCCPortList():
-    '''public short[] getLSDSSLCCPortList()
+    '''returns short[]\n\n
+    getLSDSSLCCPortList()\n
     '''
 def getMemberSSLCCPortList():
-    '''public int[] getMemberSSLCCPortList()
+    '''returns int[]\n\n
+    getMemberSSLCCPortList()\n
     '''
 def getLSDPortList():
-    '''public short[] getLSDPortList()
+    '''returns short[]\n\n
+    getLSDPortList()\n
     '''
 def getMemberPortList():
-    '''public int[] getMemberPortList()
+    '''returns int[]\n\n
+    getMemberPortList()\n
     '''
 def getLSDHostList():
-    '''public String[] getLSDHostList()
+    '''returns String[]\n\n
+    getLSDHostList()\n
     '''
 def getMemberHostList():
-    '''public String[] getMemberHostList()
-    '''
-def getTaggedComponentData():
-    '''public static byte[] getTaggedComponentData(final Identity description)
-    '''
-def addAlternateIIOPAddressComponent():
-    '''public static void addAlternateIIOPAddressComponent(final Profile profile)
-    '''
-def getZTaggedComponentData():
-    '''public static byte[] getZTaggedComponentData(final Identity description)
+    '''returns String[]\n\n
+    getMemberHostList()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

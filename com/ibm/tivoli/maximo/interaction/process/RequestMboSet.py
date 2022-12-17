@@ -1,20 +1,26 @@
-def RequestMboSet():
-    '''public RequestMboSet(final MboServerInterface ms)
+def ():
+    '''returns RequestMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def processInteraction():
-    '''public MboSetRemote processInteraction(final MboRemote interactionMbo)
-    public MboSetRemote processInteraction(final String interactionName, final MboRemote interactionMbo)
-    public MboSetRemote processInteraction(final String optionName, final String appName, final MboRemote interactionMbo)
+    '''returns MboSetRemote\n\n
+    processInteraction(final MboRemote interactionMbo)\n
+    processInteraction(final String interactionName, final MboRemote interactionMbo)\n
+    processInteraction(final String optionName, final String appName, final MboRemote interactionMbo)\n
     '''
 def setWSIO():
-    '''public void setWSIO(final WSIO wsio)
+    '''returns None\n\n
+    setWSIO(final WSIO wsio)\n
     '''
 def getWSIO():
-    '''public WSIO getWSIO()
+    '''returns WSIO\n\n
+    getWSIO()\n
     '''

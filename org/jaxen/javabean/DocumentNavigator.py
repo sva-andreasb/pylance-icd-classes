@@ -1,98 +1,126 @@
-def getInstance():
-    '''public static Navigator getInstance()
-    '''
 def isElement():
-    '''public boolean isElement(final Object obj)
+    '''returns boolean\n\n
+    isElement(final Object obj)\n
     '''
 def isComment():
-    '''public boolean isComment(final Object obj)
+    '''returns boolean\n\n
+    isComment(final Object obj)\n
     '''
 def isText():
-    '''public boolean isText(final Object obj)
+    '''returns boolean\n\n
+    isText(final Object obj)\n
     '''
 def isAttribute():
-    '''public boolean isAttribute(final Object obj)
+    '''returns boolean\n\n
+    isAttribute(final Object obj)\n
     '''
 def isProcessingInstruction():
-    '''public boolean isProcessingInstruction(final Object obj)
+    '''returns boolean\n\n
+    isProcessingInstruction(final Object obj)\n
     '''
 def isDocument():
-    '''public boolean isDocument(final Object obj)
+    '''returns boolean\n\n
+    isDocument(final Object obj)\n
     '''
 def isNamespace():
-    '''public boolean isNamespace(final Object obj)
+    '''returns boolean\n\n
+    isNamespace(final Object obj)\n
     '''
 def getElementName():
-    '''public String getElementName(final Object obj)
+    '''returns String\n\n
+    getElementName(final Object obj)\n
     '''
 def getElementNamespaceUri():
-    '''public String getElementNamespaceUri(final Object obj)
+    '''returns String\n\n
+    getElementNamespaceUri(final Object obj)\n
     '''
 def getElementQName():
-    '''public String getElementQName(final Object obj)
+    '''returns String\n\n
+    getElementQName(final Object obj)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName(final Object obj)
+    '''returns String\n\n
+    getAttributeName(final Object obj)\n
     '''
 def getAttributeNamespaceUri():
-    '''public String getAttributeNamespaceUri(final Object obj)
+    '''returns String\n\n
+    getAttributeNamespaceUri(final Object obj)\n
     '''
 def getAttributeQName():
-    '''public String getAttributeQName(final Object obj)
+    '''returns String\n\n
+    getAttributeQName(final Object obj)\n
     '''
 def getChildAxisIterator():
-    '''public Iterator getChildAxisIterator(final Object contextNode)
-    public Iterator getChildAxisIterator(final Object contextNode, final String localName, final String namespacePrefix, final String namespaceURI)
+    '''returns Iterator\n\n
+    getChildAxisIterator(final Object contextNode)\n
+    getChildAxisIterator(final Object contextNode, final String localName, final String namespacePrefix, final String namespaceURI)\n
     '''
 def getParentAxisIterator():
-    '''public Iterator getParentAxisIterator(final Object contextNode)
+    '''returns Iterator\n\n
+    getParentAxisIterator(final Object contextNode)\n
     '''
 def getAttributeAxisIterator():
-    '''public Iterator getAttributeAxisIterator(final Object contextNode)
-    public Iterator getAttributeAxisIterator(final Object contextNode, final String localName, final String namespacePrefix, final String namespaceURI)
+    '''returns Iterator\n\n
+    getAttributeAxisIterator(final Object contextNode)\n
+    getAttributeAxisIterator(final Object contextNode, final String localName, final String namespacePrefix, final String namespaceURI)\n
     '''
 def getNamespaceAxisIterator():
-    '''public Iterator getNamespaceAxisIterator(final Object contextNode)
+    '''returns Iterator\n\n
+    getNamespaceAxisIterator(final Object contextNode)\n
     '''
 def getDocumentNode():
-    '''public Object getDocumentNode(final Object contextNode)
+    '''returns Object\n\n
+    getDocumentNode(final Object contextNode)\n
     '''
 def getParentNode():
-    '''public Object getParentNode(final Object contextNode)
+    '''returns Object\n\n
+    getParentNode(final Object contextNode)\n
     '''
 def getTextStringValue():
-    '''public String getTextStringValue(final Object obj)
+    '''returns String\n\n
+    getTextStringValue(final Object obj)\n
     '''
 def getElementStringValue():
-    '''public String getElementStringValue(final Object obj)
+    '''returns String\n\n
+    getElementStringValue(final Object obj)\n
     '''
 def getAttributeStringValue():
-    '''public String getAttributeStringValue(final Object obj)
+    '''returns String\n\n
+    getAttributeStringValue(final Object obj)\n
     '''
 def getNamespaceStringValue():
-    '''public String getNamespaceStringValue(final Object obj)
+    '''returns String\n\n
+    getNamespaceStringValue(final Object obj)\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final Object obj)
+    '''returns String\n\n
+    getNamespacePrefix(final Object obj)\n
     '''
 def getCommentStringValue():
-    '''public String getCommentStringValue(final Object obj)
+    '''returns String\n\n
+    getCommentStringValue(final Object obj)\n
     '''
 def translateNamespacePrefixToUri():
-    '''public String translateNamespacePrefixToUri(final String prefix, final Object context)
+    '''returns String\n\n
+    translateNamespacePrefixToUri(final String prefix, final Object context)\n
     '''
 def getNodeType():
-    '''public short getNodeType(final Object node)
+    '''returns short\n\n
+    getNodeType(final Object node)\n
     '''
 def getDocument():
-    '''public Object getDocument(final String uri)
+    '''returns Object\n\n
+    getDocument(final String uri)\n
     '''
 def getProcessingInstructionTarget():
-    '''public String getProcessingInstructionTarget(final Object obj)
+    '''returns String\n\n
+    getProcessingInstructionTarget(final Object obj)\n
     '''
 def getProcessingInstructionData():
-    '''public String getProcessingInstructionData(final Object obj)
+    '''returns String\n\n
+    getProcessingInstructionData(final Object obj)\n
     '''
 def parseXPath():
-    '''public XPath parseXPath(final String xpath)
+    '''returns XPath\n\n
+    parseXPath(final String xpath)\n
     '''

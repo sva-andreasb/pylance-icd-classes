@@ -1,83 +1,87 @@
 NO_CONTROLLER_ID = "int  -1"
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def MetadataResponse():
-    '''public MetadataResponse(final List<Node> brokers, final String clusterId, final int controllerId, final List<TopicMetadata> topicMetadata)
-    public MetadataResponse(final int throttleTimeMs, final List<Node> brokers, final String clusterId, final int controllerId, final List<TopicMetadata> topicMetadata)
-    public MetadataResponse(final Struct struct)
+def ():
+    '''returns PartitionMetadata\n\n
+    (final List<Node> brokers, final String clusterId, final int controllerId, final List<TopicMetadata> topicMetadata)\n
+    (final int throttleTimeMs, final List<Node> brokers, final String clusterId, final int controllerId, final List<TopicMetadata> topicMetadata)\n
+    (final Struct struct)\n
+    (final Errors error, final String topic, final boolean isInternal, final List<PartitionMetadata> partitionMetadata)\n
+    (final Errors error, final int partition, final Node leader, final List<Node> replicas, final List<Node> isr, final List<Node> offlineReplicas)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
-    '''
-def errors():
-    '''public Map<String, Errors> errors()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def topicsByError():
-    '''public Set<String> topicsByError(final Errors error)
+    '''returns Set<String>\n\n
+    topicsByError(final Errors error)\n
     '''
 def unavailableTopics():
-    '''public Set<String> unavailableTopics()
+    '''returns Set<String>\n\n
+    unavailableTopics()\n
     '''
 def cluster():
-    '''public Cluster cluster()
+    '''returns Cluster\n\n
+    cluster()\n
     '''
 def brokers():
-    '''public Collection<Node> brokers()
+    '''returns Collection<Node>\n\n
+    brokers()\n
     '''
 def topicMetadata():
-    '''public Collection<TopicMetadata> topicMetadata()
+    '''returns Collection<TopicMetadata>\n\n
+    topicMetadata()\n
     '''
 def controller():
-    '''public Node controller()
+    '''returns Node\n\n
+    controller()\n
     '''
 def clusterId():
-    '''public String clusterId()
-    '''
-def parse():
-    '''public static MetadataResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def TopicMetadata():
-    '''public TopicMetadata(final Errors error, final String topic, final boolean isInternal, final List<PartitionMetadata> partitionMetadata)
+    '''returns String\n\n
+    clusterId()\n
     '''
 def error():
-    '''public Errors error()
-    public Errors error()
+    '''returns Errors\n\n
+    error()\n
+    error()\n
     '''
 def topic():
-    '''public String topic()
+    '''returns String\n\n
+    topic()\n
     '''
 def isInternal():
-    '''public boolean isInternal()
+    '''returns boolean\n\n
+    isInternal()\n
     '''
 def partitionMetadata():
-    '''public List<PartitionMetadata> partitionMetadata()
+    '''returns List<PartitionMetadata>\n\n
+    partitionMetadata()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def PartitionMetadata():
-    '''public PartitionMetadata(final Errors error, final int partition, final Node leader, final List<Node> replicas, final List<Node> isr, final List<Node> offlineReplicas)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def partition():
-    '''public int partition()
+    '''returns int\n\n
+    partition()\n
     '''
 def leaderId():
-    '''public int leaderId()
+    '''returns int\n\n
+    leaderId()\n
     '''
 def leader():
-    '''public Node leader()
+    '''returns Node\n\n
+    leader()\n
     '''
 def replicas():
-    '''public List<Node> replicas()
+    '''returns List<Node>\n\n
+    replicas()\n
     '''
 def isr():
-    '''public List<Node> isr()
+    '''returns List<Node>\n\n
+    isr()\n
     '''
 def offlineReplicas():
-    '''public List<Node> offlineReplicas()
+    '''returns List<Node>\n\n
+    offlineReplicas()\n
     '''

@@ -1,5 +1,6 @@
-def ProxyException():
-    '''public ProxyException(final ProxyInfo.ProxyType type, final String ex, final Throwable cause)
-    public ProxyException(final ProxyInfo.ProxyType type, final String ex)
-    public ProxyException(final ProxyInfo.ProxyType type)
+def ():
+    '''returns ProxyException\n\n
+    (final ProxyInfo.ProxyType type, final String ex, final Throwable cause)\n
+    (final ProxyInfo.ProxyType type, final String ex)\n
+    (final ProxyInfo.ProxyType type)\n
     '''

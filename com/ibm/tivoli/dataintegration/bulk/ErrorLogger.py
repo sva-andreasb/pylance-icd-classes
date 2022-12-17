@@ -1,6 +1,4 @@
-def getLogger():
-    '''public static ErrorLogger getLogger()
-    '''
 def logError():
-    '''public void logError(final String errorString)
+    '''returns None\n\n
+    logError(final String errorString)\n
     '''

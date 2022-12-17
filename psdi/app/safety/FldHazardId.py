@@ -1,3 +1,4 @@
-def FldHazardId():
-    '''public FldHazardId(final MboValue mbv)
+def ():
+    '''returns FldHazardId\n\n
+    (final MboValue mbv)\n
     '''

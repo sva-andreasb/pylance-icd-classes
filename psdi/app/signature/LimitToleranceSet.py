@@ -1,3 +1,4 @@
-def LimitToleranceSet():
-    '''public LimitToleranceSet(final MboServerInterface ms)
+def ():
+    '''returns LimitToleranceSet\n\n
+    (final MboServerInterface ms)\n
     '''

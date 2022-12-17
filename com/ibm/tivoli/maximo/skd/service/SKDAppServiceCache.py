@@ -1,39 +1,36 @@
-def SKDAppServiceCache():
-    '''public SKDAppServiceCache(final String currentProjectId)
+def ():
+    '''returns SKDAppServiceCache\n\n
+    (final String currentProjectId)\n
     '''
 def verifyProject():
-    '''public void verifyProject(final String useWith, final String id, final String calendar, final String shift, final Date startDate, final Date endDate, final String projectName, final String orgId, final Date startassigndate, final boolean viewtype)
-    '''
-def getShiftCalMap():
-    '''public HashMap<String, SKDCalendarInfo> getShiftCalMap()
-    '''
-def getCalendarBreaks():
-    '''public HashMap<String, ArrayList> getCalendarBreaks()
-    '''
-def getDaysInShiftPattern():
-    '''public HashMap<String, Integer> getDaysInShiftPattern()
+    '''returns None\n\n
+    verifyProject(final String useWith, final String id, final String calendar, final String shift, final Date startDate, final Date endDate, final String projectName, final String orgId, final Date startassigndate, final boolean viewtype)\n
     '''
 def getMergedWorkPeriods():
-    '''public ArrayList<Date> getMergedWorkPeriods()
-    '''
-def getWorkPeriodPatternDaySeq():
-    '''public TreeMap<Date, String> getWorkPeriodPatternDaySeq()
+    '''returns ArrayList<Date>\n\n
+    getMergedWorkPeriods()\n
     '''
 def setShiftGridInfo():
-    '''public void setShiftGridInfo(final HashMap<String, SKDCalendarInfo> shiftCalMap, final HashMap<String, ArrayList> calendarBreaks, final HashMap<String, Integer> daysInShiftPattern, final ArrayList<Date> mergedWorkPeriods, final TreeMap<Date, String> workPeriodPatternDaySeq)
+    '''returns None\n\n
+    setShiftGridInfo(final HashMap<String, SKDCalendarInfo> shiftCalMap, final HashMap<String, ArrayList> calendarBreaks, final HashMap<String, Integer> daysInShiftPattern, final ArrayList<Date> mergedWorkPeriods, final TreeMap<Date, String> workPeriodPatternDaySeq)\n
     '''
 def hasShiftGridInfo():
-    '''public boolean hasShiftGridInfo()
+    '''returns boolean\n\n
+    hasShiftGridInfo()\n
     '''
 def isUIDebug():
-    '''public boolean isUIDebug()
+    '''returns boolean\n\n
+    isUIDebug()\n
     '''
 def setUIDebug():
-    '''public void setUIDebug(final boolean isUIDebug)
+    '''returns None\n\n
+    setUIDebug(final boolean isUIDebug)\n
     '''
 def getProjectName():
-    '''public String getProjectName()
+    '''returns String\n\n
+    getProjectName()\n
     '''
 def getOrgId():
-    '''public String getOrgId()
+    '''returns String\n\n
+    getOrgId()\n
     '''

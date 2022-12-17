@@ -1,3 +1,4 @@
-def MonitorFilterEventRequest():
-    '''public MonitorFilterEventRequest(final EdirEventSpecifier[] array)
+def ():
+    '''returns MonitorFilterEventRequest\n\n
+    (final EdirEventSpecifier[] array)\n
     '''

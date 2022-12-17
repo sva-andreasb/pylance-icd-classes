@@ -1,60 +1,44 @@
-def GoogleIdTokenVerifier():
-    '''public GoogleIdTokenVerifier(final HttpTransport transport, final JsonFactory jsonFactory)
-    public GoogleIdTokenVerifier(final GooglePublicKeysManager publicKeys)
-    '''
-def getPublicKeysManager():
-    '''public final GooglePublicKeysManager getPublicKeysManager()
-    '''
-def getTransport():
-    '''public final HttpTransport getTransport()
-    public final HttpTransport getTransport()
-    '''
-def getJsonFactory():
-    '''public final JsonFactory getJsonFactory()
-    public final JsonFactory getJsonFactory()
-    '''
-def getPublicCertsEncodedUrl():
-    '''public final String getPublicCertsEncodedUrl()
-    public final String getPublicCertsEncodedUrl()
-    '''
-def getPublicKeys():
-    '''public final List<PublicKey> getPublicKeys()
-    '''
-def getExpirationTimeMilliseconds():
-    '''public final long getExpirationTimeMilliseconds()
+def ():
+    '''returns Builder\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory)\n
+    (final GooglePublicKeysManager publicKeys)\n
+    (final HttpTransport transport, final JsonFactory jsonFactory)\n
+    (final GooglePublicKeysManager publicKeys)\n
     '''
 def verify():
-    '''public boolean verify(final GoogleIdToken googleIdToken)
-    public GoogleIdToken verify(final String idTokenString)
+    '''returns GoogleIdToken\n\n
+    verify(final GoogleIdToken googleIdToken)\n
+    verify(final String idTokenString)\n
     '''
 def loadPublicCerts():
-    '''public GoogleIdTokenVerifier loadPublicCerts()
-    '''
-def Builder():
-    '''public Builder(final HttpTransport transport, final JsonFactory jsonFactory)
-    public Builder(final GooglePublicKeysManager publicKeys)
+    '''returns GoogleIdTokenVerifier\n\n
+    loadPublicCerts()\n
     '''
 def build():
-    '''public GoogleIdTokenVerifier build()
-    '''
-def getPublicCerts():
-    '''public final GooglePublicKeysManager getPublicCerts()
+    '''returns GoogleIdTokenVerifier\n\n
+    build()\n
     '''
 def setPublicCertsEncodedUrl():
-    '''public Builder setPublicCertsEncodedUrl(final String publicKeysEncodedUrl)
+    '''returns Builder\n\n
+    setPublicCertsEncodedUrl(final String publicKeysEncodedUrl)\n
     '''
 def setIssuer():
-    '''public Builder setIssuer(final String issuer)
+    '''returns Builder\n\n
+    setIssuer(final String issuer)\n
     '''
 def setIssuers():
-    '''public Builder setIssuers(final Collection<String> issuers)
+    '''returns Builder\n\n
+    setIssuers(final Collection<String> issuers)\n
     '''
 def setAudience():
-    '''public Builder setAudience(final Collection<String> audience)
+    '''returns Builder\n\n
+    setAudience(final Collection<String> audience)\n
     '''
 def setAcceptableTimeSkewSeconds():
-    '''public Builder setAcceptableTimeSkewSeconds(final long acceptableTimeSkewSeconds)
+    '''returns Builder\n\n
+    setAcceptableTimeSkewSeconds(final long acceptableTimeSkewSeconds)\n
     '''
 def setClock():
-    '''public Builder setClock(final Clock clock)
+    '''returns Builder\n\n
+    setClock(final Clock clock)\n
     '''

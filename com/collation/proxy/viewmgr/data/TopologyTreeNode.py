@@ -3,28 +3,36 @@ DELETED = "int  1"
 CHANGED = "int  2"
 ADDED = "int  3"
 MODIFIED = "int  4"
-def TopologyTreeNode():
-    '''public TopologyTreeNode()
-    public TopologyTreeNode(final Object userObj)
+def ():
+    '''returns TopologyTreeNode\n\n
+    ()\n
+    (final Object userObj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toDebugString():
-    '''public String toDebugString()
+    '''returns String\n\n
+    toDebugString()\n
     '''
 def setSeverityState():
-    '''public void setSeverityState(final int state)
+    '''returns None\n\n
+    setSeverityState(final int state)\n
     '''
 def getSeverityState():
-    '''public int getSeverityState()
+    '''returns int\n\n
+    getSeverityState()\n
     '''
 def areEqual():
-    '''public boolean areEqual(final TopologyTreeNode that)
+    '''returns boolean\n\n
+    areEqual(final TopologyTreeNode that)\n
     '''
 def setStatus():
-    '''public void setStatus(final int status)
+    '''returns None\n\n
+    setStatus(final int status)\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''

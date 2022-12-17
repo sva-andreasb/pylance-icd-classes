@@ -1,0 +1,6 @@
+langXML = "String  \"RDF/XML\""
+langXMLAbbrev = "String  \"RDF/XML-ABBREV\""
+langNTriple = "String  \"N-TRIPLE\""
+langN3 = "String  \"N3\""
+langBDB = "String  \"RDF/BDB\""
+langSQL = "String  \"RDF/SQL\""

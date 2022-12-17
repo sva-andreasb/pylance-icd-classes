@@ -1,0 +1,32 @@
+def getName():
+    '''returns String\n\n
+    getName()\n
+    '''
+def setName():
+    '''returns None\n\n
+    setName(final String name)\n
+    '''
+def isNameSpecified():
+    '''returns boolean\n\n
+    isNameSpecified()\n
+    '''
+def unsetName():
+    '''returns None\n\n
+    unsetName()\n
+    '''
+def getPartitions():
+    '''returns List<Partition>\n\n
+    getPartitions()\n
+    '''
+def isPartitionsSpecified():
+    '''returns boolean\n\n
+    isPartitionsSpecified()\n
+    '''
+def unsetPartitions():
+    '''returns None\n\n
+    unsetPartitions()\n
+    '''
+def name():
+    '''returns Mask\n\n
+    name()\n
+    '''

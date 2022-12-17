@@ -1,18 +1,16 @@
-def BidiTransformer():
-    '''public BidiTransformer(final BidiAttributes inAttrs, final BidiAttributes outAttrs)
-    public BidiTransformer(final BidiAttributes inAttrs, final BidiAttributes outAttrs, final boolean exceptIfEqual)
-    public BidiTransformer(final String inFormat, final String outFormat)
-    public BidiTransformer(final String inFormat, final String outFormat, final boolean exceptIfEqual)
+def ():
+    '''returns BidiTextTransformer\n\n
+    (final BidiAttributes inAttrs, final BidiAttributes outAttrs)\n
+    (final BidiAttributes inAttrs, final BidiAttributes outAttrs, final boolean exceptIfEqual)\n
+    (final String inFormat, final String outFormat)\n
+    (final String inFormat, final String outFormat, final boolean exceptIfEqual)\n
+    (final BidiReorderingHandler reorderer, final ArabicShaping shaping)\n
     '''
 def transform():
-    '''public String transform(final String text)
-    '''
-def getDefaultBidiAttributes():
-    '''public static BidiAttributes getDefaultBidiAttributes()
-    '''
-def BidiTextTransformer():
-    '''public BidiTextTransformer(final BidiReorderingHandler reorderer, final ArabicShaping shaping)
+    '''returns String\n\n
+    transform(final String text)\n
     '''
 def transformBidiText():
-    '''public String transformBidiText(final String str)
+    '''returns String\n\n
+    transformBidiText(final String str)\n
     '''

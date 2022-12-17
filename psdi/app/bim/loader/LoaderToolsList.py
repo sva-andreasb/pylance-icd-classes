@@ -1,3 +1,4 @@
-def LoaderToolsList():
-    '''public LoaderToolsList(final LoaderBase<ItemJOB, ModelProcessIntf> loader, final MboRemote jobMbo)
+def ():
+    '''returns LoaderToolsList\n\n
+    (final LoaderBase<ItemJOB, ModelProcessIntf> loader, final MboRemote jobMbo)\n
     '''

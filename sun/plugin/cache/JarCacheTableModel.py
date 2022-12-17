@@ -1,21 +1,28 @@
-def JarCacheTableModel():
-    '''public JarCacheTableModel(final String[] columnNames)
+def ():
+    '''returns JarCacheTableModel\n\n
+    (final String[] columnNames)\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int n)
+    '''returns String\n\n
+    getColumnName(final int n)\n
     '''
 def removeRows():
-    '''public void removeRows(final int[] array)
+    '''returns None\n\n
+    removeRows(final int[] array)\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def getValueAt():
-    '''public Object getValueAt(final int n, final int n2)
+    '''returns Object\n\n
+    getValueAt(final int n, final int n2)\n
     '''

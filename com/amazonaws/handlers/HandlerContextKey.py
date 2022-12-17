@@ -1,12 +1,16 @@
-def HandlerContextKey():
-    '''public HandlerContextKey(final String name)
+def ():
+    '''returns HandlerContextKey\n\n
+    (final String name)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

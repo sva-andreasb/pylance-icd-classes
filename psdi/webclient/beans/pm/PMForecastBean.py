@@ -1,9 +1,12 @@
-def PMForecastBean():
-    '''public PMForecastBean()
+def ():
+    '''returns PMForecastBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def doforecast():
-    '''public int doforecast()
+    '''returns int\n\n
+    doforecast()\n
     '''

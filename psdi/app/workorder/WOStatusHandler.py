@@ -2,66 +2,75 @@ NO_USERINTERACTIVE = "int  101"
 BEFORE = "int  -1"
 EQUALS = "int  0"
 AFTER = "int  1"
-def WOStatusHandler():
-    '''public WOStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns WOStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredStatus)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
-    '''
-def getStatusProgression():
-    '''public static Vector<String> getStatusProgression()
-    '''
-def getOptionName():
-    '''public static String getOptionName(final String status)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)\n
     '''
 def materialsReceiptsCompleted():
-    '''public boolean materialsReceiptsCompleted()
+    '''returns boolean\n\n
+    materialsReceiptsCompleted()\n
     '''
 def postStatusChange():
-    '''public void postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)\n
     '''
 def updateMboForStatus():
-    '''public void updateMboForStatus(final String status)
+    '''returns None\n\n
+    updateMboForStatus(final String status)\n
     '''
 def resetUsingAssetWorkType():
-    '''public void resetUsingAssetWorkType()
+    '''returns None\n\n
+    resetUsingAssetWorkType()\n
     '''
 def resetUsingLocationWorkType():
-    '''public void resetUsingLocationWorkType()
+    '''returns None\n\n
+    resetUsingLocationWorkType()\n
     '''
 def validatePlannedLaborCraftRate():
-    '''public void validatePlannedLaborCraftRate()
+    '''returns None\n\n
+    validatePlannedLaborCraftRate()\n
     '''
 def validateAssignAMCrew():
-    '''public void validateAssignAMCrew()
+    '''returns None\n\n
+    validateAssignAMCrew()\n
     '''
 def alertPMStatus():
-    '''public boolean alertPMStatus(final String currentStatus, final String desiredStatus)
+    '''returns boolean\n\n
+    alertPMStatus(final String currentStatus, final String desiredStatus)\n
     '''
 def canChangePFCStatus():
-    '''public boolean canChangePFCStatus(final String currentStatus, final String desiredStatus, final long accessModifier, final boolean throwExceptions)
-    '''
-def compareStatusPosition():
-    '''public static int compareStatusPosition(final String status1, final String status2, final Translate translator)
+    '''returns boolean\n\n
+    canChangePFCStatus(final String currentStatus, final String desiredStatus, final long accessModifier, final boolean throwExceptions)\n
     '''
 def canChangeStatusCal():
-    '''public void canChangeStatusCal(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatusCal(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def postStatusChangeCal():
-    '''public void postStatusChangeCal(final String currentStatus, final String status, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    postStatusChangeCal(final String currentStatus, final String status, final Date asOfDate, final String memo)\n
     '''
 def cancelYesNOMessage():
-    '''public void cancelYesNOMessage(final String message)
+    '''returns None\n\n
+    cancelYesNOMessage(final String message)\n
     '''
 def timerIsActive():
-    '''public void timerIsActive()
+    '''returns None\n\n
+    timerIsActive()\n
     '''
 def toIncludeTaskLabTrans():
-    '''public int toIncludeTaskLabTrans()
+    '''returns int\n\n
+    toIncludeTaskLabTrans()\n
     '''

@@ -1,17 +1,17 @@
-def Splitter():
-    '''public Splitter(final char c)
-    public Splitter(final Pattern p)
-    '''
-def on():
-    '''public static Splitter on(final char c)
-    public static Splitter on(final Pattern p)
+def ():
+    '''returns Splitter\n\n
+    (final char c)\n
+    (final Pattern p)\n
     '''
 def splitToList():
-    '''public List<String> splitToList(final String input)
+    '''returns List<String>\n\n
+    splitToList(final String input)\n
     '''
 def trimResults():
-    '''public Splitter trimResults()
+    '''returns Splitter\n\n
+    trimResults()\n
     '''
 def split():
-    '''public Iterable<String> split(final String input)
+    '''returns Iterable<String>\n\n
+    split(final String input)\n
     '''

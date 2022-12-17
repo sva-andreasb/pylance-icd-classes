@@ -1,31 +1,41 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getWeight():
-    '''public double getWeight(final double defaultVal)
+    '''returns double\n\n
+    getWeight(final double defaultVal)\n
     '''
 def setWeight():
-    '''public void setWeight(final double v)
+    '''returns None\n\n
+    setWeight(final double v)\n
     '''
 def getValue():
-    '''public Double getValue()
+    '''returns Double\n\n
+    getValue()\n
     '''
 def getDecisionVariable():
-    '''public IloCplexDecisionVariable getDecisionVariable()
+    '''returns IloCplexDecisionVariable\n\n
+    getDecisionVariable()\n
     '''
 def getObjectiveSense():
-    '''public IloObjectiveSense getObjectiveSense()
+    '''returns IloObjectiveSense\n\n
+    getObjectiveSense()\n
     '''
 def needEngineUpdate():
-    '''public boolean needEngineUpdate(final int propIndex)
+    '''returns boolean\n\n
+    needEngineUpdate(final int propIndex)\n
     '''
 def registerMe():
-    '''public void registerMe(final IloDecisionModel model, final boolean force)
+    '''returns None\n\n
+    registerMe(final IloDecisionModel model, final boolean force)\n
     '''
 def unregisterMe():
-    '''public void unregisterMe()
+    '''returns None\n\n
+    unregisterMe()\n
     '''
 def isPublished():
-    '''public boolean isPublished()
+    '''returns boolean\n\n
+    isPublished()\n
     '''
 def isMonitored():
-    '''public boolean isMonitored()
+    '''returns boolean\n\n
+    isMonitored()\n
     '''

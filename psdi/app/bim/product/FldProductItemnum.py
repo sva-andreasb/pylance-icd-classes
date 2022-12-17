@@ -1,3 +1,4 @@
-def FldProductItemnum():
-    '''public FldProductItemnum(final MboValue mbv)
+def ():
+    '''returns FldProductItemnum\n\n
+    (final MboValue mbv)\n
     '''

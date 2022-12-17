@@ -1,9 +1,12 @@
-def ThrowableDeserializer():
-    '''public ThrowableDeserializer(final BeanDeserializer baseDeserializer)
+def ():
+    '''returns ThrowableDeserializer\n\n
+    (final BeanDeserializer baseDeserializer)\n
     '''
 def unwrappingDeserializer():
-    '''public JsonDeserializer<Object> unwrappingDeserializer(final NameTransformer unwrapper)
+    '''returns JsonDeserializer<Object>\n\n
+    unwrappingDeserializer(final NameTransformer unwrapper)\n
     '''
 def deserializeFromObject():
-    '''public Object deserializeFromObject(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserializeFromObject(final JsonParser p, final DeserializationContext ctxt)\n
     '''

@@ -1,3 +1,4 @@
-def PersonStatusSet():
-    '''public PersonStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PersonStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

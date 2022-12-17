@@ -1,104 +1,133 @@
 MAXPRIORITY = "int  999"
 MAXMETERWEIGHTPRCNT = "int  100"
-def AssetService():
-    '''public AssetService()
-    public AssetService(final MXServer mxServer)
+def ():
+    '''returns AssetService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getAssetForLocation():
-    '''public String getAssetForLocation(final UserInfo userInfo, final String loc)
+    '''returns String\n\n
+    getAssetForLocation(final UserInfo userInfo, final String loc)\n
     '''
 def getRotatingAssetForItem():
-    '''public MboSetRemote getRotatingAssetForItem(final UserInfo userInfo, final String itemnum, final String itemsetid)
+    '''returns MboSetRemote\n\n
+    getRotatingAssetForItem(final UserInfo userInfo, final String itemnum, final String itemsetid)\n
     '''
 def initCriteriaList():
-    '''public void initCriteriaList(final Hashtable criteriaTable)
+    '''returns None\n\n
+    initCriteriaList(final Hashtable criteriaTable)\n
     '''
 def getAsset():
-    '''public MboRemote getAsset(final UserInfo userInfo, final String attribute, final String key)
-    '''
-def incrInvCost():
-    '''public synchronized void incrInvCost(final UserInfo userinfo, final String assetnum, final double invCost)
+    '''returns MboRemote\n\n
+    getAsset(final UserInfo userInfo, final String attribute, final String key)\n
     '''
 def moveSingleAsset():
-    '''public void moveSingleAsset(@WSMboKey("ASSET") final MboRemote asset, final String newLocation, final String newSite, final String newParent)
+    '''returns None\n\n
+    moveSingleAsset(@WSMboKey("ASSET") final MboRemote asset, final String newLocation, final String newSite, final String newParent)\n
     '''
 def setLinearInfo():
-    '''public void setLinearInfo(final MboRemote linearMbo, final String altAttr)
+    '''returns None\n\n
+    setLinearInfo(final MboRemote linearMbo, final String altAttr)\n
     '''
 def setOffsetInfo():
-    '''public void setOffsetInfo(final MboRemote linearMbo, final String altAttr)
+    '''returns None\n\n
+    setOffsetInfo(final MboRemote linearMbo, final String altAttr)\n
     '''
 def initLinearAttrs():
-    '''public void initLinearAttrs(final MboRemote linearMbo, final String altAttr)
-    public void initLinearAttrs(final MboRemote linearMbo)
+    '''returns None\n\n
+    initLinearAttrs(final MboRemote linearMbo, final String altAttr)\n
+    initLinearAttrs(final MboRemote linearMbo)\n
     '''
 def initLinearEndMeasureAttrs():
-    '''public void initLinearEndMeasureAttrs(final MboRemote linearMbo, final String altAttr)
-    public void initLinearEndMeasureAttrs(final MboRemote linearMbo)
+    '''returns None\n\n
+    initLinearEndMeasureAttrs(final MboRemote linearMbo, final String altAttr)\n
+    initLinearEndMeasureAttrs(final MboRemote linearMbo)\n
     '''
 def setLinearMeasureUnitIdInfo():
-    '''public void setLinearMeasureUnitIdInfo(final MboRemote linearMbo, String attr)
+    '''returns None\n\n
+    setLinearMeasureUnitIdInfo(final MboRemote linearMbo, String attr)\n
     '''
 def initOffsetAttrs():
-    '''public void initOffsetAttrs(final MboRemote linearMbo, final String attr)
+    '''returns None\n\n
+    initOffsetAttrs(final MboRemote linearMbo, final String attr)\n
     '''
 def initEndMeasureAttrs():
-    '''public void initEndMeasureAttrs(final MboRemote linearMbo)
+    '''returns None\n\n
+    initEndMeasureAttrs(final MboRemote linearMbo)\n
     '''
 def initStartOffsetAttrs():
-    '''public void initStartOffsetAttrs(final MboRemote linearMbo, final String attr)
+    '''returns None\n\n
+    initStartOffsetAttrs(final MboRemote linearMbo, final String attr)\n
     '''
 def initEndOffsetAttrs():
-    '''public void initEndOffsetAttrs(final MboRemote linearMbo, final String attr)
+    '''returns None\n\n
+    initEndOffsetAttrs(final MboRemote linearMbo, final String attr)\n
     '''
 def setStartOffsetInfo():
-    '''public void setStartOffsetInfo(final MboRemote linearMbo, final String attr)
+    '''returns None\n\n
+    setStartOffsetInfo(final MboRemote linearMbo, final String attr)\n
     '''
 def setEndOffsetInfo():
-    '''public void setEndOffsetInfo(final MboRemote linearMbo, final String attr)
+    '''returns None\n\n
+    setEndOffsetInfo(final MboRemote linearMbo, final String attr)\n
     '''
 def getAssetsBeingMovedFromMultiAssetLocCI():
-    '''public Hashtable getAssetsBeingMovedFromMultiAssetLocCI()
+    '''returns Hashtable\n\n
+    getAssetsBeingMovedFromMultiAssetLocCI()\n
     '''
 def storeAssetsBeingMovedFromMultiAssetLocCI():
-    '''public void storeAssetsBeingMovedFromMultiAssetLocCI(final MboRemote asset)
+    '''returns None\n\n
+    storeAssetsBeingMovedFromMultiAssetLocCI(final MboRemote asset)\n
     '''
 def clearAssetsBeingMovedFromMultiAssetLocCI():
-    '''public void clearAssetsBeingMovedFromMultiAssetLocCI()
+    '''returns None\n\n
+    clearAssetsBeingMovedFromMultiAssetLocCI()\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("ASSET") final MboRemote mbo, final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("ASSET") final MboRemote mbo, final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus)\n
     '''
 def createWorkorder():
-    '''public MboRemote createWorkorder(@WSMboKey("ASSET") final MboRemote mbo, final String jpnum)
+    '''returns MboRemote\n\n
+    createWorkorder(@WSMboKey("ASSET") final MboRemote mbo, final String jpnum)\n
     '''
 def createProblem():
-    '''public MboRemote createProblem(@WSMboKey("ASSET") final MboRemote mbo, final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createProblem(@WSMboKey("ASSET") final MboRemote mbo, final String tickettemplateid)\n
     '''
 def createIncident():
-    '''public MboRemote createIncident(@WSMboKey("ASSET") final MboRemote mbo, final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createIncident(@WSMboKey("ASSET") final MboRemote mbo, final String tickettemplateid)\n
     '''
 def createServiceRequest():
-    '''public MboRemote createServiceRequest(@WSMboKey("ASSET") final MboRemote mbo, final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createServiceRequest(@WSMboKey("ASSET") final MboRemote mbo, final String tickettemplateid)\n
     '''
 def createChange():
-    '''public MboRemote createChange(@WSMboKey("ASSET") final MboRemote mbo, final String jpnum)
+    '''returns MboRemote\n\n
+    createChange(@WSMboKey("ASSET") final MboRemote mbo, final String jpnum)\n
     '''
 def hasActiveRoutes():
-    '''public boolean hasActiveRoutes(@WSMboKey("ASSET") final MboRemote mbo)
+    '''returns boolean\n\n
+    hasActiveRoutes(@WSMboKey("ASSET") final MboRemote mbo)\n
     '''
 def hasActiveSP():
-    '''public boolean hasActiveSP(@WSMboKey("ASSET") final MboRemote mbo)
+    '''returns boolean\n\n
+    hasActiveSP(@WSMboKey("ASSET") final MboRemote mbo)\n
     '''
 def hasActivePM():
-    '''public boolean hasActivePM(@WSMboKey("ASSET") final MboRemote mbo)
+    '''returns boolean\n\n
+    hasActivePM(@WSMboKey("ASSET") final MboRemote mbo)\n
     '''
 def uploadObservation():
-    '''public String uploadObservation(final OslcRequest request)
+    '''returns String\n\n
+    uploadObservation(final OslcRequest request)\n
     '''

@@ -4,8 +4,6 @@ CTRL_MERGE_RB = "String  \"session_type_selection_rb_merge\""
 CTRL_UPDATE_RB = "String  \"session_type_selection_rb_update\""
 CTRL_EXPORT_RB = "String  \"session_type_selection_rb_export\""
 def initialize():
-    '''public void initialize()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    initialize()\n
     '''

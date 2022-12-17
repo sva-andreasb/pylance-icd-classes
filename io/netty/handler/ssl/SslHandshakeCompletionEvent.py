@@ -1,3 +1,4 @@
-def SslHandshakeCompletionEvent():
-    '''public SslHandshakeCompletionEvent(final Throwable cause)
+def ():
+    '''returns SslHandshakeCompletionEvent\n\n
+    (final Throwable cause)\n
     '''

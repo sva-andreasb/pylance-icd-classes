@@ -1,31 +1,38 @@
-def NodeToTriplesMap():
-    '''public NodeToTriplesMap(final Triple.Field indexField, final Triple.Field f2, final Triple.Field f3)
+def ():
+    '''returns OpenSetBunch\n\n
+    (final Triple.Field indexField, final Triple.Field f2, final Triple.Field f3)\n
+    ()\n
     '''
 def add():
-    '''public boolean add(final Triple t)
+    '''returns boolean\n\n
+    add(final Triple t)\n
     '''
 def remove():
-    '''public boolean remove(final Triple t)
+    '''returns boolean\n\n
+    remove(final Triple t)\n
     '''
 def iterator():
-    '''public ExtendedIterator<Triple> iterator(final Object o, final HashCommon.NotifyEmpty container)
-    public ExtendedIterator<Triple> iterator(final Node index, final Node n2, final Node n3)
+    '''returns ExtendedIterator<Triple>\n\n
+    iterator(final Object o, final HashCommon.NotifyEmpty container)\n
+    iterator(final Node index, final Node n2, final Node n3)\n
     '''
 def contains():
-    '''public boolean contains(final Triple t)
+    '''returns boolean\n\n
+    contains(final Triple t)\n
     '''
 def containsBySameValueAs():
-    '''public boolean containsBySameValueAs(final Triple t)
+    '''returns boolean\n\n
+    containsBySameValueAs(final Triple t)\n
     '''
 def iterateAll():
-    '''public ExtendedIterator<Triple> iterateAll(final Triple pattern)
+    '''returns ExtendedIterator<Triple>\n\n
+    iterateAll(final Triple pattern)\n
     '''
 def iteratorForIndexed():
-    '''public Iterator<Triple> iteratorForIndexed(final Object y)
-    '''
-def OpenSetBunch():
-    '''public OpenSetBunch()
+    '''returns Iterator<Triple>\n\n
+    iteratorForIndexed(final Object y)\n
     '''
 def baseSet():
-    '''public Set<Triple> baseSet()
+    '''returns Set<Triple>\n\n
+    baseSet()\n
     '''

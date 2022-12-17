@@ -1,6 +1,8 @@
-def Messages_sv():
-    '''public Messages_sv()
+def ():
+    '''returns Messages_sv\n\n
+    ()\n
     '''
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

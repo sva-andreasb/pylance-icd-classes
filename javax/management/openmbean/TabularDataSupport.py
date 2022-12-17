@@ -1,64 +1,83 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object o)
-    public boolean containsKey(final Object[] a)
+    '''returns boolean\n\n
+    containsKey(final Object o)\n
+    containsKey(final Object[] a)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object o)
-    public boolean containsValue(final CompositeData compositeData)
+    '''returns boolean\n\n
+    containsValue(final Object o)\n
+    containsValue(final CompositeData compositeData)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def values():
-    '''public Collection values()
+    '''returns Collection\n\n
+    values()\n
     '''
 def putAll():
-    '''public void putAll(final Map map)
-    public void putAll(final CompositeData[] array)
+    '''returns None\n\n
+    putAll(final Map map)\n
+    putAll(final CompositeData[] array)\n
     '''
 def entrySet():
-    '''public Set entrySet()
+    '''returns Set\n\n
+    entrySet()\n
     '''
 def keySet():
-    '''public Set keySet()
+    '''returns Set\n\n
+    keySet()\n
     '''
 def put():
-    '''public void put(final CompositeData compositeData)
-    public Object put(final Object o, final Object o2)
+    '''returns Object\n\n
+    put(final CompositeData compositeData)\n
+    put(final Object o, final Object o2)\n
     '''
 def getTabularType():
-    '''public TabularType getTabularType()
+    '''returns TabularType\n\n
+    getTabularType()\n
     '''
-def TabularDataSupport():
-    '''public TabularDataSupport(final TabularType tabularType)
-    public TabularDataSupport(final TabularType tabularType, final int initialCapacity, final float loadFactor)
+def ():
+    '''returns TabularDataSupport\n\n
+    (final TabularType tabularType)\n
+    (final TabularType tabularType, final int initialCapacity, final float loadFactor)\n
     '''
 def get():
-    '''public Object get(final Object o)
-    public CompositeData get(final Object[] a)
+    '''returns CompositeData\n\n
+    get(final Object o)\n
+    get(final Object[] a)\n
     '''
 def remove():
-    '''public Object remove(final Object o)
-    public CompositeData remove(final Object[] a)
+    '''returns CompositeData\n\n
+    remove(final Object o)\n
+    remove(final Object[] a)\n
     '''
 def calculateIndex():
-    '''public Object[] calculateIndex(final CompositeData compositeData)
+    '''returns Object[]\n\n
+    calculateIndex(final CompositeData compositeData)\n
     '''

@@ -1,21 +1,28 @@
-def SKDAvailability():
-    '''public SKDAvailability()
+def ():
+    '''returns SKDAvailability\n\n
+    ()\n
     '''
 def setAssetAvailabilityInfo():
-    '''public void setAssetAvailabilityInfo(final SKDAvailabilityInfo ai)
+    '''returns None\n\n
+    setAssetAvailabilityInfo(final SKDAvailabilityInfo ai)\n
     '''
 def getAssetAvailabilityInfo():
-    '''public SKDAvailabilityInfo getAssetAvailabilityInfo()
+    '''returns SKDAvailabilityInfo\n\n
+    getAssetAvailabilityInfo()\n
     '''
 def setLocationAvailabilityInfo():
-    '''public void setLocationAvailabilityInfo(final SKDAvailabilityInfo ai)
+    '''returns None\n\n
+    setLocationAvailabilityInfo(final SKDAvailabilityInfo ai)\n
     '''
 def getLocationAvailabilityInfo():
-    '''public SKDAvailabilityInfo getLocationAvailabilityInfo()
+    '''returns SKDAvailabilityInfo\n\n
+    getLocationAvailabilityInfo()\n
     '''
 def getAssetDownTime():
-    '''public boolean getAssetDownTime()
+    '''returns boolean\n\n
+    getAssetDownTime()\n
     '''
 def setAssetDownTime():
-    '''public void setAssetDownTime(final boolean flag)
+    '''returns None\n\n
+    setAssetDownTime(final boolean flag)\n
     '''

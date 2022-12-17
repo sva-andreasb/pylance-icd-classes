@@ -1,4 +1,5 @@
 def load():
-    '''public List load(final Connection con)
-    public List load(final Connection con, final String domainIdInput)
+    '''returns List\n\n
+    load(final Connection con)\n
+    load(final Connection con, final String domainIdInput)\n
     '''

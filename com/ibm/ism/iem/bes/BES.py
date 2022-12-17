@@ -1,14 +1,18 @@
 def isSkipUI():
-    '''public Boolean isSkipUI()
-    public Boolean isSkipUI()
+    '''returns Boolean\n\n
+    isSkipUI()\n
+    isSkipUI()\n
     '''
 def setSkipUI():
-    '''public void setSkipUI(final Boolean value)
-    public void setSkipUI(final Boolean value)
+    '''returns None\n\n
+    setSkipUI(final Boolean value)\n
+    setSkipUI(final Boolean value)\n
     '''
 def getMasthead():
-    '''public String getMasthead()
+    '''returns String\n\n
+    getMasthead()\n
     '''
 def setMasthead():
-    '''public void setMasthead(final String value)
+    '''returns None\n\n
+    setMasthead(final String value)\n
     '''

@@ -1,24 +1,32 @@
-def VMMSynchronizerSettings():
-    '''public VMMSynchronizerSettings()
+def ():
+    '''returns VMMSynchronizerSettings\n\n
+    ()\n
     '''
 def getAdapterClassName():
-    '''public String getAdapterClassName()
+    '''returns String\n\n
+    getAdapterClassName()\n
     '''
 def setAdapterClassName():
-    '''public void setAdapterClassName(final String string)
+    '''returns None\n\n
+    setAdapterClassName(final String string)\n
     '''
 def getSynchronizerClassName():
-    '''public String getSynchronizerClassName()
+    '''returns String\n\n
+    getSynchronizerClassName()\n
     '''
 def setSynchronizerClassName():
-    '''public void setSynchronizerClassName(final String string)
+    '''returns None\n\n
+    setSynchronizerClassName(final String string)\n
     '''
 def getChangePolling():
-    '''public boolean getChangePolling()
+    '''returns boolean\n\n
+    getChangePolling()\n
     '''
 def setChangePolling():
-    '''public void setChangePolling(final String value)
+    '''returns None\n\n
+    setChangePolling(final String value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

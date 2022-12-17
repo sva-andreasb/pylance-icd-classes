@@ -1,3 +1,4 @@
 def preview():
-    '''public int preview()
+    '''returns int\n\n
+    preview()\n
     '''

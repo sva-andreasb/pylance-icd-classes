@@ -1,3 +1,4 @@
 def parse():
-    '''public MessageEvent parse(final XmlPullParser parser, final int initialDepth)
+    '''returns MessageEvent\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

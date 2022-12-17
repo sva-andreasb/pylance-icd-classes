@@ -1,3 +1,4 @@
 def retryRequest():
-    '''public boolean retryRequest(final IOException exception, final int executionCount, final HttpContext context)
+    '''returns boolean\n\n
+    retryRequest(final IOException exception, final int executionCount, final HttpContext context)\n
     '''

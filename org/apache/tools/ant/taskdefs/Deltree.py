@@ -1,6 +1,8 @@
 def setDir():
-    '''public void setDir(final File dir)
+    '''returns None\n\n
+    setDir(final File dir)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

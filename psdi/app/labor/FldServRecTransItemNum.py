@@ -1,3 +1,4 @@
-def FldServRecTransItemNum():
-    '''public FldServRecTransItemNum(final MboValue mbv)
+def ():
+    '''returns FldServRecTransItemNum\n\n
+    (final MboValue mbv)\n
     '''

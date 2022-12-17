@@ -1,42 +1,49 @@
 ANCHOR = "String  \"anchor\""
-def Anchor():
-    '''public Anchor()
-    public Anchor(final float leading)
-    public Anchor(final Chunk chunk)
-    public Anchor(final String string)
-    public Anchor(final String string, final Font font)
-    public Anchor(final float leading, final Chunk chunk)
-    public Anchor(final float leading, final String string)
-    public Anchor(final float leading, final String string, final Font font)
-    public Anchor(final Properties attributes)
+def ():
+    '''returns Anchor\n\n
+    ()\n
+    (final float leading)\n
+    (final Chunk chunk)\n
+    (final String string)\n
+    (final String string, final Font font)\n
+    (final float leading, final Chunk chunk)\n
+    (final float leading, final String string)\n
+    (final float leading, final String string, final Font font)\n
+    (final Properties attributes)\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getElements():
-    '''public Iterator getElements()
+    '''returns Iterator\n\n
+    getElements()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setReference():
-    '''public void setReference(final String reference)
+    '''returns None\n\n
+    setReference(final String reference)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def reference():
-    '''public String reference()
+    '''returns String\n\n
+    reference()\n
     '''
 def url():
-    '''public URL url()
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns URL\n\n
+    url()\n
     '''

@@ -1,9 +1,12 @@
 def param():
-    '''public JVar param(final String name)
+    '''returns JVar\n\n
+    param(final String name)\n
     '''
 def body():
-    '''public JBlock body()
+    '''returns JBlock\n\n
+    body()\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''

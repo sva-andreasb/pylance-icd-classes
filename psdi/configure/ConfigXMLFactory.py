@@ -1,10 +1,12 @@
-def ConfigXMLFactory():
-    '''public ConfigXMLFactory()
-    public ConfigXMLFactory(final String subdir)
+def ():
+    '''returns ConfigXMLFactory\n\n
+    ()\n
+    (final String subdir)\n
     '''
 def element():
-    '''public Element element(final String name, final Namespace namespace)
-    public Element element(final String name)
-    public Element element(final String name, final String uri)
-    public Element element(final String name, final String prefix, final String uri)
+    '''returns Element\n\n
+    element(final String name, final Namespace namespace)\n
+    element(final String name)\n
+    element(final String name, final String uri)\n
+    element(final String name, final String prefix, final String uri)\n
     '''

@@ -1,42 +1,52 @@
 def create():
-    '''public EObject create(final EClass eClass)
+    '''returns EObject\n\n
+    create(final EClass eClass)\n
     '''
 def createFromString():
-    '''public Object createFromString(final EDataType eDataType, final String initialValue)
+    '''returns Object\n\n
+    createFromString(final EDataType eDataType, final String initialValue)\n
     '''
 def convertToString():
-    '''public String convertToString(final EDataType eDataType, final Object instanceValue)
+    '''returns String\n\n
+    convertToString(final EDataType eDataType, final Object instanceValue)\n
     '''
 def createGenModel():
-    '''public GenModel createGenModel()
+    '''returns GenModel\n\n
+    createGenModel()\n
     '''
 def createGenPackage():
-    '''public GenPackage createGenPackage()
+    '''returns GenPackage\n\n
+    createGenPackage()\n
     '''
 def createGenClass():
-    '''public GenClass createGenClass()
+    '''returns GenClass\n\n
+    createGenClass()\n
     '''
 def createGenFeature():
-    '''public GenFeature createGenFeature()
+    '''returns GenFeature\n\n
+    createGenFeature()\n
     '''
 def createGenEnum():
-    '''public GenEnum createGenEnum()
+    '''returns GenEnum\n\n
+    createGenEnum()\n
     '''
 def createGenEnumLiteral():
-    '''public GenEnumLiteral createGenEnumLiteral()
+    '''returns GenEnumLiteral\n\n
+    createGenEnumLiteral()\n
     '''
 def createGenDataType():
-    '''public GenDataType createGenDataType()
+    '''returns GenDataType\n\n
+    createGenDataType()\n
     '''
 def createGenOperation():
-    '''public GenOperation createGenOperation()
+    '''returns GenOperation\n\n
+    createGenOperation()\n
     '''
 def createGenParameter():
-    '''public GenParameter createGenParameter()
+    '''returns GenParameter\n\n
+    createGenParameter()\n
     '''
 def getGenModelPackage():
-    '''public GenModelPackage getGenModelPackage()
-    '''
-def getPackage():
-    '''public static GenModelPackage getPackage()
+    '''returns GenModelPackage\n\n
+    getGenModelPackage()\n
     '''

@@ -1,27 +1,36 @@
-def MaxUserSet():
-    '''public MaxUserSet(final MboServerInterface ms)
+def ():
+    '''returns MaxUserSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getMaxGroupAdminWhereMain():
-    '''public String getMaxGroupAdminWhereMain()
+    '''returns String\n\n
+    getMaxGroupAdminWhereMain()\n
     '''
 def getMaxGroupAdminWhereSiteSubselect():
-    '''public String getMaxGroupAdminWhereSiteSubselect()
+    '''returns String\n\n
+    getMaxGroupAdminWhereSiteSubselect()\n
     '''
 def setIsLookup():
-    '''public void setIsLookup(final boolean is)
+    '''returns None\n\n
+    setIsLookup(final boolean is)\n
     '''
 def isLookup():
-    '''public boolean isLookup()
+    '''returns boolean\n\n
+    isLookup()\n
     '''
 def isESigNeeded():
-    '''public boolean isESigNeeded(String optionName)
+    '''returns boolean\n\n
+    isESigNeeded(String optionName)\n
     '''
 def addUserToReloadList():
-    '''public void addUserToReloadList(final String user, final String action)
+    '''returns None\n\n
+    addUserToReloadList(final String user, final String action)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

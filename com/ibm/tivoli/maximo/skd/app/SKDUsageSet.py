@@ -1,3 +1,4 @@
-def SKDUsageSet():
-    '''public SKDUsageSet(final MboServerInterface ms)
+def ():
+    '''returns SKDUsageSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,0 +1,3 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(((FullDerivationSet$1.class$org$apache$xmlbeans$impl$xb$xsdschema$FullDerivationSet$Member2 == null) ? (FullDerivationSet$1.class$org$apache$xmlbeans$impl$xb$xsdschema$FullDerivationSet$Member2 = FullDerivationSet$1.class$(\"org.apache.xmlbeans.impl.xb.xsdschema.FullDerivationSet$Member2\")) : FullDerivationSet$1.class$org$apache$xmlbeans$impl$xb$xsdschema$FullDerivationSet$Member2).getClassLoader(), \"schemaorg_apache_xmlbeans.system.sXMLSCHEMA\").resolveHandle(\"anonc683type\")"
+ALL = "Enum  Enum.forString(\"#all\")"
+INT_ALL = "int  1"

@@ -1,91 +1,101 @@
-def ArchiveDescriptor():
-    '''public ArchiveDescriptor()
-    public ArchiveDescriptor(final Calendar asOfTime, final String burstKey, final String defaultDescription, final String defaultName, final Calendar executionTime, final String filename, final Option[] options, final ParameterValue[] parameters, final SearchPathSingleObject reportSearchPath, final Guid reportStoreID, final SearchPathSingleObject reportViewSearchPath, final Guid reportViewStoreID)
+def ():
+    '''returns ArchiveDescriptor\n\n
+    ()\n
+    (final Calendar asOfTime, final String burstKey, final String defaultDescription, final String defaultName, final Calendar executionTime, final String filename, final Option[] options, final ParameterValue[] parameters, final SearchPathSingleObject reportSearchPath, final Guid reportStoreID, final SearchPathSingleObject reportViewSearchPath, final Guid reportViewStoreID)\n
     '''
 def getAsOfTime():
-    '''public Calendar getAsOfTime()
+    '''returns Calendar\n\n
+    getAsOfTime()\n
     '''
 def setAsOfTime():
-    '''public void setAsOfTime(final Calendar asOfTime)
+    '''returns None\n\n
+    setAsOfTime(final Calendar asOfTime)\n
     '''
 def getBurstKey():
-    '''public String getBurstKey()
+    '''returns String\n\n
+    getBurstKey()\n
     '''
 def setBurstKey():
-    '''public void setBurstKey(final String burstKey)
+    '''returns None\n\n
+    setBurstKey(final String burstKey)\n
     '''
 def getDefaultDescription():
-    '''public String getDefaultDescription()
+    '''returns String\n\n
+    getDefaultDescription()\n
     '''
 def setDefaultDescription():
-    '''public void setDefaultDescription(final String defaultDescription)
+    '''returns None\n\n
+    setDefaultDescription(final String defaultDescription)\n
     '''
 def getDefaultName():
-    '''public String getDefaultName()
+    '''returns String\n\n
+    getDefaultName()\n
     '''
 def setDefaultName():
-    '''public void setDefaultName(final String defaultName)
+    '''returns None\n\n
+    setDefaultName(final String defaultName)\n
     '''
 def getExecutionTime():
-    '''public Calendar getExecutionTime()
+    '''returns Calendar\n\n
+    getExecutionTime()\n
     '''
 def setExecutionTime():
-    '''public void setExecutionTime(final Calendar executionTime)
+    '''returns None\n\n
+    setExecutionTime(final Calendar executionTime)\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''
 def setFilename():
-    '''public void setFilename(final String filename)
+    '''returns None\n\n
+    setFilename(final String filename)\n
     '''
 def getOptions():
-    '''public Option[] getOptions()
+    '''returns Option[]\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final Option[] options)
+    '''returns None\n\n
+    setOptions(final Option[] options)\n
     '''
 def getParameters():
-    '''public ParameterValue[] getParameters()
+    '''returns ParameterValue[]\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ParameterValue[] parameters)
+    '''returns None\n\n
+    setParameters(final ParameterValue[] parameters)\n
     '''
 def getReportSearchPath():
-    '''public SearchPathSingleObject getReportSearchPath()
+    '''returns SearchPathSingleObject\n\n
+    getReportSearchPath()\n
     '''
 def setReportSearchPath():
-    '''public void setReportSearchPath(final SearchPathSingleObject reportSearchPath)
+    '''returns None\n\n
+    setReportSearchPath(final SearchPathSingleObject reportSearchPath)\n
     '''
 def getReportStoreID():
-    '''public Guid getReportStoreID()
+    '''returns Guid\n\n
+    getReportStoreID()\n
     '''
 def setReportStoreID():
-    '''public void setReportStoreID(final Guid reportStoreID)
+    '''returns None\n\n
+    setReportStoreID(final Guid reportStoreID)\n
     '''
 def getReportViewSearchPath():
-    '''public SearchPathSingleObject getReportViewSearchPath()
+    '''returns SearchPathSingleObject\n\n
+    getReportViewSearchPath()\n
     '''
 def setReportViewSearchPath():
-    '''public void setReportViewSearchPath(final SearchPathSingleObject reportViewSearchPath)
+    '''returns None\n\n
+    setReportViewSearchPath(final SearchPathSingleObject reportViewSearchPath)\n
     '''
 def getReportViewStoreID():
-    '''public Guid getReportViewStoreID()
+    '''returns Guid\n\n
+    getReportViewStoreID()\n
     '''
 def setReportViewStoreID():
-    '''public void setReportViewStoreID(final Guid reportViewStoreID)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setReportViewStoreID(final Guid reportViewStoreID)\n
     '''

@@ -1,89 +1,113 @@
 ORACLEDB = "int  1"
 SQLSERVERDB = "int  2"
 DB2DB = "int  3"
-def QbeFilter():
-    '''public QbeFilter(final MboSet set)
-    public QbeFilter(final MboSetInfo ms, final UserInfo userInfo)
-    public QbeFilter(final MboSetInfo ms, final boolean processML, final UserInfo userInfo)
-    public QbeFilter(final MboSetInfo ms, final Locale l, final TimeZone tz, final boolean ml, final UserInfo userInfo)
+def ():
+    '''returns AttributeExpressions\n\n
+    (final MboSet set)\n
+    (final MboSetInfo ms, final UserInfo userInfo)\n
+    (final MboSetInfo ms, final boolean processML, final UserInfo userInfo)\n
+    (final MboSetInfo ms, final Locale l, final TimeZone tz, final boolean ml, final UserInfo userInfo)\n
+    (final String attrStrg)\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attrName, final String expr)
+    '''returns None\n\n
+    setQbe(final String attrName, final String expr)\n
     '''
 def getQbe():
-    '''public String getQbe(final String attrName)
-    public String[][] getQbe()
+    '''returns String[][]\n\n
+    getQbe(final String attrName)\n
+    getQbe()\n
     '''
 def hasQbe():
-    '''public boolean hasQbe()
+    '''returns boolean\n\n
+    hasQbe()\n
     '''
 def satisfy():
-    '''public boolean satisfy(final MboRemote mbo)
-    public boolean satisfy(final MboRemote mbo)
+    '''returns boolean\n\n
+    satisfy(final MboRemote mbo)\n
+    satisfy(final MboRemote mbo)\n
     '''
 def setQbeExactMatch():
-    '''public void setQbeExactMatch(final boolean state)
+    '''returns None\n\n
+    setQbeExactMatch(final boolean state)\n
     '''
 def setQbeCaseSensitive():
-    '''public void setQbeCaseSensitive(final boolean state)
+    '''returns None\n\n
+    setQbeCaseSensitive(final boolean state)\n
     '''
 def setOperatorOr():
-    '''public void setOperatorOr()
+    '''returns None\n\n
+    setOperatorOr()\n
     '''
 def isUsingQbeExactMatch():
-    '''public boolean isUsingQbeExactMatch()
+    '''returns boolean\n\n
+    isUsingQbeExactMatch()\n
     '''
 def ignoreQbeExactMatchSet():
-    '''public void ignoreQbeExactMatchSet(final boolean flag)
+    '''returns None\n\n
+    ignoreQbeExactMatchSet(final boolean flag)\n
     '''
 def isIgnoreQbeExactMatchSet():
-    '''public boolean isIgnoreQbeExactMatchSet()
-    '''
-def AttributeExpressions():
-    '''public AttributeExpressions(final String attrStrg)
+    '''returns boolean\n\n
+    isIgnoreQbeExactMatchSet()\n
     '''
 def setValue():
-    '''public void setValue(final String val)
+    '''returns None\n\n
+    setValue(final String val)\n
     '''
 def isWildCardPresentAtFirst():
-    '''public boolean isWildCardPresentAtFirst(final String expr)
+    '''returns boolean\n\n
+    isWildCardPresentAtFirst(final String expr)\n
     '''
 def isWildCardPresentAtLast():
-    '''public boolean isWildCardPresentAtLast(final String expr)
+    '''returns boolean\n\n
+    isWildCardPresentAtLast(final String expr)\n
     '''
 def isWildCardPresent():
-    '''public boolean isWildCardPresent(final String expr)
+    '''returns boolean\n\n
+    isWildCardPresent(final String expr)\n
     '''
 def getGuiFieldName():
-    '''public String getGuiFieldName()
+    '''returns String\n\n
+    getGuiFieldName()\n
     '''
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def getAttribute():
-    '''public String getAttribute()
+    '''returns String\n\n
+    getAttribute()\n
     '''
 def getPrepend():
-    '''public String getPrepend()
+    '''returns String\n\n
+    getPrepend()\n
     '''
 def getQbeKey():
-    '''public String getQbeKey()
+    '''returns String\n\n
+    getQbeKey()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setUnparsedValue():
-    '''public void setUnparsedValue(final String val)
+    '''returns None\n\n
+    setUnparsedValue(final String val)\n
     '''
 def setWhereQbe():
-    '''public void setWhereQbe(final boolean isWhereWbe)
+    '''returns None\n\n
+    setWhereQbe(final boolean isWhereWbe)\n
     '''
 def getWhereSnippet():
-    '''public String getWhereSnippet(final String alias)
+    '''returns String\n\n
+    getWhereSnippet(final String alias)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

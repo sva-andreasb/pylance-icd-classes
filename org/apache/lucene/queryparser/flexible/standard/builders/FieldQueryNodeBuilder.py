@@ -1,3 +1,4 @@
 def build():
-    '''public TermQuery build(final QueryNode queryNode)
+    '''returns TermQuery\n\n
+    build(final QueryNode queryNode)\n
     '''

@@ -1,12 +1,15 @@
-def InvalidAttributeNameException():
-    '''public InvalidAttributeNameException(final String[] attributePath)
-    public InvalidAttributeNameException(final String[] attributePath, final Exception cause)
-    public InvalidAttributeNameException(final String attributeName)
-    public InvalidAttributeNameException(final String attributeName, final Exception cause)
+def ():
+    '''returns InvalidAttributeNameException\n\n
+    (final String[] attributePath)\n
+    (final String[] attributePath, final Exception cause)\n
+    (final String attributeName)\n
+    (final String attributeName, final Exception cause)\n
     '''
 def getAttributePath():
-    '''public String[] getAttributePath()
+    '''returns String[]\n\n
+    getAttributePath()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

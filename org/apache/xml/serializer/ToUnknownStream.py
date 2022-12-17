@@ -1,217 +1,287 @@
-def ToUnknownStream():
-    '''public ToUnknownStream()
+def ():
+    '''returns ToUnknownStream\n\n
+    ()\n
     '''
 def asContentHandler():
-    '''public ContentHandler asContentHandler()
+    '''returns ContentHandler\n\n
+    asContentHandler()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getOutputFormat():
-    '''public Properties getOutputFormat()
+    '''returns Properties\n\n
+    getOutputFormat()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getWriter():
-    '''public Writer getWriter()
+    '''returns Writer\n\n
+    getWriter()\n
     '''
 def reset():
-    '''public boolean reset()
+    '''returns boolean\n\n
+    reset()\n
     '''
 def serialize():
-    '''public void serialize(final Node node)
+    '''returns None\n\n
+    serialize(final Node node)\n
     '''
 def setEscaping():
-    '''public boolean setEscaping(final boolean escape)
+    '''returns boolean\n\n
+    setEscaping(final boolean escape)\n
     '''
 def setOutputFormat():
-    '''public void setOutputFormat(final Properties format)
+    '''returns None\n\n
+    setOutputFormat(final Properties format)\n
     '''
 def setOutputStream():
-    '''public void setOutputStream(final OutputStream output)
+    '''returns None\n\n
+    setOutputStream(final OutputStream output)\n
     '''
 def setWriter():
-    '''public void setWriter(final Writer writer)
+    '''returns None\n\n
+    setWriter(final Writer writer)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String uri, final String localName, final String rawName, final String type, final String value, final boolean XSLAttribute)
-    public void addAttribute(final String rawName, final String value)
+    '''returns None\n\n
+    addAttribute(final String uri, final String localName, final String rawName, final String type, final String value, final boolean XSLAttribute)\n
+    addAttribute(final String rawName, final String value)\n
     '''
 def addUniqueAttribute():
-    '''public void addUniqueAttribute(final String rawName, final String value, final int flags)
+    '''returns None\n\n
+    addUniqueAttribute(final String rawName, final String value, final int flags)\n
     '''
 def characters():
-    '''public void characters(final String chars)
-    public void characters(final char[] characters, final int offset, final int length)
+    '''returns None\n\n
+    characters(final String chars)\n
+    characters(final char[] characters, final int offset, final int length)\n
     '''
 def endElement():
-    '''public void endElement(final String elementName)
-    public void endElement(String namespaceURI, String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String elementName)\n
+    endElement(String namespaceURI, String localName, final String qName)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri)
-    public boolean startPrefixMapping(final String prefix, final String uri, final boolean shouldFlush)
+    '''returns boolean\n\n
+    startPrefixMapping(final String prefix, final String uri)\n
+    startPrefixMapping(final String prefix, final String uri, final boolean shouldFlush)\n
     '''
 def namespaceAfterStartElement():
-    '''public void namespaceAfterStartElement(final String prefix, final String uri)
+    '''returns None\n\n
+    namespaceAfterStartElement(final String prefix, final String uri)\n
     '''
 def setVersion():
-    '''public void setVersion(final String version)
+    '''returns None\n\n
+    setVersion(final String version)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String qName)
-    public void startElement(final String namespaceURI, final String localName, final String qName)
-    public void startElement(final String namespaceURI, final String localName, final String elementName, final Attributes atts)
+    '''returns None\n\n
+    startElement(final String qName)\n
+    startElement(final String namespaceURI, final String localName, final String qName)\n
+    startElement(final String namespaceURI, final String localName, final String elementName, final Attributes atts)\n
     '''
 def comment():
-    '''public void comment(final String comment)
-    public void comment(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    comment(final String comment)\n
+    comment(final char[] ch, final int start, final int length)\n
     '''
 def getDoctypePublic():
-    '''public String getDoctypePublic()
+    '''returns String\n\n
+    getDoctypePublic()\n
     '''
 def getDoctypeSystem():
-    '''public String getDoctypeSystem()
+    '''returns String\n\n
+    getDoctypeSystem()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def getIndent():
-    '''public boolean getIndent()
+    '''returns boolean\n\n
+    getIndent()\n
     '''
 def getIndentAmount():
-    '''public int getIndentAmount()
+    '''returns int\n\n
+    getIndentAmount()\n
     '''
 def getMediaType():
-    '''public String getMediaType()
+    '''returns String\n\n
+    getMediaType()\n
     '''
 def getOmitXMLDeclaration():
-    '''public boolean getOmitXMLDeclaration()
+    '''returns boolean\n\n
+    getOmitXMLDeclaration()\n
     '''
 def getStandalone():
-    '''public String getStandalone()
+    '''returns String\n\n
+    getStandalone()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setDoctype():
-    '''public void setDoctype(final String system, final String pub)
+    '''returns None\n\n
+    setDoctype(final String system, final String pub)\n
     '''
 def setDoctypePublic():
-    '''public void setDoctypePublic(final String doctype)
+    '''returns None\n\n
+    setDoctypePublic(final String doctype)\n
     '''
 def setDoctypeSystem():
-    '''public void setDoctypeSystem(final String doctype)
+    '''returns None\n\n
+    setDoctypeSystem(final String doctype)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def setIndent():
-    '''public void setIndent(final boolean indent)
+    '''returns None\n\n
+    setIndent(final boolean indent)\n
     '''
 def setIndentAmount():
-    '''public void setIndentAmount(final int value)
+    '''returns None\n\n
+    setIndentAmount(final int value)\n
     '''
 def setMediaType():
-    '''public void setMediaType(final String mediaType)
+    '''returns None\n\n
+    setMediaType(final String mediaType)\n
     '''
 def setOmitXMLDeclaration():
-    '''public void setOmitXMLDeclaration(final boolean b)
+    '''returns None\n\n
+    setOmitXMLDeclaration(final boolean b)\n
     '''
 def setStandalone():
-    '''public void setStandalone(final String standalone)
+    '''returns None\n\n
+    setStandalone(final String standalone)\n
     '''
 def attributeDecl():
-    '''public void attributeDecl(final String arg0, final String arg1, final String arg2, final String arg3, final String arg4)
+    '''returns None\n\n
+    attributeDecl(final String arg0, final String arg1, final String arg2, final String arg3, final String arg4)\n
     '''
 def elementDecl():
-    '''public void elementDecl(final String arg0, final String arg1)
+    '''returns None\n\n
+    elementDecl(final String arg0, final String arg1)\n
     '''
 def externalEntityDecl():
-    '''public void externalEntityDecl(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    externalEntityDecl(final String name, final String publicId, final String systemId)\n
     '''
 def internalEntityDecl():
-    '''public void internalEntityDecl(final String arg0, final String arg1)
+    '''returns None\n\n
+    internalEntityDecl(final String arg0, final String arg1)\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] ch, final int start, final int length)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String data)
+    '''returns None\n\n
+    processingInstruction(final String target, final String data)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''
 def skippedEntity():
-    '''public void skippedEntity(final String name)
+    '''returns None\n\n
+    skippedEntity(final String name)\n
     '''
 def endCDATA():
-    '''public void endCDATA()
+    '''returns None\n\n
+    endCDATA()\n
     '''
 def endDTD():
-    '''public void endDTD()
+    '''returns None\n\n
+    endDTD()\n
     '''
 def endEntity():
-    '''public void endEntity(final String name)
+    '''returns None\n\n
+    endEntity(final String name)\n
     '''
 def startCDATA():
-    '''public void startCDATA()
+    '''returns None\n\n
+    startCDATA()\n
     '''
 def startDTD():
-    '''public void startDTD(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    startDTD(final String name, final String publicId, final String systemId)\n
     '''
 def startEntity():
-    '''public void startEntity(final String name)
+    '''returns None\n\n
+    startEntity(final String name)\n
     '''
 def asDOMSerializer():
-    '''public DOMSerializer asDOMSerializer()
+    '''returns DOMSerializer\n\n
+    asDOMSerializer()\n
     '''
 def setCdataSectionElements():
-    '''public void setCdataSectionElements(final Vector URI_and_localNames)
+    '''returns None\n\n
+    setCdataSectionElements(final Vector URI_and_localNames)\n
     '''
 def addAttributes():
-    '''public void addAttributes(final Attributes atts)
+    '''returns None\n\n
+    addAttributes(final Attributes atts)\n
     '''
 def getNamespaceMappings():
-    '''public NamespaceMappings getNamespaceMappings()
+    '''returns NamespaceMappings\n\n
+    getNamespaceMappings()\n
     '''
 def flushPending():
-    '''public void flushPending()
+    '''returns None\n\n
+    flushPending()\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String namespaceURI)
+    '''returns String\n\n
+    getPrefix(final String namespaceURI)\n
     '''
 def entityReference():
-    '''public void entityReference(final String entityName)
+    '''returns None\n\n
+    entityReference(final String entityName)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI(final String qname, final boolean isElement)
+    '''returns String\n\n
+    getNamespaceURI(final String qname, final boolean isElement)\n
     '''
 def getNamespaceURIFromPrefix():
-    '''public String getNamespaceURIFromPrefix(final String prefix)
+    '''returns String\n\n
+    getNamespaceURIFromPrefix(final String prefix)\n
     '''
 def setTransformer():
-    '''public void setTransformer(final Transformer t)
+    '''returns None\n\n
+    setTransformer(final Transformer t)\n
     '''
 def getTransformer():
-    '''public Transformer getTransformer()
+    '''returns Transformer\n\n
+    getTransformer()\n
     '''
 def setContentHandler():
-    '''public void setContentHandler(final ContentHandler ch)
+    '''returns None\n\n
+    setContentHandler(final ContentHandler ch)\n
     '''
 def setSourceLocator():
-    '''public void setSourceLocator(final SourceLocator locator)
+    '''returns None\n\n
+    setSourceLocator(final SourceLocator locator)\n
     '''
 def asDOM3Serializer():
-    '''public Object asDOM3Serializer()
+    '''returns Object\n\n
+    asDOM3Serializer()\n
     '''

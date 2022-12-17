@@ -1,100 +1,132 @@
 def setAWSAccountId():
-    '''public void setAWSAccountId(final String aWSAccountId)
+    '''returns None\n\n
+    setAWSAccountId(final String aWSAccountId)\n
     '''
 def getAWSAccountId():
-    '''public String getAWSAccountId()
+    '''returns String\n\n
+    getAWSAccountId()\n
     '''
 def withAWSAccountId():
-    '''public KeyMetadata withAWSAccountId(final String aWSAccountId)
+    '''returns KeyMetadata\n\n
+    withAWSAccountId(final String aWSAccountId)\n
     '''
 def setKeyId():
-    '''public void setKeyId(final String keyId)
+    '''returns None\n\n
+    setKeyId(final String keyId)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''
 def withKeyId():
-    '''public KeyMetadata withKeyId(final String keyId)
+    '''returns KeyMetadata\n\n
+    withKeyId(final String keyId)\n
     '''
 def setArn():
-    '''public void setArn(final String arn)
+    '''returns None\n\n
+    setArn(final String arn)\n
     '''
 def getArn():
-    '''public String getArn()
+    '''returns String\n\n
+    getArn()\n
     '''
 def withArn():
-    '''public KeyMetadata withArn(final String arn)
+    '''returns KeyMetadata\n\n
+    withArn(final String arn)\n
     '''
 def setCreationDate():
-    '''public void setCreationDate(final Date creationDate)
+    '''returns None\n\n
+    setCreationDate(final Date creationDate)\n
     '''
 def getCreationDate():
-    '''public Date getCreationDate()
+    '''returns Date\n\n
+    getCreationDate()\n
     '''
 def withCreationDate():
-    '''public KeyMetadata withCreationDate(final Date creationDate)
+    '''returns KeyMetadata\n\n
+    withCreationDate(final Date creationDate)\n
     '''
 def setEnabled():
-    '''public void setEnabled(final Boolean enabled)
+    '''returns None\n\n
+    setEnabled(final Boolean enabled)\n
     '''
 def getEnabled():
-    '''public Boolean getEnabled()
+    '''returns Boolean\n\n
+    getEnabled()\n
     '''
 def withEnabled():
-    '''public KeyMetadata withEnabled(final Boolean enabled)
+    '''returns KeyMetadata\n\n
+    withEnabled(final Boolean enabled)\n
     '''
 def isEnabled():
-    '''public Boolean isEnabled()
+    '''returns Boolean\n\n
+    isEnabled()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def withDescription():
-    '''public KeyMetadata withDescription(final String description)
+    '''returns KeyMetadata\n\n
+    withDescription(final String description)\n
     '''
 def setKeyUsage():
-    '''public void setKeyUsage(final String keyUsage)
-    public void setKeyUsage(final KeyUsageType keyUsage)
+    '''returns None\n\n
+    setKeyUsage(final String keyUsage)\n
+    setKeyUsage(final KeyUsageType keyUsage)\n
     '''
 def getKeyUsage():
-    '''public String getKeyUsage()
+    '''returns String\n\n
+    getKeyUsage()\n
     '''
 def withKeyUsage():
-    '''public KeyMetadata withKeyUsage(final String keyUsage)
-    public KeyMetadata withKeyUsage(final KeyUsageType keyUsage)
+    '''returns KeyMetadata\n\n
+    withKeyUsage(final String keyUsage)\n
+    withKeyUsage(final KeyUsageType keyUsage)\n
     '''
 def setKeyState():
-    '''public void setKeyState(final String keyState)
-    public void setKeyState(final KeyState keyState)
+    '''returns None\n\n
+    setKeyState(final String keyState)\n
+    setKeyState(final KeyState keyState)\n
     '''
 def getKeyState():
-    '''public String getKeyState()
+    '''returns String\n\n
+    getKeyState()\n
     '''
 def withKeyState():
-    '''public KeyMetadata withKeyState(final String keyState)
-    public KeyMetadata withKeyState(final KeyState keyState)
+    '''returns KeyMetadata\n\n
+    withKeyState(final String keyState)\n
+    withKeyState(final KeyState keyState)\n
     '''
 def setDeletionDate():
-    '''public void setDeletionDate(final Date deletionDate)
+    '''returns None\n\n
+    setDeletionDate(final Date deletionDate)\n
     '''
 def getDeletionDate():
-    '''public Date getDeletionDate()
+    '''returns Date\n\n
+    getDeletionDate()\n
     '''
 def withDeletionDate():
-    '''public KeyMetadata withDeletionDate(final Date deletionDate)
+    '''returns KeyMetadata\n\n
+    withDeletionDate(final Date deletionDate)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public KeyMetadata clone()
+    '''returns KeyMetadata\n\n
+    clone()\n
     '''

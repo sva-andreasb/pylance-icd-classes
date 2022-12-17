@@ -1,99 +1,130 @@
-def QueuedThreadPool():
-    '''public QueuedThreadPool()
-    public QueuedThreadPool(final int maxThreads)
-    public QueuedThreadPool(final BlockingQueue<Runnable> jobQ)
+def ():
+    '''returns QueuedThreadPool\n\n
+    ()\n
+    (final int maxThreads)\n
+    (final BlockingQueue<Runnable> jobQ)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def setDaemon():
-    '''public void setDaemon(final boolean daemon)
+    '''returns None\n\n
+    setDaemon(final boolean daemon)\n
     '''
 def setMaxIdleTimeMs():
-    '''public void setMaxIdleTimeMs(final int maxIdleTimeMs)
+    '''returns None\n\n
+    setMaxIdleTimeMs(final int maxIdleTimeMs)\n
     '''
 def setMaxStopTimeMs():
-    '''public void setMaxStopTimeMs(final int stopTimeMs)
+    '''returns None\n\n
+    setMaxStopTimeMs(final int stopTimeMs)\n
     '''
 def setMaxThreads():
-    '''public void setMaxThreads(final int maxThreads)
+    '''returns None\n\n
+    setMaxThreads(final int maxThreads)\n
     '''
 def setMinThreads():
-    '''public void setMinThreads(final int minThreads)
+    '''returns None\n\n
+    setMinThreads(final int minThreads)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setThreadsPriority():
-    '''public void setThreadsPriority(final int priority)
+    '''returns None\n\n
+    setThreadsPriority(final int priority)\n
     '''
 def getMaxQueued():
-    '''public int getMaxQueued()
+    '''returns int\n\n
+    getMaxQueued()\n
     '''
 def setMaxQueued():
-    '''public void setMaxQueued(final int max)
+    '''returns None\n\n
+    setMaxQueued(final int max)\n
     '''
 def getMaxIdleTimeMs():
-    '''public int getMaxIdleTimeMs()
+    '''returns int\n\n
+    getMaxIdleTimeMs()\n
     '''
 def getMaxStopTimeMs():
-    '''public int getMaxStopTimeMs()
+    '''returns int\n\n
+    getMaxStopTimeMs()\n
     '''
 def getMaxThreads():
-    '''public int getMaxThreads()
+    '''returns int\n\n
+    getMaxThreads()\n
     '''
 def getMinThreads():
-    '''public int getMinThreads()
+    '''returns int\n\n
+    getMinThreads()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getThreadsPriority():
-    '''public int getThreadsPriority()
+    '''returns int\n\n
+    getThreadsPriority()\n
     '''
 def isDaemon():
-    '''public boolean isDaemon()
+    '''returns boolean\n\n
+    isDaemon()\n
     '''
 def isDetailedDump():
-    '''public boolean isDetailedDump()
+    '''returns boolean\n\n
+    isDetailedDump()\n
     '''
 def setDetailedDump():
-    '''public void setDetailedDump(final boolean detailedDump)
+    '''returns None\n\n
+    setDetailedDump(final boolean detailedDump)\n
     '''
 def dispatch():
-    '''public boolean dispatch(final Runnable job)
+    '''returns boolean\n\n
+    dispatch(final Runnable job)\n
     '''
 def execute():
-    '''public void execute(final Runnable job)
+    '''returns None\n\n
+    execute(final Runnable job)\n
     '''
 def join():
-    '''public void join()
+    '''returns None\n\n
+    join()\n
     '''
 def getThreads():
-    '''public int getThreads()
+    '''returns int\n\n
+    getThreads()\n
     '''
 def getIdleThreads():
-    '''public int getIdleThreads()
+    '''returns int\n\n
+    getIdleThreads()\n
     '''
 def isLowOnThreads():
-    '''public boolean isLowOnThreads()
+    '''returns boolean\n\n
+    isLowOnThreads()\n
     '''
 def dump():
-    '''public String dump()
-    public void dump(final Appendable out, final String indent)
-    public void dump(final Appendable out, final String indent)
-    public String dump()
+    '''returns String\n\n
+    dump()\n
+    dump(final Appendable out, final String indent)\n
+    dump(final Appendable out, final String indent)\n
+    dump()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def stopThread():
-    '''public boolean stopThread(final long id)
+    '''returns boolean\n\n
+    stopThread(final long id)\n
     '''
 def interruptThread():
-    '''public boolean interruptThread(final long id)
+    '''returns boolean\n\n
+    interruptThread(final long id)\n
     '''
 def dumpThread():
-    '''public String dumpThread(final long id)
+    '''returns String\n\n
+    dumpThread(final long id)\n
     '''

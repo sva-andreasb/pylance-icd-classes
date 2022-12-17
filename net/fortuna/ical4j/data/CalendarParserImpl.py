@@ -1,9 +1,9 @@
-def CalendarParserImpl():
-    '''public CalendarParserImpl()
+def ():
+    '''returns CalendarParserImpl\n\n
+    ()\n
     '''
 def parse():
-    '''public final void parse(final InputStream in, final ContentHandler handler)
-    public final void parse(final Reader in, final ContentHandler handler)
-    public void parse(final StreamTokenizer tokeniser, final Reader in, final ContentHandler handler)
-    public void parse(final StreamTokenizer tokeniser, final Reader in, final ContentHandler handler)
+    '''returns None\n\n
+    parse(final StreamTokenizer tokeniser, final Reader in, final ContentHandler handler)\n
+    parse(final StreamTokenizer tokeniser, final Reader in, final ContentHandler handler)\n
     '''

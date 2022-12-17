@@ -1,12 +1,16 @@
-def DeflateFrameExtension():
-    '''public DeflateFrameExtension()
+def ():
+    '''returns DeflateFrameExtension\n\n
+    ()\n
     '''
 def init():
-    '''public boolean init(final Map<String, String> parameters)
+    '''returns boolean\n\n
+    init(final Map<String, String> parameters)\n
     '''
 def onFrame():
-    '''public void onFrame(final byte flags, final byte opcode, Buffer buffer)
+    '''returns None\n\n
+    onFrame(final byte flags, final byte opcode, Buffer buffer)\n
     '''
 def addFrame():
-    '''public void addFrame(final byte flags, final byte opcode, final byte[] content, final int offset, final int length)
+    '''returns None\n\n
+    addFrame(final byte flags, final byte opcode, final byte[] content, final int offset, final int length)\n
     '''

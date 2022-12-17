@@ -1,3 +1,4 @@
-def PlusPProblemSet():
-    '''public PlusPProblemSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPProblemSet\n\n
+    (final MboServerInterface arg0)\n
     '''

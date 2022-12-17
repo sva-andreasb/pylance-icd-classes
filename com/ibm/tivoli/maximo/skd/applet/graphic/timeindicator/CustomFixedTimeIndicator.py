@@ -1,6 +1,8 @@
-def CustomFixedTimeIndicator():
-    '''public CustomFixedTimeIndicator(final Date dateValue, final IlvGraphic line, final String label)
+def ():
+    '''returns CustomFixedTimeIndicator\n\n
+    (final Date dateValue, final IlvGraphic line, final String label)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText()
+    '''returns String\n\n
+    getToolTipText()\n
     '''

@@ -1,6 +1,4 @@
 def selecttoolsonplans():
-    '''public int selecttoolsonplans()
-    '''
-def dataChangedEvent():
-    '''public synchronized void dataChangedEvent(final DataBean speaker)
+    '''returns int\n\n
+    selecttoolsonplans()\n
     '''

@@ -1,12 +1,16 @@
-def ValuatorSet():
-    '''public ValuatorSet()
+def ():
+    '''returns ValuatorSet\n\n
+    ()\n
     '''
 def isNonTrivial():
-    '''public boolean isNonTrivial()
+    '''returns boolean\n\n
+    isNonTrivial()\n
     '''
 def add():
-    '''public ValuatorSet add(final Valuator e)
+    '''returns ValuatorSet\n\n
+    add(final Valuator e)\n
     '''
 def evalBool():
-    '''public boolean evalBool(final IndexValues vv)
+    '''returns boolean\n\n
+    evalBool(final IndexValues vv)\n
     '''

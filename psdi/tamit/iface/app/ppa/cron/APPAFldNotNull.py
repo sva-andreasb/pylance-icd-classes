@@ -1,6 +1,8 @@
-def APPAFldNotNull():
-    '''public APPAFldNotNull(final MboValue mbv, final String msgKey, final String logMsg)
+def ():
+    '''returns APPAFldNotNull\n\n
+    (final MboValue mbv, final String msgKey, final String logMsg)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

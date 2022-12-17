@@ -1,3 +1,4 @@
-def ViewReportDep():
-    '''public ViewReportDep(final MboSet ms)
+def ():
+    '''returns ViewReportDep\n\n
+    (final MboSet ms)\n
     '''

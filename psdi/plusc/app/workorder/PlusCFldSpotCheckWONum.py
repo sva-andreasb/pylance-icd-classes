@@ -1,3 +1,4 @@
-def PlusCFldSpotCheckWONum():
-    '''public PlusCFldSpotCheckWONum(final MboValue mbv)
+def ():
+    '''returns PlusCFldSpotCheckWONum\n\n
+    (final MboValue mbv)\n
     '''

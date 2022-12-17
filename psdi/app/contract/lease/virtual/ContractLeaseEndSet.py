@@ -1,3 +1,4 @@
-def ContractLeaseEndSet():
-    '''public ContractLeaseEndSet(final MboServerInterface ms)
+def ():
+    '''returns ContractLeaseEndSet\n\n
+    (final MboServerInterface ms)\n
     '''

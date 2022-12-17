@@ -1,20 +1,26 @@
-def DefaultReliabilityStrategy():
-    '''public DefaultReliabilityStrategy(final LoggerConfig loggerConfig)
+def ():
+    '''returns DefaultReliabilityStrategy\n\n
+    (final LoggerConfig loggerConfig)\n
     '''
 def log():
-    '''public void log(final Supplier<LoggerConfig> reconfigured, final String loggerName, final String fqcn, final Marker marker, final Level level, final Message data, final Throwable t)
-    public void log(final Supplier<LoggerConfig> reconfigured, final String loggerName, final String fqcn, final StackTraceElement location, final Marker marker, final Level level, final Message data, final Throwable t)
-    public void log(final Supplier<LoggerConfig> reconfigured, final LogEvent event)
+    '''returns None\n\n
+    log(final Supplier<LoggerConfig> reconfigured, final String loggerName, final String fqcn, final Marker marker, final Level level, final Message data, final Throwable t)\n
+    log(final Supplier<LoggerConfig> reconfigured, final String loggerName, final String fqcn, final StackTraceElement location, final Marker marker, final Level level, final Message data, final Throwable t)\n
+    log(final Supplier<LoggerConfig> reconfigured, final LogEvent event)\n
     '''
 def getActiveLoggerConfig():
-    '''public LoggerConfig getActiveLoggerConfig(final Supplier<LoggerConfig> next)
+    '''returns LoggerConfig\n\n
+    getActiveLoggerConfig(final Supplier<LoggerConfig> next)\n
     '''
 def afterLogEvent():
-    '''public void afterLogEvent()
+    '''returns None\n\n
+    afterLogEvent()\n
     '''
 def beforeStopAppenders():
-    '''public void beforeStopAppenders()
+    '''returns None\n\n
+    beforeStopAppenders()\n
     '''
 def beforeStopConfiguration():
-    '''public void beforeStopConfiguration(final Configuration configuration)
+    '''returns None\n\n
+    beforeStopConfiguration(final Configuration configuration)\n
     '''

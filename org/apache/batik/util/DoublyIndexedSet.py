@@ -1,18 +1,24 @@
-def DoublyIndexedSet():
-    '''public DoublyIndexedSet()
+def ():
+    '''returns DoublyIndexedSet\n\n
+    ()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def add():
-    '''public void add(final Object o1, final Object o2)
+    '''returns None\n\n
+    add(final Object o1, final Object o2)\n
     '''
 def remove():
-    '''public void remove(final Object o1, final Object o2)
+    '''returns None\n\n
+    remove(final Object o1, final Object o2)\n
     '''
 def contains():
-    '''public boolean contains(final Object o1, final Object o2)
+    '''returns boolean\n\n
+    contains(final Object o1, final Object o2)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

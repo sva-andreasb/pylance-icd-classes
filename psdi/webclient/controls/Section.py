@@ -1,36 +1,48 @@
-def Section():
-    '''public Section()
+def ():
+    '''returns Section\n\n
+    ()\n
     '''
 def canInsert():
-    '''public boolean canInsert(final ControlInstance newControl)
+    '''returns boolean\n\n
+    canInsert(final ControlInstance newControl)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def toggleexpand():
-    '''public void toggleexpand()
+    '''returns None\n\n
+    toggleexpand()\n
     '''
 def isExpanded():
-    '''public String isExpanded()
+    '''returns String\n\n
+    isExpanded()\n
     '''
 def hasExpandedChanged():
-    '''public boolean hasExpandedChanged()
+    '''returns boolean\n\n
+    hasExpandedChanged()\n
     '''
 def setExpandedChanged():
-    '''public void setExpandedChanged(final boolean changed)
+    '''returns None\n\n
+    setExpandedChanged(final boolean changed)\n
     '''
 def setDesignerSelected():
-    '''public ControlInstance setDesignerSelected(final boolean selected)
+    '''returns ControlInstance\n\n
+    setDesignerSelected(final boolean selected)\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def setOutertId():
-    '''public void setOutertId(final String id)
+    '''returns None\n\n
+    setOutertId(final String id)\n
     '''
 def getOuterId():
-    '''public String getOuterId()
+    '''returns String\n\n
+    getOuterId()\n
     '''
 def childHasErrorFocus():
-    '''public void childHasErrorFocus()
+    '''returns None\n\n
+    childHasErrorFocus()\n
     '''

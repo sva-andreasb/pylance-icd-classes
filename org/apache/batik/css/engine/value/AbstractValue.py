@@ -1,48 +1,64 @@
 def getCssValueType():
-    '''public short getCssValueType()
+    '''returns short\n\n
+    getCssValueType()\n
     '''
 def getPrimitiveType():
-    '''public short getPrimitiveType()
+    '''returns short\n\n
+    getPrimitiveType()\n
     '''
 def getFloatValue():
-    '''public float getFloatValue()
+    '''returns float\n\n
+    getFloatValue()\n
     '''
 def getStringValue():
-    '''public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
     '''
 def getRed():
-    '''public Value getRed()
+    '''returns Value\n\n
+    getRed()\n
     '''
 def getGreen():
-    '''public Value getGreen()
+    '''returns Value\n\n
+    getGreen()\n
     '''
 def getBlue():
-    '''public Value getBlue()
+    '''returns Value\n\n
+    getBlue()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public Value item(final int index)
+    '''returns Value\n\n
+    item(final int index)\n
     '''
 def getTop():
-    '''public Value getTop()
+    '''returns Value\n\n
+    getTop()\n
     '''
 def getRight():
-    '''public Value getRight()
+    '''returns Value\n\n
+    getRight()\n
     '''
 def getBottom():
-    '''public Value getBottom()
+    '''returns Value\n\n
+    getBottom()\n
     '''
 def getLeft():
-    '''public Value getLeft()
+    '''returns Value\n\n
+    getLeft()\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def getListStyle():
-    '''public String getListStyle()
+    '''returns String\n\n
+    getListStyle()\n
     '''
 def getSeparator():
-    '''public String getSeparator()
+    '''returns String\n\n
+    getSeparator()\n
     '''

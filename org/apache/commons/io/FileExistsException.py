@@ -1,5 +1,6 @@
-def FileExistsException():
-    '''public FileExistsException()
-    public FileExistsException(final String message)
-    public FileExistsException(final File file)
+def ():
+    '''returns FileExistsException\n\n
+    ()\n
+    (final String message)\n
+    (final File file)\n
     '''

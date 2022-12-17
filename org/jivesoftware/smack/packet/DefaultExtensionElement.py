@@ -1,21 +1,16 @@
-def DefaultExtensionElement():
-    '''public DefaultExtensionElement(final String elementName, final String namespace)
+def ():
+    '''returns DefaultExtensionElement\n\n
+    (final String elementName, final String namespace)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    '''
-def getNames():
-    '''public synchronized Collection<String> getNames()
-    '''
-def getValue():
-    '''public synchronized String getValue(final String name)
-    '''
-def setValue():
-    '''public synchronized void setValue(final String name, final String value)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''

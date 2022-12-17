@@ -1,21 +1,28 @@
 def getCompact():
-    '''public boolean getCompact()
+    '''returns boolean\n\n
+    getCompact()\n
     '''
 def setCompact():
-    '''public void setCompact(final boolean b)
+    '''returns None\n\n
+    setCompact(final boolean b)\n
     '''
 def getStart():
-    '''public int getStart()
+    '''returns int\n\n
+    getStart()\n
     '''
 def setStart():
-    '''public void setStart(final int i)
+    '''returns None\n\n
+    setStart(final int i)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String s)
+    '''returns None\n\n
+    setType(final String s)\n
     '''
-def HTMLOListElementImpl():
-    '''public HTMLOListElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLOListElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

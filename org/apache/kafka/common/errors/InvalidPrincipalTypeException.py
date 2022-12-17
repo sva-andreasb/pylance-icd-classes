@@ -1,4 +1,5 @@
-def InvalidPrincipalTypeException():
-    '''public InvalidPrincipalTypeException(final String message)
-    public InvalidPrincipalTypeException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidPrincipalTypeException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

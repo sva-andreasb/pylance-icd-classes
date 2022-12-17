@@ -1,19 +1,24 @@
 REPORT_STOP_LIMIT = "String  \"reportstoplimit\""
 MAX_SCHEDULED_REPORT = "String  \"maxschedreport\""
 ADHOC_CREATE_LIMIT = "String  \"adhoccreatelimit\""
-def ReportSecurityLimits():
-    '''public ReportSecurityLimits(final UserInfo loginUserInfo, final UserInfo systemUserInfo, final boolean isMaxLimitParam)
-    public ReportSecurityLimits(final UserInfo loginUserInfo, final UserInfo systemUserInfo)
+def ():
+    '''returns ReportSecurityLimits\n\n
+    (final UserInfo loginUserInfo, final UserInfo systemUserInfo, final boolean isMaxLimitParam)\n
+    (final UserInfo loginUserInfo, final UserInfo systemUserInfo)\n
     '''
 def getReportLimit():
-    '''public Integer getReportLimit(final String attributeName)
+    '''returns Integer\n\n
+    getReportLimit(final String attributeName)\n
     '''
 def refreshReportLimits():
-    '''public void refreshReportLimits(final boolean isMaxLimitParam)
+    '''returns None\n\n
+    refreshReportLimits(final boolean isMaxLimitParam)\n
     '''
 def clearCachedValues():
-    '''public void clearCachedValues()
+    '''returns None\n\n
+    clearCachedValues()\n
     '''
 def getLoginUserInfo():
-    '''public UserInfo getLoginUserInfo()
+    '''returns UserInfo\n\n
+    getLoginUserInfo()\n
     '''

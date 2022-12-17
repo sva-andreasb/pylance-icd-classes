@@ -1,33 +1,36 @@
-def SKDCreateCommBean():
-    '''public SKDCreateCommBean()
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(final String option)
+def ():
+    '''returns SKDCreateCommBean\n\n
+    ()\n
     '''
 def sendmessage():
-    '''public int sendmessage()
+    '''returns int\n\n
+    sendmessage()\n
     '''
 def docancel():
-    '''public int docancel()
+    '''returns int\n\n
+    docancel()\n
     '''
 def addrecipients():
-    '''public int addrecipients()
+    '''returns int\n\n
+    addrecipients()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession sc)
+    '''returns None\n\n
+    setupBean(final WebClientSession sc)\n
     '''
 def spellcheck():
-    '''public int spellcheck()
+    '''returns int\n\n
+    spellcheck()\n
     '''
 def spellcheckreturn():
-    '''public int spellcheckreturn()
+    '''returns int\n\n
+    spellcheckreturn()\n
     '''
 def clearvalue():
-    '''public int clearvalue()
+    '''returns int\n\n
+    clearvalue()\n
     '''
 def resetvalue():
-    '''public int resetvalue()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    resetvalue()\n
     '''

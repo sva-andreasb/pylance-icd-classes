@@ -1,3 +1,4 @@
-def PlusPAgreeSalesOrdersSet():
-    '''public PlusPAgreeSalesOrdersSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAgreeSalesOrdersSet\n\n
+    (final MboServerInterface ms)\n
     '''

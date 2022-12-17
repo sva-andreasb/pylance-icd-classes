@@ -1,6 +1,8 @@
-def FldLaunchPointName():
-    '''public FldLaunchPointName(final MboValue mbv)
+def ():
+    '''returns FldLaunchPointName\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

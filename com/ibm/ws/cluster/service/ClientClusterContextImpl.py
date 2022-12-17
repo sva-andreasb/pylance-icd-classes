@@ -1,9 +1,12 @@
-def ClientClusterContextImpl():
-    '''public ClientClusterContextImpl(final List clusters)
+def ():
+    '''returns ClientClusterContextImpl\n\n
+    (final List clusters)\n
     '''
 def exportClientContext():
-    '''public byte[] exportClientContext()
+    '''returns byte[]\n\n
+    exportClientContext()\n
     '''
 def importClusterContext():
-    '''public void importClusterContext(final byte[] context)
+    '''returns None\n\n
+    importClusterContext(final byte[] context)\n
     '''

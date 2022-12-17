@@ -1,6 +1,8 @@
 def createElement():
-    '''public Element createElement(final String s)
+    '''returns Element\n\n
+    createElement(final String s)\n
     '''
-def WMLDocumentImpl():
-    '''public WMLDocumentImpl(final DocumentType documentType)
+def ():
+    '''returns WMLDocumentImpl\n\n
+    (final DocumentType documentType)\n
     '''

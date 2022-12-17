@@ -1,62 +1,80 @@
-def ZeroIsMaxDateTimeField():
-    '''public ZeroIsMaxDateTimeField(final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType)
+def ():
+    '''returns ZeroIsMaxDateTimeField\n\n
+    (final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType)\n
     '''
 def get():
-    '''public int get(final long n)
+    '''returns int\n\n
+    get(final long n)\n
     '''
 def add():
-    '''public long add(final long n, final int n2)
-    public long add(final long n, final long n2)
+    '''returns long\n\n
+    add(final long n, final int n2)\n
+    add(final long n, final long n2)\n
     '''
 def addWrapField():
-    '''public long addWrapField(final long n, final int n2)
-    public int[] addWrapField(final ReadablePartial readablePartial, final int n, final int[] array, final int n2)
+    '''returns int[]\n\n
+    addWrapField(final long n, final int n2)\n
+    addWrapField(final ReadablePartial readablePartial, final int n, final int[] array, final int n2)\n
     '''
 def getDifference():
-    '''public int getDifference(final long n, final long n2)
+    '''returns int\n\n
+    getDifference(final long n, final long n2)\n
     '''
 def getDifferenceAsLong():
-    '''public long getDifferenceAsLong(final long n, final long n2)
+    '''returns long\n\n
+    getDifferenceAsLong(final long n, final long n2)\n
     '''
 def set():
-    '''public long set(final long n, int n2)
+    '''returns long\n\n
+    set(final long n, int n2)\n
     '''
 def isLeap():
-    '''public boolean isLeap(final long n)
+    '''returns boolean\n\n
+    isLeap(final long n)\n
     '''
 def getLeapAmount():
-    '''public int getLeapAmount(final long n)
+    '''returns int\n\n
+    getLeapAmount(final long n)\n
     '''
 def getLeapDurationField():
-    '''public DurationField getLeapDurationField()
+    '''returns DurationField\n\n
+    getLeapDurationField()\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue()
-    public int getMinimumValue(final long n)
-    public int getMinimumValue(final ReadablePartial readablePartial)
-    public int getMinimumValue(final ReadablePartial readablePartial, final int[] array)
+    '''returns int\n\n
+    getMinimumValue()\n
+    getMinimumValue(final long n)\n
+    getMinimumValue(final ReadablePartial readablePartial)\n
+    getMinimumValue(final ReadablePartial readablePartial, final int[] array)\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue()
-    public int getMaximumValue(final long n)
-    public int getMaximumValue(final ReadablePartial readablePartial)
-    public int getMaximumValue(final ReadablePartial readablePartial, final int[] array)
+    '''returns int\n\n
+    getMaximumValue()\n
+    getMaximumValue(final long n)\n
+    getMaximumValue(final ReadablePartial readablePartial)\n
+    getMaximumValue(final ReadablePartial readablePartial, final int[] array)\n
     '''
 def roundFloor():
-    '''public long roundFloor(final long n)
+    '''returns long\n\n
+    roundFloor(final long n)\n
     '''
 def roundCeiling():
-    '''public long roundCeiling(final long n)
+    '''returns long\n\n
+    roundCeiling(final long n)\n
     '''
 def roundHalfFloor():
-    '''public long roundHalfFloor(final long n)
+    '''returns long\n\n
+    roundHalfFloor(final long n)\n
     '''
 def roundHalfCeiling():
-    '''public long roundHalfCeiling(final long n)
+    '''returns long\n\n
+    roundHalfCeiling(final long n)\n
     '''
 def roundHalfEven():
-    '''public long roundHalfEven(final long n)
+    '''returns long\n\n
+    roundHalfEven(final long n)\n
     '''
 def remainder():
-    '''public long remainder(final long n)
+    '''returns long\n\n
+    remainder(final long n)\n
     '''

@@ -1,43 +1,43 @@
-def builder():
-    '''public static <E> Builder<E> builder(final Predicate<? super E> predicate)
-    '''
-def notNullBuilder():
-    '''public static <E> Builder<E> notNullBuilder()
-    '''
-def predicatedCollection():
-    '''public static <T> PredicatedCollection<T> predicatedCollection(final Collection<T> coll, final Predicate<? super T> predicate)
-    '''
 def add():
-    '''public boolean add(final E object)
-    public Builder<E> add(final E item)
+    '''returns Builder<E>\n\n
+    add(final E object)\n
+    add(final E item)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
-    public Builder<E> addAll(final Collection<? extends E> items)
+    '''returns Builder<E>\n\n
+    addAll(final Collection<? extends E> coll)\n
+    addAll(final Collection<? extends E> items)\n
     '''
-def Builder():
-    '''public Builder(final Predicate<? super E> predicate)
+def ():
+    '''returns Builder\n\n
+    (final Predicate<? super E> predicate)\n
     '''
 def createPredicatedList():
-    '''public List<E> createPredicatedList()
-    public List<E> createPredicatedList(final List<E> list)
+    '''returns List<E>\n\n
+    createPredicatedList()\n
+    createPredicatedList(final List<E> list)\n
     '''
 def createPredicatedSet():
-    '''public Set<E> createPredicatedSet()
-    public Set<E> createPredicatedSet(final Set<E> set)
+    '''returns Set<E>\n\n
+    createPredicatedSet()\n
+    createPredicatedSet(final Set<E> set)\n
     '''
 def createPredicatedMultiSet():
-    '''public MultiSet<E> createPredicatedMultiSet()
-    public MultiSet<E> createPredicatedMultiSet(final MultiSet<E> multiset)
+    '''returns MultiSet<E>\n\n
+    createPredicatedMultiSet()\n
+    createPredicatedMultiSet(final MultiSet<E> multiset)\n
     '''
 def createPredicatedBag():
-    '''public Bag<E> createPredicatedBag()
-    public Bag<E> createPredicatedBag(final Bag<E> bag)
+    '''returns Bag<E>\n\n
+    createPredicatedBag()\n
+    createPredicatedBag(final Bag<E> bag)\n
     '''
 def createPredicatedQueue():
-    '''public Queue<E> createPredicatedQueue()
-    public Queue<E> createPredicatedQueue(final Queue<E> queue)
+    '''returns Queue<E>\n\n
+    createPredicatedQueue()\n
+    createPredicatedQueue(final Queue<E> queue)\n
     '''
 def rejectedElements():
-    '''public Collection<E> rejectedElements()
+    '''returns Collection<E>\n\n
+    rejectedElements()\n
     '''

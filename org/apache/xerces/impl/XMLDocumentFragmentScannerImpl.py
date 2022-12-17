@@ -1,60 +1,77 @@
-def XMLDocumentFragmentScannerImpl():
-    '''public XMLDocumentFragmentScannerImpl()
+def ():
+    '''returns ElementStack\n\n
+    ()\n
+    ()\n
     '''
 def setInputSource():
-    '''public void setInputSource(final XMLInputSource xmlInputSource)
+    '''returns None\n\n
+    setInputSource(final XMLInputSource xmlInputSource)\n
     '''
 def scanDocument():
-    '''public boolean scanDocument(final boolean b)
+    '''returns boolean\n\n
+    scanDocument(final boolean b)\n
     '''
 def reset():
-    '''public void reset(final XMLComponentManager xmlComponentManager)
+    '''returns None\n\n
+    reset(final XMLComponentManager xmlComponentManager)\n
     '''
 def getRecognizedFeatures():
-    '''public String[] getRecognizedFeatures()
+    '''returns String[]\n\n
+    getRecognizedFeatures()\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean fNotifyBuiltInRefs)
+    '''returns None\n\n
+    setFeature(final String s, final boolean fNotifyBuiltInRefs)\n
     '''
 def getRecognizedProperties():
-    '''public String[] getRecognizedProperties()
+    '''returns String[]\n\n
+    getRecognizedProperties()\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getFeatureDefault():
-    '''public Boolean getFeatureDefault(final String anObject)
+    '''returns Boolean\n\n
+    getFeatureDefault(final String anObject)\n
     '''
 def getPropertyDefault():
-    '''public Object getPropertyDefault(final String anObject)
+    '''returns Object\n\n
+    getPropertyDefault(final String anObject)\n
     '''
 def setDocumentHandler():
-    '''public void setDocumentHandler(final XMLDocumentHandler fDocumentHandler)
+    '''returns None\n\n
+    setDocumentHandler(final XMLDocumentHandler fDocumentHandler)\n
     '''
 def getDocumentHandler():
-    '''public XMLDocumentHandler getDocumentHandler()
+    '''returns XMLDocumentHandler\n\n
+    getDocumentHandler()\n
     '''
 def startEntity():
-    '''public void startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)
+    '''returns None\n\n
+    startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)\n
     '''
 def endEntity():
-    '''public void endEntity(final String s, final Augmentations augmentations)
+    '''returns None\n\n
+    endEntity(final String s, final Augmentations augmentations)\n
     '''
 def getDispatcherName():
-    '''public String getDispatcherName(final Dispatcher dispatcher)
+    '''returns String\n\n
+    getDispatcherName(final Dispatcher dispatcher)\n
     '''
 def dispatch():
-    '''public boolean dispatch(final boolean b)
-    '''
-def ElementStack():
-    '''public ElementStack()
+    '''returns boolean\n\n
+    dispatch(final boolean b)\n
     '''
 def pushElement():
-    '''public QName pushElement(final QName values)
+    '''returns QName\n\n
+    pushElement(final QName values)\n
     '''
 def popElement():
-    '''public void popElement(final QName qName)
+    '''returns None\n\n
+    popElement(final QName qName)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

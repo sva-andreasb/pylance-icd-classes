@@ -1,15 +1,20 @@
-def ServiceAddressSet():
-    '''public ServiceAddressSet(final MboServerInterface ms)
+def ():
+    '''returns ServiceAddressSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setAddressTempData():
-    '''public void setAddressTempData(final AddressableMbo addressable)
+    '''returns None\n\n
+    setAddressTempData(final AddressableMbo addressable)\n
     '''
 def createSAfromAddressableMbo():
-    '''public ServiceAddressRemote createSAfromAddressableMbo(final AddressableMbo addressable)
+    '''returns ServiceAddressRemote\n\n
+    createSAfromAddressableMbo(final AddressableMbo addressable)\n
     '''
 def isSAHierarchySet():
-    '''public boolean isSAHierarchySet()
+    '''returns boolean\n\n
+    isSAHierarchySet()\n
     '''
 def setSAHierarchySet():
-    '''public void setSAHierarchySet(final boolean isSAHierarchySet)
+    '''returns None\n\n
+    setSAHierarchySet(final boolean isSAHierarchySet)\n
     '''

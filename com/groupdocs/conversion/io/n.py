@@ -1,4 +1,5 @@
-def n():
-    '''public n(final String message, final Throwable cause)
-    public n(final Throwable cause)
+def ():
+    '''returns n\n\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

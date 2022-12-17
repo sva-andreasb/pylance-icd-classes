@@ -1,3 +1,4 @@
 def parse():
-    '''public Affiliation parse(final XmlPullParser parser, final int initialDepth)
+    '''returns Affiliation\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

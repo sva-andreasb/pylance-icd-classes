@@ -1,3 +1,4 @@
-def MaxIntPolicySet():
-    '''public MaxIntPolicySet(final MboServerInterface ms)
+def ():
+    '''returns MaxIntPolicySet\n\n
+    (final MboServerInterface ms)\n
     '''

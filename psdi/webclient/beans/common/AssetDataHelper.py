@@ -1,7 +1,9 @@
 LOAD_LOCATION_ANCESTOR = "String  \"loadLocationAncestor\""
-def AssetDataHelper():
-    '''public AssetDataHelper()
+def ():
+    '''returns AssetDataHelper\n\n
+    ()\n
     '''
 def getAncestors():
-    '''public Stack<Object[]> getAncestors(final MboRemote hierarchicalMbo, final Map<String, Object> params)
+    '''returns Stack<Object[]>\n\n
+    getAncestors(final MboRemote hierarchicalMbo, final Map<String, Object> params)\n
     '''

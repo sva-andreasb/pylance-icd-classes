@@ -1,89 +1,114 @@
-def FieldType():
-    '''public FieldType(final IndexableFieldType ref)
-    public FieldType()
+def ():
+    '''returns FieldType\n\n
+    (final IndexableFieldType ref)\n
+    ()\n
     '''
 def freeze():
-    '''public void freeze()
+    '''returns None\n\n
+    freeze()\n
     '''
 def stored():
-    '''public boolean stored()
+    '''returns boolean\n\n
+    stored()\n
     '''
 def setStored():
-    '''public void setStored(final boolean value)
+    '''returns None\n\n
+    setStored(final boolean value)\n
     '''
 def tokenized():
-    '''public boolean tokenized()
+    '''returns boolean\n\n
+    tokenized()\n
     '''
 def setTokenized():
-    '''public void setTokenized(final boolean value)
+    '''returns None\n\n
+    setTokenized(final boolean value)\n
     '''
 def storeTermVectors():
-    '''public boolean storeTermVectors()
+    '''returns boolean\n\n
+    storeTermVectors()\n
     '''
 def setStoreTermVectors():
-    '''public void setStoreTermVectors(final boolean value)
+    '''returns None\n\n
+    setStoreTermVectors(final boolean value)\n
     '''
 def storeTermVectorOffsets():
-    '''public boolean storeTermVectorOffsets()
+    '''returns boolean\n\n
+    storeTermVectorOffsets()\n
     '''
 def setStoreTermVectorOffsets():
-    '''public void setStoreTermVectorOffsets(final boolean value)
+    '''returns None\n\n
+    setStoreTermVectorOffsets(final boolean value)\n
     '''
 def storeTermVectorPositions():
-    '''public boolean storeTermVectorPositions()
+    '''returns boolean\n\n
+    storeTermVectorPositions()\n
     '''
 def setStoreTermVectorPositions():
-    '''public void setStoreTermVectorPositions(final boolean value)
+    '''returns None\n\n
+    setStoreTermVectorPositions(final boolean value)\n
     '''
 def storeTermVectorPayloads():
-    '''public boolean storeTermVectorPayloads()
+    '''returns boolean\n\n
+    storeTermVectorPayloads()\n
     '''
 def setStoreTermVectorPayloads():
-    '''public void setStoreTermVectorPayloads(final boolean value)
+    '''returns None\n\n
+    setStoreTermVectorPayloads(final boolean value)\n
     '''
 def omitNorms():
-    '''public boolean omitNorms()
+    '''returns boolean\n\n
+    omitNorms()\n
     '''
 def setOmitNorms():
-    '''public void setOmitNorms(final boolean value)
+    '''returns None\n\n
+    setOmitNorms(final boolean value)\n
     '''
 def indexOptions():
-    '''public IndexOptions indexOptions()
+    '''returns IndexOptions\n\n
+    indexOptions()\n
     '''
 def setIndexOptions():
-    '''public void setIndexOptions(final IndexOptions value)
+    '''returns None\n\n
+    setIndexOptions(final IndexOptions value)\n
     '''
 def setDimensions():
-    '''public void setDimensions(final int dimensionCount, final int dimensionNumBytes)
-    public void setDimensions(final int dimensionCount, final int indexDimensionCount, final int dimensionNumBytes)
+    '''returns None\n\n
+    setDimensions(final int dimensionCount, final int dimensionNumBytes)\n
+    setDimensions(final int dimensionCount, final int indexDimensionCount, final int dimensionNumBytes)\n
     '''
 def pointDimensionCount():
-    '''public int pointDimensionCount()
+    '''returns int\n\n
+    pointDimensionCount()\n
     '''
 def pointIndexDimensionCount():
-    '''public int pointIndexDimensionCount()
+    '''returns int\n\n
+    pointIndexDimensionCount()\n
     '''
 def pointNumBytes():
-    '''public int pointNumBytes()
+    '''returns int\n\n
+    pointNumBytes()\n
     '''
 def putAttribute():
-    '''public String putAttribute(final String key, final String value)
-    '''
-def getAttributes():
-    '''public Map<String, String> getAttributes()
+    '''returns String\n\n
+    putAttribute(final String key, final String value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def docValuesType():
-    '''public DocValuesType docValuesType()
+    '''returns DocValuesType\n\n
+    docValuesType()\n
     '''
 def setDocValuesType():
-    '''public void setDocValuesType(final DocValuesType type)
+    '''returns None\n\n
+    setDocValuesType(final DocValuesType type)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

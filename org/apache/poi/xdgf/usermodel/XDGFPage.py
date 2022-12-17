@@ -1,24 +1,32 @@
-def XDGFPage():
-    '''public XDGFPage(final PageType page, final XDGFPageContents content, final XDGFDocument document, final XDGFPages pages)
+def ():
+    '''returns XDGFPage\n\n
+    (final PageType page, final XDGFPageContents content, final XDGFDocument document, final XDGFPages pages)\n
     '''
 def getID():
-    '''public long getID()
+    '''returns long\n\n
+    getID()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getContent():
-    '''public XDGFPageContents getContent()
+    '''returns XDGFPageContents\n\n
+    getContent()\n
     '''
 def getPageSheet():
-    '''public XDGFSheet getPageSheet()
+    '''returns XDGFSheet\n\n
+    getPageSheet()\n
     '''
 def getPageNumber():
-    '''public long getPageNumber()
+    '''returns long\n\n
+    getPageNumber()\n
     '''
 def getPageSize():
-    '''public Dimension2dDouble getPageSize()
+    '''returns Dimension2dDouble\n\n
+    getPageSize()\n
     '''
 def getBoundingBox():
-    '''public Rectangle2D getBoundingBox()
+    '''returns Rectangle2D\n\n
+    getBoundingBox()\n
     '''

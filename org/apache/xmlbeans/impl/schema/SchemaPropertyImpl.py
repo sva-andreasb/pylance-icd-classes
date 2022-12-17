@@ -1,109 +1,145 @@
 def setImmutable():
-    '''public void setImmutable()
+    '''returns None\n\n
+    setImmutable()\n
     '''
 def getContainerType():
-    '''public SchemaType getContainerType()
+    '''returns SchemaType\n\n
+    getContainerType()\n
     '''
 def setContainerTypeRef():
-    '''public void setContainerTypeRef(final SchemaType.Ref typeref)
+    '''returns None\n\n
+    setContainerTypeRef(final SchemaType.Ref typeref)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final QName name)
+    '''returns None\n\n
+    setName(final QName name)\n
     '''
 def getJavaPropertyName():
-    '''public String getJavaPropertyName()
+    '''returns String\n\n
+    getJavaPropertyName()\n
     '''
 def setJavaPropertyName():
-    '''public void setJavaPropertyName(final String name)
+    '''returns None\n\n
+    setJavaPropertyName(final String name)\n
     '''
 def isAttribute():
-    '''public boolean isAttribute()
+    '''returns boolean\n\n
+    isAttribute()\n
     '''
 def setAttribute():
-    '''public void setAttribute(final boolean isAttribute)
+    '''returns None\n\n
+    setAttribute(final boolean isAttribute)\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def getType():
-    '''public SchemaType getType()
+    '''returns SchemaType\n\n
+    getType()\n
     '''
 def setTypeRef():
-    '''public void setTypeRef(final SchemaType.Ref typeref)
+    '''returns None\n\n
+    setTypeRef(final SchemaType.Ref typeref)\n
     '''
 def javaBasedOnType():
-    '''public SchemaType javaBasedOnType()
+    '''returns SchemaType\n\n
+    javaBasedOnType()\n
     '''
 def extendsJavaSingleton():
-    '''public boolean extendsJavaSingleton()
+    '''returns boolean\n\n
+    extendsJavaSingleton()\n
     '''
 def extendsJavaArray():
-    '''public boolean extendsJavaArray()
+    '''returns boolean\n\n
+    extendsJavaArray()\n
     '''
 def extendsJavaOption():
-    '''public boolean extendsJavaOption()
+    '''returns boolean\n\n
+    extendsJavaOption()\n
     '''
 def setExtendsJava():
-    '''public void setExtendsJava(final SchemaType.Ref javaBasedOnTypeRef, final boolean singleton, final boolean option, final boolean array)
+    '''returns None\n\n
+    setExtendsJava(final SchemaType.Ref javaBasedOnTypeRef, final boolean singleton, final boolean option, final boolean array)\n
     '''
 def getJavaSetterDelimiter():
-    '''public QNameSet getJavaSetterDelimiter()
+    '''returns QNameSet\n\n
+    getJavaSetterDelimiter()\n
     '''
 def acceptedNames():
-    '''public QName[] acceptedNames()
+    '''returns QName[]\n\n
+    acceptedNames()\n
     '''
 def setAcceptedNames():
-    '''public void setAcceptedNames(final Set set)
-    public void setAcceptedNames(final QNameSet set)
+    '''returns None\n\n
+    setAcceptedNames(final Set set)\n
+    setAcceptedNames(final QNameSet set)\n
     '''
 def getMinOccurs():
-    '''public BigInteger getMinOccurs()
+    '''returns BigInteger\n\n
+    getMinOccurs()\n
     '''
 def setMinOccurs():
-    '''public void setMinOccurs(final BigInteger min)
+    '''returns None\n\n
+    setMinOccurs(final BigInteger min)\n
     '''
 def getMaxOccurs():
-    '''public BigInteger getMaxOccurs()
+    '''returns BigInteger\n\n
+    getMaxOccurs()\n
     '''
 def setMaxOccurs():
-    '''public void setMaxOccurs(final BigInteger max)
+    '''returns None\n\n
+    setMaxOccurs(final BigInteger max)\n
     '''
 def hasNillable():
-    '''public int hasNillable()
+    '''returns int\n\n
+    hasNillable()\n
     '''
 def setNillable():
-    '''public void setNillable(final int when)
+    '''returns None\n\n
+    setNillable(final int when)\n
     '''
 def hasDefault():
-    '''public int hasDefault()
+    '''returns int\n\n
+    hasDefault()\n
     '''
 def setDefault():
-    '''public void setDefault(final int when)
+    '''returns None\n\n
+    setDefault(final int when)\n
     '''
 def hasFixed():
-    '''public int hasFixed()
+    '''returns int\n\n
+    hasFixed()\n
     '''
 def setFixed():
-    '''public void setFixed(final int when)
+    '''returns None\n\n
+    setFixed(final int when)\n
     '''
 def getDefaultText():
-    '''public String getDefaultText()
+    '''returns String\n\n
+    getDefaultText()\n
     '''
 def setDefaultText():
-    '''public void setDefaultText(final String val)
+    '''returns None\n\n
+    setDefaultText(final String val)\n
     '''
 def getDefaultValue():
-    '''public XmlAnySimpleType getDefaultValue()
+    '''returns XmlAnySimpleType\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final XmlValueRef defaultRef)
+    '''returns None\n\n
+    setDefaultValue(final XmlValueRef defaultRef)\n
     '''
 def getJavaTypeCode():
-    '''public int getJavaTypeCode()
+    '''returns int\n\n
+    getJavaTypeCode()\n
     '''
 def setJavaTypeCode():
-    '''public void setJavaTypeCode(final int code)
+    '''returns None\n\n
+    setJavaTypeCode(final int code)\n
     '''

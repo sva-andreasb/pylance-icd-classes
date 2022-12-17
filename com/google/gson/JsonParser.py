@@ -1,5 +1,6 @@
 def parse():
-    '''public JsonElement parse(final String json)
-    public JsonElement parse(final Reader json)
-    public JsonElement parse(final JsonReader json)
+    '''returns JsonElement\n\n
+    parse(final String json)\n
+    parse(final Reader json)\n
+    parse(final JsonReader json)\n
     '''

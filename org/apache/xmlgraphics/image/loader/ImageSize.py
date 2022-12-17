@@ -1,57 +1,75 @@
-def ImageSize():
-    '''public ImageSize(final int widthPx, final int heightPx, final double dpiHorizontal, final double dpiVertical)
-    public ImageSize(final int widthPx, final int heightPx, final double dpi)
-    public ImageSize()
+def ():
+    '''returns ImageSize\n\n
+    (final int widthPx, final int heightPx, final double dpiHorizontal, final double dpiVertical)\n
+    (final int widthPx, final int heightPx, final double dpi)\n
+    ()\n
     '''
 def setSizeInPixels():
-    '''public void setSizeInPixels(final int width, final int height)
+    '''returns None\n\n
+    setSizeInPixels(final int width, final int height)\n
     '''
 def setSizeInMillipoints():
-    '''public void setSizeInMillipoints(final int width, final int height)
+    '''returns None\n\n
+    setSizeInMillipoints(final int width, final int height)\n
     '''
 def setResolution():
-    '''public void setResolution(final double horizontal, final double vertical)
-    public void setResolution(final double resolution)
+    '''returns None\n\n
+    setResolution(final double horizontal, final double vertical)\n
+    setResolution(final double resolution)\n
     '''
 def setBaselinePositionFromBottom():
-    '''public void setBaselinePositionFromBottom(final int distance)
+    '''returns None\n\n
+    setBaselinePositionFromBottom(final int distance)\n
     '''
 def getBaselinePositionFromBottom():
-    '''public int getBaselinePositionFromBottom()
+    '''returns int\n\n
+    getBaselinePositionFromBottom()\n
     '''
 def getWidthPx():
-    '''public int getWidthPx()
+    '''returns int\n\n
+    getWidthPx()\n
     '''
 def getHeightPx():
-    '''public int getHeightPx()
+    '''returns int\n\n
+    getHeightPx()\n
     '''
 def getWidthMpt():
-    '''public int getWidthMpt()
+    '''returns int\n\n
+    getWidthMpt()\n
     '''
 def getHeightMpt():
-    '''public int getHeightMpt()
+    '''returns int\n\n
+    getHeightMpt()\n
     '''
 def getDpiHorizontal():
-    '''public double getDpiHorizontal()
+    '''returns double\n\n
+    getDpiHorizontal()\n
     '''
 def getDpiVertical():
-    '''public double getDpiVertical()
+    '''returns double\n\n
+    getDpiVertical()\n
     '''
 def getDimensionMpt():
-    '''public Dimension getDimensionMpt()
+    '''returns Dimension\n\n
+    getDimensionMpt()\n
     '''
 def getDimensionPt():
-    '''public Dimension2D getDimensionPt()
+    '''returns Dimension2D\n\n
+    getDimensionPt()\n
     '''
 def getDimensionPx():
-    '''public Dimension getDimensionPx()
+    '''returns Dimension\n\n
+    getDimensionPx()\n
     '''
 def calcSizeFromPixels():
-    '''public void calcSizeFromPixels()
+    '''returns None\n\n
+    calcSizeFromPixels()\n
     '''
 def calcPixelsFromSize():
-    '''public void calcPixelsFromSize()
+    '''returns None\n\n
+    calcPixelsFromSize()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

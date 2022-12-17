@@ -1,6 +1,8 @@
-def PlusPFldWOUserCustAssetnum():
-    '''public PlusPFldWOUserCustAssetnum(final MboValue arg0)
+def ():
+    '''returns PlusPFldWOUserCustAssetnum\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

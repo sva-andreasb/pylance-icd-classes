@@ -1,12 +1,16 @@
 def getValue():
-    '''public BigInteger getValue()
+    '''returns BigInteger\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final BigInteger value)
+    '''returns None\n\n
+    setValue(final BigInteger value)\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String value)
+    '''returns None\n\n
+    setResource(final String value)\n
     '''

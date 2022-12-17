@@ -7,9 +7,11 @@ END_PROCEDURE = "int  5"
 IMMEDIATE = "int  6"
 START_ARRAY = "int  7"
 END_ARRAY = "int  8"
-def PAToken():
-    '''public PAToken(final Object value, final int type)
+def ():
+    '''returns PAToken\n\n
+    (final Object value, final int type)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

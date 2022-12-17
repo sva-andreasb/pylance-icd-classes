@@ -1,6 +1,8 @@
-def DropTableFromMaximo():
-    '''public DropTableFromMaximo(final Set<String> tablesToDrop, final DatabaseInformation di, final Connection dc)
+def ():
+    '''returns DropTableFromMaximo\n\n
+    (final Set<String> tablesToDrop, final DatabaseInformation di, final Connection dc)\n
     '''
 def doRepair():
-    '''public void doRepair()
+    '''returns None\n\n
+    doRepair()\n
     '''

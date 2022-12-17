@@ -1,268 +1,356 @@
 CONNECTOR_SOCKET = "int  0"
 CONNECTOR_SELECT_CHANNEL = "int  2"
-def HttpClient():
-    '''public HttpClient()
-    public HttpClient(final SslContextFactory sslContextFactory)
+def ():
+    '''returns HttpClient\n\n
+    ()\n
+    (final SslContextFactory sslContextFactory)\n
     '''
 def isConnectBlocking():
-    '''public boolean isConnectBlocking()
+    '''returns boolean\n\n
+    isConnectBlocking()\n
     '''
 def setConnectBlocking():
-    '''public void setConnectBlocking(final boolean connectBlocking)
+    '''returns None\n\n
+    setConnectBlocking(final boolean connectBlocking)\n
     '''
 def send():
-    '''public void send(final HttpExchange exchange)
+    '''returns None\n\n
+    send(final HttpExchange exchange)\n
     '''
 def getThreadPool():
-    '''public ThreadPool getThreadPool()
+    '''returns ThreadPool\n\n
+    getThreadPool()\n
     '''
 def setThreadPool():
-    '''public void setThreadPool(final ThreadPool threadPool)
+    '''returns None\n\n
+    setThreadPool(final ThreadPool threadPool)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def getAttributeNames():
-    '''public Enumeration getAttributeNames()
+    '''returns Enumeration\n\n
+    getAttributeNames()\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String name)
+    '''returns None\n\n
+    removeAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final Object attribute)
+    '''returns None\n\n
+    setAttribute(final String name, final Object attribute)\n
     '''
 def clearAttributes():
-    '''public void clearAttributes()
+    '''returns None\n\n
+    clearAttributes()\n
     '''
 def getDestination():
-    '''public HttpDestination getDestination(final Address remote, final boolean ssl)
+    '''returns HttpDestination\n\n
+    getDestination(final Address remote, final boolean ssl)\n
     '''
 def schedule():
-    '''public void schedule(final Timeout.Task task)
-    public void schedule(final Timeout.Task task, final long timeout)
+    '''returns None\n\n
+    schedule(final Timeout.Task task)\n
+    schedule(final Timeout.Task task, final long timeout)\n
     '''
 def scheduleIdle():
-    '''public void scheduleIdle(final Timeout.Task task)
+    '''returns None\n\n
+    scheduleIdle(final Timeout.Task task)\n
     '''
 def cancel():
-    '''public void cancel(final Timeout.Task task)
+    '''returns None\n\n
+    cancel(final Timeout.Task task)\n
     '''
 def getUseDirectBuffers():
-    '''public boolean getUseDirectBuffers()
+    '''returns boolean\n\n
+    getUseDirectBuffers()\n
     '''
 def setRealmResolver():
-    '''public void setRealmResolver(final RealmResolver resolver)
+    '''returns None\n\n
+    setRealmResolver(final RealmResolver resolver)\n
     '''
 def getRealmResolver():
-    '''public RealmResolver getRealmResolver()
+    '''returns RealmResolver\n\n
+    getRealmResolver()\n
     '''
 def hasRealms():
-    '''public boolean hasRealms()
+    '''returns boolean\n\n
+    hasRealms()\n
     '''
 def registerListener():
-    '''public void registerListener(final String listenerClass)
+    '''returns None\n\n
+    registerListener(final String listenerClass)\n
     '''
 def getRegisteredListeners():
-    '''public LinkedList<String> getRegisteredListeners()
+    '''returns LinkedList<String>\n\n
+    getRegisteredListeners()\n
     '''
 def setUseDirectBuffers():
-    '''public void setUseDirectBuffers(final boolean direct)
+    '''returns None\n\n
+    setUseDirectBuffers(final boolean direct)\n
     '''
 def getConnectorType():
-    '''public int getConnectorType()
+    '''returns int\n\n
+    getConnectorType()\n
     '''
 def setConnectorType():
-    '''public void setConnectorType(final int connectorType)
+    '''returns None\n\n
+    setConnectorType(final int connectorType)\n
     '''
 def getMaxConnectionsPerAddress():
-    '''public int getMaxConnectionsPerAddress()
+    '''returns int\n\n
+    getMaxConnectionsPerAddress()\n
     '''
 def setMaxConnectionsPerAddress():
-    '''public void setMaxConnectionsPerAddress(final int maxConnectionsPerAddress)
+    '''returns None\n\n
+    setMaxConnectionsPerAddress(final int maxConnectionsPerAddress)\n
     '''
 def getMaxQueueSizePerAddress():
-    '''public int getMaxQueueSizePerAddress()
+    '''returns int\n\n
+    getMaxQueueSizePerAddress()\n
     '''
 def setMaxQueueSizePerAddress():
-    '''public void setMaxQueueSizePerAddress(final int maxQueueSizePerAddress)
+    '''returns None\n\n
+    setMaxQueueSizePerAddress(final int maxQueueSizePerAddress)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def getSslContextFactory():
-    '''public SslContextFactory getSslContextFactory()
+    '''returns SslContextFactory\n\n
+    getSslContextFactory()\n
     '''
 def getIdleTimeout():
-    '''public long getIdleTimeout()
+    '''returns long\n\n
+    getIdleTimeout()\n
     '''
 def setIdleTimeout():
-    '''public void setIdleTimeout(final long ms)
+    '''returns None\n\n
+    setIdleTimeout(final long ms)\n
     '''
 def getSoTimeout():
-    '''public int getSoTimeout()
+    '''returns int\n\n
+    getSoTimeout()\n
     '''
 def setSoTimeout():
-    '''public void setSoTimeout(final int timeout)
+    '''returns None\n\n
+    setSoTimeout(final int timeout)\n
     '''
 def getTimeout():
-    '''public long getTimeout()
+    '''returns long\n\n
+    getTimeout()\n
     '''
 def setTimeout():
-    '''public void setTimeout(final long timeout)
+    '''returns None\n\n
+    setTimeout(final long timeout)\n
     '''
 def getConnectTimeout():
-    '''public int getConnectTimeout()
+    '''returns int\n\n
+    getConnectTimeout()\n
     '''
 def setConnectTimeout():
-    '''public void setConnectTimeout(final int connectTimeout)
+    '''returns None\n\n
+    setConnectTimeout(final int connectTimeout)\n
     '''
 def getProxy():
-    '''public Address getProxy()
+    '''returns Address\n\n
+    getProxy()\n
     '''
 def setProxy():
-    '''public void setProxy(final Address proxy)
+    '''returns None\n\n
+    setProxy(final Address proxy)\n
     '''
 def getProxyAuthentication():
-    '''public Authentication getProxyAuthentication()
+    '''returns Authentication\n\n
+    getProxyAuthentication()\n
     '''
 def setProxyAuthentication():
-    '''public void setProxyAuthentication(final Authentication authentication)
+    '''returns None\n\n
+    setProxyAuthentication(final Authentication authentication)\n
     '''
 def isProxied():
-    '''public boolean isProxied()
+    '''returns boolean\n\n
+    isProxied()\n
     '''
 def getNoProxy():
-    '''public Set<String> getNoProxy()
+    '''returns Set<String>\n\n
+    getNoProxy()\n
     '''
 def setNoProxy():
-    '''public void setNoProxy(final Set<String> noProxyAddresses)
+    '''returns None\n\n
+    setNoProxy(final Set<String> noProxyAddresses)\n
     '''
 def maxRetries():
-    '''public int maxRetries()
+    '''returns int\n\n
+    maxRetries()\n
     '''
 def setMaxRetries():
-    '''public void setMaxRetries(final int retries)
+    '''returns None\n\n
+    setMaxRetries(final int retries)\n
     '''
 def maxRedirects():
-    '''public int maxRedirects()
+    '''returns int\n\n
+    maxRedirects()\n
     '''
 def setMaxRedirects():
-    '''public void setMaxRedirects(final int redirects)
+    '''returns None\n\n
+    setMaxRedirects(final int redirects)\n
     '''
 def getRequestBufferSize():
-    '''public int getRequestBufferSize()
+    '''returns int\n\n
+    getRequestBufferSize()\n
     '''
 def setRequestBufferSize():
-    '''public void setRequestBufferSize(final int requestBufferSize)
+    '''returns None\n\n
+    setRequestBufferSize(final int requestBufferSize)\n
     '''
 def getRequestHeaderSize():
-    '''public int getRequestHeaderSize()
+    '''returns int\n\n
+    getRequestHeaderSize()\n
     '''
 def setRequestHeaderSize():
-    '''public void setRequestHeaderSize(final int requestHeaderSize)
+    '''returns None\n\n
+    setRequestHeaderSize(final int requestHeaderSize)\n
     '''
 def getResponseBufferSize():
-    '''public int getResponseBufferSize()
+    '''returns int\n\n
+    getResponseBufferSize()\n
     '''
 def setResponseBufferSize():
-    '''public void setResponseBufferSize(final int responseBufferSize)
+    '''returns None\n\n
+    setResponseBufferSize(final int responseBufferSize)\n
     '''
 def getResponseHeaderSize():
-    '''public int getResponseHeaderSize()
+    '''returns int\n\n
+    getResponseHeaderSize()\n
     '''
 def setResponseHeaderSize():
-    '''public void setResponseHeaderSize(final int responseHeaderSize)
+    '''returns None\n\n
+    setResponseHeaderSize(final int responseHeaderSize)\n
     '''
 def setRequestBuffers():
-    '''public void setRequestBuffers(final Buffers requestBuffers)
+    '''returns None\n\n
+    setRequestBuffers(final Buffers requestBuffers)\n
     '''
 def setResponseBuffers():
-    '''public void setResponseBuffers(final Buffers responseBuffers)
+    '''returns None\n\n
+    setResponseBuffers(final Buffers responseBuffers)\n
     '''
 def getRequestBuffers():
-    '''public Buffers getRequestBuffers()
+    '''returns Buffers\n\n
+    getRequestBuffers()\n
     '''
 def getResponseBuffers():
-    '''public Buffers getResponseBuffers()
+    '''returns Buffers\n\n
+    getResponseBuffers()\n
     '''
 def setMaxBuffers():
-    '''public void setMaxBuffers(final int maxBuffers)
+    '''returns None\n\n
+    setMaxBuffers(final int maxBuffers)\n
     '''
 def getMaxBuffers():
-    '''public int getMaxBuffers()
+    '''returns int\n\n
+    getMaxBuffers()\n
     '''
 def getTrustStoreLocation():
-    '''public String getTrustStoreLocation()
+    '''returns String\n\n
+    getTrustStoreLocation()\n
     '''
 def setTrustStoreLocation():
-    '''public void setTrustStoreLocation(final String trustStoreLocation)
+    '''returns None\n\n
+    setTrustStoreLocation(final String trustStoreLocation)\n
     '''
 def getTrustStoreInputStream():
-    '''public InputStream getTrustStoreInputStream()
+    '''returns InputStream\n\n
+    getTrustStoreInputStream()\n
     '''
 def setTrustStoreInputStream():
-    '''public void setTrustStoreInputStream(final InputStream trustStoreInputStream)
+    '''returns None\n\n
+    setTrustStoreInputStream(final InputStream trustStoreInputStream)\n
     '''
 def getKeyStoreLocation():
-    '''public String getKeyStoreLocation()
+    '''returns String\n\n
+    getKeyStoreLocation()\n
     '''
 def setKeyStoreLocation():
-    '''public void setKeyStoreLocation(final String keyStoreLocation)
+    '''returns None\n\n
+    setKeyStoreLocation(final String keyStoreLocation)\n
     '''
 def getKeyStoreInputStream():
-    '''public InputStream getKeyStoreInputStream()
+    '''returns InputStream\n\n
+    getKeyStoreInputStream()\n
     '''
 def setKeyStoreInputStream():
-    '''public void setKeyStoreInputStream(final InputStream keyStoreInputStream)
+    '''returns None\n\n
+    setKeyStoreInputStream(final InputStream keyStoreInputStream)\n
     '''
 def setKeyStorePassword():
-    '''public void setKeyStorePassword(final String keyStorePassword)
+    '''returns None\n\n
+    setKeyStorePassword(final String keyStorePassword)\n
     '''
 def setKeyManagerPassword():
-    '''public void setKeyManagerPassword(final String keyManagerPassword)
+    '''returns None\n\n
+    setKeyManagerPassword(final String keyManagerPassword)\n
     '''
 def setTrustStorePassword():
-    '''public void setTrustStorePassword(final String trustStorePassword)
+    '''returns None\n\n
+    setTrustStorePassword(final String trustStorePassword)\n
     '''
 def getKeyStoreType():
-    '''public String getKeyStoreType()
+    '''returns String\n\n
+    getKeyStoreType()\n
     '''
 def setKeyStoreType():
-    '''public void setKeyStoreType(final String keyStoreType)
+    '''returns None\n\n
+    setKeyStoreType(final String keyStoreType)\n
     '''
 def getTrustStoreType():
-    '''public String getTrustStoreType()
+    '''returns String\n\n
+    getTrustStoreType()\n
     '''
 def setTrustStoreType():
-    '''public void setTrustStoreType(final String trustStoreType)
+    '''returns None\n\n
+    setTrustStoreType(final String trustStoreType)\n
     '''
 def getKeyManagerAlgorithm():
-    '''public String getKeyManagerAlgorithm()
+    '''returns String\n\n
+    getKeyManagerAlgorithm()\n
     '''
 def setKeyManagerAlgorithm():
-    '''public void setKeyManagerAlgorithm(final String keyManagerAlgorithm)
+    '''returns None\n\n
+    setKeyManagerAlgorithm(final String keyManagerAlgorithm)\n
     '''
 def getTrustManagerAlgorithm():
-    '''public String getTrustManagerAlgorithm()
+    '''returns String\n\n
+    getTrustManagerAlgorithm()\n
     '''
 def setTrustManagerAlgorithm():
-    '''public void setTrustManagerAlgorithm(final String trustManagerAlgorithm)
+    '''returns None\n\n
+    setTrustManagerAlgorithm(final String trustManagerAlgorithm)\n
     '''
 def getProtocol():
-    '''public String getProtocol()
+    '''returns String\n\n
+    getProtocol()\n
     '''
 def setProtocol():
-    '''public void setProtocol(final String protocol)
+    '''returns None\n\n
+    setProtocol(final String protocol)\n
     '''
 def getProvider():
-    '''public String getProvider()
+    '''returns String\n\n
+    getProvider()\n
     '''
 def setProvider():
-    '''public void setProvider(final String provider)
+    '''returns None\n\n
+    setProvider(final String provider)\n
     '''
 def getSecureRandomAlgorithm():
-    '''public String getSecureRandomAlgorithm()
+    '''returns String\n\n
+    getSecureRandomAlgorithm()\n
     '''
 def setSecureRandomAlgorithm():
-    '''public void setSecureRandomAlgorithm(final String secureRandomAlgorithm)
+    '''returns None\n\n
+    setSecureRandomAlgorithm(final String secureRandomAlgorithm)\n
     '''

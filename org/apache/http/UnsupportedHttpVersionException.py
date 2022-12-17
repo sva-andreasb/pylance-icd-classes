@@ -1,4 +1,5 @@
-def UnsupportedHttpVersionException():
-    '''public UnsupportedHttpVersionException()
-    public UnsupportedHttpVersionException(final String message)
+def ():
+    '''returns UnsupportedHttpVersionException\n\n
+    ()\n
+    (final String message)\n
     '''

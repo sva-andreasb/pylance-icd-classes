@@ -1,3 +1,4 @@
-def FldDMCompResultObjectName():
-    '''public FldDMCompResultObjectName(final MboValue mbv)
+def ():
+    '''returns FldDMCompResultObjectName\n\n
+    (final MboValue mbv)\n
     '''

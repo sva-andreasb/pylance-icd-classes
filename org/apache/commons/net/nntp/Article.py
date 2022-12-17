@@ -1,69 +1,88 @@
-def Article():
-    '''public Article()
+def ():
+    '''returns Article\n\n
+    ()\n
     '''
 def addHeaderField():
-    '''public void addHeaderField(final String name, final String val)
+    '''returns None\n\n
+    addHeaderField(final String name, final String val)\n
     '''
 def addReference():
-    '''public void addReference(final String msgId)
+    '''returns None\n\n
+    addReference(final String msgId)\n
     '''
 def getReferences():
-    '''public String[] getReferences()
-    '''
-def printThread():
-    '''public static void printThread(final Article article, final int depth)
+    '''returns String[]\n\n
+    getReferences()\n
     '''
 def getArticleId():
-    '''public String getArticleId()
+    '''returns String\n\n
+    getArticleId()\n
     '''
 def getArticleNumber():
-    '''public int getArticleNumber()
+    '''returns int\n\n
+    getArticleNumber()\n
     '''
 def getDate():
-    '''public String getDate()
+    '''returns String\n\n
+    getDate()\n
     '''
 def getFrom():
-    '''public String getFrom()
+    '''returns String\n\n
+    getFrom()\n
     '''
 def getSubject():
-    '''public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
     '''
 def setArticleId():
-    '''public void setArticleId(final String string)
+    '''returns None\n\n
+    setArticleId(final String string)\n
     '''
 def setArticleNumber():
-    '''public void setArticleNumber(final int i)
+    '''returns None\n\n
+    setArticleNumber(final int i)\n
     '''
 def setDate():
-    '''public void setDate(final String string)
+    '''returns None\n\n
+    setDate(final String string)\n
     '''
 def setFrom():
-    '''public void setFrom(final String string)
+    '''returns None\n\n
+    setFrom(final String string)\n
     '''
 def setSubject():
-    '''public void setSubject(final String string)
+    '''returns None\n\n
+    setSubject(final String string)\n
     '''
 def isDummy():
-    '''public boolean isDummy()
+    '''returns boolean\n\n
+    isDummy()\n
     '''
 def messageThreadId():
-    '''public String messageThreadId()
+    '''returns String\n\n
+    messageThreadId()\n
     '''
 def messageThreadReferences():
-    '''public String[] messageThreadReferences()
+    '''returns String[]\n\n
+    messageThreadReferences()\n
     '''
 def simplifiedSubject():
-    '''public String simplifiedSubject()
+    '''returns String\n\n
+    simplifiedSubject()\n
     '''
 def subjectIsReply():
-    '''public boolean subjectIsReply()
+    '''returns boolean\n\n
+    subjectIsReply()\n
     '''
 def setChild():
-    '''public void setChild(final Threadable child)
+    '''returns None\n\n
+    setChild(final Threadable child)\n
     '''
 def setNext():
-    '''public void setNext(final Threadable next)
+    '''returns None\n\n
+    setNext(final Threadable next)\n
     '''
 def makeDummy():
-    '''public Threadable makeDummy()
+    '''returns Threadable\n\n
+    makeDummy()\n
     '''

@@ -1,30 +1,36 @@
-def ResourceMaxManager():
-    '''public ResourceMaxManager(final MXServer mxServer)
+def ():
+    '''returns ResourceMaxManager\n\n
+    (final MXServer mxServer)\n
     '''
 def getResources():
-    '''public Collection<IMXResource> getResources(final Schedule schedule, final Range<Date> range, final List<String> objectNames, final boolean bucketBased)
+    '''returns Collection<IMXResource>\n\n
+    getResources(final Schedule schedule, final Range<Date> range, final List<String> objectNames, final boolean bucketBased)\n
     '''
 def getReservations():
-    '''public Collection<IMXReservation> getReservations(final Schedule schedule, final IMXResource resource)
+    '''returns Collection<IMXReservation>\n\n
+    getReservations(final Schedule schedule, final IMXResource resource)\n
     '''
 def getResourceForId():
-    '''public IMXResource getResourceForId(final String id)
+    '''returns IMXResource\n\n
+    getResourceForId(final String id)\n
     '''
 def getAllReservations():
-    '''public Collection<IMXReservation> getAllReservations(final Long projectId, final UserInfo userInfo)
+    '''returns Collection<IMXReservation>\n\n
+    getAllReservations(final Long projectId, final UserInfo userInfo)\n
     '''
 def getResourcesAvailability():
-    '''public Collection<IMXResource> getResourcesAvailability(final Set<String> resources, final UserInfo userInfo, final int resourceType, final Long projectId)
+    '''returns Collection<IMXResource>\n\n
+    getResourcesAvailability(final Set<String> resources, final UserInfo userInfo, final int resourceType, final Long projectId)\n
     '''
 def getTotalWorkHours():
-    '''public Double getTotalWorkHours(final Long projectId, final UserInfo userInfo)
-    '''
-def getModifiedAvailabilityHours():
-    '''public Map<String, Double> getModifiedAvailabilityHours(final Long projectId, final String type, final UserInfo userInfo)
+    '''returns Double\n\n
+    getTotalWorkHours(final Long projectId, final UserInfo userInfo)\n
     '''
 def getZoneAvailability():
-    '''public Collection<IMXResource> getZoneAvailability(final Long projectId, final UserInfo userInfo)
+    '''returns Collection<IMXResource>\n\n
+    getZoneAvailability(final Long projectId, final UserInfo userInfo)\n
     '''
 def getAllZoneReservations():
-    '''public Collection<IMXReservation> getAllZoneReservations(final Long projectId, final UserInfo userInfo)
+    '''returns Collection<IMXReservation>\n\n
+    getAllZoneReservations(final Long projectId, final UserInfo userInfo)\n
     '''

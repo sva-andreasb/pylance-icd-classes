@@ -1,12 +1,15 @@
 ELEMENT = "String  \"data\""
 NAMESPACE = "String  \"urn:xmpp:bob\""
-def BoBIQ():
-    '''public BoBIQ(final BoBHash bobHash, final BoBData bobData)
-    public BoBIQ(final BoBHash bobHash)
+def ():
+    '''returns BoBIQ\n\n
+    (final BoBHash bobHash, final BoBData bobData)\n
+    (final BoBHash bobHash)\n
     '''
 def getBoBHash():
-    '''public BoBHash getBoBHash()
+    '''returns BoBHash\n\n
+    getBoBHash()\n
     '''
 def getBoBData():
-    '''public BoBData getBoBData()
+    '''returns BoBData\n\n
+    getBoBData()\n
     '''

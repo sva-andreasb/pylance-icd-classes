@@ -1,23 +1,29 @@
-def AgentConnection():
-    '''public AgentConnection(final int serverPort, final String mux, final int muxPort, final String proxy, final int proxyPort, final boolean useIEProxy, final String proxyUsername, final String proxyPass, final boolean popupAuthDialog, final long n)
-    public AgentConnection(final int muxPort, final String proxy, final int proxyPort, final boolean useIEProxy, final String proxyUsername, final String proxyPass, final boolean popupAuthDialog, final long n)
+def ():
+    '''returns AgentConnection\n\n
+    (final int serverPort, final String mux, final int muxPort, final String proxy, final int proxyPort, final boolean useIEProxy, final String proxyUsername, final String proxyPass, final boolean popupAuthDialog, final long n)\n
+    (final int muxPort, final String proxy, final int proxyPort, final boolean useIEProxy, final String proxyUsername, final String proxyPass, final boolean popupAuthDialog, final long n)\n
     '''
 def sendMessage():
-    '''public void sendMessage(final byte[] array, final byte b)
+    '''returns None\n\n
+    sendMessage(final byte[] array, final byte b)\n
     '''
 def getConnectionInfo():
-    '''public ConnectionInfo getConnectionInfo()
+    '''returns ConnectionInfo\n\n
+    getConnectionInfo()\n
     '''
 def close():
-    '''public synchronized void close()
-    public void close(final int closeReason)
+    '''returns None\n\n
+    close(final int closeReason)\n
     '''
 def setKeepAliveParams():
-    '''public void setKeepAliveParams(final long n, final byte[] array)
+    '''returns None\n\n
+    setKeepAliveParams(final long n, final byte[] array)\n
     '''
 def setBytesToReceive():
-    '''public void setBytesToReceive(final int bytesToReceive)
+    '''returns None\n\n
+    setBytesToReceive(final int bytesToReceive)\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''

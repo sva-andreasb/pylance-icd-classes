@@ -1,4 +1,5 @@
-def RemoteAccessAuthException():
-    '''public RemoteAccessAuthException()
-    public RemoteAccessAuthException(final String s)
+def ():
+    '''returns RemoteAccessAuthException\n\n
+    ()\n
+    (final String s)\n
     '''

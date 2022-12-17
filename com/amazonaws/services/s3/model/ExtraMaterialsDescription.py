@@ -1,13 +1,9 @@
-def ExtraMaterialsDescription():
-    '''public ExtraMaterialsDescription(final Map<String, String> matdesc)
-    public ExtraMaterialsDescription(final Map<String, String> matdesc, final ConflictResolution resolve)
-    '''
-def getMaterialDescription():
-    '''public Map<String, String> getMaterialDescription()
+def ():
+    '''returns ExtraMaterialsDescription\n\n
+    (final Map<String, String> matdesc)\n
+    (final Map<String, String> matdesc, final ConflictResolution resolve)\n
     '''
 def getConflictResolution():
-    '''public ConflictResolution getConflictResolution()
-    '''
-def mergeInto():
-    '''public Map<String, String> mergeInto(final Map<String, String> core)
+    '''returns ConflictResolution\n\n
+    getConflictResolution()\n
     '''

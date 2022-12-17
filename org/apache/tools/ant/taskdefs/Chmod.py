@@ -1,42 +1,56 @@
-def Chmod():
-    '''public Chmod()
+def ():
+    '''returns Chmod\n\n
+    ()\n
     '''
 def setProject():
-    '''public void setProject(final Project project)
+    '''returns None\n\n
+    setProject(final Project project)\n
     '''
 def setFile():
-    '''public void setFile(final File src)
+    '''returns None\n\n
+    setFile(final File src)\n
     '''
 def setDir():
-    '''public void setDir(final File src)
+    '''returns None\n\n
+    setDir(final File src)\n
     '''
 def setPerm():
-    '''public void setPerm(final String perm)
+    '''returns None\n\n
+    setPerm(final String perm)\n
     '''
 def createPatternSet():
-    '''public PatternSet createPatternSet()
+    '''returns PatternSet\n\n
+    createPatternSet()\n
     '''
 def setIncludes():
-    '''public void setIncludes(final String includes)
+    '''returns None\n\n
+    setIncludes(final String includes)\n
     '''
 def setExcludes():
-    '''public void setExcludes(final String excludes)
+    '''returns None\n\n
+    setExcludes(final String excludes)\n
     '''
 def setDefaultexcludes():
-    '''public void setDefaultexcludes(final boolean useDefaultExcludes)
+    '''returns None\n\n
+    setDefaultexcludes(final boolean useDefaultExcludes)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setExecutable():
-    '''public void setExecutable(final String e)
+    '''returns None\n\n
+    setExecutable(final String e)\n
     '''
 def setCommand():
-    '''public void setCommand(final Commandline cmdl)
+    '''returns None\n\n
+    setCommand(final Commandline cmdl)\n
     '''
 def setSkipEmptyFilesets():
-    '''public void setSkipEmptyFilesets(final boolean skip)
+    '''returns None\n\n
+    setSkipEmptyFilesets(final boolean skip)\n
     '''
 def setAddsourcefile():
-    '''public void setAddsourcefile(final boolean b)
+    '''returns None\n\n
+    setAddsourcefile(final boolean b)\n
     '''

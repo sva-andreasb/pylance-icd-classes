@@ -1,33 +1,43 @@
-def FldStartFeatureLabel():
-    '''public FldStartFeatureLabel(final MboValue mbv)
-    public FldStartFeatureLabel(final MboValue mbv, final String siteAttr)
-    public FldStartFeatureLabel(final MboValue mbv, final Hashtable<String, String> attrLRM_attrAsset, final Hashtable<String, String> attrsStart)
-    public FldStartFeatureLabel(final MboValue mbv, final Hashtable<String, String> attrLRM_attrAsset, final Hashtable<String, String> attrsStart, final String siteAttr)
+def ():
+    '''returns FldStartFeatureLabel\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String siteAttr)\n
+    (final MboValue mbv, final Hashtable<String, String> attrLRM_attrAsset, final Hashtable<String, String> attrsStart)\n
+    (final MboValue mbv, final Hashtable<String, String> attrLRM_attrAsset, final Hashtable<String, String> attrsStart, final String siteAttr)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def setAsset():
-    '''public void setAsset(final MboRemote asset)
+    '''returns None\n\n
+    setAsset(final MboRemote asset)\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''
 def setSiteAttrAndRelationship():
-    '''public void setSiteAttrAndRelationship(final String siteAttr)
+    '''returns None\n\n
+    setSiteAttrAndRelationship(final String siteAttr)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

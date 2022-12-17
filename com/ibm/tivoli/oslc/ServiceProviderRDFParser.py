@@ -1,43 +1,48 @@
-def ServiceProviderRDFParser():
-    '''public ServiceProviderRDFParser(final byte[] rdfDoc, final String resURI)
-    public ServiceProviderRDFParser(final Model spModel, final String resURI)
-    public ServiceProviderRDFParser(final Resource spResource)
+def ():
+    '''returns ServiceProviderRDFParser\n\n
+    (final byte[] rdfDoc, final String resURI)\n
+    (final Model spModel, final String resURI)\n
+    (final Resource spResource)\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def getServicesForDomain():
-    '''public List<Resource> getServicesForDomain(final String domURI)
+    '''returns List<Resource>\n\n
+    getServicesForDomain(final String domURI)\n
     '''
 def getService():
-    '''public Resource getService()
+    '''returns Resource\n\n
+    getService()\n
     '''
 def getSourceRecordURI():
-    '''public String getSourceRecordURI()
+    '''returns String\n\n
+    getSourceRecordURI()\n
     '''
 def getQueryCapabilities():
-    '''public List<Resource> getQueryCapabilities(final String domURI, final String resTypeURI)
-    public List<Resource> getQueryCapabilities(final Resource svcRes, final String resTypeURI)
+    '''returns List<Resource>\n\n
+    getQueryCapabilities(final String domURI, final String resTypeURI)\n
+    getQueryCapabilities(final Resource svcRes, final String resTypeURI)\n
     '''
 def getCreationFactories():
-    '''public List<Resource> getCreationFactories(final String domURI, final String resTypeURI)
-    public List<Resource> getCreationFactories(final Resource svcRes, final String resTypeURI)
+    '''returns List<Resource>\n\n
+    getCreationFactories(final String domURI, final String resTypeURI)\n
+    getCreationFactories(final Resource svcRes, final String resTypeURI)\n
     '''
 def getAPIResourceCollection():
-    '''public List<Resource> getAPIResourceCollection(final Resource svcRes, final String resTypeURI, final Property apiProp)
+    '''returns List<Resource>\n\n
+    getAPIResourceCollection(final Resource svcRes, final String resTypeURI, final Property apiProp)\n
     '''
 def getUsageURI():
-    '''public List<String> getUsageURI(final Resource oslcOp)
+    '''returns List<String>\n\n
+    getUsageURI(final Resource oslcOp)\n
     '''
 def getQueryBaseURI():
-    '''public String getQueryBaseURI(final Resource queryCapabilityRes)
+    '''returns String\n\n
+    getQueryBaseURI(final Resource queryCapabilityRes)\n
     '''
 def getCreationURI():
-    '''public String getCreationURI(final Resource cfRes)
-    '''
-def getNsPrefixMap():
-    '''public Map<String, String> getNsPrefixMap()
-    '''
-def getPrefixNsMap():
-    '''public Map<String, String> getPrefixNsMap()
+    '''returns String\n\n
+    getCreationURI(final Resource cfRes)\n
     '''

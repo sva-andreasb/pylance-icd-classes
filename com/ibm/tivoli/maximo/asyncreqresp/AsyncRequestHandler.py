@@ -1,15 +1,20 @@
-def AsyncRequestHandler():
-    '''public AsyncRequestHandler()
+def ():
+    '''returns AsyncRequestHandler\n\n
+    ()\n
     '''
 def handleRequest():
-    '''public JSONObject handleRequest(final AsyncRESTRequest arr)
+    '''returns JSONObject\n\n
+    handleRequest(final AsyncRESTRequest arr)\n
     '''
 def handleRESTRequest():
-    '''public OslcResourceResponse handleRESTRequest(final AsyncRESTRequest arr)
+    '''returns OslcResourceResponse\n\n
+    handleRESTRequest(final AsyncRESTRequest arr)\n
     '''
 def isErrorResponse():
-    '''public boolean isErrorResponse()
+    '''returns boolean\n\n
+    isErrorResponse()\n
     '''
 def getHasNextPage():
-    '''public boolean getHasNextPage()
+    '''returns boolean\n\n
+    getHasNextPage()\n
     '''

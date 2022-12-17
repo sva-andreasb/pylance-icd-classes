@@ -1,19 +1,25 @@
 TYPE = "String  \"project\""
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getApiKey():
-    '''public String getApiKey()
+    '''returns String\n\n
+    getApiKey()\n
     '''
 def setApiKey():
-    '''public void setApiKey(final String apiKey)
+    '''returns None\n\n
+    setApiKey(final String apiKey)\n
     '''

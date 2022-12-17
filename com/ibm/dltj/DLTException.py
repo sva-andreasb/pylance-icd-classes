@@ -1,7 +1,5 @@
-def getCopyright():
-    '''public static String getCopyright()
-    '''
-def DLTException():
-    '''public DLTException()
-    public DLTException(final String message)
+def ():
+    '''returns DLTException\n\n
+    ()\n
+    (final String message)\n
     '''

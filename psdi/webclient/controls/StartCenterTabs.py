@@ -1,18 +1,24 @@
-def StartCenterTabs():
-    '''public StartCenterTabs()
+def ():
+    '''returns StartCenterTabs\n\n
+    ()\n
     '''
 def getRenderData():
-    '''public ArrayList getRenderData()
+    '''returns ArrayList\n\n
+    getRenderData()\n
     '''
 def getCurrentStartCenterId():
-    '''public String getCurrentStartCenterId()
+    '''returns String\n\n
+    getCurrentStartCenterId()\n
     '''
 def changesc():
-    '''public void changesc()
+    '''returns None\n\n
+    changesc()\n
     '''
 def getNewTab():
-    '''public String getNewTab()
+    '''returns String\n\n
+    getNewTab()\n
     '''
 def setStartCenters():
-    '''public void setStartCenters(final ArrayList sc)
+    '''returns None\n\n
+    setStartCenters(final ArrayList sc)\n
     '''

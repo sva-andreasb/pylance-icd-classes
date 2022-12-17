@@ -1,45 +1,60 @@
-def WMLMetaElementImpl():
-    '''public WMLMetaElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+def ():
+    '''returns WMLMetaElementImpl\n\n
+    (final WMLDocumentImpl wmlDocumentImpl, final String s)\n
     '''
 def setForua():
-    '''public void setForua(final boolean b)
+    '''returns None\n\n
+    setForua(final boolean b)\n
     '''
 def getForua():
-    '''public boolean getForua()
+    '''returns boolean\n\n
+    getForua()\n
     '''
 def setScheme():
-    '''public void setScheme(final String s)
+    '''returns None\n\n
+    setScheme(final String s)\n
     '''
 def getScheme():
-    '''public String getScheme()
+    '''returns String\n\n
+    getScheme()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setHttpEquiv():
-    '''public void setHttpEquiv(final String s)
+    '''returns None\n\n
+    setHttpEquiv(final String s)\n
     '''
 def getHttpEquiv():
-    '''public String getHttpEquiv()
+    '''returns String\n\n
+    getHttpEquiv()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setContent():
-    '''public void setContent(final String s)
+    '''returns None\n\n
+    setContent(final String s)\n
     '''
 def getContent():
-    '''public String getContent()
+    '''returns String\n\n
+    getContent()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

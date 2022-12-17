@@ -1,3 +1,4 @@
-def TloamCurrencySet():
-    '''public TloamCurrencySet(final MboServerInterface ms)
+def ():
+    '''returns TloamCurrencySet\n\n
+    (final MboServerInterface ms)\n
     '''

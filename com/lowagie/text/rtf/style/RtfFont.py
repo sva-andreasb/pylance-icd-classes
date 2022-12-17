@@ -3,55 +3,71 @@ STYLE_ITALIC = "int  1"
 STYLE_BOLD = "int  2"
 STYLE_UNDERLINE = "int  4"
 STYLE_STRIKETHROUGH = "int  8"
-def RtfFont():
-    '''public RtfFont(final String fontName)
-    public RtfFont(final String fontName, final float size)
-    public RtfFont(final String fontName, final float size, final int style)
-    public RtfFont(final String fontName, final float size, final int style, final Color color)
-    public RtfFont(final RtfDocument doc, final Font font)
+def ():
+    '''returns RtfFont\n\n
+    (final String fontName)\n
+    (final String fontName, final float size)\n
+    (final String fontName, final float size, final int style)\n
+    (final String fontName, final float size, final int style, final Color color)\n
+    (final RtfDocument doc, final Font font)\n
     '''
 def writeDefinition():
-    '''public byte[] writeDefinition()
+    '''returns byte[]\n\n
+    writeDefinition()\n
     '''
 def writeBegin():
-    '''public byte[] writeBegin()
+    '''returns byte[]\n\n
+    writeBegin()\n
     '''
 def writeEnd():
-    '''public byte[] writeEnd()
+    '''returns byte[]\n\n
+    writeEnd()\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getFontName():
-    '''public String getFontName()
+    '''returns String\n\n
+    getFontName()\n
     '''
 def getFamilyname():
-    '''public String getFamilyname()
+    '''returns String\n\n
+    getFamilyname()\n
     '''
 def getFontSize():
-    '''public int getFontSize()
+    '''returns int\n\n
+    getFontSize()\n
     '''
 def getFontStyle():
-    '''public int getFontStyle()
+    '''returns int\n\n
+    getFontStyle()\n
     '''
 def getFontNumber():
-    '''public int getFontNumber()
+    '''returns int\n\n
+    getFontNumber()\n
     '''
 def setRtfDocument():
-    '''public void setRtfDocument(final RtfDocument doc)
+    '''returns None\n\n
+    setRtfDocument(final RtfDocument doc)\n
     '''
 def setInTable():
-    '''public void setInTable(final boolean inTable)
+    '''returns None\n\n
+    setInTable(final boolean inTable)\n
     '''
 def setInHeader():
-    '''public void setInHeader(final boolean inHeader)
+    '''returns None\n\n
+    setInHeader(final boolean inHeader)\n
     '''
 def difference():
-    '''public Font difference(final Font font)
+    '''returns Font\n\n
+    difference(final Font font)\n
     '''

@@ -1,6 +1,8 @@
-def PmComPersonGroupsSet():
-    '''public PmComPersonGroupsSet(final MboServerInterface ms)
+def ():
+    '''returns PmComPersonGroupsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

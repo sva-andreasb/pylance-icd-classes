@@ -1,27 +1,36 @@
-def DOMOutputImpl():
-    '''public DOMOutputImpl()
+def ():
+    '''returns DOMOutputImpl\n\n
+    ()\n
     '''
 def getCharacterStream():
-    '''public Writer getCharacterStream()
+    '''returns Writer\n\n
+    getCharacterStream()\n
     '''
 def setCharacterStream():
-    '''public void setCharacterStream(final Writer fCharStream)
+    '''returns None\n\n
+    setCharacterStream(final Writer fCharStream)\n
     '''
 def getByteStream():
-    '''public OutputStream getByteStream()
+    '''returns OutputStream\n\n
+    getByteStream()\n
     '''
 def setByteStream():
-    '''public void setByteStream(final OutputStream fByteStream)
+    '''returns None\n\n
+    setByteStream(final OutputStream fByteStream)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String fSystemId)
+    '''returns None\n\n
+    setSystemId(final String fSystemId)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String fEncoding)
+    '''returns None\n\n
+    setEncoding(final String fEncoding)\n
     '''

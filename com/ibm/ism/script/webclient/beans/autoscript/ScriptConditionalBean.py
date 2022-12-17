@@ -1,3 +1,4 @@
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
     '''

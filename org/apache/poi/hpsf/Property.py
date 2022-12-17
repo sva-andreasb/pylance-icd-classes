@@ -1,39 +1,50 @@
 DEFAULT_CODEPAGE = "int  1252"
-def Property():
-    '''public Property()
-    public Property(final Property p)
-    public Property(final long id, final long type, final Object value)
-    public Property(final long id, final byte[] src, final long offset, final int length, final int codepage)
-    public Property(final long id, final LittleEndianByteArrayInputStream leis, final int length, final int codepage)
+def ():
+    '''returns Property\n\n
+    ()\n
+    (final Property p)\n
+    (final long id, final long type, final Object value)\n
+    (final long id, final byte[] src, final long offset, final int length, final int codepage)\n
+    (final long id, final LittleEndianByteArrayInputStream leis, final int length, final int codepage)\n
     '''
 def getID():
-    '''public long getID()
+    '''returns long\n\n
+    getID()\n
     '''
 def setID():
-    '''public void setID(final long id)
+    '''returns None\n\n
+    setID(final long id)\n
     '''
 def getType():
-    '''public long getType()
+    '''returns long\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final long type)
+    '''returns None\n\n
+    setType(final long type)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final int codepage, final PropertyIDMap idMap)
+    '''returns String\n\n
+    toString()\n
+    toString(final int codepage, final PropertyIDMap idMap)\n
     '''
 def write():
-    '''public int write(final OutputStream out, final int codepage)
+    '''returns int\n\n
+    write(final OutputStream out, final int codepage)\n
     '''

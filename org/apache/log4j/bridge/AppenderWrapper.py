@@ -1,39 +1,52 @@
-def AppenderWrapper():
-    '''public AppenderWrapper(final org.apache.logging.log4j.core.Appender appender)
+def ():
+    '''returns AppenderWrapper\n\n
+    (final org.apache.logging.log4j.core.Appender appender)\n
     '''
 def addFilter():
-    '''public void addFilter(final Filter newFilter)
+    '''returns None\n\n
+    addFilter(final Filter newFilter)\n
     '''
 def getFilter():
-    '''public Filter getFilter()
+    '''returns Filter\n\n
+    getFilter()\n
     '''
 def clearFilters():
-    '''public void clearFilters()
+    '''returns None\n\n
+    clearFilters()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def doAppend():
-    '''public void doAppend(final LoggingEvent event)
+    '''returns None\n\n
+    doAppend(final LoggingEvent event)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler errorHandler)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler errorHandler)\n
     '''
 def getErrorHandler():
-    '''public ErrorHandler getErrorHandler()
+    '''returns ErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def setLayout():
-    '''public void setLayout(final Layout layout)
+    '''returns None\n\n
+    setLayout(final Layout layout)\n
     '''
 def getLayout():
-    '''public Layout getLayout()
+    '''returns Layout\n\n
+    getLayout()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def requiresLayout():
-    '''public boolean requiresLayout()
+    '''returns boolean\n\n
+    requiresLayout()\n
     '''

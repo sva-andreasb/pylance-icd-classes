@@ -1,33 +1,40 @@
-def TcpTunnelGui():
-    '''public TcpTunnelGui(final int i, final String str, final int j)
+def ():
+    '''returns TcpTunnelGui\n\n
+    (final int i, final String str, final int j)\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def getListenPort():
-    '''public int getListenPort()
+    '''returns int\n\n
+    getListenPort()\n
     '''
 def getListenText():
-    '''public TextArea getListenText()
+    '''returns TextArea\n\n
+    getListenText()\n
     '''
 def getStatus():
-    '''public Label getStatus()
+    '''returns Label\n\n
+    getStatus()\n
     '''
 def getTunnelHost():
-    '''public String getTunnelHost()
+    '''returns String\n\n
+    getTunnelHost()\n
     '''
 def getTunnelPort():
-    '''public int getTunnelPort()
+    '''returns int\n\n
+    getTunnelPort()\n
     '''
 def getTunnelText():
-    '''public TextArea getTunnelText()
-    '''
-def main():
-    '''public static void main(final String[] array)
+    '''returns TextArea\n\n
+    getTunnelText()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

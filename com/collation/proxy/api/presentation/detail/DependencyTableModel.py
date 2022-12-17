@@ -1,36 +1,48 @@
-def DependencyTableModel():
-    '''public DependencyTableModel(final List data, final boolean isHost)
+def ():
+    '''returns DependencyTableModel\n\n
+    (final List data, final boolean isHost)\n
     '''
 def setData():
-    '''public void setData(final List data)
+    '''returns None\n\n
+    setData(final List data)\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getValueAt():
-    '''public Object getValueAt(final int row, final int col)
+    '''returns Object\n\n
+    getValueAt(final int row, final int col)\n
     '''
 def getModelObject():
-    '''public ModelObject getModelObject(final int row)
+    '''returns ModelObject\n\n
+    getModelObject(final int row)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int col)
+    '''returns String\n\n
+    getColumnName(final int col)\n
     '''
 def getElementAt():
-    '''public Object getElementAt(final int position)
+    '''returns Object\n\n
+    getElementAt(final int position)\n
     '''
 def add():
-    '''public void add(final DependencyBean ip)
+    '''returns None\n\n
+    add(final DependencyBean ip)\n
     '''
 def isPresent():
-    '''public boolean isPresent(final Guid id)
+    '''returns boolean\n\n
+    isPresent(final Guid id)\n
     '''
 def remove():
-    '''public void remove(final int position)
+    '''returns None\n\n
+    remove(final int position)\n
     '''
 def getData():
-    '''public List getData()
+    '''returns List\n\n
+    getData()\n
     '''

@@ -1,3 +1,4 @@
-def IntErrorChangeStatusSet():
-    '''public IntErrorChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns IntErrorChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

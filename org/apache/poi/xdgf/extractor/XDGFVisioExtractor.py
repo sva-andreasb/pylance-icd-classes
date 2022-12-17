@@ -1,10 +1,9 @@
-def XDGFVisioExtractor():
-    '''public XDGFVisioExtractor(final XmlVisioDocument document)
-    public XDGFVisioExtractor(final OPCPackage openPackage)
+def ():
+    '''returns XDGFVisioExtractor\n\n
+    (final XmlVisioDocument document)\n
+    (final OPCPackage openPackage)\n
     '''
 def getText():
-    '''public String getText()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    getText()\n
     '''

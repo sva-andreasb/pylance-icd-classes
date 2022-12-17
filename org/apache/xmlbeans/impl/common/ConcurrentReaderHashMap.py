@@ -1,108 +1,120 @@
 DEFAULT_LOAD_FACTOR = "float  0.75f"
-def ConcurrentReaderHashMap():
-    '''public ConcurrentReaderHashMap(final int initialCapacity, final float loadFactor)
-    public ConcurrentReaderHashMap(final int initialCapacity)
-    public ConcurrentReaderHashMap()
-    public ConcurrentReaderHashMap(final Map t)
-    '''
-def size():
-    '''public synchronized int size()
-    public int size()
-    public int size()
-    public int size()
-    '''
-def isEmpty():
-    '''public synchronized boolean isEmpty()
+def ():
+    '''returns ConcurrentReaderHashMap\n\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final int initialCapacity)\n
+    ()\n
+    (final Map t)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
     '''
 def remove():
-    '''public Object remove(final Object key)
-    public boolean remove(final Object o)
-    public boolean remove(final Object o)
-    public void remove()
+    '''returns None\n\n
+    remove(final Object key)\n
+    remove(final Object o)\n
+    remove(final Object o)\n
+    remove()\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def contains():
-    '''public boolean contains(final Object value)
-    public boolean contains(final Object o)
-    public boolean contains(final Object o)
-    public boolean contains(final Object o)
-    '''
-def putAll():
-    '''public synchronized void putAll(final Map t)
-    '''
-def clear():
-    '''public synchronized void clear()
-    public void clear()
-    public void clear()
-    public void clear()
-    '''
-def clone():
-    '''public synchronized Object clone()
+    '''returns boolean\n\n
+    contains(final Object value)\n
+    contains(final Object o)\n
+    contains(final Object o)\n
+    contains(final Object o)\n
     '''
 def keySet():
-    '''public Set keySet()
+    '''returns Set\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection values()
+    '''returns Collection\n\n
+    values()\n
     '''
 def entrySet():
-    '''public Set entrySet()
+    '''returns Set\n\n
+    entrySet()\n
     '''
 def keys():
-    '''public Enumeration keys()
+    '''returns Enumeration\n\n
+    keys()\n
     '''
 def elements():
-    '''public Enumeration elements()
-    '''
-def capacity():
-    '''public synchronized int capacity()
+    '''returns Enumeration\n\n
+    elements()\n
     '''
 def loadFactor():
-    '''public float loadFactor()
+    '''returns float\n\n
+    loadFactor()\n
     '''
 def iterator():
-    '''public Iterator iterator()
-    public Iterator iterator()
-    public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
+    iterator()\n
+    iterator()\n
+    '''
+def size():
+    '''returns int\n\n
+    size()\n
+    size()\n
+    size()\n
+    '''
+def clear():
+    '''returns None\n\n
+    clear()\n
+    clear()\n
+    clear()\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public Object setValue(final Object value)
+    '''returns Object\n\n
+    setValue(final Object value)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

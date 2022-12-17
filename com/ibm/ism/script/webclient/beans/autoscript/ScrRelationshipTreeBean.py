@@ -1,6 +1,8 @@
 def getTreeControlObjectName():
-    '''public String getTreeControlObjectName()
+    '''returns String\n\n
+    getTreeControlObjectName()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''

@@ -1,40 +1,53 @@
-def SynchronizationPoint():
-    '''public SynchronizationPoint(final AbstractXMPPConnection connection, final String waitFor)
+def ():
+    '''returns SynchronizationPoint\n\n
+    (final AbstractXMPPConnection connection, final String waitFor)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def sendAndWaitForResponse():
-    '''public Exception sendAndWaitForResponse(final TopLevelStreamElement request)
+    '''returns Exception\n\n
+    sendAndWaitForResponse(final TopLevelStreamElement request)\n
     '''
 def sendAndWaitForResponseOrThrow():
-    '''public void sendAndWaitForResponseOrThrow(final Nonza request)
+    '''returns None\n\n
+    sendAndWaitForResponseOrThrow(final Nonza request)\n
     '''
 def checkIfSuccessOrWaitOrThrow():
-    '''public void checkIfSuccessOrWaitOrThrow()
+    '''returns None\n\n
+    checkIfSuccessOrWaitOrThrow()\n
     '''
 def checkIfSuccessOrWait():
-    '''public Exception checkIfSuccessOrWait()
+    '''returns Exception\n\n
+    checkIfSuccessOrWait()\n
     '''
 def reportSuccess():
-    '''public void reportSuccess()
+    '''returns None\n\n
+    reportSuccess()\n
     '''
 def reportFailure():
-    '''public void reportFailure()
-    public void reportFailure(final E failureException)
+    '''returns None\n\n
+    reportFailure()\n
+    reportFailure(final E failureException)\n
     '''
 def reportGenericFailure():
-    '''public void reportGenericFailure(final SmackException.SmackWrappedException exception)
+    '''returns None\n\n
+    reportGenericFailure(final SmackException.SmackWrappedException exception)\n
     '''
 def wasSuccessful():
-    '''public boolean wasSuccessful()
+    '''returns boolean\n\n
+    wasSuccessful()\n
     '''
 def isNotInInitialState():
-    '''public boolean isNotInInitialState()
+    '''returns boolean\n\n
+    isNotInInitialState()\n
     '''
 def requestSent():
-    '''public boolean requestSent()
+    '''returns boolean\n\n
+    requestSent()\n
     '''
 def getFailureException():
-    '''public E getFailureException()
+    '''returns E\n\n
+    getFailureException()\n
     '''

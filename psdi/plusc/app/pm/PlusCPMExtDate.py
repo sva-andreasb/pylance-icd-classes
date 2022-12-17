@@ -1,3 +1,4 @@
-def PlusCPMExtDate():
-    '''public PlusCPMExtDate(final MboSet ms)
+def ():
+    '''returns PlusCPMExtDate\n\n
+    (final MboSet ms)\n
     '''

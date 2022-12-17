@@ -1,55 +1,45 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def ProduceRequest():
-    '''public ProduceRequest(final Struct struct, final short version)
+def ():
+    '''returns ProduceRequest\n\n
+    (final Struct struct, final short version)\n
     '''
 def toStruct():
-    '''public Struct toStruct()
+    '''returns Struct\n\n
+    toStruct()\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    public String toString()
+    '''returns String\n\n
+    toString(final boolean verbose)\n
+    toString()\n
     '''
 def getErrorResponse():
-    '''public ProduceResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts(final Throwable e)
+    '''returns ProduceResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def acks():
-    '''public short acks()
+    '''returns short\n\n
+    acks()\n
     '''
 def timeout():
-    '''public int timeout()
+    '''returns int\n\n
+    timeout()\n
     '''
 def transactionalId():
-    '''public String transactionalId()
+    '''returns String\n\n
+    transactionalId()\n
     '''
 def isTransactional():
-    '''public boolean isTransactional()
+    '''returns boolean\n\n
+    isTransactional()\n
     '''
 def isIdempotent():
-    '''public boolean isIdempotent()
-    '''
-def partitionRecordsOrFail():
-    '''public Map<TopicPartition, MemoryRecords> partitionRecordsOrFail()
+    '''returns boolean\n\n
+    isIdempotent()\n
     '''
 def clearPartitionRecords():
-    '''public void clearPartitionRecords()
-    '''
-def parse():
-    '''public static ProduceRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def requiredMagicForVersion():
-    '''public static byte requiredMagicForVersion(final short produceRequestVersion)
-    '''
-def forCurrentMagic():
-    '''public static Builder forCurrentMagic(final short acks, final int timeout, final Map<TopicPartition, MemoryRecords> partitionRecords)
-    '''
-def forMagic():
-    '''public static Builder forMagic(final byte magic, final short acks, final int timeout, final Map<TopicPartition, MemoryRecords> partitionRecords, final String transactionalId)
+    '''returns None\n\n
+    clearPartitionRecords()\n
     '''
 def build():
-    '''public ProduceRequest build(final short version)
+    '''returns ProduceRequest\n\n
+    build(final short version)\n
     '''

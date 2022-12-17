@@ -1,7 +1,9 @@
-def FldEscalationLastRun():
-    '''public FldEscalationLastRun()
-    public FldEscalationLastRun(final MboValue mbv)
+def ():
+    '''returns FldEscalationLastRun\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

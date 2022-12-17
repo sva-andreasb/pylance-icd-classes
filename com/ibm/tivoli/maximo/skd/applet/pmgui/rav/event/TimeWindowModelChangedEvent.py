@@ -1,16 +1,21 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TimeWindowModelChangedEvent():
-    '''public TimeWindowModelChangedEvent(final Object source, final TimeWindowModel oldModel, final TimeWindowModel newModel)
+def ():
+    '''returns TimeWindowModelChangedEvent\n\n
+    (final Object source, final TimeWindowModel oldModel, final TimeWindowModel newModel)\n
     '''
 def getNewTimeWindowModel():
-    '''public TimeWindowModel getNewTimeWindowModel()
+    '''returns TimeWindowModel\n\n
+    getNewTimeWindowModel()\n
     '''
 def setNewTimeWindowModel():
-    '''public void setNewTimeWindowModel(final TimeWindowModel newModel)
+    '''returns None\n\n
+    setNewTimeWindowModel(final TimeWindowModel newModel)\n
     '''
 def getOldTimeWindowModel():
-    '''public TimeWindowModel getOldTimeWindowModel()
+    '''returns TimeWindowModel\n\n
+    getOldTimeWindowModel()\n
     '''
 def setOldTimeWindowModel():
-    '''public void setOldTimeWindowModel(final TimeWindowModel oldModel)
+    '''returns None\n\n
+    setOldTimeWindowModel(final TimeWindowModel oldModel)\n
     '''

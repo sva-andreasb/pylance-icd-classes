@@ -1,12 +1,16 @@
-def CastedIterator():
-    '''public CastedIterator(final Iterator iter)
+def ():
+    '''returns CastedIterator\n\n
+    (final Iterator iter)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

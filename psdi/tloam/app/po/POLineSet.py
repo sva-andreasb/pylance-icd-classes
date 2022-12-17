@@ -1,3 +1,4 @@
-def POLineSet():
-    '''public POLineSet(final MboServerInterface ms)
+def ():
+    '''returns POLineSet\n\n
+    (final MboServerInterface ms)\n
     '''

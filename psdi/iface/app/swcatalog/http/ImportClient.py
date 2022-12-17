@@ -1,32 +1,42 @@
-def ImportClient():
-    '''public ImportClient(final String urlSpec)
-    public ImportClient(final String host, final int port)
+def ():
+    '''returns ImportClient\n\n
+    (final String urlSpec)\n
+    (final String host, final int port)\n
     '''
 def getURLEncodedString():
-    '''public String getURLEncodedString(final Map<String, String> requestProps)
+    '''returns String\n\n
+    getURLEncodedString(final Map<String, String> requestProps)\n
     '''
 def getGUID():
-    '''public String getGUID()
+    '''returns String\n\n
+    getGUID()\n
     '''
 def getStatus():
-    '''public String getStatus(final String guid)
+    '''returns String\n\n
+    getStatus(final String guid)\n
     '''
 def logProperties():
-    '''public void logProperties(final Properties props)
+    '''returns None\n\n
+    logProperties(final Properties props)\n
     '''
 def pollStatus():
-    '''public void pollStatus(final String guid, final int seconds, final int timeout)
+    '''returns None\n\n
+    pollStatus(final String guid, final int seconds, final int timeout)\n
     '''
 def getCanonical():
-    '''public void getCanonical(final String filename, final String sourceDir)
+    '''returns None\n\n
+    getCanonical(final String filename, final String sourceDir)\n
     '''
 def send():
-    '''public InputStream send(final String url)
-    public InputStream send(final String url2, final String url1)
+    '''returns InputStream\n\n
+    send(final String url)\n
+    send(final String url2, final String url1)\n
     '''
 def getBaseUrl():
-    '''public String getBaseUrl()
+    '''returns String\n\n
+    getBaseUrl()\n
     '''
 def verify():
-    '''public boolean verify(final String arg0, final SSLSession arg1)
+    '''returns boolean\n\n
+    verify(final String arg0, final SSLSession arg1)\n
     '''

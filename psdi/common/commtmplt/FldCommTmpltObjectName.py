@@ -1,6 +1,8 @@
-def FldCommTmpltObjectName():
-    '''public FldCommTmpltObjectName(final MboValue mbv)
+def ():
+    '''returns FldCommTmpltObjectName\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,10 +1,13 @@
-def CurrencyInfo():
-    '''public CurrencyInfo(final String region, final String code, final long from, final long to, final int priority)
-    public CurrencyInfo(final String region, final String code, final long from, final long to, final int priority, final boolean tender)
+def ():
+    '''returns CurrencyInfo\n\n
+    (final String region, final String code, final long from, final long to, final int priority)\n
+    (final String region, final String code, final long from, final long to, final int priority, final boolean tender)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isTender():
-    '''public boolean isTender()
+    '''returns boolean\n\n
+    isTender()\n
     '''

@@ -1,21 +1,24 @@
 def computeNonce():
-    '''public void computeNonce()
+    '''returns None\n\n
+    computeNonce()\n
     '''
 def computeTimestamp():
-    '''public void computeTimestamp()
+    '''returns None\n\n
+    computeTimestamp()\n
     '''
 def computeSignature():
-    '''public void computeSignature(final String requestMethod, final GenericUrl requestUrl)
+    '''returns None\n\n
+    computeSignature(final String requestMethod, final GenericUrl requestUrl)\n
     '''
 def getAuthorizationHeader():
-    '''public String getAuthorizationHeader()
-    '''
-def escape():
-    '''public static String escape(final String value)
+    '''returns String\n\n
+    getAuthorizationHeader()\n
     '''
 def initialize():
-    '''public void initialize(final HttpRequest request)
+    '''returns None\n\n
+    initialize(final HttpRequest request)\n
     '''
 def intercept():
-    '''public void intercept(final HttpRequest request)
+    '''returns None\n\n
+    intercept(final HttpRequest request)\n
     '''

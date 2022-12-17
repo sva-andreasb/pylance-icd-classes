@@ -1,29 +1,32 @@
-def DataSourceConnectionPool():
-    '''public DataSourceConnectionPool(final DataSourceInfo dataSourceInfo)
+def ():
+    '''returns CleanUpThread\n\n
+    (final DataSourceInfo dataSourceInfo)\n
+    ()\n
+    ()\n
     '''
 def getNewConnection():
-    '''public DataSourceConnection getNewConnection()
-    public DataSourceConnection getNewConnection(final String dbUserName)
+    '''returns DataSourceConnection\n\n
+    getNewConnection()\n
+    getNewConnection(final String dbUserName)\n
     '''
 def freeConnection():
-    '''public void freeConnection(final DataSourceConnection connection)
+    '''returns None\n\n
+    freeConnection(final DataSourceConnection connection)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def adjustPool():
-    '''public void adjustPool()
+    '''returns None\n\n
+    adjustPool()\n
     '''
 def getMaxAllowedActiveReportThreads():
-    '''public int getMaxAllowedActiveReportThreads()
-    '''
-def CheckValidConnection():
-    '''public CheckValidConnection()
+    '''returns int\n\n
+    getMaxAllowedActiveReportThreads()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    '''
-def CleanUpThread():
-    '''public CleanUpThread()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''

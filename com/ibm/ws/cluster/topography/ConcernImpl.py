@@ -1,31 +1,41 @@
-def ConcernImpl():
-    '''public ConcernImpl()
-    public ConcernImpl(final int interest)
+def ():
+    '''returns ConcernImpl\n\n
+    ()\n
+    (final int interest)\n
     '''
 def getInterest():
-    '''public int getInterest()
+    '''returns int\n\n
+    getInterest()\n
     '''
 def hasInterest():
-    '''public boolean hasInterest(final int mask)
+    '''returns boolean\n\n
+    hasInterest(final int mask)\n
     '''
 def addInterest():
-    '''public void addInterest(final int mask)
+    '''returns None\n\n
+    addInterest(final int mask)\n
     '''
 def removeInterest():
-    '''public void removeInterest(final int mask)
+    '''returns None\n\n
+    removeInterest(final int mask)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput out)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput out)\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput in)
+    '''returns None\n\n
+    readExternal(final ObjectInput in)\n
     '''
 def equals():
-    '''public boolean equals(final Object arg0)
+    '''returns boolean\n\n
+    equals(final Object arg0)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

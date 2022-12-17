@@ -1,3 +1,4 @@
-def SSLInitializationException():
-    '''public SSLInitializationException(final String message, final Throwable cause)
+def ():
+    '''returns SSLInitializationException\n\n
+    (final String message, final Throwable cause)\n
     '''

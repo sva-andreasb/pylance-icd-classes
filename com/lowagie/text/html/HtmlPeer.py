@@ -1,6 +1,8 @@
-def HtmlPeer():
-    '''public HtmlPeer(final String name, final String alias)
+def ():
+    '''returns HtmlPeer\n\n
+    (final String name, final String alias)\n
     '''
 def addAlias():
-    '''public void addAlias(final String name, final String alias)
+    '''returns None\n\n
+    addAlias(final String name, final String alias)\n
     '''

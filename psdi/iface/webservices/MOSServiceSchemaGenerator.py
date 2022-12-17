@@ -1,19 +1,25 @@
 MOSSERVICESCHEMADIR = "String  \"service\""
-def MOSServiceSchemaGenerator():
-    '''public MOSServiceSchemaGenerator(final String mosName)
+def ():
+    '''returns MOSServiceSchemaGenerator\n\n
+    (final String mosName)\n
     '''
 def getSchemaFolder():
-    '''public File getSchemaFolder()
+    '''returns File\n\n
+    getSchemaFolder()\n
     '''
 def getSchemaFileName():
-    '''public String getSchemaFileName()
+    '''returns String\n\n
+    getSchemaFileName()\n
     '''
 def getSchemaElementFor():
-    '''public String getSchemaElementFor(final String msgType)
+    '''returns String\n\n
+    getSchemaElementFor(final String msgType)\n
     '''
 def getSchemaElementTypeFor():
-    '''public String getSchemaElementTypeFor(final String msgType)
+    '''returns String\n\n
+    getSchemaElementTypeFor(final String msgType)\n
     '''
 def getSchemaUrl():
-    '''public String getSchemaUrl()
+    '''returns String\n\n
+    getSchemaUrl()\n
     '''

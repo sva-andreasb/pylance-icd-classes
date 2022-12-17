@@ -1,6 +1,8 @@
-def BudgetRuleSet():
-    '''public BudgetRuleSet(final MboServerInterface ms)
+def ():
+    '''returns BudgetRuleSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

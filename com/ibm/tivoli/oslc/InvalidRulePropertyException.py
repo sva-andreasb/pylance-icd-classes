@@ -1,6 +1,8 @@
-def InvalidRulePropertyException():
-    '''public InvalidRulePropertyException(final String property)
+def ():
+    '''returns InvalidRulePropertyException\n\n
+    (final String property)\n
     '''
 def getRuleProperty():
-    '''public String getRuleProperty()
+    '''returns String\n\n
+    getRuleProperty()\n
     '''

@@ -1,14 +1,18 @@
-def WeeklyShiftBucketDataSet():
-    '''public WeeklyShiftBucketDataSet(final String name)
-    public WeeklyShiftBucketDataSet()
-    public WeeklyShiftBucketDataSet(final String name, final int weekDay)
+def ():
+    '''returns WeeklyShiftBucketDataSet\n\n
+    (final String name)\n
+    ()\n
+    (final String name, final int weekDay)\n
     '''
 def calculateKey():
-    '''public String calculateKey(final Date date)
+    '''returns String\n\n
+    calculateKey(final Date date)\n
     '''
 def getNextKey():
-    '''public String getNextKey(final String key)
+    '''returns String\n\n
+    getNextKey(final String key)\n
     '''
 def getData():
-    '''public List<DateRangeWithValue> getData()
+    '''returns List<DateRangeWithValue>\n\n
+    getData()\n
     '''

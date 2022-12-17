@@ -1,124 +1,160 @@
-def AgentSession():
-    '''public AgentSession(final EntityBareJid workgroupJID, final XMPPConnection connection)
+def ():
+    '''returns AgentSession\n\n
+    (final EntityBareJid workgroupJID, final XMPPConnection connection)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
     '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
-    public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getAgentRoster():
-    '''public AgentRoster getAgentRoster()
+    '''returns AgentRoster\n\n
+    getAgentRoster()\n
     '''
 def getMaxChats():
-    '''public int getMaxChats()
+    '''returns int\n\n
+    getMaxChats()\n
     '''
 def isOnline():
-    '''public boolean isOnline()
+    '''returns boolean\n\n
+    isOnline()\n
     '''
 def setMetaData():
-    '''public void setMetaData(final String key, final String val)
+    '''returns None\n\n
+    setMetaData(final String key, final String val)\n
     '''
 def removeMetaData():
-    '''public void removeMetaData(final String key)
+    '''returns None\n\n
+    removeMetaData(final String key)\n
     '''
 def getMetaData():
-    '''public List<String> getMetaData(final String key)
+    '''returns List<String>\n\n
+    getMetaData(final String key)\n
     '''
 def setOnline():
-    '''public void setOnline(final boolean online)
+    '''returns None\n\n
+    setOnline(final boolean online)\n
     '''
 def setStatus():
-    '''public void setStatus(final Presence.Mode presenceMode, final int maxChats)
-    public void setStatus(Presence.Mode presenceMode, final int maxChats, final String status)
-    public void setStatus(Presence.Mode presenceMode, final String status)
+    '''returns None\n\n
+    setStatus(final Presence.Mode presenceMode, final int maxChats)\n
+    setStatus(Presence.Mode presenceMode, final int maxChats, final String status)\n
+    setStatus(Presence.Mode presenceMode, final String status)\n
     '''
 def dequeueUser():
-    '''public void dequeueUser(final EntityJid userID)
+    '''returns None\n\n
+    dequeueUser(final EntityJid userID)\n
     '''
 def getTranscripts():
-    '''public Transcripts getTranscripts(final Jid userID)
+    '''returns Transcripts\n\n
+    getTranscripts(final Jid userID)\n
     '''
 def getTranscript():
-    '''public Transcript getTranscript(final String sessionID)
+    '''returns Transcript\n\n
+    getTranscript(final String sessionID)\n
     '''
 def getTranscriptSearchForm():
-    '''public Form getTranscriptSearchForm()
+    '''returns Form\n\n
+    getTranscriptSearchForm()\n
     '''
 def searchTranscripts():
-    '''public ReportedData searchTranscripts(final Form completedForm)
+    '''returns ReportedData\n\n
+    searchTranscripts(final Form completedForm)\n
     '''
 def getOccupantsInfo():
-    '''public OccupantsInfo getOccupantsInfo(final String roomID)
+    '''returns OccupantsInfo\n\n
+    getOccupantsInfo(final String roomID)\n
     '''
 def getWorkgroupJID():
-    '''public Jid getWorkgroupJID()
+    '''returns Jid\n\n
+    getWorkgroupJID()\n
     '''
 def getAgent():
-    '''public Agent getAgent()
+    '''returns Agent\n\n
+    getAgent()\n
     '''
 def getQueue():
-    '''public WorkgroupQueue getQueue(final String queueName)
-    public WorkgroupQueue getQueue(final Resourcepart queueName)
+    '''returns WorkgroupQueue\n\n
+    getQueue(final String queueName)\n
+    getQueue(final Resourcepart queueName)\n
     '''
 def getQueues():
-    '''public Iterator<WorkgroupQueue> getQueues()
+    '''returns Iterator<WorkgroupQueue>\n\n
+    getQueues()\n
     '''
 def addQueueUsersListener():
-    '''public void addQueueUsersListener(final QueueUsersListener listener)
+    '''returns None\n\n
+    addQueueUsersListener(final QueueUsersListener listener)\n
     '''
 def removeQueueUsersListener():
-    '''public void removeQueueUsersListener(final QueueUsersListener listener)
+    '''returns None\n\n
+    removeQueueUsersListener(final QueueUsersListener listener)\n
     '''
 def addOfferListener():
-    '''public void addOfferListener(final OfferListener offerListener)
+    '''returns None\n\n
+    addOfferListener(final OfferListener offerListener)\n
     '''
 def removeOfferListener():
-    '''public void removeOfferListener(final OfferListener offerListener)
+    '''returns None\n\n
+    removeOfferListener(final OfferListener offerListener)\n
     '''
 def addInvitationListener():
-    '''public void addInvitationListener(final WorkgroupInvitationListener invitationListener)
+    '''returns None\n\n
+    addInvitationListener(final WorkgroupInvitationListener invitationListener)\n
     '''
 def removeInvitationListener():
-    '''public void removeInvitationListener(final WorkgroupInvitationListener invitationListener)
+    '''returns None\n\n
+    removeInvitationListener(final WorkgroupInvitationListener invitationListener)\n
     '''
 def setNote():
-    '''public void setNote(final String sessionID, final String note)
+    '''returns None\n\n
+    setNote(final String sessionID, final String note)\n
     '''
 def getNote():
-    '''public ChatNotes getNote(final String sessionID)
+    '''returns ChatNotes\n\n
+    getNote(final String sessionID)\n
     '''
 def getAgentHistory():
-    '''public AgentChatHistory getAgentHistory(final EntityBareJid jid, final int maxSessions, final Date startDate)
+    '''returns AgentChatHistory\n\n
+    getAgentHistory(final EntityBareJid jid, final int maxSessions, final Date startDate)\n
     '''
 def getSearchSettings():
-    '''public SearchSettings getSearchSettings()
+    '''returns SearchSettings\n\n
+    getSearchSettings()\n
     '''
 def getMacros():
-    '''public MacroGroup getMacros(final boolean global)
+    '''returns MacroGroup\n\n
+    getMacros(final boolean global)\n
     '''
 def saveMacros():
-    '''public void saveMacros(final MacroGroup group)
-    '''
-def getChatMetadata():
-    '''public Map<String, List<String>> getChatMetadata(final String sessionID)
+    '''returns None\n\n
+    saveMacros(final MacroGroup group)\n
     '''
 def sendRoomInvitation():
-    '''public void sendRoomInvitation(final RoomInvitation.Type type, final Jid invitee, final String sessionID, final String reason)
+    '''returns None\n\n
+    sendRoomInvitation(final RoomInvitation.Type type, final Jid invitee, final String sessionID, final String reason)\n
     '''
 def sendRoomTransfer():
-    '''public void sendRoomTransfer(final RoomTransfer.Type type, final String invitee, final String sessionID, final String reason)
+    '''returns None\n\n
+    sendRoomTransfer(final RoomTransfer.Type type, final String invitee, final String sessionID, final String reason)\n
     '''
 def getGenericSettings():
-    '''public GenericSettings getGenericSettings(final XMPPConnection con, final String query)
+    '''returns GenericSettings\n\n
+    getGenericSettings(final XMPPConnection con, final String query)\n
     '''
 def hasMonitorPrivileges():
-    '''public boolean hasMonitorPrivileges(final XMPPConnection con)
+    '''returns boolean\n\n
+    hasMonitorPrivileges(final XMPPConnection con)\n
     '''
 def makeRoomOwner():
-    '''public void makeRoomOwner(final XMPPConnection con, final String sessionID)
+    '''returns None\n\n
+    makeRoomOwner(final XMPPConnection con, final String sessionID)\n
     '''

@@ -1,3 +1,4 @@
-def InvalidModuleException():
-    '''public InvalidModuleException(final String s)
+def ():
+    '''returns InvalidModuleException\n\n
+    (final String s)\n
     '''

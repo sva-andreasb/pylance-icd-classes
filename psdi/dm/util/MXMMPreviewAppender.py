@@ -1,3 +1,4 @@
 def setFile():
-    '''public void setFile(String file)
+    '''returns None\n\n
+    setFile(String file)\n
     '''

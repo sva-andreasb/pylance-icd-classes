@@ -1,3 +1,4 @@
-def FldItemMeterName():
-    '''public FldItemMeterName(final MboValue mbv)
+def ():
+    '''returns FldItemMeterName\n\n
+    (final MboValue mbv)\n
     '''

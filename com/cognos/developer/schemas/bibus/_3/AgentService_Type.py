@@ -1,55 +1,53 @@
-def AgentService_Type():
-    '''public AgentService_Type()
-    public AgentService_Type(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final AnyTypeProp advancedSettings, final AuditLevelEnumProp asAuditLevel, final IntProp asConnections, final IntProp asMaximumEMailAttachmentSize, final IntProp asPeakConnections, final RunningStateEnumProp runningState)
+def ():
+    '''returns AgentService_Type\n\n
+    ()\n
+    (final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final AnyTypeProp advancedSettings, final AuditLevelEnumProp asAuditLevel, final IntProp asConnections, final IntProp asMaximumEMailAttachmentSize, final IntProp asPeakConnections, final RunningStateEnumProp runningState)\n
     '''
 def getAdvancedSettings():
-    '''public AnyTypeProp getAdvancedSettings()
+    '''returns AnyTypeProp\n\n
+    getAdvancedSettings()\n
     '''
 def setAdvancedSettings():
-    '''public void setAdvancedSettings(final AnyTypeProp advancedSettings)
+    '''returns None\n\n
+    setAdvancedSettings(final AnyTypeProp advancedSettings)\n
     '''
 def getAsAuditLevel():
-    '''public AuditLevelEnumProp getAsAuditLevel()
+    '''returns AuditLevelEnumProp\n\n
+    getAsAuditLevel()\n
     '''
 def setAsAuditLevel():
-    '''public void setAsAuditLevel(final AuditLevelEnumProp asAuditLevel)
+    '''returns None\n\n
+    setAsAuditLevel(final AuditLevelEnumProp asAuditLevel)\n
     '''
 def getAsConnections():
-    '''public IntProp getAsConnections()
+    '''returns IntProp\n\n
+    getAsConnections()\n
     '''
 def setAsConnections():
-    '''public void setAsConnections(final IntProp asConnections)
+    '''returns None\n\n
+    setAsConnections(final IntProp asConnections)\n
     '''
 def getAsMaximumEMailAttachmentSize():
-    '''public IntProp getAsMaximumEMailAttachmentSize()
+    '''returns IntProp\n\n
+    getAsMaximumEMailAttachmentSize()\n
     '''
 def setAsMaximumEMailAttachmentSize():
-    '''public void setAsMaximumEMailAttachmentSize(final IntProp asMaximumEMailAttachmentSize)
+    '''returns None\n\n
+    setAsMaximumEMailAttachmentSize(final IntProp asMaximumEMailAttachmentSize)\n
     '''
 def getAsPeakConnections():
-    '''public IntProp getAsPeakConnections()
+    '''returns IntProp\n\n
+    getAsPeakConnections()\n
     '''
 def setAsPeakConnections():
-    '''public void setAsPeakConnections(final IntProp asPeakConnections)
+    '''returns None\n\n
+    setAsPeakConnections(final IntProp asPeakConnections)\n
     '''
 def getRunningState():
-    '''public RunningStateEnumProp getRunningState()
+    '''returns RunningStateEnumProp\n\n
+    getRunningState()\n
     '''
 def setRunningState():
-    '''public void setRunningState(final RunningStateEnumProp runningState)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setRunningState(final RunningStateEnumProp runningState)\n
     '''

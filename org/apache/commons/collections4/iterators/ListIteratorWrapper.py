@@ -1,33 +1,44 @@
-def ListIteratorWrapper():
-    '''public ListIteratorWrapper(final Iterator<? extends E> iterator)
+def ():
+    '''returns ListIteratorWrapper\n\n
+    (final Iterator<? extends E> iterator)\n
     '''
 def add():
-    '''public void add(final E obj)
+    '''returns None\n\n
+    add(final E obj)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def nextIndex():
-    '''public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
     '''
 def previous():
-    '''public E previous()
+    '''returns E\n\n
+    previous()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def set():
-    '''public void set(final E obj)
+    '''returns None\n\n
+    set(final E obj)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

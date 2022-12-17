@@ -1,15 +1,20 @@
-def ReconOperatorLinkCompareAttribute():
-    '''public ReconOperatorLinkCompareAttribute(final ReconInfo reconInfo)
+def ():
+    '''returns ReconOperatorLinkCompareAttribute\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def getInstance():
-    '''public ReconOperator getInstance()
+    '''returns ReconOperator\n\n
+    getInstance()\n
     '''
 def evaluateOperator():
-    '''public List evaluateOperator(final ReconValue leadingObject, final SubordinateSetAttribute[] subordinateSetAttributes)
+    '''returns List\n\n
+    evaluateOperator(final ReconValue leadingObject, final SubordinateSetAttribute[] subordinateSetAttributes)\n
     '''
 def setDataset1AttributeIndex():
-    '''public void setDataset1AttributeIndex(final int authorizedAssetAttributeIndex)
+    '''returns None\n\n
+    setDataset1AttributeIndex(final int authorizedAssetAttributeIndex)\n
     '''
 def setDataset2AttributeIndex():
-    '''public void setDataset2AttributeIndex(final int deployedAssetAttributeIndex)
+    '''returns None\n\n
+    setDataset2AttributeIndex(final int deployedAssetAttributeIndex)\n
     '''

@@ -1,21 +1,26 @@
-def BuildException():
-    '''public BuildException()
-    public BuildException(final String message)
-    public BuildException(final String message, final Throwable cause)
-    public BuildException(final String msg, final Throwable cause, final Location location)
-    public BuildException(final Throwable cause)
-    public BuildException(final String message, final Location location)
-    public BuildException(final Throwable cause, final Location location)
+def ():
+    '''returns BuildException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final String msg, final Throwable cause, final Location location)\n
+    (final Throwable cause)\n
+    (final String message, final Location location)\n
+    (final Throwable cause, final Location location)\n
     '''
 def getException():
-    '''public Throwable getException()
+    '''returns Throwable\n\n
+    getException()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setLocation():
-    '''public void setLocation(final Location location)
+    '''returns None\n\n
+    setLocation(final Location location)\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''

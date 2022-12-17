@@ -1,13 +1,12 @@
-def FutureRequestExecutionService():
-    '''public FutureRequestExecutionService(final HttpClient httpclient, final ExecutorService executorService)
-    '''
-def execute():
-    '''public <T> HttpRequestFutureTask<T> execute(final HttpUriRequest request, final HttpContext context, final ResponseHandler<T> responseHandler)
-    public <T> HttpRequestFutureTask<T> execute(final HttpUriRequest request, final HttpContext context, final ResponseHandler<T> responseHandler, final FutureCallback<T> callback)
+def ():
+    '''returns FutureRequestExecutionService\n\n
+    (final HttpClient httpclient, final ExecutorService executorService)\n
     '''
 def metrics():
-    '''public FutureRequestExecutionMetrics metrics()
+    '''returns FutureRequestExecutionMetrics\n\n
+    metrics()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

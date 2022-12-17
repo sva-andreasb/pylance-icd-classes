@@ -1,7 +1,9 @@
-def FldSKDCalculateUncompletedWorderOrders():
-    '''public FldSKDCalculateUncompletedWorderOrders()
-    public FldSKDCalculateUncompletedWorderOrders(final MboValue mbv)
+def ():
+    '''returns FldSKDCalculateUncompletedWorderOrders\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -1,6 +1,8 @@
-def SCCDUIIncidentOutboundProc():
-    '''public SCCDUIIncidentOutboundProc()
+def ():
+    '''returns SCCDUIIncidentOutboundProc\n\n
+    ()\n
     '''
 def search():
-    '''public void search(final MboSetRemote mboSet, final String text)
+    '''returns None\n\n
+    search(final MboSetRemote mboSet, final String text)\n
     '''

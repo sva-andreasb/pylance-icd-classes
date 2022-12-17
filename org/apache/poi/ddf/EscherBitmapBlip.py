@@ -1,27 +1,35 @@
 RECORD_ID_JPEG = "short  -4067"
 RECORD_ID_PNG = "short  -4066"
 RECORD_ID_DIB = "short  -4065"
-def EscherBitmapBlip():
-    '''public EscherBitmapBlip()
+def ():
+    '''returns EscherBitmapBlip\n\n
+    ()\n
     '''
 def fillFields():
-    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''returns int\n\n
+    fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data, final EscherSerializationListener listener)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def getUID():
-    '''public byte[] getUID()
+    '''returns byte[]\n\n
+    getUID()\n
     '''
 def setUID():
-    '''public void setUID(final byte[] field_1_UID)
+    '''returns None\n\n
+    setUID(final byte[] field_1_UID)\n
     '''
 def getMarker():
-    '''public byte getMarker()
+    '''returns byte\n\n
+    getMarker()\n
     '''
 def setMarker():
-    '''public void setMarker(final byte field_2_marker)
+    '''returns None\n\n
+    setMarker(final byte field_2_marker)\n
     '''

@@ -1,9 +1,12 @@
-def FilterActivityVisitor():
-    '''public FilterActivityVisitor(final IFilter<IlvActivity> filter)
+def ():
+    '''returns FilterActivityVisitor\n\n
+    (final IFilter<IlvActivity> filter)\n
     '''
 def visit():
-    '''public void visit(final IlvActivity item, final IlvGanttModel model, final Void state)
+    '''returns None\n\n
+    visit(final IlvActivity item, final IlvGanttModel model, final Void state)\n
     '''
 def getActivities():
-    '''public List<IlvActivity> getActivities()
+    '''returns List<IlvActivity>\n\n
+    getActivities()\n
     '''

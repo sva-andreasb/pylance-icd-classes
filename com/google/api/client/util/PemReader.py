@@ -1,20 +1,21 @@
-def PemReader():
-    '''public PemReader(final Reader reader)
+def ():
+    '''returns PemReader\n\n
+    (final Reader reader)\n
     '''
 def readNextSection():
-    '''public Section readNextSection()
-    public Section readNextSection(final String titleToLookFor)
-    '''
-def readFirstSectionAndClose():
-    '''public static Section readFirstSectionAndClose(final Reader reader)
-    public static Section readFirstSectionAndClose(final Reader reader, final String titleToLookFor)
+    '''returns Section\n\n
+    readNextSection()\n
+    readNextSection(final String titleToLookFor)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getBase64DecodedBytes():
-    '''public byte[] getBase64DecodedBytes()
+    '''returns byte[]\n\n
+    getBase64DecodedBytes()\n
     '''

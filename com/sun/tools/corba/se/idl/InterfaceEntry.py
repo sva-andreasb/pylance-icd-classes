@@ -1,66 +1,88 @@
 def isAbstract():
-    '''public boolean isAbstract()
+    '''returns boolean\n\n
+    isAbstract()\n
     '''
 def isLocal():
-    '''public boolean isLocal()
+    '''returns boolean\n\n
+    isLocal()\n
     '''
 def isLocalServant():
-    '''public boolean isLocalServant()
+    '''returns boolean\n\n
+    isLocalServant()\n
     '''
 def isLocalSignature():
-    '''public boolean isLocalSignature()
+    '''returns boolean\n\n
+    isLocalSignature()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def generate():
-    '''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(final Hashtable hashtable, final PrintWriter printWriter)\n
     '''
 def generator():
-    '''public Generator generator()
+    '''returns Generator\n\n
+    generator()\n
     '''
 def addDerivedFrom():
-    '''public void addDerivedFrom(final SymtabEntry obj)
+    '''returns None\n\n
+    addDerivedFrom(final SymtabEntry obj)\n
     '''
 def derivedFrom():
-    '''public Vector derivedFrom()
+    '''returns Vector\n\n
+    derivedFrom()\n
     '''
 def addDerivedFromName():
-    '''public void addDerivedFromName(final String obj)
+    '''returns None\n\n
+    addDerivedFromName(final String obj)\n
     '''
 def derivedFromNames():
-    '''public Vector derivedFromNames()
+    '''returns Vector\n\n
+    derivedFromNames()\n
     '''
 def addMethod():
-    '''public void addMethod(final MethodEntry obj)
+    '''returns None\n\n
+    addMethod(final MethodEntry obj)\n
     '''
 def methods():
-    '''public Vector methods()
+    '''returns Vector\n\n
+    methods()\n
     '''
 def addContained():
-    '''public void addContained(final SymtabEntry obj)
+    '''returns None\n\n
+    addContained(final SymtabEntry obj)\n
     '''
 def contained():
-    '''public Vector contained()
+    '''returns Vector\n\n
+    contained()\n
     '''
 def replaceForwardDecl():
-    '''public boolean replaceForwardDecl(final ForwardEntry o, final InterfaceEntry obj)
+    '''returns boolean\n\n
+    replaceForwardDecl(final ForwardEntry o, final InterfaceEntry obj)\n
     '''
 def state():
-    '''public Vector state()
+    '''returns Vector\n\n
+    state()\n
     '''
 def initState():
-    '''public void initState()
+    '''returns None\n\n
+    initState()\n
     '''
 def addStateElement():
-    '''public void addStateElement(final InterfaceState obj, final Scanner scanner)
+    '''returns None\n\n
+    addStateElement(final InterfaceState obj, final Scanner scanner)\n
     '''
 def getInterfaceType():
-    '''public int getInterfaceType()
+    '''returns int\n\n
+    getInterfaceType()\n
     '''
 def setInterfaceType():
-    '''public void setInterfaceType(final int interfaceType)
+    '''returns None\n\n
+    setInterfaceType(final int interfaceType)\n
     '''
 def allMethods():
-    '''public Vector allMethods()
+    '''returns Vector\n\n
+    allMethods()\n
     '''

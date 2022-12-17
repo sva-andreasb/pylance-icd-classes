@@ -1,41 +1,29 @@
-def GenericData():
-    '''public GenericData()
-    public GenericData(final EnumSet<Flags> flags)
-    '''
-def get():
-    '''public final Object get(final Object name)
-    '''
-def put():
-    '''public final Object put(String fieldName, final Object value)
+def ():
+    '''returns GenericData\n\n
+    ()\n
+    (final EnumSet<Flags> flags)\n
     '''
 def set():
-    '''public GenericData set(String fieldName, final Object value)
-    '''
-def putAll():
-    '''public final void putAll(final Map<? extends String, ?> map)
-    '''
-def remove():
-    '''public final Object remove(final Object name)
-    public void remove()
+    '''returns GenericData\n\n
+    set(String fieldName, final Object value)\n
     '''
 def clone():
-    '''public GenericData clone()
-    '''
-def getUnknownKeys():
-    '''public final Map<String, Object> getUnknownKeys()
-    '''
-def setUnknownKeys():
-    '''public final void setUnknownKeys(final Map<String, Object> unknownFields)
-    '''
-def getClassInfo():
-    '''public final ClassInfo getClassInfo()
+    '''returns GenericData\n\n
+    clone()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    '''
+def remove():
+    '''returns None\n\n
+    remove()\n
     '''

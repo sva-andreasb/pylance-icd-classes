@@ -1,15 +1,20 @@
-def ApptBookAssignments():
-    '''public ApptBookAssignments(final MboSet ms)
+def ():
+    '''returns ApptBookAssignments\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def releaseLockedRecords():
-    '''public void releaseLockedRecords(final Date selectedWorkDate)
+    '''returns None\n\n
+    releaseLockedRecords(final Date selectedWorkDate)\n
     '''

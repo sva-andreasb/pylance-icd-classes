@@ -1,3 +1,4 @@
-def FldSKDPropertyMapAppLinkObject():
-    '''public FldSKDPropertyMapAppLinkObject(final MboValue mbv)
+def ():
+    '''returns FldSKDPropertyMapAppLinkObject\n\n
+    (final MboValue mbv)\n
     '''

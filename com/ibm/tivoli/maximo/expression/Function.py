@@ -1,34 +1,45 @@
-def Function():
-    '''public Function(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns Function\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def validateSignature():
-    '''public void validateSignature(final Integer expectedArgs, final List actArgs)
+    '''returns None\n\n
+    validateSignature(final Integer expectedArgs, final List actArgs)\n
     '''
 def lazyEval():
-    '''public LazyNumber lazyEval(final List<LazyNumber> lazyParams)
+    '''returns LazyNumber\n\n
+    lazyEval(final List<LazyNumber> lazyParams)\n
     '''
 def eval():
-    '''public BigDecimal eval()
-    public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval()\n
+    eval(final List<BigDecimal> parameters)\n
     '''
 def getError():
-    '''public Exception getError()
+    '''returns Exception\n\n
+    getError()\n
     '''
 def getCachedFuncValue():
-    '''public Double getCachedFuncValue(final String key)
+    '''returns Double\n\n
+    getCachedFuncValue(final String key)\n
     '''
 def cacheFuncValue():
-    '''public void cacheFuncValue(final String key, final Double value)
+    '''returns None\n\n
+    cacheFuncValue(final String key, final Double value)\n
     '''
 def hasCachedFuncValue():
-    '''public boolean hasCachedFuncValue(final String key)
+    '''returns boolean\n\n
+    hasCachedFuncValue(final String key)\n
     '''
 def getStringValForHashCode():
-    '''public String getStringValForHashCode(final BigDecimal hashCode)
+    '''returns String\n\n
+    getStringValForHashCode(final BigDecimal hashCode)\n
     '''
 def getFuncError():
-    '''public Exception getFuncError()
+    '''returns Exception\n\n
+    getFuncError()\n
     '''
 def setFuncError():
-    '''public void setFuncError(final Exception e)
+    '''returns None\n\n
+    setFuncError(final Exception e)\n
     '''

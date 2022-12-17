@@ -1,3 +1,4 @@
-def RfcAttributeList():
-    '''public RfcAttributeList(final int n)
+def ():
+    '''returns RfcAttributeList\n\n
+    (final int n)\n
     '''

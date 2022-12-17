@@ -1,35 +1,46 @@
-def CCIPromotionResults():
-    '''public CCIPromotionResults(final String ciNum, final String ciClass, final boolean created)
-    public CCIPromotionResults(final String actCINum, final String ciNum, final String ciClass, final boolean created)
-    public CCIPromotionResults(final String actCINum, final String ciNum, final String ciClass, final boolean created, final boolean linked)
+def ():
+    '''returns CCIPromotionResults\n\n
+    (final String ciNum, final String ciClass, final boolean created)\n
+    (final String actCINum, final String ciNum, final String ciClass, final boolean created)\n
+    (final String actCINum, final String ciNum, final String ciClass, final boolean created, final boolean linked)\n
     '''
 def wasCreated():
-    '''public boolean wasCreated()
+    '''returns boolean\n\n
+    wasCreated()\n
     '''
 def wasUpdated():
-    '''public boolean wasUpdated()
+    '''returns boolean\n\n
+    wasUpdated()\n
     '''
 def wasLinked():
-    '''public boolean wasLinked()
+    '''returns boolean\n\n
+    wasLinked()\n
     '''
 def setLinked():
-    '''public void setLinked(final boolean linked)
+    '''returns None\n\n
+    setLinked(final boolean linked)\n
     '''
 def getCiNum():
-    '''public String getCiNum()
+    '''returns String\n\n
+    getCiNum()\n
     '''
 def setCiNum():
-    '''public void setCiNum(final String ciNum)
+    '''returns None\n\n
+    setCiNum(final String ciNum)\n
     '''
 def getCiClass():
-    '''public String getCiClass()
+    '''returns String\n\n
+    getCiClass()\n
     '''
 def setCiClass():
-    '''public void setCiClass(final String ciClass)
+    '''returns None\n\n
+    setCiClass(final String ciClass)\n
     '''
 def getActCINum():
-    '''public String getActCINum()
+    '''returns String\n\n
+    getActCINum()\n
     '''
 def setActCINum():
-    '''public void setActCINum(final String actCINum)
+    '''returns None\n\n
+    setActCINum(final String actCINum)\n
     '''

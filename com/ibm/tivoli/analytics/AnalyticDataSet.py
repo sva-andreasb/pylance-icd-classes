@@ -1,3 +1,4 @@
-def AnalyticDataSet():
-    '''public AnalyticDataSet(final MboServerInterface ms)
+def ():
+    '''returns AnalyticDataSet\n\n
+    (final MboServerInterface ms)\n
     '''

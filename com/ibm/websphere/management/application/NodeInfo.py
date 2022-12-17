@@ -1,24 +1,32 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMajorVersion():
-    '''public int getMajorVersion()
+    '''returns int\n\n
+    getMajorVersion()\n
     '''
 def getMinorVersion():
-    '''public Integer getMinorVersion()
+    '''returns Integer\n\n
+    getMinorVersion()\n
     '''
 def isEjb3FeaturePackInstalled():
-    '''public boolean isEjb3FeaturePackInstalled()
+    '''returns boolean\n\n
+    isEjb3FeaturePackInstalled()\n
     '''
 def isWebServicesFeaturePackInstalled():
-    '''public boolean isWebServicesFeaturePackInstalled()
+    '''returns boolean\n\n
+    isWebServicesFeaturePackInstalled()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

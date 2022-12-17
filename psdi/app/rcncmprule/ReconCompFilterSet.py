@@ -1,6 +1,8 @@
-def ReconCompFilterSet():
-    '''public ReconCompFilterSet(final MboServerInterface ms)
+def ():
+    '''returns ReconCompFilterSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''

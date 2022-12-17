@@ -1,3 +1,4 @@
-def DrpOldTab():
-    '''public DrpOldTab(final MboSet ms)
+def ():
+    '''returns DrpOldTab\n\n
+    (final MboSet ms)\n
     '''

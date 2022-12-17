@@ -1,3 +1,4 @@
 def getApptWindowSet():
-    '''public MboSetRemote getApptWindowSet(final MboRemote mbo)
+    '''returns MboSetRemote\n\n
+    getApptWindowSet(final MboRemote mbo)\n
     '''

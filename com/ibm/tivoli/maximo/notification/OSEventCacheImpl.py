@@ -1,22 +1,25 @@
-def OSEventCacheImpl():
-    '''public OSEventCacheImpl()
+def ():
+    '''returns OSEventCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEventInfo():
-    '''public OSEventInfo getEventInfo(final String osName, final String eventName)
+    '''returns OSEventInfo\n\n
+    getEventInfo(final String osName, final String eventName)\n
     '''
 def getEventDesc():
-    '''public String getEventDesc(final String osName, final String eventName, String langCode)
-    '''
-def getOSEventMap():
-    '''public Map<String, OSEventInfo> getOSEventMap(final String osName)
+    '''returns String\n\n
+    getEventDesc(final String osName, final String eventName, String langCode)\n
     '''

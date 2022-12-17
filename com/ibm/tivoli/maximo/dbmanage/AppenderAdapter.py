@@ -1,45 +1,52 @@
 def addFilter():
-    '''public void addFilter(final Filter arg0)
+    '''returns None\n\n
+    addFilter(final Filter arg0)\n
     '''
 def clearFilters():
-    '''public void clearFilters()
+    '''returns None\n\n
+    clearFilters()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def doAppend():
-    '''public void doAppend(final LoggingEvent event)
+    '''returns None\n\n
+    doAppend(final LoggingEvent event)\n
     '''
 def getErrorHandler():
-    '''public ErrorHandler getErrorHandler()
+    '''returns ErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def getFilter():
-    '''public Filter getFilter()
+    '''returns Filter\n\n
+    getFilter()\n
     '''
 def getLayout():
-    '''public Layout getLayout()
+    '''returns Layout\n\n
+    getLayout()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def requiresLayout():
-    '''public boolean requiresLayout()
+    '''returns boolean\n\n
+    requiresLayout()\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler arg0)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler arg0)\n
     '''
 def setLayout():
-    '''public void setLayout(final Layout arg0)
+    '''returns None\n\n
+    setLayout(final Layout arg0)\n
     '''
 def setName():
-    '''public void setName(final String arg0)
+    '''returns None\n\n
+    setName(final String arg0)\n
     '''
-def listException():
-    '''public static String listException(final Throwable t)
-    '''
-def AppenderAdapter():
-    '''public AppenderAdapter()
-    '''
-def setupLogging():
-    '''public static void setupLogging()
+def ():
+    '''returns AppenderAdapter\n\n
+    ()\n
     '''

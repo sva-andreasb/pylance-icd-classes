@@ -1,9 +1,12 @@
-def FragmentExtension():
-    '''public FragmentExtension()
+def ():
+    '''returns FragmentExtension\n\n
+    ()\n
     '''
 def init():
-    '''public boolean init(final Map<String, String> parameters)
+    '''returns boolean\n\n
+    init(final Map<String, String> parameters)\n
     '''
 def addFrame():
-    '''public void addFrame(final byte flags, byte opcode, final byte[] content, int offset, int length)
+    '''returns None\n\n
+    addFrame(final byte flags, byte opcode, final byte[] content, int offset, int length)\n
     '''

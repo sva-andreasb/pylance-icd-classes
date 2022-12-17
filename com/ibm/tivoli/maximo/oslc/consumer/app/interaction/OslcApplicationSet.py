@@ -1,6 +1,8 @@
-def OslcApplicationSet():
-    '''public OslcApplicationSet(final MboServerInterface ms)
+def ():
+    '''returns OslcApplicationSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

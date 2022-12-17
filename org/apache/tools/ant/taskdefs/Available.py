@@ -1,59 +1,78 @@
-def Available():
-    '''public Available()
+def ():
+    '''returns Available\n\n
+    ()\n
     '''
 def setSearchParents():
-    '''public void setSearchParents(final boolean searchParents)
+    '''returns None\n\n
+    setSearchParents(final boolean searchParents)\n
     '''
 def setClasspath():
-    '''public void setClasspath(final Path classpath)
+    '''returns None\n\n
+    setClasspath(final Path classpath)\n
     '''
 def createClasspath():
-    '''public Path createClasspath()
+    '''returns Path\n\n
+    createClasspath()\n
     '''
 def setClasspathRef():
-    '''public void setClasspathRef(final Reference r)
+    '''returns None\n\n
+    setClasspathRef(final Reference r)\n
     '''
 def setFilepath():
-    '''public void setFilepath(final Path filepath)
+    '''returns None\n\n
+    setFilepath(final Path filepath)\n
     '''
 def createFilepath():
-    '''public Path createFilepath()
+    '''returns Path\n\n
+    createFilepath()\n
     '''
 def setProperty():
-    '''public void setProperty(final String property)
+    '''returns None\n\n
+    setProperty(final String property)\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
-    public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final Object value)\n
+    setValue(final String value)\n
     '''
 def setClassname():
-    '''public void setClassname(final String classname)
+    '''returns None\n\n
+    setClassname(final String classname)\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def setResource():
-    '''public void setResource(final String resource)
+    '''returns None\n\n
+    setResource(final String resource)\n
     '''
 def setType():
-    '''public void setType(final String type)
-    public void setType(final FileDir type)
+    '''returns None\n\n
+    setType(final String type)\n
+    setType(final FileDir type)\n
     '''
 def setIgnoresystemclasses():
-    '''public void setIgnoresystemclasses(final boolean ignore)
+    '''returns None\n\n
+    setIgnoresystemclasses(final boolean ignore)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def eval():
-    '''public boolean eval()
+    '''returns boolean\n\n
+    eval()\n
     '''
 def getValues():
-    '''public String[] getValues()
+    '''returns String[]\n\n
+    getValues()\n
     '''
 def isDir():
-    '''public boolean isDir()
+    '''returns boolean\n\n
+    isDir()\n
     '''
 def isFile():
-    '''public boolean isFile()
+    '''returns boolean\n\n
+    isFile()\n
     '''

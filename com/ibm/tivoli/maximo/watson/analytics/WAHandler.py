@@ -1,25 +1,32 @@
 URL = "String  \"URL\""
 CLIENTID = "String  \"CLIENTID\""
 SECRET = "String  \"SECRET\""
-def WAHandler():
-    '''public WAHandler(final MaxEndPointInfo endPointInfo)
-    public WAHandler()
+def ():
+    '''returns WAHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def getClientID():
-    '''public String getClientID()
+    '''returns String\n\n
+    getClientID()\n
     '''
 def getSecret():
-    '''public String getSecret()
+    '''returns String\n\n
+    getSecret()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''

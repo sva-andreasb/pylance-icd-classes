@@ -1,28 +1,21 @@
 BYTES = "int  4"
-def IntRange():
-    '''public IntRange(final String name, final int[] min, final int[] max)
+def ():
+    '''returns IntRange\n\n
+    (final String name, final int[] min, final int[] max)\n
     '''
 def setRangeValues():
-    '''public void setRangeValues(final int[] min, final int[] max)
+    '''returns None\n\n
+    setRangeValues(final int[] min, final int[] max)\n
     '''
 def getMin():
-    '''public int getMin(final int dimension)
+    '''returns int\n\n
+    getMin(final int dimension)\n
     '''
 def getMax():
-    '''public int getMax(final int dimension)
-    '''
-def newIntersectsQuery():
-    '''public static Query newIntersectsQuery(final String field, final int[] min, final int[] max)
-    '''
-def newContainsQuery():
-    '''public static Query newContainsQuery(final String field, final int[] min, final int[] max)
-    '''
-def newWithinQuery():
-    '''public static Query newWithinQuery(final String field, final int[] min, final int[] max)
-    '''
-def newCrossesQuery():
-    '''public static Query newCrossesQuery(final String field, final int[] min, final int[] max)
+    '''returns int\n\n
+    getMax(final int dimension)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

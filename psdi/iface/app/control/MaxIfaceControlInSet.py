@@ -1,3 +1,4 @@
-def MaxIfaceControlInSet():
-    '''public MaxIfaceControlInSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIfaceControlInSet\n\n
+    (final MboServerInterface ms)\n
     '''

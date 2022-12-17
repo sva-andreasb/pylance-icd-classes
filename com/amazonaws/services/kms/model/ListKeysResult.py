@@ -1,43 +1,57 @@
 def getKeys():
-    '''public List<KeyListEntry> getKeys()
+    '''returns List<KeyListEntry>\n\n
+    getKeys()\n
     '''
 def setKeys():
-    '''public void setKeys(final Collection<KeyListEntry> keys)
+    '''returns None\n\n
+    setKeys(final Collection<KeyListEntry> keys)\n
     '''
 def withKeys():
-    '''public ListKeysResult withKeys(final KeyListEntry... keys)
-    public ListKeysResult withKeys(final Collection<KeyListEntry> keys)
+    '''returns ListKeysResult\n\n
+    withKeys(final KeyListEntry... keys)\n
+    withKeys(final Collection<KeyListEntry> keys)\n
     '''
 def setNextMarker():
-    '''public void setNextMarker(final String nextMarker)
+    '''returns None\n\n
+    setNextMarker(final String nextMarker)\n
     '''
 def getNextMarker():
-    '''public String getNextMarker()
+    '''returns String\n\n
+    getNextMarker()\n
     '''
 def withNextMarker():
-    '''public ListKeysResult withNextMarker(final String nextMarker)
+    '''returns ListKeysResult\n\n
+    withNextMarker(final String nextMarker)\n
     '''
 def setTruncated():
-    '''public void setTruncated(final Boolean truncated)
+    '''returns None\n\n
+    setTruncated(final Boolean truncated)\n
     '''
 def getTruncated():
-    '''public Boolean getTruncated()
+    '''returns Boolean\n\n
+    getTruncated()\n
     '''
 def withTruncated():
-    '''public ListKeysResult withTruncated(final Boolean truncated)
+    '''returns ListKeysResult\n\n
+    withTruncated(final Boolean truncated)\n
     '''
 def isTruncated():
-    '''public Boolean isTruncated()
+    '''returns Boolean\n\n
+    isTruncated()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public ListKeysResult clone()
+    '''returns ListKeysResult\n\n
+    clone()\n
     '''

@@ -1,12 +1,16 @@
-def IlvConstraintGraphicLayerPolicy():
-    '''public IlvConstraintGraphicLayerPolicy(final IlvGanttSheet a)
+def ():
+    '''returns IlvConstraintGraphicLayerPolicy\n\n
+    (final IlvGanttSheet a)\n
     '''
 def addConstraintGraphic():
-    '''public void addConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic)
+    '''returns None\n\n
+    addConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic)\n
     '''
 def updateConstraintGraphic():
-    '''public void updateConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic, final ConstraintPropertyEvent constraintPropertyEvent)
+    '''returns None\n\n
+    updateConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic, final ConstraintPropertyEvent constraintPropertyEvent)\n
     '''
 def removeAllConstraintGraphics():
-    '''public void removeAllConstraintGraphics()
+    '''returns None\n\n
+    removeAllConstraintGraphics()\n
     '''

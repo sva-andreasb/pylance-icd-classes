@@ -1,0 +1,4 @@
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
+RIGHT_UNLOCK_OTHERS = "String  RIGHTS.UNLOCK.name()"
+RIGHT_CANCEL_SOLVE_OTHERS = "String  RIGHTS.CANCEL_SOLVE.name()"
+RIGHT_ADMIN = "String  RIGHTS.ADMIN.name()"

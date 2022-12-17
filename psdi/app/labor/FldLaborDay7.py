@@ -1,6 +1,8 @@
-def FldLaborDay7():
-    '''public FldLaborDay7(final MboValue mbv)
+def ():
+    '''returns FldLaborDay7\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

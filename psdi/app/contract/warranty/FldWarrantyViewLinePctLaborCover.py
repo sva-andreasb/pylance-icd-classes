@@ -1,6 +1,8 @@
-def FldWarrantyViewLinePctLaborCover():
-    '''public FldWarrantyViewLinePctLaborCover(final MboValue mbv)
+def ():
+    '''returns FldWarrantyViewLinePctLaborCover\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

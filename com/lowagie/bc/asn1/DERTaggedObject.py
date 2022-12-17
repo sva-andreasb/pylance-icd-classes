@@ -1,5 +1,6 @@
-def DERTaggedObject():
-    '''public DERTaggedObject(final int tagNo, final DEREncodable obj)
-    public DERTaggedObject(final boolean explicit, final int tagNo, final DEREncodable obj)
-    public DERTaggedObject(final int tagNo)
+def ():
+    '''returns DERTaggedObject\n\n
+    (final int tagNo, final DEREncodable obj)\n
+    (final boolean explicit, final int tagNo, final DEREncodable obj)\n
+    (final int tagNo)\n
     '''

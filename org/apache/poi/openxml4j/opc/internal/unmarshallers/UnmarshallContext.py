@@ -1,12 +1,16 @@
-def UnmarshallContext():
-    '''public UnmarshallContext(final OPCPackage targetPackage, final PackagePartName partName)
+def ():
+    '''returns UnmarshallContext\n\n
+    (final OPCPackage targetPackage, final PackagePartName partName)\n
     '''
 def setPackage():
-    '''public void setPackage(final OPCPackage container)
+    '''returns None\n\n
+    setPackage(final OPCPackage container)\n
     '''
 def setPartName():
-    '''public void setPartName(final PackagePartName partName)
+    '''returns None\n\n
+    setPartName(final PackagePartName partName)\n
     '''
 def setZipEntry():
-    '''public void setZipEntry(final ZipEntry zipEntry)
+    '''returns None\n\n
+    setZipEntry(final ZipEntry zipEntry)\n
     '''

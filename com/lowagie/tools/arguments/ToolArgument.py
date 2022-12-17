@@ -1,37 +1,49 @@
-def ToolArgument():
-    '''public ToolArgument()
-    public ToolArgument(final AbstractTool tool, final String name, final String description, final String classname)
+def ():
+    '''returns ToolArgument\n\n
+    ()\n
+    (final AbstractTool tool, final String name, final String description, final String classname)\n
     '''
 def getArgument():
-    '''public Object getArgument()
+    '''returns Object\n\n
+    getArgument()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def getUsage():
-    '''public String getUsage()
+    '''returns String\n\n
+    getUsage()\n
     '''
 def getClassname():
-    '''public String getClassname()
+    '''returns String\n\n
+    getClassname()\n
     '''
 def setClassname():
-    '''public void setClassname(final String classname)
+    '''returns None\n\n
+    setClassname(final String classname)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''

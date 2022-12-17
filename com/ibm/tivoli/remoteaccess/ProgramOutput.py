@@ -1,33 +1,39 @@
 INITIAL = "int  -9999"
 def getReturnCode():
-    '''public int getReturnCode()
+    '''returns int\n\n
+    getReturnCode()\n
     '''
 def getStderr():
-    '''public String getStderr()
-    public String getStderr(final String charset)
+    '''returns String\n\n
+    getStderr()\n
+    getStderr(final String charset)\n
     '''
 def getStderrBytes():
-    '''public byte[] getStderrBytes()
+    '''returns byte[]\n\n
+    getStderrBytes()\n
     '''
 def getStdout():
-    '''public String getStdout()
-    public String getStdout(final String charset)
+    '''returns String\n\n
+    getStdout()\n
+    getStdout(final String charset)\n
     '''
 def getStdoutBytes():
-    '''public byte[] getStdoutBytes()
+    '''returns byte[]\n\n
+    getStdoutBytes()\n
     '''
 def isTimeoutExpired():
-    '''public boolean isTimeoutExpired()
+    '''returns boolean\n\n
+    isTimeoutExpired()\n
     '''
 def getCharset():
-    '''public String getCharset()
+    '''returns String\n\n
+    getCharset()\n
     '''
 def setCharset():
-    '''public void setCharset(final String string)
+    '''returns None\n\n
+    setCharset(final String string)\n
     '''
 def getConversionCharset():
-    '''public Charset getConversionCharset()
-    '''
-def setConversionCharset():
-    '''public synchronized void setConversionCharset(final Charset charsetIn)
+    '''returns Charset\n\n
+    getConversionCharset()\n
     '''

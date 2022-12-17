@@ -1,3 +1,4 @@
-def FldWorkCenterTemplateName():
-    '''public FldWorkCenterTemplateName(final MboValue mbv)
+def ():
+    '''returns FldWorkCenterTemplateName\n\n
+    (final MboValue mbv)\n
     '''

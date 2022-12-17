@@ -1,145 +1,188 @@
 def getSoftware():
-    '''public Component getSoftware()
+    '''returns Component\n\n
+    getSoftware()\n
     '''
 def setSoftware():
-    '''public void setSoftware(final Component software)
+    '''returns None\n\n
+    setSoftware(final Component software)\n
     '''
 def getSshKeys():
-    '''public List<Key> getSshKeys()
+    '''returns List<Key>\n\n
+    getSshKeys()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNotes():
-    '''public String getNotes()
+    '''returns String\n\n
+    getNotes()\n
     '''
 def setNotes():
-    '''public void setNotes(final String notes)
+    '''returns None\n\n
+    setNotes(final String notes)\n
     '''
 def isNotesSpecified():
-    '''public boolean isNotesSpecified()
+    '''returns boolean\n\n
+    isNotesSpecified()\n
     '''
 def unsetNotes():
-    '''public void unsetNotes()
+    '''returns None\n\n
+    unsetNotes()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def isPasswordSpecified():
-    '''public boolean isPasswordSpecified()
+    '''returns boolean\n\n
+    isPasswordSpecified()\n
     '''
 def unsetPassword():
-    '''public void unsetPassword()
+    '''returns None\n\n
+    unsetPassword()\n
     '''
 def getPort():
-    '''public Long getPort()
+    '''returns Long\n\n
+    getPort()\n
     '''
 def setPort():
-    '''public void setPort(final Long port)
+    '''returns None\n\n
+    setPort(final Long port)\n
     '''
 def isPortSpecified():
-    '''public boolean isPortSpecified()
+    '''returns boolean\n\n
+    isPortSpecified()\n
     '''
 def unsetPort():
-    '''public void unsetPort()
+    '''returns None\n\n
+    unsetPort()\n
     '''
 def getSoftwareId():
-    '''public Long getSoftwareId()
+    '''returns Long\n\n
+    getSoftwareId()\n
     '''
 def setSoftwareId():
-    '''public void setSoftwareId(final Long softwareId)
+    '''returns None\n\n
+    setSoftwareId(final Long softwareId)\n
     '''
 def isSoftwareIdSpecified():
-    '''public boolean isSoftwareIdSpecified()
+    '''returns boolean\n\n
+    isSoftwareIdSpecified()\n
     '''
 def unsetSoftwareId():
-    '''public void unsetSoftwareId()
+    '''returns None\n\n
+    unsetSoftwareId()\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def setUsername():
-    '''public void setUsername(final String username)
+    '''returns None\n\n
+    setUsername(final String username)\n
     '''
 def isUsernameSpecified():
-    '''public boolean isUsernameSpecified()
+    '''returns boolean\n\n
+    isUsernameSpecified()\n
     '''
 def unsetUsername():
-    '''public void unsetUsername()
+    '''returns None\n\n
+    unsetUsername()\n
     '''
 def getSshKeyCount():
-    '''public Long getSshKeyCount()
+    '''returns Long\n\n
+    getSshKeyCount()\n
     '''
 def setSshKeyCount():
-    '''public void setSshKeyCount(final Long sshKeyCount)
+    '''returns None\n\n
+    setSshKeyCount(final Long sshKeyCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def notes():
-    '''public Mask notes()
+    '''returns Mask\n\n
+    notes()\n
     '''
 def password():
-    '''public Mask password()
+    '''returns Mask\n\n
+    password()\n
     '''
 def port():
-    '''public Mask port()
+    '''returns Mask\n\n
+    port()\n
     '''
 def softwareId():
-    '''public Mask softwareId()
+    '''returns Mask\n\n
+    softwareId()\n
     '''
 def username():
-    '''public Mask username()
+    '''returns Mask\n\n
+    username()\n
     '''
 def sshKeyCount():
-    '''public Mask sshKeyCount()
+    '''returns Mask\n\n
+    sshKeyCount()\n
     '''

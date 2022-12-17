@@ -1,36 +1,40 @@
 def getLvcSym():
-    '''public JSONObject getLvcSym()
-    '''
-def getInstance():
-    '''public static LinearClientSession getInstance(final WebClientSession wcs)
+    '''returns JSONObject\n\n
+    getLvcSym()\n
     '''
 def handleRequest():
-    '''public JSONObject handleRequest(final String[] tokens)
-    '''
-def removeCommentsFromJson():
-    '''public static String removeCommentsFromJson(final String isStr)
+    '''returns JSONObject\n\n
+    handleRequest(final String[] tokens)\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def getWebClientSession():
-    '''public WebClientSession getWebClientSession()
+    '''returns WebClientSession\n\n
+    getWebClientSession()\n
     '''
 def getDebugLevel():
-    '''public int getDebugLevel()
+    '''returns int\n\n
+    getDebugLevel()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getCurrentApp():
-    '''public AppInstance getCurrentApp()
+    '''returns AppInstance\n\n
+    getCurrentApp()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def getdataSetsToRefresh():
-    '''public Set<String> getdataSetsToRefresh()
+    '''returns Set<String>\n\n
+    getdataSetsToRefresh()\n
     '''
 def getSetInfo():
-    '''public JSONObject getSetInfo(final WebClientSession session)
+    '''returns JSONObject\n\n
+    getSetInfo(final WebClientSession session)\n
     '''

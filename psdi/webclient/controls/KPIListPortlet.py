@@ -1,15 +1,20 @@
 def getLastDate():
-    '''public String getLastDate()
+    '''returns String\n\n
+    getLastDate()\n
     '''
 def getKPIs():
-    '''public Vector getKPIs()
+    '''returns Vector\n\n
+    getKPIs()\n
     '''
 def updatekpis():
-    '''public void updatekpis()
+    '''returns None\n\n
+    updatekpis()\n
     '''
 def getLabels():
-    '''public String[] getLabels()
+    '''returns String[]\n\n
+    getLabels()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''

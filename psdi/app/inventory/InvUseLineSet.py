@@ -1,58 +1,76 @@
-def InvUseLineSet():
-    '''public InvUseLineSet(final MboServerInterface ms)
+def ():
+    '''returns InvUseLineSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copyInvUseLineSet():
-    '''public void copyInvUseLineSet(final MboSetRemote matUseTransSet)
+    '''returns None\n\n
+    copyInvUseLineSet(final MboSetRemote matUseTransSet)\n
     '''
 def sameMatUseTransFound():
-    '''public boolean sameMatUseTransFound(final MboRemote selectedIssue)
+    '''returns boolean\n\n
+    sameMatUseTransFound(final MboRemote selectedIssue)\n
     '''
 def copyInvReserveSet():
-    '''public void copyInvReserveSet(final MboSetRemote invReserveSet)
+    '''returns None\n\n
+    copyInvReserveSet(final MboSetRemote invReserveSet)\n
     '''
 def addInvUseLineFromInvReserve():
-    '''public MboRemote addInvUseLineFromInvReserve(final MboRemote invRes)
+    '''returns MboRemote\n\n
+    addInvUseLineFromInvReserve(final MboRemote invRes)\n
     '''
 def copySparePartSet():
-    '''public void copySparePartSet(final MboSetRemote sparePartSet)
+    '''returns None\n\n
+    copySparePartSet(final MboSetRemote sparePartSet)\n
     '''
 def copyInvBalancesSet():
-    '''public void copyInvBalancesSet(final MboSetRemote invBalancesSet)
+    '''returns None\n\n
+    copyInvBalancesSet(final MboSetRemote invBalancesSet)\n
     '''
 def addInvUseLineFromMatUseTrans():
-    '''public MboRemote addInvUseLineFromMatUseTrans(final MboRemote matUseTrans)
+    '''returns MboRemote\n\n
+    addInvUseLineFromMatUseTrans(final MboRemote matUseTrans)\n
     '''
 def getInvBalMap():
-    '''public MboRemote getInvBalMap(final String key)
-    public HashMap<String, MboRemote> getInvBalMap()
+    '''returns MboRemote\n\n
+    getInvBalMap(final String key)\n
     '''
 def putInvBalMap():
-    '''public void putInvBalMap(final String key, final MboRemote invBalMbo)
+    '''returns None\n\n
+    putInvBalMap(final String key, final MboRemote invBalMbo)\n
     '''
 def clearInvBalMap():
-    '''public void clearInvBalMap()
+    '''returns None\n\n
+    clearInvBalMap()\n
     '''
 def clearinvBalQtyMap():
-    '''public void clearinvBalQtyMap()
+    '''returns None\n\n
+    clearinvBalQtyMap()\n
     '''
 def validateInvUseData():
-    '''public void validateInvUseData()
+    '''returns None\n\n
+    validateInvUseData()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getQtyForReservationinSet():
-    '''public double getQtyForReservationinSet(final String requestnum, final long invuselineid)
+    '''returns double\n\n
+    getQtyForReservationinSet(final String requestnum, final long invuselineid)\n
     '''
 def getPhyscntdateList():
-    '''public ArrayList<String> getPhyscntdateList()
+    '''returns ArrayList<String>\n\n
+    getPhyscntdateList()\n
     '''
 def returnIPCParts():
-    '''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''returns None\n\n
+    returnIPCParts(final IpcSelectedPartsSetRemote partset)\n
     '''
 def preValidateIpcBom():
-    '''public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''returns None\n\n
+    preValidateIpcBom(final IpcBomSetRemote bomset)\n
     '''
 def getInvReserveVector():
-    '''public Vector getInvReserveVector()
+    '''returns Vector\n\n
+    getInvReserveVector()\n
     '''

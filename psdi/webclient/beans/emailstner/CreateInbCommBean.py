@@ -1,3 +1,4 @@
-def CreateInbCommBean():
-    '''public CreateInbCommBean()
+def ():
+    '''returns CreateInbCommBean\n\n
+    ()\n
     '''

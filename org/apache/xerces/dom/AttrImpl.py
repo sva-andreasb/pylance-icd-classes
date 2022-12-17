@@ -1,96 +1,128 @@
 def setIdAttribute():
-    '''public void setIdAttribute(final boolean b)
+    '''returns None\n\n
+    setIdAttribute(final boolean b)\n
     '''
 def isId():
-    '''public boolean isId()
+    '''returns boolean\n\n
+    isId()\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def setNodeValue():
-    '''public void setNodeValue(final String value)
+    '''returns None\n\n
+    setNodeValue(final String value)\n
     '''
 def getTypeName():
-    '''public String getTypeName()
+    '''returns String\n\n
+    getTypeName()\n
     '''
 def getTypeNamespace():
-    '''public String getTypeNamespace()
+    '''returns String\n\n
+    getTypeNamespace()\n
     '''
 def getSchemaTypeInfo():
-    '''public TypeInfo getSchemaTypeInfo()
+    '''returns TypeInfo\n\n
+    getSchemaTypeInfo()\n
     '''
 def getNodeValue():
-    '''public String getNodeValue()
+    '''returns String\n\n
+    getNodeValue()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setValue():
-    '''public void setValue(final String s)
+    '''returns None\n\n
+    setValue(final String s)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getSpecified():
-    '''public boolean getSpecified()
+    '''returns boolean\n\n
+    getSpecified()\n
     '''
 def getElement():
-    '''public Element getElement()
+    '''returns Element\n\n
+    getElement()\n
     '''
 def getOwnerElement():
-    '''public Element getOwnerElement()
+    '''returns Element\n\n
+    getOwnerElement()\n
     '''
 def normalize():
-    '''public void normalize()
+    '''returns None\n\n
+    normalize()\n
     '''
 def setSpecified():
-    '''public void setSpecified(final boolean b)
+    '''returns None\n\n
+    setSpecified(final boolean b)\n
     '''
 def setType():
-    '''public void setType(final Object type)
+    '''returns None\n\n
+    setType(final Object type)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hasChildNodes():
-    '''public boolean hasChildNodes()
+    '''returns boolean\n\n
+    hasChildNodes()\n
     '''
 def getChildNodes():
-    '''public NodeList getChildNodes()
+    '''returns NodeList\n\n
+    getChildNodes()\n
     '''
 def getFirstChild():
-    '''public Node getFirstChild()
+    '''returns Node\n\n
+    getFirstChild()\n
     '''
 def getLastChild():
-    '''public Node getLastChild()
+    '''returns Node\n\n
+    getLastChild()\n
     '''
 def insertBefore():
-    '''public Node insertBefore(final Node node, final Node node2)
+    '''returns Node\n\n
+    insertBefore(final Node node, final Node node2)\n
     '''
 def removeChild():
-    '''public Node removeChild(final Node node)
+    '''returns Node\n\n
+    removeChild(final Node node)\n
     '''
 def replaceChild():
-    '''public Node replaceChild(final Node node, final Node node2)
+    '''returns Node\n\n
+    replaceChild(final Node node, final Node node2)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public Node item(final int n)
+    '''returns Node\n\n
+    item(final int n)\n
     '''
 def isEqualNode():
-    '''public boolean isEqualNode(final Node node)
+    '''returns boolean\n\n
+    isEqualNode(final Node node)\n
     '''
 def isDerivedFrom():
-    '''public boolean isDerivedFrom(final String s, final String s2, final int n)
+    '''returns boolean\n\n
+    isDerivedFrom(final String s, final String s2, final int n)\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean b, final boolean b2)
+    '''returns None\n\n
+    setReadOnly(final boolean b, final boolean b2)\n
     '''

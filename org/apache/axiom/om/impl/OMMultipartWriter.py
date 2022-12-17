@@ -1,12 +1,16 @@
-def OMMultipartWriter():
-    '''public OMMultipartWriter(final OutputStream out, final OMOutputFormat format)
+def ():
+    '''returns OMMultipartWriter\n\n
+    (final OutputStream out, final OMOutputFormat format)\n
     '''
 def writeRootPart():
-    '''public OutputStream writeRootPart()
+    '''returns OutputStream\n\n
+    writeRootPart()\n
     '''
 def writePart():
-    '''public void writePart(final DataHandler dataHandler, final String contentID)
+    '''returns None\n\n
+    writePart(final DataHandler dataHandler, final String contentID)\n
     '''
 def complete():
-    '''public void complete()
+    '''returns None\n\n
+    complete()\n
     '''

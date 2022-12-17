@@ -1,3 +1,4 @@
-def FldAMCrewLbrPosAMCrewType():
-    '''public FldAMCrewLbrPosAMCrewType(final MboValue mbv)
+def ():
+    '''returns FldAMCrewLbrPosAMCrewType\n\n
+    (final MboValue mbv)\n
     '''

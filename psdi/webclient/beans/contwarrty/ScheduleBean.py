@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def estimatepayment():
-    '''public int estimatepayment()
+    '''returns int\n\n
+    estimatepayment()\n
     '''

@@ -1,6 +1,8 @@
-def PlusPShowPlanFeeChargeSet():
-    '''public PlusPShowPlanFeeChargeSet(final MboRemote arg0)
+def ():
+    '''returns PlusPShowPlanFeeChargeSet\n\n
+    (final MboRemote arg0)\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long n, final int addPosition)
+    '''returns MboRemote\n\n
+    addAtIndex(final long n, final int addPosition)\n
     '''

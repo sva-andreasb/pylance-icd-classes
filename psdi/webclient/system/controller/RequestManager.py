@@ -1,14 +1,14 @@
 XHR_REQUEST = "String  \"events\""
 RESPONSETYPE_PARAMETER = "String  \"responsetype\""
 def authenticateRequest():
-    '''public WebClientSession authenticateRequest(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns WebClientSession\n\n
+    authenticateRequest(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def manageRequest():
-    '''public void manageRequest(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    manageRequest(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def checkSession():
-    '''public WebClientSession checkSession(final HttpServletRequest request, final HttpServletResponse response)
-    '''
-def isXHRRequest():
-    '''public static boolean isXHRRequest(final HttpServletRequest request)
+    '''returns WebClientSession\n\n
+    checkSession(final HttpServletRequest request, final HttpServletResponse response)\n
     '''

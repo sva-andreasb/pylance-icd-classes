@@ -1,26 +1,26 @@
-def OmemoMessageBuilder():
-    '''public OmemoMessageBuilder(final OmemoManager omemoManager, final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore, final byte[] aesKey, final byte[] iv)
-    public OmemoMessageBuilder(final OmemoManager omemoManager, final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore, final String message)
+def ():
+    '''returns OmemoMessageBuilder\n\n
+    (final OmemoManager omemoManager, final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore, final byte[] aesKey, final byte[] iv)\n
+    (final OmemoManager omemoManager, final OmemoStore<T_IdKeyPair, T_IdKey, T_PreKey, T_SigPreKey, T_Sess, T_Addr, T_ECPub, T_Bundle, T_Ciph> omemoStore, final String message)\n
     '''
 def setMessage():
-    '''public void setMessage(final String message)
+    '''returns None\n\n
+    setMessage(final String message)\n
     '''
 def addRecipient():
-    '''public void addRecipient(final OmemoDevice device)
-    public void addRecipient(final OmemoDevice device, final boolean ignoreTrust)
+    '''returns None\n\n
+    addRecipient(final OmemoDevice device)\n
+    addRecipient(final OmemoDevice device, final boolean ignoreTrust)\n
     '''
 def finish():
-    '''public OmemoVAxolotlElement finish()
-    '''
-def generateKey():
-    '''public static byte[] generateKey()
-    '''
-def generateIv():
-    '''public static byte[] generateIv()
+    '''returns OmemoVAxolotlElement\n\n
+    finish()\n
     '''
 def getCiphertextMessage():
-    '''public byte[] getCiphertextMessage()
+    '''returns byte[]\n\n
+    getCiphertextMessage()\n
     '''
 def getMessageKey():
-    '''public byte[] getMessageKey()
+    '''returns byte[]\n\n
+    getMessageKey()\n
     '''

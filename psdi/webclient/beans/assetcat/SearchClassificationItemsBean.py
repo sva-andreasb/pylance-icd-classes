@@ -1,18 +1,24 @@
-def SearchClassificationItemsBean():
-    '''public SearchClassificationItemsBean()
+def ():
+    '''returns SearchClassificationItemsBean\n\n
+    ()\n
     '''
 def getResultSetForReturn():
-    '''public MboSetRemote getResultSetForReturn()
+    '''returns MboSetRemote\n\n
+    getResultSetForReturn()\n
     '''
 def getAttributeForReturn():
-    '''public String getAttributeForReturn()
+    '''returns String\n\n
+    getAttributeForReturn()\n
     '''
 def getResultObjectName():
-    '''public String getResultObjectName()
+    '''returns String\n\n
+    getResultObjectName()\n
     '''
 def setNewMboSet():
-    '''public void setNewMboSet(final MboSetRemote newSet)
+    '''returns None\n\n
+    setNewMboSet(final MboSetRemote newSet)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''

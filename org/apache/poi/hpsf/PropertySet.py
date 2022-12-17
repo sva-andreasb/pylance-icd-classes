@@ -1,90 +1,108 @@
 OS_WIN16 = "int  0"
 OS_MACINTOSH = "int  1"
 OS_WIN32 = "int  2"
-def PropertySet():
-    '''public PropertySet()
-    public PropertySet(final InputStream stream)
-    public PropertySet(final byte[] stream, final int offset, final int length)
-    public PropertySet(final byte[] stream)
-    public PropertySet(final PropertySet ps)
+def ():
+    '''returns PropertySet\n\n
+    ()\n
+    (final InputStream stream)\n
+    (final byte[] stream, final int offset, final int length)\n
+    (final byte[] stream)\n
+    (final PropertySet ps)\n
     '''
 def getByteOrder():
-    '''public int getByteOrder()
+    '''returns int\n\n
+    getByteOrder()\n
     '''
 def setByteOrder():
-    '''public void setByteOrder(final int byteOrder)
+    '''returns None\n\n
+    setByteOrder(final int byteOrder)\n
     '''
 def getFormat():
-    '''public int getFormat()
+    '''returns int\n\n
+    getFormat()\n
     '''
 def setFormat():
-    '''public void setFormat(final int format)
+    '''returns None\n\n
+    setFormat(final int format)\n
     '''
 def getOSVersion():
-    '''public int getOSVersion()
+    '''returns int\n\n
+    getOSVersion()\n
     '''
 def setOSVersion():
-    '''public void setOSVersion(final int osVersion)
+    '''returns None\n\n
+    setOSVersion(final int osVersion)\n
     '''
 def getClassID():
-    '''public ClassID getClassID()
+    '''returns ClassID\n\n
+    getClassID()\n
     '''
 def setClassID():
-    '''public void setClassID(final ClassID classID)
+    '''returns None\n\n
+    setClassID(final ClassID classID)\n
     '''
 def getSectionCount():
-    '''public int getSectionCount()
+    '''returns int\n\n
+    getSectionCount()\n
     '''
 def getSections():
-    '''public List<Section> getSections()
+    '''returns List<Section>\n\n
+    getSections()\n
     '''
 def addSection():
-    '''public void addSection(final Section section)
+    '''returns None\n\n
+    addSection(final Section section)\n
     '''
 def clearSections():
-    '''public void clearSections()
+    '''returns None\n\n
+    clearSections()\n
     '''
 def getPropertySetIDMap():
-    '''public PropertyIDMap getPropertySetIDMap()
-    '''
-def isPropertySetStream():
-    '''public static boolean isPropertySetStream(final InputStream stream)
-    public static boolean isPropertySetStream(final byte[] src, final int offset, final int length)
+    '''returns PropertyIDMap\n\n
+    getPropertySetIDMap()\n
     '''
 def write():
-    '''public void write(final OutputStream out)
-    public void write(final DirectoryEntry dir, final String name)
+    '''returns None\n\n
+    write(final OutputStream out)\n
+    write(final DirectoryEntry dir, final String name)\n
     '''
 def toInputStream():
-    '''public InputStream toInputStream()
-    '''
-def getPropertyStringValue():
-    '''public static String getPropertyStringValue(final Object propertyValue)
+    '''returns InputStream\n\n
+    toInputStream()\n
     '''
 def isSummaryInformation():
-    '''public boolean isSummaryInformation()
+    '''returns boolean\n\n
+    isSummaryInformation()\n
     '''
 def isDocumentSummaryInformation():
-    '''public boolean isDocumentSummaryInformation()
+    '''returns boolean\n\n
+    isDocumentSummaryInformation()\n
     '''
 def getProperties():
-    '''public Property[] getProperties()
+    '''returns Property[]\n\n
+    getProperties()\n
     '''
 def wasNull():
-    '''public boolean wasNull()
+    '''returns boolean\n\n
+    wasNull()\n
     '''
 def getFirstSection():
-    '''public Section getFirstSection()
+    '''returns Section\n\n
+    getFirstSection()\n
     '''
 def getSingleSection():
-    '''public Section getSingleSection()
+    '''returns Section\n\n
+    getSingleSection()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

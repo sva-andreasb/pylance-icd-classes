@@ -1,3 +1,4 @@
-def PlusPFeaturePrice():
-    '''public PlusPFeaturePrice(final MboSet ms)
+def ():
+    '''returns PlusPFeaturePrice\n\n
+    (final MboSet ms)\n
     '''

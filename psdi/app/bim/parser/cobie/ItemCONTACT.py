@@ -1,132 +1,176 @@
-def ItemCONTACT():
-    '''public ItemCONTACT()
+def ():
+    '''returns ItemCONTACT\n\n
+    ()\n
     '''
 def isAddressValid():
-    '''public boolean isAddressValid()
+    '''returns boolean\n\n
+    isAddressValid()\n
     '''
 def makeAdminContact():
-    '''public void makeAdminContact()
+    '''returns None\n\n
+    makeAdminContact()\n
     '''
 def isAdminContact():
-    '''public boolean isAdminContact()
+    '''returns boolean\n\n
+    isAdminContact()\n
     '''
 def isManufacture():
-    '''public boolean isManufacture()
+    '''returns boolean\n\n
+    isManufacture()\n
     '''
 def isTypeContact():
-    '''public boolean isTypeContact()
+    '''returns boolean\n\n
+    isTypeContact()\n
     '''
 def makeTypeContact():
-    '''public void makeTypeContact()
+    '''returns None\n\n
+    makeTypeContact()\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def getEmail():
-    '''public String getEmail()
+    '''returns String\n\n
+    getEmail()\n
     '''
 def setEmail():
-    '''public void setEmail(final String email)
+    '''returns None\n\n
+    setEmail(final String email)\n
     '''
 def getCompany():
-    '''public String getCompany()
+    '''returns String\n\n
+    getCompany()\n
     '''
 def setCompany():
-    '''public void setCompany(final String company)
+    '''returns None\n\n
+    setCompany(final String company)\n
     '''
 def getCompanyReference():
-    '''public ItemCompany getCompanyReference()
+    '''returns ItemCompany\n\n
+    getCompanyReference()\n
     '''
 def setCompanyReference():
-    '''public void setCompanyReference(final ItemCompany companyRef)
+    '''returns None\n\n
+    setCompanyReference(final ItemCompany companyRef)\n
     '''
 def setExternalIdentifier():
-    '''public void setExternalIdentifier(final String externalIdentifier)
+    '''returns None\n\n
+    setExternalIdentifier(final String externalIdentifier)\n
     '''
 def setExternalObject():
-    '''public void setExternalObject(final String externalObject)
+    '''returns None\n\n
+    setExternalObject(final String externalObject)\n
     '''
 def setExternalSystem():
-    '''public void setExternalSystem(final String externalSystem)
+    '''returns None\n\n
+    setExternalSystem(final String externalSystem)\n
     '''
 def setManufacturer():
-    '''public void setManufacturer(final boolean manufacture)
+    '''returns None\n\n
+    setManufacturer(final boolean manufacture)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPhone():
-    '''public String getPhone()
+    '''returns String\n\n
+    getPhone()\n
     '''
 def setPhone():
-    '''public void setPhone(final String phone)
+    '''returns None\n\n
+    setPhone(final String phone)\n
     '''
 def getDepartment():
-    '''public String getDepartment()
+    '''returns String\n\n
+    getDepartment()\n
     '''
 def setDepartment():
-    '''public void setDepartment(final String department)
+    '''returns None\n\n
+    setDepartment(final String department)\n
     '''
 def getOrganizationCode():
-    '''public String getOrganizationCode()
+    '''returns String\n\n
+    getOrganizationCode()\n
     '''
 def setOrganizationCode():
-    '''public void setOrganizationCode(final String organizationCode)
+    '''returns None\n\n
+    setOrganizationCode(final String organizationCode)\n
     '''
 def getGivenName():
-    '''public String getGivenName()
+    '''returns String\n\n
+    getGivenName()\n
     '''
 def setGivenName():
-    '''public void setGivenName(final String givenName)
+    '''returns None\n\n
+    setGivenName(final String givenName)\n
     '''
 def getFamilyName():
-    '''public String getFamilyName()
+    '''returns String\n\n
+    getFamilyName()\n
     '''
 def setFamilyName():
-    '''public void setFamilyName(final String familyName)
+    '''returns None\n\n
+    setFamilyName(final String familyName)\n
     '''
 def getStreet():
-    '''public String getStreet()
+    '''returns String\n\n
+    getStreet()\n
     '''
 def setStreet():
-    '''public void setStreet(final String street)
+    '''returns None\n\n
+    setStreet(final String street)\n
     '''
 def getPostalBox():
-    '''public String getPostalBox()
+    '''returns String\n\n
+    getPostalBox()\n
     '''
 def setPostalBox():
-    '''public void setPostalBox(final String postalBox)
+    '''returns None\n\n
+    setPostalBox(final String postalBox)\n
     '''
 def getTown():
-    '''public String getTown()
+    '''returns String\n\n
+    getTown()\n
     '''
 def setTown():
-    '''public void setTown(final String town)
+    '''returns None\n\n
+    setTown(final String town)\n
     '''
 def getStateRegion():
-    '''public String getStateRegion()
+    '''returns String\n\n
+    getStateRegion()\n
     '''
 def setStateRegion():
-    '''public void setStateRegion(final String stateRegion)
+    '''returns None\n\n
+    setStateRegion(final String stateRegion)\n
     '''
 def getPostalCode():
-    '''public String getPostalCode()
+    '''returns String\n\n
+    getPostalCode()\n
     '''
 def setPostalCode():
-    '''public void setPostalCode(final String postalCode)
+    '''returns None\n\n
+    setPostalCode(final String postalCode)\n
     '''
 def getCountry():
-    '''public String getCountry()
+    '''returns String\n\n
+    getCountry()\n
     '''
 def setCountry():
-    '''public void setCountry(final String country)
+    '''returns None\n\n
+    setCountry(final String country)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

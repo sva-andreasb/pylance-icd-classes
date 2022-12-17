@@ -1,25 +1,13 @@
-def AsynchOptionBoolean():
-    '''public AsynchOptionBoolean()
-    public AsynchOptionBoolean(final AsynchOptionEnum name, final boolean value)
+def ():
+    '''returns AsynchOptionBoolean\n\n
+    ()\n
+    (final AsynchOptionEnum name, final boolean value)\n
     '''
 def isValue():
-    '''public boolean isValue()
+    '''returns boolean\n\n
+    isValue()\n
     '''
 def setValue():
-    '''public void setValue(final boolean value)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setValue(final boolean value)\n
     '''

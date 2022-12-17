@@ -1,3 +1,4 @@
-def LimitExceededException():
-    '''public LimitExceededException(final String message)
+def ():
+    '''returns LimitExceededException\n\n
+    (final String message)\n
     '''

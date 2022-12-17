@@ -1,19 +1,18 @@
-def SqlNodeWalker():
-    '''public SqlNodeWalker(final SqlNodeVisitor visitor)
-    '''
-def walk():
-    '''public static void walk(final SqlNode node, final SqlNodeVisitor visitor)
+def ():
+    '''returns SqlNodeWalker\n\n
+    (final SqlNodeVisitor visitor)\n
     '''
 def visit():
-    '''public void visit(final SqlProject sqlNode)
-    public void visit(final SqlDistinct sqlNode)
-    public void visit(final SqlRestrict sqlNode)
-    public void visit(final SqlRename sqlNode)
-    public void visit(final SqlTable sqlNode)
-    public void visit(final SqlJoinInner sqlNode)
-    public void visit(final SqlJoinLeftOuter sqlNode)
-    public void visit(final SqlUnion sqlNode)
-    public void visit(final SqlCoalesce sqlNode)
-    public void visit(final SqlSlice sqlNode)
-    public void visit(final SqlSelectBlock sqlNode)
+    '''returns None\n\n
+    visit(final SqlProject sqlNode)\n
+    visit(final SqlDistinct sqlNode)\n
+    visit(final SqlRestrict sqlNode)\n
+    visit(final SqlRename sqlNode)\n
+    visit(final SqlTable sqlNode)\n
+    visit(final SqlJoinInner sqlNode)\n
+    visit(final SqlJoinLeftOuter sqlNode)\n
+    visit(final SqlUnion sqlNode)\n
+    visit(final SqlCoalesce sqlNode)\n
+    visit(final SqlSlice sqlNode)\n
+    visit(final SqlSelectBlock sqlNode)\n
     '''

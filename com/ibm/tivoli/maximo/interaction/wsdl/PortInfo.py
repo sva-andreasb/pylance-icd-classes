@@ -1,27 +1,36 @@
-def PortInfo():
-    '''public PortInfo()
+def ():
+    '''returns PortInfo\n\n
+    ()\n
     '''
 def getBindingName():
-    '''public String getBindingName()
+    '''returns String\n\n
+    getBindingName()\n
     '''
 def getBindingType():
-    '''public String getBindingType()
+    '''returns String\n\n
+    getBindingType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOperationList():
-    '''public List<OperationInfo> getOperationList()
+    '''returns List<OperationInfo>\n\n
+    getOperationList()\n
     '''
 def getPortTypeName():
-    '''public String getPortTypeName()
+    '''returns String\n\n
+    getPortTypeName()\n
     '''
 def getEndPointUrl():
-    '''public String getEndPointUrl()
+    '''returns String\n\n
+    getEndPointUrl()\n
     '''
 def getOperationInfo():
-    '''public OperationInfo getOperationInfo(final String operationName)
+    '''returns OperationInfo\n\n
+    getOperationInfo(final String operationName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

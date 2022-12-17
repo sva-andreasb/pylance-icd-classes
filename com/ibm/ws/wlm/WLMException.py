@@ -1,6 +1,7 @@
-def WLMException():
-    '''public WLMException()
-    public WLMException(final String message)
-    public WLMException(final Throwable cause)
-    public WLMException(final String message, final Throwable cause)
+def ():
+    '''returns WLMException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

@@ -1,34 +1,45 @@
 COPYRIGHT = "String  \"\n\n(C) Copyright IBM Corp. 2003, 2007.\n\n\""
-def WeightTrellis():
-    '''public WeightTrellis(final WeightExtractor extractor, final GlossFilter filter)
+def ():
+    '''returns WeightTrellis\n\n
+    (final WeightExtractor extractor, final GlossFilter filter)\n
     '''
 def init():
-    '''public void init(final int n)
+    '''returns None\n\n
+    init(final int n)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getStartIndex():
-    '''public int getStartIndex()
+    '''returns int\n\n
+    getStartIndex()\n
     '''
 def getEndIndex():
-    '''public int getEndIndex()
+    '''returns int\n\n
+    getEndIndex()\n
     '''
 def isAmbiguous():
-    '''public boolean isAmbiguous(final int n)
+    '''returns boolean\n\n
+    isAmbiguous(final int n)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def addElement():
-    '''public void addElement(final int n, final int endIndex, final Object o)
+    '''returns None\n\n
+    addElement(final int n, final int endIndex, final Object o)\n
     '''
 def process():
-    '''public EdgeListElement process()
+    '''returns EdgeListElement\n\n
+    process()\n
     '''
 def getElement():
-    '''public Object[] getElement(final int n, final int n2)
+    '''returns Object[]\n\n
+    getElement(final int n, final int n2)\n
     '''
 def append():
-    '''public void append(final Trellis trellis, final int n, final int endIndex)
+    '''returns None\n\n
+    append(final Trellis trellis, final int n, final int endIndex)\n
     '''

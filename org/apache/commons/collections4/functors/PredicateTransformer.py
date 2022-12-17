@@ -1,9 +1,8 @@
-def predicateTransformer():
-    '''public static <T> Transformer<T, Boolean> predicateTransformer(final Predicate<? super T> predicate)
-    '''
-def PredicateTransformer():
-    '''public PredicateTransformer(final Predicate<? super T> predicate)
+def ():
+    '''returns PredicateTransformer\n\n
+    (final Predicate<? super T> predicate)\n
     '''
 def transform():
-    '''public Boolean transform(final T input)
+    '''returns Boolean\n\n
+    transform(final T input)\n
     '''

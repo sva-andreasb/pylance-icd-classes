@@ -1,4 +1,5 @@
-def NativeMethodException():
-    '''public NativeMethodException()
-    public NativeMethodException(final String message)
+def ():
+    '''returns NativeMethodException\n\n
+    ()\n
+    (final String message)\n
     '''

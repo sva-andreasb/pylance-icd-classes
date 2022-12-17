@@ -1,48 +1,60 @@
-def PropertyConstraints():
-    '''public PropertyConstraints()
+def ():
+    '''returns PropertyConstraints\n\n
+    ()\n
     '''
 def getDomainName():
-    '''public String getDomainName()
+    '''returns String\n\n
+    getDomainName()\n
     '''
 def setDomainName():
-    '''public void setDomainName(final String domainName)
-    '''
-def getDomainMap():
-    '''public Map<Object, String> getDomainMap()
+    '''returns None\n\n
+    setDomainName(final String domainName)\n
     '''
 def setDomainMap():
-    '''public void setDomainMap(final Map<Object, String> domainMap)
+    '''returns None\n\n
+    setDomainMap(final Map<Object, String> domainMap)\n
     '''
 def addToDomainMap():
-    '''public void addToDomainMap(final Comparable key, final String value)
+    '''returns None\n\n
+    addToDomainMap(final Comparable key, final String value)\n
     '''
 def getMaxValue():
-    '''public int getMaxValue()
+    '''returns int\n\n
+    getMaxValue()\n
     '''
 def setMaxValue():
-    '''public void setMaxValue(final int maxValue)
+    '''returns None\n\n
+    setMaxValue(final int maxValue)\n
     '''
 def getMinValue():
-    '''public int getMinValue()
+    '''returns int\n\n
+    getMinValue()\n
     '''
 def setMinValue():
-    '''public void setMinValue(final int minValue)
+    '''returns None\n\n
+    setMinValue(final int minValue)\n
     '''
 def isEditable():
-    '''public boolean isEditable()
+    '''returns boolean\n\n
+    isEditable()\n
     '''
 def setEditable():
-    '''public void setEditable(final boolean editable)
+    '''returns None\n\n
+    setEditable(final boolean editable)\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def setLength():
-    '''public void setLength(final long length)
+    '''returns None\n\n
+    setLength(final long length)\n
     '''

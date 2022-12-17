@@ -1,79 +1,50 @@
-def IlvGraphicVector():
-    '''public IlvGraphicVector()
-    public IlvGraphicVector(final int n)
-    public IlvGraphicVector(final int n, final int capacityIncrement)
-    '''
-def contains():
-    '''public final boolean contains(final IlvGraphic ilvGraphic)
-    '''
-def isEmpty():
-    '''public final boolean isEmpty()
+def ():
+    '''returns IlvGraphicVector\n\n
+    ()\n
+    (final int n)\n
+    (final int n, final int capacityIncrement)\n
     '''
 def removeElement():
-    '''public boolean removeElement(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    removeElement(final IlvGraphic ilvGraphic)\n
     '''
 def elementAt():
-    '''public IlvGraphic elementAt(final int index)
+    '''returns IlvGraphic\n\n
+    elementAt(final int index)\n
     '''
 def elements():
-    '''public IlvGraphicEnumeration elements()
+    '''returns IlvGraphicEnumeration\n\n
+    elements()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public IlvGraphic nextElement()
-    '''
-def firstElement():
-    '''public final IlvGraphic firstElement()
-    '''
-def lastElement():
-    '''public final IlvGraphic lastElement()
-    '''
-def setElementAt():
-    '''public final IlvGraphic setElementAt(final IlvGraphic ilvGraphic, final int index)
-    '''
-def capacity():
-    '''public final int capacity()
+    '''returns IlvGraphic\n\n
+    nextElement()\n
     '''
 def indexOf():
-    '''public int indexOf(final IlvGraphic ilvGraphic)
-    public final int indexOf(final IlvGraphic ilvGraphic, final int n)
-    '''
-def lastIndexOf():
-    '''public final int lastIndexOf(final IlvGraphic ilvGraphic)
-    public final int lastIndexOf(final IlvGraphic ilvGraphic, final int index)
-    '''
-def size():
-    '''public final int size()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns int\n\n
+    indexOf(final IlvGraphic ilvGraphic)\n
     '''
 def addElement():
-    '''public void addElement(final IlvGraphic ilvGraphic)
-    '''
-def copyInto():
-    '''public final void copyInto(final IlvGraphic[] array)
+    '''returns None\n\n
+    addElement(final IlvGraphic ilvGraphic)\n
     '''
 def ensureCapacity():
-    '''public void ensureCapacity(final int n)
+    '''returns None\n\n
+    ensureCapacity(final int n)\n
     '''
 def insertElementAt():
-    '''public void insertElementAt(final IlvGraphic ilvGraphic, final int index)
-    '''
-def removeAllElements():
-    '''public final void removeAllElements()
+    '''returns None\n\n
+    insertElementAt(final IlvGraphic ilvGraphic, final int index)\n
     '''
 def removeElementAt():
-    '''public void removeElementAt(final int index)
-    '''
-def setSize():
-    '''public final void setSize(final int n)
-    '''
-def trimToSize():
-    '''public final void trimToSize()
+    '''returns None\n\n
+    removeElementAt(final int index)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

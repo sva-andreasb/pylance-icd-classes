@@ -1,12 +1,16 @@
-def PlusPClassSpecSet():
-    '''public PlusPClassSpecSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPClassSpecSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def getCorrectObjectName():
-    '''public String getCorrectObjectName(final MboRemote mboRemote)
+    '''returns String\n\n
+    getCorrectObjectName(final MboRemote mboRemote)\n
     '''
 def storeSpecInsertStatement():
-    '''public void storeSpecInsertStatement(final String s)
+    '''returns None\n\n
+    storeSpecInsertStatement(final String s)\n
     '''
 def copyAssetAttributes():
-    '''public void copyAssetAttributes(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyAssetAttributes(final MboSetRemote mboSetRemote)\n
     '''

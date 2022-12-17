@@ -1,9 +1,12 @@
-def FldSKDClassStructureHierarchyPath():
-    '''public FldSKDClassStructureHierarchyPath(final MboValue mbv)
+def ():
+    '''returns FldSKDClassStructureHierarchyPath\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''

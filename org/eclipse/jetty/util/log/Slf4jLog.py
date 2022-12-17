@@ -1,34 +1,43 @@
-def Slf4jLog():
-    '''public Slf4jLog()
-    public Slf4jLog(final String name)
+def ():
+    '''returns Slf4jLog\n\n
+    ()\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def warn():
-    '''public void warn(final String msg, final Object... args)
-    public void warn(final Throwable thrown)
-    public void warn(final String msg, final Throwable thrown)
+    '''returns None\n\n
+    warn(final String msg, final Object... args)\n
+    warn(final Throwable thrown)\n
+    warn(final String msg, final Throwable thrown)\n
     '''
 def info():
-    '''public void info(final String msg, final Object... args)
-    public void info(final Throwable thrown)
-    public void info(final String msg, final Throwable thrown)
+    '''returns None\n\n
+    info(final String msg, final Object... args)\n
+    info(final Throwable thrown)\n
+    info(final String msg, final Throwable thrown)\n
     '''
 def debug():
-    '''public void debug(final String msg, final Object... args)
-    public void debug(final Throwable thrown)
-    public void debug(final String msg, final Throwable thrown)
+    '''returns None\n\n
+    debug(final String msg, final Object... args)\n
+    debug(final Throwable thrown)\n
+    debug(final String msg, final Throwable thrown)\n
     '''
 def isDebugEnabled():
-    '''public boolean isDebugEnabled()
+    '''returns boolean\n\n
+    isDebugEnabled()\n
     '''
 def setDebugEnabled():
-    '''public void setDebugEnabled(final boolean enabled)
+    '''returns None\n\n
+    setDebugEnabled(final boolean enabled)\n
     '''
 def ignore():
-    '''public void ignore(final Throwable ignored)
+    '''returns None\n\n
+    ignore(final Throwable ignored)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

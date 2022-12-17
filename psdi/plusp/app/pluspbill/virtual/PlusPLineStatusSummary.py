@@ -1,3 +1,4 @@
-def PlusPLineStatusSummary():
-    '''public PlusPLineStatusSummary(final MboSet ms)
+def ():
+    '''returns PlusPLineStatusSummary\n\n
+    (final MboSet ms)\n
     '''

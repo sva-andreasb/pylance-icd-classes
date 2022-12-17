@@ -1,15 +1,19 @@
-def CharactersImpl():
-    '''public CharactersImpl(final String s)
-    public CharactersImpl(final String s, final Location location)
-    public CharactersImpl(final String s, final int n)
-    public CharactersImpl(final String fData, final int n, final Location location)
+def ():
+    '''returns CharactersImpl\n\n
+    (final String s)\n
+    (final String s, final Location location)\n
+    (final String s, final int n)\n
+    (final String fData, final int n, final Location location)\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def isWhiteSpace():
-    '''public boolean isWhiteSpace()
+    '''returns boolean\n\n
+    isWhiteSpace()\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final Writer writer)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final Writer writer)\n
     '''

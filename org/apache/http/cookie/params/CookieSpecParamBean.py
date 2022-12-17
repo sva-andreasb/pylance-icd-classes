@@ -1,9 +1,12 @@
-def CookieSpecParamBean():
-    '''public CookieSpecParamBean(final HttpParams params)
+def ():
+    '''returns CookieSpecParamBean\n\n
+    (final HttpParams params)\n
     '''
 def setDatePatterns():
-    '''public void setDatePatterns(final Collection<String> patterns)
+    '''returns None\n\n
+    setDatePatterns(final Collection<String> patterns)\n
     '''
 def setSingleHeader():
-    '''public void setSingleHeader(final boolean singleHeader)
+    '''returns None\n\n
+    setSingleHeader(final boolean singleHeader)\n
     '''

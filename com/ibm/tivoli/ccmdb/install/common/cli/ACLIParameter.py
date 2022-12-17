@@ -1,12 +1,16 @@
 def requiresValue():
-    '''public boolean requiresValue()
+    '''returns boolean\n\n
+    requiresValue()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def hasSensitiveValue():
-    '''public boolean hasSensitiveValue()
+    '''returns boolean\n\n
+    hasSensitiveValue()\n
     '''
 def getHandler():
-    '''public ICLIParameterHandler getHandler()
+    '''returns ICLIParameterHandler\n\n
+    getHandler()\n
     '''

@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public DescribeKeyResult unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static DescribeKeyResultJsonUnmarshaller getInstance()
+    '''returns DescribeKeyResult\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

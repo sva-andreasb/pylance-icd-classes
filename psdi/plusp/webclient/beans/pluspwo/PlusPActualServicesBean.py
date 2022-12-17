@@ -1,6 +1,8 @@
 def pluspselectplannedinternalservice():
-    '''public int pluspselectplannedinternalservice()
+    '''returns int\n\n
+    pluspselectplannedinternalservice()\n
     '''
 def pluspselectinternalservice():
-    '''public int pluspselectinternalservice()
+    '''returns int\n\n
+    pluspselectinternalservice()\n
     '''

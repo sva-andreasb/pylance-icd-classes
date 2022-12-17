@@ -1,16 +1,16 @@
-def createFlattened():
-    '''public static JsonParserSequence createFlattened(final boolean checkForExistingToken, final JsonParser first, final JsonParser second)
-    public static JsonParserSequence createFlattened(final JsonParser first, final JsonParser second)
-    '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def nextToken():
-    '''public JsonToken nextToken()
+    '''returns JsonToken\n\n
+    nextToken()\n
     '''
 def skipChildren():
-    '''public JsonParser skipChildren()
+    '''returns JsonParser\n\n
+    skipChildren()\n
     '''
 def containedParsersCount():
-    '''public int containedParsersCount()
+    '''returns int\n\n
+    containedParsersCount()\n
     '''

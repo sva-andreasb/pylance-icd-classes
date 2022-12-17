@@ -1,6 +1,8 @@
-def ResponseFreeForm():
-    '''public ResponseFreeForm(final MboSet ms)
+def ():
+    '''returns ResponseFreeForm\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

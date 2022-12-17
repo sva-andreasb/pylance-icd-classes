@@ -1,3 +1,4 @@
-def VectorSerializerFactory():
-    '''public VectorSerializerFactory(final Class javaType, final QName xmlType)
+def ():
+    '''returns VectorSerializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

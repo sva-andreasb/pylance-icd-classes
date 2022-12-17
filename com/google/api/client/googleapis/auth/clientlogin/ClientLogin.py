@@ -1,16 +1,20 @@
-def ClientLogin():
-    '''public ClientLogin()
+def ():
+    '''returns ClientLogin\n\n
+    ()\n
     '''
 def authenticate():
-    '''public Response authenticate()
+    '''returns Response\n\n
+    authenticate()\n
     '''
 def getAuthorizationHeaderValue():
-    '''public static String getAuthorizationHeaderValue(final String authToken)
-    public String getAuthorizationHeaderValue()
+    '''returns String\n\n
+    getAuthorizationHeaderValue()\n
     '''
 def initialize():
-    '''public void initialize(final HttpRequest request)
+    '''returns None\n\n
+    initialize(final HttpRequest request)\n
     '''
 def intercept():
-    '''public void intercept(final HttpRequest request)
+    '''returns None\n\n
+    intercept(final HttpRequest request)\n
     '''

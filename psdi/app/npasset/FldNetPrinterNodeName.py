@@ -1,3 +1,4 @@
-def FldNetPrinterNodeName():
-    '''public FldNetPrinterNodeName(final MboValue mbv)
+def ():
+    '''returns FldNetPrinterNodeName\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,20 +1,21 @@
-def getInstance():
-    '''public static DERGeneralString getInstance(final Object obj)
-    public static DERGeneralString getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def DERGeneralString():
-    '''public DERGeneralString(final byte[] string)
-    public DERGeneralString(final String string)
+def ():
+    '''returns DERGeneralString\n\n
+    (final byte[] string)\n
+    (final String string)\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def getOctets():
-    '''public byte[] getOctets()
+    '''returns byte[]\n\n
+    getOctets()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

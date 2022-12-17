@@ -1,6 +1,8 @@
-def CrewAssignModelSerializer():
-    '''public CrewAssignModelSerializer(final BaseTreeGridMiniAppBean bean, final TreeGridUtil.ITGSerializationHelper helper, final UIOptions options)
+def ():
+    '''returns CrewAssignModelSerializer\n\n
+    (final BaseTreeGridMiniAppBean bean, final TreeGridUtil.ITGSerializationHelper helper, final UIOptions options)\n
     '''
 def serialize():
-    '''public void serialize(final Future<MXGanttModel> in, final HttpServletRequest request, final HttpServletResponse resp)
+    '''returns None\n\n
+    serialize(final Future<MXGanttModel> in, final HttpServletRequest request, final HttpServletResponse resp)\n
     '''

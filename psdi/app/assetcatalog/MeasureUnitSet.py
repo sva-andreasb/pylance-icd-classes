@@ -1,6 +1,8 @@
-def MeasureUnitSet():
-    '''public MeasureUnitSet(final MboServerInterface ms)
+def ():
+    '''returns MeasureUnitSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findFromSpecifications():
-    '''public void findFromSpecifications(final String classStructureId, final String assetAttrid, final String objectName)
+    '''returns None\n\n
+    findFromSpecifications(final String classStructureId, final String assetAttrid, final String objectName)\n
     '''

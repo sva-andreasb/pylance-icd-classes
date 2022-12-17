@@ -1,6 +1,8 @@
 def calculate():
-    '''public void calculate()
+    '''returns None\n\n
+    calculate()\n
     '''
 def clearAll():
-    '''public void clearAll()
+    '''returns None\n\n
+    clearAll()\n
     '''

@@ -1,3 +1,4 @@
-def InvalidCiphertextException():
-    '''public InvalidCiphertextException(final String message)
+def ():
+    '''returns InvalidCiphertextException\n\n
+    (final String message)\n
     '''

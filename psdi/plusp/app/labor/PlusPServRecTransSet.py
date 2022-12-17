@@ -1,27 +1,36 @@
-def PlusPServRecTransSet():
-    '''public PlusPServRecTransSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPServRecTransSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''
 def copyNoAccessCheck():
-    '''public void copyNoAccessCheck(final MboSetRemote mboSetRemote, final String[] array, final String[] array2)
+    '''returns None\n\n
+    copyNoAccessCheck(final MboSetRemote mboSetRemote, final String[] array, final String[] array2)\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int ind)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int ind)\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener mboSetListener)
+    '''returns None\n\n
+    addListener(final MboSetListener mboSetListener)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener mboSetListener)
+    '''returns None\n\n
+    removeListener(final MboSetListener mboSetListener)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote mboRemote)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote mboRemote)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

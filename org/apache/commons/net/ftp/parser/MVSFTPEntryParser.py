@@ -1,6 +1,8 @@
-def MVSFTPEntryParser():
-    '''public MVSFTPEntryParser()
+def ():
+    '''returns MVSFTPEntryParser\n\n
+    ()\n
     '''
 def parseFTPEntry():
-    '''public FTPFile parseFTPEntry(final String entry)
+    '''returns FTPFile\n\n
+    parseFTPEntry(final String entry)\n
     '''

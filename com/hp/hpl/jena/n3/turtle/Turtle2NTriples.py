@@ -1,18 +1,24 @@
-def Turtle2NTriples():
-    '''public Turtle2NTriples(final PrintStream out)
+def ():
+    '''returns Turtle2NTriples\n\n
+    (final PrintStream out)\n
     '''
 def triple():
-    '''public void triple(final int line, final int col, final Triple triple)
+    '''returns None\n\n
+    triple(final int line, final int col, final Triple triple)\n
     '''
 def startFormula():
-    '''public void startFormula(final int line, final int col)
+    '''returns None\n\n
+    startFormula(final int line, final int col)\n
     '''
 def endFormula():
-    '''public void endFormula(final int line, final int col)
+    '''returns None\n\n
+    endFormula(final int line, final int col)\n
     '''
 def prefix():
-    '''public void prefix(final int line, final int col, final String prefix, final String iri)
+    '''returns None\n\n
+    prefix(final int line, final int col, final String prefix, final String iri)\n
     '''
 def outputEsc():
-    '''public void outputEsc(final String s)
+    '''returns None\n\n
+    outputEsc(final String s)\n
     '''

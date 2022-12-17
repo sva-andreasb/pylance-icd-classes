@@ -1,3 +1,4 @@
-def VpkMsgSenseService():
-    '''public VpkMsgSenseService(final int n, final int v)
+def ():
+    '''returns VpkMsgSenseService\n\n
+    (final int n, final int v)\n
     '''

@@ -1,19 +1,20 @@
-def rootDetector():
-    '''public static DupDetector rootDetector(final JsonParser p)
-    public static DupDetector rootDetector(final JsonGenerator g)
-    '''
 def child():
-    '''public DupDetector child()
+    '''returns DupDetector\n\n
+    child()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def findLocation():
-    '''public JsonLocation findLocation()
+    '''returns JsonLocation\n\n
+    findLocation()\n
     '''
 def getSource():
-    '''public Object getSource()
+    '''returns Object\n\n
+    getSource()\n
     '''
 def isDup():
-    '''public boolean isDup(final String name)
+    '''returns boolean\n\n
+    isDup(final String name)\n
     '''

@@ -1,6 +1,8 @@
-def CloseShieldInputStream():
-    '''public CloseShieldInputStream(final InputStream in)
+def ():
+    '''returns CloseShieldInputStream\n\n
+    (final InputStream in)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

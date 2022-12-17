@@ -1,18 +1,24 @@
-def SqlJoinLeftOuter():
-    '''public SqlJoinLeftOuter(final SqlNode left, final SqlNode right)
+def ():
+    '''returns SqlJoinLeftOuter\n\n
+    (final SqlNode left, final SqlNode right)\n
     '''
 def isLeftJoin():
-    '''public boolean isLeftJoin()
+    '''returns boolean\n\n
+    isLeftJoin()\n
     '''
 def asLeftJoin():
-    '''public SqlJoinLeftOuter asLeftJoin()
+    '''returns SqlJoinLeftOuter\n\n
+    asLeftJoin()\n
     '''
 def visit():
-    '''public void visit(final SqlNodeVisitor visitor)
+    '''returns None\n\n
+    visit(final SqlNodeVisitor visitor)\n
     '''
 def apply():
-    '''public SqlNode apply(final SqlTransform transform, final SqlNode left, final SqlNode right)
+    '''returns SqlNode\n\n
+    apply(final SqlTransform transform, final SqlNode left, final SqlNode right)\n
     '''
 def copy():
-    '''public SqlNode copy(final SqlNode left, final SqlNode right)
+    '''returns SqlNode\n\n
+    copy(final SqlNode left, final SqlNode right)\n
     '''

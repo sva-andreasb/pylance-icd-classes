@@ -1,6 +1,8 @@
-def DeserializerTarget():
-    '''public DeserializerTarget(final Deserializer target, final Object hint)
+def ():
+    '''returns DeserializerTarget\n\n
+    (final Deserializer target, final Object hint)\n
     '''
 def set():
-    '''public void set(final Object value)
+    '''returns None\n\n
+    set(final Object value)\n
     '''

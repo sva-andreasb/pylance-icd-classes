@@ -1,6 +1,8 @@
-def BuildingCommissioner():
-    '''public BuildingCommissioner(final BIMCommissionRemote commissionMbo, final CommissioningLogger logger)
+def ():
+    '''returns BuildingCommissioner\n\n
+    (final BIMCommissionRemote commissionMbo, final CommissioningLogger logger)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

@@ -1,6 +1,8 @@
 def COPYASSETATTRSET():
-    '''public int COPYASSETATTRSET()
+    '''returns int\n\n
+    COPYASSETATTRSET()\n
     '''
 def COPYCIATTRSET():
-    '''public int COPYCIATTRSET()
+    '''returns int\n\n
+    COPYCIATTRSET()\n
     '''

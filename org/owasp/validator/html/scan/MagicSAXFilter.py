@@ -1,36 +1,48 @@
-def MagicSAXFilter():
-    '''public MagicSAXFilter(final ResourceBundle messages)
+def ():
+    '''returns MagicSAXFilter\n\n
+    (final ResourceBundle messages)\n
     '''
 def reset():
-    '''public void reset(final InternalPolicy instance)
+    '''returns None\n\n
+    reset(final InternalPolicy instance)\n
     '''
 def characters():
-    '''public void characters(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    characters(final XMLString text, final Augmentations augs)\n
     '''
 def comment():
-    '''public void comment(final XMLString text, final Augmentations augs)
+    '''returns None\n\n
+    comment(final XMLString text, final Augmentations augs)\n
     '''
 def doctypeDecl():
-    '''public void doctypeDecl(final String root, final String publicId, final String systemId, final Augmentations augs)
+    '''returns None\n\n
+    doctypeDecl(final String root, final String publicId, final String systemId, final Augmentations augs)\n
     '''
 def emptyElement():
-    '''public void emptyElement(final QName element, final XMLAttributes attributes, final Augmentations augs)
+    '''returns None\n\n
+    emptyElement(final QName element, final XMLAttributes attributes, final Augmentations augs)\n
     '''
 def endElement():
-    '''public void endElement(final QName element, final Augmentations augs)
+    '''returns None\n\n
+    endElement(final QName element, final Augmentations augs)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final XMLString data, final Augmentations augs)
+    '''returns None\n\n
+    processingInstruction(final String target, final XMLString data, final Augmentations augs)\n
     '''
 def startCDATA():
-    '''public void startCDATA(final Augmentations augs)
+    '''returns None\n\n
+    startCDATA(final Augmentations augs)\n
     '''
 def endCDATA():
-    '''public void endCDATA(final Augmentations augs)
+    '''returns None\n\n
+    endCDATA(final Augmentations augs)\n
     '''
 def startElement():
-    '''public void startElement(final QName element, XMLAttributes attributes, final Augmentations augs)
+    '''returns None\n\n
+    startElement(final QName element, XMLAttributes attributes, final Augmentations augs)\n
     '''
 def getErrorMessages():
-    '''public List<String> getErrorMessages()
+    '''returns List<String>\n\n
+    getErrorMessages()\n
     '''

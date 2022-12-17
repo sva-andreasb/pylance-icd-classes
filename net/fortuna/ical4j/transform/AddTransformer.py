@@ -1,6 +1,8 @@
-def AddTransformer():
-    '''public AddTransformer(final Organizer organizer, final UidGenerator uidGenerator)
+def ():
+    '''returns AddTransformer\n\n
+    (final Organizer organizer, final UidGenerator uidGenerator)\n
     '''
 def transform():
-    '''public Calendar transform(final Calendar object)
+    '''returns Calendar\n\n
+    transform(final Calendar object)\n
     '''

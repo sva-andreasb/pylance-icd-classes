@@ -1,10 +1,13 @@
-def CommentImpl():
-    '''public CommentImpl(final String s)
-    public CommentImpl(final String fText, final Location location)
+def ():
+    '''returns CommentImpl\n\n
+    (final String s)\n
+    (final String fText, final Location location)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final Writer writer)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final Writer writer)\n
     '''

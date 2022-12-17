@@ -1,3 +1,4 @@
-def HexDeserializerFactory():
-    '''public HexDeserializerFactory(final Class javaType, final QName xmlType)
+def ():
+    '''returns HexDeserializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

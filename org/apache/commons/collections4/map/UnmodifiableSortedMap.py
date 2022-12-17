@@ -1,36 +1,32 @@
-def unmodifiableSortedMap():
-    '''public static <K, V> SortedMap<K, V> unmodifiableSortedMap(final SortedMap<K, ? extends V> map)
-    '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> mapToCopy)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> mapToCopy)\n
     '''
 def remove():
-    '''public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def firstKey():
-    '''public K firstKey()
+    '''returns K\n\n
+    firstKey()\n
     '''
 def lastKey():
-    '''public K lastKey()
-    '''
-def subMap():
-    '''public SortedMap<K, V> subMap(final K fromKey, final K toKey)
-    '''
-def headMap():
-    '''public SortedMap<K, V> headMap(final K toKey)
-    '''
-def tailMap():
-    '''public SortedMap<K, V> tailMap(final K fromKey)
+    '''returns K\n\n
+    lastKey()\n
     '''

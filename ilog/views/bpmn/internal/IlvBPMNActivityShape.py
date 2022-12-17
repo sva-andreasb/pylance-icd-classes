@@ -1,55 +1,73 @@
-def IlvBPMNActivityShape():
-    '''public IlvBPMNActivityShape(final IlvRect ilvRect)
-    public IlvBPMNActivityShape(final IlvBPMNActivityShape ilvBPMNActivityShape)
+def ():
+    '''returns IlvBPMNActivityShape\n\n
+    (final IlvRect ilvRect)\n
+    (final IlvBPMNActivityShape ilvBPMNActivityShape)\n
     '''
 def copy():
-    '''public IlvGraphic copy()
+    '''returns IlvGraphic\n\n
+    copy()\n
     '''
 def applyTransform():
-    '''public void applyTransform(final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    applyTransform(final IlvTransformer ilvTransformer)\n
     '''
 def setTransaction():
-    '''public void setTransaction(final boolean a)
+    '''returns None\n\n
+    setTransaction(final boolean a)\n
     '''
 def getTransaction():
-    '''public boolean getTransaction()
+    '''returns boolean\n\n
+    getTransaction()\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def isCollapsed():
-    '''public boolean isCollapsed()
+    '''returns boolean\n\n
+    isCollapsed()\n
     '''
 def setCollapsed():
-    '''public void setCollapsed(final boolean b)
+    '''returns None\n\n
+    setCollapsed(final boolean b)\n
     '''
 def isExpanded():
-    '''public boolean isExpanded()
+    '''returns boolean\n\n
+    isExpanded()\n
     '''
 def setExpanded():
-    '''public void setExpanded(final boolean b)
+    '''returns None\n\n
+    setExpanded(final boolean b)\n
     '''
 def isAdHoc():
-    '''public boolean isAdHoc()
+    '''returns boolean\n\n
+    isAdHoc()\n
     '''
 def setAdHoc():
-    '''public void setAdHoc(final boolean g)
+    '''returns None\n\n
+    setAdHoc(final boolean g)\n
     '''
 def isCompensation():
-    '''public boolean isCompensation()
+    '''returns boolean\n\n
+    isCompensation()\n
     '''
 def setCompensation():
-    '''public void setCompensation(final boolean f)
+    '''returns None\n\n
+    setCompensation(final boolean f)\n
     '''
 def isLoop():
-    '''public boolean isLoop()
+    '''returns boolean\n\n
+    isLoop()\n
     '''
 def setLoop():
-    '''public void setLoop(final boolean d)
+    '''returns None\n\n
+    setLoop(final boolean d)\n
     '''
 def isParallel():
-    '''public boolean isParallel()
+    '''returns boolean\n\n
+    isParallel()\n
     '''
 def setParallel():
-    '''public void setParallel(final boolean e)
+    '''returns None\n\n
+    setParallel(final boolean e)\n
     '''

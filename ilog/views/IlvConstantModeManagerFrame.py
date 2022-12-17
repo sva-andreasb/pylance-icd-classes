@@ -1,36 +1,47 @@
-def IlvConstantModeManagerFrame():
-    '''public IlvConstantModeManagerFrame()
-    public IlvConstantModeManagerFrame(final float minimumMargin)
-    public IlvConstantModeManagerFrame(final IlvConstantModeManagerFrame ilvConstantModeManagerFrame)
-    public IlvConstantModeManagerFrame(final IlvInputStream ilvInputStream)
+def ():
+    '''returns IlvConstantModeManagerFrame\n\n
+    ()\n
+    (final float minimumMargin)\n
+    (final IlvConstantModeManagerFrame ilvConstantModeManagerFrame)\n
+    (final IlvInputStream ilvInputStream)\n
     '''
 def copy():
-    '''public IlvManagerFrame copy()
+    '''returns IlvManagerFrame\n\n
+    copy()\n
     '''
 def write():
-    '''public void write(final IlvOutputStream ilvOutputStream)
+    '''returns None\n\n
+    write(final IlvOutputStream ilvOutputStream)\n
     '''
 def getMinimumMargin():
-    '''public float getMinimumMargin()
+    '''returns float\n\n
+    getMinimumMargin()\n
     '''
 def setTopMargin():
-    '''public void setTopMargin(final float b)
+    '''returns None\n\n
+    setTopMargin(final float b)\n
     '''
 def setBottomMargin():
-    '''public void setBottomMargin(final float b)
+    '''returns None\n\n
+    setBottomMargin(final float b)\n
     '''
 def setLeftMargin():
-    '''public void setLeftMargin(final float b)
+    '''returns None\n\n
+    setLeftMargin(final float b)\n
     '''
 def setRightMargin():
-    '''public void setRightMargin(final float b)
+    '''returns None\n\n
+    setRightMargin(final float b)\n
     '''
 def setMinimumMargin():
-    '''public void setMinimumMargin(final float b)
+    '''returns None\n\n
+    setMinimumMargin(final float b)\n
     '''
 def moveResize():
-    '''public boolean moveResize(final IlvManager ilvManager, final IlvRect ilvRect)
+    '''returns boolean\n\n
+    moveResize(final IlvManager ilvManager, final IlvRect ilvRect)\n
     '''
 def managerChanged():
-    '''public void managerChanged(final IlvManager ilvManager)
+    '''returns None\n\n
+    managerChanged(final IlvManager ilvManager)\n
     '''

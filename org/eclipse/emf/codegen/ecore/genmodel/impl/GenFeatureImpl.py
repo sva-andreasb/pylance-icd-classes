@@ -1,293 +1,390 @@
 def accept():
-    '''public boolean accept(final EModelElement eModelElement, final String source, final String key, final String value)
+    '''returns boolean\n\n
+    accept(final EModelElement eModelElement, final String source, final String key, final String value)\n
     '''
 def getProperty():
-    '''public GenPropertyKind getProperty()
+    '''returns GenPropertyKind\n\n
+    getProperty()\n
     '''
 def isProperty():
-    '''public boolean isProperty()
+    '''returns boolean\n\n
+    isProperty()\n
     '''
 def setProperty():
-    '''public void setProperty(final GenPropertyKind newProperty)
+    '''returns None\n\n
+    setProperty(final GenPropertyKind newProperty)\n
     '''
 def isNotify():
-    '''public boolean isNotify()
+    '''returns boolean\n\n
+    isNotify()\n
     '''
 def setNotify():
-    '''public void setNotify(final boolean newNotify)
+    '''returns None\n\n
+    setNotify(final boolean newNotify)\n
     '''
 def isChildren():
-    '''public boolean isChildren()
+    '''returns boolean\n\n
+    isChildren()\n
     '''
 def setChildren():
-    '''public void setChildren(final boolean newChildren)
+    '''returns None\n\n
+    setChildren(final boolean newChildren)\n
     '''
 def isCreateChild():
-    '''public boolean isCreateChild()
+    '''returns boolean\n\n
+    isCreateChild()\n
     '''
 def isCreateChildGen():
-    '''public boolean isCreateChildGen()
+    '''returns boolean\n\n
+    isCreateChildGen()\n
     '''
 def setCreateChild():
-    '''public void setCreateChild(final boolean newCreateChild)
+    '''returns None\n\n
+    setCreateChild(final boolean newCreateChild)\n
     '''
 def unsetCreateChild():
-    '''public void unsetCreateChild()
+    '''returns None\n\n
+    unsetCreateChild()\n
     '''
 def isSetCreateChild():
-    '''public boolean isSetCreateChild()
+    '''returns boolean\n\n
+    isSetCreateChild()\n
     '''
 def isSetCreateChildGen():
-    '''public boolean isSetCreateChildGen()
+    '''returns boolean\n\n
+    isSetCreateChildGen()\n
     '''
 def getPropertyCategory():
-    '''public String getPropertyCategory()
+    '''returns String\n\n
+    getPropertyCategory()\n
     '''
 def setPropertyCategory():
-    '''public void setPropertyCategory(final String newPropertyCategory)
+    '''returns None\n\n
+    setPropertyCategory(final String newPropertyCategory)\n
     '''
 def getPropertyFilterFlags():
-    '''public EList getPropertyFilterFlags()
+    '''returns EList\n\n
+    getPropertyFilterFlags()\n
     '''
 def getPropertyDescription():
-    '''public String getPropertyDescription()
+    '''returns String\n\n
+    getPropertyDescription()\n
     '''
 def setPropertyDescription():
-    '''public void setPropertyDescription(final String newPropertyDescription)
+    '''returns None\n\n
+    setPropertyDescription(final String newPropertyDescription)\n
     '''
 def getGenClass():
-    '''public GenClass getGenClass()
+    '''returns GenClass\n\n
+    getGenClass()\n
     '''
 def setGenClass():
-    '''public void setGenClass(final GenClass newGenClass)
+    '''returns None\n\n
+    setGenClass(final GenClass newGenClass)\n
     '''
 def getEcoreFeature():
-    '''public EStructuralFeature getEcoreFeature()
+    '''returns EStructuralFeature\n\n
+    getEcoreFeature()\n
     '''
 def basicGetEcoreFeature():
-    '''public EStructuralFeature basicGetEcoreFeature()
+    '''returns EStructuralFeature\n\n
+    basicGetEcoreFeature()\n
     '''
 def setEcoreFeature():
-    '''public void setEcoreFeature(final EStructuralFeature newEcoreFeature)
+    '''returns None\n\n
+    setEcoreFeature(final EStructuralFeature newEcoreFeature)\n
     '''
 def eInverseAdd():
-    '''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eBasicRemoveFromContainer():
-    '''public NotificationChain eBasicRemoveFromContainer(final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eBasicRemoveFromContainer(final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getEcoreTypedElement():
-    '''public ETypedElement getEcoreTypedElement()
+    '''returns ETypedElement\n\n
+    getEcoreTypedElement()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getCapName():
-    '''public String getCapName()
+    '''returns String\n\n
+    getCapName()\n
     '''
 def getAccessorName():
-    '''public String getAccessorName()
+    '''returns String\n\n
+    getAccessorName()\n
     '''
 def getGetAccessor():
-    '''public String getGetAccessor()
+    '''returns String\n\n
+    getGetAccessor()\n
     '''
 def getSafeName():
-    '''public String getSafeName()
+    '''returns String\n\n
+    getSafeName()\n
     '''
 def getSafeNameAsEObject():
-    '''public String getSafeNameAsEObject()
+    '''returns String\n\n
+    getSafeNameAsEObject()\n
     '''
 def getFormattedName():
-    '''public String getFormattedName()
+    '''returns String\n\n
+    getFormattedName()\n
     '''
 def getUpperName():
-    '''public String getUpperName()
+    '''returns String\n\n
+    getUpperName()\n
     '''
 def getUncapName():
-    '''public String getUncapName()
+    '''returns String\n\n
+    getUncapName()\n
     '''
 def getIsName():
-    '''public String getIsName()
+    '''returns String\n\n
+    getIsName()\n
     '''
 def getGenPackage():
-    '''public GenPackage getGenPackage()
+    '''returns GenPackage\n\n
+    getGenPackage()\n
     '''
 def getFeatureAccessorName():
-    '''public String getFeatureAccessorName()
+    '''returns String\n\n
+    getFeatureAccessorName()\n
     '''
 def getQualifiedFeatureAccessorName():
-    '''public String getQualifiedFeatureAccessorName()
+    '''returns String\n\n
+    getQualifiedFeatureAccessorName()\n
     '''
 def getMetaType():
-    '''public String getMetaType()
+    '''returns String\n\n
+    getMetaType()\n
     '''
 def getImportedMetaType():
-    '''public String getImportedMetaType()
+    '''returns String\n\n
+    getImportedMetaType()\n
     '''
 def getFeatureKind():
-    '''public String getFeatureKind()
+    '''returns String\n\n
+    getFeatureKind()\n
     '''
 def isReferenceType():
-    '''public boolean isReferenceType()
+    '''returns boolean\n\n
+    isReferenceType()\n
     '''
 def isMapType():
-    '''public boolean isMapType()
+    '''returns boolean\n\n
+    isMapType()\n
     '''
 def isFlag():
-    '''public boolean isFlag()
+    '''returns boolean\n\n
+    isFlag()\n
     '''
 def isESetFlag():
-    '''public boolean isESetFlag()
+    '''returns boolean\n\n
+    isESetFlag()\n
     '''
 def isSetDefaultValue():
-    '''public boolean isSetDefaultValue()
+    '''returns boolean\n\n
+    isSetDefaultValue()\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def getStaticDefaultValue():
-    '''public String getStaticDefaultValue()
+    '''returns String\n\n
+    getStaticDefaultValue()\n
     '''
 def isContainer():
-    '''public boolean isContainer()
+    '''returns boolean\n\n
+    isContainer()\n
     '''
 def isContains():
-    '''public boolean isContains()
+    '''returns boolean\n\n
+    isContains()\n
     '''
 def isBidirectional():
-    '''public boolean isBidirectional()
+    '''returns boolean\n\n
+    isBidirectional()\n
     '''
 def getReverse():
-    '''public GenFeature getReverse()
+    '''returns GenFeature\n\n
+    getReverse()\n
     '''
 def getContainerClass():
-    '''public String getContainerClass()
+    '''returns String\n\n
+    getContainerClass()\n
     '''
 def getDerivedFlag():
-    '''public String getDerivedFlag()
+    '''returns String\n\n
+    getDerivedFlag()\n
     '''
 def getTransientFlag():
-    '''public String getTransientFlag()
+    '''returns String\n\n
+    getTransientFlag()\n
     '''
 def getVolatileFlag():
-    '''public String getVolatileFlag()
+    '''returns String\n\n
+    getVolatileFlag()\n
     '''
 def getChangeableFlag():
-    '''public String getChangeableFlag()
+    '''returns String\n\n
+    getChangeableFlag()\n
     '''
 def getUnsettableFlag():
-    '''public String getUnsettableFlag()
+    '''returns String\n\n
+    getUnsettableFlag()\n
     '''
 def getIDFlag():
-    '''public String getIDFlag()
+    '''returns String\n\n
+    getIDFlag()\n
     '''
 def getContainmentFlag():
-    '''public String getContainmentFlag()
+    '''returns String\n\n
+    getContainmentFlag()\n
     '''
 def getResolveProxiesFlag():
-    '''public String getResolveProxiesFlag()
+    '''returns String\n\n
+    getResolveProxiesFlag()\n
     '''
 def isResolveProxies():
-    '''public boolean isResolveProxies()
+    '''returns boolean\n\n
+    isResolveProxies()\n
     '''
 def isVolatile():
-    '''public boolean isVolatile()
+    '''returns boolean\n\n
+    isVolatile()\n
     '''
 def isChangeable():
-    '''public boolean isChangeable()
+    '''returns boolean\n\n
+    isChangeable()\n
     '''
 def isUnsettable():
-    '''public boolean isUnsettable()
+    '''returns boolean\n\n
+    isUnsettable()\n
     '''
 def isID():
-    '''public boolean isID()
+    '''returns boolean\n\n
+    isID()\n
     '''
 def isDerived():
-    '''public boolean isDerived()
+    '''returns boolean\n\n
+    isDerived()\n
     '''
 def hasDelegateFeature():
-    '''public boolean hasDelegateFeature()
+    '''returns boolean\n\n
+    hasDelegateFeature()\n
     '''
 def getDelegateFeature():
-    '''public GenFeature getDelegateFeature()
+    '''returns GenFeature\n\n
+    getDelegateFeature()\n
     '''
 def getDelegatedFeatures():
-    '''public List getDelegatedFeatures()
+    '''returns List\n\n
+    getDelegatedFeatures()\n
     '''
 def getCreateChildValueLiteral():
-    '''public String getCreateChildValueLiteral()
+    '''returns String\n\n
+    getCreateChildValueLiteral()\n
     '''
 def isSuppressedGetVisibility():
-    '''public boolean isSuppressedGetVisibility()
+    '''returns boolean\n\n
+    isSuppressedGetVisibility()\n
     '''
 def isSuppressedSetVisibility():
-    '''public boolean isSuppressedSetVisibility()
+    '''returns boolean\n\n
+    isSuppressedSetVisibility()\n
     '''
 def isSuppressedIsSetVisibility():
-    '''public boolean isSuppressedIsSetVisibility()
+    '''returns boolean\n\n
+    isSuppressedIsSetVisibility()\n
     '''
 def isSuppressedUnsetVisibility():
-    '''public boolean isSuppressedUnsetVisibility()
+    '''returns boolean\n\n
+    isSuppressedUnsetVisibility()\n
     '''
 def initialize():
-    '''public void initialize(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    initialize(final EStructuralFeature eFeature)\n
     '''
 def getModelInfo():
-    '''public String getModelInfo()
-    public String getModelInfo(final boolean qualified)
+    '''returns String\n\n
+    getModelInfo()\n
+    getModelInfo(final boolean qualified)\n
     '''
 def getQualifiedModelInfo():
-    '''public String getQualifiedModelInfo()
+    '''returns String\n\n
+    getQualifiedModelInfo()\n
     '''
 def getPropertyImageName():
-    '''public String getPropertyImageName()
+    '''returns String\n\n
+    getPropertyImageName()\n
     '''
 def reconcile():
-    '''public boolean reconcile(final GenFeature oldGenFeatureVersion)
-    public boolean reconcile()
+    '''returns boolean\n\n
+    reconcile(final GenFeature oldGenFeatureVersion)\n
+    reconcile()\n
     '''
 def isField():
-    '''public boolean isField()
+    '''returns boolean\n\n
+    isField()\n
     '''
 def isESetField():
-    '''public boolean isESetField()
+    '''returns boolean\n\n
+    isESetField()\n
     '''
 def isGet():
-    '''public boolean isGet()
+    '''returns boolean\n\n
+    isGet()\n
     '''
 def isBasicGet():
-    '''public boolean isBasicGet()
+    '''returns boolean\n\n
+    isBasicGet()\n
     '''
 def isBasicSet():
-    '''public boolean isBasicSet()
+    '''returns boolean\n\n
+    isBasicSet()\n
     '''
 def isSet():
-    '''public boolean isSet()
+    '''returns boolean\n\n
+    isSet()\n
     '''
 def isBasicUnset():
-    '''public boolean isBasicUnset()
+    '''returns boolean\n\n
+    isBasicUnset()\n
     '''
 def isUnset():
-    '''public boolean isUnset()
+    '''returns boolean\n\n
+    isUnset()\n
     '''
 def isIsSet():
-    '''public boolean isIsSet()
+    '''returns boolean\n\n
+    isIsSet()\n
     '''

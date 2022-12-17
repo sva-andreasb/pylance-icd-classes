@@ -1,8 +1,10 @@
-def ParameterParser():
-    '''public ParameterParser()
+def ():
+    '''returns ParameterParser\n\n
+    ()\n
     '''
 def parse():
-    '''public List parse(final String str, final char separator)
-    public List parse(final char[] chars, final char separator)
-    public List parse(final char[] chars, final int offset, final int length, final char separator)
+    '''returns List\n\n
+    parse(final String str, final char separator)\n
+    parse(final char[] chars, final char separator)\n
+    parse(final char[] chars, final int offset, final int length, final char separator)\n
     '''

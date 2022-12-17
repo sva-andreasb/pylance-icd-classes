@@ -1,4 +1,5 @@
-def InvalidRelationServiceException():
-    '''public InvalidRelationServiceException()
-    public InvalidRelationServiceException(final String s)
+def ():
+    '''returns InvalidRelationServiceException\n\n
+    ()\n
+    (final String s)\n
     '''

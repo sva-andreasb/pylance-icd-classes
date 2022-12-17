@@ -1,3 +1,4 @@
-def SLAKPISet():
-    '''public SLAKPISet(final MboServerInterface ms)
+def ():
+    '''returns SLAKPISet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,29 +1,35 @@
-def ImageIOImageWriter():
-    '''public ImageIOImageWriter(final String mime)
+def ():
+    '''returns IIOMultiImageWriter\n\n
+    (final String mime)\n
+    (final OutputStream out)\n
     '''
 def writeImage():
-    '''public void writeImage(final RenderedImage image, final OutputStream out)
-    public void writeImage(final RenderedImage image, final OutputStream out, final ImageWriterParams params)
-    public void writeImage(final RenderedImage image, final ImageWriterParams params)
+    '''returns None\n\n
+    writeImage(final RenderedImage image, final OutputStream out)\n
+    writeImage(final RenderedImage image, final OutputStream out, final ImageWriterParams params)\n
+    writeImage(final RenderedImage image, final ImageWriterParams params)\n
     '''
 def getMIMEType():
-    '''public String getMIMEType()
+    '''returns String\n\n
+    getMIMEType()\n
     '''
 def isFunctional():
-    '''public boolean isFunctional()
+    '''returns boolean\n\n
+    isFunctional()\n
     '''
 def warningOccurred():
-    '''public void warningOccurred(final javax.imageio.ImageWriter source, final int imageIndex, final String warning)
+    '''returns None\n\n
+    warningOccurred(final javax.imageio.ImageWriter source, final int imageIndex, final String warning)\n
     '''
 def createMultiImageWriter():
-    '''public MultiImageWriter createMultiImageWriter(final OutputStream out)
+    '''returns MultiImageWriter\n\n
+    createMultiImageWriter(final OutputStream out)\n
     '''
 def supportsMultiImageWriter():
-    '''public boolean supportsMultiImageWriter()
-    '''
-def IIOMultiImageWriter():
-    '''public IIOMultiImageWriter(final OutputStream out)
+    '''returns boolean\n\n
+    supportsMultiImageWriter()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

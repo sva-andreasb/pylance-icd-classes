@@ -1,6 +1,7 @@
-def ICUException():
-    '''public ICUException()
-    public ICUException(final String message)
-    public ICUException(final Throwable cause)
-    public ICUException(final String message, final Throwable cause)
+def ():
+    '''returns ICUException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

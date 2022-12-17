@@ -1,21 +1,16 @@
-def toString():
-    '''public final String toString()
-    '''
-def intValue():
-    '''public final int intValue()
-    '''
-def hashCode():
-    '''public final int hashCode()
-    '''
-def Table():
-    '''public Table(final StringEnumAbstractBase[] array)
+def ():
+    '''returns Table\n\n
+    (final StringEnumAbstractBase[] array)\n
     '''
 def forString():
-    '''public StringEnumAbstractBase forString(final String s)
+    '''returns StringEnumAbstractBase\n\n
+    forString(final String s)\n
     '''
 def forInt():
-    '''public StringEnumAbstractBase forInt(final int i)
+    '''returns StringEnumAbstractBase\n\n
+    forInt(final int i)\n
     '''
 def lastInt():
-    '''public int lastInt()
+    '''returns int\n\n
+    lastInt()\n
     '''

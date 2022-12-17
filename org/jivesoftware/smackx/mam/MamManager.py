@@ -1,153 +1,189 @@
-def getInstanceFor():
-    '''public static MamManager getInstanceFor(final XMPPConnection connection)
-    public static MamManager getInstanceFor(final MultiUserChat multiUserChat)
-    public static synchronized MamManager getInstanceFor(final XMPPConnection connection, final Jid archiveAddress)
-    '''
 def getArchiveAddress():
-    '''public Jid getArchiveAddress()
+    '''returns Jid\n\n
+    getArchiveAddress()\n
     '''
 def queryArchive():
-    '''public MamQueryResult queryArchive(final Integer max)
-    public MamQueryResult queryArchive(final Jid withJid)
-    public MamQueryResult queryArchive(final Date start, final Date end)
-    public MamQueryResult queryArchive(final List<FormField> additionalFields)
-    public MamQueryResult queryArchive(final Integer max, final Date start, final Date end, final Jid withJid, final List<FormField> additionalFields)
-    public MamQueryResult queryArchive(final String node, final Integer max, final Date start, final Date end, final Jid withJid, final List<FormField> additionalFields)
-    public MamQuery queryArchive(final MamQueryArgs mamQueryArgs)
+    '''returns MamQuery\n\n
+    queryArchive(final Integer max)\n
+    queryArchive(final Jid withJid)\n
+    queryArchive(final Date start, final Date end)\n
+    queryArchive(final List<FormField> additionalFields)\n
+    queryArchive(final Integer max, final Date start, final Date end, final Jid withJid, final List<FormField> additionalFields)\n
+    queryArchive(final String node, final Integer max, final Date start, final Date end, final Jid withJid, final List<FormField> additionalFields)\n
+    queryArchive(final MamQueryArgs mamQueryArgs)\n
     '''
 def queryArchiveWithStartDate():
-    '''public MamQueryResult queryArchiveWithStartDate(final Date start)
+    '''returns MamQueryResult\n\n
+    queryArchiveWithStartDate(final Date start)\n
     '''
 def queryArchiveWithEndDate():
-    '''public MamQueryResult queryArchiveWithEndDate(final Date end)
+    '''returns MamQueryResult\n\n
+    queryArchiveWithEndDate(final Date end)\n
     '''
 def page():
-    '''public MamQueryResult page(final DataForm dataForm, final RSMSet rsmSet)
-    public MamQueryResult page(final String node, final DataForm dataForm, final RSMSet rsmSet)
+    '''returns MamQueryResult\n\n
+    page(final DataForm dataForm, final RSMSet rsmSet)\n
+    page(final String node, final DataForm dataForm, final RSMSet rsmSet)\n
     '''
 def pageNext():
-    '''public MamQueryResult pageNext(final MamQueryResult mamQueryResult, final int count)
-    public List<Message> pageNext(final int count)
+    '''returns List<Message>\n\n
+    pageNext(final MamQueryResult mamQueryResult, final int count)\n
+    pageNext(final int count)\n
     '''
 def pagePrevious():
-    '''public MamQueryResult pagePrevious(final MamQueryResult mamQueryResult, final int count)
-    public List<Message> pagePrevious(final int count)
+    '''returns List<Message>\n\n
+    pagePrevious(final MamQueryResult mamQueryResult, final int count)\n
+    pagePrevious(final int count)\n
     '''
 def pageBefore():
-    '''public MamQueryResult pageBefore(final Jid chatJid, final String messageUid, final int max)
+    '''returns MamQueryResult\n\n
+    pageBefore(final Jid chatJid, final String messageUid, final int max)\n
     '''
 def pageAfter():
-    '''public MamQueryResult pageAfter(final Jid chatJid, final String messageUid, final int max)
+    '''returns MamQueryResult\n\n
+    pageAfter(final Jid chatJid, final String messageUid, final int max)\n
     '''
 def mostRecentPage():
-    '''public MamQueryResult mostRecentPage(final Jid chatJid, final int max)
+    '''returns MamQueryResult\n\n
+    mostRecentPage(final Jid chatJid, final int max)\n
     '''
 def queryMostRecentPage():
-    '''public MamQuery queryMostRecentPage(final Jid jid, final int max)
+    '''returns MamQuery\n\n
+    queryMostRecentPage(final Jid jid, final int max)\n
     '''
 def retrieveFormFields():
-    '''public List<FormField> retrieveFormFields()
-    public List<FormField> retrieveFormFields(final String node)
+    '''returns List<FormField>\n\n
+    retrieveFormFields()\n
+    retrieveFormFields(final String node)\n
     '''
 def isSupported():
-    '''public boolean isSupported()
+    '''returns boolean\n\n
+    isSupported()\n
     '''
 def getMessageUidOfLatestMessage():
-    '''public String getMessageUidOfLatestMessage()
+    '''returns String\n\n
+    getMessageUidOfLatestMessage()\n
     '''
 def retrieveArchivingPreferences():
-    '''public MamPrefsResult retrieveArchivingPreferences()
+    '''returns MamPrefsResult\n\n
+    retrieveArchivingPreferences()\n
     '''
 def updateArchivingPreferences():
-    '''public MamPrefsResult updateArchivingPreferences(final List<Jid> alwaysJids, final List<Jid> neverJids, final MamPrefsIQ.DefaultBehavior defaultBehavior)
-    public MamPrefsResult updateArchivingPreferences(final MamPrefs mamPrefs)
+    '''returns MamPrefsResult\n\n
+    updateArchivingPreferences(final List<Jid> alwaysJids, final List<Jid> neverJids, final MamPrefsIQ.DefaultBehavior defaultBehavior)\n
+    updateArchivingPreferences(final MamPrefs mamPrefs)\n
     '''
 def enableMamForAllMessages():
-    '''public MamPrefsResult enableMamForAllMessages()
+    '''returns MamPrefsResult\n\n
+    enableMamForAllMessages()\n
     '''
 def enableMamForRosterMessages():
-    '''public MamPrefsResult enableMamForRosterMessages()
+    '''returns MamPrefsResult\n\n
+    enableMamForRosterMessages()\n
     '''
 def setDefaultBehavior():
-    '''public MamPrefsResult setDefaultBehavior(final MamPrefsIQ.DefaultBehavior desiredDefaultBehavior)
-    public void setDefaultBehavior(final MamPrefsIQ.DefaultBehavior defaultBehavior)
+    '''returns None\n\n
+    setDefaultBehavior(final MamPrefsIQ.DefaultBehavior desiredDefaultBehavior)\n
+    setDefaultBehavior(final MamPrefsIQ.DefaultBehavior defaultBehavior)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''
-def builder():
-    '''public static Builder builder()
-    '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def queryNode():
-    '''public Builder queryNode(final String node)
+    '''returns Builder\n\n
+    queryNode(final String node)\n
     '''
 def limitResultsToJid():
-    '''public Builder limitResultsToJid(final Jid withJid)
+    '''returns Builder\n\n
+    limitResultsToJid(final Jid withJid)\n
     '''
 def limitResultsSince():
-    '''public Builder limitResultsSince(final Date start)
+    '''returns Builder\n\n
+    limitResultsSince(final Date start)\n
     '''
 def limitResultsBefore():
-    '''public Builder limitResultsBefore(final Date end)
+    '''returns Builder\n\n
+    limitResultsBefore(final Date end)\n
     '''
 def setResultPageSize():
-    '''public Builder setResultPageSize(final Integer max)
+    '''returns Builder\n\n
+    setResultPageSize(final Integer max)\n
     '''
 def setResultPageSizeTo():
-    '''public Builder setResultPageSizeTo(final int max)
+    '''returns Builder\n\n
+    setResultPageSizeTo(final int max)\n
     '''
 def onlyReturnMessageCount():
-    '''public Builder onlyReturnMessageCount()
+    '''returns Builder\n\n
+    onlyReturnMessageCount()\n
     '''
 def withAdditionalFormField():
-    '''public Builder withAdditionalFormField(final FormField formField)
+    '''returns Builder\n\n
+    withAdditionalFormField(final FormField formField)\n
     '''
 def withAdditionalFormFields():
-    '''public Builder withAdditionalFormFields(final List<FormField> additionalFields)
+    '''returns Builder\n\n
+    withAdditionalFormFields(final List<FormField> additionalFields)\n
     '''
 def afterUid():
-    '''public Builder afterUid(final String afterUid)
+    '''returns Builder\n\n
+    afterUid(final String afterUid)\n
     '''
 def beforeUid():
-    '''public Builder beforeUid(final String beforeUid)
+    '''returns Builder\n\n
+    beforeUid(final String beforeUid)\n
     '''
 def queryLastPage():
-    '''public Builder queryLastPage()
+    '''returns Builder\n\n
+    queryLastPage()\n
     '''
 def build():
-    '''public MamQueryArgs build()
+    '''returns MamQueryArgs\n\n
+    build()\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def getMessages():
-    '''public List<Message> getMessages()
-    public List<Message> getMessages()
+    '''returns List<Message>\n\n
+    getMessages()\n
+    getMessages()\n
     '''
 def getMessageCount():
-    '''public int getMessageCount()
+    '''returns int\n\n
+    getMessageCount()\n
     '''
 def getPage():
-    '''public MamQueryPage getPage()
+    '''returns MamQueryPage\n\n
+    getPage()\n
     '''
 def getForwarded():
-    '''public List<Forwarded> getForwarded()
+    '''returns List<Forwarded>\n\n
+    getForwarded()\n
     '''
 def getMamResultCarrierMessages():
-    '''public List<Message> getMamResultCarrierMessages()
+    '''returns List<Message>\n\n
+    getMamResultCarrierMessages()\n
     '''
 def getMamFinIq():
-    '''public MamFinIQ getMamFinIq()
+    '''returns MamFinIQ\n\n
+    getMamFinIq()\n
     '''
 def asMamPrefs():
-    '''public MamPrefs asMamPrefs()
+    '''returns MamPrefs\n\n
+    asMamPrefs()\n
     '''
 def getAlwaysJids():
-    '''public List<Jid> getAlwaysJids()
+    '''returns List<Jid>\n\n
+    getAlwaysJids()\n
     '''
 def getNeverJids():
-    '''public List<Jid> getNeverJids()
+    '''returns List<Jid>\n\n
+    getNeverJids()\n
     '''

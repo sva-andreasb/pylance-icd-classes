@@ -1,12 +1,16 @@
-def FldItemCommodityGrp():
-    '''public FldItemCommodityGrp(final MboValue mbv)
+def ():
+    '''returns FldItemCommodityGrp\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def isServiceItem():
-    '''public boolean isServiceItem()
+    '''returns boolean\n\n
+    isServiceItem()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,3 +1,4 @@
 def getStopwordSet():
-    '''public CharArraySet getStopwordSet()
+    '''returns CharArraySet\n\n
+    getStopwordSet()\n
     '''

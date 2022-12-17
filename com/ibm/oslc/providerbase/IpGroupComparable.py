@@ -1,3 +1,4 @@
 def compare():
-    '''public int compare(final IpGroup ip1, final IpGroup ip2)
+    '''returns int\n\n
+    compare(final IpGroup ip1, final IpGroup ip2)\n
     '''

@@ -1,43 +1,57 @@
 def getGrants():
-    '''public List<GrantListEntry> getGrants()
+    '''returns List<GrantListEntry>\n\n
+    getGrants()\n
     '''
 def setGrants():
-    '''public void setGrants(final Collection<GrantListEntry> grants)
+    '''returns None\n\n
+    setGrants(final Collection<GrantListEntry> grants)\n
     '''
 def withGrants():
-    '''public ListGrantsResult withGrants(final GrantListEntry... grants)
-    public ListGrantsResult withGrants(final Collection<GrantListEntry> grants)
+    '''returns ListGrantsResult\n\n
+    withGrants(final GrantListEntry... grants)\n
+    withGrants(final Collection<GrantListEntry> grants)\n
     '''
 def setNextMarker():
-    '''public void setNextMarker(final String nextMarker)
+    '''returns None\n\n
+    setNextMarker(final String nextMarker)\n
     '''
 def getNextMarker():
-    '''public String getNextMarker()
+    '''returns String\n\n
+    getNextMarker()\n
     '''
 def withNextMarker():
-    '''public ListGrantsResult withNextMarker(final String nextMarker)
+    '''returns ListGrantsResult\n\n
+    withNextMarker(final String nextMarker)\n
     '''
 def setTruncated():
-    '''public void setTruncated(final Boolean truncated)
+    '''returns None\n\n
+    setTruncated(final Boolean truncated)\n
     '''
 def getTruncated():
-    '''public Boolean getTruncated()
+    '''returns Boolean\n\n
+    getTruncated()\n
     '''
 def withTruncated():
-    '''public ListGrantsResult withTruncated(final Boolean truncated)
+    '''returns ListGrantsResult\n\n
+    withTruncated(final Boolean truncated)\n
     '''
 def isTruncated():
-    '''public Boolean isTruncated()
+    '''returns Boolean\n\n
+    isTruncated()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public ListGrantsResult clone()
+    '''returns ListGrantsResult\n\n
+    clone()\n
     '''

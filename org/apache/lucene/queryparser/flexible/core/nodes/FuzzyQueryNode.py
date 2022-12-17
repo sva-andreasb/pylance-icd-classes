@@ -1,24 +1,32 @@
-def FuzzyQueryNode():
-    '''public FuzzyQueryNode(final CharSequence field, final CharSequence term, final float minSimilarity, final int begin, final int end)
+def ():
+    '''returns FuzzyQueryNode\n\n
+    (final CharSequence field, final CharSequence term, final float minSimilarity, final int begin, final int end)\n
     '''
 def setPrefixLength():
-    '''public void setPrefixLength(final int prefixLength)
+    '''returns None\n\n
+    setPrefixLength(final int prefixLength)\n
     '''
 def getPrefixLength():
-    '''public int getPrefixLength()
+    '''returns int\n\n
+    getPrefixLength()\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escaper)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escaper)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setSimilarity():
-    '''public void setSimilarity(final float similarity)
+    '''returns None\n\n
+    setSimilarity(final float similarity)\n
     '''
 def cloneTree():
-    '''public FuzzyQueryNode cloneTree()
+    '''returns FuzzyQueryNode\n\n
+    cloneTree()\n
     '''
 def getSimilarity():
-    '''public float getSimilarity()
+    '''returns float\n\n
+    getSimilarity()\n
     '''

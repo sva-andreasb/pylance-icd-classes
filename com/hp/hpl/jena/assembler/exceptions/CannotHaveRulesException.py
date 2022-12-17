@@ -1,3 +1,4 @@
-def CannotHaveRulesException():
-    '''public CannotHaveRulesException(final Resource root)
+def ():
+    '''returns CannotHaveRulesException\n\n
+    (final Resource root)\n
     '''

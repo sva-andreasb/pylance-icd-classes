@@ -1,36 +1,20 @@
-def maybeGetBoolean():
-    '''public static Boolean maybeGetBoolean(final Map<String, XDGFCell> cells, final String name)
-    '''
-def maybeGetDouble():
-    '''public static Double maybeGetDouble(final Map<String, XDGFCell> cells, final String name)
-    '''
-def maybeGetInteger():
-    '''public static Integer maybeGetInteger(final Map<String, XDGFCell> cells, final String name)
-    '''
-def maybeGetString():
-    '''public static String maybeGetString(final Map<String, XDGFCell> cells, final String name)
-    '''
-def parseDoubleValue():
-    '''public static Double parseDoubleValue(final CellType cell)
-    '''
-def parseIntegerValue():
-    '''public static Integer parseIntegerValue(final CellType cell)
-    '''
-def parseVLength():
-    '''public static Double parseVLength(final CellType cell)
-    '''
-def XDGFCell():
-    '''public XDGFCell(final CellType cell)
+def ():
+    '''returns XDGFCell\n\n
+    (final CellType cell)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getFormula():
-    '''public String getFormula()
+    '''returns String\n\n
+    getFormula()\n
     '''
 def getError():
-    '''public String getError()
+    '''returns String\n\n
+    getError()\n
     '''

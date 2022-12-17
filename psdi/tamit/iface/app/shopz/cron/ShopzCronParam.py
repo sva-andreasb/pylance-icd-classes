@@ -1,3 +1,4 @@
-def ShopzCronParam():
-    '''public ShopzCronParam(final MboSet ms)
+def ():
+    '''returns ShopzCronParam\n\n
+    (final MboSet ms)\n
     '''

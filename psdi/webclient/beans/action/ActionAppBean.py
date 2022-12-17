@@ -1,21 +1,24 @@
 def selectmembers():
-    '''public int selectmembers()
+    '''returns int\n\n
+    selectmembers()\n
     '''
 def wfexpbuilder():
-    '''public int wfexpbuilder()
+    '''returns int\n\n
+    wfexpbuilder()\n
     '''
 def relationshiptree():
-    '''public int relationshiptree()
+    '''returns int\n\n
+    relationshiptree()\n
     '''
 def selectvalue():
-    '''public int selectvalue()
+    '''returns int\n\n
+    selectvalue()\n
     '''
 def executeAction():
-    '''public int executeAction()
-    '''
-def getList():
-    '''public synchronized MboSetRemote getList(final int nRow, final String attribute)
+    '''returns int\n\n
+    executeAction()\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final int row, final String attribute, final String value, final boolean exactMatch)
+    '''returns MboSetRemote\n\n
+    smartFill(final int row, final String attribute, final String value, final boolean exactMatch)\n
     '''

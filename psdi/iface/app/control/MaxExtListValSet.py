@@ -1,3 +1,4 @@
-def MaxExtListValSet():
-    '''public MaxExtListValSet(final MboServerInterface ms)
+def ():
+    '''returns MaxExtListValSet\n\n
+    (final MboServerInterface ms)\n
     '''

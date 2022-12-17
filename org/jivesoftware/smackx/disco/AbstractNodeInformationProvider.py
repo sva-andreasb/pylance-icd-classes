@@ -1,6 +1,8 @@
 def getNodeFeatures():
-    '''public List<String> getNodeFeatures()
+    '''returns List<String>\n\n
+    getNodeFeatures()\n
     '''
 def getNodePacketExtensions():
-    '''public List<ExtensionElement> getNodePacketExtensions()
+    '''returns List<ExtensionElement>\n\n
+    getNodePacketExtensions()\n
     '''

@@ -1,3 +1,4 @@
 def getSet():
-    '''public UnicodeSet getSet()
+    '''returns UnicodeSet\n\n
+    getSet()\n
     '''

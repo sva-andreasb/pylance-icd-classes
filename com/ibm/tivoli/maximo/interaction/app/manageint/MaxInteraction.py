@@ -1,33 +1,44 @@
-def MaxInteraction():
-    '''public MaxInteraction(final MboSet ms)
+def ():
+    '''returns MaxInteraction\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def deleteInteraction():
-    '''public String deleteInteraction(final byte[] presentataion)
+    '''returns String\n\n
+    deleteInteraction(final byte[] presentataion)\n
     '''
 def runConfigDB():
-    '''public void runConfigDB(final MboRemote listenerMbo)
+    '''returns None\n\n
+    runConfigDB(final MboRemote listenerMbo)\n
     '''
 def getParentTbName():
-    '''public String getParentTbName(final MboRemote mapObject)
+    '''returns String\n\n
+    getParentTbName(final MboRemote mapObject)\n
     '''
 def checkMappingObject():
-    '''public void checkMappingObject(final MboRemote mapObject, final String colsRelation)
+    '''returns None\n\n
+    checkMappingObject(final MboRemote mapObject, final String colsRelation)\n
     '''
 def validateInteraction():
-    '''public boolean validateInteraction()
+    '''returns boolean\n\n
+    validateInteraction()\n
     '''
 def exportInteraction():
-    '''public void exportInteraction()
+    '''returns None\n\n
+    exportInteraction()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

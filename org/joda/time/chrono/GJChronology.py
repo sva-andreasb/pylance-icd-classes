@@ -1,116 +1,134 @@
-def getInstanceUTC():
-    '''public static GJChronology getInstanceUTC()
-    '''
-def getInstance():
-    '''public static GJChronology getInstance()
-    public static GJChronology getInstance(final DateTimeZone dateTimeZone)
-    public static GJChronology getInstance(final DateTimeZone dateTimeZone, final ReadableInstant readableInstant)
-    public static GJChronology getInstance(DateTimeZone zone, final ReadableInstant readableInstant, final int n)
-    public static GJChronology getInstance(final DateTimeZone dateTimeZone, final long n, final int n2)
-    '''
 def getZone():
-    '''public DateTimeZone getZone()
+    '''returns DateTimeZone\n\n
+    getZone()\n
     '''
 def withUTC():
-    '''public Chronology withUTC()
+    '''returns Chronology\n\n
+    withUTC()\n
     '''
 def withZone():
-    '''public Chronology withZone(DateTimeZone default1)
+    '''returns Chronology\n\n
+    withZone(DateTimeZone default1)\n
     '''
 def getDateTimeMillis():
-    '''public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4)
-    public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
+    '''returns long\n\n
+    getDateTimeMillis(final int n, final int n2, final int n3, final int n4)\n
+    getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)\n
     '''
 def getGregorianCutover():
-    '''public Instant getGregorianCutover()
+    '''returns Instant\n\n
+    getGregorianCutover()\n
     '''
 def getMinimumDaysInFirstWeek():
-    '''public int getMinimumDaysInFirstWeek()
+    '''returns int\n\n
+    getMinimumDaysInFirstWeek()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isLenient():
-    '''public boolean isLenient()
+    '''returns boolean\n\n
+    isLenient()\n
     '''
 def get():
-    '''public int get(final long n)
+    '''returns int\n\n
+    get(final long n)\n
     '''
 def getAsText():
-    '''public String getAsText(final long n, final Locale locale)
-    public String getAsText(final int n, final Locale locale)
+    '''returns String\n\n
+    getAsText(final long n, final Locale locale)\n
+    getAsText(final int n, final Locale locale)\n
     '''
 def getAsShortText():
-    '''public String getAsShortText(final long n, final Locale locale)
-    public String getAsShortText(final int n, final Locale locale)
+    '''returns String\n\n
+    getAsShortText(final long n, final Locale locale)\n
+    getAsShortText(final int n, final Locale locale)\n
     '''
 def add():
-    '''public long add(final long n, final int n2)
-    public long add(final long n, final long n2)
-    public int[] add(final ReadablePartial readablePartial, final int n, final int[] array, final int n2)
-    public long add(long n, final int n2)
-    public long add(long n, final long n2)
-    public long add(final long n, final int n2)
-    public long add(final long n, final long n2)
+    '''returns long\n\n
+    add(final long n, final int n2)\n
+    add(final long n, final long n2)\n
+    add(final ReadablePartial readablePartial, final int n, final int[] array, final int n2)\n
+    add(long n, final int n2)\n
+    add(long n, final long n2)\n
+    add(final long n, final int n2)\n
+    add(final long n, final long n2)\n
     '''
 def getDifference():
-    '''public int getDifference(final long n, final long n2)
-    public int getDifference(long n, final long n2)
-    public int getDifference(final long n, final long n2)
+    '''returns int\n\n
+    getDifference(final long n, final long n2)\n
+    getDifference(long n, final long n2)\n
+    getDifference(final long n, final long n2)\n
     '''
 def getDifferenceAsLong():
-    '''public long getDifferenceAsLong(final long n, final long n2)
-    public long getDifferenceAsLong(long n, final long n2)
-    public long getDifferenceAsLong(final long n, final long n2)
+    '''returns long\n\n
+    getDifferenceAsLong(final long n, final long n2)\n
+    getDifferenceAsLong(long n, final long n2)\n
+    getDifferenceAsLong(final long n, final long n2)\n
     '''
 def set():
-    '''public long set(long n, final int n2)
-    public long set(long n, final String s, final Locale locale)
+    '''returns long\n\n
+    set(long n, final int n2)\n
+    set(long n, final String s, final Locale locale)\n
     '''
 def getDurationField():
-    '''public DurationField getDurationField()
+    '''returns DurationField\n\n
+    getDurationField()\n
     '''
 def getRangeDurationField():
-    '''public DurationField getRangeDurationField()
+    '''returns DurationField\n\n
+    getRangeDurationField()\n
     '''
 def isLeap():
-    '''public boolean isLeap(final long n)
+    '''returns boolean\n\n
+    isLeap(final long n)\n
     '''
 def getLeapAmount():
-    '''public int getLeapAmount(final long n)
+    '''returns int\n\n
+    getLeapAmount(final long n)\n
     '''
 def getLeapDurationField():
-    '''public DurationField getLeapDurationField()
+    '''returns DurationField\n\n
+    getLeapDurationField()\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue()
-    public int getMinimumValue(final ReadablePartial readablePartial)
-    public int getMinimumValue(final ReadablePartial readablePartial, final int[] array)
-    public int getMinimumValue(long set)
-    public int getMinimumValue(final long n)
+    '''returns int\n\n
+    getMinimumValue()\n
+    getMinimumValue(final ReadablePartial readablePartial)\n
+    getMinimumValue(final ReadablePartial readablePartial, final int[] array)\n
+    getMinimumValue(long set)\n
+    getMinimumValue(final long n)\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue()
-    public int getMaximumValue(long set)
-    public int getMaximumValue(final ReadablePartial readablePartial)
-    public int getMaximumValue(final ReadablePartial readablePartial, final int[] array)
-    public int getMaximumValue(final long n)
+    '''returns int\n\n
+    getMaximumValue()\n
+    getMaximumValue(long set)\n
+    getMaximumValue(final ReadablePartial readablePartial)\n
+    getMaximumValue(final ReadablePartial readablePartial, final int[] array)\n
+    getMaximumValue(final long n)\n
     '''
 def roundFloor():
-    '''public long roundFloor(long n)
+    '''returns long\n\n
+    roundFloor(long n)\n
     '''
 def roundCeiling():
-    '''public long roundCeiling(long n)
+    '''returns long\n\n
+    roundCeiling(long n)\n
     '''
 def getMaximumTextLength():
-    '''public int getMaximumTextLength(final Locale locale)
+    '''returns int\n\n
+    getMaximumTextLength(final Locale locale)\n
     '''
 def getMaximumShortTextLength():
-    '''public int getMaximumShortTextLength(final Locale locale)
+    '''returns int\n\n
+    getMaximumShortTextLength(final Locale locale)\n
     '''

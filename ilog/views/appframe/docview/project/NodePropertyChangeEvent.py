@@ -1,12 +1,16 @@
-def NodePropertyChangeEvent():
-    '''public NodePropertyChangeEvent(final IlvDataContainer ilvDataContainer, final Object o, final Object o2, final int n, final String a, final Object b, final Object c)
+def ():
+    '''returns NodePropertyChangeEvent\n\n
+    (final IlvDataContainer ilvDataContainer, final Object o, final Object o2, final int n, final String a, final Object b, final Object c)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getNewValue():
-    '''public Object getNewValue()
+    '''returns Object\n\n
+    getNewValue()\n
     '''
 def getOldValue():
-    '''public Object getOldValue()
+    '''returns Object\n\n
+    getOldValue()\n
     '''

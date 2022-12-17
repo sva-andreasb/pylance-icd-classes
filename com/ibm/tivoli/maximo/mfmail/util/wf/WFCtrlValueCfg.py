@@ -1,33 +1,44 @@
-def WFCtrlValueCfg():
-    '''public WFCtrlValueCfg(final MboSet ms)
+def ():
+    '''returns WFCtrlValueCfg\n\n
+    (final MboSet ms)\n
     '''
 def activate():
-    '''public void activate(final boolean isActive)
+    '''returns None\n\n
+    activate(final boolean isActive)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def getValueType():
-    '''public int getValueType()
+    '''returns int\n\n
+    getValueType()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def undeleteWithValidate():
-    '''public void undeleteWithValidate()
+    '''returns None\n\n
+    undeleteWithValidate()\n
     '''

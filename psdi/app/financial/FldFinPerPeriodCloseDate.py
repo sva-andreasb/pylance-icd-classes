@@ -1,6 +1,8 @@
-def FldFinPerPeriodCloseDate():
-    '''public FldFinPerPeriodCloseDate(final MboValue mbv)
+def ():
+    '''returns FldFinPerPeriodCloseDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

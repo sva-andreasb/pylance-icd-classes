@@ -1,9 +1,12 @@
-def ReportJdbcConnectionProviderImpl():
-    '''public ReportJdbcConnectionProviderImpl(final UserInfo userInfo, final DBManager dbManager)
+def ():
+    '''returns ReportJdbcConnectionProviderImpl\n\n
+    (final UserInfo userInfo, final DBManager dbManager)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def freeConnection():
-    '''public void freeConnection()
+    '''returns None\n\n
+    freeConnection()\n
     '''

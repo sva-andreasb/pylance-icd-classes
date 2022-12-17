@@ -1,21 +1,16 @@
-def FldMaxMessagesMsgId():
-    '''public FldMaxMessagesMsgId(final MboValue mbv)
+def ():
+    '''returns FldMaxMessagesMsgId\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
-    '''
-def genMsgId():
-    '''public static String genMsgId(final String prefix, final int seed)
-    '''
-def getPrefix():
-    '''public static String getPrefix(final String id)
-    '''
-def getSequence():
-    '''public static int getSequence(final String id)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def validateMsgId():
-    '''public void validateMsgId(String id)
+    '''returns None\n\n
+    validateMsgId(String id)\n
     '''

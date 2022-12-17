@@ -1,3 +1,4 @@
-def InspFieldSet():
-    '''public InspFieldSet(final MboServerInterface ms)
+def ():
+    '''returns InspFieldSet\n\n
+    (final MboServerInterface ms)\n
     '''

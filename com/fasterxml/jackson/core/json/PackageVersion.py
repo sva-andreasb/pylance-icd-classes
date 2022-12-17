@@ -1,3 +1,4 @@
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''

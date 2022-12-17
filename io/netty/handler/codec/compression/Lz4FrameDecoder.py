@@ -1,9 +1,11 @@
-def Lz4FrameDecoder():
-    '''public Lz4FrameDecoder()
-    public Lz4FrameDecoder(final boolean validateChecksums)
-    public Lz4FrameDecoder(final LZ4Factory factory, final boolean validateChecksums)
-    public Lz4FrameDecoder(final LZ4Factory factory, final Checksum checksum)
+def ():
+    '''returns Lz4FrameDecoder\n\n
+    ()\n
+    (final boolean validateChecksums)\n
+    (final LZ4Factory factory, final boolean validateChecksums)\n
+    (final LZ4Factory factory, final Checksum checksum)\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''

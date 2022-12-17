@@ -1,16 +1,16 @@
-def MessageHubProviderFactory():
-    '''public MessageHubProviderFactory()
-    '''
-def getInstance():
-    '''public static MessageHubProviderFactory getInstance()
-    public static MessageHubProviderFactory getInstance(final String provider)
+def ():
+    '''returns MessageHubProviderFactory\n\n
+    ()\n
     '''
 def canListDestinations():
-    '''public boolean canListDestinations()
+    '''returns boolean\n\n
+    canListDestinations()\n
     '''
 def forProvider():
-    '''public void forProvider(final String provider)
+    '''returns None\n\n
+    forProvider(final String provider)\n
     '''
 def getProvider():
-    '''public String getProvider()
+    '''returns String\n\n
+    getProvider()\n
     '''

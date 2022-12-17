@@ -1,16 +1,21 @@
-def ControlProperties():
-    '''public ControlProperties(final BaseInstance masterInstance)
+def ():
+    '''returns ControlProperties\n\n
+    (final BaseInstance masterInstance)\n
     '''
 def get():
-    '''public String get(final String property)
+    '''returns String\n\n
+    get(final String property)\n
     '''
 def getString():
-    '''public String getString(final String property)
-    public String getString(final String property, final String defaultValue)
+    '''returns String\n\n
+    getString(final String property)\n
+    getString(final String property, final String defaultValue)\n
     '''
 def setPropertyValue():
-    '''public boolean setPropertyValue(final String property, final String value)
+    '''returns boolean\n\n
+    setPropertyValue(final String property, final String value)\n
     '''
 def put():
-    '''public Object put(final Object key, final Object value)
+    '''returns Object\n\n
+    put(final Object key, final Object value)\n
     '''

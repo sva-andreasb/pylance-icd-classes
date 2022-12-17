@@ -1,49 +1,60 @@
 def getProtocolVersion():
-    '''public ProtocolVersion getProtocolVersion()
+    '''returns ProtocolVersion\n\n
+    getProtocolVersion()\n
     '''
 def setProtocolVersion():
-    '''public void setProtocolVersion(final ProtocolVersion version)
+    '''returns None\n\n
+    setProtocolVersion(final ProtocolVersion version)\n
     '''
 def getURI():
-    '''public URI getURI()
+    '''returns URI\n\n
+    getURI()\n
     '''
 def setURI():
-    '''public void setURI(final URI uri)
+    '''returns None\n\n
+    setURI(final URI uri)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def isAborted():
-    '''public boolean isAborted()
+    '''returns boolean\n\n
+    isAborted()\n
     '''
 def getRequestLine():
-    '''public RequestLine getRequestLine()
+    '''returns RequestLine\n\n
+    getRequestLine()\n
     '''
 def getOriginal():
-    '''public HttpRequest getOriginal()
+    '''returns HttpRequest\n\n
+    getOriginal()\n
     '''
 def getTarget():
-    '''public HttpHost getTarget()
+    '''returns HttpHost\n\n
+    getTarget()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def wrap():
-    '''public static HttpRequestWrapper wrap(final HttpRequest request)
-    public static HttpRequestWrapper wrap(final HttpRequest request, final HttpHost target)
+    '''returns String\n\n
+    toString()\n
     '''
 def getParams():
-    '''public HttpParams getParams()
+    '''returns HttpParams\n\n
+    getParams()\n
     '''
 def getEntity():
-    '''public HttpEntity getEntity()
+    '''returns HttpEntity\n\n
+    getEntity()\n
     '''
 def setEntity():
-    '''public void setEntity(final HttpEntity entity)
+    '''returns None\n\n
+    setEntity(final HttpEntity entity)\n
     '''
 def expectContinue():
-    '''public boolean expectContinue()
+    '''returns boolean\n\n
+    expectContinue()\n
     '''

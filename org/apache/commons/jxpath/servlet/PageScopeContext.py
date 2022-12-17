@@ -1,12 +1,16 @@
-def PageScopeContext():
-    '''public PageScopeContext(final PageContext pageContext)
+def ():
+    '''returns PageScopeContext\n\n
+    (final PageContext pageContext)\n
     '''
 def getAttributeNames():
-    '''public Enumeration getAttributeNames()
+    '''returns Enumeration\n\n
+    getAttributeNames()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String attribute)
+    '''returns Object\n\n
+    getAttribute(final String attribute)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String attribute, final Object value)
+    '''returns None\n\n
+    setAttribute(final String attribute, final Object value)\n
     '''

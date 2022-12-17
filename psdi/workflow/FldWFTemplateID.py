@@ -1,6 +1,8 @@
-def FldWFTemplateID():
-    '''public FldWFTemplateID(final MboValue mbv)
+def ():
+    '''returns FldWFTemplateID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

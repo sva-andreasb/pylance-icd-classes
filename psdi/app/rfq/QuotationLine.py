@@ -1,21 +1,28 @@
-def QuotationLine():
-    '''public QuotationLine(final MboSet ms)
+def ():
+    '''returns QuotationLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def copyThisQuotationLineToPOLine():
-    '''public void copyThisQuotationLineToPOLine(final MboRemote po, final MboRemote rfqLineRemote, final MboRemote prLineRemote)
+    '''returns None\n\n
+    copyThisQuotationLineToPOLine(final MboRemote po, final MboRemote rfqLineRemote, final MboRemote prLineRemote)\n
     '''
 def isLineCostZero():
-    '''public boolean isLineCostZero()
+    '''returns boolean\n\n
+    isLineCostZero()\n
     '''
 def createContractLine():
-    '''public void createContractLine(final MboRemote newContract, final MboRemote rfqLineRemote, final MboRemote prLineRemote)
+    '''returns None\n\n
+    createContractLine(final MboRemote newContract, final MboRemote rfqLineRemote, final MboRemote prLineRemote)\n
     '''

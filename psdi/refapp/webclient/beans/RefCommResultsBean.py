@@ -1,4 +1,5 @@
 LONG_OP_INPRG = "int  2"
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

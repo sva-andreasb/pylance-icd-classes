@@ -1,32 +1,42 @@
-def ObservableReader():
-    '''public ObservableReader(final Reader wrappedReader)
+def ():
+    '''returns ObservableReader\n\n
+    (final Reader wrappedReader)\n
     '''
 def read():
-    '''public int read(final char[] cbuf, final int off, final int len)
-    public int read()
-    public int read(final char[] cbuf)
+    '''returns int\n\n
+    read(final char[] cbuf, final int off, final int len)\n
+    read()\n
+    read(final char[] cbuf)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def ready():
-    '''public boolean ready()
+    '''returns boolean\n\n
+    ready()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def mark():
-    '''public void mark(final int readAheadLimit)
+    '''returns None\n\n
+    mark(final int readAheadLimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def addReaderListener():
-    '''public void addReaderListener(final ReaderListener readerListener)
+    '''returns None\n\n
+    addReaderListener(final ReaderListener readerListener)\n
     '''
 def removeReaderListener():
-    '''public void removeReaderListener(final ReaderListener readerListener)
+    '''returns None\n\n
+    removeReaderListener(final ReaderListener readerListener)\n
     '''

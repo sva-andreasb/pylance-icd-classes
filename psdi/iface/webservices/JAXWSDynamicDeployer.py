@@ -1,9 +1,12 @@
 def deployWebService():
-    '''public void deployWebService(final MboRemote service)
+    '''returns None\n\n
+    deployWebService(final MboRemote service)\n
     '''
 def undeployWebService():
-    '''public void undeployWebService(final MboRemote service)
+    '''returns None\n\n
+    undeployWebService(final MboRemote service)\n
     '''
 def isServiceExists():
-    '''public boolean isServiceExists(final String name)
+    '''returns boolean\n\n
+    isServiceExists(final String name)\n
     '''

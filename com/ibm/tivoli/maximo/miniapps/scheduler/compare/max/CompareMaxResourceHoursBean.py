@@ -1,18 +1,24 @@
-def CompareMaxResourceHoursBean():
-    '''public CompareMaxResourceHoursBean()
+def ():
+    '''returns CompareMaxResourceHoursBean\n\n
+    ()\n
     '''
 def getCalculatedProjectMinMax():
-    '''public Range<Date> getCalculatedProjectMinMax()
+    '''returns Range<Date>\n\n
+    getCalculatedProjectMinMax()\n
     '''
 def loadCompareUI():
-    '''public void loadCompareUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("compare") final JSONObject compareJsonData)
+    '''returns None\n\n
+    loadCompareUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("compare") final JSONObject compareJsonData)\n
     '''
 def loadCompareData():
-    '''public void loadCompareData(final WebClientSession sess, @MXEventParam("compare") final JSONObject compareJsonData)
+    '''returns None\n\n
+    loadCompareData(final WebClientSession sess, @MXEventParam("compare") final JSONObject compareJsonData)\n
     '''
 def getTooltipForDate():
-    '''public DynamicTooltip getTooltipForDate(final WebClientSession sess, @MXEventParam("projectid") String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)
+    '''returns DynamicTooltip\n\n
+    getTooltipForDate(final WebClientSession sess, @MXEventParam("projectid") String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

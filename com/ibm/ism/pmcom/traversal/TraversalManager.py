@@ -3,124 +3,150 @@ TM_FLAG_IGNORE_ERRORS = "int  1"
 TM_FLAG_RUN_ASYNCHRONOUSLY = "int  2"
 TM_FLAG_QUEUEABLE_JOB = "int  4"
 TM_FLAG_IA_DUP_CHECK = "int  8"
-def getInstance():
-    '''public static synchronized TraversalManager getInstance()
-    '''
 def getQueuedJobs():
-    '''public ConcurrentLinkedQueue<Controller> getQueuedJobs()
+    '''returns ConcurrentLinkedQueue<Controller>\n\n
+    getQueuedJobs()\n
     '''
 def isJobQueued():
-    '''public boolean isJobQueued(final String jobName)
+    '''returns boolean\n\n
+    isJobQueued(final String jobName)\n
     '''
 def getQueuedJobCount():
-    '''public int getQueuedJobCount()
+    '''returns int\n\n
+    getQueuedJobCount()\n
     '''
 def Traverse():
-    '''public List<TraversalState> Traverse(final MboRemote startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)
-    public List<TraversalState> Traverse(final Iterator<MboRemote> startNodesIterator, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)
-    public List<TraversalState> Traverse(final String jobName, final MboRemote startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)
-    public List<TraversalState> Traverse(final MboSetRemote startNodes, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)
-    public List<TraversalState> Traverse(final String jobName, final MboSetRemote startNodes, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)
-    public List<TraversalState> Traverse(final Collection<MboRemote> startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)
-    public List<TraversalState> Traverse(final String jobName, final Object startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)
+    '''returns List<TraversalState>\n\n
+    Traverse(final MboRemote startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)\n
+    Traverse(final Iterator<MboRemote> startNodesIterator, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)\n
+    Traverse(final String jobName, final MboRemote startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)\n
+    Traverse(final MboSetRemote startNodes, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)\n
+    Traverse(final String jobName, final MboSetRemote startNodes, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)\n
+    Traverse(final Collection<MboRemote> startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)\n
+    Traverse(final String jobName, final Object startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)\n
     '''
 def Process():
-    '''public List<TraversalState> Process(final String jobName, final Object startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)
+    '''returns List<TraversalState>\n\n
+    Process(final String jobName, final Object startNode, final ITraversableScope traverseScope, final ITraversableAction traverseAction, final int flags)\n
     '''
 def dumpThreadStates():
-    '''public void dumpThreadStates()
+    '''returns None\n\n
+    dumpThreadStates()\n
     '''
 def uncaughtException():
-    '''public void uncaughtException(final Thread t, final Throwable e)
+    '''returns None\n\n
+    uncaughtException(final Thread t, final Throwable e)\n
     '''
 def waitForFinish():
-    '''public void waitForFinish()
+    '''returns None\n\n
+    waitForFinish()\n
     '''
-def Controller():
-    '''public Controller(final String jobGuid, final String jobName, final ITraversableScope controlScope, final ITraversableAction action, final boolean stopOnFailure, final int flags)
+def ():
+    '''returns Worker\n\n
+    (final String jobGuid, final String jobName, final ITraversableScope controlScope, final ITraversableAction action, final boolean stopOnFailure, final int flags)\n
+    (final ThreadGroup group)\n
     '''
 def isSatisfied():
-    '''public boolean isSatisfied()
+    '''returns boolean\n\n
+    isSatisfied()\n
     '''
 def getWorkQueueSize():
-    '''public int getWorkQueueSize()
-    '''
-def getVisited():
-    '''public ConcurrentHashMap<String, String> getVisited()
+    '''returns int\n\n
+    getWorkQueueSize()\n
     '''
 def submitJobWork():
-    '''public void submitJobWork(final Object jobWork)
+    '''returns None\n\n
+    submitJobWork(final Object jobWork)\n
     '''
 def submitNewWork():
-    '''public void submitNewWork(final MboRemote node)
-    public void submitNewWork(final Collection<MboRemote> collection)
-    public void submitNewWork(final mboSetContainer newWork)
-    public void submitNewWork(final Iterator<MboRemote> newWork)
+    '''returns None\n\n
+    submitNewWork(final MboRemote node)\n
+    submitNewWork(final Collection<MboRemote> collection)\n
+    submitNewWork(final mboSetContainer newWork)\n
+    submitNewWork(final Iterator<MboRemote> newWork)\n
     '''
 def getMaxAllowedWorkers():
-    '''public int getMaxAllowedWorkers()
+    '''returns int\n\n
+    getMaxAllowedWorkers()\n
     '''
 def getJobGuid():
-    '''public String getJobGuid()
+    '''returns String\n\n
+    getJobGuid()\n
     '''
 def setJobGuid():
-    '''public void setJobGuid(final String jobGuid)
+    '''returns None\n\n
+    setJobGuid(final String jobGuid)\n
     '''
 def getControlScope():
-    '''public ITraversableScope getControlScope()
+    '''returns ITraversableScope\n\n
+    getControlScope()\n
     '''
 def setControlScope():
-    '''public void setControlScope(final ITraversableScope controlScope)
+    '''returns None\n\n
+    setControlScope(final ITraversableScope controlScope)\n
     '''
 def getAction():
-    '''public ITraversableAction getAction()
+    '''returns ITraversableAction\n\n
+    getAction()\n
     '''
 def getWorkItem():
-    '''public void getWorkItem(final int threadsPerJob, final Worker worker, final boolean doCheck)
+    '''returns None\n\n
+    getWorkItem(final int threadsPerJob, final Worker worker, final boolean doCheck)\n
     '''
 def setAction():
-    '''public void setAction(final ITraversableAction action)
+    '''returns None\n\n
+    setAction(final ITraversableAction action)\n
     '''
 def getWorkerCount():
-    '''public int getWorkerCount()
+    '''returns int\n\n
+    getWorkerCount()\n
     '''
 def getMaxWorkers():
-    '''public int getMaxWorkers()
+    '''returns int\n\n
+    getMaxWorkers()\n
     '''
 def getLastStartTime():
-    '''public long getLastStartTime()
+    '''returns long\n\n
+    getLastStartTime()\n
     '''
 def addWorker():
-    '''public void addWorker(final Worker worker)
+    '''returns None\n\n
+    addWorker(final Worker worker)\n
     '''
 def removeWorker():
-    '''public void removeWorker(final Worker worker)
+    '''returns None\n\n
+    removeWorker(final Worker worker)\n
     '''
 def addFailedState():
-    '''public void addFailedState(final TraversalState state)
+    '''returns None\n\n
+    addFailedState(final TraversalState state)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def getStartNode():
-    '''public MboRemote getStartNode()
+    '''returns MboRemote\n\n
+    getStartNode()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    '''
-def Worker():
-    '''public Worker(final ThreadGroup group)
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def activateWorker():
-    '''public void activateWorker()
+    '''returns None\n\n
+    activateWorker()\n
     '''
 def getRunTime():
-    '''public long getRunTime()
+    '''returns long\n\n
+    getRunTime()\n
     '''
 def getWorkerId():
-    '''public String getWorkerId()
+    '''returns String\n\n
+    getWorkerId()\n
     '''
 def dumpMyStack():
-    '''public void dumpMyStack()
+    '''returns None\n\n
+    dumpMyStack()\n
     '''

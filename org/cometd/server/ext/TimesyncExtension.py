@@ -1,22 +1,29 @@
 LAG_ATTRIBUTE = "String  \"lag\""
-def TimesyncExtension():
-    '''public TimesyncExtension()
+def ():
+    '''returns TimesyncExtension\n\n
+    ()\n
     '''
 def getAccuracyTarget():
-    '''public int getAccuracyTarget()
+    '''returns int\n\n
+    getAccuracyTarget()\n
     '''
 def setAccuracyTarget():
-    '''public void setAccuracyTarget(final int target)
+    '''returns None\n\n
+    setAccuracyTarget(final int target)\n
     '''
 def rcv():
-    '''public boolean rcv(final ServerSession from, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    rcv(final ServerSession from, final ServerMessage.Mutable message)\n
     '''
 def rcvMeta():
-    '''public boolean rcvMeta(final ServerSession from, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    rcvMeta(final ServerSession from, final ServerMessage.Mutable message)\n
     '''
 def send():
-    '''public boolean send(final ServerSession from, final ServerSession to, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    send(final ServerSession from, final ServerSession to, final ServerMessage.Mutable message)\n
     '''
 def sendMeta():
-    '''public boolean sendMeta(final ServerSession session, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    sendMeta(final ServerSession session, final ServerMessage.Mutable message)\n
     '''

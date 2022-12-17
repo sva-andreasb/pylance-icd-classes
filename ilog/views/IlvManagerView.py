@@ -3,472 +3,405 @@ DIRECT_REDRAW = "int  1"
 BLINKING_AUTOMATIC = "int  0"
 BLINKING_ENABLED = "int  1"
 BLINKING_DISABLED = "int  2"
-def IlvManagerView():
-    '''public IlvManagerView(final IlvManager o, final IlvTransformer ilvTransformer, final ULocale uLocale)
-    public IlvManagerView(final IlvManager ilvManager, final IlvTransformer ilvTransformer)
-    public IlvManagerView(final IlvManager ilvManager)
-    public IlvManagerView()
+def ():
+    '''returns LayerCache\n\n
+    (final IlvManager o, final IlvTransformer ilvTransformer, final ULocale uLocale)\n
+    (final IlvManager ilvManager, final IlvTransformer ilvTransformer)\n
+    (final IlvManager ilvManager)\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def hierarchyChanged():
-    '''public void hierarchyChanged(final HierarchyEvent hierarchyEvent)
-    public void hierarchyChanged(final HierarchyEvent hierarchyEvent)
-    '''
-def getManager():
-    '''public final IlvManager getManager()
-    '''
-def setManager():
-    '''public final void setManager(IlvManager o)
+    '''returns None\n\n
+    hierarchyChanged(final HierarchyEvent hierarchyEvent)\n
+    hierarchyChanged(final HierarchyEvent hierarchyEvent)\n
     '''
 def addManagerChangedListener():
-    '''public void addManagerChangedListener(final ManagerChangedListener l)
+    '''returns None\n\n
+    addManagerChangedListener(final ManagerChangedListener l)\n
     '''
 def removeManagerChangedListener():
-    '''public void removeManagerChangedListener(final ManagerChangedListener l)
-    '''
-def setTransformer():
-    '''public final void setTransformer(final IlvTransformer ilvTransformer)
-    '''
-def getTransformer():
-    '''public final IlvTransformer getTransformer()
-    '''
-def addTransformer():
-    '''public final void addTransformer(final IlvTransformer ilvTransformer)
-    '''
-def addTransformerListener():
-    '''public final void addTransformerListener(final TransformerListener l)
-    '''
-def removeTransformerListener():
-    '''public final void removeTransformerListener(final TransformerListener l)
-    '''
-def isKeepingAspectRatio():
-    '''public final boolean isKeepingAspectRatio()
-    '''
-def setKeepingAspectRatio():
-    '''public final void setKeepingAspectRatio(final boolean aj)
-    '''
-def setZoomFactorRange():
-    '''public final void setZoomFactorRange(final double n, final double n2)
-    '''
-def setMinZoomXFactor():
-    '''public final void setMinZoomXFactor(final double r)
-    '''
-def getMinZoomXFactor():
-    '''public final double getMinZoomXFactor()
-    '''
-def setMaxZoomXFactor():
-    '''public final void setMaxZoomXFactor(final double t)
-    '''
-def getMaxZoomXFactor():
-    '''public final double getMaxZoomXFactor()
-    '''
-def setMinZoomYFactor():
-    '''public final void setMinZoomYFactor(final double s)
-    '''
-def getMinZoomYFactor():
-    '''public final double getMinZoomYFactor()
-    '''
-def setMaxZoomYFactor():
-    '''public final void setMaxZoomYFactor(final double u)
-    '''
-def getMaxZoomYFactor():
-    '''public final double getMaxZoomYFactor()
-    '''
-def isAtZoomXFactorLimit():
-    '''public final boolean isAtZoomXFactorLimit()
-    '''
-def isAtZoomYFactorLimit():
-    '''public final boolean isAtZoomYFactorLimit()
+    '''returns None\n\n
+    removeManagerChangedListener(final ManagerChangedListener l)\n
     '''
 def setInteractor():
-    '''public void setInteractor(final IlvManagerViewInteractor ilvManagerViewInteractor)
-    '''
-def getInteractor():
-    '''public synchronized IlvManagerViewInteractor getInteractor()
+    '''returns None\n\n
+    setInteractor(final IlvManagerViewInteractor ilvManagerViewInteractor)\n
     '''
 def pushInteractor():
-    '''public void pushInteractor(final IlvManagerViewInteractor ilvManagerViewInteractor, final AWTEvent awtEvent)
-    public void pushInteractor(final IlvManagerViewInteractor ilvManagerViewInteractor)
+    '''returns None\n\n
+    pushInteractor(final IlvManagerViewInteractor ilvManagerViewInteractor, final AWTEvent awtEvent)\n
+    pushInteractor(final IlvManagerViewInteractor ilvManagerViewInteractor)\n
     '''
 def popInteractor():
-    '''public IlvManagerViewInteractor popInteractor()
+    '''returns IlvManagerViewInteractor\n\n
+    popInteractor()\n
     '''
 def removeAllInteractors():
-    '''public void removeAllInteractors()
-    '''
-def addInteractorListener():
-    '''public final void addInteractorListener(final InteractorListener l)
-    '''
-def removeInteractorListener():
-    '''public final void removeInteractorListener(final InteractorListener l)
-    '''
-def isTransparent():
-    '''public final boolean isTransparent()
-    '''
-def setTransparent():
-    '''public final void setTransparent(final boolean ah)
-    '''
-def isAntialiasing():
-    '''public final boolean isAntialiasing()
-    '''
-def setAntialiasing():
-    '''public final void setAntialiasing(final boolean ai)
-    '''
-def isAutoFitToContents():
-    '''public final boolean isAutoFitToContents()
-    '''
-def setAutoFitToContents():
-    '''public final void setAutoFitToContents(final boolean n)
+    '''returns None\n\n
+    removeAllInteractors()\n
     '''
 def contentsChanged():
-    '''public void contentsChanged(final ManagerContentChangedEvent managerContentChangedEvent)
-    '''
-def setDoubleBuffering():
-    '''public final void setDoubleBuffering(final boolean f)
-    '''
-def isDoubleBuffering():
-    '''public final boolean isDoubleBuffering()
+    '''returns None\n\n
+    contentsChanged(final ManagerContentChangedEvent managerContentChangedEvent)\n
     '''
 def setDoubleBufferFrozen():
-    '''public void setDoubleBufferFrozen(final boolean g)
+    '''returns None\n\n
+    setDoubleBufferFrozen(final boolean g)\n
     '''
 def isDoubleBufferFrozen():
-    '''public boolean isDoubleBufferFrozen()
+    '''returns boolean\n\n
+    isDoubleBufferFrozen()\n
     '''
 def createImage():
-    '''public Image createImage(final int n, final int n2)
+    '''returns Image\n\n
+    createImage(final int n, final int n2)\n
     '''
 def setRegisteredAtToolTipManager():
-    '''public void setRegisteredAtToolTipManager(final boolean bv)
+    '''returns None\n\n
+    setRegisteredAtToolTipManager(final boolean bv)\n
     '''
 def isRegisteredAtToolTipManager():
-    '''public boolean isRegisteredAtToolTipManager()
+    '''returns boolean\n\n
+    isRegisteredAtToolTipManager()\n
     '''
 def imageUpdate():
-    '''public boolean imageUpdate(final Image image, final int n, final int n2, final int n3, final int n4, final int n5)
+    '''returns boolean\n\n
+    imageUpdate(final Image image, final int n, final int n2, final int n3, final int n4, final int n5)\n
     '''
 def update():
-    '''public void update(final Graphics graphics)
+    '''returns None\n\n
+    update(final Graphics graphics)\n
     '''
 def repaint():
-    '''public void repaint(final IlvRect ilvRect)
-    public void repaint(final long n, final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    repaint(final IlvRect ilvRect)\n
+    repaint(final long n, final int x, final int y, final int width, final int height)\n
     '''
 def paint():
-    '''public void paint(final Graphics graphics)
-    public void paint(final Graphics graphics, final IlvManagerView ilvManagerView)
+    '''returns None\n\n
+    paint(final Graphics graphics)\n
+    paint(final Graphics graphics, final IlvManagerView ilvManagerView)\n
     '''
 def print():
-    '''public void print(final Graphics graphics, final IlvRect ilvRect, final IlvTransformer ilvTransformer, final boolean b, final boolean b2)
+    '''returns None\n\n
+    print(final Graphics graphics, final IlvRect ilvRect, final IlvTransformer ilvTransformer, final boolean b, final boolean b2)\n
     '''
 def isOpaque():
-    '''public boolean isOpaque()
+    '''returns boolean\n\n
+    isOpaque()\n
     '''
 def setBounds():
-    '''public void setBounds(final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    setBounds(final int x, final int y, final int width, final int height)\n
     '''
 def isVisible():
-    '''public boolean isVisible(final int n)
+    '''returns boolean\n\n
+    isVisible(final int n)\n
     '''
 def setVisible():
-    '''public void setVisible(final int n, final boolean b)
+    '''returns None\n\n
+    setVisible(final int n, final boolean b)\n
     '''
 def isContributingToViewBBox():
-    '''public boolean isContributingToViewBBox(final int n)
+    '''returns boolean\n\n
+    isContributingToViewBBox(final int n)\n
     '''
 def setContributingToViewBBox():
-    '''public void setContributingToViewBBox(final int n, final boolean b)
+    '''returns None\n\n
+    setContributingToViewBBox(final int n, final boolean b)\n
     '''
 def computeBBox():
-    '''public IlvRect computeBBox()
-    public IlvRect computeBBox(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    computeBBox()\n
+    computeBBox(final IlvTransformer ilvTransformer)\n
     '''
 def setViewMargins():
-    '''public void setViewMargins(final Insets a9)
+    '''returns None\n\n
+    setViewMargins(final Insets a9)\n
     '''
 def getViewMargins():
-    '''public Insets getViewMargins()
+    '''returns Insets\n\n
+    getViewMargins()\n
     '''
 def fitTransformerToContent():
-    '''public void fitTransformerToContent()
-    public void fitTransformerToContent(final boolean b)
-    public void fitTransformerToContent(final Insets insets)
-    public void fitTransformerToContent(final Insets insets, final int n)
-    public void fitTransformerToContent(final Insets insets, final int n, final boolean b)
+    '''returns None\n\n
+    fitTransformerToContent()\n
+    fitTransformerToContent(final boolean b)\n
+    fitTransformerToContent(final Insets insets)\n
+    fitTransformerToContent(final Insets insets, final int n)\n
+    fitTransformerToContent(final Insets insets, final int n, final boolean b)\n
     '''
 def fitTransformerToArea():
-    '''public void fitTransformerToArea(final Insets insets, final FitAreaCalculator fitAreaCalculator, final int n)
-    public void fitTransformerToArea(final Insets insets, final FitAreaCalculator fitAreaCalculator, final int n, final boolean b)
+    '''returns None\n\n
+    fitTransformerToArea(final Insets insets, final FitAreaCalculator fitAreaCalculator, final int n)\n
+    fitTransformerToArea(final Insets insets, final FitAreaCalculator fitAreaCalculator, final int n, final boolean b)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''
 def componentShown():
-    '''public void componentShown(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentShown(final ComponentEvent componentEvent)\n
     '''
 def componentHidden():
-    '''public void componentHidden(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentHidden(final ComponentEvent componentEvent)\n
     '''
 def componentMoved():
-    '''public void componentMoved(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentMoved(final ComponentEvent componentEvent)\n
     '''
 def computeTransformerFitToArea():
-    '''public IlvTransformer computeTransformerFitToArea(final Insets insets, final FitAreaCalculator fitAreaCalculator, final int n)
+    '''returns IlvTransformer\n\n
+    computeTransformerFitToArea(final Insets insets, final FitAreaCalculator fitAreaCalculator, final int n)\n
     '''
 def ensureVisible():
-    '''public void ensureVisible(final IlvRect ilvRect)
-    public void ensureVisible(final IlvPoint ilvPoint)
+    '''returns None\n\n
+    ensureVisible(final IlvRect ilvRect)\n
+    ensureVisible(final IlvPoint ilvPoint)\n
     '''
 def visibleRect():
-    '''public Rectangle visibleRect()
+    '''returns Rectangle\n\n
+    visibleRect()\n
     '''
 def verifyTransformer():
-    '''public void verifyTransformer()
-    '''
-def zoom():
-    '''public final void zoom(final IlvPoint ilvPoint, final double n, final double n2, final boolean b)
+    '''returns None\n\n
+    verifyTransformer()\n
     '''
 def isOptimizedTranslation():
-    '''public boolean isOptimizedTranslation()
+    '''returns boolean\n\n
+    isOptimizedTranslation()\n
     '''
 def setOptimizedTranslation():
-    '''public void setOptimizedTranslation(final boolean ag)
+    '''returns None\n\n
+    setOptimizedTranslation(final boolean ag)\n
     '''
 def translate():
-    '''public void translate(final float n, final float n2, final boolean b)
+    '''returns None\n\n
+    translate(final float n, final float n2, final boolean b)\n
     '''
 def setRepaintSkipThreshold():
-    '''public void setRepaintSkipThreshold(final long b)
+    '''returns None\n\n
+    setRepaintSkipThreshold(final long b)\n
     '''
 def getRepaintSkipThreshold():
-    '''public long getRepaintSkipThreshold()
+    '''returns long\n\n
+    getRepaintSkipThreshold()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    public void run()
-    '''
-def setRedrawMode():
-    '''public final void setRedrawMode(final int av)
-    '''
-def getRedrawMode():
-    '''public final int getRedrawMode()
-    '''
-def setBlinkingMode():
-    '''public final void setBlinkingMode(final int aw)
-    '''
-def getBlinkingMode():
-    '''public final int getBlinkingMode()
-    '''
-def getRegion():
-    '''public final IlvRegion getRegion()
-    '''
-def invalidateRect():
-    '''public final void invalidateRect(final IlvRect ilvRect)
-    public void invalidateRect(final IlvRect ilvRect)
-    '''
-def invalidateView():
-    '''public final void invalidateView()
-    '''
-def reDrawViews():
-    '''public final void reDrawViews()
-    '''
-def reDrawViewsForBlinking():
-    '''public final void reDrawViewsForBlinking()
-    '''
-def getDefaultXORColor():
-    '''public final Color getDefaultXORColor()
-    '''
-def setDefaultXORColor():
-    '''public final void setDefaultXORColor(final Color ar)
-    '''
-def getDefaultGhostColor():
-    '''public final Color getDefaultGhostColor()
-    '''
-def setDefaultGhostColor():
-    '''public final void setDefaultGhostColor(final Color as)
-    '''
-def getBackgroundPatternLocation():
-    '''public final URL getBackgroundPatternLocation()
-    '''
-def setBackgroundPatternLocation():
-    '''public final void setBackgroundPatternLocation(URL prepare)
-    '''
-def getBackgroundPattern():
-    '''public final Image getBackgroundPattern()
-    '''
-def setBackgroundPattern():
-    '''public final void setBackgroundPattern(final Image image)
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def setPreferredSize():
-    '''public void setPreferredSize(final Dimension d)
+    '''returns None\n\n
+    setPreferredSize(final Dimension d)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def setMaximumSize():
-    '''public void setMaximumSize(final Dimension d)
+    '''returns None\n\n
+    setMaximumSize(final Dimension d)\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize()
+    '''returns Dimension\n\n
+    getMaximumSize()\n
     '''
 def setMinimumSize():
-    '''public void setMinimumSize(final Dimension d)
+    '''returns None\n\n
+    setMinimumSize(final Dimension d)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize()
+    '''returns Dimension\n\n
+    getMinimumSize()\n
     '''
 def setCursor():
-    '''public void setCursor(final Cursor cursor)
+    '''returns None\n\n
+    setCursor(final Cursor cursor)\n
     '''
 def setBackground():
-    '''public void setBackground(final Color color)
+    '''returns None\n\n
+    setBackground(final Color color)\n
     '''
 def addViewDecoration():
-    '''public void addViewDecoration(final IlvManagerViewDecoration e)
+    '''returns None\n\n
+    addViewDecoration(final IlvManagerViewDecoration e)\n
     '''
 def removeViewDecoration():
-    '''public void removeViewDecoration(final IlvManagerViewDecoration o)
+    '''returns None\n\n
+    removeViewDecoration(final IlvManagerViewDecoration o)\n
     '''
 def getViewDecorationCount():
-    '''public int getViewDecorationCount()
+    '''returns int\n\n
+    getViewDecorationCount()\n
     '''
 def getViewDecoration():
-    '''public IlvManagerViewDecoration getViewDecoration(final int index)
+    '''returns IlvManagerViewDecoration\n\n
+    getViewDecoration(final int index)\n
     '''
 def setGrid():
-    '''public void setGrid(final IlvGrid aa)
+    '''returns None\n\n
+    setGrid(final IlvGrid aa)\n
     '''
 def getGrid():
-    '''public IlvGrid getGrid()
-    '''
-def snapToGrid():
-    '''public final void snapToGrid(final IlvPoint ilvPoint)
+    '''returns IlvGrid\n\n
+    getGrid()\n
     '''
 def removeNotify():
-    '''public void removeNotify()
+    '''returns None\n\n
+    removeNotify()\n
     '''
 def addNotify():
-    '''public void addNotify()
+    '''returns None\n\n
+    addNotify()\n
     '''
 def setEventDispatching():
-    '''public void setEventDispatching(final boolean ac)
+    '''returns None\n\n
+    setEventDispatching(final boolean ac)\n
     '''
 def isEventDispatching():
-    '''public boolean isEventDispatching()
+    '''returns boolean\n\n
+    isEventDispatching()\n
     '''
 def isCollapseExpandIconsEnabled():
-    '''public boolean isCollapseExpandIconsEnabled()
+    '''returns boolean\n\n
+    isCollapseExpandIconsEnabled()\n
     '''
 def setCollapseExpandIconsEnabled():
-    '''public void setCollapseExpandIconsEnabled(final boolean b)
+    '''returns None\n\n
+    setCollapseExpandIconsEnabled(final boolean b)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mousePressed(final MouseEvent mouseEvent)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''
 def isWheelZoomingEnabled():
-    '''public boolean isWheelZoomingEnabled()
+    '''returns boolean\n\n
+    isWheelZoomingEnabled()\n
     '''
 def setWheelZoomingEnabled():
-    '''public void setWheelZoomingEnabled(final boolean b)
+    '''returns None\n\n
+    setWheelZoomingEnabled(final boolean b)\n
     '''
 def mouseWheelMoved():
-    '''public void mouseWheelMoved(final MouseWheelEvent e)
+    '''returns None\n\n
+    mouseWheelMoved(final MouseWheelEvent e)\n
     '''
 def setWheelZoomingInverted():
-    '''public void setWheelZoomingInverted(final boolean bd)
+    '''returns None\n\n
+    setWheelZoomingInverted(final boolean bd)\n
     '''
 def isWheelZoomingInverted():
-    '''public boolean isWheelZoomingInverted()
+    '''returns boolean\n\n
+    isWheelZoomingInverted()\n
     '''
 def getTripleBufferedLayerCount():
-    '''public int getTripleBufferedLayerCount()
+    '''returns int\n\n
+    getTripleBufferedLayerCount()\n
     '''
 def invalidateTripleBuffer():
-    '''public void invalidateTripleBuffer(final boolean b)
-    public void invalidateTripleBuffer(final IlvRect ilvRect, final boolean b)
+    '''returns None\n\n
+    invalidateTripleBuffer(final boolean b)\n
+    invalidateTripleBuffer(final IlvRect ilvRect, final boolean b)\n
     '''
 def setTripleBufferedLayerCount():
-    '''public void setTripleBufferedLayerCount(final int n)
+    '''returns None\n\n
+    setTripleBufferedLayerCount(final int n)\n
     '''
 def setLayerCached():
-    '''public void setLayerCached(final int n, final boolean b)
+    '''returns None\n\n
+    setLayerCached(final int n, final boolean b)\n
     '''
 def isLayerCached():
-    '''public boolean isLayerCached(final int n)
+    '''returns boolean\n\n
+    isLayerCached(final int n)\n
     '''
 def getPopupMenu():
-    '''public JPopupMenu getPopupMenu(final IlvPoint ilvPoint, final IlvPopupMenuManager ilvPopupMenuManager)
+    '''returns JPopupMenu\n\n
+    getPopupMenu(final IlvPoint ilvPoint, final IlvPopupMenuManager ilvPopupMenuManager)\n
     '''
 def setSelectedWhenPopupPreferred():
-    '''public void setSelectedWhenPopupPreferred(final boolean ak)
+    '''returns None\n\n
+    setSelectedWhenPopupPreferred(final boolean ak)\n
     '''
 def isSelectedWhenPopupPreferred():
-    '''public boolean isSelectedWhenPopupPreferred()
+    '''returns boolean\n\n
+    isSelectedWhenPopupPreferred()\n
     '''
 def isInSwingParent():
-    '''public boolean isInSwingParent()
+    '''returns boolean\n\n
+    isInSwingParent()\n
     '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    '''
-def getStoredULocale():
-    '''public final ULocale getStoredULocale()
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def setULocale():
-    '''public void setULocale(final ULocale uLocale)
+    '''returns None\n\n
+    setULocale(final ULocale uLocale)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
-    '''
-def initDisplayInfo():
-    '''public static void initDisplayInfo()
-    '''
-def getCurrentView():
-    '''public static IlvManagerView getCurrentView(final Graphics graphics)
-    '''
-def LayerCacheManager():
-    '''public LayerCacheManager()
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def invalidateCache():
-    '''public void invalidateCache(final int n, final IlvRect ilvRect)
-    public void invalidateCache()
+    '''returns None\n\n
+    invalidateCache(final int n, final IlvRect ilvRect)\n
+    invalidateCache()\n
     '''
 def cleanCache():
-    '''public void cleanCache()
+    '''returns None\n\n
+    cleanCache()\n
     '''
 def cacheLayer():
-    '''public void cacheLayer(final int n, final boolean b)
+    '''returns None\n\n
+    cacheLayer(final int n, final boolean b)\n
     '''
 def getCache():
-    '''public LayerCache getCache(final int n)
-    public BufferedImage getCache()
-    public BufferedImage getCache(final IlvManagerView ilvManagerView)
-    '''
-def LayerCache():
-    '''public LayerCache()
+    '''returns BufferedImage\n\n
+    getCache(final int n)\n
+    getCache()\n
+    getCache(final IlvManagerView ilvManagerView)\n
     '''
 def getInvalidRegion():
-    '''public IlvRegion getInvalidRegion()
+    '''returns IlvRegion\n\n
+    getInvalidRegion()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def validateCache():
-    '''public void validateCache(final boolean a)
+    '''returns None\n\n
+    validateCache(final boolean a)\n
+    '''
+def invalidateRect():
+    '''returns None\n\n
+    invalidateRect(final IlvRect ilvRect)\n
     '''
 def setCache():
-    '''public void setCache(final BufferedImage b)
+    '''returns None\n\n
+    setCache(final BufferedImage b)\n
     '''
 def validateHints():
-    '''public void validateHints(final RenderingHints d)
+    '''returns None\n\n
+    validateHints(final RenderingHints d)\n
     '''

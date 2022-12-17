@@ -1,6 +1,8 @@
-def FldWOTotalCombinedTotal():
-    '''public FldWOTotalCombinedTotal(final MboValue mbv)
+def ():
+    '''returns FldWOTotalCombinedTotal\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

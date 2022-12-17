@@ -1,15 +1,20 @@
-def TableDownload():
-    '''public TableDownload(final HttpServletRequest request, final WebClientSession webClientSession, final HttpServletResponse response, final String type)
+def ():
+    '''returns TableDownload\n\n
+    (final HttpServletRequest request, final WebClientSession webClientSession, final HttpServletResponse response, final String type)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def generatexls():
-    '''public HttpServletResponse generatexls()
+    '''returns HttpServletResponse\n\n
+    generatexls()\n
     '''
 def generatexlsx():
-    '''public HttpServletResponse generatexlsx()
+    '''returns HttpServletResponse\n\n
+    generatexlsx()\n
     '''
 def generatcsv():
-    '''public HttpServletResponse generatcsv()
+    '''returns HttpServletResponse\n\n
+    generatcsv()\n
     '''

@@ -1,33 +1,40 @@
-def ERMAttributeError():
-    '''public ERMAttributeError(final ERMAttribute attribute, final int mboIndex, final ErrorType errorType)
+def ():
+    '''returns ERMAttributeError\n\n
+    (final ERMAttribute attribute, final int mboIndex, final ErrorType errorType)\n
     '''
 def getAttribute():
-    '''public ERMAttribute getAttribute()
+    '''returns ERMAttribute\n\n
+    getAttribute()\n
     '''
 def getMboIndex():
-    '''public int getMboIndex()
+    '''returns int\n\n
+    getMboIndex()\n
     '''
 def getErrorType():
-    '''public ErrorType getErrorType()
+    '''returns ErrorType\n\n
+    getErrorType()\n
     '''
 def setParentIndex():
-    '''public void setParentIndex(final ERMEntity ermEntity, final int mboVectorIndex)
-    '''
-def getParentIndexes():
-    '''public LinkedHashMap<ERMEntity, Integer> getParentIndexes()
+    '''returns None\n\n
+    setParentIndex(final ERMEntity ermEntity, final int mboVectorIndex)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def setMboSet():
-    '''public void setMboSet(final MboSetRemote mboSet)
+    '''returns None\n\n
+    setMboSet(final MboSetRemote mboSet)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def invalidate():
-    '''public void invalidate()
+    '''returns None\n\n
+    invalidate()\n
     '''
 def setAttribute():
-    '''public void setAttribute(final ERMAttribute attribute)
+    '''returns None\n\n
+    setAttribute(final ERMAttribute attribute)\n
     '''

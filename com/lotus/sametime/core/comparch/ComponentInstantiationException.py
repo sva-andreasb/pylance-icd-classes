@@ -1,4 +1,5 @@
-def ComponentInstantiationException():
-    '''public ComponentInstantiationException()
-    public ComponentInstantiationException(final String message)
+def ():
+    '''returns ComponentInstantiationException\n\n
+    ()\n
+    (final String message)\n
     '''

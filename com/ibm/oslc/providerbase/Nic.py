@@ -1,15 +1,20 @@
-def Nic():
-    '''public Nic()
+def ():
+    '''returns Nic\n\n
+    ()\n
     '''
 def getIpGroup():
-    '''public List<IpGroup> getIpGroup()
+    '''returns List<IpGroup>\n\n
+    getIpGroup()\n
     '''
 def setIpGroup():
-    '''public void setIpGroup(final List<IpGroup> ipGroups)
+    '''returns None\n\n
+    setIpGroup(final List<IpGroup> ipGroups)\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def setIdentifier():
-    '''public void setIdentifier(final String identifier)
+    '''returns None\n\n
+    setIdentifier(final String identifier)\n
     '''

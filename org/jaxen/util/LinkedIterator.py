@@ -1,15 +1,20 @@
-def LinkedIterator():
-    '''public LinkedIterator()
+def ():
+    '''returns LinkedIterator\n\n
+    ()\n
     '''
 def addIterator():
-    '''public void addIterator(final Iterator i)
+    '''returns None\n\n
+    addIterator(final Iterator i)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

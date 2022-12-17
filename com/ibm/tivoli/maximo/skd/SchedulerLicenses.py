@@ -3,18 +3,19 @@ SCHEDULER_OPT = "String  \"SCHEDULER_OPT\""
 SCHEDULER_PLUS = "String  \"SCHEDULER_PLUS\""
 SCHEDULER_PLUS_PRODUCT = "String  \"SCHEDULER_PLUS\""
 WEATHER = "String  \"TWCCFGMGR\""
-def get():
-    '''public static SchedulerLicenses get()
-    '''
 def isSchedulerEnabled():
-    '''public boolean isSchedulerEnabled()
+    '''returns boolean\n\n
+    isSchedulerEnabled()\n
     '''
 def isSchedulerPlusEnabled():
-    '''public boolean isSchedulerPlusEnabled()
+    '''returns boolean\n\n
+    isSchedulerPlusEnabled()\n
     '''
 def hasWeatherAPI():
-    '''public boolean hasWeatherAPI()
+    '''returns boolean\n\n
+    hasWeatherAPI()\n
     '''
 def isSchedulerPlusWeatherEnabled():
-    '''public boolean isSchedulerPlusWeatherEnabled()
+    '''returns boolean\n\n
+    isSchedulerPlusWeatherEnabled()\n
     '''

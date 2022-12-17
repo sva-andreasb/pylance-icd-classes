@@ -1,14 +1,12 @@
-def PH():
-    '''public PH(final OutputStream outputStream, final OutputStream branch)
-    '''
-def write():
-    '''public synchronized void write(final byte[] b)
-    public synchronized void write(final byte[] b, final int off, final int len)
-    public synchronized void write(final int b)
+def ():
+    '''returns PH\n\n
+    (final OutputStream outputStream, final OutputStream branch)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

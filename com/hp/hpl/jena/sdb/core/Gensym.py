@@ -1,13 +1,12 @@
-def create():
-    '''public static Gensym create(final String base)
-    public static Gensym create(final String base, final int startCount)
-    '''
 def next():
-    '''public String next()
+    '''returns String\n\n
+    next()\n
     '''
 def current():
-    '''public String current()
+    '''returns String\n\n
+    current()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

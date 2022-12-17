@@ -1,3 +1,4 @@
 def fetch():
-    '''public boolean fetch(final XSLFShape shape)
+    '''returns boolean\n\n
+    fetch(final XSLFShape shape)\n
     '''

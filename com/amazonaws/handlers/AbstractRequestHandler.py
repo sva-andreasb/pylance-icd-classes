@@ -1,9 +1,12 @@
 def beforeRequest():
-    '''public void beforeRequest(final Request<?> request)
+    '''returns None\n\n
+    beforeRequest(final Request<?> request)\n
     '''
 def afterResponse():
-    '''public void afterResponse(final Request<?> request, final Object response, final TimingInfo timingInfo)
+    '''returns None\n\n
+    afterResponse(final Request<?> request, final Object response, final TimingInfo timingInfo)\n
     '''
 def afterError():
-    '''public void afterError(final Request<?> request, final Exception e)
+    '''returns None\n\n
+    afterError(final Request<?> request, final Exception e)\n
     '''

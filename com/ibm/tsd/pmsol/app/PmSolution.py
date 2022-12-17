@@ -1,42 +1,56 @@
-def PmSolution():
-    '''public PmSolution(final MboSet ms)
+def ():
+    '''returns PmSolution\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def updateSolutionKeywords():
-    '''public void updateSolutionKeywords()
+    '''returns None\n\n
+    updateSolutionKeywords()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def saveCommentsRanking():
-    '''public void saveCommentsRanking()
+    '''returns None\n\n
+    saveCommentsRanking()\n
     '''
 def copyKeywords():
-    '''public void copyKeywords(final MboSetRemote keywordSet)
+    '''returns None\n\n
+    copyKeywords(final MboSetRemote keywordSet)\n
     '''
 def copySolutions():
-    '''public void copySolutions(final MboSetRemote solnSet)
+    '''returns None\n\n
+    copySolutions(final MboSetRemote solnSet)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def applyOwner():
-    '''public void applyOwner(final String ownerID)
+    '''returns None\n\n
+    applyOwner(final String ownerID)\n
     '''
 def ownership():
-    '''public void ownership()
+    '''returns None\n\n
+    ownership()\n
     '''
 def applyOwnerGroup():
-    '''public void applyOwnerGroup(final String ownergroupID)
+    '''returns None\n\n
+    applyOwnerGroup(final String ownergroupID)\n
     '''
 def newSRYes():
-    '''public MboRemote newSRYes()
+    '''returns MboRemote\n\n
+    newSRYes()\n
     '''
 def newSRNo():
-    '''public MboRemote newSRNo()
+    '''returns MboRemote\n\n
+    newSRNo()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

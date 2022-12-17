@@ -1,6 +1,8 @@
-def ZeroYTDSet():
-    '''public ZeroYTDSet(final MboServerInterface ms)
+def ():
+    '''returns ZeroYTDSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

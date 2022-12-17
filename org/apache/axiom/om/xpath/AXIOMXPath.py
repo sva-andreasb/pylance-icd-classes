@@ -1,14 +1,18 @@
-def AXIOMXPath():
-    '''public AXIOMXPath(final String xpathExpr)
-    public AXIOMXPath(final OMElement element, final String xpathExpr)
-    public AXIOMXPath(final OMAttribute attribute)
+def ():
+    '''returns AXIOMXPath\n\n
+    (final String xpathExpr)\n
+    (final OMElement element, final String xpathExpr)\n
+    (final OMAttribute attribute)\n
     '''
 def addNamespace():
-    '''public void addNamespace(final String prefix, final String uri)
+    '''returns None\n\n
+    addNamespace(final String prefix, final String uri)\n
     '''
 def addNamespaces():
-    '''public void addNamespaces(final OMElement element)
+    '''returns None\n\n
+    addNamespaces(final OMElement element)\n
     '''
 def getNamespaces():
-    '''public Map getNamespaces()
+    '''returns Map\n\n
+    getNamespaces()\n
     '''

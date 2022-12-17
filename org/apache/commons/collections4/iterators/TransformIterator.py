@@ -1,20 +1,26 @@
-def TransformIterator():
-    '''public TransformIterator()
-    public TransformIterator(final Iterator<? extends I> iterator)
-    public TransformIterator(final Iterator<? extends I> iterator, final Transformer<? super I, ? extends O> transformer)
+def ():
+    '''returns TransformIterator\n\n
+    ()\n
+    (final Iterator<? extends I> iterator)\n
+    (final Iterator<? extends I> iterator, final Transformer<? super I, ? extends O> transformer)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public O next()
+    '''returns O\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def setIterator():
-    '''public void setIterator(final Iterator<? extends I> iterator)
+    '''returns None\n\n
+    setIterator(final Iterator<? extends I> iterator)\n
     '''
 def setTransformer():
-    '''public void setTransformer(final Transformer<? super I, ? extends O> transformer)
+    '''returns None\n\n
+    setTransformer(final Transformer<? super I, ? extends O> transformer)\n
     '''

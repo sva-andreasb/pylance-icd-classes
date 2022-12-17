@@ -1,10 +1,13 @@
-def AxisClient():
-    '''public AxisClient(final EngineConfiguration config)
-    public AxisClient()
+def ():
+    '''returns AxisClient\n\n
+    (final EngineConfiguration config)\n
+    ()\n
     '''
 def getClientEngine():
-    '''public AxisEngine getClientEngine()
+    '''returns AxisEngine\n\n
+    getClientEngine()\n
     '''
 def invoke():
-    '''public void invoke(final MessageContext msgContext)
+    '''returns None\n\n
+    invoke(final MessageContext msgContext)\n
     '''

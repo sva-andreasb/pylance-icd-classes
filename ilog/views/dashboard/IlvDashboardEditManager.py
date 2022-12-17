@@ -1,3 +1,4 @@
 def getEditor():
-    '''public IlvDashboardEditor getEditor()
+    '''returns IlvDashboardEditor\n\n
+    getEditor()\n
     '''

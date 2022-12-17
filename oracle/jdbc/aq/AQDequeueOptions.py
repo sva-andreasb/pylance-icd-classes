@@ -1,84 +1,103 @@
 DEQUEUE_WAIT_FOREVER = "int  -1"
 DEQUEUE_NO_WAIT = "int  0"
 MAX_RAW_PAYLOAD = "int  67108787"
-def AQDequeueOptions():
-    '''public AQDequeueOptions()
+def ():
+    '''returns AQDequeueOptions\n\n
+    ()\n
     '''
 def setConsumerName():
-    '''public void setConsumerName(final String attrConsumerName)
+    '''returns None\n\n
+    setConsumerName(final String attrConsumerName)\n
     '''
 def getConsumerName():
-    '''public String getConsumerName()
+    '''returns String\n\n
+    getConsumerName()\n
     '''
 def setCorrelation():
-    '''public void setCorrelation(final String attrCorrelation)
+    '''returns None\n\n
+    setCorrelation(final String attrCorrelation)\n
     '''
 def getCorrelation():
-    '''public String getCorrelation()
+    '''returns String\n\n
+    getCorrelation()\n
     '''
 def setDequeueMode():
-    '''public void setDequeueMode(final DequeueMode attrDeqMode)
+    '''returns None\n\n
+    setDequeueMode(final DequeueMode attrDeqMode)\n
     '''
 def getDequeueMode():
-    '''public DequeueMode getDequeueMode()
+    '''returns DequeueMode\n\n
+    getDequeueMode()\n
     '''
 def setDequeueMessageId():
-    '''public void setDequeueMessageId(final byte[] attrDeqMsgId)
+    '''returns None\n\n
+    setDequeueMessageId(final byte[] attrDeqMsgId)\n
     '''
 def getDequeueMessageId():
-    '''public byte[] getDequeueMessageId()
+    '''returns byte[]\n\n
+    getDequeueMessageId()\n
     '''
 def setNavigation():
-    '''public void setNavigation(final NavigationOption attrNavigation)
+    '''returns None\n\n
+    setNavigation(final NavigationOption attrNavigation)\n
     '''
 def getNavigation():
-    '''public NavigationOption getNavigation()
+    '''returns NavigationOption\n\n
+    getNavigation()\n
     '''
 def setVisibility():
-    '''public void setVisibility(final VisibilityOption attrVisibility)
+    '''returns None\n\n
+    setVisibility(final VisibilityOption attrVisibility)\n
     '''
 def getVisibility():
-    '''public VisibilityOption getVisibility()
+    '''returns VisibilityOption\n\n
+    getVisibility()\n
     '''
 def setWait():
-    '''public void setWait(final int attrWait)
+    '''returns None\n\n
+    setWait(final int attrWait)\n
     '''
 def getWait():
-    '''public int getWait()
+    '''returns int\n\n
+    getWait()\n
     '''
 def setMaximumBufferLength():
-    '''public void setMaximumBufferLength(final int maxBufferLength)
+    '''returns None\n\n
+    setMaximumBufferLength(final int maxBufferLength)\n
     '''
 def getMaximumBufferLength():
-    '''public int getMaximumBufferLength()
+    '''returns int\n\n
+    getMaximumBufferLength()\n
     '''
 def setDeliveryFilter():
-    '''public void setDeliveryFilter(final DeliveryFilter attrDeliveryMode)
+    '''returns None\n\n
+    setDeliveryFilter(final DeliveryFilter attrDeliveryMode)\n
     '''
 def getDeliveryFilter():
-    '''public DeliveryFilter getDeliveryFilter()
+    '''returns DeliveryFilter\n\n
+    getDeliveryFilter()\n
     '''
 def setRetrieveMessageId():
-    '''public void setRetrieveMessageId(final boolean retrieveMsgId)
+    '''returns None\n\n
+    setRetrieveMessageId(final boolean retrieveMsgId)\n
     '''
 def getRetrieveMessageId():
-    '''public boolean getRetrieveMessageId()
+    '''returns boolean\n\n
+    getRetrieveMessageId()\n
     '''
 def setTransformation():
-    '''public void setTransformation(final String transformation)
+    '''returns None\n\n
+    setTransformation(final String transformation)\n
     '''
 def getTransformation():
-    '''public String getTransformation()
+    '''returns String\n\n
+    getTransformation()\n
     '''
 def setCondition():
-    '''public void setCondition(final String condition)
+    '''returns None\n\n
+    setCondition(final String condition)\n
     '''
 def getCondition():
-    '''public String getCondition()
-    '''
-def getCode():
-    '''public final int getCode()
-    public final int getCode()
-    public final int getCode()
-    public final int getCode()
+    '''returns String\n\n
+    getCondition()\n
     '''

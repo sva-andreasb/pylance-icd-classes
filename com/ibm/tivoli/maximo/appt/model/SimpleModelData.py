@@ -1,15 +1,16 @@
-def SimpleModelData():
-    '''public SimpleModelData(final String id)
+def ():
+    '''returns SimpleModelData\n\n
+    (final String id)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setProperty():
-    '''public void setProperty(final String key, final Object value)
-    '''
-def getProperty():
-    '''public <T> T getProperty(final String key)
+    '''returns None\n\n
+    setProperty(final String key, final Object value)\n
     '''
 def setId():
-    '''public void setId(String id)
+    '''returns None\n\n
+    setId(String id)\n
     '''

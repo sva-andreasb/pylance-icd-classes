@@ -1,45 +1,52 @@
-def createAppender():
-    '''public static <B extends Builder<B>> JdbcAppender createAppender(final String name, final String ignore, final Filter filter, final ConnectionSource connectionSource, final String bufferSize, final String tableName, final ColumnConfig[] columnConfigs)
-    '''
-def newBuilder():
-    '''public static <B extends Builder<B>> B newBuilder()
-    '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def build():
-    '''public JdbcAppender build()
+    '''returns JdbcAppender\n\n
+    build()\n
     '''
 def getReconnectIntervalMillis():
-    '''public long getReconnectIntervalMillis()
+    '''returns long\n\n
+    getReconnectIntervalMillis()\n
     '''
 def isImmediateFail():
-    '''public boolean isImmediateFail()
+    '''returns boolean\n\n
+    isImmediateFail()\n
     '''
 def setBufferSize():
-    '''public B setBufferSize(final int bufferSize)
+    '''returns B\n\n
+    setBufferSize(final int bufferSize)\n
     '''
 def setColumnConfigs():
-    '''public B setColumnConfigs(final ColumnConfig... columnConfigs)
+    '''returns B\n\n
+    setColumnConfigs(final ColumnConfig... columnConfigs)\n
     '''
 def setColumnMappings():
-    '''public B setColumnMappings(final ColumnMapping... columnMappings)
+    '''returns B\n\n
+    setColumnMappings(final ColumnMapping... columnMappings)\n
     '''
 def setConnectionSource():
-    '''public B setConnectionSource(final ConnectionSource connectionSource)
+    '''returns B\n\n
+    setConnectionSource(final ConnectionSource connectionSource)\n
     '''
 def setImmediateFail():
-    '''public void setImmediateFail(final boolean immediateFail)
+    '''returns None\n\n
+    setImmediateFail(final boolean immediateFail)\n
     '''
 def setReconnectIntervalMillis():
-    '''public void setReconnectIntervalMillis(final long reconnectIntervalMillis)
+    '''returns None\n\n
+    setReconnectIntervalMillis(final long reconnectIntervalMillis)\n
     '''
 def setTableName():
-    '''public B setTableName(final String tableName)
+    '''returns B\n\n
+    setTableName(final String tableName)\n
     '''
 def setTruncateStrings():
-    '''public B setTruncateStrings(final boolean truncateStrings)
+    '''returns B\n\n
+    setTruncateStrings(final boolean truncateStrings)\n
     '''

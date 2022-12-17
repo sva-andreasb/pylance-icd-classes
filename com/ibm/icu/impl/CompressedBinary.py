@@ -1,6 +1,8 @@
-def CompressedBinary():
-    '''public CompressedBinary(final String str)
+def ():
+    '''returns CompressedBinary\n\n
+    (final String str)\n
     '''
 def getResource():
-    '''public Object getResource(final Object obj)
+    '''returns Object\n\n
+    getResource(final Object obj)\n
     '''

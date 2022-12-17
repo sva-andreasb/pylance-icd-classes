@@ -1,4 +1,5 @@
-def JavaScriptPermission():
-    '''public JavaScriptPermission(final String name)
-    public JavaScriptPermission(final String name, final String actions)
+def ():
+    '''returns JavaScriptPermission\n\n
+    (final String name)\n
+    (final String name, final String actions)\n
     '''

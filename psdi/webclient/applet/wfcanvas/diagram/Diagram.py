@@ -1,33 +1,44 @@
-def Diagram():
-    '''public Diagram(final Workflow workflow)
+def ():
+    '''returns Diagram\n\n
+    (final Workflow workflow)\n
     '''
 def setWorkflow():
-    '''public void setWorkflow(final Workflow workflow)
+    '''returns None\n\n
+    setWorkflow(final Workflow workflow)\n
     '''
 def setCur():
-    '''public void setCur(final Cursor cursor)
+    '''returns None\n\n
+    setCur(final Cursor cursor)\n
     '''
 def setConfiguration():
-    '''public void setConfiguration(final DiagramConfiguration configuration)
+    '''returns None\n\n
+    setConfiguration(final DiagramConfiguration configuration)\n
     '''
 def selectNode():
-    '''public void selectNode(final WorkflowEntity node, final boolean state, final JScrollPane scrollPane)
+    '''returns None\n\n
+    selectNode(final WorkflowEntity node, final boolean state, final JScrollPane scrollPane)\n
     '''
 def addNode():
-    '''public void addNode(final WorkflowNode node)
+    '''returns None\n\n
+    addNode(final WorkflowNode node)\n
     '''
 def buildDiagram():
-    '''public void buildDiagram()
+    '''returns None\n\n
+    buildDiagram()\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''
 def getImage():
-    '''public Image getImage()
+    '''returns Image\n\n
+    getImage()\n
     '''
 def addDiagramListener():
-    '''public void addDiagramListener(final DiagramListener listener)
+    '''returns None\n\n
+    addDiagramListener(final DiagramListener listener)\n
     '''
 def removeDiagramListener():
-    '''public void removeDiagramListener(final DiagramListener listener)
+    '''returns None\n\n
+    removeDiagramListener(final DiagramListener listener)\n
     '''

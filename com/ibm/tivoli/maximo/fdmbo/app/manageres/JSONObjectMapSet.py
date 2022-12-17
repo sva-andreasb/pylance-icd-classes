@@ -1,3 +1,4 @@
-def JSONObjectMapSet():
-    '''public JSONObjectMapSet(final MboServerInterface ms)
+def ():
+    '''returns JSONObjectMapSet\n\n
+    (final MboServerInterface ms)\n
     '''

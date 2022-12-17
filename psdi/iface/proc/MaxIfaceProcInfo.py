@@ -1,102 +1,124 @@
 def setProcName():
-    '''public void setProcName(final String t)
+    '''returns None\n\n
+    setProcName(final String t)\n
     '''
 def getProcName():
-    '''public String getProcName()
+    '''returns String\n\n
+    getProcName()\n
     '''
 def getProcType():
-    '''public String getProcType()
+    '''returns String\n\n
+    getProcType()\n
     '''
 def setProcType():
-    '''public void setProcType(final String c)
+    '''returns None\n\n
+    setProcType(final String c)\n
     '''
 def getProcessOrder():
-    '''public int getProcessOrder()
+    '''returns int\n\n
+    getProcessOrder()\n
     '''
 def setProcessOrder():
-    '''public void setProcessOrder(final int e)
+    '''returns None\n\n
+    setProcessOrder(final int e)\n
     '''
 def getHierarchyPath():
-    '''public String getHierarchyPath()
+    '''returns String\n\n
+    getHierarchyPath()\n
     '''
 def setHierarchyPath():
-    '''public void setHierarchyPath(final String e)
+    '''returns None\n\n
+    setHierarchyPath(final String e)\n
     '''
 def getInterface():
-    '''public String getInterface()
+    '''returns String\n\n
+    getInterface()\n
     '''
 def setInterface():
-    '''public void setInterface(final String e)
+    '''returns None\n\n
+    setInterface(final String e)\n
     '''
 def getMosName():
-    '''public String getMosName()
+    '''returns String\n\n
+    getMosName()\n
     '''
 def setMosName():
-    '''public void setMosName(final String e)
+    '''returns None\n\n
+    setMosName(final String e)\n
     '''
 def setTableName():
-    '''public void setTableName(final String t)
+    '''returns None\n\n
+    setTableName(final String t)\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setProcMessage():
-    '''public void setProcMessage(final String t)
+    '''returns None\n\n
+    setProcMessage(final String t)\n
     '''
 def getProcMessage():
-    '''public String getProcMessage()
+    '''returns String\n\n
+    getProcMessage()\n
     '''
 def setClassName():
-    '''public void setClassName(final String t)
+    '''returns None\n\n
+    setClassName(final String t)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def isInsert():
-    '''public boolean isInsert()
+    '''returns boolean\n\n
+    isInsert()\n
     '''
 def isUpdate():
-    '''public boolean isUpdate()
+    '''returns boolean\n\n
+    isUpdate()\n
     '''
 def isDelete():
-    '''public boolean isDelete()
+    '''returns boolean\n\n
+    isDelete()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final int e)
+    '''returns None\n\n
+    setEnabled(final int e)\n
     '''
 def setIsInsert():
-    '''public void setIsInsert(final int e)
+    '''returns None\n\n
+    setIsInsert(final int e)\n
     '''
 def setIsUpdate():
-    '''public void setIsUpdate(final int e)
+    '''returns None\n\n
+    setIsUpdate(final int e)\n
     '''
 def setIsDelete():
-    '''public void setIsDelete(final int e)
-    '''
-def getConditions():
-    '''public Map<String, List<MaxIfaceCondDetailInfo>> getConditions()
+    '''returns None\n\n
+    setIsDelete(final int e)\n
     '''
 def hasConditions():
-    '''public boolean hasConditions()
+    '''returns boolean\n\n
+    hasConditions()\n
     '''
 def setConditions():
-    '''public void setConditions(final Map<String, List<MaxIfaceCondDetailInfo>> d)
-    '''
-def getReplaceDetails():
-    '''public Map<String, List<MaxReplaceProcInfo>> getReplaceDetails()
+    '''returns None\n\n
+    setConditions(final Map<String, List<MaxIfaceCondDetailInfo>> d)\n
     '''
 def setReplaceDetails():
-    '''public void setReplaceDetails(final Map<String, List<MaxReplaceProcInfo>> d)
-    '''
-def getTransformDetails():
-    '''public Map<String, List<MaxTransformProcInfo>> getTransformDetails()
+    '''returns None\n\n
+    setReplaceDetails(final Map<String, List<MaxReplaceProcInfo>> d)\n
     '''
 def setTransformDetails():
-    '''public void setTransformDetails(final Map<String, List<MaxTransformProcInfo>> d)
+    '''returns None\n\n
+    setTransformDetails(final Map<String, List<MaxTransformProcInfo>> d)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

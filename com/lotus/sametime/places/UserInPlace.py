@@ -3,59 +3,74 @@ USER_VERSION_EXTERNAL = "int  1"
 USER_VERSION_15 = "int  2"
 USER_VERSION_WATSON = "int  4"
 def addUserInPlaceListener():
-    '''public void addUserInPlaceListener(final UserInPlaceListener obj)
-    '''
-def removeUserInPlaceListener():
-    '''public synchronized void removeUserInPlaceListener(final UserInPlaceListener obj)
+    '''returns None\n\n
+    addUserInPlaceListener(final UserInPlaceListener obj)\n
     '''
 def sendText():
-    '''public void sendText(final String s)
+    '''returns None\n\n
+    sendText(final String s)\n
     '''
 def sendData():
-    '''public void sendData(final int n, final byte[] array)
+    '''returns None\n\n
+    sendData(final int n, final byte[] array)\n
     '''
 def queryAttrContent():
-    '''public void queryAttrContent(final int n)
+    '''returns None\n\n
+    queryAttrContent(final int n)\n
     '''
 def changeAttribute():
-    '''public void changeAttribute(final STExtendedAttribute stExtendedAttribute)
+    '''returns None\n\n
+    changeAttribute(final STExtendedAttribute stExtendedAttribute)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final int n)
+    '''returns None\n\n
+    removeAttribute(final int n)\n
     '''
 def getUserVersion():
-    '''public int getUserVersion()
+    '''returns int\n\n
+    getUserVersion()\n
     '''
 def getSection():
-    '''public Section getSection()
+    '''returns Section\n\n
+    getSection()\n
     '''
 def getMemberId():
-    '''public Integer getMemberId()
+    '''returns Integer\n\n
+    getMemberId()\n
     '''
 def getPlace():
-    '''public Place getPlace()
+    '''returns Place\n\n
+    getPlace()\n
     '''
 def getAttributes():
-    '''public Enumeration getAttributes()
+    '''returns Enumeration\n\n
+    getAttributes()\n
     '''
 def processPlacesEvent():
-    '''public void processPlacesEvent(final PlacesEvent placesEvent)
+    '''returns None\n\n
+    processPlacesEvent(final PlacesEvent placesEvent)\n
     '''
 def sendFailed():
-    '''public void sendFailed(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    sendFailed(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def attributeChanged():
-    '''public void attributeChanged(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    attributeChanged(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def attributeRemoved():
-    '''public void attributeRemoved(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    attributeRemoved(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def changeAttributeFailed():
-    '''public void changeAttributeFailed(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    changeAttributeFailed(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def removeAttributeFailed():
-    '''public void removeAttributeFailed(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    removeAttributeFailed(final PlaceMemberEvent placeMemberEvent)\n
     '''
 def queryAttrContentFailed():
-    '''public void queryAttrContentFailed(final PlaceMemberEvent placeMemberEvent)
+    '''returns None\n\n
+    queryAttrContentFailed(final PlaceMemberEvent placeMemberEvent)\n
     '''

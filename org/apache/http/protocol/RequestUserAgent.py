@@ -1,7 +1,9 @@
-def RequestUserAgent():
-    '''public RequestUserAgent(final String userAgent)
-    public RequestUserAgent()
+def ():
+    '''returns RequestUserAgent\n\n
+    (final String userAgent)\n
+    ()\n
     '''
 def process():
-    '''public void process(final HttpRequest request, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpRequest request, final HttpContext context)\n
     '''

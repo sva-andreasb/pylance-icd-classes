@@ -1,41 +1,49 @@
-def IloCplex__GoalI__IntegerFeasibilityArray():
-    '''public IloCplex__GoalI__IntegerFeasibilityArray(final long cPtr, final boolean cMemoryOwn)
-    public IloCplex__GoalI__IntegerFeasibilityArray(final IloEnv env, final int max)
-    public IloCplex__GoalI__IntegerFeasibilityArray(final IloEnv env)
+def ():
+    '''returns IloCplex__GoalI__IntegerFeasibilityArray\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final IloEnv env, final int max)\n
+    (final IloEnv env)\n
     '''
 def setOwn():
-    '''public void setOwn(final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__GoalI__IntegerFeasibilityArray obj)
+    '''returns None\n\n
+    setOwn(final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getEnv():
-    '''public IloEnv getEnv()
+    '''returns IloEnv\n\n
+    getEnv()\n
     '''
 def operator_get():
-    '''public SWIGTYPE_p_IloCplex__GoalI__IntegerFeasibility operator_get(final int i)
+    '''returns SWIGTYPE_p_IloCplex__GoalI__IntegerFeasibility\n\n
+    operator_get(final int i)\n
     '''
 def add():
-    '''public void add(final SWIGTYPE_p_IloCplex__GoalI__IntegerFeasibility x)
-    public void add(final int more, final SWIGTYPE_p_IloCplex__GoalI__IntegerFeasibility x)
-    public void add(final IloCplex__GoalI__IntegerFeasibilityArray ax)
+    '''returns None\n\n
+    add(final SWIGTYPE_p_IloCplex__GoalI__IntegerFeasibility x)\n
+    add(final int more, final SWIGTYPE_p_IloCplex__GoalI__IntegerFeasibility x)\n
+    add(final IloCplex__GoalI__IntegerFeasibilityArray ax)\n
     '''
 def remove():
-    '''public void remove(final int first, final int nb)
-    public void remove(final int first)
+    '''returns None\n\n
+    remove(final int first, final int nb)\n
+    remove(final int first)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def array_set():
-    '''public void array_set(final int index, final SWIGTYPE_p_IloCplex__GoalI__IntegerFeasibility val)
+    '''returns None\n\n
+    array_set(final int index, final SWIGTYPE_p_IloCplex__GoalI__IntegerFeasibility val)\n
     '''

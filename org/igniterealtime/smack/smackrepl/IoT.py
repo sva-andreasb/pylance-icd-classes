@@ -1,24 +1,18 @@
-def iotScenario():
-    '''public static void iotScenario(final String dataThingJidString, final String dataThingPassword, final String readingThingJidString, final String readingThingPassword, final IotScenario scenario)
-    public void iotScenario(final XMPPTCPConnection dataThingConnection, final XMPPTCPConnection readingThingConnection)
-    public void iotScenario(final XMPPTCPConnection dataThingConnection, final XMPPTCPConnection readingThingConnection)
-    '''
-def iotReadOutScenario():
-    '''public static void iotReadOutScenario(final String dataThingJidString, final String dataThingPassword, final String readingThingJidString, final String readingThingPassword)
-    '''
-def iotOwnerApprovesFriendScenario():
-    '''public static void iotOwnerApprovesFriendScenario(final String dataThingJidString, final String dataThingPassword, final String readingThingJidString, final String readingThingPassword)
-    '''
 def momentaryReadOutRequest():
-    '''public void momentaryReadOutRequest(final ThingMomentaryReadOutResult callback)
+    '''returns None\n\n
+    momentaryReadOutRequest(final ThingMomentaryReadOutResult callback)\n
     '''
-def main():
-    '''public static void main(final String[] args)
+def iotScenario():
+    '''returns None\n\n
+    iotScenario(final XMPPTCPConnection dataThingConnection, final XMPPTCPConnection readingThingConnection)\n
+    iotScenario(final XMPPTCPConnection dataThingConnection, final XMPPTCPConnection readingThingConnection)\n
     '''
 def owned():
-    '''public void owned(final BareJid jid)
-    public void owned(final BareJid jid)
+    '''returns None\n\n
+    owned(final BareJid jid)\n
+    owned(final BareJid jid)\n
     '''
 def becameFriend():
-    '''public void becameFriend(final BareJid jid, final Presence presence)
+    '''returns None\n\n
+    becameFriend(final BareJid jid, final Presence presence)\n
     '''

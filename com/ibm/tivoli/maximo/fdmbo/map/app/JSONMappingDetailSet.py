@@ -1,12 +1,16 @@
-def JSONMappingDetailSet():
-    '''public JSONMappingDetailSet(final MboServerInterface ms)
+def ():
+    '''returns JSONMappingDetailSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def addMoreObjects():
-    '''public void addMoreObjects(final MboSetRemote detailSet)
+    '''returns None\n\n
+    addMoreObjects(final MboSetRemote detailSet)\n
     '''
 def addMoreRelProp():
-    '''public void addMoreRelProp(final MboSetRemote detailSet)
+    '''returns None\n\n
+    addMoreRelProp(final MboSetRemote detailSet)\n
     '''

@@ -1,53 +1,61 @@
 def isSupportingReadUncommitted():
-    '''public boolean isSupportingReadUncommitted()
+    '''returns boolean\n\n
+    isSupportingReadUncommitted()\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def getOutputStream():
-    '''public BlobOutputStream getOutputStream()
+    '''returns BlobOutputStream\n\n
+    getOutputStream()\n
     '''
 def readFrom():
-    '''public long readFrom(final InputStream in, long length, final boolean commit)
-    public long readFrom(final InputStream in, final long length)
+    '''returns long\n\n
+    readFrom(final InputStream in, long length, final boolean commit)\n
+    readFrom(final InputStream in, final long length)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream os)
+    '''returns None\n\n
+    writeTo(final OutputStream os)\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def getBlob():
-    '''public WritableBlob getBlob()
+    '''returns WritableBlob\n\n
+    getBlob()\n
     '''
 def write():
-    '''public void write(final byte[] b, int off, final int len)
-    public void write(final byte[] b)
-    public void write(final int b)
+    '''returns None\n\n
+    write(final byte[] b, int off, final int len)\n
+    write(final byte[] b)\n
+    write(final int b)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
-def InputStreamImpl():
-    '''public InputStreamImpl()
+def ():
+    '''returns InputStreamImpl\n\n
+    ()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, int off, final int len)
-    public int read(final byte[] b)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, int off, final int len)\n
+    read(final byte[] b)\n
     '''
 def available():
-    '''public int available()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
+    '''returns int\n\n
+    available()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

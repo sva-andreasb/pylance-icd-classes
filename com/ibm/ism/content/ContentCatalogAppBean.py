@@ -1,24 +1,28 @@
-def ContentCatalogAppBean():
-    '''public ContentCatalogAppBean()
-    '''
-def delete():
-    '''public synchronized void delete()
+def ():
+    '''returns ContentCatalogAppBean\n\n
+    ()\n
     '''
 def SAVECATALOG():
-    '''public void SAVECATALOG()
+    '''returns None\n\n
+    SAVECATALOG()\n
     '''
 def CANCEL():
-    '''public void CANCEL()
+    '''returns None\n\n
+    CANCEL()\n
     '''
 def EDIT():
-    '''public void EDIT()
+    '''returns None\n\n
+    EDIT()\n
     '''
 def NEW():
-    '''public void NEW()
+    '''returns None\n\n
+    NEW()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

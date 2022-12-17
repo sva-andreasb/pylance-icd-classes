@@ -1,61 +1,70 @@
 def toBytes():
-    '''public byte[] toBytes()
+    '''returns byte[]\n\n
+    toBytes()\n
     '''
-def ClientFirstMessage():
-    '''public ClientFirstMessage(final byte[] messageBytes)
-    public ClientFirstMessage(final String saslName, final String nonce, final Map<String, String> extensions)
+def ():
+    '''returns ServerFinalMessage\n\n
+    (final byte[] messageBytes)\n
+    (final String saslName, final String nonce, final Map<String, String> extensions)\n
+    (final byte[] messageBytes)\n
+    (final String clientNonce, final String serverNonce, final byte[] salt, final int iterations)\n
+    (final byte[] messageBytes)\n
+    (final byte[] channelBinding, final String nonce)\n
+    (final byte[] messageBytes)\n
+    (final String error, final byte[] serverSignature)\n
     '''
 def saslName():
-    '''public String saslName()
+    '''returns String\n\n
+    saslName()\n
     '''
 def nonce():
-    '''public String nonce()
-    public String nonce()
-    public String nonce()
+    '''returns String\n\n
+    nonce()\n
+    nonce()\n
+    nonce()\n
     '''
 def authorizationId():
-    '''public String authorizationId()
+    '''returns String\n\n
+    authorizationId()\n
     '''
 def gs2Header():
-    '''public String gs2Header()
+    '''returns String\n\n
+    gs2Header()\n
     '''
 def extensions():
-    '''public ScramExtensions extensions()
+    '''returns ScramExtensions\n\n
+    extensions()\n
     '''
 def clientFirstMessageBare():
-    '''public String clientFirstMessageBare()
-    '''
-def ServerFirstMessage():
-    '''public ServerFirstMessage(final byte[] messageBytes)
-    public ServerFirstMessage(final String clientNonce, final String serverNonce, final byte[] salt, final int iterations)
+    '''returns String\n\n
+    clientFirstMessageBare()\n
     '''
 def salt():
-    '''public byte[] salt()
+    '''returns byte[]\n\n
+    salt()\n
     '''
 def iterations():
-    '''public int iterations()
-    '''
-def ClientFinalMessage():
-    '''public ClientFinalMessage(final byte[] messageBytes)
-    public ClientFinalMessage(final byte[] channelBinding, final String nonce)
+    '''returns int\n\n
+    iterations()\n
     '''
 def channelBinding():
-    '''public byte[] channelBinding()
+    '''returns byte[]\n\n
+    channelBinding()\n
     '''
 def proof():
-    '''public byte[] proof()
-    public void proof(final byte[] proof)
+    '''returns None\n\n
+    proof()\n
+    proof(final byte[] proof)\n
     '''
 def clientFinalMessageWithoutProof():
-    '''public String clientFinalMessageWithoutProof()
-    '''
-def ServerFinalMessage():
-    '''public ServerFinalMessage(final byte[] messageBytes)
-    public ServerFinalMessage(final String error, final byte[] serverSignature)
+    '''returns String\n\n
+    clientFinalMessageWithoutProof()\n
     '''
 def error():
-    '''public String error()
+    '''returns String\n\n
+    error()\n
     '''
 def serverSignature():
-    '''public byte[] serverSignature()
+    '''returns byte[]\n\n
+    serverSignature()\n
     '''

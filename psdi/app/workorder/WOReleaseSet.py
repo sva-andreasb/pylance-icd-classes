@@ -1,3 +1,4 @@
-def WOReleaseSet():
-    '''public WOReleaseSet(final MboServerInterface ms)
+def ():
+    '''returns WOReleaseSet\n\n
+    (final MboServerInterface ms)\n
     '''

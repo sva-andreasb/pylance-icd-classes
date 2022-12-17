@@ -1,19 +1,25 @@
-def CollectionAndSequence():
-    '''public CollectionAndSequence(final TemplateCollectionModel collection)
-    public CollectionAndSequence(final TemplateSequenceModel sequence)
+def ():
+    '''returns CollectionAndSequence\n\n
+    (final TemplateCollectionModel collection)\n
+    (final TemplateSequenceModel sequence)\n
     '''
 def iterator():
-    '''public TemplateModelIterator iterator()
+    '''returns TemplateModelIterator\n\n
+    iterator()\n
     '''
 def get():
-    '''public TemplateModel get(final int i)
+    '''returns TemplateModel\n\n
+    get(final int i)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def next():
-    '''public TemplateModel next()
+    '''returns TemplateModel\n\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''

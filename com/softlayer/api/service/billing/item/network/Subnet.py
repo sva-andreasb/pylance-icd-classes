@@ -1,33 +1,44 @@
 def setResource():
-    '''public void setResource(final com.softlayer.api.service.network.Subnet resource)
+    '''returns None\n\n
+    setResource(final com.softlayer.api.service.network.Subnet resource)\n
     '''
 def getResourceName():
-    '''public String getResourceName()
+    '''returns String\n\n
+    getResourceName()\n
     '''
 def setResourceName():
-    '''public void setResourceName(final String resourceName)
+    '''returns None\n\n
+    setResourceName(final String resourceName)\n
     '''
 def isResourceNameSpecified():
-    '''public boolean isResourceNameSpecified()
+    '''returns boolean\n\n
+    isResourceNameSpecified()\n
     '''
 def unsetResourceName():
-    '''public void unsetResourceName()
+    '''returns None\n\n
+    unsetResourceName()\n
     '''
 def getResourceTableId():
-    '''public Long getResourceTableId()
+    '''returns Long\n\n
+    getResourceTableId()\n
     '''
 def setResourceTableId():
-    '''public void setResourceTableId(final Long resourceTableId)
+    '''returns None\n\n
+    setResourceTableId(final Long resourceTableId)\n
     '''
 def isResourceTableIdSpecified():
-    '''public boolean isResourceTableIdSpecified()
+    '''returns boolean\n\n
+    isResourceTableIdSpecified()\n
     '''
 def unsetResourceTableId():
-    '''public void unsetResourceTableId()
+    '''returns None\n\n
+    unsetResourceTableId()\n
     '''
 def resourceName():
-    '''public Mask resourceName()
+    '''returns Mask\n\n
+    resourceName()\n
     '''
 def resourceTableId():
-    '''public Mask resourceTableId()
+    '''returns Mask\n\n
+    resourceTableId()\n
     '''

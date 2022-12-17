@@ -1,3 +1,4 @@
-def ReconCIResultSet():
-    '''public ReconCIResultSet(final MboServerInterface ms)
+def ():
+    '''returns ReconCIResultSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,61 +1,80 @@
 DEFAULT_BUFFER_SIZE = "int  8192"
 DEFAULT_MIN_GZIP_SIZE = "int  256"
-def GzipResponseWrapper():
-    '''public GzipResponseWrapper(final HttpServletRequest request, final HttpServletResponse response)
+def ():
+    '''returns GzipResponseWrapper\n\n
+    (final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def setMimeTypes():
-    '''public void setMimeTypes(final Set<String> mimeTypes)
+    '''returns None\n\n
+    setMimeTypes(final Set<String> mimeTypes)\n
     '''
 def setBufferSize():
-    '''public void setBufferSize(final int bufferSize)
+    '''returns None\n\n
+    setBufferSize(final int bufferSize)\n
     '''
 def setMinGzipSize():
-    '''public void setMinGzipSize(final int minGzipSize)
+    '''returns None\n\n
+    setMinGzipSize(final int minGzipSize)\n
     '''
 def setContentType():
-    '''public void setContentType(String ct)
+    '''returns None\n\n
+    setContentType(String ct)\n
     '''
 def setStatus():
-    '''public void setStatus(final int sc, final String sm)
-    public void setStatus(final int sc)
+    '''returns None\n\n
+    setStatus(final int sc, final String sm)\n
+    setStatus(final int sc)\n
     '''
 def setContentLength():
-    '''public void setContentLength(final int length)
+    '''returns None\n\n
+    setContentLength(final int length)\n
     '''
 def addHeader():
-    '''public void addHeader(final String name, final String value)
+    '''returns None\n\n
+    addHeader(final String name, final String value)\n
     '''
 def setHeader():
-    '''public void setHeader(final String name, final String value)
+    '''returns None\n\n
+    setHeader(final String name, final String value)\n
     '''
 def setIntHeader():
-    '''public void setIntHeader(final String name, final int value)
+    '''returns None\n\n
+    setIntHeader(final String name, final int value)\n
     '''
 def flushBuffer():
-    '''public void flushBuffer()
+    '''returns None\n\n
+    flushBuffer()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def resetBuffer():
-    '''public void resetBuffer()
+    '''returns None\n\n
+    resetBuffer()\n
     '''
 def sendError():
-    '''public void sendError(final int sc, final String msg)
-    public void sendError(final int sc)
+    '''returns None\n\n
+    sendError(final int sc, final String msg)\n
+    sendError(final int sc)\n
     '''
 def sendRedirect():
-    '''public void sendRedirect(final String location)
+    '''returns None\n\n
+    sendRedirect(final String location)\n
     '''
 def getOutputStream():
-    '''public ServletOutputStream getOutputStream()
+    '''returns ServletOutputStream\n\n
+    getOutputStream()\n
     '''
 def getWriter():
-    '''public PrintWriter getWriter()
+    '''returns PrintWriter\n\n
+    getWriter()\n
     '''
 def noGzip():
-    '''public void noGzip()
+    '''returns None\n\n
+    noGzip()\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''

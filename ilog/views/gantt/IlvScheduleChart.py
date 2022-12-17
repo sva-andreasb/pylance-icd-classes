@@ -1,37 +1,49 @@
-def IlvScheduleChart():
-    '''public IlvScheduleChart()
+def ():
+    '''returns IlvScheduleChart\n\n
+    ()\n
     '''
 def select():
-    '''public void select(final IlvResource ilvResource, final boolean b)
-    public void select(final IlvReservation ilvReservation, final boolean b)
+    '''returns None\n\n
+    select(final IlvResource ilvResource, final boolean b)\n
+    select(final IlvReservation ilvReservation, final boolean b)\n
     '''
 def getSelectedResources():
-    '''public IlvResource[] getSelectedResources()
+    '''returns IlvResource[]\n\n
+    getSelectedResources()\n
     '''
 def getSelectedReservations():
-    '''public IlvReservation[] getSelectedReservations()
+    '''returns IlvReservation[]\n\n
+    getSelectedReservations()\n
     '''
 def getActivityLayout():
-    '''public IlvActivityLayout getActivityLayout()
+    '''returns IlvActivityLayout\n\n
+    getActivityLayout()\n
     '''
 def setActivityLayout():
-    '''public void setActivityLayout(final IlvActivityLayout activityLayout)
+    '''returns None\n\n
+    setActivityLayout(final IlvActivityLayout activityLayout)\n
     '''
 def isReservationCachingEnabled():
-    '''public boolean isReservationCachingEnabled()
+    '''returns boolean\n\n
+    isReservationCachingEnabled()\n
     '''
 def setReservationCachingEnabled():
-    '''public void setReservationCachingEnabled(final boolean reservationCachingEnabled)
+    '''returns None\n\n
+    setReservationCachingEnabled(final boolean reservationCachingEnabled)\n
     '''
 def getReservationCacheLoadThreshold():
-    '''public float getReservationCacheLoadThreshold()
+    '''returns float\n\n
+    getReservationCacheLoadThreshold()\n
     '''
 def setReservationCacheLoadThreshold():
-    '''public void setReservationCacheLoadThreshold(final float reservationCacheLoadThreshold)
+    '''returns None\n\n
+    setReservationCacheLoadThreshold(final float reservationCacheLoadThreshold)\n
     '''
 def getReservationCacheLoadFactor():
-    '''public float getReservationCacheLoadFactor()
+    '''returns float\n\n
+    getReservationCacheLoadFactor()\n
     '''
 def setReservationCacheLoadFactor():
-    '''public void setReservationCacheLoadFactor(final float reservationCacheLoadFactor)
+    '''returns None\n\n
+    setReservationCacheLoadFactor(final float reservationCacheLoadFactor)\n
     '''

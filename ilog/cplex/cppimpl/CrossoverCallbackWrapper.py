@@ -1,64 +1,81 @@
-def CrossoverCallbackWrapper():
-    '''public CrossoverCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
-    public CrossoverCallbackWrapper(final IloEnv env)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final CrossoverCallbackWrapper obj)
+def ():
+    '''returns CrossoverCallbackWrapper\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final IloEnv env)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def main_cpp():
-    '''public void main_cpp()
+    '''returns None\n\n
+    main_cpp()\n
     '''
 def duplicateCallback():
-    '''public IloCplex__CallbackI duplicateCallback()
+    '''returns IloCplex__CallbackI\n\n
+    duplicateCallback()\n
     '''
 def callbackImpl():
-    '''public void callbackImpl()
+    '''returns None\n\n
+    callbackImpl()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def getEnv():
-    '''public IloEnv getEnv()
+    '''returns IloEnv\n\n
+    getEnv()\n
     '''
 def getModel():
-    '''public IloModel getModel()
+    '''returns IloModel\n\n
+    getModel()\n
     '''
 def getNcols():
-    '''public int getNcols()
+    '''returns int\n\n
+    getNcols()\n
     '''
 def getNrows():
-    '''public int getNrows()
+    '''returns int\n\n
+    getNrows()\n
     '''
 def getNQCs():
-    '''public int getNQCs()
+    '''returns int\n\n
+    getNQCs()\n
     '''
 def getNprimalPushes():
-    '''public int getNprimalPushes()
+    '''returns int\n\n
+    getNprimalPushes()\n
     '''
 def getNprimalPushes64():
-    '''public long getNprimalPushes64()
+    '''returns long\n\n
+    getNprimalPushes64()\n
     '''
 def getNprimalExchanges():
-    '''public int getNprimalExchanges()
+    '''returns int\n\n
+    getNprimalExchanges()\n
     '''
 def getNprimalExchanges64():
-    '''public long getNprimalExchanges64()
+    '''returns long\n\n
+    getNprimalExchanges64()\n
     '''
 def getNdualPushes():
-    '''public int getNdualPushes()
+    '''returns int\n\n
+    getNdualPushes()\n
     '''
 def getNdualPushes64():
-    '''public long getNdualPushes64()
+    '''returns long\n\n
+    getNdualPushes64()\n
     '''
 def getNdualExchanges():
-    '''public int getNdualExchanges()
+    '''returns int\n\n
+    getNdualExchanges()\n
     '''
 def getNdualExchanges64():
-    '''public long getNdualExchanges64()
+    '''returns long\n\n
+    getNdualExchanges64()\n
     '''
 def getNsuperbasics():
-    '''public int getNsuperbasics()
+    '''returns int\n\n
+    getNsuperbasics()\n
     '''

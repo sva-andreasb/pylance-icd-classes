@@ -1,99 +1,132 @@
-def AssignmentSet():
-    '''public AssignmentSet(final MboServerInterface ms)
+def ():
+    '''returns AssignmentSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def assignmentsForLaborCode():
-    '''public void assignmentsForLaborCode(final String labor)
+    '''returns None\n\n
+    assignmentsForLaborCode(final String labor)\n
     '''
 def assignmentsForLaborCodeAndWorkOrder():
-    '''public void assignmentsForLaborCodeAndWorkOrder(final String labor, final String woIDs)
+    '''returns None\n\n
+    assignmentsForLaborCodeAndWorkOrder(final String labor, final String woIDs)\n
     '''
 def assignmentsForCrewAndWorkOrder():
-    '''public void assignmentsForCrewAndWorkOrder(final String amcrew, final long[] workOrderIds)
+    '''returns None\n\n
+    assignmentsForCrewAndWorkOrder(final String amcrew, final long[] workOrderIds)\n
     '''
 def addToUserPrefWhere():
-    '''public String addToUserPrefWhere()
+    '''returns String\n\n
+    addToUserPrefWhere()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''
 def addListener():
-    '''public void addListener(final MboSetListener l)
+    '''returns None\n\n
+    addListener(final MboSetListener l)\n
     '''
 def removeListener():
-    '''public void removeListener(final MboSetListener l)
+    '''returns None\n\n
+    removeListener(final MboSetListener l)\n
     '''
 def reportModifiedMbo():
-    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    reportModifiedMbo(final MboRemote modifiedMbo)\n
     '''
 def getSevenDayWindow():
-    '''public void getSevenDayWindow(final CalendarViewSetRemote calendarViewSet)
+    '''returns None\n\n
+    getSevenDayWindow(final CalendarViewSetRemote calendarViewSet)\n
     '''
 def getAddedAssignments():
-    '''public Vector<Long> getAddedAssignments()
+    '''returns Vector<Long>\n\n
+    getAddedAssignments()\n
     '''
 def setDeletingAsgnmentsOnYesNoCx():
-    '''public void setDeletingAsgnmentsOnYesNoCx(final boolean deletingAsgnmentsOnYesNoCx)
+    '''returns None\n\n
+    setDeletingAsgnmentsOnYesNoCx(final boolean deletingAsgnmentsOnYesNoCx)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def fireEventsAfterDB():
-    '''public void fireEventsAfterDB(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDB(final MXTransaction txn)\n
     '''
 def getRescheduled():
-    '''public int getRescheduled()
+    '''returns int\n\n
+    getRescheduled()\n
     '''
 def getUnassigned():
-    '''public int getUnassigned()
+    '''returns int\n\n
+    getUnassigned()\n
     '''
 def setRescheduled():
-    '''public void setRescheduled(final int rescheduled)
+    '''returns None\n\n
+    setRescheduled(final int rescheduled)\n
     '''
 def setUnassigned():
-    '''public void setUnassigned(final int unassigned)
+    '''returns None\n\n
+    setUnassigned(final int unassigned)\n
     '''
 def assignLabor():
-    '''public void assignLabor(final LaborCraftRateRemote laborCraftRateMbo, final String theDay)
+    '''returns None\n\n
+    assignLabor(final LaborCraftRateRemote laborCraftRateMbo, final String theDay)\n
     '''
 def startAssignment():
-    '''public MboSetRemote startAssignment()
+    '''returns MboSetRemote\n\n
+    startAssignment()\n
     '''
 def interruptAssignment():
-    '''public MboSetRemote interruptAssignment()
+    '''returns MboSetRemote\n\n
+    interruptAssignment()\n
     '''
 def finishAssignment():
-    '''public MboSetRemote finishAssignment()
+    '''returns MboSetRemote\n\n
+    finishAssignment()\n
     '''
 def getColumnValue():
-    '''public String getColumnValue(final String columnName)
+    '''returns String\n\n
+    getColumnValue(final String columnName)\n
     '''
 def getFinishDate():
-    '''public Date getFinishDate()
+    '''returns Date\n\n
+    getFinishDate()\n
     '''
 def setFinishDate():
-    '''public void setFinishDate(final Date finishDate)
+    '''returns None\n\n
+    setFinishDate(final Date finishDate)\n
     '''
 def getEarliestDate():
-    '''public Date getEarliestDate()
+    '''returns Date\n\n
+    getEarliestDate()\n
     '''
 def getLatestDate():
-    '''public Date getLatestDate()
+    '''returns Date\n\n
+    getLatestDate()\n
     '''
 def assignCrew():
-    '''public void assignCrew(final AMCrewRemote crewMbo, final String theDay)
+    '''returns None\n\n
+    assignCrew(final AMCrewRemote crewMbo, final String theDay)\n
     '''
 def getUserAndQbeWhere():
-    '''public String getUserAndQbeWhere()
+    '''returns String\n\n
+    getUserAndQbeWhere()\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

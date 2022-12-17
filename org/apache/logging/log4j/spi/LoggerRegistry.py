@@ -1,30 +1,27 @@
-def LoggerRegistry():
-    '''public LoggerRegistry()
-    public LoggerRegistry(final MapFactory<T> factory)
+def ():
+    '''returns LoggerRegistry\n\n
+    ()\n
+    (final MapFactory<T> factory)\n
     '''
 def getLogger():
-    '''public T getLogger(final String name)
-    public T getLogger(final String name, final MessageFactory messageFactory)
+    '''returns T\n\n
+    getLogger(final String name)\n
+    getLogger(final String name, final MessageFactory messageFactory)\n
     '''
 def getLoggers():
-    '''public Collection<T> getLoggers()
-    public Collection<T> getLoggers(final Collection<T> destination)
+    '''returns Collection<T>\n\n
+    getLoggers()\n
+    getLoggers(final Collection<T> destination)\n
     '''
 def hasLogger():
-    '''public boolean hasLogger(final String name)
-    public boolean hasLogger(final String name, final MessageFactory messageFactory)
-    public boolean hasLogger(final String name, final Class<? extends MessageFactory> messageFactoryClass)
+    '''returns boolean\n\n
+    hasLogger(final String name)\n
+    hasLogger(final String name, final MessageFactory messageFactory)\n
+    hasLogger(final String name, final Class<? extends MessageFactory> messageFactoryClass)\n
     '''
 def putIfAbsent():
-    '''public void putIfAbsent(final String name, final MessageFactory messageFactory, final T logger)
-    public void putIfAbsent(final Map<String, T> innerMap, final String name, final T logger)
-    public void putIfAbsent(final Map<String, T> innerMap, final String name, final T logger)
-    '''
-def createInnerMap():
-    '''public Map<String, T> createInnerMap()
-    public Map<String, T> createInnerMap()
-    '''
-def createOuterMap():
-    '''public Map<String, Map<String, T>> createOuterMap()
-    public Map<String, Map<String, T>> createOuterMap()
+    '''returns None\n\n
+    putIfAbsent(final String name, final MessageFactory messageFactory, final T logger)\n
+    putIfAbsent(final Map<String, T> innerMap, final String name, final T logger)\n
+    putIfAbsent(final Map<String, T> innerMap, final String name, final T logger)\n
     '''

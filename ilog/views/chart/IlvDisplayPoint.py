@@ -1,29 +1,26 @@
-def IlvDisplayPoint():
-    '''public IlvDisplayPoint()
-    public IlvDisplayPoint(final IlvChartRenderer ilvChartRenderer, final IlvDataSet set)
-    public IlvDisplayPoint(final IlvChartRenderer c, final IlvDataSet set, final int n, final double a, final double b)
+def ():
+    '''returns IlvDisplayPoint\n\n
+    ()\n
+    (final IlvChartRenderer ilvChartRenderer, final IlvDataSet set)\n
+    (final IlvChartRenderer c, final IlvDataSet set, final int n, final double a, final double b)\n
     '''
 def set():
-    '''public void set(final int index, final double a, final double b)
-    '''
-def getRenderer():
-    '''public final IlvChartRenderer getRenderer()
-    '''
-def getXCoord():
-    '''public final double getXCoord()
-    '''
-def getYCoord():
-    '''public final double getYCoord()
+    '''returns None\n\n
+    set(final int index, final double a, final double b)\n
     '''
 def setCoords():
-    '''public void setCoords(final int n, final int n2)
+    '''returns None\n\n
+    setCoords(final int n, final int n2)\n
     '''
 def setData():
-    '''public void setData(final double n, final double n2)
+    '''returns None\n\n
+    setData(final double n, final double n2)\n
     '''
 def isEditable():
-    '''public boolean isEditable()
+    '''returns boolean\n\n
+    isEditable()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

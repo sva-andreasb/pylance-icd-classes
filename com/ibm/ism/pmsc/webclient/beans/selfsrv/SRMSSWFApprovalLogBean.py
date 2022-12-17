@@ -1,6 +1,8 @@
 def filter():
-    '''public void filter()
+    '''returns None\n\n
+    filter()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

@@ -1,6 +1,8 @@
-def IlvAbstractDataContainerUndoableEdit():
-    '''public IlvAbstractDataContainerUndoableEdit(final IlvDataContainer a)
+def ():
+    '''returns IlvAbstractDataContainerUndoableEdit\n\n
+    (final IlvDataContainer a)\n
     '''
 def getDataContainer():
-    '''public IlvDataContainer getDataContainer()
+    '''returns IlvDataContainer\n\n
+    getDataContainer()\n
     '''

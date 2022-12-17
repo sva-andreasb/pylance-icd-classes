@@ -1,18 +1,24 @@
-def FailureListSet():
-    '''public FailureListSet(final MboServerInterface ms)
+def ():
+    '''returns FailureListSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setShowOnlyTopLevel():
-    '''public void setShowOnlyTopLevel(final boolean setValue)
+    '''returns None\n\n
+    setShowOnlyTopLevel(final boolean setValue)\n
     '''
 def getShowOnlyTopLevel():
-    '''public boolean getShowOnlyTopLevel()
+    '''returns boolean\n\n
+    getShowOnlyTopLevel()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def setNewCodeWarn():
-    '''public void setNewCodeWarn(final boolean setValue)
+    '''returns None\n\n
+    setNewCodeWarn(final boolean setValue)\n
     '''
 def getNewCodeWarn():
-    '''public boolean getNewCodeWarn()
+    '''returns boolean\n\n
+    getNewCodeWarn()\n
     '''

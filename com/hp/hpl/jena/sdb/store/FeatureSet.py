@@ -1,22 +1,29 @@
-def FeatureSet():
-    '''public FeatureSet()
+def ():
+    '''returns FeatureSet\n\n
+    ()\n
     '''
 def addFeature():
-    '''public void addFeature(final Feature feature)
+    '''returns None\n\n
+    addFeature(final Feature feature)\n
     '''
 def hasFeature():
-    '''public boolean hasFeature(final Feature feature)
-    public boolean hasFeature(final String name)
+    '''returns boolean\n\n
+    hasFeature(final Feature feature)\n
+    hasFeature(final String name)\n
     '''
 def getFeature():
-    '''public Feature getFeature(final String name)
+    '''returns Feature\n\n
+    getFeature(final String name)\n
     '''
 def getFeatures():
-    '''public List<Feature> getFeatures()
+    '''returns List<Feature>\n\n
+    getFeatures()\n
     '''
 def iterator():
-    '''public Iterator<Feature> iterator()
+    '''returns Iterator<Feature>\n\n
+    iterator()\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
     '''

@@ -1,29 +1,40 @@
-def a():
-    '''public a(final String string, final String s)
-    public static a a(final String s, final String s2)
-    public a a()
+def ():
+    '''returns a\n\n
+    (final String string, final String s)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public String setValue(final String value)
+    '''returns String\n\n
+    setValue(final String value)\n
     '''
 def html():
-    '''public String html()
+    '''returns String\n\n
+    html()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    '''
+def a():
+    '''returns a\n\n
+    a()\n
     '''

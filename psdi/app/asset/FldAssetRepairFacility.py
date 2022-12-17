@@ -1,3 +1,4 @@
-def FldAssetRepairFacility():
-    '''public FldAssetRepairFacility(final MboValue mbv)
+def ():
+    '''returns FldAssetRepairFacility\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,32 +1,42 @@
-def DefaultShutdownCallbackRegistry():
-    '''public DefaultShutdownCallbackRegistry()
+def ():
+    '''returns DefaultShutdownCallbackRegistry\n\n
+    ()\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def addShutdownCallback():
-    '''public Cancellable addShutdownCallback(final Runnable callback)
+    '''returns Cancellable\n\n
+    addShutdownCallback(final Runnable callback)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
-    public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop()\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def isStarted():
-    '''public boolean isStarted()
+    '''returns boolean\n\n
+    isStarted()\n
     '''
 def isStopped():
-    '''public boolean isStopped()
+    '''returns boolean\n\n
+    isStopped()\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

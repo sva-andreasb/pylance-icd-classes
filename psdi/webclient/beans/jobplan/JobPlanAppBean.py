@@ -1,12 +1,16 @@
 def REVISE():
-    '''public int REVISE()
+    '''returns int\n\n
+    REVISE()\n
     '''
 def REVHISTORY():
-    '''public int REVHISTORY()
+    '''returns int\n\n
+    REVHISTORY()\n
     '''
 def VIEWHISTOR():
-    '''public int VIEWHISTOR()
+    '''returns int\n\n
+    VIEWHISTOR()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''

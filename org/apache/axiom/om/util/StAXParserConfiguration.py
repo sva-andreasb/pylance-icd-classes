@@ -1,15 +1,18 @@
 def configure():
-    '''public XMLInputFactory configure(final XMLInputFactory factory, final StAXDialect dialect)
-    public XMLInputFactory configure(final XMLInputFactory factory, final StAXDialect dialect)
-    public XMLInputFactory configure(final XMLInputFactory factory, final StAXDialect dialect)
-    public XMLInputFactory configure(final XMLInputFactory factory, final StAXDialect dialect)
+    '''returns XMLInputFactory\n\n
+    configure(final XMLInputFactory factory, final StAXDialect dialect)\n
+    configure(final XMLInputFactory factory, final StAXDialect dialect)\n
+    configure(final XMLInputFactory factory, final StAXDialect dialect)\n
+    configure(final XMLInputFactory factory, final StAXDialect dialect)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def resolveEntity():
-    '''public Object resolveEntity(final String publicID, final String systemID, final String baseURI, final String namespace)
+    '''returns Object\n\n
+    resolveEntity(final String publicID, final String systemID, final String baseURI, final String namespace)\n
     '''

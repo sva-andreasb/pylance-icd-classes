@@ -1,6 +1,4 @@
 def getIndicator():
-    '''public int getIndicator()
-    '''
-def resolveTaskIndicator():
-    '''public static TaskIndicator resolveTaskIndicator(final WOSet wos)
+    '''returns int\n\n
+    getIndicator()\n
     '''

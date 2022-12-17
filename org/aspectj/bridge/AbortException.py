@@ -1,35 +1,37 @@
 NO_MESSAGE_TEXT = "String  \"AbortException (no message)\""
-def borrowPorter():
-    '''public static AbortException borrowPorter(final IMessage message)
-    '''
-def returnPorter():
-    '''public static void returnPorter(final AbortException porter)
-    '''
-def AbortException():
-    '''public AbortException()
-    public AbortException(final String s)
-    public AbortException(final IMessage message)
+def ():
+    '''returns AbortException\n\n
+    ()\n
+    (final String s)\n
+    (final IMessage message)\n
     '''
 def getIMessage():
-    '''public IMessage getIMessage()
+    '''returns IMessage\n\n
+    getIMessage()\n
     '''
 def isPorter():
-    '''public boolean isPorter()
+    '''returns boolean\n\n
+    isPorter()\n
     '''
 def getThrown():
-    '''public Throwable getThrown()
+    '''returns Throwable\n\n
+    getThrown()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream s)
-    public void printStackTrace(final PrintWriter s)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream s)\n
+    printStackTrace(final PrintWriter s)\n
     '''
 def isSilent():
-    '''public boolean isSilent()
+    '''returns boolean\n\n
+    isSilent()\n
     '''
 def setIsSilent():
-    '''public void setIsSilent(final boolean isSilent)
+    '''returns None\n\n
+    setIsSilent(final boolean isSilent)\n
     '''

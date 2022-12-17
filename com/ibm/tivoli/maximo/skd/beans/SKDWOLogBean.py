@@ -1,12 +1,12 @@
-def SKDWOLogBean():
-    '''public SKDWOLogBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns SKDWOLogBean\n\n
+    ()\n
     '''
 def getActivity():
-    '''public IMXActivity getActivity()
+    '''returns IMXActivity\n\n
+    getActivity()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

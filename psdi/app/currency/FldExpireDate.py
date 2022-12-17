@@ -1,6 +1,8 @@
-def FldExpireDate():
-    '''public FldExpireDate(final MboValue mbv)
+def ():
+    '''returns FldExpireDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

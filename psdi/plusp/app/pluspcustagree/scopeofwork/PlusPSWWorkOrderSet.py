@@ -1,3 +1,4 @@
-def PlusPSWWorkOrderSet():
-    '''public PlusPSWWorkOrderSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPSWWorkOrderSet\n\n
+    (final MboServerInterface ms)\n
     '''

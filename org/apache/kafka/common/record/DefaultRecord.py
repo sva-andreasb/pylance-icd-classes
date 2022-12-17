@@ -1,76 +1,85 @@
 MAX_RECORD_OVERHEAD = "int  21"
 def offset():
-    '''public long offset()
+    '''returns long\n\n
+    offset()\n
     '''
 def sequence():
-    '''public int sequence()
+    '''returns int\n\n
+    sequence()\n
     '''
 def sizeInBytes():
-    '''public int sizeInBytes()
-    public static int sizeInBytes(final int offsetDelta, final long timestampDelta, final ByteBuffer key, final ByteBuffer value, final Header[] headers)
-    public static int sizeInBytes(final int offsetDelta, final long timestampDelta, final int keySize, final int valueSize, final Header[] headers)
+    '''returns int\n\n
+    sizeInBytes()\n
     '''
 def timestamp():
-    '''public long timestamp()
+    '''returns long\n\n
+    timestamp()\n
     '''
 def attributes():
-    '''public byte attributes()
+    '''returns byte\n\n
+    attributes()\n
     '''
 def checksumOrNull():
-    '''public Long checksumOrNull()
+    '''returns Long\n\n
+    checksumOrNull()\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def ensureValid():
-    '''public void ensureValid()
+    '''returns None\n\n
+    ensureValid()\n
     '''
 def keySize():
-    '''public int keySize()
+    '''returns int\n\n
+    keySize()\n
     '''
 def valueSize():
-    '''public int valueSize()
+    '''returns int\n\n
+    valueSize()\n
     '''
 def hasKey():
-    '''public boolean hasKey()
+    '''returns boolean\n\n
+    hasKey()\n
     '''
 def key():
-    '''public ByteBuffer key()
+    '''returns ByteBuffer\n\n
+    key()\n
     '''
 def hasValue():
-    '''public boolean hasValue()
+    '''returns boolean\n\n
+    hasValue()\n
     '''
 def value():
-    '''public ByteBuffer value()
+    '''returns ByteBuffer\n\n
+    value()\n
     '''
 def headers():
-    '''public Header[] headers()
-    '''
-def writeTo():
-    '''public static int writeTo(final DataOutputStream out, final int offsetDelta, final long timestampDelta, final ByteBuffer key, final ByteBuffer value, final Header[] headers)
+    '''returns Header[]\n\n
+    headers()\n
     '''
 def hasMagic():
-    '''public boolean hasMagic(final byte magic)
+    '''returns boolean\n\n
+    hasMagic(final byte magic)\n
     '''
 def isCompressed():
-    '''public boolean isCompressed()
+    '''returns boolean\n\n
+    isCompressed()\n
     '''
 def hasTimestampType():
-    '''public boolean hasTimestampType(final TimestampType timestampType)
+    '''returns boolean\n\n
+    hasTimestampType(final TimestampType timestampType)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def readFrom():
-    '''public static DefaultRecord readFrom(final DataInput input, final long baseOffset, final long baseTimestamp, final int baseSequence, final Long logAppendTime)
-    public static DefaultRecord readFrom(final ByteBuffer buffer, final long baseOffset, final long baseTimestamp, final int baseSequence, final Long logAppendTime)
-    '''
-def computePartialChecksum():
-    '''public static long computePartialChecksum(final long timestamp, final int serializedKeySize, final int serializedValueSize)
+    '''returns int\n\n
+    hashCode()\n
     '''

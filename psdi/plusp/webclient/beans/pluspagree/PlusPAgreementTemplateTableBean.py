@@ -1,3 +1,4 @@
 def highlightrow():
-    '''public int highlightrow(final int n)
+    '''returns int\n\n
+    highlightrow(final int n)\n
     '''

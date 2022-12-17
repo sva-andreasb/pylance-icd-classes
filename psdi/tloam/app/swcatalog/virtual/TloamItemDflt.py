@@ -1,12 +1,16 @@
-def TloamItemDflt():
-    '''public TloamItemDflt(final MboSet ms)
+def ():
+    '''returns TloamItemDflt\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''

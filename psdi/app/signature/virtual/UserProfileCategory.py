@@ -1,3 +1,4 @@
-def UserProfileCategory():
-    '''public UserProfileCategory(final MboSet ms)
+def ():
+    '''returns UserProfileCategory\n\n
+    (final MboSet ms)\n
     '''

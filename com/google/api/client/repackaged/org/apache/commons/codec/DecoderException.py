@@ -1,6 +1,7 @@
-def DecoderException():
-    '''public DecoderException()
-    public DecoderException(final String message)
-    public DecoderException(final String message, final Throwable cause)
-    public DecoderException(final Throwable cause)
+def ():
+    '''returns DecoderException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

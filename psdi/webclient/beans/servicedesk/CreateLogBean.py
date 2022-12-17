@@ -1,15 +1,20 @@
 def setupBean():
-    '''public void setupBean(final SessionContext sc)
+    '''returns None\n\n
+    setupBean(final SessionContext sc)\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def createNewSR():
-    '''public int createNewSR()
+    '''returns int\n\n
+    createNewSR()\n
     '''
 def returnSolution():
-    '''public int returnSolution()
+    '''returns int\n\n
+    returnSolution()\n
     '''
 def createSR():
-    '''public int createSR()
+    '''returns int\n\n
+    createSR()\n
     '''

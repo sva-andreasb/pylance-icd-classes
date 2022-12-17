@@ -1,3 +1,4 @@
-def DMCompResultSet():
-    '''public DMCompResultSet(final MboServerInterface ms)
+def ():
+    '''returns DMCompResultSet\n\n
+    (final MboServerInterface ms)\n
     '''

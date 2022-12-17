@@ -1,15 +1,12 @@
-def mapIterator():
-    '''public MapIterator<K, V> mapIterator()
-    '''
 def getKey():
-    '''public K getKey(final Object value)
+    '''returns K\n\n
+    getKey(final Object value)\n
     '''
 def removeValue():
-    '''public K removeValue(final Object value)
-    '''
-def inverseBidiMap():
-    '''public BidiMap<V, K> inverseBidiMap()
+    '''returns K\n\n
+    removeValue(final Object value)\n
     '''
 def values():
-    '''public Set<V> values()
+    '''returns Set<V>\n\n
+    values()\n
     '''

@@ -1,7 +1,9 @@
 def testResetWhereClause():
-    '''public void testResetWhereClause()
+    '''returns None\n\n
+    testResetWhereClause()\n
     '''
 def visit():
-    '''public void visit(final KeyColumn entry)
-    public void visit(final KeyColumn entry)
+    '''returns None\n\n
+    visit(final KeyColumn entry)\n
+    visit(final KeyColumn entry)\n
     '''

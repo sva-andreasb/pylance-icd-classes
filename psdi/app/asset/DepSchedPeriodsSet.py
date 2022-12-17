@@ -1,3 +1,4 @@
-def DepSchedPeriodsSet():
-    '''public DepSchedPeriodsSet(final MboServerInterface ms)
+def ():
+    '''returns DepSchedPeriodsSet\n\n
+    (final MboServerInterface ms)\n
     '''

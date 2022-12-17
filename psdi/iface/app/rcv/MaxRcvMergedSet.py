@@ -1,3 +1,4 @@
-def MaxRcvMergedSet():
-    '''public MaxRcvMergedSet(final MboServerInterface ms)
+def ():
+    '''returns MaxRcvMergedSet\n\n
+    (final MboServerInterface ms)\n
     '''

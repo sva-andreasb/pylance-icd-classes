@@ -1,32 +1,27 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def ListGroupsResponse():
-    '''public ListGroupsResponse(final Errors error, final List<Group> groups)
-    public ListGroupsResponse(final int throttleTimeMs, final Errors error, final List<Group> groups)
-    public ListGroupsResponse(final Struct struct)
+def ():
+    '''returns Group\n\n
+    (final Errors error, final List<Group> groups)\n
+    (final int throttleTimeMs, final Errors error, final List<Group> groups)\n
+    (final Struct struct)\n
+    (final String groupId, final String protocolType)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def groups():
-    '''public List<Group> groups()
+    '''returns List<Group>\n\n
+    groups()\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static ListGroupsResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def Group():
-    '''public Group(final String groupId, final String protocolType)
+    '''returns Errors\n\n
+    error()\n
     '''
 def groupId():
-    '''public String groupId()
+    '''returns String\n\n
+    groupId()\n
     '''
 def protocolType():
-    '''public String protocolType()
+    '''returns String\n\n
+    protocolType()\n
     '''

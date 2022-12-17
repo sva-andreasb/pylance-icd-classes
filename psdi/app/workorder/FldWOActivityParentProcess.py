@@ -1,9 +1,12 @@
-def FldWOActivityParentProcess():
-    '''public FldWOActivityParentProcess(final MboValue mbv)
+def ():
+    '''returns FldWOActivityParentProcess\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''

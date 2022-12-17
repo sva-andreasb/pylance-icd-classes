@@ -1,45 +1,52 @@
-def BucketNotificationConfiguration():
-    '''public BucketNotificationConfiguration()
-    public BucketNotificationConfiguration(final String name, final NotificationConfiguration notificationConfiguration)
-    public BucketNotificationConfiguration(final Collection<TopicConfiguration> topicConfigurations)
+def ():
+    '''returns TopicConfiguration\n\n
+    ()\n
+    (final String name, final NotificationConfiguration notificationConfiguration)\n
+    (final Collection<TopicConfiguration> topicConfigurations)\n
+    (final String topic, final String event)\n
     '''
 def withNotificationConfiguration():
-    '''public BucketNotificationConfiguration withNotificationConfiguration(final Map<String, NotificationConfiguration> notificationConfiguration)
+    '''returns BucketNotificationConfiguration\n\n
+    withNotificationConfiguration(final Map<String, NotificationConfiguration> notificationConfiguration)\n
     '''
 def addConfiguration():
-    '''public BucketNotificationConfiguration addConfiguration(final String name, final NotificationConfiguration notificationConfiguration)
-    '''
-def getConfigurations():
-    '''public Map<String, NotificationConfiguration> getConfigurations()
+    '''returns BucketNotificationConfiguration\n\n
+    addConfiguration(final String name, final NotificationConfiguration notificationConfiguration)\n
     '''
 def setConfigurations():
-    '''public void setConfigurations(final Map<String, NotificationConfiguration> configurations)
+    '''returns None\n\n
+    setConfigurations(final Map<String, NotificationConfiguration> configurations)\n
     '''
 def getConfigurationByName():
-    '''public NotificationConfiguration getConfigurationByName(final String name)
+    '''returns NotificationConfiguration\n\n
+    getConfigurationByName(final String name)\n
     '''
 def removeConfiguration():
-    '''public NotificationConfiguration removeConfiguration(final String name)
+    '''returns NotificationConfiguration\n\n
+    removeConfiguration(final String name)\n
     '''
 def withTopicConfigurations():
-    '''public BucketNotificationConfiguration withTopicConfigurations(final TopicConfiguration... topicConfigurations)
+    '''returns BucketNotificationConfiguration\n\n
+    withTopicConfigurations(final TopicConfiguration... topicConfigurations)\n
     '''
 def setTopicConfigurations():
-    '''public void setTopicConfigurations(final Collection<TopicConfiguration> topicConfigurations)
+    '''returns None\n\n
+    setTopicConfigurations(final Collection<TopicConfiguration> topicConfigurations)\n
     '''
 def getTopicConfigurations():
-    '''public List<TopicConfiguration> getTopicConfigurations()
+    '''returns List<TopicConfiguration>\n\n
+    getTopicConfigurations()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def TopicConfiguration():
-    '''public TopicConfiguration(final String topic, final String event)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getTopic():
-    '''public String getTopic()
+    '''returns String\n\n
+    getTopic()\n
     '''
 def getEvent():
-    '''public String getEvent()
+    '''returns String\n\n
+    getEvent()\n
     '''

@@ -1,3 +1,4 @@
-def NumOfHitsSet():
-    '''public NumOfHitsSet(final MboServerInterface ms)
+def ():
+    '''returns NumOfHitsSet\n\n
+    (final MboServerInterface ms)\n
     '''

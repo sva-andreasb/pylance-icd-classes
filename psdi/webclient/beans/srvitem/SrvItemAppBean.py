@@ -1,6 +1,8 @@
 def RELLOCKS():
-    '''public int RELLOCKS()
+    '''returns int\n\n
+    RELLOCKS()\n
     '''
 def RELLOCKSNODIALOG():
-    '''public int RELLOCKSNODIALOG()
+    '''returns int\n\n
+    RELLOCKSNODIALOG()\n
     '''

@@ -1,18 +1,24 @@
-def CookieMap():
-    '''public CookieMap(final HttpServletRequest request, final HttpServletResponse response)
+def ():
+    '''returns CookieMap\n\n
+    (final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def get():
-    '''public String get(final String name)
+    '''returns String\n\n
+    get(final String name)\n
     '''
 def put():
-    '''public void put(final String name, final String value)
+    '''returns None\n\n
+    put(final String name, final String value)\n
     '''
 def remove():
-    '''public void remove(final String name)
+    '''returns None\n\n
+    remove(final String name)\n
     '''
 def keySet():
-    '''public Set<String> keySet()
+    '''returns Set<String>\n\n
+    keySet()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

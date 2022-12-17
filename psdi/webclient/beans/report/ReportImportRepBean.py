@@ -1,12 +1,16 @@
-def ReportImportRepBean():
-    '''public ReportImportRepBean()
+def ():
+    '''returns ReportImportRepBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def showMessage():
-    '''public int showMessage(final String eventID, final String applicationGroup, final String messageKey, final UserInfo uInfo)
+    '''returns int\n\n
+    showMessage(final String eventID, final String applicationGroup, final String messageKey, final UserInfo uInfo)\n
     '''

@@ -1,42 +1,52 @@
-def ReconTask():
-    '''public ReconTask(final MboSet ms)
+def ():
+    '''returns ReconTask\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def getLinkRules():
-    '''public ArrayList getLinkRules()
+    '''returns ArrayList\n\n
+    getLinkRules()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def activateDeactivateReconTask():
-    '''public void activateDeactivateReconTask()
+    '''returns None\n\n
+    activateDeactivateReconTask()\n
     '''
 def deleteCronTaskInstance():
-    '''public void deleteCronTaskInstance()
+    '''returns None\n\n
+    deleteCronTaskInstance()\n
     '''
 def isCronTaskCreated():
-    '''public boolean isCronTaskCreated()
+    '''returns boolean\n\n
+    isCronTaskCreated()\n
     '''
 def isReconTaskActive():
-    '''public boolean isReconTaskActive()
-    '''
-def isEmpty():
-    '''public static boolean isEmpty(final MboSetRemote ms)
+    '''returns boolean\n\n
+    isReconTaskActive()\n
     '''

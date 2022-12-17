@@ -1,3 +1,4 @@
-def MfMailAssigneeInfo():
-    '''public MfMailAssigneeInfo(final String list, final int cnt)
+def ():
+    '''returns MfMailAssigneeInfo\n\n
+    (final String list, final int cnt)\n
     '''

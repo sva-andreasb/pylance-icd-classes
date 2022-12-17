@@ -1,72 +1,93 @@
 def getWSDLParser():
-    '''public Parser getWSDLParser()
+    '''returns Parser\n\n
+    getWSDLParser()\n
     '''
-def Service():
-    '''public Service()
-    public Service(final QName serviceName)
-    public Service(final EngineConfiguration engineConfiguration, final AxisClient axisClient)
-    public Service(final EngineConfiguration config)
-    public Service(final URL wsdlDoc, final QName serviceName)
-    public Service(final Parser parser, final QName serviceName)
-    public Service(final String wsdlLocation, final QName serviceName)
-    public Service(final InputStream wsdlInputStream, final QName serviceName)
+def ():
+    '''returns Service\n\n
+    ()\n
+    (final QName serviceName)\n
+    (final EngineConfiguration engineConfiguration, final AxisClient axisClient)\n
+    (final EngineConfiguration config)\n
+    (final URL wsdlDoc, final QName serviceName)\n
+    (final Parser parser, final QName serviceName)\n
+    (final String wsdlLocation, final QName serviceName)\n
+    (final InputStream wsdlInputStream, final QName serviceName)\n
     '''
 def getPort():
-    '''public Remote getPort(final QName portName, final Class proxyInterface)
-    public Remote getPort(final Class proxyInterface)
-    public Remote getPort(final String endpoint, final Class proxyInterface)
+    '''returns Remote\n\n
+    getPort(final QName portName, final Class proxyInterface)\n
+    getPort(final Class proxyInterface)\n
+    getPort(final String endpoint, final Class proxyInterface)\n
     '''
 def getHandlerRegistry():
-    '''public HandlerRegistry getHandlerRegistry()
+    '''returns HandlerRegistry\n\n
+    getHandlerRegistry()\n
     '''
 def getWSDLDocumentLocation():
-    '''public URL getWSDLDocumentLocation()
+    '''returns URL\n\n
+    getWSDLDocumentLocation()\n
     '''
 def getServiceName():
-    '''public QName getServiceName()
+    '''returns QName\n\n
+    getServiceName()\n
     '''
 def getPorts():
-    '''public Iterator getPorts()
+    '''returns Iterator\n\n
+    getPorts()\n
     '''
 def setTypeMappingRegistry():
-    '''public void setTypeMappingRegistry(final TypeMappingRegistry registry)
+    '''returns None\n\n
+    setTypeMappingRegistry(final TypeMappingRegistry registry)\n
     '''
 def getTypeMappingRegistry():
-    '''public TypeMappingRegistry getTypeMappingRegistry()
+    '''returns TypeMappingRegistry\n\n
+    getTypeMappingRegistry()\n
     '''
 def getReference():
-    '''public Reference getReference()
+    '''returns Reference\n\n
+    getReference()\n
     '''
 def setEngine():
-    '''public void setEngine(final AxisEngine engine)
+    '''returns None\n\n
+    setEngine(final AxisEngine engine)\n
     '''
 def getEngine():
-    '''public AxisEngine getEngine()
+    '''returns AxisEngine\n\n
+    getEngine()\n
     '''
 def setEngineConfiguration():
-    '''public void setEngineConfiguration(final EngineConfiguration config)
+    '''returns None\n\n
+    setEngineConfiguration(final EngineConfiguration config)\n
     '''
 def setMaintainSession():
-    '''public void setMaintainSession(final boolean yesno)
+    '''returns None\n\n
+    setMaintainSession(final boolean yesno)\n
     '''
 def getMaintainSession():
-    '''public boolean getMaintainSession()
+    '''returns boolean\n\n
+    getMaintainSession()\n
     '''
 def getCall():
-    '''public Call getCall()
+    '''returns Call\n\n
+    getCall()\n
     '''
 def getCacheWSDL():
-    '''public boolean getCacheWSDL()
+    '''returns boolean\n\n
+    getCacheWSDL()\n
     '''
 def setCacheWSDL():
-    '''public void setCacheWSDL(final boolean flag)
+    '''returns None\n\n
+    setCacheWSDL(final boolean flag)\n
     '''
 def setTypeMappingVersion():
-    '''public void setTypeMappingVersion(final String version)
+    '''returns None\n\n
+    setTypeMappingVersion(final String version)\n
     '''
 def getHandlerChain():
-    '''public List getHandlerChain(final QName portName)
+    '''returns List\n\n
+    getHandlerChain(final QName portName)\n
     '''
 def setHandlerChain():
-    '''public void setHandlerChain(final QName portName, final List chain)
+    '''returns None\n\n
+    setHandlerChain(final QName portName, final List chain)\n
     '''

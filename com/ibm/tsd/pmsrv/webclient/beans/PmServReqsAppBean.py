@@ -1,6 +1,8 @@
-def PmServReqsAppBean():
-    '''public PmServReqsAppBean()
+def ():
+    '''returns PmServReqsAppBean\n\n
+    ()\n
     '''
 def cancelSR():
-    '''public int cancelSR()
+    '''returns int\n\n
+    cancelSR()\n
     '''

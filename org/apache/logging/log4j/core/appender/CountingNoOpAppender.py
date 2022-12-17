@@ -1,12 +1,12 @@
-def CountingNoOpAppender():
-    '''public CountingNoOpAppender(final String name, final Layout<?> layout)
+def ():
+    '''returns CountingNoOpAppender\n\n
+    (final String name, final Layout<?> layout)\n
     '''
 def getCount():
-    '''public long getCount()
+    '''returns long\n\n
+    getCount()\n
     '''
 def append():
-    '''public void append(final LogEvent event)
-    '''
-def createAppender():
-    '''public static CountingNoOpAppender createAppender(@PluginAttribute("name") final String name)
+    '''returns None\n\n
+    append(final LogEvent event)\n
     '''

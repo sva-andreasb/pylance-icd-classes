@@ -1,3 +1,4 @@
-def LocChangeStatusSet():
-    '''public LocChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns LocChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

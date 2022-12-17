@@ -1,24 +1,32 @@
-def JobPlanClass():
-    '''public JobPlanClass(final MboSet ms)
+def ():
+    '''returns JobPlanClass\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def maintainSingleDefaultJPClass():
-    '''public void maintainSingleDefaultJPClass()
+    '''returns None\n\n
+    maintainSingleDefaultJPClass()\n
     '''
 def maintainWOClassUniqueness():
-    '''public void maintainWOClassUniqueness()
+    '''returns None\n\n
+    maintainWOClassUniqueness()\n
     '''

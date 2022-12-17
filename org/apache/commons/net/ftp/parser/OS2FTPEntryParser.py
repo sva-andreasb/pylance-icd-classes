@@ -1,7 +1,9 @@
-def OS2FTPEntryParser():
-    '''public OS2FTPEntryParser()
-    public OS2FTPEntryParser(final FTPClientConfig config)
+def ():
+    '''returns OS2FTPEntryParser\n\n
+    ()\n
+    (final FTPClientConfig config)\n
     '''
 def parseFTPEntry():
-    '''public FTPFile parseFTPEntry(final String entry)
+    '''returns FTPFile\n\n
+    parseFTPEntry(final String entry)\n
     '''

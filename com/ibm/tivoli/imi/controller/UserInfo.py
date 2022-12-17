@@ -1,21 +1,28 @@
 def setIMUserID():
-    '''public void setIMUserID(final String mxUserIMID)
+    '''returns None\n\n
+    setIMUserID(final String mxUserIMID)\n
     '''
 def setIMUserPassword():
-    '''public void setIMUserPassword(final String mxUserIMPassword)
+    '''returns None\n\n
+    setIMUserPassword(final String mxUserIMPassword)\n
     '''
 def getMXUserID():
-    '''public String getMXUserID()
+    '''returns String\n\n
+    getMXUserID()\n
     '''
 def getMXUserName():
-    '''public String getMXUserName()
+    '''returns String\n\n
+    getMXUserName()\n
     '''
 def getIMUserID():
-    '''public String getIMUserID()
+    '''returns String\n\n
+    getIMUserID()\n
     '''
 def getIMUserPassword():
-    '''public String getIMUserPassword()
+    '''returns String\n\n
+    getIMUserPassword()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

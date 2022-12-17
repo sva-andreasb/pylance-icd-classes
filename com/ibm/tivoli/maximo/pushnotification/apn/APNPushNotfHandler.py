@@ -1,17 +1,22 @@
 PUSHNOTF_LOGGER = "String  \"maximo.pushnotification\""
 def setProviderCredentials():
-    '''public void setProviderCredentials(final String deviceType, final byte[] certificateBytes, final String apnPassword, final String apnEndPointUrl)
+    '''returns None\n\n
+    setProviderCredentials(final String deviceType, final byte[] certificateBytes, final String apnPassword, final String apnEndPointUrl)\n
     '''
-def APNPushNotfHandler():
-    '''public APNPushNotfHandler(final NotificationMessage notificationMessage)
-    public APNPushNotfHandler()
+def ():
+    '''returns APNPushNotfHandler\n\n
+    (final NotificationMessage notificationMessage)\n
+    ()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getConnectionPort():
-    '''public int getConnectionPort()
+    '''returns int\n\n
+    getConnectionPort()\n
     '''
 def invoke():
-    '''public void invoke()
+    '''returns None\n\n
+    invoke()\n
     '''

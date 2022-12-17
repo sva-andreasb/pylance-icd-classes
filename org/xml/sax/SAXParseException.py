@@ -1,18 +1,23 @@
-def SAXParseException():
-    '''public SAXParseException(final String s, final Locator locator)
-    public SAXParseException(final String s, final Locator locator, final Exception ex)
-    public SAXParseException(final String s, final String s2, final String s3, final int n, final int n2)
-    public SAXParseException(final String s, final String s2, final String s3, final int n, final int n2, final Exception ex)
+def ():
+    '''returns SAXParseException\n\n
+    (final String s, final Locator locator)\n
+    (final String s, final Locator locator, final Exception ex)\n
+    (final String s, final String s2, final String s3, final int n, final int n2)\n
+    (final String s, final String s2, final String s3, final int n, final int n2, final Exception ex)\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''

@@ -1,9 +1,12 @@
-def FeatureSpecSet():
-    '''public FeatureSpecSet(final MboServerInterface ms)
+def ():
+    '''returns FeatureSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def whereClauseOnAttrAndValues():
-    '''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
+    '''returns String\n\n
+    whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)\n
     '''
 def isLinear():
-    '''public boolean isLinear()
+    '''returns boolean\n\n
+    isLinear()\n
     '''

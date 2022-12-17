@@ -1,66 +1,80 @@
-def getOption():
-    '''public <T> T getOption(final ChannelOption<T> option)
-    '''
-def setOption():
-    '''public <T> boolean setOption(final ChannelOption<T> option, final T value)
-    '''
 def setMaxMessagesPerRead():
-    '''public EpollDomainSocketChannelConfig setMaxMessagesPerRead(final int maxMessagesPerRead)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setMaxMessagesPerRead(final int maxMessagesPerRead)\n
     '''
 def setConnectTimeoutMillis():
-    '''public EpollDomainSocketChannelConfig setConnectTimeoutMillis(final int connectTimeoutMillis)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setConnectTimeoutMillis(final int connectTimeoutMillis)\n
     '''
 def setWriteSpinCount():
-    '''public EpollDomainSocketChannelConfig setWriteSpinCount(final int writeSpinCount)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setWriteSpinCount(final int writeSpinCount)\n
     '''
 def setRecvByteBufAllocator():
-    '''public EpollDomainSocketChannelConfig setRecvByteBufAllocator(final RecvByteBufAllocator allocator)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setRecvByteBufAllocator(final RecvByteBufAllocator allocator)\n
     '''
 def setAllocator():
-    '''public EpollDomainSocketChannelConfig setAllocator(final ByteBufAllocator allocator)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setAllocator(final ByteBufAllocator allocator)\n
     '''
 def setAutoClose():
-    '''public EpollDomainSocketChannelConfig setAutoClose(final boolean autoClose)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setAutoClose(final boolean autoClose)\n
     '''
 def setMessageSizeEstimator():
-    '''public EpollDomainSocketChannelConfig setMessageSizeEstimator(final MessageSizeEstimator estimator)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setMessageSizeEstimator(final MessageSizeEstimator estimator)\n
     '''
 def setWriteBufferLowWaterMark():
-    '''public EpollDomainSocketChannelConfig setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)\n
     '''
 def setWriteBufferHighWaterMark():
-    '''public EpollDomainSocketChannelConfig setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)\n
     '''
 def setWriteBufferWaterMark():
-    '''public EpollDomainSocketChannelConfig setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)\n
     '''
 def setAutoRead():
-    '''public EpollDomainSocketChannelConfig setAutoRead(final boolean autoRead)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setAutoRead(final boolean autoRead)\n
     '''
 def setEpollMode():
-    '''public EpollDomainSocketChannelConfig setEpollMode(final EpollMode mode)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setEpollMode(final EpollMode mode)\n
     '''
 def setReadMode():
-    '''public EpollDomainSocketChannelConfig setReadMode(final DomainSocketReadMode mode)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setReadMode(final DomainSocketReadMode mode)\n
     '''
 def getReadMode():
-    '''public DomainSocketReadMode getReadMode()
+    '''returns DomainSocketReadMode\n\n
+    getReadMode()\n
     '''
 def isAllowHalfClosure():
-    '''public boolean isAllowHalfClosure()
+    '''returns boolean\n\n
+    isAllowHalfClosure()\n
     '''
 def setAllowHalfClosure():
-    '''public EpollDomainSocketChannelConfig setAllowHalfClosure(final boolean allowHalfClosure)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setAllowHalfClosure(final boolean allowHalfClosure)\n
     '''
 def getSendBufferSize():
-    '''public int getSendBufferSize()
+    '''returns int\n\n
+    getSendBufferSize()\n
     '''
 def setSendBufferSize():
-    '''public EpollDomainSocketChannelConfig setSendBufferSize(final int sendBufferSize)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setSendBufferSize(final int sendBufferSize)\n
     '''
 def getReceiveBufferSize():
-    '''public int getReceiveBufferSize()
+    '''returns int\n\n
+    getReceiveBufferSize()\n
     '''
 def setReceiveBufferSize():
-    '''public EpollDomainSocketChannelConfig setReceiveBufferSize(final int receiveBufferSize)
+    '''returns EpollDomainSocketChannelConfig\n\n
+    setReceiveBufferSize(final int receiveBufferSize)\n
     '''

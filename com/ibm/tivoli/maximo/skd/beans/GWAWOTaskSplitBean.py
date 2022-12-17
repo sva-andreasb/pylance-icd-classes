@@ -1,9 +1,12 @@
-def GWAWOTaskSplitBean():
-    '''public GWAWOTaskSplitBean()
+def ():
+    '''returns GWAWOTaskSplitBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def updateAllHours():
-    '''public int updateAllHours()
+    '''returns int\n\n
+    updateAllHours()\n
     '''

@@ -1,30 +1,39 @@
 DEFAULT_NODE_CONTEXT = "int  1"
 FULL_APPLICATION_NODE_CONTEXT = "int  2"
-def TreeNodeComponent():
-    '''public TreeNodeComponent(final String aName, final String dName, final int category, final String cName, final Guid ident, final int type, final ViewDescriptor vd)
-    public TreeNodeComponent(final String dName)
+def ():
+    '''returns TreeNodeComponent\n\n
+    (final String aName, final String dName, final int category, final String cName, final Guid ident, final int type, final ViewDescriptor vd)\n
+    (final String dName)\n
     '''
 def getActions():
-    '''public List getActions()
+    '''returns List\n\n
+    getActions()\n
     '''
 def setActions():
-    '''public void setActions(final List acts)
+    '''returns None\n\n
+    setActions(final List acts)\n
     '''
 def getNodeId():
-    '''public String getNodeId()
+    '''returns String\n\n
+    getNodeId()\n
     '''
 def setNodeId():
-    '''public void setNodeId(final String nid)
+    '''returns None\n\n
+    setNodeId(final String nid)\n
     '''
 def getNodeContext():
-    '''public int getNodeContext()
+    '''returns int\n\n
+    getNodeContext()\n
     '''
 def setNodeContext():
-    '''public void setNodeContext(final int nc)
+    '''returns None\n\n
+    setNodeContext(final int nc)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDisplayId():
-    '''public Object getDisplayId()
+    '''returns Object\n\n
+    getDisplayId()\n
     '''

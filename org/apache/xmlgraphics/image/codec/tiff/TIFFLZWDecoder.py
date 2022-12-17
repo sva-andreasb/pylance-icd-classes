@@ -1,22 +1,29 @@
-def TIFFLZWDecoder():
-    '''public TIFFLZWDecoder(final int w, final int predictor, final int samplesPerPixel)
+def ():
+    '''returns TIFFLZWDecoder\n\n
+    (final int w, final int predictor, final int samplesPerPixel)\n
     '''
 def decode():
-    '''public byte[] decode(final byte[] data, final byte[] uncompData, final int h)
+    '''returns byte[]\n\n
+    decode(final byte[] data, final byte[] uncompData, final int h)\n
     '''
 def initializeStringTable():
-    '''public void initializeStringTable()
+    '''returns None\n\n
+    initializeStringTable()\n
     '''
 def writeString():
-    '''public void writeString(final byte[] string)
+    '''returns None\n\n
+    writeString(final byte[] string)\n
     '''
 def addStringToTable():
-    '''public void addStringToTable(final byte[] oldString, final byte newString)
-    public void addStringToTable(final byte[] string)
+    '''returns None\n\n
+    addStringToTable(final byte[] oldString, final byte newString)\n
+    addStringToTable(final byte[] string)\n
     '''
 def composeString():
-    '''public byte[] composeString(final byte[] oldString, final byte newString)
+    '''returns byte[]\n\n
+    composeString(final byte[] oldString, final byte newString)\n
     '''
 def getNextCode():
-    '''public int getNextCode()
+    '''returns int\n\n
+    getNextCode()\n
     '''

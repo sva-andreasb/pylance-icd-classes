@@ -1,137 +1,181 @@
-def ConnectionConfiguration():
-    '''public ConnectionConfiguration(final String serviceName)
-    public ConnectionConfiguration(final String serviceName, final ProxyInfo proxy)
-    public ConnectionConfiguration(final String host, final int port, final String serviceName)
-    public ConnectionConfiguration(final String host, final int port, final String serviceName, final ProxyInfo proxy)
-    public ConnectionConfiguration(final String host, final int port)
-    public ConnectionConfiguration(final String host, final int port, final ProxyInfo proxy)
+def ():
+    '''returns ConnectionConfiguration\n\n
+    (final String serviceName)\n
+    (final String serviceName, final ProxyInfo proxy)\n
+    (final String host, final int port, final String serviceName)\n
+    (final String host, final int port, final String serviceName, final ProxyInfo proxy)\n
+    (final String host, final int port)\n
+    (final String host, final int port, final ProxyInfo proxy)\n
     '''
 def setServiceName():
-    '''public void setServiceName(final String serviceName)
+    '''returns None\n\n
+    setServiceName(final String serviceName)\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getSecurityMode():
-    '''public SecurityMode getSecurityMode()
+    '''returns SecurityMode\n\n
+    getSecurityMode()\n
     '''
 def setSecurityMode():
-    '''public void setSecurityMode(final SecurityMode securityMode)
+    '''returns None\n\n
+    setSecurityMode(final SecurityMode securityMode)\n
     '''
 def getTruststorePath():
-    '''public String getTruststorePath()
+    '''returns String\n\n
+    getTruststorePath()\n
     '''
 def setTruststorePath():
-    '''public void setTruststorePath(final String truststorePath)
+    '''returns None\n\n
+    setTruststorePath(final String truststorePath)\n
     '''
 def getTruststoreType():
-    '''public String getTruststoreType()
+    '''returns String\n\n
+    getTruststoreType()\n
     '''
 def setTruststoreType():
-    '''public void setTruststoreType(final String truststoreType)
+    '''returns None\n\n
+    setTruststoreType(final String truststoreType)\n
     '''
 def getTruststorePassword():
-    '''public String getTruststorePassword()
+    '''returns String\n\n
+    getTruststorePassword()\n
     '''
 def setTruststorePassword():
-    '''public void setTruststorePassword(final String truststorePassword)
+    '''returns None\n\n
+    setTruststorePassword(final String truststorePassword)\n
     '''
 def getKeystorePath():
-    '''public String getKeystorePath()
+    '''returns String\n\n
+    getKeystorePath()\n
     '''
 def setKeystorePath():
-    '''public void setKeystorePath(final String keystorePath)
+    '''returns None\n\n
+    setKeystorePath(final String keystorePath)\n
     '''
 def getKeystoreType():
-    '''public String getKeystoreType()
+    '''returns String\n\n
+    getKeystoreType()\n
     '''
 def setKeystoreType():
-    '''public void setKeystoreType(final String keystoreType)
+    '''returns None\n\n
+    setKeystoreType(final String keystoreType)\n
     '''
 def getPKCS11Library():
-    '''public String getPKCS11Library()
+    '''returns String\n\n
+    getPKCS11Library()\n
     '''
 def setPKCS11Library():
-    '''public void setPKCS11Library(final String pkcs11Library)
+    '''returns None\n\n
+    setPKCS11Library(final String pkcs11Library)\n
     '''
 def isVerifyChainEnabled():
-    '''public boolean isVerifyChainEnabled()
+    '''returns boolean\n\n
+    isVerifyChainEnabled()\n
     '''
 def setVerifyChainEnabled():
-    '''public void setVerifyChainEnabled(final boolean verifyChainEnabled)
+    '''returns None\n\n
+    setVerifyChainEnabled(final boolean verifyChainEnabled)\n
     '''
 def isVerifyRootCAEnabled():
-    '''public boolean isVerifyRootCAEnabled()
+    '''returns boolean\n\n
+    isVerifyRootCAEnabled()\n
     '''
 def setVerifyRootCAEnabled():
-    '''public void setVerifyRootCAEnabled(final boolean verifyRootCAEnabled)
+    '''returns None\n\n
+    setVerifyRootCAEnabled(final boolean verifyRootCAEnabled)\n
     '''
 def isSelfSignedCertificateEnabled():
-    '''public boolean isSelfSignedCertificateEnabled()
+    '''returns boolean\n\n
+    isSelfSignedCertificateEnabled()\n
     '''
 def setSelfSignedCertificateEnabled():
-    '''public void setSelfSignedCertificateEnabled(final boolean selfSignedCertificateEnabled)
+    '''returns None\n\n
+    setSelfSignedCertificateEnabled(final boolean selfSignedCertificateEnabled)\n
     '''
 def isExpiredCertificatesCheckEnabled():
-    '''public boolean isExpiredCertificatesCheckEnabled()
+    '''returns boolean\n\n
+    isExpiredCertificatesCheckEnabled()\n
     '''
 def setExpiredCertificatesCheckEnabled():
-    '''public void setExpiredCertificatesCheckEnabled(final boolean expiredCertificatesCheckEnabled)
+    '''returns None\n\n
+    setExpiredCertificatesCheckEnabled(final boolean expiredCertificatesCheckEnabled)\n
     '''
 def isNotMatchingDomainCheckEnabled():
-    '''public boolean isNotMatchingDomainCheckEnabled()
+    '''returns boolean\n\n
+    isNotMatchingDomainCheckEnabled()\n
     '''
 def setNotMatchingDomainCheckEnabled():
-    '''public void setNotMatchingDomainCheckEnabled(final boolean notMatchingDomainCheckEnabled)
+    '''returns None\n\n
+    setNotMatchingDomainCheckEnabled(final boolean notMatchingDomainCheckEnabled)\n
     '''
 def isCompressionEnabled():
-    '''public boolean isCompressionEnabled()
+    '''returns boolean\n\n
+    isCompressionEnabled()\n
     '''
 def setCompressionEnabled():
-    '''public void setCompressionEnabled(final boolean compressionEnabled)
+    '''returns None\n\n
+    setCompressionEnabled(final boolean compressionEnabled)\n
     '''
 def isSASLAuthenticationEnabled():
-    '''public boolean isSASLAuthenticationEnabled()
+    '''returns boolean\n\n
+    isSASLAuthenticationEnabled()\n
     '''
 def setSASLAuthenticationEnabled():
-    '''public void setSASLAuthenticationEnabled(final boolean saslAuthenticationEnabled)
+    '''returns None\n\n
+    setSASLAuthenticationEnabled(final boolean saslAuthenticationEnabled)\n
     '''
 def isDebuggerEnabled():
-    '''public boolean isDebuggerEnabled()
+    '''returns boolean\n\n
+    isDebuggerEnabled()\n
     '''
 def setDebuggerEnabled():
-    '''public void setDebuggerEnabled(final boolean debuggerEnabled)
+    '''returns None\n\n
+    setDebuggerEnabled(final boolean debuggerEnabled)\n
     '''
 def setReconnectionAllowed():
-    '''public void setReconnectionAllowed(final boolean isAllowed)
+    '''returns None\n\n
+    setReconnectionAllowed(final boolean isAllowed)\n
     '''
 def isReconnectionAllowed():
-    '''public boolean isReconnectionAllowed()
+    '''returns boolean\n\n
+    isReconnectionAllowed()\n
     '''
 def setSocketFactory():
-    '''public void setSocketFactory(final SocketFactory socketFactory)
+    '''returns None\n\n
+    setSocketFactory(final SocketFactory socketFactory)\n
     '''
 def setSendPresence():
-    '''public void setSendPresence(final boolean sendPresence)
+    '''returns None\n\n
+    setSendPresence(final boolean sendPresence)\n
     '''
 def isRosterLoadedAtLogin():
-    '''public boolean isRosterLoadedAtLogin()
+    '''returns boolean\n\n
+    isRosterLoadedAtLogin()\n
     '''
 def setRosterLoadedAtLogin():
-    '''public void setRosterLoadedAtLogin(final boolean rosterLoadedAtLogin)
+    '''returns None\n\n
+    setRosterLoadedAtLogin(final boolean rosterLoadedAtLogin)\n
     '''
 def getCallbackHandler():
-    '''public CallbackHandler getCallbackHandler()
+    '''returns CallbackHandler\n\n
+    getCallbackHandler()\n
     '''
 def setCallbackHandler():
-    '''public void setCallbackHandler(final CallbackHandler callbackHandler)
+    '''returns None\n\n
+    setCallbackHandler(final CallbackHandler callbackHandler)\n
     '''
 def getSocketFactory():
-    '''public SocketFactory getSocketFactory()
+    '''returns SocketFactory\n\n
+    getSocketFactory()\n
     '''

@@ -1,10 +1,13 @@
-def DynObjectJSONSerializer():
-    '''public DynObjectJSONSerializer(final BusRequest br)
+def ():
+    '''returns DynObjectJSONSerializer\n\n
+    (final BusRequest br)\n
     '''
 def serialize():
-    '''public JSONObject serialize(final BusResourceCollection dynOL)
-    public JSONObject serialize(final BusResource dynO)
+    '''returns JSONObject\n\n
+    serialize(final BusResourceCollection dynOL)\n
+    serialize(final BusResource dynO)\n
     '''
 def convertJSONObjectToBytes():
-    '''public byte[] convertJSONObjectToBytes(final JSONObject ojo)
+    '''returns byte[]\n\n
+    convertJSONObjectToBytes(final JSONObject ojo)\n
     '''

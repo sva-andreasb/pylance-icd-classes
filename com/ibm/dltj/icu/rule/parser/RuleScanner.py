@@ -1,15 +1,16 @@
-def getCopyright():
-    '''public static String getCopyright()
-    '''
-def RuleScanner():
-    '''public RuleScanner()
+def ():
+    '''returns RuleScanner\n\n
+    ()\n
     '''
 def getStatements():
-    '''public StringBuffer getStatements()
+    '''returns StringBuffer\n\n
+    getStatements()\n
     '''
 def getTypeDataMap():
-    '''public Map getTypeDataMap()
+    '''returns Map\n\n
+    getTypeDataMap()\n
     '''
 def parse():
-    '''public void parse(final RuleCharReader ruleCharReader)
+    '''returns None\n\n
+    parse(final RuleCharReader ruleCharReader)\n
     '''

@@ -1,34 +1,45 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloDefaultOPLControllerFactory():
-    '''public IloDefaultOPLControllerFactory(final IloOplModelSourceFactory modelSourceFactory)
+def ():
+    '''returns IloDefaultOPLControllerFactory\n\n
+    (final IloOplModelSourceFactory modelSourceFactory)\n
     '''
 def setReportHandler():
-    '''public void setReportHandler(final IloReportHandler handler)
+    '''returns None\n\n
+    setReportHandler(final IloReportHandler handler)\n
     '''
 def addDataFile():
-    '''public void addDataFile(final URL file)
+    '''returns None\n\n
+    addDataFile(final URL file)\n
     '''
 def addSettingFile():
-    '''public void addSettingFile(final URL file)
+    '''returns None\n\n
+    addSettingFile(final URL file)\n
     '''
 def addDataSourceFactory():
-    '''public void addDataSourceFactory(final IloOplDataSourceFactory datasource)
+    '''returns None\n\n
+    addDataSourceFactory(final IloOplDataSourceFactory datasource)\n
     '''
 def makeOPLController():
-    '''public IloOplCplexController makeOPLController()
+    '''returns IloOplCplexController\n\n
+    makeOPLController()\n
     '''
 def updateMappingFile():
-    '''public void updateMappingFile(final URL mapFile)
+    '''returns None\n\n
+    updateMappingFile(final URL mapFile)\n
     '''
 def setOptimizationDescription():
-    '''public void setOptimizationDescription(final IloOptimDesc desc)
+    '''returns None\n\n
+    setOptimizationDescription(final IloOptimDesc desc)\n
     '''
 def getOptimizationDescription():
-    '''public IloOptimDesc getOptimizationDescription()
+    '''returns IloOptimDesc\n\n
+    getOptimizationDescription()\n
     '''
 def getModelSourceFactory():
-    '''public IloOplModelSourceFactory getModelSourceFactory()
+    '''returns IloOplModelSourceFactory\n\n
+    getModelSourceFactory()\n
     '''
 def getReportHandler():
-    '''public IloReportHandler getReportHandler()
+    '''returns IloReportHandler\n\n
+    getReportHandler()\n
     '''

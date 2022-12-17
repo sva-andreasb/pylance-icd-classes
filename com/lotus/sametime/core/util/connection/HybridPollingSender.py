@@ -1,16 +1,21 @@
 def setKeepAliveParams():
-    '''public void setKeepAliveParams(final long n, final byte[] array)
+    '''returns None\n\n
+    setKeepAliveParams(final long n, final byte[] array)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def readBytes():
-    '''public byte[] readBytes(final DataInputStream dataInputStream)
+    '''returns byte[]\n\n
+    readBytes(final DataInputStream dataInputStream)\n
     '''
 def createCiphers():
-    '''public void createCiphers(final byte[] array, final int n)
+    '''returns None\n\n
+    createCiphers(final byte[] array, final int n)\n
     '''
 def buildCompoundMessage():
-    '''public byte[] buildCompoundMessage()
+    '''returns byte[]\n\n
+    buildCompoundMessage()\n
     '''

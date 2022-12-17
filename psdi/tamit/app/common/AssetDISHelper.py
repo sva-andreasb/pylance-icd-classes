@@ -1,9 +1,12 @@
 def getIDString():
-    '''public String getIDString(final MboRemote asset)
+    '''returns String\n\n
+    getIDString(final MboRemote asset)\n
     '''
 def getPromotedIDString():
-    '''public String getPromotedIDString(final MboRemote dpa)
+    '''returns String\n\n
+    getPromotedIDString(final MboRemote dpa)\n
     '''
 def isLinked():
-    '''public boolean isLinked(final MboRemote asset)
+    '''returns boolean\n\n
+    isLinked(final MboRemote asset)\n
     '''

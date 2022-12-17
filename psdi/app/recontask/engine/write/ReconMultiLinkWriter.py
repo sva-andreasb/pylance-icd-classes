@@ -1,9 +1,12 @@
 def write():
-    '''public void write(final DBShortcut dbShortcut)
+    '''returns None\n\n
+    write(final DBShortcut dbShortcut)\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def getUIDColumnname():
-    '''public String getUIDColumnname()
+    '''returns String\n\n
+    getUIDColumnname()\n
     '''

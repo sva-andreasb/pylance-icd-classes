@@ -1,60 +1,80 @@
-def AMCrewTool():
-    '''public AMCrewTool(final MboSet ms)
+def ():
+    '''returns AMCrewTool\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def hasToolAssetAlreadyAssigned():
-    '''public boolean hasToolAssetAlreadyAssigned()
+    '''returns boolean\n\n
+    hasToolAssetAlreadyAssigned()\n
     '''
 def getStandardRate():
-    '''public double getStandardRate()
+    '''returns double\n\n
+    getStandardRate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def isHasToolAssetLoop():
-    '''public boolean isHasToolAssetLoop()
+    '''returns boolean\n\n
+    isHasToolAssetLoop()\n
     '''
 def setHasToolAssetLoop():
-    '''public void setHasToolAssetLoop(final boolean hasToolAssetLoop)
+    '''returns None\n\n
+    setHasToolAssetLoop(final boolean hasToolAssetLoop)\n
     '''
 def checkForAssetAlreadyAssigned():
-    '''public void checkForAssetAlreadyAssigned(final String laborCode, final Date SpecifiedEffectiveDate)
+    '''returns None\n\n
+    checkForAssetAlreadyAssigned(final String laborCode, final Date SpecifiedEffectiveDate)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def setUnableToDelete():
-    '''public void setUnableToDelete(final boolean unableToDelete)
+    '''returns None\n\n
+    setUnableToDelete(final boolean unableToDelete)\n
     '''
 def setEffectiveDateIsLater():
-    '''public void setEffectiveDateIsLater(final boolean laterEffectivedate)
+    '''returns None\n\n
+    setEffectiveDateIsLater(final boolean laterEffectivedate)\n
     '''
 def isLaterEffectiveDate():
-    '''public boolean isLaterEffectiveDate()
+    '''returns boolean\n\n
+    isLaterEffectiveDate()\n
     '''
 def setEarlierEndDate():
-    '''public void setEarlierEndDate(final boolean earlierEndDate)
+    '''returns None\n\n
+    setEarlierEndDate(final boolean earlierEndDate)\n
     '''
 def isEndDateEarlier():
-    '''public boolean isEndDateEarlier()
+    '''returns boolean\n\n
+    isEndDateEarlier()\n
     '''
 def findAvailableTime():
-    '''public double findAvailableTime(final Date shiftStart, final Date shiftEnd)
+    '''returns double\n\n
+    findAvailableTime(final Date shiftStart, final Date shiftEnd)\n
     '''
 def setCreatedBySplit():
-    '''public void setCreatedBySplit(final boolean cbs)
+    '''returns None\n\n
+    setCreatedBySplit(final boolean cbs)\n
     '''
 def getCreatedBySplit():
-    '''public boolean getCreatedBySplit()
+    '''returns boolean\n\n
+    getCreatedBySplit()\n
     '''
 def getHasCrewPrompt():
-    '''public boolean getHasCrewPrompt()
+    '''returns boolean\n\n
+    getHasCrewPrompt()\n
     '''
 def setHasCrewPrompt():
-    '''public void setHasCrewPrompt(final boolean prompt)
+    '''returns None\n\n
+    setHasCrewPrompt(final boolean prompt)\n
     '''

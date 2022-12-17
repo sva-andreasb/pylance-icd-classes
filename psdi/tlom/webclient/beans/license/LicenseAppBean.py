@@ -1,9 +1,12 @@
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def TLOAMGCOST():
-    '''public int TLOAMGCOST()
+    '''returns int\n\n
+    TLOAMGCOST()\n
     '''

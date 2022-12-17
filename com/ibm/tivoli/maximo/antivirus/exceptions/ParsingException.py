@@ -1,4 +1,5 @@
-def ParsingException():
-    '''public ParsingException(final String error)
-    public ParsingException(final String error, final Throwable exception)
+def ():
+    '''returns ParsingException\n\n
+    (final String error)\n
+    (final String error, final Throwable exception)\n
     '''

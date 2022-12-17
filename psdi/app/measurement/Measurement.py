@@ -1,27 +1,36 @@
-def Measurement():
-    '''public Measurement(final MboSet ms)
+def ():
+    '''returns Measurement\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def updateMeterOnMeasureDeletion():
-    '''public void updateMeterOnMeasureDeletion()
+    '''returns None\n\n
+    updateMeterOnMeasureDeletion()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def generateWorkOrderForLinearAssetMeasure():
-    '''public boolean generateWorkOrderForLinearAssetMeasure(final boolean useActionCrit)
+    '''returns boolean\n\n
+    generateWorkOrderForLinearAssetMeasure(final boolean useActionCrit)\n
     '''

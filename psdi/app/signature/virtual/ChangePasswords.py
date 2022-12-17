@@ -1,21 +1,28 @@
-def ChangePasswords():
-    '''public ChangePasswords(final MboSet ms)
+def ():
+    '''returns ChangePasswords\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def saveAccess():
-    '''public void saveAccess()
+    '''returns None\n\n
+    saveAccess()\n
     '''
 def setValue():
-    '''public void setValue(String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(String attributeName, final String val, final long accessModifier)\n
     '''
 def clearGenPswdInfo():
-    '''public void clearGenPswdInfo()
+    '''returns None\n\n
+    clearGenPswdInfo()\n
     '''
 def generatePassword():
-    '''public void generatePassword()
+    '''returns None\n\n
+    generatePassword()\n
     '''

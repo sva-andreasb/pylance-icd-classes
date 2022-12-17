@@ -1,18 +1,24 @@
 def getSeq():
-    '''public long getSeq()
+    '''returns long\n\n
+    getSeq()\n
     '''
 def getKey():
-    '''public byte[] getKey()
+    '''returns byte[]\n\n
+    getKey()\n
     '''
 def getCreateDate():
-    '''public Date getCreateDate()
+    '''returns Date\n\n
+    getCreateDate()\n
     '''
 def setSeq():
-    '''public void setSeq(final long seqParam)
+    '''returns None\n\n
+    setSeq(final long seqParam)\n
     '''
 def setKey():
-    '''public void setKey(final byte[] keyParam)
+    '''returns None\n\n
+    setKey(final byte[] keyParam)\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final Date createDataParam)
+    '''returns None\n\n
+    setCreateDate(final Date createDataParam)\n
     '''

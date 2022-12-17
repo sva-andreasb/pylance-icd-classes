@@ -1,6 +1,8 @@
-def ApplyNonWorkTimeSet():
-    '''public ApplyNonWorkTimeSet(final MboServerInterface ms)
+def ():
+    '''returns ApplyNonWorkTimeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

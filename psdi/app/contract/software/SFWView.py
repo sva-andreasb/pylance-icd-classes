@@ -1,127 +1,169 @@
-def SFWView():
-    '''public SFWView(final MboSet ms)
+def ():
+    '''returns SFWView\n\n
+    (final MboSet ms)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def copyPOLinesToCurrentContract():
-    '''public void copyPOLinesToCurrentContract(final MboSetRemote sourcePOLineSet)
+    '''returns None\n\n
+    copyPOLinesToCurrentContract(final MboSetRemote sourcePOLineSet)\n
     '''
 def copyPRLinesToCurrentContract():
-    '''public void copyPRLinesToCurrentContract(final MboSetRemote sourcePRLineSet)
+    '''returns None\n\n
+    copyPRLinesToCurrentContract(final MboSetRemote sourcePRLineSet)\n
     '''
 def copyPRLineToContract():
-    '''public MboRemote copyPRLineToContract(final MboRemote sourcePRLine, final MboSetRemote contractLineSetRemote)
+    '''returns MboRemote\n\n
+    copyPRLineToContract(final MboRemote sourcePRLine, final MboSetRemote contractLineSetRemote)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def createRelease():
-    '''public MboRemote createRelease(final MboSetRemote contractLineSetRemote)
-    public MboRemote createRelease(final String ponum, final MboSetRemote contractLineSetRemote)
+    '''returns MboRemote\n\n
+    createRelease(final MboSetRemote contractLineSetRemote)\n
+    createRelease(final String ponum, final MboSetRemote contractLineSetRemote)\n
     '''
 def createReleaseHeaderAndLines():
-    '''public MboRemote createReleaseHeaderAndLines(final MboSetRemote contractLineSetRemote)
+    '''returns MboRemote\n\n
+    createReleaseHeaderAndLines(final MboSetRemote contractLineSetRemote)\n
     '''
 def copySelectedLinesToRelease():
-    '''public void copySelectedLinesToRelease(final MboRemote releasePOHeader, final Vector selectedMbos)
+    '''returns None\n\n
+    copySelectedLinesToRelease(final MboRemote releasePOHeader, final Vector selectedMbos)\n
     '''
 def canCreateRelease():
-    '''public void canCreateRelease()
+    '''returns None\n\n
+    canCreateRelease()\n
     '''
 def createPOHeader():
-    '''public MboRemote createPOHeader()
+    '''returns MboRemote\n\n
+    createPOHeader()\n
     '''
 def copyPurchContractValuesToPOHeader():
-    '''public void copyPurchContractValuesToPOHeader(final MboRemote poHeaderRemote)
+    '''returns None\n\n
+    copyPurchContractValuesToPOHeader(final MboRemote poHeaderRemote)\n
     '''
 def applyPriceAdjustment():
-    '''public void applyPriceAdjustment(final MboSetRemote contractLineSetRemote)
+    '''returns None\n\n
+    applyPriceAdjustment(final MboSetRemote contractLineSetRemote)\n
     '''
 def createRFQ():
-    '''public MboRemote createRFQ(final MboSetRemote contractLineSetRemote)
+    '''returns MboRemote\n\n
+    createRFQ(final MboSetRemote contractLineSetRemote)\n
     '''
 def nullVendor():
-    '''public void nullVendor()
+    '''returns None\n\n
+    nullVendor()\n
     '''
 def canChangeLineStatus():
-    '''public void canChangeLineStatus()
+    '''returns None\n\n
+    canChangeLineStatus()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def getUnCommittedReleases():
-    '''public double getUnCommittedReleases()
+    '''returns double\n\n
+    getUnCommittedReleases()\n
     '''
 def getCommittedReleases():
-    '''public double getCommittedReleases()
+    '''returns double\n\n
+    getCommittedReleases()\n
     '''
 def getUnCommitedCost():
-    '''public double getUnCommitedCost()
+    '''returns double\n\n
+    getUnCommitedCost()\n
     '''
 def getAmountOnOrder():
-    '''public double getAmountOnOrder()
+    '''returns double\n\n
+    getAmountOnOrder()\n
     '''
 def getInvoiceVariance():
-    '''public double getInvoiceVariance()
+    '''returns double\n\n
+    getInvoiceVariance()\n
     '''
 def getAmountReceived():
-    '''public double getAmountReceived()
+    '''returns double\n\n
+    getAmountReceived()\n
     '''
 def canViewRelCost():
-    '''public void canViewRelCost()
+    '''returns None\n\n
+    canViewRelCost()\n
     '''
 def createSWLic():
-    '''public void createSWLic()
+    '''returns None\n\n
+    createSWLic()\n
     '''
 def deleteSWLic():
-    '''public void deleteSWLic()
+    '''returns None\n\n
+    deleteSWLic()\n
     '''
 def canCreateSWLic():
-    '''public void canCreateSWLic()
+    '''returns None\n\n
+    canCreateSWLic()\n
     '''
 def copyPersonsToNamedUsers():
-    '''public void copyPersonsToNamedUsers(final MboSetRemote personSetRemote)
+    '''returns None\n\n
+    copyPersonsToNamedUsers(final MboSetRemote personSetRemote)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def removeContractReferencesFromPR():
-    '''public void removeContractReferencesFromPR()
+    '''returns None\n\n
+    removeContractReferencesFromPR()\n
     '''
 def setFullyLic():
-    '''public void setFullyLic(MboSetRemote contractLineSet)
+    '''returns None\n\n
+    setFullyLic(MboSetRemote contractLineSet)\n
     '''
 def applyPriceToLines():
-    '''public void applyPriceToLines()
+    '''returns None\n\n
+    applyPriceToLines()\n
     '''
 def canAddAssetToContractAsset():
-    '''public void canAddAssetToContractAsset()
+    '''returns None\n\n
+    canAddAssetToContractAsset()\n
     '''
 def canAddPeopleToNamedUsers():
-    '''public void canAddPeopleToNamedUsers()
+    '''returns None\n\n
+    canAddPeopleToNamedUsers()\n
     '''
 def canAssociatLicense():
-    '''public void canAssociatLicense()
+    '''returns None\n\n
+    canAssociatLicense()\n
     '''
 def canDeleteAssociation():
-    '''public void canDeleteAssociation()
+    '''returns None\n\n
+    canDeleteAssociation()\n
     '''
 def copyAssetsToContractAsset():
-    '''public void copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)
+    '''returns None\n\n
+    copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)\n
     '''
 def reviseContract():
-    '''public MboRemote reviseContract(final String revDescription)
+    '''returns MboRemote\n\n
+    reviseContract(final String revDescription)\n
     '''
 def validateAssetsToContractAsset():
-    '''public void validateAssetsToContractAsset(final AssetSetRemote assetSetRemote)
+    '''returns None\n\n
+    validateAssetsToContractAsset(final AssetSetRemote assetSetRemote)\n
     '''

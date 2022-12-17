@@ -1,12 +1,16 @@
-def SDBConstraint():
-    '''public SDBConstraint(final Expr expr, final boolean completeConstraint)
+def ():
+    '''returns SDBConstraint\n\n
+    (final Expr expr, final boolean completeConstraint)\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getExpr():
-    '''public Expr getExpr()
+    '''returns Expr\n\n
+    getExpr()\n
     '''

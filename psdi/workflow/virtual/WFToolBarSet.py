@@ -1,19 +1,25 @@
-def WFToolBarSet():
-    '''public WFToolBarSet(final MboServerInterface ms)
+def ():
+    '''returns WFToolBarSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMbo():
-    '''public MboRemote getMbo(final int index)
+    '''returns MboRemote\n\n
+    getMbo(final int index)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def updateProcessStatus():
-    '''public void updateProcessStatus(final String pName, final boolean isActive)
+    '''returns None\n\n
+    updateProcessStatus(final String pName, final boolean isActive)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
-    public void execute(final MboRemote mbo)
+    '''returns None\n\n
+    execute()\n
+    execute(final MboRemote mbo)\n
     '''

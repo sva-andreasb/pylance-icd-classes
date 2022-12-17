@@ -1,36 +1,47 @@
-def InputSource():
-    '''public InputSource()
-    public InputSource(final String systemId)
-    public InputSource(final InputStream byteStream)
-    public InputSource(final Reader characterStream)
+def ():
+    '''returns InputSource\n\n
+    ()\n
+    (final String systemId)\n
+    (final InputStream byteStream)\n
+    (final Reader characterStream)\n
     '''
 def setPublicId():
-    '''public void setPublicId(final String publicId)
+    '''returns None\n\n
+    setPublicId(final String publicId)\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def setByteStream():
-    '''public void setByteStream(final InputStream byteStream)
+    '''returns None\n\n
+    setByteStream(final InputStream byteStream)\n
     '''
 def getByteStream():
-    '''public InputStream getByteStream()
+    '''returns InputStream\n\n
+    getByteStream()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setCharacterStream():
-    '''public void setCharacterStream(final Reader characterStream)
+    '''returns None\n\n
+    setCharacterStream(final Reader characterStream)\n
     '''
 def getCharacterStream():
-    '''public Reader getCharacterStream()
+    '''returns Reader\n\n
+    getCharacterStream()\n
     '''

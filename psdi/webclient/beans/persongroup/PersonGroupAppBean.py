@@ -1,3 +1,4 @@
 def MKISCREW():
-    '''public int MKISCREW()
+    '''returns int\n\n
+    MKISCREW()\n
     '''

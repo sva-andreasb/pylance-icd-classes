@@ -1,6 +1,8 @@
-def ImgLibSet():
-    '''public ImgLibSet(final MboServerInterface ms)
+def ():
+    '''returns ImgLibSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

@@ -1,30 +1,40 @@
-def AllDifferentImpl():
-    '''public AllDifferentImpl(final Node n, final EnhGraph g)
+def ():
+    '''returns AllDifferentImpl\n\n
+    (final Node n, final EnhGraph g)\n
     '''
 def setDistinctMembers():
-    '''public void setDistinctMembers(final RDFList members)
+    '''returns None\n\n
+    setDistinctMembers(final RDFList members)\n
     '''
 def addDistinctMember():
-    '''public void addDistinctMember(final Resource res)
+    '''returns None\n\n
+    addDistinctMember(final Resource res)\n
     '''
 def addDistinctMembers():
-    '''public void addDistinctMembers(final Iterator<? extends Resource> individuals)
+    '''returns None\n\n
+    addDistinctMembers(final Iterator<? extends Resource> individuals)\n
     '''
 def getDistinctMembers():
-    '''public RDFList getDistinctMembers()
+    '''returns RDFList\n\n
+    getDistinctMembers()\n
     '''
 def map1():
-    '''public OntResource map1(final RDFNode o)
+    '''returns OntResource\n\n
+    map1(final RDFNode o)\n
     '''
 def hasDistinctMember():
-    '''public boolean hasDistinctMember(final Resource res)
+    '''returns boolean\n\n
+    hasDistinctMember(final Resource res)\n
     '''
 def removeDistinctMember():
-    '''public void removeDistinctMember(final Resource res)
+    '''returns None\n\n
+    removeDistinctMember(final Resource res)\n
     '''
 def wrap():
-    '''public EnhNode wrap(final Node n, final EnhGraph eg)
+    '''returns EnhNode\n\n
+    wrap(final Node n, final EnhGraph eg)\n
     '''
 def canWrap():
-    '''public boolean canWrap(final Node node, final EnhGraph eg)
+    '''returns boolean\n\n
+    canWrap(final Node node, final EnhGraph eg)\n
     '''

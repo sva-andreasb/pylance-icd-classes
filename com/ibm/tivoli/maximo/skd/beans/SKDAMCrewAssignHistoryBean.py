@@ -1,3 +1,4 @@
 def refreshassignhistory():
-    '''public int refreshassignhistory()
+    '''returns int\n\n
+    refreshassignhistory()\n
     '''

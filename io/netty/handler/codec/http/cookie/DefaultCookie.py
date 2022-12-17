@@ -1,63 +1,84 @@
-def DefaultCookie():
-    '''public DefaultCookie(String name, final String value)
+def ():
+    '''returns DefaultCookie\n\n
+    (String name, final String value)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def value():
-    '''public String value()
+    '''returns String\n\n
+    value()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def wrap():
-    '''public boolean wrap()
+    '''returns boolean\n\n
+    wrap()\n
     '''
 def setWrap():
-    '''public void setWrap(final boolean wrap)
+    '''returns None\n\n
+    setWrap(final boolean wrap)\n
     '''
 def domain():
-    '''public String domain()
+    '''returns String\n\n
+    domain()\n
     '''
 def setDomain():
-    '''public void setDomain(final String domain)
+    '''returns None\n\n
+    setDomain(final String domain)\n
     '''
 def path():
-    '''public String path()
+    '''returns String\n\n
+    path()\n
     '''
 def setPath():
-    '''public void setPath(final String path)
+    '''returns None\n\n
+    setPath(final String path)\n
     '''
 def maxAge():
-    '''public long maxAge()
+    '''returns long\n\n
+    maxAge()\n
     '''
 def setMaxAge():
-    '''public void setMaxAge(final long maxAge)
+    '''returns None\n\n
+    setMaxAge(final long maxAge)\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''
 def setSecure():
-    '''public void setSecure(final boolean secure)
+    '''returns None\n\n
+    setSecure(final boolean secure)\n
     '''
 def isHttpOnly():
-    '''public boolean isHttpOnly()
+    '''returns boolean\n\n
+    isHttpOnly()\n
     '''
 def setHttpOnly():
-    '''public void setHttpOnly(final boolean httpOnly)
+    '''returns None\n\n
+    setHttpOnly(final boolean httpOnly)\n
     '''
 def setSameSite():
-    '''public void setSameSite(final CookieHeaderNames.SameSite sameSite)
+    '''returns None\n\n
+    setSameSite(final CookieHeaderNames.SameSite sameSite)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final Cookie c)
+    '''returns int\n\n
+    compareTo(final Cookie c)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

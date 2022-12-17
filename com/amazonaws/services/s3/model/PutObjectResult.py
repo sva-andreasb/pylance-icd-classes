@@ -1,42 +1,56 @@
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def setETag():
-    '''public void setETag(final String eTag)
+    '''returns None\n\n
+    setETag(final String eTag)\n
     '''
 def getExpirationTime():
-    '''public Date getExpirationTime()
+    '''returns Date\n\n
+    getExpirationTime()\n
     '''
 def setExpirationTime():
-    '''public void setExpirationTime(final Date expirationTime)
+    '''returns None\n\n
+    setExpirationTime(final Date expirationTime)\n
     '''
 def getExpirationTimeRuleId():
-    '''public String getExpirationTimeRuleId()
+    '''returns String\n\n
+    getExpirationTimeRuleId()\n
     '''
 def setExpirationTimeRuleId():
-    '''public void setExpirationTimeRuleId(final String expirationTimeRuleId)
+    '''returns None\n\n
+    setExpirationTimeRuleId(final String expirationTimeRuleId)\n
     '''
 def setContentMd5():
-    '''public void setContentMd5(final String contentMd5)
+    '''returns None\n\n
+    setContentMd5(final String contentMd5)\n
     '''
 def getContentMd5():
-    '''public String getContentMd5()
+    '''returns String\n\n
+    getContentMd5()\n
     '''
 def getMetadata():
-    '''public ObjectMetadata getMetadata()
+    '''returns ObjectMetadata\n\n
+    getMetadata()\n
     '''
 def setMetadata():
-    '''public void setMetadata(final ObjectMetadata metadata)
+    '''returns None\n\n
+    setMetadata(final ObjectMetadata metadata)\n
     '''
 def isRequesterCharged():
-    '''public boolean isRequesterCharged()
+    '''returns boolean\n\n
+    isRequesterCharged()\n
     '''
 def setRequesterCharged():
-    '''public void setRequesterCharged(final boolean isRequesterCharged)
+    '''returns None\n\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
     '''

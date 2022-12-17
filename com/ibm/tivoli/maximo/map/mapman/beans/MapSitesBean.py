@@ -1,3 +1,4 @@
 def setmapsites():
-    '''public int setmapsites()
+    '''returns int\n\n
+    setmapsites()\n
     '''

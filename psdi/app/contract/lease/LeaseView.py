@@ -1,63 +1,84 @@
-def LeaseView():
-    '''public LeaseView(final MboSet ms)
+def ():
+    '''returns LeaseView\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def nullVendor():
-    '''public void nullVendor()
+    '''returns None\n\n
+    nullVendor()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def canCreateSchedule():
-    '''public void canCreateSchedule()
+    '''returns None\n\n
+    canCreateSchedule()\n
     '''
 def reCalcLeaseViewCost():
-    '''public double reCalcLeaseViewCost()
+    '''returns double\n\n
+    reCalcLeaseViewCost()\n
     '''
 def setRentalReadOnlyFields():
-    '''public void setRentalReadOnlyFields()
+    '''returns None\n\n
+    setRentalReadOnlyFields()\n
     '''
 def copyAssetsToContractAsset():
-    '''public void copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)
+    '''returns None\n\n
+    copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)\n
     '''
 def canAddAssetToContractAsset():
-    '''public void canAddAssetToContractAsset()
+    '''returns None\n\n
+    canAddAssetToContractAsset()\n
     '''
 def canPurchaseOrReturnAsset():
-    '''public void canPurchaseOrReturnAsset()
+    '''returns None\n\n
+    canPurchaseOrReturnAsset()\n
     '''
 def createEndLeaseInvoice():
-    '''public void createEndLeaseInvoice(final String invNumber, final String targetStatus, final MboSetRemote assetSet, final boolean purchaseFlag)
+    '''returns None\n\n
+    createEndLeaseInvoice(final String invNumber, final String targetStatus, final MboSetRemote assetSet, final boolean purchaseFlag)\n
     '''
 def createEndLeasePO():
-    '''public void createEndLeasePO(final String poNumber, final String targetStatus, final MboSetRemote assetSet, final boolean purchaseFlag)
+    '''returns None\n\n
+    createEndLeasePO(final String poNumber, final String targetStatus, final MboSetRemote assetSet, final boolean purchaseFlag)\n
     '''
 def applyPriceAdjustment():
-    '''public void applyPriceAdjustment(final MboSetRemote contractLineSetRemote)
+    '''returns None\n\n
+    applyPriceAdjustment(final MboSetRemote contractLineSetRemote)\n
     '''
 def applyPriceToLines():
-    '''public void applyPriceToLines()
+    '''returns None\n\n
+    applyPriceToLines()\n
     '''
 def reviseContract():
-    '''public MboRemote reviseContract(final String revDescription)
+    '''returns MboRemote\n\n
+    reviseContract(final String revDescription)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
     '''
 def cancelInvoices():
-    '''public void cancelInvoices(final MboSetRemote assetSet)
+    '''returns None\n\n
+    cancelInvoices(final MboSetRemote assetSet)\n
     '''

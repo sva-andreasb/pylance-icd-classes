@@ -1,3 +1,4 @@
-def FldAssetFailureCode():
-    '''public FldAssetFailureCode(final MboValue mbv)
+def ():
+    '''returns FldAssetFailureCode\n\n
+    (final MboValue mbv)\n
     '''

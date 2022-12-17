@@ -6,89 +6,52 @@ NOT_A_EQUALS_B = "int  5"
 A_PROPER_SUBSET_OF_B = "int  3"
 A_PROPER_SUPERSET_B = "int  6"
 A_PROPER_OVERLAPS_B = "int  7"
-def join():
-    '''public static String join(final Object[] array, final String separator)
-    public static String join(final Collection collection, final String separator)
-    '''
-def asMap():
-    '''public static Map asMap(final Object[][] source, final Map target, final boolean reverse)
-    public static Map asMap(final Object[][] source)
-    '''
-def addAll():
-    '''public static Collection addAll(final Iterator source, final Collection target)
-    '''
-def size():
-    '''public static int size(final Iterator source)
-    '''
-def removeAll():
-    '''public static Map removeAll(final Map m, final Collection itemsToRemove)
-    public static Collection removeAll(final Collection c, final ObjectMatcher f)
-    '''
 def getFirst():
-    '''public Object getFirst(final Collection c)
-    '''
-def getBest():
-    '''public static Object getBest(final Collection c, final Comparator comp, final int direction)
-    '''
-def retainAll():
-    '''public static Collection retainAll(final Collection c, final ObjectMatcher f)
-    '''
-def containsSome():
-    '''public static boolean containsSome(final Collection a, final Collection b)
-    '''
-def containsAll():
-    '''public static boolean containsAll(final Collection a, final Collection b)
-    '''
-def containsNone():
-    '''public static boolean containsNone(final Collection a, final Collection b)
-    '''
-def getContainmentRelation():
-    '''public static int getContainmentRelation(final Collection a, final Collection b)
-    '''
-def remove():
-    '''public static String remove(final String source, final UnicodeSet removals)
-    public void remove()
-    '''
-def matchesAt():
-    '''public static int matchesAt(final CharSequence text, final int offset, final CharSequence other)
+    '''returns Object\n\n
+    getFirst(final Collection c)\n
     '''
 def span():
-    '''public int span(final CharSequence string, final int offset, final UnicodeSet testSet)
+    '''returns int\n\n
+    span(final CharSequence string, final int offset, final UnicodeSet testSet)\n
     '''
 def spanNot():
-    '''public int spanNot(final CharSequence string, int offset, final UnicodeSet testSet)
-    '''
-def prettyPrint():
-    '''public static String prettyPrint(final UnicodeSet uset, final boolean compressRanges, final UnicodeSet toQuote, final Transliterator quoter, final Comparator ordering, final Comparator spaceComparator)
-    '''
-def flatten():
-    '''public static UnicodeSet flatten(final UnicodeSet exemplar1)
+    '''returns int\n\n
+    spanNot(final CharSequence string, int offset, final UnicodeSet testSet)\n
     '''
 def set():
-    '''public ObjectMatcher set(final ObjectMatcher toInverse)
-    public FilteredIterator set(final Iterator baseIterator)
-    public PrefixIterator set(final Iterator baseIterator, final String prefix)
-    public RegexIterator set(final Iterator baseIterator, final Matcher matcher)
+    '''returns RegexIterator\n\n
+    set(final ObjectMatcher toInverse)\n
+    set(final Iterator baseIterator)\n
+    set(final Iterator baseIterator, final String prefix)\n
+    set(final Iterator baseIterator, final Matcher matcher)\n
     '''
 def matches():
-    '''public boolean matches(final Object value)
+    '''returns boolean\n\n
+    matches(final Object value)\n
     '''
-def MultiComparator():
-    '''public MultiComparator(final Comparator[] comparators)
+def ():
+    '''returns FilteredIterator\n\n
+    (final Comparator[] comparators)\n
+    ()\n
     '''
 def compare():
-    '''public int compare(final Object arg0, final Object arg1)
+    '''returns int\n\n
+    compare(final Object arg0, final Object arg1)\n
     '''
-def FilteredIterator():
-    '''public FilteredIterator()
+def remove():
+    '''returns None\n\n
+    remove()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def isIncluded():
-    '''public boolean isIncluded(final Object item)
-    public boolean isIncluded(final Object item)
+    '''returns boolean\n\n
+    isIncluded(final Object item)\n
+    isIncluded(final Object item)\n
     '''

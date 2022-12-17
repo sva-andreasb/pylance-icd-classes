@@ -6,32 +6,40 @@ OP_LT = "int  5"
 OP_IN = "int  6"
 OP_GT = "int  7"
 OP_LIKE = "int  8"
-def RESTQbe():
-    '''public RESTQbe(final String resourceName, final UserInfo userInfo)
+def ():
+    '''returns RESTQbe\n\n
+    (final String resourceName, final UserInfo userInfo)\n
     '''
 def hasQbe():
-    '''public boolean hasQbe()
+    '''returns boolean\n\n
+    hasQbe()\n
     '''
 def removeQbe():
-    '''public void removeQbe(final String propName)
+    '''returns None\n\n
+    removeQbe(final String propName)\n
     '''
 def setQbe():
-    '''public void setQbe(final String propName, final int op, final String value)
-    public void setQbe(final String propName, final int op, final long value)
-    public void setQbe(final String propName, final int op, final boolean value)
-    public void setQbe(final String propName, final int op, final double value)
-    public void setQbe(final String propName, final int op, final Date dt)
+    '''returns None\n\n
+    setQbe(final String propName, final int op, final String value)\n
+    setQbe(final String propName, final int op, final long value)\n
+    setQbe(final String propName, final int op, final boolean value)\n
+    setQbe(final String propName, final int op, final double value)\n
+    setQbe(final String propName, final int op, final Date dt)\n
     '''
 def getQbe():
-    '''public Object getQbe()
-    public Object getQbe(final String querySeparator)
+    '''returns Object\n\n
+    getQbe()\n
+    getQbe(final String querySeparator)\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''
 def setInvalidQbe():
-    '''public void setInvalidQbe(final String propName, final String value)
+    '''returns None\n\n
+    setInvalidQbe(final String propName, final String value)\n
     '''
 def hasInvalidQbe():
-    '''public boolean hasInvalidQbe()
+    '''returns boolean\n\n
+    hasInvalidQbe()\n
     '''

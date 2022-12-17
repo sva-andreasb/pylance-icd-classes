@@ -1,15 +1,20 @@
-def CSSRule():
-    '''public CSSRule(final int type, final DOMObject obj, final CSSStyleSheet parentStyleSheet, final org.w3c.dom.css.CSSRule parentRule)
+def ():
+    '''returns CSSRule\n\n
+    (final int type, final DOMObject obj, final CSSStyleSheet parentStyleSheet, final org.w3c.dom.css.CSSRule parentRule)\n
     '''
 def getType():
-    '''public short getType()
+    '''returns short\n\n
+    getType()\n
     '''
 def getCssText():
-    '''public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
     '''
 def setCssText():
-    '''public void setCssText(final String s)
+    '''returns None\n\n
+    setCssText(final String s)\n
     '''
 def getParentStyleSheet():
-    '''public CSSStyleSheet getParentStyleSheet()
+    '''returns CSSStyleSheet\n\n
+    getParentStyleSheet()\n
     '''

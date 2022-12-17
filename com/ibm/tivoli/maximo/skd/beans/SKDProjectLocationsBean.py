@@ -1,9 +1,12 @@
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def selectLocations():
-    '''public int selectLocations()
+    '''returns int\n\n
+    selectLocations()\n
     '''
 def refreshData():
-    '''public int refreshData()
+    '''returns int\n\n
+    refreshData()\n
     '''

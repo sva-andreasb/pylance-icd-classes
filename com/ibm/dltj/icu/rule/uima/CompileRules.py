@@ -1,18 +1,21 @@
-def CompileRules():
-    '''public CompileRules(final File file)
+def ():
+    '''returns StreamConsumer\n\n
+    (final File file)\n
+    (final InputStream in)\n
     '''
 def buildJar():
-    '''public void buildJar(final File file, final File file2, final File file3)
+    '''returns None\n\n
+    buildJar(final File file, final File file2, final File file3)\n
     '''
 def addToJar():
-    '''public void addToJar(final JarOutputStream jarOutputStream, final File file, final String name)
+    '''returns None\n\n
+    addToJar(final JarOutputStream jarOutputStream, final File file, final String name)\n
     '''
 def compile():
-    '''public int compile(final File file, final File file2)
-    '''
-def StreamConsumer():
-    '''public StreamConsumer(final InputStream in)
+    '''returns int\n\n
+    compile(final File file, final File file2)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

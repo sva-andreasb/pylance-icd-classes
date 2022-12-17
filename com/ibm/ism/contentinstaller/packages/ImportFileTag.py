@@ -1,6 +1,8 @@
-def ImportFileTag():
-    '''public ImportFileTag(final BaseTag parent, final String name)
+def ():
+    '''returns ImportFileTag\n\n
+    (final BaseTag parent, final String name)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

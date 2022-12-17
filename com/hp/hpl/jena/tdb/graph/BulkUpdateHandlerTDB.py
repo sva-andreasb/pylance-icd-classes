@@ -1,9 +1,12 @@
-def BulkUpdateHandlerTDB():
-    '''public BulkUpdateHandlerTDB(final GraphTDBBase graph)
+def ():
+    '''returns BulkUpdateHandlerTDB\n\n
+    (final GraphTDBBase graph)\n
     '''
 def remove():
-    '''public void remove(Node s, Node p, Node o)
+    '''returns None\n\n
+    remove(Node s, Node p, Node o)\n
     '''
 def removeAll():
-    '''public void removeAll()
+    '''returns None\n\n
+    removeAll()\n
     '''

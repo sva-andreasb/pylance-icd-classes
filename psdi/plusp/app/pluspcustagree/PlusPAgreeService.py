@@ -1,58 +1,77 @@
-def PlusPAgreeService():
-    '''public PlusPAgreeService()
-    public PlusPAgreeService(final MXServer mxServer)
+def ():
+    '''returns PlusPAgreeService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def verifyNoFaultFoundInAgmt():
-    '''public void verifyNoFaultFoundInAgmt(final MboRemote mboRemote)
+    '''returns None\n\n
+    verifyNoFaultFoundInAgmt(final MboRemote mboRemote)\n
     '''
 def verifyNoFaultFoundinWO():
-    '''public void verifyNoFaultFoundinWO(final MboRemote mboRemote)
+    '''returns None\n\n
+    verifyNoFaultFoundinWO(final MboRemote mboRemote)\n
     '''
 def actionPeriod():
-    '''public void actionPeriod(final MboRemote mboRemote)
+    '''returns None\n\n
+    actionPeriod(final MboRemote mboRemote)\n
     '''
 def applyPeriodRulesForScheduleFields():
-    '''public void applyPeriodRulesForScheduleFields(final MboRemote mboRemote)
+    '''returns None\n\n
+    applyPeriodRulesForScheduleFields(final MboRemote mboRemote)\n
     '''
 def calcFinalBillDate():
-    '''public Date calcFinalBillDate(final MboRemote mboRemote, final Date time)
+    '''returns Date\n\n
+    calcFinalBillDate(final MboRemote mboRemote, final Date time)\n
     '''
 def calcBillDateFromBillingPeriodForFP():
-    '''public Date calcBillDateFromBillingPeriodForFP(final MboRemote mr)
+    '''returns Date\n\n
+    calcBillDateFromBillingPeriodForFP(final MboRemote mr)\n
     '''
 def calcFirstBillDateForFP():
-    '''public Date calcFirstBillDateForFP(final MboRemote mr)
+    '''returns Date\n\n
+    calcFirstBillDateForFP(final MboRemote mr)\n
     '''
 def calcNextBillDate():
-    '''public Date calcNextBillDate(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''returns Date\n\n
+    calcNextBillDate(final MboRemote mboRemote, final MboRemote mboRemote2)\n
     '''
 def calcNextBillPeriod():
-    '''public MboRemote calcNextBillPeriod(final MboRemote mr)
+    '''returns MboRemote\n\n
+    calcNextBillPeriod(final MboRemote mr)\n
     '''
 def getFinancialPeriodForGivenDate():
-    '''public MboRemote getFinancialPeriodForGivenDate(final MboRemote mr, final Date val)
+    '''returns MboRemote\n\n
+    getFinancialPeriodForGivenDate(final MboRemote mr, final Date val)\n
     '''
 def isDateWithinInvalidFP():
-    '''public boolean isDateWithinInvalidFP(final MboRemote mr, final Date when)
+    '''returns boolean\n\n
+    isDateWithinInvalidFP(final MboRemote mr, final Date when)\n
     '''
 def setFinalBillDate():
-    '''public void setFinalBillDate(final MboRemote mboRemote)
+    '''returns None\n\n
+    setFinalBillDate(final MboRemote mboRemote)\n
     '''
 def validateDaysAfterPeriodEnds():
-    '''public void validateDaysAfterPeriodEnds(final MboRemote mboRemote)
+    '''returns None\n\n
+    validateDaysAfterPeriodEnds(final MboRemote mboRemote)\n
     '''
 def validateEndOfPeriod():
-    '''public void validateEndOfPeriod(final MboRemote mboRemote)
+    '''returns None\n\n
+    validateEndOfPeriod(final MboRemote mboRemote)\n
     '''
 def validateFirstBillDate():
-    '''public void validateFirstBillDate(final MboRemote mboRemote)
+    '''returns None\n\n
+    validateFirstBillDate(final MboRemote mboRemote)\n
     '''
 def validateInterval():
-    '''public void validateInterval(final MboRemote mboRemote)
+    '''returns None\n\n
+    validateInterval(final MboRemote mboRemote)\n
     '''
 def setSLAPenaltyFieldFlags():
-    '''public void setSLAPenaltyFieldFlags(final String anObject, final MboRemote mboRemote)
+    '''returns None\n\n
+    setSLAPenaltyFieldFlags(final String anObject, final MboRemote mboRemote)\n
     '''
 def validateBillMeterEntry():
-    '''public void validateBillMeterEntry(final MboRemote mboRemote, final String s, final String s2)
+    '''returns None\n\n
+    validateBillMeterEntry(final MboRemote mboRemote, final String s, final String s2)\n
     '''

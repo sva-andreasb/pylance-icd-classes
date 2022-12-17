@@ -1,39 +1,50 @@
-def IllegalFieldValueException():
-    '''public IllegalFieldValueException(final DateTimeFieldType iDateTimeFieldType, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)
-    public IllegalFieldValueException(final DateTimeFieldType iDateTimeFieldType, final Number iNumberValue, final String s)
-    public IllegalFieldValueException(final DurationFieldType iDurationFieldType, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)
-    public IllegalFieldValueException(final String iFieldName, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)
-    public IllegalFieldValueException(final DateTimeFieldType iDateTimeFieldType, final String iStringValue)
-    public IllegalFieldValueException(final DurationFieldType iDurationFieldType, final String iStringValue)
-    public IllegalFieldValueException(final String iFieldName, final String iStringValue)
+def ():
+    '''returns IllegalFieldValueException\n\n
+    (final DateTimeFieldType iDateTimeFieldType, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)\n
+    (final DateTimeFieldType iDateTimeFieldType, final Number iNumberValue, final String s)\n
+    (final DurationFieldType iDurationFieldType, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)\n
+    (final String iFieldName, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)\n
+    (final DateTimeFieldType iDateTimeFieldType, final String iStringValue)\n
+    (final DurationFieldType iDurationFieldType, final String iStringValue)\n
+    (final String iFieldName, final String iStringValue)\n
     '''
 def getDateTimeFieldType():
-    '''public DateTimeFieldType getDateTimeFieldType()
+    '''returns DateTimeFieldType\n\n
+    getDateTimeFieldType()\n
     '''
 def getDurationFieldType():
-    '''public DurationFieldType getDurationFieldType()
+    '''returns DurationFieldType\n\n
+    getDurationFieldType()\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def getIllegalNumberValue():
-    '''public Number getIllegalNumberValue()
+    '''returns Number\n\n
+    getIllegalNumberValue()\n
     '''
 def getIllegalStringValue():
-    '''public String getIllegalStringValue()
+    '''returns String\n\n
+    getIllegalStringValue()\n
     '''
 def getIllegalValueAsString():
-    '''public String getIllegalValueAsString()
+    '''returns String\n\n
+    getIllegalValueAsString()\n
     '''
 def getLowerBound():
-    '''public Number getLowerBound()
+    '''returns Number\n\n
+    getLowerBound()\n
     '''
 def getUpperBound():
-    '''public Number getUpperBound()
+    '''returns Number\n\n
+    getUpperBound()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def prependMessage():
-    '''public void prependMessage(final String s)
+    '''returns None\n\n
+    prependMessage(final String s)\n
     '''

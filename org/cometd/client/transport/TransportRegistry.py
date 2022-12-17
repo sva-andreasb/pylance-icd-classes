@@ -1,18 +1,24 @@
-def TransportRegistry():
-    '''public TransportRegistry()
+def ():
+    '''returns TransportRegistry\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final ClientTransport transport)
+    '''returns None\n\n
+    add(final ClientTransport transport)\n
     '''
 def getKnownTransports():
-    '''public Set<String> getKnownTransports()
+    '''returns Set<String>\n\n
+    getKnownTransports()\n
     '''
 def getAllowedTransports():
-    '''public List<String> getAllowedTransports()
+    '''returns List<String>\n\n
+    getAllowedTransports()\n
     '''
 def negotiate():
-    '''public List<ClientTransport> negotiate(final Object[] requestedTransports, final String bayeuxVersion)
+    '''returns List<ClientTransport>\n\n
+    negotiate(final Object[] requestedTransports, final String bayeuxVersion)\n
     '''
 def getTransport():
-    '''public ClientTransport getTransport(final String transport)
+    '''returns ClientTransport\n\n
+    getTransport(final String transport)\n
     '''

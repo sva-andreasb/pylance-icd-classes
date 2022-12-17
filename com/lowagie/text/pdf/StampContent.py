@@ -1,6 +1,8 @@
 def setAction():
-    '''public void setAction(final PdfAction action, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    setAction(final PdfAction action, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def getDuplicate():
-    '''public PdfContentByte getDuplicate()
+    '''returns PdfContentByte\n\n
+    getDuplicate()\n
     '''

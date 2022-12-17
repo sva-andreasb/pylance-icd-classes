@@ -1,22 +1,29 @@
-def RFC2109Spec():
-    '''public RFC2109Spec(final String[] datepatterns, final boolean oneHeader)
-    public RFC2109Spec()
+def ():
+    '''returns RFC2109Spec\n\n
+    (final String[] datepatterns, final boolean oneHeader)\n
+    ()\n
     '''
 def parse():
-    '''public List<Cookie> parse(final Header header, final CookieOrigin origin)
+    '''returns List<Cookie>\n\n
+    parse(final Header header, final CookieOrigin origin)\n
     '''
 def validate():
-    '''public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''returns None\n\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def formatCookies():
-    '''public List<Header> formatCookies(final List<Cookie> cookies)
+    '''returns List<Header>\n\n
+    formatCookies(final List<Cookie> cookies)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getVersionHeader():
-    '''public Header getVersionHeader()
+    '''returns Header\n\n
+    getVersionHeader()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,12 +1,16 @@
-def PUTFIELD():
-    '''public PUTFIELD(final int index)
+def ():
+    '''returns PUTFIELD\n\n
+    (final int index)\n
     '''
 def consumeStack():
-    '''public int consumeStack(final ConstantPoolGen cpg)
+    '''returns int\n\n
+    consumeStack(final ConstantPoolGen cpg)\n
     '''
 def getExceptions():
-    '''public Class[] getExceptions()
+    '''returns Class[]\n\n
+    getExceptions()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

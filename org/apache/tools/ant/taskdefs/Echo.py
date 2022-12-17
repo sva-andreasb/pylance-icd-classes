@@ -1,27 +1,36 @@
-def Echo():
-    '''public Echo()
+def ():
+    '''returns Echo\n\n
+    ()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setMessage():
-    '''public void setMessage(final String msg)
+    '''returns None\n\n
+    setMessage(final String msg)\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def setOutput():
-    '''public void setOutput(final Resource output)
+    '''returns None\n\n
+    setOutput(final Resource output)\n
     '''
 def setAppend():
-    '''public void setAppend(final boolean append)
+    '''returns None\n\n
+    setAppend(final boolean append)\n
     '''
 def addText():
-    '''public void addText(final String msg)
+    '''returns None\n\n
+    addText(final String msg)\n
     '''
 def setLevel():
-    '''public void setLevel(final EchoLevel echoLevel)
+    '''returns None\n\n
+    setLevel(final EchoLevel echoLevel)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''

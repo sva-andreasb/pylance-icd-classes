@@ -1,3 +1,4 @@
-def FldDoclinksApp():
-    '''public FldDoclinksApp(final MboValue mbv)
+def ():
+    '''returns FldDoclinksApp\n\n
+    (final MboValue mbv)\n
     '''

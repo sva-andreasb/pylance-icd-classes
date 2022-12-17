@@ -1,12 +1,16 @@
 def stringToValue():
-    '''public Object stringToValue(final String text)
+    '''returns Object\n\n
+    stringToValue(final String text)\n
     '''
 def valueToString():
-    '''public String valueToString(final Object value)
+    '''returns String\n\n
+    valueToString(final Object value)\n
     '''
 def replace():
-    '''public void replace(final FilterBypass fb, final int offset, final int length, final String text, final AttributeSet attrs)
+    '''returns None\n\n
+    replace(final FilterBypass fb, final int offset, final int length, final String text, final AttributeSet attrs)\n
     '''
 def insertString():
-    '''public void insertString(final FilterBypass fb, final int offset, final String string, final AttributeSet attr)
+    '''returns None\n\n
+    insertString(final FilterBypass fb, final int offset, final String string, final AttributeSet attr)\n
     '''

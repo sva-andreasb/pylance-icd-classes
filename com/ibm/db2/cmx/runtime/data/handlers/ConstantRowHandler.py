@@ -1,7 +1,9 @@
-def ConstantRowHandler():
-    '''public ConstantRowHandler(final Class cls_)
-    public ConstantRowHandler(final Class clazz, final int resultType_)
+def ():
+    '''returns ConstantRowHandler\n\n
+    (final Class cls_)\n
+    (final Class clazz, final int resultType_)\n
     '''
 def handle():
-    '''public T handle(final ResultSet set, final T t)
+    '''returns T\n\n
+    handle(final ResultSet set, final T t)\n
     '''

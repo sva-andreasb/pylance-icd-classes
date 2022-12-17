@@ -1,22 +1,21 @@
-def Transp():
-    '''public Transp()
-    public Transp(final String aValue)
-    public Transp(final ParameterList aList, final String aValue)
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final String aValue)\n
+    (final ParameterList aList, final String aValue)\n
+    ()\n
     '''
 def setValue():
-    '''public void setValue(final String aValue)
-    public void setValue(final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
+    '''returns None\n\n
+    setValue(final String aValue)\n
+    setValue(final String aValue)\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns None\n\n
+    validate()\n
     '''
 def createProperty():
-    '''public Transp createProperty(final ParameterList parameters, final String value)
-    public Transp createProperty()
+    '''returns Transp\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

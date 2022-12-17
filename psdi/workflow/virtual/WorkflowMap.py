@@ -1,15 +1,20 @@
-def WorkflowMap():
-    '''public WorkflowMap(final MboSet ms)
+def ():
+    '''returns WorkflowMap\n\n
+    (final MboSet ms)\n
     '''
 def getWFDiagramInfo():
-    '''public void getWFDiagramInfo(final int callSeq)
+    '''returns None\n\n
+    getWFDiagramInfo(final int callSeq)\n
     '''
 def next():
-    '''public void next()
+    '''returns None\n\n
+    next()\n
     '''
 def previous():
-    '''public void previous()
+    '''returns None\n\n
+    previous()\n
     '''
 def getWFViewInfo():
-    '''public WFViewInfo getWFViewInfo()
+    '''returns WFViewInfo\n\n
+    getWFViewInfo()\n
     '''

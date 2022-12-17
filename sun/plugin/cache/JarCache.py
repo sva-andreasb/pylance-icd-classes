@@ -1,18 +1,12 @@
-def init():
-    '''public static void init()
-    '''
-def get():
-    '''public static JarFile get(final URL url)
-    '''
-def clearLoadedJars():
-    '''public static void clearLoadedJars()
-    '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
-def JarReference():
-    '''public JarReference(final Object referent, final ReferenceQueue q, final URL url)
+def ():
+    '''returns JarReference\n\n
+    (final Object referent, final ReferenceQueue q, final URL url)\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''

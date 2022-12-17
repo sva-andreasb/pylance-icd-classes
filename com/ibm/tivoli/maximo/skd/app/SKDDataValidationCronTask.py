@@ -1,6 +1,8 @@
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def startDataValidation():
-    '''public void startDataValidation()
+    '''returns None\n\n
+    startDataValidation()\n
     '''

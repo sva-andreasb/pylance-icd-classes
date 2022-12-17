@@ -1,18 +1,23 @@
-def ClassTemplateLoader():
-    '''public ClassTemplateLoader()
-    public ClassTemplateLoader(final Class resourceLoaderClass)
-    public ClassTemplateLoader(final Class resourceLoaderClass, final String basePackagePath)
-    public ClassTemplateLoader(final ClassLoader classLoader, final String basePackagePath)
+def ():
+    '''returns ClassTemplateLoader\n\n
+    ()\n
+    (final Class resourceLoaderClass)\n
+    (final Class resourceLoaderClass, final String basePackagePath)\n
+    (final ClassLoader classLoader, final String basePackagePath)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getResourceLoaderClass():
-    '''public Class getResourceLoaderClass()
+    '''returns Class\n\n
+    getResourceLoaderClass()\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''
 def getBasePackagePath():
-    '''public String getBasePackagePath()
+    '''returns String\n\n
+    getBasePackagePath()\n
     '''

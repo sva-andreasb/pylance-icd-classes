@@ -1,6 +1,8 @@
-def FailingDeserializer():
-    '''public FailingDeserializer(final String m)
+def ():
+    '''returns FailingDeserializer\n\n
+    (final String m)\n
     '''
 def deserialize():
-    '''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
     '''

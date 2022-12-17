@@ -1,9 +1,12 @@
-def XDGFMasters():
-    '''public XDGFMasters(final PackagePart part, final XDGFDocument document)
+def ():
+    '''returns XDGFMasters\n\n
+    (final PackagePart part, final XDGFDocument document)\n
     '''
 def getMastersList():
-    '''public Collection<XDGFMaster> getMastersList()
+    '''returns Collection<XDGFMaster>\n\n
+    getMastersList()\n
     '''
 def getMasterById():
-    '''public XDGFMaster getMasterById(final long masterId)
+    '''returns XDGFMaster\n\n
+    getMasterById(final long masterId)\n
     '''

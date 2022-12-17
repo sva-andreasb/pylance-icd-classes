@@ -1,9 +1,8 @@
 def evaluateGuids():
-    '''public GuidResult[] evaluateGuids(final ModelObject mo)
+    '''returns GuidResult[]\n\n
+    evaluateGuids(final ModelObject mo)\n
     '''
 def getGuidAliases():
-    '''public Guid[] getGuidAliases(final Guid guid)
-    '''
-def evaluateModelObjectGuids():
-    '''public static GuidResult[] evaluateModelObjectGuids(final ModelObject mo)
+    '''returns Guid[]\n\n
+    getGuidAliases(final Guid guid)\n
     '''

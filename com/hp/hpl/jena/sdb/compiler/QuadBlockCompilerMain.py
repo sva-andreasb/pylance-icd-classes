@@ -1,9 +1,8 @@
-def QuadBlockCompilerMain():
-    '''public QuadBlockCompilerMain(final SDBRequest request, final SlotCompiler slotCompiler)
+def ():
+    '''returns QuadBlockCompilerMain\n\n
+    (final SDBRequest request, final SlotCompiler slotCompiler)\n
     '''
 def getSlotCompiler():
-    '''public SlotCompiler getSlotCompiler()
-    '''
-def compile():
-    '''public final SqlNode compile(QuadBlock quads)
+    '''returns SlotCompiler\n\n
+    getSlotCompiler()\n
     '''

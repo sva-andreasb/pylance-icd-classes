@@ -1,6 +1,8 @@
 def getSavepointId():
-    '''public int getSavepointId()
+    '''returns int\n\n
+    getSavepointId()\n
     '''
 def getSavepointName():
-    '''public String getSavepointName()
+    '''returns String\n\n
+    getSavepointName()\n
     '''

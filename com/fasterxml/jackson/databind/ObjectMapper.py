@@ -1,459 +1,502 @@
-def ObjectMapper():
-    '''public ObjectMapper()
-    public ObjectMapper(final JsonFactory jf)
-    public ObjectMapper(final JsonFactory jf, final DefaultSerializerProvider sp, final DefaultDeserializationContext dc)
+def ():
+    '''returns DefaultTypeResolverBuilder\n\n
+    ()\n
+    (final JsonFactory jf)\n
+    (final JsonFactory jf, final DefaultSerializerProvider sp, final DefaultDeserializationContext dc)\n
+    (final DefaultTyping t)\n
     '''
 def copy():
-    '''public ObjectMapper copy()
+    '''returns ObjectMapper\n\n
+    copy()\n
     '''
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def registerModule():
-    '''public ObjectMapper registerModule(final Module module)
+    '''returns ObjectMapper\n\n
+    registerModule(final Module module)\n
     '''
 def getMapperVersion():
-    '''public Version getMapperVersion()
-    '''
-def getOwner():
-    '''public <C extends ObjectCodec> C getOwner()
+    '''returns Version\n\n
+    getMapperVersion()\n
     '''
 def getTypeFactory():
-    '''public TypeFactory getTypeFactory()
-    public TypeFactory getTypeFactory()
+    '''returns TypeFactory\n\n
+    getTypeFactory()\n
+    getTypeFactory()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final MapperFeature f)
-    public boolean isEnabled(final DeserializationFeature f)
-    public boolean isEnabled(final SerializationFeature f)
-    public boolean isEnabled(final JsonFactory.Feature f)
-    public boolean isEnabled(final JsonParser.Feature f)
-    public boolean isEnabled(final JsonGenerator.Feature f)
-    public boolean isEnabled(final MapperFeature f)
-    public boolean isEnabled(final SerializationFeature f)
-    public boolean isEnabled(final DeserializationFeature f)
-    public boolean isEnabled(final JsonParser.Feature f)
-    public boolean isEnabled(final JsonGenerator.Feature f)
-    public boolean isEnabled(final JsonFactory.Feature f)
+    '''returns boolean\n\n
+    isEnabled(final MapperFeature f)\n
+    isEnabled(final DeserializationFeature f)\n
+    isEnabled(final SerializationFeature f)\n
+    isEnabled(final JsonFactory.Feature f)\n
+    isEnabled(final JsonParser.Feature f)\n
+    isEnabled(final JsonGenerator.Feature f)\n
+    isEnabled(final MapperFeature f)\n
+    isEnabled(final SerializationFeature f)\n
+    isEnabled(final DeserializationFeature f)\n
+    isEnabled(final JsonParser.Feature f)\n
+    isEnabled(final JsonGenerator.Feature f)\n
+    isEnabled(final JsonFactory.Feature f)\n
     '''
 def configOverride():
-    '''public MutableConfigOverride configOverride(final Class<?> type)
-    public MutableConfigOverride configOverride(final Class<?> type)
+    '''returns MutableConfigOverride\n\n
+    configOverride(final Class<?> type)\n
+    configOverride(final Class<?> type)\n
     '''
 def addDeserializers():
-    '''public void addDeserializers(final Deserializers d)
+    '''returns None\n\n
+    addDeserializers(final Deserializers d)\n
     '''
 def addKeyDeserializers():
-    '''public void addKeyDeserializers(final KeyDeserializers d)
+    '''returns None\n\n
+    addKeyDeserializers(final KeyDeserializers d)\n
     '''
 def addBeanDeserializerModifier():
-    '''public void addBeanDeserializerModifier(final BeanDeserializerModifier modifier)
+    '''returns None\n\n
+    addBeanDeserializerModifier(final BeanDeserializerModifier modifier)\n
     '''
 def addSerializers():
-    '''public void addSerializers(final Serializers s)
+    '''returns None\n\n
+    addSerializers(final Serializers s)\n
     '''
 def addKeySerializers():
-    '''public void addKeySerializers(final Serializers s)
+    '''returns None\n\n
+    addKeySerializers(final Serializers s)\n
     '''
 def addBeanSerializerModifier():
-    '''public void addBeanSerializerModifier(final BeanSerializerModifier modifier)
+    '''returns None\n\n
+    addBeanSerializerModifier(final BeanSerializerModifier modifier)\n
     '''
 def addAbstractTypeResolver():
-    '''public void addAbstractTypeResolver(final AbstractTypeResolver resolver)
+    '''returns None\n\n
+    addAbstractTypeResolver(final AbstractTypeResolver resolver)\n
     '''
 def addTypeModifier():
-    '''public void addTypeModifier(final TypeModifier modifier)
+    '''returns None\n\n
+    addTypeModifier(final TypeModifier modifier)\n
     '''
 def addValueInstantiators():
-    '''public void addValueInstantiators(final ValueInstantiators instantiators)
+    '''returns None\n\n
+    addValueInstantiators(final ValueInstantiators instantiators)\n
     '''
 def setClassIntrospector():
-    '''public void setClassIntrospector(final ClassIntrospector ci)
+    '''returns None\n\n
+    setClassIntrospector(final ClassIntrospector ci)\n
     '''
 def insertAnnotationIntrospector():
-    '''public void insertAnnotationIntrospector(final AnnotationIntrospector ai)
+    '''returns None\n\n
+    insertAnnotationIntrospector(final AnnotationIntrospector ai)\n
     '''
 def appendAnnotationIntrospector():
-    '''public void appendAnnotationIntrospector(final AnnotationIntrospector ai)
+    '''returns None\n\n
+    appendAnnotationIntrospector(final AnnotationIntrospector ai)\n
     '''
 def registerSubtypes():
-    '''public void registerSubtypes(final Class<?>... subtypes)
-    public void registerSubtypes(final NamedType... subtypes)
-    public void registerSubtypes(final Collection<Class<?>> subtypes)
-    public void registerSubtypes(final Class<?>... classes)
-    public void registerSubtypes(final NamedType... types)
-    public void registerSubtypes(final Collection<Class<?>> subtypes)
+    '''returns None\n\n
+    registerSubtypes(final Class<?>... subtypes)\n
+    registerSubtypes(final NamedType... subtypes)\n
+    registerSubtypes(final Collection<Class<?>> subtypes)\n
+    registerSubtypes(final Class<?>... classes)\n
+    registerSubtypes(final NamedType... types)\n
+    registerSubtypes(final Collection<Class<?>> subtypes)\n
     '''
 def setMixInAnnotations():
-    '''public void setMixInAnnotations(final Class<?> target, final Class<?> mixinSource)
-    public void setMixInAnnotations(final Map<Class<?>, Class<?>> sourceMixins)
+    '''returns None\n\n
+    setMixInAnnotations(final Class<?> target, final Class<?> mixinSource)\n
+    setMixInAnnotations(final Map<Class<?>, Class<?>> sourceMixins)\n
     '''
 def addDeserializationProblemHandler():
-    '''public void addDeserializationProblemHandler(final DeserializationProblemHandler handler)
+    '''returns None\n\n
+    addDeserializationProblemHandler(final DeserializationProblemHandler handler)\n
     '''
 def setNamingStrategy():
-    '''public void setNamingStrategy(final PropertyNamingStrategy naming)
+    '''returns None\n\n
+    setNamingStrategy(final PropertyNamingStrategy naming)\n
     '''
 def registerModules():
-    '''public ObjectMapper registerModules(final Module... modules)
-    public ObjectMapper registerModules(final Iterable<? extends Module> modules)
+    '''returns ObjectMapper\n\n
+    registerModules(final Module... modules)\n
+    registerModules(final Iterable<? extends Module> modules)\n
     '''
 def getRegisteredModuleIds():
-    '''public Set<Object> getRegisteredModuleIds()
-    '''
-def findModules():
-    '''public static List<Module> findModules()
-    public static List<Module> findModules(final ClassLoader classLoader)
+    '''returns Set<Object>\n\n
+    getRegisteredModuleIds()\n
     '''
 def run():
-    '''public ServiceLoader<T> run()
+    '''returns ServiceLoader<T>\n\n
+    run()\n
     '''
 def findAndRegisterModules():
-    '''public ObjectMapper findAndRegisterModules()
+    '''returns ObjectMapper\n\n
+    findAndRegisterModules()\n
     '''
 def getSerializationConfig():
-    '''public SerializationConfig getSerializationConfig()
+    '''returns SerializationConfig\n\n
+    getSerializationConfig()\n
     '''
 def getDeserializationConfig():
-    '''public DeserializationConfig getDeserializationConfig()
+    '''returns DeserializationConfig\n\n
+    getDeserializationConfig()\n
     '''
 def getDeserializationContext():
-    '''public DeserializationContext getDeserializationContext()
+    '''returns DeserializationContext\n\n
+    getDeserializationContext()\n
     '''
 def setSerializerFactory():
-    '''public ObjectMapper setSerializerFactory(final SerializerFactory f)
+    '''returns ObjectMapper\n\n
+    setSerializerFactory(final SerializerFactory f)\n
     '''
 def getSerializerFactory():
-    '''public SerializerFactory getSerializerFactory()
+    '''returns SerializerFactory\n\n
+    getSerializerFactory()\n
     '''
 def setSerializerProvider():
-    '''public ObjectMapper setSerializerProvider(final DefaultSerializerProvider p)
+    '''returns ObjectMapper\n\n
+    setSerializerProvider(final DefaultSerializerProvider p)\n
     '''
 def getSerializerProvider():
-    '''public SerializerProvider getSerializerProvider()
+    '''returns SerializerProvider\n\n
+    getSerializerProvider()\n
     '''
 def getSerializerProviderInstance():
-    '''public SerializerProvider getSerializerProviderInstance()
+    '''returns SerializerProvider\n\n
+    getSerializerProviderInstance()\n
     '''
 def setMixIns():
-    '''public ObjectMapper setMixIns(final Map<Class<?>, Class<?>> sourceMixins)
+    '''returns ObjectMapper\n\n
+    setMixIns(final Map<Class<?>, Class<?>> sourceMixins)\n
     '''
 def addMixIn():
-    '''public ObjectMapper addMixIn(final Class<?> target, final Class<?> mixinSource)
+    '''returns ObjectMapper\n\n
+    addMixIn(final Class<?> target, final Class<?> mixinSource)\n
     '''
 def setMixInResolver():
-    '''public ObjectMapper setMixInResolver(final ClassIntrospector.MixInResolver resolver)
+    '''returns ObjectMapper\n\n
+    setMixInResolver(final ClassIntrospector.MixInResolver resolver)\n
     '''
 def mixInCount():
-    '''public int mixInCount()
-    '''
-def addMixInAnnotations():
-    '''public final void addMixInAnnotations(final Class<?> target, final Class<?> mixinSource)
+    '''returns int\n\n
+    mixInCount()\n
     '''
 def setVisibility():
-    '''public ObjectMapper setVisibility(final VisibilityChecker<?> vc)
-    public ObjectMapper setVisibility(final PropertyAccessor forMethod, final JsonAutoDetect.Visibility visibility)
+    '''returns ObjectMapper\n\n
+    setVisibility(final VisibilityChecker<?> vc)\n
+    setVisibility(final PropertyAccessor forMethod, final JsonAutoDetect.Visibility visibility)\n
     '''
 def getSubtypeResolver():
-    '''public SubtypeResolver getSubtypeResolver()
+    '''returns SubtypeResolver\n\n
+    getSubtypeResolver()\n
     '''
 def setSubtypeResolver():
-    '''public ObjectMapper setSubtypeResolver(final SubtypeResolver str)
+    '''returns ObjectMapper\n\n
+    setSubtypeResolver(final SubtypeResolver str)\n
     '''
 def setAnnotationIntrospector():
-    '''public ObjectMapper setAnnotationIntrospector(final AnnotationIntrospector ai)
+    '''returns ObjectMapper\n\n
+    setAnnotationIntrospector(final AnnotationIntrospector ai)\n
     '''
 def setAnnotationIntrospectors():
-    '''public ObjectMapper setAnnotationIntrospectors(final AnnotationIntrospector serializerAI, final AnnotationIntrospector deserializerAI)
+    '''returns ObjectMapper\n\n
+    setAnnotationIntrospectors(final AnnotationIntrospector serializerAI, final AnnotationIntrospector deserializerAI)\n
     '''
 def setPropertyNamingStrategy():
-    '''public ObjectMapper setPropertyNamingStrategy(final PropertyNamingStrategy s)
+    '''returns ObjectMapper\n\n
+    setPropertyNamingStrategy(final PropertyNamingStrategy s)\n
     '''
 def getPropertyNamingStrategy():
-    '''public PropertyNamingStrategy getPropertyNamingStrategy()
+    '''returns PropertyNamingStrategy\n\n
+    getPropertyNamingStrategy()\n
     '''
 def setDefaultPrettyPrinter():
-    '''public ObjectMapper setDefaultPrettyPrinter(final PrettyPrinter pp)
+    '''returns ObjectMapper\n\n
+    setDefaultPrettyPrinter(final PrettyPrinter pp)\n
     '''
 def setVisibilityChecker():
-    '''public void setVisibilityChecker(final VisibilityChecker<?> vc)
+    '''returns None\n\n
+    setVisibilityChecker(final VisibilityChecker<?> vc)\n
     '''
 def setSerializationInclusion():
-    '''public ObjectMapper setSerializationInclusion(final JsonInclude.Include incl)
+    '''returns ObjectMapper\n\n
+    setSerializationInclusion(final JsonInclude.Include incl)\n
     '''
 def setPropertyInclusion():
-    '''public ObjectMapper setPropertyInclusion(final JsonInclude.Value incl)
+    '''returns ObjectMapper\n\n
+    setPropertyInclusion(final JsonInclude.Value incl)\n
     '''
 def setDefaultPropertyInclusion():
-    '''public ObjectMapper setDefaultPropertyInclusion(final JsonInclude.Value incl)
-    public ObjectMapper setDefaultPropertyInclusion(final JsonInclude.Include incl)
+    '''returns ObjectMapper\n\n
+    setDefaultPropertyInclusion(final JsonInclude.Value incl)\n
+    setDefaultPropertyInclusion(final JsonInclude.Include incl)\n
     '''
 def setDefaultSetterInfo():
-    '''public ObjectMapper setDefaultSetterInfo(final JsonSetter.Value v)
+    '''returns ObjectMapper\n\n
+    setDefaultSetterInfo(final JsonSetter.Value v)\n
     '''
 def setDefaultVisibility():
-    '''public ObjectMapper setDefaultVisibility(final JsonAutoDetect.Value vis)
+    '''returns ObjectMapper\n\n
+    setDefaultVisibility(final JsonAutoDetect.Value vis)\n
     '''
 def setDefaultMergeable():
-    '''public ObjectMapper setDefaultMergeable(final Boolean b)
+    '''returns ObjectMapper\n\n
+    setDefaultMergeable(final Boolean b)\n
     '''
 def enableDefaultTyping():
-    '''public ObjectMapper enableDefaultTyping()
-    public ObjectMapper enableDefaultTyping(final DefaultTyping dti)
-    public ObjectMapper enableDefaultTyping(final DefaultTyping applicability, final JsonTypeInfo.As includeAs)
+    '''returns ObjectMapper\n\n
+    enableDefaultTyping()\n
+    enableDefaultTyping(final DefaultTyping dti)\n
+    enableDefaultTyping(final DefaultTyping applicability, final JsonTypeInfo.As includeAs)\n
     '''
 def enableDefaultTypingAsProperty():
-    '''public ObjectMapper enableDefaultTypingAsProperty(final DefaultTyping applicability, final String propertyName)
+    '''returns ObjectMapper\n\n
+    enableDefaultTypingAsProperty(final DefaultTyping applicability, final String propertyName)\n
     '''
 def disableDefaultTyping():
-    '''public ObjectMapper disableDefaultTyping()
+    '''returns ObjectMapper\n\n
+    disableDefaultTyping()\n
     '''
 def setDefaultTyping():
-    '''public ObjectMapper setDefaultTyping(final TypeResolverBuilder<?> typer)
+    '''returns ObjectMapper\n\n
+    setDefaultTyping(final TypeResolverBuilder<?> typer)\n
     '''
 def setTypeFactory():
-    '''public ObjectMapper setTypeFactory(final TypeFactory f)
+    '''returns ObjectMapper\n\n
+    setTypeFactory(final TypeFactory f)\n
     '''
 def constructType():
-    '''public JavaType constructType(final Type t)
+    '''returns JavaType\n\n
+    constructType(final Type t)\n
     '''
 def getNodeFactory():
-    '''public JsonNodeFactory getNodeFactory()
+    '''returns JsonNodeFactory\n\n
+    getNodeFactory()\n
     '''
 def setNodeFactory():
-    '''public ObjectMapper setNodeFactory(final JsonNodeFactory f)
+    '''returns ObjectMapper\n\n
+    setNodeFactory(final JsonNodeFactory f)\n
     '''
 def addHandler():
-    '''public ObjectMapper addHandler(final DeserializationProblemHandler h)
+    '''returns ObjectMapper\n\n
+    addHandler(final DeserializationProblemHandler h)\n
     '''
 def clearProblemHandlers():
-    '''public ObjectMapper clearProblemHandlers()
+    '''returns ObjectMapper\n\n
+    clearProblemHandlers()\n
     '''
 def setConfig():
-    '''public ObjectMapper setConfig(final DeserializationConfig config)
-    public ObjectMapper setConfig(final SerializationConfig config)
+    '''returns ObjectMapper\n\n
+    setConfig(final DeserializationConfig config)\n
+    setConfig(final SerializationConfig config)\n
     '''
 def setFilters():
-    '''public void setFilters(final FilterProvider filterProvider)
+    '''returns None\n\n
+    setFilters(final FilterProvider filterProvider)\n
     '''
 def setFilterProvider():
-    '''public ObjectMapper setFilterProvider(final FilterProvider filterProvider)
+    '''returns ObjectMapper\n\n
+    setFilterProvider(final FilterProvider filterProvider)\n
     '''
 def setBase64Variant():
-    '''public ObjectMapper setBase64Variant(final Base64Variant v)
+    '''returns ObjectMapper\n\n
+    setBase64Variant(final Base64Variant v)\n
     '''
 def getFactory():
-    '''public JsonFactory getFactory()
+    '''returns JsonFactory\n\n
+    getFactory()\n
     '''
 def getJsonFactory():
-    '''public JsonFactory getJsonFactory()
+    '''returns JsonFactory\n\n
+    getJsonFactory()\n
     '''
 def setDateFormat():
-    '''public ObjectMapper setDateFormat(final DateFormat dateFormat)
+    '''returns ObjectMapper\n\n
+    setDateFormat(final DateFormat dateFormat)\n
     '''
 def getDateFormat():
-    '''public DateFormat getDateFormat()
+    '''returns DateFormat\n\n
+    getDateFormat()\n
     '''
 def setHandlerInstantiator():
-    '''public Object setHandlerInstantiator(final HandlerInstantiator hi)
+    '''returns Object\n\n
+    setHandlerInstantiator(final HandlerInstantiator hi)\n
     '''
 def setInjectableValues():
-    '''public ObjectMapper setInjectableValues(final InjectableValues injectableValues)
+    '''returns ObjectMapper\n\n
+    setInjectableValues(final InjectableValues injectableValues)\n
     '''
 def getInjectableValues():
-    '''public InjectableValues getInjectableValues()
+    '''returns InjectableValues\n\n
+    getInjectableValues()\n
     '''
 def setLocale():
-    '''public ObjectMapper setLocale(final Locale l)
+    '''returns ObjectMapper\n\n
+    setLocale(final Locale l)\n
     '''
 def setTimeZone():
-    '''public ObjectMapper setTimeZone(final TimeZone tz)
+    '''returns ObjectMapper\n\n
+    setTimeZone(final TimeZone tz)\n
     '''
 def configure():
-    '''public ObjectMapper configure(final MapperFeature f, final boolean state)
-    public ObjectMapper configure(final SerializationFeature f, final boolean state)
-    public ObjectMapper configure(final DeserializationFeature f, final boolean state)
-    public ObjectMapper configure(final JsonParser.Feature f, final boolean state)
-    public ObjectMapper configure(final JsonGenerator.Feature f, final boolean state)
+    '''returns ObjectMapper\n\n
+    configure(final MapperFeature f, final boolean state)\n
+    configure(final SerializationFeature f, final boolean state)\n
+    configure(final DeserializationFeature f, final boolean state)\n
+    configure(final JsonParser.Feature f, final boolean state)\n
+    configure(final JsonGenerator.Feature f, final boolean state)\n
     '''
 def enable():
-    '''public ObjectMapper enable(final MapperFeature... f)
-    public ObjectMapper enable(final SerializationFeature f)
-    public ObjectMapper enable(final SerializationFeature first, final SerializationFeature... f)
-    public ObjectMapper enable(final DeserializationFeature feature)
-    public ObjectMapper enable(final DeserializationFeature first, final DeserializationFeature... f)
-    public ObjectMapper enable(final JsonParser.Feature... features)
-    public ObjectMapper enable(final JsonGenerator.Feature... features)
+    '''returns ObjectMapper\n\n
+    enable(final MapperFeature... f)\n
+    enable(final SerializationFeature f)\n
+    enable(final SerializationFeature first, final SerializationFeature... f)\n
+    enable(final DeserializationFeature feature)\n
+    enable(final DeserializationFeature first, final DeserializationFeature... f)\n
+    enable(final JsonParser.Feature... features)\n
+    enable(final JsonGenerator.Feature... features)\n
     '''
 def disable():
-    '''public ObjectMapper disable(final MapperFeature... f)
-    public ObjectMapper disable(final SerializationFeature f)
-    public ObjectMapper disable(final SerializationFeature first, final SerializationFeature... f)
-    public ObjectMapper disable(final DeserializationFeature feature)
-    public ObjectMapper disable(final DeserializationFeature first, final DeserializationFeature... f)
-    public ObjectMapper disable(final JsonParser.Feature... features)
-    public ObjectMapper disable(final JsonGenerator.Feature... features)
-    '''
-def readValue():
-    '''public <T> T readValue(final JsonParser p, final Class<T> valueType)
-    public <T> T readValue(final JsonParser p, final TypeReference<?> valueTypeRef)
-    public final <T> T readValue(final JsonParser p, final ResolvedType valueType)
-    public <T> T readValue(final JsonParser p, final JavaType valueType)
-    public <T> T readValue(final File src, final Class<T> valueType)
-    public <T> T readValue(final File src, final TypeReference valueTypeRef)
-    public <T> T readValue(final File src, final JavaType valueType)
-    public <T> T readValue(final URL src, final Class<T> valueType)
-    public <T> T readValue(final URL src, final TypeReference valueTypeRef)
-    public <T> T readValue(final URL src, final JavaType valueType)
-    public <T> T readValue(final String content, final Class<T> valueType)
-    public <T> T readValue(final String content, final TypeReference valueTypeRef)
-    public <T> T readValue(final String content, final JavaType valueType)
-    public <T> T readValue(final Reader src, final Class<T> valueType)
-    public <T> T readValue(final Reader src, final TypeReference valueTypeRef)
-    public <T> T readValue(final Reader src, final JavaType valueType)
-    public <T> T readValue(final InputStream src, final Class<T> valueType)
-    public <T> T readValue(final InputStream src, final TypeReference valueTypeRef)
-    public <T> T readValue(final InputStream src, final JavaType valueType)
-    public <T> T readValue(final byte[] src, final Class<T> valueType)
-    public <T> T readValue(final byte[] src, final int offset, final int len, final Class<T> valueType)
-    public <T> T readValue(final byte[] src, final TypeReference valueTypeRef)
-    public <T> T readValue(final byte[] src, final int offset, final int len, final TypeReference valueTypeRef)
-    public <T> T readValue(final byte[] src, final JavaType valueType)
-    public <T> T readValue(final byte[] src, final int offset, final int len, final JavaType valueType)
-    public <T> T readValue(final DataInput src, final Class<T> valueType)
-    public <T> T readValue(final DataInput src, final JavaType valueType)
+    '''returns ObjectMapper\n\n
+    disable(final MapperFeature... f)\n
+    disable(final SerializationFeature f)\n
+    disable(final SerializationFeature first, final SerializationFeature... f)\n
+    disable(final DeserializationFeature feature)\n
+    disable(final DeserializationFeature first, final DeserializationFeature... f)\n
+    disable(final JsonParser.Feature... features)\n
+    disable(final JsonGenerator.Feature... features)\n
     '''
 def readTree():
-    '''public <T extends TreeNode> T readTree(final JsonParser p)
-    public JsonNode readTree(final InputStream in)
-    public JsonNode readTree(final Reader r)
-    public JsonNode readTree(final String content)
-    public JsonNode readTree(final byte[] content)
-    public JsonNode readTree(final File file)
-    public JsonNode readTree(final URL source)
-    '''
-def readValues():
-    '''public <T> MappingIterator<T> readValues(final JsonParser p, final ResolvedType valueType)
-    public <T> MappingIterator<T> readValues(final JsonParser p, final JavaType valueType)
-    public <T> MappingIterator<T> readValues(final JsonParser p, final Class<T> valueType)
-    public <T> MappingIterator<T> readValues(final JsonParser p, final TypeReference<?> valueTypeRef)
+    '''returns JsonNode\n\n
+    readTree(final InputStream in)\n
+    readTree(final Reader r)\n
+    readTree(final String content)\n
+    readTree(final byte[] content)\n
+    readTree(final File file)\n
+    readTree(final URL source)\n
     '''
 def writeValue():
-    '''public void writeValue(final JsonGenerator g, final Object value)
-    public void writeValue(final File resultFile, final Object value)
-    public void writeValue(final OutputStream out, final Object value)
-    public void writeValue(final DataOutput out, final Object value)
-    public void writeValue(final Writer w, final Object value)
+    '''returns None\n\n
+    writeValue(final JsonGenerator g, final Object value)\n
+    writeValue(final File resultFile, final Object value)\n
+    writeValue(final OutputStream out, final Object value)\n
+    writeValue(final DataOutput out, final Object value)\n
+    writeValue(final Writer w, final Object value)\n
     '''
 def writeTree():
-    '''public void writeTree(final JsonGenerator jgen, final TreeNode rootNode)
-    public void writeTree(final JsonGenerator jgen, final JsonNode rootNode)
+    '''returns None\n\n
+    writeTree(final JsonGenerator jgen, final TreeNode rootNode)\n
+    writeTree(final JsonGenerator jgen, final JsonNode rootNode)\n
     '''
 def createObjectNode():
-    '''public ObjectNode createObjectNode()
+    '''returns ObjectNode\n\n
+    createObjectNode()\n
     '''
 def createArrayNode():
-    '''public ArrayNode createArrayNode()
+    '''returns ArrayNode\n\n
+    createArrayNode()\n
     '''
 def treeAsTokens():
-    '''public JsonParser treeAsTokens(final TreeNode n)
-    '''
-def treeToValue():
-    '''public <T> T treeToValue(final TreeNode n, final Class<T> valueType)
-    '''
-def valueToTree():
-    '''public <T extends JsonNode> T valueToTree(final Object fromValue)
+    '''returns JsonParser\n\n
+    treeAsTokens(final TreeNode n)\n
     '''
 def canSerialize():
-    '''public boolean canSerialize(final Class<?> type)
-    public boolean canSerialize(final Class<?> type, final AtomicReference<Throwable> cause)
+    '''returns boolean\n\n
+    canSerialize(final Class<?> type)\n
+    canSerialize(final Class<?> type, final AtomicReference<Throwable> cause)\n
     '''
 def canDeserialize():
-    '''public boolean canDeserialize(final JavaType type)
-    public boolean canDeserialize(final JavaType type, final AtomicReference<Throwable> cause)
+    '''returns boolean\n\n
+    canDeserialize(final JavaType type)\n
+    canDeserialize(final JavaType type, final AtomicReference<Throwable> cause)\n
     '''
 def writeValueAsString():
-    '''public String writeValueAsString(final Object value)
+    '''returns String\n\n
+    writeValueAsString(final Object value)\n
     '''
 def writeValueAsBytes():
-    '''public byte[] writeValueAsBytes(final Object value)
+    '''returns byte[]\n\n
+    writeValueAsBytes(final Object value)\n
     '''
 def writer():
-    '''public ObjectWriter writer()
-    public ObjectWriter writer(final SerializationFeature feature)
-    public ObjectWriter writer(final SerializationFeature first, final SerializationFeature... other)
-    public ObjectWriter writer(final DateFormat df)
-    public ObjectWriter writer(PrettyPrinter pp)
-    public ObjectWriter writer(final FilterProvider filterProvider)
-    public ObjectWriter writer(final FormatSchema schema)
-    public ObjectWriter writer(final Base64Variant defaultBase64)
-    public ObjectWriter writer(final CharacterEscapes escapes)
-    public ObjectWriter writer(final ContextAttributes attrs)
+    '''returns ObjectWriter\n\n
+    writer()\n
+    writer(final SerializationFeature feature)\n
+    writer(final SerializationFeature first, final SerializationFeature... other)\n
+    writer(final DateFormat df)\n
+    writer(PrettyPrinter pp)\n
+    writer(final FilterProvider filterProvider)\n
+    writer(final FormatSchema schema)\n
+    writer(final Base64Variant defaultBase64)\n
+    writer(final CharacterEscapes escapes)\n
+    writer(final ContextAttributes attrs)\n
     '''
 def writerWithView():
-    '''public ObjectWriter writerWithView(final Class<?> serializationView)
+    '''returns ObjectWriter\n\n
+    writerWithView(final Class<?> serializationView)\n
     '''
 def writerFor():
-    '''public ObjectWriter writerFor(final Class<?> rootType)
-    public ObjectWriter writerFor(final TypeReference<?> rootType)
-    public ObjectWriter writerFor(final JavaType rootType)
+    '''returns ObjectWriter\n\n
+    writerFor(final Class<?> rootType)\n
+    writerFor(final TypeReference<?> rootType)\n
+    writerFor(final JavaType rootType)\n
     '''
 def writerWithDefaultPrettyPrinter():
-    '''public ObjectWriter writerWithDefaultPrettyPrinter()
+    '''returns ObjectWriter\n\n
+    writerWithDefaultPrettyPrinter()\n
     '''
 def writerWithType():
-    '''public ObjectWriter writerWithType(final Class<?> rootType)
-    public ObjectWriter writerWithType(final TypeReference<?> rootType)
-    public ObjectWriter writerWithType(final JavaType rootType)
+    '''returns ObjectWriter\n\n
+    writerWithType(final Class<?> rootType)\n
+    writerWithType(final TypeReference<?> rootType)\n
+    writerWithType(final JavaType rootType)\n
     '''
 def reader():
-    '''public ObjectReader reader()
-    public ObjectReader reader(final DeserializationFeature feature)
-    public ObjectReader reader(final DeserializationFeature first, final DeserializationFeature... other)
-    public ObjectReader reader(final JsonNodeFactory f)
-    public ObjectReader reader(final FormatSchema schema)
-    public ObjectReader reader(final InjectableValues injectableValues)
-    public ObjectReader reader(final Base64Variant defaultBase64)
-    public ObjectReader reader(final ContextAttributes attrs)
-    public ObjectReader reader(final JavaType type)
-    public ObjectReader reader(final Class<?> type)
-    public ObjectReader reader(final TypeReference<?> type)
+    '''returns ObjectReader\n\n
+    reader()\n
+    reader(final DeserializationFeature feature)\n
+    reader(final DeserializationFeature first, final DeserializationFeature... other)\n
+    reader(final JsonNodeFactory f)\n
+    reader(final FormatSchema schema)\n
+    reader(final InjectableValues injectableValues)\n
+    reader(final Base64Variant defaultBase64)\n
+    reader(final ContextAttributes attrs)\n
+    reader(final JavaType type)\n
+    reader(final Class<?> type)\n
+    reader(final TypeReference<?> type)\n
     '''
 def readerForUpdating():
-    '''public ObjectReader readerForUpdating(final Object valueToUpdate)
+    '''returns ObjectReader\n\n
+    readerForUpdating(final Object valueToUpdate)\n
     '''
 def readerFor():
-    '''public ObjectReader readerFor(final JavaType type)
-    public ObjectReader readerFor(final Class<?> type)
-    public ObjectReader readerFor(final TypeReference<?> type)
+    '''returns ObjectReader\n\n
+    readerFor(final JavaType type)\n
+    readerFor(final Class<?> type)\n
+    readerFor(final TypeReference<?> type)\n
     '''
 def readerWithView():
-    '''public ObjectReader readerWithView(final Class<?> view)
-    '''
-def convertValue():
-    '''public <T> T convertValue(final Object fromValue, final Class<T> toValueType)
-    public <T> T convertValue(final Object fromValue, final TypeReference<?> toValueTypeRef)
-    public <T> T convertValue(final Object fromValue, final JavaType toValueType)
-    '''
-def updateValue():
-    '''public <T> T updateValue(final T valueToUpdate, final Object overrides)
+    '''returns ObjectReader\n\n
+    readerWithView(final Class<?> view)\n
     '''
 def generateJsonSchema():
-    '''public JsonSchema generateJsonSchema(final Class<?> t)
+    '''returns JsonSchema\n\n
+    generateJsonSchema(final Class<?> t)\n
     '''
 def acceptJsonFormatVisitor():
-    '''public void acceptJsonFormatVisitor(final Class<?> type, final JsonFormatVisitorWrapper visitor)
-    public void acceptJsonFormatVisitor(final JavaType type, final JsonFormatVisitorWrapper visitor)
-    '''
-def DefaultTypeResolverBuilder():
-    '''public DefaultTypeResolverBuilder(final DefaultTyping t)
+    '''returns None\n\n
+    acceptJsonFormatVisitor(final Class<?> type, final JsonFormatVisitorWrapper visitor)\n
+    acceptJsonFormatVisitor(final JavaType type, final JsonFormatVisitorWrapper visitor)\n
     '''
 def buildTypeDeserializer():
-    '''public TypeDeserializer buildTypeDeserializer(final DeserializationConfig config, final JavaType baseType, final Collection<NamedType> subtypes)
+    '''returns TypeDeserializer\n\n
+    buildTypeDeserializer(final DeserializationConfig config, final JavaType baseType, final Collection<NamedType> subtypes)\n
     '''
 def buildTypeSerializer():
-    '''public TypeSerializer buildTypeSerializer(final SerializationConfig config, final JavaType baseType, final Collection<NamedType> subtypes)
+    '''returns TypeSerializer\n\n
+    buildTypeSerializer(final SerializationConfig config, final JavaType baseType, final Collection<NamedType> subtypes)\n
     '''
 def useForType():
-    '''public boolean useForType(JavaType t)
+    '''returns boolean\n\n
+    useForType(JavaType t)\n
     '''

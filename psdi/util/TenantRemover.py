@@ -1,24 +1,24 @@
-def TenantRemover():
-    '''public TenantRemover()
+def ():
+    '''returns TenantRemover\n\n
+    ()\n
     '''
 def remove():
-    '''public void remove(final String ifaceTableEndPoint, final boolean deleteImmediatly)
-    '''
-def deleteDirectory():
-    '''public static boolean deleteDirectory(final File dir)
-    '''
-def removeFromCOS():
-    '''public static void removeFromCOS(final int subscriptionId, final String agreementNum)
+    '''returns None\n\n
+    remove(final String ifaceTableEndPoint, final boolean deleteImmediatly)\n
     '''
 def updateCOSInfo():
-    '''public void updateCOSInfo()
+    '''returns None\n\n
+    updateCOSInfo()\n
     '''
 def suspendInactiveTenants():
-    '''public void suspendInactiveTenants()
+    '''returns None\n\n
+    suspendInactiveTenants()\n
     '''
 def suspendNeverUsedTenants():
-    '''public void suspendNeverUsedTenants()
+    '''returns None\n\n
+    suspendNeverUsedTenants()\n
     '''
 def cancelInactiveTenants():
-    '''public void cancelInactiveTenants()
+    '''returns None\n\n
+    cancelInactiveTenants()\n
     '''

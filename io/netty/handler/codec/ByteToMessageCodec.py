@@ -1,26 +1,34 @@
 def decode():
-    '''public void decode(final ChannelHandlerContext ctx, final ByteBuf in, final List<Object> out)
-    public void decode(final ChannelHandlerContext ctx, final ByteBuf in, final List<Object> out)
+    '''returns None\n\n
+    decode(final ChannelHandlerContext ctx, final ByteBuf in, final List<Object> out)\n
+    decode(final ChannelHandlerContext ctx, final ByteBuf in, final List<Object> out)\n
     '''
 def acceptOutboundMessage():
-    '''public boolean acceptOutboundMessage(final Object msg)
-    public boolean acceptOutboundMessage(final Object msg)
+    '''returns boolean\n\n
+    acceptOutboundMessage(final Object msg)\n
+    acceptOutboundMessage(final Object msg)\n
     '''
 def channelRead():
-    '''public void channelRead(final ChannelHandlerContext ctx, final Object msg)
+    '''returns None\n\n
+    channelRead(final ChannelHandlerContext ctx, final Object msg)\n
     '''
 def write():
-    '''public void write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)
+    '''returns None\n\n
+    write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)\n
     '''
 def channelReadComplete():
-    '''public void channelReadComplete(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    channelReadComplete(final ChannelHandlerContext ctx)\n
     '''
 def channelInactive():
-    '''public void channelInactive(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    channelInactive(final ChannelHandlerContext ctx)\n
     '''
 def handlerAdded():
-    '''public void handlerAdded(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerAdded(final ChannelHandlerContext ctx)\n
     '''
 def handlerRemoved():
-    '''public void handlerRemoved(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerRemoved(final ChannelHandlerContext ctx)\n
     '''

@@ -1,13 +1,13 @@
 def getInstance():
-    '''public BaseInstance getInstance(final WebClientSession wcs, final ControlInstance control)
-    public BaseInstance getInstance(final WebClientSession wcs)
+    '''returns BaseInstance\n\n
+    getInstance(final WebClientSession wcs, final ControlInstance control)\n
+    getInstance(final WebClientSession wcs)\n
     '''
 def getJSPFileName():
-    '''public String getJSPFileName()
+    '''returns String\n\n
+    getJSPFileName()\n
     '''
 def addRenderContentToControl():
-    '''public void addRenderContentToControl(final InRecHoverControl control)
-    '''
-def valueFor():
-    '''public static PartType valueFor(final String type)
+    '''returns None\n\n
+    addRenderContentToControl(final InRecHoverControl control)\n
     '''

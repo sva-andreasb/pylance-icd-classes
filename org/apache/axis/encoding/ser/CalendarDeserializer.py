@@ -1,6 +1,8 @@
-def CalendarDeserializer():
-    '''public CalendarDeserializer(final Class javaType, final QName xmlType)
+def ():
+    '''returns CalendarDeserializer\n\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def makeValue():
-    '''public Object makeValue(String source)
+    '''returns Object\n\n
+    makeValue(String source)\n
     '''

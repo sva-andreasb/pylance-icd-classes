@@ -1,24 +1,30 @@
-def Question():
-    '''public Question(final CharSequence name, final Record.TYPE type, final Record.CLASS clazz, final boolean unicastQuery)
-    public Question(final DnsName name, final Record.TYPE type, final Record.CLASS clazz, final boolean unicastQuery)
-    public Question(final DnsName name, final Record.TYPE type, final Record.CLASS clazz)
-    public Question(final DnsName name, final Record.TYPE type)
-    public Question(final CharSequence name, final Record.TYPE type, final Record.CLASS clazz)
-    public Question(final CharSequence name, final Record.TYPE type)
-    public Question(final DataInputStream dis, final byte[] data)
+def ():
+    '''returns Question\n\n
+    (final CharSequence name, final Record.TYPE type, final Record.CLASS clazz, final boolean unicastQuery)\n
+    (final DnsName name, final Record.TYPE type, final Record.CLASS clazz, final boolean unicastQuery)\n
+    (final DnsName name, final Record.TYPE type, final Record.CLASS clazz)\n
+    (final DnsName name, final Record.TYPE type)\n
+    (final CharSequence name, final Record.TYPE type, final Record.CLASS clazz)\n
+    (final CharSequence name, final Record.TYPE type)\n
+    (final DataInputStream dis, final byte[] data)\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray()
+    '''returns byte[]\n\n
+    toByteArray()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def asQueryMessage():
-    '''public DnsMessage asQueryMessage()
+    '''returns DnsMessage\n\n
+    asQueryMessage()\n
     '''

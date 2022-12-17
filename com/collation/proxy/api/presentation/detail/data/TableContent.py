@@ -2,39 +2,51 @@ SINGLE_COLUMN_NAME_VALUE = "int  0"
 DOUBLE_COLUMN_NAME_VALUE = "int  1"
 TABLE = "int  2"
 CUSTOM = "int  3"
-def TableContent():
-    '''public TableContent()
+def ():
+    '''returns TableContent\n\n
+    ()\n
     '''
 def getIntLayout():
-    '''public int getIntLayout()
+    '''returns int\n\n
+    getIntLayout()\n
     '''
 def setGenerator():
-    '''public void setGenerator(final String gen)
+    '''returns None\n\n
+    setGenerator(final String gen)\n
     '''
 def getGenerator():
-    '''public String getGenerator()
+    '''returns String\n\n
+    getGenerator()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String v)
+    '''returns None\n\n
+    setClassName(final String v)\n
     '''
 def getLayout():
-    '''public String getLayout()
+    '''returns String\n\n
+    getLayout()\n
     '''
 def setLayout():
-    '''public void setLayout(final String l)
+    '''returns None\n\n
+    setLayout(final String l)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String v)
+    '''returns None\n\n
+    setName(final String v)\n
     '''
 def addField():
-    '''public void addField(final Field field)
+    '''returns None\n\n
+    addField(final Field field)\n
     '''
 def getFields():
-    '''public List getFields()
+    '''returns List\n\n
+    getFields()\n
     '''

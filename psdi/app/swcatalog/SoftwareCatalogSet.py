@@ -1,9 +1,12 @@
-def SoftwareCatalogSet():
-    '''public SoftwareCatalogSet(final MboServerInterface ms)
+def ():
+    '''returns SoftwareCatalogSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def updateCommonAttributes():
-    '''public void updateCommonAttributes(String managedas, Boolean isreviewed, String points)
+    '''returns None\n\n
+    updateCommonAttributes(String managedas, Boolean isreviewed, String points)\n
     '''
 def getCatalog():
-    '''public MboRemote getCatalog(final Integer catalogId)
+    '''returns MboRemote\n\n
+    getCatalog(final Integer catalogId)\n
     '''

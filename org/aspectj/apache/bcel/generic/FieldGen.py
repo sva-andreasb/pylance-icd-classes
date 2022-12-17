@@ -1,26 +1,30 @@
-def FieldGen():
-    '''public FieldGen(final int modifiers, final Type type, final String name, final ConstantPool cpool)
-    public FieldGen(final Field field, final ConstantPool cp)
+def ():
+    '''returns FieldGen\n\n
+    (final int modifiers, final Type type, final String name, final ConstantPool cpool)\n
+    (final Field field, final ConstantPool cp)\n
     '''
 def setValue():
-    '''public void setValue(final int index)
-    public void setValue(final String constantString)
+    '''returns None\n\n
+    setValue(final int index)\n
+    setValue(final String constantString)\n
     '''
 def wipeValue():
-    '''public void wipeValue()
+    '''returns None\n\n
+    wipeValue()\n
     '''
 def getField():
-    '''public Field getField()
+    '''returns Field\n\n
+    getField()\n
     '''
 def getSignature():
-    '''public String getSignature()
+    '''returns String\n\n
+    getSignature()\n
     '''
 def getInitialValue():
-    '''public String getInitialValue()
+    '''returns String\n\n
+    getInitialValue()\n
     '''
 def setInitialStringValue():
-    '''public void setInitialStringValue(final String value)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns None\n\n
+    setInitialStringValue(final String value)\n
     '''

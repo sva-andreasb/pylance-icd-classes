@@ -1,6 +1,8 @@
 def preloadImage():
-    '''public ImageInfo preloadImage(final String uri, final Source src, final ImageContext context)
+    '''returns ImageInfo\n\n
+    preloadImage(final String uri, final Source src, final ImageContext context)\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''

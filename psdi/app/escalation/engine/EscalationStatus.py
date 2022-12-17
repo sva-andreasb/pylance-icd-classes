@@ -1,27 +1,36 @@
-def EscalationStatus():
-    '''public EscalationStatus()
+def ():
+    '''returns EscalationStatus\n\n
+    ()\n
     '''
 def isDataProcessedSuccessfully():
-    '''public boolean isDataProcessedSuccessfully()
+    '''returns boolean\n\n
+    isDataProcessedSuccessfully()\n
     '''
 def setDataProcessedSuccessfully():
-    '''public void setDataProcessedSuccessfully(final boolean b)
+    '''returns None\n\n
+    setDataProcessedSuccessfully(final boolean b)\n
     '''
 def getNoOfRecordsProcessed():
-    '''public int getNoOfRecordsProcessed()
+    '''returns int\n\n
+    getNoOfRecordsProcessed()\n
     '''
 def setNoOfRecordsProcessed():
-    '''public void setNoOfRecordsProcessed(final int i)
+    '''returns None\n\n
+    setNoOfRecordsProcessed(final int i)\n
     '''
 def getNoOfRecordsProcessedwithErrors():
-    '''public int getNoOfRecordsProcessedwithErrors()
+    '''returns int\n\n
+    getNoOfRecordsProcessedwithErrors()\n
     '''
 def setNoOfRecordsProcessedwithErrors():
-    '''public void setNoOfRecordsProcessedwithErrors(final int i)
+    '''returns None\n\n
+    setNoOfRecordsProcessedwithErrors(final int i)\n
     '''
 def getMemo():
-    '''public String getMemo()
+    '''returns String\n\n
+    getMemo()\n
     '''
 def setMemo():
-    '''public void setMemo(final String string)
+    '''returns None\n\n
+    setMemo(final String string)\n
     '''

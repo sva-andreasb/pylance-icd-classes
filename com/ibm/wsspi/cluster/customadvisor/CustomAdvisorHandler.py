@@ -1,24 +1,25 @@
-def CustomAdvisorHandler():
-    '''public CustomAdvisorHandler()
+def ():
+    '''returns CustomAdvisorNotifier\n\n
+    ()\n
+    ()\n
     '''
 def setUsabilityMap():
-    '''public void setUsabilityMap(final Map<Identity, Boolean> treasureMap)
-    '''
-def getUsabilityMap():
-    '''public Map<Identity, Boolean> getUsabilityMap()
+    '''returns None\n\n
+    setUsabilityMap(final Map<Identity, Boolean> treasureMap)\n
     '''
 def getNotifier():
-    '''public CustomAdvisorNotifier getNotifier()
-    '''
-def CustomAdvisorNotifier():
-    '''public CustomAdvisorNotifier()
+    '''returns CustomAdvisorNotifier\n\n
+    getNotifier()\n
     '''
 def registerListener():
-    '''public void registerListener(final CustomAdvisorConfigListener listener)
+    '''returns None\n\n
+    registerListener(final CustomAdvisorConfigListener listener)\n
     '''
 def deregisterListener():
-    '''public void deregisterListener(final CustomAdvisorConfigListener listener)
+    '''returns None\n\n
+    deregisterListener(final CustomAdvisorConfigListener listener)\n
     '''
 def notifyListeners():
-    '''public void notifyListeners()
+    '''returns None\n\n
+    notifyListeners()\n
     '''

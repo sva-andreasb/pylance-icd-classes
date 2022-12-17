@@ -1,3 +1,4 @@
-def FldPrimarySystem():
-    '''public FldPrimarySystem(final MboValue mbv)
+def ():
+    '''returns FldPrimarySystem\n\n
+    (final MboValue mbv)\n
     '''

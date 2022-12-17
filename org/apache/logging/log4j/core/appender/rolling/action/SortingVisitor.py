@@ -1,12 +1,16 @@
-def SortingVisitor():
-    '''public SortingVisitor(final PathSorter sorter)
+def ():
+    '''returns SortingVisitor\n\n
+    (final PathSorter sorter)\n
     '''
 def visitFile():
-    '''public FileVisitResult visitFile(final Path path, final BasicFileAttributes attrs)
+    '''returns FileVisitResult\n\n
+    visitFile(final Path path, final BasicFileAttributes attrs)\n
     '''
 def visitFileFailed():
-    '''public FileVisitResult visitFileFailed(final Path file, final IOException ioException)
+    '''returns FileVisitResult\n\n
+    visitFileFailed(final Path file, final IOException ioException)\n
     '''
 def getSortedPaths():
-    '''public List<PathWithAttributes> getSortedPaths()
+    '''returns List<PathWithAttributes>\n\n
+    getSortedPaths()\n
     '''

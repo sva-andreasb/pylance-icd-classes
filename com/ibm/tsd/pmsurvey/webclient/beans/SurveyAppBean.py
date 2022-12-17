@@ -1,24 +1,28 @@
-def SurveyAppBean():
-    '''public SurveyAppBean()
+def ():
+    '''returns SurveyAppBean\n\n
+    ()\n
     '''
 def _useAllRecsQuery():
-    '''public int _useAllRecsQuery()
-    '''
-def SURVEYSUBMIT():
-    '''public synchronized int SURVEYSUBMIT()
+    '''returns int\n\n
+    _useAllRecsQuery()\n
     '''
 def ESCALATION():
-    '''public int ESCALATION()
+    '''returns int\n\n
+    ESCALATION()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def JSPSURVEY():
-    '''public int JSPSURVEY()
+    '''returns int\n\n
+    JSPSURVEY()\n
     '''
 def SELECTQUESTIONLIST():
-    '''public int SELECTQUESTIONLIST()
+    '''returns int\n\n
+    SELECTQUESTIONLIST()\n
     '''
 def SURVEYCOMM():
-    '''public int SURVEYCOMM()
+    '''returns int\n\n
+    SURVEYCOMM()\n
     '''

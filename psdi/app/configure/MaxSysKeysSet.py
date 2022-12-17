@@ -1,15 +1,20 @@
-def MaxSysKeysSet():
-    '''public MaxSysKeysSet(final MboServerInterface ms)
+def ():
+    '''returns MaxSysKeysSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def checkSequence():
-    '''public void checkSequence()
+    '''returns None\n\n
+    checkSequence()\n
     '''

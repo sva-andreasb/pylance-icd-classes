@@ -1,21 +1,22 @@
-def getInstance():
-    '''public static DERInteger getInstance(final Object obj)
-    public static DERInteger getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def DERInteger():
-    '''public DERInteger(final int value)
-    public DERInteger(final BigInteger value)
-    public DERInteger(final byte[] bytes)
+def ():
+    '''returns DERInteger\n\n
+    (final int value)\n
+    (final BigInteger value)\n
+    (final byte[] bytes)\n
     '''
 def getValue():
-    '''public BigInteger getValue()
+    '''returns BigInteger\n\n
+    getValue()\n
     '''
 def getPositiveValue():
-    '''public BigInteger getPositiveValue()
+    '''returns BigInteger\n\n
+    getPositiveValue()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

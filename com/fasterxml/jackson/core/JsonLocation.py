@@ -1,32 +1,42 @@
 MAX_CONTENT_SNIPPET = "int  500"
-def JsonLocation():
-    '''public JsonLocation(final Object srcRef, final long totalChars, final int lineNr, final int colNr)
-    public JsonLocation(final Object sourceRef, final long totalBytes, final long totalChars, final int lineNr, final int columnNr)
+def ():
+    '''returns JsonLocation\n\n
+    (final Object srcRef, final long totalChars, final int lineNr, final int colNr)\n
+    (final Object sourceRef, final long totalBytes, final long totalChars, final int lineNr, final int columnNr)\n
     '''
 def getSourceRef():
-    '''public Object getSourceRef()
+    '''returns Object\n\n
+    getSourceRef()\n
     '''
 def getLineNr():
-    '''public int getLineNr()
+    '''returns int\n\n
+    getLineNr()\n
     '''
 def getColumnNr():
-    '''public int getColumnNr()
+    '''returns int\n\n
+    getColumnNr()\n
     '''
 def getCharOffset():
-    '''public long getCharOffset()
+    '''returns long\n\n
+    getCharOffset()\n
     '''
 def getByteOffset():
-    '''public long getByteOffset()
+    '''returns long\n\n
+    getByteOffset()\n
     '''
 def sourceDescription():
-    '''public String sourceDescription()
+    '''returns String\n\n
+    sourceDescription()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

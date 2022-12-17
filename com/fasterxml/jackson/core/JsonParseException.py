@@ -1,26 +1,33 @@
-def JsonParseException():
-    '''public JsonParseException(final String msg, final JsonLocation loc)
-    public JsonParseException(final String msg, final JsonLocation loc, final Throwable root)
-    public JsonParseException(final JsonParser p, final String msg)
-    public JsonParseException(final JsonParser p, final String msg, final Throwable root)
-    public JsonParseException(final JsonParser p, final String msg, final JsonLocation loc)
-    public JsonParseException(final JsonParser p, final String msg, final JsonLocation loc, final Throwable root)
+def ():
+    '''returns JsonParseException\n\n
+    (final String msg, final JsonLocation loc)\n
+    (final String msg, final JsonLocation loc, final Throwable root)\n
+    (final JsonParser p, final String msg)\n
+    (final JsonParser p, final String msg, final Throwable root)\n
+    (final JsonParser p, final String msg, final JsonLocation loc)\n
+    (final JsonParser p, final String msg, final JsonLocation loc, final Throwable root)\n
     '''
 def withParser():
-    '''public JsonParseException withParser(final JsonParser p)
+    '''returns JsonParseException\n\n
+    withParser(final JsonParser p)\n
     '''
 def withRequestPayload():
-    '''public JsonParseException withRequestPayload(final RequestPayload p)
+    '''returns JsonParseException\n\n
+    withRequestPayload(final RequestPayload p)\n
     '''
 def getProcessor():
-    '''public JsonParser getProcessor()
+    '''returns JsonParser\n\n
+    getProcessor()\n
     '''
 def getRequestPayload():
-    '''public RequestPayload getRequestPayload()
+    '''returns RequestPayload\n\n
+    getRequestPayload()\n
     '''
 def getRequestPayloadAsString():
-    '''public String getRequestPayloadAsString()
+    '''returns String\n\n
+    getRequestPayloadAsString()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

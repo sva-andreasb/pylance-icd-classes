@@ -1,9 +1,12 @@
-def LocMeterReading():
-    '''public LocMeterReading(final MboSet ms)
+def ():
+    '''returns LocMeterReading\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

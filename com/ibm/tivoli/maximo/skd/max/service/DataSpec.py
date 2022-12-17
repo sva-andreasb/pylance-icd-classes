@@ -1,54 +1,72 @@
-def DataSpec():
-    '''public DataSpec(final String objectName, final List<String> columns, final List<Filter> filters, final List<Sort> sorts, final int pageSize)
+def ():
+    '''returns DataSpec\n\n
+    (final String objectName, final List<String> columns, final List<Filter> filters, final List<Sort> sorts, final int pageSize)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def getSorts():
-    '''public List<Sort> getSorts()
+    '''returns List<Sort>\n\n
+    getSorts()\n
     '''
 def setSorts():
-    '''public void setSorts(final List<Sort> sorts)
+    '''returns None\n\n
+    setSorts(final List<Sort> sorts)\n
     '''
 def getFilters():
-    '''public List<Filter> getFilters()
+    '''returns List<Filter>\n\n
+    getFilters()\n
     '''
 def setFilters():
-    '''public void setFilters(final List<Filter> filters)
+    '''returns None\n\n
+    setFilters(final List<Filter> filters)\n
     '''
 def getColumns():
-    '''public List<String> getColumns()
+    '''returns List<String>\n\n
+    getColumns()\n
     '''
 def setColumns():
-    '''public void setColumns(final List<String> columns)
+    '''returns None\n\n
+    setColumns(final List<String> columns)\n
     '''
 def getListener():
-    '''public DataSpecListener getListener()
+    '''returns DataSpecListener\n\n
+    getListener()\n
     '''
 def setListener():
-    '''public void setListener(final DataSpecListener listener)
+    '''returns None\n\n
+    setListener(final DataSpecListener listener)\n
     '''
 def notifyChanged():
-    '''public void notifyChanged()
+    '''returns None\n\n
+    notifyChanged()\n
     '''
 def isChanged():
-    '''public boolean isChanged()
+    '''returns boolean\n\n
+    isChanged()\n
     '''
 def setChanged():
-    '''public void setChanged(final boolean changed)
+    '''returns None\n\n
+    setChanged(final boolean changed)\n
     '''
 def getPageSize():
-    '''public int getPageSize()
+    '''returns int\n\n
+    getPageSize()\n
     '''
 def setPageSize():
-    '''public void setPageSize(final int pageSize)
+    '''returns None\n\n
+    setPageSize(final int pageSize)\n
     '''
 def hasSort():
-    '''public boolean hasSort()
+    '''returns boolean\n\n
+    hasSort()\n
     '''
 def clone():
-    '''public DataSpec clone()
+    '''returns DataSpec\n\n
+    clone()\n
     '''

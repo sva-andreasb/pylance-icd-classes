@@ -1,6 +1,8 @@
-def UserSecControlSet():
-    '''public UserSecControlSet(final MboServerInterface ms)
+def ():
+    '''returns UserSecControlSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

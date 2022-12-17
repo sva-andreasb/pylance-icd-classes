@@ -1,48 +1,61 @@
-def InspectionForm():
-    '''public InspectionForm(final MboSet ms)
+def ():
+    '''returns convertAudioinBackground\n\n
+    (final MboSet ms)\n
+    (final InspectionFormRemote formMbo)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def processFieldIDs():
-    '''public MboSetRemote processFieldIDs(final MboRemote newInspectionMbo, final MboSetRemote cascadeOpt)
+    '''returns MboSetRemote\n\n
+    processFieldIDs(final MboRemote newInspectionMbo, final MboSetRemote cascadeOpt)\n
     '''
 def convertIDs():
-    '''public String[] convertIDs(final MboRemote newInspectionMbo, final String Fieldnum)
+    '''returns String[]\n\n
+    convertIDs(final MboRemote newInspectionMbo, final String Fieldnum)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def changeFormStatus():
-    '''public void changeFormStatus(String status)
+    '''returns None\n\n
+    changeFormStatus(String status)\n
     '''
 def initRevision():
-    '''public MboRemote initRevision()
+    '''returns MboRemote\n\n
+    initRevision()\n
     '''
 def clearSkipCopyFields():
-    '''public void clearSkipCopyFields()
+    '''returns None\n\n
+    clearSkipCopyFields()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
-    '''
-def convertAudioinBackground():
-    '''public convertAudioinBackground(final InspectionFormRemote formMbo)
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

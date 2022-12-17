@@ -1,182 +1,201 @@
-def PdfReader():
-    '''public PdfReader(final String filename)
-    public PdfReader(final String filename, final byte[] ownerPassword)
-    public PdfReader(final byte[] pdfIn)
-    public PdfReader(final byte[] pdfIn, final byte[] ownerPassword)
-    public PdfReader(final URL url)
-    public PdfReader(final URL url, final byte[] ownerPassword)
-    public PdfReader(final InputStream is, final byte[] ownerPassword)
-    public PdfReader(final InputStream is)
-    public PdfReader(final PdfReader reader)
+def ():
+    '''returns PdfReader\n\n
+    (final String filename)\n
+    (final String filename, final byte[] ownerPassword)\n
+    (final byte[] pdfIn)\n
+    (final byte[] pdfIn, final byte[] ownerPassword)\n
+    (final URL url)\n
+    (final URL url, final byte[] ownerPassword)\n
+    (final InputStream is, final byte[] ownerPassword)\n
+    (final InputStream is)\n
+    (final PdfReader reader)\n
     '''
 def getSafeFile():
-    '''public RandomAccessFileOrArray getSafeFile()
+    '''returns RandomAccessFileOrArray\n\n
+    getSafeFile()\n
     '''
 def getNumberOfPages():
-    '''public int getNumberOfPages()
+    '''returns int\n\n
+    getNumberOfPages()\n
     '''
 def getCatalog():
-    '''public PdfDictionary getCatalog()
+    '''returns PdfDictionary\n\n
+    getCatalog()\n
     '''
 def getAcroForm():
-    '''public PRAcroForm getAcroForm()
+    '''returns PRAcroForm\n\n
+    getAcroForm()\n
     '''
 def getPageRotation():
-    '''public int getPageRotation(final int index)
+    '''returns int\n\n
+    getPageRotation(final int index)\n
     '''
 def getPageSizeWithRotation():
-    '''public Rectangle getPageSizeWithRotation(final int index)
-    public Rectangle getPageSizeWithRotation(final PdfDictionary page)
+    '''returns Rectangle\n\n
+    getPageSizeWithRotation(final int index)\n
+    getPageSizeWithRotation(final PdfDictionary page)\n
     '''
 def getPageSize():
-    '''public Rectangle getPageSize(final int index)
-    public Rectangle getPageSize(final PdfDictionary page)
+    '''returns Rectangle\n\n
+    getPageSize(final int index)\n
+    getPageSize(final PdfDictionary page)\n
     '''
 def getCropBox():
-    '''public Rectangle getCropBox(final int index)
+    '''returns Rectangle\n\n
+    getCropBox(final int index)\n
     '''
 def getBoxSize():
-    '''public Rectangle getBoxSize(final int index, final String boxName)
+    '''returns Rectangle\n\n
+    getBoxSize(final int index, final String boxName)\n
     '''
 def getInfo():
-    '''public HashMap getInfo()
-    '''
-def getNormalizedRectangle():
-    '''public static Rectangle getNormalizedRectangle(final PdfArray box)
-    '''
-def getPdfObject():
-    '''public static PdfObject getPdfObject(PdfObject obj)
-    public static PdfObject getPdfObject(PdfObject obj, final PdfObject parent)
-    '''
-def FlateDecode():
-    '''public static byte[] FlateDecode(final byte[] in)
-    public static byte[] FlateDecode(final byte[] in, final boolean strict)
-    '''
-def decodePredictor():
-    '''public static byte[] decodePredictor(final byte[] in, final PdfObject dicPar)
-    '''
-def ASCIIHexDecode():
-    '''public static byte[] ASCIIHexDecode(final byte[] in)
-    '''
-def ASCII85Decode():
-    '''public static byte[] ASCII85Decode(final byte[] in)
-    '''
-def LZWDecode():
-    '''public static byte[] LZWDecode(final byte[] in)
+    '''returns HashMap\n\n
+    getInfo()\n
     '''
 def isRebuilt():
-    '''public boolean isRebuilt()
+    '''returns boolean\n\n
+    isRebuilt()\n
     '''
 def getPageN():
-    '''public PdfDictionary getPageN(final int pageNum)
+    '''returns PdfDictionary\n\n
+    getPageN(final int pageNum)\n
     '''
 def getPageOrigRef():
-    '''public PRIndirectReference getPageOrigRef(final int pageNum)
+    '''returns PRIndirectReference\n\n
+    getPageOrigRef(final int pageNum)\n
     '''
 def getPageContent():
-    '''public byte[] getPageContent(final int pageNum, final RandomAccessFileOrArray file)
-    public byte[] getPageContent(final int pageNum)
+    '''returns byte[]\n\n
+    getPageContent(final int pageNum, final RandomAccessFileOrArray file)\n
+    getPageContent(final int pageNum)\n
     '''
 def setPageContent():
-    '''public void setPageContent(final int pageNum, final byte[] content)
-    '''
-def getStreamBytes():
-    '''public static byte[] getStreamBytes(final PRStream stream, final RandomAccessFileOrArray file)
-    public static byte[] getStreamBytes(final PRStream stream)
+    '''returns None\n\n
+    setPageContent(final int pageNum, final byte[] content)\n
     '''
 def eliminateSharedStreams():
-    '''public void eliminateSharedStreams()
+    '''returns None\n\n
+    eliminateSharedStreams()\n
     '''
 def isTampered():
-    '''public boolean isTampered()
+    '''returns boolean\n\n
+    isTampered()\n
     '''
 def setTampered():
-    '''public void setTampered(final boolean tampered)
+    '''returns None\n\n
+    setTampered(final boolean tampered)\n
     '''
 def getMetadata():
-    '''public byte[] getMetadata()
+    '''returns byte[]\n\n
+    getMetadata()\n
     '''
 def getLastXref():
-    '''public int getLastXref()
+    '''returns int\n\n
+    getLastXref()\n
     '''
 def getXrefSize():
-    '''public int getXrefSize()
+    '''returns int\n\n
+    getXrefSize()\n
     '''
 def getEofPos():
-    '''public int getEofPos()
+    '''returns int\n\n
+    getEofPos()\n
     '''
 def getPdfVersion():
-    '''public char getPdfVersion()
+    '''returns char\n\n
+    getPdfVersion()\n
     '''
 def isEncrypted():
-    '''public boolean isEncrypted()
+    '''returns boolean\n\n
+    isEncrypted()\n
     '''
 def getPermissions():
-    '''public int getPermissions()
+    '''returns int\n\n
+    getPermissions()\n
     '''
 def is128Key():
-    '''public boolean is128Key()
+    '''returns boolean\n\n
+    is128Key()\n
     '''
 def getTrailer():
-    '''public PdfDictionary getTrailer()
+    '''returns PdfDictionary\n\n
+    getTrailer()\n
     '''
 def shuffleSubsetNames():
-    '''public int shuffleSubsetNames()
+    '''returns int\n\n
+    shuffleSubsetNames()\n
     '''
 def createFakeFontSubsets():
-    '''public int createFakeFontSubsets()
+    '''returns int\n\n
+    createFakeFontSubsets()\n
     '''
 def getNamedDestination():
-    '''public HashMap getNamedDestination()
+    '''returns HashMap\n\n
+    getNamedDestination()\n
     '''
 def getNamedDestinationFromNames():
-    '''public HashMap getNamedDestinationFromNames()
+    '''returns HashMap\n\n
+    getNamedDestinationFromNames()\n
     '''
 def getNamedDestinationFromStrings():
-    '''public HashMap getNamedDestinationFromStrings()
+    '''returns HashMap\n\n
+    getNamedDestinationFromStrings()\n
     '''
 def removeFields():
-    '''public void removeFields()
+    '''returns None\n\n
+    removeFields()\n
     '''
 def removeAnnotations():
-    '''public void removeAnnotations()
+    '''returns None\n\n
+    removeAnnotations()\n
     '''
 def consolidateNamedDestinations():
-    '''public void consolidateNamedDestinations()
+    '''returns None\n\n
+    consolidateNamedDestinations()\n
     '''
 def removeUnusedObjects():
-    '''public int removeUnusedObjects()
+    '''returns int\n\n
+    removeUnusedObjects()\n
     '''
 def getAcroFields():
-    '''public AcroFields getAcroFields()
+    '''returns AcroFields\n\n
+    getAcroFields()\n
     '''
 def getJavaScript():
-    '''public String getJavaScript(final RandomAccessFileOrArray file)
-    public String getJavaScript()
+    '''returns String\n\n
+    getJavaScript(final RandomAccessFileOrArray file)\n
+    getJavaScript()\n
     '''
 def selectPages():
-    '''public void selectPages(final String ranges)
-    public void selectPages(final List pagesToKeep)
+    '''returns None\n\n
+    selectPages(final String ranges)\n
+    selectPages(final List pagesToKeep)\n
     '''
 def setViewerPreferences():
-    '''public static void setViewerPreferences(final int preferences, final PdfDictionary catalog)
-    public void setViewerPreferences(final int preferences)
+    '''returns None\n\n
+    setViewerPreferences(final int preferences)\n
     '''
 def getViewerPreferences():
-    '''public int getViewerPreferences()
+    '''returns int\n\n
+    getViewerPreferences()\n
     '''
 def isAppendable():
-    '''public boolean isAppendable()
+    '''returns boolean\n\n
+    isAppendable()\n
     '''
 def setAppendable():
-    '''public void setAppendable(final boolean appendable)
+    '''returns None\n\n
+    setAppendable(final boolean appendable)\n
     '''
 def isNewXrefType():
-    '''public boolean isNewXrefType()
+    '''returns boolean\n\n
+    isNewXrefType()\n
     '''
 def getFileLength():
-    '''public int getFileLength()
+    '''returns int\n\n
+    getFileLength()\n
     '''
 def isHybridXref():
-    '''public boolean isHybridXref()
+    '''returns boolean\n\n
+    isHybridXref()\n
     '''

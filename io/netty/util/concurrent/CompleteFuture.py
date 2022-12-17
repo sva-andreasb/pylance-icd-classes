@@ -1,40 +1,52 @@
 def addListener():
-    '''public Future<V> addListener(final GenericFutureListener<? extends Future<? super V>> listener)
+    '''returns Future<V>\n\n
+    addListener(final GenericFutureListener<? extends Future<? super V>> listener)\n
     '''
 def addListeners():
-    '''public Future<V> addListeners(final GenericFutureListener<? extends Future<? super V>>... listeners)
+    '''returns Future<V>\n\n
+    addListeners(final GenericFutureListener<? extends Future<? super V>>... listeners)\n
     '''
 def removeListener():
-    '''public Future<V> removeListener(final GenericFutureListener<? extends Future<? super V>> listener)
+    '''returns Future<V>\n\n
+    removeListener(final GenericFutureListener<? extends Future<? super V>> listener)\n
     '''
 def removeListeners():
-    '''public Future<V> removeListeners(final GenericFutureListener<? extends Future<? super V>>... listeners)
+    '''returns Future<V>\n\n
+    removeListeners(final GenericFutureListener<? extends Future<? super V>>... listeners)\n
     '''
 def await():
-    '''public Future<V> await()
-    public boolean await(final long timeout, final TimeUnit unit)
-    public boolean await(final long timeoutMillis)
+    '''returns boolean\n\n
+    await()\n
+    await(final long timeout, final TimeUnit unit)\n
+    await(final long timeoutMillis)\n
     '''
 def sync():
-    '''public Future<V> sync()
+    '''returns Future<V>\n\n
+    sync()\n
     '''
 def syncUninterruptibly():
-    '''public Future<V> syncUninterruptibly()
+    '''returns Future<V>\n\n
+    syncUninterruptibly()\n
     '''
 def awaitUninterruptibly():
-    '''public Future<V> awaitUninterruptibly()
-    public boolean awaitUninterruptibly(final long timeout, final TimeUnit unit)
-    public boolean awaitUninterruptibly(final long timeoutMillis)
+    '''returns boolean\n\n
+    awaitUninterruptibly()\n
+    awaitUninterruptibly(final long timeout, final TimeUnit unit)\n
+    awaitUninterruptibly(final long timeoutMillis)\n
     '''
 def isDone():
-    '''public boolean isDone()
+    '''returns boolean\n\n
+    isDone()\n
     '''
 def isCancellable():
-    '''public boolean isCancellable()
+    '''returns boolean\n\n
+    isCancellable()\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def cancel():
-    '''public boolean cancel(final boolean mayInterruptIfRunning)
+    '''returns boolean\n\n
+    cancel(final boolean mayInterruptIfRunning)\n
     '''

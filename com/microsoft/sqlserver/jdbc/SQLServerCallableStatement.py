@@ -1,316 +1,285 @@
 def registerOutParameter():
-    '''public void registerOutParameter(final int index, final int sqlType)
-    public void registerOutParameter(final int index, final int sqlType, final String typeName)
-    public void registerOutParameter(final int index, final int sqlType, final int scale)
-    public void registerOutParameter(final int index, final int sqlType, final int precision, final int scale)
-    public void registerOutParameter(final String parameterName, final int sqlType, final String typeName)
-    public void registerOutParameter(final String parameterName, final int sqlType, final int scale)
-    public void registerOutParameter(final String parameterName, final int sqlType, final int precision, final int scale)
-    public void registerOutParameter(final String parameterName, final int sqlType)
-    public void registerOutParameter(final int parameterIndex, final SQLType sqlType)
-    public void registerOutParameter(final int parameterIndex, final SQLType sqlType, final String typeName)
-    public void registerOutParameter(final int parameterIndex, final SQLType sqlType, final int scale)
-    public void registerOutParameter(final int parameterIndex, final SQLType sqlType, final int precision, final int scale)
-    public void registerOutParameter(final String parameterName, final SQLType sqlType, final String typeName)
-    public void registerOutParameter(final String parameterName, final SQLType sqlType, final int scale)
-    public void registerOutParameter(final String parameterName, final SQLType sqlType, final int precision, final int scale)
-    public void registerOutParameter(final String parameterName, final SQLType sqlType)
+    '''returns None\n\n
+    registerOutParameter(final int index, final int sqlType)\n
+    registerOutParameter(final int index, final int sqlType, final String typeName)\n
+    registerOutParameter(final int index, final int sqlType, final int scale)\n
+    registerOutParameter(final int index, final int sqlType, final int precision, final int scale)\n
+    registerOutParameter(final String parameterName, final int sqlType, final String typeName)\n
+    registerOutParameter(final String parameterName, final int sqlType, final int scale)\n
+    registerOutParameter(final String parameterName, final int sqlType, final int precision, final int scale)\n
+    registerOutParameter(final String parameterName, final int sqlType)\n
+    registerOutParameter(final int parameterIndex, final SQLType sqlType)\n
+    registerOutParameter(final int parameterIndex, final SQLType sqlType, final String typeName)\n
+    registerOutParameter(final int parameterIndex, final SQLType sqlType, final int scale)\n
+    registerOutParameter(final int parameterIndex, final SQLType sqlType, final int precision, final int scale)\n
+    registerOutParameter(final String parameterName, final SQLType sqlType, final String typeName)\n
+    registerOutParameter(final String parameterName, final SQLType sqlType, final int scale)\n
+    registerOutParameter(final String parameterName, final SQLType sqlType, final int precision, final int scale)\n
+    registerOutParameter(final String parameterName, final SQLType sqlType)\n
     '''
 def getInt():
-    '''public int getInt(final int index)
-    public int getInt(final String parameterName)
+    '''returns int\n\n
+    getInt(final int index)\n
+    getInt(final String parameterName)\n
     '''
 def getString():
-    '''public String getString(final int index)
-    public String getString(final String parameterName)
-    '''
-def getNString():
-    '''public final String getNString(final int parameterIndex)
-    public final String getNString(final String parameterName)
+    '''returns String\n\n
+    getString(final int index)\n
+    getString(final String parameterName)\n
     '''
 def getBigDecimal():
-    '''public BigDecimal getBigDecimal(final int parameterIndex, final int scale)
-    public BigDecimal getBigDecimal(final String parameterName, final int scale)
-    public BigDecimal getBigDecimal(final int parameterIndex)
-    public BigDecimal getBigDecimal(final String parameterName)
+    '''returns BigDecimal\n\n
+    getBigDecimal(final int parameterIndex, final int scale)\n
+    getBigDecimal(final String parameterName, final int scale)\n
+    getBigDecimal(final int parameterIndex)\n
+    getBigDecimal(final String parameterName)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final int index)
-    public boolean getBoolean(final String parameterName)
+    '''returns boolean\n\n
+    getBoolean(final int index)\n
+    getBoolean(final String parameterName)\n
     '''
 def getByte():
-    '''public byte getByte(final int index)
-    public byte getByte(final String parameterName)
+    '''returns byte\n\n
+    getByte(final int index)\n
+    getByte(final String parameterName)\n
     '''
 def getBytes():
-    '''public byte[] getBytes(final int index)
-    public byte[] getBytes(final String parameterName)
+    '''returns byte[]\n\n
+    getBytes(final int index)\n
+    getBytes(final String parameterName)\n
     '''
 def getDate():
-    '''public Date getDate(final int index)
-    public Date getDate(final String parameterName)
-    public Date getDate(final int index, final Calendar cal)
-    public Date getDate(final String parameterName, final Calendar cal)
+    '''returns Date\n\n
+    getDate(final int index)\n
+    getDate(final String parameterName)\n
+    getDate(final int index, final Calendar cal)\n
+    getDate(final String parameterName, final Calendar cal)\n
     '''
 def getDouble():
-    '''public double getDouble(final int index)
-    public double getDouble(final String parameterName)
+    '''returns double\n\n
+    getDouble(final int index)\n
+    getDouble(final String parameterName)\n
     '''
 def getFloat():
-    '''public float getFloat(final int index)
-    public float getFloat(final String parameterName)
+    '''returns float\n\n
+    getFloat(final int index)\n
+    getFloat(final String parameterName)\n
     '''
 def getLong():
-    '''public long getLong(final int index)
-    public long getLong(final String parameterName)
+    '''returns long\n\n
+    getLong(final int index)\n
+    getLong(final String parameterName)\n
     '''
 def getObject():
-    '''public Object getObject(final int index)
-    public <T> T getObject(final int index, final Class<T> type)
-    public Object getObject(final String parameterName)
-    public <T> T getObject(final String parameterName, final Class<T> type)
-    public Object getObject(final int parameterIndex, final Map<String, Class<?>> map)
-    public Object getObject(final String parameterName, final Map<String, Class<?>> m)
+    '''returns Object\n\n
+    getObject(final int index)\n
+    getObject(final String parameterName)\n
+    getObject(final int parameterIndex, final Map<String, Class<?>> map)\n
+    getObject(final String parameterName, final Map<String, Class<?>> m)\n
     '''
 def getShort():
-    '''public short getShort(final int index)
-    public short getShort(final String parameterName)
+    '''returns short\n\n
+    getShort(final int index)\n
+    getShort(final String parameterName)\n
     '''
 def getTime():
-    '''public Time getTime(final int index)
-    public Time getTime(final String parameterName)
-    public Time getTime(final int index, final Calendar cal)
-    public Time getTime(final String parameterName, final Calendar cal)
+    '''returns Time\n\n
+    getTime(final int index)\n
+    getTime(final String parameterName)\n
+    getTime(final int index, final Calendar cal)\n
+    getTime(final String parameterName, final Calendar cal)\n
     '''
 def getTimestamp():
-    '''public Timestamp getTimestamp(final int index)
-    public Timestamp getTimestamp(final String parameterName)
-    public Timestamp getTimestamp(final int index, final Calendar cal)
-    public Timestamp getTimestamp(final String name, final Calendar cal)
+    '''returns Timestamp\n\n
+    getTimestamp(final int index)\n
+    getTimestamp(final String parameterName)\n
+    getTimestamp(final int index, final Calendar cal)\n
+    getTimestamp(final String name, final Calendar cal)\n
     '''
 def getDateTime():
-    '''public Timestamp getDateTime(final int index)
-    public Timestamp getDateTime(final String parameterName)
-    public Timestamp getDateTime(final int index, final Calendar cal)
-    public Timestamp getDateTime(final String name, final Calendar cal)
+    '''returns Timestamp\n\n
+    getDateTime(final int index)\n
+    getDateTime(final String parameterName)\n
+    getDateTime(final int index, final Calendar cal)\n
+    getDateTime(final String name, final Calendar cal)\n
     '''
 def getSmallDateTime():
-    '''public Timestamp getSmallDateTime(final int index)
-    public Timestamp getSmallDateTime(final String parameterName)
-    public Timestamp getSmallDateTime(final int index, final Calendar cal)
-    public Timestamp getSmallDateTime(final String name, final Calendar cal)
+    '''returns Timestamp\n\n
+    getSmallDateTime(final int index)\n
+    getSmallDateTime(final String parameterName)\n
+    getSmallDateTime(final int index, final Calendar cal)\n
+    getSmallDateTime(final String name, final Calendar cal)\n
     '''
 def getDateTimeOffset():
-    '''public DateTimeOffset getDateTimeOffset(final int index)
-    public DateTimeOffset getDateTimeOffset(final String parameterName)
+    '''returns DateTimeOffset\n\n
+    getDateTimeOffset(final int index)\n
+    getDateTimeOffset(final String parameterName)\n
     '''
 def wasNull():
-    '''public boolean wasNull()
-    '''
-def getAsciiStream():
-    '''public final InputStream getAsciiStream(final int parameterIndex)
-    public final InputStream getAsciiStream(final String parameterName)
+    '''returns boolean\n\n
+    wasNull()\n
     '''
 def getMoney():
-    '''public BigDecimal getMoney(final int parameterIndex)
-    public BigDecimal getMoney(final String parameterName)
+    '''returns BigDecimal\n\n
+    getMoney(final int parameterIndex)\n
+    getMoney(final String parameterName)\n
     '''
 def getSmallMoney():
-    '''public BigDecimal getSmallMoney(final int parameterIndex)
-    public BigDecimal getSmallMoney(final String parameterName)
-    '''
-def getBinaryStream():
-    '''public final InputStream getBinaryStream(final int parameterIndex)
-    public final InputStream getBinaryStream(final String parameterName)
+    '''returns BigDecimal\n\n
+    getSmallMoney(final int parameterIndex)\n
+    getSmallMoney(final String parameterName)\n
     '''
 def getBlob():
-    '''public Blob getBlob(final int parameterIndex)
-    public Blob getBlob(final String parameterName)
-    '''
-def getCharacterStream():
-    '''public final Reader getCharacterStream(final int parameterIndex)
-    public final Reader getCharacterStream(final String parameterName)
-    '''
-def getNCharacterStream():
-    '''public final Reader getNCharacterStream(final int parameterIndex)
-    public final Reader getNCharacterStream(final String parameterName)
+    '''returns Blob\n\n
+    getBlob(final int parameterIndex)\n
+    getBlob(final String parameterName)\n
     '''
 def getClob():
-    '''public Clob getClob(final int parameterIndex)
-    public Clob getClob(final String parameterName)
+    '''returns Clob\n\n
+    getClob(final int parameterIndex)\n
+    getClob(final String parameterName)\n
     '''
 def getNClob():
-    '''public NClob getNClob(final int parameterIndex)
-    public NClob getNClob(final String parameterName)
+    '''returns NClob\n\n
+    getNClob(final int parameterIndex)\n
+    getNClob(final String parameterName)\n
     '''
 def getRef():
-    '''public Ref getRef(final int parameterIndex)
-    public Ref getRef(final String parameterName)
+    '''returns Ref\n\n
+    getRef(final int parameterIndex)\n
+    getRef(final String parameterName)\n
     '''
 def getArray():
-    '''public Array getArray(final int parameterIndex)
-    public Array getArray(final String parameterName)
+    '''returns Array\n\n
+    getArray(final int parameterIndex)\n
+    getArray(final String parameterName)\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final String parameterName, final Timestamp value, final Calendar calendar)
-    public void setTimestamp(final String parameterName, final Timestamp value, final Calendar calendar, final boolean forceEncrypt)
-    public void setTimestamp(final String parameterName, final Timestamp value)
-    public void setTimestamp(final String parameterName, final Timestamp value, final int scale)
-    public void setTimestamp(final String parameterName, final Timestamp value, final int scale, final boolean forceEncrypt)
+    '''returns None\n\n
+    setTimestamp(final String parameterName, final Timestamp value, final Calendar calendar)\n
+    setTimestamp(final String parameterName, final Timestamp value, final Calendar calendar, final boolean forceEncrypt)\n
+    setTimestamp(final String parameterName, final Timestamp value)\n
+    setTimestamp(final String parameterName, final Timestamp value, final int scale)\n
+    setTimestamp(final String parameterName, final Timestamp value, final int scale, final boolean forceEncrypt)\n
     '''
 def setTime():
-    '''public void setTime(final String parameterName, final Time value, final Calendar calendar)
-    public void setTime(final String parameterName, final Time value, final Calendar calendar, final boolean forceEncrypt)
-    public void setTime(final String parameterName, final Time value)
-    public void setTime(final String parameterName, final Time value, final int scale)
-    public void setTime(final String parameterName, final Time value, final int scale, final boolean forceEncrypt)
+    '''returns None\n\n
+    setTime(final String parameterName, final Time value, final Calendar calendar)\n
+    setTime(final String parameterName, final Time value, final Calendar calendar, final boolean forceEncrypt)\n
+    setTime(final String parameterName, final Time value)\n
+    setTime(final String parameterName, final Time value, final int scale)\n
+    setTime(final String parameterName, final Time value, final int scale, final boolean forceEncrypt)\n
     '''
 def setDate():
-    '''public void setDate(final String parameterName, final Date value, final Calendar calendar)
-    public void setDate(final String parameterName, final Date value, final Calendar calendar, final boolean forceEncrypt)
-    public void setDate(final String parameterName, final Date value)
-    '''
-def setCharacterStream():
-    '''public final void setCharacterStream(final String parameterName, final Reader reader)
-    public final void setCharacterStream(final String parameterName, final Reader value, final int length)
-    public final void setCharacterStream(final String parameterName, final Reader reader, final long length)
-    '''
-def setNCharacterStream():
-    '''public final void setNCharacterStream(final String parameterName, final Reader value)
-    public final void setNCharacterStream(final String parameterName, final Reader value, final long length)
-    '''
-def setClob():
-    '''public final void setClob(final String parameterName, final Clob value)
-    public final void setClob(final String parameterName, final Reader reader)
-    public final void setClob(final String parameterName, final Reader value, final long length)
-    '''
-def setNClob():
-    '''public final void setNClob(final String parameterName, final NClob value)
-    public final void setNClob(final String parameterName, final Reader reader)
-    public final void setNClob(final String parameterName, final Reader reader, final long length)
-    '''
-def setNString():
-    '''public final void setNString(final String parameterName, final String value)
-    public final void setNString(final String parameterName, final String value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setDate(final String parameterName, final Date value, final Calendar calendar)\n
+    setDate(final String parameterName, final Date value, final Calendar calendar, final boolean forceEncrypt)\n
+    setDate(final String parameterName, final Date value)\n
     '''
 def setObject():
-    '''public void setObject(final String parameterName, final Object value)
-    public void setObject(final String parameterName, final Object value, final int sqlType)
-    public void setObject(final String parameterName, final Object value, final int sqlType, final int decimals)
-    public void setObject(final String parameterName, final Object value, final int sqlType, final int decimals, final boolean forceEncrypt)
-    public final void setObject(final String parameterName, final Object value, final int targetSqlType, final Integer precision, final int scale)
-    public void setObject(final String parameterName, final Object value, final SQLType jdbcType)
-    public void setObject(final String parameterName, final Object value, final SQLType jdbcType, final int scale)
-    public void setObject(final String parameterName, final Object value, final SQLType jdbcType, final int scale, final boolean forceEncrypt)
-    '''
-def setAsciiStream():
-    '''public final void setAsciiStream(final String parameterName, final InputStream value)
-    public final void setAsciiStream(final String parameterName, final InputStream value, final int length)
-    public final void setAsciiStream(final String parameterName, final InputStream value, final long length)
-    '''
-def setBinaryStream():
-    '''public final void setBinaryStream(final String parameterName, final InputStream value)
-    public final void setBinaryStream(final String parameterName, final InputStream value, final int length)
-    public final void setBinaryStream(final String parameterName, final InputStream value, final long length)
-    '''
-def setBlob():
-    '''public final void setBlob(final String parameterName, final Blob inputStream)
-    public final void setBlob(final String parameterName, final InputStream value)
-    public final void setBlob(final String parameterName, final InputStream inputStream, final long length)
+    '''returns None\n\n
+    setObject(final String parameterName, final Object value)\n
+    setObject(final String parameterName, final Object value, final int sqlType)\n
+    setObject(final String parameterName, final Object value, final int sqlType, final int decimals)\n
+    setObject(final String parameterName, final Object value, final int sqlType, final int decimals, final boolean forceEncrypt)\n
+    setObject(final String parameterName, final Object value, final SQLType jdbcType)\n
+    setObject(final String parameterName, final Object value, final SQLType jdbcType, final int scale)\n
+    setObject(final String parameterName, final Object value, final SQLType jdbcType, final int scale, final boolean forceEncrypt)\n
     '''
 def setDateTimeOffset():
-    '''public void setDateTimeOffset(final String parameterName, final DateTimeOffset value)
-    public void setDateTimeOffset(final String parameterName, final DateTimeOffset value, final int scale)
-    public void setDateTimeOffset(final String parameterName, final DateTimeOffset value, final int scale, final boolean forceEncrypt)
+    '''returns None\n\n
+    setDateTimeOffset(final String parameterName, final DateTimeOffset value)\n
+    setDateTimeOffset(final String parameterName, final DateTimeOffset value, final int scale)\n
+    setDateTimeOffset(final String parameterName, final DateTimeOffset value, final int scale, final boolean forceEncrypt)\n
     '''
 def setDateTime():
-    '''public void setDateTime(final String parameterName, final Timestamp value)
-    public void setDateTime(final String parameterName, final Timestamp value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setDateTime(final String parameterName, final Timestamp value)\n
+    setDateTime(final String parameterName, final Timestamp value, final boolean forceEncrypt)\n
     '''
 def setSmallDateTime():
-    '''public void setSmallDateTime(final String parameterName, final Timestamp value)
-    public void setSmallDateTime(final String parameterName, final Timestamp value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setSmallDateTime(final String parameterName, final Timestamp value)\n
+    setSmallDateTime(final String parameterName, final Timestamp value, final boolean forceEncrypt)\n
     '''
 def setUniqueIdentifier():
-    '''public void setUniqueIdentifier(final String parameterName, final String guid)
-    public void setUniqueIdentifier(final String parameterName, final String guid, final boolean forceEncrypt)
+    '''returns None\n\n
+    setUniqueIdentifier(final String parameterName, final String guid)\n
+    setUniqueIdentifier(final String parameterName, final String guid, final boolean forceEncrypt)\n
     '''
 def setBytes():
-    '''public void setBytes(final String parameterName, final byte[] value)
-    public void setBytes(final String parameterName, final byte[] value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setBytes(final String parameterName, final byte[] value)\n
+    setBytes(final String parameterName, final byte[] value, final boolean forceEncrypt)\n
     '''
 def setByte():
-    '''public void setByte(final String parameterName, final byte value)
-    public void setByte(final String parameterName, final byte value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setByte(final String parameterName, final byte value)\n
+    setByte(final String parameterName, final byte value, final boolean forceEncrypt)\n
     '''
 def setString():
-    '''public void setString(final String parameterName, final String value)
-    public void setString(final String parameterName, final String value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setString(final String parameterName, final String value)\n
+    setString(final String parameterName, final String value, final boolean forceEncrypt)\n
     '''
 def setMoney():
-    '''public void setMoney(final String parameterName, final BigDecimal value)
-    public void setMoney(final String parameterName, final BigDecimal value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setMoney(final String parameterName, final BigDecimal value)\n
+    setMoney(final String parameterName, final BigDecimal value, final boolean forceEncrypt)\n
     '''
 def setSmallMoney():
-    '''public void setSmallMoney(final String parameterName, final BigDecimal value)
-    public void setSmallMoney(final String parameterName, final BigDecimal value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setSmallMoney(final String parameterName, final BigDecimal value)\n
+    setSmallMoney(final String parameterName, final BigDecimal value, final boolean forceEncrypt)\n
     '''
 def setBigDecimal():
-    '''public void setBigDecimal(final String parameterName, final BigDecimal value)
-    public void setBigDecimal(final String parameterName, final BigDecimal value, final int precision, final int scale)
-    public void setBigDecimal(final String parameterName, final BigDecimal value, final int precision, final int scale, final boolean forceEncrypt)
+    '''returns None\n\n
+    setBigDecimal(final String parameterName, final BigDecimal value)\n
+    setBigDecimal(final String parameterName, final BigDecimal value, final int precision, final int scale)\n
+    setBigDecimal(final String parameterName, final BigDecimal value, final int precision, final int scale, final boolean forceEncrypt)\n
     '''
 def setDouble():
-    '''public void setDouble(final String parameterName, final double value)
-    public void setDouble(final String parameterName, final double value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setDouble(final String parameterName, final double value)\n
+    setDouble(final String parameterName, final double value, final boolean forceEncrypt)\n
     '''
 def setFloat():
-    '''public void setFloat(final String parameterName, final float value)
-    public void setFloat(final String parameterName, final float value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setFloat(final String parameterName, final float value)\n
+    setFloat(final String parameterName, final float value, final boolean forceEncrypt)\n
     '''
 def setInt():
-    '''public void setInt(final String parameterName, final int value)
-    public void setInt(final String parameterName, final int value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setInt(final String parameterName, final int value)\n
+    setInt(final String parameterName, final int value, final boolean forceEncrypt)\n
     '''
 def setLong():
-    '''public void setLong(final String parameterName, final long value)
-    public void setLong(final String parameterName, final long value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setLong(final String parameterName, final long value)\n
+    setLong(final String parameterName, final long value, final boolean forceEncrypt)\n
     '''
 def setShort():
-    '''public void setShort(final String parameterName, final short value)
-    public void setShort(final String parameterName, final short value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setShort(final String parameterName, final short value)\n
+    setShort(final String parameterName, final short value, final boolean forceEncrypt)\n
     '''
 def setBoolean():
-    '''public void setBoolean(final String parameterName, final boolean value)
-    public void setBoolean(final String parameterName, final boolean value, final boolean forceEncrypt)
+    '''returns None\n\n
+    setBoolean(final String parameterName, final boolean value)\n
+    setBoolean(final String parameterName, final boolean value, final boolean forceEncrypt)\n
     '''
 def setNull():
-    '''public void setNull(final String parameterName, final int nType)
-    public void setNull(final String parameterName, final int nType, final String sTypeName)
+    '''returns None\n\n
+    setNull(final String parameterName, final int nType)\n
+    setNull(final String parameterName, final int nType, final String sTypeName)\n
     '''
 def setURL():
-    '''public void setURL(final String parameterName, final URL url)
-    '''
-def setStructured():
-    '''public final void setStructured(final String parameterName, String tvpName, final SQLServerDataTable tvpDataTable)
-    public final void setStructured(final String parameterName, String tvpName, final ResultSet tvpResultSet)
-    public final void setStructured(final String parameterName, String tvpName, final ISQLServerDataRecord tvpDataRecord)
+    '''returns None\n\n
+    setURL(final String parameterName, final URL url)\n
     '''
 def getURL():
-    '''public URL getURL(final int parameterIndex)
-    public URL getURL(final String parameterName)
-    '''
-def setSQLXML():
-    '''public final void setSQLXML(final String parameterName, final SQLXML xmlObject)
-    '''
-def getSQLXML():
-    '''public final SQLXML getSQLXML(final int parameterIndex)
-    public final SQLXML getSQLXML(final String parameterName)
-    '''
-def setRowId():
-    '''public final void setRowId(final String parameterName, final RowId value)
-    '''
-def getRowId():
-    '''public final RowId getRowId(final int parameterIndex)
-    public final RowId getRowId(final String parameterName)
+    '''returns URL\n\n
+    getURL(final int parameterIndex)\n
+    getURL(final String parameterName)\n
     '''

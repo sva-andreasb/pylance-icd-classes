@@ -1,55 +1,69 @@
-def PresolveCallbackWrapper():
-    '''public PresolveCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
-    public PresolveCallbackWrapper(final IloEnv env)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final PresolveCallbackWrapper obj)
+def ():
+    '''returns PresolveCallbackWrapper\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final IloEnv env)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def main_cpp():
-    '''public void main_cpp()
+    '''returns None\n\n
+    main_cpp()\n
     '''
 def duplicateCallback():
-    '''public IloCplex__CallbackI duplicateCallback()
+    '''returns IloCplex__CallbackI\n\n
+    duplicateCallback()\n
     '''
 def callbackImpl():
-    '''public void callbackImpl()
+    '''returns None\n\n
+    callbackImpl()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def getEnv():
-    '''public IloEnv getEnv()
+    '''returns IloEnv\n\n
+    getEnv()\n
     '''
 def getModel():
-    '''public IloModel getModel()
+    '''returns IloModel\n\n
+    getModel()\n
     '''
 def getNcols():
-    '''public int getNcols()
+    '''returns int\n\n
+    getNcols()\n
     '''
 def getNrows():
-    '''public int getNrows()
+    '''returns int\n\n
+    getNrows()\n
     '''
 def getNQCs():
-    '''public int getNQCs()
+    '''returns int\n\n
+    getNQCs()\n
     '''
 def getNremovedRows():
-    '''public int getNremovedRows()
+    '''returns int\n\n
+    getNremovedRows()\n
     '''
 def getNremovedCols():
-    '''public int getNremovedCols()
+    '''returns int\n\n
+    getNremovedCols()\n
     '''
 def getNaggregations():
-    '''public int getNaggregations()
+    '''returns int\n\n
+    getNaggregations()\n
     '''
 def getNaggregations64():
-    '''public long getNaggregations64()
+    '''returns long\n\n
+    getNaggregations64()\n
     '''
 def getNmodifiedCoeffs():
-    '''public int getNmodifiedCoeffs()
+    '''returns int\n\n
+    getNmodifiedCoeffs()\n
     '''
 def getNmodifiedCoeffs64():
-    '''public long getNmodifiedCoeffs64()
+    '''returns long\n\n
+    getNmodifiedCoeffs64()\n
     '''

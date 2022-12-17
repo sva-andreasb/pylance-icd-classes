@@ -1,3 +1,4 @@
-def StandardQueryConfigHandler():
-    '''public StandardQueryConfigHandler()
+def ():
+    '''returns StandardQueryConfigHandler\n\n
+    ()\n
     '''

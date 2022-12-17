@@ -1,39 +1,44 @@
 def openModel():
-    '''public Model openModel(final Resource resource)
-    '''
-def create():
-    '''public static AssemblerGroup create()
+    '''returns Model\n\n
+    openModel(final Resource resource)\n
     '''
 def copy():
-    '''public AssemblerGroup copy()
+    '''returns AssemblerGroup\n\n
+    copy()\n
     '''
-def Frame():
-    '''public Frame(final Resource root, final Resource type, final Class<? extends Assembler> assembler)
+def ():
+    '''returns ExpandingAssemblerGroup\n\n
+    (final Resource root, final Resource type, final Class<? extends Assembler> assembler)\n
+    ()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def ExpandingAssemblerGroup():
-    '''public ExpandingAssemblerGroup()
+    '''returns String\n\n
+    toString()\n
     '''
 def open():
-    '''public Object open(final Assembler a, final Resource suppliedRoot, final Mode mode)
-    public Object open(final Assembler a, final Resource root, final Mode mode)
+    '''returns Object\n\n
+    open(final Assembler a, final Resource suppliedRoot, final Mode mode)\n
+    open(final Assembler a, final Resource root, final Mode mode)\n
     '''
 def loadClasses():
-    '''public void loadClasses(final Model model)
+    '''returns None\n\n
+    loadClasses(final Model model)\n
     '''
 def implementWith():
-    '''public AssemblerGroup implementWith(final Resource type, final Assembler a)
-    public AssemblerGroup implementWith(final Resource type, final Assembler a)
+    '''returns AssemblerGroup\n\n
+    implementWith(final Resource type, final Assembler a)\n
+    implementWith(final Resource type, final Assembler a)\n
     '''
 def assemblerFor():
-    '''public Assembler assemblerFor(final Resource type)
-    public Assembler assemblerFor(final Resource type)
+    '''returns Assembler\n\n
+    assemblerFor(final Resource type)\n
+    assemblerFor(final Resource type)\n
     '''
 def implementsTypes():
-    '''public Set<Resource> implementsTypes()
+    '''returns Set<Resource>\n\n
+    implementsTypes()\n
     '''

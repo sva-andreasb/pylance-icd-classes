@@ -1,12 +1,16 @@
-def ExportContext():
-    '''public ExportContext(final UserInfo userInfo)
+def ():
+    '''returns ExportContext\n\n
+    (final UserInfo userInfo)\n
     '''
 def log():
-    '''public void log(final String msg)
+    '''returns None\n\n
+    log(final String msg)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''

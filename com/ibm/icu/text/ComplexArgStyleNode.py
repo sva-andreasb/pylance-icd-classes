@@ -1,15 +1,20 @@
 def hasExplicitOffset():
-    '''public boolean hasExplicitOffset()
+    '''returns boolean\n\n
+    hasExplicitOffset()\n
     '''
 def getOffset():
-    '''public double getOffset()
+    '''returns double\n\n
+    getOffset()\n
     '''
 def getVariants():
-    '''public List<VariantNode> getVariants()
+    '''returns List<VariantNode>\n\n
+    getVariants()\n
     '''
 def getVariantsByType():
-    '''public VariantNode getVariantsByType(final List<VariantNode> numericVariants, final List<VariantNode> keywordVariants)
+    '''returns VariantNode\n\n
+    getVariantsByType(final List<VariantNode> numericVariants, final List<VariantNode> keywordVariants)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

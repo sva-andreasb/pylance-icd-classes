@@ -1,67 +1,61 @@
-def getDefaultParams():
-    '''public static HttpParams getDefaultParams()
-    '''
-def setHttpParamsFactory():
-    '''public static void setHttpParamsFactory(final HttpParamsFactory httpParamsFactory)
-    '''
-def DefaultHttpParams():
-    '''public DefaultHttpParams(final HttpParams defaults)
-    public DefaultHttpParams()
-    '''
-def getDefaults():
-    '''public synchronized HttpParams getDefaults()
-    '''
-def setDefaults():
-    '''public synchronized void setDefaults(final HttpParams params)
-    '''
-def getParameter():
-    '''public synchronized Object getParameter(final String name)
-    '''
-def setParameter():
-    '''public synchronized void setParameter(final String name, final Object value)
-    '''
-def setParameters():
-    '''public synchronized void setParameters(final String[] names, final Object value)
+def ():
+    '''returns DefaultHttpParams\n\n
+    (final HttpParams defaults)\n
+    ()\n
     '''
 def getLongParameter():
-    '''public long getLongParameter(final String name, final long defaultValue)
+    '''returns long\n\n
+    getLongParameter(final String name, final long defaultValue)\n
     '''
 def setLongParameter():
-    '''public void setLongParameter(final String name, final long value)
+    '''returns None\n\n
+    setLongParameter(final String name, final long value)\n
     '''
 def getIntParameter():
-    '''public int getIntParameter(final String name, final int defaultValue)
+    '''returns int\n\n
+    getIntParameter(final String name, final int defaultValue)\n
     '''
 def setIntParameter():
-    '''public void setIntParameter(final String name, final int value)
+    '''returns None\n\n
+    setIntParameter(final String name, final int value)\n
     '''
 def getDoubleParameter():
-    '''public double getDoubleParameter(final String name, final double defaultValue)
+    '''returns double\n\n
+    getDoubleParameter(final String name, final double defaultValue)\n
     '''
 def setDoubleParameter():
-    '''public void setDoubleParameter(final String name, final double value)
+    '''returns None\n\n
+    setDoubleParameter(final String name, final double value)\n
     '''
 def getBooleanParameter():
-    '''public boolean getBooleanParameter(final String name, final boolean defaultValue)
+    '''returns boolean\n\n
+    getBooleanParameter(final String name, final boolean defaultValue)\n
     '''
 def setBooleanParameter():
-    '''public void setBooleanParameter(final String name, final boolean value)
+    '''returns None\n\n
+    setBooleanParameter(final String name, final boolean value)\n
     '''
 def isParameterSet():
-    '''public boolean isParameterSet(final String name)
+    '''returns boolean\n\n
+    isParameterSet(final String name)\n
     '''
 def isParameterSetLocally():
-    '''public boolean isParameterSetLocally(final String name)
+    '''returns boolean\n\n
+    isParameterSetLocally(final String name)\n
     '''
 def isParameterTrue():
-    '''public boolean isParameterTrue(final String name)
+    '''returns boolean\n\n
+    isParameterTrue(final String name)\n
     '''
 def isParameterFalse():
-    '''public boolean isParameterFalse(final String name)
+    '''returns boolean\n\n
+    isParameterFalse(final String name)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

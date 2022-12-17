@@ -1,154 +1,200 @@
 questionMark = "String  \"% DSUnknown\nq\n1 G\n1 g\n0.1 0 0 0.1 9 0 cm\n0 J 0 j 4 M []0 d\n1 i \n0 g\n313 292 m\n313 404 325 453 432 529 c\n478 561 504 597 504 645 c\n504 736 440 760 391 760 c\n286 760 271 681 265 626 c\n265 625 l\n100 625 l\n100 828 253 898 381 898 c\n451 898 679 878 679 650 c\n679 555 628 499 538 435 c\n488 399 467 376 467 292 c\n313 292 l\nh\n308 214 170 -164 re\nf\n0.44 G\n1.2 w\n1 1 0.4 rg\n287 318 m\n287 430 299 479 406 555 c\n451 587 478 623 478 671 c\n478 762 414 786 365 786 c\n260 786 245 707 239 652 c\n239 651 l\n74 651 l\n74 854 227 924 355 924 c\n425 924 653 904 653 676 c\n653 581 602 525 512 461 c\n462 425 441 402 441 318 c\n287 318 l\nh\n282 240 170 -164 re\nB\nQ\n\""
 def setLayer2Text():
-    '''public void setLayer2Text(final String text)
+    '''returns None\n\n
+    setLayer2Text(final String text)\n
     '''
 def getLayer2Text():
-    '''public String getLayer2Text()
+    '''returns String\n\n
+    getLayer2Text()\n
     '''
 def setLayer4Text():
-    '''public void setLayer4Text(final String text)
+    '''returns None\n\n
+    setLayer4Text(final String text)\n
     '''
 def getLayer4Text():
-    '''public String getLayer4Text()
+    '''returns String\n\n
+    getLayer4Text()\n
     '''
 def getRect():
-    '''public Rectangle getRect()
+    '''returns Rectangle\n\n
+    getRect()\n
     '''
 def isInvisible():
-    '''public boolean isInvisible()
+    '''returns boolean\n\n
+    isInvisible()\n
     '''
 def setCrypto():
-    '''public void setCrypto(final PrivateKey privKey, final Certificate[] certChain, final CRL[] crlList, final PdfName filter)
+    '''returns None\n\n
+    setCrypto(final PrivateKey privKey, final Certificate[] certChain, final CRL[] crlList, final PdfName filter)\n
     '''
 def setVisibleSignature():
-    '''public void setVisibleSignature(final Rectangle pageRect, final int page, final String fieldName)
-    public void setVisibleSignature(final String fieldName)
+    '''returns None\n\n
+    setVisibleSignature(final Rectangle pageRect, final int page, final String fieldName)\n
+    setVisibleSignature(final String fieldName)\n
     '''
 def getLayer():
-    '''public PdfTemplate getLayer(final int layer)
+    '''returns PdfTemplate\n\n
+    getLayer(final int layer)\n
     '''
 def getTopLayer():
-    '''public PdfTemplate getTopLayer()
+    '''returns PdfTemplate\n\n
+    getTopLayer()\n
     '''
 def getAppearance():
-    '''public PdfTemplate getAppearance()
-    '''
-def fitText():
-    '''public static float fitText(final Font font, final String text, final Rectangle rect, float maxFontSize, final int runDirection)
+    '''returns PdfTemplate\n\n
+    getAppearance()\n
     '''
 def setExternalDigest():
-    '''public void setExternalDigest(final byte[] digest, final byte[] RSAdata, final String digestEncryptionAlgorithm)
+    '''returns None\n\n
+    setExternalDigest(final byte[] digest, final byte[] RSAdata, final String digestEncryptionAlgorithm)\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def setReason():
-    '''public void setReason(final String reason)
+    '''returns None\n\n
+    setReason(final String reason)\n
     '''
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final String location)
+    '''returns None\n\n
+    setLocation(final String location)\n
     '''
 def getProvider():
-    '''public String getProvider()
+    '''returns String\n\n
+    getProvider()\n
     '''
 def setProvider():
-    '''public void setProvider(final String provider)
+    '''returns None\n\n
+    setProvider(final String provider)\n
     '''
 def getPrivKey():
-    '''public PrivateKey getPrivKey()
+    '''returns PrivateKey\n\n
+    getPrivKey()\n
     '''
 def getCertChain():
-    '''public Certificate[] getCertChain()
+    '''returns Certificate[]\n\n
+    getCertChain()\n
     '''
 def getCrlList():
-    '''public CRL[] getCrlList()
+    '''returns CRL[]\n\n
+    getCrlList()\n
     '''
 def getFilter():
-    '''public PdfName getFilter()
+    '''returns PdfName\n\n
+    getFilter()\n
     '''
 def isNewField():
-    '''public boolean isNewField()
+    '''returns boolean\n\n
+    isNewField()\n
     '''
 def getPage():
-    '''public int getPage()
+    '''returns int\n\n
+    getPage()\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def getPageRect():
-    '''public Rectangle getPageRect()
+    '''returns Rectangle\n\n
+    getPageRect()\n
     '''
 def getSignDate():
-    '''public Calendar getSignDate()
+    '''returns Calendar\n\n
+    getSignDate()\n
     '''
 def setSignDate():
-    '''public void setSignDate(final Calendar signDate)
+    '''returns None\n\n
+    setSignDate(final Calendar signDate)\n
     '''
 def getTempFile():
-    '''public File getTempFile()
+    '''returns File\n\n
+    getTempFile()\n
     '''
 def getNewSigName():
-    '''public String getNewSigName()
+    '''returns String\n\n
+    getNewSigName()\n
     '''
 def preClose():
-    '''public void preClose()
-    public void preClose(final HashMap exclusionSizes)
+    '''returns None\n\n
+    preClose()\n
+    preClose(final HashMap exclusionSizes)\n
     '''
 def close():
-    '''public void close(final PdfDictionary update)
+    '''returns None\n\n
+    close(final PdfDictionary update)\n
     '''
 def getRangeStream():
-    '''public InputStream getRangeStream()
+    '''returns InputStream\n\n
+    getRangeStream()\n
     '''
 def getCryptoDictionary():
-    '''public PdfDictionary getCryptoDictionary()
+    '''returns PdfDictionary\n\n
+    getCryptoDictionary()\n
     '''
 def setCryptoDictionary():
-    '''public void setCryptoDictionary(final PdfDictionary cryptoDictionary)
+    '''returns None\n\n
+    setCryptoDictionary(final PdfDictionary cryptoDictionary)\n
     '''
 def getStamper():
-    '''public PdfStamper getStamper()
+    '''returns PdfStamper\n\n
+    getStamper()\n
     '''
 def isPreClosed():
-    '''public boolean isPreClosed()
+    '''returns boolean\n\n
+    isPreClosed()\n
     '''
 def getSigStandard():
-    '''public PdfSigGenericPKCS getSigStandard()
+    '''returns PdfSigGenericPKCS\n\n
+    getSigStandard()\n
     '''
 def getContact():
-    '''public String getContact()
+    '''returns String\n\n
+    getContact()\n
     '''
 def setContact():
-    '''public void setContact(final String contact)
+    '''returns None\n\n
+    setContact(final String contact)\n
     '''
 def getLayer2Font():
-    '''public Font getLayer2Font()
+    '''returns Font\n\n
+    getLayer2Font()\n
     '''
 def setLayer2Font():
-    '''public void setLayer2Font(final Font layer2Font)
+    '''returns None\n\n
+    setLayer2Font(final Font layer2Font)\n
     '''
 def isAcro6Layers():
-    '''public boolean isAcro6Layers()
+    '''returns boolean\n\n
+    isAcro6Layers()\n
     '''
 def setAcro6Layers():
-    '''public void setAcro6Layers(final boolean acro6Layers)
+    '''returns None\n\n
+    setAcro6Layers(final boolean acro6Layers)\n
     '''
 def setRunDirection():
-    '''public void setRunDirection(final int runDirection)
+    '''returns None\n\n
+    setRunDirection(final int runDirection)\n
     '''
 def getRunDirection():
-    '''public int getRunDirection()
+    '''returns int\n\n
+    getRunDirection()\n
     '''
 def getSignatureEvent():
-    '''public SignatureEvent getSignatureEvent()
+    '''returns SignatureEvent\n\n
+    getSignatureEvent()\n
     '''
 def setSignatureEvent():
-    '''public void setSignatureEvent(final SignatureEvent signatureEvent)
+    '''returns None\n\n
+    setSignatureEvent(final SignatureEvent signatureEvent)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''

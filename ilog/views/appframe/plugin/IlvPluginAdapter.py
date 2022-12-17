@@ -1,9 +1,12 @@
 def pluginEventReceived():
-    '''public void pluginEventReceived(final PluginEvent pluginEvent)
+    '''returns None\n\n
+    pluginEventReceived(final PluginEvent pluginEvent)\n
     '''
 def pluginInstalled():
-    '''public void pluginInstalled(final PluginEvent pluginEvent)
+    '''returns None\n\n
+    pluginInstalled(final PluginEvent pluginEvent)\n
     '''
 def pluginUninstalled():
-    '''public void pluginUninstalled(final PluginEvent pluginEvent)
+    '''returns None\n\n
+    pluginUninstalled(final PluginEvent pluginEvent)\n
     '''

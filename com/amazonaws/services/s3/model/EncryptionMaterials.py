@@ -1,28 +1,33 @@
-def EncryptionMaterials():
-    '''public EncryptionMaterials(final KeyPair keyPair)
-    public EncryptionMaterials(final SecretKey symmetricKey)
+def ():
+    '''returns EncryptionMaterials\n\n
+    (final KeyPair keyPair)\n
+    (final SecretKey symmetricKey)\n
     '''
 def getKeyPair():
-    '''public KeyPair getKeyPair()
+    '''returns KeyPair\n\n
+    getKeyPair()\n
     '''
 def getSymmetricKey():
-    '''public SecretKey getSymmetricKey()
-    '''
-def getMaterialsDescription():
-    '''public Map<String, String> getMaterialsDescription()
+    '''returns SecretKey\n\n
+    getSymmetricKey()\n
     '''
 def getAccessor():
-    '''public EncryptionMaterialsAccessor getAccessor()
+    '''returns EncryptionMaterialsAccessor\n\n
+    getAccessor()\n
     '''
 def addDescription():
-    '''public EncryptionMaterials addDescription(final String name, final String value)
+    '''returns EncryptionMaterials\n\n
+    addDescription(final String name, final String value)\n
     '''
 def addDescriptions():
-    '''public EncryptionMaterials addDescriptions(final Map<String, String> descriptions)
+    '''returns EncryptionMaterials\n\n
+    addDescriptions(final Map<String, String> descriptions)\n
     '''
 def isKMSEnabled():
-    '''public boolean isKMSEnabled()
+    '''returns boolean\n\n
+    isKMSEnabled()\n
     '''
 def getCustomerMasterKeyId():
-    '''public String getCustomerMasterKeyId()
+    '''returns String\n\n
+    getCustomerMasterKeyId()\n
     '''

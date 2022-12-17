@@ -1,3 +1,4 @@
-def FldPersonDelegate():
-    '''public FldPersonDelegate(final MboValue mbv)
+def ():
+    '''returns FldPersonDelegate\n\n
+    (final MboValue mbv)\n
     '''

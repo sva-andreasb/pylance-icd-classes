@@ -1,6 +1,8 @@
-def CreateCompanyExt():
-    '''public CreateCompanyExt()
+def ():
+    '''returns CreateCompanyExt\n\n
+    ()\n
     '''
 def setDataIn():
-    '''public StructureData setDataIn(final StructureData irData)
+    '''returns StructureData\n\n
+    setDataIn(final StructureData irData)\n
     '''

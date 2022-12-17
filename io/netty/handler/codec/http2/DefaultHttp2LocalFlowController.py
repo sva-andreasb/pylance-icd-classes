@@ -1,88 +1,108 @@
 DEFAULT_WINDOW_UPDATE_RATIO = "float  0.5f"
-def DefaultHttp2LocalFlowController():
-    '''public DefaultHttp2LocalFlowController(final Http2Connection connection)
-    public DefaultHttp2LocalFlowController(final Http2Connection connection, final float windowUpdateRatio, final boolean autoRefillConnectionWindow)
+def ():
+    '''returns DefaultHttp2LocalFlowController\n\n
+    (final Http2Connection connection)\n
+    (final Http2Connection connection, final float windowUpdateRatio, final boolean autoRefillConnectionWindow)\n
     '''
 def onStreamAdded():
-    '''public void onStreamAdded(final Http2Stream stream)
+    '''returns None\n\n
+    onStreamAdded(final Http2Stream stream)\n
     '''
 def onStreamActive():
-    '''public void onStreamActive(final Http2Stream stream)
+    '''returns None\n\n
+    onStreamActive(final Http2Stream stream)\n
     '''
 def onStreamClosed():
-    '''public void onStreamClosed(final Http2Stream stream)
+    '''returns None\n\n
+    onStreamClosed(final Http2Stream stream)\n
     '''
 def frameWriter():
-    '''public DefaultHttp2LocalFlowController frameWriter(final Http2FrameWriter frameWriter)
+    '''returns DefaultHttp2LocalFlowController\n\n
+    frameWriter(final Http2FrameWriter frameWriter)\n
     '''
 def channelHandlerContext():
-    '''public void channelHandlerContext(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    channelHandlerContext(final ChannelHandlerContext ctx)\n
     '''
 def initialWindowSize():
-    '''public void initialWindowSize(final int newWindowSize)
-    public int initialWindowSize()
-    public int initialWindowSize(final Http2Stream stream)
-    public int initialWindowSize()
-    public int initialWindowSize()
+    '''returns int\n\n
+    initialWindowSize(final int newWindowSize)\n
+    initialWindowSize()\n
+    initialWindowSize(final Http2Stream stream)\n
+    initialWindowSize()\n
+    initialWindowSize()\n
     '''
 def windowSize():
-    '''public int windowSize(final Http2Stream stream)
-    public int windowSize()
-    public int windowSize()
+    '''returns int\n\n
+    windowSize(final Http2Stream stream)\n
+    windowSize()\n
+    windowSize()\n
     '''
 def incrementWindowSize():
-    '''public void incrementWindowSize(final Http2Stream stream, final int delta)
+    '''returns None\n\n
+    incrementWindowSize(final Http2Stream stream, final int delta)\n
     '''
 def consumeBytes():
-    '''public boolean consumeBytes(final Http2Stream stream, final int numBytes)
-    public boolean consumeBytes(final int numBytes)
-    public boolean consumeBytes(final int numBytes)
-    public boolean consumeBytes(final int numBytes)
+    '''returns boolean\n\n
+    consumeBytes(final Http2Stream stream, final int numBytes)\n
+    consumeBytes(final int numBytes)\n
+    consumeBytes(final int numBytes)\n
+    consumeBytes(final int numBytes)\n
     '''
 def unconsumedBytes():
-    '''public int unconsumedBytes(final Http2Stream stream)
-    public int unconsumedBytes()
-    public int unconsumedBytes()
+    '''returns int\n\n
+    unconsumedBytes(final Http2Stream stream)\n
+    unconsumedBytes()\n
+    unconsumedBytes()\n
     '''
 def windowUpdateRatio():
-    '''public void windowUpdateRatio(final float ratio)
-    public float windowUpdateRatio()
-    public void windowUpdateRatio(final Http2Stream stream, final float ratio)
-    public float windowUpdateRatio(final Http2Stream stream)
-    public float windowUpdateRatio()
-    public void windowUpdateRatio(final float ratio)
-    public float windowUpdateRatio()
-    public void windowUpdateRatio(final float ratio)
+    '''returns None\n\n
+    windowUpdateRatio(final float ratio)\n
+    windowUpdateRatio()\n
+    windowUpdateRatio(final Http2Stream stream, final float ratio)\n
+    windowUpdateRatio(final Http2Stream stream)\n
+    windowUpdateRatio()\n
+    windowUpdateRatio(final float ratio)\n
+    windowUpdateRatio()\n
+    windowUpdateRatio(final float ratio)\n
     '''
 def receiveFlowControlledFrame():
-    '''public void receiveFlowControlledFrame(final Http2Stream stream, final ByteBuf data, final int padding, final boolean endOfStream)
-    public void receiveFlowControlledFrame(final int dataLength)
-    public void receiveFlowControlledFrame(final int dataLength)
-    public void receiveFlowControlledFrame(final int dataLength)
+    '''returns None\n\n
+    receiveFlowControlledFrame(final Http2Stream stream, final ByteBuf data, final int padding, final boolean endOfStream)\n
+    receiveFlowControlledFrame(final int dataLength)\n
+    receiveFlowControlledFrame(final int dataLength)\n
+    receiveFlowControlledFrame(final int dataLength)\n
     '''
 def window():
-    '''public void window(final int initialWindowSize)
-    public void window(final int initialWindowSize)
+    '''returns None\n\n
+    window(final int initialWindowSize)\n
+    window(final int initialWindowSize)\n
     '''
 def incrementInitialStreamWindow():
-    '''public void incrementInitialStreamWindow(final int delta)
-    public void incrementInitialStreamWindow(int delta)
+    '''returns None\n\n
+    incrementInitialStreamWindow(final int delta)\n
+    incrementInitialStreamWindow(int delta)\n
     '''
 def writeWindowUpdateIfNeeded():
-    '''public boolean writeWindowUpdateIfNeeded()
-    public boolean writeWindowUpdateIfNeeded()
+    '''returns boolean\n\n
+    writeWindowUpdateIfNeeded()\n
+    writeWindowUpdateIfNeeded()\n
     '''
 def incrementFlowControlWindows():
-    '''public void incrementFlowControlWindows(final int delta)
-    public void incrementFlowControlWindows(final int delta)
+    '''returns None\n\n
+    incrementFlowControlWindows(final int delta)\n
+    incrementFlowControlWindows(final int delta)\n
     '''
 def endOfStream():
-    '''public void endOfStream(final boolean endOfStream)
-    public void endOfStream(final boolean endOfStream)
+    '''returns None\n\n
+    endOfStream(final boolean endOfStream)\n
+    endOfStream(final boolean endOfStream)\n
     '''
 def visit():
-    '''public boolean visit(final Http2Stream stream)
+    '''returns boolean\n\n
+    visit(final Http2Stream stream)\n
     '''
 def throwIfError():
-    '''public void throwIfError()
+    '''returns None\n\n
+    throwIfError()\n
     '''

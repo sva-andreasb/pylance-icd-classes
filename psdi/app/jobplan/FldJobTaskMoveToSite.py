@@ -1,6 +1,8 @@
-def FldJobTaskMoveToSite():
-    '''public FldJobTaskMoveToSite(final MboValue mbv)
+def ():
+    '''returns FldJobTaskMoveToSite\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

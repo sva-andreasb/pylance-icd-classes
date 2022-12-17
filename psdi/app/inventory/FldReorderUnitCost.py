@@ -1,6 +1,8 @@
-def FldReorderUnitCost():
-    '''public FldReorderUnitCost(final MboValue mbv)
+def ():
+    '''returns FldReorderUnitCost\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

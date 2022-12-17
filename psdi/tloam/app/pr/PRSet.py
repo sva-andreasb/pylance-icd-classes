@@ -1,3 +1,4 @@
-def PRSet():
-    '''public PRSet(final MboServerInterface ms)
+def ():
+    '''returns PRSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,48 +1,40 @@
-def addMyStatusListener():
-    '''public synchronized void addMyStatusListener(final MyStatusListener obj)
-    '''
-def removeMyStatusListener():
-    '''public synchronized void removeMyStatusListener(final MyStatusListener obj)
-    '''
-def addMyPrivacyListener():
-    '''public synchronized void addMyPrivacyListener(final MyPrivacyListener obj)
-    '''
-def removeMyPrivacyListener():
-    '''public synchronized void removeMyPrivacyListener(final MyPrivacyListener obj)
-    '''
-def addMyNameListener():
-    '''public synchronized void addMyNameListener(final MyNameListener obj)
-    '''
-def removeMyNameListener():
-    '''public synchronized void removeMyNameListener(final MyNameListener obj)
-    '''
 def getMyUserInstance():
-    '''public STUserInstance getMyUserInstance()
+    '''returns STUserInstance\n\n
+    getMyUserInstance()\n
     '''
 def getMyStatus():
-    '''public STUserStatus getMyStatus()
+    '''returns STUserStatus\n\n
+    getMyStatus()\n
     '''
 def getMyPrivacy():
-    '''public STPrivacyList getMyPrivacy()
+    '''returns STPrivacyList\n\n
+    getMyPrivacy()\n
     '''
 def getServerVersion():
-    '''public int getServerVersion()
+    '''returns int\n\n
+    getServerVersion()\n
     '''
 def isGroupPrivacySupported():
-    '''public boolean isGroupPrivacySupported()
+    '''returns boolean\n\n
+    isGroupPrivacySupported()\n
     '''
 def getConnectingServer():
-    '''public STServer getConnectingServer()
+    '''returns STServer\n\n
+    getConnectingServer()\n
     '''
 def getServer():
-    '''public STServer getServer()
+    '''returns STServer\n\n
+    getServer()\n
     '''
 def changeMyPrivacy():
-    '''public void changeMyPrivacy(final STPrivacyList privacy)
+    '''returns None\n\n
+    changeMyPrivacy(final STPrivacyList privacy)\n
     '''
 def changeMyStatus():
-    '''public void changeMyStatus(final STUserStatus status)
+    '''returns None\n\n
+    changeMyStatus(final STUserStatus status)\n
     '''
 def changeMyUserName():
-    '''public void changeMyUserName(final String s)
+    '''returns None\n\n
+    changeMyUserName(final String s)\n
     '''

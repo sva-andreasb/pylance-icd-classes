@@ -1,35 +1,46 @@
-def JobAttachmentImpl():
-    '''public JobAttachmentImpl()
-    public JobAttachmentImpl(final String name)
-    public JobAttachmentImpl(final String name, final JobAttachmentType type)
+def ():
+    '''returns JobAttachmentImpl\n\n
+    ()\n
+    (final String name)\n
+    (final String name, final JobAttachmentType type)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getType():
-    '''public JobAttachmentType getType()
+    '''returns JobAttachmentType\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final JobAttachmentType type)
+    '''returns None\n\n
+    setType(final JobAttachmentType type)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def setLength():
-    '''public void setLength(final long length)
+    '''returns None\n\n
+    setLength(final long length)\n
     '''
 def getStorageId():
-    '''public String getStorageId()
+    '''returns String\n\n
+    getStorageId()\n
     '''
 def setStorageId():
-    '''public void setStorageId(final String storageId)
+    '''returns None\n\n
+    setStorageId(final String storageId)\n
     '''
 def isIgnoreSize():
-    '''public boolean isIgnoreSize()
+    '''returns boolean\n\n
+    isIgnoreSize()\n
     '''
 def setIgnoreSize():
-    '''public void setIgnoreSize(final boolean ignoreSize)
+    '''returns None\n\n
+    setIgnoreSize(final boolean ignoreSize)\n
     '''

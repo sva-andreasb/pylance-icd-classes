@@ -1,21 +1,28 @@
-def ShopzCronTask():
-    '''public ShopzCronTask()
+def ():
+    '''returns ShopzCronTask\n\n
+    ()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def getParameterValidationMbo():
-    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''returns MboRemote\n\n
+    getParameterValidationMbo(final CrontaskInstanceRemote instance)\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def accept():
-    '''public boolean accept(final File pathname)
+    '''returns boolean\n\n
+    accept(final File pathname)\n
     '''

@@ -1,230 +1,294 @@
-def SKDProject():
-    '''public SKDProject(final MboSet ms)
+def ():
+    '''returns AsyncProcessRunOptimization\n\n
+    (final MboSet ms)\n
+    (final UserInfo userInfo, final SKDProject project, final OptimizationServiceRemote optimizationService, final String odmApplicationName, final OptimizationInputProcessParameters inputProcessParameters, final OptimizationOutputProcessParameters outputProcessParameters)\n
     '''
 def setAssetLocWhere():
-    '''public void setAssetLocWhere(final String key, final String where)
+    '''returns None\n\n
+    setAssetLocWhere(final String key, final String where)\n
     '''
 def getAssetLocWhere():
-    '''public String getAssetLocWhere(final String key)
+    '''returns String\n\n
+    getAssetLocWhere(final String key)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def updateProjectData():
-    '''public void updateProjectData()
+    '''returns None\n\n
+    updateProjectData()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setCalendarDates():
-    '''public void setCalendarDates()
+    '''returns None\n\n
+    setCalendarDates()\n
     '''
 def originalAppName():
-    '''public String originalAppName(final String appName)
+    '''returns String\n\n
+    originalAppName(final String appName)\n
     '''
 def dupSchedulerProject():
-    '''public void dupSchedulerProject(final MboRemote selectedproject)
+    '''returns None\n\n
+    dupSchedulerProject(final MboRemote selectedproject)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def setFromAsync():
-    '''public void setFromAsync(final boolean flag)
+    '''returns None\n\n
+    setFromAsync(final boolean flag)\n
     '''
 def getFromAsync():
-    '''public boolean getFromAsync()
+    '''returns boolean\n\n
+    getFromAsync()\n
     '''
 def isProjectDataModified():
-    '''public boolean isProjectDataModified()
+    '''returns boolean\n\n
+    isProjectDataModified()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def startScheduleCompliance():
-    '''public void startScheduleCompliance()
-    public void startScheduleCompliance(final MboSetRemote skdActivitySet, final SKDProjectRemote skdProject, final Date compstart, final Date compend)
+    '''returns None\n\n
+    startScheduleCompliance()\n
+    startScheduleCompliance(final MboSetRemote skdActivitySet, final SKDProjectRemote skdProject, final Date compstart, final Date compend)\n
     '''
 def endScheduleCompliance():
-    '''public void endScheduleCompliance(final SKDProjectRemote skdProject, final Date compend)
+    '''returns None\n\n
+    endScheduleCompliance(final SKDProjectRemote skdProject, final Date compend)\n
     '''
 def setNextDueDate():
-    '''public void setNextDueDate()
+    '''returns None\n\n
+    setNextDueDate()\n
     '''
 def updateNextStartAndEndDate():
-    '''public void updateNextStartAndEndDate()
+    '''returns None\n\n
+    updateNextStartAndEndDate()\n
     '''
 def updateTimeBasedNextDueDate():
-    '''public void updateTimeBasedNextDueDate()
+    '''returns None\n\n
+    updateTimeBasedNextDueDate()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def publish():
-    '''public void publish()
+    '''returns None\n\n
+    publish()\n
     '''
 def createBaseLine():
-    '''public MboRemote createBaseLine(final String baseLineName, final String baseLineDescription, final String baseLineMemo, final String inputName, final String scenarioType)
+    '''returns MboRemote\n\n
+    createBaseLine(final String baseLineName, final String baseLineDescription, final String baseLineMemo, final String inputName, final String scenarioType)\n
     '''
 def getBaseLineUniqueId():
-    '''public long getBaseLineUniqueId()
+    '''returns long\n\n
+    getBaseLineUniqueId()\n
     '''
 def getDefaultScenarioUniqueId():
-    '''public long getDefaultScenarioUniqueId(final String SKDProjectName)
+    '''returns long\n\n
+    getDefaultScenarioUniqueId(final String SKDProjectName)\n
     '''
 def setDefaultScenario():
-    '''public void setDefaultScenario(final SKDProjectRemote SKDProject)
+    '''returns None\n\n
+    setDefaultScenario(final SKDProjectRemote SKDProject)\n
     '''
 def canPublish():
-    '''public void canPublish()
+    '''returns None\n\n
+    canPublish()\n
     '''
 def canCreateScenario():
-    '''public void canCreateScenario()
+    '''returns None\n\n
+    canCreateScenario()\n
     '''
 def canCreateSnapShot():
-    '''public void canCreateSnapShot()
+    '''returns None\n\n
+    canCreateSnapShot()\n
     '''
 def setPublishFlag():
-    '''public void setPublishFlag(final boolean publish)
+    '''returns None\n\n
+    setPublishFlag(final boolean publish)\n
     '''
 def getPublishFlag():
-    '''public boolean getPublishFlag()
+    '''returns boolean\n\n
+    getPublishFlag()\n
     '''
 def setScenarioFlag():
-    '''public void setScenarioFlag(final boolean scenario)
+    '''returns None\n\n
+    setScenarioFlag(final boolean scenario)\n
     '''
 def getScenarioFlag():
-    '''public boolean getScenarioFlag()
+    '''returns boolean\n\n
+    getScenarioFlag()\n
     '''
 def setScenarioProjectString():
-    '''public void setScenarioProjectString(final MboRemote skdProject)
+    '''returns None\n\n
+    setScenarioProjectString(final MboRemote skdProject)\n
     '''
 def getScenarioString():
-    '''public String getScenarioString(final MboRemote skdProject)
-    '''
-def getQuickQueryQbe():
-    '''public HashMap<Long, Hashtable<String, String>> getQuickQueryQbe()
+    '''returns String\n\n
+    getScenarioString(final MboRemote skdProject)\n
     '''
 def putQuickQueryQbe():
-    '''public void putQuickQueryQbe(final long skdqueryid, final Hashtable<String, String> savedQbeAttributesQuickQuery)
-    '''
-def getEWOQuickQueryQbe():
-    '''public HashMap<Long, Hashtable<String, String>> getEWOQuickQueryQbe()
+    '''returns None\n\n
+    putQuickQueryQbe(final long skdqueryid, final Hashtable<String, String> savedQbeAttributesQuickQuery)\n
     '''
 def putEWOQuickQueryQbe():
-    '''public void putEWOQuickQueryQbe(final long skdprojectid, final Hashtable<String, String> savedQbeAttributesQuickQuery)
+    '''returns None\n\n
+    putEWOQuickQueryQbe(final long skdprojectid, final Hashtable<String, String> savedQbeAttributesQuickQuery)\n
     '''
 def setScenarioType():
-    '''public void setScenarioType(final int type)
-    public void setScenarioType(final String type)
+    '''returns None\n\n
+    setScenarioType(final int type)\n
+    setScenarioType(final String type)\n
     '''
 def getScenarioType():
-    '''public int getScenarioType()
+    '''returns int\n\n
+    getScenarioType()\n
     '''
 def getScenarioTypeStr():
-    '''public String getScenarioTypeStr()
+    '''returns String\n\n
+    getScenarioTypeStr()\n
     '''
 def addSKDProjectScenario():
-    '''public void addSKDProjectScenario(final String inputObj, final String ODMAppName, final String scenarioName, final String inputName, final long inputObjId)
+    '''returns None\n\n
+    addSKDProjectScenario(final String inputObj, final String ODMAppName, final String scenarioName, final String inputName, final long inputObjId)\n
     '''
 def deleteUncommitData():
-    '''public void deleteUncommitData()
+    '''returns None\n\n
+    deleteUncommitData()\n
     '''
 def deleteData():
-    '''public void deleteData(final Connection conn, final String objectName, final String msgStr, final long projectId)
+    '''returns None\n\n
+    deleteData(final Connection conn, final String objectName, final String msgStr, final long projectId)\n
     '''
 def hasDatesBeenUpdated():
-    '''public boolean hasDatesBeenUpdated()
+    '''returns boolean\n\n
+    hasDatesBeenUpdated()\n
     '''
 def runOptimization():
-    '''public boolean runOptimization(final UserInfo userInfo, final boolean async)
-    public boolean runOptimization(final UserInfo userInfo, final long skdOdmeRunIdIn, final boolean async)
+    '''returns boolean\n\n
+    runOptimization(final UserInfo userInfo, final boolean async)\n
+    runOptimization(final UserInfo userInfo, final long skdOdmeRunIdIn, final boolean async)\n
     '''
 def populateOriginDestMatrix():
-    '''public boolean populateOriginDestMatrix()
+    '''returns boolean\n\n
+    populateOriginDestMatrix()\n
     '''
 def needRefreshProject():
-    '''public boolean needRefreshProject()
+    '''returns boolean\n\n
+    needRefreshProject()\n
     '''
 def ShiftWorkperiod():
-    '''public MboRemote ShiftWorkperiod(final Date workdate, final String Orgid, final String Calnum, final String shiftnum)
+    '''returns MboRemote\n\n
+    ShiftWorkperiod(final Date workdate, final String Orgid, final String Calnum, final String shiftnum)\n
     '''
 def ShiftWorkingTime():
-    '''public boolean ShiftWorkingTime(final Date workdate, final String Orgid, final String Calnum, final String shiftnum)
+    '''returns boolean\n\n
+    ShiftWorkingTime(final Date workdate, final String Orgid, final String Calnum, final String shiftnum)\n
     '''
 def setProjectAssignDate():
-    '''public void setProjectAssignDate(final boolean next)
+    '''returns None\n\n
+    setProjectAssignDate(final boolean next)\n
     '''
 def gotoAssignDate():
-    '''public void gotoAssignDate(final String gotoday)
+    '''returns None\n\n
+    gotoAssignDate(final String gotoday)\n
     '''
 def createCronTaskInstance():
-    '''public void createCronTaskInstance(final boolean oneTimeCron)
-    public void createCronTaskInstance(final boolean oneTimeCron, String cronTaskName)
+    '''returns None\n\n
+    createCronTaskInstance(final boolean oneTimeCron)\n
+    createCronTaskInstance(final boolean oneTimeCron, String cronTaskName)\n
     '''
 def getProjectScenario():
-    '''public SKDProjectScenarioRemote getProjectScenario(final String cronTaskName)
+    '''returns SKDProjectScenarioRemote\n\n
+    getProjectScenario(final String cronTaskName)\n
     '''
 def removeCronTaskInstance():
-    '''public void removeCronTaskInstance(final boolean oneTimeCron)
-    public void removeCronTaskInstance(final boolean oneTimeCron, String cronTaskName)
+    '''returns None\n\n
+    removeCronTaskInstance(final boolean oneTimeCron)\n
+    removeCronTaskInstance(final boolean oneTimeCron, String cronTaskName)\n
     '''
 def dynamicScheduling():
-    '''public int dynamicScheduling()
+    '''returns int\n\n
+    dynamicScheduling()\n
     '''
 def assignLaborCrewFromSuggestSet():
-    '''public void assignLaborCrewFromSuggestSet(final MboSetRemote emWOAvailResSet)
+    '''returns None\n\n
+    assignLaborCrewFromSuggestSet(final MboSetRemote emWOAvailResSet)\n
     '''
 def updateActivityDates():
-    '''public void updateActivityDates()
+    '''returns None\n\n
+    updateActivityDates()\n
     '''
 def getProjectsList():
-    '''public MboSetRemote getProjectsList(final MboSetRemote resultSet, final String userName)
+    '''returns MboSetRemote\n\n
+    getProjectsList(final MboSetRemote resultSet, final String userName)\n
     '''
 def canCommit():
-    '''public void canCommit(final String personId)
+    '''returns None\n\n
+    canCommit(final String personId)\n
     '''
 def copyPersonsToCommPerson():
-    '''public void copyPersonsToCommPerson(final MboSetRemote personSet)
+    '''returns None\n\n
+    copyPersonsToCommPerson(final MboSetRemote personSet)\n
     '''
 def copyGroupsToCommGroup():
-    '''public void copyGroupsToCommGroup(final MboSetRemote groupSet)
+    '''returns None\n\n
+    copyGroupsToCommGroup(final MboSetRemote groupSet)\n
     '''
 def roll():
-    '''public int roll()
+    '''returns int\n\n
+    roll()\n
     '''
 def setRollDates():
-    '''public int setRollDates()
+    '''returns int\n\n
+    setRollDates()\n
     '''
 def isOptimizationInprogress():
-    '''public boolean isOptimizationInprogress()
+    '''returns boolean\n\n
+    isOptimizationInprogress()\n
     '''
 def getCurrentSkdODMERunId():
-    '''public long getCurrentSkdODMERunId()
+    '''returns long\n\n
+    getCurrentSkdODMERunId()\n
     '''
 def setCurrentSkdODMERunId():
-    '''public long setCurrentSkdODMERunId(final long skdODMERunID)
+    '''returns long\n\n
+    setCurrentSkdODMERunId(final long skdODMERunID)\n
     '''
 def getPopulateDataObjectsWhere():
-    '''public String getPopulateDataObjectsWhere()
+    '''returns String\n\n
+    getPopulateDataObjectsWhere()\n
     '''
 def getMaxSequenceName():
-    '''public String getMaxSequenceName(final String tbname)
-    '''
-def AsyncProcessRunOptimization():
-    '''public AsyncProcessRunOptimization(final UserInfo userInfo, final SKDProject project, final OptimizationServiceRemote optimizationService, final String odmApplicationName, final OptimizationInputProcessParameters inputProcessParameters, final OptimizationOutputProcessParameters outputProcessParameters)
+    '''returns String\n\n
+    getMaxSequenceName(final String tbname)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

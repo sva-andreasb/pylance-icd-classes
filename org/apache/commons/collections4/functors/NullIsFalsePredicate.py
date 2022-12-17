@@ -1,9 +1,8 @@
-def nullIsFalsePredicate():
-    '''public static <T> Predicate<T> nullIsFalsePredicate(final Predicate<? super T> predicate)
-    '''
-def NullIsFalsePredicate():
-    '''public NullIsFalsePredicate(final Predicate<? super T> predicate)
+def ():
+    '''returns NullIsFalsePredicate\n\n
+    (final Predicate<? super T> predicate)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T object)
+    '''returns boolean\n\n
+    evaluate(final T object)\n
     '''

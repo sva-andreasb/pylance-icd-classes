@@ -1,28 +1,37 @@
-def MetadataParser():
-    '''public MetadataParser(final MetadataService metadata)
+def ():
+    '''returns MetadataParser\n\n
+    (final MetadataService metadata)\n
     '''
 def containsMultipleSuperiors():
-    '''public boolean containsMultipleSuperiors(final String className)
+    '''returns boolean\n\n
+    containsMultipleSuperiors(final String className)\n
     '''
 def getNamingPolicyForClass():
-    '''public NamingPolicy getNamingPolicyForClass(final String className)
+    '''returns NamingPolicy\n\n
+    getNamingPolicyForClass(final String className)\n
     '''
 def getNamingRulesVersion():
-    '''public String getNamingRulesVersion(final MetadataService mds)
-    public String getNamingRulesVersion(final String namingRulesLocation)
+    '''returns String\n\n
+    getNamingRulesVersion(final MetadataService mds)\n
+    getNamingRulesVersion(final String namingRulesLocation)\n
     '''
 def getNextNamingPolicy():
-    '''public NamingPolicy getNextNamingPolicy(final String duplicateClassName)
+    '''returns NamingPolicy\n\n
+    getNextNamingPolicy(final String duplicateClassName)\n
     '''
 def isParent():
-    '''public boolean isParent(final String parent, final String child)
+    '''returns boolean\n\n
+    isParent(final String parent, final String child)\n
     '''
 def isSuperiorClass():
-    '''public boolean isSuperiorClass(final String className)
+    '''returns boolean\n\n
+    isSuperiorClass(final String className)\n
     '''
 def loadNamingRules():
-    '''public void loadNamingRules()
+    '''returns None\n\n
+    loadNamingRules()\n
     '''
 def isIdentifyingAttribute():
-    '''public boolean isIdentifyingAttribute(final String classType, final String attribute)
+    '''returns boolean\n\n
+    isIdentifyingAttribute(final String classType, final String attribute)\n
     '''

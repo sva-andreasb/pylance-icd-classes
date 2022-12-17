@@ -1,9 +1,8 @@
-def TestImportPackage():
-    '''public TestImportPackage(final IProgressMonitor monitor)
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns TestImportPackage\n\n
+    (final IProgressMonitor monitor)\n
     '''
 def parseAndImportPackageXml():
-    '''public void parseAndImportPackageXml(final String pkgFile)
+    '''returns None\n\n
+    parseAndImportPackageXml(final String pkgFile)\n
     '''

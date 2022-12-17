@@ -1,11 +1,14 @@
-def IoTMessageParser():
-    '''public IoTMessageParser(final String serviceName)
+def ():
+    '''returns IoTMessageParser\n\n
+    (final String serviceName)\n
     '''
 def parseMessage():
-    '''public MboSetRemote parseMessage(final byte[] jsonData, final UserInfo userInfo)
-    public MboSetRemote parseMessage(final byte[] jsonData, final MboSetRemote objectSet)
-    public MboSetRemote parseMessage(final byte[] jsonData, final MboSetRemote objectSet, final String nameTag)
+    '''returns MboSetRemote\n\n
+    parseMessage(final byte[] jsonData, final UserInfo userInfo)\n
+    parseMessage(final byte[] jsonData, final MboSetRemote objectSet)\n
+    parseMessage(final byte[] jsonData, final MboSetRemote objectSet, final String nameTag)\n
     '''
 def validateProperty():
-    '''public boolean validateProperty(final byte[] jsonData, final UserInfo userInfo, final String value)
+    '''returns boolean\n\n
+    validateProperty(final byte[] jsonData, final UserInfo userInfo, final String value)\n
     '''

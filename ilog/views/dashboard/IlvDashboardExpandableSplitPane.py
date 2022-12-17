@@ -1,24 +1,32 @@
-def IlvDashboardExpandableSplitPane():
-    '''public IlvDashboardExpandableSplitPane(final IlvDashboardExpandablePane newLeftComponent, final IlvDashboardExpandablePane newRightComponent)
+def ():
+    '''returns IlvDashboardExpandableSplitPane\n\n
+    (final IlvDashboardExpandablePane newLeftComponent, final IlvDashboardExpandablePane newRightComponent)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def setResizeWeight():
-    '''public void setResizeWeight(final double c)
+    '''returns None\n\n
+    setResizeWeight(final double c)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def setBottomComponent():
-    '''public void setBottomComponent(final Component bottomComponent)
+    '''returns None\n\n
+    setBottomComponent(final Component bottomComponent)\n
     '''
 def setLeftComponent():
-    '''public void setLeftComponent(final Component leftComponent)
+    '''returns None\n\n
+    setLeftComponent(final Component leftComponent)\n
     '''
 def setRightComponent():
-    '''public void setRightComponent(final Component rightComponent)
+    '''returns None\n\n
+    setRightComponent(final Component rightComponent)\n
     '''
 def setTopComponent():
-    '''public void setTopComponent(final Component topComponent)
+    '''returns None\n\n
+    setTopComponent(final Component topComponent)\n
     '''

@@ -1,3 +1,4 @@
-def FldMRStatus():
-    '''public FldMRStatus(final MboValue mbv)
+def ():
+    '''returns FldMRStatus\n\n
+    (final MboValue mbv)\n
     '''

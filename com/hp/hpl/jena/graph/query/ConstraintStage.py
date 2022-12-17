@@ -1,9 +1,12 @@
-def ConstraintStage():
-    '''public ConstraintStage(final Mapping map, final ExpressionSet constraint)
+def ():
+    '''returns ConstraintStage\n\n
+    (final Mapping map, final ExpressionSet constraint)\n
     '''
 def deliver():
-    '''public Pipe deliver(final Pipe L)
+    '''returns Pipe\n\n
+    deliver(final Pipe L)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

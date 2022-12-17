@@ -1,6 +1,8 @@
-def ThreadFilter():
-    '''public ThreadFilter(final String thread)
+def ():
+    '''returns ThreadFilter\n\n
+    (final String thread)\n
     '''
 def accept():
-    '''public boolean accept(final Packet packet)
+    '''returns boolean\n\n
+    accept(final Packet packet)\n
     '''

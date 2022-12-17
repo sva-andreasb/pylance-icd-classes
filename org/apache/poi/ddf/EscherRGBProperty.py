@@ -1,18 +1,24 @@
-def EscherRGBProperty():
-    '''public EscherRGBProperty(final short propertyNumber, final int rgbColor)
+def ():
+    '''returns EscherRGBProperty\n\n
+    (final short propertyNumber, final int rgbColor)\n
     '''
 def getRgbColor():
-    '''public int getRgbColor()
+    '''returns int\n\n
+    getRgbColor()\n
     '''
 def getRed():
-    '''public byte getRed()
+    '''returns byte\n\n
+    getRed()\n
     '''
 def getGreen():
-    '''public byte getGreen()
+    '''returns byte\n\n
+    getGreen()\n
     '''
 def getBlue():
-    '''public byte getBlue()
+    '''returns byte\n\n
+    getBlue()\n
     '''
 def toXml():
-    '''public String toXml(final String tab)
+    '''returns String\n\n
+    toXml(final String tab)\n
     '''

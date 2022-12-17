@@ -1,6 +1,8 @@
-def ConvertXML():
-    '''public ConvertXML()
+def ():
+    '''returns ConvertXML\n\n
+    ()\n
     '''
 def serializationEnd():
-    '''public byte[] serializationEnd(final byte[] serializedData)
+    '''returns byte[]\n\n
+    serializationEnd(final byte[] serializedData)\n
     '''

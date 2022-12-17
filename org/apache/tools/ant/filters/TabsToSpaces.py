@@ -1,13 +1,17 @@
-def TabsToSpaces():
-    '''public TabsToSpaces()
-    public TabsToSpaces(final Reader in)
+def ():
+    '''returns TabsToSpaces\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def setTablength():
-    '''public void setTablength(final int tabLength)
+    '''returns None\n\n
+    setTablength(final int tabLength)\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''

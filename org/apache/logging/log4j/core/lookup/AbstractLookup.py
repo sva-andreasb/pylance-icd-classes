@@ -1,3 +1,4 @@
 def lookup():
-    '''public String lookup(final String key)
+    '''returns String\n\n
+    lookup(final String key)\n
     '''

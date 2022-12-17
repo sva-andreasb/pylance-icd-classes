@@ -1,4 +1,5 @@
-def PersonalityConfigException():
-    '''public PersonalityConfigException()
-    public PersonalityConfigException(final String msg)
+def ():
+    '''returns PersonalityConfigException\n\n
+    ()\n
+    (final String msg)\n
     '''

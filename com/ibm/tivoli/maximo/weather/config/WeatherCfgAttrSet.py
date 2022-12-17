@@ -1,3 +1,4 @@
-def WeatherCfgAttrSet():
-    '''public WeatherCfgAttrSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherCfgAttrSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,12 +1,8 @@
-def transformingCollection():
-    '''public static <E> TransformedCollection<E> transformingCollection(final Collection<E> coll, final Transformer<? super E, ? extends E> transformer)
-    '''
-def transformedCollection():
-    '''public static <E> TransformedCollection<E> transformedCollection(final Collection<E> collection, final Transformer<? super E, ? extends E> transformer)
-    '''
 def add():
-    '''public boolean add(final E object)
+    '''returns boolean\n\n
+    add(final E object)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
     '''

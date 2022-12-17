@@ -1,0 +1,7 @@
+OK = "int  0"
+INFO = "int  1"
+WARNING = "int  2"
+ERROR = "int  4"
+CANCEL = "int  8"
+OK_INSTANCE = "Diagnostic  new BasicDiagnostic(0, \"org.eclipse.emf.common\", 0, CommonPlugin.INSTANCE.getString(\"_UI_OK_diagnostic_0\"), null)"
+CANCEL_INSTANCE = "Diagnostic  new BasicDiagnostic(8, \"org.eclipse.emf.common\", 0, CommonPlugin.INSTANCE.getString(\"_UI_Cancel_diagnostic_0\"), null)"

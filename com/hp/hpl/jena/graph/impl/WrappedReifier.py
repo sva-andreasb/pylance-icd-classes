@@ -1,48 +1,63 @@
-def WrappedReifier():
-    '''public WrappedReifier(final Reifier base, final Graph parent)
+def ():
+    '''returns WrappedReifier\n\n
+    (final Reifier base, final Graph parent)\n
     '''
 def getStyle():
-    '''public ReificationStyle getStyle()
+    '''returns ReificationStyle\n\n
+    getStyle()\n
     '''
 def getParentGraph():
-    '''public Graph getParentGraph()
+    '''returns Graph\n\n
+    getParentGraph()\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final TripleMatch m)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final TripleMatch m)\n
     '''
 def findExposed():
-    '''public ExtendedIterator<Triple> findExposed(final TripleMatch m)
+    '''returns ExtendedIterator<Triple>\n\n
+    findExposed(final TripleMatch m)\n
     '''
 def findEither():
-    '''public ExtendedIterator<Triple> findEither(final TripleMatch m, final boolean showHidden)
+    '''returns ExtendedIterator<Triple>\n\n
+    findEither(final TripleMatch m, final boolean showHidden)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def reifyAs():
-    '''public Node reifyAs(final Node n, final Triple t)
+    '''returns Node\n\n
+    reifyAs(final Node n, final Triple t)\n
     '''
 def hasTriple():
-    '''public boolean hasTriple(final Node n)
-    public boolean hasTriple(final Triple t)
+    '''returns boolean\n\n
+    hasTriple(final Node n)\n
+    hasTriple(final Triple t)\n
     '''
 def allNodes():
-    '''public ExtendedIterator<Node> allNodes()
-    public ExtendedIterator<Node> allNodes(final Triple t)
+    '''returns ExtendedIterator<Node>\n\n
+    allNodes()\n
+    allNodes(final Triple t)\n
     '''
 def remove():
-    '''public void remove(final Node n, final Triple t)
-    public void remove(final Triple t)
+    '''returns None\n\n
+    remove(final Node n, final Triple t)\n
+    remove(final Triple t)\n
     '''
 def handledAdd():
-    '''public boolean handledAdd(final Triple t)
+    '''returns boolean\n\n
+    handledAdd(final Triple t)\n
     '''
 def handledRemove():
-    '''public boolean handledRemove(final Triple t)
+    '''returns boolean\n\n
+    handledRemove(final Triple t)\n
     '''
 def getTriple():
-    '''public Triple getTriple(final Node n)
+    '''returns Triple\n\n
+    getTriple(final Node n)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

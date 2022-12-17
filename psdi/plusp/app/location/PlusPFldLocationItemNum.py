@@ -1,6 +1,8 @@
-def PlusPFldLocationItemNum():
-    '''public PlusPFldLocationItemNum(final MboValue arg0)
+def ():
+    '''returns PlusPFldLocationItemNum\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

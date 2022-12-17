@@ -1,3 +1,4 @@
-def SFWLineSet():
-    '''public SFWLineSet(final MboServerInterface ms)
+def ():
+    '''returns SFWLineSet\n\n
+    (final MboServerInterface ms)\n
     '''

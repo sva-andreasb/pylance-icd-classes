@@ -1,3 +1,4 @@
-def SKDEditConstraint():
-    '''public SKDEditConstraint(final MboSet ms)
+def ():
+    '''returns SKDEditConstraint\n\n
+    (final MboSet ms)\n
     '''

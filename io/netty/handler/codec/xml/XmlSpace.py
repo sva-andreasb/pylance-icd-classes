@@ -1,3 +1,4 @@
-def XmlSpace():
-    '''public XmlSpace(final String data)
+def ():
+    '''returns XmlSpace\n\n
+    (final String data)\n
     '''

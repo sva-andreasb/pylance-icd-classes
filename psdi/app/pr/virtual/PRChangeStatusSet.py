@@ -1,3 +1,4 @@
-def PRChangeStatusSet():
-    '''public PRChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PRChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

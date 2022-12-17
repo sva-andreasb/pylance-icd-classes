@@ -10,37 +10,44 @@ SOUTH_WEST = "String  \"South_West\""
 SOUTH_EAST = "String  \"South_East\""
 ABSOLUTE = "String  \"Absolute\""
 CENTER = "String  \"Center\""
-def IlvChartLayout():
-    '''public IlvChartLayout()
+def ():
+    '''returns IlvChartLayout\n\n
+    ()\n
     '''
 def addLayoutComponent():
-    '''public void addLayoutComponent(final Component component, final Object o)
-    public void addLayoutComponent(final String s, final Component b)
+    '''returns None\n\n
+    addLayoutComponent(final Component component, final Object o)\n
+    addLayoutComponent(final String s, final Component b)\n
     '''
 def removeLayoutComponent():
-    '''public void removeLayoutComponent(final Component component)
+    '''returns None\n\n
+    removeLayoutComponent(final Component component)\n
     '''
 def layoutContainer():
-    '''public void layoutContainer(final Container container)
-    '''
-def computeBounds():
-    '''public Map<Component, Rectangle> computeBounds(final Container container, final Rectangle value)
+    '''returns None\n\n
+    layoutContainer(final Container container)\n
     '''
 def preferredLayoutSize():
-    '''public Dimension preferredLayoutSize(final Container container)
+    '''returns Dimension\n\n
+    preferredLayoutSize(final Container container)\n
     '''
 def minimumLayoutSize():
-    '''public Dimension minimumLayoutSize(final Container container)
+    '''returns Dimension\n\n
+    minimumLayoutSize(final Container container)\n
     '''
 def maximumLayoutSize():
-    '''public Dimension maximumLayoutSize(final Container container)
+    '''returns Dimension\n\n
+    maximumLayoutSize(final Container container)\n
     '''
 def getLayoutAlignmentX():
-    '''public float getLayoutAlignmentX(final Container container)
+    '''returns float\n\n
+    getLayoutAlignmentX(final Container container)\n
     '''
 def getLayoutAlignmentY():
-    '''public float getLayoutAlignmentY(final Container container)
+    '''returns float\n\n
+    getLayoutAlignmentY(final Container container)\n
     '''
 def invalidateLayout():
-    '''public void invalidateLayout(final Container container)
+    '''returns None\n\n
+    invalidateLayout(final Container container)\n
     '''

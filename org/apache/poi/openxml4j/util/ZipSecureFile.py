@@ -1,67 +1,49 @@
-def setMinInflateRatio():
-    '''public static void setMinInflateRatio(final double ratio)
-    '''
-def getMinInflateRatio():
-    '''public static double getMinInflateRatio()
-    '''
-def setMaxEntrySize():
-    '''public static void setMaxEntrySize(final long maxEntrySize)
-    '''
-def getMaxEntrySize():
-    '''public static long getMaxEntrySize()
-    '''
-def setMaxTextSize():
-    '''public static void setMaxTextSize(final long maxTextSize)
-    '''
-def getMaxTextSize():
-    '''public static long getMaxTextSize()
-    '''
-def ZipSecureFile():
-    '''public ZipSecureFile(final File file, final int mode)
-    public ZipSecureFile(final File file)
-    public ZipSecureFile(final String name)
+def ():
+    '''returns ThresholdInputStream\n\n
+    (final File file, final int mode)\n
+    (final File file)\n
+    (final String name)\n
+    (final InputStream is, final ThresholdInputStream cis)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream(final ZipEntry entry)
-    '''
-def addThreshold():
-    '''public static ThresholdInputStream addThreshold(final InputStream zipIS)
+    '''returns InputStream\n\n
+    getInputStream(final ZipEntry entry)\n
     '''
 def run():
-    '''public ThresholdInputStream run()
-    '''
-def ThresholdInputStream():
-    '''public ThresholdInputStream(final InputStream is, final ThresholdInputStream cis)
+    '''returns ThresholdInputStream\n\n
+    run()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(final long n)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def advance():
-    '''public void advance(final int advance)
+    '''returns None\n\n
+    advance(final int advance)\n
     '''
 def getNextEntry():
-    '''public ZipEntry getNextEntry()
+    '''returns ZipEntry\n\n
+    getNextEntry()\n
     '''
 def closeEntry():
-    '''public void closeEntry()
+    '''returns None\n\n
+    closeEntry()\n
     '''
 def unread():
-    '''public void unread(final int b)
-    public void unread(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    unread(final int b)\n
+    unread(final byte[] b, final int off, final int len)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
+    '''returns boolean\n\n
+    markSupported()\n
     '''

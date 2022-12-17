@@ -1,35 +1,41 @@
 NAMESPACE = "String  \"urn:xmpp:http:upload:0\""
 NAMESPACE_0_2 = "String  \"urn:xmpp:http:upload\""
-def getInstanceFor():
-    '''public static synchronized HttpFileUploadManager getInstanceFor(final XMPPConnection connection)
-    '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def discoverUploadService():
-    '''public boolean discoverUploadService()
+    '''returns boolean\n\n
+    discoverUploadService()\n
     '''
 def isUploadServiceDiscovered():
-    '''public boolean isUploadServiceDiscovered()
+    '''returns boolean\n\n
+    isUploadServiceDiscovered()\n
     '''
 def getDefaultUploadService():
-    '''public UploadService getDefaultUploadService()
+    '''returns UploadService\n\n
+    getDefaultUploadService()\n
     '''
 def uploadFile():
-    '''public URL uploadFile(final File file)
-    public URL uploadFile(final File file, final UploadProgressListener listener)
+    '''returns URL\n\n
+    uploadFile(final File file)\n
+    uploadFile(final File file, final UploadProgressListener listener)\n
     '''
 def requestSlot():
-    '''public Slot requestSlot(final String filename, final long fileSize)
-    public Slot requestSlot(final String filename, final long fileSize, final String contentType)
-    public Slot requestSlot(final String filename, final long fileSize, final String contentType, final DomainBareJid uploadServiceAddress)
+    '''returns Slot\n\n
+    requestSlot(final String filename, final long fileSize)\n
+    requestSlot(final String filename, final long fileSize, final String contentType)\n
+    requestSlot(final String filename, final long fileSize, final String contentType, final DomainBareJid uploadServiceAddress)\n
     '''
 def setTlsContext():
-    '''public void setTlsContext(final SSLContext tlsContext)
+    '''returns None\n\n
+    setTlsContext(final SSLContext tlsContext)\n
     '''
 def useTlsSettingsFrom():
-    '''public void useTlsSettingsFrom(final ConnectionConfiguration connectionConfiguration)
+    '''returns None\n\n
+    useTlsSettingsFrom(final ConnectionConfiguration connectionConfiguration)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

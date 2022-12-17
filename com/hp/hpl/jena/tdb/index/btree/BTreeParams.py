@@ -1,46 +1,47 @@
 RootParent = "int  -2"
 NoParent = "int  -99"
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def BTreeParams():
-    '''public BTreeParams(final int order, final int keyLen, final int valLen)
-    public BTreeParams(final int order, final RecordFactory factory)
+def ():
+    '''returns BTreeParams\n\n
+    (final int order, final int keyLen, final int valLen)\n
+    (final int order, final RecordFactory factory)\n
     '''
 def getOrder():
-    '''public int getOrder()
-    '''
-def getPtrLength():
-    '''public static int getPtrLength()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def getRecordLength():
-    '''public int getRecordLength()
+    '''returns int\n\n
+    getRecordLength()\n
     '''
 def getRecordFactory():
-    '''public RecordFactory getRecordFactory()
+    '''returns RecordFactory\n\n
+    getRecordFactory()\n
     '''
 def getBlockSize():
-    '''public int getBlockSize()
-    '''
-def calcOrder():
-    '''public static int calcOrder(final int blockSize, final RecordFactory factory)
-    public static int calcOrder(int blockSize, final int recordLength)
-    '''
-def calcBlockSize():
-    '''public static int calcBlockSize(final int bTreeOrder, final RecordFactory factory)
+    '''returns int\n\n
+    getBlockSize()\n
     '''
 def getMaxRecNonLeaf():
-    '''public int getMaxRecNonLeaf()
+    '''returns int\n\n
+    getMaxRecNonLeaf()\n
     '''
 def getMaxRecLeaf():
-    '''public int getMaxRecLeaf()
+    '''returns int\n\n
+    getMaxRecLeaf()\n
     '''
 def getMaxPtr():
-    '''public int getMaxPtr()
+    '''returns int\n\n
+    getMaxPtr()\n
     '''
 def getMinRec():
-    '''public int getMinRec()
+    '''returns int\n\n
+    getMinRec()\n
     '''
 def getMinPtr():
-    '''public int getMinPtr()
+    '''returns int\n\n
+    getMinPtr()\n
     '''

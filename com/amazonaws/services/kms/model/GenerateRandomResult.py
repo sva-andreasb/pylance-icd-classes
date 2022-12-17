@@ -1,21 +1,28 @@
 def setPlaintext():
-    '''public void setPlaintext(final ByteBuffer plaintext)
+    '''returns None\n\n
+    setPlaintext(final ByteBuffer plaintext)\n
     '''
 def getPlaintext():
-    '''public ByteBuffer getPlaintext()
+    '''returns ByteBuffer\n\n
+    getPlaintext()\n
     '''
 def withPlaintext():
-    '''public GenerateRandomResult withPlaintext(final ByteBuffer plaintext)
+    '''returns GenerateRandomResult\n\n
+    withPlaintext(final ByteBuffer plaintext)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public GenerateRandomResult clone()
+    '''returns GenerateRandomResult\n\n
+    clone()\n
     '''

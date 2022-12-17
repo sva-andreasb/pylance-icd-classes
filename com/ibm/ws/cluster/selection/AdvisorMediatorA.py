@@ -1,30 +1,40 @@
-def AdvisorMediatorA():
-    '''public AdvisorMediatorA()
+def ():
+    '''returns AdvisorMediatorA\n\n
+    ()\n
     '''
 def isAvailable():
-    '''public boolean isAvailable(final Identity member)
+    '''returns boolean\n\n
+    isAvailable(final Identity member)\n
     '''
 def setAvailable():
-    '''public void setAvailable(final Identity member)
+    '''returns None\n\n
+    setAvailable(final Identity member)\n
     '''
 def setUnavailable():
-    '''public void setUnavailable(final Identity member)
+    '''returns None\n\n
+    setUnavailable(final Identity member)\n
     '''
 def isQuiesced():
-    '''public boolean isQuiesced(final Identity cluster, final Identity member)
+    '''returns boolean\n\n
+    isQuiesced(final Identity cluster, final Identity member)\n
     '''
 def setQuiesce():
-    '''public void setQuiesce(final Identity cluster, final Identity member)
+    '''returns None\n\n
+    setQuiesce(final Identity cluster, final Identity member)\n
     '''
 def unsetQuiesce():
-    '''public void unsetQuiesce(final Identity cluster, final Identity member)
+    '''returns None\n\n
+    unsetQuiesce(final Identity cluster, final Identity member)\n
     '''
 def getObservedWeight():
-    '''public int getObservedWeight(final Identity cluster, final Identity member)
+    '''returns int\n\n
+    getObservedWeight(final Identity cluster, final Identity member)\n
     '''
 def setObservedWeight():
-    '''public void setObservedWeight(final Identity cluster, final Identity member, final int weight)
+    '''returns None\n\n
+    setObservedWeight(final Identity cluster, final Identity member, final int weight)\n
     '''
 def tareObservedWeights():
-    '''public void tareObservedWeights(final Identity cluster)
+    '''returns None\n\n
+    tareObservedWeights(final Identity cluster)\n
     '''

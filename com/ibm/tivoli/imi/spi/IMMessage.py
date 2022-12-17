@@ -1,22 +1,28 @@
-def IMMessage():
-    '''public IMMessage(final IMUser sender, final IMUser receiver, final String message, final long timestamp)
+def ():
+    '''returns IMMessage\n\n
+    (final IMUser sender, final IMUser receiver, final String message, final long timestamp)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getReceiver():
-    '''public IMUser getReceiver()
+    '''returns IMUser\n\n
+    getReceiver()\n
     '''
 def getSender():
-    '''public IMUser getSender()
+    '''returns IMUser\n\n
+    getSender()\n
     '''
 def getTimestamp():
-    '''public long getTimestamp()
+    '''returns long\n\n
+    getTimestamp()\n
     '''
 def getFormatedMessage():
-    '''public String getFormatedMessage()
-    public static String getFormatedMessage(final String str, final String str2)
+    '''returns String\n\n
+    getFormatedMessage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

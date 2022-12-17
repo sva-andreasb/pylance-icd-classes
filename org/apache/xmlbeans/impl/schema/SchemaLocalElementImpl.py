@@ -1,39 +1,52 @@
-def SchemaLocalElementImpl():
-    '''public SchemaLocalElementImpl()
+def ():
+    '''returns SchemaLocalElementImpl\n\n
+    ()\n
     '''
 def blockExtension():
-    '''public boolean blockExtension()
+    '''returns boolean\n\n
+    blockExtension()\n
     '''
 def blockRestriction():
-    '''public boolean blockRestriction()
+    '''returns boolean\n\n
+    blockRestriction()\n
     '''
 def blockSubstitution():
-    '''public boolean blockSubstitution()
+    '''returns boolean\n\n
+    blockSubstitution()\n
     '''
 def isAbstract():
-    '''public boolean isAbstract()
+    '''returns boolean\n\n
+    isAbstract()\n
     '''
 def setAbstract():
-    '''public void setAbstract(final boolean abs)
+    '''returns None\n\n
+    setAbstract(final boolean abs)\n
     '''
 def setBlock():
-    '''public void setBlock(final boolean extension, final boolean restriction, final boolean substitution)
+    '''returns None\n\n
+    setBlock(final boolean extension, final boolean restriction, final boolean substitution)\n
     '''
 def setAnnotation():
-    '''public void setAnnotation(final SchemaAnnotation ann)
+    '''returns None\n\n
+    setAnnotation(final SchemaAnnotation ann)\n
     '''
 def setWsdlArrayType():
-    '''public void setWsdlArrayType(final SOAPArrayType arrayType)
+    '''returns None\n\n
+    setWsdlArrayType(final SOAPArrayType arrayType)\n
     '''
 def getAnnotation():
-    '''public SchemaAnnotation getAnnotation()
+    '''returns SchemaAnnotation\n\n
+    getAnnotation()\n
     '''
 def getWSDLArrayType():
-    '''public SOAPArrayType getWSDLArrayType()
+    '''returns SOAPArrayType\n\n
+    getWSDLArrayType()\n
     '''
 def setIdentityConstraints():
-    '''public void setIdentityConstraints(final SchemaIdentityConstraint.Ref[] constraints)
+    '''returns None\n\n
+    setIdentityConstraints(final SchemaIdentityConstraint.Ref[] constraints)\n
     '''
 def getIdentityConstraints():
-    '''public SchemaIdentityConstraint[] getIdentityConstraints()
+    '''returns SchemaIdentityConstraint[]\n\n
+    getIdentityConstraints()\n
     '''

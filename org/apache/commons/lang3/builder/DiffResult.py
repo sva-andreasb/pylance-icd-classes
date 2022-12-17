@@ -1,11 +1,14 @@
 OBJECTS_SAME_STRING = "String  \"\""
 def getNumberOfDiffs():
-    '''public int getNumberOfDiffs()
+    '''returns int\n\n
+    getNumberOfDiffs()\n
     '''
 def getToStringStyle():
-    '''public ToStringStyle getToStringStyle()
+    '''returns ToStringStyle\n\n
+    getToStringStyle()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final ToStringStyle style)
+    '''returns String\n\n
+    toString()\n
+    toString(final ToStringStyle style)\n
     '''

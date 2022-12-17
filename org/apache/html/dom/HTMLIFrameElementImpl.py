@@ -1,63 +1,84 @@
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getFrameBorder():
-    '''public String getFrameBorder()
+    '''returns String\n\n
+    getFrameBorder()\n
     '''
 def setFrameBorder():
-    '''public void setFrameBorder(final String s)
+    '''returns None\n\n
+    setFrameBorder(final String s)\n
     '''
 def getHeight():
-    '''public String getHeight()
+    '''returns String\n\n
+    getHeight()\n
     '''
 def setHeight():
-    '''public void setHeight(final String s)
+    '''returns None\n\n
+    setHeight(final String s)\n
     '''
 def getLongDesc():
-    '''public String getLongDesc()
+    '''returns String\n\n
+    getLongDesc()\n
     '''
 def setLongDesc():
-    '''public void setLongDesc(final String s)
+    '''returns None\n\n
+    setLongDesc(final String s)\n
     '''
 def getMarginHeight():
-    '''public String getMarginHeight()
+    '''returns String\n\n
+    getMarginHeight()\n
     '''
 def setMarginHeight():
-    '''public void setMarginHeight(final String s)
+    '''returns None\n\n
+    setMarginHeight(final String s)\n
     '''
 def getMarginWidth():
-    '''public String getMarginWidth()
+    '''returns String\n\n
+    getMarginWidth()\n
     '''
 def setMarginWidth():
-    '''public void setMarginWidth(final String s)
+    '''returns None\n\n
+    setMarginWidth(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getScrolling():
-    '''public String getScrolling()
+    '''returns String\n\n
+    getScrolling()\n
     '''
 def setScrolling():
-    '''public void setScrolling(final String s)
+    '''returns None\n\n
+    setScrolling(final String s)\n
     '''
 def getSrc():
-    '''public String getSrc()
+    '''returns String\n\n
+    getSrc()\n
     '''
 def setSrc():
-    '''public void setSrc(final String s)
+    '''returns None\n\n
+    setSrc(final String s)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final String s)
+    '''returns None\n\n
+    setWidth(final String s)\n
     '''
-def HTMLIFrameElementImpl():
-    '''public HTMLIFrameElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLIFrameElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

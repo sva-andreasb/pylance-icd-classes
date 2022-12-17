@@ -2,21 +2,27 @@ SELECTION = "int  0"
 MOVE = "int  1"
 ADD = "int  2"
 ACTION = "int  3"
-def DiagramEvent():
-    '''public DiagramEvent(final Object source, final int type, final Object object, final MouseEvent e)
+def ():
+    '''returns DiagramEvent\n\n
+    (final Object source, final int type, final Object object, final MouseEvent e)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getLocation():
-    '''public Point getLocation()
+    '''returns Point\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final Point location)
+    '''returns None\n\n
+    setLocation(final Point location)\n
     '''
 def getObject():
-    '''public Object getObject()
+    '''returns Object\n\n
+    getObject()\n
     '''
 def getMouseEvent():
-    '''public MouseEvent getMouseEvent()
+    '''returns MouseEvent\n\n
+    getMouseEvent()\n
     '''

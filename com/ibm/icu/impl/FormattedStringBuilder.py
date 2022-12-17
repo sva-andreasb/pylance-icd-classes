@@ -1,98 +1,127 @@
-def FormattedStringBuilder():
-    '''public FormattedStringBuilder()
-    public FormattedStringBuilder(final int capacity)
-    public FormattedStringBuilder(final FormattedStringBuilder source)
+def ():
+    '''returns FormattedStringBuilder\n\n
+    ()\n
+    (final int capacity)\n
+    (final FormattedStringBuilder source)\n
     '''
 def copyFrom():
-    '''public void copyFrom(final FormattedStringBuilder source)
+    '''returns None\n\n
+    copyFrom(final FormattedStringBuilder source)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def codePointCount():
-    '''public int codePointCount()
+    '''returns int\n\n
+    codePointCount()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def fieldAt():
-    '''public Object fieldAt(final int index)
+    '''returns Object\n\n
+    fieldAt(final int index)\n
     '''
 def getFirstCodePoint():
-    '''public int getFirstCodePoint()
+    '''returns int\n\n
+    getFirstCodePoint()\n
     '''
 def getLastCodePoint():
-    '''public int getLastCodePoint()
+    '''returns int\n\n
+    getLastCodePoint()\n
     '''
 def codePointAt():
-    '''public int codePointAt(final int index)
+    '''returns int\n\n
+    codePointAt(final int index)\n
     '''
 def codePointBefore():
-    '''public int codePointBefore(final int index)
+    '''returns int\n\n
+    codePointBefore(final int index)\n
     '''
 def clear():
-    '''public FormattedStringBuilder clear()
+    '''returns FormattedStringBuilder\n\n
+    clear()\n
     '''
 def setAppendIndex():
-    '''public void setAppendIndex(final int index)
+    '''returns None\n\n
+    setAppendIndex(final int index)\n
     '''
 def appendChar16():
-    '''public int appendChar16(final char codeUnit, final Object field)
+    '''returns int\n\n
+    appendChar16(final char codeUnit, final Object field)\n
     '''
 def insertChar16():
-    '''public int insertChar16(final int index, final char codeUnit, final Object field)
+    '''returns int\n\n
+    insertChar16(final int index, final char codeUnit, final Object field)\n
     '''
 def appendCodePoint():
-    '''public int appendCodePoint(final int codePoint, final Object field)
+    '''returns int\n\n
+    appendCodePoint(final int codePoint, final Object field)\n
     '''
 def insertCodePoint():
-    '''public int insertCodePoint(final int index, final int codePoint, final Object field)
+    '''returns int\n\n
+    insertCodePoint(final int index, final int codePoint, final Object field)\n
     '''
 def append():
-    '''public int append(final CharSequence sequence, final Object field)
-    public int append(final char[] chars, final Object[] fields)
-    public int append(final FormattedStringBuilder other)
-    public Appendable append(final CharSequence csq)
-    public Appendable append(final CharSequence csq, final int start, final int end)
-    public Appendable append(final char c)
+    '''returns Appendable\n\n
+    append(final CharSequence sequence, final Object field)\n
+    append(final char[] chars, final Object[] fields)\n
+    append(final FormattedStringBuilder other)\n
+    append(final CharSequence csq)\n
+    append(final CharSequence csq, final int start, final int end)\n
+    append(final char c)\n
     '''
 def insert():
-    '''public int insert(final int index, final CharSequence sequence, final Object field)
-    public int insert(final int index, final CharSequence sequence, final int start, final int end, final Object field)
-    public int insert(final int index, final char[] chars, final Object[] fields)
-    public int insert(final int index, final FormattedStringBuilder other)
+    '''returns int\n\n
+    insert(final int index, final CharSequence sequence, final Object field)\n
+    insert(final int index, final CharSequence sequence, final int start, final int end, final Object field)\n
+    insert(final int index, final char[] chars, final Object[] fields)\n
+    insert(final int index, final FormattedStringBuilder other)\n
     '''
 def splice():
-    '''public int splice(final int startThis, final int endThis, final CharSequence sequence, final int startOther, final int endOther, final Object field)
+    '''returns int\n\n
+    splice(final int startThis, final int endThis, final CharSequence sequence, final int startOther, final int endOther, final Object field)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''
 def subString():
-    '''public String subString(final int start, final int end)
+    '''returns String\n\n
+    subString(final int start, final int end)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toDebugString():
-    '''public String toDebugString()
+    '''returns String\n\n
+    toDebugString()\n
     '''
 def toCharArray():
-    '''public char[] toCharArray()
+    '''returns char[]\n\n
+    toCharArray()\n
     '''
 def toFieldArray():
-    '''public Object[] toFieldArray()
+    '''returns Object[]\n\n
+    toFieldArray()\n
     '''
 def setAppendableField():
-    '''public void setAppendableField(final Object field)
+    '''returns None\n\n
+    setAppendableField(final Object field)\n
     '''
 def contentEquals():
-    '''public boolean contentEquals(final char[] chars, final Object[] fields)
-    public boolean contentEquals(final FormattedStringBuilder other)
+    '''returns boolean\n\n
+    contentEquals(final char[] chars, final Object[] fields)\n
+    contentEquals(final FormattedStringBuilder other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

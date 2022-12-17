@@ -1,3 +1,4 @@
-def PlusPBSHistorySet():
-    '''public PlusPBSHistorySet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPBSHistorySet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''

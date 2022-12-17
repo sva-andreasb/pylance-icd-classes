@@ -1,3 +1,4 @@
-def KPITemplateSet():
-    '''public KPITemplateSet(final MboServerInterface ms)
+def ():
+    '''returns KPITemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

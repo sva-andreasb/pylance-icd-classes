@@ -1,0 +1,5 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STCrossBetween.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"stcrossbetweenf504type\")"
+BETWEEN = "Enum  Enum.forString(\"between\")"
+MID_CAT = "Enum  Enum.forString(\"midCat\")"
+INT_BETWEEN = "int  1"
+INT_MID_CAT = "int  2"

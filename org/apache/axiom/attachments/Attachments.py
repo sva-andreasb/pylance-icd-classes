@@ -1,56 +1,73 @@
 def getLifecycleManager():
-    '''public LifecycleManager getLifecycleManager()
+    '''returns LifecycleManager\n\n
+    getLifecycleManager()\n
     '''
 def setLifecycleManager():
-    '''public void setLifecycleManager(final LifecycleManager manager)
+    '''returns None\n\n
+    setLifecycleManager(final LifecycleManager manager)\n
     '''
-def Attachments():
-    '''public Attachments(final LifecycleManager manager, final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold)
-    public Attachments(final LifecycleManager manager, final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold, final int contentLength)
-    public Attachments(final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold)
-    public Attachments(final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold, final int contentLength)
-    public Attachments(final InputStream inStream, final String contentTypeString)
-    public Attachments()
+def ():
+    '''returns Attachments\n\n
+    (final LifecycleManager manager, final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold)\n
+    (final LifecycleManager manager, final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold, final int contentLength)\n
+    (final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold)\n
+    (final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold, final int contentLength)\n
+    (final InputStream inStream, final String contentTypeString)\n
+    ()\n
     '''
 def getAttachmentSpecType():
-    '''public String getAttachmentSpecType()
+    '''returns String\n\n
+    getAttachmentSpecType()\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler(final String blobContentID)
+    '''returns DataHandler\n\n
+    getDataHandler(final String blobContentID)\n
     '''
 def addDataHandler():
-    '''public void addDataHandler(final String contentID, final DataHandler dataHandler)
+    '''returns None\n\n
+    addDataHandler(final String contentID, final DataHandler dataHandler)\n
     '''
 def removeDataHandler():
-    '''public void removeDataHandler(final String blobContentID)
+    '''returns None\n\n
+    removeDataHandler(final String blobContentID)\n
     '''
 def getSOAPPartInputStream():
-    '''public InputStream getSOAPPartInputStream()
+    '''returns InputStream\n\n
+    getSOAPPartInputStream()\n
     '''
 def getSOAPPartContentID():
-    '''public String getSOAPPartContentID()
+    '''returns String\n\n
+    getSOAPPartContentID()\n
     '''
 def getSOAPPartContentType():
-    '''public String getSOAPPartContentType()
+    '''returns String\n\n
+    getSOAPPartContentType()\n
     '''
 def getIncomingAttachmentStreams():
-    '''public IncomingAttachmentStreams getIncomingAttachmentStreams()
+    '''returns IncomingAttachmentStreams\n\n
+    getIncomingAttachmentStreams()\n
     '''
 def getAllContentIDs():
-    '''public String[] getAllContentIDs()
+    '''returns String[]\n\n
+    getAllContentIDs()\n
     '''
 def getContentIDSet():
-    '''public Set getContentIDSet()
+    '''returns Set\n\n
+    getContentIDSet()\n
     '''
 def getMap():
-    '''public Map getMap()
+    '''returns Map\n\n
+    getMap()\n
     '''
 def getContentIDList():
-    '''public List getContentIDList()
+    '''returns List\n\n
+    getContentIDList()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getIncomingAttachmentsAsSingleStream():
-    '''public InputStream getIncomingAttachmentsAsSingleStream()
+    '''returns InputStream\n\n
+    getIncomingAttachmentsAsSingleStream()\n
     '''

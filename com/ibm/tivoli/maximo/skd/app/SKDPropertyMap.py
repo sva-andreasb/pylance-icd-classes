@@ -1,12 +1,16 @@
-def SKDPropertyMap():
-    '''public SKDPropertyMap(final MboSet ms)
+def ():
+    '''returns SKDPropertyMap\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def checkSKDAttrDuplicates():
-    '''public void checkSKDAttrDuplicates(final String objectname, final String skdobjectname, final String skdattributename)
+    '''returns None\n\n
+    checkSKDAttrDuplicates(final String objectname, final String skdobjectname, final String skdattributename)\n
     '''

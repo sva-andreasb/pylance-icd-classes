@@ -1,6 +1,8 @@
-def ShowTaskRelationSet():
-    '''public ShowTaskRelationSet(final MboRemote owner)
+def ():
+    '''returns ShowTaskRelationSet\n\n
+    (final MboRemote owner)\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''

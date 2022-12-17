@@ -1,18 +1,24 @@
 def instantdelete():
-    '''public int instantdelete()
+    '''returns int\n\n
+    instantdelete()\n
     '''
 def createtmplt():
-    '''public int createtmplt()
+    '''returns int\n\n
+    createtmplt()\n
     '''
 def addtofav():
-    '''public int addtofav()
+    '''returns int\n\n
+    addtofav()\n
     '''
 def distcosts():
-    '''public int distcosts()
+    '''returns int\n\n
+    distcosts()\n
     '''
 def addfromreq():
-    '''public int addfromreq()
+    '''returns int\n\n
+    addfromreq()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

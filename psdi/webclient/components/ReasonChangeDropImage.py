@@ -1,6 +1,8 @@
 def hiddenByProperty():
-    '''public boolean hiddenByProperty()
+    '''returns boolean\n\n
+    hiddenByProperty()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''

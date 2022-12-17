@@ -1,90 +1,116 @@
 def validateInstrAsManual():
-    '''public void validateInstrAsManual()
+    '''returns None\n\n
+    validateInstrAsManual()\n
     '''
 def setInstrFlagsAsManual():
-    '''public void setInstrFlagsAsManual(final boolean flag)
+    '''returns None\n\n
+    setInstrFlagsAsManual(final boolean flag)\n
     '''
 def setInstrTolerancesFlags():
-    '''public void setInstrTolerancesFlags(final MboRemote mboRemote, final boolean summed, final boolean single, final boolean flag, final boolean forNonLinear)
+    '''returns None\n\n
+    setInstrTolerancesFlags(final MboRemote mboRemote, final boolean summed, final boolean single, final boolean flag, final boolean forNonLinear)\n
     '''
 def setByInstrType():
-    '''public void setByInstrType(final MboRemote mboRemote)
+    '''returns None\n\n
+    setByInstrType(final MboRemote mboRemote)\n
     '''
 def setFlagsByPointsType():
-    '''public void setFlagsByPointsType(final MboRemote mboRemote, final boolean flag)
+    '''returns None\n\n
+    setFlagsByPointsType(final MboRemote mboRemote, final boolean flag)\n
     '''
 def setBlankByPointsType():
-    '''public void setBlankByPointsType(final MboRemote mboRemote)
+    '''returns None\n\n
+    setBlankByPointsType(final MboRemote mboRemote)\n
     '''
 def setBlankInstrTolerances():
-    '''public void setBlankInstrTolerances(final MboRemote mboRemote, final boolean summed, final boolean single, final boolean forNonLinear)
+    '''returns None\n\n
+    setBlankInstrTolerances(final MboRemote mboRemote, final boolean summed, final boolean single, final boolean forNonLinear)\n
     '''
 def isAllBlankByPointsType():
-    '''public boolean isAllBlankByPointsType(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    isAllBlankByPointsType(final MboRemote mboRemote)\n
     '''
 def isAllBlankInstrTolerances():
-    '''public boolean isAllBlankInstrTolerances(final MboRemote mboRemote, final boolean summed, final boolean single, final boolean forNonLinear)
+    '''returns boolean\n\n
+    isAllBlankInstrTolerances(final MboRemote mboRemote, final boolean summed, final boolean single, final boolean forNonLinear)\n
     '''
 def setFlagsByInstrType():
-    '''public void setFlagsByInstrType(final MboRemote mboRemote, final boolean flag, final boolean flagP)
+    '''returns None\n\n
+    setFlagsByInstrType(final MboRemote mboRemote, final boolean flag, final boolean flagP)\n
     '''
 def getInstrTolsList():
-    '''public ArrayList getInstrTolsList(final boolean summed, final boolean single, final boolean forNonLinear)
+    '''returns ArrayList\n\n
+    getInstrTolsList(final boolean summed, final boolean single, final boolean forNonLinear)\n
     '''
-def getFullInstrTolsList():
-    '''public static ArrayList getFullInstrTolsList()
-    '''
-def PlusCDSInstr():
-    '''public PlusCDSInstr(final MboSet ms)
+def ():
+    '''returns PlusCDSInstr\n\n
+    (final MboSet ms)\n
     '''
 def changePointsEU():
-    '''public void changePointsEU()
+    '''returns None\n\n
+    changePointsEU()\n
     '''
 def getOwner():
-    '''public MboRemote getOwner()
+    '''returns MboRemote\n\n
+    getOwner()\n
     '''
 def setInstrAsNonLinear():
-    '''public void setInstrAsNonLinear(final boolean flag)
+    '''returns None\n\n
+    setInstrAsNonLinear(final boolean flag)\n
     '''
 def validateInstrAsNonLinear():
-    '''public void validateInstrAsNonLinear()
+    '''returns None\n\n
+    validateInstrAsNonLinear()\n
     '''
 def setInstrAsRepeatable():
-    '''public void setInstrAsRepeatable(final boolean repeatable)
+    '''returns None\n\n
+    setInstrAsRepeatable(final boolean repeatable)\n
     '''
 def setInstrFieldFlag():
-    '''public void setInstrFieldFlag()
+    '''returns None\n\n
+    setInstrFieldFlag()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setFieldEditibilityFlags():
-    '''public void setFieldEditibilityFlags()
+    '''returns None\n\n
+    setFieldEditibilityFlags()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def childHasChanged():
-    '''public void childHasChanged()
+    '''returns None\n\n
+    childHasChanged()\n
     '''
 def copyAttributesValues():
-    '''public void copyAttributesValues(final MboRemote mbo, final MboSetRemote mboset, final long mboAddFlags)
+    '''returns None\n\n
+    copyAttributesValues(final MboRemote mbo, final MboSetRemote mboset, final long mboAddFlags)\n
     '''

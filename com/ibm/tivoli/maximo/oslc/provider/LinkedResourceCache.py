@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final LinkedResourceCache getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMatchingExpr():
-    '''public String[] getMatchingExpr(final MboRemote parent, final String relation)
+    '''returns String[]\n\n
+    getMatchingExpr(final MboRemote parent, final String relation)\n
     '''

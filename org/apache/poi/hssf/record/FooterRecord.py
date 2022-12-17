@@ -1,14 +1,18 @@
 sid = "short  21"
-def FooterRecord():
-    '''public FooterRecord(final String text)
-    public FooterRecord(final RecordInputStream in)
+def ():
+    '''returns FooterRecord\n\n
+    (final String text)\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public FooterRecord clone()
+    '''returns FooterRecord\n\n
+    clone()\n
     '''

@@ -1,26 +1,18 @@
-def Categories():
-    '''public Categories()
-    public Categories(final String aValue)
-    public Categories(final ParameterList aList, final String aValue)
-    public Categories(final TextList cList)
-    public Categories(final ParameterList aList, final TextList cList)
-    '''
-def setValue():
-    '''public final void setValue(final String aValue)
-    '''
-def getCategories():
-    '''public final TextList getCategories()
-    '''
-def getValue():
-    '''public final String getValue()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final String aValue)\n
+    (final ParameterList aList, final String aValue)\n
+    (final TextList cList)\n
+    (final ParameterList aList, final TextList cList)\n
+    ()\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns None\n\n
+    validate()\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

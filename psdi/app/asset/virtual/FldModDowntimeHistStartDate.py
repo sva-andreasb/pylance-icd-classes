@@ -1,6 +1,8 @@
-def FldModDowntimeHistStartDate():
-    '''public FldModDowntimeHistStartDate(final MboValue mbv)
+def ():
+    '''returns FldModDowntimeHistStartDate\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

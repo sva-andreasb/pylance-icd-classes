@@ -1,3 +1,4 @@
-def SKDODMEMsg():
-    '''public SKDODMEMsg(final MboSet ms)
+def ():
+    '''returns SKDODMEMsg\n\n
+    (final MboSet ms)\n
     '''

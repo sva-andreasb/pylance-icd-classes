@@ -1,166 +1,205 @@
-def CSSOMValue():
-    '''public CSSOMValue(final ValueProvider vp)
+def ():
+    '''returns ListComponent\n\n
+    (final ValueProvider vp)\n
+    (final int idx)\n
     '''
 def setModificationHandler():
-    '''public void setModificationHandler(final ModificationHandler h)
+    '''returns None\n\n
+    setModificationHandler(final ModificationHandler h)\n
     '''
 def getCssText():
-    '''public String getCssText()
-    public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
+    getCssText()\n
     '''
 def setCssText():
-    '''public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
-    public void setCssText(final String cssText)
+    '''returns None\n\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
+    setCssText(final String cssText)\n
     '''
 def getCssValueType():
-    '''public short getCssValueType()
-    public short getCssValueType()
+    '''returns short\n\n
+    getCssValueType()\n
+    getCssValueType()\n
     '''
 def getPrimitiveType():
-    '''public short getPrimitiveType()
-    public short getPrimitiveType()
+    '''returns short\n\n
+    getPrimitiveType()\n
+    getPrimitiveType()\n
     '''
 def setFloatValue():
-    '''public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
-    public void setFloatValue(final short unitType, final float floatValue)
+    '''returns None\n\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
+    setFloatValue(final short unitType, final float floatValue)\n
     '''
 def getFloatValue():
-    '''public float getFloatValue(final short unitType)
-    public float getFloatValue(final short unitType)
-    '''
-def convertFloatValue():
-    '''public static float convertFloatValue(final short unitType, final Value value)
+    '''returns float\n\n
+    getFloatValue(final short unitType)\n
+    getFloatValue(final short unitType)\n
     '''
 def setStringValue():
-    '''public void setStringValue(final short stringType, final String stringValue)
-    public void setStringValue(final short stringType, final String stringValue)
-    public void setStringValue(final short stringType, final String stringValue)
+    '''returns None\n\n
+    setStringValue(final short stringType, final String stringValue)\n
+    setStringValue(final short stringType, final String stringValue)\n
+    setStringValue(final short stringType, final String stringValue)\n
     '''
 def getStringValue():
-    '''public String getStringValue()
-    public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
+    getStringValue()\n
     '''
 def getCounterValue():
-    '''public Counter getCounterValue()
-    public Counter getCounterValue()
+    '''returns Counter\n\n
+    getCounterValue()\n
+    getCounterValue()\n
     '''
 def getRectValue():
-    '''public Rect getRectValue()
-    public Rect getRectValue()
+    '''returns Rect\n\n
+    getRectValue()\n
+    getRectValue()\n
     '''
 def getRGBColorValue():
-    '''public RGBColor getRGBColorValue()
-    public RGBColor getRGBColorValue()
+    '''returns RGBColor\n\n
+    getRGBColorValue()\n
+    getRGBColorValue()\n
     '''
 def getLength():
-    '''public int getLength()
-    public int getLength()
+    '''returns int\n\n
+    getLength()\n
+    getLength()\n
     '''
 def item():
-    '''public CSSValue item(final int index)
-    public CSSValue item(final int index)
+    '''returns CSSValue\n\n
+    item(final int index)\n
+    item(final int index)\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def getListStyle():
-    '''public String getListStyle()
+    '''returns String\n\n
+    getListStyle()\n
     '''
 def getSeparator():
-    '''public String getSeparator()
+    '''returns String\n\n
+    getSeparator()\n
     '''
 def getTop():
-    '''public CSSPrimitiveValue getTop()
+    '''returns CSSPrimitiveValue\n\n
+    getTop()\n
     '''
 def getRight():
-    '''public CSSPrimitiveValue getRight()
+    '''returns CSSPrimitiveValue\n\n
+    getRight()\n
     '''
 def getBottom():
-    '''public CSSPrimitiveValue getBottom()
+    '''returns CSSPrimitiveValue\n\n
+    getBottom()\n
     '''
 def getLeft():
-    '''public CSSPrimitiveValue getLeft()
+    '''returns CSSPrimitiveValue\n\n
+    getLeft()\n
     '''
 def getRed():
-    '''public CSSPrimitiveValue getRed()
+    '''returns CSSPrimitiveValue\n\n
+    getRed()\n
     '''
 def getGreen():
-    '''public CSSPrimitiveValue getGreen()
+    '''returns CSSPrimitiveValue\n\n
+    getGreen()\n
     '''
 def getBlue():
-    '''public CSSPrimitiveValue getBlue()
+    '''returns CSSPrimitiveValue\n\n
+    getBlue()\n
     '''
 def floatValueChanged():
-    '''public void floatValueChanged(final short unit, final float value)
+    '''returns None\n\n
+    floatValueChanged(final short unit, final float value)\n
     '''
 def stringValueChanged():
-    '''public void stringValueChanged(final short type, final String value)
+    '''returns None\n\n
+    stringValueChanged(final short type, final String value)\n
     '''
 def leftTextChanged():
-    '''public void leftTextChanged(String text)
+    '''returns None\n\n
+    leftTextChanged(String text)\n
     '''
 def leftFloatValueChanged():
-    '''public void leftFloatValueChanged(final short unit, final float value)
+    '''returns None\n\n
+    leftFloatValueChanged(final short unit, final float value)\n
     '''
 def topTextChanged():
-    '''public void topTextChanged(String text)
+    '''returns None\n\n
+    topTextChanged(String text)\n
     '''
 def topFloatValueChanged():
-    '''public void topFloatValueChanged(final short unit, final float value)
+    '''returns None\n\n
+    topFloatValueChanged(final short unit, final float value)\n
     '''
 def rightTextChanged():
-    '''public void rightTextChanged(String text)
+    '''returns None\n\n
+    rightTextChanged(String text)\n
     '''
 def rightFloatValueChanged():
-    '''public void rightFloatValueChanged(final short unit, final float value)
+    '''returns None\n\n
+    rightFloatValueChanged(final short unit, final float value)\n
     '''
 def bottomTextChanged():
-    '''public void bottomTextChanged(String text)
+    '''returns None\n\n
+    bottomTextChanged(String text)\n
     '''
 def bottomFloatValueChanged():
-    '''public void bottomFloatValueChanged(final short unit, final float value)
+    '''returns None\n\n
+    bottomFloatValueChanged(final short unit, final float value)\n
     '''
 def redTextChanged():
-    '''public void redTextChanged(String text)
+    '''returns None\n\n
+    redTextChanged(String text)\n
     '''
 def redFloatValueChanged():
-    '''public void redFloatValueChanged(final short unit, final float value)
+    '''returns None\n\n
+    redFloatValueChanged(final short unit, final float value)\n
     '''
 def greenTextChanged():
-    '''public void greenTextChanged(String text)
+    '''returns None\n\n
+    greenTextChanged(String text)\n
     '''
 def greenFloatValueChanged():
-    '''public void greenFloatValueChanged(final short unit, final float value)
+    '''returns None\n\n
+    greenFloatValueChanged(final short unit, final float value)\n
     '''
 def blueTextChanged():
-    '''public void blueTextChanged(String text)
+    '''returns None\n\n
+    blueTextChanged(String text)\n
     '''
 def blueFloatValueChanged():
-    '''public void blueFloatValueChanged(final short unit, final float value)
+    '''returns None\n\n
+    blueFloatValueChanged(final short unit, final float value)\n
     '''
 def listTextChanged():
-    '''public void listTextChanged(final int idx, String text)
+    '''returns None\n\n
+    listTextChanged(final int idx, String text)\n
     '''
 def listFloatValueChanged():
-    '''public void listFloatValueChanged(final int idx, final short unit, final float value)
+    '''returns None\n\n
+    listFloatValueChanged(final int idx, final short unit, final float value)\n
     '''
 def listStringValueChanged():
-    '''public void listStringValueChanged(final int idx, final short unit, final String value)
-    '''
-def ListComponent():
-    '''public ListComponent(final int idx)
+    '''returns None\n\n
+    listStringValueChanged(final int idx, final short unit, final String value)\n
     '''

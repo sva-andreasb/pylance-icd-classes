@@ -1,71 +1,84 @@
 publicIDString = "String  \"-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN\""
 publicIDString_V2 = "String  \"-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN\""
-def FlatMap():
-    '''public FlatMap(final URL url, final HelpSet helpset)
+def ():
+    '''returns FlatMapResourceBundle\n\n
+    (final URL url, final HelpSet helpset)\n
+    (final Enumeration e, final HelpSet hs)\n
+    (final URL url)\n
     '''
 def getHelpSet():
-    '''public HelpSet getHelpSet()
+    '''returns HelpSet\n\n
+    getHelpSet()\n
     '''
 def isValidID():
-    '''public boolean isValidID(final String s, final HelpSet set)
+    '''returns boolean\n\n
+    isValidID(final String s, final HelpSet set)\n
     '''
 def getAllIDs():
-    '''public Enumeration getAllIDs()
+    '''returns Enumeration\n\n
+    getAllIDs()\n
     '''
 def getURLFromID():
-    '''public URL getURLFromID(final ID obj)
+    '''returns URL\n\n
+    getURLFromID(final ID obj)\n
     '''
 def isID():
-    '''public boolean isID(final URL url)
+    '''returns boolean\n\n
+    isID(final URL url)\n
     '''
 def getIDFromURL():
-    '''public ID getIDFromURL(final URL url)
+    '''returns ID\n\n
+    getIDFromURL(final URL url)\n
     '''
 def getClosestID():
-    '''public ID getClosestID(final URL url)
+    '''returns ID\n\n
+    getClosestID(final URL url)\n
     '''
 def getIDs():
-    '''public Enumeration getIDs(final URL url)
-    '''
-def FlatEnumeration():
-    '''public FlatEnumeration(final Enumeration e, final HelpSet hs)
+    '''returns Enumeration\n\n
+    getIDs(final URL url)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
-    '''
-def FlatMapResourceBundle():
-    '''public FlatMapResourceBundle(final URL url)
-    '''
-def handleGetObject():
-    '''public final Object handleGetObject(final String key)
+    '''returns Object\n\n
+    nextElement()\n
     '''
 def getKeys():
-    '''public Enumeration getKeys()
+    '''returns Enumeration\n\n
+    getKeys()\n
     '''
 def tagFound():
-    '''public void tagFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    tagFound(final ParserEvent parserEvent)\n
     '''
 def piFound():
-    '''public void piFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    piFound(final ParserEvent parserEvent)\n
     '''
 def doctypeFound():
-    '''public void doctypeFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    doctypeFound(final ParserEvent parserEvent)\n
     '''
 def textFound():
-    '''public void textFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    textFound(final ParserEvent parserEvent)\n
     '''
 def commentFound():
-    '''public void commentFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    commentFound(final ParserEvent parserEvent)\n
     '''
 def errorFound():
-    '''public void errorFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    errorFound(final ParserEvent parserEvent)\n
     '''
 def reportMessage():
-    '''public void reportMessage(final String obj, final boolean b)
+    '''returns None\n\n
+    reportMessage(final String obj, final boolean b)\n
     '''
 def listMessages():
-    '''public Enumeration listMessages()
+    '''returns Enumeration\n\n
+    listMessages()\n
     '''

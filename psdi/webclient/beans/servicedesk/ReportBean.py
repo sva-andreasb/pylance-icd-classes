@@ -1,3 +1,4 @@
 def RUNREPORT():
-    '''public void RUNREPORT()
+    '''returns None\n\n
+    RUNREPORT()\n
     '''

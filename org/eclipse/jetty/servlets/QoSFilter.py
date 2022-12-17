@@ -1,36 +1,48 @@
-def QoSFilter():
-    '''public QoSFilter()
+def ():
+    '''returns QoSFilter\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final FilterConfig filterConfig)
+    '''returns None\n\n
+    init(final FilterConfig filterConfig)\n
     '''
 def onComplete():
-    '''public void onComplete(final Continuation continuation)
+    '''returns None\n\n
+    onComplete(final Continuation continuation)\n
     '''
 def onTimeout():
-    '''public void onTimeout(final Continuation continuation)
+    '''returns None\n\n
+    onTimeout(final Continuation continuation)\n
     '''
 def doFilter():
-    '''public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)
+    '''returns None\n\n
+    doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getWaitMs():
-    '''public long getWaitMs()
+    '''returns long\n\n
+    getWaitMs()\n
     '''
 def setWaitMs():
-    '''public void setWaitMs(final long value)
+    '''returns None\n\n
+    setWaitMs(final long value)\n
     '''
 def getSuspendMs():
-    '''public long getSuspendMs()
+    '''returns long\n\n
+    getSuspendMs()\n
     '''
 def setSuspendMs():
-    '''public void setSuspendMs(final long value)
+    '''returns None\n\n
+    setSuspendMs(final long value)\n
     '''
 def getMaxRequests():
-    '''public int getMaxRequests()
+    '''returns int\n\n
+    getMaxRequests()\n
     '''
 def setMaxRequests():
-    '''public void setMaxRequests(final int value)
+    '''returns None\n\n
+    setMaxRequests(final int value)\n
     '''

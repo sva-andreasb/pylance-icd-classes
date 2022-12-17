@@ -1,100 +1,129 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def notifyChanged():
-    '''public void notifyChanged(final Object source)
+    '''returns None\n\n
+    notifyChanged(final Object source)\n
     '''
 def getMappingAccessor():
-    '''public IloOplMappingAccessor getMappingAccessor()
+    '''returns IloOplMappingAccessor\n\n
+    getMappingAccessor()\n
     '''
 def getOplModelAccessor():
-    '''public IloOplModelAccessor getOplModelAccessor()
+    '''returns IloOplModelAccessor\n\n
+    getOplModelAccessor()\n
     '''
 def freeMemory():
-    '''public void freeMemory()
+    '''returns None\n\n
+    freeMemory()\n
     '''
 def postProcessResult():
-    '''public void postProcessResult()
+    '''returns None\n\n
+    postProcessResult()\n
     '''
 def getCurrentScenario():
-    '''public IloScenario getCurrentScenario()
+    '''returns IloScenario\n\n
+    getCurrentScenario()\n
     '''
 def getMonitoringManager():
-    '''public IloMonitoringManager getMonitoringManager()
+    '''returns IloMonitoringManager\n\n
+    getMonitoringManager()\n
     '''
 def beginSession():
-    '''public void beginSession(final IloEngineRequest request, final IloErrorReport errorReport, final IloIssueReporter issueReport)
+    '''returns None\n\n
+    beginSession(final IloEngineRequest request, final IloErrorReport errorReport, final IloIssueReporter issueReport)\n
     '''
 def getMonitor():
-    '''public IloMonitoringAdapter getMonitor()
+    '''returns IloMonitoringAdapter\n\n
+    getMonitor()\n
     '''
 def isAborted():
-    '''public boolean isAborted()
+    '''returns boolean\n\n
+    isAborted()\n
     '''
 def getModelId():
-    '''public String getModelId()
+    '''returns String\n\n
+    getModelId()\n
     '''
 def getModelName():
-    '''public String getModelName()
+    '''returns String\n\n
+    getModelName()\n
     '''
 def setModelName():
-    '''public void setModelName(final String modelName)
+    '''returns None\n\n
+    setModelName(final String modelName)\n
     '''
 def getErrorReport():
-    '''public IloErrorReport getErrorReport()
+    '''returns IloErrorReport\n\n
+    getErrorReport()\n
     '''
 def getOptimModelDescription():
-    '''public IloOptimDesc getOptimModelDescription()
+    '''returns IloOptimDesc\n\n
+    getOptimModelDescription()\n
     '''
 def addDecisionVariableConstraints():
-    '''public void addDecisionVariableConstraints()
+    '''returns None\n\n
+    addDecisionVariableConstraints()\n
     '''
 def buildObjective():
-    '''public void buildObjective()
+    '''returns None\n\n
+    buildObjective()\n
     '''
 def changeRequirementPriorities():
-    '''public void changeRequirementPriorities()
+    '''returns None\n\n
+    changeRequirementPriorities()\n
     '''
 def publishEngineResultsData():
-    '''public void publishEngineResultsData()
+    '''returns None\n\n
+    publishEngineResultsData()\n
     '''
 def publishEngineResultsState():
-    '''public void publishEngineResultsState()
+    '''returns None\n\n
+    publishEngineResultsState()\n
     '''
 def publishGoalsBreadown():
-    '''public void publishGoalsBreadown()
+    '''returns None\n\n
+    publishGoalsBreadown()\n
     '''
 def publishGoalsValues():
-    '''public void publishGoalsValues()
+    '''returns None\n\n
+    publishGoalsValues()\n
     '''
 def publishRequirements():
-    '''public void publishRequirements()
+    '''returns None\n\n
+    publishRequirements()\n
     '''
 def getIssueReporter():
-    '''public IloIssueReporter getIssueReporter()
+    '''returns IloIssueReporter\n\n
+    getIssueReporter()\n
     '''
 def getEngineRequest():
-    '''public IloEngineRequest getEngineRequest()
+    '''returns IloEngineRequest\n\n
+    getEngineRequest()\n
     '''
 def publishErrorReport():
-    '''public void publishErrorReport()
+    '''returns None\n\n
+    publishErrorReport()\n
     '''
 def getMessageFormatter():
-    '''public IloMessageParameterFormatter getMessageFormatter()
+    '''returns IloMessageParameterFormatter\n\n
+    getMessageFormatter()\n
     '''
 def generateRequirementsPreview():
-    '''public IloTable generateRequirementsPreview(final boolean solve)
+    '''returns IloTable\n\n
+    generateRequirementsPreview(final boolean solve)\n
     '''
 def endSession():
-    '''public void endSession()
+    '''returns None\n\n
+    endSession()\n
     '''
 def getExecutionController():
-    '''public IloEngineExecutionController getExecutionController()
+    '''returns IloEngineExecutionController\n\n
+    getExecutionController()\n
     '''
 def addEngineListener():
-    '''public void addEngineListener(final IloIntermediateResultListener listener)
-    '''
-def buildDecisionModel():
-    '''public final void buildDecisionModel()
+    '''returns None\n\n
+    addEngineListener(final IloIntermediateResultListener listener)\n
     '''
 def publishGoalBounds():
-    '''public void publishGoalBounds()
+    '''returns None\n\n
+    publishGoalBounds()\n
     '''

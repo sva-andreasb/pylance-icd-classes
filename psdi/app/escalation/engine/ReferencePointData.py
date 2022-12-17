@@ -1,81 +1,108 @@
-def ReferencePointData():
-    '''public ReferencePointData()
+def ():
+    '''returns ReferencePointData\n\n
+    ()\n
     '''
 def setSLATargetDateValue():
-    '''public void setSLATargetDateValue(final Date targetDate)
+    '''returns None\n\n
+    setSLATargetDateValue(final Date targetDate)\n
     '''
 def getSLATargetDateValue():
-    '''public Date getSLATargetDateValue()
+    '''returns Date\n\n
+    getSLATargetDateValue()\n
     '''
 def setNonSLATargetDateValue():
-    '''public void setNonSLATargetDateValue(final Date targetDate)
+    '''returns None\n\n
+    setNonSLATargetDateValue(final Date targetDate)\n
     '''
 def getNonSLATargetDateValue():
-    '''public Date getNonSLATargetDateValue()
+    '''returns Date\n\n
+    getNonSLATargetDateValue()\n
     '''
 def useSLACalendar():
-    '''public boolean useSLACalendar()
+    '''returns boolean\n\n
+    useSLACalendar()\n
     '''
 def setUseSLACalendar():
-    '''public void setUseSLACalendar(final boolean usecal)
+    '''returns None\n\n
+    setUseSLACalendar(final boolean usecal)\n
     '''
 def getCondition():
-    '''public String getCondition()
+    '''returns String\n\n
+    getCondition()\n
     '''
 def setCondition():
-    '''public void setCondition(final String string)
+    '''returns None\n\n
+    setCondition(final String string)\n
     '''
 def getEventDateTimeAttribute():
-    '''public String getEventDateTimeAttribute()
+    '''returns String\n\n
+    getEventDateTimeAttribute()\n
     '''
 def setEventDateTimeAttribute():
-    '''public void setEventDateTimeAttribute(final String string)
+    '''returns None\n\n
+    setEventDateTimeAttribute(final String string)\n
     '''
 def getEventDateTimeColumn():
-    '''public String getEventDateTimeColumn()
+    '''returns String\n\n
+    getEventDateTimeColumn()\n
     '''
 def setEventDateTimeColumn():
-    '''public void setEventDateTimeColumn(final String string)
+    '''returns None\n\n
+    setEventDateTimeColumn(final String string)\n
     '''
 def getElapsedTimeInMillis():
-    '''public long getElapsedTimeInMillis()
+    '''returns long\n\n
+    getElapsedTimeInMillis()\n
     '''
 def setElapsedTimeInMillis():
-    '''public void setElapsedTimeInMillis(final long l)
+    '''returns None\n\n
+    setElapsedTimeInMillis(final long l)\n
     '''
 def getElapsedTimeInterval():
-    '''public double getElapsedTimeInterval()
+    '''returns double\n\n
+    getElapsedTimeInterval()\n
     '''
 def setElapsedTimeInterval():
-    '''public void setElapsedTimeInterval(final double i)
+    '''returns None\n\n
+    setElapsedTimeInterval(final double i)\n
     '''
 def getIntervalUnitOfMeasure():
-    '''public String getIntervalUnitOfMeasure()
+    '''returns String\n\n
+    getIntervalUnitOfMeasure()\n
     '''
 def setIntervalUnitOfMeasure():
-    '''public void setIntervalUnitOfMeasure(final String string)
+    '''returns None\n\n
+    setIntervalUnitOfMeasure(final String string)\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def setRepeatable():
-    '''public void setRepeatable(final boolean b)
+    '''returns None\n\n
+    setRepeatable(final boolean b)\n
     '''
 def getRefPointId():
-    '''public String getRefPointId()
+    '''returns String\n\n
+    getRefPointId()\n
     '''
 def setRefPointId():
-    '''public void setRefPointId(final String refPointId)
+    '''returns None\n\n
+    setRefPointId(final String refPointId)\n
     '''
 def getEscalationPointRemote():
-    '''public MboRemote getEscalationPointRemote()
+    '''returns MboRemote\n\n
+    getEscalationPointRemote()\n
     '''
 def setEscalationPointRemote():
-    '''public void setEscalationPointRemote(final MboRemote mboremote)
+    '''returns None\n\n
+    setEscalationPointRemote(final MboRemote mboremote)\n
     '''
 def setEscalationData():
-    '''public void setEscalationData(final EscalationData data)
+    '''returns None\n\n
+    setEscalationData(final EscalationData data)\n
     '''
 def getEscalationData():
-    '''public EscalationData getEscalationData()
+    '''returns EscalationData\n\n
+    getEscalationData()\n
     '''

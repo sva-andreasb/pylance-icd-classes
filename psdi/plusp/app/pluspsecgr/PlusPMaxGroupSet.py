@@ -1,9 +1,12 @@
-def PlusPMaxGroupSet():
-    '''public PlusPMaxGroupSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPMaxGroupSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''

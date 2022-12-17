@@ -1,3 +1,4 @@
-def SKDTooltipService():
-    '''public SKDTooltipService(final MXServer mxServer)
+def ():
+    '''returns SKDTooltipService\n\n
+    (final MXServer mxServer)\n
     '''

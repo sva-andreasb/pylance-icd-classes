@@ -1,15 +1,12 @@
-def from():
-    '''public static InvalidDefinitionException from(final JsonParser p, final String msg, final BeanDescription bean, final BeanPropertyDefinition prop)
-    public static InvalidDefinitionException from(final JsonParser p, final String msg, final JavaType type)
-    public static InvalidDefinitionException from(final JsonGenerator g, final String msg, final BeanDescription bean, final BeanPropertyDefinition prop)
-    public static InvalidDefinitionException from(final JsonGenerator g, final String msg, final JavaType type)
-    '''
 def getType():
-    '''public JavaType getType()
+    '''returns JavaType\n\n
+    getType()\n
     '''
 def getBeanDescription():
-    '''public BeanDescription getBeanDescription()
+    '''returns BeanDescription\n\n
+    getBeanDescription()\n
     '''
 def getProperty():
-    '''public BeanPropertyDefinition getProperty()
+    '''returns BeanPropertyDefinition\n\n
+    getProperty()\n
     '''

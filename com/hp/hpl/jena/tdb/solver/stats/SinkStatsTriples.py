@@ -1,9 +1,12 @@
 def send():
-    '''public void send(final Triple triple)
+    '''returns None\n\n
+    send(final Triple triple)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

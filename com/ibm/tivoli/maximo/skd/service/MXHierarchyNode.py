@@ -1,32 +1,42 @@
-def MXHierarchyNode():
-    '''public MXHierarchyNode(final MXNodeElement nodeElement, final MXHierarchyNode parent)
+def ():
+    '''returns MXHierarchyNode\n\n
+    (final MXNodeElement nodeElement, final MXHierarchyNode parent)\n
     '''
 def setParent():
-    '''public void setParent(final MXHierarchyNode parent)
+    '''returns None\n\n
+    setParent(final MXHierarchyNode parent)\n
     '''
 def addChild():
-    '''public void addChild(final MXHierarchyNode child)
+    '''returns None\n\n
+    addChild(final MXHierarchyNode child)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''
 def getChild():
-    '''public MXHierarchyNode getChild(final int index)
+    '''returns MXHierarchyNode\n\n
+    getChild(final int index)\n
     '''
 def getNodeElement():
-    '''public MXNodeElement getNodeElement()
+    '''returns MXNodeElement\n\n
+    getNodeElement()\n
     '''
 def getParent():
-    '''public MXHierarchyNode getParent()
+    '''returns MXHierarchyNode\n\n
+    getParent()\n
     '''
 def removeChild():
-    '''public void removeChild(final MXHierarchyNode child)
-    public void removeChild(final String childId)
-    public MXHierarchyNode removeChild(final int index)
+    '''returns MXHierarchyNode\n\n
+    removeChild(final MXHierarchyNode child)\n
+    removeChild(final String childId)\n
+    removeChild(final int index)\n
     '''
 def reverseChildOrder():
-    '''public void reverseChildOrder()
+    '''returns None\n\n
+    reverseChildOrder()\n
     '''

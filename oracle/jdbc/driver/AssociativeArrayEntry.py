@@ -1,18 +1,24 @@
-def AssociativeArrayEntry():
-    '''public AssociativeArrayEntry(final K key, final V value)
+def ():
+    '''returns AssociativeArrayEntry\n\n
+    (final K key, final V value)\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''
 def isConvertibleTo():
-    '''public boolean isConvertibleTo(final Class clazz)
+    '''returns boolean\n\n
+    isConvertibleTo(final Class clazz)\n
     '''
 def toJdbc():
-    '''public Object toJdbc()
+    '''returns Object\n\n
+    toJdbc()\n
     '''
 def makeJdbcArray():
-    '''public Object makeJdbcArray(final int n)
+    '''returns Object\n\n
+    makeJdbcArray(final int n)\n
     '''

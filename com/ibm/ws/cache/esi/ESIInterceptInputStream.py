@@ -1,3 +1,4 @@
-def ESIInterceptInputStream():
-    '''public ESIInterceptInputStream(final byte[] in)
+def ():
+    '''returns ESIInterceptInputStream\n\n
+    (final byte[] in)\n
     '''

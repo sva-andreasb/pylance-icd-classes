@@ -1,43 +1,48 @@
-def getConstantSet():
-    '''public static ConstantSet getConstantSet(final String name)
-    '''
 def getConstant():
-    '''public final Constant getConstant(final String name)
-    public Constant getConstant(final long value)
+    '''returns Constant\n\n
+    getConstant(final long value)\n
     '''
 def getValue():
-    '''public long getValue(final String name)
+    '''returns long\n\n
+    getValue(final String name)\n
     '''
 def getName():
-    '''public String getName(final int value)
+    '''returns String\n\n
+    getName(final int value)\n
     '''
 def minValue():
-    '''public long minValue()
+    '''returns long\n\n
+    minValue()\n
     '''
 def maxValue():
-    '''public long maxValue()
+    '''returns long\n\n
+    maxValue()\n
     '''
 def iterator():
-    '''public Iterator<Constant> iterator()
+    '''returns Iterator<Constant>\n\n
+    iterator()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def run():
-    '''public URL run()
+    '''returns URL\n\n
+    run()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def next():
-    '''public Constant next()
+    '''returns Constant\n\n
+    next()\n
     '''

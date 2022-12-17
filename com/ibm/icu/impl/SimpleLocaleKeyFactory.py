@@ -1,13 +1,17 @@
-def SimpleLocaleKeyFactory():
-    '''public SimpleLocaleKeyFactory(final Object obj, final ULocale locale, final int kind, final boolean visible)
-    public SimpleLocaleKeyFactory(final Object obj, final ULocale locale, final int kind, final boolean visible, final String name)
+def ():
+    '''returns SimpleLocaleKeyFactory\n\n
+    (final Object obj, final ULocale locale, final int kind, final boolean visible)\n
+    (final Object obj, final ULocale locale, final int kind, final boolean visible, final String name)\n
     '''
 def create():
-    '''public Object create(final Key key, final ICUService service)
+    '''returns Object\n\n
+    create(final Key key, final ICUService service)\n
     '''
 def updateVisibleIDs():
-    '''public void updateVisibleIDs(final Map<String, Factory> result)
+    '''returns None\n\n
+    updateVisibleIDs(final Map<String, Factory> result)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

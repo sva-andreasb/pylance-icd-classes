@@ -1,4 +1,5 @@
-def UnsupportedOperationException():
-    '''public UnsupportedOperationException()
-    public UnsupportedOperationException(final String message)
+def ():
+    '''returns UnsupportedOperationException\n\n
+    ()\n
+    (final String message)\n
     '''

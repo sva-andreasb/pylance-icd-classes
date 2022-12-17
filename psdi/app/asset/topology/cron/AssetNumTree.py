@@ -1,12 +1,12 @@
-def AssetNumTree():
-    '''public AssetNumTree()
+def ():
+    '''returns AssetNumTree\n\n
+    ()\n
     '''
 def insertAssetNum():
-    '''public void insertAssetNum(final String assetnum)
+    '''returns None\n\n
+    insertAssetNum(final String assetnum)\n
     '''
 def existAssetNum():
-    '''public boolean existAssetNum(final String assetnum)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns boolean\n\n
+    existAssetNum(final String assetnum)\n
     '''

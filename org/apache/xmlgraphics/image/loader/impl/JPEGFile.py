@@ -1,16 +1,21 @@
-def JPEGFile():
-    '''public JPEGFile(final ImageInputStream in)
-    public JPEGFile(final InputStream in)
+def ():
+    '''returns JPEGFile\n\n
+    (final ImageInputStream in)\n
+    (final InputStream in)\n
     '''
 def getDataInput():
-    '''public DataInput getDataInput()
+    '''returns DataInput\n\n
+    getDataInput()\n
     '''
 def readMarkerSegment():
-    '''public int readMarkerSegment()
+    '''returns int\n\n
+    readMarkerSegment()\n
     '''
 def readSegmentLength():
-    '''public int readSegmentLength()
+    '''returns int\n\n
+    readSegmentLength()\n
     '''
 def skipCurrentMarkerSegment():
-    '''public void skipCurrentMarkerSegment()
+    '''returns None\n\n
+    skipCurrentMarkerSegment()\n
     '''

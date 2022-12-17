@@ -1,24 +1,32 @@
-def PlusCDSAssetsLink():
-    '''public PlusCDSAssetsLink(final MboSet ms)
+def ():
+    '''returns PlusCDSAssetsLink\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def validateItemEqLoc():
-    '''public void validateItemEqLoc(boolean newItem, boolean newassetnum, boolean newLocation)
+    '''returns None\n\n
+    validateItemEqLoc(boolean newItem, boolean newassetnum, boolean newLocation)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def validateDS():
-    '''public void validateDS(final String dsNum, final String revNum, final String dsOrg, final String dsSite)
+    '''returns None\n\n
+    validateDS(final String dsNum, final String revNum, final String dsOrg, final String dsSite)\n
     '''

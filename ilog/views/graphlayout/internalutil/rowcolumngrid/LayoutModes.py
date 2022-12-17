@@ -1,0 +1,4 @@
+TILE_TO_GRID_FIXED_WIDTH = "int  2"
+TILE_TO_GRID_FIXED_HEIGHT = "int  3"
+TILE_TO_ROWS = "int  0"
+TILE_TO_COLUMNS = "int  1"

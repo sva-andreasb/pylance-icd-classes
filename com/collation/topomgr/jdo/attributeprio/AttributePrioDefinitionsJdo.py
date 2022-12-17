@@ -1,519 +1,431 @@
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
-def AttributePrioDefinitionsJdo():
-    '''public AttributePrioDefinitionsJdo(final Guid guid, final TopologyActionContext ctx)
-    public AttributePrioDefinitionsJdo()
+def ():
+    '''returns AttributePrioDefinitionsJdo\n\n
+    (final Guid guid, final TopologyActionContext ctx)\n
+    ()\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final long version)
+    '''returns None\n\n
+    setVersion(final long version)\n
     '''
 def getPk():
-    '''public String getPk()
+    '''returns String\n\n
+    getPk()\n
     '''
 def setPk():
-    '''public void setPk(final String pk)
+    '''returns None\n\n
+    setPk(final String pk)\n
     '''
 def getDeleted():
-    '''public boolean getDeleted()
+    '''returns boolean\n\n
+    getDeleted()\n
     '''
 def setDeleted():
-    '''public void setDeleted(final boolean d)
+    '''returns None\n\n
+    setDeleted(final boolean d)\n
     '''
 def delete():
-    '''public void delete()
-    public void delete(final Set removedGuidSet)
+    '''returns None\n\n
+    delete()\n
+    delete(final Set removedGuidSet)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def getRunId():
-    '''public long getRunId()
+    '''returns long\n\n
+    getRunId()\n
     '''
 def setRunId():
-    '''public void setRunId(final long id)
+    '''returns None\n\n
+    setRunId(final long id)\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def setPriority():
-    '''public void setPriority(final int priority)
+    '''returns None\n\n
+    setPriority(final int priority)\n
     '''
 def getCreatedBy():
-    '''public String getCreatedBy()
+    '''returns String\n\n
+    getCreatedBy()\n
     '''
 def getLastModifiedTime():
-    '''public long getLastModifiedTime()
+    '''returns long\n\n
+    getLastModifiedTime()\n
     '''
 def getLastModifiedBy():
-    '''public String getLastModifiedBy()
+    '''returns String\n\n
+    getLastModifiedBy()\n
     '''
 def setCreatedBy():
-    '''public void setCreatedBy(final String s)
+    '''returns None\n\n
+    setCreatedBy(final String s)\n
     '''
 def setLastModifiedTime():
-    '''public void setLastModifiedTime(final long l)
+    '''returns None\n\n
+    setLastModifiedTime(final long l)\n
     '''
 def setLastModifiedBy():
-    '''public void setLastModifiedBy(final String s)
+    '''returns None\n\n
+    setLastModifiedBy(final String s)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final String a)
+    '''returns None\n\n
+    setDisplayName(final String a)\n
     '''
 def hasDisplayName():
-    '''public boolean hasDisplayName()
+    '''returns boolean\n\n
+    hasDisplayName()\n
     '''
 def setAttrPrios():
-    '''public void setAttrPrios(final String attrPrios)
+    '''returns None\n\n
+    setAttrPrios(final String attrPrios)\n
     '''
 def getAttrPrios():
-    '''public String getAttrPrios()
+    '''returns String\n\n
+    getAttrPrios()\n
     '''
 def hasAttrPrios():
-    '''public boolean hasAttrPrios()
+    '''returns boolean\n\n
+    hasAttrPrios()\n
     '''
 def getPrioClassName():
-    '''public String getPrioClassName()
+    '''returns String\n\n
+    getPrioClassName()\n
     '''
 def setPrioClassName():
-    '''public void setPrioClassName(final String a)
+    '''returns None\n\n
+    setPrioClassName(final String a)\n
     '''
 def hasPrioClassName():
-    '''public boolean hasPrioClassName()
+    '''returns boolean\n\n
+    hasPrioClassName()\n
     '''
 def getPriorityString():
-    '''public String getPriorityString()
+    '''returns String\n\n
+    getPriorityString()\n
     '''
 def setPriorityString():
-    '''public void setPriorityString(final String a)
+    '''returns None\n\n
+    setPriorityString(final String a)\n
     '''
 def hasPriorityString():
-    '''public boolean hasPriorityString()
+    '''returns boolean\n\n
+    hasPriorityString()\n
     '''
 def getPrioAttributeName():
-    '''public String getPrioAttributeName()
+    '''returns String\n\n
+    getPrioAttributeName()\n
     '''
 def setPrioAttributeName():
-    '''public void setPrioAttributeName(final String a)
+    '''returns None\n\n
+    setPrioAttributeName(final String a)\n
     '''
 def hasPrioAttributeName():
-    '''public boolean hasPrioAttributeName()
+    '''returns boolean\n\n
+    hasPrioAttributeName()\n
     '''
 def getObjectType():
-    '''public String getObjectType()
+    '''returns String\n\n
+    getObjectType()\n
     '''
 def setObjectType():
-    '''public void setObjectType(final String a)
+    '''returns None\n\n
+    setObjectType(final String a)\n
     '''
 def hasObjectType():
-    '''public boolean hasObjectType()
+    '''returns boolean\n\n
+    hasObjectType()\n
     '''
 def getExtendedAttributes():
-    '''public byte[] getExtendedAttributes()
+    '''returns byte[]\n\n
+    getExtendedAttributes()\n
     '''
 def setExtendedAttributes():
-    '''public void setExtendedAttributes(final byte[] a)
+    '''returns None\n\n
+    setExtendedAttributes(final byte[] a)\n
     '''
 def hasExtendedAttributes():
-    '''public boolean hasExtendedAttributes()
+    '''returns boolean\n\n
+    hasExtendedAttributes()\n
     '''
 def getBidiFlag():
-    '''public int getBidiFlag()
+    '''returns int\n\n
+    getBidiFlag()\n
     '''
 def setBidiFlag():
-    '''public void setBidiFlag(final int a)
+    '''returns None\n\n
+    setBidiFlag(final int a)\n
     '''
 def hasBidiFlag():
-    '''public boolean hasBidiFlag()
+    '''returns boolean\n\n
+    hasBidiFlag()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String a)
+    '''returns None\n\n
+    setDescription(final String a)\n
     '''
 def hasDescription():
-    '''public boolean hasDescription()
+    '''returns boolean\n\n
+    hasDescription()\n
     '''
 def getCmdbSource():
-    '''public Guid getCmdbSource()
+    '''returns Guid\n\n
+    getCmdbSource()\n
     '''
 def setCmdbSource():
-    '''public void setCmdbSource(final Guid guid)
+    '''returns None\n\n
+    setCmdbSource(final Guid guid)\n
     '''
 def hasCmdbSource():
-    '''public boolean hasCmdbSource()
+    '''returns boolean\n\n
+    hasCmdbSource()\n
     '''
 def getGuid():
-    '''public Guid getGuid()
+    '''returns Guid\n\n
+    getGuid()\n
     '''
 def setGuid():
-    '''public void setGuid(final Guid guid)
+    '''returns None\n\n
+    setGuid(final Guid guid)\n
     '''
 def hasGuid():
-    '''public boolean hasGuid()
+    '''returns boolean\n\n
+    hasGuid()\n
     '''
 def getCDMSource():
-    '''public String getCDMSource()
+    '''returns String\n\n
+    getCDMSource()\n
     '''
 def setCDMSource():
-    '''public void setCDMSource(final String a)
+    '''returns None\n\n
+    setCDMSource(final String a)\n
     '''
 def hasCDMSource():
-    '''public boolean hasCDMSource()
+    '''returns boolean\n\n
+    hasCDMSource()\n
     '''
 def getAdminState():
-    '''public int getAdminState()
+    '''returns int\n\n
+    getAdminState()\n
     '''
 def setAdminState():
-    '''public void setAdminState(final int a)
+    '''returns None\n\n
+    setAdminState(final int a)\n
     '''
 def hasAdminState():
-    '''public boolean hasAdminState()
+    '''returns boolean\n\n
+    hasAdminState()\n
     '''
 def getSourceToken():
-    '''public String getSourceToken()
+    '''returns String\n\n
+    getSourceToken()\n
     '''
 def setSourceToken():
-    '''public void setSourceToken(final String a)
+    '''returns None\n\n
+    setSourceToken(final String a)\n
     '''
 def hasSourceToken():
-    '''public boolean hasSourceToken()
+    '''returns boolean\n\n
+    hasSourceToken()\n
     '''
 def getContextIp():
-    '''public String getContextIp()
+    '''returns String\n\n
+    getContextIp()\n
     '''
 def setContextIp():
-    '''public void setContextIp(final String a)
+    '''returns None\n\n
+    setContextIp(final String a)\n
     '''
 def hasContextIp():
-    '''public boolean hasContextIp()
+    '''returns boolean\n\n
+    hasContextIp()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String a)
+    '''returns None\n\n
+    setLabel(final String a)\n
     '''
 def hasLabel():
-    '''public boolean hasLabel()
+    '''returns boolean\n\n
+    hasLabel()\n
     '''
 def getBidiFormat():
-    '''public String getBidiFormat()
+    '''returns String\n\n
+    getBidiFormat()\n
     '''
 def setBidiFormat():
-    '''public void setBidiFormat(final String a)
+    '''returns None\n\n
+    setBidiFormat(final String a)\n
     '''
 def hasBidiFormat():
-    '''public boolean hasBidiFormat()
-    '''
-def getAll():
-    '''public static Collection getAll(final TopologyActionContext ctx, final boolean excludeSubclass)
-    '''
-def getAllWithRunId():
-    '''public static Collection getAllWithRunId(final TopologyActionContext ctx, final boolean excludeSubclass)
-    '''
-def gcJdo():
-    '''public static void gcJdo(final TopologyActionContext ctx)
+    '''returns boolean\n\n
+    hasBidiFormat()\n
     '''
 def getAllAttributes():
-    '''public Map getAllAttributes()
+    '''returns Map\n\n
+    getAllAttributes()\n
     '''
 def generateDisplayName():
-    '''public String generateDisplayName()
-    '''
-def persistJdo():
-    '''public static AttributePrioDefinitionsJdo persistJdo(final AttributePrioDefinitions obj, final TopologyActionContext ctx)
-    public static AttributePrioDefinitionsJdo persistJdo(final AttributePrioDefinitions obj, final Map stknGuidMap, final TopologyActionContext ctx)
-    public static AttributePrioDefinitionsJdo persistJdo(final AttributePrioDefinitions obj, final List guidMap, final TopologyActionContext ctx, final Set processedObjs, final JdoUpdateMap updateMap, final Map stknGuidMap)
-    '''
-def persistJdo3():
-    '''public static AttributePrioDefinitionsJdo persistJdo3(final AttributePrioDefinitions obj, final TopologyActionContext ctx, final Map stknGuidMap)
-    '''
-def getJdoByGuid():
-    '''public static BaseJdo getJdoByGuid(final AttributePrioDefinitions obj, final TopologyActionContext ctx)
-    public static BaseJdo getJdoByGuid(final Guid guid, final TopologyActionContext ctx)
-    '''
-def getJdo():
-    '''public static BaseJdo getJdo(final AttributePrioDefinitions obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findJdo():
-    '''public static BaseJdo findJdo(final AttributePrioDefinitions obj, final List guidMap, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    public static BaseJdo findJdo(final AttributePrioDefinitions obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findSpecificJdo():
-    '''public static BaseJdo findSpecificJdo(final AttributePrioDefinitions obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findJdoTest():
-    '''public static BaseJdo findJdoTest(final AttributePrioDefinitions obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findSpecificJdoTest():
-    '''public static BaseJdo findSpecificJdoTest(final AttributePrioDefinitions obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
+    '''returns String\n\n
+    generateDisplayName()\n
     '''
 def sameJdo():
-    '''public boolean sameJdo(final AttributePrioDefinitions obj, final Map objKeys, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
+    '''returns boolean\n\n
+    sameJdo(final AttributePrioDefinitions obj, final Map objKeys, final TopologyActionContext ctx, final JdoUpdateMap updateMap)\n
     '''
 def sameJdoTest():
-    '''public boolean sameJdoTest(final AttributePrioDefinitions obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def getJdoKeys():
-    '''public static Map getJdoKeys(final AttributePrioDefinitions obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
+    '''returns boolean\n\n
+    sameJdoTest(final AttributePrioDefinitions obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)\n
     '''
 def similarJdo():
-    '''public boolean similarJdo(final AttributePrioDefinitionsJdo obj)
+    '''returns boolean\n\n
+    similarJdo(final AttributePrioDefinitionsJdo obj)\n
     '''
 def updateJdoByObj():
-    '''public void updateJdoByObj(final AttributePrioDefinitions obj, final List guidMap, final TopologyActionContext ctx, final Set processedObjs, final JdoUpdateMap updateMap, final Map stknGuidMap, final String attrPriosFromDb)
+    '''returns None\n\n
+    updateJdoByObj(final AttributePrioDefinitions obj, final List guidMap, final TopologyActionContext ctx, final Set processedObjs, final JdoUpdateMap updateMap, final Map stknGuidMap, final String attrPriosFromDb)\n
     '''
 def copyJdo():
-    '''public void copyJdo(final BaseJdo copyToJdo, final JdoUpdateMap updateMap)
+    '''returns None\n\n
+    copyJdo(final BaseJdo copyToJdo, final JdoUpdateMap updateMap)\n
     '''
 def removeJdo():
-    '''public void removeJdo(final TopologyActionContext ctx)
-    public Set removeJdo(final TopologyActionContext ctx, final Set removedGuidSet)
+    '''returns Set\n\n
+    removeJdo(final TopologyActionContext ctx)\n
+    removeJdo(final TopologyActionContext ctx, final Set removedGuidSet)\n
     '''
 def removeJdoRefs():
-    '''public void removeJdoRefs(final TopologyActionContext ctx)
-    public void removeJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)
+    '''returns None\n\n
+    removeJdoRefs(final TopologyActionContext ctx)\n
+    removeJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)\n
     '''
 def deleteJdoRefs():
-    '''public void deleteJdoRefs(final TopologyActionContext ctx)
-    public void deleteJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)
+    '''returns None\n\n
+    deleteJdoRefs(final TopologyActionContext ctx)\n
+    deleteJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)\n
     '''
 def restoreJdo():
-    '''public void restoreJdo(final TopologyActionContext ctx)
+    '''returns None\n\n
+    restoreJdo(final TopologyActionContext ctx)\n
     '''
 def compareJdo():
-    '''public ObjectCompareResults compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)
-    public ObjectCompareResults compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)
+    '''returns ObjectCompareResults\n\n
+    compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)\n
+    compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)\n
     '''
 def compareJdoForMerge():
-    '''public ObjectCompareResults compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)
-    public ObjectCompareResults compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)
+    '''returns ObjectCompareResults\n\n
+    compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)\n
+    compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)\n
     '''
 def versionedJdoExists():
-    '''public boolean versionedJdoExists(final TopologyActionContext ctx)
+    '''returns boolean\n\n
+    versionedJdoExists(final TopologyActionContext ctx)\n
     '''
 def jdoNewInstance():
-    '''public PersistenceCapable jdoNewInstance(final StateManager jdoStateManager, final Object o)
-    public PersistenceCapable jdoNewInstance(final StateManager jdoStateManager)
+    '''returns PersistenceCapable\n\n
+    jdoNewInstance(final StateManager jdoStateManager, final Object o)\n
+    jdoNewInstance(final StateManager jdoStateManager)\n
     '''
 def jdoReplaceField():
-    '''public void jdoReplaceField(final int n)
+    '''returns None\n\n
+    jdoReplaceField(final int n)\n
     '''
 def jdoReplaceFields():
-    '''public void jdoReplaceFields(final int[] array)
+    '''returns None\n\n
+    jdoReplaceFields(final int[] array)\n
     '''
 def jdoProvideField():
-    '''public void jdoProvideField(final int n)
+    '''returns None\n\n
+    jdoProvideField(final int n)\n
     '''
 def jdoProvideFields():
-    '''public void jdoProvideFields(final int[] array)
+    '''returns None\n\n
+    jdoProvideFields(final int[] array)\n
     '''
 def jdoCopyFields():
-    '''public void jdoCopyFields(final Object o, final int[] array)
+    '''returns None\n\n
+    jdoCopyFields(final Object o, final int[] array)\n
     '''
 def jdoGetPersistenceManager():
-    '''public PersistenceManager jdoGetPersistenceManager()
+    '''returns PersistenceManager\n\n
+    jdoGetPersistenceManager()\n
     '''
 def jdoGetObjectId():
-    '''public Object jdoGetObjectId()
+    '''returns Object\n\n
+    jdoGetObjectId()\n
     '''
 def jdoGetTransactionalObjectId():
-    '''public Object jdoGetTransactionalObjectId()
+    '''returns Object\n\n
+    jdoGetTransactionalObjectId()\n
     '''
 def jdoIsDeleted():
-    '''public boolean jdoIsDeleted()
+    '''returns boolean\n\n
+    jdoIsDeleted()\n
     '''
 def jdoIsDirty():
-    '''public boolean jdoIsDirty()
+    '''returns boolean\n\n
+    jdoIsDirty()\n
     '''
 def jdoIsNew():
-    '''public boolean jdoIsNew()
+    '''returns boolean\n\n
+    jdoIsNew()\n
     '''
 def jdoIsPersistent():
-    '''public boolean jdoIsPersistent()
+    '''returns boolean\n\n
+    jdoIsPersistent()\n
     '''
 def jdoIsTransactional():
-    '''public boolean jdoIsTransactional()
+    '''returns boolean\n\n
+    jdoIsTransactional()\n
     '''
 def jdoPreSerialize():
-    '''public void jdoPreSerialize()
+    '''returns None\n\n
+    jdoPreSerialize()\n
     '''
 def jdoMakeDirty():
-    '''public void jdoMakeDirty(final String s)
+    '''returns None\n\n
+    jdoMakeDirty(final String s)\n
     '''
 def jdoReplaceFlags():
-    '''public void jdoReplaceFlags()
-    '''
-def jdoReplaceStateManager():
-    '''public synchronized void jdoReplaceStateManager(final StateManager jdoStateManager)
+    '''returns None\n\n
+    jdoReplaceFlags()\n
     '''
 def jdoCopyKeyFieldsToObjectId():
-    '''public void jdoCopyKeyFieldsToObjectId(final PersistenceCapable$ObjectIdFieldSupplier persistenceCapable$ObjectIdFieldSupplier, final Object o)
-    public void jdoCopyKeyFieldsToObjectId(final Object o)
+    '''returns None\n\n
+    jdoCopyKeyFieldsToObjectId(final PersistenceCapable$ObjectIdFieldSupplier persistenceCapable$ObjectIdFieldSupplier, final Object o)\n
+    jdoCopyKeyFieldsToObjectId(final Object o)\n
     '''
 def jdoCopyKeyFieldsFromObjectId():
-    '''public void jdoCopyKeyFieldsFromObjectId(final PersistenceCapable$ObjectIdFieldConsumer persistenceCapable$ObjectIdFieldConsumer, final Object o)
-    public void jdoCopyKeyFieldsFromObjectId(final Object o)
+    '''returns None\n\n
+    jdoCopyKeyFieldsFromObjectId(final PersistenceCapable$ObjectIdFieldConsumer persistenceCapable$ObjectIdFieldConsumer, final Object o)\n
+    jdoCopyKeyFieldsFromObjectId(final Object o)\n
     '''
 def jdoNewObjectIdInstance():
-    '''public Object jdoNewObjectIdInstance(final String pk)
-    public Object jdoNewObjectIdInstance()
-    '''
-def jdoGetCDMSource_():
-    '''public static final String jdoGetCDMSource_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetCDMSource_():
-    '''public static final void jdoSetCDMSource_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetadminState_():
-    '''public static final Integer jdoGetadminState_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetadminState_():
-    '''public static final void jdoSetadminState_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final Integer n)
-    '''
-def jdoGetattrPrios_():
-    '''public static final String jdoGetattrPrios_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetattrPrios_():
-    '''public static final void jdoSetattrPrios_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetbidiFlag_():
-    '''public static final Integer jdoGetbidiFlag_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetbidiFlag_():
-    '''public static final void jdoSetbidiFlag_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final Integer n)
-    '''
-def jdoGetbidiFormat_():
-    '''public static final String jdoGetbidiFormat_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetbidiFormat_():
-    '''public static final void jdoSetbidiFormat_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetcmdbSource_():
-    '''public static final String jdoGetcmdbSource_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetcmdbSource_():
-    '''public static final void jdoSetcmdbSource_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetcontextIp_():
-    '''public static final String jdoGetcontextIp_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetcontextIp_():
-    '''public static final void jdoSetcontextIp_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetcreatedBy_():
-    '''public static final String jdoGetcreatedBy_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetcreatedBy_():
-    '''public static final void jdoSetcreatedBy_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetdeleted_():
-    '''public static final boolean jdoGetdeleted_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetdeleted_():
-    '''public static final void jdoSetdeleted_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final boolean b)
-    '''
-def jdoGetdescription_():
-    '''public static final String jdoGetdescription_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetdescription_():
-    '''public static final void jdoSetdescription_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetdisplayName_():
-    '''public static final String jdoGetdisplayName_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetdisplayName_():
-    '''public static final void jdoSetdisplayName_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetextendedAttributes_():
-    '''public static final byte[] jdoGetextendedAttributes_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetextendedAttributes_():
-    '''public static final void jdoSetextendedAttributes_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final byte[] extendedAttributes_)
-    '''
-def jdoGetguid_():
-    '''public static final String jdoGetguid_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetguid_():
-    '''public static final void jdoSetguid_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetlabel_():
-    '''public static final String jdoGetlabel_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetlabel_():
-    '''public static final void jdoSetlabel_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetlastModifiedBy_():
-    '''public static final String jdoGetlastModifiedBy_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetlastModifiedBy_():
-    '''public static final void jdoSetlastModifiedBy_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetlastModifiedTime_():
-    '''public static final Long jdoGetlastModifiedTime_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetlastModifiedTime_():
-    '''public static final void jdoSetlastModifiedTime_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final Long n)
-    '''
-def jdoGetobjectType_():
-    '''public static final String jdoGetobjectType_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetobjectType_():
-    '''public static final void jdoSetobjectType_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetpk_():
-    '''public static final String jdoGetpk_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetpk_():
-    '''public static final void jdoSetpk_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String pk_)
-    '''
-def jdoGetprioAttributeName_():
-    '''public static final String jdoGetprioAttributeName_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetprioAttributeName_():
-    '''public static final void jdoSetprioAttributeName_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetprioClassName_():
-    '''public static final String jdoGetprioClassName_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetprioClassName_():
-    '''public static final void jdoSetprioClassName_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetpriorityString_():
-    '''public static final String jdoGetpriorityString_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetpriorityString_():
-    '''public static final void jdoSetpriorityString_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetpriority_():
-    '''public static final int jdoGetpriority_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetpriority_():
-    '''public static final void jdoSetpriority_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final int n)
-    '''
-def jdoGetrunId_():
-    '''public static final long jdoGetrunId_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetrunId_():
-    '''public static final void jdoSetrunId_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final long n)
-    '''
-def jdoGetsourceToken_():
-    '''public static final String jdoGetsourceToken_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetsourceToken_():
-    '''public static final void jdoSetsourceToken_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final String s)
-    '''
-def jdoGetversion_():
-    '''public static final long jdoGetversion_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo)
-    '''
-def jdoSetversion_():
-    '''public static final void jdoSetversion_(final AttributePrioDefinitionsJdo attributePrioDefinitionsJdo, final long n)
+    '''returns Object\n\n
+    jdoNewObjectIdInstance(final String pk)\n
+    jdoNewObjectIdInstance()\n
     '''

@@ -1,39 +1,47 @@
 def init():
-    '''public JVar init(final JExpression init)
+    '''returns JVar\n\n
+    init(final JExpression init)\n
     '''
 def name():
-    '''public String name()
-    public void name(final String name)
+    '''returns None\n\n
+    name()\n
+    name(final String name)\n
     '''
 def type():
-    '''public JType type()
-    public JType type(final JType newType)
+    '''returns JType\n\n
+    type()\n
+    type(final JType newType)\n
     '''
 def mods():
-    '''public JMods mods()
+    '''returns JMods\n\n
+    mods()\n
     '''
 def annotate():
-    '''public JAnnotationUse annotate(final JClass clazz)
-    public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
-    '''
-def annotate2():
-    '''public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
+    '''returns JAnnotationUse\n\n
+    annotate(final JClass clazz)\n
+    annotate(final Class<? extends Annotation> clazz)\n
     '''
 def annotations():
-    '''public Collection<JAnnotationUse> annotations()
+    '''returns Collection<JAnnotationUse>\n\n
+    annotations()\n
     '''
 def bind():
-    '''public void bind(final JFormatter f)
+    '''returns None\n\n
+    bind(final JFormatter f)\n
     '''
 def declare():
-    '''public void declare(final JFormatter f)
+    '''returns None\n\n
+    declare(final JFormatter f)\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''
 def assign():
-    '''public JExpression assign(final JExpression rhs)
+    '''returns JExpression\n\n
+    assign(final JExpression rhs)\n
     '''
 def assignPlus():
-    '''public JExpression assignPlus(final JExpression rhs)
+    '''returns JExpression\n\n
+    assignPlus(final JExpression rhs)\n
     '''

@@ -1,10 +1,10 @@
-def NodeDeserializer():
-    '''public NodeDeserializer()
+def ():
+    '''returns DocumentDeserializer\n\n
+    ()\n
+    ()\n
     '''
 def _deserialize():
-    '''public Node _deserialize(final String value, final DeserializationContext ctxt)
-    public Document _deserialize(final String value, final DeserializationContext ctxt)
-    '''
-def DocumentDeserializer():
-    '''public DocumentDeserializer()
+    '''returns Document\n\n
+    _deserialize(final String value, final DeserializationContext ctxt)\n
+    _deserialize(final String value, final DeserializationContext ctxt)\n
     '''

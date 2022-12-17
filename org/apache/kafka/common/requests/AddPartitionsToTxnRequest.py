@@ -1,34 +1,34 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def AddPartitionsToTxnRequest():
-    '''public AddPartitionsToTxnRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final String transactionalId, final long producerId, final short producerEpoch, final List<TopicPartition> partitions)\n
     '''
 def transactionalId():
-    '''public String transactionalId()
+    '''returns String\n\n
+    transactionalId()\n
     '''
 def producerId():
-    '''public long producerId()
+    '''returns long\n\n
+    producerId()\n
     '''
 def producerEpoch():
-    '''public short producerEpoch()
+    '''returns short\n\n
+    producerEpoch()\n
     '''
 def partitions():
-    '''public List<TopicPartition> partitions()
-    public List<TopicPartition> partitions()
+    '''returns List<TopicPartition>\n\n
+    partitions()\n
+    partitions()\n
     '''
 def getErrorResponse():
-    '''public AddPartitionsToTxnResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static AddPartitionsToTxnRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final String transactionalId, final long producerId, final short producerEpoch, final List<TopicPartition> partitions)
+    '''returns AddPartitionsToTxnResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def build():
-    '''public AddPartitionsToTxnRequest build(final short version)
+    '''returns AddPartitionsToTxnRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

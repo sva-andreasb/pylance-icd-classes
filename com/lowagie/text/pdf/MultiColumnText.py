@@ -1,50 +1,66 @@
 AUTOMATIC = "float  -1.0f"
-def MultiColumnText():
-    '''public MultiColumnText()
-    public MultiColumnText(final float height)
+def ():
+    '''returns MultiColumnText\n\n
+    ()\n
+    (final float height)\n
     '''
 def isOverflow():
-    '''public boolean isOverflow()
+    '''returns boolean\n\n
+    isOverflow()\n
     '''
 def useColumnParams():
-    '''public void useColumnParams(final ColumnText sourceColumn)
+    '''returns None\n\n
+    useColumnParams(final ColumnText sourceColumn)\n
     '''
 def addColumn():
-    '''public void addColumn(final float[] left, final float[] right)
+    '''returns None\n\n
+    addColumn(final float[] left, final float[] right)\n
     '''
 def addSimpleColumn():
-    '''public void addSimpleColumn(final float left, final float right)
+    '''returns None\n\n
+    addSimpleColumn(final float left, final float right)\n
     '''
 def addRegularColumns():
-    '''public void addRegularColumns(final float left, final float right, final float gutterWidth, final int numColumns)
+    '''returns None\n\n
+    addRegularColumns(final float left, final float right, final float gutterWidth, final int numColumns)\n
     '''
 def addElement():
-    '''public void addElement(final Element element)
+    '''returns None\n\n
+    addElement(final Element element)\n
     '''
 def write():
-    '''public float write(final PdfContentByte canvas, final PdfDocument document, final float documentY)
+    '''returns float\n\n
+    write(final PdfContentByte canvas, final PdfDocument document, final float documentY)\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def nextColumn():
-    '''public void nextColumn()
+    '''returns None\n\n
+    nextColumn()\n
     '''
 def getCurrentColumn():
-    '''public int getCurrentColumn()
+    '''returns int\n\n
+    getCurrentColumn()\n
     '''
 def resetCurrentColumn():
-    '''public void resetCurrentColumn()
+    '''returns None\n\n
+    resetCurrentColumn()\n
     '''
 def shiftCurrentColumn():
-    '''public boolean shiftCurrentColumn()
+    '''returns boolean\n\n
+    shiftCurrentColumn()\n
     '''
 def setColumnsRightToLeft():
-    '''public void setColumnsRightToLeft(final boolean direction)
+    '''returns None\n\n
+    setColumnsRightToLeft(final boolean direction)\n
     '''

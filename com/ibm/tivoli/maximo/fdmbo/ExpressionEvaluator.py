@@ -1,15 +1,15 @@
-def getInstance():
-    '''public static ExpressionEvaluator getInstance()
-    '''
 def evaluateExpression():
-    '''public Object evaluateExpression(final String expression, final Bindings bindings)
-    public Object evaluateExpression(final String expression, final String jsonData)
-    public Object evaluateExpression(final String expression, final StructureObject so, final MboSetInfo mboSetInfo)
-    public Object evaluateExpression(final String expression, final MboRemote mbo)
+    '''returns Object\n\n
+    evaluateExpression(final String expression, final Bindings bindings)\n
+    evaluateExpression(final String expression, final String jsonData)\n
+    evaluateExpression(final String expression, final StructureObject so, final MboSetInfo mboSetInfo)\n
+    evaluateExpression(final String expression, final MboRemote mbo)\n
     '''
 def preCompileScript():
-    '''public CompiledScript preCompileScript(final String expression, final int type)
+    '''returns CompiledScript\n\n
+    preCompileScript(final String expression, final int type)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

@@ -1,6 +1,8 @@
-def PlusPFldPSSLAFeePenaltyCode():
-    '''public PlusPFldPSSLAFeePenaltyCode(final MboValue mbv)
+def ():
+    '''returns PlusPFldPSSLAFeePenaltyCode\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

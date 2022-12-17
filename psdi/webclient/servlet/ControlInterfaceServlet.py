@@ -1,9 +1,12 @@
-def ControlInterfaceServlet():
-    '''public ControlInterfaceServlet()
+def ():
+    '''returns ControlInterfaceServlet\n\n
+    ()\n
     '''
 def doGet():
-    '''public void doGet(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    doGet(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def doPost():
-    '''public void doPost(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    doPost(final HttpServletRequest request, final HttpServletResponse response)\n
     '''

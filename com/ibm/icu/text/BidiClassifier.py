@@ -1,12 +1,16 @@
-def BidiClassifier():
-    '''public BidiClassifier(final Object context)
+def ():
+    '''returns BidiClassifier\n\n
+    (final Object context)\n
     '''
 def setContext():
-    '''public void setContext(final Object context)
+    '''returns None\n\n
+    setContext(final Object context)\n
     '''
 def getContext():
-    '''public Object getContext()
+    '''returns Object\n\n
+    getContext()\n
     '''
 def classify():
-    '''public int classify(final int c)
+    '''returns int\n\n
+    classify(final int c)\n
     '''

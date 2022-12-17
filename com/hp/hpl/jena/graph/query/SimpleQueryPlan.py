@@ -1,6 +1,8 @@
-def SimpleQueryPlan():
-    '''public SimpleQueryPlan(final Graph graph, final Query query, final Node[] variables)
+def ():
+    '''returns SimpleQueryPlan\n\n
+    (final Graph graph, final Query query, final Node[] variables)\n
     '''
 def executeBindings():
-    '''public ExtendedIterator<Domain> executeBindings()
+    '''returns ExtendedIterator<Domain>\n\n
+    executeBindings()\n
     '''

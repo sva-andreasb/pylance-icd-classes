@@ -1,12 +1,16 @@
-def LicTrans():
-    '''public LicTrans(final MboSet ms)
+def ():
+    '''returns LicTrans\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

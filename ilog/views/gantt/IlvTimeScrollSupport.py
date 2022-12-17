@@ -1,51 +1,67 @@
-def IlvTimeScrollSupport():
-    '''public IlvTimeScrollSupport(final IlvTimeScrollable owner)
-    public IlvTimeScrollSupport()
-    public IlvTimeScrollSupport(final IlvTimeScrollSupport ilvTimeScrollSupport)
+def ():
+    '''returns IlvTimeScrollSupport\n\n
+    (final IlvTimeScrollable owner)\n
+    ()\n
+    (final IlvTimeScrollSupport ilvTimeScrollSupport)\n
     '''
 def getTimeConverter():
-    '''public IlvTimeConverter getTimeConverter()
+    '''returns IlvTimeConverter\n\n
+    getTimeConverter()\n
     '''
 def setTimeConverter():
-    '''public void setTimeConverter(final IlvTimeConverter a)
+    '''returns None\n\n
+    setTimeConverter(final IlvTimeConverter a)\n
     '''
 def getViewStart():
-    '''public int getViewStart()
+    '''returns int\n\n
+    getViewStart()\n
     '''
 def setViewStart():
-    '''public void setViewStart(final int g)
+    '''returns None\n\n
+    setViewStart(final int g)\n
     '''
 def getViewWidth():
-    '''public int getViewWidth()
+    '''returns int\n\n
+    getViewWidth()\n
     '''
 def setLeftToRight():
-    '''public void setLeftToRight(final boolean i)
+    '''returns None\n\n
+    setLeftToRight(final boolean i)\n
     '''
 def isLeftToRight():
-    '''public boolean isLeftToRight()
+    '''returns boolean\n\n
+    isLeftToRight()\n
     '''
 def isConstantZoomFactorOnWidthChange():
-    '''public boolean isConstantZoomFactorOnWidthChange()
+    '''returns boolean\n\n
+    isConstantZoomFactorOnWidthChange()\n
     '''
 def setConstantZoomFactorOnWidthChange():
-    '''public void setConstantZoomFactorOnWidthChange(final boolean d)
+    '''returns None\n\n
+    setConstantZoomFactorOnWidthChange(final boolean d)\n
     '''
 def setViewWidth():
-    '''public void setViewWidth(final int h, final boolean b)
-    public void setViewWidth(final int n)
+    '''returns None\n\n
+    setViewWidth(final int h, final boolean b)\n
+    setViewWidth(final int n)\n
     '''
 def getZoomFactor():
-    '''public double getZoomFactor()
+    '''returns double\n\n
+    getZoomFactor()\n
     '''
 def getOffset():
-    '''public double getOffset()
+    '''returns double\n\n
+    getOffset()\n
     '''
 def getTime():
-    '''public Date getTime(final long n)
+    '''returns Date\n\n
+    getTime(final long n)\n
     '''
 def getLocation():
-    '''public long getLocation(final Date date)
+    '''returns long\n\n
+    getLocation(final Date date)\n
     '''
 def computeVisibleTimeScroll():
-    '''public Date computeVisibleTimeScroll(final long n, final long n2)
+    '''returns Date\n\n
+    computeVisibleTimeScroll(final long n, final long n2)\n
     '''

@@ -1,27 +1,36 @@
 def CREATECHG():
-    '''public int CREATECHG()
+    '''returns int\n\n
+    CREATECHG()\n
     '''
 def COPYPRLNPO():
-    '''public int COPYPRLNPO()
+    '''returns int\n\n
+    COPYPRLNPO()\n
     '''
 def CREATECONT():
-    '''public int CREATECONT()
+    '''returns int\n\n
+    CREATECONT()\n
     '''
 def COMPLRECPT():
-    '''public int COMPLRECPT()
+    '''returns int\n\n
+    COMPLRECPT()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def REVPO():
-    '''public int REVPO()
+    '''returns int\n\n
+    REVPO()\n
     '''
 def ROUTEWF():
-    '''public int ROUTEWF()
+    '''returns int\n\n
+    ROUTEWF()\n
     '''
 def CREATECOMM():
-    '''public int CREATECOMM()
+    '''returns int\n\n
+    CREATECOMM()\n
     '''

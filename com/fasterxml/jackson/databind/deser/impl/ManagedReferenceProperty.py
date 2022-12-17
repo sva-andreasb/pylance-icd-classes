@@ -1,18 +1,20 @@
-def ManagedReferenceProperty():
-    '''public ManagedReferenceProperty(final SettableBeanProperty forward, final String refName, final SettableBeanProperty backward, final boolean isContainer)
+def ():
+    '''returns ManagedReferenceProperty\n\n
+    (final SettableBeanProperty forward, final String refName, final SettableBeanProperty backward, final boolean isContainer)\n
     '''
 def fixAccess():
-    '''public void fixAccess(final DeserializationConfig config)
+    '''returns None\n\n
+    fixAccess(final DeserializationConfig config)\n
     '''
 def deserializeAndSet():
-    '''public void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''returns None\n\n
+    deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)\n
     '''
 def deserializeSetAndReturn():
-    '''public Object deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)
-    '''
-def set():
-    '''public final void set(final Object instance, final Object value)
+    '''returns Object\n\n
+    deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)\n
     '''
 def setAndReturn():
-    '''public Object setAndReturn(final Object instance, final Object value)
+    '''returns Object\n\n
+    setAndReturn(final Object instance, final Object value)\n
     '''

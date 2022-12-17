@@ -1,6 +1,8 @@
-def TLOAMITAssetDisposalProcess():
-    '''public TLOAMITAssetDisposalProcess()
+def ():
+    '''returns TLOAMITAssetDisposalProcess\n\n
+    ()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
+    '''returns None\n\n
+    changeStatus(final MboRemote setMbo, final String stat, final String memo)\n
     '''

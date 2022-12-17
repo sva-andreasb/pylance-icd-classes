@@ -1,31 +1,28 @@
 def getBidiFormat():
-    '''public String getBidiFormat()
+    '''returns String\n\n
+    getBidiFormat()\n
     '''
 def setBidiFormat():
-    '''public void setBidiFormat(final String bidiFormat)
-    '''
-def getBidiFormatFromMenu():
-    '''public static String getBidiFormatFromMenu(final int order, final int Direction, final int Swapping, final int Shaping, final int numShaping)
+    '''returns None\n\n
+    setBidiFormat(final String bidiFormat)\n
     '''
 def getOrderMenuItem():
-    '''public String getOrderMenuItem()
+    '''returns String\n\n
+    getOrderMenuItem()\n
     '''
 def getDirectionMenuItem():
-    '''public String getDirectionMenuItem()
+    '''returns String\n\n
+    getDirectionMenuItem()\n
     '''
 def getSwapingMenuItem():
-    '''public String getSwapingMenuItem()
+    '''returns String\n\n
+    getSwapingMenuItem()\n
     '''
 def getShapingMenuItem():
-    '''public String getShapingMenuItem()
+    '''returns String\n\n
+    getShapingMenuItem()\n
     '''
 def getNumShapingMenuItem():
-    '''public String getNumShapingMenuItem()
-    '''
-def normalizeContextual():
-    '''public static String normalizeContextual(final String inStr)
-    public static String[] normalizeContextual(final String[] inStr)
-    '''
-def unNormalizeContextual():
-    '''public static String unNormalizeContextual(final String inStr)
+    '''returns String\n\n
+    getNumShapingMenuItem()\n
     '''

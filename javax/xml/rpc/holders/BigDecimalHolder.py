@@ -1,4 +1,5 @@
-def BigDecimalHolder():
-    '''public BigDecimalHolder()
-    public BigDecimalHolder(final BigDecimal value)
+def ():
+    '''returns BigDecimalHolder\n\n
+    ()\n
+    (final BigDecimal myBigDecimal)\n
     '''

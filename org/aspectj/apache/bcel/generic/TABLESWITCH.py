@@ -1,7 +1,9 @@
-def TABLESWITCH():
-    '''public TABLESWITCH(final int[] match, final InstructionHandle[] targets, final InstructionHandle target)
-    public TABLESWITCH(final ByteSequence bytes)
+def ():
+    '''returns TABLESWITCH\n\n
+    (final int[] match, final InstructionHandle[] targets, final InstructionHandle target)\n
+    (final ByteSequence bytes)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''

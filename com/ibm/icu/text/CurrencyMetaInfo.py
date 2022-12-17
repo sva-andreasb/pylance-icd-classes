@@ -1,82 +1,52 @@
-def getInstance():
-    '''public static CurrencyMetaInfo getInstance()
-    public static CurrencyMetaInfo getInstance(final boolean noSubstitute)
-    '''
-def hasData():
-    '''public static boolean hasData()
-    '''
 def currencyInfo():
-    '''public List<CurrencyInfo> currencyInfo(final CurrencyFilter filter)
+    '''returns List<CurrencyInfo>\n\n
+    currencyInfo(final CurrencyFilter filter)\n
     '''
 def currencies():
-    '''public List<String> currencies(final CurrencyFilter filter)
+    '''returns List<String>\n\n
+    currencies(final CurrencyFilter filter)\n
     '''
 def regions():
-    '''public List<String> regions(final CurrencyFilter filter)
+    '''returns List<String>\n\n
+    regions(final CurrencyFilter filter)\n
     '''
 def currencyDigits():
-    '''public CurrencyDigits currencyDigits(final String isoCode)
-    public CurrencyDigits currencyDigits(final String isoCode, final Currency.CurrencyUsage currencyUsage)
-    '''
-def all():
-    '''public static CurrencyFilter all()
-    '''
-def now():
-    '''public static CurrencyFilter now()
-    '''
-def onRegion():
-    '''public static CurrencyFilter onRegion(final String region)
-    '''
-def onCurrency():
-    '''public static CurrencyFilter onCurrency(final String currency)
-    '''
-def onDate():
-    '''public static CurrencyFilter onDate(final Date date)
-    public static CurrencyFilter onDate(final long date)
-    '''
-def onDateRange():
-    '''public static CurrencyFilter onDateRange(final Date from, final Date to)
-    public static CurrencyFilter onDateRange(final long from, final long to)
-    '''
-def onTender():
-    '''public static CurrencyFilter onTender()
+    '''returns CurrencyDigits\n\n
+    currencyDigits(final String isoCode)\n
     '''
 def withRegion():
-    '''public CurrencyFilter withRegion(final String region)
+    '''returns CurrencyFilter\n\n
+    withRegion(final String region)\n
     '''
 def withCurrency():
-    '''public CurrencyFilter withCurrency(final String currency)
+    '''returns CurrencyFilter\n\n
+    withCurrency(final String currency)\n
     '''
 def withDate():
-    '''public CurrencyFilter withDate(final Date date)
-    public CurrencyFilter withDate(final long date)
+    '''returns CurrencyFilter\n\n
+    withDate(final Date date)\n
     '''
-def withDateRange():
-    '''public CurrencyFilter withDateRange(final Date from, final Date to)
-    public CurrencyFilter withDateRange(final long from, final long to)
-    '''
-def withTender():
-    '''public CurrencyFilter withTender()
+def withRange():
+    '''returns CurrencyFilter\n\n
+    withRange(final Date from, final Date to)\n
     '''
 def equals():
-    '''public boolean equals(final Object rhs)
-    public boolean equals(final CurrencyFilter rhs)
+    '''returns boolean\n\n
+    equals(final Object rhs)\n
+    equals(final CurrencyFilter rhs)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
-def CurrencyDigits():
-    '''public CurrencyDigits(final int fractionDigits, final int roundingIncrement)
-    '''
-def CurrencyInfo():
-    '''public CurrencyInfo(final String region, final String code, final long from, final long to, final int priority)
-    public CurrencyInfo(final String region, final String code, final long from, final long to, final int priority, final boolean tender)
-    '''
-def isTender():
-    '''public boolean isTender()
+def ():
+    '''returns CurrencyInfo\n\n
+    (final int fractionDigits, final int roundingIncrement)\n
+    (final String region, final String code, final long from, final long to, final int priority)\n
     '''

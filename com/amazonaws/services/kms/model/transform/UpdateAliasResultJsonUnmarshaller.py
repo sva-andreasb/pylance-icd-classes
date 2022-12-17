@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public UpdateAliasResult unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static UpdateAliasResultJsonUnmarshaller getInstance()
+    '''returns UpdateAliasResult\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

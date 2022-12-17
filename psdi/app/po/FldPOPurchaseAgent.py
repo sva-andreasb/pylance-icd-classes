@@ -1,6 +1,8 @@
-def FldPOPurchaseAgent():
-    '''public FldPOPurchaseAgent(final MboValue mbv)
+def ():
+    '''returns FldPOPurchaseAgent\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

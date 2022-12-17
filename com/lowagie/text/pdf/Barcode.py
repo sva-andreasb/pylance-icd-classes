@@ -10,102 +10,135 @@ CODE128 = "int  9"
 CODE128_UCC = "int  10"
 CODE128_RAW = "int  11"
 CODABAR = "int  12"
-def Barcode():
-    '''public Barcode()
+def ():
+    '''returns Barcode\n\n
+    ()\n
     '''
 def getX():
-    '''public float getX()
+    '''returns float\n\n
+    getX()\n
     '''
 def setX():
-    '''public void setX(final float x)
+    '''returns None\n\n
+    setX(final float x)\n
     '''
 def getN():
-    '''public float getN()
+    '''returns float\n\n
+    getN()\n
     '''
 def setN():
-    '''public void setN(final float n)
+    '''returns None\n\n
+    setN(final float n)\n
     '''
 def getFont():
-    '''public BaseFont getFont()
+    '''returns BaseFont\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final BaseFont font)
+    '''returns None\n\n
+    setFont(final BaseFont font)\n
     '''
 def getSize():
-    '''public float getSize()
+    '''returns float\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final float size)
+    '''returns None\n\n
+    setSize(final float size)\n
     '''
 def getBaseline():
-    '''public float getBaseline()
+    '''returns float\n\n
+    getBaseline()\n
     '''
 def setBaseline():
-    '''public void setBaseline(final float baseline)
+    '''returns None\n\n
+    setBaseline(final float baseline)\n
     '''
 def getBarHeight():
-    '''public float getBarHeight()
+    '''returns float\n\n
+    getBarHeight()\n
     '''
 def setBarHeight():
-    '''public void setBarHeight(final float barHeight)
+    '''returns None\n\n
+    setBarHeight(final float barHeight)\n
     '''
 def getTextAlignment():
-    '''public int getTextAlignment()
+    '''returns int\n\n
+    getTextAlignment()\n
     '''
 def setTextAlignment():
-    '''public void setTextAlignment(final int textAlignment)
+    '''returns None\n\n
+    setTextAlignment(final int textAlignment)\n
     '''
 def isGenerateChecksum():
-    '''public boolean isGenerateChecksum()
+    '''returns boolean\n\n
+    isGenerateChecksum()\n
     '''
 def setGenerateChecksum():
-    '''public void setGenerateChecksum(final boolean generateChecksum)
+    '''returns None\n\n
+    setGenerateChecksum(final boolean generateChecksum)\n
     '''
 def isChecksumText():
-    '''public boolean isChecksumText()
+    '''returns boolean\n\n
+    isChecksumText()\n
     '''
 def setChecksumText():
-    '''public void setChecksumText(final boolean checksumText)
+    '''returns None\n\n
+    setChecksumText(final boolean checksumText)\n
     '''
 def isStartStopText():
-    '''public boolean isStartStopText()
+    '''returns boolean\n\n
+    isStartStopText()\n
     '''
 def setStartStopText():
-    '''public void setStartStopText(final boolean startStopText)
+    '''returns None\n\n
+    setStartStopText(final boolean startStopText)\n
     '''
 def isExtended():
-    '''public boolean isExtended()
+    '''returns boolean\n\n
+    isExtended()\n
     '''
 def setExtended():
-    '''public void setExtended(final boolean extended)
+    '''returns None\n\n
+    setExtended(final boolean extended)\n
     '''
 def getCode():
-    '''public String getCode()
+    '''returns String\n\n
+    getCode()\n
     '''
 def setCode():
-    '''public void setCode(final String code)
+    '''returns None\n\n
+    setCode(final String code)\n
     '''
 def isGuardBars():
-    '''public boolean isGuardBars()
+    '''returns boolean\n\n
+    isGuardBars()\n
     '''
 def setGuardBars():
-    '''public void setGuardBars(final boolean guardBars)
+    '''returns None\n\n
+    setGuardBars(final boolean guardBars)\n
     '''
 def getCodeType():
-    '''public int getCodeType()
+    '''returns int\n\n
+    getCodeType()\n
     '''
 def setCodeType():
-    '''public void setCodeType(final int codeType)
+    '''returns None\n\n
+    setCodeType(final int codeType)\n
     '''
 def createTemplateWithBarcode():
-    '''public PdfTemplate createTemplateWithBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
+    '''returns PdfTemplate\n\n
+    createTemplateWithBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)\n
     '''
 def createImageWithBarcode():
-    '''public Image createImageWithBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
+    '''returns Image\n\n
+    createImageWithBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)\n
     '''
 def getInkSpreading():
-    '''public float getInkSpreading()
+    '''returns float\n\n
+    getInkSpreading()\n
     '''
 def setInkSpreading():
-    '''public void setInkSpreading(final float inkSpreading)
+    '''returns None\n\n
+    setInkSpreading(final float inkSpreading)\n
     '''

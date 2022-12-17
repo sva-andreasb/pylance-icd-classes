@@ -1,9 +1,12 @@
 def getCredentials():
-    '''public AWSCredentials getCredentials()
+    '''returns AWSCredentials\n\n
+    getCredentials()\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

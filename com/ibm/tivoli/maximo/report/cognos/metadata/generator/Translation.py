@@ -1,16 +1,21 @@
-def Translation():
-    '''public Translation(final String language, final String value)
-    public Translation(final String language)
+def ():
+    '''returns Translation\n\n
+    (final String language, final String value)\n
+    (final String language)\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setLanguage():
-    '''public void setLanguage(final String language)
+    '''returns None\n\n
+    setLanguage(final String language)\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''

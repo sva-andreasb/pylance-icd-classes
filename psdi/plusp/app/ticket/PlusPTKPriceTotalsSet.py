@@ -1,3 +1,4 @@
-def PlusPTKPriceTotalsSet():
-    '''public PlusPTKPriceTotalsSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPTKPriceTotalsSet\n\n
+    (final MboServerInterface ms)\n
     '''

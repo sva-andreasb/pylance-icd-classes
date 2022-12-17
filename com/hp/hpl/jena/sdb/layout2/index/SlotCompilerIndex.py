@@ -1,6 +1,8 @@
-def SlotCompilerIndex():
-    '''public SlotCompilerIndex(final SDBRequest request)
+def ():
+    '''returns SlotCompilerIndex\n\n
+    (final SDBRequest request)\n
     '''
 def start():
-    '''public SqlNode start(final QuadBlock quads)
+    '''returns SqlNode\n\n
+    start(final QuadBlock quads)\n
     '''

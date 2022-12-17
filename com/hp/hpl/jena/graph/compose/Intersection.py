@@ -1,12 +1,16 @@
-def Intersection():
-    '''public Intersection(final Graph L, final Graph R)
+def ():
+    '''returns Intersection\n\n
+    (final Graph L, final Graph R)\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple t)
+    '''returns None\n\n
+    performDelete(final Triple t)\n
     '''
 def graphBaseFind():
-    '''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch s)
+    '''returns ExtendedIterator<Triple>\n\n
+    graphBaseFind(final TripleMatch s)\n
     '''

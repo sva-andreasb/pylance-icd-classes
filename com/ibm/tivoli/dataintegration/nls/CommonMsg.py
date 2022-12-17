@@ -22,5 +22,6 @@ EMPTY_REQUIRED_PROPERTY = "String  \"EMPTY_REQUIRED_PROPERTY\""
 USINGCURRENTDATE = "String  \"USINGCURRENTDATE\""
 CLI_PROPS_NOT_FOUND = "String  \"CLI_PROPS_NOT_FOUND\""
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

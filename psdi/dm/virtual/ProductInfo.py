@@ -1,27 +1,36 @@
-def ProductInfo():
-    '''public ProductInfo()
+def ():
+    '''returns ProductInfo\n\n
+    ()\n
     '''
 def setDescription():
-    '''public void setDescription(final String desc)
+    '''returns None\n\n
+    setDescription(final String desc)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setResult():
-    '''public void setResult(final int res)
+    '''returns None\n\n
+    setResult(final int res)\n
     '''
 def getResult():
-    '''public int getResult()
+    '''returns int\n\n
+    getResult()\n
     '''
 def setExcluded():
-    '''public void setExcluded(final boolean flag)
+    '''returns None\n\n
+    setExcluded(final boolean flag)\n
     '''
 def isExcluded():
-    '''public boolean isExcluded()
+    '''returns boolean\n\n
+    isExcluded()\n
     '''
 def setSourceFlag():
-    '''public void setSourceFlag(final boolean flag)
+    '''returns None\n\n
+    setSourceFlag(final boolean flag)\n
     '''
 def getSourceFlag():
-    '''public boolean getSourceFlag()
+    '''returns boolean\n\n
+    getSourceFlag()\n
     '''

@@ -1,6 +1,8 @@
-def PlusPSOOwnerHist():
-    '''public PlusPSOOwnerHist(final MboSet ms)
+def ():
+    '''returns PlusPSOOwnerHist\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

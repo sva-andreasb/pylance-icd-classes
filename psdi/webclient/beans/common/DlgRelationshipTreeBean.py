@@ -1,12 +1,12 @@
-def DlgRelationshipTreeBean():
-    '''public DlgRelationshipTreeBean()
+def ():
+    '''returns DlgRelationshipTreeBean\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
-    '''
-def setRelationshipTreeObject():
-    '''public synchronized void setRelationshipTreeObject()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''

@@ -1,6 +1,4 @@
-def getDOMImplementation():
-    '''public static DOMImplementation getDOMImplementation()
-    '''
 def hasFeature():
-    '''public boolean hasFeature(String substring, final String s)
+    '''returns boolean\n\n
+    hasFeature(String substring, final String s)\n
     '''

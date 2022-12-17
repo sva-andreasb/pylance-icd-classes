@@ -1,57 +1,72 @@
-def getPresentation():
-    '''public static Presentation getPresentation(final HelpSet set, final String s)
-    '''
 def getInvoker():
-    '''public Component getInvoker()
+    '''returns Component\n\n
+    getInvoker()\n
     '''
 def setInvoker():
-    '''public void setInvoker(final Component invoker)
+    '''returns None\n\n
+    setInvoker(final Component invoker)\n
     '''
 def getInvokerInternalBounds():
-    '''public Rectangle getInvokerInternalBounds()
+    '''returns Rectangle\n\n
+    getInvokerInternalBounds()\n
     '''
 def setInvokerInternalBounds():
-    '''public void setInvokerInternalBounds(final Rectangle internalBounds)
+    '''returns None\n\n
+    setInvokerInternalBounds(final Rectangle internalBounds)\n
     '''
 def setDisplayed():
-    '''public void setDisplayed(final boolean b)
+    '''returns None\n\n
+    setDisplayed(final boolean b)\n
     '''
 def isDisplayed():
-    '''public boolean isDisplayed()
+    '''returns boolean\n\n
+    isDisplayed()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''
 def windowClosed():
-    '''public void windowClosed(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosed(final WindowEvent windowEvent)\n
     '''
 def windowIconified():
-    '''public void windowIconified(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowIconified(final WindowEvent windowEvent)\n
     '''
 def windowGainedFocus():
-    '''public void windowGainedFocus(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowGainedFocus(final WindowEvent windowEvent)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mousePressed(final MouseEvent mouseEvent)\n
     '''
 def mouseWheelMoved():
-    '''public void mouseWheelMoved(final MouseWheelEvent mouseWheelEvent)
+    '''returns None\n\n
+    mouseWheelMoved(final MouseWheelEvent mouseWheelEvent)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''
 def componentMoved():
-    '''public void componentMoved(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentMoved(final ComponentEvent componentEvent)\n
     '''
 def componentShown():
-    '''public void componentShown(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentShown(final ComponentEvent componentEvent)\n
     '''
 def componentHidden():
-    '''public void componentHidden(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentHidden(final ComponentEvent componentEvent)\n
     '''
 def keyReleased():
-    '''public void keyReleased(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyReleased(final KeyEvent keyEvent)\n
     '''

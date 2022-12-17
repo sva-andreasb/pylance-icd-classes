@@ -1,21 +1,28 @@
-def JobToolSet():
-    '''public JobToolSet(final MboServerInterface ms)
+def ():
+    '''returns JobToolSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findByAttributeTool():
-    '''public MboRemote findByAttributeTool(final String attrValue, final boolean tobedeleted)
+    '''returns MboRemote\n\n
+    findByAttributeTool(final String attrValue, final boolean tobedeleted)\n
     '''
 def findByAttributeToolForCrew():
-    '''public MboRemote findByAttributeToolForCrew(final String attrValue, final boolean tobedeleted, final String crew, final String joblaborid)
+    '''returns MboRemote\n\n
+    findByAttributeToolForCrew(final String attrValue, final boolean tobedeleted, final String crew, final String joblaborid)\n
     '''
 def findByAttributeToolNotForCrew():
-    '''public MboRemote findByAttributeToolNotForCrew(final String attrValue, final boolean tobedeleted, final String crew)
+    '''returns MboRemote\n\n
+    findByAttributeToolNotForCrew(final String attrValue, final boolean tobedeleted, final String crew)\n
     '''
 def findByAttributeToolNotForCrewType():
-    '''public MboRemote findByAttributeToolNotForCrewType(final String attrValue, final boolean tobedeleted, final String crewtype)
+    '''returns MboRemote\n\n
+    findByAttributeToolNotForCrewType(final String attrValue, final boolean tobedeleted, final String crewtype)\n
     '''
 def findByAttributeToolForCrewType():
-    '''public MboRemote findByAttributeToolForCrewType(final String attrValue, final boolean tobedeleted, final String crewtype, final String joblaborid)
+    '''returns MboRemote\n\n
+    findByAttributeToolForCrewType(final String attrValue, final boolean tobedeleted, final String crewtype, final String joblaborid)\n
     '''
 def findTools():
-    '''public List findTools(final String joblaborid)
+    '''returns List\n\n
+    findTools(final String joblaborid)\n
     '''

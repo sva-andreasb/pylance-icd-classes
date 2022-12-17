@@ -1,3 +1,4 @@
-def SDAMsadProp():
-    '''public SDAMsadProp(final MboSet ms)
+def ():
+    '''returns SDAMsadProp\n\n
+    (final MboSet ms)\n
     '''

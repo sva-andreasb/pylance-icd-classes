@@ -1,67 +1,80 @@
-def newContext():
-    '''public static JXPathContext newContext(final Object contextBean)
-    public static JXPathContext newContext(final JXPathContext parentContext, final Object contextBean)
-    '''
 def getParentContext():
-    '''public JXPathContext getParentContext()
+    '''returns JXPathContext\n\n
+    getParentContext()\n
     '''
 def getContextBean():
-    '''public Object getContextBean()
+    '''returns Object\n\n
+    getContextBean()\n
     '''
 def setVariables():
-    '''public void setVariables(final Variables vars)
+    '''returns None\n\n
+    setVariables(final Variables vars)\n
     '''
 def getVariables():
-    '''public Variables getVariables()
+    '''returns Variables\n\n
+    getVariables()\n
     '''
 def setFunctions():
-    '''public void setFunctions(final Functions functions)
+    '''returns None\n\n
+    setFunctions(final Functions functions)\n
     '''
 def getFunctions():
-    '''public Functions getFunctions()
+    '''returns Functions\n\n
+    getFunctions()\n
     '''
 def setFactory():
-    '''public void setFactory(final AbstractFactory factory)
+    '''returns None\n\n
+    setFactory(final AbstractFactory factory)\n
     '''
 def getFactory():
-    '''public AbstractFactory getFactory()
+    '''returns AbstractFactory\n\n
+    getFactory()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setDecimalFormatSymbols():
-    '''public void setDecimalFormatSymbols(final String name, final DecimalFormatSymbols symbols)
+    '''returns None\n\n
+    setDecimalFormatSymbols(final String name, final DecimalFormatSymbols symbols)\n
     '''
 def getDecimalFormatSymbols():
-    '''public DecimalFormatSymbols getDecimalFormatSymbols(final String name)
+    '''returns DecimalFormatSymbols\n\n
+    getDecimalFormatSymbols(final String name)\n
     '''
 def setLenient():
-    '''public void setLenient(final boolean lenient)
+    '''returns None\n\n
+    setLenient(final boolean lenient)\n
     '''
 def isLenient():
-    '''public boolean isLenient()
-    '''
-def compile():
-    '''public static CompiledExpression compile(final String xpath)
+    '''returns boolean\n\n
+    isLenient()\n
     '''
 def setIdentityManager():
-    '''public void setIdentityManager(final IdentityManager idManager)
+    '''returns None\n\n
+    setIdentityManager(final IdentityManager idManager)\n
     '''
 def getIdentityManager():
-    '''public IdentityManager getIdentityManager()
+    '''returns IdentityManager\n\n
+    getIdentityManager()\n
     '''
 def getPointerByID():
-    '''public Pointer getPointerByID(final String id)
+    '''returns Pointer\n\n
+    getPointerByID(final String id)\n
     '''
 def setKeyManager():
-    '''public void setKeyManager(final KeyManager keyManager)
+    '''returns None\n\n
+    setKeyManager(final KeyManager keyManager)\n
     '''
 def getKeyManager():
-    '''public KeyManager getKeyManager()
+    '''returns KeyManager\n\n
+    getKeyManager()\n
     '''
 def getPointerByKey():
-    '''public Pointer getPointerByKey(final String key, final String value)
+    '''returns Pointer\n\n
+    getPointerByKey(final String key, final String value)\n
     '''

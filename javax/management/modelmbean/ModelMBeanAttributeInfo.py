@@ -1,19 +1,24 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDescriptor():
-    '''public Descriptor getDescriptor()
+    '''returns Descriptor\n\n
+    getDescriptor()\n
     '''
 def setDescriptor():
-    '''public void setDescriptor(final Descriptor descriptor)
+    '''returns None\n\n
+    setDescriptor(final Descriptor descriptor)\n
     '''
-def ModelMBeanAttributeInfo():
-    '''public ModelMBeanAttributeInfo(final ModelMBeanAttributeInfo modelMBeanAttributeInfo)
-    public ModelMBeanAttributeInfo(final String str, final String s, final String s2, final boolean b, final boolean b2, final boolean b3)
-    public ModelMBeanAttributeInfo(final String str, final String s, final Method method, final Method method2)
-    public ModelMBeanAttributeInfo(final String str, final String s, final String s2, final boolean b, final boolean b2, final boolean b3, final Descriptor descriptor)
-    public ModelMBeanAttributeInfo(final String str, final String s, final Method method, final Method method2, final Descriptor descriptor)
+def ():
+    '''returns ModelMBeanAttributeInfo\n\n
+    (final ModelMBeanAttributeInfo modelMBeanAttributeInfo)\n
+    (final String str, final String s, final String s2, final boolean b, final boolean b2, final boolean b3)\n
+    (final String str, final String s, final Method method, final Method method2)\n
+    (final String str, final String s, final String s2, final boolean b, final boolean b2, final boolean b3, final Descriptor descriptor)\n
+    (final String str, final String s, final Method method, final Method method2, final Descriptor descriptor)\n
     '''

@@ -1,28 +1,36 @@
-def IlvLegendSeparator():
-    '''public IlvLegendSeparator()
-    public IlvLegendSeparator(final int n)
-    public IlvLegendSeparator(final Color color, final int n)
-    public IlvLegendSeparator(final int n, final int n2, final int n3)
-    public IlvLegendSeparator(final Color b, final int a, final int d, final int c)
+def ():
+    '''returns IlvLegendSeparator\n\n
+    ()\n
+    (final int n)\n
+    (final Color color, final int n)\n
+    (final int n, final int n2, final int n3)\n
+    (final Color b, final int a, final int d, final int c)\n
     '''
 def paintBorder():
-    '''public void paintBorder(final Component component, final Graphics graphics, final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    paintBorder(final Component component, final Graphics graphics, final int n, final int n2, final int n3, final int n4)\n
     '''
 def getBorderInsets():
-    '''public Insets getBorderInsets(final Component component)
+    '''returns Insets\n\n
+    getBorderInsets(final Component component)\n
     '''
 def isBorderOpaque():
-    '''public boolean isBorderOpaque()
+    '''returns boolean\n\n
+    isBorderOpaque()\n
     '''
 def getOutsideMargin():
-    '''public int getOutsideMargin()
+    '''returns int\n\n
+    getOutsideMargin()\n
     '''
 def getInsideMargin():
-    '''public int getInsideMargin()
+    '''returns int\n\n
+    getInsideMargin()\n
     '''
 def getColor():
-    '''public Color getColor()
+    '''returns Color\n\n
+    getColor()\n
     '''
 def getThickness():
-    '''public int getThickness()
+    '''returns int\n\n
+    getThickness()\n
     '''

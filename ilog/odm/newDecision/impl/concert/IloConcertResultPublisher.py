@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def publishGoalsBreadown():
-    '''public void publishGoalsBreadown()
+    '''returns None\n\n
+    publishGoalsBreadown()\n
     '''
 def publishGoalsValues():
-    '''public void publishGoalsValues()
+    '''returns None\n\n
+    publishGoalsValues()\n
     '''
 def publishGoalBounds():
-    '''public void publishGoalBounds()
+    '''returns None\n\n
+    publishGoalBounds()\n
     '''

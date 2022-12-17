@@ -17,90 +17,114 @@ MAXTYPE_ALN = "String  \"ALN\""
 MAXTYPE_INTEGER = "String  \"INTEGER\""
 MAXTYPE_BIGINT = "String  \"BIGINT\""
 MAXTYPE_DECIMAL = "String  \"DECIMAL\""
-def JSONPropertyInfo():
-    '''public JSONPropertyInfo(final String name, final int type, final long suggestedLength, final String title)
-    public JSONPropertyInfo(final String name, final String attributeName, final int type, final Object defaultValue, final long suggestedLength, final String title, final String dateFormatType, final String dateFormat)
-    public JSONPropertyInfo(final String attributeName, final String propName, final String dateFormatType, final String dateFormat)
+def ():
+    '''returns JSONPropertyInfo\n\n
+    (final String name, final int type, final long suggestedLength, final String title)\n
+    (final String name, final String attributeName, final int type, final Object defaultValue, final long suggestedLength, final String title, final String dateFormatType, final String dateFormat)\n
+    (final String attributeName, final String propName, final String dateFormatType, final String dateFormat)\n
     '''
 def setEditable():
-    '''public void setEditable(final boolean editable)
+    '''returns None\n\n
+    setEditable(final boolean editable)\n
     '''
 def setDomainName():
-    '''public void setDomainName(final String domainName)
+    '''returns None\n\n
+    setDomainName(final String domainName)\n
     '''
 def getDomainName():
-    '''public String getDomainName()
+    '''returns String\n\n
+    getDomainName()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def isEditable():
-    '''public boolean isEditable()
+    '''returns boolean\n\n
+    isEditable()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def getSuggestedLength():
-    '''public long getSuggestedLength()
+    '''returns long\n\n
+    getSuggestedLength()\n
     '''
 def setLength():
-    '''public void setLength(final int l)
+    '''returns None\n\n
+    setLength(final int l)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def setAttributeName():
-    '''public void setAttributeName(final String attr)
+    '''returns None\n\n
+    setAttributeName(final String attr)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getScale():
-    '''public int getScale()
+    '''returns int\n\n
+    getScale()\n
     '''
 def setScale():
-    '''public void setScale(final int t)
+    '''returns None\n\n
+    setScale(final int t)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String t)
+    '''returns None\n\n
+    setTitle(final String t)\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String t)
+    '''returns None\n\n
+    setDefaultValue(final String t)\n
     '''
 def getDefaultValue():
-    '''public Object getDefaultValue()
+    '''returns Object\n\n
+    getDefaultValue()\n
     '''
 def getMaxType():
-    '''public String getMaxType()
-    public String getMaxType(final int type)
+    '''returns String\n\n
+    getMaxType()\n
+    getMaxType(final int type)\n
     '''
 def setMaxType():
-    '''public void setMaxType(final String t)
+    '''returns None\n\n
+    setMaxType(final String t)\n
     '''
 def setDateFormatType():
-    '''public String setDateFormatType(final String dt)
+    '''returns String\n\n
+    setDateFormatType(final String dt)\n
     '''
 def setDateFormat():
-    '''public String setDateFormat(final String df)
-    '''
-def getDomainMap():
-    '''public Map<Object, String> getDomainMap()
+    '''returns String\n\n
+    setDateFormat(final String df)\n
     '''
 def getDateFormatType():
-    '''public String getDateFormatType()
+    '''returns String\n\n
+    getDateFormatType()\n
     '''
 def getDateFormat():
-    '''public String getDateFormat()
+    '''returns String\n\n
+    getDateFormat()\n
     '''
 def setDomainMap():
-    '''public void setDomainMap(final Map<Object, String> domainMap)
+    '''returns None\n\n
+    setDomainMap(final Map<Object, String> domainMap)\n
     '''
 def setConstraints():
-    '''public void setConstraints(final PropertyConstraints pc)
+    '''returns None\n\n
+    setConstraints(final PropertyConstraints pc)\n
     '''

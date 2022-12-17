@@ -1,23 +1,30 @@
-def MaxDomValConditionCache():
-    '''public MaxDomValConditionCache()
+def ():
+    '''returns MaxDomValConditionCache\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String domainId)
-    public void reload(final String domainId, final Connection con)
+    '''returns None\n\n
+    reload()\n
+    reload(final String domainId)\n
+    reload(final String domainId, final Connection con)\n
     '''
 def getAllConditionNumOfDomain():
-    '''public String[] getAllConditionNumOfDomain(final String domainId, final String objectName)
+    '''returns String[]\n\n
+    getAllConditionNumOfDomain(final String domainId, final String objectName)\n
     '''
 def getAllConditions():
-    '''public ArrayList<String>[] getAllConditions(final String domainId, final String valueId, final String objectName)
+    '''returns ArrayList<String>[]\n\n
+    getAllConditions(final String domainId, final String valueId, final String objectName)\n
     '''
 def getAllValueIds():
-    '''public String[] getAllValueIds(final String domainId, final String objectName)
+    '''returns String[]\n\n
+    getAllValueIds(final String domainId, final String objectName)\n
     '''

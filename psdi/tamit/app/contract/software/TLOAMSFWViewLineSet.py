@@ -1,3 +1,4 @@
-def TLOAMSFWViewLineSet():
-    '''public TLOAMSFWViewLineSet(final MboServerInterface ms)
+def ():
+    '''returns TLOAMSFWViewLineSet\n\n
+    (final MboServerInterface ms)\n
     '''

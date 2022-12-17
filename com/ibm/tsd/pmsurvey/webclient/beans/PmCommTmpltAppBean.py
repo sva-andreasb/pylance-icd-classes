@@ -1,9 +1,12 @@
-def PmCommTmpltAppBean():
-    '''public PmCommTmpltAppBean()
+def ():
+    '''returns PmCommTmpltAppBean\n\n
+    ()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def MANSURVEY():
-    '''public int MANSURVEY()
+    '''returns int\n\n
+    MANSURVEY()\n
     '''

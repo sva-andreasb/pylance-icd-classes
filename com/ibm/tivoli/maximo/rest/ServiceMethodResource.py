@@ -1,10 +1,13 @@
-def ServiceMethodResource():
-    '''public ServiceMethodResource(final Resource resource, final MethodInfo methodInfo, final Object methodResponse)
-    public ServiceMethodResource(final Object resource, final String type, final String name, final MethodInfo methodInfo, final Object methodResponse)
+def ():
+    '''returns ServiceMethodResource\n\n
+    (final Resource resource, final MethodInfo methodInfo, final Object methodResponse)\n
+    (final Object resource, final String type, final String name, final MethodInfo methodInfo, final Object methodResponse)\n
     '''
 def getMethodResponse():
-    '''public Object getMethodResponse()
+    '''returns Object\n\n
+    getMethodResponse()\n
     '''
 def getMethodInfo():
-    '''public MethodInfo getMethodInfo()
+    '''returns MethodInfo\n\n
+    getMethodInfo()\n
     '''

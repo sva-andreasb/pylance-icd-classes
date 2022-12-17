@@ -1,9 +1,12 @@
-def MaximoThread():
-    '''public MaximoThread(final String name)
+def ():
+    '''returns MaximoThread\n\n
+    (final String name)\n
     '''
 def markShutdown():
-    '''public void markShutdown()
+    '''returns None\n\n
+    markShutdown()\n
     '''
 def isMarkedForShutDown():
-    '''public boolean isMarkedForShutDown()
+    '''returns boolean\n\n
+    isMarkedForShutDown()\n
     '''

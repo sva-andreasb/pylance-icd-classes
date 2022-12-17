@@ -1,3 +1,4 @@
-def WFWaitListSet():
-    '''public WFWaitListSet(final MboServerInterface ms)
+def ():
+    '''returns WFWaitListSet\n\n
+    (final MboServerInterface ms)\n
     '''

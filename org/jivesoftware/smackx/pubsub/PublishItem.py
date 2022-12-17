@@ -1,7 +1,9 @@
-def PublishItem():
-    '''public PublishItem(final String nodeId, final T toPublish)
-    public PublishItem(final String nodeId, final Collection<T> toPublish)
+def ():
+    '''returns PublishItem\n\n
+    (final String nodeId, final T toPublish)\n
+    (final String nodeId, final Collection<T> toPublish)\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''

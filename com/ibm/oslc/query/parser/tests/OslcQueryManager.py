@@ -1,38 +1,50 @@
-def OslcQueryManager():
-    '''public OslcQueryManager()
-    public OslcQueryManager(final boolean verbose)
+def ():
+    '''returns OslcQueryManager\n\n
+    ()\n
+    (final boolean verbose)\n
     '''
 def getWhereQueryParameter():
-    '''public String getWhereQueryParameter()
+    '''returns String\n\n
+    getWhereQueryParameter()\n
     '''
 def getSearchTermsQueryParameter():
-    '''public String getSearchTermsQueryParameter()
+    '''returns String\n\n
+    getSearchTermsQueryParameter()\n
     '''
 def getOrderByQueryParameter():
-    '''public String getOrderByQueryParameter()
+    '''returns String\n\n
+    getOrderByQueryParameter()\n
     '''
 def getSelectQueryParameter():
-    '''public String getSelectQueryParameter()
+    '''returns String\n\n
+    getSelectQueryParameter()\n
     '''
 def whereTerm():
-    '''public void whereTerm(final String identifier, final String operator, final String value)
-    public void whereTerm(final String identifier, final String[] values)
+    '''returns None\n\n
+    whereTerm(final String identifier, final String operator, final String value)\n
+    whereTerm(final String identifier, final String[] values)\n
     '''
 def whereScopedTerm():
-    '''public void whereScopedTerm(final String identifier, final List<IOslcTerm> terms)
+    '''returns None\n\n
+    whereScopedTerm(final String identifier, final List<IOslcTerm> terms)\n
     '''
 def selectProperty():
-    '''public void selectProperty(final String identifier)
+    '''returns None\n\n
+    selectProperty(final String identifier)\n
     '''
 def selectNestedProperty():
-    '''public void selectNestedProperty(final String identifier, final List<IOslcProperty> properties)
+    '''returns None\n\n
+    selectNestedProperty(final String identifier, final List<IOslcProperty> properties)\n
     '''
 def searchTerm():
-    '''public void searchTerm(final String searchTerm)
+    '''returns None\n\n
+    searchTerm(final String searchTerm)\n
     '''
 def orderBySortTerm():
-    '''public void orderBySortTerm(final String sortOrder, final String identifier)
+    '''returns None\n\n
+    orderBySortTerm(final String sortOrder, final String identifier)\n
     '''
 def orderByScopedSortTerm():
-    '''public void orderByScopedSortTerm(final String identifier, final List<IOslcSortTerm> sortTerms)
+    '''returns None\n\n
+    orderByScopedSortTerm(final String identifier, final List<IOslcSortTerm> sortTerms)\n
     '''

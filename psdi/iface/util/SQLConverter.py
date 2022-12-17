@@ -14,110 +14,145 @@ JSON_RESOURCE_DIR = "String  \"jsonresource\""
 JSON_MAP_DIR = "String  \"jsonmap\""
 RECORD_DIR = "String  \"record\""
 TENANT_DIR = "String  \"tenant\""
-def SQLConverter():
-    '''public SQLConverter()
+def ():
+    '''returns SQLConverter\n\n
+    ()\n
     '''
 def convert():
-    '''public byte[] convert(final Map<String, String[]> queryParams, final UserInfo userInfo)
+    '''returns byte[]\n\n
+    convert(final Map<String, String[]> queryParams, final UserInfo userInfo)\n
     '''
 def convertData():
-    '''public byte[] convertData(final String data)
-    public byte[] convertData(final String data, final UserInfo userInfo)
-    public byte[] convertData(final String data, final Connection con, final String schemaOwner)
+    '''returns byte[]\n\n
+    convertData(final String data)\n
+    convertData(final String data, final UserInfo userInfo)\n
+    convertData(final String data, final Connection con, final String schemaOwner)\n
     '''
 def convertInteraction():
-    '''public String convertInteraction(final String data)
+    '''returns String\n\n
+    convertInteraction(final String data)\n
     '''
 def convertJSONResource():
-    '''public String convertJSONResource(final String data)
+    '''returns String\n\n
+    convertJSONResource(final String data)\n
     '''
 def convertJSONMap():
-    '''public String convertJSONMap(final String data)
+    '''returns String\n\n
+    convertJSONMap(final String data)\n
     '''
 def convertArtifacts():
-    '''public String convertArtifacts(final String data)
+    '''returns String\n\n
+    convertArtifacts(final String data)\n
     '''
 def convertMEAArtifacts():
-    '''public String convertMEAArtifacts(final String data)
+    '''returns String\n\n
+    convertMEAArtifacts(final String data)\n
     '''
 def convertTable():
-    '''public String convertTable(final String data)
+    '''returns String\n\n
+    convertTable(final String data)\n
     '''
 def writeDBCObjects():
-    '''public int writeDBCObjects(final PrintStream out, final SQLConverterUtil util, int numLines, final InteractionInfo interactionInfo)
+    '''returns int\n\n
+    writeDBCObjects(final PrintStream out, final SQLConverterUtil util, int numLines, final InteractionInfo interactionInfo)\n
     '''
 def writeDBCUI():
-    '''public int writeDBCUI(final PrintStream out, final SQLConverterUtil util, int numLines, final InteractionInfo interactionInfo, final boolean addHeader)
+    '''returns int\n\n
+    writeDBCUI(final PrintStream out, final SQLConverterUtil util, int numLines, final InteractionInfo interactionInfo, final boolean addHeader)\n
     '''
 def writeDBCPublishChannel():
-    '''public int writeDBCPublishChannel(final PrintStream out, final SQLConverterUtil util, int numLines, final String name, String extSystem)
+    '''returns int\n\n
+    writeDBCPublishChannel(final PrintStream out, final SQLConverterUtil util, int numLines, final String name, String extSystem)\n
     '''
 def writeDBCEnterpriseService():
-    '''public int writeDBCEnterpriseService(final PrintStream out, final SQLConverterUtil util, int numLines, final String name, String extSystem)
+    '''returns int\n\n
+    writeDBCEnterpriseService(final PrintStream out, final SQLConverterUtil util, int numLines, final String name, String extSystem)\n
     '''
 def writeDBCRules():
-    '''public int writeDBCRules(final PrintStream out, final SQLConverterUtil util, int numLines, final String name, final String useWith)
+    '''returns int\n\n
+    writeDBCRules(final PrintStream out, final SQLConverterUtil util, int numLines, final String name, final String useWith)\n
     '''
 def writeDBCEndPoint():
-    '''public int writeDBCEndPoint(final PrintStream out, final SQLConverterUtil util, int numLines, final String name)
+    '''returns int\n\n
+    writeDBCEndPoint(final PrintStream out, final SQLConverterUtil util, int numLines, final String name)\n
     '''
 def writeDBCInvokeChannel():
-    '''public int writeDBCInvokeChannel(final PrintStream out, final SQLConverterUtil util, int numLines, final String name)
+    '''returns int\n\n
+    writeDBCInvokeChannel(final PrintStream out, final SQLConverterUtil util, int numLines, final String name)\n
     '''
 def writeDBCExternalSystem():
-    '''public int writeDBCExternalSystem(final PrintStream out, final SQLConverterUtil util, int numLines, final String name)
+    '''returns int\n\n
+    writeDBCExternalSystem(final PrintStream out, final SQLConverterUtil util, int numLines, final String name)\n
     '''
 def writeDBCWSRegistry():
-    '''public int writeDBCWSRegistry(final PrintStream out, final SQLConverterUtil util, int numLines, final String name)
+    '''returns int\n\n
+    writeDBCWSRegistry(final PrintStream out, final SQLConverterUtil util, int numLines, final String name)\n
     '''
 def writeDBCObjectStructure():
-    '''public int writeDBCObjectStructure(final PrintStream out, final SQLConverterUtil util, int numLines, String whereClause, final String grantApp)
+    '''returns int\n\n
+    writeDBCObjectStructure(final PrintStream out, final SQLConverterUtil util, int numLines, String whereClause, final String grantApp)\n
     '''
 def writeDBCOslcResource():
-    '''public int writeDBCOslcResource(final PrintStream out, final SQLConverterUtil util, int numLines, final String whereClause)
+    '''returns int\n\n
+    writeDBCOslcResource(final PrintStream out, final SQLConverterUtil util, int numLines, final String whereClause)\n
     '''
 def writeDBCScript():
-    '''public int writeDBCScript(final PrintStream out, final SQLConverterUtil util, int numLines, final String whereClause)
+    '''returns int\n\n
+    writeDBCScript(final PrintStream out, final SQLConverterUtil util, int numLines, final String whereClause)\n
     '''
 def writeDBCJSONResource():
-    '''public int writeDBCJSONResource(final PrintStream out, final SQLConverterUtil util, int numLines, final String whereClause, final String resourceType)
+    '''returns int\n\n
+    writeDBCJSONResource(final PrintStream out, final SQLConverterUtil util, int numLines, final String whereClause, final String resourceType)\n
     '''
 def writeDBCJSONMap():
-    '''public int writeDBCJSONMap(final PrintStream out, final SQLConverterUtil util, int numLines)
+    '''returns int\n\n
+    writeDBCJSONMap(final PrintStream out, final SQLConverterUtil util, int numLines)\n
     '''
 def convertBYOSArtifacts():
-    '''public String convertBYOSArtifacts(final String data)
+    '''returns String\n\n
+    convertBYOSArtifacts(final String data)\n
     '''
 def convertTenant():
-    '''public String convertTenant(final String data)
+    '''returns String\n\n
+    convertTenant(final String data)\n
     '''
 def writeDBCInteractionMap():
-    '''public int writeDBCInteractionMap(final PrintStream out, final SQLConverterUtil util, int numLines, final InteractionInfo interactionInfo)
+    '''returns int\n\n
+    writeDBCInteractionMap(final PrintStream out, final SQLConverterUtil util, int numLines, final InteractionInfo interactionInfo)\n
     '''
 def writeDBCInteraction():
-    '''public void writeDBCInteraction(PrintStream out, final SQLConverterUtil util, int numLines, final String name)
+    '''returns None\n\n
+    writeDBCInteraction(PrintStream out, final SQLConverterUtil util, int numLines, final String name)\n
     '''
 def writeDBCWorkCenter():
-    '''public String writeDBCWorkCenter(final String data)
+    '''returns String\n\n
+    writeDBCWorkCenter(final String data)\n
     '''
 def writeDBCOSWorkCenter():
-    '''public void writeDBCOSWorkCenter(final String input)
+    '''returns None\n\n
+    writeDBCOSWorkCenter(final String input)\n
     '''
 def writeDBCOSWorkCenterAuth():
-    '''public void writeDBCOSWorkCenterAuth(final String osString, final String workCenter, final String groupName, final String dir, final boolean addWCAuth)
+    '''returns None\n\n
+    writeDBCOSWorkCenterAuth(final String osString, final String workCenter, final String groupName, final String dir, final boolean addWCAuth)\n
     '''
 def writeDBCWorkCenterGroup():
-    '''public void writeDBCWorkCenterGroup(final String workCenter, final String groupName, final String description)
+    '''returns None\n\n
+    writeDBCWorkCenterGroup(final String workCenter, final String groupName, final String description)\n
     '''
 def writeDBCWorkCenterUser():
-    '''public void writeDBCWorkCenterUser(final String workCenter, final String groupName, final String userId)
+    '''returns None\n\n
+    writeDBCWorkCenterUser(final String workCenter, final String groupName, final String userId)\n
     '''
 def writeDBCWorkCenterAuth():
-    '''public void writeDBCWorkCenterAuth(final String workCenter, final String groupName, final List<Element> groupData)
+    '''returns None\n\n
+    writeDBCWorkCenterAuth(final String workCenter, final String groupName, final List<Element> groupData)\n
     '''
 def recordStart():
-    '''public void recordStart()
+    '''returns None\n\n
+    recordStart()\n
     '''
 def recordEnd():
-    '''public String recordEnd(final String rest)
+    '''returns String\n\n
+    recordEnd(final String rest)\n
     '''

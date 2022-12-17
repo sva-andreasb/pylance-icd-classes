@@ -1,4 +1,5 @@
-def RelationService():
-    '''public RelationService()
-    public RelationService(final MXServer mxServer)
+def ():
+    '''returns RelationService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

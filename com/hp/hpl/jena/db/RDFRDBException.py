@@ -1,4 +1,5 @@
-def RDFRDBException():
-    '''public RDFRDBException(final String message)
-    public RDFRDBException(final String message, final Exception e)
+def ():
+    '''returns RDFRDBException\n\n
+    (final String message)\n
+    (final String message, final Exception e)\n
     '''

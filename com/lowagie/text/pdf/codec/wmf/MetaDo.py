@@ -66,27 +66,23 @@ META_CREATEPENINDIRECT = "int  762"
 META_CREATEFONTINDIRECT = "int  763"
 META_CREATEBRUSHINDIRECT = "int  764"
 META_CREATEREGION = "int  1791"
-def MetaDo():
-    '''public MetaDo(final InputStream in, final PdfContentByte cb)
+def ():
+    '''returns MetaDo\n\n
+    (final InputStream in, final PdfContentByte cb)\n
     '''
 def readAll():
-    '''public void readAll()
+    '''returns None\n\n
+    readAll()\n
     '''
 def outputText():
-    '''public void outputText(final int x, final int y, final int flag, final int x1, final int y1, final int x2, final int y2, final String text)
+    '''returns None\n\n
+    outputText(final int x, final int y, final int flag, final int x1, final int y1, final int x2, final int y2, final String text)\n
     '''
 def isNullStrokeFill():
-    '''public boolean isNullStrokeFill(final boolean isRectangle)
+    '''returns boolean\n\n
+    isNullStrokeFill(final boolean isRectangle)\n
     '''
 def strokeAndFill():
-    '''public void strokeAndFill()
-    '''
-def wrapBMP():
-    '''public static byte[] wrapBMP(final Image image)
-    '''
-def writeWord():
-    '''public static void writeWord(final OutputStream os, final int v)
-    '''
-def writeDWord():
-    '''public static void writeDWord(final OutputStream os, final int v)
+    '''returns None\n\n
+    strokeAndFill()\n
     '''

@@ -1,6 +1,8 @@
-def FldIoTMsgSchema():
-    '''public FldIoTMsgSchema(final MboValue mbv)
+def ():
+    '''returns FldIoTMsgSchema\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

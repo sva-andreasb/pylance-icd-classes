@@ -1,3 +1,4 @@
-def PartitionEntryCountRequest():
-    '''public PartitionEntryCountRequest(final String s)
+def ():
+    '''returns PartitionEntryCountRequest\n\n
+    (final String s)\n
     '''

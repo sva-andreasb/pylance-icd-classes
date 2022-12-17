@@ -1,3 +1,4 @@
-def ContractTypeTermSet():
-    '''public ContractTypeTermSet(final MboServerInterface ms)
+def ():
+    '''returns ContractTypeTermSet\n\n
+    (final MboServerInterface ms)\n
     '''

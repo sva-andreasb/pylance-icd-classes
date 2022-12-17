@@ -1,19 +1,25 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def generate():
-    '''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''returns None\n\n
+    generate(final Hashtable hashtable, final PrintWriter printWriter)\n
     '''
 def generator():
-    '''public Generator generator()
+    '''returns Generator\n\n
+    generator()\n
     '''
 def absFilename():
-    '''public void absFilename(final String absFilename)
-    public String absFilename()
+    '''returns String\n\n
+    absFilename(final String absFilename)\n
+    absFilename()\n
     '''
 def addInclude():
-    '''public void addInclude(final IncludeEntry obj)
+    '''returns None\n\n
+    addInclude(final IncludeEntry obj)\n
     '''
 def includes():
-    '''public Vector includes()
+    '''returns Vector\n\n
+    includes()\n
     '''

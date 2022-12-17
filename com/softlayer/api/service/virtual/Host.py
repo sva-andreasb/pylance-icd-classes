@@ -1,202 +1,264 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getBilledPerGuestFlag():
-    '''public Boolean getBilledPerGuestFlag()
+    '''returns Boolean\n\n
+    getBilledPerGuestFlag()\n
     '''
 def setBilledPerGuestFlag():
-    '''public void setBilledPerGuestFlag(final Boolean billedPerGuestFlag)
+    '''returns None\n\n
+    setBilledPerGuestFlag(final Boolean billedPerGuestFlag)\n
     '''
 def getBilledPerMemoryUsageFlag():
-    '''public Boolean getBilledPerMemoryUsageFlag()
+    '''returns Boolean\n\n
+    getBilledPerMemoryUsageFlag()\n
     '''
 def setBilledPerMemoryUsageFlag():
-    '''public void setBilledPerMemoryUsageFlag(final Boolean billedPerMemoryUsageFlag)
+    '''returns None\n\n
+    setBilledPerMemoryUsageFlag(final Boolean billedPerMemoryUsageFlag)\n
     '''
 def getGuests():
-    '''public List<Guest> getGuests()
+    '''returns List<Guest>\n\n
+    getGuests()\n
     '''
 def getHardware():
-    '''public Server getHardware()
+    '''returns Server\n\n
+    getHardware()\n
     '''
 def setHardware():
-    '''public void setHardware(final Server hardware)
+    '''returns None\n\n
+    setHardware(final Server hardware)\n
     '''
 def setMetricTrackingObject():
-    '''public void setMetricTrackingObject(final com.softlayer.api.service.metric.tracking.Object metricTrackingObject)
+    '''returns None\n\n
+    setMetricTrackingObject(final com.softlayer.api.service.metric.tracking.Object metricTrackingObject)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getEnabledFlag():
-    '''public Long getEnabledFlag()
+    '''returns Long\n\n
+    getEnabledFlag()\n
     '''
 def setEnabledFlag():
-    '''public void setEnabledFlag(final Long enabledFlag)
+    '''returns None\n\n
+    setEnabledFlag(final Long enabledFlag)\n
     '''
 def isEnabledFlagSpecified():
-    '''public boolean isEnabledFlagSpecified()
+    '''returns boolean\n\n
+    isEnabledFlagSpecified()\n
     '''
 def unsetEnabledFlag():
-    '''public void unsetEnabledFlag()
+    '''returns None\n\n
+    unsetEnabledFlag()\n
     '''
 def getHardwareId():
-    '''public Long getHardwareId()
+    '''returns Long\n\n
+    getHardwareId()\n
     '''
 def setHardwareId():
-    '''public void setHardwareId(final Long hardwareId)
+    '''returns None\n\n
+    setHardwareId(final Long hardwareId)\n
     '''
 def isHardwareIdSpecified():
-    '''public boolean isHardwareIdSpecified()
+    '''returns boolean\n\n
+    isHardwareIdSpecified()\n
     '''
 def unsetHardwareId():
-    '''public void unsetHardwareId()
+    '''returns None\n\n
+    unsetHardwareId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isNameSpecified():
-    '''public boolean isNameSpecified()
+    '''returns boolean\n\n
+    isNameSpecified()\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getPhysicalMemoryCapacity():
-    '''public Long getPhysicalMemoryCapacity()
+    '''returns Long\n\n
+    getPhysicalMemoryCapacity()\n
     '''
 def setPhysicalMemoryCapacity():
-    '''public void setPhysicalMemoryCapacity(final Long physicalMemoryCapacity)
+    '''returns None\n\n
+    setPhysicalMemoryCapacity(final Long physicalMemoryCapacity)\n
     '''
 def isPhysicalMemoryCapacitySpecified():
-    '''public boolean isPhysicalMemoryCapacitySpecified()
+    '''returns boolean\n\n
+    isPhysicalMemoryCapacitySpecified()\n
     '''
 def unsetPhysicalMemoryCapacity():
-    '''public void unsetPhysicalMemoryCapacity()
+    '''returns None\n\n
+    unsetPhysicalMemoryCapacity()\n
     '''
 def getUuid():
-    '''public String getUuid()
+    '''returns String\n\n
+    getUuid()\n
     '''
 def setUuid():
-    '''public void setUuid(final String uuid)
+    '''returns None\n\n
+    setUuid(final String uuid)\n
     '''
 def isUuidSpecified():
-    '''public boolean isUuidSpecified()
+    '''returns boolean\n\n
+    isUuidSpecified()\n
     '''
 def unsetUuid():
-    '''public void unsetUuid()
+    '''returns None\n\n
+    unsetUuid()\n
     '''
 def getGuestCount():
-    '''public Long getGuestCount()
+    '''returns Long\n\n
+    getGuestCount()\n
     '''
 def setGuestCount():
-    '''public void setGuestCount(final Long guestCount)
+    '''returns None\n\n
+    setGuestCount(final Long guestCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def billedPerGuestFlag():
-    '''public Mask billedPerGuestFlag()
+    '''returns Mask\n\n
+    billedPerGuestFlag()\n
     '''
 def billedPerMemoryUsageFlag():
-    '''public Mask billedPerMemoryUsageFlag()
+    '''returns Mask\n\n
+    billedPerMemoryUsageFlag()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def enabledFlag():
-    '''public Mask enabledFlag()
+    '''returns Mask\n\n
+    enabledFlag()\n
     '''
 def hardwareId():
-    '''public Mask hardwareId()
+    '''returns Mask\n\n
+    hardwareId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def name():
-    '''public Mask name()
+    '''returns Mask\n\n
+    name()\n
     '''
 def physicalMemoryCapacity():
-    '''public Mask physicalMemoryCapacity()
+    '''returns Mask\n\n
+    physicalMemoryCapacity()\n
     '''
 def uuid():
-    '''public Mask uuid()
+    '''returns Mask\n\n
+    uuid()\n
     '''
 def guestCount():
-    '''public Mask guestCount()
+    '''returns Mask\n\n
+    guestCount()\n
     '''

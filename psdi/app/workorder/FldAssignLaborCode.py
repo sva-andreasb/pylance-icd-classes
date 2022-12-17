@@ -1,21 +1,28 @@
-def FldAssignLaborCode():
-    '''public FldAssignLaborCode(final MboValue mbv)
+def ():
+    '''returns FldAssignLaborCode\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def validateActiveLabor():
-    '''public void validateActiveLabor()
+    '''returns None\n\n
+    validateActiveLabor()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def getLastFieldSet():
-    '''public String getLastFieldSet(final MboRemote sourceMbo, final MboRemote currentMbo)
+    '''returns String\n\n
+    getLastFieldSet(final MboRemote sourceMbo, final MboRemote currentMbo)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

@@ -1,6 +1,8 @@
 def calculate():
-    '''public int calculate()
+    '''returns int\n\n
+    calculate()\n
     '''
 def simulate():
-    '''public int simulate()
+    '''returns int\n\n
+    simulate()\n
     '''

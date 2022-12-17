@@ -1,73 +1,77 @@
-def BasePowerPlay8Report():
-    '''public BasePowerPlay8Report()
-    public BasePowerPlay8Report(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final BaseClassArrayProp contact, final StringProp contactEMail, final PowerPlay8OutputFormatEnumArrayProp defaultOutputFormat, final BasePowerPlay8ReportActionEnumProp defaultPortalAction, final OptionArrayProp options, final ParameterValueArrayProp parameters, final RetentionRuleArrayProp retentions, final StringProp routingServerGroup, final StringProp routingServerGroupEdition)
+def ():
+    '''returns BasePowerPlay8Report\n\n
+    ()\n
+    (final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final BaseClassArrayProp contact, final StringProp contactEMail, final PowerPlay8OutputFormatEnumArrayProp defaultOutputFormat, final BasePowerPlay8ReportActionEnumProp defaultPortalAction, final OptionArrayProp options, final ParameterValueArrayProp parameters, final RetentionRuleArrayProp retentions, final StringProp routingServerGroup, final StringProp routingServerGroupEdition)\n
     '''
 def getContact():
-    '''public BaseClassArrayProp getContact()
+    '''returns BaseClassArrayProp\n\n
+    getContact()\n
     '''
 def setContact():
-    '''public void setContact(final BaseClassArrayProp contact)
+    '''returns None\n\n
+    setContact(final BaseClassArrayProp contact)\n
     '''
 def getContactEMail():
-    '''public StringProp getContactEMail()
+    '''returns StringProp\n\n
+    getContactEMail()\n
     '''
 def setContactEMail():
-    '''public void setContactEMail(final StringProp contactEMail)
+    '''returns None\n\n
+    setContactEMail(final StringProp contactEMail)\n
     '''
 def getDefaultOutputFormat():
-    '''public PowerPlay8OutputFormatEnumArrayProp getDefaultOutputFormat()
+    '''returns PowerPlay8OutputFormatEnumArrayProp\n\n
+    getDefaultOutputFormat()\n
     '''
 def setDefaultOutputFormat():
-    '''public void setDefaultOutputFormat(final PowerPlay8OutputFormatEnumArrayProp defaultOutputFormat)
+    '''returns None\n\n
+    setDefaultOutputFormat(final PowerPlay8OutputFormatEnumArrayProp defaultOutputFormat)\n
     '''
 def getDefaultPortalAction():
-    '''public BasePowerPlay8ReportActionEnumProp getDefaultPortalAction()
+    '''returns BasePowerPlay8ReportActionEnumProp\n\n
+    getDefaultPortalAction()\n
     '''
 def setDefaultPortalAction():
-    '''public void setDefaultPortalAction(final BasePowerPlay8ReportActionEnumProp defaultPortalAction)
+    '''returns None\n\n
+    setDefaultPortalAction(final BasePowerPlay8ReportActionEnumProp defaultPortalAction)\n
     '''
 def getOptions():
-    '''public OptionArrayProp getOptions()
+    '''returns OptionArrayProp\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final OptionArrayProp options)
+    '''returns None\n\n
+    setOptions(final OptionArrayProp options)\n
     '''
 def getParameters():
-    '''public ParameterValueArrayProp getParameters()
+    '''returns ParameterValueArrayProp\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ParameterValueArrayProp parameters)
+    '''returns None\n\n
+    setParameters(final ParameterValueArrayProp parameters)\n
     '''
 def getRetentions():
-    '''public RetentionRuleArrayProp getRetentions()
+    '''returns RetentionRuleArrayProp\n\n
+    getRetentions()\n
     '''
 def setRetentions():
-    '''public void setRetentions(final RetentionRuleArrayProp retentions)
+    '''returns None\n\n
+    setRetentions(final RetentionRuleArrayProp retentions)\n
     '''
 def getRoutingServerGroup():
-    '''public StringProp getRoutingServerGroup()
+    '''returns StringProp\n\n
+    getRoutingServerGroup()\n
     '''
 def setRoutingServerGroup():
-    '''public void setRoutingServerGroup(final StringProp routingServerGroup)
+    '''returns None\n\n
+    setRoutingServerGroup(final StringProp routingServerGroup)\n
     '''
 def getRoutingServerGroupEdition():
-    '''public StringProp getRoutingServerGroupEdition()
+    '''returns StringProp\n\n
+    getRoutingServerGroupEdition()\n
     '''
 def setRoutingServerGroupEdition():
-    '''public void setRoutingServerGroupEdition(final StringProp routingServerGroupEdition)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setRoutingServerGroupEdition(final StringProp routingServerGroupEdition)\n
     '''

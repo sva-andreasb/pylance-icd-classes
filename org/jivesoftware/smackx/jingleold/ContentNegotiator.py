@@ -1,50 +1,66 @@
 INITIATOR = "String  \"initiator\""
 RESPONDER = "String  \"responder\""
-def ContentNegotiator():
-    '''public ContentNegotiator(final JingleSession session, final String inCreator, final String inName)
+def ():
+    '''returns ContentNegotiator\n\n
+    (final JingleSession session, final String inCreator, final String inName)\n
     '''
 def dispatchIncomingPacket():
-    '''public List<IQ> dispatchIncomingPacket(final IQ iq, final String id)
+    '''returns List<IQ>\n\n
+    dispatchIncomingPacket(final IQ iq, final String id)\n
     '''
 def getCreator():
-    '''public String getCreator()
+    '''returns String\n\n
+    getCreator()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getJingleMediaSession():
-    '''public JingleMediaSession getJingleMediaSession()
+    '''returns JingleMediaSession\n\n
+    getJingleMediaSession()\n
     '''
 def addTransportNegotiator():
-    '''public void addTransportNegotiator(final TransportNegotiator transportNegotiator)
+    '''returns None\n\n
+    addTransportNegotiator(final TransportNegotiator transportNegotiator)\n
     '''
 def setJingleTransportManager():
-    '''public void setJingleTransportManager(final JingleTransportManager jingleTransportManager)
+    '''returns None\n\n
+    setJingleTransportManager(final JingleTransportManager jingleTransportManager)\n
     '''
 def getTransportManager():
-    '''public JingleTransportManager getTransportManager()
+    '''returns JingleTransportManager\n\n
+    getTransportManager()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getMediaNegotiator():
-    '''public MediaNegotiator getMediaNegotiator()
+    '''returns MediaNegotiator\n\n
+    getMediaNegotiator()\n
     '''
 def getTransportNegotiator():
-    '''public TransportNegotiator getTransportNegotiator()
+    '''returns TransportNegotiator\n\n
+    getTransportNegotiator()\n
     '''
 def isFullyEstablished():
-    '''public boolean isFullyEstablished()
+    '''returns boolean\n\n
+    isFullyEstablished()\n
     '''
 def getJingleContent():
-    '''public JingleContent getJingleContent()
+    '''returns JingleContent\n\n
+    getJingleContent()\n
     '''
 def triggerContentEstablished():
-    '''public void triggerContentEstablished()
+    '''returns None\n\n
+    triggerContentEstablished()\n
     '''
 def stopJingleMediaSession():
-    '''public void stopJingleMediaSession()
+    '''returns None\n\n
+    stopJingleMediaSession()\n
     '''
 def getNegotiatorState():
-    '''public JingleNegotiatorState getNegotiatorState()
+    '''returns JingleNegotiatorState\n\n
+    getNegotiatorState()\n
     '''

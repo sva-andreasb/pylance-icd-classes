@@ -1,39 +1,52 @@
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isPrintable():
-    '''public boolean isPrintable()
+    '''returns boolean\n\n
+    isPrintable()\n
     '''
 def setPrintable():
-    '''public void setPrintable(final boolean printable)
+    '''returns None\n\n
+    setPrintable(final boolean printable)\n
     '''
 def isDefer():
-    '''public boolean isDefer()
+    '''returns boolean\n\n
+    isDefer()\n
     '''
 def setDefer():
-    '''public void setDefer(final boolean defer)
+    '''returns None\n\n
+    setDefer(final boolean defer)\n
     '''
 def getCategory():
-    '''public String getCategory()
+    '''returns String\n\n
+    getCategory()\n
     '''
 def setCategory():
-    '''public void setCategory(final String category)
+    '''returns None\n\n
+    setCategory(final String category)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

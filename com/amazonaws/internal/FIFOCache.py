@@ -1,18 +1,24 @@
-def FIFOCache():
-    '''public FIFOCache(final int maxSize)
+def ():
+    '''returns FIFOCache\n\n
+    (final int maxSize)\n
     '''
 def add():
-    '''public T add(final String key, final T value)
+    '''returns T\n\n
+    add(final String key, final T value)\n
     '''
 def get():
-    '''public T get(final String key)
+    '''returns T\n\n
+    get(final String key)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getMaxSize():
-    '''public int getMaxSize()
+    '''returns int\n\n
+    getMaxSize()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

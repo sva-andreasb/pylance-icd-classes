@@ -1,6 +1,8 @@
-def I2C():
-    '''public I2C()
+def ():
+    '''returns I2C\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

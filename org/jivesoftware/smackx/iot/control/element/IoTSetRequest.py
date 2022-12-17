@@ -1,8 +1,10 @@
 ELEMENT = "String  \"set\""
 NAMESPACE = "String  \"urn:xmpp:iot:control\""
-def IoTSetRequest():
-    '''public IoTSetRequest(final Collection<? extends SetData> setData)
+def ():
+    '''returns IoTSetRequest\n\n
+    (final Collection<? extends SetData> setData)\n
     '''
 def getSetData():
-    '''public Collection<SetData> getSetData()
+    '''returns Collection<SetData>\n\n
+    getSetData()\n
     '''

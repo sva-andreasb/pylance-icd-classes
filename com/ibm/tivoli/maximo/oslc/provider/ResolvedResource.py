@@ -1,66 +1,88 @@
 def isResourceNotModified():
-    '''public boolean isResourceNotModified()
+    '''returns boolean\n\n
+    isResourceNotModified()\n
     '''
 def isQueryWhereApplied():
-    '''public boolean isQueryWhereApplied()
+    '''returns boolean\n\n
+    isQueryWhereApplied()\n
     '''
 def setQueryWhereApplied():
-    '''public void setQueryWhereApplied()
+    '''returns None\n\n
+    setQueryWhereApplied()\n
     '''
 def getLookupSrcAttr():
-    '''public String getLookupSrcAttr()
+    '''returns String\n\n
+    getLookupSrcAttr()\n
     '''
 def isExtRes():
-    '''public boolean isExtRes()
+    '''returns boolean\n\n
+    isExtRes()\n
     '''
 def isCacheIt():
-    '''public boolean isCacheIt()
+    '''returns boolean\n\n
+    isCacheIt()\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def isThumbNail():
-    '''public boolean isThumbNail()
+    '''returns boolean\n\n
+    isThumbNail()\n
     '''
 def getJSON():
-    '''public JSONArtifact getJSON()
+    '''returns JSONArtifact\n\n
+    getJSON()\n
     '''
 def getParentPath():
-    '''public String getParentPath()
+    '''returns String\n\n
+    getParentPath()\n
     '''
 def getOSRootMbo():
-    '''public Mbo getOSRootMbo()
+    '''returns Mbo\n\n
+    getOSRootMbo()\n
     '''
 def setOslcResourceDetailInfo():
-    '''public void setOslcResourceDetailInfo(final OslcResourceDetailInfo detInfo)
+    '''returns None\n\n
+    setOslcResourceDetailInfo(final OslcResourceDetailInfo detInfo)\n
     '''
 def getOslcResourceDetailInfo():
-    '''public OslcResourceDetailInfo getOslcResourceDetailInfo()
+    '''returns OslcResourceDetailInfo\n\n
+    getOslcResourceDetailInfo()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def isRelatedMboResource():
-    '''public boolean isRelatedMboResource()
+    '''returns boolean\n\n
+    isRelatedMboResource()\n
     '''
 def isAttachment():
-    '''public boolean isAttachment()
+    '''returns boolean\n\n
+    isAttachment()\n
     '''
 def isMeta():
-    '''public boolean isMeta()
+    '''returns boolean\n\n
+    isMeta()\n
     '''
 def getMbo():
-    '''public MboRemote getMbo()
+    '''returns MboRemote\n\n
+    getMbo()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def getOsName():
-    '''public String getOsName()
+    '''returns String\n\n
+    getOsName()\n
     '''
 def getOverriddenCount():
-    '''public int getOverriddenCount()
+    '''returns int\n\n
+    getOverriddenCount()\n
     '''
 def isSelfRefPrimary():
-    '''public boolean isSelfRefPrimary()
+    '''returns boolean\n\n
+    isSelfRefPrimary()\n
     '''

@@ -1,6 +1,8 @@
-def PlusPWOChangeSet():
-    '''public PlusPWOChangeSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPWOChangeSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

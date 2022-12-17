@@ -1,3 +1,4 @@
-def RcnTaskFltrAttribVal():
-    '''public RcnTaskFltrAttribVal(final MboSet ms)
+def ():
+    '''returns RcnTaskFltrAttribVal\n\n
+    (final MboSet ms)\n
     '''

@@ -1,3 +1,4 @@
 def selectrow():
-    '''public int selectrow()
+    '''returns int\n\n
+    selectrow()\n
     '''

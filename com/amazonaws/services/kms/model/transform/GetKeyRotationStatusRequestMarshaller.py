@@ -1,6 +1,8 @@
-def GetKeyRotationStatusRequestMarshaller():
-    '''public GetKeyRotationStatusRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns GetKeyRotationStatusRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<GetKeyRotationStatusRequest> marshall(final GetKeyRotationStatusRequest getKeyRotationStatusRequest)
+    '''returns Request<GetKeyRotationStatusRequest>\n\n
+    marshall(final GetKeyRotationStatusRequest getKeyRotationStatusRequest)\n
     '''

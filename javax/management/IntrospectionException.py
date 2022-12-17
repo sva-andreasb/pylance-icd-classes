@@ -1,4 +1,5 @@
-def IntrospectionException():
-    '''public IntrospectionException()
-    public IntrospectionException(final String s)
+def ():
+    '''returns IntrospectionException\n\n
+    ()\n
+    (final String s)\n
     '''

@@ -1,11 +1,14 @@
-def CallbackWhenAvailableThread():
-    '''public CallbackWhenAvailableThread(final Identity clusterIdentity, final SelectionCallback callback, final Object handback)
-    public CallbackWhenAvailableThread(final SelectionCriteria criteria, final SelectionCallback callback, final Object handback)
+def ():
+    '''returns CallbackWhenAvailableThread\n\n
+    (final Identity clusterIdentity, final SelectionCallback callback, final Object handback)\n
+    (final SelectionCriteria criteria, final SelectionCallback callback, final Object handback)\n
     '''
 def run():
-    '''public void run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

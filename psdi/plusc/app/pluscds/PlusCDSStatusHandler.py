@@ -1,15 +1,20 @@
-def PlusCDSStatusHandler():
-    '''public PlusCDSStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns PlusCDSStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredExternalStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredExternalStatus)\n
     '''
 def checkUserSecurity():
-    '''public void checkUserSecurity(final String desiredMaxStatus)
+    '''returns None\n\n
+    checkUserSecurity(final String desiredMaxStatus)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)\n
     '''

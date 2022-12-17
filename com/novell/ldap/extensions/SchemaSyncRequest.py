@@ -1,3 +1,4 @@
-def SchemaSyncRequest():
-    '''public SchemaSyncRequest(final String s, final int n)
+def ():
+    '''returns SchemaSyncRequest\n\n
+    (final String s, final int n)\n
     '''

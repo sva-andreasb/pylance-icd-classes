@@ -1,58 +1,77 @@
-def ContainerPointer():
-    '''public ContainerPointer(final Container container, final Locale locale)
-    public ContainerPointer(final NodePointer parent, final Container container)
+def ():
+    '''returns ContainerPointer\n\n
+    (final Container container, final Locale locale)\n
+    (final NodePointer parent, final Container container)\n
     '''
 def isContainer():
-    '''public boolean isContainer()
+    '''returns boolean\n\n
+    isContainer()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def getImmediateValuePointer():
-    '''public NodePointer getImmediateValuePointer()
+    '''returns NodePointer\n\n
+    getImmediateValuePointer()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def childIterator():
-    '''public NodeIterator childIterator(final NodeTest test, final boolean reverse, final NodePointer startWith)
+    '''returns NodeIterator\n\n
+    childIterator(final NodeTest test, final boolean reverse, final NodePointer startWith)\n
     '''
 def attributeIterator():
-    '''public NodeIterator attributeIterator(final QName name)
+    '''returns NodeIterator\n\n
+    attributeIterator(final QName name)\n
     '''
 def namespaceIterator():
-    '''public NodeIterator namespaceIterator()
+    '''returns NodeIterator\n\n
+    namespaceIterator()\n
     '''
 def namespacePointer():
-    '''public NodePointer namespacePointer(final String namespace)
+    '''returns NodePointer\n\n
+    namespacePointer(final String namespace)\n
     '''
 def testNode():
-    '''public boolean testNode(final NodeTest nodeTest)
+    '''returns boolean\n\n
+    testNode(final NodeTest nodeTest)\n
     '''
 def compareChildNodePointers():
-    '''public int compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)
+    '''returns int\n\n
+    compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''

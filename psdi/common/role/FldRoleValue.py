@@ -1,25 +1,33 @@
-def FldRoleValue():
-    '''public FldRoleValue(final MboValue mbv)
+def ():
+    '''returns FldRoleValue\n\n
+    (final MboValue mbv)\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
-    public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
+    smartFind(final String sourceObj, final String value, final boolean exact)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

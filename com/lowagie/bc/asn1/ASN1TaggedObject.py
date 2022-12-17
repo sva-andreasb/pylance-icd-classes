@@ -1,25 +1,29 @@
-def getInstance():
-    '''public static ASN1TaggedObject getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def ASN1TaggedObject():
-    '''public ASN1TaggedObject(final int tagNo, final DEREncodable obj)
-    public ASN1TaggedObject(final boolean explicit, final int tagNo, final DEREncodable obj)
+def ():
+    '''returns ASN1TaggedObject\n\n
+    (final int tagNo, final DEREncodable obj)\n
+    (final boolean explicit, final int tagNo, final DEREncodable obj)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getTagNo():
-    '''public int getTagNo()
+    '''returns int\n\n
+    getTagNo()\n
     '''
 def isExplicit():
-    '''public boolean isExplicit()
+    '''returns boolean\n\n
+    isExplicit()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getObject():
-    '''public DERObject getObject()
+    '''returns DERObject\n\n
+    getObject()\n
     '''

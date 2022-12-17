@@ -1,3 +1,4 @@
-def CDUISLAActionHandler():
-    '''public CDUISLAActionHandler()
+def ():
+    '''returns CDUISLAActionHandler\n\n
+    ()\n
     '''

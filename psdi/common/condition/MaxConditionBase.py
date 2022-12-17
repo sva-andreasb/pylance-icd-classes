@@ -1,21 +1,28 @@
 def isExpression():
-    '''public boolean isExpression()
+    '''returns boolean\n\n
+    isExpression()\n
     '''
 def getConditionNum():
-    '''public String getConditionNum()
+    '''returns String\n\n
+    getConditionNum()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def getExpression():
-    '''public String getExpression()
+    '''returns String\n\n
+    getExpression()\n
     '''
 def setMboCachable():
-    '''public void setMboCachable(final boolean cachable)
+    '''returns None\n\n
+    setMboCachable(final boolean cachable)\n
     '''
 def isMboCachable():
-    '''public boolean isMboCachable()
+    '''returns boolean\n\n
+    isMboCachable()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

@@ -1,28 +1,37 @@
-def EscherComplexProperty():
-    '''public EscherComplexProperty(final short id, final byte[] complexData)
-    public EscherComplexProperty(final short propertyNumber, final boolean isBlipId, final byte[] complexData)
+def ():
+    '''returns EscherComplexProperty\n\n
+    (final short id, final byte[] complexData)\n
+    (final short propertyNumber, final boolean isBlipId, final byte[] complexData)\n
     '''
 def serializeSimplePart():
-    '''public int serializeSimplePart(final byte[] data, final int pos)
+    '''returns int\n\n
+    serializeSimplePart(final byte[] data, final int pos)\n
     '''
 def serializeComplexPart():
-    '''public int serializeComplexPart(final byte[] data, final int pos)
+    '''returns int\n\n
+    serializeComplexPart(final byte[] data, final int pos)\n
     '''
 def getComplexData():
-    '''public byte[] getComplexData()
+    '''returns byte[]\n\n
+    getComplexData()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getPropertySize():
-    '''public int getPropertySize()
+    '''returns int\n\n
+    getPropertySize()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toXml():
-    '''public String toXml(final String tab)
+    '''returns String\n\n
+    toXml(final String tab)\n
     '''

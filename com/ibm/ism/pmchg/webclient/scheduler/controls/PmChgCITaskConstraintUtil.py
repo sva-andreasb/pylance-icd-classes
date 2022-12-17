@@ -1,9 +1,12 @@
-def PmChgCITaskConstraintUtil():
-    '''public PmChgCITaskConstraintUtil(final Map<String, PmChgSchedulerTaskInfo> map)
+def ():
+    '''returns PmChgCITaskConstraintUtil\n\n
+    (final Map<String, PmChgSchedulerTaskInfo> map)\n
     '''
 def applyCITaskConstraints():
-    '''public void applyCITaskConstraints(final MboRemote changeMbo, final Date startDate, final Date endDate)
+    '''returns None\n\n
+    applyCITaskConstraints(final MboRemote changeMbo, final Date startDate, final Date endDate)\n
     '''
 def applyCITaskConstraintsForImpTask():
-    '''public void applyCITaskConstraintsForImpTask(final MboRemote taskMbo, final Date startDate, final Date endDate, final boolean checkScheduled)
+    '''returns None\n\n
+    applyCITaskConstraintsForImpTask(final MboRemote taskMbo, final Date startDate, final Date endDate, final boolean checkScheduled)\n
     '''

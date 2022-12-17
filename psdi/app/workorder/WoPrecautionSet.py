@@ -1,9 +1,12 @@
-def WoPrecautionSet():
-    '''public WoPrecautionSet(final MboServerInterface ms)
+def ():
+    '''returns WoPrecautionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copyFromPrecaution():
-    '''public MboRemote copyFromPrecaution(final MboRemote precaution, final String dataSource)
+    '''returns MboRemote\n\n
+    copyFromPrecaution(final MboRemote precaution, final String dataSource)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

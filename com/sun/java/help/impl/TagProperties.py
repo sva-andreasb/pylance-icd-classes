@@ -1,60 +1,39 @@
-def TagProperties():
-    '''public TagProperties()
-    public TagProperties(final int initialSize)
+def ():
+    '''returns TagProperties\n\n
+    ()\n
+    (final int initialSize)\n
     '''
 def getProperty():
-    '''public String getProperty(final String s)
-    public String getProperty(final String s, final String s2)
+    '''returns String\n\n
+    getProperty(final String s)\n
+    getProperty(final String s, final String s2)\n
     '''
 def propertyNames():
-    '''public Enumeration propertyNames()
+    '''returns Enumeration\n\n
+    propertyNames()\n
     '''
 def list():
-    '''public void list(final PrintStream printStream)
-    public void list(final PrintWriter printWriter)
+    '''returns None\n\n
+    list(final PrintStream printStream)\n
+    list(final PrintWriter printWriter)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
-    '''
-def keys():
-    '''public synchronized Enumeration keys()
-    '''
-def elements():
-    '''public synchronized Enumeration elements()
-    '''
-def contains():
-    '''public synchronized boolean contains(final Object value)
-    '''
-def containsKey():
-    '''public synchronized boolean containsKey(final Object key)
-    '''
-def get():
-    '''public synchronized Object get(final Object key)
-    '''
-def put():
-    '''public synchronized Object put(final Object key, final Object value)
-    '''
-def remove():
-    '''public synchronized Object remove(final Object key)
-    '''
-def clear():
-    '''public synchronized void clear()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getHashtable():
-    '''public Hashtable getHashtable()
-    '''
-def clone():
-    '''public synchronized Object clone()
-    '''
-def toString():
-    '''public synchronized String toString()
+    '''returns Hashtable\n\n
+    getHashtable()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''

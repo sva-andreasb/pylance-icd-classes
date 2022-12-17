@@ -1,3 +1,4 @@
-def BilltoShiptoSet():
-    '''public BilltoShiptoSet(final MboServerInterface ms)
+def ():
+    '''returns BilltoShiptoSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
 def getDERObject():
-    '''public DERObject getDERObject()
+    '''returns DERObject\n\n
+    getDERObject()\n
     '''

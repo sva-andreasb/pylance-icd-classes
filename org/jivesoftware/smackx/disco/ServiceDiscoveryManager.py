@@ -1,116 +1,94 @@
-def setDefaultIdentity():
-    '''public static void setDefaultIdentity(final DiscoverInfo.Identity identity)
-    '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
-    public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def getIdentityName():
-    '''public String getIdentityName()
-    '''
-def setIdentity():
-    '''public synchronized void setIdentity(final DiscoverInfo.Identity identity)
+    '''returns String\n\n
+    getIdentityName()\n
     '''
 def getIdentityType():
-    '''public String getIdentityType()
-    '''
-def addIdentity():
-    '''public synchronized void addIdentity(final DiscoverInfo.Identity identity)
-    '''
-def removeIdentity():
-    '''public synchronized boolean removeIdentity(final DiscoverInfo.Identity identity)
-    '''
-def getInstanceFor():
-    '''public static synchronized ServiceDiscoveryManager getInstanceFor(final XMPPConnection connection)
-    '''
-def addDiscoverInfoTo():
-    '''public synchronized void addDiscoverInfoTo(final DiscoverInfo response)
+    '''returns String\n\n
+    getIdentityType()\n
     '''
 def setNodeInformationProvider():
-    '''public void setNodeInformationProvider(final String node, final NodeInformationProvider listener)
+    '''returns None\n\n
+    setNodeInformationProvider(final String node, final NodeInformationProvider listener)\n
     '''
 def removeNodeInformationProvider():
-    '''public void removeNodeInformationProvider(final String node)
-    '''
-def getFeatures():
-    '''public synchronized List<String> getFeatures()
-    '''
-def addFeature():
-    '''public synchronized void addFeature(final String feature)
-    '''
-def removeFeature():
-    '''public synchronized void removeFeature(final String feature)
-    '''
-def includesFeature():
-    '''public synchronized boolean includesFeature(final String feature)
-    '''
-def setExtendedInfo():
-    '''public synchronized void setExtendedInfo(final DataForm info)
+    '''returns None\n\n
+    removeNodeInformationProvider(final String node)\n
     '''
 def getExtendedInfo():
-    '''public DataForm getExtendedInfo()
+    '''returns DataForm\n\n
+    getExtendedInfo()\n
     '''
 def getExtendedInfoAsList():
-    '''public List<ExtensionElement> getExtendedInfoAsList()
-    '''
-def removeExtendedInfo():
-    '''public synchronized void removeExtendedInfo()
+    '''returns List<ExtensionElement>\n\n
+    getExtendedInfoAsList()\n
     '''
 def discoverInfo():
-    '''public DiscoverInfo discoverInfo(final Jid entityID)
-    public DiscoverInfo discoverInfo(final Jid entityID, final String node)
+    '''returns DiscoverInfo\n\n
+    discoverInfo(final Jid entityID)\n
+    discoverInfo(final Jid entityID, final String node)\n
     '''
 def discoverItems():
-    '''public DiscoverItems discoverItems(final Jid entityID)
-    public DiscoverItems discoverItems(final Jid entityID, final String node)
+    '''returns DiscoverItems\n\n
+    discoverItems(final Jid entityID)\n
+    discoverItems(final Jid entityID, final String node)\n
     '''
 def canPublishItems():
-    '''public boolean canPublishItems(final Jid entityID)
-    public static boolean canPublishItems(final DiscoverInfo info)
+    '''returns boolean\n\n
+    canPublishItems(final Jid entityID)\n
     '''
 def publishItems():
-    '''public void publishItems(final Jid entityID, final DiscoverItems discoverItems)
-    public void publishItems(final Jid entityID, final String node, final DiscoverItems discoverItems)
+    '''returns None\n\n
+    publishItems(final Jid entityID, final DiscoverItems discoverItems)\n
+    publishItems(final Jid entityID, final String node, final DiscoverItems discoverItems)\n
     '''
 def serverSupportsFeature():
-    '''public boolean serverSupportsFeature(final CharSequence feature)
+    '''returns boolean\n\n
+    serverSupportsFeature(final CharSequence feature)\n
     '''
 def serverSupportsFeatures():
-    '''public boolean serverSupportsFeatures(final CharSequence... features)
-    public boolean serverSupportsFeatures(final Collection<? extends CharSequence> features)
+    '''returns boolean\n\n
+    serverSupportsFeatures(final CharSequence... features)\n
+    serverSupportsFeatures(final Collection<? extends CharSequence> features)\n
     '''
 def accountSupportsFeatures():
-    '''public boolean accountSupportsFeatures(final CharSequence... features)
-    public boolean accountSupportsFeatures(final Collection<? extends CharSequence> features)
+    '''returns boolean\n\n
+    accountSupportsFeatures(final CharSequence... features)\n
+    accountSupportsFeatures(final Collection<? extends CharSequence> features)\n
     '''
 def supportsFeature():
-    '''public boolean supportsFeature(final Jid jid, final CharSequence feature)
+    '''returns boolean\n\n
+    supportsFeature(final Jid jid, final CharSequence feature)\n
     '''
 def supportsFeatures():
-    '''public boolean supportsFeatures(final Jid jid, final CharSequence... features)
-    public boolean supportsFeatures(final Jid jid, final Collection<? extends CharSequence> features)
+    '''returns boolean\n\n
+    supportsFeatures(final Jid jid, final CharSequence... features)\n
+    supportsFeatures(final Jid jid, final Collection<? extends CharSequence> features)\n
     '''
 def findServicesDiscoverInfo():
-    '''public List<DiscoverInfo> findServicesDiscoverInfo(final String feature, final boolean stopOnFirst, final boolean useCache)
-    public List<DiscoverInfo> findServicesDiscoverInfo(final String feature, final boolean stopOnFirst, final boolean useCache, final Map<? super Jid, Exception> encounteredExceptions)
-    public List<DiscoverInfo> findServicesDiscoverInfo(final DomainBareJid serviceName, final String feature, final boolean stopOnFirst, final boolean useCache, final Map<? super Jid, Exception> encounteredExceptions)
+    '''returns List<DiscoverInfo>\n\n
+    findServicesDiscoverInfo(final String feature, final boolean stopOnFirst, final boolean useCache)\n
+    findServicesDiscoverInfo(final String feature, final boolean stopOnFirst, final boolean useCache, final Map<? super Jid, Exception> encounteredExceptions)\n
+    findServicesDiscoverInfo(final DomainBareJid serviceName, final String feature, final boolean stopOnFirst, final boolean useCache, final Map<? super Jid, Exception> encounteredExceptions)\n
     '''
 def findServices():
-    '''public List<DomainBareJid> findServices(final String feature, final boolean stopOnFirst, final boolean useCache)
+    '''returns List<DomainBareJid>\n\n
+    findServices(final String feature, final boolean stopOnFirst, final boolean useCache)\n
     '''
 def findService():
-    '''public DomainBareJid findService(final String feature, final boolean useCache, final String category, final String type)
-    public DomainBareJid findService(final String feature, final boolean useCache)
+    '''returns DomainBareJid\n\n
+    findService(final String feature, final boolean useCache, final String category, final String type)\n
+    findService(final String feature, final boolean useCache)\n
     '''
 def addEntityCapabilitiesChangedListener():
-    '''public boolean addEntityCapabilitiesChangedListener(final EntityCapabilitiesChangedListener entityCapabilitiesChangedListener)
-    '''
-def addDiscoInfoLookupShortcutMechanism():
-    '''public static void addDiscoInfoLookupShortcutMechanism(final DiscoInfoLookupShortcutMechanism discoInfoLookupShortcutMechanism)
-    '''
-def removeDiscoInfoLookupShortcutMechanism():
-    '''public static void removeDiscoInfoLookupShortcutMechanism(final DiscoInfoLookupShortcutMechanism discoInfoLookupShortcutMechanism)
+    '''returns boolean\n\n
+    addEntityCapabilitiesChangedListener(final EntityCapabilitiesChangedListener entityCapabilitiesChangedListener)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

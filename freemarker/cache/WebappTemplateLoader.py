@@ -1,25 +1,33 @@
-def WebappTemplateLoader():
-    '''public WebappTemplateLoader(final ServletContext servletContext)
-    public WebappTemplateLoader(final ServletContext servletContext, String subdirPath)
+def ():
+    '''returns WebappTemplateLoader\n\n
+    (final ServletContext servletContext)\n
+    (final ServletContext servletContext, String subdirPath)\n
     '''
 def findTemplateSource():
-    '''public Object findTemplateSource(final String name)
+    '''returns Object\n\n
+    findTemplateSource(final String name)\n
     '''
 def getLastModified():
-    '''public long getLastModified(final Object templateSource)
+    '''returns long\n\n
+    getLastModified(final Object templateSource)\n
     '''
 def getReader():
-    '''public Reader getReader(final Object templateSource, final String encoding)
+    '''returns Reader\n\n
+    getReader(final Object templateSource, final String encoding)\n
     '''
 def closeTemplateSource():
-    '''public void closeTemplateSource(final Object templateSource)
+    '''returns None\n\n
+    closeTemplateSource(final Object templateSource)\n
     '''
 def getURLConnectionUsesCaches():
-    '''public Boolean getURLConnectionUsesCaches()
+    '''returns Boolean\n\n
+    getURLConnectionUsesCaches()\n
     '''
 def setURLConnectionUsesCaches():
-    '''public void setURLConnectionUsesCaches(final Boolean urlConnectionUsesCaches)
+    '''returns None\n\n
+    setURLConnectionUsesCaches(final Boolean urlConnectionUsesCaches)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

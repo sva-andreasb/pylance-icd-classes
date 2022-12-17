@@ -1,18 +1,24 @@
-def DeployedAssetViewSet():
-    '''public DeployedAssetViewSet(final MboServerInterface ms)
+def ():
+    '''returns DeployedAssetViewSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getQbe():
-    '''public String getQbe(final String attribute)
+    '''returns String\n\n
+    getQbe(final String attribute)\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def getUserWhere():
-    '''public String getUserWhere(final String alias)
+    '''returns String\n\n
+    getUserWhere(final String alias)\n
     '''
 def getUserAndQbeWhere():
-    '''public String getUserAndQbeWhere()
+    '''returns String\n\n
+    getUserAndQbeWhere()\n
     '''

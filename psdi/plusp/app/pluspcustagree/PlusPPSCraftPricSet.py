@@ -1,6 +1,8 @@
-def PlusPPSCraftPricSet():
-    '''public PlusPPSCraftPricSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPSCraftPricSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

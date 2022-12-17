@@ -1,27 +1,32 @@
-def PlusCAssetTemplateAppBean():
-    '''public PlusCAssetTemplateAppBean()
+def ():
+    '''returns PlusCAssetTemplateAppBean\n\n
+    ()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def APPLYNEW():
-    '''public int APPLYNEW()
+    '''returns int\n\n
+    APPLYNEW()\n
     '''
 def APPLYEXIST():
-    '''public int APPLYEXIST()
+    '''returns int\n\n
+    APPLYEXIST()\n
     '''
 def NEXTDIALOG():
-    '''public int NEXTDIALOG()
+    '''returns int\n\n
+    NEXTDIALOG()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def SAVE():
-    '''public int SAVE()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def pluscviewQualReq():
-    '''public int pluscviewQualReq()
+    '''returns int\n\n
+    pluscviewQualReq()\n
     '''

@@ -1,6 +1,8 @@
-def NodeLinkPopupMenu():
-    '''public NodeLinkPopupMenu(final IlvDiagrammer diagrammer, final boolean isNode)
+def ():
+    '''returns NodeLinkPopupMenu\n\n
+    (final IlvDiagrammer diagrammer, final boolean isNode)\n
     '''
 def addActions():
-    '''public void addActions(final LinkedHashMap<String, ActionReference> nodeActionRefs)
+    '''returns None\n\n
+    addActions(final LinkedHashMap<String, ActionReference> nodeActionRefs)\n
     '''

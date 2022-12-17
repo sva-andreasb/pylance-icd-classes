@@ -1,6 +1,8 @@
-def UnitConvertor():
-    '''public UnitConvertor(final Class cls, final String attributeName, final String value)
+def ():
+    '''returns UnitConvertor\n\n
+    (final Class cls, final String attributeName, final String value)\n
     '''
 def getValueInUnits():
-    '''public String getValueInUnits()
+    '''returns String\n\n
+    getValueInUnits()\n
     '''

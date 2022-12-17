@@ -1,30 +1,37 @@
-def Exec():
-    '''public Exec()
+def ():
+    '''returns StreamPumper\n\n
+    ()\n
+    (final InputStream is, final int messageLevel)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setDir():
-    '''public void setDir(final String d)
+    '''returns None\n\n
+    setDir(final String d)\n
     '''
 def setOs():
-    '''public void setOs(final String os)
+    '''returns None\n\n
+    setOs(final String os)\n
     '''
 def setCommand():
-    '''public void setCommand(final String command)
+    '''returns None\n\n
+    setCommand(final String command)\n
     '''
 def setOutput():
-    '''public void setOutput(final String out)
+    '''returns None\n\n
+    setOutput(final String out)\n
     '''
 def setFailonerror():
-    '''public void setFailonerror(final boolean fail)
-    '''
-def StreamPumper():
-    '''public StreamPumper(final InputStream is, final int messageLevel)
+    '''returns None\n\n
+    setFailonerror(final boolean fail)\n
     '''
 def pumpStream():
-    '''public void pumpStream()
+    '''returns None\n\n
+    pumpStream()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

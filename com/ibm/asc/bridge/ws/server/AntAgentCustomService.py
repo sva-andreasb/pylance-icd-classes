@@ -1,27 +1,36 @@
-def AntAgentCustomService():
-    '''public AntAgentCustomService()
+def ():
+    '''returns AntAgentCustomService\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize(final Properties props)
+    '''returns None\n\n
+    initialize(final Properties props)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getMBeanProperties():
-    '''public Properties getMBeanProperties()
+    '''returns Properties\n\n
+    getMBeanProperties()\n
     '''
 def getScript():
-    '''public byte[] getScript(final String filePath)
+    '''returns byte[]\n\n
+    getScript(final String filePath)\n
     '''
 def putScript():
-    '''public void putScript(final String filePath, final byte[] putFileContents)
+    '''returns None\n\n
+    putScript(final String filePath, final byte[] putFileContents)\n
     '''
 def invokeAnt():
-    '''public void invokeAnt(final String[] props, final String taskFilePath, final String antTarget)
+    '''returns None\n\n
+    invokeAnt(final String[] props, final String taskFilePath, final String antTarget)\n
     '''
 def getLastLog():
-    '''public byte[] getLastLog()
+    '''returns byte[]\n\n
+    getLastLog()\n
     '''

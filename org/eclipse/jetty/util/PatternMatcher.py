@@ -1,6 +1,8 @@
 def match():
-    '''public void match(final Pattern pattern, final URI[] uris, final boolean isNullInclusive)
+    '''returns None\n\n
+    match(final Pattern pattern, final URI[] uris, final boolean isNullInclusive)\n
     '''
 def matchPatterns():
-    '''public void matchPatterns(final Pattern pattern, final URI[] uris, final boolean isNullInclusive)
+    '''returns None\n\n
+    matchPatterns(final Pattern pattern, final URI[] uris, final boolean isNullInclusive)\n
     '''

@@ -1,51 +1,68 @@
-def HTMLFormElement():
-    '''public HTMLFormElement(final DOMObject domObject, final HTMLDocument htmlDocument)
+def ():
+    '''returns HTMLFormElement\n\n
+    (final DOMObject domObject, final HTMLDocument htmlDocument)\n
     '''
 def getElements():
-    '''public HTMLCollection getElements()
+    '''returns HTMLCollection\n\n
+    getElements()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getAcceptCharset():
-    '''public String getAcceptCharset()
+    '''returns String\n\n
+    getAcceptCharset()\n
     '''
 def setAcceptCharset():
-    '''public void setAcceptCharset(final String s)
+    '''returns None\n\n
+    setAcceptCharset(final String s)\n
     '''
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''
 def setAction():
-    '''public void setAction(final String s)
+    '''returns None\n\n
+    setAction(final String s)\n
     '''
 def getEnctype():
-    '''public String getEnctype()
+    '''returns String\n\n
+    getEnctype()\n
     '''
 def setEnctype():
-    '''public void setEnctype(final String s)
+    '''returns None\n\n
+    setEnctype(final String s)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def setMethod():
-    '''public void setMethod(final String s)
+    '''returns None\n\n
+    setMethod(final String s)\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def setTarget():
-    '''public void setTarget(final String s)
+    '''returns None\n\n
+    setTarget(final String s)\n
     '''
 def submit():
-    '''public void submit()
+    '''returns None\n\n
+    submit()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

@@ -1,40 +1,53 @@
-def WSDDGlobalConfiguration():
-    '''public WSDDGlobalConfiguration()
-    public WSDDGlobalConfiguration(final Element e)
+def ():
+    '''returns WSDDGlobalConfiguration\n\n
+    ()\n
+    (final Element e)\n
     '''
 def getRequestFlow():
-    '''public WSDDRequestFlow getRequestFlow()
+    '''returns WSDDRequestFlow\n\n
+    getRequestFlow()\n
     '''
 def setRequestFlow():
-    '''public void setRequestFlow(final WSDDRequestFlow reqFlow)
+    '''returns None\n\n
+    setRequestFlow(final WSDDRequestFlow reqFlow)\n
     '''
 def getResponseFlow():
-    '''public WSDDResponseFlow getResponseFlow()
+    '''returns WSDDResponseFlow\n\n
+    getResponseFlow()\n
     '''
 def setResponseFlow():
-    '''public void setResponseFlow(final WSDDResponseFlow responseFlow)
+    '''returns None\n\n
+    setResponseFlow(final WSDDResponseFlow responseFlow)\n
     '''
 def getFaultFlows():
-    '''public WSDDFaultFlow[] getFaultFlows()
+    '''returns WSDDFaultFlow[]\n\n
+    getFaultFlows()\n
     '''
 def getFaultFlow():
-    '''public WSDDFaultFlow getFaultFlow(final QName name)
+    '''returns WSDDFaultFlow\n\n
+    getFaultFlow(final QName name)\n
     '''
 def getType():
-    '''public QName getType()
+    '''returns QName\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def makeNewInstance():
-    '''public Handler makeNewInstance(final EngineConfiguration registry)
+    '''returns Handler\n\n
+    makeNewInstance(final EngineConfiguration registry)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def deployToRegistry():
-    '''public void deployToRegistry(final WSDDDeployment registry)
+    '''returns None\n\n
+    deployToRegistry(final WSDDDeployment registry)\n
     '''
 def getRoles():
-    '''public List getRoles()
+    '''returns List\n\n
+    getRoles()\n
     '''

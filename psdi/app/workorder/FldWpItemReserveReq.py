@@ -1,6 +1,8 @@
-def FldWpItemReserveReq():
-    '''public FldWpItemReserveReq(final MboValue mbv)
+def ():
+    '''returns FldWpItemReserveReq\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

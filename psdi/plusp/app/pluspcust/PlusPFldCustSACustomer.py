@@ -1,6 +1,8 @@
-def PlusPFldCustSACustomer():
-    '''public PlusPFldCustSACustomer(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCustSACustomer\n\n
+    (final MboValue mboValue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,9 +1,12 @@
-def FldWOLead():
-    '''public FldWOLead(final MboValue mbv)
+def ():
+    '''returns FldWOLead\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

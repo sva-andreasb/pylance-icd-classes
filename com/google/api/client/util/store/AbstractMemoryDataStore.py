@@ -1,36 +1,28 @@
-def keySet():
-    '''public final Set<String> keySet()
-    '''
-def values():
-    '''public final Collection<V> values()
-    '''
-def get():
-    '''public final V get(final String key)
-    '''
-def set():
-    '''public final DataStore<V> set(final String key, final V value)
-    '''
 def delete():
-    '''public DataStore<V> delete(final String key)
-    '''
-def clear():
-    '''public final DataStore<V> clear()
+    '''returns DataStore<V>\n\n
+    delete(final String key)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String key)
+    '''returns boolean\n\n
+    containsKey(final String key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final V value)
+    '''returns boolean\n\n
+    containsValue(final V value)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

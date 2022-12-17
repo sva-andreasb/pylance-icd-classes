@@ -1,4 +1,5 @@
-def ToolService():
-    '''public ToolService()
-    public ToolService(final MXServer mxServer)
+def ():
+    '''returns ToolService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

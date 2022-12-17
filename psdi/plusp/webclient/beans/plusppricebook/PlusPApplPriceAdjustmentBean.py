@@ -1,6 +1,4 @@
-def execute():
-    '''public synchronized int execute()
-    '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

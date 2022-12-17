@@ -1,16 +1,21 @@
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
-def IteratorIterable():
-    '''public IteratorIterable(final Iterator<? extends E> iterator)
-    public IteratorIterable(final Iterator<? extends E> iterator, final boolean multipleUse)
+def ():
+    '''returns IteratorIterable\n\n
+    (final Iterator<? extends E> iterator)\n
+    (final Iterator<? extends E> iterator, final boolean multipleUse)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''

@@ -1,6 +1,8 @@
-def FldSLAExpObject():
-    '''public FldSLAExpObject(final MboValue mbv)
+def ():
+    '''returns FldSLAExpObject\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

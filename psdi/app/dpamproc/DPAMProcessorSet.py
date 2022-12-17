@@ -1,3 +1,4 @@
-def DPAMProcessorSet():
-    '''public DPAMProcessorSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMProcessorSet\n\n
+    (final MboServerInterface ms)\n
     '''

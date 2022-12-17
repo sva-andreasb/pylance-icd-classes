@@ -1,15 +1,20 @@
-def RelTypeImpl():
-    '''public RelTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns RelTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def xgetId():
-    '''public STRelationshipId xgetId()
+    '''returns STRelationshipId\n\n
+    xgetId()\n
     '''
 def setId():
-    '''public void setId(final String stringValue)
+    '''returns None\n\n
+    setId(final String stringValue)\n
     '''
 def xsetId():
-    '''public void xsetId(final STRelationshipId stRelationshipId)
+    '''returns None\n\n
+    xsetId(final STRelationshipId stRelationshipId)\n
     '''

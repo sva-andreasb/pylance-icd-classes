@@ -1,6 +1,8 @@
-def FldDepPeriods():
-    '''public FldDepPeriods(final MboValue mbv)
+def ():
+    '''returns FldDepPeriods\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

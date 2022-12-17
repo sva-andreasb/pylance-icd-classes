@@ -1,3 +1,4 @@
-def RelRuleObjectInfo():
-    '''public RelRuleObjectInfo()
+def ():
+    '''returns RelRuleObjectInfo\n\n
+    ()\n
     '''

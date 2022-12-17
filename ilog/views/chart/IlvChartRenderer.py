@@ -32,217 +32,226 @@ CENTERED_LABEL_LAYOUT = "int  1"
 OUTSIDE_LABEL_LAYOUT = "int  2"
 DEFAULT_LABEL_LAYOUT = "int  1"
 DEFAULT_LABELING = "int  2"
-def create():
-    '''public static IlvChartRenderer create(final String str)
-    '''
-def getChart():
-    '''public final IlvChart getChart()
-    '''
-def getPlotRect():
-    '''public final Rectangle getPlotRect()
-    '''
 def getClipRect():
-    '''public Rectangle getClipRect()
+    '''returns Rectangle\n\n
+    getClipRect()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean b)
-    '''
-def getYAxisIdx():
-    '''public final int getYAxisIdx()
+    '''returns None\n\n
+    setVisible(final boolean b)\n
     '''
 def setYAxisIdx():
-    '''public void setYAxisIdx(final int g)
-    '''
-def getCoordinateSystem():
-    '''public final IlvCoordinateSystem getCoordinateSystem()
+    '''returns None\n\n
+    setYAxisIdx(final int g)\n
     '''
 def toData():
-    '''public void toData(final IlvDoublePoints ilvDoublePoints)
+    '''returns None\n\n
+    toData(final IlvDoublePoints ilvDoublePoints)\n
     '''
 def toDisplay():
-    '''public void toDisplay(final IlvDoublePoints ilvDoublePoints)
-    public void toDisplay(final IlvDoublePoints ilvDoublePoints, final IlvChartProjector ilvChartProjector, final Rectangle rectangle, final IlvCoordinateSystem ilvCoordinateSystem)
+    '''returns None\n\n
+    toDisplay(final IlvDoublePoints ilvDoublePoints)\n
+    toDisplay(final IlvDoublePoints ilvDoublePoints, final IlvChartProjector ilvChartProjector, final Rectangle rectangle, final IlvCoordinateSystem ilvCoordinateSystem)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String i)
+    '''returns None\n\n
+    setName(final String i)\n
     '''
 def setXShift():
-    '''public void setXShift(final double l)
+    '''returns None\n\n
+    setXShift(final double l)\n
     '''
 def getXShift():
-    '''public double getXShift()
+    '''returns double\n\n
+    getXShift()\n
     '''
 def isViewable():
-    '''public boolean isViewable()
+    '''returns boolean\n\n
+    isViewable()\n
     '''
 def getMinDataSetCount():
-    '''public int getMinDataSetCount()
-    '''
-def getDataSource():
-    '''public final IlvDataSource getDataSource()
+    '''returns int\n\n
+    getMinDataSetCount()\n
     '''
 def getDataSetIndex():
-    '''public int getDataSetIndex(final IlvDataSet set)
+    '''returns int\n\n
+    getDataSetIndex(final IlvDataSet set)\n
     '''
 def setDataSource():
-    '''public void setDataSource(final IlvDataSource m)
-    '''
-def isDisplayingDataSet():
-    '''public final boolean isDisplayingDataSet(final IlvDataSet set)
-    '''
-def getVirtualDataSet():
-    '''public final IlvDataSet getVirtualDataSet(final IlvDataSet set)
+    '''returns None\n\n
+    setDataSource(final IlvDataSource m)\n
     '''
 def setDataPoint():
-    '''public void setDataPoint(final IlvDataSet set, final int n, final double n2, final double n3)
+    '''returns None\n\n
+    setDataPoint(final IlvDataSet set, final int n, final double n2, final double n3)\n
     '''
 def getStyle():
-    '''public IlvStyle getStyle(final int n)
+    '''returns IlvStyle\n\n
+    getStyle(final int n)\n
     '''
 def setStyle():
-    '''public void setStyle(final int n, final IlvStyle ilvStyle)
+    '''returns None\n\n
+    setStyle(final int n, final IlvStyle ilvStyle)\n
     '''
 def getDefaultColors():
-    '''public Color[] getDefaultColors()
+    '''returns Color[]\n\n
+    getDefaultColors()\n
     '''
 def getBounds():
-    '''public Rectangle2D getBounds(final IlvDataSet set, final int n, final int n2, final Rectangle2D rectangle2D)
+    '''returns Rectangle2D\n\n
+    getBounds(final IlvDataSet set, final int n, final int n2, final Rectangle2D rectangle2D)\n
     '''
 def drawSelectionHandles():
-    '''public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle, final IlvDataSet set)
-    public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle, final IlvDataSet set, final int n)
-    public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle, final IlvObjectModelWithColumns ilvObjectModelWithColumns, final Object o)
+    '''returns None\n\n
+    drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle, final IlvDataSet set)\n
+    drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle, final IlvDataSet set, final int n)\n
+    drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle, final IlvObjectModelWithColumns ilvObjectModelWithColumns, final Object o)\n
     '''
 def has3DSupport():
-    '''public boolean has3DSupport()
+    '''returns boolean\n\n
+    has3DSupport()\n
     '''
 def getDepths():
-    '''public double[] getDepths()
+    '''returns double[]\n\n
+    getDepths()\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''
 def getChildIterator():
-    '''public Iterator<IlvChartRenderer> getChildIterator()
+    '''returns Iterator<IlvChartRenderer>\n\n
+    getChildIterator()\n
     '''
 def getChildren():
-    '''public List<IlvChartRenderer> getChildren()
+    '''returns List<IlvChartRenderer>\n\n
+    getChildren()\n
     '''
 def getChild():
-    '''public IlvChartRenderer getChild(final int n)
+    '''returns IlvChartRenderer\n\n
+    getChild(final int n)\n
     '''
 def getParent():
-    '''public IlvChartRenderer getParent()
+    '''returns IlvChartRenderer\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final IlvChartRenderer j)
+    '''returns None\n\n
+    setParent(final IlvChartRenderer j)\n
     '''
 def getDataSetMainRenderer():
-    '''public IlvChartRenderer getDataSetMainRenderer(final IlvDataSet set)
+    '''returns IlvChartRenderer\n\n
+    getDataSetMainRenderer(final IlvDataSet set)\n
     '''
 def getDataSetMainIndex():
-    '''public int getDataSetMainIndex(final IlvDataSet set)
+    '''returns int\n\n
+    getDataSetMainIndex(final IlvDataSet set)\n
     '''
 def addImageMapAreas():
-    '''public void addImageMapAreas(final IlvIMapDefinition ilvIMapDefinition, final List<? super IlvIMapArea> list)
+    '''returns None\n\n
+    addImageMapAreas(final IlvIMapDefinition ilvIMapDefinition, final List<? super IlvIMapArea> list)\n
     '''
 def drawIntoHitmap():
-    '''public void drawIntoHitmap(final IlvChartHitmapDefinition ilvChartHitmapDefinition, final IlvChartHitmapAccumulator ilvChartHitmapAccumulator)
+    '''returns None\n\n
+    drawIntoHitmap(final IlvChartHitmapDefinition ilvChartHitmapDefinition, final IlvChartHitmapAccumulator ilvChartHitmapAccumulator)\n
     '''
 def collectDisplayItems():
-    '''public void collectDisplayItems(final IlvChartDataPicker ilvChartDataPicker, final ArrayList<IlvDisplayPoint> list)
-    '''
-def getNearestPoint():
-    '''public static IlvDisplayPoint getNearestPoint(final Iterator<IlvChartRenderer> iterator, final IlvChartDataPicker ilvChartDataPicker)
-    '''
-def getNearestItem():
-    '''public static IlvDisplayPoint getNearestItem(final Iterator<IlvChartRenderer> iterator, final IlvChartDataPicker ilvChartDataPicker, final double[] array)
-    '''
-def getDisplayItems():
-    '''public static List<IlvDisplayPoint> getDisplayItems(final Iterator<IlvChartRenderer> iterator, final IlvChartDataPicker ilvChartDataPicker)
-    '''
-def getDisplayItem():
-    '''public static IlvDisplayPoint getDisplayItem(final Iterator<IlvChartRenderer> iterator, final IlvChartDataPicker ilvChartDataPicker)
+    '''returns None\n\n
+    collectDisplayItems(final IlvChartDataPicker ilvChartDataPicker, final ArrayList<IlvDisplayPoint> list)\n
     '''
 def getLegendText():
-    '''public String getLegendText(final IlvLegendItem ilvLegendItem)
+    '''returns String\n\n
+    getLegendText(final IlvLegendItem ilvLegendItem)\n
     '''
 def getDefaultLegendTitle():
-    '''public String getDefaultLegendTitle()
+    '''returns String\n\n
+    getDefaultLegendTitle()\n
     '''
 def getLegendStyle():
-    '''public IlvStyle getLegendStyle()
+    '''returns IlvStyle\n\n
+    getLegendStyle()\n
     '''
 def getPreferredMargins():
-    '''public Insets getPreferredMargins()
+    '''returns Insets\n\n
+    getPreferredMargins()\n
     '''
 def triggerChange():
-    '''public void triggerChange(final int n)
+    '''returns None\n\n
+    triggerChange(final int n)\n
     '''
 def isVisibleInLegend():
-    '''public boolean isVisibleInLegend()
+    '''returns boolean\n\n
+    isVisibleInLegend()\n
     '''
 def setVisibleInLegend():
-    '''public void setVisibleInLegend(final boolean b)
+    '''returns None\n\n
+    setVisibleInLegend(final boolean b)\n
     '''
 def getDataLabeling():
-    '''public int getDataLabeling()
+    '''returns int\n\n
+    getDataLabeling()\n
     '''
 def getDataLabelling():
-    '''public int getDataLabelling()
+    '''returns int\n\n
+    getDataLabelling()\n
     '''
 def setDataLabeling():
-    '''public void setDataLabeling(final int value)
+    '''returns None\n\n
+    setDataLabeling(final int value)\n
     '''
 def setDataLabelling():
-    '''public void setDataLabelling(final int dataLabeling)
+    '''returns None\n\n
+    setDataLabelling(final int dataLabeling)\n
     '''
 def getDataLabelLayout():
-    '''public int getDataLabelLayout()
+    '''returns int\n\n
+    getDataLabelLayout()\n
     '''
 def setDataLabelLayout():
-    '''public void setDataLabelLayout(final int value)
-    '''
-def getAnnotation():
-    '''public final IlvDataAnnotation getAnnotation()
+    '''returns None\n\n
+    setDataLabelLayout(final int value)\n
     '''
 def setAnnotation():
-    '''public void setAnnotation(final IlvDataAnnotation o)
-    '''
-def getRenderingHint():
-    '''public final IlvDataRenderingHint getRenderingHint()
+    '''returns None\n\n
+    setAnnotation(final IlvDataAnnotation o)\n
     '''
 def setRenderingHint():
-    '''public void setRenderingHint(final IlvDataRenderingHint p)
+    '''returns None\n\n
+    setRenderingHint(final IlvDataRenderingHint p)\n
     '''
 def computeDataLabel():
-    '''public String computeDataLabel(final IlvDataSetPoint ilvDataSetPoint)
+    '''returns String\n\n
+    computeDataLabel(final IlvDataSetPoint ilvDataSetPoint)\n
     '''
 def computeDataLabelLocation():
-    '''public Point computeDataLabelLocation(final IlvDisplayPoint ilvDisplayPoint, final Dimension dimension)
+    '''returns Point\n\n
+    computeDataLabelLocation(final IlvDisplayPoint ilvDisplayPoint, final Dimension dimension)\n
     '''
 def applyStyles():
-    '''public void applyStyles(final boolean b)
-    public static IlvDataSetStyle applyStyles(final IlvDataSet set, final IlvChartRenderer ilvChartRenderer, final IlvChartRenderer ilvChartRenderer2, final IlvStylingSupport ilvStylingSupport, final boolean b)
-    '''
-def createRenderer():
-    '''public static IlvChartRenderer createRenderer(final int i)
+    '''returns None\n\n
+    applyStyles(final boolean b)\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''
 def dataSourceChanged():
-    '''public void dataSourceChanged(final DataSourceEvent dataSourceEvent)
+    '''returns None\n\n
+    dataSourceChanged(final DataSourceEvent dataSourceEvent)\n
     '''
 def startDataSourceChanges():
-    '''public void startDataSourceChanges()
+    '''returns None\n\n
+    startDataSourceChanges()\n
     '''
 def endDataSourceChanges():
-    '''public void endDataSourceChanges()
+    '''returns None\n\n
+    endDataSourceChanges()\n
     '''

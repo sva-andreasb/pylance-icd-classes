@@ -1,3 +1,4 @@
-def STUNTransportManager():
-    '''public STUNTransportManager()
+def ():
+    '''returns STUNTransportManager\n\n
+    ()\n
     '''

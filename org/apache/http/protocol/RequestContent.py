@@ -1,7 +1,9 @@
-def RequestContent():
-    '''public RequestContent()
-    public RequestContent(final boolean overwrite)
+def ():
+    '''returns RequestContent\n\n
+    ()\n
+    (final boolean overwrite)\n
     '''
 def process():
-    '''public void process(final HttpRequest request, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpRequest request, final HttpContext context)\n
     '''

@@ -1,49 +1,65 @@
 serialVersionUID = "long  1L"
-def SOAP12HeaderFaultImpl():
-    '''public SOAP12HeaderFaultImpl()
+def ():
+    '''returns SOAP12HeaderFaultImpl\n\n
+    ()\n
     '''
 def setElementType():
-    '''public void setElementType(final QName elementType)
+    '''returns None\n\n
+    setElementType(final QName elementType)\n
     '''
 def getElementType():
-    '''public QName getElementType()
+    '''returns QName\n\n
+    getElementType()\n
     '''
 def setRequired():
-    '''public void setRequired(final Boolean required)
+    '''returns None\n\n
+    setRequired(final Boolean required)\n
     '''
 def getRequired():
-    '''public Boolean getRequired()
+    '''returns Boolean\n\n
+    getRequired()\n
     '''
 def setMessage():
-    '''public void setMessage(final QName message)
+    '''returns None\n\n
+    setMessage(final QName message)\n
     '''
 def getMessage():
-    '''public QName getMessage()
+    '''returns QName\n\n
+    getMessage()\n
     '''
 def setPart():
-    '''public void setPart(final String part)
+    '''returns None\n\n
+    setPart(final String part)\n
     '''
 def getPart():
-    '''public String getPart()
+    '''returns String\n\n
+    getPart()\n
     '''
 def setUse():
-    '''public void setUse(final String use)
+    '''returns None\n\n
+    setUse(final String use)\n
     '''
 def getUse():
-    '''public String getUse()
+    '''returns String\n\n
+    getUse()\n
     '''
 def setEncodingStyle():
-    '''public void setEncodingStyle(final String encodingStyle)
+    '''returns None\n\n
+    setEncodingStyle(final String encodingStyle)\n
     '''
 def getEncodingStyle():
-    '''public String getEncodingStyle()
+    '''returns String\n\n
+    getEncodingStyle()\n
     '''
 def setNamespaceURI():
-    '''public void setNamespaceURI(final String namespaceURI)
+    '''returns None\n\n
+    setNamespaceURI(final String namespaceURI)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

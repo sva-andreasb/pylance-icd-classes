@@ -14,108 +14,139 @@ FILE_SELECTION = "int  32"
 DO_NOT_SPELL_CHECK = "int  64"
 EDIT = "int  128"
 COMB = "int  256"
-def BaseField():
-    '''public BaseField(final PdfWriter writer, final Rectangle box, final String fieldName)
+def ():
+    '''returns BaseField\n\n
+    (final PdfWriter writer, final Rectangle box, final String fieldName)\n
     '''
 def getBorderWidth():
-    '''public float getBorderWidth()
+    '''returns float\n\n
+    getBorderWidth()\n
     '''
 def setBorderWidth():
-    '''public void setBorderWidth(final float borderWidth)
+    '''returns None\n\n
+    setBorderWidth(final float borderWidth)\n
     '''
 def getBorderStyle():
-    '''public int getBorderStyle()
+    '''returns int\n\n
+    getBorderStyle()\n
     '''
 def setBorderStyle():
-    '''public void setBorderStyle(final int borderStyle)
+    '''returns None\n\n
+    setBorderStyle(final int borderStyle)\n
     '''
 def getBorderColor():
-    '''public Color getBorderColor()
+    '''returns Color\n\n
+    getBorderColor()\n
     '''
 def setBorderColor():
-    '''public void setBorderColor(final Color borderColor)
+    '''returns None\n\n
+    setBorderColor(final Color borderColor)\n
     '''
 def getBackgroundColor():
-    '''public Color getBackgroundColor()
+    '''returns Color\n\n
+    getBackgroundColor()\n
     '''
 def setBackgroundColor():
-    '''public void setBackgroundColor(final Color backgroundColor)
+    '''returns None\n\n
+    setBackgroundColor(final Color backgroundColor)\n
     '''
 def getTextColor():
-    '''public Color getTextColor()
+    '''returns Color\n\n
+    getTextColor()\n
     '''
 def setTextColor():
-    '''public void setTextColor(final Color textColor)
+    '''returns None\n\n
+    setTextColor(final Color textColor)\n
     '''
 def getFont():
-    '''public BaseFont getFont()
+    '''returns BaseFont\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final BaseFont font)
+    '''returns None\n\n
+    setFont(final BaseFont font)\n
     '''
 def getFontSize():
-    '''public float getFontSize()
+    '''returns float\n\n
+    getFontSize()\n
     '''
 def setFontSize():
-    '''public void setFontSize(final float fontSize)
+    '''returns None\n\n
+    setFontSize(final float fontSize)\n
     '''
 def getAlignment():
-    '''public int getAlignment()
+    '''returns int\n\n
+    getAlignment()\n
     '''
 def setAlignment():
-    '''public void setAlignment(final int alignment)
+    '''returns None\n\n
+    setAlignment(final int alignment)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def getBox():
-    '''public Rectangle getBox()
+    '''returns Rectangle\n\n
+    getBox()\n
     '''
 def setBox():
-    '''public void setBox(final Rectangle box)
+    '''returns None\n\n
+    setBox(final Rectangle box)\n
     '''
 def getRotation():
-    '''public int getRotation()
+    '''returns int\n\n
+    getRotation()\n
     '''
 def setRotation():
-    '''public void setRotation(int rotation)
+    '''returns None\n\n
+    setRotation(int rotation)\n
     '''
 def setRotationFromPage():
-    '''public void setRotationFromPage(final Rectangle page)
+    '''returns None\n\n
+    setRotationFromPage(final Rectangle page)\n
     '''
 def getVisibility():
-    '''public int getVisibility()
+    '''returns int\n\n
+    getVisibility()\n
     '''
 def setVisibility():
-    '''public void setVisibility(final int visibility)
+    '''returns None\n\n
+    setVisibility(final int visibility)\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def setFieldName():
-    '''public void setFieldName(final String fieldName)
+    '''returns None\n\n
+    setFieldName(final String fieldName)\n
     '''
 def getOptions():
-    '''public int getOptions()
+    '''returns int\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final int options)
+    '''returns None\n\n
+    setOptions(final int options)\n
     '''
 def getMaxCharacterLength():
-    '''public int getMaxCharacterLength()
+    '''returns int\n\n
+    getMaxCharacterLength()\n
     '''
 def setMaxCharacterLength():
-    '''public void setMaxCharacterLength(final int maxCharacterLength)
+    '''returns None\n\n
+    setMaxCharacterLength(final int maxCharacterLength)\n
     '''
 def getWriter():
-    '''public PdfWriter getWriter()
+    '''returns PdfWriter\n\n
+    getWriter()\n
     '''
 def setWriter():
-    '''public void setWriter(final PdfWriter writer)
-    '''
-def moveFields():
-    '''public static void moveFields(final PdfDictionary from, final PdfDictionary to)
+    '''returns None\n\n
+    setWriter(final PdfWriter writer)\n
     '''

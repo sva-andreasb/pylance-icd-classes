@@ -1,81 +1,108 @@
-def Selection():
-    '''public Selection(final JSONObject selection)
+def ():
+    '''returns Selection\n\n
+    (final JSONObject selection)\n
     '''
 def getActivityIds():
-    '''public JSONArray getActivityIds()
+    '''returns JSONArray\n\n
+    getActivityIds()\n
     '''
 def getResourceIds():
-    '''public JSONArray getResourceIds()
+    '''returns JSONArray\n\n
+    getResourceIds()\n
     '''
 def getCurrentRowId():
-    '''public String getCurrentRowId()
+    '''returns String\n\n
+    getCurrentRowId()\n
     '''
 def getCurrentRowParentId():
-    '''public String getCurrentRowParentId()
+    '''returns String\n\n
+    getCurrentRowParentId()\n
     '''
 def isResourceViewSelection():
-    '''public boolean isResourceViewSelection()
+    '''returns boolean\n\n
+    isResourceViewSelection()\n
     '''
 def getColumn():
-    '''public String getColumn()
+    '''returns String\n\n
+    getColumn()\n
     '''
 def getColumnValue():
-    '''public Object getColumnValue()
+    '''returns Object\n\n
+    getColumnValue()\n
     '''
 def isGanttSelected():
-    '''public boolean isGanttSelected()
+    '''returns boolean\n\n
+    isGanttSelected()\n
     '''
 def isNameSelected():
-    '''public boolean isNameSelected()
+    '''returns boolean\n\n
+    isNameSelected()\n
     '''
 def isGanttOrNameSelected():
-    '''public boolean isGanttOrNameSelected()
+    '''returns boolean\n\n
+    isGanttOrNameSelected()\n
     '''
 def isValidResourceColumn():
-    '''public boolean isValidResourceColumn(final MXGanttModel model)
+    '''returns boolean\n\n
+    isValidResourceColumn(final MXGanttModel model)\n
     '''
 def hasActivities():
-    '''public boolean hasActivities()
+    '''returns boolean\n\n
+    hasActivities()\n
     '''
 def hasResources():
-    '''public boolean hasResources()
+    '''returns boolean\n\n
+    hasResources()\n
     '''
 def getFirstActivity():
-    '''public String getFirstActivity()
+    '''returns String\n\n
+    getFirstActivity()\n
     '''
 def getFirstResource():
-    '''public String getFirstResource()
+    '''returns String\n\n
+    getFirstResource()\n
     '''
 def hasMultipleResources():
-    '''public boolean hasMultipleResources()
+    '''returns boolean\n\n
+    hasMultipleResources()\n
     '''
 def hasMultipleActivities():
-    '''public boolean hasMultipleActivities()
+    '''returns boolean\n\n
+    hasMultipleActivities()\n
     '''
 def isSingeResourcedSelected():
-    '''public boolean isSingeResourcedSelected()
+    '''returns boolean\n\n
+    isSingeResourcedSelected()\n
     '''
 def isSingeActivitySelected():
-    '''public boolean isSingeActivitySelected()
+    '''returns boolean\n\n
+    isSingeActivitySelected()\n
     '''
 def toResourceIdCommaString():
-    '''public String toResourceIdCommaString()
+    '''returns String\n\n
+    toResourceIdCommaString()\n
     '''
 def toActivityIdCommaString():
-    '''public String toActivityIdCommaString()
+    '''returns String\n\n
+    toActivityIdCommaString()\n
     '''
 def getResourceId():
-    '''public String getResourceId(final int l)
+    '''returns String\n\n
+    getResourceId(final int l)\n
     '''
 def getActivityId():
-    '''public String getActivityId(final int l)
+    '''returns String\n\n
+    getActivityId(final int l)\n
     '''
 def toActivityIdStringArray():
-    '''public String[] toActivityIdStringArray()
+    '''returns String[]\n\n
+    toActivityIdStringArray()\n
     '''
 def toResourceIdStringArray():
-    '''public String[] toResourceIdStringArray()
+    '''returns String[]\n\n
+    toResourceIdStringArray()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

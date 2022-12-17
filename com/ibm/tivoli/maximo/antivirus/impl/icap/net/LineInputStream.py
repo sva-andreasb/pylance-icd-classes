@@ -1,35 +1,38 @@
-def LineInputStream():
-    '''public LineInputStream(final InputStream isSource)
+def ():
+    '''returns LineInputStream\n\n
+    (final InputStream isSource)\n
     '''
 def _read():
-    '''public int _read()
+    '''returns int\n\n
+    _read()\n
     '''
 def readLineBytes():
-    '''public byte[] readLineBytes(final int maxsize)
+    '''returns byte[]\n\n
+    readLineBytes(final int maxsize)\n
     '''
 def readLineTerminatorBytes():
-    '''public byte[] readLineTerminatorBytes()
+    '''returns byte[]\n\n
+    readLineTerminatorBytes()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, int off, int len)
-    public int read(final byte[] b)
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, int off, int len)\n
+    read(final byte[] b)\n
     '''
 def skip():
-    '''public long skip(long len)
+    '''returns long\n\n
+    skip(long len)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

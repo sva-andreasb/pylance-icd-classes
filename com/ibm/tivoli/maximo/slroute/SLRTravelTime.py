@@ -1,3 +1,4 @@
-def SLRTravelTime():
-    '''public SLRTravelTime(final MboSet ms)
+def ():
+    '''returns SLRTravelTime\n\n
+    (final MboSet ms)\n
     '''

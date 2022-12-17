@@ -1,9 +1,12 @@
-def PlusPFldTotalBillPR():
-    '''public PlusPFldTotalBillPR(final MboValue mbv)
+def ():
+    '''returns PlusPFldTotalBillPR\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

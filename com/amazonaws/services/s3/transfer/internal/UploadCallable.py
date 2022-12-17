@@ -1,12 +1,16 @@
-def UploadCallable():
-    '''public UploadCallable(final TransferManager transferManager, final ExecutorService threadPool, final UploadImpl upload, final PutObjectRequest origReq, final ProgressListenerChain progressListenerChain, final String uploadId, final TransferProgress transferProgress)
+def ():
+    '''returns UploadCallable\n\n
+    (final TransferManager transferManager, final ExecutorService threadPool, final UploadImpl upload, final PutObjectRequest origReq, final ProgressListenerChain progressListenerChain, final String uploadId, final TransferProgress transferProgress)\n
     '''
 def isMultipartUpload():
-    '''public boolean isMultipartUpload()
+    '''returns boolean\n\n
+    isMultipartUpload()\n
     '''
 def call():
-    '''public UploadResult call()
+    '''returns UploadResult\n\n
+    call()\n
     '''
 def getPersistableUpload():
-    '''public PersistableUpload getPersistableUpload()
+    '''returns PersistableUpload\n\n
+    getPersistableUpload()\n
     '''

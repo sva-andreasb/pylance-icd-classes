@@ -1,19 +1,20 @@
-def init():
-    '''public static void init()
-    '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File file)
-    public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File file)\n
+    accept(final File file)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
+    run()\n
     '''

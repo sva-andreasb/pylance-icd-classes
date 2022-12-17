@@ -31,70 +31,88 @@ HOUR12CHAR = "char  'h'"
 SECONDCHAR = "char  's'"
 SEPERATORS = "String  \" /-.:\""
 MINSPERHOUR = "double  60.0"
-def SKDFormat():
-    '''public SKDFormat(final SKDUserLocaleData skdLocale)
+def ():
+    '''returns SKDFormat\n\n
+    (final SKDUserLocaleData skdLocale)\n
     '''
 def stringToDate():
-    '''public Date stringToDate(final String s, final Locale l, final TimeZone tz)
+    '''returns Date\n\n
+    stringToDate(final String s, final Locale l, final TimeZone tz)\n
     '''
 def parseDateTime():
-    '''public int[] parseDateTime(final String s, final Locale l, final String pattern)
+    '''returns int[]\n\n
+    parseDateTime(final String s, final Locale l, final String pattern)\n
     '''
 def stringToInt():
-    '''public int stringToInt(final String s, final Locale l)
+    '''returns int\n\n
+    stringToInt(final String s, final Locale l)\n
     '''
 def stringToDateTime():
-    '''public Date stringToDateTime(final String s, final Locale l, final TimeZone tz)
-    '''
-def getDateOnly():
-    '''public static Date getDateOnly(final Date date)
+    '''returns Date\n\n
+    stringToDateTime(final String s, final Locale l, final TimeZone tz)\n
     '''
 def stringToTime():
-    '''public Date stringToTime(final String s, final Locale l, final TimeZone tz)
+    '''returns Date\n\n
+    stringToTime(final String s, final Locale l, final TimeZone tz)\n
     '''
 def dateTimeToDisplayString():
-    '''public String dateTimeToDisplayString(final Date d, final Locale l, final TimeZone tz)
-    public String dateTimeToDisplayString(final Date d, final Locale l)
+    '''returns String\n\n
+    dateTimeToDisplayString(final Date d, final Locale l, final TimeZone tz)\n
+    dateTimeToDisplayString(final Date d, final Locale l)\n
     '''
 def dateTimeToParseString():
-    '''public String dateTimeToParseString(final Date d, final Locale l, final TimeZone tz)
+    '''returns String\n\n
+    dateTimeToParseString(final Date d, final Locale l, final TimeZone tz)\n
     '''
 def dateToString():
-    '''public String dateToString(final Date d, final Locale l, final TimeZone tz)
+    '''returns String\n\n
+    dateToString(final Date d, final Locale l, final TimeZone tz)\n
     '''
 def timeToDisplayString():
-    '''public String timeToDisplayString(final Date d, final Locale l, final TimeZone tz)
+    '''returns String\n\n
+    timeToDisplayString(final Date d, final Locale l, final TimeZone tz)\n
     '''
 def timeToParseString():
-    '''public String timeToParseString(final Date d, final Locale l, final TimeZone tz)
+    '''returns String\n\n
+    timeToParseString(final Date d, final Locale l, final TimeZone tz)\n
     '''
 def stringToBoolean():
-    '''public boolean stringToBoolean(final String s, final Locale l)
+    '''returns boolean\n\n
+    stringToBoolean(final String s, final Locale l)\n
     '''
 def convertToStoreYNValue():
-    '''public String convertToStoreYNValue(final String val, final Locale l)
+    '''returns String\n\n
+    convertToStoreYNValue(final String val, final Locale l)\n
     '''
 def booleanToString():
-    '''public String booleanToString(final boolean b, final Locale l)
+    '''returns String\n\n
+    booleanToString(final boolean b, final Locale l)\n
     '''
 def doubleToDuration():
-    '''public String doubleToDuration(double d)
+    '''returns String\n\n
+    doubleToDuration(double d)\n
     '''
 def durationToDouble():
-    '''public double durationToDouble(String s, final Locale l)
+    '''returns double\n\n
+    durationToDouble(String s, final Locale l)\n
     '''
 def stringToDouble():
-    '''public double stringToDouble(final String s, final Locale l)
+    '''returns double\n\n
+    stringToDouble(final String s, final Locale l)\n
     '''
 def getDatePattern():
-    '''public String getDatePattern()
+    '''returns String\n\n
+    getDatePattern()\n
     '''
 def getTimePattern():
-    '''public String getTimePattern()
+    '''returns String\n\n
+    getTimePattern()\n
     '''
 def dateTimeToString():
-    '''public String dateTimeToString(final Date d, final Locale l, final TimeZone tz)
+    '''returns String\n\n
+    dateTimeToString(final Date d, final Locale l, final TimeZone tz)\n
     '''
 def doubleToString():
-    '''public String doubleToString(final double d, final int places, final Locale l, final boolean groupingInFormat)
+    '''returns String\n\n
+    doubleToString(final double d, final int places, final Locale l, final boolean groupingInFormat)\n
     '''

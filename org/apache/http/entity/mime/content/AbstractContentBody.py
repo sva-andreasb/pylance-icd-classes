@@ -1,12 +1,16 @@
-def AbstractContentBody():
-    '''public AbstractContentBody(final String mimeType)
+def ():
+    '''returns AbstractContentBody\n\n
+    (final String mimeType)\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def getMediaType():
-    '''public String getMediaType()
+    '''returns String\n\n
+    getMediaType()\n
     '''
 def getSubType():
-    '''public String getSubType()
+    '''returns String\n\n
+    getSubType()\n
     '''

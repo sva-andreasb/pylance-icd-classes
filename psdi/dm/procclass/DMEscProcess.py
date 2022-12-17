@@ -1,9 +1,12 @@
-def DMEscProcess():
-    '''public DMEscProcess()
+def ():
+    '''returns DMEscProcess\n\n
+    ()\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''
 def checkAdditionalRules():
-    '''public void checkAdditionalRules()
+    '''returns None\n\n
+    checkAdditionalRules()\n
     '''

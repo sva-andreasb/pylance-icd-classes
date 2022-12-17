@@ -1,3 +1,4 @@
-def StoreTriplesNodesHashOracle():
-    '''public StoreTriplesNodesHashOracle(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreTriplesNodesHashOracle\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

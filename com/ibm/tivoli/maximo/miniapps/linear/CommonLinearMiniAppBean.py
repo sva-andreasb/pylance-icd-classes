@@ -1,53 +1,70 @@
 LINEARASSET_MSG_GROUP = "String  \"linearasset\""
 def getDataListener():
-    '''public DataBeanListener getDataListener()
+    '''returns DataBeanListener\n\n
+    getDataListener()\n
     '''
 def updateFromToMeasure():
-    '''public String updateFromToMeasure()
+    '''returns String\n\n
+    updateFromToMeasure()\n
     '''
 def label():
-    '''public String label(final String key)
-    public String label(final String key, final String group)
+    '''returns String\n\n
+    label(final String key)\n
+    label(final String key, final String group)\n
     '''
 def getBaseImageUrl():
-    '''public String getBaseImageUrl()
+    '''returns String\n\n
+    getBaseImageUrl()\n
     '''
 def getLinearUrl():
-    '''public String getLinearUrl(final String miniAppsDir)
+    '''returns String\n\n
+    getLinearUrl(final String miniAppsDir)\n
     '''
 def filterCss():
-    '''public String filterCss(final String css, final MiniAppControl control)
+    '''returns String\n\n
+    filterCss(final String css, final MiniAppControl control)\n
     '''
 def send_client_treegrid_refresh():
-    '''public void send_client_treegrid_refresh(final String data)
+    '''returns None\n\n
+    send_client_treegrid_refresh(final String data)\n
     '''
 def send_client_treegrid_from_to_measure():
-    '''public void send_client_treegrid_from_to_measure()
+    '''returns None\n\n
+    send_client_treegrid_from_to_measure()\n
     '''
 def send_client_treegrid_reset():
-    '''public void send_client_treegrid_reset()
+    '''returns None\n\n
+    send_client_treegrid_reset()\n
     '''
 def send_client_remove_treegrid():
-    '''public void send_client_remove_treegrid()
+    '''returns None\n\n
+    send_client_remove_treegrid()\n
     '''
 def send_client_visibility_grid():
-    '''public void send_client_visibility_grid(final String data)
+    '''returns None\n\n
+    send_client_visibility_grid(final String data)\n
     '''
 def sendEventToTreeGrid():
-    '''public void sendEventToTreeGrid(final String eventId, final String eventArg)
+    '''returns None\n\n
+    sendEventToTreeGrid(final String eventId, final String eventArg)\n
     '''
 def get_calculatedMeasure():
-    '''public JSONObject get_calculatedMeasure(final WebClientSession wcs, @MXEventParam("linearObjTargetInfo") final JSONObject linearObjTargetInfo)
+    '''returns JSONObject\n\n
+    get_calculatedMeasure(final WebClientSession wcs, @MXEventParam("linearObjTargetInfo") final JSONObject linearObjTargetInfo)\n
     '''
 def isMboLinkedToFeatureClass():
-    '''public JSONObject isMboLinkedToFeatureClass(final WebClientSession wcs)
+    '''returns JSONObject\n\n
+    isMboLinkedToFeatureClass(final WebClientSession wcs)\n
     '''
 def get_i18n_MaxMsg_label():
-    '''public JSONObject get_i18n_MaxMsg_label(@MXEventParam("msgKey") final String msgKey, @MXEventParam("msgGroup") final String msgGroup)
+    '''returns JSONObject\n\n
+    get_i18n_MaxMsg_label(@MXEventParam("msgKey") final String msgKey, @MXEventParam("msgGroup") final String msgGroup)\n
     '''
 def return_mapProvider_type():
-    '''public JSONObject return_mapProvider_type(final WebClientSession sess)
+    '''returns JSONObject\n\n
+    return_mapProvider_type(final WebClientSession sess)\n
     '''
 def getCurrentMapProvider():
-    '''public String getCurrentMapProvider(final UserInfo userInfo)
+    '''returns String\n\n
+    getCurrentMapProvider(final UserInfo userInfo)\n
     '''

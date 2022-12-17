@@ -1,3 +1,4 @@
 def parse():
-    '''public MUCOwner parse(final XmlPullParser parser, final int initialDepth)
+    '''returns MUCOwner\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

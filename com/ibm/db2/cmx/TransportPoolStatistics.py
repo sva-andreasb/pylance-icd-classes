@@ -1,15 +1,20 @@
-def MemberAllocation():
-    '''public MemberAllocation(final String memberAddress_, final int memberPort_, final int inUseTransports_, final int freeTransports_)
+def ():
+    '''returns MemberAllocation\n\n
+    (final String memberAddress_, final int memberPort_, final int inUseTransports_, final int freeTransports_)\n
     '''
 def getMemberAddress():
-    '''public String getMemberAddress()
+    '''returns String\n\n
+    getMemberAddress()\n
     '''
 def getMemberPort():
-    '''public int getMemberPort()
+    '''returns int\n\n
+    getMemberPort()\n
     '''
 def getInUseTransports():
-    '''public int getInUseTransports()
+    '''returns int\n\n
+    getInUseTransports()\n
     '''
 def getFreeTransports():
-    '''public int getFreeTransports()
+    '''returns int\n\n
+    getFreeTransports()\n
     '''

@@ -1,3 +1,4 @@
-def SASLCramMD5Mechanism():
-    '''public SASLCramMD5Mechanism(final SASLAuthentication saslAuthentication)
+def ():
+    '''returns SASLCramMD5Mechanism\n\n
+    (final SASLAuthentication saslAuthentication)\n
     '''

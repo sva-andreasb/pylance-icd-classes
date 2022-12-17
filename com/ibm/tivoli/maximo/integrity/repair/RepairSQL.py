@@ -1,6 +1,8 @@
-def RepairSQL():
-    '''public RepairSQL(final Connection dc, final String sql)
+def ():
+    '''returns RepairSQL\n\n
+    (final Connection dc, final String sql)\n
     '''
 def doRepair():
-    '''public void doRepair()
+    '''returns None\n\n
+    doRepair()\n
     '''

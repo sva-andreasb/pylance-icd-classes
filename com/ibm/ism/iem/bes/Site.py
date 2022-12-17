@@ -1,36 +1,48 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String value)
+    '''returns None\n\n
+    setDescription(final String value)\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def setDomain():
-    '''public void setDomain(final String value)
+    '''returns None\n\n
+    setDomain(final String value)\n
     '''
 def isGlobalReadPermission():
-    '''public Boolean isGlobalReadPermission()
+    '''returns Boolean\n\n
+    isGlobalReadPermission()\n
     '''
 def setGlobalReadPermission():
-    '''public void setGlobalReadPermission(final Boolean value)
+    '''returns None\n\n
+    setGlobalReadPermission(final Boolean value)\n
     '''
 def getSubscriptionMode():
-    '''public String getSubscriptionMode()
+    '''returns String\n\n
+    getSubscriptionMode()\n
     '''
 def setSubscriptionMode():
-    '''public void setSubscriptionMode(final String value)
+    '''returns None\n\n
+    setSubscriptionMode(final String value)\n
     '''
 def getSiteRelevance():
-    '''public String getSiteRelevance()
+    '''returns String\n\n
+    getSiteRelevance()\n
     '''
 def setSiteRelevance():
-    '''public void setSiteRelevance(final String value)
+    '''returns None\n\n
+    setSiteRelevance(final String value)\n
     '''

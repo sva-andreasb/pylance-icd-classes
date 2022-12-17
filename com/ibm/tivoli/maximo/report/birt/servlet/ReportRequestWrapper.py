@@ -1,24 +1,32 @@
-def ReportRequestWrapper():
-    '''public ReportRequestWrapper(final HttpServletRequest request, final HashMap additionalParams)
+def ():
+    '''returns ReportRequestWrapper\n\n
+    (final HttpServletRequest request, final HashMap additionalParams)\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def getParameterMap():
-    '''public Map getParameterMap()
+    '''returns Map\n\n
+    getParameterMap()\n
     '''
 def getParameterValues():
-    '''public String[] getParameterValues(final String name)
+    '''returns String[]\n\n
+    getParameterValues(final String name)\n
     '''
 def getParameterNames():
-    '''public Enumeration getParameterNames()
+    '''returns Enumeration\n\n
+    getParameterNames()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String name)
+    '''returns None\n\n
+    removeAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final Object o)
+    '''returns None\n\n
+    setAttribute(final String name, final Object o)\n
     '''

@@ -1,18 +1,24 @@
-def SystemsUpdateBean():
-    '''public SystemsUpdateBean()
+def ():
+    '''returns SystemsUpdateBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def replacesystem():
-    '''public int replacesystem()
+    '''returns int\n\n
+    replacesystem()\n
     '''
 def appendsystem():
-    '''public int appendsystem()
+    '''returns int\n\n
+    appendsystem()\n
     '''
 def deletesystem():
-    '''public int deletesystem()
+    '''returns int\n\n
+    deletesystem()\n
     '''
 def lookupLocationsFromSelection():
-    '''public LocationSetRemote lookupLocationsFromSelection(final BIMViewer model, final Set<String> selection)
+    '''returns LocationSetRemote\n\n
+    lookupLocationsFromSelection(final BIMViewer model, final Set<String> selection)\n
     '''

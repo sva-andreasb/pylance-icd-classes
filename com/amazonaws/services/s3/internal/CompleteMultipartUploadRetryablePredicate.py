@@ -1,3 +1,4 @@
 def test():
-    '''public boolean test(final AmazonS3Exception exception)
+    '''returns boolean\n\n
+    test(final AmazonS3Exception exception)\n
     '''

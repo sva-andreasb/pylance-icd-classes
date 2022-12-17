@@ -1,3 +1,4 @@
-def FldRFQReplyToAttn():
-    '''public FldRFQReplyToAttn(final MboValue mbv)
+def ():
+    '''returns FldRFQReplyToAttn\n\n
+    (final MboValue mbv)\n
     '''

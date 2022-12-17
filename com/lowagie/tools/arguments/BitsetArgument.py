@@ -1,12 +1,16 @@
-def BitsetArgument():
-    '''public BitsetArgument(final AbstractTool tool, final String name, final String description, final String[] options)
+def ():
+    '''returns BitsetArgument\n\n
+    (final AbstractTool tool, final String name, final String description, final String[] options)\n
     '''
 def getArgument():
-    '''public Object getArgument()
+    '''returns Object\n\n
+    getArgument()\n
     '''
 def getUsage():
-    '''public String getUsage()
+    '''returns String\n\n
+    getUsage()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent evt)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent evt)\n
     '''

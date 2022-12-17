@@ -1,4 +1,5 @@
-def ClassConstraintException():
-    '''public ClassConstraintException()
-    public ClassConstraintException(final String message)
+def ():
+    '''returns ClassConstraintException\n\n
+    ()\n
+    (final String message)\n
     '''

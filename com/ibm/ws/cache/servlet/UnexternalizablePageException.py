@@ -1,3 +1,4 @@
-def UnexternalizablePageException():
-    '''public UnexternalizablePageException(final String message)
+def ():
+    '''returns UnexternalizablePageException\n\n
+    (final String message)\n
     '''

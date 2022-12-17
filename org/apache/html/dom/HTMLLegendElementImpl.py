@@ -1,15 +1,20 @@
 def getAccessKey():
-    '''public String getAccessKey()
+    '''returns String\n\n
+    getAccessKey()\n
     '''
 def setAccessKey():
-    '''public void setAccessKey(String substring)
+    '''returns None\n\n
+    setAccessKey(String substring)\n
     '''
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
-def HTMLLegendElementImpl():
-    '''public HTMLLegendElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLLegendElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

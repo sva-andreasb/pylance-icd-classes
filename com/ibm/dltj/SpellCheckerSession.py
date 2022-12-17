@@ -1,80 +1,92 @@
 ignoredWordsTagPrefix = "String  \"ignored_\""
-def SpellCheckerSession():
-    '''public SpellCheckerSession(final Dictionary[] array, final int n, final String str)
-    public SpellCheckerSession(final Dictionary[] array, final String s)
-    public SpellCheckerSession(final String s)
-    '''
-def open():
-    '''public synchronized void open()
+def ():
+    '''returns SpellCheckerSession\n\n
+    (final Dictionary[] array, final int n, final String str)\n
+    (final Dictionary[] array, final String s)\n
+    (final String s)\n
     '''
 def checkSpelling():
-    '''public List checkSpelling(final String text)
-    public synchronized List checkSpelling(final CharacterIterator characterIterator)
+    '''returns List\n\n
+    checkSpelling(final String text)\n
     '''
 def saveAddenda():
-    '''public void saveAddenda()
+    '''returns None\n\n
+    saveAddenda()\n
     '''
 def addWordToAddenda():
-    '''public void addWordToAddenda(final String s)
-    public void addWordToAddenda(final String[] array)
+    '''returns None\n\n
+    addWordToAddenda(final String s)\n
+    addWordToAddenda(final String[] array)\n
     '''
 def addWordToAddendaWithError():
-    '''public void addWordToAddendaWithError(final String s)
+    '''returns None\n\n
+    addWordToAddendaWithError(final String s)\n
     '''
 def ignoreWord():
-    '''public void ignoreWord(final String text)
+    '''returns None\n\n
+    ignoreWord(final String text)\n
     '''
 def removeWordFromAdenda():
-    '''public void removeWordFromAdenda(final String s)
+    '''returns None\n\n
+    removeWordFromAdenda(final String s)\n
     '''
 def dispose():
-    '''public void dispose()
-    '''
-def getMinExtSize():
-    '''public static int getMinExtSize()
-    '''
-def setMinExtSize():
-    '''public static void setMinExtSize(final int minExtSize)
+    '''returns None\n\n
+    dispose()\n
     '''
 def setCheckFirstWordOfSentence():
-    '''public void setCheckFirstWordOfSentence(final boolean checkFirstWordOfSentence)
+    '''returns None\n\n
+    setCheckFirstWordOfSentence(final boolean checkFirstWordOfSentence)\n
     '''
 def reset():
-    '''public void reset(final UniLexAnalyzer analyzer)
+    '''returns None\n\n
+    reset(final UniLexAnalyzer analyzer)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def createStd():
-    '''public void createStd(final int n, final int n2, final int n3, final GlossCollection collection)
+    '''returns None\n\n
+    createStd(final int n, final int n2, final int n3, final GlossCollection collection)\n
     '''
 def createBreakpoint():
-    '''public void createBreakpoint(final int n, final int n2, final int n3)
+    '''returns None\n\n
+    createBreakpoint(final int n, final int n2, final int n3)\n
     '''
 def createPunctuation():
-    '''public void createPunctuation(final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    createPunctuation(final int n, final int n2, final int n3, final int n4)\n
     '''
 def startGroup():
-    '''public int startGroup(final int n, final int n2, final int n3)
+    '''returns int\n\n
+    startGroup(final int n, final int n2, final int n3)\n
     '''
 def closeGroup():
-    '''public void closeGroup(final int n)
+    '''returns None\n\n
+    closeGroup(final int n)\n
     '''
 def fork():
-    '''public void fork()
+    '''returns None\n\n
+    fork()\n
     '''
 def addToFork():
-    '''public void addToFork()
+    '''returns None\n\n
+    addToFork()\n
     '''
 def mergeRoutes():
-    '''public void mergeRoutes(final int n)
+    '''returns None\n\n
+    mergeRoutes(final int n)\n
     '''
 def createUnknown():
-    '''public void createUnknown(final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    createUnknown(final int n, final int n2, final int n3, final int n4)\n
     '''
 def setCheckBOFA_FLAG_ALONE():
-    '''public void setCheckBOFA_FLAG_ALONE(final boolean checkBOFA_FLAG_ALONE)
+    '''returns None\n\n
+    setCheckBOFA_FLAG_ALONE(final boolean checkBOFA_FLAG_ALONE)\n
     '''
 def setCheckIsFirstWord():
-    '''public void setCheckIsFirstWord(final boolean checkIsFirstWord)
+    '''returns None\n\n
+    setCheckIsFirstWord(final boolean checkIsFirstWord)\n
     '''

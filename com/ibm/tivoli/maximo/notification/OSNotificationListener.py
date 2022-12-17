@@ -1,3 +1,4 @@
 def structureChanged():
-    '''public void structureChanged(final OSEvent osEvent)
+    '''returns None\n\n
+    structureChanged(final OSEvent osEvent)\n
     '''

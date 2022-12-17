@@ -1,115 +1,137 @@
-def FileBasedOmemoStore():
-    '''public FileBasedOmemoStore()
-    public FileBasedOmemoStore(final File basePath)
+def ():
+    '''returns FileBasedOmemoStore\n\n
+    ()\n
+    (final File basePath)\n
     '''
 def isFreshInstallation():
-    '''public boolean isFreshInstallation(final OmemoManager omemoManager)
+    '''returns boolean\n\n
+    isFreshInstallation(final OmemoManager omemoManager)\n
     '''
 def getDefaultDeviceId():
-    '''public int getDefaultDeviceId(final BareJid user)
+    '''returns int\n\n
+    getDefaultDeviceId(final BareJid user)\n
     '''
 def setDefaultDeviceId():
-    '''public void setDefaultDeviceId(final BareJid user, final int defaultDeviceId)
+    '''returns None\n\n
+    setDefaultDeviceId(final BareJid user, final int defaultDeviceId)\n
     '''
 def loadLastPreKeyId():
-    '''public int loadLastPreKeyId(final OmemoManager omemoManager)
+    '''returns int\n\n
+    loadLastPreKeyId(final OmemoManager omemoManager)\n
     '''
 def storeLastPreKeyId():
-    '''public void storeLastPreKeyId(final OmemoManager omemoManager, final int currentPreKeyId)
+    '''returns None\n\n
+    storeLastPreKeyId(final OmemoManager omemoManager, final int currentPreKeyId)\n
     '''
 def loadOmemoIdentityKeyPair():
-    '''public T_IdKeyPair loadOmemoIdentityKeyPair(final OmemoManager omemoManager)
+    '''returns T_IdKeyPair\n\n
+    loadOmemoIdentityKeyPair(final OmemoManager omemoManager)\n
     '''
 def storeOmemoIdentityKeyPair():
-    '''public void storeOmemoIdentityKeyPair(final OmemoManager omemoManager, final T_IdKeyPair identityKeyPair)
+    '''returns None\n\n
+    storeOmemoIdentityKeyPair(final OmemoManager omemoManager, final T_IdKeyPair identityKeyPair)\n
     '''
 def loadOmemoIdentityKey():
-    '''public T_IdKey loadOmemoIdentityKey(final OmemoManager omemoManager, final OmemoDevice device)
+    '''returns T_IdKey\n\n
+    loadOmemoIdentityKey(final OmemoManager omemoManager, final OmemoDevice device)\n
     '''
 def storeOmemoIdentityKey():
-    '''public void storeOmemoIdentityKey(final OmemoManager omemoManager, final OmemoDevice device, final T_IdKey t_idKey)
+    '''returns None\n\n
+    storeOmemoIdentityKey(final OmemoManager omemoManager, final OmemoDevice device, final T_IdKey t_idKey)\n
     '''
 def isTrustedOmemoIdentity():
-    '''public boolean isTrustedOmemoIdentity(final OmemoManager omemoManager, final OmemoDevice device, final OmemoFingerprint fingerprint)
+    '''returns boolean\n\n
+    isTrustedOmemoIdentity(final OmemoManager omemoManager, final OmemoDevice device, final OmemoFingerprint fingerprint)\n
     '''
 def isDecidedOmemoIdentity():
-    '''public boolean isDecidedOmemoIdentity(final OmemoManager omemoManager, final OmemoDevice device, final OmemoFingerprint fingerprint)
+    '''returns boolean\n\n
+    isDecidedOmemoIdentity(final OmemoManager omemoManager, final OmemoDevice device, final OmemoFingerprint fingerprint)\n
     '''
 def trustOmemoIdentity():
-    '''public void trustOmemoIdentity(final OmemoManager omemoManager, final OmemoDevice device, final OmemoFingerprint fingerprint)
+    '''returns None\n\n
+    trustOmemoIdentity(final OmemoManager omemoManager, final OmemoDevice device, final OmemoFingerprint fingerprint)\n
     '''
 def distrustOmemoIdentity():
-    '''public void distrustOmemoIdentity(final OmemoManager omemoManager, final OmemoDevice device, final OmemoFingerprint fingerprint)
+    '''returns None\n\n
+    distrustOmemoIdentity(final OmemoManager omemoManager, final OmemoDevice device, final OmemoFingerprint fingerprint)\n
     '''
 def setDateOfLastReceivedMessage():
-    '''public void setDateOfLastReceivedMessage(final OmemoManager omemoManager, final OmemoDevice from, final Date date)
+    '''returns None\n\n
+    setDateOfLastReceivedMessage(final OmemoManager omemoManager, final OmemoDevice from, final Date date)\n
     '''
 def getDateOfLastReceivedMessage():
-    '''public Date getDateOfLastReceivedMessage(final OmemoManager omemoManager, final OmemoDevice from)
+    '''returns Date\n\n
+    getDateOfLastReceivedMessage(final OmemoManager omemoManager, final OmemoDevice from)\n
     '''
 def setDateOfLastSignedPreKeyRenewal():
-    '''public void setDateOfLastSignedPreKeyRenewal(final OmemoManager omemoManager, final Date date)
+    '''returns None\n\n
+    setDateOfLastSignedPreKeyRenewal(final OmemoManager omemoManager, final Date date)\n
     '''
 def getDateOfLastSignedPreKeyRenewal():
-    '''public Date getDateOfLastSignedPreKeyRenewal(final OmemoManager omemoManager)
+    '''returns Date\n\n
+    getDateOfLastSignedPreKeyRenewal(final OmemoManager omemoManager)\n
     '''
 def loadOmemoPreKey():
-    '''public T_PreKey loadOmemoPreKey(final OmemoManager omemoManager, final int preKeyId)
+    '''returns T_PreKey\n\n
+    loadOmemoPreKey(final OmemoManager omemoManager, final int preKeyId)\n
     '''
 def storeOmemoPreKey():
-    '''public void storeOmemoPreKey(final OmemoManager omemoManager, final int preKeyId, final T_PreKey t_preKey)
+    '''returns None\n\n
+    storeOmemoPreKey(final OmemoManager omemoManager, final int preKeyId, final T_PreKey t_preKey)\n
     '''
 def removeOmemoPreKey():
-    '''public void removeOmemoPreKey(final OmemoManager omemoManager, final int preKeyId)
+    '''returns None\n\n
+    removeOmemoPreKey(final OmemoManager omemoManager, final int preKeyId)\n
     '''
 def loadCurrentSignedPreKeyId():
-    '''public int loadCurrentSignedPreKeyId(final OmemoManager omemoManager)
+    '''returns int\n\n
+    loadCurrentSignedPreKeyId(final OmemoManager omemoManager)\n
     '''
 def storeCurrentSignedPreKeyId():
-    '''public void storeCurrentSignedPreKeyId(final OmemoManager omemoManager, final int currentSignedPreKeyId)
-    '''
-def loadOmemoPreKeys():
-    '''public HashMap<Integer, T_PreKey> loadOmemoPreKeys(final OmemoManager omemoManager)
+    '''returns None\n\n
+    storeCurrentSignedPreKeyId(final OmemoManager omemoManager, final int currentSignedPreKeyId)\n
     '''
 def loadOmemoSignedPreKey():
-    '''public T_SigPreKey loadOmemoSignedPreKey(final OmemoManager omemoManager, final int signedPreKeyId)
-    '''
-def loadOmemoSignedPreKeys():
-    '''public HashMap<Integer, T_SigPreKey> loadOmemoSignedPreKeys(final OmemoManager omemoManager)
+    '''returns T_SigPreKey\n\n
+    loadOmemoSignedPreKey(final OmemoManager omemoManager, final int signedPreKeyId)\n
     '''
 def storeOmemoSignedPreKey():
-    '''public void storeOmemoSignedPreKey(final OmemoManager omemoManager, final int signedPreKeyId, final T_SigPreKey signedPreKey)
+    '''returns None\n\n
+    storeOmemoSignedPreKey(final OmemoManager omemoManager, final int signedPreKeyId, final T_SigPreKey signedPreKey)\n
     '''
 def removeOmemoSignedPreKey():
-    '''public void removeOmemoSignedPreKey(final OmemoManager omemoManager, final int signedPreKeyId)
+    '''returns None\n\n
+    removeOmemoSignedPreKey(final OmemoManager omemoManager, final int signedPreKeyId)\n
     '''
 def loadRawSession():
-    '''public T_Sess loadRawSession(final OmemoManager omemoManager, final OmemoDevice device)
-    '''
-def loadAllRawSessionsOf():
-    '''public HashMap<Integer, T_Sess> loadAllRawSessionsOf(final OmemoManager omemoManager, final BareJid contact)
+    '''returns T_Sess\n\n
+    loadRawSession(final OmemoManager omemoManager, final OmemoDevice device)\n
     '''
 def storeRawSession():
-    '''public void storeRawSession(final OmemoManager omemoManager, final OmemoDevice device, final T_Sess session)
+    '''returns None\n\n
+    storeRawSession(final OmemoManager omemoManager, final OmemoDevice device, final T_Sess session)\n
     '''
 def removeRawSession():
-    '''public void removeRawSession(final OmemoManager omemoManager, final OmemoDevice device)
+    '''returns None\n\n
+    removeRawSession(final OmemoManager omemoManager, final OmemoDevice device)\n
     '''
 def removeAllRawSessionsOf():
-    '''public void removeAllRawSessionsOf(final OmemoManager omemoManager, final BareJid contact)
+    '''returns None\n\n
+    removeAllRawSessionsOf(final OmemoManager omemoManager, final BareJid contact)\n
     '''
 def containsRawSession():
-    '''public boolean containsRawSession(final OmemoManager omemoManager, final OmemoDevice device)
+    '''returns boolean\n\n
+    containsRawSession(final OmemoManager omemoManager, final OmemoDevice device)\n
     '''
 def loadCachedDeviceList():
-    '''public CachedDeviceList loadCachedDeviceList(final OmemoManager omemoManager, final BareJid contact)
+    '''returns CachedDeviceList\n\n
+    loadCachedDeviceList(final OmemoManager omemoManager, final BareJid contact)\n
     '''
 def storeCachedDeviceList():
-    '''public void storeCachedDeviceList(final OmemoManager omemoManager, final BareJid contact, final CachedDeviceList deviceList)
+    '''returns None\n\n
+    storeCachedDeviceList(final OmemoManager omemoManager, final BareJid contact, final CachedDeviceList deviceList)\n
     '''
 def purgeOwnDeviceKeys():
-    '''public void purgeOwnDeviceKeys(final OmemoManager omemoManager)
-    '''
-def deleteDirectory():
-    '''public static void deleteDirectory(final File root)
+    '''returns None\n\n
+    purgeOwnDeviceKeys(final OmemoManager omemoManager)\n
     '''

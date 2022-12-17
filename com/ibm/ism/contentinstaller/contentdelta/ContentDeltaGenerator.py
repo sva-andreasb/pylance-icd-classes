@@ -1,6 +1,4 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
 def generate():
-    '''public void generate(final String previousContentPath, final String currentContentPath)
+    '''returns None\n\n
+    generate(final String previousContentPath, final String currentContentPath)\n
     '''

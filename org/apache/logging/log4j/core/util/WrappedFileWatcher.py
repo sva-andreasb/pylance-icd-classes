@@ -1,25 +1,33 @@
-def WrappedFileWatcher():
-    '''public WrappedFileWatcher(final FileWatcher watcher, final Configuration configuration, final Reconfigurable reconfigurable, final List<ConfigurationListener> configurationListeners, final long lastModifiedMillis)
-    public WrappedFileWatcher(final FileWatcher watcher)
+def ():
+    '''returns WrappedFileWatcher\n\n
+    (final FileWatcher watcher, final Configuration configuration, final Reconfigurable reconfigurable, final List<ConfigurationListener> configurationListeners, final long lastModifiedMillis)\n
+    (final FileWatcher watcher)\n
     '''
 def getLastModified():
-    '''public long getLastModified()
+    '''returns long\n\n
+    getLastModified()\n
     '''
 def fileModified():
-    '''public void fileModified(final File file)
+    '''returns None\n\n
+    fileModified(final File file)\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def getListeners():
-    '''public List<ConfigurationListener> getListeners()
+    '''returns List<ConfigurationListener>\n\n
+    getListeners()\n
     '''
 def modified():
-    '''public void modified()
+    '''returns None\n\n
+    modified()\n
     '''
 def watching():
-    '''public void watching(final Source source)
+    '''returns None\n\n
+    watching(final Source source)\n
     '''
 def newWatcher():
-    '''public Watcher newWatcher(final Reconfigurable reconfigurable, final List<ConfigurationListener> listeners, final long lastModifiedMillis)
+    '''returns Watcher\n\n
+    newWatcher(final Reconfigurable reconfigurable, final List<ConfigurationListener> listeners, final long lastModifiedMillis)\n
     '''

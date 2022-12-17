@@ -1,18 +1,20 @@
-def KerberosName():
-    '''public KerberosName(final String serviceName, final String hostName, final String realm)
-    '''
-def parse():
-    '''public static KerberosName parse(final String principalName)
+def ():
+    '''returns KerberosName\n\n
+    (final String serviceName, final String hostName, final String realm)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serviceName():
-    '''public String serviceName()
+    '''returns String\n\n
+    serviceName()\n
     '''
 def hostName():
-    '''public String hostName()
+    '''returns String\n\n
+    hostName()\n
     '''
 def realm():
-    '''public String realm()
+    '''returns String\n\n
+    realm()\n
     '''

@@ -1,67 +1,80 @@
-def newBuilder():
-    '''public static Builder newBuilder()
-    '''
-def createStrategy():
-    '''public static DirectWriteRolloverStrategy createStrategy(@PluginAttribute("maxFiles") final String maxFiles, @PluginAttribute("compressionLevel") final String compressionLevelStr, @PluginElement("Actions") final Action[] customActions, @PluginAttribute(value = "stopCustomActionsOnError", defaultBoolean = true) final boolean stopCustomActionsOnError, @PluginConfiguration final Configuration config)
-    '''
 def getCompressionLevel():
-    '''public int getCompressionLevel()
+    '''returns int\n\n
+    getCompressionLevel()\n
     '''
 def getCustomActions():
-    '''public List<Action> getCustomActions()
-    public Action[] getCustomActions()
+    '''returns Action[]\n\n
+    getCustomActions()\n
+    getCustomActions()\n
     '''
 def getMaxFiles():
-    '''public int getMaxFiles()
-    public String getMaxFiles()
+    '''returns String\n\n
+    getMaxFiles()\n
+    getMaxFiles()\n
     '''
 def isStopCustomActionsOnError():
-    '''public boolean isStopCustomActionsOnError()
-    public boolean isStopCustomActionsOnError()
+    '''returns boolean\n\n
+    isStopCustomActionsOnError()\n
+    isStopCustomActionsOnError()\n
     '''
 def getTempCompressedFilePattern():
-    '''public PatternProcessor getTempCompressedFilePattern()
-    public String getTempCompressedFilePattern()
+    '''returns String\n\n
+    getTempCompressedFilePattern()\n
+    getTempCompressedFilePattern()\n
     '''
 def getCurrentFileName():
-    '''public String getCurrentFileName(final RollingFileManager manager)
+    '''returns String\n\n
+    getCurrentFileName(final RollingFileManager manager)\n
     '''
 def clearCurrentFileName():
-    '''public void clearCurrentFileName()
+    '''returns None\n\n
+    clearCurrentFileName()\n
     '''
 def rollover():
-    '''public RolloverDescription rollover(final RollingFileManager manager)
+    '''returns RolloverDescription\n\n
+    rollover(final RollingFileManager manager)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def build():
-    '''public DirectWriteRolloverStrategy build()
+    '''returns DirectWriteRolloverStrategy\n\n
+    build()\n
     '''
 def withMaxFiles():
-    '''public Builder withMaxFiles(final String maxFiles)
+    '''returns Builder\n\n
+    withMaxFiles(final String maxFiles)\n
     '''
 def getCompressionLevelStr():
-    '''public String getCompressionLevelStr()
+    '''returns String\n\n
+    getCompressionLevelStr()\n
     '''
 def withCompressionLevelStr():
-    '''public Builder withCompressionLevelStr(final String compressionLevelStr)
+    '''returns Builder\n\n
+    withCompressionLevelStr(final String compressionLevelStr)\n
     '''
 def withCustomActions():
-    '''public Builder withCustomActions(final Action[] customActions)
+    '''returns Builder\n\n
+    withCustomActions(final Action[] customActions)\n
     '''
 def withStopCustomActionsOnError():
-    '''public Builder withStopCustomActionsOnError(final boolean stopCustomActionsOnError)
+    '''returns Builder\n\n
+    withStopCustomActionsOnError(final boolean stopCustomActionsOnError)\n
     '''
 def withTempCompressedFilePattern():
-    '''public Builder withTempCompressedFilePattern(final String tempCompressedFilePattern)
+    '''returns Builder\n\n
+    withTempCompressedFilePattern(final String tempCompressedFilePattern)\n
     '''
 def getConfig():
-    '''public Configuration getConfig()
+    '''returns Configuration\n\n
+    getConfig()\n
     '''
 def withConfig():
-    '''public Builder withConfig(final Configuration config)
+    '''returns Builder\n\n
+    withConfig(final Configuration config)\n
     '''

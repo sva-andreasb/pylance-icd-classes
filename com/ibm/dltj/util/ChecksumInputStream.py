@@ -1,20 +1,18 @@
-def ChecksumInputStream():
-    '''public ChecksumInputStream(final InputStream in)
+def ():
+    '''returns ChecksumInputStream\n\n
+    (final InputStream in)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b)
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b)\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(long n)
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns long\n\n
+    skip(long n)\n
     '''
 def getCheckSum():
-    '''public long getCheckSum()
+    '''returns long\n\n
+    getCheckSum()\n
     '''

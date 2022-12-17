@@ -1,12 +1,16 @@
-def PlusPFldReconTaskCompRuleName():
-    '''public PlusPFldReconTaskCompRuleName(final MboValue arg0)
+def ():
+    '''returns PlusPFldReconTaskCompRuleName\n\n
+    (final MboValue arg0)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

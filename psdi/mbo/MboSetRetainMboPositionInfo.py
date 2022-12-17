@@ -1,25 +1,28 @@
-def MboSetRetainMboPositionInfo():
-    '''public MboSetRetainMboPositionInfo(final String name)
+def ():
+    '''returns MboSetRetainMboPositionInfo\n\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOwner():
-    '''public MboSetRetainMboPositionInfo getOwner()
+    '''returns MboSetRetainMboPositionInfo\n\n
+    getOwner()\n
     '''
 def addRelationship():
-    '''public MboSetRetainMboPositionInfo addRelationship(final String relationshipName)
+    '''returns MboSetRetainMboPositionInfo\n\n
+    addRelationship(final String relationshipName)\n
     '''
 def removeRelationship():
-    '''public void removeRelationship(final String relationshipName)
+    '''returns None\n\n
+    removeRelationship(final String relationshipName)\n
     '''
 def getMboSetRetainMboPositionInfo():
-    '''public MboSetRetainMboPositionInfo getMboSetRetainMboPositionInfo(final String relationshipName)
-    public static MboSetRetainMboPositionInfo getMboSetRetainMboPositionInfo(final MboSetRemote mboSetRemote)
+    '''returns MboSetRetainMboPositionInfo\n\n
+    getMboSetRetainMboPositionInfo(final String relationshipName)\n
     '''
 def getRelations():
-    '''public Iterator<String> getRelations()
-    '''
-def createMboSetRetainMboPositionInfo():
-    '''public static MboSetRetainMboPositionInfo createMboSetRetainMboPositionInfo(final MboSetRemote mboSetRemote)
+    '''returns Iterator<String>\n\n
+    getRelations()\n
     '''

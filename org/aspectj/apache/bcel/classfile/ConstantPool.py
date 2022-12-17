@@ -1,119 +1,157 @@
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
-def ConstantPool():
-    '''public ConstantPool()
-    public ConstantPool(final Constant[] constants)
+def ():
+    '''returns ConstantPool\n\n
+    ()\n
+    (final Constant[] constants)\n
     '''
 def getConstant():
-    '''public Constant getConstant(final int index, final byte tag)
-    public Constant getConstant(final int index)
+    '''returns Constant\n\n
+    getConstant(final int index, final byte tag)\n
+    getConstant(final int index)\n
     '''
 def copy():
-    '''public ConstantPool copy()
+    '''returns ConstantPool\n\n
+    copy()\n
     '''
 def getConstantString():
-    '''public String getConstantString(final int index, final byte tag)
+    '''returns String\n\n
+    getConstantString(final int index, final byte tag)\n
     '''
 def constantToString():
-    '''public String constantToString(Constant c)
-    public String constantToString(final int index, final byte tag)
-    public String constantToString(final int index)
+    '''returns String\n\n
+    constantToString(Constant c)\n
+    constantToString(final int index, final byte tag)\n
+    constantToString(final int index)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''
 def getConstantPool():
-    '''public Constant[] getConstantPool()
+    '''returns Constant[]\n\n
+    getConstantPool()\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream file)
+    '''returns None\n\n
+    dump(final DataOutputStream file)\n
     '''
 def getConstantUtf8():
-    '''public ConstantUtf8 getConstantUtf8(final int index)
+    '''returns ConstantUtf8\n\n
+    getConstantUtf8(final int index)\n
     '''
 def getConstantString_CONSTANTClass():
-    '''public String getConstantString_CONSTANTClass(int index)
+    '''returns String\n\n
+    getConstantString_CONSTANTClass(int index)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def lookupInteger():
-    '''public int lookupInteger(final int n)
+    '''returns int\n\n
+    lookupInteger(final int n)\n
     '''
 def lookupUtf8():
-    '''public int lookupUtf8(final String string)
+    '''returns int\n\n
+    lookupUtf8(final String string)\n
     '''
 def lookupClass():
-    '''public int lookupClass(final String classname)
+    '''returns int\n\n
+    lookupClass(final String classname)\n
     '''
 def addUtf8():
-    '''public int addUtf8(final String n)
+    '''returns int\n\n
+    addUtf8(final String n)\n
     '''
 def addInteger():
-    '''public int addInteger(final int n)
+    '''returns int\n\n
+    addInteger(final int n)\n
     '''
 def addArrayClass():
-    '''public int addArrayClass(final ArrayType type)
+    '''returns int\n\n
+    addArrayClass(final ArrayType type)\n
     '''
 def addClass():
-    '''public int addClass(final ObjectType type)
-    public int addClass(final String classname)
+    '''returns int\n\n
+    addClass(final ObjectType type)\n
+    addClass(final String classname)\n
     '''
 def addFieldref():
-    '''public int addFieldref(final String class_name, final String field_name, final String signature)
+    '''returns int\n\n
+    addFieldref(final String class_name, final String field_name, final String signature)\n
     '''
 def lookupFieldref():
-    '''public int lookupFieldref(String searchClassname, final String searchFieldname, final String searchSignature)
+    '''returns int\n\n
+    lookupFieldref(String searchClassname, final String searchFieldname, final String searchSignature)\n
     '''
 def addNameAndType():
-    '''public int addNameAndType(final String name, final String signature)
+    '''returns int\n\n
+    addNameAndType(final String name, final String signature)\n
     '''
 def lookupNameAndType():
-    '''public int lookupNameAndType(final String searchName, final String searchTypeSignature)
+    '''returns int\n\n
+    lookupNameAndType(final String searchName, final String searchTypeSignature)\n
     '''
 def addFloat():
-    '''public int addFloat(final float f)
+    '''returns int\n\n
+    addFloat(final float f)\n
     '''
 def lookupFloat():
-    '''public int lookupFloat(final float f)
+    '''returns int\n\n
+    lookupFloat(final float f)\n
     '''
 def addDouble():
-    '''public int addDouble(final double d)
+    '''returns int\n\n
+    addDouble(final double d)\n
     '''
 def lookupDouble():
-    '''public int lookupDouble(final double d)
+    '''returns int\n\n
+    lookupDouble(final double d)\n
     '''
 def addLong():
-    '''public int addLong(final long l)
+    '''returns int\n\n
+    addLong(final long l)\n
     '''
 def lookupString():
-    '''public int lookupString(final String s)
+    '''returns int\n\n
+    lookupString(final String s)\n
     '''
 def addString():
-    '''public int addString(final String str)
+    '''returns int\n\n
+    addString(final String str)\n
     '''
 def lookupLong():
-    '''public int lookupLong(final long l)
+    '''returns int\n\n
+    lookupLong(final long l)\n
     '''
 def addConstant():
-    '''public int addConstant(final Constant c, final ConstantPool cp)
+    '''returns int\n\n
+    addConstant(final Constant c, final ConstantPool cp)\n
     '''
 def addMethodref():
-    '''public int addMethodref(final String class_name, final String method_name, final String signature)
+    '''returns int\n\n
+    addMethodref(final String class_name, final String method_name, final String signature)\n
     '''
 def addInterfaceMethodref():
-    '''public int addInterfaceMethodref(final String class_name, final String method_name, final String signature)
+    '''returns int\n\n
+    addInterfaceMethodref(final String class_name, final String method_name, final String signature)\n
     '''
 def lookupInterfaceMethodref():
-    '''public int lookupInterfaceMethodref(String searchClassname, final String searchMethodName, final String searchSignature)
+    '''returns int\n\n
+    lookupInterfaceMethodref(String searchClassname, final String searchMethodName, final String searchSignature)\n
     '''
 def lookupMethodref():
-    '''public int lookupMethodref(String searchClassname, final String searchMethodName, final String searchSignature)
+    '''returns int\n\n
+    lookupMethodref(String searchClassname, final String searchMethodName, final String searchSignature)\n
     '''
 def getFinalConstantPool():
-    '''public ConstantPool getFinalConstantPool()
+    '''returns ConstantPool\n\n
+    getFinalConstantPool()\n
     '''

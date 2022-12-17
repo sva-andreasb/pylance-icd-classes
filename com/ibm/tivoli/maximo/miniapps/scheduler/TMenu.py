@@ -1,9 +1,12 @@
-def TMenu():
-    '''public TMenu()
+def ():
+    '''returns TMenu\n\n
+    ()\n
     '''
 def newItem():
-    '''public TMenuItem newItem(final String title, final String actionName)
+    '''returns TMenuItem\n\n
+    newItem(final String title, final String actionName)\n
     '''
 def newSepartor():
-    '''public void newSepartor()
+    '''returns None\n\n
+    newSepartor()\n
     '''

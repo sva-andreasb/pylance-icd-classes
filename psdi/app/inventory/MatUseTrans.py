@@ -1,134 +1,178 @@
-def MatUseTrans():
-    '''public MatUseTrans(final MboSet ms)
+def ():
+    '''returns MatUseTrans\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getTotalQtyForReturn():
-    '''public double getTotalQtyForReturn()
+    '''returns double\n\n
+    getTotalQtyForReturn()\n
     '''
 def getQtyForReturn():
-    '''public double getQtyForReturn()
+    '''returns double\n\n
+    getQtyForReturn()\n
     '''
 def setQtyForReturn():
-    '''public void setQtyForReturn(final double qty)
+    '''returns None\n\n
+    setQtyForReturn(final double qty)\n
     '''
 def getIssueForThisReturn():
-    '''public MatUseTransRemote getIssueForThisReturn()
+    '''returns MatUseTransRemote\n\n
+    getIssueForThisReturn()\n
     '''
 def getTotalQty():
-    '''public double getTotalQty()
+    '''returns double\n\n
+    getTotalQty()\n
     '''
 def setTotalQtyForThisReturn():
-    '''public void setTotalQtyForThisReturn(final double qty)
+    '''returns None\n\n
+    setTotalQtyForThisReturn(final double qty)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getWO():
-    '''public MboRemote getWO()
+    '''returns MboRemote\n\n
+    getWO()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def createInvoiceOnConsumption():
-    '''public void createInvoiceOnConsumption()
+    '''returns None\n\n
+    createInvoiceOnConsumption()\n
     '''
 def getSharedInventory():
-    '''public MboRemote getSharedInventory()
+    '''returns MboRemote\n\n
+    getSharedInventory()\n
     '''
 def getSharedAssetSet():
-    '''public MboSetRemote getSharedAssetSet()
+    '''returns MboSetRemote\n\n
+    getSharedAssetSet()\n
     '''
 def getSharedInvBalance():
-    '''public MboRemote getSharedInvBalance()
+    '''returns MboRemote\n\n
+    getSharedInvBalance()\n
     '''
 def getInvBalancesRecord():
-    '''public MboRemote getInvBalancesRecord(final MboRemote inventory)
+    '''returns MboRemote\n\n
+    getInvBalancesRecord(final MboRemote inventory)\n
     '''
 def setIgnoreLocationAssetMismatch():
-    '''public void setIgnoreLocationAssetMismatch(final boolean value)
+    '''returns None\n\n
+    setIgnoreLocationAssetMismatch(final boolean value)\n
     '''
 def setIgnoreLocationOccupied():
-    '''public void setIgnoreLocationOccupied(final boolean value)
+    '''returns None\n\n
+    setIgnoreLocationOccupied(final boolean value)\n
     '''
 def setUpdateWorkOrdersOnMoveAsset():
-    '''public void setUpdateWorkOrdersOnMoveAsset(final boolean value)
+    '''returns None\n\n
+    setUpdateWorkOrdersOnMoveAsset(final boolean value)\n
     '''
 def getSharedInvReserveSet():
-    '''public MboSetRemote getSharedInvReserveSet()
+    '''returns MboSetRemote\n\n
+    getSharedInvReserveSet()\n
     '''
 def canBeReturned():
-    '''public boolean canBeReturned()
+    '''returns boolean\n\n
+    canBeReturned()\n
     '''
 def returnIssue():
-    '''public MboRemote returnIssue(final String bin, final String lot, final double qty)
-    public MboRemote returnIssue()
-    public MboRemote returnIssue(final MboSetRemote newMatUseSet)
+    '''returns MboRemote\n\n
+    returnIssue(final String bin, final String lot, final double qty)\n
+    returnIssue()\n
+    returnIssue(final MboSetRemote newMatUseSet)\n
     '''
 def setIssueForThisReturn():
-    '''public void setIssueForThisReturn(final MboRemote issue)
+    '''returns None\n\n
+    setIssueForThisReturn(final MboRemote issue)\n
     '''
 def setRotatingAssetnum():
-    '''public void setRotatingAssetnum(final String rotAssetnum)
+    '''returns None\n\n
+    setRotatingAssetnum(final String rotAssetnum)\n
     '''
 def isReturn():
-    '''public boolean isReturn()
+    '''returns boolean\n\n
+    isReturn()\n
     '''
 def isIssue():
-    '''public boolean isIssue()
+    '''returns boolean\n\n
+    isIssue()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def isUncommitted():
-    '''public boolean isUncommitted()
+    '''returns boolean\n\n
+    isUncommitted()\n
     '''
 def setUncommitted():
-    '''public void setUncommitted(final boolean uncommitted)
+    '''returns None\n\n
+    setUncommitted(final boolean uncommitted)\n
     '''
 def setSharedInvBalancesUpdatedFlag():
-    '''public void setSharedInvBalancesUpdatedFlag(final boolean updated)
+    '''returns None\n\n
+    setSharedInvBalancesUpdatedFlag(final boolean updated)\n
     '''
 def setInvReserveUpdatedFlag():
-    '''public void setInvReserveUpdatedFlag(final boolean updated)
+    '''returns None\n\n
+    setInvReserveUpdatedFlag(final boolean updated)\n
     '''
 def setCheckNegBalanceFlag():
-    '''public void setCheckNegBalanceFlag(final boolean flag)
+    '''returns None\n\n
+    setCheckNegBalanceFlag(final boolean flag)\n
     '''
 def createMatUseTransRecordforLifoFifo():
-    '''public void createMatUseTransRecordforLifoFifo(final MboRemote inv)
+    '''returns None\n\n
+    createMatUseTransRecordforLifoFifo(final MboRemote inv)\n
     '''
 def setWorkOrderUpdatedFlag():
-    '''public void setWorkOrderUpdatedFlag(final boolean updated)
+    '''returns None\n\n
+    setWorkOrderUpdatedFlag(final boolean updated)\n
     '''
 def getInvReserveInVector():
-    '''public InvReserveRemote getInvReserveInVector(final Vector v, final MboRemote thisInvReserve)
+    '''returns InvReserveRemote\n\n
+    getInvReserveInVector(final Vector v, final MboRemote thisInvReserve)\n
     '''
 def isInvoice():
-    '''public boolean isInvoice()
+    '''returns boolean\n\n
+    isInvoice()\n
     '''
 def isVoidReceipt():
-    '''public boolean isVoidReceipt()
+    '''returns boolean\n\n
+    isVoidReceipt()\n
     '''
 def storeTheLifoFifoUpdated():
-    '''public void storeTheLifoFifoUpdated(final Hashtable lifofifoHash, final String invlifofifoID, final MboRemote invlifofifocost)
+    '''returns None\n\n
+    storeTheLifoFifoUpdated(final Hashtable lifofifoHash, final String invlifofifoID, final MboRemote invlifofifocost)\n
     '''
 def isReceipt():
-    '''public boolean isReceipt()
+    '''returns boolean\n\n
+    isReceipt()\n
     '''
 def getPossibleInvLifofo():
-    '''public MboRemote getPossibleInvLifofo()
+    '''returns MboRemote\n\n
+    getPossibleInvLifofo()\n
     '''

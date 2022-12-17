@@ -11,74 +11,88 @@ PROXY_AUTH_STATE = "String  \"http.auth.proxy-scope\""
 USER_TOKEN = "String  \"http.user-token\""
 AUTHSCHEME_REGISTRY = "String  \"http.authscheme-registry\""
 REQUEST_CONFIG = "String  \"http.request-config\""
-def adapt():
-    '''public static HttpClientContext adapt(final HttpContext context)
-    '''
-def create():
-    '''public static HttpClientContext create()
-    '''
-def HttpClientContext():
-    '''public HttpClientContext(final HttpContext context)
-    public HttpClientContext()
+def ():
+    '''returns HttpClientContext\n\n
+    (final HttpContext context)\n
+    ()\n
     '''
 def getHttpRoute():
-    '''public RouteInfo getHttpRoute()
+    '''returns RouteInfo\n\n
+    getHttpRoute()\n
     '''
 def getRedirectLocations():
-    '''public List<URI> getRedirectLocations()
+    '''returns List<URI>\n\n
+    getRedirectLocations()\n
     '''
 def getCookieStore():
-    '''public CookieStore getCookieStore()
+    '''returns CookieStore\n\n
+    getCookieStore()\n
     '''
 def setCookieStore():
-    '''public void setCookieStore(final CookieStore cookieStore)
+    '''returns None\n\n
+    setCookieStore(final CookieStore cookieStore)\n
     '''
 def getCookieSpec():
-    '''public CookieSpec getCookieSpec()
+    '''returns CookieSpec\n\n
+    getCookieSpec()\n
     '''
 def getCookieOrigin():
-    '''public CookieOrigin getCookieOrigin()
+    '''returns CookieOrigin\n\n
+    getCookieOrigin()\n
     '''
 def getCookieSpecRegistry():
-    '''public Lookup<CookieSpecProvider> getCookieSpecRegistry()
+    '''returns Lookup<CookieSpecProvider>\n\n
+    getCookieSpecRegistry()\n
     '''
 def setCookieSpecRegistry():
-    '''public void setCookieSpecRegistry(final Lookup<CookieSpecProvider> lookup)
+    '''returns None\n\n
+    setCookieSpecRegistry(final Lookup<CookieSpecProvider> lookup)\n
     '''
 def getAuthSchemeRegistry():
-    '''public Lookup<AuthSchemeProvider> getAuthSchemeRegistry()
+    '''returns Lookup<AuthSchemeProvider>\n\n
+    getAuthSchemeRegistry()\n
     '''
 def setAuthSchemeRegistry():
-    '''public void setAuthSchemeRegistry(final Lookup<AuthSchemeProvider> lookup)
+    '''returns None\n\n
+    setAuthSchemeRegistry(final Lookup<AuthSchemeProvider> lookup)\n
     '''
 def getCredentialsProvider():
-    '''public CredentialsProvider getCredentialsProvider()
+    '''returns CredentialsProvider\n\n
+    getCredentialsProvider()\n
     '''
 def setCredentialsProvider():
-    '''public void setCredentialsProvider(final CredentialsProvider credentialsProvider)
+    '''returns None\n\n
+    setCredentialsProvider(final CredentialsProvider credentialsProvider)\n
     '''
 def getAuthCache():
-    '''public AuthCache getAuthCache()
+    '''returns AuthCache\n\n
+    getAuthCache()\n
     '''
 def setAuthCache():
-    '''public void setAuthCache(final AuthCache authCache)
+    '''returns None\n\n
+    setAuthCache(final AuthCache authCache)\n
     '''
 def getTargetAuthState():
-    '''public AuthState getTargetAuthState()
+    '''returns AuthState\n\n
+    getTargetAuthState()\n
     '''
 def getProxyAuthState():
-    '''public AuthState getProxyAuthState()
+    '''returns AuthState\n\n
+    getProxyAuthState()\n
     '''
 def getUserToken():
-    '''public <T> T getUserToken(final Class<T> clazz)
-    public Object getUserToken()
+    '''returns Object\n\n
+    getUserToken()\n
     '''
 def setUserToken():
-    '''public void setUserToken(final Object obj)
+    '''returns None\n\n
+    setUserToken(final Object obj)\n
     '''
 def getRequestConfig():
-    '''public RequestConfig getRequestConfig()
+    '''returns RequestConfig\n\n
+    getRequestConfig()\n
     '''
 def setRequestConfig():
-    '''public void setRequestConfig(final RequestConfig config)
+    '''returns None\n\n
+    setRequestConfig(final RequestConfig config)\n
     '''

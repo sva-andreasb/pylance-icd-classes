@@ -1,6 +1,8 @@
-def CommissioningLogger():
-    '''public CommissioningLogger(final UserInfo userInfo, final long commissionId, final String messageBundleName)
+def ():
+    '''returns CommissioningLogger\n\n
+    (final UserInfo userInfo, final long commissionId, final String messageBundleName)\n
     '''
 def itemOfIntersetLoaded():
-    '''public void itemOfIntersetLoaded(final ItemBase facility)
+    '''returns None\n\n
+    itemOfIntersetLoaded(final ItemBase facility)\n
     '''

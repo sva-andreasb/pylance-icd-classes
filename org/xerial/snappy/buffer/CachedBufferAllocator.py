@@ -1,21 +1,16 @@
-def setBufferAllocatorFactory():
-    '''public static void setBufferAllocatorFactory(final BufferAllocatorFactory factory)
-    '''
-def getBufferAllocatorFactory():
-    '''public static BufferAllocatorFactory getBufferAllocatorFactory()
-    '''
-def CachedBufferAllocator():
-    '''public CachedBufferAllocator(final int bufferSize)
-    '''
-def getAllocator():
-    '''public static synchronized CachedBufferAllocator getAllocator(final int i)
+def ():
+    '''returns CachedBufferAllocator\n\n
+    (final int bufferSize)\n
     '''
 def allocate():
-    '''public byte[] allocate(final int n)
+    '''returns byte[]\n\n
+    allocate(final int n)\n
     '''
 def release():
-    '''public void release(final byte[] array)
+    '''returns None\n\n
+    release(final byte[] array)\n
     '''
 def getBufferAllocator():
-    '''public BufferAllocator getBufferAllocator(final int n)
+    '''returns BufferAllocator\n\n
+    getBufferAllocator(final int n)\n
     '''

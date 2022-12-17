@@ -1,6 +1,8 @@
 def getAttributes():
-    '''public Hashtable getAttributes()
+    '''returns Hashtable\n\n
+    getAttributes()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

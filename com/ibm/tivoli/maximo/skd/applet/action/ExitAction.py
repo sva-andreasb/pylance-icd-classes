@@ -1,6 +1,8 @@
-def ExitAction():
-    '''public ExitAction()
+def ():
+    '''returns ExitAction\n\n
+    ()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent event)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent event)\n
     '''

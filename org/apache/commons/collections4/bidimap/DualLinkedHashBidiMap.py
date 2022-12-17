@@ -1,4 +1,5 @@
-def DualLinkedHashBidiMap():
-    '''public DualLinkedHashBidiMap()
-    public DualLinkedHashBidiMap(final Map<? extends K, ? extends V> map)
+def ():
+    '''returns DualLinkedHashBidiMap\n\n
+    ()\n
+    (final Map<? extends K, ? extends V> map)\n
     '''

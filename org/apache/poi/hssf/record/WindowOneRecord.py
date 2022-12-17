@@ -1,98 +1,130 @@
 sid = "short  61"
-def WindowOneRecord():
-    '''public WindowOneRecord()
-    public WindowOneRecord(final RecordInputStream in)
+def ():
+    '''returns WindowOneRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setHorizontalHold():
-    '''public void setHorizontalHold(final short h)
+    '''returns None\n\n
+    setHorizontalHold(final short h)\n
     '''
 def setVerticalHold():
-    '''public void setVerticalHold(final short v)
+    '''returns None\n\n
+    setVerticalHold(final short v)\n
     '''
 def setWidth():
-    '''public void setWidth(final short w)
+    '''returns None\n\n
+    setWidth(final short w)\n
     '''
 def setHeight():
-    '''public void setHeight(final short h)
+    '''returns None\n\n
+    setHeight(final short h)\n
     '''
 def setOptions():
-    '''public void setOptions(final short o)
+    '''returns None\n\n
+    setOptions(final short o)\n
     '''
 def setHidden():
-    '''public void setHidden(final boolean ishidden)
+    '''returns None\n\n
+    setHidden(final boolean ishidden)\n
     '''
 def setIconic():
-    '''public void setIconic(final boolean isiconic)
+    '''returns None\n\n
+    setIconic(final boolean isiconic)\n
     '''
 def setDisplayHorizonalScrollbar():
-    '''public void setDisplayHorizonalScrollbar(final boolean scroll)
+    '''returns None\n\n
+    setDisplayHorizonalScrollbar(final boolean scroll)\n
     '''
 def setDisplayVerticalScrollbar():
-    '''public void setDisplayVerticalScrollbar(final boolean scroll)
+    '''returns None\n\n
+    setDisplayVerticalScrollbar(final boolean scroll)\n
     '''
 def setDisplayTabs():
-    '''public void setDisplayTabs(final boolean disptabs)
+    '''returns None\n\n
+    setDisplayTabs(final boolean disptabs)\n
     '''
 def setActiveSheetIndex():
-    '''public void setActiveSheetIndex(final int index)
+    '''returns None\n\n
+    setActiveSheetIndex(final int index)\n
     '''
 def setFirstVisibleTab():
-    '''public void setFirstVisibleTab(final int t)
+    '''returns None\n\n
+    setFirstVisibleTab(final int t)\n
     '''
 def setNumSelectedTabs():
-    '''public void setNumSelectedTabs(final short n)
+    '''returns None\n\n
+    setNumSelectedTabs(final short n)\n
     '''
 def setTabWidthRatio():
-    '''public void setTabWidthRatio(final short r)
+    '''returns None\n\n
+    setTabWidthRatio(final short r)\n
     '''
 def getHorizontalHold():
-    '''public short getHorizontalHold()
+    '''returns short\n\n
+    getHorizontalHold()\n
     '''
 def getVerticalHold():
-    '''public short getVerticalHold()
+    '''returns short\n\n
+    getVerticalHold()\n
     '''
 def getWidth():
-    '''public short getWidth()
+    '''returns short\n\n
+    getWidth()\n
     '''
 def getHeight():
-    '''public short getHeight()
+    '''returns short\n\n
+    getHeight()\n
     '''
 def getOptions():
-    '''public short getOptions()
+    '''returns short\n\n
+    getOptions()\n
     '''
 def getHidden():
-    '''public boolean getHidden()
+    '''returns boolean\n\n
+    getHidden()\n
     '''
 def getIconic():
-    '''public boolean getIconic()
+    '''returns boolean\n\n
+    getIconic()\n
     '''
 def getDisplayHorizontalScrollbar():
-    '''public boolean getDisplayHorizontalScrollbar()
+    '''returns boolean\n\n
+    getDisplayHorizontalScrollbar()\n
     '''
 def getDisplayVerticalScrollbar():
-    '''public boolean getDisplayVerticalScrollbar()
+    '''returns boolean\n\n
+    getDisplayVerticalScrollbar()\n
     '''
 def getDisplayTabs():
-    '''public boolean getDisplayTabs()
+    '''returns boolean\n\n
+    getDisplayTabs()\n
     '''
 def getActiveSheetIndex():
-    '''public int getActiveSheetIndex()
+    '''returns int\n\n
+    getActiveSheetIndex()\n
     '''
 def getFirstVisibleTab():
-    '''public int getFirstVisibleTab()
+    '''returns int\n\n
+    getFirstVisibleTab()\n
     '''
 def getNumSelectedTabs():
-    '''public short getNumSelectedTabs()
+    '''returns short\n\n
+    getNumSelectedTabs()\n
     '''
 def getTabWidthRatio():
-    '''public short getTabWidthRatio()
+    '''returns short\n\n
+    getTabWidthRatio()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

@@ -1,12 +1,16 @@
-def HttpClientManager():
-    '''public HttpClientManager(final long n)
+def ():
+    '''returns HttpClientManager\n\n
+    (final long n)\n
     '''
 def clearServerInfo():
-    '''public void clearServerInfo()
+    '''returns None\n\n
+    clearServerInfo()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

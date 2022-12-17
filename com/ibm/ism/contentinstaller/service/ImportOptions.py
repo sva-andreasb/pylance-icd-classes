@@ -1,51 +1,64 @@
-def ImportOptions():
-    '''public ImportOptions()
-    '''
-def getColumnValueReplacements():
-    '''public Map<String, String> getColumnValueReplacements()
+def ():
+    '''returns ImportOptions\n\n
+    ()\n
     '''
 def addColumnValueReplacements():
-    '''public void addColumnValueReplacements(final Map<String, String> newColumnValueReplacements)
+    '''returns None\n\n
+    addColumnValueReplacements(final Map<String, String> newColumnValueReplacements)\n
     '''
 def isNoXmlValidate():
-    '''public boolean isNoXmlValidate()
+    '''returns boolean\n\n
+    isNoXmlValidate()\n
     '''
 def setNoXmlValidate():
-    '''public void setNoXmlValidate(final boolean noXmlValidate)
+    '''returns None\n\n
+    setNoXmlValidate(final boolean noXmlValidate)\n
     '''
 def isValidateOnly():
-    '''public boolean isValidateOnly()
+    '''returns boolean\n\n
+    isValidateOnly()\n
     '''
 def setValidateOnly():
-    '''public void setValidateOnly(final boolean validateOnly)
+    '''returns None\n\n
+    setValidateOnly(final boolean validateOnly)\n
     '''
 def isDisableUpdates():
-    '''public boolean isDisableUpdates()
+    '''returns boolean\n\n
+    isDisableUpdates()\n
     '''
 def setDisableUpdates():
-    '''public void setDisableUpdates(final boolean disableUpdates)
+    '''returns None\n\n
+    setDisableUpdates(final boolean disableUpdates)\n
     '''
 def isContinueOnError():
-    '''public boolean isContinueOnError()
+    '''returns boolean\n\n
+    isContinueOnError()\n
     '''
 def setContinueOnError():
-    '''public void setContinueOnError(final boolean continueOnError)
+    '''returns None\n\n
+    setContinueOnError(final boolean continueOnError)\n
     '''
 def isUseKeyColumnsForUpdates():
-    '''public boolean isUseKeyColumnsForUpdates()
+    '''returns boolean\n\n
+    isUseKeyColumnsForUpdates()\n
     '''
 def setUseKeyColumns():
-    '''public void setUseKeyColumns(final boolean useKeyColumnsForUpdates)
+    '''returns None\n\n
+    setUseKeyColumns(final boolean useKeyColumnsForUpdates)\n
     '''
 def isVerbose():
-    '''public boolean isVerbose()
+    '''returns boolean\n\n
+    isVerbose()\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean verbose)
+    '''returns None\n\n
+    setVerbose(final boolean verbose)\n
     '''
 def getShiftDate():
-    '''public int getShiftDate()
+    '''returns int\n\n
+    getShiftDate()\n
     '''
 def setShiftDate():
-    '''public void setShiftDate(final int shiftDate)
+    '''returns None\n\n
+    setShiftDate(final int shiftDate)\n
     '''

@@ -1,94 +1,122 @@
-def AlphabeticIndex():
-    '''public AlphabeticIndex(final ULocale locale)
-    public AlphabeticIndex(final Locale locale)
-    public AlphabeticIndex(final RuleBasedCollator collator)
+def ():
+    '''returns AlphabeticIndex\n\n
+    (final ULocale locale)\n
+    (final Locale locale)\n
+    (final RuleBasedCollator collator)\n
     '''
 def compare():
-    '''public int compare(final Record<V> o1, final Record<V> o2)
+    '''returns int\n\n
+    compare(final Record<V> o1, final Record<V> o2)\n
     '''
 def addLabels():
-    '''public AlphabeticIndex<V> addLabels(final UnicodeSet additions)
-    public AlphabeticIndex<V> addLabels(final ULocale... additions)
-    public AlphabeticIndex<V> addLabels(final Locale... additions)
+    '''returns AlphabeticIndex<V>\n\n
+    addLabels(final UnicodeSet additions)\n
+    addLabels(final ULocale... additions)\n
+    addLabels(final Locale... additions)\n
     '''
 def setOverflowLabel():
-    '''public AlphabeticIndex<V> setOverflowLabel(final String overflowLabel)
+    '''returns AlphabeticIndex<V>\n\n
+    setOverflowLabel(final String overflowLabel)\n
     '''
 def getUnderflowLabel():
-    '''public String getUnderflowLabel()
+    '''returns String\n\n
+    getUnderflowLabel()\n
     '''
 def setUnderflowLabel():
-    '''public AlphabeticIndex<V> setUnderflowLabel(final String underflowLabel)
+    '''returns AlphabeticIndex<V>\n\n
+    setUnderflowLabel(final String underflowLabel)\n
     '''
 def getOverflowLabel():
-    '''public String getOverflowLabel()
+    '''returns String\n\n
+    getOverflowLabel()\n
     '''
 def setInflowLabel():
-    '''public AlphabeticIndex<V> setInflowLabel(final String inflowLabel)
+    '''returns AlphabeticIndex<V>\n\n
+    setInflowLabel(final String inflowLabel)\n
     '''
 def getInflowLabel():
-    '''public String getInflowLabel()
+    '''returns String\n\n
+    getInflowLabel()\n
     '''
 def getMaxLabelCount():
-    '''public int getMaxLabelCount()
+    '''returns int\n\n
+    getMaxLabelCount()\n
     '''
 def setMaxLabelCount():
-    '''public AlphabeticIndex<V> setMaxLabelCount(final int maxLabelCount)
+    '''returns AlphabeticIndex<V>\n\n
+    setMaxLabelCount(final int maxLabelCount)\n
     '''
 def buildImmutableIndex():
-    '''public ImmutableIndex<V> buildImmutableIndex()
+    '''returns ImmutableIndex<V>\n\n
+    buildImmutableIndex()\n
     '''
 def getBucketLabels():
-    '''public List<String> getBucketLabels()
+    '''returns List<String>\n\n
+    getBucketLabels()\n
     '''
 def getCollator():
-    '''public RuleBasedCollator getCollator()
+    '''returns RuleBasedCollator\n\n
+    getCollator()\n
     '''
 def addRecord():
-    '''public AlphabeticIndex<V> addRecord(final CharSequence name, final V data)
+    '''returns AlphabeticIndex<V>\n\n
+    addRecord(final CharSequence name, final V data)\n
     '''
 def getBucketIndex():
-    '''public int getBucketIndex(final CharSequence name)
-    public int getBucketIndex(final CharSequence name)
+    '''returns int\n\n
+    getBucketIndex(final CharSequence name)\n
+    getBucketIndex(final CharSequence name)\n
     '''
 def clearRecords():
-    '''public AlphabeticIndex<V> clearRecords()
+    '''returns AlphabeticIndex<V>\n\n
+    clearRecords()\n
     '''
 def getBucketCount():
-    '''public int getBucketCount()
-    public int getBucketCount()
+    '''returns int\n\n
+    getBucketCount()\n
+    getBucketCount()\n
     '''
 def getRecordCount():
-    '''public int getRecordCount()
+    '''returns int\n\n
+    getRecordCount()\n
     '''
 def iterator():
-    '''public Iterator<Bucket<V>> iterator()
-    public Iterator<Bucket<V>> iterator()
-    public Iterator<Record<V>> iterator()
-    public Iterator<Bucket<V>> iterator()
+    '''returns Iterator<Bucket<V>>\n\n
+    iterator()\n
+    iterator()\n
+    iterator()\n
+    iterator()\n
     '''
 def getFirstCharactersInScripts():
-    '''public List<String> getFirstCharactersInScripts()
+    '''returns List<String>\n\n
+    getFirstCharactersInScripts()\n
     '''
 def getBucket():
-    '''public Bucket<V> getBucket(final int index)
+    '''returns Bucket<V>\n\n
+    getBucket(final int index)\n
     '''
 def getName():
-    '''public CharSequence getName()
+    '''returns CharSequence\n\n
+    getName()\n
     '''
 def getData():
-    '''public V getData()
+    '''returns V\n\n
+    getData()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getLabelType():
-    '''public LabelType getLabelType()
+    '''returns LabelType\n\n
+    getLabelType()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

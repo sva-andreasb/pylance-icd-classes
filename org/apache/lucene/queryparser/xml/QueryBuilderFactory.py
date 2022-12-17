@@ -1,12 +1,16 @@
-def QueryBuilderFactory():
-    '''public QueryBuilderFactory()
+def ():
+    '''returns QueryBuilderFactory\n\n
+    ()\n
     '''
 def getQuery():
-    '''public Query getQuery(final Element n)
+    '''returns Query\n\n
+    getQuery(final Element n)\n
     '''
 def addBuilder():
-    '''public void addBuilder(final String nodeName, final QueryBuilder builder)
+    '''returns None\n\n
+    addBuilder(final String nodeName, final QueryBuilder builder)\n
     '''
 def getQueryBuilder():
-    '''public QueryBuilder getQueryBuilder(final String nodeName)
+    '''returns QueryBuilder\n\n
+    getQueryBuilder(final String nodeName)\n
     '''

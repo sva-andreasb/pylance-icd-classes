@@ -1,36 +1,46 @@
-def SimpleReifierFragmentsMap():
-    '''public SimpleReifierFragmentsMap()
+def ():
+    '''returns SimpleReifierFragmentsMap\n\n
+    ()\n
     '''
 def clashesWith():
-    '''public boolean clashesWith(final ReifierFragmentsMap map, final Node n, final Triple reified)
-    public boolean clashesWith(final ReifierFragmentsMap map, final Node n, final Triple reified)
-    public boolean clashesWith(final ReifierFragmentsMap map, final Node n, final Triple reified)
-    public boolean clashesWith(final ReifierFragmentsMap map, final Node n, final Triple reified)
+    '''returns boolean\n\n
+    clashesWith(final ReifierFragmentsMap map, final Node n, final Triple reified)\n
+    clashesWith(final ReifierFragmentsMap map, final Node n, final Triple reified)\n
+    clashesWith(final ReifierFragmentsMap map, final Node n, final Triple reified)\n
+    clashesWith(final ReifierFragmentsMap map, final Node n, final Triple reified)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def fill():
-    '''public void fill(final GraphAdd ga, final Node n, final Fragments fragmentsObject)
+    '''returns None\n\n
+    fill(final GraphAdd ga, final Node n, final Fragments fragmentsObject)\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final TripleMatch m)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final TripleMatch m)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getFragmentHandler():
-    '''public ReifierFragmentHandler getFragmentHandler(final Triple t)
+    '''returns ReifierFragmentHandler\n\n
+    getFragmentHandler(final Triple t)\n
     '''
 def putAugmentedTriple():
-    '''public void putAugmentedTriple(final SimpleReifierFragmentHandler s, final Node tag, final Node object, final Triple reified)
+    '''returns None\n\n
+    putAugmentedTriple(final SimpleReifierFragmentHandler s, final Node tag, final Node object, final Triple reified)\n
     '''
 def hasFragments():
-    '''public boolean hasFragments(final Node tag)
+    '''returns boolean\n\n
+    hasFragments(final Node tag)\n
     '''
 def get():
-    '''public Set<Node> get(final Fragments f)
-    public Set<Node> get(final Fragments f)
-    public Set<Node> get(final Fragments f)
-    public Set<Node> get(final Fragments f)
+    '''returns Set<Node>\n\n
+    get(final Fragments f)\n
+    get(final Fragments f)\n
+    get(final Fragments f)\n
+    get(final Fragments f)\n
     '''

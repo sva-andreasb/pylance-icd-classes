@@ -1,24 +1,32 @@
-def OmpImRel():
-    '''public OmpImRel(final MboSet ms)
+def ():
+    '''returns OmpImRel\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote newSet)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote newSet)\n
     '''

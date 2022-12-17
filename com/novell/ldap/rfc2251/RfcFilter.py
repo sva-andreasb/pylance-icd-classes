@@ -11,73 +11,62 @@ EXTENSIBLE_MATCH = "int  9"
 INITIAL = "int  0"
 ANY = "int  1"
 FINAL = "int  2"
-def RfcFilter():
-    '''public RfcFilter(final String s)
-    public RfcFilter()
+def ():
+    '''returns FilterIterator\n\n
+    (final String s)\n
+    ()\n
+    (final String filter)\n
+    (final ASN1Tagged root)\n
     '''
 def startSubstrings():
-    '''public void startSubstrings(final String s)
+    '''returns None\n\n
+    startSubstrings(final String s)\n
     '''
 def addSubstring():
-    '''public void addSubstring(final int n, final byte[] array)
+    '''returns None\n\n
+    addSubstring(final int n, final byte[] array)\n
     '''
 def endSubstrings():
-    '''public void endSubstrings()
+    '''returns None\n\n
+    endSubstrings()\n
     '''
 def addAttributeValueAssertion():
-    '''public void addAttributeValueAssertion(final int n, final String s, final byte[] array)
+    '''returns None\n\n
+    addAttributeValueAssertion(final int n, final String s, final byte[] array)\n
     '''
 def addPresent():
-    '''public void addPresent(final String s)
+    '''returns None\n\n
+    addPresent(final String s)\n
     '''
 def addExtensibleMatch():
-    '''public void addExtensibleMatch(final String s, final String s2, final byte[] array, final boolean b)
+    '''returns None\n\n
+    addExtensibleMatch(final String s, final String s2, final byte[] array, final boolean b)\n
     '''
 def startNestedFilter():
-    '''public void startNestedFilter(final int n)
+    '''returns None\n\n
+    startNestedFilter(final int n)\n
     '''
 def endNestedFilter():
-    '''public void endNestedFilter(final int n)
+    '''returns None\n\n
+    endNestedFilter(final int n)\n
     '''
 def getFilterIterator():
-    '''public Iterator getFilterIterator()
+    '''returns Iterator\n\n
+    getFilterIterator()\n
     '''
 def filterToString():
-    '''public String filterToString()
-    '''
-def FilterTokenizer():
-    '''public FilterTokenizer(final String filter)
-    '''
-def getLeftParen():
-    '''public final void getLeftParen()
-    '''
-def getRightParen():
-    '''public final void getRightParen()
-    '''
-def getOpOrAttr():
-    '''public final int getOpOrAttr()
-    '''
-def getFilterType():
-    '''public final int getFilterType()
-    '''
-def getValue():
-    '''public final String getValue()
-    '''
-def getAttr():
-    '''public final String getAttr()
-    '''
-def peekChar():
-    '''public final char peekChar()
-    '''
-def FilterIterator():
-    '''public FilterIterator(final ASN1Tagged root)
+    '''returns String\n\n
+    filterToString()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

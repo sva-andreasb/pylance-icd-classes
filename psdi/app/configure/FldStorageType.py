@@ -1,6 +1,8 @@
-def FldStorageType():
-    '''public FldStorageType(final MboValue mbv)
+def ():
+    '''returns FldStorageType\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

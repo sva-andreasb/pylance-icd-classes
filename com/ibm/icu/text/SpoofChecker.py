@@ -12,129 +12,143 @@ HIDDEN_OVERLAY = "int  256"
 ALL_CHECKS = "int  -1"
 FORMAT_VERSION = "int  2"
 def getRestrictionLevel():
-    '''public RestrictionLevel getRestrictionLevel()
+    '''returns RestrictionLevel\n\n
+    getRestrictionLevel()\n
     '''
 def getChecks():
-    '''public int getChecks()
+    '''returns int\n\n
+    getChecks()\n
     '''
 def getAllowedLocales():
-    '''public Set<ULocale> getAllowedLocales()
+    '''returns Set<ULocale>\n\n
+    getAllowedLocales()\n
     '''
 def getAllowedJavaLocales():
-    '''public Set<Locale> getAllowedJavaLocales()
+    '''returns Set<Locale>\n\n
+    getAllowedJavaLocales()\n
     '''
 def getAllowedChars():
-    '''public UnicodeSet getAllowedChars()
+    '''returns UnicodeSet\n\n
+    getAllowedChars()\n
     '''
 def failsChecks():
-    '''public boolean failsChecks(final String text, final CheckResult checkResult)
-    public boolean failsChecks(final String text)
+    '''returns boolean\n\n
+    failsChecks(final String text, final CheckResult checkResult)\n
+    failsChecks(final String text)\n
     '''
 def areConfusable():
-    '''public int areConfusable(final String s1, final String s2)
+    '''returns int\n\n
+    areConfusable(final String s1, final String s2)\n
     '''
 def getSkeleton():
-    '''public String getSkeleton(final CharSequence str)
-    public String getSkeleton(final int type, final String id)
+    '''returns String\n\n
+    getSkeleton(final CharSequence str)\n
+    getSkeleton(final int type, final String id)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
-def Builder():
-    '''public Builder()
-    public Builder(final SpoofChecker src)
+def ():
+    '''returns CheckResult\n\n
+    ()\n
+    (final SpoofChecker src)\n
+    ()\n
+    ()\n
     '''
 def build():
-    '''public SpoofChecker build()
+    '''returns SpoofChecker\n\n
+    build()\n
     '''
 def setData():
-    '''public Builder setData(final Reader confusables)
-    public Builder setData(final Reader confusables, final Reader confusablesWholeScript)
+    '''returns Builder\n\n
+    setData(final Reader confusables)\n
+    setData(final Reader confusables, final Reader confusablesWholeScript)\n
     '''
 def setChecks():
-    '''public Builder setChecks(final int checks)
+    '''returns Builder\n\n
+    setChecks(final int checks)\n
     '''
 def setAllowedLocales():
-    '''public Builder setAllowedLocales(final Set<ULocale> locales)
+    '''returns Builder\n\n
+    setAllowedLocales(final Set<ULocale> locales)\n
     '''
 def setAllowedJavaLocales():
-    '''public Builder setAllowedJavaLocales(final Set<Locale> locales)
+    '''returns Builder\n\n
+    setAllowedJavaLocales(final Set<Locale> locales)\n
     '''
 def setAllowedChars():
-    '''public Builder setAllowedChars(final UnicodeSet chars)
+    '''returns Builder\n\n
+    setAllowedChars(final UnicodeSet chars)\n
     '''
 def setRestrictionLevel():
-    '''public Builder setRestrictionLevel(final RestrictionLevel restrictionLevel)
-    '''
-def buildConfusableData():
-    '''public static void buildConfusableData(final Reader confusables, final SpoofData dest)
+    '''returns Builder\n\n
+    setRestrictionLevel(final RestrictionLevel restrictionLevel)\n
     '''
 def compare():
-    '''public int compare(final SPUString sL, final SPUString sR)
-    '''
-def SPUStringPool():
-    '''public SPUStringPool()
+    '''returns int\n\n
+    compare(final SPUString sL, final SPUString sR)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getByIndex():
-    '''public SPUString getByIndex(final int index)
+    '''returns SPUString\n\n
+    getByIndex(final int index)\n
     '''
 def addString():
-    '''public SPUString addString(final String src)
+    '''returns SPUString\n\n
+    addString(final String src)\n
     '''
 def sort():
-    '''public void sort()
-    '''
-def CheckResult():
-    '''public CheckResult()
+    '''returns None\n\n
+    sort()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def keyToCodePoint():
-    '''public static final int keyToCodePoint(final int key)
-    '''
-def keyToLength():
-    '''public static final int keyToLength(final int key)
-    '''
-def codePointAndLengthToKey():
-    '''public static final int codePointAndLengthToKey(final int codePoint, final int length)
-    '''
-def getDefault():
-    '''public static SpoofData getDefault()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def confusableLookup():
-    '''public void confusableLookup(final int inChar, final StringBuilder dest)
+    '''returns None\n\n
+    confusableLookup(final int inChar, final StringBuilder dest)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def codePointAt():
-    '''public int codePointAt(final int index)
+    '''returns int\n\n
+    codePointAt(final int index)\n
     '''
 def appendValueTo():
-    '''public void appendValueTo(final int index, final StringBuilder dest)
+    '''returns None\n\n
+    appendValueTo(final int index, final StringBuilder dest)\n
     '''
 def isDataVersionAcceptable():
-    '''public boolean isDataVersionAcceptable(final byte[] version)
+    '''returns boolean\n\n
+    isDataVersionAcceptable(final byte[] version)\n
     '''
 def and():
-    '''public void and(final int script)
+    '''returns None\n\n
+    and(final int script)\n
     '''
 def setAll():
-    '''public void setAll()
+    '''returns None\n\n
+    setAll()\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def appendStringTo():
-    '''public void appendStringTo(final StringBuilder sb)
+    '''returns None\n\n
+    appendStringTo(final StringBuilder sb)\n
     '''

@@ -1,6 +1,8 @@
-def FldClassSpecSequence():
-    '''public FldClassSpecSequence(final MboValue mbv)
+def ():
+    '''returns FldClassSpecSequence\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,9 +1,12 @@
-def UpdateCountDataHandler():
-    '''public UpdateCountDataHandler(final DataHandler datahandler)
+def ():
+    '''returns UpdateCountDataHandler\n\n
+    (final DataHandler datahandler)\n
     '''
 def preExecute():
-    '''public void preExecute(final Statement stmt)
+    '''returns None\n\n
+    preExecute(final Statement stmt)\n
     '''
 def postExecute():
-    '''public void postExecute(final Statement stmt)
+    '''returns None\n\n
+    postExecute(final Statement stmt)\n
     '''

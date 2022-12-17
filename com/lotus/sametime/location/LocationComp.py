@@ -1,21 +1,20 @@
-def LocationComp():
-    '''public LocationComp(final STSession stSession)
-    '''
-def addLocationServiceListener():
-    '''public synchronized void addLocationServiceListener(final LocationServiceListener e)
-    '''
-def removeLocationServiceListener():
-    '''public synchronized void removeLocationServiceListener(final LocationServiceListener o)
+def ():
+    '''returns LocationComp\n\n
+    (final STSession stSession)\n
     '''
 def setMyLocation():
-    '''public void setMyLocation(final Location location)
+    '''returns None\n\n
+    setMyLocation(final Location location)\n
     '''
 def removeMyLocation():
-    '''public void removeMyLocation()
+    '''returns None\n\n
+    removeMyLocation()\n
     '''
 def addWatchedUser():
-    '''public void addWatchedUser(final STUser stUser)
+    '''returns None\n\n
+    addWatchedUser(final STUser stUser)\n
     '''
 def removeWatchedUser():
-    '''public void removeWatchedUser(final STUser stUser)
+    '''returns None\n\n
+    removeWatchedUser(final STUser stUser)\n
     '''

@@ -1,9 +1,12 @@
-def SCCDChatLogHandler():
-    '''public SCCDChatLogHandler(final String ticketUid, final String agentId, final String endUserId, final String ticketclass)
+def ():
+    '''returns SCCDChatLogHandler\n\n
+    (final String ticketUid, final String agentId, final String endUserId, final String ticketclass)\n
     '''
 def addMessage():
-    '''public void addMessage(final Map<String, Object> map)
+    '''returns None\n\n
+    addMessage(final Map<String, Object> map)\n
     '''
 def persistMessage():
-    '''public void persistMessage(final SccdChatServiceRemote service, final ConcurrentHashMap<String, String> chatSessionInfo)
+    '''returns None\n\n
+    persistMessage(final SccdChatServiceRemote service, final ConcurrentHashMap<String, String> chatSessionInfo)\n
     '''

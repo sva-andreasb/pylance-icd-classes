@@ -1,3 +1,4 @@
-def SRMFldClassstructOwnerGroup():
-    '''public SRMFldClassstructOwnerGroup(final MboValue mbv)
+def ():
+    '''returns SRMFldClassstructOwnerGroup\n\n
+    (final MboValue mbv)\n
     '''

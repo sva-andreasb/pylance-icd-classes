@@ -1,6 +1,8 @@
 def getCompoundReader():
-    '''public Directory getCompoundReader(final Directory dir, final SegmentInfo si, final IOContext context)
+    '''returns Directory\n\n
+    getCompoundReader(final Directory dir, final SegmentInfo si, final IOContext context)\n
     '''
 def write():
-    '''public void write(final Directory dir, final SegmentInfo si, final IOContext context)
+    '''returns None\n\n
+    write(final Directory dir, final SegmentInfo si, final IOContext context)\n
     '''

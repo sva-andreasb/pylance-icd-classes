@@ -1,4 +1,5 @@
-def SystemDefaultRoutePlanner():
-    '''public SystemDefaultRoutePlanner(final SchemePortResolver schemePortResolver, final ProxySelector proxySelector)
-    public SystemDefaultRoutePlanner(final ProxySelector proxySelector)
+def ():
+    '''returns SystemDefaultRoutePlanner\n\n
+    (final SchemePortResolver schemePortResolver, final ProxySelector proxySelector)\n
+    (final ProxySelector proxySelector)\n
     '''

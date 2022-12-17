@@ -1,9 +1,12 @@
-def SolutionSpec():
-    '''public SolutionSpec(final MboSet ms)
+def ():
+    '''returns SolutionSpec\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def addDetailInfor():
-    '''public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
+    '''returns None\n\n
+    addDetailInfor(final MboRemote mbo, final MboRemote classspec)\n
     '''

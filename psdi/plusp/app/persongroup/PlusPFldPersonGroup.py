@@ -1,3 +1,4 @@
-def PlusPFldPersonGroup():
-    '''public PlusPFldPersonGroup(final MboValue arg0)
+def ():
+    '''returns PlusPFldPersonGroup\n\n
+    (final MboValue arg0)\n
     '''

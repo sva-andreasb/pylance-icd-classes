@@ -1,13 +1,17 @@
-def GreekList():
-    '''public GreekList(final int symbolIndent)
-    public GreekList(final boolean greeklower, final int symbolIndent)
+def ():
+    '''returns GreekList\n\n
+    (final int symbolIndent)\n
+    (final boolean greeklower, final int symbolIndent)\n
     '''
 def setGreekLower():
-    '''public void setGreekLower(final boolean greeklower)
+    '''returns None\n\n
+    setGreekLower(final boolean greeklower)\n
     '''
 def isGreekLower():
-    '''public boolean isGreekLower()
+    '''returns boolean\n\n
+    isGreekLower()\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''

@@ -1,14 +1,18 @@
-def XMPPIMBotDriver():
-    '''public XMPPIMBotDriver()
-    public XMPPIMBotDriver(final MXServer mxServer)
+def ():
+    '''returns XMPPIMBotDriver\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def sendMessage():
-    '''public void sendMessage(final Object o, final String s)
+    '''returns None\n\n
+    sendMessage(final Object o, final String s)\n
     '''
 def chatCreated():
-    '''public void chatCreated(final Chat chat, final boolean b)
+    '''returns None\n\n
+    chatCreated(final Chat chat, final boolean b)\n
     '''
 def processMessage():
-    '''public void processMessage(final Chat chat, final Message message)
-    public void processMessage(final Message message)
+    '''returns None\n\n
+    processMessage(final Chat chat, final Message message)\n
+    processMessage(final Message message)\n
     '''

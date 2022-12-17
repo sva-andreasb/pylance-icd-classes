@@ -1,3 +1,4 @@
-def DMMapDefSet():
-    '''public DMMapDefSet(final MboServerInterface ms)
+def ():
+    '''returns DMMapDefSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def STInsetModeImpl():
-    '''public STInsetModeImpl(final SchemaType schemaType)
+def ():
+    '''returns STInsetModeImpl\n\n
+    (final SchemaType schemaType)\n
     '''

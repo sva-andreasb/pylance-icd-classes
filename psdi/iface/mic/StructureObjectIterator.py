@@ -1,13 +1,17 @@
-def StructureObjectIterator():
-    '''public StructureObjectIterator()
-    public StructureObjectIterator(final Iterator ir)
+def ():
+    '''returns StructureObjectIterator\n\n
+    ()\n
+    (final Iterator ir)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

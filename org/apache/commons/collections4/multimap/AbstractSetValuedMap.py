@@ -1,15 +1,20 @@
 def get():
-    '''public Set<V> get(final K key)
+    '''returns Set<V>\n\n
+    get(final K key)\n
     '''
 def remove():
-    '''public Set<V> remove(final Object key)
+    '''returns Set<V>\n\n
+    remove(final Object key)\n
     '''
-def WrappedSet():
-    '''public WrappedSet(final K key)
+def ():
+    '''returns WrappedSet\n\n
+    (final K key)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

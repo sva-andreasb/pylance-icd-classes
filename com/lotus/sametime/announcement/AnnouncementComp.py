@@ -1,15 +1,12 @@
-def AnnouncementComp():
-    '''public AnnouncementComp(final STSession stSession)
+def ():
+    '''returns AnnouncementComp\n\n
+    (final STSession stSession)\n
     '''
 def multiCastReceived():
-    '''public void multiCastReceived(final MultiCastEvent multiCastEvent)
-    '''
-def addAnnouncementListener():
-    '''public synchronized void addAnnouncementListener(final AnnouncementListener obj)
-    '''
-def removeAnnouncementListener():
-    '''public synchronized void removeAnnouncementListener(final AnnouncementListener obj)
+    '''returns None\n\n
+    multiCastReceived(final MultiCastEvent multiCastEvent)\n
     '''
 def sendAnnouncement():
-    '''public void sendAnnouncement(final STObject[] array, final boolean v, final String str)
+    '''returns None\n\n
+    sendAnnouncement(final STObject[] array, final boolean v, final String str)\n
     '''

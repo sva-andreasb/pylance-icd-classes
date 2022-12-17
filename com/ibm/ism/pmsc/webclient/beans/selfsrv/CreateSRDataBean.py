@@ -1,21 +1,24 @@
-def CreateSRDataBean():
-    '''public CreateSRDataBean()
+def ():
+    '''returns CreateSRDataBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def srmsaverecord():
-    '''public synchronized void srmsaverecord()
+    '''returns None\n\n
+    initialize()\n
     '''
 def addtofav():
-    '''public void addtofav()
+    '''returns None\n\n
+    addtofav()\n
     '''
 def deletefav():
-    '''public void deletefav()
+    '''returns None\n\n
+    deletefav()\n
     '''
 def cancelSR():
-    '''public void cancelSR()
+    '''returns None\n\n
+    cancelSR()\n
     '''
 def getExtendedToolTip():
-    '''public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''returns JSONObject\n\n
+    getExtendedToolTip(final JSONObject definition)\n
     '''

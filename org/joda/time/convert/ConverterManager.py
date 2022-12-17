@@ -1,66 +1,84 @@
-def getInstance():
-    '''public static ConverterManager getInstance()
-    '''
 def getInstantConverter():
-    '''public InstantConverter getInstantConverter(final Object o)
+    '''returns InstantConverter\n\n
+    getInstantConverter(final Object o)\n
     '''
 def getInstantConverters():
-    '''public InstantConverter[] getInstantConverters()
+    '''returns InstantConverter[]\n\n
+    getInstantConverters()\n
     '''
 def addInstantConverter():
-    '''public InstantConverter addInstantConverter(final InstantConverter instantConverter)
+    '''returns InstantConverter\n\n
+    addInstantConverter(final InstantConverter instantConverter)\n
     '''
 def removeInstantConverter():
-    '''public InstantConverter removeInstantConverter(final InstantConverter instantConverter)
+    '''returns InstantConverter\n\n
+    removeInstantConverter(final InstantConverter instantConverter)\n
     '''
 def getPartialConverter():
-    '''public PartialConverter getPartialConverter(final Object o)
+    '''returns PartialConverter\n\n
+    getPartialConverter(final Object o)\n
     '''
 def getPartialConverters():
-    '''public PartialConverter[] getPartialConverters()
+    '''returns PartialConverter[]\n\n
+    getPartialConverters()\n
     '''
 def addPartialConverter():
-    '''public PartialConverter addPartialConverter(final PartialConverter partialConverter)
+    '''returns PartialConverter\n\n
+    addPartialConverter(final PartialConverter partialConverter)\n
     '''
 def removePartialConverter():
-    '''public PartialConverter removePartialConverter(final PartialConverter partialConverter)
+    '''returns PartialConverter\n\n
+    removePartialConverter(final PartialConverter partialConverter)\n
     '''
 def getDurationConverter():
-    '''public DurationConverter getDurationConverter(final Object o)
+    '''returns DurationConverter\n\n
+    getDurationConverter(final Object o)\n
     '''
 def getDurationConverters():
-    '''public DurationConverter[] getDurationConverters()
+    '''returns DurationConverter[]\n\n
+    getDurationConverters()\n
     '''
 def addDurationConverter():
-    '''public DurationConverter addDurationConverter(final DurationConverter durationConverter)
+    '''returns DurationConverter\n\n
+    addDurationConverter(final DurationConverter durationConverter)\n
     '''
 def removeDurationConverter():
-    '''public DurationConverter removeDurationConverter(final DurationConverter durationConverter)
+    '''returns DurationConverter\n\n
+    removeDurationConverter(final DurationConverter durationConverter)\n
     '''
 def getPeriodConverter():
-    '''public PeriodConverter getPeriodConverter(final Object o)
+    '''returns PeriodConverter\n\n
+    getPeriodConverter(final Object o)\n
     '''
 def getPeriodConverters():
-    '''public PeriodConverter[] getPeriodConverters()
+    '''returns PeriodConverter[]\n\n
+    getPeriodConverters()\n
     '''
 def addPeriodConverter():
-    '''public PeriodConverter addPeriodConverter(final PeriodConverter periodConverter)
+    '''returns PeriodConverter\n\n
+    addPeriodConverter(final PeriodConverter periodConverter)\n
     '''
 def removePeriodConverter():
-    '''public PeriodConverter removePeriodConverter(final PeriodConverter periodConverter)
+    '''returns PeriodConverter\n\n
+    removePeriodConverter(final PeriodConverter periodConverter)\n
     '''
 def getIntervalConverter():
-    '''public IntervalConverter getIntervalConverter(final Object o)
+    '''returns IntervalConverter\n\n
+    getIntervalConverter(final Object o)\n
     '''
 def getIntervalConverters():
-    '''public IntervalConverter[] getIntervalConverters()
+    '''returns IntervalConverter[]\n\n
+    getIntervalConverters()\n
     '''
 def addIntervalConverter():
-    '''public IntervalConverter addIntervalConverter(final IntervalConverter intervalConverter)
+    '''returns IntervalConverter\n\n
+    addIntervalConverter(final IntervalConverter intervalConverter)\n
     '''
 def removeIntervalConverter():
-    '''public IntervalConverter removeIntervalConverter(final IntervalConverter intervalConverter)
+    '''returns IntervalConverter\n\n
+    removeIntervalConverter(final IntervalConverter intervalConverter)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

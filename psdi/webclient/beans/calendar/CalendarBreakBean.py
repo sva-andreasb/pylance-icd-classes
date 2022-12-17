@@ -1,6 +1,8 @@
 def applyCalendarBreaks():
-    '''public int applyCalendarBreaks()
+    '''returns int\n\n
+    applyCalendarBreaks()\n
     '''
 def clearCalendarBreaks():
-    '''public int clearCalendarBreaks()
+    '''returns int\n\n
+    clearCalendarBreaks()\n
     '''

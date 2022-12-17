@@ -1,3 +1,4 @@
 def parse():
-    '''public MessageCorrectExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''returns MessageCorrectExtension\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

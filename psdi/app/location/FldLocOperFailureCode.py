@@ -1,3 +1,4 @@
-def FldLocOperFailureCode():
-    '''public FldLocOperFailureCode(final MboValue mbv)
+def ():
+    '''returns FldLocOperFailureCode\n\n
+    (final MboValue mbv)\n
     '''

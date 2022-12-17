@@ -1,6 +1,8 @@
-def CommandLineProcessExit():
-    '''public CommandLineProcessExit()
+def ():
+    '''returns CommandLineProcessExit\n\n
+    ()\n
     '''
 def setDataIn():
-    '''public StructureData setDataIn(final StructureData data)
+    '''returns StructureData\n\n
+    setDataIn(final StructureData data)\n
     '''

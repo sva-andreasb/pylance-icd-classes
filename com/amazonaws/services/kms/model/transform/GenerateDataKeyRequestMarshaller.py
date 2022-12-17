@@ -1,6 +1,8 @@
-def GenerateDataKeyRequestMarshaller():
-    '''public GenerateDataKeyRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns GenerateDataKeyRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<GenerateDataKeyRequest> marshall(final GenerateDataKeyRequest generateDataKeyRequest)
+    '''returns Request<GenerateDataKeyRequest>\n\n
+    marshall(final GenerateDataKeyRequest generateDataKeyRequest)\n
     '''

@@ -1,120 +1,160 @@
 def isDuplicated():
-    '''public boolean isDuplicated()
+    '''returns boolean\n\n
+    isDuplicated()\n
     '''
 def setDuplicated():
-    '''public void setDuplicated(final boolean duplicated)
+    '''returns None\n\n
+    setDuplicated(final boolean duplicated)\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
-def License():
-    '''public License(final MboSet ms)
+def ():
+    '''returns License\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def resetDefCapacity():
-    '''public void resetDefCapacity()
+    '''returns None\n\n
+    resetDefCapacity()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def copyLocations():
-    '''public void copyLocations(final MboSetRemote locationset)
+    '''returns None\n\n
+    copyLocations(final MboSetRemote locationset)\n
     '''
 def copyAssets():
-    '''public void copyAssets(final MboSetRemote assetset)
+    '''returns None\n\n
+    copyAssets(final MboSetRemote assetset)\n
     '''
 def copyPartitions():
-    '''public void copyPartitions(final MboSetRemote partitionset)
+    '''returns None\n\n
+    copyPartitions(final MboSetRemote partitionset)\n
     '''
 def copyUsers():
-    '''public void copyUsers(final MboSetRemote userSet)
+    '''returns None\n\n
+    copyUsers(final MboSetRemote userSet)\n
     '''
 def copySoftware():
-    '''public void copySoftware(final MboSetRemote softwareSet)
+    '''returns None\n\n
+    copySoftware(final MboSetRemote softwareSet)\n
     '''
 def copyLicenses():
-    '''public void copyLicenses(final MboSetRemote licenseSetMbo)
+    '''returns None\n\n
+    copyLicenses(final MboSetRemote licenseSetMbo)\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def setStatus():
-    '''public void setStatus(final String internalStatus)
+    '''returns None\n\n
+    setStatus(final String internalStatus)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def setActiveEditibilityFlags():
-    '''public void setActiveEditibilityFlags(final boolean readonlyflag)
+    '''returns None\n\n
+    setActiveEditibilityFlags(final boolean readonlyflag)\n
     '''
 def isTotalIntCapGreaterLicCap():
-    '''public boolean isTotalIntCapGreaterLicCap()
+    '''returns boolean\n\n
+    isTotalIntCapGreaterLicCap()\n
     '''
 def setLicenseNumAutoKey():
-    '''public void setLicenseNumAutoKey()
+    '''returns None\n\n
+    setLicenseNumAutoKey()\n
     '''
 def createRelated():
-    '''public void createRelated(final MboRemote childMbo)
+    '''returns None\n\n
+    createRelated(final MboRemote childMbo)\n
     '''
 def getStatusList():
-    '''public MboSetRemote getStatusList()
+    '''returns MboSetRemote\n\n
+    getStatusList()\n
     '''
 def getIntLicPlatform():
-    '''public String getIntLicPlatform()
+    '''returns String\n\n
+    getIntLicPlatform()\n
     '''
 def getIntLicCapUnit():
-    '''public String getIntLicCapUnit()
+    '''returns String\n\n
+    getIntLicCapUnit()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    changeStatus(final String status, final Date asOfDate, final String memo)\n
     '''
 def calculateCapacity():
-    '''public boolean calculateCapacity()
+    '''returns boolean\n\n
+    calculateCapacity()\n
     '''
 def isChangeAvailableCapacity():
-    '''public boolean isChangeAvailableCapacity()
+    '''returns boolean\n\n
+    isChangeAvailableCapacity()\n
     '''
 def setChangeAvailableCapacity():
-    '''public void setChangeAvailableCapacity(final boolean isChangeAvailableCapacity)
+    '''returns None\n\n
+    setChangeAvailableCapacity(final boolean isChangeAvailableCapacity)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def getSFWContractForLicense():
-    '''public MboSetRemote getSFWContractForLicense()
+    '''returns MboSetRemote\n\n
+    getSFWContractForLicense()\n
     '''
 def canApplyTemplate():
-    '''public void canApplyTemplate()
+    '''returns None\n\n
+    canApplyTemplate()\n
     '''
 def applyTemplate():
-    '''public void applyTemplate(final MboRemote template)
+    '''returns None\n\n
+    applyTemplate(final MboRemote template)\n
     '''
 def useRegularCapacityCalculator():
-    '''public void useRegularCapacityCalculator()
+    '''returns None\n\n
+    useRegularCapacityCalculator()\n
     '''
 def useWOCapacityCalculator():
-    '''public void useWOCapacityCalculator()
+    '''returns None\n\n
+    useWOCapacityCalculator()\n
     '''
 def setCapacityCalculator():
-    '''public void setCapacityCalculator(final CapacityCalculatorI calculator)
+    '''returns None\n\n
+    setCapacityCalculator(final CapacityCalculatorI calculator)\n
     '''
 def canChangeStatusJobWO():
-    '''public boolean canChangeStatusJobWO()
+    '''returns boolean\n\n
+    canChangeStatusJobWO()\n
     '''

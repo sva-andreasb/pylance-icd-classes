@@ -1,37 +1,49 @@
-def ByteBuffer():
-    '''public ByteBuffer(final RandomAccessFile _raf)
+def ():
+    '''returns ByteBuffer\n\n
+    (final RandomAccessFile _raf)\n
     '''
 def getBuffSize():
-    '''public int getBuffSize()
+    '''returns int\n\n
+    getBuffSize()\n
     '''
 def discard():
-    '''public void discard()
+    '''returns None\n\n
+    discard()\n
     '''
 def truncateEnd():
-    '''public void truncateEnd(final int endPoint)
+    '''returns None\n\n
+    truncateEnd(final int endPoint)\n
     '''
 def truncateBegin():
-    '''public void truncateBegin(final int startPoint)
+    '''returns None\n\n
+    truncateBegin(final int startPoint)\n
     '''
 def getUTF8String():
-    '''public String getUTF8String(final int startOffset, final int numBytes)
+    '''returns String\n\n
+    getUTF8String(final int startOffset, final int numBytes)\n
     '''
 def getAsciiStringBuffer():
-    '''public StringBuffer getAsciiStringBuffer(StringBuffer sb)
+    '''returns StringBuffer\n\n
+    getAsciiStringBuffer(StringBuffer sb)\n
     '''
 def eofFound():
-    '''public boolean eofFound()
+    '''returns boolean\n\n
+    eofFound()\n
     '''
 def readChars():
-    '''public void readChars()
-    public void readChars(final long fileBottomOffsetLong)
+    '''returns None\n\n
+    readChars()\n
+    readChars(final long fileBottomOffsetLong)\n
     '''
 def getLastInLength():
-    '''public int getLastInLength()
+    '''returns int\n\n
+    getLastInLength()\n
     '''
 def getFilePointer():
-    '''public long getFilePointer()
+    '''returns long\n\n
+    getFilePointer()\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''

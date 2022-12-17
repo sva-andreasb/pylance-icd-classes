@@ -1,37 +1,49 @@
 serialVersionUID = "long  1L"
-def ExtensionRegistry():
-    '''public ExtensionRegistry()
+def ():
+    '''returns ExtensionRegistry\n\n
+    ()\n
     '''
 def setDefaultSerializer():
-    '''public void setDefaultSerializer(final ExtensionSerializer defaultSer)
+    '''returns None\n\n
+    setDefaultSerializer(final ExtensionSerializer defaultSer)\n
     '''
 def getDefaultSerializer():
-    '''public ExtensionSerializer getDefaultSerializer()
+    '''returns ExtensionSerializer\n\n
+    getDefaultSerializer()\n
     '''
 def setDefaultDeserializer():
-    '''public void setDefaultDeserializer(final ExtensionDeserializer defaultDeser)
+    '''returns None\n\n
+    setDefaultDeserializer(final ExtensionDeserializer defaultDeser)\n
     '''
 def getDefaultDeserializer():
-    '''public ExtensionDeserializer getDefaultDeserializer()
+    '''returns ExtensionDeserializer\n\n
+    getDefaultDeserializer()\n
     '''
 def registerSerializer():
-    '''public void registerSerializer(final Class clazz, final QName qName, final ExtensionSerializer extensionSerializer)
+    '''returns None\n\n
+    registerSerializer(final Class clazz, final QName qName, final ExtensionSerializer extensionSerializer)\n
     '''
 def registerDeserializer():
-    '''public void registerDeserializer(final Class clazz, final QName qName, final ExtensionDeserializer extensionDeserializer)
+    '''returns None\n\n
+    registerDeserializer(final Class clazz, final QName qName, final ExtensionDeserializer extensionDeserializer)\n
     '''
 def querySerializer():
-    '''public ExtensionSerializer querySerializer(final Class clazz, final QName obj)
+    '''returns ExtensionSerializer\n\n
+    querySerializer(final Class clazz, final QName obj)\n
     '''
 def queryDeserializer():
-    '''public ExtensionDeserializer queryDeserializer(final Class clazz, final QName obj)
+    '''returns ExtensionDeserializer\n\n
+    queryDeserializer(final Class clazz, final QName obj)\n
     '''
 def getAllowableExtensions():
-    '''public Set getAllowableExtensions(final Class clazz)
+    '''returns Set\n\n
+    getAllowableExtensions(final Class clazz)\n
     '''
 def mapExtensionTypes():
-    '''public void mapExtensionTypes(final Class clazz, final QName qName, final Class clazz2)
+    '''returns None\n\n
+    mapExtensionTypes(final Class clazz, final QName qName, final Class clazz2)\n
     '''
 def createExtension():
-    '''public ExtensibilityElement createExtension(final Class clazz, final QName obj)
+    '''returns ExtensibilityElement\n\n
+    createExtension(final Class clazz, final QName obj)\n
     '''

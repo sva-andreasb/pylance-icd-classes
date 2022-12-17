@@ -20,62 +20,49 @@ CIVDM1117E_Unspecified_Deployment_Exception_RC = "int  99"
 CIVDM1119W_Solve_Status_No_Solution_RC = "int  20"
 CIVDM1120W_Solve_Status_Aborted_RC = "int  21"
 def getRC():
-    '''public int getRC()
-    public int getRC()
-    '''
-def getSeverity():
-    '''public final Severity getSeverity()
+    '''returns int\n\n
+    getRC()\n
+    getRC()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def callerMethod():
-    '''public static Object[] callerMethod(final Object... parameters)
-    public static String callerMethod(final int callerLevel)
-    '''
-def getRCOrRethrow():
-    '''public <E extends Exception> IloServiceMessageCodesWithRC getRCOrRethrow(final E exception)
-    public <E extends Exception> IloServiceMessageCodesWithRC getRCOrRethrow(final E exception)
-    public IloServiceMessageCodesWithRC getRCOrRethrow()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def handleRTE():
-    '''public DeploymentException handleRTE(final RuntimeException rtExc, final Object... parameters)
+    '''returns DeploymentException\n\n
+    handleRTE(final RuntimeException rtExc, final Object... parameters)\n
     '''
-def IloServiceMessageCodesWithRC():
-    '''public IloServiceMessageCodesWithRC()
+def ():
+    '''returns DeploymentSecurityException\n\n
+    ()\n
+    (final Object... parameters)\n
+    (final java.lang.IllegalArgumentException cause, final Object... parameters)\n
+    (final Object... parameters)\n
+    (final Throwable cause, final Object... parameters)\n
+    (final Object... parameters)\n
+    (final Throwable cause, final Object... parameters)\n
+    (final IOException cause, final Object... parameters)\n
+    (final GeneralSecurityException cause)\n
     '''
 def logRC():
-    '''public int logRC(final Object... parameters)
+    '''returns int\n\n
+    logRC(final Object... parameters)\n
     '''
 def compareTo():
-    '''public int compareTo(final IloServiceMessageCodesWithRC o)
-    '''
-def help():
-    '''public static void help(final boolean extended)
+    '''returns int\n\n
+    compareTo(final IloServiceMessageCodesWithRC o)\n
     '''
 def logExc():
-    '''public int logExc(final Exception exc)
-    '''
-def IllegalArgumentException():
-    '''public IllegalArgumentException(final Object... parameters)
-    public IllegalArgumentException(final java.lang.IllegalArgumentException cause, final Object... parameters)
+    '''returns int\n\n
+    logExc(final Exception exc)\n
     '''
 def getMessageCode():
-    '''public IloServiceMessageCodes getMessageCode()
-    public IloServiceMessageCodes getMessageCode()
+    '''returns IloServiceMessageCodes\n\n
+    getMessageCode()\n
+    getMessageCode()\n
     '''
-def DeploymentException():
-    '''public DeploymentException(final Object... parameters)
-    public DeploymentException(final Throwable cause, final Object... parameters)
-    '''
-def DeploymentExceptionWithCallerMethod():
-    '''public DeploymentExceptionWithCallerMethod(final Object... parameters)
-    public DeploymentExceptionWithCallerMethod(final Throwable cause, final Object... parameters)
-    '''
-def DeploymentIOException():
-    '''public DeploymentIOException(final IOException cause, final Object... parameters)
-    '''
-def DeploymentSecurityException():
-    '''public DeploymentSecurityException(final GeneralSecurityException cause)
+def getRCOrRethrow():
+    '''returns IloServiceMessageCodesWithRC\n\n
+    getRCOrRethrow()\n
     '''

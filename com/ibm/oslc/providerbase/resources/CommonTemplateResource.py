@@ -1,21 +1,28 @@
 def getTemplates():
-    '''public List<Entity> getTemplates(@Context final HttpServletRequest httpServletRequest, @QueryParam("oslc.where") final String where)
+    '''returns List<Entity>\n\n
+    getTemplates(@Context final HttpServletRequest httpServletRequest, @QueryParam("oslc.where") final String where)\n
     '''
 def getTemplate():
-    '''public Template getTemplate(@Context final HttpServletRequest httpServletRequest, @PathParam("templateId") final String templateId)
+    '''returns Template\n\n
+    getTemplate(@Context final HttpServletRequest httpServletRequest, @PathParam("templateId") final String templateId)\n
     '''
 def getCompact():
-    '''public Compact getCompact(@Context final HttpServletRequest httpServletRequest, @PathParam("templateId") final String templateId)
+    '''returns Compact\n\n
+    getCompact(@Context final HttpServletRequest httpServletRequest, @PathParam("templateId") final String templateId)\n
     '''
 def getSmallPreview():
-    '''public void getSmallPreview(@Context final HttpServletRequest httpServletRequest, @Context final HttpServletResponse httpServletResponse, @PathParam("resourceId") final String resourceId)
+    '''returns None\n\n
+    getSmallPreview(@Context final HttpServletRequest httpServletRequest, @Context final HttpServletResponse httpServletResponse, @PathParam("resourceId") final String resourceId)\n
     '''
 def createTemplate():
-    '''public Response createTemplate(@Context final HttpServletRequest httpServletRequest, final Entity template)
+    '''returns Response\n\n
+    createTemplate(@Context final HttpServletRequest httpServletRequest, final Entity template)\n
     '''
 def updateTemplate():
-    '''public Response updateTemplate(@Context final HttpServletRequest httpServletRequest, @PathParam("templateId") final String templateId, final Entity template)
+    '''returns Response\n\n
+    updateTemplate(@Context final HttpServletRequest httpServletRequest, @PathParam("templateId") final String templateId, final Entity template)\n
     '''
 def deleteTemplate():
-    '''public void deleteTemplate(@Context final HttpServletRequest httpServletRequest, @PathParam("templateId") final String templateId)
+    '''returns None\n\n
+    deleteTemplate(@Context final HttpServletRequest httpServletRequest, @PathParam("templateId") final String templateId)\n
     '''

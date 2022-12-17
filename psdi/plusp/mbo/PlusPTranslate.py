@@ -1,30 +1,36 @@
 CUSTOMERVALUES = "String  \"#CUSTOMERVALUES\""
-def PlusPTranslate():
-    '''public PlusPTranslate()
+def ():
+    '''returns PlusPTranslate\n\n
+    ()\n
     '''
 def getValuesVector():
-    '''public Vector getValuesVector(final String s, final String s2, final String s3)
-    public Vector getValuesVector(final String s, final String s2, final String s3, final String s4)
+    '''returns Vector\n\n
+    getValuesVector(final String s, final String s2, final String s3)\n
+    getValuesVector(final String s, final String s2, final String s3, final String s4)\n
     '''
 def toExternalList():
-    '''public String toExternalList(final String s, final String s2, final MboRemote mbo)
-    public String toExternalList(final String s, final String s2, final String s3, final String s4)
-    public String toExternalList(final String s, final String anObject, final String s2, final String s3, final String s4)
-    public String toExternalList(final String s, final String[] array, final MboRemote mbo)
-    public String toExternalList(final String s, final String[] array, final String s2, final String s3)
-    public String toExternalList(final String s, final String[] array, final String s2, final String s3, final String s4)
+    '''returns String\n\n
+    toExternalList(final String s, final String s2, final MboRemote mbo)\n
+    toExternalList(final String s, final String s2, final String s3, final String s4)\n
+    toExternalList(final String s, final String anObject, final String s2, final String s3, final String s4)\n
+    toExternalList(final String s, final String[] array, final MboRemote mbo)\n
+    toExternalList(final String s, final String[] array, final String s2, final String s3)\n
+    toExternalList(final String s, final String[] array, final String s2, final String s3, final String s4)\n
     '''
 def getExternalValues():
-    '''public String[] getExternalValues(final String s, final String s2, final String s3, final String s4)
-    public String[] getExternalValues(final String s, final String anObject, final String s2, final String s3, final String s4)
-    public String[] getExternalValues(final String s, final String s2, final MboRemote mbo)
+    '''returns String[]\n\n
+    getExternalValues(final String s, final String s2, final String s3, final String s4)\n
+    getExternalValues(final String s, final String anObject, final String s2, final String s3, final String s4)\n
+    getExternalValues(final String s, final String s2, final MboRemote mbo)\n
     '''
 def toExternalDefaultValue():
-    '''public String toExternalDefaultValue(final String s, final String s2, final MboRemote mbo)
-    public String toExternalDefaultValue(final String s, final String s2, final String s3, final String s4)
-    public String toExternalDefaultValue(final String s, final String anObject, final String s2, final String s3, final String s4)
+    '''returns String\n\n
+    toExternalDefaultValue(final String s, final String s2, final MboRemote mbo)\n
+    toExternalDefaultValue(final String s, final String s2, final String s3, final String s4)\n
+    toExternalDefaultValue(final String s, final String anObject, final String s2, final String s3, final String s4)\n
     '''
 def toInternalString():
-    '''public String toInternalString(final String s, final String s2, final MboRemote mbo)
-    public String toInternalString(final String s, final String anObject, final String s2, final String s3, final String s4)
+    '''returns String\n\n
+    toInternalString(final String s, final String s2, final MboRemote mbo)\n
+    toInternalString(final String s, final String anObject, final String s2, final String s3, final String s4)\n
     '''

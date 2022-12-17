@@ -1,39 +1,52 @@
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String value)
+    '''returns None\n\n
+    setTitle(final String value)\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def setDomain():
-    '''public void setDomain(final String value)
+    '''returns None\n\n
+    setDomain(final String value)\n
     '''
 def isJoinByIntersection():
-    '''public boolean isJoinByIntersection()
+    '''returns boolean\n\n
+    isJoinByIntersection()\n
     '''
 def setJoinByIntersection():
-    '''public void setJoinByIntersection(final boolean value)
+    '''returns None\n\n
+    setJoinByIntersection(final boolean value)\n
     '''
 def isIsDynamic():
-    '''public Boolean isIsDynamic()
+    '''returns Boolean\n\n
+    isIsDynamic()\n
     '''
 def setIsDynamic():
-    '''public void setIsDynamic(final Boolean value)
+    '''returns None\n\n
+    setIsDynamic(final Boolean value)\n
     '''
 def isEvaluateOnClient():
-    '''public Boolean isEvaluateOnClient()
+    '''returns Boolean\n\n
+    isEvaluateOnClient()\n
     '''
 def setEvaluateOnClient():
-    '''public void setEvaluateOnClient(final Boolean value)
+    '''returns None\n\n
+    setEvaluateOnClient(final Boolean value)\n
     '''
 def getComputerGroup():
-    '''public List<Object> getComputerGroup()
+    '''returns List<Object>\n\n
+    getComputerGroup()\n
     '''
 def isSkipUI():
-    '''public Boolean isSkipUI()
+    '''returns Boolean\n\n
+    isSkipUI()\n
     '''
 def setSkipUI():
-    '''public void setSkipUI(final Boolean value)
+    '''returns None\n\n
+    setSkipUI(final Boolean value)\n
     '''

@@ -1,9 +1,7 @@
-def WeekDayList():
-    '''public WeekDayList()
-    public WeekDayList(final WeekDay... weekDays)
-    public WeekDayList(final int initialCapacity)
-    public WeekDayList(final String aString)
-    '''
-def toString():
-    '''public final String toString()
+def ():
+    '''returns WeekDayList\n\n
+    ()\n
+    (final WeekDay... weekDays)\n
+    (final int initialCapacity)\n
+    (final String aString)\n
     '''

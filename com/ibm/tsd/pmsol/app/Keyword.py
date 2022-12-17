@@ -1,9 +1,12 @@
-def Keyword():
-    '''public Keyword(final MboSet ms)
+def ():
+    '''returns Keyword\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

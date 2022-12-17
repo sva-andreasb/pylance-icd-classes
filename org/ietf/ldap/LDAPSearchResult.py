@@ -1,3 +1,4 @@
 def getEntry():
-    '''public LDAPEntry getEntry()
+    '''returns LDAPEntry\n\n
+    getEntry()\n
     '''

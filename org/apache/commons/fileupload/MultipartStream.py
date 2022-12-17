@@ -2,67 +2,76 @@ CR = "byte  13"
 LF = "byte  10"
 DASH = "byte  45"
 HEADER_PART_SIZE_MAX = "int  10240"
-def MultipartStream():
-    '''public MultipartStream()
-    public MultipartStream(final InputStream input, final byte[] boundary, final int bufSize)
-    public MultipartStream(final InputStream input, final byte[] boundary, final int bufSize, final ProgressNotifier pNotifier)
-    public MultipartStream(final InputStream input, final byte[] boundary)
+def ():
+    '''returns IllegalBoundaryException\n\n
+    ()\n
+    (final InputStream input, final byte[] boundary, final int bufSize)\n
+    (final InputStream input, final byte[] boundary, final int bufSize, final ProgressNotifier pNotifier)\n
+    (final InputStream input, final byte[] boundary)\n
+    ()\n
+    (final String message)\n
+    ()\n
+    (final String message)\n
     '''
 def getHeaderEncoding():
-    '''public String getHeaderEncoding()
+    '''returns String\n\n
+    getHeaderEncoding()\n
     '''
 def setHeaderEncoding():
-    '''public void setHeaderEncoding(final String encoding)
+    '''returns None\n\n
+    setHeaderEncoding(final String encoding)\n
     '''
 def readByte():
-    '''public byte readByte()
+    '''returns byte\n\n
+    readByte()\n
     '''
 def readBoundary():
-    '''public boolean readBoundary()
+    '''returns boolean\n\n
+    readBoundary()\n
     '''
 def setBoundary():
-    '''public void setBoundary(final byte[] boundary)
+    '''returns None\n\n
+    setBoundary(final byte[] boundary)\n
     '''
 def readHeaders():
-    '''public String readHeaders()
+    '''returns String\n\n
+    readHeaders()\n
     '''
 def readBodyData():
-    '''public int readBodyData(final OutputStream output)
+    '''returns int\n\n
+    readBodyData(final OutputStream output)\n
     '''
 def discardBodyData():
-    '''public int discardBodyData()
+    '''returns int\n\n
+    discardBodyData()\n
     '''
 def skipPreamble():
-    '''public boolean skipPreamble()
-    '''
-def arrayequals():
-    '''public static boolean arrayequals(final byte[] a, final byte[] b, final int count)
-    '''
-def MalformedStreamException():
-    '''public MalformedStreamException()
-    public MalformedStreamException(final String message)
-    '''
-def IllegalBoundaryException():
-    '''public IllegalBoundaryException()
-    public IllegalBoundaryException(final String message)
+    '''returns boolean\n\n
+    skipPreamble()\n
     '''
 def getBytesRead():
-    '''public long getBytesRead()
+    '''returns long\n\n
+    getBytesRead()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def close():
-    '''public void close()
-    public void close(final boolean pCloseUnderlying)
+    '''returns None\n\n
+    close()\n
+    close(final boolean pCloseUnderlying)\n
     '''
 def skip():
-    '''public long skip(final long bytes)
+    '''returns long\n\n
+    skip(final long bytes)\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''

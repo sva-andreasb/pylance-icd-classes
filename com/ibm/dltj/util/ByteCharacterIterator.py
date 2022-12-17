@@ -1,36 +1,36 @@
-def ByteCharacterIterator():
-    '''public ByteCharacterIterator(final byte[] buf)
+def ():
+    '''returns ByteCharacterIterator\n\n
+    (final byte[] buf)\n
     '''
 def setData():
-    '''public void setData(final byte[] buf)
-    '''
-def current():
-    '''public final char current()
-    '''
-def first():
-    '''public final char first()
-    '''
-def last():
-    '''public final char last()
+    '''returns None\n\n
+    setData(final byte[] buf)\n
     '''
 def next():
-    '''public char next()
+    '''returns char\n\n
+    next()\n
     '''
 def previous():
-    '''public char previous()
+    '''returns char\n\n
+    previous()\n
     '''
 def getBeginIndex():
-    '''public int getBeginIndex()
+    '''returns int\n\n
+    getBeginIndex()\n
     '''
 def getEndIndex():
-    '''public int getEndIndex()
+    '''returns int\n\n
+    getEndIndex()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def setIndex():
-    '''public char setIndex(final int pos)
+    '''returns char\n\n
+    setIndex(final int pos)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

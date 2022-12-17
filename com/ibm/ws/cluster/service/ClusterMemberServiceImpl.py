@@ -1,53 +1,70 @@
-def ClusterMemberServiceImpl():
-    '''public ClusterMemberServiceImpl()
+def ():
+    '''returns ClusterMemberServiceImpl\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize(final Object config)
+    '''returns None\n\n
+    initialize(final Object config)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def defineLocalScopedData():
-    '''public EndPoint defineLocalScopedData(final Identity dataIdentity, final byte[] data)
+    '''returns EndPoint\n\n
+    defineLocalScopedData(final Identity dataIdentity, final byte[] data)\n
     '''
 def defineMemberScopedData():
-    '''public EndPoint defineMemberScopedData(final Identity dataIdentity, final byte[] data)
+    '''returns EndPoint\n\n
+    defineMemberScopedData(final Identity dataIdentity, final byte[] data)\n
     '''
 def undefineMemberScopedData():
-    '''public byte[] undefineMemberScopedData(final EndPoint endpoint)
+    '''returns byte[]\n\n
+    undefineMemberScopedData(final EndPoint endpoint)\n
     '''
 def undefineLocalScopedData():
-    '''public byte[] undefineLocalScopedData(final EndPoint endpoint)
+    '''returns byte[]\n\n
+    undefineLocalScopedData(final EndPoint endpoint)\n
     '''
 def joinCluster():
-    '''public void joinCluster(final Identity clusterIdentity)
-    public void joinCluster(final Identity[] hierarchicalClusterIdentities)
+    '''returns None\n\n
+    joinCluster(final Identity clusterIdentity)\n
+    joinCluster(final Identity[] hierarchicalClusterIdentities)\n
     '''
 def disjoinCluster():
-    '''public void disjoinCluster(final Identity clusterIdentity)
-    public void disjoinCluster(final Identity[] hierarchicalClusterIdentities)
+    '''returns None\n\n
+    disjoinCluster(final Identity clusterIdentity)\n
+    disjoinCluster(final Identity[] hierarchicalClusterIdentities)\n
     '''
 def getServerClusterContextListener():
-    '''public ServerClusterContext getServerClusterContextListener()
+    '''returns ServerClusterContext\n\n
+    getServerClusterContextListener()\n
     '''
 def registerDistributor():
-    '''public void registerDistributor(final ClusterContextDistributor distributor, final Identity identity)
+    '''returns None\n\n
+    registerDistributor(final ClusterContextDistributor distributor, final Identity identity)\n
     '''
 def defineAttribute():
-    '''public void defineAttribute(final String attribute)
+    '''returns None\n\n
+    defineAttribute(final String attribute)\n
     '''
 def undefineAttribute():
-    '''public void undefineAttribute(final String attribute)
+    '''returns None\n\n
+    undefineAttribute(final String attribute)\n
     '''
 def getIdentity():
-    '''public Identity getIdentity()
+    '''returns Identity\n\n
+    getIdentity()\n
     '''
 def getActiveClusterSetKey():
-    '''public DescriptionKey getActiveClusterSetKey()
+    '''returns DescriptionKey\n\n
+    getActiveClusterSetKey()\n
     '''
 def setACSWaitTime():
-    '''public void setACSWaitTime(final int time)
+    '''returns None\n\n
+    setACSWaitTime(final int time)\n
     '''
 def setupForUT():
-    '''public IdentityMap setupForUT()
+    '''returns IdentityMap\n\n
+    setupForUT()\n
     '''

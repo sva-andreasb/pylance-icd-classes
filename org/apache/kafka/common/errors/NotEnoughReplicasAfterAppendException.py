@@ -1,3 +1,4 @@
-def NotEnoughReplicasAfterAppendException():
-    '''public NotEnoughReplicasAfterAppendException(final String message)
+def ():
+    '''returns NotEnoughReplicasAfterAppendException\n\n
+    (final String message)\n
     '''

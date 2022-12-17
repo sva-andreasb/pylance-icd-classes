@@ -1,3 +1,4 @@
-def ContCompCommodity():
-    '''public ContCompCommodity(final MboSet ms)
+def ():
+    '''returns ContCompCommodity\n\n
+    (final MboSet ms)\n
     '''

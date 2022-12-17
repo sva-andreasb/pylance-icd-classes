@@ -1,6 +1,8 @@
-def CreateSurveyCommBean():
-    '''public CreateSurveyCommBean()
+def ():
+    '''returns CreateSurveyCommBean\n\n
+    ()\n
     '''
 def sendmessage():
-    '''public int sendmessage()
+    '''returns int\n\n
+    sendmessage()\n
     '''

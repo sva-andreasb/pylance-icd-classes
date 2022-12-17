@@ -1,6 +1,8 @@
-def DepTrans():
-    '''public DepTrans(final MboSet ms)
+def ():
+    '''returns DepTrans\n\n
+    (final MboSet ms)\n
     '''
 def addDepTransactions():
-    '''public void addDepTransactions(final DepSchedPeriodsRemote depSchedPeriod, final Boolean[] conditions)
+    '''returns None\n\n
+    addDepTransactions(final DepSchedPeriodsRemote depSchedPeriod, final Boolean[] conditions)\n
     '''

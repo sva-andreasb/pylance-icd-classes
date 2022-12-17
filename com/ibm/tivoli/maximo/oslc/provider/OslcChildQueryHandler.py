@@ -1,23 +1,30 @@
-def OslcChildQueryHandler():
-    '''public OslcChildQueryHandler(final MboSetRemote mboSet, final OslcRequest oslcRequest)
-    public OslcChildQueryHandler(final MboSetRemote mboSet, final String filterExp, final boolean opmodeor)
-    public OslcChildQueryHandler(final MboSetRemote mboSet, final String filterExp, final String orderByExp, final String searchTerms, final String searchAttrs, final boolean opmodeor)
+def ():
+    '''returns OslcChildQueryHandler\n\n
+    (final MboSetRemote mboSet, final OslcRequest oslcRequest)\n
+    (final MboSetRemote mboSet, final String filterExp, final boolean opmodeor)\n
+    (final MboSetRemote mboSet, final String filterExp, final String orderByExp, final String searchTerms, final String searchAttrs, final boolean opmodeor)\n
     '''
 def setTimeLineQuery():
-    '''public void setTimeLineQuery(final String tlRange, final String tlAttr)
+    '''returns None\n\n
+    setTimeLineQuery(final String tlRange, final String tlAttr)\n
     '''
 def setDomainInternalWhere():
-    '''public void setDomainInternalWhere(final String domainInternalWhere)
+    '''returns None\n\n
+    setDomainInternalWhere(final String domainInternalWhere)\n
     '''
 def setFilterDomain():
-    '''public void setFilterDomain(final String fd, final String orgid, final String siteid)
+    '''returns None\n\n
+    setFilterDomain(final String fd, final String orgid, final String siteid)\n
     '''
 def isMboSetResetNeeded():
-    '''public boolean isMboSetResetNeeded()
+    '''returns boolean\n\n
+    isMboSetResetNeeded()\n
     '''
 def handleQueryClause():
-    '''public void handleQueryClause()
+    '''returns None\n\n
+    handleQueryClause()\n
     '''
 def isNull():
-    '''public boolean isNull(final String value)
+    '''returns boolean\n\n
+    isNull(final String value)\n
     '''

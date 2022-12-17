@@ -1,12 +1,16 @@
-def XMLStreamExceptionWrapper():
-    '''public XMLStreamExceptionWrapper(final XMLStreamException ex)
+def ():
+    '''returns XMLStreamExceptionWrapper\n\n
+    (final XMLStreamException ex)\n
     '''
 def getXMLStreamException():
-    '''public XMLStreamException getXMLStreamException()
+    '''returns XMLStreamException\n\n
+    getXMLStreamException()\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

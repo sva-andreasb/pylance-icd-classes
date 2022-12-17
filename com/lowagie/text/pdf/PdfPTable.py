@@ -2,165 +2,203 @@ BASECANVAS = "int  0"
 BACKGROUNDCANVAS = "int  1"
 LINECANVAS = "int  2"
 TEXTCANVAS = "int  3"
-def PdfPTable():
-    '''public PdfPTable(final float[] relativeWidths)
-    public PdfPTable(final int numColumns)
-    public PdfPTable(final PdfPTable table)
-    '''
-def shallowCopy():
-    '''public static PdfPTable shallowCopy(final PdfPTable table)
+def ():
+    '''returns PdfPTable\n\n
+    (final float[] relativeWidths)\n
+    (final int numColumns)\n
+    (final PdfPTable table)\n
     '''
 def setWidths():
-    '''public void setWidths(final float[] relativeWidths)
-    public void setWidths(final int[] relativeWidths)
+    '''returns None\n\n
+    setWidths(final float[] relativeWidths)\n
+    setWidths(final int[] relativeWidths)\n
     '''
 def setTotalWidth():
-    '''public void setTotalWidth(final float totalWidth)
-    public void setTotalWidth(final float[] columnWidth)
+    '''returns None\n\n
+    setTotalWidth(final float totalWidth)\n
+    setTotalWidth(final float[] columnWidth)\n
     '''
 def setWidthPercentage():
-    '''public void setWidthPercentage(final float[] columnWidth, final Rectangle pageSize)
-    public void setWidthPercentage(final float widthPercentage)
+    '''returns None\n\n
+    setWidthPercentage(final float[] columnWidth, final Rectangle pageSize)\n
+    setWidthPercentage(final float widthPercentage)\n
     '''
 def getTotalWidth():
-    '''public float getTotalWidth()
+    '''returns float\n\n
+    getTotalWidth()\n
     '''
 def calculateHeightsFast():
-    '''public void calculateHeightsFast()
+    '''returns None\n\n
+    calculateHeightsFast()\n
     '''
 def getDefaultCell():
-    '''public PdfPCell getDefaultCell()
+    '''returns PdfPCell\n\n
+    getDefaultCell()\n
     '''
 def addCell():
-    '''public void addCell(final PdfPCell cell)
-    public void addCell(final String text)
-    public void addCell(final PdfPTable table)
-    public void addCell(final Image image)
-    public void addCell(final Phrase phrase)
+    '''returns None\n\n
+    addCell(final PdfPCell cell)\n
+    addCell(final String text)\n
+    addCell(final PdfPTable table)\n
+    addCell(final Image image)\n
+    addCell(final Phrase phrase)\n
     '''
 def writeSelectedRows():
-    '''public float writeSelectedRows(final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte[] canvases)
-    public float writeSelectedRows(int colStart, int colEnd, int rowStart, int rowEnd, final float xPos, float yPos, final PdfContentByte[] canvases)
-    public float writeSelectedRows(final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte canvas)
-    public float writeSelectedRows(int colStart, int colEnd, final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte canvas)
-    '''
-def beginWritingRows():
-    '''public static PdfContentByte[] beginWritingRows(final PdfContentByte canvas)
-    '''
-def endWritingRows():
-    '''public static void endWritingRows(final PdfContentByte[] canvases)
+    '''returns float\n\n
+    writeSelectedRows(final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte[] canvases)\n
+    writeSelectedRows(int colStart, int colEnd, int rowStart, int rowEnd, final float xPos, float yPos, final PdfContentByte[] canvases)\n
+    writeSelectedRows(final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte canvas)\n
+    writeSelectedRows(int colStart, int colEnd, final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte canvas)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getTotalHeight():
-    '''public float getTotalHeight()
+    '''returns float\n\n
+    getTotalHeight()\n
     '''
 def getRowHeight():
-    '''public float getRowHeight(final int idx)
+    '''returns float\n\n
+    getRowHeight(final int idx)\n
     '''
 def getHeaderHeight():
-    '''public float getHeaderHeight()
+    '''returns float\n\n
+    getHeaderHeight()\n
     '''
 def deleteRow():
-    '''public boolean deleteRow(final int rowNumber)
+    '''returns boolean\n\n
+    deleteRow(final int rowNumber)\n
     '''
 def deleteLastRow():
-    '''public boolean deleteLastRow()
+    '''returns boolean\n\n
+    deleteLastRow()\n
     '''
 def deleteBodyRows():
-    '''public void deleteBodyRows()
+    '''returns None\n\n
+    deleteBodyRows()\n
     '''
 def getHeaderRows():
-    '''public int getHeaderRows()
+    '''returns int\n\n
+    getHeaderRows()\n
     '''
 def setHeaderRows():
-    '''public void setHeaderRows(int headerRows)
+    '''returns None\n\n
+    setHeaderRows(int headerRows)\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def getWidthPercentage():
-    '''public float getWidthPercentage()
+    '''returns float\n\n
+    getWidthPercentage()\n
     '''
 def getHorizontalAlignment():
-    '''public int getHorizontalAlignment()
+    '''returns int\n\n
+    getHorizontalAlignment()\n
     '''
 def setHorizontalAlignment():
-    '''public void setHorizontalAlignment(final int horizontalAlignment)
+    '''returns None\n\n
+    setHorizontalAlignment(final int horizontalAlignment)\n
     '''
 def getRow():
-    '''public PdfPRow getRow(final int idx)
+    '''returns PdfPRow\n\n
+    getRow(final int idx)\n
     '''
 def getRows():
-    '''public ArrayList getRows()
+    '''returns ArrayList\n\n
+    getRows()\n
     '''
 def setTableEvent():
-    '''public void setTableEvent(final PdfPTableEvent event)
+    '''returns None\n\n
+    setTableEvent(final PdfPTableEvent event)\n
     '''
 def getTableEvent():
-    '''public PdfPTableEvent getTableEvent()
+    '''returns PdfPTableEvent\n\n
+    getTableEvent()\n
     '''
 def getAbsoluteWidths():
-    '''public float[] getAbsoluteWidths()
+    '''returns float[]\n\n
+    getAbsoluteWidths()\n
     '''
 def isSkipFirstHeader():
-    '''public boolean isSkipFirstHeader()
+    '''returns boolean\n\n
+    isSkipFirstHeader()\n
     '''
 def setSkipFirstHeader():
-    '''public void setSkipFirstHeader(final boolean skipFirstHeader)
+    '''returns None\n\n
+    setSkipFirstHeader(final boolean skipFirstHeader)\n
     '''
 def setRunDirection():
-    '''public void setRunDirection(final int runDirection)
+    '''returns None\n\n
+    setRunDirection(final int runDirection)\n
     '''
 def getRunDirection():
-    '''public int getRunDirection()
+    '''returns int\n\n
+    getRunDirection()\n
     '''
 def isLockedWidth():
-    '''public boolean isLockedWidth()
+    '''returns boolean\n\n
+    isLockedWidth()\n
     '''
 def setLockedWidth():
-    '''public void setLockedWidth(final boolean lockedWidth)
+    '''returns None\n\n
+    setLockedWidth(final boolean lockedWidth)\n
     '''
 def isSplitRows():
-    '''public boolean isSplitRows()
+    '''returns boolean\n\n
+    isSplitRows()\n
     '''
 def setSplitRows():
-    '''public void setSplitRows(final boolean splitRows)
+    '''returns None\n\n
+    setSplitRows(final boolean splitRows)\n
     '''
 def setSpacingBefore():
-    '''public void setSpacingBefore(final float spacing)
+    '''returns None\n\n
+    setSpacingBefore(final float spacing)\n
     '''
 def setSpacingAfter():
-    '''public void setSpacingAfter(final float spacing)
+    '''returns None\n\n
+    setSpacingAfter(final float spacing)\n
     '''
 def spacingBefore():
-    '''public float spacingBefore()
+    '''returns float\n\n
+    spacingBefore()\n
     '''
 def spacingAfter():
-    '''public float spacingAfter()
+    '''returns float\n\n
+    spacingAfter()\n
     '''
 def isExtendLastRow():
-    '''public boolean isExtendLastRow()
+    '''returns boolean\n\n
+    isExtendLastRow()\n
     '''
 def setExtendLastRow():
-    '''public void setExtendLastRow(final boolean extendLastRow)
+    '''returns None\n\n
+    setExtendLastRow(final boolean extendLastRow)\n
     '''
 def isHeadersInEvent():
-    '''public boolean isHeadersInEvent()
+    '''returns boolean\n\n
+    isHeadersInEvent()\n
     '''
 def setHeadersInEvent():
-    '''public void setHeadersInEvent(final boolean headersInEvent)
+    '''returns None\n\n
+    setHeadersInEvent(final boolean headersInEvent)\n
     '''
 def isSplitLate():
-    '''public boolean isSplitLate()
+    '''returns boolean\n\n
+    isSplitLate()\n
     '''
 def setSplitLate():
-    '''public void setSplitLate(final boolean splitLate)
+    '''returns None\n\n
+    setSplitLate(final boolean splitLate)\n
     '''

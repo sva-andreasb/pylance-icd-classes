@@ -1,13 +1,17 @@
-def StringBufferMonitor():
-    '''public StringBufferMonitor()
+def ():
+    '''returns StringBufferMonitor\n\n
+    ()\n
     '''
 def getOutput():
-    '''public String getOutput()
+    '''returns String\n\n
+    getOutput()\n
     '''
 def setError():
-    '''public void setError(final String arg0)
-    public void setError(final String arg0, final Throwable arg1)
+    '''returns None\n\n
+    setError(final String arg0)\n
+    setError(final String arg0, final Throwable arg1)\n
     '''
 def setTask():
-    '''public void setTask(final String arg0)
+    '''returns None\n\n
+    setTask(final String arg0)\n
     '''

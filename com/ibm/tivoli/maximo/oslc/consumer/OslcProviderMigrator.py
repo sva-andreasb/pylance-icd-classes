@@ -1,20 +1,22 @@
 OSLC_PROVIDER_GROUP = "String  \"OSLCPROVIDER\""
 OSLC_PROVIDER_PKGDEF = "String  \"OSLCPROVIDER\""
-def OslcProviderMigrator():
-    '''public OslcProviderMigrator(final MXTransaction trans, final UserInfo userInfo)
+def ():
+    '''returns OslcProviderMigrator\n\n
+    (final MXTransaction trans, final UserInfo userInfo)\n
     '''
 def migrateProvider():
-    '''public void migrateProvider(final String name)
+    '''returns None\n\n
+    migrateProvider(final String name)\n
     '''
 def migrate():
-    '''public void migrate(final String groupName, final String defName, final Map<String, String> whereMap)
-    '''
-def buildDMWhereClause():
-    '''public Map<String, String> buildDMWhereClause()
+    '''returns None\n\n
+    migrate(final String groupName, final String defName, final Map<String, String> whereMap)\n
     '''
 def buildChildrenWhereClause():
-    '''public void buildChildrenWhereClause(final String authWhere, final String optionWhere, final String presentWhere)
+    '''returns None\n\n
+    buildChildrenWhereClause(final String authWhere, final String optionWhere, final String presentWhere)\n
     '''
 def setDMWhereClause():
-    '''public void setDMWhereClause(final MboRemote packageDef, final String groupName, final String defName, final Map<String, String> whereMap)
+    '''returns None\n\n
+    setDMWhereClause(final MboRemote packageDef, final String groupName, final String defName, final Map<String, String> whereMap)\n
     '''

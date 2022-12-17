@@ -1,6 +1,4 @@
-def ResponseSet():
-    '''public ResponseSet(final MboServerInterface ms)
-    '''
-def saveSurveyResponse():
-    '''public synchronized void saveSurveyResponse(final List questionsAnswerList)
+def ():
+    '''returns ResponseSet\n\n
+    (final MboServerInterface ms)\n
     '''

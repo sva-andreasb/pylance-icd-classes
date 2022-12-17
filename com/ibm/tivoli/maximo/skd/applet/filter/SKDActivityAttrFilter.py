@@ -1,77 +1,99 @@
-def SKDActivityAttrFilter():
-    '''public SKDActivityAttrFilter()
+def ():
+    '''returns QbeExpression\n\n
+    ()\n
+    (final String attrName, final String expr)\n
     '''
 def showHiddenActivities():
-    '''public void showHiddenActivities(final boolean show)
+    '''returns None\n\n
+    showHiddenActivities(final boolean show)\n
     '''
 def setRegex():
-    '''public void setRegex(String regex)
+    '''returns None\n\n
+    setRegex(String regex)\n
     '''
 def getRegex():
-    '''public String getRegex()
+    '''returns String\n\n
+    getRegex()\n
     '''
 def filterActivitiesBasedOnCrafts():
-    '''public void filterActivitiesBasedOnCrafts(final boolean filterBasedOnCrafts)
+    '''returns None\n\n
+    filterActivitiesBasedOnCrafts(final boolean filterBasedOnCrafts)\n
     '''
 def filterReqBasedOnActivities():
-    '''public void filterReqBasedOnActivities(final boolean filterReqBasedOnActivities)
+    '''returns None\n\n
+    filterReqBasedOnActivities(final boolean filterReqBasedOnActivities)\n
     '''
 def setActivitiesNeeded():
-    '''public void setActivitiesNeeded(final HashSet activitiesNeeded)
+    '''returns None\n\n
+    setActivitiesNeeded(final HashSet activitiesNeeded)\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def evaluate():
-    '''public boolean evaluate(final IlvActivity activity)
+    '''returns boolean\n\n
+    evaluate(final IlvActivity activity)\n
     '''
 def setQbeFilter():
-    '''public void setQbeFilter(final Map<String, String> qbeattrs)
+    '''returns None\n\n
+    setQbeFilter(final Map<String, String> qbeattrs)\n
     '''
 def reEvaluate():
-    '''public void reEvaluate()
+    '''returns None\n\n
+    reEvaluate()\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''
 def setQbe():
-    '''public void setQbe(String attrName, final String expr)
+    '''returns None\n\n
+    setQbe(String attrName, final String expr)\n
     '''
 def getQbe():
-    '''public String getQbe(String attrName)
-    public String[][] getQbe()
+    '''returns String[][]\n\n
+    getQbe(String attrName)\n
+    getQbe()\n
     '''
 def hasQbe():
-    '''public boolean hasQbe()
+    '''returns boolean\n\n
+    hasQbe()\n
     '''
 def satisfy():
-    '''public boolean satisfy(final IlvActivity activity)
-    public boolean satisfy(final IlvActivity activity)
+    '''returns boolean\n\n
+    satisfy(final IlvActivity activity)\n
+    satisfy(final IlvActivity activity)\n
     '''
 def setQbeExactMatch():
-    '''public void setQbeExactMatch(final boolean state)
+    '''returns None\n\n
+    setQbeExactMatch(final boolean state)\n
     '''
 def setQbeCaseSensitive():
-    '''public void setQbeCaseSensitive(final boolean state)
+    '''returns None\n\n
+    setQbeCaseSensitive(final boolean state)\n
     '''
 def setOperatorOr():
-    '''public void setOperatorOr()
+    '''returns None\n\n
+    setOperatorOr()\n
     '''
 def isUsingQbeExactMatch():
-    '''public boolean isUsingQbeExactMatch()
+    '''returns boolean\n\n
+    isUsingQbeExactMatch()\n
     '''
 def ignoreQbeExactMatchSet():
-    '''public void ignoreQbeExactMatchSet(final boolean flag)
+    '''returns None\n\n
+    ignoreQbeExactMatchSet(final boolean flag)\n
     '''
 def isIgnoreQbeExactMatchSet():
-    '''public boolean isIgnoreQbeExactMatchSet()
+    '''returns boolean\n\n
+    isIgnoreQbeExactMatchSet()\n
     '''
 def setGanttConfigInfo():
-    '''public void setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)
+    '''returns None\n\n
+    setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)\n
     '''
 def clone():
-    '''public Object clone()
-    '''
-def QbeExpression():
-    '''public QbeExpression(final String attrName, final String expr)
+    '''returns Object\n\n
+    clone()\n
     '''

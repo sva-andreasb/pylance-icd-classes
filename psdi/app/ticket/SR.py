@@ -1,15 +1,20 @@
-def SR():
-    '''public SR(final MboSet ms)
+def ():
+    '''returns SR\n\n
+    (final MboSet ms)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def newWorkLog():
-    '''public void newWorkLog()
+    '''returns None\n\n
+    newWorkLog()\n
     '''

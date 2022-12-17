@@ -1,38 +1,42 @@
-def addFilter():
-    '''public synchronized void addFilter(final Filter filter)
-    '''
 def getFilter():
-    '''public Filter getFilter()
-    public Filter getFilter()
+    '''returns Filter\n\n
+    getFilter()\n
+    getFilter()\n
     '''
 def hasFilter():
-    '''public boolean hasFilter()
+    '''returns boolean\n\n
+    hasFilter()\n
     '''
 def isFiltered():
-    '''public boolean isFiltered(final LogEvent event)
-    '''
-def removeFilter():
-    '''public synchronized void removeFilter(final Filter filter)
+    '''returns boolean\n\n
+    isFiltered(final LogEvent event)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def getPropertyArray():
-    '''public Property[] getPropertyArray()
-    public Property[] getPropertyArray()
+    '''returns Property[]\n\n
+    getPropertyArray()\n
+    getPropertyArray()\n
     '''
 def asBuilder():
-    '''public B asBuilder()
+    '''returns B\n\n
+    asBuilder()\n
     '''
 def setFilter():
-    '''public B setFilter(final Filter filter)
+    '''returns B\n\n
+    setFilter(final Filter filter)\n
     '''
 def setPropertyArray():
-    '''public B setPropertyArray(final Property[] properties)
+    '''returns B\n\n
+    setPropertyArray(final Property[] properties)\n
     '''
 def withFilter():
-    '''public B withFilter(final Filter filter)
+    '''returns B\n\n
+    withFilter(final Filter filter)\n
     '''

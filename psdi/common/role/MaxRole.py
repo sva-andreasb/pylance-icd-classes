@@ -1,39 +1,51 @@
-def MaxRole():
-    '''public MaxRole(final MboSet ms)
+def ():
+    '''returns MaxRole\n\n
+    (final MboSet ms)\n
     '''
 def setFieldFlags():
-    '''public void setFieldFlags()
+    '''returns None\n\n
+    setFieldFlags()\n
     '''
 def resolveRole():
-    '''public PersonSetRemote resolveRole(final MboRemote mbo)
-    public PersonSetRemote resolveRole(final MboRemote mbo, final boolean skipemail)
-    public PersonSetRemote resolveRole(MboRemote mbo, final boolean skipemail, final boolean treatNoCalAsAvailable)
+    '''returns PersonSetRemote\n\n
+    resolveRole(final MboRemote mbo)\n
+    resolveRole(final MboRemote mbo, final boolean skipemail)\n
+    resolveRole(MboRemote mbo, final boolean skipemail, final boolean treatNoCalAsAvailable)\n
     '''
 def getGroupPeople():
-    '''public PersonSetRemote getGroupPeople(final PersonGroupRemote group, final MboRemote mbo)
-    public PersonSetRemote getGroupPeople(final PersonGroupRemote group, final MboRemote mbo, final boolean treatNoCalAsAvailable)
+    '''returns PersonSetRemote\n\n
+    getGroupPeople(final PersonGroupRemote group, final MboRemote mbo)\n
+    getGroupPeople(final PersonGroupRemote group, final MboRemote mbo, final boolean treatNoCalAsAvailable)\n
     '''
 def getPerson():
-    '''public PersonSetRemote getPerson(final String pid)
+    '''returns PersonSetRemote\n\n
+    getPerson(final String pid)\n
     '''
 def personEmail():
-    '''public String personEmail(final MboRemote person)
+    '''returns String\n\n
+    personEmail(final MboRemote person)\n
     '''
 def resolveToEmail():
-    '''public String[] resolveToEmail(MboRemote mbo)
+    '''returns String[]\n\n
+    resolveToEmail(MboRemote mbo)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def isAttribute():
-    '''public boolean isAttribute(String value)
+    '''returns boolean\n\n
+    isAttribute(String value)\n
     '''

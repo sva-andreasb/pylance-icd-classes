@@ -1,16 +1,20 @@
-def XMLWriter():
-    '''public XMLWriter(final Writer w)
-    public XMLWriter(final Writer w, final String xmlns)
+def ():
+    '''returns XMLWriter\n\n
+    (final Writer w)\n
+    (final Writer w, final String xmlns)\n
     '''
 def startElement():
-    '''public XMLWriter startElement(final String element)
+    '''returns XMLWriter\n\n
+    startElement(final String element)\n
     '''
 def endElement():
-    '''public XMLWriter endElement()
+    '''returns XMLWriter\n\n
+    endElement()\n
     '''
 def value():
-    '''public XMLWriter value(final String s)
-    public XMLWriter value(final ByteBuffer b)
-    public XMLWriter value(final Date date)
-    public XMLWriter value(final Object obj)
+    '''returns XMLWriter\n\n
+    value(final String s)\n
+    value(final ByteBuffer b)\n
+    value(final Date date)\n
+    value(final Object obj)\n
     '''

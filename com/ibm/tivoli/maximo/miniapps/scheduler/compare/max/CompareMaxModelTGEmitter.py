@@ -1,21 +1,25 @@
-def CompareMaxModelTGEmitter():
-    '''public CompareMaxModelTGEmitter(final StreamingDataBuilder out)
+def ():
+    '''returns ModelNumIDGenerator\n\n
+    (final StreamingDataBuilder out)\n
+    (final int num)\n
     '''
 def beginNode():
-    '''public Result beginNode(final int modelIndex, final IMXGanttModel model, final IMXActivity node, final boolean modified)
+    '''returns Result\n\n
+    beginNode(final int modelIndex, final IMXGanttModel model, final IMXActivity node, final boolean modified)\n
     '''
 def endNode():
-    '''public void endNode(final int modelIndex, final IMXGanttModel model, final IMXActivity node)
+    '''returns None\n\n
+    endNode(final int modelIndex, final IMXGanttModel model, final IMXActivity node)\n
     '''
 def beginChildren():
-    '''public void beginChildren()
+    '''returns None\n\n
+    beginChildren()\n
     '''
 def endChildren():
-    '''public void endChildren()
-    '''
-def ModelNumIDGenerator():
-    '''public ModelNumIDGenerator(final int num)
+    '''returns None\n\n
+    endChildren()\n
     '''
 def generateId():
-    '''public String generateId(final IMXPropertyGetterSetter node)
+    '''returns String\n\n
+    generateId(final IMXPropertyGetterSetter node)\n
     '''

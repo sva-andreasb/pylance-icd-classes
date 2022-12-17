@@ -1,98 +1,125 @@
 REFRESH_MODEL_NEEDED = "int  0"
 REFRESH_PARTIAL_MODEL_NEEDED = "int  1"
 REFRESH_APPLET_MODEL_ONLY = "int  2"
-def FWMActionsFacade():
-    '''public FWMActionsFacade(final JSObject window, final String namespace)
+def ():
+    '''returns UpdateInformation\n\n
+    (final JSObject window, final String namespace)\n
+    (final MXResource newresource, final MXActivity activity, final MXResource oldresource)\n
     '''
 def isInitialized():
-    '''public boolean isInitialized()
+    '''returns boolean\n\n
+    isInitialized()\n
     '''
 def executeJSCall():
-    '''public void executeJSCall(final String functionName)
-    public void executeJSCall(final String functionName, final JSONArtifact params)
-    public void executeJSCall(final String functionName, final JSONArtifact params, final String callbackMethodName, final String errorCallback)
+    '''returns None\n\n
+    executeJSCall(final String functionName)\n
+    executeJSCall(final String functionName, final JSONArtifact params)\n
+    executeJSCall(final String functionName, final JSONArtifact params, final String callbackMethodName, final String errorCallback)\n
     '''
 def executeJSFNCall():
-    '''public void executeJSFNCall(final String functionName, final String param1)
-    public void executeJSFNCall(final String functionName, final String param1, final String param2)
+    '''returns None\n\n
+    executeJSFNCall(final String functionName, final String param1)\n
+    executeJSFNCall(final String functionName, final String param1, final String param2)\n
     '''
 def deleteAssignment():
-    '''public void deleteAssignment(final String assignId, final MXResource resource)
+    '''returns None\n\n
+    deleteAssignment(final String assignId, final MXResource resource)\n
     '''
 def onAssignmentDelete():
-    '''public int onAssignmentDelete(final JSONObject data)
+    '''returns int\n\n
+    onAssignmentDelete(final JSONObject data)\n
     '''
 def createAssignment():
-    '''public void createAssignment(final String assignId, final MXResource resource)
+    '''returns None\n\n
+    createAssignment(final String assignId, final MXResource resource)\n
     '''
 def onAssignmentCreate():
-    '''public int onAssignmentCreate(final JSONObject data)
+    '''returns int\n\n
+    onAssignmentCreate(final JSONObject data)\n
     '''
 def syncUpdatedAssignments():
-    '''public void syncUpdatedAssignments()
+    '''returns None\n\n
+    syncUpdatedAssignments()\n
     '''
 def addUpdateActivity():
-    '''public void addUpdateActivity(final MXResource newResource, final MXActivity currentActivity)
-    public void addUpdateActivity(final MXResource newResource, final MXActivity currentActivity, final MXResource oldresource)
+    '''returns None\n\n
+    addUpdateActivity(final MXResource newResource, final MXActivity currentActivity)\n
+    addUpdateActivity(final MXResource newResource, final MXActivity currentActivity, final MXResource oldresource)\n
     '''
 def splitAssignment():
-    '''public void splitAssignment(final String assignmentId, final Integer numberOfSplits, final MXResource resource)
+    '''returns None\n\n
+    splitAssignment(final String assignmentId, final Integer numberOfSplits, final MXResource resource)\n
     '''
 def onAssignmentSplit():
-    '''public int onAssignmentSplit(final JSONObject data)
+    '''returns int\n\n
+    onAssignmentSplit(final JSONObject data)\n
     '''
 def drawRouteCallback():
-    '''public int drawRouteCallback()
+    '''returns int\n\n
+    drawRouteCallback()\n
     '''
 def splitAssignmentToShift():
-    '''public void splitAssignmentToShift(final String assignmentId, final MXResource resource)
+    '''returns None\n\n
+    splitAssignmentToShift(final String assignmentId, final MXResource resource)\n
     '''
 def onAssignmentSplitToShift():
-    '''public int onAssignmentSplitToShift(final JSONObject data)
+    '''returns int\n\n
+    onAssignmentSplitToShift(final JSONObject data)\n
     '''
 def updateMap():
-    '''public void updateMap(final IlvGanttModel ganttModel, final JSONObject refreshOptions)
-    public void updateMap(final IlvTimeInterval visibleInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)
+    '''returns None\n\n
+    updateMap(final IlvGanttModel ganttModel, final JSONObject refreshOptions)\n
+    updateMap(final IlvTimeInterval visibleInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)\n
     '''
 def setMapReady():
-    '''public void setMapReady()
+    '''returns None\n\n
+    setMapReady()\n
     '''
 def clearRoutes():
-    '''public void clearRoutes()
+    '''returns None\n\n
+    clearRoutes()\n
     '''
 def refreshRoutes():
-    '''public void refreshRoutes(final IlvGanttModel ganttModel)
+    '''returns None\n\n
+    refreshRoutes(final IlvGanttModel ganttModel)\n
     '''
 def triggerServerMessages():
-    '''public void triggerServerMessages()
+    '''returns None\n\n
+    triggerServerMessages()\n
     '''
 def onBulkAssignments():
-    '''public int onBulkAssignments(final JSONObject data)
+    '''returns int\n\n
+    onBulkAssignments(final JSONObject data)\n
     '''
 def onSLRTravelTimeUpdated():
-    '''public int onSLRTravelTimeUpdated(final JSONObject data)
+    '''returns int\n\n
+    onSLRTravelTimeUpdated(final JSONObject data)\n
     '''
 def onServerError():
-    '''public int onServerError(final JSONObject data)
+    '''returns int\n\n
+    onServerError(final JSONObject data)\n
     '''
 def onRefreshResources():
-    '''public int onRefreshResources(final JSONObject data)
+    '''returns int\n\n
+    onRefreshResources(final JSONObject data)\n
     '''
 def toggleLock():
-    '''public void toggleLock(final String assignId, final MXResource resource, final Boolean lock)
+    '''returns None\n\n
+    toggleLock(final String assignId, final MXResource resource, final Boolean lock)\n
     '''
 def onAssignmentToggleLock():
-    '''public int onAssignmentToggleLock(final JSONObject data)
+    '''returns int\n\n
+    onAssignmentToggleLock(final JSONObject data)\n
     '''
 def notifyAssignmentSelecting():
-    '''public void notifyAssignmentSelecting(final String activityId)
+    '''returns None\n\n
+    notifyAssignmentSelecting(final String activityId)\n
     '''
 def refreshResource():
-    '''public void refreshResource(final MXResource resource)
+    '''returns None\n\n
+    refreshResource(final MXResource resource)\n
     '''
 def onRefreshResource():
-    '''public int onRefreshResource(final JSONObject data)
-    '''
-def UpdateInformation():
-    '''public UpdateInformation(final MXResource newresource, final MXActivity activity, final MXResource oldresource)
+    '''returns int\n\n
+    onRefreshResource(final JSONObject data)\n
     '''

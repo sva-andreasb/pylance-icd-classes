@@ -1,7 +1,9 @@
-def ClassNotLoadedException():
-    '''public ClassNotLoadedException(final String className)
-    public ClassNotLoadedException(final String className, final String message)
+def ():
+    '''returns ClassNotLoadedException\n\n
+    (final String className)\n
+    (final String className, final String message)\n
     '''
 def className():
-    '''public String className()
+    '''returns String\n\n
+    className()\n
     '''

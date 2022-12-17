@@ -1,35 +1,43 @@
-def SelectionServiceImpl():
-    '''public SelectionServiceImpl()
+def ():
+    '''returns SoftKey\n\n
+    ()\n
+    (final Identity cluster, final Map key, final ReferenceQueue queue)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def select():
-    '''public Target select(final Identity clusterIdentity)
-    public Target select(final SelectionCriteria criteria)
+    '''returns Target\n\n
+    select(final Identity clusterIdentity)\n
+    select(final SelectionCriteria criteria)\n
     '''
 def getCriteria():
-    '''public SelectionCriteria getCriteria(final Identity clusterIdentity, final boolean process, final boolean host, final Map matchingEndpoints, final Set matchingAttributes)
-    public SelectionCriteria getCriteria(final Identity clusterIdentity, final Map context)
+    '''returns SelectionCriteria\n\n
+    getCriteria(final Identity clusterIdentity, final boolean process, final boolean host, final Map matchingEndpoints, final Set matchingAttributes)\n
+    getCriteria(final Identity clusterIdentity, final Map context)\n
     '''
 def getRule():
-    '''public SelectionRule getRule(final String ruleName)
+    '''returns SelectionRule\n\n
+    getRule(final String ruleName)\n
     '''
 def registerResolver():
-    '''public void registerResolver(final ClusterIdentityResolver resolver)
+    '''returns None\n\n
+    registerResolver(final ClusterIdentityResolver resolver)\n
     '''
 def unregisterResolver():
-    '''public void unregisterResolver(final ClusterIdentityResolver resolver)
+    '''returns None\n\n
+    unregisterResolver(final ClusterIdentityResolver resolver)\n
     '''
 def getOrderedSequence():
-    '''public ClusterIdentityResolver[] getOrderedSequence()
-    '''
-def SoftKey():
-    '''public SoftKey(final Identity cluster, final Map key, final ReferenceQueue queue)
+    '''returns ClusterIdentityResolver[]\n\n
+    getOrderedSequence()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

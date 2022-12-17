@@ -1,42 +1,48 @@
-def CronExpression():
-    '''public CronExpression(final String cronExpression)
+def ():
+    '''returns CronExpression\n\n
+    (final String cronExpression)\n
     '''
 def isSatisfiedBy():
-    '''public boolean isSatisfiedBy(final Date date)
+    '''returns boolean\n\n
+    isSatisfiedBy(final Date date)\n
     '''
 def getNextValidTimeAfter():
-    '''public Date getNextValidTimeAfter(final Date date)
+    '''returns Date\n\n
+    getNextValidTimeAfter(final Date date)\n
     '''
 def getNextInvalidTimeAfter():
-    '''public Date getNextInvalidTimeAfter(final Date date)
+    '''returns Date\n\n
+    getNextInvalidTimeAfter(final Date date)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def setTimeZone():
-    '''public void setTimeZone(final TimeZone timeZone)
+    '''returns None\n\n
+    setTimeZone(final TimeZone timeZone)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def isValidExpression():
-    '''public static boolean isValidExpression(final String cronExpression)
-    '''
-def validateExpression():
-    '''public static void validateExpression(final String cronExpression)
+    '''returns String\n\n
+    toString()\n
     '''
 def getCronExpression():
-    '''public String getCronExpression()
+    '''returns String\n\n
+    getCronExpression()\n
     '''
 def getExpressionSummary():
-    '''public String getExpressionSummary()
+    '''returns String\n\n
+    getExpressionSummary()\n
     '''
 def getTimeAfter():
-    '''public Date getTimeAfter(Date afterTime)
+    '''returns Date\n\n
+    getTimeAfter(Date afterTime)\n
     '''
 def getPrevFireTime():
-    '''public Date getPrevFireTime(final Date targetDate)
+    '''returns Date\n\n
+    getPrevFireTime(final Date targetDate)\n
     '''
 def getFinalFireTime():
-    '''public Date getFinalFireTime()
+    '''returns Date\n\n
+    getFinalFireTime()\n
     '''

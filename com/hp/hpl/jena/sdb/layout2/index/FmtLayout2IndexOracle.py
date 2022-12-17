@@ -1,3 +1,4 @@
-def FmtLayout2IndexOracle():
-    '''public FmtLayout2IndexOracle(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2IndexOracle\n\n
+    (final SDBConnection connection)\n
     '''

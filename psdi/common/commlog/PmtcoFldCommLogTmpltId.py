@@ -1,12 +1,16 @@
-def PmtcoFldCommLogTmpltId():
-    '''public PmtcoFldCommLogTmpltId(final MboValue mbv)
+def ():
+    '''returns PmtcoFldCommLogTmpltId\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def toSendFromCurrentUser():
-    '''public boolean toSendFromCurrentUser()
+    '''returns boolean\n\n
+    toSendFromCurrentUser()\n
     '''
 def setSendFromCurrentUser():
-    '''public void setSendFromCurrentUser()
+    '''returns None\n\n
+    setSendFromCurrentUser()\n
     '''

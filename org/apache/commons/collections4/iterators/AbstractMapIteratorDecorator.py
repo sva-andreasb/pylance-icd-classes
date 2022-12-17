@@ -1,21 +1,28 @@
-def AbstractMapIteratorDecorator():
-    '''public AbstractMapIteratorDecorator(final MapIterator<K, V> iterator)
+def ():
+    '''returns AbstractMapIteratorDecorator\n\n
+    (final MapIterator<K, V> iterator)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public K next()
+    '''returns K\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V obj)
+    '''returns V\n\n
+    setValue(final V obj)\n
     '''

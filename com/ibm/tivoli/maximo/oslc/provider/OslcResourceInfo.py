@@ -1,69 +1,84 @@
-def OslcResourceInfo():
-    '''public OslcResourceInfo(final String osName, final String oslcName, final String oslcNsURI, final String domainName, final String usageURI, final boolean defaultUsage, final String oslcSpAttr, final int defaultPageSize, final boolean cache, final String defaultNamespace, final String updateColName, final Map<String, OslcResourceDetailInfo> oslcRelatedResources, final String searchattrs, final boolean useIDAsURI)
+def ():
+    '''returns OslcResourceInfo\n\n
+    (final String osName, final String oslcName, final String oslcNsURI, final String domainName, final String usageURI, final boolean defaultUsage, final String oslcSpAttr, final int defaultPageSize, final boolean cache, final String defaultNamespace, final String updateColName, final Map<String, OslcResourceDetailInfo> oslcRelatedResources, final String searchattrs, final boolean useIDAsURI)\n
     '''
 def isOSAsResource():
-    '''public boolean isOSAsResource()
+    '''returns boolean\n\n
+    isOSAsResource()\n
     '''
 def isUseIDAsURI():
-    '''public boolean isUseIDAsURI()
+    '''returns boolean\n\n
+    isUseIDAsURI()\n
     '''
 def getURIKeyList():
-    '''public List<MboValueInfo> getURIKeyList()
+    '''returns List<MboValueInfo>\n\n
+    getURIKeyList()\n
     '''
 def getPrimaryResourceDetailInfo():
-    '''public OslcResourceDetailInfo getPrimaryResourceDetailInfo()
+    '''returns OslcResourceDetailInfo\n\n
+    getPrimaryResourceDetailInfo()\n
     '''
 def getOslcDomainInfo():
-    '''public DomainInfo getOslcDomainInfo()
+    '''returns DomainInfo\n\n
+    getOslcDomainInfo()\n
     '''
 def getOsName():
-    '''public String getOsName()
+    '''returns String\n\n
+    getOsName()\n
     '''
 def getOslcName():
-    '''public String getOslcName()
+    '''returns String\n\n
+    getOslcName()\n
     '''
 def getOslcNamespace():
-    '''public String getOslcNamespace()
+    '''returns String\n\n
+    getOslcNamespace()\n
     '''
 def getDomainName():
-    '''public String getDomainName()
+    '''returns String\n\n
+    getDomainName()\n
     '''
 def getSearchableAttributes():
-    '''public String[] getSearchableAttributes()
+    '''returns String[]\n\n
+    getSearchableAttributes()\n
     '''
 def getUsageURI():
-    '''public String getUsageURI()
+    '''returns String\n\n
+    getUsageURI()\n
     '''
 def getUsageURISet():
-    '''public Set<String> getUsageURISet()
+    '''returns Set<String>\n\n
+    getUsageURISet()\n
     '''
 def isDefaultUsage():
-    '''public boolean isDefaultUsage()
+    '''returns boolean\n\n
+    isDefaultUsage()\n
     '''
 def getOslcSpAttr():
-    '''public String getOslcSpAttr()
-    '''
-def getOslcRelatedResources():
-    '''public Map<String, OslcResourceDetailInfo> getOslcRelatedResources()
+    '''returns String\n\n
+    getOslcSpAttr()\n
     '''
 def getRelatedResource():
-    '''public OslcResourceDetailInfo getRelatedResource(final String hPath)
+    '''returns OslcResourceDetailInfo\n\n
+    getRelatedResource(final String hPath)\n
     '''
 def isCache():
-    '''public boolean isCache()
+    '''returns boolean\n\n
+    isCache()\n
     '''
 def getDefaultPageSize():
-    '''public int getDefaultPageSize()
+    '''returns int\n\n
+    getDefaultPageSize()\n
     '''
 def getDefaultNamespace():
-    '''public String getDefaultNamespace()
+    '''returns String\n\n
+    getDefaultNamespace()\n
     '''
 def getUpdateColName():
-    '''public String getUpdateColName()
-    '''
-def getSavedQueryMap():
-    '''public Map<String, SavedQueryInfo> getSavedQueryMap()
+    '''returns String\n\n
+    getUpdateColName()\n
     '''
 def setSavedQueryMap():
-    '''public void setSavedQueryMap(final Map<String, SavedQueryInfo> savedQueryMap)
+    '''returns None\n\n
+    setSavedQueryMap(final Map<String, SavedQueryInfo> savedQueryMap)\n
     '''

@@ -1,6 +1,8 @@
-def SetBoolData():
-    '''public SetBoolData(final String name, final boolean value)
+def ():
+    '''returns SetBoolData\n\n
+    (final String name, final boolean value)\n
     '''
 def getBooleanValue():
-    '''public Boolean getBooleanValue()
+    '''returns Boolean\n\n
+    getBooleanValue()\n
     '''

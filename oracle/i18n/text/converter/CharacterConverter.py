@@ -12,15 +12,19 @@ CHARCONVAL16UTF16ID = "int  10"
 CHARCONVMSOLISO2022JPFWID = "int  11"
 CHARCONVMSOLISO2022JPHWID = "int  12"
 CHARCONVGBKID = "int  13"
-def CharacterConverter():
-    '''public CharacterConverter()
+def ():
+    '''returns CharacterConverter\n\n
+    ()\n
     '''
 def getGroupId():
-    '''public int getGroupId()
+    '''returns int\n\n
+    getGroupId()\n
     '''
 def getOracleId():
-    '''public int getOracleId()
+    '''returns int\n\n
+    getOracleId()\n
     '''
 def getLeadingCodes():
-    '''public char[] getLeadingCodes()
+    '''returns char[]\n\n
+    getLeadingCodes()\n
     '''

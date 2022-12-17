@@ -1,29 +1,38 @@
 LOGGED_IN = "int  -2147483647"
 LOGGED_OUT = "int  -2147483646"
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getCommunity():
-    '''public String getCommunity()
+    '''returns String\n\n
+    getCommunity()\n
     '''
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def getLogin():
-    '''public Login getLogin()
+    '''returns Login\n\n
+    getLogin()\n
     '''
 def getLoginType():
-    '''public short getLoginType()
+    '''returns short\n\n
+    getLoginType()\n
     '''
 def getServiceTypes():
-    '''public int[] getServiceTypes()
+    '''returns int[]\n\n
+    getServiceTypes()\n
     '''
 def getIp():
-    '''public InetAddress getIp()
+    '''returns InetAddress\n\n
+    getIp()\n
     '''
 def isReconnecting():
-    '''public boolean isReconnecting()
+    '''returns boolean\n\n
+    isReconnecting()\n
     '''
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''

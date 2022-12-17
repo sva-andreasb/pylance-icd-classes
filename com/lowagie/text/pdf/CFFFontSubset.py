@@ -1,6 +1,8 @@
-def CFFFontSubset():
-    '''public CFFFontSubset(final RandomAccessFileOrArray rf, final HashMap GlyphsUsed)
+def ():
+    '''returns CFFFontSubset\n\n
+    (final RandomAccessFileOrArray rf, final HashMap GlyphsUsed)\n
     '''
 def Process():
-    '''public byte[] Process(final String fontName)
+    '''returns byte[]\n\n
+    Process(final String fontName)\n
     '''

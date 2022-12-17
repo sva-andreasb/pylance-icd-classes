@@ -1,3 +1,4 @@
-def RBBIDataHeader():
-    '''public RBBIDataHeader()
+def ():
+    '''returns RBBIDataHeader\n\n
+    ()\n
     '''

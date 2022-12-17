@@ -1,6 +1,8 @@
-def TloamDeployedSoftwareSet():
-    '''public TloamDeployedSoftwareSet(final MboServerInterface ms)
+def ():
+    '''returns TloamDeployedSoftwareSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setUseException():
-    '''public void setUseException(final String newUseException, final String newJustificationRemarks)
+    '''returns None\n\n
+    setUseException(final String newUseException, final String newJustificationRemarks)\n
     '''

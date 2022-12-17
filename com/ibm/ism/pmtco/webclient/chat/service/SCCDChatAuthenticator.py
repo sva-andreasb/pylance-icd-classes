@@ -1,21 +1,24 @@
-def SCCDChatAuthenticator():
-    '''public SCCDChatAuthenticator(final Oort oort)
+def ():
+    '''returns SCCDChatAuthenticator\n\n
+    (final Oort oort)\n
     '''
 def canHandshake():
-    '''public boolean canHandshake(final BayeuxServer server, final ServerSession session, final ServerMessage message)
+    '''returns boolean\n\n
+    canHandshake(final BayeuxServer server, final ServerSession session, final ServerMessage message)\n
     '''
 def canCreate():
-    '''public boolean canCreate(final BayeuxServer server, final ServerSession session, final String channelId, final ServerMessage message)
+    '''returns boolean\n\n
+    canCreate(final BayeuxServer server, final ServerSession session, final String channelId, final ServerMessage message)\n
     '''
 def canPublish():
-    '''public boolean canPublish(final BayeuxServer server, final ServerSession session, final ServerChannel channel, final ServerMessage message)
+    '''returns boolean\n\n
+    canPublish(final BayeuxServer server, final ServerSession session, final ServerChannel channel, final ServerMessage message)\n
     '''
 def canSubscribe():
-    '''public boolean canSubscribe(final BayeuxServer server, final ServerSession session, final ServerChannel channel, final ServerMessage message)
+    '''returns boolean\n\n
+    canSubscribe(final BayeuxServer server, final ServerSession session, final ServerChannel channel, final ServerMessage message)\n
     '''
 def removed():
-    '''public void removed(final ServerSession session, final boolean expired)
-    '''
-def getPersonIDByClientID():
-    '''public static String getPersonIDByClientID(final String clientID)
+    '''returns None\n\n
+    removed(final ServerSession session, final boolean expired)\n
     '''

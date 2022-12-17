@@ -1,39 +1,34 @@
 HORIZONTAL = "int  0"
 VERTICAL = "int  1"
-def IlvChartAreaSynchronizer():
-    '''public IlvChartAreaSynchronizer(final int d)
-    '''
-def getChart():
-    '''public final IlvChart getChart()
-    '''
-def getTargetComponent():
-    '''public final Component getTargetComponent()
+def ():
+    '''returns IlvChartAreaSynchronizer\n\n
+    (final int d)\n
     '''
 def plug():
-    '''public void plug(final IlvChart b, final Component c)
+    '''returns None\n\n
+    plug(final IlvChart b, final Component c)\n
     '''
 def unplug():
-    '''public void unplug()
-    '''
-def synchronize():
-    '''public static void synchronize(final IlvChart ilvChart, final Component component)
-    public static void synchronize(final IlvChart ilvChart, final Component component, final IlvChartAreaSynchronizer value)
-    '''
-def unSynchronize():
-    '''public static IlvChartAreaSynchronizer unSynchronize(final IlvChart ilvChart)
+    '''returns None\n\n
+    unplug()\n
     '''
 def beforeDraw():
-    '''public void beforeDraw(final ChartDrawEvent chartDrawEvent)
+    '''returns None\n\n
+    beforeDraw(final ChartDrawEvent chartDrawEvent)\n
     '''
 def afterDraw():
-    '''public void afterDraw(final ChartDrawEvent chartDrawEvent)
+    '''returns None\n\n
+    afterDraw(final ChartDrawEvent chartDrawEvent)\n
     '''
 def chartAreaChanged():
-    '''public void chartAreaChanged(final ChartAreaEvent chartAreaEvent)
+    '''returns None\n\n
+    chartAreaChanged(final ChartAreaEvent chartAreaEvent)\n
     '''
 def componentMoved():
-    '''public void componentMoved(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentMoved(final ComponentEvent componentEvent)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''

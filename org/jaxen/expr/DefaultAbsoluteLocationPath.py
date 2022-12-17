@@ -1,15 +1,20 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isAbsolute():
-    '''public boolean isAbsolute()
+    '''returns boolean\n\n
+    isAbsolute()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def evaluate():
-    '''public Object evaluate(final Context context)
+    '''returns Object\n\n
+    evaluate(final Context context)\n
     '''
 def accept():
-    '''public void accept(final Visitor visitor)
+    '''returns None\n\n
+    accept(final Visitor visitor)\n
     '''

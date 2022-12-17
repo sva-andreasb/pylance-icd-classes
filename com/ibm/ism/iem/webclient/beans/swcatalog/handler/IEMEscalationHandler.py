@@ -1,12 +1,16 @@
-def IEMEscalationHandler():
-    '''public IEMEscalationHandler(final String escalation)
+def ():
+    '''returns IEMEscalationHandler\n\n
+    (final String escalation)\n
     '''
 def handle():
-    '''public void handle(final MXTransaction trans, final MXSession mxsession)
+    '''returns None\n\n
+    handle(final MXTransaction trans, final MXSession mxsession)\n
     '''
 def exist():
-    '''public MboRemote exist(final MXTransaction trans, final MXSession mxsession)
+    '''returns MboRemote\n\n
+    exist(final MXTransaction trans, final MXSession mxsession)\n
     '''
 def create():
-    '''public MboRemote create(final MXTransaction trans, final MXSession mxsession)
+    '''returns MboRemote\n\n
+    create(final MXTransaction trans, final MXSession mxsession)\n
     '''

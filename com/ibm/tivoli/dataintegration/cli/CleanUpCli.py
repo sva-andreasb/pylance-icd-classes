@@ -1,12 +1,12 @@
 def run():
-    '''public Object run(final Properties arguments)
+    '''returns Object\n\n
+    run(final Properties arguments)\n
     '''
 def getShortHelp():
-    '''public String getShortHelp(Locale locale)
+    '''returns String\n\n
+    getShortHelp(Locale locale)\n
     '''
 def getLongHelp():
-    '''public String getLongHelp(Locale locale)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    getLongHelp(Locale locale)\n
     '''

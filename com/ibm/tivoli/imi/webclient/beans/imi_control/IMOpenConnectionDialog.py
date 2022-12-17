@@ -1,3 +1,4 @@
 def openIMConnection():
-    '''public int openIMConnection()
+    '''returns int\n\n
+    openIMConnection()\n
     '''

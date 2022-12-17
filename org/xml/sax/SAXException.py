@@ -1,15 +1,19 @@
-def SAXException():
-    '''public SAXException()
-    public SAXException(final String message)
-    public SAXException(final Exception exception)
-    public SAXException(final String message, final Exception exception)
+def ():
+    '''returns SAXException\n\n
+    ()\n
+    (final String message)\n
+    (final Exception exception)\n
+    (final String message, final Exception exception)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

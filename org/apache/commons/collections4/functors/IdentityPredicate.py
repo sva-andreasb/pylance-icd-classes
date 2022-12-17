@@ -1,12 +1,12 @@
-def identityPredicate():
-    '''public static <T> Predicate<T> identityPredicate(final T object)
-    '''
-def IdentityPredicate():
-    '''public IdentityPredicate(final T object)
+def ():
+    '''returns IdentityPredicate\n\n
+    (final T object)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T object)
+    '''returns boolean\n\n
+    evaluate(final T object)\n
     '''
 def getValue():
-    '''public T getValue()
+    '''returns T\n\n
+    getValue()\n
     '''

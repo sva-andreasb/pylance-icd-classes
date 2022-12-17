@@ -1,4 +1,5 @@
-def ControllerMovedException():
-    '''public ControllerMovedException(final String message)
-    public ControllerMovedException(final String message, final Throwable cause)
+def ():
+    '''returns ControllerMovedException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

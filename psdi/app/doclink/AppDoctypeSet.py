@@ -1,3 +1,4 @@
-def AppDoctypeSet():
-    '''public AppDoctypeSet(final MboServerInterface ms)
+def ():
+    '''returns AppDoctypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

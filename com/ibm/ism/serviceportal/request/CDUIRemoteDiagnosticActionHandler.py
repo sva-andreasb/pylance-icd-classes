@@ -1,3 +1,4 @@
-def CDUIRemoteDiagnosticActionHandler():
-    '''public CDUIRemoteDiagnosticActionHandler()
+def ():
+    '''returns CDUIRemoteDiagnosticActionHandler\n\n
+    ()\n
     '''

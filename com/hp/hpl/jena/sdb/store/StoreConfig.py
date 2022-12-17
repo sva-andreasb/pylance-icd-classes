@@ -1,25 +1,32 @@
 defaultTag = "String  \"config\""
-def StoreConfig():
-    '''public StoreConfig(final SDBConnection sdb)
+def ():
+    '''returns StoreConfig\n\n
+    (final SDBConnection sdb)\n
     '''
 def tables():
-    '''public List<String> tables()
+    '''returns List<String>\n\n
+    tables()\n
     '''
 def removeModel():
-    '''public void removeModel()
-    public void removeModel(final String tag)
+    '''returns None\n\n
+    removeModel()\n
+    removeModel(final String tag)\n
     '''
 def getModel():
-    '''public Model getModel()
-    public Model getModel(final String tag)
+    '''returns Model\n\n
+    getModel()\n
+    getModel(final String tag)\n
     '''
 def setModel():
-    '''public void setModel(final Model m)
-    public void setModel(final String tag, final Model m)
+    '''returns None\n\n
+    setModel(final Model m)\n
+    setModel(final String tag, final Model m)\n
     '''
 def getTags():
-    '''public List<String> getTags()
+    '''returns List<String>\n\n
+    getTags()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''

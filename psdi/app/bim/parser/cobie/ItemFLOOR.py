@@ -1,54 +1,72 @@
-def ItemFLOOR():
-    '''public ItemFLOOR()
+def ():
+    '''returns ItemFLOOR\n\n
+    ()\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def addComponent():
-    '''public void addComponent(final ItemCOMPONENT component)
+    '''returns None\n\n
+    addComponent(final ItemCOMPONENT component)\n
     '''
 def addSpace():
-    '''public void addSpace(final ItemSPACE space)
+    '''returns None\n\n
+    addSpace(final ItemSPACE space)\n
     '''
 def components():
-    '''public Enumeration<ItemCOMPONENT> components()
+    '''returns Enumeration<ItemCOMPONENT>\n\n
+    components()\n
     '''
 def getComponentCount():
-    '''public int getComponentCount()
+    '''returns int\n\n
+    getComponentCount()\n
     '''
 def getDateTineStamp():
-    '''public String getDateTineStamp()
+    '''returns String\n\n
+    getDateTineStamp()\n
     '''
 def getElevation():
-    '''public String getElevation()
+    '''returns String\n\n
+    getElevation()\n
     '''
 def getFloorTag():
-    '''public String getFloorTag()
+    '''returns String\n\n
+    getFloorTag()\n
     '''
 def getHeight():
-    '''public String getHeight()
+    '''returns String\n\n
+    getHeight()\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def getSpacesCount():
-    '''public int getSpacesCount()
+    '''returns int\n\n
+    getSpacesCount()\n
     '''
 def setDateTimeStamp():
-    '''public void setDateTimeStamp(final String dateTimeStamp)
+    '''returns None\n\n
+    setDateTimeStamp(final String dateTimeStamp)\n
     '''
 def setElevation():
-    '''public void setElevation(final String elevation)
+    '''returns None\n\n
+    setElevation(final String elevation)\n
     '''
 def setFloorTag():
-    '''public void setFloorTag(final String floorTag)
+    '''returns None\n\n
+    setFloorTag(final String floorTag)\n
     '''
 def setHeight():
-    '''public void setHeight(final String height)
+    '''returns None\n\n
+    setHeight(final String height)\n
     '''
 def spaces():
-    '''public Enumeration<ItemSPACE> spaces()
+    '''returns Enumeration<ItemSPACE>\n\n
+    spaces()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

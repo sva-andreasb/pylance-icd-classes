@@ -1,6 +1,8 @@
-def WsProvider():
-    '''public WsProvider()
+def ():
+    '''returns WsProvider\n\n
+    ()\n
     '''
 def newJMXConnector():
-    '''public JMXConnector newJMXConnector(final JMXServiceURL jmxServiceURL, final Map _map)
+    '''returns JMXConnector\n\n
+    newJMXConnector(final JMXServiceURL jmxServiceURL, final Map _map)\n
     '''

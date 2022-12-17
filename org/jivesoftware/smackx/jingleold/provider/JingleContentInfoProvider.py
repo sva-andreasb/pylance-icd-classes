@@ -1,22 +1,14 @@
-def Audio():
-    '''public Audio()
-    public Audio(final ExtensionElement audioInfo)
+def ():
+    '''returns Ringing\n\n
+    ()\n
+    (final ExtensionElement audioInfo)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def parse():
-    '''public ExtensionElement parse(final XmlPullParser parser, final int initialDepth)
-    '''
-def Busy():
-    '''public Busy()
-    '''
-def Hold():
-    '''public Hold()
-    '''
-def Mute():
-    '''public Mute()
-    '''
-def Queued():
-    '''public Queued()
-    '''
-def Ringing():
-    '''public Ringing()
+    '''returns ExtensionElement\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

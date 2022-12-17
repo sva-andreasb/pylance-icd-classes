@@ -1,3 +1,4 @@
-def PmComRelatedExternalSet():
-    '''public PmComRelatedExternalSet(final MboServerInterface ms)
+def ():
+    '''returns PmComRelatedExternalSet\n\n
+    (final MboServerInterface ms)\n
     '''

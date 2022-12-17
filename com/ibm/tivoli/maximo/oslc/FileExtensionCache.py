@@ -1,15 +1,16 @@
-def getInstance():
-    '''public static final FileExtensionCache getInstance()
-    '''
 def forFileName():
-    '''public String forFileName(final String fileName)
+    '''returns String\n\n
+    forFileName(final String fileName)\n
     '''
 def forFileExtension():
-    '''public String forFileExtension(final String fileExtension)
+    '''returns String\n\n
+    forFileExtension(final String fileExtension)\n
     '''
 def getDefaultContentType():
-    '''public String getDefaultContentType()
+    '''returns String\n\n
+    getDefaultContentType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

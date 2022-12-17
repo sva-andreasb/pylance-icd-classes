@@ -1,3 +1,4 @@
-def FldCollectionAuthCollectionNum():
-    '''public FldCollectionAuthCollectionNum(final MboValue mbv)
+def ():
+    '''returns FldCollectionAuthCollectionNum\n\n
+    (final MboValue mbv)\n
     '''

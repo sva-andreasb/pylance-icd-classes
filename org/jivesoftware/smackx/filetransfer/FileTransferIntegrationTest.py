@@ -1,12 +1,16 @@
-def FileTransferIntegrationTest():
-    '''public FileTransferIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns FileTransferIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def fileTransferTest():
-    '''public void fileTransferTest()
+    '''returns None\n\n
+    fileTransferTest()\n
     '''
 def ibbFileTransferTest():
-    '''public void ibbFileTransferTest()
+    '''returns None\n\n
+    ibbFileTransferTest()\n
     '''
 def fileTransferRequest():
-    '''public void fileTransferRequest(final FileTransferRequest request)
+    '''returns None\n\n
+    fileTransferRequest(final FileTransferRequest request)\n
     '''

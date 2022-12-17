@@ -1,51 +1,68 @@
-def TloamWOActivity():
-    '''public TloamWOActivity(final MboSet ms)
+def ():
+    '''returns TloamWOActivity\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def editHistory():
-    '''public void editHistory()
+    '''returns None\n\n
+    editHistory()\n
     '''
 def canEditRelatedSet():
-    '''public void canEditRelatedSet(final String relationName)
+    '''returns None\n\n
+    canEditRelatedSet(final String relationName)\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''
 def incrActLicCost():
-    '''public void incrActLicCost(final double incrAmount, final boolean isOutsideCost)
+    '''returns None\n\n
+    incrActLicCost(final double incrAmount, final boolean isOutsideCost)\n
     '''
 def incrEstLicCost():
-    '''public void incrEstLicCost(final double incrAmount)
+    '''returns None\n\n
+    incrEstLicCost(final double incrAmount)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(String name)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier, final boolean comingFromReceiving)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier, final boolean comingFromReceiving)\n
     '''
 def copyJobPlanToWorkPlan():
-    '''public void copyJobPlanToWorkPlan()
+    '''returns None\n\n
+    copyJobPlanToWorkPlan()\n
     '''
 def createJPFromWO():
-    '''public MboRemote createJPFromWO(final Date date, final String jpnum, final String description, final String longdescription)
+    '''returns MboRemote\n\n
+    createJPFromWO(final Date date, final String jpnum, final String description, final String longdescription)\n
     '''
 def isNewDuplicatedItem():
-    '''public boolean isNewDuplicatedItem()
+    '''returns boolean\n\n
+    isNewDuplicatedItem()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

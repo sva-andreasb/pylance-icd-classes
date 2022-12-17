@@ -1,4 +1,5 @@
-def STLoginId():
-    '''public STLoginId(final String s, final String s2)
-    public STLoginId(final NdrInputStream ndrInputStream)
+def ():
+    '''returns STLoginId\n\n
+    (final String s, final String s2)\n
+    (final NdrInputStream ndrInputStream)\n
     '''

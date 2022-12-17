@@ -1,3 +1,4 @@
-def WFHelp():
-    '''public WFHelp(final MboSet ms)
+def ():
+    '''returns WFHelp\n\n
+    (final MboSet ms)\n
     '''

@@ -1,3 +1,4 @@
 def reforecast():
-    '''public int reforecast()
+    '''returns int\n\n
+    reforecast()\n
     '''

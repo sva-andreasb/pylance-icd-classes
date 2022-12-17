@@ -1,27 +1,34 @@
-def PdfArray():
-    '''public PdfArray()
-    public PdfArray(final PdfObject object)
-    public PdfArray(final float[] values)
-    public PdfArray(final int[] values)
-    public PdfArray(final PdfArray array)
+def ():
+    '''returns PdfArray\n\n
+    ()\n
+    (final PdfObject object)\n
+    (final float[] values)\n
+    (final int[] values)\n
+    (final PdfArray array)\n
     '''
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''
 def getArrayList():
-    '''public ArrayList getArrayList()
+    '''returns ArrayList\n\n
+    getArrayList()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def add():
-    '''public boolean add(final PdfObject object)
-    public boolean add(final float[] values)
-    public boolean add(final int[] values)
+    '''returns boolean\n\n
+    add(final PdfObject object)\n
+    add(final float[] values)\n
+    add(final int[] values)\n
     '''
 def addFirst():
-    '''public void addFirst(final PdfObject object)
+    '''returns None\n\n
+    addFirst(final PdfObject object)\n
     '''
 def contains():
-    '''public boolean contains(final PdfObject object)
+    '''returns boolean\n\n
+    contains(final PdfObject object)\n
     '''

@@ -1,42 +1,52 @@
-def XMLRecordWriter():
-    '''public XMLRecordWriter(final Writer w)
+def ():
+    '''returns XMLRecordWriter\n\n
+    (final Writer w)\n
     '''
 def open():
-    '''public boolean open(final String title)
+    '''returns boolean\n\n
+    open(final String title)\n
     '''
 def close():
-    '''public boolean close()
+    '''returns boolean\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def bool():
-    '''public void bool(final String name, final boolean value)
+    '''returns None\n\n
+    bool(final String name, final boolean value)\n
     '''
 def boolArray():
-    '''public void boolArray(final String name, final boolean[] values)
+    '''returns None\n\n
+    boolArray(final String name, final boolean[] values)\n
     '''
 def character():
-    '''public void character(final String name, final char value)
+    '''returns None\n\n
+    character(final String name, final char value)\n
     '''
 def characterArray():
-    '''public void characterArray(final String name, final char[] values)
+    '''returns None\n\n
+    characterArray(final String name, final char[] values)\n
     '''
 def namedIndex():
-    '''public void namedIndex(final String name, final String[] names, final int value)
+    '''returns None\n\n
+    namedIndex(final String name, final String[] names, final int value)\n
     '''
 def namedIndexArray():
-    '''public void namedIndexArray(final String name, final String[] names, final byte[] values)
-    '''
-def normalize():
-    '''public static String normalize(final String str)
+    '''returns None\n\n
+    namedIndexArray(final String name, final String[] names, final byte[] values)\n
     '''
 def string():
-    '''public void string(final String name, final String value)
+    '''returns None\n\n
+    string(final String name, final String value)\n
     '''
 def stringArray():
-    '''public void stringArray(final String name, final String[] values)
+    '''returns None\n\n
+    stringArray(final String name, final String[] values)\n
     '''
 def stringTable():
-    '''public void stringTable(final String name, final String[][] values)
+    '''returns None\n\n
+    stringTable(final String name, final String[][] values)\n
     '''

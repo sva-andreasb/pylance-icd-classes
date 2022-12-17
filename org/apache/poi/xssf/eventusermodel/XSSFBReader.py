@@ -1,25 +1,30 @@
-def XSSFBReader():
-    '''public XSSFBReader(final OPCPackage pkg)
+def ():
+    '''returns PathExtractor\n\n
+    (final OPCPackage pkg)\n
+    (final InputStream is)\n
     '''
 def getAbsPathMetadata():
-    '''public String getAbsPathMetadata()
+    '''returns String\n\n
+    getAbsPathMetadata()\n
     '''
 def getSheetsData():
-    '''public Iterator<InputStream> getSheetsData()
+    '''returns Iterator<InputStream>\n\n
+    getSheetsData()\n
     '''
 def getXSSFBStylesTable():
-    '''public XSSFBStylesTable getXSSFBStylesTable()
+    '''returns XSSFBStylesTable\n\n
+    getXSSFBStylesTable()\n
     '''
 def getSheetComments():
-    '''public CommentsTable getSheetComments()
+    '''returns CommentsTable\n\n
+    getSheetComments()\n
     '''
 def getXSSFBSheetComments():
-    '''public XSSFBCommentsTable getXSSFBSheetComments()
-    '''
-def PathExtractor():
-    '''public PathExtractor(final InputStream is)
+    '''returns XSSFBCommentsTable\n\n
+    getXSSFBSheetComments()\n
     '''
 def handleRecord():
-    '''public void handleRecord(final int recordType, final byte[] data)
-    public void handleRecord(final int recordType, final byte[] data)
+    '''returns None\n\n
+    handleRecord(final int recordType, final byte[] data)\n
+    handleRecord(final int recordType, final byte[] data)\n
     '''

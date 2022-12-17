@@ -1,44 +1,52 @@
 DEFAULT_SCHEME_NAME = "String  \"http\""
-def HttpHost():
-    '''public HttpHost(final String hostname, final int port, final String scheme)
-    public HttpHost(final String hostname, final int port)
-    public HttpHost(final String hostname)
-    public HttpHost(final InetAddress address, final int port, final String scheme)
-    public HttpHost(final InetAddress address, final String hostname, final int port, final String scheme)
-    public HttpHost(final InetAddress address, final int port)
-    public HttpHost(final InetAddress address)
-    public HttpHost(final HttpHost httphost)
-    '''
-def create():
-    '''public static HttpHost create(final String s)
+def ():
+    '''returns HttpHost\n\n
+    (final String hostname, final int port, final String scheme)\n
+    (final String hostname, final int port)\n
+    (final String hostname)\n
+    (final InetAddress address, final int port, final String scheme)\n
+    (final InetAddress address, final String hostname, final int port, final String scheme)\n
+    (final InetAddress address, final int port)\n
+    (final InetAddress address)\n
+    (final HttpHost httphost)\n
     '''
 def getHostName():
-    '''public String getHostName()
+    '''returns String\n\n
+    getHostName()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getSchemeName():
-    '''public String getSchemeName()
+    '''returns String\n\n
+    getSchemeName()\n
     '''
 def getAddress():
-    '''public InetAddress getAddress()
+    '''returns InetAddress\n\n
+    getAddress()\n
     '''
 def toURI():
-    '''public String toURI()
+    '''returns String\n\n
+    toURI()\n
     '''
 def toHostString():
-    '''public String toHostString()
+    '''returns String\n\n
+    toHostString()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

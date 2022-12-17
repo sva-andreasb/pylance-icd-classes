@@ -12,24 +12,31 @@ FIELD_SUBJECT = "String  \"SUBJECT\""
 FIELD_TEXT = "String  \"TEXT\""
 FIELD_HASPARENT = "String  \"HASPARENT\""
 FIELD_HASCHILDREN = "String  \"HASCHILDREN\""
-def BIMComment():
-    '''public BIMComment(final MboSet ms)
+def ():
+    '''returns BIMComment\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''

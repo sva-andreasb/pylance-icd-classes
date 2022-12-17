@@ -1,12 +1,16 @@
-def NodeTooltipInfo():
-    '''public NodeTooltipInfo(final String resourcePropertyId, final String attribute, final String method)
+def ():
+    '''returns NodeTooltipInfo\n\n
+    (final String resourcePropertyId, final String attribute, final String method)\n
     '''
 def getResourcePropertyId():
-    '''public String getResourcePropertyId()
+    '''returns String\n\n
+    getResourcePropertyId()\n
     '''
 def getAttribute():
-    '''public String getAttribute()
+    '''returns String\n\n
+    getAttribute()\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''

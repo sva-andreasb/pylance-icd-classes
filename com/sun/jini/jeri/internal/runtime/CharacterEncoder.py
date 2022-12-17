@@ -1,10 +1,12 @@
 def encode():
-    '''public void encode(final InputStream inputStream, final OutputStream outputStream)
-    public void encode(final byte[] buf, final OutputStream outputStream)
-    public String encode(final byte[] buf)
+    '''returns String\n\n
+    encode(final InputStream inputStream, final OutputStream outputStream)\n
+    encode(final byte[] buf, final OutputStream outputStream)\n
+    encode(final byte[] buf)\n
     '''
 def encodeBuffer():
-    '''public void encodeBuffer(final InputStream inputStream, final OutputStream outputStream)
-    public void encodeBuffer(final byte[] buf, final OutputStream outputStream)
-    public String encodeBuffer(final byte[] buf)
+    '''returns String\n\n
+    encodeBuffer(final InputStream inputStream, final OutputStream outputStream)\n
+    encodeBuffer(final byte[] buf, final OutputStream outputStream)\n
+    encodeBuffer(final byte[] buf)\n
     '''

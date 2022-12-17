@@ -1,33 +1,39 @@
-def forZone():
-    '''public static CachedDateTimeZone forZone(final DateTimeZone dateTimeZone)
-    '''
 def getUncachedZone():
-    '''public DateTimeZone getUncachedZone()
+    '''returns DateTimeZone\n\n
+    getUncachedZone()\n
     '''
 def getNameKey():
-    '''public String getNameKey(final long n)
-    public String getNameKey(final long n)
+    '''returns String\n\n
+    getNameKey(final long n)\n
+    getNameKey(final long n)\n
     '''
 def getOffset():
-    '''public int getOffset(final long n)
-    public int getOffset(final long n)
+    '''returns int\n\n
+    getOffset(final long n)\n
+    getOffset(final long n)\n
     '''
 def getStandardOffset():
-    '''public int getStandardOffset(final long n)
-    public int getStandardOffset(final long n)
+    '''returns int\n\n
+    getStandardOffset(final long n)\n
+    getStandardOffset(final long n)\n
     '''
 def isFixed():
-    '''public boolean isFixed()
+    '''returns boolean\n\n
+    isFixed()\n
     '''
 def nextTransition():
-    '''public long nextTransition(final long n)
+    '''returns long\n\n
+    nextTransition(final long n)\n
     '''
 def previousTransition():
-    '''public long previousTransition(final long n)
+    '''returns long\n\n
+    previousTransition(final long n)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

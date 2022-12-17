@@ -1,3 +1,4 @@
-def PersonGroupView():
-    '''public PersonGroupView(final MboSet ms)
+def ():
+    '''returns PersonGroupView\n\n
+    (final MboSet ms)\n
     '''

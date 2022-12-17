@@ -1,16 +1,21 @@
-def SymbolRegistry():
-    '''public SymbolRegistry()
+def ():
+    '''returns SymbolRegistry\n\n
+    ()\n
     '''
 def register():
-    '''public void register(final T symbol)
-    public void register(String name, final T symbol)
+    '''returns None\n\n
+    register(final T symbol)\n
+    register(String name, final T symbol)\n
     '''
 def lookup():
-    '''public T lookup(final String symName)
+    '''returns T\n\n
+    lookup(final String symName)\n
     '''
 def allNames():
-    '''public List<String> allNames()
+    '''returns List<String>\n\n
+    allNames()\n
     '''
 def allSymbols():
-    '''public List<T> allSymbols()
+    '''returns List<T>\n\n
+    allSymbols()\n
     '''

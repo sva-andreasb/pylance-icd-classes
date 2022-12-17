@@ -1,15 +1,20 @@
-def PlusPWPTool():
-    '''public PlusPWPTool(final MboSet arg0)
+def ():
+    '''returns PlusPWPTool\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def updatePrice():
-    '''public void updatePrice()
+    '''returns None\n\n
+    updatePrice()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

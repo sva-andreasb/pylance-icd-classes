@@ -1,16 +1,21 @@
-def BasicTOCCellRenderer():
-    '''public BasicTOCCellRenderer(final Map map)
-    public BasicTOCCellRenderer(final Map map, final TOCView view)
+def ():
+    '''returns BasicTOCCellRenderer\n\n
+    (final Map map)\n
+    (final Map map, final TOCView view)\n
     '''
 def getTreeCellRendererComponent():
-    '''public Component getTreeCellRendererComponent(final JTree tree, final Object o, final boolean selected, final boolean b, final boolean b2, final int n, final boolean hasFocus)
+    '''returns Component\n\n
+    getTreeCellRendererComponent(final JTree tree, final Object o, final boolean selected, final boolean b, final boolean b2, final int n, final boolean hasFocus)\n
     '''
 def getLeafIcon():
-    '''public Icon getLeafIcon()
+    '''returns Icon\n\n
+    getLeafIcon()\n
     '''
 def getOpenIcon():
-    '''public Icon getOpenIcon()
+    '''returns Icon\n\n
+    getOpenIcon()\n
     '''
 def getClosedIcon():
-    '''public Icon getClosedIcon()
+    '''returns Icon\n\n
+    getClosedIcon()\n
     '''

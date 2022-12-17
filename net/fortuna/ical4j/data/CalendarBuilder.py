@@ -1,19 +1,19 @@
-def CalendarBuilder():
-    '''public CalendarBuilder()
-    public CalendarBuilder(final CalendarParser parser)
-    public CalendarBuilder(final TimeZoneRegistry tzRegistry)
-    public CalendarBuilder(final CalendarParser parser, final TimeZoneRegistry tzRegistry)
-    public CalendarBuilder(final CalendarParser parser, final PropertyFactoryRegistry propertyFactoryRegistry, final ParameterFactoryRegistry parameterFactoryRegistry, final TimeZoneRegistry tzRegistry)
-    public CalendarBuilder(final CalendarParser parser, final Supplier<List<ParameterFactory<?>>> parameterFactorySupplier, final Supplier<List<PropertyFactory<?>>> propertyFactorySupplier, final Supplier<List<ComponentFactory<?>>> componentFactorySupplier, final TimeZoneRegistry tzRegistry)
+def ():
+    '''returns CalendarBuilder\n\n
+    ()\n
+    (final CalendarParser parser)\n
+    (final TimeZoneRegistry tzRegistry)\n
+    (final CalendarParser parser, final TimeZoneRegistry tzRegistry)\n
+    (final CalendarParser parser, final PropertyFactoryRegistry propertyFactoryRegistry, final ParameterFactoryRegistry parameterFactoryRegistry, final TimeZoneRegistry tzRegistry)\n
+    (final CalendarParser parser, final Supplier<List<ParameterFactory<?>>> parameterFactorySupplier, final Supplier<List<PropertyFactory<?>>> propertyFactorySupplier, final Supplier<List<ComponentFactory<?>>> componentFactorySupplier, final TimeZoneRegistry tzRegistry)\n
     '''
 def accept():
-    '''public void accept(final Calendar calendar)
+    '''returns None\n\n
+    accept(final Calendar calendar)\n
     '''
 def build():
-    '''public Calendar build(final InputStream in)
-    public Calendar build(final Reader in)
-    public Calendar build(final UnfoldingReader uin)
-    '''
-def getRegistry():
-    '''public final TimeZoneRegistry getRegistry()
+    '''returns Calendar\n\n
+    build(final InputStream in)\n
+    build(final Reader in)\n
+    build(final UnfoldingReader uin)\n
     '''

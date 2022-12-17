@@ -1,6 +1,8 @@
 def remoteAddress():
-    '''public SocketAddress remoteAddress()
+    '''returns SocketAddress\n\n
+    remoteAddress()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

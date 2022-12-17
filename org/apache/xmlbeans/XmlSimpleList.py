@@ -1,95 +1,123 @@
-def XmlSimpleList():
-    '''public XmlSimpleList(final List list)
+def ():
+    '''returns XmlSimpleList\n\n
+    (final List list)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection coll)
+    '''returns boolean\n\n
+    containsAll(final Collection coll)\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public Object[] toArray(final Object[] a)
+    '''returns Object[]\n\n
+    toArray()\n
+    toArray(final Object[] a)\n
     '''
 def add():
-    '''public boolean add(final Object o)
-    public void add(final int index, final Object element)
-    public void add(final Object o)
+    '''returns None\n\n
+    add(final Object o)\n
+    add(final int index, final Object element)\n
+    add(final Object o)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection coll)
-    public boolean addAll(final int index, final Collection c)
+    '''returns boolean\n\n
+    addAll(final Collection coll)\n
+    addAll(final int index, final Collection c)\n
     '''
 def remove():
-    '''public boolean remove(final Object o)
-    public Object remove(final int index)
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final Object o)\n
+    remove(final int index)\n
+    remove()\n
+    remove()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection coll)
+    '''returns boolean\n\n
+    removeAll(final Collection coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection coll)
+    '''returns boolean\n\n
+    retainAll(final Collection coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def get():
-    '''public Object get(final int index)
+    '''returns Object\n\n
+    get(final int index)\n
     '''
 def set():
-    '''public Object set(final int index, final Object element)
-    public void set(final Object o)
+    '''returns None\n\n
+    set(final int index, final Object element)\n
+    set(final Object o)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object o)
+    '''returns int\n\n
+    indexOf(final Object o)\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object o)
+    '''returns int\n\n
+    lastIndexOf(final Object o)\n
     '''
 def subList():
-    '''public List subList(final int from, final int to)
+    '''returns List\n\n
+    subList(final int from, final int to)\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
-    public Object next()
+    '''returns Object\n\n
+    next()\n
+    next()\n
     '''
 def listIterator():
-    '''public ListIterator listIterator()
-    public ListIterator listIterator(final int index)
+    '''returns ListIterator\n\n
+    listIterator()\n
+    listIterator(final int index)\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public Object previous()
+    '''returns Object\n\n
+    previous()\n
     '''
 def nextIndex():
-    '''public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

@@ -1,15 +1,20 @@
-def DMError():
-    '''public DMError(final MboSet ms)
+def ():
+    '''returns DMError\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setMessage():
-    '''public void setMessage(final Throwable t)
+    '''returns None\n\n
+    setMessage(final Throwable t)\n
     '''
 def setXML():
-    '''public void setXML(final byte[] xml)
+    '''returns None\n\n
+    setXML(final byte[] xml)\n
     '''

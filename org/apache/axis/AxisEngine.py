@@ -27,69 +27,83 @@ DEFAULT_ATTACHMENT_IMPL = "String  \"org.apache.axis.attachments.AttachmentsImpl
 ENV_ATTACHMENT_DIR = "String  \"axis.attachments.Directory\""
 ENV_SERVLET_REALPATH = "String  \"servlet.realpath\""
 ENV_SERVLET_CONTEXT = "String  \"servletContext\""
-def getCurrentMessageContext():
-    '''public static MessageContext getCurrentMessageContext()
-    '''
-def AxisEngine():
-    '''public AxisEngine(final EngineConfiguration config)
+def ():
+    '''returns AxisEngine\n\n
+    (final EngineConfiguration config)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def saveConfiguration():
-    '''public void saveConfiguration()
+    '''returns None\n\n
+    saveConfiguration()\n
     '''
 def getConfig():
-    '''public EngineConfiguration getConfig()
+    '''returns EngineConfiguration\n\n
+    getConfig()\n
     '''
 def hasSafePassword():
-    '''public boolean hasSafePassword()
+    '''returns boolean\n\n
+    hasSafePassword()\n
     '''
 def setAdminPassword():
-    '''public void setAdminPassword(final String pw)
+    '''returns None\n\n
+    setAdminPassword(final String pw)\n
     '''
 def setShouldSaveConfig():
-    '''public void setShouldSaveConfig(final boolean shouldSaveConfig)
+    '''returns None\n\n
+    setShouldSaveConfig(final boolean shouldSaveConfig)\n
     '''
 def getHandler():
-    '''public Handler getHandler(final String name)
+    '''returns Handler\n\n
+    getHandler(final String name)\n
     '''
 def getService():
-    '''public SOAPService getService(final String name)
+    '''returns SOAPService\n\n
+    getService(final String name)\n
     '''
 def getTransport():
-    '''public Handler getTransport(final String name)
+    '''returns Handler\n\n
+    getTransport(final String name)\n
     '''
 def getTypeMappingRegistry():
-    '''public TypeMappingRegistry getTypeMappingRegistry()
+    '''returns TypeMappingRegistry\n\n
+    getTypeMappingRegistry()\n
     '''
 def getGlobalRequest():
-    '''public Handler getGlobalRequest()
+    '''returns Handler\n\n
+    getGlobalRequest()\n
     '''
 def getGlobalResponse():
-    '''public Handler getGlobalResponse()
+    '''returns Handler\n\n
+    getGlobalResponse()\n
     '''
 def getActorURIs():
-    '''public ArrayList getActorURIs()
+    '''returns ArrayList\n\n
+    getActorURIs()\n
     '''
 def addActorURI():
-    '''public void addActorURI(final String uri)
+    '''returns None\n\n
+    addActorURI(final String uri)\n
     '''
 def removeActorURI():
-    '''public void removeActorURI(final String uri)
-    '''
-def normaliseOptions():
-    '''public static void normaliseOptions(final Handler handler)
+    '''returns None\n\n
+    removeActorURI(final String uri)\n
     '''
 def refreshGlobalOptions():
-    '''public void refreshGlobalOptions()
+    '''returns None\n\n
+    refreshGlobalOptions()\n
     '''
 def getApplicationSession():
-    '''public Session getApplicationSession()
+    '''returns Session\n\n
+    getApplicationSession()\n
     '''
 def getClassCache():
-    '''public ClassCache getClassCache()
+    '''returns ClassCache\n\n
+    getClassCache()\n
     '''

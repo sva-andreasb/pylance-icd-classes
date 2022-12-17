@@ -1,6 +1,8 @@
-def SubmitDetails():
-    '''public SubmitDetails(final MboSet ms)
+def ():
+    '''returns SubmitDetails\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

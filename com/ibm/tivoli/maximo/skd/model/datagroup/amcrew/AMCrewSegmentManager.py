@@ -1,3 +1,4 @@
-def AMCrewSegmentManager():
-    '''public AMCrewSegmentManager()
+def ():
+    '''returns AMCrewSegmentManager\n\n
+    ()\n
     '''

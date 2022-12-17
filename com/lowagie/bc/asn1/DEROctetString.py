@@ -1,4 +1,5 @@
-def DEROctetString():
-    '''public DEROctetString(final byte[] string)
-    public DEROctetString(final DEREncodable obj)
+def ():
+    '''returns DEROctetString\n\n
+    (final byte[] string)\n
+    (final DEREncodable obj)\n
     '''

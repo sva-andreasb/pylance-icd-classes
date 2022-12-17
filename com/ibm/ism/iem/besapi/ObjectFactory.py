@@ -1,57 +1,76 @@
 def createBESAPI():
-    '''public BESAPI createBESAPI()
+    '''returns BESAPI\n\n
+    createBESAPI()\n
     '''
 def createComputerResultType():
-    '''public ComputerResultType createComputerResultType()
+    '''returns ComputerResultType\n\n
+    createComputerResultType()\n
     '''
 def createRole():
-    '''public Role createRole()
+    '''returns Role\n\n
+    createRole()\n
     '''
 def createReplicationLinkType():
-    '''public ReplicationLinkType createReplicationLinkType()
+    '''returns ReplicationLinkType\n\n
+    createReplicationLinkType()\n
     '''
 def createOperator():
-    '''public Operator createOperator()
+    '''returns Operator\n\n
+    createOperator()\n
     '''
 def createComputerSetting():
-    '''public ComputerSetting createComputerSetting()
+    '''returns ComputerSetting\n\n
+    createComputerSetting()\n
     '''
 def createIntegerWithReference():
-    '''public IntegerWithReference createIntegerWithReference()
+    '''returns IntegerWithReference\n\n
+    createIntegerWithReference()\n
     '''
 def createLDAPServer():
-    '''public LDAPServer createLDAPServer()
+    '''returns LDAPServer\n\n
+    createLDAPServer()\n
     '''
 def createStringWithReference():
-    '''public StringWithReference createStringWithReference()
+    '''returns StringWithReference\n\n
+    createStringWithReference()\n
     '''
 def createRelevanceResult():
-    '''public RelevanceResult createRelevanceResult()
+    '''returns RelevanceResult\n\n
+    createRelevanceResult()\n
     '''
 def createRelevanceAnswer():
-    '''public RelevanceAnswer createRelevanceAnswer()
+    '''returns RelevanceAnswer\n\n
+    createRelevanceAnswer()\n
     '''
 def createBESAPIWarning():
-    '''public JAXBElement<String> createBESAPIWarning(final String value)
+    '''returns JAXBElement<String>\n\n
+    createBESAPIWarning(final String value)\n
     '''
 def createBESAPIReplicationLink():
-    '''public JAXBElement<ReplicationLinkType> createBESAPIReplicationLink(final ReplicationLinkType value)
+    '''returns JAXBElement<ReplicationLinkType>\n\n
+    createBESAPIReplicationLink(final ReplicationLinkType value)\n
     '''
 def createBESAPIOperator():
-    '''public JAXBElement<Operator> createBESAPIOperator(final Operator value)
+    '''returns JAXBElement<Operator>\n\n
+    createBESAPIOperator(final Operator value)\n
     '''
 def createBESAPIComputerSetting():
-    '''public JAXBElement<ComputerSetting> createBESAPIComputerSetting(final ComputerSetting value)
+    '''returns JAXBElement<ComputerSetting>\n\n
+    createBESAPIComputerSetting(final ComputerSetting value)\n
     '''
 def createBESAPIError():
-    '''public JAXBElement<String> createBESAPIError(final String value)
+    '''returns JAXBElement<String>\n\n
+    createBESAPIError(final String value)\n
     '''
 def createBESAPIRole():
-    '''public JAXBElement<Role> createBESAPIRole(final Role value)
+    '''returns JAXBElement<Role>\n\n
+    createBESAPIRole(final Role value)\n
     '''
 def createRoleOperatorsExplicit():
-    '''public JAXBElement<String> createRoleOperatorsExplicit(final String value)
+    '''returns JAXBElement<String>\n\n
+    createRoleOperatorsExplicit(final String value)\n
     '''
 def createRoleOperatorsInherited():
-    '''public JAXBElement<String> createRoleOperatorsInherited(final String value)
+    '''returns JAXBElement<String>\n\n
+    createRoleOperatorsInherited(final String value)\n
     '''

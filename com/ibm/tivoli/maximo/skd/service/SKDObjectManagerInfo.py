@@ -1,36 +1,48 @@
-def SKDObjectManagerInfo():
-    '''public SKDObjectManagerInfo()
+def ():
+    '''returns SKDObjectManagerInfo\n\n
+    ()\n
     '''
 def getSKDObjectName():
-    '''public String getSKDObjectName()
+    '''returns String\n\n
+    getSKDObjectName()\n
     '''
 def setSKDObjectName():
-    '''public void setSKDObjectName(final String skdObjectName)
+    '''returns None\n\n
+    setSKDObjectName(final String skdObjectName)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getSKDObjectClass():
-    '''public Class getSKDObjectClass()
+    '''returns Class\n\n
+    getSKDObjectClass()\n
     '''
 def getPurpose():
-    '''public String getPurpose()
+    '''returns String\n\n
+    getPurpose()\n
     '''
 def setPurpose():
-    '''public void setPurpose(final String purpose)
+    '''returns None\n\n
+    setPurpose(final String purpose)\n
     '''
 def getInvocationSequence():
-    '''public int getInvocationSequence()
+    '''returns int\n\n
+    getInvocationSequence()\n
     '''
 def setInvocationSequence():
-    '''public void setInvocationSequence(final int invocationSequence)
+    '''returns None\n\n
+    setInvocationSequence(final int invocationSequence)\n
     '''

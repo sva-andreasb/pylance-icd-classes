@@ -1,9 +1,12 @@
-def MAXSessionSet():
-    '''public MAXSessionSet(final MboServerInterface ms)
+def ():
+    '''returns MAXSessionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

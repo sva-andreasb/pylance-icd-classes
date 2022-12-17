@@ -1,6 +1,8 @@
 def callMethod():
-    '''public int callMethod(final WebClientEvent event)
+    '''returns int\n\n
+    callMethod(final WebClientEvent event)\n
     '''
 def copyOrdersToTarget():
-    '''public int copyOrdersToTarget()
+    '''returns int\n\n
+    copyOrdersToTarget()\n
     '''

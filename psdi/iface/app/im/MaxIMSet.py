@@ -1,6 +1,8 @@
-def MaxIMSet():
-    '''public MaxIMSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIMSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

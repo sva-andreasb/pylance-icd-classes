@@ -1,13 +1,17 @@
-def MuxClient():
-    '''public MuxClient(final OutputStream outputStream, final InputStream inputStream)
-    public MuxClient(final SocketChannel socketChannel)
+def ():
+    '''returns MuxClient\n\n
+    (final OutputStream outputStream, final InputStream inputStream)\n
+    (final SocketChannel socketChannel)\n
     '''
 def newRequest():
-    '''public OutboundRequest newRequest()
+    '''returns OutboundRequest\n\n
+    newRequest()\n
     '''
 def requestsInProgress():
-    '''public int requestsInProgress()
+    '''returns int\n\n
+    requestsInProgress()\n
     '''
 def shutdown():
-    '''public void shutdown(final String s)
+    '''returns None\n\n
+    shutdown(final String s)\n
     '''

@@ -1,6 +1,8 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def newProviderInstance():
-    '''public Handler newProviderInstance(final WSDDService service, final EngineConfiguration registry)
+    '''returns Handler\n\n
+    newProviderInstance(final WSDDService service, final EngineConfiguration registry)\n
     '''

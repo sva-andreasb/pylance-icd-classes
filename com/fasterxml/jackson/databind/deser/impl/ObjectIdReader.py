@@ -1,18 +1,20 @@
-def construct():
-    '''public static ObjectIdReader construct(final JavaType idType, final PropertyName propName, final ObjectIdGenerator<?> generator, final JsonDeserializer<?> deser, final SettableBeanProperty idProp, final ObjectIdResolver resolver)
-    '''
 def getDeserializer():
-    '''public JsonDeserializer<Object> getDeserializer()
+    '''returns JsonDeserializer<Object>\n\n
+    getDeserializer()\n
     '''
 def getIdType():
-    '''public JavaType getIdType()
+    '''returns JavaType\n\n
+    getIdType()\n
     '''
 def maySerializeAsObject():
-    '''public boolean maySerializeAsObject()
+    '''returns boolean\n\n
+    maySerializeAsObject()\n
     '''
 def isValidReferencePropertyName():
-    '''public boolean isValidReferencePropertyName(final String name, final JsonParser parser)
+    '''returns boolean\n\n
+    isValidReferencePropertyName(final String name, final JsonParser parser)\n
     '''
 def readObjectReference():
-    '''public Object readObjectReference(final JsonParser jp, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    readObjectReference(final JsonParser jp, final DeserializationContext ctxt)\n
     '''

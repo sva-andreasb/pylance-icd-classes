@@ -1,6 +1,8 @@
 def getCTChartSpace():
-    '''public CTChartSpace getCTChartSpace()
+    '''returns CTChartSpace\n\n
+    getCTChartSpace()\n
     '''
 def getCTChart():
-    '''public CTChart getCTChart()
+    '''returns CTChart\n\n
+    getCTChart()\n
     '''

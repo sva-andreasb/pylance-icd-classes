@@ -1,83 +1,110 @@
-def Stub():
-    '''public Stub()
+def ():
+    '''returns Stub\n\n
+    ()\n
     '''
 def _setProperty():
-    '''public void _setProperty(final String name, final Object value)
+    '''returns None\n\n
+    _setProperty(final String name, final Object value)\n
     '''
 def _getProperty():
-    '''public Object _getProperty(final String name)
+    '''returns Object\n\n
+    _getProperty(final String name)\n
     '''
 def removeProperty():
-    '''public Object removeProperty(final String name)
+    '''returns Object\n\n
+    removeProperty(final String name)\n
     '''
 def _getPropertyNames():
-    '''public Iterator _getPropertyNames()
+    '''returns Iterator\n\n
+    _getPropertyNames()\n
     '''
 def setUsername():
-    '''public void setUsername(final String username)
+    '''returns None\n\n
+    setUsername(final String username)\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def getTimeout():
-    '''public int getTimeout()
+    '''returns int\n\n
+    getTimeout()\n
     '''
 def setTimeout():
-    '''public void setTimeout(final int timeout)
+    '''returns None\n\n
+    setTimeout(final int timeout)\n
     '''
 def getPortName():
-    '''public QName getPortName()
+    '''returns QName\n\n
+    getPortName()\n
     '''
 def setPortName():
-    '''public void setPortName(final QName portName)
-    public void setPortName(final String portName)
+    '''returns None\n\n
+    setPortName(final QName portName)\n
+    setPortName(final String portName)\n
     '''
 def setMaintainSession():
-    '''public void setMaintainSession(final boolean session)
+    '''returns None\n\n
+    setMaintainSession(final boolean session)\n
     '''
 def setHeader():
-    '''public void setHeader(final String namespace, final String partName, final Object headerValue)
-    public void setHeader(final SOAPHeaderElement header)
+    '''returns None\n\n
+    setHeader(final String namespace, final String partName, final Object headerValue)\n
+    setHeader(final SOAPHeaderElement header)\n
     '''
 def extractAttachments():
-    '''public void extractAttachments(final Call call)
+    '''returns None\n\n
+    extractAttachments(final Call call)\n
     '''
 def addAttachment():
-    '''public void addAttachment(final Object handler)
+    '''returns None\n\n
+    addAttachment(final Object handler)\n
     '''
 def getHeader():
-    '''public SOAPHeaderElement getHeader(final String namespace, final String partName)
+    '''returns SOAPHeaderElement\n\n
+    getHeader(final String namespace, final String partName)\n
     '''
 def getResponseHeader():
-    '''public SOAPHeaderElement getResponseHeader(final String namespace, final String partName)
+    '''returns SOAPHeaderElement\n\n
+    getResponseHeader(final String namespace, final String partName)\n
     '''
 def getHeaders():
-    '''public SOAPHeaderElement[] getHeaders()
+    '''returns SOAPHeaderElement[]\n\n
+    getHeaders()\n
     '''
 def getResponseHeaders():
-    '''public SOAPHeaderElement[] getResponseHeaders()
+    '''returns SOAPHeaderElement[]\n\n
+    getResponseHeaders()\n
     '''
 def getAttachments():
-    '''public Object[] getAttachments()
+    '''returns Object[]\n\n
+    getAttachments()\n
     '''
 def clearHeaders():
-    '''public void clearHeaders()
+    '''returns None\n\n
+    clearHeaders()\n
     '''
 def clearAttachments():
-    '''public void clearAttachments()
+    '''returns None\n\n
+    clearAttachments()\n
     '''
 def _getService():
-    '''public Service _getService()
+    '''returns Service\n\n
+    _getService()\n
     '''
 def _createCall():
-    '''public Call _createCall()
+    '''returns Call\n\n
+    _createCall()\n
     '''
 def _getCall():
-    '''public Call _getCall()
+    '''returns Call\n\n
+    _getCall()\n
     '''

@@ -1,42 +1,56 @@
-def CodeExceptionGen():
-    '''public CodeExceptionGen(final InstructionHandle start_pc, final InstructionHandle end_pc, final InstructionHandle handler_pc, final ObjectType catch_type)
+def ():
+    '''returns CodeExceptionGen\n\n
+    (final InstructionHandle start_pc, final InstructionHandle end_pc, final InstructionHandle handler_pc, final ObjectType catch_type)\n
     '''
 def getCodeException():
-    '''public CodeException getCodeException(final ConstantPoolGen cp)
+    '''returns CodeException\n\n
+    getCodeException(final ConstantPoolGen cp)\n
     '''
 def setStartPC():
-    '''public void setStartPC(final InstructionHandle start_pc)
+    '''returns None\n\n
+    setStartPC(final InstructionHandle start_pc)\n
     '''
 def setEndPC():
-    '''public void setEndPC(final InstructionHandle end_pc)
+    '''returns None\n\n
+    setEndPC(final InstructionHandle end_pc)\n
     '''
 def setHandlerPC():
-    '''public void setHandlerPC(final InstructionHandle handler_pc)
+    '''returns None\n\n
+    setHandlerPC(final InstructionHandle handler_pc)\n
     '''
 def updateTarget():
-    '''public void updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)
+    '''returns None\n\n
+    updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)\n
     '''
 def containsTarget():
-    '''public boolean containsTarget(final InstructionHandle ih)
+    '''returns boolean\n\n
+    containsTarget(final InstructionHandle ih)\n
     '''
 def setCatchType():
-    '''public void setCatchType(final ObjectType catch_type)
+    '''returns None\n\n
+    setCatchType(final ObjectType catch_type)\n
     '''
 def getCatchType():
-    '''public ObjectType getCatchType()
+    '''returns ObjectType\n\n
+    getCatchType()\n
     '''
 def getStartPC():
-    '''public InstructionHandle getStartPC()
+    '''returns InstructionHandle\n\n
+    getStartPC()\n
     '''
 def getEndPC():
-    '''public InstructionHandle getEndPC()
+    '''returns InstructionHandle\n\n
+    getEndPC()\n
     '''
 def getHandlerPC():
-    '''public InstructionHandle getHandlerPC()
+    '''returns InstructionHandle\n\n
+    getHandlerPC()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

@@ -1,25 +1,33 @@
-def StringFormattedMessage():
-    '''public StringFormattedMessage(final Locale locale, final String messagePattern, final Object... arguments)
-    public StringFormattedMessage(final String messagePattern, final Object... arguments)
+def ():
+    '''returns StringFormattedMessage\n\n
+    (final Locale locale, final String messagePattern, final Object... arguments)\n
+    (final String messagePattern, final Object... arguments)\n
     '''
 def getFormattedMessage():
-    '''public String getFormattedMessage()
+    '''returns String\n\n
+    getFormattedMessage()\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''

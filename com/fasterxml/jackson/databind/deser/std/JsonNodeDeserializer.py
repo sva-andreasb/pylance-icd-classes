@@ -1,14 +1,12 @@
 def getNullValue():
-    '''public JsonNode getNullValue(final DeserializationContext ctxt)
+    '''returns JsonNode\n\n
+    getNullValue(final DeserializationContext ctxt)\n
     '''
 def deserialize():
-    '''public JsonNode deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public ObjectNode deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public ObjectNode deserialize(final JsonParser p, final DeserializationContext ctxt, final ObjectNode node)
-    public ArrayNode deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public ArrayNode deserialize(final JsonParser p, final DeserializationContext ctxt, final ArrayNode node)
-    '''
-def getInstance():
-    '''public static ObjectDeserializer getInstance()
-    public static ArrayDeserializer getInstance()
+    '''returns ArrayNode\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final ObjectNode node)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final ArrayNode node)\n
     '''

@@ -1,21 +1,28 @@
-def MatchResult():
-    '''public MatchResult(final MboRemote theReceipt, final double theQty, final double theCost)
+def ():
+    '''returns MatchResult\n\n
+    (final MboRemote theReceipt, final double theQty, final double theCost)\n
     '''
 def getQty():
-    '''public double getQty()
+    '''returns double\n\n
+    getQty()\n
     '''
 def setQty():
-    '''public void setQty(final double qtyToBe)
+    '''returns None\n\n
+    setQty(final double qtyToBe)\n
     '''
 def getCost():
-    '''public double getCost()
+    '''returns double\n\n
+    getCost()\n
     '''
 def setCost():
-    '''public void setCost(final double costToBe)
+    '''returns None\n\n
+    setCost(final double costToBe)\n
     '''
 def getReceipt():
-    '''public MboRemote getReceipt()
+    '''returns MboRemote\n\n
+    getReceipt()\n
     '''
 def setReceipt():
-    '''public void setReceipt(final MboRemote receiptToBe)
+    '''returns None\n\n
+    setReceipt(final MboRemote receiptToBe)\n
     '''
